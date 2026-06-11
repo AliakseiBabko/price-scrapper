@@ -1,0 +1,22 @@
+{
+  "name": "price-scrapper",
+  "version": "1.0.0",
+  "description": "Modular scraper and data comparison engine for home appliances",
+  "main": "dist/run.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/run.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.44.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/node": "^20.14.2",
+    "tsx": "^4.15.1",
+    "typescript": "^5.4.5"
+  }
+}
