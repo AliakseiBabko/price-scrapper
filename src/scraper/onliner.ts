@@ -1,4 +1,4 @@
-import { chromium, Browser, Page } from 'playwright';
+import { chromium } from 'playwright';
 import { BaseScraper, ScraperOptions, ScrapeResult, ScrapedProduct, ScrapedOffer, ScrapedReview } from './base.js';
 import { saveScrapedData, normalizeModel, DbCategory, DbProduct, DbOffer, DbReview } from '../database/db.js';
 
@@ -30,7 +30,7 @@ export class OnlinerScraper extends BaseScraper {
     const result: ScrapeResult = {
       category: {
         id: categoryId,
-        name: categoryId === 'oven_cooker' ? 'Духовые шкафы' : categoryId,
+        name: categoryId === 'oven_cooker' ? 'Духовые шкафы' : (categoryId === 'hob_cooker' ? 'Варочные панели' : categoryId),
         url: `https://catalog.onliner.by/${categoryId}`
       },
       products: [],
@@ -142,6 +142,71 @@ export class OnlinerScraper extends BaseScraper {
             console.warn(`  Failed to extract specifications: ${err.message}`);
           }
 
+          // Fetch Reseller Offers (Positions)
+          const positionsUrl = `https://catalog.onliner.by/sdapi/shop.api/products/${productKey}/positions?town=all&town_id=17030`;
+          console.log(`  Fetching reseller offers from: ${positionsUrl}...`);
+          const scrapedOffers: ScrapedOffer[] = [];
+          try {
+            const positionsData = await page.evaluate(async (url) => {
+              const resp = await fetch(url);
+              if (!resp.ok) return { positions: {} };
+              return await resp.json();
+            }, positionsUrl);
+
+            if (positionsData && positionsData.positions) {
+              const primary = positionsData.positions.primary || [];
+              const secondary = positionsData.positions.secondary || [];
+              const allPositions = [...primary, ...secondary];
+              
+              const shopsMap = positionsData.shops || {};
+              for (const pos of allPositions) {
+                const shopId = pos.shop_id?.toString() || '';
+                const shop = shopsMap[shopId] || {};
+                
+                const price = pos.position_price?.amount ? Number(pos.position_price.amount) : undefined;
+                const resellerName = shop.title || `Shop #${shopId}`;
+                const resellerUrl = shop.html_url || '';
+                const resellerRating = shop.reviews?.rating ? Number(shop.reviews.rating) : undefined;
+                const resellerReviewsCount = shop.reviews?.count ? Number(shop.reviews.count) : 0;
+
+                scrapedOffers.push({
+                  id: `onliner:${shopId}:${productKey}`,
+                  product_id: canonicalId,
+                  source: this.sourceName,
+                  store_key: productKey,
+                  reseller_id: shopId,
+                  reseller_name: resellerName,
+                  reseller_url: resellerUrl,
+                  reseller_rating: resellerRating,
+                  reseller_reviews_count: resellerReviewsCount,
+                  price: price
+                });
+              }
+            }
+            console.log(`  Successfully scraped ${scrapedOffers.length} reseller offers.`);
+          } catch (err: any) {
+            console.warn(`  Failed to fetch reseller offers: ${err.message}`);
+          }
+
+          // Fallback if no individual offers were successfully scraped but search result has prices
+          if (scrapedOffers.length === 0 && item.prices) {
+            const priceMin = item.prices.price_min?.amount ? Number(item.prices.price_min.amount) : undefined;
+            if (priceMin) {
+              scrapedOffers.push({
+                id: `onliner:unknown:${productKey}`,
+                product_id: canonicalId,
+                source: this.sourceName,
+                store_key: productKey,
+                reseller_id: 'unknown',
+                reseller_name: 'Unknown Reseller',
+                reseller_url: '',
+                reseller_rating: undefined,
+                reseller_reviews_count: 0,
+                price: priceMin
+              });
+            }
+          }
+
           // Fetch Reviews (using API fetch in page context)
           const reviewsUrl = `https://catalog.onliner.by/sdapi/catalog.api/products/${productKey}/reviews?limit=10`;
           console.log(`  Fetching reviews from API: ${reviewsUrl}...`);
@@ -186,19 +251,6 @@ export class OnlinerScraper extends BaseScraper {
             reviews_count: reviewsCount
           };
 
-          const scrapedOffer: ScrapedOffer = {
-            id: `onliner:${productKey}`,
-            product_id: canonicalId,
-            source: this.sourceName,
-            store_key: productKey,
-            title: item.full_name,
-            url: item.prices?.html_url || item.html_url || productDetailUrl,
-            image_url: item.images?.header || undefined,
-            price_min: item.prices?.price_min?.amount ? Number(item.prices.price_min.amount) : undefined,
-            price_max: item.prices?.price_max?.amount ? Number(item.prices.price_max.amount) : undefined,
-            offers_count: item.prices?.offers?.count ? Number(item.prices.offers.count) : 0
-          };
-
           // Save directly to the DB transactionally
           const dbCategory: DbCategory = {
             id: categoryId,
@@ -217,18 +269,18 @@ export class OnlinerScraper extends BaseScraper {
             reviews_count: scrapedProduct.reviews_count
           };
 
-          const dbOffer: DbOffer = {
-            id: scrapedOffer.id,
-            product_id: scrapedOffer.product_id,
-            source: scrapedOffer.source,
-            store_key: scrapedOffer.store_key,
-            title: scrapedOffer.title,
-            url: scrapedOffer.url,
-            image_url: scrapedOffer.image_url,
-            price_min: scrapedOffer.price_min,
-            price_max: scrapedOffer.price_max,
-            offers_count: scrapedOffer.offers_count
-          };
+          const dbOffers: DbOffer[] = scrapedOffers.map(o => ({
+            id: o.id,
+            product_id: o.product_id,
+            source: o.source,
+            store_key: o.store_key,
+            reseller_id: o.reseller_id,
+            reseller_name: o.reseller_name,
+            reseller_url: o.reseller_url,
+            reseller_rating: o.reseller_rating,
+            reseller_reviews_count: o.reseller_reviews_count,
+            price: o.price
+          }));
 
           const dbReviews: DbReview[] = reviews.map(r => ({
             id: r.id,
@@ -242,11 +294,11 @@ export class OnlinerScraper extends BaseScraper {
             date: r.date
           }));
 
-          saveScrapedData(dbCategory, [dbProduct], [dbOffer], dbReviews);
+          saveScrapedData(dbCategory, [dbProduct], dbOffers, dbReviews);
 
           // Append to memory results
           result.products.push(scrapedProduct);
-          result.offers.push(scrapedOffer);
+          result.offers.push(...scrapedOffers);
           result.reviews.push(...reviews);
 
           scrapedCount++;

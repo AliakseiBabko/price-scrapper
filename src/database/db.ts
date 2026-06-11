@@ -36,25 +36,23 @@ export function initDb() {
     );
 
     CREATE TABLE IF NOT EXISTS offers (
-      id TEXT PRIMARY KEY,
-      product_id TEXT REFERENCES products(id) ON DELETE SET NULL,
+      id TEXT PRIMARY KEY, -- source:reseller_id:store_key
+      product_id TEXT REFERENCES products(id) ON DELETE CASCADE,
       source TEXT NOT NULL,
       store_key TEXT NOT NULL,
-      title TEXT NOT NULL,
-      url TEXT NOT NULL,
-      image_url TEXT,
-      price_min REAL,
-      price_max REAL,
-      offers_count INTEGER DEFAULT 0,
+      reseller_id TEXT NOT NULL,
+      reseller_name TEXT NOT NULL,
+      reseller_url TEXT NOT NULL,
+      reseller_rating REAL,
+      reseller_reviews_count INTEGER,
+      price REAL,
       last_updated TEXT NOT NULL
     );
 
     CREATE TABLE IF NOT EXISTS price_history (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       offer_id TEXT NOT NULL REFERENCES offers(id) ON DELETE CASCADE,
-      price_min REAL,
-      price_max REAL,
-      offers_count INTEGER DEFAULT 0,
+      price REAL,
       timestamp TEXT NOT NULL
     );
 
@@ -116,16 +114,16 @@ export interface DbProduct {
 }
 
 export interface DbOffer {
-  id: string; // source:store_key
+  id: string; // source:reseller_id:store_key
   product_id: string;
   source: string;
   store_key: string;
-  title: string;
-  url: string;
-  image_url?: string;
-  price_min?: number;
-  price_max?: number;
-  offers_count?: number;
+  reseller_id: string;
+  reseller_name: string;
+  reseller_url: string;
+  reseller_rating?: number;
+  reseller_reviews_count?: number;
+  price?: number;
 }
 
 export interface DbReview {
@@ -187,29 +185,28 @@ export const saveScrapedData = db.transaction((
     });
   }
 
-  // 3. Upsert Offers and Track Prices
+  // 3. Upsert Offers and Track Prices (reseller specific)
   const insertOffer = db.prepare(`
-    INSERT INTO offers (id, product_id, source, store_key, title, url, image_url, price_min, price_max, offers_count, last_updated)
-    VALUES ($id, $product_id, $source, $store_key, $title, $url, $image_url, $price_min, $price_max, $offers_count, datetime('now'))
+    INSERT INTO offers (id, product_id, source, store_key, reseller_id, reseller_name, reseller_url, reseller_rating, reseller_reviews_count, price, last_updated)
+    VALUES ($id, $product_id, $source, $store_key, $reseller_id, $reseller_name, $reseller_url, $reseller_rating, $reseller_reviews_count, $price, datetime('now'))
     ON CONFLICT(id) DO UPDATE SET
       product_id = excluded.product_id,
-      title = excluded.title,
-      url = excluded.url,
-      image_url = COALESCE(excluded.image_url, offers.image_url),
-      price_min = excluded.price_min,
-      price_max = excluded.price_max,
-      offers_count = excluded.offers_count,
+      reseller_name = excluded.reseller_name,
+      reseller_url = excluded.reseller_url,
+      reseller_rating = excluded.reseller_rating,
+      reseller_reviews_count = excluded.reseller_reviews_count,
+      price = excluded.price,
       last_updated = datetime('now')
   `);
 
   const insertPriceHistory = db.prepare(`
-    INSERT INTO price_history (offer_id, price_min, price_max, offers_count, timestamp)
-    VALUES (?, ?, ?, ?, datetime('now'))
+    INSERT INTO price_history (offer_id, price, timestamp)
+    VALUES (?, ?, datetime('now'))
   `);
 
   // We want to check if the latest price history record is different before inserting, or if it's a new day
   const getLatestPriceHistory = db.prepare(`
-    SELECT price_min, price_max, offers_count, timestamp
+    SELECT price, timestamp
     FROM price_history
     WHERE offer_id = ?
     ORDER BY timestamp DESC
@@ -222,27 +219,23 @@ export const saveScrapedData = db.transaction((
       product_id: offer.product_id,
       source: offer.source,
       store_key: offer.store_key,
-      title: offer.title,
-      url: offer.url,
-      image_url: offer.image_url || null,
-      price_min: offer.price_min ?? null,
-      price_max: offer.price_max ?? null,
-      offers_count: offer.offers_count ?? 0
+      reseller_id: offer.reseller_id,
+      reseller_name: offer.reseller_name,
+      reseller_url: offer.reseller_url,
+      reseller_rating: offer.reseller_rating ?? null,
+      reseller_reviews_count: offer.reseller_reviews_count ?? 0,
+      price: offer.price ?? null
     });
 
     // Price History Ingestion
-    const latest = getLatestPriceHistory.get(offer.id) as { price_min: number | null, price_max: number | null, offers_count: number, timestamp: string } | undefined;
+    const latest = getLatestPriceHistory.get(offer.id) as { price: number | null, timestamp: string } | undefined;
     
     const today = new Date().toISOString().split('T')[0];
-    const isDifferent = !latest || 
-      latest.price_min !== offer.price_min || 
-      latest.price_max !== offer.price_max ||
-      latest.offers_count !== offer.offers_count;
-    
+    const isDifferent = !latest || latest.price !== offer.price;
     const isNewDay = latest && latest.timestamp.split(' ')[0] !== today;
 
     if (isDifferent || isNewDay) {
-      insertPriceHistory.run(offer.id, offer.price_min ?? null, offer.price_max ?? null, offer.offers_count ?? 0);
+      insertPriceHistory.run(offer.id, offer.price ?? null);
     }
   }
 

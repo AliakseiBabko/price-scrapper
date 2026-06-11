@@ -10,16 +10,16 @@ export interface ScrapedProduct {
 }
 
 export interface ScrapedOffer {
-  id: string; // source:store_key
+  id: string; // source:reseller_id:store_key
   product_id: string;
   source: string;
   store_key: string;
-  title: string;
-  url: string;
-  image_url?: string;
-  price_min?: number;
-  price_max?: number;
-  offers_count?: number;
+  reseller_id: string;
+  reseller_name: string;
+  reseller_url: string;
+  reseller_rating?: number;
+  reseller_reviews_count?: number;
+  price?: number;
 }
 
 export interface ScrapedReview {
