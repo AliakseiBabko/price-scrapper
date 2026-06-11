@@ -11,7 +11,7 @@
 1. **Full Pyrolysis (Grease Elimination)**: 
    - **Reasoning**: Unlike catalytic panels (which degrade over time and don't cover the whole oven) or steam cleaning (which only softens light dirt), **Pyrolytic cleaning (500°C)** burns all grease and organic residue into ash. This is critical for saving time in a family with two children (3 and 6 years old) without using harsh chemical sprays.
 2. **3-Point PerfectRoast Plus Temperature Probe**: 
-   - **Reasoning**: Traditional single-point probes can give false readings if the tip accidentally hits a bone or fat pocket. The 3-point probe measures temperature at three different points along its shaft and uses the lowest value, guaranteeing that meat (e.g. large roasts, chicken) is cooked to a safe temperature for children while remaining juicy.
+   - **Reasoning**: Traditional single-point probes can give false readings if the tip accidentally hits a fat pocket or bone. The 3-point probe measures temperature at three different points along its shaft and uses the lowest value, guaranteeing that meat (e.g. large roasts, chicken) is cooked to a safe temperature for children while remaining juicy.
 3. **Child Safety (Cool Door & High Placement)**:
    - **Reasoning**: Placing the oven in a chest-level column keeps controls out of reach of a 3-year-old. Because it features pyrolysis, the door has **4 layers of glass** by default. Even when the oven operates at high temperatures, the outer glass surface remains safe to touch (below 30-40°C), protecting children from burns.
 4. **Column Aesthetics**:
