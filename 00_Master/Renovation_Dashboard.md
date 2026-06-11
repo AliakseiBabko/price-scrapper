@@ -35,7 +35,7 @@ Below is the list of rooms in your floor plan. Click on any room's link to open 
 
 * **🌟 Primary Premium Set (Kitchen)**: `13,883 rubles` (see [[Kitchen_Appliance_Sets]])
 * **⚖️ Alternative Set 2 (Kitchen)**: `9,631 rubles`
-* **💰 Alternative Set 3 (Kitchen)**: `6,150 rubles`
+* **💰 Alternative Set 3 (Kitchen)**: `6,384 rubles`
 * **🛠️ Other Rooms (Estimated)**: *TBD*
 
 ---
