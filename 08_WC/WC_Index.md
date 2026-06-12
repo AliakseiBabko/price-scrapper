@@ -17,6 +17,11 @@
 * **Lighting**: *Placeholder* (Recommendation: Built-in spotlights or vertical LED strip lights for a modern look).
 * **Exhaust Fan**: *Placeholder* (Recommendation: Forced ventilation linked to the light switch with a timer delay).
 
+## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
+* **Essential Hygiene**: Hygienic bidet shower is critical for family convenience.
+* **Child Accessibility**: Compact sink must be usable by young children using a step stool.
+* **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+
 ## 🛁 Plumbing & Layout
 * **Toilet**: *Placeholder* (Recommendation: Wall-hung toilet with built-in installation system like Geberit or Grohe for easier cleaning).
 * **Small Sink**: *Placeholder* (Recommendation: Compact corner or narrow washbasin).

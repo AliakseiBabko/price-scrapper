@@ -18,6 +18,11 @@
 * **Task Lighting**: *Placeholder* (Recommendation: Adjustable desk lamps for study area).
 * **Night Light / Accent**: *Placeholder* (Recommendation: Soft wall sconces or dimmable LED strip).
 
+## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
+* **Occupants**: Two children (ages 3 and 6).
+* **Key Needs**: Shared sleep configuration, ample accessible toy storage, and study desk space.
+* **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+
 ## 🛋️ Furniture & Layout
 * **Sleeping Zone**: *Placeholder* (Floor plan shows two single beds arranged along the walls).
 * **Study Zone**: *Placeholder* (Double study desk option or wide desk under the window).

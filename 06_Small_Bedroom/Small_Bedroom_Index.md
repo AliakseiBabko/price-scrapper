@@ -18,6 +18,11 @@
 * **Bedside Lighting**: *Placeholder* (Recommendation: Bedside reading lamps or wall sconces).
 * **Desk Lighting**: *Placeholder* (Recommendation: Directional task lamp).
 
+## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
+* **Quiet Zone**: Study desk for work, study, or reading.
+* **Flexibility**: Dual-purpose guest bedroom or home office.
+* **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+
 ## 🛋️ Furniture & Layout
 * **Bed**: *Placeholder* (Floor plan shows a single bed with bedside table).
 * **Work Desk / Study**: *Placeholder* (Desk setup with ergonomic chair).

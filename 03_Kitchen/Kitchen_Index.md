@@ -17,6 +17,11 @@
 * **Worktop Task Lights**: *Placeholder* (Under-cabinet LED profile).
 * **Main Room Lights**: *Placeholder* (Recessed spots or flush mount ceiling fixture).
 
+## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
+* **Cookware Geometry**: We only use **round pots and pans** (thick-bottomed aluminum and cast iron). Rectangular pans are not used, and duck pan cooking is rare.
+* **Coils over Flex Zones**: The benefits of Flex Zones are not obvious for our use cases. A standard layout with **4-5 circular induction coils** is preferred.
+* **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+
 ## 🔌 Appliances (Selection Complete)
 * **Primary Set Status**: Approved (`13,883 rubles` budget).
 * **Details**: Review the options and individual specifications in **[[Kitchen_Appliance_Sets]]**:

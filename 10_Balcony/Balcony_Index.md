@@ -17,6 +17,11 @@
 * **Lighting**: *Placeholder* (Recommendation: Outdoor-rated wall sconces or warm ceiling spotlights).
 * **Sockets**: *Placeholder* (Recommendation: IP55 protective cover socket for outdoor laptop use or chargers).
 
+## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
+* **Weatherproof Zone**: Flooring and walls must handle temperature swings and direct sunlight.
+* **Leisure & Utility**: Outdoor relaxation area and secondary storage.
+* **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+
 ## 🛋️ Layout & Leisure
 * **Seating Area**: *Placeholder* (Floor plan shows a round table with 4 chairs).
 * **Storage**: *Placeholder* (Recommendation: Tall weatherproof cabinet on one end of the balcony for seasonal items).

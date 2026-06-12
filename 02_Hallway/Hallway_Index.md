@@ -15,6 +15,11 @@
 ## 💡 Lighting & Ceiling
 * **Lighting Fixtures**: *Placeholder* (Recommendation: Recessed linear LED lights or track lighting along the corridor path).
 
+## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
+* **Durability**: Connecting hallway for the family. Walls must use highly durable, washable paint/finish.
+* **Storage**: Built-in closet space (`1747 mm` wide) for family wardrobe storage.
+* **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+
 ## 🛋️ Furniture & Layout
 * **Storage Wardrobe**: *Placeholder* (Floor plan shows built-in wardrobe option `1747 mm` wide and `600 mm` deep).
 * **Console Table**: *Placeholder*

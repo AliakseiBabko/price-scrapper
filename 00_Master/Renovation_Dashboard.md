@@ -9,6 +9,7 @@ Welcome to your apartment renovation planning vault! This dashboard provides an 
 * **Total Floor Area (Interior)**: `63.46 m²`
 * **Balcony Area**: `6.02 m²`
 * **Total Project Area**: `69.48 m²`
+* **👨‍👩‍👧‍👦 Family Profile & Needs**: General requirements, preferences, and daily use scenarios are detailed in **[[Family_Requirements]]**.
 
 ---
 

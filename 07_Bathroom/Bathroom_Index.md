@@ -17,6 +17,11 @@
 * **Lighting**: *Placeholder* (Recommendation: IP44 waterproof rated recessed LED spotlights).
 * **Sockets**: *Placeholder* (Recommendation: IP44 sockets for hairdryer/shaver, placed safely away from direct water contact).
 
+## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
+* **Kids' Safety**: Daily bathing for young kids (3 and 6 years). Requires slip-resistant tiles and safe bath entry.
+* **Storage**: Towel storage, toy bins, and accessible vanity drawers for children.
+* **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+
 ## 🛁 Plumbing & Layout
 * **Bathtub**: *Placeholder* (Floor plan shows a tub setup).
 * **Vanity & Washbasin**: *Placeholder*

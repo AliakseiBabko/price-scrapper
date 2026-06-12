@@ -18,6 +18,12 @@
 * **Lighting**: *Placeholder* (Recommendation: Bright utility LED panel or spotlight).
 * **Ventilation**: *Placeholder* (Recommendation: Dedicated active exhaust fan to extract heat and humidity from the dryer).
 
+## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
+* **Load Profile**: Family of 4 with children (3 and 6 years) washes large amounts of clothes and bedding. Large-capacity machines are required.
+* **Selection Focus**: **Convenience, durability, and reliability** are prioritized over styling or marketing appeal.
+* **Aesthetics**: Appearance is secondary; black or white finishes are both fully acceptable.
+* **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+
 ## 🔌 Appliances (Selection Complete)
 * **Status**: LG V9 Flagship Pair Approved (`7,242 р.` budget).
 * **Details**: Review the options and individual specifications in **[[Laundry_Appliance_Sets]]**:
