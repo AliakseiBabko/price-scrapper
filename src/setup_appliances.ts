@@ -14,20 +14,20 @@ const appliances = [
   { model: "HBG578EB3", brand: "Bosch", releaseYear: "2020 - 2024" },
   { model: "BFL524MB0", brand: "Bosch", releaseYear: "2020 - 2024" },
   { model: "PIE631HB1E", brand: "Bosch", releaseYear: "2023 - 2026" },
-  { model: "SMV6ECX08E", brand: "Bosch", releaseYear: "2023 - 2026" },
+  { model: "SMV8YCX02E", brand: "Bosch", releaseYear: "2023 - 2026" },
 
   // Kitchen Set 3 (Gorenje Manual)
   { model: "BPSA6747A08BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
   { model: "BM251M2BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
   { model: "GI6401BSC", brand: "Gorenje", releaseYear: "2021 - 2025" },
-  { model: "GV643E90", brand: "Gorenje", releaseYear: "2022 - 2025" },
+  { model: "GV643D90", brand: "Gorenje", releaseYear: "2022 - 2025" },
   { model: "BHI626E6B", brand: "Gorenje", releaseYear: "2020 - 2025" },
 
   // Kitchen Set 4 (Electrolux Touch)
   { model: "EOE7P31Z", brand: "Electrolux", releaseYear: "2021 - 2025" },
   { model: "LMS4253TMK", brand: "Electrolux", releaseYear: "2021 - 2025" },
-  { model: "KEGB9305L", brand: "Electrolux", releaseYear: "2021 - 2025" },
-  { model: "LFG716R", brand: "Electrolux", releaseYear: "2021 - 2025" },
+  { model: "EEM48321L", brand: "Electrolux", releaseYear: "2021 - 2025" },
+  { model: "LFP326FB", brand: "Electrolux", releaseYear: "2021 - 2025" },
 
   // Laundry Set 1 (LG V9)
   { model: "F4V9LA2W", brand: "LG", releaseYear: "2019 - 2024" },
