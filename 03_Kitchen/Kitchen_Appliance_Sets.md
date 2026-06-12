@@ -26,6 +26,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
 | **Cooktop**    | [[Bosch_PIF63KHC1E_Cooktop]] (2,168р.)    | Bosch PIE631HB1E (1,386р.)              | Electrolux EIT61443B (1,289р.)       |
 | **Dishwasher** | [[Bosch_SMV8YCX02E_Dishwasher]] (2,999р.) | Bosch SMV6ECX08E (3,122р.)              | Gorenje GV643E90 (1,639р.)           |
 | **Hood**       | [[Bosch_DHL555BL_Hood]] (1,431р.)         | [[Bosch_DHL555BL_Hood]] (1,431р.)       | MAUNFELD Crosby Singolo 60 (450р.)   |
+| **Release Years** | Oven/MW: **2023 - 2024**                  | Oven/MW: **2020**                         | Oven/MW: **2021**                    |
 | **TOTAL**      | **13,883 rubles**                         | **9,493 rubles**                        | **7,011 rubles**                     |
 
 ---

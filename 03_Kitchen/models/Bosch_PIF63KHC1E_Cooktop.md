@@ -3,6 +3,7 @@
 * **Category**: Induction Hob
 * **Price**: ~2,168 rubles
 * **Key Specifications**: Serie 6, 4 induction zones, 1 extra-large 28 cm circular expandable zone, DirectSelect control, steel trim.
+* **Market Release / Years**: **2023 - 2026** (Modern Serie 6 line)
 
 ---
 

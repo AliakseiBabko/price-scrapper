@@ -3,6 +3,7 @@
 * **Category**: Built-in Microwave
 * **Price**: ~2,379 rubles
 * **Key Specifications**: Serie 8, 21L volume, 900W max, matching TFT color display.
+* **Market Release / Years**: **2024 - 2026** (Digital touch ring + TFT Generation, matches oven)
 
 ---
 

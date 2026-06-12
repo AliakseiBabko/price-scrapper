@@ -4,40 +4,40 @@ import { chromium } from 'playwright';
 
 const appliances = [
   // Kitchen Set 1 (Premium)
-  { model: "HBG7764B1", brand: "Bosch" },
-  { model: "BFL7221B1", brand: "Bosch" },
-  { model: "PIF63KHC1E", brand: "Bosch" },
-  { model: "SMV8YCX02E", brand: "Bosch" },
-  { model: "DHL555BL", brand: "Bosch" },
+  { model: "HBG7764B1", brand: "Bosch", releaseYear: "2023 - 2026" },
+  { model: "BFL7221B1", brand: "Bosch", releaseYear: "2024 - 2026" },
+  { model: "PIF63KHC1E", brand: "Bosch", releaseYear: "2023 - 2026" },
+  { model: "SMV8YCX02E", brand: "Bosch", releaseYear: "2023 - 2026" },
+  { model: "DHL555BL", brand: "Bosch", releaseYear: "2015 - 2026" },
 
   // Kitchen Set 2 (Balanced)
-  { model: "HBG578EB3", brand: "Bosch" },
-  { model: "BFL524MS0", brand: "Bosch" },
-  { model: "PIE631HB1E", brand: "Bosch" },
-  { model: "SMV6ECX08E", brand: "Bosch" },
+  { model: "HBG578EB3", brand: "Bosch", releaseYear: "2020 - 2024" },
+  { model: "BFL524MS0", brand: "Bosch", releaseYear: "2020 - 2024" },
+  { model: "PIE631HB1E", brand: "Bosch", releaseYear: "2023 - 2026" },
+  { model: "SMV6ECX08E", brand: "Bosch", releaseYear: "2023 - 2026" },
 
   // Kitchen Set 3 (Economy)
-  { model: "BPSA6747A08BG", brand: "Gorenje" },
-  { model: "BM201AG1BG", brand: "Gorenje" },
-  { model: "EIT61443B", brand: "Electrolux" },
-  { model: "GV643E90", brand: "Gorenje" },
-  { model: "Crosby Singolo 60", brand: "MAUNFELD" },
+  { model: "BPSA6747A08BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
+  { model: "BM201AG1BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
+  { model: "EIT61443B", brand: "Electrolux", releaseYear: "2021 - 2025" },
+  { model: "GV643E90", brand: "Gorenje", releaseYear: "2022 - 2025" },
+  { model: "Crosby Singolo 60", brand: "MAUNFELD", releaseYear: "2020 - 2025" },
 
   // Laundry Set 1 (LG V9)
-  { model: "F4V9LA2W", brand: "LG" },
-  { model: "DC90V9V9WN", brand: "LG" },
+  { model: "F4V9LA2W", brand: "LG", releaseYear: "2019 - 2024" },
+  { model: "DC10V9V9E", brand: "LG", releaseYear: "2024 - 2026" },
 
   // Laundry Set 2 (Samsung Bespoke)
-  { model: "WW11CB944CGHLP", brand: "Samsung" },
-  { model: "DV90BB9445GHLP", brand: "Samsung" },
+  { model: "WW11CB944CGHLP", brand: "Samsung", releaseYear: "2023 - 2026" },
+  { model: "DV90BB9445GHLP", brand: "Samsung", releaseYear: "2023 - 2026" },
 
   // Laundry Set 3 (Bosch ME)
-  { model: "WGB244040", brand: "Bosch" },
-  { model: "WQB245B0ME", brand: "Bosch" },
+  { model: "WGB244040", brand: "Bosch", releaseYear: "2023 - 2026" },
+  { model: "WQB245B0ME", brand: "Bosch", releaseYear: "2023 - 2026" },
 
   // Laundry Set 4 (Bosch Premium)
-  { model: "WGB244A40", brand: "Bosch" },
-  { model: "WQB245B40", brand: "Bosch" }
+  { model: "WGB244A40", brand: "Bosch", releaseYear: "2023 - 2026" },
+  { model: "WQB245B40", brand: "Bosch", releaseYear: "2023 - 2026" }
 ];
 
 async function main() {
@@ -85,7 +85,7 @@ async function main() {
         console.log(`  Found product: "${product.full_name}" with key "${product.key}" under category "${categoryId}"`);
         
         // Scraping the details and saving to DB + downloading image
-        await scraper.scrapeSingle(product.key, categoryId, item.brand);
+        await scraper.scrapeSingle(product.key, categoryId, item.brand, (item as any).releaseYear);
         console.log(`  Successfully ingested ${item.brand} ${item.model}`);
       } else {
         console.warn(`  ⚠️ No product found on Onliner for query "${item.model}"`);

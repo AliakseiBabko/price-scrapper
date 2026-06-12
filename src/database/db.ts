@@ -33,6 +33,7 @@ export function initDb() {
       title TEXT NOT NULL,
       specs_json TEXT NOT NULL,
       image_url TEXT,
+      release_year TEXT,
       rating REAL DEFAULT 0.0,
       reviews_count INTEGER DEFAULT 0,
       last_updated TEXT NOT NULL
@@ -79,9 +80,14 @@ export function initDb() {
     CREATE INDEX IF NOT EXISTS idx_price_history_offer ON price_history(offer_id);
   `);
 
-  // Migrate existing databases to have the image_url column
+  // Migrate existing databases to have the image_url and release_year columns
   try {
     db.exec("ALTER TABLE products ADD COLUMN image_url TEXT;");
+  } catch (e) {
+    // Column already exists, ignore error
+  }
+  try {
+    db.exec("ALTER TABLE products ADD COLUMN release_year TEXT;");
   } catch (e) {
     // Column already exists, ignore error
   }
@@ -120,6 +126,7 @@ export interface DbProduct {
   title: string;
   specs_json: string;
   image_url?: string;
+  release_year?: string;
   rating?: number;
   reviews_count?: number;
 }
@@ -170,8 +177,8 @@ export const saveScrapedData = db.transaction((
 
   // 2. Upsert Products
   const insertProduct = db.prepare(`
-    INSERT INTO products (id, category_id, brand, model, title, specs_json, image_url, rating, reviews_count, last_updated)
-    VALUES ($id, $category_id, $brand, $model, $title, $specs_json, $image_url, COALESCE($rating, 0.0), COALESCE($reviews_count, 0), datetime('now'))
+    INSERT INTO products (id, category_id, brand, model, title, specs_json, image_url, rating, reviews_count, release_year, last_updated)
+    VALUES ($id, $category_id, $brand, $model, $title, $specs_json, $image_url, COALESCE($rating, 0.0), COALESCE($reviews_count, 0), $release_year, datetime('now'))
     ON CONFLICT(id) DO UPDATE SET
       category_id = excluded.category_id,
       brand = excluded.brand,
@@ -181,6 +188,7 @@ export const saveScrapedData = db.transaction((
       image_url = CASE WHEN excluded.image_url IS NOT NULL THEN excluded.image_url ELSE products.image_url END,
       rating = CASE WHEN excluded.rating > 0 THEN excluded.rating ELSE products.rating END,
       reviews_count = CASE WHEN excluded.reviews_count > 0 THEN excluded.reviews_count ELSE products.reviews_count END,
+      release_year = CASE WHEN excluded.release_year IS NOT NULL THEN excluded.release_year ELSE products.release_year END,
       last_updated = datetime('now')
   `);
 
@@ -194,7 +202,8 @@ export const saveScrapedData = db.transaction((
       specs_json: prod.specs_json,
       image_url: prod.image_url ?? null,
       rating: prod.rating ?? 0,
-      reviews_count: prod.reviews_count ?? 0
+      reviews_count: prod.reviews_count ?? 0,
+      release_year: prod.release_year ?? null
     });
   }
 

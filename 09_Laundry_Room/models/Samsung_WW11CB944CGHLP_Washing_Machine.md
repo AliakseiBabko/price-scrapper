@@ -3,6 +3,7 @@
 * **Category**: Front-loading Washing Machine
 * **Price**: Included in the Samsung Bespoke set (~7,198 rubles total)
 * **Key Specifications**: 11 kg load, SpaceMax drum, EcoBubble technology, AI Wash (auto-dosing & fabric sensing), Bespoke Matte Finish (Satin Greige), SmartThings Wi-Fi.
+* **Market Release / Years**: **2023 - 2026** (Samsung Bespoke Gen C line)
 
 ---
 

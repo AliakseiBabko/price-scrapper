@@ -3,6 +3,7 @@
 * **Category**: Front-loading Washing Machine
 * **Price**: Included in the Bosch ME set (~7,204 rubles total)
 * **Key Specifications**: 9 kg load, 1400 RPM spin speed, EcoSilence Drive motor, SpeedPerfect, anti-vibration design, Serie 8 dashboard.
+* **Market Release / Years**: **2023 - 2026** (Serie 8 generation)
 
 ---
 

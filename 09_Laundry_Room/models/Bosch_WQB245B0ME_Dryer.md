@@ -3,6 +3,7 @@
 * **Category**: Condensation Tumble Dryer with Heat Pump
 * **Price**: Included in the Bosch ME set (~6,976 rubles total)
 * **Key Specifications**: 9 kg load, Heat Pump technology, SelfCleaning Condenser, SensitiveDrying System, Wi-Fi.
+* **Market Release / Years**: **2023 - 2026** (Serie 8 heat pump generation)
 
 ---
 

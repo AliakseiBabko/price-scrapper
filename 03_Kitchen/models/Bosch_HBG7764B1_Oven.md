@@ -3,6 +3,7 @@
 * **Category**: Built-in Oven
 * **Price**: ~4,906 rubles
 * **Key Specifications**: Serie 8, Pyrolysis, 3-point PerfectRoast Plus temperature probe, 71L volume, 4D HotAir.
+* **Market Release / Years**: **2023 - 2026** (Digital touch ring + TFT Generation)
 
 ---
 

@@ -19,9 +19,9 @@
 * **Ventilation**: *Placeholder* (Recommendation: Dedicated active exhaust fan to extract heat and humidity from the dryer).
 
 ## 🔌 Appliances (Selection Complete)
-* **Status**: LG V9 Flagship Pair Approved (`5,398 р.` budget).
+* **Status**: LG V9 Flagship Pair Approved (`7,242 р.` budget).
 * **Details**: Review the options and individual specifications in **[[Laundry_Appliance_Sets]]**:
-  - **Dryer**: [[LG_DC90V9V9WN_Dryer]] (stacked on top)
+  - **Dryer**: [[LG_DC10V9V9E_Dryer]] (stacked on top)
   - **Washing Machine**: [[LG_F4V9LA2W_Washing_Machine]] (on bottom)
   - **Stacking Kit**: LG KSTK1 Connection Kit
 

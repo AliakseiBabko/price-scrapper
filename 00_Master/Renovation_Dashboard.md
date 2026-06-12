@@ -38,7 +38,7 @@ Below is the list of rooms in your floor plan. Click on any room's link to open 
   - **⚖️ Alternative Set 2 (Balanced)**: `9,493 rubles`
   - **💰 Alternative Set 3 (Economy)**: `7,011 rubles`
 * **🧺 Laundry Sets**:
-  - **🌟 Primary Set (LG V9)**: `5,398 rubles` (see [[Laundry_Appliance_Sets]])
+  - **🌟 Primary Set (LG V9)**: `7,242 rubles` (see [[Laundry_Appliance_Sets]])
   - **⚖️ Alternative Set 2 (Bosch ME)**: `7,204 rubles`
   - **💎 Alternative Set 3 (Bosch Premium)**: `8,732 rubles`
   - **🎨 Alternative Set 4 (Samsung Bespoke)**: `7,198 rubles`

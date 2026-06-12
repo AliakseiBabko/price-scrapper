@@ -3,6 +3,7 @@
 * **Category**: Front-loading Washing Machine
 * **Price**: Included in the Bosch Premium i-DOS set (~8,732 rubles total)
 * **Key Specifications**: 9 kg load, 1400 RPM spin speed, i-DOS auto-dosing system, EcoSilence Drive motor, Home Connect, anti-vibration design, European assembly.
+* **Market Release / Years**: **2023 - 2026** (Premium Serie 8 i-DOS generation)
 
 ---
 

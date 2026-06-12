@@ -64,12 +64,13 @@ async function main() {
     }
 
     console.log(`\n==================================================`);
-    console.log(`Title:       ${product.title}`);
-    console.log(`Brand:       ${product.brand}`);
-    console.log(`Model:       ${product.model}`);
-    console.log(`Color:       ${getProductColor(product.specs_json)}`);
-    console.log(`Rating:      ${product.rating} ★ (${product.reviews_count} reviews)`);
-    console.log(`Updated:     ${product.last_updated}`);
+    console.log(`Title:        ${product.title}`);
+    console.log(`Brand:        ${product.brand}`);
+    console.log(`Model:        ${product.model}`);
+    console.log(`Color:        ${getProductColor(product.specs_json)}`);
+    console.log(`Release Year: ${product.release_year || 'N/A'}`);
+    console.log(`Rating:       ${product.rating} ★ (${product.reviews_count} reviews)`);
+    console.log(`Updated:      ${product.last_updated}`);
     console.log(`==================================================`);
 
     // Query reseller offers

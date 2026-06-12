@@ -329,7 +329,7 @@ export class OnlinerScraper extends BaseScraper {
     return result;
   }
 
-  async scrapeSingle(productKey: string, categoryId: string, brand: string): Promise<ScrapeResult> {
+  async scrapeSingle(productKey: string, categoryId: string, brand: string, releaseYear?: string): Promise<ScrapeResult> {
     console.log(`Directly scraping single product: ${productKey} (category: ${categoryId}, brand: ${brand})...`);
     const browser = await chromium.launch({ headless: true });
     const context = await browser.newContext({
@@ -546,6 +546,7 @@ export class OnlinerScraper extends BaseScraper {
         title: scrapedProduct.title,
         specs_json: JSON.stringify(scrapedProduct.specs),
         image_url: resolvedImageUrl || undefined,
+        release_year: releaseYear,
         rating: scrapedProduct.rating,
         reviews_count: scrapedProduct.reviews_count
       };

@@ -3,6 +3,7 @@
 * **Category**: Condensation Tumble Dryer with Heat Pump
 * **Price**: Included in the Bosch Premium i-DOS set (~8,732 rubles total)
 * **Key Specifications**: 9 kg load, Heat Pump, SelfCleaning Condenser, Iron Assist (steam treatment), Home Connect, SensitiveDrying System.
+* **Market Release / Years**: **2023 - 2026** (Premium Serie 8 heat pump with Iron Assist)
 
 ---
 

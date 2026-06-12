@@ -3,6 +3,7 @@
 * **Category**: Fully Integrated Dishwasher (60 cm)
 * **Price**: ~2,999 rubles
 * **Key Specifications**: Serie 8, Zeolith drying, 43 dB noise level (SuperSilence), 14 place settings, TFT display, emotionLight.
+* **Market Release / Years**: **2023 - 2026** (Premium Serie 8 line with Zeolith)
 
 ---
 
