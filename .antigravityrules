@@ -1,0 +1,58 @@
+# AI Coding Assistant Rules for price-scrapper Repository
+
+> [!IMPORTANT]
+> **CRITICAL RULE FOR NEW CHATS / SESSIONS:**
+> Read this file immediately at the beginning of every new chat session to preserve project context, pricing guidelines, styling requirements, and set layouts.
+
+---
+
+## 💰 1. Pricing Rules (Lowest Reliable Price)
+When saving, calculating, or displaying prices for hobs, ovens, dishwashers, washing machines, dryers, and hoods:
+- **Rule**: Always use the **Lowest Reliable Price**.
+- **Definition of "Reliable Seller"**: A seller on `catalog.onliner.by` with:
+  1. **Rating**: Equal to or greater than **4.0** ($\ge 4.0 ★$)
+  2. **Reviews**: More than **1000 reviews** ($> 1000$ reviews)
+- **Database Query**: When querying prices or using the database, refer to this logic (implemented in `src/query.ts` as `reliable`).
+
+---
+
+## 🍳 2. Kitchen Set Requirements
+- **Fully Black Glass Fronts**: All kitchen appliances (ovens, microwaves, hobs, and hoods) must be **fully black glass** with no visible stainless steel, chrome, or silver trim when closed/installed.
+- **Induction Cooktops**: Hobs must feature standard **round induction coils** only (no flex zones or bridge zones), matching the family's preference for standard round cast iron and thick aluminum pans.
+- **Dishwashers**:
+  - Must be 60 cm fully integrated models.
+  - Must have floor light indication: either a projection dot (**InfoLight**) or remaining time in minutes (**TimeBeam**).
+- **Hoods**: Prefer manual/mechanical speed regulation (e.g. push-buttons or sliders) over automated wireless control (e.g. WiFi/Hob2Hood), as Hob2Hood automation is explicitly not desired.
+- **Refrigerators (Liebherr Built-in Side-by-Side)**:
+  - Large: **Liebherr IXRFS 5125 Plus** (500 L, Height 177 cm, BioFresh/NoFrost, ~9,700–11,336 BYN).
+  - Compact: **Liebherr IXRF 4555 Prime** (374 L, Height 139.5 cm, BioFresh/NoFrost, ~14,887–16,417 BYN).
+
+
+---
+
+## 🧺 3. Laundry Set Requirements
+- **Generation & Control Match**: Washing machine and dryer pairs in each set must be design-matched and generation-matched (sharing the same style and control panel layout).
+- **Stacking Setup**: Dryers are always stacked on top of washing machines. The stack must specify the correct stacking kit (e.g., the **LG KSTK1** kit for LG pairs).
+
+---
+
+## 📊 4. Set Layout & Budget Sorting
+- **Sequential Set Ordering**: Appliance sets must be named sequentially from left to right (Set 1, Set 2, Set 3, Set 4).
+- **Budget Sort Order**: Sets must be sorted from left to right in **strictly descending order of their total budget**:
+  - **Set 1 (Bosch Touch)**: Premium set (~13,883 BYN)
+  - **Set 2 (Electrolux Touch)**: All-touch interface (~9,048 BYN)
+  - **Set 3 (Bosch Manual)**: Balanced dials/LCD interface (~8,515 BYN)
+  - **Set 4 (Gorenje Manual)**: Economy brand cohesion (~7,202 BYN)
+- **Currency Format**: Always display prices and budgets in **BYN** (never use "rubles" or "р.").
+
+---
+
+## 📂 5. Project Layout & Tech Stack
+- **Database**: SQLite database is stored at `data/scraper.db`.
+- **Scraper scripts**:
+  - `src/setup_appliances.ts` configures and automates searching/ingesting the 26 selected kitchen and laundry models.
+  - `src/query.ts` handles CLI search, database freshness checking, and reliable price output.
+- **Obsidian Vault Structure**:
+  - `00_Master/Family_Requirements.md` contains the master family requirements (2 adults, 2 kids ages 3 and 6).
+  - Room folders contain `models/` (Obsidian appliance sheets with image embeds) and `analysis/` (comparison tables and stacked visualization columns).
+  - In comparison tables, stacked columns (microwave over oven, dryer over washer) must be formatted with the upper device bottom-aligned and the lower device top-aligned to simulate a physical stack.

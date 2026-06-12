@@ -65,6 +65,67 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
   </tbody>
 </table>
 
+<br/>
+
+Below is a side-by-side visualization of the hood and cooktop (with the hood mounted above the cooktop):
+
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc);">
+      <th style="width: 25%; text-align: center; padding: 10px;">🌟 Set 1 (Bosch Touch)</th>
+      <th style="width: 25%; text-align: center; padding: 10px;">⚡ Set 2 (Electrolux Touch)</th>
+      <th style="width: 25%; text-align: center; padding: 10px;">⚖️ Set 3 (Bosch Manual)</th>
+      <th style="width: 25%; text-align: center; padding: 10px;">🔥 Set 4 (Gorenje Manual)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Bosch DHL555BL</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Electrolux LFP326FB</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Bosch DHL555BL</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Gorenje BHI626E6B</td>
+    </tr>
+    <tr>
+      <td style="padding: 0 10px; border: none; height: 1px; line-height: 0;">
+        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; min-height: 280px;">
+          <img src="../_assets/bosch_dhl555bl.jpg" alt="Bosch DHL555BL" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../_assets/bosch_pif63khc1e.jpg" alt="Bosch PIF63KHC1E" style="display: block; width: 100%; height: auto; margin: 0;" />
+        </div>
+      </td>
+      <td style="padding: 0 10px; border: none; height: 1px; line-height: 0;">
+        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; min-height: 280px;">
+          <img src="../_assets/electrolux_lfp326fb.jpg" alt="Electrolux LFP326FB" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../_assets/electrolux_eit61443b.jpg" alt="Electrolux EIT61443B" style="display: block; width: 100%; height: auto; margin: 0;" />
+        </div>
+      </td>
+      <td style="padding: 0 10px; border: none; height: 1px; line-height: 0;">
+        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; min-height: 280px;">
+          <img src="../_assets/bosch_dhl555bl.jpg" alt="Bosch DHL555BL" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../_assets/bosch_pie631hb1e.jpg" alt="Bosch PIE631HB1E" style="display: block; width: 100%; height: auto; margin: 0;" />
+        </div>
+      </td>
+      <td style="padding: 0 10px; border: none; height: 1px; line-height: 0;">
+        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; min-height: 280px;">
+          <img src="../_assets/gorenje_bhi626e6b.jpg" alt="Gorenje BHI626E6B" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../_assets/gorenje_goregi6401bsc.jpg" alt="Gorenje GI6401BSC" style="display: block; width: 100%; height: auto; margin: 0;" />
+        </div>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #ccc);">
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Bosch PIF63KHC1E</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Electrolux EIT61443B</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Bosch PIE631HB1E</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Gorenje GI6401BSC</td>
+    </tr>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc); background-color: var(--background-secondary, #f9f9f9); font-weight: bold;">
+      <td style="padding: 8px 10px;">💰 3,599 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">Hood + Cooktop</span></td>
+      <td style="padding: 8px 10px;">💰 2,355 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">Hood + Cooktop</span></td>
+      <td style="padding: 8px 10px;">💰 2,817 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">Hood + Cooktop</span></td>
+      <td style="padding: 8px 10px;">💰 1,358 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">Hood + Cooktop</span></td>
+    </tr>
+  </tbody>
+</table>
+
 ---
 
 ## 📊 Summary of Appliance Sets
@@ -179,3 +240,41 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
 * **Cooktop (Gorenje GI6401BSC - 929 BYN)**: Features standard touch controls and 4 circular induction coils (no flex zones), which perfectly matches the family's profile. Frameless all-black glass design.
 * **Dishwasher (Gorenje GV643D90 - 2,120 BYN)**: 16-place setting dishwasher. Replaces the basic GV643E90 to add the requested **floor light projection (луч на полу)**, 6 wash programs, and TotalDry auto-door opening.
 * **Hood (Gorenje BHI626E6B - 429 BYN)**: Fully built-in, hidden cabinet hood in black. Offers push-button controls and high extraction capacity (up to 677 m³/h).
+
+---
+
+## ❄️ Built-in Side-by-Side Refrigerator Options
+
+Below is a side-by-side visual comparison of the two premium Liebherr built-in Side-by-Side refrigerator options:
+
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc);">
+      <th style="width: 50%; text-align: center; padding: 10px;">🌟 Premium Large Option</th>
+      <th style="width: 50%; text-align: center; padding: 10px;">⚡ Premium Compact Option</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Liebherr IXRFS 5125 Plus BioFresh NoFrost</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Liebherr IXRF 4555 Prime BioFresh NoFrost</td>
+    </tr>
+    <tr>
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
+          <img src="../_assets/liebherr_ixrfs5125plus.jpg" alt="Liebherr IXRFS 5125 Plus" style="display: block; width: 100%; height: auto; margin: 0;" />
+        </div>
+      </td>
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
+          <img src="../_assets/liebherr_ixrf4555prime.jpg" alt="Liebherr IXRF 4555 Prime" style="display: block; width: 100%; height: auto; margin: 0;" />
+        </div>
+      </td>
+    </tr>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc); background-color: var(--background-secondary, #f9f9f9); font-weight: bold;">
+      <td style="padding: 8px 10px;">💰 9,700 — 11,336 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">500 L (BioFresh / NoFrost)<br/>Height: 177 cm</span></td>
+      <td style="padding: 8px 10px;">💰 14,887 — 16,417 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">374 L (BioFresh / NoFrost)<br/>Height: 139.5 cm</span></td>
+    </tr>
+  </tbody>
+</table>
+
