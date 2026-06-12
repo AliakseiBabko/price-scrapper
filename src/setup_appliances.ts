@@ -11,28 +11,28 @@ const appliances = [
   { model: "DHL555BL", brand: "Bosch" },
 
   // Kitchen Set 2 (Balanced)
-  { model: "HBG578BB0", brand: "Bosch" },
+  { model: "HBG578EB3", brand: "Bosch" },
   { model: "BFL524MS0", brand: "Bosch" },
-  { model: "PIE631FB1E", brand: "Bosch" },
-  { model: "SMV6ZDX49E", brand: "Bosch" },
+  { model: "PIE631HB1E", brand: "Bosch" },
+  { model: "SMV6ECX08E", brand: "Bosch" },
 
   // Kitchen Set 3 (Economy)
   { model: "BPSA6747A08BG", brand: "Gorenje" },
   { model: "BM201AG1BG", brand: "Gorenje" },
-  { model: "IPE6440KF", brand: "Electrolux" },
-  { model: "GV673C62", brand: "Gorenje" },
+  { model: "EIT61443B", brand: "Electrolux" },
+  { model: "GV643E90", brand: "Gorenje" },
   { model: "Crosby Singolo 60", brand: "MAUNFELD" },
 
   // Laundry Set 1 (LG V9)
   { model: "F4V9LA2W", brand: "LG" },
-  { model: "DC90V9V9E", brand: "LG" },
+  { model: "DC90V9V9WN", brand: "LG" },
 
   // Laundry Set 2 (Samsung Bespoke)
   { model: "WW11CB944CGHLP", brand: "Samsung" },
   { model: "DV90BB9445GHLP", brand: "Samsung" },
 
   // Laundry Set 3 (Bosch ME)
-  { model: "WGB24400ME", brand: "Bosch" },
+  { model: "WGB244040", brand: "Bosch" },
   { model: "WQB245B0ME", brand: "Bosch" },
 
   // Laundry Set 4 (Bosch Premium)

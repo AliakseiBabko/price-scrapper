@@ -1,14 +1,14 @@
-# 🏷️ Bosch WGB24400ME Washing Machine (9 kg)
+# 🏷️ Bosch WGB244040 Washing Machine (9 kg)
 
 * **Category**: Front-loading Washing Machine
-* **Price**: Included in the Bosch ME set (~6,976 rubles total)
+* **Price**: Included in the Bosch ME set (~7,204 rubles total)
 * **Key Specifications**: 9 kg load, 1400 RPM spin speed, EcoSilence Drive motor, SpeedPerfect, anti-vibration design, Serie 8 dashboard.
 
 ---
 
 ## 📸 Product Image
 
-![Bosch WGB24400ME](../../_assets/bosch_wgb24400me.jpg)
+![Bosch WGB244040](../../_assets/bosch_wgb244040.jpg)
 
 ---
 
@@ -20,6 +20,8 @@
    - **Reasoning**: Brushless permanent magnet motor reduces friction, making the wash cycle extremely quiet and energy efficient.
 3. **AntiVibration Design**:
    - **Reasoning**: The spiral design on the side walls increases stability and dampens noise, which is crucial for reducing drum spin vibrations in a dedicated laundry room.
+4. **Availability**:
+   - **Reasoning**: Since the WGB24400ME is out of stock, this WGB244040 model is the currently available and stocked variant of the Bosch Serie 8 washing machine on Onliner.
 
 ---
 

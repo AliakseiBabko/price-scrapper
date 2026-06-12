@@ -10,10 +10,10 @@ Below is a side-by-side visualization of how the tumble dryer and washing machin
 
 | 🌟 Primary Set (LG V9) | 🎨 Samsung Bespoke (Gen C) | ⚖️ Bosch Serie 8 (ME) | 💎 Bosch Premium (i-DOS) |
 | :---: | :---: | :---: | :---: |
-| **LG DC90V9V9E (9 kg)** | **Samsung DV90BB9445GHLP** | **Bosch WQB245B0ME (9 kg)** | **Bosch WQB245B40 (9 kg)** |
-| ![LG DC90V9V9E](../../_assets/lg_dc90v9v9e.jpg) | ![Samsung DV90BB9445GHLP](../../_assets/samsung_dv90bb9445ghlp.jpg) | ![Bosch WQB245B0ME](../../_assets/bosch_wqb245b0me.jpg) | ![Bosch WQB245B40](../../_assets/bosch_wqb245b40.jpg) |
-| ![LG F4V9LA2W](../../_assets/lg_f4v9la2w.jpg) | ![Samsung WW11CB944CGHLP](../../_assets/samsung_ww11cb944cghlp.jpg) | ![Bosch WGB24400ME](../../_assets/bosch_wgb24400me.jpg) | ![Bosch WGB244a40](../../_assets/bosch_wgb244a40.jpg) |
-| **LG F4V9LA2W (13 kg)** | **Samsung WW11CB944CGHLP** | **Bosch WGB24400ME (9 kg)** | **Bosch WGB244A40 (9 kg)** |
+| **LG DC90V9V9WN (9 kg)** | **Samsung DV90BB9445GHLP** | **Bosch WQB245B0ME (9 kg)** | **Bosch WQB245B40 (9 kg)** |
+| ![LG DC90V9V9WN](../../_assets/lg_dc90v9v9wn.jpg) | ![Samsung DV90BB9445GHLP](../../_assets/samsung_dv90bb9445ghlp.jpg) | ![Bosch WQB245B0ME](../../_assets/bosch_wqb245b0me.jpg) | ![Bosch WQB245B40](../../_assets/bosch_wqb245b40.jpg) |
+| ![LG F4V9LA2W](../../_assets/lg_f4v9la2w.jpg) | ![Samsung WW11CB944CGHLP](../../_assets/samsung_ww11cb944cghlp.jpg) | ![Bosch WGB244040](../../_assets/bosch_wgb244040.jpg) | ![Bosch WGB244a40](../../_assets/bosch_wgb244a40.jpg) |
+| **LG F4V9LA2W (13 kg)** | **Samsung WW11CB944CGHLP** | **Bosch WGB244040 (9 kg)** | **Bosch WGB244A40 (9 kg)** |
 
 > [!NOTE]
 > For the LG V9 stacked column, you will need to purchase the **LG KSTK1** stacking connection kit to securely attach the dryer on top of the washing machine.
@@ -24,9 +24,9 @@ Below is a side-by-side visualization of how the tumble dryer and washing machin
 
 | Parameter | 🌟 Primary Set (LG V9) | 🎨 Samsung Bespoke (Gen C) | ⚖️ Bosch Serie 8 (ME) | 💎 Bosch Premium (i-DOS) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Washing Machine** | [[LG_F4V9LA2W_Washing_Machine]] | [[Samsung_WW11CB944CGHLP_Washing_Machine]] | [[Bosch_WGB24400ME_Washing_Machine]] | [[Bosch_WGB244A40_Washing_Machine]] |
-| **Tumble Dryer** | [[LG_DC90V9V9E_Dryer]] | [[Samsung_DV90BB9445GHLP_Dryer]] | [[Bosch_WQB245B0ME_Dryer]] | [[Bosch_WQB245B40_Dryer]] |
-| **Total Price** | **5,698 р.** | **7,198 р.** | **6,976 р.** | **8,732 р.** |
+| **Washing Machine** | [[LG_F4V9LA2W_Washing_Machine]] | [[Samsung_WW11CB944CGHLP_Washing_Machine]] | [[Bosch_WGB244040_Washing_Machine]] | [[Bosch_WGB244A40_Washing_Machine]] |
+| **Tumble Dryer** | [[LG_DC90V9V9WN_Dryer]] | [[Samsung_DV90BB9445GHLP_Dryer]] | [[Bosch_WQB245B0ME_Dryer]] | [[Bosch_WQB245B40_Dryer]] |
+| **Total Price** | **5,398 р.** | **7,198 р.** | **7,204 р.** | **8,732 р.** |
 | **Color / Design** | White Gloss / Chrome | Satin Greige / Matte | White / Classic | White / Premium |
 | **Washing Load** | **13 kg** (Largest) | 11 kg | 9 kg | 9 kg |
 | **Drying Load** | 9 kg | 9 kg | 9 kg | 9 kg |

@@ -1,14 +1,14 @@
-# 🏷️ LG DC90V9V9E Tumble Dryer (9 kg)
+# 🏷️ LG DC90V9V9WN Tumble Dryer (9 kg)
 
 * **Category**: Condensation Tumble Dryer with Heat Pump
-* **Price**: Included in the LG Flagship set (~5,698 rubles total)
+* **Price**: Included in the LG Flagship set (~5,398 rubles total)
 * **Key Specifications**: 9 kg load, Dual Inverter Heat Pump, Self-Cleaning Condenser, Eco Hybrid, Wi-Fi.
 
 ---
 
 ## 📸 Product Image
 
-![LG DC90V9V9E](../../_assets/lg_dc90v9v9e.jpg)
+![LG DC90V9V9WN](../../_assets/lg_dc90v9v9wn.jpg)
 
 ---
 
@@ -20,6 +20,8 @@
    - **Reasoning**: Two cylinders in the compressor adjust speed dynamically, achieving high energy efficiency (A+++ energy rating) and drying fabrics gently at lower temperatures, preventing shrinkage.
 3. **Eco Hybrid**:
    - **Reasoning**: Allows you to choose between saving energy (using heat pump mode) or saving time (hybrid mode which uses a heating element to dry clothes faster).
+4. **Availability**:
+   - **Reasoning**: This is the currently available and stocked variant of the flagship LG V9 dryer on Onliner.
 
 ---
 
