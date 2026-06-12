@@ -68,39 +68,39 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
   <tbody>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Oven</td>
-      <td style="padding: 8px;">[[Bosch_HBG7764B1_Oven|Bosch HBG7764B1]] (4,906р.)</td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_HBG7764B1_Oven">Bosch HBG7764B1</a> (4,906р.)</td>
       <td style="padding: 8px;">Bosch HBG578EB3 (2,540р.)</td>
       <td style="padding: 8px;">Gorenje BPSA6747A08BG (2,499р.)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Microwave</td>
-      <td style="padding: 8px;">[[Bosch_BFL7221B1_Microwave|Bosch BFL7221B1]] (2,379р.)</td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_BFL7221B1_Microwave">Bosch BFL7221B1</a> (2,379р.)</td>
       <td style="padding: 8px;">Bosch BFL524MS0 (1,014р.)</td>
       <td style="padding: 8px;">Gorenje BM201AG1BG (1,134р.)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Cooktop</td>
-      <td style="padding: 8px;">[[Bosch_PIF63KHC1E_Cooktop|Bosch PIF63KHC1E]] (2,168р.)</td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_PIF63KHC1E_Cooktop">Bosch PIF63KHC1E</a> (2,168р.)</td>
       <td style="padding: 8px;">Bosch PIE631HB1E (1,386р.)</td>
       <td style="padding: 8px;">Electrolux EIT61443B (1,289р.)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Dishwasher</td>
-      <td style="padding: 8px;">[[Bosch_SMV8YCX02E_Dishwasher|Bosch SMV8YCX02E]] (2,999р.)</td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_SMV8YCX02E_Dishwasher">Bosch SMV8YCX02E</a> (2,999р.)</td>
       <td style="padding: 8px;">Bosch SMV6ECX08E (3,122р.)</td>
       <td style="padding: 8px;">Gorenje GV643E90 (1,639р.)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Hood</td>
-      <td style="padding: 8px;">[[Bosch_DHL555BL_Hood|Bosch DHL555BL]] (1,431р.)</td>
-      <td style="padding: 8px;">[[Bosch_DHL555BL_Hood|Bosch DHL555BL]] (1,431р.)</td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_DHL555BL_Hood">Bosch DHL555BL</a> (1,431р.)</td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_DHL555BL_Hood">Bosch DHL555BL</a> (1,431р.)</td>
       <td style="padding: 8px;">MAUNFELD Crosby Singolo 60 (450р.)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Release Years</td>
-      <td style="padding: 8px;">Oven/MW: **2023 - 2024**</td>
-      <td style="padding: 8px;">Oven/MW: **2020**</td>
-      <td style="padding: 8px;">Oven/MW: **2021**</td>
+      <td style="padding: 8px;">Oven/MW: <strong>2023 - 2024</strong></td>
+      <td style="padding: 8px;">Oven/MW: <strong>2020</strong></td>
+      <td style="padding: 8px;">Oven/MW: <strong>2021</strong></td>
     </tr>
     <tr style="border-bottom: 2px solid var(--border-color, #ccc); font-weight: bold; background-color: var(--background-secondary, #f9f9f9);">
       <td style="padding: 8px;">TOTAL</td>

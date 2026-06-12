@@ -81,19 +81,19 @@ Below is a side-by-side visualization of how the tumble dryer and washing machin
   <tbody>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Washing Machine</td>
-      <td style="padding: 8px;">[[LG_F4V9LA2W_Washing_Machine|LG F4V9LA2W]]</td>
-      <td style="padding: 8px;">[[Samsung_WW11CB944CGHLP_Washing_Machine|Samsung WW11CB944CG]]</td>
-      <td style="padding: 8px;">[[Bosch_WGB244040_Washing_Machine|Bosch WGB244040]]</td>
-      <td style="padding: 8px;">[[Bosch_WGB244A40_Washing_Machine|Bosch WGB244A40]]</td>
+      <td style="padding: 8px;"><a class="internal-link" href="LG_F4V9LA2W_Washing_Machine">LG F4V9LA2W</a></td>
+      <td style="padding: 8px;"><a class="internal-link" href="Samsung_WW11CB944CGHLP_Washing_Machine">Samsung WW11CB944CG</a></td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_WGB244040_Washing_Machine">Bosch WGB244040</a></td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_WGB244A40_Washing_Machine">Bosch WGB244A40</a></td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Tumble Dryer</td>
-      <td style="padding: 8px;">[[LG_DC10V9V9E_Dryer|LG DC10V9V9E]]</td>
-      <td style="padding: 8px;">[[Samsung_DV90BB9445GHLP_Dryer|Samsung DV90BB9445]]</td>
-      <td style="padding: 8px;">[[Bosch_WQB245B0ME_Dryer|Bosch WQB245B0ME]]</td>
-      <td style="padding: 8px;">[[Bosch_WQB245B40_Dryer|Bosch WQB245B40]]</td>
+      <td style="padding: 8px;"><a class="internal-link" href="LG_DC10V9V9E_Dryer">LG DC10V9V9E</a></td>
+      <td style="padding: 8px;"><a class="internal-link" href="Samsung_DV90BB9445GHLP_Dryer">Samsung DV90BB9445</a></td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_WQB245B0ME_Dryer">Bosch WQB245B0ME</a></td>
+      <td style="padding: 8px;"><a class="internal-link" href="Bosch_WQB245B40_Dryer">Bosch WQB245B40</a></td>
     </tr>
-    <tr style="border-bottom: 1px solid var(--border-color, #eee); font-weight: bold;">
+    <tr style="border-bottom: 1px solid var(--border-color, #eee;); font-weight: bold;">
       <td style="padding: 8px;">Total Price</td>
       <td style="padding: 8px; color: var(--text-accent, #1d9bf0);">7,242 р.</td>
       <td style="padding: 8px;">7,198 р.</td>
@@ -102,10 +102,10 @@ Below is a side-by-side visualization of how the tumble dryer and washing machin
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Release Years</td>
-      <td style="padding: 8px;">**2019 / 2024** (V9 Gen)</td>
-      <td style="padding: 8px;">**2023 / 2023** (Gen C)</td>
-      <td style="padding: 8px;">**2023 / 2023** (Serie 8)</td>
-      <td style="padding: 8px;">**2023 / 2023** (Serie 8)</td>
+      <td style="padding: 8px;"><strong>2019 / 2024</strong> (V9 Gen)</td>
+      <td style="padding: 8px;"><strong>2023 / 2023</strong> (Gen C)</td>
+      <td style="padding: 8px;"><strong>2023 / 2023</strong> (Serie 8)</td>
+      <td style="padding: 8px;"><strong>2023 / 2023</strong> (Serie 8)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Color / Design</td>
