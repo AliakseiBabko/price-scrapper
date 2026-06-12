@@ -1,7 +1,7 @@
 # 🏷️ LG F4V9LA2W Washing Machine (13 kg)
 
 * **Category**: Front-loading Washing Machine
-* **Price**: Included in the LG Flagship set (~7,242 rubles total)
+* **Price**: Included in the LG Flagship set (~7,242 BYN total)
 * **Key Specifications**: 13 kg load, AI DD, Steam+ hygiene steam, TurboWash 360 (39-minute wash), Inverter Direct Drive.
 * **Market Release / Years**: **2019 - 2024** (V9 Generation, matching the companion LG DC10V9V9E dryer)
 

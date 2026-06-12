@@ -1,7 +1,7 @@
 # 🏷️ Bosch BFL7221B1 Microwave (Serie 8)
 
 * **Category**: Built-in Microwave
-* **Price**: ~2,379 rubles
+* **Price**: ~2,379 BYN
 * **Key Specifications**: Serie 8, 21L volume, 900W max, matching TFT color display.
 * **Market Release / Years**: **2024 - 2026** (Digital touch ring + TFT Generation, matches oven)
 
@@ -27,7 +27,7 @@
 ## ⚠️ Concerns and Technical Risks
 
 * **The "Design Tax" (Price vs. Functionality)**:
-   - **Detail**: At 2,379 rubles, this is an expensive microwave. You are paying a heavy premium (~1,000+ rubles extra) purely for it to match the Serie 8 oven's design. Functionally, a basic microwave at half the price performs similarly.
+   - **Detail**: At 2,379 BYN, this is an expensive microwave. You are paying a heavy premium (~1,000+ BYN extra) purely for it to match the Serie 8 oven's design. Functionally, a basic microwave at half the price performs similarly.
 * **Compact Internal Space (21 Liters)**:
    - **Detail**: The 21L capacity is relatively small. It fits standard plates, but very large serving dishes or sterilizing bags for baby bottles may be a tight fit.
 * **Touch-Door Release**:

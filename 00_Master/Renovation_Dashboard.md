@@ -35,14 +35,14 @@ Below is the list of rooms in your floor plan. Click on any room's link to open 
 ## 💰 Master Budget Summary
 
 * **🍳 Kitchen Sets**:
-  - **🌟 Primary Set (Premium)**: `13,883 rubles` (see [[Kitchen_Appliance_Sets]])
-  - **⚖️ Alternative Set 2 (Balanced)**: `9,493 rubles`
-  - **💰 Alternative Set 3 (Economy)**: `7,011 rubles`
+  - **🌟 Primary Set (Premium)**: `13,883 BYN` (see [[Kitchen_Appliance_Sets]])
+  - **⚖️ Alternative Set 2 (Balanced)**: `9,493 BYN`
+  - **💰 Alternative Set 3 (Economy)**: `7,011 BYN`
 * **🧺 Laundry Sets**:
-  - **🌟 Primary Set (LG V9)**: `7,242 rubles` (see [[Laundry_Appliance_Sets]])
-  - **⚖️ Alternative Set 2 (Bosch ME)**: `7,204 rubles`
-  - **💎 Alternative Set 3 (Bosch Premium)**: `8,732 rubles`
-  - **🎨 Alternative Set 4 (Samsung Bespoke)**: `7,198 rubles`
+  - **🌟 Primary Set (LG V9)**: `7,242 BYN` (see [[Laundry_Appliance_Sets]])
+  - **⚖️ Alternative Set 2 (Bosch ME)**: `7,204 BYN`
+  - **💎 Alternative Set 3 (Bosch Premium)**: `8,732 BYN`
+  - **🎨 Alternative Set 4 (Samsung Bespoke)**: `7,198 BYN`
 
 ---
 

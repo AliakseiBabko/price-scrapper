@@ -1,7 +1,7 @@
 # 🏷️ Samsung DV90BB9445GHLP Tumble Dryer (9 kg)
 
 * **Category**: Heat Pump Tumble Dryer
-* **Price**: Included in the Samsung Bespoke set (~7,198 rubles total)
+* **Price**: Included in the Samsung Bespoke set (~7,198 BYN total)
 * **Key Specifications**: 9 kg load, Heat Pump technology, AI Dry (sensor drying), Bespoke Matte Finish (Satin Greige), SmartThings Wi-Fi, Auto Cycle Link.
 * **Market Release / Years**: **2023 - 2026** (Samsung Bespoke Gen C line)
 

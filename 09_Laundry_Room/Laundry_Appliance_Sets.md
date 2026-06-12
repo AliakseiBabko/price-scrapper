@@ -95,10 +95,10 @@ Below is a side-by-side visualization of how the tumble dryer and washing machin
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee;); font-weight: bold;">
       <td style="padding: 8px;">Total Price</td>
-      <td style="padding: 8px; color: var(--text-accent, #1d9bf0);">7,242 р.</td>
-      <td style="padding: 8px;">7,198 р.</td>
-      <td style="padding: 8px;">7,204 р.</td>
-      <td style="padding: 8px;">8,732 р.</td>
+      <td style="padding: 8px; color: var(--text-accent, #1d9bf0);">7,242 BYN</td>
+      <td style="padding: 8px;">7,198 BYN</td>
+      <td style="padding: 8px;">7,204 BYN</td>
+      <td style="padding: 8px;">8,732 BYN</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Release Years</td>

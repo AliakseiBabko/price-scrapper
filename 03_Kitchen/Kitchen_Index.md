@@ -23,7 +23,7 @@
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 
 ## 🔌 Appliances (Selection Complete)
-* **Primary Set Status**: Approved (`13,883 rubles` budget).
+* **Primary Set Status**: Approved (`13,883 BYN` budget).
 * **Details**: Review the options and individual specifications in **[[Kitchen_Appliance_Sets]]**:
   - **Oven**: [[Bosch_HBG7764B1_Oven]]
   - **Microwave**: [[Bosch_BFL7221B1_Microwave]]

@@ -1,7 +1,7 @@
 # 🏷️ Bosch DHL555BL Hood (Serie 4)
 
 * **Category**: Built-in Range Hood (60 cm)
-* **Price**: ~1,431 rubles
+* **Price**: ~1,431 BYN
 * **Key Specifications**: Serie 4, Dual-motor, max capacity 618 m³/h, slider controls, assembled in Germany.
 * **Market Release / Years**: **2015 - 2026** (Long-running reliable Serie 4 line)
 

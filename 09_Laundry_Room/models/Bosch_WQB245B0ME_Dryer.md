@@ -1,7 +1,7 @@
 # 🏷️ Bosch WQB245B0ME Tumble Dryer (9 kg)
 
 * **Category**: Condensation Tumble Dryer with Heat Pump
-* **Price**: Included in the Bosch ME set (~6,976 rubles total)
+* **Price**: Included in the Bosch ME set (~6,976 BYN total)
 * **Key Specifications**: 9 kg load, Heat Pump technology, SelfCleaning Condenser, SensitiveDrying System, Wi-Fi.
 * **Market Release / Years**: **2023 - 2026** (Serie 8 heat pump generation)
 

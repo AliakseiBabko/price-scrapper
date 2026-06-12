@@ -1,7 +1,7 @@
 # 🏷️ LG DC10V9V9E Tumble Dryer (10 kg)
 
 * **Category**: Condensation Tumble Dryer with Heat Pump
-* **Price**: Included in the LG Flagship set (~7,242 rubles total)
+* **Price**: Included in the LG Flagship set (~7,242 BYN total)
 * **Key Specifications**: 10 kg load, Dual Inverter Heat Pump, Self-Cleaning Condenser, Eco Hybrid, Wi-Fi.
 * **Market Release / Years**: **2024 - 2026** (V9 Generation, matching the washer panel aesthetics)
 

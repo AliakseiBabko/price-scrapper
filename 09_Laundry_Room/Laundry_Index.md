@@ -25,7 +25,7 @@
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 
 ## 🔌 Appliances (Selection Complete)
-* **Status**: LG V9 Flagship Pair Approved (`7,242 р.` budget).
+* **Status**: LG V9 Flagship Pair Approved (`7,242 BYN` budget).
 * **Details**: Review the options and individual specifications in **[[Laundry_Appliance_Sets]]**:
   - **Dryer**: [[LG_DC10V9V9E_Dryer]] (stacked on top)
   - **Washing Machine**: [[LG_F4V9LA2W_Washing_Machine]] (on bottom)
