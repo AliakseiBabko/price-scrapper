@@ -23,11 +23,14 @@ This document captures the overall context of the family's needs, preferences, a
   - Backlink: [[Laundry_Index]] / [[Laundry_Appliance_Sets]]
 
 ### 2. 🍳 Kitchen
-* **User Context**: *"In our family, we don't fry in rectangular pans. We only have round pots and pans. A long time ago, I made pilaf in a duck pan on the stovetop. But that's rare. There are fairly thick aluminum and cast iron pans. The advantage of Flex Zones isn't obvious to me. It looks interesting in the video, but when I try to imagine my typical cooktop use case, I think the standard 4-5 coils seem preferable."*
+* **User Context**: 
+  - *"In our family, we don't fry in rectangular pans. We only have round pots and pans. A long time ago, I made pilaf in a duck pan on the stovetop. But that's rare. There are fairly thick aluminum and cast iron pans. The advantage of Flex Zones isn't obvious to me. It looks interesting in the video, but when I try to imagine my typical cooktop use case, I think the standard 4-5 coils seem preferable."*
+  - *"I don't need a grill [in the microwave]. I have it in my current microwave but never used it."*
 * **Key Guidelines**:
   - **No Flex Zones**: Avoid paying a premium for rectangular induction flex induction zones which can cause uneven heat spots on round pans.
   - **Standard Round Coils**: Prefer cooktops with 4-5 dedicated circular induction coils of varying sizes.
   - **Expandable Circular Burners**: A large circular burner (e.g., 28 cm) is highly beneficial for thick-bottomed cast iron/aluminum pans and rare pilaf cooking.
+  - **No Microwave Grill**: The family does not use microwave grill features. Standard solo (microwaves-only) models are preferred if they offer better visual, series, or color matching over grill-equipped models.
   - Backlink: [[Kitchen_Index]] / [[Kitchen_Appliance_Sets]]
 
 ### 3. 🚪 Entrance (Foyer)

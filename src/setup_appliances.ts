@@ -12,13 +12,13 @@ const appliances = [
 
   // Kitchen Set 2 (Balanced)
   { model: "HBG578EB3", brand: "Bosch", releaseYear: "2020 - 2024" },
-  { model: "BFL524MS0", brand: "Bosch", releaseYear: "2020 - 2024" },
+  { model: "BFL524MB0", brand: "Bosch", releaseYear: "2020 - 2024" },
   { model: "PIE631HB1E", brand: "Bosch", releaseYear: "2023 - 2026" },
   { model: "SMV6ECX08E", brand: "Bosch", releaseYear: "2023 - 2026" },
 
   // Kitchen Set 3 (Economy)
   { model: "BPSA6747A08BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
-  { model: "BM201AG1BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
+  { model: "BM251M2BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
   { model: "EIT61443B", brand: "Electrolux", releaseYear: "2021 - 2025" },
   { model: "GV643E90", brand: "Gorenje", releaseYear: "2022 - 2025" },
   { model: "Crosby Singolo 60", brand: "MAUNFELD", releaseYear: "2020 - 2025" },

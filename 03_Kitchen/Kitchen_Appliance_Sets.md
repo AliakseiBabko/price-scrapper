@@ -20,7 +20,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
     <tr>
       <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Bosch BFL7221B1 (Serie 8)</td>
       <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Bosch BFL524MB0 (Serie 6)</td>
-      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Gorenje BM201AG1BG</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Gorenje BM251M2BG</td>
     </tr>
     <tr>
       <td style="padding: 0 10px; border: none; line-height: 0;">
@@ -37,7 +37,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
       </td>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
-          <img src="../_assets/gorenje_bm201ag1bg.jpg" alt="Gorenje BM201AG1BG" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../_assets/gorenje_bm251m2bg.jpg" alt="Gorenje BM251M2BG" style="display: block; width: 100%; height: auto; margin: 0;" />
           <img src="../_assets/gorenje_bpsa6747a08bg.jpg" alt="Gorenje BPSA6747A08BG" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
@@ -50,7 +50,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
     <tr style="border-bottom: 2px solid var(--border-color, #ccc); background-color: var(--background-secondary, #f9f9f9); font-weight: bold;">
       <td style="padding: 8px 10px;">💰 7,285 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">Oven + Microwave</span></td>
       <td style="padding: 8px 10px;">💰 3,599 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">Oven + Microwave</span></td>
-      <td style="padding: 8px 10px;">💰 3,633 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">Oven + Microwave</span></td>
+      <td style="padding: 8px 10px;">💰 3,724 BYN<br/><span style="font-weight: normal; font-size: 0.85em;">Oven + Microwave</span></td>
     </tr>
   </tbody>
 </table>
@@ -79,7 +79,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
       <td style="padding: 8px; font-weight: bold;">Microwave</td>
       <td style="padding: 8px;"><a class="internal-link" href="Bosch_BFL7221B1_Microwave">Bosch BFL7221B1</a> (2,379 BYN)</td>
       <td style="padding: 8px;">Bosch BFL524MB0 (1,059 BYN)</td>
-      <td style="padding: 8px;">Gorenje BM201AG1BG (1,134 BYN)</td>
+      <td style="padding: 8px;">Gorenje BM251M2BG (1,225 BYN)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Cooktop</td>
@@ -109,7 +109,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
       <td style="padding: 8px;">TOTAL</td>
       <td style="padding: 8px;">13,883 BYN</td>
       <td style="padding: 8px;">9,538 BYN</td>
-      <td style="padding: 8px;">7,011 BYN</td>
+      <td style="padding: 8px;">7,102 BYN</td>
     </tr>
   </tbody>
 </table>
@@ -143,10 +143,10 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
 ---
 
 ## 3. 🔥 Alternative Set 3: "Gorenje Full-Featured" (Gorenje & Electrolux Mix)
-**Target**: Total budget **7,011 BYN** — comparable in price to Set 2 but from a different brand ecosystem, delivering Pyrolysis, SteamAssist, a meat probe, and a massive 77-liter oven cavity.
+**Target**: Total budget **7,102 BYN** — comparable in price to Set 2 but from a different brand ecosystem, delivering Pyrolysis, SteamAssist, a meat probe, and a massive 77-liter oven cavity.
 
 * **Oven (Gorenje BPSA6747A08BG - 2,499 BYN)**: An excellent balanced choice. Offers **full pyrolysis**, a massive 77-liter volume, **SteamAssist** (steam-infused baking), **IconTouch** touch controls, and includes the **BakeSensor** meat probe to cook meat to perfect core temperature.
-* **Microwave (Gorenje BM201AG1BG - 1,134 BYN)**: Built-in microwave in full black glass finish. Visually matches the black Gorenje BPSA6747A08BG oven perfectly.
+* **Microwave (Gorenje BM251M2BG - 1,225 BYN)**: Built-in solo microwave in full black glass finish with a retractable (push-pull) control knob. Visually matches the retractable knobs on the Gorenje BPSA6747A08BG oven perfectly.
 * **Cooktop (Electrolux EIT61443B - 1,289 BYN)**: Features a highly responsive touch slider interface and a layout optimized for large cookware. Available replacement for the out-of-stock IPE6440KF.
 * **Dishwasher (Gorenje GV643E90 - 1,639 BYN)**: 16-place setting dishwasher. Uses **TotalDry (auto-door opening)** at the end of the cycle. A highly available and cost-effective replacement for the GV673C62.
 * **Hood (MAUNFELD Crosby Singolo 60 - 450 BYN)**: Simple built-in hood. Uses a single motor but offers decent 600 m³/h capacity.
