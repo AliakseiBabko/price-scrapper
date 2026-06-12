@@ -68,17 +68,82 @@ Below is a side-by-side visualization of how the tumble dryer and washing machin
 
 ## 📊 Summary of Laundry Sets
 
-| Parameter           | 🌟 Primary Set (LG V9)          | 🎨 Samsung Bespoke (Gen C)                 | ⚖️ Bosch Serie 8 (ME)               | 💎 Bosch Premium (i-DOS)            |
-| :------------------ | :------------------------------ | :----------------------------------------- | :---------------------------------- | :---------------------------------- |
-| **Washing Machine** | [[LG_F4V9LA2W_Washing_Machine]] | [[Samsung_WW11CB944CGHLP_Washing_Machine]] | [[Bosch_WGB244040_Washing_Machine]] | [[Bosch_WGB244A40_Washing_Machine]] |
-| **Tumble Dryer**    | [[LG_DC10V9V9E_Dryer]]          | [[Samsung_DV90BB9445GHLP_Dryer]]           | [[Bosch_WQB245B0ME_Dryer]]          | [[Bosch_WQB245B40_Dryer]]           |
-| **Total Price**     | **7,242 р.**                    | **7,198 р.**                               | **7,204 р.**                        | **8,732 р.**                        |
-| **Release Years**   | **2019 / 2024** (V9 Gen)        | **2023 / 2023** (Gen C)                    | **2023 / 2023** (Serie 8)           | **2023 / 2023** (Serie 8)           |
-| **Color / Design**  | White Gloss / Chrome            | Satin Greige / Matte                       | White / Classic                     | White / Premium                     |
-| **Washing Load**    | **13 kg** (Largest)             | 11 kg                                      | 9 kg                                | 9 kg                                |
-| **Drying Load**     | 10 kg                           | 9 kg                                       | 9 kg                                | 9 kg                                |
-| **Auto-Dose**       | ❌ No                            | ✔️ Yes                                     | ❌ No                                | ✔️ Yes (i-DOS)                      |
-| **Dryer Cleaning**  | **Self-Cleaning**               | Manual Radiator                            | **Self-Cleaning**                   | **Self-Cleaning**                   |
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; text-align: left; word-break: break-word;">
+  <thead>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc); background-color: var(--background-secondary, #f9f9f9);">
+      <th style="width: 16%; padding: 8px;">Parameter</th>
+      <th style="width: 21%; padding: 8px;">🌟 Primary Set (LG V9)</th>
+      <th style="width: 21%; padding: 8px;">🎨 Samsung Bespoke (Gen C)</th>
+      <th style="width: 21%; padding: 8px;">⚖️ Bosch Serie 8 (ME)</th>
+      <th style="width: 21%; padding: 8px;">💎 Bosch Premium (i-DOS)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Washing Machine</td>
+      <td style="padding: 8px;">[[LG_F4V9LA2W_Washing_Machine|LG F4V9LA2W]]</td>
+      <td style="padding: 8px;">[[Samsung_WW11CB944CGHLP_Washing_Machine|Samsung WW11CB944CG]]</td>
+      <td style="padding: 8px;">[[Bosch_WGB244040_Washing_Machine|Bosch WGB244040]]</td>
+      <td style="padding: 8px;">[[Bosch_WGB244A40_Washing_Machine|Bosch WGB244A40]]</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Tumble Dryer</td>
+      <td style="padding: 8px;">[[LG_DC10V9V9E_Dryer|LG DC10V9V9E]]</td>
+      <td style="padding: 8px;">[[Samsung_DV90BB9445GHLP_Dryer|Samsung DV90BB9445]]</td>
+      <td style="padding: 8px;">[[Bosch_WQB245B0ME_Dryer|Bosch WQB245B0ME]]</td>
+      <td style="padding: 8px;">[[Bosch_WQB245B40_Dryer|Bosch WQB245B40]]</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee); font-weight: bold;">
+      <td style="padding: 8px;">Total Price</td>
+      <td style="padding: 8px; color: var(--text-accent, #1d9bf0);">7,242 р.</td>
+      <td style="padding: 8px;">7,198 р.</td>
+      <td style="padding: 8px;">7,204 р.</td>
+      <td style="padding: 8px;">8,732 р.</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Release Years</td>
+      <td style="padding: 8px;">**2019 / 2024** (V9 Gen)</td>
+      <td style="padding: 8px;">**2023 / 2023** (Gen C)</td>
+      <td style="padding: 8px;">**2023 / 2023** (Serie 8)</td>
+      <td style="padding: 8px;">**2023 / 2023** (Serie 8)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Color / Design</td>
+      <td style="padding: 8px;">White Gloss / Chrome</td>
+      <td style="padding: 8px;">Satin Greige / Matte</td>
+      <td style="padding: 8px;">White / Classic</td>
+      <td style="padding: 8px;">White / Premium</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Washing Load</td>
+      <td style="padding: 8px; font-weight: bold;">13 kg (Largest)</td>
+      <td style="padding: 8px;">11 kg</td>
+      <td style="padding: 8px;">9 kg</td>
+      <td style="padding: 8px;">9 kg</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Drying Load</td>
+      <td style="padding: 8px;">10 kg</td>
+      <td style="padding: 8px;">9 kg</td>
+      <td style="padding: 8px;">9 kg</td>
+      <td style="padding: 8px;">9 kg</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Auto-Dose</td>
+      <td style="padding: 8px;">❌ No</td>
+      <td style="padding: 8px; color: var(--text-success, #2ea44f);">✔️ Yes</td>
+      <td style="padding: 8px;">❌ No</td>
+      <td style="padding: 8px; color: var(--text-success, #2ea44f);">✔️ Yes (i-DOS)</td>
+    </tr>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc);">
+      <td style="padding: 8px; font-weight: bold;">Dryer Cleaning</td>
+      <td style="padding: 8px; font-weight: bold; color: var(--text-success, #2ea44f);">Self-Cleaning</td>
+      <td style="padding: 8px;">Manual Radiator</td>
+      <td style="padding: 8px; font-weight: bold; color: var(--text-success, #2ea44f);">Self-Cleaning</td>
+      <td style="padding: 8px; font-weight: bold; color: var(--text-success, #2ea44f);">Self-Cleaning</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

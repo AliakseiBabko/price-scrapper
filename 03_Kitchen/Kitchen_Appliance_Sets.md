@@ -56,15 +56,60 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
 
 ## 📊 Summary of Appliance Sets
 
-| Appliance      | 🌟 Primary Set (Premium/Pro)              | ⚖️ Alternative Set 2 (Balanced Quality) | 💰 Alternative Set 3 (Smart Economy) |
-| :------------- | :---------------------------------------- | :-------------------------------------- | :----------------------------------- |
-| **Oven**       | [[Bosch_HBG7764B1_Oven]] (4,906р.)        | Bosch HBG578EB3 (2,540р.)               | Gorenje BPSA6747A08BG (2,499р.)      |
-| **Microwave**  | [[Bosch_BFL7221B1_Microwave]] (2,379р.)   | Bosch BFL524MS0 (1,014р.)               | Gorenje BM201AG1BG (1,134р.)         |
-| **Cooktop**    | [[Bosch_PIF63KHC1E_Cooktop]] (2,168р.)    | Bosch PIE631HB1E (1,386р.)              | Electrolux EIT61443B (1,289р.)       |
-| **Dishwasher** | [[Bosch_SMV8YCX02E_Dishwasher]] (2,999р.) | Bosch SMV6ECX08E (3,122р.)              | Gorenje GV643E90 (1,639р.)           |
-| **Hood**       | [[Bosch_DHL555BL_Hood]] (1,431р.)         | [[Bosch_DHL555BL_Hood]] (1,431р.)       | MAUNFELD Crosby Singolo 60 (450р.)   |
-| **Release Years** | Oven/MW: **2023 - 2024**                  | Oven/MW: **2020**                         | Oven/MW: **2021**                    |
-| **TOTAL**      | **13,883 rubles**                         | **9,493 rubles**                        | **7,011 rubles**                     |
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; text-align: left; word-break: break-word;">
+  <thead>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc); background-color: var(--background-secondary, #f9f9f9);">
+      <th style="width: 16%; padding: 8px;">Appliance</th>
+      <th style="width: 28%; padding: 8px;">🌟 Primary Set (Premium/Pro)</th>
+      <th style="width: 28%; padding: 8px;">⚖️ Alternative Set 2 (Balanced Quality)</th>
+      <th style="width: 28%; padding: 8px;">💰 Alternative Set 3 (Smart Economy)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Oven</td>
+      <td style="padding: 8px;">[[Bosch_HBG7764B1_Oven|Bosch HBG7764B1]] (4,906р.)</td>
+      <td style="padding: 8px;">Bosch HBG578EB3 (2,540р.)</td>
+      <td style="padding: 8px;">Gorenje BPSA6747A08BG (2,499р.)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Microwave</td>
+      <td style="padding: 8px;">[[Bosch_BFL7221B1_Microwave|Bosch BFL7221B1]] (2,379р.)</td>
+      <td style="padding: 8px;">Bosch BFL524MS0 (1,014р.)</td>
+      <td style="padding: 8px;">Gorenje BM201AG1BG (1,134р.)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Cooktop</td>
+      <td style="padding: 8px;">[[Bosch_PIF63KHC1E_Cooktop|Bosch PIF63KHC1E]] (2,168р.)</td>
+      <td style="padding: 8px;">Bosch PIE631HB1E (1,386р.)</td>
+      <td style="padding: 8px;">Electrolux EIT61443B (1,289р.)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Dishwasher</td>
+      <td style="padding: 8px;">[[Bosch_SMV8YCX02E_Dishwasher|Bosch SMV8YCX02E]] (2,999р.)</td>
+      <td style="padding: 8px;">Bosch SMV6ECX08E (3,122р.)</td>
+      <td style="padding: 8px;">Gorenje GV643E90 (1,639р.)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Hood</td>
+      <td style="padding: 8px;">[[Bosch_DHL555BL_Hood|Bosch DHL555BL]] (1,431р.)</td>
+      <td style="padding: 8px;">[[Bosch_DHL555BL_Hood|Bosch DHL555BL]] (1,431р.)</td>
+      <td style="padding: 8px;">MAUNFELD Crosby Singolo 60 (450р.)</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #eee);">
+      <td style="padding: 8px; font-weight: bold;">Release Years</td>
+      <td style="padding: 8px;">Oven/MW: **2023 - 2024**</td>
+      <td style="padding: 8px;">Oven/MW: **2020**</td>
+      <td style="padding: 8px;">Oven/MW: **2021**</td>
+    </tr>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc); font-weight: bold; background-color: var(--background-secondary, #f9f9f9);">
+      <td style="padding: 8px;">TOTAL</td>
+      <td style="padding: 8px;">13,883 rubles</td>
+      <td style="padding: 8px;">9,493 rubles</td>
+      <td style="padding: 8px;">7,011 rubles</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
