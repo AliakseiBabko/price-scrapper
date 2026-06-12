@@ -19,7 +19,7 @@
 
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
 * **Cookware Geometry**: We only use **round pots and pans** (thick-bottomed aluminum and cast iron). Rectangular pans are not used, and duck pan cooking is rare.
-* **Coils over Flex Zones**: The benefits of Flex Zones are not obvious for our use cases. A standard layout with **4-5 circular induction coils** is preferred.
+* **Coils over Flex Zones**: The benefits of Flex Zones are not obvious for our use cases. A standard layout with **4-5 circular induction coils** is preferred. See the detailed research note: **[[FlexZone_Analysis]]**.
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 
 ## 🔌 Appliances (Selection Complete)
