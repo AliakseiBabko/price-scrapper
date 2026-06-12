@@ -25,20 +25,20 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
     <tr>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
-          <img src="../_assets/bosch_bfl7221b1.jpg" alt="Bosch BFL7221B1" style="display: block; width: 100%; max-height: 200px; object-fit: contain; margin: 0;" />
-          <img src="../_assets/bosch_hbg7764b1.jpg" alt="Bosch HBG7764B1" style="display: block; width: 100%; max-height: 200px; object-fit: contain; margin: 0;" />
+          <img src="../_assets/bosch_bfl7221b1.jpg" alt="Bosch BFL7221B1" style="display: block; width: 100%; height: 200px; object-fit: contain; margin: 0;" />
+          <img src="../_assets/bosch_hbg7764b1.jpg" alt="Bosch HBG7764B1" style="display: block; width: 100%; height: 200px; object-fit: contain; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
-          <img src="../_assets/bosch_bfl524ms0.jpg" alt="Bosch BFL524MS0" style="display: block; width: 100%; max-height: 200px; object-fit: contain; margin: 0;" />
-          <img src="../_assets/bosch_hbg578eb3.jpg" alt="Bosch HBG578EB3" style="display: block; width: 100%; max-height: 200px; object-fit: contain; margin: 0;" />
+          <img src="../_assets/bosch_bfl524ms0.jpg" alt="Bosch BFL524MS0" style="display: block; width: 100%; height: 200px; object-fit: contain; margin: 0;" />
+          <img src="../_assets/bosch_hbg578eb3.jpg" alt="Bosch HBG578EB3" style="display: block; width: 100%; height: 200px; object-fit: contain; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
-          <img src="../_assets/gorenje_bm201ag1bg.jpg" alt="Gorenje BM201AG1BG" style="display: block; width: 100%; max-height: 200px; object-fit: contain; margin: 0;" />
-          <img src="../_assets/gorenje_bpsa6747a08bg.jpg" alt="Gorenje BPSA6747A08BG" style="display: block; width: 100%; max-height: 200px; object-fit: contain; margin: 0;" />
+          <img src="../_assets/gorenje_bm201ag1bg.jpg" alt="Gorenje BM201AG1BG" style="display: block; width: 100%; height: 200px; object-fit: contain; margin: 0;" />
+          <img src="../_assets/gorenje_bpsa6747a08bg.jpg" alt="Gorenje BPSA6747A08BG" style="display: block; width: 100%; height: 200px; object-fit: contain; margin: 0;" />
         </div>
       </td>
     </tr>
