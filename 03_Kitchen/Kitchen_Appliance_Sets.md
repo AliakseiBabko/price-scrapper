@@ -99,7 +99,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
       <td style="padding: 8px;"><a class="internal-link" href="Bosch_PIF63KHC1E_Cooktop">Bosch PIF63KHC1E</a> (2,168 BYN)</td>
       <td style="padding: 8px;">Electrolux EIT61443B (1,289 BYN)</td>
       <td style="padding: 8px;">Bosch PIE631HB1E (1,386 BYN)</td>
-      <td style="padding: 8px;">Electrolux EIT61443B (1,289 BYN)</td>
+      <td style="padding: 8px;">Gorenje GI6401BSC (929 BYN)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Dishwasher</td>
@@ -113,7 +113,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
       <td style="padding: 8px;"><a class="internal-link" href="Bosch_DHL555BL_Hood">Bosch DHL555BL</a> (1,431 BYN)</td>
       <td style="padding: 8px;">Electrolux LFG716R (1,799 BYN)</td>
       <td style="padding: 8px;"><a class="internal-link" href="Bosch_DHL555BL_Hood">Bosch DHL555BL</a> (1,431 BYN)</td>
-      <td style="padding: 8px;">MAUNFELD Crosby Singolo 60 (450 BYN)</td>
+      <td style="padding: 8px;">Gorenje BHI626E6B (429 BYN)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #eee);">
       <td style="padding: 8px; font-weight: bold;">Release Years</td>
@@ -127,7 +127,7 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
       <td style="padding: 8px;">13,883 BYN</td>
       <td style="padding: 8px;">10,327 BYN</td>
       <td style="padding: 8px;">9,538 BYN</td>
-      <td style="padding: 8px;">7,102 BYN</td>
+      <td style="padding: 8px;">6,721 BYN</td>
     </tr>
   </tbody>
 </table>
@@ -172,10 +172,10 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
 ---
 
 ## 4. 🔥 Set 4: "Gorenje Manual" (All-Black Glass with Knobs)
-**Target**: Total budget **7,102 BYN** — comparable in price to Set 3 but from a different brand ecosystem, delivering Pyrolysis, SteamAssist, a meat probe, and a massive 77-liter oven cavity.
+**Target**: Total budget **6,721 BYN** — comparable in price to Set 3 but from a different brand ecosystem, delivering Pyrolysis, SteamAssist, a meat probe, and a massive 77-liter oven cavity.
 
 * **Oven (Gorenje BPSA6747A08BG - 2,499 BYN)**: An excellent balanced choice. Offers **full pyrolysis**, a massive 77-liter volume, **SteamAssist** (steam-infused baking), **IconTouch** touch controls, and includes the **BakeSensor** meat probe to cook meat to perfect core temperature.
 * **Microwave (Gorenje BM251M2BG - 1,225 BYN)**: Built-in solo microwave in full black glass finish with a retractable (push-pull) control knob. Visually matches the retractable knobs on the Gorenje BPSA6747A08BG oven perfectly.
-* **Cooktop (Electrolux EIT61443B - 1,289 BYN)**: Features a highly responsive touch slider interface and a layout optimized for large cookware. Available replacement for the out-of-stock IPE6440KF.
+* **Cooktop (Gorenje GI6401BSC - 929 BYN)**: Features standard touch controls and 4 circular induction coils (no flex zones), which perfectly matches the family's profile. Frameless all-black glass design.
 * **Dishwasher (Gorenje GV643E90 - 1,639 BYN)**: 16-place setting dishwasher. Uses **TotalDry (auto-door opening)** at the end of the cycle. A highly available and cost-effective replacement for the GV673C62.
-* **Hood (MAUNFELD Crosby Singolo 60 - 450 BYN)**: Simple built-in hood. Uses a single motor but offers decent 600 m³/h capacity.
+* **Hood (Gorenje BHI626E6B - 429 BYN)**: Fully built-in, hidden cabinet hood in black. Offers push-button controls and high extraction capacity (up to 677 m³/h).

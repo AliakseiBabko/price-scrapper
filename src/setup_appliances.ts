@@ -19,9 +19,9 @@ const appliances = [
   // Kitchen Set 3 (Gorenje Manual)
   { model: "BPSA6747A08BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
   { model: "BM251M2BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
-  { model: "EIT61443B", brand: "Electrolux", releaseYear: "2021 - 2025" },
+  { model: "GI6401BSC", brand: "Gorenje", releaseYear: "2021 - 2025" },
   { model: "GV643E90", brand: "Gorenje", releaseYear: "2022 - 2025" },
-  { model: "Crosby Singolo 60", brand: "MAUNFELD", releaseYear: "2020 - 2025" },
+  { model: "BHI626E6B", brand: "Gorenje", releaseYear: "2020 - 2025" },
 
   // Kitchen Set 4 (Electrolux Touch)
   { model: "EOE7P31Z", brand: "Electrolux", releaseYear: "2021 - 2025" },
