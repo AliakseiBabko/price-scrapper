@@ -14,7 +14,7 @@ const appliances = [
   { model: "HBG578EB3", brand: "Bosch", releaseYear: "2020 - 2024" },
   { model: "BFL524MB0", brand: "Bosch", releaseYear: "2020 - 2024" },
   { model: "PIE631HB1E", brand: "Bosch", releaseYear: "2023 - 2026" },
-  { model: "SMV8YCX02E", brand: "Bosch", releaseYear: "2023 - 2026" },
+  { model: "SMV4EVX00E", brand: "Bosch", releaseYear: "2023 - 2026" },
 
   // Kitchen Set 3 (Gorenje Manual)
   { model: "BPSA6747A08BG", brand: "Gorenje", releaseYear: "2021 - 2025" },
