@@ -10,6 +10,7 @@ Welcome to your apartment renovation planning vault! This dashboard provides an 
 * **Balcony Area**: `6.02 m²`
 * **Total Project Area**: `69.48 m²`
 * **👨‍👩‍👧‍👦 Family Profile & Needs**: General requirements, preferences, and daily use scenarios are detailed in **[[Family_Requirements]]**.
+* **📋 Appliance Selection Rules**: Design, color-matching, and replacement rules for all appliance sets are codified in **[[Appliance_Set_Rules]]**.
 
 ---
 
