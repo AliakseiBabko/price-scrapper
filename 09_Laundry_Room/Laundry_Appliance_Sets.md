@@ -8,12 +8,58 @@ This document details the comparison between the three primary laundry sets for 
 
 Below is a side-by-side visualization of how the tumble dryer and washing machine stack up in a column in your laundry room:
 
-| 🌟 Primary Set (LG V9) | 🎨 Samsung Bespoke (Gen C) | ⚖️ Bosch Serie 8 (ME) | 💎 Bosch Premium (i-DOS) |
-| :---: | :---: | :---: | :---: |
-| **LG DC10V9V9E (10 kg)** | **Samsung DV90BB9445GHLP** | **Bosch WQB245B0ME (9 kg)** | **Bosch WQB245B40 (9 kg)** |
-| ![LG DC10V9V9E](../_assets/lg_dc10v9v9e.jpg) | ![Samsung DV90BB9445GHLP](../_assets/samsung_dv90bb9445ghlp.jpg) | ![Bosch WQB245B0ME](../_assets/bosch_wqb245b0me.jpg) | ![Bosch WQB245B40](../_assets/bosch_wqb245b40.jpg) |
-| ![LG F4V9LA2W](../_assets/lg_f4v9la2w.jpg) | ![Samsung WW11CB944CGHLP](../_assets/samsung_ww11cb944cghlp.jpg) | ![Bosch WGB244040](../_assets/bosch_wgb244040.jpg) | ![Bosch WGB244a40](../_assets/bosch_wgb244a40.jpg) |
-| **LG F4V9LA2W (13 kg)** | **Samsung WW11CB944CGHLP** | **Bosch WGB244040 (9 kg)** | **Bosch WGB244A40 (9 kg)** |
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr style="border-bottom: 2px solid var(--border-color, #ccc);">
+      <th style="width: 25%; text-align: center; padding: 10px;">🌟 Primary Set (LG V9)</th>
+      <th style="width: 25%; text-align: center; padding: 10px;">🎨 Samsung Bespoke (Gen C)</th>
+      <th style="width: 25%; text-align: center; padding: 10px;">⚖️ Bosch Serie 8 (ME)</th>
+      <th style="width: 25%; text-align: center; padding: 10px;">💎 Bosch Premium (i-DOS)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 5px 10px 0 10px; font-weight: bold;">LG DC10V9V9E (10 kg)</td>
+      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Samsung DV90BB9445GHLP</td>
+      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Bosch WQB245B0ME (9 kg)</td>
+      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Bosch WQB245B40 (9 kg)</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
+        <img src="../_assets/lg_dc10v9v9e.jpg" alt="LG DC10V9V9E" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      </td>
+      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
+        <img src="../_assets/samsung_dv90bb9445ghlp.jpg" alt="Samsung DV90BB9445GHLP" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      </td>
+      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
+        <img src="../_assets/bosch_wqb245b0me.jpg" alt="Bosch WQB245B0ME" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      </td>
+      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
+        <img src="../_assets/bosch_wqb245b40.jpg" alt="Bosch WQB245B40" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; padding: 0 10px; border: none;">
+        <img src="../_assets/lg_f4v9la2w.jpg" alt="LG F4V9LA2W" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      </td>
+      <td style="vertical-align: top; padding: 0 10px; border: none;">
+        <img src="../_assets/samsung_ww11cb944cghlp.jpg" alt="Samsung WW11CB944CGHLP" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      </td>
+      <td style="vertical-align: top; padding: 0 10px; border: none;">
+        <img src="../_assets/bosch_wgb244040.jpg" alt="Bosch WGB244040" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      </td>
+      <td style="vertical-align: top; padding: 0 10px; border: none;">
+        <img src="../_assets/bosch_wgb244a40.jpg" alt="Bosch WGB244a40" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border-color, #ccc);">
+      <td style="padding: 0 10px 10px 10px; font-weight: bold;">LG F4V9LA2W (13 kg)</td>
+      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Samsung WW11CB944CGHLP</td>
+      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Bosch WGB244040 (9 kg)</td>
+      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Bosch WGB244A40 (9 kg)</td>
+    </tr>
+  </tbody>
+</table>
 
 > [!NOTE]
 > For the LG V9 stacked column, you will need to purchase the **LG KSTK1** stacking connection kit to securely attach the dryer on top of the washing machine.
@@ -22,17 +68,17 @@ Below is a side-by-side visualization of how the tumble dryer and washing machin
 
 ## 📊 Summary of Laundry Sets
 
-| Parameter | 🌟 Primary Set (LG V9) | 🎨 Samsung Bespoke (Gen C) | ⚖️ Bosch Serie 8 (ME) | 💎 Bosch Premium (i-DOS) |
-| :--- | :--- | :--- | :--- | :--- |
+| Parameter           | 🌟 Primary Set (LG V9)          | 🎨 Samsung Bespoke (Gen C)                 | ⚖️ Bosch Serie 8 (ME)               | 💎 Bosch Premium (i-DOS)            |
+| :------------------ | :------------------------------ | :----------------------------------------- | :---------------------------------- | :---------------------------------- |
 | **Washing Machine** | [[LG_F4V9LA2W_Washing_Machine]] | [[Samsung_WW11CB944CGHLP_Washing_Machine]] | [[Bosch_WGB244040_Washing_Machine]] | [[Bosch_WGB244A40_Washing_Machine]] |
-| **Tumble Dryer** | [[LG_DC10V9V9E_Dryer]] | [[Samsung_DV90BB9445GHLP_Dryer]] | [[Bosch_WQB245B0ME_Dryer]] | [[Bosch_WQB245B40_Dryer]] |
-| **Total Price** | **7,242 р.** | **7,198 р.** | **7,204 р.** | **8,732 р.** |
-| **Release Years** | **2019 / 2024** (V9 Gen) | **2023 / 2023** (Gen C) | **2023 / 2023** (Serie 8) | **2023 / 2023** (Serie 8) |
-| **Color / Design** | White Gloss / Chrome | Satin Greige / Matte | White / Classic | White / Premium |
-| **Washing Load** | **13 kg** (Largest) | 11 kg | 9 kg | 9 kg |
-| **Drying Load** | 10 kg | 9 kg | 9 kg | 9 kg |
-| **Auto-Dose** | ❌ No | ✔️ Yes | ❌ No | ✔️ Yes (i-DOS) |
-| **Dryer Cleaning**| **Self-Cleaning** | Manual Radiator | **Self-Cleaning** | **Self-Cleaning** |
+| **Tumble Dryer**    | [[LG_DC10V9V9E_Dryer]]          | [[Samsung_DV90BB9445GHLP_Dryer]]           | [[Bosch_WQB245B0ME_Dryer]]          | [[Bosch_WQB245B40_Dryer]]           |
+| **Total Price**     | **7,242 р.**                    | **7,198 р.**                               | **7,204 р.**                        | **8,732 р.**                        |
+| **Release Years**   | **2019 / 2024** (V9 Gen)        | **2023 / 2023** (Gen C)                    | **2023 / 2023** (Serie 8)           | **2023 / 2023** (Serie 8)           |
+| **Color / Design**  | White Gloss / Chrome            | Satin Greige / Matte                       | White / Classic                     | White / Premium                     |
+| **Washing Load**    | **13 kg** (Largest)             | 11 kg                                      | 9 kg                                | 9 kg                                |
+| **Drying Load**     | 10 kg                           | 9 kg                                       | 9 kg                                | 9 kg                                |
+| **Auto-Dose**       | ❌ No                            | ✔️ Yes                                     | ❌ No                                | ✔️ Yes (i-DOS)                      |
+| **Dryer Cleaning**  | **Self-Cleaning**               | Manual Radiator                            | **Self-Cleaning**                   | **Self-Cleaning**                   |
 
 ---
 
