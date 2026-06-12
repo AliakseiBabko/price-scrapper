@@ -11,8 +11,8 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
 | 🌟 Primary Set (Premium) | ⚖️ Alternative Set 2 (Balanced) | 💰 Alternative Set 3 (Economy) |
 | :---: | :---: | :---: |
 | **Bosch BFL7221B1 (Serie 8)** | **Bosch BFL524MS0 (Serie 6)** | **Gorenje BM201AG1BG** |
-| ![Bosch BFL7221B1](../../_assets/bosch_bfl7221b1.jpg) | ![Bosch BFL524MS0](../../_assets/bosch_bfl524ms0.jpg) | ![Gorenje BM201AG1BG](../../_assets/gorenje_bm201ag1bg.jpg) |
-| ![Bosch HBG7764B1](../../_assets/bosch_hbg7764b1.jpg) | ![Bosch HBG578EB3](../../_assets/bosch_hbg578eb3.jpg) | ![Gorenje BPSA6747A08BG](../../_assets/gorenje_bpsa6747a08bg.jpg) |
+| ![Bosch BFL7221B1](../_assets/bosch_bfl7221b1.jpg) | ![Bosch BFL524MS0](../_assets/bosch_bfl524ms0.jpg) | ![Gorenje BM201AG1BG](../_assets/gorenje_bm201ag1bg.jpg) |
+| ![Bosch HBG7764B1](../_assets/bosch_hbg7764b1.jpg) | ![Bosch HBG578EB3](../_assets/bosch_hbg578eb3.jpg) | ![Gorenje BPSA6747A08BG](../_assets/gorenje_bpsa6747a08bg.jpg) |
 | **Bosch HBG7764B1 (Serie 8)** | **Bosch HBG578EB3 (Serie 6)** | **Gorenje BPSA6747A08BG** |
 
 ---
