@@ -19,44 +19,42 @@ Below is a side-by-side visualization of how the tumble dryer and washing machin
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 5px 10px 0 10px; font-weight: bold;">LG DC10V9V9E (10 kg)</td>
-      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Samsung DV90BB9445GHLP</td>
-      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Bosch WQB245B0ME (9 kg)</td>
-      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Bosch WQB245B40 (9 kg)</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">LG DC10V9V9E (10 kg)</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Samsung DV90BB9445GHLP</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Bosch WQB245B0ME (9 kg)</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Bosch WQB245B40 (9 kg)</td>
     </tr>
     <tr>
-      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
-        <img src="../_assets/lg_dc10v9v9e.jpg" alt="LG DC10V9V9E" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+          <img src="../_assets/lg_dc10v9v9e.jpg" alt="LG DC10V9V9E" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+          <img src="../_assets/lg_f4v9la2w.jpg" alt="LG F4V9LA2W" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+        </div>
       </td>
-      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
-        <img src="../_assets/samsung_dv90bb9445ghlp.jpg" alt="Samsung DV90BB9445GHLP" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+          <img src="../_assets/samsung_dv90bb9445ghlp.jpg" alt="Samsung DV90BB9445GHLP" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+          <img src="../_assets/samsung_ww11cb944cghlp.jpg" alt="Samsung WW11CB944CGHLP" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+        </div>
       </td>
-      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
-        <img src="../_assets/bosch_wqb245b0me.jpg" alt="Bosch WQB245B0ME" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+          <img src="../_assets/bosch_wqb245b0me.jpg" alt="Bosch WQB245B0ME" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+          <img src="../_assets/bosch_wgb244040.jpg" alt="Bosch WGB244040" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+        </div>
       </td>
-      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
-        <img src="../_assets/bosch_wqb245b40.jpg" alt="Bosch WQB245B40" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; padding: 0 10px; border: none;">
-        <img src="../_assets/lg_f4v9la2w.jpg" alt="LG F4V9LA2W" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
-      </td>
-      <td style="vertical-align: top; padding: 0 10px; border: none;">
-        <img src="../_assets/samsung_ww11cb944cghlp.jpg" alt="Samsung WW11CB944CGHLP" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
-      </td>
-      <td style="vertical-align: top; padding: 0 10px; border: none;">
-        <img src="../_assets/bosch_wgb244040.jpg" alt="Bosch WGB244040" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
-      </td>
-      <td style="vertical-align: top; padding: 0 10px; border: none;">
-        <img src="../_assets/bosch_wgb244a40.jpg" alt="Bosch WGB244a40" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+          <img src="../_assets/bosch_wqb245b40.jpg" alt="Bosch WQB245B40" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+          <img src="../_assets/bosch_wgb244a40.jpg" alt="Bosch WGB244A40" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+        </div>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #ccc);">
-      <td style="padding: 0 10px 10px 10px; font-weight: bold;">LG F4V9LA2W (13 kg)</td>
-      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Samsung WW11CB944CGHLP</td>
-      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Bosch WGB244040 (9 kg)</td>
-      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Bosch WGB244A40 (9 kg)</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">LG F4V9LA2W (13 kg)</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Samsung WW11CB944CGHLP</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Bosch WGB244040 (9 kg)</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Bosch WGB244A40 (9 kg)</td>
     </tr>
   </tbody>
 </table>

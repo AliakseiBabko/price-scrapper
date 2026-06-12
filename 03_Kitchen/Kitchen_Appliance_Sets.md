@@ -18,36 +18,34 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Bosch BFL7221B1 (Serie 8)</td>
-      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Bosch BFL524MS0 (Serie 6)</td>
-      <td style="padding: 5px 10px 0 10px; font-weight: bold;">Gorenje BM201AG1BG</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Bosch BFL7221B1 (Serie 8)</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Bosch BFL524MS0 (Serie 6)</td>
+      <td style="padding: 5px 10px 2px 10px; font-weight: bold;">Gorenje BM201AG1BG</td>
     </tr>
     <tr>
-      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
-        <img src="../_assets/bosch_bfl7221b1.jpg" alt="Bosch BFL7221B1" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+          <img src="../_assets/bosch_bfl7221b1.jpg" alt="Bosch BFL7221B1" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+          <img src="../_assets/bosch_hbg7764b1.jpg" alt="Bosch HBG7764B1" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+        </div>
       </td>
-      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
-        <img src="../_assets/bosch_bfl524ms0.jpg" alt="Bosch BFL524MS0" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+          <img src="../_assets/bosch_bfl524ms0.jpg" alt="Bosch BFL524MS0" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+          <img src="../_assets/bosch_hbg578eb3.jpg" alt="Bosch HBG578EB3" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+        </div>
       </td>
-      <td style="vertical-align: bottom; padding: 0 10px; border: none;">
-        <img src="../_assets/gorenje_bm201ag1bg.jpg" alt="Gorenje BM201AG1BG" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; padding: 0 10px; border: none;">
-        <img src="../_assets/bosch_hbg7764b1.jpg" alt="Bosch HBG7764B1" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
-      </td>
-      <td style="vertical-align: top; padding: 0 10px; border: none;">
-        <img src="../_assets/bosch_hbg578eb3.jpg" alt="Bosch HBG578EB3" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
-      </td>
-      <td style="vertical-align: top; padding: 0 10px; border: none;">
-        <img src="../_assets/gorenje_bpsa6747a08bg.jpg" alt="Gorenje BPSA6747A08BG" style="display: block; margin: 0 auto; max-height: 200px; width: auto; object-fit: contain;" />
+      <td style="padding: 0 10px; border: none; line-height: 0;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+          <img src="../_assets/gorenje_bm201ag1bg.jpg" alt="Gorenje BM201AG1BG" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+          <img src="../_assets/gorenje_bpsa6747a08bg.jpg" alt="Gorenje BPSA6747A08BG" style="display: block; max-height: 200px; width: auto; object-fit: contain; margin: 0;" />
+        </div>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border-color, #ccc);">
-      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Bosch HBG7764B1 (Serie 8)</td>
-      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Bosch HBG578EB3 (Serie 6)</td>
-      <td style="padding: 0 10px 10px 10px; font-weight: bold;">Gorenje BPSA6747A08BG</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Bosch HBG7764B1 (Serie 8)</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Bosch HBG578EB3 (Serie 6)</td>
+      <td style="padding: 2px 10px 10px 10px; font-weight: bold;">Gorenje BPSA6747A08BG</td>
     </tr>
   </tbody>
 </table>
