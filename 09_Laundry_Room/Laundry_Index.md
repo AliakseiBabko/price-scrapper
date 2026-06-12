@@ -8,16 +8,23 @@
 
 ---
 
-## 🎨 Materials & Layout
-* **Flooring**: *Placeholder* (Recommendation: Durable tile or waterproof vinyl).
-* **Walls**: *Placeholder* (Recommendation: Moisture-resistant washable paint).
-* **Waterproofing**: *Placeholder* (Recommendation: Essential floor waterproofing with a small floor drain if possible).
+## 🎨 Materials & Finishes
+* **Flooring**: *Placeholder* (Recommendation: Hard-wearing, waterproof porcelain tile).
+* **Walls**: *Placeholder* (Recommendation: Moisture-resistant paint or tiles).
+* **Baseboard**: *Placeholder* (Length: ~`4.5 m` excluding doorway).
+* **Waterproofing**: *Placeholder* (Recommendation: Complete floor waterproofing with a low-profile floor drain).
 
 ## 💡 Lighting & Ventilation
 * **Lighting**: *Placeholder* (Recommendation: Bright utility LED panel or spotlight).
-* **Ventilation**: *Placeholder* (Recommendation: Dedicated active ventilation to handle moisture from the dryer).
+* **Ventilation**: *Placeholder* (Recommendation: Dedicated active exhaust fan to extract heat and humidity from the dryer).
 
-## 🔌 Appliances & Storage
-* **Washing Machine**: *Placeholder*
-* **Tumble Dryer**: *Placeholder* (Recommendation: Heat pump dryer stacked above the washing machine to save space).
-* **Shelving & Storage**: *Placeholder* (Shelves for detergents, laundry baskets, ironing board storage).
+## 🔌 Appliances (Selection Complete)
+* **Status**: LG V9 Flagship Pair Approved (`5,698 р.` budget).
+* **Details**: Review the options and individual specifications in **[[Laundry_Appliance_Sets]]**:
+  - **Dryer**: [[LG_DC90V9V9E_Dryer]] (stacked on top)
+  - **Washing Machine**: [[LG_F4V9LA2W_Washing_Machine]] (on bottom)
+  - **Stacking Kit**: LG KSTK1 Connection Kit
+
+## 🛋️ Layout & Storage
+* **Laundry Column**: Placed along the back wall (`1598 mm` depth provides ample space).
+* **Shelving & Cabinetry**: *Placeholder* (Recommendation: Built-in cupboards next to the column for detergents, laundry hampers, and ironing board storage).

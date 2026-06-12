@@ -4,16 +4,29 @@ This document organizes your kitchen renovation appliance selections into three 
 
 ---
 
+## 📸 Visual Column Comparison
+
+Below is a side-by-side visualization of how the microwave and oven stack up in a column in your kitchen layout:
+
+| 🌟 Primary Set (Premium) | ⚖️ Alternative Set 2 (Balanced) | 💰 Alternative Set 3 (Economy) |
+| :---: | :---: | :---: |
+| **Bosch BFL7221B1 (Serie 8)** | **Bosch BFL524MS0 (Serie 6)** | **Gorenje BM201AG1BG** |
+| ![Bosch BFL7221B1](../../_assets/bosch_bfl7221b1.jpg) | ![Bosch BFL524MS0](../../_assets/bosch_bfl524ms0.jpg) | ![Gorenje BM201AG1BG](../../_assets/gorenje_bm201ag1bg.jpg) |
+| ![Bosch HBG7764B1](../../_assets/bosch_hbg7764b1.jpg) | ![Bosch HBG578BB0](../../_assets/bosch_hbg578bb0.jpg) | ![Gorenje BPSA6747A08BG](../../_assets/gorenje_bpsa6747a08bg.jpg) |
+| **Bosch HBG7764B1 (Serie 8)** | **Bosch HBG578BB0 (Serie 6)** | **Gorenje BPSA6747A08BG** |
+
+---
+
 ## 📊 Summary of Appliance Sets
 
-| Appliance      | 🌟 Primary Set (Premium/Pro)              | ⚖️ Alternative Set 2 (Balanced Quality) | 💰 Alternative Set 3 (Smart Economy) |
-| :------------- | :---------------------------------------- | :-------------------------------------- | :----------------------------------- |
-| **Oven**       | [[Bosch_HBG7764B1_Oven]] (4,906р.)        | Bosch HBG578BB0 (3,100р.)               | Gorenje BPSA6747A08BG (2,499р.)      |
-| **Microwave**  | [[Bosch_BFL7221B1_Microwave]] (2,379р.)   | Bosch BFL524MS0 (1,400р.)               | Gorenje BM201AG1BG (1,134р.)         |
-| **Cooktop**    | [[Bosch_PIF63KHC1E_Cooktop]] (2,168р.)    | Bosch PIE631FB1E (1,600р.)              | Electrolux IPE6440KF (1,300р.)       |
-| **Dishwasher** | [[Bosch_SMV8YCX02E_Dishwasher]] (2,999р.) | Bosch SMV6ZDX49E (2,100р.)              | Gorenje GV673C62 (1,600р.)           |
-| **Hood**       | [[Bosch_DHL555BL_Hood]] (1,431р.)         | [[Bosch_DHL555BL_Hood]] (1,431р.)       | MAUNFELD Crosby Singolo 60 (450р.)   |
-| **TOTAL**      | **13,883 rubles**                         | **9,631 rubles**                        | **6,983 rubles**                     |
+| Appliance | 🌟 Primary Set (Premium/Pro) | ⚖️ Alternative Set 2 (Balanced Quality) | 💰 Alternative Set 3 (Smart Economy) |
+| :--- | :--- | :--- | :--- |
+| **Oven** | [[Bosch_HBG7764B1_Oven]] (4,906р.) | Bosch HBG578BB0 (3,100р.) | Gorenje BPSA6747A08BG (2,499р.) |
+| **Microwave** | [[Bosch_BFL7221B1_Microwave]] (2,379р.) | Bosch BFL524MS0 (1,400р.) | Gorenje BM201AG1BG (1,134р.) |
+| **Cooktop** | [[Bosch_PIF63KHC1E_Cooktop]] (2,168р.) | Bosch PIE631FB1E (1,600р.) | Electrolux IPE6440KF (1,300р.) |
+| **Dishwasher**| [[Bosch_SMV8YCX02E_Dishwasher]] (2,999р.)| Bosch SMV6ZDX49E (2,100р.) | Gorenje GV673C62 (1,600р.) |
+| **Hood** | [[Bosch_DHL555BL_Hood]] (1,431р.) | [[Bosch_DHL555BL_Hood]] (1,431р.) | MAUNFELD Crosby Singolo 60 (450р.) |
+| **TOTAL** | **13,883 rubles** | **9,631 rubles** | **6,983 rubles** |
 
 ---
 
@@ -35,7 +48,7 @@ This document organizes your kitchen renovation appliance selections into three 
 ## 2. ⚖️ Alternative Set 2: "Balanced Quality" (Bosch Serie 6 Focus)
 **Target**: Saves ~4,200 rubles while retaining Bosch quality, Pyrolysis, and Zeolite drying.
 
-* **Oven (Bosch HBG578BB0 - 3,100р.)**: Keeps pyrolysis and 3D hot air. Replaces the touch ring and TFT display with retractable rotary dials and a standard white LCD. Replaces the 3-point probe with a 1-point probe (requires more careful placement in meat).
+* **Oven (Bosch HBG578BB0 - 3,100р.)**: Keeps pyrolysis and 3D hot air. Replaces the touch ring and TFT display with retractable rotary dials and a standard white LCD. Replaces the 3-point probe with a 1-point probe.
 * **Microwave (Bosch BFL524MS0 - 1,400р.)**: Built-in Serie 6 microwave. Visually matches the Serie 6 oven perfectly in black glass and steel, but uses standard buttons and rotary control instead of the touch ring.
 * **Cooktop (Bosch PIE631FB1E - 1,600р.)**: Standard induction hob with DirectSelect slider. Retains Bosch's reliable induction heating but drops the 28 cm extra-large ring, using standard size burners (max 21 cm).
 * **Dishwasher (Bosch SMV6ZDX49E - 2,100р.)**: Serie 6 dishwasher that still includes **Zeolite** drying. Offers outstanding drying and quiet operation, but has slightly fewer adjustable baskets and fewer noise-isolation mats than the Serie 8.
@@ -48,6 +61,6 @@ This document organizes your kitchen renovation appliance selections into three 
 
 * **Oven (Gorenje BPSA6747A08BG - 2,499р.)**: An excellent balanced choice. Offers **full pyrolysis**, a massive 77-liter volume, **SteamAssist** (steam-infused baking), **IconTouch** touch controls, and includes the **BakeSensor** meat probe to cook meat to perfect core temperature.
 * **Microwave (Gorenje BM201AG1BG - 1,134р.)**: Built-in microwave in full black glass finish. Visually matches the black Gorenje BPSA6747A08BG oven perfectly.
-* **Cooktop (Electrolux IPE6440KF - 1,300р.)**: Features a highly responsive touch slider interface and a layout optimized for large cookware. Electrolux hobs are widely regarded as the best budget/mid-range induction cooktops on the market.
+* **Cooktop (Electrolux IPE6440KF - 1,300р.)**: Features a highly responsive touch slider interface and a layout optimized for large cookware.
 * **Dishwasher (Gorenje GV673C62 - 1,600р.)**: 16-place setting dishwasher. Instead of expensive Zeolite, it uses **TotalDry (auto-door opening)** at the end of the cycle. Very efficient for drying dishes (including plastics) at half the price.
-* **Hood (MAUNFELD Crosby Singolo 60 - 450р.)**: Simple built-in hood. Uses a single motor but offers decent 600 m³/h capacity, which is sufficient for a closed kitchen.
+* **Hood (MAUNFELD Crosby Singolo 60 - 450р.)**: Simple built-in hood. Uses a single motor but offers decent 600 m³/h capacity.

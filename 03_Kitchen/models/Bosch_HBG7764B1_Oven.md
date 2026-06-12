@@ -6,6 +6,12 @@
 
 ---
 
+## 📸 Product Image
+
+![Bosch HBG7764B1](../../_assets/bosch_hbg7764b1.jpg)
+
+---
+
 ## 🎯 Why It Was Selected
 
 1. **Full Pyrolysis (Grease Elimination)**: 

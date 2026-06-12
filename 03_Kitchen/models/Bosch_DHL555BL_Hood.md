@@ -6,6 +6,12 @@
 
 ---
 
+## 📸 Product Image
+
+![Bosch DHL555BL](../../_assets/bosch_dhl555bl.jpg)
+
+---
+
 ## 🎯 Why It Was Selected
 
 1. **Dual-Motor Power**:

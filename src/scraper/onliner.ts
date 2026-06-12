@@ -1,6 +1,7 @@
 import { chromium } from 'playwright';
+import path from 'path';
 import { BaseScraper, ScraperOptions, ScrapeResult, ScrapedProduct, ScrapedOffer, ScrapedReview } from './base.js';
-import { saveScrapedData, normalizeModel, DbCategory, DbProduct, DbOffer, DbReview } from '../database/db.js';
+import { saveScrapedData, normalizeModel, downloadImage, DbCategory, DbProduct, DbOffer, DbReview } from '../database/db.js';
 
 export class OnlinerScraper extends BaseScraper {
   sourceName = 'onliner';
@@ -258,6 +259,19 @@ export class OnlinerScraper extends BaseScraper {
             url: result.category.url
           };
 
+          let resolvedImageUrl = '';
+          const rawImageUrl = item.images?.header || item.image || '';
+          if (rawImageUrl) {
+            resolvedImageUrl = rawImageUrl.startsWith('//') ? `https:${rawImageUrl}` : rawImageUrl;
+            const destPath = path.resolve('_assets', `${canonicalId.replace(':', '_')}.jpg`);
+            console.log(`  Downloading product image to: ${destPath}...`);
+            try {
+              await downloadImage(resolvedImageUrl, destPath);
+            } catch (err: any) {
+              console.warn(`  Failed to download product image: ${err.message}`);
+            }
+          }
+
           const dbProduct: DbProduct = {
             id: scrapedProduct.id,
             category_id: scrapedProduct.category_id,
@@ -265,6 +279,7 @@ export class OnlinerScraper extends BaseScraper {
             model: scrapedProduct.model,
             title: scrapedProduct.title,
             specs_json: JSON.stringify(scrapedProduct.specs),
+            image_url: resolvedImageUrl || undefined,
             rating: scrapedProduct.rating,
             reviews_count: scrapedProduct.reviews_count
           };
@@ -311,6 +326,266 @@ export class OnlinerScraper extends BaseScraper {
     }
 
     console.log(`Crawl finished. Scraped: ${result.products.length} products, ${result.offers.length} offers, and ${result.reviews.length} reviews.`);
+    return result;
+  }
+
+  async scrapeSingle(productKey: string, categoryId: string, brand: string): Promise<ScrapeResult> {
+    console.log(`Directly scraping single product: ${productKey} (category: ${categoryId}, brand: ${brand})...`);
+    const browser = await chromium.launch({ headless: true });
+    const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+      viewport: { width: 1920, height: 1080 },
+      locale: 'ru-RU'
+    });
+    const page = await context.newPage();
+
+    const result: ScrapeResult = {
+      category: {
+        id: categoryId,
+        name: categoryId === 'oven_cooker' ? 'Духовые шкафы' : (categoryId === 'hob_cooker' ? 'Варочные панели' : categoryId),
+        url: `https://catalog.onliner.by/${categoryId}`
+      },
+      products: [],
+      offers: [],
+      reviews: []
+    };
+
+    try {
+      const canonicalId = normalizeModel(brand, productKey);
+      const productDetailUrl = `https://catalog.onliner.by/${categoryId}/${brand.toLowerCase()}/${productKey}`;
+      console.log(`  Navigating directly to: ${productDetailUrl}...`);
+      
+      await page.goto(productDetailUrl, { waitUntil: 'domcontentloaded' });
+      await this.delay(1000, 2000);
+
+      // Scrape specifications
+      const specs = await page.evaluate(() => {
+        const res: Record<string, string> = {};
+        const tables = document.querySelectorAll('.product-specs__table');
+        tables.forEach(table => {
+          table.querySelectorAll('tr').forEach(row => {
+            const keyCell = row.querySelector('td:first-child');
+            const valueCell = row.querySelector('td:last-child');
+            if (keyCell && valueCell) {
+              const key = keyCell.textContent?.trim().replace(/\s+/g, ' ') || '';
+              let value = valueCell.textContent?.trim().replace(/\s+/g, ' ') || '';
+              
+              const hasCheck = valueCell.querySelector('.i-tip, .icon_yes, .check, .yes');
+              const hasCross = valueCell.querySelector('.i-x, .icon_no, .cross, .no');
+              if (hasCheck) value = 'Да';
+              else if (hasCross) value = 'Нет';
+
+              if (key && value && !key.includes('?')) {
+                res[key] = value;
+              }
+            }
+          });
+        });
+        return res;
+      });
+
+      // Extract full name / title from DOM
+      const title = await page.evaluate(() => {
+        return document.querySelector('.catalog-masthead__title')?.textContent?.trim() || '';
+      }) || productKey;
+
+      // Extract raw image URL
+      const rawImageUrl = await page.evaluate(() => {
+        const selectors = [
+          'img.offers-description__image',
+          'img.product-gallery__thumb-img',
+          'img.product-gallery__img',
+          'img.picture-img',
+          'img[src*="catalog/device/main"]',
+          'img[src*="catalog/device/original"]'
+        ];
+        for (const selector of selectors) {
+          const img = document.querySelector(selector) as HTMLImageElement | null;
+          if (img && img.src) return img.src;
+        }
+        return '';
+      });
+
+      let resolvedImageUrl = '';
+      if (rawImageUrl) {
+        resolvedImageUrl = rawImageUrl.startsWith('//') ? `https:${rawImageUrl}` : rawImageUrl;
+        const destPath = path.resolve('_assets', `${canonicalId.replace(':', '_')}.jpg`);
+        console.log(`  Downloading product image to: ${destPath}...`);
+        try {
+          await downloadImage(resolvedImageUrl, destPath);
+        } catch (err: any) {
+          console.warn(`  Failed to download product image: ${err.message}`);
+        }
+      }
+
+      // Fetch positions
+      const positionsUrl = `https://catalog.onliner.by/sdapi/shop.api/products/${productKey}/positions?town=all&town_id=17030`;
+      console.log(`  Fetching reseller offers from: ${positionsUrl}...`);
+      const scrapedOffers: ScrapedOffer[] = [];
+      try {
+        const positionsData = await page.evaluate(async (url) => {
+          const resp = await fetch(url);
+          if (!resp.ok) return { positions: {} };
+          return await resp.json();
+        }, positionsUrl);
+
+        if (positionsData && positionsData.positions) {
+          const primary = positionsData.positions.primary || [];
+          const secondary = positionsData.positions.secondary || [];
+          const allPositions = [...primary, ...secondary];
+          const shopsMap = positionsData.shops || {};
+          
+          for (const pos of allPositions) {
+            const shopId = pos.shop_id?.toString() || '';
+            const shop = shopsMap[shopId] || {};
+            const price = pos.position_price?.amount ? Number(pos.position_price.amount) : undefined;
+            const resellerName = shop.title || `Shop #${shopId}`;
+            const resellerUrl = shop.html_url || '';
+            const resellerRating = shop.reviews?.rating ? Number(shop.reviews.rating) : undefined;
+            const resellerReviewsCount = shop.reviews?.count ? Number(shop.reviews.count) : 0;
+
+            scrapedOffers.push({
+              id: `onliner:${shopId}:${productKey}`,
+              product_id: canonicalId,
+              source: this.sourceName,
+              store_key: productKey,
+              reseller_id: shopId,
+              reseller_name: resellerName,
+              reseller_url: resellerUrl,
+              reseller_rating: resellerRating,
+              reseller_reviews_count: resellerReviewsCount,
+              price: price
+            });
+          }
+        }
+      } catch (err: any) {
+        console.warn(`  Failed to fetch reseller offers: ${err.message}`);
+      }
+
+      // Fallback if no offers
+      if (scrapedOffers.length === 0) {
+        const fallbackPrice = await page.evaluate(() => {
+          const priceText = document.querySelector('.offers-description__price_nodeline')?.textContent?.trim();
+          if (priceText) {
+            const match = priceText.replace(/\s/g, '').match(/(\d+[,.]?\d*)/);
+            return match ? Number(match[1].replace(',', '.')) : undefined;
+          }
+          return undefined;
+        });
+        if (fallbackPrice) {
+          scrapedOffers.push({
+            id: `onliner:unknown:${productKey}`,
+            product_id: canonicalId,
+            source: this.sourceName,
+            store_key: productKey,
+            reseller_id: 'unknown',
+            reseller_name: 'Unknown Reseller',
+            reseller_url: '',
+            reseller_rating: undefined,
+            reseller_reviews_count: 0,
+            price: fallbackPrice
+          });
+        }
+      }
+
+      // Fetch reviews
+      const reviewsUrl = `https://catalog.onliner.by/sdapi/catalog.api/products/${productKey}/reviews?limit=10`;
+      let reviews: ScrapedReview[] = [];
+      try {
+        const reviewsData = await page.evaluate(async (url) => {
+          const resp = await fetch(url);
+          if (!resp.ok) return { reviews: [] };
+          return await resp.json();
+        }, reviewsUrl);
+
+        if (reviewsData.reviews && Array.isArray(reviewsData.reviews)) {
+          reviews = reviewsData.reviews.map((r: any) => ({
+            id: `onliner:${r.id}`,
+            product_id: canonicalId,
+            source: this.sourceName,
+            author: r.author?.name || 'Anonymous',
+            rating: r.rating ? Number(r.rating) : undefined,
+            text: r.text || '',
+            pros: r.pros || '',
+            cons: r.cons || '',
+            date: r.created_at ? r.created_at.split('T')[0] : new Date().toISOString().split('T')[0]
+          }));
+        }
+      } catch (err: any) {
+        console.warn(`  Failed to fetch reviews: ${err.message}`);
+      }
+
+      const ratingNormalized = await page.evaluate(() => {
+        const ratingText = document.querySelector('.catalog-masthead__rating-value')?.textContent?.trim();
+        return ratingText ? Number(ratingText) : 0.0;
+      });
+      const reviewsCount = reviews.length;
+
+      const scrapedProduct: ScrapedProduct = {
+        id: canonicalId,
+        category_id: categoryId,
+        brand: brand,
+        model: productKey,
+        title: title,
+        specs: specs,
+        rating: ratingNormalized,
+        reviews_count: reviewsCount
+      };
+
+      const dbCategory: DbCategory = {
+        id: categoryId,
+        name: result.category.name,
+        url: result.category.url
+      };
+
+      const dbProduct: DbProduct = {
+        id: scrapedProduct.id,
+        category_id: scrapedProduct.category_id,
+        brand: scrapedProduct.brand,
+        model: scrapedProduct.model,
+        title: scrapedProduct.title,
+        specs_json: JSON.stringify(scrapedProduct.specs),
+        image_url: resolvedImageUrl || undefined,
+        rating: scrapedProduct.rating,
+        reviews_count: scrapedProduct.reviews_count
+      };
+
+      const dbOffers: DbOffer[] = scrapedOffers.map(o => ({
+        id: o.id,
+        product_id: o.product_id,
+        source: o.source,
+        store_key: o.store_key,
+        reseller_id: o.reseller_id,
+        reseller_name: o.reseller_name,
+        reseller_url: o.reseller_url,
+        reseller_rating: o.reseller_rating,
+        reseller_reviews_count: o.reseller_reviews_count,
+        price: o.price
+      }));
+
+      const dbReviews: DbReview[] = reviews.map(r => ({
+        id: r.id,
+        product_id: r.product_id,
+        source: r.source,
+        author: r.author,
+        rating: r.rating,
+        text: r.text,
+        pros: r.pros,
+        cons: r.cons,
+        date: r.date
+      }));
+
+      saveScrapedData(dbCategory, [dbProduct], dbOffers, dbReviews);
+
+      result.products.push(scrapedProduct);
+      result.offers.push(...scrapedOffers);
+      result.reviews.push(...reviews);
+
+    } finally {
+      await browser.close();
+      console.log("Browser closed.");
+    }
+
     return result;
   }
 }

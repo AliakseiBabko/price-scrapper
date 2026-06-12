@@ -6,6 +6,12 @@
 
 ---
 
+## 📸 Product Image
+
+![Bosch BFL7221B1](../../_assets/bosch_bfl7221b1.jpg)
+
+---
+
 ## 🎯 Why It Was Selected
 
 1. **Aesthetic Column Unity**:

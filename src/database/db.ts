@@ -1,6 +1,8 @@
 import Database from 'better-sqlite3';
 import path from 'path';
 import fs from 'fs';
+import https from 'https';
+import http from 'http';
 
 // Ensure the data directory exists
 const DB_DIR = path.resolve('data');
@@ -30,6 +32,7 @@ export function initDb() {
       model TEXT NOT NULL,
       title TEXT NOT NULL,
       specs_json TEXT NOT NULL,
+      image_url TEXT,
       rating REAL DEFAULT 0.0,
       reviews_count INTEGER DEFAULT 0,
       last_updated TEXT NOT NULL
@@ -75,6 +78,13 @@ export function initDb() {
     CREATE INDEX IF NOT EXISTS idx_reviews_product ON reviews(product_id);
     CREATE INDEX IF NOT EXISTS idx_price_history_offer ON price_history(offer_id);
   `);
+
+  // Migrate existing databases to have the image_url column
+  try {
+    db.exec("ALTER TABLE products ADD COLUMN image_url TEXT;");
+  } catch (e) {
+    // Column already exists, ignore error
+  }
 }
 
 /**
@@ -109,6 +119,7 @@ export interface DbProduct {
   model: string;
   title: string;
   specs_json: string;
+  image_url?: string;
   rating?: number;
   reviews_count?: number;
 }
@@ -159,14 +170,15 @@ export const saveScrapedData = db.transaction((
 
   // 2. Upsert Products
   const insertProduct = db.prepare(`
-    INSERT INTO products (id, category_id, brand, model, title, specs_json, rating, reviews_count, last_updated)
-    VALUES ($id, $category_id, $brand, $model, $title, $specs_json, COALESCE($rating, 0.0), COALESCE($reviews_count, 0), datetime('now'))
+    INSERT INTO products (id, category_id, brand, model, title, specs_json, image_url, rating, reviews_count, last_updated)
+    VALUES ($id, $category_id, $brand, $model, $title, $specs_json, $image_url, COALESCE($rating, 0.0), COALESCE($reviews_count, 0), datetime('now'))
     ON CONFLICT(id) DO UPDATE SET
       category_id = excluded.category_id,
       brand = excluded.brand,
       model = excluded.model,
       title = excluded.title,
       specs_json = excluded.specs_json,
+      image_url = CASE WHEN excluded.image_url IS NOT NULL THEN excluded.image_url ELSE products.image_url END,
       rating = CASE WHEN excluded.rating > 0 THEN excluded.rating ELSE products.rating END,
       reviews_count = CASE WHEN excluded.reviews_count > 0 THEN excluded.reviews_count ELSE products.reviews_count END,
       last_updated = datetime('now')
@@ -180,6 +192,7 @@ export const saveScrapedData = db.transaction((
       model: prod.model,
       title: prod.title,
       specs_json: prod.specs_json,
+      image_url: prod.image_url ?? null,
       rating: prod.rating ?? 0,
       reviews_count: prod.reviews_count ?? 0
     });
@@ -265,3 +278,84 @@ export const saveScrapedData = db.transaction((
     });
   }
 });
+
+/**
+ * Downloads a binary file (e.g. product image) from a URL to a local destination path.
+ */
+export async function downloadImage(url: string, destPath: string): Promise<void> {
+  const dir = path.dirname(destPath);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+
+  return new Promise((resolve, reject) => {
+    const file = fs.createWriteStream(destPath);
+    const client = url.startsWith('https') ? https : http;
+
+    client.get(url, (response) => {
+      if (response.statusCode !== 200) {
+        reject(new Error(`Failed to download image: HTTP ${response.statusCode}`));
+        return;
+      }
+      response.pipe(file);
+      file.on('finish', () => {
+        file.close();
+        resolve();
+      });
+    }).on('error', (err) => {
+      fs.unlink(destPath, () => {}); // delete file if error
+      reject(err);
+    });
+  });
+}
+
+/**
+ * Checks database freshness of a product's offers.
+ * Returns metadata and a boolean indicating if it was updated within the last 7 days.
+ */
+export function getProductFreshness(productId: string): { exists: boolean, isFresh: boolean, storeKey?: string, categoryId?: string, brand?: string } {
+  const row = db.prepare(`
+    SELECT p.last_updated, p.category_id, p.brand, o.store_key
+    FROM products p
+    LEFT JOIN offers o ON p.id = o.product_id
+    WHERE p.id = ?
+    LIMIT 1
+  `).get(productId) as { last_updated: string, category_id: string, brand: string, store_key: string } | undefined;
+
+  if (!row) {
+    return { exists: false, isFresh: false };
+  }
+
+  // Parse last_updated time (assumes UTC representation from SQLite's datetime('now'))
+  const lastUpdated = new Date(row.last_updated.replace(' ', 'T') + 'Z');
+  const now = new Date();
+  const diffTime = Math.abs(now.getTime() - lastUpdated.getTime());
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+  const isFresh = diffDays <= 7;
+  return {
+    exists: true,
+    isFresh,
+    storeKey: row.store_key,
+    categoryId: row.category_id,
+    brand: row.brand
+  };
+}
+
+/**
+ * Helper to parse color from the product specifications JSON string.
+ */
+export function getProductColor(specsJson: string): string {
+  try {
+    const specs = JSON.parse(specsJson);
+    const colorKeys = ["Цвет", "Цвет фурнитуры", "Цвет корпуса", "Цвет профиля"];
+    for (const key of colorKeys) {
+      if (specs[key]) {
+        return specs[key].trim().toLowerCase();
+      }
+    }
+  } catch (e) {
+    // Ignore
+  }
+  return "unknown";
+}

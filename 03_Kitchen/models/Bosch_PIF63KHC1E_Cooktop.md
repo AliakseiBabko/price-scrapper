@@ -6,6 +6,12 @@
 
 ---
 
+## 📸 Product Image
+
+![Bosch PIF63KHC1E](../../_assets/bosch_pif63khc1e.jpg)
+
+---
+
 ## 🎯 Why It Was Selected
 
 1. **Large Usable Circular Burner (28 cm)**:

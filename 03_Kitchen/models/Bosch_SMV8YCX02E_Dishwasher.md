@@ -6,6 +6,12 @@
 
 ---
 
+## 📸 Product Image
+
+![Bosch SMV8YCX02E](../../_assets/bosch_smv8ycx02e.jpg)
+
+---
+
 ## 🎯 Why It Was Selected
 
 1. **Zeolite Drying (Perfect Plastic Drying)**:
