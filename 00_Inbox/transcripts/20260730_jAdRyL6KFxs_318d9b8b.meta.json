@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=jAdRyL6KFxs",
+  "video_id": "jAdRyL6KFxs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-07-30T21:27:55.710810+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "318d9b8b86a7002b8e3fc0a6c82df105d11d1421c171cf2cdba2dff552cf897b",
+  "attempts_before_success": []
+}
