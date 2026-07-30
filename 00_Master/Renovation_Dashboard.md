@@ -25,7 +25,6 @@ Central hub for project guides, budgeting, and room specifications.
 
 ## Global Guides
 - [[00_Master/Dos_and_Donts_Master_Summary|Do's and Don'ts Master Summary]]
-- [[11_Budget_and_Planning/analysis/Master_Budgeting_Guide|Master Budgeting Guide]]
-- [[11_Budget_and_Planning/analysis/Cost_Saving_Strategies|Cost Saving Strategies]]
-- [[11_Budget_and_Planning/analysis/Renovation_Sequence|Renovation Sequence]]
-- [[11_Budget_and_Planning/analysis/Revit_AutoCAD_Integration_Strategy|Revit & AutoCAD Integration Strategy]]
+- [[11_Budget_and_Planning/Budgeting_Guide|Master Budgeting Guide]]
+- [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]]
+- [[11_Budget_and_Planning/_supporting/analysis/Revit_AutoCAD_Integration_Strategy|Revit & AutoCAD Integration Strategy]]

@@ -1,5 +1,8 @@
 # Price Table Screenshot Analysis — Test Case
 
+> [!NOTE]
+> **Dual-purpose document.** This case study contains two distinct kinds of content: (1) renovation-budgeting evidence — the reconstructed labor-cost table below, sourced from real screenshots of a 44 m² Minsk apartment estimate — and (2) screenshot/parser test-fixture guidance ("Test Case Interpretation", "Recommended Automated Test Usage", "Screenshot Mapping Table" sections further down), written to validate a table-parsing/OCR pipeline rather than to document renovation costs. Both are kept together for now; splitting them into separate documents is a possible future cleanup, not done in this pass.
+
 ## Source
 
 - **Screenshot folder:** `00_Inbox\_Visual_Drop\` (10 PNG files, all named `Screenshot 2026-07-28 0*.png`)
@@ -346,3 +349,35 @@ Everything in this section comes from the video's spoken narration (archived tra
 5. ~~Transcript unavailable~~ — **corrected**: the transcript was available all along in this repo's archive (`90_Archive\processed_sources\20260727_renovation_guide_mistakes_7_b385361e.txt`) and has now been read and cited above under "Transcript-Derived Context." Remaining gap: the transcript's spoken numeric figures are ASR-transcribed and imprecise, so several stage-level dollar amounts mentioned in the video remain only loosely readable, not exact.
 6. Two specific total-column digits (Этап 10 "Монтаж малярного уголка..." row, Этап 12 "Откосы, опуски, коробы..." row) are obscured by an on-screen cursor icon in the source screenshots; the values shown in this document for those cells are arithmetic inferences (Цена × Количество), not directly read digits, and are flagged as such in the tables above. The transcript does not mention these specific rows.
 7. **New:** exact spoken stage-subtotal figures (Этап 6 electrical "$14??", Этап 7+9 combined "$12??") are ASR-truncated in the archived transcript and could not be confidently reconstructed even from the transcript text itself — if precise figures are needed, they would require re-watching the relevant timestamp with sound, not just the caption track.
+
+---
+
+## Companion Benchmark: Minsk / Belarus 2025 Turnkey Labor & Material Rates
+
+> [!NOTE]
+> Appended from the former `11_Budget_and_Planning/analysis/Master_Budgeting_Guide.md` §4 during the 2026-07-30 wiki/case-study reorganization (that file is now archived at `11_Budget_and_Planning/_supporting/legacy/Master_Budgeting_Guide_legacy_pre_reorg.md`). This is a top-level rate-card summary of the **same underlying source** (`b385361e`, the 44 m² Minsk apartment смета) as the row-level reconstruction above — a rollup view rather than the full row-by-row table. Content is unchanged from the original document.
+
+> [!NOTE]
+> **Metadata**:
+> - **Source class**: Primary local benchmark
+> - **Region**: Minsk, Belarus
+> - **Source year**: 2025
+> - **Currency in source**: USD (labor/design) & BYN (rough materials)
+> - **Conversion basis**: Direct local USD / BYN estimates
+> - **Comparability**: Direct primary benchmark for Minsk comfort-class renovation projects
+
+| Labor & Service Item | Stated Rate / Cost | Scope / Unit | Notes & Technical Details | Source |
+| :--- | :--- | :--- | :--- | :--- |
+| **Floor Pipe Detector Scanning** | $50 USD | Flat fee per job | Ultrasonic/magnetic scanning of PEX radiator pipes in raw screed before chasing | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Keramzit-Concrete Block Masonry** | $9 USD / m² | Wall area | Partition wall construction with perimeter expansion joints & bed joints | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Wall Plastering by Guides** | $6 USD / m² | Wall area | Plastering with 90° geometry for kitchen/bathroom walls (market avg $5 USD/m²) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Ceiling Plastering by Guides** | $10 USD / m² | Ceiling area | Heavy plaster leveling for raw concrete ceilings | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **AC Split-System Installation** | $350 USD | Job total | Labor & line routing by HVAC specialists | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Rough Plumbing & Ventilation Labor** | $1,090 USD | Job total | Riser manifold, counter relocation, leak servo-drives, multizone ventilation | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Rough Electrical Installation Labor** | $1,400 USD | Job total | Cable chasing, panel assembly, temporary switches/sockets | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Ceramic Tile Installation** | $13 USD / m² | Tile area | Wall/floor ceramic tile labor | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Standard Porcelain Tile Installation** | $15 USD / m² | Tile area | Standard porcelain stoneware labor | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Large-Format Porcelain Tile (<1.5m²)** | $17 USD / m² | Tile area | Large-format porcelain stoneware labor | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Rough Surface Prep & Plastering Labor** | $1,400 USD | Job total | Wall putty prep under wallpaper & paint, floor screed grinding | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Final Trim Installation Labor** | $800 USD | Job total | Plumbing fixtures, lighting trim, MDF baseboard installation | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Rough Building Materials (Stage 1)** | 2,000 BYN | Material purchase | Keramzit blocks, Rotband plaster, SM11 tile glue, primers, fasteners | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |

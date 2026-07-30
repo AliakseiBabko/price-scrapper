@@ -115,15 +115,22 @@ step asks for these three; this wrapper answers that question so the
 user doesn't have to restate it each time):
 
 - Source extraction notes folder:
-  `11_Budget_and_Planning\knowledge\sources\`
+  `11_Budget_and_Planning\_supporting\knowledge\sources\`
 - Intermediate knowledge store:
-  `11_Budget_and_Planning\knowledge\intermediate\renovation_budgeting_knowledge_store.md`
-- Master wiki page:
-  `11_Budget_and_Planning\knowledge\wiki\renovation_budgeting_master_guide.md`
+  `11_Budget_and_Planning\_supporting\knowledge\intermediate\renovation_budgeting_knowledge_store.md`
+- Master wiki page (auto-updatable):
+  `11_Budget_and_Planning\Budgeting_Guide.md`
 
 Create these paths if they don't exist yet; don't invent alternate paths
 or fall back to `tiered-knowledge-base`'s generic suggested layout - this
 wrapper's paths take priority for this topic.
+
+`11_Budget_and_Planning\Renovation_Sequence.md` is a separate, top-level,
+human-curated companion page (sequencing summary). It is **not** the
+master wiki page and this skill must not auto-update it - if a source
+clearly affects sequencing content, note that in the intermediate store
+and let the user decide whether to fold it into `Renovation_Sequence.md`
+by hand, or ask the user explicitly before editing it directly.
 
 ## Pipeline
 

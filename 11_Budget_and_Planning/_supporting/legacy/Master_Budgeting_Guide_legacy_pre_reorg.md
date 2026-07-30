@@ -1,5 +1,8 @@
 # Master Budgeting Guide for Renovation
 
+> [!NOTE]
+> **Archived.** This legacy guide was superseded by [[11_Budget_and_Planning/Budgeting_Guide|Budgeting_Guide.md]] during the budget-planning reorganization. It is preserved for traceability and for later review of secondary Russia/RUB reference bullets.
+
 This guide synthesizes the core principles of creating a robust renovation budget, ensuring you capture hidden expenses and avoid the dreaded "budget creep."
 
 ## 1. The 7-Step Layout-First Approach
@@ -48,7 +51,7 @@ When allocating funds for materials, a general rule of thumb is:
 
 > [!TIP]
 > **Companion Design Context**:
-> A detailed technical and interior design tour of a strongly inferred companion apartment matching this 60 m² project is documented in case study [[11_Budget_and_Planning/analysis/Minsk_World_60m2_Design_and_Cost_Case_Study\|Minsk_World_60m2_Design_and_Cost_Case_Study]] (sourced from companion video [[90_Archive/processed_sources/20260727_minsk_world_60m2_design_tour_26bc9c25\|26bc9c25]]). Costs are sourced strictly from pricing breakdown [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]].
+> A detailed technical and interior design tour of a strongly inferred companion apartment matching this 60 m² project is documented in case study [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case\|minsk_world_60m2_design_cost_case]] (sourced from companion video [[90_Archive/processed_sources/20260727_minsk_world_60m2_design_tour_26bc9c25\|26bc9c25]]). Costs are sourced strictly from pricing breakdown [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]].
 
 
 
