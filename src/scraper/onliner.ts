@@ -180,7 +180,9 @@ export class OnlinerScraper extends BaseScraper {
                   reseller_url: resellerUrl,
                   reseller_rating: resellerRating,
                   reseller_reviews_count: resellerReviewsCount,
-                  price: price
+                  price: price,
+                  price_unit: 'BYN',
+                  availability: 'В наличии'
                 });
               }
             }
@@ -203,7 +205,9 @@ export class OnlinerScraper extends BaseScraper {
                 reseller_url: '',
                 reseller_rating: undefined,
                 reseller_reviews_count: 0,
-                price: priceMin
+                price: priceMin,
+                price_unit: 'BYN',
+                availability: 'В наличии'
               });
             }
           }
@@ -294,7 +298,9 @@ export class OnlinerScraper extends BaseScraper {
             reseller_url: o.reseller_url,
             reseller_rating: o.reseller_rating,
             reseller_reviews_count: o.reseller_reviews_count,
-            price: o.price
+            price: o.price,
+            price_unit: o.price_unit,
+            availability: o.availability
           }));
 
           const dbReviews: DbReview[] = reviews.map(r => ({
@@ -454,7 +460,9 @@ export class OnlinerScraper extends BaseScraper {
               reseller_url: resellerUrl,
               reseller_rating: resellerRating,
               reseller_reviews_count: resellerReviewsCount,
-              price: price
+              price: price,
+              price_unit: 'BYN',
+              availability: 'В наличии'
             });
           }
         }
@@ -483,7 +491,9 @@ export class OnlinerScraper extends BaseScraper {
             reseller_url: '',
             reseller_rating: undefined,
             reseller_reviews_count: 0,
-            price: fallbackPrice
+            price: fallbackPrice,
+            price_unit: 'BYN',
+            availability: 'В наличии'
           });
         }
       }
@@ -561,7 +571,9 @@ export class OnlinerScraper extends BaseScraper {
         reseller_url: o.reseller_url,
         reseller_rating: o.reseller_rating,
         reseller_reviews_count: o.reseller_reviews_count,
-        price: o.price
+        price: o.price,
+        price_unit: o.price_unit,
+        availability: o.availability
       }));
 
       const dbReviews: DbReview[] = reviews.map(r => ({

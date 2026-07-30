@@ -1,0 +1,2 @@
+source_id,date,source_type,source_file,source_hash,origin,units,status,revit_model,target_views,related_files,notes
+cad_20260727_2e87f270,2026-07-27,homestyler_dwg,00_Inbox/cad/20260727-ZK Dubravinskiy.dwg,2e87f2703262be9e3d9062b4c5e986e9823a49ddd59d580bd8a96010e6906892,Homestyler,unknown,inbox,unknown,"floor_plan,ceiling_plan,lighting_plan,electrical_plan,plumbing_plan",00_Inbox/cad/Print_Style_Design.ctb;00_Inbox/cad/How_to_add_custom_plot_style_in_AutoCAD.png,DWG header detected as AC1021; needs Revit link/import verification and unit check before archiving.

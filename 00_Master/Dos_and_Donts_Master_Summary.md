@@ -1,0 +1,19 @@
+# Do's and Don'ts Master Summary
+
+Index of domain and room-specific Do's & Don'ts guides across the vault.
+
+## Engineering & Systems
+- [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighting]]
+- [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]]
+- [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]]
+
+## Surfaces & Finishes
+- [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring Guide]]
+- [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]]
+- [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]]
+
+## Room Specific Rules
+- [[07_Bathroom/analysis/Dos_and_Donts|Bathroom]]
+- [[08_WC/analysis/Dos_and_Donts|WC]]
+- [[09_Laundry_Room/analysis/Dos_and_Donts|Laundry Room]]
+- [[03_Kitchen/General/analysis/Dos_and_Donts|Kitchen]]

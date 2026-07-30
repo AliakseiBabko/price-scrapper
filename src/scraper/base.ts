@@ -20,6 +20,8 @@ export interface ScrapedOffer {
   reseller_rating?: number;
   reseller_reviews_count?: number;
   price?: number;
+  price_unit?: string;
+  availability?: string;
 }
 
 export interface ScrapedReview {

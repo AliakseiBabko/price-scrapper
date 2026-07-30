@@ -50,6 +50,8 @@ export function initDb() {
       reseller_rating REAL,
       reseller_reviews_count INTEGER,
       price REAL,
+      price_unit TEXT DEFAULT 'BYN',
+      availability TEXT DEFAULT 'В наличии',
       last_updated TEXT NOT NULL
     );
 
@@ -88,6 +90,16 @@ export function initDb() {
   }
   try {
     db.exec("ALTER TABLE products ADD COLUMN release_year TEXT;");
+  } catch (e) {
+    // Column already exists, ignore error
+  }
+  try {
+    db.exec("ALTER TABLE offers ADD COLUMN price_unit TEXT DEFAULT 'BYN';");
+  } catch (e) {
+    // Column already exists, ignore error
+  }
+  try {
+    db.exec("ALTER TABLE offers ADD COLUMN availability TEXT DEFAULT 'В наличии';");
   } catch (e) {
     // Column already exists, ignore error
   }
@@ -142,6 +154,8 @@ export interface DbOffer {
   reseller_rating?: number;
   reseller_reviews_count?: number;
   price?: number;
+  price_unit?: string;
+  availability?: string;
 }
 
 export interface DbReview {
@@ -209,8 +223,8 @@ export const saveScrapedData = db.transaction((
 
   // 3. Upsert Offers and Track Prices (reseller specific)
   const insertOffer = db.prepare(`
-    INSERT INTO offers (id, product_id, source, store_key, reseller_id, reseller_name, reseller_url, reseller_rating, reseller_reviews_count, price, last_updated)
-    VALUES ($id, $product_id, $source, $store_key, $reseller_id, $reseller_name, $reseller_url, $reseller_rating, $reseller_reviews_count, $price, datetime('now'))
+    INSERT INTO offers (id, product_id, source, store_key, reseller_id, reseller_name, reseller_url, reseller_rating, reseller_reviews_count, price, price_unit, availability, last_updated)
+    VALUES ($id, $product_id, $source, $store_key, $reseller_id, $reseller_name, $reseller_url, $reseller_rating, $reseller_reviews_count, $price, $price_unit, $availability, datetime('now'))
     ON CONFLICT(id) DO UPDATE SET
       product_id = excluded.product_id,
       reseller_name = excluded.reseller_name,
@@ -218,6 +232,8 @@ export const saveScrapedData = db.transaction((
       reseller_rating = excluded.reseller_rating,
       reseller_reviews_count = excluded.reseller_reviews_count,
       price = excluded.price,
+      price_unit = excluded.price_unit,
+      availability = excluded.availability,
       last_updated = datetime('now')
   `);
 
@@ -246,7 +262,9 @@ export const saveScrapedData = db.transaction((
       reseller_url: offer.reseller_url,
       reseller_rating: offer.reseller_rating ?? null,
       reseller_reviews_count: offer.reseller_reviews_count ?? 0,
-      price: offer.price ?? null
+      price: offer.price ?? null,
+      price_unit: offer.price_unit ?? 'BYN',
+      availability: offer.availability ?? 'В наличии'
     });
 
     // Price History Ingestion

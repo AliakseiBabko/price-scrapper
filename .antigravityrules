@@ -32,6 +32,119 @@ When saving, displaying, or analyzing appliance prices:
 ---
 
 ## 📂 4. User Preferences & Context Backlink
-To preserve user specific preferences (family profiles, black glass styling, induction hobs without flex zones, stacked alignments, laundry specs, etc.), the AI agent must read:
+To preserve user specific preferences (family profiles, layout changes, black glass styling, induction hobs without flex zones, stacked alignments, laundry specs, etc.), the AI agent must read:
 - [Family_Requirements.md](file:///c:/Users/User/Documents/price-scrapper/00_Master/Family_Requirements.md)
 - [Appliance_Preferences.md](file:///c:/Users/User/Documents/price-scrapper/00_Master/Appliance_Preferences.md)
+- [Design_Concept.md](file:///c:/Users/User/Documents/price-scrapper/00_Master/Design_Concept.md)
+
+---
+
+## 📐 5. Proportional Visual Simulation via Bounding Box Analysis
+When asked to display items in a comparison table proportionally based on their physical height:
+- **Analyze Image Bounding Boxes**: Do not assume that setting the same CSS height or width on images of different models results in equal visual heights. You must analyze the image files (using a Python script with Pillow if needed) to determine the crop factor and the actual aspect ratio of the product bounding box (excluding white/transparent margins).
+- **Calculate Proportional Scale**:
+  1. Find the physical height of each appliance (e.g., from specs or catalog).
+  2. Compute the bounding box aspect ratio ($A = \text{height} / \text{width}$) of the product within the image.
+  3. Determine the required rendered height for each column based on its physical height ratio.
+  4. Convert this to a responsive CSS width percentage relative to the column width ($W = \text{Height} / \text{Aspect Ratio}$) so that the visual heights match the physical height proportions on any screen.
+- **Alignment**: Always align the scaled images to the bottom of the table row using `vertical-align: bottom` on the `td` elements.
+
+---
+
+## 🕷️ 6. Onliner Scraping — Lessons Learned
+
+### 6.1 Category Slugs
+- The correct category slug for **kitchen hoods** on `catalog.onliner.by` is **`hoods`** (not `hood`, `kitchen_hood`, `cooker_hood`, `extractors`, etc.).
+- Always verify an unknown slug by launching a Playwright browser, navigating to `https://catalog.onliner.by/` first to establish a session, then fetching `https://catalog.onliner.by/sdapi/catalog.api/search/{slug}?page=1` from inside `page.evaluate()`. A `200` response with `total > 0` confirms the slug.
+- Known working slugs: `oven_cooker` (ovens), `hob_cooker` (cooktops), `hoods` (kitchen hoods), `dishwasher` (dishwashers).
+
+### 6.2 Brand Filtering via the API Does Not Work
+- The Onliner search API **does not support server-side brand filtering** via query parameters. All variants tested (`brand[]=bosch`, `brand[0]=bosch`, `manufacturer[0]=bosch`, `producer[0]=bosch`, `filter[brand][0]=bosch`) return the full unfiltered catalog (8,000+ results for `hoods`).
+- **Correct approach**: Fetch all pages of the category search API (`?page=N`), then **filter client-side by `item.manufacturer?.key` or `item.manufacturer?.name`**. For a category like `hoods` with 8,000+ products, scanning 15 pages (450 products) is sufficient to capture all entries for major European brands.
+- Script template: see `scan_brand_hoods.ts` in the project root.
+
+### 6.3 Two-Phase Scraping Pattern for Targeted Brands
+When you need full specs + reseller prices for a specific set of brands:
+1. **Phase 1 — Discovery** (`scan_brand_hoods.ts`): Paginate the search API, filter client-side, collect `{ key, brand, name, priceMin }` for each matching product. Save to `scratch/hood_candidates.json`. This is fast (~1 min for 15 pages).
+2. **Phase 2 — Detail scrape** (`scrape_hood_candidates.ts`): Read the JSON, call `scraper.scrapeSingle(key, categoryId, brand)` for each entry. This fetches full specs from the product detail page, all reseller offers from the positions API, and up to 10 reviews. Saves everything to the SQLite DB.
+- Place both scripts at the **project root**, not in `scratch/`, to avoid `ERR_MODULE_NOT_FOUND` errors with relative `src/` imports.
+
+### 6.4 Spec Field Names in the DB (Hood Category)
+The `specs_json` column uses Russian-language keys as scraped from `.product-specs__table` on the product detail page. Key field names for hoods:
+
+| Data point | DB key |
+| :--- | :--- |
+| Max extraction capacity | `Максимальная производительность отвода` |
+| Min extraction capacity | `Минимальная производительность отвода` |
+| Max noise level | `Максимальный уровень шума` |
+| Min noise level | `Минимальный уровень шума` |
+| Installation type | `Монтаж` |
+| Duct diameter | `Диаметр воздуховода` |
+| Color | `Цвет` |
+| Width | `Ширина` |
+| Control type | `Управление` |
+| Number of motors | `Количество моторов` |
+| Motor power | `Мощность мотора` |
+| Perimetral suction | `Периметральное воздухопоглощение` |
+| Wi-Fi remote | `Удаленное управление (Wi-Fi)` |
+| IR remote | `Пульт ДУ` |
+| Energy class | `Энергоэффективность` |
+| Built-in value | `для встраивания` (value of `Монтаж`) |
+
+- Some spec keys are **section headers** that duplicate their own name as value (e.g., `"Шум": "Шум"`). Skip these — the actual values are in sub-keys like `Максимальный уровень шума`.
+- Not all products populate every field. Always use a multi-key fallback `get(...keys)` pattern when querying specs.
+
+### 6.5 `scrapeSingle` Script Placement
+- `scrapeSingle(key, categoryId, brand)` constructs the product URL as `https://catalog.onliner.by/{categoryId}/{brand.toLowerCase()}/{key}`. Ensure `brand` is passed as the display name (e.g., `"Bosch"`, `"Electrolux"`), not the slug, as the method calls `.toLowerCase()` internally.
+- Each `scrapeSingle` call launches its own browser instance and closes it when done. For 20 products this takes ~8–10 minutes sequentially. This is intentional to avoid session/cookie conflicts.
+
+### 6.6 Freshness & Force-Refresh
+- The scraper's 7-day cache check uses the `category_id` column. Since brand-filtered scrapes still write to the same `hoods` category, a prior unfiltered `hoods` scrape will block subsequent runs unless `--force=true` is appended.
+- Always add `--force=true` when running a targeted re-scrape of a category that has been previously scraped within 7 days.
+
+---
+
+## 🗄️ 7. Database as Single Source of Truth
+
+The SQLite database at `data/scraper.db` (managed via `better-sqlite3` in `src/database/db.ts`) is the **sole authorised storage for all scraped data** in this project. This is a hard rule with no exceptions.
+
+### 7.1 What Must Go Into the DB
+Every piece of scraped output must be persisted to the DB via `saveScrapedData()` or equivalent DB write functions before the script exits:
+- Product metadata (title, brand, model, specs, rating, review count)
+- Reseller offers (price, reseller name, rating, review count, URL)
+- Reviews (author, rating, text, pros, cons, date)
+
+### 7.2 No Intermediate Data Files
+- **Do NOT** write scraped prices, specs, or product lists to `.json`, `.csv`, `.xlsx`, or any other flat file as a working format.
+- `scratch/` is reserved for **throwaway debug scripts only** — never for data that will be read back by another script or used for analysis.
+- The two-phase pattern documented in §6.3 (`scan → save to JSON → scrapeSingle`) is a **legacy anti-pattern**. The correct replacement is: scan the search API pages, filter client-side, and call `scrapeSingle` directly in the same script — all results land in the DB without any intermediate file.
+
+### 7.3 Querying Must Use the DB
+- When reading scraped data for analysis, display, or document generation, **always query `data/scraper.db`** using `better-sqlite3`.
+- Do not read data back from JSON files or reconstruct it from scraper output logs.
+- Use `src/query.ts` as the reference implementation for DB queries.
+
+### 7.4 Rationale
+- The DB enforces deduplication (primary keys), referential integrity (foreign keys), and freshness tracking (`last_updated`) that flat files cannot.
+- A single DB file is version-control friendly and portable — the entire price history travels with the project.
+- Any script that writes to a file and then reads that file back can always be collapsed into a direct DB read/write pair.
+
+---
+
+## 📋 8. Table Formatting Rules
+
+### 8.1 No Icons in Table Headers
+- **Do NOT** place emoji or decorative icons inside `<th>` or markdown table header cells (e.g., `🌟 Set 1`, `⚡ Set 2`).
+- Table headers should contain plain descriptive text only. Icons in headers add visual noise without conveying information.
+- ✅ Correct: `Set 1 (Bosch Touch)` | ❌ Incorrect: `🌟 Set 1 (Bosch Touch)`
+- This applies to both HTML `<table>` headers and markdown pipe-table headers across all documents in the project.
+
+---
+
+## 🎨 9. Color Coordination & Style Matching Guardrails
+
+When analyzing search results, proposing alternatives, or compiling appliance/material lists:
+- **Rule**: You must check if color matching is critical for the query or context.
+- **For Appliances**: Always verify that the proposed model color exactly matches the rest of the set (e.g., all-black glass for Set 2, no steel/chrome borders).
+- **For Materials/Furniture**: Always verify that the proposed floor, wall, facade, ceiling, or lighting material aligns with the unified apartment-wide color scheme and style defined in [Design_Concept.md](file:///c:/Users/User/Documents/price-scrapper/00_Master/Design_Concept.md).
+- **Search Verification**: Do not recommend an alternative just because it matches specs/price; it must pass the color/aesthetic requirement first.
