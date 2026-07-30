@@ -30,6 +30,7 @@
   - **Cooktop**: [[Bosch_PIF63KHC1E_Cooktop]]
   - **Dishwasher**: [[Bosch_SMV8YCX02E_Dishwasher]]
   - **Hood**: [[Bosch_DHL555BL_Hood]]
+* **Full Category Comparisons**: [[Kitchen_Hoods]] (all researched hood candidates), [[Kitchen_Water_Filtering]] (under-sink RO systems, no selection made yet).
 
 ## 🛋️ Furniture & Dining
 * **Kitchen Worktop**: *Placeholder*

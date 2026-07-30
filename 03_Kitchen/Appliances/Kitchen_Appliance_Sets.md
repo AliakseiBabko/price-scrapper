@@ -27,26 +27,26 @@ Below is a side-by-side visualization of how the microwave and oven stack up in 
     <tr>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
-          <img src="../_assets/bosch_bfl7221b1.jpg" alt="Bosch BFL7221B1" style="display: block; width: 100%; height: auto; margin: 0;" />
-          <img src="../_assets/bosch_hbg7764b1.jpg" alt="Bosch HBG7764B1" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/bosch_bfl7221b1.jpg" alt="Bosch BFL7221B1" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/bosch_hbg7764b1.jpg" alt="Bosch HBG7764B1" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
-          <img src="../_assets/electrolux_lms4253tmk.jpg" alt="Electrolux LMS4253TMK" style="display: block; width: 100%; height: auto; margin: 0;" />
-          <img src="../_assets/electrolux_eoe7p31z.jpg" alt="Electrolux EOE7P31Z" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/electrolux_lms4253tmk.jpg" alt="Electrolux LMS4253TMK" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/electrolux_eoe7p31z.jpg" alt="Electrolux EOE7P31Z" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
-          <img src="../_assets/bosch_bfl524mb0.jpg" alt="Bosch BFL524MB0" style="display: block; width: 100%; height: auto; margin: 0;" />
-          <img src="../_assets/bosch_hbg578eb3.jpg" alt="Bosch HBG578EB3" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/bosch_bfl524mb0.jpg" alt="Bosch BFL524MB0" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/bosch_hbg578eb3.jpg" alt="Bosch HBG578EB3" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
-          <img src="../_assets/gorenje_bm251m2bg.jpg" alt="Gorenje BM251M2BG" style="display: block; width: 100%; height: auto; margin: 0;" />
-          <img src="../_assets/gorenje_bpsa6747a08bg.jpg" alt="Gorenje BPSA6747A08BG" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/gorenje_bm251m2bg.jpg" alt="Gorenje BM251M2BG" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/gorenje_bpsa6747a08bg.jpg" alt="Gorenje BPSA6747A08BG" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
     </tr>
@@ -88,26 +88,26 @@ Below is a side-by-side visualization of the hood and cooktop (with the hood mou
     <tr>
       <td style="padding: 0 10px; border: none; height: 1px; line-height: 0;">
         <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; min-height: 280px;">
-          <img src="../_assets/bosch_dhl555bl.jpg" alt="Bosch DHL555BL" style="display: block; width: 100%; height: auto; margin: 0;" />
-          <img src="../_assets/bosch_pif63khc1e.jpg" alt="Bosch PIF63KHC1E" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/bosch_dhl555bl.jpg" alt="Bosch DHL555BL" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/bosch_pif63khc1e.jpg" alt="Bosch PIF63KHC1E" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; height: 1px; line-height: 0;">
         <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; min-height: 280px;">
-          <img src="../_assets/electrolux_lfp326fb.jpg" alt="Electrolux LFP326FB" style="display: block; width: 100%; height: auto; margin: 0;" />
-          <img src="../_assets/electrolux_eit61443b.jpg" alt="Electrolux EIT61443B" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/electrolux_lfp326fb.jpg" alt="Electrolux LFP326FB" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/electrolux_eit61443b.jpg" alt="Electrolux EIT61443B" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; height: 1px; line-height: 0;">
         <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; min-height: 280px;">
-          <img src="../_assets/bosch_dhl555bl.jpg" alt="Bosch DHL555BL" style="display: block; width: 100%; height: auto; margin: 0;" />
-          <img src="../_assets/bosch_pie631hb1e.jpg" alt="Bosch PIE631HB1E" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/bosch_dhl555bl.jpg" alt="Bosch DHL555BL" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/bosch_pie631hb1e.jpg" alt="Bosch PIE631HB1E" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; height: 1px; line-height: 0;">
         <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; min-height: 280px;">
-          <img src="../_assets/gorenje_bhi626e6b.jpg" alt="Gorenje BHI626E6B" style="display: block; width: 100%; height: auto; margin: 0;" />
-          <img src="../_assets/gorenje_goregi6401bsc.jpg" alt="Gorenje GI6401BSC" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/gorenje_bhi626e6b.jpg" alt="Gorenje BHI626E6B" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/gorenje_goregi6401bsc.jpg" alt="Gorenje GI6401BSC" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
     </tr>
@@ -262,12 +262,12 @@ Below is a side-by-side visual comparison of the two premium Liebherr built-in S
     <tr>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
-          <img src="../_assets/liebherr_ixrfs5125plus.jpg" alt="Liebherr IXRFS 5125 Plus" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/liebherr_ixrfs5125plus.jpg" alt="Liebherr IXRFS 5125 Plus" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
       <td style="padding: 0 10px; border: none; line-height: 0;">
         <div style="display: flex; flex-direction: column; align-items: stretch; gap: 0;">
-          <img src="../_assets/liebherr_ixrf4555prime.jpg" alt="Liebherr IXRF 4555 Prime" style="display: block; width: 100%; height: auto; margin: 0;" />
+          <img src="../../_assets/liebherr_ixrf4555prime.jpg" alt="Liebherr IXRF 4555 Prime" style="display: block; width: 100%; height: auto; margin: 0;" />
         </div>
       </td>
     </tr>
