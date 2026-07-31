@@ -202,6 +202,19 @@ For one source at a time:
    the sources folder, upserts the intermediate knowledge store, and
    updates the master wiki page **only if** this source changes or
    strengthens the synthesized guide - not on every source.
+6. **Promotion self-check (do not skip):** after step 5, re-read the
+   extraction note's full prose one more time and confirm every concrete,
+   reusable fact/rule/mechanism/number in it - not just the ones that
+   happened to make the store's Source Index summary paragraph - has a
+   corresponding entry in the store's Durable Facts, Rules/Heuristics, or
+   Numeric Data sections. A fact "existing" only inside the extraction
+   note file, invisible unless someone opens that specific note directly,
+   does not count as captured. This step exists because this exact gap
+   was found and fixed for six sources on 2026-07-31 (see the store's
+   Change Log) - it recurred across multiple sources before being caught,
+   so treat it as a standing risk on every source, not a one-off cleanup.
+   Vague/promotional/low-value mentions can be skipped; a specific
+   mechanism, a checkable rule, or a concrete number cannot.
 
 ## Renovation delivery model classification
 
