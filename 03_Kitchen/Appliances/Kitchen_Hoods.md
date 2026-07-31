@@ -2,6 +2,9 @@
 
 Built-in 60cm-class range hoods researched for the kitchen (catalog.onliner.by, prices in BYN). This is the full candidate set behind the selection already made in [[Kitchen_Appliance_Sets]]. For the chosen model's full reasoning and concerns, see [[Bosch_DHL555BL_Hood]].
 
+> [!WARNING]
+> Before trusting any hood's rated m³/h spec in this table, read [[Hood_Analysis]] — in a standard apartment building, real extraction performance is capped by the shared ventilation shaft (typically ~100-120 m³/h for ex-Soviet-bloc buildings), not by the hood's own motor rating. This affects the already-selected DHL555BL directly.
+
 > [!NOTE]
 > Source: local scrape (`scan_brand_hoods.ts` / `scrape_hood_candidates.ts`, Bosch/Electrolux/Gorenje brand-filtered), captured 2026-07-30. Prices are point-in-time and may have moved since. Not currently logged in `00_Master/processed_sources.csv` since it's local repo scraper output, not an external transcript/document source — flagging as an open question rather than backfilling that log myself.
 

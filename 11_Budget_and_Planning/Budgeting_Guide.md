@@ -33,11 +33,17 @@ overhead a self-managed budget doesn't pay for:
 
 **This project's plan is self-managed.** Both headline Minsk benchmarks
 below are **turnkey** figures — useful as an upper-bound/sanity-check
-reference, not as what a self-managed approach should cost. The more
-directly comparable reference for this project is the **labor-only rate
+reference, not as what a self-managed approach should cost. Two more
+directly comparable self-managed references exist: the **labor-only rate
 card** in [[11_Budget_and_Planning/_supporting/case_studies/price_table_screenshot_case|Price Table Screenshot Case]]
 (explicitly *average market rate*, per work item, materials priced
-separately, no company-management overhead bundled in).
+separately, no company-management overhead bundled in), and a **fuller
+end-to-end real project** in [[11_Budget_and_Planning/_supporting/case_studies/yana_vrublevskaya_minsk_mir_studio_2023_case|Yana Vrublevskaya Studio Case]]
+(2023, Minsk Mir — region level 2 only, not spoken — self-managed rough
+works *and* full finish/fixture/appliance/furniture spend for one real
+studio, arithmetic-checked; it also overshot its own $10,000 target by
+~30%, worth keeping in mind against this guide's 10–15% buffer figure
+below).
 
 - **Rough materials** (~30% of material spend): screed, plaster, wires, pipes, blocks.
 - **Finishing materials** (~70%): tiles, parquet, paint, fixtures, furniture.
@@ -95,7 +101,8 @@ Tactical moves for trimming budget without cutting quality (compressed from 13 s
 ## 6. Detailed Case Studies
 
 - [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).
-- [[11_Budget_and_Planning/_supporting/case_studies/price_table_screenshot_case|Price Table Screenshot Case]] — **self-managed / labor-only, the closest comparable to this project's own plan**. Row-level labor смета reconstruction from a real 44 m² Minsk estimate (average market rate per work item), plus a companion rate-card summary.
+- [[11_Budget_and_Planning/_supporting/case_studies/price_table_screenshot_case|Price Table Screenshot Case]] — **self-managed / labor-only**. Row-level labor смета reconstruction from a real 44 m² Minsk estimate (average market rate per work item), plus a companion rate-card summary.
+- [[11_Budget_and_Planning/_supporting/case_studies/yana_vrublevskaya_minsk_mir_studio_2023_case|Yana Vrublevskaya Studio Case]] — **self-managed / full end-to-end, the closest structural match to this project's own plan**. A real, itemized self-managed studio renovation (Minsk Mir, region level 2 only, 2023) covering rough works *and* the full finish/fixture/appliance/furniture spend — arithmetic-checked, and a real ~30% overshoot against its own stated budget target.
 - [[11_Budget_and_Planning/_supporting/case_studies/schedule_analysis_case|Schedule Analysis Case]] — full 24-step turnkey workflow and trade-off tables for sequencing decisions.
 - [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] — companion top-level page for sequencing (general order, and how choices like hidden vs. standard doors change it).
 - [[11_Budget_and_Planning/_supporting/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya 52 m² Case Study]] — **turnkey**. Full itemized breakdown of a real $70,000 turnkey 52 m² Minsk project (2026, primary Minsk benchmark, second data point alongside Minsk World).
