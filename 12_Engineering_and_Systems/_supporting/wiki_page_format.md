@@ -32,6 +32,27 @@ These pages should follow the same discipline already established for `Budgeting
 
 All three pages (`HVAC_and_Ventilation.md`, `Electrical_and_Lighting.md`, `Plumbing_and_Waterproofing.md`) are now converted to this shape (last one finished 2026-07-31). No known remaining flat-table placeholders in this folder — if a new system topic is added later (e.g. a dedicated Waterproofing-only or Smart-Home page), use any of the three as the reference example.
 
+This template also now backs `07_Bathroom/Bathroom_Guide.md` and `08_WC/WC_Guide.md` (created 2026-07-31), even though those live outside this folder — the shape (narrative sections + Quick Reference + Source Notes) is the same; only the routing rule below determines which page a given fact lands on.
+
+This template also now backs `13_Surfaces_and_Finishes/Doors_and_Trim.md` (created 2026-07-31), synthesized from the two Doors/Trim Durable Facts batches in the budgeting knowledge store (8 single-channel Zemstandart sources + 7 independent-channel sources). Same shape; also carries an explicit top-of-page corroboration note since most of its first-batch content traces to one channel, following the pattern established in `07_Bathroom/Bathroom_Guide.md`'s own top-of-page note.
+
+## Content-routing rule: which page does a fact belong on?
+
+Established while processing a mixed batch of plumbing/bathroom/WC sources — write this down instead of re-deriving it from scratch each session:
+
+- **`12_Engineering_and_Systems/*` (Electrical, HVAC, Plumbing)** — infrastructure that exists regardless of which room it's in: rough-in sequencing, the water-inlet/collector node, pipe/wire material selection, pressure testing, code/regulatory requirements, safety mechanisms (leak protection, water hammer, check valves). The test: would this fact still apply if the fixture layout around it changed completely? If yes, it's infrastructure.
+- **`07_Bathroom/Bathroom_Guide.md`** — room-level decisions specific to a combined bathroom: layout/dimension planning, fixture *selection* (bathtub material, mixer type, shower cabin construction), tile/apron/furniture construction technique, room-specific electrical/lighting choices. The test: does this fact depend on *this room's* specific fixtures and layout, not just generic plumbing?
+- **`08_WC/WC_Guide.md`** — the same kind of room-level content, but specific to a standalone WC (toilet-only room): minimum dimensions, toilet-adjacent storage cabinetry, WC-specific fixtures (urinal, bidet toilet).
+- **When a fact could plausibly go on more than one page** (e.g. "install a dry-trap siphon" is infrastructure, but "route AC condensate into the bathroom specifically" is a room-level choice about *where*), split it: put the mechanism/infrastructure content on the Engineering page and cross-link a short, room-specific application note from the Bathroom/WC page, rather than duplicating the full explanation twice or arbitrarily picking one page to own it entirely.
+
+## Corroboration rule: same channel ≠ independent source
+
+A recurring miscalibration risk worth flagging explicitly: when several processed videos come from the **same channel/practitioner**, treating each video as a separate corroborating data point overstates confidence. A claim repeated three times by one renovation company across three different videos is still a `single-account` claim, not a 3x-corroborated one — corroboration requires a genuinely different channel/practitioner reaching the same conclusion independently, not just a different video. When a page's `single-account` tags apply to multiple sources that turn out to share a channel, say so explicitly in the page's own framing note (see `07_Bathroom/Bathroom_Guide.md`'s top-of-page note for the pattern), rather than letting the tag density silently imply more independent confirmation than actually exists.
+
+## Process note: plan the section TOC before writing, especially for a page fed by many small sources
+
+When a page is going to be built up incrementally from many individual sources (as happened processing a 33-video playlist into `Bathroom_Guide.md`), inserting new sections mid-stream tends to force awkward non-sequential numbering (e.g. "§7a") that then has to be cleaned up with a full-file renumbering rewrite anyway. Cheaper to sketch the expected section list upfront — even a rough one — than to patch numbering repeatedly. If a page's scope is genuinely open-ended (more sources expected indefinitely), consider non-sequential/thematic headers instead of strict integers, so future inserts never require a renumbering pass at all.
+
 ## Note from converting Electrical_and_Lighting.md
 
 Found a smaller version of the same gap that motivated this template in the first place: several genuinely useful facts (recessed-lighting/dimmer/switch-count guidance from WITALT, two-way-switch and bedroom-lighting rules from Prolife Invest) existed only in their source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/` — never promoted into the budgeting store's own Durable Facts/Rules sections, and therefore invisible to anyone not reading each extraction note individually. They're now in this page.
