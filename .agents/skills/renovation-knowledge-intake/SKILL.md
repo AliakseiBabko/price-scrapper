@@ -92,6 +92,7 @@ Quantities / Measurements
 Cost Drivers
 Budget Ranges
 Planning Rules
+Regulations / Permits / Approvals
 Mistakes / Warnings
 Family Requirements / Preferences
 Design Concept
@@ -125,6 +126,27 @@ Create these paths if they don't exist yet; don't invent alternate paths
 or fall back to `tiered-knowledge-base`'s generic suggested layout - this
 wrapper's paths take priority for this topic.
 
+### Regulations / Permits / Approvals - a second, stricter-bar store
+
+Content sorted into the `Regulations / Permits / Approvals` taxonomy
+bucket (above) goes to a **separate** intermediate store, not the main
+budgeting one, because jurisdictional facts need a higher evidence bar
+than pricing or technique - applying the wrong city's rule is actively
+misleading, not just imprecise:
+
+- Regulations knowledge store:
+  `11_Budget_and_Planning\_supporting\knowledge\intermediate\renovation_regulations_belarus_knowledge_store.md`
+
+**Only admit a fact to this store if the source names a specific
+location directly in its own content (level 1 - spoken/written in the
+source itself), not merely via channel branding, tags, or title (level
+2 only).** A source whose region is inferred only from metadata does not
+clear this bar, even if it's otherwise a reliable source for the main
+budgeting store. This store is a scaffold the user intends to build out
+further from non-video sources (official codes, исполком procedures,
+etc.) - don't treat sparse video-only coverage here as a gap to rush to
+fill.
+
 `11_Budget_and_Planning\Renovation_Sequence.md` is a separate, top-level,
 human-curated companion page (sequencing summary). It is **not** the
 master wiki page and this skill must not auto-update it - if a source
@@ -154,6 +176,112 @@ For one source at a time:
    the sources folder, upserts the intermediate knowledge store, and
    updates the master wiki page **only if** this source changes or
    strengthens the synthesized guide - not on every source.
+
+## Renovation delivery model classification
+
+Per explicit user guidance: this project's own plan is a **self-managed /
+piecemeal** renovation (hiring individual specialists per trade, sourcing
+materials directly, no single company managing design-through-furnishing),
+not a **turnkey / full-service** renovation (one company handles design,
+project management, quality control, and construction as one bundled,
+higher-priced package). These two delivery models produce genuinely
+different $/m² figures for comparable work, and conflating them makes a
+turnkey company's price look like "the" market rate when it actually
+includes overhead (management, design, coordination) the self-managed
+approach doesn't pay for.
+
+**Classify every source/case using this dimension** and record it
+explicitly (in the extraction note, the store, and the guide where the
+figure is cited):
+
+- **Turnkey / Full-Service** — a company (often the source's own
+  business) quotes an all-in price covering design, project management,
+  and construction/furnishing as one bundle. Company case studies and
+  self-promotional "here's what our client paid us" videos are almost
+  always this category by default - check for a bundled design fee,
+  mentions of a company handling "under key"/"под ключ" scope, or a
+  project manager/foreman role priced into the total.
+- **Self-Managed / Itemized** — per-work-type or per-material average
+  market rates, meant for someone assembling their own team and sourcing
+  materials directly (a "смета" broken into individual line items with
+  no company-management overhead bundled in is the clearest signature).
+  **This is the category most relevant to this project's own plan** -
+  prioritize surfacing this kind of data prominently, not burying it
+  under turnkey figures.
+- **Labor-Only** — a narrower version of the above: rates for hired labor
+  specifically, materials priced/sourced separately.
+- **Mixed / Ambiguous** — a source blends both, or doesn't give enough
+  detail to tell (e.g. a company channel that also candidly discusses
+  brigade/self-managed alternatives). Record what's known rather than
+  forcing a single label.
+
+**Do not blend a turnkey $/m² figure with a self-managed one** as if they
+describe the same thing - keep them as clearly separate, clearly labeled
+numbers everywhere they appear (store, guide). When `Budgeting_Guide.md`
+cites a headline benchmark, state which delivery model it reflects.
+
+## Advertising / promotional content filter
+
+Renovation-content channels are very often run by the company doing the
+work, a sponsored partner, or a real-estate/supplier affiliate — treat
+that as the default assumption, not the exception. When processing a
+source:
+
+- **Identify the source's own monetization/promotional format** up
+  front (self-case-study of the channel's own project, a joint
+  interview with a named business partner/store, an explicit
+  sponsor-gift call-out, embedded recruitment/affiliate links, a
+  specific residential complex or property being showcased) and record
+  it in the extraction note and store, even when the surrounding
+  factual content is otherwise usable.
+- **Brand, supplier, and specific-property endorsements from a
+  promotional or self-interested source are not "universal" findings.**
+  Extract them (don't delete real evidence), but tag them clearly as
+  commercial mentions - a business recommending its own partner's
+  product, or a company showcasing its own project, is not neutral
+  technical fact even if phrased as advice.
+- **Prioritize durable, brand-agnostic, region-appropriate technique and
+  heuristics** (placement rules, drainage mechanisms, approval
+  processes, cost-driver reasoning, sizing rules of thumb) over "buy
+  brand X" or "this specific ЖК/development is worth it" claims when
+  deciding what's worth carrying into the intermediate store's Durable
+  Facts/Rules sections and especially into `Budgeting_Guide.md` - the
+  guide in particular should stay brand- and property-name-free by
+  default, since it's the compressed, most-trusted-by-default layer.
+- This is a filtering *lens* applied during extraction and synthesis,
+  not a retroactive editorial rule that deletes already-recorded source
+  content - a source note can and should still say "the speaker
+  recommended Brand X," just with the commercial context attached.
+
+### Market data vs. tier-steering - a finer distinction within promotional sources
+
+Per explicit user guidance: most sources processed for this topic are
+from turnkey/full-service companies (majority of sources so far, and
+expected to remain the majority going forward). Within a source like
+this, **separate two different things that get blended in the same
+sentence**:
+
+- **General market-rate/technique information** (what a work item
+  typically costs, how a system works, what materials exist in a
+  category) - usually reasonably fair/accurate, because it's describing
+  a real market the company also operates in, not something they're
+  fabricating.
+- **The specific tier/product/service the company steers the viewer
+  toward** ("we use this grade of material," "we recommend adding
+  supervision/design services") - this carries a **structural incentive
+  toward the company's own higher margin**, even when phrased as neutral
+  advice, since a turnkey company's revenue scales with the tier the
+  client selects.
+
+**Practical effect**: when a source states "material/service X typically
+costs $Y" as general market information, that's usable market data (tag
+normally). When the same source then recommends *this specific*
+material/service/tier as *the* choice, flag that recommendation as
+tier-steering, not neutral technical guidance - the same market usually
+has a cheaper equivalent a self-managed buyer could choose instead, and
+the store/guide should make room for that framing (e.g. "a cheaper
+in-category alternative may exist - see market rate cards") rather than
+adopting the source's specific tier choice as the default.
 
 ## Guardrails
 

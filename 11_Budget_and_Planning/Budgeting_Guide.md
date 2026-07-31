@@ -15,14 +15,38 @@ Build the budget from the physical space, not from guesswork:
 
 ## 2. Main Cost Categories
 
+### 2.0 Turnkey vs. self-managed — know which one a figure describes
+
+Two different delivery models produce genuinely different $/m² prices for
+*comparable underlying work*, and mixing them up makes a turnkey
+company's price look like "the" market rate when it actually bakes in
+overhead a self-managed budget doesn't pay for:
+
+- **Turnkey / full-service** — one company bundles design, project
+  management, and construction/furnishing into one price. Higher $/m²
+  by design: you're paying for a manager/professional to run quality
+  control and coordination, on top of the physical work.
+- **Self-managed / itemized** — you hire specialists per trade yourself
+  and source materials directly, pricing off average per-work-item
+  market rates. Lower total cost, but the project-management burden
+  (scheduling, QC, coordinating trades) falls on you.
+
+**This project's plan is self-managed.** Both headline Minsk benchmarks
+below are **turnkey** figures — useful as an upper-bound/sanity-check
+reference, not as what a self-managed approach should cost. The more
+directly comparable reference for this project is the **labor-only rate
+card** in [[11_Budget_and_Planning/_supporting/case_studies/price_table_screenshot_case|Price Table Screenshot Case]]
+(explicitly *average market rate*, per work item, materials priced
+separately, no company-management overhead bundled in).
+
 - **Rough materials** (~30% of material spend): screed, plaster, wires, pipes, blocks.
 - **Finishing materials** (~70%): tiles, parquet, paint, fixtures, furniture.
 - **Contractor labor**: typically 30–35% of total end-to-end spend; the remaining 65–70% is materials, doors, ceilings, HVAC, and millwork.
 - **Hidden/logistical costs** (commonly 10–15% of the whole budget, often forgotten): garbage removal, delivery/lifting of heavy materials, consumables, and doors/stretch ceilings excluded from base "per m²" labor quotes.
 
-For a fully worked example of these categories on a real project, see [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Case Study]].
+For a fully worked example of these categories on a real project, see [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Case Study]] (**turnkey**, $900/m²).
 
-A second primary Minsk benchmark is now available: a real $70,000 / $1,346-per-m² turnkey 52 m² project (2026) — see [[11_Budget_and_Planning/_supporting/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya Case Study]]. Both this and the Minsk World case are individually above-typical projects by their own sources' framing; **don't average them into one "Minsk $/m²" figure**. One Minsk contractor's own stated 2026 market guidance (single-source, not independently verified): ~$1,000/m² typical, $700–800/m² achievable with a simplified/budget approach.
+A second primary Minsk benchmark is now available: a real $70,000 / $1,346-per-m² **turnkey** 52 m² project (2026) — see [[11_Budget_and_Planning/_supporting/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya Case Study]]. Both this and the Minsk World case are individually above-typical *turnkey* projects by their own sources' framing; **don't average them into one "Minsk $/m²" figure**, and don't treat either as a self-managed budget target. One Minsk contractor's own stated 2026 market guidance (single-source, not independently verified, also turnkey-framed): ~$1,000/m² typical, $700–800/m² achievable with a simplified/budget approach.
 
 ## 3. What Drives Cost
 
@@ -39,6 +63,7 @@ A second primary Minsk benchmark is now available: a real $70,000 / $1,346-per-m
 - **Region matters** — Minsk/Belarus pricing is the primary baseline here; Russian/RUB data is secondary reference only, not Minsk-equivalent (e.g. a RUB-denominated contractor-interview source, dated April 2025, uploaded by a Moscow-based channel with its own price-per-m² tier vocabulary — the uploader's location is not the same as a confirmed claim about which region's market the prices describe; see intermediate store for the full breakdown. Not assumed equivalent to the Minsk figures above.).
 - **Sequence matters as much as price** — some decisions (concealed door frames, shadow baseboards, partition build order) must be locked in before rough works start or become expensive to change later — see [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]].
 - **Confirm the budget is real before setting a tier** — clarify how much of a stated total is guaranteed cash in hand versus loans, credit lines, or future income not yet earned; a budget that shrinks mid-project is a common source of disputes.
+- **Know the difference between a plumbing cladding box and a ventilation shaft** — a "zashivka" (cladding built around risers, sometimes oversized) can often be rebuilt more compactly to reclaim space; a "venshakhta" (ventilation shaft, identifiable by grille openings) runs as a single shared column from ground floor to roof serving every apartment on that riser line and must never be touched or damaged. *(secondary reference — see intermediate store)*
 - **Vet a contractor before committing** — check genuine (non-arranged) reviews, visit a real completed past project in person, and review the actual signed contract, not just a verbal quote.
 - **Use independent technical supervision** — an inspector unaffiliated with the contractor, signing off stage-by-stage (rough walls, rough electrical/plumbing, tiling, flooring/paint, furniture assembly), catches defects before the next stage builds over them. *(secondary reference — see intermediate store)*
 
@@ -62,10 +87,10 @@ Tactical moves for trimming budget without cutting quality (compressed from 13 s
 
 ## 6. Detailed Case Studies
 
-- [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).
-- [[11_Budget_and_Planning/_supporting/case_studies/price_table_screenshot_case|Price Table Screenshot Case]] — row-level labor смета reconstruction from a real 44 m² Minsk estimate, plus a companion rate-card summary.
+- [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).
+- [[11_Budget_and_Planning/_supporting/case_studies/price_table_screenshot_case|Price Table Screenshot Case]] — **self-managed / labor-only, the closest comparable to this project's own plan**. Row-level labor смета reconstruction from a real 44 m² Minsk estimate (average market rate per work item), plus a companion rate-card summary.
 - [[11_Budget_and_Planning/_supporting/case_studies/schedule_analysis_case|Schedule Analysis Case]] — full 24-step turnkey workflow and trade-off tables for sequencing decisions.
 - [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] — companion top-level page for sequencing (general order, and how choices like hidden vs. standard doors change it).
-- [[11_Budget_and_Planning/_supporting/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya 52 m² Case Study]] — full itemized breakdown of a real $70,000 turnkey 52 m² Minsk project (2026, primary Minsk benchmark, second data point alongside Minsk World).
+- [[11_Budget_and_Planning/_supporting/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya 52 m² Case Study]] — **turnkey**. Full itemized breakdown of a real $70,000 turnkey 52 m² Minsk project (2026, primary Minsk benchmark, second data point alongside Minsk World).
 - *Planned:* a min/max price distribution case, once a source establishing that range exists (not yet created).
 - RU-language contractor interview (YouTube, secondary reference) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|source note]]; budget-tier and labor/material % splits are not directly comparable to the Minsk-primary figures above — see intermediate knowledge store for detail.
