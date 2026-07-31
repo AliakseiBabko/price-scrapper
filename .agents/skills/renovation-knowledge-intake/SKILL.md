@@ -137,6 +137,32 @@ misleading, not just imprecise:
 - Regulations knowledge store:
   `11_Budget_and_Planning\_supporting\knowledge\intermediate\renovation_regulations_belarus_knowledge_store.md`
 
+### What counts as a case study
+
+Per explicit user guidance: a case study is **not** limited to a full
+start-to-end renovation project. It's any **logically self-contained,
+non-scattered body of information** about home renovation that can stand
+on its own as a reference - which can be:
+
+- A full-cycle project (design through move-in) - the original, narrower
+  reading.
+- A **scoped** slice: one room, one stage/phase of work, one trade, or
+  one material category - as long as the source's coverage of that scope
+  is coherent and detailed enough to be useful on its own, not just a
+  handful of unrelated one-off mentions.
+
+The deciding question is **coherence, not scope size**: does the source
+present a connected, internally consistent body of information about
+*something* (a stage, a room, a full project), or is it scattered
+mentions of unrelated things? The former can earn a case study; the
+latter belongs in the intermediate store's regular sections regardless
+of how much total content it has. When in doubt, a source with real
+arithmetic-checkable structure (stage totals, itemized line items that
+sum to a stated whole) is a stronger case-study candidate than a source
+that's just a list of loosely-related tips - but don't require "single
+verified real project" as a hard gate the way earlier passes in this
+project implicitly did.
+
 **Only admit a fact to this store if the source names a specific
 location directly in its own content (level 1 - spoken/written in the
 source itself), not merely via channel branding, tags, or title (level
