@@ -10,6 +10,7 @@ Generated evidence artifacts, intentionally ignored under `data/`:
 - `data/cad/dxf/20260727-ZK Dubravinskiy.dxf`
 - `data/cad/20260727-ZK-Dubravinskiy.dxf.summary.json`
 - `data/cad/20260727-ZK-Dubravinskiy.control-candidates.json`
+- `data/cad/20260727-ZK-Dubravinskiy.control-candidate-map.svg`
 
 ## Intake result
 
@@ -62,3 +63,10 @@ search. It should not yet replace the planned current-apartment seed because:
 The current IFC seed should therefore keep the status
 `planned_from_visual_sources_not_field_verified` until field measurements or a
 manually confirmed CAD control set is available.
+
+## Review map
+
+`tools/cad/dxf_control_candidate_map.py` renders the candidate JSON into a
+simple SVG map. The first generated map contains 82 candidate points across the
+converted DXF model-space extent. It is intended to identify repeated apartment
+clusters before selecting the current unit's dimensions.
