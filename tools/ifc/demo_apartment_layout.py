@@ -251,10 +251,104 @@ def main() -> int:
             else:
                 raise RuntimeError(f"Cannot place {room['name']} outlet {index} without opening collision.")
 
+    def add_service_terminal(name, room_name, side, fraction, z, pset_name, properties, dimensions=(0.24, 0.05, 0.14)):
+        room = next(item for item in rooms if item["name"] == room_name)
+        host_name, sx, sy = snap_to_wall(room_point(room, side, fraction), side)
+        if opening_collision(sx, sy, host_name):
+            raise RuntimeError(f"{name} overlaps an opening on {host_name}.")
+        horizontal = wall_registry[host_name]["horizontal"]
+        width_m, depth_m = (dimensions[0], dimensions[1]) if horizontal else (dimensions[1], dimensions[0])
+        terminal = add_box(
+            model,
+            body,
+            storey,
+            owner,
+            "IfcFlowTerminal",
+            name,
+            sx - width_m / 2.0,
+            sy - depth_m / 2.0,
+            width_m,
+            depth_m,
+            dimensions[2],
+            z=z,
+        )
+        pset = ifcopenshell.api.run("pset.add_pset", model, product=terminal, name=pset_name)
+        enriched = {
+            "Room": room_name,
+            "HostWall": host_name,
+            "Mounting": "wall_centerline_coordination_symbol",
+            "CoordinationStatus": "conceptual_not_engineered",
+        }
+        enriched.update(properties)
+        ifcopenshell.api.run("pset.edit_pset", model, pset=pset, properties=enriched)
+        return terminal
+
+    plumbing_devices = [
+        add_service_terminal(
+            "Kitchen sink plumbing connection",
+            "Kitchen",
+            "top",
+            0.52,
+            0.65,
+            "Pset_DemoPlumbingCoordination",
+            {"DeviceType": "sink_hot_cold_drain_placeholder", "System": "water_and_waste"},
+        ),
+        add_service_terminal(
+            "Bathroom vanity plumbing connection",
+            "Bathroom",
+            "top",
+            0.50,
+            0.65,
+            "Pset_DemoPlumbingCoordination",
+            {"DeviceType": "vanity_hot_cold_drain_placeholder", "System": "water_and_waste"},
+        ),
+        add_service_terminal(
+            "WC cistern plumbing connection",
+            "WC",
+            "top",
+            0.50,
+            0.65,
+            "Pset_DemoPlumbingCoordination",
+            {"DeviceType": "wc_cistern_water_placeholder", "System": "cold_water_and_waste"},
+        ),
+    ]
+
+    lighting_fixtures = []
+    for room in rooms:
+        fixture = add_box(
+            model,
+            body,
+            storey,
+            owner,
+            "IfcLightFixture",
+            f"{room['name']} ceiling light",
+            room["x_m"] + room["width_m"] / 2.0 - 0.175,
+            room["y_m"] + room["depth_m"] / 2.0 - 0.175,
+            0.35,
+            0.35,
+            0.05,
+            z=2.62,
+        )
+        pset = ifcopenshell.api.run("pset.add_pset", model, product=fixture, name="Pset_DemoLightingCoordination")
+        ifcopenshell.api.run(
+            "pset.edit_pset",
+            model,
+            pset=pset,
+            properties={
+                "Room": room["name"],
+                "Mounting": "ceiling_center_visual_fixture",
+                "DeviceType": "ceiling_light_placeholder",
+                "TemperatureKelvin": 3000,
+                "ApproxLumens": 550,
+                "CoordinationStatus": "visual_scenario_not_lux_validated",
+            },
+        )
+        lighting_fixtures.append(fixture)
+
     model.write(str(args.output))
     args.manifest.parent.mkdir(parents=True, exist_ok=True)
-    args.manifest.write_text(json.dumps({"model_type": "generic_enclosed_apartment", "status": "technology_demonstrator", "rooms": rooms, "electrical_devices": len(electrical_devices)}, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"ifc": str(args.output), "manifest": str(args.manifest), "rooms": len(rooms), "doors": len(doors), "windows": len(windows), "electrical_devices": len(electrical_devices), "status": "enclosed_layout"}, indent=2))
+    args.manifest.write_text(json.dumps({"model_type": "generic_enclosed_apartment", "status": "technology_demonstrator", "rooms": rooms, "electrical_devices": len(electrical_devices), "plumbing_devices": len(plumbing_devices), "lighting_fixtures": len(lighting_fixtures)}, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"ifc": str(args.output), "manifest": str(args.manifest), "rooms": len(rooms), "doors": len(doors), "windows": len(windows), "electrical_devices": len(electrical_devices), "plumbing_devices": len(plumbing_devices), "lighting_fixtures": len(lighting_fixtures), "status": "enclosed_layout"}, indent=2))
     return 0
 
 

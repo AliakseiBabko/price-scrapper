@@ -261,3 +261,94 @@ ready.
 - Regenerated the demonstrator IFC, validated IFC, A3 SVG, A3 PDF, and sheet
   manifest; the manifest now reports `electrical_symbol_source:
   native_ifc_flow_terminals`.
+
+### Milestone 17 - native IFC plumbing coordination terminals
+
+- Added 3 conceptual plumbing `IfcFlowTerminal` placeholders to
+  `tools/ifc/demo_apartment_layout.py`: kitchen sink, bathroom vanity, and WC
+  cistern/service connection.
+- Each plumbing terminal is wall-snapped, checked against door/window openings,
+  assigned to the storey, and tagged with `Pset_DemoPlumbingCoordination`
+  metadata for room, host wall, device type, system, mounting type, and
+  engineering status.
+- Updated `tools/drawings/apartment_sheet_from_ifc.py` to render plumbing
+  terminals as a separate blue service-symbol layer alongside electrical
+  terminals.
+- Updated `tools/blender/build_apartment_demo.py` so imported plumbing flow
+  terminals receive the plumbing material and procedural Blender-only plumbing
+  placeholders are skipped when native IFC plumbing terminals exist.
+- Regenerated the demonstrator IFC, validated IFC, A3 SVG, A3 PDF, and sheet
+  manifest; the manifest now reports 12 electrical symbols, 3 plumbing symbols,
+  and 15 native IFC flow terminals.
+
+### Milestone 18 - native IFC lighting coordination fixtures
+
+- Added 6 conceptual `IfcLightFixture` ceiling-light placeholders to
+  `tools/ifc/demo_apartment_layout.py`, one per room.
+- Each fixture is centered in its room footprint, assigned to the storey, and
+  tagged with `Pset_DemoLightingCoordination` metadata for room, mounting type,
+  device type, temperature, approximate lumens, and validation boundary.
+- Updated `tools/drawings/apartment_sheet_from_ifc.py` to render native IFC
+  light fixtures as a separate lighting symbol layer and validate that they sit
+  inside room footprints.
+- Updated `tools/blender/build_apartment_demo.py` so imported IFC light-fixture
+  geometry receives a dedicated fixture material while Blender area lights
+  continue to provide the daylight/mixed/evening render scenarios.
+- Regenerated the demonstrator IFC, validated IFC, A3 SVG, A3 PDF, and sheet
+  manifest; the manifest now reports 6 native lighting symbols. These are
+  visual coordination fixtures only, not lux simulation or electrical design.
+
+### Milestone 19 - discipline-specific A3 sheet set
+
+- Extended `tools/drawings/apartment_sheet_from_ifc.py` with `--sheet-kind`
+  and `--sheet-set`.
+- The generator can now emit separate A3 SVG/PDF sheets for:
+  - `A-101` architectural floor plan;
+  - `E-101` electrical and lighting coordination plan;
+  - `P-101` plumbing coordination plan;
+  - combined coordination plan.
+- Each discipline sheet is generated from the same validated IFC and filters
+  the native service layers according to the sheet type.
+- Generated sheet manifests preserve model-wide symbol counts while also
+  reporting the symbols visible on each sheet.
+- Classification remains coordination-only and not for construction.
+
+### Milestone 20 - current-apartment planned seed from Visual Drop evidence
+
+- Added `tools/ifc/current_apartment_layout.py` to generate the first
+  current-apartment IFC seed from the Visual Drop floor-plan evidence:
+  `fllor_plan_detailed.jpeg`, `floor_plan_basic.jpg`, and the comparable
+  measured reference plans `floor plan_1.jpg`, `floor plan_2.jpg`, and
+  `floor plan_3.jpg`.
+- The seed records the current evidence status as
+  `planned_from_visual_sources_not_field_verified`; final millimetre dimensions
+  still require site measurement.
+- The generator now emits 8 spaces, 18 walls, 7 native door/doorway fills,
+  4 native window fills, 13 electrical terminals, 3 plumbing terminals, and
+  7 ceiling light fixtures.
+- Added `tools/ifc/validate_current_apartment_seed.py` as a dedicated rule gate
+  for this seed. It checks expected rooms, door-connected reachability from the
+  entrance hall, required windows for living rooms/bedrooms/kitchen, native
+  opening/fill relationships, wall-mounted services, service/opening clearance,
+  lighting placement sanity, and the planned-not-field-verified manifest status.
+- Regenerated the current-apartment IFC, validation JSON, discipline A3 sheet
+  set, Blender scene, and daylight/mixed/evening renders from the same IFC
+  source.
+
+### Milestone 21 - CAD/DWG evidence intake and control candidates
+
+- Processed `00_Inbox/cad/20260727-ZK Dubravinskiy.dwg` non-destructively with
+  `tools/cad/intake_cad.py`; the original DWG remains in the inbox.
+- Converted the DWG to DXF with ODA File Converter for analysis only and
+  confirmed the converted DXF reports millimetre `$INSUNITS`.
+- Generated a DXF evidence summary showing 7,886 model-space entities,
+  1,703 dimension entities, 116 wall inserts, 32 door inserts, 10 window
+  inserts, and 11 switch inserts.
+- Added `tools/cad/dxf_control_candidates.py` to locate candidate dimension
+  entities near known controls such as the 1010 mm entrance opening, 910 mm
+  probable door leaf, and 2.31 m entrance-hall depth.
+- Recorded results in `tools/cad/CAD_INTAKE_SUMMARY.md`.
+- The CAD export remains a reference underlay and candidate-dimension source,
+  not an authoritative BIM geometry source, because Homestyler geometry is
+  block-insert heavy and repeated apartment instances require manual visual
+  confirmation.

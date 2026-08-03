@@ -23,6 +23,41 @@ import ifcopenshell.util.unit
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 
+SHEET_CONFIG = {
+    "combined": {
+        "sheet_number": "A-101",
+        "title": "Floor plan - coordination",
+        "stem": "apartment_floor_plan_a3",
+        "electrical": True,
+        "plumbing": True,
+        "lighting": True,
+    },
+    "architectural": {
+        "sheet_number": "A-101",
+        "title": "Architectural floor plan",
+        "stem": "apartment_architectural_plan_a3",
+        "electrical": False,
+        "plumbing": False,
+        "lighting": False,
+    },
+    "electrical": {
+        "sheet_number": "E-101",
+        "title": "Electrical and lighting coordination plan",
+        "stem": "apartment_electrical_lighting_plan_a3",
+        "electrical": True,
+        "plumbing": False,
+        "lighting": True,
+    },
+    "plumbing": {
+        "sheet_number": "P-101",
+        "title": "Plumbing coordination plan",
+        "stem": "apartment_plumbing_plan_a3",
+        "electrical": False,
+        "plumbing": True,
+        "lighting": False,
+    },
+}
+
 
 @dataclass(frozen=True)
 class BBox:
@@ -60,13 +95,22 @@ class Item:
 
 
 @dataclass(frozen=True)
-class ElectricalSymbol:
+class ServiceSymbol:
+    service: str
     name: str
     room: str
     x: float
     y: float
     wall: str
     side: str
+
+
+@dataclass(frozen=True)
+class LightSymbol:
+    name: str
+    room: str
+    x: float
+    y: float
 
 
 class SheetError(RuntimeError):
@@ -186,18 +230,36 @@ def collect_items(model: ifcopenshell.file) -> tuple[list[Item], list[Item], lis
     return walls, spaces, openings, doors, windows
 
 
-def collect_flow_terminals(model: ifcopenshell.file) -> list[ElectricalSymbol]:
+def collect_flow_terminals(model: ifcopenshell.file) -> list[ServiceSymbol]:
     unit_scale = ifcopenshell.util.unit.calculate_unit_scale(model)
-    symbols: list[ElectricalSymbol] = []
+    symbols: list[ServiceSymbol] = []
     for terminal in model.by_type("IfcFlowTerminal"):
         psets = ifcopenshell.util.element.get_psets(terminal)
-        coordination = psets.get("Pset_DemoElectricalCoordination", {})
+        if "Pset_DemoElectricalCoordination" in psets:
+            service = "electrical"
+            coordination = psets["Pset_DemoElectricalCoordination"]
+        elif "Pset_DemoPlumbingCoordination" in psets:
+            service = "plumbing"
+            coordination = psets["Pset_DemoPlumbingCoordination"]
+        else:
+            continue
         room = str(coordination.get("Room") or "Unassigned")
         wall = str(coordination.get("HostWall") or "Unassigned")
         box = rectangular_profile_bbox(terminal, unit_scale)
         side = "horizontal" if box.width >= box.depth else "vertical"
-        symbols.append(ElectricalSymbol(str(terminal.Name or "Electrical terminal"), room, box.cx, box.cy, wall, side))
+        symbols.append(ServiceSymbol(service, str(terminal.Name or "Service terminal"), room, box.cx, box.cy, wall, side))
     return symbols
+
+
+def collect_light_fixtures(model: ifcopenshell.file) -> list[LightSymbol]:
+    unit_scale = ifcopenshell.util.unit.calculate_unit_scale(model)
+    lights: list[LightSymbol] = []
+    for fixture in model.by_type("IfcLightFixture"):
+        psets = ifcopenshell.util.element.get_psets(fixture)
+        coordination = psets.get("Pset_DemoLightingCoordination", {})
+        box = rectangular_profile_bbox(fixture, unit_scale)
+        lights.append(LightSymbol(str(fixture.Name or "Light fixture"), str(coordination.get("Room") or "Unassigned"), box.cx, box.cy))
+    return lights
 
 
 def union_bbox(items: list[Item]) -> BBox:
@@ -257,7 +319,7 @@ def collides_with_opening(x: float, y: float, wall: Item, openings: list[Item], 
     return False
 
 
-def symbol_is_on_host_wall(symbol: ElectricalSymbol, wall: Item, tolerance: float = 0.06) -> bool:
+def symbol_is_on_host_wall(symbol: ServiceSymbol, wall: Item, tolerance: float = 0.06) -> bool:
     box = wall.bbox
     if is_horizontal(box):
         return box.xmin - tolerance <= symbol.x <= box.xmax + tolerance and abs(symbol.y - box.cy) <= box.depth / 2.0 + tolerance
@@ -290,16 +352,16 @@ def candidate_point(room: Item, side: str, fraction: float) -> tuple[float, floa
     raise SheetError(f"Unsupported room side: {side}")
 
 
-def electrical_symbols(spaces: list[Item], walls: list[Item], openings: list[Item]) -> list[ElectricalSymbol]:
+def electrical_symbols(spaces: list[Item], walls: list[Item], openings: list[Item]) -> list[ServiceSymbol]:
     alternates = [("bottom", 0.35), ("top", 0.35), ("left", 0.5), ("right", 0.5), ("bottom", 0.65), ("top", 0.65)]
-    symbols: list[ElectricalSymbol] = []
+    symbols: list[ServiceSymbol] = []
     for room in sorted(spaces, key=lambda item: item.name):
         for index, (side, fraction) in enumerate(room_electrical_positions(room), 1):
             tried = [(side, fraction)] + alternates
             for candidate_side, candidate_fraction in tried:
                 wall, x, y = wall_for_candidate(candidate_point(room, candidate_side, candidate_fraction), candidate_side, walls)
                 if not collides_with_opening(x, y, wall, openings):
-                    symbols.append(ElectricalSymbol(f"{room.name} outlet {index}", room.name, x, y, wall.name, candidate_side))
+                    symbols.append(ServiceSymbol("electrical", f"{room.name} outlet {index}", room.name, x, y, wall.name, candidate_side))
                     break
             else:
                 raise SheetError(f"Could not place {room.name} outlet {index} without opening collision.")
@@ -352,10 +414,12 @@ def draw_window(parent: ET.Element, opening: Item, origin: BBox, scale: float, p
         parent.append(svg_el("line", x1=f"{x + 1.2:.3f}", y1=f"{y0:.3f}", x2=f"{x + 1.2:.3f}", y2=f"{y1:.3f}", **{"class": "window-line"}))
 
 
-def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, output_pdf: Path | None) -> dict[str, Any]:
+def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, output_pdf: Path | None, sheet_kind: str = "combined") -> dict[str, Any]:
+    config = SHEET_CONFIG[sheet_kind]
     model = ifcopenshell.open(str(ifc_path))
     walls, spaces, openings, doors, windows = collect_items(model)
     symbols = collect_flow_terminals(model)
+    light_symbols = collect_light_fixtures(model)
     electrical_source = "native_ifc_flow_terminals"
     if not symbols:
         symbols = electrical_symbols(spaces, walls, openings)
@@ -368,6 +432,15 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
             raise SheetError(f"{symbol.name} is not mounted on host wall {symbol.wall}.")
         if host_wall and collides_with_opening(symbol.x, symbol.y, host_wall, openings):
             raise SheetError(f"{symbol.name} overlaps a door/window opening on {symbol.wall}.")
+    visible_symbols = [
+        symbol for symbol in symbols
+        if (symbol.service == "electrical" and config["electrical"]) or (symbol.service == "plumbing" and config["plumbing"])
+    ]
+    visible_lights = light_symbols if config["lighting"] else []
+    for light in light_symbols:
+        containing_space = next((space for space in spaces if space.bbox.xmin <= light.x <= space.bbox.xmax and space.bbox.ymin <= light.y <= space.bbox.ymax), None)
+        if not containing_space:
+            raise SheetError(f"{light.name} is not inside any room footprint.")
     envelope = union_bbox(walls)
     page_w, page_h = 420.0, 297.0
     plan_x, plan_y, plan_w, plan_h = 24.0, 34.0, 260.0, 205.0
@@ -378,7 +451,7 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
 
     root = svg_el("svg", width=f"{page_w}mm", height=f"{page_h}mm", viewBox=f"0 0 {page_w} {page_h}", version="1.1")
     root.append(svg_el("title"))
-    root[0].text = "Apartment floor plan coordination sheet"
+    root[0].text = f"Apartment {config['title']} sheet"
     style = svg_el("style")
     style.text = """
 .wall { fill: #4f5356; stroke: #111; stroke-width: 0.25; }
@@ -388,6 +461,8 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
 .door-arc { fill: none; stroke: #5b331f; stroke-width: 0.25; stroke-dasharray: 1.2 0.8; }
 .window-line { stroke: #0a5b78; stroke-width: 0.55; }
 .electrical { fill: #d92118; stroke: #111; stroke-width: 0.12; }
+.plumbing { fill: #1265d8; stroke: #111; stroke-width: 0.12; }
+.lighting { fill: #f2c94c; stroke: #111; stroke-width: 0.12; }
 .dimension { stroke: #111; stroke-width: 0.18; marker-start: url(#arrow); marker-end: url(#arrow); }
 .thin { stroke: #111; stroke-width: 0.12; fill: none; }
 .note { fill: #111; font-family: Arial, sans-serif; }
@@ -401,7 +476,7 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
 
     root.append(svg_el("rect", x="5", y="5", width="410", height="287", fill="none", stroke="#000", **{"stroke-width": "0.35"}))
     append_text(root, "Generic enclosed apartment demonstrator", 24, 18, 5.0, weight="bold")
-    append_text(root, "A-101 Floor plan - coordination only", 24, 25, 3.2)
+    append_text(root, f"{config['sheet_number']} {config['title']} - coordination only", 24, 25, 3.2)
 
     plan = svg_el("g", id="plan")
     root.append(plan)
@@ -425,11 +500,20 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
         append_text(plan, space.name, sx, sy - 2.0, 3.0, "middle", "bold")
         append_text(plan, f"{space.bbox.width:.2f} x {space.bbox.depth:.2f} m", sx, sy + 2.2, 2.4, "middle")
 
-    for symbol in symbols:
+    for symbol in visible_symbols:
         sx, sy = project_point(symbol.x, symbol.y, envelope, scale, placed_x, placed_y, drawing_h)
         size = 2.4
-        plan.append(svg_el("rect", x=f"{sx - size / 2:.3f}", y=f"{sy - size / 2:.3f}", width=f"{size:.3f}", height=f"{size:.3f}", **{"class": "electrical", "data-name": symbol.name, "data-host-wall": symbol.wall}))
-        plan.append(svg_el("circle", cx=f"{sx:.3f}", cy=f"{sy:.3f}", r="0.65", fill="#ffffff", stroke="#111", **{"stroke-width": "0.12"}))
+        if symbol.service == "plumbing":
+            plan.append(svg_el("circle", cx=f"{sx:.3f}", cy=f"{sy:.3f}", r=f"{size / 2:.3f}", **{"class": "plumbing", "data-name": symbol.name, "data-host-wall": symbol.wall}))
+            plan.append(svg_el("path", d=f"M {sx - 0.75:.3f} {sy:.3f} L {sx:.3f} {sy + 0.75:.3f} L {sx + 0.75:.3f} {sy:.3f}", fill="none", stroke="#fff", **{"stroke-width": "0.25"}))
+        else:
+            plan.append(svg_el("rect", x=f"{sx - size / 2:.3f}", y=f"{sy - size / 2:.3f}", width=f"{size:.3f}", height=f"{size:.3f}", **{"class": "electrical", "data-name": symbol.name, "data-host-wall": symbol.wall}))
+            plan.append(svg_el("circle", cx=f"{sx:.3f}", cy=f"{sy:.3f}", r="0.65", fill="#ffffff", stroke="#111", **{"stroke-width": "0.12"}))
+    for light in visible_lights:
+        sx, sy = project_point(light.x, light.y, envelope, scale, placed_x, placed_y, drawing_h)
+        plan.append(svg_el("circle", cx=f"{sx:.3f}", cy=f"{sy:.3f}", r="2.2", **{"class": "lighting", "data-name": light.name}))
+        plan.append(svg_el("line", x1=f"{sx - 1.4:.3f}", y1=f"{sy:.3f}", x2=f"{sx + 1.4:.3f}", y2=f"{sy:.3f}", stroke="#111", **{"stroke-width": "0.18"}))
+        plan.append(svg_el("line", x1=f"{sx:.3f}", y1=f"{sy - 1.4:.3f}", x2=f"{sx:.3f}", y2=f"{sy + 1.4:.3f}", stroke="#111", **{"stroke-width": "0.18"}))
 
     x0, y0 = project_point(envelope.xmin, envelope.ymin, envelope, scale, placed_x, placed_y, drawing_h)
     x1, y1 = project_point(envelope.xmax, envelope.ymax, envelope, scale, placed_x, placed_y, drawing_h)
@@ -444,10 +528,21 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     append_text(root, "Legend", legend_x, legend_y, 3.4, weight="bold")
     root.append(svg_el("rect", x=legend_x, y=legend_y + 6, width=8, height=4, **{"class": "wall"}))
     append_text(root, "Wall cut", legend_x + 12, legend_y + 9.5, 2.7)
-    root.append(svg_el("rect", x=legend_x, y=legend_y + 15, width=3, height=3, **{"class": "electrical"}))
-    append_text(root, "Electrical outlet/switch", legend_x + 12, legend_y + 18, 2.7)
-    root.append(svg_el("line", x1=legend_x, y1=legend_y + 26, x2=legend_x + 10, y2=legend_y + 26, **{"class": "window-line"}))
-    append_text(root, "Window in wall opening", legend_x + 12, legend_y + 27, 2.7)
+    legend_offset = 15
+    if config["electrical"]:
+        root.append(svg_el("rect", x=legend_x, y=legend_y + legend_offset, width=3, height=3, **{"class": "electrical"}))
+        append_text(root, "Electrical outlet/switch", legend_x + 12, legend_y + legend_offset + 3, 2.7)
+        legend_offset += 9
+    if config["plumbing"]:
+        root.append(svg_el("circle", cx=legend_x + 1.5, cy=legend_y + legend_offset + 1, r=1.5, **{"class": "plumbing"}))
+        append_text(root, "Plumbing connection", legend_x + 12, legend_y + legend_offset + 2, 2.7)
+        legend_offset += 9
+    if config["lighting"]:
+        root.append(svg_el("circle", cx=legend_x + 1.5, cy=legend_y + legend_offset + 1, r=1.7, **{"class": "lighting"}))
+        append_text(root, "Ceiling light fixture", legend_x + 12, legend_y + legend_offset + 2, 2.7)
+        legend_offset += 9
+    root.append(svg_el("line", x1=legend_x, y1=legend_y + legend_offset + 1, x2=legend_x + 10, y2=legend_y + legend_offset + 1, **{"class": "window-line"}))
+    append_text(root, "Window in wall opening", legend_x + 12, legend_y + legend_offset + 2, 2.7)
 
     title_x, title_y = 280.0, 246.0
     root.append(svg_el("rect", x=title_x, y=title_y, width=130, height=41, fill="#fff", stroke="#000", **{"stroke-width": "0.35"}))
@@ -455,7 +550,7 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
         root.append(svg_el("line", x1=title_x, y1=title_y + offset, x2=title_x + 130, y2=title_y + offset, stroke="#000", **{"stroke-width": "0.2"}))
     root.append(svg_el("line", x1=350, y1=title_y, x2=350, y2=title_y + 41, stroke="#000", **{"stroke-width": "0.2"}))
     append_text(root, "Residential renovation demo", title_x + 4, title_y + 6, 3.0, weight="bold")
-    append_text(root, "Floor plan - coordination", title_x + 4, title_y + 10, 2.5)
+    append_text(root, str(config["title"]), title_x + 4, title_y + 10, 2.5)
     append_text(root, "STATUS", title_x + 4, title_y + 18, 2.2, weight="bold")
     append_text(root, "COORDINATION ONLY / NOT FOR CONSTRUCTION", title_x + 22, title_y + 18, 2.2)
     append_text(root, "SOURCE", title_x + 4, title_y + 23, 2.2, weight="bold")
@@ -464,7 +559,7 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     append_text(root, "1:50 visual sheet", title_x + 22, title_y + 30, 2.2)
     append_text(root, "DATE", title_x + 4, title_y + 38, 2.2, weight="bold")
     append_text(root, date.today().isoformat(), title_x + 22, title_y + 38, 2.2)
-    append_text(root, "A-101", 354, title_y + 38, 6.0, weight="bold")
+    append_text(root, str(config["sheet_number"]), 354, title_y + 38, 6.0, weight="bold")
 
     output_svg.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(output_svg, encoding="utf-8", xml_declaration=True)
@@ -480,6 +575,8 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
         "output_pdf": str(output_pdf) if output_pdf else None,
         "classification": "coordination-ready; professional review required; not for construction",
         "page": "A3 landscape",
+        "sheet_kind": sheet_kind,
+        "sheet_number": config["sheet_number"],
         "scale_label": "1:50 visual sheet",
         "generated": date.today().isoformat(),
         "counts": {
@@ -488,13 +585,20 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
             "openings": len(openings),
             "doors": len(doors),
             "windows": len(windows),
-            "electrical_symbols": len(symbols),
+            "electrical_symbols": len([symbol for symbol in visible_symbols if symbol.service == "electrical"]),
+            "plumbing_symbols": len([symbol for symbol in visible_symbols if symbol.service == "plumbing"]),
+            "lighting_symbols": len(visible_lights),
+            "model_electrical_symbols": len([symbol for symbol in symbols if symbol.service == "electrical"]),
+            "model_plumbing_symbols": len([symbol for symbol in symbols if symbol.service == "plumbing"]),
+            "model_lighting_symbols": len(light_symbols),
             "ifc_flow_terminals": len(model.by_type("IfcFlowTerminal")),
+            "ifc_light_fixtures": len(model.by_type("IfcLightFixture")),
         },
         "validation": {
-            "electrical_symbols_snap_to_walls": True,
-            "electrical_symbols_avoid_openings": True,
-            "electrical_symbol_source": electrical_source,
+            "service_symbols_snap_to_walls": True,
+            "service_symbols_avoid_openings": True,
+            "lighting_symbols_inside_rooms": True,
+            "service_symbol_source": electrical_source,
             "native_void_fill_relationships_used": True,
             "source_model_status": source_manifest.get("status"),
         },
@@ -522,13 +626,20 @@ def main() -> int:
     parser.add_argument("--ifc", type=Path, required=True)
     parser.add_argument("--manifest", type=Path)
     parser.add_argument("--output-dir", type=Path, required=True)
+    parser.add_argument("--sheet-kind", choices=sorted(SHEET_CONFIG), default="combined")
+    parser.add_argument("--sheet-set", action="store_true", help="Generate architectural, electrical, plumbing, and combined sheets.")
     args = parser.parse_args()
-    svg_path = args.output_dir / "apartment_floor_plan_a3.svg"
-    pdf_path = args.output_dir / "apartment_floor_plan_a3.pdf"
-    manifest_path = args.output_dir / "apartment_floor_plan_a3_manifest.json"
-    result = build_svg(args.ifc, args.manifest, svg_path, pdf_path)
-    manifest_path.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps(result, indent=2))
+    results = []
+    sheet_kinds = ["architectural", "electrical", "plumbing", "combined"] if args.sheet_set else [args.sheet_kind]
+    for sheet_kind in sheet_kinds:
+        stem = str(SHEET_CONFIG[sheet_kind]["stem"])
+        svg_path = args.output_dir / f"{stem}.svg"
+        pdf_path = args.output_dir / f"{stem}.pdf"
+        manifest_path = args.output_dir / f"{stem}_manifest.json"
+        result = build_svg(args.ifc, args.manifest, svg_path, pdf_path, sheet_kind=sheet_kind)
+        manifest_path.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+        results.append(result)
+    print(json.dumps({"generated_sheets": results}, indent=2))
     return 0
 
 

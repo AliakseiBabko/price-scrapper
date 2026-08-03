@@ -248,7 +248,7 @@ def scene_bounds():
     return low, high
 
 
-def add_room_content(rooms, design, collections, mats, wall_objects, door_objects, generate_electrical=True):
+def add_room_content(rooms, design, collections, mats, wall_objects, door_objects, generate_electrical=True, generate_plumbing=True):
     furniture = collections["Furniture"]
     electrical = collections["Electrical Symbols"]
     lights = collections["Lighting Fixtures"]
@@ -271,24 +271,28 @@ def add_room_content(rooms, design, collections, mats, wall_objects, door_object
             box("Coffee table", (x + w * 0.42, y + d * 0.22, 0.22), (1.0, 0.55, 0.42), mats["wood"], furniture)
             box("Built-in wardrobe proxy", (x + w * 0.84, y + d * 0.6, 1.25), (0.45, 2.0, 2.5), mats["wardrobe"], furniture)
             electrical_positions = [("bottom", 0.18), ("bottom", 0.78), ("right", 0.62)]
-        elif key == "bedroom":
+        elif "bedroom" in key or "bedroom" in name.lower():
             box("Bedroom bed", (cx, y + d * 0.55, 0.35), (2.0, 2.0, 0.55), mats["fabric"], furniture)
             electrical_positions = [("bottom", 0.25), ("bottom", 0.75)]
         elif key == "kitchen":
             box("Kitchen run", (x + w * 0.5, y + d * 0.85, 0.45), (w * 0.8, 0.48, 0.9), mats["cabinet"], furniture)
             box("Kitchen island", (cx, y + d * 0.43, 0.45), (w * 0.55, 0.5, 0.9), mats["cabinet"], furniture)
             electrical_positions = [("top", 0.2), ("top", 0.7), ("left", 0.25)]
+        elif key == "loggia":
+            box("Loggia placeholder storage", (cx, y + d * 0.35, 0.35), (min(w * 0.65, 1.2), 0.35, 0.7), mats["wood"], furniture)
+            electrical_positions = []
         else:
             box(f"{name} vanity", (cx, y + d * 0.78, 0.4), (w * 0.55, 0.35, 0.8), mats["ceramic"], furniture)
             cylinder(f"{name} fixture", (cx, y + d * 0.35, 0.18), min(w, d) * 0.18, 0.12, mats["ceramic"], furniture)
             electrical_positions = [("top", 0.18)]
-            plumbing_dims = (0.24, 0.04, 0.14)
-            plumbing_candidate = (x + w * 0.5, y + d - 0.02)
-            plumbing_location, plumbing_wall = snap_to_nearest_wall(plumbing_candidate, plumbing_dims, wall_objects, 1.15)
-            plumbing_obj = box(f"{name} wall plumbing connection", plumbing_location, plumbing_dims, mats["plumbing"], plumbing)
-            plumbing_obj["wall_mounted"] = True
-            plumbing_obj["host_wall"] = plumbing_wall
-            concealed_route(f"{name} concealed water drop", room, "top", 0.5, 1.15, mats["concealed"], concealed, wall_objects)
+            if generate_plumbing:
+                plumbing_dims = (0.24, 0.04, 0.14)
+                plumbing_candidate = (x + w * 0.5, y + d - 0.02)
+                plumbing_location, plumbing_wall = snap_to_nearest_wall(plumbing_candidate, plumbing_dims, wall_objects, 1.15)
+                plumbing_obj = box(f"{name} wall plumbing connection", plumbing_location, plumbing_dims, mats["plumbing"], plumbing)
+                plumbing_obj["wall_mounted"] = True
+                plumbing_obj["host_wall"] = plumbing_wall
+                concealed_route(f"{name} concealed water drop", room, "top", 0.5, 1.15, mats["concealed"], concealed, wall_objects)
         if generate_electrical:
             for index, (side, fraction) in enumerate(electrical_positions, 1):
                 x, y = room["x_m"], room["y_m"]
@@ -353,6 +357,8 @@ def configure_render(scene, low, high, render_path):
 
 def set_scenario(scene, scenario):
     for obj in bpy.data.collections["Lighting Fixtures"].objects:
+        if obj.type != "LIGHT":
+            continue
         obj.hide_render = False
         obj.data.energy = {"daylight": 300.0, "mixed": 650.0, "evening": 1100.0}[scenario]
         obj.data.color = {"daylight": (1.0, 0.92, 0.78), "mixed": (1.0, 0.72, 0.45), "evening": (1.0, 0.45, 0.18)}[scenario]
@@ -384,6 +390,7 @@ def main():
         "ceramic": material("Demo ceramic", (0.75, 0.78, 0.8), roughness=0.2),
         "electrical": material("Demo electrical symbol", (0.9, 0.05, 0.03), emission=(0.5, 0.01, 0.0)),
         "plumbing": material("Demo plumbing connection", (0.05, 0.35, 0.9), metallic=0.15),
+        "light_fixture": material("Demo light fixture", (0.95, 0.72, 0.12), emission=(0.4, 0.25, 0.02)),
         "concealed": material("Demo concealed service route", (0.15, 0.45, 0.85), emission=(0.05, 0.15, 0.4)),
         "label": material("Demo labels", (0.95, 0.75, 0.1), emission=(0.5, 0.25, 0.0)),
         "glass": material("Demo window glass", (0.08, 0.35, 0.55), roughness=0.12),
@@ -407,16 +414,25 @@ def main():
             obj.data.materials.clear()
             obj.data.materials.append(mats["door"])
         elif "ifcflowterminal/" in obj.name.lower():
+            is_plumbing = any(token in obj.name.lower() for token in ("plumbing", "sink", "cistern", "vanity"))
             obj.data.materials.clear()
-            obj.data.materials.append(mats["electrical"])
-            obj["design_role"] = "native_ifc_electrical_terminal"
-            if obj.name not in collections["Electrical Symbols"].objects:
-                collections["Electrical Symbols"].objects.link(obj)
+            obj.data.materials.append(mats["plumbing"] if is_plumbing else mats["electrical"])
+            obj["design_role"] = "native_ifc_plumbing_terminal" if is_plumbing else "native_ifc_electrical_terminal"
+            target_collection = collections["Plumbing Fixtures"] if is_plumbing else collections["Electrical Symbols"]
+            if obj.name not in target_collection.objects:
+                target_collection.objects.link(obj)
+        elif "ifclightfixture/" in obj.name.lower():
+            obj.data.materials.clear()
+            obj.data.materials.append(mats["light_fixture"])
+            obj["design_role"] = "native_ifc_light_fixture"
+            if obj.name not in collections["Lighting Fixtures"].objects:
+                collections["Lighting Fixtures"].objects.link(obj)
     wall_objects = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and "wall" in obj.name.lower()]
     door_objects = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and "ifcdoor/" in obj.name.lower()]
-    native_electrical = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and "ifcflowterminal/" in obj.name.lower()]
+    native_electrical = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and "ifcflowterminal/" in obj.name.lower() and not any(token in obj.name.lower() for token in ("plumbing", "sink", "cistern", "vanity"))]
+    native_plumbing = [obj for obj in bpy.context.scene.objects if obj.type == "MESH" and "ifcflowterminal/" in obj.name.lower() and any(token in obj.name.lower() for token in ("plumbing", "sink", "cistern", "vanity"))]
     add_window_panes(mats, window_panes, wall_objects)
-    add_room_content(rooms, manifest, collections, mats, wall_objects, door_objects, generate_electrical=not native_electrical)
+    add_room_content(rooms, manifest, collections, mats, wall_objects, door_objects, generate_electrical=not native_electrical, generate_plumbing=not native_plumbing)
     sun_data = bpy.data.lights.new("Daylight sun", type="SUN")
     sun_data.energy = 2.0
     sun = bpy.data.objects.new("Daylight sun", sun_data)
