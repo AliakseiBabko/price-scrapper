@@ -362,6 +362,5 @@ ready.
   - current-apartment validation JSON;
   - architectural, electrical/lighting, plumbing, and combined A3 sheet set;
   - optionally, the Blender `.blend` and daylight/mixed/evening renders.
-- Verified the fast path with `--skip-blender`; the wrapper produced a valid
-  current seed and sheet set from source scripts without manual command
-  sequencing.
+- Verified both the fast path with `--skip-blender` and the full path including
+  Blender scene generation and daylight/mixed/evening renders.
