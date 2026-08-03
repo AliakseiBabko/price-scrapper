@@ -352,3 +352,16 @@ ready.
   not an authoritative BIM geometry source, because Homestyler geometry is
   block-insert heavy and repeated apartment instances require manual visual
   confirmation.
+
+### Milestone 22 - current-apartment reproducible build command
+
+- Added `tools/ifc/build_current_apartment_outputs.py`.
+- The wrapper regenerates, in order:
+  - current-apartment IFC seed;
+  - current-apartment manifest;
+  - current-apartment validation JSON;
+  - architectural, electrical/lighting, plumbing, and combined A3 sheet set;
+  - optionally, the Blender `.blend` and daylight/mixed/evening renders.
+- Verified the fast path with `--skip-blender`; the wrapper produced a valid
+  current seed and sheet set from source scripts without manual command
+  sequencing.
