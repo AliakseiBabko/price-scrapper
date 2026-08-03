@@ -1,0 +1,7 @@
+ifcopenshell==0.8.5
+pytest==8.4.1
+jsonschema==4.25.1
+cairosvg==2.7.1
+svglib==1.5.1
+reportlab==4.4.3
+ezdxf==1.4.2

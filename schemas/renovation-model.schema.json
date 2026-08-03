@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://price-scrapper.local/schemas/renovation-model.schema.json",
+  "title": "Renovation model input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "project_name", "storey_name", "units", "room_dimensions", "door_opening"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.1.0" },
+    "project_name": { "type": "string", "minLength": 1 },
+    "storey_name": { "type": "string", "minLength": 1 },
+    "units": { "type": "string", "const": "m" },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_id": { "type": "string", "minLength": 1 },
+        "source_file": { "type": "string", "minLength": 1 },
+        "source_hash_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "geometry_status": { "enum": ["measured", "assumed", "illustrative"] },
+        "unit_status": { "enum": ["verified", "pending"] }
+      }
+    },
+    "room_dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["length", "width", "height", "wall_thickness"],
+      "properties": {
+        "length": { "type": "number", "exclusiveMinimum": 0 },
+        "width": { "type": "number", "exclusiveMinimum": 0 },
+        "height": { "type": "number", "exclusiveMinimum": 0 },
+        "wall_thickness": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "door_opening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["wall_index", "offset_from_corner", "width", "height"],
+      "properties": {
+        "wall_index": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "offset_from_corner": { "type": "number", "minimum": 0 },
+        "width": { "type": "number", "exclusiveMinimum": 0 },
+        "height": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    }
+  }
+}

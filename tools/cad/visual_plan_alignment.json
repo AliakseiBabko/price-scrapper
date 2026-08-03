@@ -1,0 +1,26 @@
+{
+  "current_plan": {
+    "detailed_source": "00_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
+    "basic_source": "00_Inbox/_Visual_Drop/floor_plan_basic.jpg",
+    "entrance_opening_mm": 1010,
+    "likely_door_leaf_mm": 910,
+    "declared_area_basic_m2": 69.44,
+    "declared_area_detailed_m2": 69.09
+  },
+  "comparable_previous_plans": [
+    {"source": "floor plan_1.jpg", "entrance_hall_depth_m": 2.33, "corridor_area_m2": 10.2},
+    {"source": "floor plan_2.jpg", "entrance_hall_depth_m": 2.28, "corridor_area_m2": 10.1},
+    {"source": "floor plan_3.jpg", "entrance_hall_depth_m": 2.31, "corridor_area_m2": 10.0}
+  ],
+  "derived": {
+    "entrance_hall_depth_mean_m": 2.3066666667,
+    "entrance_hall_depth_median_m": 2.31,
+    "entrance_hall_depth_min_m": 2.28,
+    "entrance_hall_depth_max_m": 2.33,
+    "recommended_nominal_m": 2.31,
+    "recommended_uncertainty_m": 0.03,
+    "area_difference_m2": 0.35,
+    "area_difference_percent_of_basic": 0.504
+  },
+  "policy": "Use current detailed plan for current geometry; use previous plans only for uncertainty calibration; retain 2.28/2.31/2.33 m scenarios until field verification."
+}
