@@ -35,6 +35,8 @@ See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproo
 
 A wall measured at 3.5 m can easily finish out closer to 3.2 m once both layers are accounted for on both sides — plan fixture clearances against the *finished* dimension, not the bare-shell one. `single-account`, but a concrete, checkable number worth applying regardless of source.
 
+- **Sink minimum clear width: 80 cm after finish layers** — a worked example from a critiqued layout: a nominal 81 cm stud-to-stud gap shrank to just 75 cm once plaster and tile were applied, judged too narrow. Directly reinforces the finish-layer-thickness caveat above with a concrete case where skipping it produced an unusable width. `single-account`, `unverified`. [source: `90_Archive/processed_sources/20260804_worst_layout_bathroom_kitchen_clearances_7629bd27.txt`]
+
 ## 5. Framing / Cladding Box Systems and Partition Material
 
 For non-structural boxing (concealing pipes, framing a niche) — see §14 for shelving-adjacent boxing:
@@ -53,6 +55,7 @@ For non-structural boxing (concealing pipes, framing a niche) — see §14 for s
 Two lightweight but genuinely useful planning techniques from one source:
 1. **Write an explicit list of everything the bathroom needs to fit** before laying anything out: every fixture (tub, sink, hygienic shower, toilet type — wall-hung/floor-standing), washer/dryer (separate or combo), storage for cleaning supplies, a laundry hamper, storage systems (open/closed shelving, wall/floor-mounted cabinetry), water heater type, and every planned light source (main, dimmed/decorative, mirror-specific, niche/accent). Handing a complete list to a designer (or using it yourself) catches "this doesn't fit" problems on paper instead of during construction.
 2. **Mentally walk through the actual use scenario** once a draft layout exists: leaving the shower, where's the towel — floor, hook, rail? Where do you put worn clothes? Where does the laundry hamper live, and how do you load it? This kind of walkthrough surfaces placement mistakes a static floor plan doesn't.
+3. **Verify fixture clearance against the door opening's actual position, not just gross wall dimensions.** A documented developer-layout defect: a toilet with only ~7 cm of passage clearance because the door opening was located without checking it against the space actually needed for toilet + sink + tub placement — a person entering repeatedly hit the fixture with their knee. A narrow wall stub next to a bathroom doorway (360 mm in the same example) was called out as too narrow to place fixtures without one protruding into the opening. `single-account`, `unverified`, but a genuinely checkable planning failure mode. [source: `90_Archive/processed_sources/20260804_worst_layout_toilet_clearance_kitchen_sill_91ec632e.txt`]
 
 ## 7. Fixture Placement Priority
 
@@ -284,6 +287,8 @@ The space above a washing machine (see §21/§23) is easy to under-use (often ju
 ## 24. Heated Floor
 
 **Electric underfloor heating, cost and control**: a full setup (heating mat, thermostat, installation) is cited around **~30,000 RUB** — described as easily worth it if the budget allows, with no real downsides beyond cost. Because tile heats and cools slowly, it can't be toggled on-demand like a light switch — the source runs theirs on a schedule (starting ~6am to be comfortably warm by ~9am). **Plan the thermostat's mounting height by how often you'll actually adjust it**: a simple on/off thermostat can go anywhere; a programmable one (set-and-forget) can be low/out of sight; one you expect to adjust frequently should be mounted higher, at a convenient reachable height.
+
+- **Heating-mat area cap and sensor redundancy (added 2026-08-04)**: one practitioner caps underfloor heating mats at **~12 m²** per mat/zone. Each mat should have **3 temperature sensors, not 1** — the sensor itself is described as more likely to fail than the mat, and a failed single sensor leaves no way to control (or safely confirm the state of) an otherwise-working mat. `single-account`, `unverified`. [sources: `90_Archive/processed_sources/20260804_business_class_five_attributes_19385e7a.txt`, `90_Archive/processed_sources/20260804_pro_secrets_lifehacks_f0be401f.txt`]
 
 ## 25. Toilet Visibility From the Entrance
 

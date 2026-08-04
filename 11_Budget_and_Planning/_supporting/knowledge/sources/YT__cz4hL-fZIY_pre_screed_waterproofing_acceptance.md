@@ -1,0 +1,51 @@
+---
+source_type: video transcript (single-speaker QC/inspection walkthrough, Russian, ASR auto-generated captions — no punctuation)
+source_url: https://www.youtube.com/watch?v=_cz4hL-fZIY
+video_id: _cz4hL-fZIY
+transcript_file: 90_Archive/processed_sources/20260804_pre_screed_waterproofing_acceptance_5b57e2e4.txt
+fetched: 2026-08-04
+upload_date: 2023-10-15
+channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`
+regional_applicability: Moscow-area company practice; not confirmed Minsk-transferable
+currency: none stated
+language: ru (ASR auto-generated, no punctuation)
+extraction_taxonomy: custom (renovation planning)
+---
+
+# Extraction Note — Zemstandart: Accepting a Site After Waterproofing, Before Screed & Rough Electrical (YouTube _cz4hL-fZIY)
+
+## Evidence levels
+(1) transcript text — (2) metadata — (3) inference — (4) none.
+
+## Source Metadata
+Alexey Zemskov walks a site at the milestone: walls plastered, floor waterproofed, but before screed and before rough electrical. Same channel as prior `zems_b*` sources — `single-account`.
+
+## Durable Facts
+
+- **Stated build order**: plaster walls → clean off plaster drips → floor waterproofing (single continuous contour) → underfloor heating loop (if not central heating) → re-verify room geometry → screed → only then rough electrical. `confirmed`, speaker's stated standing sequence.
+- **Why screed must precede rough electrical**: most electric-point heights are measured from the "zero mark," which is the finished screed surface. Wiring electrical before the screed is poured risks the crew missing the true zero mark, commonly producing misaligned outlets/switches above a kitchen backsplash or asymmetric bedroom light fixtures. `confirmed`, with a concrete failure-mode example given.
+- **Why geometry re-check happens before both screed and electrical**: before screed, geometry errors are still cheap to correct; before electrical, because point coordinates are referenced not just to the zero mark but also to wall corners/opening edges, so uncorrected reference points force costly electrical rework later. `confirmed`.
+- **Waterproofing terminology distinction**: "single contour" ("единый контур") waterproofing (continuous across rooms, no seams/thresholds) is preferred over a "single bowl" ("единая чаша") approach applied to the whole apartment before any interior walls exist. The single-bowl-first-then-walls method is easier to execute and film, but has two serious downsides: (1) any pinhole anywhere in it leaks straight to the downstairs unit, and (2) waterproofing installed before walls go up is reliably punctured multiple times during wall construction. `confirmed`, speaker's stated reasoning against a technique he says he used on his own earlier project.
+- **Perimeter damper strip**: where waterproofing meets a wall at the pour line, a foam damper strip ("демфер") must run the full perimeter before screed is poured — it compensates for screed expansion/contraction and prevents cracking. Masters reportedly forget this "guaranteed." Waterproofing installed correctly up the wall at that seam can itself serve this damper function. `confirmed`.
+- **Waterproofing joint QC test**: press/pry at seams and folded corners with a putty knife — if a strip lifts or a finger can slide under it, that's a defect (unwelded/unbonded seam). Characteristic sloppy technique: cutting the membrane at corners and just folding overlapping pieces without heat-welding them together, leaving a gap. A good single-contour install should hypothetically let several buckets of water poured in one room spread to all rooms without reaching the downstairs unit. `confirmed`, with a described test method.
+- **Riser/stack zones must NOT be waterproofed over.** Builder-provided gaps around risers/utility stacks are intentional — if upstairs neighbors flood, water is meant to drain straight down through these gaps rather than pool in your unit. Sealing them with waterproofing traps the water instead. `confirmed`, flagged as a common overzealous-crew mistake.
+- **Waterproofing at future wall locations** needs extra material (not trimmed flush) so it can be folded up the future wall higher than the eventual screed level — measure the future screed thickness (e.g. via the entrance-door threshold gap) and ensure the fold-up overlap exceeds it everywhere. `confirmed`.
+- **Wall plaster-thickness QC heuristic**: on a builder-supplied crooked wall, thicker plaster there is expected/fine. But if the CREW built the wall itself (masonry) and it also needs a thick, wedge-shaped plaster layer to true it up, that indicates a bad mason — walls the crew builds should be built straight to begin with, needing only a thin, uniform plaster coat before skim coat. `confirmed`.
+- **Wall flatness tolerance rule**: pre-plaster, hold a straightedge+level against the wall — deviation up to ~1 cm over the wall's full length is acceptable (don't demolish/rebuild for this, since losing 1–2 cm to extra plaster is cheaper/faster than rebuilding); beyond that, watch the crew more closely rather than automatically rebuilding.
+- **Non-load-bearing wall / soundproofing setback rule**: where a wall will get frame-mounted soundproofing against a neighbor's wall, no plaster should be applied there beforehand (would be wasted since the wall gets furred out anyway) — just prime for dust-binding. The soundproofing furring-out setback should be 10 cm plus the soundproofing layer's own thickness; from THAT face, standard offsets apply (electric points 15 cm from the corner, switches 90 cm from floor). Electricians must be told about this setback before starting, or their conduit/box work ends up buried inside the eventual soundproofing/furring assembly.
+- **90° corner tolerance rule**: only demand true 90° corners in wet zones (shower/tub — needed for clean 45°-mitered tile corners) and wherever corner-fit furniture (e.g. corner kitchen) will sit; everywhere else, forcing square corners can waste up to ~10 cm of floor area and unnecessary plaster/labor for no visible benefit. Applies to outer corners too (a leaning outer corner makes a cabinet door visibly stick out past the corner edge).
+- **Rough-opening (door-frame) rules**: opening frame allowance (from wall/lintel edge to where trim needs clearance) must be ≥100 mm; opening width = door leaf width + 100 mm (e.g. 60 cm leaf → 70 cm opening; 70 cm leaf → 80 cm opening; 80 cm leaf → 90 cm opening); speaker states he does not recommend 90 cm or 100 cm interior door leaves in modern renovation except for sliding doors, which he also mostly avoids. Opening height should be 2.07 m (207 cm) measured from the FUTURE screed surface, not from the waterproofing layer. `confirmed`, speaker's own stated standard.
+- **Lintel material comparison for openings**: three types cited — reinforced aerated-concrete (AAC) lintel blocks, steel angle iron, or rebar embedded in mortar. AAC lintels are technically specified in his company's own drawings (to match code/GOST references) but not actually recommended in practice: sold by only one supplier at ~20x normal cost with long lead times. Of the remaining two practical options, rebar is acceptable for narrow openings (70–90 cm) but WILL sag/deflect on wider openings (e.g. a large kitchen-living room portal); angle iron (specifically cited: 40×4 mm, painted in two coats to prevent rust) is the recommended default for openings wider than ~90 cm and works fine for narrow openings too. `unverified`/`single-account` company preference, but the underlying deflection-risk mechanism (rebar sagging on wide spans) is a portable structural heuristic.
+- **Underfloor heating pipe fixation**: pipes must be mechanically fixed to the floor before screed (both to survive the pour and for future leak-location reference via photos, since photos become useless once a screed crew kicks pipes out of position). Fixation-clip adhesive quality varies significantly by brand — some hold permanently, others release; speaker notes traditional heat-bonded bitumen strips are more consistently reliable ("50/50" reliability claimed for adhesive clips vs. more dependable for bitumen). `unverified`, single account.
+- **Screed reinforcement mesh rule**: screed thinner than 6–7 cm should be reinforced with mesh (not other materials) to prevent cracking; screed ≥6–7 cm can go without. Where the sub-floor is so uneven a thin (~3 cm) screed would result, raise the whole apartment's screed level instead (to a minimum ~4–4.5 cm at the thinnest point) if the entrance-door threshold allows; if it doesn't, use specialized leveling materials in that zone instead of standard screed, because even triple-reinforced 3 cm screed will crack. `confirmed`, speaker's stated rule.
+
+## Target Page(s)
+
+- **`12_Engineering_and_Systems/Plumbing_and_Waterproofing.md`** — primary destination: single-contour vs. single-bowl waterproofing distinction, perimeter damper strip, riser-zone no-waterproofing rule, waterproofing seam QC test, screed reinforcement/thickness rule. Extends existing §8 (Waterproofing & Plastering Standards).
+- **`11_Budget_and_Planning/Renovation_Sequence.md`** — the stated build order (plaster → waterproof → heating loop → geometry recheck → screed → rough electrical) and the rationale for screed-before-electrical.
+- **`12_Engineering_and_Systems/Electrical_and_Lighting.md`** — screed-as-zero-datum rationale, and the soundproofing-furring electrical setback offsets (10 cm + soundproofing thickness, then 15 cm/90 cm standard offsets).
+- **`13_Surfaces_and_Finishes/Doors_and_Trim.md`** — rough-opening sizing rule (width = leaf + 100 mm), 2.07 m opening height measured from future screed, and the lintel-material comparison (rebar sags beyond ~90 cm spans; angle iron recommended default).
+
+## Relevance to This Project's Topic
+
+Dense, high-value source for infrastructure sequencing and waterproofing QC — the single-contour vs. single-bowl distinction and the riser-zone drainage-gap rule are genuinely new, checkable additions not previously in the store. Lintel/opening-sizing content corroborates (same channel, not independent) prior `zems_b025`/`zems_b029` door-opening sources.
