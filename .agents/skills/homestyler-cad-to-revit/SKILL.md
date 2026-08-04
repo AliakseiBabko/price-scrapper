@@ -25,3 +25,17 @@ description: "Workflow for processing Homestyler CAD exports and preparing them 
    - Change the `status` column from `inbox` to `linked`, `imported`, `skipped`, or `failed` as appropriate.
    - Add verification outcomes (especially unit assumptions) to the `notes` column.
    - Only after verification and status update should the source files be moved to `90_Archive/homestyler_exports/`.
+
+## Local CAD review and cleanup
+
+- Autodesk DWG TrueView is installed locally and is the preferred Windows
+  viewer for checking the original DWG and derived DXF artifacts.
+- Never delete or overwrite the original Homestyler DWG. Noise removal must
+  produce a derived, clearly named DXF under `data/cad/`.
+- Select a repeated apartment instance using multiple control dimensions and
+  topology: entrance opening, door leaf, hall depth, continuous perimeter,
+  doors/windows, and room arrangement. Do not choose by X/Y position alone.
+- Furniture, cabinets, symbols, and duplicate geometry outside the selected
+  apartment crop are removable from the derived reference drawing. The result
+  remains an underlay and requires visual review in DWG TrueView before BIM
+  promotion.

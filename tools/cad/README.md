@@ -20,3 +20,18 @@ The installed ODA File Converter 27.1 can be used directly:
 The current DXF reports millimetre `$INSUNITS`, 7,886 model-space entities,
 1,703 dimensions, and the source layers. Unit/control-dimension approval is
 still manual and therefore the source remains in the inbox.
+
+To create a non-destructive cleaned reference DXF after control-candidate
+extraction:
+
+```powershell
+.\.venv-ifc314\Scripts\python.exe tools\cad\clean_homestyler_apartment.py `
+  --source "data\cad\dxf\20260727-ZK Dubravinskiy.dxf" `
+  --candidates "data\cad\20260727-ZK-Dubravinskiy.control-candidates.json" `
+  --output "data\cad\20260727-ZK-Dubravinskiy.current-apartment.cleaned.dxf" `
+  --report "data\cad\20260727-ZK-Dubravinskiy.current-apartment.cleaned.json"
+```
+
+The script preserves the source and selects the repeated plan instance using
+the combined control-dimension evidence. Review the derived DXF in DWG
+TrueView before using it as a BIM underlay.

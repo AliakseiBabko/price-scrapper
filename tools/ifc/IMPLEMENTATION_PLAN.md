@@ -364,3 +364,21 @@ ready.
   - optionally, the Blender `.blend` and daylight/mixed/evening renders.
 - Verified both the fast path with `--skip-blender` and the full path including
   Blender scene generation and daylight/mixed/evening renders.
+
+### Milestone 23 - non-destructive Homestyler noise cleanup
+
+- Added `tools/cad/clean_homestyler_apartment.py` to derive a cropped DXF from
+  the noisy Homestyler export without modifying the original DWG or source DXF.
+- The selector chose the repeated plan instance anchored near
+  `[52274.836, 31819.746]` mm because it combines the 1014.672 mm entrance
+  dimension, 910 mm door leaf, 2308.734 mm hall-depth observation, and
+  3275.160 mm span.
+- Generated `data/cad/20260727-ZK-Dubravinskiy.current-apartment.cleaned.dxf`
+  and its JSON report. The first rectangular-crop attempt was rejected after
+  visual comparison because it removed too much context. The active version
+  uses the actual `P-Wall-Section` footprint, retains 1,098 model-space
+  entities, removes 6,788 outside-footprint entities, and reopens successfully
+  in ezdxf with millimetre units.
+- DWG TrueView 2027 is installed and is the designated visual-review tool for
+  the derived DXF. The result remains a reference underlay and requires visual
+  review before BIM promotion.

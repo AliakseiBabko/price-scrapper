@@ -64,6 +64,37 @@ The current IFC seed should therefore keep the status
 `planned_from_visual_sources_not_field_verified` until field measurements or a
 manually confirmed CAD control set is available.
 
+## Derived cleanup result
+
+`tools/cad/clean_homestyler_apartment.py` selected the repeated plan instance
+anchored near X=52,274.836 mm, Y=31,819.746 mm. It is the strongest automatic
+match because the same cluster contains:
+
+- entrance dimension 1,014.672 mm (against the 1,010 mm user control);
+- door leaf dimension 910.000 mm;
+- hall-depth observation 2,308.734 mm;
+- span dimension 3,275.160 mm.
+
+The source DWG and source-converted DXF were preserved. The derived file is:
+
+- `data/cad/20260727-ZK-Dubravinskiy.current-apartment.cleaned.dxf`
+- `data/cad/20260727-ZK-Dubravinskiy.current-apartment.cleaned.json`
+- `data/cad/20260727-ZK-Dubravinskiy.current-apartment.cleaned-v2.dxf`
+- `data/cad/20260727-ZK-Dubravinskiy.current-apartment.cleaned-v2.json`
+
+The first rectangular crop was rejected after visual comparison because it
+removed too much useful context. The active derived DXF uses the selected
+instance's actual `P-Wall-Section` footprint plus a controlled annotation
+margin. It keeps the apartment plan content and removes visible model-space
+noise outside the footprint. It reopens successfully with ezdxf, retains
+`$INSUNITS=4` (millimetres), and is classified as a cleaned reference underlay
+requiring visual review in DWG TrueView.
+
+The v2 file has a unique filename to avoid a stale TrueView document tab being
+mistaken for the new output. The apartment plan itself should remain visually
+similar; the intended visible change is in Zoom Extents, where repeated
+elevation rows and outside storage objects are no longer present.
+
 ## Review map
 
 `tools/cad/dxf_control_candidate_map.py` renders the candidate JSON into a
