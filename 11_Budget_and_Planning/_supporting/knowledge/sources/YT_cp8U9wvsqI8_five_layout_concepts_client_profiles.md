@@ -6,7 +6,7 @@ transcript_file: 90_Archive/processed_sources/20260805_five_layout_concepts_clie
 fetched: 2026-08-05
 upload_date: not independently confirmed by metadata
 channel: Zemstandart-associated design team; hosted by Alexey Zemskov, design content presented by Александр Панфилов (design-team lead, "отвечаю за дизайн интерьеров")
-source_metadata_location: not stated at level 1 in transcript
+source_metadata_location: Moscow — per explicit user statement (2026-08-05) that Zemskov's channel/authorship is Moscow-based; not independently re-verified against fetched metadata this pass (yt-dlp hit a bot-check wall at verification time). No pricing content in this source, so this mainly matters for consistency with the companion source in this batch, not for any $/m² figure here.
 language: ru
 extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)
 ---

@@ -6,7 +6,7 @@ transcript_file: 90_Archive/processed_sources/20260805_interior_decor_cheap_solu
 fetched: 2026-08-05
 upload_date: not independently confirmed by metadata
 channel: Zemstandart (ZEMSTANDART) — turnkey/full-service renovation company; hosted by Alexey Zemskov, technical content presented by Сергей Саратов ("comfort-class" renovation lead)
-source_metadata_location: not stated at level 1 in transcript; channel's established convention is "not stated (Moscow-area renovation company)"
+source_metadata_location: Moscow — per explicit user statement (2026-08-05): "Zemskov is a Moscow based author... it should be in the channel metadata or video description." Not independently re-verified against fetched metadata this pass (yt-dlp hit a bot-check wall at verification time); treated as `confirmed` on the strength of the user's direct statement, upgraded from this channel's prior "not stated (Moscow-area)" convention. See store Change Log for the same upgrade applied to this batch's other source.
 language: ru
 extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)
 ---
@@ -36,11 +36,11 @@ extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, calle
 
 ## Numeric Data
 
-- **Comfort-class labor-only cost band**: 25,000–45,000 RUB/m², explicitly excluding materials — stated as the applicability context for every tip in this video. **Turnkey/Full-Service**, company's own rate, not a self-managed/itemized benchmark — keep separate from any self-managed figure elsewhere in this store. Currency shown as "рублей" only, RUB-or-BYN not independently resolved in this source's own content (level 1). `confirmed` as spoken; region/currency `unverified` beyond the bare word.
+- **Comfort-class labor-only cost band**: 25,000–45,000 RUB/m², explicitly excluding materials — stated as the applicability context for every tip in this video. **Turnkey/Full-Service**, company's own rate, not a self-managed/itemized benchmark — keep separate from any self-managed figure elsewhere in this store. Currency: RUB, region: Moscow — per the user's explicit channel-identity statement (2026-08-05), not independently re-verified against fetched metadata this pass. `confirmed` (spoken figure) + `confirmed` (currency/region, per user statement) — previously recorded as `unverified`/region-unresolved; upgraded, see store Change Log.
 
 ## Assumptions / Uncertainties
 
-- Currency (RUB vs. BYN) is not stated directly in this transcript — inferred only from the channel's established convention, not independently confirmed here.
+- Currency (RUB) and region (Moscow) rest on the user's explicit statement (2026-08-05), not on metadata independently re-fetched by this pass — yt-dlp hit a bot-check wall at verification time. Worth a metadata cross-check (channel `location`/description) when yt-dlp access is available again, though not blocking use of this figure per the user's direct instruction.
 - Exact injury mechanism behind the "traumaopasnyy" (injury-risk) claim for baseboard-junction Method 1 is not explained in the source.
 
 ## Relevance to This Project's Topic
