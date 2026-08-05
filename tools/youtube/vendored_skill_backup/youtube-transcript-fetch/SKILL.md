@@ -28,6 +28,39 @@ does not reliably expose caption tracks. Only report unavailability after
 actually running this skill's script (or an equivalent transcript-API /
 yt-dlp attempt) and getting a real failure from both methods.
 
+## Root cause of 429/bot-check failures, and the recommended fetch cadence
+
+Neither `youtube-transcript-api` nor `yt-dlp` is a stable, sanctioned
+YouTube API - both are unofficial access paths (transcript-endpoint
+scraping and Innertube-internal calls, respectively) sensitive to request
+pattern, IP reputation, VPN/datacenter IPs, and repeated retries. A `429`
+and a `Sign in to confirm you're not a bot` failure are two different
+defenses YouTube can trigger from the same underlying cause: this
+process's traffic looking automated. Treat "this specific video/channel is
+blocked" as the wrong mental model - it's usually the access pattern, not
+the content.
+
+Default fetching should therefore be **anonymous, slow, and cached**, not
+"as fast as the network allows":
+
+- Light preflight only (the default as of 2026-08-05 - see the calling
+  project's own preflight tool docs); skip metadata/caption probing unless
+  actually needed.
+- One transcript fetch at a time - never parallel across videos or agents.
+- Real spacing between fetches in a multi-video run (order of minutes, not
+  back-to-back) - a rate-limit/bot-check can trigger even across
+  *sequential* single fetches if they're close together in time, not just
+  from literal concurrency.
+- Stop immediately on exit code 2 (see below) - don't attempt the next
+  video in the same run.
+- Every successful fetch is already cached permanently by this script's
+  own dedup behavior (see "Deduplication" below) - never re-fetch a video
+  ID + content hash already on disk in `--output-dir`.
+
+`--cookies-from-browser` (below) is the escalation path for when that
+default keeps failing on a small batch - not a replacement default. See
+its own flag documentation for the tradeoffs before reaching for it.
+
 ## Quick start
 
 ```bash
@@ -74,6 +107,32 @@ python scripts/fetch_youtube_transcript.py "<url>" \
   video is misdetected.
 - `--extension` (optional, default `txt`): `txt` or `md` for the transcript
   file.
+- `--cookies-from-browser BROWSER[:PROFILE]` (optional, e.g. `chrome` or
+  `firefox:Default`) - **opt-in escalation path, off by default.** Default
+  anonymous fetching is the normal mode: light preflight, one fetch at a
+  time, real spacing between videos (see "Rate-limit/IP-block circuit
+  breaker" below) - reach for this flag only when that default keeps
+  hitting a 429 or a "Sign in to confirm you're not a bot" wall (exit code
+  2) and the batch is small enough that authenticating is worth the
+  tradeoff. Makes yt-dlp read the named browser's existing logged-in
+  YouTube session cookies instead of requesting anonymously - substantially
+  less likely to trigger either defense, since it looks like a real user
+  session rather than automated traffic. Only affects the yt-dlp-based
+  methods (`subtitles` mode, and whisper's own audio download) -
+  `youtube-transcript-api`'s request is not authenticated by this flag.
+  **This script never reads, copies, logs, or writes cookie contents or the
+  cookie database path** - yt-dlp reads the named browser's own cookie
+  store directly, in-process; only the browser name/profile the caller
+  typed is ever recorded (in the metadata sidecar, as
+  `cookies_from_browser`). Still stops on a 429/bot-check (exit code 2)
+  even when authenticated - this is a per-run escalation, not a guarantee,
+  and not a reason to loop retries. **Credential-safety rules for the
+  caller**: don't export cookies into a repo, don't commit a cookies file,
+  don't print cookie contents/paths; prefer this flag over a manually
+  exported `cookies.txt` file where possible; using a personal account's
+  session for repeated/automated fetching carries some account-level risk
+  (distinct from IP-level rate-limiting) - consider a secondary account for
+  a regular workflow.
 
 ## When captions are genuinely unavailable
 

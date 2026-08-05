@@ -50,6 +50,48 @@ This repo's own companion fix (versioned normally, in this same commit):
 fresh video by default, and its own optional `--probe` path has a
 matching circuit breaker on a detected rate-limit response.
 
+## Second patch (2026-08-05, same day): `--cookies-from-browser` opt-in escalation
+
+Trigger: after the circuit-breaker fix above, a same-day retry (with a
+VPN) succeeded for 2-3 fetches, then hit a fresh `429`/bot-check again on
+the same playlist, and a later yt-dlp metadata check hit `Sign in to
+confirm you're not a bot` even for a single call - established this isn't
+"one bad IP" but YouTube's automated-traffic defenses reacting to request
+*pattern*, since `youtube-transcript-api`/`yt-dlp` are both unofficial
+access paths, not a stable sanctioned API.
+
+`scripts/fetch_youtube_transcript.py` changes:
+- Added `--cookies-from-browser BROWSER[:PROFILE]` (e.g. `chrome`,
+  `firefox:Default`) - opt-in, off by default. Passed through to yt-dlp's
+  own `--cookies-from-browser` CLI flag (subtitle-fetch path) and to its
+  Python API's `cookiesfrombrowser` ydl_opt (whisper's audio-download
+  path) via a small local spec parser (`_parse_cookies_from_browser_spec`).
+  Does **not** affect `youtube-transcript-api`'s own request - that path
+  is unauthenticated regardless of this flag.
+- Never reads, copies, logs, or writes cookie contents or the cookie
+  database path - yt-dlp reads the named browser's own cookie store
+  directly, in-process. Only the browser/profile name the caller typed is
+  ever recorded, in the metadata sidecar (`authenticated_fetch: true`,
+  `cookies_from_browser: "<spec>"`) on success, or in
+  `<video_id>.FAILED.meta.json` on failure.
+- Still stops with exit code 2 on a detected rate-limit/bot-check even
+  when authenticated - this is a per-run escalation, not a guarantee.
+
+`SKILL.md` changes:
+- New "Root cause of 429/bot-check failures, and the recommended fetch
+  cadence" section: default fetching is anonymous/slow/cached (light
+  preflight, one fetch at a time, real spacing between fetches, stop on
+  exit code 2, rely on the script's own dedup as permanent caching);
+  `--cookies-from-browser` is documented as the escalation path for a
+  small batch when that default keeps failing, not a new default -
+  including the credential-safety rules (no exporting/committing/logging
+  cookies, prefer this flag over a manual `cookies.txt`, consider a
+  secondary account for a regular workflow given some account-level risk).
+
+`tools/youtube/preflight_playlist.py` (this repo, versioned normally, same
+commit) got the matching `--cookies-from-browser` opt-in for its own
+`--probe` path.
+
 ## Companion operating policy
 
 See this project's own memory note

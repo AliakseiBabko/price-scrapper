@@ -64,6 +64,21 @@ def sanitize_slug(slug: str) -> str:
     return slug.strip().replace(" ", "_")[:50]
 
 
+def _parse_cookies_from_browser_spec(spec: str) -> tuple:
+    """Parse a "--cookies-from-browser" value into the (browser, profile,
+    keyring, container) tuple yt-dlp's Python API expects for the
+    `cookiesfrombrowser` ydl_opt. Only supports the common "browser" or
+    "browser:profile" forms (not keyring/container) - sufficient for the
+    escape-hatch use case this flag exists for. Never logs or returns
+    anything beyond what the caller already typed on the command line -
+    this function doesn't touch the actual cookie store, just the spec
+    string naming which browser to read it from."""
+    if ":" in spec:
+        browser, profile = spec.split(":", 1)
+        return (browser, profile or None, None, None)
+    return (spec, None, None, None)
+
+
 def try_transcript_api(video_id: str, languages: list[str]):
     """Attempt method 1. Returns (text, lang_used, is_generated) or raises."""
     from youtube_transcript_api import YouTubeTranscriptApi
@@ -115,8 +130,14 @@ def _parse_vtt_or_srt(path: str) -> str:
     return " ".join(deduped).strip()
 
 
-def try_ytdlp_subtitles(video_id: str, languages: list[str]):
-    """Attempt method 2 via yt-dlp CLI. Returns (text, lang_used, is_generated) or raises."""
+def try_ytdlp_subtitles(video_id: str, languages: list[str], cookies_from_browser: str | None = None):
+    """Attempt method 2 via yt-dlp CLI. Returns (text, lang_used, is_generated) or raises.
+
+    cookies_from_browser, if given, is passed straight through as yt-dlp's own
+    `--cookies-from-browser` CLI value (e.g. "chrome" or "firefox:Default") -
+    this makes yt-dlp read the named browser's existing YouTube session
+    cookies itself; this script never reads, copies, or logs cookie contents
+    or the cookie database path itself."""
     url = f"https://www.youtube.com/watch?v={video_id}"
     lang_arg = ",".join(languages)
 
@@ -147,8 +168,10 @@ def try_ytdlp_subtitles(video_id: str, languages: list[str]):
                 "--sub-langs", lang_arg,
                 "--sub-format", "vtt",
                 "-o", out_template,
-                url,
             ]
+            if cookies_from_browser:
+                cmd += ["--cookies-from-browser", cookies_from_browser]
+            cmd.append(url)
             proc = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
             if proc.returncode != 0:
                 detail = sanitize(proc.stderr.strip()[-800:] or proc.stdout.strip()[-800:])
@@ -184,7 +207,7 @@ def try_ytdlp_subtitles(video_id: str, languages: list[str]):
         )
 
 
-def try_whisper_local(video_id: str, model_size: str, whisper_language: str | None):
+def try_whisper_local(video_id: str, model_size: str, whisper_language: str | None, cookies_from_browser: str | None = None):
     """Attempt local Whisper transcription. Returns (text, lang_used, is_generated) or raises.
 
     Downloads audio via yt-dlp into a temp dir (auto-cleaned), then transcribes
@@ -216,6 +239,8 @@ def try_whisper_local(video_id: str, model_size: str, whisper_language: str | No
             "quiet": True,
             "no_warnings": True,
         }
+        if cookies_from_browser:
+            ydl_opts["cookiesfrombrowser"] = _parse_cookies_from_browser_spec(cookies_from_browser)
         print(f"[whisper] downloading audio (model={model_size}, this can take a while)...", file=sys.stderr)
         with _yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([url])
@@ -326,6 +351,22 @@ def main():
                          help="Force a language code (e.g. 'ru') for Whisper instead of auto-detecting. "
                               "Leave unset unless auto-detection is misfiring on a specific video.")
     parser.add_argument("--extension", choices=["txt", "md"], default="txt", help="Output transcript file extension (default: txt)")
+    parser.add_argument(
+        "--cookies-from-browser", default=None, metavar="BROWSER[:PROFILE]",
+        help="Opt-in escalation path, off by default: authenticate yt-dlp's requests "
+             "using an existing logged-in browser session's cookies (e.g. 'chrome', "
+             "'firefox:Default') instead of anonymous requests. Use this when anonymous/"
+             "VPN fetching keeps hitting a 429 or a 'Sign in to confirm you're not a "
+             "bot' wall (exit code 2) - an authenticated session is far less likely to "
+             "trigger either. Only affects the yt-dlp-based methods (subtitles, "
+             "whisper's audio download) - youtube-transcript-api's own request is not "
+             "authenticated by this flag. This script never reads, copies, logs, or "
+             "writes cookie contents or the cookie database path itself - yt-dlp reads "
+             "the named browser's own cookie store directly and only inside this "
+             "process. Still stops (exit code 2) on a 429/bot-check even when "
+             "authenticated - this is an escalation path for a small batch, not a "
+             "guarantee, and not a reason to loop retries.",
+    )
     args = parser.parse_args()
 
     languages = [lang.strip() for lang in args.languages.split(",") if lang.strip()]
@@ -357,9 +398,9 @@ def main():
             if m == "youtube-transcript-api":
                 text, lang_used, is_generated = try_transcript_api(video_id, languages)
             elif m == "yt-dlp":
-                text, lang_used, is_generated = try_ytdlp_subtitles(video_id, languages)
+                text, lang_used, is_generated = try_ytdlp_subtitles(video_id, languages, args.cookies_from_browser)
             else:
-                text, lang_used, is_generated = try_whisper_local(video_id, args.whisper_model, args.whisper_language)
+                text, lang_used, is_generated = try_whisper_local(video_id, args.whisper_model, args.whisper_language, args.cookies_from_browser)
             method = m
             break
         except Exception as e:
@@ -377,6 +418,8 @@ def main():
             "attempts": attempts,
             "timestamp": datetime.now(timezone.utc).isoformat(),
         }
+        if args.cookies_from_browser:
+            fail_record["cookies_from_browser"] = args.cookies_from_browser
         if reason_class == "rate_limited_or_ip_blocked":
             fail_record["reason_class"] = reason_class
             fail_record["next_retry_guidance"] = (
@@ -452,6 +495,12 @@ def main():
         # pulled from it with more skepticism than a real-captions transcript.
         meta_record["asr_fallback"] = True
         meta_record["whisper_model"] = args.whisper_model
+    if args.cookies_from_browser and method in ("yt-dlp", f"faster-whisper:{args.whisper_model}"):
+        # Record only that authenticated fetching was used, and which browser
+        # name the caller supplied on the command line - never cookie contents
+        # or the cookie database path itself.
+        meta_record["authenticated_fetch"] = True
+        meta_record["cookies_from_browser"] = args.cookies_from_browser
 
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta_record, f, indent=2, ensure_ascii=False)

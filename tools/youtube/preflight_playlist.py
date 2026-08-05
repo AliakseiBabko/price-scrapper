@@ -186,7 +186,7 @@ def _looks_rate_limited(msg: str) -> bool:
     return any(marker in low for marker in _RATE_LIMIT_MARKERS)
 
 
-def probe_video(video_id: str, languages: list[str]) -> dict:
+def probe_video(video_id: str, languages: list[str], cookies_from_browser: str | None = None) -> dict:
     """Fetch just enough per-video metadata to know availability + whether
     a caption track exists in a preferred language, without downloading
     anything. One extract_info call per video - same network cost as the
@@ -211,6 +211,14 @@ def probe_video(video_id: str, languages: list[str]) -> dict:
 
     url = f"https://www.youtube.com/watch?v={video_id}"
     ydl_opts = {"quiet": True, "no_warnings": True, "skip_download": True, "logger": _SilentLogger()}
+    if cookies_from_browser:
+        # Opt-in escalation, off by default - read an existing logged-in browser
+        # session's cookies instead of probing anonymously. Never reads, copies,
+        # logs, or writes cookie contents/the cookie DB path - only parses the
+        # browser[:profile] spec string the caller already typed.
+        spec = cookies_from_browser
+        browser, _, profile = spec.partition(":")
+        ydl_opts["cookiesfrombrowser"] = (browser, profile or None, None, None)
     result = {
         "video_id": video_id,
         "title": None,
@@ -289,6 +297,17 @@ def main() -> int:
         help="Deprecated, now a no-op: light (no-probe) mode is the default as of "
              "2026-08-05. Kept only so old invocations don't error out.",
     )
+    parser.add_argument(
+        "--cookies-from-browser", default=None, metavar="BROWSER[:PROFILE]",
+        help="Opt-in escalation for --probe only, off by default: authenticate the "
+             "probe's yt-dlp requests using an existing logged-in browser session's "
+             "cookies (e.g. 'chrome', 'firefox:Default') instead of anonymous "
+             "requests. Use when anonymous probing keeps hitting a 429 or "
+             "bot-check wall. Never reads/copies/logs cookie contents or the "
+             "cookie database path - yt-dlp reads the named browser's own cookie "
+             "store directly, in-process. Still aborts remaining probes on a "
+             "detected rate-limit/block even when authenticated.",
+    )
     args = parser.parse_args()
     do_probe = args.probe and not args.skip_probe
 
@@ -338,7 +357,7 @@ def main() -> int:
             continue
 
         print(f"  probing {vid}...", file=sys.stderr)
-        probed = probe_video(vid, languages)
+        probed = probe_video(vid, languages, args.cookies_from_browser)
         manifest.append(probed)
         counts[probed["status"]] = counts.get(probed["status"], 0) + 1
 
