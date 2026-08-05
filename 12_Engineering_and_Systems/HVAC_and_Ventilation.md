@@ -79,6 +79,14 @@ The same shared-shaft constraint that governs fresh-air ventilation (§5) applie
 
 See [[03_Kitchen/Appliances/analysis/Hood_Analysis|Kitchen Hood Analysis]] for the full multi-source breakdown, including a direct conflict this raises with the kitchen's already-selected hood model.
 
+## 5.2 Supply Ventilation Design & Ducting (added 2026-08-04)
+
+`single-account`, one practitioner's stated standing rule — same corroboration caveat as elsewhere on this page.
+
+- **Supply-air ("приточка") ventilation must be designed only by a specialized ventilation contractor**, never a general contractor, architect, or interior designer. Stated sequence: the general design project is completed first, marked only "supply," "supply+exhaust," or "ducted system" as a placeholder; the ventilation contractor then visits, measures, and produces the actual duct/routing design; the general project is updated to add the required electrical feed/breakers; boxing/drywall to conceal ducts is finalized last, after the ventilation design is locked. [source: `90_Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt`]
+- **Round-section ducts are preferred over flat/rectangular for lower noise.** Flat ducts are reserved for minimizing ceiling drop specifically; a technique for avoiding a full-room ceiling drop while still using round ducts is to route the supply duct above the kitchen cabinets and box it behind a floor-to-ceiling kitchen facade, rather than dropping the whole room's ceiling to the duct's lowest point — cited as recovering roughly 12–15 cm of ceiling height. [source: `90_Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt`]
+- **A breather can be vented through a window reveal/embrasure instead of an exterior wall**, as a workaround where facade penetrations are banned by the building — the intake/exhaust opening is cut into the window's reveal rather than the wall itself. [source: `90_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
+
 ## 6. Common Mistakes
 
 Three recurring buyer/installer mistakes, from an AC retailer's own stated experience:
@@ -88,6 +96,8 @@ Three recurring buyer/installer mistakes, from an AC retailer's own stated exper
 3. **Buying equipment from one vendor and hiring an unrelated installer elsewhere** — when something goes wrong, it becomes difficult to establish whether the equipment or the installation is at fault, and warranty coverage gets murky. Buying and installing through the same company avoids this and typically comes with one bundled warranty.
 
 A fourth, broader caution from the same source: **AC reliability and lifespan are reported to be roughly 80% dependent on installation quality**, not equipment quality — proper installation needs specialized tools (vacuum pumps, flaring tools, manometers/gauges) and training, which is the stated reason DIY installation based on online tutorials alone is discouraged.
+
+**Interfloor exhaust duct/riser inspection (added 2026-08-04, `single-account`)**: before cosmetic work starts, verify the condition of interfloor ventilation ducts/risers and clamp security — if only the surrounding soundproofing (not the duct itself) is damaged, restore it properly rather than leaving it as found. **Replace developer-installed square sheet-metal exhaust ducts with round plastic ducting** to reclaim the cross-section/airflow the square ducts otherwise waste. [source: `90_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt`]
 
 ## 7. Buying Guidance
 
