@@ -83,6 +83,12 @@ It writes a UTF-8 JSON manifest (never round-trips metadata through the console,
 
 It matches each transcript to its source note by the `.meta.json` sidecar's own `video_id` field against each note's frontmatter `video_id:` field - never by filename globbing (a prior glob-based approach broke on a video ID with a leading underscore) - and rewrites the note's `transcript_file:` line by regex on the frontmatter key, not by guessing at the old path string. Run with `--dry-run` first on an unfamiliar batch.
 
+### Process note for a broad (non-topic-scoped) playlist (added 2026-08-05)
+
+For a playlist that isn't scoped to one topic (i.e. its videos will end up routed across several different wiki pages, not one), run `preflight_playlist.py` **and** a lightweight topic-clustering pass **before** splitting into parallel extraction batches - classify each fresh video's likely destination page(s) first (a quick title/first-line skim is enough, doesn't need to be exact), then batch by destination cluster rather than arbitrary chunks of N videos. The bottleneck on a broad playlist is synthesis (deciding per-fact page routing and reconciling it across sources afterward), not extraction - grouping related content into the same batch up front means each batch's own report comes back pre-organized by page, cutting down the reconciliation work substantially versus discovering the routing spread only after all batches finish.
+
+Section-reference validation (checking that a prose `§N.M` cross-reference actually matches an existing heading) was considered as a companion tool during the 2026-08-04 hardening pass but deliberately deferred - not worth building preemptively. Revisit if a heading/anchor mismatch actually surfaces again, or when the next larger wiki reorg happens (a natural time to add a repo-wide reference check, since headings are being renumbered anyway).
+
 ## This project's taxonomy
 
 Pass this exact bucket list to `meeting-transcript-extract` as the
