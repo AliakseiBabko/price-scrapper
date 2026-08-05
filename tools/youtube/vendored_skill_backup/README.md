@@ -92,6 +92,46 @@ access paths, not a stable sanctioned API.
 commit) got the matching `--cookies-from-browser` opt-in for its own
 `--probe` path.
 
+## Third patch (2026-08-05, same day): local vs. YouTube-side failure classification
+
+Trigger: the first `--cookies-from-browser "chrome:Profile 3"` test run
+failed with yt-dlp reporting `Could not copy Chrome cookie database`
+(most likely Chrome still running and holding a lock on it) - but the
+script's existing single-verdict classifier folded this into
+`reason_class: "rate_limited_or_ip_blocked"` / exit code 2, because the
+*other* attempt (`youtube-transcript-api`) independently hit a real
+IP-block message. That misreported a purely local setup failure as a
+YouTube-side signal, which would have wrongly triggered the
+stop-and-cooldown circuit breaker even though authenticated fetch was
+never actually tested.
+
+`scripts/fetch_youtube_transcript.py` changes:
+- Added `_LOCAL_COOKIE_ACCESS_MARKERS` and `_classify_attempt()` - per-
+  attempt classification, not just an overall verdict. Detects local
+  cookie/credential-access failures (`could not copy`, `could not find`,
+  `cookie database`, `cookies database`, `failed to decrypt`, `permission
+  denied`) separately from YouTube-side rate-limit/block markers.
+- `_classify_failure()` now tags every attempt dict in place with its own
+  `"reason_class"`, then derives an overall verdict where a
+  `local_setup_failure` on *any* attempt takes priority over a
+  `rate_limited_or_ip_blocked` on another - a caller needs to know the
+  escalation path wasn't actually exercised, not just that "something
+  rate-limit-shaped happened."
+- New **exit code 3** for `reason_class: "local_setup_failure"` - distinct
+  from exit code 2 (confirmed YouTube-side block) and exit code 1
+  (per-video failure). Explicitly NOT a cooldown/circuit-breaker signal -
+  guidance is "fix the local problem and retry immediately," including a
+  reminder to check for a lingering background browser process (e.g.
+  Chrome's "continue running in background" setting) beyond just closed
+  windows.
+- `.FAILED.meta.json` now has both a per-attempt `"reason_class"` on each
+  entry in `"attempts"` and the overall top-level `"reason_class"` - so a
+  genuine rate-limit signal from one method isn't lost even when a
+  different method's local failure decides the overall exit code.
+
+`SKILL.md` changes: documents all three exit codes and the local-vs-
+YouTube-side distinction explicitly.
+
 ## Companion operating policy
 
 See this project's own memory note

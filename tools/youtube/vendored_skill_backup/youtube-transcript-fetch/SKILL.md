@@ -185,19 +185,41 @@ If both `youtube-transcript-api` and `yt-dlp` fail (`auto` mode exhausted,
    `<video_id>.FAILED.meta.json` record of the attempts to `--output-dir` so
    the failure is evidenced, not just asserted. Report these exact messages
    back to the user - do not paraphrase them into a generic "unavailable".
-   Two distinct non-zero exit codes:
+   Three distinct non-zero exit codes:
    - **1 - per-video failure**: private, unavailable, or genuinely no
      captions for this specific video. Safe to move on to the next video in
      a batch.
-   - **2 - environment-level rate-limit/IP-block circuit breaker**: at least
-     one attempt's error text matched a known throttling/block signature
-     (HTTP 429, "Too Many Requests", or a youtube-transcript-api IP-block
-     message). The `.FAILED.meta.json` gets `"reason_class":
-     "rate_limited_or_ip_blocked"` and a `next_retry_guidance` field. **Treat
-     exit code 2 as a stop signal for the whole fetch phase** - do not
-     attempt the next video in the same run, and do not immediately retry;
-     wait for a real cooldown (tens of minutes to hours) and use at most one
-     bounded retry, not a retry loop.
+   - **2 - environment-level rate-limit/IP-block circuit breaker, confirmed
+     reached YouTube**: at least one attempt's error text matched a known
+     throttling/block signature (HTTP 429, "Too Many Requests", or a
+     youtube-transcript-api IP-block message), **and no attempt was a local
+     setup failure** (see exit code 3 - a local failure always takes
+     priority in the overall classification, since it means an escalation
+     path was never actually tested). The `.FAILED.meta.json` gets
+     `"reason_class": "rate_limited_or_ip_blocked"`, a `next_retry_guidance`
+     field, and each individual attempt is tagged with its own
+     `"reason_class"` too. **Treat exit code 2 as a stop signal for the
+     whole fetch phase** - do not attempt the next video in the same run,
+     and do not immediately retry; wait for a real cooldown (tens of minutes
+     to hours) and use at most one bounded retry, not a retry loop.
+   - **3 - local setup failure, never reached YouTube**: at least one
+     attempt failed before the request left this machine - most commonly
+     `--cookies-from-browser` couldn't read the named browser's cookie
+     database (the browser, including a background/tray instance, was still
+     running and holding it locked). **This is not a YouTube-side signal and
+     must not be treated as a rate-limit/IP-block cooldown trigger** - it
+     means the escalation path (e.g. authenticated fetch) was never actually
+     exercised. Even if a *different* attempt in the same run independently
+     hit a real rate-limit/block, the overall exit code is still 3 (local
+     setup dominates the overall classification) - but that other attempt's
+     own `"reason_class": "rate_limited_or_ip_blocked"` is still present
+     per-attempt in `.FAILED.meta.json`, so that signal isn't lost, just not
+     what decides the overall result. Fix the local problem (fully close the
+     named browser - check Task Manager/Activity Monitor for a lingering
+     background process, not just closed windows; on Chrome specifically,
+     "Continue running background apps when Google Chrome is closed" under
+     Settings → System can keep it alive after every window is closed) and
+     retry immediately - no cooldown needed.
 5. **Filesystem scope**: `--output-dir` is created if it doesn't exist. The
    script never writes a persistent file outside that directory. `yt-dlp`
    subtitle downloads land in an OS temp directory that's deleted

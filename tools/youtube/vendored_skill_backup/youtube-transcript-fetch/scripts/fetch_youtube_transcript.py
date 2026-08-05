@@ -291,15 +291,30 @@ Exit codes:
      video (private, unavailable, no captions). The exact error from each
      attempted method is printed to stderr and also written to
      <output-dir>/<video_id>.FAILED.meta.json.
-  2  Failure, environment-level rate-limit/IP-block - every attempted method
-     failed and at least one failure looks like YouTube throttling/blocking
-     this machine (HTTP 429, "Too Many Requests", or an IP-block message from
-     youtube-transcript-api), not a per-video captions problem. Same
-     FAILED.meta.json is written, with "reason_class": "rate_limited_or_ip_blocked"
-     and a "next_retry_guidance" note. A caller processing multiple videos in
-     one run should treat exit code 2 as a circuit breaker: stop attempting
-     further videos in this run rather than moving on to the next one, since
-     the block is almost certainly environment-wide, not video-specific.
+  2  Failure, environment-level rate-limit/IP-block, confirmed reached YouTube -
+     every attempted method failed and at least one failure looks like YouTube
+     itself throttling/blocking this machine (HTTP 429, "Too Many Requests",
+     or an IP-block message from youtube-transcript-api), AND no attempt was
+     merely a local setup failure that prevented the request from reaching
+     YouTube at all (see exit code 3). Same FAILED.meta.json is written, with
+     "reason_class": "rate_limited_or_ip_blocked" and a "next_retry_guidance"
+     note. A caller processing multiple videos in one run should treat exit
+     code 2 as a circuit breaker: stop attempting further videos in this run
+     rather than moving on to the next one, since the block is almost
+     certainly environment-wide, not video-specific.
+  3  Failure, local setup problem - at least one attempt never reached YouTube
+     at all (e.g. --cookies-from-browser couldn't read the browser's cookie
+     database, commonly because that browser was still running and had it
+     locked). This is NOT a YouTube-side signal and must not be treated as a
+     rate-limit/IP-block circuit breaker - it means the escalation path
+     itself wasn't actually exercised. FAILED.meta.json gets
+     "reason_class": "local_setup_failure" plus a per-attempt breakdown (see
+     "attempts", each tagged with its own "reason_class" - "rate_limited_or_
+     ip_blocked", "local_setup_failure", or None). Fix the local problem
+     (e.g. fully close the browser named in --cookies-from-browser, checking
+     Task Manager/Activity Monitor for lingering background processes, not
+     just closed windows) and retry immediately - no cooldown needed, since
+     nothing here indicates YouTube itself did anything.
 """
 
 _RATE_LIMIT_MARKERS = (
@@ -311,17 +326,54 @@ _RATE_LIMIT_MARKERS = (
     "ipblocked",
 )
 
+_LOCAL_COOKIE_ACCESS_MARKERS = (
+    "could not copy",
+    "could not find",
+    "cookie database",
+    "cookies database",
+    "failed to decrypt",
+    "permission denied",
+)
+
+
+def _classify_attempt(error_text: str) -> str | None:
+    """Classify a single attempt's error text. Checked in this order because
+    a local cookie-access failure (the request never left this machine) is a
+    fundamentally different kind of failure from YouTube itself blocking the
+    request, even though both can appear in the same error message context -
+    e.g. yt-dlp's "Could not copy Chrome cookie database" contains no
+    rate-limit language, so order doesn't actually cause misclassification
+    here, but the explicit order keeps the local-setup check the deliberate
+    first read of a caller's failure record."""
+    err = (error_text or "").lower()
+    if any(marker in err for marker in _LOCAL_COOKIE_ACCESS_MARKERS):
+        return "local_setup_failure"
+    if any(marker in err for marker in _RATE_LIMIT_MARKERS):
+        return "rate_limited_or_ip_blocked"
+    return None
+
 
 def _classify_failure(attempts: list[dict]) -> str | None:
-    """Return "rate_limited_or_ip_blocked" if any attempt's error text looks
-    like YouTube throttling/blocking this machine, else None. Deliberately
-    string-matches on known error phrasing from both youtube-transcript-api
-    and yt-dlp rather than parsing HTTP status objects - both libraries only
-    surface these as embedded text in the exception message."""
+    """Return this run's overall reason_class from its per-attempt
+    classifications, tagging each attempt dict with its own "reason_class"
+    in place (mutates attempts). Overall priority: if ANY attempt never
+    actually reached YouTube (local_setup_failure - e.g. a locked cookie
+    database), that dominates the overall classification even if another
+    attempt independently hit a real YouTube-side block, because a caller
+    needs to know the escalation path (e.g. authenticated fetch) was never
+    truly exercised, not just that "something rate-limit-shaped happened."
+    Only when no attempt is a local-setup failure does a genuine
+    rate-limited_or_ip_blocked signal from any attempt decide the overall
+    result."""
+    per_attempt = []
     for a in attempts:
-        err = (a.get("error") or "").lower()
-        if any(marker in err for marker in _RATE_LIMIT_MARKERS):
-            return "rate_limited_or_ip_blocked"
+        cls = _classify_attempt(a.get("error") or "")
+        a["reason_class"] = cls
+        per_attempt.append(cls)
+    if "local_setup_failure" in per_attempt:
+        return "local_setup_failure"
+    if "rate_limited_or_ip_blocked" in per_attempt:
+        return "rate_limited_or_ip_blocked"
     return None
 
 
@@ -420,7 +472,39 @@ def main():
         }
         if args.cookies_from_browser:
             fail_record["cookies_from_browser"] = args.cookies_from_browser
-        if reason_class == "rate_limited_or_ip_blocked":
+        if reason_class == "local_setup_failure":
+            # At least one attempt never reached YouTube at all - most commonly
+            # --cookies-from-browser couldn't read the browser's cookie database
+            # (browser still running and holding a lock on it). This must not be
+            # reported or treated as a YouTube-side rate-limit/IP-block: the
+            # escalation path (e.g. authenticated fetch) was never truly
+            # exercised, so nothing here says anything about YouTube's own
+            # state. A caller must not fold this into a "stop the whole fetch
+            # phase, wait for a cooldown" response - fix the local problem and
+            # retry immediately.
+            fail_record["reason_class"] = reason_class
+            fail_record["next_retry_guidance"] = (
+                "At least one attempt never reached YouTube - a local setup problem "
+                "(commonly --cookies-from-browser unable to read the browser's cookie "
+                "database because that browser process, including background/tray "
+                "instances, was still running) prevented the request. This is NOT a "
+                "YouTube-side rate-limit/IP-block signal - do not treat it as one, do "
+                "not apply a cooldown, and do not stop the whole fetch phase because of "
+                "it. Fix the local problem (fully close the named browser, checking for "
+                "lingering background processes, not just closed windows) and retry "
+                "immediately. Check each attempt's own \"reason_class\" in this record: "
+                "a rate_limited_or_ip_blocked entry alongside this one means that "
+                "*other* method did hit a real YouTube-side block independently, and "
+                "that specific signal should still be respected on its own terms."
+            )
+            print(
+                "At least one attempt was a local setup failure (exit code 3), not a "
+                "YouTube-side block - authenticated fetch was not actually tested. "
+                "Fix the local problem (e.g. fully close the browser) and retry "
+                "immediately; do not treat this as a rate-limit cooldown signal.",
+                file=sys.stderr,
+            )
+        elif reason_class == "rate_limited_or_ip_blocked":
             fail_record["reason_class"] = reason_class
             fail_record["next_retry_guidance"] = (
                 "This looks like an environment-level YouTube rate-limit/IP-block, "
@@ -444,6 +528,8 @@ def main():
         with open(fail_meta_path, "w", encoding="utf-8") as f:
             json.dump(fail_record, f, indent=2, ensure_ascii=False)
         print(f"Failure details written to: {fail_meta_path}", file=sys.stderr)
+        if reason_class == "local_setup_failure":
+            sys.exit(3)
         sys.exit(2 if reason_class == "rate_limited_or_ip_blocked" else 1)
 
     sha256_hash = hashlib.sha256(text.encode("utf-8")).hexdigest()
