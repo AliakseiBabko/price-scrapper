@@ -6,8 +6,23 @@ Cross-checks every video ID in a playlist against this repo's own
 processed-source records (00_Master/processed_sources.csv and the
 YT_<video_id>_*.md source notes under
 11_Budget_and_Planning/_supporting/knowledge/sources/) *before* any
-transcript is fetched, and probes availability/caption presence for the
-IDs that aren't already known.
+transcript is fetched.
+
+Two modes:
+  - Light (default as of 2026-08-05): the duplicate check above only - no
+    network calls for IDs that aren't already known. This is the normal
+    path for day-to-day playlist processing: run this, then fetch each
+    fresh video one at a time via youtube-transcript-fetch and let *that*
+    script report per-video availability/caption failures as they happen.
+  - `--probe`: additionally makes one yt-dlp extract_info call per fresh
+    video to check availability/caption-track presence up front. Opt-in
+    only - real network probing was observed contributing to YouTube
+    429/IP-block responses on the same run that then also blocked the
+    actual transcript fetch immediately after (2026-08-05 incident). If a
+    probe hits a rate-limit/IP-block response, the remaining videos in the
+    run are *not* probed further (reported as unprobed "fresh" instead) -
+    continuing to probe into an active block just produces more identical
+    429s.
 
 Why this exists (see conversation history 2026-08-04): duplicate/
 availability/caption discovery was previously done with ad hoc one-off
@@ -156,6 +171,21 @@ def list_playlist_video_ids(playlist_url: str) -> list[dict]:
     return out
 
 
+_RATE_LIMIT_MARKERS = (
+    "429",
+    "too many requests",
+    "blocking requests from your ip",
+    "ip has been blocked",
+    "requestblocked",
+    "ipblocked",
+)
+
+
+def _looks_rate_limited(msg: str) -> bool:
+    low = msg.lower()
+    return any(marker in low for marker in _RATE_LIMIT_MARKERS)
+
+
 def probe_video(video_id: str, languages: list[str]) -> dict:
     """Fetch just enough per-video metadata to know availability + whether
     a caption track exists in a preferred language, without downloading
@@ -194,7 +224,9 @@ def probe_video(video_id: str, languages: list[str]) -> dict:
             info = ydl.extract_info(url, download=False)
     except yt_dlp.utils.DownloadError as e:
         msg = str(e)
-        if "Private video" in msg:
+        if _looks_rate_limited(msg):
+            result["status"] = "rate_limited"
+        elif "Private video" in msg:
             result["status"] = "private"
         elif "unavailable" in msg.lower():
             result["status"] = "unavailable"
@@ -239,12 +271,26 @@ def main() -> int:
              "presence probe (default: ru,en). Does not affect duplicate detection.",
     )
     parser.add_argument(
+        "--probe",
+        action="store_true",
+        help="Also run the per-video availability/caption probe (one extra yt-dlp "
+             "extract_info call per fresh video) for IDs not already known as "
+             "duplicates. Opt-in and off by default (changed 2026-08-05): the probe "
+             "makes real network requests per video and was observed contributing "
+             "to YouTube 429/IP-block responses on the same run that then also "
+             "blocked the actual transcript fetch. Default (light) mode only does "
+             "the no-network duplicate check against the CSV/source notes - use "
+             "this flag only when you specifically need availability/caption-"
+             "presence info before fetching, and expect it to be rate-limited too.",
+    )
+    parser.add_argument(
         "--skip-probe",
         action="store_true",
-        help="Only do the (fast, no-network) duplicate check; skip the per-video "
-             "availability/caption probe for fresh IDs.",
+        help="Deprecated, now a no-op: light (no-probe) mode is the default as of "
+             "2026-08-05. Kept only so old invocations don't error out.",
     )
     args = parser.parse_args()
+    do_probe = args.probe and not args.skip_probe
 
     languages = [l.strip() for l in args.languages.split(",") if l.strip()]
     out_dir = Path(args.output_dir)
@@ -263,7 +309,8 @@ def main() -> int:
     print(f"Playlist lists {len(entries)} video(s).", file=sys.stderr)
 
     manifest = []
-    counts = {"duplicate": 0, "private": 0, "unavailable": 0, "no_captions": 0, "fresh": 0}
+    counts = {"duplicate": 0, "private": 0, "unavailable": 0, "no_captions": 0, "fresh": 0, "rate_limited": 0}
+    probing_aborted = False
 
     for entry in entries:
         vid = entry["video_id"]
@@ -279,8 +326,14 @@ def main() -> int:
             counts["duplicate"] += 1
             continue
 
-        if args.skip_probe:
-            manifest.append({"video_id": vid, "title": entry.get("title"), "status": "fresh", "reason": None})
+        if not do_probe or probing_aborted:
+            manifest.append({
+                "video_id": vid,
+                "title": entry.get("title"),
+                "status": "fresh",
+                "reason": None if not probing_aborted else
+                          "probe skipped: aborted after a rate-limit/IP-block hit earlier in this run",
+            })
             counts["fresh"] += 1
             continue
 
@@ -288,6 +341,19 @@ def main() -> int:
         probed = probe_video(vid, languages)
         manifest.append(probed)
         counts[probed["status"]] = counts.get(probed["status"], 0) + 1
+
+        if probed["status"] == "rate_limited":
+            # Circuit breaker: a rate-limit/IP-block hit is environment-wide, not
+            # specific to this video - continuing to probe the rest of the
+            # playlist would just generate more identical failures. Stop probing
+            # and fall the remaining entries through as unprobed "fresh" (with a
+            # note), same as light mode, rather than looping into more 429s.
+            print(
+                f"  RATE-LIMITED probing {vid} - aborting further probes this run "
+                f"(remaining videos reported as fresh/unprobed).",
+                file=sys.stderr,
+            )
+            probing_aborted = True
 
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     manifest_path = out_dir / f"preflight_{timestamp}.json"
@@ -321,6 +387,21 @@ def main() -> int:
     if notes_only:
         print(f"\n  WARNING: {len(notes_only)} source note(s) have no matching CSV row - "
               f"these look unlogged, not just unfetched: {notes_only[:10]}")
+
+    if probing_aborted:
+        print(
+            "\n  NOTE: probing was aborted after a rate-limit/IP-block hit - remaining "
+            "fresh video(s) were not probed for availability/captions. Fetch one at a "
+            "time with youtube-transcript-fetch and expect the same block until a real "
+            "cooldown has passed."
+        )
+    elif not do_probe:
+        print(
+            "\n  Light mode (default): fresh video(s) below were not probed for "
+            "availability/captions - pass --probe to check before fetching, or just "
+            "fetch one at a time and let youtube-transcript-fetch report per-video "
+            "failures."
+        )
 
     fresh_ids = [e["video_id"] for e in manifest if e["status"] == "fresh"]
     print(f"\n{len(fresh_ids)} video(s) ready to fetch: {', '.join(fresh_ids) if fresh_ids else '(none)'}")

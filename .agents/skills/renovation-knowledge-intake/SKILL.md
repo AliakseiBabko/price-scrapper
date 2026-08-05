@@ -67,13 +67,17 @@ beyond what the shared skills already do:
 
 **Before fetching anything from a playlist or channel already represented in this CSV**, canonicalize each candidate video ID (from any URL form - `watch?v=`, `youtu.be/`, `shorts/`, `embed/`, a playlist entry) and check it against every `source_url` in this CSV *and* every `YT_<video_id>_*.md` source-note filename under `11_Budget_and_Planning/_supporting/knowledge/sources/` - a row can exist without a note (e.g. `duplicate_skipped`) and in principle a note could exist without a row, so check both. Do not rely on transcript-hash-based dedup alone (it only catches a duplicate *after* re-fetching, and does nothing for a video whose prior row has `source_hash: n/a`).
 
-**`tools/youtube/preflight_playlist.py`** (added 2026-08-04) automates exactly this check, plus an availability/caption probe for the videos that turn out to be genuinely new - run it against a playlist/channel URL before invoking `youtube-transcript-fetch` on anything from it:
+**`tools/youtube/preflight_playlist.py`** (added 2026-08-04) automates exactly this check - run it against a playlist/channel URL before invoking `youtube-transcript-fetch` on anything from it:
 
 ```
 .venv\Scripts\python.exe tools\youtube\preflight_playlist.py "<playlist_or_channel_url>" --output-dir <dir>
 ```
 
-It writes a UTF-8 JSON manifest (never round-trips metadata through the console, which has previously mangled Cyrillic titles) classifying every video as `duplicate` / `private` / `unavailable` / `no_captions` / `fresh`, and warns if a CSV row and a source note disagree about what's been processed. Read-only - it never touches the CSV, moves a file, or fetches a transcript itself.
+**Default is light mode (changed 2026-08-05): duplicate check only, no network probing.** Pass `--probe` to additionally check per-video availability/caption-track presence up front (one extra yt-dlp call per fresh video) - opt-in only, because that probing was observed contributing to a YouTube 429/IP-block on the same run that then also blocked the real transcript fetch immediately after. For normal processing, prefer light mode and let `youtube-transcript-fetch` report per-video availability/caption failures itself when it fetches each video. If `--probe` is used and hits a rate-limit/IP-block response, the script stops probing further videos in that run (circuit breaker) rather than generating more 429s.
+
+It writes a UTF-8 JSON manifest (never round-trips metadata through the console, which has previously mangled Cyrillic titles) classifying every video as `duplicate` / `private` / `unavailable` / `no_captions` / `rate_limited` / `fresh`, and warns if a CSV row and a source note disagree about what's been processed. Read-only - it never touches the CSV, moves a file, or fetches a transcript itself.
+
+**Fetching must be serialized, not parallel** - one video at a time via `youtube-transcript-fetch`, never multiple videos/agents fetching concurrently. If a fetch exits with code 2 (rate_limited_or_ip_blocked - see that skill's own docs), treat it as a circuit breaker for the whole fetch phase: stop fetching further videos in this run, don't mark them `skipped` in the CSV, and don't retry immediately - wait for a real cooldown and use at most one bounded retry.
 
 **`tools/youtube/archive_transcripts.py`** (added 2026-08-04) does the move-to-archive-and-repoint-the-note step once extraction notes exist for a batch of fetched transcripts:
 
