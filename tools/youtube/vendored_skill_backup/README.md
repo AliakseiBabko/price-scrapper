@@ -132,6 +132,45 @@ never actually tested.
 `SKILL.md` changes: documents all three exit codes and the local-vs-
 YouTube-side distinction explicitly.
 
+## Fourth patch (2026-08-05, same day): `--cookies PATH` fallback for a manually-exported cookies file
+
+Trigger: `--cookies-from-browser "chrome:Profile 3"` failed twice for two
+different local reasons on the same machine - first a locked cookie
+database (`Could not copy Chrome cookie database`), then, after fully
+closing Chrome, a Windows DPAPI decryption failure
+(`Failed to decrypt with DPAPI`, see yt-dlp#10927) - neither ever reached
+YouTube. Rather than keep debugging the live-browser-cookie-store path,
+added a fallback that reads a pre-exported cookies file instead.
+
+`scripts/fetch_youtube_transcript.py` changes:
+- Added `_check_cookie_file_accessible(path)` - validates the file exists
+  and is readable using only filesystem metadata (`os.path.isfile`,
+  `os.access`) before any yt-dlp invocation; **never opens, reads, or
+  copies the file's contents**. Raises a `RuntimeError` with a message
+  that never echoes the path itself.
+- New `--cookies PATH` CLI flag, passed straight through to yt-dlp's own
+  `--cookies` (subtitle-fetch path) and the Python API's `cookiefile`
+  ydl_opt (whisper's audio-download path) - both call
+  `_check_cookie_file_accessible` first, so a missing/unreadable file is
+  caught immediately, offline, and classified as `local_setup_failure`
+  (exit code 3) rather than yt-dlp silently proceeding without cookies or
+  producing a confusing downstream error.
+- Success and failure metadata sidecars now record `"cookie_source":
+  "cookies_file"` when `--cookies` was used - **never the file's own
+  path**, distinct from the `--cookies-from-browser` case (which does
+  record the browser/profile name, since that isn't sensitive the way a
+  local file path can be).
+- `SKILL.md` documents `--cookies` as the fallback specifically for when
+  `--cookies-from-browser` fails locally, with the same credential-safety
+  rules plus: store the exported file outside any repo, never commit it,
+  delete it once no longer needed.
+
+Verified entirely offline before any real test: constructing a call with
+a nonexistent `--cookies` path raised the expected `RuntimeError`
+immediately (no network attempted), and feeding that error text through
+`_classify_failure` correctly produced `local_setup_failure` / exit code
+3.
+
 ## Companion operating policy
 
 See this project's own memory note

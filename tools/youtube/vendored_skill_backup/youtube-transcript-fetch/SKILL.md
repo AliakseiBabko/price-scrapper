@@ -126,13 +126,34 @@ python scripts/fetch_youtube_transcript.py "<url>" \
   typed is ever recorded (in the metadata sidecar, as
   `cookies_from_browser`). Still stops on a 429/bot-check (exit code 2)
   even when authenticated - this is a per-run escalation, not a guarantee,
-  and not a reason to loop retries. **Credential-safety rules for the
-  caller**: don't export cookies into a repo, don't commit a cookies file,
-  don't print cookie contents/paths; prefer this flag over a manually
-  exported `cookies.txt` file where possible; using a personal account's
-  session for repeated/automated fetching carries some account-level risk
-  (distinct from IP-level rate-limiting) - consider a secondary account for
-  a regular workflow.
+  and not a reason to loop retries. In practice this flag can itself fail
+  locally before ever reaching YouTube (a locked cookie database, or on
+  Windows a DPAPI decryption failure) - see `--cookies` below as the
+  fallback for exactly that case, and exit code 3 in "Behavior and
+  guarantees" for how such a failure is classified. **Credential-safety
+  rules for the caller**: don't export cookies into a repo, don't commit a
+  cookies file, don't print cookie contents/paths; using a personal
+  account's session for repeated/automated fetching carries some
+  account-level risk (distinct from IP-level rate-limiting) - consider a
+  secondary account for a regular workflow.
+- `--cookies PATH` (optional) - **opt-in escalation path, off by default,
+  and a fallback for `--cookies-from-browser` specifically.** Points to a
+  manually-exported Netscape-format cookies file instead of having yt-dlp
+  read a live browser's cookie store directly - use this when
+  `--cookies-from-browser` fails locally (locked database, DPAPI
+  decryption failure) rather than genuinely reaching YouTube. Same
+  tradeoffs and credential-safety rules as `--cookies-from-browser` apply,
+  plus: **store the exported file outside any repo, never commit it, and
+  delete it once you're done testing if it's not needed long-term.** This
+  script never reads, opens, prints, or copies the file's contents, and
+  never records its path in any metadata sidecar - only that authenticated
+  fetching was attempted (`"cookie_source": "cookies_file"`). Checked for
+  existence/readability before use (filesystem metadata only, never
+  content) - a missing or unreadable file is reported as exit code 3
+  (local setup failure), not a YouTube-side signal, so it's never
+  mistaken for a rate-limit/IP-block that needs a cooldown. Can be
+  combined with `--cookies-from-browser`, though typically only one is
+  needed.
 
 ## When captions are genuinely unavailable
 

@@ -79,6 +79,24 @@ def _parse_cookies_from_browser_spec(spec: str) -> tuple:
     return (spec, None, None, None)
 
 
+def _check_cookie_file_accessible(path: str) -> None:
+    """Raise a RuntimeError (classified as local_setup_failure downstream) if
+    `path` doesn't exist or isn't readable. Only checks filesystem metadata
+    (os.path.isfile / os.access) - never opens, reads, or copies the file's
+    contents, and the raised message never echoes the path itself (the path
+    isn't secret, but keeping it out of error text/metadata sidecars matches
+    the "don't record the path" requirement for this flag)."""
+    if not os.path.isfile(path):
+        raise RuntimeError(
+            "could not find the cookies file for --cookies (path does not exist "
+            "or is not a regular file)"
+        )
+    if not os.access(path, os.R_OK):
+        raise RuntimeError(
+            "could not find or read the cookies file for --cookies (permission denied)"
+        )
+
+
 def try_transcript_api(video_id: str, languages: list[str]):
     """Attempt method 1. Returns (text, lang_used, is_generated) or raises."""
     from youtube_transcript_api import YouTubeTranscriptApi
@@ -130,14 +148,29 @@ def _parse_vtt_or_srt(path: str) -> str:
     return " ".join(deduped).strip()
 
 
-def try_ytdlp_subtitles(video_id: str, languages: list[str], cookies_from_browser: str | None = None):
+def try_ytdlp_subtitles(video_id: str, languages: list[str], cookies_from_browser: str | None = None, cookies_file: str | None = None):
     """Attempt method 2 via yt-dlp CLI. Returns (text, lang_used, is_generated) or raises.
 
     cookies_from_browser, if given, is passed straight through as yt-dlp's own
     `--cookies-from-browser` CLI value (e.g. "chrome" or "firefox:Default") -
     this makes yt-dlp read the named browser's existing YouTube session
-    cookies itself; this script never reads, copies, or logs cookie contents
-    or the cookie database path itself."""
+    cookies itself.
+
+    cookies_file, if given, is a path to a manually-exported Netscape-format
+    cookies file, passed straight through as yt-dlp's own `--cookies` CLI
+    value - an alternative to cookies_from_browser for when reading the
+    browser's own cookie store directly fails (e.g. a locked database or a
+    DPAPI decryption failure). Checked for existence/readability first (see
+    _check_cookie_file_accessible) so a missing/unreadable file surfaces as a
+    clear local_setup_failure rather than yt-dlp silently proceeding without
+    it or a confusing downstream error.
+
+    This script never reads, copies, or logs cookie contents, the cookie
+    database path, or the cookies_file path itself in any metadata sidecar -
+    only that authenticated fetching was attempted and via which mechanism."""
+    if cookies_file:
+        _check_cookie_file_accessible(cookies_file)
+
     url = f"https://www.youtube.com/watch?v={video_id}"
     lang_arg = ",".join(languages)
 
@@ -171,6 +204,8 @@ def try_ytdlp_subtitles(video_id: str, languages: list[str], cookies_from_browse
             ]
             if cookies_from_browser:
                 cmd += ["--cookies-from-browser", cookies_from_browser]
+            if cookies_file:
+                cmd += ["--cookies", cookies_file]
             cmd.append(url)
             proc = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
             if proc.returncode != 0:
@@ -207,7 +242,7 @@ def try_ytdlp_subtitles(video_id: str, languages: list[str], cookies_from_browse
         )
 
 
-def try_whisper_local(video_id: str, model_size: str, whisper_language: str | None, cookies_from_browser: str | None = None):
+def try_whisper_local(video_id: str, model_size: str, whisper_language: str | None, cookies_from_browser: str | None = None, cookies_file: str | None = None):
     """Attempt local Whisper transcription. Returns (text, lang_used, is_generated) or raises.
 
     Downloads audio via yt-dlp into a temp dir (auto-cleaned), then transcribes
@@ -241,6 +276,9 @@ def try_whisper_local(video_id: str, model_size: str, whisper_language: str | No
         }
         if cookies_from_browser:
             ydl_opts["cookiesfrombrowser"] = _parse_cookies_from_browser_spec(cookies_from_browser)
+        if cookies_file:
+            _check_cookie_file_accessible(cookies_file)
+            ydl_opts["cookiefile"] = cookies_file
         print(f"[whisper] downloading audio (model={model_size}, this can take a while)...", file=sys.stderr)
         with _yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([url])
@@ -419,6 +457,26 @@ def main():
              "authenticated - this is an escalation path for a small batch, not a "
              "guarantee, and not a reason to loop retries.",
     )
+    parser.add_argument(
+        "--cookies", default=None, metavar="PATH",
+        help="Opt-in escalation path, off by default: authenticate yt-dlp's requests "
+             "using a manually-exported Netscape-format cookies file (path to a "
+             ".txt file), instead of --cookies-from-browser reading a live browser's "
+             "own cookie store. Use this specifically when --cookies-from-browser "
+             "fails locally (e.g. a locked cookie database, or a Windows DPAPI "
+             "decryption failure) - a pre-exported file sidesteps both. Same "
+             "tradeoffs and credential-safety rules as --cookies-from-browser apply "
+             "(see that flag's help) - additionally: store the exported file outside "
+             "any repo, never commit it, and delete it once you're done testing if "
+             "it's not needed long-term. This script never reads, opens, prints, or "
+             "copies the file's contents, and never records its path in any metadata "
+             "sidecar - only that authenticated fetching was attempted "
+             "(\"cookie_source\": \"cookies_file\"). Checked for existence/"
+             "readability before use (filesystem metadata only, not content) - a "
+             "missing or unreadable file is reported as a local setup failure (exit "
+             "code 3), not a YouTube-side signal. Can be combined with "
+             "--cookies-from-browser, though typically only one is needed.",
+    )
     args = parser.parse_args()
 
     languages = [lang.strip() for lang in args.languages.split(",") if lang.strip()]
@@ -450,9 +508,9 @@ def main():
             if m == "youtube-transcript-api":
                 text, lang_used, is_generated = try_transcript_api(video_id, languages)
             elif m == "yt-dlp":
-                text, lang_used, is_generated = try_ytdlp_subtitles(video_id, languages, args.cookies_from_browser)
+                text, lang_used, is_generated = try_ytdlp_subtitles(video_id, languages, args.cookies_from_browser, args.cookies)
             else:
-                text, lang_used, is_generated = try_whisper_local(video_id, args.whisper_model, args.whisper_language, args.cookies_from_browser)
+                text, lang_used, is_generated = try_whisper_local(video_id, args.whisper_model, args.whisper_language, args.cookies_from_browser, args.cookies)
             method = m
             break
         except Exception as e:
@@ -472,6 +530,9 @@ def main():
         }
         if args.cookies_from_browser:
             fail_record["cookies_from_browser"] = args.cookies_from_browser
+        if args.cookies:
+            # Record only that a cookies file was in play, never its path.
+            fail_record["cookie_source"] = "cookies_file"
         if reason_class == "local_setup_failure":
             # At least one attempt never reached YouTube at all - most commonly
             # --cookies-from-browser couldn't read the browser's cookie database
@@ -581,12 +642,16 @@ def main():
         # pulled from it with more skepticism than a real-captions transcript.
         meta_record["asr_fallback"] = True
         meta_record["whisper_model"] = args.whisper_model
-    if args.cookies_from_browser and method in ("yt-dlp", f"faster-whisper:{args.whisper_model}"):
-        # Record only that authenticated fetching was used, and which browser
-        # name the caller supplied on the command line - never cookie contents
-        # or the cookie database path itself.
+    if (args.cookies_from_browser or args.cookies) and method in ("yt-dlp", f"faster-whisper:{args.whisper_model}"):
+        # Record only that authenticated fetching was used, and (for the
+        # browser-cookie path) which browser name the caller supplied on the
+        # command line - never cookie contents, the cookie database path, or
+        # the --cookies file's own path.
         meta_record["authenticated_fetch"] = True
-        meta_record["cookies_from_browser"] = args.cookies_from_browser
+        if args.cookies_from_browser:
+            meta_record["cookies_from_browser"] = args.cookies_from_browser
+        if args.cookies:
+            meta_record["cookie_source"] = "cookies_file"
 
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta_record, f, indent=2, ensure_ascii=False)
