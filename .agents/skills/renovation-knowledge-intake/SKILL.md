@@ -79,6 +79,8 @@ It writes a UTF-8 JSON manifest (never round-trips metadata through the console,
 
 **Fetching must be serialized, not parallel** - one video at a time via `youtube-transcript-fetch`, never multiple videos/agents fetching concurrently. If a fetch exits with code 2 (rate_limited_or_ip_blocked - see that skill's own docs), treat it as a circuit breaker for the whole fetch phase: stop fetching further videos in this run, don't mark them `skipped` in the CSV, and don't retry immediately - wait for a real cooldown and use at most one bounded retry.
 
+`youtube-transcript-fetch` itself lives outside this repo (global, machine-local, at `~/.claude/skills/youtube-transcript-fetch/`) and isn't versioned by this repo's git history. A point-in-time backup of its 2026-08-05 rate-limit-hardening patch is kept at `tools/youtube/vendored_skill_backup/youtube-transcript-fetch/` (read-only reference, not live/imported) specifically so that fix doesn't silently vanish on a machine/session with an older unpatched copy - see that folder's own `README.md`.
+
 **`tools/youtube/archive_transcripts.py`** (added 2026-08-04) does the move-to-archive-and-repoint-the-note step once extraction notes exist for a batch of fetched transcripts:
 
 ```

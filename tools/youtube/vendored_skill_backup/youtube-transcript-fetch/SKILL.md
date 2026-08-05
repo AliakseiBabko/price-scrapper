@@ -1,0 +1,212 @@
+---
+name: youtube-transcript-fetch
+description: "Fetch a YouTube video's transcript or captions into a plain-text file with a metadata sidecar (URL, video ID, language, method, timestamp). Generic and project-agnostic - the caller decides the output directory and what to do with the transcript afterward (archiving, indexing, summarizing). Use whenever the user asks to fetch, get, check, extract, download, pull, or verify a YouTube transcript, captions, or subtitles, or asks 'what does this YouTube video say' / 'summarize this YouTube video' and no transcript exists yet."
+---
+
+# YouTube Transcript Fetch
+
+## Overview
+
+Fetches the transcript/captions for a YouTube video and writes them to a
+plain-text (or Markdown) file plus a small JSON metadata sidecar, so the
+evidence (source URL, video ID, language, method used, timestamp) travels
+with the text. This skill only fetches and preserves the transcript - it
+never decides where the file should be archived, whether an index or
+Obsidian note should be updated, or whether a processed-sources CSV should
+get a new row. Those decisions belong to the calling project/skill.
+
+## When to use this skill
+
+Trigger on any request to fetch, check, extract, download, pull, or verify
+a YouTube video's transcript, captions, or subtitles - including indirect
+requests like "what does this video say" or "summarize this YouTube video"
+when no transcript file exists yet for that video.
+
+**Never claim a transcript is "unavailable" based only on fetching the
+YouTube watch-page HTML** (e.g. via a generic web fetch tool). Page HTML
+does not reliably expose caption tracks. Only report unavailability after
+actually running this skill's script (or an equivalent transcript-API /
+yt-dlp attempt) and getting a real failure from both methods.
+
+## Quick start
+
+```bash
+python scripts/fetch_youtube_transcript.py "<youtube_url_or_video_id>" --output-dir "<caller-chosen-dir>"
+```
+
+Useful optional flags:
+
+```bash
+python scripts/fetch_youtube_transcript.py "<url>" \
+  --output-dir "<dir>" \
+  --slug "short_title_slug" \
+  --languages "ru,en" \
+  --mode auto \
+  --extension txt
+```
+
+- `url_or_id` (positional, required): full YouTube URL (`watch?v=`, `youtu.be/`,
+  `/shorts/`, `/embed/`) or a bare 11-character video ID.
+- `--output-dir` (required): where the transcript + metadata files are
+  written. This skill never assumes or hardcodes a project's archive,
+  Obsidian, or inbox folder - the caller must pass this explicitly.
+- `--slug` (optional): short human-readable label folded into the filename.
+- `--languages` (optional, default `ru,en`): comma-separated language
+  preference order, tried in this order by the two caption-based methods.
+- `--mode` (optional, default `auto`):
+  - `transcript` - only try the `youtube-transcript-api` transcript API.
+  - `subtitles` - only try `yt-dlp` subtitle extraction.
+  - `auto` - try the transcript API first, then fall back to `yt-dlp` if it
+    fails. Preferred default: the transcript API is faster and doesn't
+    require a full `yt-dlp` invocation, but `yt-dlp` also picks up
+    auto-generated captions in more edge cases (e.g. age-gated or
+    region-quirky metadata).
+  - `whisper` - local ASR transcription via `faster-whisper`, for a video
+    with no captions available through either method above. **Not** part of
+    `auto` - always an explicit, separate invocation. See "When captions are
+    genuinely unavailable" below before reaching for this.
+- `--whisper-model` (optional, default `large-v3`, only used with `--mode
+  whisper`): `tiny`/`base`/`small`/`medium`/`large-v3`. Default is `large-v3`
+  deliberately - see below.
+- `--whisper-language` (optional, only used with `--mode whisper`): force a
+  language code instead of letting Whisper auto-detect. Auto-detect was
+  reliable (99-100% confidence) in testing; only set this if a specific
+  video is misdetected.
+- `--extension` (optional, default `txt`): `txt` or `md` for the transcript
+  file.
+
+## When captions are genuinely unavailable
+
+If both `youtube-transcript-api` and `yt-dlp` fail (`auto` mode exhausted,
+`TranscriptsDisabled` or equivalent for both), you have two real options -
+**neither should be silently substituted for the other**:
+
+1. **Manual transcription via a paid service** (e.g. Turboscribe or similar) -
+   higher fidelity, requires a human step (no API for most such services),
+   worth it for a video you actually want to trust as a knowledge-base
+   source.
+2. **`--mode whisper` (local, free, offline)** - convenient, but **do not
+   default to this without understanding the accuracy/time tradeoff**: a
+   real comparison (2026-07-31) against a paid reference transcript on a
+   short, clean, single-speaker video found:
+   - `small` and `medium` models both **dropped or fabricated entire
+     clauses** - not paraphrasing errors, actual missing/invented content
+     (e.g. medium replaced a full sentence explaining *why* the video's
+     topic mattered with unrelated fabricated names). Roughly 55-65% content
+     fidelity against the reference.
+   - `large-v3` was the first tier that matched the reference closely - no
+     dropped or fabricated content, only minor word-level noise (a wrong
+     word here and there) and loss of punctuation/sentence breaks partway
+     through. This is why it's the default for `--mode whisper`.
+   - The cost: `large-v3` took **~13x longer** than `small` on the same
+     short clip (about 13.5 minutes vs. about 1 minute for a ~1-2 minute
+     video). A long video could mean hours of local compute.
+   - **Treat any `--mode whisper` output as needing a skeptical read before
+     trusting specific facts/numbers from it**, even at `large-v3` - the
+     metadata sidecar sets `"asr_fallback": true` specifically so a
+     downstream extraction step can apply that skepticism automatically
+     instead of relying on someone remembering to.
+
+## Behavior and guarantees
+
+1. **Method order (auto mode)**: `youtube-transcript-api` (manually-created
+   track first, then auto-generated) → `yt-dlp` subtitle extraction (manual
+   subs first, then auto-subs, converted from VTT to plain text).
+2. **On success**: writes `<date>_<slug>_<video_id>_<hash8>.<ext>` (transcript
+   text) and a matching `.meta.json` sidecar containing `url`, `video_id`,
+   `language`, `is_generated_captions`, `method`, `timestamp` (UTC ISO 8601),
+   `source_tool`, and `sha256` of the transcript text.
+3. **Deduplication**: before writing, the script scans `--output-dir` for an
+   existing file whose metadata sidecar has the same `video_id` and
+   `sha256` hash, and skips writing a duplicate if found (prints the
+   existing path instead). It does not touch any external CSV/index -
+   dedup is purely within the given output directory.
+4. **On failure**: exits non-zero, prints every attempted method with its
+   exact exception/error message to stderr, and still writes a
+   `<video_id>.FAILED.meta.json` record of the attempts to `--output-dir` so
+   the failure is evidenced, not just asserted. Report these exact messages
+   back to the user - do not paraphrase them into a generic "unavailable".
+   Two distinct non-zero exit codes:
+   - **1 - per-video failure**: private, unavailable, or genuinely no
+     captions for this specific video. Safe to move on to the next video in
+     a batch.
+   - **2 - environment-level rate-limit/IP-block circuit breaker**: at least
+     one attempt's error text matched a known throttling/block signature
+     (HTTP 429, "Too Many Requests", or a youtube-transcript-api IP-block
+     message). The `.FAILED.meta.json` gets `"reason_class":
+     "rate_limited_or_ip_blocked"` and a `next_retry_guidance` field. **Treat
+     exit code 2 as a stop signal for the whole fetch phase** - do not
+     attempt the next video in the same run, and do not immediately retry;
+     wait for a real cooldown (tens of minutes to hours) and use at most one
+     bounded retry, not a retry loop.
+5. **Filesystem scope**: `--output-dir` is created if it doesn't exist. The
+   script never writes a persistent file outside that directory. `yt-dlp`
+   subtitle downloads land in an OS temp directory that's deleted
+   automatically once that attempt finishes; any local temp-directory path
+   that would otherwise leak into a yt-dlp error message is stripped before
+   it's logged or written to `.FAILED.meta.json`.
+
+### Example invocation
+
+```bash
+python scripts/fetch_youtube_transcript.py "https://www.youtube.com/watch?v=VIDEO_ID" \
+  --output-dir "C:\Path\To\Your Project\transcripts" \
+  --slug "example_video_title" \
+  --languages "ru,en"
+```
+
+Quote `--output-dir` (and any other path argument) whenever it may contain
+spaces - the script itself handles spaced paths fine either way, but shell
+quoting is still needed so the shell doesn't split the path into multiple
+arguments. Replace the URL, path, and slug above with real values; nothing
+in this skill assumes a specific repository or folder layout.
+
+See `references/transcript-fetching.md` for why the fallback chain is
+ordered this way, how to classify specific error messages (missing
+dependency vs. genuinely caption-less video), and the exact scope of the
+deduplication check.
+
+## Dependencies
+
+- `youtube-transcript-api` (Python package) - required for `--mode transcript`
+  and used first in `--mode auto`.
+- `yt-dlp` (CLI *and* importable Python package - both are used: the CLI for
+  `--mode subtitles`/`auto`, the Python package for downloading audio in
+  `--mode whisper`) - required for `--mode subtitles`, used as the fallback
+  in `--mode auto`, and required (alongside `faster-whisper`) for `--mode
+  whisper`.
+- `faster-whisper` (Python package) - only required for `--mode whisper`.
+  Downloads its model weights from Hugging Face on first use of a given
+  model size (`tiny`≈75MB up to `large-v3`≈3GB), cached afterward under
+  `~/.cache/huggingface/hub/`. CPU-only inference (`device="cpu",
+  compute_type="int8"`) - no GPU required, but this is also why `large-v3`
+  is slow (see "When captions are genuinely unavailable" above).
+
+If a dependency is missing, the corresponding method's attempt will record
+an import/exec error in the failure report rather than crashing the whole
+script (unless *every* requested method is unavailable, in which case the
+script exits non-zero with both errors listed).
+
+**Do not install any dependency unilaterally.** Check first (e.g.
+`pip show youtube-transcript-api`, `pip show faster-whisper`, `where yt-dlp`
+/ `which yt-dlp`, or just run the script and read the failure report), then
+tell the user which package is missing and ask before running an install
+command (`pip install youtube-transcript-api` / `pip install yt-dlp` /
+`pip install faster-whisper`) - installing into someone else's environment
+is exactly the kind of action that needs a confirmation, not an assumption.
+This applies doubly to `--mode whisper`: a first-time model download is a
+real, sometimes-multi-GB network fetch, not just a small package install.
+
+## After fetching
+
+Once the transcript file and metadata sidecar exist, hand off to whatever
+the calling project/task actually needs: summarizing the content, updating
+project-specific notes or knowledge bases, logging the source in a
+project's own tracking file, or archiving the raw transcript. This skill's
+job ends at "transcript safely on disk with evidence of how it got there."
+
+This skill only fetches and preserves transcript evidence - it does not
+summarize, synthesize, or fold the transcript into any wiki/knowledge
+base. For turning a fetched transcript (plus other sources) into a
+structured knowledge store or a readable master wiki page over time, use
+the shared `tiered-knowledge-base` skill (if available).
