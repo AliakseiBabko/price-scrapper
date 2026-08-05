@@ -80,7 +80,11 @@ This document captures the overall context of the family's needs, preferences, a
   - Backlink: [[WC_Index]]
 
 ### 10. 🌅 Balcony
-* **Daily Use Scenario**: Secondary storage or brief outdoor relaxation.
+* **User Context**: *"The purpose of this space is storage for hobby/DIY use (fixing things, home projects), relaxation, and occasional light physical exercise. The purpose is NOT to convert it into a real heated room. The plan is to replace the windows and add insulation to extend the usable warm period — make it cold only in the coldest winter months, without dedicated heating. A temporary/portable electric heater can be used occasionally, but underfloor heating or any permanent heating system is not the option. The goal is a closed, well-ventilated, warmer space usable for an extended part of the year — spring, summer, and autumn — in Belarus's subcontinental climate, not the coldest winter period."*
+* **Daily Use Scenario**: Three-season semi-conditioned utility/hobby space (DIY storage and tinkering, light exercise, relaxation) — not year-round heated living space.
 * **Key Guidelines**:
-  - Durable floor finish to withstand temperature swings.
+  - Replace the existing glazing/windows and add insulation to the enclosure — the goal is extending the comfortable-use season (spring/summer/autumn), not full winter habitability.
+  - No permanent heating system (no underfloor heating, no hydronic radiator relocation) — a portable/temporary electric heater for occasional use is acceptable, but the space should function passively (well-sealed, well-ventilated) rather than depend on active heating.
+  - Durable floor finish to withstand temperature swings — the space is still unheated through the coldest winter months.
+  - **Known content gap (2026-08-05)**: the two loggia/balcony sources currently in this knowledge base (`YT_hPYjyJhPP2g_loggia_glazing_contour_relocation.md`, `YT_uUnTk_qVoa4_loggia_merge_and_insulation_masonry.md`) describe full envelope-relocation conversion into a permanently heated interior room — a different, more invasive technique than the window-replacement-plus-insulation upgrade described here. Their condensation/heat-loss mechanism framing may be tangentially useful, but their core technique (moving the insulated envelope boundary, AAC-block knee-wall construction, radiator relocation) doesn't match this project's plan and should not be applied here without re-checking fit. No source yet directly covers a three-season glazing/insulation upgrade without full envelope conversion — a gap for a future source, not something to fill by stretching the current two.
   - Backlink: [[Balcony_Index]]

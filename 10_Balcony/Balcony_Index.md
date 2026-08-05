@@ -18,8 +18,9 @@
 * **Sockets**: *Placeholder* (Recommendation: IP55 protective cover socket for outdoor laptop use or chargers).
 
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
-* **Weatherproof Zone**: Flooring and walls must handle temperature swings and direct sunlight.
-* **Leisure & Utility**: Outdoor relaxation area and secondary storage.
+* **Three-Season Semi-Conditioned Space (clarified 2026-08-05)**: Not a heated room — plan is new glazing + insulation to extend comfortable use through spring/summer/autumn, staying cold (unheated) only in the coldest winter months. A portable/temporary electric heater is acceptable for occasional use; no permanent heating system (no underfloor heating, no radiator).
+* **Leisure & Utility**: Hobby/DIY storage and workspace (fixing things, home projects), relaxation, light physical exercise.
+* **Weatherproof Zone**: Flooring and walls must still handle temperature swings, since the space stays unheated through winter even after the glazing/insulation upgrade.
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 
 ## 🛋️ Layout & Leisure
