@@ -54,6 +54,35 @@ beyond what the shared skills already do:
   per this repo's existing convention (a separate step from the
   knowledge-base handoff below).
 
+### CSV schema and status vocabulary (canonical - this is now the authoritative copy)
+
+`Schema`: `run_id,date,source_type,source_url,source_title,source_hash,source_year,region,pricing_priority,conversion_basis,topic_tags,scope,target_docs,status,notes`
+
+`status` must be one of:
+- `inbox` / `processing` - mid-workflow, transcript fetched but not yet fully extracted/integrated.
+- `archived` - fully processed: extracted, integrated into the knowledge base, transcript moved to `90_Archive\processed_sources\`.
+- `skipped` - could not be processed (e.g. no captions available via either `youtube-transcript-api` or `yt-dlp`, or the video is private/unavailable) - never fetched or extracted. Note the specific reason in `notes`.
+- `duplicate_skipped` - the video ID was already logged under a prior `run_id` before this one started (checked by canonical video ID, not by re-deriving a transcript hash) - not re-fetched or re-extracted. Cite the earlier `run_id`/source-note slug in `notes`.
+- `failed` - a fetch or extraction attempt was made and errored for a reason other than "no captions"/"duplicate"/"unavailable" (e.g. a tool crash) - distinct from `skipped` so a genuine bug isn't confused with an expected no-captions/duplicate outcome.
+
+**Before fetching anything from a playlist or channel already represented in this CSV**, canonicalize each candidate video ID (from any URL form - `watch?v=`, `youtu.be/`, `shorts/`, `embed/`, a playlist entry) and check it against every `source_url` in this CSV *and* every `YT_<video_id>_*.md` source-note filename under `11_Budget_and_Planning/_supporting/knowledge/sources/` - a row can exist without a note (e.g. `duplicate_skipped`) and in principle a note could exist without a row, so check both. Do not rely on transcript-hash-based dedup alone (it only catches a duplicate *after* re-fetching, and does nothing for a video whose prior row has `source_hash: n/a`).
+
+**`tools/youtube/preflight_playlist.py`** (added 2026-08-04) automates exactly this check, plus an availability/caption probe for the videos that turn out to be genuinely new - run it against a playlist/channel URL before invoking `youtube-transcript-fetch` on anything from it:
+
+```
+.venv\Scripts\python.exe tools\youtube\preflight_playlist.py "<playlist_or_channel_url>" --output-dir <dir>
+```
+
+It writes a UTF-8 JSON manifest (never round-trips metadata through the console, which has previously mangled Cyrillic titles) classifying every video as `duplicate` / `private` / `unavailable` / `no_captions` / `fresh`, and warns if a CSV row and a source note disagree about what's been processed. Read-only - it never touches the CSV, moves a file, or fetches a transcript itself.
+
+**`tools/youtube/archive_transcripts.py`** (added 2026-08-04) does the move-to-archive-and-repoint-the-note step once extraction notes exist for a batch of fetched transcripts:
+
+```
+.venv\Scripts\python.exe tools\youtube\archive_transcripts.py <inbox_dir> [--dry-run]
+```
+
+It matches each transcript to its source note by the `.meta.json` sidecar's own `video_id` field against each note's frontmatter `video_id:` field - never by filename globbing (a prior glob-based approach broke on a video ID with a leading underscore) - and rewrites the note's `transcript_file:` line by regex on the frontmatter key, not by guessing at the old path string. Run with `--dry-run` first on an unfamiliar batch.
+
 ## This project's taxonomy
 
 Pass this exact bucket list to `meeting-transcript-extract` as the

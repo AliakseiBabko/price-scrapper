@@ -1,9 +1,14 @@
 ---
 name: youtube-to-obsidian
-description: "Extracts a YouTube transcript and integrates its knowledge into the Obsidian Wikipedia (price-scrapper)."
+description: "DEPRECATED 2026-08-04 - see .agents/skills/renovation-knowledge-intake/SKILL.md instead. Extracts a YouTube transcript and integrates its knowledge into the Obsidian Wikipedia (price-scrapper)."
 ---
 
-# YouTube to Obsidian Knowledge Ingestion
+> [!WARNING]
+> **Deprecated 2026-08-04.** Use [[.agents/skills/renovation-knowledge-intake/SKILL.md|renovation-knowledge-intake]] instead, which delegates fetching to the shared `youtube-transcript-fetch` skill and synthesis to `tiered-knowledge-base` - the pipeline actually used for every playlist batch processed in this repo since 2026-07-31 (electrical/lighting playlist, general renovation-tips playlist). This file is kept for reference and is not actively maintained; its documented CSV schema/status vocabulary has been superseded by the canonical copy in `renovation-knowledge-intake/SKILL.md` (which additionally documents `duplicate_skipped` and the pre-fetch duplicate-check requirement, missing here).
+>
+> `scripts/get_youtube_transcript.py` itself is **not** removed or altered by this deprecation - it remains available as a manual/legacy fallback (e.g. for a single one-off video, or if the shared skills aren't available in a given environment) as long as something still references it. If nothing does after a future audit, it can be removed along with this file.
+
+# YouTube to Obsidian Knowledge Ingestion (deprecated - see notice above)
 
 **Purpose**: Automate the process of extracting text from a YouTube video and updating the Obsidian knowledge base (`price-scrapper`).
 
@@ -34,7 +39,7 @@ description: "Extracts a YouTube transcript and integrates its knowledge into th
 5. **Log Processing**:
    Add a new row to `00_Master\processed_sources.csv` to track this source.
    - **Schema**: `run_id,date,source_type,source_url,source_title,source_hash,source_year,region,pricing_priority,conversion_basis,topic_tags,scope,target_docs,status,notes`
-   - **Status**: Must be one of `inbox`, `processing`, `processed`, `archived`, `skipped`, `failed`. Use `processed` while updating docs, then `archived` once the transcript is moved.
+   - **Status**: see the canonical, up-to-date vocabulary in `renovation-knowledge-intake/SKILL.md`'s "CSV schema and status vocabulary" section (this file's own copy is stale as of the 2026-08-04 deprecation above - it's missing `duplicate_skipped`, now a real status in this CSV).
 
 6. **Archive Transcript**:
    Move the transcript file from `00_Inbox\transcripts\` to `90_Archive\processed_sources\`.
