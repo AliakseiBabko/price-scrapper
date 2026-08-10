@@ -4,9 +4,9 @@ source_url: https://www.youtube.com/watch?v=ZqfaeREBEYQ
 video_id: ZqfaeREBEYQ
 transcript_file: 90_Archive/processed_sources/20260810_kitchen_ventilation_mistakes_80d8c9ef.txt
 fetched: 2026-08-10 (anonymous youtube-transcript-api, zero prior failed attempts this run — confirms the 429/IP-block seen 2026-08-05 had fully cleared by this date)
-upload_date: not independently confirmed by metadata
+upload_date: 2022-07-17 (confirmed via yt-dlp metadata, 2026-08-10 — video is ~4 years old as of processing)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov, technical content presented by Сергей Саратов, "design and renovation" lead) — Moscow-based per user-confirmed channel identity (see [[project_zemskov_zemstandart_region_moscow_rub]] memory)
-source_metadata_location: Moscow — per prior explicit user statement, not independently re-verified via fetched metadata this pass
+source_metadata_location: Moscow — per prior explicit user statement, and since independently confirmed (2026-08-10) via the company's own website (`zems.pro/about/` — Moscow and Podolsk office addresses, founding history from 2003, expanded beyond Moscow only from 2018+)
 language: ru
 extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)
 ---
@@ -35,7 +35,7 @@ extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, calle
 
 ## Numeric Data
 
-- **Design-project fee: 3,000 RUB/m²**, stated by Sergey as his own service's flat rate, "anywhere in the world" (i.e. remote design service, not tied to a specific city for delivery, though the channel/pricing itself is Moscow-based per this project's established convention). **A fourth distinct design-fee reference point** in this store, alongside the existing Бородатый Прораб three-tier design pricing (4,000/5,000/7,000 RUB/m², Moscow) — this one is markedly cheaper than even that source's basic tier; keep as a separate data point, not blended. `confirmed` as spoken; `single-account`/self-promotional (a direct service advertisement mid-video).
+- **Design-project fee: 3,000 RUB/m² (as of 2022-07-17, this video's confirmed upload date)**, stated by Sergey as his own service's flat rate, "anywhere in the world" (i.e. remote design service, not tied to a specific city for delivery, though the channel/pricing itself is Moscow-based per this project's established convention). **A fourth distinct design-fee reference point** in this store, alongside the existing Бородатый Прораб three-tier design pricing (4,000/5,000/7,000 RUB/m², Moscow) — this one is markedly cheaper than even that source's basic tier; keep as a separate data point, not blended. **This project's own company website (`zems.pro/development/`, checked 2026-08-10) currently states 5,000 RUB/m² for apartment design projects** — a ~67% rise over the ~4 years since this video, plausible ordinary price inflation for this market (~13.5%/year compounded), not a same-time contradiction; recorded as a price-history pair (2022 → 2026), not an unresolved conflict. See this store's Numeric Data / Cross-Source Comparison entries for the paired figures. `confirmed` as spoken; `single-account`/self-promotional (a direct service advertisement mid-video).
 - **Standard duct cross-section**: 55×110 mm (most systems). **Powerful-hood duct cross-section**: 250×55 mm. **Ceiling-drop delta**: ~40 mm beyond the duct box's own thickness (electrical conduit allowance). **Soundproofing material spec**: self-adhesive, ≥3 mm thick.
 
 ## Assumptions / Uncertainties

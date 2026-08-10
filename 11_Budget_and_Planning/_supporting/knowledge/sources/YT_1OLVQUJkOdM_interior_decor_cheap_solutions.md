@@ -6,7 +6,7 @@ transcript_file: 90_Archive/processed_sources/20260805_interior_decor_cheap_solu
 fetched: 2026-08-05
 upload_date: not independently confirmed by metadata
 channel: Zemstandart (ZEMSTANDART) — turnkey/full-service renovation company; hosted by Alexey Zemskov, technical content presented by Сергей Саратов ("comfort-class" renovation lead)
-source_metadata_location: Moscow — per explicit user statement (2026-08-05): "Zemskov is a Moscow based author... it should be in the channel metadata or video description." Not independently re-verified against fetched metadata this pass (yt-dlp hit a bot-check wall at verification time); treated as `confirmed` on the strength of the user's direct statement, upgraded from this channel's prior "not stated (Moscow-area)" convention. See store Change Log for the same upgrade applied to this batch's other source.
+source_metadata_location: Moscow — per explicit user statement (2026-08-05), and **since independently confirmed (2026-08-10) via the company's own website** (`zems.pro/about/`: offices at "г. Подольск, Революционный проспект 64/105" and two Moscow addresses; founding history places Alexey Zemskov's business in Moscow from 2003, expanding beyond Moscow — St. Petersburg, Tula, Ryazan, Kaluga — only from 2018+). `confirmed` at level 2 (company website), not just the user's statement.
 language: ru
 extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)
 ---

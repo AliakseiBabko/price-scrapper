@@ -6,7 +6,7 @@ transcript_file: 90_Archive/processed_sources/20260805_hidden_exhaust_duct_conce
 fetched: 2026-08-05 (fetched after a multi-hour cooldown resolved an earlier same-day 429/IP-block; --cookies-from-browser "chrome:Profile 3" was passed but not actually exercised — succeeded on the first, anonymous youtube-transcript-api attempt, zero prior failed attempts)
 upload_date: not independently confirmed by metadata
 channel: Zemstandart (Alexey Zemskov, "Мистер Профессионал" branding referenced in-video) — Moscow-based per user-confirmed channel identity (see [[project_price_scrapper_youtube_ingestion_tooling]] memory)
-source_metadata_location: Moscow — per explicit user statement (2026-08-05), not independently re-verified via fetched metadata this pass
+source_metadata_location: Moscow — per explicit user statement (2026-08-05), and since independently confirmed (2026-08-10) via the company's own website (`zems.pro/about/` — Moscow and Podolsk office addresses, founding history from 2003)
 language: ru
 extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)
 ---
