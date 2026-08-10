@@ -302,6 +302,51 @@ describe the same thing - keep them as clearly separate, clearly labeled
 numbers everywhere they appear (store, guide). When `Budgeting_Guide.md`
 cites a headline benchmark, state which delivery model it reflects.
 
+## Price comparability requires location AND year - a price without both has minimal comparative value
+
+Per explicit user guidance: a price/cost figure only has real comparative
+value once it carries **both** of these, not just one:
+
+- **Location/market** - which country, and (where knowable) which city or
+  market tier within it. "RUB" alone is not a market - Moscow, a
+  provincial Russian city, and Minsk can have very different price levels
+  even in the same currency. Record the most specific location the source
+  actually supports (per this project's existing level-1/level-2/level-3/
+  level-4 evidence framework) rather than defaulting to a channel's
+  general regional association.
+- **Year** - when the price was stated (source upload/publish date,
+  confirmed via metadata where possible - see "Confirm dates via metadata,
+  not assumption" below). Prices in this market move meaningfully year to
+  year (a real example already in this store: the same company's design
+  fee rose from 3,000 RUB/m² in 2022 to 5,000 RUB/m² by 2026, ~67% over
+  ~4 years - ordinary inflation, not noise to round away).
+
+**Practical effect on every price/cost entry (source note, intermediate
+store Numeric Data entries, `Budgeting_Guide.md`, comparison tables):**
+
+- Record location and year explicitly next to every price figure, not
+  just once at the top of a source note - a reader looking at one row of
+  a comparison table shouldn't have to hunt elsewhere for either.
+- **Never compare, average, or flag two prices as "conflicting" without
+  both references resolved for each side of the comparison.** A price
+  gap between two sources from different years is not evidence of a
+  contradiction until inflation/time is accounted for; a price gap
+  between two sources in different cities/markets is not evidence of
+  overcharging or undercharging until the market difference is accounted
+  for. Where one or both references are missing, say so explicitly
+  ("year unconfirmed", "region unresolved") rather than implying a clean
+  comparison was made.
+- A price with **neither** reference resolved still has some value - as a
+  bare data point attached to a specific type of work/material - but must
+  not be used for cross-source comparison, ranking, or "is this a good
+  price" judgments until at least one of the two is resolved.
+- **Confirm dates via metadata, not assumption, whenever practical** - a
+  video's stated upload date can now be checked directly via `yt-dlp`
+  metadata (`extract_info(...).get('upload_date')`) rather than left as
+  "not independently confirmed" by default; do this before treating two
+  same-topic prices from what might be different eras as either
+  consistent or contradictory.
+
 ## Advertising / promotional content filter
 
 Renovation-content channels are very often run by the company doing the
