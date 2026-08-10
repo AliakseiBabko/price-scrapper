@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=dvKPBN_kpRI",
+  "video_id": "dvKPBN_kpRI",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T14:38:26.698537+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "54f935086278af669c3e81041db6bf553aba36354d2539c5c082e113e556aef1",
+  "attempts_before_success": []
+}

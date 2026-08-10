@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Y-eITaok1Gw",
+  "video_id": "Y-eITaok1Gw",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T14:51:03.601099+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "6d77f6f517bf7ec54acdfb2cf15543d7955c70f23adddce3a5936d00bd9204d4",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=cRRwnezXMcw",
+  "video_id": "cRRwnezXMcw",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T14:45:21.075670+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4a6476b916f0a836bd958d118934365cf800b1d763bdfe7259e88b3a1eb13f68",
+  "attempts_before_success": []
+}

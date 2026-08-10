@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=XllES56exkk",
+  "video_id": "XllES56exkk",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T14:43:45.400960+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "45e197813631302881771974ceda9934d1137037ed5df1b26e21b777d3143dc0",
+  "attempts_before_success": []
+}

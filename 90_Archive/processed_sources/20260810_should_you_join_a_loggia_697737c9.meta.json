@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=aoKerAFdZwg",
+  "video_id": "aoKerAFdZwg",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T14:42:07.531721+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "697737c933ebf5391247d3c9ccd473eab66ebc5c30e03ce9e75f600743e89a42",
+  "attempts_before_success": []
+}

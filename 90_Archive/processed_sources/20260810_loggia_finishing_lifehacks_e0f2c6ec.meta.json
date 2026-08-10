@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=aABAJy6-kdM",
+  "video_id": "aABAJy6-kdM",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T14:39:53.046863+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e0f2c6ecaab2dcb1efdc03a8e9eae2e7fb0ad1fdefc3dbb5538874308114d81c",
+  "attempts_before_success": []
+}
