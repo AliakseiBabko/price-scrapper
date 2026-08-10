@@ -1,0 +1,109 @@
+SOURCE: zems.pro/about/ and zems.pro/development/ (Zemstandart/Alexey Zemskov company website)
+FETCHED: 2026-08-10, via WebFetch (page rendered/summarized by an automated small model — NOT raw HTML or a verbatim quote except where explicit quotes are marked with quotation marks in the source text below). Treat non-quoted claims as a moderate-fidelity paraphrase of the live page, not a literal transcript.
+
+=== https://zems.pro/about/ ===
+
+This is a professional portfolio website for Alexey Zemskov, a construction expert and repair specialist based in Russia who has been working in the industry for 15 years.
+
+Key Services Offered:
+- Project development and design
+- Interior renovation and repair
+- Contractor coordination
+- Technical 3D modeling
+
+Core Philosophy: Zemskov emphasizes client-oriented service with professional integrity. He states: "The highest degree of respect for the client is to do the work properly, not as they wish" (paraphrased). He prioritizes evidence-based solutions over client preferences when they conflict with quality standards.
+
+Company History (2003-2019):
+- 2003: Started as apprentice in 3-person brigade
+- 2004: Became brigade leader; company named "Project Service"
+- 2005: Key turning point recognizing repairs must match stated objectives
+- 2007-2009: Rapid expansion with new service lines
+- 2014: Transitioned to independent operation
+- 2018-2019: Expanded operations to multiple Russian cities
+
+Contact Information:
+- Phone: +7(985) 410-58-50
+- Hours: 10:00-20:00, seven days a week
+- Email: od@zems.pro
+- Offices: Podolsk (primary), Moscow (two locations)
+  [from an earlier, separately-run fetch of this same page: "г. Подольск, Революционный проспект 64/105"; "г. Москва, Киевское ш. 1"; "г. Москва, Куркинское ш. 2"]
+
+Media Presence: Featured on First Channel (Russian TV) and Mayak Radio with educational content about renovations, kitchens, and balcony design.
+
+=== https://zems.pro/development/ ===
+
+11 Process Stages:
+1. Pre-engagement (30 minutes): Client submits application, curator conducts initial consultation, project manager assigned if needed, 5,000 rubles reserved to secure date.
+2. Object Digitization (2-3 hours): Specialist creates 3D model; for Moscow/region clients visits site; remote clients provide measurements; technical brief completed.
+3. Technical Specification (1-2 hours): Curator arranges call with Project Manager to discuss renovation tasks, goals, and client wishes documented in technical assignment.
+4. Concept Development (up to 5 days): Project Manager develops initial concept, presents to Technical Director, quality control reviews (no client participation).
+5. Concept Approval (1 hour): Project Manager presents concept to client, discusses future renovation and tasks, obtains approval via website.
+6. 3D Model Development (up to 2 weeks): Technologist details model, Project Manager inspects, Quality Engineer reviews and notes changes, technologist implements corrections (no client participation).
+7. 3D Model Presentation (1 hour): Project Manager presents model to client, discusses details, client requests additional electrical outlets (limited), final approval via website.
+8. Schemes and Drawings Preparation (up to 2 weeks): Technologist prepares schemes/drawings, Quality Engineer conducts primary check and final inspection, project compiled and uploaded (no client participation).
+9. Project Receipt and Contractor Selection (15 minutes): Curator notifies client of completion; client downloads project; Moscow/St. Petersburg clients may request contractors via Alexey Zemskov's personal review.
+10. Project Support: Client prints project and begins renovation; curators answer questions; complex queries directed to Project Manager or Technical Director; support continues as needed.
+11. Summary: Emphasizes that only engineers, surveyors, technologists, and builders with multi-stage quality control can produce such deliverables.
+
+Five-Stage Quality Control ("пятиступенчатый контроль качества") — described as this sequence (more than 5 named checkpoints listed by the source):
+- Surveyor agrees concept with client
+- Department head reviews concept
+- Alexey Zemskov personally reviews concept
+- Technologist develops 3D model based on concept
+- Quality Inspector reviews model
+- Project Manager conducts final inspection of schemes/drawings
+- Department head reviews drawings again before client delivery
+
+Technical Project Sections (40-60 pages total, 23-24 groups):
+Part 1 — Technical Components:
+1. Title page (laminated; responsible-contact info)
+2. Table of contents
+3. Room specification (unique names, wall/floor areas — prevents communication errors)
+4. Demolition scheme (total demolition volume — protects against unnecessary destruction)
+5. Wall/partition assembly scheme (protects against cost overages; material specs)
+6. Technical solutions and explanatory notes (key node details; error prevention)
+7. Opening formation scheme (all doorway/portal openings; visual height alignment; prevents typical errors)
+8. False walls and niches (radiator niche specs; recessed cabinet dims; embedded closure details)
+9. Floor plan (full floor "cake"; level differences; coverage zones; directional pattern indicators)
+10. Ceiling plan (material types by color code; area per room; hidden ductwork boxes; embedded anchors)
+11. Tile/ceramic layout scheme (optimal sizes per bathroom dims; prevents narrow cuts; water-resistant threshold details; tile article numbers)
+12. Doors and portals (each door shown open; swing direction; width; frame config; wall thickness estimates — allows pre-cost comparison)
+13. Materials calculation sheet (plinth, floor covering, wallpaper, paint quantities; recommended finishes; door/window opening averages)
+14. Windows and slope finishing (optimal configuration; profile thickness; glass-pack recommendations; junction sections)
+15. Balcony/loggia glazing and finishing (external glazing config; floor "cake"; insulation recs; ceiling treatment; finish materials; floor heating details)
+16. Water supply scheme and collector location (all fixture locations; connection schemes per fixture; drainage coordinates; hot/cold points; all diameters/required slopes)
+17. Primary plumbing connection scheme (water intake node config; collector assembly; fixture-specific diagrams; node location relative to rooms)
+18. Heating scheme and radiator location (placement; connection scheme; loop routing recs; room areas for power calc)
+19. Floor heating (approximate heated area per zone; soil "cake" layers; furniture/appliance exclusions; layer diagrams)
+20. Ventilation and air conditioning (all climate-forming elements; ductwork routing; back-check valve recommendations; room areas for equipment capacity; internal unit placement relative to furniture)
+21. Kitchen and kitchen modules (module config diagrams; dims; standard vs custom sizing optimization; built-in appliance recs)
+22. Electrical — general recommendations (breaker config; proper circuit division per room; nominal values; cable cross-sections; floor plan legend)
+23. Three-way switches and emergency lighting scheme (light source/switch interconnection; color coding; emergency fixture locations — prevents post-renovation rework)
+24. Detailed electrical point location schemes (exact coordinates per outlet; composition spec — allows 10-minute on-site verification)
+25. Furniture and accessory dimensions (collection consistency per room; simplifies retail shopping; vendor pre-selection)
+
+Part 2 — Supporting Information:
+26. Notes sheet ("blank sheet" for additions like security systems, delivery coordination — allows professional consultation without an extra surveyor-visit fee)
+27. Work stages and execution sequence (interdependent stages in proper order; color-coded by responsibility — prevents material waste from sequencing errors)
+28. Basic visualization (design preview — helps wallpaper/furniture/laminate/curtain/kitchen/appliance selection; clarifies spatial relationships for contractors)
+
+Pricing & Timelines:
+| Object Type | Cost per m² | Execution Timeline |
+| Apartment | 5,000 RUB | up to 35 days |
+| Townhouse | 5,780 RUB | up to 35 days |
+| Cottage | 6,740 RUB | up to 30 days |
+| Office | 7,270 RUB | up to 65 days |
+
+Client Control Mechanisms & Guarantees:
+- Multi-stage inspection: Project Manager, Technical Director, Quality Engineer
+- During 3D-model-presentation stage, clients may request "additional electrical outlets, but not more" — a stated limit on mid-process scope changes
+- Project support continues post-delivery for questions/modifications
+- Attached project descriptions replace traditional estimates, "protecting clients from contractor overages"
+- Detailed material calculations "prevent overpaying for supplies"
+- Price-per-m² transparency claimed at +/-3-5% variance, based on analysis of 100-200 recent projects (this specific claim not independently verified)
+- Contractor oversight: project documentation lets clients hire less-expensive workers and independently verify quality against detailed specs
+
+Key Quotes (as extracted):
+"Квартира — это, в первую очередь, не украшение вашей жизни, а инструмент для вашего комфорта" (an apartment is, first and foremost, not a decoration of your life but a tool for your comfort)
+"На сегодняшний день у меня есть список, в котором содержатся тысячи удачных и неудачных решений" (today I have a list containing thousands of successful and unsuccessful solutions)
+"Проект должен разрабатывать тот, кто может его воплотить" (the project should be developed by someone who can actually build it)
