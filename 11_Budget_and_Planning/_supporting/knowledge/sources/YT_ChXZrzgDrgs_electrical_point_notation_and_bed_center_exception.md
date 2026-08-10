@@ -1,0 +1,44 @@
+---
+source_type: video transcript (livestream/broadcast, Russian, manually transcribed via Turboscribe (paid service) by the user after both youtube-transcript-api and yt-dlp found no caption track for this video)
+source_url: https://www.youtube.com/watch?v=ChXZrzgDrgs
+video_id: ChXZrzgDrgs
+transcript_file: 90_Archive/processed_sources/20260810_electrical_point_notation_bed_center_exception_8259a335.txt
+fetched: user-supplied 2026-08-10 (originally attempted via youtube-transcript-fetch 2026-08-04, logged `skipped` — no caption track via either method — see `00_Master/processed_sources.csv` run_20260804_102, now superseded)
+upload_date: 2022-12-20 (confirmed via yt-dlp metadata, 2026-08-10)
+channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based, multi-region since 2018 (see [[project_zemskov_zemstandart_region_moscow_rub]])
+source_metadata_location: Moscow (channel convention); explicitly states "мы делаем ремонты только по Москве и области и по Питеру и области" (renovation execution limited to Moscow+region and St. Petersburg+region; design-only service offered nationwide/internationally) — a direct, level-1 statement of service-area scope
+language: ru
+extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)
+---
+
+# Extraction Note — Zemstandart: Electrical-Point Notation & the Bed-Center Reference Exception (#706, YouTube ChXZrzgDrgs)
+
+## Evidence levels
+(1) transcript text — (2) YouTube metadata — (3) contextual inference — (4) external validation (none performed).
+
+## Source Metadata / Promotional Context
+
+Livestream-format video ("трансляция," recorded in one take, the speaker apologizes for the format's roughness), Alexey Zemskov solo. Contains a direct design-project pricing pitch mid-video (see Numeric Data). **Turnkey/Full-Service** — self-promotional company channel. **Fetch method note**: this is the first source in this store obtained via a paid third-party transcription service (Turboscribe) rather than `youtube-transcript-api`/`yt-dlp`/manual browser capture — the video has no caption track through either automated method (confirmed twice, see the earlier `skipped` CSV row). Treat as a new evidence tier: a professional paid transcription is plausibly higher-fidelity than ASR/auto-captions, but this has not been independently spot-checked against the raw audio in this note.
+
+## Electrical / Lighting — Durable Facts & Rules (extends this store's existing electrical-point-documentation content from `yt_12o621100MQ`, same channel, 2020)
+
+- **Every electrical point's description must stay directly attached to its location marker on the drawing — never split into a separate reference table.** Real cited failure mode: a table row mismatch (row 7 confused with row 8) resulted in an as-built switch where two outlets (TV cable + UTP/ethernet) were specified, discovered only after the client paid for rework out of pocket. `confirmed`, real cited failure with financial consequence — the single most concrete cautionary example in this note.
+- **Standard abbreviation legend for point contents** (distinct from, and complementary to, the existing store fact about *coordinate* notation from `yt_12o621100MQ`): **R = розетка** (outlet), **V = выключатель** (switch), **ТВ** = TV cable output, **УТП** = UTP/structured-cable (ethernet) output. A leading digit indicates quantity — e.g. "2R+ТВ+УТП" reads as a 4-module point: 2 outlets, 1 TV output, 1 UTP output. **Rule**: descriptions must be concise via this legend, not spelled out in full prose (explicitly warns against writing out "4 electrical outlets 220V" etc. — the point is compactness without losing precision). `confirmed`, a concrete notation standard.
+- **Corner-labeling and default horizontal-reference-point conventions independently restated, ~2.5 years after `yt_12o621100MQ`** (same channel): rooms are shown top-down; corners are labeled alphabetically clockwise starting from the top-left (А, Б, В, Г, extending further for rooms with more than 4 corners); a point's horizontal reference defaults to the nearest door/window-opening reveal if it's closer to an opening, or the nearest labeled corner otherwise — and this default must be explicitly stated as the fallback rule in the project so individual points don't need to restate an obvious reference, reducing visual clutter. `confirmed`, same-channel restatement (not independent corroboration, but shows a stable practice over ~2.5 years within this one company).
+- **The critical exception this source adds, absent from the earlier `yt_12o621100MQ` source: bedroom electrical points around a bed must NOT default to a corner or doorway reference at all.** Instead, introduce an explicit **intermediate reference point — "center of bed"** — and measure every point around the bed horizontally from that center, never from a corner or opening. **Stated reasoning**: symmetry relative to the bed's own center is what a person actually perceives; two points that are cleanly "70cm and 80cm from the doorway" (clean round numbers) can still look visibly crooked if they're asymmetric relative to the bed itself (e.g. 5cm off-center on one side, 11cm on the other) — the eye catches the bed-relative asymmetry far more readily than corner-relative precision. `confirmed`, and the single most novel, reusable rule in this source — genuinely new content for this store's Electrical/Lighting coverage.
+- **Worked verification workflow enabled by this notation system**: a client can independently verify any installed electrical point in ~3-5 minutes with only a tape measure and the single sheet for that room — read the code (e.g. quantity+type legend + height + horizontal distance + reference point), measure from the stated reference, confirm the point matches. Framed as the direct payoff of following the notation discipline above. `confirmed`, real described workflow, consistent with (and reinforcing) the equivalent workflow claim in `yt_12o621100MQ`.
+- **Explicit service-area statement**: renovation execution (construction/installation) is limited to Moscow + Moscow Oblast and St. Petersburg + Leningrad Oblast; the design-project service itself is offered to clients "in any city," with those remote clients receiving the same fully-specified project documentation. `confirmed`, level-1, direct statement — the clearest service-area boundary statement from this channel found in this store so far.
+
+## Numeric Data
+
+- **Design-project fee at time of this video (2022-12-20)**: 3,000 RUB/m² through end-of-year, **rising to 4,000 RUB/m² starting the new year (~January 2023)** — clients who booked before year-end were guaranteed the old 3,000 rate even if the actual measurement visit happened the following year. **A third dated data point for this store's Zemstandart design-fee price-history series**: 3,000 RUB/m² (2022-07-17, `yt_ZqfaeREBEYQ`) → still 3,000 but about to rise to 4,000 (2022-12-20, this source) → 5,000 RUB/m² (2026-08-10, current, `web_zemspro_about_development`). A clean, gradual progression consistent with ordinary market inflation, not an anomaly. `confirmed` as spoken, level-1 date via metadata.
+- **Company scale claim, restated from `web_zemspro_about_development`**: "400 to 500 projects annually," with "about half" proceeding to an actual renovation contract with the company (the rest presumably design-only, including the remote/other-city clients mentioned above). `unverified`, self-reported, and **not independent corroboration of the company-website figure** — likely the same standing marketing line reused across sources, not two separate confirmations.
+
+## Assumptions / Uncertainties
+
+- Turboscribe transcription fidelity has not been independently spot-checked against the raw video/audio in this note — treated as high-fidelity by default (paid service, plausible improvement over free ASR) but not verified.
+- The exact shorthand example given in the transcript ("2РВ15Д70 от угла А") is somewhat compressed/ambiguous in the transcribed text itself — the underlying meaning (quantity+type code, height, horizontal distance, reference corner) is clear from context and consistent with `yt_12o621100MQ`'s coordinate system, but the precise character-by-character notation is not fully verified against a visual example.
+
+## Relevance to This Project's Topic
+
+Supersedes this video's earlier `skipped` (no-captions) status in `00_Master/processed_sources.csv` — the user obtained a transcript via a paid third-party service after both automated methods failed twice. Extends this store's existing electrical-point-documentation coverage (`yt_12o621100MQ`) with a genuinely new, high-value rule (the bed-center intermediate reference point) and a concrete real-world failure story motivating the "don't split description from location" rule. Also contributes a third dated point to this store's ongoing Zemstandart design-fee price-history series.

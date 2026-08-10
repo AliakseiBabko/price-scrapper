@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ChXZrzgDrgs",
+  "video_id": "ChXZrzgDrgs",
+  "language": "ru",
+  "is_generated_captions": null,
+  "method": "user-supplied-turboscribe",
+  "timestamp": "2026-08-10T07:28:32.355724+00:00",
+  "source_tool": "turboscribe (paid third-party transcription service, user-supplied)",
+  "sha256": "8259a335925326e5246a7bc662547c4780ba7becf63f3455c3adb3aaa821c208",
+  "note": "Both youtube-transcript-api and yt-dlp previously failed to find any caption track for this video (see 00_Master/processed_sources.csv run_20260804_102, skipped). User manually transcribed via Turboscribe and supplied the file for processing."
+}
