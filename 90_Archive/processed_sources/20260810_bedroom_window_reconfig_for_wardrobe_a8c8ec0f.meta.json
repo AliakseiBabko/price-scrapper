@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=CHCB4KPupyc",
+  "video_id": "CHCB4KPupyc",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T07:01:24.522507+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a8c8ec0fe80b4c1ca12cae45845a9d4177a5879de0a8e571fcfee578690c9292",
+  "attempts_before_success": []
+}

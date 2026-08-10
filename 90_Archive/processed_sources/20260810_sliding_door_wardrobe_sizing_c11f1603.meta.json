@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=VgsPDOcPV7c",
+  "video_id": "VgsPDOcPV7c",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T06:59:23.084891+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c11f16034b92b763d1ab88429d33d95578dae0cae3a34b8b36a492aff38aacd7",
+  "attempts_before_success": []
+}
