@@ -19,3 +19,4 @@ tools/blender/profile*/
 tools/blender/inspect-bonsai-wheel/
 00_Inbox/_Visual_Drop/
 00_Inbox/transcripts/
+.playwright-mcp/
