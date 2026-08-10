@@ -21,6 +21,7 @@
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
 * **Quiet Zone**: Study desk for work, study, or reading.
 * **Flexibility**: Dual-purpose guest bedroom or home office.
+* **Adjoining loggia stays separate (clarified 2026-08-10)**: this room adjoins the loggia — the household has explicitly decided **not** to join/merge the two spaces; the existing door and window unit between them stay in place, and the loggia remains its own closed room. See [[Balcony_Index]] and [[Family_Requirements]] §10 for the full plan (glazing replacement + insulation only, no envelope conversion).
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 
 ## 🛋️ Furniture & Layout
