@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=lOMxNoyW_NE",
+  "video_id": "lOMxNoyW_NE",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T08:38:44.767438+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4ef67e847943a17f450340809f5c58afe1f2da3dbe9ee22813ff8faebd192e33",
+  "attempts_before_success": []
+}

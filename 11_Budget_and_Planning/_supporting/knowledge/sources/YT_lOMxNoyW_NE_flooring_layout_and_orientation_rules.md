@@ -1,0 +1,45 @@
+---
+source_type: video transcript
+source_url: https://www.youtube.com/watch?v=lOMxNoyW_NE
+video_id: lOMxNoyW_NE
+transcript_file: 90_Archive/processed_sources/20260810_flooring_layout_and_orientation_rules_4ef67e84.txt
+fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
+upload_date: 2019-02-23 (confirmed via yt-dlp metadata)
+channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based
+source_metadata_location: Moscow (channel convention)
+language: ru
+extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)
+---
+
+# Extraction Note — Zemstandart: How Not to Install Floor Coverings — Continuous-vs-Separated Runs and Laying Direction (#060, YouTube lOMxNoyW_NE)
+
+## Evidence levels
+(1) transcript text — (2) YouTube metadata — (3) contextual inference — (4) external validation (none performed).
+
+## Source Metadata / Promotional Context
+
+Solo technical how-to, Alexey Zemskov, covering chamfered laminate, engineered/parquet board, solid wood, and wood-look ceramic tile as one category ("long finish coverings with a clearly defined contour"). Includes a stated 2015 practice change on this practitioner's own projects. No pricing content. **Turnkey/Full-Service** channel convention.
+
+## Flooring — Durable Facts & Rules
+
+- **Zemskov's material taxonomy**: "long" coverings are those whose length exceeds width × 4.5 (e.g. 40×30cm tile is "rectangular," not "long"; 110×20cm is "long"). Rules below apply specifically to long coverings — square/near-square tile follows different logic, not covered here.
+- **Zemskov's continuous-run-vs-room-separated rule, by material — a direct, load-bearing planning decision**:
+  - **Solid wood and engineered/parquet board: must always be laid separately per room, never as one continuous run across room boundaries.** Zemskov states laying these continuously across rooms is a *guaranteed* cause of buckling/swelling, with no exceptions given.
+  - **Ceramic tile (including wood-look): should always be laid as one continuous run**, per Zemskov even across an entire apartment, building, or neighboring unit if physically contiguous — his reasoning: tile doesn't expand with humidity or fear temperature swings, so there's no expansion-driven reason to break it up; splitting matching tile into separate runs with visible seams/thresholds between them is, per Zemskov, simply wrong when the tile is the same type/color. Exception: genuinely different tile types or colors in different rooms.
+  - **Laminate: Zemskov explicitly departs from what he calls the standard trade recommendation.** Standard guidance (as he states it): cheap laminate should be separated per room, premium laminate can be laid continuously, because premium laminate is generally more durable/moisture-resistant and less likely to swell. **Zemskov's own stated counter-experience**: in his practice he's seen inexpensive laminate laid continuously across ~150m² with zero issues, and also seen premium laminate (his example: a costly Kaindl product) on a 75m² apartment that he was forced to split into separate rooms after installation — he states this isn't a rare exception but has happened "hundreds" of times in his experience, leading him to conclude **any laminate has roughly a 50/50 chance of buckling regardless of price tier**, contradicting the premium-is-safer assumption. **His own practical recommendation, distinct from the standard trade advice**: if the installer/crew is reliable and offers a real warranty, lay continuously and don't worry — if it swells, they'll split it into rooms for free under warranty; if the crew is a fly-by-night operation ("залетные специалисты") offering an unenforceable "lifetime" warranty that effectively ends whenever the laminate swells (since there's no one left to hold to it), lay it separated per room from the start to avoid a real, uncovered repair cost. `single-account`, explicitly framed by Zemskov as contradicting the trade-standard advice, and a genuinely new risk-based decision rule (crew reliability, not laminate price tier, as the deciding factor) for this store.
+- **Zemskov's three laying-direction options and when each applies**: (1) **along the light** (parallel to the main window's light direction) — evenly illuminates the pattern along seams, the joints read less distracting; (2) **along the direction of foot traffic** — lets foot-scuffing wear happen along, not across, the seams, extending service life; (3) **diagonal** — Zemskov states this has no real justification (his phrase: "neither fish nor meat") since it conflicts with both the light direction and the traffic direction and with the room's own furnishing lines, produces objectively worse-looking small triangular offcuts at every doorway/opening, generates a real, costly amount of extra material waste, and per Zemskov the only real motive for it is wanting to look different from neighbors who bought the same limited local laminate stock.
+- **Zemskov's rule for reconciling light-direction vs. traffic-direction when a single continuous run spans a whole apartment**: prioritize the light direction, because window-facing rooms collectively have far more floor area than corridors — accepting that a corridor laid "along the light" (i.e., across its own traffic direction) will wear somewhat faster there, which Zemskov says is acceptable since modern laminate typically still takes ~7 years of ordinary household wear to visibly show seam wear in a standard apartment corridor. **In a genuinely high-traffic space (his example: a large office corridor), lay along the traffic direction instead** — a continuous-light-priority approach there would wear through visibly within just a few months, per Zemskov.
+- **Zemskov's board-bonding (row-offset) patterns, worst to best, for a covering where boards interlock (laminate/solid wood/engineered board — explicitly does NOT apply to ceramic tile, which has no structural interlock and can be laid in any pattern)**:
+  - **Worst: offsetting each row by exactly one board-width.** Zemskov states most manufacturers require cross-joints to be separated by at least 1.5× board width or the covering effectively has no real structural bonding (weak and short-lived); visually this pattern also produces an obvious diagonal line across the floor that conflicts with both light and traffic direction.
+  - **Common but discontinued by Zemskov since 2015: offsetting each row by exactly half the board length ("classic"/brick-bond pattern).** Zemskov states this gives maximum structural bonding (any load spreads evenly across the whole surface) but produces a visibly repeating dotted cross-line pattern (cross-joints align every other row) that reads as visual noise and divides the room into obvious rectangles — he stopped using this pattern on his own projects in 2015 for this visual reason, despite its structural strength.
+  - **Zemskov's own current standard: offsetting each row by exactly one-third of the board length.** This spaces cross-joints two rows apart instead of one, breaking up the repeating dotted-line effect and reading as a more varied, harmonious pattern, while (implicitly, not explicitly re-stated for this pattern specifically) still meeting the 1.5×-width cross-joint-separation requirement mentioned above.
+  - **Zemskov's stated mathematical reasoning for the 4.5:1 length-to-width ratio threshold used to define "long" coverings**: if a covering's length were only ~3× its width, the 1/3-offset pattern would produce the same cross-joint alignment as the discontinued 1/2-offset "classic" pattern (a wasted distinction), and the discontinued 1/2-offset pattern itself would start to resemble the worst 1-board-width-offset pattern — the 4.5:1 ratio is set high enough to keep these three patterns genuinely visually distinct from each other.
+
+## Assumptions / Uncertainties
+
+- Zemskov's "any laminate has ~50/50 buckling odds regardless of price" claim is a strong, specific statistical-sounding statement presented as his own practical experience, not a cited study or manufacturer data — `single-account`, `unverified` as a literal probability, though the underlying point (premium laminate is not a guarantee against buckling) is a genuinely useful caution regardless of the exact odds.
+- Upload date confirmed via yt-dlp metadata: 2019-02-23 (three days after `PwJsksBs4Ek`, 2019-02-20).
+
+## Relevance to This Project's Topic
+
+Extends `13_Surfaces_and_Finishes/Flooring_Guide.md` with a genuinely new, material-specific continuous-vs-separated-run decision framework (a direct complement to this store's existing L-shaped-room/dividing-wall content from `yt_UfmUC4-T3jY`, which addressed *why* to split a run — this source addresses *which materials require it regardless of room shape*), a light-vs-traffic-direction laying priority rule, and a specific, checkable row-offset pattern recommendation (1/3 board length, not 1/2) with Zemskov's own stated reasoning for departing from the more common "classic" brick-bond pattern.
