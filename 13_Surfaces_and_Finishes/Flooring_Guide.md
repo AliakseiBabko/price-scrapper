@@ -1,5 +1,14 @@
 # Flooring Guide - Do's and Don'ts
 
+## Transitions, Grain Direction, and Material Cautions — per Zemskov/Zemstandart (added 2026-08-10)
+
+> [!NOTE]
+> New topic angle for this page. Two separate Zemskov/Zemstandart sources, `single-account`/`single-account` throughout — one a real 88.5m² project (cited durability/cost claims are his own account, not independently verified against a materials supplier or another installer), the other a general planning livestream with one real cited client case. [sources: `90_Archive/processed_sources/20260810_entry_hallway_dividing_wall_case_8963951b.txt`, `90_Archive/processed_sources/20260810_never_do_project_in_pieces_873e1532.txt`]
+
+- **Zemskov's short-transition rule**: an entry-zone floor wears out faster than the rest of an apartment even when water-resistant, because it's a "dirty zone" (tracked-in grit, moisture) — being able to replace flooring in just that zone independently has real value to him. Without a dividing wall creating a proper door opening, a transition/seam in an L-shaped or irregular zone has to run diagonally or awkwardly, producing a seam that's long, visually prominent, and (his claim) fails faster the longer it is. **His fix in the cited project**: route the transition through a door opening, terminating at a short (80cm in that case) transition molding anchored to the door frame rather than the baseboard — a texture/seam this short holds firmly and reads as intentional. **General rule as Zemskov states it**: the shorter a flooring transition seam, the better it holds and looks — route transitions through door openings rather than across open floor whenever possible.
+- **Zemskov's grain-direction wear claim**: solid/engineered wood flooring (массив) wears unevenly depending on the direction of foot traffic relative to the grain — per his account it holds up well when boards run parallel to the main direction of movement, and wears unusually fast laid across that direction. In an L-shaped corridor, this means (per Zemskov) the two legs of the L often need flooring run in genuinely different directions to match their own traffic pattern, which — without a dividing wall — forces an awkward, long diagonal seam where the two directions meet. His fix: a dividing wall with a door opening lets each leg have its own grain direction, meeting cleanly at the opening's center.
+- **Zemskov's cork-flooring-vs-large-dog caution (real cited case)**: a client wanted both a soft cork floor and a large dog; Zemskov told them to choose one, since a large dog's claws would (per his account) shred a cork floor within roughly a week of normal use. The client chose the dog and dropped the cork-floor plan; per Zemskov, the client later thanked him after seeing a friend's cork floor (installed alongside a large dog) reduced to confetti-like debris requiring constant vacuuming. **Treat the "within a week" figure as a single vivid account (`single-account`)**, not a benchmarked test result — the underlying claim (cork is soft relative to dog claws) is plausible but not independently verified here.
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |
@@ -13,7 +22,7 @@
 | Leave 3-5 cm un-cut baseboard extension past wall corners at custom cabinet niche locations | Living Room, Bedrooms | Allows custom furniture installers to trim baseboard flush against cabinet panels without joint gaps | `90_Archive/processed_sources/20260727_renovation_guide_mistakes_3_a0e895b1.txt` |
 | Select exact finishing floor material types before starting rough renovation works | All Rooms | Enables contractors to calculate precise subfloor screed and self-leveling compound depths to create single flush floor transitions | `90_Archive/processed_sources/20260727_renovation_guide_mistakes_4_21a6e3c1.txt` |
 | Grind high spots on concrete sub-floors when matching thick quartz-vinyl or laminate with porcelain tile | Wood-to-Tile Transitions | Achieves a seamless, zero-threshold floor transition without needing self-leveling compound | `90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e.txt` |
-
+| Route flooring transitions through a door opening rather than across open floor, per Zemskov/Zemstandart | Irregular/L-shaped rooms, multi-direction-traffic zones | A short seam anchored at a door frame holds better and reads as intentional; a long diagonal seam fails faster and looks accidental | `90_Archive/processed_sources/20260810_entry_hallway_dividing_wall_case_8963951b.txt` |
 
 ## Don'ts
 
@@ -21,3 +30,10 @@
 | :--- | :--- | :--- | :--- |
 | Do not lay laminate directly in wet areas | Bathroom, WC | Swelling and water damage | `90_Archive/processed_sources/20260727_vid1_transcript_d04723c5.txt` |
 | Do not install under-floor heating in entryway mudroom tile zones if household has large pets | Entrance Hallway | De-icing salts brought in on shoes melt and dry rapidly on heated tile; pets lick paws and risk chemical poisoning | `90_Archive/processed_sources/20260727_renovation_guide_mistakes_3_a0e895b1.txt` |
+| Do not combine cork flooring with a large dog in the household, per Zemskov/Zemstandart | Households with large dogs | Claws reportedly shred cork flooring within roughly a week of normal use (single cited account) | `90_Archive/processed_sources/20260810_never_do_project_in_pieces_873e1532.txt` |
+
+## Source Notes
+
+- Tile-waste buffer, acoustic underlayment, self-leveling compound, SPC selection, baseboard type/mounting, screed depth planning, tile-to-floor grinding technique — sources as cited inline above (region/channel not yet cross-referenced against the rest of this vault's source-attribution conventions; flagged for future cleanup).
+- **Short-transition-at-door-opening rule, grain-direction wear mechanism** (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow, real 88.5m² project, user-supplied Turboscribe transcript after both automated caption-fetch methods failed, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]] (#138, 2020-12-01).
+- **Cork-flooring-vs-large-dog caution, real cited client case** (same practitioner, livestream, user-supplied Turboscribe transcript, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_z3xJeVPL6n4_never_do_project_in_pieces|extraction note]] (#705, 2022-12-13).

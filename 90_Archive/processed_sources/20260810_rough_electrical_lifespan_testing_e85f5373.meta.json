@@ -1,0 +1,12 @@
+{
+  "url": "https://www.youtube.com/watch?v=NXwfvUwUKLc",
+  "video_id": "NXwfvUwUKLc",
+  "language": "ru",
+  "is_generated_captions": null,
+  "method": "user-supplied-turboscribe",
+  "timestamp": "2026-08-10T08:04:09.930166+00:00",
+  "source_tool": "turboscribe (paid third-party transcription service, user-supplied)",
+  "sha256": "e85f53738996fd7efc7dca9a6dbe32e8e538b78c5f10d87d9f65d4250c9c0ff2",
+  "upload_date_confirmed": "2019-06-29",
+  "note": "Both youtube-transcript-api and yt-dlp previously found no caption track for this video. User manually transcribed via Turboscribe and supplied the file for processing."
+}

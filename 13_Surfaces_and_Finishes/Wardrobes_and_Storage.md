@@ -51,6 +51,15 @@ A single-sided walk-in's aisle is dead space a plain wardrobe doesn't need. **Re
 
 **A walk-in attached to a child's bedroom should be entered from a shared hallway, not from inside the child's own room** — entering from the child's room consumes wall space that room could otherwise use for a proper wardrobe (with a full-length mirror door). A closed door already grants the privacy a child might want, regardless of which room the doorway opens from. This is a missed-opportunity case (the client chose the less-optimal option against the practitioner's recommendation), not a rebuilt one — treat as the practitioner's stated general preference. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_u28Gqg_V7eE_walkin_access_from_hallway_not_bedroom|extraction note]]]
 
+### 4.3 A Dividing Wall Converting an L-Shaped Corner Into Two Built-In Niches — per Zemskov/Zemstandart (added 2026-08-10)
+
+> [!NOTE]
+> Real jobsite case, 88.5m² apartment (a recurring project referenced across other Zemstandart videos already in this store), Alexey Zemskov's own account, `single-account`, real cited cost figures. Also folded into `13_Surfaces_and_Finishes/Ceilings_Guide.md`, `13_Surfaces_and_Finishes/Flooring_Guide.md`, and `13_Surfaces_and_Finishes/Doors_and_Trim.md` — this was a single, unusually cross-cutting case. [source: `90_Archive/processed_sources/20260810_entry_hallway_dividing_wall_case_8963951b.txt`]
+
+- **The problem, per Zemskov**: a developer's L-shaped entry hallway, main-wall width 1.56m (finishing to ~1.5m), too narrow for a wardrobe deeper than 40cm without protruding into the door opening — a 40cm-deep wardrobe only fits shoes/light clothing, not coats. Deep storage needs the L-shape's 60cm-deep leg, but per Zemskov that geometry only accommodates a **free-standing ("corpus") wardrobe**, not a built-in — pricier (pays for panels a built-in wouldn't need) and, even with a rounding module to soften the exposed corner, wastes roughly **30% of the wardrobe's usable length** on the purely transitional section, by his figures.
+- **Zemskov's fix**: a short (2.16m) dividing wall, cost under 2,000 RUB, converting the L into two separate rectangular niches — letting a built-in sliding-door wardrobe replace the free-standing one, using full ceiling height and losing zero length to a transitional section. He frames this as solving five separate problems (wardrobe cost, ceiling, flooring, baseboard-termination — see the other three pages above) with one cheap structural change.
+- **This corroborates, with a specific quantified figure (~30% length loss), this store's existing built-in-vs-corpus wardrobe cost theme** — same underlying tradeoff, now with Zemskov's own real-project waste percentage attached.
+
 ## 5. Common Mistakes (Real Client-Corroborated)
 
 From a real client's own finished bedroom, walked through on camera — the strongest evidence tier on this page for the mistakes below:
@@ -127,5 +136,6 @@ All 9 sources below are the same channel/practitioner — see the corroboration 
 - Real case: creating a built-in-wardrobe wall niche — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_n0O47DdhATw_builtin_wardrobe_niche_technique|extraction note]].
 - Real case: reconfiguring a window/balcony opening to fit a wardrobe, plus a bedroom electrical-layout checklist — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_CHCB4KPupyc_bedroom_window_reconfig_for_wardrobe|extraction note]].
 - Eight bedroom-renovation mistakes, real client corroboration on camera — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8odGOTVAuIk_bedroom_mistakes_client_testimonial|extraction note]].
+- Real case (added 2026-08-10, user-supplied Turboscribe transcript after both automated caption-fetch methods failed): a dividing wall converting an L-shaped entry hallway into two built-in-wardrobe niches (§4.3), plus new-topic content folded into three other pages (ceilings, flooring, doors) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]] (#138, 2020-12-01).
 
 Full raw facts (including cross-references not repeated here) live in the `Furniture / Built-ins: Wardrobe & Closet Design` and `Regulations / Consumer-Protection Process` sections of [[11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_budgeting_knowledge_store|renovation_budgeting_knowledge_store.md]].

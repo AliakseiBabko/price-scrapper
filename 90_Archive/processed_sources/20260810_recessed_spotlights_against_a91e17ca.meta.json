@@ -1,0 +1,12 @@
+{
+  "url": "https://www.youtube.com/watch?v=lu1LHG7t9vA",
+  "video_id": "lu1LHG7t9vA",
+  "language": "ru",
+  "is_generated_captions": null,
+  "method": "user-supplied-turboscribe",
+  "timestamp": "2026-08-10T08:04:09.935230+00:00",
+  "source_tool": "turboscribe (paid third-party transcription service, user-supplied)",
+  "sha256": "a91e17ca466e436c032d9c51714427118b33ba54189b01734e1f7bd847e638e8",
+  "upload_date_confirmed": "2019-05-13",
+  "note": "Both youtube-transcript-api and yt-dlp previously found no caption track for this video. User manually transcribed via Turboscribe and supplied the file for processing."
+}
