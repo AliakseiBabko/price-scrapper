@@ -89,6 +89,17 @@ See [[03_Kitchen/Appliances/analysis/Hood_Analysis|Kitchen Hood Analysis]] for t
 
 **Exhaust-duct concealment in a hallway (added 2026-08-05, `single-account`, `ASR-uncertain` — this source's transcript is unusually garbled even though flagged as manually-captioned; treat the specific numbers below with more caution than this page's other figures)**: a bulky developer-installed exhaust-duct box can be replaced with a smaller-cross-section duct — bathroom/toilet exhaust routed via a forced/booster fan through a round-to-flat adapter into the hallway and building shaft, junction pulled tight to the ceiling for noise, all concealed behind a stretch ceiling. Reported total ceiling-height loss ~10 cm, of which roughly 6 cm is attributed to the developer's own pre-existing duct routing (not this technique) and ~4 cm to the technique itself — the specific cm split is uncertain, but the qualitative point (net added loss is small, most hallways tolerate it well) is better supported. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HX2pDdILM7U_hidden_exhaust_duct_concealment|extraction note]]]
 
+## 5.3 Kitchen Exhaust Duct Sizing, Ceiling Drop & Soundproofing (added 2026-08-10)
+
+`single-account`, cleanly-transcribed (unlike §5.2's exhaust-concealment entry above) — same corroboration caveat as elsewhere on this page.
+
+- **Duct cross-section trades off noise against ceiling drop, and "bigger" isn't the same as "quieter"**: a duct box needs to be *thick*, not just *wide*, to cut noise - a wide-but-thin box lowers the ceiling more without the expected noise benefit. Standard cross-section for most systems is **55×110 mm**; a powerful exhaust hood run through that standard size will be very noisy and instead needs a **250×55 mm** cross-section. Duct *length* is a separate noise driver - a longer run from the forced-exhaust point to the shaft (one real project cited ~4 m) increases noise independent of cross-section.
+- **Ceiling drop is typically ~40 mm more than the duct box's own thickness** - the extra allowance is for electrical cable conduit routed alongside/above the duct in the same concealed space. This must be pre-calculated in the design project so the actual finished ceiling height isn't a surprise after the renovation is done.
+- **Always add self-adhesive duct soundproofing regardless of the box's own thickness** - a duct is never fully soundproof on its own. Spec: self-adhesive, minimum 3 mm thick.
+- **A design project should document every ventilation exhaust point (forced and natural)** explicitly, so the client can verify contractors' work against the plan during the renovation.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZqfaeREBEYQ_kitchen_ventilation_mistakes|extraction note]]]
+
 ## 6. Common Mistakes
 
 Three recurring buyer/installer mistakes, from an AC retailer's own stated experience:
@@ -122,7 +133,7 @@ A fourth, broader caution from the same source: **AC reliability and lifespan ar
 | Default to a wall-mounted breather unit for fresh air unless there's a specific reason (e.g. a loud road) to install full ducted ventilation | Rooms needing fresh-air ventilation | Handles most air-quality needs at a fraction of a full system's cost | `90_Archive/processed_sources/20260730_prolife_invest_moscow_flipping_31c14c27.txt` |
 | For a kitchen hood in a constrained-venting apartment, compare models on recirculation-mode filter cost/lifespan, not just extraction-mode m³/h rating | Kitchen | Extraction performance is capped by shared shaft capacity (~100-180 m³/h typical); recirculation mode works reliably regardless of shaft condition | `90_Archive/processed_sources/20260731_roman_che_kitchen_hood_guide_a89bb70d.txt` |
 | Compare kitchen hoods by minimum-speed noise level, not maximum-speed spec | Kitchen | A hood runs on speed 1-2 the vast majority of the time; max-speed dB rankings can reverse at minimum speed | `90_Archive/processed_sources/20260731_hood_video_3_ec2042f3.txt` |
-| Install a tee fitting with a separate check valve to preserve natural ventilation alongside a ducted kitchen hood | Kitchen | Prevents the hood's own exhaust from blowing back through a passive vent grille, and blocks shaft backdraft/odors from entering when idle | `90_Archive/processed_sources/20260731_hood_video_5_54ec0a93.txt`, `90_Archive/processed_sources/20260731_hood_video_7_a7501bb5.txt` |
+| Install a tee fitting with a separate check valve to preserve natural ventilation alongside a ducted kitchen hood | Kitchen | Prevents the hood's own exhaust from blowing back through a passive vent grille, and blocks shaft backdraft/odors from entering when idle | `90_Archive/processed_sources/20260731_hood_video_5_54ec0a93.txt`, `90_Archive/processed_sources/20260731_hood_video_7_a7501bb5.txt`, [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZqfaeREBEYQ_kitchen_ventilation_mistakes\|YT_ZqfaeREBEYQ]] (independent corroboration, Zemstandart, 2026-08-10) |
 
 ### Don'ts
 
@@ -143,4 +154,6 @@ A fourth, broader caution from the same source: **AC reliability and lifespan ar
 - **Breathers vs. full ventilation** (Prolife Invest, Moscow, 2026) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DsdLa87Acz4_prolife_invest_moscow_flipping|full extraction note]].
 - **Ventilation shaft vs. plumbing cladding distinction** (Дома Минска Episode 2, designer interview, Minsk, 2026) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QHl1YEHMfgE_doma_minska_severny_bereg_ep2_layout|full extraction note]].
 - **Kitchen hood extraction vs. recirculation, shared-shaft capacity limits** (7 sources cross-referenced: Roman Che TV 2021, Мебель — это просто 4-part series 2019-2020, ЛенРемонт 2019, Argus 2024 — none region-specific) — full multi-source analysis and its direct conflict with the kitchen's selected hood model in [[03_Kitchen/Appliances/analysis/Hood_Analysis|Kitchen Hood Analysis]].
+- **Exhaust-duct concealment in a hallway** (Zemstandart, Moscow, 2026 — transcript unusually garbled, treat numbers with caution) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HX2pDdILM7U_hidden_exhaust_duct_concealment|full extraction note]].
+- **Kitchen exhaust duct sizing, ceiling drop & soundproofing, check-valve corroboration** (Zemstandart/Zemsproekt, Moscow, 2026) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZqfaeREBEYQ_kitchen_ventilation_mistakes|full extraction note]].
 - Pre-existing Do's/Don'ts rows sourced from earlier archived transcripts — see individual table cells above for paths.

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ZqfaeREBEYQ",
+  "video_id": "ZqfaeREBEYQ",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-10T06:03:30.434652+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "80d8c9ef2d354f19cb4633075bc5c63390bbe3f810d1f5f883cf6053c5443565",
+  "attempts_before_success": []
+}
