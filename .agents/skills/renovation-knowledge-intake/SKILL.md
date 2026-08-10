@@ -229,6 +229,12 @@ For one source at a time:
 
 1. **YouTube source** → run `youtube-transcript-fetch` first to get the
    transcript file. Do not proceed to extraction on an un-fetched video.
+1a. **Company/advertising website source** → fetch the real rendered page
+   text before extracting, not a summarization tool's paraphrase - see
+   "Company website sources: fetching and marketing filter" below for why
+   and how. Save the fetched text as an evidence file under
+   `90_Archive/processed_sources/` (same convention as an archived
+   transcript) before treating it as a text source for step 3.
 2. **Screenshot/image source** → run `visual-evidence-organize` first (or
    use an existing screenshot-analysis artifact already produced by it),
    to get an organized, described bundle. Do not attempt raw OCR/image
@@ -379,6 +385,106 @@ source:
   not a retroactive editorial rule that deletes already-recorded source
   content - a source note can and should still say "the speaker
   recommended Brand X," just with the commercial context attached.
+
+## Company website sources: fetching and marketing filter
+
+A company's own website is the single most self-promotional source type
+this project processes - more so than even its YouTube channel, since
+there's no third-party platform mediating it at all. Two separate
+problems need handling for this source type: getting the *real* content,
+and then filtering *marketing* from *usable data* within it.
+
+### Fetching: use a real rendered browser, not a summarization tool, for anything that will become evidence
+
+**Do not treat a `WebFetch`-style tool's paraphrase as the source
+text for extraction.** A real test on this project (2026-08-10, see
+`web_zemspro_about_development`'s source note and Change Log) found
+`WebFetch` accurate on everything it *did* report, but **it missed an
+entire tabbed section of concrete content** - the page was a tab-
+switching single-page layout, and a summarization tool (like a raw
+`innerText` read) only sees whichever tab is active by default; the
+other tabs' real content exists in the DOM but is invisible until
+clicked. Marketing/company sites lean heavily on tabs, accordions, "read
+more" expanders, and modal-triggered content specifically *because* it
+lets them front-load the polished pitch and bury the substantive detail
+- which is exactly the detail this project wants and the fluff doesn't
+matter losing.
+
+- **Prefer Playwright MCP** (`browser_navigate` + `browser_snapshot`/
+  `browser_evaluate`) when available in the session - it renders the
+  real page and lets you click through tabs/accordions/expanders one by
+  one, reading `document.body.innerText` (or a similar real-DOM read)
+  after each click, not just the page's default state.
+- **If Playwright MCP isn't loaded in the current session** (MCP tools
+  are loaded once at session start and won't appear mid-conversation
+  even after `claude mcp add` - a genuinely new session is needed), fall
+  back to `tools/web/fetch_rendered_page.mjs`, a local Playwright script
+  with the same underlying capability (real rendered text, no
+  summarization) but without tab-clicking built in - manually inspect
+  the page structure first if you suspect hidden tabbed content.
+- **Save the fetched text as a real evidence file** under
+  `90_Archive/processed_sources/`, the same way an archived video
+  transcript is preserved - a website source needs the same
+  traceability a transcript gets, not a one-off summary that can't be
+  re-checked later.
+- A `WebFetch` pass is still fine for a *quick investigative question*
+  ("does this page mention a city name?") where losing hidden-tab
+  content is an acceptable risk and nothing is being committed as
+  evidence - the rule above applies specifically to fetching a source
+  that will be extracted into the store.
+
+### Marketing filter: what's real data vs. what's advertising copy
+
+A company website is overwhelmingly written to persuade, not to inform -
+most of its text is not extractable as durable fact. Apply this filter
+during extraction:
+
+**Extract as real data** (the actual point of processing this source
+type):
+- Concrete, checkable numbers: prices, dimensions, timelines, page/item
+  counts, deposit amounts - anything a reader could verify or act on.
+- Named, structured processes: a numbered stage list, a checklist, a
+  named quality-control sequence - even if the company's own framing is
+  "look how thorough we are," the *structure itself* (e.g. "review by
+  more than one role before delivery," "bound scope-change requests to
+  an explicit window") is a reusable planning artifact independent of
+  which company is used.
+- Specific technique/mechanism claims with a stated *reason*, not just
+  an assertion - "frosted glass still leaks sound because X" is
+  extractable (tag confidence per the advertising filter above); "our
+  glass doors are the best" is not.
+- Real project examples with real numbers (a specific job's actual
+  cost/timeline/materials) - rare on a company's own marketing site
+  compared to a case-study video, but extract them the same way as a
+  video case study when present.
+- Verifiable facts about the company itself when relevant to region/
+  currency confirmation (see the Price Comparability section above) -
+  an address, a founding date, a stated service area.
+
+**Do not extract as durable fact** (recognize and skip, don't launder
+into the store):
+- Superlative/unverifiable claims with no underlying data shown ("we
+  analyzed 100-200 projects," "the best quality on the market") - if
+  specific enough to be worth recording at all, tag `unverified` and
+  attribute it explicitly as the company's own claim, never adopt it as
+  a store-level fact.
+- Generic value propositions and "why choose us" framing with no
+  checkable content behind them.
+- Testimonials/reviews without concrete, specific detail attached
+  (a vague "great service!" quote is not evidence of anything;
+  a testimonial citing an actual price or defect is).
+- The company's own "we know better than the client" framing on a
+  technique claim - extract the technique, drop the framing (see the
+  worked example in `web_zemspro_about_development`'s Mistakes/Warnings
+  section: four real design rules were extracted from a passage whose
+  overall point was "we override the client's wishes," which itself is
+  not a fact worth recording).
+
+This filter is a lens for what's worth carrying forward, not a
+reason to under-process a company-website source relative to a video -
+these sites can and do contain genuinely useful checklists, process
+structures, and technique rules once separated from the surrounding ad
+copy, per the worked example above.
 
 ### Market data vs. tier-steering - a finer distinction within promotional sources
 
