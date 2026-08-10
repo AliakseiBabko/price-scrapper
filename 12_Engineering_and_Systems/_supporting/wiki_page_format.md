@@ -36,7 +36,7 @@ This template also now backs `07_Bathroom/Bathroom_Guide.md` and `08_WC/WC_Guide
 
 This template also now backs `13_Surfaces_and_Finishes/Doors_and_Trim.md` (created 2026-07-31), synthesized from the two Doors/Trim Durable Facts batches in the budgeting knowledge store (8 single-channel Zemstandart sources + 7 independent-channel sources). Same shape; also carries an explicit top-of-page corroboration note since most of its first-batch content traces to one channel, following the pattern established in `07_Bathroom/Bathroom_Guide.md`'s own top-of-page note.
 
-This template also now backs `13_Surfaces_and_Finishes/Wardrobes_and_Storage.md` (created 2026-08-10, per explicit user request), synthesized from the "Furniture / Built-ins: Wardrobe & Closet Design" batch in the budgeting knowledge store (9 sources, all one channel — Zemstandart/Zemsproekt). Same shape, same top-of-page corroboration note pattern. Also folds in one off-topic source's legal-recourse content (§7) that doesn't fit any other page's scope.
+This template also now backs `14_Furniture/Wardrobes_and_Storage.md` (created 2026-08-10, per explicit user request, originally under `13_Surfaces_and_Finishes/`; moved to its own top-level `14_Furniture/` folder 2026-08-10 per explicit user request — see the knowledge store's Change Log), synthesized from the "Furniture / Built-ins: Wardrobe & Closet Design" batch in the budgeting knowledge store (9 sources, all one channel — Zemstandart/Zemsproekt). Same shape, same top-of-page corroboration note pattern. Also folds in one off-topic source's legal-recourse content (§7) that doesn't fit any other page's scope.
 
 ## Content-routing rule: which page does a fact belong on?
 

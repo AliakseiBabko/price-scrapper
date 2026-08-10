@@ -11,6 +11,10 @@ Index of domain and room-specific Do's & Don'ts guides across the vault.
 - [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring Guide]]
 - [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]]
 - [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]]
+- [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]]
+
+## Furniture
+- [[14_Furniture/Wardrobes_and_Storage|Wardrobes & Storage]]
 
 ## Room Specific Rules
 - [[07_Bathroom/analysis/Dos_and_Donts|Bathroom]]

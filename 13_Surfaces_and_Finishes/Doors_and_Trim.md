@@ -234,6 +234,6 @@ Worth flagging lightly rather than overclaiming: the concealed-door regret/hidde
 
 **Third batch — Alexey Zemskov / Zemstandart-Zemsproekt, user-supplied Turboscribe transcripts (added 2026-08-10, both after automated caption-fetch methods failed):**
 - Comprehensive interior/entrance door buying guide (style, hardware, security) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ti8J19zY0EM_interior_entrance_door_buying_guide|extraction note]] (#024, 2019-01-12).
-- Real 88.5m² case: dividing wall enabling correct baseboard-to-casing termination (also folded into Wardrobes_and_Storage.md, Ceilings_Guide.md, Flooring_Guide.md) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]] (#138, 2020-12-01).
+- Real 88.5m² case: dividing wall enabling correct baseboard-to-casing termination (also folded into `14_Furniture/Wardrobes_and_Storage.md`, Ceilings_Guide.md, Flooring_Guide.md) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]] (#138, 2020-12-01).
 
 Full raw facts (including cross-references and dating/region caveats not repeated here) live in the `Doors / Trim` sections of [[11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_budgeting_knowledge_store|renovation_budgeting_knowledge_store.md]].
