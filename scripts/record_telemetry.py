@@ -15,12 +15,23 @@ Usage
 -----
     python scripts/record_telemetry.py <kind> [--ai-telemetry-path PATH] <rest of the record_<kind>.py args>
 
-`<kind>` is one of: session, task, skill-invocation, validation,
-command-run, artifact-touch, feedback-event - see ai-telemetry's own
-README ("Recording native telemetry") for each one's full flag list.
+`<kind>` is one of: current-session, session, task, skill-invocation,
+validation, command-run, artifact-touch, feedback-event - see
+ai-telemetry's own README ("Recording native telemetry" and "Near-
+automatic current-session recording") for each one's full flag list.
+`current-session` is different from the rest: it forwards to
+`record_current_agent_session.py`, which auto-detects project/runtime/
+session where it reliably can (no `--session-id`/`--runtime-id` required
+in the common case) and does not accept `--source-system` at all (always
+`native` internally) - this wrapper skips injecting that flag only for
+this one kind.
 
 Examples
 --------
+    # Near-automatic closeout - zero extra flags needed in the common case.
+    python scripts/record_telemetry.py current-session
+    python scripts/record_telemetry.py current-session --dry-run
+
     python scripts/record_telemetry.py session ^
         --runtime-id claude --session-id abc123 --date 2026-08-12
 
@@ -61,6 +72,7 @@ DEFAULT_AI_TELEMETRY_PATH = r"C:\Users\User\Documents\ai-telemetry"
 
 # kind -> ai-telemetry script that actually performs the write.
 SCRIPT_MAP = {
+    "current-session": "record_current_agent_session.py",
     "session": "record_session.py",
     "task": "record_task.py",
     "skill-invocation": "record_skill_invocation.py",
@@ -69,6 +81,14 @@ SCRIPT_MAP = {
     "artifact-touch": "record_artifact_touch.py",
     "feedback-event": "record_feedback_event.py",
 }
+
+# Kinds whose target script has no --source-system flag at all (it's
+# hardcoded internally instead) - injecting the flag anyway would make
+# that script's own argparse fail with "unrecognized arguments". Keep
+# this set in sync with SCRIPT_MAP: a kind belongs here only if its
+# target script genuinely lacks the flag, never as a way to skip the
+# default for a script that does accept it.
+NO_SOURCE_SYSTEM_KINDS = {"current-session"}
 
 
 def _has_flag(args: list[str], flag: str) -> bool:
@@ -118,7 +138,7 @@ def main() -> int:
     # supplied them explicitly - never override an explicit caller value.
     if not _has_flag(passthrough, "--project-id"):
         passthrough = ["--project-id", DEFAULT_PROJECT_ID] + passthrough
-    if not _has_flag(passthrough, "--source-system"):
+    if kind not in NO_SOURCE_SYSTEM_KINDS and not _has_flag(passthrough, "--source-system"):
         passthrough = ["--source-system", DEFAULT_SOURCE_SYSTEM] + passthrough
 
     cmd = [sys.executable, str(target_script), *passthrough]
