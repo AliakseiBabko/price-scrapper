@@ -49,7 +49,7 @@ Two-speaker company technical explainer: Alexey Zemskov hands off to Sergey Sara
 
 ## Target Page(s)
 
-- **`03_Kitchen/Appliances/Kitchen_Refrigerators.md`** — currently exists in this vault; candidate for the built-in-fridge mistakes/rules above, but filling it is left to the user/a later explicit step, outside this wrapper's three owned storage paths.
+- **`15_Appliances/Kitchen/Kitchen_Refrigerators.md`** — currently exists in this vault; candidate for the built-in-fridge mistakes/rules above, but filling it is left to the user/a later explicit step, outside this wrapper's three owned storage paths.
 - **Intermediate knowledge store — Construction/Finishing Labor Rate table** — the comfort-class (25-45k, ≈32k actual) and business-class (50-85k) RUB/m² bands are a genuinely new, cleanly-tiered data point worth adding to the existing table.
 
 ## Relevance to This Project's Topic

@@ -34,7 +34,7 @@ When saving, displaying, or analyzing appliance prices:
 ## 📂 4. User Preferences & Context Backlink
 To preserve user specific preferences (family profiles, layout changes, black glass styling, induction hobs without flex zones, stacked alignments, laundry specs, etc.), the AI agent must read:
 - [Family_Requirements.md](file:///c:/Users/User/Documents/price-scrapper/00_Master/Family_Requirements.md)
-- [Appliance_Preferences.md](file:///c:/Users/User/Documents/price-scrapper/00_Master/Appliance_Preferences.md)
+- [Appliance_Preferences.md](file:///c:/Users/User/Documents/price-scrapper/15_Appliances/Appliance_Preferences.md)
 - [Design_Concept.md](file:///c:/Users/User/Documents/price-scrapper/00_Master/Design_Concept.md)
 
 ---

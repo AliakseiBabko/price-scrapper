@@ -558,6 +558,6 @@ adopting the source's specific tier choice as the default.
   buckets route matching content into this topic's knowledge store/wiki
   like any other bucket - they do not make this skill write to
   `00_Master/Family_Requirements.md`, `00_Master/Design_Concept.md`, or
-  `00_Master/Appliance_Preferences.md`. Reconciling the wiki's synthesized
+  `15_Appliances/Appliance_Preferences.md`. Reconciling the wiki's synthesized
   understanding with those standalone master documents is a separate,
   explicit step the user asks for, not an automatic side effect of intake.

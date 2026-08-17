@@ -31,6 +31,7 @@
   - **Dishwasher**: [[Bosch_SMV8YCX02E_Dishwasher]]
   - **Hood**: [[Bosch_DHL555BL_Hood]]
 * **Full Category Comparisons**: [[Kitchen_Hoods]] (all researched hood candidates), [[Kitchen_Water_Filtering]] (under-sink RO systems, no selection made yet).
+* **Appliance domain home**: [[15_Appliances/Appliances_Index|Appliances Index]] (all kitchen + laundry appliance content now lives under `15_Appliances/`).
 
 ## 🛋️ Furniture & Dining
 * **Kitchen Worktop**: *Placeholder*

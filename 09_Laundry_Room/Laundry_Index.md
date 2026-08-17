@@ -30,6 +30,7 @@
   - **Dryer**: [[LG_DC10V9V9E_Dryer]] (stacked on top)
   - **Washing Machine**: [[LG_F4V9LA2W_Washing_Machine]] (on bottom)
   - **Stacking Kit**: LG KSTK1 Connection Kit
+* **Appliance domain home**: [[15_Appliances/Appliances_Index|Appliances Index]] (all kitchen + laundry appliance content now lives under `15_Appliances/`).
 
 ## 🛋️ Layout & Storage
 * **Laundry Column**: Placed along the back wall (`1598 mm` depth provides ample space).
