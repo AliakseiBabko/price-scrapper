@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company technique/build-walkthrough, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=emQO-DnhfBc
 video_id: emQO-DnhfBc
-transcript_file: 90_Archive/processed_sources/20260815_never_pay_wallpaper_prep_267_38b06a79.txt
+transcript_file: _Archive/processed_sources/20260815_never_pay_wallpaper_prep_267_38b06a79.txt
 fetched: 2026-08-15
 upload_date: 2024-05-12 (confirmed via yt-dlp metadata, upload_date=20240512)
 channel: Zemstandart / Zemsproekt (Sergey Saratov)

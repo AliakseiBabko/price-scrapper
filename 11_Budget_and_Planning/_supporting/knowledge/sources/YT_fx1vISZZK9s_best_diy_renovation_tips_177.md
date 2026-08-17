@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker + intro co-host segment, structured "7 tips" list format, Russian, manually-created captions, clean transcript quality)
 source_url: https://www.youtube.com/watch?v=fx1vISZZK9s
 video_id: fx1vISZZK9s
-transcript_file: 90_Archive/processed_sources/20260815_best_diy_renovation_tips_177_0877a6d1.txt
+transcript_file: _Archive/processed_sources/20260815_best_diy_renovation_tips_177_0877a6d1.txt
 fetched: 2026-08-15
 upload_date: 2022-10-09 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

@@ -2,7 +2,7 @@
 source_type: video transcript (real client consumer-dispute case)
 source_url: https://www.youtube.com/watch?v=0mrBnaOU3I0
 video_id: 0mrBnaOU3I0
-transcript_file: 90_Archive/processed_sources/20260810_quartz_vinyl_underlayment_dispute_621b3f51.txt
+transcript_file: _Archive/processed_sources/20260810_quartz_vinyl_underlayment_dispute_621b3f51.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2018-12-13 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

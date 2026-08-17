@@ -17,8 +17,8 @@ tools/blender/bin/
 tools/blender/downloads/
 tools/blender/profile*/
 tools/blender/inspect-bonsai-wheel/
-00_Inbox/_Visual_Drop/
-00_Inbox/transcripts/
-00_Inbox/audio/
-00_Inbox/preflight/
+_Inbox/_Visual_Drop/
+_Inbox/transcripts/
+_Inbox/audio/
+_Inbox/preflight/
 .playwright-mcp/

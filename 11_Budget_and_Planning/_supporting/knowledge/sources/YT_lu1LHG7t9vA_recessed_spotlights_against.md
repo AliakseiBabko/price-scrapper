@@ -2,7 +2,7 @@
 source_type: video transcript (demonstration in the practitioner's own rented apartment, user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=lu1LHG7t9vA
 video_id: lu1LHG7t9vA
-transcript_file: 90_Archive/processed_sources/20260810_recessed_spotlights_against_a91e17ca.txt
+transcript_file: _Archive/processed_sources/20260810_recessed_spotlights_against_a91e17ca.txt
 fetched: user-supplied 2026-08-10 (originally attempted 2026-08-04, logged `skipped` — no captions — run_20260804_100, now superseded)
 upload_date: 2019-05-13 (confirmed via yt-dlp metadata)
 channel: Zemstandart (Alexey Zemskov) — Moscow-based

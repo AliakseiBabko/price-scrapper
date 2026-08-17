@@ -2,7 +2,7 @@
 source_type: video transcript (real jobsite case, client testimonial included, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=Xh7uwbKVmfA
 video_id: Xh7uwbKVmfA
-transcript_file: 90_Archive/processed_sources/20260810_two_wardrobes_beat_walk_in_ab6b6e27.txt
+transcript_file: _Archive/processed_sources/20260810_two_wardrobes_beat_walk_in_ab6b6e27.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based (see [[project_zemskov_zemstandart_region_moscow_rub]])

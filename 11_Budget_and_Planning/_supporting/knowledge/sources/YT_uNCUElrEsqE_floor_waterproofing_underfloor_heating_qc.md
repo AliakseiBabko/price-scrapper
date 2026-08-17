@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company QC walkthrough, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=uNCUElrEsqE
 video_id: uNCUElrEsqE
-transcript_file: 90_Archive/processed_sources/20260804_floor_waterproofing_underfloor_heating_qc_70e110da.txt
+transcript_file: _Archive/processed_sources/20260804_floor_waterproofing_underfloor_heating_qc_70e110da.txt
 fetched: 2026-08-04
 upload_date: 2023-04-30
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

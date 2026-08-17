@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker project walkthrough, Russian, ASR auto-generated captions, no punctuation)
 source_url: https://www.youtube.com/watch?v=TM-z3NUojII
 video_id: TM-z3NUojII
-transcript_file: 90_Archive/processed_sources/20260804_46sqm_electric_walkthrough_b77a66e4.txt
+transcript_file: _Archive/processed_sources/20260804_46sqm_electric_walkthrough_b77a66e4.txt
 fetched: 2026-08-04
 upload_date: 2019-04-07
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

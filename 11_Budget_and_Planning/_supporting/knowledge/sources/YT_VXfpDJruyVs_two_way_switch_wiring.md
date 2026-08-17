@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker technical explainer, Russian, ASR auto-generated captions, no punctuation, numeric/terminal details heavily garbled)
 source_url: https://www.youtube.com/watch?v=VXfpDJruyVs
 video_id: VXfpDJruyVs
-transcript_file: 90_Archive/processed_sources/20260804_two_way_switch_wiring_d19dbb7b.txt
+transcript_file: _Archive/processed_sources/20260804_two_way_switch_wiring_d19dbb7b.txt
 fetched: 2026-08-04
 upload_date: 2019-06-02
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

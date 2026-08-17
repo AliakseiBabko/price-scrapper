@@ -2,7 +2,7 @@
 source_type: video transcript (company educational/self-promo, Russian, auto captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=yHmEQTqduDk
 video_id: yHmEQTqduDk
-transcript_file: 00_Inbox/transcripts/20260731_doors_v1_5b400bf1.txt
+transcript_file: _Inbox/transcripts/20260731_doors_v1_5b400bf1.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed; not inferred here (no numbered-playlist convention like the Zemstandart channel)
 channel: "Константин Круглов | Ontario" — presenter for renovation company "Онтарио" (turnkey/full-service)

@@ -2,7 +2,7 @@
 source_type: video transcript
 source_url: https://www.youtube.com/watch?v=PwJsksBs4Ek
 video_id: PwJsksBs4Ek
-transcript_file: 90_Archive/processed_sources/20260810_laminate_selection_and_matching_a51f8dca.txt
+transcript_file: _Archive/processed_sources/20260810_laminate_selection_and_matching_a51f8dca.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2019-02-20 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker short tip/hack video, Russian, ASR auto-generated captions — no punctuation)
 source_url: https://www.youtube.com/watch?v=C3yZJ_1xL-8
 video_id: C3yZJ_1xL-8
-transcript_file: 90_Archive/processed_sources/20260804_lightbulb_socket_power_hack_35bdf49c.txt
+transcript_file: _Archive/processed_sources/20260804_lightbulb_socket_power_hack_35bdf49c.txt
 fetched: 2026-08-04
 upload_date: 2019-01-06
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами был Алексей земсков"

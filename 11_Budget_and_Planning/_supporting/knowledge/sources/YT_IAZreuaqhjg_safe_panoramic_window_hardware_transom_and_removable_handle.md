@@ -2,7 +2,7 @@
 source_type: video transcript
 source_url: https://www.youtube.com/watch?v=IAZreuaqhjg
 video_id: IAZreuaqhjg
-transcript_file: 90_Archive/processed_sources/20260814_safe_panoramic_window_hardware_transom_and_removable_handle_373434fe.txt
+transcript_file: _Archive/processed_sources/20260814_safe_panoramic_window_hardware_transom_and_removable_handle_373434fe.txt
 fetched: 2026-08-14 via youtube-transcript-api (manual ru captions)
 upload_date: 2020-08-23 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based (channel convention, level 2 only — not stated in this video's own speech)

@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive masterclass, sequel to a companion video)
 source_url: https://www.youtube.com/watch?v=jxrd7pZTkvI
 video_id: jxrd7pZTkvI
-transcript_file: 90_Archive/processed_sources/20260810_loggia_enlarge_by_removing_railing_b47eb9b2.txt
+transcript_file: _Archive/processed_sources/20260810_loggia_enlarge_by_removing_railing_b47eb9b2.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2019-02-10 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

@@ -29,34 +29,34 @@ Contractors and large renovation companies buy rough materials (plaster, cables,
 
 ## 7. Backless Closet Interiors & Direct Production Board Cutting
 In custom built-in wardrobe modules, omit non-structural rear backing walls, bottom panels, and internal side walls (leaving the finished wall and floor exposed inside). Adding full back, bottom, and side panels increases wardrobe module costs by ~30%. Furthermore, measuring dimensions directly and ordering factory board cutting with on-site assembly eliminates retail salon design markups.
-*(Source: [[90_Archive/processed_sources/20260727_apartment_renovation_guide_360f4c7c\|360f4c7c]])*
+*(Source: [[_Archive/processed_sources/20260727_apartment_renovation_guide_360f4c7c\|360f4c7c]])*
 
 ## 8. Direct Factory Sourcing for Lighting
 Ordering decorative and accent lighting fixtures directly from overseas factory manufacturers (e.g. via direct import platforms) eliminates local reseller markups, cutting lighting hardware expenses by 50% to 70%.
-*(Source: [[90_Archive/processed_sources/20260727_apartment_renovation_guide_360f4c7c\|360f4c7c]])*
+*(Source: [[_Archive/processed_sources/20260727_apartment_renovation_guide_360f4c7c\|360f4c7c]])*
 
 ## 9. 2-in-1 Washer-Dryer Combo Units for Comfort-Class Renovations
 In Comfort-class renovations or space-constrained layouts, opt for a modern 2-in-1 washer-dryer combo unit instead of buying a separate tumble dryer stack. This saves ~50k RUB (Converted values: N/A - 2024 exchange rate benchmark is unverified) [Secondary Reference: Russia / RUB] in hardware costs and preserves the valuable vertical space above the machine for built-in laundry chemical and paper storage cabinets. Reserve separate tumble dryers strictly for Business-class projects or continuous heavy laundry needs.
-*(Source: [[90_Archive/processed_sources/20260727_renovation_mistakes_budget_371bd212\|371bd212]])*
+*(Source: [[_Archive/processed_sources/20260727_renovation_mistakes_budget_371bd212\|371bd212]])*
 
 
 ## 10. Online Marketplace Sourcing for Loose Furniture Items
 When custom millwork or designer furniture quotes threaten to exceed target limits, pivot to sourcing high-value loose items (such as solid-wood leg dining chairs at ~$75 USD / 4 for $300 USD) [Primary Local Benchmark: Minsk / Belarus 2025] on major online marketplaces (e.g., OZON). This prevents budget blowouts on non-structural loose furnishings while preserving the design concept.
-*(Source: [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]])*
+*(Source: [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]])*
 
 ## 11. Spray-Painting Developer White PVC Window Frames
 Instead of replacing functional developer-installed white PVC window frames and balcony doors (which costs $3,000+ USD), professional dual-side spray-painting in graphite/dark tones (costing ~$730 USD total for a 60 m² apartment) [Primary Local Benchmark: Minsk / Belarus 2025] elevates the interior and exterior window aesthetics to match designer concepts at a fraction of replacement expense.
-*(Source: [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]])*
+*(Source: [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]])*
 
 ## 12. Tradeoff Optimization: Stretch Ceilings & Paintable Wallpaper over Drywall & Smooth Paint
 When Business-class budgets exceed target allocations, down-tiering specification choices yields major labor and material savings without sacrificing clean visual aesthetics:
 1. **Ceilings**: Substituting complex drywall ceilings with high-grade stretch ceilings reduces ceiling material and installation labor costs by 40%-60%.
 2. **Walls**: Substituting smooth painted walls (which require intensive plastering, fiberglass mesh, micro-putty sanding, and airless spraying) with high-density paintable wallpaper (`обои под покраску`) preserves a painted wall finish while reducing wall prep labor and material expenses significantly.
-*(Source: [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_6_7617b523\|7617b523]])*
+*(Source: [[_Archive/processed_sources/20260727_renovation_guide_mistakes_6_7617b523\|7617b523]])*
 
 ## 13. Direct Client Material Procurement & Verified Distributor Purchasing
 To prevent contractor material markups, fraud, or the dumping of expired/salvaged building supplies from previous job sites, clients should pay for all rough building materials directly through certified local distributors (e.g. Postroyka.bel or Mamont in Minsk) [Primary Local Benchmark: Minsk / Belarus 2025] rather than advancing cash to contractors.
-*(Source: [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]])*
+*(Source: [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]])*
 
 
 

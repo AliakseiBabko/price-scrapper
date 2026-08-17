@@ -2,7 +2,7 @@
 source_type: video transcript (dense technical how-to with a real 79.5m² project, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=CHCB4KPupyc
 video_id: CHCB4KPupyc
-transcript_file: 90_Archive/processed_sources/20260810_bedroom_window_reconfig_for_wardrobe_a8c8ec0f.txt
+transcript_file: _Archive/processed_sources/20260810_bedroom_window_reconfig_for_wardrobe_a8c8ec0f.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

@@ -2,7 +2,7 @@
 source_type: video transcript (self-promotional service walkthrough, Russian, ASR auto-generated captions — no punctuation)
 source_url: https://www.youtube.com/watch?v=Pil0WvST49Y
 video_id: Pil0WvST49Y
-transcript_file: 90_Archive/processed_sources/20260804_zems_baza_contractor_directory_ad_1052cd6d.txt
+transcript_file: _Archive/processed_sources/20260804_zems_baza_contractor_directory_ad_1052cd6d.txt
 fetched: 2026-08-04
 upload_date: 2023-10-05
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company)

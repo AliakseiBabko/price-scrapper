@@ -2,7 +2,7 @@
 source_type: video transcript (two-speaker, Alexey Zemskov intro + Sergey Saratov delivering a "30 best solutions" list on a completed 64 m² comfort-class project, Russian, manually-created captions, clean transcript quality)
 source_url: https://www.youtube.com/watch?v=K-W4dLJGEtg
 video_id: K-W4dLJGEtg
-transcript_file: 90_Archive/processed_sources/20260815_best_solutions_6_194_048fcb41.txt
+transcript_file: _Archive/processed_sources/20260815_best_solutions_6_194_048fcb41.txt
 fetched: 2026-08-15
 upload_date: 2023-02-05 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

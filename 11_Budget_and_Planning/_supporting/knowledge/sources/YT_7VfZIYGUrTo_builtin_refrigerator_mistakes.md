@@ -2,7 +2,7 @@
 source_type: video transcript (two-speaker company promo/technical explainer, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=7VfZIYGUrTo
 video_id: 7VfZIYGUrTo
-transcript_file: 90_Archive/processed_sources/20260814_builtin_refrigerator_mistakes_aac2a803.txt
+transcript_file: _Archive/processed_sources/20260814_builtin_refrigerator_mistakes_aac2a803.txt
 fetched: 2026-08-14
 upload_date: 2022-11-08 (confirmed via yt-dlp metadata, upload_date=20221108)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov + Sergey Saratov, "comfort-class lead")

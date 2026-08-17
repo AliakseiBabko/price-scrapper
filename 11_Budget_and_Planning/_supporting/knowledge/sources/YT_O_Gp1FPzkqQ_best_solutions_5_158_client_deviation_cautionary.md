@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker "what happens when you deviate from my project" cautionary walkthrough with a real client's own on-camera admissions, Russian, manually-created captions, good transcript quality)
 source_url: https://www.youtube.com/watch?v=O_Gp1FPzkqQ
 video_id: O_Gp1FPzkqQ
-transcript_file: 90_Archive/processed_sources/20260815_best_solutions_5_158_client_deviation_cautionary_a6afa128.txt
+transcript_file: _Archive/processed_sources/20260815_best_solutions_5_158_client_deviation_cautionary_a6afa128.txt
 fetched: 2026-08-15
 upload_date: 2021-11-28 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

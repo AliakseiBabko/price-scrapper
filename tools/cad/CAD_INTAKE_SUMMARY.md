@@ -2,7 +2,7 @@
 
 Source:
 
-- `00_Inbox/cad/20260727-ZK Dubravinskiy.dwg`
+- `_Inbox/cad/20260727-ZK Dubravinskiy.dwg`
 
 Generated evidence artifacts, intentionally ignored under `data/`:
 

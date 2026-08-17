@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker product/course sales pitch, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=ZO9nCkLCbL4
 video_id: ZO9nCkLCbL4
-transcript_file: 90_Archive/processed_sources/20260804_measurement_course_sales_pitch_no_content_d2beefe1.txt
+transcript_file: _Archive/processed_sources/20260804_measurement_course_sales_pitch_no_content_d2beefe1.txt
 fetched: 2026-08-04
 upload_date: 2023-05-14
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

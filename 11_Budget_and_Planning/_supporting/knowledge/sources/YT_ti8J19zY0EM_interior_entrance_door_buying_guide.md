@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive buying-guidance walkthrough, user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=ti8J19zY0EM
 video_id: ti8J19zY0EM
-transcript_file: 90_Archive/processed_sources/20260810_interior_entrance_door_buying_guide_c6cf2fc5.txt
+transcript_file: _Archive/processed_sources/20260810_interior_entrance_door_buying_guide_c6cf2fc5.txt
 fetched: user-supplied 2026-08-10 (originally attempted 2026-07-31, logged `skipped` — no captions — run_20260731_56, now superseded)
 upload_date: 2019-01-12 (confirmed via yt-dlp metadata)
 channel: Zemstandart (Alexey Zemskov) — Moscow-based

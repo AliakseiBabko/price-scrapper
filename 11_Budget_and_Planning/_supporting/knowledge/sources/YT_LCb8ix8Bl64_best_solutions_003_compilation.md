@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker multi-topic "best solutions" tips compilation, Russian, manually-created captions per API but text quality is heavily garbled/no punctuation — treat as ASR-uncertain regardless of the "manual" label)
 source_url: https://www.youtube.com/watch?v=LCb8ix8Bl64
 video_id: LCb8ix8Bl64
-transcript_file: 90_Archive/processed_sources/20260815_best_solutions_003_compilation_7fcff48e.txt
+transcript_file: _Archive/processed_sources/20260815_best_solutions_003_compilation_7fcff48e.txt
 fetched: 2026-08-15
 upload_date: 2018-12-10 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

@@ -2,7 +2,7 @@
 source_type: video transcript (real jobsite case with 3D model walkthrough, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=n0O47DdhATw
 video_id: n0O47DdhATw
-transcript_file: 90_Archive/processed_sources/20260810_builtin_wardrobe_niche_technique_5a4a495b.txt
+transcript_file: _Archive/processed_sources/20260810_builtin_wardrobe_niche_technique_5a4a495b.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

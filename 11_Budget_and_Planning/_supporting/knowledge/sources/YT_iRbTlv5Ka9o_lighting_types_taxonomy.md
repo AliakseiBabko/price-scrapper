@@ -2,7 +2,7 @@
 source_type: video transcript (two-speaker practical/educational guide, Russian, ASR auto-generated captions with light punctuation)
 source_url: https://www.youtube.com/watch?v=iRbTlv5Ka9o
 video_id: iRbTlv5Ka9o
-transcript_file: 90_Archive/processed_sources/20260804_lighting_types_taxonomy_7b7745fa.txt
+transcript_file: _Archive/processed_sources/20260804_lighting_types_taxonomy_7b7745fa.txt
 fetched: 2026-08-04
 upload_date: 2023-03-19
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами как всегда был Алексей Земсков"; technical content delivered by named interior-design expert Alexander Panfilov, same company/team

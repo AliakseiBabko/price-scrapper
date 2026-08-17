@@ -2,7 +2,7 @@
 source_type: video transcript (manufacturer product-catalog / self-promo, Russian, auto captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=eM6HMMmumhE
 video_id: eM6HMMmumhE
-transcript_file: 00_Inbox/transcripts/20260731_doors_v3_bc76b9ee.txt
+transcript_file: _Inbox/transcripts/20260731_doors_v3_bc76b9ee.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed
 channel: "Входные стальные двери Novakey" (entrance steel-door manufacturer), presenter "Владислав" (Vladislav)

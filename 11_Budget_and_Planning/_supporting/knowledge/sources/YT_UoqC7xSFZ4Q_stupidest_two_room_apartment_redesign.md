@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company design-critique/walkthrough, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=UoqC7xSFZ4Q
 video_id: UoqC7xSFZ4Q
-transcript_file: 90_Archive/processed_sources/20260814_stupidest_two_room_apartment_redesign_f5f144d0.txt
+transcript_file: _Archive/processed_sources/20260814_stupidest_two_room_apartment_redesign_f5f144d0.txt
 fetched: 2026-08-14
 upload_date: 2023-07-04 (confirmed via yt-dlp metadata, upload_date=20230704)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov)

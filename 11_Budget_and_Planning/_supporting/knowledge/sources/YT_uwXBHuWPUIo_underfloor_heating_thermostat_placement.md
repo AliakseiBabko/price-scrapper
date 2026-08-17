@@ -2,7 +2,7 @@
 source_type: video transcript (livestream, unscripted)
 source_url: https://www.youtube.com/watch?v=uwXBHuWPUIo
 video_id: uwXBHuWPUIo
-transcript_file: 90_Archive/processed_sources/20260810_underfloor_heating_thermostat_placement_e9333bb7.txt
+transcript_file: _Archive/processed_sources/20260810_underfloor_heating_thermostat_placement_e9333bb7.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2022-11-29 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

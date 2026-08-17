@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker QC/inspection walkthrough, Russian, ASR auto-generated captions — no punctuation)
 source_url: https://www.youtube.com/watch?v=_cz4hL-fZIY
 video_id: _cz4hL-fZIY
-transcript_file: 90_Archive/processed_sources/20260804_pre_screed_waterproofing_acceptance_5b57e2e4.txt
+transcript_file: _Archive/processed_sources/20260804_pre_screed_waterproofing_acceptance_5b57e2e4.txt
 fetched: 2026-08-04
 upload_date: 2023-10-15
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

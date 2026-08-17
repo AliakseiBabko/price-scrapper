@@ -2,7 +2,7 @@
 source_type: video transcript (real destructive-testing comparison, guest technologist featured)
 source_url: https://www.youtube.com/watch?v=p2nyMFY9x-0
 video_id: p2nyMFY9x-0
-transcript_file: 90_Archive/processed_sources/20260810_block_adhesive_destructive_comparison_18922877.txt
+transcript_file: _Archive/processed_sources/20260810_block_adhesive_destructive_comparison_18922877.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2023-02-19 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

@@ -2,7 +2,7 @@
 source_type: video transcript (design-technique tips, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=1OLVQUJkOdM
 video_id: 1OLVQUJkOdM
-transcript_file: 90_Archive/processed_sources/20260805_interior_decor_cheap_solutions_e0731597.txt
+transcript_file: _Archive/processed_sources/20260805_interior_decor_cheap_solutions_e0731597.txt
 fetched: 2026-08-05
 upload_date: not independently confirmed by metadata
 channel: Zemstandart (ZEMSTANDART) — turnkey/full-service renovation company; hosted by Alexey Zemskov, technical content presented by Сергей Саратов ("comfort-class" renovation lead)

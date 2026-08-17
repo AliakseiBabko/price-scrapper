@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical tip + guest expert, Russian, ASR auto-generated captions, no punctuation)
 source_url: https://www.youtube.com/watch?v=PIYzs2b4UDU
 video_id: PIYzs2b4UDU
-transcript_file: 90_Archive/processed_sources/20260804_buying_finish_electrics_ea6d4af9.txt
+transcript_file: _Archive/processed_sources/20260804_buying_finish_electrics_ea6d4af9.txt
 fetched: 2026-08-04
 upload_date: 2020-07-12
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company technique/case-walkthrough with heavy self-promotion, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=Z-3sMXvBHK8
 video_id: Z-3sMXvBHK8
-transcript_file: 90_Archive/processed_sources/20260815_zems_289_cram_63m2_c4a951a6.txt
+transcript_file: _Archive/processed_sources/20260815_zems_289_cram_63m2_c4a951a6.txt
 fetched: 2026-08-15
 upload_date: 2024-11-10 (confirmed via yt-dlp metadata, upload_date=20241110)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov)

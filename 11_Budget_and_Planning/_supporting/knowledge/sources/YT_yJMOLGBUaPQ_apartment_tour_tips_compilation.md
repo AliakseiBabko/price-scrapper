@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker finished-apartment tour/tips compilation, Russian, ASR auto-generated captions — no punctuation)
 source_url: https://www.youtube.com/watch?v=yJMOLGBUaPQ
 video_id: yJMOLGBUaPQ
-transcript_file: 90_Archive/processed_sources/20260804_apartment_tour_tips_compilation_e2e466ad.txt
+transcript_file: _Archive/processed_sources/20260804_apartment_tour_tips_compilation_e2e466ad.txt
 fetched: 2026-08-04
 upload_date: 2023-05-28
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

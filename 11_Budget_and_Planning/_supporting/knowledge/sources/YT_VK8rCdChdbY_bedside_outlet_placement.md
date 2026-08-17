@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=VK8rCdChdbY
 video_id: VK8rCdChdbY
-transcript_file: 90_Archive/processed_sources/20260804_bedside_outlet_placement_e4adedc3.txt
+transcript_file: _Archive/processed_sources/20260804_bedside_outlet_placement_e4adedc3.txt
 fetched: 2026-08-04
 upload_date: 2020-06-03
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — Belarus/Russia-region renovation-design company

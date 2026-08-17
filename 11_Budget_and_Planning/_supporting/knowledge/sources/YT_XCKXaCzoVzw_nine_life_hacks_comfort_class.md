@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical/promotional, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=XCKXaCzoVzw
 video_id: XCKXaCzoVzw
-transcript_file: 90_Archive/processed_sources/20260804_nine_life_hacks_comfort_class_e63a25d5.txt
+transcript_file: _Archive/processed_sources/20260804_nine_life_hacks_comfort_class_e63a25d5.txt
 fetched: 2026-08-04
 upload_date: 2025-03-09
 channel: ZEMS group (speaker identifies as "Sergey Saratov") — same channel/company as prior processed batches, "single-account"

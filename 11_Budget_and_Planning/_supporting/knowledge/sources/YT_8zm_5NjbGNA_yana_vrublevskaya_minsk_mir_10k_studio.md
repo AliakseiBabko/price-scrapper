@@ -6,7 +6,7 @@
 - **Duration**: 24:42
 - **Transcript**: ASR auto-captions, no diarization/timestamps, single speaker throughout (the apartment owner narrating her own completed renovation)
 - **Fetched**: 2026-07-31
-- **Archive**: `90_Archive/processed_sources/20260731_minsk_mir_10000_remont_7e73ea31.txt`
+- **Archive**: `_Archive/processed_sources/20260731_minsk_mir_10000_remont_7e73ea31.txt`
 
 ## Evidence levels
 (1) transcript text — (2) YouTube metadata — (3) contextual inference — (4) external/domain validation (one arithmetic cross-check performed below).

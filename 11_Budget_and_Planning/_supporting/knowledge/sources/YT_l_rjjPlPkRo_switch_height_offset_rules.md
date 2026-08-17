@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical tip, Russian, ASR auto-generated captions, no punctuation)
 source_url: https://www.youtube.com/watch?v=l_rjjPlPkRo
 video_id: l_rjjPlPkRo
-transcript_file: 90_Archive/processed_sources/20260804_switch_height_offset_rules_d3142f90.txt
+transcript_file: _Archive/processed_sources/20260804_switch_height_offset_rules_d3142f90.txt
 fetched: 2026-08-04
 upload_date: 2020-05-26
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

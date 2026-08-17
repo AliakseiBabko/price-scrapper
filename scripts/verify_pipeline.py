@@ -2,8 +2,8 @@ import os
 import csv
 
 def verify_pipeline():
-    inbox = r"00_Inbox\transcripts"
-    archive = r"90_Archive\processed_sources"
+    inbox = r"_Inbox\transcripts"
+    archive = r"_Archive\processed_sources"
     csv_file = r"00_Master\processed_sources.csv"
     skill_file = r".agents\skills\youtube-to-obsidian\SKILL.md"
     raw_dir = r"11_Budget_and_Planning\raw_transcripts"
@@ -32,10 +32,10 @@ def verify_pipeline():
     try:
         with open(skill_file, 'r', encoding='utf-8') as f:
             content = f.read()
-            if "00_Inbox\\transcripts" not in content and "00_Inbox/transcripts" not in content:
-                issues.append("SKILL.md does not mention 00_Inbox/transcripts")
-            if "90_Archive\\processed_sources" not in content and "90_Archive/processed_sources" not in content:
-                issues.append("SKILL.md does not mention 90_Archive/processed_sources")
+            if "_Inbox\\transcripts" not in content and "_Inbox/transcripts" not in content:
+                issues.append("SKILL.md does not mention _Inbox/transcripts")
+            if "_Archive\\processed_sources" not in content and "_Archive/processed_sources" not in content:
+                issues.append("SKILL.md does not mention _Archive/processed_sources")
             if "scope" not in content.lower():
                 issues.append("SKILL.md does not mention 'scope'")
     except Exception as e:

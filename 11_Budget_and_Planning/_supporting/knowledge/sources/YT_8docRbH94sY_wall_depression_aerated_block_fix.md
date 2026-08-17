@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker technical walkthrough, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=8docRbH94sY
 video_id: 8docRbH94sY
-transcript_file: 90_Archive/processed_sources/20260804_wall_depression_aerated_block_fix_a0b9ff14.txt
+transcript_file: _Archive/processed_sources/20260804_wall_depression_aerated_block_fix_a0b9ff14.txt
 fetched: 2026-08-04
 upload_date: 2020-08-16
 channel: Alexey Zemskov / ZEMS group (Zemstandart / Zemsproekt / Zemsremont)

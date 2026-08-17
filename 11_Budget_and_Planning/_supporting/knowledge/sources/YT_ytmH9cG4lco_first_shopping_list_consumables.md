@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker checklist/procurement guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=ytmH9cG4lco
 video_id: ytmH9cG4lco
-transcript_file: 90_Archive/processed_sources/20260804_first_shopping_list_consumables_78f45b8e.txt
+transcript_file: _Archive/processed_sources/20260804_first_shopping_list_consumables_78f45b8e.txt
 fetched: 2026-08-04
 upload_date: 2023-01-22
 channel: Alexey Zemskov / ZEMS group (Zemstandart / Zemsproekt / Zemsremont) — comfort-class renovation crew segment presented by technical lead "Sergey Saratov"

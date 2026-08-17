@@ -98,8 +98,8 @@ def verify():
                                     if sh8 and sh8 not in t_content and h not in t_content:
                                         issues.append(f"processed_sources.csv lists target doc '{doc_name}' for source hash '{sh8}', but '{doc_name}' does not contain any citation to '{sh8}'.")
 
-            # Verify actual on-disk files in 90_Archive/processed_sources match logged CSV hashes
-            archive_dir = r"90_Archive\processed_sources"
+            # Verify actual on-disk files in _Archive/processed_sources match logged CSV hashes
+            archive_dir = r"_Archive\processed_sources"
             if os.path.exists(archive_dir):
                 for filename in os.listdir(archive_dir):
                     if filename.endswith(".txt"):
@@ -237,7 +237,7 @@ def verify():
 
         # Check: inferred source_year or city requires evidence in notes or transcript text
         if s_year != "unknown" or ("Saint-Petersburg" in reg or "Moscow" in reg):
-            archive_dir = r"90_Archive\processed_sources"
+            archive_dir = r"_Archive\processed_sources"
             if os.path.exists(archive_dir):
                 for fn in os.listdir(archive_dir):
                     if sh8 in fn:
@@ -274,7 +274,7 @@ def verify():
             combined_context = line_s
             if idx + 1 < len(file_lines):
                 next_line = file_lines[idx + 1].strip()
-                if "Source:" in next_line or "90_Archive" in next_line or "[[" in next_line:
+                if "Source:" in next_line or "_Archive" in next_line or "[[" in next_line:
                     combined_context = line_s + " " + next_line
 
             cited_hashes = re.findall(r"([a-fA-F0-9]{8,64})", combined_context)
@@ -304,8 +304,8 @@ def verify():
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
 
-            citations = re.findall(r"90_Archive[/\\]processed_sources[/\\][a-zA-Z0-9_]+\.txt", content)
-            wikilink_citations = re.findall(r"\[\[(90_Archive[/\\]processed_sources[/\\][a-zA-Z0-9_]+)(?:\\?\|[^\]]+)?\]\]", content)
+            citations = re.findall(r"_Archive[/\\]processed_sources[/\\][a-zA-Z0-9_]+\.txt", content)
+            wikilink_citations = re.findall(r"\[\[(_Archive[/\\]processed_sources[/\\][a-zA-Z0-9_]+)(?:\\?\|[^\]]+)?\]\]", content)
             for wpath in wikilink_citations:
                 if not wpath.endswith(".txt"):
                     citations.append(wpath + ".txt")

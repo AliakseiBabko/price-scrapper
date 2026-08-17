@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical/promotional, Russian, ASR auto-generated captions — no punctuation)
 source_url: https://www.youtube.com/watch?v=Uhqtnv3lsuo
 video_id: Uhqtnv3lsuo
-transcript_file: 90_Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt
+transcript_file: _Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt
 fetched: 2026-08-04
 upload_date: 2025-04-06
 channel: Alexey Zemskov / ZEMS group (Zemstandart / Zemsproekt / Zemsremont) — "single-account", same channel as prior processed batches

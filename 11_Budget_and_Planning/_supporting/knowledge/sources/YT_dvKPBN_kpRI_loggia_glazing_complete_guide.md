@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive masterclass)
 source_url: https://www.youtube.com/watch?v=dvKPBN_kpRI
 video_id: dvKPBN_kpRI
-transcript_file: 90_Archive/processed_sources/20260810_loggia_glazing_complete_guide_54f93508.txt
+transcript_file: _Archive/processed_sources/20260810_loggia_glazing_complete_guide_54f93508.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2018-12-24 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

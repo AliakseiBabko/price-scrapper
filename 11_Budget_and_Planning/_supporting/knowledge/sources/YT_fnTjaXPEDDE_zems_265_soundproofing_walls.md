@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company technique/build-walkthrough, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=fnTjaXPEDDE
 video_id: fnTjaXPEDDE
-transcript_file: 90_Archive/processed_sources/20260815_zems_265_soundproofing_walls_9cd2153d.txt
+transcript_file: _Archive/processed_sources/20260815_zems_265_soundproofing_walls_9cd2153d.txt
 fetched: 2026-08-15
 upload_date: 2024-04-28 (confirmed via yt-dlp metadata, upload_date=20240428)
 channel: Zemstandart / Zemsproekt (Sergey Saratov)

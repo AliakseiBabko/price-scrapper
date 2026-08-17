@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide + guest master electrician, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=Onu15qOeWGA
 video_id: Onu15qOeWGA
-transcript_file: 90_Archive/processed_sources/20260804_panel_and_roughin_walkthrough_44e6f59d.txt
+transcript_file: _Archive/processed_sources/20260804_panel_and_roughin_walkthrough_44e6f59d.txt
 fetched: 2026-08-04
 upload_date: 2020-12-08
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — Belarus/Russia-region renovation-design company

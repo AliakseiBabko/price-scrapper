@@ -2,7 +2,7 @@
 source_type: video transcript (technical how-to, Russian, clean/manual-style captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=ludvy76HGSU
 video_id: ludvy76HGSU
-transcript_file: 00_Inbox/transcripts/20260731_zems_b025_interiordoors_286a8d88.txt
+transcript_file: _Inbox/transcripts/20260731_zems_b025_interiordoors_286a8d88.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed by metadata; video is titled "...#025" — consistent with this channel's other playlist entries (#028, #141, #142, #146-197 etc.), all previously logged as 2019 in this repo's CSV. Kept as `inferred` 2019 by numbering-consistency, not `confirmed`.
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company, self-identified on camera as "Алексей Земсков")

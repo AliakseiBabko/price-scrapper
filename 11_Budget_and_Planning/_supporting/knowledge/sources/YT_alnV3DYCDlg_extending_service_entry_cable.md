@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=alnV3DYCDlg
 video_id: alnV3DYCDlg
-transcript_file: 90_Archive/processed_sources/20260804_extending_service_entry_cable_d5e17a29.txt
+transcript_file: _Archive/processed_sources/20260804_extending_service_entry_cable_d5e17a29.txt
 fetched: 2026-08-04
 upload_date: 2019-01-20
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — Belarus/Russia-region renovation-design company

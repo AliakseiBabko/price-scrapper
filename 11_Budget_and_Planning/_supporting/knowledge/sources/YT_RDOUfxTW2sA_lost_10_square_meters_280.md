@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker DIY-shaming/layout-redesign critique, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=RDOUfxTW2sA
 video_id: RDOUfxTW2sA
-transcript_file: 90_Archive/processed_sources/20260815_lost_10_square_meters_280_39229f13.txt
+transcript_file: _Archive/processed_sources/20260815_lost_10_square_meters_280_39229f13.txt
 fetched: 2026-08-15
 upload_date: 2024-08-04 (confirmed via yt-dlp metadata, upload_date=20240804)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov)

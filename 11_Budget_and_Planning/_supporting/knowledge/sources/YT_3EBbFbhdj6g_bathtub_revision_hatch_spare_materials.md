@@ -2,7 +2,7 @@
 source_type: video transcript (user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=3EBbFbhdj6g
 video_id: 3EBbFbhdj6g
-transcript_file: 90_Archive/processed_sources/20260810_bathtub_revision_hatch_spare_materials_c26c1a59.txt
+transcript_file: _Archive/processed_sources/20260810_bathtub_revision_hatch_spare_materials_c26c1a59.txt
 fetched: user-supplied 2026-08-10 (originally attempted 2026-07-31, logged `skipped` — no captions — run_20260731_37, now superseded)
 upload_date: 2020-11-29 (confirmed via yt-dlp metadata)
 channel: Zemstandart (Alexey Zemskov) — Moscow-based

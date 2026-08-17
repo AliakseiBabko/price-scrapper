@@ -2,7 +2,7 @@
 source_type: video transcript (real emergency jobsite repair, unscripted)
 source_url: https://www.youtube.com/watch?v=f39c0NtE-28
 video_id: f39c0NtE-28
-transcript_file: 90_Archive/processed_sources/20260810_brick_parapet_reinforcement_emergency_fix_4be67503.txt
+transcript_file: _Archive/processed_sources/20260810_brick_parapet_reinforcement_emergency_fix_4be67503.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2023-09-17 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

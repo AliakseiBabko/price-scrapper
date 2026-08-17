@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, official/manual captions — not auto-generated)
 source_url: https://www.youtube.com/watch?v=DsdLa87Acz4
 video_id: DsdLa87Acz4
-transcript_file: 00_Inbox/transcripts/20260730_DsdLa87Acz4_31c14c27.txt
+transcript_file: _Inbox/transcripts/20260730_DsdLa87Acz4_31c14c27.txt
 fetched: 2026-07-30
 upload_date: 2026-07-29 (metadata-confirmed)
 channel: "Про инвестиции и недвижимость в Москве" (Prolife Invest)

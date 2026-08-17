@@ -2,7 +2,7 @@
 source_type: video transcript (real project case study, in-progress renovation)
 source_url: https://www.youtube.com/watch?v=gXC77Y_QIbc
 video_id: gXC77Y_QIbc
-transcript_file: 90_Archive/processed_sources/20260810_facade_glazing_loggia_join_workaround_1367768c.txt
+transcript_file: _Archive/processed_sources/20260810_facade_glazing_loggia_join_workaround_1367768c.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2020-03-01 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

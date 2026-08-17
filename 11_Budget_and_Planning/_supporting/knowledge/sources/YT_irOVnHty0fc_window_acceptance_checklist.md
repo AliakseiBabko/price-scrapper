@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive QC/acceptance checklist, narrated by a guest specialist)
 source_url: https://www.youtube.com/watch?v=irOVnHty0fc
 video_id: irOVnHty0fc
-transcript_file: 90_Archive/processed_sources/20260810_window_acceptance_checklist_d3b66c4b.txt
+transcript_file: _Archive/processed_sources/20260810_window_acceptance_checklist_d3b66c4b.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2024-06-16 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

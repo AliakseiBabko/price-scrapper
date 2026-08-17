@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company site-tour/promo, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=3G4EdnnJ4AY
 video_id: 3G4EdnnJ4AY
-transcript_file: 90_Archive/processed_sources/20260804_room_tour_switches_doors_waterproofing_1b1017a6.txt
+transcript_file: _Archive/processed_sources/20260804_room_tour_switches_doors_waterproofing_1b1017a6.txt
 fetched: 2026-08-04
 upload_date: 2023-05-21
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

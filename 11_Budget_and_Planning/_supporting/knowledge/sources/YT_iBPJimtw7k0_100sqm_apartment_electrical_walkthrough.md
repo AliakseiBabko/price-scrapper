@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=iBPJimtw7k0
 video_id: iBPJimtw7k0
-transcript_file: 90_Archive/processed_sources/20260804_100sqm_apartment_electrical_walkthrough_24477bd5.txt
+transcript_file: _Archive/processed_sources/20260804_100sqm_apartment_electrical_walkthrough_24477bd5.txt
 fetched: 2026-08-04
 upload_date: 2019-04-14
 channel: Alexey Zemskov / ZEMS group of companies (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами как всегда был алексей земсков" at end of transcript

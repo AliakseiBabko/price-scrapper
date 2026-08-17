@@ -2,7 +2,7 @@
 source_type: video transcript (user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=NXwfvUwUKLc
 video_id: NXwfvUwUKLc
-transcript_file: 90_Archive/processed_sources/20260810_rough_electrical_lifespan_testing_e85f5373.txt
+transcript_file: _Archive/processed_sources/20260810_rough_electrical_lifespan_testing_e85f5373.txt
 fetched: user-supplied 2026-08-10 (originally attempted 2026-08-04, logged `skipped` — no captions — run_20260804_101, now superseded)
 upload_date: 2019-06-29 (confirmed via yt-dlp metadata)
 channel: Zemstandart (Alexey Zemskov) — Moscow-based

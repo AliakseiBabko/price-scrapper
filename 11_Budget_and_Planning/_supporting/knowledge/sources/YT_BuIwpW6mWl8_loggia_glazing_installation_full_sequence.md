@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive real-jobsite masterclass, guest installer featured)
 source_url: https://www.youtube.com/watch?v=BuIwpW6mWl8
 video_id: BuIwpW6mWl8
-transcript_file: 90_Archive/processed_sources/20260810_loggia_glazing_installation_full_sequence_809549b7.txt
+transcript_file: _Archive/processed_sources/20260810_loggia_glazing_installation_full_sequence_809549b7.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2023-10-22 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive masterclass, "Part 2" of a companion video)
 source_url: https://www.youtube.com/watch?v=oIED8ehn2Is
 video_id: oIED8ehn2Is
-transcript_file: 90_Archive/processed_sources/20260810_loggia_enlarge_by_thinning_interior_wall_0cdf83ab.txt
+transcript_file: _Archive/processed_sources/20260810_loggia_enlarge_by_thinning_interior_wall_0cdf83ab.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2019-02-12 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

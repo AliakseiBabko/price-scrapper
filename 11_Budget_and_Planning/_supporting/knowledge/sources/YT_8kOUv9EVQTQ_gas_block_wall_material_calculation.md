@@ -2,7 +2,7 @@
 source_type: video transcript
 source_url: https://www.youtube.com/watch?v=8kOUv9EVQTQ
 video_id: 8kOUv9EVQTQ
-transcript_file: 90_Archive/processed_sources/20260810_gas_block_wall_material_calculation_2e558d93.txt
+transcript_file: _Archive/processed_sources/20260810_gas_block_wall_material_calculation_2e558d93.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2020-01-19 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker walkthrough on a completed 76 m² comfort-class project, Russian, manually-created captions, clean transcript quality)
 source_url: https://www.youtube.com/watch?v=ZX_J9uAXfeQ
 video_id: ZX_J9uAXfeQ
-transcript_file: 90_Archive/processed_sources/20260815_seven_main_bugs_180_21c666c0.txt
+transcript_file: _Archive/processed_sources/20260815_seven_main_bugs_180_21c666c0.txt
 fetched: 2026-08-15
 upload_date: 2022-10-30 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker "ZemStandards" walkthrough on a completed non-standard-layout apartment, Russian, manually-created captions, clean transcript quality)
 source_url: https://www.youtube.com/watch?v=vExbp48IDiI
 video_id: vExbp48IDiI
-transcript_file: 90_Archive/processed_sources/20260815_best_solutions_8_218_b3f067ce.txt
+transcript_file: _Archive/processed_sources/20260815_best_solutions_8_218_b3f067ce.txt
 fetched: 2026-08-15
 upload_date: 2023-06-25 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

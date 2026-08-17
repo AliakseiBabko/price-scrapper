@@ -2,7 +2,7 @@
 source_type: video transcript (two-speaker: cost-strategy pitch + rough-stage acceptance walkthrough, Russian, ASR auto-generated captions — no punctuation)
 source_url: https://www.youtube.com/watch?v=XoVwJQYFyVg
 video_id: XoVwJQYFyVg
-transcript_file: 90_Archive/processed_sources/20260804_split_rough_finish_contracting_and_rough_stage_checklist_9a4efa5e.txt
+transcript_file: _Archive/processed_sources/20260804_split_rough_finish_contracting_and_rough_stage_checklist_9a4efa5e.txt
 fetched: 2026-08-04
 upload_date: 2023-10-01
 channel: Zemstandart / Alexey Zemskov + Sergey Saratov (Moscow-area renovation company) — `single-account`

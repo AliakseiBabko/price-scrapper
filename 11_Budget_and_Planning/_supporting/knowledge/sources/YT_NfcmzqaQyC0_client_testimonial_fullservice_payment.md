@@ -2,7 +2,7 @@
 source_type: video transcript (client testimonial/interview, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors, heavily garbled in places)
 source_url: https://www.youtube.com/watch?v=NfcmzqaQyC0
 video_id: NfcmzqaQyC0
-transcript_file: 90_Archive/processed_sources/20260804_client_testimonial_fullservice_payment_23296ed0.txt
+transcript_file: _Archive/processed_sources/20260804_client_testimonial_fullservice_payment_23296ed0.txt
 fetched: 2026-08-04
 upload_date: 2019-03-13
 channel: Alexey Zemskov / ZEMS group (Zemstandart / Zemsproekt / Zemsremont)

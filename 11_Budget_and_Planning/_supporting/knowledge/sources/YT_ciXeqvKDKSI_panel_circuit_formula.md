@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker technical explainer, Russian, ASR auto-generated captions, no punctuation)
 source_url: https://www.youtube.com/watch?v=ciXeqvKDKSI
 video_id: ciXeqvKDKSI
-transcript_file: 90_Archive/processed_sources/20260804_panel_circuit_formula_31314f45.txt
+transcript_file: _Archive/processed_sources/20260804_panel_circuit_formula_31314f45.txt
 fetched: 2026-08-04
 upload_date: 2019-01-22
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

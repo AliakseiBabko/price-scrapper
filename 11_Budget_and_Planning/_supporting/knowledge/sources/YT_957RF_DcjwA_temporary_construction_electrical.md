@@ -2,7 +2,7 @@
 source_type: video transcript (two-speaker practical/instructional guide, Russian, well-punctuated captions — likely manual/official, low transcription-error risk)
 source_url: https://www.youtube.com/watch?v=957RF_DcjwA
 video_id: 957RF_DcjwA
-transcript_file: 90_Archive/processed_sources/20260804_temporary_construction_electrical_c533e500.txt
+transcript_file: _Archive/processed_sources/20260804_temporary_construction_electrical_c533e500.txt
 fetched: 2026-08-04
 upload_date: 2023-02-12
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами как всегда был Алексей Земсков"; technical content delivered by named team member Sergey Saratov (renovation lead, "комфорт класса")

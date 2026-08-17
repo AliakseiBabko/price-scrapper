@@ -2,7 +2,7 @@
 source_type: video transcript (technical how-to, Russian, manually-created captions via youtube-transcript-api — is_generated_captions:false, but transcript text itself is heavily garbled/ungrammatical, closer in quality to an ASR transcript; flagged throughout)
 source_url: https://www.youtube.com/watch?v=HX2pDdILM7U
 video_id: HX2pDdILM7U
-transcript_file: 90_Archive/processed_sources/20260805_hidden_exhaust_duct_concealment_79b120ff.txt
+transcript_file: _Archive/processed_sources/20260805_hidden_exhaust_duct_concealment_79b120ff.txt
 fetched: 2026-08-05 (fetched after a multi-hour cooldown resolved an earlier same-day 429/IP-block; --cookies-from-browser "chrome:Profile 3" was passed but not actually exercised — succeeded on the first, anonymous youtube-transcript-api attempt, zero prior failed attempts)
 upload_date: not independently confirmed by metadata
 channel: Zemstandart (Alexey Zemskov, "Мистер Профессионал" branding referenced in-video) — Moscow-based per user-confirmed channel identity (see [[project_price_scrapper_youtube_ingestion_tooling]] memory)

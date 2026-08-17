@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical/promotional, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=UYLIMck97Jo
 video_id: UYLIMck97Jo
-transcript_file: 90_Archive/processed_sources/20260804_business_class_five_attributes_19385e7a.txt
+transcript_file: _Archive/processed_sources/20260804_business_class_five_attributes_19385e7a.txt
 fetched: 2026-08-04
 upload_date: 2024-11-17
 channel: ZEMS group (speaker "Sergey Saratov") — same channel as prior processed batches, "single-account"

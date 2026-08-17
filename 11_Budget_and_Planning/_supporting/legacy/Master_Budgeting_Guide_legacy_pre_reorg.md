@@ -51,26 +51,26 @@ When allocating funds for materials, a general rule of thumb is:
 
 > [!TIP]
 > **Companion Design Context**:
-> A detailed technical and interior design tour of a strongly inferred companion apartment matching this 60 m² project is documented in case study [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case\|minsk_world_60m2_design_cost_case]] (sourced from companion video [[90_Archive/processed_sources/20260727_minsk_world_60m2_design_tour_26bc9c25\|26bc9c25]]). Costs are sourced strictly from pricing breakdown [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]].
+> A detailed technical and interior design tour of a strongly inferred companion apartment matching this 60 m² project is documented in case study [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case\|minsk_world_60m2_design_cost_case]] (sourced from companion video [[_Archive/processed_sources/20260727_minsk_world_60m2_design_tour_26bc9c25\|26bc9c25]]). Costs are sourced strictly from pricing breakdown [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]].
 
 
 
 | Budget Category | Stated Cost (USD) | Per m² Cost | % of $54k Total | Notes & Included Sub-Items | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Custom Cabinetry & Millwork** | $13,480 | $224.67 / m² | 25.0% | Kitchen ($3.5k), quartz tops ($1.1k), island ($1.21k), dining shelf ($1.25k), TV bench ($530), divider ($720), laundry ($580), vanity ($590), over-toilet ($350), bed ($530), headboard ($620), wardrobe ($1.15k), glass partition ($1.35k) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Contractor Construction Labor** | $7,520 | $125.33 / m² | 13.9% | Turnkey construction, partition walls, rough & fine finishes, painting, tiling | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Appliances & Electronics** | $4,900 | $81.67 / m² | 9.1% | Kitchen set ($2,350), LG washer-dryer ($600), Yandex 65" TV ($1,200), Chigo AC ($750) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Plumbing Package (Labor + Fixtures)** | $4,725 | $78.75 / m² | 8.8% | Plumbing labor/fittings ($2.7k), fine sanitary fixtures ($1,525), kitchen plumbing ($500) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Ceilings, Tracks & Accent Lighting** | $4,080 | $68.00 / m² | 7.6% | Stretch ceiling with shadow profile & Lumfer magnetic tracks ($3.73k), Novodvorski lights ($350) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Electrical Package** | $3,150 | $52.50 / m² | 5.8% | Wiring (~1km cable), panel assembly, rough/fine socket trim, breakers & switches | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Loose Furniture & Accessories** | $2,900 | $48.33 / m² | 5.4% | Custom sofa ($1.6k), OZON dining chairs ($300), Vegas mattress ($120), rug, curtains, cutlery, decor ($880) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Flooring & Baseboard Trim** | $2,610 | $43.50 / m² | 4.8% | Herringbone SPC quartz vinyl ($1,950), recessed aluminum corner baseboards ($660) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Rough Building Materials** | $2,420 | $40.33 / m² | 4.5% | Gas-blocks, drywall, screed, primers, tile adhesives, consumables | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Wall Finishes & Spraying** | $2,000 | $33.33 / m² | 3.7% | Dual-side PVC window spray-painting ($730), bathroom epoxy decorative plaster ($500), backsplash tile/labor ($420), porcelain tiles ($350) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Concealed Door Frame & Leaf** | $340 | $5.67 / m² | 0.6% | Aluminum hidden door frame and leaf installation | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Subtotal Explicit Itemized Items** | **$48,125** | **$802.08 / m²** | **89.1%** | **Sum of all explicitly itemized line items in transcript** | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Unallocated Difference Between Itemized Subtotal and Stated Turnkey Total** | **$5,875** | **$97.92 / m²** | **10.9%** | **Calculated reconciliation gap between explicitly itemized transcript costs and the stated final turnkey total. Do not treat as a sourced category breakdown.** | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
-| **Stated Turnkey Project Total** | **$54,000** | **$900.00 / m²** | **100.0%** | **Final end-to-end turnkey spending for 60 m² apartment** | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Custom Cabinetry & Millwork** | $13,480 | $224.67 / m² | 25.0% | Kitchen ($3.5k), quartz tops ($1.1k), island ($1.21k), dining shelf ($1.25k), TV bench ($530), divider ($720), laundry ($580), vanity ($590), over-toilet ($350), bed ($530), headboard ($620), wardrobe ($1.15k), glass partition ($1.35k) | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Contractor Construction Labor** | $7,520 | $125.33 / m² | 13.9% | Turnkey construction, partition walls, rough & fine finishes, painting, tiling | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Appliances & Electronics** | $4,900 | $81.67 / m² | 9.1% | Kitchen set ($2,350), LG washer-dryer ($600), Yandex 65" TV ($1,200), Chigo AC ($750) | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Plumbing Package (Labor + Fixtures)** | $4,725 | $78.75 / m² | 8.8% | Plumbing labor/fittings ($2.7k), fine sanitary fixtures ($1,525), kitchen plumbing ($500) | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Ceilings, Tracks & Accent Lighting** | $4,080 | $68.00 / m² | 7.6% | Stretch ceiling with shadow profile & Lumfer magnetic tracks ($3.73k), Novodvorski lights ($350) | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Electrical Package** | $3,150 | $52.50 / m² | 5.8% | Wiring (~1km cable), panel assembly, rough/fine socket trim, breakers & switches | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Loose Furniture & Accessories** | $2,900 | $48.33 / m² | 5.4% | Custom sofa ($1.6k), OZON dining chairs ($300), Vegas mattress ($120), rug, curtains, cutlery, decor ($880) | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Flooring & Baseboard Trim** | $2,610 | $43.50 / m² | 4.8% | Herringbone SPC quartz vinyl ($1,950), recessed aluminum corner baseboards ($660) | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Rough Building Materials** | $2,420 | $40.33 / m² | 4.5% | Gas-blocks, drywall, screed, primers, tile adhesives, consumables | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Wall Finishes & Spraying** | $2,000 | $33.33 / m² | 3.7% | Dual-side PVC window spray-painting ($730), bathroom epoxy decorative plaster ($500), backsplash tile/labor ($420), porcelain tiles ($350) | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Concealed Door Frame & Leaf** | $340 | $5.67 / m² | 0.6% | Aluminum hidden door frame and leaf installation | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Subtotal Explicit Itemized Items** | **$48,125** | **$802.08 / m²** | **89.1%** | **Sum of all explicitly itemized line items in transcript** | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Unallocated Difference Between Itemized Subtotal and Stated Turnkey Total** | **$5,875** | **$97.92 / m²** | **10.9%** | **Calculated reconciliation gap between explicitly itemized transcript costs and the stated final turnkey total. Do not treat as a sourced category breakdown.** | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
+| **Stated Turnkey Project Total** | **$54,000** | **$900.00 / m²** | **100.0%** | **Final end-to-end turnkey spending for 60 m² apartment** | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_5_dfc91747\|dfc91747]] |
 
 ---
 
@@ -87,19 +87,19 @@ When allocating funds for materials, a general rule of thumb is:
 
 | Labor & Service Item | Stated Rate / Cost | Scope / Unit | Notes & Technical Details | Source |
 | :--- | :--- | :--- | :--- | :--- |
-| **Floor Pipe Detector Scanning** | $50 USD | Flat fee per job | Ultrasonic/magnetic scanning of PEX radiator pipes in raw screed before chasing | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Keramzit-Concrete Block Masonry** | $9 USD / m² | Wall area | Partition wall construction with perimeter expansion joints & bed joints | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Wall Plastering by Guides** | $6 USD / m² | Wall area | Plastering with 90° geometry for kitchen/bathroom walls (market avg $5 USD/m²) | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Ceiling Plastering by Guides** | $10 USD / m² | Ceiling area | Heavy plaster leveling for raw concrete ceilings | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **AC Split-System Installation** | $350 USD | Job total | Labor & line routing by HVAC specialists | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Rough Plumbing & Ventilation Labor** | $1,090 USD | Job total | Riser manifold, counter relocation, leak servo-drives, multizone ventilation | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Rough Electrical Installation Labor** | $1,400 USD | Job total | Cable chasing, panel assembly, temporary switches/sockets | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Ceramic Tile Installation** | $13 USD / m² | Tile area | Wall/floor ceramic tile labor | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Standard Porcelain Tile Installation** | $15 USD / m² | Tile area | Standard porcelain stoneware labor | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Large-Format Porcelain Tile (<1.5m²)** | $17 USD / m² | Tile area | Large-format porcelain stoneware labor | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Rough Surface Prep & Plastering Labor** | $1,400 USD | Job total | Wall putty prep under wallpaper & paint, floor screed grinding | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Final Trim Installation Labor** | $800 USD | Job total | Plumbing fixtures, lighting trim, MDF baseboard installation | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
-| **Rough Building Materials (Stage 1)** | 2,000 BYN | Material purchase | Keramzit blocks, Rotband plaster, SM11 tile glue, primers, fasteners | [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Floor Pipe Detector Scanning** | $50 USD | Flat fee per job | Ultrasonic/magnetic scanning of PEX radiator pipes in raw screed before chasing | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Keramzit-Concrete Block Masonry** | $9 USD / m² | Wall area | Partition wall construction with perimeter expansion joints & bed joints | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Wall Plastering by Guides** | $6 USD / m² | Wall area | Plastering with 90° geometry for kitchen/bathroom walls (market avg $5 USD/m²) | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Ceiling Plastering by Guides** | $10 USD / m² | Ceiling area | Heavy plaster leveling for raw concrete ceilings | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **AC Split-System Installation** | $350 USD | Job total | Labor & line routing by HVAC specialists | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Rough Plumbing & Ventilation Labor** | $1,090 USD | Job total | Riser manifold, counter relocation, leak servo-drives, multizone ventilation | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Rough Electrical Installation Labor** | $1,400 USD | Job total | Cable chasing, panel assembly, temporary switches/sockets | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Ceramic Tile Installation** | $13 USD / m² | Tile area | Wall/floor ceramic tile labor | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Standard Porcelain Tile Installation** | $15 USD / m² | Tile area | Standard porcelain stoneware labor | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Large-Format Porcelain Tile (<1.5m²)** | $17 USD / m² | Tile area | Large-format porcelain stoneware labor | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Rough Surface Prep & Plastering Labor** | $1,400 USD | Job total | Wall putty prep under wallpaper & paint, floor screed grinding | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Final Trim Installation Labor** | $800 USD | Job total | Plumbing fixtures, lighting trim, MDF baseboard installation | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
+| **Rough Building Materials (Stage 1)** | 2,000 BYN | Material purchase | Keramzit blocks, Rotband plaster, SM11 tile glue, primers, fasteners | [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]] |
 
 
 ---
@@ -116,12 +116,12 @@ When allocating funds for materials, a general rule of thumb is:
 > - **Comparability**: Currency-normalized reference only; NOT Minsk-equivalent pricing
 
 - **Capital Renovation Base Labor**: Original source: Russia (Moscow), RUB (15,000 - 25,000 RUB/m² for main construction works). Converted values: N/A (2025 annual exchange-rate benchmark is not sourced yet). Comparability: secondary reference only; not Minsk-equivalent.
-*(Source: [[90_Archive/processed_sources/20260727_budget_video_4b421350\|4b421350]])*
+*(Source: [[_Archive/processed_sources/20260727_budget_video_4b421350\|4b421350]])*
 
 - **Comfort-Class Contractor Labor Baseline**: Original source: Russia (RUB), 13,000 - 15,000 RUB/m² for Comfort-class construction labor. Converted values: N/A (source_year or exchange rate benchmark unverified). Comparability: secondary reference only; not Minsk-equivalent.
-*(Source: [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_6_7617b523\|7617b523]])*
+*(Source: [[_Archive/processed_sources/20260727_renovation_guide_mistakes_6_7617b523\|7617b523]])*
 - **Technical Working Project Design Fee**: Original source: Russia (RUB), 1,000 RUB/m² for technical working drawings covering layout, demolition, wall construction, electrical, plumbing, and furniture placement. Converted values: N/A (source_year or exchange rate benchmark unverified). Comparability: secondary reference only; not Minsk-equivalent.
-*(Source: [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_6_7617b523\|7617b523]])*
+*(Source: [[_Archive/processed_sources/20260727_renovation_guide_mistakes_6_7617b523\|7617b523]])*
 
 
 
@@ -130,7 +130,7 @@ When allocating funds for materials, a general rule of thumb is:
 ## 5. Contractor Labor vs Total Budget Allocation Ratios
 
 In a comprehensive turnkey renovation budget, base contractor labor typically constitutes **30%-35%** of the overall end-to-end expenditure, while rough materials, finishing materials, doors, stretch ceilings, HVAC, and custom millwork account for the remaining **65%-70%**.
-*(Source: [[90_Archive/processed_sources/20260727_renovation_guide_mistakes_a8e90887\|a8e90887]])*
+*(Source: [[_Archive/processed_sources/20260727_renovation_guide_mistakes_a8e90887\|a8e90887]])*
 
 ## 6. Regional and Year-Aware Price Policy
 

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker walkthrough, Russian, ASR auto-generated captions, no punctuation, severely degraded transcription)
 source_url: https://www.youtube.com/watch?v=NGI3ANOf18U
 video_id: NGI3ANOf18U
-transcript_file: 90_Archive/processed_sources/20260804_entry_zone_walkthrough_a7dca9d1.txt
+transcript_file: _Archive/processed_sources/20260804_entry_zone_walkthrough_a7dca9d1.txt
 fetched: 2026-08-04
 upload_date: 2019-01-24
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

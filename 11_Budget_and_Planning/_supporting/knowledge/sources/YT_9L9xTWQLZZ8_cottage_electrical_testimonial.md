@@ -2,7 +2,7 @@
 source_type: video transcript (customer-testimonial / case-study interview, Russian, ASR auto-generated captions — no punctuation)
 source_url: https://www.youtube.com/watch?v=9L9xTWQLZZ8
 video_id: 9L9xTWQLZZ8
-transcript_file: 90_Archive/processed_sources/20260804_cottage_electrical_testimonial_35fcb62a.txt
+transcript_file: _Archive/processed_sources/20260804_cottage_electrical_testimonial_35fcb62a.txt
 fetched: 2026-08-04
 upload_date: 2019-04-27
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами был Алексей Земсков"

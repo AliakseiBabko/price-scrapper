@@ -2,7 +2,7 @@
 source_type: video transcript (design studio channel, segment/tier pricing deep-dive, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=6Z7uH2_rXsw
 video_id: 6Z7uH2_rXsw
-transcript_file: 00_Inbox/transcripts/20260731_6Z7uH2_rXsw_acdbbbfb.txt
+transcript_file: _Inbox/transcripts/20260731_6Z7uH2_rXsw_acdbbbfb.txt
 fetched: 2026-07-31
 upload_date: 2026-03-12 (metadata-confirmed)
 channel: "Артем Оганян" — Artem Oganyan, architect/designer/art-director of "BURO," a full-cycle interior design studio

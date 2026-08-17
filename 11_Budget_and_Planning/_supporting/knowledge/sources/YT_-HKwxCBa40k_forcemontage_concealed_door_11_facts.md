@@ -2,7 +2,7 @@
 source_type: video transcript (renovation company field/jobsite walkthrough, Russian, auto captions via youtube-transcript-api, unpunctuated ASR)
 source_url: https://www.youtube.com/watch?v=-HKwxCBa40k
 video_id: -HKwxCBa40k
-transcript_file: 00_Inbox/transcripts/20260731_doors_v6_3c09e22a.txt
+transcript_file: _Inbox/transcripts/20260731_doors_v6_3c09e22a.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed
 channel: "Forcemontage | Ремонт квартир Москва" (Moscow renovation company)

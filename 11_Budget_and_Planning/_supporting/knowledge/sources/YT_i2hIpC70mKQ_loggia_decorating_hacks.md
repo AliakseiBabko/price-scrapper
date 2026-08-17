@@ -2,7 +2,7 @@
 source_type: video transcript (four short decorating tips)
 source_url: https://www.youtube.com/watch?v=i2hIpC70mKQ
 video_id: i2hIpC70mKQ
-transcript_file: 90_Archive/processed_sources/20260810_loggia_decorating_hacks_22bb873b.txt
+transcript_file: _Archive/processed_sources/20260810_loggia_decorating_hacks_22bb873b.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2022-07-03 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

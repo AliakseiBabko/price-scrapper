@@ -2,7 +2,7 @@
 source_type: video transcript (documented renovation series, episode 2, designer interview, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=QHl1YEHMfgE
 video_id: QHl1YEHMfgE
-transcript_file: 00_Inbox/transcripts/20260731_QHl1YEHMfgE_3e31aa05.txt
+transcript_file: _Inbox/transcripts/20260731_QHl1YEHMfgE_3e31aa05.txt
 fetched: 2026-07-31
 upload_date: 2026-04-07 (metadata-confirmed)
 channel: "Дома Минска" ("Homes of Minsk") — same channel/series as yt__hYkf4UkCqw

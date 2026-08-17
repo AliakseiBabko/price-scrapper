@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide + site walkthrough, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=OSQeYSXjCfw
 video_id: OSQeYSXjCfw
-transcript_file: 90_Archive/processed_sources/20260804_roughin_materials_shopping_list_fd02982b.txt
+transcript_file: _Archive/processed_sources/20260804_roughin_materials_shopping_list_fd02982b.txt
 fetched: 2026-08-04
 upload_date: 2019-05-18
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — Belarus/Russia-region renovation-design company

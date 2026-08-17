@@ -2,7 +2,7 @@
 source_type: video transcript (technical tips, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=ZqfaeREBEYQ
 video_id: ZqfaeREBEYQ
-transcript_file: 90_Archive/processed_sources/20260810_kitchen_ventilation_mistakes_80d8c9ef.txt
+transcript_file: _Archive/processed_sources/20260810_kitchen_ventilation_mistakes_80d8c9ef.txt
 fetched: 2026-08-10 (anonymous youtube-transcript-api, zero prior failed attempts this run — confirms the 429/IP-block seen 2026-08-05 had fully cleared by this date)
 upload_date: 2022-07-17 (confirmed via yt-dlp metadata, 2026-08-10 — video is ~4 years old as of processing)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov, technical content presented by Сергей Саратов, "design and renovation" lead) — Moscow-based per user-confirmed channel identity (see [[project_zemskov_zemstandart_region_moscow_rub]] memory)

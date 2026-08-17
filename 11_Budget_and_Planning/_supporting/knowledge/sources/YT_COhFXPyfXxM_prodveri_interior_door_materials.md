@@ -2,7 +2,7 @@
 source_type: video transcript (retailer educational/self-promo, Russian, auto captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=COhFXPyfXxM
 video_id: COhFXPyfXxM
-transcript_file: 00_Inbox/transcripts/20260731_doors_v4_ba769014.txt
+transcript_file: _Inbox/transcripts/20260731_doors_v4_ba769014.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed
 channel: "Сергей Гусев | ПРО ДВЕРИ И ПЕРЕГОВОРКИ" — door retailer with stores/warehouses in Moscow and St. Petersburg

@@ -2,7 +2,7 @@
 source_type: video transcript (two-speaker company promotional video — intro/outro by channel host, main content by named in-house designer; Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=OCjVd5HOcac
 video_id: OCjVd5HOcac
-transcript_file: 90_Archive/processed_sources/20260815_zems_design_in_action_77043dec.txt
+transcript_file: _Archive/processed_sources/20260815_zems_design_in_action_77043dec.txt
 fetched: 2026-08-15
 upload_date: 2023-01-17 (confirmed via yt-dlp metadata, upload_date=20230117)
 channel: Zemskov / Zemstandart / zemspro (Alexey Zemskov, host; Alexander Panfilov, zemspro in-house designer)

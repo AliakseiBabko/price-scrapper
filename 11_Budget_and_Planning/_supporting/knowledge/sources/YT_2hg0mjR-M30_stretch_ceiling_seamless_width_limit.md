@@ -2,7 +2,7 @@
 source_type: video transcript (real jobsite case, user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=2hg0mjR-M30
 video_id: 2hg0mjR-M30
-transcript_file: 90_Archive/processed_sources/20260810_stretch_ceiling_seamless_width_limit_25477732.txt
+transcript_file: _Archive/processed_sources/20260810_stretch_ceiling_seamless_width_limit_25477732.txt
 fetched: user-supplied 2026-08-10 (never previously attempted — no prior CSV row)
 upload_date: 2019-04-09 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

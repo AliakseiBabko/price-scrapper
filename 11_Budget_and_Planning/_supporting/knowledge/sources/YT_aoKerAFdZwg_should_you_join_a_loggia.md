@@ -2,7 +2,7 @@
 source_type: video transcript (decision-framework masterclass)
 source_url: https://www.youtube.com/watch?v=aoKerAFdZwg
 video_id: aoKerAFdZwg
-transcript_file: 90_Archive/processed_sources/20260810_should_you_join_a_loggia_697737c9.txt
+transcript_file: _Archive/processed_sources/20260810_should_you_join_a_loggia_697737c9.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2019-01-25 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

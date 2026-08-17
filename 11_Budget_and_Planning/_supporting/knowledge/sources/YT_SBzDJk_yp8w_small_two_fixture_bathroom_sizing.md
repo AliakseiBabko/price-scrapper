@@ -2,7 +2,7 @@
 source_type: video transcript (dense technical how-to with precise dimensions, user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=SBzDJk_yp8w
 video_id: SBzDJk_yp8w
-transcript_file: 90_Archive/processed_sources/20260810_small_two_fixture_bathroom_sizing_aa1b3a59.txt
+transcript_file: _Archive/processed_sources/20260810_small_two_fixture_bathroom_sizing_aa1b3a59.txt
 fetched: user-supplied 2026-08-10 (originally attempted 2026-07-31, logged `skipped` — no captions — run_20260731_40, now superseded)
 upload_date: 2021-08-22 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

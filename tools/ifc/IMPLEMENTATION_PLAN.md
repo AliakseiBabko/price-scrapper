@@ -337,7 +337,7 @@ ready.
 
 ### Milestone 21 - CAD/DWG evidence intake and control candidates
 
-- Processed `00_Inbox/cad/20260727-ZK Dubravinskiy.dwg` non-destructively with
+- Processed `_Inbox/cad/20260727-ZK Dubravinskiy.dwg` non-destructively with
   `tools/cad/intake_cad.py`; the original DWG remains in the inbox.
 - Converted the DWG to DXF with ODA File Converter for analysis only and
   confirmed the converted DXF reports millimetre `$INSUNITS`.

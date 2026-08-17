@@ -54,7 +54,7 @@ A single-sided walk-in's aisle is dead space a plain wardrobe doesn't need. **Re
 ### 4.3 A Dividing Wall Converting an L-Shaped Corner Into Two Built-In Niches — per Zemskov/Zemstandart (added 2026-08-10)
 
 > [!NOTE]
-> Real jobsite case, 88.5m² apartment (a recurring project referenced across other Zemstandart videos already in this store), Alexey Zemskov's own account, `single-account`, real cited cost figures. Also folded into `13_Surfaces_and_Finishes/Ceilings_Guide.md`, `13_Surfaces_and_Finishes/Flooring_Guide.md`, and `13_Surfaces_and_Finishes/Doors_and_Trim.md` — this was a single, unusually cross-cutting case. [source: `90_Archive/processed_sources/20260810_entry_hallway_dividing_wall_case_8963951b.txt`]
+> Real jobsite case, 88.5m² apartment (a recurring project referenced across other Zemstandart videos already in this store), Alexey Zemskov's own account, `single-account`, real cited cost figures. Also folded into `13_Surfaces_and_Finishes/Ceilings_Guide.md`, `13_Surfaces_and_Finishes/Flooring_Guide.md`, and `13_Surfaces_and_Finishes/Doors_and_Trim.md` — this was a single, unusually cross-cutting case. [source: `_Archive/processed_sources/20260810_entry_hallway_dividing_wall_case_8963951b.txt`]
 
 - **The problem, per Zemskov**: a developer's L-shaped entry hallway, main-wall width 1.56m (finishing to ~1.5m), too narrow for a wardrobe deeper than 40cm without protruding into the door opening — a 40cm-deep wardrobe only fits shoes/light clothing, not coats. Deep storage needs the L-shape's 60cm-deep leg, but per Zemskov that geometry only accommodates a **free-standing ("corpus") wardrobe**, not a built-in — pricier (pays for panels a built-in wouldn't need) and, even with a rounding module to soften the exposed corner, wastes roughly **30% of the wardrobe's usable length** on the purely transitional section, by his figures.
 - **Zemskov's fix**: a short (2.16m) dividing wall, cost under 2,000 RUB, converting the L into two separate rectangular niches — letting a built-in sliding-door wardrobe replace the free-standing one, using full ceiling height and losing zero length to a transitional section. He frames this as solving five separate problems (wardrobe cost, ceiling, flooring, baseboard-termination — see the other three pages above) with one cheap structural change.
@@ -104,24 +104,24 @@ This is Russian consumer-protection law as explained by a named guest lawyer in 
 
 | Rule | Applies To | Reason | Source |
 | :--- | :--- | :--- | :--- |
-| Default to a plain wardrobe over a single-sided walk-in unless the room is ≥5m long | Bedrooms, closets | A walk-in's aisle is dead space a plain wardrobe doesn't need | `90_Archive/processed_sources/20260810_wardrobe_closet_layout_zones_c9a53804.txt` |
-| Consider two back-to-back wardrobes sharing a thin dividing wall instead of one walk-in | Adjoining rooms | Doubles storage for minimal space loss, plus soundproofing | `90_Archive/processed_sources/20260810_two_wardrobes_beat_walk_in_ab6b6e27.txt` |
-| Size built-in sliding-door wardrobe depth at 65-70cm (everyday) / 75-80cm (outerwear) | Built-in wardrobes | Naive hanging-garment-depth-only sizing undercounts the air gap + door-track allowance | `90_Archive/processed_sources/20260810_sliding_door_wardrobe_sizing_c11f1603.txt` |
-| Enter a child's walk-in closet from a shared hallway, not from inside the child's room | Kids' rooms with a walk-in | Frees room wall space for a proper wardrobe; a closed door already grants privacy | `90_Archive/processed_sources/20260810_walkin_access_from_hallway_not_bedroom_96b472d7.txt` |
-| Lock in bed and TV placement before wardrobe placement in a tight bedroom | Bedrooms | If no wall remains for storage, the window/balcony opening itself may need reconfiguring | `90_Archive/processed_sources/20260810_bedroom_window_reconfig_for_wardrobe_a8c8ec0f.txt` |
-| Scratch-test glass wardrobe-door panels with a fingernail before ordering | Glass wardrobe doors | Cheap glass shows permanent scratch marks from ordinary contact | `90_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
-| Determine built-in vs. free-standing status early in a furniture dispute | Contractor disputes | Determines which expert-examination category applies and what can be claimed | `90_Archive/processed_sources/20260810_furniture_dispute_legal_process_770603af.txt` |
+| Default to a plain wardrobe over a single-sided walk-in unless the room is ≥5m long | Bedrooms, closets | A walk-in's aisle is dead space a plain wardrobe doesn't need | `_Archive/processed_sources/20260810_wardrobe_closet_layout_zones_c9a53804.txt` |
+| Consider two back-to-back wardrobes sharing a thin dividing wall instead of one walk-in | Adjoining rooms | Doubles storage for minimal space loss, plus soundproofing | `_Archive/processed_sources/20260810_two_wardrobes_beat_walk_in_ab6b6e27.txt` |
+| Size built-in sliding-door wardrobe depth at 65-70cm (everyday) / 75-80cm (outerwear) | Built-in wardrobes | Naive hanging-garment-depth-only sizing undercounts the air gap + door-track allowance | `_Archive/processed_sources/20260810_sliding_door_wardrobe_sizing_c11f1603.txt` |
+| Enter a child's walk-in closet from a shared hallway, not from inside the child's room | Kids' rooms with a walk-in | Frees room wall space for a proper wardrobe; a closed door already grants privacy | `_Archive/processed_sources/20260810_walkin_access_from_hallway_not_bedroom_96b472d7.txt` |
+| Lock in bed and TV placement before wardrobe placement in a tight bedroom | Bedrooms | If no wall remains for storage, the window/balcony opening itself may need reconfiguring | `_Archive/processed_sources/20260810_bedroom_window_reconfig_for_wardrobe_a8c8ec0f.txt` |
+| Scratch-test glass wardrobe-door panels with a fingernail before ordering | Glass wardrobe doors | Cheap glass shows permanent scratch marks from ordinary contact | `_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
+| Determine built-in vs. free-standing status early in a furniture dispute | Contractor disputes | Determines which expert-examination category applies and what can be claimed | `_Archive/processed_sources/20260810_furniture_dispute_legal_process_770603af.txt` |
 
 ### Don'ts
 
 | Rule | Applies To | Risk | Source |
 | :--- | :--- | :--- | :--- |
-| Don't make a shoe-storage zone 60cm deep | Any closet | Forces double-row storage that blocks front-row access | `90_Archive/processed_sources/20260810_wardrobe_closet_layout_zones_c9a53804.txt`, `90_Archive/processed_sources/20260810_small_closet_layout_6497c4e9.txt` |
-| Don't build a walk-in with an internal mirror under 1.7m wide | Walk-in closets | Not enough clearance to stand back and view yourself | `90_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
-| Don't install mirrored wardrobe panels facing a bed | Bedrooms with a wardrobe | Peripheral-vision motion from the mirror disrupts sleep | `90_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
-| Don't skip soft-close dampers on heavy glass sliding doors | Glass wardrobe/closet doors | Risk of the panel shattering against the end stop | `90_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
-| Don't use recessed spotlights inside an enclosed mirrored closet | Walk-in closets | Harsh directional light emphasizes every shadow/fold | `90_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
-| Don't place a regularly-used work desk/computer setup in a bedroom | Bedrooms | Keyboard/mouse noise disrupts a sleeping partner over regular use | `90_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
+| Don't make a shoe-storage zone 60cm deep | Any closet | Forces double-row storage that blocks front-row access | `_Archive/processed_sources/20260810_wardrobe_closet_layout_zones_c9a53804.txt`, `_Archive/processed_sources/20260810_small_closet_layout_6497c4e9.txt` |
+| Don't build a walk-in with an internal mirror under 1.7m wide | Walk-in closets | Not enough clearance to stand back and view yourself | `_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
+| Don't install mirrored wardrobe panels facing a bed | Bedrooms with a wardrobe | Peripheral-vision motion from the mirror disrupts sleep | `_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
+| Don't skip soft-close dampers on heavy glass sliding doors | Glass wardrobe/closet doors | Risk of the panel shattering against the end stop | `_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
+| Don't use recessed spotlights inside an enclosed mirrored closet | Walk-in closets | Harsh directional light emphasizes every shadow/fold | `_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
+| Don't place a regularly-used work desk/computer setup in a bedroom | Bedrooms | Keyboard/mouse noise disrupts a sleeping partner over regular use | `_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt` |
 
 ## 9. Source Notes
 

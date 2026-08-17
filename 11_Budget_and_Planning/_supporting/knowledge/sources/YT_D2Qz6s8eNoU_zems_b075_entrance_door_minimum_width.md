@@ -2,7 +2,7 @@
 source_type: video transcript (on-site technical, Russian, clean captions)
 source_url: https://www.youtube.com/watch?v=D2Qz6s8eNoU
 video_id: D2Qz6s8eNoU
-transcript_file: 00_Inbox/transcripts/20260731_zems_b075_entrancedoors_691c33b5.txt
+transcript_file: _Inbox/transcripts/20260731_zems_b075_entrancedoors_691c33b5.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed; `inferred` 2019 by channel/numbering-consistency (video titled "...#075").
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company)

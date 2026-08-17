@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company promo/case-walkthrough, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=gvNczaG3SLY
 video_id: gvNczaG3SLY
-transcript_file: 90_Archive/processed_sources/20260814_kitchen_living_layout_correction_khanty_mansiysk_4d737e68.txt
+transcript_file: _Archive/processed_sources/20260814_kitchen_living_layout_correction_khanty_mansiysk_4d737e68.txt
 fetched: 2026-08-14
 upload_date: 2021-11-21 (confirmed via yt-dlp metadata, upload_date=20211121)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov)

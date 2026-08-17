@@ -2,7 +2,7 @@
 source_type: video transcript (two-speaker Q&A/technical-expert segment, Russian, manually-created captions — not ASR-generated)
 source_url: https://www.youtube.com/watch?v=Gp5Lr20SrtU
 video_id: Gp5Lr20SrtU
-transcript_file: 90_Archive/processed_sources/20260814_wildest_mistakes_childrens_room_181_7879c0f9.txt
+transcript_file: _Archive/processed_sources/20260814_wildest_mistakes_childrens_room_181_7879c0f9.txt
 fetched: 2026-08-14
 upload_date: 2022-11-06
 channel: Zemstandart / Alexey Zemskov (Moscow renovation company) — `single-account`

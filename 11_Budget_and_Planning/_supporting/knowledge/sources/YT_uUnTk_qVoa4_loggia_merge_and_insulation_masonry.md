@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker construction demo, Russian, ASR auto-generated captions — no punctuation, garbled title "216" doubled in metadata)
 source_url: https://www.youtube.com/watch?v=uUnTk_qVoa4
 video_id: uUnTk_qVoa4
-transcript_file: 90_Archive/processed_sources/20260804_loggia_merge_and_insulation_masonry_415018d2.txt
+transcript_file: _Archive/processed_sources/20260804_loggia_merge_and_insulation_masonry_415018d2.txt
 fetched: 2026-08-04
 upload_date: 2023-06-18
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

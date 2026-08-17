@@ -2,7 +2,7 @@
 source_type: video transcript ("5-minute knowledge" short-format video)
 source_url: https://www.youtube.com/watch?v=XFhz1NXlln8
 video_id: XFhz1NXlln8
-transcript_file: 90_Archive/processed_sources/20260810_flooring_hypermarket_spec_downgrade_scam_6f860ac8.txt
+transcript_file: _Archive/processed_sources/20260810_flooring_hypermarket_spec_downgrade_scam_6f860ac8.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2023-10-19 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

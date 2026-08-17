@@ -2,7 +2,7 @@
 source_type: video transcript (interview/case-study format, single practitioner interviewing a client, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=k7VUlw8gHZs
 video_id: k7VUlw8gHZs
-transcript_file: 90_Archive/processed_sources/20260804_alternative_layout_planning_and_smart_home_081f275f.txt
+transcript_file: _Archive/processed_sources/20260804_alternative_layout_planning_and_smart_home_081f275f.txt
 fetched: 2026-08-04
 upload_date: 2019-10-10
 channel: Alexey Zemskov / ZEMS group of companies (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами как всегда лом алексей земсков" at end of transcript

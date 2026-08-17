@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical/promotional, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=wQwuSsTtM1k
 video_id: wQwuSsTtM1k
-transcript_file: 90_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt
+transcript_file: _Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt
 fetched: 2026-08-04
 upload_date: 2024-07-14
 channel: ZEMS group (speaker "Sergey Saratov") — same channel as prior processed batches, "single-account"

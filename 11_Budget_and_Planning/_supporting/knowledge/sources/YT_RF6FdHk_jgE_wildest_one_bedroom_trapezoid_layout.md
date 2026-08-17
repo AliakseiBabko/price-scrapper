@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company design-critique/walkthrough, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=RF6FdHk_jgE
 video_id: RF6FdHk_jgE
-transcript_file: 90_Archive/processed_sources/20260814_wildest_one_bedroom_trapezoid_layout_1e7ab0ae.txt
+transcript_file: _Archive/processed_sources/20260814_wildest_one_bedroom_trapezoid_layout_1e7ab0ae.txt
 fetched: 2026-08-14
 upload_date: 2023-06-20 (confirmed via yt-dlp metadata, upload_date=20230620)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov)

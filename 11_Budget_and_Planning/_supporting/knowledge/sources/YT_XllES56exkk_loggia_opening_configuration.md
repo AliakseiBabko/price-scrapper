@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive masterclass)
 source_url: https://www.youtube.com/watch?v=XllES56exkk
 video_id: XllES56exkk
-transcript_file: 90_Archive/processed_sources/20260810_loggia_opening_configuration_45e19781.txt
+transcript_file: _Archive/processed_sources/20260810_loggia_opening_configuration_45e19781.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2019-02-02 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

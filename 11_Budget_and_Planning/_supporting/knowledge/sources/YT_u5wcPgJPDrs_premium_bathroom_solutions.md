@@ -2,7 +2,7 @@
 source_type: video transcript (real jobsite tour, comfort-class tier, user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=u5wcPgJPDrs
 video_id: u5wcPgJPDrs
-transcript_file: 90_Archive/processed_sources/20260810_premium_bathroom_solutions_9979dda3.txt
+transcript_file: _Archive/processed_sources/20260810_premium_bathroom_solutions_9979dda3.txt
 fetched: user-supplied 2026-08-10 (originally attempted 2026-07-31, logged `skipped` — no captions — run_20260731_50, now superseded)
 upload_date: 2022-11-13 (confirmed via yt-dlp metadata)
 channel: Zemstandart (Alexey Zemskov) — Moscow-based

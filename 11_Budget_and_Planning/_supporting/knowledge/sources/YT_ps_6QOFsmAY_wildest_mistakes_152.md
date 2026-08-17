@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker mistakes/tips walkthrough filmed on an in-progress project, Russian, manually-created captions, moderate-to-good transcript quality)
 source_url: https://www.youtube.com/watch?v=ps_6QOFsmAY
 video_id: ps_6QOFsmAY
-transcript_file: 90_Archive/processed_sources/20260815_wildest_mistakes_152_1bc6fbf2.txt
+transcript_file: _Archive/processed_sources/20260815_wildest_mistakes_152_1bc6fbf2.txt
 fetched: 2026-08-15
 upload_date: 2021-10-10 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

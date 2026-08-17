@@ -2,7 +2,7 @@
 source_type: video transcript (design-methodology walkthrough, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=cp8U9wvsqI8
 video_id: cp8U9wvsqI8
-transcript_file: 90_Archive/processed_sources/20260805_five_layout_concepts_client_profiles_91f4d997.txt
+transcript_file: _Archive/processed_sources/20260805_five_layout_concepts_client_profiles_91f4d997.txt
 fetched: 2026-08-05
 upload_date: not independently confirmed by metadata
 channel: Zemstandart-associated design team; hosted by Alexey Zemskov, design content presented by Александр Панфилов (design-team lead, "отвечаю за дизайн интерьеров")

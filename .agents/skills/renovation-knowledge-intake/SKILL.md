@@ -44,11 +44,11 @@ already uses (per `.antigravityrules` and the existing
 and writes evidence pointers to these, but does not relocate files itself
 beyond what the shared skills already do:
 
-- **Inbox** (new, not-yet-processed sources): `00_Inbox\` - e.g.
-  `00_Inbox\transcripts\` for a `youtube-transcript-fetch` output
-  directory, `00_Inbox\_Visual_Drop\` for screenshots pending
+- **Inbox** (new, not-yet-processed sources): `_Inbox\` - e.g.
+  `_Inbox\transcripts\` for a `youtube-transcript-fetch` output
+  directory, `_Inbox\_Visual_Drop\` for screenshots pending
   `visual-evidence-organize`.
-- **Archive** (raw source evidence after processing): `90_Archive\processed_sources\`.
+- **Archive** (raw source evidence after processing): `_Archive\processed_sources\`.
 - **Source log**: `00_Master\processed_sources.csv` - this wrapper does
   not own writing to it, but a processed source should be logged there
   per this repo's existing convention (a separate step from the
@@ -60,7 +60,7 @@ beyond what the shared skills already do:
 
 `status` must be one of:
 - `inbox` / `processing` - mid-workflow, transcript fetched but not yet fully extracted/integrated.
-- `archived` - fully processed: extracted, integrated into the knowledge base, transcript moved to `90_Archive\processed_sources\`.
+- `archived` - fully processed: extracted, integrated into the knowledge base, transcript moved to `_Archive\processed_sources\`.
 - `skipped` - could not be processed (e.g. no captions available via either `youtube-transcript-api` or `yt-dlp`, or the video is private/unavailable) - never fetched or extracted. Note the specific reason in `notes`.
 - `duplicate_skipped` - the video ID was already logged under a prior `run_id` before this one started (checked by canonical video ID, not by re-deriving a transcript hash) - not re-fetched or re-extracted. Cite the earlier `run_id`/source-note slug in `notes`.
 - `failed` - a fetch or extraction attempt was made and errored for a reason other than "no captions"/"duplicate"/"unavailable" (e.g. a tool crash) - distinct from `skipped` so a genuine bug isn't confused with an expected no-captions/duplicate outcome.
@@ -251,7 +251,7 @@ For one source at a time:
    text before extracting, not a summarization tool's paraphrase - see
    "Company website sources: fetching and marketing filter" below for why
    and how. Save the fetched text as an evidence file under
-   `90_Archive/processed_sources/` (same convention as an archived
+   `_Archive/processed_sources/` (same convention as an archived
    transcript) before treating it as a text source for step 3.
 2. **Screenshot/image source** → run `visual-evidence-organize` first (or
    use an existing screenshot-analysis artifact already produced by it),
@@ -441,7 +441,7 @@ matter losing.
   summarization) but without tab-clicking built in - manually inspect
   the page structure first if you suspect hidden tabbed content.
 - **Save the fetched text as a real evidence file** under
-  `90_Archive/processed_sources/`, the same way an archived video
+  `_Archive/processed_sources/`, the same way an archived video
   transcript is preserved - a website source needs the same
   traceability a transcript gets, not a one-off summary that can't be
   re-checked later.

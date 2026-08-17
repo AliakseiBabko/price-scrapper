@@ -1,8 +1,8 @@
 ---
 source_type: company website (2 pages: About, Design-Project Development process). The /about/ page was re-verified 2026-08-10 via Playwright MCP (real rendered browser text, near-verbatim) — see evidence_file_verbatim. The /development/ page still rests on an earlier WebFetch automated-summarization pass (NOT raw/verbatim) — flagged as a follow-up if its detail becomes load-bearing.
 source_url: https://zems.pro/about/ ; https://zems.pro/development/
-evidence_file: 90_Archive/processed_sources/20260810_zemspro_about_and_development_pages.txt (original WebFetch-summarized version, both pages)
-evidence_file_verbatim: 90_Archive/processed_sources/20260810_zemspro_about_page_verbatim_mcp.txt (real rendered text, /about/ page only, via Playwright MCP — supersedes the summary above for this page)
+evidence_file: _Archive/processed_sources/20260810_zemspro_about_and_development_pages.txt (original WebFetch-summarized version, both pages)
+evidence_file_verbatim: _Archive/processed_sources/20260810_zemspro_about_page_verbatim_mcp.txt (real rendered text, /about/ page only, via Playwright MCP — supersedes the summary above for this page)
 fetched: 2026-08-10 (WebFetch pass); re-verified same day via Playwright MCP for /about/
 publish_date: not applicable (live company website, checked 2026-08-10 — pricing/process reflect current-as-of-this-date state, not a fixed publish date; contrast with this store's video sources, which have a fixed upload date)
 channel: Zemstandart / Zems.pro (Alexey Zemskov's own company website — the primary company entity behind the Zemstandart/Zemsproekt/Zemsdesign/Zemsremont YouTube content already in this store)

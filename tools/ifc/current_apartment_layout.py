@@ -328,16 +328,16 @@ def main() -> int:
 
     evidence = {
         "primary_sources": [
-            "00_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
-            "00_Inbox/_Visual_Drop/floor_plan_basic.jpg",
+            "_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
+            "_Inbox/_Visual_Drop/floor_plan_basic.jpg",
         ],
         "calibration_sources": [
-            "00_Inbox/_Visual_Drop/floor plan_1.jpg",
-            "00_Inbox/_Visual_Drop/floor plan_2.jpg",
-            "00_Inbox/_Visual_Drop/floor plan_3.jpg",
+            "_Inbox/_Visual_Drop/floor plan_1.jpg",
+            "_Inbox/_Visual_Drop/floor plan_2.jpg",
+            "_Inbox/_Visual_Drop/floor plan_3.jpg",
         ],
         "cad_underlay": {
-            "source": "00_Inbox/cad/20260727-ZK Dubravinskiy.dwg",
+            "source": "_Inbox/cad/20260727-ZK Dubravinskiy.dwg",
             "policy": "reference_underlay_not_authoritative_bim_geometry",
             "intake_summary": "tools/cad/CAD_INTAKE_SUMMARY.md",
             "observed_dxf_units": "millimetres",

@@ -2,7 +2,7 @@
 source_type: video transcript (real project case study)
 source_url: https://www.youtube.com/watch?v=Qjt47tedKqw
 video_id: Qjt47tedKqw
-transcript_file: 90_Archive/processed_sources/20260810_kitchen_loggia_shared_niche_case_d3104a4f.txt
+transcript_file: _Archive/processed_sources/20260810_kitchen_loggia_shared_niche_case_d3104a4f.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2020-09-20 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

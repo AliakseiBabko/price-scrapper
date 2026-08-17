@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=XmeoZUiGwBM
 video_id: XmeoZUiGwBM
-transcript_file: 90_Archive/processed_sources/20260804_electrician_tool_kit_1ec9e3da.txt
+transcript_file: _Archive/processed_sources/20260804_electrician_tool_kit_1ec9e3da.txt
 fetched: 2026-08-04
 upload_date: 2019-10-06
 channel: Alexey Zemskov / ZEMS group of companies (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами как всегда был алексей земсков" at end of transcript

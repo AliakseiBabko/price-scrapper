@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=_wWteDpfIso
 video_id: _wWteDpfIso
-transcript_file: 90_Archive/processed_sources/20260804_hiding_tv_cables_5c8f1d11.txt
+transcript_file: _Archive/processed_sources/20260804_hiding_tv_cables_5c8f1d11.txt
 fetched: 2026-08-04
 upload_date: 2020-05-20
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — Belarus/Russia-region renovation-design company

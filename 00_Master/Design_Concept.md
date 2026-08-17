@@ -6,7 +6,7 @@ by `.antigravityrules` (alongside `Family_Requirements.md` and
 read for user-specific context, but no version of it with real content
 was found anywhere: not in `git log` history for this path (it has never
 been committed), not in unreachable/dangling git blobs, not in
-`90_Archive/processed_sources`, `scratch/`, or any current document. It
+`_Archive/processed_sources`, `scratch/`, or any current document. It
 was most likely created as empty scaffolding during the 2026-07-27
 restructure and never filled in.
 

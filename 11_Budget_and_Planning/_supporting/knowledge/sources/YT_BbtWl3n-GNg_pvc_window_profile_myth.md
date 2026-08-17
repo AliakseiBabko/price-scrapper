@@ -2,7 +2,7 @@
 source_type: video transcript
 source_url: https://www.youtube.com/watch?v=BbtWl3n-GNg
 video_id: BbtWl3n-GNg
-transcript_file: 90_Archive/processed_sources/20260810_pvc_window_profile_myth_83410f41.txt
+transcript_file: _Archive/processed_sources/20260810_pvc_window_profile_myth_83410f41.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2019-01-18 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

@@ -2,7 +2,7 @@
 source_type: video transcript (turnkey company channel, self-calculation/smeta-literacy guide, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=cdNwbqsLUK4
 video_id: cdNwbqsLUK4
-transcript_file: 00_Inbox/transcripts/20260731_cdNwbqsLUK4_7d91eb29.txt
+transcript_file: _Inbox/transcripts/20260731_cdNwbqsLUK4_7d91eb29.txt
 fetched: 2026-07-31
 upload_date: 2024-11-14 (metadata-confirmed)
 channel: "РемонтХочу" (remonthochu.ru)

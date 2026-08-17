@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Move fetched transcripts from an inbox folder to 90_Archive/processed_sources
+"""Move fetched transcripts from an inbox folder to _Archive/processed_sources
 and repoint each matching source note's `transcript_file:` frontmatter field -
 by parsing metadata, never by filename globbing.
 
@@ -26,7 +26,7 @@ containing at least `video_id` and `sha256`. For each one:
   2. Derive the archive slug from that note's own filename (the part after
      `YT_<video_id>_` and before `.md`) - keeps the archived transcript's
      name consistent with its note, which prior manual runs did by hand.
-  3. Move the .txt and .meta.json to 90_Archive/processed_sources/ as
+  3. Move the .txt and .meta.json to _Archive/processed_sources/ as
      `<date>_<slug>_<hash8>.txt` / `.meta.json` (date taken from the inbox
      filename's own date prefix if present, else today).
   4. Rewrite the note's `transcript_file:` line to the new archive path.
@@ -47,7 +47,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from preflight_playlist import load_known_ids_from_notes  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-ARCHIVE_DIR = REPO_ROOT / "90_Archive" / "processed_sources"
+ARCHIVE_DIR = REPO_ROOT / "_Archive" / "processed_sources"
 SOURCE_NOTES_DIR = (
     REPO_ROOT
     / "11_Budget_and_Planning"
@@ -132,7 +132,7 @@ def main() -> int:
         new_txt_path = ARCHIVE_DIR / new_txt_name
         new_meta_path = ARCHIVE_DIR / new_meta_name
 
-        new_relpath = f"90_Archive/processed_sources/{new_txt_name}"
+        new_relpath = f"_Archive/processed_sources/{new_txt_name}"
 
         # Rewrite the transcript_file: frontmatter line directly by regex, rather than
         # substring-replacing an assumed old path. A previous version of this script

@@ -2,7 +2,7 @@
 source_type: video transcript (company educational/self-promo, Russian, auto captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=ORkPwMJ-AzU
 video_id: ORkPwMJ-AzU
-transcript_file: 00_Inbox/transcripts/20260731_doors_v2_87348fdc.txt
+transcript_file: _Inbox/transcripts/20260731_doors_v2_87348fdc.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed
 channel: "ГК «Авальремонт»" (Avalremont group), presenter "Дмитрий" (Dmitriy)

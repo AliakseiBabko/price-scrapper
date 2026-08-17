@@ -2,7 +2,7 @@
 source_type: video transcript (retailer educational/self-promo, Russian, auto captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=WMc_AjUqQ-4
 video_id: WMc_AjUqQ-4
-transcript_file: 00_Inbox/transcripts/20260731_doors_v7_39b5ebae.txt
+transcript_file: _Inbox/transcripts/20260731_doors_v7_39b5ebae.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed
 channel: "Сергей Гусев | ПРО ДВЕРИ и ПЕРЕГОВОРКИ" — same retailer as yt_COhFXPyfXxM and yt_Mfzce0Qm4HM (this batch)

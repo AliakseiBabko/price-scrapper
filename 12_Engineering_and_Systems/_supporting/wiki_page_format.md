@@ -26,7 +26,7 @@ These pages should follow the same discipline already established for `Budgeting
 - **Stay brand-name-free by default.** Describe functional tiers/categories (e.g. "budget inverter models" vs. "premium models with lower noise and more self-diagnostics") rather than naming specific commercial brands, unless a brand name is itself the durable fact (rare). Several sources feeding this content are self-promotional company channels — see each source's own advertising notes in the `11_Budget_and_Planning` intermediate store for context before pulling a claim in here.
 - **Preserve uncertainty.** If a fact came from a source tagged `unverified`, `single-account`, or with an ASR-garbled figure in the budgeting store, don't launder it into unqualified fact here — carry the same hedge (e.g. "one installer's stated rule of thumb," not "the rule").
 - **No pricing without a date/currency/region caveat.** These pages are technical/practical references first; if a price figure is included at all, treat it the same way the budgeting store does (source year, currency, region stated explicitly) rather than a bare number.
-- **Cite sources by archive path**, matching the existing table convention (`` `90_Archive/processed_sources/<file>.txt` ``), and additionally link the richer extraction note where one exists, since those carry the full evidence-level breakdown this folder's pages don't need to duplicate.
+- **Cite sources by archive path**, matching the existing table convention (`` `_Archive/processed_sources/<file>.txt` ``), and additionally link the richer extraction note where one exists, since those carry the full evidence-level breakdown this folder's pages don't need to duplicate.
 
 ## Not done yet
 

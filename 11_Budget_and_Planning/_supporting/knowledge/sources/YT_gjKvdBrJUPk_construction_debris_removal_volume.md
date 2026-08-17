@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical tip, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=gjKvdBrJUPk
 video_id: gjKvdBrJUPk
-transcript_file: 90_Archive/processed_sources/20260804_construction_debris_removal_volume_a83a6846.txt
+transcript_file: _Archive/processed_sources/20260804_construction_debris_removal_volume_a83a6846.txt
 fetched: 2026-08-04
 upload_date: 2019-01-11
 channel: Alexey Zemskov / ZEMS group (Zemstandart / Zemsproekt / Zemsremont)

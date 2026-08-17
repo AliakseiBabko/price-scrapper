@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker unannounced/surprise multi-site tour, Russian, manually-created captions per API but text is heavily run-on/garbled — treat as ASR-uncertain regardless of the "manual" label, same pattern as yt_LCb8ix8Bl64)
 source_url: https://www.youtube.com/watch?v=U56YIEA3-U4
 video_id: U56YIEA3-U4
-transcript_file: 90_Archive/processed_sources/20260815_best_solutions_3_087_surprise_site_tour_5328479b.txt
+transcript_file: _Archive/processed_sources/20260815_best_solutions_3_087_surprise_site_tour_5328479b.txt
 fetched: 2026-08-15
 upload_date: 2019-06-11 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

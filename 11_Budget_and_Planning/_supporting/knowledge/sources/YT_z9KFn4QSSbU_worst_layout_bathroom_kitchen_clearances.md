@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company promo/case-walkthrough, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=z9KFn4QSSbU
 video_id: z9KFn4QSSbU
-transcript_file: 90_Archive/processed_sources/20260804_worst_layout_bathroom_kitchen_clearances_7629bd27.txt
+transcript_file: _Archive/processed_sources/20260804_worst_layout_bathroom_kitchen_clearances_7629bd27.txt
 fetched: 2026-08-04
 upload_date: 2023-05-23
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
         date_str = datetime.now().strftime("%Y%m%d")
         filename = f"{date_str}_{slug}_{hash8}.txt"
-        out_dir = os.path.join("00_Inbox", "transcripts")
+        out_dir = os.path.join("_Inbox", "transcripts")
         os.makedirs(out_dir, exist_ok=True)
 
         file_path = os.path.join(out_dir, filename)

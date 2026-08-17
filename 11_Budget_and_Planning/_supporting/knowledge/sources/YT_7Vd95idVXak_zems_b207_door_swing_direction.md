@@ -2,7 +2,7 @@
 source_type: video transcript (opinion/technical, Russian, clean captions)
 source_url: https://www.youtube.com/watch?v=7Vd95idVXak
 video_id: 7Vd95idVXak
-transcript_file: 00_Inbox/transcripts/20260731_zems_b207_design_b8b72802.txt
+transcript_file: _Inbox/transcripts/20260731_zems_b207_design_b8b72802.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed; `inferred` 2019-or-later by channel/numbering-consistency (video titled "...#207," a materially higher episode number than this channel's other playlist entries, so the 2019 inference is weaker here than for #024-#076 — treat the year as `uncertain`).
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company)

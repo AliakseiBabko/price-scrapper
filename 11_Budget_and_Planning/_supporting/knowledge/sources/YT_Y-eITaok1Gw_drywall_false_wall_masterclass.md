@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive masterclass, real jobsite)
 source_url: https://www.youtube.com/watch?v=Y-eITaok1Gw
 video_id: Y-eITaok1Gw
-transcript_file: 90_Archive/processed_sources/20260810_drywall_false_wall_masterclass_6d77f6f5.txt
+transcript_file: _Archive/processed_sources/20260810_drywall_false_wall_masterclass_6d77f6f5.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2019-01-28 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

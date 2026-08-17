@@ -2,7 +2,7 @@
 source_type: video transcript (on-site correction/mistake walkthrough, Russian, clean captions)
 source_url: https://www.youtube.com/watch?v=c4b7iyg8v5U
 video_id: c4b7iyg8v5U
-transcript_file: 00_Inbox/transcripts/20260731_zems_b029_doorway_7f7feafa.txt
+transcript_file: _Inbox/transcripts/20260731_zems_b029_doorway_7f7feafa.txt
 fetched: 2026-07-31
 upload_date: not independently confirmed; `inferred` 2019 by channel/numbering-consistency (video titled "...#029").
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company)

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker company-critique/dunk-format layout+finishes walkthrough, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=WVfgE0lHgVc
 video_id: WVfgE0lHgVc
-transcript_file: 90_Archive/processed_sources/20260815_29_stupidly_expensive_mistakes_313_79d2d1fc.txt
+transcript_file: _Archive/processed_sources/20260815_29_stupidly_expensive_mistakes_313_79d2d1fc.txt
 fetched: 2026-08-15
 upload_date: 2025-12-07 (confirmed via yt-dlp metadata, upload_date=20251207)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov)

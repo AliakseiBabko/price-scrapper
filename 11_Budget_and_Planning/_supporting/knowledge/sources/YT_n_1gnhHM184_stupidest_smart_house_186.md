@@ -2,7 +2,7 @@
 source_type: video transcript (company technique/opinion video, two-narrator)
 source_url: https://www.youtube.com/watch?v=n_1gnhHM184
 video_id: n_1gnhHM184
-transcript_file: 90_Archive/processed_sources/20260814_stupidest_smart_house_186_159f04b4.txt
+transcript_file: _Archive/processed_sources/20260814_stupidest_smart_house_186_159f04b4.txt
 fetched: 2026-08-14 via youtube-transcript-api (manual ru captions)
 upload_date: 2022-12-04 (confirmed via yt-dlp metadata, upload_date=20221204)
 channel: Zemstandart (Alexey Zemskov + Sergey Saratov, "technical expert for comfort-class renovation") — Moscow-based (channel-level association only, not stated in-video)

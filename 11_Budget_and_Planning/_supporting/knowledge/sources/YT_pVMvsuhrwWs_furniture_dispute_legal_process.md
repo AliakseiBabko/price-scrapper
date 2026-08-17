@@ -2,7 +2,7 @@
 source_type: video transcript (consumer-dispute case study with a lawyer's guest segment, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=pVMvsuhrwWs
 video_id: pVMvsuhrwWs
-transcript_file: 90_Archive/processed_sources/20260810_furniture_dispute_legal_process_770603af.txt
+transcript_file: _Archive/processed_sources/20260810_furniture_dispute_legal_process_770603af.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata; context suggests circa early 2020 ("поздравляю с наступившим 2020-м годом" closing line)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

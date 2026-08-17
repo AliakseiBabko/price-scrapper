@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive masterclass)
 source_url: https://www.youtube.com/watch?v=1f8dQOhEADk
 video_id: 1f8dQOhEADk
-transcript_file: 90_Archive/processed_sources/20260810_loggia_insulated_subfloor_construction_7d5eff30.txt
+transcript_file: _Archive/processed_sources/20260810_loggia_insulated_subfloor_construction_7d5eff30.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2018-12-28 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

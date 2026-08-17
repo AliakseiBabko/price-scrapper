@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker before/after case walkthrough, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=hPYjyJhPP2g
 video_id: hPYjyJhPP2g
-transcript_file: 90_Archive/processed_sources/20260804_loggia_glazing_contour_relocation_d519629e.txt
+transcript_file: _Archive/processed_sources/20260804_loggia_glazing_contour_relocation_d519629e.txt
 fetched: 2026-08-04
 upload_date: 2020-09-13
 channel: Alexey Zemskov / ZEMS group (Zemstandart / Zemsproekt / Zemsremont)

@@ -2,7 +2,7 @@
 source_type: video transcript (livestream, unscripted)
 source_url: https://www.youtube.com/watch?v=_VvT9FcNbKY
 video_id: _VvT9FcNbKY
-transcript_file: 90_Archive/processed_sources/20260810_glue_down_quartz_vinyl_top_15_mistakes_8efd6760.txt
+transcript_file: _Archive/processed_sources/20260810_glue_down_quartz_vinyl_top_15_mistakes_8efd6760.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2021-05-21 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

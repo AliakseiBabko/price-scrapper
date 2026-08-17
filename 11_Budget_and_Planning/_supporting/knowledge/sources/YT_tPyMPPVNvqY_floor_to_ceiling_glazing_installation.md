@@ -2,7 +2,7 @@
 source_type: video transcript (comprehensive real-jobsite masterclass, guest installer featured)
 source_url: https://www.youtube.com/watch?v=tPyMPPVNvqY
 video_id: tPyMPPVNvqY
-transcript_file: 90_Archive/processed_sources/20260810_floor_to_ceiling_glazing_installation_220bbeda.txt
+transcript_file: _Archive/processed_sources/20260810_floor_to_ceiling_glazing_installation_220bbeda.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2024-04-07 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical/promotional, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=p1BQChVZnmE
 video_id: p1BQChVZnmE
-transcript_file: 90_Archive/processed_sources/20260804_zems_standards_turnkey_walkthrough_90d788ca.txt
+transcript_file: _Archive/processed_sources/20260804_zems_standards_turnkey_walkthrough_90d788ca.txt
 fetched: 2026-08-04
 upload_date: 2024-07-30
 channel: ZEMS group (speaker "Sergey Saratov") — same channel as prior processed batches, "single-account"

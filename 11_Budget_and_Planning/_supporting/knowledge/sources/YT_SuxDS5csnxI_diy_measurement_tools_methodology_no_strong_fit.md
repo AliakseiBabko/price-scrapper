@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker DIY measurement/self-design tutorial, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=SuxDS5csnxI
 video_id: SuxDS5csnxI
-transcript_file: 90_Archive/processed_sources/20260804_diy_measurement_tools_methodology_no_strong_fit_0eec6d5f.txt
+transcript_file: _Archive/processed_sources/20260804_diy_measurement_tools_methodology_no_strong_fit_0eec6d5f.txt
 fetched: 2026-08-04
 upload_date: 2023-04-18
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

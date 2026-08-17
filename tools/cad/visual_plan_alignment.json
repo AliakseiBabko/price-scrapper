@@ -1,7 +1,7 @@
 {
   "current_plan": {
-    "detailed_source": "00_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
-    "basic_source": "00_Inbox/_Visual_Drop/floor_plan_basic.jpg",
+    "detailed_source": "_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
+    "basic_source": "_Inbox/_Visual_Drop/floor_plan_basic.jpg",
     "entrance_opening_mm": 1010,
     "likely_door_leaf_mm": 910,
     "declared_area_basic_m2": 69.44,

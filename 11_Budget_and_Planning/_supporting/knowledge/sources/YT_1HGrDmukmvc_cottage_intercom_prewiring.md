@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=1HGrDmukmvc
 video_id: 1HGrDmukmvc
-transcript_file: 90_Archive/processed_sources/20260804_cottage_intercom_prewiring_d9d61714.txt
+transcript_file: _Archive/processed_sources/20260804_cottage_intercom_prewiring_d9d61714.txt
 fetched: 2026-08-04
 upload_date: 2019-04-23
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами был Алексей Земсков"

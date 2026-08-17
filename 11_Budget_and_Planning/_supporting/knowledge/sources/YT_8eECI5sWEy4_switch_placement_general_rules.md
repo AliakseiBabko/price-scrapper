@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical tip, Russian, ASR auto-generated captions, no punctuation)
 source_url: https://www.youtube.com/watch?v=8eECI5sWEy4
 video_id: 8eECI5sWEy4
-transcript_file: 90_Archive/processed_sources/20260804_switch_placement_general_rules_0b688415.txt
+transcript_file: _Archive/processed_sources/20260804_switch_placement_general_rules_0b688415.txt
 fetched: 2026-08-04
 upload_date: 2019-05-28
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont)

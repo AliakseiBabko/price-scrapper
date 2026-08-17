@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=P7_rUkk8clU
 video_id: P7_rUkk8clU
-transcript_file: 90_Archive/processed_sources/20260804_outlets_in_window_slopes_d351e012.txt
+transcript_file: _Archive/processed_sources/20260804_outlets_in_window_slopes_d351e012.txt
 fetched: 2026-08-04
 upload_date: 2019-01-08
 channel: Alexey Zemskov / ZEMS group of companies (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами как всегда был алекс этим school" [ASR-garbled rendering of "Алексей Земсков"] at end of transcript

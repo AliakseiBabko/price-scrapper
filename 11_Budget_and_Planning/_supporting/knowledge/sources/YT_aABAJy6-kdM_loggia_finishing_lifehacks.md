@@ -2,7 +2,7 @@
 source_type: video transcript (four short technique demonstrations, filmed for a TV/media partner)
 source_url: https://www.youtube.com/watch?v=aABAJy6-kdM
 video_id: aABAJy6-kdM
-transcript_file: 90_Archive/processed_sources/20260810_loggia_finishing_lifehacks_e0f2c6ec.txt
+transcript_file: _Archive/processed_sources/20260810_loggia_finishing_lifehacks_e0f2c6ec.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2018-12-26 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

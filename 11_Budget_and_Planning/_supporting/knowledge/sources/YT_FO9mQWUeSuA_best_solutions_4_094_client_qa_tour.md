@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker completed-project client-interview tour, Russian, manually-created captions per API but text is heavily run-on/garbled in several passages — treat as ASR-uncertain where noted)
 source_url: https://www.youtube.com/watch?v=FO9mQWUeSuA
 video_id: FO9mQWUeSuA
-transcript_file: 90_Archive/processed_sources/20260815_best_solutions_4_094_client_qa_tour_d99ef8da.txt
+transcript_file: _Archive/processed_sources/20260815_best_solutions_4_094_client_qa_tour_d99ef8da.txt
 fetched: 2026-08-15
 upload_date: 2019-07-07 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Zemstandart / Alexey Zemskov (Moscow-area renovation company) — `single-account`

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker QC/inspection walkthrough, Russian, ASR auto-generated captions — no punctuation)
 source_url: https://www.youtube.com/watch?v=JbgOn2-E5NQ
 video_id: JbgOn2-E5NQ
-transcript_file: 90_Archive/processed_sources/20260804_prefinish_stage_acceptance_d34c8e90.txt
+transcript_file: _Archive/processed_sources/20260804_prefinish_stage_acceptance_d34c8e90.txt
 fetched: 2026-08-04
 upload_date: 2023-11-26
 channel: ZS Pro / Sergey Saratov (renovation-operations lead under Zemstandart/Alexey Zemskov, Moscow-area — same channel family as prior zems_b* sources, `single-account`)

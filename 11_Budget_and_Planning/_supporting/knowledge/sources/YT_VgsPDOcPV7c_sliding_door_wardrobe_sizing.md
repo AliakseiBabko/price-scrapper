@@ -2,7 +2,7 @@
 source_type: video transcript (dense technical how-to, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=VgsPDOcPV7c
 video_id: VgsPDOcPV7c
-transcript_file: 90_Archive/processed_sources/20260810_sliding_door_wardrobe_sizing_c11f1603.txt
+transcript_file: _Archive/processed_sources/20260810_sliding_door_wardrobe_sizing_c11f1603.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

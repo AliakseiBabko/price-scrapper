@@ -2,7 +2,7 @@
 source_type: video transcript (two-speaker Q&A - company principal + real client, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=9vcDyi4utLk
 video_id: 9vcDyi4utLk
-transcript_file: 90_Archive/processed_sources/20260814_food_waste_disposer_qa_dea7b8ef.txt
+transcript_file: _Archive/processed_sources/20260814_food_waste_disposer_qa_dea7b8ef.txt
 fetched: 2026-08-14
 upload_date: 2022-10-23 (confirmed via yt-dlp metadata, upload_date=20221023)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov, with real client "Nina")

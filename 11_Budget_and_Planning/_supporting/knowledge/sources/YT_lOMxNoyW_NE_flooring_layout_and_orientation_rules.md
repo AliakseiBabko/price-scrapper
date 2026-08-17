@@ -2,7 +2,7 @@
 source_type: video transcript
 source_url: https://www.youtube.com/watch?v=lOMxNoyW_NE
 video_id: lOMxNoyW_NE
-transcript_file: 90_Archive/processed_sources/20260810_flooring_layout_and_orientation_rules_4ef67e84.txt
+transcript_file: _Archive/processed_sources/20260810_flooring_layout_and_orientation_rules_4ef67e84.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2019-02-23 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

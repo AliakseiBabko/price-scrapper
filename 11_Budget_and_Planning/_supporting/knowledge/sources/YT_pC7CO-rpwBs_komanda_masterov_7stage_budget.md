@@ -2,7 +2,7 @@
 source_type: video transcript (turnkey studio pitch/cost-breakdown video, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=pC7CO-rpwBs
 video_id: pC7CO-rpwBs
-transcript_file: 00_Inbox/transcripts/20260731_pC7CO-rpwBs_4e6f0520.txt
+transcript_file: _Inbox/transcripts/20260731_pC7CO-rpwBs_4e6f0520.txt
 fetched: 2026-07-31
 upload_date: 2024-10-01 (metadata-confirmed) — second-oldest source in this store after the 2017 FLATART video
 channel: "Команда Мастеров" ("Team of Craftsmen")

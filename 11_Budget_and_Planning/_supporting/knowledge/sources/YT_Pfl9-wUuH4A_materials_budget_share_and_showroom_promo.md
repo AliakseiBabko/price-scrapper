@@ -2,7 +2,7 @@
 source_type: video transcript (largely self-promotional — flagged per this project's advertising filter)
 source_url: https://www.youtube.com/watch?v=Pfl9-wUuH4A
 video_id: Pfl9-wUuH4A
-transcript_file: 90_Archive/processed_sources/20260810_materials_budget_share_and_showroom_promo_dca31882.txt
+transcript_file: _Archive/processed_sources/20260810_materials_budget_share_and_showroom_promo_dca31882.txt
 fetched: 2026-08-10 via youtube-transcript-api (manual ru captions)
 upload_date: 2021-02-03 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

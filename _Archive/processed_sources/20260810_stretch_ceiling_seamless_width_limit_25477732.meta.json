@@ -3,7 +3,7 @@
   "video_id": "2hg0mjR-M30",
   "language": "ru",
   "method": "user-supplied-turboscribe",
-  "source_tool": "User manually transcribed this video via Turboscribe (a paid third-party transcription service) after youtube-transcript-api and yt-dlp both failed to find a caption track. File supplied in 00_Inbox/transcripts/, named by video ID.",
+  "source_tool": "User manually transcribed this video via Turboscribe (a paid third-party transcription service) after youtube-transcript-api and yt-dlp both failed to find a caption track. File supplied in _Inbox/transcripts/, named by video ID.",
   "sha256": "25477732122e408a162cec25a43f0d3fd3a7c6e9dd64ffb2b329d21dd99d5838",
   "upload_date_confirmed": "2019-04-09",
   "note": "Confirmed via yt-dlp metadata fetch (py -3 -m yt_dlp), 2026-08-10. Channel field failed to print due to a Windows console cp1252 encoding error on Cyrillic text, but upload_date printed successfully before the traceback. Channel is Zemstandart/Alexey Zemskov per user's explicit statement and per this project's channel-identification convention (content, framing, sign-off 'Алексей Зубсков' phonetic transcription of Zemskov)."

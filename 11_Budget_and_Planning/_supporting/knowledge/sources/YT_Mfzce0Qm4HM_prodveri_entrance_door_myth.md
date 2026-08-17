@@ -2,7 +2,7 @@
 source_type: video transcript (retailer educational/self-promo, Russian, auto captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=Mfzce0Qm4HM
 video_id: Mfzce0Qm4HM
-transcript_file: 00_Inbox/transcripts/20260731_doors_v5_4995ff31.txt
+transcript_file: _Inbox/transcripts/20260731_doors_v5_4995ff31.txt
 fetched: 2026-07-31
 upload_date: title states "в 2026 году" — level 1, content itself is 2026-current
 channel: "Сергей Гусев | ПРО ДВЕРИ И ПЕРЕГОВОРКИ" — same retailer as yt_COhFXPyfXxM (this batch)

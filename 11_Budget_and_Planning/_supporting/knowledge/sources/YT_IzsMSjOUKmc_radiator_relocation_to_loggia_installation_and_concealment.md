@@ -2,7 +2,7 @@
 source_type: video transcript (company installation demo, part 2 of a series)
 source_url: https://www.youtube.com/watch?v=IzsMSjOUKmc
 video_id: IzsMSjOUKmc
-transcript_file: 90_Archive/processed_sources/20260814_radiator_relocation_to_loggia_installation_and_concealment_a100a0c6.txt
+transcript_file: _Archive/processed_sources/20260814_radiator_relocation_to_loggia_installation_and_concealment_a100a0c6.txt
 fetched: 2026-08-14 via youtube-transcript-api (manual ru captions)
 upload_date: 2023-07-02 (confirmed via yt-dlp metadata, upload_date=20230702)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based (channel-level association only, not stated in-video)

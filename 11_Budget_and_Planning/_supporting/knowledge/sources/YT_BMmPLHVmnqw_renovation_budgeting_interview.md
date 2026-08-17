@@ -2,7 +2,7 @@
 source_type: video transcript (interview, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=BMmPLHVmnqw
 video_id: BMmPLHVmnqw
-transcript_file: 00_Inbox/transcripts/20260730_BMmPLHVmnqw_68264373.txt
+transcript_file: _Inbox/transcripts/20260730_BMmPLHVmnqw_68264373.txt
 fetched: 2026-07-30
 upload_date: 2025-04-29 (metadata-confirmed)
 channel: "РЕМОНТ недвижимости в Москве от Юрия Петрова"

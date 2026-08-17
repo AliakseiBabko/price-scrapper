@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker demonstration/tutorial with live measurement test, Russian, well-punctuated captions — likely manual/official, low transcription-error risk)
 source_url: https://www.youtube.com/watch?v=uLJGsTfTj3A
 video_id: uLJGsTfTj3A
-transcript_file: 90_Archive/processed_sources/20260804_switch_outlet_mounting_heights_44f28608.txt
+transcript_file: _Archive/processed_sources/20260804_switch_outlet_mounting_heights_44f28608.txt
 fetched: 2026-08-04
 upload_date: 2025-10-12
 channel: Alexey Zemskov / ZEMS group (Zemstandart/Zemsproekt/Zemsremont) — confirmed explicitly by sign-off "А с вами как всегда был Алексей Земсков и несколько людей разного роста"

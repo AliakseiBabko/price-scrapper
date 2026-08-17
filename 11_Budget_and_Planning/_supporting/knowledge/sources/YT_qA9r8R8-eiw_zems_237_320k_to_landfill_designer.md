@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker renovation-company design-critique/walkthrough, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=qA9r8R8-eiw
 video_id: qA9r8R8-eiw
-transcript_file: 90_Archive/processed_sources/20260815_zems_237_320k_to_landfill_designer_80934d5b.txt
+transcript_file: _Archive/processed_sources/20260815_zems_237_320k_to_landfill_designer_80934d5b.txt
 fetched: 2026-08-15
 upload_date: 2023-09-19 (confirmed via yt-dlp metadata, upload_date=20230919)
 channel: Zemstandart / Zemsproekt (Alexey Zemskov)

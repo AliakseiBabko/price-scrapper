@@ -3,8 +3,8 @@ import csv
 import re
 
 def verify_pipeline():
-    inbox = r"00_Inbox\cad"
-    archive = r"90_Archive\homestyler_exports"
+    inbox = r"_Inbox\cad"
+    archive = r"_Archive\homestyler_exports"
     csv_file = r"00_Master\cad_sources.csv"
     
     issues = []

@@ -2,7 +2,7 @@
 source_type: video transcript (single-speaker practical guide, Russian, ASR auto-generated captions — no punctuation, occasional transcription errors)
 source_url: https://www.youtube.com/watch?v=hqkdbicp994
 video_id: hqkdbicp994
-transcript_file: 90_Archive/processed_sources/20260804_socket_installation_technique_db371f80.txt
+transcript_file: _Archive/processed_sources/20260804_socket_installation_technique_db371f80.txt
 fetched: 2026-08-04
 upload_date: 2019-01-26
 channel: Alexey Zemskov / ZEMS group of companies (Zemstandart/Zemsproekt/Zemsremont) — confirmed by sign-off "с вами был алексей земсков" at end of transcript

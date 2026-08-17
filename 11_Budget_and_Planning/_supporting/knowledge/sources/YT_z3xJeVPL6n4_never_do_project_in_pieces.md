@@ -2,7 +2,7 @@
 source_type: video transcript (livestream, user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=z3xJeVPL6n4
 video_id: z3xJeVPL6n4
-transcript_file: 90_Archive/processed_sources/20260810_never_do_project_in_pieces_873e1532.txt
+transcript_file: _Archive/processed_sources/20260810_never_do_project_in_pieces_873e1532.txt
 fetched: user-supplied 2026-08-10 (originally attempted 2026-08-05, logged `skipped` — subtitles disabled — run_20260805_1, now superseded)
 upload_date: 2022-12-13 (confirmed via yt-dlp metadata — one week before the companion livestream `yt_ChXZrzgDrgs`, 2022-12-20, same pricing campaign)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

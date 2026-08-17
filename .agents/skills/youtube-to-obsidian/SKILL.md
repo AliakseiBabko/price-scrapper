@@ -19,7 +19,7 @@ description: "DEPRECATED 2026-08-04 - see .agents/skills/renovation-knowledge-in
    ```bash
    .venv\Scripts\python.exe scripts\get_youtube_transcript.py "<youtube_link>" "<slug_name>"
    ```
-   *Note: Use a short slug of the title for `<slug_name>`. The script will extract the transcript, hash it, and save it in `00_Inbox/transcripts/YYYYMMDD_<slug_name>_<hash8>.txt`. If the script detects that the generated hash already exists in `00_Master/processed_sources.csv`, it will abort execution to prevent processing a duplicate source. If this happens, inform the user that the source has already been processed.*
+   *Note: Use a short slug of the title for `<slug_name>`. The script will extract the transcript, hash it, and save it in `_Inbox/transcripts/YYYYMMDD_<slug_name>_<hash8>.txt`. If the script detects that the generated hash already exists in `00_Master/processed_sources.csv`, it will abort execution to prevent processing a duplicate source. If this happens, inform the user that the source has already been processed.*
 
 2. **Analyze and Summarize**:
    Read the transcript. Summarize the key points related to the renovation project (e.g., floors, ceilings, walls, budgeting, tips, warnings).
@@ -42,7 +42,7 @@ description: "DEPRECATED 2026-08-04 - see .agents/skills/renovation-knowledge-in
    - **Status**: see the canonical, up-to-date vocabulary in `renovation-knowledge-intake/SKILL.md`'s "CSV schema and status vocabulary" section (this file's own copy is stale as of the 2026-08-04 deprecation above - it's missing `duplicate_skipped`, now a real status in this CSV).
 
 6. **Archive Transcript**:
-   Move the transcript file from `00_Inbox\transcripts\` to `90_Archive\processed_sources\`.
+   Move the transcript file from `_Inbox\transcripts\` to `_Archive\processed_sources\`.
 
 7. **Report to User**:
    Provide the user with a quick summary of the video and links to the Obsidian files that were updated or created. Mention how the concepts could map to the 3D Homestyler plan (e.g. suggesting an ID tag).

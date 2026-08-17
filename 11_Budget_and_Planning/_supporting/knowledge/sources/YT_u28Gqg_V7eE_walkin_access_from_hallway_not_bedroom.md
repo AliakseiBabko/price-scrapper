@@ -2,7 +2,7 @@
 source_type: video transcript (real jobsite case, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=u28Gqg_V7eE
 video_id: u28Gqg_V7eE
-transcript_file: 90_Archive/processed_sources/20260810_walkin_access_from_hallway_not_bedroom_96b472d7.txt
+transcript_file: _Archive/processed_sources/20260810_walkin_access_from_hallway_not_bedroom_96b472d7.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

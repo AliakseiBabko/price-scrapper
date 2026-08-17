@@ -2,7 +2,7 @@
 source_type: video transcript (turnkey company channel, cost-breakdown/rationale video, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=OrKB6uSKRyk
 video_id: OrKB6uSKRyk
-transcript_file: 00_Inbox/transcripts/20260731_OrKB6uSKRyk_70000a9f.txt
+transcript_file: _Inbox/transcripts/20260731_OrKB6uSKRyk_70000a9f.txt
 fetched: 2026-07-31
 upload_date: 2025-01-08 (metadata-confirmed)
 channel: "Бородатый Прораб" ("Bearded Foreman") — Vladimir Vorobyov's own company, operating since 2017

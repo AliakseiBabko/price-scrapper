@@ -2,7 +2,7 @@
 source_type: video transcript (two-person interview/case-study walkthrough, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=jAdRyL6KFxs
 video_id: jAdRyL6KFxs
-transcript_file: 00_Inbox/transcripts/20260730_jAdRyL6KFxs_318d9b8b.txt
+transcript_file: _Inbox/transcripts/20260730_jAdRyL6KFxs_318d9b8b.txt
 fetched: 2026-07-30
 upload_date: 2026-06-15 (metadata-confirmed)
 channel: "7 комнат" (7komnat.by)

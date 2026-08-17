@@ -2,7 +2,7 @@
 source_type: video transcript (livestream/broadcast, Russian, manually transcribed via Turboscribe (paid service) by the user after both youtube-transcript-api and yt-dlp found no caption track for this video)
 source_url: https://www.youtube.com/watch?v=ChXZrzgDrgs
 video_id: ChXZrzgDrgs
-transcript_file: 90_Archive/processed_sources/20260810_electrical_point_notation_bed_center_exception_8259a335.txt
+transcript_file: _Archive/processed_sources/20260810_electrical_point_notation_bed_center_exception_8259a335.txt
 fetched: user-supplied 2026-08-10 (originally attempted via youtube-transcript-fetch 2026-08-04, logged `skipped` — no caption track via either method — see `00_Master/processed_sources.csv` run_20260804_102, now superseded)
 upload_date: 2022-12-20 (confirmed via yt-dlp metadata, 2026-08-10)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based, multi-region since 2018 (see [[project_zemskov_zemstandart_region_moscow_rub]])

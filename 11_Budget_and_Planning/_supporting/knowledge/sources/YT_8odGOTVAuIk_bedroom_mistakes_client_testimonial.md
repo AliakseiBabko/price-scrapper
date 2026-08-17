@@ -2,7 +2,7 @@
 source_type: video transcript (real client testimonial, client on camera confirming each point, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=8odGOTVAuIk
 video_id: 8odGOTVAuIk
-transcript_file: 90_Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt
+transcript_file: _Archive/processed_sources/20260810_bedroom_mistakes_client_testimonial_58691aed.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata
 channel: Zemstandart (Alexey Zemskov) — Moscow-based

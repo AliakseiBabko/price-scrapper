@@ -2,7 +2,7 @@
 source_type: video transcript (dense technical how-to, Russian, manually-created captions via youtube-transcript-api)
 source_url: https://www.youtube.com/watch?v=kj503mBQXq8
 video_id: kj503mBQXq8
-transcript_file: 90_Archive/processed_sources/20260810_small_closet_layout_6497c4e9.txt
+transcript_file: _Archive/processed_sources/20260810_small_closet_layout_6497c4e9.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

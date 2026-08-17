@@ -2,7 +2,7 @@
 source_type: video transcript (technical guide + retailer interview, Russian, ASR auto-generated captions)
 source_url: https://www.youtube.com/watch?v=H61xa8n2nTk
 video_id: H61xa8n2nTk
-transcript_file: 00_Inbox/transcripts/20260730_H61xa8n2nTk_6e8816fb.txt
+transcript_file: _Inbox/transcripts/20260730_H61xa8n2nTk_6e8816fb.txt
 fetched: 2026-07-30
 upload_date: 2017-11-26 (metadata-confirmed) — **by far the oldest source processed for this topic**, ~9 years old relative to this project's other sources
 channel: "FLATART VIDEOS" (Юрий Кокичев / FLATART, contact details in description)

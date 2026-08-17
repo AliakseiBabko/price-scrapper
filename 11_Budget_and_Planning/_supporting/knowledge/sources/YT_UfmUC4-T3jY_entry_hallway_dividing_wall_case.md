@@ -2,7 +2,7 @@
 source_type: video transcript (real jobsite case, 88.5m² apartment, user-supplied Turboscribe transcription — no caption track via youtube-transcript-api/yt-dlp)
 source_url: https://www.youtube.com/watch?v=UfmUC4-T3jY
 video_id: UfmUC4-T3jY
-transcript_file: 90_Archive/processed_sources/20260810_entry_hallway_dividing_wall_case_8963951b.txt
+transcript_file: _Archive/processed_sources/20260810_entry_hallway_dividing_wall_case_8963951b.txt
 fetched: user-supplied 2026-08-10 (originally attempted 2026-08-10 earlier the same day via anonymous fetch, logged `skipped` — subtitles disabled — run_20260810_10, now superseded)
 upload_date: 2020-12-01 (confirmed via yt-dlp metadata)
 channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based

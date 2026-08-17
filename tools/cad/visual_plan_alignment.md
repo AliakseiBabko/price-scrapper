@@ -1,6 +1,6 @@
 # Visual plan alignment
 
-Sources inspected from `00_Inbox/_Visual_Drop/`:
+Sources inspected from `_Inbox/_Visual_Drop/`:
 
 | Source | Role | Observations |
 |---|---|---|
