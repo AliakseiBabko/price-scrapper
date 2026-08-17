@@ -1,0 +1,5 @@
+# Doors & Trim — Change Log
+
+Editorial history for [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]] and its `analysis/` pages. Not reader content.
+
+- 2026-08-17 — Restructured from a single 239-line page into a compact guide + 8 dedicated `analysis/` pages (Door_Anatomy_and_Mount_Types, Rough_Opening_and_Casing_Sizing, Style_Hardware_and_Security, Concealed_Door_Considerations, Entrance_Doors, Door_Swing_Direction, Material_and_Finish_Tiers, Doors_Trim_Cost_and_Buying), per the layered Index → Guide → Detail-page convention piloted on `07_Bathroom` and rolled out per explicit user direction. Applied the corrected calibration from the start (real reasoning per section, no flat table, Source Notes/Change Log split immediately). The entrance-door security-spec tension (two competing, self-interested retailers) got a lightweight Perspectives-style comparison on its own page, framed explicitly as a self-interest conflict rather than a genuine expert disagreement — a variant of the Bathroom pilot's Perspectives/Common-Ground/Your-Priority pattern.
