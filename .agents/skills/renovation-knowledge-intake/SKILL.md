@@ -269,6 +269,27 @@ For one source at a time:
    the sources folder, upserts the intermediate knowledge store, and
    updates the master wiki page **only if** this source changes or
    strengthens the synthesized guide - not on every source.
+5a. **When a source's content instead (or additionally) gets folded into
+   a room or systems wiki page** (`07_Bathroom/Bathroom_Guide.md`,
+   `12_Engineering_and_Systems/*`, `13_Surfaces_and_Finishes/*`,
+   `14_Furniture/*`, etc. - outside this wrapper's own three owned
+   paths, but a routine downstream step per this project's established
+   practice), follow the page-shape convention in
+   `12_Engineering_and_Systems/_supporting/wiki_page_format.md` -
+   **this is the default shape for new and growing content now, not
+   just a retrofit for pages that already got unwieldy.** Concretely:
+   a brand-new topic with several distinct sub-decisions starts
+   directly as a compact guide page + `analysis/` detail pages (with
+   Source Notes and Change Log split into their own pages from the
+   first source, not deferred); an existing *layered* page gets new
+   facts routed into the right `analysis/` page as full prose, with
+   only a sentence-level touch-up to the compact guide if the summary
+   itself needs to change; an existing *single-file* page (currently:
+   `08_WC/WC_Guide.md`, `09_Laundry_Room`, `03_Kitchen`,
+   `10_Balcony`) keeps accumulating normally until its own topic
+   decomposition genuinely calls for splitting, per that file's own
+   "Default going forward" section - don't split preemptively on a
+   guess.
 6. **Promotion self-check (do not skip):** after step 5, re-read the
    extraction note's full prose one more time and confirm every concrete,
    reusable fact/rule/mechanism/number in it - not just the ones that
