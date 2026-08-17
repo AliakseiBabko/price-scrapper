@@ -1,0 +1,8 @@
+# Electrical — Mounting Heights & Positioning Standards
+
+A repeated on-camera demonstration (four people, heights 150–185 cm) found that the resting hand-drop height from standing is essentially constant across adults — the basis for treating switch height as a fixed constant rather than something to scale per-occupant. Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighting]].
+
+- **Switches: 90 cm from finished floor** (95 cm as a variant for unusually tall households), **switch center 15 cm from the rough door-opening edge** — moving it to 10 cm was shown causing the switch to conflict with door casing once installed.
+- **Bedside points scale off furniture, not a fixed number**: bedside lamp switch ~120 cm if headboard-mounted, or ~70 cm if nightstand-mounted; bedside outlets ~70 cm; an over-bed pendant/lamp cable drop at ~100 cm. Horizontal position is set by a formula combining false-wall offset + curtain-zone clearance + nightstand width + half the bed's width.
+- **Countertop outlets: 110 cm from finished floor by default**, shifting by the same delta as the countertop height when a non-standard countertop is planned (e.g. +10 cm countertop → +10 cm outlets). Window-slope and ceiling-referenced points are the explicit exceptions — see [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Cable, Circuits & Panel Design]] for the documentation convention.
+- **A small set of point types should track occupant eye level instead of a fixed height**: video-intercom monitors and underfloor-heating thermostats, both read visually while standing/using them — unlike switches, which are operated by feel, not sight.

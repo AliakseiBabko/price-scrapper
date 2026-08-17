@@ -1,0 +1,5 @@
+# Electrical & Lighting — Change Log
+
+Editorial history for [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighting]] and its `analysis/` pages. Not reader content.
+
+- 2026-08-17 — Restructured from a single 197-line page into a compact guide + 8 dedicated `analysis/` pages (Electrical_Key_Concepts_and_Planning, Cable_Circuits_and_Panel_Design, Mounting_Heights_and_Positioning, Rough_Electrical_Sequencing, Temporary_Construction_Electrical, Switches_and_Controls, Lighting_Design, Electrical_Buying_and_Hiring), per the layered Index → Guide → Detail-page convention piloted on `07_Bathroom` and rolled out per explicit user direction. Applied the corrected calibration from the start. A same-practitioner tension in the temporary-wiring content (a 0.75mm² single-outlet technique vs. a separate 0.75mm²-is-undersized warning, both from the same channel) was recorded explicitly rather than silently blended, following the same "don't force a resolution" principle as the Bathroom/Plumbing pilots' genuine cross-source disagreements.

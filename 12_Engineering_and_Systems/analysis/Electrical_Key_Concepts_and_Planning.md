@@ -1,0 +1,21 @@
+# Electrical — Key Concepts & Planning
+
+Covers rough-vs-finish electrical, the lighting-category taxonomy, and planning decisions to settle before rough-in starts. Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighting]].
+
+## Key Concepts
+
+**Rough electrical vs. finish electrical** — rough-in (cable chasing/routing, panel assembly, temporary switches/sockets so the site can be worked with power) happens early, concealed under plaster/putty; finish electrical (outlets, switches, fixtures, panel trim) happens near the end, after painting/flooring. Pricing and mistakes cluster differently at each stage.
+
+**Technical light vs. decorative light** — technical light is the functional recessed/track lighting doing the actual room illumination; decorative light is the visible fixture (pendant, chandelier, sconce) chosen for its appearance. They're often sourced and budgeted separately, and scale very differently by quality tier — technical lighting differentiates mainly on optics quality at higher tiers, decorative lighting mainly on **original vs. replica** sourcing (budget/mid tiers commonly use unlicensed replica fixtures; higher tiers move to licensed originals — know which you're buying, since price and provenance diverge sharply).
+
+**Four functional lighting categories, each with its own recommended color temperature**: main/general and task light (~4000K, neutral-white, good for visual tasks, target ≥500 lux for comfortable use), decorative and night light (~2700-3000K, warm, comfortable at low brightness). **Night light belongs in hallways and WCs but should never be installed in a bedroom** — it disrupts sleep, and decorative lighting isn't a substitute for a dedicated night-light circuit where one is needed.
+
+## Planning & Layout
+
+**Plan furniture layout before finalizing socket placement** — a socket blocked by a bed headboard or cabinet is a common, avoidable mistake; work from the actual furniture plan, not a generic room template. **Use dedicated circuits and individual breakers for high-power consumers** (kitchen appliances, laundry equipment) — see [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Cable, Circuits & Panel Design]] for the full circuit-count formula this generalizes into.
+
+**Plan electrical layout against a 5-15 year family-change horizon, not just move-in day** — children aging, changing needs, and general life-stage change are cited drivers. A low-cost future-proofing move: leave one or two extra outlets wired but hidden behind the finished wallpaper, reachable later by cutting the wallpaper rather than opening the wall.
+
+**Electric-point layout via centerline referencing is worth adopting over corner-only dimensioning**: define a virtual centerline (e.g. centered on a future bed) at a set offset from the corner, then dimension every point symmetrically from that centerline. This produces provably symmetric placement regardless of minor furniture-placement shifts — and matters more than it sounds, since bed-relative asymmetry (5cm off-center one side, 11cm the other) is far more visually noticeable than corner-relative precision, even when the corner-relative numbers look cleaner.
+
+**A few specific provisioning rules worth building in during planning, not discovering later**: video door-intercoms belong in the "clean zone" (living area), not near the entry/shoe area — answering shouldn't require crossing a dirty floor in socks; a kitchen-sink cabinet needs 3 outlets provisioned (disposal, water filter, one spare) so a later retrofit doesn't need new wiring; on soundproofed walls, back-boxes need to project outward by the insulation's own thickness or sockets end up recessed behind the finished surface.
