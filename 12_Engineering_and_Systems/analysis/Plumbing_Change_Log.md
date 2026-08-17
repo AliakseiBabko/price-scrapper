@@ -1,0 +1,5 @@
+# Plumbing & Waterproofing — Change Log
+
+Editorial history for [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] and its `analysis/` pages. Not reader content.
+
+- 2026-08-17 — Restructured from a single 355-line page into a compact guide + 10 dedicated `analysis/` pages (Rough_Plumbing_Sequencing, Pipe_Material_Selection, Water_Inlet_Node_Components, Pressure_and_Water_Hammer, Leak_Protection_Systems, Pressure_Testing, Water_Heaters, Waterproofing_and_Plastering, Shower_Podium_and_Drains, Hygienic_Shower_and_Towel_Warmer, Wall_Hung_Toilet_Installation, Cost_Drivers_and_Buying_Guidance), per the layered Index → Guide → Detail-page convention piloted on `07_Bathroom` and approved by the user for rollout to other pages. Applied the corrected calibration from the Bathroom pilot from the start: compact guide sections carry real reasoning (not stub bullets), the flat Quick Reference Do's/Don'ts table was retired (folded into per-section prose), and both Source Notes and Change Log were split into their own pages immediately rather than staying inline.

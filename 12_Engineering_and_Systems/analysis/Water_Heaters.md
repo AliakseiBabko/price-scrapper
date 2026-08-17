@@ -1,0 +1,37 @@
+# Plumbing — Water Heaters: Tank vs. Tankless
+
+Covers the core tank-vs-tankless tradeoff, sizing, placement flexibility, and household-fit guidance. Part of [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]].
+
+## The Core Tradeoff
+
+**Tank (накопительный/storage) heaters** hold a fixed volume at a set temperature, reheating continuously (24/7 standby draw even when unused). **Recommended set temperature: ~50–55°C for comfortable use; avoid exceeding 60°C**, since higher settings accelerate scale/limescale buildup, cost more energy to reach and hold, and shorten the unit's service life. Capacity range cited across sources: 10–80L, with one source calling anything near 50L inadequate for real use and recommending 80L+ if a tank heater is the choice at all. Power draw for a tank unit is comparatively low (~2kW cited).
+
+**Tankless (проточный/instant) heaters** draw power only while running (zero standby draw) but need much higher instantaneous power — "many times, sometimes tens of times more" than a tank unit while active. **220V models: commonly 3.5–8kW** — at the low end (3.5kW), max achievable water temperature is only ~30–35°C, often inadequate for comfortable showering. **380V (three-phase) models: 9–27kW**, capable of 60°C+ and even sustaining a bathtub fill — but three-phase supply isn't available in every apartment/building, including in some cases "even in Moscow" per one source, and actual sizing must be checked against the apartment's own allocated electrical capacity before choosing a unit. One source recommends >5kW as a practical single-phase minimum, flagging 4kW units as producing only lukewarm water.
+
+## Which One Fits Your Household
+
+**Recommendation split by household size and outage duration, per one source**: a tankless unit suits most cases, especially where scheduled hot-water outages are short (~10 days to 2 weeks/year is the range cited across sources, with some regions reportedly losing hot water for an entire summer, roughly May–September) and adequate electrical capacity can be designed in during a renovation. A tank unit becomes more justified specifically for a single-person household wanting sustained very hot water without access to three-phase power; for multi-person households, a tank heater is criticized as impractical (the first shower depletes the stored hot water for everyone after).
+
+**A refined framing from a later source**: think of a tankless heater primarily as a bridge for a *short, predictable* scheduled outage (one source's own regional cap: ~10 days/year in Moscow) — if outages in your region are longer or more frequent, "no tankless heater will save you" and a tank heater is the only real fix. Conversely, if the apartment has three-phase power (15kW+) available, a tankless heater is described as working well even as a long-term primary solution, not just an emergency bridge — read the "tank heaters are obsolete" framing above as conditional on having that phase/power headroom, not a blanket rule.
+
+**A concrete capacity data point for a 100L tank heater**: workable for a family of ~4 during a ~10-day outage, but only with a deliberate rationed technique (wet down, shut off, soap up, turn back on to rinse — not running the tap continuously) — described as genuinely tight for 4 people, not comfortable; a larger tank is better if space allows.
+
+**A tankless unit's 3-position valve arrangement** (cold-in / bypass / heated-out-to-manifold) lets a single cold riser functionally serve both cold and hot needs during a scheduled hot-water outage — described by one source as adequate for typical fixtures but possibly insufficient to sustain a high-flow "tropical" rain shower. **A storage tank heater is called "pointless" for the narrow use-case of covering a short scheduled outage** by one source — water sitting in the tank for most of the year can go stale, and periodic reheating to ~75°C is needed just to refresh it, whereas an instant heater sits idle with no such maintenance need.
+
+**A tankless heater is the better choice specifically for occasional/backup use, for a mechanistic reason beyond convenience**: a tank/storage heater reportedly needs fairly regular use to stay reliable — one used only rarely, purely as a backup, is more prone to failure than one used continuously, whereas a tankless unit has no equivalent underuse-related failure mode. `single-account`.
+
+## Placement Flexibility
+
+**A tankless heater's placement is not optional; a tank heater's is** — a genuinely useful distinction: a tankless unit must be plumbed at/within the collector node itself, while a tank/storage heater can be relocated anywhere convenient in the bathroom (above the toilet, above the washer inside a cabinet, etc.). Factor this flexibility difference into the choice.
+
+**A common non-code placement trick, explicitly flagged as against code**: relocating the washing machine/dryer out of the bathroom entirely and placing a tank water heater in that now-vacant spot instead. One source states this is common informal practice but should only be done with leak sensors already installed under the heater — "you have no moral right to do this without leak sensors."
+
+## Provisioning and Safety
+
+**Provision for a tankless heater during rough-in, even if you don't think you need one.** A cautionary account: one source recounts deferring to a client's preference to skip a tankless heater since their region's scheduled hot-water outage was historically short — until a later outage stretched to two full weeks with young children in the household, forcing an emergency retrofit into an already-finished bathroom. Retrofitting into finished space risks damaging finished tile/flooring — cheaper and cleaner to provision for a tankless heater (even a dedicated spare branch off the manifold) during rough-in and skip installing the unit itself if it turns out not to be needed.
+
+**A tank/storage heater must always have a pressure/safety relief valve installed at its connection point** — mandatory, not optional, regardless of who installs it. If a contractor's installation doesn't include one, insist on it before accepting the work.
+
+**A recirculation pump with a thermal sensor, not a plain recirculation pump, can substitute for a second tankless heater on a tight electrical-panel budget** — worked example: a 15 kW panel couldn't run two tankless units plus a cooktop simultaneously, so a thermal-sensor recirculation pump instead delivers fast hot water to a second bathroom ~15 m of pipe from the one tankless unit, activating only when the loop temperature drops rather than running continuously. A plain (sensorless) recirculation pump is flagged as a costly mistake by comparison — it runs constantly, wasting energy. `single-account`. [source: `_Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt`]
+
+**Instant (tankless) water heaters should connect to a split off the COLD-water line, not the hot line**, at the collector: when a building's central hot water is shut off for routine maintenance, the hot line carries only air. Splitting a cold-line branch into "still cold" and "heater-warmed" outputs keeps hot water available during a central outage — described as a common contractor mistake to route it the other way.

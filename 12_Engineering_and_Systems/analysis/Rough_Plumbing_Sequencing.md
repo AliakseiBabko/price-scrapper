@@ -1,0 +1,60 @@
+# Plumbing — Rough-In Sequencing, Wet-Zone Placement & the Zashivka
+
+Covers wet-zone placement/approval, rough-plumbing layout sequencing, the plumbing cladding box (zashivka), and two low-cost technique rules (drain-pipe bends, hot-left/cold-right). Part of [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]].
+
+## Key Concepts
+
+- **Rough plumbing vs. finish plumbing** — rough-in (supply/drain line routing, collector/manifold assembly, riser connections) happens early and gets concealed under screed/tile; finish plumbing (fixtures, faucets, visible trim) happens near the end. Most of the durable technical content on this page concerns rough-in, since mistakes there are the expensive ones to fix later.
+- **Every apartment has two distinct "wet zones"**: the kitchen (a "clean" wet zone) and the bathroom/WC (a "dirty" wet zone). The default structural principle is that a wet zone should stay stacked above the same wet zone in the apartment below.
+- **A "zashivka" is not the same thing as a "venshakhta"** — this distinction matters enough to repeat here even though the ventilation-shaft half of it is documented in [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]]: a **zashivka** (plumbing cladding box, built around water/sewer risers, sometimes oversized "for the developer's convenience") **can be demolished and rebuilt more compactly** to reclaim space. A **venshakhta** (ventilation shaft, a completely different structure) must never be touched.
+
+## Wet-Zone Placement & Approval
+
+**Default principle**: a wet zone (kitchen or bathroom) should remain stacked above the same wet zone in the downstairs neighbor's apartment — a structural/plumbing-stack alignment convention, not an arbitrary preference. **Even a flexible/free-planning unit doesn't bypass the approval requirement**: more physical flexibility to deviate from the stacking default doesn't remove the paperwork — relocating a wet point still requires going through the same architecture-registration/approval process as a standard layout. *(This overlaps with regulatory content already tracked with a stricter evidence bar in `11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_regulations_belarus_knowledge_store.md`.)*
+
+**Bathroom layout preferences**: avoid a bathroom entrance directly off a kitchen/dining area (awkward for guests and host alike) — prefer entrance from a hallway/corridor. Keep the bathroom door at least ~1–1.5 m from the entryway/mudroom zone, since dirt/grit concentrates near the entry.
+
+## Rough Plumbing: Sequencing & Layout
+
+**Toilet placement should drive bathroom layout, not the reverse** — place the toilet first, as close to the riser as practical, because it requires a 100 mm-diameter drain pipe, the hardest pipe size to conceal/route of any bathroom fixture. Plan sink and shower positions around the toilet's fixed position.
+
+**When relocating a sink, place it along a wall, not mid-room** — pressurized supply lines can be hidden in screed with little constraint, but the gravity-fed drain line needs a consistent slope toward the riser; the farther a sink sits from the riser, the more screed depth is needed to conceal the sloped pipe. A wall placement lets the drain run inside the wall to the riser without losing the required slope.
+
+**Scan floor screeds with a detector before chasing or drilling** — prevents accidentally cutting or puncturing concealed PEX radiator/heating lines that may not match what the developer's own drawings show (a floor plan's marked line positions and the actual as-built routing can differ).
+
+**A prefab "plumbing cabin" (сантехническая кабина), if present, should almost always be demolished.** Identifiable by a noticeably raised floor level relative to the rest of the apartment, and a ventilation grille set into a rigid concrete/slab ceiling rather than a stretch ceiling. One source recommends demolishing it without exception: it reclaims ceiling-height space and often back-/side-wall space, and its lightweight gypsum-panel walls are a poor tiling substrate compared to the real structural wall exposed underneath. Cited cost (single source, 2026): ~10,000–20,000 RUB for demolition plus another ~10,000–20,000 RUB for debris removal, as separate line items.
+
+**If there's no prefab cabin, just built partition walls, the demolish-or-keep decision depends on material and thickness**: demolish thin foam block (<7.5 cm), gypsum tongue-and-groove board (ПГП — brittle, distinct from the sturdier silicate tongue-and-groove board), and drywall partitions (hard to verify the frame was installed to spec without deep inspection) — and demolish *any* partition resting on a screed you're planning to replace or convert to a radial ("лучевая") heating layout. Keep foam/gas-silicate block ≥7.5 cm thick and silicate tongue-and-groove partitions if no layout change is planned. `single-account`.
+
+**Never pour screed or tile over the floor area where the sewage stack passes down to the neighbor below.** That penetration point is, per one source, the "safest" escape route for a multi-floor leak — water from a leak on a floor above naturally continues down through the stack's floor-penetration gaps unit to unit. Sealing or tiling over it traps leaking water inside *your* unit instead. Recommended treatment: decorative loose pebble/gravel, or — less-preferred but functional — tile over it with a floor trap so water can still drain through.
+
+**Leave an adjustable formwork pocket for manifold/radiator trace pipes before pouring screed** — sized so pipes can still be shifted left/right after the screed is down, instead of jackhammering cured screed to reposition a fixed run. The same technique applies to radiator trace-pipe runs when the radiator model isn't yet chosen. **Install the manifold cabinet itself only after wall plastering is finished** — installing it early means hours of cleanup/protection during plastering, or outright damage requiring replacement. `single-account`. [source: `_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt`]
+
+**Inherited-riser hose-clamp inspection**: retighten every hose clamp on water-supply risers/stacks inherited from the developer — commonly under-secured, a real safety issue given riser water is under significant pressure. Also watch for a water meter installed at an unusually low height where a wall-hung-toilet frame belongs instead, requiring rerouting. `single-account`.
+
+**Soundproof any storm-drain pipe ("ливнёвка") routed through the apartment before closing walls** — an un-soundproofed storm drain is a real, commonly-reported noise complaint. `single-account`.
+
+## The Zashivka: What Can and Can't Be Modified
+
+Within a plumbing cladding box (zashivka):
+- The box itself **can be demolished and rebuilt more compactly** to reclaim space — a worked example from one source gained ~10 cm this way.
+- A **water-supply pipe** inside a zashivka can sometimes be re-routed (a plumber can re-weld/reposition it).
+- A **sewage stack** inside a zashivka generally **cannot** be relocated — it runs as a single vertical column, following the same structural logic that makes a ventilation shaft untouchable (see [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]]).
+
+Don't assume "it's inside a cladding box, so it's all fair game" — supply and drain lines within the same box follow different modification rules.
+
+**Audit every zashivka/duct box in the apartment during design, not just the obviously oversized ones.** A second source, working from real developer-built examples, reports gaps of ~10–12cm between the actual shaft/stack and the box wall as a common default — usually far more than functionally necessary, and often paired with a box wall itself as thick as 12cm (roughly double the material a slimmer, adequately rigid wall would need). Check each box's real clearance requirement and shrink it if the numbers don't hold up. **Two practical qualifiers**: (1) **soundproof the shaft/stack from the inside before rebuilding the box smaller** — retrofitting sound insulation after a box has already been rebuilt compact means redoing the box a second time; (2) **a box's wall thickness should vary by what's mounted on which face, not be uniform** — the face carrying hung kitchen cabinets needs to be meaningfully thicker (cited: 100mm) than a face with nothing mounted (cited: 50mm).
+
+## Never Dry-Fit a Drain/Sewage Pipe Joint
+
+**Always use sewage-pipe lubricant when assembling a socket (раструб) joint — never assemble dry.** Dry-fitting causes the internal sealing gasket to roll/fold inward roughly half the time, breaking the seal — and since drain systems are rarely pressure- or flow-tested after installation (unlike supply plumbing, see [[12_Engineering_and_Systems/analysis/Pressure_Testing|Pressure Testing]]), this kind of failure typically isn't discovered until well after the fact. Because drain pipes usually run inside walls, **the downstairs neighbor often discovers the leak before the owner does**. If the gasket folds on the side or top rather than the bottom, the joint doesn't gush — it weeps slowly, steadily enough to saturate the wall over roughly a year and a half until plaster and tile fail.
+
+**Use aerosol/spray lubricant rather than tube/gel lubricant** — spray applies cleanly to both the gasket and the pipe end without needing to be spread by hand. **A related lifehack**: to disassemble an old, seized drain joint, spray lubricant into the gap between pipe and gasket and let it penetrate for about an hour — this lets the pipe be twisted apart by hand afterward. Tube/gel lubricant doesn't work for this.
+
+## Hot-Left, Cold-Right — a Universal Convention Worth Knowing
+
+**Hot water supply is always plumbed to the left, cold to the right, at a mixer/faucet connection** — a long-standing industry convention. All modern plumbing fixture manufacturers follow this and color-code fittings red (hot) / blue (cold) at the factory; hardware built the opposite way is essentially unfindable now. **This isn't just tradition — thermostatic mixers depend on it functionally**: connecting the supply lines backwards means a thermostatic mixer simply won't work correctly. A memory aid: "hot" pairs with "heart," and the heart sits on the left side of the body — hot is left.
+
+## Drain-Pipe Bends: Always Two 45°s, Never a Single 90°
+
+**Never use a single 90° elbow for a horizontal-direction change in a drain line** — its only correct use is a horizontal-to-vertical transition (e.g. dropping down from a sink outlet). For any other turn, use **two 45° elbows instead**. The mechanism: a 90° elbow sharply slows flow, and slowed flow deposits sediment on the inner pipe wall — a properly assembled all-45° drain system is stated to run 15–30 years without needing any cleaning, while a 90°-elbow joint reliably clogs within 1–2 years. **A 90° elbow is also much harder to clear once clogged**: a drain-cleaning machine's rotating cable physically can't get around a sharp 90° turn, while the gentler curve of two 45°s lets a cable pass through easily. `single-account`, but a clear mechanistic reason — a low-cost planning rule worth following by default.
