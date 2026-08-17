@@ -1,0 +1,101 @@
+# Bathroom — Bathtub & Shower Selection
+
+Covers tub-vs-shower, bathtub material/sizing, the apron/screen (including a real practitioner disagreement on toe-kick niches), curtain-vs-glass splash guards, built shower cabins, and leftover alcove space. Part of [[07_Bathroom/Bathroom_Guide|Bathroom Guide]].
+
+## Bathtub vs. Shower
+
+- **A bathtub is the more universal fixture**: someone who prefers showers can still shower in a tub, but someone who wants a bath can't get one from a shower stall — a relevant asymmetry for a rental unit, where you don't know the future occupant's preference. A tub is also generally easier for bathing small children, and for washing a large dog's paws (contains the mess; a shower area lets water/mud spread).
+- **The source's statement on elderly suitability is internally inconsistent and not resolved here**: it states a tub "suits elderly users" in one breath, then immediately notes elderly users with knee problems often can't step into a tub at all — read as a caution that mobility should be checked case-by-case rather than assuming a tub is broadly elderly-friendly, not as a clean recommendation either way.
+- For a case with no room for a full tub, a shower zone sized for dog-paw-washing is offered as a compromise — case-specific, not a universal substitute for the above.
+
+## Bathtub Material Selection
+
+- **Steel** — rings/resonates when tapped, feels stiff and unpleasantly cold to the touch until the water warms it.
+- **Cast iron** — the most rigid construction of the four; heats up and cools down slowly, so even after filling it with hot water the tub's own body can still feel unpleasantly cold against your back; also cold to the touch when dry. Repairing chipped enamel is described as very difficult — re-glazing rarely matches the original factory finish.
+- **Acrylic** — huge price range depending on wall thickness/reinforcement; the cheapest versions flex/give underfoot. **Easiest of the four to repair** (a cracked or punctured acrylic tub can be patched relatively easily); an anti-slip coating, if damaged, generally can't be restored to its original grip once worn away.
+- **Cast/engineered marble (литьевой мрамор)** — the source's own recommendation: warm to the touch like acrylic, retains heat and feels as solid/durable as cast iron, and repairs are straightforward. Priced comparably to a *good* acrylic or *good* cast-iron tub in the same tier — a cheap acrylic tub (~15,000–20,000 RUB) is not a fair comparison, since a comparably solid acrylic or cast-iron tub runs similarly to marble (~40,000–50,000 RUB) once quality is held constant. `single-account`, explicitly the source's own opinion — but restated with more direct material-by-material reasoning across two of this channel's videos, not just asserted once.
+
+### Length Ergonomics
+
+**Don't default to the longest tub that fits**: a 170 cm tub is recommended even for a person ~180 cm tall (not just shorter users) — a longer tub means less to brace against, so you tend to slide down against the back wall; 170 cm gives enough length to keep your head above water while still bracing your feet against the far end comfortably.
+
+> [!NOTE]
+> **This lands close to, but reasons differently from, Zemskov's length rule** in [[07_Bathroom/analysis/Planning_and_Layout|Planning & Layout]]'s sizing formula (length ≈ occupant height, up to 10cm less — 1700mm typical for a ~178cm person). Both end up recommending roughly 170cm for a similar-height occupant, but Ontario's reasoning is "shorter forces better back-bracing regardless of height," while Zemskov's is "matched to height, or a too-long tub risks sliding under and choking." Worth knowing they agree on the number even though the underlying logic differs — not a contradiction requiring a decision, just two paths to the same practical answer.
+
+### Freestanding vs. Built-In
+
+A real plumbing constraint, not just an aesthetic choice — see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the full drain/slope implication and the concrete mitigation options (raising the floor, a lift pump, routing via the floor below in a private house, or negotiating connection depth with the management company). A freestanding tub generally needs its own floor drain and may force one of those choices, unless the sewage branch is already close and deep enough (roughly within 5-6 m of the stack, per one source's rule of thumb). Decide the tub type *before* finalizing floor-buildup plans, not after. **Also budget cleaning access around a freestanding tub** — if it's pushed flush against a wall on one side, that side becomes impossible to clean properly; leave a real gap if any side is against a wall.
+
+## Bathtub Apron / Screen (Экран)
+
+**Most popular current method**: a framed structure (block or drywall/profile) with a revision hatch, tiled over.
+
+### Toe-Kick Niche — Practitioners Disagree
+
+**The question**: should the apron include a full-length foot-clearance recess at floor level (a "toe-kick niche"), or none at all?
+
+**Perspectives:**
+
+| Source | Position | Reasoning |
+|---|---|---|
+| Ontario (Konstantin Kruglov, Moscow) | Build a full-length tiled niche running the entire tub length — the only currently "valid" option | Three alternatives (angled tile skirt, small narrow niche, plain leg-clearance gap) are all worse — the plain gap in particular collects dust/debris and can't actually be reached by hand for servicing despite appearing to allow it. A third, independent source reinforces this from the lighting angle: any light placed to illuminate the gap makes accumulated dust/hair/lint *more* visible, not less. |
+| Земстандарт / Zemskov (Moscow) | Skip the foot-clearance gap entirely — no niche at all | Calls it a legacy feature from the era of hand-washing laundry in a floor basin (kneeling at the tub, needing to tuck your feet under it), now obsolete since everyone has a washing machine — pure dirt trap with no remaining function. |
+
+**Common ground**: both are experienced renovation-company practitioners stating a genuine design position, not a factual claim one side is simply wrong about — this is a judgment call, not a dispute to resolve by finding more sources.
+
+**Your priority**: *— not yet decided.* Both sources point to the same deciding question: **do you ever kneel at the tub for anything** (bathing a child, hand-washing something), or not? If yes, Ontario's niche has a real function; if no, Zemskov's case for skipping it holds.
+
+### Everything Else About the Apron
+
+- **Never cut a full through-hole/vent opening in the apron** (distinct from a toe-kick niche — an actual round or rectangular opening straight through the panel) — one source warns this lets water seep in and causes a persistent damp smell that's very hard to fix afterward, and separately recounts two cases of small animals (a hedgehog, a cat) getting into such an opening and becoming trapped permanently. A clear, low-ambiguity "don't."
+- **Always include emergency access to the drain/overflow assembly — but distinguish emergency access from routine/revision access, since they call for different solutions**: **revision access** (opened regularly — water meters, coarse/fine filters you service routinely) needs a proper hatch. **Emergency access** (essentially never opened — modern siphons, corrugated hoses, and plastic pipe are all rated for multi-decade service life) doesn't need a full hatch at all, per one source.
+- **A concrete technique for hidden emergency-only access, avoiding a visible hatch altogether**: plan the apron's tile layout so a small rectangle (roughly 2 tiles) near the drain zone can be removed without disturbing neighboring tiles — the surrounding whole tiles should overlap the access rectangle's edges by a couple of centimeters. Before installing just those 1-2 tiles, wrap their backs in stretch/cling film so the adhesive can't actually bond them to the substrate; grout the rest of the apron normally, but seal only the perimeter of these tiles with flexible sealant instead of grout. When emergency access is genuinely needed years later: cut the sealant line, pop the film-backed tiles out with a suction cup, do the repair, reinstall the same tiles, and reseal. `single-account`, but a clever, concrete, and genuinely reusable technique.
+- **Reinforce the apron's frame before tiling, so it doesn't flex underfoot** — especially important for acrylic tubs, which flex noticeably when stepped into if the surrounding structure isn't rigid.
+- **Build the frame from masonry block, not a metal-stud/drywall frame** — faster and cheaper, and because a metal-stud frame is hard to anchor properly to the tub's own rounded top rim; anchoring it only on three sides (left/right/bottom, skipping the top) produces a worse structural result at similar-or-higher cost than block.
+- **Apron tile layout must align exactly with the surrounding wall tile layout** — as if a section of the wall tile pattern were cut out and placed in front of the tub: vertical joints should line up with the grout lines on the wall above the tub, horizontal joints should line up with the side walls' horizontal joints.
+- **A cheaper/faster newer trend**: XPS foam (extruded polystyrene) glued together as the apron's frame core, glued directly to the tub edges, then tiled over — functionally equivalent to a framed structure at lower cost/time.
+- Off-the-shelf universal aprons with access doors (Hoff, Leroy Merlin, Lemana Pro-type retail products) are flagged as largely obsolete in current renovation practice — a second source adds a mechanistic reason beyond "obsolete": most tub manufacturers only sell the tub itself, not a matching factory screen, developer-installed tub height varies (~55-65 cm) against a fixed factory-panel height (forcing trimming or leaving a visible gap), and a factory panel doesn't seal the bottom joint against water ingress the way a tiled apron does.
+- **Tub-to-tile junction sequencing**: ideally the tub is sized/positioned against already-plastered walls, with tile then coming down onto the tub's rim (not the reverse). Occasionally a tub is chased slightly into the wall plaster, or even trimmed, to make this junction work. **The rim should never sit proud of the tile surface — flush is acceptable, but slightly recessed is better**: most tub rims are rounded on the underside as well as the top, so a flush straight tile edge creates a wedge-shaped grout gap along the rim, and flexing under load can squeeze grout out of that gap over time.
+- **Keep the apron strictly vertical/plumb — never build it raked or angled** — both for appearance and because any acute-angle corner traps dirt a standard cleaning brush can't reach.
+
+## Bathtub Revision-Hatch Sealing & Spare-Materials Storage — per Zemskov/Zemstandart
+
+> [!NOTE]
+> This subsection is Zemskov/Zemstandart's own stated practice and reasoning, `single-account`, no cost figures given. [source: `_Archive/processed_sources/20260810_bathtub_revision_hatch_spare_materials_c26c1a59.txt`]
+
+- **Zemskov's rule: never make a bathtub siphon revision-access hatch quick-release/magnetic — always tile it in and seal the perimeter with silicone.** His stated reasoning: a magnetic hatch isn't watertight, splashed bathwater seeps into the unsealed gap and — with no airflow under the tub — rots, producing a persistent odor with no obvious source; separately, tile adhesive is hygroscopic and water reaching it via the gap causes it to swell and drop tiles.
+- **Zemskov's correct-construction sequence**: position the tile precisely, then seal the full perimeter with silicone in one step (secures + waterproofs together).
+- **Zemskov ties this to the leak-protection system**: a sensor at the potential-leak point under the tub means emergency access is needed rarely, which is why he considers a permanently sealed (non-quick-access) hatch acceptable rather than risky.
+- **Zemskov's spare-materials habit**: store spare tile *inside* the same sealed hatch space, not in a separate storage area — his stated real-world observation is that tile stored elsewhere "consistently doesn't survive" until needed. Tile lines get discontinued, and even same-collection replacement tile from a different batch visibly differs in color, so keeping the original leftover is the only reliable match. If both dark and light tile were used, he stores spares of both, plus spare grout (hard to match later, especially two-component) and a sealed, never-opened tube of silicone (an already-opened one dries out before it's needed).
+- **Zemskov's own comparative framing**: cutting a silicone seal to retrieve stored spares is trivial next to the alternative it protects against — a cracked tile requiring jackhammer demolition and full retiling.
+
+## Curtain vs. Glass Splash Guard
+
+**For a bathtub specifically, default to a curtain, not a glass panel** — a conclusion drawn from a renovation company's own multi-year warranty/aftercare data (they track client contact for years after project completion, not just at handover), not a bare style preference. **This section is about a bathtub — it does not apply to a genuine shower cabin/stall**, where glass is the only real option (see Shower Cabins below).
+
+- **Glass only looks better for the first few hours after installation.** After that, it needs wiping after every single use — fingerprints, soap-scum residue, water spots — and hard water makes this dramatically worse.
+- **Partial-height glass (about a third of the tub's length) is purely decorative** — it doesn't meaningfully block splashes, and the floor ends up with standing puddles regardless.
+- **Glass to half the tub's length or more does block splashes reasonably**, but makes actually cleaning the tub itself awkward — you generally need to remove shoes, hike up clothing, and climb partway in to reach around the panel.
+- **A sliding glass panel accumulates buildup in its bottom track over time** and eventually stops sliding smoothly regardless of hardware quality — at which point it typically gets left in a fixed position, reverting to the same problems as a fixed partial-length panel.
+- **A hinged (swinging, non-sliding) panel is awkward regardless of which way it swings** — it's in the way of something no matter the direction, and can pop out of its mount or break under a careless bump or load.
+- **A folding/"accordion" bi-fold panel is rated the worst option of all**, per repeated independent client feedback: its folded edge protrudes either outward into the room or inward into the tub. Outward usually isn't physically possible (a sink or washing machine commonly occupies that space), so it ends up protruding inward — producing repeated, genuinely painful knee/shin impacts.
+- **Injury and damage data, from the same source's long-term warranty tracking**: zero clients have ever been injured by a curtain, including cases of slipping in the tub; several dozen clients have been injured by glass in comparable situations over the years. Zero clients have damaged their renovation by reflexively grabbing a curtain while falling (worst case: the curtain tears off its rings, buy a replacement); roughly 150 cases of glass causing real damage when grabbed during a fall or slip. Separately, roughly 50 clients who initially chose glass later asked to have it removed and replaced with a curtain — against zero clients who chose a curtain and later asked to switch to glass.
+- **A second, independent source states the black-fixture maintenance downside even more emphatically** (see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers & Sinks]]) — a related pattern of one source's warranty-tracking data pushing harder against a popular trend than a bare preference would.
+- **A reinforcing support brace is a real, cheap safety component frequently omitted by installers who claim it's "not included" with a shower glass kit** — universal braces that fit nearly any shower glass design are now widely available. Without it, a person leaning on the glass panel risks shattering it into fragments or tearing the mounting clips out of the wall. Confirm a brace is included whenever installing shower glass.
+- **A small custom-fabricated rubber gasket/strip at floor level behind a fixed shower glass panel, specifically where the floor lacks proper slope, prevents water running down the glass from pooling at that one untreated spot.** Typically hand-made by the installer, not a stock part — ask for it specifically rather than assuming it's included.
+
+## Shower Cabins (Built, Not Prefab)
+
+Excluding prefab plastic shower-cabin units (discouraged elsewhere — see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]]), a built shower cabin is tile/glass walls over a pan/base — the base material choice is the main decision:
+- **If the base is tiled, always grout it with epoxy, never cement** — epoxy is indifferent to sustained water contact; cement grout isn't, and a shower floor sees more water exposure than almost any other tiled surface in the home.
+- **Base material options**: a ready-made pan in steel, cast/engineered stone, natural stone, or acrylic, or a fully tiled base. Steel is ranked least pleasant (cold, "less nice" underfoot); stone/marble is the most premium-feeling (cold initially, but reads as luxury); acrylic and tile are solid middle options. **The cost delta between a basic steel pan and a stone/marble one is cited as only ~20,000 RUB** — framed as a one-time cost for a fixture used for the life of the renovation, worth the upgrade. `single-account`, and the same cost-vs-longevity argument the source also makes for bathtub material.
+
+For shower podium/curb height, valve height, and tile-matching technique on a shower base, see [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]].
+
+## Recovering Leftover Space When a Tub Alcove Is Longer Than the Tub
+
+A concrete problem worth planning for explicitly: fixed elements (a load-bearing wall, a utility box, a stack) sometimes force a tub alcove to be longer than the ideal tub length for the people using it — leaving genuine leftover space at one end. **Two tempting but wrong solutions, and the correct one**:
+- **Wrong: a flat/level surface extension beside the tub** to visually "lengthen" it — water pools there and creates a slip/mold hazard.
+- **Wrong: ordinary furniture-style cabinet doors or open shelving in that leftover space, opening toward the tub/shower side.** Standard furniture door seals aren't waterproof — shower/bath splash reliably reaches anything stored there, soaking contents and breeding mold and damp smell over time.
+- **Correct: build a proper tiled utility column with its access opening facing the hallway/corridor side, never the tub side.** A tub-side opening gets water intrusion, makes the lower portion unusable, and leaves the upper portion unreachable. Access from the corridor instead avoids all three problems and gives a large, genuinely useful, floor-to-ceiling storage column.
+- **Construction detail**: tile the tub's own apron/screen with the same tile as the surrounding wall, so the junction between the apron and the new utility column reads as one continuous surface meeting at a clean 45°-mitered corner.

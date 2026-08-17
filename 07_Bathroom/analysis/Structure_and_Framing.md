@@ -1,0 +1,48 @@
+# Bathroom — Structure, Framing & Clearances
+
+Covers the prefab plumbing cabin decision, non-structural boxing/partition materials, access hatches, the load-bearing-wall washing-machine workaround, and washer/dryer/water-heater placement clearances. Part of [[07_Bathroom/Bathroom_Guide|Bathroom Guide]].
+
+## Prefab Plumbing Cabin — Demolish or Keep
+
+See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the plumbing-installation side of this decision. On the room-planning side:
+
+- **Cabin materials, historically — none worth keeping**: reinforced concrete (thick, strong, eats the most space); gypsum-concrete/gypsum panel (lighter, less durable); **asbestos-concrete sheet material** — asbestos is a recognized carcinogen, but only hazardous once disturbed into dust (cut, drilled, broken); solid/undisturbed, it's inert. Either way, the source sees no functional reason to keep any cabin type.
+- **The gap between a prefab cabin and the real structural wall is commonly ~15–20 cm** — space that's simply wasted while the cabin stands, reclaimed entirely on demolition (in addition to the ceiling-height gain).
+- **A code/inspection tradeoff worth planning for**: formally registering the cabin's removal may require either (a) full brush-on waterproofing membrane across the *entire* apartment floor, not just the bathroom, or (b) building a raised threshold/curb (порожек) at the bathroom doorway — which one applies depends on the inspecting authority. `single-account`, Russia-specific process — treat the *tradeoff itself* as the transferable insight, not the Russian registration process.
+
+## Framing / Cladding Box Systems and Partition Material
+
+For non-structural boxing (concealing pipes, framing a niche):
+- **Standard: Knauf profile system**, with cladding options ranked by suitability: **ГКЛВ** (moisture-resistant drywall — standard for boxes/ceilings) → **ГВЛ/gypsum fiber board** (better fastener-holding, better tile substrate) → **aqua-panel/cement board** (best for constant water-contact zones, the best tile substrate of the three).
+- **A newer, premium alternative for boxing specifically: a dedicated plumbing-specific framing-profile system** (source names "ТЦ" as the originator, with cheaper market analogs — Wallbox, Homeet — offering incomplete component ranges but still costing more than base Knauf). Pre-formed corner pieces give exact 90° angles without a level, and the system has **much higher load capacity than Knauf** — can support a heavy soaking tub/frame or an in-wall recessed faucet for a freestanding tub, which Knauf-based framing typically can't support. Material cost is "several times" higher than Knauf; labor cost similar. `single-account`, brand mentions are commercial — treat the load-capacity distinction as the useful, vendor-agnostic takeaway.
+
+**For full partition walls (not just boxing), three materials dominate, with concrete thickness figures:**
+- **Foam/gas block or gas-silicate, 10 cm** — the most common choice on this practitioner's projects. Needs plastering on both faces (~1 cm each), finishing at ~12 cm total.
+- **Drywall on a metal profile**, two layers of 12.5 mm board per side on a 5 cm profile — finishes at ~10 cm total, no plastering needed. **For ceiling heights above ~2.7–2.8 m, upsize to a 75 mm profile** (from the standard 50 mm) for adequate rigidity.
+- **Silicate tongue-and-groove board (ПСП — distinct from the brittle gypsum tongue-and-groove board ПГП, which this source explicitly avoids using anywhere)**, ~8 cm — doesn't strictly need plastering, but the source plasters it anyway to guarantee a flat plane for tiling.
+- All three, at these thicknesses, are described as meeting typical soundproofing needs adequately.
+- **Choose partition thickness with the sewage pipe route in mind, not just soundproofing/cost**: chasing a wide pipe into a thin partition weakens it disproportionately. A 50mm branch pipe into a 10cm block wall is called borderline-acceptable; a 100/110mm main branch needs either a thicker partition or a dedicated false wall (фальшстена) built specifically to conceal it — plan this before committing to a partition thickness, not after. The general layout principle underlying this: **fixture placement in a bathroom effectively orbits the sewage stack**, since it's fixed in place and drains by gravity, not pressure — route the widest pipe (typically the toilet's) along the thickest available wall (often the apartment's own exterior/bearing wall) and use a false wall to bridge any remaining gap.
+
+## Load-Bearing-Wall Workaround for Washing Machine Hookups
+
+**Never chase (штробить) a load-bearing wall horizontally for water supply or drain lines — this is a real structural prohibition, not a preference, and it applies at any depth, including shallow chases.** Vertical electrical chases are generally fine, since the plaster layer already applied to every bathroom wall is thick enough to hide most conduit without needing to cut into the structural wall itself — but water/drain routing needs a much deeper horizontal channel, which a load-bearing wall can't accommodate at all. **If a washing machine needs to sit against a load-bearing wall with no legal way to route its supply/drain/outlet to it directly, run those connections through the bathtub's own apron/screen structure instead** — the apron is already a non-structural, purpose-built cavity, and this avoids both the code violation and the alternative of building the wall out further (which eats into the room's usable width). A simple, easily-overlooked workaround worth defaulting to whenever this specific conflict comes up.
+
+## Access Hatches (Люки)
+
+Three construction types, roughly in ascending cost/durability order:
+1. **Off-the-shelf plastic/metal surface-mount** — fine for low-visibility/budget locations.
+2. **Tiled hatch** (factory custom-order or an off-the-shelf pre-tile-ready frame) — hinge mechanisms vary (reinforced, hinged, pull-out).
+3. **Tiled hatch built on a dedicated plumbing-framing-profile system** (see above) — very strong, any shape (including L-/P-shaped, over a meter tall), near-invisible seams.
+
+**A technique for a near-invisible, rarely-opened hatch**: seal the perimeter with elastic silicone sealant, let it cure, then score/cut along the outer contour — opening the hatch "peels" the grout line with it, hiding the seam when closed. **Caveat**: repeated open/close cycles can stop the sealant reseating fully — only suitable for a hatch meant for rare/emergency access, not frequent use.
+
+**Furniture-panel hatches** (MDF/LDSP with acrylic/plastic/film finish): the failure point is edge-banding/coating damage — once compromised, moisture exposure quickly ruins the panel. **Use only laminated/enameled, moisture-resistant panel material for this — never plain particleboard (ЛДСП)**, which reportedly swells within about a week of moisture exposure.
+
+**A separate, mechanism-level axis from the three construction types above: sagging vs. non-sagging hinge mechanisms.** Standard sagging-mechanism hatches are described by one practitioner as unreliable at any size, to the point of personally excluding any other type from his own projects — they need awkward multi-point force (suction cup, foot, elbow) to budge, especially at larger sizes. A non-sagging mechanism type opens/closes one-handed regardless of size/weight; demonstrated load-tested by the speaker's full body weight with negligible deflection. Recommended non-sagging over standard/sagging as a mechanism-quality upgrade independent of which of the three construction types above is chosen. `single-account`, `unverified`. [source: `_Archive/processed_sources/20260804_apartment_tour_tips_compilation_e2e466ad.txt`]
+
+## Washer/Dryer and Water Heater — Placement Clearances
+
+- **Washer/dryer niche width**: for a 60 cm-wide machine, build a 64 cm niche (3–4 cm clearance) — a niche built to the machine's exact nominal width won't actually fit it.
+- **Washer/dryer door swing**: the appliance door should be able to open past 90°, ideally to ~120°, or loading/unloading becomes awkward — check this against any adjacent wall/tile before finalizing the niche position.
+- **Washer + dryer as separate units**: stack them vertically (a column) where possible — described as the most convenient arrangement when both are separate machines rather than a combo unit.
+- **Tankless water heaters must sit at/within the collector node itself** — they're plumbed directly into it. **Storage/tank heaters can be relocated anywhere in the bathroom** (above the toilet, above the washer inside a cabinet, etc.), a real placement-flexibility difference worth factoring into the tank-vs-tankless decision — see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]].

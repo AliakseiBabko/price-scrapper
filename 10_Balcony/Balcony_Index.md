@@ -37,7 +37,7 @@
 ## 💡 Lighting & Electrical
 
 * **Lighting rules** — *per Zemskov, added 2026-08-10*: a loggia should always have its own dedicated light fixture — light from the adjoining room is never sufficient. **Never mount the fixture on the ceiling** — it blocks the sashes from opening; put it on the "warm" (back) wall instead. If a ceiling fixture is used anyway, it must be the flattest model available, *and* still needs a minimum 100mm frame jamb-extension at the top for sash clearance (same minimum extension applies if a stretch ceiling is planned there).
-* **Sockets**: *Placeholder* (Recommendation: IP55 protective cover socket for outdoor laptop use or chargers) — underfloor-heating-thermostat placement rules (visibility-first mounting, eye-level height, the door-reveal technique) are documented on `07_Bathroom/Bathroom_Guide.md` §24 (added from a different, apartment-wide source) and apply here too if a thermostat is ever added to this space.
+* **Sockets**: *Placeholder* (Recommendation: IP55 protective cover socket for outdoor laptop use or chargers) — underfloor-heating-thermostat placement rules (visibility-first mounting, eye-level height, the door-reveal technique) are documented in [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Bathroom: Heated Floor & Thermostat]] (added from a different, apartment-wide source, including a real disagreement between two practitioners on mounting height) and apply here too if a thermostat is ever added to this space.
 
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
 

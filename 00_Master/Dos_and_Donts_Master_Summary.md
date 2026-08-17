@@ -17,7 +17,7 @@ Index of domain and room-specific Do's & Don'ts guides across the vault.
 - [[14_Furniture/Wardrobes_and_Storage|Wardrobes & Storage]]
 
 ## Room Specific Rules
-- [[07_Bathroom/analysis/Dos_and_Donts|Bathroom]]
+- [[07_Bathroom/Bathroom_Guide#Quick Reference — Do's and Don'ts|Bathroom]] (Quick Reference section — Bathroom no longer has a separate Do's/Don'ts file; it's folded into the compact Guide, which links out to dedicated `analysis/` pages for full detail per topic)
 - [[08_WC/analysis/Dos_and_Donts|WC]]
 - [[09_Laundry_Room/analysis/Dos_and_Donts|Laundry Room]]
 - [[03_Kitchen/General/analysis/Dos_and_Donts|Kitchen]]
