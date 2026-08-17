@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=fnTjaXPEDDE",
+  "video_id": "fnTjaXPEDDE",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-15T06:46:16.544115+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "9cd2153ddc0f1cd8731f271b13781a75eeed177a38bc15bbcb8c3e1c0c095f1b",
+  "attempts_before_success": []
+}

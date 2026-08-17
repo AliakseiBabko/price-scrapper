@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=IzsMSjOUKmc",
+  "video_id": "IzsMSjOUKmc",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-14T21:39:57.707114+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a100a0c6a51b059d903eedfdb8022675f9b5814b900caa6d84ade48b6571e2e2",
+  "attempts_before_success": []
+}

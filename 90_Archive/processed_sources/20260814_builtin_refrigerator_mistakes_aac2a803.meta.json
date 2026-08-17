@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=7VfZIYGUrTo",
+  "video_id": "7VfZIYGUrTo",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-14T21:16:32.051708+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "aac2a80354b9cb89d1017c47f9bda97f4f0a6c3012197e380e2435d832c13511",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=gvNczaG3SLY",
+  "video_id": "gvNczaG3SLY",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-14T21:13:25.485829+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4d737e68d556c5f81851cc47aa292bcfb1a5c4d668db5bfd010885e6452ca866",
+  "attempts_before_success": []
+}

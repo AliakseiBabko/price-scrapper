@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=mdDZOneVlzU",
+  "video_id": "mdDZOneVlzU",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-15T06:37:55.565902+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ac0d8b51fe212fd98edd7b28a3f33dacbe73ec1a77d181a21ecb98db4156026c",
+  "attempts_before_success": []
+}

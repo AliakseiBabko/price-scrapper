@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Z-3sMXvBHK8",
+  "video_id": "Z-3sMXvBHK8",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-15T06:44:14.169267+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c4a951a6282893ab040dde195c052bc35d3b0958f9ff1c232e2438685c3c6339",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=emQO-DnhfBc",
+  "video_id": "emQO-DnhfBc",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-15T06:50:25.772956+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "38b06a7986e5320da0c7b4cc5ca1bbdf0e950649d9950e56ae7ffbc1d10c8334",
+  "attempts_before_success": []
+}

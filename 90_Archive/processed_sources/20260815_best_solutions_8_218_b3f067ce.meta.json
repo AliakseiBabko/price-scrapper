@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=vExbp48IDiI",
+  "video_id": "vExbp48IDiI",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-15T06:15:46.039187+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "b3f067cec5387435c180bb874921f1b19870ac5b348d9d5b96d6f37976ff833e",
+  "attempts_before_success": []
+}

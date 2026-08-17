@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=m5TalhbzESA",
+  "video_id": "m5TalhbzESA",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-15T06:25:22.605775+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "5d1973ae920e477dd2c01aad9db6f7b6b8c243341d5a586f6d02b26ccce57176",
+  "attempts_before_success": []
+}
