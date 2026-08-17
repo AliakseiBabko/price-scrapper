@@ -202,6 +202,35 @@ Formal intake pending. Sources already referenced by existing case studies (see 
   - **No captions available**: `R7Z_mJLwVpc` ("HOW NOT TO DO YOUR ENTRYWAY YOURSELF #312") — neither `youtube-transcript-api` nor `yt-dlp` found a caption track (both exit code 1, `reason_class: null`); the channel's captioning of this specific video is simply absent, not a rate-limit signature (the 3 fetches immediately before it in the same run all succeeded cleanly). Logged `skipped` in `00_Master/processed_sources.csv`, not sent through Whisper ASR, consistent with this project's standing policy. **No rate-limiting encountered anywhere in this batch.**
   - **Batch-level title-skim assessment**: 2 of 3 fetched videos (the wallpaper-prep positive tutorial and the "29 mistakes" dunk video) were genuinely dense; the third (`yt_RDOUfxTW2sA`) was lower-yield apartment-specific arithmetic despite its positive-adjacent "lost space" framing. Notably, the *dunk-format* video in this batch (`yt_WVfgE0lHgVc`) was one of the two dense ones — reinforcing (from the prior batch's `yt_Z-3sMXvBHK8` finding) that title/format framing alone does not reliably predict yield; per-video screening remains necessary regardless of title.
 
+- **Third batch — full playlist run against `PLpZakfG8U02vyZX3lldahEvSr177Cc2rQ` (30 unique fresh videos after dedup, added 2026-08-17)** — preflight + title-skim triage per this skill's value-filter pass sorted the fresh videos into Tier A (process fully), Tier B/C (spot-check first). Entries below added as each video is processed, one at a time, serialized fetches.
+  - `yt_MZqtJ1IrRNI` — "ПОСЛЕДОВАТЕЛЬНОСТЬ РЕМОНТА КВАРТИРЫ СВОИМИ РУКАМИ #902" (2018-12-06, upload-date-confirmed). This store's earliest-dated telling of the channel's recurring full-sequence theme (a 2024 telling already in this store as `yt_ZkdGHHPtfh0`). No pricing content. Genuinely new: kitchen-company-early-selection rule, low-voltage-trade cable-bundling 10x cost claim, entrance-door/window-measurer early-ordering sequencing with lead times, WC-floor 5cm-lower rule, AC-trunking/radiator-false-wall sequencing conflict, baseboards-after-furniture sequencing correction, toilet-last rule, service-tier handover-scope checklist. See Planning Rules Durable Facts below (new "Full-Sequence Video — Earliest Telling" subsection). Content is fundamentally sequencing, not budgeting — flagged for the user re: `Renovation_Sequence.md` (this wrapper does not auto-edit that page). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MZqtJ1IrRNI_zems_full_renovation_stage_sequence|note]].
+  - `yt_OR0Vk7V6zeo` — "КАК НЕЛЬЗЯ ДЕЛАТЬ КЛАДКУ ИЗ БЛОКОВ #006" (2018-12-14, upload-date-confirmed) — misleading dunk-style title, actual content is a positive foam-block partition-wall build technique walkthrough (same pattern already noted for `fnTjaXPEDDE`). No pricing content. Genuinely new: laser-projector layout method, guide-frame course-alignment technique, top-joint expanding-foam-vs-mortar mechanism with a 48-hour cure-before-foaming rule, reinforcing-lintel technique over block openings, and a precise door-opening-to-wall-thickness dimensional worked example. See new Walls/Ceilings and Doors/Trim subsections below. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OR0Vk7V6zeo_zems_foam_block_partition_masonry|note]].
+  - `yt_nb3L-k69yx8` — "PVC window slope (откосы) install technique #004" (2018-12-11, upload-date-confirmed) — misleading "how not to" title, actual content a positive sandwich-panel slope install technique demo (same pattern as `yt_OR0Vk7V6zeo`). No pricing content. Genuinely new: sandwich-panel system overview (~8mm panel), corner/trim cutting-and-notching technique, thermal-expansion gap rule (~3mm), wallpaper-protection technique. No dedicated Windows page exists yet — routed to a new store-only "Windows / Slopes" subsection, flagged as a future dedicated-page candidate. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nb3L-k69yx8_pvc_window_slope_sandwich_panel_technique|note]].
+  - `yt_awsVIxZlskQ` — "КАК НЕЛЬЗЯ ДЕЛАТЬ НАЛИВНОЙ ПОЛ СВОИМИ РУКАМИ? #901" (2018-12-03, upload-date-confirmed) — misleading "how not to" title, actual content a positive self-leveling-floor technique demo. No pricing content. Genuinely new: room-zone-partitioning rationale (fast-cure risk), edge-tape shrinkage-compensation mechanism, and a precise "995mm template = 1m minus 5mm" laser-leveling method. See new Walls/Ceilings subsection below. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_awsVIxZlskQ_zems_self_leveling_floor_technique|note]].
+  - `yt_VrfCLF74L50` — "КАК НЕЛЬЗЯ ДЕЛАТЬ СТЯЖКУ ПОЛА #033" (2019-01-21, upload-date-confirmed) — misleading "how not to" title, actual content a dense positive screed technique + cost-saving walkthrough. **This batch's first source with real pricing content** (2019 Moscow RUB, `unverified`/`single-account`). Genuinely new: laser-leveling zero-reference propagation method, minimum 3cm screed-thickness rule, full quantity/cost formula (~320 bags/~65,000 RUB worked example), entrance-threshold-matching rule, and — the standout item — a **deliberate "lower the zero reference" cost-saving technique** corroborated by two independent worked examples (~30,000 RUB savings each), plus a cost-quantified electrical-conduit-floor-vs-ceiling-routing rationale extending this store's existing entry. Added to `Budgeting_Guide.md` §5 and this store's Numeric Data/Durable Facts. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VrfCLF74L50_screed_zero_reference_lowering_technique_033|note]].
+  - `yt_WjbLMKON_s8` — "КАК НЕЛЬЗЯ УСТАНАВЛИВАТЬ ИНСТАЛЛЯЦИЮ УНИТАЗА #035" (2019-01-23, upload-date-confirmed) — direct Q&A explainer, not a critique. No pricing content. Genuinely new: 40cm wall-hung-toilet target height (matching floor-mounted-toilet convention), explicit rejection of per-household-member height customization with stated reasoning, two height-inflation causes with remedies (stack proximity, stack-height rework), 45-47cm podium threshold. Routed to `08_WC/WC_Guide.md` (new §2c). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_WjbLMKON_s8_wall_hung_toilet_installation_height_035|note]].
+  - `yt_IbV-DC3z8jI` — "КАК В РЕМОНТЕ КВАРТИРЫ СПРЯТАТЬ СТОЯКИ ВОДОСНАБЖЕНИЯ #079" (2019-05-07, upload-date-confirmed) — real project case, doorway-clearance recovery around a riser utility box. No pricing content. Genuinely new: 90cm total-clearance worked math for a 60cm door between two fixed obstructions, pipe-recessing technique (~5cm), shutoff-valve access-panel relocation technique. Routed to `12_Engineering_and_Systems/Plumbing_and_Waterproofing.md` (new section). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IbV-DC3z8jI_riser_concealment_narrow_doorway_clearance_079|note]].
+  - `yt_XFrmhhM1ogg` — "НИКОГДА НЕ ПОКУПАЙ ПЛАСТИКОВЫЕ ОКНА С ТАКИМИ СТВОРКАМИ #031" (2019-01-19, upload-date-confirmed) — direct Q&A explainer, turn-only vs. tilt-and-turn sash hardware. Genuinely new: ~1-2% cost delta, three tilt-and-turn advantages (fall-limiter avoidance, trickle ventilation, and the standout large-sash self-weight-deformation mechanism with a tilt-only fix). Routed to store Windows/Slopes topic area (no dedicated Windows page yet). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XFrmhhM1ogg_tilt_and_turn_sash_selection_031|note]].
+  - `yt_guGybOqTF64` — "КАК НЕЛЬЗЯ ПРОЕКТИРОВАТЬ КУХНЮ СВОИМИ РУКАМИ #021" (2019-01-09, upload-date-confirmed) — dense real-project kitchen layout design walkthrough. No pricing content. Genuinely new: standard-module-sizing rule, dual-purpose filler-strip techniques, tall-unit/wet-appliance placement rationale, primary/secondary cooking-zone definition, twin-fridge cost/redundancy trick. **Used to populate the previously-empty `03_Kitchen/Furniture/Kitchen_Furniture.md` page** — this vault's first coherent kitchen-furniture wiki content. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_guGybOqTF64_kitchen_layout_design_principles_021|note]].
+  - `yt_AGjYrwqilNA` — "ПОЧЕМУ НЕЛЬЗЯ ШТУКАТУРИТЬ ОТКОСЫ НА ОКНАХ #019" (2019-01-07, upload-date-confirmed) — direct explainer, window-slope material-selection reasoning, complementing `yt_nb3L-k69yx8`'s installation technique. No pricing content. Genuinely new: three slope types compared, four plastered-slope failure mechanisms (thermal-expansion mismatch, plaster cracking/paint yellowing, no closing contour, forced-thin foam joint), two legitimate decorative-slope exceptions, five-point insulated-slope checklist (snap-fit contour, primary plastic, etc.), three failure mechanisms of skipping the closing contour, bundled-warranty buying caution. Routed to store Windows/Slopes topic area. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AGjYrwqilNA_window_slope_material_selection_019|note]].
+  - `yt_DHjZm9lugow` — "КАК НЕЛЬЗЯ ДЕЛАТЬ ПРОЕМ В НЕСУЩЕЙ СТЕНЕ #017" (2019-01-05, upload-date-confirmed) — dense technical DIY explainer, load-bearing-wall opening cutting + structural reinforcement, real cost comparison. **>3x company-vs-DIY cost gap** (>50,000 RUB vs. ~15,000 RUB materials, 2019 Moscow pricing, `unverified`). Genuinely new: permit-before-cutting rule, drill-through marking method, no-jackhammer rule + correct cutting method, controlled-demolition/floor-protection rule, rebar-avoidance anchor-angle technique, weld-completeness rule, rebar-dowel bending technique. Added to `13_Surfaces_and_Finishes/Walls_and_Paint.md` (new section) and `Budgeting_Guide.md` §5. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DHjZm9lugow_load_bearing_wall_opening_technique_017|note]].
+  - `yt_0GEBViPVBbo` — "КАК НЕЛЬЗЯ ДЕЛАТЬ КОРИДОРЫ В КВАРТИРЕ #015" (2018-12-27, upload-date-confirmed) — corridor minimum-width standard + real worked reclaim case. No pricing content. Genuinely new: 110cm minimum comfortable corridor width target (derived from 90cm rough opening for an 80cm door + 2x10cm returns), real case reclaiming 100cm to 112cm by rebuilding a partition flush against a ventilation shaft instead of offset with a wasted gap. Routed to Quantities/Measurements Durable Facts. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0GEBViPVBbo_corridor_minimum_width_015|note]].
+  - `yt_zaZGEW8sdV4` — "КАК НЕЛЬЗЯ ДЕЛАТЬ ТЁПЛЫЙ ПОЛ #011" (2018-12-23, upload-date-confirmed) — earlier telling of a theme this store already covers in depth (`yt_uwXBHuWPUIo`, 2022). No pricing content. **Notable finding: a genuine 4-year reasoning-tension flagged, not resolved** — this earlier source states child-safety IS a real reason for eye-level thermostat mounting, directly contradicting the 2022 source's explicit rejection of that same reasoning from the same practitioner. Also genuinely new: long-sensor-wire purchase alternative, multi-gang switch/thermostat mapping rule. Routed to `07_Bathroom/analysis/Heated_Floor_and_Thermostat.md` (existing "Practitioners Disagree" section). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zaZGEW8sdV4_underfloor_heating_thermostat_placement_earlier_011|note]].
+  - `yt_qwIRfgn1Tog` — "КАК НЕЛЬЗЯ РЕГУЛИРОВАТЬ ПЛАСТИКОВЫЕ ОКНА #008" (2018-12-20, upload-date-confirmed) — two-part masterclass, PVC window self-adjustment + windowsill condensation fix. No pricing content. Genuinely new: DIY sash vertical/pressure adjustment technique with a paper-test check. The condensation-vent-drilling technique corroborates/pre-dates this store's existing `yt_U56YIEA3-U4` (2019) entry for the same fix. Routed to store Windows/Slopes topic area. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qwIRfgn1Tog_pvc_window_adjustment_and_condensation_fix_008|note]].
+  - `yt_PO9kd1cqCyA` — "САНТЕХНИКА И ОТОПЛЕНИЕ. ДОСТУП К СТОЯКАМ #107" (2019-10-27, upload-date-confirmed) — short walkthrough on the speaker's own future **commercial dental clinic** (not residential — flagged), arguing standard brick boxing around utility risers should always be demolished. No pricing content. Genuinely new: three demolition rationales (hidden-leak inspection, riser soundproofing, ~15cm space reclaim), with a commercial-code caveat on the cited 120cm medical-corridor minimum (not a residential figure). Routed to store Plumbing topic area. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_PO9kd1cqCyA_plumbing_heating_riser_access_107|note]].
+  - `yt_f8IHrJf-v4w` — "РЕМОНТ КВАРТИРЫ. СТЕНЫ. КАК ИЗМЕРИТЬ НАКЛОН? #111" (2019-12-12, upload-date-confirmed) — single-technique DIY explainer, laser-line-level wall-tilt measurement method. No pricing content. Genuinely new: fully specified 4-step technique with a direct 1:1 cm-to-cm geometric correspondence, contributing a third source to this store's already-flagged DIY self-measurement/CAD-methodology page gap (alongside `yt_FwVHNQGjFj4`, `yt_SuxDS5csnxI`). Routed to store Quantities/Measurements. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f8IHrJf-v4w_measure_wall_tilt_laser_level_111|note]].
+  - `yt_gqc3jHl6YcM` — "КАК СДЕЛАТЬ ПЛАНИРОВКУ КВАРТИРЫ? #517" (2019-12-24, upload-date-confirmed) — team studio walkthrough of a real ~110m² Krasnodar project's client brief and 3D model, not a critique format. No pricing content. Genuinely new: 4-step design-process order, a reusable client-brief checklist, a "project within a project" future-use pre-wiring technique, a matching-wall-thickness-for-casing-consistency rationale, a pet-driven flooring material-split decision, and two concrete client-requirement examples. Routed to store Planning Rules / Design Process, Flooring, and Family Requirements/Preferences. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gqc3jHl6YcM_zems_design_process_krasnodar_layout_517|note]].
+  - **No captions available**: `74c0MGLFGT4` ("ГЛАВНЫЙ ВОПРОС В РЕМОНТЕ КВАРТИРЫ #530") — neither `youtube-transcript-api` nor `yt-dlp` found a caption track (both exit code 1, `reason_class: null`) — genuine no-captions outcome, not a rate-limit signature. Logged `skipped` in `00_Master/processed_sources.csv`, never fetched.
+  - `yt_JyzPLUbp5YI` — "ГЛАВНЫЙ ЛАЙФХАК В НАЧАЛЕ РЕМОНТА #163" (2022-06-05, upload-date-confirmed) — multi-speaker technique explainer (Zemskov + Sergey Saratov + a named materials-company technologist), ceiling priming. No pricing content. Genuinely new: mandatory priming rationale, a complete six-tier concentrated-primer dilution-ratio table (1:1 through 1:10+additive), and a demonstrated garden-sprayer-vs-roller application method comparison (~15 minutes, one person, vs. longer/two-person roller method for partial coverage). Routed to store's new Materials topic area. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JyzPLUbp5YI_concentrated_primer_dilution_and_sprayer_technique_163|note]].
+  - `yt_s5Gyi8Rd9D0` — "НИКОГДА НЕ ПРИНИМАЙ ЭТО У МАСТЕРОВ #205" (2023-04-16, upload-date-confirmed) — extremely dense on-location QC critique of an unrelated third-party rental-apartment renovation, spanning nearly every trade. No pricing content. Genuinely new (curated subset): door-slope caulking anti-pattern, decorative-floor-insert waste, closet-to-ceiling/flush-wall rules, wardrobe/door swing-clearance check, curtain-vs-proper-door hazard with a new 175cm sliding-door threshold, kitchen cook-zone electrical-point spec, counter/sill height-conflict rule, condensation-hole aiming rule (cross-references same-batch `yt_qwIRfgn1Tog`), kitchen riser-routing rule (cross-references same-batch `yt_PO9kd1cqCyA`), built-in-fridge preference, three bathroom rules, a bedroom lighting-temperature-consistency rule, and a tilt-turn-hardware misuse-damage mechanism. Routed per-topic across Materials/Doors-Trim, Flooring, Furniture/Built-ins, Kitchen, Kitchen Appliances, Bathroom, Lighting, and Windows/Slopes. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s5Gyi8Rd9D0_never_accept_from_tradesmen_qc_checklist_205|note]].
+  - `yt_6_cH35u4ouM` — "DIY Plastic Window Installation. Workshop #007" (2018-12-18, upload-date-confirmed) — single-speaker (Zemskov himself) consolidated DIY masterclass on PVC window/balcony-block installation. No pricing content. Genuinely new: quarter/reveal thermal rationale, direct-fastening-only rule (mounting plates for preliminary positioning only), mounting-wedge rule with an 80mm treated-hardwood exception, a two-stage foam technique for door/window joining seams, a three-stage perimeter foam-seam technique with a stated void-defect failure mechanism and timeline, a 5-point tape-hardware quality checklist (including a trickle/slot-ventilation banknote test), a water-sill quality checklist (factory tolerance, protective-film-removal timing, 3-layer damping pad), a fully worked balcony-block opening-widening procedure with real measurements, and an on-site leveling/torque QC technique. Routed to store Windows/Slopes (Doors/Trim). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6_cH35u4ouM_zems_b007_pvc_window_install_masterclass|note]].
+  - `yt_gjTGr8j6-DA` — "DIY PLASTIC WINDOW INSTALLATION #2. MASTER CLASS #010" (2018-12-22, upload-date-confirmed) — short direct companion to #007, soft-material (aerated-concrete/foam-block) window fastening exception case. No pricing content. Genuinely new: when to use distributed mounting plates instead of direct fastening, a full numeric fastening spec (8mm dowel bit, 4-7 screws/plate, 90mm screw length, ≤60cm plate spacing), and a `single-account` hardened-screw-in-soft-material caveat. Routed to store Windows/Slopes (Doors/Trim), directly extending the #007 entry. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gjTGr8j6-DA_zems_b010_window_soft_material_fastening|note]].
+  - **Partial extraction**: `yt_fHdiWCw-EBQ` — "JOINT BETWEEN SKIRTING BOARD AND CLOSING CONTOUR OF SLOPES #090" (2019-06-27, upload-date-confirmed) — very short single-FAQ-answer video; most content duplicates `yt_AGjYrwqilNA`'s already-captured "why never plaster" mechanisms (not re-extracted). Only one genuinely new fact captured: skirting-board-before-trim installation sequence rule. Routed to store Windows/Slopes (Doors/Trim). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fHdiWCw-EBQ_zems_b090_skirting_trim_sequence|note]].
+  - `yt_7MqiSqkO_cE` — "ВСЕГДА МЕНЯЙ ЭТО Г..НО! #009" (2018-12-21, upload-date-confirmed) — dunk-format title hiding a genuine, detailed convector-to-bimetal-radiator replacement masterclass (extends this channel's already-observed misleading-title pattern from "how not to" phrasing to dunk-format titles). No pricing content. Genuinely new (store's first Plumbing topic entry): keep-vs-replace decision criteria, a safety-critical pipe-cutting electrocution warning, a material-matching rule, a false-wall concealment rationale with a quantified ~15cm windowsill-depth cost, a mandatory-bypass rule, a cold-bending-only rule, thread-sealing material, a 50cm riser branch-point rule with airlock mechanism, and a 3-step pipe corrosion-protection sequence. Routed to store's new Plumbing topic area. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7MqiSqkO_cE_zems_b009_radiator_replacement_masterclass|note]].
+  - **Partial extraction**: `yt_oBP1cYCLARA` — "1,000 SQ.M. OF DRYWALL IN 1 DAY! #044" (2019-02-01, upload-date-confirmed) — commercial warehouse showcase/brag video, off-scope in scale/setting for this project (165m-long partition, industrial single-day target); most narrative content not extracted. Genuinely new (few, transferable regardless of scale): double-track vertical-profile rigidity tradeoff, template-based marking for large batches of identical framing cuts, chalk-line point-transfer marking for repeated spacing, and a first-person PPE-necessity injury account. Routed to store Walls/Ceilings and Mistakes/Warnings. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oBP1cYCLARA_zems_b044_drywall_partition_framing_technique|note]].
+  - **Partial extraction**: `yt_I3vcE3IRi0k` — "THE FACILITY WAS FLOODED ON THE DAY OF COMPLETION + ROOM TOUR #150" (2021-09-26, upload-date-confirmed) — heavily self-promotional company-showcase/handover video with a direct sales pitch (contact speaker for a project, then request his named employee as installer); most tour content not extracted. Genuinely new (few): breaker-photo-labeling handover practice, an underfloor-heating thermostat pre-warm scheduling example, a floor-transition-seam-under-door placement rule, and a `single-account`/promotional-adjacent flood-resilience material anecdote. Routed to store Electrical/Switches and Flooring. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_I3vcE3IRi0k_zems_b150_flooded_completion_room_tour|note]].
+  - **No captions available**: `wxkTw0YdxdU` ("SURPRISE FOR THE CUSTOMER FROM THE BUILDERS #162") — neither `youtube-transcript-api` nor `yt-dlp` found a caption track (both exit code 1, `reason_class: null`) — genuine no-captions outcome, not a rate-limit signature. Logged `skipped` in `00_Master/processed_sources.csv`, never fetched. Last video of playlist `PLpZakfG8U02vyZX3lldahEvSr177Cc2rQ`'s fresh-video list — this playlist's intake is now fully exhausted (aside from `dACYJWAMQ50`/`8ASkPLxWTXQ`, off-topic, correctly never fetched).
+
 ## Cross-Source Comparison Tables
 
 Per explicit user guidance: forcing all sources into one grand $/m² total
@@ -1027,6 +1056,30 @@ All sources below are Alexey Zemskov / Zemstandart-Zemsproekt (Moscow), `single-
 - **Dishwasher should be positioned to the left of the sink for right-handed workflow ergonomics** — stated reasoning: left hand holds the plate, right hand scrapes food waste into the sink/bin, then the plate goes directly into the dishwasher; a worked counter-example (dishwasher forced right of the sink by a cabinet-door conflict) is described as measurably less convenient and costs one full cabinet module of storage. Genuinely new kitchen-workflow rule for this store. [source: yt_RDOUfxTW2sA]
 - **A sink whose plan-view footprint conflicts with a door-swing/passage opening can sometimes be resolved by shifting the opening itself rather than the fixture** — worked example: shifting a door opening slightly let an 80cm sink cabinet clear the passage entirely, at the cost of a different, narrower fixture elsewhere ending up with a partial protrusion into its own opening — illustrates that resolving one clearance conflict in a fixed footprint can relocate rather than eliminate the underlying space shortfall. [source: yt_RDOUfxTW2sA]
 
+### Planning Rules / Full-Sequence Video — Earliest Telling (2018, added 2026-08-17)
+
+`yt_MZqtJ1IrRNI` — "ПОСЛЕДОВАТЕЛЬНОСТЬ РЕМОНТА КВАРТИРЫ СВОИМИ РУКАМИ #902", a pure narrated full-renovation-sequence checklist, upload-date-confirmed 2018-12-06 — chronologically this store's earliest-dated telling of this channel's recurring "full sequence" theme (a 2024 version is already in this store as `yt_ZkdGHHPtfh0`). No pricing content. `single-account` throughout.
+
+- **Select the specific kitchen-installation company before rough electrical is finalized** — each manufacturer has its own backing/blocking and electrical-point requirements for built-in appliances; hand these to the project designer early so rough electrical incorporates them, avoiding rework at kitchen-install time.
+- **Bundle security/CCTV/satellite-TV/ISP cable routing into the main electrician's single rough-wiring pass**, rather than each specialist running their own cables independently — each specialist still visits once to mark requirements, but the actual pulling is done by the main crew. Stated cost claim: routing separately costs roughly **10x more** than bundling. `unverified` (no supporting arithmetic shown).
+- **Order the entrance door and call the window/loggia measurer immediately after demolition**, before loggia insulation/glazing prep is finished — the window measurer needs final opening dimensions (measuring too early forces a second paid visit); both units are factory-made to order (~1-2 weeks for windows, ~10 days for the entrance door) and arrive after demolition dust/damage risk has passed.
+- **Prime and paint the raw ceiling before a stretch/fabric ceiling goes up**, specifically because a neighbor's vibration can otherwise shake loose debris from an unsealed concrete ceiling onto the underside of the membrane over time.
+- **WC/bathroom finished floor must sit 5 cm lower than the rest of the apartment's finished floor** — stated as a fixed rule at the screed stage (mechanism not given, but consistent with this store's general waterproofing-contour content). New specific numeric figure for this store.
+- **Route AC refrigerant-line/condensate trunking along the same exterior-wall path used for radiator-concealment false walls, and build both in one pass** — if the false wall is finished before the AC route is set, it has to be reopened later to run the line through it.
+- **Baseboards go on only after kitchen cabinetry and built-in furniture are installed, not right after door casings** — baseboards must butt cleanly against both the door casing and the installed furniture/toe-kicks. Stated sequence: doors → kitchen/furniture → baseboards → finish electrical (outlets/switches) → AC indoor unit.
+- **Finish plumbing fixtures, especially the toilet, install dead last, immediately before handover** — so no other trade uses the finished toilet before the client.
+- **Service-tier handover-scope checklist**: most companies consider the job done once keys are handed over and the client can move in; "very good" companies as standard practice also hang accessories/pictures/mirrors, deliver and assemble furniture, configure internet and satellite TV, and set up the security system before handover.
+- **Install a stretch/fabric ceiling before laying finish flooring, not after** — the source states repeated real incidents of a stretch-ceiling installer's overhead work damaging already-laid flooring; ceiling-then-floor is the corrected order. `single-account`, mechanism-based.
+- **Coordinate the exact building riser shutoff date (hot/cold water, heating) with the property manager at the same early stage as balcony/entrance-door measurement** — needed for radiator/valve replacement; if the floor isn't being opened up, temporary plastic risers are run in the meantime.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MZqtJ1IrRNI_zems_full_renovation_stage_sequence|note]]] — flagged for the user: this content's natural home is `11_Budget_and_Planning/Renovation_Sequence.md`, which this wrapper does not auto-edit (human-curated companion page) — fold in by hand or authorize a direct edit.
+
+### Quantities / Measurements — Minimum Corridor Width (added 2026-08-17)
+
+- **Minimum comfortable corridor width target: 110cm** — allows two correctly-built walls with a 10cm return/reveal each side (90cm rough opening, fitting an 80cm standard residential door leaf). Not always achievable given real constraints, but the default target when floor area is tight. Real worked case: a corridor squeezed to 100cm by a wasted ~2cm gap between a partition and an adjacent ventilation shaft was recovered to 112cm raw (110cm after plastering) simply by rebuilding the partition flush against the shaft's outer plane instead of offset in front of it. [source: yt_0GEBViPVBbo]
+- **Laser-line-level wall-tilt measurement technique** — measures a wall's out-of-plumb deviation in cm without a laser distance meter: (1) place a self-leveling laser line projector ~3m from the wall, aim roughly perpendicular (doesn't need to be exact — the unit auto-levels to true vertical regardless of laser angle to the wall); (2) mark two points where the line crosses the wall, one as low and one as high as possible; (3) move the laser ~3m to the side and re-aim so the line lands exactly on the lower mark; (4) the offset between the line and the upper mark equals the wall's tilt in cm over that height, by direct 1:1 geometric correspondence ("pure geometry," not an approximation). A standard bubble level is described as too imprecise for this specific measurement, while a laser distance meter is accurate but not standard first-survey kit — the laser line projector already is. The exact left/right-to-lean-direction mapping is ASR-garbled in the source transcript and left `unclear` pending re-verification against the video itself. [source: yt_f8IHrJf-v4w]
+
+
 ### Planning Rules / Layout Technique — Zemstandart Space-Gain Videos (new topic area, added 2026-08-15)
 
 Sourced from a title-skim batch specifically selecting positive "how to gain space"-framed videos over this channel's usual dunk-format critiques, to test whether that framing yields denser technique content — it did (see this source note's Relevance section).
@@ -1072,6 +1125,375 @@ Densest, least-promotional source in this batch — a complete positive 23-step 
 - **Mechanized skim-coat application via a dedicated putty-spraying station ("шпаклёвочная станция")**, two-person technique (one sprays, one continuously tops up the hopper so the pump doesn't run dry and draw air) — described as this company's increasingly standard method over hand-troweling for fast, even, thin-layer application. Genuinely new equipment/technique for this store. [source: yt_emQO-DnhfBc]
 - **Final priming pass before wallpapering has a distinct purpose from earlier priming steps**: without it, wallpaper paste is absorbed too quickly into the filler layer, leaving no time to adjust/align seams while hanging paper. `confirmed`, explicit stated mechanism, genuinely new specific technique for this store's wallpaper-prep content. [source: yt_emQO-DnhfBc]
 
+### Walls / Ceilings — Foam-Block Partition Masonry Build Technique (third playlist batch, added 2026-08-17)
+
+Title reads "how NOT to do masonry" but content is a positive, complete build-technique walkthrough — same misleading-title pattern already noted for `fnTjaXPEDDE`. Genuinely new top-joint mechanism and dimensional worked example.
+
+- **Laser-projector layout method**: a self-leveling laser unit placed on marked floor points projects the new partition's footprint onto the ceiling and vertical reference lines onto adjacent walls simultaneously — full layout in ~3 minutes. [source: yt_OR0Vk7V6zeo]
+- **Temporary metal-profile guide frame set to the marks before laying block**, so courses are laid directly against the guide rather than re-measured course by course — only mid-span checked against a string line. [source: yt_OR0Vk7V6zeo]
+- **Vacuum (not sweep) the base surface, then apply deep-penetration bonding primer via garden pump sprayer, before laying block** — explicit stated failure mode if skipped: the new wall will eventually detach from the base. [source: yt_OR0Vk7V6zeo]
+- **Top masonry-to-ceiling joint: use expanding polyurethane foam applied 48 hours after the wall cures, not adhesive mortar packed into the gap** — foam applied to fresh (uncured) masonry will expand and deform it; one continuous unbroken foam bead around the full top perimeter on each face is required, since even a small gap significantly worsens sound isolation. Claimed better soundproofing and adhesion than mortar-packing. `confirmed`, genuinely new top-joint mechanism for this store. [source: yt_OR0Vk7V6zeo]
+- **Reinforcing-lintel technique over a foam-block door/window opening**: cut rebated slots in the top course on both sides of the opening, insert two rebar rods extending ~10 cm past each side, wedge in place, permanently lock during plastering. [source: yt_OR0Vk7V6zeo]
+
+### Doors / Trim — Foam-Block Opening Dimensioning (third playlist batch, added 2026-08-17)
+
+- **Door-opening layout dimensions for a 70 cm door in 10 cm-thick foam block**: opening height 2.07 m; inner block return (reveal) 11 cm from the outer corner (so door casing installs without notching, keeping ≥3 cm casing-to-corner clearance); clear rough-opening width 78 cm. `confirmed`, a specific worked framing-to-door-width relationship not previously recorded this precisely in this store. [source: yt_OR0Vk7V6zeo]
+
+### Windows / Slopes — PVC Window Sandwich-Panel Slope Install Technique (third playlist batch, added 2026-08-17)
+
+No dedicated Windows page exists in this vault yet — window-slope content lives store-only for now (alongside `yt_P7_rUkk8clU`'s outlet-in-slope content), flagged as a candidate topic for a future dedicated Windows page if enough window-specific content accumulates. Misleading "how not to" title again hides a positive, fully concrete technique demo (same pattern as `yt_OR0Vk7V6zeo`).
+
+- **Sandwich-panel slope system, full install sequence**: level/true-up the rough opening perimeter with guide strips (thin wood batten, or the same metal profile used for drywall framing); mount a connector profile onto the guide strips only if profile-style seams are planned (vs. simple adhesive corner trim); fix the sandwich panel (plastic-foam-plastic, **~8mm thick** standard) to the guide strips. [source: yt_nb3L-k69yx8]
+- **Corner/trim framing technique**: cut trim profile to opening size plus a 30–40mm working margin; fit the top piece first, mark the cut line by transferring a straightedge held against the panel face onto the profile, then notch it with a plastic hacksaw — both the marked cut and part of the corner-lock tab are removed, cut at a slight inward angle specifically so the adjoining profile's own lock tab doesn't collide with it at the corner. [source: yt_nb3L-k69yx8]
+- **Thermal-expansion gap rule: leave ~3mm gap at each slope corner/joint** for the plastic's thermal linear expansion — achieved by cutting ~1.5mm short of the marked line on each side. Applies to vertical trim elements too, not just the top. `confirmed`, genuinely new specific numeric rule for this store. [source: yt_nb3L-k69yx8]
+- **Wallpaper-protection technique while scoring trim in place**: slide a plain plastic backing strip underneath the corner trim before scoring it with a hacksaw, specifically to avoid damaging adjacent wallpaper — cut ~50cm working sections at a time. [source: yt_nb3L-k69yx8]
+- **Finish step**: seal all fitted trim edges/joints with sealant before handover. [source: yt_nb3L-k69yx8]
+
+### Windows / Slopes — Material Selection: Why Never Plaster (added 2026-08-17)
+
+`yt_AGjYrwqilNA` — direct explainer complementing `yt_nb3L-k69yx8`'s install-technique content with the material-selection reasoning. [source: yt_AGjYrwqilNA]
+
+- **Plastered window slopes are never appropriate for a PVC window, for four mechanism-based reasons**: (1) PVC and plaster have mismatched thermal-expansion coefficients and no sealant bonds well to both — a frame/plaster crack reliably forms; (2) plaster itself cracks over time regardless of skill (no installer can guarantee crack-free past ~5 years vs. the window's 10-20 year rating) and painted plaster yellows within 1-4 years; (3) a plastered slope has no closing/retaining contour, so wallpaper's cut edge is always exposed and eventually peels; (4) plastering forces the frame's first foam joint to be trimmed flush/recessed — exactly the wrong compromise on this store's known weakest installation joint, which should always be maximized, never thinned.
+- **Two legitimate exceptions where a thin decorative (uninsulated) slope is the *correct* choice, not a cost-cutting compromise**: a temporary/non-structural partition wall (no thermal/acoustic slope performance needed for a light stud-and-drywall divider); and a balcony/loggia glazing block's exterior-facing slope specifically, where the frame's mounting "quarter" ledge typically leaves only ~2-3cm clearance — too little to tuck an insulated sandwich panel behind the frame at that junction.
+- **Five-point checklist for a correct insulated (sandwich-panel) slope**: mechanically fixed (not just glued) to carry a thick foam joint; true foam-core sandwich construction, never hollow-core (visible rib lines, worse insulation); a closing/retaining perimeter contour, not just butted-and-puttied; that contour must be a **snap-together two-piece system (inner J-profile + outer profile), never glued** (glued trim eventually detaches from sash-impact, snap-fit flexes and returns); both panel and profile must be **primary (virgin) plastic, never secondary/recycled** (unknown composition, visibly yellows within a few years — e.g. sill end-caps).
+- **Skipping the closing contour entirely (butting raw hand-cut panel edge to wall, puttying, wallpapering over) is a named common installer shortcut with three concrete failure mechanisms**: hand-cut sandwich-panel edges are visibly wavy once puttied/papered; putty/wallpaper bonds far better to wall than to a panel's raw cut edge, so the joint reliably peels; sandwich panel is far softer than plaster, so a heavy sash's repeated impact flexes it enough to crack the puttied seam over time.
+- **Buying caution**: many companies install only the window, declining slope work — a client left to DIY or hire a second firm risks the original installer later denying warranty claims by blaming third-party slope work. Recommend buying window + slope finishing as one bundled product with one combined warranty.
+- **Installation sequence rule: skirting board always before the window/slope closing contour trim strip, never the reverse** — installing the trim strip first always leaves the skirting board pushed slightly proud of the wall when fitted up against it afterward, however thin the trim. `confirmed`, simple sequencing rule. [source: yt_fHdiWCw-EBQ]
+- **DIY sash self-adjustment (before calling a professional)**: a 4mm hex key handles two adjustments — a bottom-hinge screw for vertical sash position (clockwise raises a sagging/catching sash), and an eccentric bolt around the sash perimeter for seal pressure (rotate the thicker lobe toward the seal to increase pressure). **Paper-test check**: close the sash on a sheet of paper at several points around the perimeter — pressure is too weak if the paper slides out easily, good if it resists or tears. Any other hardware adjustment is explicitly left to a professional. [source: yt_qwIRfgn1Tog]
+
+- **Turn-only vs. tilt-and-turn sash hardware: tilt-and-turn is unambiguously the better default**, cost delta only ~1-2% of window price. Three advantages: avoids needing a hard fall-limiter/child-safety stop (turn-only swings fully open with no other restraint); gives trickle/slot ventilation without fully opening; and — the standout mechanism — **a large/heavy sash (e.g. ~2m×2m, which can't be split into a narrower pair without violating facade design) deforms within about a week of regular full-swing-open use**, since its own weight bears on the side hinges every opening; restricting such a sash to tilt-only operation transfers its weight to the bottom frame/transom instead, avoiding the deformation mechanism. `single-account`, genuinely new hardware-selection rule with an explained mechanism. [source: yt_XFrmhhM1ogg]
+
+### Doors / Trim (Windows) — DIY PVC Window Installation Masterclass (fourth playlist batch, added 2026-08-17)
+
+`yt_6_cH35u4ouM` — single-speaker (Zemskov himself) consolidated DIY
+masterclass covering frame fastening, foam-joint technique, hardware
+quality, sill quality, and a worked opening-widening procedure. No
+pricing. [source: yt_6_cH35u4ouM]
+
+- **Window-opening "quarter" (reveal) thermal rationale**: a recessed
+  quarter protects the first foam joint on all sides vs. a flush opening,
+  improving thermal performance — but gives **no fastening advantage**
+  (same wind load on the fasteners either way). `confirmed`.
+- **Frame fastening must be direct (anchor or dowel through the profile),
+  never via mounting plates alone** — plates are legitimate only for
+  preliminary/temporary positioning, not final structural fastening.
+  Frame drain holes near fastening points are a deliberate manufacturer
+  feature (condensate prevention), not a defect.
+- **Mounting wedges only, never wood scraps, for leveling/load-bearing
+  support** — one exception: foam-joint gaps **>80mm** may use treated
+  hardwood timber (never scrap softwood), always alongside proper wedges,
+  never as their substitute.
+- **Two-stage foam technique for a door/window sill joining seam**: apply
+  foam, wait for primary cure (springy, non-tacky skin) before assembling
+  — disturbing uncured foam collapses expansion and weakens the joint;
+  apply a second smaller bead on top of the near-cured first bead to
+  re-bond for a stronger final joint.
+- **Three-stage perimeter foam-seam technique**: pre-fill large voids
+  first; form the continuous seam at only **~25% fill initially** so it
+  expands/cures properly; trim flush once cured. A seam formed in one pass
+  at full thickness reliably develops void defects ("свищи") — even a
+  3-4mm void (screw-diameter) defeats the window's thermal benefit
+  entirely; failure (visible ice on the upper slope) typically appears
+  within 2-3 years of a rushed one-pass seam. `confirmed`, mechanism +
+  timeline.
+- **4-point hardware (ленточная фурнитура) quality checklist**: (1) ≥4
+  operating positions including trickle/slot ventilation (locked-closed
+  but perimeter-circulating — demonstrated with a banknote test); (2)
+  robust individual mechanism components (tilt-scissor hinge cited as a
+  quality marker); (3) low-maintenance (periodic oil-port lubrication
+  only); (4) foolproofing (can't combine open+tilt simultaneously); (5)
+  anti-burglary resistance visible even in base configuration.
+- **Water-sill (отлив) quality checklist**: factory-manufactured, not
+  hand-bent (hand-bent tolerance 2-3mm vs. factory <1mm edge-to-edge);
+  factory protective film **must be removed immediately after install**
+  (leaving it on is a documented bad habit even among professional
+  installers — the film partially bonds/partially peels within a few
+  years and becomes unremovable); factory-applied three-layer
+  sound/vibration-damping backing pad (adhesive + damping + insulation
+  layers) — a hand-applied pad tends to delay and peel.
+- **Balcony-block opening-widening procedure (worked example)**: reduce an
+  oversized standard door (leaf ≈85cm from 90cm frame) to a **60-65cm
+  optimal width** by moving the frame over with a lumber-framed
+  extension — reclaims wall depth on the other side (worked example: ~50cm
+  reclaimed to ~65cm, enough for a 65cm-deep refrigerator). Frame recesses
+  ~3cm into the new quarter. Antiseptic applied by sprayer (same product
+  volume as brushing, faster, less mess), ~24h cure before workable.
+  Framing foam driven **≥3cm deep** into structural gaps; small gaps
+  between lumber pieces sealed with wrapped insulation first, foam second.
+  **Beginner-mistake avoidance rule**: set the thinner outer lumber piece
+  back ~7cm from the frame edge (not flush) to avoid having to notch a
+  corner later for slope-panel fit. Foam cure before trimming: ~47
+  minutes. **Fastening plates are the correct method specifically at a
+  widened opening's header** when the header material (e.g. foam-block
+  infill) can't hold direct fasteners — level/fasten one side fully
+  before fastening the second side, or risk a permanently bowed frame.
+- **On-site leveling/torque QC technique**: temporary support block used
+  so a dowel/anchor can be fully torqued without bending the frame;
+  correct torque continues **past** first visible plastic deformation at
+  the fastener head, seating against internal reinforcement, then backs
+  off half a turn — stopping at first deformation (a common mistake)
+  under-tightens and holds nothing.
+
+### Doors / Trim (Windows) — Fastening in Soft (Aerated-Concrete/Foam-Block) Walls (added 2026-08-17)
+
+`yt_gjTGr8j6-DA` — direct companion/edge-case to `yt_6_cH35u4ouM` (#007):
+that source establishes direct anchor/dowel fastening as the default;
+this source demonstrates the narrow legitimate exception when the base
+material is too soft to hold a direct fastener. [source: yt_gjTGr8j6-DA]
+
+- **When to use distributed mounting plates instead of direct fastening**:
+  aerated-concrete/gas-block and foam-block walls are too soft for a
+  direct anchor/dowel to hold under load (demonstrated: a drill bit sinks
+  into the material with no hammer action at all; a fastener spins freely
+  rather than gripping). Here, multi-point mounting plates are the
+  *correct permanent* fastening method — the inverse of the #007 default,
+  where plates are only for preliminary positioning.
+- **Numeric fastening spec for soft-material walls**: dowel pre-drilled
+  with an **8mm bit** for sections fastened to wood-based structural
+  elements; mounting plates flush against the profile's structural
+  shoulder, fastened into foam block with **4-7 self-tapping screws per
+  plate**, screw length **90mm, no dowel/plug**; **plate spacing ≤60cm**
+  (a 1.5m frame length typically uses 3 plates). Stated rationale: 5×
+  4mm-diameter screws hold and resist impact better than 1× 8mm dowel in
+  soft material, via load distribution and more points to defeat.
+- **Hardened-screw caveat, soft material only**: hardened screws are
+  normally avoided for window fastening (brittle in hard materials), but
+  soft material cushions the impact load that would otherwise shatter a
+  hardened screw — `single-account`, informally demonstrated (hammer
+  strike on camera), not independently lab-verified.
+
+### Plumbing — Convector-to-Bimetal Radiator Replacement Masterclass (new topic area, added 2026-08-17)
+
+`yt_7MqiSqkO_cE` — dunk-format title ("ALWAYS CHANGE THIS CRAP!") hiding a
+genuine detailed technique explainer — same misleading-title pattern this
+store has already flagged for "how not to" titles, now confirmed to
+extend to dunk-format titles too. No pricing. [source: yt_7MqiSqkO_cE]
+
+- **Keep-vs-replace decision criteria**: keep an existing convector if
+  undamaged, heats well, and has its own dedicated shutoff + regulator
+  valve; replace if bulky/space-consuming and **not
+  adjustable/regulated** — functional regulation capability is the
+  deciding factor, not cosmetic condition.
+- **Safety-critical warning**: verify the correct riser is shut off
+  before cutting a radiator free — a basement worker can close the wrong
+  riser by mistake. Cutting a still-pressurized pipe with a corded
+  (mains-powered) grinder creates a near-guaranteed electrocution risk if
+  water contacts the tool; if a convector has no dedicated shutoff and
+  confirmation is uncertain, pierce a test hole with a torch first rather
+  than grinding blind. `confirmed`, safety-critical, from direct
+  practitioner experience.
+- **Never mix heating-system pipe materials** — match the replacement
+  radiator's pipe material to the existing riser system
+  (polypropylene-to-polypropylene, metal-to-metal). Every
+  material-transition joint is threaded and structurally weaker/leak-
+  prone vs. a continuous or welded run; metal-to-metal welded runs also
+  avoid the internal-diameter narrowing a threaded transition introduces.
+- **False-wall pipe/riser concealment is the "good renovation" standard,
+  with a quantified ~15cm windowsill-depth cost** — the belief that
+  concealment "wastes floor area" is a myth (space above ~1m near a
+  window is never functionally used); a wider windowsill is worth more
+  than the depth reclaimed under it, and concealment avoids risky
+  in-wall-only joints and clamp-related corrosion (see below). Leaving
+  pipes fully exposed (boxed only at ceilings) is explicitly rejected as
+  unacceptable for a quality renovation.
+- **Bypass/jumper (байпас) is mandatory** whenever a radiator has its own
+  shutoff valves — omitting it stops heating-medium circulation in that
+  branch entirely when the valve is closed, cooling the floor above/below.
+- **Pipe bending must be cold, with a proper pipe-bender tool, never
+  heat-bent by hand** — heat-bending flattens the pipe's cross-section
+  (demonstrated side-by-side), reducing flow; decline an installer who
+  works without a proper bending tool.
+- **Threaded-joint sealing**: flax/tow ("лён") + joint compound — the
+  only acceptable sealing method per this source at time of filming.
+- **Riser branch-point rule (the "50cm rule")**: the transition from
+  standard riser spacing to the radiator's wider connection spacing must
+  happen immediately at the riser, not partway along the run — branching
+  mid-run creates unintended low points where air collects, causing
+  intermittent airlock and the radiator periodically failing to heat.
+  Related **pipe-slope rule**: pipes should rise slightly from radiator
+  outward (return trending down, supply trending up) so air travels
+  through the radiator rather than pooling.
+- **3-step pipe corrosion-protection sequence, order matters**: (1) sand
+  every joint/pipe until a light sheen appears; (2) degrease thoroughly
+  (saturate, don't just wipe); (3) paint by brush only, generously, never
+  spray (aerosol doesn't function as rust converter and can't coat the
+  wall-facing side). **Explicit warning against "paint directly onto
+  rust/dirt" product claims** — painting over unprepped rust/dirt traps
+  moisture and accelerates corrosion underneath.
+- **No reinforcing clamps/straps needed on concealed metal pipe runs** —
+  metal pipe is strong enough unsupported behind a false wall; a
+  clamped/strapped section is explicitly identified as the most likely
+  point for that pipe to corrode and leak first.
+
+### Walls / Ceilings — Drywall Partition Framing/Marking Techniques (partial extraction, added 2026-08-17)
+
+`yt_oBP1cYCLARA` — commercial warehouse showcase/brag video ("1,000 SQ.M.
+OF DRYWALL IN 1 DAY"), off-scope in scale/setting for this project; most
+narrative content not extracted, only a few transferable techniques
+below. [source: yt_oBP1cYCLARA]
+
+- **Double-track vertical profile choice for a partition under impact
+  load**: a single profile is "weak as a noodle" for a tall partition
+  exposed to impact on both sides; a fully doubled/back-to-back profile
+  setup is slower and more expensive with no meaningful rigidity gain
+  over a simpler double-track approach for this use case. `single-account`
+  tradeoff reasoning, not universally validated.
+- **Template-based marking for large batches of identical framing cuts**:
+  pre-mark one reference profile precisely once, then butt a stack of
+  profiles against a stop/wall and transfer that single mark across all
+  of them at once before cutting, rather than measuring each piece
+  individually — a reusable time-saver for any project needing many
+  identical framing cuts.
+- **Chalk-line point-transfer marking for repeated spacing over a long
+  run**: mark reference points with a tape measure at coarse intervals,
+  then transfer/snap those points across intervening studs with a chalk
+  line, rather than measuring and leveling each position individually.
+
+### Mistakes / Warnings — PPE Necessity, First-Person Injury Account (added 2026-08-17)
+
+- **Eye and hand protection are not optional even for an experienced
+  installer** — the speaker recounts his own glove tearing and a cut
+  from handling sharp cut metal-profile edges/swarf, and repeated metal
+  shavings striking his safety glasses, during a large drywall-framing
+  project. `confirmed`, first-person account of a real injury. [source:
+  yt_oBP1cYCLARA]
+
+### Electrical / Flooring — Completed-Project Tour, Partial Extraction (added 2026-08-17)
+
+`yt_I3vcE3IRi0k` — heavily self-promotional company-showcase/handover
+video with a direct sales pitch (contact the speaker for a design
+project, then request his named employee as installer); most tour
+content not extracted. [source: yt_I3vcE3IRi0k]
+
+- **Electrical panel breaker labeling with photos**: each breaker
+  individually labeled (with photos, not just text) so a client who's
+  often not on-site can quickly identify which breaker controls which
+  circuit without testing each one. `single-account`, genuinely reusable
+  handover-quality practice.
+- **Underfloor-heating thermostat pre-warm scheduling example**: schedule
+  heating to start **15 minutes before** stated wake time so the floor is
+  warm on rising while saving energy overnight (worked example: 7:00am
+  wake → 06:45 start). `single-account`, timing specific to this
+  floor/tile buildup, not a universal figure.
+- **Floor-material transition seam should land exactly under the closed
+  door**, so each room shows only its own flooring from its own side with
+  the door shut. `confirmed`, simple placement rule, distinct from this
+  store's existing tub/tile-junction rule.
+- **Flood-resilience anecdote (single-account, promotional-adjacent)**: a
+  neighbor's leak flooded this project's ceiling the night before
+  handover; the ceiling itself was cheap/quick to replace, and the
+  speaker credits moisture-resistant wallpaper, quartz-vinyl flooring,
+  and enamel wall paint for walls/flooring/furniture surviving undamaged
+  — plausible mechanism (moisture-resistant finishes limit water-incident
+  damage), but framed self-promotionally; specific brand not adopted as
+  neutral recommendation.
+
+### Planning Rules / Design Process — Real Krasnodar Case Walkthrough (added 2026-08-17)
+
+Team studio walkthrough of an actual ~110 m² Krasnodar project's real client
+brief and 3D model, not a critique-format video. No pricing content.
+[source: yt_gqc3jHl6YcM]
+
+- **Stated design-process order**: (1) on-site survey — a 3D model built
+  to ~1cm accuracy plus a written client brief/questionnaire, captured at
+  the same visit; (2) concept development and client approval; (3) full
+  3D model development and approval; (4) schematics/drawings — explicitly
+  deprioritized as "tenth place" relative to getting the 3D model right
+  first.
+- **Client-brief checklist** (demonstrated on a real brief): intended
+  ownership horizon/resale plans, family-planning status, pet ownership
+  (directly drove a flooring decision — see Flooring below), both
+  occupants' height (ergonomic/reach planning), sleep-schedule
+  compatibility, allergies, vision, handedness. Reusable as a self-
+  managed-owner planning checklist independent of whether a paid designer
+  is used.
+- **"Project within a project" — pre-wiring a room for a known future
+  use-case change without redoing electrical later**: for a room expected
+  to convert use (here: office/home-gym now → children's room later), both
+  layouts' electrical points are installed during the single rough-in
+  stage; the future layout's outlets are wallpapered over/hidden until the
+  room's actual furniture layout changes. Two separate pull-up-bar wall
+  reinforcements were pre-installed the same way (current wall + eventual
+  future wall). `confirmed`, a genuinely reusable technique for any room
+  expected to change use within one electrical rough-in lifecycle.
+- **Match new-partition wall thickness across two openings purely for
+  door-casing visual consistency**, even when their structurally-required
+  thicknesses differ (145cm-clearance-driven wall vs. 325cm-zone-driven
+  wall in this project) — avoids two doors in the same sightline having
+  visibly different casing-reveal depths.
+- **Toilet clearance ~80cm** — a second same-figure corroboration of this
+  store's existing WC-clearance data from a different project.
+- **Pet-driven flooring-material decision**: client's original preference
+  (cork throughout) was overridden specifically because cork wears
+  quickly under cat claws (2 cats). Resulting split: engineered wood board
+  throughout except wet rooms, quartz vinyl (LVT-type) in kitchen and
+  entry hall specifically (explicitly stated as inappropriate rooms for
+  engineered board). Client separately rejected linoleum as looking
+  "cheap" despite the designer's view that this isn't necessarily true —
+  illustrates perceived-prestige, not just technical performance, as a
+  real factor in material choice.
+- **Concrete client-requirement examples** (Family Requirements /
+  Preferences): a laundry hamper split into 4 separate sub-baskets for
+  pre-sorting by category, in a dedicated laundry-adjacent space; two
+  fully separate his-and-hers walk-in closets rather than one shared
+  closet; a primary bathroom with two full sinks, private bedroom access,
+  hygienic shower, and separate toilet.
+
+### Materials — Concentrated Primer Dilution Ratios + Sprayer Application Technique (added 2026-08-17)
+
+Multi-speaker technical explainer with a named materials-company
+technologist; no pricing. [source: yt_JyzPLUbp5YI]
+
+- **Why prime a ceiling/surface before finishing**: binds accumulated dust
+  (prevents later shedding through a stretch-ceiling membrane), reduces
+  paint absorbency (prevents color show-through under a stretch ceiling),
+  and improves adhesion for subsequent coatings — stated as a mandatory
+  minimum step post-demolition, not optional.
+- **Concentrated primer dilution ratios (concentrate:water), one product
+  covering every priming use case in a renovation**: 1:1 — adhesion
+  primer for non-absorbent surfaces; 1:3 — floor primer sized for good
+  self-leveling-compound spread/bond; 1:5–1:6 — general strengthening
+  primer (walls); 1:7–1:8 — deep-penetration primer (ceilings); 1:10 plus
+  mixed into a compound (replacing ~8-10% of the mix's water) — turns the
+  concentrate into a latex additive that measurably improves even
+  inexpensive base materials' properties. **Caution**: a 10L concentrate
+  canister is a meaningful cost outlay and is uneconomical for a single
+  small room — it pays off at whole-apartment/multi-room scale where
+  several dilution ratios are actually needed across a project.
+- **Ceiling-priming application: garden sprayer beats roller**, demonstrated
+  side by side — a 5-10L garden pump sprayer with diluted primer covers a
+  full ceiling including corners in ~15 minutes with one person, versus a
+  roller method (two roller sizes + extension poles + corner roller +
+  corner brushes + primer bucket + full PPE) needing two people and taking
+  longer for only partial coverage in the same demo. Sprayer advantages:
+  less wasted primer (no floor drips/pooling), reliable coverage of
+  hard-to-reach corners a brush/roller struggles with. **Apply liberally
+  until the surface visibly can't absorb more ("until it starts to
+  pool")** — not a fixed coverage rate.
+
+### Walls / Ceilings — Self-Leveling Floor Technique (third playlist batch, added 2026-08-17)
+
+Misleading "how not to" title again hides a positive technique demo — fifth instance of this pattern noted in this batch overall (fourth on self-leveling/masonry/window content specifically).
+
+- **Room-zone partitioning before pour**: divide a large area into smaller zones using metal profile strips across doorways/openings, because self-leveling compound cures fast enough that a very large single pour risks the near side setting before the far side is reached, preventing a uniformly flat surface. `confirmed`. [source: yt_awsVIxZlskQ]
+- **Edge tape (кромочная лента) around each zone's perimeter compensates for the screed's shrinkage/moisture-loss deformation while curing** — prevents the screed tearing itself apart as it dries. `confirmed`, genuinely new mechanism explanation for edge tape not previously recorded this specifically in this store. [source: yt_awsVIxZlskQ]
+- **"Find the highest point, then work down from it" leveling method**: set a self-leveling rotary laser to horizontal mode for one continuous reference plane; tape-measure down to the floor at multiple points to find the room's highest point (smallest measured distance); raise the laser so its beam sits exactly 1 meter above that point; then use a metal template/gauge whose reference mark sits **995 mm from its bottom edge (1 m minus 5 mm)** to transfer a target pour-fill line around the room, 5 mm above the highest point everywhere. Pour and spread with a needle roller to the marked line in each zone — all zones join up level since every mark derives from the same laser plane. `confirmed`, a fully specified, checkable technique; the 995mm-template trick is a genuinely new precise numeric method for this store. [source: yt_awsVIxZlskQ]
+
+### Flooring / Cost Drivers — Screed Zero-Reference Lowering Technique (third playlist batch, added 2026-08-17)
+
+`yt_VrfCLF74L50` — "КАК НЕЛЬЗЯ ДЕЛАТЬ СТЯЖКУ ПОЛА #033", dense positive screed technique + cost walkthrough (2019-01-21, upload-date-confirmed). **First source in this batch with real pricing content** — 2019 Moscow RUB, `single-account`/`unverified`.
+
+- **Laser-leveling zero-reference propagation method**: place a self-leveling laser near a room's center at any height on its first setup (only a virtual horizontal plane matters, not absolute height) and mark that plane on every wall it reaches; for rooms it can't directly reach, re-level to an already-marked point and propagate the same plane onward — one continuous reference plane through the whole apartment. Use an adjustable-rod tripod, not a plain one (fine height tuning by leg length alone is impractical).
+- **"Zero" = the apartment's single highest raw-floor point** (found by measuring down from the laser plane at many points — smallest distance wins); every other point is recorded as a negative offset from it. Explicitly disambiguated from the unrelated construction-industry "zero mark" term.
+- **Average raw-floor height variation across ~100 sampled new-build apartments: ~7cm for a ~100m² unit**, observed range 3-20cm. `unverified`, no methodology given, but a specific planning-sanity-check figure.
+- **Minimum cement-sand screed thickness: 3cm, a hard floor** — thinner risks the screed crumbling/detaching.
+- **Quantity/cost formula, worked example (100m² apartment, 7cm variation, 6.5cm average thickness)**: 1 bag (25kg) covers ~1m² at ~2cm → ~3 bags/m² at 6.5cm → ~320 bags (~13 tonnes). **2019 Moscow prices**: ~115 RUB/bag (~37,000 RUB material) + ~4,000-10,000 RUB delivery + ~1,500 RUB/tonne carry-up (~19,500 RUB) ≈ **~65,000 RUB total** (materials+delivery+carry, excludes labor).
+- **Entrance-threshold level-matching rule**: finished floor at the entrance must match the building corridor level. If the corridor was raised significantly (up to ~15cm seen in some new-builds) above the apartment's raw floor, use lightweight expanded-clay fill, not pure screed, to close that gap economically — most units only see a 2-4cm gap where the lowering technique below applies instead.
+- **Core cost-saving technique: deliberately lower the zero reference ~2cm below the true highest point**, screed only down from the new lower datum (respecting the 3cm minimum), and fill the small remaining wedge with thin self-leveling compound (a few mm, no 3cm minimum) instead of full-depth screed. A 2cm level difference across more than half a room's floor is stated as not visually detectable once flooring is down. **Two independently worked examples, same order of magnitude**: a real 140m² project (raw-floor range 0 to -8/-9cm, entrance ~-4.5cm) saved ~140 bags (~30,000 RUB) and avoided an entrance-threshold step defect; a virtual 100m² example (3cm thickness reduction) saved ~150 bags (~30,000-35,000 RUB) net of a ~10,000 RUB self-leveling-compound premium.
+- **Screed vs. self-leveling compound — three distinguishing characteristics, with explained mechanism (not just asserted)**: screed needs beacons/manual leveling by a worker vs. self-leveling compound's own fluidity/gravity self-leveling; self-leveling compound is a finer, higher-strength mix resisting cracking at very thin layers where screed cannot go below 3cm; self-leveling compound costs significantly more per unit thickness, so it's used as a thin finishing/leveling pass (including atop any cement-sand screed, however well executed) rather than a full-depth fill.
+- **Electrical-conduit-routing cost mechanism, extending this store's existing ceiling-not-floor rule** (`yt_Onu15qOeWGA`): a floor-routed low-voltage/data cable bundle (often ≥5cm thick) forces a local 10cm minimum screed buildup (5cm bundle + 5cm cover) — on the 140m² project's own numbers, this would have turned a 2cm entrance-threshold gap into an 8cm-taller defect. **Cost claim: an estimated extra ~120,000 RUB in avoidable screed volume** if that project had routed electrical on the floor instead of the ceiling.
+
+
 ### Kitchen / Bathroom / Bedroom / Entrance / Materials — "29 Stupidly Expensive Mistakes" Dense Dunk-Format Batch (second title-skim batch, added 2026-08-17)
 
 Despite the channel's usual low-yield dunk format (per the prior trial), this specific video's rapid-fire "mistake → correct Zemstandart rule" structure surfaced ~20 distinct checkable rules. All `single-account`/`confirmed` as this company's stated standard unless noted; the critiqued designer/project itself is never named or independently verifiable.
@@ -1099,6 +1521,91 @@ Despite the channel's usual low-yield dunk format (per the prior trial), this sp
 - **Concealed/hidden doors require matching concealed baseboards, never a standard visible baseboard profile.** [source: yt_WVfgE0lHgVc]
 - **A freestanding/vessel bathroom sink not integrated with its countertop requires ongoing maintenance**: water spots/splashes/grime accumulate on the surrounding countertop (can't be wiped into the basin the way an integrated sink allows) and dirt collects in the gap underneath. [source: yt_WVfgE0lHgVc]
 - **Bathtub must be installed before wall tiling is completed, not after**, so tile can overhang the tub edge for a sealed junction — worked counter-example: tub installed after tiling required a visible trim/baseboard strip with sealant that discolors over time and needs periodic renewal. Genuinely new sequencing rule for this store. [source: yt_WVfgE0lHgVc]
+
+### Multi-Trade QC Checklist — "Never Accept This From Tradesmen" (added 2026-08-17)
+
+Dense on-location critique of an unrelated rental-apartment renovation
+(not the speaker's own project or a client's) — a curated highest-value
+subset of a much longer list; several minor QC-anecdote items were not
+individually captured (see the source note's own Gaps section). No
+pricing content. **Two items cross-reference other sources processed in
+this same batch** (flagged inline). [source: yt_s5Gyi8Rd9D0]
+
+- **Never caulk over the natural expansion gap between a door frame and
+  its slope panel with matching-color sealant** — the thin dark line is a
+  deliberate movement joint; filling it solid looks tidier short-term but
+  cracks again as materials move.
+- **Decorative floor-material insert accents are a planning mistake, not
+  a design win** — virtually always end up covered by a rug + furniture,
+  permanently hiding the accent while the owner still paid for expensive
+  fitted offcuts. Default to full uniform-coverage flooring instead.
+- **Always build a wardrobe/closet flush to the ceiling and flush with
+  the adjacent wall face** — a ceiling gap is a permanent dust/allergen
+  collector invisible except by reaching up; a protruding corner is both
+  ugly and a genuine collision hazard.
+- **Pre-check a built-in wardrobe's footprint against an adjacent door's
+  full swing clearance before framing**, not just its static opening
+  position — a real mistake shown had a wardrobe obstruct normal door
+  operation. **Sliding-wardrobe-door design must also account for both
+  positions of any adjacent hinged door**, so the hinged door's swing
+  never strikes the sliding panel.
+- **Never substitute a curtain for a proper door/opening on a closet off
+  a narrow hallway** — a real collision-into-exposed-structural-corner
+  hazard. Use a centered swing-in door, an offset door forming an
+  L-shaped closet, or double sliding doors — **sliding doors only when
+  the opening is wider than ~175cm** (otherwise a panel's parked end is
+  visibly intrusive). `confirmed`, new numeric threshold for this store.
+- **Kitchen cook-zone electrical-point spec**: the primary cook zone
+  (between sink and cooktop) needs "3 electro-points" = 2 sockets + a
+  lighting switch, not 3 full sockets; a secondary/auxiliary prep zone
+  gets 3 full sockets.
+- **Countertop-height vs. window-sill-height conflict**: don't raise an
+  entire counter run to match a ~110cm sill at the cost of the
+  ergonomic ~90cm counter height — fix counter height for comfort first,
+  then lower the sill to match if the facade design allows it.
+- **Countertop condensation-relief holes near a window only work if
+  centered over the glass unit and correctly aimed**, otherwise purely
+  decorative. **Cross-reference**: corroborates/extends `yt_qwIRfgn1Tog`'s
+  DIY windowsill-vent-drilling fix (same batch) — same underlying
+  mechanism from the design/build side vs. the homeowner-retrofit side.
+- **Route a kitchen's water shutoff valve/riser access into the WC/
+  bathroom rather than behind an in-kitchen wall hatch** — avoids a hatch
+  frequently installed backwards or otherwise obtrusive in a finished
+  kitchen. **Cross-reference**: complements `yt_PO9kd1cqCyA`'s utility-
+  riser-access content (same batch, different context — that source
+  covers a commercial project's riser-boxing demolition).
+- **Prefer a built-in (panel-integrated) refrigerator over freestanding**
+  — a freestanding unit or a decorative niche around one leaves a
+  dust-collecting gap with no compensating benefit.
+- **Bathroom switch-usability pattern**: main-light switch at the doorway
+  (hit naturally on the way out); a separate exhaust-fan switch near the
+  toilet/sink (so a user doesn't need to stand and reach the door to
+  trigger it) — never place the fan switch outside the bathroom itself.
+- **The "gap under the tub for your feet" convention is explicitly
+  obsolete** — tile should run flush to the floor line under the tub's
+  front edge, sealed with grout, no reachable gap. A tile "step" ridge
+  insert marketed as space-saving has no functional benefit either — just
+  a dirt/grime collector.
+- **Reject an unexplained "always 3 sockets near the sink" rule of
+  thumb** — size actual socket count to genuine need instead.
+- **Bedroom lighting-temperature consistency rule**: use at most 2-3
+  lighting circuits per room, and ensure every fixture across those
+  circuits shares the same color temperature — mixing temperatures across
+  multiple circuits reads as visually chaotic. Extends this store's
+  existing three-layer-lighting concept (`yt_OCjVd5HOcac`) with a
+  concrete circuit-count ceiling and explicit same-temperature
+  constraint.
+- **Window sash sizing must account for the finished floor height before
+  the window order is placed** — the sash's lowest swing position must
+  clear the finished floor covering with margin, or a sagging sash will
+  eventually scrape it. New sequencing rule (order-of-operations across
+  two trades).
+- **A tilt-and-turn sash's scissor hardware can be damaged by improper
+  closing technique** (opening past the scissor-disengagement point, then
+  pushing it not-quite-closed causes repeated impact damage to the slope)
+  — a misuse-driven failure mode distinct from this store's existing
+  manufacturing-defect mechanisms for tilt-and-turn hardware
+  (`yt_XFrmhhM1ogg`).
 
 ### Kids Room (new topic area, added 2026-08-14)
 
@@ -1459,6 +1966,7 @@ Evidence-level key used below: **(1) transcript text** → **(2) YouTube metadat
 - Budget contingency isn't only relevant to turnkey/company-managed projects — even a disciplined, itemized self-managed renovation can meaningfully overshoot its own target (here, ~30%); treat a stated self-managed target figure as a floor to plan around, not a ceiling to expect. [source: yt_8zm_5NjbGNA]
 - When switching a major appliance's install method late (e.g. freestanding to built-in) after rough electrical is already done, budget for a same-day emergency callout to relocate the affected outlet — a small, concrete cost of late decisions. [source: yt_8zm_5NjbGNA]
 - Default interior door leaf widths: 80 cm for living spaces (70 cm only if 80 doesn't physically fit; never 90 cm), 70 cm for wet rooms/utility rooms as the speaker's revised preference (60 cm only if space is very tight). Size the rough opening 10 cm wider than the leaf, and never let the finished casing sit flush against an adjacent wall/corner. [source: yt_ludvy76HGSU]
+- Always demolish and rebuild standard brick boxing ("короб") around a plumbing/heating riser rather than leaving it in place, for three reasons: it hides leaks/defects until they surface after finishes are complete (by which point only mitigation, not repair, is possible); it blocks soundproofing the riser itself; and it typically costs ~15 cm of usable floor area versus building the finish wall directly at the riser's own inspection-valve plane. `single-account`, sourced from a commercial (dental clinic) project — the demolish-and-inspect rationale generalizes, but the specific corridor-width code figure cited alongside it (120 cm minimum) is a medical-facility standard, not confirmed residential. [source: yt_PO9kd1cqCyA]
 - Avoid sliding interior doors by default (soundproofing, reliability, and repairability are all materially worse than hinged doors); reserve them for a narrow exception — a private ensuite serving only 1-2 people where a hinged door's swing has no viable path — and even then expect roller/stopper/damper mechanism failures within a few years. [source: yt_1YiVgB9jqyU; yt_x4TlTKt211Q]
 - When forming any casing-trimmed opening (with or without a door leaf) between two rooms, preserve a small wall stub (~10 cm) at each outer corner so casing can terminate cleanly on both faces — don't let a site crew remove it without checking against the original design/technologist plan. [source: yt_c4b7iyg8v5U]
 - Treat a door's own casing-standoff/junction-detail conventions as defaults, not absolutes — when a hard physical constraint (a neighboring wall, an embedded utility box) forces a trade-off, prioritize a door's functional clear width (never go below roughly 74 cm for an entrance door) over the cosmetic standoff rule. [source: yt_D2Qz6s8eNoU]
@@ -1678,3 +2186,4 @@ None yet.
 - 2026-08-15 — Per explicit user authorization, processed the **final sub-batch (6 videos) of the full 29-video job** on playlist `PLpZakfG8U02uR3KlsxtWXyChOETu-o-Aj`, continuing the general/mixed "best solutions" compilation cluster from the entry above. Per-video outcomes: (1) `Z4gS_W0sfaM` — title was `null` in the preflight manifest; verified via `yt-dlp --dump-json` that the video is **private** ("Private video. Sign in if you've been granted access"), not a caption-availability issue — logged `skipped` with the specific reason, no fetch attempted. (2) `v8GexdJC8ys` ("РУМ-ТУР ПО НОВОМУ ОБЪЕКТУ #525") — subtitles genuinely disabled for both `youtube-transcript-api` and `yt-dlp` (exit code 1, not a rate-limit signature) — logged `skipped`. (3)-(6) fetched and processed successfully, all manually-created (not ASR) Russian captions, all upload dates confirmed via `yt-dlp` metadata, fetches serialized one-at-a-time with real spacing (background timed waits plus natural extraction/integration work between fetches) — **no rate-limiting encountered at any point in this sub-batch**, so the run was not stopped early and all 6 videos were fully attempted. Processed: `yt_fx1vISZZK9s` (#177, 2022-10-09, structured "7 tips" video — two-component radiator grille mechanism, stretch-ceiling light-line trade-off, paintable-wallpaper matte/fingerprint mechanism, a 3,000 RUB/m² design-fee data point falling between and corroborating this store's existing Jul/Dec-2022 same-channel price-history points), `yt_ZX_J9uAXfeQ` (#180, 2022-10-30, "seven bugs" mixed-tips video — panoramic-glazing facade-code-violation warning, radiator-niche pre-sizing heuristic, revision-hatch sagging mechanism, comfort-class labor-rate corroboration), `yt_K-W4dLJGEtg` (#194, 2023-02-05, "30 best solutions" — standout candid designer-kickback disclosure on corpus-vs-built-in wardrobes, directly relevant to this project's self-managed delivery-model preference, plus a cable-channel rebar-depth safety constraint and several other genuinely new numeric rules), and `yt_vExbp48IDiI` (#218, 2023-06-25, branded "ZemStandard" walkthrough, **densest single source in this whole job's final sub-batch** — an owner-supervision cost-impact claim (~1.5-2x material-cost difference without client oversight), a genuinely new tier-specific wall-finish compatibility rule (comfort-class paintable-wallpaper-only vs. business-class painted-walls-only, tied to concealed-door/baseboard systems), and two new fixture/hardware price points, with a non-sagging-hatch product/site plug explicitly flagged as commercial rather than folded in as neutral fact). Added across the 4 processed videos: 4 Source Index entries; ~45 new Durable Facts (with matching Numeric Data entries for every price/dimension figure) within the existing **"Best Solutions" Mixed-Topic Compilation Batch** subsection; 1 new Design Project Fees table row. **`Budgeting_Guide.md` was not updated** — all price/rate figures in this sub-batch corroborate or nuance existing same-channel benchmarks already in the comparison tables rather than introducing an independent new headline figure. Promotion self-check performed for all 4 source notes before this Change Log entry was written. Transcripts archived to `_Archive/processed_sources/` and each note's `transcript_file:` frontmatter repointed via `tools/youtube/archive_transcripts.py` (dry-run reviewed first, then run for real — 4 moved, 1 unrelated pre-existing whisper-test file correctly left untouched). All 6 videos logged to `00_Master/processed_sources.csv` (`run_20260815_8` through `run_20260815_13`: 2 `skipped`, 4 `archived`). **This closes out the full 29-video playlist-processing job.**
 - 2026-08-15 — Per explicit user request, processed a **deliberate 2-video trial** from further into playlist `PLpZakfG8U02uR3KlsxtWXyChOETu-o-Aj` (positions 61 and 63, both confirmed `fresh` per preflight manifest `_Inbox/preflight/preflight_20260814T211032Z.json`) — the user suspects this next tranche (videos 61+, a long run of "predecessor designer/client wrecked this layout, here's my fix" critique videos) is mostly self-promotional advertising rather than durable content, and asked for this trial specifically to judge whether the remaining ~50+ videos in the run are worth processing. **Explicit deviation from the normal pipeline for this trial: `Budgeting_Guide.md` was not touched at all**, regardless of findings — the user wanted to review extraction quality before anything reached the wiki layer. Both videos fetched serialized one at a time, both manually-created (not ASR) Russian captions, both upload dates confirmed via `yt-dlp` metadata (2023-09-12 and 2023-09-19). Processed: `yt_m5TalhbzESA` ("САМАЯ НЕУДОБНАЯ ОДНУШКА ЧТО Я ВИДЕЛ! #235," client's own years-earlier self-designed layout critiqued) and `yt_qA9r8R8-eiw` ("320 ТЫСЯЧ НА ПОМОЙКУ – СПАСИБО ДИЗАЙНЕРУ!!! #237," an unnamed rival designer's layout critiqued). Both **Turnkey/Full-Service**, both self-promotional (zems.pro named directly in the first; an unreleased free "Zems Design" product plugged four times in the second, the most self-promotional single video processed from this channel to date). Added: 2 Source Index entries; 9 new Durable Facts in the existing **Planning Rules / Layout Critique** subsection (entrance-door-relocation legality criterion, entry-sightline privacy principle, a design-sequencing method, a second structural sliding-door exception case, a false-wall-avoids-chasing-load-bearing-wall rationale, a solid-wall-vs-false-wall plumbing-thickness threshold, a wall-rationale-verification review method, and a design-rationale-contradicted-by-layout-choices red flag); 3 new Numeric Data entries (100mm/150mm partition wall-thickness convention, 900mm/800mm door openings, 200mm/100mm plumbing-wall-thickness threshold); 2 new Advertising notes. **Two RUB figures in the second video (320,000 rival design fee; 550,000 refunded supervision fee) were explicitly excluded from this store's design-fee/pricing comparison tables** — a single disputed, adversarially-framed transaction, not market-rate data. Promotion self-check performed for both source notes: every concrete fact/rule/number identified during extraction has a corresponding entry in this store's Durable Facts/Numeric Data sections above. Transcripts to be archived and CSV rows logged as a following step in this same pass. **Value assessment (see final report to user for full detail)**: both videos skew heavily toward narrative/promotional framing relative to genuinely new durable content — roughly 4-5 new checkable facts/numbers per video, the rest either restating rules already in this store from this channel's earlier-processed sources, or pure competitor-shaming/self-promotion with no reusable substance. Recommendation given to the user: process this format selectively (only when a real new numeric/technical rule is flagged in a quick skim), not as a full unconditional batch through the remaining ~50+ videos.
 - 2026-08-17 — Per explicit user request, processed a **second 4-video title-skim batch** from this channel's back-catalog (`emQO-DnhfBc`, `WVfgE0lHgVc`, `R7Z_mJLwVpc`, `RDOUfxTW2sA`), again title-selected away from the standard "$X wasted, thanks to the designer" dunk format, to further test the title-skim heuristic. **Dedup check found 3 of the 4 videos already fetched, extracted, and written as complete, promotion-self-checked source notes by an earlier session (dated 2026-08-15) that stopped before completing store-integration, CSV logging, or transcript archival** — verified this by checking `00_Master/processed_sources.csv` (no matching rows) and the sources folder (3 matching `YT_*.md` files present) per this wrapper's own dedup rule. No re-fetching was performed; this pass read the 3 existing extraction notes end-to-end, confirmed their content, and completed the remaining pipeline (store integration, CSV logging, archival) for them. The 4th video (`R7Z_mJLwVpc`, "HOW NOT TO DO YOUR ENTRYWAY YOURSELF #312") has a `.FAILED.meta.json` from the same 2026-08-15 session confirming subtitles are genuinely disabled for both `youtube-transcript-api` and `yt-dlp` — a per-video no-captions outcome (not a rate-limit signature, since the 3 fetches immediately preceding it in that session all succeeded cleanly) — logged `skipped`, not re-attempted. **No rate-limiting encountered in this batch at any point** (none in the original 2026-08-15 fetch session per its own records, and none in this pass since no new fetches were performed). Processed: `yt_emQO-DnhfBc` (#267, 2024-05-12, Sergey Saratov, complete positive 23-step drywall-joint-to-wallpaper-prep build walkthrough, densest/least-promotional source in this batch), `yt_WVfgE0lHgVc` (#313, 2025-12-07, Alexey Zemskov, dunk-format critique that was unusually dense — ~20 checkable rules across Kitchen/Bathroom/Bedroom/Entrance/Materials plus a precisely-dated Dec 2025 design-fee price-point), `yt_RDOUfxTW2sA` (#280, 2024-08-04, Alexey Zemskov, DIY-shaming layout critique, this batch's lowest-marginal-value source — mostly apartment-specific fitting arithmetic, highest promotional-device count in the batch). Added: 3 Source Index entries (plus 1 skipped-video note) in a new batch-level Source Index entry; 1 new Walls/Ceilings Durable Facts subsection (9 items, `yt_emQO-DnhfBc`); 1 new Kitchen/Bathroom/Bedroom/Entrance/Materials Durable Facts subsection (~20 items, `yt_WVfgE0lHgVc`); 5 new items appended to the existing Planning Rules / Layout Critique subsection (`yt_RDOUfxTW2sA`); 1 new Design Project Fees table row (Dec 2025, 4,000→5,000 RUB/m² transition) plus an updated reconciliation note (now 7 dated points in this price-history series, ~3-year hold at 4,000 RUB/m² confirmed); 2 new Numeric Data entries (the Dec 2025 design-fee point; a flagged-`unclear` recurring 350,000 RUB/m² Moscow property-value figure appearing identically in two videos ~16 months apart, explicitly kept separate from renovation-cost benchmarks). Promotion self-check re-performed for all 3 source notes before this Change Log entry was written (re-read each note's full prose against this store's new entries — confirmed no concrete fact was left store-side uncaptured). **`Budgeting_Guide.md` not updated** — the Dec 2025 design-fee point is a corroborating/refining data point within an already-recorded price-history series, not a new headline benchmark; the property-value figures are out of scope for a renovation-cost guide. Transcripts archived to `_Archive/processed_sources/` (dry-run reviewed first, then run for real) and each note's `transcript_file:` frontmatter repointed via `tools/youtube/archive_transcripts.py`. All 4 videos logged to `00_Master/processed_sources.csv` (`run_20260817_1` through `run_20260817_4`: 3 `archived`, 1 `skipped`). **Batch-level and cross-batch title-skim assessment (see final report to user for full detail)**: 2 of 3 fetched videos in this batch were genuinely dense (one positive technique tutorial, one unusually-dense dunk video), 1 was lower-yield — the dunk-format video being one of the dense ones again confirms (alongside the first batch's `yt_Z-3sMXvBHK8` finding) that format/title framing alone does not reliably predict yield. Combined across both title-skim batches (8 videos targeted, 7 fetched/extracted, 1 no-captions skip): the heuristic outperformed the baseline dunk-format trial (2 videos, both low-yield) roughly 2:1 on density, but with enough variance within the heuristic itself (3 of 7 fetched videos were lower-yield despite favorable titles) that it should be read as "worth a quick skim-and-select pass before committing to a large batch," not as a reliable per-video filter on its own — per-video screening for both ad density and technical density remains necessary regardless of title framing. This closes out title-skim processing on this playlist for now.
+- 2026-08-17 — Per explicit user request, processed a **remaining Tier-A batch of 7 videos** from playlist `PLpZakfG8U02vyZX3lldahEvSr177Cc2rQ` (chunk 1 of 2, per this skill's documented small-chunk dispatch guidance). **Backfilled a missing CSV row for `yt_qwIRfgn1Tog`** — found fully processed (extraction note + store integration + promotion self-check all already present, dated 2026-08-17) with no corresponding `00_Master/processed_sources.csv` row, matching this project's documented collision-risk scenario; verified content correctness against the existing store entry, then added `run_20260817_qwIRfgn1Tog` with `status: archived` rather than re-processing. Fetched and processed `yt_PO9kd1cqCyA` ("САНТЕХНИКА И ОТОПЛЕНИЕ. ДОСТУП К СТОЯКАМ #107", 2019-10-27, upload-date-confirmed) — short walkthrough on the speaker's own future **commercial dental clinic** (flagged as non-residential), arguing standard brick boxing around utility risers should always be demolished. No pricing content. Added: 1 Source Index entry; 1 new Plumbing Rules/Heuristics entry (three-reason demolition rationale: hidden-leak inspection, riser soundproofing, ~15cm space reclaim, with an explicit commercial-code caveat on the cited 120cm medical-corridor minimum). `Budgeting_Guide.md` not updated — no pricing content. Promotion self-check performed. Transcript archived and CSV row (`run_20260817_PO9kd1cqCyA`) logged. Fetched and processed `yt_f8IHrJf-v4w` ("РЕМОНТ КВАРТИРЫ. СТЕНЫ. КАК ИЗМЕРИТЬ НАКЛОН? #111", 2019-12-12, upload-date-confirmed) — single-technique DIY explainer, laser-line-level wall-tilt measurement method. No pricing content. Added: 1 Source Index entry; 1 new Quantities/Measurements Durable Facts entry (fully specified 4-step laser-technique with a direct 1:1 cm-to-cm geometric correspondence, direction-reading caveat flagged `unclear` due to ASR garbling). Contributes a third source to this store's already-flagged DIY self-measurement/CAD-methodology page gap. `Budgeting_Guide.md` not updated. Promotion self-check performed. Transcript archived and CSV row (`run_20260817_f8IHrJf-v4w`) logged. Fetched and processed `yt_gqc3jHl6YcM` ("КАК СДЕЛАТЬ ПЛАНИРОВКУ КВАРТИРЫ? #517", 2019-12-24, upload-date-confirmed) — team studio walkthrough of a real ~110m² **Krasnodar** project's client brief and 3D model (location confirmed level-1, not Moscow — flagged, though no pricing content is gated by this since none exists). No pricing content. Added: 1 Source Index entry; a new **Planning Rules / Design Process — Real Krasnodar Case Walkthrough** Durable Facts subsection (4-step design-process order, reusable client-brief checklist, "project within a project" future-use pre-wiring technique, matching-wall-thickness-for-casing rationale, ~80cm toilet-clearance corroboration, pet-driven flooring material-split decision, two concrete client-requirement examples). `Budgeting_Guide.md` not updated — no pricing content. Promotion self-check performed. Transcript archived and CSV row (`run_20260817_gqc3jHl6YcM`) logged. `yt_74c0MGLFGT4` ("ГЛАВНЫЙ ВОПРОС В РЕМОНТЕ КВАРТИРЫ #530") — no captions available via either method (both exit code 1, `reason_class: null`, confirmed via `.FAILED.meta.json`) — logged `skipped`, never fetched. Fetched and processed `yt_JyzPLUbp5YI` ("ГЛАВНЫЙ ЛАЙФХАК В НАЧАЛЕ РЕМОНТА #163", 2022-06-05, upload-date-confirmed) — multi-speaker ceiling-priming technique explainer with a named materials-company technologist. No pricing content. Added: 1 Source Index entry; a new **Materials — Concentrated Primer Dilution Ratios + Sprayer Application Technique** Durable Facts subsection (mandatory priming rationale, complete six-tier dilution-ratio table, garden-sprayer-vs-roller application comparison with a ~15-minute one-person result). `Budgeting_Guide.md` not updated — no pricing content. Promotion self-check performed. Transcript archived and CSV row (`run_20260817_JyzPLUbp5YI`) logged. Fetched and processed `yt_s5Gyi8Rd9D0` ("НИКОГДА НЕ ПРИНИМАЙ ЭТО У МАСТЕРОВ #205", 2023-04-16, upload-date-confirmed) — extremely dense on-location QC critique of an unrelated third-party rental renovation, spanning nearly every trade; curated highest-value subset extracted rather than every point (flagged in the source note's own Gaps section). No pricing content. Added: 1 Source Index entry; a new **Multi-Trade QC Checklist — "Never Accept This From Tradesmen"** Durable Facts subsection (~18 items across Materials/Doors-Trim, Flooring, Furniture/Built-ins, Kitchen, Kitchen Appliances, Bathroom, Lighting, Windows — including a new 175cm sliding-wardrobe-door minimum threshold, a kitchen cook-zone electrical-point spec, a counter-vs-sill height-conflict rule, and two direct same-batch cross-references to `yt_qwIRfgn1Tog`'s condensation-vent content and `yt_PO9kd1cqCyA`'s riser-access content). `Budgeting_Guide.md` not updated — no pricing content. Promotion self-check performed. Transcript archived and CSV row (`run_20260817_s5Gyi8Rd9D0`) logged. **This closes out chunk 1 of 2 of the remaining Tier-A batch on this playlist**: 5 of 7 assigned videos fully processed (plus 1 backfilled CSV row for an already-processed video found with a missing row), 1 skipped for no captions, 0 rate-limit stops encountered across all 6 fetch attempts in this chunk.

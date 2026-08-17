@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=awsVIxZlskQ",
+  "video_id": "awsVIxZlskQ",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-17T10:06:13.692842+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "22ebd2da62227cf73c39403728546ae7a84322b97756b3a0324905101be843c8",
+  "attempts_before_success": []
+}

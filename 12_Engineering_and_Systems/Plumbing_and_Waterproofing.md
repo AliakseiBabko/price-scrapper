@@ -91,6 +91,15 @@ Buy one kit per riser pair, not per apartment — a second bathroom on a separat
 
 → **[[12_Engineering_and_Systems/analysis/Wall_Hung_Toilet_Installation|Full detail]]** (repairability, a code-enforcement risk worth watching)
 
+## Recovering Doorway Clearance Around a Riser Utility Box (added 2026-08-17)
+
+A real project case (Zemskov/Zemstandart, `single-account`): a load-bearing wall on one side of a doorway and a hot/cold riser utility box on the other left only ~80cm clearance where ≥90cm was needed for a 60cm door (70cm rough opening + 2×10cm door-casing/baseboard returns). Two general-purpose rules recovered the missing ~10cm:
+
+- **Don't hesitate to recess pipes slightly into a wall** — the riser was recessed ~5cm into a rebuilt utility-box wall, directly recovering clearance.
+- **Don't hesitate to relocate a shutoff-valve access panel** if its position conflicts with a door swing or corner — move the valve onto a straight run of pipe and drop the access panel from the awkward position entirely, recovering both its own housing depth and the swing-clearance problem it caused.
+
+[source: `11_Budget_and_Planning/_supporting/knowledge/sources/YT_IbV-DC3z8jI_riser_concealment_narrow_doorway_clearance_079.md`]
+
 ## Cost Drivers & Buying Guidance
 
 **Price rough plumbing by fixture "points," not linear meters of pipe** — a sink needs 2 points (hot+cold); pricing by pipe length is a known vector for "turns out we needed more pipe" upselling after work starts, and a points-based quote cross-checked against the design's fixture count is much harder to inflate. A standard node runs roughly 3 hot + 5 cold points as a sanity-check baseline.

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=JyzPLUbp5YI",
+  "video_id": "JyzPLUbp5YI",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-17T11:07:59.562007+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d7fbd96444ba6adddba5d695366bd84c0d3ef20b44b2aac60635806139eb8abb",
+  "attempts_before_success": []
+}

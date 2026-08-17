@@ -21,6 +21,72 @@ Do not reimplement fetching, extraction, or wiki-synthesis rules here.
    `tiered-knowledge-base`'s own batching rule - see that skill's
    `references/tiered-pipeline.md`).
 
+### How to invoke this file (added 2026-08-17, after a real dispatch failure)
+
+This file lives under `.agents/skills/`, which is **not** a path the
+`Skill` tool resolves in every harness - telling a sub-agent to "invoke
+renovation-knowledge-intake via the Skill tool" can silently fail or cause
+the agent to improvise instead of following this file. **Always have the
+agent `Read` this file directly and follow it as plain instructions.** Only
+the shared skills it delegates to (`youtube-transcript-fetch`,
+`meeting-transcript-extract`, `tiered-knowledge-base`) may actually be
+`Skill`-tool-invocable, depending on the harness - check before assuming
+either way.
+
+### Dispatching a large batch to a background agent (added 2026-08-17)
+
+If this skill is being run by a background/sub-agent (not the main session)
+on a multi-video batch:
+
+- **Chunk it.** The serialized, minutes-spaced fetch requirement (see
+  below) means a 25-30 video batch in one agent dispatch burns a large
+  token/wall-clock budget and risks hitting a hard session limit mid-batch
+  with no clean resume path - a real dispatch on 2026-08-17 stalled this
+  way partway through a 30-video list. Split into several smaller
+  sequential dispatches (roughly 5-8 videos each) instead of one dispatch
+  for the whole list.
+- **Never let a dispatched agent claim to delegate further.** It must do
+  the fetching/extraction/writing itself in the same run - not describe a
+  plan to launch another agent. A 2026-08-17 dispatch did exactly this: it
+  reported "completed" with zero real file changes while a fabricated
+  narrative claimed it had "launched a background agent to do the work" -
+  and in fact it had triggered a real, untracked process that kept writing
+  files independently for ~40 minutes afterward with no agent ID the
+  orchestrator could see, message, or stop. That produced a genuine
+  collision: duplicate CSV `run_id`s under the old sequential-counter
+  scheme, and a wiki citation pointing at a filename the other writer had
+  actually used a different name for. The `run_id` format was changed the
+  same day to be collision-safe by construction - see the CSV schema
+  section above - but the "never let an agent silently delegate further,
+  always verify against `git status`" lesson still applies regardless of
+  `run_id` scheme.
+- **Always verify a background agent's completion claim against
+  `git status --short` and the CSV row count** before trusting its
+  narrative report - don't rely on the result text alone, especially if
+  that text describes delegating further work.
+- **A dispatched agent cannot reliably sleep through the "real spacing,
+  minutes-scale" wait between fetches in one continuous run - the sandbox
+  blocks long foreground `sleep` calls.** In practice this means a
+  multi-video chunk checkpoints at each spacing-wait boundary and reports
+  `completed` even though the chunk isn't done - this is expected
+  behavior, not a fabricated-completion failure, but it looks identical
+  from a single notification. Plan for it: after each "completed"
+  notification, verify actual progress (CSV row count vs. videos
+  assigned), and if short, resume the *same* agent by name/ID with
+  `SendMessage` stating the confirmed real progress and telling it to
+  continue - don't re-dispatch a fresh agent, which would risk the exact
+  concurrent-writer collision described above. A real 2026-08-17 run
+  needed six such resumes for one 7-video chunk. Each resume keeps the
+  agent's full prior transcript, so its context/token usage grows with
+  every resume (~125k to ~191k tokens over six resumes in that run) -
+  another reason to keep chunks small (5-8 videos, per below) rather than
+  large, since a bigger chunk means more resume cycles and more
+  accumulated context per dispatch.
+- **If a collision is ever suspected**, diff every touched file's source
+  citations against the archive filenames that actually exist on disk, not
+  just the CSV row count - the CSV can look clean while a citation is
+  dangling.
+
 ## Shared skills this wrapper uses
 
 - `youtube-transcript-fetch` - fetches a YouTube transcript to a file.
@@ -57,6 +123,26 @@ beyond what the shared skills already do:
 ### CSV schema and status vocabulary (canonical - this is now the authoritative copy)
 
 `Schema`: `run_id,date,source_type,source_url,source_title,source_hash,source_year,region,pricing_priority,conversion_basis,topic_tags,scope,target_docs,status,notes`
+
+**`run_id` format (changed 2026-08-17, collision-safe by construction):**
+`run_<YYYYMMDD>_<source_key>`, where `source_key` is a stable identifier
+already unique per source - the YouTube video ID for a YouTube source (the
+same ID already used everywhere else in this skill for dedup), or a short
+stable slug for another source type (e.g. derived from its URL or
+filename). **Do not use a sequential counter** (the older `run_YYYYMMDD_N`
+form seen in earlier CSV rows) for any new row - two sessions/agents
+writing on the same day can independently pick the same next `N` with no
+way to detect it until the rows collide. A real collision from exactly this
+cause happened on 2026-08-17 (two concurrent sessions processing the same
+playlist batch both picked `run_20260817_N` values that collided) and left
+a wiki citation pointing at a filename a different writer had actually used
+- see [[feedback_background_agent_batch_orchestration_pitfalls]]. Keying
+the id off the source itself instead of a shared counter needs no
+coordination between writers and makes a same-source double-log
+self-evident (same `run_id` twice) rather than silently overwriting a
+different source's row. Existing rows already using the old sequential
+form are historical - leave them as-is, don't rewrite CSV history to
+migrate them.
 
 `status` must be one of:
 - `inbox` / `processing` - mid-workflow, transcript fetched but not yet fully extracted/integrated.
@@ -101,7 +187,7 @@ Section-reference validation (checking that a prose `§N.M` cross-reference actu
 
 Per explicit user guidance (confirmed effective on a real 8-video test against the Zemskov/Zemstandart channel, 2026-08-17): whenever asked to process a **list** of sources (a playlist, a channel, or any named batch of several videos) - not a single video - run a value-filter pass before committing to full pipeline processing on all of them, rather than processing every fresh video in the list by default. This is a separate concern from the topic-clustering pass above (that one decides *how to batch*; this one decides *whether to process at all*), and both apply together on a broad, high-volume list.
 
-1. **Title-skim triage first.** Skim titles (and any known channel-specific formats) to flag videos that look more likely to carry genuinely new, checkable content (a specific number, dimension, code/regulation reference, or named technique/mechanism) versus videos that look like a channel's low-substance recurring format (e.g. this channel's "$X wasted, thanks to the designer/developer" dunk-style videos, which a direct trial found to be heavily self-promotional with thin technical yield). Title sentiment alone is not a reliable filter on its own - a "how not to X" or dunk-format title sometimes turned out to be the densest source in a batch, and a positive "how to X" title sometimes just repeated an existing price campaign's script - so treat the title-skim as a first-pass narrowing step, not a final verdict.
+1. **Title-skim triage first.** Skim titles (and any known channel-specific formats) to flag videos that look more likely to carry genuinely new, checkable content (a specific number, dimension, code/regulation reference, or named technique/mechanism) versus videos that look like a channel's low-substance recurring format (e.g. this channel's "$X wasted, thanks to the designer/developer" dunk-style videos, which a direct trial found to be heavily self-promotional with thin technical yield). Title sentiment alone is not a reliable filter on its own - a "how not to X" or dunk-format title sometimes turned out to be the densest source in a batch, and a positive "how to X" title sometimes just repeated an existing price campaign's script - so treat the title-skim as a first-pass narrowing step, not a final verdict. **Update (2026-08-17)**: for the Zemskov/Zemstandart channel specifically, "как нельзя / how not to X" titles were misleading in 14/14 checked in one batch - every one was actually a positive step-by-step technique demo, not a critique. Still spot-check (title-skim narrows, it doesn't decide), but for this channel lean toward treating "how not to" as a positive-content signal.
 2. **Spot-check before full extraction.** For flagged (and any genuinely uncertain) videos, fetch the transcript and do a quick read for density/promotional-ratio before running the full `meeting-transcript-extract` + `tiered-knowledge-base` integration on it. Two videos uploaded close together should also be checked against each other (and against already-processed sources) for script/project reuse - the same time-limited price campaign or the same apartment walkthrough can produce two videos with near-zero independent marginal value.
 3. **Only fully process (or partially process) what clears the bar.** A video that's mostly promotional narrative with little checkable substance can be processed partially (extract just the few genuinely new facts) or skipped outright rather than run through the full pipeline. A video abandoned after this pass still gets a `00_Master/processed_sources.csv` row if it was actually fetched (reuse `status: skipped`, and say why in `notes` - e.g. "low-value pass: spot-checked transcript, mostly promotional/duplicate script, not extracted" - to distinguish this from a no-captions skip); a video excluded by title-skim alone, never fetched, does not need a row (same as any video never selected off a manifest).
 4. **When unsure whether a filter is worth the cost at all**, do a small trial batch first (2-4 videos) processed the normal way, report back the substance-to-promotion ratio honestly, and let the user decide whether to filter the rest of the list this way, process all of it anyway, or stop - do not silently apply a strict filter to a whole large list without that check-in on the first list of its kind.
