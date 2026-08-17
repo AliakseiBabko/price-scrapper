@@ -1,0 +1,24 @@
+# Furniture — Wardrobe Vocabulary & Sizing Fundamentals
+
+Covers built-in vs. free-standing vs. walk-in vocabulary, vertical tiering, and zone-depth sizing (including the most commonly miscalculated figure on this whole topic). Part of [[14_Furniture/Wardrobes_and_Storage|Wardrobes & Storage]].
+
+## Vocabulary
+
+- **Built-in wardrobe** (встроенный шкаф) — storage bounded by the room's own walls; only door panels (typically sliding/"купе") are purchased. Cheaper and more space-efficient than a free-standing unit: floor-to-ceiling use, simpler junction detail, no side/back/top/bottom panels to buy.
+- **Free-standing ("corpus") wardrobe** (корпусный шкаф) — a fully enclosed cabinet with its own sides/back/top/bottom, dimensions fixed by the manufacturer, movable as a unit. The baseline the built-in option is compared against throughout.
+- **Walk-in closet** (гардеробная) — a dedicated room: a storage-zone run (or several) plus a walk aisle, entered through its own door. Distinct from a wardrobe in that a walk-in's aisle is dead space a plain wardrobe doesn't need — see [[14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff|Wardrobe vs. Walk-In: The Core Tradeoff]].
+- **Storage zone** (зона хранения) — a run of shelving/hanging rod along one wall inside a walk-in.
+
+## Vertical Tiering
+
+The most practical configuration is **3-tier**: bottom 50cm (shoes), a hanging rod at 2m (clothes), a shelf at 210cm (bulky/seasonal items, luggage). Alternatives are worse:
+- **1-tier** (a single rod ~170-200cm): wastes space badly — only appropriate as a temporary measure before real wardrobe furniture is installed.
+- **2-tier-both-clothing**: forces same-length garments (shirts/jackets only), the bottom row nearly touches the floor, and the top rod ends up at 220-230cm — hard to reach for shorter people.
+- **2-tier shoe+clothes** (rod at ~2m, nothing above 210cm): specifically suits rooms with a ducted-ventilation-unit bulkhead eating ceiling height above 210cm — common in larger/premium apartments, and the reason some rooms have an unusually low usable ceiling in that specific zone.
+- **4-tier** (small shoe tier + two clothing rows + a shelf): looks impressive in showroom displays, but is bad in practice — awkward shoe access (buried under hanging clothes), a same-length-garment constraint, and a top rod at 240-250cm.
+
+## Zone Depth
+
+**Clothing zone: 60cm. Shoe zone: 35-40cm, max 45cm — never 60cm.** A 60cm-deep shoe zone invites two-row storage that blocks front-row access, forcing a search through the full depth every time; shoes should sit perpendicular to the wall in a single row instead. Corroborated across two sources.
+
+**Built-in sliding-door wardrobe depth — the single most commonly miscalculated figure on this whole topic.** The naive assumption is that a wardrobe only needs to match the hanging-garment depth itself: ~50-53cm for everyday clothing, ~60-63cm for outerwear. **That's wrong.** Clothing needs a 2-3cm air gap on each side (it shouldn't be pressed against the back wall or brushing the sliding doors), and the sliding-door track/rail system itself consumes roughly 10cm (each panel ~35-40mm thick + ~10mm clearance between panels). **Correct minimum depths: 65-70cm for everyday clothing, 75cm minimum (80cm preferred) for outerwear.**
