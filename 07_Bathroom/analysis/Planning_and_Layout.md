@@ -62,6 +62,18 @@ Covers the specific case of a "two-fixture" bathroom (tub + one of: toilet/sink/
 
 A pure design/personal-preference point, included for completeness: some people strongly dislike seeing the toilet immediately upon entering and design the layout (sink or shower up front, toilet tucked away) around hiding it; others (including the Ontario source, personally) don't consider it worth trading entry convenience for. If this matters to you, it's worth deciding deliberately rather than defaulting — the source notes a real case where a client had the door position shifted specifically to avoid a toilet sightline, accepting a less convenient entry angle in exchange.
 
+## Wet-Exit-Distance Door Placement & Storage-vs-Hatch Priority (added 2026-08-19, remainder-pool batch)
+
+**⚠️ Place a bathroom/shower-room door opening on the side nearer the towel warmer, not the side that looks more convenient relative to the sink** — so a person exiting the shower doesn't have to walk wet across the entire room to reach a towel. General principle: sequence a wet room's door/fixture placement around minimizing the post-shower wet-exit travel path specifically, not just overall convenience. **Explicit priority order when a storage cabinet's minimum depth conflicts with an access hatch behind it**: shrink the hatch, never the storage depth (documented minimum: 400mm) — the storage minimum is treated as the harder constraint. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HVSZh0lH9hk_craziest_two_room_230|YT_HVSZh0lH9hk]]]
+
+## Washing-Machine Vibration Clearance (added 2026-08-19, remainder-pool batch)
+
+**Use 700mm clearance for a washing machine, not the more typical 600mm** — a washing machine vibrates meaningfully during operation and will physically bang against an adjacent sink or wall if the clearance is too tight. **Recommend a full 5cm buffer beyond the machine's own nominal width on any appliance-adjacent clearance for this reason specifically** (not just as a generic safety margin). A separate source gives a specific 50mm behind-machine service clearance reserved for the cold-water supply and electrical connection point. `single-account`, `unverified`. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D8t1ADisUE8_odnushka_premium_replan_246|YT_D8t1ADisUE8]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HVSZh0lH9hk_craziest_two_room_230|YT_HVSZh0lH9hk]]]
+
+## Premium-Tier Fixture-Zone Upsizing (added 2026-08-19, remainder-pool batch)
+
+**Several of this channel's "default" fixture-clearance figures are premium-tier upsizes, not universal minimums** — a documented example: a toilet/hygienic-shower zone normally sized to an 800mm minimum was instead sized to 1000mm specifically because the project was premium-segment. Read this channel's other stated "minimums" with this segment-tier caveat in mind. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D8t1ADisUE8_odnushka_premium_replan_246|YT_D8t1ADisUE8]]]
+
 ## Comfort-Class Labor Cost (restated)
 
 **Comfort-class labor-only cost band, restated by Zemskov**: 25,000-45,000 RUB/m², matching a figure this store already has from a different Zemstandart video — same channel repeating its own convention over time, not independent corroboration.

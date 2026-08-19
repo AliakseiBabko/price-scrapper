@@ -77,6 +77,10 @@ Buy one kit per riser pair, not per apartment — a second bathroom on a separat
 
 → **[[12_Engineering_and_Systems/analysis/Waterproofing_and_Plastering|Full detail]]** (gypsum-vs-cement tradeoff, membrane installation/QC technique, screed reinforcement rules)
 
+## ⚠️ Relocating a Dry Room Under a Neighbor's Wet Zone (added 2026-08-19, remainder-pool batch)
+
+**Relocating a bedroom (or any dry room) to sit directly below an upstairs neighbor's kitchen — not just a bathroom — carries a real water-damage risk, and should only be done under one of two conditions**: (1) the unit is on the top floor (no neighbor above at all), or (2) a confirmed guarantee has been obtained that the upstairs neighbor has completed full waterproofing on their own kitchen. A kitchen counts as a wet zone the same as a bathroom for this purpose — any layout change that ends up placing a dry room under a wet zone above carries real leak-risk exposure regardless of which specific fixture (sink, dishwasher) is above. `single-account`, `unverified`, but a genuinely important risk-disclosure point worth applying cautiously to any layout change involving room-swapping across floors, not just this project's own building. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D8t1ADisUE8_odnushka_premium_replan_246|YT_D8t1ADisUE8]]]
+
 ## Shower Podium, Freestanding-Tub Drains & Slope
 
 **A freestanding tub generally forces a floor-raise, and the deciding factor is distance to the stack** — one source's rule of thumb puts the cutoff around 5-6 meters, beyond which screed thickness alone can't provide enough drain slope. This is also why most shower installations use a raised podium instead of a flush floor: one source estimates ~95% of their own projects lack enough screed depth for a fully flush floor with a working drain. Weigh a freestanding tub's aesthetic appeal against this real plumbing consequence before committing to floor-buildup plans.

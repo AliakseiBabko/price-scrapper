@@ -40,7 +40,7 @@ that decision still stands; they are **not** part of this remainder pool's furth
 - **Legal/dispute/named-individual callout (4 videos)**: `oycgnkyYii4` ("Wall of Shame"),
   `sxUZ_TwgMdQ`, `Duyq7P53pH4`, `ayQj0W9rd8o` (middleman lawsuit content).
 
-## Already processed from this remainder pool (19 videos, 2026-08-19 session)
+## Already processed from this remainder pool (24 videos, 2026-08-19 session) — closes out the original 17-video candidate list
 
 A probe (3 videos, user-requested) followed by one small batch (4 videos):
 
@@ -64,29 +64,24 @@ A probe (3 videos, user-requested) followed by one small batch (4 videos):
 | `3PJJTDkppUg` | "НЕ ДАЙ СЕБЯ ОБМАНУТЬ НА РЕМОНТЕ! #504" | ✅ FULL — confirmed title/content mismatch, pure expense-tracking-methodology video, high relevance to self-managed plan |
 | `XahTpDGjf9w` | "КАК ВЗЛОМАТЬ ЛЮБУЮ КВАРТИРУ! #204" | ❌ SKIPPED — no captions (genuine failure) |
 | `n7X10oIqugU` | "THE MOST SHITTY APARTMENT I'VE EVER SEEN! #252" | ✅ FULL — dense full-replan case; corrected WC-width figure to a corroboration of existing WC_Guide.md formula |
-| `8Xy-h8cS_-s` | "THE WORST TWO-ROOM APARTMENT I'VE EVER SEEN! #234" | ✅ FULL — dense numeric planning-logic masterclass; title-similarity duplicate-risk flag against `1pU60p0Jh3A` still outstanding |
+| `8Xy-h8cS_-s` | "THE WORST TWO-ROOM APARTMENT I'VE EVER SEEN! #234" | ✅ FULL — dense numeric planning-logic masterclass; title-similarity duplicate-risk flag against `1pU60p0Jh3A` **resolved below (not a duplicate)** |
+| `W9cCxVQVVes` | "THE HARDEST ONE-ROOM APARTMENT! #232" | ⚠️ PARTIAL — same production cluster, 5 new points despite heavy overlap |
+| `HVSZh0lH9hk` | "САМАЯ Е..НУТАЯ ДВУШКА ЧТО Я ВСТРЕЧАЛ!!! #230" | ⚠️ PARTIAL — same production cluster, 9 new points |
+| `1pU60p0Jh3A` | "The worst two-room apartment I've ever seen!!! #228" | ⚠️ PARTIAL — **title-similarity duplicate-risk check against `8Xy-h8cS_-s` resolved: confirmed independent project**, not a reused script |
+| `ZVoExA0t6nI` | "THE MOST USELESS 3-BEDROOM APARTMENT I'VE EVER SEEN! #223" | ⚠️ PARTIAL — same production cluster, standout curved-wall-to-faceted-corner technique |
+| `D8t1ADisUE8` | "ODNUSHKA FOR 200 LEMONS!!! #246" | ✅ FULL — confirmed title/content mismatch; standout finding: bedroom-under-neighbor's-kitchen water-risk caution |
 
-All 19 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
+All 24 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
 source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/`,
 are integrated into the intermediate store's Change Log, and were wiki-routed the same
 session (see each source note's own "Target Page(s)" section for exactly which wiki
 pages were touched). Merged to `main` — no lingering branch.
 
-## Remaining candidates (5 videos, not yet touched)
+## Remaining candidates: NONE — this 17-video list is fully processed
 
-Cross-reference each ID against `00_Master/processed_sources.csv` before fetching
-(a fresh session should re-verify, not just trust this table, in case another session
-processed one of these in the meantime):
+All 17 original candidates from this file are now processed (13 FULL, 4 PARTIAL with named-individual/redundancy exclusions noted, 4 genuine no-captions skips across the full 2026-08-19 session — see the "Already processed" table above for the complete breakdown). **The 2026-08-19 batch-2/3/4/5 videos (`W9cCxVQVVes` through `D8t1ADisUE8`) belong to a distinct July-November 2023 narrated-planning-logic production cluster** (at least 6 videos: `ZVoExA0t6nI` #223, `1pU60p0Jh3A` #228, `HVSZh0lH9hk` #230, `W9cCxVQVVes` #232, `8Xy-h8cS_-s` #234, `n7X10oIqugU` #252) with heavy content overlap across the cluster — worth remembering if any further video from this same production period surfaces in a future candidate-derivation pass, since it will likely need the same PARTIAL/corroboration-heavy treatment.
 
-**Update 2026-08-19 (fourth batch)**: `8Xy-h8cS_-s` (#234, "The Worst Two-Room Apartment I've Ever Seen!") is now processed and its title-similarity duplicate-risk flag against `1pU60p0Jh3A` below is still outstanding — when `1pU60p0Jh3A` is processed, compare both source notes directly for script/content reuse before assuming independent value.
-
-| Video ID | Title | Notes |
-|---|---|---|
-| `W9cCxVQVVes` | "THE HARDEST ONE-ROOM APARTMENT! #232" | layout-challenge format, this format scored well in this session |
-| `HVSZh0lH9hk` | "САМАЯ Е..НУТАЯ ДВУШКА ЧТО Я ВСТРЕЧАЛ!!! #230" | — |
-| `1pU60p0Jh3A` | "The worst two-room apartment I've ever seen!!! #228" | **title very close to `8Xy-h8cS_-s` (now processed) — compare both for duplicate/reused-script risk before assuming independent value** |
-| `ZVoExA0t6nI` | "THE MOST USELESS 3-BEDROOM APARTMENT I'VE EVER SEEN! #223" | — |
-| `D8t1ADisUE8` | "ODNUSHKA FOR 200 LEMONS!!! #246" | dunk-style title despite being in this bucket — worth a title/content-mismatch check |
+**This remainder pool's broader ~50-video source** (`_Inbox/planning/zemskov_category5_candidates_20260819.md`'s "Explicitly excluded from Category 5" section) may still contain further unprocessed candidates beyond this specific 17-video list — a future session should re-derive a fresh candidate list from that source if the user wants to continue further, rather than assuming this file's exhaustion means the whole remainder pool is done.
 | `XahTpDGjf9w` | "КАК ВЗЛОМАТЬ ЛЮБУЮ КВАРТИРУ! #204" | security/lock-focused, niche angle |
 | `n7X10oIqugU` | "THE MOST SHITTY APARTMENT I'VE EVER SEEN! #252" | — |
 | `8Xy-h8cS_-s` | "THE WORST TWO-ROOM APARTMENT I'VE EVER SEEN! #234" | — |
