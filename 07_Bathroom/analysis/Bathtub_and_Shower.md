@@ -116,6 +116,10 @@ A concrete problem worth planning for explicitly: fixed elements (a load-bearing
 - **Correct: build a proper tiled utility column with its access opening facing the hallway/corridor side, never the tub side.** A tub-side opening gets water intrusion, makes the lower portion unusable, and leaves the upper portion unreachable. Access from the corridor instead avoids all three problems and gives a large, genuinely useful, floor-to-ceiling storage column.
 - **Construction detail**: tile the tub's own apron/screen with the same tile as the surrounding wall, so the junction between the apron and the new utility column reads as one continuous surface meeting at a clean 45°-mitered corner.
 
+## Combined Wall-Thickening Technique: Tub Ledge Removal + Mixer Reach (added 2026-08-19, remainder-pool Round 2)
+
+**⚠️ Thickening a wall by ~10cm to shift a bathtub's outer edge forward can solve two unrelated problems at once**: it eliminates an awkward horizontal ledge/shelf next to the tub (a hard-to-clean, bacteria-collecting surface that otherwise forms when the tub sits recessed from the wall face) *and* it makes a wall-mounted mixer noticeably easier to reach from within the tub. A single ~10cm wall adjustment addressing both issues together. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MWDcYHqe-iQ_designer_apartment_walkthrough_288|YT_MWDcYHqe-iQ]]]
+
 ## Shower-Stall Clearance Sensitivity to Small Dimensional Changes (added 2026-08-19, remainder-pool batch)
 
 **A shower stall's usable clear space is highly sensitive to small dimensional changes near the minimum threshold.** Documented real case: moving one bounding wall just 10cm was the specific difference between "usable, if snug — can pour water and move elbows without hitting the partition" and "too tight to use without hitting the fixtures with your elbows." Treat 10cm increments near a shower-clearance minimum as consequential, not negligible, when planning a tight layout. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|YT_v7UXJ5fJ0H0]]]
