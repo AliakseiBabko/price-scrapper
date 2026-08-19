@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=_DaN3r4wgpc",
+  "video_id": "_DaN3r4wgpc",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T11:49:32.118835+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "91bf35d14c6e9391a22e75536b51677c78e6e4e1497dee438c43c43fb3b3d71b",
+  "attempts_before_success": []
+}
