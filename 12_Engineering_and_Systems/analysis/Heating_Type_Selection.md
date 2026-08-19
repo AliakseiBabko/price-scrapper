@@ -42,3 +42,12 @@ The only real exception is an individually-metered, individually-heated ground-f
 ## Furniture Placement
 
 Never place furniture directly over active underfloor heating of any type. For water and electric, this is an efficiency/cost concern (wasted heating under something that doesn't need it) — neither type gets hot enough to actually damage furniture. Film is different: it heats by radiating waves upward, and furniture sitting directly in that radiation path can genuinely overheat and be damaged, not just waste energy.
+
+## ⚠️ Due Diligence When Buying a Unit With Claimed Underfloor Heating (added 2026-08-19)
+
+> [!NOTE]
+> A genuine consumer-fraud finding, distinct from the type-selection/technical content above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_o7lGqaUuGm0_fake_renovation_scam_walkthrough_214|note]]]
+
+**A documented real case of fabricated underfloor heating**: buyers of a "renovated, move-in-ready" unit specifically asked about underfloor heating before purchase (they couldn't tolerate cold tile underfoot) and were shown three apparently-functioning thermostats, one per zone. After moving in, activating the thermostats caused sparking. Investigation found: the thermostats received line power and produced no fault when idle, but their output leads were simply short-circuited together with no heating cable connected anywhere — confirmed with a cable detector swept across the entire tiled area, which found nothing. When contacted, the sellers' own proposed "fix" was to swap the fake thermostats for ordinary wall outlets.
+
+**Practical takeaway: a visible, apparently-working thermostat is not evidence of a working heating system underneath it.** Before treating claimed underfloor heating as a real, valuable feature of a unit being purchased (new or resale), verify it independently — run a cable/stud detector across the floor, or ask to see the system actually heating the floor to a measurable temperature, rather than accepting a thermostat's presence or a seller's verbal claim.
