@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ajtv-urp18I",
+  "video_id": "ajtv-urp18I",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T12:12:25.165225+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "15ee7b77a05b901440deb2eccc0ea2744d039673de3ae9bf449b96edf7788fee",
+  "attempts_before_success": []
+}
