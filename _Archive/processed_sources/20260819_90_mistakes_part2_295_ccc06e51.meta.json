@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=nbrDFET2AXk",
+  "video_id": "nbrDFET2AXk",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T14:34:14.033448+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ccc06e51cc7c0b21c30a66ad9c0ef69ded7cc4d6a019c38e789ea8b52221fdac",
+  "attempts_before_success": []
+}

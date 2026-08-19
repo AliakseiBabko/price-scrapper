@@ -43,7 +43,7 @@ git history (see commits `zemskov-remainder-batch2` through `zemskov-remainder-b
 one July-November 2023 narrated-planning-logic production cluster with heavy content
 overlap — worth remembering if any further video from this same window surfaces below.
 
-## Round 2 — processed so far (4 videos, first batch, 2026-08-19)
+## Round 2 — processed so far (8 videos, batches 1-2, 2026-08-19)
 
 | Video ID | Title | Outcome |
 |---|---|---|
@@ -63,12 +63,10 @@ any prior triage file's candidate or exclusion list** — a genuine gap in every
 pass. Cross-reference each against the CSV again before fetching (a fresh session should
 re-verify, not just trust this table):
 
+**Update (batches 1-2 complete, 8 videos)**: all 8 fetched and extracted, no genuine no-captions skips in Round 2 so far. `OnKreLhmLYY` (#299) and `nbrDFET2AXk` (#295) turned out to be parts 3 and 2 of the same "90 mistakes" series about one apartment — a real same-project overlap case, flagged in both source notes.
+
 | Video ID | Title | Notes |
 |---|---|---|
-| `_8mffcO5q-k` | "САМЫЕ ГЛУПЫЕ ОШИБКИ ПО КУХНЕ #191" | technique/mistakes format, kitchen-specific |
-| `OnKreLhmLYY` | "THE MOST FUCKING APARTMENT! #299" | dunk-format, likely full-replan |
-| `nbrDFET2AXk` | "FUCK, SO MANY MISTAKES #295" | dunk-format/QC-checklist |
-| `vRLdOS5HTTU` | "GOT BACK THE STOLEN SPACE #298" | positive space-recovery technique |
 | `mhE_5qlJ0KU` | "ИЗМЕНИЛ ДВУШКУ #293" | replan case |
 | `pNhM-kKBy6A` | "I PACKED A TWO-ROOM APARTMENT INTO A SMALL STUDIO #294 LV" | replan/technique |
 | `u3UuZN9LHg0` | "ЗАСРОЙЩИК — ГА..НДОН! #268" | dunk-format developer critique |
