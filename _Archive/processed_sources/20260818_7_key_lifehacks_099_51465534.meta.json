@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=scOLgA4HPqM",
+  "video_id": "scOLgA4HPqM",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-18T19:56:23.639678+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "51465534db1fc8c2583c3e53a8cf7bd754161daa54acd0d04973d82b54897f31",
+  "attempts_before_success": []
+}

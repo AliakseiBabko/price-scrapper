@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=0mt3rAQRMOY",
+  "video_id": "0mt3rAQRMOY",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-18T20:57:44.745226+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "419cd6446171c9216d9a56bdb828d6b923c745004b3b851a0927cb08b2c40c51",
+  "attempts_before_success": []
+}

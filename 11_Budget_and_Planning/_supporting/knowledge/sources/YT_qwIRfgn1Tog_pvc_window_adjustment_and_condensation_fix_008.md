@@ -57,8 +57,7 @@ drilled fix for window condensation. No pricing, minimal self-reference.
 
 ## Target Page(s)
 
-No dedicated Windows page exists yet — routed to this store's existing
-"Windows / Slopes" topic area. The condensation-vent technique already
+**Update 2026-08-18**: folded into [[13_Surfaces_and_Finishes/analysis/Windows_Hardware_Selection|Windows: Hardware Selection]] — see [[13_Surfaces_and_Finishes/Windows|Windows]] for the full page. Originally routed to this store's "Windows / Slopes" topic area. The condensation-vent technique already
 has a store entry from a later (2019) source (`yt_U56YIEA3-U4`) — this
 entry is recorded as corroboration/earlier-dating rather than duplicated,
 per this store's existing convention for same-technique-earlier-telling

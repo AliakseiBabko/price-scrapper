@@ -116,10 +116,7 @@ claims later).
 
 ## Target Page(s)
 
-No dedicated Windows page exists yet — routed to this store's existing
-"Windows / Slopes" topic area, directly complementing `yt_nb3L-k69yx8`'s
-install-technique content with the material-selection *why* this store
-didn't have yet.
+**Update 2026-08-18**: folded into [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Windows: Slope Finishing]] — see [[13_Surfaces_and_Finishes/Windows|Windows]] for the full page. Originally routed to this store's "Windows / Slopes" topic area, directly complementing `yt_nb3L-k69yx8`'s install-technique content with the material-selection *why*.
 
 ## Relevance to This Project's Topic
 

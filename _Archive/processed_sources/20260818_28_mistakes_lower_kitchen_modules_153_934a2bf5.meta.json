@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Y_Tuxcd-VxM",
+  "video_id": "Y_Tuxcd-VxM",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-18T19:55:45.228476+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "934a2bf53a3e4f8e242ed0b0b73e1346e64c79e3101347b1b23c7a3300ac3f0b",
+  "attempts_before_success": []
+}

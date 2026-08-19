@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ssS7-TdXhu0",
+  "video_id": "ssS7-TdXhu0",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-18T20:58:55.576425+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "9d568cd73a05e66153b473514b49f3d3edf817b1630fde3ecf48b077a43db7ad",
+  "attempts_before_success": []
+}

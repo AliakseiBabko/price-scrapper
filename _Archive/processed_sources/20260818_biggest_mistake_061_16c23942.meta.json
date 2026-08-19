@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=CFWkoe5dsc0",
+  "video_id": "CFWkoe5dsc0",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-18T20:31:51.180586+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "16c23942cb79656657082240f8bcddb72a814e5df8d230b2b1664838c1fdb1b2",
+  "attempts_before_success": []
+}

@@ -60,11 +60,7 @@ no pricing, minimal self-reference (closing sign-off only).
 
 ## Target Page(s)
 
-No dedicated Windows page exists in this vault yet (window-slope content
-so far lives store-only, alongside `yt_P7_rUkk8clU`'s outlet-in-slope
-content) — routed to this store's Durable Facts under a new "Windows /
-Slopes" note, flagged as a candidate topic for a future dedicated Windows
-page if enough window-specific content accumulates.
+**Update 2026-08-18**: folded into [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Windows: Slope Finishing]], alongside `yt_P7_rUkk8clU`'s outlet-in-slope content — see [[13_Surfaces_and_Finishes/Windows|Windows]] for the full page, built once 13 window sources had accumulated.
 
 ## Relevance to This Project's Topic
 
