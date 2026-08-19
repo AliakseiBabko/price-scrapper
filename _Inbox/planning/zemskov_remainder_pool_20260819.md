@@ -40,7 +40,7 @@ that decision still stands; they are **not** part of this remainder pool's furth
 - **Legal/dispute/named-individual callout (4 videos)**: `oycgnkyYii4` ("Wall of Shame"),
   `sxUZ_TwgMdQ`, `Duyq7P53pH4`, `ayQj0W9rd8o` (middleman lawsuit content).
 
-## Already processed from this remainder pool (7 videos, 2026-08-19 session)
+## Already processed from this remainder pool (11 videos, 2026-08-19 session)
 
 A probe (3 videos, user-requested) followed by one small batch (4 videos):
 
@@ -53,14 +53,18 @@ A probe (3 videos, user-requested) followed by one small batch (4 videos):
 | `jrqEbkU4Wj8` | "Когда застройщик хуже дизайнера #257" | ✅ FULL — new-build, standout door-swing-direction exception finding |
 | `hvPddB5Lc1s` | "Самые дикие ошибки в ремонте квартиры. Румтур #103" | ✅ FULL — hotel-room QC tour format, several new ergonomic rules |
 | `HHIUvRywQ6k` | "Самая сложная двушка что я видел! #226" | ✅ FULL — new-build, rare level-1 St. Petersburg region confirmation |
+| `o4KitYl8vpU` | "THE STUPIDEST LAYOUT I'VE EVER SEEN. APARTMENT RENOVATION #116" | ✅ FULL — new-build, closet-niche-beside-door load-bearing-wall sizing formula |
+| `Af8nNyn9a_c` | "САМАЯ ГЛУПАЯ ОШИБКА В ПЛАНИРОВКЕ КВАРТИРЫ #113" | ✅ FULL — new-build, wall-plane flush-alignment technique + quantified 10% exception |
+| `WmkOC9uKnCQ` | "BEST KITCHEN-LIVING ROOM LIFE HACK #154" | ✅ FULL — new-build, dense numeric kitchen-living-loggia sequence; radiator-niche formula flagged as same-project overlap with `CHCB4KPupyc` |
+| `7qxFoOsLAe8` | "ДИЗАЙН КУХНИ-ГОСТИНОЙ СВОИМИ РУКАМИ! #134" | ❌ SKIPPED — no captions (genuine failure, confirmed via both fetch methods) |
 
-All 7 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
+All 11 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
 source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/`,
 are integrated into the intermediate store's Change Log, and were wiki-routed the same
 session (see each source note's own "Target Page(s)" section for exactly which wiki
 pages were touched). Merged to `main` — no lingering branch.
 
-## Remaining candidates (17 videos, not yet touched)
+## Remaining candidates (13 videos, not yet touched)
 
 Cross-reference each ID against `00_Master/processed_sources.csv` before fetching
 (a fresh session should re-verify, not just trust this table, in case another session
@@ -68,10 +72,6 @@ processed one of these in the meantime):
 
 | Video ID | Title | Notes |
 |---|---|---|
-| `o4KitYl8vpU` | "THE STUPIDEST LAYOUT I'VE EVER SEEN. APARTMENT RENOVATION #116" | — |
-| `Af8nNyn9a_c` | "САМАЯ ГЛУПАЯ ОШИБКА В ПЛАНИРОВКЕ КВАРТИРЫ #113" | — |
-| `WmkOC9uKnCQ` | "BEST KITCHEN-LIVING ROOM LIFE HACK #154" | technique-format, likely dense |
-| `7qxFoOsLAe8` | "ДИЗАЙН КУХНИ-ГОСТИНОЙ СВОИМИ РУКАМИ! #134" | technique-format, likely dense |
 | `v7UXJ5fJ0H0` | "ХУДШАЯ КВАРТИРА 2019 ГОДА #520" | **#5xx numbering — verify it's actually renovation content before fetching** (see caution below) |
 | `f1KpZOQSZgQ` | "ПРОЕКТ И РЕМОНТ ДВУХКОМНАТНОЙ КВАРТИРЫ 60м2 #513" | **#5xx — same caution**; real case-study title otherwise |
 | `ZvyXuUJ__Ag` | "APARTMENT RENOVATION. BEWARE OF MIDDLEMEN! #511" | **#5xx — same caution**; consumer-protection framing, moderate risk of thin content |
