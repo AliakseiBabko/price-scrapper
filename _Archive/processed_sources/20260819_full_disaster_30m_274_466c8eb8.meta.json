@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=cWRgenv4B40",
+  "video_id": "cWRgenv4B40",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T11:23:48.657513+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "466c8eb8de99f606dd1fb33b775cad5e7800cf5174c72d81fdb2543f3ece4e55",
+  "attempts_before_success": []
+}
