@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=-RsGqvH_hbo",
+  "video_id": "-RsGqvH_hbo",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T07:00:57.663150+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "b137656ac0c374d6ab68b0dfd2f9c28d96e49f461874ca6b3f72377ce985bc24",
+  "attempts_before_success": []
+}

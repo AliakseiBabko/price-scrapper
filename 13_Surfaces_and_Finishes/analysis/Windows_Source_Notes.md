@@ -2,7 +2,7 @@
 
 Traceability record for [[13_Surfaces_and_Finishes/Windows|Windows]] and its `analysis/` pages. Not reader content — this exists so a claim can be traced back to evidence.
 
-All 13 sources are the same channel — Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov), Moscow-area, `single-account` throughout unless noted. Several videos feature a named vetted installer partner, "Konstantin."
+All 17 sources are the same channel — Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov), Moscow-area, `single-account` throughout unless noted. Several videos feature a named vetted installer partner, "Konstantin."
 
 - **PVC window profile brand myth, five real quality factors** (#030, 2019-01-18) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BbtWl3n-GNg_pvc_window_profile_myth|full extraction note]].
 - **DIY PVC window/balcony-block installation masterclass** — fastening method, foam-joint technique, hardware and water-sill quality checklists, worked opening-widening procedure (#007, 2018-12-18) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6_cH35u4ouM_zems_b007_pvc_window_install_masterclass|full extraction note]].
@@ -17,3 +17,7 @@ All 13 sources are the same channel — Zemstandart/Zemsproekt/Zemsremont (Alexe
 - **Full window/balcony-block replacement masterclass with a named vetted installer** (#227, 2023-08-13, added 2026-08-18) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NhGzB1L7hM_window_replacement_masterclass_227|full extraction note]].
 - **Full window/balcony-block/loggia measurement masterclass with worked examples** (#221, 2023-07-16, added 2026-08-18) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0mt3rAQRMOY_window_measurement_masterclass_221|full extraction note]].
 - **Complete customer-side window acceptance checklist**, narrated by vetted installer partner Konstantin (#272, 2024-06-16) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_irOVnHty0fc_window_acceptance_checklist|full extraction note]].
+- **Nuanced plastic-vs-plastered slope decision rule, including a bay/oriel-window exception** (#164, 2022-06-12, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|full extraction note]].
+- **Developer-window repair/adjustment masterclass with vetted installer partner Konstantin** — lock strike-plate alignment, center-pressure-part relocation, seal-type decision rule (#195, 2023-02-07, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uBNF5ZYOE0Y_developer_window_repair_195|full extraction note]].
+- **Window slope splay-angle standard (35mm)** (#092, 2019-07-02, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XmtGo4BE1bw_window_slope_splay_angle_092|full extraction note]].
+- **Foam-joint width standard (20-50mm) with fixing-length mechanism** (Земсремонт/Земстандарт, "How Not to Renovate an Apartment DIY?" #049, 2019-02-09, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1_IcoSaNKP4_multitrade_qc_tour_049|full extraction note]] (multi-trade source; this page's share is the window-installation content only).

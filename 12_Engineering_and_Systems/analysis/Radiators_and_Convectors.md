@@ -1,0 +1,51 @@
+# Heating — Floor-Standing Radiators & In-Floor Convectors
+
+Part of [[12_Engineering_and_Systems/Heating|Heating]]. Covers the two "skip the false wall" heating-fixture options and why a wall-mounted radiator behind a false wall is the default recommendation over both.
+
+> [!NOTE]
+> `single-account`, same channel (Zemstandart/Alexey Zemskov), two companion videos processed together. The in-floor convector source is framed by its own speaker as 10+ years of direct installation/warranty/post-warranty service experience — a stronger evidence basis than a typical single-video opinion, but still one practitioner's account, not independently verified. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-Kh9JZ34zRc_floor_standing_radiator_risks_043|floor-radiator note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|in-floor convector note]]]
+
+## ⚠️ Safety Incident — Read This First
+
+**A documented real incident, described by its source as an active lawsuit against the manufacturer at time of filming**: an in-floor convector's decorative grille (only ~5mm wide, far narrower than laminate's typical expansion allowance) was jammed solid by laminate expansion. A dropped chain/necklace fell into the jammed grille; a young child attempting to help retrieve it got their fingers wedged and permanently stuck. Multiple household attempts to free the fingers (soaking with water, then vegetable oil) and a neighbor's help all failed; emergency responders were eventually called and had to cut/dismantle the grille in sections — the process took long enough that the child's fingers were lost. `single-account`, not independently verified beyond the source's own account, but stated as a specific, real, still-litigated case, not a hypothetical — treat this as the single most severe safety-relevant fact recorded anywhere in this vault to date, and weigh it heavily against any decision to install an in-floor convector in a home with small children.
+
+## Wall-Mounted Radiator False-Wall Depth (added 2026-08-19)
+
+> [!NOTE]
+> A third source, real project. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OUX-lc5Wqog_irregular_apartment_replanning_212|note]]]
+
+The false-wall depth needed to recess a wall-mounted radiator depends on the wall it's built against, not a single default: a light **~50mm** false wall suffices against an ordinary (non-structural) partition, since the radiator can be partly recessed into the substrate itself. Against a **load-bearing wall** (which can't be chased/recessed into at all), the false wall must absorb the radiator's *entire* depth instead — **~150mm**. Plan the deeper false wall wherever a radiator falls against a load-bearing wall in the layout, not the same 50mm default used elsewhere.
+
+**Whether to bother embedding at all, a two-condition decision rule (added 2026-08-19)**: full embedding is only worth doing if *both* conditions hold — (1) the exterior wall is a lightweight/aerated-concrete type needing extra insulation at the radiator location, and (2) there's an old air-heating-system void/cavity behind the wall that needs concealing. **If neither condition applies, skip full embedding** — a shallow ~11-13mm recess is enough, since the remaining protrusion becomes visually negligible once plastered. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1_IcoSaNKP4_multitrade_qc_tour_049|note]]]
+
+## Floor-Standing Radiators
+
+A floor-standing radiator (as opposed to one mounted behind a false wall) has several fixture-specific failure modes:
+
+- **Tile-grout cracking**: the supply-pipe stub-outs sit inside a tile cutout sealed with grout. Grout has near-zero elasticity; the pipes expand/contract with heating cycles, and repeated thermal cycling reliably cracks the grout at that joint over time.
+- **Laminate expansion-gap violation** — the single most important mechanism here, and one this vault already records from an independent source (`yt_WBaKEl5HIzU`): laminate must be free to expand/contract; a rigid pipe penetration fixed against it blocks that movement, and expanding laminate can push against the radiator/pipe assembly hard enough to shift or crack it, in addition to voiding the laminate manufacturer's warranty. **Genuinely new detail**: some radiator floor-mount brackets use elongated (not round) foot holes, apparently to let laminate expand in one direction — but laminate actually expands in *all* directions, and the direction the elongated holes don't account for can wedge the laminate solidly between adjacent radiator legs, defeating the mitigation.
+- **Physical fragility**: a hard mop/broom strike against the supply-pipe joints can start a leak. Real example: a radiator at a loggia doorway repeatedly knee-bumped by passing guests developed recurring joint leaks.
+- **Cleaning difficulty** around the base and pipe stub-outs, given the tight clearances.
+- **Sharp-edge injury risk** to a small child running through the room — a general geometry observation, not a documented incident.
+
+**Mitigation, when a floor-standing radiator can't be avoided** (a windowsill exists, or floor-to-ceiling glazing leaves no other option): the goal in both cases is the same — the supply pipes must never contact the finished floor covering.
+
+1. **Windowsill recess / false wall**, where a windowsill ledge exists: recess the radiator into the windowsill depth, or box it behind a false wall.
+2. **Raised podium**, where there's no windowsill (floor-to-ceiling glazing with the radiator directly beneath it): build a 10-12cm podium under the window, route supply pipes up through the podium rather than through the finished floor, and set the windowsill on top; close the section under the podium with baseboard.
+
+## In-Floor Convectors
+
+A more severe version of the floor-standing radiator's problems, plus several unique ones:
+
+- **Hydraulically incompatible with central heating**: a convector's longer, more convoluted plumbing path (more joints, more narrowing) produces higher hydraulic resistance than a standard radiator. Hot water on a shared riser preferentially flows through whichever path offers least resistance — it bypasses a high-resistance convector and flows to neighbors' simpler radiators instead, leaving the convector cold. Forcing flow through it on a one-pipe scheme (capping the bypass) produces the same outcome as illegal water underfloor heating: your unit gets warm, neighbors' units go cold, followed by complaints, an inspection, and a mandated 3-day restoration order.
+- **Legally equivalent to illegal water underfloor heating**, independent of the hydraulic problem — both route heating medium through the floor slab, and both are categorically prohibited on a standard central-heating connection with the same enforcement consequences.
+- **Only the most powerful, fan-assisted models work adequately in a central-Russia climate**, and only at 120mm installation depth or greater — 80mm and 100mm units are stated not to work adequately at all in this climate (persistent window condensation, room temperature capped around 17°C, resulting damp/mold on walls, floor, and ceiling).
+- **Fan-assisted units carry their own costs and reliability problems**: added electrical-wiring complexity, genuine audible noise (contrary to "quiet fan" marketing claims), a fan component with a short rated lifespan (no manufacturer offers more than a 1-year fan warranty) that's typically not sold as a standalone replacement part — a failed fan forces buying an entire new convector. Cost: a quiet-fan convector model runs roughly **50,000-200,000 RUB**, versus **under 5,000 RUB for a comparable-output bimetal radiator** (2019 Moscow pricing, `single-account`, `unverified` — directional only).
+- **Real screed weight/height cost**: fitting a 120mm-deep convector box into a typical ~5cm baseline screed plan needs roughly 3 extra bags of screed mix per m² — a worked example puts this at ~320 bags (~13 tonnes) of additional screed for a 100m² apartment, several full truckloads beyond a standard renovation's needs, while also lowering finished ceiling height by roughly 7cm. This also collides with the entrance-level constraint (the apartment's entrance floor must match the building corridor level — see [[12_Engineering_and_Systems/analysis/Mounting_Heights_and_Positioning|Mounting Heights & Positioning]]'s zero-reference system) — the source estimates roughly 70% of apartments simply don't have the spare screed-height budget to fit a 120mm convector box without violating that constraint.
+- **Delayed leak detection**: a standard radiator leak is visible immediately as a puddle on the visible floor surface. An in-floor convector leak is invisible until water has already saturated the underlayment and risen above the convector's own installed level — by which point flooding the unit below is effectively guaranteed.
+- **Leak-repair difficulty**: a standard radiator's leaking fittings are visible and accessible with an ordinary wrench. A convector's fittings sit inside the recessed box, submerged in hot, opaque water during a leak, with sharp edges nearby. Combined with the fan's own mains electrical connection sitting in the same box, a leak is functionally equivalent to submerging live household wiring in water.
+- **Cleaning difficulty** inside the recessed grille housing.
+- **Laminate-expansion incompatibility, same mechanism as floor-standing radiators, with a new failure detail**: the decorative grille trim is only ~5mm wide — far narrower than laminate's typical expansion allowance. On roughly half of real installations the source has serviced, laminate shrinks enough over time to leave a visible gap around the housing (cosmetic only); on the other half, it expands enough to jam the grille solid — the direct precondition for the safety incident above.
+- **Physical-injury risk beyond the safety incident**: exposed edges snag/tear socks and can cut bare feet; stepping directly on a grille (especially metal) can break it and cause a foot to fall through; small pets can catch a leg in the grille slats.
+
+**Bottom-line recommendation**: avoid in-floor convectors wherever a normal wall-mounted radiator (concealed behind a false wall if desired) is feasible instead.

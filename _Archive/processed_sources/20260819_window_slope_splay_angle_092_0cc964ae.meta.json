@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=XmtGo4BE1bw",
+  "video_id": "XmtGo4BE1bw",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T06:43:02.111376+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "0cc964ae51f455628b9a6692f167c26d08e4bd5f8ce0c77a29534fa1737bd77d",
+  "attempts_before_success": []
+}

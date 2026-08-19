@@ -4,6 +4,8 @@ Part of [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]].
 
 **Rough sizing rule of thumb** (explicitly caveated by the source as an *averaged* estimate, not a substitute for a real heat-load calculation): roughly **1 kW of cooling capacity per 10 m²** of room area, with the smallest commonly available unit size being 2 kW, plus a **~20% capacity buffer** as standard practice. Push capacity upward for rooms with strong sun exposure, extra heat-generating equipment, or rooms that share airflow with an adjoining open-plan space (e.g. a living-dining combo needs sizing for the combined area, not just its own footprint).
 
+**Kitchen-specific multiplier, added 2026-08-19**: apply the standard bedroom/kids-room formula above, then **multiply by 1.5×** for a kitchen — kitchens carry meaningfully more heat sources (appliances, cooking) than a same-area bedroom, and sizing with the unmultiplied formula runs the unit permanently near its capacity ceiling, causing premature failure. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fSEPr5fpfPM_kitchen_stubouts_ac_fridge_niche_166|note]]]
+
 ## Budget vs. Premium Tiers
 
 Described functionally, not by brand — several sources on this topic are self-promotional retailer/installer channels, so specific brand endorsements are treated as commercial opinion, not neutral fact:
