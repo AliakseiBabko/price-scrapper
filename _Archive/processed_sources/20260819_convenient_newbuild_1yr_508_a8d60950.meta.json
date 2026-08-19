@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=_ahC-OK0dp4",
+  "video_id": "_ahC-OK0dp4",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T12:21:19.309548+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a8d60950e6ec4c1a8ad4ff910e6a3f2c82a200478f3df87706add9eb8a9883f0",
+  "attempts_before_success": []
+}
