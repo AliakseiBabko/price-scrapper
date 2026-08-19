@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=MWDcYHqe-iQ",
+  "video_id": "MWDcYHqe-iQ",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T14:25:12.228706+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d208990fed7ce567658c6ceb3f1c547f1a07125338da6c376325eb582dbdddfa",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=DEs8V-mHHDo",
+  "video_id": "DEs8V-mHHDo",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T14:22:18.043043+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8c163676edbe234326111ef771585058a2f5d3705152613d5ec8f5108348f9b8",
+  "attempts_before_success": []
+}
