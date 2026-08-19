@@ -22,6 +22,10 @@ The floor is the coldest surface in any room. An insulated loggia's floor stays 
 
 **Independently corroborated** by this vault's existing loggia-heating content (`yt_aoKerAFdZwg`): "a well-glazed loggia still equalizes toward outdoor temperature without an active heat source... thin-film underfloor heating recommended over a convector/radiator, since the floor is the coldest surface" — same conclusion, independent source and date.
 
+## Bidirectional (Double-Sided) Radiator Technique (added 2026-08-19, remainder-pool batch)
+
+**A radiator positioned within a dividing wall between two rooms/zones can be made double-sided** — remove the partition segment immediately around it and add a grille on both faces — so one radiator heats two adjacent spaces more efficiently instead of needing a separate unit for each. Deployed specifically to combat window-condensation risk on a large panoramic-glazing wall where in-floor convectors weren't an option on that project. Only applicable when an interior partition wall exists at the right location relative to the glazing needing heat. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D8t1ADisUE8_odnushka_premium_replan_246|YT_D8t1ADisUE8]]]
+
 ## The Cost of Deferring This Decision
 
 Retrofitting floor heating after a renovation is finished (breaking out already-tiled/finished flooring to add it later) costs meaningfully more than including it in the original design-project scope. The source uses this specifically as a worked illustration of a broader point: hundreds of small planning details like this one compound in cost when deferred to "later," not just floor heating.

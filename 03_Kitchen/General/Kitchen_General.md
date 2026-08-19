@@ -39,6 +39,10 @@ Despite the intuitive appeal ("cooking with a view," natural light), a window-ad
 
 **A decorative countertop "bump-out" step added purely for visual interest, with no functional storage use (nothing fits under, behind, or on it usably), is a real trip/collision hazard** when moving between adjacent kitchen work zones. If pursuing this purely for aesthetics, round the edges/corners rather than leaving them sharp, or skip the feature entirely. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
 
+## Module-Width Discipline & Minimum Linear-Kitchen Width (added 2026-08-19, remainder-pool batch)
+
+**Never widen a kitchen cabinet module beyond the width of an adjacent fixed-width appliance it's paired with** (worked example: kept a storage module at 60cm to match an adjacent 60cm refrigerator and a 60cm oven column, deliberately not widening it to 70-80cm even though floor space allowed) — an oversized module next to a fixed-width appliance reads as visually disproportionate. **A straight/linear kitchen run narrower than ~2.30m is functionally too narrow regardless of layout reconfiguration** — a documented real example found no arrangement within that width avoided a cramped, awkward result; the fix was combining it with an adjacent room into an open plan instead. `single-account`, `unverified`. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HVSZh0lH9hk_craziest_two_room_230|YT_HVSZh0lH9hk]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZVoExA0t6nI_useless_3bedroom_223|YT_ZVoExA0t6nI]]]
+
 ## Source Notes
 
 - **How Not to Design a Large Kitchen — Island vs. U-Shape vs. Split-Bar Layout** (Zemsproekt/Zemstandart, #001, 2018-11-27, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BUfY5YcnN-U_large_kitchen_layout_island_vs_split_001|extraction note]].
