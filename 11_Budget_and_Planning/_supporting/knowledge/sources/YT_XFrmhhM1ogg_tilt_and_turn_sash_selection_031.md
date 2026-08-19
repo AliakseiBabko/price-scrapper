@@ -60,10 +60,7 @@ statement, no client interview, channel sign-off only.
 
 ## Target Page(s)
 
-No dedicated Windows page exists in this vault yet — routed to this
-store's existing "Windows / Slopes" topic area alongside `yt_nb3L-k69yx8`
-and `yt_P7_rUkk8clU`, flagged again as a candidate for a future dedicated
-Windows page.
+**Update 2026-08-18**: folded into [[13_Surfaces_and_Finishes/analysis/Windows_Hardware_Selection|Windows: Hardware Selection]] — see [[13_Surfaces_and_Finishes/Windows|Windows]] for the full page, built once 13 window sources had accumulated (this was one of the sources cited as the accumulating gap).
 
 ## Relevance to This Project's Topic
 

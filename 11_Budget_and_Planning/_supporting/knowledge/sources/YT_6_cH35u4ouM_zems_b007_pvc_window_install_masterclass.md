@@ -195,11 +195,7 @@ Windows/Slopes convention — see Target Page(s) below)
 
 ## Target Page(s)
 
-No dedicated Windows page exists in this vault yet (per the existing
-Windows/Slopes store section's own note) — routed to the intermediate
-store's Windows/Slopes Durable Facts area, alongside the existing
-sandwich-panel slope and material-selection content from the same
-playlist batch.
+**Update 2026-08-18**: folded into [[13_Surfaces_and_Finishes/analysis/Windows_Installation_and_Fastening|Windows: Installation & Fastening]] and [[13_Surfaces_and_Finishes/analysis/Windows_Opening_Reconfiguration|Windows: Opening Reconfiguration]] — see [[13_Surfaces_and_Finishes/Windows|Windows]] for the full page, built once 13 window sources had accumulated. Originally routed to the intermediate store's Windows/Slopes Durable Facts area, alongside the sandwich-panel slope and material-selection content from the same playlist batch.
 
 ## Relevance to This Project's Topic
 

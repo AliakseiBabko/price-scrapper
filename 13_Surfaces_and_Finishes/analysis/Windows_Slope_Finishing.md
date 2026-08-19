@@ -1,0 +1,65 @@
+# Windows — Slope Finishing (Откосы)
+
+Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Covers slope material selection, the sandwich-panel install technique, and routing electrical points into the widened windowsill a boxed-in slope creates.
+
+## Why Plastered Slopes Are Never Appropriate
+
+**Three slope types compared: insulated sandwich-panel, decorative (thin plastic, no insulation), and plastered.** Plastered slopes are stated as never appropriate for a PVC window, for four mechanism-based reasons:
+
+1. **Thermal-expansion crack, structural mismatch**: PVC and plaster have different thermal-expansion coefficients, and no sealant bonds well to both simultaneously — a crack reliably forms along the frame-to-plaster joint (and sill-to-plaster joint) regardless of installer skill.
+2. **Plaster itself cracks over time even done well** — no installer can deliver a plastered slope guaranteed crack-free for even 5 years, against the window's own 10-20 year rating; painted plaster also yellows (visible within ~1 year, pronounced by 3-4 years).
+3. **No closing/retaining contour is possible on a plastered slope** — the cut edge of wallpaper terminating at the slope is always exposed and will eventually peel.
+4. **Plastering forces the installation foam joint to be trimmed thin/flush** — the frame-to-wall foam joint is already this system's known weakest point and should always be maximized, never thinned; plastering forces exactly the wrong compromise.
+
+## Two Legitimate Decorative (Uninsulated) Slope Exceptions
+
+Legitimate specifically because insulation/soundproofing isn't the point at these two locations:
+
+1. **A temporary/non-structural partition wall** (worked example: a thin ~58mm stud-and-drywall partition splitting one space into two) — no thermal/acoustic slope performance is needed for a wall this light.
+2. **The exterior-facing slope of a balcony/loggia glazing block specifically** — the "quarter" ledge a window frame normally seats against typically leaves only ~2-3cm of frame visible from outside, too little clearance to tuck an insulated sandwich panel behind the frame there — a structural clearance constraint, not a cost-cutting choice.
+
+## Five Requirements for a Correct Insulated (Sandwich-Panel) Slope
+
+1. **Mechanically fixed** (not just glued) so it can carry a thick foam joint behind it.
+2. **True sandwich-panel construction (foam core)**, never hollow-core — hollow panels show visible internal reinforcing-rib lines and insulate far worse.
+3. **A closing/retaining perimeter contour**, not just butted-and-puttied — for appearance and to prevent wallpaper's cut edge peeling.
+4. That contour must be a **snap-together two-piece profile (inner J-profile + outer profile), never glued** — glued corner trim eventually detaches from a heavy sash's repeated impact; a snap-fit system flexes and returns. The same snap system also lets an installer lift and re-tuck wallpaper edges cleanly during later repainting.
+5. **Both panel and profile hardware must be primary (virgin) plastic, never secondary (recycled)** — secondary plastic has unknown composition and visibly yellows within a few years (real example: window-sill end-caps, commonly secondary plastic, yellow against a still-white sill within ~3 years).
+
+**Named common installer shortcut, explicitly flagged as never acceptable**: skipping the closing contour entirely — butting a raw hand-cut sandwich-panel edge to the wall, puttying, wallpapering over. Three concrete failure mechanisms: hand-cut edges are visibly wavy once finished; putty/wallpaper bonds far better to wall than to a panel's raw cut edge, so the joint reliably peels; a sandwich panel is far softer/more flexible than plaster, so a heavy sash's repeated impact flexes it enough to crack the puttied seam over time.
+
+## Sandwich-Panel Install Sequence
+
+1. **Level/true-up the rough opening perimeter** with guide strips (thin wood batten, or the same metal profile used for drywall framing).
+2. **Mount a connector profile onto the guide strips only if profile-style seams are planned** (vs. simple adhesive corner trim for a non-profile finish).
+3. **Fix the sandwich panel** (plastic-foam-plastic, **~8mm thick** standard) to the guide strips.
+4. **Corner/trim framing**: cut trim profile to opening size plus a 30-40mm working margin. Fit the top piece first — temporarily tack, mark the cut line by transferring a straightedge against the panel face onto the profile, remove, notch with a plastic hacksaw: both the marked cut *and* part of the corner-lock tab are removed, cut at a slight inward angle so the adjoining profile's own lock tab doesn't collide at the corner.
+5. **Thermal-expansion gap: leave ~3mm at each slope corner/joint** — achieved by cutting ~1.5mm short of the marked line on each side. Applies to vertical trim too, not just the top.
+6. **Side-profile placement**: mount the plastic corner strip against the corner trim itself (not directly against the sandwich panel) — that's the actual surface the corner piece must seat flush to.
+7. **Wallpaper-protection technique**: slide a plain plastic backing strip underneath the corner trim before scoring it with a hacksaw, to avoid damaging adjacent wallpaper — cut ~50cm working sections at a time.
+8. **Finish**: seal all fitted trim edges/joints with sealant before handover.
+
+## Routing Electrical Points Into a Widened Windowsill
+
+Boxing radiator piping behind a false wall/slope panel (for a cleaner look) incidentally widens the usable windowsill — this space is worth using for electrical points, not just as a shelf.
+
+- **Two-way (проходной) bedside switch, placed in the slope panel near the bed** — turns off the main room light without walking to the entry switch. A switch mounted *above a desk* instead is worse: the user must reach across the desk, and the switch tends to get hidden behind clutter (monitor, printer). **Recommended: in the slope beside/below the desk, not above it.**
+- **Slope-mounted outlet near a desk** — for phone/device charging without running a cable across the desk to a farther outlet; commonly used for 2-3 devices (monitor plus phone charger).
+- **Safety myth-debunking, condensation cannot short/electrocute**: pure water doesn't conduct electricity (dissolved salt does); condensation only forms when a cold surface drops below the ambient dew point, and the slope cavity sits at the same temperature as the room — no dew-point crossing, so no condensation on the contacts. `unverified` physics reasoning stated by a non-specialist source, internally consistent, not independently verified.
+- **Safety myth-debunking, rain ingress**: rain can't reach a slope-mounted outlet, because for rain to enter the room at all the sash would already have to be open, and an open sash opens toward/over the slope, physically shielding the outlet.
+- **Safety myth-debunking, overheating/fire risk**: correctly-sized circuit protection trips from overcurrent well before the cable or contacts could reach ignition temperature — a general property of correct circuit protection, not specific to slope-mounted outlets.
+
+### Installation Sequence
+
+1. Feed the supply cable through the false-wall/piping-box framework early, during framework assembly, leaving it hanging loose along the old slope location.
+2. Drywall/finish work (plastering, wallpapering/painting) proceeds around it.
+3. Only at the very end are slope panels cut, test-fitted, then removed again to apply mounting foam to their back face.
+4. Once the foam is partially cured (tacky, not hard), test-fit again and trim/adjust if foam interferes with a flush fit.
+5. Cut holes for the electrical points into the panel and pull the cable through.
+6. Apply a second, fresh foam layer — timed so this layer is what actually bonds the panel to the wall — then permanently fix the panel.
+
+**Why panels must be glued, not just clipped/screwed**: unglued panels flex when a plug is inserted/removed, which over time can damage the panel joint or the sealant bead along the windowsill — a properly glued installation resists full body weight pressed on the outlet without deflecting.
+
+**Mounting hardware**: no additional foam/adhesive fixes the socket box into the panel — a standard drywall-specific socket box (spring/wing tabs clamping from behind) is sufficient; panel adhesion to the wall structure (via the foam step) is what actually carries the mechanical load, not the socket box's own grip.
+
+**Quality red flag/DIY check**: if a slope-mounted outlet wobbles or comes loose along with its faceplate when a plug is removed, the panel was never properly glued to the structure — a simple, checkable test a homeowner can perform.

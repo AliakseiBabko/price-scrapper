@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=DQfiBquc-L4",
+  "video_id": "DQfiBquc-L4",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-18T20:31:21.246949+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "990647151c96ebd0b25592a4c3b1e7fa71b16ac454d32d04101828d6103a55b9",
+  "attempts_before_success": []
+}

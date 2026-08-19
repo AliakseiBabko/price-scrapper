@@ -21,6 +21,8 @@ Covers tub-vs-shower, bathtub material/sizing, the apron/screen (including a rea
 
 > [!NOTE]
 > **This lands close to, but reasons differently from, Zemskov's length rule** in [[07_Bathroom/analysis/Planning_and_Layout|Planning & Layout]]'s sizing formula (length ≈ occupant height, up to 10cm less — 1700mm typical for a ~178cm person). Both end up recommending roughly 170cm for a similar-height occupant, but Ontario's reasoning is "shorter forces better back-bracing regardless of height," while Zemskov's is "matched to height, or a too-long tub risks sliding under and choking." Worth knowing they agree on the number even though the underlying logic differs — not a contradiction requiring a decision, just two paths to the same practical answer.
+>
+> **A third source (added 2026-08-18) largely converges but adds a nuance not silently merged**: presented as three standard recess-width tiers — 1.60m (too small/uncomfortable), **1.70m (this source's own stated optimum**, matching the two figures above), 1.80m (for taller occupants) — plus a mechanism explanation shared with the tub-length rule above: a too-long tub leaves a shorter occupant without foot purchase against the far end, sliding toward the drain while reclining. The nuance: this source ties 1.80m specifically to "taller occupants" rather than defaulting even tall users to 1.70m the way the two sources above do — a genuine (mild) disagreement on tall-occupant sizing, not resolved here. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_scOLgA4HPqM_7_key_lifehacks_099|extraction note]]]
 
 ### Freestanding vs. Built-In
 

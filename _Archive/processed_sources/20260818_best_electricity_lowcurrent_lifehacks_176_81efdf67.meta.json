@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=rX8Ag60l-RA",
+  "video_id": "rX8Ag60l-RA",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-18T20:14:40.890226+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "81efdf679bd86c5606ebaa383cb49c8991a4a597a1dc9476000df12a6951751e",
+  "attempts_before_success": []
+}

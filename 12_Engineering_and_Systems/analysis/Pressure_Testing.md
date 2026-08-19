@@ -7,6 +7,9 @@ Verifying rough plumbing before closing walls — arguably the single highest-st
 1. **Basic check at normal working pressure** (~3 atm, ordinary everyday system pressure) — cap all outlets, apply the system's normal supply pressure. This only catches gross assembly errors (an uncrimped fitting collar, an unscrewed cap) — **don't expect it to catch anything subtler**.
 2. **Real verification = pressure testing at deliberate overpressure**, using a hydrostatic test pump. Code technically requires only 1.5× working pressure (~4.5 atm), but that's stated to often be insufficient to reveal micro-cracks or marginal joints in practice — **test to 10 atm for a real check**.
 
+> [!NOTE]
+> **Independently corroborated (added 2026-08-18)**: a second, unrelated source gives the same staged protocol — pressurize to 2 atm, then 5, then 10, hold ~10 minutes, and confirm the drop is ≤0.5 atm — matching this page's own ramp-and-hold procedure almost exactly (the only difference is the very first stage, 2 atm here vs. 3 atm below, not materially significant). Two independent sources converging on the same numbers is a real vote of confidence in this protocol specifically. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zLJtkP6ymrg_15_diy_plumbing_mistakes_700|extraction note]]]
+
 ## Tooling
 
 A pressure-test pump ("опрессовщик"), manual or electric, both typically rated to 40 atm. Manual is preferred for apartment/house work (more portable); electric is mainly for industrial use. A basic consumer manual pump costs from ~1,000 RUB; a professional-grade unit can often be rented for ~500 RUB/day in a major city — no need to buy one for a single job.

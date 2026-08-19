@@ -15,6 +15,12 @@ Within a plumbing cladding box (zashivka), supply pipes can often be re-routed b
 
 → **[[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Full detail]]** (wet-zone approval rules, zashivka audit technique, dry-fit warning, hot-left/cold-right convention, drain-bend rule)
 
+## Fixture Stub-Out Coordinates (added 2026-08-18)
+
+**A complete, mechanism-explained coordinate reference for where to place every rough-plumbing stub-out**, by fixture type — sink, shower, tub, toilet + hygienic shower, urinal, washing machine, and kitchen sink with/without an adjacent washer. Every rule specifies not just a height/offset but *why* — e.g. a toilet's hygienic-shower outlet sits 300mm right of centerline specifically so a right-handed user's wand hangs to their free (left) hand while washing, mirrored for a Muslim household's religious practice. **A recurring warning across every fixture**: never compress the standard spacing to save space — supply lines tolerate it, but drain lines at this diameter need the full spacing to keep a correct slope and avoid extra elbow bends.
+
+→ **[[12_Engineering_and_Systems/analysis/Fixture_Stubout_Coordinates|Full detail]]** (full coordinate table by fixture, kitchen-with/without-washer layouts)
+
 ## Pipe Material Selection
 
 **PEX is now used in ~95% of rough-in work, and the reason is structural, not fashion**: a PEX run from manifold to fixture is one continuous pipe with zero hidden joints — nothing buried under plaster/screed/tile that could fail invisibly. Polypropylene remains viable and cheaper, but its joints do get buried, a real tradeoff against PEX's price premium. Metal-plastic pipe is flagged as flatly obsolete by experienced installers.

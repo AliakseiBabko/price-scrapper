@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=MzEwow_CPR4",
+  "video_id": "MzEwow_CPR4",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-18T20:15:04.087296+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a45afecdb1d6899ed2105c1b5c70ab56efd3441f03456d6b08507c7a9f393633",
+  "attempts_before_success": []
+}

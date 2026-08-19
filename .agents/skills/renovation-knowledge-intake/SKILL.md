@@ -376,6 +376,57 @@ For one source at a time:
    decomposition genuinely calls for splitting, per that file's own
    "Default going forward" section - don't split preemptively on a
    guess.
+
+   **This step is routine, not deferrable (confirmed the hard way,
+   2026-08-18).** A real multi-session batch (Category 5 trial + all of
+   Category 3 + a first Category 4 chunk, ~19 sources) wrote everything
+   to the intermediate store only and never took this step, despite
+   several sources containing content that clearly belonged on an
+   existing room/systems page (plumbing stub-out coordinates, masonry
+   technique, kitchen island sizing). Nothing enforced doing it in the
+   moment, so it silently didn't happen across an entire multi-turn
+   session until the user asked directly whether wiki pages had been
+   updated. Treat 5a as owed *per source*, the same turn its content is
+   integrated into the store - not something to batch into a separate
+   "catch-up pass" later, even though that's what recovered it this
+   time. If a session's pace makes per-source routing impractical (e.g.
+   a fast multi-video chunk), say so explicitly to the user rather than
+   silently deferring it.
+
+   **The routing pass is also a real error-catching mechanism, not just
+   placement (same 2026-08-18 incident).** Deliberately reading a new
+   source's claim side-by-side with what an existing wiki page already
+   says on the same topic caught a genuine extraction error: a transcript
+   line with awkward, negation-heavy phrasing ("не такую... а...", "not
+   the X kind... [rather] Y") had been extracted with the preference
+   backwards - recorded as "prefer tube-based lubricant" when the source
+   actually said the opposite. The store's own corroboration note stated
+   two sources "agreed," which was itself wrong and would have stood
+   uncaught if the routing pass had just filed the fact away rather than
+   actually comparing it against the existing page's wording. Read the
+   original transcript line again, not just your own extraction note,
+   whenever a routed fact is about to be marked "corroborates" or
+   "confirms" an existing page - agreement is exactly the case with the
+   least scrutiny by default, and exactly where a reversed extraction
+   hides. Ambiguous negation/contrast phrasing in a transcript (Russian
+   "не X, а Y" constructions especially) deserves an `uncertain` flag at
+   extraction time rather than a confident resolution either way.
+
+   **When a source's content has no existing wiki page to route to at
+   all** (not "which section," but "no page exists for this sub-topic
+   yet"), don't create a separate holding file for it — the intermediate
+   store already is that staging area. Note it inline (as this store's
+   sources already do, e.g. "no dedicated Windows page exists yet") and
+   also add/update an entry in the store's own "Pending Wiki-Page
+   Decisions" section near the top of the file. **Threshold rule: once a
+   sub-topic has 3+ sources accumulated with no page, create the page
+   that session** — don't defer further. This was adopted and first
+   applied 2026-08-18: a Windows page had been deferred since
+   `yt_BbtWl3n-GNg` first flagged the gap on 2026-08-10, accumulated to
+   13 sources by 2026-08-18 with the gap re-flagged almost every time,
+   and was only actually built once the threshold was made explicit and
+   retroactively applied. Don't wait for a user to notice a gap has grown
+   this large again.
 6. **Promotion self-check (do not skip):** after step 5, re-read the
    extraction note's full prose one more time and confirm every concrete,
    reusable fact/rule/mechanism/number in it - not just the ones that

@@ -24,6 +24,28 @@
 - **Door-opening worked example**: 2.07m opening height (corroborates this vault's existing 2.07m standard), 78cm width for a 70cm-leaf door, 21cm corner offset on 10cm-thick blocks leaving an 11cm return so door casing seats without trimming (≥3cm clearance from the corner). Lintel: two rebar rods overlapping the opening ~10cm per side, notched into the top course, wedged, finally set during plastering — corroborates this vault's existing rebar-for-narrow-openings guidance with a specific worked figure.
 - **Opening cut-out sequencing**: rather than pre-cutting block to the opening shape, lay full block straight across the future door/window opening during construction, then cut the opening out afterward in one pass with a reciprocating saw, guided by a laser-projected vertical plane along the marked line — simpler than piecing block around a pre-marked void.
 
+## Foam-Glue Block Masonry & First-Course Leveling — per Zemskov/Zemstandart (added 2026-08-18)
+
+> [!NOTE]
+> Two companion sources — a foam-glue bonding technique + client-facing QC checklist, and a detailed prequel on leveling the critical first course that the fast foam-glue method depends on. `single-account`, company-branded. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qs_FxXdsq40_masonry_glue_foam_technique_260|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_g7Cuj1p-0CA_masonry_first_course_leveling_231|note]]]
+
+- **First course is always laid on cement-sand mortar, never foam-glue, even in a foam-glue-bonded wall** — raw floor slabs are never perfectly level, and foam-glue bonds fast but doesn't correct leveling errors; all leveling work must happen at the first course so everything above it can be laid quickly with no further leveling.
+- **Survey before deciding whether beacon-based leveling is needed at all**: a small measured spread (~5mm) across a run needs no beacons, just a uniform mortar layer; a larger spread (~3cm) needs full beacon leveling. Don't default straight to beacons without checking first.
+- **Beacon-leveling method**: find the run's highest point via laser survey, set the first beacon there as the reference/"zero," then match every other beacon's laser-to-top distance to it using a rigid straightedge (not a tape measure, which introduces error). Use a rigid beacon type, never cheap flexible foil beacons.
+- **Sequencing rule: always start block-laying from an existing fixed wall toward a free corner, never the reverse** — a shortfall/excess at the unconstrained far end is trivially fixed later (plaster if short, saw-trim if long); starting from a free corner risks an awkward sliver cut.
+- **Never pre-cut the first course around planned door/window openings** — lay it continuous, cut openings afterward with a reciprocating saw once the row is set.
+- **Client-facing wall-flatness acceptance threshold, explicit numbers**: gaps up to 5-7mm against a straightedge are acceptable (plaster-correctable); **gaps of 15mm or more should never be accepted — insist on a rebuild.** The raw first-course platform itself, before any further courses are laid, should be noticeably tighter (a couple mm or less).
+- **Never sledgehammer-test a finished wall's strength** — judge qualitatively instead: straight, no cracks, visible foam-glue joints between blocks.
+- **Wall-tie/hanger spacing to an adjoining structural wall: every second course, using flexible ties, never rigid angle brackets** — flexible ties absorb minor building settlement without cracking the partition; rigid brackets don't.
+- **Top-of-wall-to-ceiling gap treatment**: ≤2.5cm, foam directly with standard mounting foam (explicitly distinct from block-glue-foam — don't confuse the two products); larger gaps get blocks cut down first, then foamed.
+
+## Radiator-Niche Insulation Mechanism — per Zemskov/Zemstandart (added 2026-08-18)
+
+> [!NOTE]
+> `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_scOLgA4HPqM_7_key_lifehacks_099|note]]]
+
+- **Never add extra insulation or a heat-reflective panel behind a radiator niche recessed into an exterior wall**, and don't thin the wall further there. **Mechanism**: for a uniform wall of any thickness, the interior/exterior temperature gradient equalizes roughly at the wall's midpoint; insulating or reflecting behind the niche blocks the room's own warm air from reaching and warming that thinned section from the inside — the opposite of the intuitive "protect the thin spot" fix, and it makes that spot colder / condensation-prone instead. A wall thinned ~15cm by a radiator niche still stays warmer overall than most modern panel-building exterior walls without any special treatment — just plaster and drywall-clad it normally.
+
 ## Load-Bearing Wall Opening: Cutting & Reinforcement Technique — per Zemsproekt/Zemstandart (added 2026-08-17)
 
 > [!NOTE]
@@ -83,3 +105,6 @@
 - **Gas-concrete-block wall material-quantity calculation (block count, adhesive volume, project-documentation standard)** (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow, fetched via anonymous `youtube-transcript-api`, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8kOUv9EVQTQ_gas_block_wall_material_calculation|extraction note]] (#112, 2020-01-19).
 - **Real destructive-test comparison of 6 block-bonding materials, guest technologist (Bonolit-affiliated)** (same channel, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_p2nyMFY9x-0_block_adhesive_destructive_comparison|extraction note]] (#198, 2023-02-19).
 - **Drywall false-wall framing masterclass, general technique** (same channel, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Y-eITaok1Gw_drywall_false_wall_masterclass|extraction note]] (#040, 2019-01-28).
+- **Foam-glue block masonry technique + client-facing QC checklist** (same channel, added 2026-08-18) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qs_FxXdsq40_masonry_glue_foam_technique_260|extraction note]] (#260, 2024-03-10).
+- **First-course leveling masterclass (foam-glue masonry prequel)** (same channel, added 2026-08-18) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_g7Cuj1p-0CA_masonry_first_course_leveling_231|extraction note]] (#231, 2023-08-27).
+- **Radiator-niche insulation mechanism, "7 Key Life Hacks"** (same channel, added 2026-08-18) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_scOLgA4HPqM_7_key_lifehacks_099|extraction note]] (#099, 2019-09-03).

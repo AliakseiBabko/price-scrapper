@@ -1,0 +1,72 @@
+---
+source_type: video transcript (single-speaker renovation-company layout critique + own-redesign walkthrough, Russian, manually-created captions)
+source_url: https://www.youtube.com/watch?v=cidd4YHBJdA
+video_id: cidd4YHBJdA
+transcript_file: _Archive/processed_sources/20260817_zems_b256_layout_critique_and_redesign_412500rub_d8f3beb8.txt
+fetched: 2026-08-17
+upload_date: 2023-12-05 (metadata-confirmed via yt-dlp `upload_date`)
+channel: Zemstandart/Zemsproekt (Alexey Zemskov, narrating; original designer not named or independently identifiable)
+regional_applicability: not stated in-video — level 2/channel-branding only (Moscow, per this channel's established convention)
+currency: RUB (client's stated payment); Moscow, per channel convention (not independently re-confirmed at level 1 in this transcript)
+language: ru (manually-created captions, method=youtube-transcript-api, generated=False)
+extraction_taxonomy: custom (renovation planning, per renovation-knowledge-intake wrapper taxonomy)
+---
+
+# Extraction Note — Zemstandart: "412,500 Rubles Down the Drain, Thanks to the Designer!!!" Layout Critique + Redesign (#256, YouTube cidd4YHBJdA)
+
+## Evidence levels
+(1) transcript text — (2) metadata — (3) inference — (4) none.
+
+## Processing status: FULL EXTRACTION (with explicit tier-steering flag on the second half)
+
+Category 5 "dunk-format" trial source. Two distinct halves: (1) a critique of a named-fee, unnamed-designer floor plan checked directly against the client's own stated written brief — a genuinely useful "verify a plan against the client's actual requirements, item by item" case; (2) the presenter's own redesign, narrated with real, detailed layout methodology (opening allowances, wall-thickness rules, TV-niche sizing, heating-riser constraints, loggia floor-raise rationale). **The second half ends in an explicit self-promotional call-to-action** ("Обращайтесь к дизайнерам" / "come to designers [more often]" — a soft plug for the presenter's own design service) and is structurally an ad for that service (a "look what I'd do instead" redesign pitch) — extracted per this project's advertising/tier-steering filter: the technique itself is kept, the "hire us" framing is not adopted as neutral fact.
+
+## Planning Rules / Design Process
+
+- **Verify a delivered floor plan against the client's own written technical brief, item by item, not just for general competence** — the walkthrough's structural device: presenter reads the client's actual stated requirements in full first (large bedroom with a large double wardrobe, a makeup zone, a large desk for dual monitors, a document-storage zone, a kitchen-dining-living combo seating 4+2 guests with a large sofa, two full bathrooms including specific fixture requirements — 1.8m tub, large vanity countertop, a WC with both a hygienic shower and its own sink — a laundry machine, a large entry closet plus a fast-access changing zone plus a sports-equipment closet, two separate beds (explicitly not bunk beds) with two full separate desks, book/textbook storage, a printer/scanner surface, a small home gym corner (pull-up bar + Swedish wall), and a walk-in closet for off-season storage), then checks the delivered plan against each item. `confirmed`, real client brief, directly stated in the transcript.
+- **Delivered-plan failures found by this line-by-line check**: kids' room fit only a bunk bed (client had explicitly rejected bunk beds) and one shared desk (client required two separate desks); the desk faced a window directly (**stated eyesight-strain risk absent supplementary lighting to counter window glare** — cross-reference below); the entry hallway was widened purely for a cosmetic "expanding perspective" effect at the cost of most of its storage function; a decorative kitchen wall protrusion replaced the required 4-person dining table entirely; a walk-in closet's corner was shaped for the same cosmetic-perspective effect rather than storage; the bedroom kept only two of its true corners square; the primary bathroom's plumbing riser boxing left no viable location for the water-shutoff node in either the tub room or the WC; a bar-height counter replaced the required family dining table.
+- **A workspace desk should not default to facing directly into a window** — cited eyesight-strain risk from working against window backlighting, absent corrective lighting design. **Cross-reference**: complements this store's existing rule that a child's desk shouldn't default to the window's *left* side (hand-shadow mechanism, `web_zemspro_about_development`) — this is a distinct mechanism (backlighting/glare vs. hand-shadow), both converging on "don't place a desk carelessly relative to the window."
+
+## Planning Rules / Design Process — Redesign Methodology (second half; tier-steering context noted above)
+
+- **Stated design-process order for this project**: (1) lay a screed reference layer first so all wall layout derives from the real as-built floor, not nominal drawings; (2) fix wet-zone (санузел) boundaries first and confirm all wet-zone plumbing stays within that boundary — **explicit regulatory driver stated**: the client's own residential complex has fined and forced reversal on residents caught expanding a wet zone beyond its original footprint (`single-account`, level-2 regulatory claim tied to one named residential complex, not independently verified — does not clear this store's stricter bar for the separate regulations store); (3) place the toilet to minimize distance to the sewage stack; (4) place the tub, check remaining space for a separate toilet room; (5) place remaining wet-zone fixtures (sink, storage, washing machine); (6) build the dividing walls; (7) work outward room by room into the remaining floor plate.
+- **Door-opening layout allowance (general planning rule, distinct from this store's existing foam-block-specific 78cm figure)**: set back 1000mm from the intersecting wall face, split as 100mm trim standoff + minimum 800mm clear door-opening width + 100mm second standoff. `confirmed`, stated and demonstrated twice in the same redesign for different openings.
+- **Wall-thickness convention**: 150mm for a new partition specifically needing sound isolation between two rooms (e.g. bedroom/kids-room divide); 100mm for all other new partitions, to minimize lost floor area. `confirmed`.
+- **TV-niche sizing pitfall**: a size-conversion chart that maps screen diagonal to a niche dimension ignores the TV's physical bezel/body depth, not just the glass diagonal — the client's own TV, once physically measured, didn't fit a niche sized purely off the diagonal-to-dimension chart. Rule: physically measure the actual unit, don't rely on a diagonal-only sizing table. `confirmed`, real client-driven correction described in the transcript.
+- **Central-heating riser/radiator constraint on balcony-block mirroring**: this presenter's videos frequently show "mirroring" a balcony door/window block (swapping which side the door vs. window sits on) to gain floor area — but when a heating riser with fixed branch pipes feeds a radiator at the balcony wall under **central** (not autonomous) heating, that radiator cannot be relocated without running supply/return pipe under the screed to a new position, which the presenter states degrades that radiator's heating performance significantly. Stated rule: under central heating, leave the balcony block's radiator position untouched; the only adjustable element is shifting the door-opening left/right within the same wall run. `confirmed`, explained mechanism, first explicit statement of this constraint in this store (extends existing balcony-mirroring content, which didn't previously address the central-vs-autonomous-heating distinction).
+- **Loggia/balcony floor-raise rationale, restated with an explicit reason**: a loggia sits directly above an unheated space (the floor below "has cold neighbors," i.e. an unheated loggia/balcony one floor down) — a raised floor/podium is described as nearly unavoidable if the loggia is being incorporated into heated living space and proper insulation is wanted at all. `confirmed`, extends this store's existing loggia-insulation content with the specific "cold neighbor below" mechanism.
+- **Loggia-to-room desk/work-surface height target: 75cm from the loggia's own (raised) floor plane** — cited as the ergonomically ideal desk height once the loggia floor has been raised to compensate for insulation buildup. `single-account`, specific numeric target.
+- **"Quarter of the opening" (четверть проёма) compensation when merging a loggia into a room**: removing the window/balcony-block's structural mounting ledge (the "quarter," a stepped recess that normally seats the frame) when a loggia is absorbed into the room requires building false-wall returns to keep the resulting wall plane flat and continuous. `single-account`, technical detail, not independently corroborated elsewhere in this store yet.
+- **Sloped/beveled shelf-edge detail near a doorway specifically to prevent collision** — a storage-unit shelf near a frequently-used doorway (in this case, a children's room) is deliberately given an angled/chamfered front edge rather than a square corner, reasoning stated as preventing kids running past from hitting a hard corner. `single-account`, real-project detail. **Cross-reference**: complements this store's existing "always build a wardrobe flush to the wall/ceiling to avoid a protruding-corner collision hazard" rule (`yt_s5Gyi8Rd9D0`) — same underlying collision-avoidance concern, different specific technique (chamfered edge vs. flush mounting).
+- **Storage niche depth sized specifically for the client's stated need (document folders in binders)** — presented as a general planning principle (size a storage zone's depth to its actual planned contents, not a default), consistent with this store's existing depth-by-purpose framework for closets (`yt_VgsPDOcPV7c`, `yt_WVfgE0lHgVc`) now extended to a documents-storage use case specifically.
+
+## Design Project Fees (pricing content — routed to the Design Project Fees comparison table)
+
+- **412,500 RUB paid for a floor-plan/layout ("планировка") deliverable only** — client states this explicitly, computed at **5,500 RUB/m²** (unnamed designer, fee/scope stated by the client in the video, `single-account`/secondhand-relayed by the presenter). **Scope caveat**: this is narrower than this store's existing "Design Project Fees" table entries, which are typically full design-project fees (plan + 3D visualization + drawings, sometimes + specification) — this figure covers layout/floor-plan work only, not the fuller design-project scope; do not blend directly into the existing table's rows without preserving this scope distinction.
+- **Presenter's own quoted redesign fee for the same scope: 4,000 RUB/m²** — stated explicitly as this presenter's own current rate for a comparable "планировка" deliverable, at the point of this video's upload (2023-12-05, Moscow-channel convention). **Cross-reference**: this is consistent with (does not contradict) this store's existing Zemstandart/Zemsproekt design-project-fee price-history series, which already documents the 4,000 RUB/m² rate holding from Dec 2022 through Oct 2024 — this Dec 2023 data point falls inside that window and corroborates the rate holding steady through it, though note the existing series is for the fuller design-project scope while this figure is stated for layout-only, so treat as a supporting data point rather than a fully interchangeable one.
+
+## Advertising / Promotional Content Notes
+
+The redesign half (second half of the video) is structurally a service pitch: it demonstrates the presenter's own design process end-to-end on the same brief the critiqued designer failed, closing with an explicit "consult designers [more often]" line that doubles as self-promotion for the presenter's own studio. The **technique content within the redesign** (opening allowances, wall-thickness rule, TV-niche pitfall, heating-riser constraint, loggia floor-raise rationale) is extracted per this store's "genuine practitioner rationale, even from a source that also runs a business" standard — these explain real mechanisms/tradeoffs, not bare assertions — but the redesign's overall framing ("look how much better my version is, hire us") is not adopted as a neutral endorsement of this presenter's studio over any other, and the 4,000 RUB/m² fee figure above should be read with that self-interested framing in mind alongside its use as a price-history data point.
+
+## Target Page(s)
+
+No dedicated Kitchen/general-layout wiki page exists in this vault for most of the layout-methodology items — routed to the intermediate store's Planning Rules Durable Facts sections. The two pricing figures route to the Design Project Fees comparison table (with the scope caveat noted above). None of these individually strengthens `Budgeting_Guide.md`'s compressed summary enough to warrant a direct wiki edit.
+
+## Relevance to This Project's Topic
+
+High. The written-brief-vs-delivered-plan critique format is a genuinely reusable planning-verification method independent of this channel, and the redesign half contributes several concrete, mechanism-explained technique rules (door-opening allowances, wall-thickness convention, TV-niche measurement pitfall, heating-riser/balcony-mirroring constraint) not previously this precisely recorded in this store — despite the self-promotional framing around them.
+
+## Gaps
+
+- No region confirmed at level 1 (spoken) — channel-convention-only (Moscow).
+- The wet-zone-expansion-fine claim is tied to one named residential complex the presenter doesn't further identify — level-2 regulatory claim, does not qualify for the stricter regulations store.
+- The critiqued designer/project is never named — no way to independently verify any specific claim against a second account.
+
+## Recommended Downstream Routing
+
+`tiered-knowledge-base` — Planning Rules Durable Facts sections and the Design Project Fees comparison table of the renovation budgeting intermediate store.
+
+## Promotion self-check
+
+Re-read in full after drafting. Every concrete, checkable fact/rule/number identified during the trial spot-check is reflected in the sections above, each tagged `confirmed`/`single-account` as appropriate, with the redesign half's self-promotional framing explicitly flagged rather than silently adopted.

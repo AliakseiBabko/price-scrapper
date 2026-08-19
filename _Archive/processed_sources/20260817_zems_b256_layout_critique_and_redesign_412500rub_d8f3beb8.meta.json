@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=cidd4YHBJdA",
+  "video_id": "cidd4YHBJdA",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-17T11:59:49.140267+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d8f3beb84857babbdae713abf43abab0bec43370dc1a03a3b8e14a63c314e170",
+  "attempts_before_success": []
+}
