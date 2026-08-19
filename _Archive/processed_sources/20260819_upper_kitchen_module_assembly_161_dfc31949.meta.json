@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=19AUqOlliys",
+  "video_id": "19AUqOlliys",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T07:00:46.675717+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "dfc319496b580ac060fe0223a22bd735a24555d803fe42f90605a8f05137c3f1",
+  "attempts_before_success": []
+}

@@ -38,6 +38,8 @@ Set frame in opening, temporarily fix and level with a spirit level and mounting
 
 **Installer-process minimum, from a separate acceptance-checklist source**: foam the joint in **two passes minimum** — skipping this risks through-voids that grow over time into interior drafts. Prepare external waterproofing (tape or a vapor-permeable membrane) *before* setting the window, not after; apply vapor-barrier tape over the finished joint afterward (protects the foam from interior room humidity).
 
+**Correct foam-joint width, with the mechanism for why not to minimize it (added 2026-08-19)**: **20-50mm, with ~25mm cited as the practical optimum** — even where wind load isn't a structural concern. The reasoning isn't cosmetic: a narrower joint forces shorter frame fixing screws/anchors, and shorter fixings flex/deform more under load over time than longer ones would in a wider joint. A wider joint (within the 20-50mm range) both allows longer, more rigid fixings and leaves more room for insulation — don't minimize this joint purely to save foam material or "clean up" the reveal unless a real structural/wind-load reason specifically calls for it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1_IcoSaNKP4_multitrade_qc_tour_049|note]]]
+
 ## Hardware Quality Checklist (Tape/Multi-Point Hardware)
 
 Described as "the single most important detail" of a PVC window — five criteria:

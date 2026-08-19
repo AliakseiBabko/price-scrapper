@@ -60,6 +60,13 @@ Different build-outward logic — start from the washer's own drain, not the sin
 
 Net layout: three drain outlets (washer 32mm, dishwasher 32mm, sink 50mm) and four supply outlets (washer cold, dishwasher cold, sink hot, sink cold) arranged along one horizontal band.
 
+## Kitchen Stub-Out Group Placement: Trash-Bin Clearance (added 2026-08-19)
+
+> [!NOTE]
+> A different, complementary aspect of kitchen stub-out planning — offset/placement, not the coordinate grid itself. Independent source. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fSEPr5fpfPM_kitchen_stubouts_ac_fridge_niche_166|note]]]
+
+**Offset the whole sink/dishwasher stub-out group left or right of the sink's own centerline — never center the group under the sink itself.** Purpose: leaves clear floor space directly under the sink cabinet for a floor-standing trash bin. This is a placement/positioning decision layered on top of the coordinate grid above, not a change to any of its numbers.
+
 ## Never Compress This Grid to Save Space
 
 **Explicit warning, both kitchen configurations**: the hot/cold supply spacing (75mm gaps) could technically be tightened to 50mm without immediate issue, but the drain lines cannot. At 32-50mm diameter, the required chase width plus the mandatory drain slope means compressed spacing forces extra elbow/joint bends and incorrect slope angles — described as "guaranteed" to cause intermittent drainage problems. This grid is presented as the minimum spacing that avoids drain-line conflicts while still leaving room under the sink for water filters and other under-sink appliances.

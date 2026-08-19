@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=1_IcoSaNKP4",
+  "video_id": "1_IcoSaNKP4",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T07:21:15.606384+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "b9798248cbb215b1a64de4a70289325fa1369cb08603962d829b5ed1f7f76855",
+  "attempts_before_success": []
+}

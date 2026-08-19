@@ -11,6 +11,22 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Covers slope material sele
 3. **No closing/retaining contour is possible on a plastered slope** — the cut edge of wallpaper terminating at the slope is always exposed and will eventually peel.
 4. **Plastering forces the installation foam joint to be trimmed thin/flush** — the frame-to-wall foam joint is already this system's known weakest point and should always be maximized, never thinned; plastering forces exactly the wrong compromise.
 
+**Independent corroboration (added 2026-08-19)**: a second, independent Zemskov/Zemstandart source confirms the paint-yellowing mechanism above specifically — even top-tier paint on a plastered slope yellows over time, while the frame-edge and plane-cracking failure modes can each individually be avoided with care; yellowing cannot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
+
+## Exception: Bay/Oriel (Эркерное) Windows — Plastered Is the Correct Choice Here (added 2026-08-19)
+
+> [!NOTE]
+> Refines, doesn't contradict, the "never appropriate" rule above — this is the one window geometry where the general recommendation reverses. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
+
+On a non-rectangular (angled/broken-plane) window opening, a plastic slope's snap-together trim system produces large, clearly visible seams at each angled corner joint. A visible seam is tolerable on a **sill** (occupants are already used to seeing a sill's connector profile there, and it yellows more slowly at that location) but conspicuous — and worsening as it yellows — on the **vertical/head slopes** of the same bay-window opening. On this specific geometry, the usual crack/yellowing downsides of a plastered slope are explicitly the lesser problem versus large visible plastic-trim seams: **reverse the general material recommendation for a bay/oriel window specifically**, and use plastered slopes there.
+
+## Trim-Free Premium-Look Finish for Plastic Slopes (added 2026-08-19)
+
+> [!NOTE]
+> A cosmetic finish variant of the standard sandwich-panel technique below — not a competing installation method, and not a durability upgrade. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
+
+To make a plastic slope read as plastered/premium rather than the cheaper-looking standard plastic install: **omit connector profiles and corner trim entirely.** Fit the sandwich panel (8mm thick in the worked example) directly, using a guide strip only to true the panel relative to the frame; trim the panel's own edge cleanly, then skim/putty it so wallpaper can be applied right up to the corner with no visible plastic trim strip at all. **Caution**: this finish doesn't remove the underlying risk that a hard door impact against the wall can delaminate wallpaper near the slope edge — true of plastic and plastered slopes alike, unrelated to whether trim is used.
+
 ## Two Legitimate Decorative (Uninsulated) Slope Exceptions
 
 Legitimate specifically because insulation/soundproofing isn't the point at these two locations:
@@ -27,6 +43,17 @@ Legitimate specifically because insulation/soundproofing isn't the point at thes
 5. **Both panel and profile hardware must be primary (virgin) plastic, never secondary (recycled)** — secondary plastic has unknown composition and visibly yellows within a few years (real example: window-sill end-caps, commonly secondary plastic, yellow against a still-white sill within ~3 years).
 
 **Named common installer shortcut, explicitly flagged as never acceptable**: skipping the closing contour entirely — butting a raw hand-cut sandwich-panel edge to the wall, puttying, wallpapering over. Three concrete failure mechanisms: hand-cut edges are visibly wavy once finished; putty/wallpaper bonds far better to wall than to a panel's raw cut edge, so the joint reliably peels; a sandwich panel is far softer/more flexible than plaster, so a heavy sash's repeated impact flexes it enough to crack the puttied seam over time.
+
+## Splay Angle: the 35mm Standard (added 2026-08-19)
+
+> [!NOTE]
+> A short, single-topic, high-precision source — despite the "how not to" title, a purely positive numeric-standard explainer. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XmtGo4BE1bw_window_slope_splay_angle_092|note]]]
+
+A slope's "splay" — the angle relative to the window frame so light spreads into the room and the slope reads as intentionally flared, rather than either flat/boxy or visibly caved-in — is **measured in centimeters at the widest point, not in degrees** (degrees are impractical to measure accurately on-site with hand tools). Method: set a square against the frame at the corner, then measure the maximum gap between the square's edge and the slope's actual surface.
+
+**Correct figure: 35mm, valid across a slope width range of 15-50cm** (covers effectively any apartment's window) — this settles a commonly-disputed figure (installers and clients often cite anywhere from 10 to 30 degrees, an already-wrong unit). At 35mm the slope reads as properly splayed without looking either flat ("coffin" profile) or excessively flared ("gun-slit" profile).
+
+**Asymmetry tolerance**: the two side slopes must match each other's splay exactly, but the top slope may differ from the sides by 5-10mm without being a defect — a top slope splayed slightly *more* than the sides (up to +5-10mm) actually looks better, not worse, since it's viewed from below at a steeper angle and reads as straighter than it measures. Don't insist an installer rework a top slope to match the sides exactly.
 
 ## Sandwich-Panel Install Sequence
 

@@ -1,0 +1,14 @@
+# Heating — Source Notes
+
+Traceability record for [[12_Engineering_and_Systems/Heating|Heating]] and its `analysis/` pages. Not reader content — this exists so a claim can be traced back to evidence.
+
+All 4 sources are the same channel — Zemstandart/Zemsproekt (Alexey Zemskov), Moscow-area, `single-account` throughout unless noted.
+
+- **Underfloor heating type comparison — water vs. electric vs. film, 10-parameter breakdown** (#097, 2019-07-21) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8RIyq8nZ9EQ_underfloor_heating_type_comparison_097|full extraction note]].
+- **Where underfloor heating is needed — 3 placement rules** (#096, 2019-07-16, uploaded 5 days before the type-comparison video as an explicit two-part series) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C1L06upDI98_underfloor_heating_placement_rules_096|full extraction note]].
+- **Floor-standing radiator risks and mitigation techniques** (#043, 2019-01-31) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-Kh9JZ34zRc_floor_standing_radiator_risks_043|full extraction note]].
+- **In-floor convector risks, including a documented severe safety incident** (#041, 2019-01-29, 10+ years of the speaker's own stated installation/service experience) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|full extraction note]].
+- **Wall-mounted radiator false-wall depth by wall type** (#212, 2023-05-30, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OUX-lc5Wqog_irregular_apartment_replanning_212|full extraction note]] (irregular-apartment replanning source; radiator false-wall detail is one of several planning facts extracted from it, routed here since it's the only heating-relevant one).
+- **Radiator wall-embedding two-condition decision rule** (Земсремонт/Земстандарт, "How Not to Renovate an Apartment DIY?" #049, 2019-02-09, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1_IcoSaNKP4_multitrade_qc_tour_049|full extraction note]] (multi-trade source; its plumbing and windows content routed to other pages).
+
+**Related content on other pages, not duplicated here**: underfloor-heating *thermostat placement* (visibility, mounting height, eye-level rationale) is covered on [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Bathroom: Heated Floor & Thermostat]] (`yt_uwXBHuWPUIo`, `yt_zaZGEW8sdV4`) — that content predates this page and was routed there under the room-level thermostat-control framing before this page existed to hold the type-selection/fixture-risk content instead.

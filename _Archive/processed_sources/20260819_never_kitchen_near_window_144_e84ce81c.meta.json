@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=qzfABiffDB8",
+  "video_id": "qzfABiffDB8",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T07:01:28.433526+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e84ce81ce0899ac59faa512bde9c975a42ac2b2ebfbd8da34c3c4c895ec64c0a",
+  "attempts_before_success": []
+}
