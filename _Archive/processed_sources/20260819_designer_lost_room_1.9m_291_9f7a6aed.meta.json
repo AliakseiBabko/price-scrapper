@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=cO56TxjBifo",
+  "video_id": "cO56TxjBifo",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T08:02:07.003881+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "9f7a6aed198617efb84ac8bc2e590a72b2dfb6ba39942fa3e231755c59998e91",
+  "attempts_before_success": []
+}

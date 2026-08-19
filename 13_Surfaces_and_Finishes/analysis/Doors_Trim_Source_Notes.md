@@ -32,4 +32,9 @@ Traceability record for [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]]
 - Switch-hand door-swing ergonomics nuance — `_Archive/processed_sources/20260804_room_tour_switches_doors_waterproofing_1b1017a6.txt`.
 - Second opening-height figure (2.06m), same channel as pre-plastering QC — `_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt`.
 
+**Fifth batch — Category 5 further-pool batch, chunk 1 (added 2026-08-19):**
+- "7 reasons to demolish developer walls" — 110cm doorway-opening formula (independent re-derivation), bathtub-width-to-adjoining-wall-width formula — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_p-6OI34C6bw_seven_reasons_demolish_developer_walls_304|extraction note]] (#304, 2025-04-27).
+- "Lost 2.8 million and two kids" — door-opening-height reference-plane failure case (screed vs. slab), corroborating the 2.07m derivation from the opposite direction — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_M16Se18eB6A_lost_2.8m_and_two_kids_285|extraction note]] (#285, 2024-10-13).
+- "When the designer's roof flew off" — door-swing-direction rule (general, no numeric standard) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EnSpVCSUiqg_designer_lost_it_apartment_307|extraction note]] (#307, 2025-05-18) — not incorporated into this page's body (redundant with the existing Door Swing-Direction Rule page).
+
 Full raw facts (including cross-references and dating/region caveats not repeated here) live in the `Doors / Trim` sections of [[11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_budgeting_knowledge_store|renovation_budgeting_knowledge_store.md]].

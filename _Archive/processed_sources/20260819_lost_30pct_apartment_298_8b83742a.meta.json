@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=3Otf-oBcMqg",
+  "video_id": "3Otf-oBcMqg",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T08:00:09.744507+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8b83742ac8ea980d83ff6a29227fb54eb941c5d0fcf824ff212d74a5bb8d2064",
+  "attempts_before_success": []
+}

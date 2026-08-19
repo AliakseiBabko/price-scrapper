@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=M16Se18eB6A",
+  "video_id": "M16Se18eB6A",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T08:03:14.871903+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "505356be3328ddce75e7d9dac35fc6d41df29148ad3adecd222247ccd9a954fe",
+  "attempts_before_success": []
+}
