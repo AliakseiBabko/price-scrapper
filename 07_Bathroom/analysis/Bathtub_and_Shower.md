@@ -116,6 +116,10 @@ A concrete problem worth planning for explicitly: fixed elements (a load-bearing
 - **Correct: build a proper tiled utility column with its access opening facing the hallway/corridor side, never the tub side.** A tub-side opening gets water intrusion, makes the lower portion unusable, and leaves the upper portion unreachable. Access from the corridor instead avoids all three problems and gives a large, genuinely useful, floor-to-ceiling storage column.
 - **Construction detail**: tile the tub's own apron/screen with the same tile as the surrounding wall, so the junction between the apron and the new utility column reads as one continuous surface meeting at a clean 45°-mitered corner.
 
+## Bathtub-Then-Tile Sequencing (added 2026-08-19, remainder-pool Round 2)
+
+**⚠️ Install the bathtub first, flush against three walls, then tile *over* the tub's own edge/rim** — never tile the walls first and push the tub up against an already-finished tile perimeter, which forces an ugly trim/edge detail around the tub that doesn't even prevent water intrusion any better. Stated definitively as the correct order of operations, extending this page's existing tile-over-tub-apron technique with an explicit sequencing rule. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nbrDFET2AXk_90_mistakes_part2_295|YT_nbrDFET2AXk]]]
+
 ## Combined Wall-Thickening Technique: Tub Ledge Removal + Mixer Reach (added 2026-08-19, remainder-pool Round 2)
 
 **⚠️ Thickening a wall by ~10cm to shift a bathtub's outer edge forward can solve two unrelated problems at once**: it eliminates an awkward horizontal ledge/shelf next to the tub (a hard-to-clean, bacteria-collecting surface that otherwise forms when the tub sits recessed from the wall face) *and* it makes a wall-mounted mixer noticeably easier to reach from within the tub. A single ~10cm wall adjustment addressing both issues together. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MWDcYHqe-iQ_designer_apartment_walkthrough_288|YT_MWDcYHqe-iQ]]]

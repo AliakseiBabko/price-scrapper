@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=vRLdOS5HTTU",
+  "video_id": "vRLdOS5HTTU",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T14:36:03.914316+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "117102f102d11b2f2ce55f5460f484718cd8cc71971d40d406d71fae4d4b344e",
+  "attempts_before_success": []
+}

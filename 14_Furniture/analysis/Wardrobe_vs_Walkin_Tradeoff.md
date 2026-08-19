@@ -22,3 +22,11 @@ A single-sided walk-in's aisle is dead space a plain wardrobe doesn't need. Part
 **Zemskov's fix**: a short (2.16m) dividing wall, cost under 2,000 RUB, converting the L into two separate rectangular niches — letting a built-in sliding-door wardrobe replace the free-standing one, using full ceiling height and losing zero length to a transitional section. He frames this as solving five separate problems (wardrobe cost, ceiling, flooring, baseboard-termination) with one cheap structural change.
 
 **This corroborates, with a specific quantified figure (~30% length loss), the same built-in-vs-corpus wardrobe cost theme as above** — now with Zemskov's own real-project waste percentage attached.
+
+## Open Walk-In Storage vs. Simple Wardrobe: ~2.5× Space Cost for the Same Capacity (added 2026-08-19, remainder-pool Round 2)
+
+**⚠️ A real documented case shows an open walk-in-style bedroom storage area consuming roughly 2.5× more floor area than an equivalent-capacity simple wardrobe, while storing the *same total amount of clothing*** — and additionally creating an exposed, unprotected external corner that takes repeated wear/damage from normal use. A concrete quantified data point reinforcing this page's core built-in/walk-in space-efficiency theme, this time comparing an open walk-in layout against a plain wardrobe rather than built-in vs. free-standing. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OnKreLhmLYY_90_mistakes_part3_299|YT_OnKreLhmLYY]]]
+
+## Wardrobe-Niche Dimensional-Consistency Check (added 2026-08-19, remainder-pool Round 2)
+
+**⚠️ Verify a storage niche's width is uniform from bottom to middle to top *before* choosing a sliding-door or hinged-door wardrobe system.** A real documented case: a ~4cm dimensional inconsistency across a niche's height made neither a sliding-door nor a hinged-door mechanism installable, forcing a downgrade to a simple shower-curtain-on-a-wire improvised solution instead of real doors. Check this dimensional consistency early, before a door system is ordered. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nbrDFET2AXk_90_mistakes_part2_295|YT_nbrDFET2AXk]]]
