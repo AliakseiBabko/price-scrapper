@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=78FeaeMZHOI",
+  "video_id": "78FeaeMZHOI",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T11:22:29.863097+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "aac35bd0ac76db5931247aa4ed78062489e7f61228f709cf3ac3c00ea5f9034b",
+  "attempts_before_success": []
+}

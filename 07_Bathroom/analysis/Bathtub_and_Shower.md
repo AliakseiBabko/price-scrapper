@@ -86,6 +86,10 @@ A real plumbing constraint, not just an aesthetic choice — see [[12_Engineerin
 - **A reinforcing support brace is a real, cheap safety component frequently omitted by installers who claim it's "not included" with a shower glass kit** — universal braces that fit nearly any shower glass design are now widely available. Without it, a person leaning on the glass panel risks shattering it into fragments or tearing the mounting clips out of the wall. Confirm a brace is included whenever installing shower glass.
 - **A small custom-fabricated rubber gasket/strip at floor level behind a fixed shower glass panel, specifically where the floor lacks proper slope, prevents water running down the glass from pooling at that one untreated spot.** Typically hand-made by the installer, not a stock part — ask for it specifically rather than assuming it's included.
 
+## Handheld Showerhead Mounting
+
+**A handheld showerhead needs an adjustable-height mounting rod, not a fixed bracket — now a three-source corroborated finding.** A fixed-height mount (whether standalone or as a secondary option beside a rain/tropical shower) forces every user regardless of height into the same position; documented defects include a fixed height too low for comfortable head-washing by a taller user, and a fixed rain-shower-only installation with no separate adjustable handheld option at all, leaving no way to wash at a comfortable height without standing directly under the fixed head. `single-account` each, `unverified`. [sources: the earlier Category 5 trial's `o7lGqaUuGm0`, [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEpRx5Pe7to_designer_disaster_20m_277|YT_iEpRx5Pe7to]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cWRgenv4B40_full_disaster_30m_274|YT_cWRgenv4B40]] (fixed-height-only rain shower with no handheld alternative)]
+
 ## Shower Cabins (Built, Not Prefab)
 
 Excluding prefab plastic shower-cabin units (discouraged elsewhere — see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]]), a built shower cabin is tile/glass walls over a pan/base — the base material choice is the main decision:
