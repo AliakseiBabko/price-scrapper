@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=LVerbq1hkxg",
+  "video_id": "LVerbq1hkxg",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T11:41:22.621137+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "43721837bc433a7246389afe851bc6bfcb076f81691302c5471f17b50ac271c2",
+  "attempts_before_success": []
+}

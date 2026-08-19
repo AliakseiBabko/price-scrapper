@@ -6,6 +6,10 @@ Covers minimum functional width, opening-relocation technique, manufacturer pric
 
 **Minimum functional clear/light opening width: ~74 cm (740 mm)** — the practical floor below which passing through with furniture (e.g. a non-collapsible armchair) becomes impractical. This floor should take priority over cosmetic rules (e.g. casing standoff — see [[13_Surfaces_and_Finishes/analysis/Rough_Opening_and_Casing_Sizing|Rough-Opening & Casing Sizing]]) when a hard site constraint (a neighboring wall, embedded electrical conduit) forces a choice.
 
+**A practical maximum leaf width exists too, not just the minimum above: roughly 90cm.** Past about 1 meter, an entrance door leaf becomes genuinely heavy and a real injury risk, without meaningfully improving function beyond that point. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HLiLNZpVWpg_max_disaster_258|YT_HLiLNZpVWpg]]]
+
+**A building/HOA can prohibit residents from changing developer-installed entrance-door swing direction at all — verify this constraint before assuming a swing-direction fix is available**, not just a technique choice. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6syO3dTButw_designer_disaster_66m2_259|YT_6syO3dTButw]]]
+
 **Relocating a developer-installed entrance door opening in a light partition wall is generally low-complexity**: cut/rebuild the wall section, weld a steel angle-iron frame (~8 mm stock) around the new opening for reinforcement, backfill with cement-sand mortar, weld the door frame to the angle-iron, plaster to conceal it, and finish reveals with standard interior-door jamb-extension panels to match. One documented real project shifted an opening ~30 cm this way; the only cited downside was needing anti-vandal stairwell-plaster repair, and no cost figures were given. `single-account`, real project in a light aerated-concrete partition — **may not generalize to load-bearing walls or larger shifts.**
 
 ## Manufacturer Pricing Tiers

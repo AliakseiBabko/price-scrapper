@@ -21,6 +21,11 @@
 
 - **Primary cooking zone = the counter run between the sink and the cooktop** — where most hands-on food prep happens; maximize this span when laying out a kitchen. **Secondary zones** (outside that span) are the right place for "parking spot" storage of occasionally-used small appliances (e.g. a meat grinder stored in a drawer) or a permanently-plugged-in appliance kept out (e.g. a coffee machine on a dedicated countertop spot).
 
+## Task Lighting & Countertop Material (added 2026-08-19)
+
+- **Cooking-zone task lighting should be diffuse, not sharp directional spotlighting — a mechanism-explained rule, not just a style preference.** Any directional light source, however bright, casts a hand/head/body shadow directly onto the work surface as the cook leans in, risking both reduced visibility and unnoticed contamination (hair, debris) falling into food unseen. **Prefer a diffused light source over the primary cooking/prep zone specifically to avoid this shadow-casting failure mode.** `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6syO3dTButw_designer_disaster_66m2_259|YT_6syO3dTButw]]]
+- **Ultra-thin countertop material (as thin as 9mm) exists specifically to resolve a height conflict between a tall appliance (e.g. a maxi-height dishwasher) and a shorter user's ergonomic counter-height needs** — using a standard-thickness countertop in this situation pushes the whole counter uncomfortably high for a shorter user; the thin material keeps the counter at a workable height while still clearing the appliance. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6syO3dTButw_designer_disaster_66m2_259|YT_6syO3dTButw]]]
+
 ## Space & Cost Tricks
 
 - **Twin-fridge trick for a very wide fridge footprint**: install two ordinary standard-width (~60cm) fridges side-by-side facing each other instead of one wide built-in unit of the same total width. Claimed significantly cheaper than a single large built-in fridge, with the added benefit that one unit still functions as a partial backup if the other fails. `single-account`, `unverified` relative cost claim (no absolute figures given).

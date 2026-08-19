@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=HLiLNZpVWpg",
+  "video_id": "HLiLNZpVWpg",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-19T11:40:11.570732+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "aecb5abc049c28353193e928e123f19f0d0292bc46fa27a4ed3ee1a89d9e4e1a",
+  "attempts_before_success": []
+}
