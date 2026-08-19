@@ -1,0 +1,105 @@
+# Zemskov/Zemstandart remainder pool — post-Category-5 continuation
+
+**Created 2026-08-19**, after the full Category 5 batch (37 videos, 2 trials + 4 chunks)
+closed out the original full-channel triage (`_Inbox/planning/zemskov_full_channel_triage.md`).
+This file tracks the **~56-video remainder** that the original triage's Category 5
+candidate-derivation pass (`_Inbox/planning/zemskov_category5_candidates_20260819.md`,
+its "Explicitly excluded from Category 5" section) set aside as *not* matching the strict
+"$X wasted, thanks to the designer/developer" dunk pattern — but which is still real,
+untouched renovation content from this channel.
+
+## Scope decision (explicit user direction, 2026-08-19)
+
+The user's own renovation is a **new-build apartment**, not secondary/old-building
+("вторичка"/старый фонд) housing. When a candidate video turns out to be specifically
+about secondary/old-building renovation:
+- **Do not skip it outright** — old-building videos can still contain general technique
+  tips that cross over to new-build (electrical, plumbing-component choices, balcony
+  enclosure technique, etc.).
+- **Do extract only the crossover-relevant points** (PARTIAL extraction), explicitly
+  skipping content that's inherently old-building-specific (weak-wall entrance-door
+  reinforcement, cast-iron-stack replace/keep judgment, old-wall soundproofing retrofit
+  thickness, "temper your expectations" framing for cramped old layouts, etc.).
+- See `YT_ajtv-urp18I_old_building_crossover_tips_101.md` for a worked example of this
+  exact scoping decision already applied once.
+
+Everything else about this project's standing conventions (serialize fetches, wiki-route
+per-chunk not deferred, branch→commit→push→merge→delete-branch, CSV `run_id` format,
+confidence tagging, etc.) is unchanged — see `.agents/skills/renovation-knowledge-intake/SKILL.md`
+(read directly, **not** via the `Skill` tool — see that file's own "How to invoke this
+file" note) for the full canonical process.
+
+## Two permanently-excluded buckets — never fetch these
+
+These were excluded by design during the original Category 5 candidate derivation and
+that decision still stands; they are **not** part of this remainder pool's further work:
+
+- **Channel-meta/self-promo (11 videos)**: `WGlKAKn6hQY`, `peyUIi32BpM`, `Y7YU4tKDxfg`,
+  `2Ha1CBay93Y`, `SlnTNHiYzUo`, `YDXw0qHMaBI`, `dZ4_TkZmO2M`, `e0jbZYAFT_g`,
+  `SUUGeKWlcj4`, `widAQZWdMcU`, `304zZRMZUoQ`.
+- **Legal/dispute/named-individual callout (4 videos)**: `oycgnkyYii4` ("Wall of Shame"),
+  `sxUZ_TwgMdQ`, `Duyq7P53pH4`, `ayQj0W9rd8o` (middleman lawsuit content).
+
+## Already processed from this remainder pool (7 videos, 2026-08-19 session)
+
+A probe (3 videos, user-requested) followed by one small batch (4 videos):
+
+| Video ID | Title | Outcome |
+|---|---|---|
+| `zPR8PGWq5lA` | "О чём жалеют после ремонта? #229" | ✅ FULL — new-build, title/content mismatch (real 3-year deviations-and-costs case study), dense |
+| `ajtv-urp18I` | "Ремонт квартиры в старой пятиэтажке #101" | ⚠️ PARTIAL — old-building, only crossover tips extracted per scoping rule |
+| `MIA1tpRglGg` | "Затопили квартиру с готовым ремонтом! #068" | ❌ SKIPPED — no captions (genuine failure, confirmed via both fetch methods) |
+| `_ahC-OK0dp4` | "Самый удобный ремонт квартиры в новостройке #508" | ✅ FULL — new-build, 1-year client testimonial |
+| `jrqEbkU4Wj8` | "Когда застройщик хуже дизайнера #257" | ✅ FULL — new-build, standout door-swing-direction exception finding |
+| `hvPddB5Lc1s` | "Самые дикие ошибки в ремонте квартиры. Румтур #103" | ✅ FULL — hotel-room QC tour format, several new ergonomic rules |
+| `HHIUvRywQ6k` | "Самая сложная двушка что я видел! #226" | ✅ FULL — new-build, rare level-1 St. Petersburg region confirmation |
+
+All 7 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
+source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/`,
+are integrated into the intermediate store's Change Log, and were wiki-routed the same
+session (see each source note's own "Target Page(s)" section for exactly which wiki
+pages were touched). Merged to `main` — no lingering branch.
+
+## Remaining candidates (17 videos, not yet touched)
+
+Cross-reference each ID against `00_Master/processed_sources.csv` before fetching
+(a fresh session should re-verify, not just trust this table, in case another session
+processed one of these in the meantime):
+
+| Video ID | Title | Notes |
+|---|---|---|
+| `o4KitYl8vpU` | "THE STUPIDEST LAYOUT I'VE EVER SEEN. APARTMENT RENOVATION #116" | — |
+| `Af8nNyn9a_c` | "САМАЯ ГЛУПАЯ ОШИБКА В ПЛАНИРОВКЕ КВАРТИРЫ #113" | — |
+| `WmkOC9uKnCQ` | "BEST KITCHEN-LIVING ROOM LIFE HACK #154" | technique-format, likely dense |
+| `7qxFoOsLAe8` | "ДИЗАЙН КУХНИ-ГОСТИНОЙ СВОИМИ РУКАМИ! #134" | technique-format, likely dense |
+| `v7UXJ5fJ0H0` | "ХУДШАЯ КВАРТИРА 2019 ГОДА #520" | **#5xx numbering — verify it's actually renovation content before fetching** (see caution below) |
+| `f1KpZOQSZgQ` | "ПРОЕКТ И РЕМОНТ ДВУХКОМНАТНОЙ КВАРТИРЫ 60м2 #513" | **#5xx — same caution**; real case-study title otherwise |
+| `ZvyXuUJ__Ag` | "APARTMENT RENOVATION. BEWARE OF MIDDLEMEN! #511" | **#5xx — same caution**; consumer-protection framing, moderate risk of thin content |
+| `JHP3Fuf2KyA` | "САМАЯ БЕСПОЛЕЗНАЯ ДВУШКА ЧТО Я ВИДЕЛ #066" | **early-number (#066) — real no-captions risk**, like `MIA1tpRglGg` #068 |
+| `3PJJTDkppUg` | "НЕ ДАЙ СЕБЯ ОБМАНУТЬ НА РЕМОНТЕ! #504" | **#5xx — same caution** |
+| `XahTpDGjf9w` | "КАК ВЗЛОМАТЬ ЛЮБУЮ КВАРТИРУ! #204" | security/lock-focused, niche angle |
+| `n7X10oIqugU` | "THE MOST SHITTY APARTMENT I'VE EVER SEEN! #252" | — |
+| `8Xy-h8cS_-s` | "THE WORST TWO-ROOM APARTMENT I'VE EVER SEEN! #234" | — |
+| `W9cCxVQVVes` | "THE HARDEST ONE-ROOM APARTMENT! #232" | layout-challenge format, this format scored well in this session |
+| `HVSZh0lH9hk` | "САМАЯ Е..НУТАЯ ДВУШКА ЧТО Я ВСТРЕЧАЛ!!! #230" | — |
+| `1pU60p0Jh3A` | "The worst two-room apartment I've ever seen!!! #228" | title very close to `8Xy-h8cS_-s` — check for duplicate/reused-script risk before assuming independent value (this channel has done this before, see Category 5 chunk 1's `N0AvLnbDShs`) |
+| `ZVoExA0t6nI` | "THE MOST USELESS 3-BEDROOM APARTMENT I'VE EVER SEEN! #223" | — |
+| `D8t1ADisUE8` | "ODNUSHKA FOR 200 LEMONS!!! #246" | dunk-style title despite being in this bucket — worth a title/content-mismatch check |
+
+**Caution on `#5xx`-numbered videos**: `LVerbq1hkxg` (#549, processed in the Category 5
+batch) turned out to be an almost entirely off-topic sponsored car-fleet promotional
+video wearing a renovation-critique title. Four videos in this remaining list
+(`v7UXJ5fJ0H0` #520, `f1KpZOQSZgQ` #513, `ZvyXuUJ__Ag` #511, `3PJJTDkppUg` #504) share
+that same non-sequential high-number pattern relative to this channel's other
+~#200-280-era videos. Not a reason to skip them outright, but fetch-and-read-first
+before assuming the title reflects the content, same as any other spot-check.
+
+## Suggested next step
+
+Continue in small batches (3-4 videos), same pipeline as the 2026-08-19 session:
+verify unprocessed against the CSV → fetch serialized with real spacing → extract
+(applying the new-build-focus scoping rule above) → integrate into the intermediate
+store → wiki-route the same session → CSV log → archive transcripts → branch → commit →
+push → merge to `main` → delete branch. Update the table above (move rows from
+"remaining" to "already processed") as each batch completes, so this file stays the
+single source of truth for a fresh session picking this up.
