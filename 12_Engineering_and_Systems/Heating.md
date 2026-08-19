@@ -29,6 +29,12 @@ Overview of in-apartment heating: choosing between hydronic (water), electric, a
 
 → **[[12_Engineering_and_Systems/analysis/Radiators_and_Convectors|Full detail]]** (the full risk list for both fixture types, the mitigation techniques, the safety incident in full)
 
+## ⚠️ Buying a "Pre-Renovated" Unit: Verify Underfloor Heating Claims Independently
+
+**A visible thermostat is not evidence of a working underfloor-heating system.** A documented real case: buyers were shown three apparently-functioning thermostats before purchase, each labeled for a different zone — after moving in, activating them caused sparking, and investigation found the thermostats received power but had no heating cable connected at all (their output wiring was simply short-circuited together); a cable detector confirmed no heating element existed anywhere under the tile. If buying a unit with claimed underfloor heating already installed, confirm it independently (a cable/stud detector check, or asking to see it actually running warm) rather than accepting a thermostat's presence or a seller's verbal claim as proof.
+
+→ **[[12_Engineering_and_Systems/analysis/Heating_Type_Selection|Full detail is in the Type Selection page's own due-diligence note]]**
+
 ## Source Notes
 
 Traceability record moved to its own page — [[12_Engineering_and_Systems/analysis/Heating_Source_Notes|Source Notes]]. Not reader content, kept off this page by design.
