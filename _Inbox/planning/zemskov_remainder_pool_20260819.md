@@ -40,7 +40,7 @@ that decision still stands; they are **not** part of this remainder pool's furth
 - **Legal/dispute/named-individual callout (4 videos)**: `oycgnkyYii4` ("Wall of Shame"),
   `sxUZ_TwgMdQ`, `Duyq7P53pH4`, `ayQj0W9rd8o` (middleman lawsuit content).
 
-## Already processed from this remainder pool (15 videos, 2026-08-19 session)
+## Already processed from this remainder pool (19 videos, 2026-08-19 session)
 
 A probe (3 videos, user-requested) followed by one small batch (4 videos):
 
@@ -61,24 +61,32 @@ A probe (3 videos, user-requested) followed by one small batch (4 videos):
 | `f1KpZOQSZgQ` | "ПРОЕКТ И РЕМОНТ ДВУХКОМНАТНОЙ КВАРТИРЫ 60М2 #513" | ✅ FULL — client workflow interview, process heuristics + 2 design cautions |
 | `ZvyXuUJ__Ag` | "APARTMENT RENOVATION. BEWARE OF MIDDLEMEN! #511" | ⚠️ PARTIAL — named-individual dispute content excluded, only generalizable scam-mechanism/red-flags extracted |
 | `JHP3Fuf2KyA` | "САМАЯ БЕСПОЛЕЗНАЯ ДВУШКА ЧТО Я ВИДЕЛ #066" | ❌ SKIPPED — no captions (genuine failure, matches the early-number-risk caution) |
+| `3PJJTDkppUg` | "НЕ ДАЙ СЕБЯ ОБМАНУТЬ НА РЕМОНТЕ! #504" | ✅ FULL — confirmed title/content mismatch, pure expense-tracking-methodology video, high relevance to self-managed plan |
+| `XahTpDGjf9w` | "КАК ВЗЛОМАТЬ ЛЮБУЮ КВАРТИРУ! #204" | ❌ SKIPPED — no captions (genuine failure) |
+| `n7X10oIqugU` | "THE MOST SHITTY APARTMENT I'VE EVER SEEN! #252" | ✅ FULL — dense full-replan case; corrected WC-width figure to a corroboration of existing WC_Guide.md formula |
+| `8Xy-h8cS_-s` | "THE WORST TWO-ROOM APARTMENT I'VE EVER SEEN! #234" | ✅ FULL — dense numeric planning-logic masterclass; title-similarity duplicate-risk flag against `1pU60p0Jh3A` still outstanding |
 
-All 15 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
+All 19 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
 source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/`,
 are integrated into the intermediate store's Change Log, and were wiki-routed the same
 session (see each source note's own "Target Page(s)" section for exactly which wiki
 pages were touched). Merged to `main` — no lingering branch.
 
-## Remaining candidates (9 videos, not yet touched)
+## Remaining candidates (5 videos, not yet touched)
 
 Cross-reference each ID against `00_Master/processed_sources.csv` before fetching
 (a fresh session should re-verify, not just trust this table, in case another session
 processed one of these in the meantime):
 
-**Update 2026-08-19 (third batch)**: the #5xx-off-topic-risk hypothesis (from `LVerbq1hkxg` #549) is now **disconfirmed as a general pattern** — `v7UXJ5fJ0H0` (#520) turned out dense and fully on-topic. Still worth a fetch-and-read-first spot-check per this file's usual practice, but no longer a reason for extra caution specifically.
+**Update 2026-08-19 (fourth batch)**: `8Xy-h8cS_-s` (#234, "The Worst Two-Room Apartment I've Ever Seen!") is now processed and its title-similarity duplicate-risk flag against `1pU60p0Jh3A` below is still outstanding — when `1pU60p0Jh3A` is processed, compare both source notes directly for script/content reuse before assuming independent value.
 
 | Video ID | Title | Notes |
 |---|---|---|
-| `3PJJTDkppUg` | "НЕ ДАЙ СЕБЯ ОБМАНУТЬ НА РЕМОНТЕ! #504" | — |
+| `W9cCxVQVVes` | "THE HARDEST ONE-ROOM APARTMENT! #232" | layout-challenge format, this format scored well in this session |
+| `HVSZh0lH9hk` | "САМАЯ Е..НУТАЯ ДВУШКА ЧТО Я ВСТРЕЧАЛ!!! #230" | — |
+| `1pU60p0Jh3A` | "The worst two-room apartment I've ever seen!!! #228" | **title very close to `8Xy-h8cS_-s` (now processed) — compare both for duplicate/reused-script risk before assuming independent value** |
+| `ZVoExA0t6nI` | "THE MOST USELESS 3-BEDROOM APARTMENT I'VE EVER SEEN! #223" | — |
+| `D8t1ADisUE8` | "ODNUSHKA FOR 200 LEMONS!!! #246" | dunk-style title despite being in this bucket — worth a title/content-mismatch check |
 | `XahTpDGjf9w` | "КАК ВЗЛОМАТЬ ЛЮБУЮ КВАРТИРУ! #204" | security/lock-focused, niche angle |
 | `n7X10oIqugU` | "THE MOST SHITTY APARTMENT I'VE EVER SEEN! #252" | — |
 | `8Xy-h8cS_-s` | "THE WORST TWO-ROOM APARTMENT I'VE EVER SEEN! #234" | — |
