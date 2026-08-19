@@ -11,3 +11,7 @@ A coherent, safety-grounded rule set from a single source, internally consistent
 **A related switch-hand nuance (same channel)**: an entry door should swing toward the side where the switch is reachable, so a person entering can close the door with one hand while the other hand naturally reaches the switch — a door swinging away from the switch side was called out as a specific, avoidable design mistake on a real site. `unverified`, `single-account`.
 
 See [[13_Surfaces_and_Finishes/analysis/Rough_Opening_and_Casing_Sizing|Rough-Opening & Casing Sizing]] for the frame-level installation-plane-offset detail that implements this same safety logic at the physical-construction level.
+
+## Diagnostic: No Valid Swing Direction Means Relocate the Opening (added 2026-08-19, remainder-pool batch)
+
+**If a door opening's position (e.g. on a diagonal corner, or hemmed in by fixtures on multiple sides) leaves the door leaf conflicting with something in every possible swing direction, the fix is almost always relocating the opening itself, not compromising on a "least-bad" swing.** Documented case: a bathroom door as originally positioned by the developer would have conflicted with the kitchen entrance, the bedroom exit, the sink, or the towel warmer depending on which way it swung — every option failed until the opening itself was moved to a wall section clear of all four conflicts. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|YT_v7UXJ5fJ0H0]]]

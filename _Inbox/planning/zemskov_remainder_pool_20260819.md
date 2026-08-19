@@ -40,7 +40,7 @@ that decision still stands; they are **not** part of this remainder pool's furth
 - **Legal/dispute/named-individual callout (4 videos)**: `oycgnkyYii4` ("Wall of Shame"),
   `sxUZ_TwgMdQ`, `Duyq7P53pH4`, `ayQj0W9rd8o` (middleman lawsuit content).
 
-## Already processed from this remainder pool (11 videos, 2026-08-19 session)
+## Already processed from this remainder pool (15 videos, 2026-08-19 session)
 
 A probe (3 videos, user-requested) followed by one small batch (4 videos):
 
@@ -57,26 +57,28 @@ A probe (3 videos, user-requested) followed by one small batch (4 videos):
 | `Af8nNyn9a_c` | "САМАЯ ГЛУПАЯ ОШИБКА В ПЛАНИРОВКЕ КВАРТИРЫ #113" | ✅ FULL — new-build, wall-plane flush-alignment technique + quantified 10% exception |
 | `WmkOC9uKnCQ` | "BEST KITCHEN-LIVING ROOM LIFE HACK #154" | ✅ FULL — new-build, dense numeric kitchen-living-loggia sequence; radiator-niche formula flagged as same-project overlap with `CHCB4KPupyc` |
 | `7qxFoOsLAe8` | "ДИЗАЙН КУХНИ-ГОСТИНОЙ СВОИМИ РУКАМИ! #134" | ❌ SKIPPED — no captions (genuine failure, confirmed via both fetch methods) |
+| `v7UXJ5fJ0H0` | "THE STUPIDEST LAYOUT I'VE EVER SEEN 2019. #520" | ✅ FULL — new-build, confirmed title/content mismatch, dense real 111.5m² full-replan case; disconfirms the #5xx-off-topic hypothesis |
+| `f1KpZOQSZgQ` | "ПРОЕКТ И РЕМОНТ ДВУХКОМНАТНОЙ КВАРТИРЫ 60М2 #513" | ✅ FULL — client workflow interview, process heuristics + 2 design cautions |
+| `ZvyXuUJ__Ag` | "APARTMENT RENOVATION. BEWARE OF MIDDLEMEN! #511" | ⚠️ PARTIAL — named-individual dispute content excluded, only generalizable scam-mechanism/red-flags extracted |
+| `JHP3Fuf2KyA` | "САМАЯ БЕСПОЛЕЗНАЯ ДВУШКА ЧТО Я ВИДЕЛ #066" | ❌ SKIPPED — no captions (genuine failure, matches the early-number-risk caution) |
 
-All 11 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
+All 15 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have
 source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/`,
 are integrated into the intermediate store's Change Log, and were wiki-routed the same
 session (see each source note's own "Target Page(s)" section for exactly which wiki
 pages were touched). Merged to `main` — no lingering branch.
 
-## Remaining candidates (13 videos, not yet touched)
+## Remaining candidates (9 videos, not yet touched)
 
 Cross-reference each ID against `00_Master/processed_sources.csv` before fetching
 (a fresh session should re-verify, not just trust this table, in case another session
 processed one of these in the meantime):
 
+**Update 2026-08-19 (third batch)**: the #5xx-off-topic-risk hypothesis (from `LVerbq1hkxg` #549) is now **disconfirmed as a general pattern** — `v7UXJ5fJ0H0` (#520) turned out dense and fully on-topic. Still worth a fetch-and-read-first spot-check per this file's usual practice, but no longer a reason for extra caution specifically.
+
 | Video ID | Title | Notes |
 |---|---|---|
-| `v7UXJ5fJ0H0` | "ХУДШАЯ КВАРТИРА 2019 ГОДА #520" | **#5xx numbering — verify it's actually renovation content before fetching** (see caution below) |
-| `f1KpZOQSZgQ` | "ПРОЕКТ И РЕМОНТ ДВУХКОМНАТНОЙ КВАРТИРЫ 60м2 #513" | **#5xx — same caution**; real case-study title otherwise |
-| `ZvyXuUJ__Ag` | "APARTMENT RENOVATION. BEWARE OF MIDDLEMEN! #511" | **#5xx — same caution**; consumer-protection framing, moderate risk of thin content |
-| `JHP3Fuf2KyA` | "САМАЯ БЕСПОЛЕЗНАЯ ДВУШКА ЧТО Я ВИДЕЛ #066" | **early-number (#066) — real no-captions risk**, like `MIA1tpRglGg` #068 |
-| `3PJJTDkppUg` | "НЕ ДАЙ СЕБЯ ОБМАНУТЬ НА РЕМОНТЕ! #504" | **#5xx — same caution** |
+| `3PJJTDkppUg` | "НЕ ДАЙ СЕБЯ ОБМАНУТЬ НА РЕМОНТЕ! #504" | — |
 | `XahTpDGjf9w` | "КАК ВЗЛОМАТЬ ЛЮБУЮ КВАРТИРУ! #204" | security/lock-focused, niche angle |
 | `n7X10oIqugU` | "THE MOST SHITTY APARTMENT I'VE EVER SEEN! #252" | — |
 | `8Xy-h8cS_-s` | "THE WORST TWO-ROOM APARTMENT I'VE EVER SEEN! #234" | — |

@@ -31,10 +31,20 @@ Despite the intuitive appeal ("cooking with a view," natural light), a window-ad
 7. **Task-lighting conflict at night**: a window-adjacent cook zone still needs mandatory evening task lighting (daylight only covers part of the day) — a later-retrofitted ceiling pendant made things worse, reflecting directly in the dark window glass and creating glare in the cook's eyes.
 8. **Radiator/condensation mechanism**: kitchen humidity (cooking steam) makes its window more condensation-prone than elsewhere, but ~60cm of kitchen cabinetry blocks the radiator that would normally offset this — a real before/after case saw a window that never condensed during the (humid) renovation phase begin streaming condensation and warping the countertop once kitchen furniture went in front of the radiator; adding a drainage grille stopped the streaming but the room stayed noticeably cold, since even a powerful radiator can't project heat effectively through a wall of cabinetry.
 
+## Wall-Angle Verification (added 2026-08-19, remainder-pool batch)
+
+**Verify every wall's actual angle before accepting a developer's layout as fixed** — a small angular deviation (e.g. 135° instead of a true 90° corner) compounds into a large usable-area loss over a wall's full length, and if left uncorrected, causes a visible seam misalignment once kitchen cabinetry is installed against it. Documented case: a developer-built 135°-angled wall between a kitchen and adjacent corridor cost the kitchen ~1.10m of usable width; rebuilding it to a true 90° recovered the width without shrinking any other room. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|YT_v7UXJ5fJ0H0]]]
+
+## Countertop Bump-Out Trip Hazard (added 2026-08-19, remainder-pool batch)
+
+**A decorative countertop "bump-out" step added purely for visual interest, with no functional storage use (nothing fits under, behind, or on it usably), is a real trip/collision hazard** when moving between adjacent kitchen work zones. If pursuing this purely for aesthetics, round the edges/corners rather than leaving them sharp, or skip the feature entirely. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
+
 ## Source Notes
 
 - **How Not to Design a Large Kitchen — Island vs. U-Shape vs. Split-Bar Layout** (Zemsproekt/Zemstandart, #001, 2018-11-27, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BUfY5YcnN-U_large_kitchen_layout_island_vs_split_001|extraction note]].
 - **Never Make a Kitchen Near a Window** — 8 client-sourced reasons (Zemstandart, #144, 2021-08-08, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzfABiffDB8_never_kitchen_near_window_144|extraction note]].
+- **Worst Apartment of 2019 (full replan case)** — developer wall-angle defect (added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|extraction note]].
+- **Client Workflow Interview** — countertop bump-out hazard (added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|extraction note]].
 
 ## Change Log
 
