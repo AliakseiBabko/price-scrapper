@@ -4,6 +4,8 @@ Covers light-source planning, mirror lighting, toe-kick/accent lighting, the exh
 
 ## Lighting
 
+> **Claim attribution:** Konstantin Kruglov / Ontario for the two linked extraction notes (`YT_9dfEdjOewng...` and `YT_dJMsXYUyh7A...`).
+
 - **Prefer a diffused, large-area "glowing ceiling" light source over a single bright spot fixture for general illumination** — bright/even enough to catch every cleaning-relevant detail, but soft enough not to be uncomfortable to look up into while lying in the tub.
 - **Always run dedicated electrical supply to the mirror location for its own lighting, even if no general ceiling fixture would technically be "too dim" without it** — no amount of general room/ceiling light is ever sufficient for grooming or makeup at the mirror on its own; a mirror light doesn't need its own switch (usually built into the fixture itself), but it does need its own wiring run, planned during rough-in — retrofitting power to a mirror after walls are finished means fishing wire through a completed wall.
 - **Mirror lighting must be front-facing** (illuminating the face directly), not light that just washes onto the surrounding tile as decor — front light is what actually lets you see skin detail while grooming; ceiling light alone leaves the face in shadow. Tradeoff: a front-light fixture's frame/profile is visibly present around the mirror.
@@ -25,6 +27,8 @@ Covers light-source planning, mirror lighting, toe-kick/accent lighting, the exh
 A bathroom-mandatory grounding circuit for metal fixtures (towel warmer, metal tub/frame, metal shower drain, etc.), distinct from ordinary outlet grounding. See [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighting]] for the general electrical planning content this extends; a full write-up of the КУП box's own bonding list is worth adding there if more electrical-specific sources are processed.
 
 ## Exhaust Fan Switching
+
+> **Claim attribution:** `attribution: unconfirmed` — the legacy archive citation is not itself an extraction note with `channel:` frontmatter.
 
 **Extractor fan**: prefer a forced/powered, quieter model; always add a manual switch inside the bathroom (sometimes you need it on mid-use); consider disabling automatic timer/humidity-sensor triggers in favor of manual control; never block its makeup-air supply (see [[07_Bathroom/analysis/Doors|Doors]]'s door-seal warning). See [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]].
 

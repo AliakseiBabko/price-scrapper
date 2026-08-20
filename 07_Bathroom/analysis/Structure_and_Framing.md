@@ -4,6 +4,8 @@ Covers the prefab plumbing cabin decision, non-structural boxing/partition mater
 
 ## Prefab Plumbing Cabin — Demolish or Keep
 
+> **Claim attribution:** Kruglov/Ontario, via the explicit Bathroom Source Notes mapping.
+
 See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the plumbing-installation side of this decision. On the room-planning side:
 
 - **Cabin materials, historically — none worth keeping**: reinforced concrete (thick, strong, eats the most space); gypsum-concrete/gypsum panel (lighter, less durable); **asbestos-concrete sheet material** — asbestos is a recognized carcinogen, but only hazardous once disturbed into dust (cut, drilled, broken); solid/undisturbed, it's inert. Either way, the source sees no functional reason to keep any cabin type.
@@ -24,6 +26,8 @@ For non-structural boxing (concealing pipes, framing a niche):
 - **Choose partition thickness with the sewage pipe route in mind, not just soundproofing/cost**: chasing a wide pipe into a thin partition weakens it disproportionately. A 50mm branch pipe into a 10cm block wall is called borderline-acceptable; a 100/110mm main branch needs either a thicker partition or a dedicated false wall (фальшстена) built specifically to conceal it — plan this before committing to a partition thickness, not after. The general layout principle underlying this: **fixture placement in a bathroom effectively orbits the sewage stack**, since it's fixed in place and drains by gravity, not pressure — route the widest pipe (typically the toilet's) along the thickest available wall (often the apartment's own exterior/bearing wall) and use a false wall to bridge any remaining gap.
 
 ## Load-Bearing-Wall Workaround for Washing Machine Hookups
+
+> **Claim attribution:** Zemstandart / Alexey Zemskov, via the explicit Bathroom Source Notes mapping for the lifehacks material.
 
 **Never chase (штробить) a load-bearing wall horizontally for water supply or drain lines — this is a real structural prohibition, not a preference, and it applies at any depth, including shallow chases.** Vertical electrical chases are generally fine, since the plaster layer already applied to every bathroom wall is thick enough to hide most conduit without needing to cut into the structural wall itself — but water/drain routing needs a much deeper horizontal channel, which a load-bearing wall can't accommodate at all. **If a washing machine needs to sit against a load-bearing wall with no legal way to route its supply/drain/outlet to it directly, run those connections through the bathtub's own apron/screen structure instead** — the apron is already a non-structural, purpose-built cavity, and this avoids both the code violation and the alternative of building the wall out further (which eats into the room's usable width). A simple, easily-overlooked workaround worth defaulting to whenever this specific conflict comes up.
 

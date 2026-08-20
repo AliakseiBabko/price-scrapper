@@ -4,12 +4,16 @@ Covers underfloor heating cost/scheduling, area-cap/sensor-redundancy rules, and
 
 ## Cost, Scheduling, and Sensor Redundancy
 
+> **Claim attribution:** `attribution: unconfirmed` — older archive-only sources are cited without a decisive extraction-note `channel:` field.
+
 **Electric underfloor heating, cost and control**: a full setup (heating mat, thermostat, installation) is cited around **~30,000 RUB** — described as easily worth it if the budget allows, with no real downsides beyond cost. Because tile heats and cools slowly, it can't be toggled on-demand like a light switch — the source runs theirs on a schedule (starting ~6am to be comfortably warm by ~9am).
 
 - **Heating-mat area cap and sensor redundancy**: one practitioner caps underfloor heating mats at **~12 m²** per mat/zone. Each mat should have **3 temperature sensors, not 1** — the sensor itself is described as more likely to fail than the mat, and a failed single sensor leaves no way to control (or safely confirm the state of) an otherwise-working mat. `single-account`, `unverified`. [sources: `_Archive/processed_sources/20260804_business_class_five_attributes_19385e7a.txt`, `_Archive/processed_sources/20260804_pro_secrets_lifehacks_f0be401f.txt`]
 - **Multi-mat rooms need a multi-loop plan, plus one aggregating controller so occupants don't have to walk between thermostats**: a room larger than the ~12 m² cap needs either a center-only or perimeter-only mat, or two separate mat loops each with its own thermostat. Worked example: living room = two 12.6 m² mats, kitchen = two 12–14 m² mats, each room with two thermostats. To avoid forcing occupants to operate multiple room thermostats separately, install one aggregating app/controller that lets every room's thermostats be operated as a group from one interface. `single-account`. [source: `_Archive/processed_sources/20260804_business_class_five_attributes_19385e7a.txt`]
 
 ## Thermostat Mounting Height — Practitioners Disagree
+
+> **Claim attribution:** the Zemstandart side is verified against `YT_uwXBHuWPUIo_underfloor_heating_thermostat_placement.md`; the opposing height-by-use claim remains `attribution: unconfirmed` unless its cited extraction note is recovered.
 
 **The question**: how high should a thermostat be mounted, and does that answer depend on the specific unit's usage pattern?
 
