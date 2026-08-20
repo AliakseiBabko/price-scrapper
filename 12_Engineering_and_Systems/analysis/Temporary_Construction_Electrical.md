@@ -2,11 +2,11 @@
 
 Site power during the renovation itself uses a deliberately simpler, distinct spec from the permanent finish wiring — worth planning for separately, not treating as an afterthought. Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighting]].
 
-**Temporary wiring spec**: 2×2.5 mm² ungrounded, vs. permanent 3×1.5 mm² (lighting) / 3×2.5 mm² (sockets), both grounded — grounding is treated as unnecessary at the temporary stage. Install temp wiring after the design/electrical plan exists but before interior walls go up, and after ceiling priming (not before). Keep temp cable runs continuous with no in-line splices, and maintain at least 1 m between a temporary bulb socket and any outlet block. Reserve a dedicated ~10A circuit specifically for a job-site charging station.
+attribution: unconfirmed — the cited source is not channel-isolated: **Temporary wiring spec**: 2×2.5 mm² ungrounded, vs. permanent 3×1.5 mm² (lighting) / 3×2.5 mm² (sockets), both grounded — grounding is treated as unnecessary at the temporary stage. Install temp wiring after the design/electrical plan exists but before interior walls go up, and after ceiling priming (not before). Keep temp cable runs continuous with no in-line splices, and maintain at least 1 m between a temporary bulb socket and any outlet block. Reserve a dedicated ~10A circuit specifically for a job-site charging station.
 
-**Off-the-shelf retail extension cords are commonly undersized for sustained job-site power draw** (this source cites conductors as thin as ~0.75 mm²) — build a job-site extension from proper 2.5 mm² cable instead of relying on a retail cord for tools or heaters.
+attribution: unconfirmed — the cited source is not channel-isolated: **Off-the-shelf retail extension cords are commonly undersized for sustained job-site power draw** (this source cites conductors as thin as ~0.75 mm²) — build a job-site extension from proper 2.5 mm² cable instead of relying on a retail cord for tools or heaters.
 
-**Leave 1-2 working temporary outlets plus one working light per room during rough-in**, even on a multi-floor build before any finish work starts — improves site usability and safety while work is ongoing.
+attribution: unconfirmed — the cited source is not channel-isolated: **Leave 1-2 working temporary outlets plus one working light per room during rough-in**, even on a multi-floor build before any finish work starts — improves site usability and safety while work is ongoing.
 
 ## A Noted Tension, Not Silently Resolved
 

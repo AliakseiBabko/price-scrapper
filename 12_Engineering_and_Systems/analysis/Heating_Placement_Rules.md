@@ -28,7 +28,7 @@ The floor is the coldest surface in any room. An insulated loggia's floor stays 
 
 ## Bidirectional (Double-Sided) Radiator Technique (added 2026-08-19, remainder-pool batch)
 
-**A radiator positioned within a dividing wall between two rooms/zones can be made double-sided** — remove the partition segment immediately around it and add a grille on both faces — so one radiator heats two adjacent spaces more efficiently instead of needing a separate unit for each. Deployed specifically to combat window-condensation risk on a large panoramic-glazing wall where in-floor convectors weren't an option on that project. Only applicable when an interior partition wall exists at the right location relative to the glazing needing heat. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D8t1ADisUE8_odnushka_premium_replan_246|YT_D8t1ADisUE8]]]
+attribution: unconfirmed — the cited note is single-account and does not expose a decisive `channel:` field: **A radiator positioned within a dividing wall between two rooms/zones can be made double-sided** — remove the partition segment immediately around it and add a grille on both faces — so one radiator heats two adjacent spaces more efficiently instead of needing a separate unit for each. Deployed specifically to combat window-condensation risk on a large panoramic-glazing wall where in-floor convectors weren't an option on that project. Only applicable when an interior partition wall exists at the right location relative to the glazing needing heat. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D8t1ADisUE8_odnushka_premium_replan_246|YT_D8t1ADisUE8]]]
 
 ## The Cost of Deferring This Decision
 
