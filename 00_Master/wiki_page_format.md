@@ -19,6 +19,23 @@ Not rigid — adapt per system, since electrical, HVAC, and plumbing don't have 
 6. **Quick Reference — Do's and Don'ts** — the existing table format, kept as-is where rows are still accurate, extended with new rows as more sources are processed. This is a summary/lookup aid, not the primary content anymore.
 7. **Source Notes** — list the archived sources (and, where they exist, the richer extraction notes in `11_Budget_and_Planning/_supporting/knowledge/sources/`) this page's content is built from, so a claim can be traced back to evidence.
 
+### Inline attribution is mandatory for every claim
+
+Every claim or bullet in a Core Technical Section must name the actual
+channel or practitioner inline in the sentence itself, whether the claim is
+an agreement, a disagreement, or a single-source recommendation. The footer
+citation is still required for click-through evidence; it cannot substitute
+for the inline attribution.
+
+- **Acceptable:** `Kruglov/Ontario recommends a minimum 80×90 cm shower cabin because ... [source: [[...]]]`.
+- **Not acceptable:** `A shower cabin should be at least 80×90 cm. [source: [[...]]]`.
+
+If the cited extraction note's `channel:` field does not establish the source
+confidently, preserve the claim's meaning and write `attribution:
+unconfirmed` with the reason instead of guessing. The separate **Perspectives
+on Record** block remains the place to surface genuine source disagreements;
+it does not limit this every-claim attribution rule to disagreements.
+
 ## Rules carried over from the `11_Budget_and_Planning` pipeline
 
 These pages should follow the same discipline already established for `Budgeting_Guide.md`, even though they're a different destination:

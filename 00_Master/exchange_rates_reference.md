@@ -10,13 +10,25 @@ This reference records annual average exchange rate benchmarks used across the r
 
 | year | currency_pair | average_rate | retrieval_date | source_url | confidence | notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024** | USD/BYN | TODO / needs source | N/A | TODO | unverified / needs source | Baseline benchmark for 2024 local Minsk market data |
-| **2024** | USD/RUB | TODO / needs source | N/A | TODO | unverified / needs source | Benchmark conversion for 2024 Russian video sources |
-| **2024** | BYN/RUB | TODO / needs source | N/A | TODO | unverified / needs source | Cross-rate reference for 2024 |
-| **2025** | USD/BYN | TODO / needs source | N/A | TODO | unverified / needs source | Primary baseline benchmark for 2025 local Minsk market data |
-| **2025** | USD/RUB | TODO / needs source | N/A | TODO | unverified / needs source | Benchmark conversion for 2025 Russian video sources |
-| **2025** | BYN/RUB | TODO / needs source | N/A | TODO | unverified / needs source | Cross-rate reference for 2025 |
-| **2026** | USD/BYN | TODO / needs source | N/A | TODO | projection (do not use for historical normalization) | Baseline projection for 2026 local Minsk market data |
-| **2026** | USD/RUB | TODO / needs source | N/A | TODO | projection (do not use for historical normalization) | Benchmark projection for 2026 Russian video sources |
-| **2026** | BYN/RUB | TODO / needs source | N/A | TODO | projection (do not use for historical normalization) | Cross-rate projection for 2026 |
-| **unknown** | USD/BYN | TODO / needs source | N/A | TODO | unaligned | Mark source_year as unknown; do not present converted values as directly comparable |
+| **2017** | USD/RUB | 58.3 RUB per USD | 2026-08-20 | https://www.cbr.ru/content/document/file/165597/on_eng_2025%282026-2027%29.pdf | confirmed | Bank of Russia, Table 3, nominal exchange rate RUB/USD, yearly average |
+| **2018** | USD/RUB | 62.5 RUB per USD | 2026-08-20 | https://www.cbr.ru/content/document/file/165597/on_eng_2025%282026-2027%29.pdf | confirmed | Bank of Russia, Table 3, nominal exchange rate RUB/USD, yearly average |
+| **2019** | USD/RUB | 64.7 RUB per USD | 2026-08-20 | https://www.cbr.ru/content/document/file/165597/on_eng_2025%282026-2027%29.pdf | confirmed | Bank of Russia, Table 3, nominal exchange rate RUB/USD, yearly average |
+| **2020** | USD/RUB | 71.9 RUB per USD | 2026-08-20 | https://www.cbr.ru/content/document/file/165597/on_eng_2025%282026-2027%29.pdf | confirmed | Bank of Russia, Table 3, nominal exchange rate RUB/USD, yearly average |
+| **2021** | USD/RUB | 73.6 RUB per USD | 2026-08-20 | https://www.cbr.ru/content/document/file/165597/on_eng_2025%282026-2027%29.pdf | confirmed | Bank of Russia, Table 3, nominal exchange rate RUB/USD, yearly average |
+| **2022** | USD/RUB | 67.5 RUB per USD | 2026-08-20 | https://www.cbr.ru/content/document/file/165597/on_eng_2025%282026-2027%29.pdf | confirmed | Bank of Russia, Table 3, nominal exchange rate RUB/USD, yearly average |
+| **2023** | USD/RUB | 84.7 RUB per USD | 2026-08-20 | https://www.cbr.ru/content/document/file/165597/on_eng_2025%282026-2027%29.pdf | confirmed | Bank of Russia, Table 3, nominal exchange rate RUB/USD, yearly average |
+| **2024** | USD/RUB | unverified / needs source | 2026-08-20 | https://www.cbr.ru/eng/currency_base/dynamics/ | unverified / needs source | Official daily-rate archive located; annual-average figure not confirmed in this lookup |
+| **2025** | USD/RUB | unverified / needs source | 2026-08-20 | https://www.cbr.ru/eng/currency_base/dynamics/ | unverified / needs source | Official daily-rate archive located; annual-average figure not confirmed in this lookup |
+| **2017** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2018** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2019** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2020** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2021** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2022** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2023** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2024** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2025** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unverified / needs source | NBRB annual-average page located; specific annual figure not confirmed in this lookup |
+| **2026** | USD/BYN | unverified / partial-year; do not use for historical normalization | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | projection (do not use for historical normalization) | No complete annual average exists yet |
+| **2026** | USD/RUB | unverified / partial-year; do not use for historical normalization | 2026-08-20 | https://www.cbr.ru/eng/currency_base/dynamics/ | projection (do not use for historical normalization) | No complete annual average exists yet |
+| **unknown** | USD/BYN | unverified / needs source | 2026-08-20 | https://www.nb-rb.by/engl/statistics/rates/avgrate.htm | unaligned | Mark source_year as unknown; do not present converted values as directly comparable |
+| **unknown** | USD/RUB | unverified / needs source | 2026-08-20 | https://www.cbr.ru/eng/currency_base/dynamics/ | unaligned | Mark source_year as unknown; do not present converted values as directly comparable |
