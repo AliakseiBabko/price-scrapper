@@ -75,6 +75,14 @@ the inventory records their targets only to support the attribution check.
 | Guide start: `Flooring_Guide.md` | guide section labels identify Zemskov/Zemstandart, while existing source notes include archive-only single-account evidence | named Zemstandart / Alexey Zemskov only where the guide's cited section makes that channel explicit; existing single-account caveats retained |
 | Guide start: `Walls_and_Paint.md` | first substrate/deviation section cites an archive note without a decisive `channel:` field | first four claims marked `attribution: unconfirmed`; no channel inferred from the section heading |
 
+## Final guide start and untouched-analysis audit (turn 22)
+
+| scope | source/channel finding | attribution treatment |
+|---|---|---|
+| Guides: `Windows.md`, `Wardrobes_and_Storage.md` | guide source-note targets reviewed; the edited guide claims do not have decisive `channel:` frontmatter | inline `attribution: unconfirmed`; no channel inferred from guide headings |
+| Windows analysis: `Windows_Measurement.md` | first measurement claims reviewed; cited analysis notes do not isolate a decisive channel | first three claims marked `attribution: unconfirmed`; remaining Windows analysis claims require a further bounded pass |
+| Electrical/Heating analysis audit | multiple untouched analysis pages still contain claim prose without inline attribution, including Electrical Key Concepts and Planning and additional Electrical/Heating detail pages | identified for follow-up; Workstream B detail acceptance remains open |
+
 ## Detail-page continuation inventory (turn 14)
 
 | detail-page family | claim/source inventory | attribution treatment |

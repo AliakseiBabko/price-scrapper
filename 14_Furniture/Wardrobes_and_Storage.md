@@ -7,15 +7,15 @@ Overview of built-in and walk-in clothing storage design: vocabulary, sizing for
 
 ## Wardrobe Vocabulary & Sizing Fundamentals
 
-**A built-in wardrobe beats a free-standing ("corpus") one on cost and space whenever the wall geometry allows it** — no side/back/top/bottom panels to buy, floor-to-ceiling use, a simpler junction detail. **The 3-tier vertical layout (shoes low, clothes at 2m, bulky items at 210cm) is the practical default** — every alternative trades off badly: 1-tier wastes space, 2-tier-both-clothing forces same-length garments, 4-tier looks impressive but buries shoes under hanging clothes.
+attribution: unconfirmed — the cited furniture sources have no decisive `channel:` field: **A built-in wardrobe beats a free-standing ("corpus") one on cost and space whenever the wall geometry allows it** — no side/back/top/bottom panels to buy, floor-to-ceiling use, a simpler junction detail. **The 3-tier vertical layout (shoes low, clothes at 2m, bulky items at 210cm) is the practical default** — every alternative trades off badly: 1-tier wastes space, 2-tier-both-clothing forces same-length garments, 4-tier looks impressive but buries shoes under hanging clothes.
 
-**The single most commonly miscalculated figure in this whole topic**: built-in sliding-door wardrobe depth. The naive assumption (match the hanging-garment depth alone — ~50-53cm for everyday clothing) is wrong — clothing needs a 2-3cm air gap plus the sliding-door track consumes ~10cm on its own. **Correct minimums are 65-70cm (everyday) and 75-80cm (outerwear)**, not 50-63cm.
+attribution: unconfirmed — the cited furniture sources have no decisive `channel:` field: **The single most commonly miscalculated figure in this whole topic**: built-in sliding-door wardrobe depth. The naive assumption (match the hanging-garment depth alone — ~50-53cm for everyday clothing) is wrong — clothing needs a 2-3cm air gap plus the sliding-door track consumes ~10cm on its own. **Correct minimums are 65-70cm (everyday) and 75-80cm (outerwear)**, not 50-63cm.
 
 → **[[14_Furniture/analysis/Wardrobe_Vocabulary_and_Sizing|Full detail]]** (zone-depth rules, shoe-storage depth cap)
 
 ## Walk-In Closet Width by Configuration
 
-**135cm is the real single-sided minimum** (door-trim standoff + rough opening + zone depth, arithmetic-checked), reducible to 120cm only by trading away standoff and using shallow shelving instead of a full zone. **Don't shrink a bedroom to carve out a walk-in that saves no real storage volume over a plain wardrobe** — a walk-in's aisle costs roughly 70cm of dead space a wardrobe doesn't need, so it only pays off in a room ≥5m long (at 3m width); shorter rooms should default to a plain wardrobe instead.
+attribution: unconfirmed — the cited furniture source has no decisive `channel:` field: **135cm is the real single-sided minimum** (door-trim standoff + rough opening + zone depth, arithmetic-checked), reducible to 120cm only by trading away standoff and using shallow shelving instead of a full zone. **Don't shrink a bedroom to carve out a walk-in that saves no real storage volume over a plain wardrobe** — a walk-in's aisle costs roughly 70cm of dead space a wardrobe doesn't need, so it only pays off in a room ≥5m long (at 3m width); shorter rooms should default to a plain wardrobe instead.
 
 **A mirrored walk-in needs 1.7m minimum width** — below that, don't build one with an internal mirror at all rather than compromising the mirror-standing clearance.
 
@@ -23,7 +23,7 @@ Overview of built-in and walk-in clothing storage design: vocabulary, sizing for
 
 ## Wardrobe vs. Walk-In: The Core Tradeoff
 
-**Before defaulting to a walk-in, check whether two adjoining rooms could each get their own wardrobe against a shared thin wall instead** — a real, client-confirmed project did exactly this (two wardrobes sharing a ~100mm dividing wall) instead of a single-sided walk-in that would have forced the bed and a doorway to shift 700mm, gaining two full-depth storage runs plus improved inter-room soundproofing for the cost of just the wall thickness.
+attribution: unconfirmed — the cited furniture source has no decisive `channel:` field: **Before defaulting to a walk-in, check whether two adjoining rooms could each get their own wardrobe against a shared thin wall instead** — a real, client-confirmed project did exactly this (two wardrobes sharing a ~100mm dividing wall) instead of a single-sided walk-in that would have forced the bed and a doorway to shift 700mm, gaining two full-depth storage runs plus improved inter-room soundproofing for the cost of just the wall thickness.
 
 **A real quantified case worth knowing**: converting an awkward L-shaped hallway corner into two rectangular niches with a cheap (<2,000 RUB) dividing wall let a built-in wardrobe replace a free-standing one that would have wasted ~30% of its usable length on the transitional L-section — a concrete number behind the general "built-in beats corpus when the geometry allows it" theme.
 
