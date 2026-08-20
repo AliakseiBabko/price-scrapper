@@ -38,3 +38,15 @@ receives `attribution: unconfirmed — <reason>` instead of a guessed name.
 The pages' `Source Notes` and `Change Log` sections are evidence/maintenance
 metadata, not claim prose, and are not rewritten. Wikilinks are not edited;
 the inventory records their targets only to support the attribution check.
+
+## Detail-page batch inventory (turn 12)
+
+| detail-page family | claim/source inventory | attribution treatment |
+|---|---|---|
+| HVAC: `AC_Key_Concepts_and_Placement`, `AC_Condensate_Drainage`, `AC_Sizing_and_Selection` | `YT_H61xa8n2nTk`, `YT_wFUUakbL5O8`, `YT_fSEPr5fpfPM`, `YT_6Z7uH2_rXsw`; archive condensate paragraphs where no extraction-note frontmatter exists | FLATART, Zemstandart/Zemsproekt, or BURO named only for the matching note; archive/mixed claims unconfirmed |
+| HVAC: `Fresh_Air_Ventilation_and_Ducting`, `HVAC_Common_Mistakes_and_Buying` | `YT_HX2pDdILM7U`, `YT_ZqfaeREBEYQ`; archive entries for contractor, duct, seasonal and warranty claims | Zemstandart/Zemsproekt named for the two frontmatter-backed notes; archive-only claims unconfirmed |
+| Plumbing: `Rough_Plumbing_Sequencing`, `Fixture_Stubout_Coordinates`, `Pipe_Material_Selection` | `YT_ssS7-TdXhu0`, `YT_zLJtkP6ymrg`, `YT_1_IcoSaNKP4`, `YT_fSEPr5fpfPM`, plus archive entries listed in Plumbing Source Notes | ZEMS named for frontmatter-backed claims; archive-only and cross-source paragraphs unconfirmed |
+| Plumbing: `Water_Inlet_Node_Components`, `Pressure_and_Water_Hammer`, `Leak_Protection_Systems`, `Pressure_Testing` | page-specific archive notes plus `YT_zLJtkP6ymrg` for pressure-test claims and the linked source notes where present | only `YT_zLJtkP6ymrg` receives a named channel; archive/mixed claims unconfirmed |
+| Plumbing: `Water_Heaters`, `Waterproofing_and_Plastering`, `Shower_Podium_and_Drains`, `Hygienic_Shower_and_Towel_Warmer`, `Wall_Hung_Toilet_Installation`, `Cost_Drivers_and_Buying_Guidance` | archive entries listed in Plumbing Source Notes; `YT_cdNwbqsLUK4` for the points-pricing claim | RemontHochu named for the points-pricing claim; remaining archive-derived claims unconfirmed |
+| Doors: `Door_Anatomy_and_Mount_Types`, `Door_Swing_Direction`, `Doors_Trim_Cost_and_Buying` | `YT_yHmEQTqduDk`, `YT_ludvy76HGSU`, `YT_1YiVgB9jqyU`, `YT_c4b7iyg8v5U`, `YT_7Vd95idVXak`, `YT_COhFXPyfXxM`, `YT_WMc_AjUqQ-4`, `YT_-HKwxCBa40k`, `YT_ORkPwMJ-AzU`; archive entries for older numeric claims | named channels only where the cited note has frontmatter; archive/mixed claims unconfirmed |
+| Ceilings detail content | guide's `YT_UfmUC4-T3jY` and `YT_2hg0mjR-M30` notes; legacy archive table rows | Zemstandart/Zemsproekt named for the two extraction notes; legacy archive rows unconfirmed |
