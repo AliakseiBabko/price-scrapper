@@ -10,6 +10,9 @@ regional_applicability: level 1 — Moscow/Moscow Oblast named directly as the p
 currency: not applicable — no per-m² transaction figures stated
 language: ru (manually-created captions, method=youtube-transcript-api, generated=False)
 extraction_taxonomy: custom (renovation planning, per renovation-knowledge-intake wrapper taxonomy)
+fact_yield: 8
+promotional_ratio: medium
+corroborates_existing: true
 ---
 
 # Extraction Note — Zemstandart/Zemproekt: "Design Disaster in 60 Square Meters" (Best/Worst Solutions, #283, YouTube 4omxjEA7LaI)

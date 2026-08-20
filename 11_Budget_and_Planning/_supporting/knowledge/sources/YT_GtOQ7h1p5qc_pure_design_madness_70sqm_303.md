@@ -10,6 +10,9 @@ regional_applicability: level 2 only (no city named directly in this video's con
 currency: not applicable — no transaction figures stated
 language: ru (manually-created captions, method=youtube-transcript-api, generated=False)
 extraction_taxonomy: custom (renovation planning, per renovation-knowledge-intake wrapper taxonomy)
+fact_yield: 12
+promotional_ratio: medium
+corroborates_existing: true
 ---
 
 # Extraction Note — Zemstandart/Zemproekt: "70 m² of Pure Design Madness!" (#303, YouTube GtOQ7h1p5qc)

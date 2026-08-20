@@ -3,7 +3,7 @@
 """Preflight triage for a YouTube playlist/channel before fetching anything.
 
 Cross-checks every video ID in a playlist against this repo's own
-processed-source records (00_Master/processed_sources.csv and the
+processed-source records (00_Master/processed_video_ids.txt and the
 YT_<video_id>_*.md source notes under
 11_Budget_and_Planning/_supporting/knowledge/sources/) *before* any
 transcript is fetched.
@@ -65,6 +65,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CSV_PATH = REPO_ROOT / "00_Master" / "processed_sources.csv"
+VIDEO_IDS_PATH = REPO_ROOT / "00_Master" / "processed_video_ids.txt"
 SOURCE_NOTES_DIR = (
     REPO_ROOT
     / "11_Budget_and_Planning"
@@ -124,6 +125,31 @@ def load_known_ids_from_csv(csv_path: Path) -> dict[str, dict]:
                     "source_title": row.get("source_title"),
                 }
     return known
+
+
+def load_known_ids_from_index(index_path: Path) -> set[str]:
+    """Return canonical IDs from the append-only flat dedup index.
+
+    The index deliberately contains one ID per line, so the normal duplicate
+    check does not parse the growing CSV. Blank lines and comment lines are
+    ignored to keep the file hand-auditable.
+    """
+    if not index_path.exists():
+        return set()
+    known = set()
+    with open(index_path, encoding="utf-8") as f:
+        for line in f:
+            value = line.strip()
+            if value and not value.startswith("#") and VIDEO_ID_RE.match(value):
+                known.add(value)
+    return known
+
+
+def rebuild_video_id_index(csv_path: Path, index_path: Path) -> int:
+    """Regenerate the flat index from the canonical CSV (recovery mode)."""
+    ids = set(load_known_ids_from_csv(csv_path))
+    index_path.write_text("\n".join(sorted(ids)) + ("\n" if ids else ""), encoding="utf-8")
+    return len(ids)
 
 
 def load_known_ids_from_notes(notes_dir: Path) -> dict[str, Path]:
@@ -264,10 +290,10 @@ def probe_video(video_id: str, languages: list[str], cookies_from_browser: str |
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("playlist_url", help="Playlist or channel URL to triage.")
+    parser.add_argument("playlist_url", nargs="?", help="Playlist or channel URL to triage.")
     parser.add_argument(
         "--output-dir",
-        required=True,
+        required=False,
         help="Where to write the JSON manifest. Required - this script never assumes "
              "a temp directory (see project history: /tmp is not reliably shared "
              "between the calling shell and this interpreter on this machine).",
@@ -308,20 +334,32 @@ def main() -> int:
              "store directly, in-process. Still aborts remaining probes on a "
              "detected rate-limit/block even when authenticated.",
     )
+    parser.add_argument(
+        "--rebuild-index", action="store_true",
+        help="Regenerate 00_Master/processed_video_ids.txt from the canonical CSV and exit.",
+    )
     args = parser.parse_args()
+    if args.rebuild_index:
+        count = rebuild_video_id_index(CSV_PATH, VIDEO_IDS_PATH)
+        print(f"Rebuilt {VIDEO_IDS_PATH} with {count} video IDs.")
+        return 0
+    if not args.playlist_url:
+        parser.error("playlist_url is required unless --rebuild-index is used")
+    if not args.output_dir:
+        parser.error("--output-dir is required for playlist triage")
     do_probe = args.probe and not args.skip_probe
 
     languages = [l.strip() for l in args.languages.split(",") if l.strip()]
     out_dir = Path(args.output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    known_csv = load_known_ids_from_csv(CSV_PATH)
+    known_ids = load_known_ids_from_index(VIDEO_IDS_PATH)
     known_notes = load_known_ids_from_notes(SOURCE_NOTES_DIR)
 
     # Cross-check the two sources of truth against each other - a mismatch is a
     # data-quality signal worth surfacing, not silently ignored.
-    csv_only = sorted(set(known_csv) - set(known_notes))
-    notes_only = sorted(set(known_notes) - set(known_csv))
+    index_only = sorted(known_ids - set(known_notes))
+    notes_only = sorted(set(known_notes) - known_ids)
 
     print(f"Fetching playlist listing for: {args.playlist_url}", file=sys.stderr)
     entries = list_playlist_video_ids(args.playlist_url)
@@ -333,14 +371,16 @@ def main() -> int:
 
     for entry in entries:
         vid = entry["video_id"]
-        if vid in known_csv:
-            row = known_csv[vid]
+        if vid in known_ids or vid in known_notes:
+            note = known_notes.get(vid)
+            detail = ("already present in processed_video_ids.txt" if vid in known_ids
+                      else f"already has a source note: {note.name}")
             manifest.append({
                 "video_id": vid,
                 "title": entry.get("title"),
                 "status": "duplicate",
-                "reason": f"already logged as {row['run_id']} (status={row['status']})",
-                "existing_run_id": row["run_id"],
+                "reason": detail,
+                "existing_run_id": None,
             })
             counts["duplicate"] += 1
             continue
@@ -383,8 +423,8 @@ def main() -> int:
                 "generated_at": datetime.now(timezone.utc).isoformat(),
                 "counts": counts,
                 "csv_notes_mismatch": {
-                    "in_csv_no_note": csv_only,
-                    "in_notes_no_csv_row": notes_only,
+                    "in_index_no_note": index_only,
+                    "in_notes_no_index": notes_only,
                 },
                 "entries": manifest,
             },
@@ -400,11 +440,11 @@ def main() -> int:
     for status, n in counts.items():
         if n:
             print(f"  {status:12s} {n}")
-    if csv_only:
-        print(f"\n  NOTE: {len(csv_only)} CSV row(s) have a source_url but no matching source note "
+    if index_only:
+        print(f"\n  NOTE: {len(index_only)} indexed video ID(s) have no matching source note "
               f"(expected for skipped/duplicate/failed rows - verify if unexpected).")
     if notes_only:
-        print(f"\n  WARNING: {len(notes_only)} source note(s) have no matching CSV row - "
+        print(f"\n  WARNING: {len(notes_only)} source note(s) have no matching flat-index ID - "
               f"these look unlogged, not just unfetched: {notes_only[:10]}")
 
     if probing_aborted:

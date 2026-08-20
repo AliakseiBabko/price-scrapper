@@ -43,6 +43,8 @@ git history (see commits `zemskov-remainder-batch2` through `zemskov-remainder-b
 one July-November 2023 narrated-planning-logic production cluster with heavy content
 overlap — worth remembering if any further video from this same window surfaces below.
 
+**Round 1 yield**: 24 videos processed, 40 genuinely-new facts (excluding duplicate/corroborating-only outcomes), yield = 1.67 new facts/video. Retrofitted from the round's enumerated store bullets after removing repeated cluster findings.
+
 ## Round 2 — COMPLETE (16 of 16 videos, batches 1-4, 2026-08-19 through 2026-08-20)
 
 | Video ID | Title | Outcome |
@@ -55,6 +57,8 @@ overlap — worth remembering if any further video from this same window surface
 All 16 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>` / `run_20260820_<video_id>`), have source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/` (except the confirmed duplicate and the 2 no-captions skips), are integrated into the intermediate store's Change Log, and were wiki-routed the same session as processed.
 
 **Final tally (Round 2 only, 16 candidates)**: 13 extracted (1 PARTIAL for named-individual exclusion: `pNhM-kKBy6A`), 1 confirmed duplicate (`mhE_5qlJ0KU`, a re-edited remake of already-processed `C4lUAfJyyb0`), 1 genuine no-captions skip (`HE4u2vprC88`). `OnKreLhmLYY` (#299) and `nbrDFET2AXk` (#295) turned out to be parts 2-3 of the same "90 mistakes" series about one apartment — a real same-project overlap case, flagged in both source notes rather than double-counted. `hVFmcw1H2Rk` (#314) delivered this project's **standout finding of Round 2**: a complete, precisely sequenced 12-item bedroom design formula. A real structural gap surfaced during this batch: this vault has no numbered folder for a master/primary bedroom despite 5+ accumulated sources — flagged in the store's Pending Wiki-Page Decisions section for explicit user decision, not resolved unilaterally.
+
+**Round 2 yield**: 16 videos processed, 31 genuinely-new facts (excluding duplicate/corroborating-only outcomes), yield = 1.94 new facts/video. Retrofitted by counting the four batch breakdowns and removing the confirmed duplicate, no-caption skip, and same-project/corroborating-only repeats.
 
 ## Round 3 — not yet started
 

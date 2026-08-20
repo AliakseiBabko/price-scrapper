@@ -10,6 +10,9 @@ regional_applicability: level 2 only (no city named directly in this video's con
 currency: RUB (self-promo design-fee note only, 4,000→5,000 RUB/m² price increase, matches this store's already-tracked pricing history)
 language: ru (manually-created captions, method=youtube-transcript-api, generated=False)
 extraction_taxonomy: custom (renovation planning, per renovation-knowledge-intake wrapper taxonomy)
+fact_yield: 12
+promotional_ratio: low
+corroborates_existing: false
 ---
 
 # Extraction Note — Zemstandart/Zemproekt: "A Total Design Mess in Your Bedroom!" — Bedroom Design-Sequence Masterclass (#314, YouTube hVFmcw1H2Rk)
