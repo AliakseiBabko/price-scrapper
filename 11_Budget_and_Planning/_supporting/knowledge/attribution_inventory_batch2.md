@@ -142,3 +142,10 @@ the inventory records their targets only to support the attribution check.
 | Electrical analysis: `Electrical_Key_Concepts_and_Planning` | Electrical Source Notes identify the relevant ZEMS playlist and the guide's channel note identifies it as Zemstandart / Alexey Zemskov; the edited planning and lighting claims match that source family | 7 old prefixes replaced with `Alexey Zemskov / ZEMS` inline attribution |
 | Electrical analysis: `Rough_Electrical_Sequencing`, `Temporary_Construction_Electrical` | both pages' cited technical material is within the ZEMS electrical playlist listed in Electrical Source Notes | 7 old prefixes replaced with `Alexey Zemskov / ZEMS` inline attribution |
 | Electrical analysis: `Electrical_Buying_and_Hiring` | page combines mixed buying sources and the current claim-to-note mapping does not isolate a single channel for every old-pattern claim | deferred for a dedicated source-link/channel pass; no ZEMS attribution guessed |
+
+## Workstream F retrofit inventory (turn 38)
+
+| scope | channel evidence | retrofit treatment |
+|---|---|---|
+| Doors guide: `Doors_and_Trim.md` | `Doors_Trim_Source_Notes.md` maps sizing, swing, and minimum-width claims to Zemstandart/Alexey Zemskov; concealed-door mechanisms to Ontario, Avalremont, and Forcemontage; entrance security to Novakey and ПРО ДВЕРИ/Sergey Gusev | 7 old prefixes replaced with named inline attribution; no retired pattern remains in the guide |
+| Doors analysis pages | remaining pages include mixed, archive-only, and source-link gaps requiring claim-level evidence review | deferred to the next Doors detail sub-batch; no unsupported channel names assigned |
