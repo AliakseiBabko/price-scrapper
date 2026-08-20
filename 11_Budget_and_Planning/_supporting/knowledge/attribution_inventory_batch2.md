@@ -59,6 +59,14 @@ the inventory records their targets only to support the attribution check.
 | Plumbing: `Pipe_Material_Selection` | mixed and single-account claims; `YT_1_IcoSaNKP4` is cited for corroboration but does not isolate every sentence | named channel withheld for aggregate claims; inline unconfirmed reasons added |
 | Doors: `Entrance_Doors` | linked extraction notes and manufacturer pricing note do not isolate a decisive channel for the edited claims | inline `attribution: unconfirmed`; no claim meaning or source footer changed |
 
+## Detail-page completion inventory (turn 18)
+
+| detail pages edited | source/channel evidence | attribution treatment |
+|---|---|---|
+| Plumbing: `Rough_Plumbing_Sequencing`, `Waterproofing_and_Plastering` | cross-source, regulatory, and archive-only claims; cited notes do not isolate a decisive channel for the edited sentences | inline `attribution: unconfirmed` with cross-source, jurisdiction, or archive reason |
+| Plumbing: `Cost_Drivers_and_Buying_Guidance` | points-pricing claim is backed by the frontmatter-identified RemontHochu.ru note; other claims are not channel-isolated | RemontHochu.ru named only for the points-pricing claim; other edited claims unconfirmed |
+| Doors: `Material_and_Finish_Tiers`, `Rough_Opening_and_Casing_Sizing`, `Style_Hardware_and_Security` | mixed, single-account, and archive-only claims; source footers do not isolate one channel for most edited sentences | inline `attribution: unconfirmed`; original wording, footers, and wikilinks retained |
+
 ## Detail-page continuation inventory (turn 14)
 
 | detail-page family | claim/source inventory | attribution treatment |
