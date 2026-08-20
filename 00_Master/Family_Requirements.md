@@ -48,6 +48,8 @@ This document captures the overall context of the family's needs, preferences, a
 
 ### 5. 🛋️ Living & Dining Room
 * **Daily Use Scenario**: Shared family leisure, dining, playing, and movie watching.
+* **Explicit clarification, added 2026-08-20 (verbal)**: this project has **no fixed master-bedroom room** — the adults' sleeping arrangement is planned in two phases. **Phase 2 (later, once children are old enough for school)**: the adults move into a **partitioned section of the combined kitchen-living room** (~24-25 m² total). A glass divider/sliding door separates a nighttime bedroom zone from the daytime kitchen-living zone — the same floor area serves both functions depending on the time of day and the divider's position. This is a deliberate volume/phased plan, not a fixed final layout — see §7 below for Phase 1, and [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]] for the bedroom-design formulas to apply once this zone is actually designed.
+* **Practical consequence**: when planning this room's layout, the design needs to accommodate a future glass-partition wall/door and a bedroom-zone sub-footprint within the combined space — not just today's fully-open kitchen-living use. No dedicated planning page exists yet for this phase-2 zone; a future session should decide whether it needs its own page once the actual partition design is worked out.
 * **Key Guidelines**:
   - Dining table must comfortably seat at least 4 people daily, expandable for guests.
   - Clear floor area for kids to play.
@@ -61,7 +63,9 @@ This document captures the overall context of the family's needs, preferences, a
   - Backlink: [[Kids_Room_Index]]
 
 ### 7. 💻 Small Bedroom (Study)
-* **Daily Use Scenario**: Home office, reading room, or quiet space.
+* **Daily Use Scenario**: Home office, reading room, or quiet space — **but see the Phase 1 clarification below: this room currently functions as the adults' bedroom, not its long-term intended use.**
+* **Explicit clarification, added 2026-08-20 (verbal)**: *"We don't plan to have a real master bedroom with a separate bathroom and wardrobe. According to the current plan, temporarily, a bedroom for adults will be seated in a smaller room, 9.36 square meters. Later, we will move to the bigger room — the kitchen living room — by separating part of this kitchen-living-room space with a glass divider door, creating a bedroom for nighttime and extended living room during the daytime. This is the current plan because of the current space constraints."* This is a **Phase 1** arrangement — see §5 (Living & Dining Room) for the **Phase 2** plan.
+* **Practical consequence**: this room's bedroom furnishing (bed, nightstands, wardrobe, etc.) should be planned as a temporary configuration using this room's own footprint, not a permanent build-out — its long-term intended use (study/kids' room, once the adults move to the Phase 2 arrangement) should still be kept in mind for finishes/infrastructure that would need to survive the transition (e.g. don't over-commit built-in bedroom-specific joinery that would need to be torn out later). See [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]] for the formulas to apply to this room's Phase 1 bedroom layout.
 * **Key Guidelines**:
   - Minimalist layout for focus, possibly convertible for guests.
   - Backlink: [[Small_Bedroom_Index]]

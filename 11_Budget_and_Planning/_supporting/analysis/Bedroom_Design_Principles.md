@@ -1,0 +1,44 @@
+# Bedroom Design Principles — Phase-Agnostic Reference
+
+> [!NOTE]
+> **Why this page exists outside the numbered room folders (2026-08-20)**: this vault's numbered rooms (`01_Entrance` … `10_Balcony`) assume one fixed room per function. This project's own plan doesn't have a fixed "master bedroom" room — see **Household Plan** below. This page collects every accumulated bedroom-design fact/formula in one place, written so it applies to *whichever space is currently functioning as the adults' bedroom*, and is cross-referenced from each phase's actual room page rather than owning a room number itself.
+
+## Household Plan (context for applying this page)
+
+Per explicit user direction (2026-08-20), this project's adult sleeping arrangement is planned in two phases, not as one fixed room:
+
+- **Phase 1 (now)**: the adults' bedroom is the small room — [[06_Small_Bedroom/Small_Bedroom_Index|Small Bedroom]], ~9.3 m² — used temporarily while children are young. This room's own long-term intended use is a study/kids' room (see that page's own notes), so its bedroom-furnishing plan should be treated as a temporary configuration, not the room's permanent design.
+- **Phase 2 (later, once children are old enough for school)**: the adults move into a **partitioned section of the combined kitchen-living room** (~24-25 m² total combined space). A glass divider/sliding door separates a nighttime bedroom zone from the daytime kitchen-living zone — the same physical floor area serves both functions depending on time of day. **This phase has no dedicated planning page yet** — when it's designed, it should apply this page's formulas to whatever sub-footprint the glass-divider partition allocates to the "bedroom" side, and a decision should be made then about whether it needs its own page or a section on the kitchen-living room's own planning content.
+
+**Practical implication for every rule below**: read "the bedroom" as "whichever space is functioning as the adults' bedroom in the phase being planned," not as a specific numbered room. A formula that assumes a full four-wall room (e.g. the false-wall/curtain-zone sequence) may need adaptation for Phase 2's partitioned zone — flag that explicitly if/when Phase 2 is actually designed, rather than assuming every item below transfers unchanged.
+
+## The 12-Item Design Sequence (source: `hVFmcw1H2Rk`, #314)
+
+**Core methodology: place bedroom elements in a specific priority order, each one locking in real dimensions the next step depends on** — structural/fixed elements first, furniture next, decor/electrical-detail last. Full detail and reasoning in the [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hVFmcw1H2Rk_bedroom_design_sequence_masterclass_314|source extraction note]]; summarized here:
+
+1. **Interior door** — position against one wall, not centered, to maximize the remaining run for the wardrobe. 10cm reveal on the near side; opening width = leaf width + 10cm. **Leaf width: 80cm optimal** (90cm excessive/sags prematurely; 70cm acceptable but tight; 60cm only for a WC/technical room). Swings inward, never outward.
+2. **Main light switch** — inside the room, on the handle side of the door. **90cm from finished floor, 15cm from the opening's edge.** Must be a pass-through (two-way) switch so the light can be turned off from either side of the bed.
+3. **Wardrobe** — on the entry wall (makes the room more compact/square, improving daylight reach). Custom, floor-to-ceiling, **60cm depth**. Stops ~30cm short of the door opening so the switch ends up centered between door and wardrobe once casings are installed. Door-panel width: **35-60cm**.
+4. **False wall** (conceals risers, recesses the radiator) — **150mm depth**, placed right after the wardrobe to lock in the room's true footprint before furnishing. **Radiator-niche formula**: lower return 15cm; niche height = radiator inter-axial dimension + 20cm; upper return minimum 5cm (choose a different radiator and recalculate if this comes out under 5cm).
+5. **Curtain zone** — **20cm depth**, right after the false wall/wardrobe, locking in the final dimension before bed placement (wide enough for a motorized track + tulle).
+6. **Bed** — center point = midpoint between wardrobe and curtain zone. **Sleep-surface width: 180cm default** (160cm if space is tight, 200cm for larger occupants/ample space). Frame width usually exceeds sleep-surface width by 10-20cm. **Clearance each side: minimum 50cm, ideally 60cm** — shrink the bed, not the clearance, if the two conflict.
+7. **Nightstands** — right after the bed, before bedside electrical. **40×40cm, 50-55cm height.**
+8. **Bedside electrical** — on the nightstand's own center axis, a block at **70cm from the floor**: night-light switch nearest the bed, then a pass-through main-light switch, then 1-2 outlets. Mirror on both sides.
+9. **Night light** — individually switched per side. Cable outlet on the same axis, **1m from the floor**, 20cm of slack. Cable: 3-core VVGnG-LS, 1.5mm².
+10. **TV zone** — wall-hung console, width ≈ sleep-surface width, centered on the bed's axis. Set its height only after step 12 (dresser/makeup table) is placed, matching that piece's height (or its third drawer tier if it has 4).
+11. **TV-zone electrical** — two groups on the console's center axis: Group 1 at 160cm (TV/internet/power outlets + cable channel down); Group 2 at 10cm from the console's top edge (2 outlets + internet for a set-top box + cable channel up).
+12. **Makeup table/dresser** — last, filling the leftover space between the TV zone and curtain zone. **60-100cm width.** Mirror starts directly at the countertop; hairdryer/styling outlets go under the table, not exposed.
+
+## Supporting Facts From Other Sources (cross-referenced, not duplicated)
+
+- **Wardrobe mirror placement**: never install mirrored wardrobe-door panels facing the bed — peripheral-vision motion from mirrors facing the sleep area is a real, common-enough discomfort that ~65% of this practitioner's clients ask to swap mirrored panels for frosted/matte ones after living with it. Mirrors should face *into* the closet, not out toward the room. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8odGOTVAuIk_bedroom_mistakes_client_testimonial|source note]]
+- **Walk-in-closet mirror clearance formula** (if a walk-in closet is built with an internal mirror): minimum width = 1m (mirror standing clearance) + 60cm (clothing zone) + 10cm (sliding-door track) = **1.7m minimum**. Below that, don't build a walk-in with an internal mirror. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8odGOTVAuIk_bedroom_mistakes_client_testimonial|source note]]
+- **Walk-in-closet access point**: enter from a shared hallway/vestibule, not from inside the bedroom itself — preserves the bedroom's own wall space for a proper wardrobe with mirrored doors, without sacrificing the closet's privacy (a closed door already grants that). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_u28Gqg_V7eE_walkin_access_from_hallway_not_bedroom|source note]]
+- **Don't shrink a bedroom to bring the TV closer** — compensate for viewing distance with a larger TV instead; keep the room's full usable size. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8odGOTVAuIk_bedroom_mistakes_client_testimonial|source note]]
+- **Never use recessed spotlights inside an enclosed mirrored closet** — even many spotlights produce harsh directional shadows on skin/clothing; use a glowing/luminous ceiling panel instead for even light.
+- **Glass sliding-door dampers**: never skip soft-close dampers on heavy glass wardrobe doors — an unintentionally forceful slide can shatter the panel without one. Directly relevant to Phase 2's own glass divider door (verify the divider itself has proper soft-close/damping hardware, not just the wardrobe).
+- **Irregular-shell bedroom techniques** (trapezoidal rooms, curved walls, acute/obtuse corners): see [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RF6FdHk_jgE_wildest_one_bedroom_trapezoid_layout|source note]] for a full worked case — relevant if either phase's actual room geometry turns out non-rectangular.
+
+## Change Log
+
+- 2026-08-20 — Page created to resolve the store's flagged "Master Bedroom" structural gap (see `renovation_budgeting_knowledge_store.md`'s Pending Wiki-Page Decisions), per explicit user clarification that this project has no fixed master-bedroom room — instead a two-phase plan (temporary use of the small room, later a glass-partitioned zone within the kitchen-living room). Consolidates the 12-item design-sequence masterclass (`hVFmcw1H2Rk`) with 4 previously-recorded bedroom sources that had been living only in the intermediate store with no dedicated page.

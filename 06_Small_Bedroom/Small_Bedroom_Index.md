@@ -21,6 +21,7 @@
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
 * **Quiet Zone**: Study desk for work, study, or reading.
 * **Flexibility**: Dual-purpose guest bedroom or home office.
+* **Phase 1 temporary adult bedroom (clarified 2026-08-20)**: this room is the adults' bedroom for now, while children are young — this room's own long-term intended use (study/kids' room) resumes once the household moves to its Phase 2 sleeping arrangement (a glass-partitioned zone within the kitchen-living room). Apply [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]'s formulas to this room's furnishing plan as a temporary configuration, not a permanent one.
 * **Adjoining loggia stays separate (clarified 2026-08-10)**: this room adjoins the loggia — the household has explicitly decided **not** to join/merge the two spaces; the existing door and window unit between them stay in place, and the loggia remains its own closed room. See [[Balcony_Index]] and [[Family_Requirements]] §10 for the full plan (glazing replacement + insulation only, no envelope conversion).
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 
