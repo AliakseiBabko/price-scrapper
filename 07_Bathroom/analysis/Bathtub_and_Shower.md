@@ -116,6 +116,10 @@ A concrete problem worth planning for explicitly: fixed elements (a load-bearing
 - **Correct: build a proper tiled utility column with its access opening facing the hallway/corridor side, never the tub side.** A tub-side opening gets water intrusion, makes the lower portion unusable, and leaves the upper portion unreachable. Access from the corridor instead avoids all three problems and gives a large, genuinely useful, floor-to-ceiling storage column.
 - **Construction detail**: tile the tub's own apron/screen with the same tile as the surrounding wall, so the junction between the apron and the new utility column reads as one continuous surface meeting at a clean 45°-mitered corner.
 
+## Shower-Enclosure Bottom-Seal Omission Caution (added 2026-08-20, remainder-pool Round 2)
+
+**⚠️ Don't assume a premium-priced shower enclosure includes a genuine bottom threshold/door-sweep seal — verify it directly.** A documented "elite" shower enclosure was installed without one (a feature present even on budget balcony enclosures), inevitably letting shower water pool on the floor outside the enclosure; a site-applied silicone bead was used as a stopgap, explicitly described as temporary and likely to eventually fail and need redoing. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GtOQ7h1p5qc_pure_design_madness_70sqm_303|YT_GtOQ7h1p5qc]]]
+
 ## Bathtub-Then-Tile Sequencing (added 2026-08-19, remainder-pool Round 2)
 
 **⚠️ Install the bathtub first, flush against three walls, then tile *over* the tub's own edge/rim** — never tile the walls first and push the tub up against an already-finished tile perimeter, which forces an ugly trim/edge detail around the tub that doesn't even prevent water intrusion any better. Stated definitively as the correct order of operations, extending this page's existing tile-over-tub-apron technique with an explicit sequencing rule. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nbrDFET2AXk_90_mistakes_part2_295|YT_nbrDFET2AXk]]]

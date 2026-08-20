@@ -43,7 +43,7 @@ git history (see commits `zemskov-remainder-batch2` through `zemskov-remainder-b
 one July-November 2023 narrated-planning-logic production cluster with heavy content
 overlap — worth remembering if any further video from this same window surfaces below.
 
-## Round 2 — processed so far (8 videos, batches 1-2, 2026-08-19)
+## Round 2 — COMPLETE (16 of 16 videos, batches 1-4, 2026-08-19 through 2026-08-20)
 
 | Video ID | Title | Outcome |
 |---|---|---|
@@ -52,36 +52,15 @@ overlap — worth remembering if any further video from this same window surface
 | `Qw2Xi6uPLls` | "DON'T EVER DO THIS IN YOUR HALLWAY! #302" | ✅ FULL — ⚠️⚠️ standout: the "floating dimension" construction-drafting technique |
 | `MWDcYHqe-iQ` | "74 JOINTS IN 74 METERS #288" | ✅ FULL — dense designer-critique tour, many new points |
 
-All 4 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/`, are integrated into the intermediate store's Change Log, and were wiki-routed the same session.
+All 16 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>` / `run_20260820_<video_id>`), have source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/` (except the confirmed duplicate and the 2 no-captions skips), are integrated into the intermediate store's Change Log, and were wiki-routed the same session as processed.
 
-## Round 2 — 4 remaining candidates (not yet touched)
+**Final tally (Round 2 only, 16 candidates)**: 13 extracted (1 PARTIAL for named-individual exclusion: `pNhM-kKBy6A`), 1 confirmed duplicate (`mhE_5qlJ0KU`, a re-edited remake of already-processed `C4lUAfJyyb0`), 1 genuine no-captions skip (`HE4u2vprC88`). `OnKreLhmLYY` (#299) and `nbrDFET2AXk` (#295) turned out to be parts 2-3 of the same "90 mistakes" series about one apartment — a real same-project overlap case, flagged in both source notes rather than double-counted. `hVFmcw1H2Rk` (#314) delivered this project's **standout finding of Round 2**: a complete, precisely sequenced 12-item bedroom design formula. A real structural gap surfaced during this batch: this vault has no numbered folder for a master/primary bedroom despite 5+ accumulated sources — flagged in the store's Pending Wiki-Page Decisions section for explicit user decision, not resolved unilaterally.
 
-Found by diffing `_Inbox/transcripts/channel_fresh_titles.txt` (158-row full-channel
-manifest) against every `watch?v=` URL in `00_Master/processed_sources.csv`, then
-removing the two permanently-excluded buckets above. **None of these 16 IDs appear in
-any prior triage file's candidate or exclusion list** — a genuine gap in every previous
-pass. Cross-reference each against the CSV again before fetching (a fresh session should
-re-verify, not just trust this table):
+## Round 3 — not yet started
 
-**Update (batches 1-3 complete, 11 of 16 videos)**: 10 extracted (2 partial for named-individual exclusions), 1 confirmed duplicate (`mhE_5qlJ0KU`, a re-edited remake of already-processed `C4lUAfJyyb0`), no genuine no-captions skips in Round 2 so far. `OnKreLhmLYY` (#299) and `nbrDFET2AXk` (#295) turned out to be parts 3 and 2 of the same "90 mistakes" series about one apartment — a real same-project overlap case, flagged in both source notes. `eezwcNG-1qI` (#269) confirmed on-topic, resolving the spot-check caution below.
-
-| Video ID | Title | Notes |
-|---|---|---|
-| `4omxjEA7LaI` | "DESIGN DISASTER IN 60 SQUARE METERS #283" | dunk-format |
-| `hVFmcw1H2Rk` | "A TOTAL DESIGN MESS IN YOUR BEDROOM! #314" | dunk-format, close in number to already-processed Category 5 videos — check for duplicate/reused-script risk against `Rlyx2F7Aaxg` #315 (already processed) |
-| `GtOQ7h1p5qc` | "70 m2 OF PURE DESIGN MADNESS! #303" | dunk-format, same #296-315 numbering cluster as several already-processed Category 5 videos — check content independence |
-| `HE4u2vprC88` | "РЕМОНТ КВАРТИРЫ В БЕЛЫХ ТОНАХ. ОТЗЫВ ЗАКАЗЧИКА #514" | positive client-testimonial format, #5xx (no longer treated as inherently risky per Round 1's finding) |
-
-## Suggested next step
-
-Continue in small batches (3-4 videos), same pipeline as Round 1: verify unprocessed
-against the CSV → fetch serialized with real spacing → extract (applying the new-build
-scoping rule) → integrate into the intermediate store → wiki-route the same session →
-CSV log → archive transcripts → branch → commit → push → merge to `main` → delete branch.
-Update this file's Round 2 table (move rows to a new "Round 2 — processed" section) as
-each batch completes.
-
-After Round 2 is exhausted, a Round 3 re-derivation would need to re-scan
+Round 2's 16-video candidate list (re-derived by diffing the full channel manifest
+against the processed-sources CSV) is now fully exhausted. A future session wanting to
+continue would need to re-scan
 `channel_fresh_titles.txt` again (it may itself be stale/incomplete relative to the
 channel's true full catalog — it was generated at some earlier point in this triage
 project, not necessarily re-fetched from YouTube itself) or pull a fresh channel video
