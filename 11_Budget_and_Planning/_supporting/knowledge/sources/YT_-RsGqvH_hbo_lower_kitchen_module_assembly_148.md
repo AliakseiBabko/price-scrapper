@@ -39,7 +39,7 @@ One explicit design-project service mention mid-video (no price stated) — tag 
 
 ## Target Page(s)
 
-`03_Kitchen/Furniture/Kitchen_Furniture.md` — the countertop-bracket spacing, inter-module tie technique, bottle-rack runner-offset rule, and cross-module height/depth alignment technique are all genuinely new and worth a new subsection; the overlapping general-assembly content (confirmat torque, two-person lift, diagonal check, eccentric sequencing) is already covered by the existing checklist and not duplicated.
+`03_Kitchen/Kitchen_Furniture.md` — the countertop-bracket spacing, inter-module tie technique, bottle-rack runner-offset rule, and cross-module height/depth alignment technique are all genuinely new and worth a new subsection; the overlapping general-assembly content (confirmat torque, two-person lift, diagonal check, eccentric sequencing) is already covered by the existing checklist and not duplicated.
 
 ## Relevance to This Project's Topic
 
@@ -53,7 +53,7 @@ Moderate — the genuinely new content (module alignment technique, inter-module
 
 ## Recommended Downstream Routing
 
-`tiered-knowledge-base` — Furniture/Built-ins Durable Facts section of the renovation budgeting intermediate store (new content only), plus `03_Kitchen/Furniture/Kitchen_Furniture.md` wiki routing.
+`tiered-knowledge-base` — Furniture/Built-ins Durable Facts section of the renovation budgeting intermediate store (new content only), plus `03_Kitchen/Kitchen_Furniture.md` wiki routing.
 
 ## Promotion self-check
 

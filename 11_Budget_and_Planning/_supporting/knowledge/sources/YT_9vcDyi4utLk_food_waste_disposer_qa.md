@@ -51,7 +51,7 @@ Q&A/testimonial format: Alexey Zemskov interviews a real client ("Nina"), whose 
 
 ## Target Page(s)
 
-- **`15_Appliances/Kitchen/Kitchen_Disposers.md`** — currently an empty file in this vault; this source's usage/safety rules and the 2022 price point are a strong first-content candidate for that page, but filling it is left to the user/a later explicit step since it falls outside this wrapper's three owned storage paths (source notes / intermediate store / `Budgeting_Guide.md`).
+- **`15_Appliances/Kitchen_Disposers.md`** — currently an empty file in this vault; this source's usage/safety rules and the 2022 price point are a strong first-content candidate for that page, but filling it is left to the user/a later explicit step since it falls outside this wrapper's three owned storage paths (source notes / intermediate store / `Budgeting_Guide.md`).
 - **Intermediate knowledge store** — the price point and durable usage/safety facts recorded there (see below) so they aren't only reachable by opening this note directly.
 
 ## Relevance to This Project's Topic

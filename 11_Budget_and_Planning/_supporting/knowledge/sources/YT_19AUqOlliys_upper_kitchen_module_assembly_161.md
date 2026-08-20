@@ -40,7 +40,7 @@ None — purely technical, no pricing pitch or brand endorsement. The source exp
 
 ## Target Page(s)
 
-`03_Kitchen/Furniture/Kitchen_Furniture.md` — existing "Cabinet & Countertop Assembly Technique" section covers lower-module assembly principles from the 28-item mistakes checklist; this source's range-hood duct-cutout technique is the standout genuinely new addition (not previously covered) and warrants its own subsection, since upper-module-specific hardware (eurorail, duct routing) isn't addressed anywhere else in this store.
+`03_Kitchen/Kitchen_Furniture.md` — existing "Cabinet & Countertop Assembly Technique" section covers lower-module assembly principles from the 28-item mistakes checklist; this source's range-hood duct-cutout technique is the standout genuinely new addition (not previously covered) and warrants its own subsection, since upper-module-specific hardware (eurorail, duct routing) isn't addressed anywhere else in this store.
 
 ## Relevance to This Project's Topic
 
@@ -54,7 +54,7 @@ Moderate-high — directly actionable DIY assembly technique, especially the duc
 
 ## Recommended Downstream Routing
 
-`tiered-knowledge-base` — Furniture/Built-ins Durable Facts section of the renovation budgeting intermediate store, plus `03_Kitchen/Furniture/Kitchen_Furniture.md` wiki routing (duct-cutout technique specifically).
+`tiered-knowledge-base` — Furniture/Built-ins Durable Facts section of the renovation budgeting intermediate store, plus `03_Kitchen/Kitchen_Furniture.md` wiki routing (duct-cutout technique specifically).
 
 ## Promotion self-check
 

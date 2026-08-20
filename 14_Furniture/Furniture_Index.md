@@ -11,5 +11,5 @@ Landing page for furniture/built-in content that spans multiple rooms rather tha
 
 ## Related, Living Elsewhere
 
-- Kitchen-specific furniture (cabinetry, facades) lives in `03_Kitchen/Furniture/Kitchen_Furniture.md`, not here — kept with the room it's specific to rather than duplicated in this domain folder.
+- Kitchen-specific furniture (cabinetry, facades) lives in `03_Kitchen/Kitchen_Furniture.md`, not here — kept with the room it's specific to rather than duplicated in this domain folder.
 - Appliances (a separate domain, not furniture) live in [[15_Appliances/Appliances_Index|Appliances Index]].

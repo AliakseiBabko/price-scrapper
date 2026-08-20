@@ -36,7 +36,7 @@ Minimal — the video closes with a self-reflective framing about the value of s
 
 ## Target Page(s)
 
-`03_Kitchen/General/Kitchen_General.md` — currently an empty placeholder page; this is a strong first source to populate it with, given the topic (kitchen configuration/layout selection) is exactly what that page's slot is for, distinct from `Kitchen_Furniture.md`'s assembly-technique focus.
+`03_Kitchen/Kitchen_General.md` — currently an empty placeholder page; this is a strong first source to populate it with, given the topic (kitchen configuration/layout selection) is exactly what that page's slot is for, distinct from `Kitchen_Furniture.md`'s assembly-technique focus.
 
 ## Relevance to This Project's Topic
 
@@ -50,7 +50,7 @@ Moderate-high — a genuinely reusable layout-decision framework (split function
 
 ## Recommended Downstream Routing
 
-`tiered-knowledge-base` — Kitchen Durable Facts section of the renovation budgeting intermediate store, plus `03_Kitchen/General/Kitchen_General.md` wiki routing (first real content for that page).
+`tiered-knowledge-base` — Kitchen Durable Facts section of the renovation budgeting intermediate store, plus `03_Kitchen/Kitchen_General.md` wiki routing (first real content for that page).
 
 ## Promotion self-check
 

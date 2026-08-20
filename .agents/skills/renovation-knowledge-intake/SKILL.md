@@ -361,7 +361,7 @@ For one source at a time:
    `14_Furniture/*`, etc. - outside this wrapper's own three owned
    paths, but a routine downstream step per this project's established
    practice), follow the page-shape convention in
-   `12_Engineering_and_Systems/_supporting/wiki_page_format.md` -
+   `00_Master/wiki_page_format.md` -
    **this is the default shape for new and growing content now, not
    just a retrofit for pages that already got unwieldy.** Concretely:
    a brand-new topic with several distinct sub-decisions starts

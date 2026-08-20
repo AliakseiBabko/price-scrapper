@@ -1,6 +1,6 @@
 # Kitchen — Layout & Configuration
 
-General kitchen configuration/layout decisions — distinct from [[03_Kitchen/Furniture/Kitchen_Furniture|Kitchen Furniture]], which covers cabinet/countertop assembly technique. Room-specific requirements/dimensions for this project's own kitchen live on [[03_Kitchen/Kitchen_Index|Kitchen Index]].
+General kitchen configuration/layout decisions — distinct from [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]], which covers cabinet/countertop assembly technique. Room-specific requirements/dimensions for this project's own kitchen live on [[03_Kitchen/Kitchen_Index|Kitchen Index]].
 
 ## Large Open Kitchen-Living Layout: Split Function Instead of One Continuous Run (added 2026-08-19)
 

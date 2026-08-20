@@ -48,7 +48,7 @@ One explicit design-fee mention (~3,000 RUB/m², described as available "anywher
 
 - `12_Engineering_and_Systems/analysis/Fixture_Stubout_Coordinates.md` — add the trash-bin-clearance offset rule alongside the existing precise kitchen coordinate table (complementary design consideration, not a numeric contradiction).
 - `12_Engineering_and_Systems/analysis/AC_Key_Concepts_and_Placement.md` and/or `AC_Sizing_and_Selection.md` — new kitchen-specific AC placement rule and 1.5× sizing multiplier; check whether a kitchen sub-section already exists before adding.
-- `03_Kitchen/Furniture/Kitchen_Furniture.md` or `03_Kitchen/General/Kitchen_General.md` — freestanding-fridge niche sizing (single-file page, append normally).
+- `03_Kitchen/Kitchen_Furniture.md` or `03_Kitchen/Kitchen_General.md` — freestanding-fridge niche sizing (single-file page, append normally).
 
 ## Relevance to This Project's Topic
 
