@@ -7,7 +7,7 @@ Part of [[12_Engineering_and_Systems/Heating|Heating]].
 
 ## Naming Clarification
 
-"Water" underfloor heating is more accurately "liquid" (жидкостной) — the heat-transfer medium is often antifreeze, not pure water. Both "electric" and "film" (infrared) types are technically electric, but have fundamentally different heating mechanisms: direct-heating electric cable/mat resistively heats the element itself; film/infrared heats via radiated waves that warm whatever sits above the film, not the film's own temperature primarily. The two shouldn't be conflated despite both being "electric."
+attribution: unconfirmed — the cited comparison is single-account and does not expose a decisive `channel:` field: "Water" underfloor heating is more accurately "liquid" (жидкостной) — the heat-transfer medium is often antifreeze, not pure water. Both "electric" and "film" (infrared) types are technically electric, but have fundamentally different heating mechanisms: direct-heating electric cable/mat resistively heats the element itself; film/infrared heats via radiated waves that warm whatever sits above the film, not the film's own temperature primarily. The two shouldn't be conflated despite both being "electric."
 
 ## The Ten-Parameter Comparison
 

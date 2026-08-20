@@ -4,9 +4,9 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
 
 ## Buying & Installation Quality
 
-**Sourcing lighting fixtures directly from overseas factory suppliers cuts hardware cost roughly 2-3×** (some sources cite up to 50-70%) versus buying through local resellers — a meaningful lever specifically for lighting, which tends to carry high retail markup.
+attribution: unconfirmed — the cited buying sources are mixed and do not isolate a decisive `channel:` field: **Sourcing lighting fixtures directly from overseas factory suppliers cuts hardware cost roughly 2-3×** (some sources cite up to 50-70%) versus buying through local resellers — a meaningful lever specifically for lighting, which tends to carry high retail markup.
 
-**Don't pay a labor premium for purely decorative sub-screed cable routing patterns** — cables are fully encased in screed either way; code-compliant routing without unnecessary crossovers is sufficient, and paying extra for a "neater" hidden pattern buys nothing visible or functional.
+attribution: unconfirmed — the cited buying sources are mixed and do not isolate a decisive `channel:` field: **Don't pay a labor premium for purely decorative sub-screed cable routing patterns** — cables are fully encased in screed either way; code-compliant routing without unnecessary crossovers is sufficient, and paying extra for a "neater" hidden pattern buys nothing visible or functional.
 
 **Buy finish-stage switches/outlets/frames roughly one week before installation, not months in advance** — reduces storage damage/loss risk and avoids having already-bought fixtures invalidated by a mid-project design change. Count the actual number of finish electrical points room-by-room after rough-in is complete (not from the original drawing), since e.g. kitchen point counts commonly shift once final cabinetry is confirmed. Keep a small spare stock — roughly 3-4 spare outlets and a few spare switches/frames of each type used, for a ~100 m² apartment.
 
