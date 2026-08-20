@@ -4,9 +4,9 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. **One of the densest, most
 
 ## Standard Window Measurement
 
-- attribution: unconfirmed — the cited analysis sources do not isolate a decisive `channel:` field: **All windows visible simultaneously in one sightline should have sills at the same height from the floor.**
-- attribution: unconfirmed — the cited analysis sources do not isolate a decisive `channel:` field: **Tool: a laser level on an elevation tripod** (fine-adjustment crank/rod), not a standard tripod (leg-length-only height control, impractically tedious for precise matching).
-- attribution: unconfirmed — the cited analysis sources do not isolate a decisive `channel:` field: **Zero-reference-point method for multiple windows**: find the single highest point across all windowsill areas via laser survey; set the "zero mark" **15mm below** that point (the minimum foam-joint thickness under the sill/base profile needed to avoid freezing — can be more elsewhere if the sill is uneven, never less than 15mm anywhere). Physically mark this zero point at every opening, including hard-to-reach spots.
+- Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) says: **All windows visible simultaneously in one sightline should have sills at the same height from the floor.**
+- Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) specifies: **Tool: a laser level on an elevation tripod** (fine-adjustment crank/rod), not a standard tripod (leg-length-only height control, impractically tedious for precise matching).
+- Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Zero-reference-point method for multiple windows**: find the single highest point across all windowsill areas via laser survey; set the "zero mark" **15mm below** that point (the minimum foam-joint thickness under the sill/base profile needed to avoid freezing — can be more elsewhere if the sill is uneven, never less than 15mm anywhere). Physically mark this zero point at every opening, including hard-to-reach spots.
 - **Measurement-from-zero method**: measure from the marked zero point up to the opening's top, then subtract the standard top-joint allowance (30mm) for the frame's actual order height.
 - **Sketch-first rule**: sketch the future window unit on paper before measuring, including mullion/pillar (impost) positions.
 - **Worked example (height)**: opening height 1600mm − 30mm top joint = **1570mm order height**.

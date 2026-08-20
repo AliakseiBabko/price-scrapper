@@ -4,7 +4,7 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]].
 
 ## Tilt-and-Turn vs. Turn-Only
 
-attribution: unconfirmed — the cited source is single-account or mixed and does not isolate a decisive `channel:` field: **Tilt-and-turn is unambiguously the better default over turn-only, all else equal** — the cost premium is small (~1-2% of total window cost), negligible against the functional gains. Three advantages:
+Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Tilt-and-turn is unambiguously the better default over turn-only, all else equal** — the cost premium is small (~1-2% of total window cost), negligible against the functional gains. Three advantages:
 
 1. **Avoids needing a hard fall-limiter/restrictor**: a turn-only sash swings fully open with no other restraint, requiring a child-safety stop as an added part/failure point.
 2. **Trickle/slot ventilation**: turn-only sashes are only fully open (losing heat/security) or fully closed — tilt-and-turn's tilt position gives a small continuous perimeter gap for fresh air without opening the sash.
@@ -12,9 +12,9 @@ attribution: unconfirmed — the cited source is single-account or mixed and doe
 
 ## Panoramic-Window Safety Hardware
 
-attribution: unconfirmed — the cited source is not channel-isolated: **The problem**: standard safety-code parapet height (~1.1m) conflicts directly with a panoramic-window design goal — at that height, someone seated sees mostly the opaque parapet and only a strip of sky, not the view a floor-to-ceiling glazed section is meant to provide.
+Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) explains: **The problem**: standard safety-code parapet height (~1.1m) conflicts directly with a panoramic-window design goal — at that height, someone seated sees mostly the opaque parapet and only a strip of sky, not the view a floor-to-ceiling glazed section is meant to provide.
 
-attribution: unconfirmed — the cited source is not channel-isolated: **Standard resolution**: split the window into a fixed panoramic (non-opening) section below the code-required parapet height, and a small opening transom (фрамуга) above it, rather than making the whole panoramic window openable.
+Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Standard resolution**: split the window into a fixed panoramic (non-opening) section below the code-required parapet height, and a small opening transom (фрамуга) above it, rather than making the whole panoramic window openable.
 
 ### Device 1 — Remote Transom-Opening Mechanism
 
