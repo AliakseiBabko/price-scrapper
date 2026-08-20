@@ -134,3 +134,11 @@ the inventory records their targets only to support the attribution check.
 | scope | channel evidence | retrofit treatment |
 |---|---|---|
 | Windows guide and analysis: `Windows.md`, `Windows_Quality_and_Buying`, `Windows_Measurement`, `Windows_Hardware_Selection` | `Windows_Source_Notes.md` identifies all 18 cited sources as Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov), with Konstantin only as a named installer partner on some installation sources | 19 old `attribution: unconfirmed — ...` prefixes replaced with real Zemstandart/Zemsproekt/Zemsremont inline attribution; no old pattern remains in these four files |
+
+## Workstream F retrofit inventory (turn 36)
+
+| scope | channel evidence | retrofit treatment |
+|---|---|---|
+| Electrical analysis: `Electrical_Key_Concepts_and_Planning` | Electrical Source Notes identify the relevant ZEMS playlist and the guide's channel note identifies it as Zemstandart / Alexey Zemskov; the edited planning and lighting claims match that source family | 7 old prefixes replaced with `Alexey Zemskov / ZEMS` inline attribution |
+| Electrical analysis: `Rough_Electrical_Sequencing`, `Temporary_Construction_Electrical` | both pages' cited technical material is within the ZEMS electrical playlist listed in Electrical Source Notes | 7 old prefixes replaced with `Alexey Zemskov / ZEMS` inline attribution |
+| Electrical analysis: `Electrical_Buying_and_Hiring` | page combines mixed buying sources and the current claim-to-note mapping does not isolate a single channel for every old-pattern claim | deferred for a dedicated source-link/channel pass; no ZEMS attribution guessed |
