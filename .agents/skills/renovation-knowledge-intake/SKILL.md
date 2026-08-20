@@ -21,17 +21,12 @@ Do not reimplement fetching, extraction, or wiki-synthesis rules here.
    `tiered-knowledge-base`'s own batching rule - see that skill's
    `references/tiered-pipeline.md`).
 
-### How to invoke this file (added 2026-08-17, after a real dispatch failure)
+### How to invoke this file (added 2026-08-17)
 
-This file lives under `.agents/skills/`, which is **not** a path the
-`Skill` tool resolves in every harness - telling a sub-agent to "invoke
-renovation-knowledge-intake via the Skill tool" can silently fail or cause
-the agent to improvise instead of following this file. **Always have the
-agent `Read` this file directly and follow it as plain instructions.** Only
-the shared skills it delegates to (`youtube-transcript-fetch`,
-`meeting-transcript-extract`, `tiered-knowledge-base`) may actually be
-`Skill`-tool-invocable, depending on the harness - check before assuming
-either way.
+Read this project-local file directly and follow it as plain instructions;
+do not assume the harness resolves it through a `Skill`-tool invocation. See
+[`references/lessons.md`](references/lessons.md#background-agent-dispatch)
+for the incident that established this rule.
 
 ### Dispatching a large batch to a background agent (added 2026-08-17)
 
@@ -45,47 +40,20 @@ on a multi-video batch:
   way partway through a 30-video list. Split into several smaller
   sequential dispatches (roughly 5-8 videos each) instead of one dispatch
   for the whole list.
-- **Never let a dispatched agent claim to delegate further.** It must do
-  the fetching/extraction/writing itself in the same run - not describe a
-  plan to launch another agent. A 2026-08-17 dispatch did exactly this: it
-  reported "completed" with zero real file changes while a fabricated
-  narrative claimed it had "launched a background agent to do the work" -
-  and in fact it had triggered a real, untracked process that kept writing
-  files independently for ~40 minutes afterward with no agent ID the
-  orchestrator could see, message, or stop. That produced a genuine
-  collision: duplicate CSV `run_id`s under the old sequential-counter
-  scheme, and a wiki citation pointing at a filename the other writer had
-  actually used a different name for. The `run_id` format was changed the
-  same day to be collision-safe by construction - see the CSV schema
-  section above - but the "never let an agent silently delegate further,
-  always verify against `git status`" lesson still applies regardless of
-  `run_id` scheme.
+- **Never let a dispatched agent delegate further.** It must do the work
+  itself and the orchestrator must verify real changes. See
+  [`references/lessons.md`](references/lessons.md#background-agent-dispatch).
 - **Always verify a background agent's completion claim against
-  `git status --short` and the CSV row count** before trusting its
-  narrative report - don't rely on the result text alone, especially if
-  that text describes delegating further work.
-- **A dispatched agent cannot reliably sleep through the "real spacing,
-  minutes-scale" wait between fetches in one continuous run - the sandbox
-  blocks long foreground `sleep` calls.** In practice this means a
-  multi-video chunk checkpoints at each spacing-wait boundary and reports
-  `completed` even though the chunk isn't done - this is expected
-  behavior, not a fabricated-completion failure, but it looks identical
-  from a single notification. Plan for it: after each "completed"
-  notification, verify actual progress (CSV row count vs. videos
-  assigned), and if short, resume the *same* agent by name/ID with
-  `SendMessage` stating the confirmed real progress and telling it to
-  continue - don't re-dispatch a fresh agent, which would risk the exact
-  concurrent-writer collision described above. A real 2026-08-17 run
-  needed six such resumes for one 7-video chunk. Each resume keeps the
-  agent's full prior transcript, so its context/token usage grows with
-  every resume (~125k to ~191k tokens over six resumes in that run) -
-  another reason to keep chunks small (5-8 videos, per below) rather than
-  large, since a bigger chunk means more resume cycles and more
-  accumulated context per dispatch.
-- **If a collision is ever suspected**, diff every touched file's source
-  citations against the archive filenames that actually exist on disk, not
-  just the CSV row count - the CSV can look clean while a citation is
-  dangling.
+  `git status --short`, the CSV row count, and the status JSON below** before
+  trusting its narrative report.
+- **Maintain a status file for every dispatched chunk:**
+  `_Inbox/planning/batch_status_<YYYYMMDD>_<short-label>.json`. It maps each
+  assigned video ID to exactly one of `pending`, `fetched`, `extracted`,
+  `integrated`, `archived`, `skipped`, or `failed`; update it at every
+  transition. If spacing pauses interrupt a chunk, resume the same agent
+  after checking this file, then cross-check archive citations if a collision
+  is suspected. See
+  [`references/lessons.md`](references/lessons.md#background-agent-dispatch).
 
 ## Shared skills this wrapper uses
 
@@ -201,6 +169,34 @@ Per explicit user guidance (confirmed effective on a real 8-video test against t
 - **Filter out / deprioritize:** pure consumer/client sentiment about a renovation ("we love how it turned out", satisfaction-only testimonials) with no concrete technical or numeric substance behind it - sentiment alone doesn't answer "what should I actually do."
 - This criteria set works together with (does not replace) the existing "Advertising / promotional content filter" and "Market data vs. tier-steering" sections below, which apply *within* a source once you've decided to process it - this value-filter criteria is for the *upstream selection* decision, before spending extraction effort on a source at all.
 
+### Round yield and stopping signal
+
+When a channel/list round is declared complete, append one structured line to
+its planning file: `**Round N yield**: <videos processed> videos, <genuinely-new
+fact count> new facts (excluding duplicate/corroborating-only outcomes), yield
+= <new facts / videos processed>.` Count a fact once even if it routes to
+several pages. For the next round, default to stop-and-ask-the-user if yield
+falls by more than 50% from the previous round or is below **1.0 new fact per
+processed video**. The absolute floor makes a weak tail explicit; document
+the reason in the planning note if an exception is chosen.
+
+### Source-note quality fields
+
+At step 6, add these optional frontmatter fields to each new or updated source
+extraction note:
+
+```yaml
+fact_yield: 0
+promotional_ratio: low | medium | high
+corroborates_existing: false
+```
+
+`fact_yield` is a rough integer count of genuinely new facts;
+`promotional_ratio` describes substantive-to-promotional balance; and
+`corroborates_existing` is true only when the source materially confirms an
+existing claim. These are project-local annotations, not shared-skill schema
+changes.
+
 ## This project's taxonomy
 
 Pass this exact bucket list to `meeting-transcript-extract` as the
@@ -265,7 +261,11 @@ user doesn't have to restate it each time):
 - Source extraction notes folder:
   `11_Budget_and_Planning\_supporting\knowledge\sources\`
 - Intermediate knowledge store:
-  `11_Budget_and_Planning\_supporting\knowledge\intermediate\renovation_budgeting_knowledge_store.md`
+  `11_Budget_and_Planning\_supporting\knowledge\intermediate\store\_index.md`
+  (the former monolith is retained as a redirect stub; use the linked
+  `Numeric_Data.md`, `Durable_Facts.md`, `Rules_Heuristics.md`,
+  `Planning_Rules.md`, `Pending_Wiki_Page_Decisions.md`, and `Change_Log.md`
+  files, opening only the bucket(s) touched by the source)
 - Master wiki page (auto-updatable):
   `11_Budget_and_Planning\Budgeting_Guide.md`
 
@@ -393,24 +393,12 @@ For one source at a time:
    a fast multi-video chunk), say so explicitly to the user rather than
    silently deferring it.
 
-   **The routing pass is also a real error-catching mechanism, not just
-   placement (same 2026-08-18 incident).** Deliberately reading a new
-   source's claim side-by-side with what an existing wiki page already
-   says on the same topic caught a genuine extraction error: a transcript
-   line with awkward, negation-heavy phrasing ("не такую... а...", "not
-   the X kind... [rather] Y") had been extracted with the preference
-   backwards - recorded as "prefer tube-based lubricant" when the source
-   actually said the opposite. The store's own corroboration note stated
-   two sources "agreed," which was itself wrong and would have stood
-   uncaught if the routing pass had just filed the fact away rather than
-   actually comparing it against the existing page's wording. Read the
-   original transcript line again, not just your own extraction note,
-   whenever a routed fact is about to be marked "corroborates" or
-   "confirms" an existing page - agreement is exactly the case with the
-   least scrutiny by default, and exactly where a reversed extraction
-   hides. Ambiguous negation/contrast phrasing in a transcript (Russian
-   "не X, а Y" constructions especially) deserves an `uncertain` flag at
-   extraction time rather than a confident resolution either way.
+   **The routing pass is also an error-catching mechanism, not just
+   placement.** Re-read the original transcript before marking a routed fact
+   as corroborating or confirming an existing page; flag ambiguous
+   negation/contrast phrasing (especially Russian `не X, а Y`) as `uncertain`.
+   See [`references/lessons.md`](references/lessons.md#negation-routing-incident)
+   for the incident behind this rule.
 
    **When a source's content has no existing wiki page to route to at
    all** (not "which section," but "no page exists for this sub-topic
@@ -572,19 +560,11 @@ and then filtering *marketing* from *usable data* within it.
 
 ### Fetching: use a real rendered browser, not a summarization tool, for anything that will become evidence
 
-**Do not treat a `WebFetch`-style tool's paraphrase as the source
-text for extraction.** A real test on this project (2026-08-10, see
-`web_zemspro_about_development`'s source note and Change Log) found
-`WebFetch` accurate on everything it *did* report, but **it missed an
-entire tabbed section of concrete content** - the page was a tab-
-switching single-page layout, and a summarization tool (like a raw
-`innerText` read) only sees whichever tab is active by default; the
-other tabs' real content exists in the DOM but is invisible until
-clicked. Marketing/company sites lean heavily on tabs, accordions, "read
-more" expanders, and modal-triggered content specifically *because* it
-lets them front-load the polished pitch and bury the substantive detail
-- which is exactly the detail this project wants and the fluff doesn't
-matter losing.
+**Do not treat a `WebFetch`-style tool's paraphrase as source text.** Use a
+real rendered browser and click through tabs, accordions, expanders, and
+modals before saving evidence. See
+[`references/lessons.md`](references/lessons.md#webfetch-tabs-incident) for
+the incident that established this rule.
 
 - **Prefer Playwright MCP** (`browser_navigate` + `browser_snapshot`/
   `browser_evaluate`) when available in the session - it renders the

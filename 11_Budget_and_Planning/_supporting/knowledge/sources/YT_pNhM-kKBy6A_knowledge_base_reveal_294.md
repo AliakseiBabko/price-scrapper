@@ -10,6 +10,9 @@ regional_applicability: level 2 only (no city named directly in this video's con
 currency: RUB (self-promo design-fee restated, 4,000 RUB/m² — matches this store's already-recorded current rate, not new)
 language: ru (manually-created captions, method=youtube-transcript-api, generated=False)
 extraction_taxonomy: custom (renovation planning, per renovation-knowledge-intake wrapper taxonomy)
+fact_yield: 5
+promotional_ratio: high
+corroborates_existing: true
 ---
 
 # Extraction Note — Zemstandart/Zemproekt: "I Packed a Two-Room Apartment Into a Small Studio" (#294, YouTube pNhM-kKBy6A)
