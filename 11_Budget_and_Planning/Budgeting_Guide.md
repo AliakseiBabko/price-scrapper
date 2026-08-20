@@ -72,7 +72,7 @@ One practitioner's framing, worth internalizing regardless of delivery model: **
 
 ## 4. What to Check Before Estimating
 
-> **Claim attribution:** The wall-flatness and wall-depression bullets below cite archived `.txt` evidence rather than extraction notes exposing a decisive `channel:` field. They are therefore `attribution: unconfirmed` pending source-note recovery; their wording and existing uncertainty tags are unchanged.
+`attribution: unconfirmed` — the wall-flatness and wall-depression claims below cite archived `.txt` evidence rather than extraction notes exposing a decisive `channel:` field; their wording and uncertainty tags are unchanged.
 
 - **Source year controls currency conversion** — never convert historical prices at today's rate; use the source's own year (see [[00_Master/exchange_rates_reference|exchange_rates_reference]]).
 - **Region matters** — Minsk/Belarus pricing is the primary baseline here; Russian/RUB data is secondary reference only, not Minsk-equivalent (e.g. a RUB-denominated contractor-interview source, dated April 2025, uploaded by a Moscow-based channel with its own price-per-m² tier vocabulary — the uploader's location is not the same as a confirmed claim about which region's market the prices describe; see intermediate store for the full breakdown. Not assumed equivalent to the Minsk figures above.).
@@ -95,7 +95,7 @@ One practitioner's framing, worth internalizing regardless of delivery model: **
 
 ## 5. Cost-Saving Strategies
 
-> **Claim attribution:** The cost-saving bullets below retain their original archive citations. Where no cited extraction note with a decisive `channel:` field exists, attribution is `unconfirmed` rather than inferred from filename or company context.
+Each cost-saving bullet below names its source where the extraction note is decisive; otherwise it begins with `attribution: unconfirmed` rather than inferring a channel from filename or company context.
 
 Tactical moves for trimming budget without cutting quality (compressed from 13 sourced strategies — see [[11_Budget_and_Planning/_supporting/analysis/cost_saving_strategies_full|Detailed strategy notes]] for full sourcing and figures):
 

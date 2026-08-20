@@ -13,7 +13,7 @@ Two topics on this page have a genuine, unresolved disagreement between named pr
 
 ## Planning & Layout
 
-> **Claim attribution:** Kruglov/Ontario for the combined/separate layout, finish-buildup, and fixture-priority material identified in Bathroom Source Notes; any claim blended from multiple legacy archives remains `attribution: unconfirmed` unless the note mapping is explicit.
+Kruglov/Ontario recommends the following planning approach:
 
 **Default to a separate bathroom and WC**, not combined — combining only makes sense for a small apartment with ≤3 users, a unit with multiple bathrooms each serving ≤2 people, or a rental (saves tiling labor, more photogenic). **Budget for finish-layer thickness, not raw measurements**: plaster eats ~1–1.5cm per side, tile+adhesive another ~1.5cm — a wall measured at 3.5m can finish closer to 3.2m, and a sink niche that looks like 81cm stud-to-stud can shrink to an unusably tight 75cm once finished. This is the single most common source of "why doesn't this fit" surprises across every source on this page.
 
@@ -27,7 +27,7 @@ Two cheap planning habits worth adopting regardless of source: **write an explic
 
 ## Structure, Framing & Clearances
 
-> **Claim attribution:** Kruglov/Ontario for the prefab-cabin rule; the load-bearing-wall workaround is corroborated by Zemstandart's mapped lifehacks material.
+Kruglov/Ontario recommends demolishing the prefab plumbing cabin; Zemstandart's mapped lifehacks source recommends the load-bearing-wall workaround described below.
 
 **Demolish a prefab plumbing cabin if the apartment has one** — none of the historical materials (concrete, gypsum-concrete, asbestos-concrete) are worth keeping, and the ~15-20cm gap between cabin and real wall is space reclaimed entirely on demolition.
 
@@ -41,7 +41,7 @@ For access hatches, three construction types trade off cost against durability (
 
 ## Bathtub & Shower Selection
 
-> **Claim attribution:** Kruglov/Ontario for the bathtub/material recommendation; Zemstandart for the mapped curtain-versus-glass injury data. Do not read this as a universal synthesis beyond those cited practitioners.
+Kruglov/Ontario recommends the bathtub/material position below; Zemstandart's mapped source supplies the curtain-versus-glass injury data.
 
 **A bathtub is the more universal fixture** — a shower-only household can't ever get a bath, but the reverse isn't true, which matters most for a rental unit or bathing small children. Among materials, **cast/engineered marble is the standout recommendation**: warm like acrylic, as durable-feeling as cast iron, easy to repair — priced comparably to a *good* acrylic or cast-iron tub once quality is held constant, so a cheap acrylic tub isn't the right price comparison. Two independent sources converge on **~170cm as the right tub length even for a ~178-180cm occupant** — not the longest tub that fits — though they get there by different reasoning (bracing against a shorter tub vs. matching length to height so you can't slide under).
 
@@ -53,7 +53,7 @@ The apron/screen is where the **toe-kick niche disagreement** lives (see Perspec
 
 ## Tile Selection & Layout
 
-> **Claim attribution:** Zemstandart for the mapped tile-layout, apron, and grout recommendations; claims without a unique mapped extraction note are `attribution: unconfirmed`.
+Zemstandart recommends the mapped tile-layout, apron, and grout practices below; claims without a unique mapped extraction note are `attribution: unconfirmed`.
 
 **Lay and grout floor tile before setting the bathtub**, not after — lets the tub sit cleanly on the finished floor. For grout, **epoxy is the right call for any shower podium or external corner** even if the rest of the room uses cheaper cement grout — cement pops out of an external corner if the tile shifts even slightly, and a shower floor sees more sustained water exposure than almost any other tiled surface in the home. The 3-5x cost premium over cement is a corner/wet-zone cost, not a whole-room one.
 
@@ -65,7 +65,7 @@ On buying tile: **don't shop to a fixed budget** — tile lasts 20+ years, so a 
 
 ## Access Hatches, Shelving & Furniture
 
-> **Claim attribution:** `attribution: unconfirmed` — this compact guide section blends claims routed to multiple detail-page sources and does not identify one decisive extraction note per claim.
+`attribution: unconfirmed` — the following storage claims blend multiple detail-page sources and the guide does not identify one decisive extraction note for each claim.
 
 Hatch construction lives with structural content (see above); for storage, the two recurring themes across sources are **hide clutter from the entry sightline** (place open shelving on the wall nearest the door, not opposite the entrance) and **reconsider "wall-hung is always better"** for a vanity cabinet — if the sink sits close to the tub's own serviceable plumbing, a floor-standing cabinet you can just slide aside beats a wall-hung one you'd need to fully remove for access.
 
@@ -75,7 +75,7 @@ For cabinetry material, the failure point is almost always **edge-banding damage
 
 ## Doors
 
-> **Claim attribution:** Zemstandart for the mapped door-reveal and concealed-door material in Bathroom Source Notes; any unlinked synthesis remains `attribution: unconfirmed`.
+Zemstandart recommends the mapped door-reveal and concealed-door practices below; any unlinked synthesis remains `attribution: unconfirmed`.
 
 **Flush/concealed-mount is the current default for a modern look**, but budget for the real extra cost it carries: ~90% custom-order pricing plus ~20,000-25,000 RUB per door in extra finishing work (tiling the reveal, painting both sides) — easy to underestimate across 5 doors. **Sliding is explicitly the worst option for a bathroom** on soundproofing grounds, acceptable only for a private master-suite used by one couple.
 
@@ -85,13 +85,13 @@ Two sizing rules worth planning before finishing, not after: a full-size washer/
 
 ## Ceilings
 
-> **Claim attribution:** `attribution: unconfirmed` — the compact section does not expose a decisive extraction-note `channel:` mapping for its current synthesis.
+`attribution: unconfirmed` — the following ceiling synthesis has no decisive extraction-note `channel:` mapping.
 
 **Stretch ceiling is used in ~95% of bathrooms and is recommended as the default** even by designers who'd otherwise prefer drywall — fast install, cost, reliability, and full immunity to temperature/humidity swings. The real argument is the *failure mode* comparison: a drywall ceiling's response to even a minor upstairs leak is full structural replacement, since drywall has nowhere for absorbed moisture to go, while a stretch ceiling survives a leak and can even be drained and reused. PVC panels, Armstrong grids, and slat ceilings are all flagged as essentially obsolete in current practice.
 
 ## Lighting & Electrical
 
-> **Claim attribution:** Kruglov/Ontario for the linked lighting-guide material; Zemstandart for mapped legacy bathroom-lighting claims. Mixed claims remain explicitly unconfirmed where the note cannot be isolated.
+Kruglov/Ontario recommends the linked lighting-guide practices; Zemstandart supplies the mapped legacy bathroom-lighting claims, while mixed claims remain `attribution: unconfirmed` where the note cannot be isolated.
 
 **No amount of general ceiling light substitutes for a dedicated, front-facing mirror light** — ceiling light alone leaves the face in shadow for grooming, and the mirror light needs its own wiring run planned at rough-in (retrofitting later means fishing wire through finished walls). **Skip toe-kick/floor lighting unless you'll clean daily** — it highlights dirt rather than hiding it, and a bathroom accumulates hair/lint/water-spots faster than most rooms.
 
@@ -101,7 +101,7 @@ On the exhaust fan: the switch must be inside the room, never in the hallway, an
 
 ## Mixers, Toilet, Sinks & Hygienic Shower
 
-> **Claim attribution:** Kruglov/Ontario and Zemstandart are both represented in the mapped fixture sources; each individual claim still requires the linked detail-page note for a single-channel reading.
+Kruglov/Ontario and Zemstandart both contribute to the fixture material below; each blended claim remains `attribution: unconfirmed` unless its detail-page note isolates the channel.
 
 **Chrome is the most forgiving mixer finish to maintain** — shows the fewest water-spot marks regardless of local water hardness. **Two independent sources push back hard on black fixtures specifically** (one flags it as a tradeoff, a second recommends against it outright) — treat black as a harder "no" than a bare style preference would suggest, since even a reputable black coating shows every water mark. A thermostatic mixer is worth the extra cost specifically for a shower (child-safety plus no re-dialing temperature each use); less consistently worth it for a sink.
 
@@ -113,13 +113,13 @@ For sinks, **80cm is the sizing sweet spot** — narrower niches cause repeated 
 
 ## Towel Warmer
 
-> **Claim attribution:** `attribution: unconfirmed` — this guide section points to the Engineering page and has no decisive extraction-note citation of its own.
+`attribution: unconfirmed` — this towel-warmer claim points to the Engineering page and has no decisive extraction-note citation of its own.
 
 **Electric over hydronic, by a wide cost and reliability margin**: ~2,500 RUB to install an electric unit anywhere on any wall, versus a hydronic unit's ~10,000-15,000 RUB (needs the management company to weld shutoff valves into the riser) plus a dedicated second leak-protection branch if you want it covered. See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the full incident-based case (a real leak this same source's own installed work caused).
 
 ## Heated Floor & Thermostat
 
-> **Claim attribution:** Zemstandart / Zemproekt / Alexey Zemskov via `YT_uwXBHuWPUIo_underfloor_heating_thermostat_placement.md`.
+Zemstandart / Zemproekt / Alexey Zemskov recommends the following heated-floor practices, via `YT_uwXBHuWPUIo_underfloor_heating_thermostat_placement.md`.
 
 A full underfloor-heating setup (mat, thermostat, install) runs **~30,000 RUB** and is described as easily worth it if budget allows — tile heats/cools slowly enough that it's run on a schedule rather than toggled like a light switch. Two rules worth building in regardless of source: **cap mats at ~12m² per zone**, and **give each mat 3 temperature sensors, not 1** — the sensor is more likely to fail than the mat itself, and one dead sensor otherwise leaves an entire working mat uncontrollable.
 
@@ -129,7 +129,7 @@ Mounting height is the **thermostat disagreement** flagged above — see the ful
 
 ## Toilet Visibility From the Entrance
 
-> **Claim attribution:** Kruglov/Ontario via the mapped 20260731 video-6 source in Bathroom Source Notes.
+Kruglov/Ontario gives the following toilet-visibility preference, via the mapped 20260731 video-6 source in Bathroom Source Notes.
 
 A pure design/personal-preference point, not a technical one: some people strongly dislike seeing the toilet immediately on entry and design the layout (sink or shower up front) around hiding it; others don't consider it worth trading entry convenience for. Worth deciding deliberately rather than defaulting — one real case had a client shift the door position specifically to avoid the sightline. Full framing in [[07_Bathroom/analysis/Planning_and_Layout|Planning & Layout]].
 

@@ -4,7 +4,7 @@ Covers the prefab plumbing cabin decision, non-structural boxing/partition mater
 
 ## Prefab Plumbing Cabin — Demolish or Keep
 
-> **Claim attribution:** Kruglov/Ontario, via the explicit Bathroom Source Notes mapping.
+Kruglov/Ontario's mapped source supports the prefab-cabin claim below.
 
 See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the plumbing-installation side of this decision. On the room-planning side:
 
@@ -27,7 +27,7 @@ For non-structural boxing (concealing pipes, framing a niche):
 
 ## Load-Bearing-Wall Workaround for Washing Machine Hookups
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov, via the explicit Bathroom Source Notes mapping for the lifehacks material.
+Zemstandart / Alexey Zemskov's mapped lifehacks source supports the load-bearing-wall workaround below.
 
 **Never chase (штробить) a load-bearing wall horizontally for water supply or drain lines — this is a real structural prohibition, not a preference, and it applies at any depth, including shallow chases.** Vertical electrical chases are generally fine, since the plaster layer already applied to every bathroom wall is thick enough to hide most conduit without needing to cut into the structural wall itself — but water/drain routing needs a much deeper horizontal channel, which a load-bearing wall can't accommodate at all. **If a washing machine needs to sit against a load-bearing wall with no legal way to route its supply/drain/outlet to it directly, run those connections through the bathtub's own apron/screen structure instead** — the apron is already a non-structural, purpose-built cavity, and this avoids both the code violation and the alternative of building the wall out further (which eats into the room's usable width). A simple, easily-overlooked workaround worth defaulting to whenever this specific conflict comes up.
 

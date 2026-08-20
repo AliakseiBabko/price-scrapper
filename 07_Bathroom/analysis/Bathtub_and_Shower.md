@@ -4,7 +4,7 @@ Covers tub-vs-shower, bathtub material/sizing, the apron/screen (including a rea
 
 ## Bathtub vs. Shower
 
-> **Claim attribution:** Konstantin Kruglov / Ontario, from the mapped bathroom-mistakes extraction note; case-specific additions are attributed at their source markers below.
+Konstantin Kruglov / Ontario's source note supports the bathtub and shower claims below; case-specific additions retain their own source markers.
 
 - **A bathtub is the more universal fixture**: someone who prefers showers can still shower in a tub, but someone who wants a bath can't get one from a shower stall — a relevant asymmetry for a rental unit, where you don't know the future occupant's preference. A tub is also generally easier for bathing small children, and for washing a large dog's paws (contains the mess; a shower area lets water/mud spread).
 - **The source's statement on elderly suitability is internally inconsistent and not resolved here**: it states a tub "suits elderly users" in one breath, then immediately notes elderly users with knee problems often can't step into a tub at all — read as a caution that mobility should be checked case-by-case rather than assuming a tub is broadly elderly-friendly, not as a clean recommendation either way.
@@ -12,7 +12,7 @@ Covers tub-vs-shower, bathtub material/sizing, the apron/screen (including a rea
 
 ## Bathtub Material Selection
 
-> **Claim attribution:** Konstantin Kruglov / Ontario, from the mapped bathroom-mistakes extraction note.
+Konstantin Kruglov / Ontario's source note supports the material-selection claims below.
 
 - **Steel** — rings/resonates when tapped, feels stiff and unpleasantly cold to the touch until the water warms it.
 - **Cast iron** — the most rigid construction of the four; heats up and cools down slowly, so even after filling it with hot water the tub's own body can still feel unpleasantly cold against your back; also cold to the touch when dry. Repairing chipped enamel is described as very difficult — re-glazing rarely matches the original factory finish.
@@ -36,7 +36,7 @@ A real plumbing constraint, not just an aesthetic choice — see [[12_Engineerin
 
 ## Bathtub Apron / Screen (Экран)
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov for the mapped apron, access, and tile-junction material; the toe-kick disagreement names both practitioners below.
+Zemstandart / Alexey Zemskov's mapped source supports the apron, access, and tile-junction claims below; the toe-kick disagreement names both practitioners.
 
 **Most popular current method**: a framed structure (block or drywall/profile) with a revision hatch, tiled over.
 
@@ -70,7 +70,7 @@ A real plumbing constraint, not just an aesthetic choice — see [[12_Engineerin
 
 ## Bathtub Revision-Hatch Sealing & Spare-Materials Storage — per Zemskov/Zemstandart
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov, verified against `YT_3EBbFbhdj6g_bathtub_revision_hatch_spare_materials.md` (`channel:` frontmatter).
+Zemstandart / Alexey Zemskov says the following, verified against `YT_3EBbFbhdj6g_bathtub_revision_hatch_spare_materials.md` (`channel:` frontmatter).
 
 > [!NOTE]
 > This subsection is Zemskov/Zemstandart's own stated practice and reasoning, `single-account`, no cost figures given. [source: `_Archive/processed_sources/20260810_bathtub_revision_hatch_spare_materials_c26c1a59.txt`]
@@ -87,7 +87,7 @@ A real plumbing constraint, not just an aesthetic choice — see [[12_Engineerin
 
 ## Curtain vs. Glass Splash Guard
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov, via the explicit Bathroom Source Notes mapping for the curtain-versus-glass evidence.
+Zemstandart / Alexey Zemskov's mapped source supplies the curtain-versus-glass evidence below.
 
 **For a bathtub specifically, default to a curtain, not a glass panel** — a conclusion drawn from a renovation company's own multi-year warranty/aftercare data (they track client contact for years after project completion, not just at handover), not a bare style preference. **This section is about a bathtub — it does not apply to a genuine shower cabin/stall**, where glass is the only real option (see Shower Cabins below).
 
