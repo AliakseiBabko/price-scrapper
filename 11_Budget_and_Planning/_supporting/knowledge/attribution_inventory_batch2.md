@@ -50,3 +50,12 @@ the inventory records their targets only to support the attribution check.
 | Plumbing: `Water_Heaters`, `Waterproofing_and_Plastering`, `Shower_Podium_and_Drains`, `Hygienic_Shower_and_Towel_Warmer`, `Wall_Hung_Toilet_Installation`, `Cost_Drivers_and_Buying_Guidance` | archive entries listed in Plumbing Source Notes; `YT_cdNwbqsLUK4` for the points-pricing claim | RemontHochu named for the points-pricing claim; remaining archive-derived claims unconfirmed |
 | Doors: `Door_Anatomy_and_Mount_Types`, `Door_Swing_Direction`, `Doors_Trim_Cost_and_Buying` | `YT_yHmEQTqduDk`, `YT_ludvy76HGSU`, `YT_1YiVgB9jqyU`, `YT_c4b7iyg8v5U`, `YT_7Vd95idVXak`, `YT_COhFXPyfXxM`, `YT_WMc_AjUqQ-4`, `YT_-HKwxCBa40k`, `YT_ORkPwMJ-AzU`; archive entries for older numeric claims | named channels only where the cited note has frontmatter; archive/mixed claims unconfirmed |
 | Ceilings detail content | guide's `YT_UfmUC4-T3jY` and `YT_2hg0mjR-M30` notes; legacy archive table rows | Zemstandart/Zemsproekt named for the two extraction notes; legacy archive rows unconfirmed |
+
+## Detail-page continuation inventory (turn 14)
+
+| detail-page family | claim/source inventory | attribution treatment |
+|---|---|---|
+| Plumbing: `Fixture_Stubout_Coordinates` | `YT_ssS7-TdXhu0` for the coordinate grid; `YT_fSEPr5fpfPM` for kitchen-group offset | Zemstandart / Alexey Zemskov for the decisive frontmatter-backed notes |
+| Plumbing: `Water_Inlet_Node_Components`, `Pressure_and_Water_Hammer` | mixed and archive-derived source paragraphs; no single channel isolates the aggregate claims | `attribution: unconfirmed` with a mixed/archive reason; no channel inferred from page family |
+| Doors: `Concealed_Door_Considerations`, `Doors_Trim_Cost_and_Buying`, `Door_Swing_Direction` | archive-only, mixed, and single-account claims; linked note targets do not consistently expose a decisive `channel:` field | `attribution: unconfirmed` with the specific archive/mixed/non-isolated reason |
+| Ceilings | filesystem check found no `13_Surfaces_and_Finishes/analysis/*Ceil*` file; no separate claim-bearing detail page exists | no detail edit required; Ceilings remains guide-level |

@@ -4,14 +4,14 @@ Part of [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]].
 
 ## Common Mistakes
 
-- **Planning a doorway's width against an appliance's nominal width without accounting for the frame rebate and installation gap** — a 60 cm door will not pass a 60 cm appliance. See [[13_Surfaces_and_Finishes/analysis/Rough_Opening_and_Casing_Sizing|Rough-Opening & Casing Sizing]].
-- **Getting the installation-plane offset backwards relative to swing direction** — limits swing angle and creates a striking/injury hazard. See [[13_Surfaces_and_Finishes/analysis/Door_Swing_Direction|Door Swing-Direction Rule]].
-- **Removing a doorless opening's corner wall stub without checking the design/technologist plan** — leaves one face impossible to trim cleanly.
-- **Committing to a concealed door without budgeting the wall-prep precondition or the shadow-gap baseboard it structurally depends on** — both are frequently undersold at the design/render stage. See [[13_Surfaces_and_Finishes/analysis/Concealed_Door_Considerations|Concealed-Door Considerations]].
-- **Glass-insert panels in bathroom/WC interior doors** — cited reasons to avoid: visible fingerprints, and significantly worse sound isolation into/out of the room compared to a solid door. `single-account`.
-- **Substituting a classic baseboard for the shadow-gap baseboard a concealed door was dimensioned against** — causes the leaf to strike or bind on opening.
-- **Sacrificing a door's functional clear width purely to satisfy the cosmetic casing-standoff convention** — the explicit priority order given by sources is functional width first.
-- **Choosing sliding-pocket doors as a default rather than a narrow exception** — soundproofing and mechanism-reliability weaknesses are now independently corroborated by two unrelated companies. See [[13_Surfaces_and_Finishes/analysis/Door_Anatomy_and_Mount_Types|Door Anatomy & Mount Types]].
+- attribution: unconfirmed — the cited support is not channel-isolated: **Planning a doorway's width against an appliance's nominal width without accounting for the frame rebate and installation gap** — a 60 cm door will not pass a 60 cm appliance. See [[13_Surfaces_and_Finishes/analysis/Rough_Opening_and_Casing_Sizing|Rough-Opening & Casing Sizing]].
+- attribution: unconfirmed — the cited support is not channel-isolated: **Getting the installation-plane offset backwards relative to swing direction** — limits swing angle and creates a striking/injury hazard. See [[13_Surfaces_and_Finishes/analysis/Door_Swing_Direction|Door Swing-Direction Rule]].
+- attribution: unconfirmed — the cited support is not channel-isolated: **Removing a doorless opening's corner wall stub without checking the design/technologist plan** — leaves one face impossible to trim cleanly.
+- attribution: unconfirmed — the cited support is not channel-isolated: **Committing to a concealed door without budgeting the wall-prep precondition or the shadow-gap baseboard it structurally depends on** — both are frequently undersold at the design/render stage. See [[13_Surfaces_and_Finishes/analysis/Concealed_Door_Considerations|Concealed-Door Considerations]].
+- attribution: unconfirmed — the cited note is archive-only and has no channel field: **Glass-insert panels in bathroom/WC interior doors** — cited reasons to avoid: visible fingerprints, and significantly worse sound isolation into/out of the room compared to a solid door. `single-account`.
+- attribution: unconfirmed — the cited support is not channel-isolated: **Substituting a classic baseboard for the shadow-gap baseboard a concealed door was dimensioned against** — causes the leaf to strike or bind on opening.
+- attribution: unconfirmed — the cited support is cross-source and not channel-isolated: **Sacrificing a door's functional clear width purely to satisfy the cosmetic casing-standoff convention** — the explicit priority order given by sources is functional width first.
+- attribution: unconfirmed — the cited support is cross-source and not channel-isolated: **Choosing sliding-pocket doors as a default rather than a narrow exception** — soundproofing and mechanism-reliability weaknesses are now independently corroborated by two unrelated companies. See [[13_Surfaces_and_Finishes/analysis/Door_Anatomy_and_Mount_Types|Door Anatomy & Mount Types]].
 
 ## Buying / Practical Guidance
 
