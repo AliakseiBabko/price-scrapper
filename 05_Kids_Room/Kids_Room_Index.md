@@ -19,8 +19,9 @@
 * **Night Light / Accent**: *Placeholder* (Recommendation: Soft wall sconces or dimmable LED strip).
 
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
-* **Occupants**: Two children (ages 3 and 6).
+* **Occupants**: Two children (ages 3 and 6) — **Phase 1 only, see the Phase 2 note below.**
 * **Key Needs**: Shared sleep configuration, ample accessible toy storage, and study desk space.
+* **Phase 2 future use — girl's room only (clarified 2026-08-20, verbal)**: once the adults move out of [[../06_Small_Bedroom/Small_Bedroom_Index|the Small Bedroom]] into their Phase 2 arrangement (~3-4 years out), the two children split into separate rooms: this room becomes **the girl's own room, exclusively**, and the boy moves to the Small Bedroom, which becomes "Kids Room #2." See [[Family_Requirements]] §6-7 for the full transition plan. The shared sleep/storage configuration below is a **Phase 1** design only — worth keeping in mind that this room's layout can simplify to a single child's room later.
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 
 ## 🛋️ Furniture & Layout
