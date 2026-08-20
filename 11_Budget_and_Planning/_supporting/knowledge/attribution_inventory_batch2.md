@@ -114,3 +114,10 @@ the inventory records their targets only to support the attribution check.
 | Plumbing: `Water_Inlet_Node_Components`, `Pressure_and_Water_Hammer` | mixed and archive-derived source paragraphs; no single channel isolates the aggregate claims | `attribution: unconfirmed` with a mixed/archive reason; no channel inferred from page family |
 | Doors: `Concealed_Door_Considerations`, `Doors_Trim_Cost_and_Buying`, `Door_Swing_Direction` | archive-only, mixed, and single-account claims; linked note targets do not consistently expose a decisive `channel:` field | `attribution: unconfirmed` with the specific archive/mixed/non-isolated reason |
 | Ceilings | filesystem check found no `13_Surfaces_and_Finishes/analysis/*Ceil*` file; no separate claim-bearing detail page exists | no detail edit required; Ceilings remains guide-level |
+
+## Remaining-list continuation inventory (turn 30)
+
+| scope | claim/source finding | attribution treatment |
+|---|---|---|
+| Electrical: `Electrical_Key_Concepts_and_Planning`, `Electrical_Buying_and_Hiring` | the remaining audited claims cite notes whose `channel:` metadata does not isolate a decisive channel | inline `attribution: unconfirmed — the cited extraction note does not isolate a single channel`; wording, source context, and footers retained |
+| Windows analysis: `Windows_Acceptance_Checklist`, `Windows_Opening_Reconfiguration` | the remaining acceptance and case-study claims cite notes without decisive channel metadata | inline `attribution: unconfirmed — the cited extraction note does not isolate a single channel`; wikilink targets and labels retained |
