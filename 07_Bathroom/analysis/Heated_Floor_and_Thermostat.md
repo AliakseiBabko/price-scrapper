@@ -4,7 +4,7 @@ Covers underfloor heating cost/scheduling, area-cap/sensor-redundancy rules, and
 
 ## Cost, Scheduling, and Sensor Redundancy
 
-> **Claim attribution:** `attribution: unconfirmed` — older archive-only sources are cited without a decisive extraction-note `channel:` field.
+`attribution: unconfirmed` — older archive-only cost claims lack a decisive extraction-note `channel:` field.
 
 **Electric underfloor heating, cost and control**: a full setup (heating mat, thermostat, installation) is cited around **~30,000 RUB** — described as easily worth it if the budget allows, with no real downsides beyond cost. Because tile heats and cools slowly, it can't be toggled on-demand like a light switch — the source runs theirs on a schedule (starting ~6am to be comfortably warm by ~9am).
 
@@ -13,7 +13,7 @@ Covers underfloor heating cost/scheduling, area-cap/sensor-redundancy rules, and
 
 ## Thermostat Mounting Height — Practitioners Disagree
 
-> **Claim attribution:** the Zemstandart side is verified against `YT_uwXBHuWPUIo_underfloor_heating_thermostat_placement.md`; the opposing height-by-use claim remains `attribution: unconfirmed` unless its cited extraction note is recovered.
+Zemstandart's placement claim is verified against `YT_uwXBHuWPUIo_underfloor_heating_thermostat_placement.md`; the opposing height-by-use claim remains `attribution: unconfirmed` unless its cited extraction note is recovered.
 
 **The question**: how high should a thermostat be mounted, and does that answer depend on the specific unit's usage pattern?
 

@@ -7,7 +7,7 @@ Covers minimum/comfortable room dimensions and fixture-selection notes specific 
 
 ## 1. Minimum and Comfortable Room Dimensions — a Concrete Worked Method
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov's WC-dimension method (Source Notes: archived b120 extraction; channel mapping is explicit).
+Zemstandart / Alexey Zemskov gives the following WC-dimension method (Source Notes: archived b120 extraction; channel mapping is explicit).
 
 **The sewage stack (a 100mm pipe) is the anchor for everything** — if there's no stack near a proposed WC location, the location is wrong; find the stack first, then place the room around it.
 
@@ -25,7 +25,7 @@ Covers minimum/comfortable room dimensions and fixture-selection notes specific 
 
 ## 2. Sink Sizing (also broadly applicable to a bathroom vanity — see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Bathroom: Mixers, Toilet, Sinks & Hygienic Shower]])
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov's sink-sizing source (Source Notes: archived b122 extraction; channel mapping is explicit).
+Zemstandart / Alexey Zemskov gives the following sink-sizing guidance (Source Notes: archived b122 extraction; channel mapping is explicit).
 
 Sink **length** is the primary selection dimension — width is roughly proportional and fairly standardized across most models; thickness matters mainly for aesthetics or when mounting over a washing machine.
 
@@ -42,7 +42,7 @@ Sink **length** is the primary selection dimension — width is roughly proporti
 
 ## 2a. Storage Cabinet Around a Toilet Installation Frame
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov's toilet-storage source (Source Notes: archived b147 extraction; channel mapping is explicit).
+Zemstandart / Alexey Zemskov recommends the following toilet-storage construction (Source Notes: archived b147 extraction; channel mapping is explicit).
 
 **Build two separate boxes, not one uniform full-height box, above and around an in-wall toilet frame/cistern:**
 - **Lower box**: height ~1250mm (the frame's own installation height), depth ~250mm — houses the installation itself.
@@ -54,7 +54,7 @@ Sink **length** is the primary selection dimension — width is roughly proporti
 
 ## 3. A Space-Saving Alternative: Wall-Mounted Urinal
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov's urinal space/drainage source (Source Notes: archived b121 extraction; channel mapping is explicit).
+Zemstandart / Alexey Zemskov gives the following urinal space/drainage guidance (Source Notes: archived b121 extraction; channel mapping is explicit).
 
 Presented primarily as a comfort/hygiene fixture, but with genuine space-planning implications worth recording independent of that framing:
 - **Needs only ~50cm of width** (a corner-mounted model needs even less), versus a toilet's ~80cm minimum — a real option where a toilet simply won't fit (e.g., a small utility WC that already has a washing machine, sink, and toilet crammed in with no room for anything else).
@@ -64,20 +64,20 @@ Presented primarily as a comfort/hygiene fixture, but with genuine space-plannin
 
 ## 4. Mirror-in-Shower-Tile and Recessed Fixtures
 
-> **Claim attribution:** `attribution: unconfirmed` — the cited b106 material is an archived transcript without a directly linked extraction-note `channel:` field in this section.
+`attribution: unconfirmed` — the following mirror/recessed-fixture claims cite archived b106 material without a directly linked extraction-note `channel:` field.
 
 - **A mirror embedded flush into shower-wall tile (rather than mounted separately) is a genuine tradeoff, not a clear win or loss** — it requires wiping after every shower (water spots/splashes), and the tile-to-mirror junction is sealed with flexible sealant rather than matching grout, which is visually different from the surrounding grout, less durable, and needs periodic renewal. **The case for it**: for someone who uses an electric trimmer/razor daily, a regular vanity sink accumulates enough fine hair clippings on the sink and floor to require a genuinely time-consuming clean (cited around 30 minutes) every couple of days — a quick post-shower wipe of an in-shower mirror is argued to be meaningfully less hassle than that. Consider this specifically for a household member who grooms with an electric trimmer regularly, not as a general recommendation.
 - **A recessed, spring-loaded toilet-paper holder (push-button pop-out mechanism) needs at least 8cm of chase depth into the wall** — not always available, particularly on a shared wall backing directly onto a neighboring unit. Confirm real wall depth before specifying this fixture type; it can't be retrofitted into a wall that's too thin.
 
 ## 2b. Bidet-Function Toilets and Similar Fixtures — Plumbing, Not Electrical
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov, via the b187/b197 source mapping in WC Source Notes.
+Zemstandart / Alexey Zemskov gives the following bidet-function plumbing guidance, via the b187/b197 source mapping in WC Source Notes.
 
 **A bidet-function toilet is purely mechanical, driven by water pressure — it needs no electrical supply**, despite the motorized-looking wash-arm mechanism sometimes creating that impression. **What it does need is both a hot and a cold water connection**, plumbed essentially like a standard hygienic shower/bidet spray — plan the rough-in accordingly regardless of whether an electrical run seems more obviously necessary. Pricing for these units has risen sharply since 2021 and shouldn't be assumed comparable to older cited figures.
 
 ## 2c. Wall-Hung Toilet Installation Height (added 2026-08-17)
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov for the 40cm installation method and the independent 40cm/42cm corroboration notes.
+Zemstandart / Alexey Zemskov recommends the 40cm installation method, with the independent 40cm/42cm corroboration recorded in the linked notes.
 
 **Target installation height for a wall-hung toilet: 40cm**, matching the long-standardized height of an ordinary floor-mounted toilet — per Zemskov/Zemstandart, `single-account`. [source: `11_Budget_and_Planning/_supporting/knowledge/sources/YT_WjbLMKON_s8_wall_hung_toilet_installation_height_035.md`]
 
@@ -89,19 +89,19 @@ Presented primarily as a comfort/hygiene fixture, but with genuine space-plannin
 
 ## 3a. Sewage Stack Rerouting — a Top-Floor-Only Option
 
-> **Claim attribution:** `attribution: unconfirmed` — the section is mapped to an archive-only b172 transcript; no directly cited extraction-note `channel:` field is attached to the claim.
+`attribution: unconfirmed` — the following stack-rerouting claim is mapped to archive-only b172 material without a directly cited extraction-note `channel:` field.
 
 **On a top-floor apartment specifically (nothing flushes from above), the stack can sometimes be rerouted with a horizontal jog** — offset out from its default vertical line, then brought back to the same axis — to free up room for a properly laid-out plumbing utility area. **Never do this on any floor below the top one**: anything flushed from above (including, worst case, solid waste from a clog or backup) would fall onto a horizontally-offset section from height, a real risk that doesn't exist when there's nothing above to fall from. A narrow-use-case technique, but worth knowing if a top-floor unit's stack placement is otherwise blocking a good layout.
 
 ## 3b. Wide-Format Tile Complicates the Hidden-Access-Tile Technique — a Workaround
 
-> **Claim attribution:** `attribution: unconfirmed` — the section is mapped to an archive-only b172 transcript; no directly cited extraction-note `channel:` field is attached to the claim.
+`attribution: unconfirmed` — the following wide-format-tile workaround is mapped to archive-only b172 material without a directly cited extraction-note `channel:` field.
 
 The hidden emergency-access technique in [[07_Bathroom/analysis/Bathtub_and_Shower|Bathroom: Bathtub & Shower Selection]] (unglued, film-backed tiles that pop out with a suction cup) assumes at least two smaller tiles can be left unglued near the access point. **A single large-format tile (e.g. 60×120cm or bigger) can't be handled the same way** — there's only one tile covering that whole span, not two to selectively leave unglued. Two workarounds: (1) cut an access flap/corner out of the single large tile and seal its edge with silicone, matching the same removable-panel logic; or (2) install a proper concealed hatch — but a hatch consumes some usable space around its own perimeter and costs meaningfully more for a quality unit, a real cost/space tradeoff against option (1). **A cheaper, durable middle option for a plumbing utility box specifically (not a bathtub apron)**: a small two-door furniture-style insert set flush with the surrounding tile plane — inexpensive, long-lasting, and only consumes ~2-3cm of depth at the opening while leaving the rest of the cabinet interior fully accessible.
 
 ## 4a. A Few More Corroborated Planning Constants
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov where the WC Source Notes explicitly maps the b149/b159/b187/b197 transcripts; the separately cited 20260804 fan-switch line remains `attribution: unconfirmed`.
+Zemstandart / Alexey Zemskov supplies the planning constants mapped to b149/b159/b187/b197; the separately cited 20260804 fan-switch claim remains `attribution: unconfirmed`.
 
 - **Minimum/comfortable bathtub width**: 700mm is workable but described as uncomfortable for most people; **800mm is the practical default**, sizing up to 900mm for larger-bodied users — corroborated consistently across multiple videos from this same channel.
 - **Add a ~50mm safety margin beyond a sink or tub's nominal width** when setting the room dimension around it — manufacturers' actual product dimensions commonly run slightly over their nominal size (e.g. an "80cm" sink might really be 82cm); without the margin, the fixture can end up pressed unevenly against a side wall.
@@ -113,7 +113,7 @@ The hidden emergency-access technique in [[07_Bathroom/analysis/Bathtub_and_Show
 
 ## 4b. Bathroom/WC Floor Level — a Leak-Containment Mechanism, Not Just a Preference (added 2026-08-19)
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov for both linked extraction notes (`YT_EnSpVCSUiqg...` and `YT_ROv1BuBfECU...`).
+Zemstandart / Alexey Zemskov makes both floor-level claims, via `YT_EnSpVCSUiqg...` and `YT_ROv1BuBfECU...`.
 
 > [!NOTE]
 > Two corroborating Category 5 sources — a general critique establishing the requirement, and a dense on-site QC walkthrough giving the underlying mechanism. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EnSpVCSUiqg_designer_lost_it_apartment_307|note 1]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ROv1BuBfECU_designer_disaster_35m_281|note 2]]]

@@ -4,7 +4,7 @@ Covers shower/sink mixer types and add-ons, toilet configuration and selection, 
 
 ## Shower and Sink Mixers
 
-> **Claim attribution:** mixed mapped sources: Konstantin Kruglov / Ontario for `YT_9dfEdjOewng...`; Zemstandart / Zemproekt for the other named extraction notes. Each source-marked block remains separate; no single-channel attribution is inferred for blended prose.
+Konstantin Kruglov / Ontario supports the `YT_9dfEdjOewng...` claims; Zemstandart / Zemproekt supports the other named extraction-note blocks. Blended prose remains explicitly unconfirmed.
 
 - **Mount types, shared across shower and sink mixers**: **external/surface-mounted** (cheapest, most reliable, any brand — the largest share of the market); **built-in/embedded** (hot/cold mixing happens inside the wall, with separate temperature and flow-control handles on the tile face — modern and clean-looking, but meaningfully more expensive and much less forgiving of installation error; enables routing a ceiling- or wall-recessed rain shower head with no visible arm); **floor-standing** (used specifically for freestanding tubs); and **rim-mounted** (installed directly on a tub's own rim — rare).
 - **Color options and their real-world maintenance tradeoff**: **chrome** shows the fewest water-spot marks regardless of local water hardness/iron content — the most forgiving finish to maintain visually. **Black** shows every water spot and mark, and a cheap black coating wears visibly within a short time — only worth choosing from a reputable manufacturer with genuine reviews. **White** hides water spots reasonably well but shows rust staining from iron-heavy water clearly. **Gold/brass tones** (real brass, or PVD coating) are a premium option, priced accordingly.
@@ -20,7 +20,7 @@ Covers shower/sink mixer types and add-ons, toilet configuration and selection, 
 
 ## Toilet Selection
 
-> **Claim attribution:** `attribution: unconfirmed` where this section relies on legacy archive-only material without a decisive extraction-note `channel:` field.
+`attribution: unconfirmed` for legacy archive-only toilet claims without a decisive extraction-note `channel:` field.
 
 - **Two mainstream configurations**: **wall-hung (подвесной)** on an in-wall frame/cistern (see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the frame's own installation requirements) and **floor-standing (напольный)**. A hybrid — a floor-standing bowl plumbed to an in-wall frame — exists but is described as rarely worth choosing.
 - **Size must be tried in person, not chosen from an online listing alone** — a toilet that looks fine on a marketplace listing can turn out uncomfortably small or large once actually sat on; worth a physical showroom visit specifically to sit on it before buying.
@@ -33,7 +33,7 @@ Covers shower/sink mixer types and add-ons, toilet configuration and selection, 
 
 ## Hygienic Shower / Bidet Spray
 
-> **Claim attribution:** `attribution: unconfirmed` — the section's legacy citation does not expose a decisive extraction-note `channel:` field.
+`attribution: unconfirmed` — this legacy hygienic-shower section does not expose a decisive extraction-note `channel:` field.
 
 See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the core safety mechanism and fix (the "vent-type"/anti-forgetfulness valve design). Points worth adding here:
 - **Always pair a hygienic shower with both a check valve on the manifold and a full leak-protection system** — a near-mandatory pairing, given how routinely hygienic-shower hoses are left pressurized by accident.
@@ -42,7 +42,7 @@ See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproo
 
 ## Sinks
 
-> **Claim attribution:** mixed mapped sources; use the named extraction-note channel for each source-marked block and treat unlinked synthesis as `attribution: unconfirmed`.
+Use the named extraction-note channel for each source-marked sink block; unlinked synthesis is `attribution: unconfirmed`.
 
 - **A concrete length-by-length sizing table exists — see [[08_WC/WC_Guide|WC Guide]]** (50/60/70/80/90/100cm+, including why 80cm is the best all-around size). The same table applies to a bathroom vanity sink, not just a WC. **Depth (front-to-back): 40–45cm is the comfortable range** — enough to rest your elbows fully on the counter while washing your face without leaning in far enough to press your forehead against the mirror.
 - **Four mounting types**: **freestanding/pedestal** — considered obsolete for a full bathroom, occasionally used purely to save space in a very small WC. **Vanity/countertop-mounted on a cabinet** — the most popular, reliable, predictable option; the one real maintenance downside is that it's typically silicone-sealed to the wall(s), and if the tub's own overflow/drain siphon needs replacing and the sink sits in the way, the sealed sink may need to come off first. **Vessel/top-mounted (накладная)** — a popular current trend, but harder to keep clean at the junction between the sink's outer wall and the countertop surface. **Undermount (glued underneath the countertop)** — the easiest of the four to keep clean, no rim junction at all; often fabricated as one piece with a custom cast-marble/engineered-stone countertop.

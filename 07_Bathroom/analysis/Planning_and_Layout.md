@@ -4,14 +4,14 @@ Covers the decisions to settle before drawing a layout: approvals, combined-vs-s
 
 ## Approvals and Expansion Direction
 
-> **Claim attribution:** `attribution: unconfirmed` — the current section uses archive-only citations without a decisive extraction-note `channel:` field.
+`attribution: unconfirmed` — this approvals section uses archive-only citations without a decisive extraction-note `channel:` field.
 
 - **Order an ЕГРН extract with its graphic (floor-plan) section before starting any layout planning**, per the Russian process described (via Госуслуги/state services) — every organization you'd ask "can this be approved" will require this document first, alongside your own proposed plan (hand-drawn or software-made, either is fine). `single-account`, **Russia-specific process — not confirmed to apply to Belarus**; treat as a prompt to find the equivalent Belarus document/process, not as this project's own procedure. *(This project's stricter-bar regulations store is at `11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_regulations_belarus_knowledge_store.md` — this source doesn't meet that store's Belarus-location bar and isn't added there.)*
 - **If expanding the bathroom's footprint, you can only expand into non-residential space** (typically a hallway/corridor or a storage closet) — expanding into a living room or bedroom is described as essentially never approvable, for any apartment above the ground floor. An apartment on the ground floor above a basement or commercial unit reportedly follows different (looser) rules. `single-account`, same Russia-specific caveat.
 
 ## Combined vs. Separate Bathroom/WC
 
-> **Claim attribution:** Kruglov/Ontario, via the explicit Bathroom Source Notes mapping.
+Kruglov/Ontario's mapped source supports the combined-versus-separate recommendation below.
 
 Default to a **separate** bathroom and WC. Build/keep a **combined** layout only when:
 - The apartment is small and ≤3 people use the one bathroom.
@@ -37,7 +37,7 @@ A wall measured at 3.5 m can easily finish out closer to 3.2 m once both layers 
 
 ## Minimum "Two-Fixture" Bathroom Sizing Formula — per Zemskov/Zemstandart
 
-> **Claim attribution:** Zemstandart / Alexey Zemskov, verified against `YT_SBzDJk_yp8w_small_two_fixture_bathroom_sizing.md` (`channel:` frontmatter).
+Zemstandart / Alexey Zemskov gives the sizing formula below, verified against `YT_SBzDJk_yp8w_small_two_fixture_bathroom_sizing.md` (`channel:` frontmatter).
 
 > [!NOTE]
 > Everything in this subsection is **one practitioner's (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow-based) own stated design convention**, `single-account` throughout, presented in his video as his company's standard formula — not a building code and not independently verified against another source. Treat it as a self-consistent, arithmetic-checkable starting point to weigh against your own preferences, not a settled rule. [source: `_Archive/processed_sources/20260810_small_two_fixture_bathroom_sizing_aa1b3a59.txt`]
@@ -62,7 +62,7 @@ Covers the specific case of a "two-fixture" bathroom (tub + one of: toilet/sink/
 
 ## Fixture Placement Priority
 
-> **Claim attribution:** Kruglov/Ontario, via the explicit Bathroom Source Notes mapping.
+Kruglov/Ontario's mapped source supports the fixture-placement priority below.
 
 **Start placing fixtures with the toilet, not last.** It has the widest drain pipe and should have the shortest, straightest run to the stack — everything else is placed around it. **The shower podium/drain is the second priority**, since it's the lowest drainage point in the room (where the trap sits) and also has real routing constraints. Everything else can be placed more flexibly around these two anchors.
 
