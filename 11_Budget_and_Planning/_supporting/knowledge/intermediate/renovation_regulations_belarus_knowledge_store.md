@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > Created 2026-07-31 as a dedicated store for regulatory/permit/approval
-> rules, split out from `renovation_budgeting_knowledge_store.md` because
+> rules, split out from `store/_index.md` because
 > this content is a genuinely different kind of knowledge (legal/
 > jurisdictional requirements, not pricing or technique) and deserves a
 > higher evidence bar than the budgeting store uses. **Only facts with a
@@ -20,7 +20,7 @@
 
 ## Source Index
 
-- `yt__hYkf4UkCqw` — "Дома Минска" documented renovation series, Episode 1 (YouTube, published 2025-12-11). Region: Minsk/Belarus, named directly and repeatedly in speech — meets this store's location-attribution bar. See [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__hYkf4UkCqw_doma_minska_severny_bereg_ep1|extraction note]]. Also present in `renovation_budgeting_knowledge_store.md`'s Source Index (this source spans both topics) — the regulatory facts below are mirrored from there, not duplicated invention.
+- `yt__hYkf4UkCqw` — "Дома Минска" documented renovation series, Episode 1 (YouTube, published 2025-12-11). Region: Minsk/Belarus, named directly and repeatedly in speech — meets this store's location-attribution bar. See [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__hYkf4UkCqw_doma_minska_severny_bereg_ep1|extraction note]]. Also present in `store/_index.md`'s Source Index (this source spans both topics) — the regulatory facts below are mirrored from there, not duplicated invention.
 - `yt_QHl1YEHMfgE` — same series/project, Episode 2 (published 2026-04-07). **Not independently admitted as its own qualifying source** — this episode's own transcript does not itself name Minsk/Belarus (checked directly), so on its own it wouldn't meet this store's bar. Noted here only as a continuity pointer: it's the same real-world apartment/project as `yt__hYkf4UkCqw` above, and it reinforces (does not newly establish) the same исполком-approval theme with a first-hand "we tried to DIY the approval process and lost a month" account. See [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QHl1YEHMfgE_doma_minska_severny_bereg_ep2_layout|extraction note]].
 
 ## Durable Facts
@@ -52,7 +52,7 @@ None yet.
 
 ## Risks / Gaps
 
-- **Excluded on purpose**: a facade air-conditioning-unit placement restriction was mentioned in a different source (`yt_H61xa8n2nTk`, FLATART) — a specific building reportedly banned facade-mounted outdoor AC units for aesthetic reasons. This was **not admitted to this store**: that source's region is Minsk-associated only via title/tags (level 2), and the specific anecdote itself names no location at all — it doesn't meet this store's location-attribution bar. If you want it captured somewhere, it remains in `renovation_budgeting_knowledge_store.md`'s Risks/Gaps as a weakly-attributed example, not here as a regulatory rule.
+- **Excluded on purpose**: a facade air-conditioning-unit placement restriction was mentioned in a different source (`yt_H61xa8n2nTk`, FLATART) — a specific building reportedly banned facade-mounted outdoor AC units for aesthetic reasons. This was **not admitted to this store**: that source's region is Minsk-associated only via title/tags (level 2), and the specific anecdote itself names no location at all — it doesn't meet this store's location-attribution bar. If you want it captured somewhere, it remains in `store/_index.md`'s Risks/Gaps as a weakly-attributed example, not here as a regulatory rule.
 - No source yet establishes: what body/code actually governs AC external-unit placement in Minsk (balcony/facade/courtyard restrictions, building-management vs. city-level rules); load-bearing wall modification approval requirements; whether wet-zone-over-dry-zone restrictions apply between floors in multi-story buildings; the actual numeric height threshold for wall-hung fixture approval (see Numeric Data above).
 - This store currently has exactly one source. It is not yet broad enough to be treated as a reliable reference — more sources (ideally including at least one non-video, primary regulatory source) are needed before treating this store's content as comprehensive.
 

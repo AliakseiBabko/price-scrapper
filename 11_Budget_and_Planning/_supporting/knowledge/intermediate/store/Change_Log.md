@@ -1,4 +1,4 @@
-﻿## Change Log
+## Change Log
 
 - 2026-07-30 — Store created (scaffold only) as part of the `11_Budget_and_Planning` wiki/case_studies/knowledge reorganization. No facts extracted yet.
 - 2026-07-30 — Moved to `_supporting/knowledge/intermediate/` as part of the visibility-focused top-level reorganization (`Budgeting_Guide.md` and `Renovation_Sequence.md` are now the only top-level pages; `cost_saving_strategies.md` was integrated into `Budgeting_Guide.md` §5, full text preserved at `_supporting/analysis/cost_saving_strategies_full.md`). Links above updated accordingly; no facts extracted yet.

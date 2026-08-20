@@ -36,7 +36,7 @@ A completed-project walkthrough (76 m², comfort-class labor budget 25,000–45,
 
 ## Target Page(s)
 
-- **`11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_budgeting_knowledge_store.md`** — comfort-class labor-rate corroboration (25,000–45,000 RUB/m², 76 m² project, matches existing same-channel comfort-class range).
+- **`11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index.md`** — comfort-class labor-rate corroboration (25,000–45,000 RUB/m², 76 m² project, matches existing same-channel comfort-class range).
 - **Windows/glazing content** — panoramic fixed-pane cleaning-gadget solution + facade-modification regulatory-risk warning (no dedicated page yet in this repo's taxonomy beyond general Walls/Finishes).
 - **`12_Engineering_and_Systems/HVAC_and_Ventilation.md`** — radiator-niche pre-sizing flexibility heuristic; automatic-fixture-avoidance philosophy (exhaust fan example).
 - **`12_Engineering_and_Systems/Plumbing_and_Waterproofing.md`** — revision-hatch sagging defect mechanism (flagged as tier-steering re: the proposed proprietary fix).

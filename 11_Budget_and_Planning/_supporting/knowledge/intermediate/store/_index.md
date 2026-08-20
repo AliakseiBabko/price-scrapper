@@ -1,4 +1,4 @@
-﻿# Intermediate store index
+# Intermediate store index
 
 The former monolithic store is preserved mechanically across the section files below. Open only the bucket relevant to the source being integrated; Durable_Facts.md retains the original Source Index and Durable Facts material because those are interleaved in the legacy file.
 

@@ -1,4 +1,4 @@
-﻿## Pending Wiki-Page Decisions
+## Pending Wiki-Page Decisions
 
 > [!NOTE]
 > Added 2026-08-18, per explicit user discussion about how to track store content with no obvious wiki-page home yet, without creating a second parallel staging file (this section lives inside the store that already does that job). **Threshold rule: once a sub-topic has 3+ sources accumulated here with no existing wiki page to route them to, create the page in that session — don't defer further.** A fact that's genuinely thin/low-confidence on its own doesn't need to graduate at all; this list is only for topics with real accumulated depth and an unresolved "where does this go" question. Remove an entry once its page is created (move the note to that page's own Change Log instead) or once a source turns out to fit an existing page after all.
