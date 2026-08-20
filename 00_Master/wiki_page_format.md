@@ -19,22 +19,44 @@ Not rigid — adapt per system, since electrical, HVAC, and plumbing don't have 
 6. **Quick Reference — Do's and Don'ts** — the existing table format, kept as-is where rows are still accurate, extended with new rows as more sources are processed. This is a summary/lookup aid, not the primary content anymore.
 7. **Source Notes** — list the archived sources (and, where they exist, the richer extraction notes in `11_Budget_and_Planning/_supporting/knowledge/sources/`) this page's content is built from, so a claim can be traced back to evidence.
 
-### Inline attribution is mandatory for every claim
+### Inline attribution when it can be confirmed — never a content-free "unconfirmed" note (corrected 2026-08-20)
 
-Every claim or bullet in a Core Technical Section must name the actual
+Every claim or bullet in a Core Technical Section should name the actual
 channel or practitioner inline in the sentence itself, whether the claim is
-an agreement, a disagreement, or a single-source recommendation. The footer
-citation is still required for click-through evidence; it cannot substitute
-for the inline attribution.
+an agreement, a disagreement, or a single-source recommendation, whenever
+the cited extraction note's `channel:` field establishes the source
+confidently.
 
 - **Acceptable:** `Kruglov/Ontario recommends a minimum 80×90 cm shower cabin because ... [source: [[...]]]`.
-- **Not acceptable:** `A shower cabin should be at least 80×90 cm. [source: [[...]]]`.
+- **Not acceptable:** `A shower cabin should be at least 80×90 cm. [source: [[...]]]` (no attribution at all, confirmable or not).
 
-If the cited extraction note's `channel:` field does not establish the source
-confidently, preserve the claim's meaning and write `attribution:
-unconfirmed` with the reason instead of guessing. The separate **Perspectives
-on Record** block remains the place to surface genuine source disagreements;
-it does not limit this every-claim attribution rule to disagreements.
+**Correction, per direct user feedback (2026-08-20):** the original version
+of this rule required writing `attribution: unconfirmed — <reason>` whenever
+a channel couldn't be confirmed. That produced hundreds of claims prefixed
+with bare boilerplate ("the cited source is not channel-isolated") that adds
+**zero usable information** — it doesn't help the reader trace the claim,
+weigh the source, or do anything they couldn't already do. **This pattern is
+retired — do not write it going forward, and it is being removed from
+already-edited pages.**
+
+The only two acceptable states for a claim now are:
+
+1. **A real named channel/practitioner**, inline in the sentence, exactly as
+   the "Acceptable" example above — when the cited note's `channel:` field
+   supports it.
+2. **The claim's own existing citation stays as the only marker**, with
+   nothing added — when a channel can't be confirmed. Do **not** insert
+   `attribution: unconfirmed` prose. If the claim doesn't already carry a
+   direct, click-through link to its specific source (the extraction note or
+   archived transcript it came from — not just a page-level Source Notes
+   list somewhere else), **add that link directly at the claim** so the
+   reader can always go verify/investigate for themselves, even without a
+   named channel. A link has real value; a prose explanation of why there
+   isn't a name does not.
+
+Never guess a channel to avoid state 2. The separate **Perspectives on
+Record** block remains the place to surface genuine source disagreements; it
+is unaffected by this correction.
 
 ## Rules carried over from the `11_Budget_and_Planning` pipeline
 
