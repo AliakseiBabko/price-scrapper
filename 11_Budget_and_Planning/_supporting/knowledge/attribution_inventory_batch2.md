@@ -1,0 +1,40 @@
+# Workstream B — batch 2 claim-to-source inventory
+
+Inventory prepared before the batch-2 prose edits (2026-08-20). Each row maps
+the claims in the named guide section (and the matching `analysis/` detail
+page, where present) to the extraction note(s) cited by that section. The
+channel value is copied from the cited note's `channel:` frontmatter; it is
+not inferred from the page heading or video title. Existing footer citations
+remain the click-through evidence.
+
+## Confirmed source map
+
+| page / claim block | extraction note(s) checked | channel used for inline attribution |
+|---|---|---|
+| `12_Engineering_and_Systems/Electrical_and_Lighting.md`: planning, circuit sizing, mounting heights, rough-in, temporary wiring, switches, lighting, buying | `YT_12o621100MQ`, `YT_8eECI5sWEy4`, `YT_JrClDJb8WTM`, `YT_ciXeqvKDKSI`, `YT_l_rjjPlPkRo`, `YT_uLJGsTfTj3A`, `YT_VT-zl1Xay4A`, `YT_VXfpDJruyVs`, `YT_GkpOGG_cxM0`, `YT_iRbTlv5Ka9o`, `YT_XmeoZUiGwBM`, `YT_PIYzs2b4UDU` | Alexey Zemskov / ZEMS; `YT_iRbTlv5Ka9o` additionally identifies Alexander Panfilov for technical lighting content |
+| Electrical detail pages: point placement, panel, cable, switch/socket, lighting and temporary-work claims | the same note IDs above plus `YT_957RF_DcjwA`, `YT_C3yZJ_1xL-8`, `YT_hqkdbicp994`, `YT_lagL0yz7J28`, `YT_nmVie-r0iis` | ZEMS / Alexey Zemskov; `YT_957RF_DcjwA` is mixed and retains Sergey Saratov as technical contributor where its note says so |
+| `12_Engineering_and_Systems/Heating.md`: underfloor-heating selection and placement | `YT_8RIyq8nZ9EQ`, `YT_C1L06upDI98` | Zemstandart / Alexey Zemskov |
+| Heating: floor-standing radiators, in-floor convectors, panoramic glazing and valve clearance | `YT_-Kh9JZ34zRc`, `YT_d6xjRRXeOnc`, `YT_ob9iEwc3GWc`, `YT_dGknYgbRHe8` | Zemstandart / Alexey Zemskov |
+| `12_Engineering_and_Systems/HVAC_and_Ventilation.md`: indoor-unit placement, condensate, sizing, fresh air, duct noise and buying | `YT_dGknYgbRHe8`, `YT_HX2pDdILM7U`, `YT_ZqfaeREBEYQ`, `YT_H61xa8n2nTk` | Zemstandart / Zemproekt; `YT_ZqfaeREBEYQ` identifies Sergey Saratov for the technical ventilation content; `YT_H61xa8n2nTk` is FLATART VIDEOS / Yuri Kokichev |
+| `12_Engineering_and_Systems/Plumbing_and_Waterproofing.md`: rough-in sequence, fixture coordinates, pipe selection, inlet/filtration, pressure, leak protection and testing | `YT_ssS7-TdXhu0`, `YT_Onu15qOeWGA`, `YT_OSQeYSXjCfw`, `YT_zLJtkP6ymrg`, plus the other explicitly linked notes in the page's Source Notes page | Zemstandart / Zemproekt or ZEMS as recorded in each note; no attribution is added from a section title alone |
+| Plumbing: water heaters, waterproofing, wet-zone relocation, riser/doorway clearance and buying | `YT_D8t1ADisUE8`, `YT_IbV-DC3z8jI`, plus the page's cited source-note links | Zemstandart / Zemproekt; the riser note's channel is used only where its frontmatter is decisive |
+| `13_Surfaces_and_Finishes/Ceilings_Guide.md`: L-shaped ceiling and seamless-width case | `YT_UfmUC4-T3jY`, `YT_2hg0mjR-M30` | Zemstandart / Zemproekt (source note identifies Zemskov/Zemstandart) |
+| Ceilings: legacy Do/Don't material cited only to archive text without a decisive `channel:` field | archive source-note entries listed in the page | `attribution: unconfirmed — cited archive extraction does not isolate a channel in frontmatter` |
+| `13_Surfaces_and_Finishes/Doors_and_Trim.md`: door anatomy, openings, concealed doors, entrance doors, swing direction, materials and buying | `YT_yHmEQTqduDk`, `YT_ludvy76HGSU`, `YT_c4b7iyg8v5U`, `YT_-HKwxCBa40k`, `YT_ti8J19zY0EM`, `YT_D2Qz6s8eNoU`, `YT_oVf6AyxJjd0`, `YT_7Vd95idVXak`, `YT_COhFXPyfXxM`, `YT_Mfzce0Qm4HM`, `YT_WMc_AjUqQ-4` | Ontario / Konstantin Kruglov where `YT_yHm...` is cited; Zemstandart / Alexey Zemskov for ZEMS notes; Forcemontage for concealed-door facts; Sergey Gusev / ПРО ДВЕРИ for manufacturer/material claims |
+| `13_Surfaces_and_Finishes/Flooring_Guide.md`: transitions, matching, laying direction, glue-down technique, retail-tier warning and sequencing | `YT_PwJsksBs4Ek`, `YT_lOMxNoyW_NE`, `YT_XFhz1NXlln8`, `YT_cJLZebMtW7A` and the cited archive entry for glue-down technique | Zemstandart / Zemproekt or Zemstandart / Zemsproekt as recorded; archive-only claims are marked unconfirmed |
+| `13_Surfaces_and_Finishes/Walls_and_Paint.md`: substrate, masonry, false walls, radiator niches, load-bearing openings, layout, partitions and finish interaction | `YT_zPR8PGWq5lA`, `YT_8kOUv9EVQTQ`, `YT_g7Cuj1p-0CA`, `YT_Qs_FxXdsq40_masonry_glue_foam_technique_260`, `YT_Y-eITaok1Gw`, `YT_p-6OI34C6bw`, `YT_u3UuZN9LHg0`, `YT_sJ8UZj36TMQ`, `YT_Eq0kg2hD-Ws`, `YT_F5v7eI3ry1M`, `YT_EnSpVCSUiqg` | Zemstandart / Zemproekt or Zemstandart / Zemsremont per note; exact mixed/guest channels are retained when the note distinguishes them |
+| Walls: claims citing `note 1`, `note 2`, or `note 3` without a linked extraction-note target | the page's own Source Notes block and the referenced detail notes | `attribution: unconfirmed — the guide's local note number does not expose a unique extraction-note `channel:` value` |
+| `13_Surfaces_and_Finishes/Windows.md`: profile, fastening, slopes, hardware, replacement and acceptance | `YT_6_cH35u4ouM`, `YT_AGjYrwqilNA`, `YT_gjTGr8j6-DA`, `YT_nb3L-k69yx8`, `YT_qwIRfgn1Tog`, `YT_XFrmhhM1ogg`, `YT_XmtGo4BE1bw`, `YT_irOVnHty0fc`, `YT_NhGzB1L7hM`, `YT_uBNF5ZYOE0Y`, `YT_IAZreuaqhjg` | Zemstandart / Alexey Zemskov or Zemstandart / Zemsproekt; guest/technical contributors are named only where the note's frontmatter identifies them |
+| `14_Furniture/Wardrobes_and_Storage.md`: sizing, walk-ins, wardrobe tradeoff, client cases and worked layouts | `YT_RyHzFDGgqKA`, `YT_n0O47DdhATw`, `YT_o4KitYl8vpU`, `YT_Xh7uwbKVmfA`, `YT_VgsPDOcPV7c`, `YT_kj503mBQXq8`, `YT_hVFmcw1H2Rk`, `YT_pVMvsuhrwWs` | Zemstandart / Zemproekt; `YT_pVMvsuhrwWs` is used only for its source-note channel, not generalized to all furniture claims |
+
+## Editing rule and exclusions
+
+The guide claim itself is the unit of editing. A source name is woven into
+that claim's sentence while the existing `[source: ...]` footer is retained.
+Where a claim is backed only by an archive note, a local `note 1/2/3`, or a
+mixed note whose channel cannot isolate the particular sentence, the sentence
+receives `attribution: unconfirmed — <reason>` instead of a guessed name.
+
+The pages' `Source Notes` and `Change Log` sections are evidence/maintenance
+metadata, not claim prose, and are not rewritten. Wikilinks are not edited;
+the inventory records their targets only to support the attribution check.
