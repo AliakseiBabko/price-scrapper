@@ -54,7 +54,7 @@ overlap — worth remembering if any further video from this same window surface
 
 All 4 are logged in `00_Master/processed_sources.csv` (`run_20260819_<video_id>`), have source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/`, are integrated into the intermediate store's Change Log, and were wiki-routed the same session.
 
-## Round 2 — 12 remaining candidates (not yet touched)
+## Round 2 — 4 remaining candidates (not yet touched)
 
 Found by diffing `_Inbox/transcripts/channel_fresh_titles.txt` (158-row full-channel
 manifest) against every `watch?v=` URL in `00_Master/processed_sources.csv`, then
@@ -63,14 +63,10 @@ any prior triage file's candidate or exclusion list** — a genuine gap in every
 pass. Cross-reference each against the CSV again before fetching (a fresh session should
 re-verify, not just trust this table):
 
-**Update (batches 1-2 complete, 8 videos)**: all 8 fetched and extracted, no genuine no-captions skips in Round 2 so far. `OnKreLhmLYY` (#299) and `nbrDFET2AXk` (#295) turned out to be parts 3 and 2 of the same "90 mistakes" series about one apartment — a real same-project overlap case, flagged in both source notes.
+**Update (batches 1-3 complete, 11 of 16 videos)**: 10 extracted (2 partial for named-individual exclusions), 1 confirmed duplicate (`mhE_5qlJ0KU`, a re-edited remake of already-processed `C4lUAfJyyb0`), no genuine no-captions skips in Round 2 so far. `OnKreLhmLYY` (#299) and `nbrDFET2AXk` (#295) turned out to be parts 3 and 2 of the same "90 mistakes" series about one apartment — a real same-project overlap case, flagged in both source notes. `eezwcNG-1qI` (#269) confirmed on-topic, resolving the spot-check caution below.
 
 | Video ID | Title | Notes |
 |---|---|---|
-| `mhE_5qlJ0KU` | "ИЗМЕНИЛ ДВУШКУ #293" | replan case |
-| `pNhM-kKBy6A` | "I PACKED A TWO-ROOM APARTMENT INTO A SMALL STUDIO #294 LV" | replan/technique |
-| `u3UuZN9LHg0` | "ЗАСРОЙЩИК — ГА..НДОН! #268" | dunk-format developer critique |
-| `eezwcNG-1qI` | "ПИ..ДЕЦ ЗА БОЛЬШИЕ ДЕНЬГИ #269" | dunk-format, near `LVerbq1hkxg` #549's off-topic one-off — spot-check first |
 | `4omxjEA7LaI` | "DESIGN DISASTER IN 60 SQUARE METERS #283" | dunk-format |
 | `hVFmcw1H2Rk` | "A TOTAL DESIGN MESS IN YOUR BEDROOM! #314" | dunk-format, close in number to already-processed Category 5 videos — check for duplicate/reused-script risk against `Rlyx2F7Aaxg` #315 (already processed) |
 | `GtOQ7h1p5qc` | "70 m2 OF PURE DESIGN MADNESS! #303" | dunk-format, same #296-315 numbering cluster as several already-processed Category 5 videos — check content independence |
