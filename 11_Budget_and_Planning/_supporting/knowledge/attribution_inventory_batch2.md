@@ -128,3 +128,9 @@ the inventory records their targets only to support the attribution check.
 |---|---|---|
 | Engineering analysis: `Cost_Drivers_and_Buying_Guidance`, `Heating_Placement_Rules`, `Heating_Type_Selection`, `Pipe_Material_Selection` | residual claims cite mixed, single-account, or otherwise non-isolating notes; no channel was safely inferable for these sentences | inline `attribution: unconfirmed — the cited extraction note does not isolate a single channel`; original wording, source context, and footers retained |
 | Doors analysis: `Doors_Trim_Cost_and_Buying`, `Door_Swing_Direction`, `Rough_Opening_and_Casing_Sizing` | residual door-cost, swing, and opening-sizing claims were treated as source-non-isolating in this bounded pass | inline `attribution: unconfirmed — the cited extraction note does not isolate a single channel`; wikilinks retained where present |
+
+## Workstream F retrofit inventory (turn 34)
+
+| scope | channel evidence | retrofit treatment |
+|---|---|---|
+| Windows guide and analysis: `Windows.md`, `Windows_Quality_and_Buying`, `Windows_Measurement`, `Windows_Hardware_Selection` | `Windows_Source_Notes.md` identifies all 18 cited sources as Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov), with Konstantin only as a named installer partner on some installation sources | 19 old `attribution: unconfirmed — ...` prefixes replaced with real Zemstandart/Zemsproekt/Zemsremont inline attribution; no old pattern remains in these four files |
