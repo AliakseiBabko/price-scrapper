@@ -1,0 +1,7 @@
+# Kitchen — Facade Materials & Visual-Noise Reduction
+
+Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on this page (previously an empty placeholder).
+
+## Small-Kitchen Facade Formula: Monochrome + Minimal Handles + Muted Tones (added 2026-08-20)
+
+**⚠️ Formula: single-color (monochrome) facades + minimal-or-no visible handles + calm/muted tones = the recommended combination for a small kitchen specifically.** The underlying reasoning: a kitchen already concentrates an unusually high density of small visual elements in one place (fixtures, appliances, dishware, food-storage containers, switches/sockets) — in a small kitchen that concentration is compressed into less visual area, effectively squaring the perceived clutter. Reducing every *avoidable* source of visual complexity (facade color contrast, protruding handle hardware) compensates for that unavoidable density. **Explicit anti-pattern**: never mix strongly contrasting facade colors on the same run (the source's own example: red upper cabinets over green lower cabinets) — even a milder version of mismatched tones works against the same goal. Minimizing visual noise this way is stated to make even a genuinely small kitchen read as more spacious, tidy, and clean. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ihx8gUDO3vI_kruglov_small_kitchen|YT_ihx8gUDO3vI]]]
