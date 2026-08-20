@@ -48,6 +48,6 @@ See [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]] for the 
 
 ### Practical Guidance
 
-- **Concealed doors compound cost across a whole apartment** — a 2-3× per-door multiplier across 5-6 doors adds up to "hundreds of thousands of RUB" that a design render typically doesn't disclose up front. Ask for the full itemized concealed-door line (wall prep + frame/hardware + install + shadow-gap baseboard) before committing to it at the design stage, not after.
-- **Don't cut cost on door hardware even on an otherwise budget door** — a ~5,000-7,000 RUB hardware set lasting ~10 years is a small fraction of total door cost and a common false-economy point.
-- **Weigh the entrance-door security-spec decision independently of either retailer's framing** — the two sources directly disagree, and neither is neutral.
+- attribution: unconfirmed — the cited extraction note does not isolate a single channel: **Concealed doors compound cost across a whole apartment** — a 2-3× per-door multiplier across 5-6 doors adds up to "hundreds of thousands of RUB" that a design render typically doesn't disclose up front. Ask for the full itemized concealed-door line (wall prep + frame/hardware + install + shadow-gap baseboard) before committing to it at the design stage, not after.
+- attribution: unconfirmed — the cited extraction note does not isolate a single channel: **Don't cut cost on door hardware even on an otherwise budget door** — a ~5,000-7,000 RUB hardware set lasting ~10 years is a small fraction of total door cost and a common false-economy point.
+- attribution: unconfirmed — the cited extraction note does not isolate a single channel: **Weigh the entrance-door security-spec decision independently of either retailer's framing** — the two sources directly disagree, and neither is neutral.
