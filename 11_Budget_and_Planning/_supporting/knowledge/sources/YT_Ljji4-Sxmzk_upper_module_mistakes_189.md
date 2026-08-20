@@ -42,7 +42,7 @@ Closing credit to a named kitchen-manufacturer partner ("Kitchen Kitchen") for s
 
 ## Target Page(s)
 
-`03_Kitchen/Furniture/Kitchen_Furniture.md` — the range-hood duct oversizing rule (10mm) is a genuinely useful numeric complement to the existing duct-cutout technique from `yt_19AUqOlliys`; the back-panel fastening rule (staple/nail only, ≤100mm spacing) and mounting-strip function explanation are both new content worth their own additions to the existing Upper Module Assembly section.
+`03_Kitchen/Kitchen_Furniture.md` — the range-hood duct oversizing rule (10mm) is a genuinely useful numeric complement to the existing duct-cutout technique from `yt_19AUqOlliys`; the back-panel fastening rule (staple/nail only, ≤100mm spacing) and mounting-strip function explanation are both new content worth their own additions to the existing Upper Module Assembly section.
 
 ## Relevance to This Project's Topic
 
@@ -56,7 +56,7 @@ Moderate-high — several genuinely new, checkable assembly rules (duct oversizi
 
 ## Recommended Downstream Routing
 
-`tiered-knowledge-base` — Furniture/Built-ins Durable Facts section of the renovation budgeting intermediate store, plus `03_Kitchen/Furniture/Kitchen_Furniture.md` wiki routing (additions to the existing Upper Module Assembly section).
+`tiered-knowledge-base` — Furniture/Built-ins Durable Facts section of the renovation budgeting intermediate store, plus `03_Kitchen/Kitchen_Furniture.md` wiki routing (additions to the existing Upper Module Assembly section).
 
 ## Promotion self-check
 

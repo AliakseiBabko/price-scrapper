@@ -12,13 +12,13 @@ A separate decision from AC sizing. One practitioner's framing, worth treating a
 
 ## Kitchen Extraction Hoods Share the Same Shaft-Capacity Ceiling
 
-The same shared-shaft constraint that governs fresh-air ventilation applies just as strongly to a kitchen range hood set to extraction mode ("отвод") — a mechanism worth stating explicitly since it's easy to assume a hood's own motor rating determines its real performance. **This is corroborated across 5 independent sources** — full multi-source breakdown, including a direct conflict this raises with the kitchen's already-selected hood model, lives in [[15_Appliances/Kitchen/analysis/Hood_Analysis|Kitchen Hood Analysis]]. Summary:
+The same shared-shaft constraint that governs fresh-air ventilation applies just as strongly to a kitchen range hood set to extraction mode ("отвод") — a mechanism worth stating explicitly since it's easy to assume a hood's own motor rating determines its real performance. **This is corroborated across 5 independent sources** — full multi-source breakdown, including a direct conflict this raises with the kitchen's already-selected hood model, lives in [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]]. Summary:
 
 - **A hood vented into a shared apartment-building ventilation shaft cannot move air faster than the shaft/duct itself allows**, regardless of the hood's own rated m³/h — the shaft, not the hood, is the actual bottleneck.
 - **An oversized hood on an undersized duct doesn't yield more airflow — it causes more noise and can force draft reversal**, potentially pushing air backward into a neighboring apartment's line.
 - **No hood works without makeup air ("приток")** — if a kitchen has no dedicated fresh-air supply, a window needs cracking for real extraction to occur at all.
 - **The practical alternative in a constrained-venting apartment is recirculation mode** (carbon-filtered, air returned to the room) — functionally reliable regardless of shaft capacity, though it doesn't remove humidity and needs a periodic filter.
-- **A tee-fitting-plus-check-valve setup can preserve natural kitchen ventilation alongside a ducted hood**, independently described by three unrelated sources — see [[15_Appliances/Kitchen/analysis/Hood_Analysis|Kitchen Hood Analysis]] for the DIY detail and the unresolved Russia-specific regulatory question this area also touches.
+- **A tee-fitting-plus-check-valve setup can preserve natural kitchen ventilation alongside a ducted hood**, independently described by three unrelated sources — see [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]] for the DIY detail and the unresolved Russia-specific regulatory question this area also touches.
 
 ## Supply Ventilation Design & Ducting
 

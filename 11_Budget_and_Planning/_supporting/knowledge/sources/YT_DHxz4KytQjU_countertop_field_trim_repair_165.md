@@ -36,7 +36,7 @@ Category 4 batch, chunk 2 of ~6. A real-project defect-recovery story: a counter
 - **Sealant/joint reassembly sequence, explicit and time-gated**:
   1. Re-tape the visible front edge with painter's tape (protects it during the joint-sealing steps, removed once sealant is applied).
   2. Apply silicone sealant to the cut countertop edge, smooth with a rubber spatula, then remove the tape while the sealant is still wet (not after it skins over).
-  3. Apply sealant to the joining plate itself, aiming for a fully closed/unbroken bead around its perimeter (matches this store's existing ≥3mm continuous-bead joint rule from the companion countertop-assembly source already routed to `03_Kitchen/Furniture/Kitchen_Furniture.md`).
+  3. Apply sealant to the joining plate itself, aiming for a fully closed/unbroken bead around its perimeter (matches this store's existing ≥3mm continuous-bead joint rule from the companion countertop-assembly source already routed to `03_Kitchen/Kitchen_Furniture.md`).
   4. Seat the joining plate, press until visible sealant squeeze-out appears around its edges, fix with 12-16mm-long self-tapping screws, then immediately wipe excess sealant with a rubber spatula and finish cleanup with paper towels so no residue is left on the visible countertop surface.
   5. Apply sealant to the joining plate's second (front-facing) side.
   6. **Wait 5-7 minutes for the sealant to begin curing before reinstalling the countertop** — an explicit, numeric working-time rule not previously recorded this precisely in this store's countertop-joint content.
@@ -49,7 +49,7 @@ None — no pricing, no sales pitch, no brand/product endorsement. Entirely a fi
 
 ## Target Page(s)
 
-`03_Kitchen/Furniture/Kitchen_Furniture.md` — existing "Cabinet & Countertop Assembly Technique" section already covers the ≥3mm continuous sealant-bead joint rule and overhang spec from companion sources; this source adds a genuinely new field-repair/re-trim sequence (distinct scenario: correcting a wrong-sized slab on-site, not a fresh install) worth its own subsection.
+`03_Kitchen/Kitchen_Furniture.md` — existing "Cabinet & Countertop Assembly Technique" section already covers the ≥3mm continuous sealant-bead joint rule and overhang spec from companion sources; this source adds a genuinely new field-repair/re-trim sequence (distinct scenario: correcting a wrong-sized slab on-site, not a fresh install) worth its own subsection.
 
 ## Relevance to This Project's Topic
 
@@ -63,7 +63,7 @@ Moderate-high — directly actionable field-repair technique for a real, plausib
 
 ## Recommended Downstream Routing
 
-`tiered-knowledge-base` — Furniture/Built-ins section of the renovation budgeting intermediate store, plus `03_Kitchen/Furniture/Kitchen_Furniture.md` wiki routing (see Target Page(s) above).
+`tiered-knowledge-base` — Furniture/Built-ins section of the renovation budgeting intermediate store, plus `03_Kitchen/Kitchen_Furniture.md` wiki routing (see Target Page(s) above).
 
 ## Promotion self-check
 

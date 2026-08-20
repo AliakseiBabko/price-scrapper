@@ -20,4 +20,4 @@ Index of domain and room-specific Do's & Don'ts guides across the vault.
 - [[07_Bathroom/Bathroom_Guide|Bathroom]] (no separate Do's/Don'ts file or table — recommendations and their reasoning are carried in this page's own prose per section, with full sourced detail on its linked `analysis/` pages)
 - [[08_WC/analysis/Dos_and_Donts|WC]]
 - [[09_Laundry_Room/analysis/Dos_and_Donts|Laundry Room]]
-- [[03_Kitchen/General/analysis/Dos_and_Donts|Kitchen]]
+- [[03_Kitchen/analysis/General_Dos_and_Donts|Kitchen]]

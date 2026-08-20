@@ -30,7 +30,7 @@ Overview of air conditioning (split systems), condensate drainage, fresh-air/ven
 
 **Default to a wall-mounted breather unit unless there's a specific reason not to** — it handles most typical indoor air-quality needs at a fraction of a full system's cost; full ducted ventilation earns its premium mainly where windows genuinely can't be opened (a loud arterial road, for instance).
 
-**Kitchen hoods run into the exact same shared-shaft ceiling as fresh-air ventilation, corroborated across 5 independent sources**: a hood vented into a shared shaft cannot move air faster than the shaft itself allows, regardless of the hood's own rated m³/h — oversizing the hood on an undersized duct just adds noise and risks draft reversal into a neighbor's line. See [[15_Appliances/Kitchen/analysis/Hood_Analysis|Kitchen Hood Analysis]] for the full breakdown.
+**Kitchen hoods run into the exact same shared-shaft ceiling as fresh-air ventilation, corroborated across 5 independent sources**: a hood vented into a shared shaft cannot move air faster than the shaft itself allows, regardless of the hood's own rated m³/h — oversizing the hood on an undersized duct just adds noise and risks draft reversal into a neighbor's line. See [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]] for the full breakdown.
 
 **Supply-air ("приточка") ventilation must be designed by a specialized ventilation contractor, not a general contractor or designer** — the stated sequence has the general project marked only as a placeholder until the ventilation contractor visits and produces the real duct routing. **Duct cross-section trades noise against ceiling drop, and bigger isn't automatically quieter**: a duct needs to be thick, not just wide, to actually cut noise.
 

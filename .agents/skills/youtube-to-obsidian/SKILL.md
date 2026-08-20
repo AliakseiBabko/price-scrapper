@@ -34,7 +34,7 @@ description: "DEPRECATED 2026-08-04 - see .agents/skills/renovation-knowledge-in
    Based on the topics covered in the video, classify the content by scope (e.g., Master Planning, Room-Specific) and update or create markdown files in the relevant folders inside `c:\Users\User\Documents\price-scrapper\`:
    - `00_Master/`: For overall concepts, general rules, and master plans.
    - `11_Budget_and_Planning/`: For project budgeting rules, how to plan steps, estimation techniques.
-   - Specific rooms (`07_Bathroom/`, `08_WC/`, `09_Laundry_Room/`, `03_Kitchen/General/`, etc.): For room-specific materials or advice.
+   - Specific rooms (`07_Bathroom/`, `08_WC/`, `09_Laundry_Room/`, `03_Kitchen/`, etc.): For room-specific materials or advice.
 
 5. **Log Processing**:
    Add a new row to `00_Master\processed_sources.csv` to track this source.

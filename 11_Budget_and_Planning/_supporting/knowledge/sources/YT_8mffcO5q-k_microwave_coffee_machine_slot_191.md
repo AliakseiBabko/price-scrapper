@@ -47,7 +47,7 @@ Moderate-high — a narrow but genuinely reusable planning principle (service-fr
 
 ## Recommended Downstream Routing
 
-`tiered-knowledge-base` — a new Kitchen Durable Facts entry (appliance tower-slot assignment principle). Wiki-route to `03_Kitchen/Furniture/Kitchen_Furniture.md` or `15_Appliances/Kitchen/` per the intake skill's 5a step.
+`tiered-knowledge-base` — a new Kitchen Durable Facts entry (appliance tower-slot assignment principle). Wiki-route to `03_Kitchen/Kitchen_Furniture.md` or `15_Appliances/` per the intake skill's 5a step.
 
 ## Promotion self-check
 

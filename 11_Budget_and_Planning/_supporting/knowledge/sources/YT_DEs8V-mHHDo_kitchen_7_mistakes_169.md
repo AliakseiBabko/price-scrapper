@@ -37,7 +37,7 @@ Standard channel format — a named technical expert (Sergey) co-presents; a des
 
 ## Target Page(s)
 
-Kitchen-specific QC/technique content — routes to `03_Kitchen/Furniture/Kitchen_Furniture.md` and `03_Kitchen/General/Kitchen_General.md` depending on the specific point (backsplash/upper-cabinet points to Furniture; curtain-clearance and switch-placement points to General).
+Kitchen-specific QC/technique content — routes to `03_Kitchen/Kitchen_Furniture.md` and `03_Kitchen/Kitchen_General.md` depending on the specific point (backsplash/upper-cabinet points to Furniture; curtain-clearance and switch-placement points to General).
 
 ## Relevance to This Project's Topic
 

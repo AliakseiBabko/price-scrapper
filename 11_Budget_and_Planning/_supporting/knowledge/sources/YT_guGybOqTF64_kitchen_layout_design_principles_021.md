@@ -122,7 +122,7 @@ No client interview, minimal self-reference. No pricing anywhere.
 
 ## Target Page(s)
 
-- **`03_Kitchen/Furniture/Kitchen_Furniture.md`** (currently an empty
+- **`03_Kitchen/Kitchen_Furniture.md`** (currently an empty
   placeholder) — this source is dense and coherent enough to be this
   page's first real content: standard-module-sizing rule, filler-strip
   techniques, tall-unit/wet-appliance placement rationale, primary/
@@ -154,6 +154,6 @@ placement standard, microwave placement principle with corrected mental
 model, dishwasher-side client-preference rule, cutlery/pot drawer
 placement, upper-cabinet-unconstrained rule + lighting obligation,
 primary/secondary cooking-zone definition, twin-fridge trick) are
-reflected in the `03_Kitchen/Furniture/Kitchen_Furniture.md` addition
+reflected in the `03_Kitchen/Kitchen_Furniture.md` addition
 below. No brand/product endorsement in this source; only self-reference
 is the channel sign-off.

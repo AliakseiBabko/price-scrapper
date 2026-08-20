@@ -38,7 +38,7 @@ Two explicit design-project service mentions (opening and closing) directing vie
 
 ## Target Page(s)
 
-`03_Kitchen/General/Kitchen_General.md` — a direct complement to this same page's existing large-kitchen layout content: this source is a placement/site-selection checklist (where *not* to put a kitchen), that one is a configuration checklist (how to lay one out once placed) — both belong on the same page.
+`03_Kitchen/Kitchen_General.md` — a direct complement to this same page's existing large-kitchen layout content: this source is a placement/site-selection checklist (where *not* to put a kitchen), that one is a configuration checklist (how to lay one out once placed) — both belong on the same page.
 
 ## Relevance to This Project's Topic
 
@@ -52,7 +52,7 @@ High — a genuinely reusable, mechanism-explained checklist (not just asserted 
 
 ## Recommended Downstream Routing
 
-`tiered-knowledge-base` — Kitchen Durable Facts section of the renovation budgeting intermediate store, plus `03_Kitchen/General/Kitchen_General.md` wiki routing.
+`tiered-knowledge-base` — Kitchen Durable Facts section of the renovation budgeting intermediate store, plus `03_Kitchen/Kitchen_General.md` wiki routing.
 
 ## Promotion self-check
 
