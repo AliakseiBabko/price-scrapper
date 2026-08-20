@@ -4,6 +4,8 @@ Covers door mount-type comparison, appliance-clearance sizing, tile-buildup reve
 
 ## Mount Type Comparison
 
+> **Claim attribution:** Zemstandart / Alexey Zemskov for the mapped door-reveal and mount-type material in Bathroom Source Notes; archive-only claims without that mapping are `attribution: unconfirmed`.
+
 | Type | Pros | Cons |
 | :--- | :--- | :--- |
 | Hinged/swing (concealed-frame or standard) | Cheapest, most selection, no custom sizing, good soundproofing | Less trendy look, but works fine with good design planning |
@@ -11,6 +13,8 @@ Covers door mount-type comparison, appliance-clearance sizing, tile-buildup reve
 | Sliding | — | **Explicitly the worst option** — worst soundproofing of the three; recommended against for bathrooms except a private master-suite bathroom used only by a couple |
 
 ## Appliance-Clearance and Reveal Rules
+
+> **Claim attribution:** `attribution: unconfirmed` — the current section's legacy archive citation does not expose a decisive extraction-note `channel:` field.
 
 - **If a full-size washer/dryer (~60×60 cm) is planned, the door opening needs to be 80 cm (70 cm leaf), not the more typical 60 cm leaf** — a standard door leaf is too narrow for the appliance to pass through after the door is finished, forcing a costly disassemble-appliance-in / reassemble-door-around-it workaround (paying for the door installation labor twice, and risking the reassembled door looking different from a first-time install). Plan this before finishing, not after.
 - **Account for tile buildup when setting the door frame's reveal/upstand at a wet-room opening, or the door trim will end up crammed against the tile.** A general rule already used for corner clearances is a ≥100mm reveal from a door frame to an adjacent wall/corner — but at a bathroom/WC doorway specifically, that reveal is measured *before* tile and adhesive are added to the wall, and tile+adhesive has a real, non-trivial thickness. If the raw (pre-tile) reveal is built to exactly 100mm, the finished reveal after tiling will be visibly less, and the door casing will sit too close to the tile. **Build the raw reveal to ~115mm or more at a wet-room door specifically**, so it still nets out to ≥100mm once tile and adhesive are accounted for. `single-account`, but a concrete, checkable number worth applying regardless of source.

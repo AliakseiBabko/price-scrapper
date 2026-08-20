@@ -4,6 +4,8 @@ Covers open/tiled shelving, utility columns, above-washer storage, cabinetry mat
 
 ## Shelving and Storage
 
+> **Claim attribution:** Konstantin Kruglov / Ontario for the mapped direct source; legacy archive-only claims remain `attribution: unconfirmed`.
+
 - **Skip mirror cabinets over the sink** — described as inefficient use of space; a narrow (~35–40 cm wide, ~2–2.5 m tall) pantry-style cabinet elsewhere in the room, plus a plain lit mirror, is recommended instead of trying to combine storage and mirror in one shallow unit.
 - **Tiled niches** are the most durable/stylish shelving option but the most expensive; **glass shelving in a single niche is offered as a functionally equivalent, "tens of times cheaper" alternative**. **Use tempered/toughened glass only** — it shatters into small, safer pieces rather than shards if broken.
 - **Hide open shelving/product-clutter from the direct sightline of someone entering the room** — place it on the wall nearest the door (out of the immediate view) rather than opposite the entrance, or use concealed/recessed shelving instead of open metal corner caddies, which one source considers visually messy regardless of how organized the contents are.

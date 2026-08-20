@@ -4,11 +4,15 @@ Covers tub-vs-shower, bathtub material/sizing, the apron/screen (including a rea
 
 ## Bathtub vs. Shower
 
+> **Claim attribution:** Konstantin Kruglov / Ontario, from the mapped bathroom-mistakes extraction note; case-specific additions are attributed at their source markers below.
+
 - **A bathtub is the more universal fixture**: someone who prefers showers can still shower in a tub, but someone who wants a bath can't get one from a shower stall — a relevant asymmetry for a rental unit, where you don't know the future occupant's preference. A tub is also generally easier for bathing small children, and for washing a large dog's paws (contains the mess; a shower area lets water/mud spread).
 - **The source's statement on elderly suitability is internally inconsistent and not resolved here**: it states a tub "suits elderly users" in one breath, then immediately notes elderly users with knee problems often can't step into a tub at all — read as a caution that mobility should be checked case-by-case rather than assuming a tub is broadly elderly-friendly, not as a clean recommendation either way.
 - For a case with no room for a full tub, a shower zone sized for dog-paw-washing is offered as a compromise — case-specific, not a universal substitute for the above.
 
 ## Bathtub Material Selection
+
+> **Claim attribution:** Konstantin Kruglov / Ontario, from the mapped bathroom-mistakes extraction note.
 
 - **Steel** — rings/resonates when tapped, feels stiff and unpleasantly cold to the touch until the water warms it.
 - **Cast iron** — the most rigid construction of the four; heats up and cools down slowly, so even after filling it with hot water the tub's own body can still feel unpleasantly cold against your back; also cold to the touch when dry. Repairing chipped enamel is described as very difficult — re-glazing rarely matches the original factory finish.
@@ -31,6 +35,8 @@ A real plumbing constraint, not just an aesthetic choice — see [[12_Engineerin
 **⚠️ The specific bad combination isn't a freestanding tub itself, but using one as the household's *only* bathing/shower method while enclosed on three sides.** Ordinary bathing splash wets the surrounding floor regardless of tub type; a 3-sided enclosure additionally blocks the reach needed to clean properly behind/beside the tub, compounding the drainage constraint above (already forcing a podium or floor build-up in many cases). A freestanding tub used alongside a separate shower, or with open access on more than one side, doesn't carry the same combined problem. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
 
 ## Bathtub Apron / Screen (Экран)
+
+> **Claim attribution:** Zemstandart / Alexey Zemskov for the mapped apron, access, and tile-junction material; the toe-kick disagreement names both practitioners below.
 
 **Most popular current method**: a framed structure (block or drywall/profile) with a revision hatch, tiled over.
 
@@ -64,6 +70,8 @@ A real plumbing constraint, not just an aesthetic choice — see [[12_Engineerin
 
 ## Bathtub Revision-Hatch Sealing & Spare-Materials Storage — per Zemskov/Zemstandart
 
+> **Claim attribution:** Zemstandart / Alexey Zemskov, verified against `YT_3EBbFbhdj6g_bathtub_revision_hatch_spare_materials.md` (`channel:` frontmatter).
+
 > [!NOTE]
 > This subsection is Zemskov/Zemstandart's own stated practice and reasoning, `single-account`, no cost figures given. [source: `_Archive/processed_sources/20260810_bathtub_revision_hatch_spare_materials_c26c1a59.txt`]
 
@@ -78,6 +86,8 @@ A real plumbing constraint, not just an aesthetic choice — see [[12_Engineerin
 **Install the bathtub before tiling, with the tile extending slightly over the tub's rim edge — not butted against it with a thick sealant fill.** The alternative (tile installed first, then a thick sealant bead fills the resulting gap to the tub) is a real failure mode: the thick sealant joint degrades over time and eventually leaks, while a properly sequenced tile-over-rim joint needs only a thin sealant film and is both more durable and better-looking. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hvPddB5Lc1s_hotel_room_mistakes_tour_103|YT_hvPddB5Lc1s]]]
 
 ## Curtain vs. Glass Splash Guard
+
+> **Claim attribution:** Zemstandart / Alexey Zemskov, via the explicit Bathroom Source Notes mapping for the curtain-versus-glass evidence.
 
 **For a bathtub specifically, default to a curtain, not a glass panel** — a conclusion drawn from a renovation company's own multi-year warranty/aftercare data (they track client contact for years after project completion, not just at handover), not a bare style preference. **This section is about a bathtub — it does not apply to a genuine shower cabin/stall**, where glass is the only real option (see Shower Cabins below).
 
