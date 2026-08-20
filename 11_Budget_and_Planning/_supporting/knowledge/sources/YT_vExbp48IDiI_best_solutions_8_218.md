@@ -57,7 +57,7 @@ A completed-project walkthrough explicitly framed around the channel's own brand
 
 ## Target Page(s)
 
-- **`11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_budgeting_knowledge_store.md`** — owner-supervision cost-impact claim, concealed-hinge price point, concealed-fixture-set price gap (70k vs 280k RUB), tier-specific wall-finish compatibility rule.
+- **`11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index.md`** — owner-supervision cost-impact claim, concealed-hinge price point, concealed-fixture-set price gap (70k vs 280k RUB), tier-specific wall-finish compatibility rule.
 - **`12_Engineering_and_Systems/Electrical_and_Lighting.md`** — switch-to-fixture intuitive-mapping rule + validation claim, kitchen task/bar lighting switch rules, cooktop cable-length/design-documentation reinforcement, low-voltage-cabinet design evolution.
 - **`12_Engineering_and_Systems/HVAC_and_Ventilation.md`** — kitchen-living AC mandatory-planning rule with retrofit-cost rationale.
 - **`12_Engineering_and_Systems/Plumbing_and_Waterproofing.md`** — flush bathroom floor + waterproofing/soundproofing combination, leak-sensor standard, concealed-fixture price gap, incompatible hygienic-shower-holder warning, siphon-access alternatives.

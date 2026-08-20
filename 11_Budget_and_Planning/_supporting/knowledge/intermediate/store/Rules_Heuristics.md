@@ -1,4 +1,4 @@
-﻿## Rules / Heuristics
+## Rules / Heuristics
 
 *The wiki pages already contain synthesized heuristics (buffer %, rough/finish material split, labor-vs-total ratio) traced to the Minsk case studies above. Newly added from this pass:*
 

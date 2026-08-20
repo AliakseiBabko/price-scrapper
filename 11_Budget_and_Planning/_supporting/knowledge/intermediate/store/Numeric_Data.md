@@ -1,4 +1,4 @@
-﻿## Numeric Data / Measurements
+## Numeric Data / Measurements
 
 Evidence-level key used below: **(1) transcript text** → **(2) YouTube metadata** → **(3) contextual inference** → **(4) external/domain validation**. Each entry states which level(s) actually support it; nothing is promoted past what the evidence supports.
 

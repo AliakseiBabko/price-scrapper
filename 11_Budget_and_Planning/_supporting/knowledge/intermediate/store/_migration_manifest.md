@@ -1,6 +1,6 @@
-﻿# Store migration manifest
+# Store migration manifest
 
-- Original path: `renovation_budgeting_knowledge_store.md`
+- Original path: `store/_index.md`
 - Original line count: 3039
 - Original SHA-256 (UTF-8 normalized): `16E09879D5333707287B7F98A6F266A00564D845A811A9BFED49BCE26F39DE3D`
 - Migrated content line count across mechanical section files: 3039

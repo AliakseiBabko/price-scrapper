@@ -38,7 +38,7 @@ A structured "7 tips" video, filmed on an active project site, opening with tech
 - **`12_Engineering_and_Systems/HVAC_and_Ventilation.md`** — two-component radiator grille technique.
 - **`12_Engineering_and_Systems/Electrical_and_Lighting.md`** — stretch-ceiling light-line main-fixture-replacement trade-off, window-slope second/upper-outlet use case.
 - **`13_Surfaces_and_Finishes/Walls_and_Paint.md`** — paintable-wallpaper matte/fingerprint-hiding mechanism, wall-finish-per-wall design-documentation practice.
-- **`11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_budgeting_knowledge_store.md`** — design-fee price-history series (3,000 RUB/m², 2022-10-09, corroborating existing 2022-12-20 data point).
+- **`11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index.md`** — design-fee price-history series (3,000 RUB/m², 2022-10-09, corroborating existing 2022-12-20 data point).
 - **Windows/glazing content (no dedicated page yet identified in this repo's taxonomy beyond general Walls/Finishes)** — laminated-window sill/slope color-matching sourcing problem, flush-ceiling curtain-cornice technique.
 - **Flooring content** — quartz-vinyl seamless-install-across-rooms rationale, including budget-tier caveat.
 

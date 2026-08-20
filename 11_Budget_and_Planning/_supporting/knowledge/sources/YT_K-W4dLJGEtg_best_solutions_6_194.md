@@ -56,7 +56,7 @@ A structured "30 best solutions" walkthrough on a completed 64 m² comfort-class
 
 ## Target Page(s)
 
-- **`11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_budgeting_knowledge_store.md`** — comfort/business-class labor-rate corroboration; storage-bed price premium; quartz-vinyl locking-vs-glue-down cost-structure nuance; corpus-wardrobe designer-kickback disclosure (flagged prominently).
+- **`11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index.md`** — comfort/business-class labor-rate corroboration; storage-bed price premium; quartz-vinyl locking-vs-glue-down cost-structure nuance; corpus-wardrobe designer-kickback disclosure (flagged prominently).
 - **`12_Engineering_and_Systems/Electrical_and_Lighting.md`** — TV cable-channel rebar-depth constraint, Ethernet-for-TV/gaming rules, duty-light placement-by-room-type rule, above-bed switch topology, cycling-color-temperature anti-recommendation.
 - **`12_Engineering_and_Systems/HVAC_and_Ventilation.md`** — walk-in-closet dedicated exhaust + check-valve requirement.
 - **`14_Furniture/Wardrobes_and_Storage.md`** — back-to-back niche technique, radiator-recess depth rule, built-in-vs-corpus wardrobe comparison + kickback disclosure, wardrobe-plinth-height rule, center-divider technique, specialized storage mechanisms.

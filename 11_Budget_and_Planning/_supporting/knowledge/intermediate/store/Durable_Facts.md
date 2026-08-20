@@ -1,4 +1,4 @@
-﻿# Renovation Budgeting — Intermediate Knowledge Store
+# Renovation Budgeting — Intermediate Knowledge Store
 
 > [!NOTE]
 > Initialized 2026-07-30 during the wiki/case-study reorganization. This store is a scaffold, not a completed extraction pass — no source has yet been run through the `renovation-knowledge-intake` skill's formal intake pipeline (`meeting-transcript-extract` → this store → `tiered-knowledge-base` synthesis). The sections below link to the case studies that already existed before this reorg; they are pointers, not upserted structured facts. No numeric fact in this file has been independently re-verified here — see each linked case study or archived source for provenance.
