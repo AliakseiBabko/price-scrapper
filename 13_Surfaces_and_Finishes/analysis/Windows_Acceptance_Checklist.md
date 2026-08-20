@@ -19,7 +19,7 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Narrated by a named vetted
 
 ## Customer Acceptance Checklist — Standard Window
 
-**Tools needed** (most homeowners won't own these — ask the crew to lend you their own tools to check their own work): laser plane-builder, tape measure, a glass coating (low-E) detector, an elevation tripod, digital calipers, two different types of squares, a hand bubble level.
+attribution: unconfirmed — the cited acceptance note is not channel-isolated: **Tools needed** (most homeowners won't own these — ask the crew to lend you their own tools to check their own work): laser plane-builder, tape measure, a glass coating (low-E) detector, an elevation tripod, digital calipers, two different types of squares, a hand bubble level.
 
 - **Horizontal/vertical level check**: project a laser's vertical beam onto the frame's edge, checking left/right alignment top and bottom. **Tolerance: 1.5mm per meter of height, maximum 3mm total over the full unit height.**
 - **"Street-to-house" plane check** (the frame's perpendicularity to the wall depth-wise): laser parallel to the window, square to measure the beam-to-window distance top and bottom, both sides.
@@ -41,13 +41,13 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Narrated by a named vetted
 - Remove any adjoining structure (old railing) and any cold-bridge elements around the opening's perimeter as part of demolition — skipping cold-bridge removal causes freezing specifically at those points.
 - Install units progressively (left-to-right or the reverse), temporarily fixed on all sides first, level horizontal/vertical, *then* permanently fix the perimeter — same foam-in-two-passes and vapor-tape rules as a standard window.
 
-**Additional acceptance check**: **verify добор profile size against spec on the left, right, and top.** An undersized добор lets you see the building's own facade through the gap around the glass (a real, checkable visual defect even if the foam joint itself is technically within spec); an oversized добор throws off the foam-joint's own dimension. **Specific foam-joint-width spec cited for this project: 15-60mm.**
+attribution: unconfirmed — the cited acceptance note is not channel-isolated: **Additional acceptance check**: **verify добор profile size against spec on the left, right, and top.** An undersized добор lets you see the building's own facade through the gap around the glass (a real, checkable visual defect even if the foam joint itself is technically within spec); an oversized добор throws off the foam-joint's own dimension. **Specific foam-joint-width spec cited for this project: 15-60mm.**
 
 ## Floor-to-Ceiling Panoramic Glazing — Additional Nuances
 
 Same basic process as parapet glazing (unpack, disassemble, добор + anchor plates per unit, demolish, clean, install), plus: remove any existing railing in front of the glazing; may need to remove wall insulation adjoining the glazing to allow proper fixing of the new construction; **a fall-arrest harness is explicitly required for this height of work.**
 
-**Erker (bay/angled) connector nuance**: where a loggia's footprint bends/angles rather than running straight, install this specific connector type at the angle points — a plastic profile housing an internal metal tube, providing the actual rigid structural connection between two angled units; not interchangeable with an ordinary straight joint.
+attribution: unconfirmed — the cited acceptance note is not channel-isolated: **Erker (bay/angled) connector nuance**: where a loggia's footprint bends/angles rather than running straight, install this specific connector type at the angle points — a plastic profile housing an internal metal tube, providing the actual rigid structural connection between two angled units; not interchangeable with an ordinary straight joint.
 
 **Design-brief-specific requirement**: the bottom section's set height must leave the exact clearance the project specifies for future floor insulation and finish buildup — the glazing's bottom reference must account for the eventual finished floor stack-up, not just today's raw slab.
 

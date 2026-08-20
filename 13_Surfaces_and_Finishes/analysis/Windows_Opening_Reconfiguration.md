@@ -4,7 +4,7 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Two fully-dimensioned, wor
 
 ## Widening a Balcony-Block Opening to Fit a Refrigerator
 
-**Context**: standard new-build balcony-block door openings are often oversized (door leaf ≈85cm from a 90cm frame width) — bulky, swinging into roughly half the kitchen when open. This practitioner's own comfortable/optimal balcony-door width is **60-65cm**. A wider/heavier door is also less durable (more hinge load, more self-weight deformation over time). Reducing door width reclaims wall depth on the other side of the opening — worked example: ~50cm of depth (too narrow even for a fridge) widened to fit a 65cm-deep refrigerator by moving the balcony-block frame over with a false-wall/framed-out extension.
+attribution: unconfirmed — the cited case-study note is not channel-isolated: **Context**: standard new-build balcony-block door openings are often oversized (door leaf ≈85cm from a 90cm frame width) — bulky, swinging into roughly half the kitchen when open. This practitioner's own comfortable/optimal balcony-door width is **60-65cm**. A wider/heavier door is also less durable (more hinge load, more self-weight deformation over time). Reducing door width reclaims wall depth on the other side of the opening — worked example: ~50cm of depth (too narrow even for a fridge) widened to fit a 65cm-deep refrigerator by moving the balcony-block frame over with a false-wall/framed-out extension.
 
 **Worked procedure**:
 - Target dimension: door/window frame recesses ~3cm into the new quarter, leaving a ~17cm margin on the narrow side.
@@ -17,7 +17,7 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Two fully-dimensioned, wor
 
 ## Repositioning a Bedroom Window to Fit a Wardrobe
 
-**Context**: a real 79.5m² free-plan apartment where bed and TV placement were fixed first (the bed could only go against one wall; the TV had to go opposite it), leaving the wardrobe to fit whatever remained — which required reconfiguring the room's own window/balcony opening to create space. **Sequencing lesson: decide bed and TV placement before wardrobe placement, not after.**
+attribution: unconfirmed — the cited case-study note is not channel-isolated: **Context**: a real 79.5m² free-plan apartment where bed and TV placement were fixed first (the bed could only go against one wall; the TV had to go opposite it), leaving the wardrobe to fit whatever remained — which required reconfiguring the room's own window/balcony opening to create space. **Sequencing lesson: decide bed and TV placement before wardrobe placement, not after.**
 
 **Worked dimensioned sequence**:
 - Offset 700mm from the right wall, then another 800mm to set the new opening width.
