@@ -6,7 +6,7 @@ Covers door vocabulary and the three-way comparison between classic hinged, slid
 
 Zemstandart / Alexey Zemskov defines **a door unit (дверной блок) as having five components**: **leaf** (полотно, the moving panel), **frame** (коробка, the fixed box the leaf hinges/slides against), **jamb extensions** (доборы, panels that extend the frame to match a wall's actual thickness), **casing/trim** (наличники, the decorative trim covering the wall-frame junction), and **hardware** (фурнитура — hinges, handle, lock). Standard leaf height is 2.0 m; standard leaf widths are 60/70/80/90 cm.
 
-attribution: unconfirmed — the cited detail does not isolate a decisive channel field: **telescopic jamb extensions are generally preferable to flat-board extensions** — they slide into a channel in the frame and self-adjust to an uneven wall or a slightly twisted frame, producing a cleaner junction than a flat board that can't absorb wall irregularity.
+Zemstandart/Alexey Zemskov recommends: **telescopic jamb extensions are generally preferable to flat-board extensions** — they slide into a channel in the frame and self-adjust to an uneven wall or a slightly twisted frame, producing a cleaner junction than a flat board that can't absorb wall irregularity.
 
 ## Mount Types Compared
 

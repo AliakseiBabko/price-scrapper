@@ -149,3 +149,10 @@ the inventory records their targets only to support the attribution check.
 |---|---|---|
 | Doors guide: `Doors_and_Trim.md` | `Doors_Trim_Source_Notes.md` maps sizing, swing, and minimum-width claims to Zemstandart/Alexey Zemskov; concealed-door mechanisms to Ontario, Avalremont, and Forcemontage; entrance security to Novakey and ПРО ДВЕРИ/Sergey Gusev | 7 old prefixes replaced with named inline attribution; no retired pattern remains in the guide |
 | Doors analysis pages | remaining pages include mixed, archive-only, and source-link gaps requiring claim-level evidence review | deferred to the next Doors detail sub-batch; no unsupported channel names assigned |
+
+## Workstream F retrofit inventory (turn 40)
+
+| scope | channel evidence | retrofit treatment |
+|---|---|---|
+| Doors detail: `Door_Anatomy_and_Mount_Types`, `Door_Swing_Direction`, `Entrance_Doors`, `Material_and_Finish_Tiers`, `Rough_Opening_and_Casing_Sizing`, `Style_Hardware_and_Security` | Doors Source Notes map the claims to Zemstandart/Alexey Zemskov, Sergey Gusev/ПРО ДВЕРИ, and Novakey where applicable; the cited source labels were retained | 33 retired prefixes converted to named inline attribution; zero old-pattern matches remain in these six pages |
+| Doors detail: `Doors_Trim_Cost_and_Buying`, `Concealed_Door_Considerations` | mixed/archive support does not yet isolate a safe channel for every claim | deferred for direct extraction-link retrofit; no channel guessed |
