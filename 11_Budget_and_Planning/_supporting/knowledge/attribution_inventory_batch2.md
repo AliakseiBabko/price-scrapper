@@ -83,6 +83,14 @@ the inventory records their targets only to support the attribution check.
 | Windows analysis: `Windows_Measurement.md` | first measurement claims reviewed; cited analysis notes do not isolate a decisive channel | first three claims marked `attribution: unconfirmed`; remaining Windows analysis claims require a further bounded pass |
 | Electrical/Heating analysis audit | multiple untouched analysis pages still contain claim prose without inline attribution, including Electrical Key Concepts and Planning and additional Electrical/Heating detail pages | identified for follow-up; Workstream B detail acceptance remains open |
 
+## Windows/Furniture continuation and analysis audit (turn 24)
+
+| scope | source/channel finding | attribution treatment |
+|---|---|---|
+| Guides: `Windows.md`, `Wardrobes_and_Storage.md` | remaining edited claims are backed by mixed or source-note targets without decisive `channel:` metadata | inline `attribution: unconfirmed` with non-isolating-source reason |
+| Windows analysis: `Windows_Quality_and_Buying`, `Windows_Slope_Finishing`, `Windows_Measurement` | cited notes are single-account, archive-only, or channel-non-isolating for the audited claims | inline `attribution: unconfirmed`; source footers retained |
+| Electrical/Heating analysis: `Electrical_Buying_and_Hiring`, `Heating_Type_Selection` | audited comparison/buying claims do not expose decisive channel metadata | inline `attribution: unconfirmed`; remaining Electrical/Heating analysis claims still require a full bounded audit |
+
 ## Detail-page continuation inventory (turn 14)
 
 | detail-page family | claim/source inventory | attribution treatment |
