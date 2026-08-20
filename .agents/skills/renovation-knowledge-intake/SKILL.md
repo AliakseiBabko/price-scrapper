@@ -352,9 +352,15 @@ For one source at a time:
    project's three storage paths (above) as the resolved paths so it
    skips its own path-resolution prompt.
 5. `tiered-knowledge-base` writes/updates the source extraction note in
-   the sources folder, upserts the intermediate knowledge store, and
-   updates the master wiki page **only if** this source changes or
-   strengthens the synthesized guide - not on every source.
+   the sources folder and upserts the intermediate knowledge store. For
+   each Durable-Facts-bucket item, **prefer routing it directly to an
+   existing matching room/domain wiki `analysis/` page** (following
+   `00_Master/wiki_page_format.md`) instead of appending it to
+   `Durable_Facts.md`. Use `Durable_Facts.md` only when no matching wiki
+   page exists yet, or when the fact is genuinely cross-cutting and has no
+   single-page home; record the gap in Pending Wiki-Page Decisions when
+   appropriate. Update the master wiki page **only if** this source changes
+   or strengthens the synthesized guide - not on every source.
 5a. **When a source's content instead (or additionally) gets folded into
    a room or systems wiki page** (`07_Bathroom/Bathroom_Guide.md`,
    `12_Engineering_and_Systems/*`, `13_Surfaces_and_Finishes/*`,
