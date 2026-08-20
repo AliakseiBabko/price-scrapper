@@ -121,3 +121,10 @@ the inventory records their targets only to support the attribution check.
 |---|---|---|
 | Electrical: `Electrical_Key_Concepts_and_Planning`, `Electrical_Buying_and_Hiring` | the remaining audited claims cite notes whose `channel:` metadata does not isolate a decisive channel | inline `attribution: unconfirmed — the cited extraction note does not isolate a single channel`; wording, source context, and footers retained |
 | Windows analysis: `Windows_Acceptance_Checklist`, `Windows_Opening_Reconfiguration` | the remaining acceptance and case-study claims cite notes without decisive channel metadata | inline `attribution: unconfirmed — the cited extraction note does not isolate a single channel`; wikilink targets and labels retained |
+
+## Remaining-list continuation inventory (turn 32)
+
+| scope | claim/source finding | attribution treatment |
+|---|---|---|
+| Engineering analysis: `Cost_Drivers_and_Buying_Guidance`, `Heating_Placement_Rules`, `Heating_Type_Selection`, `Pipe_Material_Selection` | residual claims cite mixed, single-account, or otherwise non-isolating notes; no channel was safely inferable for these sentences | inline `attribution: unconfirmed — the cited extraction note does not isolate a single channel`; original wording, source context, and footers retained |
+| Doors analysis: `Doors_Trim_Cost_and_Buying`, `Door_Swing_Direction`, `Rough_Opening_and_Casing_Sizing` | residual door-cost, swing, and opening-sizing claims were treated as source-non-isolating in this bounded pass | inline `attribution: unconfirmed — the cited extraction note does not isolate a single channel`; wikilinks retained where present |
