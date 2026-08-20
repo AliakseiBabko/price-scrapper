@@ -67,6 +67,14 @@ the inventory records their targets only to support the attribution check.
 | Plumbing: `Cost_Drivers_and_Buying_Guidance` | points-pricing claim is backed by the frontmatter-identified RemontHochu.ru note; other claims are not channel-isolated | RemontHochu.ru named only for the points-pricing claim; other edited claims unconfirmed |
 | Doors: `Material_and_Finish_Tiers`, `Rough_Opening_and_Casing_Sizing`, `Style_Hardware_and_Security` | mixed, single-account, and archive-only claims; source footers do not isolate one channel for most edited sentences | inline `attribution: unconfirmed`; original wording, footers, and wikilinks retained |
 
+## Accumulated-detail audit and guide start (turn 20)
+
+| scope | audit/source finding | attribution treatment |
+|---|---|---|
+| Detail audit: Plumbing Cost Drivers and Doors Style/Hardware | residual claim sentences lacked sentence-level attribution after earlier bounded edits | archive, jurisdiction, or non-isolating claims marked `attribution: unconfirmed` |
+| Guide start: `Flooring_Guide.md` | guide section labels identify Zemskov/Zemstandart, while existing source notes include archive-only single-account evidence | named Zemstandart / Alexey Zemskov only where the guide's cited section makes that channel explicit; existing single-account caveats retained |
+| Guide start: `Walls_and_Paint.md` | first substrate/deviation section cites an archive note without a decisive `channel:` field | first four claims marked `attribution: unconfirmed`; no channel inferred from the section heading |
+
 ## Detail-page continuation inventory (turn 14)
 
 | detail-page family | claim/source inventory | attribution treatment |
