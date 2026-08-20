@@ -361,11 +361,17 @@ For one source at a time:
    single-page home; record the gap in Pending Wiki-Page Decisions when
    appropriate. Update the master wiki page **only if** this source changes
    or strengthens the synthesized guide - not on every source.
-   Every claim added to a wiki guide or `analysis/` page must name its source
-   channel/practitioner inline and retain a trailing extraction-note citation.
-   Cross-check the note's `channel:` frontmatter; if it is not decisive, use
-   `attribution: unconfirmed` plus a reason rather than inferring a channel.
-   This applies to agreements and disagreements alike.
+   Every claim added to a wiki guide or `analysis/` page should name its
+   source channel/practitioner inline, cross-checked against the note's
+   `channel:` frontmatter, when that field is decisive - never inferred or
+   guessed. **Corrected 2026-08-20, per direct user feedback**: when the
+   channel can't be confirmed, do not write `attribution: unconfirmed` -
+   that produced hundreds of content-free notices adding no usable
+   information. Instead leave the claim's own existing citation as the only
+   marker, and make sure it links directly to the specific source (not just
+   a page-level Source Notes list) so the claim stays traceable even without
+   a named channel. See `00_Master/wiki_page_format.md`'s "Inline attribution
+   when it can be confirmed" section for the full corrected rule.
 
 5b. **Normalize every new price at intake.** When a source adds a price
    figure to the intermediate store, a guide, or a comparison table, append a
