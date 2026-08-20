@@ -16,12 +16,12 @@ attribution: unconfirmed — the cited buying source is not channel-isolated: **
 
 ## Hiring Red Flags
 
-**A hired electrician's own tool kit is a usable, checkable vetting signal**: a dust-extraction vacuum attached to the drill during wall-chasing/socket-hole cutting is a mandatory red-flag check — its absence means the crew is spreading masonry dust through the unit's cavities, a later air-quality issue. Round, cleanly drilled socket-box holes (vs. hacked/oversized square holes) indicate a competent installer. Standard on-center spacing for a ganged multi-socket box run is 71 mm.
+attribution: unconfirmed — the cited extraction note does not isolate a single channel: **A hired electrician's own tool kit is a usable, checkable vetting signal**: a dust-extraction vacuum attached to the drill during wall-chasing/socket-hole cutting is a mandatory red-flag check — its absence means the crew is spreading masonry dust through the unit's cavities, a later air-quality issue. Round, cleanly drilled socket-box holes (vs. hacked/oversized square holes) indicate a competent installer. Standard on-center spacing for a ganged multi-socket box run is 71 mm.
 
 ## Country House / Cottage-Specific Electrical
 
 Content specific to a standalone house/cottage rather than an apartment — a distinct planning context with its own long-cable-run and exterior-exposure concerns. `single-account`.
 
-**A country-house intercom (video-entry) system needs a long, dedicated cable run pre-planned early** — from the gate/street call panel to the indoor unit — unlike an apartment intercom's short run. Retrofitting after the building shell/paving is finished requires demolition.
+attribution: unconfirmed — the cited extraction note does not isolate a single channel: **A country-house intercom (video-entry) system needs a long, dedicated cable run pre-planned early** — from the gate/street call panel to the indoor unit — unlike an apartment intercom's short run. Retrofitting after the building shell/paving is finished requires demolition.
 
-**Any outdoor low-voltage cable end must be sealed against water ingress** — an unsealed, untaped cable end was documented on a real jobsite as an active corrosion risk.
+attribution: unconfirmed — the cited extraction note does not isolate a single channel: **Any outdoor low-voltage cable end must be sealed against water ingress** — an unsealed, untaped cable end was documented on a real jobsite as an active corrosion risk.
