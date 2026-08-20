@@ -51,6 +51,14 @@ the inventory records their targets only to support the attribution check.
 | Doors: `Door_Anatomy_and_Mount_Types`, `Door_Swing_Direction`, `Doors_Trim_Cost_and_Buying` | `YT_yHmEQTqduDk`, `YT_ludvy76HGSU`, `YT_1YiVgB9jqyU`, `YT_c4b7iyg8v5U`, `YT_7Vd95idVXak`, `YT_COhFXPyfXxM`, `YT_WMc_AjUqQ-4`, `YT_-HKwxCBa40k`, `YT_ORkPwMJ-AzU`; archive entries for older numeric claims | named channels only where the cited note has frontmatter; archive/mixed claims unconfirmed |
 | Ceilings detail content | guide's `YT_UfmUC4-T3jY` and `YT_2hg0mjR-M30` notes; legacy archive table rows | Zemstandart/Zemsproekt named for the two extraction notes; legacy archive rows unconfirmed |
 
+## Detail-page continuation inventory (turn 16)
+
+| detail pages edited | source/channel evidence | attribution treatment |
+|---|---|---|
+| Plumbing: `Leak_Protection_Systems`, `Water_Heaters`, `Shower_Podium_and_Drains`, `Hygienic_Shower_and_Towel_Warmer`, `Wall_Hung_Toilet_Installation` | mixed, single-account, and archive-backed notes; the cited note fields do not isolate a decisive channel for the edited claims | inline `attribution: unconfirmed` with archive, mixed-source, or non-isolated reason; original source footers retained |
+| Plumbing: `Pipe_Material_Selection` | mixed and single-account claims; `YT_1_IcoSaNKP4` is cited for corroboration but does not isolate every sentence | named channel withheld for aggregate claims; inline unconfirmed reasons added |
+| Doors: `Entrance_Doors` | linked extraction notes and manufacturer pricing note do not isolate a decisive channel for the edited claims | inline `attribution: unconfirmed`; no claim meaning or source footer changed |
+
 ## Detail-page continuation inventory (turn 14)
 
 | detail-page family | claim/source inventory | attribution treatment |
