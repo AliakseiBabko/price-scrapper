@@ -361,6 +361,21 @@ For one source at a time:
    single-page home; record the gap in Pending Wiki-Page Decisions when
    appropriate. Update the master wiki page **only if** this source changes
    or strengthens the synthesized guide - not on every source.
+   Every claim added to a wiki guide or `analysis/` page must name its source
+   channel/practitioner inline and retain a trailing extraction-note citation.
+   Cross-check the note's `channel:` frontmatter; if it is not decisive, use
+   `attribution: unconfirmed` plus a reason rather than inferring a channel.
+   This applies to agreements and disagreements alike.
+
+5b. **Normalize every new price at intake.** When a source adds a price
+   figure to the intermediate store, a guide, or a comparison table, append a
+   USD-equivalent using `00_Master/exchange_rates_reference.md` and the
+   source's confirmed year (or stated period). Keep the original currency and
+   amount unchanged. If the year is absent, record that the conversion is not
+   computable. If the year is not in the reference table, obtain and cite an
+   authoritative annual-average rate before converting; never use a current
+   spot rate or a guessed value. Extend the reference table with the source
+   URL and retrieval date when a genuinely new year is confirmed.
 5a. **When a source's content instead (or additionally) gets folded into
    a room or systems wiki page** (`07_Bathroom/Bathroom_Guide.md`,
    `12_Engineering_and_Systems/*`, `13_Surfaces_and_Finishes/*`,
