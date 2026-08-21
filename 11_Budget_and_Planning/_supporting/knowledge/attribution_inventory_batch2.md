@@ -156,3 +156,10 @@ the inventory records their targets only to support the attribution check.
 |---|---|---|
 | Doors detail: `Door_Anatomy_and_Mount_Types`, `Door_Swing_Direction`, `Entrance_Doors`, `Material_and_Finish_Tiers`, `Rough_Opening_and_Casing_Sizing`, `Style_Hardware_and_Security` | Doors Source Notes map the claims to Zemstandart/Alexey Zemskov, Sergey Gusev/ПРО ДВЕРИ, and Novakey where applicable; the cited source labels were retained | 33 retired prefixes converted to named inline attribution; zero old-pattern matches remain in these six pages |
 | Doors detail: `Doors_Trim_Cost_and_Buying`, `Concealed_Door_Considerations` | mixed/archive support does not yet isolate a safe channel for every claim | deferred for direct extraction-link retrofit; no channel guessed |
+
+## Workstream F retrofit inventory (turn 42)
+
+| scope | result | remaining treatment |
+|---|---|---|
+| Engineering analysis: `AC_Condensate_Drainage` (5), `AC_Key_Concepts_and_Placement` (3), `AC_Sizing_and_Selection` (1), `Heating_Placement_Rules` (3) | 16 old prefixes converted to named attribution: Zemstandart/Alexey Zemskov for the AC and heating claims, FLATART for the AC filtration claim | zero old-pattern matches remain in these four files |
+| Engineering analysis remaining old-pattern files | `Cost_Drivers_and_Buying_Guidance` (10), `Electrical_Buying_and_Hiring` (8), `Fresh_Air_Ventilation_and_Ducting` (9), `Heating_Type_Selection` (5), `HVAC_Common_Mistakes_and_Buying` (7), `Hygienic_Shower_and_Towel_Warmer` (6), `Leak_Protection_Systems` (6), `Pipe_Material_Selection` (9), `Pressure_and_Water_Hammer` (4), `Pressure_Testing` (3), `Rough_Plumbing_Sequencing` (7), `Shower_Podium_and_Drains` (4), `Wall_Hung_Toilet_Installation` (4), `Waterproofing_and_Plastering` (6), `Water_Heaters` (6), `Water_Inlet_Node_Components` (3) | 93 old-pattern matches remain; continue Engineering in the next bounded sub-batch with per-source mapping |
