@@ -56,7 +56,7 @@ their own units, and the reader draws the comparison.
 | BURO — Premium | St. Petersburg (level 2) | 450,000–1,000,000 | |
 | BURO — Mid | St. Petersburg (level 2) | 200,000–450,000 | Lowest BURO tier still exceeds every other source below |
 | Бородатый Прораб | Moscow | 150,000+ | Previously this store's broadest figure |
-| WITALT | Moscow (region unresolved) | 100,000–120,000 (тыс. руб./м², `confirmed` unit) | Full project budget tier, not labor-only |
+| WITALT | Moscow (region unresolved) | 100,000–120,000 (тыс. руб./м², `confirmed` unit); **USD equivalent:** ≈$1,201.8–$1,442.1/m² (÷ 83.21 RUB/USD, 2025 annual average) | Full project budget tier, not labor-only |
 | Zemstandart/zemspro (Panfilov, video #528) | Moscow (channel-level) | 331,000 (107,000 labor + 224,000 materials) | **Bespoke ("авторский") design-tier average only** — self-reported by the designer across his own 102 tracked projects, not this company's standard/default tier; 2023 (video confirmed uploaded 2023-01-17); `single-account`, self-reported |
 
 *This ordering makes the market-tier gap visible: BURO's mid segment alone starts above Бородатый Прораб's entire figure, which itself was this store's previous ceiling. Treat as evidence that "turnkey" spans an enormous range depending on target quality tier — not a reason to average these into one number.*
@@ -65,13 +65,13 @@ their own units, and the reader draws the comparison.
 
 | Source | Region | Rate | Notes |
 | :--- | :--- | :--- | :--- |
-| WITALT brigade tiers | Moscow (region unresolved) | 20–80 тыс. руб./м² | `inferred` unit; spans several distinct service tiers, not one figure |
-| Prolife Invest brigade | Moscow | 30–40 тыс. руб./м² (market range 50–100) | Direct-hire crew vs. managed-company positioning |
-| Бородатый Прораб | Moscow | ≈60,000 RUB/m² | Company's own comfort+/business-class segment; ~20-40% of that company's own full-realization total depending on tier |
+| WITALT brigade tiers | Moscow (region unresolved) | 20–80 тыс. руб./м²; **USD equivalent:** ≈$240.4–$961.4/m² (÷ 83.21 RUB/USD, 2025 annual average) | `inferred` unit; spans several distinct service tiers, not one figure |
+| Prolife Invest brigade | Moscow | 30–40 тыс. руб./m² (market range 50–100); **USD equivalent:** not computable — this source is dated 2026 and the reference table has no complete 2026 annual-average USD/RUB rate | Direct-hire crew vs. managed-company positioning |
+| Бородатый Прораб | Moscow | ≈60,000 RUB/m²; **USD equivalent:** ≈$721.1/m² (÷ 83.21 RUB/USD, 2025 annual average) | Company's own comfort+/business-class segment; ~20-40% of that company's own full-realization total depending on tier |
 | Команда Мастеров (Stage 2) | Belarus | $220–450/m² | Includes foreman/project management |
-| РемонтХочу (Stages 2–11 combined) | Moscow | ≈48,375 RUB/m² total (see case study) | **Likely bundles materials** (`inferred`, not confirmed) — not a clean labor-only comparison to the rows above |
-| Zemstandart/Zemsproekt (Sergey Saratov, comfort-class) | Moscow | 25,000–45,000 RUB/m² (this project ≈32,000) | Company's own comfort-class band; first entry in this table explicitly tied to an appliance-category driver (large built-in refrigerators push a project toward the business-class band below) |
-| Zemstandart/Zemsproekt (Sergey Saratov, business-class) | Moscow | 50,000–85,000 RUB/m² | Company's own business-class band, same source as the row above |
+| РемонтХочу (Stages 2–11 combined) | Moscow | ≈48,375 RUB/m² total (see case study); **USD equivalent:** ≈$522.1/m² (÷ 92.66 RUB/USD, 2024 annual average) | **Likely bundles materials** (`inferred`, not confirmed) — not a clean labor-only comparison to the rows above |
+| Zemstandart/Zemsproekt (Sergey Saratov, comfort-class) | Moscow | 25,000–45,000 RUB/m² (this project ≈32,000); **USD equivalents:** ≈$370.4–$666.7/m² band and ≈$474.1/m² for 32,000 RUB (÷ 67.5 RUB/USD, 2022 annual average) | Company's own comfort-class band; first entry in this table explicitly tied to an appliance-category driver (large built-in refrigerators push a project toward the business-class band below) |
+| Zemstandart/Zemsproekt (Sergey Saratov, business-class) | Moscow | 50,000–85,000 RUB/m²; **USD equivalent:** ≈$740.7–$1,259.3/m² (÷ 67.5 RUB/USD, 2022 annual average) | Company's own business-class band, same source as the row above |
 
 *The RUB figures above are not directly comparable to each other without knowing each source's own definition of "labor" (some bundle materials, some don't) — read each row's Notes column before comparing across rows. The two Zemstandart rows are a single company's own explicit comfort-vs-business tier split, not a market-wide range.*
 
