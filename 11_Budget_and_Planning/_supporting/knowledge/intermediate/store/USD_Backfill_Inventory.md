@@ -68,8 +68,8 @@ the disposition rather than relying only on a changing aggregate count.
 
 | Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `D-CSV-012` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260815_17`, Zemstandart design fee 2024 | — | resolved | Appended ≈$50/m² for 4,000 RUB/m² at 92.66 RUB/USD. |
-| `D-CSV-013` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260815_18`, restated Zemstandart design fee 2024 | — | resolved | Appended ≈$50/m² for 4,000 RUB/m² at 92.66 RUB/USD; restatement is explicitly not treated as independent corroboration. |
+| `D-CSV-012` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260815_17`, Zemstandart design fee 2024 | — | resolved | Appended ≈$40/m² for 4,000 RUB/m² at 92.66 RUB/USD (corrected 2026-08-21 - previously $50, an arithmetic error). |
+| `D-CSV-013` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260815_18`, restated Zemstandart design fee 2024 | — | resolved | Appended ≈$40/m² for 4,000 RUB/m² at 92.66 RUB/USD (corrected 2026-08-21 - previously $50, an arithmetic error); restatement is explicitly not treated as independent corroboration. |
 
 ## Current Cross-Source audited slice
 
@@ -188,8 +188,8 @@ from new-content IDs and do not increase the underlying price-line inventory.
 | `D-CSV-R-003` | `processed_sources.csv` | run_20260731_7 | resolved | rounded ≈$190 for the 585 BYN gap; original figures and source metadata retained; notes field only changed. |
 | `D-CSV-R-004` | `processed_sources.csv` | run_20260814_3 | resolved | rounded ≈$440; original figures and source metadata retained; notes field only changed. |
 | `D-CSV-R-005` | `processed_sources.csv` | run_20260814_4 | resolved | rounded all 2022 USD equivalents to whole/approximate values; original figures and source metadata retained; notes field only changed. |
-| `D-CSV-R-006` | `processed_sources.csv` | run_20260815_17 | resolved | rounded ≈$50/m²; original figures and source metadata retained; notes field only changed. |
-| `D-CSV-R-007` | `processed_sources.csv` | run_20260815_18 | resolved | rounded ≈$50/m²; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-006` | `processed_sources.csv` | run_20260815_17 | resolved | rounded ≈$40/m² (corrected 2026-08-21 - previously $50, an arithmetic error); original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-007` | `processed_sources.csv` | run_20260815_18 | resolved | rounded ≈$40/m² (corrected 2026-08-21 - previously $50, an arithmetic error); original figures and source metadata retained; notes field only changed. |
 | `D-CSV-R-008` | `processed_sources.csv` | run_20260817_cidd4YHBJdA | resolved | rounded ≈$50/m² and ≈$65/m²; original figures and source metadata retained; notes field only changed. |
 | `D-CSV-R-009` | `processed_sources.csv` | run_20260818_WBaKEl5HIzU | resolved | rounded ≈$500 and ≈$2,000; original figures and source metadata retained; notes field only changed. |
 
