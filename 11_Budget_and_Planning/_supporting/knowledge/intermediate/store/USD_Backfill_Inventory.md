@@ -127,3 +127,34 @@ inventory disposition.
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `D-CSV-016` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260817_2`, Zemstandart design-fee price history, source years 2025 and 2026 | — | resolved-partial | Appended approximately $50/m² for the 2025 4,000 RUB/m² fee at 83.21 RUB/USD (rounded per the 2026-08-21 no-cents/approximate-precision correction); retained the 2026 5,000 RUB/m² figure with an explicit no-equivalent note because 2026 has no complete historical annual average. |
 | `D-CSV-017` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260817_3`, property-value figure, source year 2024 | — | resolved | Appended approximately $3,800/m² for 350,000 RUB/m² at 92.66 RUB/USD (rounded per the 2026-08-21 no-cents/approximate-precision correction); explicitly retained its separate property-value status rather than treating it as a renovation-cost benchmark. |
+
+## Turn 100 — USD no-cents retrofit: Cross-Source slice
+
+| Retrofit ID | File | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-CS-R-001` | `Cross_Source_Comparison_Tables.md` | Бородатый Прораб full-realization figure, 2025 | resolved | rounded ≈$1,800+/m²; original currency figures retained. |
+| `D-CS-R-002` | `Cross_Source_Comparison_Tables.md` | Zemstandart bespoke design-tier average, 2023 | resolved | rounded ≈$3,900 total; original currency figures retained. |
+| `D-CS-R-003` | `Cross_Source_Comparison_Tables.md` | Бородатый Прораб tile installation, 2025 | resolved | rounded ≈$50 and ≈$100/m²; original currency figures retained. |
+| `D-CS-R-004` | `Cross_Source_Comparison_Tables.md` | РемонтХочу tile installation, 2024 | resolved | rounded ≈$70/m²; original currency figures retained. |
+| `D-CS-R-005` | `Cross_Source_Comparison_Tables.md` | 7komnat.by derived per-m² fee | resolved | rounded ≈$34/m²; original $1,750 total retained; original currency figures retained. |
+| `D-CS-R-006` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #157, 2021 | resolved | corrected source-year rate to 73.6; rounded ≈$34 and ≈$41–$48/m²; original currency figures retained. |
+| `D-CS-R-007` | `Cross_Source_Comparison_Tables.md` | Zemstandart Sergey Saratov video, 2022 | resolved | rounded ≈$40/m²; original currency figures retained. |
+| `D-CS-R-008` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #177, 2022 | resolved | rounded ≈$40/m²; original currency figures retained. |
+| `D-CS-R-009` | `Cross_Source_Comparison_Tables.md` | Zemstandart livestream, 2022 | resolved | rounded ≈$40 and ≈$60/m²; original currency figures retained. |
+| `D-CS-R-010` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #287, 2024 | resolved | rounded ≈$50/m²; original currency figures retained. |
+| `D-CS-R-011` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #313, 2025 | resolved | rounded ≈$50/m²; original currency figures retained. |
+| `D-CS-R-012` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #256, 2023 | resolved | rounded ≈$50/m²; original currency figures retained. |
+| `D-CS-R-013` | `Cross_Source_Comparison_Tables.md` | Unnamed designer relayed in video #256, 2023 | resolved | rounded ≈$65/m² and ≈$4,900 total; original currency figures retained. |
+| `D-CS-R-014` | `Cross_Source_Comparison_Tables.md` | WITALT full project tier, 2025 | resolved | rounded ≈$1,200–$1,400/m²; original currency figures retained. |
+| `D-CS-R-015` | `Cross_Source_Comparison_Tables.md` | WITALT brigade tiers, 2025 | resolved | rounded ≈$240–$960/m²; original currency figures retained. |
+| `D-CS-R-016` | `Cross_Source_Comparison_Tables.md` | Бородатый Прораб labor rate, 2025 | resolved | rounded ≈$720/m²; original currency figures retained. |
+| `D-CS-R-017` | `Cross_Source_Comparison_Tables.md` | РемонтХочу stages 2–11, 2024 | resolved | rounded ≈$520/m²; original currency figures retained. |
+| `D-CS-R-018` | `Cross_Source_Comparison_Tables.md` | Zemstandart comfort-class band, 2022 | resolved | rounded ≈$370–$670/m² and ≈$470/m²; original currency figures retained. |
+| `D-CS-R-019` | `Cross_Source_Comparison_Tables.md` | Zemstandart business-class band, 2022 | resolved | rounded ≈$740–$1,300/m²; original currency figures retained. |
+| `D-CS-R-020` | `Cross_Source_Comparison_Tables.md` | Conditional AC BYN interpretation, 2017 | resolved | rounded ≈$80/linear meter; currency ambiguity retained; original currency figures retained. |
+
+This retrofit slice applies the 2026-08-21 approximate-precision rule to 20
+Cross-Source USD-equivalent lines. The 2021 video #157 row also corrects its
+wrongly carried 58.3 rate to the confirmed 2021 rate of 73.6; its recomputed
+values are rounded from the corrected arithmetic. Retrofit IDs are separate
+from new-content IDs and do not increase the underlying price-line inventory.
