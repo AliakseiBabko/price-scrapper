@@ -29,6 +29,14 @@ Stable slice identifiers for the scoped reference-layer price inventory. A
 slice ID remains stable if a line is split or later reclassified; status records
 the disposition rather than relying only on a changing aggregate count.
 
+## Current Cross-Source audited slice
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-CS-075` | `cross_source` | `Cross_Source_Comparison_Tables.md` | Zemstandart bespoke design-tier average, source year 2023 | — | resolved | Appended ≈$3,907.9 for 331,000 RUB at the confirmed 2023 USD/RUB annual average of 84.7. |
+| `D-CS-076` | `cross_source` | `Cross_Source_Comparison_Tables.md` | Borodatyy Proраб tile installation, source year 2025 | — | resolved | Appended ≈$48.1/m² for 4,000 RUB/m² and ≈$96.1/m² for 8,000 RUB/m² at the confirmed 2025 USD/RUB annual average of 83.21. |
+| `D-CS-077` | `cross_source` | `Cross_Source_Comparison_Tables.md` | РемонтХочу tile installation, source year 2024 | — | resolved | Appended ≈$70.1/m² for 6,500 RUB/m² at the confirmed 2024 USD/RUB annual average of 92.66. |
+
 ## Turn 76 — Numeric Data and Cross-Source slice
 
 | Slice ID | File | Entry anchor | Status | Disposition |

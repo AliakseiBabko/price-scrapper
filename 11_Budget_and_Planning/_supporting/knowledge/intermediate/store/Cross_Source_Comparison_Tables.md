@@ -1,5 +1,15 @@
 ## Cross-Source Comparison Tables
 
+### USD normalization addendum — next audited slice
+
+The original-currency figures in the comparison rows remain unchanged. The
+following claim-local annotations use the source year's confirmed annual
+USD/RUB average from [[00_Master/exchange_rates_reference|exchange_rates_reference]].
+
+- **Zemstandart/Zemsproekt bespoke design-tier average (2023):** 331,000 RUB total (107,000 labor + 224,000 materials) is ≈$3,907.9 total (÷ 84.7 RUB/USD, 2023 annual average; [source: yt_OCjVd5HOcac]).
+- **Borodatyy Proраб tile installation (2025):** 4,000 RUB/m² standard is ≈$48.1/m² and ~8,000 RUB/m² for the larger/small-mosaic formats is ≈$96.1/m² (÷ 83.21 RUB/USD, 2025 annual average; [source: yt_OrKB6uSKRyk]).
+- **РемонтХочу tile installation (2024):** 6,500 RUB/m² is ≈$70.1/m² (÷ 92.66 RUB/USD, 2024 annual average; [source: yt_cdNwbqsLUK4]).
+
 Per explicit user guidance: forcing all sources into one grand $/m² total
 doesn't work well, since different sources measure different scopes
 (labor-only vs. materials-bundled, construction-only vs. full-realization
