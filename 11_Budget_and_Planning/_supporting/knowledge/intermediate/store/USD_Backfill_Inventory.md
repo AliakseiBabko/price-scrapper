@@ -109,3 +109,14 @@ Raw source text remains in the source file; these stable rows identify the
 price-bearing sentence rather than a mutable line number. Parent IDs are
 reserved for later splits when one sentence contains independently sourced
 figures. The broader §6 inventory remains open.
+
+## Turn 96 — processed_sources.csv slice
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-CSV-014` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260817_cidd4YHBJdA`, layout-only design fees, source year 2023 | — | resolved | Appended approximately $47.2/m² for 4,000 RUB/m² and $64.9/m² for 5,500 RUB/m² at the confirmed 2023 USD/RUB annual average of 84.7. |
+| `D-CSV-015` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260818_WBaKEl5HIzU`, wallpaper prices, source year 2019 | — | resolved | Appended approximately $494.6 for ~32,000 RUB standard and $2,009.3 for ~130,000 RUB premium at the confirmed 2019 USD/RUB annual average of 64.7. |
+
+These two stable IDs cover only explicit price-bearing entries with a confirmed
+source year; rows with missing years or non-specific amounts remain for later
+inventory disposition.
