@@ -381,10 +381,28 @@ For one source at a time:
    original currency and amount unchanged. If the year is absent, record that
    the conversion is not computable. For current-year (2026+) sources, run
    `python tools/pricing/fetch_exchange_rates.py` to refresh the database with
-   the latest daily rates if needed. If the year is not in the reference table,
-   obtain and cite an authoritative annual-average rate before converting;
-   never use a current spot rate or a guessed value. Extend the reference table
-   with the source URL and retrieval date when a genuinely new year is confirmed.
+   the latest daily rates if needed.
+
+   **Missing-year rule, per explicit user instruction (2026-08-21)**: if a
+   source's price year has no row yet in `00_Master/exchange_rates_reference.md`
+   (e.g. a 2013 or 2016 source, older than this table's current 2017 floor),
+   don't stop at "not computable" - backfill the real year first, then
+   convert:
+   1. `python tools/pricing/fetch_exchange_rates.py --backfill --start-year <YEAR>`
+      to pull the real daily series for that year from CBR/NBRB into
+      `data/scraper.db` (verified working back to at least 2013 for both
+      currencies as of this instruction).
+   2. `python tools/pricing/generate_exchange_rates_reference.py` to
+      regenerate the reference table from the database - it preserves every
+      already-`confirmed` row untouched and only adds the new year.
+   3. Convert using the newly-added row, citing it normally.
+   **USD/BYN pre-2016 caveat**: Belarus redenominated the ruble in mid-2016
+   (four zeros dropped). A pre-2016 BYN figure is on the old, much larger
+   scale (e.g. ~10,000-16,000 old-BYN per USD, not ~2-3) - never divide a
+   pre-2016 BYN price by a post-2016 rate or vice versa; confirm which side
+   of the redenomination the source's own figure and year fall on before
+   converting, and note this explicitly if there's any ambiguity.
+   Never use a current spot rate or a guessed value for any year.
 
    **Rounding, per explicit user correction (2026-08-21)**: a USD-equivalent
    is a comparability aid for an approximate figure, not a transaction
