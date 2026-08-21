@@ -64,7 +64,7 @@ Presented primarily as a comfort/hygiene fixture, but with genuine space-plannin
 
 ## 4. Mirror-in-Shower-Tile and Recessed Fixtures
 
-`attribution: unconfirmed` — the following mirror/recessed-fixture claims cite archived b106 material without a directly linked extraction-note `channel:` field.
+`channel not confirmed` — the following mirror/recessed-fixture claims cite archived b106 material without a directly linked extraction-note `channel:` field.
 
 - **A mirror embedded flush into shower-wall tile (rather than mounted separately) is a genuine tradeoff, not a clear win or loss** — it requires wiping after every shower (water spots/splashes), and the tile-to-mirror junction is sealed with flexible sealant rather than matching grout, which is visually different from the surrounding grout, less durable, and needs periodic renewal. **The case for it**: for someone who uses an electric trimmer/razor daily, a regular vanity sink accumulates enough fine hair clippings on the sink and floor to require a genuinely time-consuming clean (cited around 30 minutes) every couple of days — a quick post-shower wipe of an in-shower mirror is argued to be meaningfully less hassle than that. Consider this specifically for a household member who grooms with an electric trimmer regularly, not as a general recommendation.
 - **A recessed, spring-loaded toilet-paper holder (push-button pop-out mechanism) needs at least 8cm of chase depth into the wall** — not always available, particularly on a shared wall backing directly onto a neighboring unit. Confirm real wall depth before specifying this fixture type; it can't be retrofitted into a wall that's too thin.
@@ -89,19 +89,19 @@ Zemstandart / Alexey Zemskov recommends the 40cm installation method, with the i
 
 ## 3a. Sewage Stack Rerouting — a Top-Floor-Only Option
 
-`attribution: unconfirmed` — the following stack-rerouting claim is mapped to archive-only b172 material without a directly cited extraction-note `channel:` field.
+`channel not confirmed` — the following stack-rerouting claim is mapped to archive-only b172 material without a directly cited extraction-note `channel:` field.
 
 **On a top-floor apartment specifically (nothing flushes from above), the stack can sometimes be rerouted with a horizontal jog** — offset out from its default vertical line, then brought back to the same axis — to free up room for a properly laid-out plumbing utility area. **Never do this on any floor below the top one**: anything flushed from above (including, worst case, solid waste from a clog or backup) would fall onto a horizontally-offset section from height, a real risk that doesn't exist when there's nothing above to fall from. A narrow-use-case technique, but worth knowing if a top-floor unit's stack placement is otherwise blocking a good layout.
 
 ## 3b. Wide-Format Tile Complicates the Hidden-Access-Tile Technique — a Workaround
 
-`attribution: unconfirmed` — the following wide-format-tile workaround is mapped to archive-only b172 material without a directly cited extraction-note `channel:` field.
+`channel not confirmed` — the following wide-format-tile workaround is mapped to archive-only b172 material without a directly cited extraction-note `channel:` field.
 
 The hidden emergency-access technique in [[07_Bathroom/analysis/Bathtub_and_Shower|Bathroom: Bathtub & Shower Selection]] (unglued, film-backed tiles that pop out with a suction cup) assumes at least two smaller tiles can be left unglued near the access point. **A single large-format tile (e.g. 60×120cm or bigger) can't be handled the same way** — there's only one tile covering that whole span, not two to selectively leave unglued. Two workarounds: (1) cut an access flap/corner out of the single large tile and seal its edge with silicone, matching the same removable-panel logic; or (2) install a proper concealed hatch — but a hatch consumes some usable space around its own perimeter and costs meaningfully more for a quality unit, a real cost/space tradeoff against option (1). **A cheaper, durable middle option for a plumbing utility box specifically (not a bathtub apron)**: a small two-door furniture-style insert set flush with the surrounding tile plane — inexpensive, long-lasting, and only consumes ~2-3cm of depth at the opening while leaving the rest of the cabinet interior fully accessible.
 
 ## 4a. A Few More Corroborated Planning Constants
 
-Zemstandart / Alexey Zemskov supplies the planning constants mapped to b149/b159/b187/b197; the separately cited 20260804 fan-switch claim remains `attribution: unconfirmed`.
+Zemstandart / Alexey Zemskov supplies the planning constants mapped to b149/b159/b187/b197; the separately cited 20260804 fan-switch claim remains `channel not confirmed`.
 
 - **Minimum/comfortable bathtub width**: 700mm is workable but described as uncomfortable for most people; **800mm is the practical default**, sizing up to 900mm for larger-bodied users — corroborated consistently across multiple videos from this same channel.
 - **Add a ~50mm safety margin beyond a sink or tub's nominal width** when setting the room dimension around it — manufacturers' actual product dimensions commonly run slightly over their nominal size (e.g. an "80cm" sink might really be 82cm); without the margin, the fixture can end up pressed unevenly against a side wall.

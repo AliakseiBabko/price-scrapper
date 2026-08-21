@@ -53,7 +53,7 @@ The apron/screen is where the **toe-kick niche disagreement** lives (see Perspec
 
 ## Tile Selection & Layout
 
-Zemstandart recommends the mapped tile-layout, apron, and grout practices below; claims without a unique mapped extraction note are `attribution: unconfirmed`.
+Zemstandart recommends the mapped tile-layout, apron, and grout practices below; claims without a unique mapped extraction note are `channel not confirmed`.
 
 **Lay and grout floor tile before setting the bathtub**, not after — lets the tub sit cleanly on the finished floor. For grout, **epoxy is the right call for any shower podium or external corner** even if the rest of the room uses cheaper cement grout — cement pops out of an external corner if the tile shifts even slightly, and a shower floor sees more sustained water exposure than almost any other tiled surface in the home. The 3-5x cost premium over cement is a corner/wet-zone cost, not a whole-room one.
 
@@ -65,7 +65,7 @@ On buying tile: **don't shop to a fixed budget** — tile lasts 20+ years, so a 
 
 ## Access Hatches, Shelving & Furniture
 
-`attribution: unconfirmed` — the following storage claims blend multiple detail-page sources and the guide does not identify one decisive extraction note for each claim.
+`channel not confirmed` — the following storage claims blend multiple detail-page sources and the guide does not identify one decisive extraction note for each claim.
 
 Hatch construction lives with structural content (see above); for storage, the two recurring themes across sources are **hide clutter from the entry sightline** (place open shelving on the wall nearest the door, not opposite the entrance) and **reconsider "wall-hung is always better"** for a vanity cabinet — if the sink sits close to the tub's own serviceable plumbing, a floor-standing cabinet you can just slide aside beats a wall-hung one you'd need to fully remove for access.
 
@@ -75,7 +75,7 @@ For cabinetry material, the failure point is almost always **edge-banding damage
 
 ## Doors
 
-Zemstandart recommends the mapped door-reveal and concealed-door practices below; any unlinked synthesis remains `attribution: unconfirmed`.
+Zemstandart recommends the mapped door-reveal and concealed-door practices below; any unlinked synthesis remains `channel not confirmed`.
 
 **Flush/concealed-mount is the current default for a modern look**, but budget for the real extra cost it carries: ~90% custom-order pricing plus ~20,000-25,000 RUB per door in extra finishing work (tiling the reveal, painting both sides) — easy to underestimate across 5 doors. **Sliding is explicitly the worst option for a bathroom** on soundproofing grounds, acceptable only for a private master-suite used by one couple.
 
@@ -85,13 +85,13 @@ Two sizing rules worth planning before finishing, not after: a full-size washer/
 
 ## Ceilings
 
-`attribution: unconfirmed` — the following ceiling synthesis has no decisive extraction-note `channel:` mapping.
+`channel not confirmed` — the following ceiling synthesis has no decisive extraction-note `channel:` mapping.
 
 **Stretch ceiling is used in ~95% of bathrooms and is recommended as the default** even by designers who'd otherwise prefer drywall — fast install, cost, reliability, and full immunity to temperature/humidity swings. The real argument is the *failure mode* comparison: a drywall ceiling's response to even a minor upstairs leak is full structural replacement, since drywall has nowhere for absorbed moisture to go, while a stretch ceiling survives a leak and can even be drained and reused. PVC panels, Armstrong grids, and slat ceilings are all flagged as essentially obsolete in current practice.
 
 ## Lighting & Electrical
 
-Kruglov/Ontario recommends the linked lighting-guide practices; Zemstandart supplies the mapped legacy bathroom-lighting claims, while mixed claims remain `attribution: unconfirmed` where the note cannot be isolated.
+Kruglov/Ontario recommends the linked lighting-guide practices; Zemstandart supplies the mapped legacy bathroom-lighting claims, while mixed claims remain `channel not confirmed` where the note cannot be isolated.
 
 **No amount of general ceiling light substitutes for a dedicated, front-facing mirror light** — ceiling light alone leaves the face in shadow for grooming, and the mirror light needs its own wiring run planned at rough-in (retrofitting later means fishing wire through finished walls). **Skip toe-kick/floor lighting unless you'll clean daily** — it highlights dirt rather than hiding it, and a bathroom accumulates hair/lint/water-spots faster than most rooms.
 
@@ -101,7 +101,7 @@ On the exhaust fan: the switch must be inside the room, never in the hallway, an
 
 ## Mixers, Toilet, Sinks & Hygienic Shower
 
-Kruglov/Ontario and Zemstandart both contribute to the fixture material below; each blended claim remains `attribution: unconfirmed` unless its detail-page note isolates the channel.
+Kruglov/Ontario and Zemstandart both contribute to the fixture material below; each blended claim remains `channel not confirmed` unless its detail-page note isolates the channel.
 
 **Chrome is the most forgiving mixer finish to maintain** — shows the fewest water-spot marks regardless of local water hardness. **Two independent sources push back hard on black fixtures specifically** (one flags it as a tradeoff, a second recommends against it outright) — treat black as a harder "no" than a bare style preference would suggest, since even a reputable black coating shows every water mark. A thermostatic mixer is worth the extra cost specifically for a shower (child-safety plus no re-dialing temperature each use); less consistently worth it for a sink.
 
@@ -113,7 +113,7 @@ For sinks, **80cm is the sizing sweet spot** — narrower niches cause repeated 
 
 ## Towel Warmer
 
-`attribution: unconfirmed` — this towel-warmer claim points to the Engineering page and has no decisive extraction-note citation of its own.
+`channel not confirmed` — this towel-warmer claim points to the Engineering page and has no decisive extraction-note citation of its own.
 
 **Electric over hydronic, by a wide cost and reliability margin**: ~2,500 RUB to install an electric unit anywhere on any wall, versus a hydronic unit's ~10,000-15,000 RUB (needs the management company to weld shutoff valves into the riser) plus a dedicated second leak-protection branch if you want it covered. See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the full incident-based case (a real leak this same source's own installed work caused).
 

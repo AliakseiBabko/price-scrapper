@@ -4,7 +4,7 @@ Covers door mount-type comparison, appliance-clearance sizing, tile-buildup reve
 
 ## Mount Type Comparison
 
-Zemstandart / Alexey Zemskov supports the mapped door-reveal and mount-type claims; archive-only claims without that mapping have no confirmed channel.
+Zemstandart / Alexey Zemskov supports the mapped door-reveal and mount-type claims; archive-only claims without that mapping have no confirmed channel. The most specific remaining trace for the legacy clearance material is the page's [Bathroom Source Notes](Source_Notes.md), which maps the related door-reveal rule to the Zemstandart archive source; no more-specific extraction-note link was recovered for every clearance bullet.
 
 | Type | Pros | Cons |
 | :--- | :--- | :--- |
