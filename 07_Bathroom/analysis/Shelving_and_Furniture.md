@@ -17,9 +17,9 @@ Konstantin Kruglov / Ontario supports the mapped direct-source claims; legacy ar
 
 ## Utility Furniture: Pull-Out Columns and Clearance Rules
 
-- **A pull-out (slide-out drawer-style) furniture column is a better solution than a fixed shelf unit for a deep, narrow utility space** (e.g. leftover alcove space — see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] — or a gap created by a mandatory 3-sided tile-over-tub-rim rule) — it gives comfortable access to the entire depth rather than forcing you to unload items just to reach the back.
-- **Build a solid back panel into this kind of column — don't leave it open-through.** A kitchen pass-through cabinet is deliberately accessible from both ends, but a bathroom utility column only ever needs access from the room side — the far end sits permanently against a wall. An open-through design just means items get pushed through to the inaccessible far side while reaching in with wet or soapy hands.
-- **Leave at least 30mm of clearance between a pull-out unit's carcass and the wall/tile plane it sits flush against**, even when a fully flush look is requested. Door and window casings/trim (commonly ~1cm thick) protrude past the wall plane; a cabinetmaker who doesn't account for this produces a drawer or door that physically stops opening partway once a nearby door is installed. Confirm this clearance is specified before cabinetry is built, not after.
+- **A pull-out (slide-out drawer-style) furniture column is a better solution than a fixed shelf unit for a deep, narrow utility space** (e.g. leftover alcove space — see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] — or a gap created by a mandatory 3-sided tile-over-tub-rim rule) — it gives comfortable access to the entire depth rather than forcing you to unload items just to reach the back. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
+- **Build a solid back panel into this kind of column — don't leave it open-through.** A kitchen pass-through cabinet is deliberately accessible from both ends, but a bathroom utility column only ever needs access from the room side — the far end sits permanently against a wall. An open-through design just means items get pushed through to the inaccessible far side while reaching in with wet or soapy hands. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
+- **Leave at least 30mm of clearance between a pull-out unit's carcass and the wall/tile plane it sits flush against**, even when a fully flush look is requested. Door and window casings/trim (commonly ~1cm thick) protrude past the wall plane; a cabinetmaker who doesn't account for this produces a drawer or door that physically stops opening partway once a nearby door is installed. Confirm this clearance is specified before cabinetry is built, not after. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
 
 ## Above-Washer Storage: Leave a Reachable Gap, Not Just a Deep Cabinet
 
@@ -29,8 +29,8 @@ The space above a washing machine is easy to under-use (often just a couple of t
 
 - Cabinetry material/finish, ranked cheapest to priciest: **LDSP (chipboard) → film-wrapped MDF → plastic-faced MDF → enamel-finished MDF**.
 - Avoid natural wood veneer/solid wood in a wet bathroom environment.
-- **Edge-banding quality is the real failure point** — damage to the banding or its protective coating lets moisture in and causes rapid furniture failure.
-- **Use only laminated/enameled, moisture-resistant panel material for a moisture-adjacent access panel** — never plain particleboard (ЛДСП), which reportedly swells within about a week of moisture exposure.
+- **Edge-banding quality is the real failure point** — damage to the banding or its protective coating lets moisture in and causes rapid furniture failure. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair_c4619c2b]]]
+- **Use only laminated/enameled, moisture-resistant panel material for a moisture-adjacent access panel** — never plain particleboard (ЛДСП), which reportedly swells within about a week of moisture exposure. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair_c4619c2b]]]
 
 ## "Flourishes" — Explicitly Non-Essential Upgrades
 
