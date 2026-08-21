@@ -158,3 +158,40 @@ Cross-Source USD-equivalent lines. The 2021 video #157 row also corrects its
 wrongly carried 58.3 rate to the confirmed 2021 rate of 73.6; its recomputed
 values are rounded from the corrected arithmetic. Retrofit IDs are separate
 from new-content IDs and do not increase the underlying price-line inventory.
+
+## Turn 102 — USD no-cents retrofit: Numeric Data and CSV slice
+
+| Retrofit ID | File | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-ND-R-001` | `Numeric_Data.md` | Yana Vrublevskaya 2023 rough works totals | resolved | rounded ≈$3,700, ≈$3,500, and ≈$190; original figures and source markers retained. |
+| `D-ND-R-002` | `Numeric_Data.md` | Zemstandart 2022 design fee | resolved | rounded ≈$40/m²; original figures and source markers retained. |
+| `D-ND-R-003` | `Numeric_Data.md` | Zemstandart 2022→2023 transition fee | resolved | rounded ≈$40/m² and ≈$50/m²; original figures and source markers retained. |
+| `D-ND-R-004` | `Numeric_Data.md` | Furniture-dispute case totals, 2020 | resolved | rounded all USD equivalents to whole/approximate values; original figures and source markers retained. |
+| `D-ND-R-005` | `Numeric_Data.md` | Comfort-class labor band restated, 2022 | resolved | rounded ≈$370–$670/m²; original figures and source markers retained. |
+| `D-ND-R-006` | `Numeric_Data.md` | Design-deviation regret case, 2022 | resolved | rounded ≈$220 and ≈$740; original figures and source markers retained. |
+| `D-ND-R-007` | `Numeric_Data.md` | Entry-hallway dividing-wall case, 2020 | resolved | rounded <$28 and >$140–$280; original figures and source markers retained. |
+| `D-ND-R-008` | `Numeric_Data.md` | Re-keying cost, 2019 | resolved | rounded ≈$31; original figures and source markers retained. |
+| `D-ND-R-009` | `Numeric_Data.md` | Interior door price point, 2019 | resolved | rounded ≈$190–$230/unit; original figures and source markers retained. |
+| `D-ND-R-010` | `Numeric_Data.md` | Inspection-fee data point, 2019 | resolved | rounded ≈$150 and ≈$3,100+; removed obsolete decimal error from correction prose; original figures and source markers retained. |
+| `D-ND-R-011` | `Numeric_Data.md` | Emergency-repair steel strip, 2023 | resolved | rounded ≈$27; original figures and source markers retained. |
+| `D-ND-R-012` | `Numeric_Data.md` | Food-waste disposer, 2022 | resolved | rounded ≈$440; original figures and source markers retained. |
+| `D-ND-R-013` | `Numeric_Data.md` | Comfort/business labor bands, 2022 | resolved | rounded ≈$370–$670, ≈$470, and ≈$740–$1,300/m²; original figures and source markers retained. |
+| `D-ND-R-014` | `Numeric_Data.md` | Earliest design-fee point, 2021 | resolved | rounded ≈$34 and ≈$41–$48/m²; original figures and source markers retained. |
+| `D-ND-R-015` | `Numeric_Data.md` | Restated comfort/business bands, 2022 | resolved | rounded ≈$370–$670 and ≈$740–$1,300/m²; original figures and source markers retained. |
+| `D-ND-R-016` | `Numeric_Data.md` | Bespoke design-tier average, 2023 | resolved | rounded ≈$1,300, ≈$2,600, and ≈$3,900/m²; original figures and source markers retained. |
+| `D-ND-R-017` | `Numeric_Data.md` | Bespoke-design worthwhile threshold, 2023 | resolved | rounded >$354,000; original figures and source markers retained. |
+| `D-ND-R-018` | `Numeric_Data.md` | Exclusive bespoke design fee, 2023 | resolved | rounded ≈$11,800 and ≈$160/m²; original figures and source markers retained. |
+| `D-ND-R-019` | `Numeric_Data.md` | December 2025 design fee | resolved | rounded ≈$50/m²; 2026 future rate remains non-computable; original figures and source markers retained. |
+| `D-ND-R-020` | `Numeric_Data.md` | Apartment market value, 2024/2025 | resolved | rounded ≈$3,800 and ≈$4,200/m²; original figures and source markers retained. |
+| `D-CSV-R-001` | `processed_sources.csv` | run_20260730_1 | resolved | rounded ≈$1,200–$1,400 and ≈$240–$960; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-002` | `processed_sources.csv` | run_20260731_5 | resolved | rounded ≈$1,800/m²+; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-003` | `processed_sources.csv` | run_20260731_7 | resolved | rounded ≈$190 for the 585 BYN gap; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-004` | `processed_sources.csv` | run_20260814_3 | resolved | rounded ≈$440; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-005` | `processed_sources.csv` | run_20260814_4 | resolved | rounded all 2022 USD equivalents to whole/approximate values; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-006` | `processed_sources.csv` | run_20260815_17 | resolved | rounded ≈$50/m²; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-007` | `processed_sources.csv` | run_20260815_18 | resolved | rounded ≈$50/m²; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-008` | `processed_sources.csv` | run_20260817_cidd4YHBJdA | resolved | rounded ≈$50/m² and ≈$65/m²; original figures and source metadata retained; notes field only changed. |
+| `D-CSV-R-009` | `processed_sources.csv` | run_20260818_WBaKEl5HIzU | resolved | rounded ≈$500 and ≈$2,000; original figures and source metadata retained; notes field only changed. |
+
+This slice completes the decimal-form retrofit in Numeric Data and the nine
+price-bearing CSV rows containing USD decimal forms at the refreshed baseline.
