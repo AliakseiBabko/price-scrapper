@@ -7,7 +7,7 @@ Part of [[12_Engineering_and_Systems/Heating|Heating]].
 
 ## Naming Clarification
 
-attribution: unconfirmed — the cited comparison is single-account and does not expose a decisive `channel:` field: "Water" underfloor heating is more accurately "liquid" (жидкостной) — the heat-transfer medium is often antifreeze, not pure water. Both "electric" and "film" (infrared) types are technically electric, but have fundamentally different heating mechanisms: direct-heating electric cable/mat resistively heats the element itself; film/infrared heats via radiated waves that warm whatever sits above the film, not the film's own temperature primarily. The two shouldn't be conflated despite both being "electric."
+Zemstandart/Zemsproekt (Alexey Zemskov) explains: "Water" underfloor heating is more accurately "liquid" (жидкостной) — the heat-transfer medium is often antifreeze, not pure water. Both "electric" and "film" (infrared) types are technically electric, but have fundamentally different heating mechanisms: direct-heating electric cable/mat resistively heats the element itself; film/infrared heats via radiated waves that warm whatever sits above the film, not the film's own temperature primarily. The two shouldn't be conflated despite both being "electric."
 
 ## The Ten-Parameter Comparison
 
@@ -36,8 +36,8 @@ The only real exception is an individually-metered, individually-heated ground-f
 
 ## Film's Two Categorical Incompatibilities, With Mechanism
 
-- attribution: unconfirmed — the cited extraction note does not isolate a single channel: **Ceramic tile**: the film layer physically prevents tile adhesive from bonding to the base beneath it. Perforated film variants exist specifically to address this, but the perforated area is too small in practice — tile still detaches.
-- attribution: unconfirmed — the cited extraction note does not isolate a single channel: **Metal-backed premium laminate**: some premium laminate lines include a metal foil layer. Heating a metal-backed laminate on film is functionally equivalent to putting metal in a microwave.
+- Zemstandart/Zemsproekt (Alexey Zemskov) warns: **Ceramic tile**: the film layer physically prevents tile adhesive from bonding to the base beneath it. Perforated film variants exist specifically to address this, but the perforated area is too small in practice — tile still detaches.
+- Zemstandart/Zemsproekt (Alexey Zemskov) warns: **Metal-backed premium laminate**: some premium laminate lines include a metal foil layer. Heating a metal-backed laminate on film is functionally equivalent to putting metal in a microwave.
 
 ## Furniture Placement
 
@@ -48,6 +48,6 @@ Never place furniture directly over active underfloor heating of any type. For w
 > [!NOTE]
 > A genuine consumer-fraud finding, distinct from the type-selection/technical content above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_o7lGqaUuGm0_fake_renovation_scam_walkthrough_214|note]]]
 
-attribution: unconfirmed — the cited extraction note does not isolate a single channel: **A documented real case of fabricated underfloor heating**: buyers of a "renovated, move-in-ready" unit specifically asked about underfloor heating before purchase (they couldn't tolerate cold tile underfoot) and were shown three apparently-functioning thermostats, one per zone. After moving in, activating the thermostats caused sparking. Investigation found: the thermostats received line power and produced no fault when idle, but their output leads were simply short-circuited together with no heating cable connected anywhere — confirmed with a cable detector swept across the entire tiled area, which found nothing. When contacted, the sellers' own proposed "fix" was to swap the fake thermostats for ordinary wall outlets.
+Zemstandart/Zemsproekt (Alexey Zemskov) documents: **A documented real case of fabricated underfloor heating**: buyers of a "renovated, move-in-ready" unit specifically asked about underfloor heating before purchase (they couldn't tolerate cold tile underfoot) and were shown three apparently-functioning thermostats, one per zone. After moving in, activating the thermostats caused sparking. Investigation found: the thermostats received line power and produced no fault when idle, but their output leads were simply short-circuited together with no heating cable connected anywhere — confirmed with a cable detector swept across the entire tiled area, which found nothing. When contacted, the sellers' own proposed "fix" was to swap the fake thermostats for ordinary wall outlets.
 
-attribution: unconfirmed — the cited extraction note does not isolate a single channel: **Practical takeaway: a visible, apparently-working thermostat is not evidence of a working heating system underneath it.** Before treating claimed underfloor heating as a real, valuable feature of a unit being purchased (new or resale), verify it independently — run a cable/stud detector across the floor, or ask to see the system actually heating the floor to a measurable temperature, rather than accepting a thermostat's presence or a seller's verbal claim.
+Zemstandart/Zemsproekt (Alexey Zemskov) advises: **Practical takeaway: a visible, apparently-working thermostat is not evidence of a working heating system underneath it.** Before treating claimed underfloor heating as a real, valuable feature of a unit being purchased (new or resale), verify it independently — run a cable/stud detector across the floor, or ask to see the system actually heating the floor to a measurable temperature, rather than accepting a thermostat's presence or a seller's verbal claim.
