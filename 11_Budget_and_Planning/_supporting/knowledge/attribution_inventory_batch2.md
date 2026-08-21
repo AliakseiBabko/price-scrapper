@@ -201,3 +201,15 @@ The nine-file cluster now has zero `retired attribution-prefix` matches. No clai
 | Supporting inventories: `attribution_inventory_batch1.md`, `attribution_inventory_batch2.md` | These are traceability records, not reader claims; historical references to the retired boilerplate were normalized to `retired attribution-prefix` wording | zero literal retired-pattern matches remain in either inventory |
 
 The requested 15-file cluster now has zero literal retired-pattern matches. Claim wording and existing source links were otherwise preserved.
+
+## Workstream F retrofit inventory (turn 50)
+
+| scope | channel evidence | retrofit treatment |
+|---|---|---|
+| Remaining top-level guides: `Wardrobes_and_Storage`, `Walls_and_Paint`, `Flooring_Guide`, `Ceilings_Guide`, `Plumbing_and_Waterproofing`, `HVAC_and_Ventilation`, `Budgeting_Guide`, `WC_Guide`, `Bathroom_Guide` | Guide corroboration notes and the corresponding Source Notes pages identify Zemstandart/Zemsproekt/Zemsremont, Ontario/Konstantin Kruglov, FLATART, WITALT, and the named plumbing/hood source families; genuinely legacy audit prose was not assigned a guessed channel | all remaining top-level guide prefixes normalized to named source attribution where mapped, or plain `channel not confirmed` wording where the old text was only an audit note |
+| `08_WC/analysis/Dos_and_Donts.md` | archive-only rows have no decisive extraction-note channel in the table | removed the retired label from the audit status while preserving the no-channel explanation |
+| Bathroom legacy follow-up: `07_Bathroom/analysis/Doors.md` | Bathroom Source Notes map the related door-reveal material to Zemstandart; the legacy clearance bullets have no more-specific extraction-note target | added a direct link to `Source_Notes.md` and explicitly recorded that no more-specific extraction-note link was recovered |
+| Bathroom legacy follow-up: `07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md` | Bathroom Source Notes map the related toilet and hygienic-shower material to the Ontario plumbing archive; the legacy rows themselves have no more-specific target | added the page Source Notes link and explicitly recorded the absence of a more-specific extraction-note link |
+| Bathroom legacy follow-up: `07_Bathroom/analysis/Heated_Floor_and_Thermostat.md` | the page Source Notes are the most specific surviving trace for the older cost block; no extraction note was recoverable for those figures | added the Source Notes link and explicitly recorded that no more-specific extraction-note link was recovered |
+
+The remaining target files now have zero retired-pattern matches. The only repo-wide literal references left are two historical explanations of the retired pattern in `00_Master/wiki_page_format.md`; they are convention-document text, not claim prefixes.

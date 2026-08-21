@@ -20,7 +20,7 @@ Konstantin Kruglov / Ontario supports the `YT_9dfEdjOewng...` claims; Zemstandar
 
 ## Toilet Selection
 
-Legacy archive-only toilet claims lack a decisive extraction-note `channel:` field.
+Legacy archive-only toilet claims lack a decisive extraction-note `channel:` field. The page's [Bathroom Source Notes](Source_Notes.md) maps the related toilet-selection material to the Ontario plumbing archive; the specific legacy rows have no more-specific extraction-note link.
 
 - **Two mainstream configurations**: **wall-hung (подвесной)** on an in-wall frame/cistern (see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the frame's own installation requirements) and **floor-standing (напольный)**. A hybrid — a floor-standing bowl plumbed to an in-wall frame — exists but is described as rarely worth choosing.
 - **Size must be tried in person, not chosen from an online listing alone** — a toilet that looks fine on a marketplace listing can turn out uncomfortably small or large once actually sat on; worth a physical showroom visit specifically to sit on it before buying.
@@ -33,7 +33,7 @@ Legacy archive-only toilet claims lack a decisive extraction-note `channel:` fie
 
 ## Hygienic Shower / Bidet Spray
 
-This legacy hygienic-shower section does not expose a decisive extraction-note `channel:` field.
+This legacy hygienic-shower section does not expose a decisive extraction-note `channel:` field. [Bathroom Source Notes](Source_Notes.md) maps the underlying hygienic-shower safety material to the Ontario plumbing archive; no more-specific extraction-note link is available for these legacy bullets.
 
 See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the core safety mechanism and fix (the "vent-type"/anti-forgetfulness valve design). Points worth adding here:
 - **Always pair a hygienic shower with both a check valve on the manifold and a full leak-protection system** — a near-mandatory pairing, given how routinely hygienic-shower hoses are left pressurized by accident.

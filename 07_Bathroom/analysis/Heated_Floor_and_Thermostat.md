@@ -4,7 +4,7 @@ Covers underfloor heating cost/scheduling, area-cap/sensor-redundancy rules, and
 
 ## Cost, Scheduling, and Sensor Redundancy
 
-Older archive-only cost claims lack a decisive extraction-note `channel:` field.
+Older archive-only cost claims lack a decisive extraction-note `channel:` field. The page's [Bathroom Source Notes](Source_Notes.md) is the most specific remaining trace; no more-specific extraction-note link was recovered for the legacy cost figures.
 
 **Electric underfloor heating, cost and control**: a full setup (heating mat, thermostat, installation) is cited around **~30,000 RUB** — described as easily worth it if the budget allows, with no real downsides beyond cost. Because tile heats and cools slowly, it can't be toggled on-demand like a light switch — the source runs theirs on a schedule (starting ~6am to be comfortably warm by ~9am).
 

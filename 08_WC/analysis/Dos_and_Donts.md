@@ -1,6 +1,6 @@
 # WC - Do's and Don'ts
 
-> **Attribution status:** `attribution: unconfirmed` for the archive-only rows below. The cited `.txt` paths do not expose an extraction-note `channel:` field in this table; no channel is inferred from filenames. The rows and their meanings are unchanged.
+> **Attribution status:** `channel not confirmed` for the archive-only rows below. The cited `.txt` paths do not expose an extraction-note `channel:` field in this table; no channel is inferred from filenames. The rows and their meanings are unchanged.
 
 ## Do's
 
