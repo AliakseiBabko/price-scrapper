@@ -15,7 +15,7 @@ Part of [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]].
 
 ## Buying / Practical Guidance
 
-**Pricing below is RUB, sourced 2026 (except where a source's own date is otherwise noted), and reflects individual companies'/retailers' own stated rates — not independently verified market averages. Treat every figure as a single-source data point, not a market benchmark.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ti8J19zY0EM_interior_entrance_door_buying_guide|ti8J19zY0EM_interior_ent]]] USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]).
+**Pricing below is RUB, sourced 2026 (except where a source's own date is otherwise noted), and reflects individual companies'/retailers' own stated rates — not independently verified market averages. Treat every figure as a single-source data point, not a market benchmark.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ti8J19zY0EM_interior_entrance_door_buying_guide|ti8J19zY0EM_interior_ent]]]
 
 ### Interior door set (material/hardware only), by mount type — one company's stated ranges, RUB, 2026
 | Mount Type | Price Range |
