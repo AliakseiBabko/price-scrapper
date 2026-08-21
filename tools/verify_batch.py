@@ -39,6 +39,15 @@ DEFAULT_RETIRED_PATTERNS = [
 
 DEFAULT_ID_PATTERN = r"yt_[A-Za-z0-9_-]+"
 
+# This tool's own path, relative to repo root - excluded from the mojibake
+# and retired-pattern scans below, since it legitimately defines those
+# strings as data (signature literals, default regex patterns) rather than
+# containing them as violations. Found via real self-scan false positives
+# (Codex, PRICE_SCRAPPER_ATTRIBUTION_AND_CURRENCY_NORMALIZATION turn 74).
+SELF_PATH = "tools/verify_batch.py"
+
+INLINE_CODE_SPAN = re.compile(r"`[^`\n]*`")
+
 # Matches this project's "USD equivalent" annotation convention, e.g.:
 #   (÷ 83.21 RUB/USD, 2025 annual average, see [[...]])
 RATE_ANNOTATION_PATTERN = re.compile(
@@ -173,6 +182,16 @@ def main() -> int:
         help="Skip the repo-wide existence check for newly-added IDs (faster, less thorough).",
     )
     parser.add_argument(
+        "--exclude-path",
+        action="append",
+        default=[],
+        help=(
+            "Repo-relative path to skip for mojibake/retired-pattern checks (repeatable). "
+            f"'{SELF_PATH}' is always excluded automatically since it legitimately contains "
+            "those signatures/patterns as literal data, not violations."
+        ),
+    )
+    parser.add_argument(
         "--json",
         action="store_true",
         help=(
@@ -217,20 +236,29 @@ def main() -> int:
             if head_bytes[:3] == b"\xef\xbb\xbf":
                 problems.append({"file": path, "check": "bom", "message": "has a UTF-8 BOM"})
 
-        for sig in MOJIBAKE_SIGNATURES:
-            if sig in head_text:
-                count = head_text.count(sig)
-                problems.append({
-                    "file": path, "check": "mojibake",
-                    "message": f"possible mojibake: '{sig}' x{count}",
-                })
+        is_self_or_excluded = path == SELF_PATH or path in args.exclude_path
 
-        for pattern in retired_patterns:
-            if re.search(pattern, head_text):
-                problems.append({
-                    "file": path, "check": "retired_pattern",
-                    "message": f"retired pattern still present: /{pattern}/",
-                })
+        if not is_self_or_excluded:
+            for sig in MOJIBAKE_SIGNATURES:
+                if sig in head_text:
+                    count = head_text.count(sig)
+                    problems.append({
+                        "file": path, "check": "mojibake",
+                        "message": f"possible mojibake: '{sig}' x{count}",
+                    })
+
+        # Strip inline `code spans` before the retired-pattern scan - a
+        # documentation file legitimately quoting the retired pattern as an
+        # example (e.g. "do not write `attribution: unconfirmed`") is not a
+        # violation of the policy it's explaining.
+        prose_text = INLINE_CODE_SPAN.sub("", head_text)
+        if not is_self_or_excluded:
+            for pattern in retired_patterns:
+                if re.search(pattern, prose_text):
+                    problems.append({
+                        "file": path, "check": "retired_pattern",
+                        "message": f"retired pattern still present outside inline code spans: /{pattern}/",
+                    })
 
         base_bytes = file_bytes_at(args.base, path)
         base_text = base_bytes.decode("utf-8", errors="replace") if base_bytes else ""
