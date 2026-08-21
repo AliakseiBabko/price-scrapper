@@ -64,6 +64,13 @@ the disposition rather than relying only on a changing aggregate count.
 | `D-CSV-010` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260814_3`, food-waste-disposer 2022 price | — | resolved | Appended ≈$444.4 for 30,000 RUB at 67.5 RUB/USD; preserved the source's separate approximate $500 wording. |
 | `D-CSV-011` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260814_4`, built-in-refrigerator 2022 labor tiers | — | resolved | Appended 2022 equivalents for comfort 25,000–45,000 RUB/m² and ~32,000 actual, plus business 50,000–85,000 RUB/m². |
 
+## Current processed_sources.csv slice 4
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-CSV-012` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260815_17`, Zemstandart design fee 2024 | — | resolved | Appended ≈$43.2/m² for 4,000 RUB/m² at 92.66 RUB/USD. |
+| `D-CSV-013` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260815_18`, restated Zemstandart design fee 2024 | — | resolved | Appended ≈$43.2/m² for 4,000 RUB/m² at 92.66 RUB/USD; restatement is explicitly not treated as independent corroboration. |
+
 ## Current Cross-Source audited slice
 
 | Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
