@@ -224,16 +224,10 @@ This bounded guide/detail batch adds claim-local non-computable handling to 19
 2026 price-bearing lines. Remaining guide/detail files require source-year
 inventory and conversion or explicit non-computable handling.
 
-**Correction, 2026-08-21 (CLAUDE review)**: 4 of the 24 additions above were
-misplaced and have been removed from the source files, leaving 20 real
-annotations: 3 in `Doors_Trim_Cost_and_Buying.md` were appended directly onto
-`###` table-caption headings rather than the price-bearing table rows beneath
-them (each of those rows already carries its own correct annotation, making
-the heading-level one both redundant and disruptive to the Markdown heading
-structure); 1 in `Door_Anatomy_and_Mount_Types.md` was appended to a
-paragraph about door-width measurements and swing consistency that contains
-no price figure at all. This ledger's generic "2026 price-bearing line N"
-labels (as opposed to the content-specific labels used elsewhere in this
-file) don't identify which 4 of the 24 rows above correspond to the removed
-annotations, so the individual rows are left as-is rather than guessed at;
-this note is the record of the correction and the real total (20, not 24).
+**History (2026-08-21)**: the original batch claimed 24 lines with generic
+"2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
+(3 appended to Markdown headings instead of price rows, redundant with each
+row's own correct annotation; 1 appended to a paragraph with no price figure
+at all) and removed them, and a CODEX self-audit then rebuilt this table with
+content-specific anchors for the real 19, superseding the earlier generic
+version and this note's prior draft.
