@@ -120,3 +120,10 @@ figures. The broader §6 inventory remains open.
 These two stable IDs cover only explicit price-bearing entries with a confirmed
 source year; rows with missing years or non-specific amounts remain for later
 inventory disposition.
+
+## Turn 98 — processed_sources.csv slice
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-CSV-016` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260817_2`, Zemstandart design-fee price history, source years 2025 and 2026 | — | resolved-partial | Appended approximately $48.1/m² for the 2025 4,000 RUB/m² fee at 83.21 RUB/USD; retained the 2026 5,000 RUB/m² figure with an explicit no-equivalent note because 2026 has no complete historical annual average. |
+| `D-CSV-017` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260817_3`, property-value figure, source year 2024 | — | resolved | Appended approximately $3,777.3/m² for 350,000 RUB/m² at 92.66 RUB/USD; explicitly retained its separate property-value status rather than treating it as a renovation-cost benchmark. |
