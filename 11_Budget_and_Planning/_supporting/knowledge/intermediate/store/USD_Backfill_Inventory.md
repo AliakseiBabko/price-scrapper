@@ -22,7 +22,7 @@ Current widened Numeric Data rows:
 
 | Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `D-ND-063` | `numeric_data` | `Numeric_Data.md` | Real inspection-fee data point, source year 2019 | — | resolved | Appended ≈$154.6 for ≈10,000 RUB and ≈$2,781.6+ for ≈200,000 RUB+ at the confirmed 2019 USD/RUB annual average of 64.7. |
+| `D-ND-063` | `numeric_data` | `Numeric_Data.md` | Real inspection-fee data point, source year 2019 | — | resolved | Appended ≈$154.6 for ≈10,000 RUB and ≈$3,091.2+ for ≈200,000 RUB+ at the confirmed 2019 USD/RUB annual average of 64.7. Corrected 2026-08-21 - the originally-merged $2,781.6 figure was an arithmetic error. |
 | `D-ND-064` | `numeric_data` | `Numeric_Data.md` | Real emergency-repair steel-strip cost, source year 2023 | — | resolved | Appended ≈$27.2 for ≈2,300 RUB at the confirmed 2023 USD/RUB annual average of 84.7. |
 
 Stable slice identifiers for the scoped reference-layer price inventory. A
