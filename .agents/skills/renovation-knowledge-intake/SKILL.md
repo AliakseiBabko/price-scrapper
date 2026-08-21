@@ -21,6 +21,16 @@ Do not reimplement fetching, extraction, or wiki-synthesis rules here.
    `tiered-knowledge-base`'s own batching rule - see that skill's
    `references/tiered-pipeline.md`).
 
+### Deferred maintenance backlog
+
+[`references/backlog.md`](references/backlog.md) tracks housekeeping/
+completeness work explicitly deferred in favor of active channel
+expansion (e.g. the Workstream D/E residual from the closed
+`PRICE_SCRAPPER_ATTRIBUTION_AND_CURRENCY_NORMALIZATION` dialogue). Not a
+pipeline step to run on every source - check it when the user asks to
+resume housekeeping, and add to it (rather than letting deferred work go
+unrecorded) whenever new work is knowingly deferred this way.
+
 ### How to invoke this file (added 2026-08-17)
 
 Read this project-local file directly and follow it as plain instructions;
