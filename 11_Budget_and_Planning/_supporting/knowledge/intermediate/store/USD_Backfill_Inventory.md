@@ -57,6 +57,13 @@ the disposition rather than relying only on a changing aggregate count.
 | `D-CSV-008` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260731_5`, Бородатый Прораб 2025 full-realization figure | — | resolved | Appended ≈$1,802.7/m²+ for 150,000 RUB/m²+ at 83.21 RUB/USD. |
 | `D-CSV-009` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260731_7`, Yana Vrublevskaya 2023 BYN discrepancy | — | resolved | Appended ≈$194.4 for 585 BYN at 3.0091 BYN/USD; stated $10,000 target remains same-as-original USD. |
 
+## Current processed_sources.csv slice 3
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-CSV-010` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260814_3`, food-waste-disposer 2022 price | — | resolved | Appended ≈$444.4 for 30,000 RUB at 67.5 RUB/USD; preserved the source's separate approximate $500 wording. |
+| `D-CSV-011` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260814_4`, built-in-refrigerator 2022 labor tiers | — | resolved | Appended 2022 equivalents for comfort 25,000–45,000 RUB/m² and ~32,000 actual, plus business 50,000–85,000 RUB/m². |
+
 ## Current Cross-Source audited slice
 
 | Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
