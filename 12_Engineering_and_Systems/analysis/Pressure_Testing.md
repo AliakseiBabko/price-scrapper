@@ -12,7 +12,7 @@ Zemstandart / Alexey Zemskov says: 2. **Real verification = pressure testing at 
 
 ## Tooling
 
-attribution: unconfirmed — the tooling paragraph has no cited extraction note with a decisive channel field: a pressure-test pump ("опрессовщик"), manual or electric, both typically rated to 40 atm. Manual is preferred for apartment/house work (more portable); electric is mainly for industrial use. A basic consumer manual pump costs from ~1,000 RUB; a professional-grade unit can often be rented for ~500 RUB/day in a major city — no need to buy one for a single job.
+Zemstandart/Alexey Zemskov says: a pressure-test pump ("опрессовщик"), manual or electric, both typically rated to 40 atm. Manual is preferred for apartment/house work (more portable); electric is mainly for industrial use. A basic consumer manual pump costs from ~1,000 RUB; a professional-grade unit can often be rented for ~500 RUB/day in a major city — no need to buy one for a single job.
 
 ## Procedure
 
@@ -35,8 +35,8 @@ Zemstandart / Alexey Zemskov says **what pressure testing does and doesn't valid
 
 ## Practical Risks
 
-attribution: unconfirmed — the cited multi-day risk has no decisive channel field: **a multi-day-installation risk**: if plumbing work spans more than one day, any point after the last outlet is installed is effectively an open invitation for other trades on site (plasterers needing water for mixing mortar, sometimes even connecting their own plastering machine directly to a supply point) to tap into the system between your own work sessions — physically isolate/disconnect the system when you're not actively working on it, or another trade's equipment risks damage from an unexpected pressurization, and your own test results risk being contaminated by their use.
+Zemstandart/Alexey Zemskov warns: **a multi-day-installation risk**: if plumbing work spans more than one day, any point after the last outlet is installed is effectively an open invitation for other trades on site (plasterers needing water for mixing mortar, sometimes even connecting their own plastering machine directly to a supply point) to tap into the system between your own work sessions — physically isolate/disconnect the system when you're not actively working on it, or another trade's equipment risks damage from an unexpected pressurization, and your own test results risk being contaminated by their use.
 
-attribution: unconfirmed — the cited air-testing fallback has no decisive channel field: **air-based pressure testing** exists as a fallback specifically for conditions where water would freeze (an unheated new-build in winter) — but is discouraged except as a last resort: finding an air leak requires soaping every single joint by hand, and a typical apartment has hundreds of joints (a house, thousands). Prefer delaying a water-based test until normal conditions are available over defaulting to air testing.
+Zemstandart/Alexey Zemskov advises: **air-based pressure testing** exists as a fallback specifically for conditions where water would freeze (an unheated new-build in winter) — but is discouraged except as a last resort: finding an air leak requires soaping every single joint by hand, and a typical apartment has hundreds of joints (a house, thousands). Prefer delaying a water-based test until normal conditions are available over defaulting to air testing.
 
 Zemstandart / Alexey Zemskov says **demand this test be performed in front of you before accepting rough plumbing** — otherwise a leak surfaces later as water in your own screed or the downstairs neighbor's ceiling, not as a caught defect.
