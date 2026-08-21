@@ -49,6 +49,14 @@ the disposition rather than relying only on a changing aggregate count.
 | `D-CSV-005` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260730_2`, 7komnat.by 2026 USD benchmark | — | resolved | Original USD figures retained; annotation records USD equivalent as same as original. |
 | `D-CSV-006` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260730_3`, Prolife Invest 2026 RUB tier | — | resolved-uncomputable | Original RUB pricing retained; explicit no-equivalent note because 2026 has no complete historical annual rate. |
 
+## Current processed_sources.csv slice 2
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-CSV-007` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260731_3`, Komanda Masterov 2024 USD framework | — | resolved | Original USD range retained; annotation records USD equivalent as same as original. |
+| `D-CSV-008` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260731_5`, Бородатый Прораб 2025 full-realization figure | — | resolved | Appended ≈$1,802.7/m²+ for 150,000 RUB/m²+ at 83.21 RUB/USD. |
+| `D-CSV-009` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260731_7`, Yana Vrublevskaya 2023 BYN discrepancy | — | resolved | Appended ≈$194.4 for 585 BYN at 3.0091 BYN/USD; stated $10,000 target remains same-as-original USD. |
+
 ## Current Cross-Source audited slice
 
 | Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
