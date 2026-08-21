@@ -22,9 +22,9 @@ Default to a **separate** bathroom and WC. Build/keep a **combined** layout only
 
 ## Budget for Finish-Layer Thickness, Not Raw Measurements
 
-**Don't plan a layout against the raw measured room dimensions** — budget for what plaster and tile actually consume off each wall before finalizing clearances:
-- **Plaster**: ~1–1.5 cm per side (recommend budgeting the full 1.5 cm).
-- **Tile + adhesive**: ~1.5 cm per side (roughly 0.5 cm adhesive + ~0.9–1 cm for the tile itself).
+**Don't plan a layout against the raw measured room dimensions** — budget for what plaster and tile actually consume off each wall before finalizing clearances: [source: [[_Archive/processed_sources/20260731_video_6lacLnqpJbM_4b68d812.txt|video_6lacLnqpJbM_4b68d812]]]
+- **Plaster**: ~1–1.5 cm per side (recommend budgeting the full 1.5 cm). [source: [[_Archive/processed_sources/20260731_video_6lacLnqpJbM_4b68d812.txt|video_6lacLnqpJbM_4b68d812]]]
+- **Tile + adhesive**: ~1.5 cm per side (roughly 0.5 cm adhesive + ~0.9–1 cm for the tile itself). [source: [[_Archive/processed_sources/20260731_video_6lacLnqpJbM_4b68d812.txt|video_6lacLnqpJbM_4b68d812]]]
 
 A wall measured at 3.5 m can easily finish out closer to 3.2 m once both layers are accounted for on both sides — plan fixture clearances against the *finished* dimension, not the bare-shell one. `single-account`, but a concrete, checkable number worth applying regardless of source.
 
@@ -64,7 +64,7 @@ Covers the specific case of a "two-fixture" bathroom (tub + one of: toilet/sink/
 
 Kruglov/Ontario's mapped source supports the fixture-placement priority below.
 
-**Start placing fixtures with the toilet, not last.** It has the widest drain pipe and should have the shortest, straightest run to the stack — everything else is placed around it. **The shower podium/drain is the second priority**, since it's the lowest drainage point in the room (where the trap sits) and also has real routing constraints. Everything else can be placed more flexibly around these two anchors.
+**Start placing fixtures with the toilet, not last.** It has the widest drain pipe and should have the shortest, straightest run to the stack — everything else is placed around it. **The shower podium/drain is the second priority**, since it's the lowest drainage point in the room (where the trap sits) and also has real routing constraints. Everything else can be placed more flexibly around these two anchors. [source: [[_Archive/processed_sources/20260731_video_6lacLnqpJbM_4b68d812.txt|video_6lacLnqpJbM_4b68d812]]]
 
 ## Toilet Visibility From the Entrance
 
