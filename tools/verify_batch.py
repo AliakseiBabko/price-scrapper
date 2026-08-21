@@ -48,6 +48,12 @@ SELF_PATH = "tools/verify_batch.py"
 
 INLINE_CODE_SPAN = re.compile(r"`[^`\n]*`")
 
+# A USD figure with cents, e.g. "$494.6" or "$1,209.30" - per explicit user
+# correction (2026-08-21), USD equivalents are a comparability aid for an
+# approximate source figure, never a precise transaction record, so cents/
+# decimal places should not appear at all.
+USD_CENTS_PATTERN = re.compile(r"\$[\d,]+\.\d")
+
 # Matches this project's "USD equivalent" annotation convention, e.g.:
 #   (÷ 83.21 RUB/USD, 2025 annual average, see [[...]])
 RATE_ANNOTATION_PATTERN = re.compile(
@@ -147,6 +153,31 @@ def check_rate_annotations(path: str, base_text: str, head_text: str, confirmed_
     return problems
 
 
+def check_usd_cents(path: str, base_text: str, head_text: str) -> list[str]:
+    """Find newly-added USD figures with cents/decimal places - per explicit
+    user correction (2026-08-21), a USD equivalent is a rounded comparability
+    aid, never a precise transaction record; cents should never appear."""
+    problems: list[str] = []
+    base_lines = set(base_text.splitlines())
+    head_lines = head_text.splitlines()
+    added_lines = [line for line in head_lines if line not in base_lines]
+
+    for line in added_lines:
+        # Strip inline `code spans` before matching - documentation that
+        # quotes a bad-example figure (e.g. "not `$47.2/m2`") isn't a live
+        # violation, same reasoning as the retired-pattern check above.
+        prose_line = INLINE_CODE_SPAN.sub("", line)
+        hits = USD_CENTS_PATTERN.findall(prose_line)
+        if hits:
+            snippet = line.strip()[:80]
+            problems.append(
+                f"USD figure(s) with cents/decimals found ({', '.join(sorted(set(hits)))}) - "
+                f"round to a whole dollar (and further, to match the source's own precision, "
+                f"per the 2026-08-21 rounding correction) (line: {snippet}...)"
+            )
+    return problems
+
+
 def repo_wide_id_hits(id_value: str, exclude_path: str) -> int:
     result = subprocess.run(
         ["git", "grep", "-l", "-F", id_value],
@@ -162,6 +193,14 @@ def repo_wide_id_hits(id_value: str, exclude_path: str) -> int:
 
 
 def main() -> int:
+    # Some Windows consoles default stdout to a restricted codepage (cp1252)
+    # that can't encode currency/comparison symbols (≈, –, ÷) this tool's own
+    # messages may contain - reconfigure to UTF-8 with a safe fallback rather
+    # than crash with an unhandled UnicodeEncodeError mid-run.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--base", required=True, help="Base git ref (the known-good state)")
     parser.add_argument("--head", default=None, help="Head git ref; omit to use the working tree")
@@ -293,6 +332,10 @@ def main() -> int:
             for msg in check_rate_annotations(path, base_text, head_text, confirmed_rates):
                 problems.append({"file": path, "check": "rate_year_mismatch", "message": msg})
 
+        if not is_self_or_excluded:
+            for msg in check_usd_cents(path, base_text, head_text):
+                problems.append({"file": path, "check": "usd_cents", "message": msg})
+
     passed = len(problems) == 0
 
     if args.json:
@@ -321,7 +364,7 @@ def main() -> int:
         return 1
 
     print("\nPASS - no mojibake, no BOM, no retired patterns, no ID drift, no wrong-year")
-    print("rate annotations detected.")
+    print("rate annotations, and no cents/decimals in a USD figure detected.")
     print("Note: this does not verify the underlying original-amount arithmetic (e.g. that")
     print("15000/83.21 was computed correctly) - only that a cited rate matches the actual")
     print("confirmed table rate for its stated year/currency. Re-derive the full arithmetic")
