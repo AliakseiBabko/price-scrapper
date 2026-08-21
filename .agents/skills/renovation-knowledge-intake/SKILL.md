@@ -385,6 +385,23 @@ For one source at a time:
    obtain and cite an authoritative annual-average rate before converting;
    never use a current spot rate or a guessed value. Extend the reference table
    with the source URL and retrieval date when a genuinely new year is confirmed.
+
+   **Rounding, per explicit user correction (2026-08-21)**: a USD-equivalent
+   is a comparability aid for an approximate figure, not a transaction
+   record — never show cents/decimal places. Round to a whole dollar at
+   minimum, and round further to match the precision the source itself
+   actually has: most RUB/BYN figures in this store are already round
+   numbers or open-ended ranges (`"4,000 RUB/m²"`, `"~32,000 RUB"`,
+   `"150,000+ RUB/m²"`), so their USD equivalents should be similarly round
+   (e.g. `4,000 RUB → ~$50/m²`, not `$47.2/m²`; `32,000-130,000 RUB → ~$500-$2,000`,
+   not `$494.6-$2,009.3`) — round to 1-2 significant figures
+   for values under ~$1,000 and to the nearest $50-100 for larger values,
+   using judgment for the source's own apparent precision. The exception is
+   a figure that is itself genuinely exact — a real stated transaction total,
+   or one recovered by an explicit arithmetic cross-check against other
+   stated figures in the same source (e.g. the 7komnat.by case's
+   $70,000/52m² totals) — those stay precise, since rounding them would
+   discard real information rather than avoid manufacturing false precision.
 5a. **When a source's content instead (or additionally) gets folded into
    a room or systems wiki page** (`07_Bathroom/Bathroom_Guide.md`,
    `12_Engineering_and_Systems/*`, `13_Surfaces_and_Finishes/*`,
