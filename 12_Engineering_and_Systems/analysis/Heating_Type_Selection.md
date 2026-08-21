@@ -29,8 +29,8 @@ Zemstandart/Zemsproekt (Alexey Zemskov) explains: "Water" underfloor heating is 
 
 Two independent legal restrictions, both applying regardless of one-pipe or two-pipe central-heating scheme:
 
-1. **Cannot be connected to a central-heating system at all.**
-2. **Cannot be installed above another unit's living space** — i.e. above a neighbor's ceiling.
+1. **Cannot be connected to a central-heating system at all.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8RIyq8nZ9EQ_underfloor_heating_type_comparison_097|8RIyq8nZ9EQ_underfloor_h]]]
+2. **Cannot be installed above another unit's living space** — i.e. above a neighbor's ceiling. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8RIyq8nZ9EQ_underfloor_heating_type_comparison_097|8RIyq8nZ9EQ_underfloor_h]]]
 
 The only real exception is an individually-metered, individually-heated ground-floor unit — the source's own estimate puts this under 1% of cases. This single constraint is why water heating, despite ranking best on nearly every other parameter in the table above, is described as "almost never usable in an apartment" — it's realistically a private-house-with-individual-heating option only.
 
