@@ -141,7 +141,7 @@ inventory disposition.
 | `D-CS-R-007` | `Cross_Source_Comparison_Tables.md` | Zemstandart Sergey Saratov video, 2022 | resolved | rounded ≈$40/m²; original currency figures retained. |
 | `D-CS-R-008` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #177, 2022 | resolved | rounded ≈$40/m²; original currency figures retained. |
 | `D-CS-R-009` | `Cross_Source_Comparison_Tables.md` | Zemstandart livestream, 2022 | resolved | rounded ≈$40 and ≈$60/m²; original currency figures retained. |
-| `D-CS-R-010` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #287, 2024 | resolved | rounded ≈$50/m²; original currency figures retained. |
+| `D-CS-R-010` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #287, 2024 | resolved | rounded ≈$40/m² (corrected 2026-08-21 — previously $50, a copy-paste error from the adjacent 2025 row); original currency figures retained. |
 | `D-CS-R-011` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #313, 2025 | resolved | rounded ≈$50/m²; original currency figures retained. |
 | `D-CS-R-012` | `Cross_Source_Comparison_Tables.md` | Zemstandart video #256, 2023 | resolved | rounded ≈$50/m²; original currency figures retained. |
 | `D-CS-R-013` | `Cross_Source_Comparison_Tables.md` | Unnamed designer relayed in video #256, 2023 | resolved | rounded ≈$65/m² and ≈$4,900 total; original currency figures retained. |
