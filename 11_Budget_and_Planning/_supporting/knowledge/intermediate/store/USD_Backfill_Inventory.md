@@ -38,6 +38,17 @@ the disposition rather than relying only on a changing aggregate count.
 | `D-CS-080` | `cross_source` | `Cross_Source_Comparison_Tables.md` | BURO Mid tier, source year 2026 | — | resolved-uncomputable | Original 200,000–450,000 RUB/m² retained; no USD equivalent because 2026 has no complete historical annual rate. |
 | `D-CS-081` | `cross_source` | `Cross_Source_Comparison_Tables.md` | Бородатый Прораб full-realization figure, source year 2025 | — | resolved | Appended ≈$1,802.7+/m² for 150,000+ RUB/m² at the confirmed 2025 USD/RUB annual average of 83.21. |
 
+## Current processed_sources.csv slice
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-CSV-001` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260727_10`, Minsk World 2025 benchmark | — | resolved | Original USD figures retained; annotation records USD equivalent as same as original. |
+| `D-CSV-002` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260727_12`, unknown-year RUB pricing | — | resolved-uncomputable | Original RUB pricing retained; explicit no-equivalent note because source year is unknown. |
+| `D-CSV-003` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260727_13`, Minsk 2025 benchmark | — | resolved | Original USD figures retained; annotation records USD equivalent as same as original. |
+| `D-CSV-004` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260730_1`, WITALT 2025 RUB tiers | — | resolved | Appended ≈$1,201.8–$1,442.1/m² and ≈$240.4–$961.4/m² at 83.21 RUB/USD. |
+| `D-CSV-005` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260730_2`, 7komnat.by 2026 USD benchmark | — | resolved | Original USD figures retained; annotation records USD equivalent as same as original. |
+| `D-CSV-006` | `processed_sources_csv` | `00_Master/processed_sources.csv` | `run_20260730_3`, Prolife Invest 2026 RUB tier | — | resolved-uncomputable | Original RUB pricing retained; explicit no-equivalent note because 2026 has no complete historical annual rate. |
+
 ## Current Cross-Source audited slice
 
 | Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
