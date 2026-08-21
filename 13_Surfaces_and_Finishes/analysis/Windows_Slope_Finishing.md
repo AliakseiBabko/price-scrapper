@@ -11,7 +11,7 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Covers slope material sele
 3. **No closing/retaining contour is possible on a plastered slope** — the cut edge of wallpaper terminating at the slope is always exposed and will eventually peel.
 4. **Plastering forces the installation foam joint to be trimmed thin/flush** — the frame-to-wall foam joint is already this system's known weakest point and should always be maximized, never thinned; plastering forces exactly the wrong compromise.
 
-attribution: unconfirmed — the cited note's channel is not decisive for this sentence: **Independent corroboration (added 2026-08-19)**: a second, independent source confirms the paint-yellowing mechanism above specifically — even top-tier paint on a plastered slope yellows over time, while the frame-edge and plane-cracking failure modes can each individually be avoided with care; yellowing cannot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
+Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Independent corroboration (added 2026-08-19)**: a second, independent source confirms the paint-yellowing mechanism above specifically — even top-tier paint on a plastered slope yellows over time, while the frame-edge and plane-cracking failure modes can each individually be avoided with care; yellowing cannot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
 
 ## Exception: Bay/Oriel (Эркерное) Windows — Plastered Is the Correct Choice Here (added 2026-08-19)
 

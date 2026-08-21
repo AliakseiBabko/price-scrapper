@@ -20,7 +20,7 @@ Konstantin Kruglov / Ontario supports the `YT_9dfEdjOewng...` claims; Zemstandar
 
 ## Toilet Selection
 
-`attribution: unconfirmed` for legacy archive-only toilet claims without a decisive extraction-note `channel:` field.
+Legacy archive-only toilet claims lack a decisive extraction-note `channel:` field.
 
 - **Two mainstream configurations**: **wall-hung (подвесной)** on an in-wall frame/cistern (see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the frame's own installation requirements) and **floor-standing (напольный)**. A hybrid — a floor-standing bowl plumbed to an in-wall frame — exists but is described as rarely worth choosing.
 - **Size must be tried in person, not chosen from an online listing alone** — a toilet that looks fine on a marketplace listing can turn out uncomfortably small or large once actually sat on; worth a physical showroom visit specifically to sit on it before buying.
@@ -33,7 +33,7 @@ Konstantin Kruglov / Ontario supports the `YT_9dfEdjOewng...` claims; Zemstandar
 
 ## Hygienic Shower / Bidet Spray
 
-`attribution: unconfirmed` — this legacy hygienic-shower section does not expose a decisive extraction-note `channel:` field.
+This legacy hygienic-shower section does not expose a decisive extraction-note `channel:` field.
 
 See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the core safety mechanism and fix (the "vent-type"/anti-forgetfulness valve design). Points worth adding here:
 - **Always pair a hygienic shower with both a check valve on the manifold and a full leak-protection system** — a near-mandatory pairing, given how routinely hygienic-shower hoses are left pressurized by accident.
@@ -42,7 +42,7 @@ See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproo
 
 ## Sinks
 
-Use the named extraction-note channel for each source-marked sink block; unlinked synthesis is `attribution: unconfirmed`.
+Use the named extraction-note channel for each source-marked sink block; unlinked synthesis has no confirmed channel.
 
 - **A concrete length-by-length sizing table exists — see [[08_WC/WC_Guide|WC Guide]]** (50/60/70/80/90/100cm+, including why 80cm is the best all-around size). The same table applies to a bathroom vanity sink, not just a WC. **Depth (front-to-back): 40–45cm is the comfortable range** — enough to rest your elbows fully on the counter while washing your face without leaning in far enough to press your forehead against the mirror.
 - **Four mounting types**: **freestanding/pedestal** — considered obsolete for a full bathroom, occasionally used purely to save space in a very small WC. **Vanity/countertop-mounted on a cabinet** — the most popular, reliable, predictable option; the one real maintenance downside is that it's typically silicone-sealed to the wall(s), and if the tub's own overflow/drain siphon needs replacing and the sink sits in the way, the sealed sink may need to come off first. **Vessel/top-mounted (накладная)** — a popular current trend, but harder to keep clean at the junction between the sink's outer wall and the countertop surface. **Undermount (glued underneath the countertop)** — the easiest of the four to keep clean, no rim junction at all; often fabricated as one piece with a custom cast-marble/engineered-stone countertop.

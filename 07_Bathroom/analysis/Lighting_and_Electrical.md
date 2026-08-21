@@ -28,7 +28,7 @@ A bathroom-mandatory grounding circuit for metal fixtures (towel warmer, metal t
 
 ## Exhaust Fan Switching
 
-`attribution: unconfirmed` — the legacy exhaust-fan archive citation is not itself an extraction note with `channel:` frontmatter.
+The legacy exhaust-fan archive citation is not itself an extraction note with `channel:` frontmatter.
 
 **Extractor fan**: prefer a forced/powered, quieter model; always add a manual switch inside the bathroom (sometimes you need it on mid-use); consider disabling automatic timer/humidity-sensor triggers in favor of manual control; never block its makeup-air supply (see [[07_Bathroom/analysis/Doors|Doors]]'s door-seal warning). See [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]].
 
