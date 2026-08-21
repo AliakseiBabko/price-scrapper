@@ -87,5 +87,5 @@ their own units, and the reader draws the comparison.
 
 ### AC/Climate System Costs
 
-Too thin to table meaningfully — only `yt_H61xa8n2nTk` (FLATART, 2017, historical) has AC-specific pricing (kit ≈$600, install ≈150 BYN/linear meter), and `yt_jAdRyL6KFxs`/Minsk World only mention AC as one line within a bundled "техника"/appliances total, not isolated. Flagged as a gap, not filled with a table.
+Too thin to table meaningfully — only `yt_H61xa8n2nTk` (FLATART, 2017, historical) has AC-specific pricing (kit ≈$600, install ≈150 BYN/linear meter), and `yt_jAdRyL6KFxs`/Minsk World only mention AC as one line within a bundled "техника"/appliances total, not isolated. Flagged as a gap, not filled with a table. **Conditional USD normalization for the BYN interpretation:** ≈$77.6/linear meter (150 BYN ÷ 1.9324 BYN/USD, 2017 annual average); the underlying source says only "рублей," so this does not resolve the BYN/RUB ambiguity recorded in `Numeric_Data.md`.
 
