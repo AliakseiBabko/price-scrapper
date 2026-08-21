@@ -21,3 +21,16 @@ the disposition rather than relying only on a changing aggregate count.
 
 This slice adds 10 inventory IDs to the tracked ledger. The broader plan
 inventory remains open; these IDs must not be counted again in a later batch.
+
+## Turn 82 — Numeric Data initial residual slice
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-ND-060` | `numeric_data` | `Numeric_Data.md` | Real design-deviation regret case, source year 2022 | — | resolved | Appended 15,000 RUB → ≈$222.2 and 50,000 RUB → ≈$740.7 at the confirmed 2022 USD/RUB annual average of 67.5. |
+| `D-ND-061` | `numeric_data` | `Numeric_Data.md` | Entry-hallway dividing-wall case, source year 2020 | — | resolved | Appended <$27.8 for <2,000 RUB and >$139.1–$278.2 for >10,000–20,000 RUB at the confirmed 2020 USD/RUB annual average of 71.9. |
+| `D-ND-062` | `numeric_data` | `Numeric_Data.md` | Re-keying cost after lost key, source year 2019 | — | resolved | Appended ≈$30.9 for ≈2,000 RUB at the confirmed 2019 USD/RUB annual average of 64.7. |
+
+Raw source text remains in the source file; these stable rows identify the
+price-bearing sentence rather than a mutable line number. Parent IDs are
+reserved for later splits when one sentence contains independently sourced
+figures. The broader §6 inventory remains open.
