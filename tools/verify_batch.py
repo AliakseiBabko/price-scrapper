@@ -38,6 +38,18 @@ DEFAULT_RETIRED_PATTERNS = [
 
 DEFAULT_ID_PATTERN = r"yt_[A-Za-z0-9_-]+"
 
+# Matches this project's "USD equivalent" annotation convention, e.g.:
+#   (÷ 83.21 RUB/USD, 2025 annual average, see [[...]])
+RATE_ANNOTATION_PATTERN = re.compile(
+    r"[÷/]\s*([\d.]+)\s*(RUB|BYN)/USD,?\s*(\d{4})\s*annual average"
+)
+
+EXCHANGE_RATE_TABLE_PATH = "00_Master/exchange_rates_reference.md"
+EXCHANGE_RATE_ROW_PATTERN = re.compile(
+    r"\|\s*\*\*(\d{4})\*\*\s*\|\s*USD/(RUB|BYN)\s*\|\s*([\d.]+)\s*\w+ per USD\s*\|"
+    r".*?\|\s*(confirmed|unverified[^|]*)\s*\|"
+)
+
 
 def run_git(args: list[str]) -> str:
     result = subprocess.run(
@@ -73,6 +85,56 @@ def file_bytes_at(ref: str | None, path: str) -> bytes | None:
 
 def extract_ids(text: str, id_pattern: str) -> set[str]:
     return set(re.findall(id_pattern, text))
+
+
+def load_confirmed_rates(ref: str | None) -> dict[tuple[str, int], float]:
+    """Parse 00_Master/exchange_rates_reference.md at the given ref (None = working tree)
+    and return {(currency, year): confirmed_rate} for rows marked 'confirmed'."""
+    content_bytes = file_bytes_at(ref, EXCHANGE_RATE_TABLE_PATH)
+    if content_bytes is None:
+        return {}
+    text = content_bytes.decode("utf-8", errors="replace")
+    rates: dict[tuple[str, int], float] = {}
+    for line in text.splitlines():
+        m = EXCHANGE_RATE_ROW_PATTERN.search(line)
+        if not m:
+            continue
+        year, currency, rate, confidence = m.groups()
+        if confidence.strip() != "confirmed":
+            continue
+        rates[(currency, int(year))] = float(rate)
+    return rates
+
+
+def check_rate_annotations(path: str, base_text: str, head_text: str, confirmed_rates: dict) -> list[str]:
+    """Find newly-added 'USD equivalent' annotations and verify the stated rate
+    matches the actual confirmed rate for that currency/year in the reference
+    table — catches the 'wrong-year rate' defect class (a real rate value that
+    is simply attributed to the wrong year)."""
+    problems: list[str] = []
+    base_lines = set(base_text.splitlines())
+    head_lines = head_text.splitlines()
+    added_lines = [line for line in head_lines if line not in base_lines]
+
+    for line in added_lines:
+        for stated_rate, currency, year in RATE_ANNOTATION_PATTERN.findall(line):
+            key = (currency, int(year))
+            actual = confirmed_rates.get(key)
+            snippet = line.strip()[:80]
+            if actual is None:
+                problems.append(
+                    f"[{path}] annotation cites {currency}/{year} as '{stated_rate}' but that "
+                    f"year/currency is not a 'confirmed' row in {EXCHANGE_RATE_TABLE_PATH} "
+                    f"(line: {snippet}...)"
+                )
+                continue
+            if abs(float(stated_rate) - actual) > 0.01:
+                problems.append(
+                    f"[{path}] annotation states {stated_rate} {currency}/USD for {year}, but "
+                    f"the confirmed table rate for {currency}/{year} is {actual} - wrong-year or "
+                    f"mistyped rate (line: {snippet}...)"
+                )
+    return problems
 
 
 def repo_wide_id_hits(id_value: str, exclude_path: str) -> int:
@@ -121,6 +183,7 @@ def main() -> int:
     print(f"Checking {len(files)} changed file(s): base={args.base} head={args.head or '(working tree)'}\n")
 
     problems: list[str] = []
+    confirmed_rates = load_confirmed_rates(args.head)
 
     for path in files:
         head_bytes = file_bytes_at(args.head, path)
@@ -168,6 +231,9 @@ def main() -> int:
                         f"repository - verify it's a real ID, not a typo"
                     )
 
+        if path != EXCHANGE_RATE_TABLE_PATH:
+            problems.extend(check_rate_annotations(path, base_text, head_text, confirmed_rates))
+
     print(f"Files checked: {len(files)}")
     print(f"Problems found: {len(problems)}")
     if problems:
@@ -177,9 +243,12 @@ def main() -> int:
         print("\nFAIL")
         return 1
 
-    print("\nPASS - no mojibake, no BOM, no retired patterns, no ID drift detected.")
-    print("Note: this does not check arithmetic correctness or content meaning - re-derive")
-    print("numeric claims against the actual source-of-truth file separately.")
+    print("\nPASS - no mojibake, no BOM, no retired patterns, no ID drift, no wrong-year")
+    print("rate annotations detected.")
+    print("Note: this does not verify the underlying original-amount arithmetic (e.g. that")
+    print("15000/83.21 was computed correctly) - only that a cited rate matches the actual")
+    print("confirmed table rate for its stated year/currency. Re-derive the full arithmetic")
+    print("by hand for anything not covered by an automated check.")
     return 0
 
 
