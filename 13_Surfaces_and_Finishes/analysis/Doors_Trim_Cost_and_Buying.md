@@ -17,14 +17,14 @@ Part of [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]].
 
 **Pricing below is RUB, sourced 2026 (except where a source's own date is otherwise noted), and reflects individual companies'/retailers' own stated rates — not independently verified market averages. Treat every figure as a single-source data point, not a market benchmark.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ti8J19zY0EM_interior_entrance_door_buying_guide|ti8J19zY0EM_interior_ent]]] USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]).
 
-### Interior door set (material/hardware only), by mount type — one company's stated ranges, RUB, 2026 USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]).
+### Interior door set (material/hardware only), by mount type — one company's stated ranges, RUB, 2026
 | Mount Type | Price Range |
 | :--- | :--- |
 | Classic hinged | 10,000–40,000 RUB (floor ~10,000); USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]). |
 | Sliding-pocket | from ~20,000 RUB; USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]). |
 | Concealed-mount (full kit) | from ~30,000 RUB; USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]). |
 
-### Interior door price by base material — one retailer's own stock, RUB, 2026 USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]).
+### Interior door price by base material — one retailer's own stock, RUB, 2026
 | Material Tier | Price |
 | :--- | :--- |
 | Cheapest MDF-film | ~10,000 RUB; USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]). |
@@ -34,7 +34,7 @@ Part of [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]].
 | Quality full-aluminum-frame concealed | from ~50,000 RUB; USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]). |
 | Hardware set alone | ~5,000–7,000 RUB; USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]). |
 
-### Full turnkey installation, by mount type — one company's stated rates, RUB, 2026 USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]).
+### Full turnkey installation, by mount type — one company's stated rates, RUB, 2026
 | Mount Type | Installation Cost |
 | :--- | :--- |
 | Classic hinged | ≈5,000 RUB/door; USD equivalent: not computable because this is a 2026 figure and 2026 has no complete historical annual USD/RUB average; original RUB figure retained ([[00_Master/exchange_rates_reference|exchange_rates_reference]]). |
