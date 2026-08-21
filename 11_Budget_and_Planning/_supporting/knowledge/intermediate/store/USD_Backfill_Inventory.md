@@ -29,6 +29,15 @@ Stable slice identifiers for the scoped reference-layer price inventory. A
 slice ID remains stable if a line is split or later reclassified; status records
 the disposition rather than relying only on a changing aggregate count.
 
+## Current Cross-Source 2026/2025 tier slice
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-CS-078` | `cross_source` | `Cross_Source_Comparison_Tables.md` | BURO Luxury tier, source year 2026 | — | resolved-uncomputable | Original 1,000,000+ RUB/m² retained; no USD equivalent because 2026 has no complete historical annual rate. |
+| `D-CS-079` | `cross_source` | `Cross_Source_Comparison_Tables.md` | BURO Premium tier, source year 2026 | — | resolved-uncomputable | Original 450,000–1,000,000 RUB/m² retained; no USD equivalent because 2026 has no complete historical annual rate. |
+| `D-CS-080` | `cross_source` | `Cross_Source_Comparison_Tables.md` | BURO Mid tier, source year 2026 | — | resolved-uncomputable | Original 200,000–450,000 RUB/m² retained; no USD equivalent because 2026 has no complete historical annual rate. |
+| `D-CS-081` | `cross_source` | `Cross_Source_Comparison_Tables.md` | Бородатый Прораб full-realization figure, source year 2025 | — | resolved | Appended ≈$1,802.7+/m² for 150,000+ RUB/m² at the confirmed 2025 USD/RUB annual average of 83.21. |
+
 ## Current Cross-Source audited slice
 
 | Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |

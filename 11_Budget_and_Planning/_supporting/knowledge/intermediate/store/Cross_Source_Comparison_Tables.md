@@ -2,6 +2,13 @@
 
 ### USD normalization addendum — next audited slice
 
+### USD normalization addendum — 2026 non-historical tier slice
+
+- **BURO Luxury tier (2026):** 1,000,000+ RUB/m² — USD equivalent not computable yet because the reference table has no complete historical 2026 USD/RUB annual average; the original figure is retained unchanged.
+- **BURO Premium tier (2026):** 450,000–1,000,000 RUB/m² — USD equivalent not computable yet for the same 2026 rate-policy reason; the original figure is retained unchanged.
+- **BURO Mid tier (2026):** 200,000–450,000 RUB/m² — USD equivalent not computable yet for the same 2026 rate-policy reason; the original figure is retained unchanged.
+- **Бородатый Прораб full-realization figure (2025):** 150,000+ RUB/m² — USD equivalent is ≈$1,802.7+/m² (÷ 83.21 RUB/USD, 2025 annual average; [source: yt_OrKB6uSKRyk]).
+
 The original-currency figures in the comparison rows remain unchanged. The
 following claim-local annotations use the source year's confirmed annual
 USD/RUB average from [[00_Master/exchange_rates_reference|exchange_rates_reference]].
