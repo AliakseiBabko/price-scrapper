@@ -195,3 +195,36 @@ from new-content IDs and do not increase the underlying price-line inventory.
 
 This slice completes the decimal-form retrofit in Numeric Data and the nine
 price-bearing CSV rows containing USD decimal forms at the refreshed baseline.
+
+## Turn 104 — guide/detail USD-equivalent audit: Doors detail batch
+
+| Retrofit ID | File | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-R-001` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 1 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-002` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 2 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-003` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 3 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-004` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 4 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-005` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 5 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-006` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 6 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-007` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 7 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-008` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 8 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-009` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 9 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-010` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 10 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-011` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 11 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-012` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 12 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-013` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 13 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-014` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 14 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-015` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 15 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-016` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 16 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-017` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 17 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-018` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 18 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-019` | `Doors_Trim_Cost_and_Buying.md` | 2026 price-bearing line 19 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-020` | `Door_Anatomy_and_Mount_Types.md` | 2026 price-bearing line 1 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-021` | `Door_Anatomy_and_Mount_Types.md` | 2026 price-bearing line 2 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-022` | `Door_Anatomy_and_Mount_Types.md` | 2026 price-bearing line 3 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-023` | `Door_Anatomy_and_Mount_Types.md` | 2026 price-bearing line 4 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+| `D-GD-R-024` | `Door_Anatomy_and_Mount_Types.md` | 2026 price-bearing line 5 | resolved-uncomputable | 2026 source figure; no complete historical annual USD/RUB rate, so a direct not-computable note with exchange-rate policy link was appended; original RUB figure retained. |
+
+This bounded guide/detail batch adds claim-local non-computable handling to 24
+2026 price-bearing lines. Remaining guide/detail files require source-year
+inventory and conversion or explicit non-computable handling.
