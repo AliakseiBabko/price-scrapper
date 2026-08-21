@@ -22,16 +22,16 @@ Two different delivery models produce genuinely different $/m² prices for
 company's price look like "the" market rate when it actually bakes in
 overhead a self-managed budget doesn't pay for:
 
-- **Turnkey / full-service** — one company bundles design, project
+- **Turnkey / full-service** — one company bundles design, project [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
   management, and construction/furnishing into one price. Higher $/m²
   by design: you're paying for a manager/professional to run quality
   control and coordination, on top of the physical work.
-- **Self-managed / itemized** — you hire specialists per trade yourself
+- **Self-managed / itemized** — you hire specialists per trade yourself [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
   and source materials directly, pricing off average per-work-item
   market rates. Lower total cost, but the project-management burden
   (scheduling, QC, coordinating trades) falls on you.
 
-**This project's plan is self-managed.** Both headline Minsk benchmarks
+**This project's plan is self-managed.** Both headline Minsk benchmarks [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
 below are **turnkey** figures — useful as an upper-bound/sanity-check
 reference, not as what a self-managed approach should cost. Two more
 directly comparable self-managed references exist: the **labor-only rate
@@ -45,10 +45,10 @@ studio, arithmetic-checked; it also overshot its own $10,000 target by
 ~30%, worth keeping in mind against this guide's 10–15% buffer figure
 below).
 
-- **Rough materials** (~30% of material spend): screed, plaster, wires, pipes, blocks.
-- **Finishing materials** (~70%): tiles, parquet, paint, fixtures, furniture.
-- **Contractor labor**: typically 30–35% of total end-to-end spend; the remaining 65–70% is materials, doors, ceilings, HVAC, and millwork.
-- **Hidden/logistical costs** (commonly 10–15% of the whole budget, often forgotten): garbage removal, delivery/lifting of heavy materials, consumables, and doors/stretch ceilings excluded from base "per m²" labor quotes.
+- **Rough materials** (~30% of material spend): screed, plaster, wires, pipes, blocks. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
+- **Finishing materials** (~70%): tiles, parquet, paint, fixtures, furniture. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
+- **Contractor labor**: typically 30–35% of total end-to-end spend; the remaining 65–70% is materials, doors, ceilings, HVAC, and millwork. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
+- **Hidden/logistical costs** (commonly 10–15% of the whole budget, often forgotten): garbage removal, delivery/lifting of heavy materials, consumables, and doors/stretch ceilings excluded from base "per m²" labor quotes. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
 
 Two primary Minsk **turnkey** benchmarks exist: a real $54,000 / $900-per-m² 60 m² project (2025, [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case|Minsk World Case Study]]) and a real $70,000 / $1,346-per-m² 52 m² project (2026, [[11_Budget_and_Planning/_supporting/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya Case Study]]). Both are individually above-typical *turnkey* projects by their own sources' framing — **don't average them into one "Minsk $/m²" figure**, and don't treat either as a self-managed budget target. One Minsk contractor's own stated 2026 market guidance (single-source, not independently verified, also turnkey-framed): ~$1,000/m² typical, $700–800/m² achievable with a simplified/budget approach.
 
@@ -56,8 +56,8 @@ Two primary Minsk **turnkey** benchmarks exist: a real $54,000 / $900-per-m² 60
 
 One practitioner's framing, worth internalizing regardless of delivery model: **the same visual result can vary 2–10× in real cost** depending on material/build quality, decision complexity, and specification level — a bare "price per m²" figure without knowing which of those a source assumes tells you very little. Two distinct concepts often get conflated:
 
-- **Durability vs. quality** — a budget and an expensive version of the same material (e.g. tile in a wet zone) can be equally *durable* (both hold up functionally over time), while differing sharply in *quality* (geometry, flatness, dimensional consistency) — and it's quality, not durability, that determines whether the material can even be installed flat and even in the first place.
-- **A rough sense of where quality tiers sit** (one RUB-denominated, self-service-scoped, secondary-reference source; not independently verified as market-wide, and far above this project's own self-managed plan — included for calibration, not as a target): mid-tier turnkey realization roughly 200,000+ RUB/m², rising well past 1,000,000+ RUB/m² at the luxury end with no real ceiling. *(secondary reference, single-source — see intermediate store and [[11_Budget_and_Planning/_supporting/case_studies/buro_segment_pricing_2026_case|companion case study]] for the full category-by-category breakdown)*
+- **Durability vs. quality** — a budget and an expensive version of the same material (e.g. tile in a wet zone) can be equally *durable* (both hold up functionally over time), while differing sharply in *quality* (geometry, flatness, dimensional consistency) — and it's quality, not durability, that determines whether the material can even be installed flat and even in the first place. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
+- **A rough sense of where quality tiers sit** (one RUB-denominated, self-service-scoped, secondary-reference source; not independently verified as market-wide, and far above this project's own self-managed plan — included for calibration, not as a target): mid-tier turnkey realization roughly 200,000+ RUB/m², rising well past 1,000,000+ RUB/m² at the luxury end with no real ceiling. *(secondary reference, single-source — see intermediate store and [[11_Budget_and_Planning/_supporting/case_studies/buro_segment_pricing_2026_case|companion case study]] for the full category-by-category breakdown)* [source: [[11_Budget_and_Planning/_supporting/case_studies/buro_segment_pricing_2026_case|buro_segment_pricing_202]]]
 
 ## 3. What Drives Cost
 
@@ -67,8 +67,8 @@ One practitioner's framing, worth internalizing regardless of delivery model: **
 - **Built-in vs. surface-mounted installs** — the visible device-price gap between a surface-mounted and a built-in fixture is often much smaller than the real installed-cost gap once pipework, fittings, and labor are counted; price the full install, not just the fixture. *(secondary RUB-pricing reference, not Minsk-comparable — see intermediate store)*
 - **Stretch ceiling vs. drywall (GKL) — a risk factor, not just a cost one** — beyond being cheaper, a stretch ceiling can contain water from a leak above long enough to limit damage; a drywall ceiling saturates and lets water through to furniture/floors/walls below. *(secondary reference, single-account — see intermediate store)*
 - **A personalized, high-end renovation rarely pays for itself at resale** — a good interior is generally *not* an investment that returns its cost; tying renovation budget to apartment price as a fixed percentage is a common but flawed rule of thumb, since material/labor cost doesn't actually track the property's own price. **Corroborated independently by three unrelated practitioners** — treat as a reasonably solid pattern, not one opinion. *(secondary reference — see intermediate store)*
-- **"Wishes" (a specific named product/brand target) and "expectations" (a described functional requirement) each drive cost independently of overall budget tier** — either can swing a single line item's cost by up to 10×. Relatedly, small execution/detail decisions ("nuances" — e.g. a material-junction detail, a finish pattern) compound: individually minor, but dozens of them across a project can shift total cost by a meaningful percentage. Get specific about both before pricing, not just the overall quality tier. *(secondary reference — see intermediate store)*
-- **AC/climate system placement and drainage are easy to get wrong** — indoor units need clearance above/below for airflow and shouldn't blow directly on occupants; condensate drainage needs a proper dry-trap valve, not a straight sewer connection or a simple water trap (a plain trap's water eventually evaporates, losing its seal). *(technical reference only — the source's pricing is from 2017 and not usable for current budgeting; see intermediate store)*
+- **"Wishes" (a specific named product/brand target) and "expectations" (a described functional requirement) each drive cost independently of overall budget tier** — either can swing a single line item's cost by up to 10×. Relatedly, small execution/detail decisions ("nuances" — e.g. a material-junction detail, a finish pattern) compound: individually minor, but dozens of them across a project can shift total cost by a meaningful percentage. Get specific about both before pricing, not just the overall quality tier. *(secondary reference — see intermediate store)* [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
+- **AC/climate system placement and drainage are easy to get wrong** — indoor units need clearance above/below for airflow and shouldn't blow directly on occupants; condensate drainage needs a proper dry-trap valve, not a straight sewer connection or a simple water trap (a plain trap's water eventually evaporates, losing its seal). *(technical reference only — the source's pricing is from 2017 and not usable for current budgeting; see intermediate store)* [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H61xa8n2nTk_flatart_ac_installation_guide|H61xa8n2nTk_flatart_ac_i]]]
 
 ## 4. What to Check Before Estimating
 
