@@ -1,5 +1,30 @@
 # Workstream D USD-backfill inventory
 
+## Widened §6 scope ledger
+
+The stable ledger is grouped by the plan's reference-layer scope, so
+aggregate counts cannot be mistaken for complete coverage. Each future price
+unit or split claim gets one stable row with a scope group, source-file
+anchor, parent ID when split, raw original text, and terminal status.
+
+| Scope group | Required source set | Ledger status | Next action |
+| :--- | :--- | :--- | :--- |
+| `processed_sources_csv` | `00_Master/processed_sources.csv` price-bearing rows | pending | Inventory source URL, source year, and raw price-bearing field. |
+| `numeric_data` | `Numeric_Data.md` | active | Continue unresolved price-bearing entries; `D-ND-060`–`D-ND-064` are tracked. |
+| `cross_source` | `Cross_Source_Comparison_Tables.md` | partial | Inventory remaining table cells and split ranges. |
+| `guide` | The ten price-bearing guide pages named in plan §6 | pending | Inventory guide-level price claims after Numeric/Cross-Source. |
+| `detail` | Each scoped guide's own analysis/detail pages | pending | Inventory price-bearing claims, excluding raw extraction notes. |
+
+The five current Numeric Data rows are not a completion claim for the 338-line
+inventory; they are the first widened slice after the prior ten-row ledger.
+
+Current widened Numeric Data rows:
+
+| Slice ID | Scope group | File | Entry anchor | Parent ID | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `D-ND-063` | `numeric_data` | `Numeric_Data.md` | Real inspection-fee data point, source year 2019 | — | resolved | Appended ≈$154.6 for ≈10,000 RUB and ≈$2,781.6+ for ≈200,000 RUB+ at the confirmed 2019 USD/RUB annual average of 64.7. |
+| `D-ND-064` | `numeric_data` | `Numeric_Data.md` | Real emergency-repair steel-strip cost, source year 2023 | — | resolved | Appended ≈$27.2 for ≈2,300 RUB at the confirmed 2023 USD/RUB annual average of 84.7. |
+
 Stable slice identifiers for the scoped reference-layer price inventory. A
 slice ID remains stable if a line is split or later reclassified; status records
 the disposition rather than relying only on a changing aggregate count.
