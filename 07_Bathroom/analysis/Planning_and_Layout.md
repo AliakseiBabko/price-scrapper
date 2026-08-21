@@ -4,7 +4,7 @@ Covers the decisions to settle before drawing a layout: approvals, combined-vs-s
 
 ## Approvals and Expansion Direction
 
-`attribution: unconfirmed` — this approvals section uses archive-only citations without a decisive extraction-note `channel:` field.
+This approvals section uses archive-only citations without a decisive extraction-note `channel:` field.
 
 - **Order an ЕГРН extract with its graphic (floor-plan) section before starting any layout planning**, per the Russian process described (via Госуслуги/state services) — every organization you'd ask "can this be approved" will require this document first, alongside your own proposed plan (hand-drawn or software-made, either is fine). `single-account`, **Russia-specific process — not confirmed to apply to Belarus**; treat as a prompt to find the equivalent Belarus document/process, not as this project's own procedure. *(This project's stricter-bar regulations store is at `11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_regulations_belarus_knowledge_store.md` — this source doesn't meet that store's Belarus-location bar and isn't added there.)*
 - **If expanding the bathroom's footprint, you can only expand into non-residential space** (typically a hallway/corridor or a storage closet) — expanding into a living room or bedroom is described as essentially never approvable, for any apartment above the ground floor. An apartment on the ground floor above a basement or commercial unit reportedly follows different (looser) rules. `single-account`, same Russia-specific caveat.

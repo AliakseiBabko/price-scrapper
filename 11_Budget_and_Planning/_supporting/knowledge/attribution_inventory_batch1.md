@@ -23,7 +23,7 @@ claims; the original wording remains the authority for review.
 | `YT_o7lGqaUuGm0_fake_renovation_scam_walkthrough_214.md` | Zemstandart / Alexey Zemskov |
 | `YT_EnSpVCSUiqg_designer_lost_it_apartment_307.md` | Zemstandart / Alexey Zemskov |
 | `YT_ROv1BuBfECU_designer_disaster_35m_281.md` | Zemstandart / Alexey Zemskov |
-| cited `_Archive/processed_sources/*.txt` without a linked extraction note | `attribution: unconfirmed` unless the page's Source Notes explicitly maps the archive transcript to a named channel |
+| cited `_Archive/processed_sources/*.txt` without a linked extraction note | `retired attribution-prefix` unless the page's Source Notes explicitly maps the archive transcript to a named channel |
 
 ## Claim inventory
 
@@ -42,7 +42,7 @@ claims; the original wording remains the authority for review.
 | L76 stretch-ceiling recommendation | Bathroom `Source_Notes.md`, mixed legacy sources | unconfirmed where no unique note is identified in the guide |
 | L80 mirror lighting/floor lighting | Bathroom `Source_Notes.md`, mixed Kruglov/Zemstandart sources | mixed; name both only for corroborated claims, otherwise unconfirmed |
 | L88 mixer finishes/black fixtures/thermostatic mixer | Bathroom `Source_Notes.md`, Zemstandart b160/b171/b174 archives plus plumbing notes | Zemstandart for the mapped fixture claims; mixed/unconfirmed for remaining synthesis |
-| L98 electric versus hydronic towel warmer | Bathroom `Source_Notes.md` says plumbing-specific content routes to Engineering | `attribution: unconfirmed` on this page because the guide has no decisive extraction-note link |
+| L98 electric versus hydronic towel warmer | Bathroom `Source_Notes.md` says plumbing-specific content routes to Engineering | `retired attribution-prefix` on this page because the guide has no decisive extraction-note link |
 | L102 heated-floor/thermostat | `YT_uwXBHuWPUIo...` | Zemstandart / Zemproekt |
 | L110 toilet visibility | Bathroom `Source_Notes.md`, 20260731 video-6 archive transcript | Kruglov/Ontario; mapped by Source Notes |
 

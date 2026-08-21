@@ -4,7 +4,7 @@ Covers tile size taxonomy, laying sequence, grout selection, corner treatment, p
 
 ## Size Taxonomy
 
-Archive-only size claims are `attribution: unconfirmed`; named extraction-note blocks below retain their own source mapping.
+Archive-only size claims lack a confirmed channel; named extraction-note blocks below retain their own source mapping.
 
 A useful reference vocabulary: classic 20–60 cm; "narrow"/plank tile (short:long ratio ≥1:3, wood-look); "medium large-format" 80–140 cm; "large-format" 150–240 cm; "very large format" >240 cm; small-format mosaic/"кабанчик" (subway-style), on mesh sheets or loose.
 
@@ -35,7 +35,7 @@ Lay and grout the floor tile **first**, including under the tub's footprint — 
 
 ## Porcelain Tile Selection — Type, Format, Quality Parameters, and Pricing
 
-Zemstandart / Zemproekt supports the named tile-selection extraction notes; any legacy archive-only price claim remains `attribution: unconfirmed`.
+Zemstandart / Zemproekt supports the named tile-selection extraction notes; any legacy archive-only price claim lacks a confirmed channel.
 
 From a tile-industry wholesaler guest-source. **Flag pricing and country-of-origin claims below as commercial framing** — the guest is affiliated with the host channel's own discount partnership, an explicit conflict of interest on exactly those two points; the quality-parameter vocabulary (calibre, rectification, surface finish, coloring depth) is more straightforwardly technical and reusable regardless of that bias.
 
