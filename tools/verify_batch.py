@@ -21,6 +21,7 @@ Exit code is non-zero if any check fails.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import subprocess
 import sys
@@ -123,14 +124,14 @@ def check_rate_annotations(path: str, base_text: str, head_text: str, confirmed_
             snippet = line.strip()[:80]
             if actual is None:
                 problems.append(
-                    f"[{path}] annotation cites {currency}/{year} as '{stated_rate}' but that "
+                    f"annotation cites {currency}/{year} as '{stated_rate}' but that "
                     f"year/currency is not a 'confirmed' row in {EXCHANGE_RATE_TABLE_PATH} "
                     f"(line: {snippet}...)"
                 )
                 continue
             if abs(float(stated_rate) - actual) > 0.01:
                 problems.append(
-                    f"[{path}] annotation states {stated_rate} {currency}/USD for {year}, but "
+                    f"annotation states {stated_rate} {currency}/USD for {year}, but "
                     f"the confirmed table rate for {currency}/{year} is {actual} - wrong-year or "
                     f"mistyped rate (line: {snippet}...)"
                 )
@@ -171,16 +172,33 @@ def main() -> int:
         action="store_true",
         help="Skip the repo-wide existence check for newly-added IDs (faster, less thorough).",
     )
+    parser.add_argument(
+        "--json",
+        action="store_true",
+        help=(
+            "Emit a single machine-readable JSON object to stdout instead of prose - "
+            "for feeding management_dialogue.py's --validation field directly, per the "
+            "'automated verification harness output' suggestion from this project's own "
+            "multi-agent retrospective."
+        ),
+    )
     args = parser.parse_args()
 
     retired_patterns = DEFAULT_RETIRED_PATTERNS + args.retired_pattern
     files = changed_files(args.base, args.head)
 
     if not files:
-        print("No changed files between the given refs.")
+        if args.json:
+            print(json.dumps({
+                "base": args.base, "head": args.head, "files_checked": 0,
+                "problems": [], "passed": True,
+            }))
+        else:
+            print("No changed files between the given refs.")
         return 0
 
-    print(f"Checking {len(files)} changed file(s): base={args.base} head={args.head or '(working tree)'}\n")
+    if not args.json:
+        print(f"Checking {len(files)} changed file(s): base={args.base} head={args.head or '(working tree)'}\n")
 
     problems: list[str] = []
     confirmed_rates = load_confirmed_rates(args.head)
@@ -194,19 +212,25 @@ def main() -> int:
             try:
                 head_text = head_bytes.decode("utf-8")
             except UnicodeDecodeError:
-                problems.append(f"[{path}] not valid UTF-8 in head state")
+                problems.append({"file": path, "check": "utf8", "message": "not valid UTF-8 in head state"})
                 continue
             if head_bytes[:3] == b"\xef\xbb\xbf":
-                problems.append(f"[{path}] has a UTF-8 BOM")
+                problems.append({"file": path, "check": "bom", "message": "has a UTF-8 BOM"})
 
         for sig in MOJIBAKE_SIGNATURES:
             if sig in head_text:
                 count = head_text.count(sig)
-                problems.append(f"[{path}] possible mojibake: '{sig}' x{count}")
+                problems.append({
+                    "file": path, "check": "mojibake",
+                    "message": f"possible mojibake: '{sig}' x{count}",
+                })
 
         for pattern in retired_patterns:
             if re.search(pattern, head_text):
-                problems.append(f"[{path}] retired pattern still present: /{pattern}/")
+                problems.append({
+                    "file": path, "check": "retired_pattern",
+                    "message": f"retired pattern still present: /{pattern}/",
+                })
 
         base_bytes = file_bytes_at(args.base, path)
         base_text = base_bytes.decode("utf-8", errors="replace") if base_bytes else ""
@@ -216,30 +240,55 @@ def main() -> int:
         added_ids = head_ids - base_ids
 
         for rid in sorted(removed_ids):
-            problems.append(
-                f"[{path}] ID present before but missing now: '{rid}' "
-                f"(if this file's claim about that source was deleted intentionally, ignore; "
-                f"otherwise this may be a truncated/retyped ID)"
-            )
+            problems.append({
+                "file": path, "check": "id_drift", "id": rid,
+                "message": (
+                    f"ID present before but missing now: '{rid}' "
+                    f"(if this file's claim about that source was deleted intentionally, ignore; "
+                    f"otherwise this may be a truncated/retyped ID)"
+                ),
+            })
 
         if not args.skip_repo_wide_id_check:
             for aid in sorted(added_ids):
                 hits = repo_wide_id_hits(aid, path)
                 if hits == 0:
-                    problems.append(
-                        f"[{path}] newly-added ID '{aid}' does not appear anywhere else in the "
-                        f"repository - verify it's a real ID, not a typo"
-                    )
+                    problems.append({
+                        "file": path, "check": "id_unverifiable", "id": aid,
+                        "message": (
+                            f"newly-added ID '{aid}' does not appear anywhere else in the "
+                            f"repository - verify it's a real ID, not a typo"
+                        ),
+                    })
 
         if path != EXCHANGE_RATE_TABLE_PATH:
-            problems.extend(check_rate_annotations(path, base_text, head_text, confirmed_rates))
+            for msg in check_rate_annotations(path, base_text, head_text, confirmed_rates):
+                problems.append({"file": path, "check": "rate_year_mismatch", "message": msg})
+
+    passed = len(problems) == 0
+
+    if args.json:
+        print(json.dumps({
+            "base": args.base,
+            "head": args.head,
+            "files_checked": len(files),
+            "files": files,
+            "problems": problems,
+            "passed": passed,
+            "note": (
+                "Does not verify underlying original-amount arithmetic - only that a cited "
+                "rate matches the confirmed table rate for its stated year/currency, plus "
+                "mojibake/BOM/retired-pattern/citation-ID-drift checks."
+            ),
+        }, indent=2))
+        return 0 if passed else 1
 
     print(f"Files checked: {len(files)}")
     print(f"Problems found: {len(problems)}")
     if problems:
         print()
         for p in problems:
-            print(f"  - {p}")
+            print(f"  - [{p['file']}] {p['message']}")
         print("\nFAIL")
         return 1
 
