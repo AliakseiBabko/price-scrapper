@@ -307,8 +307,8 @@ original currencies, and original amounts remain unchanged.
 
 | Slice ID | Scope group | Entry anchor | Status | Disposition |
 | :--- | :--- | :--- | :--- | :--- |
-| `D-GD-035` | `guide_detail` | `12_Engineering_and_Systems/HVAC_and_Ventilation.md`, dated full-system ventilation cost range and ambiguous breather figure | resolved | Added ≈$19,600–≈$131,000 for the source's 1.5–10 million RUB range using the 2026-07-29 trailing six-month USD/RUB average of 76.4100; hand-checks: 1,500,000 ÷ 76.4100 = 19,630.94 → $19,600 (nearest-$100), and 10,000,000 ÷ 76.4100 = 130,872.92 → $131,000 (nearest-$1,000). Explicitly marked the source's unitless “1,350” breather figure not computable. |
-| `D-GD-036` | `guide_detail` | `12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md`, same dated full-system range | resolved | Added the same claim-local range, rate, rounding derivation, and not-computable breather caveat; this is one source event repeated across guide and detail, not a second independent price. |
+| `D-GD-035` | `guide_detail` | `12_Engineering_and_Systems/HVAC_and_Ventilation.md`, dated full-system ventilation cost range and ambiguous breather figure | resolved | Added $20,000–$130,000 for the source's 1.5–10 million RUB range using the 2026-07-29 trailing six-month USD/RUB average of 76.4100; exact hand-checks remain 19,630.94 and 130,872.92, presented at nearest-$10,000 range precision. Explicitly marked the source's unitless “1,350” breather figure not computable. |
+| `D-GD-036` | `guide_detail` | `12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md`, same dated full-system range | resolved | Added the same claim-local $20,000–$130,000 range, exact arithmetic, and not-computable breather caveat; this is one source event repeated across guide and detail, not a second independent price. |
 
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced

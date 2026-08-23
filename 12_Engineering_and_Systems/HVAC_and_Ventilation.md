@@ -28,7 +28,7 @@ Artem Oganyan / BURO gives **a useful reality check on "AC budget" as a concept*
 
 ## Fresh-Air Ventilation & Ducting
 
-Prolife Invest's dated Moscow comparison puts a full ducted supply-and-exhaust ventilation system at **1.5–10 million RUB** as of 2026-07-29. Using the trailing six-month USD/RUB average of 76.4100, `1,500,000 ÷ 76.4100 = $19,630.94` and `10,000,000 ÷ 76.4100 = $130,872.92`, or **≈$19,600–≈$131,000** in the nearest-$100 and nearest-$1,000 buckets respectively. The same source gives a breather figure rendered as “1,350” without a confirmed unit; that number is **not computable** and is not converted. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DsdLa87Acz4_prolife_invest_moscow_flipping|extraction note]]]
+Prolife Invest's dated Moscow comparison puts a full ducted supply-and-exhaust ventilation system at **1.5–10 million RUB** as of 2026-07-29. Using the trailing six-month USD/RUB average of 76.4100, `1,500,000 ÷ 76.4100 = $19,630.94` and `10,000,000 ÷ 76.4100 = $130,872.92`, presented at a price-range precision close to the original figures as **$20,000–$130,000**. The same source gives a breather figure rendered as “1,350” without a confirmed unit; that number is **not computable** and is not converted. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DsdLa87Acz4_prolife_invest_moscow_flipping|extraction note]]]
 
 Prolife Invest recommends **defaulting to a wall-mounted breather unit unless there's a specific reason not to** — it handles most typical indoor air-quality needs at a fraction of a full system's cost; full ducted ventilation earns its premium mainly where windows genuinely can't be opened (a loud arterial road, for instance).
 
