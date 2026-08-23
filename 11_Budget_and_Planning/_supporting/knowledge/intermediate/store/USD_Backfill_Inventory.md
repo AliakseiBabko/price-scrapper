@@ -269,6 +269,12 @@ original currencies, and original amounts remain unchanged.
 | :--- | :--- | :--- | :--- | :--- |
 | `D-GD-025` | `guide_detail` | `13_Surfaces_and_Finishes/Ceilings_Guide.md`, L-shaped stretch-ceiling cost delta | resolved | Added approximately >$140–>$270 for the >10,000–>20,000 RUB delta using the 2020-12-01 trailing 6-month average of 74.12. |
 
+## Turn 10 (CODEX) — Doors guide headline slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-026` | `guide_detail` | `13_Surfaces_and_Finishes/Doors_and_Trim.md`, classic-hinged installation and entrance-door tiers | resolved-uncomputable | Added claim-local explanation that exact publish dates are not confirmed; no conversion guessed. |
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each

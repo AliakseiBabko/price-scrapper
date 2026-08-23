@@ -5,6 +5,8 @@ Overview of interior and entrance door anatomy, mount-type selection, rough-open
 > [!NOTE]
 > **Corroboration note.** This page draws on 15+ sources across several intake batches. The **first batch (8 sources) is entirely one company/channel** — Zemstandart / Alexey Zemskov, a Moscow-area renovation company. Treat every fact tagged `single-account` from that batch as **one practitioner's opinion repeated across 8 videos, not 8 independent confirmations**. A **second batch (7 sources)** adds genuinely independent channels — Ontario, Avalremont, Novakey, ПРО ДВЕРИ (3 videos), Forcemontage — which is where real cross-channel corroboration starts to appear (noted explicitly wherever it occurs). Most sources in both batches are self-promotional renovation-company or retailer channels. Full source list in [[13_Surfaces_and_Finishes/analysis/Doors_Trim_Source_Notes|Source Notes]].
 
+> **USD normalization status for the remaining headline door figures:** the ≈5,000 RUB classic-hinged installation estimate and the 65,000–95,000 RUB / up-to-380,000 RUB entrance-door tiers remain **not computable in this guide** because their exact publish dates are not independently confirmed at the claim level; no year- or date-anchored conversion is guessed. The detailed buying page records its own source-date handling separately.
+
 ## Door Anatomy & Mount Types
 
 Konstantin Kruglov / Ontario recommends **classic hinged as the right default absent a specific reason otherwise** — it seals on 3 of 4 sides via the frame's rebate (the structural reason it beats both alternatives on soundproofing), has no moving mechanism beyond hinges/handle, and is the cheapest to install (≈5,000 RUB/door).
