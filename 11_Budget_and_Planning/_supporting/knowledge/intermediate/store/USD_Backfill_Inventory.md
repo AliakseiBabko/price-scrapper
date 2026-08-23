@@ -303,6 +303,13 @@ original currencies, and original amounts remain unchanged.
 | `D-GD-033` | `guide_detail` | `12_Engineering_and_Systems/Plumbing_and_Waterproofing.md`, dated water-supply and heating rough-in total | resolved | Added ≈$4,200 for the source's 380,000 RUB / 100 m² construction-only example using the 2024-11-14 trailing six-month USD/RUB average of 90.9774; hand-check: 380,000 ÷ 90.9774 = 4,176.86, which rounds to $4,200 in the nearest-$100 bucket. |
 | `D-GD-034` | `guide_detail` | `12_Engineering_and_Systems/analysis/Cost_Drivers_and_Buying_Guidance.md`, same dated rough-in total | resolved | Added the same claim-local ≈$4,200 equivalent and derivation; this is one source/cost event repeated across guide and detail, not a second independent price. |
 
+## Turn 23 (CODEX) — HVAC guide/detail slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-035` | `guide_detail` | `12_Engineering_and_Systems/HVAC_and_Ventilation.md`, dated full-system ventilation cost range and ambiguous breather figure | resolved | Added ≈$19,600–≈$131,000 for the source's 1.5–10 million RUB range using the 2026-07-29 trailing six-month USD/RUB average of 76.4100; hand-checks: 1,500,000 ÷ 76.4100 = 19,630.94 → $19,600 (nearest-$100), and 10,000,000 ÷ 76.4100 = 130,872.92 → $131,000 (nearest-$1,000). Explicitly marked the source's unitless “1,350” breather figure not computable. |
+| `D-GD-036` | `guide_detail` | `12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md`, same dated full-system range | resolved | Added the same claim-local range, rate, rounding derivation, and not-computable breather caveat; this is one source event repeated across guide and detail, not a second independent price. |
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each
