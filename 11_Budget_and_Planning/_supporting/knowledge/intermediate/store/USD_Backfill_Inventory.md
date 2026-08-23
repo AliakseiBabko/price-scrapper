@@ -246,7 +246,7 @@ bespoke-design history. Original currencies and figures remain unchanged.
 
 | Slice ID | Scope group | Entry anchor | Status | Disposition |
 | :--- | :--- | :--- | :--- | :--- |
-| `D-CSV-018` | `processed_sources_csv` | `run_20260810_19`, 2020-12-01 dividing-wall case | resolved | Added <$28 for the <2,000 RUB figure using the trailing 6-month USD/RUB average of 74.12. |
+| `D-CSV-018` | `processed_sources_csv` | `run_20260810_19`, 2020-12-01 dividing-wall case | resolved | Added <$27 for the <2,000 RUB figure using the trailing 6-month USD/RUB average of 74.12 (corrected 2026-08-23 - previously <$28, a $1 rounding slip). |
 | `D-CSV-019` | `processed_sources_csv` | `run_20260810_22`, 2022-11-13 bathroom regret case | resolved | Added ≈$250 and ≈$840 for 15,000 and 50,000 RUB using the trailing 6-month average of 59.74. |
 | `D-CSV-020` | `processed_sources_csv` | `run_20260810_44`, 2019-02-02 inspection-cost case | resolved | Added ≈$150 and ≈$3,000 for ~10,000 and ~200,000 RUB using the trailing 6-month average of 66.64. |
 
