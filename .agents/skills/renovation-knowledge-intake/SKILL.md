@@ -385,13 +385,34 @@ For one source at a time:
 
 5b. **Normalize every new price at intake.** When a source adds a price
    figure to the intermediate store, a guide, or a comparison table, append a
-   USD-equivalent using `00_Master/exchange_rates_reference.md` (or query
-   `tools/pricing/currency_converter.py` when the source specifies an exact
-   date, month, or range) and the source's confirmed year/period. Keep the
-   original currency and amount unchanged. If the year is absent, record that
-   the conversion is not computable. For current-year (2026+) sources, run
-   `python tools/pricing/fetch_exchange_rates.py` to refresh the database with
-   the latest daily rates if needed.
+   USD-equivalent and keep the original currency and amount unchanged. If
+   the source's publish date/year is absent, record that the conversion is
+   not computable.
+
+   **Precision by category, per explicit user instruction (2026-08-21)** -
+   the source's confirmed publish date (usually the `yt-dlp` upload date) is
+   the anchor for all three; query `tools/pricing/currency_converter.py`
+   directly against `data/scraper.db` rather than `exchange_rates_reference.md`'s
+   calendar-year rows, which are now a fallback for when the exact publish
+   date can't be pinned down, not the default:
+   - **Individually volatile/short-cycle categories (appliances, and
+     anything else priced like a consumer-electronics item)**: use the
+     **exact publish date**, daily granularity -
+     `python tools/pricing/currency_converter.py --pair USD/RUB --date <YYYY-MM-DD> --amount <N>`.
+   - **General renovation materials/services (the default case)**: use the
+     **trailing 6 or 12 calendar months ending on the publish date**, not a
+     calendar-year average (the two rarely line up with when the price was
+     actually current) -
+     `python tools/pricing/currency_converter.py --pair USD/RUB --trailing-months 6 --before <YYYY-MM-DD> --amount <N>`
+     (use `12` instead of `6` when the source itself spans a longer project
+     timeline, or when 6 months of samples would be too thin to trust).
+   - **Publish date confirmed but only to the year** (day/month unknown):
+     fall back to `exchange_rates_reference.md`'s calendar-year average, or
+     `currency_converter.py --period <YYYY>`, and note the reduced
+     precision.
+   For current-year (2026+) sources, run
+   `python tools/pricing/fetch_exchange_rates.py` to refresh the database
+   with the latest daily rates if needed.
 
    **Missing-year rule, per explicit user instruction (2026-08-21)**: if a
    source's price year has no row yet in `00_Master/exchange_rates_reference.md`
