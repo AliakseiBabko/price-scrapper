@@ -361,3 +361,7 @@ for a self-managed buyer.
   sibling crash-test video, apparently filmed the same session),
   otherwise entirely technical reference content.
 
+### Konstantin Kruglov/Ontario — P8t_d7J9fm4 (2026-06-05)
+
+- The source is a renovation-company cost-list video with a website and Telegram call-to-action. Service-package figures are commercially interested, self-reported Moscow/Moscow-region benchmarks, not neutral market data.
+- No third-party sponsor or named individual was used as evidence. The technical budgeting distinctions and explicit price ranges remain useful when retained with the promotional and region caveats. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P8t_d7J9fm4_kruglov_renovation_cost_list_2026|P8t_d7J9fm4]]]
