@@ -2,6 +2,8 @@
 
 Covers tub-vs-shower, bathtub material/sizing, the apron/screen (including a real practitioner disagreement on toe-kick niches), curtain-vs-glass splash guards, built shower cabins, and leftover alcove space. Part of [[07_Bathroom/Bathroom_Guide|Bathroom Guide]].
 
+> **USD normalization for the dated tub/pan claims below:** using the 2025-04-04 source date and trailing 6-month USD/RUB average of 95.97, 15,000–20,000 RUB is ≈$160–$210, 40,000–50,000 RUB is ≈$420–$520, and the ~20,000 RUB pan-material delta is ≈$210. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w]]]
+
 ## Bathtub vs. Shower
 
 Konstantin Kruglov / Ontario's source note supports the bathtub and shower claims below; case-specific additions retain their own source markers.
