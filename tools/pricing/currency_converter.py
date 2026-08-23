@@ -30,6 +30,17 @@ PAIR_ALIASES = {
     "BYN": "USD/BYN",
 }
 
+def subtract_months(d: datetime.date, months: int) -> datetime.date:
+    """Calendar-correct month subtraction (stdlib only, no dateutil dependency) -
+    clamps the day-of-month if the target month is shorter (e.g. Mar 31 minus
+    1 month -> Feb 28/29, not an invalid Feb 31)."""
+    total = d.year * 12 + (d.month - 1) - months
+    year, month = divmod(total, 12)
+    month += 1
+    last_day = (datetime.date(year + (month // 12), month % 12 + 1, 1) - datetime.timedelta(days=1)).day
+    return datetime.date(year, month, min(d.day, last_day))
+
+
 @dataclass
 class RateLookupResult:
     currency_pair: str
@@ -208,6 +219,29 @@ class CurrencyConverter:
     def convert(self, amount: float, pair: str, period: str) -> RateLookupResult:
         return self.lookup_rate(pair=pair, period=period, amount=amount)
 
+    def lookup_trailing(
+        self,
+        pair: str,
+        months: int,
+        before_date: str,
+        amount: Optional[float] = None,
+    ) -> RateLookupResult:
+        """Trailing N-calendar-month average ending on (and including) before_date -
+        the project's default precision for general renovation materials/services
+        pricing (per explicit user instruction, 2026-08-21): a video published on
+        date X normalizes against the average rate over the N months leading up to
+        X, not a calendar-year average, since the two rarely line up with when the
+        price was actually current. Use months=6 or 12 per that policy; for
+        individually volatile categories (e.g. appliances) use the exact-date
+        lookup instead, not this trailing average."""
+        end = datetime.date.fromisoformat(before_date)
+        start = subtract_months(end, months)
+        result = self.lookup_rate(
+            pair=pair, start_date=start.isoformat(), end_date=end.isoformat(), amount=amount
+        )
+        result.resolution_method = f"trailing_{months}_month_arithmetic_mean"
+        return result
+
 def convert_amount(amount: float, pair: str, period: str, db_path: Path | str = DEFAULT_DB_PATH) -> RateLookupResult:
     converter = CurrencyConverter(db_path=db_path)
     return converter.convert(amount, pair, period)
@@ -215,6 +249,14 @@ def convert_amount(amount: float, pair: str, period: str, db_path: Path | str = 
 def get_rate(pair: str, period: str, db_path: Path | str = DEFAULT_DB_PATH) -> RateLookupResult:
     converter = CurrencyConverter(db_path=db_path)
     return converter.lookup_rate(pair, period=period)
+
+def convert_trailing(
+    amount: float, pair: str, months: int, before_date: str, db_path: Path | str = DEFAULT_DB_PATH
+) -> RateLookupResult:
+    """Convenience wrapper for the trailing-N-month-average convention (see
+    CurrencyConverter.lookup_trailing's docstring for the policy this backs)."""
+    converter = CurrencyConverter(db_path=db_path)
+    return converter.lookup_trailing(pair=pair, months=months, before_date=before_date, amount=amount)
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Query exchange rates and convert historical amounts.")
@@ -226,6 +268,14 @@ def main() -> int:
     parser.add_argument("--amount", type=float, help="Amount in local currency to convert to USD")
     parser.add_argument("--db-path", type=Path, default=DEFAULT_DB_PATH, help="Path to scraper.db")
     parser.add_argument("--json", action="store_true", help="Output result as JSON")
+    parser.add_argument(
+        "--trailing-months", type=int,
+        help="Trailing N-calendar-month average ending on --before (project default "
+             "precision for general renovation materials/services pricing, per "
+             "2026-08-21 policy - use 6 or 12; use exact-date lookup instead for "
+             "individually volatile categories like appliances)",
+    )
+    parser.add_argument("--before", help="End date for --trailing-months (YYYY-MM-DD, usually the source's publish date)")
     args = parser.parse_args()
 
     period = args.period
@@ -234,13 +284,20 @@ def main() -> int:
 
     converter = CurrencyConverter(db_path=args.db_path)
     try:
-        res = converter.lookup_rate(
-            pair=args.pair,
-            period=period,
-            start_date=args.from_date,
-            end_date=args.to_date,
-            amount=args.amount
-        )
+        if args.trailing_months:
+            if not args.before:
+                raise ValueError("--trailing-months requires --before <YYYY-MM-DD>")
+            res = converter.lookup_trailing(
+                pair=args.pair, months=args.trailing_months, before_date=args.before, amount=args.amount
+            )
+        else:
+            res = converter.lookup_rate(
+                pair=args.pair,
+                period=period,
+                start_date=args.from_date,
+                end_date=args.to_date,
+                amount=args.amount
+            )
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
         return 1
