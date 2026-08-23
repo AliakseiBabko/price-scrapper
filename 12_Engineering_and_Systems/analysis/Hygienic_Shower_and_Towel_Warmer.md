@@ -2,6 +2,8 @@
 
 Covers a specific, preventable hygienic-shower failure mode, and the case for electric over hydronic towel warmers. Part of [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]].
 
+**USD normalization for the dated towel-warmer comparison:** using the 2025-04-04 source date and trailing 6-month USD/RUB average of 95.97, 10,000–15,000 RUB hydronic installation is ≈$100–$160, ~2,500 RUB electric installation is ≈$30, and 30,000–50,000 RUB for a dedicated leak-protection branch is ≈$310–$520. The 10–15 RUB/month electricity figure is below $1/month at the same rate. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|20260731_video_s1cWUR4l9]]]
+
 ## Hygienic Shower / Bidet Spray — a Specific, Preventable Failure Mode
 
 - Konstantin Kruglov/Ontario warns: **The failure mode, stated precisely**: a user opens the hygienic-shower/bidet supply valve, uses the spray, releases the trigger (which stops water at the nozzle) — but forgets to close the *upstream* shutoff valve. The hose and mixer then sit under full, sustained line pressure indefinitely, well beyond what they're rated to hold continuously; left this way for an extended period (the example given is a vacation), the source states it will "100%" eventually fail and flood the unit and likely the neighbors below.
