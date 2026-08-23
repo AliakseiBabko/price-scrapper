@@ -5,6 +5,8 @@ Overview of layout, structural/framing, fixture-selection, and finishing decisio
 > [!NOTE]
 > This page draws primarily on three long-form sources, all from the same channel (Konstantin Kruglov / Ontario, Moscow renovation company, self-promotional), plus several Zemskov/Zemstandart (Moscow) sources added later. **Because many sources share a channel, `single-account` tags mean exactly that — one experienced source's opinion, not independently corroborated** — check against other sources before treating any specific number as load-bearing. Regulatory/approval content is Russia-specific and explicitly **not confirmed to apply to Belarus** — flagged inline wherever it appears. Full source list in [[#Source Notes]].
 
+> **USD normalization for remaining Bathroom Guide price claims:** the concealed-door extra-finishing estimate (20,000–25,000 RUB/door) remains **not computable** because the cited source's exact publish date is not independently confirmed. The heated-floor installation estimate (~30,000 RUB) is ≈$380 using the 2026-04-17 source date and trailing 6-month USD/RUB average of 78.86; the hydronic/electric towel-warmer comparison (2,500 vs. 10,000–15,000 RUB) is ≈$30 vs. ≈$130–$190 on that same date-anchored average. [sources: [[_Archive/processed_sources/20260731_zems_b028_door_bdc70cee.txt|zems_b028_door]], [[_Archive/processed_sources/20260731_video_6lacLnqpJbM_4b68d812.txt|video_6lacLnqpJbM]]]
+
 ## ⚖️ Perspectives on Record — Practitioners Disagree
 
 Two topics on this page have a genuine, unresolved disagreement between named practitioners, not just a single source's opinion:

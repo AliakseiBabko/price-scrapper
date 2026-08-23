@@ -253,6 +253,16 @@ bespoke-design history. Original currencies and figures remain unchanged.
 All three changes are confined to the CSV `notes` field; source metadata,
 original currencies, and original amounts remain unchanged.
 
+## Turn 6 (CODEX) — Bathroom guide/detail slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-020` | `guide_detail` | `07_Bathroom/Bathroom_Guide.md`, dated towel-warmer and heated-floor estimates | resolved | Added date-anchored equivalents: ≈$30 vs. ≈$130–$190 for 2,500 vs. 10,000–15,000 RUB and ≈$380 for 30,000 RUB, using the 2026-04-17 trailing 6-month average of 78.86. |
+| `D-GD-021` | `guide_detail` | `07_Bathroom/Bathroom_Guide.md`, concealed-door finishing estimate | resolved-uncomputable | Added explicit not-computable reason because the cited source date is not independently confirmed. |
+| `D-GD-022` | `guide_detail` | `07_Bathroom/analysis/Bathtub_and_Shower.md`, tub/pan material estimates | resolved | Added ≈$160–$210, ≈$420–$520, and ≈$210 equivalents using the 2025-04-04 trailing 6-month average of 95.97. |
+| `D-GD-023` | `guide_detail` | `07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md`, rain-shower assembly | resolved | Added ≈$520–$630 for 50,000–60,000 RUB using the 2025-04-04 trailing 6-month average of 95.97. |
+| `D-GD-024` | `guide_detail` | `07_Bathroom/analysis/Planning_and_Layout.md`, comfort-class labor band | resolved-uncomputable | Added explicit not-computable reason because the restated figure has no independently confirmed publish date. |
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each

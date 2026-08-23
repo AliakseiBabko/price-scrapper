@@ -84,4 +84,6 @@ A pure design/personal-preference point, included for completeness: some people 
 
 ## Comfort-Class Labor Cost (restated)
 
+**USD normalization status:** the 25,000–45,000 RUB/m² figure is **not computable** here because this restatement does not carry an independently confirmed publish date; no calendar-year or guessed date conversion is claimed.
+
 **Comfort-class labor-only cost band, restated by Zemskov**: 25,000-45,000 RUB/m², matching a figure this store already has from a different Zemstandart video — same channel repeating its own convention over time, not independent corroboration.

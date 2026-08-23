@@ -2,6 +2,8 @@
 
 Covers shower/sink mixer types and add-ons, toilet configuration and selection, the hygienic shower/bidet spray, and sink sizing/mounting. Part of [[07_Bathroom/Bathroom_Guide|Bathroom Guide]].
 
+> **USD normalization for the quality rain-shower assembly estimate below:** ≈$520–$630 for 50,000–60,000 RUB using the 2025-04-04 source date and trailing 6-month USD/RUB average of 95.97. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w]]]
+
 ## Shower and Sink Mixers
 
 Konstantin Kruglov / Ontario supports the `YT_9dfEdjOewng...` claims; Zemstandart / Zemproekt supports the other named extraction-note blocks. Blended prose remains explicitly unconfirmed.
