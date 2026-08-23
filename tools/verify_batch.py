@@ -325,9 +325,22 @@ def check_usd_cents(path: str, base_text: str, head_text: str) -> list[str]:
     return problems
 
 
-def repo_wide_id_hits(id_value: str, exclude_path: str) -> int:
+def repo_wide_id_hits(id_value: str, exclude_path: str, ref: str | None) -> int:
+    """Count files (other than exclude_path) containing id_value.
+
+    Searches `ref` when given (a commit/branch the working tree may not
+    have checked out - e.g. `--head origin/topic/...` while sitting on
+    `main`); falls back to the working tree when `ref` is None (the
+    --head-omitted / uncommitted-changes case `git grep` naturally
+    handles). Found via a real false positive: running this against
+    `origin/topic/...` while `main` was checked out searched the wrong
+    tree entirely and flagged 3 genuinely-fine IDs as unverifiable
+    (PRICE_SCRAPPER_USD_BACKFILL_RESIDUAL round 8)."""
+    cmd = ["git", "grep", "-l", "-F", id_value]
+    if ref is not None:
+        cmd.append(ref)
     result = subprocess.run(
-        ["git", "grep", "-l", "-F", id_value],
+        cmd,
         cwd=REPO_ROOT,
         capture_output=True,
         text=True,
@@ -335,7 +348,12 @@ def repo_wide_id_hits(id_value: str, exclude_path: str) -> int:
     )
     if result.returncode not in (0, 1):
         return -1
-    hits = [line for line in result.stdout.splitlines() if line.strip() != exclude_path]
+    lines = result.stdout.splitlines()
+    if ref is not None:
+        # "git grep -l <ref> -- ..." prefixes each hit with "<ref>:<path>".
+        prefix = f"{ref}:"
+        lines = [line[len(prefix):] if line.startswith(prefix) else line for line in lines]
+    hits = [line for line in lines if line.strip() != exclude_path]
     return len(hits)
 
 
@@ -465,7 +483,7 @@ def main() -> int:
 
         if not args.skip_repo_wide_id_check:
             for aid in sorted(added_ids):
-                hits = repo_wide_id_hits(aid, path)
+                hits = repo_wide_id_hits(aid, path, args.head)
                 if hits == 0:
                     problems.append({
                         "file": path, "check": "id_unverifiable", "id": aid,
