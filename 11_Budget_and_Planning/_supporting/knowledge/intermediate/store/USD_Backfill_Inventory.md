@@ -282,6 +282,13 @@ original currencies, and original amounts remain unchanged.
 | `D-GD-027` | `guide_detail` | `13_Surfaces_and_Finishes/Walls_and_Paint.md`, load-bearing opening cost comparison | resolved | Added ≈$230 DIY and >$760 specialist equivalents using the 2019-01-05 trailing 6-month average of 66.08. |
 | `D-GD-028` | `guide_detail` | `13_Surfaces_and_Finishes/Walls_and_Paint.md`, 435,000 RUB designer-fee case | resolved | Added ≈$4,800 using the 2024-05-05 trailing 6-month average of 91.06. |
 
+## Turn 14 (CODEX) — Engineering systems analysis slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-029` | `guide_detail` | `12_Engineering_and_Systems/analysis/AC_Sizing_and_Selection.md`, BURO AC-system cost comparison | resolved | Added date-anchored ≈$2,500, ≈$6,300–$8,800, ≈$12,600–$37,800, ≈$18,900–$63,000, and ≈$60–$630/m² equivalents using trailing 6-month average 79.39. |
+| `D-GD-030` | `guide_detail` | `12_Engineering_and_Systems/analysis/Hygienic_Shower_and_Towel_Warmer.md`, towel-warmer/leak-protection costs | resolved | Added date-anchored ≈$100–$160, ≈$30, ≈$310–$520, and <$1/month equivalents using trailing 6-month average 95.97. |
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each
