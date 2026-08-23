@@ -242,6 +242,17 @@ This slice applies the post-dialogue precision rule to newly filled units:
 trailing 6 months for general renovation work, and 12 months for the longer
 bespoke-design history. Original currencies and figures remain unchanged.
 
+## Turn 4 (CODEX) — processed_sources.csv notes-field slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-CSV-018` | `processed_sources_csv` | `run_20260810_19`, 2020-12-01 dividing-wall case | resolved | Added <$27 for the <2,000 RUB figure using the trailing 6-month USD/RUB average of 74.12 (corrected 2026-08-23 - previously <$28, a $1 rounding slip). |
+| `D-CSV-019` | `processed_sources_csv` | `run_20260810_22`, 2022-11-13 bathroom regret case | resolved | Added ≈$250 and ≈$840 for 15,000 and 50,000 RUB using the trailing 6-month average of 59.74. |
+| `D-CSV-020` | `processed_sources_csv` | `run_20260810_44`, 2019-02-02 inspection-cost case | resolved | Added ≈$150 and ≈$3,000 for ~10,000 and ~200,000 RUB using the trailing 6-month average of 66.64. |
+
+All three changes are confined to the CSV `notes` field; source metadata,
+original currencies, and original amounts remain unchanged.
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each
