@@ -229,11 +229,11 @@ inventory and conversion or explicit non-computable handling.
 | Slice ID | Scope group | Entry anchor | Status | Disposition |
 | :--- | :--- | :--- | :--- | :--- |
 | `D-ND-063` | `numeric_data` | Zemstandart comfort-class labor band, undated source | resolved-uncomputable | Explicit not-computable reason added; no date-anchored conversion guessed. |
-| `D-ND-064` | `numeric_data` | RemontХочу 11-stage smeta, 2024-11-14 | resolved | Added ≈$53,000 total and ≈$530/m² using trailing 6-month average 90.98. |
+| `D-ND-064` | `numeric_data` | RemontХочу 11-stage smeta, 2024-11-14 | resolved | Added ≈$53,200 total and ≈$530/m² using trailing 6-month average 90.98. |
 | `D-ND-065` | `numeric_data` | Бородатый Прораб full-realization figure, 2025-01-08 | resolved | Added ≈$1,600/m² and ≈$158,000 total using trailing 6-month average 94.72. |
 | `D-ND-066` | `numeric_data` | BURO segment-tier framework, 2026-03-12 | resolved | Added ≈$2,500/≈$5,700/≈$12,600 per m² tier boundaries using trailing 6-month average 79.39; preserved open-ended upper bound. |
-| `D-ND-067` | `numeric_data` | BURO HVAC cost-variance bands, 2026-03-12 | resolved | Added date-anchored ≈$2,500–$8,800, ≈$12,600–$37,800, ≈$18,900–$63,000 total and ≈$63–$630/m² equivalents using trailing 6-month average 79.39. |
-| `D-ND-068` | `numeric_data` | Бородатый Прораб design tiers, 2025-01-08 | resolved | Added ≈$42/≈$53/≈$74 per m² for 4,000/5,000/7,000 RUB using trailing 6-month average 94.72. |
+| `D-ND-067` | `numeric_data` | BURO HVAC cost-variance bands, 2026-03-12 | resolved | Added date-anchored ≈$2,500–$8,800, ≈$12,600–$37,800, ≈$18,900–$63,000 total and ≈$60–$630/m² equivalents using trailing 6-month average 79.39. |
+| `D-ND-068` | `numeric_data` | Бородатый Прораб design tiers, 2025-01-08 | resolved | Added ≈$40/≈$50/≈$70 per m² for 4,000/5,000/7,000 RUB using trailing 6-month average 94.72. |
 | `D-CS-075` | `cross_source` | BURO and full-realization rows | resolved | Added date-anchored equivalents for BURO and Бородатый Прораб rows. |
 | `D-CS-076` | `cross_source` | Zemstandart bespoke-design average, 2023-01-17 | resolved | Added ≈$4,900 total using trailing 12-month average 68.23. |
 | `D-CS-077` | `cross_source` | Tile installation labor rows, 2025-01-08 and 2024-11-14 | resolved | Added ≈$40/≈$85 and ≈$70 per m² using date-anchored trailing 6-month averages. |
