@@ -129,6 +129,10 @@ Evidence-level key used below: **(1) transcript text** → **(2) YouTube metadat
 - **Wired smart-home engineering project**: 50,000–100,000 RUB → **≈$650–$1,300**. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P8t_d7J9fm4_kruglov_renovation_cost_list_2026|P8t_d7J9fm4]]; same rate]
 - **Rough-material allowance**: 12,000–35,000 RUB/m² → **≈$160–$450/m²**; **finish-material allowance**: 18,000–40,000 RUB/m² → **≈$230–$520/m²**. Both are planning allowances, not invoices. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P8t_d7J9fm4_kruglov_renovation_cost_list_2026|P8t_d7J9fm4]]; same rate]
 
+### Konstantin Kruglov/Ontario — live intake, 2025-08-01
+
+- **Opaque all-in quote example explicitly presented as unsafe**: 20,000 RUB/m² → **≈$240/m²** using the 83.2959 RUB/USD trailing-six-month mean ending 2025-08-01. This is a cautionary example, not a market benchmark; the source warns that a single floor-area price hides stage scope and payment triggers. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_3vIpdUvgWW0_kruglov_contractors_2025|3vIpdUvgWW0]]]
+
 ### Kids Room (new topic area, added 2026-08-14)
 
 - **Comfort-class labor rate (this company), restated**: 25,000–45,000 RUB/m². **Business-class labor rate (same company), restated**: 50,000–85,000 RUB/m². 2022 data point (video confirmed uploaded 2022-11-06). **Near-identical to the existing `yt_7VfZIYGUrTo` entry above (2022-11-08, same speaker)** — treated as the same standing rate card restated two days apart, not a second independent data point; not added to the Cross-Source Comparison Tables' Construction/Finishing Labor Rate table as a new row. [source: yt_Gp5Lr20SrtU] **USD equivalents (2022 annual average, 67.5 RUB/USD): $370–$670/m² comfort; $740–$1,300/m² business.**
