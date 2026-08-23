@@ -2,11 +2,13 @@
 
 ### USD normalization addendum — next audited slice
 
+- **Remaining full-realization and tile rows, date-anchored backfill:** BURO Luxury/Premium/Mid (publish date 2026-03-12) normalize to ≈$12,600+/m², ≈$5,700–$12,600/m², and ≈$2,500–$5,700/m² respectively using a trailing 6-month USD/RUB average of 79.39 [source: yt_6Z7uH2_rXsw]. Бородатый Прораб's 150,000+ RUB/m² (2025-01-08) is ≈$1,600+/m² at 94.72 [source: yt_OrKB6uSKRyk]. The Zemstandart bespoke-design average of 331,000 RUB total (2023-01-17) is ≈$4,900 total at a trailing 12-month average of 68.23 [source: yt_OCjVd5HOcac]. Tile labor of 4,000/~8,000 RUB/m² (2025-01-08) is ≈$40/≈$85/m² at 94.72, and 6,500 RUB/m² (2024-11-14) is ≈$70/m² at a trailing 6-month average of 90.51 [sources: yt_OrKB6uSKRyk, yt_cdNwbqsLUK4].
+
 ### USD normalization addendum — 2026 non-historical tier slice
 
-- **BURO Luxury tier (2026):** 1,000,000+ RUB/m² — USD equivalent not computable yet because the reference table has no complete historical 2026 USD/RUB annual average; the original figure is retained unchanged.
-- **BURO Premium tier (2026):** 450,000–1,000,000 RUB/m² — USD equivalent not computable yet for the same 2026 rate-policy reason; the original figure is retained unchanged.
-- **BURO Mid tier (2026):** 200,000–450,000 RUB/m² — USD equivalent not computable yet for the same 2026 rate-policy reason; the original figure is retained unchanged.
+- **BURO Luxury tier (2026):** 1,000,000+ RUB/m² — **USD equivalent:** ≈$12,600+/m² using the 2026-03-12 publish date and trailing 6-month USD/RUB average of 79.39; the upper side remains open-ended.
+- **BURO Premium tier (2026):** 450,000–1,000,000 RUB/m² — **USD equivalent:** ≈$5,700–$12,600/m² using the 2026-03-12 publish date and trailing 6-month USD/RUB average of 79.39.
+- **BURO Mid tier (2026):** 200,000–450,000 RUB/m² — **USD equivalent:** ≈$2,500–$5,700/m² using the 2026-03-12 publish date and trailing 6-month USD/RUB average of 79.39.
 - **Бородатый Прораб full-realization figure (2025):** 150,000+ RUB/m² — USD equivalent is ≈$1,800+/m² (÷ 83.21 RUB/USD, 2025 annual average; [source: yt_OrKB6uSKRyk]).
 
 The original-currency figures in the comparison rows remain unchanged. The
