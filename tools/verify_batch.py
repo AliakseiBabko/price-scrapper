@@ -5,7 +5,9 @@ Automates the checks this project's review process runs by hand every
 round: mojibake/corruption scan, BOM check, retired-pattern scan,
 source-citation-ID drift detection (a dropped/retyped character in a
 `yt_...`-style marker breaks traceability silently and none of the other
-checks catch it), USD-cents detection, and a rate-vs-table plus arithmetic-
+checks catch it), USD-cents detection, a rounding-bucket check on every
+'≈$' figure (nearest 10/100/1,000 by magnitude - see
+check_rounding_bucket's docstring), and a rate-vs-table plus arithmetic-
 plausibility check on newly-added USD-equivalent annotations (the latter
 is a heuristic limited to unambiguous single-value lines - see
 check_arithmetic_plausibility's docstring for why).
@@ -71,6 +73,30 @@ RATE_ANNOTATION_PATTERN = re.compile(
 # instead, where the full matched text is available to check cleanly.
 DOLLAR_FIGURE_PATTERN = re.compile(r"\$([\d,]+(?:\.\d+)?)")
 ORIGINAL_AMOUNT_PATTERN = re.compile(r"([\d,]+)\s*(RUB|BYN)\b")
+
+# A converted-figure marker '≈$X' and, optionally, its range partner
+# '-$Y' immediately after (e.g. "≈$18,900-$63,000"). Scoped tightly to the
+# figure(s) actually attached to the '≈' marker, not just any '$' figure
+# elsewhere on the same line - an early version scanned the whole line and
+# produced a false positive on "...is ≈$30... below $1/month" (the $1 there
+# is a genuinely-unrounded "less than $1" convention, unrelated to the ≈$30
+# conversion earlier in the sentence).
+APPROX_DOLLAR_PATTERN = re.compile(
+    r"≈\$(\d{1,3}(?:,\d{3})*)(?:\.\d+)?"
+    r"(?:\s*[-–—]\s*\$(\d{1,3}(?:,\d{3})*)(?:\.\d+)?)?"
+)
+
+# The rounding-bucket rule itself (per the 2026-08-21 rounding correction):
+# a converted USD figure is a comparability aid, not a precise transaction
+# record, so it must land on a "round" value at a precision matching its own
+# magnitude - nearest 10 below $1,000, nearest 100 from $1,000-$99,999,
+# nearest 1,000 above that.
+def _rounding_unit(n: float) -> int:
+    if n < 1000:
+        return 10
+    if n < 100_000:
+        return 100
+    return 1000
 
 EXCHANGE_RATE_TABLE_PATH = "00_Master/exchange_rates_reference.md"
 EXCHANGE_RATE_ROW_PATTERN = re.compile(
@@ -234,6 +260,43 @@ def check_arithmetic_plausibility(path: str, base_text: str, head_text: str) -> 
                     f"~{tolerance:,.0f} of that) - possible copy from a different line/rate "
                     f"(line: {snippet}...)"
                 )
+    return problems
+
+
+def check_rounding_bucket(path: str, base_text: str, head_text: str) -> list[str]:
+    """For each newly-added '≈$X' (and its optional '-$Y' range partner),
+    flag any whole-dollar figure that isn't a multiple of the rounding unit
+    for its own magnitude - catches false precision like '≈$63' (should be
+    $60) or '≈$53,000' (should be $53,200), the defect class found in
+    PRICE_SCRAPPER_USD_BACKFILL_RESIDUAL round 7, which slipped past two
+    prior review rounds because nobody hand-checked the rounding bucket on
+    every figure, only whether the total looked plausible.
+
+    Scoped tightly to the figure(s) actually attached to the '≈' marker
+    this store uses exclusively for converted (not originally-USD)
+    figures - see APPROX_DOLLAR_PATTERN's docstring for why a whole-line
+    scan was rejected. Any decimal part is dropped before checking (a
+    decimal '≈$' figure is separately flagged by check_usd_cents already,
+    so this just evaluates the truncated integer)."""
+    problems: list[str] = []
+    base_lines = set(base_text.splitlines())
+    head_lines = head_text.splitlines()
+    added_lines = [line for line in head_lines if line not in base_lines]
+
+    for line in added_lines:
+        prose_line = INLINE_CODE_SPAN.sub("", line)
+        for match in APPROX_DOLLAR_PATTERN.finditer(prose_line):
+            for raw in match.groups():
+                if raw is None:
+                    continue
+                n = float(raw.replace(",", ""))
+                unit = _rounding_unit(n)
+                if n % unit != 0:
+                    snippet = line.strip()[:80]
+                    problems.append(
+                        f"USD figure ${raw} isn't a multiple of the expected rounding unit "
+                        f"(${unit:,}) for its magnitude - false precision (line: {snippet}...)"
+                    )
     return problems
 
 
@@ -421,6 +484,8 @@ def main() -> int:
         if not is_self_or_excluded:
             for msg in check_usd_cents(path, base_text, head_text):
                 problems.append({"file": path, "check": "usd_cents", "message": msg})
+            for msg in check_rounding_bucket(path, base_text, head_text):
+                problems.append({"file": path, "check": "rounding_bucket", "message": msg})
 
     passed = len(problems) == 0
 
@@ -433,12 +498,12 @@ def main() -> int:
             "problems": problems,
             "passed": passed,
             "note": (
-                "Rate-vs-table and cents checks are exact. The arithmetic-plausibility check "
-                "is a heuristic that only fires on single-value, unambiguous lines (skips "
-                "ranges/multi-figure lines rather than risk a wrong pairing) - it does not "
-                "replace manually re-deriving arithmetic against the actual source-of-truth "
-                "table, only supplements it. Plus mojibake/BOM/retired-pattern/citation-ID-"
-                "drift checks."
+                "Rate-vs-table, cents, and rounding-bucket checks are exact. The arithmetic-"
+                "plausibility check is a heuristic that only fires on single-value, unambiguous "
+                "lines (skips ranges/multi-figure lines rather than risk a wrong pairing) - it "
+                "does not replace manually re-deriving arithmetic against the actual source-of-"
+                "truth table, only supplements it. Plus mojibake/BOM/retired-pattern/citation-"
+                "ID-drift checks."
             ),
         }, indent=2))
         return 0 if passed else 1
