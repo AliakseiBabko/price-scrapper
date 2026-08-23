@@ -286,7 +286,7 @@ original currencies, and original amounts remain unchanged.
 
 | Slice ID | Scope group | Entry anchor | Status | Disposition |
 | :--- | :--- | :--- | :--- | :--- |
-| `D-GD-029` | `guide_detail` | `12_Engineering_and_Systems/analysis/AC_Sizing_and_Selection.md`, BURO AC-system cost comparison | resolved | Added date-anchored ≈$2,500, ≈$6,300–$8,800, ≈$12,600–$37,800, ≈$18,900–$63,000, and ≈$63–$630/m² equivalents using trailing 6-month average 79.39. |
+| `D-GD-029` | `guide_detail` | `12_Engineering_and_Systems/analysis/AC_Sizing_and_Selection.md`, BURO AC-system cost comparison | resolved | Added date-anchored ≈$2,500, ≈$6,300–$8,800, ≈$12,600–$37,800, ≈$18,900–$63,000, and ≈$60–$630/m² equivalents using trailing 6-month average 79.39. |
 | `D-GD-030` | `guide_detail` | `12_Engineering_and_Systems/analysis/Hygienic_Shower_and_Towel_Warmer.md`, towel-warmer/leak-protection costs | resolved | Added date-anchored ≈$100–$160, ≈$30, ≈$310–$520, and <$1/month equivalents using trailing 6-month average 95.97. |
 
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
