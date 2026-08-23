@@ -263,6 +263,12 @@ original currencies, and original amounts remain unchanged.
 | `D-GD-023` | `guide_detail` | `07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md`, rain-shower assembly | resolved | Added ≈$520–$630 for 50,000–60,000 RUB using the 2025-04-04 trailing 6-month average of 95.97. |
 | `D-GD-024` | `guide_detail` | `07_Bathroom/analysis/Planning_and_Layout.md`, comfort-class labor band | resolved-uncomputable | Added explicit not-computable reason because the restated figure has no independently confirmed publish date. |
 
+## Turn 8 (CODEX) — Ceilings guide slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-025` | `guide_detail` | `13_Surfaces_and_Finishes/Ceilings_Guide.md`, L-shaped stretch-ceiling cost delta | resolved | Added approximately >$140–>$270 for the >10,000–>20,000 RUB delta using the 2020-12-01 trailing 6-month average of 74.12. |
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each
