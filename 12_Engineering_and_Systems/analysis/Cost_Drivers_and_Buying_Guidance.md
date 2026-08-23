@@ -2,6 +2,8 @@
 
 Covers common cost mistakes, code/liability boundaries, quoting method, and multi-riser/recirculation decisions. Part of [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]].
 
+The RemontHochu construction-only smeta assigns **380,000 RUB** to water-supply and heating rough-in for its 100 m² example, priced by fixture points rather than pipe length. The source upload date is 2024-11-14; using the trailing six-month USD/RUB average of 90.9774, `<380,000 RUB ÷ 90.9774 = $4,176.86`, or **≈$4,200** in the nearest-$100 bucket. This is the company's own Moscow/Moscow Oblast estimate, not a market-wide rate. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cdNwbqsLUK4_remonthochu_smeta_methodology|extraction note]]]
+
 ## Cost Drivers & Common Mistakes
 
 - WITALT reports: **The visible price gap between a surface-mounted and a built-in (behind-the-wall) plumbing fixture is commonly much smaller than the real installed-cost gap** once pipework, fittings, sleeves, and labor are counted — comparing device sticker price alone significantly understates what a built-in install actually costs. Price the full installation, not just the fixture, before deciding between the two.
