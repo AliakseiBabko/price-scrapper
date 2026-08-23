@@ -19,12 +19,17 @@ resuming, these will drift as new content is added):
 - `Cross_Source_Comparison_Tables.md` — 23 done, remainder not yet audited.
 - `00_Master/processed_sources.csv` — 17 rows done out of ~420, most rows
   not yet audited for price content at all.
-- Scoped guide/detail pages — only the two Doors pages done (19 lines).
-  The rest of the plan's guide/detail scope (`Bathroom_Guide.md`,
-  `Budgeting_Guide.md`, `Plumbing_and_Waterproofing.md`,
-  `HVAC_and_Ventilation.md`, `Walls_and_Paint.md`, `Ceilings_Guide.md`,
-  `Wardrobes_and_Storage.md`, and each of the above's own `analysis/`
-  pages) has not been started.
+- Scoped guide/detail pages — **done as of 2026-08-24** (rounds 3-12 of
+  `PRICE_SCRAPPER_USD_BACKFILL_RESIDUAL`): `Bathroom_Guide.md`,
+  `Ceilings_Guide.md`, `Doors_and_Trim.md`, `Walls_and_Paint.md`,
+  `12_Engineering_and_Systems` (AC/towel-warmer analysis pages,
+  `Plumbing_and_Waterproofing.md`, `HVAC_and_Ventilation.md`),
+  `Wardrobes_and_Storage.md`, and each's own `analysis/` pages all now
+  carry cited USD-equivalents or explicit not-computable reasons for
+  their dated price-bearing units. `Budgeting_Guide.md` also picked up
+  content incidentally via the Workstream E live intakes (rounds 8-9).
+  **If new rooms/pages are added to the vault later, re-check this list
+  isn't stale before assuming guide/detail scope is fully closed.**
 
 **When resuming**: use `USD_Backfill_Inventory.md`'s stable-ID ledger and
 content-specific-label convention (established turn 106) as the tracking
