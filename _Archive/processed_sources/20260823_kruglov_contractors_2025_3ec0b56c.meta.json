@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=3vIpdUvgWW0",
+  "video_id": "3vIpdUvgWW0",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "yt-dlp",
+  "timestamp": "2026-08-23T21:20:45.487916+00:00",
+  "source_tool": "yt-dlp",
+  "sha256": "3ec0b56cbace47f95b2ec5d1fd0fb3fd4403476eba4db322a572e3d27fea7e06",
+  "attempts_before_success": []
+}
