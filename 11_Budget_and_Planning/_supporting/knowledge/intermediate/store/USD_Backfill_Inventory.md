@@ -275,6 +275,13 @@ original currencies, and original amounts remain unchanged.
 | :--- | :--- | :--- | :--- | :--- |
 | `D-GD-026` | `guide_detail` | `13_Surfaces_and_Finishes/Doors_and_Trim.md`, classic-hinged installation and entrance-door tiers | resolved-uncomputable | Added claim-local explanation that exact publish dates are not confirmed; no conversion guessed. |
 
+## Turn 12 (CODEX) — Walls and Paint guide slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-027` | `guide_detail` | `13_Surfaces_and_Finishes/Walls_and_Paint.md`, load-bearing opening cost comparison | resolved | Added ≈$230 DIY and >$760 specialist equivalents using the 2019-01-05 trailing 6-month average of 66.08. |
+| `D-GD-028` | `guide_detail` | `13_Surfaces_and_Finishes/Walls_and_Paint.md`, 435,000 RUB designer-fee case | resolved | Added ≈$4,800 using the 2024-05-05 trailing 6-month average of 91.06. |
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each
