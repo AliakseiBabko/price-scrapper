@@ -112,6 +112,8 @@ Zemstandart / Alexey Zemskov reports: **Don't hesitate to relocate a shutoff-val
 
 ## Cost Drivers & Buying Guidance
 
+One dated commercial benchmark: the RemontHochu construction-only smeta assigns **380,000 RUB** to water-supply and heating rough-in for its 100 m² example, priced by fixture points rather than pipe length. The source upload date is 2024-11-14; using the trailing six-month USD/RUB average of 90.9774, `380,000 RUB ÷ 90.9774 = $4,176.86`, or **≈$4,200** in the nearest-$100 bucket. This is the company's own Moscow/Moscow Oblast construction-only estimate, not a market-wide rate. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cdNwbqsLUK4_remonthochu_smeta_methodology|extraction note]]]
+
 РемонтХочу recommends **pricing rough plumbing by fixture "points," not linear meters of pipe** — a sink needs 2 points (hot+cold); pricing by pipe length is a known vector for "turns out we needed more pipe" upselling after work starts, and a points-based quote cross-checked against the design's fixture count is much harder to inflate. A standard node runs roughly 3 hot + 5 cold points as a sanity-check baseline.
 
 WITALT and Стройплощадка × Будни сантехника advise: **compare fixtures by full installed cost, not sticker price** — the visible price gap between a surface-mounted and built-in fixture is commonly much smaller than the real gap once pipework, fittings, sleeves, and labor are counted. And **never bypass main shutoff valves during modifications** — beyond the obvious flood risk, it crosses a real legal liability boundary: upstream of the main shutoff is the management company's responsibility, downstream is yours.

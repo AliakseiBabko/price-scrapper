@@ -296,6 +296,13 @@ original currencies, and original amounts remain unchanged.
 | `D-GD-031` | `guide_detail` | `14_Furniture/Wardrobes_and_Storage.md`, dated dividing-wall cost supporting built-in wardrobe conversion | resolved | Added under ≈$30 for the source's <2,000 RUB cost using the 2020-12-01 trailing six-month USD/RUB average of 74.1231; hand-check: 2,000 ÷ 74.1231 = 26.98, which rounds to $30 in the nearest-$10 bucket. |
 | `D-GD-032` | `guide_detail` | `14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff.md`, same dated 2.16m dividing-wall case | resolved | Added the same claim-local under ≈$30 equivalent and derivation; this is one source/cost event repeated across guide and detail, not a second independent price. |
 
+## Turn 21 (CODEX) — Plumbing guide/detail slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-033` | `guide_detail` | `12_Engineering_and_Systems/Plumbing_and_Waterproofing.md`, dated water-supply and heating rough-in total | resolved | Added ≈$4,200 for the source's 380,000 RUB / 100 m² construction-only example using the 2024-11-14 trailing six-month USD/RUB average of 90.9774; hand-check: 380,000 ÷ 90.9774 = 4,176.86, which rounds to $4,200 in the nearest-$100 bucket. |
+| `D-GD-034` | `guide_detail` | `12_Engineering_and_Systems/analysis/Cost_Drivers_and_Buying_Guidance.md`, same dated rough-in total | resolved | Added the same claim-local ≈$4,200 equivalent and derivation; this is one source/cost event repeated across guide and detail, not a second independent price. |
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each
