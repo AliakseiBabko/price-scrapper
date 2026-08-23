@@ -2,6 +2,8 @@
 
 A single-sided walk-in's aisle is dead space a plain wardrobe doesn't need. Part of [[14_Furniture/Wardrobes_and_Storage|Wardrobes & Storage]].
 
+For the dated L-shaped hallway case, the dividing wall cost under 2,000 RUB (source date 2020-12-01). Using the trailing six-month USD/RUB average of 74.1231, `<2,000 RUB ÷ 74.1231 = <$26.98`, so the comparable ceiling is **under ≈$30**. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]]]
+
 ## Real Case: Two Wardrobes Beat One Walk-In
 
 **Real, client-confirmed project**: the client originally wanted a small single-sided walk-in entered from the living room, which would have forced the bed and a door opening to each shift ~700mm. Instead, the practitioner installed **two separate wardrobes sharing one ~100mm-thick dividing wall** — one for outerwear near the entry, one for shirts/blouses/dresses in the bedroom — losing only the 100mm wall thickness total while gaining two full-depth storage runs **and improved inter-room soundproofing** (a wardrobe run acts as an acoustic buffer). The client confirms the outcome positively on camera — the strongest evidence tier for this topic. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Xh7uwbKVmfA_two_wardrobes_beat_walk_in|Xh7uwbKVmfA_two_wardrobe]]]

@@ -289,6 +289,13 @@ original currencies, and original amounts remain unchanged.
 | `D-GD-029` | `guide_detail` | `12_Engineering_and_Systems/analysis/AC_Sizing_and_Selection.md`, BURO AC-system cost comparison | resolved | Added date-anchored ≈$2,500, ≈$6,300–$8,800, ≈$12,600–$37,800, ≈$18,900–$63,000, and ≈$60–$630/m² equivalents using trailing 6-month average 79.39. |
 | `D-GD-030` | `guide_detail` | `12_Engineering_and_Systems/analysis/Hygienic_Shower_and_Towel_Warmer.md`, towel-warmer/leak-protection costs | resolved | Added date-anchored ≈$100–$160, ≈$30, ≈$310–$520, and <$1/month equivalents using trailing 6-month average 95.97. |
 
+## Turn 20 (CODEX) — Wardrobes guide/detail slice
+
+| Slice ID | Scope group | Entry anchor | Status | Disposition |
+| :--- | :--- | :--- | :--- | :--- |
+| `D-GD-031` | `guide_detail` | `14_Furniture/Wardrobes_and_Storage.md`, dated dividing-wall cost supporting built-in wardrobe conversion | resolved | Added under ≈$30 for the source's <2,000 RUB cost using the 2020-12-01 trailing six-month USD/RUB average of 74.1231; hand-check: 2,000 ÷ 74.1231 = 26.98, which rounds to $30 in the nearest-$10 bucket. |
+| `D-GD-032` | `guide_detail` | `14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff.md`, same dated 2.16m dividing-wall case | resolved | Added the same claim-local under ≈$30 equivalent and derivation; this is one source/cost event repeated across guide and detail, not a second independent price. |
+
 **History (2026-08-21)**: the original batch claimed 24 lines with generic
 "2026 price-bearing line N" labels; a CLAUDE review found 4 were misplaced
 (3 appended to Markdown headings instead of price rows, redundant with each
