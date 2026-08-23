@@ -23,6 +23,8 @@ Zemstandart/Alexey Zemskov recommends: **A mirrored walk-in needs 1.7m minimum w
 
 ## Wardrobe vs. Walk-In: The Core Tradeoff
 
+For the dated L-shaped hallway case, the dividing wall cost under 2,000 RUB (source date 2020-12-01). Using the trailing six-month USD/RUB average of 74.1231, `<2,000 RUB ÷ 74.1231 = <$26.98`, so the comparable ceiling is **under ≈$30**. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]]]
+
 Zemstandart/Alexey Zemskov warns: **Before defaulting to a walk-in, check whether two adjoining rooms could each get their own wardrobe against a shared thin wall instead** — a real, client-confirmed project did exactly this (two wardrobes sharing a ~100mm dividing wall) instead of a single-sided walk-in that would have forced the bed and a doorway to shift 700mm, gaining two full-depth storage runs plus improved inter-room soundproofing for the cost of just the wall thickness.
 
 Zemstandart/Alexey Zemskov reports: **A real quantified case worth knowing**: converting an awkward L-shaped hallway corner into two rectangular niches with a cheap (<2,000 RUB) dividing wall let a built-in wardrobe replace a free-standing one that would have wasted ~30% of its usable length on the transitional L-section — a concrete number behind the general "built-in beats corpus when the geometry allows it" theme.
