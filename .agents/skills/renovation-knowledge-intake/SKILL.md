@@ -438,19 +438,26 @@ For one source at a time:
    **Rounding, per explicit user correction (2026-08-21)**: a USD-equivalent
    is a comparability aid for an approximate figure, not a transaction
    record — never show cents/decimal places. Round to a whole dollar at
-   minimum, and round further to match the precision the source itself
-   actually has: most RUB/BYN figures in this store are already round
-   numbers or open-ended ranges (`"4,000 RUB/m²"`, `"~32,000 RUB"`,
-   `"150,000+ RUB/m²"`), so their USD equivalents should be similarly round
-   (e.g. `4,000 RUB → ~$50/m²`, not `$47.2/m²`; `32,000-130,000 RUB → ~$500-$2,000`,
-   not `$494.6-$2,009.3`) — round to 1-2 significant figures
-   for values under ~$1,000 and to the nearest $50-100 for larger values,
-   using judgment for the source's own apparent precision. The exception is
-   a figure that is itself genuinely exact — a real stated transaction total,
-   or one recovered by an explicit arithmetic cross-check against other
-   stated figures in the same source (e.g. the 7komnat.by case's
-   $70,000/52m² totals) — those stay precise, since rounding them would
-   discard real information rather than avoid manufacturing false precision.
+   minimum, and round further to a fixed bucket by magnitude, not by eye:
+   **nearest 10 below $1,000, nearest 100 from $1,000-$99,999, nearest
+   1,000 above that** (e.g. `4,000 RUB → ~$50/m²`, not `$47.2/m²`;
+   `32,000-130,000 RUB → ~$500-$2,000`, not `$494.6-$2,009.3`). The
+   exception is a figure that is itself genuinely exact — a real stated
+   transaction total, or one recovered by an explicit arithmetic
+   cross-check against other stated figures in the same source (e.g. the
+   7komnat.by case's $70,000/52m² totals) — those stay precise, since
+   rounding them would discard real information rather than avoid
+   manufacturing false precision.
+
+   **Self-check before reporting, don't just eyeball the total**: an
+   off-by-a-few-dollars miss on the rounding bucket (e.g. `$63` instead
+   of the correct `$60`, or `$53,000` instead of `$53,200`) is easy to
+   miss by reading the total and hard to catch after the fact — it has
+   happened twice (`PRICE_SCRAPPER_USD_BACKFILL_RESIDUAL` rounds 2 and 7).
+   `tools/verify_batch.py`'s `check_rounding_bucket` check now catches
+   this automatically for any newly-added `≈$` figure — run it (or read
+   its JSON `problems` for `"check": "rounding_bucket"`) before reporting
+   a batch as done, not only after a reviewer flags it.
 5a. **When a source's content instead (or additionally) gets folded into
    a room or systems wiki page** (`07_Bathroom/Bathroom_Guide.md`,
    `12_Engineering_and_Systems/*`, `13_Surfaces_and_Finishes/*`,

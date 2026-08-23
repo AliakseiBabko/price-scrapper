@@ -59,6 +59,27 @@ a reopened dialogue, or a short review file) as the demonstration.
   rule for the caveat; no outstanding action, just a landmine to remember
   if a pre-2016 Belarusian source shows up.
 
+## Legacy rounding-bucket sweep (found 2026-08-23, round 7)
+
+`tools/verify_batch.py` gained a `check_rounding_bucket` check (2026-08-23)
+that flags any `≈$` figure not landing on the correct nearest-10/100/1,000
+bucket for its magnitude (see SKILL.md §5b's rounding rule). Round 7 found
+and fixed 3 instances live (`AC_Sizing_and_Selection.md` + two already-merged
+`Numeric_Data.md`/`USD_Backfill_Inventory.md` entries from an earlier
+round), but a full-history scan (`--base <root-commit> --head main`) found
+**50 pre-existing violations** across the wider repo, including files
+outside this dialogue's current scope: `Change_Log.md`,
+`Cross_Source_Comparison_Tables.md`, and both case-study files
+(`7komnat_novaya_borovaya_52m2_case.md`,
+`yana_vrublevskaya_minsk_mir_studio_2023_case.md`). Not swept — this is a
+dedicated future round's worth of work, not something to fold into an
+in-progress batch. When resuming: run the full-history scan first to
+re-derive the current count (new content may have added or fixed more
+since), then work through them the same way round 7 did (re-derive the
+correct rate/amount from `currency_converter.py` directly, don't just
+apply the nearest-bucket formula blind — some may also have a stale rate
+or amount, not just a rounding miss).
+
 ## Tooling limitations (known, not urgent)
 
 - `tools/verify_batch.py`'s arithmetic-plausibility check only fires on
