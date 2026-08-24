@@ -147,6 +147,20 @@ Note: videos 5-7 carry no visible episode number in the title but sit chronologi
 
 Further rounds (New Building #16–42 remainder is now closed out through #27; then Khrushchevka #1–36, then technique-cluster rounds) will be planned round-by-round as processing proceeds, given the scale (310 videos remaining after this round) — not fully pre-planned in one pass. **Next chunk: New Building A-to-Z episode #28 onward** — re-derive from the channel manifest rather than assuming episode numbers, since this channel continues to interleave unlabeled videos between numbered ones.
 
+### Round 6 — New Building A-to-Z, episodes #29–31 + 4 unlabeled (7 videos)
+
+| # | Video ID | Title | Status |
+|---|---|---|---|
+| 1 | `G03YKmotYP4` | TOP 10 Primer Questions. | pending |
+| 2 | `92hhojQNQTw` | What should be considered when installing PVC windows? Errors. | pending |
+| 3 | `g1AlMVjUIbU` | Screed. Removing beacons. Work on bugs. #29 | pending |
+| 4 | `IErdxS-CUQA` | Installation of window sills from a compact plate. Better than PVC. #30 | pending |
+| 5 | `1f57Pza17Iw` | The entire screed with sound insulation in 40 minutes. TimeLapse | pending |
+| 6 | `VBmj2IapR6Q` | 3 ways of plastering slopes. Which is better? #31 | pending |
+| 7 | `qmJspV-6qlQ` | Wall and ceiling putty. 3 ways. What's the fastest? | pending |
+
+Note: videos 1, 2, 5, 7 carry no visible episode number but sit chronologically between confirmed #27 and #31 — check each video's own content for series continuity per the established pattern (confirm/deny per video, don't assume from position alone).
+
 ## Progress Log
 
 - 2026-08-24 — Channel discovered and preflighted while the Kruglov/Ontario channel's Round 4 was paused on a YouTube rate-limit — switching channels rather than waiting out the cooldown, per explicit user direction. Plan file created, 5-video trial batch dispatched.
