@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Is76QlotVFE",
+  "video_id": "Is76QlotVFE",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T06:45:40.588020+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "038875b6bd0b862e88d1c0f7e18e837c65f2168d125310e9f3331e57457ff15d",
+  "attempts_before_success": []
+}

@@ -1,5 +1,7 @@
 # Walls & Paint - Do's and Don'ts
 
+See [[13_Surfaces_and_Finishes/analysis/Soundproofing|Soundproofing]] for wall/floor/ceiling soundproofing material types, the per-wall decision framework, and floor-vs-ceiling cost reality (added 2026-08-24, once this sub-topic reached 3+ sources with no dedicated page).
+
 ## Substrate Compatibility & Real-World Deviation Costs — per Zemskov/Zemstandart (added 2026-08-19)
 
 > [!NOTE]

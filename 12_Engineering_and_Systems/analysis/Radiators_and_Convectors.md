@@ -1,5 +1,63 @@
 # Heating — Floor-Standing Radiators & In-Floor Convectors
 
+## Vertical Riser: Bypass Requirement, Replacement Decision, and Boxing Methods (added 2026-08-24, Round 3)
+
+Konstantin Kruglov / Ontario explains: **⚠️ replacing a radiator on a vertical riser requires the management company to install shutoff valves above and below it, plus a bypass** — a short pipe connecting supply and return around the radiator so the shared riser keeps flowing to floors above while this unit's radiator is isolated. **The bypass itself must never have a valve on it and must always stay open.** If full isolation capability isn't something you actually want to use, there's no need to add shutoff valves at all — keep the developer default as-is. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+**Two concrete methods for boxing in an exposed vertical riser** (extends the boxing-permitted-with-access-hatch rule already on `Rough_Plumbing_Sequencing.md`): [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+1. **L-shaped enclosure box** — consumes essentially zero usable floor area; include a small access hatch at the bottom (finished with matching wallpaper/paint) so a future inspection needs only that hatch opened, not the whole box removed.
+2. **False wall with a radiator niche** (open or covered with a purchased/custom screen) — genuinely new bonus-benefit list: a deeper window reveal/sill (room for an outlet, more usable sill depth), and a clean baseboard-to-corner transition where it meets a stretch ceiling, versus two baseboard runs butting awkwardly into an exposed pipe. Material cost roughly offsets the plastering labor it replaces.
+
+## Sequential Distribution: Refined Connection Count, and Panoramic-Glazing Fix Detail (added 2026-08-24, Round 3)
+
+Konstantin Kruglov / Ontario gives a more granular connection count for sequential distribution than the 12-tee figure above: **each tee has 3 physical joints, and 2 tees (supply + return) serve each radiator, so 6 connection points per radiator** — 18 for 3 radiators, 24 for 4. Same underlying risk (any one leaking connection floods the neighbor below and the unit itself) at a finer level of detail, not a contradiction of the tee-count figure. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+For the panoramic-glazing convector warmth-vs-quiet trade-off above: **add a supplementary wall-mounted hydronic radiator (vertical or horizontal, wherever it fits near the window)** when redoing the distribution — a second, silent, radiant heat source alongside the existing in-floor convector, closing the heat shortfall without the fan noise. If an electric convector is used as the supplement instead, this source claims it noticeably depletes/dries room oxygen/humidity in a way a hydronic radiator doesn't — `single-account`, `unverified`, recorded as stated but the underlying mechanism is unclear (an electric resistive convector doesn't combust anything), so treat skeptically. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+**Named brand**: a popular bimetallic-radiator brand on this market, cited as "Faral"/"Rifar" depending on transcription — `single-account`, `unverified`, brand name uncertain from ASR audio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+## Leak-Protection Sensor and Thermostatic-Head Opinions (added 2026-08-24, Round 3)
+
+Konstantin Kruglov / Ontario: **⚠️ a wireless leak-protection sensor tag suits an in-floor convector (sits undisturbed inside the housing) but is often more nuisance than benefit on an exposed surface-mounted radiator** — a loose tag near a surface radiator gets knocked around by pets or a robot vacuum. Recommendation: skip the leak-protection sensor for ordinary surface radiators if quality fittings were used and the system was properly pressure-tested; reserve it for an in-floor convector installation. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+**Explicit personal opinion against thermostatic radiator valve heads, flagged as such by the source itself**: debris/grit entering the system can lodge in a thermostatic head's valve and cause persistent whistling; every added regulating mechanism is one more failure point. Preference: on a radial/manifold system, simply close the manifold's own valve for that radiator's line instead of fitting a thermostatic head. The presenter explicitly invites disagreement — tag as opinion, not a settled store-level rule. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+## Radiator vs. Convector: the Underlying Physics (added 2026-08-24)
+
+Konstantin Kruglov / Ontario explains: **⚠️ a convector heats a room almost entirely by convection; a radiator heats by both convection and direct radiant heat — a clear mechanism distinction underlying every other tradeoff between the two fixture types.** A convector's thin water-carrying tube, finned with aluminum or copper to maximize air-contact surface area, warms only the air passing between its fins — cold air enters low, warms, rises, and pulls more cold air in behind it (a self-sustaining convection loop); a fan-assisted convector speeds this cycle but at a real, audible noise cost (a plain convector doesn't disturb sleep, a fan-assisted one is genuinely noticeable at night). A radiator runs the same convection loop *and* radiates heat directly into the furniture, walls, and floor around it. **Bottom line: a radiator heats everything around it including the walls; a convector only heats the air directly above itself.** Radiators are more massive and slower to heat up, but hold warmth significantly longer once hot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
+
+**Designer/architect practice — supplementing an in-floor convector with an additional vertical wall radiator**: at extreme cold (source's example: -30°C), a convector's air-only heating doesn't project far enough into a room — a bed against the far wall from the window may not receive adequate warmth. A slim vertical wall radiator, taking minimal floor space, increases in-room air convection and closes this gap. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
+
+## Moscow Developer Default Radiator Materials (added 2026-08-24, level-1 region)
+
+Konstantin Kruglov / Ontario reports: **Moscow developers most commonly install sectional aluminum radiators or panel-type steel radiators by default, with bimetallic radiators used more rarely.** All three are reasonably reliable as a developer default — if the appearance is acceptable to the owner, there's no technical need to replace them. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
+
+## Radiator Connection Side (added 2026-08-24)
+
+**⚠️ Bottom-through-the-floor radiator connection (two pipes protruding from the finished floor) is explicitly discouraged**: unattractive, obstructs normal cleaning (neither a robot vacuum nor manual cleaning works properly around protruding pipes), and requires cutting into the finished floor covering for the penetration. **Through-the-wall connection is recommended instead** — doesn't compromise the floor covering and doesn't interfere with cleaning or a robot vacuum. Applies to horizontal/sequential and radial distribution; a vertical-riser system has no such choice (side connection only). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
+
+## Radiator Comparison by Construction Material (added 2026-08-24)
+
+| Type | Pros | Cons | Recommended use |
+| :--- | :--- | :--- | :--- |
+| **Bimetallic** (steel tube core, aluminum fins) | Withstands up to 30 atm; fits any distribution scheme; strong heat output; resists water hammer; modern styling; comparatively simple install | More expensive than aluminum/steel; frequently counterfeited (labeled bimetal, actually pure aluminum) | **Best fit for this market's central-heating apartments** |
+| **Aluminum** (sometimes silicon-added) | Very high heat output; light, easy install; cheaper than bimetallic; wide shape/color range | Poor excess-pressure tolerance; corrodes in aggressive water chemistry; vulnerable to water hammer | Private houses or buildings with individual (non-central) heating, not central-apartment heating |
+| **Cast iron** | Very high thermal mass — slow heat/cool, holds warmth long; up to 50-year service life; indifferent to heat-transfer fluid; corrosion-resistant | Very heavy, hard to install; slow to warm a cold room; collects dust internally, hard to clean; limited design range (some retro exceptions) | Legacy default; viable where thermal mass and durability matter |
+| **Steel** (flat-panel + ~95%-of-tubular/designer radiators) | Stylish, modern (tubular type); fast heat-up and cool-down | Vulnerable to water hammer; corrosion-prone (worse where risers are periodically drained); short life on a standard central system | Cottages/private houses, or new-build apartments with reduced pressure and horizontal-only (not riser) distribution |
+
+**⚠️ Safety rules for installing a stylish steel tubular radiator on a central system anyway**: buy only from verified manufacturers; confirm the model is tested to withstand ≥10 atm; prefer internal anti-corrosion treatment; always install through a ball valve, filter, and automatic air bleed valve; **never on a vertical-riser system — radial distribution only.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
+
+## Presenter's 7-Rule Heating Checklist (added 2026-08-24, Round 3)
+
+Konstantin Kruglov's own quick-reference checklist for apartment heating decisions: (1) secondary-market unit with never-replaced radiators → replace them; (2) vertical riser present → conceal with an L-shaped box (access hatch) or a false wall with radiator niche; (3) sequential/horizontal distribution → convert to radial; (4) a room with only in-floor convectors → reinforce with one additional wall-mounted radiator; (5) enclosing/insulating a loggia/balcony → add underfloor heating *and* a dedicated outlet or pre-installed electric convector for fast air heating (see [[12_Engineering_and_Systems/analysis/Heating_Placement_Rules|Heating Placement Rules]]'s loggia speed-caution nuance); (6) worried about future leaks → install leak protection, but expect it to suit an in-floor-convector configuration much better than exposed surface radiators (see [[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak Protection Systems]]); (7) want a stylish look → steel tubular radiators; want the best price/quality balance → bimetallic radiators. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+## Radiator Construction Type, Spacing, and Sizing Formula (added 2026-08-24)
+
+- **Build type**: sectional (add/remove sections to hit a target output) vs. panel (fixed manufactured output rating); also differ by mounting orientation (vertical vs. horizontal). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
+- **Center-to-center ("inter-axial") spacing standard**: 500mm is by far the most common dimension between a radiator's top and bottom connections; less common alternatives at 300mm, 350mm, 600mm, and 800mm. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
+- **⚠️ Sizing formula, with worked example**: 100W of output per m² of floor area, valid up to a 2.7m ceiling height. A 20m² room needs 2,000W total; at 200W per radiator section, that's 10 sections. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
+
 Part of [[12_Engineering_and_Systems/Heating|Heating]]. Covers the two "skip the false wall" heating-fixture options and why a wall-mounted radiator behind a false wall is the default recommendation over both.
 
 > [!NOTE]

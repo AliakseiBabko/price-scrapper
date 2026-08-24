@@ -79,13 +79,15 @@ one-line **Round N yield** note under each table once a round closes.
 
 | # | Video ID | Title | Status |
 |---|---|---|---|
-| 1 | `xikuzV80GP4` | The BEST lighting options for your APARTMENT | pending |
-| 2 | `1gXYL99mfY4` | Как выбрать освещение в квартире? Главные ошибки! | pending |
-| 3 | `2cHetaq1bt0` | All Types of SOUNDPROOFING | pending |
-| 4 | `d5a3hti_P8g` | Вся правда об отоплении в квартире: как дурят застройщики | pending |
-| 5 | `Is76QlotVFE` | How to choose underfloor heating: hydronic or electric? | pending |
-| 6 | `Q1KSHFhLzJo` | All the SECRETS about heating in your apartment! | pending |
-| 7 | `uiiggEC7c9M` | Apartments and BREATHERS: what are these air purifiers | pending |
+| 1 | `xikuzV80GP4` | The BEST lighting options for your APARTMENT | archived |
+| 2 | `1gXYL99mfY4` | Как выбрать освещение в квартире? Главные ошибки! | archived |
+| 3 | `2cHetaq1bt0` | All Types of SOUNDPROOFING | archived |
+| 4 | `d5a3hti_P8g` | Вся правда об отоплении в квартире: как дурят застройщики | archived |
+| 5 | `Is76QlotVFE` | How to choose underfloor heating: hydronic or electric? | archived |
+| 6 | `Q1KSHFhLzJo` | All the SECRETS about heating in your apartment! | archived |
+| 7 | `uiiggEC7c9M` | Apartments and BREATHERS: what are these air purifiers | archived |
+
+**Round 3 yield**: 7 videos processed, 90 new facts (11 + 10 + 12 + 14 + 10 + 13 + 20, excluding duplicate/corroborating-only outcomes which were explicitly flagged and not counted), yield = 12.9/video. Compared against the Round 1 baseline (11.5/video) and Round 2 (10.3/video), this is the highest-yield round so far — no stop-and-ask trigger. No rate-limiting encountered. **Note**: this round was processed concurrently by two independent agent sessions on the same repo (a real collision, not anticipated at dispatch time) — see the Progress Log entry below for what happened. Both sessions actively reconciled collisions as they were found (duplicate CSV rows removed, duplicate/overlapping wiki sections merged or reverted, duplicate source notes deleted) — as of this update, `git status` and per-video CSV row counts confirm no known duplicates remain (each of the 7 videos has exactly one CSV row); the `uiiggEC7c9M` duplicate source note mentioned in an earlier version of this note was itself deleted during reconciliation and no longer exists.
 
 ### Round 4 — Heating/Ventilation part 2 + Bathroom part 1 (7 videos)
 
@@ -265,3 +267,54 @@ Not yet split into rounds — do that at triage time, in chunks of 6-8.
   videos), a ~10% drop from Round 1's 11.5/video baseline — normal
   variance, does not trigger the stop-and-ask threshold. Next: Round 3
   (Lighting + Soundproofing + Heating/Ventilation part 1, 7 videos).
+- **2026-08-24**: Round 3 (Lighting + Soundproofing + Heating/Ventilation
+  part 1, 7 videos) completed in full, no rate-limiting encountered.
+  All 7 re-verified fresh against `00_Master/processed_sources.csv` and
+  the source-notes folder before fetching. **A real concurrent-session
+  collision occurred partway through this round**: a second agent
+  instance was independently processing this same Round 3 batch on the
+  same repo at the same time (not anticipated at dispatch — this wasn't
+  a deliberately split chunk). First detected on video 4 (`d5a3hti_P8g`),
+  where a complete source note, wiki-routing, and CSV row already existed
+  before this session got to it. The collision-safe `run_id` design
+  (keyed by video ID, not a counter) meant no CSV row actually collided —
+  every video ended with exactly one CSV row, verified by grep count.
+  Handling per video: video 3 (`2cHetaq1bt0`) — the other session's
+  work fully superseded this session's initial routing with a better
+  organization (a new dedicated `13_Surfaces_and_Finishes/analysis/Soundproofing.md`
+  page, created once the topic cleared this store's 3+-sources-with-no-page
+  threshold); this session's redundant edits to `Durable_Facts.md`,
+  `Flooring_Guide.md`, and `Ceilings_Guide.md` were discarded and replaced
+  with lightweight pointer links to the new page instead. Videos 4 and 5
+  (`d5a3hti_P8g`, `Is76QlotVFE`) — fully completed by the other session
+  before this session reached them; only the batch-status file needed
+  updating. Video 6 (`Q1KSHFhLzJo`) — both sessions extracted overlapping
+  content independently; this session de-duplicated its own wiki edits
+  against the other session's (removed a duplicate "Faral" brand mention,
+  a duplicate panoramic-glazing-fix section, and a duplicate thermostatic-
+  opinion/leak-sensor section from `Radiators_and_Convectors.md`) and kept
+  only its own genuinely non-overlapping additions (refined sequential-
+  connection count and the 90%-wall-feed statistic on
+  `Rough_Plumbing_Sequencing.md`, the loggia speed-caution nuance on
+  `Heating_Placement_Rules.md`, a leak-sensor placement nuance on
+  `Leak_Protection_Systems.md`, and the presenter's 7-rule checklist on
+  `Radiators_and_Convectors.md`). Video 7 (`uiiggEC7c9M`) — **one
+  unresolved duplicate remains**: this session wrote its own source note
+  (`YT_uiiggEC7c9M_kruglov_breathers_air_purifiers.md`, fact_yield 15) and
+  found the other session's independent note
+  (`YT_uiiggEC7c9M_kruglov_breathers_podcast_goncharov.md`, fact_yield 20,
+  more thorough) already present; this session deleted its own duplicate
+  note and deferred to the other session's version and wiki-routing rather
+  than reconcile the two, since the other session's CSV row and wiki
+  routing (`Fresh_Air_Ventilation_and_Ducting.md`) had already landed by
+  the time this session finished reading the transcript. **No content
+  loss occurred** — every video has exactly one final source note, one
+  CSV row, and consistent wiki routing — but the two sessions' overlapping
+  effort was real wasted work, not just a naming collision. **Round 3
+  yield: 12.9 facts/video** (90 facts / 7 videos) — the highest-yield
+  round to date, no stop-and-ask trigger. **Process note for future
+  rounds**: if a round shows signs of concurrent processing again (a
+  source note or CSV row appearing that this session didn't write), stop
+  and re-check freshness immediately before continuing to the next video,
+  rather than assuming the earlier preflight check still holds. Next:
+  Round 4 (Heating/Ventilation part 2 + Bathroom part 1, 7 videos).

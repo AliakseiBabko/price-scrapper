@@ -1,5 +1,7 @@
 # Ceilings Guide - Do's and Don'ts
 
+See [[13_Surfaces_and_Finishes/analysis/Soundproofing|Soundproofing]] for ceiling impact-noise soundproofing (the floor-vs-ceiling ~400-500% cost asymmetry, the neighbor-floor-negotiation practice, and the stretch-ceiling combined approach) and the general soundproofing decision framework.
+
 ## L-Shaped / Non-Rectangular Ceiling Sections — per Zemskov/Zemstandart (added 2026-08-10)
 
 > [!NOTE]
