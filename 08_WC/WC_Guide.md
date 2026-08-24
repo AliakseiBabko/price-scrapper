@@ -122,6 +122,17 @@ Zemstandart / Alexey Zemskov makes both floor-level claims, via `YT_EnSpVCSUiqg.
 - **⚠️ A bathroom floor must never be raised *above* the surrounding apartment floor level — a genuinely important leak-containment mechanism, not just an accessibility preference.** A documented defect found the bathroom floor 3cm *higher* than the rest of the apartment (extra screed poured specifically inside the bathroom) — the source calls this backwards: **if not building flush with full-apartment waterproofing, the correct direction is a shallow recessed basin (lower, not higher), so a leak stays contained and can be manually bailed toward the drain/toilet rather than flowing out into the rest of the unit.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ROv1BuBfECU_designer_disaster_35m_281|ROv1BuBfECU_designer_dis]]]
 - **Two valid methods only, never mixed at the same threshold**: (1) a raised-threshold system with an angled corner molding positioned directly under the door leaf, or (2) a flush, single-level transition (requiring whole-apartment waterproofing per the rule above) with a plain straight seam, also positioned under the door leaf. **Two corner moldings must never coexist at the same transition** — a documented defect had both types present together, explicitly flagged as a "never do this." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ROv1BuBfECU_designer_disaster_35m_281|ROv1BuBfECU_designer_dis]]]
 
+## 4a. Toilet-Bowl Forced Ventilation Fan — a Distinct Mechanism from Room Ventilation (Петришин-Строй, added 2026-08-24, Round 10)
+
+A ventilation fan built into the toilet bowl rim (a premium-brand upcoming
+product at time of filming, price not yet set) captures odor **at the
+source inside the bowl** before it disperses into the room air, rather
+than relying on a room-level exhaust fan to remove already-dispersed odor
+after the fact. Wired to share a switch with the room's light fixture for
+simultaneous activation; can vent to either the building's existing
+ventilation duct or a dedicated outside vent. `single-account`,
+brand-specific, region unresolved. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zZ_1iOXL_wA_petrishin_installation_frame_shower_furniture_expo|zZ_1iOXL_wA]]]
+
 ## 5. Quick Reference
 
 See [[08_WC/analysis/Dos_and_Donts|the companion Do's and Don'ts table]] for the sourced rule/reason/risk format shared across this vault's room pages.

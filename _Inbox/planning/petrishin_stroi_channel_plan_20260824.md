@@ -1037,3 +1037,105 @@ Video 1 (`zuh3k15-STo`) carried an English on-screen title ("What is a master sw
   re-verified via Python's `csv` module to parse into the correct 15
   columns each with `archived` status. `tools/verify_batch.py` to be run
   against the pre-round commit (`7d0f0d0`) before finishing.
+
+## Round 10 — Bathroom/plumbing product selection, baseboard/flooring, electrical routing decision, radiator flood incident, wall/ceiling soundproofing frame technique (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing, a fresh 8-video selection from the
+341-video manifest (272 fresh/unprocessed at the start of this round),
+favoring named-technique, real-problem-diagnosis, and product-selection
+content over recap "ТОП-N ошибок," multi-apartment "экспресс-обзор," or
+pure room-tour formats. Includes an explicit cross-check of video 2
+against Round 8's faucet/plumbing-cabinet video, video 4 against
+`Flooring_Guide.md`'s existing 5-material comparison, video 6 against
+this channel's other flood incidents (towel-warmer, ventilation-defect),
+and videos 7-8 against each other and against existing `Soundproofing.md`
+content.
+
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `zZ_1iOXL_wA` | Как выбрать инсталляцию унитаза, душ, мебель для ванной. | Toilet-installation-frame, shower, bathroom-furniture selection | **PARTIAL extraction — title/format mismatch** | 8 | Single-brand premium trade-show/showroom interview (toilet installation frames, overhead shower systems, vanity furniture, linear drains), not a how-to-choose explainer — same sub-format as Round 9's tile-expo video. High promotional ratio; luxury EUR/RUB list pricing (≈€15,000 shower system, 30,000-400,000+ RUB furniture tiers) excluded per value-filter. Region unresolved (international trade fair). New: installation-frame load distribution independently corroborating the existing 400kg Kruglov/Ontario figure from a second brand, frame repair/warranty terms, tile-to-metal cold-crack risk, corner-mount bracket kit, in-bowl forced-ventilation-fan concept, three-tier linear-drain product ladder. |
+| 2 | `fIicREPruVs` | Как выбрать смесители, поддоны, раковины, зеркала. Советы и ошибки. Выставка Mosbuild. | Faucets/shower-trays/sinks/mirrors at Mosbuild; explicit cross-check vs. Round 8 faucet/plumbing-cabinet video | **PARTIAL extraction — heavily ASR-garbled** | 5 | Multi-brand Mosbuild booth-hopping tour, high promotional ratio, several ASR-uncertain numbers deliberately excluded. **Explicitly cross-checked against Round 8's `D-DFsBMjlxQ`** — confirmed no overlap (that source is concealed plumbing-cabinet engineering; this is a retail-fixture showroom tour). Region unresolved. New: pre-sloped factory shower-pan product category, foldable shower seat, decorative radiator cover, heated anti-fog mirror, concealed-valve rough-in depth caution. |
+| 3 | `cyV4ePfTtVg` | Как выбрать плинтус? Основные принципы и частые ошибки. | Baseboard/skirting-board selection, likely new sub-topic | **SKIPPED — no captions available** | 0 | Both `youtube-transcript-api` (subtitles disabled) and `yt-dlp` (no subtitle tracks for ru/en) failed, `reason_class: null` for both attempts — a genuine per-video no-captions failure, **not** a rate-limit/IP-block signature. Not fetched, not extracted. |
+| 4 | `k9CrEU5RuIE` | Как выбрать напольное покрытие? Частые ошибки и главные принципы. | Flooring-selection principles; explicit cross-check vs. `Flooring_Guide.md`'s Round 3 5-material comparison | **FULL extraction — title/content mismatch, useful gap-filler** | 7 | Another Mosbuild expo tour (same co-host Ekaterina as video 2), brief flooring-material segment pivoting mostly to baseboard/tile-trim selection — **incidentally substitutes for video 3's gap** on baseboard content. Medium promotional ratio (one company-promotion segment excluded). **Explicitly checked against `Flooring_Guide.md`'s 5-material comparison — no overlap.** Region unresolved. New: carpet residential-use exclusion, cable-channel baseboard, Scandinavian white-baseboard product, tile-corner-trim thickness ladder, ⚠️ baseboard-width-to-expansion-gap coordination rule, pipe-riser escutcheon collars, two balcony budget wall-finish options. |
+| 5 | `yyW9WaW3Pls` | Электромонтаж по полу или потолку? Как лучше и дешевле. Все за и против. Ремонт ЖК Аэробус. | Electrical wiring routing decision, not yet covered by this channel (Rounds 2/4/7/8/9) | **FULL extraction** | 10 | Real 117m², 4-room apartment, ЖК Аэробус. **Region level 2** (named development, no city spoken). Low promotional ratio. Full floor-vs-ceiling routing decision framework plus a rare real arithmetic-checkable worked cost comparison (≈62,000 RUB more expensive for full-ceiling vs. full-floor routing on this specific object). New: color-coded conduit convention, structural outlet-height reasoning, combined/hybrid routing rationale, conduit-to-screed fixing over floor soundproofing, junction-splice placement rule, flood-safety business-experience claim, counter-intuitive wire-non-replaceability-in-conduit caution. |
+| 6 | `GLU9nJYrtbQ` | Потоп от радиатора! Что делать и кто виноват? ЖК Рассказово. | Real radiator-flood incident, liability determination; explicit cross-check vs. towel-warmer/ventilation-defect flood incidents | **FULL extraction — real incident case study** | 11 | Real active flood incident filmed 4 days after the fact, ЖК Рассказово. **Region level 2** (named development, no city spoken). Low promotional ratio. **Explicitly cross-checked against Round 4's towel-warmer demolition-accident incidents and Round 9's concealed-ventilation-valve defect — confirmed a genuinely distinct mechanism** (developer heating-fitting failure during active renovation, not demolition damage or a years-later concealed defect) and a new liability-determination mechanism (upper-vs-lower connection point dispute). New: two-pipe non-radial topology whole-apartment-shutoff flaw, fitting failure point, unbranded-pipe red flag, confirmed same-day multi-leak pattern in the development, structured 4-factor root-cause theory, 7-item preventive checklist. |
+| 7 | `rEe5LHWj4fI` | Шумоизоляция стен в квартире. Каркас. Подробная видео инструкция. | Wall-soundproofing frame installation, detailed technique; cross-check vs. `Soundproofing.md` | **FULL extraction — first systematic soundproofing-installation source** | 14 | Detailed step-by-step wall-frame build, named ASTic/Acusti Group system (Vibrostek M, Connect PS, Шуманет Эко, триплекс/Soundline DB, Акулайн). Region unresolved. Medium promotional ratio (disclosed commercial affiliation). **Confirmed: the first genuinely systematic soundproofing-installation technique source on this vault** — existing `Soundproofing.md` content was taxonomy/comparison/case-mentions only. New: full material list, depth-budgeting worked example, hanger/profile spacing, two-screw QC rule, straightedge check, material-quality tell, insulation-density myth correction, board-orientation/staggered-seam rules, finishing technique. |
+| 8 | `O4pGx8ESHDU` | Шумоизоляция потолка. Монтаж звукоизолирующего подвесного потолка. | Ceiling-soundproofing companion technique; cross-check vs. video 7 and `Soundproofing.md` | **FULL extraction — 4th level-1 region source** | 12 | Companion build, same system, very likely same real object. **Region level 1 direct** (city "Реутов" plus a specific address named). Medium promotional ratio (same disclosed affiliation, candidly notes premium pricing). **Explicitly cross-checked against video 7** — several steps corroborate/restate (staggered seams, texture tell, eco-wool caution, sealant technique), correctly not double-counted. Genuinely new: laser-level low-point datum procedure, **the decoupling mechanism made concrete (temporary removable perimeter anchors)** — the single most important mechanism-level fact in this pair, fastener substitution for soft walls, two-tier connector system with a real documented fit tradeoff, string-line leveling, hanger-type load differentiation, Акулайн weight spec, elevator-size logistics caution, load-test demo, insulation datasheet composition. |
+
+**Status: COMPLETE — 7 of 8 videos fully fetched and processed (2 partial low-value/ASR-garbled passes on videos 1-2, 5 full extractions), 1 genuinely skipped for no captions (video 3), zero rate-limit issues.**
+
+**Round 10 yield**: 7 videos processed (video 3 not fetched — no captions, excluded from the denominator), 67 genuinely-new facts (8+5+7+10+11+14+12, excluding duplicate/corroborating-only outcomes), yield = 9.6 new facts/video — **101% of Round 9's 9.5 baseline**, well above the 1.0/video floor. No stop-and-ask trigger.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 7 successful fetches were serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV/archiving work between fetches — never an idle wait), consistent with every prior round's clean result on this channel. Video 3's failure was independently confirmed as a genuine no-captions case (`youtube-transcript-api`: "Subtitles are disabled for this video"; `yt-dlp`: no subtitle tracks for ru/en) — both attempts carried `"reason_class": null`, not the rate-limit/IP-block signature this project treats as a circuit breaker. Logged `status: skipped` with the specific reason, per the standing convention (not left pending, since this was a genuine per-video failure, not a block).
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence again varied video to video, not a fixed channel answer, consistent with every prior round. Per-video: video 1 (unresolved — international trade fair), video 2 (unresolved — international trade fair), video 4 (unresolved — international trade fair), video 5 (level 2 — named development ЖК Аэробус, no city spoken), video 6 (level 2 — named development ЖК Рассказово, no city spoken), video 7 (unresolved — no city/development named, though very likely the same object as video 8), video 8 (**level 1 direct** — city "Реутов" plus a specific street address named). This round's trade-show cluster (videos 1, 2, 4) pushed the unresolved count higher than most prior rounds, while video 8 delivered this channel's 4th level-1-confirmed source overall (after Round 1's Нахимовский проспект, Round 3's two Moscow-named sources, Round 4's four level-1 sources, Round 6's two).
+
+### Language check
+
+No English-titled video was encountered this round — all 8 selected videos had Russian titles. All 7 successful fetches confirmed Russian spoken audio (`youtube-transcript-api` returned `language: ru` for every fetch).
+
+### Cross-check findings, per this round's explicit brief
+
+- **Video 2 (Mosbuild faucets/fixtures) vs. Round 8's `D-DFsBMjlxQ` (plumbing-cabinet/water-inlet-node walkthrough)**: explicitly checked, confirmed **no overlap** — that source covers concealed plumbing-cabinet engineering (filters, pressure, meters); this one is a retail-fixture showroom tour (shower pans, seats, mirrors, sinks, radiator covers), a genuinely different sub-topic.
+- **Video 4 (flooring/baseboard) vs. `Flooring_Guide.md`'s Round 3 5-material comparison (`96mlkQoczI4`)**: explicitly checked, confirmed **no overlap** on the flooring-material content itself (this video's flooring-material segment is brief and only adds the carpet-exclusion note); the video's real value turned out to be its baseboard/tile-trim content instead, which incidentally, partially fills the gap left by video 3's no-captions failure.
+- **Video 6 (radiator flood) vs. Round 4's towel-warmer demolition-accident incidents and Round 9's concealed-ventilation-valve defect**: explicitly checked, confirmed a **genuinely distinct mechanism** — a developer heating-fitting failure during active renovation (not demolition-crew damage or a years-later concealed defect) — and a new liability-determination angle (which specific connection point failed, and was that the one anyone actually worked on) not present in either prior incident.
+- **Videos 7-8 (wall/ceiling soundproofing) vs. each other and vs. existing `Soundproofing.md` content**: explicitly cross-checked as instructed. Confirmed the same underlying acoustic principles (perimeter damper tape, vibro-hanger decoupling, staggered seams, named ASTic/Acusti Group materials) applied consistently to two different surfaces, with several steps genuinely restated between them (correctly not double-counted in video 8's tally) and several genuinely surface-specific additions in each (wall: depth-budgeting from the most protruding point; ceiling: laser-level low-point datum, two-tier connector grid). **Confirmed this is the first genuinely systematic soundproofing-installation technique source on this vault**, as opposed to the existing dB-figure/product-comparison content already there — and surfaced the single most important mechanism-level addition of the round: the *temporary, removable* perimeter track anchoring that's the actual construction step behind "vibration-damping hangers interrupt structural noise transfer," a mechanism this page previously described only abstractly.
+
+## Progress Log
+
+- 2026-08-24 — **Round 10 complete.** All 7 fetchable videos fetched
+  serialized one at a time with real spacing (interleaved with each
+  video's own full extraction/routing/CSV/archiving work), zero
+  rate-limit issues across the entire round. Video 3 (baseboard
+  selection) hit a genuine no-captions failure (confirmed via both
+  `youtube-transcript-api` and `yt-dlp` failure reason classes — neither
+  was rate-limit-related), logged `status: skipped` with the specific
+  reason. 5 full extractions + 2 partial low-value/ASR-garbled passes
+  (videos 1-2, both single-brand/multi-brand trade-show tours). Yield 67
+  new facts / 7 processed videos = 9.6 facts/video — 101% of Round 9's
+  9.5 baseline, well above the 1.0 floor — no stop-and-ask trigger.
+  Region checked explicitly per video: 3 unresolved (the trade-show
+  cluster), 2 at level 2 (both named developments), 1 unresolved despite
+  being very likely the same object as a level-1 source, and video 8
+  cleared level 1 directly (city "Реутов" plus a specific address) — this
+  channel's 4th level-1-confirmed round-level source. Language checked —
+  no English-titled videos this round, all 7 fetches confirmed Russian
+  audio. Four explicit cross-checks performed as instructed (see the
+  dedicated finding section above): video 2 vs. Round 8's faucet/
+  plumbing-cabinet video (no overlap, different sub-topic); video 4 vs.
+  Round 3's 5-material flooring comparison (no overlap; video 4's real
+  value was baseboard content instead, incidentally filling video 3's
+  gap); video 6 vs. Round 4's towel-warmer incidents and Round 9's
+  ventilation-valve defect (genuinely distinct mechanism and a new
+  liability-determination angle); and videos 7-8 vs. each other and vs.
+  existing `Soundproofing.md` content (confirmed the first genuinely
+  systematic soundproofing-installation source on this vault, and
+  surfaced the round's single most important mechanism-level finding —
+  the temporary/removable perimeter-anchor technique that concretely
+  achieves frame-system acoustic decoupling). Content routed to
+  `12_Engineering_and_Systems/analysis/Wall_Hung_Toilet_Installation.md`,
+  `Rough_Electrical_Sequencing.md`, `Radiators_and_Convectors.md` (2 new
+  sections: decorative covers, the real flood incident);
+  `07_Bathroom/analysis/Bathtub_and_Shower.md` (2 new sections),
+  `Fixtures_Mixers_and_Sinks.md`; `08_WC/WC_Guide.md` (toilet-bowl
+  ventilation-fan concept); `13_Surfaces_and_Finishes/Flooring_Guide.md`
+  (carpet exclusion, full baseboard-selection section),
+  `analysis/Soundproofing.md` (a major new full-installation-technique
+  section covering both wall and ceiling builds); `10_Balcony/Balcony_Index.md`
+  (2 budget wall-finish options); and `11_Budget_and_Planning/analysis/Demolition.md`
+  (a cross-reference to the new radiator-flood incident, distinguishing
+  it from the existing towel-warmer mechanism). All 7 processed
+  transcripts archived via `tools/youtube/archive_transcripts.py`
+  (dry-run first, all 7 matched correctly) — no manual `[source: ...]`
+  link fixes were needed this round (all note filenames already matched
+  the archived-transcript slugs the script produced). All CSV rows (5
+  `archived` + 2 `archived` partial + 1 `skipped`) independently
+  re-verified via Python's `csv` module to parse into the correct 15
+  columns. `tools/verify_batch.py` run against the pre-round commit
+  (`21207c7`) — passed clean on the first run, no mojibake, BOM,
+  retired-pattern, ID-drift, rounding-bucket, or arithmetic-plausibility
+  problems found.

@@ -79,3 +79,16 @@ Konstantin Kruglov / Ontario says: **glossy sink surfaces accumulate visibly mor
 **⚠️ Hygienic-shower/bidet-spray handedness, mechanism explained**: for a right-handed person, the toilet-paper holder stays on the dominant (right) side as usual, but the hygienic-shower spray should go on the *opposite* (left) side — the dominant hand does the washing while the non-dominant hand holds/aims the spray wand. A more mechanism-explicit refinement of this page's existing hygienic-shower-handedness guidance. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_eezwcNG-1qI_designer_project_walkthrough_269|YT_eezwcNG-1qI]]]
 
 **Narrow "nano-sink" sub-type caution**: a nano-basin sink isn't automatically the right choice for every tight WC — a narrower-but-longer basin variant of the same category can fit a cramped footprint better than the wider nano-sink variant. Verify the specific sub-type/proportions against the room's real footprint, not just the "nano" category label. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_eezwcNG-1qI_designer_project_walkthrough_269|YT_eezwcNG-1qI]]]
+
+## Heated Anti-Fog Mirror, and a Concealed-Valve Depth Caution (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
+
+`single-account`, heavily ASR-garbled trade-fair source, region
+unresolved, high promotional ratio. **Heated anti-fog mirrors with an
+integrated timer** were a common product category at this trade fair —
+a heating element prevents post-shower fogging, with a timer limiting how
+long the heater stays on. Separately: **before choosing any
+concealed/recessed-mount mixer or shower valve, confirm the wall/niche
+depth actually fits that specific model's rough-in body** — a light
+corroboration of this channel's recurring precision-recess-mounting theme
+(previously seen for LED transformers and other concealed fittings
+elsewhere on this vault), not a new mechanism on its own. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]

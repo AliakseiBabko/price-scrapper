@@ -365,6 +365,56 @@ demolition/grinding of already-placed material, genuinely difficult
 regardless of dust-control measures taken.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
 
+## Carpet (Ковролин) — Rarely Used in Residential Apartments (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
+
+`single-account`, trade-fair source, region unresolved. **Carpet is
+rarely chosen for a Russian apartment**, mainly relegated to hotels:
+high foot traffic soils it quickly, installation quality is
+inconsistent, and bacteria/insects can colonize it over time — more
+durable alternatives (quartz-vinyl, laminate, parquet, engineered board)
+are chosen instead for residential use, with carpet staying more common
+in bedrooms/children's rooms in a hospitality setting than in a typical
+apartment. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_k9CrEU5RuIE_petrishin_flooring_baseboard_mosbuild_expo|k9CrEU5RuIE]]]
+
+## Baseboard Selection — Cable Channel, Tile-Corner Trim, and a Width/Expansion-Gap Coordination Rule (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
+
+`single-account`, trade-fair source, medium promotional ratio, region
+unresolved.
+
+- **Cable-channel baseboard**: a baseboard with a **built-in cable
+  raceway**, distinct from a plain plastic baseboard's incidental
+  wall-gap routing (see the RemProektMD note on [[13_Surfaces_and_Finishes/analysis/Doors_Trim_Cost_and_Buying|Doors, Trim: Cost & Buying]]) — lets a budget renovation add
+  low-voltage wiring (network, phone, TV) into a room later without
+  chasing/cutting into the wall.
+- **White plastic baseboard (~8cm rectangular profile)** recommended for
+  Scandinavian-style interiors: doesn't yellow/darken over time (8-10
+  year no-yellowing warranty cited on a Polish import product), corner
+  caps don't detach, paint finish resists cleaning chemicals, and can be
+  repainted if desired.
+- **Tile external-corner trim, a thickness ladder matched to tile
+  format**: profile thickness options (~8mm/10mm/12mm) correspond to
+  different tile thicknesses/formats. Material choice is a cost/
+  aesthetic tradeoff: thin aluminum (cheaper) vs. thicker galvanized
+  metal, and unplated color-matched aluminum (blends into the tile) vs.
+  chrome/brass-plated trim (a deliberate shiny accent, pricier).
+- **⚠️ Baseboard-width-to-expansion-gap coordination rule**: a laminate/
+  engineered-board floor's thermal expansion gap ("термошов") at the
+  perimeter/pipe penetrations typically runs 8-12mm but varies
+  installer-to-installer by several millimeters — a too-thin baseboard
+  sole can leave that gap visible if execution isn't perfectly even.
+  **Specify the exact baseboard width and foot depth in the design
+  project itself**, so the flooring crew knows in advance how much
+  irregularity the baseboard will actually cover (a ~30-32mm-wide
+  baseboard with adequate foot depth comfortably covers even a sloppy
+  ±1cm gap variance) — rather than both trades separately assuming "the
+  baseboard will cover it" with no shared number.
+- **Decorative pipe/riser escutcheon collars ("гребёнки")**: trim rings
+  in multiple colors specifically to close the expansion-gap/cosmetic
+  seam around a heating-pipe riser passing through laminate,
+  quartz-vinyl, or parquet — matched to the flooring finish color.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_k9CrEU5RuIE_petrishin_flooring_baseboard_mosbuild_expo|k9CrEU5RuIE]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |

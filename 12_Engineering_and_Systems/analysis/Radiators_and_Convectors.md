@@ -182,3 +182,70 @@ A more severe version of the floor-standing radiator's problems, plus several un
 - **Physical-injury risk beyond the safety incident**: exposed edges snag/tear socks and can cut bare feet; stepping directly on a grille (especially metal) can break it and cause a foot to fall through; small pets can catch a leg in the grille slats. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|d6xjRRXeOnc_infloor_conv]]]
 
 **Bottom-line recommendation**: avoid in-floor convectors wherever a normal wall-mounted radiator (concealed behind a false wall if desired) is feasible instead. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|d6xjRRXeOnc_infloor_conv]]]
+
+## Real Radiator-Fitting Flood Incident — System Topology and a Liability-Determination Mechanism (Петришин-Строй, real ЖК Рассказово object, added 2026-08-24, Round 10)
+
+Real incident, region level 2 (named development, no city spoken), low
+promotional ratio. **Genuinely distinct mechanism from this vault's other
+flooding incidents** (see [[11_Budget_and_Planning/analysis/Demolition|Demolition]]'s towel-warmer/demolition-accident
+incidents and this channel's Round 9 concealed-ventilation-valve defect)
+— this is a **developer-installed heating-fitting failure during an
+active renovation**, not demolition-crew damage or a years-later
+concealed defect.
+
+- **⚠️ Two-pipe, non-radial ("двухтрубная не лучевая") heating-system
+  design flaw**: on this topology, one radiator's fitting failing forces
+  shutting off the **entire apartment's** heating to stop the leak, not
+  just the failed radiator — a real, checkable system-topology liability
+  worth asking about before choosing/accepting this heating layout.
+- **Failure point and liability mechanism**: a multi-connector
+  ("американка") push-fit fitting's rubber gasket burst at the **lower**
+  (shutoff/pressure-test-valve) connection point, not the **upper**
+  connection point where a radiator is routinely disconnected for
+  renovation work (painting, repositioning). The management company
+  blamed the contractor for "touching the radiator"; the plumbing
+  specialist's rebuttal — only the upper connection was touched, the
+  lower failure point never was — turns on this exact distinction.
+  **A concrete, reusable liability-determination question for any
+  similar dispute: which specific connection point failed, and was that
+  the one anyone actually worked on?**
+- **Material-traceability red flag**: the failed fitting/pipe carried no
+  visible manufacturer branding at all, contrasted with named reputable
+  brands (Uponor, "TC") — an unbranded/unverifiable developer-installed
+  material is a real risk signal independent of the specific failure.
+- **Confirmed pattern, not an isolated incident**: plumbers responding to
+  this leak independently confirmed multiple similar leaks had already
+  occurred elsewhere in the same development the same day.
+- **Structured 4-factor root-cause theory from the responding plumbing
+  specialist**: developer materials often meet code but are of murky,
+  non-durability-focused quality; developer crews are paid for
+  throughput and may physically stress fittings during original
+  installation; too many multi-piece connector joints (vs. continuous
+  runs with minimal connections) raises the total failure-point count;
+  an unverified/unbranded supplier is itself a risk factor.
+- **Preventive recommendations given directly by the crew**: maintain
+  access to entrance-level heating shutoff valves during any work
+  touching the heating system, and never leave a system restarted
+  unattended; request advance notice from the management company before
+  any system restart following an interruption; handle exposed original
+  developer piping gently during renovation (don't step on or pull it);
+  hire an independent handover/acceptance inspector before accepting a
+  new-build/newly-renovated apartment; where possible, let a new-build
+  apartment pass through at least one full heating season before
+  finalizing renovation work; document the developer's existing
+  plumbing/heating layout before pouring a screed that would bury it;
+  and, budget permitting, fully replace all developer-installed
+  materials/equipment rather than reusing them — framed as the single
+  most decisive recommendation of the set.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GLU9nJYrtbQ_petrishin_radiator_flood_rasskazovo|GLU9nJYrtbQ]]]
+
+## Decorative Radiator Covers (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
+
+`single-account`, heavily ASR-garbled trade-fair source, region
+unresolved, high promotional ratio. A decorative cover/cabinet product
+category exists for radiators, **compatible with both hydronic and
+electric units**, available in custom colors made to order — a general
+market-product category worth knowing about when a radiator's own
+appearance doesn't suit the room, rather than one specific model's spec.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]

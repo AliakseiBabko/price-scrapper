@@ -84,3 +84,78 @@ above with a third, distinct practitioner. [source: [[11_Budget_and_Planning/_su
   nice-to-have spend on an electrical quote.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qnmVK1R3X0k_petrishin_electrical_pricing_mistakes|qnmVK1R3X0k]]]
+
+## Floor vs. Ceiling Wiring Routing — Decision Framework and a Real Worked Cost Comparison (Петришин-Строй, real ЖК Аэробус object, added 2026-08-24, Round 10)
+
+Real 117m², 4-room apartment, ЖК "Аэробус" (region level 2 — named
+development, no city spoken). Low promotional ratio.
+
+**Color-coded conduit convention** (this installation's own choice, not
+a universal requirement): black = power/outlet circuits, gray = lighting
+circuits, orange = low-voltage/data circuits (satellite/cable TV,
+internet, CCTV) — makes the rough-in self-documenting for troubleshooting
+later.
+
+**Decision framework**: route via **ceiling** when the client accepts a
+stretch or drywall-drop ceiling to hide the conduit, when the developer's
+existing screed is already flat/good (no reason to repour just to bury
+floor wiring), or when the existing floor covering (e.g. expensive
+parquet) is staying and won't be opened up. Route via **floor** when the
+client wants to preserve every centimeter of ceiling height (a
+drywall/stretch ceiling to hide conduit costs 3-5cm regardless), or when
+a new screed is being poured anyway (a typical 4-6cm new-build screed
+buries the wiring for free).
+
+**⚠️ Structural reason floor routing is usually cheaper for outlets**:
+outlets/switches always sit low on a wall regardless of layout, so
+floor-routed wiring needs only a short wall chase (~30-50cm) up to the
+box; ceiling-routed wiring needs a *full-height* chase down from the
+ceiling to the same box — more wire, more chasing labor, more cost,
+specifically for outlet/switch circuits (not lighting fixtures, which
+are already at ceiling height either way).
+
+**⚠️ Real arithmetic-checkable cost comparison, same object, same fixture
+count, two hypothetical full-routing scenarios**: all-floor-routing would
+use 2,045m of wire, ≈33,673 RUB in consumables, ≈120,862 RUB total
+materials; all-ceiling-routing would use 2,488m of wire, ≈52,710 RUB in
+consumables, ≈159,510 RUB total materials — a **38,648 RUB** materials
+difference. Adding an illustrative +20% ceiling-routing labor premium (on
+a deliberately round 1,000 RUB/m² baseline labor rate, below actual
+Moscow market rate) adds a further ≈23,400 RUB. **Combined: full-ceiling
+routing would have cost roughly 62,000 RUB more than full-floor routing**
+for this specific real object's fixture count — a rare worked real-object
+comparison for this exact decision, not a universal percentage.
+`single-account`. Not converted to USD (upload date not confirmed).
+
+**Combined/hybrid routing rationale on this object**: the developer
+requires whole-apartment Шумонет-100 soundproofing, itself mandating a
+≥6cm screed pour — burying the main power/lighting bundle under that pour
+is free. Low-voltage cabling was deliberately routed via ceiling instead,
+specifically to avoid an overlap-prone floor bundle *and* to avoid
+overloading the ceiling with the entire bundle (which would have
+complicated the ceiling soundproofing frame's own install) — a deliberate
+density-management split.
+
+**Conduit-to-screed fixing over floor soundproofing**: conduits must
+never be screw-anchored through a Шумонет soundproofing layer into the
+structural screed below — the screw penetration creates a rigid "sound
+bridge" defeating the soundproofing's purpose. Instead, conduits are tied
+to a wire mesh laid loosely over the soundproofing layer (no fasteners
+through the membrane); without soundproofing present, conduits are
+perforated-tape-strapped directly to the screed. A separate patch is
+applied specifically where a conduit run crosses from floor to wall, to
+avoid a rigid screed-to-wall bridge at that transition.
+
+**Junction/splice placement**: avoid hidden/inaccessible junction boxes
+behind wallpaper or a wall patch — route lighting-circuit splices into
+deepened switch-box recesses at the switch locations instead, so future
+troubleshooting only requires removing the switch mechanism.
+
+**⚠️ Counter-intuitive caution, worth checking against other sources**:
+this source states directly that a wire cannot realistically be pulled
+back out of an already-installed conduit run for replacement, regardless
+of floor or ceiling routing — contrary to the common assumption that
+conduit exists specifically to enable future wire replacement without
+demolition. `single-account`, `unverified`.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_yyW9WaW3Pls_petrishin_electrical_floor_vs_ceiling|yyW9WaW3Pls]]]

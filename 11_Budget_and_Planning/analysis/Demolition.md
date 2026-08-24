@@ -219,6 +219,13 @@ the cost/legal risks specific to this stage.
   and rupturing a hydronic towel-warmer pipe, flooding **7 apartments**
   below. Stated lesson: even demolition needs experienced workers, not
   just the cheapest available labor.
+- **A genuinely distinct flooding mechanism, not a repeat of the above**:
+  a developer-installed heating-radiator fitting failure *during an
+  active renovation* (not demolition-crew damage), with an explicit
+  contractor-vs-management-company liability dispute over which specific
+  pipe connection failed — see [[12_Engineering_and_Systems/analysis/Radiators_and_Convectors|Radiators & Convectors]]
+  for the full incident, root-cause theory, and preventive checklist
+  (Петришин-Строй, ЖК Рассказово, added 2026-08-24, Round 10).
 - **⚠️ Load-bearing wall demolition is named the single most dangerous
   demolition mistake**: a wall that superficially resembles a
   non-structural partition can actually be carrying ceiling/slab load —

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=fIicREPruVs",
+  "video_id": "fIicREPruVs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T19:45:40.066840+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "574d78cb7eba6958848624c93148f5db72aa94f0bdd46611965a84b4b1db7630",
+  "attempts_before_success": []
+}

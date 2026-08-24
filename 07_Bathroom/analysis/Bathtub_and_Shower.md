@@ -138,6 +138,37 @@ Excluding prefab plastic shower-cabin units (discouraged elsewhere — see [[12_
 
 For shower podium/curb height, valve height, and tile-matching technique on a shower base, see [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]].
 
+### Linear Shower Drain Channel — a Three-Tier Product Ladder (Петришин-Строй, added 2026-08-24, Round 10)
+
+A premium bathroom-brand rep describes a **three-tier product taxonomy for
+linear (channel-style) shower drains**, introduced specifically in
+response to installer/tiler complaints that an all-plastic channel is
+hard to get a clean tile fit against: **budget tier** — plastic body and
+grate (cheapest, e.g. the popular "apz 8910" reference model); **mid
+tier** — plastic channel body with a combined trap plus a stainless-steel
+grate (priced between the other two, introduced to answer the tiler
+complaint above); **premium tier** — full stainless-steel channel body
+and grate (most expensive, e.g. the "Z1" line). 15-year warranty on the
+channel body across the range. `single-account`, brand-specific naming/
+pricing — recorded as a general plastic → hybrid → stainless
+product-category pattern worth checking for when shopping any brand's
+linear drain lineup, not this specific brand's SKUs. Region unresolved.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zZ_1iOXL_wA_petrishin_installation_frame_shower_furniture_expo|zZ_1iOXL_wA]]]
+
+### Pre-Sloped Factory Shower-Pan Product Category, and a Foldable Shower Seat (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
+
+`single-account`, heavily ASR-garbled trade-fair source, region
+unresolved, high promotional ratio (multi-brand booth tour). A
+**factory-made shower base with the drainage slope already built in**
+avoids on-site tile-cutting/extra grout seams needed to create fall
+toward the drain — but the exact model/size must be confirmed as a fit
+for the space before purchase, since the slope geometry isn't
+field-adjustable the way a tiled-in-place slope is. Also seen: a
+**foldable wall-mounted shower seat**, a space-saving alternative to a
+full bench/stool in a compact shower, folding flat when not in use.
+`ASR-uncertain` price reference ≈13,000–15,000 RUB (year not confirmed,
+not converted). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]
+
 ## Recovering Leftover Space When a Tub Alcove Is Longer Than the Tub
 
 A concrete problem worth planning for explicitly: fixed elements (a load-bearing wall, a utility box, a stack) sometimes force a tub alcove to be longer than the ideal tub length for the people using it — leaving genuine leftover space at one end. **Two tempting but wrong solutions, and the correct one**:
