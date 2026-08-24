@@ -67,6 +67,12 @@ Zemstandart/Zemsproekt recommends: **Never use a single 90° elbow for a horizon
 
 **Leave a minimum 15mm gap between a sink/plumbing point and a future-tiled wall**, verified *before* finalizing plumbing rough-in points — accounts for tile+adhesive buildup that would otherwise crowd the fixture once finishing is complete. **When boxing in a toilet's in-wall cistern (инсталляция), size the concealment box deep enough for both the cistern itself and the sewer pipe's full bend/curve as it routes to the riser** — not just the cistern's own minimum depth — reinforcing this store's existing "size a concealment box for the full manifold/bend, not the minimum pipe diameter" heuristic with an independent worked example. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8Xy-h8cS_-s_full_replan_worst_two_room_234|YT_8Xy-h8cS_-s]]]
 
+## Radial vs. Sequential Heating Distribution, and a Drain-Slope Figure (added 2026-08-24, Round 2)
+
+Konstantin Kruglov / Ontario, real Moscow jobsite, praises **radial ("лучевая") heating distribution as rare good developer practice**: each radiator gets its own dedicated supply line run directly from the manifold cabinet, with no in-floor joints at all — contrasted with the far more common sequential/tee-branched distribution most developers use, which typically brings pipes up through the finished floor directly at the radiator (producing a floor penetration that complicates baseboard installation and looks poor). **Recommendation for self-installed heating: always use radial distribution with pipes chased into the wall to the radiator, never a floor penetration.**
+
+Konstantin Kruglov / Ontario gives a **specific drain-slope figure**: for 50mm drain pipe, maintain roughly 3cm of slope per linear meter. Corroborates this page's existing two-45°s-not-a-single-90° corner rule, with the same vertical-to-horizontal-drop exception. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
+
 ## Fixture Stub-Out Coordinates
 
 A complete rough-plumbing stub-out coordinate reference by fixture type (sink, shower, tub, toilet+hygienic-shower, urinal, washing machine, kitchen sink with/without an adjacent washer) has its own dedicated page — see [[12_Engineering_and_Systems/analysis/Fixture_Stubout_Coordinates|Fixture Stub-Out Coordinates]] (added 2026-08-18).

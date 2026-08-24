@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=3rbIBKfZDBY",
+  "video_id": "3rbIBKfZDBY",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T05:54:15.278418+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "05684af88382f0b1cc2dfbaf689280613e8e6932d94af0819c180592909bf586",
+  "attempts_before_success": []
+}

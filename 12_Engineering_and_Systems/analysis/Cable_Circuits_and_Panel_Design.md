@@ -14,6 +14,74 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
 
 **Keep at least 15 cm separation between power cabling and low-voltage/signal cabling** — reduces electromagnetic interference. Note a real capacity constraint worth checking early: a 15kW three-phase panel is cited as insufficient to run two tankless water heaters plus an induction cooktop simultaneously — see [[12_Engineering_and_Systems/analysis/Water_Heaters|Plumbing: Water Heaters]] for the recirculation-pump alternative this drives. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JrClDJb8WTM_cable_sizing_breaker_selection|JrClDJb8WTM_cable_sizing]]]
 
+## Panel Devices — Function & Combination Logic
+
+Konstantin Kruglov / Ontario says: **planning sequence runs opposite to installation sequence** — plan consumer → cable gauge → breaker rating, but physically install breaker → cable → consumer last.
+
+Konstantin Kruglov / Ontario says: **breaker (автоматический выключатель) has exactly two protective functions** — overload/overheat protection (trips before correctly-matched cable insulation can overheat) and short-circuit protection. A plain disconnect switch (рубильник) has no protective function at all; it only manually opens/closes a rated circuit.
+
+Konstantin Kruglov / Ontario says: **RCD (УЗО) monitors phase and neutral simultaneously and trips on any mismatch between current sent and current returned** — its only function is ground-leakage/shock protection; it does not protect against overload or short-circuit (it will simply burn out under either). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_3rbIBKfZDBY_kruglov_electrical_panel_guide|3rbIBKfZDBY_kruglov_electrical_panel_guide]]]
+
+Konstantin Kruglov / Ontario says: **RCD+breaker vs. combined RCBO ("диффавтомат") is a real slot/cost tradeoff, not a correctness question** — a 1-pole breaker + 2-pole RCD together take 3 slots; one RCBO does all three jobs (overload, short-circuit, leakage) in 2 slots. One RCD can also serve several downstream breakers at once (e.g. 3 room-socket circuits behind 1 shared RCD = 5 slots total vs. 6 slots for 3 separate RCBOs) — the shared-RCD combination is cheaper; both combinations are equally valid/correct.
+
+Konstantin Kruglov / Ontario says: **the main incomer (вводной автомат) can be a plain breaker, a breaker+RCD combo, a combined RCBO, or a bare disconnect switch (least protective — no overload/short-circuit coverage)**. It often lives at the meter rather than inside the apartment panel, in which case a disconnect switch inside the apartment panel is a normal fully-protected setup, since the meter-side incomer already provides the protection.
+
+Konstantin Kruglov / Ontario says: **voltage-monitoring relay (РКН)** guards against a documented failure mode — a grid fault delivering 380V instead of 220V, historically destroying a whole stairwell's refrigerators/TVs at once (cited as common in the 1990s/early 2000s, now largely mitigated at the utility level in cities but still a live risk on a private house's own line). It's configured with a min/max voltage window, trips outside it, and only auto-recloses once voltage is back in range — it disconnects, it does not regulate/correct voltage. Most voltage-sensitive consumers named: refrigerator, washing machine, dishwasher, air conditioner, computers, video-surveillance systems.
+
+Konstantin Kruglov / Ontario says: **surge arrester (УЗИП) is not a substitute for a voltage relay** — a voltage relay only disconnects outside its voltage window and can't react fast enough to a very large, short-duration surge (e.g. a lightning strike); a УЗИП shunts that surge straight into the grounding system fast enough to matter. Requires a proper grounding system; standard/mandatory for a private house, explicitly called unnecessary in an apartment.
+
+Konstantin Kruglov / Ontario says: **contactor** closes/opens a whole downstream group of circuits at once with no protective function of its own. Two named apartment uses: distributing one large underfloor-heating load (example given: 100 m²) across multiple breakers/zones that still switch together from one contactor; and a "master light"/away-mode switch that cuts all non-essential circuits in one press while keeping a defined exception list live (leak-protection system, router, video-surveillance/alarm, refrigerator, freezer named as the standard exclusions).
+
+Konstantin Kruglov / Ontario says: **time relay / astro-timer** schedules a circuit by clock time or (astro-timer) by actual sunrise/sunset via light-level threshold — cited use: exterior/landscape lighting or dusk-triggered interior navigation lighting.
+
+Konstantin Kruglov / Ontario says: **aluminum wiring in an older panel is now code-non-compliant and a real fire hazard**, not just outdated — current Russian electrical code (ПУЭ) requires copper conductors sized to the specific connected load; aluminum runs are prone to arcing/contact burn-off. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_3rbIBKfZDBY_kruglov_electrical_panel_guide|3rbIBKfZDBY_kruglov_electrical_panel_guide]]]
+
+[source for this section, all items: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_3rbIBKfZDBY_kruglov_electrical_panel_guide|3rbIBKfZDBY_kruglov_electrical_panel_guide]]]
+
+## Real Jobsite Routing Rules (added 2026-08-24, Round 2)
+
+Konstantin Kruglov / Ontario, real 83 m² jobsite walkthrough, says:
+
+**Floor-vs-ceiling routing decision, with a stated cost tradeoff**: route through the floor (cheaper) only if the screed can still cover the highest point of the run by at least 4cm; otherwise route through the ceiling — which costs roughly **20-30% more** than floor routing for the same job. Ceiling routing is also the default when the ceiling is suspended/false (not plastered) or purely by owner preference, independent of the screed-height constraint.
+
+**Minimum clearance where electrical cabling crosses a water-supply pipe: 5cm, or a code-compliant sleeve.** Hitting both this 5cm clearance and the 4cm minimum screed cover at the same time is often not achievable in a normal floor buildup; when it isn't, the standard practice shown is to flag the shortfall to the client, get explicit informed sign-off to proceed with it (framed as a minor-severity violation), rather than growing the floor buildup to fix it.
+
+**Conduit color/material code**: grey PVC ("ПВХ") conduit only for exposed/ceiling routing; brightly-colored conduit (black/orange/red, a different material — "ПНД") supports combustion and is safe only when fully embedded in poured floor screed — never use colored ПНД conduit on a ceiling run.
+
+**Floor-routed corrugated conduit over acoustic underlayment must be tied to the underlayment's own mesh with cable ties, never nailed/stapled through it** — puncturing a "zero-impact-noise" underlayment defeats its function.
+
+**Plaster the walls before marking/chasing electrical point locations, not the reverse** — real walls are out-of-plane; marking against the raw wall/slab produces visibly crooked sockets/switches once plaster (which adds real thickness) is applied afterward. Plastering first also means less of the actual load-bearing wall gets chased, since more of the channel depth is absorbed by the plaster layer. This is the wall-equivalent of this page's floor-screed-as-datum rule — reference the *finished* surface, not the substrate, for both. A design project's point coordinates are meant to be read against this same finished-floor/finished-wall reference — an electrician marking from the bare slab/wall, ignoring the not-yet-applied screed/plaster, produces misaligned results even from an otherwise-correct drawing.
+
+**Chase deep enough that at least 0.5cm of plaster remains over the buried cable** — plaster only bonds/functions properly from about 0.5cm thickness upward.
+
+**Corrugated conduit is only needed for the floor/ceiling run up to where it enters a wall — inside the wall itself, code-rated cable can be chased and buried without conduit**, since routing several conduited cables inside one wall would need an impractically large chase; this is standard, coded, and safe.
+
+**Floor-embedded socket installation technique**: a floor socket's back-box is much larger/deeper than a standard wall box — before pouring screed, build a temporary foam/rigid-insulation block as disposable formwork in the exact spot/size the floor socket will occupy, remove it once the screed cures, then install the real socket into the resulting cavity.
+
+**Real panel-group example with a concrete client-facing benefit**: main breaker → voltage-monitoring relay → RCBOs on wet-zone circuits → banks of shared RCDs (grouped A/B/C/D), each protecting several ordinary breakers rather than giving every circuit its own RCBO. Concrete payoff shown: a client can switch off just the socket group in a kids' room while the lighting circuit (a different group under a different breaker on the same or a different RCD) stays on — every breaker still keeps leakage protection via its shared RCD even though the breaker itself only covers short-circuit/overload. [source for this section, all items: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gKBzDEllg4M_kruglov_best_wiring_a_to_z|gKBzDEllg4M_kruglov_best_wiring_a_to_z]]]
+
+## Wet-Room Electrical Grounding — Equipotential Bonding (added 2026-08-24, Round 2)
+
+Konstantin Kruglov / Ontario says: **an equipotential-bonding box (коробка уравнивания потенциалов) is a mandatory-by-code wet-room component, distinct from ordinary circuit grounding** — it bonds a room's metal fixtures (plumbing manifold/installation frame, a metal bathtub) to a common ground reference, protecting against stray/leakage current traveling through water or metal fixtures and shocking someone touching a fixture or standing in a metal tub. Low-cost to implement, mandatory to include. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gKBzDEllg4M_kruglov_best_wiring_a_to_z|gKBzDEllg4M_kruglov_best_wiring_a_to_z]]]
+
+## Guiding Principles & Additional Planning Rules (added 2026-08-24, Round 2)
+
+Konstantin Kruglov / Ontario states three governing principles behind this channel's electrical recommendations: **ПУЭ code compliance, convenience/functionality, and "ремонтопригодность" (repairability)** — any vulnerable connection should stay easy to access and fix later.
+
+**Ceiling routing is specifically forbidden (not just discouraged) when the ceiling is a plastered/monolithic finish rather than a suspended one** — chasing into the floor slab above isn't permitted; ceiling routing is only viable under a false/suspended ceiling. **Ceiling-height-driven cost mechanism**: most sockets sit ~30cm above finished floor, so a floor-routed run to that height is shorter (cheaper) than a ceiling-routed run down ~2.7m from a 3m ceiling — at lower ceiling heights (example: 2.65m), floor routing is preferred partly just to avoid dropping the ceiling further. **A concrete case where ceiling routing is chosen anyway**: buying a "whitebox" apartment you like except for its electrical/wall finishes, and wanting to avoid demolishing the existing screed or heating risers — build a false ceiling (drop ~10cm) so all-new wiring can route through the ceiling instead of cutting into the existing floor.
+
+**Panel "modes" — a second named mode beyond vacation/away**: a **"winter" mode** that disconnects air-conditioner circuits specifically to prevent an accidental cold-weather AC startup (which can damage the unit), in addition to the existing vacation-mode exception list (fridge, router, leak-protection, alarm stay live).
+
+**Never use non-original/counterfeit breakers or RCDs to cut panel cost** — the correct lever is optimizing circuit grouping (e.g. combining WC + bathroom lighting onto one shared breaker), not downgrading device authenticity. **RCD+breaker combo vs. 3 separate RCBOs is roughly 3x cheaper** for equivalent protection (sharpens this page's existing shared-RCD-vs-RCBO cost note with a specific multiplier).
+
+**⚠️ Electrical-point density benchmark, from the company's own 30-project design sample: ~0.85 electrical points per m²** (a "point" = any outlet, switch, dimmer, underfloor-heating thermostat, HDMI outlet, or low-voltage/network outlet). Worked example: a 50 m² apartment needs at least 42 points; more is fine, less is not recommended.
+
+**Junction boxes are obsolete in modern rough-in practice** — splicing happens inside a deep back-box at the outlet/switch location itself, not in separate mid-run junction boxes. **Among reliable connector types, Wago spring-clamp connectors are specifically named as the only genuinely serviceable/repairable option.**
+
+**LED-strip transformer placement: two valid options, decided by ease of future access, not aesthetics** — near each strip individually, or centralized in one location (e.g. a closet ceiling near the panel). Centralizing is explicitly favored for maintenance speed, since transformers fail relatively often.
+
+**Smart-home setup sequencing, a 4-step algorithm**: (1) decide which specific devices you want (sockets, switches, smoke/motion/door-open sensors are the most common); (2) choose the hub/"brain" ecosystem before buying more devices; (3) install/wire/configure; (4) build automation scenarios last. Two connectivity methods: Wi-Fi or wired network cable. [source for this section, all items: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8HnZ2m8vkZQ_kruglov_10_best_electrical_solutions|8HnZ2m8vkZQ_kruglov_10_best_electrical_solutions]]]
+
 ## Panel Acceptance
 
 **Three checkable "cornerstones" for accepting a finished panel**: (1) every eventual load is accounted for and split into separate circuits per room/function, so any area can be isolated independently; (2) every breaker is labeled/marked; (3) **selectivity** — breakers sized/coordinated so a downstream fault trips only the smallest relevant breaker, never the main incomer or the building's own riser breaker. **Test every outlet and switch before accepting rough electrical** — protects against a later trade puncturing a cable and the customer wrongly blaming the original electrician. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Onu15qOeWGA_panel_and_roughin_walkthrough|Onu15qOeWGA_panel_and_ro]]]

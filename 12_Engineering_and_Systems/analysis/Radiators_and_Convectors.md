@@ -18,6 +18,19 @@ The false-wall depth needed to recess a wall-mounted radiator depends on the wal
 
 **Whether to bother embedding at all, a two-condition decision rule (added 2026-08-19)**: full embedding is only worth doing if *both* conditions hold — (1) the exterior wall is a lightweight/aerated-concrete type needing extra insulation at the radiator location, and (2) there's an old air-heating-system void/cavity behind the wall that needs concealing. **If neither condition applies, skip full embedding** — a shallow ~11-13mm recess is enough, since the remaining protrusion becomes visually negligible once plastered. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1_IcoSaNKP4_multitrade_qc_tour_049|note]]]
 
+## Developer-Installed Window-Sill Convectors (added 2026-08-24, Round 2)
+
+Konstantin Kruglov / Ontario, real Moscow jobsite, gives a detailed multi-part critique of a common developer default — a window-sill-mounted convector, distinct from the in-floor convector type covered below:
+
+1. **Poor heat transfer** — the unit only warms the air immediately around the window, not the room generally.
+2. **Screed-height conflict**: on this specific jobsite, the convector's height forced the screed above the building's normal floor-transition level — the developer reportedly knew this in advance and installed the unit anyway.
+3. **No decorative closing/trim plate** at the finished-floor transition, leaving an unavoidable exposed cut at that joint.
+4. **The floor area directly around/under the unit can't be used for furniture.**
+
+**Real comparison anecdote**: a neighbor on the same project kept the developer's convector (this client's crew removed theirs and installed a radiator instead) and later reported struggling with cold in winter, resorting to portable electric heaters.
+
+**Fix recommendation**: replace with a horizontal radiator where space allows, or a vertical radiator on an adjacent wall if not. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
+
 ## Floor-Standing Radiators
 
 A floor-standing radiator (as opposed to one mounted behind a false wall) has several fixture-specific failure modes:
