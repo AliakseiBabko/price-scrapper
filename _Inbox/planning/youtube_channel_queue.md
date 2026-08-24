@@ -5,10 +5,12 @@ Master list of channels to process, across three categories with different evalu
 ## Currently active (Group A channels already underway)
 
 - **Zemskov/Zemstandart** — CLOSED. All 5 categories of the 372-video manifest complete as of 2026-08-19 (see [[project_zemskov_channel_triage_complete_20260819]] memory). Not a source of new work unless the user explicitly reopens it.
-- **Konstantin Kruglov/Ontario** — ACTIVE. Rounds 1–4 done (see `kruglov_ontario_full_channel_plan_20260824.md`). Round 4 yield 8.14 facts/video (lowest of its 4 rounds, still healthy).
-- **Pavel Sidorik** — ACTIVE. Rounds 1–5 done (see `pavel_sidorik_channel_plan_20260824.md`). Round 5 yield 13.0 facts/video (highest yet). Through episode #27 of 42 in its "New Building A-to-Z" series; the 36-episode "Khrushchevka" series and large standalone/tool-review pools still ahead.
+- **Konstantin Kruglov/Ontario** — PAUSED, rate-limited. Rounds 1–4 done, Round 5 halted 2/7 in (see `kruglov_ontario_full_channel_plan_20260824.md`). Round 4 yield 8.14 facts/video. **Do not retry yet** — see IP-wide-block correction below; paused 2026-08-24, same day as this queue entry.
+- **Pavel Sidorik** — PAUSED, rate-limited. Rounds 1–5 done, Round 6 halted 2/7 in (see `pavel_sidorik_channel_plan_20260824.md`). Round 5 yield 13.0 facts/video (highest yet). Through episode #27 of 42 in its "New Building A-to-Z" series; the 36-episode "Khrushchevka" series and large standalone/tool-review pools still ahead. **Do not retry yet** — paused 2026-08-24, same day.
+- **TimRemont** — PAUSED, rate-limited on its very first fetch attempt, before any content was assessed (see `timremont_channel_plan_20260824.md`). Rotated in as a third channel when both above paused simultaneously; this is the incident that revealed the block is IP-wide, not per-channel. **Do not retry yet** — no verdict possible on this channel until a real retry succeeds.
+- **Petrishin-Stroi** — ACTIVE, trial in progress. See `petrishin_stroi_channel_plan_20260824.md`. Pulled in 2026-08-24 as a genuinely fresh, never-before-touched channel (not a retry of the three paused above) so real progress continues during their cooldown.
 
-**Per explicit user instruction (2026-08-24): keep exactly two Group A channels active at a time.** See the rate-limit protocol below for how/when to rotate in a new one.
+**Per explicit user instruction (2026-08-24): keep exactly two Group A channels active at a time.** With all three original actives paused on the same rate-limit, Petrishin-Stroi is the sole active channel for now; pull a second fresh one (remproektmd, next in queue) once Petrishin-Stroi's own trial confirms fetching is currently working (i.e. doesn't immediately re-hit the block). See the rate-limit protocol below for how/when to rotate in a new one, and its IP-wide-block correction in particular — don't rotate through a third fresh channel if a second one also blocks.
 
 ## Group A — Construction/Renovation Technique Channels (same pipeline as Kruglov/Sidorik)
 

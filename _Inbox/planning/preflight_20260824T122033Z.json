@@ -1,0 +1,2222 @@
+{
+  "playlist_url": "https://www.youtube.com/@Petrishin-Stroi/videos",
+  "generated_at": "2026-08-24T12:20:33.085673+00:00",
+  "counts": {
+    "duplicate": 0,
+    "private": 0,
+    "unavailable": 0,
+    "no_captions": 0,
+    "fresh": 341,
+    "rate_limited": 0
+  },
+  "csv_notes_mismatch": {
+    "in_index_no_note": [
+      "-k0oupEu3pM",
+      "-zgPfpGkwBw",
+      "1pLziv7Ri_k",
+      "2m1OOssKl-A",
+      "2mLS8dbqv04",
+      "41AEg9cCxO0",
+      "6lacLnqpJbM",
+      "74c0MGLFGT4",
+      "7Y4YsWPYg4s",
+      "7l0izpXaPx8",
+      "7qxFoOsLAe8",
+      "8MiJ6k5ujBU",
+      "8zm_5NjbGNA",
+      "9FSb8Kr55r0",
+      "ANYrUhhlKyw",
+      "ATRswtIp1OM",
+      "AaPvIn4s1SQ",
+      "B7BHeVD-smk",
+      "BPiw6b-Sm_c",
+      "CQM-pFRJBKY",
+      "CYllCjooMrE",
+      "DPnZjaSPACA",
+      "DsDbKEwR4pY",
+      "Dt8Ec_eTlXg",
+      "EbwgImqhnOQ",
+      "ElHcpT5WlUA",
+      "F6cBEeTw518",
+      "HE4u2vprC88",
+      "I0PUIxd9MQ8",
+      "IHmGfrQFc6Y",
+      "JHP3Fuf2KyA",
+      "Kj71Nk5CqLM",
+      "L_PWNMQC9iE",
+      "Ld-OWPUFlGE",
+      "MIA1tpRglGg",
+      "Nj0li7AdsvM",
+      "O6PNsmWaHYc",
+      "PRifljKyKfU",
+      "PaUWD6q_EAY",
+      "PbE1pgGCliY",
+      "QG3QNM9BESc",
+      "QbV-BBySZeU",
+      "R7Z_mJLwVpc",
+      "R_9_QLAsE-k",
+      "U6vunPg3OGw",
+      "XIDyyxjIwC8",
+      "XWmoyTQK1AQ",
+      "XahTpDGjf9w",
+      "XfEaoo82qnE",
+      "XhRHqDm2H2Y",
+      "XlvilzilV-c",
+      "Y3exSOS2Ob8",
+      "YLKN-UB4XG4",
+      "YQAm9PqK2ec",
+      "YaWcDOWHor4",
+      "Z4gS_W0sfaM",
+      "ZXpWoAcR08U",
+      "ZkdGHHPtfh0",
+      "a98BTmgIoik",
+      "b4ErDSHBY_4",
+      "bLG-v5bLHNs",
+      "c3qpHyJgBQ8",
+      "cqzGSjx7Gvg",
+      "fkt1LmF9D9M",
+      "frU2mqIMrPs",
+      "g3xI4531t_s",
+      "gD8KMGlS9ac",
+      "gbxv92vD36U",
+      "huvdLUEruBM",
+      "hxPXzLu0P3g",
+      "iHu5gijczA4",
+      "iRqMhrVT8pM",
+      "j-6A0DmjB_o",
+      "jObP8pTt7FY",
+      "jOvCg-d45w4",
+      "jhEqPMn3mBA",
+      "jseYAjJkab8",
+      "kBJZkSOp4-Q",
+      "mhE_5qlJ0KU",
+      "n-LzQXs3x9o",
+      "q4r7i8qccB4",
+      "qC5GNBHceJk",
+      "rGc_nGYY4mU",
+      "s1cWUR4l90w",
+      "to_ujRxQUbk",
+      "ty-t8aNelyY",
+      "v8GexdJC8ys",
+      "vCwxplOGtfY",
+      "wUXlaDnHiQw",
+      "wxkTw0YdxdU",
+      "xbq9Jl_yrsU",
+      "ym_Jd2mEL18",
+      "z1G8qqAUQnY",
+      "zAXDi2PvWz4",
+      "zOpmb-CmQI8",
+      "zjO0LugKt8Y"
+    ],
+    "in_notes_no_index": [
+      "-JlpzE6aHiU",
+      "0sJPlpi8I2U",
+      "16k0TS363rM",
+      "1dp7alivsLQ",
+      "1gXYL99mfY4",
+      "1x7srLdq12I",
+      "2cHetaq1bt0",
+      "3rbIBKfZDBY",
+      "3vIpdUvgWW0",
+      "4jAQ526Zy2w",
+      "55zALDsXP2E",
+      "7QuzCGvDG_w",
+      "8HnZ2m8vkZQ",
+      "9-NjgDLleOw",
+      "92hhojQNQTw",
+      "C-3BcpXDRnk",
+      "C0FOWRxqWX4",
+      "Cj2U_wVlG-I",
+      "G03YKmotYP4",
+      "H6atjh_g1jQ",
+      "HqmQaZ1y1UM",
+      "IFnZxitFeNk",
+      "IWVPepWlzSs",
+      "Is76QlotVFE",
+      "K-OopxgJ8wY",
+      "M3HFaYaRC6M",
+      "MOYwhSd8tv4",
+      "N36scNqRwII",
+      "Oh4hGMZ90mw",
+      "P8t_d7J9fm4",
+      "Q1KSHFhLzJo",
+      "Q70kwfR0LGs",
+      "QcYJwQgu67g",
+      "S4fOYedAruE",
+      "SERg4hiCWdE",
+      "TKTKBmTkebg",
+      "WK-KLd2ssYY",
+      "ZW-dNzbCREI",
+      "ZlvJE-ncrK8",
+      "_TGU8C0u010",
+      "b0FeObtj2bo",
+      "bF1I2olZSc0",
+      "d5a3hti_P8g",
+      "gKBzDEllg4M",
+      "hCN5Cl7T2Qc",
+      "hN7szX2re2c",
+      "hpU_xEXmdvE",
+      "kXGYTsBTKj8",
+      "kkQbz_lXTjU",
+      "mMr8Xnt95rE",
+      "pxVSMo5e7yc",
+      "q4SSpq9jc3g",
+      "qzi1LqwsP5k",
+      "sd2XYBZY-K8",
+      "uiiggEC7c9M",
+      "wowlXrlGrEc",
+      "wsomY_6BRqA",
+      "xikuzV80GP4",
+      "zaW8XagX72U",
+      "zkM_gea0XVE"
+    ]
+  },
+  "entries": [
+    {
+      "video_id": "eCeU_3ZEr_I",
+      "title": "90% of Designers Make This Mistake! #renovation #interiordesign #apartmentrenovation #renovationm...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XzIcekXynso",
+      "title": "DON'T BUILD ROUNDED CORNERS UNTIL YOU WATCH THIS VIDEO #apartmentrenovation #interiordesign #roun...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SKrvXfTREm4",
+      "title": "Monochrome Interior: 6 Mistakes That Ruin Everything",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "W0WuhaN4YEE",
+      "title": "How Did Everything Fit into 40 m²? Apartment for a Couple: Bold Layout + Modern Design!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HK76ZGuB73c",
+      "title": "2 MONTHS OF CONSTRUCTION IN 36 MINUTES: ROUGH RENOVATION 120 m² #apartmentrenovation #renovation2...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AE6XV37-8LM",
+      "title": "3 Underhanded Ways Contractors Make You Overpay for Renovations! #RenovationScams #ContractorSche...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CWnGRim5gvc",
+      "title": "LUXURY Interior on a Budget – 20 Cool Ideas! #interiordesign #stylishrenovation",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FqcXzKqgTck",
+      "title": "General Contractor VS Designer! FORGOT the plumbing? #oldpipes #renovationmistakes #construction",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hqCy_EElV7I",
+      "title": "NEVER build a LOFT in your apartment until you watch this video! #newbuildrenovation #penthouse",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "asmSOeKg48c",
+      "title": "КОШМАРЫ ремонта во ВТОРИЧКЕ #ремонтквартиры #сталинка #стройка #бризер #плесень #грибок",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "u9WNR2B1_jk",
+      "title": "Used WOOD in the bathroom? Wall panels for bathrooms: what’s water and steam resistant #interiord...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tNOGTQFXrFo",
+      "title": "AI VS. DESIGNER: Who can create a better project for less? #floorplan #aiindesign #ai",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_eMlzTkXCK8",
+      "title": "QUARTZ PARQUET: Truth or Marketing SCAM? 🔥 Is Waterproof Wood a Myth? #quartzparquet #renovation",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ekHyPecFjdQ",
+      "title": "Керамогранит умер? Новый материал ГИБКИЙ КАМЕННЫЙ ШПОН! Как выбрать цена #гибкийсланец #гибкиймрамор",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NWb8Gr207EI",
+      "title": "Renovating a two-story PENTHOUSE. A cool project, but... #renovationinmoscow #penthouse #interior...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8hSU8twkC48",
+      "title": "These 5 things you need to check during a developer's renovation BEFORE you buy an apartment! #re...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "g1b6Hxx-HUk",
+      "title": "DON'T DO THIS! A designer reveals the secrets of remodeling (65 m² apartment review) #design #ren...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8dyPTnmOHKs",
+      "title": "6 МУЛЬТОВ ТОЛЬКО ЗА РАБОТУ?! ЦЕНЫ КАЖДОГО ЭТАПА на реальной квартире #стоимостьремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nD6ItczvUU8",
+      "title": "Don't buy a heated towel rail until you watch this video! Dry vs. Wet Heating Elements #heating_rail",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lvdc7zFmwQU",
+      "title": "WALL PAINT for 200 rubles vs. 2000 rubles per liter. What's the DIFFERENCE? How much does GOOD pa...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SEBf0PZSdxI",
+      "title": "Намочили ЛАМИНАТ и КВАРЦВИНИЛ. Что будет утром? #кварцвинил #ламинат #выборпола #spc #lvt #фаска",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j1Ynx1qQC1A",
+      "title": "The property is ABANDONED: the builder left, and we're redoing the ceilings ourselves #builders_m...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zm5pJN24ZA8",
+      "title": "HOW TO CHOOSE A MATTRESS 2026: Single-Sided or Double-Sided? A look at the pros and cons #mattres...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jTnbeX6sXyI",
+      "title": "HOW TO CHOOSE YOUR DREAM KITCHEN? The Complete 2026 Guide 🔥 #kitchentrends #kitchendesign #renova...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "c4mmaLAsDw4",
+      "title": "Не делайте стяжку без этого! Как спасти соседей и нервы. Самая лучшая шумоизоляция пола. #шумопласт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PnDhnlQ0TGE",
+      "title": "Самая дорогая ОШИБКА чуть не УНИЧТОЖИЛА мой бизнес.  #ошибки #бизнесистории #урокижизни #ремонт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vzyiz703WDE",
+      "title": "Гайд для чайников: Как понять, что тебя \"разводят\" на стройке? 🎓#обман  #ремонт #строительство",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "izhaUHRKViw",
+      "title": "Как сделать КАЧЕСТВЕННЫЙ косметический ремонт? Ловушки, технологии, результат #ремонтквартир",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s27qG_Eg3SY",
+      "title": "ТОП ОШИБОК косметического ремонта! НЕ ДЕЛАЙ ТАК! #ремонтвмоскве #ремонтквартир #ремонт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vKMHNYQYWAI",
+      "title": "Топ 13 САМЫХ дорогих ОШИБОК ремонта квартиры. #ремонтвмоскве #ремонтквартир #ошибкиремонта #петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8B2xnSNEqqs",
+      "title": "НИКОГДА ТАК НЕ ДЕЛАЙ! Глупые ошибки дизайн-проектов. #ремонтвмоскве #дизайнинтерьера #дизайн",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mb-2ll0UtTo",
+      "title": "Главные ОШИБКИ штукатурки. НЕ ДЕЛАЙ ТАК! #ремонтвмоскве #ошибкиремонта #штукатурка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8QBqwydVND8",
+      "title": "Все этапы ремонта квартиры в 2026, пошагово. #ошибкиремонта #ремонтквартир #советыпоремонту",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "w6_e7nySEXI",
+      "title": "Что скрывают дизайнеры? Самые частые ОШИБКИ В РЕМОНТЕ | СРЫВЫ СРОКОВ, задержки #ремонтквартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LEsmpI8bWCY",
+      "title": "Сколько РЕАЛЬНО стоит ДИЗАЙНЕРСКИЙ ремонт в 2026 году?! #ошибкиремонта #ремонтвмоскве #ценаремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "66pn-nIOJkg",
+      "title": "КРАСКА, ОБОИ, ИЛИ ОБОИ ПОД ПОКРАСКУ? ЧТО ЛУЧШЕ И ЧТО ВЫБРАТЬ?#ремонтквартир #ремонтвмоскве #интерьер",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PBkZQHkjciE",
+      "title": "Как СЭКОНОМИТЬ на РЕМОНТЕ?! Конкретные СОВЕТЫ и ХИТРОСТИ #ремонтвмоскве #ремонт #отделка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "96mlkQoczI4",
+      "title": "Какой ПОЛ выбрать в 2026? СРАВНЕНИЕ! #ремонтвмоскве #ремонт #отделка #ламинат #кварцвинил",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lvixGbwo0Ug",
+      "title": "Какой ПОТОЛОК выбрать в 2026? СРАВНЕНИЕ! #ремонтвмоскве #натяжнойпотолок #гипсокартон",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xt_q5SkINT8",
+      "title": "Как выбрать тёплый пол? | СРАВНЕНИЕ! #теплыеполы #ремонтвмоскве #ремонтквартир",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z1IuJFudcPY",
+      "title": "TOP 10 CRITICAL DEMOLITION MISTAKES! #apartmentrenovation #renovationinmoscow #demolition",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hemo5_9mvh4",
+      "title": "ТОП - 17 ТУПЕЙШИХ ошибок в РЕМОНТЕ! НЕ СОВЕРШАЙ их!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Fro7HGZLMIw",
+      "title": "Напольное покрытие. Обман на рынках, в интернете и в магазинах! #ремонтвмоскве #ремонт #отделка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rt9R26k6dEM",
+      "title": "КАК ВЫБРАТЬ ПЛИТКУ? ПЛИТКА ИЛИ КЕРАМОГРАНИТ? #ремонтвмоскве #ремонтквартир #плитка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D1REgSDwILU",
+      "title": "Basics of COMPETENT plastering #renovationinmoscow #apartmentrenovation #plastering",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Qt4uGvGRYT0",
+      "title": "Как правильно утеплить балкон / лоджию #ремонтвмоскве #ремонтбалкона #утеплениебалкона #ремонт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3sRfRiQ8XfE",
+      "title": "Крутые инженерные коммуникации! Сколько это стоит? #электрика #сантехника #ремонтвмоскве",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "F0ZHsu4k6JY",
+      "title": "ПРАВИЛА для маленькой квартиры. В ней есть ВСЕ #дизайнинтерьера #ремонтвмоскве #ремонтквартир",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ptkYHKl-k_0",
+      "title": "How Much Does a Rough Renovation Cost in Moscow? 2025 #renovationinmoscow #interiordesign #electr...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "d8WzpxSSX8k",
+      "title": "Идеальные стены под покраску #ремонтвмоскве #малярныеработы #покраскастен #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IoQiGtso9Vk",
+      "title": "Complex renovations in a historic Arbat apartment. Results, tips, and challenges. #apartmentrenov...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sD-tZqyka7g",
+      "title": "Rough renovation in one month! For under a million rubles #apartmentrenovation #renovationinmosco...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jjBCeVvAaRk",
+      "title": "Крутая плитка для ванной! Обзор ремонта квартиры #ремонтквартир #ремонтвмоскве #дизайнинтерьера",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JLjCveR-ft0",
+      "title": "Ремонт квартиры за 1 300 000! Обзор ремонта #ремонтквартир #ремонтвмоскве #дизайнинтерьера",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DWI2_R7-zfM",
+      "title": "Лайфхаки ремонта от прораба! Крутая система хранения, ошибки сантехники. #ошибкиремонта #советы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lTeNBUR1u8g",
+      "title": "Идеальные стены в 90 градусов? В чем секрет? Как проверить? #ремонтквартир #ремонтвмоскве",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "seJQNSt7jAI",
+      "title": "ИДЕАЛЬНОЕ решение для ОТДЕЛКИ СТЕН! О котором МАЛО КТО ЗНАЕТ!!! #натяжные  #перегородки #ремонт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qLhVlSjr1Rk",
+      "title": "Ремонт квартиры для айтишника! Что важно? #ремонтквартир #ремонтвновостройке #москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AcNu6CHE7Y4",
+      "title": "Как начать ремонт? ТОП 4 ошибки демонтажа. #ремонтквартир #демонтаж #ремонтвмоскве #лайфхаки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ah3StuP2TZE",
+      "title": "Самая сложная плитка! Крупный формат или мозаика? Что выбрать? #ремонтвмоскве #ремонтквартир #плитка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1mCrvY9y6xM",
+      "title": "Закрываем ютуб канал на 70 тысяч! Почему? ЭТО КОНЕЦ? #ютуб #ремонтквартир #петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "f1PaAzSIHdM",
+      "title": "Дорогой ремонт квартиры на Арбате. О чем жалеет клиент?  #ошибкиремонта #ремонтквартир #петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Q0sVq_1SIQM",
+      "title": "Финишные работы при ремонте квартиры #дизайнинтерьера #ремонтвмоскве #ремонтквартир #петришинстрой",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qFM8NIDIRro",
+      "title": "Finished renovating an old apartment. Police visits, wall cracks, and other challenges! #renovati...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7LAB25SCQ1Q",
+      "title": "Сколько стоят этапы ремонта вторички? Ремонт на Арбате, Москва. #ремонтквартир #ремонтвмоскве",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "X-eCL_fWr4A",
+      "title": "Почему трескаются стены? Как обманывают на стройке? #ошибкиремонта #ремонтквартир #ремонтвмоскве",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RvEuMiBMJlU",
+      "title": "Женщина-прораб на стройке. Возникают ли конфликты? Как относятся клиенты? #ошибкиремонта #москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2HK9jq2wPpM",
+      "title": "New buildings with developer renovations. What to be wary of, scams, and pitfalls. #renovationmis...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "k2P6hNuN4Xc",
+      "title": "Ремонт квартиры 2025. Какие проблемы возникают? Текут окна, кривые стены. #ошибкиремонта #петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Dcop4YL2lKE",
+      "title": "ДОСТУПНО И КРАСИВО | Ремонт квартиры #дизайнинтерьера #ошибкиремонта #новостройка #лайфхаки #москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z-T88kaRf34",
+      "title": "Проблемы на объекте? Изнанка ремонта, покажем как проходят работы #ошибкиремонта #ремонтквартир",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nT0qOcN_nEQ",
+      "title": "Сколько стоит ремонт в Москве в 2024? Эконом, комфорт, премиум? #дизайнинтерьера #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MQiCniwuLe8",
+      "title": "What will your renovation look like after 10 years? Apartment in Moscow, P-44 series building #re...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Uk_c5R_hX_g",
+      "title": "Как сделать идеальную кухню. 2026 #дизайнинтерьера #ошибкиремонта #ремонт #ремонткухни #лайфхаки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "K0l6OKJDHAs",
+      "title": "Где ОШИБАЮТСЯ при ремонте квартиры? Как исправить? Как не допустить? #дизайнинтерьера #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1SbDazyjTL8",
+      "title": "Кто сделает ремонт БЫСТРЕЕ и ДЕШЕВЛЕ? ЧАСТНИКИ или КОМПАНИЯ? #ошибкиремонта #ремонтквартир #москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OZkpPjG_eIQ",
+      "title": "Дизайнер УБИЛ ремонт за 5М! ТОП - 22 ошибки в проекте! #дизайнинтерьера #ошибкиремонта #ремонт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HlKO6aNTk1o",
+      "title": "Это полный финиш! Как нельзя делать финишные работы! Топ ошибок! #ремонтквартир #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gCI2qF34Dss",
+      "title": "Все ошибки гипсокартона! Как принимать работы? #ошибкиремонта #ремонтквартир #гипсокартон #гкл",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VcrYHkDgb0o",
+      "title": "Как УБИТЬ СТЕНЫ. Все ОШИБКИ малярных работ. Советы и лайфхаки #ошибкиремонта #ремонтквартир",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yWJCkZMpO6w",
+      "title": "Как облегчить стяжку и сэкономить при ремонте? Что такое пенополистирол. #ошибкиремонта #ремонт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "80STEEWTjZY",
+      "title": "Renovation Killers! How NOT to choose builders! Top 5 mistakes! #renovationmistakes #apartmentren...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oMuqkTAMxms",
+      "title": "Ответы на вопросы подписчиков о ремонте квартиры #петришинстрой #ремонтквартир #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xd1xP2FuN40",
+      "title": "Как УБИТЬ ПЛИТКУ. Все ОШИБКИ укладки. Советы и лайфхаки #ошибкиремонта #ремонтквартир #укладкаплитки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8IW762yALfc",
+      "title": "Ремонт в Москве стоимость всех черновых работ. Показываем реальный объект 2024. #ремонтквартир",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rYM8TBFusro",
+      "title": "Look at what this pro did! Mistakes and costs of adjustable flooring in apartment renovations. #r...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wSTl6HEb0v0",
+      "title": "Почему ремонт стоит так дорого? Строители обманывают? #ошибкиремонта #ремонтквартир #петришинстрой",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BvqMb-yP9F4",
+      "title": "Сколько стоит ремонт в 2024 году в Москве? Проблемы в квартире, пришлось все ломать! #ценаремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "I8FUEAJBs8E",
+      "title": "Не делай регулируемые полы, пока не посмотришь это видео! Ремонт в Москве. Вторичка, Новый Арбат.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Y9PGtPmcMms",
+      "title": "What Does Quality Floor Screed Look Like? Materials, Life Hacks, and Major Mistakes. #floorscreed...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TINlyfZtnQE",
+      "title": "Ремонт в новостройке. Ошибки и их решение. 3 совета перед началом работ. ЖК Мята. #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "myscQVpKIvw",
+      "title": "НЕ ПОКУПАЙ КВАРЦВИНИЛ пока не посмотришь! Как проверить? Все плюсы и минусы.#ошибкиремонта #петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aka4BVI16ZU",
+      "title": "Дизайнер интерьера облажался? Проблемы с ремонтом квартиры в ЖК Бауман Хаус #ошибкиремонта #москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NpWAMVDzCqs",
+      "title": "Сколько стоит демонтаж и вывоз мусора? Соседи жалуются на шум? #ремонтквартир #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4Fvu56BS6Gw",
+      "title": "Безопасный и надёжный электрический щит для квартиры и частного дома. #ремонтквартир #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0_Z5ZeR8BEQ",
+      "title": "Сколько реально стоит ремонт квартиры и почему? Конкретные примеры и ценообразование! #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "c7UuQOPRK6Y",
+      "title": "Cracked walls at Paveletskaya City! How much does an apartment renovation cost? #renovationmistak...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O_2Jji7NAHQ",
+      "title": "Сантехнический шкаф. Зачем каждый элемент? Как сэкономить? Как избежать потопа, плесени и грибка?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zxTbtAbuXFs",
+      "title": "Как выглядит качественный демонтаж? Лайфхаки и главные ошибки. #демонтаж #ремонтквартирмосква",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OgIZhrxD4v4",
+      "title": "Как выглядит качественная сантехника? Материалы, лайфхаки и главные ошибки. #сантехмонтаж",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HRD0vWyDiB4",
+      "title": "Идеальный ремонт трехкомнатной вторички. Дизайн интерьера. Рум тур. #румтур #ремонтквартир #вторичка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "S5yvwVoGwJ4",
+      "title": "Как ускорить без ущерба качеству? 13 заповедей быстрого ремонта квартиры. #лайфхаки #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Q6GKMOJuaPc",
+      "title": "Как выглядит качественная электрика? Материалы, лайфхаки и главные ошибки. #электромонтаж",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "eHvTyrUcSaM",
+      "title": "Все для работы с плиткой! Краска от knauf? Новинки 2024! #герметик #затирка #плитка #ceresit #knauf",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "r1eyXzXNdI0",
+      "title": "What Does Quality Plastering Look Like? Materials, Hacks, and Common Mistakes. #plasteringworks",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "caDB-roRasI",
+      "title": "От чего трескаются стены? Приемка кладки, как должно быть? #возведениеперегородок #пеноблок",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YTLFAi4jhCI",
+      "title": "Все этапы ремонта квартиры в 2026, пошагово. #ошибкиремонта #ремонтквартир #советыпоремонту",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bXWDSh0xMjI",
+      "title": "Ремонт квартиры - потерянные деньги! Почему растет цена? Как избежать? #ошибкиремонта #ремонтквартир",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aWrskoQtlZo",
+      "title": "Все этапы ремонта квартиры от А до Я. Как подготовится к ремонту? #ремонтквартир #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FRRT0ZrhjaI",
+      "title": "Ремонт квартиры, цена. Новостройка 54 м2. Обзор готовой квартиры, румтур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ITP3lMXyAo4",
+      "title": "Ремонт в новостройке  ЖК Мята. Ошибки и решение проблем! #ошибкиремонта #ремонтквартир #лайфхаки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VUvs_fQ8LMM",
+      "title": "Tile Selection: Pro Tips and Hacks. #tiles #lifehacks #renovationmistakes #countryhouse",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4pe2R7cjWpU",
+      "title": "Сколько стоит ремонт квартиры в 2024 году? Что такое смарт ремонт? #ремонтквартир #петришинстрой",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "q9PtEQhJGi4",
+      "title": "Сколько стоит отопление и сантехника загородного дома в 2023?  #отопление #ошибкиремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "G0vtTswg5Ck",
+      "title": "Как сделать ровные стены в квартире? Механизированная шпатлевка. Все секреты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8eyTiOXWI24",
+      "title": "Как проверить штукатурку стен? Основные косяки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LT24aTpj9Ag",
+      "title": "Стоимость ремонта в однушке. Почему так дорого?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "c3LrTDn-wiU",
+      "title": "Как выбирать компанию по ремонту квартиры? // Отзыв клиента о ремонте новостройки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VxoqGgoCqJk",
+      "title": "Ремонт в новостройке. Проверяем качество в ЖК Румянцево-Парк",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TNT2sBYJ6V0",
+      "title": "Как подготовиться к ремонту квартиры и не допустить ошибок // Кому доверить ремонт квартиры?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tYcH95rlgNw",
+      "title": "Как выглядит ремонт за 5 млн рублей в 2023 году? // С какими трудностями столкнулись при ремонте?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ces3Mc5QkoI",
+      "title": "Самый долгий ремонт в новостройке // Стоимость и качество комплексного ремонта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YxXfsKoyx6M",
+      "title": "Как предотвратить потоп в квартире? / Монтаж системы отопления в квартире / Ремонт после потопа",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "52lJFqwz6Yo",
+      "title": "Потоп в квартире, причины и последствия // Ремонт после потопа",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UhE9cOJ35FY",
+      "title": "Как исправить трещины на стенах // Почему трескаются стены в квартире?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SyzlZSEa4pY",
+      "title": "Как устранить трещины на стенах после ремонта // Спасаем стены от разрушения // Сергей Петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qnmVK1R3X0k",
+      "title": "Электрика в квартире, цена// Как избежать косяков при ремонте квартиры // Сергей Петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IyySh3245ac",
+      "title": "Как электрики разводят при ремонте квартиры // Полный выпуск в это воскресенье",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Rd1pBNziBBY",
+      "title": "How to Do a Cosmetic Renovation on a Budget // Preparing for a Cosmetic Renovation",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gugUGWLeKfQ",
+      "title": "Mistakes to Avoid When Buying Real Estate: Tips from Professional Builders",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Zbl0ezdsni4",
+      "title": "Все секреты качественного ремонта в 2023 году // Стоимость ремонта квартиры во время кризиса",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "U9hy0YSiK6o",
+      "title": "Обзор готового ремонта квартиры и меблировки в ЖК Румянцево-Парк // Петришин Строй",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7mA_2MZUNi4",
+      "title": "Что нужно знать при покупке квартиры в 2023 // Главные вопросы к риэлтору // Как купить квартиру",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rJw293x_r10",
+      "title": "Ремонт с нуля: основные этапы и технологии черновой отделки новой квартиры // Сергей Петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AznJz6WnZXY",
+      "title": "Комплексный ремонт квартиры в 2023 от А до Я // Ремонт под ключ в 2023 // Как сделать ремонт в 23г",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8rcfqMtnr7c",
+      "title": "Современные тренды дизайна интерьера в 2023 // Самый актуальный стиль в интерьере //Сергей Петришин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KtCi1tRd3RU",
+      "title": "Красота в деталях // Обзор ремонта квартиры в Эталон-Сити // Современный дизайн интерьера 2022 года",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ncLbfisxqLE",
+      "title": "Красивый ремонт трехкомнатной квартиры // Дизайн трешки нестандартной планировки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "p8u3ZCDgLms",
+      "title": "Не начинайте ремонт в новостройке пока не посмотрите это видео // С чего начать ремонт в новостройке",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "L0kI_PZKvmQ",
+      "title": "Сколько стоит ремонт спальни в 2022 // Отделка спальни стандарт и премиум // Ремонт квартиры 2022",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D-DFsBMjlxQ",
+      "title": "Why so many faucets? Is it a scam? The bathroom is the heart of the apartment.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UhrP540Yqws",
+      "title": "Полезные лайфхаки ремонта 2022. Обзор квартиры, ЖК Скандинавия.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4bXpUlWaZ0g",
+      "title": "Где искать толковых строителей? Топ 10 вариантов! Личный опыт. Советы профессионалов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4bv7Aa6YLCo",
+      "title": "How to choose windows? Key mistakes and important details.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "y7aX-NypsmU",
+      "title": "Whitebox Apartment Renovation Mistakes. How to Fix Them?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bSUUoAsKCCk",
+      "title": "Что самое важное в ремонте квартиры? Вы не знали этого о черновом этапе.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JzXe94KX-_8",
+      "title": "Отделка White box - обман маркетологов? Мифы и реальность. ЖК Мой адрес на Береговом.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nCy00hgldrc",
+      "title": "Обзор дизайн-проекта новостройки для молодой семьи.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "v7oBydweIZw",
+      "title": "Обзор готовой квартиры 117м², Результат, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NjOkuREH8lI",
+      "title": "Как выбрать затирку? Основные ошибки и главные секреты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "S23VRWxzz08",
+      "title": "Сколько стоит черновой ремонт в 2022? Подробный разбор на реальном примере!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jd5L8DkBa2I",
+      "title": "Как отсканировать квартиру в 3D? Все секреты и полезные советы. Новые технологии ремонта 2021.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8bmfTq4Xm4M",
+      "title": "Как выросла цена ремонта квартиры? Технический дизайн, черновой этап, главные советы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EK01HpfuGlU",
+      "title": "Как начать ремонт? Главные ошибки, топ 5. Сергей Петришин.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QtQBGLzS698",
+      "title": "Как заклеить окно правильно? Мастер-класс. Ремонт в ЖК Оранж Парк.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KxrAhJ6tlHk",
+      "title": "Ремонт в новостройке, ЖК Семейный, Лазаревское, влог из Сочи!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "75KCW5IdeTs",
+      "title": "Как экономить на ремонте грамотно? Частые ошибки. Сергей Петришин, влог, смотреть всем.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TizkAQM59i0",
+      "title": "Как проверить штукатурку стен по маякам, лучший способ, главные ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "C-UKiv1OBMo",
+      "title": "Плиточные работы, монтаж керамогранита, влог. Смотреть всем, тренды 2021. Петришин-строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Zpd9B37qzDg",
+      "title": "Качество ремонта, куда смотреть? Room tour. Дизайн интерьера. Ремонт в Сочи, влог",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Evk5hzggWcQ",
+      "title": "Наши объекты, едем с проверкой, изнанка ремонта, влог. Бизнес идеи 2021. Петришин-строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_cg0CKdFD3A",
+      "title": "Ремонт в Сочи.  ЖК Семейный, Лазаревское, новостройка.  Жизнь на море.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cncouD9E23o",
+      "title": "How to Check Walls? Top 10 Mistakes. Apartment Inspection, Construction Expert Review.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "E7M-bWWSmfw",
+      "title": "Как сделать стяжку. Этапы, советы, ошибки. Полусухая механизированная стяжка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lwXn6bunE70",
+      "title": "Вторичное жилье. Капитальный или косметический ремонт? Скрытые проблемы. Петришин ремонт Москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iFra6wnV6Bs",
+      "title": "Обзор готовой квартиры 140м², Результат, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zuh3k15-STo",
+      "title": "What is a master switch? Electrician masterclass. Master-off switch.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yaOJMxYz3Cg",
+      "title": "Ремонт в новостройке, 100м², ЖК Рассказово. Результат, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "knle0cLRsmA",
+      "title": "Новогоднее поздравление! С наступающим старым новым годом!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "S9Ckqt94D4A",
+      "title": "Полусухая механизированная стяжка. Стоимость, плюсы и минусы, технология, этапы.  Петришин-строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "y9abEzWIih4",
+      "title": "Как обманывают на ремонте? Секреты, ошибки, ответы на вопросы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bmsVRtcZLlU",
+      "title": "Как штукатурить стены? Лучший способ, основные ошибки, как сэкономить?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T3VUH7OpThI",
+      "title": "Как найти работу в ремонте? Отзывы о работе в компании, плюсы и минусы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aUOOHbuSiqE",
+      "title": "Обзор двухкомнатной вторички. Ремонт квартиры. Петришин-строй, дизайн проект, ремонт, Москва.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nA7YkJUexZQ",
+      "title": "Пластиковые окна. Какие выбрать? Советы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "eInWxbd_UiA",
+      "title": "Как принять черновой этап ремонта? Основные ошибки. Технический дизайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tVex6zojJng",
+      "title": "Как не нарушить закон о тишине? Основные правила при ремонте в новостройке.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_aby2PGxDeI",
+      "title": "Ремонт в трешке, вторичное жилье 77 м². Рум тур, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HssfvOFMs70",
+      "title": "Дизайн маленькой трешки. Советы дизайнера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-jTsHk0oNdw",
+      "title": "Обзор трешки.  Готовый ремонт в старом фонде, Выхино.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O3MUyxA9T9M",
+      "title": "Рум тур в ЖК Родной Город. Обзор однокомнатной квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ojJiHjMpzm0",
+      "title": "Как найти работу в ремонте? Отзывы о работе в компании, плюсы и минусы. 2019.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cGF59oa7ObM",
+      "title": "Рум тур, ЖК Лучи Ремонт в новостройке.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-maiyt5OL7M",
+      "title": "Нет места на стройке? Как сделать стеллаж. Мастер класс.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RNiSYvLX6Vc",
+      "title": "Строительная раковина, лайфхак на стройке. Пошаговая инструкция.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hjaUqFuSQyA",
+      "title": "Черновой ремонт в новостройке. Результат, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Rm0aHk4flxc",
+      "title": "How to Choose Finishing Materials? Key Principles and Secrets. Comparing Materials.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oet0X_RKAcE",
+      "title": "Механизированная штукатурка стен. Советы мастеров",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KX8P9Pm0rUk",
+      "title": "Обзор ремонта вторички, 88м². Рум тур, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PdfJyn9inMs",
+      "title": "Штукатурим по маякам. Самый лучший метод! Лайфхаки, все этапы установки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "A4OmiqS6kYo",
+      "title": "Строим стены из пеноблока. Мастер класс.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gDP-HWJ18zs",
+      "title": "Нестандартные решения в ремонте квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5UJBliGR_OI",
+      "title": "Как в квартире построить стены, мастер-класс",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1_nKzwNZD6w",
+      "title": "Спальня без окна-перепланировка. Обзор, ремонт однушки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MkYgBosz7vE",
+      "title": "Как просто и быстро вывести геометрию стен в квартире. Советы штукатура.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2CoVLEp7RmI",
+      "title": "Практичная однушка. Презентация дизайн проекта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CcRRncHRygY",
+      "title": "Советы по возведению и штукатурке стен. Разметка маяков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KpDBXPK5Lag",
+      "title": "Рум тур по таунхаусу в Подмосковье. Результат ремонта, советы, ошибки. Юсупово Лайф Парк.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KlIQxR3vWU8",
+      "title": "Финишные работы. Советы по лепнине, обоям, плитке.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LbeT8UAd-P0",
+      "title": "Ремонт трешки П-44. Рум тур, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sqk0Nl8AVYI",
+      "title": "Электромонтаж в монолите. Советы мастера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T9fdDE-cA6k",
+      "title": "Renovating a two-room Stalin-era apartment. RoomTour, tips, and mistakes.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vj8io1K9vjI",
+      "title": "Штукатурная машина PFT RITMO XL. Механизированная штукатурка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s-S-2k4MMIs",
+      "title": "Инструменты для работы с плиткой.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7zP1iaKVCsY",
+      "title": "Renovation in a new building, Rasskazovo residential complex. Room tour, tips, mistakes.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NyIj6h8hZHw",
+      "title": "Как правильно клеить обои! 17 вопросов мастеру по малярке и обоям !",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nhJI_yGjfRU",
+      "title": "Проблемы с вентиляцией/поэтапное решение. Ремонт в новостройке через 6 лет.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OperMXnGmXE",
+      "title": "Как класть плитку в ванной? Этапы, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nuKtZAU47PU",
+      "title": "Как выбрать лучший проект для ремонта? Основные ошибки и секреты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XXRODoe_tVk",
+      "title": "Поздравление с Новым 2019 Годом от Петришин-Строй!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EQW9y4bNea0",
+      "title": "Материал для стен. Из чего лучше строить перегородки?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YPZhqfjGL-U",
+      "title": "Ремонт квартиры в новостройке через 6 лет. Видео отзыв клиента.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RfcoPP3dvcQ",
+      "title": "Потолок в ванну. Реечный, натяжной, касетный что лучше?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HaVTqkD-olM",
+      "title": "Ремонт в новостройке, 58м², Видное. Результат, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3FJzI7wPHKU",
+      "title": "Как разработать дизайна интерьера? Советы профессионалов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "P8GMYTARyNU",
+      "title": "Как выбрать керамическую плитку?  Главные принципы. Цена, качество, стиль.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PAp23V8pPso",
+      "title": "Как найти работу в Москве. Ремонт, отделка квартир, вакансии!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ynogXj_Hmsw",
+      "title": "Ремонт квартиры студии. Результат, советы, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "w4YstXFu6IU",
+      "title": "Фаска на ламинате, слэбы дерева. Batimat 2018. Газировка и кипяток из крана.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T9iVJfmhGsg",
+      "title": "С чего начать ремонт квартиры? Ошибки ремонта, этапы, советы. Личный опыт.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "P55P5i3OFbI",
+      "title": "Как выбрать краску? Мастер-класс по нанесению декоративной штукатурки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mNZ3HdxzXio",
+      "title": "Ремонт новостройки, ЖК Грин Парк. Этапы, советы и ошибки ремонта квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WYxpoKPPrHc",
+      "title": "Как выбрать обои? Основные секреты и ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tkN32-7Zt50",
+      "title": "Как сделать обмерный план? Лучший способ, основные ошибки. Технический дизайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EzRLjqZe31k",
+      "title": "Как выбрать обои? Советы дизайнера интерьеров.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Y1o8Y0rJ7Zo",
+      "title": "Sofya Anufrieva, review and renovation tour. The Soldiers TV series.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zZ_1iOXL_wA",
+      "title": "Как выбрать инсталляцию унитаза, душ, мебель для ванной.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ivvVS4xNtZ0",
+      "title": "Как обманывают на ремонте квартиры? Главные секреты и частые ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fIicREPruVs",
+      "title": "Как выбрать смесители, поддоны, раковины, зеркала. Советы и ошибки. Выставка Mosbuild.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cyV4ePfTtVg",
+      "title": "Как выбрать плинтус? Основные принципы и частые ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "k9CrEU5RuIE",
+      "title": "Как выбрать напольное покрытие? Частые ошибки и главные принципы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xoLGoOIRMlc",
+      "title": "Новый секретный метод быстрой установки маяков своими руками // Штукатурка по струнным маякам.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VqrXg-tDRO8",
+      "title": "Как штукатурить и делать электромонтаж? Секреты ремонта от мастеров.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ScnflgHL2-w",
+      "title": "Экспресс-обзор ремонта 6 квартир. Частые ошибки ремонта, советы мастеров, рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vJ7d9YgyU68",
+      "title": "Экспресс-обзор ремонта 5 квартир. Частые ошибки ремонта, советы мастеров, рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZBG8_OuRMYY",
+      "title": "Экспресс-обзор ремонта 5 квартир. Частые ошибки ремонта, советы мастеров, рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2YD_urHdIO8",
+      "title": "Экспресс-обзор ремонта 3 квартир и коттеджа. Частые ошибки ремонта, советы мастеров, рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PubOtrPPCr0",
+      "title": "Экспресс-обзор ремонта 5 квартир. Частые ошибки ремонта, советы мастеров, рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0i4rEhQRqx4",
+      "title": "Обзор ремонта вторички, 41 м². Рум тур, советы, ошибки. Двухкомнатная квартира.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5tmbgo0Rx74",
+      "title": "О моей строительной компании Петришин-Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UyxhRd6MlIg",
+      "title": "Что такое лазерный уровень, для чего он нужен ? Ремонт и отделка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uFNY4Kq_m2A",
+      "title": "С новым Годом!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wvQuO6SJA0I",
+      "title": "Ремонт бойца М-1 Максима Гришина. Дизайн, ремонт новостройки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QT0VgwXeF1M",
+      "title": "Обзор лазерной рулетки. Полезные советы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3Zi6jcx1l0g",
+      "title": "Обзор четырехкомнатной квартиры. Качественный ремонт. Красивый дизайн, интерьер ванны.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yyW9WaW3Pls",
+      "title": "Электромонтаж по полу или потолку? Как лучше и дешевле. Все за и против. Ремонт ЖК Аэробус.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NmVTJPOHkug",
+      "title": "Обзор ремонта за 4 миллиона. Новостройка, г. Реутов. Румтур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZXzYkFS3-XM",
+      "title": "Обзор ремонта в новостройке. Трехкомнатная квартира в Одинцово, 84 м², рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CjoQx-DWfWI",
+      "title": "Обзор ремонта квартиры. Вторичка в Переделкино, 95 м². Рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8UszT2lfjx4",
+      "title": "How to Get Perfectly Straight Walls? Plaster Like a Pro! Key Principles and Common Mistakes.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OieJ_cttm2Q",
+      "title": "Как начать ремонт квартиры? Главные ошибки. Реутов, новостройка, 100м².",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Mqavv7sduA0",
+      "title": "Финишные работы [квартира Максима Гришина]",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QginFVl00Hw",
+      "title": "Нестандартный санузел с панорамными окнами. ЖК Видное",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GLU9nJYrtbQ",
+      "title": "Потоп от радиатора! Что делать и кто виноват? ЖК Рассказово.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rHcReCimz8I",
+      "title": "Вы должны это знать! Вся правда о Петришин-Строй! Ремонт квартир.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gREGOOA2OHo",
+      "title": "А полы то ровные? Проверяем стяжку и отделку квартиры!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dwQD8bkBwlM",
+      "title": "Экономия на ремонте квартиры не в ущерб качеству. Механизированная стяжка пола. Обзор работ.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Tq2IELynaGs",
+      "title": "Ремонт в новостройке. Нестандартные решения по электрике и сантехнике. Часть 4.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "czcF0R9W_SU",
+      "title": "Ремонт квартиры в ЖК на Базовской улице. Видео-отзыв от Павла. Петришин-Строй. №23",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3v42HOJlS-s",
+      "title": "Ремонт в новостройке все этапы. Возведение стен.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rEe5LHWj4fI",
+      "title": "Шумоизоляция стен в квартире. Каркас. Подробная видео инструкция.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O4pGx8ESHDU",
+      "title": "Шумоизоляция потолка. Монтаж звукоизолирующего подвесного потолка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SiFgUfIeImI",
+      "title": "Укладка ламината. Подробная видео инструкция от профессионалов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yVHhWGJS8kA",
+      "title": "Ремонт в новостройке все этапы. Борьба за полезную площадь.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KzTuwiNjceU",
+      "title": "Итог ремонта квартиры по проекту А. Земскова. Видео отзыв клиента. №22",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "B8RQtU6J5nI",
+      "title": "Монтаж теплого пола. Советы от профессионалов. г. Реутов. Часть 5",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ziBaZTBh5Ic",
+      "title": "Капитальный ремонт однокомнатной квартиры. Отзыв 21.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xEKHAD_62Jw",
+      "title": "Ремонт в новостройке. Без права на ошибку!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "juA-X6NR6-M",
+      "title": "Капитальный ремонт совмещенного санузла в Москве. Отзыв №20.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rOjCmaB_sHc",
+      "title": "Ремонт спальни в доме П44. Кабинет из лоджии.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NlvC7lPRiMU",
+      "title": "Новогоднее поздравление с 2017 новым годом!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vPkwnb7N1Io",
+      "title": "Ремонт квартиры в доме серии П44. Солнцево. Отзыв 19.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IJzmJLaXsDs",
+      "title": "Ремонт квартиры в г. Видное. Отзыв №18. Петришин Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hiI0HAypp-I",
+      "title": "Ремонт новостройки в г. Реутов. Видео отзыв №17. Петришин Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wYsup6SXjMQ",
+      "title": "Ремонт Квартиры по проекту А. Земскова. Видное. Финиш. Часть 7.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dz5e_zvyhSA",
+      "title": "Ремонт квартиры в г. Реутов. Часть 4. Укладка плитки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KmF63e3RQ48",
+      "title": "Ремонт частного дома г. Видное. Отзыв №16. Петришин Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7camw_9g-JQ",
+      "title": "Bathroom renovation in a P44t series building. Cost optimization tips.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MycPh1MnZTI",
+      "title": "Прикольная люстра из Китая",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4O1UqRqpApw",
+      "title": "Пробковый пол. Технология укладки от профессионалов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5GUiyCYdMYs",
+      "title": "Ремонт квартиры в г. Реутов. Плитка, теплые полы, подоконники.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OZrJa7SoXnU",
+      "title": "Ремонт квартиры в г. Реутов. Часть 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6nT8SbBSxMM",
+      "title": "Часть 5 - Правильная установка вентиляции на кухне. Ремонт по проекту Алексея Земскова.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "f62NCWnRXOQ",
+      "title": "Ремонт квартиры в г. Реутов от А до Я. Этап 1.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O2CF-Ers4E4",
+      "title": "Часть 4 - Малярные работы, обшивка балкона. Ремонт по проекту Алексея Земскова.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hrhJ6Y8hhPU",
+      "title": "Шумоизоляция стен ЗИПС панелями. Советы от профессионалов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rmGE0tReQ3o",
+      "title": "Часть 3 - Электромонтажные, сантехнические работы и стяжка пола. Ремонт по проекту Алексея Земскова.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NPRiYapFdiU",
+      "title": "Видео обзор трехкомнатной квартиры. Мнение клиента",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qSyARBvnLV0",
+      "title": "Ремонт санузла П 44. Актуальные и важные советы. Петришин Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4TPiXPojeAg",
+      "title": "Ремонт квартиры по проекту Алексея Земскова. г. Видное. Часть 2. Сварочные работы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ar4HNfWjzh4",
+      "title": "Шумоизоляция пола \"Шумопласт\". Советы от профессионалов. Петришин Строй",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4c6g-6pQp9E",
+      "title": "Ремонт кухни П 44. Актуальные и важные советы. Петришин Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "taOPsWtJt4w",
+      "title": "Видео обзор двухкомнатной квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "h-0mR4u04yY",
+      "title": "Ремонт квартиры отзыв № 14. Петришин Строй. Заказчик Бекир и Ирина.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TSPZMYWXCZ4",
+      "title": "Замер в ЖК Фили Град. Анализ дизайн проекта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "p756hSd-IK0",
+      "title": "Видео обзор квартиры в Люберцах. Отзыв №13. Петришин-Строй",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KHHEmHLsxfM",
+      "title": "Ремонт квартиры отзыв № 12. Петришин Строй. Заказчик Дмитрий.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O5GUy0O7QGA",
+      "title": "Ремонт квартиры по проекту Алексея Земскова. г. Видное. Часть 1 - Возведение стен.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2CxT9dlPggY",
+      "title": "Эпизод 13. Финишные работы (часть 2). ЖК Виноградный. Ремонт квартиры онлайн",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "z3W6kN9zK0E",
+      "title": "Эпизод 12. Финишные работы (часть 1). ЖК Виноградный. Ремонт квартиры онлайн",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "szIzrJJMm4o",
+      "title": "Как защитить межплиточные швы? Телеканал «Бобёр»",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VZk4615VM6I",
+      "title": "Установка дверного порожка. Телеканал «Бобёр»",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kFv16L4DlzQ",
+      "title": "Ремонт квартиры отзыв № 11. Петришин Строй. Заказчик Денис",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MTKwKUx0Nnc",
+      "title": "Как покрасить обои. Секреты от профессионалов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GC2vize3KQ0",
+      "title": "Эпизод 11. Плиточные работы. ЖК Виноградный. Ремонт квартиры онлайн",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BdeijNpTM9o",
+      "title": "Обзор ленточного шуруповерта BOSCH",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fOqYvKm_sW8",
+      "title": "Эпизод 10. Малярные работы (2-й этап). ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bHuAZxfzFrM",
+      "title": "Ремонт квартиры отзыв № 10. Петришин Строй. Заказчица Екатерина",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "q34MXDedeMQ",
+      "title": "Эпизод 9. Малярные работы (1-й этап). ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ot7qPVf7XVU",
+      "title": "Как клеить флизелиновые обои",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "U5EcBNlw4Sg",
+      "title": "Ремонт квартиры отзыв № 9. Петришин Строй. Заказчик Михаил",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2Upp24puAD0",
+      "title": "Договор на ремонт квартиры. Петришин Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YVm5G7NovFo",
+      "title": "Ремонт квартиры отзыв № 8. Петришин Строй. Заказчики Вячеслав и Алена.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XSuT5O5Y9w0",
+      "title": "С чего начать ремонт квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zpyFPRw_kwM",
+      "title": "Советы по ремонту.  Введение.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EWNki2-ZFzQ",
+      "title": "Эпизод 8. Монтаж гипсокартонных потолков. ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "J_0fcJ4wwBs",
+      "title": "Ремонт квартиры отзыв № 7. Петришин Строй. Заказчик Леонид.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YLRhQlQ5rJs",
+      "title": "Ремонт квартиры отзыв № 6. Петришин Строй. Заказчик Алексей.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oA6gABulhJk",
+      "title": "ЧП (чрезвычайное происшествие). Прорвало батарею!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JuTvF_3Fxg4",
+      "title": "Отзыв о ремонте раздельного санузла, кухни и коридора.  Заказчица Инна.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "l4bXbwfOlrU",
+      "title": "Эпизод 7. Сантехнические работы. ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Kns5qrv3xUg",
+      "title": "Новогоднее поздравление!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "liNUAvYtTOQ",
+      "title": "Отзыв о капитальном ремонте трехкомнатной квартиры в г. Реутов (122,7 м2). Заказчик Алексей.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7oRqHX-UdtQ",
+      "title": "Отзыв о Ремонте Санузла. Заказчица Наталья. Петришин Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RyBTvLccjzA",
+      "title": "Эпизод 6. Стяжка пола по маякам. ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ukkuz-ixqkw",
+      "title": "Отзыв о ремонте квартиры.  Заказчик Леонид.  Петришин Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3JDODF7TYEA",
+      "title": "Отзыв от Марины. Капитальный ремонт 3-х комнатной квартиры. Петришин-Строй.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_GL2t3cdSi8",
+      "title": "Эпизод 5. Электромонтажные работы и замена радиаторов. ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fCUUNM3b0JI",
+      "title": "Эпизод 4. Окончание штукатурных работ. ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xAHAjlBzNr0",
+      "title": "Эпизод 3. Штукатурка стен по маякам. ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AVUrIR8MLo4",
+      "title": "Эпизод 2. Возведенные стен. ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mIeBoMJkZyU",
+      "title": "Эпизод 1. Введение. ЖК Виноградный. Ремонт квартиры онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "i4JZu3GJ2kk",
+      "title": "Ремонт ванной под ключ за 3 минуты от Петришин-Строй",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vv4Wav4S7dY",
+      "title": "Сантехнические работы полипропиленом",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xHOOBcDcJZU",
+      "title": "Москва 24 - Специальный репортаж",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aviuLoGBkno",
+      "title": "Бригада Сергея Петришина. Обои своими руками (НТВ)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0hjkfIfzkUw",
+      "title": "Бригада Сергея Петришина. Потолок своими руками (НТВ)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "I8js5-kLrYI",
+      "title": "Бригада Сергея Петришина. Мозаика своими руками (НТВ)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7-vbxZceZAM",
+      "title": "Ремонт кухни ( кожухово )",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ABniAmT5Dx0",
+      "title": "Ремонт кухни (Бутово)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nXICY61W6kE",
+      "title": "Ремонт квартиры ( Бутово )",
+      "status": "fresh",
+      "reason": null
+    }
+  ]
+}
