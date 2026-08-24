@@ -28,6 +28,72 @@ Konstantin Kruglov / Ontario adds concrete pricing and a repair technique to thi
 - **Epoxy grout is now partially repairable, a change from older practice**: previously considered effectively non-repairable (removing a cracked/broken tile could snap the tile itself before the epoxy joint gave way) — the source states a heat gun can now soften cured epoxy grout enough to work with it for a minor repair. **A real color-matching risk remains on any epoxy repair/redo**: some epoxy grout uses a neutral base with an added colorant, so a later repair batch isn't guaranteed to match the original color exactly — unlike cement grout, which the source says can simply be dug out and re-applied without this risk.
 - **Practical rule of thumb for where to spend on epoxy vs. cement, restated more concretely than this page's existing table**: epoxy in every constant-water-contact zone (a tiled shower pan/podium specifically) and at **every external tile corner** (cement bonds poorly there and is the weakest point in an all-cement-grout room) — corroborates this page's existing "always use epoxy at external corners" rule with independent confirmation and a stated mechanism (poor cement bond at a corner's limited bonding area). Everything else can be cement if budget is a real constraint.
 
+## Layout, Detachment Mechanisms, and Acceptance Checklist (Петришин-Строй, added 2026-08-24, Round 2)
+
+Region level 2 (channel-level Moscow association only, no city named this
+episode). Substantial overlap with this page's own existing content
+(substrate prep, priming, waterproofing, external-corner mitre+silicone,
+adhesive combing, hollow-sound tap test) is corroboration, not
+re-extracted.
+
+- **Bathtub-protection reminder**: if a bathtub is already installed
+  before tiling starts, ask the tiler in advance to cover/protect it —
+  a dropped hammer or tile fragment during tiling can chip the enamel.
+- **Layout starting-point and centerline technique**: start tiling from
+  the most visually prominent wall (the one facing you on entering the
+  room). Mark a vertical centerline dividing that wall in half so tile
+  radiates symmetrically from a central seam; if this leaves small edge
+  scraps on either side, instead align the tile's own centerline to the
+  wall's centerline so both edges get equal, larger pieces. **General
+  rule: no installed fragment should be smaller than half a full tile
+  anywhere** — the tiler or the design project should set layout
+  direction with this in mind before work starts.
+- **Two distinct tile-detachment mechanisms, more specific than the
+  existing "why tile falls off" content above**: (a) using adhesive
+  itself to level an uneven substrate leaves a wall that "wants" to
+  return to its original shape over time, gradually pulling the tile
+  away even with otherwise-adequate adhesive contact; (b) applying
+  adhesive directly onto bare gypsum plaster (instead of over a
+  waterproofing membrane, in a wet zone) can fail because the adhesive's
+  bond strength exceeds the gypsum layer's own cohesive strength — the
+  gypsum layer itself tears away, taking the tile with it, rather than
+  the adhesive-to-substrate bond failing.
+- **Internal shower-corner grout-washout mechanism, extending this
+  page's silicone-at-internal-corners rule with a specific "why"**: the
+  internal shower corner is often the tightest/thinnest grout joint in
+  the room purely from how the cut tiles meet there — grout doesn't fill
+  a joint that thin well and washes out over time under direct water
+  exposure, which is exactly why silicone (not grout) belongs there.
+- **SVP tile-leveling-clip system**: prevents lippage caused by adhesive
+  settling/shrinkage overnight between tiles laid on different days —
+  not a panacea (still depends on installer skill), but reduces the
+  fatigue/inconsistency of manually tapping every tile level by hand; a
+  suction-cup handle tool is an easier alternative to hand-tapping.
+- **Grout-finish QC check**: grout lines shouldn't be concave/scalloped,
+  and tile edges shouldn't visibly poke through — inspect with a
+  flashlight at a raking angle.
+- **Fixture-penetration hole technique, with a named bad-practice
+  shortcut**: cut pipe/valve penetrations with a hole saw/core bit for a
+  clean round hole — some installers instead drill/grind an irregular
+  opening and rely on the fixture's own cover plate to hide it. Silicone-
+  seal the penetration before final placement; pre-mark and pre-cut the
+  hole precisely so an already-set tile never needs to be drilled again
+  (which risks cracking it).
+- **Acceptance-stage electrical check as part of tile acceptance**: check
+  switches/outlets/fixtures behind or around new tile for pinched or
+  hidden wiring damage — a tiler may not notice a wire getting covered
+  or compressed during installation.
+- **Floor-tile protection through the rest of the renovation**: keep
+  finished floor tile covered with rags plus hardboard/fiberboard
+  sheeting for the remainder of the project, removing it only for
+  inspection and re-covering immediately.
+- **Cost-risk-based labor-pricing rationale**: installation labor cost
+  scales with the material's own cost/risk, not purely labor time — a
+  single large-format porcelain slab can cost 40,000-50,000 RUB, so a
+  tiler's mistake is a real material loss, meaning installing it can't
+  reasonably cost the same per unit as installing 2,000 RUB/m² tile.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xd1xP2FuN40_petrishin_kill_tile_spotcheck|xd1xP2FuN40]]]
+
 ## Sequencing
 
 Lay and grout the floor tile **first**, including under the tub's footprint — set the tub *after* floor tiling, not before (see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] for how the tub-to-wall-tile junction itself sequences).
@@ -39,6 +105,39 @@ Lay and grout the floor tile **first**, including under the tub's footprint — 
 | Standard cement | Cheapest, easiest to repair (can dig out/re-grout anytime) | Absorbs moisture, can mold/mildew, darkens, can crumble |
 | Improved cement (polymer/latex-additive) | Denser, less water absorption, holds color, much less mold | Still not fully waterproof |
 | **Epoxy (two-component)** | Essentially waterproof, doesn't absorb dirt/grease/dye, mold-resistant, most durable — **the right choice for a tiled shower podium or shower-cabin base** (see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] and [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]]) | **3–5× the cost** of cement grout (material + labor); risk of permanently marking textured/embossed tile if misapplied |
+
+### Grout Color Selection and a Floor-Discoloration Warning (Sergey Petrishin, personal project, added 2026-08-24, Round 2)
+
+Petrishin-Stroy's founder, on his own house (not a company case study —
+`single-account`, personal-project framing): bring a small tile sample
+when shopping for grout — matching color against a manufacturer's
+swatches from memory or a photo is much less reliable. Grout matched to
+the tile's own base color reads as a monolithic, seamless surface;
+grout in a contrasting, darker shade instead emphasizes the tile module/
+joint pattern — a deliberate choice depending on the desired look, not a
+default.
+
+**⚠️ White/light grout on floors — a real, photographically demonstrated
+discoloration mechanism**: even a quality two-component (epoxy) white
+grout on a floor visibly discolors toward a "coffee with milk" tone
+within about a month of normal use, but **only along actual foot-traffic
+paths**, not uniformly. Demonstrated on his own kitchen floor with
+light-brown (not even white) grout — the traffic-path area is visibly
+darker than the same grout just outside the walked path. The lighter the
+grout's base color, the more visible this becomes — stated as the reason
+he does not recommend white floor grout at all, regardless of
+manufacturer or grade. This is a distinct, floor-traffic-specific caution
+from this page's existing cement-grout "can darken" con in the table
+above — that entry doesn't specify the localized foot-traffic-path
+mechanism this source demonstrates directly.
+
+Grout surface texture also varies meaningfully by manufacturer — some
+brands have a smooth, fine finish, others a visibly grainier texture;
+personal preference, not a universal quality ranking (commercial brand
+comparison, not adopted as fact). Some manufacturers sell matching-color
+silicone sealant alongside their grout swatches, letting a buyer
+color-match corner sealant to the chosen grout shade in one shopping
+trip. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NjOkuREH8lI_petrishin_grout_selection_personal|NjOkuREH8lI]]]
 
 ## Corner Treatment
 

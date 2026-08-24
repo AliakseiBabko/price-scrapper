@@ -8,3 +8,20 @@ Part of [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Water
 - **Drain/trap types**: standard round or square, a linear "щелевой" (slot) drain along one wall, or — described as a newer, less common, but aesthetically preferred option by one source — a trap mounted inside the wall itself with the drain pipe running inside the wall rather than the floor; not compatible with every layout. [source: [[_Archive/processed_sources/20260731_plumbing_video_3_e759e2c7.txt|20260731_plumbing_video_]]]
 - Konstantin Kruglov/Ontario states: **A revision access hatch at the podium's face/end is a legal requirement**, per one source, specifically so the trap and cavity can be periodically checked for leaks and moisture — the same source notes compliance is inconsistent in practice.
 - **Pre-made plastic shower cabin/enclosure units are strongly discouraged** by one source: nozzles clog quickly, drains become unreliable, and the structure itself is described as flimsy — considered appropriate only for a very low-budget job, not a standard modern renovation. [source: [[_Archive/processed_sources/20260731_plumbing_video_3_e759e2c7.txt|20260731_plumbing_video_]]]
+
+## Shower-Valve Height and Tile-Thickness Mixer-Centering Mistakes (Петришин-Строй, added 2026-08-24, Round 2)
+
+Region level 2 (channel-level Moscow association only, no city named this
+episode): **shower-valve-height design mistake, with a stated root
+cause** — a frequent designer mistake is setting the shower mixer/valve
+height without accounting for the *combination* of the future shower
+podium height plus the specific shower-arm/showerhead reach, resulting in
+an average-height adult hitting their head on the showerhead. **Fixing it
+after the fact requires demolishing the finished tile** — this must be
+caught and corrected at the rough-plumbing stage, before tiling, not
+discovered afterward. Separately, a **tile/adhesive-thickness
+mixer-centering mistake**: not accounting for the finish tile plus
+tile-adhesive thickness when planning a bathtub mixer's position relative
+to the tub leaves the mixer unable to center on the tub's spout/drain
+once tiling is done, so the water stream runs off-center from the tub
+opening instead of straight down the middle. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]

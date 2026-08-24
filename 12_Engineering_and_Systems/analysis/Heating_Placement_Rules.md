@@ -32,6 +32,18 @@ Zemstandart/Zemsproekt (Alexey Zemskov) says: **⚠️ The most complete radiato
 
 Zemstandart/Zemsproekt (Alexey Zemskov) says: **A radiator positioned within a dividing wall between two rooms/zones can be made double-sided** — remove the partition segment immediately around it and add a grille on both faces — so one radiator heats two adjacent spaces more efficiently instead of needing a separate unit for each. Deployed specifically to combat window-condensation risk on a large panoramic-glazing wall where in-floor convectors weren't an option on that project. Only applicable when an interior partition wall exists at the right location relative to the glazing needing heat. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D8t1ADisUE8_odnushka_premium_replan_246|YT_D8t1ADisUE8]]]
 
+## Underfloor-Heating Sensor Conduit (Петришин-Строй, added 2026-08-24, Round 2)
+
+Route the heated-floor temperature sensor through a 16mm-diameter Rehau
+(PE-Xa) or metal-plastic pipe, not the thin corrugated tube some sensor
+manufacturers bundle with the sensor — the sensor must be able to slide
+freely to the far end of the tube so it can be pulled and replaced later
+if it fails. The manufacturer-supplied thin corrugated sleeve is described
+as too flimsy for reliable future extraction; a rigid 16mm pipe keeps the
+sensor serviceable without breaking into the screed. Region level 2
+(channel-level Moscow association only, no city named in this source).
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q6GKMOJuaPc_petrishin_electrical_quality_checklist|Q6GKMOJuaPc]]]
+
 ## The Cost of Deferring This Decision
 
 Retrofitting floor heating after a renovation is finished (breaking out already-tiled/finished flooring to add it later) costs meaningfully more than including it in the original design-project scope. The source uses this specifically as a worked illustration of a broader point: hundreds of small planning details like this one compound in cost when deferred to "later," not just floor heating.

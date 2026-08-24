@@ -184,6 +184,60 @@ See [[13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels|Decorative Wall P
 - **Zemskov's sheet-cutting method: cut in place, not by tape-measure-and-pencil** — hold an oversized sheet against the frame, mark by pressing/creasing at the frame edge, then snap/fold/cut along the crease; he frames the tape-measure method as "10 extra actions" for the same eventual result.
 - **Safety warning**: never brace a screw with a bare finger behind the drywall as a "stop" — a 35mm screw can drive nearly through the finger. Always wear gloves and safety glasses. [source: [[_Archive/processed_sources/20260810_drywall_false_wall_masterclass_6d77f6f5.txt|20260810_drywall_false_w]]] [source: [[_Archive/processed_sources/20260810_drywall_false_wall_masterclass_6d77f6f5.txt|_Archive/processed_sourc]]]
 
+## Wallpaper & Paint — Acceptance/QC Checklist (Петришин-Строй, added 2026-08-24, Round 2)
+
+Region level 2 (channel-level Moscow association only, no city named
+this episode). First wallpaper/paint acceptance-QC content on this page
+— no prior overlap.
+
+- **Wallpaper seam/corner requirements**: butt joints (no overlap, no
+  gaps); internal/external corners sharp, not rounded, ideally
+  reinforced with paper tape or a metal corner bead. Applying wallpaper
+  as one continuous sheet across an internal corner (instead of cutting
+  and taping it) traps air bubbles behind the paper, causing later
+  peeling.
+- **Pattern-alignment QC, with a source-of-blame distinction**: pattern
+  drift at seams isn't always the installer's fault — a manufacturing
+  defect in the roll is a real possibility. Dry-lay rolls flat on the
+  floor before hanging to spot a factory pattern defect ahead of time; a
+  skilled installer can sometimes still correct minor drift while the
+  paste-wetted sheet is still pliable.
+- **Full visual wallpaper-defect checklist**: no bubbles, stains, glue-
+  coverage gaps, peeling, skew, or wrinkles anywhere. **Debris-under-
+  wallpaper defect mechanism**: unremoved dust/debris under wallpaper
+  becomes visible especially under thin paper wallpaper and once wall
+  sconces are switched on (raking light reveals the bump) — root cause
+  is inadequate wall prep (dedusting + priming), not a wallpapering-
+  technique failure.
+- **⚠️ Inspection/"reveal" lamp technique, with a real cost implication**:
+  use a raking/grazing-angle inspection lamp (not an ordinary work
+  floodlight) to reveal painted-wall defects invisible under normal
+  lighting. **Negotiating tip**: ask a prospective painter what
+  inspection method they use before hiring — working to an
+  inspection-lamp standard signals meticulous work and justifies a
+  correspondingly higher price.
+- **Painted-wall visual-defect checklist**: no stains, streaks, or
+  drips, checked from multiple angles and under multiple light sources.
+  **Two-color junction QC**: the line where two paint colors meet must
+  be crisp and straight; a paint-to-wallpaper junction must be clean,
+  with no glue smears, damage, or lifted wallpaper edges at the seam.
+- **Dark-wallpaper installer lifehack, a competence signal**: near a
+  dark-paint-to-dark-wallpaper junction, paint a 5-10cm strip of the
+  wall under the future wallpaper edge in the same dark color before
+  hanging, so any small gap (up to ≈0.5mm) that later appears at the
+  seam isn't visually noticeable.
+- **Ceiling-molding/cornice acceptance checklist**: no visible gaps or
+  cracks; miter seams invisible; painted evenly along the full length;
+  squeezed-out adhesive removed carefully and promptly; a dedicated
+  joint-filler adhesive used at seams, not the mounting adhesive.
+- **General finish-protection rule**: keep finished surfaces (walls,
+  floors) clean, undamaged, and covered from dust for the rest of the
+  project — named failures this guards against include spilled adhesive
+  or a dropped paint roller ruining an already-finished surface; extend
+  the same check to electrical/plumbing fixtures, since paint/adhesive
+  splatter is very hard to remove once dried.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VcrYHkDgb0o_petrishin_kill_walls_spotcheck|VcrYHkDgb0o]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |

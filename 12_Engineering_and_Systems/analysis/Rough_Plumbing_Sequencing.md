@@ -145,6 +145,24 @@ Pavel Sidorik, the "last plumbing episode" of this project's sewer/supply arc, u
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26|q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26]]]
 
+## Pre-Closure Pipe Documentation and Same-Crew Continuity (Петришин-Строй, added 2026-08-24, Round 2)
+
+Region level 2 (channel-level Moscow association only, no city named this
+episode). **Pre-closure pipe-documentation technique, with a named
+failure mode it prevents**: before sealing plumbing chases, photograph the
+exact pipe routing and tape-measure the vulnerable/hidden runs. Stated
+real incident: an installer later cutting a hidden access hatch
+(`люк-невидимка`) under a bathtub accidentally punctured a pipe because no
+one on-site knew exactly where it ran — this company's own practice is to
+always produce these measured photos so a tiler later knows exactly where
+the routing sits under the finished floor. **Same-crew rough-and-finish
+plumbing recommendation, with a stated incentive mechanism**: ideally the
+same crew performs both the rough and finish plumbing stages, since
+they're then personally motivated to get the rough stage right (they'll
+be the ones dealing with any consequence at finish stage) — must be
+explicitly agreed with the crew *before* work starts; raising it
+mid-project is described as poor practice. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
+
 ## Fixture Stub-Out Coordinates
 
 A complete rough-plumbing stub-out coordinate reference by fixture type (sink, shower, tub, toilet+hygienic-shower, urinal, washing machine, kitchen sink with/without an adjacent washer) has its own dedicated page — see [[12_Engineering_and_Systems/analysis/Fixture_Stubout_Coordinates|Fixture Stub-Out Coordinates]] (added 2026-08-18).

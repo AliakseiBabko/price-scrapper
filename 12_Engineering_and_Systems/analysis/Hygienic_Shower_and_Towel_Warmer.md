@@ -10,6 +10,18 @@ Covers a specific, preventable hygienic-shower failure mode, and the case for el
 - Konstantin Kruglov/Ontario states: **Correct usage sequence, stated explicitly by the source**: open the shutoff valve → spray → release the trigger → close the shutoff valve → also bleed/release the residual pressure trapped in the hose.
 - Konstantin Kruglov/Ontario recommends: **A "vent-type" (anti-forgetfulness) hygienic-shower valve design is recommended as the practical fix for apartments**: it's physically impossible to hang the spray nozzle back on its wall holder unless the water-supply valve has been closed first, forcing the correct shutoff sequence through the fixture's own mechanical design rather than relying on the user remembering.
 
+## Towel-Warmer Sustained-Run Acceptance Test (Петришин-Строй, added 2026-08-24, Round 2)
+
+Region level 2 (channel-level Moscow association only, no city named this
+episode): **a specific false-negative test-timing failure mode at the
+hydrostatic pressure-test/acceptance stage** — don't just confirm the
+towel warmer heats at initial system startup; let it run a full 1-3 hours
+before judging it working. A unit can heat normally right when the system
+first pressurizes, but cool back down within 1-3 hours if there's an
+underlying insufficient-pressure, poor-circulation, or placement problem
+— a short initial check alone will miss this and pass a defective
+installation that only reveals itself later. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
+
 ## Towel Warmer: Water (Hydronic) vs. Electric
 
 **The case for electric as the default isn't stylistic — it's a specific, safety-driven cost/risk comparison:** [source: [[_Archive/processed_sources/20260731_plumbing_video_3_e759e2c7.txt|20260731_plumbing_video_]]]

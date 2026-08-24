@@ -1,0 +1,14 @@
+{
+  "batch": "petrishin_stroi_round2",
+  "created": "2026-08-24",
+  "videos": {
+    "Q6GKMOJuaPc": {"title": "Как выглядит качественная электрика?", "status": "archived", "fact_yield": 9, "region": "level2_channel_only", "upload_date": "2024-03-02"},
+    "OgIZhrxD4v4": {"title": "Как выглядит качественная сантехника?", "status": "archived", "fact_yield": 9, "region": "level2_channel_only", "upload_date": "2024-03-24"},
+    "r1eyXzXNdI0": {"title": "What Does Quality Plastering Look Like?", "status": "archived", "fact_yield": 5, "region": "level2_channel_only", "upload_date": "2024-02-17", "note": "English title, confirmed RU spoken audio; heavy overlap w/ Round1 D1REgSDwILU"},
+    "Y9PGtPmcMms": {"title": "What Does Quality Floor Screed Look Like?", "status": "archived", "fact_yield": 11, "region": "level2_channel_only", "upload_date": "2024-06-09", "note": "English title, confirmed RU spoken audio; no overlap with Round1 semi-mechanized screed method"},
+    "zxTbtAbuXFs": {"title": "Как выглядит качественный демонтаж?", "status": "archived", "fact_yield": 14, "region": "level2_channel_only", "upload_date": "2024-03-31", "note": "densest video of round; second Demolition topic-area source"},
+    "NjOkuREH8lI": {"title": "Как выбрать затирку?", "status": "archived", "fact_yield": 5, "region": "unresolved_personal_house", "upload_date": "2022-02-03", "note": "personal-project video, not company case study"},
+    "xd1xP2FuN40": {"title": "Как УБИТЬ ПЛИТКУ", "status": "archived", "fact_yield": 11, "region": "level2_channel_only", "upload_date": "2024-07-28", "note": "format spot-check 1/2: dense, substantive, not thin dunk filler"},
+    "VcrYHkDgb0o": {"title": "Как УБИТЬ СТЕНЫ", "status": "archived", "fact_yield": 12, "region": "level2_channel_only", "upload_date": "2024-09-01", "note": "format spot-check 2/2: dense, substantive, confirms spot-check finding"}
+  }
+}

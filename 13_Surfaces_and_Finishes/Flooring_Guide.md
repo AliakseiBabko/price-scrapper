@@ -155,6 +155,69 @@ reinforced screed already on this page:
   most of its final strength.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_E7M-bWWSmfw_petrishin_screed_stages|YT_E7M-bWWSmfw]]]
 
+## Screed Acceptance/QC Checklist — per Петришин-Строй (added 2026-08-24, Round 2)
+
+Same channel as the semi-mechanized-screed video above, but a distinct
+general acceptance/QC video, not a delivery-method one — complementary
+content, no overlap flagged. Region level 2 (channel-level Moscow
+association, slightly reinforced by an explicit "we serve Moscow/Moscow
+region" service-area statement in a sales CTA, but that's the company's
+own service scope, not a direct statement about this object's location —
+does not clear level 1).
+
+- **Staged-payment heuristic**: 50% at start, 50% only after work is
+  finished and the result is visible — agree before work starts, not
+  mid-job. **A zero-measurement quote is a red flag**: a crew offering to
+  show up and pour with no on-site measurement first can't have checked
+  pipe/conduit clearances, door-opening height, or whether the target
+  thickness will actually work at this site.
+- **Screed strength depends on four factors**: sand:cement ratio (some
+  crews deliberately under-dose cement to pocket the savings, producing
+  cracks), compaction/tamping (skipping it is called the single biggest
+  mistake — leaves micro-voids that crack later), target thickness, and
+  the drying/curing regimen. **Two field compaction-QC tests**: (1) walk
+  the poured screed the next day in rubber "concrete boots" — it should
+  not sink or leave footprints; (2) pour water on the surface — on a
+  well-compacted screed it sits on top and absorbs gradually rather than
+  disappearing quickly into the body.
+- **Minimum-thickness recommendation stronger than the nominal
+  standard**: the accepted minimum is 4cm, but the company recommends
+  **6cm+**, citing a real case of having to demolish a 4cm screed that
+  was poured in full technical compliance and still cracked. Where full
+  thickness isn't achievable over water/electrical conduits, reinforce
+  that section with metal mesh laid over the conduits.
+- **A fourth distinct curing-protocol variant for this store, not merged
+  with the numbers above (this project's non-blending convention)**:
+  cover with damp rags plus heavy watering, then plastic film, for
+  **1 week**; check whether the rags have dried out — if so, re-wet and
+  re-cover, repeating every **3-5 days** as needed; then let the screed
+  dry undisturbed for a further **21 days** to reach full design
+  strength.
+- **A written-vs-verbal tolerance bait-and-switch warning**: some crews
+  verbally quote a generous tolerance (e.g. "2mm per 2m") to win the job,
+  then present looser written tolerances once work begins — get the
+  tolerance figure in writing before work starts.
+- **Final acceptance tooling and tolerances**: 2m straightedge + laser
+  level; gap ≤2mm anywhere; a 5-ruble coin pressed into any gap must not
+  sink in (same coin-test technique as this channel's plastering-
+  acceptance checklist, now applied to floor screed); bubble level on
+  the straightedge must read centered everywhere; laser level deviation
+  from true horizontal ≤2mm at any point. **Corners are the most common
+  defect location**: the power-trowel finishing machine can't reach into
+  corners, so they need separate hand-finishing — skipping this leaves a
+  detectable level "jump" right at the corner.
+- **Deformation-joint detail extending this page's existing screed-joint
+  content**: besides perimeter damper tape and joints between rooms, cut
+  a **diagonal T-shaped relief cut from every external/outside corner of
+  the room** — outside corners concentrate the highest stress in a screed
+  slab, and this cut relieves it deliberately.
+- **QC-timing rule with a stated cost mechanism**: inspect the screed
+  while still fresh/wet — a defect caught then is fixed on the spot; the
+  same defect caught the next day (cured) needs a self-leveling top-up
+  or grinding, both slower and costlier. Explicitly agree in advance who
+  is responsible for watering/covering the screed during curing.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Y9PGtPmcMms_petrishin_screed_quality_checklist|Y9PGtPmcMms]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |

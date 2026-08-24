@@ -19,3 +19,14 @@ Pavel Sidorik **independently corroborates** the "plan furniture before finalizi
 **Reusable dust-containment room barrier** ("Blue Dolphin" plastic zip-door, sealed with included double-sided tape): hangs over a doorway, lets the crew chase/drill one room fully sealed off, vacuum it clean, then move tools/belongings there before opening the next room; reusable across future projects. **Material-specific adhesion caveat**: on an aerated-silicate-block wall, the included double-sided tape alone was unreliable (dusty, porous surface) — back it up with ordinary plastering tape as a secondary adhesive. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9-NjgDLleOw_sidorik_electrical_ep6|9-NjgDLleOw_sidorik_electrical_ep6]]]
 
 **Prime freshly-cut chases/holes immediately after cutting and vacuuming, while the room is still sealed and clean — before moving tools/belongings back in.** Extends the dust-barrier sequencing above with the next step: deep-penetrating primer (named: Ceresit CT 17) applied by airless sprayer at low pressure to avoid airborne mist (a garden pump sprayer substitutes if no airless sprayer is available). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IWVPepWlzSs_sidorik_electrical_ep7|IWVPepWlzSs_sidorik_electrical_ep7]]]
+
+**Furniture-maker coordination timing, corroborating with a stated failure
+mode (Петришин-Строй, added 2026-08-24, Round 2)**: before rough-electrical
+work starts, have the furniture makers (`мебельщики`) come measure and
+propose their own outlet/switch placement for built-in cabinetry/appliances
+first, folding any changes into the rough-electrical layout — the company's
+own stated experience is that furniture installers routinely show up
+*after* rough-in is finished and ask for relocated outlets anyway, so
+front-loading this avoids the later rework. Independently corroborates the
+Zemskov/Sidorik "plan furniture before finalizing socket placement" rule
+above with a third, distinct practitioner. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q6GKMOJuaPc_petrishin_electrical_quality_checklist|Q6GKMOJuaPc]]]

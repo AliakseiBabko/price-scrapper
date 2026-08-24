@@ -392,6 +392,42 @@ Moscow association only; not stated directly in this video):
   bundled client job).
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D1REgSDwILU_petrishin_plastering_basics|YT_D1REgSDwILU]]]
 
+## Beacon Rust-Bleed Mechanism, Corner Scoping, and Two New QC Field Tests (Петришин-Строй, added 2026-08-24, Round 2)
+
+Same channel as the plastering-basics video above (`YT_D1REgSDwILU`) —
+this source's own general acceptance checklist heavily restates that
+video's numbers (2mm gap / 1mm-per-1m plumb tolerance, door-jamb
+thickness matching, junction cleanliness) and is **not re-counted as
+independent corroboration** (same-channel, same company standard).
+Region level 2 (channel-only Moscow association, no city named).
+
+- **Beacon rust-bleed-through mechanism — the actual reason beacons must
+  always be pulled, not just reused-once fragility**: even galvanized
+  beacons get scratched/scored by the straightedge ("правило") as it's
+  dragged across them while plastering, exposing bare steel under the
+  galvanizing. That exposed steel rusts, and the rust eventually bleeds
+  through the finish layers above it (putty, fiberglass mesh/wallpaper
+  backing, or paint) months later. Always remove every beacon after
+  plastering and patch the channel flush with the same plaster material.
+- **Corner-reinforcement mesh, mid-depth placement detail**: extends this
+  page's existing exterior-corner mesh-reinforcement rule — the mesh
+  should sit specifically *inside the plaster body* (mid-thickness), not
+  just anywhere within the layer.
+- **90° corner requirement is deliberately scoped, not whole-apartment**:
+  strict 90° corners aren't required everywhere — only the kitchen and
+  bathroom need them, specifically so built-in furniture and fixtures sit
+  flush. Elsewhere, minor corner imperfection is acceptable as long as it
+  doesn't interfere with wallpaper seams.
+- **Coin-press QC technique, distinct from the existing straightedge/gap
+  check**: press a coin against the plastered surface — if it sinks in,
+  the plaster is under-hard/defective. The same test is also applied at
+  door-opening reveals specifically, to check for gaps/soft spots there.
+- **Plaster-thickness photo-documentation as a stated client-transparency
+  practice**: whenever plaster thickness exceeds 3cm, the foreman
+  photographs it, so the client can see exactly how much extra material/
+  labor a thicker-than-normal layer required.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_r1eyXzXNdI0_petrishin_plastering_quality_checklist|r1eyXzXNdI0]]]
+
 ## Rough-Stage Acceptance Checklist Items
 
 - **A dry-trap siphon at the water-inlet node is worth including even on the most basic build** — lets filter-flush water drain automatically instead of needing a bucket; without one, infrequent manual flushing plus standing water in a regular siphon causes sewer odor. **Dishwashers get the same treatment**: a dry-trap siphon under a dishwasher prevents sewer-gas odor the same way — framed as standard practice most homeowners don't know to ask for. `single-account`. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]

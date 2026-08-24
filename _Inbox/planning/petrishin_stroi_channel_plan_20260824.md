@@ -200,15 +200,122 @@ dunk-style clickbait), plus a deliberate 2-video spot-check of the "Как
 УБИТЬ X" clickbait format per the Round 1 recommendation to test it early
 rather than assume either way.
 
-| # | Video ID | Title | Why selected | Status |
-|---|---|---|---|---|
-| 1 | `Q6GKMOJuaPc` | Как выглядит качественная электрика? Материалы, лайфхаки и главные ошибки. | Electrical technique+QC series | pending |
-| 2 | `OgIZhrxD4v4` | Как выглядит качественная сантехника? Материалы, лайфхаки и главные ошибки. | Plumbing technique+QC series | pending |
-| 3 | `r1eyXzXNdI0` | What Does Quality Plastering Look Like? Materials, Hacks, and Common Mistakes. | Plastering technique+QC series (English title) | pending |
-| 4 | `Y9PGtPmcMms` | What Does Quality Floor Screed Look Like? Materials, Life Hacks, and Major Mistakes. | Screed technique+QC series, tests against Round 1's new screed method | pending |
-| 5 | `zxTbtAbuXFs` | Как выглядит качественный демонтаж? Лайфхаки и главные ошибки. | Demolition technique+QC series | pending |
-| 6 | `NjOkuREH8lI` | Как выбрать затирку? Основные ошибки и главные секреты. | Grout-selection technique, tests fit against `Tile_Selection_and_Layout.md` | pending |
-| 7 | `xd1xP2FuN40` | Как УБИТЬ ПЛИТКУ. Все ОШИБКИ укладки. Советы и лайфхаки | "Как убить X" clickbait-format spot-check #1 (tiling) | pending |
-| 8 | `VcrYHkDgb0o` | Как УБИТЬ СТЕНЫ. Все ОШИБКИ малярных работ. Советы и лайфхаки | "Как убить X" clickbait-format spot-check #2 (painting) | pending |
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `Q6GKMOJuaPc` | Как выглядит качественная электрика? Материалы, лайфхаки и главные ошибки. | Electrical technique+QC series | **FULL extraction** | 9 | Substantial overlap with existing Kruglov/Sidorik electrical content (not re-extracted). New: built-in-appliance socket placement, cooktop cable length, floor-mesh-over-membrane fix, low-voltage transformer ceiling avoidance, aquastop power feed, outlet-box flush-fit QC, underfloor sensor conduit, furniture-maker coordination (3rd-practitioner corroboration). Region level 2. Low promotional ratio. |
+| 2 | `OgIZhrxD4v4` | Как выглядит качественная сантехника? Материалы, лайфхаки и главные ошибки. | Plumbing technique+QC series | **FULL extraction** | 9 | Substantial overlap with existing plumbing sequencing/pressure-test content (not re-extracted). New: utility-cabinet rough-in rules, radiator sill-alignment check, pre-closure pipe photo-documentation, towel-warmer sustained-run test, shower-valve-height mistake, tile-thickness mixer-centering mistake. Region level 2. Low promotional ratio. |
+| 3 | `r1eyXzXNdI0` | What Does Quality Plastering Look Like? Materials, Hacks, and Common Mistakes. | Plastering technique+QC series (English title) | **FULL extraction** | 5 | English title, **confirmed Russian spoken audio**. Heavy overlap with this same channel's own Round 1 plastering video (`D1REgSDwILU`) — same-channel restatement, not independent corroboration, not re-extracted. New: beacon rust-bleed-through mechanism, corner-mesh mid-depth detail, scoped 90°-corner rule, coin-press QC test, plaster-thickness photo-documentation. Region level 2. |
+| 4 | `Y9PGtPmcMms` | What Does Quality Floor Screed Look Like? Materials, Life Hacks, and Major Mistakes. | Screed technique+QC series, tests against Round 1's new screed method | **FULL extraction** | 11 | English title, **confirmed Russian spoken audio**. **No overlap with Round 1's semi-mechanized screed method** — complementary QC-checklist angle. Staged-payment heuristic, 4-factor strength model + 2 compaction tests, 6cm+ thickness recommendation, a 4th distinct curing-protocol variant, tolerance bait-and-switch warning, coin test applied to screed, corner-defect mechanism, T-cut deformation joint, QC-timing rule. Region level 2 (Moscow named only as company service area). Medium promotional ratio. |
+| 5 | `zxTbtAbuXFs` | Как выглядит качественный демонтаж? Лайфхаки и главные ошибки. | Demolition technique+QC series | **FULL extraction, densest video this round** | 14 | Second source in the store's "Demolition" topic area (still below 3-source page threshold), zero overlap with the first (Sidorik). Written scope-of-work, furniture/window/door protection, temp lighting/sink, 3-tactic neighbor-relations practice, debris-disposal negotiation, pre-priming dedusting, flooring-to-substrate removal, panel-ceiling-joint/exterior-corner treatment, developer-insulation replacement, ⚠️ named 7-apartment flooding incident, ventilation-shaft resize lifehack. Region level 2. Low promotional ratio. |
+| 6 | `NjOkuREH8lI` | Как выбрать затирку? Основные ошибки и главные секреты. | Grout-selection technique, tests fit against `Tile_Selection_and_Layout.md` | **FULL extraction** | 5 | ⚠️ Different framing — Sergey Petrishin's own personal-project video (his own house), not a company case study; region does not clear even level 2. Internal-corner-silicone/epoxy-wet-zone rules corroborate existing Zemskov content (not re-extracted). New: tile-sample shopping tip, monolithic-vs-contrast color rule, ⚠️ photographically-demonstrated white/light-grout floor-traffic discoloration warning, brand-texture comparison, matching-silicone tip. Low promotional ratio. |
+| 7 | `xd1xP2FuN40` | Как УБИТЬ ПЛИТКУ. Все ОШИБКИ укладки. Советы и лайфхаки | "Как убить X" clickbait-format spot-check #1 (tiling) | **FULL extraction** | 11 | **Format spot-check: dense, substantive, NOT thin dunk-style filler** — structurally identical to the positively-titled series. Layout/centerline technique, two tile-detachment mechanisms, internal-corner grout-washout mechanism, SVP leveling clips, grout-finish check, fixture-penetration hole-saw technique, acceptance electrical check, floor-protection practice, cost-risk labor pricing. Region level 2. Medium promotional ratio. |
+| 8 | `VcrYHkDgb0o` | Как УБИТЬ СТЕНЫ. Все ОШИБКИ малярных работ. Советы и лайфхаки | "Как убить X" clickbait-format spot-check #2 (painting) | **FULL extraction, second-highest yield this round** | 12 | **Format spot-check confirmed a second time: dense wallpaper/paint acceptance checklist, not thin filler.** First wallpaper/paint QC content on `Walls_and_Paint.md`. Wallpaper seam/corner/pattern checklist, ⚠️ raking-light inspection-lamp technique with a pricing implication, painted-wall defect checklist, dark-wallpaper installer lifehack, ceiling-molding checklist, finish-protection rule. Region level 2. Medium promotional ratio. |
 
-Status: **pending dispatch**.
+**Round 2 yield**: 8 videos processed, 76 genuinely-new facts (9+9+5+11+14+5+11+12, excluding duplicate/corroborating-only outcomes), yield = 9.5 new facts/video — **above Round 1's 8.6 baseline**, well above the 1.0 floor, no stop-and-ask trigger.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 8
+videos fetched serialized one at a time with real spacing (achieved by
+interleaving each video's own full extraction/routing/CSV/archiving work
+between fetches — never an idle wait), consistent with Round 1's own
+clean result. This further confirms the IP-wide block from earlier in
+the session remains lifted.
+
+### "Как убить X" format spot-check — explicit finding
+
+Both spot-checked videos (7 and 8) turned out to be **structurally
+identical to this round's positively-titled "Как выглядит качественная
+X?" acceptance-checklist series** — each opens with only a brief
+clickbait cold-open (a few seconds) before settling into the same
+substantive substrate-prep → technique → acceptance-checklist format as
+the rest of the round. Both delivered yields (11 and 12) at or above the
+round's own average (9.5), and above 6 of the other 6 videos. **This
+channel's "Как убить X" title format is demonstrably not a negative-value
+signal** — consistent with, and reinforcing, this project's standing
+value-filter warning that title sentiment alone is not a reliable
+predictor (title-genericness cuts both ways across channels: Zemskov's
+"how not to X" turned out uniformly positive, Kruglov's "$X wasted"
+dunk-format turned out genuinely thin, and this channel's "Как убить X"
+now joins the positive column). **Recommendation for future rounds on
+this channel**: include the "Как убить X" format on equal footing with
+the channel's other technique/QC series — do not deprioritize it by
+title alone.
+
+### Region-check finding, per this round's explicit brief
+
+Consistent with Round 1's own finding: region evidence varied video to
+video, not a fixed channel answer. 6 of 8 videos stayed at level 2
+(channel-only Moscow association); video 4 had one sales CTA naming
+Moscow/Moscow-region as the company's own *service area* (not the
+object's location), correctly kept at level 2 rather than promoted to
+level 1; video 6 (personal-project video, Sergey Petrishin's own house)
+did not clear even level 2, since it's not necessarily located in/near
+Moscow the way the company's client projects are. No video in this round
+cleared level 1 directly (unlike Round 1's video 5).
+
+### Language check, per this round's explicit brief
+
+Videos 3 and 4 both carry English on-screen titles; both were
+individually verified via the `youtube-transcript-api` fetch metadata to
+have Russian spoken audio (`language: ru`) — fetched and cited in
+Russian throughout, per this project's standing rule. No English-audio
+video was encountered in this round.
+
+### Cross-check findings, per this round's explicit brief
+
+- **Video 4 (screed) vs. Round 1's semi-mechanized ("полуручка") screed
+  method**: no overlap — video 4 is a general acceptance/QC checklist,
+  not a delivery-method video. Genuinely complementary, not corroborating
+  or contradicting.
+- **Videos 1 (electrical) and 2 (plumbing) vs. existing Kruglov/Sidorik
+  content in `12_Engineering_and_Systems/analysis/`**: substantial
+  overlap found and correctly **not** re-extracted (junction-box-open-
+  for-fault-test, temp-outlet test, equipotential bonding, white-cable
+  red flag, 2-breakers/room heuristic, plumbing-after-plastering
+  sequencing, hot-left/cold-right, two-45° elbows, 10-atm pressure test).
+  Both videos still yielded 9 genuinely new items each once the overlap
+  was set aside.
+- **Video 3 (plastering) vs. this same channel's own Round 1 plastering
+  video**: heavy same-channel restatement of the acceptance-checklist
+  numbers (2mm gap, 1mm/1m plumb tolerance, door-jamb matching) —
+  correctly treated as same-channel restatement, not independent
+  corroboration, per this project's own same-channel-≠-independent-
+  source rule. Lowest yield of the round (5) as a direct consequence.
+
+## Progress Log
+
+- 2026-08-24 — **Round 2 complete.** All 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/logging work), zero rate-limit issues across the
+  entire round. All 8 fully extracted. Yield 76 new facts / 8 videos =
+  9.5 facts/video, above Round 1's 8.6 baseline and well above the 1.0
+  floor — no stop-and-ask trigger. Region checked explicitly per video:
+  6 of 8 stayed at level 2, 1 (video 4) had a service-area-only Moscow
+  mention correctly not promoted to level 1, 1 (video 6, a personal-
+  project video) didn't clear level 2 at all. Language checked explicitly
+  for both English-titled videos (3, 4) — both confirmed Russian spoken
+  audio. Cross-checks performed as instructed: video 4 vs. Round 1's
+  полуручка screed method (no overlap, complementary), videos 1-2 vs.
+  existing Kruglov/Sidorik electrical/plumbing content (substantial
+  overlap correctly excluded from re-extraction), video 3 vs. this same
+  channel's own Round 1 plastering video (same-channel restatement,
+  correctly not double-counted as corroboration — lowest yield of the
+  round as a result). The two "Как убить X" format spot-check videos (7,
+  8) delivered the round's 2nd- and among-highest yields (11, 12) and
+  were found structurally identical to the positively-titled series —
+  explicit finding: this format is not a negative-value signal for this
+  channel, recommend including it in future rounds. Content routed to
+  `12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design.md`,
+  `Rough_Electrical_Sequencing.md`, `Heating_Placement_Rules.md`,
+  `Water_Inlet_Node_Components.md`, `Radiators_and_Convectors.md`,
+  `Rough_Plumbing_Sequencing.md`, `Hygienic_Shower_and_Towel_Warmer.md`,
+  `Shower_Podium_and_Drains.md`, `Waterproofing_and_Plastering.md`;
+  `13_Surfaces_and_Finishes/Flooring_Guide.md` and `Walls_and_Paint.md`;
+  `07_Bathroom/analysis/Tile_Selection_and_Layout.md`; and the general
+  store's `Rules_Heuristics.md` (second Demolition-topic-area source,
+  `Pending_Wiki_Page_Decisions.md` updated, still below the 3+-source
+  page-creation threshold). `tools/verify_batch.py` run against the
+  pre-round commit; all 8 new CSV rows independently re-verified via
+  Python's `csv` module to parse into the correct 15 columns each with
+  `archived` status.

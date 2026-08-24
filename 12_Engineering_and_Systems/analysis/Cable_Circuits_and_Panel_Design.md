@@ -82,11 +82,57 @@ Konstantin Kruglov / Ontario states three governing principles behind this chann
 
 **Smart-home setup sequencing, a 4-step algorithm**: (1) decide which specific devices you want (sockets, switches, smoke/motion/door-open sensors are the most common); (2) choose the hub/"brain" ecosystem before buying more devices; (3) install/wire/configure; (4) build automation scenarios last. Two connectivity methods: Wi-Fi or wired network cable. [source for this section, all items: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8HnZ2m8vkZQ_kruglov_10_best_electrical_solutions|8HnZ2m8vkZQ_kruglov_10_best_electrical_solutions]]]
 
+## Kitchen/Cooktop Rough-In Details and Floor-Routing Mesh Fix (Petrishin-Stroi, added 2026-08-24, Round 2)
+
+Петришин-Строй (Sergey Petrishin), region level 2 (channel-level Moscow
+association only, no city named in this source):
+
+- **Built-in-appliance socket placement**: don't place an outlet directly
+  behind a built-in kitchen appliance — put it left/right of the
+  appliance, or lower in the (usually removable) plinth/kickplate area,
+  so the appliance can sit flush against the wall.
+- **Cooktop feed-cable length**: leave at least 1.5m of cable at a cooktop
+  (`варочная панель`) location — cooktops are usually hard-wired directly
+  rather than plugged in, and insufficient length forces a splice/re-solder
+  later.
+- **Floor-routed cable over an already-installed sound/waterproofing
+  membrane — no clips**: secure the cable to a metal mesh (3mm wire,
+  50×50mm cell) laid over the membrane using plastic zip ties, never by
+  puncturing the membrane itself with clips/staples, which degrades its
+  function — the same anti-puncture principle already on this page/
+  [[12_Engineering_and_Systems/analysis/Rough_Electrical_Sequencing|Rough Electrical Sequencing]]
+  (Zemskov's adhesive-clip rule, Sidorik's hot-glue-clip alternative
+  above), applied here via a mesh instead of an adhesive clip.
+- **Low-voltage transformer ceiling-avoidance rule**: never mount
+  step-down transformers for low-voltage/LED-strip circuits inside the
+  ceiling void — they fail more often there. Keep transformer access open;
+  with many LED-strip circuits (correspondingly many transformers),
+  consider routing them to a separate dedicated distribution point instead
+  of scattering them through the ceiling.
+- **Leak-sensor shutoff valve ("аквасторож") power-feed reminder**: if the
+  apartment will have an automatic water-shutoff/leak-sensor unit, its
+  power feed must be run at the rough-electrical stage — flagged as a
+  commonly forgotten item.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q6GKMOJuaPc_petrishin_electrical_quality_checklist|Q6GKMOJuaPc]]]
+
 ## Panel Acceptance
 
 **Three checkable "cornerstones" for accepting a finished panel**: (1) every eventual load is accounted for and split into separate circuits per room/function, so any area can be isolated independently; (2) every breaker is labeled/marked; (3) **selectivity** — breakers sized/coordinated so a downstream fault trips only the smallest relevant breaker, never the main incomer or the building's own riser breaker. **Test every outlet and switch before accepting rough electrical** — protects against a later trade puncturing a cable and the customer wrongly blaming the original electrician. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Onu15qOeWGA_panel_and_roughin_walkthrough|Onu15qOeWGA_panel_and_ro]]]
 
 **Load-test the panel and verify every point's coordinates right after rough wiring finishes — not deferred to a later pre-finish inspection.** Catching a defective cable or misplaced point before plastering/tiling closes the wall is fast; catching it at pre-finish is slow, painful, and expensive. A supervisor who only checks point coordinates at pre-finish is a sign of inadequate on-site QC. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Onu15qOeWGA_panel_and_roughin_walkthrough|Onu15qOeWGA_panel_and_ro]]]
+
+**Outlet-box flush-fit acceptance check (Петришин-Строй, added 2026-08-24,
+Round 2)**: after plastering, every outlet box must sit flush with the
+wall surface — check with a wide putty knife/spatula held against the box:
+it should show no rocking, wobble, or gap (a visible gap under a socket/
+switch frame reads as a defect, especially on light-colored walls). Also
+check that every box within a multi-box block sits at the same level and
+plane (a bubble or laser level against the block) — a 3-5mm box-to-box
+deviation causes the finish fixture faceplate to sit visibly crooked or
+fail to seat at all. **One stated exception**: on a wall that will get
+sound-insulation panels, boxes should intentionally protrude past the raw
+wall by exactly the future soundproofing thickness, ideally using
+sound-absorbing-rated boxes for that wall. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q6GKMOJuaPc_petrishin_electrical_quality_checklist|Q6GKMOJuaPc]]]
 
 ## Routing, Documentation & Special Cases
 

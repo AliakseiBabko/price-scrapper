@@ -21,6 +21,21 @@ LAB-REMONT, Знакомые сантехники, and Zemstandart/Alexey Zemsko
 - **Route a drain valve under each filter housing to the sewage line**, so unscrewing a filter bowl to change its cartridge doesn't spill residual water — a reusable coarse-filter mesh can often be flushed clean directly through this drain valve under pressure, without disassembly. [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
 - **A flush/rinse filter's own periodic waste-water drainage deserves a dedicated dry-trap connection** — these filters need flushing roughly every 6 months; routing that infrequent flush water through a temporary hose each time is awkward, and installing a small dedicated dry-trap-siphon drain is the more convenient, durable solution. Use a **dry-trap** type, not an ordinary water-trap siphon. [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
 
+## Utility-Cabinet Rough-In Rules and Owner-Facing Labeling (Петришин-Строй, added 2026-08-24, Round 2)
+
+Petrishin-Stroy, region level 2 (channel-level Moscow association only, no
+city named this episode): the utility cabinet (`тех.шкаф`) housing the
+manifold/collector assembly must be placed exactly where the design
+project shows it — an offset placement leaves the whole assembly
+misaligned behind the access hatch. Install a light fixture inside the
+cabinet (working one-handed while holding a phone flashlight in the other
+is explicitly the alternative being avoided). Waterproof the cabinet
+interior — a frequent minor-leak location — to protect the surrounding
+wall finish even though it doesn't prevent the leak itself. **Label every
+piece of equipment at the node with a function sticker**, so the owner
+can perform basic actions (isolating a branch, etc.) without calling a
+professional for routine tasks. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
+
 ## Manifold, Meter, and Reducer — Additional Rules (added 2026-08-24, Round 2)
 
 Konstantin Kruglov / Ontario says: **the manifold ("коллекторная гребёнка") performs exactly two functions — pressure isolation (flushing a toilet shouldn't cause a scald risk for someone showering elsewhere) and serviceability (a single fixture can be isolated and repaired/replaced without shutting off the whole apartment's water). If a plumbing quote doesn't include a manifold, walk away — no modern layout is built without one.**

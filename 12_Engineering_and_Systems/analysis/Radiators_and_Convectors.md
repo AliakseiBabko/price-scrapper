@@ -63,6 +63,18 @@ Konstantin Kruglov / Ontario: **⚠️ a wireless leak-protection sensor tag sui
 
 **Explicit personal opinion against thermostatic radiator valve heads, flagged as such by the source itself**: debris/grit entering the system can lodge in a thermostatic head's valve and cause persistent whistling; every added regulating mechanism is one more failure point. Preference: on a radial/manifold system, simply close the manifold's own valve for that radiator's line instead of fitting a thermostatic head. The presenter explicitly invites disagreement — tag as opinion, not a settled store-level rule. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
 
+## Radiator Alignment Check and Supply-Pipe Chase Fixation (Петришин-Строй, added 2026-08-24, Round 2)
+
+Petrishin-Stroy, region level 2 (channel-level Moscow association only):
+check radiators level and square with a bubble level and square tool, not
+by eye — and specifically check alignment against where the future
+window sill will sit once windows go in, not just level to the floor. A
+radiator that passes a basic level check but sits visibly skewed relative
+to the sill above it still reads as a defect to some occupants. Supply
+pipes feeding into/out of the radiator must be anchored in their wall
+chase with plaster mix specifically at the wall entry/exit points, so the
+pipe can't shift against the finished radiator connection. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
+
 ## Radiator vs. Convector: the Underlying Physics (added 2026-08-24)
 
 Konstantin Kruglov / Ontario explains: **⚠️ a convector heats a room almost entirely by convection; a radiator heats by both convection and direct radiant heat — a clear mechanism distinction underlying every other tradeoff between the two fixture types.** A convector's thin water-carrying tube, finned with aluminum or copper to maximize air-contact surface area, warms only the air passing between its fins — cold air enters low, warms, rises, and pulls more cold air in behind it (a self-sustaining convection loop); a fan-assisted convector speeds this cycle but at a real, audible noise cost (a plain convector doesn't disturb sleep, a fan-assisted one is genuinely noticeable at night). A radiator runs the same convection loop *and* radiates heat directly into the furniture, walls, and floor around it. **Bottom line: a radiator heats everything around it including the walls; a convector only heats the air directly above itself.** Radiators are more massive and slower to heat up, but hold warmth significantly longer once hot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
