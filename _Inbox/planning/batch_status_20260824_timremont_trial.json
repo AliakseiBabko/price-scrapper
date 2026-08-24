@@ -1,0 +1,8 @@
+{
+  "ZLFs0QNmpas": "failed",
+  "TlAsuPBTALA": "pending",
+  "t6baHeBlY2I": "pending",
+  "a6ZPtGOVBv8": "pending",
+  "KLugOyWbeE8": "pending",
+  "_note": "Halted 2026-08-24: first fetch attempt (ZLFs0QNmpas) hit exit code 2 (rate_limited_or_ip_blocked) - both youtube-transcript-api and yt-dlp attempts confirmed IP-block/bot-check signatures. See _Inbox/transcripts/ZLFs0QNmpas.FAILED.meta.json. No videos fetched. Per SKILL.md circuit-breaker rule: stopped immediately, did not attempt videos 2-5, did not mark them as skipped (only genuinely-attempted-and-blocked video 1 is marked failed, not skipped, since this is a rate-limit not a no-captions case). This is the third channel in this session to hit this IP-block (after Kruglov/Ontario and Pavel Sidorik) - per orchestrator instruction, this trial does not rotate to a further channel itself; reporting back for the orchestrator to manage cooldown/rotation."
+}
