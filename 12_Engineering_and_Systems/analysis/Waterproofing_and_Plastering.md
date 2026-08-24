@@ -324,6 +324,74 @@ Bathroom finish work (tile + labor) is typically the single most expensive finis
 No pricing figures spoken in this episode. Region: unresolved for this episode's own project-location claim (the hopper-gun brand's Gomel/Belarus manufacturing origin is a product fact, not a project-location statement) — does not independently clear this store's level-1 bar, distinct from several other episodes in this same round.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_16k0TS363rM_sidorik_bathroom_plaster_ep15|YT_16k0TS363rM]]]
 
+## Substrate-Prep, Betonokontakt Troubleshooting, and QC Tolerances (added 2026-08-24, Petrishin-Stroi trial)
+
+Петришин-Строй (Sergey Petrishin, Moscow-area turnkey company,
+`corroborates_existing`) — region unresolved to level 1 (channel-level
+Moscow association only; not stated directly in this video):
+
+- **Primer-by-substrate matrix, mechanism stated explicitly**: concrete
+  gets standard deep-penetration primer, then betonokontakt over it;
+  gas block/foam block get a film-forming primer instead of standard
+  primer specifically because these porous materials would otherwise
+  wick moisture out of the plaster too fast for even curing, causing
+  cracks — the film primer seals the pores so the plaster dries slowly
+  and evenly; brick/drywall get standard deep-penetration primer. This
+  independently corroborates and sharpens the mechanism behind the
+  absorbency-tier framework already on this page (Sidorik's primer FAQ,
+  above) — a second, independent source naming the same
+  porous-substrate failure mode.
+- **Betonokontakt failure modes, three named conditions from direct
+  experience**: (1) applying it onto un-primed, dusty bare concrete
+  risks it peeling off in a sheet later — residual dust prevents real
+  adhesion; (2) plastering over betonokontakt before it's fully dried
+  risks later plaster detachment; (3) even correctly primed, dried
+  betonokontakt exposed to construction dust (e.g. wall-chasing or
+  screed work happening later in the same room) before plaster goes on
+  can still fail — dust settling on cured betonokontakt undermines the
+  bond once plastered over. Rule: prime before betonokontakt, let it
+  fully dry, and keep it dust-protected until plaster is applied.
+- **Corner/joint mesh treatment extended to exterior wall corners
+  generally, not just material-transition seams**: opens, cleans,
+  foam-fills, and mesh-reinforces every exterior-wall corner joint
+  along the perimeter (draft/crack prevention), in addition to seams
+  between two different wall materials (e.g. concrete meeting brick) —
+  corroborates the existing material-transition-joint mesh technique on
+  this page (Sidorik, ep.11) with an independent second source.
+- **Deformation seam for building settling, distinct from the
+  screed-perimeter expansion joint already on this page**: a
+  multi-unit building keeps settling under its own weight as other
+  units renovate (screed pours, furniture moving in), stressing wall
+  surfaces — a damping tape/strip ("демферный шов") along the top edge
+  of the plaster layer absorbs this settling pressure and prevents
+  plaster cracking. An easy-to-skip, easy-to-regret step per the
+  speaker.
+- **Cement vs. gypsum plaster in wet zones — a second source's own
+  current practice**, corroborating the existing Kruglov/Ontario
+  tradeoff on this page: manufacturers now claim gypsum plaster works
+  anywhere, wet zones included, if waterproofed afterward — this
+  company uses gypsum plaster in wet zones on its own projects
+  (including the object in this video) on that basis.
+- **Acceptance/QC checklist with numeric tolerances**: check wall
+  parallelism (room width measured at two points should match); hold a
+  straightedge vertically/horizontally/diagonally against every wall,
+  especially corners — **max 2mm gap**, no rocking humps; **max 1mm
+  deviation per 1m of wall dimension** (worked example: a 5m wall may
+  deviate up to 5mm); door openings are the most common defect
+  location; laser check that a corner's line tracks true; door-jamb
+  thickness must match both sides; wall-ceiling/wall-floor junctions
+  checked visually for sharp, bump-free lines; carpenter's square
+  checks every corner for true 90°, room by room.
+- **Real object cost split, plastering stage only** (2025-08-12, Moscow
+  channel context, level-1 region unresolved — bare data point only):
+  materials (primer, plaster, beacons) 123,950 RUB (≈$1,500, trailing
+  6-month USD/RUB average); labor 618,000 RUB (≈$7,500, same basis);
+  total 741,950 RUB (≈$9,000, same basis) — labor ≈83% of the
+  plastering-stage total. No floor area given, so no $/m² is
+  derivable. **Turnkey/Full-Service delivery model** (company's own
+  bundled client job).
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D1REgSDwILU_petrishin_plastering_basics|YT_D1REgSDwILU]]]
+
 ## Rough-Stage Acceptance Checklist Items
 
 - **A dry-trap siphon at the water-inlet node is worth including even on the most basic build** — lets filter-flush water drain automatically instead of needing a bucket; without one, infrequent manual flushing plus standing water in a regular siphon causes sewer odor. **Dishwashers get the same treatment**: a dry-trap siphon under a dishwasher prevents sewer-gas odor the same way — framed as standard practice most homeowners don't know to ask for. `single-account`. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]

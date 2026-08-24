@@ -44,6 +44,73 @@ For non-structural boxing (concealing pipes, framing a niche):
 - [source for this subsection, all items: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZW-dNzbCREI_sidorik_bathroom_block_partitions_ep4|ZW-dNzbCREI_sidorik_bathroom_block_partitions_ep4]]]
 - **Choose partition thickness with the sewage pipe route in mind, not just soundproofing/cost**: chasing a wide pipe into a thin partition weakens it disproportionately. A 50mm branch pipe into a 10cm block wall is called borderline-acceptable; a 100/110mm main branch needs either a thicker partition or a dedicated false wall (фальшстена) built specifically to conceal it — plan this before committing to a partition thickness, not after. The general layout principle underlying this: **fixture placement in a bathroom effectively orbits the sewage stack**, since it's fixed in place and drains by gravity, not pressure — route the widest pipe (typically the toilet's) along the thickest available wall (often the apartment's own exterior/bearing wall) and use a false wall to bridge any remaining gap. [source: [[_Archive/processed_sources/20260731_plumbing_video_3_e759e2c7.txt|plumbing_video_3_e759e2c7]]]
 
+### Foam-Block Partition Masonry — Acceptance/QC Checklist (added 2026-08-24, Petrishin-Stroi trial)
+
+Петришин-Строй (Sergey Petrishin, Moscow-area turnkey company, region
+level 2 only — no city named in-video) — zero promotional content,
+filmed on an active job site as a pure QC-checklist video, corroborating
+and extending this page's existing foam/silicate-block partition
+content with several new checkable rules:
+
+- **Priming verification**: a visible roller-streak mark on the dried
+  surface confirms priming happened; running a hand across an unprimed
+  surface picks up visible construction dust, a primed one doesn't.
+- **First-row leveling platform**: floor-slab height can vary 1-2cm
+  between structural bays (especially in secondary housing) — laying
+  the first block row on an uneven floor puts blocks on different
+  planes and degrades the whole wall; build a leveling platform/pad
+  first (a thicker mortar bed for the first row is a slower alternative
+  for minor variation only).
+- **Plumb tolerance, this company's own stated standard**: max **7mm
+  deviation across the full wall height** (bubble-level straightedge
+  check) — beyond that, the wall is "заволена" (out of plumb) and
+  needs correction.
+- **Joint-fill field check, genuinely new technique**: shine a powerful
+  flashlight against the wall's opposite face — light passing through
+  a joint means it isn't fully adhesive-filled.
+- **Adhesive-layer thickness rule**: 3-4mm max between blocks (thicker
+  weakens the bond); squeeze-out cleaned off, max protrusion 3mm.
+- **Reinforcement frequency floor**: basalt mesh or rebar, **at
+  minimum every 3rd row**, ideally every 2nd — negotiate this with
+  builders before work starts (real cost/labor tradeoff).
+- **Tie-back hardware detail**: metal hangers bent in half, one half
+  wedge-anchored to the load-bearing wall, the other half wood-screwed
+  to the new partition, at every 3rd row.
+- **Two deformation-joint specs**: vertical joint at a new-to-existing
+  wall seam, 1-2cm wide, fully foam-filled; horizontal joint between
+  the floor slab above and the last block row, also fully foam-filled
+  (exact thickness `ASR-uncertain` in this source). Purpose: absorbs
+  ongoing building settlement, preventing cracks — trimmed flush with
+  a utility knife once cured.
+- **Block-stagger/bond rule with a visual failure-mode explanation**:
+  minimum 1/3-block row offset; at a wall intersection, blocks from
+  each wall should interleave into the other's course — a simple butt
+  joint against a finished wall face is visibly the weaker connection.
+- **Door-opening "ears" for casing clearance**: leave a protruding
+  block "ear" sized for door casings at every opening, or casings need
+  field-cutting later (visibly worse when only one side of an opening
+  gets cut). Root cause named directly: renovating without a design
+  project, or small dimensional errors in one. **Door zero-reference
+  point must be set by the project lead/foreman**, accounting for
+  finish-flooring thickness — otherwise the lintel-to-finished-floor
+  clearance can come out too small for the door after flooring goes in.
+- **Door lintel spec**: embedment at least 10-15cm into the wall on
+  each side; pre-made matching-material (same gas-block) lintels now
+  used on this company's own projects instead of poured concrete;
+  lintels painted/primed to prevent rust bleeding through the finish.
+- **Monolithic-structure chase rule, extending the existing content
+  above**: horizontal chases in monolithic concrete are prohibited —
+  use a false wall (фальшстена) in 50-75mm block instead, fixed with
+  mounting "mushroom" fasteners embedded ≥4cm.
+- **Delivered-block QC**: chips >7mm rejected; leftover unused blocks
+  should not exceed 5-10% of the last delivery batch — this company's
+  own practice for genuine excess: take the material back, refund the
+  client.
+- **Site-cleanliness handover rule**: leave the site (including the
+  toilet bowl) usable-clean at every crew handover — keeps the whole
+  project clean stage-to-stage.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_caDB-roRasI_petrishin_wall_cracks_masonry_acceptance|YT_caDB-roRasI]]]
+
 ### Full-Brick False Wall for a Monolithic Load-Bearing Wall (added 2026-08-24, Sidorik Round 4)
 
 Pavel Sidorik, individual practitioner, own apartment, same channel as the silicate-block section above (episode #4): **a monolithic reinforced-concrete load-bearing wall cannot be chased/cut at all** to route plumbing — any pipe run against it must be concealed by an added false-wall structure instead, extending this page's existing "route the widest pipe along the thickest bearing wall, bridge the gap with a false wall" principle with the reason a false wall becomes mandatory in the first place. **Panel-building clarification**: shallow vertical chases are permitted there, but panel-building bathroom walls are typically non-load-bearing anyway, making the allowance largely moot for a typical bathroom.

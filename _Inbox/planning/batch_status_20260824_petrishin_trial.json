@@ -1,0 +1,14 @@
+{
+  "channel": "Petrishin-Stroi",
+  "batch_label": "Round 1 trial (5 videos)",
+  "started": "2026-08-24",
+  "purpose": "New-channel trial batch; also a live re-test of whether the IP-wide rate-limit that blocked Kruglov/Ontario, Pavel Sidorik, and TimRemont earlier this session had lifted.",
+  "videos": {
+    "D1REgSDwILU": "archived",
+    "E7M-bWWSmfw": "archived",
+    "S23VRWxzz08": "archived",
+    "caDB-roRasI": "archived",
+    "8IW762yALfc": "archived"
+  },
+  "notes": "All 5 videos fetched cleanly, serialized one at a time, zero rate-limit issues across the whole batch - confirms the IP-wide block from earlier in the session has lifted. All 5 fully extracted, integrated into the store/wiki, USD-normalized where prices existed, logged to processed_sources.csv, and archived. Batch complete."
+}

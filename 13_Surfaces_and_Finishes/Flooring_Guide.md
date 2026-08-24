@@ -113,6 +113,48 @@ Direct continuation of the DIY screed build above (episode #18) — this covers 
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kXGYTsBTKj8_sidorik_self_leveling_floor_ep27|kXGYTsBTKj8_sidorik_self_leveling_floor_ep27]]]
 
+## Semi-Mechanized ("Полуручка") Screed, Cold-Weather/Access Constraints, and a Curing Routine (added 2026-08-24, Petrishin-Stroi trial)
+
+Петришин-Строй (Sergey Petrishin, Moscow-area turnkey company) — object
+is a **country house, not an apartment**, and no city/region is named
+in this video at all (region: unresolved, weaker than this channel's
+usual level-2 Moscow association since the object itself breaks the
+channel's normal apartment context). A distinct screed-delivery method
+from the fully mechanized pumped screed and the DIY hand-mixed
+reinforced screed already on this page:
+
+- **Semi-mechanized ("полу-механизированная," slang "полуручка")
+  screed**: the pour truck's pump still delivers the mix via hose over
+  distance/height, but the mix itself is batched in the truck's small
+  onboard mixer rather than continuously large-batch mixed — slower,
+  but usable in situations a full mechanized pour can't handle. **Four
+  named reasons to choose it over a full mechanized pour**: apartment
+  above the 25th floor (pump can't reach); building management forbids
+  bulk sand/cement deliveries; site access won't allow the needed sand
+  truck; ambient temperature below +7°C, since a fully mechanized pour's
+  mix can freeze inside the delivery hoses in transit at low temperature
+  (this job: **-14°C outside**, using bagged premix — "пескобетон" —
+  instead of separately-batched sand+cement, since loose sand itself
+  freezes at that temperature even though separate sand+cement is
+  normally cheaper). A full mechanized pump rig's own purchase cost is
+  cited as a practical barrier to owning one: **≈3,000,000 RUB
+  (≈$39,700, trailing 6-month USD/RUB average ending 2021-02-14)**.
+- **Two concrete tradeoffs**: roughly **2x slower** than a fully
+  mechanized pour; somewhat higher material/labor cost when premix
+  bagged product is used instead of loose sand+cement, plus more
+  airborne dust during mixing. This job: 70 m² floor area, ~7cm
+  thickness, 245 bags of premix consumed.
+- **Curing routine with concrete numbers, stated as applying to either
+  delivery method**: inter-room deformation joints (poured room-by-room
+  rather than as one continuous slab) to prevent cracking; cover with
+  plastic film starting the day after the pour; every 3-4 days, remove
+  the film, wet the whole surface (**≈1-1.5 L water/m²**), and
+  re-cover — repeat this cycle until **14 days**, when the film comes
+  off for good; avoid significant loads (heavy material staging,
+  ladders) for the **first 10 days**, the period when the screed gains
+  most of its final strength.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_E7M-bWWSmfw_petrishin_screed_stages|YT_E7M-bWWSmfw]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |
