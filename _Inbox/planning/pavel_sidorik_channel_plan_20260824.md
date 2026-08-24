@@ -95,6 +95,20 @@ This channel cleared the value-filter bar decisively — 5 of 5 videos yielded g
 
 Note: `nibMG4QkSWs` ("16 wall plaster mistakes") sits chronologically between #10 and #11 but carries no episode number — likely a standalone bonus video, not part of the numbered sequence. Left for a later standalone-technique round.
 
+### Round 4 — New Building A-to-Z, episodes #16–19 + 3 unlabeled interstitial videos (7 videos)
+
+| # | Video ID | Title | Status |
+|---|---|---|---|
+| 1 | `hCN5Cl7T2Qc` | Replacement of heating radiators in the apartment. How much is? #16 | pending |
+| 2 | `SERg4hiCWdE` | Replacement of heating in a new building. Connection. Pressure testing. #17 | pending |
+| 3 | `hN7szX2re2c` | How to make a screed with noise insulation in an apartment. #18 | pending |
+| 4 | `C-3BcpXDRnk` | We make ventilation and air conditioning in the apartment. #19 | pending |
+| 5 | `zkM_gea0XVE` | Separate ventilation for bath and toilet. Quiet bathroom. | pending |
+| 6 | `kkQbz_lXTjU` | Erection of false walls from gypsum fiber board, OSB and brick. | pending |
+| 7 | `zaW8XagX72U` | 7 life hacks with HOT GLUE for your repair. | pending |
+
+Note: videos 5-7 carry no visible episode number in the title but sit chronologically between #19 and #24 (`Cj2U_wVlG-I`, `N36scNqRwII`, `S4fOYedAruE` #24 come next) — treated as likely continuing the same series based on topical continuity (ventilation/false-walls/technique, all apartment-renovation-relevant), to be confirmed from each video's own content. `S4fOYedAruE` (#24) and the two remaining unlabeled videos between it and this round become Round 5.
+
 Further rounds (New Building #16–42, then Khrushchevka #1–36, then technique-cluster rounds) will be planned round-by-round as processing proceeds, given the scale (317 videos remaining after this round) — not fully pre-planned in one pass.
 
 ## Progress Log
