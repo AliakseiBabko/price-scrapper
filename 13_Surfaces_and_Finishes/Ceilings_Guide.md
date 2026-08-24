@@ -249,6 +249,18 @@ covered there:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RfcoPP3dvcQ_petrishin_bathroom_ceiling_comparison|RfcoPP3dvcQ]]]
 
+## Elevator-Too-Small Logistics: Profile Can't Be Cut, Must Be Hand-Carried (Петришин-Строй, ЖК Виноградный episodic series, added 2026-08-24, Round 13)
+
+Extends this page's existing elevator-size logistics note (soundproofing
+board, `O4pGx8ESHDU`) to ordinary drywall sheets — same mechanism, a
+different building, same fix (cut sheets down to fit, ~2m sections here).
+**New**: metal C/U-profile framing cannot be cut down the same way
+without structurally weakening it — when it doesn't fit a small elevator
+either, it must be **carried up the stairwell by hand** to the working
+floor (this job: 10th floor), a real added-labor cost worth budgeting for
+in a small-elevator/high-floor building. Region level 2 (ЖК Виноградный
+named, no city spoken). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EWNki2-ZFzQ_petrishin_vinogradny_ep8_drywall_ceilings|EWNki2-ZFzQ]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |

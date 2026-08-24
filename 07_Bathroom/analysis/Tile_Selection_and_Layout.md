@@ -27,6 +27,30 @@ Konstantin Kruglov / Ontario, a dense, non-promotional "7 rules" technical video
 - **⚠️ Heated-floor cure-time rule, with a specific named failure mode**: never turn on a heated floor until the tile adhesive has fully cured — **minimum 28 calendar days after tiling**. The most common mistake in this category is switching on the heated floor early specifically to speed up adhesive drying — this deforms the adhesive and causes the tile to detach. Do not let installers do this even if asked to "test" the heated floor early.
 - **⚠️ A jobsite construction sink prevents a distinct detachment mechanism this list doesn't otherwise cover**: without a convenient sink, a tiler wet-cutting tile on a saw rarely bothers to rinse the dirty cutting slurry off the cut face before installing — the dried slurry becomes an invisible dust layer, and adhesive applied over it bonds to that residue rather than to the wall, producing a later hollow-sounding tile. **Installers who then blame "a bad batch of adhesive" are often actually experiencing this residue-bonding failure instead.** See [[11_Budget_and_Planning/analysis/Demolition|Demolition]] for the construction-sink build instructions this mechanism is drawn from. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RNiSYvLX6Vc_petrishin_construction_sink_howto|RNiSYvLX6Vc]]]
 
+## Installer Method Variance Over a Heated Floor, and a Textured-Tile Grout-Cleanup Warning (Петришин-Строй, ЖК Виноградный episodic series, added 2026-08-24, Round 13)
+
+Real jobsite observation, region level 2 (development named, no city
+spoken), low promotional ratio.
+
+- **Installer method choice — tiling directly onto an exposed heated-
+  floor mat with adhesive alone, no pre-skim coat**: this crew's tiler
+  applied tile adhesive straight onto the visible heated-floor mat/cable
+  and set tile directly into it, rather than first covering the heated
+  element with a self-leveling compound or a preliminary adhesive skim
+  coat — a practice the source says the company "sometimes" uses
+  instead. Presented as this individual installer's own working
+  preference, not stated as a universal rule — a distinct data point
+  from this page's existing heated-floor cure-time (28-day) and
+  substrate-flatness (2mm/2m) rules, which don't address whether a
+  pre-coat is used at all.
+- **⚠️ Textured ("с пупырышками" — raised-bump/pebbled) tile grout-cleanup
+  difficulty warning**: grout that gets onto the raised texture/bumps of
+  this tile type during grouting is practically impossible to clean off
+  afterward — mask/work the perimeter of each textured tile carefully
+  during grouting rather than relying on post-grouting wipe-down, which
+  works fine on a smooth tile but not this texture.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GC2vize3KQ0_petrishin_vinogradny_ep11_tile_work|GC2vize3KQ0]]]
+
 ## Grout Cost and Labor-Cost Figures, and Repair Technique (added 2026-08-24, Round 4)
 
 Konstantin Kruglov / Ontario adds concrete pricing and a repair technique to this page's existing cement-vs-epoxy grout comparison table above:
@@ -408,6 +432,25 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
   luxury/pool-specific tier, not comparable to an apartment-renovation
   budget.
 - [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
+
+## Glass Mosaic — Adhesive Color and Notch-Depth Rules (Sergey Petrishin, NTV segment, added 2026-08-24, Round 13)
+
+Third-party NTV "how-to" segment, confirmed genuinely Sergey Petrishin
+(named directly on air), Russian audio confirmed, region unresolved.
+Demonstrates mosaic on a curved wall — corroborates this page's existing
+curved/organic-shape mosaic-vs-rigid-tile distinction above, and its
+epoxy-grout preference corroborates this page's existing cement-vs-epoxy
+comparison content (not re-extracted).
+
+- **⚠️ White tile adhesive required for glass mosaic**: glass mosaic is
+  translucent enough that a dark-colored adhesive shows through and
+  visibly dulls the tile's shine/sparkle — use white adhesive
+  specifically for glass mosaic.
+- **Notched-trowel tooth depth scaled to mosaic thickness**: size the
+  trowel's notch depth to roughly **half the mosaic tile's own
+  thickness**, to avoid excess adhesive squeezing up between the
+  (very narrow) mosaic joints.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_I8js5-kLrYI_petrishin_ntv_diy_mosaic|I8js5-kLrYI]]]
 
 ## Hexagonal Tile in an Entry Zone, Thin-Tile 45° Layout Difficulty, and a Grout-Staining Risk on Ordinary Cement Grout (Петришин-Строй, added 2026-08-24, Round 7)
 

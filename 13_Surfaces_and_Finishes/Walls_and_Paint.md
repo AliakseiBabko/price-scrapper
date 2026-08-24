@@ -292,6 +292,21 @@ this episode). First wallpaper/paint acceptance-QC content on this page
   splatter is very hard to remove once dried.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VcrYHkDgb0o_petrishin_kill_walls_spotcheck|VcrYHkDgb0o]]]
 
+## Paint-Swatch-Behind-Furniture Color-Decision Technique (Петришин-Строй, ЖК Виноградный episodic series, added 2026-08-24, Round 13)
+
+Region level 2 (development named, no city spoken), low promotional
+ratio.
+
+- **Paint-swatch-behind-furniture technique, a real client-decision
+  practice recommended to every client, not just this one**: rather than
+  buying all wall paint for the whole apartment upfront, apply small
+  paint swatches ("выкрасы") in a low-visibility spot — this job: behind
+  where furniture will sit — so the client can judge the actual color
+  under the room's real light before committing to a full-apartment
+  paint purchase. A genuinely useful money/mistake-avoidance heuristic
+  distinct from this page's existing Q&A/acceptance-checklist content.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GC2vize3KQ0_petrishin_vinogradny_ep11_tile_work|GC2vize3KQ0]]]
+
 ## Painter/Decorator Practitioner Q&A — Prep, Technique, and Pace (Петришин-Строй, added 2026-08-24, Round 9)
 
 A named finishing specialist (маляр) answers a real practitioner Q&A,

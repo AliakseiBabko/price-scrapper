@@ -292,6 +292,19 @@ ceilings; stilts priced in BYN):
   sanding at trim time), with a planned fix (switch to thin 3mm dedicated
   screed-perimeter tape, stapled not glued) but a net-positive verdict —
   cleaner corner than without tape.
+- **Beacon product-line thickness options and a thick-layer application
+  rule, per Sergey Petrishin's own NTV short-format ceiling-plastering
+  demo (added 2026-08-24, Round 13)**: standard strip beacons come in
+  **6mm and 10mm thickness, 3m stock length**; primer + betonokontakt is
+  applied before beacons go up. **Layer-thickness rule**: any plaster
+  layer thicker than **5cm** must be built up in multiple passes rather
+  than applied in one pass. Heavily overlaps this page's existing dense
+  beacon-plastering content (same practitioner/company, restates the
+  general laser-plane-beacon-then-plaster sequence) — these two specific
+  numeric details are the only genuinely new items from this short
+  segment. Confirmed same practitioner (Sergey Petrishin named directly
+  on air) and Russian audio; region unresolved (no location named).
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0hjkfIfzkUw_petrishin_ntv_diy_ceiling|0hjkfIfzkUw]]]
 - **Ceiling vs. wall plastering technique differences**: a bonding coat is
   essential (not optional) before throwing plaster overhead; the upward
   throwing motion is the physically hardest part for someone unaccustomed
