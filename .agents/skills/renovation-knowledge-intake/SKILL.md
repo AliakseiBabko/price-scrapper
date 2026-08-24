@@ -351,6 +351,35 @@ route it to `11_Budget_and_Planning` as normal, never to
 `16_Legal_and_Regulations/`, even though a source may discuss it in the
 same breath as handover/registration topics.
 
+### Design Concept-bucket content now has its own wiki folder too (added 2026-08-24)
+
+`17_Design_and_Ergonomics/` is a dedicated wiki section for general design/
+aesthetics/color-scheme/furniture-arrangement/ergonomics/functional-zoning
+knowledge gathered from sources — the synthesized counterpart to the
+`Design Concept` taxonomy bucket, same relationship the Regulations store
+has to `16_Legal_and_Regulations/`. When a source's `Design Concept`-bucket
+content is genuinely general technique (not this project's own specific
+decision), mirror it into the matching `analysis/` page under
+`17_Design_and_Ergonomics/` the same session — routine step 5a destination
+now, not a holding pen.
+
+**This folder is explicitly not where this project's own specific design
+decisions go.** `00_Master/Design_Concept.md` and
+`00_Master/Family_Requirements.md` remain the only place for this
+project's own chosen palette/materials/family routines — this wrapper still
+never writes to those two files directly (existing guardrail, unchanged).
+`17_Design_and_Ergonomics/` is general practitioner knowledge only, the same
+way `11_Budget_and_Planning` is general budgeting knowledge rather than this
+project's own specific budget.
+
+**Per-room integration**: once a room folder (`01_Entrance` … `10_Balcony`)
+accumulates enough room-*specific* design/zoning/furniture-arrangement
+sources, it gets its own "Design & Zoning" `analysis/` page (per the vault's
+standing don't-force-structure-before-content-exists rule) that cross-links
+back to `17_Design_and_Ergonomics/` for the general principle being applied.
+No room has crossed that threshold as of 2026-08-24 — don't create one
+preemptively.
+
 ### What counts as a case study
 
 Per explicit user guidance: a case study is **not** limited to a full

@@ -248,7 +248,7 @@ This is a navigation aid over the chronological `###` batches below; it does not
 
 ### Design Concept
 
-- `### Interior Decor / Layout Planning (new topic area, added 2026-08-05)`
+- `### Interior Decor / Layout Planning (new topic area, added 2026-08-05)` — **migrated 2026-08-24** to [[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family_Scenario_Driven_Design.md]] and [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor_and_Finish_Selection_Technique.md]]. New Design Concept-tagged facts should route to that folder going forward, same pattern as the Regulations store → `16_Legal_and_Regulations` relationship.
 
 ### Unclear / Needs Confirmation
 
@@ -408,6 +408,9 @@ This is a navigation aid over the chronological `###` batches below; it does not
 - **Lighting-circuit wiring is thinner-gauge than socket-circuit wiring and is not rated for high-draw loads** — improvising a power tap from a light fixture/socket (e.g. via a bulb-socket adapter) to run a higher-draw tool or appliance risks overheating the lighting circuit's conductors. `confirmed`, safety caveat attached to an otherwise informal "hack" video. [source: yt_C3yZJ_1xL-8]
 
 ### Interior Decor / Layout Planning (new topic area, added 2026-08-05)
+
+> [!NOTE]
+> Migrated 2026-08-24 into [[17_Design_and_Ergonomics/Design_and_Ergonomics_Guide|the new Design & Ergonomics folder]] ([[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family-Scenario-Driven Design]] + [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]). Kept here verbatim per this store's no-raw-overwrite guardrail; treat the wiki pages as the current synthesized version.
 
 - **Slat/rail (рейки) wall spacing must equal the light-channel box (короб) module when backlighting is planned** — mismatched spacing makes the backlighting impossible to install after the slats are up. `confirmed`, single-account. [source: yt_1OLVQUJkOdM]
 - **Three slat-to-baseboard junction methods, worst to best for a given project**: (1) run slats flush to the baseboard and cut off — ugly, called injury-risk (mechanism unexplained); (2) baseboard first, cut its back to fit the slats — decent look, simplest, cheapest; (3) slats to the floor before the baseboard, small baseboard pieces fitted between — hardest to execute, most expensive. `confirmed`, single-account. [source: yt_1OLVQUJkOdM]

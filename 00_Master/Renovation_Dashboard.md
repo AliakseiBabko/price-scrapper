@@ -29,3 +29,4 @@ Central hub for project guides, budgeting, and room specifications.
 - [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]]
 - [[11_Budget_and_Planning/_supporting/analysis/Revit_AutoCAD_Integration_Strategy|Revit & AutoCAD Integration Strategy]]
 - [[16_Legal_and_Regulations/Legal_and_Regulations_Guide|Legal & Regulations (Belarus)]]
+- [[17_Design_and_Ergonomics/Design_and_Ergonomics_Guide|Design & Ergonomics]]

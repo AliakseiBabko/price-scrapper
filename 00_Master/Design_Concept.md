@@ -13,6 +13,9 @@ restructure and never filled in.
 Sections below are placeholders only — nothing here should be treated as
 confirmed until the user fills it in.
 
+> [!NOTE]
+> **Added 2026-08-24**: [[17_Design_and_Ergonomics/Design_and_Ergonomics_Guide|17_Design_and_Ergonomics]] is now the general-knowledge counterpart to this file — practitioner/source-derived design, color, ergonomics, and cross-room-coherence technique, as opposed to this file's own specific project decisions. Worth reading before filling in the sections below, though nothing there is a substitute for an actual decision here.
+
 ## Overall Style / Aesthetic
 *(needs user input — e.g. minimalist, Scandinavian, industrial, warm
 modern, etc.)*
