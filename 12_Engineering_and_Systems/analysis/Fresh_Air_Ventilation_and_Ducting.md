@@ -132,3 +132,34 @@ Zemstandart / Zemproekt says **ceiling drop is typically ~40 mm more than the du
 Zemstandart / Zemproekt recommends **always adding self-adhesive duct soundproofing regardless of the box's own thickness** — a duct is never fully soundproof on its own. Spec: self-adhesive, minimum 3 mm thick.
 
 Zemstandart / Zemproekt (technical content presented by Sergey Saratov) says **a design project should document every ventilation exhaust point (forced and natural)** explicitly, so the client can verify contractors' work against the plan during the renovation. This is also the source of the tee-fitting-plus-check-valve technique's independent corroboration cited above (Zemstandart, 2026-08-10). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZqfaeREBEYQ_kitchen_ventilation_mistakes|extraction note]]]
+
+## Real Long-Term Failure Case: Tiling Over a Ventilation-Valve Access Point (added 2026-08-24, Petrishin-Stroi Round 9)
+
+Sergey Petrishin's company gives a genuinely rare **6-years-later revisit
+case study** — returning to a client's own apartment to fix a defect
+from the original renovation, rather than a same-project acceptance
+checklist. **⚠️ Never permanently conceal a shared ventilation-system
+valve behind tile/finish with no inspection access** — this apartment's
+original renovation built a flat, visually flawless tiled wall directly
+over a set of shared-ventilation valves, with no access hatch left. The
+defect stayed invisible for 6 years until a *new downstairs neighbor*
+raised a critical complaint about blocked ventilation traceable to this
+concealed valve — the concealment was a **shared-building-system risk**,
+not just a private inconvenience for the apartment's own owner.
+
+**Notable finding: a management-company technical-project sign-off is
+not a reliable catch for this kind of defect.** The client states every
+apartment in this development had its water-supply/sewage/ventilation
+technical projects formally reviewed and approved by the building's
+management company, both before and after each renovation — this defect
+still passed that review; the company's own explanation was "человеческий
+фактор" (human error), framed as a real, always-present risk rather than
+an excuse.
+
+**Practical repair note**: fixing this kind of concealed-access defect
+means removing the finish covering the valve, then re-finishing —
+original matching material may no longer be available years later,
+forcing a real (if temporary) design compromise (this case: dark
+leftover tile used in place of the original light tile, with an explicit
+plan to swap back once matching material is sourced). `single-account`,
+heavily ASR-garbled transcript — treat with appropriate caution. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nhJI_yGjfRU_petrishin_ventilation_6years_later|nhJI_yGjfRU_petrishin_ventilation_6years_later]]]

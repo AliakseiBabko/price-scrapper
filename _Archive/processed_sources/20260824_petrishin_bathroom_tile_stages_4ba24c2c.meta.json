@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=OperMXnGmXE",
+  "video_id": "OperMXnGmXE",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T19:22:40.144313+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4ba24c2c47360fcfb6d8654a80551500aa2735cb67891621703068b721f46138",
+  "attempts_before_success": []
+}

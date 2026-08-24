@@ -499,3 +499,51 @@ bar):
   unlikely to have held individual unit work to a higher standard.
 - [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
 
+### Generalist-vs-Specialist Crew Error Rate; Root-Cause-Analysis Discipline (Петришин-Строй, added 2026-08-24, Round 9)
+
+- **Generalist ("мастер-универсал") vs. specialist labor, error-rate
+  claim**: a worker juggling many different trade tasks on one object
+  spreads attention thin and is claimed to be more error-prone than a
+  worker dedicated to one narrow trade who can focus fully on it —
+  offered as the company's own explanation for a real concealed-access
+  defect that slipped through 6 years earlier. `ASR-uncertain` exact
+  wording (heavily garbled auto-generated transcript), `single-account`.
+- **Root-cause-analysis discipline for defects**: the company frames
+  explicit root-cause analysis of every real defect (identify the
+  specific failure, its cause, and a process change) as the actual
+  mechanism for not repeating it — offered in the same breath as an
+  explicit acknowledgment that "human error, nothing is perfect" means
+  defects will still happen even with an experienced team.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nhJI_yGjfRU_petrishin_ventilation_6years_later|nhJI_yGjfRU]]]
+
+### Partition-Building Tool-Competency Vetting Heuristic (Петришин-Строй, added 2026-08-24, Round 9)
+
+- **Tool-choice as a crew-competency signal**: if a "master" arrives to
+  build interior partitions with only a plain hand hacksaw, treat that
+  as a reason to question whether they're genuinely a professional; a
+  reciprocating saw ("сабельная пила") is a real professional-grade
+  tool (not cheap) and its presence on-site is a positive competence
+  signal. Foam/aerated-concrete block is normally cut with masonry
+  chisels/bits or an angle grinder with a diamond blade (very dusty)
+  rather than a hand saw. `single-account`, informal/comedic-framed
+  test, not a controlled comparison.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EQW9y4bNea0_petrishin_partition_material_comparison|EQW9y4bNea0]]]
+
+### Trade-Specialization Stance and a Real Rework Case from a Documentation Gap (Петришин-Строй, added 2026-08-24, Round 9)
+
+- **Trade-specialization stance, a second independent voice**: a
+  finishing specialist (маляр) states she doesn't do plastering herself
+  — a dedicated crew handles it — framed as "everyone should stick to
+  their own trade" (an electrician, for instance, lacks the patience/
+  fine-motor practice for finish puttying). Corroborates this store's
+  existing generalist-vs-specialist error-rate finding from earlier
+  this round.
+- **Real rework case caused by an undocumented outlet location**: a
+  bathroom retile required relocating outlets that had been covered
+  and effectively "lost" behind the original tile install — the client
+  paid for the redo, but staying with the same company made the fix
+  faster/cheaper than hiring separately for it. Underscores the value
+  of documenting exact outlet/switch locations (e.g. in an engineering
+  project) even for a wall that will be fully covered by a finish.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NyIj6h8hZHw_petrishin_wallpaper_paint_qa|NyIj6h8hZHw]]]
+

@@ -25,6 +25,7 @@ Konstantin Kruglov / Ontario, a dense, non-promotional "7 rules" technical video
 - **Tile joint sizing, with the real mechanical reason it exists (not just installation convenience)**: inter-tile grout joints should be **1.5-2mm**, sized specifically to accommodate the substrate and the tile material having different rates of movement — skipping this joint isn't just a cosmetic issue but risks tiles delaminating under differential movement. **Perimeter (room-edge) expansion gap: 5-10mm — deliberately larger than the inter-tile joint.** Skipping the perimeter gap (a fully seamless, edge-to-edge tile installation) risks the whole tiled plane buckling/being pushed out of true as it dries and over time.
 - **Temperature rules for tiling**: indoor tiling is fine any time the room is above ~10°C (typical for an occupied interior). Tiling outdoors, or on an unheated loggia/balcony, needs the ambient temperature above 5°C **and** a frost-/water-resistant adhesive specifically.
 - **⚠️ Heated-floor cure-time rule, with a specific named failure mode**: never turn on a heated floor until the tile adhesive has fully cured — **minimum 28 calendar days after tiling**. The most common mistake in this category is switching on the heated floor early specifically to speed up adhesive drying — this deforms the adhesive and causes the tile to detach. Do not let installers do this even if asked to "test" the heated floor early.
+- **⚠️ A jobsite construction sink prevents a distinct detachment mechanism this list doesn't otherwise cover**: without a convenient sink, a tiler wet-cutting tile on a saw rarely bothers to rinse the dirty cutting slurry off the cut face before installing — the dried slurry becomes an invisible dust layer, and adhesive applied over it bonds to that residue rather than to the wall, producing a later hollow-sounding tile. **Installers who then blame "a bad batch of adhesive" are often actually experiencing this residue-bonding failure instead.** See [[11_Budget_and_Planning/analysis/Demolition|Demolition]] for the construction-sink build instructions this mechanism is drawn from. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RNiSYvLX6Vc_petrishin_construction_sink_howto|RNiSYvLX6Vc]]]
 
 ## Grout Cost and Labor-Cost Figures, and Repair Technique (added 2026-08-24, Round 4)
 
@@ -247,6 +248,77 @@ A concrete, step-by-step method — the difference between a bathroom that "look
 - **Corroborating defect case for the "classic/centered layout" rule above**: a documented QC critique flagged a small wet room where the layout wasn't centered from the room's own centerline, producing narrow scrap-width cut pieces at *both* edges simultaneously — exactly the failure mode this page's classic-layout technique is designed to avoid. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cWRgenv4B40_full_disaster_30m_274|YT_cWRgenv4B40]]]
 - **A practical priority order for checking/fixing narrow cut pieces across a whole apartment's tile layout**: (1) the main/central circulation space first; (2) other main rooms' bare walls; (3) transition/passage spaces, especially right at an entry doorway; (4) window walls; (5) only then bring furniture placement into the model and re-check everything; (6) finally, auxiliary/utility rooms. [source: [[_Archive/processed_sources/20260731_zems_b054_tiles_64563b4e.txt|zems_b054_tiles_64563b4e]]]
 - **Vertical tile orientation is discouraged in most cases** — even with a correct classic layout, vertical tiles still show long narrow cut strips (rather than the compact corner pieces horizontal tiles produce). Vertical orientation is described as only working well at very cheap or very expensive/bespoke tile tiers; horizontal is the right default for the large middle of the market. [source: [[_Archive/processed_sources/20260731_zems_b054_tiles_64563b4e.txt|zems_b054_tiles_64563b4e]]]
+
+## Bathroom Tile-Laying Stage Sequence, and a Tile-Width-Dependent Refinement to the Classic-Layout Rule (Петришин-Строй, added 2026-08-24, Round 9)
+
+Maxim Kulish (presenter) walks through the full stage sequence for
+bathroom tiling on a real object:
+
+- **Verify squareness with a laser level before priming/tiling**: mark
+  points 15cm from each wall along a shared parallel line; all points
+  should align with no deviation, horizontally and vertically.
+- **Prime, then cure 24 hours before tiling.** **Tile walls before the
+  floor**, leaving the first floor row unglued until the wall tile's
+  base height is known, to get a clean joint fit rather than a guessed
+  floor height.
+- **A decorative accent row's own position can anchor the whole second
+  row's height calculation**: measure the vanity/cabinet height from
+  the (simulated, via cardboard) floor-tile level, transfer it to the
+  wall to find the decorative row's bottom edge, then count back one
+  tile-width-plus-2mm-joint to find the first full row's top edge — set
+  a temporary support batten there before tiling.
+- **⚠️ Refinement to this page's existing "classic layout" centering
+  rule** (see above): whether to center the layout on the *tile's
+  center* or the *tile's edge* at the wall's midpoint is tile-width
+  dependent, not a single fixed method. Worked examples: a 400×200mm
+  tile centered tile-center-to-wall-center gives the intended
+  larger-than-half-tile edge pieces; a 500×200mm tile centered the same
+  way instead gives smaller-than-half-tile edge slivers (exactly what
+  the classic-layout rule is meant to avoid) — for that size, starting
+  from the tile's *edge* at the wall's center restores large edge
+  pieces. **Practical takeaway: check both centering methods against
+  the specific tile's own width before committing to a layout.**
+- **Pre-installation tile-lot consistency check**: verify grade/sort,
+  tone, and production date match across every box's own sticker, and
+  check individual tile flatness, before installing.
+- **Adhesive mechanics**: press adhesive into the wall with a flat
+  trowel first, then comb to a uniform ridge with a 6mm notched trowel;
+  the compressed adhesive layer under a seated tile should be **≤3mm
+  thick**.
+- **Fixture cutouts**: transfer the fitting's location to the tile via
+  a template, then drill with a diamond core bit sized to the fitting.
+- **Edge-cut symmetry**: keep cut-tile width equal on both ends of a
+  row rather than a single full-width cut at one end.
+- **24-hour cure before removing spacer crosses and the support
+  batten**; clean excess adhesive out of the joints before grouting.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OperMXnGmXE_petrishin_bathroom_tile_stages|OperMXnGmXE_petrishin_bathroom_tile_stages]]]
+
+## Rectified-Tile Joint Claim, Metallic-Insert Use, and Large-Slab Delivery Access (Петришин-Строй, added 2026-08-24, Round 9)
+
+From a trade-show/expo booth tour — heavily brand-showcase content,
+but with a few genuinely reusable buying/design heuristics:
+
+- **Rectified tile allows a genuinely minimal joint (1-2mm), not a
+  zero joint** — a claim that tile can be installed with literally no
+  joint at all is a red flag, not a real feature; treat it with
+  suspicion from an installer/salesperson.
+- **Small-format tile suits a small bathroom** — a direct heuristic,
+  not automatically overridden by a general large-format preference.
+- **Contrast grout as a deliberate lever for geometric tile shapes**
+  (e.g. hexagon) — a contrasting grout color (vs. blending in) makes
+  the underlying pattern read more clearly.
+- **Metallic/shimmer-insert tile: accent use only, not a full surface**
+  — pairs with deliberate lighting to enhance the shimmer effect and
+  reflect the surrounding room's color; not recommended for a full
+  floor/wall.
+- **⚠️ Large-format porcelain slab (e.g. 240×120cm) delivery/access
+  caution**: check building access (stairwell, elevator dimensions)
+  *before* ordering — a slab that won't fit through normal access may
+  need window-and-crane delivery on a lower floor, the same workaround
+  used for oversized drywall sheets.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P8GMYTARyNU_petrishin_tile_expo_tour|P8GMYTARyNU]]]
 
 ## Don't Force Full Seam Continuity Across Floor/Wall/Apron Plane Changes (added 2026-08-20)
 

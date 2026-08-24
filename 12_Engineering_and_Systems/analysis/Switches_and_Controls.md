@@ -56,6 +56,40 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
 
 **⚠️ A "master" switch that cuts power/lighting to the whole unit must be physically set apart from the regular switch group** — a different height/position, and visually distinct in appearance — specifically to prevent it being pressed by accident. **⚠️ Avoid routing outlets, TV coax, or network/twisted-pair cabling through a baseboard channel system as the primary distribution method** — this creates a furniture-placement conflict, since there's no way to know in advance exactly where a TV or other furniture piece should sit if its power/data connections are scattered along a low baseboard run rather than fixed at the wall location the furniture will actually occupy. Plan electrical/data points at their intended furniture-height locations instead. **A real documented extreme failure case**: 5 switches at one bedroom's entry plus 6 more elsewhere (11 total across two adjoining rooms), none clearly labeled by function — a striking real-world instance of violating the single-switch-per-room-exit principle already established in this vault. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MWDcYHqe-iQ_designer_apartment_walkthrough_288|YT_MWDcYHqe-iQ]]]
 
+## Master-Switch Deep Dive: Priority Groups, Implementation Methods, Cost (added 2026-08-24, Petrishin-Stroi Round 9)
+
+Sergey Petrishin gives a dedicated master-switch ("мастер кнопка"/"мастер
+выключатель") explainer that extends the brief mentions already on this
+page (line 5 above, and the physical-differentiation rule below):
+
+- **Priority-group taxonomy**: the refrigerator, heated floors, the
+  leak-protection system, the low-voltage/weak-current panel, and any
+  server-room-style equipment closet should stay on a priority group
+  that the master switch never cuts. Everything else (general lighting
+  and most outlets) is switchable from one location, returning to its
+  prior on/off state rather than defaulting on.
+- **Four implementation methods**: a programmable logic relay, a full
+  smart-home system, a contactor wired for general disconnection, or an
+  impulse/latching relay paired with a momentary push-button. Petrishin
+  most often uses the last two. **A contactor stays permanently
+  energized and wears out faster; an impulse relay only draws power
+  momentarily to latch/unlatch and lasts longer, but needs a momentary
+  push-button rather than a standard toggle** — the more durable
+  impulse-relay option costs **≈4,000 RUB (≈$50) more** than a
+  contactor-based setup on the same object (2021 pricing).
+- **Decide up front whether TVs/major appliances go in the priority
+  group or the switched group** — modern electronics commonly lose
+  timer/clock/program state in volatile memory when cut, needing
+  reprogramming afterward; this is a deliberate tradeoff to make, not
+  an oversight to avoid outright.
+- **Vetting heuristic**: if a prospective electrician can't give a
+  clear answer about master switches, treat that as a sign they aren't
+  fully current on residential electrical practice.
+- Also used per-floor in multi-story country houses, not just
+  single-apartment installs.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zuh3k15-STo_petrishin_master_switch|zuh3k15-STo_petrishin_master_switch]]]
+
 ## Named Product Line and a Frame-Swap Lifehack (added 2026-08-24, Round 2)
 
 Pavel Sidorik names **EKF-brand outlets/switches, "Valencia" series**, with a direct price/quality assessment: "хороший вариант по соотношению цена и качество" (good price-to-quality ratio). Devices planned for one project: two-gang switch, two-gang pass-through (3-way/traveler) switch, one-gang switch, grounded outlets, outlets with integrated USB charging ports, network/ethernet outlets — a TV antenna outlet was considered and explicitly excluded. **Cosmetic lifehack: swap only the switch/outlet's outer frame (рамка) to a different color while keeping the same white mechanism/base** — frames are sold separately from the mechanism, making this a cheaper way to get a color accent than buying an entirely different product line. `single-account`, region unresolved for this episode (series-level Belarus attribution established elsewhere in this channel's other episodes). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9-NjgDLleOw_sidorik_electrical_ep6|9-NjgDLleOw_sidorik_electrical_ep6]]]

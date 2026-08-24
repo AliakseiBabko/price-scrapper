@@ -112,6 +112,33 @@ from the substrate. **Cost, all-in per m² for the complete build-up**
 RUB/m² ≈$80-$90/m²**, trailing-6-month USD/RUB average ending
 2026-03-03. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c4mmaLAsDw4_petrishin_screed_soundproofing|YT_c4mmaLAsDw4]]]
 
+## Partition-Wall Material Sound-Insulation Comparison, dB Figures (added 2026-08-24, Petrishin-Stroi Round 9)
+
+Sergey Petrishin's company cites real sound-insulation-index (dB)
+figures for four common interior-partition materials, corroborating and
+quantifying the existing qualitative material rankings on this vault
+(see [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]]'s
+partition-material notes):
+
+- **Double-layer drywall with sound-insulating infill between the two
+  sheets: ≈53 dB** — the best of the four, and genuinely counter-
+  intuitive against the assumption that heavier/denser materials always
+  isolate sound better. Worked example given: an 80dB source behind the
+  wall is heard at only ≈27dB through it.
+- **100mm foam/aerated-concrete block: ≈46 dB.**
+- **Solid brick, laid in a half-brick bond: ≈47 dB.**
+- **Solid tongue-and-groove gypsum block (ПГП), 80mm: ≈43 dB** — the
+  weakest of the four for sound isolation despite being a solid masonry
+  product.
+
+**Practical implication stated directly by the source**: if sound
+isolation is the priority criterion (not cost or install speed),
+double-layer drywall with an infill is the better choice over any of
+the three masonry options tested here — the company states it plans to
+start defaulting to this build-up for its own future work specifically
+because of this result, a shift from its historical foam-block default.
+`single-account` dB figures, not independently lab-verified. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EQW9y4bNea0_petrishin_partition_material_comparison|EQW9y4bNea0]]]
+
 ## Panel Handling and Wall-Build QC
 
 - **Sound-insulating panel cut-edge taping rule**: any cut edge of a sand-filled sound-insulating panel must be taped immediately with paper tape — an untaped cut edge lets the sand filler spill out, degrading acoustic performance (in the practitioner's words, turning the panel into "a very expensive piece of cardboard"). [source: `yt_fnTjaXPEDDE`]

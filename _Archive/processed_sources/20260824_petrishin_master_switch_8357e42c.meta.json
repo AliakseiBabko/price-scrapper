@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=zuh3k15-STo",
+  "video_id": "zuh3k15-STo",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T19:18:26.466340+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8357e42c1a9559dee4f5c1b17a294034d08202bbe6a66e7e1277c43589fbd783",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=RfcoPP3dvcQ",
+  "video_id": "RfcoPP3dvcQ",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T19:28:10.337510+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "831d8b086258b4f05aeedd054c7c4246e33433b0ff069b2b836471711d03bd15",
+  "attempts_before_success": []
+}

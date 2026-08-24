@@ -137,6 +137,20 @@ the cost/legal risks specific to this stage.
   risk it prevents**: crews repeatedly forgetting to close a tap on an
   un-drained temporary water point has flooded the object and the
   downstairs neighbor — a proper drain connection avoids this.
+  **⚠️ A dedicated how-to video on this same fixture (added 2026-08-24,
+  Round 9, cross-checked against this note — not the originating
+  source, a separate video on the identical concept) gives real build
+  instructions and a second, wholly different failure mode it
+  prevents**: build a wood frame around a plastic basin, 80cm
+  recommended height, a 12mm-plywood mixer shelf angled for drainage,
+  32mm mixer-hole and 45mm drain-hole bores. **Without a convenient
+  sink, tilers rarely rinse wet-cut tile's dirty cut face before
+  installing it — the dried cutting slurry becomes an invisible dust
+  layer that adhesive then bonds to instead of the wall, producing a
+  later hollow-sounding tile that installers often misdiagnose as "bad
+  adhesive"** rather than this real root cause. See
+  [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection &
+  Layout]] for the tile-side mechanism. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RNiSYvLX6Vc_petrishin_construction_sink_howto|RNiSYvLX6Vc]]]
 - **Neighbor-relations practice, three tactics**: notify neighbors on
   both sides/above/below before demolition; ask households with small
   children about nap/sleep schedules; give the building concierge a

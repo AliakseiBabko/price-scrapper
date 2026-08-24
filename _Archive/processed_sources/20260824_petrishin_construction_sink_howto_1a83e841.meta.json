@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=RNiSYvLX6Vc",
+  "video_id": "RNiSYvLX6Vc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T19:35:17.167540+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "1a83e841755a977c1d712057b0d73c055529c362844d1056df3b19c06a54d434",
+  "attempts_before_success": []
+}

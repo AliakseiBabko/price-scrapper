@@ -938,3 +938,102 @@ Three videos carried English on-screen titles (1: `D-DFsBMjlxQ`, 2: `4bv7Aa6YLCo
   into the correct 15 columns. `tools/verify_batch.py` run against the
   pre-round commit (`9b25e40`) — passed clean on the first run, no
   rounding-bucket or ID-drift problems found.
+
+## Round 9 — Master switch, ventilation 6-years-later, bathroom tile/ceiling technique, partition materials, tile expo tour, wallpaper Q&A, construction sink (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing, selected fresh from the 341-video
+manifest for topic diversity, favoring named-technique/real-problem-
+diagnosis content over recap "ТОП-N ошибок" or pure room-tour formats.
+Includes a deliberate cross-check of the channel's own existing
+"construction sink" concept mention on `Demolition.md` (video 8) and a
+genuinely new-to-this-channel long-term-outcome format (video 2).
+
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `zuh3k15-STo` | What is a master switch? Electrician masterclass. Master-off switch. | Electrical technique (English title), cross-check against existing electrical content | **FULL extraction** | 6 | English title, confirmed Russian audio, real breaker-panel demo. Extends this channel's existing brief master-switch mentions on `Switches_and_Controls.md` with priority-group taxonomy, 4 implementation methods, contactor-vs-impulse-relay tradeoff + ≈4,000 RUB (≈$50) cost premium, appliance-timer-reset decision, electrician-vetting heuristic. Region level 2 (no city named; generic country-house mention only). Low promotional ratio. |
+| 2 | `nhJI_yGjfRU` | Проблемы с вентиляцией/поэтапное решение. Ремонт в новостройке через 6 лет. | Real ventilation-problem diagnosis, 6-years-later revisit — genuinely new format for this channel | **FULL extraction — flagged format** | 6 | **Heavily ASR-garbled transcript**, facts extracted conservatively. A real return visit 6 years after the original renovation to fix a concealed shared-ventilation-valve defect that a new downstairs neighbor's complaint surfaced — a management-company technical-project sign-off did not catch it ("human error"). Forced a tile-color repair compromise. Generalist-vs-specialist labor error-rate heuristic and root-cause-analysis discipline routed to the general store. Region level 2 (residential complex named generically, no city). Low promotional ratio, no prices spoken. |
+| 3 | `OperMXnGmXE` | Как класть плитку в ванной? Этапы, советы, ошибки. | Bathroom tile-laying stages/technique, cross-check against `Tile_Selection_and_Layout.md` | **FULL extraction** | 10 | Real object (named development, "Березовые аллеи"), presenter Maxim Kulish. Squareness verification, priming/cure sequencing, wall-before-floor sequencing, decorative-row height-calculation method, tile-lot consistency check, adhesive mechanics, and a genuine refinement to the page's existing "classic layout" centering rule (tile-width-dependent centering choice, worked 400×200mm vs. 500×200mm examples). Region level 2. Low promotional ratio. |
+| 4 | `EQW9y4bNea0` | Материал для стен. Из чего лучше строить перегородки? | Partition-wall material comparison, cross-check against Round 5/6/8 partition content | **FULL extraction — corroborates + quantifies existing ranking** | 11 | Comedic cold-open settling into a real 4-material (drywall/tongue-groove gypsum/foam block/brick) comparison with real market-price data and sound-insulation dB figures (53/46/47/43 dB) — quantifies the existing qualitative ranking from Rounds 5/6/8 rather than duplicating it. Company discloses a forward-looking shift toward double-layer drywall for its own future work. Region level 2. Low promotional ratio. |
+| 5 | `RfcoPP3dvcQ` | Потолок в ванну. Реечный, натяжной, касетный что лучше? | Bathroom-ceiling type comparison, tests fit against `Ceilings_Guide.md`'s Round 3 comparison | **FULL extraction — densest video this round** | 14 | Unusual dual-host format: builder Sergey Petrishin plus named design blogger Ekaterina Popova. Bathroom-specific comparison (slatted/cassette/glass-mirror/plastic/stretch) — complements, doesn't duplicate, Round 3's general painted/drywall/stretch comparison. Named slatted-ceiling brand tiers with a real 1.7×1.7m cost example (≈6,000-9,000 RUB), fixture-drop-height rules, cassette 30cm grid + tile-layout-parallel centering rule, Armstrong glass ceiling pricing, plastic-panel heat/odor caution, and a stretch-ceiling leak-resistant-not-leak-proof clarification. Region level 2. Low promotional ratio. |
+| 6 | `P8GMYTARyNU` | Как выбрать керамическую плитку? Главные принципы. Цена, качество, стиль. | Ceramic-tile selection principles, cross-check against Round 4's tile-vs-porcelain primer | **PARTIAL extraction — title/format mismatch** | 6 | **Actually a trade-show/expo booth tour** (Italon, Kerama Marazzi), not a structured principles explainer — heavily ASR-garbled, brand-showcase-heavy. Per the value-filter rule, only genuinely generalizable heuristics extracted (rectified-tile zero-joint red flag, small-format-for-small-bathroom rule, contrast-grout design lever, metallic-insert accent-only rule, large-slab delivery/access caution); unconfirmed brand-specific prices excluded. No overlap with Round 4's material-science primer. Region unresolved (no location named). **Promotional ratio: high.** |
+| 7 | `NyIj6h8hZHw` | Как правильно клеить обои! 17 вопросов мастеру по малярке и обоям! | Wallpaper-hanging Q&A (17 questions), cross-check against Round 2's wallpaper/paint video | **FULL extraction, second-highest yield this round** | 15 | Genuine Q&A with a named finishing specialist (маляр). Explicitly cross-checked against Round 2's `VcrYHkDgb0o` — 2 items corroborate/extend (dry-lay roll check, seam-glue-residue wipe), remainder new: wipeable-paint myth, vinyl door-casing shrinkage rule, glue-open-time skill differentiator, ceiling-vs-wall paint distinction, Benjamin Moore primer anecdote, 2-month full-apartment timeline, self-QC walkthrough discipline, trade-specialization stance (2nd voice), design-project value for the finishing trade, real undocumented-outlet rework case. Region level 2. Low promotional ratio. |
+| 8 | `RNiSYvLX6Vc` | Строительная раковина, лайфхак на стройке. Пошаговая инструкция. | Construction-sink build masterclass, explicit cross-check against this channel's existing construction-sink mention on `Demolition.md` | **FULL extraction — cross-check confirms distinct source, new mechanism** | 8 | **Explicitly cross-checked against the existing "construction sink" mention on `Demolition.md`** (from an earlier round) — confirmed this video is **not** that mention's originating source (different upload dates, no cross-reference between the two transcripts), but the same underlying concept from the finishing-stage tool-washing angle rather than the existing flooding-prevention angle. Real build dimensions (80cm height, 12mm plywood shelf, 32mm mixer hole, 45mm drain hole) plus a wholly new tile-adhesion defect mechanism (dirty wet-cut tile bonding to its own dried cutting slurry instead of the wall, often misdiagnosed by installers as bad adhesive) — routed to `Tile_Selection_and_Layout.md`. Region unresolved. Low promotional ratio. |
+
+**Status: COMPLETE — all 8 videos fully fetched and extracted (7 full extractions, 1 partial low-value pass on video 6), zero rate-limit issues.**
+
+**Round 9 yield**: 8 videos, 76 genuinely-new facts (6+6+10+11+14+6+15+8, excluding duplicate/corroborating-only outcomes), yield = 9.5 new facts/video — **125% of Round 8's 7.6 baseline**, well above the 1.0/video floor. No stop-and-ask trigger.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 8 videos fetched serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV/archiving work between fetches — never an idle wait), consistent with every prior round's clean result on this channel.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence again varied video to video, not a fixed channel answer, consistent with every prior round. Per-video: video 1 (level 2, no city named), video 2 (level 2, residential complex named generically), video 3 (level 2, named development "Березовые аллеи"), video 4 (level 2), video 5 (level 2), video 6 (unresolved — trade-show setting, no location at all), video 7 (level 2), video 8 (unresolved — no location named). **No video this round cleared level 1** — a notably weaker region-evidence round than Round 4 or Round 6, but consistent with this channel's standing finding that region evidence varies round to round rather than following a fixed pattern; this round's mix (studio/expo explainers, an older 2018-2019-vintage technique cluster, and a long-term-revisit case) simply didn't happen to include a directly-named city/street/development this time.
+
+### Language check
+
+Video 1 (`zuh3k15-STo`) carried an English on-screen title ("What is a master switch?...") and was individually verified via `youtube-transcript-api` fetch metadata (`language: ru`) to have Russian spoken audio, per this project's standing rule that title language is not a reliable signal. All other videos had Russian titles and confirmed Russian spoken audio.
+
+### Cross-check findings, per this round's explicit brief
+
+- **Video 3 (bathroom tile stages) vs. the existing "classic layout" centering rule** (Zemstandart/Zemskov, on `Tile_Selection_and_Layout.md`): not a duplicate — this video adds a genuine tile-width-dependent refinement (whether to center on the tile's center or edge depends on the specific tile's width, worked 400×200mm-vs-500×200mm examples), extending rather than restating the existing rule.
+- **Video 4 (partition materials) vs. Round 5's `3sRfRiQ8XfE`, Round 6's `nT0qOcN_nEQ`, and Round 4's `PBkZQHkjciE`** (existing partition-material rankings): confirmed corroboration-with-quantification, not duplication — this video's real sound-insulation dB figures (53/46/47/43 dB) and real market unit pricing give numeric backing to a ranking those three sources had already stated qualitatively.
+- **Video 5 (bathroom ceilings) vs. Round 3's `lvixGbwo0Ug`** (general painted/drywall/stretch ceiling comparison): confirmed complementary — that source covers general-room ceiling types; this video is bathroom-specific and covers three types (slatted, cassette, glass/mirror) not in that source, with only partial overlap on stretch-ceiling mold/yellowing questions, which this video corroborates and extends with a leak-resistant-not-leak-proof clarification.
+- **Video 6 (tile expo tour) vs. Round 4's `rt9R26k6dEM`** (tile-vs-porcelain material/durability primer): confirmed no overlap — that source covers material science and format taxonomy; this one covers brand-showcase design trends and delivery logistics instead, genuinely complementary despite both nominally being about tile selection.
+- **Video 7 (wallpaper Q&A) vs. Round 2's `VcrYHkDgb0o`** (wallpaper/paint acceptance checklist): 2 items confirmed as direct corroboration-with-extension (dry-lay roll check gained a sheet-numbering step; seam-glue-residue wipe gained a brand-dependency note) and were not double-counted; the remaining 13 items are genuinely new.
+- **Video 8 (construction sink) vs. this channel's own existing "construction sink" mention on `Demolition.md`**: the round brief's explicit ask. **Confirmed this video is not that mention's originating source** — the two videos have different upload dates and neither transcript references the other — but they describe the identical physical fixture from two different life-cycle angles (this video: finishing-stage tool-washing and a tile-adhesion defect mechanism; the existing note: demolition-stage flood prevention). The existing `Demolition.md` entry was extended with a cross-reference to this video's build instructions and the new tile-adhesion mechanism, rather than treated as a duplicate.
+
+## Progress Log
+
+- 2026-08-24 — **Round 9 complete.** All 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/CSV/archiving work), zero rate-limit issues across
+  the entire round. 7 full extractions + 1 partial low-value pass (video
+  6, a title/format-mismatched trade-show expo tour). Yield 76 new facts
+  / 8 videos = 9.5 facts/video — 125% of Round 8's 7.6 baseline, well
+  above the 1.0 floor — no stop-and-ask trigger. Region checked
+  explicitly per video: no video cleared level 1 this round, 6 stayed at
+  level 2, 2 unresolved (a trade-show setting and a build-instructions
+  video with no location spoken). Language checked explicitly for the
+  one English-titled video (1) — confirmed Russian spoken audio. Five
+  explicit cross-checks performed as instructed (see the dedicated
+  finding section above): video 3 vs. the existing classic-layout
+  centering rule (genuine refinement, not duplicate); video 4 vs. three
+  existing partition-material rankings (corroboration-with-
+  quantification); video 5 vs. Round 3's general ceiling comparison
+  (complementary, bathroom-specific); video 6 vs. Round 4's tile-vs-
+  porcelain primer (no overlap); video 7 vs. Round 2's wallpaper/paint
+  video (2 items extended, 13 new); and **video 8 vs. this channel's own
+  existing construction-sink mention on `Demolition.md`, per the round's
+  explicit brief — confirmed a distinct source describing the same
+  fixture from a different life-cycle angle, not the originating source**,
+  adding a wholly new tile-adhesion defect mechanism in the process.
+  Video 2's 6-years-later revisit format was flagged as genuinely new
+  for this channel — a real long-term-outcome check, not a same-project
+  acceptance checklist, per the round's explicit brief; extracted despite
+  a heavily ASR-garbled transcript, with facts kept conservative. Content
+  routed to `12_Engineering_and_Systems/analysis/Switches_and_Controls.md`,
+  `Fresh_Air_Ventilation_and_Ducting.md`;
+  `07_Bathroom/analysis/Tile_Selection_and_Layout.md` (2 new sections);
+  `13_Surfaces_and_Finishes/analysis/Soundproofing.md`,
+  `13_Surfaces_and_Finishes/Ceilings_Guide.md`, `Walls_and_Paint.md`;
+  `11_Budget_and_Planning/analysis/Demolition.md` (extended, not
+  duplicated); and the general store's `Rules_Heuristics.md` (3 new
+  topic-area sections: generalist-vs-specialist labor/root-cause
+  discipline, partition-tool-competency vetting, trade-specialization/
+  undocumented-outlet rework case). All price figures normalized to USD
+  via `tools/pricing/currency_converter.py`'s trailing-6-month average
+  anchored to each video's own confirmed publish date, except the
+  partition-material video's small material-only unit prices, where a
+  USD conversion would have collapsed into the same rounding bucket for
+  every material and was deliberately omitted in favor of the real RUB
+  figures, per this project's own price-comparability rule.
+  `tools/youtube/archive_transcripts.py` run (dry-run first, all 8
+  matched correctly); all 8 source notes' bottom `[source: ...]` inline
+  links needed the same manual fix as Rounds 5-8 (frontmatter
+  `transcript_file:` auto-updated by the script, bottom link was not) —
+  corrected by hand for all 8. All 8 new CSV rows independently
+  re-verified via Python's `csv` module to parse into the correct 15
+  columns each with `archived` status. `tools/verify_batch.py` to be run
+  against the pre-round commit (`7d0f0d0`) before finishing.

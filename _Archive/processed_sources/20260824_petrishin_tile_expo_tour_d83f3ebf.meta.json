@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=P8GMYTARyNU",
+  "video_id": "P8GMYTARyNU",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T19:31:14.289908+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d83f3ebf815d45b5015afd1d539ded0c23ec936ecb5147969f1c1ab5e1ff8e73",
+  "attempts_before_success": []
+}

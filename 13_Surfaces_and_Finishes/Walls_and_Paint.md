@@ -292,6 +292,59 @@ this episode). First wallpaper/paint acceptance-QC content on this page
   splatter is very hard to remove once dried.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VcrYHkDgb0o_petrishin_kill_walls_spotcheck|VcrYHkDgb0o]]]
 
+## Painter/Decorator Practitioner Q&A — Prep, Technique, and Pace (Петришин-Строй, added 2026-08-24, Round 9)
+
+A named finishing specialist (маляр) answers a real practitioner Q&A,
+corroborating and extending this page's existing wallpaper/paint
+acceptance content:
+
+- **⚠️ "Wipeable paint" myth**: manufacturer claims of a wipeable/
+  washable paint don't hold up in practice — wiping with a damp sponge
+  removes the surface sheen, leaving a visible dulled patch. Leaving
+  that patch uncorrected is a real, avoidable painter mistake.
+- **Wallpaper substrate prep, worked example**: vinyl wallpaper needs
+  two coats of finishing putty (e.g. Vetonit) plus sanding plus
+  priming; some delicate paint-look wallpaper needs the same
+  paint-grade prep as an actual paint job.
+- **Glue open-time is a real skill differentiator**: some wallpaper
+  adhesives have only a 2-3 minute working window before over-
+  saturation stretches the sheet — only an experienced installer can
+  physically paste and hang fast enough; not a realistic DIY
+  expectation for that wallpaper type. Vinyl is more forgiving than
+  thinner flizelin/textile/paper wallpaper, which can show
+  adhesive bleed-through on a delicate print if over-wetted.
+- **⚠️ Vinyl-wallpaper door-casing cutting rule**: cut precisely to the
+  opening's boundary with no excess overlap — vinyl shrinks slightly as
+  it dries, and any unsupported excess at an opening will curl and peel
+  as a direct result. Leaving excess "to be safe" is a common,
+  avoidable mistake; door casing (≈5-6cm coverage) is not a substitute
+  for a clean cut.
+- **Ceiling paint and wall paint are not interchangeable even at
+  matching color** — a ceiling needs its own formulation (different
+  sheen/washability); a real worked example used a US-import
+  humidity-tolerant ceiling paint for a kids'-room application.
+  **Named premium wall-paint pairing**: Benjamin Moore paint with its
+  matched primer — described as high enough quality that a
+  primer-only base coat looked finished enough for a client to mistake
+  it for the actual topcoat.
+- **Work-pace discipline and a realistic full-apartment timeline**: a
+  normal workday runs to ≈18:00-19:00; pushing further when tired risks
+  real quality failures (a bubbling/lifting seam). A full apartment,
+  worked at a normal weekday pace with no rush, takes **about 2
+  months** for repainting/rewallpapering.
+- **Self-QC walkthrough discipline**: repeated post-install walk-
+  throughs checking every seam for lifting/bubbling/residual glue under
+  multiple lighting conditions, including a flashlight check in
+  low-light areas.
+- **Design-project value specific to the finishing trade**: with a
+  design project, the exact wallpaper/paint article numbers, brands,
+  and substrate prep are known ahead of time; without one, clients
+  often can't answer basic material questions (vinyl vs. paper,
+  required prep), and a client substituting a cheaper material than
+  specified breaks the originally designed visual outcome.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NyIj6h8hZHw_petrishin_wallpaper_paint_qa|NyIj6h8hZHw]]]
+
 ## Wall-Prep-for-Paint Staged Sequence, Timeline, and Cure-Discipline (Петришин-Строй, added 2026-08-24, Round 3)
 
 On-site interview with a subcontracted painter ("маляр"), not a company
