@@ -1,0 +1,1462 @@
+{
+  "playlist_url": "https://www.youtube.com/@timremont/videos",
+  "generated_at": "2026-08-24T10:29:15.169230+00:00",
+  "counts": {
+    "duplicate": 2,
+    "private": 0,
+    "unavailable": 0,
+    "no_captions": 0,
+    "fresh": 212,
+    "rate_limited": 0
+  },
+  "csv_notes_mismatch": {
+    "in_index_no_note": [
+      "-k0oupEu3pM",
+      "-zgPfpGkwBw",
+      "1pLziv7Ri_k",
+      "2m1OOssKl-A",
+      "2mLS8dbqv04",
+      "41AEg9cCxO0",
+      "6lacLnqpJbM",
+      "74c0MGLFGT4",
+      "7Y4YsWPYg4s",
+      "7l0izpXaPx8",
+      "7qxFoOsLAe8",
+      "8MiJ6k5ujBU",
+      "8zm_5NjbGNA",
+      "9FSb8Kr55r0",
+      "ANYrUhhlKyw",
+      "ATRswtIp1OM",
+      "AaPvIn4s1SQ",
+      "B7BHeVD-smk",
+      "BPiw6b-Sm_c",
+      "CQM-pFRJBKY",
+      "CYllCjooMrE",
+      "DPnZjaSPACA",
+      "DsDbKEwR4pY",
+      "Dt8Ec_eTlXg",
+      "EbwgImqhnOQ",
+      "ElHcpT5WlUA",
+      "F6cBEeTw518",
+      "HE4u2vprC88",
+      "I0PUIxd9MQ8",
+      "IHmGfrQFc6Y",
+      "JHP3Fuf2KyA",
+      "Kj71Nk5CqLM",
+      "L_PWNMQC9iE",
+      "Ld-OWPUFlGE",
+      "MIA1tpRglGg",
+      "Nj0li7AdsvM",
+      "O6PNsmWaHYc",
+      "PRifljKyKfU",
+      "PaUWD6q_EAY",
+      "PbE1pgGCliY",
+      "QG3QNM9BESc",
+      "QbV-BBySZeU",
+      "R7Z_mJLwVpc",
+      "R_9_QLAsE-k",
+      "U6vunPg3OGw",
+      "XIDyyxjIwC8",
+      "XWmoyTQK1AQ",
+      "XahTpDGjf9w",
+      "XfEaoo82qnE",
+      "XhRHqDm2H2Y",
+      "XlvilzilV-c",
+      "Y3exSOS2Ob8",
+      "YLKN-UB4XG4",
+      "YQAm9PqK2ec",
+      "YaWcDOWHor4",
+      "Z4gS_W0sfaM",
+      "ZXpWoAcR08U",
+      "ZkdGHHPtfh0",
+      "a98BTmgIoik",
+      "b4ErDSHBY_4",
+      "bLG-v5bLHNs",
+      "c3qpHyJgBQ8",
+      "cqzGSjx7Gvg",
+      "fkt1LmF9D9M",
+      "frU2mqIMrPs",
+      "g3xI4531t_s",
+      "gD8KMGlS9ac",
+      "gbxv92vD36U",
+      "huvdLUEruBM",
+      "hxPXzLu0P3g",
+      "iHu5gijczA4",
+      "iRqMhrVT8pM",
+      "j-6A0DmjB_o",
+      "jObP8pTt7FY",
+      "jOvCg-d45w4",
+      "jhEqPMn3mBA",
+      "jseYAjJkab8",
+      "kBJZkSOp4-Q",
+      "mhE_5qlJ0KU",
+      "n-LzQXs3x9o",
+      "q4r7i8qccB4",
+      "qC5GNBHceJk",
+      "rGc_nGYY4mU",
+      "s1cWUR4l90w",
+      "to_ujRxQUbk",
+      "ty-t8aNelyY",
+      "v8GexdJC8ys",
+      "vCwxplOGtfY",
+      "wUXlaDnHiQw",
+      "wxkTw0YdxdU",
+      "xbq9Jl_yrsU",
+      "ym_Jd2mEL18",
+      "z1G8qqAUQnY",
+      "zAXDi2PvWz4",
+      "zOpmb-CmQI8",
+      "zjO0LugKt8Y"
+    ],
+    "in_notes_no_index": [
+      "-JlpzE6aHiU",
+      "0sJPlpi8I2U",
+      "16k0TS363rM",
+      "1dp7alivsLQ",
+      "1gXYL99mfY4",
+      "1x7srLdq12I",
+      "2cHetaq1bt0",
+      "3rbIBKfZDBY",
+      "3vIpdUvgWW0",
+      "4jAQ526Zy2w",
+      "55zALDsXP2E",
+      "7QuzCGvDG_w",
+      "8HnZ2m8vkZQ",
+      "9-NjgDLleOw",
+      "92hhojQNQTw",
+      "C-3BcpXDRnk",
+      "C0FOWRxqWX4",
+      "Cj2U_wVlG-I",
+      "G03YKmotYP4",
+      "H6atjh_g1jQ",
+      "HqmQaZ1y1UM",
+      "IFnZxitFeNk",
+      "IWVPepWlzSs",
+      "Is76QlotVFE",
+      "K-OopxgJ8wY",
+      "M3HFaYaRC6M",
+      "MOYwhSd8tv4",
+      "N36scNqRwII",
+      "Oh4hGMZ90mw",
+      "P8t_d7J9fm4",
+      "Q1KSHFhLzJo",
+      "Q70kwfR0LGs",
+      "QcYJwQgu67g",
+      "S4fOYedAruE",
+      "SERg4hiCWdE",
+      "TKTKBmTkebg",
+      "WK-KLd2ssYY",
+      "ZW-dNzbCREI",
+      "ZlvJE-ncrK8",
+      "_TGU8C0u010",
+      "b0FeObtj2bo",
+      "bF1I2olZSc0",
+      "d5a3hti_P8g",
+      "gKBzDEllg4M",
+      "hCN5Cl7T2Qc",
+      "hN7szX2re2c",
+      "hpU_xEXmdvE",
+      "kXGYTsBTKj8",
+      "kkQbz_lXTjU",
+      "mMr8Xnt95rE",
+      "pxVSMo5e7yc",
+      "q4SSpq9jc3g",
+      "qzi1LqwsP5k",
+      "sd2XYBZY-K8",
+      "uiiggEC7c9M",
+      "wowlXrlGrEc",
+      "wsomY_6BRqA",
+      "xikuzV80GP4",
+      "zaW8XagX72U",
+      "zkM_gea0XVE"
+    ]
+  },
+  "entries": [
+    {
+      "video_id": "dEMvx-vDxWQ",
+      "title": "Building a Top-Tier Utility Shed on the Property | Part 4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fTA7yqQqkpA",
+      "title": "Reinforcing the Slope on the Plot | Episode 3",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "M5MYn8EQaAY",
+      "title": "How I Quit Smoking",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tJUCI71NfJw",
+      "title": "Leveling and Backfilling a Challenging Lot | Episode 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YF3Kf6w4Rac",
+      "title": "Clearing the Plot and Felling Trees | Episode 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XJnF6YSWvA4",
+      "title": "How to Choose a Plot of Land for Building a House? Top 20 Tips",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2W3yI6dfk6s",
+      "title": "STARTING TO BUILD A HOUSE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Gyi8OLjLPhk",
+      "title": "The Perfect Apartment with a Beautiful and Practical Renovation",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NkX6tmLFmF4",
+      "title": "Showcasing our projects in progress | Moscow",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gWAOrislxFY",
+      "title": "Ремонт спальни от А до Я | Шикарный результат  ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kgUtaXlshIA",
+      "title": "I made an awesome kids' room for my son ❤️",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9rd8v7OmnMw",
+      "title": "Сделал шикарный ремонт ванной | Полный процесс ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "H4ogOIF68XM",
+      "title": "Converting a Balcony into a Warm Office | Full Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ut35kNwSz9E",
+      "title": "THE APARTMENT IS UNRECOGNIZABLE | RENOVATION REVIEW 💥",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-cMHJHw12OI",
+      "title": "Powerful, Quiet, and Beautiful Bathroom Ventilation | Complete Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "arfTK3k0H9w",
+      "title": "Made a perfect joint between tiles and quartz vinyl!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kSikuCwXG0g",
+      "title": "How to make a kitchen hood silent?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s1ZIi1I1hnI",
+      "title": "Installed the backsplash BEFORE the kitchen installation | The full process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ip4z8qw27dc",
+      "title": "Installing Decorative Wall Panels | The Complete Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z1TLm5YGlAA",
+      "title": "A Beautiful Modern Renovation | 105 m2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ifK22J79gWo",
+      "title": "How to build a smart home system yourself? It's easy!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "R4GLdTx5rck",
+      "title": "GIVE UP this idea in your renovation!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "g1ELUA5E4tg",
+      "title": "Cool 55 sq m Apartment | Review | Best Renovation Solutions",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DGJtxIdGaN8",
+      "title": "Apartment from Pinterest | Renovation Overview | 70 m2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "si4eFs0w2i4",
+      "title": "Completed Renovation Review | Customer Review | 80 m2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IVcaqJaNfsc",
+      "title": "How to hang wallpaper yourself with no experience?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qo0QQUtu1uw",
+      "title": "Real Pros Show How to Apply Grout and Silicone | The Complete Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4dDe87QpXvM",
+      "title": "We pasted a complex and very beautiful fresco in the children's room.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tZ9aFHa3_7s",
+      "title": "Luxury Apartment Review | 110 m2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZLFs0QNmpas",
+      "title": "Essential Rules for Rough Construction Work in Renovation",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "glFea-xBjEw",
+      "title": "I installed new, cool floors in the apartment.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Yzit4OU_XPw",
+      "title": "Completed Project Overview | 60 m2 | Customer Review",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MQa9rmeFz3I",
+      "title": "Finally learned how to pour finishing compound",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "m3bC4GIoo_g",
+      "title": "Take a tour of our facilities 💥",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-_1rdBFVs00",
+      "title": "Don't forget about THIS in your renovation!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "a6ZPtGOVBv8",
+      "title": "My apartment is flooded | I'm fixing a developer's mistake.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "x1FPvQUalgQ",
+      "title": "How to beautifully tile a shower podium? A master class",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JCXHBV5XWOA",
+      "title": "Переделали кривые стены от застройщика | Полный процесс шпаклевки стен",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "e4Kw5BdYi_U",
+      "title": "Installed Amazing Bathroom Tile 🔥 Masterclass",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "t6baHeBlY2I",
+      "title": "The most IMPORTANT rules for electricity in an apartment ✔️",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pg0Zv6n6o38",
+      "title": "Review of a cool renovation of a three-room apartment",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Je46qcj3XU4",
+      "title": "How to choose materials for repairs in Leroy? Top 10 tips",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GyBlYDhCv2U",
+      "title": "Laid gorgeous tiles on the floor in the apartment",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KLugOyWbeE8",
+      "title": "Renovation by the developer. Shock, disappointment and pain…",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IKP05mRbQYw",
+      "title": "Renovating a trashed kitchen in a Khrushchev-era apartment",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Zufgt4w2Sj4",
+      "title": "Assembling an electrical panel in the old building of St. Petersburg",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j-MaaqZ29sg",
+      "title": "The fastest and most reliable way to install a bathtub",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LCNXGpY8CeA",
+      "title": "Review of a beautiful modern apartment | One-room apartment 42 m2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Y-kE4YRLNR8",
+      "title": "Electrical Wiring in a Khrushchev-era Apartment from A to Z ⚡️",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Pupp8e_Qie8",
+      "title": "Never do THIS in your renovation!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oZRa8IoJwjg",
+      "title": "Bathroom Waterproofing | The Most Reliable Method",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RH3Wv0aRaJ0",
+      "title": "How to quickly and reliably install heated floors in an apartment?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gJHqqJE1vwc",
+      "title": "Showing our apartment renovations in Moscow",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "umBbcFQPMO4",
+      "title": "INTERIOR DESIGNER on earnings, burnout, client advances, and much more!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cBqd38iJihE",
+      "title": "🔥We did a great renovation in a secondary market property | Moscow | 155 m2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1l7q7612I4A",
+      "title": "Переделал свой косяк в ремонте!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QEcS0XMD00U",
+      "title": "I Screwed Up the Shower Podium | What Not to Do",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TlAsuPBTALA",
+      "title": "How to create the perfect bathroom? Top 20 rules!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6lIT4MSZX_Q",
+      "title": "The EASIEST and MOST RELIABLE way to install a windowsill",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HVBpBhFHmZw",
+      "title": "Installed slopes on three windows in 1 day",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KIqCzD2krxM",
+      "title": "Залил ровнитель в санузлах за 1 день",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Maxb10v_av8",
+      "title": "How to Renovate FAST? Top 10 Tips",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DuuAiubjCR4",
+      "title": "How to Quickly Level Insulation for Any Finish",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gyRn9tsac_s",
+      "title": "How to make repairs inexpensively?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_28Rkq0G7jQ",
+      "title": "Замучался зашивать инсталляции на своей квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "muQ6H0gXYAo",
+      "title": "A review of the new plumbing in my apartment",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MaJtdctisew",
+      "title": "I poured the screed on the loggia in the FASTEST way!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WIpVl4kFh0g",
+      "title": "Insulated the loggia in the apartment | +4 m2 to the area",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8UTjKmuWguw",
+      "title": "Переделал УЖАСНУЮ планировку от застройщика!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "88cmOFJSOwg",
+      "title": "Перенесли на стену выводы под радиатор | Очень классное решение!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ElHcpT5WlUA",
+      "title": "A proper repair sequence in 2025",
+      "status": "duplicate",
+      "reason": "already present in processed_video_ids.txt",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "ctrewRshfr0",
+      "title": "Replaced cold glazing on the loggia with warm glazing",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EgmCZ5l7WIk",
+      "title": "Super Fast Bathroom Plastering | YOU'LL BE SHOCKED!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pMtOxUD3Ik4",
+      "title": "You'll be SHOCKED by how fast these plaster beacons are installed!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Hy0b0hHYI4M",
+      "title": "I Brought in a TOP-TIER Electrician to Assemble My Apartment’s Electrical Panel",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BQBOeBi83xg",
+      "title": "Сделали второй этап электрики в квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "K_tfQd6o5mI",
+      "title": "Сделали первый этап электрики в квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RuiofsyYrRs",
+      "title": "Сделай ЭТО перед началом ремонта!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "C2oB0qW2NNk",
+      "title": "Молодой парень один переделал убитую квартиру",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "12HOFWhYBz4",
+      "title": "The Khrushchev-era building is unrecognizable | The renovation is complete!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "va781qDP-eA",
+      "title": "The Best Skirting Board Option | Complete Installation Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7-PW3f5M-UM",
+      "title": "I installed an apron in the kitchen in a Khrushchev-era building.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "F42X-bHKxdE",
+      "title": "Installed plumbing in a Khrushchev-era apartment | The bathroom is unrecognizable!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fiyr2PbL270",
+      "title": "Built a Gorgeous Kitchen in a 6m² Khrushchev-era Apartment | Full Process from A to Z",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uXjHidSbgYE",
+      "title": "Beautiful and Practical Apartment Solutions | Renovation Review",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mFZDwro-5Vs",
+      "title": "Собрал классную отдельную гардеробную в однушке 30 м2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RvzTDxR-NIM",
+      "title": "How to Finish Front Door Jambs: Paint or Door Linings?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2iG4QgrkoaA",
+      "title": "New doors in a Khrushchev-era apartment | Beautiful and affordable",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "66tqI5xDudc",
+      "title": "Silly mistakes in the kitchen that you will regret...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "p2LXUs0a5-8",
+      "title": "We replaced the ugly door in the Khrushchev-era building...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tngLFpprYHY",
+      "title": "I installed new floors in a Khrushchev-era apartment in 2 days.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "b_dDFkIdkLQ",
+      "title": "HOW TO PROPERLY INSTALL PLUMBING IN AN APARTMENT",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SK4yC1zN7H4",
+      "title": "Сделал классный потолок в хрущевке",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FmtlN27mr8s",
+      "title": "TOP 15 mistakes people regret after renovations…",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jDUJIcn79Ns",
+      "title": "Никогда не строй из ЭТОГО материала стены !!!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xBEB_uf8UTs",
+      "title": "Обзор шикарной однушки | 42 м2 | Санкт-Петербург",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_cUQrRli8vE",
+      "title": "Поклеил обои в хрущевке | Полный процесс",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D-VkXSu94kg",
+      "title": "Подготовил и покрасил стены и потолок в хрущевке | Полный процесс",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j3bGUEwmFIs",
+      "title": "Построили просторный и красивый дом за 14 дней",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jdVLl7J_4AM",
+      "title": "Обзор квартиры с современным ремонтом | Санкт-Петербург | 89 м2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uK2Sm9VUdDs",
+      "title": "Renovated after the fire",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "m6fglTCLu40",
+      "title": "Common mistakes when working with self-leveling floors",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "g5-GKEDJn08",
+      "title": "I poured a thin screed, only 3 mm thick",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zp7rosGHbcA",
+      "title": "Не допускай ЭТИХ ошибок в ремонте",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hLzz1O7X2oM",
+      "title": "Spackling an Apartment in 4 Days | A Fast and Easy Way",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cLElsgo1mMU",
+      "title": "Installed a great windowsill in two hours",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jJ3LYOCvWVk",
+      "title": "Обзор просторной евродвушки | ЖК \"Дубрава 2.0\" | Казань",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4UhF-rXL7d0",
+      "title": "How to avoid cracks in walls? | Perfectly straight corners!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "I_Wx6_ILFno",
+      "title": "TOP 20 Tips for Choosing Plumbing Fixtures",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xu0IQbWLF-w",
+      "title": "ЛУЧШАЯ шумоизоляция потолка в 2024 году | Полный процесс монтажа",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kdPZ7lvmU0w",
+      "title": "Обзор шикарной евродвушки | ЖК «Береговой», 70 м2 | Москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZqRzuTzcBHU",
+      "title": "Сделал затирку и силикон в санузле | Полный процесс от А до Я",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GOkPEXqko3I",
+      "title": "The best bathtub screen for pennies",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ujSMOdTV7m8",
+      "title": "Laying tiles in a Khrushchev-era apartment | The complete process from A to Z",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HUfhfLzY4oI",
+      "title": "Showing our properties in St. Petersburg",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2u98zoUV6eM",
+      "title": "Avoid THESE solutions in your renovation!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HTuYxni8Cyc",
+      "title": "How to avoid messing up epoxy grout?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QffELg_Qf6c",
+      "title": "Cheap Soundproofed Bathtub | Complete Installation Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "m_bEE2S_PaA",
+      "title": "Это самый простой и быстрый способ укладки плитки!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UIwRDBrRP70",
+      "title": "I waterproofed a bathroom in a Khrushchev-era building.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Hc02r_gJsFk",
+      "title": "How to make a warm wall in the bathroom on a budget?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nD9zGCsRYk4",
+      "title": "Уложил в хрущевке теплый пол за один день",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O1iJf6Q7U04",
+      "title": "I sewed up the installation box in a cramped bathroom",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gRkPgu43NaU",
+      "title": "Fast installation of an ultra-durable drywall partition",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jxi3Mgppxf4",
+      "title": "I fixed my mistake in the renovation. I tore it down and rebuilt it.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qs9Nlhy1YHg",
+      "title": "Отличный способ, чтобы больше не слышать соседей",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "06YLy45zN0Q",
+      "title": "I was tired of installing the installation in a Khrushchev-era building...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LWUS8VqBGec",
+      "title": "I assembled a top-of-the-line manifold unit in a Khrushchev-era apartment.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jOvCg-d45w4",
+      "title": "WHAT IS THE REAL COST OF REPAIRS? Don't be fooled!",
+      "status": "duplicate",
+      "reason": "already present in processed_video_ids.txt",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "8CdEK6675ps",
+      "title": "Cozy 42 sq m one-room apartment | Renovated in St. Petersburg | Customer review",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yyCbG7togls",
+      "title": "Провел водоснабжение в хрущевке",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EPk3zh8yvvM",
+      "title": "HOW TO CHOOSE TILES IN A HYPERMARKET IN 2024?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vDQf29joNDA",
+      "title": "Installed sewerage in a Khrushchev-era building",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "70P1l-2X4h4",
+      "title": "Какой инструмент нужен для ремонта ?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CnO7ZAuFgFc",
+      "title": "Обзор нового современного ремонта во вторичке , 56 м2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ADyXvfyujF4",
+      "title": "I assembled an electrical panel in a Khrushchev-era building without any experience.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "u5yii1Q4jgM",
+      "title": "I installed electrical wiring in a Khrushchev-era apartment for 36,000₽.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5i2LUpybGas",
+      "title": "Обзор двушки с шикарным ремонтом, 70 м2 | Казань | Отзыв заказчицы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FjLyWkwo-Yk",
+      "title": "Quickly and cheaply straightened a crooked wall in a Khrushchev-era apartment",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FlFA6NzGJl0",
+      "title": "Как спрятать трубы отопления и радиатор?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WrE-r7yf3SM",
+      "title": "How to accept an apartment from a developer in 2024?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4YPsxjajqb8",
+      "title": "Как выровнять кривые стены гипсокартоном?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qw1MG48vKcs",
+      "title": "How to make a niche for a cabinet?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IEjvQMJ-BH8",
+      "title": "Обзор шикарной однушки | 40 м2 | Отзыв заказчицы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dBqhJjRI5To",
+      "title": "Golden Rules for Modern Bathrooms",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XvigppTOjmU",
+      "title": "Got rid of neighbors' noise in one day",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T650y6hp6A0",
+      "title": "Hand-plastering walls in the apartment | I almost lost my mind!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tMS4JzW0omA",
+      "title": "How to renovate on a budget? Tips and life hacks | 32 m2 apartment review, customer feedback",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FRZP8ZRqCvs",
+      "title": "How to install plaster beacons quickly and easily?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EV3OhgIxJ4c",
+      "title": "Обзор шикарной квартиры с необычной планировкой",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hGluvl52Hm4",
+      "title": "Как избежать трещин на стенах?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s5Qjj39jiZw",
+      "title": "Easy Floor Screed with Soundproofing | Full Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CJLXPBeZI6E",
+      "title": "Обзор идеальной квартиры для большой семьи",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Lk55RWIpEcA",
+      "title": "Budget-friendly electrical appliances in a Khrushchev-era apartment | Part 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IQO8ZhHz5i0",
+      "title": "Как самому проверить штукатурку у своих мастеров?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "C3Ymg_IF1Cc",
+      "title": "Bathroom renovation in 35 minutes | Complete process.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-P7aJ3EkeXY",
+      "title": "Everyone screwed the client. The renovations have been going on for three years now.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iqE_qSFPl5E",
+      "title": "Дешевая шумоизоляция пола в квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8Q5E96WfE_E",
+      "title": "A review of a spacious one-room apartment with cool design features",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GmGytgXWT8A",
+      "title": "New walls in a Khrushchev-era building in three days",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pDDbH34FawQ",
+      "title": "We are replacing an old wooden window with a new one",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bv0_N7oBaHc",
+      "title": "Демонтаж старого ремонта в хрущевке. Всё под снос!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ri3Hy2-cQRw",
+      "title": "Budget-friendly renovation in a Khrushchev-era apartment. I'll do it all myself!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ETk8jnd1WGk",
+      "title": "1 год за 60 минут. Полный ремонт квартиры. Делаю сам. Apartment renovation . 1 year in 60 minutes.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "U95vMOOhKH8",
+      "title": "1-Bedroom Apartment (39m²) with a Walk-in Closet, Office, SEPARATE Bedroom, and Living Room | Did...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ebCAn8Vufys",
+      "title": "Inexpensive, perfect skirting board without joints or gaps",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qZ2Tg9CCwO0",
+      "title": "Laying 600x600 porcelain tiles on the backsplash after kitchen installation",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "p36g7SQiRSU",
+      "title": "DIY INSTALLATION OF DECORATIVE GYPSUM BRICK | Episode 48",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2UTs9X-dfns",
+      "title": "ELECTRICAL INSTALLATION | Sockets, switches, TV, internet, thermostat | Series 47",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "P661tb2gkRo",
+      "title": "Затирка плитки. Эпоксидная и цементная. Силикон",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5es3N1PYkGk",
+      "title": "How to Install Laminate or Vinyl Plank Flooring Yourself With No Experience",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "C542vKcedOY",
+      "title": "Как без опыта поклеить обои. Полный процесс",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "l_4GtbIUZvM",
+      "title": "How to assemble the kitchen range hood vent duct",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pivsca17rOM",
+      "title": "Self-leveling floor. My first experience",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zZgyaChTkug",
+      "title": "Puttying walls with a roller. First experience",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0l3B5GVAjG8",
+      "title": "ЗАДЕЛКА СТЫКОВ ГИПСОКАРТОНА. БЫСТРО И НАДЕЖНО. ПОЛНЫЙ ПРОЦЕСС | Серия 40",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "owDmOme8TiA",
+      "title": "Укладка теплого пола. Полный процесс",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0_zi3KwUi-g",
+      "title": "BATHROOM NICHE TILES. ANGLED THE TILES AT 45 DEGREE WITH A GRINDER | Series 38",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NVot7Gbo7-4",
+      "title": "Tiled bathtub screen. The complete process.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wpbHv7YM2fI",
+      "title": "Laying 600x600 porcelain tiles on walls without experience",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "I8iuEdsJxjM",
+      "title": "HOW TO INSTALL ANY BATHTUB YOURSELF. COMPLETE PROCESS | Episode 35",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KL7YVgPE744",
+      "title": "Укладка плитки на пол без опыта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IErMKG61ntE",
+      "title": "Waterproofing the walls and floor in the bathroom",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2UL9KXbEc1c",
+      "title": "WALL LEVELING WITH DRYWALL. FAST, SMOOTH, AND RELIABLE. FULL PROCESS | Episode 32",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lAKHRaZh1wU",
+      "title": "How to quickly and easily box in a toilet installation yourself",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "udxGQkNYOvM",
+      "title": "A GREAT SOLUTION FOR YOUR BATHROOM. ASSEMBLY OF A NICHE WITH SHELVES. THE FULL PROCESS | Series 30",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hKN0mVSY8yQ",
+      "title": "ОТКОСЫ ИЗ ГИПСОКАРТОНА. БЫСТРО, КРАСИВО И НАДЕЖНО. ПОЛНЫЙ ПРОЦЕСС  | Серия 29",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-nV_l9Sd6YE",
+      "title": "Штукатурка пеноплекса. Полный процесс",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CVqedVQlZZU",
+      "title": "Бескаркасная шумоизоляция стены в спальне",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5T8f-5h8qGc",
+      "title": "ЗАШИВКА СТЕН ГИПСОКАРТОНОМ. УКЛАДКА МИНЕРАЛЬНОЙ ВАТЫ. ПОЛНЫЙ ПРОЦЕСС | Серия 26",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1q2fRaKBbuQ",
+      "title": "ЭЛЕКТРИКА В КВАРТИРЕ. ПОЛНЫЙ ПРОЦЕСС. РАЗМЕТКА, ШТРОБА, ПОДРОЗЕТНИКИ, КАБЕЛЬ, СБОРКА ЩИТА | Серия 25",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "H6x43jQXJuc",
+      "title": "Сантехника в квартире под ключ | Полный процесс | Водоснабжение, канализация, сборка узла,опрессовка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Vin6Ub1Vwqo",
+      "title": "Pressure Testing a Plumbing System in an Apartment | Why Is It Needed? How Do You Do It?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ocb6LwxnX-M",
+      "title": "Moving Radiator Wiring from Floor to Wall | Complete Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "icWCP6tIkAE",
+      "title": "Top-tier plumbing manifold for your apartment | Pro assembly masterclass",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8-UgXk4sqVM",
+      "title": "Installing a Wall-Hung Toilet Frame | Full Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HsB5NakqhQY",
+      "title": "Сантехника в квартире  | Прокладка труб | Установка водорозеток",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3S1j5vWR1bc",
+      "title": "Эффективная шумоизоляция стояка канализации в квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2_Y5F7pjsoU",
+      "title": "Sewer Riser Overhaul | Detailed Instructions",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fnfyDG_f8hc",
+      "title": "Apartment Sewerage | The Complete Process | Error Analysis",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ggqCES75sec",
+      "title": "Сборка щитка | Мастер-класс от профи",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fhrqfP24ZrU",
+      "title": "Электрика в квартире | Монтаж кабеля | Сборка коробок",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zpbUD_10mbA",
+      "title": "Электрика в квартире | Разметка | Штробы | Подрозетники",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "16Kyi2XUsFo",
+      "title": "Drywall Wall Installation | The Complete Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rWG73MC3bDI",
+      "title": "We insulate and pour a screed on the loggia. Loggia insulation. The complete process | Series 11",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Bw2YDkxGHlY",
+      "title": "Утепляй лоджию только ТАК | Полный процесс!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XGfnC3pBF5U",
+      "title": "Идеальный внешний угол штукатурки с помощью правила",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GcgI4_ZNYaQ",
+      "title": "Штукатурка стен вручную без опыта. Полный процесс",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "B2WFMcOG9ig",
+      "title": "НИКОГДА НЕ СТАВЬ ТАК МАЯКИ. ШТУКАТУРКА СТЕН ПО МАЯКАМ . Штукатурные маяки  | Серия 7",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "J4ysL0oHW28",
+      "title": "КАК и ЧЕМ грунтовать стены в квартире ? Мастер-класс",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xoZ_e8o0fT4",
+      "title": "СБОРКА УДОБНОГО СТЕЛЛАЖА СВОИМИ РУКАМИ. ЗАЛИВКА ШТРОБ ПОСЛЕ ДЕМОНТАЖА| Серия 5",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JQxPWe7rBpw",
+      "title": "Demolition in a new building | WE DEMOLISH EVERYTHING!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VJb1oDvUPLA",
+      "title": "МОНТАЖ ВРЕМЕННОЙ ЭЛЕКТРИКИ В КВАРТИРЕ . КАК СНЯТЬ РАДИАТОР ОТОПЛЕНИЯ  | Серия 3",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-n3n_IdzwUA",
+      "title": "Don't start a renovation WITHOUT THIS! Tips from a pro |",
+      "status": "fresh",
+      "reason": null
+    }
+  ]
+}
