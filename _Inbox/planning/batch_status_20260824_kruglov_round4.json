@@ -1,0 +1,17 @@
+{
+  "round": 4,
+  "label": "Heating/Ventilation part 2 + Bathroom part 1",
+  "created": "2026-08-24",
+  "videos": {
+    "wowlXrlGrEc": "archived",
+    "WK-KLd2ssYY": "archived",
+    "wsomY_6BRqA": "archived",
+    "sd2XYBZY-K8": "failed_rate_limited",
+    "IFnZxitFeNk": "pending",
+    "MOYwhSd8tv4": "pending",
+    "ZlvJE-ncrK8": "pending"
+  },
+  "halted": true,
+  "halt_reason": "youtube-transcript-fetch exit code 2 (rate_limited_or_ip_blocked) on video 4 of 7 (sd2XYBZY-K8). Per skill guardrail: stop fetch phase, do not mark remaining videos skipped, wait for real cooldown before any retry.",
+  "halted_at": "2026-08-24"
+}

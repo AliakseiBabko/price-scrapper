@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=wowlXrlGrEc",
+  "video_id": "wowlXrlGrEc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T07:05:00.117001+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "07691376b42790cdb293dc14b33fd8060d81f349f4aa6beb6271db1e30aebd3b",
+  "attempts_before_success": []
+}

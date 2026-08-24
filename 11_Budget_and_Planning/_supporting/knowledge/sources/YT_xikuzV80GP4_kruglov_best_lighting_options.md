@@ -2,7 +2,7 @@
 source_type: video transcript (self-promotional renovation-company channel, lighting fixture-taxonomy + function-based lighting guide, Russian, auto-generated captions)
 source_url: https://www.youtube.com/watch?v=xikuzV80GP4
 video_id: xikuzV80GP4
-transcript_file: _Archive/processed_sources/20260824_best_lighting_options_xikuzV80GP4_0d962f34.txt
+transcript_file: _Archive/processed_sources/20260824_kruglov_best_lighting_options_0d962f34.txt
 fetched: 2026-08-24
 upload_date: 2025-03-14 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Konstantin Kruglov | Ontario (same channel as Rounds 1-2 and this round's other 6 videos)

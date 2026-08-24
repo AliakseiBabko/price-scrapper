@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=WK-KLd2ssYY",
+  "video_id": "WK-KLd2ssYY",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T07:07:16.242411+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f98cb9dba4553c89ba0ebc6ee215016053c2b9bef012f98ae19da9244c30dea9",
+  "attempts_before_success": []
+}

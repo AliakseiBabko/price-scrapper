@@ -14,6 +14,13 @@ A fourth, broader caution from the same source: **AC reliability and lifespan ar
 
 Zemstandart/Alexey Zemskov advises: **interfloor exhaust duct/riser inspection**: before cosmetic work starts, verify the condition of interfloor ventilation ducts/risers and clamp security — if only the surrounding soundproofing (not the duct itself) is damaged, restore it properly rather than leaving it as found. **Replace developer-installed square sheet-metal exhaust ducts with round plastic ducting** to reclaim the cross-section/airflow the square ducts otherwise waste. `single-account`. [source: `_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt`]
 
+A fifth and sixth mistake, from Konstantin Kruglov/Ontario (added 2026-08-24, Round 4): **⚠️ a
+refrigerant-line kink obstructing more than ~30% of the tube's flow cross-section causes rapid
+unit failure**; and **⚠️ skipping vibration-isolation mounts/soundproofing when bolting the
+outdoor unit to a facade can make it resonate with the building's own wall panel**, producing an
+audible in-apartment hum whose cause isn't obvious unless the installer specifically checks for
+missing vibration mounts. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+
 ## Buying Guidance
 
 FLATART reports: **seasonal timing**: AC units are reported cheapest to buy in winter, when demand (and prices) are lowest.

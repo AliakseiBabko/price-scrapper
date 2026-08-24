@@ -62,6 +62,27 @@ Pavel Goncharov (BRIX/ATMEX): apartment ≤80m², minimal budget → breather, *
 
 Pavel Goncharov's own stated top-3, explicitly disclosing his own conflict of interest before naming his own product: **Air Nani A7 Forever** (his own company — cites a never-replace photocatalytic odor filter and built-in humidification as unmatched differentiators); **Tion 4S** (competitor — simple, quiet, long-established); **Ballu ASP100** (competitor, large HVAC conglomerate — praised for compact/attractive design fitting narrow wall segments, not the quietest). Read the self-endorsement skeptically per this project's tier-steering filter; the two competitor mentions are recorded at face value as a market-reference point. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uiiggEC7c9M_kruglov_breathers_podcast_goncharov|uiiggEC7c9M]]]
 
+### Breather Price Ladder with Named Brands (added 2026-08-24, Round 4)
+
+Konstantin Kruglov/Ontario gives a fuller three-tier breather ("бризер") price ladder than this
+page's existing minimal-budget figure, with named brands per tier, Russia-market:
+
+- **Economy: 15,000–30,000 RUB ≈ $180–$370** (2025-10-10 exact-date rate) — Эра ("Era", described
+  as "super-economy"), Балу (Ballu), Вакио (Vakio), Зилан.
+- **Comfort: 35,000–50,000 RUB ≈ $430–$610** — Tion's "О2" and "Лайт (Light)" lines, Blauberg (not
+  officially supplied to Russia — parallel-import only), Xiaomi (flagged here for lacking Russian
+  service centers — a different caveat than this page's existing "heating too weak" claim about
+  the same brand), Royal Clima, Бреза (Breza), Зигения (Zigenia)/Аэропак (Aeropak), iFresh.
+- **Premium: 60,000–90,000 RUB ≈ $740–$1,100** — Mitsubishi, Tion 4S, Biox, Air Nani.
+
+**⚠️ Mitsubishi's premium breather needs two wall penetrations, not the usual single bore** — it
+has its own built-in exhaust function (most breathers are supply-only), so a real bidirectional
+duct requires two separate bores. `single-account`, `unverified`.
+
+**⚠️ Improper installation (poor exterior-bore sealing, non-professional drilling) can void the
+manufacturer's warranty outright** — a concrete consequence attached to this page's existing
+"use professional installers" guidance. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wowlXrlGrEc_kruglov_breather_purifier_humidifier|wowlXrlGrEc]]]
+
 ## Kitchen Extraction Hoods Share the Same Shaft-Capacity Ceiling
 
 The same shared-shaft constraint that governs fresh-air ventilation applies just as strongly to a kitchen range hood set to extraction mode ("отвод") — a mechanism worth stating explicitly since it's easy to assume a hood's own motor rating determines its real performance. **This is corroborated across 5 independent sources** — full multi-source breakdown, including a direct conflict this raises with the kitchen's already-selected hood model, lives in [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]]. Summary:

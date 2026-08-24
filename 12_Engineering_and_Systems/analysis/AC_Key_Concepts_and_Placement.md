@@ -12,6 +12,52 @@ FLATART VIDEOS / Yuri Kokichev says **fresh-air ventilation is a separate system
 
 Дома Минска says **ventilation shaft vs. plumbing cladding is the single most important distinction in this whole system.** A **ventilation shaft** ("venshakhta," identifiable by its grille openings, typically ~60×40 cm) runs as one shared vertical column from the ground floor to the roof, serving every apartment stacked on that riser line — **it must never be touched, damaged, or removed**; doing so cuts ventilation airflow for every unit sharing the column, not just yours. A **plumbing cladding box** ("zashivka," built around water/sewer risers) is a different structure entirely and can often be demolished and rebuilt more compactly to reclaim space — see [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Plumbing: Rough-In Sequencing & Wet-Zone Placement]]. Confusing the two is the kind of mistake that affects neighbors, not just your own apartment.
 
+## Indoor Unit Device Taxonomy (added 2026-08-24, Round 4)
+
+Konstantin Kruglov/Ontario gives a four-way taxonomy of devices that can fill a split system's
+indoor-unit role, all wired to the same outdoor unit: (1) **standard wall-mounted unit**; (2)
+**floor-ceiling/column unit** — a large freestanding column, mostly commercial/large-house use;
+(3) **cassette unit** — ceiling-mounted, blows in four directions at once, common in
+restaurants/offices/concert halls; flagged as "the bane of every office worker" since a shared
+four-direction blow pattern in an open-plan space inevitably over-cools some occupants and
+under-cools others; (4) **ducted/channel unit** — concealed above the ceiling, feeding several
+rooms from one unit via ducting, with individually-controllable electronic dampers per room
+(manual or smart-home-integrated). Ducted units need ceiling depth, condensate routing, and
+access-panel planning, and are described as most common in higher-end, high-ceiling renovations
+specifically because of that added design complexity. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+
+## Multi-Split: Hard Limit and Failure-Mode Downside (added 2026-08-24, Round 4)
+
+**⚠️ A multi-split system (multiple indoor units on one shared outdoor unit) has a hard limit of 6
+indoor units per outdoor unit.** Key downside vs. independent single split systems: if the shared
+outdoor unit fails, every room it serves loses AC simultaneously during repair — an independent
+split-system failure only takes out one room. A multi-split serving 2 rooms can cost *more* than
+two fully independent split systems, despite serving the same room count. The one scenario that
+forces multi-split regardless of this trade-off: the facade only has physical space for one
+outdoor unit, but AC is needed in more than one room. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+
+## Portable/Mobile AC: Quantified Ineffectiveness (added 2026-08-24, Round 4)
+
+**⚠️ A portable/mobile AC (no outdoor unit, exhaust vented via a window hose) is described as
+barely effective** — roughly 4 hours to drop room temperature by just 1°C, compounded by the
+window needing to stay cracked for the exhaust hose (which independently reduces any AC's
+efficiency) and by real noise. The source frames the real-world benefit as closer to a "placebo
+effect," with the only meaningfully cool spot directly in front of the unit's outlet.
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+
+## Outdoor Unit Placement — Full Taxonomy (added 2026-08-24, Round 4, extends the single restriction below)
+
+Konstantin Kruglov/Ontario gives four outdoor-unit placement scenarios, extending the single
+"elite development bans exterior hardware" case already below: (1) **facade-mounted** — typical,
+unrestricted secondary-market case; (2) **enclosed loggia box** — where facade mounting is banned,
+an insulated enclosure built inside the loggia, vented to the exterior, functionally "outside"
+while physically inside the loggia envelope; (3) **developer-designated shared per-floor zone** —
+some new-builds provide one dedicated space per floor for every unit's outdoor hardware; (4)
+**centralized rooftop system** — a developer installs one large shared outdoor unit on the roof
+and every apartment connects to it, removing outdoor-placement choice entirely (cited example:
+a Moscow-City-area development, name transcribed uncertainly as "ЖК Nivers в Сити" —
+`ASR-uncertain`). `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+
 ## Indoor Unit Placement Rules
 
 Three rules, consistently given by an AC installation specialist:

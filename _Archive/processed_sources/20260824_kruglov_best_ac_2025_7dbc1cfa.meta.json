@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=wsomY_6BRqA",
+  "video_id": "wsomY_6BRqA",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T07:09:32.940908+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "7dbc1cfa6ff00e281c2fba08d2a13fbd56378a67c43db5c78e4442c19c834be9",
+  "attempts_before_success": []
+}

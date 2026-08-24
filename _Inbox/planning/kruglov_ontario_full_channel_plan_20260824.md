@@ -89,17 +89,35 @@ one-line **Round N yield** note under each table once a round closes.
 
 **Round 3 yield**: 7 videos processed, 90 new facts (11 + 10 + 12 + 14 + 10 + 13 + 20, excluding duplicate/corroborating-only outcomes which were explicitly flagged and not counted), yield = 12.9/video. Compared against the Round 1 baseline (11.5/video) and Round 2 (10.3/video), this is the highest-yield round so far — no stop-and-ask trigger. No rate-limiting encountered. **Note**: this round was processed concurrently by two independent agent sessions on the same repo (a real collision, not anticipated at dispatch time) — see the Progress Log entry below for what happened. Both sessions actively reconciled collisions as they were found (duplicate CSV rows removed, duplicate/overlapping wiki sections merged or reverted, duplicate source notes deleted) — as of this update, `git status` and per-video CSV row counts confirm no known duplicates remain (each of the 7 videos has exactly one CSV row); the `uiiggEC7c9M` duplicate source note mentioned in an earlier version of this note was itself deleted during reconciliation and no longer exists.
 
-### Round 4 — Heating/Ventilation part 2 + Bathroom part 1 (7 videos)
+### Round 4 — Heating/Ventilation part 2 + Bathroom part 1 (7 videos) — PARTIAL, halted on rate-limit
 
 | # | Video ID | Title | Status |
 |---|---|---|---|
-| 1 | `wowlXrlGrEc` | Выкидывай очиститель и увлажнитель! Бризер | pending |
-| 2 | `WK-KLd2ssYY` | How to choose an air conditioner: economy vs. premium | pending |
-| 3 | `wsomY_6BRqA` | Как выбрать самый лучший кондиционер в 2025? | pending |
-| 4 | `sd2XYBZY-K8` | Bathroom Renovation 2026 – Safety, Convenience, and Design | pending |
-| 5 | `IFnZxitFeNk` | The Best Bathroom Remodeling Ideas for 2026 | pending |
-| 6 | `MOYwhSd8tv4` | Your Tiles Will Crack or Fall Off! Top Rules for Tiling! | pending |
-| 7 | `ZlvJE-ncrK8` | Главные ОШИБКИ в ремонте ванной комнаты | pending |
+| 1 | `wowlXrlGrEc` | Выкидывай очиститель и увлажнитель! Бризер | archived |
+| 2 | `WK-KLd2ssYY` | How to choose an air conditioner: economy vs. premium | archived |
+| 3 | `wsomY_6BRqA` | Как выбрать самый лучший кондиционер в 2025? | archived |
+| 4 | `sd2XYBZY-K8` | Bathroom Renovation 2026 – Safety, Convenience, and Design | failed_rate_limited (not fetched, not skipped — retry later) |
+| 5 | `IFnZxitFeNk` | The Best Bathroom Remodeling Ideas for 2026 | pending (not attempted, halted before reaching it) |
+| 6 | `MOYwhSd8tv4` | Your Tiles Will Crack or Fall Off! Top Rules for Tiling! | pending (not attempted, halted before reaching it) |
+| 7 | `ZlvJE-ncrK8` | Главные ОШИБКИ в ремонте ванной комнаты | pending (not attempted, halted before reaching it) |
+
+**Round 4 status (2026-08-24): HALTED mid-round on a rate-limit/IP-block.** Videos 1-3 (the
+Heating/Ventilation part-2 sub-cluster) fully processed: fetched, extracted, wiki-routed, price-
+normalized, archived, CSV-logged. Video 4 (`sd2XYBZY-K8`, first Bathroom video) hit
+`youtube-transcript-fetch` exit code 2 (`rate_limited_or_ip_blocked`) on both attempted methods
+(`youtube-transcript-api` IP-block message, `yt-dlp` "Sign in to confirm you're not a bot"). Per
+this project's own circuit-breaker rule, stopped immediately — did not retry, did not attempt
+videos 5-7, and did not mark any of videos 4-7 `skipped` in the CSV (a rate-limit isn't a genuine
+no-captions/unavailable case, so no CSV row was added for video 4 either — it remains fetchable
+on retry after a real cooldown). **Partial Round 4 yield so far: 3 videos processed, 29 new facts
+(5 + 8 + 16), yield = 9.67/video** — a ~25% drop from Round 3's 12.9/video baseline, within the
+normal-variance band (not the >50%-drop or <1.0/video stop-and-ask thresholds), though this is
+only a partial-round figure and should be recomputed once videos 4-7 are actually processed.
+**Resume plan**: after a real cooldown (tens of minutes to hours, not immediate), retry
+`sd2XYBZY-K8` first, then continue sequentially through `IFnZxitFeNk`, `MOYwhSd8tv4`,
+`ZlvJE-ncrK8` — all four remaining videos route to the Bathroom cluster
+(`07_Bathroom/analysis/*`). See `_Inbox/planning/batch_status_20260824_kruglov_round4.json` for
+the live per-video status.
 
 ### Round 5 — Bathroom part 2 + Walls/Ceilings part 1 (7 videos)
 
@@ -318,3 +336,30 @@ Not yet split into rounds — do that at triage time, in chunks of 6-8.
   and re-check freshness immediately before continuing to the next video,
   rather than assuming the earlier preflight check still holds. Next:
   Round 4 (Heating/Ventilation part 2 + Bathroom part 1, 7 videos).
+- **2026-08-24**: Round 4 (Heating/Ventilation part 2 + Bathroom part 1, 7 videos) started, halted
+  partway through on a real rate-limit/IP-block. All 7 re-verified fresh against
+  `00_Master/processed_sources.csv` and the source-notes folder before fetching. Videos 1-3
+  (`wowlXrlGrEc` breather buying guide, `WK-KLd2ssYY` AC economy-vs-premium, `wsomY_6BRqA`
+  comprehensive AC guide) fetched one at a time with real spacing (interleaved with full
+  extraction/routing/archiving work between fetches, no idle "waiting for notification" pauses),
+  fully processed: 5 + 8 + 16 = 29 genuinely new facts, routed across
+  `12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md`,
+  `AC_Sizing_and_Selection.md`, `AC_Key_Concepts_and_Placement.md`,
+  `HVAC_Common_Mistakes_and_Buying.md`, and `AC_Condensate_Drainage.md` (breather price ladder w/
+  named brands; AC economy/premium compressor-longevity, noise, and operating-temperature figures
+  plus a flagged filtration-quality tension against an existing FLATART claim; a comprehensive
+  AC guide adding indoor/outdoor-unit device taxonomies, a multi-split hard limit, a quantified
+  inverter-vs-on/off temperature band with a counter-intuitive durability claim, and this store's
+  first full named-brand AC equipment price table). All price figures normalized via
+  `tools/pricing/currency_converter.py` at exact publish-date USD/RUB rates (appliance-category
+  precision). Video 4 (`sd2XYBZY-K8`, first Bathroom video) then hit `youtube-transcript-fetch`
+  exit code 2 (`rate_limited_or_ip_blocked`) on both `youtube-transcript-api` and `yt-dlp` —
+  stopped immediately per the project's circuit-breaker rule, did not retry, did not attempt
+  videos 5-7, and did not mark any of videos 4-7 `skipped` in the CSV (video 4 got no CSV row at
+  all, since a rate-limit isn't a genuine no-captions/unavailable case — it stays fetchable on
+  retry). **Partial Round 4 yield: 3 videos processed, 29 new facts, yield = 9.67/video** — a ~25%
+  drop from Round 3's 12.9/video baseline, within normal variance (not a stop-and-ask trigger), but
+  this figure will be recomputed once the round is completed. Next: after a real cooldown, resume
+  Round 4 starting with `sd2XYBZY-K8`, then `IFnZxitFeNk`, `MOYwhSd8tv4`, `ZlvJE-ncrK8` (all four
+  route to `07_Bathroom/analysis/*`); Round 5 (Bathroom part 2 + Walls/Ceilings part 1) follows
+  once Round 4 actually closes.

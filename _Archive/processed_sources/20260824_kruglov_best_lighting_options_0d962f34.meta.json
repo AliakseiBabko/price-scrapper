@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=xikuzV80GP4",
+  "video_id": "xikuzV80GP4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T06:25:57.157285+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "0d962f348c02d7d16d3e4d6f984bbd0c157bb2066745b861a3824586c64bbe9e",
+  "attempts_before_success": []
+}
