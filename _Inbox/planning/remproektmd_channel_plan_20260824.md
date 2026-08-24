@@ -164,3 +164,24 @@ channel's internal script-reuse pattern.
   full-scale processing** — see verdict section above. `tools/verify_batch.py`
   run against this batch's changes (see verification notes in this session's
   final report).
+
+## Round 2 — Named-technique tutorials, avoiding the yearly-trend cluster (7 videos, dispatched 2026-08-24)
+
+Continues full-scale processing per the Round 1 verdict. Deliberately
+avoids this channel's heavy repetitive "Ремонт квартир в Кишиневе"
+yearly-trend-showcase cluster (2023/24/25/26 versions of similar content,
+flagged in the channel facts as likely low marginal value after one is
+processed) — pick that cluster up in a dedicated future round with an
+explicit script-overlap check across years, not folded in here.
+
+| # | Video ID | Title | Why selected | Status |
+|---|---|---|---|---|
+| 1 | `Wj_i-4GhOQk` | Device for installing large-format tiles. Master class on installing large-format tiles. | Large-format tile installation technique | pending |
+| 2 | `PmxmmzyUZjg` | Как снять напряжение в плитке крупного формата? | Large-format tile tension-relief technique | pending |
+| 3 | `I-iSW-9NHAs` | Features of dismantling screeds in a panel house. | Screed demolition technique | pending |
+| 4 | `TFu0lu-_rzQ` | Ceiling soundproofing materials. Comparison of materials for soundproofing ceilings under suspended ceilings. | Ceiling soundproofing technique, tests fit against `Soundproofing.md` | pending |
+| 5 | `mONJ1htVKrE` | Декоративная штукатурка. Мастер класс. | Decorative plaster technique | pending |
+| 6 | `xXtmccyUqdE` | Управление водяным теплым полом. Терморегуляторы теплого пола. | Hydronic heated-floor thermostat technique | pending |
+| 7 | `C2vRkbcEs7U` | Правильный щиток с автоматами. Краткий обзор электрощитка. | Electrical panel technique | pending |
+
+Status: **pending dispatch**.

@@ -319,3 +319,23 @@ video was encountered in this round.
   pre-round commit; all 8 new CSV rows independently re-verified via
   Python's `csv` module to parse into the correct 15 columns each with
   `archived` status.
+
+## Round 3 — Wall/paint prep, demolition mistakes, tile/balcony/heated-floor comparisons (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing. Named-technique tutorials plus this
+channel's 2026-dated "СРАВНЕНИЕ!" (comparison) format, testing whether
+that format performs similarly to the already-confirmed "Как выглядит
+качественная X" and "Как убить X" series formats.
+
+| # | Video ID | Title | Why selected | Status |
+|---|---|---|---|---|
+| 1 | `d8WzpxSSX8k` | Идеальные стены под покраску | Wall-prep-for-paint technique | pending |
+| 2 | `lTeNBUR1u8g` | Идеальные стены в 90 градусов? В чем секрет? Как проверить? | Wall-squareness technique/QC | pending |
+| 3 | `AcNu6CHE7Y4` | Как начать ремонт? ТОП 4 ошибки демонтажа. | Demolition mistakes | pending |
+| 4 | `ah3StuP2TZE` | Самая сложная плитка! Крупный формат или мозаика? Что выбрать? | Tile-format comparison technique | pending |
+| 5 | `Qt4uGvGRYT0` | Как правильно утеплить балкон / лоджию | Balcony/loggia insulation technique | pending |
+| 6 | `xt_q5SkINT8` | Как выбрать тёплый пол? СРАВНЕНИЕ! | Heated-floor comparison ("СРАВНЕНИЕ!" format spot-check) | pending |
+| 7 | `96mlkQoczI4` | Какой ПОЛ выбрать в 2026? СРАВНЕНИЕ! | Flooring comparison 2026 ("СРАВНЕНИЕ!" format) | pending |
+| 8 | `lvixGbwo0Ug` | Какой ПОТОЛОК выбрать в 2026? СРАВНЕНИЕ! | Ceiling comparison 2026 ("СРАВНЕНИЕ!" format) | pending |
+
+Status: **pending dispatch**.
