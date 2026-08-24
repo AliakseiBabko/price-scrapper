@@ -1,0 +1,3 @@
+{
+  "_comment": "Reviewed exceptions for tools/check_page_sizes.py. Key = repo-relative path, value = the review's stated reason for keeping the page unsplit despite crossing the size threshold. No blanket allowlist entries - each key must name a specific, reviewed page."
+}
