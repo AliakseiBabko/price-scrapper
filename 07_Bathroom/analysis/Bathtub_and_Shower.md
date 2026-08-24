@@ -12,6 +12,13 @@ Konstantin Kruglov / Ontario's source note supports the bathtub and shower claim
 - **The source's statement on elderly suitability is internally inconsistent and not resolved here**: it states a tub "suits elderly users" in one breath, then immediately notes elderly users with knee problems often can't step into a tub at all — read as a caution that mobility should be checked case-by-case rather than assuming a tub is broadly elderly-friendly, not as a clean recommendation either way. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w_8a6aadd3]]]
 - For a case with no room for a full tub, a shower zone sized for dog-paw-washing is offered as a compromise — case-specific, not a universal substitute for the above.
 
+## Foam-Insulating a Bathtub's Exterior for Thermal/Acoustic Comfort (RemProektMD, added 2026-08-24)
+
+> [!NOTE]
+> Chișinău/Moldova channel, region level 2 only. `single-account`, real jobsite practice cited, no absolute cost figure given. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
+
+RemProektMD/Andrei describes a real jobsite practice: **apply canned expanding foam to the exterior underside/back of an installed bathtub** (works for both cheap steel tubs and more expensive acrylic tubs — cited example was an acrylic tub, not just a cheap one) to add thermal and acoustic insulation. Stated effects: water in the tub cools more slowly, and the sound of running/draining water is quieter. Cosmetically invisible in normal use, since a tub is almost always clad behind a tile-covered access panel/screen anyway.
+
 ## Bathtub Material Selection
 
 Konstantin Kruglov / Ontario's source note supports the material-selection claims below.

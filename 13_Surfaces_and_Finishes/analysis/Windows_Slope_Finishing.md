@@ -13,6 +13,8 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Covers slope material sele
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Independent corroboration (added 2026-08-19)**: a second, independent source confirms the paint-yellowing mechanism above specifically — even top-tier paint on a plastered slope yellows over time, while the frame-edge and plane-cracking failure modes can each individually be avoided with care; yellowing cannot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
 
+RemProektMD/Andrei reports: **A third, independent corroboration (added 2026-08-24), from a Chișinău/Moldova channel unrelated to Zemstandart** — for budget renovation work specifically, plastic returns (ordered together with the window) are preferred over plastered returns for the same underlying reason already documented above: a plastered return develops a crack at the frame-to-plaster joint from seasonal thermal/humidity cycling that must be periodically resealed, a defect plastic returns don't develop. Also notes plastered returns cost meaningfully more (plaster, foam-board insulation, putty, mesh tape, corner beading, paint) even though they can look marginally better. `single-account`, region level 2 only — kept as an independent-channel corroboration, not blended with the Zemstandart figures above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
+
 ## Exception: Bay/Oriel (Эркерное) Windows — Plastered Is the Correct Choice Here (added 2026-08-19)
 
 > [!NOTE]

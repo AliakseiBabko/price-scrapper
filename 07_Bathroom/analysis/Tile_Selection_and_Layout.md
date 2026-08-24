@@ -8,6 +8,13 @@ Archive-only size claims lack a confirmed channel; named extraction-note blocks 
 
 A useful reference vocabulary: classic 20–60 cm; "narrow"/plank tile (short:long ratio ≥1:3, wood-look); "medium large-format" 80–140 cm; "large-format" 150–240 cm; "very large format" >240 cm; small-format mosaic/"кабанчик" (subway-style), on mesh sheets or loose.
 
+## Skip Trim/Border Strips ("Фризы"/Бордюры) for Budget Work (RemProektMD, added 2026-08-24)
+
+> [!NOTE]
+> Chișinău/Moldova channel, region level 2 only. `single-account`, no absolute prices for this specific claim. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
+
+RemProektMD/Andrei recommends **skipping decorative tile trim/border strips** ("фризы," "бордюры," typically run in a single or double row around the room perimeter) for budget bathroom work: unlike field tile (priced per m²), these are priced **per piece or per linear meter**, and their installation labor is also billed per linear meter/piece rather than folded into the general tiling rate — both add real, avoidable cost. Also notes a general stylistic trend away from border strips toward a solid-color, full-field tile look, though this specific observation is opinion, not a checkable fact.
+
 ## Why Tile Falls Off — Substrate, Adhesive, Joints, and Cure Timing (added 2026-08-24, Round 4)
 
 Konstantin Kruglov / Ontario, a dense, non-promotional "7 rules" technical video framed around why tile fails/detaches. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MOYwhSd8tv4_kruglov_tiling_rules|YT_MOYwhSd8tv4]]]

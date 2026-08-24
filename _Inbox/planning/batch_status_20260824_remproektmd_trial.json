@@ -1,0 +1,19 @@
+{
+  "channel": "RemProektMD",
+  "batch_label": "remproektmd_trial_round1",
+  "created": "2026-08-24",
+  "completed": "2026-08-24",
+  "status": "complete",
+  "total_fact_yield": 35,
+  "yield_per_video": 7.0,
+  "rate_limit_encountered": false,
+  "mdl_encountered": false,
+  "eur_encountered_video": "zBF3iPJfbaw",
+  "videos": {
+    "zBF3iPJfbaw": {"title": "Цена ремонта за 1 м2. Сколько стоит ремонт квартиры под ключ. Стоимость ремонта в 2023 году.", "status": "archived", "fact_yield": 9, "upload_date": "2020-10-20", "currency_found": "EUR (not MDL)", "region_level": 2},
+    "OP8ALhLynHE": {"title": "How to save money on apartment renovation? We will give you 12 tips on how to do it!", "status": "archived", "fact_yield": 12, "upload_date": "2020-09-24", "currency_found": "none (no prices)", "region_level": 2, "note": "English title, Russian audio confirmed"},
+    "OcqynathaX8": {"title": "5 фраз и признаков обмана строителями", "status": "archived", "fact_yield": 5, "upload_date": "2020-07-12", "currency_found": "none (no prices)", "region_level": 2},
+    "2fLCiWU6U-I": {"title": "Why replace pipes in a new building? Polypropylene or Rehau pipes?", "status": "archived", "fact_yield": 6, "upload_date": "2020-04-24", "currency_found": "none (no prices)", "region_level": 2, "note": "first cross-channel corroboration of polypropylene joint-narrowing defect"},
+    "Oxv_w9zejsA": {"title": "Technical design of an apartment. How to order technical design? What is included in technical design?", "status": "archived", "fact_yield": 3, "upload_date": "2020-10-25", "currency_found": "none (no prices)", "region_level": 2, "note": "confirmed near-duplicate script of video 2 tip 12"}
+  }
+}

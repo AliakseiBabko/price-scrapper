@@ -238,6 +238,15 @@ this episode). First wallpaper/paint acceptance-QC content on this page
   splatter is very hard to remove once dried.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VcrYHkDgb0o_petrishin_kill_walls_spotcheck|VcrYHkDgb0o]]]
 
+## Wallpaper vs. Paint — Prep-Cost Mechanism and DIY Removal Tip (RemProektMD, added 2026-08-24)
+
+> [!NOTE]
+> Chișinău/Moldova channel, region level 2 only. `single-account`, no absolute price figures. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
+
+RemProektMD/Andrei explains **why wallpaper is cheaper than paint for the same wall**, not just an assertion: paint-ready walls need plastering-by-guide-rail, one putty pass, a fiberglass anti-crack mesh ("паутинка"), a second putty pass, then 2+ paint coats — a long, materials- and labor-heavy sequence. Dense wallpaper tolerates a barely-prepped or even bare concrete wall with far less prep work. **Secondary tip**: choose plain (no-pattern) wallpaper over patterned — pattern-matching between adjacent strips increases material waste per room, so a patterned roll yields fewer usable strips than a plain roll of the same size.
+
+**DIY wallpaper-removal technique for well-adhered, especially non-woven-backed, wallpaper**: puncture the surface with a spiked/perforating roller ("игольчатый валик"), then wet it with water so moisture penetrates through the perforations and loosens the adhesive bond — presented as a real cost-saving task a non-specialist homeowner can do themselves ahead of a contractor's start date.
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |
@@ -251,6 +260,7 @@ this episode). First wallpaper/paint acceptance-QC content on this page
 | Apply betokontakt or a scrubbed adhesive tile-glue layer over smooth monolithic concrete before plastering | Monolithic Concrete Walls | Prevents heavy plaster coats from debonding and cracking off smooth concrete substrate | `_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e.txt` |
 | Document per-wall labeled areas, not a lump total, per Zemskov/Zemstandart | Gas-concrete-block walls | A lump total only supports a plastering calc; per-wall areas support block/adhesive quantity by thickness | `_Archive/processed_sources/20260810_gas_block_wall_material_calculation_2e558d93.txt` |
 | Use specialized mineral or polyurethane block adhesive, not tile adhesive or cement-sand mix, per Zemskov/Zemstandart | Gas-concrete-block walls (beyond the first course) | Tile adhesive is a real ~50% overpay; cement-sand mix uses ~5x the material and is slow/weak | `_Archive/processed_sources/20260810_block_adhesive_destructive_comparison_18922877.txt` |
+| Choose plain (no-pattern) wallpaper over patterned for lower material waste, per RemProektMD | All Rooms | Pattern-matching between strips uses more material per room than a plain roll of the same size | [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips\|OP8ALhLynHE]] |
 
 ## Don'ts
 
@@ -288,6 +298,7 @@ this episode). First wallpaper/paint acceptance-QC content on this page
 - **"Maximum Disaster From the Designer" — 150mm partition figure (3rd corroboration), entrance-door max-width, grille-tolerance figure** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HLiLNZpVWpg_max_disaster_258|extraction note]] (#258, 2023-12-12).
 - **"Total Disaster From the Developer on 92 Square Meters" — 150mm partition figure (4th/5th corroboration), corridor-width distinction, niche-access-side rule** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_59uS6AAxmB4_developer_disaster_92m2_255|extraction note]] (#255, 2023-12-03).
 - **"Designer Disaster for 15 Million" — color-temperature-mismatch-at-transition finding, modular curtain-rod technique** (same channel, Category 5 further-pool batch chunk 4, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lagL0yz7J28_designer_disaster_15m_250|extraction note]] (#250, 2023-11-12).
+- **RemProektMD "12 money-saving tips" — wallpaper-vs-paint prep-cost mechanism, plain-vs-patterned wallpaper waste, DIY wallpaper-removal technique** (RemProektMD/Andrei, Chișinău/Moldova channel, region level 2 only, added 2026-08-24) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|extraction note]] (2020-09-24).
 - **"335K Down the Drain, Thanks to the Designer" — whole-apartment task-location-check technique, kitchen-living passage width** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DaN3r4wgpc_335k_thanks_designer_248|extraction note]] (#248, 2023-10-31).
 - **"Designer Disaster for 7.5 Million" — coat-hook-height rule, over-zoning-flooring-materials caution** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pjqvWz_5c9Q_designer_disaster_7.5m_247|extraction note]] (#247, 2023-10-29).
 - **"Total Disaster for 540K, Thanks to the Designer" — truncated-closet technique, split-loggia technique, 150mm partition (6th corroboration)** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_M4dxo-6kcDs_540k_thanks_designer_242|extraction note]] (#242, 2023-10-10).
