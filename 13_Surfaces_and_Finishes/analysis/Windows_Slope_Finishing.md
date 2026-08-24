@@ -115,3 +115,20 @@ wider than the other) only becomes visibly obvious once the windowsill
 goes in, so verify it while the frame is still being leveled.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]
+
+## Reveal Micro-Cracks at the Frame Junction, and White-vs-Wall-Color Reveal Choice (Петришин-Строй, added 2026-08-24, Round 5)
+
+A real defect found on a secondary-housing cosmetic-renovation object:
+micro-cracks at the junction between a window reveal ("откос") and the
+plastic frame, only noticed after curtains were removed. **Remediation
+sequence stated**: open up the crack, fill, let fully dry, sand, possibly
+re-fill, then paint — flagged explicitly as a real time cost, not just a
+material one. **Separately, a real design-preference discussion (not a
+settled technical rule)**: this practitioner's historical pitch to
+clients was that a white-painted reveal makes a window look larger; he
+notes what he describes as a roughly 8-year Moscow-market trend toward
+reveals painted to match the wall/paint color instead, and the on-camera
+crew (including the project's designer) debate the tradeoff without
+settling on one universal answer — treat as a stylistic choice with no
+technical durability difference stated either way. `single-account`.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]

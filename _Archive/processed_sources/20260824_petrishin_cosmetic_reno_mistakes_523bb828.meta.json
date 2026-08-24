@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=s27qG_Eg3SY",
+  "video_id": "s27qG_Eg3SY",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T17:38:10.299068+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "523bb8282626b7df0e1487d2f2a3407746dc5bec09d44cdc329ef15ef82c9cbf",
+  "attempts_before_success": []
+}

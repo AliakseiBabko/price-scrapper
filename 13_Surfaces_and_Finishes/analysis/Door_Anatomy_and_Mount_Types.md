@@ -51,3 +51,22 @@ The most expensive, most demanding, and most contested mount type — see [[13_S
 ## Door Casing/Baseboard Consistency & Threshold Installation (added 2026-08-19, remainder-pool Round 2)
 
 **⚠️ Door casings (наличники) and baseboards should be the same color and, ideally, the same manufacturer/material** — reading as one continuous trim element running through a space, not two visually distinct product lines. **Never try to paint a door to match an adjacent wood-textured surface's exact color** — the colors will never truly match under real lighting; use a deliberately contrasting color for a painted door near wood-textured elements instead. **⚠️ Flooring-to-door-frame transition rule**: flooring should meet the door frame directly, with only a small gap filled by color-matched sealant — never a separate visible threshold strip, especially not one with exposed fasteners, a mismatched color, or an angular/asymmetric shape (a real documented failure case combined all three). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MWDcYHqe-iQ_designer_apartment_walkthrough_288|YT_MWDcYHqe-iQ]]]
+
+## Door-Frame Foam-Gap Sizing Rule, and a Related Demolition Risk (Петришин-Строй, added 2026-08-24, Round 5)
+
+A real defect found on a secondary-housing ("вторичка") cosmetic-renovation
+object: an existing door frame's polyurethane foam installation gap
+measured 7-8cm, well beyond the correct spec. **Rule stated**: the foam
+gap around a door frame should be **1-1.5cm max**, and the rough door
+*opening* itself should be only **8-10cm larger than the door leaf**
+(e.g. a 60cm-wide leaf needs roughly a 68-70cm opening) — a much larger
+gap lets the frame flex and the door leaf loosen/rattle over time from
+drafts and normal use. Correcting an oversized opening means narrowing it
+with drywall, local plastering/filling, and repainting, and risks the new
+door casing not fully covering the narrowed opening. **Separately,
+demolishing a screwed-in door frame is itself a common source of
+collateral plaster damage**: vibration from breaking out an old frame
+often cracks/detaches surrounding plaster, especially in Stalin-era and
+Khrushchev-era buildings — worth tap-testing plaster around every door
+frame before signing a smeta, to catch this cost before it's a surprise.
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]

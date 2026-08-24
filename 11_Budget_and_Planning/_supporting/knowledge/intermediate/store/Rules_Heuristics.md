@@ -86,6 +86,106 @@
 - Bound mid-process change requests to an explicit, narrow window (e.g. "one more outlet, not a redesign") rather than leaving revision scope open-ended at a review checkpoint. [source: web_zemspro_about_development]
 - Route quality-control review through more than one role/person per major stage (not just the person who did the work) before a deliverable reaches the client. [source: web_zemspro_about_development]
 
+### Quality Cosmetic Renovation Technique (new topic area, added 2026-08-24 — Petrishin-Stroi Round 5, `izhaUHRKViw`)
+
+- This company only accepts cosmetic-scope jobs on units that already had
+  a genuinely good capital renovation with a modern base, explicitly
+  declining Soviet-era units with old-style capital work — corroborates
+  and extends this channel's own principle from `s27qG_Eg3SY` (a
+  cosmetic-only renovation on a unit that never had a capital one carries
+  real hidden-systems risk) with an active company policy, not just a
+  caution.
+- Before any cosmetic-scope demolition/sanding/filling, fully declutter
+  the space, then wrap all remaining furniture and cover floors/doors in
+  plastic sheeting/bubble wrap — even careful work produces microscopic
+  airborne dust that a wood floor absorbs permanently into its gaps if
+  left unprotected, ruining nearby furniture.
+- When painting a ceiling, fully remove (or disconnect and lower, wrapped
+  in cellophane) any light fixture rather than taping around it — taping
+  is slow per fixture and still risks a visible unpainted halo once
+  removed.
+- To paint a wall without disturbing wiring, remove only the outlet/
+  switch faceplate, tape over the exposed mechanism, paint, then
+  reinstall the clean faceplate.
+- **"Cosmetic" renovation means point-repair, not blanket recoating**:
+  locate and repair specific damaged spots (chipped/scratched corners,
+  dents, furniture-contact marks) via fill → sand → true the edge →
+  prime → paint, room by room, spot by spot — not just rolling new paint
+  over old paint.
+- Even when an old baseboard, sun-faded/cracked windowsill, or worn/loose
+  door could theoretically be kept in a budget-limited cosmetic job,
+  replacing them is a cheap operation with a disproportionately large
+  visual payoff — leaving them creates an "ugly contrast" against freshly
+  redone walls that undercuts the whole job's value.
+- A renovation is not complete without a professional cleaning pass
+  afterward, even on the cleanest-run job — it removes microscopic
+  construction dust that settles everywhere and can't be reached by a
+  normal cleanup.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
+
+### Secondary-Housing ("Вторичка") Renovation-Estimate Risk Checklist (new topic area, added 2026-08-24 — Petrishin-Stroi Round 5, `s27qG_Eg3SY`)
+
+Real hidden-defect discoveries from an on-site cosmetic-renovation object
+plus a general secondary-housing capital-renovation risk list from the
+same source. `single-account`.
+
+- Hidden developer protective film behind curtains, coated in
+  accumulated dirt/paint, can cost real unplanned labor hours to remove
+  (a real example: ~4-5 hours across 3 windows in one room) — worth
+  checking behind curtains before finalizing a window-cleaning estimate.
+- Removing an old, thicker baseboard can reveal a wall-floor gap the new,
+  thinner baseboard profile (MDF/polyurethane) won't cover — an
+  invisible sizing mismatch until the old baseboard is actually removed.
+- Deep, hidden picture-hook holes (found once wall art is removed) can
+  need multiple fill-dry-sand cycles depending on depth — genuinely
+  time-consuming even on a small wall area, and painting can't proceed
+  until every layer has fully dried and been sanded.
+- **Tile-adhesion tap-test before deciding not to replace existing
+  tile**: tile that looks fine visually can still be detached from its
+  substrate — tap-testing reveals a hollow sound where adhesion has
+  failed, versus a solid sound where it hasn't. This source's own
+  practice: bring a rotary hammer/hammer drill to the estimate visit
+  specifically to test-drill suspect areas, to avoid a bad surprise for
+  the client later.
+- **Mixed aluminum-copper wiring risk from a prior partial electrical
+  renovation**: when only some rooms in a unit previously had wiring
+  replaced, undiscovered aluminum-to-copper splices can exist behind
+  walls elsewhere; demolishing/disturbing a supposedly untouched circuit
+  risks losing power to that room mid-project. **Key principle**: a
+  renovation can only genuinely be called "cosmetic only" if a full
+  capital renovation (electrical, plumbing, heating) was already done at
+  least once in that unit's history — a cosmetic-only renovation on a
+  unit that never had one carries real hidden-systems risk.
+- **Corroded mixer/faucet wall connection point ("водорозетка") failure
+  mode**: an old, corroded/seized connection point can itself break when
+  removing an old mixer/faucet, especially with no isolation
+  valve/cover plate present — remediation can require removing tile and
+  re-piping (a full resolder if the line is polypropylene) — a
+  genuinely large, easy-to-underestimate cost/scope item.
+- **Furniture-packing/moving deserves its own explicit smeta line item**:
+  clients commonly underestimate what furniture will actually remain
+  during a renovation (initially say "nothing stays," then a couch,
+  wardrobe, and chairs turn out to still be present) — define and price
+  a furniture-packing-and-moving line explicitly with the client and
+  estimator upfront, to avoid a later conflict over unplanned labor.
+- **Door-frame demolition plaster-crack risk**: removing screwed-in door
+  frames often causes surrounding plaster to crack/detach from vibration
+  — especially in Stalin-era and Khrushchev-era buildings — potentially
+  forcing a full re-plaster the original estimate never accounted for.
+  Tap-test plaster around door frames yourself before signing a smeta.
+
+### Designer/Foreman Coordination & QC on Complex Custom Builds (new topic area, added 2026-08-24 — Petrishin-Stroi Round 5, `w6_e7nySEXI`)
+
+- A messy/disorganized job site is a reliable red flag for a messy process elsewhere on the same job (skipped steps, technology violations) — check site cleanliness as a first-pass signal on any visit. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|YT_w6_e7nySEXI]]]
+- For a complex backlit two-tier drywall ceiling, confirm up front with the foreman whether corners will be milled ("фрезеровка," sharper/flatter, costlier) or classic butt-jointed-and-taped — this affects cost, timeline, and durability, and matters more than usual when a lit reveal will visually magnify any corner imperfection. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|YT_w6_e7nySEXI]]]
+- Any custom drywall/niche geometry (a decorative trim/baseboard piece sized to a niche, an inset shelf, etc.) needs a fully dimensioned drawing from the designer, not a verbal description — a real defect on this object (a niche gypsum trim piece that didn't fit) traced directly to skipping this. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|YT_w6_e7nySEXI]]]
+- Ask a designer directly how a proposed material/finish is cleaned, whether it collects dust, and how durable it is before accepting it — rank practicality first, durability second, aesthetics third; if a designer can't answer a practicality question about their own choice, treat that as a reason to find a different designer. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|YT_w6_e7nySEXI]]]
+- Before dependent trades proceed off an original material spec (e.g. a tile border sized to a specified glass-block thickness), re-verify the actual delivered material's dimensions against spec — a real 1cm delivery deviation (5cm specified glass block arriving at 4cm) produced a visible asymmetric podium because the tiler had already worked to the original spec. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|YT_w6_e7nySEXI]]]
+- LED-strip transformers/drivers for multi-tier lit ceiling niches need a planned, accessible, ventilated storage location decided at design time — they generate heat and can fail if enclosed without air circulation; don't let a decorative storage feature get planned into the same spot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|YT_w6_e7nySEXI]]]
+- Actively coordinate/review the work of independent sub-trades (HVAC/AC installers, furniture makers, interior/entry door installers, window installers) against the design plan — per this source, these trades typically default to their own internal templates and don't reliably cross-reference the project unprompted; either the client or a genuinely engaged foreman must check their placement/routing decisions before installation, not after. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|YT_w6_e7nySEXI]]]
+- Never let built-in furniture (e.g. a mezzanine/антресоль cabinet) cover a building system's access hatch (e.g. HVAC/ventilation) — verify hatch clearance against furniture placement at design time, since discovering the conflict after installation means disassembling the furniture just to reach routine service points. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|YT_w6_e7nySEXI]]]
+
 ### Furniture / Built-ins: Wardrobe & Closet Design (new topic area, added 2026-08-10)
 
 - Default to a plain wardrobe over a single-sided walk-in closet unless the room is genuinely large enough (≥5m long at typical width) to lose nothing else by adding one — two back-to-back wardrobes sharing a thin dividing wall between adjoining rooms is usually a better use of the same footprint. [source: yt_RyHzFDGgqKA, yt_Xh7uwbKVmfA]

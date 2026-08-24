@@ -350,6 +350,23 @@ city named). Low promotional ratio.
   single technical tell.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d8WzpxSSX8k_petrishin_walls_for_paint|d8WzpxSSX8k]]]
 
+## "Жираф" Pre-Filler Grinding Pass, and a Settlement-Crack Mechanism for Stekloholst (Петришин-Строй, added 2026-08-24, Round 5)
+
+Same channel as the wall-prep sequence above — two further items,
+distinct enough not to fold into that sequence directly:
+
+- **Grind plaster with a light-equipped extension-pole sander ("жираф")
+  before applying filler**: this removes bumps and low spots first;
+  skipping it means the filler layer just telegraphs every existing
+  surface irregularity, making later correction much harder.
+- **Stekloholst's crack-hiding mechanism, extending this store's existing
+  cross-channel technique (RemProektMD)** with an explicit reason: a
+  building continues normal micro-settlement after construction, and
+  hairline cracks will eventually appear in a paint-only wall finish
+  without stekloholst bridging/hiding them. A crew skipping it can
+  underbid by roughly 30% — at the cost of this crack protection.
+  `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
+
 ## Wallpaper vs. Paint — Prep-Cost Mechanism and DIY Removal Tip (RemProektMD, added 2026-08-24)
 
 > [!NOTE]

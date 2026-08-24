@@ -107,6 +107,36 @@ general comparison.
   settlement damage since there's no finish layer to damage.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lvixGbwo0Ug_petrishin_ceiling_2026_comparison|lvixGbwo0Ug]]]
 
+## Old Whitewash vs. Paint Ceilings, and a Physical Cornice-Crack Check (Петришин-Строй, added 2026-08-24, Round 5)
+
+- **Whitewash ("побелка") vs. paint — a diagnostic distinction for very
+  old (Stalin/Khrushchev-era) ceilings**: chalk-based whitewash cannot
+  simply be painted over the way an already-painted ceiling sometimes
+  can — it must be fully washed off first, and the old filler layer
+  beneath it often needs removing too. Relevant when assessing whether a
+  ceiling can be "just recoated" versus needs full rework at estimate
+  time.
+- **Ceiling molding/cornice cracks can be missed by a visual walkthrough
+  alone** — a real example: an already-cracked polystyrene cornice was
+  only found by climbing a ladder and testing it by touch/sound, not by
+  looking from the floor. Can mean re-installing cornice throughout the
+  whole apartment — an easy-to-miss cost driver at estimate time.
+  `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
+
+## Drywall Screw-Depth Control and Paper-vs-Mesh Joint Tape (Петришин-Строй, added 2026-08-24, Round 5)
+
+- **Screw-depth control**: a drywall screw head should sit slightly
+  recessed but must not tear through the paper facing — a torn-paper
+  screw hole isn't visible from outside but holds the board poorly and
+  risks a crack or the board detaching later. Check drywall ceilings up
+  close (from a stepladder) for intact paper at every screw, not just
+  from the floor.
+- **Seam taping — a stated practitioner preference, not independently
+  cross-checked**: this source states paper joint tape works properly
+  for drywall seams, while mesh tape does not, and recommends insisting
+  on paper tape if a crew proposes mesh. `single-account`, this
+  practitioner's own technology preference. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |

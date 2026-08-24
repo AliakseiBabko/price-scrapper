@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=w6_e7nySEXI",
+  "video_id": "w6_e7nySEXI",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T17:28:57.628577+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "831dca7c0ed9ae7287cf586b3a881809dd1685eb5d19d9e3a8a3c6970e293d64",
+  "attempts_before_success": []
+}

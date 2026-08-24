@@ -21,6 +21,29 @@ A layout/fixture/storage decision should be driven by how *this specific househo
 
 All items: `confirmed` as the source's own stated framing/decisions, single-account (one designer's five case walkthroughs).
 
+## Petrishin-Stroi (design lead "Клара") — Routine-Walkthrough Technique (added 2026-08-24)
+
+- **Mentally walk through each planned room simulating actual daily
+  actions before finalizing socket/outlet placement** — worked example:
+  where does a toothbrush charge, where does an electric razor plug in —
+  place outlets by real use scenario rather than a generic default
+  layout. Framed as something a self-managed planner can do without a
+  designer, though the source notes it's easier with professional help.
+- **Bedroom lighting should be planned around the household's actual
+  morning/evening routine, not a default fixture list**: a bright
+  overhead fixture for waking, indirect cornice/backlighting for evening
+  relaxation, a bedside sconce for reading, plus a dimmed low-level
+  option — decide the fixture set by what light task is needed at each
+  time of day.
+- **A child's-room wall mural should target relevance up to roughly age
+  10, not the child's current toddler age** (worked example: a
+  tropical/bird-theme mural framed as broadly age-appropriate); for an
+  older child/teen, choose the mural together with them. A
+  molding-bordered mural can be swapped for a new one later without
+  redoing the room.
+
+`single-account`, this practitioner's stated method. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xnSNEqqs]]]
+
 ## Open Questions
 
 - No source yet generalizes these examples into a reusable decision framework (a checklist of "which household variables to ask about before defaulting a layout choice") — each example above is a specific worked case, not yet a synthesized method.

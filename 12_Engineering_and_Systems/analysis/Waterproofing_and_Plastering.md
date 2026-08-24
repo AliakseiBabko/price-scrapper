@@ -428,6 +428,59 @@ Region level 2 (channel-only Moscow association, no city named).
   labor a thicker-than-normal layer required.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_r1eyXzXNdI0_petrishin_plastering_quality_checklist|r1eyXzXNdI0]]]
 
+## Minimum Temperature, Vapor-Barrier Junctions, Ventilation, and Forced-Drying Failure (Петришин-Строй, added 2026-08-24, Round 5)
+
+Same channel as the plastering sources above — checked explicitly against
+both prior Petrishin-Stroi plastering videos (`D1REgSDwILU`, `r1eyXzXNdI0`);
+several items in this source (priming importance, beacon rust-bleed,
+straightedge gap check, mesh mid-depth placement) are same-channel
+restatement and not re-counted. Region level 2.
+
+- **Minimum plastering temperature: above +5°C** — plaster should not be
+  applied at or below this threshold, most relevant in an unheated
+  building mid-renovation.
+- **Vapor-barrier-to-wall junction technique**: where a roof's vapor
+  barrier membrane extends down onto a wall, plastering directly over the
+  membrane fails — the membrane surface is too smooth for plaster to key
+  into. The membrane's job is blocking warm, humid indoor air from
+  reaching the attic in winter (a failure here causes roof icing/icicles);
+  any gap at the membrane-to-wall junction lets that air escape and
+  condense. **Fix**: trim the membrane back ~2cm from the wall and bridge
+  the gap with a two-sided tape (one rough face for the plaster to key
+  into, one highly-adhesive face for the wall/membrane). Nominally the
+  roofer's responsibility, not the plasterer's, but worth verifying before
+  plastering proceeds.
+- **Ventilation protocol**: no drafts during plastering (install/seal
+  windows even if protected from splatter during the work), but ventilate
+  well afterward (crack windows, or use industrial moisture-absorber
+  units) — otherwise mold/fungus are described as inevitable.
+- **Localized electric-heater forced-drying is a real, documented failure
+  mode**: a real case where a thick plaster layer was force-dried with an
+  electric heat gun under deadline pressure dried only the surface,
+  trapping moisture inside; wallpaper hung over it developed mold ~6-7
+  weeks later, requiring a full redo. Never force-dry a thick plaster
+  layer with a localized electric heater.
+- **Real wall-geometry defect example**: a laser line read flush with
+  beacon thickness (~6mm) at the top of a wall but showed a 6cm gap at the
+  bottom of the same corner — a genuine out-of-square wall inherited from
+  the wall-construction stage, requiring a thick corrective plaster layer.
+  Correct 90° geometry is treated as essential in bathrooms, hallways, and
+  kitchens specifically (fixture/countertop/cabinet fit), ideally
+  throughout the apartment — otherwise flooring gets an ugly tapered
+  wedge line and cabinetmakers must custom-trim furniture to a crooked
+  wall. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mb-2ll0UtTo_petrishin_plastering_mistakes|mb-2ll0UtTo]]]
+
+## Proactive Wall-Geometry Pre-Check at the Wall-Building Stage (Петришин-Строй, added 2026-08-24, Round 5)
+
+Distinct from this page's already-captured *reactive* discovery of an
+out-of-square wall found after plastering (Round 5, `mb-2ll0UtTo`): before
+building new partition walls, check the existing developer geometry and
+deliberately adjust the first course of new wall material to compensate
+for known deviation — reduces how much plaster thickness (and therefore
+cost and dry time) will be needed later, versus building walls with no
+reference to existing geometry and letting plastering absorb the full
+correction. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8QBqwydVND8_petrishin_2026_all_stages|YT_8QBqwydVND8]]]
+
 ## Rough-Stage Acceptance Checklist Items
 
 - **A dry-trap siphon at the water-inlet node is worth including even on the most basic build** — lets filter-flush water drain automatically instead of needing a bucket; without one, infrequent manual flushing plus standing water in a regular siphon causes sewer odor. **Dishwashers get the same treatment**: a dry-trap siphon under a dishwasher prevents sewer-gas odor the same way — framed as standard practice most homeowners don't know to ask for. `single-account`. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]

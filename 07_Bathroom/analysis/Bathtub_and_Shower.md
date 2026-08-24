@@ -154,6 +154,34 @@ A concrete problem worth planning for explicitly: fixed elements (a load-bearing
 
 **⚠️ Install the bathtub first, flush against three walls, then tile *over* the tub's own edge/rim** — never tile the walls first and push the tub up against an already-finished tile perimeter, which forces an ugly trim/edge detail around the tub that doesn't even prevent water intrusion any better. Stated definitively as the correct order of operations, extending this page's existing tile-over-tub-apron technique with an explicit sequencing rule. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nbrDFET2AXk_90_mistakes_part2_295|YT_nbrDFET2AXk]]]
 
+## Silicone-Joint Width, Acrylic-Tub Load-Testing, and Shower-Pan Material Spec (Петришин-Строй, added 2026-08-24, Round 5)
+
+Extends the sequencing rule above with two further mechanisms:
+
+- **After sealing the tub to the wall and tiling over it, finish with
+  only a thin (~2mm) silicone joint at the tub-tile line** — a thin joint
+  gives mold far less silicone surface area to grow on and blackens much
+  more slowly (per the source, weeks longer) than the common shortcut of
+  leaning tile against an unsealed tub with a fat silicone bead.
+- **⚠️ An acrylic tub must be load-tested before the seal is finished, not
+  just sealed and left as-installed**: after sealing the tub to the wall
+  but before finishing the tile-tub joint, load the tub to roughly its
+  real in-use weight (fill with water, or weight it with roughly 8 bags
+  of tile adhesive as a stand-in) — an unloaded acrylic tub can sag once
+  actually filled with water plus a person's weight later, breaking the
+  silicone seal at the tile line even if the original installation looked
+  perfect. Load first, finish the seal, then remove the load.
+- **Shower-pan/base structural spec, framed as this company's single
+  largest warranty/reclamation cost source**: build the pan from masonry
+  (brick/cement, monolithic), never framed from drywall or foam block,
+  with careful perimeter waterproofing (tape plus compatible materials).
+  A prefabricated cast shower-pan unit with a built-in siphon opening is
+  offered as a lower-risk alternative, paired with proper perimeter
+  sealing, to reduce flood risk to the unit below. Verify by visiting
+  during the pan-construction stage or requesting photo/video
+  documentation of the waterproofing layers. `single-account`. [source:
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
+
 ## Combined Wall-Thickening Technique: Tub Ledge Removal + Mixer Reach (added 2026-08-19, remainder-pool Round 2)
 
 **⚠️ Thickening a wall by ~10cm to shift a bathtub's outer edge forward can solve two unrelated problems at once**: it eliminates an awkward horizontal ledge/shelf next to the tub (a hard-to-clean, bacteria-collecting surface that otherwise forms when the tub sits recessed from the wall face) *and* it makes a wall-mounted mixer noticeably easier to reach from within the tub. A single ~10cm wall adjustment addressing both issues together. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MWDcYHqe-iQ_designer_apartment_walkthrough_288|YT_MWDcYHqe-iQ]]]

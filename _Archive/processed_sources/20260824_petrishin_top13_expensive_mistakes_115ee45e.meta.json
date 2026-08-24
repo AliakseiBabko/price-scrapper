@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=vKMHNYQYWAI",
+  "video_id": "vKMHNYQYWAI",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T17:41:41.715706+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "115ee45e097bc7fed06b72e7e162b371f4e0b87d9ef758e2fe9a0bdcdec67396",
+  "attempts_before_success": []
+}

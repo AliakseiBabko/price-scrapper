@@ -113,6 +113,41 @@ Direct continuation of the DIY screed build above (episode #18) — this covers 
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kXGYTsBTKj8_sidorik_self_leveling_floor_ep27|kXGYTsBTKj8_sidorik_self_leveling_floor_ep27]]]
 
+## Semi-Dry Mechanized Screed: a Real Conversion Story and Quality-Ingredient Checklist (Петришин-Строй, added 2026-08-24, Round 5)
+
+A real practitioner reversal, not a first-time endorsement: the source
+states he was originally skeptical of semi-dry mechanized screed after
+finding a developer-poured example that crumbled under a fingernail
+scratch on a real object — torn out and replaced with classic wet screed
+at the time. After later working with competent screed subcontractors, he
+now considers semi-dry mechanized screed the best speed/cost option,
+**provided it includes**: fiber additive ("фибра"), a perimeter
+deformation joint ("демфер"), correct cement grade and quantity, and
+correctly graded sand — framed as the difference between the crumbling
+example above and a durable result. `single-account`. [source:
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
+
+## Shumonet (Impact-Noise Underlayment) Material Description (Петришин-Строй, added 2026-08-24, Round 5)
+
+"Шумонет" is a rubberized-top, felt-backed underlayment laid under
+flooring specifically to reduce impact/structure-borne noise transmission
+to the unit below (dropped objects, footsteps — distinct from airborne
+noise); available in "гидро" (waterproof) and "комби" (combined)
+variants. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8QBqwydVND8_petrishin_2026_all_stages|YT_8QBqwydVND8]]]
+
+## Parquet-Gap Sealant as a Budget Alternative to Full Refinishing (Петришин-Строй, added 2026-08-24, Round 5)
+
+For an old parquet floor with gaps/squeaks but not genuinely worn-out
+finish: full refinishing (sanding + lacquer or oil recoat) costs
+**150,000-200,000 RUB minimum (≈$1,900-$2,500, trailing-six-month
+USD/RUB average 80.0023 ending 2026-02-08)** plus several days of dust
+and noise. A flexible, wood-tone-matched parquet gap sealant/caulk fills
+board gaps (stopping dust accumulation) without sanding the boards
+themselves, at a fraction of the cost — described as "80% of the result
+for 20% of the price" specifically for gap/squeak complaints, not a
+substitute for genuinely worn-out flooring finish. `single-account`.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
+
 ## Semi-Mechanized ("Полуручка") Screed, Cold-Weather/Access Constraints, and a Curing Routine (added 2026-08-24, Petrishin-Stroi trial)
 
 Петришин-Строй (Sergey Petrishin, Moscow-area turnkey company) — object

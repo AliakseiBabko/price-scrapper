@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=izhaUHRKViw",
+  "video_id": "izhaUHRKViw",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T17:45:22.823720+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ebf0eac37cdc2a73ef11a2d0057dd0f5743c5ca007d39b8264f23aeb92654a7c",
+  "attempts_before_success": []
+}

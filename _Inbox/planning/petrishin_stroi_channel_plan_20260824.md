@@ -561,15 +561,100 @@ channel's other recurring mistake-format clusters perform as well as the
 already-confirmed "Как убить X" and "СРАВНЕНИЕ!" formats, and a dedicated
 cosmetic-renovation ("косметический ремонт") technique video.
 
-| # | Video ID | Title | Why selected | Status |
-|---|---|---|---|---|
-| 1 | `w6_e7nySEXI` | Что скрывают дизайнеры? Самые частые ОШИБКИ В РЕМОНТЕ | СРЫВЫ СРОКОВ, задержки | Designer-mistakes/project-delay format | pending |
-| 2 | `LEsmpI8bWCY` | Сколько РЕАЛЬНО стоит ДИЗАЙНЕРСКИЙ ремонт в 2026 году?! | Fresh 2026 cost benchmark, extends year-over-year series | pending |
-| 3 | `8B2xnSNEqqs` | НИКОГДА ТАК НЕ ДЕЛАЙ! Глупые ошибки дизайн-проектов. | Design-project mistakes format | pending |
-| 4 | `mb-2ll0UtTo` | Главные ОШИБКИ штукатурки. НЕ ДЕЛАЙ ТАК! | Plastering-mistakes format, tests against existing dense plastering content | pending |
-| 5 | `s27qG_Eg3SY` | ТОП ОШИБОК косметического ремонта! НЕ ДЕЛАЙ ТАК! | Cosmetic-renovation mistakes | pending |
-| 6 | `vKMHNYQYWAI` | Топ 13 САМЫХ дорогих ОШИБОК ремонта квартиры. | Costly-mistakes format | pending |
-| 7 | `izhaUHRKViw` | Как сделать КАЧЕСТВЕННЫЙ косметический ремонт? Ловушки, технологии, результат | Cosmetic-renovation technique | pending |
-| 8 | `8QBqwydVND8` | Все этапы ремонта квартиры в 2026, пошагово. | All-stages 2026 walkthrough | pending |
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `w6_e7nySEXI` | Что скрывают дизайнеры? Самые частые ОШИБКИ В РЕМОНТЕ | СРЫВЫ СРОКОВ, задержки | Designer-mistakes/project-delay format | **FULL extraction** | 10 | Real ~100m² Moscow apartment, foreman/owner walkthrough. **Region: level 1** — apartment described directly as "one of the most complex apartments in Moscow." No cost/area figure. Dense designer/foreman-coordination checklist: site-cleanliness red flag, milled-vs-classic drywall corners, dimensioned-drawing requirement, practicality-over-aesthetics designer-vetting question, glass-block texture open question, material-delivery-vs-spec deviation defect, LED transformer ventilated-storage rule, uncoordinated HVAC sub-trade defect, sub-trade coordination rule, mezzanine-over-HVAC-hatch defect. Low promotional ratio. |
+| 2 | `LEsmpI8bWCY` | Сколько РЕАЛЬНО стоит ДИЗАЙНЕРСКИЙ ремонт в 2026 году?! | Fresh 2026 cost benchmark, extends year-over-year series | **FULL extraction, ⚠️ title/date discrepancy** | 8 | Despite the "2026" title, spoken content says "2025" twice and yt-dlp confirms upload date 2025-11-23 — **not** a fresh year-over-year data point; a market segment-tier structure instead (economy <30,000 RUB/m² ≈$370/m²; comfort 30,000-70,000 ≈$370-870/m²; premium 70,000+ ≈$870/m²+). Three named contractor-fraud schemes (lowball-bait-abandon, recalculation-clause area inflation, desperate-crew lowball-extort). Region level 2. Low promotional ratio. |
+| 3 | `8B2xnSNEqqs` | НИКОГДА ТАК НЕ ДЕЛАЙ! Глупые ошибки дизайн-проектов. | Design-project mistakes format | **FULL extraction, ⚠️ format spot-check finding** | 11 | Design lead "Клара" comment-response Q&A defending real criticized design choices — **not a mistakes list despite the title**, a distinct sub-format from this channel's other confirmed formats. Concealed-door baseboard rationale, baseboard material/miter comparison, mural age-targeting, windowsill-seat practicality, open-shelving critique, bedroom lighting-by-routine method, night-lighting reversibility ranking, plywood-cost claim disputed (unverified), routine-walkthrough outlet-placement technique, jacuzzi tradeoff. Region level 2. Low promotional ratio. |
+| 4 | `mb-2ll0UtTo` | Главные ОШИБКИ штукатурки. НЕ ДЕЛАЙ ТАК! | Plastering-mistakes format, tests against existing dense plastering content | **FULL extraction, explicitly cross-checked** | 5 | Cross-checked against `D1REgSDwILU` (Round 1) and `r1eyXzXNdI0` (Round 2) — several items same-channel restatement (priming, beacon rust-bleed, straightedge check, mesh mid-depth placement) correctly not double-counted. New: +5°C minimum plastering temperature, vapor-barrier-to-wall junction taping technique (first roofing-adjacent content), ventilation protocol, localized-heater forced-drying mold case, real wall-geometry defect example. Region level 2. Low promotional ratio. |
+| 5 | `s27qG_Eg3SY` | ТОП ОШИБОК косметического ремонта! НЕ ДЕЛАЙ ТАК! | Cosmetic-renovation mistakes | **FULL extraction, densest video this round** | 15 | Real on-site cosmetic-renovation walkthrough with real hidden-defect discoveries (developer film behind curtains costing 4-5 unplanned hours, baseboard-footprint mismatch, door-frame foam-gap defect, ceiling cornice crack, UV-degraded window hardware) plus a general secondary-housing ("вторичка") risk checklist (door-frame demolition plaster-crack risk, tile tap-test practice, mixed aluminum-copper wiring risk + cosmetic-vs-capital renovation principle, corroded mixer wall-connection failure mode, whitewash-vs-paint ceiling distinction, furniture-packing smeta line item) plus an open design-trend debate (white vs. wall-color window reveals, "8 years in Moscow"). Region level 2. Low promotional ratio. |
+| 6 | `vKMHNYQYWAI` | Топ 13 САМЫХ дорогих ОШИБОК ремонта квартиры. | Costly-mistakes format | **FULL extraction, heavy overlap correctly excluded** | 8 | Owner's own 13-mistakes checklist; heavy overlap with Round 2 QC content (raking-light, temp-outlet test, tile tap-test/SVP) correctly not double-counted. New/extended: semi-dry screed conversion story + ingredient checklist, "жираф" pre-filler grinding, stekloholst settlement-crack mechanism (cross-channel corroboration+extension), tub-tile 2mm silicone joint mechanism, acrylic-tub load-testing requirement, shower-pan masonry material spec (company's largest warranty-cost driver), electrical panel full-termination + breaker-label-at-payment rule, drywall screw-depth/paper-tape QC. Region level 2. Low promotional ratio. |
+| 7 | `izhaUHRKViw` | Как сделать КАЧЕСТВЕННЫЙ косметический ремонт? Ловушки, технологии, результат | Cosmetic-renovation technique | **FULL extraction** | 9 | Real cosmetic-renovation walkthrough; corroborates and extends video 5's cosmetic-only-if-capital-done principle with an active company policy framing. New: furniture/floor wrap-protection + wood-floor dust-absorption mechanism, ceiling-fixture full-removal vs tape-and-bag, faceplate-removal paint technique, point-repair redefinition of "cosmetic," low-cost-high-impact baseboard/windowsill/door swap heuristic, protective wall panel for chair-scuff zone, parquet-gap sealant budget alternative (150,000-200,000 RUB ≈$1,900-$2,500 min for full refinish), child-safety lockable window handles, mandatory post-renovation cleaning. Region level 2. Low promotional ratio. |
+| 8 | `8QBqwydVND8` | Все этапы ремонта квартиры в 2026, пошагово. | All-stages 2026 walkthrough | **FULL extraction, low yield — heavy restatement** | 4 | General rough-renovation sequence explainer, substantially restating already-captured content (design-project-first, plastering priming/mesh/ventilation, electrical temp-outlet safety, plumbing pressure test, screed-differential-height lifehack — now a 3rd+ restatement on this channel). New: two-tier company warranty terms (5yr engineering / 2yr general construction), electrical-plumbing stage-order flexibility, proactive wall-geometry pre-check at wall-building stage (distinct from video 4's reactive discovery), shumonet impact-noise underlayment description. Region level 2. Low promotional ratio. |
 
-Status: **pending dispatch**.
+**Status: COMPLETE — all 8 videos fully fetched and extracted, zero rate-limit issues.**
+
+**Round 5 yield**: 8 videos, 70 genuinely-new facts (10+8+11+5+15+8+9+4, excluding duplicate/corroborating-only outcomes), yield = 8.75 new facts/video — **79% of Round 4's 11.1 baseline** (within the >50%-drop stop-and-ask threshold, and well above the 1.0/video floor). No stop-and-ask trigger, though video 8's own yield (4) and video 4's own yield (5) were both individually the lowest of any video processed on this channel to date, driven by heavy same-channel restatement — flagged explicitly below, not a round-level concern yet.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 8 videos fetched serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV/archiving work between fetches, never an idle wait), consistent with Rounds 1-4's own clean results.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence varied video to video again, consistent with every prior round. 7 of 8 videos stayed at level 2 (channel-only Moscow association, no city/street named); 1 of 8 (video 1) cleared level 1 directly via the object itself being described as "one of the most complex apartments in Moscow" in the video's own spoken content. No video this round used a regulatory-body or street-name signature the way Round 3's video 3 or Round 1's video 5 did.
+
+### Language check
+
+All 8 videos had Russian titles and confirmed Russian spoken audio (`youtube-transcript-api` returned `language: ru` for every fetch) — no English-titled video was encountered this round.
+
+### Format spot-check findings — "designer/design-project mistakes" and "top N expensive mistakes" clusters, per this round's explicit brief
+
+- **Video 1 (`w6_e7nySEXI`, "designer mistakes/project delays")**: turned out to be a real, dense foreman/owner walkthrough of an actual complex Moscow apartment — genuinely substantive, consistent with this channel's other "mistakes"-titled formats already confirmed positive (Rounds 2-3).
+- **Video 3 (`8B2xnSNEqqs`, "НИКОГДА ТАК НЕ ДЕЛАЙ!")**: **the most interesting format finding this round** — despite the clickbait mistakes-format title, this video turned out to be a comment-response Q&A (design lead "Клара" defending real viewer criticism of past design choices), not a mistakes list at all. Still dense and substantive (fact_yield 11, above this round's own average), but a structurally distinct sub-format worth recognizing for future title-skims on this channel — a "mistakes" title can mean "defensive rationale for choices already made," not just "acceptance checklist" or "clickbait cold-open into real technique."
+- **Video 6 (`vKMHNYQYWAI`, "Top 13 most expensive mistakes")**: this format spot-check came back with the round's most heavily-overlapping content — roughly half its 13 named items restated content already captured from this channel's own Round 2 QC videos. Still cleared the 1.0 floor easily (fact_yield 8) once overlap was excluded, but this is the first "top N mistakes" video on this channel to show substantial same-channel restatement rather than being mostly novel.
+- **Video 8 (`8QBqwydVND8`, general all-stages 2026 walkthrough)**: **this round's lowest-yield video (4)** — a general step-by-step sequence explainer that restates a large fraction of this channel's already-established rough-renovation content (some points now restated a 3rd or 4th time across rounds). Worth flagging for future rounds: this channel's general "full sequence" or "all stages" explainer format appears to have a much lower marginal-yield ceiling than its named-technique, case-study, or comparison formats, once enough of the channel's other content has already been processed — not a reason to skip the format outright (it still contributes real new items, like this video's warranty-terms benchmark), but not to expect dense yield from it either.
+
+### Cross-check findings, per this round's explicit brief
+
+- **Video 2 (cost benchmark) vs. existing `Budgeting_Guide.md` benchmarks (2022, 2024, engineering-focus 2025)**: this video does **not** extend that year-over-year series despite its "2026" title — its own spoken content confirms "2025," and its content (market segment tiers) is structurally different from the single-real-object itemized totals in the existing series. Recorded explicitly as a separate market-tier benchmark, not blended with the real-object series.
+- **Video 4 (plastering mistakes) vs. this channel's own Round 1 (`D1REgSDwILU`) and Round 2 (`r1eyXzXNdI0`) plastering sources**: explicit cross-check performed as instructed. Several items were same-channel restatement (priming importance, beacon rust-bleed, straightedge gap check, and — newly confirmed this round — the material-transition mesh mid-depth-placement detail, now a 3rd-time restatement) and correctly not double-counted; genuinely new content (vapor-barrier junction technique, minimum temperature, ventilation protocol, forced-drying failure case, wall-geometry defect example) still cleared a modest fact_yield of 5.
+- **Video 6 vs. Round 2's QC videos, and video 8 vs. multiple prior rounds**: both showed the heaviest same-channel restatement seen on this channel to date — flagged as this channel's technique/QC content base is now large enough that a new video's marginal yield increasingly depends on whether it's a named-technique/case-study/comparison video (still yielding well, per videos 1, 3, 5, 7) versus a general "top N" or "all stages" recap video (videos 6, 8 — where restatement risk is highest).
+- **Video 5 vs. Video 7**: both are real cosmetic-renovation walkthroughs from this channel; video 7 explicitly corroborates and extends video 5's own "cosmetic renovation is only genuinely cosmetic if capital renovation was already done" principle with an active company-policy framing — recorded as corroboration-with-extension, not double-counted.
+
+## Progress Log
+
+- 2026-08-24 — **Round 5 complete.** All 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/CSV/archiving work), zero rate-limit issues across
+  the entire round. All 8 fully extracted. Yield 70 new facts / 8 videos
+  = 8.75 facts/video — 79% of Round 4's 11.1 baseline, well above the 1.0
+  floor and not a >50% drop — no stop-and-ask trigger, though videos 4
+  and 8 individually posted this channel's lowest-ever per-video yields
+  (5 and 4) due to heavy same-channel restatement, flagged explicitly for
+  future rounds. Region checked explicitly per video: 7 of 8 stayed at
+  level 2, 1 (video 1) cleared level 1 directly via the object itself
+  being called "one of the most complex apartments in Moscow." Language
+  checked — all 8 confirmed Russian audio, no English titles this round.
+  **Key format finding**: video 3's "mistakes"-format title actually
+  concealed a comment-response Q&A sub-format (design lead defending
+  past choices), distinct from this channel's other confirmed mistakes/
+  QC formats — still dense (fact_yield 11). Video 2's "2026" title was
+  found to be a discrepancy — spoken content and yt-dlp upload date both
+  confirm 2025 — recorded as a market segment-tier benchmark, explicitly
+  not blended into the existing year-over-year real-object benchmark
+  series. Explicit cross-checks performed: video 4 against Rounds 1-2's
+  plastering sources (heavy restatement correctly excluded, yield 5);
+  video 6 against Round 2's QC videos (heaviest overlap yet on a "top N"
+  video, yield 8 after exclusion); video 7 against video 5's own
+  cosmetic-vs-capital-renovation principle (corroboration-with-extension,
+  not double-counted). Content routed to `11_Budget_and_Planning/Budgeting_Guide.md`
+  (market-tier benchmark, contractor-fraud schemes, designer-coordination
+  pointer, secondary-housing risk-checklist pointer, warranty-terms
+  benchmark), the general store's `Rules_Heuristics.md` (3 new topic
+  areas: Designer/Foreman Coordination & QC, Secondary-Housing
+  Renovation-Estimate Risk Checklist, Quality Cosmetic Renovation
+  Technique), `12_Engineering_and_Systems/analysis/Waterproofing_and_Plastering.md`
+  (2 new sections), `12_Engineering_and_Systems/analysis/Rough_Electrical_Sequencing.md`
+  (1 new section), `13_Surfaces_and_Finishes/Flooring_Guide.md` (3 new
+  sections), `13_Surfaces_and_Finishes/Walls_and_Paint.md` (1 new
+  section), `13_Surfaces_and_Finishes/Ceilings_Guide.md` (2 new
+  sections), `13_Surfaces_and_Finishes/analysis/Door_Anatomy_and_Mount_Types.md`,
+  `Windows_Slope_Finishing.md`, and `Windows_Acceptance_Checklist.md`
+  (1 new section each), `07_Bathroom/analysis/Bathtub_and_Shower.md` (1
+  new section), and `17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design.md`
+  and `Decor_and_Finish_Selection_Technique.md` (1 new section each).
+  All price figures normalized to USD via `tools/pricing/currency_converter.py`'s
+  trailing-6-month average anchored to each video's own confirmed publish
+  date. `tools/youtube/archive_transcripts.py` run (dry-run first, all 8
+  matched correctly) — 3 source notes' bottom `[source: ...]` inline
+  links needed a manual fix afterward since the archive script renamed
+  those 3 transcripts to a different slug than the note's own filename
+  (frontmatter `transcript_file:` was updated automatically by the
+  script; the bottom link was not, and was corrected by hand for videos
+  2, 3, and 7). All 8 new CSV rows independently re-verified via Python's
+  `csv` module to parse into the correct 15 columns each with `archived`
+  status — 2 rows initially broke due to an unquoted comma inside a
+  Russian title field (videos 1 and 7) and were fixed the same session.
+  `tools/verify_batch.py` to be run against the pre-round commit before
+  finishing.
