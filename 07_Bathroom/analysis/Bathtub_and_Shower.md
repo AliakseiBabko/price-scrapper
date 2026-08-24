@@ -226,3 +226,43 @@ Extends the sequencing rule above with two further mechanisms:
 **⚠️ Critique of a popular "fake freestanding" tub trend**: a tub styled/marketed as freestanding but actually pushed flush against a wall on one side (reading visually as a single gap on the far side) is functionally impossible to clean or service behind, unlike a genuinely semi-freestanding tub with real access from 3 sides. Noted as an Italian design trend now widely and more cheaply copied by Chinese manufacturers (material speculated as a resin/epoxy composite, not confirmed) — a real design-vs-maintainability tradeoff worth knowing before choosing this style for its looks alone. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_55zALDsXP2E_kruglov_pinterest_plumbing_review|55zALDsXP2E_kruglov_pinterest_plumbing_review]]]
 
 **⚠️ A real, unusual finished-bathroom design shown on a jobsite**: a tub-integrated water-supply-zone control system ("iBox"); a hand-held shower head stored in/pulled from the tub's own rim/ledge rather than a fixed wall mount; the tub fills through its own overflow opening rather than a separate spout/faucet (the presenter states this is a first-time observation for them, not a previously-familiar product); a tropical rain shower is also present in the same room. **Electric underfloor heating placed specifically under/near the tub to dry the shower hose after use** (the hose rests on the floor once tucked back into the rim) — framed explicitly as mold prevention, not just comfort. `single-account`, `unverified` (presenter's own stated unfamiliarity with the product). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
+
+## Masonry-Built Shower Base and Leak-Protection System (Петришин-Строй, added 2026-08-24, Round 11)
+
+Real object, "Новая Рига" (Novorizhskoye highway corridor, Moscow region
+— region level 1). 2017-vintage source. Low promotional ratio.
+
+- **Custom-built shower base ("подиум") construction**: foam-block
+  ("газосиликат") platform, floor filled with concrete, with a floor
+  drain ("трап") installed inside the platform before tiling — a full
+  masonry-plus-concrete shower-pan build rather than a factory pre-formed
+  pan.
+- **Client-driven flush-floor design decision**: at the client's request,
+  the hallway floor level was built to match the adjoining bathroom floor
+  level exactly, rather than the more typical stepped-down wet-room
+  floor.
+- **Leak-protection system, named product and component list**:
+  "Нептун" (Neptun) system with 2 electromechanical shutoff valves that
+  automatically close the water supply on a leak event, co-located with
+  a check valve, a fine-particle filter with backwash capability, a
+  water-pressure regulator, a second filter, a distribution manifold
+  box, an instantaneous water heater (named brand: Electrolux), and the
+  heating-system manifolds — a real named-product utility-cabinet
+  component list.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|YT_gREGOOA2OHo]]]
+
+## Bathtub Podium — a Distance-to-Drain Rationale, and a Site-Protection Practice (Петришин-Строй, added 2026-08-24, Round 11)
+
+Real object, город Видное (region level 1, full address named). Low
+promotional ratio.
+
+- **Podium rationale, a real distance-driven design reason**: the tub
+  sits on a raised podium specifically because its own drain sits an
+  unusually long distance from the sewage stack ("фановая труба") — the
+  podium's slope ensures water drains cleanly across that distance
+  rather than pooling. Finished in the same mosaic as an adjacent curved
+  wall on the same object.
+- **Site-protection practice**: the finished mosaic-clad podium was
+  covered with hardboard ("оргалит") to prevent scuffing/damage during
+  the remainder of the ongoing work.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]

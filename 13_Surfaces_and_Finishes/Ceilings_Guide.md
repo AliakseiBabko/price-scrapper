@@ -157,6 +157,18 @@ cornice/curtain-track recess built into the ceiling itself, avoiding a
 visible surface-mounted curtain rod — a decor/technique detail from a
 real 38 m² renovation. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 
+## Drywall-to-Stretch-Ceiling L-Joint Curtain Niche — a Distinct Two-Ceiling-Type Detail (Петришин-Строй, added 2026-08-24, Round 11)
+
+**Distinct from the one-piece stretch-ceiling curtain track above** —
+this combines two different ceiling types in the same room, not a
+single membrane. A drywall ceiling section (over black corrugated
+electrical conduit) sits at one height; the rest of the room gets a
+stretch ceiling set slightly lower, joined to the drywall section via an
+L-shaped/right-angle transition deliberately built to leave a recessed
+niche — curtains hang down from inside this niche rather than from a
+surface-mounted track or the stretch membrane's own hidden recess.
+Region level 1 (город Видное, full address named). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+
 ## Bathroom-Specific Ceiling Comparison: Slatted, Cassette, Glass/Mirror, Plastic, Stretch (Петришин-Строй + design blogger Ekaterina Popova, added 2026-08-24, Round 9)
 
 A dual-host Q&A (builder Sergey Petrishin + a named design blogger)

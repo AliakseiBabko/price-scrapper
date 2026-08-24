@@ -196,3 +196,26 @@ Pavel Sidorik, same project (Belarus level 1 — direct statement that fiber-opt
 - **Long conduit-and-cable pull technique**: for a large job, pull ~100m of conduit + cable together outdoors using the conduit's own built-in steel fish-tape wire; a building's own long shared corridor is a viable substitute for going outside.
 - **Network cable spec**: copper, FTP category 5e, shielded (EMI protection).
 - **⚠️ A genuine, mechanism-based floor-routed-cable safety FAQ, addressing recurring skeptical viewer comments**: (1) floor-routed cable-in-conduit under screed is ПУЭ-compliant, not a violation, and preferred wherever screed thickness allows; (2) three concrete advantages over ceiling routing — no concealed junction boxes (all connections sit in back-boxes, accessible by removing a plate, unlike a junction box sealed behind drywall/stretch ceiling), shorter cable runs, and a fully freed ceiling (no boxing/dropping needed); (3) a failed embedded cable is not retrieved — a new cable is run and the old one left in place, exactly as with wall- or ceiling-embedded cable, both of which also need demolition to access; (4) **cable meltdown is "practically impossible" given four layers of overcurrent protection in series** — RCBO + apartment main incomer breaker, a separate corridor/riser main breaker, and a building-service-entrance disconnect+fuses — leaving a **connection/junction point, not the cable run itself**, as the one genuinely vulnerable spot, which is exactly why floor-routed cable's back-box-accessible junctions are a real safety/maintainability advantage. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7QuzCGvDG_w_sidorik_electrical_ep8|7QuzCGvDG_w_sidorik_electrical_ep8]]]
+
+## Corrugated-Conduit Fire Behavior and a Self-Conducted Cable Burn Test (Петришин-Строй, added 2026-08-24, Round 11)
+
+2018-vintage source, region unresolved, low promotional ratio:
+
+- **Corrugated-conduit ("гофра") ignition risk clarified as low in
+  practice**: a short circuit could theoretically ignite the conduit,
+  but in practice the breaker trips first — actually igniting it needs a
+  sustained overload of roughly 5 minutes *without* any breaker tripping,
+  considered unlikely. Once genuinely burning, fire spreads faster
+  through the conduit than through open cable. Black gofra was said to
+  support combustion somewhat more than gray gofra, though the
+  practitioner's own view (`single-account`, not lab-tested) is that this
+  difference doesn't matter much once an apartment is already on fire.
+- **Self-conducted comparison burn test, standard cable vs. this page's
+  already-standard ВВГнг-LS spec**: the crew held an open flame to ~30cm
+  segments of both. Standard cable's insulation failed and slid off the
+  conductor after exposure; ВВГнг-LS kept its per-core insulation intact
+  and the cable remained apparently functional afterward — the practical,
+  hands-on reason (beyond this page's existing GOST-vs-TU buying rule)
+  the company moved to ВВГнг-LS specifically, not merely GOST-certified
+  cable in general.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VqrXg-tDRO8_petrishin_plastering_electrical_secrets|YT_VqrXg-tDRO8]]]

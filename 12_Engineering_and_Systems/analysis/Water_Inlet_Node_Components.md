@@ -135,3 +135,41 @@ this page's existing self-flushing-filter cadence) and check specifically
 for leaks at rubber-gasket/threaded-joint connection points on the
 manifold and cabinet, not only at the filters themselves. `region: level
 2 (channel-only Moscow association)`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_O_2Jji7NAHQ_petrishin_plumbing_cabinet_components|O_2Jji7NAHQ]]]
+
+## Ceiling-to-Corridor-Cabinet Water Rerouting, and Heating-Manifold Consolidation (Петришин-Строй, added 2026-08-24, Round 11)
+
+Real ~80m² new-build object, client Максим (likely the same evolving
+project as this round's video-4 running-cost source, per that note's own
+cross-reference). Region level 2. Low promotional ratio.
+
+- **Water-supply rerouting from ceiling to a corridor utility cabinet**:
+  hot/cold water originally routed under the apartment's ceiling was
+  demolished and re-fed instead from the developer's shared corridor
+  utility cabinet, tapping the existing heating-riser/water-supply
+  penetration at height and dropping down into the unit — a real
+  mid-project routing change, not the original plan.
+- **Pipe-material upgrade during the same rerouting**: the original
+  polypropylene pipes feeding the unit were removed and replaced with
+  cross-linked polyethylene ("сшитый полиэтилен," PEX-A) piping.
+- **Heating-manifold relocation and consolidation**: the heating
+  manifold, previously in a separate location, was moved into the WC/
+  bathroom utility area and consolidated alongside the water-supply
+  distribution manifolds, pressure reducers, and filters — one
+  coordinated utility-cabinet zone instead of two.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Tq2IELynaGs_petrishin_nonstandard_electrical_plumbing_pt4|YT_Tq2IELynaGs]]]
+
+## Water-Hammer Compensator Placement — a Real, Openly-Unresolved Internal Dispute (Петришин-Строй, added 2026-08-24, Round 11)
+
+**⚠️ A genuinely candid QC/self-correction case, invited for viewer
+feedback rather than presented as settled.** Real object, город Видное
+(region level 1). Standard utility-cabinet setup (Rehau PEX-A piping,
+manifolds, pressure regulators, a backwash filter system, leak-
+protection system, meters, fine filters) included a water-hammer
+compensator ("гидрокомпенсатор") mounted on the fine filter — this
+specific placement caused a real internal disagreement within the
+company. They called the product's official dealer to ask, were told
+this placement was incorrect, and redid the work to match the dealer's
+own reference photo. The practitioner explicitly invites more
+specialized viewers to weigh in with their own opinion in the comments —
+a rare instance of a source presenting a real technical dispute as
+still open rather than resolved with full confidence. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]

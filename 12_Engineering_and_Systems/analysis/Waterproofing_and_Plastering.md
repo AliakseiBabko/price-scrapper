@@ -571,3 +571,120 @@ speaker's own project location). `single-account`.
 - **No single truly universal primer exists**, but deep-penetration
   primer is the closest, covering the widest range of tasks.
 - [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_G03YKmotYP4_sidorik_top10_primer_questions|YT_G03YKmotYP4]]]
+
+## String-Beacon ("Струнные маяки") Installation Method — a Distinct Alternative to Rigid Strip Beacons (Петришин-Строй, added 2026-08-24, Round 11)
+
+**Explicitly cross-checked against this page's existing rigid-strip-beacon
+content** (laser-level beacon-setting sequence, beacon rust-bleed-through
+mechanism, corner-mesh placement, coin-press QC) — confirmed genuinely
+distinct, not a restatement: every prior beacon source on this page
+describes a **physical metal strip beacon** set in plaster dabs, while
+this source describes a **tensioned wire strung between two wall-mounted
+corner brackets**, used as the plastering reference line in its place.
+2018-vintage source (one of three unusually old 2017-2018 sources this
+round); no cost figure below is converted to USD given both the source's
+age and the transcript's own ASR uncertainty on the numbers. Region
+level 2. Low promotional ratio.
+
+- **Core mechanism**: a corner bracket screwed to the wall near each end
+  of a run (75mm self-tapping screw + an "eared" anchor chosen so it
+  won't tear out of foam-block substrate), with galvanized rebar-tying
+  wire wound around a bolt at each bracket and tensioned taut like a
+  guitar string — producing a straight plastering reference line with no
+  physical strip beacon involved.
+- **Fine adjustment via tapered wedges**: the bracket's stand-off
+  distance from the wall is dialed in with thin tapered plastic shims,
+  letting the crew correct the string's offset from the wall in
+  increments as small as ~1mm to match the wall's own real deviation at
+  each end — a real measured example on this wall found the resulting
+  plaster thickness varying between ~1-1.5cm and ~3.5-4cm across the same
+  run.
+- **Whole-run correction via a single shim thickness**, once both ends
+  are squared to each other (extends this page's existing Round 3
+  whole-wall/whole-apartment squaring principle with a string-specific
+  mechanism): a measured 6mm whole-run deviation was corrected by
+  inserting a 3mm shim uniformly, rather than adjusting each bracket
+  independently.
+- **Mid-span partial-set anchoring**: the tensioned string is dabbed with
+  plaster at its mid-span and left ~40 minutes to firm up (not fully
+  cure) before plastering continues, to stop it bouncing/sagging under
+  the straightedge — one run in this demo spanned close to 7m off a
+  single mid-span anchor.
+- **⚠️ Reinforcement-mesh threshold, more specific than this page's
+  general corner-mesh rule**: if the plaster layer at any point will
+  exceed **7cm**, a metal mesh must be installed first — plaster alone
+  isn't treated as self-supporting past that thickness.
+- **Explicit scope limitation from the practitioner**: not presented as
+  universally better than rigid beacons — short wall segments and
+  door-opening returns still use traditional short strip beacons (set
+  both horizontally and vertically), since there isn't enough length to
+  make tensioning a string worthwhile; best suited to long, straight
+  runs.
+- **Laser-level self-verification practice, with a real cautionary
+  anecdote**: a laser level can silently drift out of calibration (e.g.
+  from being dropped) and keep reporting confident but wrong readings
+  with no visible warning — recommends periodically re-checking a laser
+  against a plumb line/string. A real incident is cited: an intern
+  dropped a laser on-site, the miscalibration went undetected for a
+  while, and the resulting crooked work was initially blamed on the
+  plastering crew rather than the tool.
+- **Site-management risk specific to this method, not applicable to a
+  rigid beacon**: a taut string strung across a wall visually resembles
+  discarded rope/a hung bag to someone unfamiliar with the technique —
+  client visits or inspectors arriving while the crew is away have
+  reportedly pulled strings down by mistake, requiring re-setting.
+- **Speed claim**: setting up both string lines shown in this demo took
+  about 15 minutes; laying out this method for a full room was separately
+  estimated at roughly 3 hours.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xoLGoOIRMlc_petrishin_string_beacons|YT_xoLGoOIRMlc]]]
+
+## Conditional-Value "Quick Flatten" Trowel Technique, and a Post-Plastering Drying Bottleneck (Петришин-Строй, added 2026-08-24, Round 11)
+
+2018-vintage source, region unresolved, low promotional ratio. Heavily
+ASR-degraded transcript — extracted conservatively.
+
+- **⚠️ A long/oversized flat trowel used as a budget alternative to full
+  beacon-based plastering — explicitly conditional, not a universal
+  shortcut**: when a client has no budget for proper beacon-plastered
+  walls and just wants them "roughly evened out," a long rigid trowel can
+  visibly improve an uneven wall's flatness without a full beacon setup.
+  **Explicit warning**: applying the same technique to a wall that's
+  already properly flat (correctly beacon-plastered, or a precisely-built
+  drywall wall) can make the result *worse* — the technique only has
+  value on a genuinely uneven substrate.
+- **Post-plastering humidity is a named, real trade-sequencing
+  bottleneck**: freshly-plastered walls hold enough residual humidity to
+  block the following electrical/painting trades from starting, with
+  normal air-drying taking about 3 weeks. Stated company mitigation:
+  investing in industrial dehumidifier/moisture-absorber units to
+  compress that window to roughly 1.5-2 weeks, with a further stated
+  intention to invest in (or rent) mechanized-plastering-plus-drying
+  equipment to shrink it further still — a concrete cost-driver/
+  scheduling insight distinct from this page's existing technique
+  content.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VqrXg-tDRO8_petrishin_plastering_electrical_secrets|YT_VqrXg-tDRO8]]]
+
+## Curved/Radius-Wall Beacon Fabrication Technique (Петришин-Строй, added 2026-08-24, Round 11)
+
+**Genuinely distinct from every straight-wall beacon technique already
+on this page** (laser-level rigid strip, string beacon) — this is a
+purpose-built method for a curved wall, real object город Видное
+(region level 1, full address named). Low promotional ratio.
+
+- **Method**: find the wall's circle center, mark the intended radius as
+  a line on the floor (offset ~15mm out from the existing foam-block
+  face). Mark two horizontal reference lines on the wall (one ~15-20cm
+  above the floor, one higher up); drive self-tapping screws along both
+  lines so the lower row aligns with the floor's radius line, then level
+  the upper row's screws to match using a level. Tie two lengths of
+  metal-plastic pipe to these screws with thin wire — the pipe's own
+  flexibility lets it follow the curve — then pack the pipe with
+  plastering compound and let it set. Once cured, remove the wire,
+  leaving two curved beacon strips that define the radius wall's
+  finished plane. Mirrored to create matching curved beacons at the top
+  of the same wall.
+- **Why plastering was needed despite reasonably accurate masonry**: the
+  developer's original foam-block curved wall was built accurately
+  enough for ordinary tile, but the finish here (mosaic) is unusually
+  sensitive to substrate precision, requiring the extra plastering step.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]

@@ -267,6 +267,42 @@ when budgeting for leak-protection hardware (see
 Protection Systems]]) — a leak-protection kit costing a few hundred
 dollars is cheap relative to a single incident like this one. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YxXfsKoyx6M_petrishin_flood_prevention_heating|extraction note]]]
 
+### Live intake data point — Petrishin-Stroi real running project-cost tracking update, "Новая Рига" object (2017-10-01)
+
+**⚠️ Not a completed-project total — a real, currently-updating running
+cost total for one in-progress project, tracked video-to-video by this
+same channel.** Real object on the Novorizhskoye highway corridor,
+Moscow region (region level 1). By this video, cumulative rough/
+finishing-material and organizational spend stood at **680,000 RUB
+(≈$11,700, trailing-6-month USD/RUB average ending on the confirmed
+2017-10-01 upload date) + 61,400 RUB (≈$1,100) in organizational
+expenses**, continuing from an earlier video in the same series (not
+independently verified, since that earlier video hasn't itself been
+processed on this channel). The client separately paid a second
+work-stage installment of **208,000 RUB (≈$3,600)** against signed
+completion certificates — a real, dated itemized-payment data point.
+Kept explicitly separate from this page's completed rough-stage and
+full-scope real-object benchmarks above (different structure: an
+evolving in-progress total, not a finished project's headline figure).
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|extraction note]]]
+
+### Live intake data point — Petrishin-Stroi real running project-cost tracking update, "Часть 4" object (2017-09-18)
+
+**⚠️ Likely an earlier installment of the same evolving project as the
+"Новая Рига" running-cost data point above** (same client name Максим,
+upload date only ~2 weeks earlier, a lower running total consistent with
+being an earlier stage) — not confirmed certain, kept as a separate data
+point since neither video cross-references the other by name. Real ~80m²
+new-build object. By this video, cumulative rough-material spend stood
+at **370,815 RUB (≈$6,400, trailing-6-month USD/RUB average ending on
+the confirmed 2017-09-18 upload date) + 38,400 RUB (≈$700) in
+organizational costs**. A first completion certificate ("акт №1") for
+**267,623 RUB (≈$4,600)** covered demolition, all wall construction, and
+beacon-based plastering of walls and ceilings. The client had paid
+**500,000 RUB (≈$8,600)** total toward rough materials to date, with the
+foreman holding an unspent balance of **90,000 RUB (≈$1,600)**. [source:
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Tq2IELynaGs_petrishin_nonstandard_electrical_plumbing_pt4|extraction note]]]
+
 ### Tracking Expenses (added 2026-08-19)
 
 **Track expenses through a dedicated running spreadsheet from day one, not retroactively from a pile of receipts.** Five methods exist, ranked worst to best: doing nothing and reconstructing from memory (worst — loses most information); collecting receipts and tallying at the end (misses every cash/no-receipt payment — informal demolition labor, movers, market deliveries — and can't answer "how much so far" mid-project); delegating tracking to the crew/contractor (risky — a direct incentive to pad receipts, and it degrades back into the receipt-pile method at reporting time anyway); a fixed-price rough-materials arrangement with the contractor (creates an incentive for them to buy cheaper materials and pocket the difference — only safe with a highly trusted company backing a long warranty); and a dedicated spreadsheet system, tracked live. **A spreadsheet built around 4 blocks works well**: Primary Expenses (rough/finish materials, electrical, plumbing, windows, doors), Secondary Expenses (appliances, furniture, lighting, accessories — deferrable up to a year post-move-in), Works (contracted total / paid-to-date / remaining), and Balance (cash handed over vs. spent vs. still on hand) — plus a dedicated Payments log where **every payment is tied to a memorable event** ("handed over 200,000 RUB when we came to inspect the tub install") for later dispute-prevention, and an Overrun sheet isolating the exact price delta whenever a planned item gets swapped for a pricier one (e.g. laminate → parquet), so budget overruns are traceable to specific decisions instead of a vague "we're over somewhere" feeling. `single-account`, `unverified` methodology, but a directly actionable practice for this project's own self-managed model. *(secondary reference — see intermediate store)* [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]

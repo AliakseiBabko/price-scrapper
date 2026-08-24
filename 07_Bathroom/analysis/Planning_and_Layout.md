@@ -86,6 +86,16 @@ A pure design/personal-preference point, included for completeness: some people 
 
 **⚠️ Count actual real-world bathtub usage frequency before deciding whether to keep one** — a real client in a 35m² apartment counted their own historical bathtub use at only 3 times total ever (once in childhood, twice as an adult) before removing the bathtub entirely for a shower enclosure. A general, actionable planning heuristic — an honest personal-use audit rather than a designer's default assumption — for anyone weighing a small bathroom's limited floor area between a tub and a shower. `single-account`. Region level 2 only. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F0ZHsu4k6JY_petrishin_small_apartment_client_review|F0ZHsu4k6JY]]]
 
+## Large Bathroom Windows — a Real Non-Standard Case and Its Privacy Fixes (Петришин-Строй, added 2026-08-24, Round 11)
+
+**Real non-standard case**: a bathroom on this real object (region level
+1, город Видное) has genuinely large windows — unusual enough that even
+the practitioner says he was surprised on first seeing it. **Stated
+privacy fixes**: blinds, Roman-style curtains, or — at the glazing level
+itself — frosted/sandblasted film or tinting applied directly to the
+glass, which blocks a neighbor's direct view into the room without
+blocking light entirely. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+
 ## Comfort-Class Labor Cost (restated)
 
 **USD normalization status:** the 25,000–45,000 RUB/m² figure is **not computable** here because this restatement does not carry an independently confirmed publish date; no calendar-year or guessed date conversion is claimed.

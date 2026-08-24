@@ -415,6 +415,55 @@ unresolved.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_k9CrEU5RuIE_petrishin_flooring_baseboard_mosbuild_expo|k9CrEU5RuIE]]]
 
+## Cork Flooring — Prep and Installation Technique (Петришин-Строй, added 2026-08-24, Round 11)
+
+**First cork-flooring-specific source on this page.** Real product
+identified: Maestro Club brand, "Ronda" collection, ≈90cm × 29.5cm
+planks. Most content below is presented by the practitioner as a
+universal floating/click-lock flooring rule (equally applicable to
+laminate and engineered board), with cork-specific rationale called out
+separately. 2016-vintage source, region level 2 (no city/development
+named).
+
+- **Sub-floor flatness spec, a second data point distinct from this
+  page's existing Zemskov rule**: verified with a **3-meter straightedge**,
+  max deviation **2-3mm** — the existing laminate/engineered-board rule
+  elsewhere on this page uses a shorter 2m straightedge with a stricter
+  2mm maximum; recorded as a second real-world spec, not merged with the
+  existing one (different check span).
+- **Priming rationale**: primer is applied after cleaning specifically
+  because it seals in the micro-dust particles a vacuum or broom can't
+  fully remove — the primer layer is the actual dust-control step.
+- **PVC vapor-barrier film step**: rolled out across the whole floor
+  after the primer cures and before the impact-noise underlayment —
+  per most manufacturers' own instructions, and so any residual
+  construction moisture in the screed escapes toward the room's
+  perimeter instead of being trapped under the flooring. **Cork-specific
+  benefit**: also isolates cork from a rough cement-sand screed's
+  texture, extending service life.
+- **Last-board-width planning rule**: if the final board at the far wall
+  would come out narrower than ~5cm (too narrow for its click-lock
+  mechanism to engage cleanly), the *first* row is cut roughly in half
+  instead, producing symmetric partial boards at both ends of the room.
+- **⚠️ Thermal expansion gap, a second numeric figure**: minimum **4-5mm**
+  around the entire perimeter — skipping it risks visible buckling
+  within days to ~1.5 months. This page's existing Round 10 baseboard
+  note cites a typically-*executed* gap of 8-12mm (installer variance,
+  covered by baseboard width) — a stated minimum spec vs. a typically-
+  executed range, not a contradiction, but recorded as a second data
+  point.
+- **Spacer-wedge technique**: cut pieces of the same flooring material
+  as spacers for straight, true walls; tapered wedges of varying
+  thickness for walls with real deviation, to keep the perimeter gap
+  consistent either way.
+- **Joint sealant technique**: applied to board joints to block moisture
+  ingress; excess cures in ~7-10 minutes and peels off cleanly like a
+  film, leaving no residue.
+- **⚠️ Seam-offset rule, numeric**: stagger between adjacent rows' end
+  joints must be **at least 15-20cm**, or the joint risks squeaking and
+  gap development over time.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_4O1UqRqpApw_petrishin_cork_flooring|YT_4O1UqRqpApw]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |
@@ -468,3 +517,4 @@ unresolved.
 - **Quartz-vinyl flooring with a real wood-veneer top layer, distinguished from engineered/parquet board** (Петришин-Строй, real Chelomei St. object, Moscow level-1 region, added 2026-08-24, Round 6): both product types use a genuine wood top layer, but engineered/parquet board's substrate is plywood, while this quartz-vinyl variant's substrate is not — a material-category distinction not previously recorded on this page. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
 - **Screed QC and curing detail, real ЖК Topills object** (Петришин-Строй, region level 2, added 2026-08-24, Round 6): real sand-quality caution (must be washed river sand, never frozen — a real winter-delivery risk); fiber additive ("фибра") mixed into the screed mix for crack-resistance via micro-fiber reinforcement; reinforcement mesh must be physically lifted mid-pour so it ends up embedded within the screed body rather than settling uselessly at the bottom (an unembedded mesh "doesn't work at all," wasting its cost); explicit 2-3 day curing protocol — cover with plastic film immediately after pouring, then periodically uncover and thoroughly water the screed for 2-3 days before re-covering, to prevent rapid moisture loss that would otherwise stop the screed reaching full rated strength (skipping this is common and causes later cracking/warping even on an otherwise well-executed pour). **Quantified screed-height-planning cost trap on this real 120m² object**: not deciding finish-flooring materials (tile vs. quartz-vinyl by room) before the screed pour required a later self-leveling compensation layer costing a minimum additional ≈300,000 RUB ≈$3,800 — a concrete real-object number for this store's existing general 150,000-300,000 RUB cost-trap range. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c4mmaLAsDw4_petrishin_screed_soundproofing|YT_c4mmaLAsDw4]]]
 - **Herringbone (`ёлочкой`) install-time and error-tolerance mechanism, plus exclusive-material lead-time/crew-retention caution** (Петришин-Строй, real 120m² premium case, region level 2, added 2026-08-24, Round 6): a herringbone pattern install takes roughly 2-3× a standard flooring install, and a placement error as small as half a millimeter compounds to a ~1.5cm misalignment by the far end of a run — a concrete precision/time-cost mechanism for this layout. Separately: an exclusive-collection quartz-parquet color took 6 months to arrive after ordering; independently-hired private crews (not a company's salaried staff) may not return to finish a project after a gap that long, since crew members often pick up other, closer jobs during an extended wait — build known long lead times for bespoke/exclusive materials into the project schedule up front. Labor-only install cost for this case: 204,000 RUB ≈$2,600 (trailing-6-month USD/RUB average ending 2026-04-26). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8dyPTnmOHKs_petrishin_6mln_labor_per_stage|extraction note]] (2026-04-26).
+- **Real semi-dry-screed QC finding, one month post-pour, and an engineered-board no-plywood installation detail** (Петришин-Строй, real object on the "Новая Рига" highway corridor, Moscow region — region level 1, 2017-vintage source, added 2026-08-24, Round 11): a third-party-poured semi-dry mechanized screed, examined more than a month after pour and after the prescribed 10-day plastic-film curing period, came out generally well-planed with only minor deviations. **The one real defect found, and where it occurs**: a ~3mm bump specifically at a room-to-room threshold/doorway transition — flagged as the single most common evenness mistake across builders generally (a plane mismatch between adjacent rooms right at the doorway junction), distinct from flatness within one room. Semi-dry screed is explicitly framed as a legitimate cost-saving choice if minimizing spend is the priority — tap-tested with no hollow sound anywhere, some minor surface cracking within normal tolerance, but measurably less robust than a mechanized/reinforced alternative. Separately: engineered wood board on this object was glued directly to the screed with two-component adhesive, no plywood underlayment used; each box contained ~4-5 different plank lengths specifically to avoid a repeating pattern once laid; porcelain tile elsewhere on the same object was noted as very difficult to drill/cut. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|extraction note]] (2017-10-01).

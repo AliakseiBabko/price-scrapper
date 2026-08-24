@@ -547,3 +547,57 @@ bar):
   project) even for a wall that will be fully covered by a finish.
 - [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NyIj6h8hZHw_petrishin_wallpaper_paint_qa|NyIj6h8hZHw]]]
 
+## Tool-Ownership/Incentive Management Philosophy (Петришин-Строй, added 2026-08-24, Round 11)
+
+- **Deliberate no-tool-policing management philosophy**: the owner
+  recounts personally buying expensive tools for the crew early in the
+  business (a tile cutter costing ~18,000 RUB at the time, ASR-uncertain
+  year) rather than making workers buy their own, and made an explicit
+  decision *not* to monitor or enforce careful tool handling/
+  depreciation — reasoning that paying the crew well enough to buy their
+  own replacement tools without hardship matters more than micromanaging
+  how gently a given worker treats company equipment. An operational/
+  management heuristic (`single-account`), not a technical rule, but a
+  genuine, specific practitioner viewpoint on labor incentives.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VqrXg-tDRO8_petrishin_plastering_electrical_secrets|YT_VqrXg-tDRO8]]]
+
+## Sequencing/Cost-Saving Heuristics from a Real Ongoing Project (Петришин-Строй, added 2026-08-24, Round 11)
+
+- **Pre-install structural backing ahead of a pending design decision**:
+  in a room where the client hadn't yet finalized which wardrobe/closet
+  style would be installed, the crew still pre-installed a blocking/
+  backer strip so a ceiling crown molding could later be mounted flush
+  along the top of whichever wardrobe was eventually chosen — install
+  structural backing for a finish detail ahead of a design decision,
+  rather than waiting for that decision to be finalized first.
+- **Cost-saving tile-scope decision, real example**: the wall area
+  behind a built-in refrigerator was deliberately left untiled (no
+  backsplash tile there) since it would be fully hidden once the fridge
+  and an overhead cabinet were installed.
+- **Site-protection practice**: finished tile floor was kept covered
+  with protective film during ongoing work specifically to avoid
+  scratches from foot traffic/tools before later project stages
+  complete.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|YT_gREGOOA2OHo]]]
+
+## Real-Project Value-Engineering and Design-Skepticism Notes (Петришин-Строй, added 2026-08-24, Round 11)
+
+- **Plywood-reinforced drywall for future heavy-item mounting**: a
+  plywood sheet was fixed behind a drywall partition specifically to let
+  heavy items (a coat rack, a shelf) be hung there later without needing
+  to locate structural backing after the fact.
+- **Design rationale for a window addition in a work zone**: a window
+  opening was added specifically so natural sunlight would reach what
+  would otherwise be a dark kitchen work zone (countertop/cooktop area).
+- **⚠️ Window-reveal outlet placement, a client/designer-driven choice
+  with the executing crew's own stated skepticism**: outlets planned
+  inside window reveals ("откосы") at the client's/designer's request —
+  the crew explicitly notes this may be impractical given narrow reveals
+  and Russian-style windowsill designs, but implements it as specified
+  rather than overriding the designer's judgment. A real example of a
+  design decision the crew disagrees with but still executes.
+- **Client-driven mid-project layout tweak**: a wall section judged to
+  "stick out too much" near a door was reduced and angled/diagonal
+  instead of a hard corner, at the client's request mid-construction.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Tq2IELynaGs_petrishin_nonstandard_electrical_plumbing_pt4|YT_Tq2IELynaGs]]]
+

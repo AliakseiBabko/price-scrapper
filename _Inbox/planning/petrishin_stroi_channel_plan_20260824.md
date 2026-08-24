@@ -1139,3 +1139,108 @@ No English-titled video was encountered this round — all 8 selected videos had
   (`21207c7`) — passed clean on the first run, no mojibake, BOM,
   retired-pattern, ID-drift, rounding-bucket, or arithmetic-plausibility
   problems found.
+
+## Round 11 — Decorative plastering/paint, string-beacon method, combined plastering+electrical, screed QC, ZIPS-panel soundproofing, cork flooring, non-standard case studies (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing, a fresh 8-video selection from the
+341-video manifest, favoring named-technique content over recap
+"ТОП-N ошибок," multi-apartment "экспресс-обзор," or pure room-tour
+formats. Deliberately excludes the channel's separate "Ремонт по
+проекту Алексея Земскова" cluster per this plan's standing note.
+Includes an explicit cross-check of video 2 against Rounds 1/2/3/6
+beacon/plastering content, and video 5 against Round 10's frame-system
+soundproofing mechanism.
+
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `P55P5i3OFbI` | Как выбрать краску? Мастер-класс по нанесению декоративной штукатурки. | Paint selection + decorative-plaster masterclass | **SKIPPED — no captions available** | 0 | Both `youtube-transcript-api` (subtitles disabled) and `yt-dlp` (no subtitle tracks for ru/en) failed, `reason_class: null` for both attempts — a genuine per-video no-captions failure, **not** a rate-limit/IP-block signature. Not fetched, not extracted. |
+| 2 | `xoLGoOIRMlc` | Новый секретный метод быстрой установки маяков своими руками // Штукатурка по струнным маякам. | String-beacon ("струнные маяки") fast-installation method; explicit cross-check vs. Rounds 1/2/3/6 beacon content | **FULL extraction** | 10 | 2018-vintage source. Cross-check confirmed genuinely distinct from every rigid-strip-beacon method already on `Waterproofing_and_Plastering.md` — a tensioned wire between corner brackets, not a physical strip beacon. New: corner-bracket+wire mechanism, tapered-wedge fine adjustment, real measured wall-deviation example, mid-span 40-minute partial-set anchoring, 7cm mesh-reinforcement threshold, explicit scope limitation (short walls/openings still use rigid beacons), laser-level self-verification anecdote, string-mistaken-for-debris site risk. Region level 2. Low promotional ratio. |
+| 3 | `VqrXg-tDRO8` | Как штукатурить и делать электромонтаж? Секреты ремонта от мастеров. | Combined plastering + electrical-wiring technique/sequencing secrets | **PARTIAL extraction — heavily ASR-degraded, title/content mismatch** | 6 | 2018-vintage source. A scattered practitioner Q&A, not a structured tutorial as titled. New: гофра black-vs-gray fire-behavior nuance + low real-world ignition-risk clarification, self-conducted burn-test comparing standard cable vs. already-standard ВВГнг-LS, conditional-value long-trowel technique with an explicit don't-use-on-flat-walls warning, post-plastering humidity trade-sequencing bottleneck + dehumidifier mitigation, tool-ownership/no-policing management philosophy. Region unresolved. Low promotional ratio. |
+| 4 | `gREGOOA2OHo` | А полы то ровные? Проверяем стяжку и отделку квартиры! | Floor/screed-evenness QC-check technique, real-object inspection | **FULL extraction** | 14 | 2017-vintage source (oldest of the round at fetch time). **Region level 1** — "Новая Рига" highway corridor named directly. Real semi-dry-screed QC finding one month post-pour (doorway-transition-bump generalization), masonry-built shower base + Neptun leak-protection component list, real shower tile dimensions, tile-height convention + tile-to-paint flush-plane drywall-buildup technique, engineered-board no-plywood detail, cost-saving untiled-behind-fridge decision, pre-install-backing-ahead-of-pending-design-decision sequencing lesson, and a real running project-cost-tracking update (680,000 RUB + 208,000 RUB client installment) — explicitly kept separate from this project's completed-object benchmark series as an in-progress total. Low promotional ratio. |
+| 5 | `hrhJ6Y8hhPU` | Шумоизоляция стен ЗИПС панелями. Советы от профессионалов. | Wall soundproofing with ZIPS panels; explicit cross-check vs. Round 10's frame-system mechanism | **FULL extraction, densest video this round** | 15 | 2016-vintage source — oldest processed on this channel to date, required a one-time USD/RUB 2016 backfill (`fetch_exchange_rates.py --backfill --start-year 2016`). **Region level 1** — "Одинцовский район, посёлок Ромашково" named directly, plus a residential complex and unit number. **Cross-check confirmed a genuinely distinct installation approach from Round 10's frame system** — a rigid factory panel with silicone-filled fastening nodes screwed directly to the wall, no air-gap hanger frame — sharing only the underlying decoupling principle and the manufacturer (Acoustic Group). New: full panel construction, real 2,500 RUB/m² (≈$40/m²) cost figure, perimeter damper-tape prep, excess-silicone mistake warning, layout/cutting technique, socket-drilling soundproofing-breach warning, foam-block fastener-substitution finding, utility-avoidance marking, fastening-depth QC, 25cm-minimum row-offset rule, counter-intuitive do-not-over-fasten rule, substrate-flatness tolerance, pre-drywall QC pass, practitioner pros/cons summary. Medium promotional ratio (disclosed manufacturer-training relationship). |
+| 6 | `4O1UqRqpApw` | Пробковый пол. Технология укладки от профессионалов. | Cork-flooring installation technology, a material not yet covered | **FULL extraction — first cork-specific source on `Flooring_Guide.md`** | 9 | 2016-vintage source. New: real product ID (Maestro Club Ronda), 3m-straightedge/2-3mm flatness spec (a second data point vs. the existing 2m/2mm Zemskov rule), priming dust-sealing rationale, PVC vapor-barrier film step with a cork-specific rough-screed-isolation benefit, last-board-width-under-5cm first-row-split planning rule, 4-5mm minimum thermal-expansion-gap figure (a second data point vs. the existing 8-12mm typically-executed baseboard-coordination figure, not a contradiction), spacer-wedge technique, joint sealant technique, 15-20cm minimum seam-offset rule. Acclimation duration corroborated an existing rule, not re-counted. Region level 2. Low promotional ratio. |
+| 7 | `Tq2IELynaGs` | Ремонт в новостройке. Нестандартные решения по электрике и сантехнике. Часть 4. | Non-standard electrical/plumbing solutions, real-object technique | **FULL extraction, likely same real project as video 4** | 11 | 2017-vintage source, ~2 weeks before video 4's own date, same client name (Максим) and a lower running-cost total — flagged as a probable (not certain) earlier installment of the same evolving project. New: wall-thickness value-engineering (28cm→15-16cm via reinforced curved drywall), bathroom partition rebuild freeing space while adding soundproofing (90cm→1.36m), client-driven angled-wall layout tweak, plywood-reinforced-drywall future-mounting technique, work-zone window-addition rationale, ceiling-to-corridor-cabinet water rerouting + PEX-A upgrade, heating-manifold consolidation, window-reveal outlet placement (crew's own stated skepticism), bedroom lighting-circuit plan, and a separate real running-cost update (370,815+38,400 RUB spend, 267,623 RUB act #1, 500,000 RUB client payment, 90,000 RUB foreman balance). Region level 2 for this specific video. Low promotional ratio. |
+| 8 | `QginFVl00Hw` | Нестандартный санузел с панорамными окнами. ЖК Видное | Non-standard bathroom with panoramic windows, real-object design/technique case | **FULL extraction, ⚠️ unusually strong region-1 signature** | 11 | 2017-vintage source. **Region level 1** — full address spoken directly ("город Видное, улица Завидная, дом 10"), stronger than this channel's usual single-element level-1 signature. New: large-bathroom-window privacy fixes, a novel curved/radius-wall beacon fabrication technique (bent metal-plastic pipe wired to screws, packed with plaster) genuinely distinct from every straight-wall beacon method on this channel, mosaic-layout precision + named materials, a water-hammer-compensator placement dispute candidly presented as still open (resolved by calling the official dealer), bathtub-podium distance-to-drain rationale, site-protection practice, washer/dryer drain prep, drywall-to-stretch-ceiling L-joint curtain-niche detail. Towel-warmer electric-over-hydronic recommendation corroborated an existing well-sourced stance, not re-counted. Low promotional ratio. |
+
+**Status: COMPLETE — 7 of 8 videos fully fetched and processed (6 full extractions, 1 partial low-value/ASR-degraded pass on video 3), 1 genuinely skipped for no captions (video 1), zero rate-limit issues.**
+
+**Round 11 yield**: 7 videos processed (video 1 not fetched — no captions, excluded from the denominator), 76 genuinely-new facts (10+6+14+15+9+11+11, excluding duplicate/corroborating-only outcomes), yield = 10.9 new facts/video — **114% of Round 10's 9.6 baseline**, well above the 1.0/video floor. No stop-and-ask trigger.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 7 successful fetches were serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV/archiving work between fetches — never an idle wait), consistent with every prior round's clean result on this channel. Video 1's failure was independently confirmed as a genuine no-captions case (`youtube-transcript-api`: "Subtitles are disabled for this video"; `yt-dlp`: no subtitle tracks for ru/en) — both attempts carried `"reason_class": null`, not the rate-limit/IP-block signature this project treats as a circuit breaker. Logged `status: skipped` with the specific reason, per the standing convention.
+
+### An unusually old cluster of sources this round
+
+Three of this round's sources (videos 2, 3: 2018; video 4: 2017; videos 5, 7, 8: 2016-2017) turned out far older than every source processed on this channel in Rounds 1-10 (all 2022+), making video 5 (2016-10-13) the oldest source processed on this channel to date. This required a one-time USD/RUB exchange-rate backfill for calendar year 2016 (`tools/pricing/fetch_exchange_rates.py --backfill --start-year 2016`, then `generate_exchange_rates_reference.py`) before video 5's real cost figure could be converted — done this session per this project's missing-year rule. The regenerated reference table's confirmed-row floor did not pick up a 2016 row (the generator appears to floor at 2017), but the underlying daily-rate database now holds full 2016 coverage, and `currency_converter.py`'s trailing-6-month lookup against that database worked correctly regardless — this project's own guidance already treats direct `currency_converter.py` lookups as the primary path and the reference table as a fallback, so this is not a blocking gap, only noted for anyone who expects to see 2016 listed in the table itself.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence again varied video to video, not a fixed channel answer, consistent with every prior round. Per-video: video 2 (level 2), video 3 (unresolved — no location named), video 4 (**level 1** — "Новая Рига" highway corridor), video 5 (**level 1** — Одинцовский район/посёлок Ромашково), video 6 (level 2), video 7 (level 2 for this specific video, though likely the same real project as video 4's level-1 object), video 8 (**level 1**, an unusually strong signature — full city+street+house-number address spoken directly). 3 of 7 fetched videos cleared level 1 directly this round, continuing this channel's pattern of level-1 evidence varying substantially round to round rather than following any fixed rule.
+
+### Language check
+
+No English-titled video was encountered this round — all 8 selected videos had Russian titles. All 7 successful fetches confirmed Russian spoken audio (`youtube-transcript-api` returned `language: ru` for every fetch, all `is_generated_captions: true`).
+
+### Beacon-method cross-check (video 2), per this round's explicit brief
+
+**Confirmed genuinely distinct, not a restatement.** Every prior beacon source on this channel (Rounds 1, 2, 3, 6 — `D1REgSDwILU`, `r1eyXzXNdI0`, `mb-2ll0UtTo`, the laser-level rigid-strip content) describes a **physical metal strip beacon** set with plaster dabs. Video 2's "струнные маяки" method instead uses a **tensioned wire strung between two wall-mounted corner brackets** as the plastering reference line — a structurally distinct approach, not a variant of the rigid-beacon technique. The practitioner himself frames it as a complementary method for long, straight wall runs specifically, not a universal replacement — short walls and door-opening returns still use the existing rigid-beacon technique. Recorded on `Waterproofing_and_Plastering.md` as a new, separate section rather than merged into the existing beacon content.
+
+### ZIPS-panel soundproofing cross-check (video 5), per this round's explicit brief
+
+**Confirmed a genuinely distinct installation approach from Round 10's frame system, sharing only the underlying decoupling principle and manufacturer.** Round 10's wall/ceiling frame system (`rEe5LHWj4fI`/`O4pGx8ESHDU`) builds a free-standing metal-profile frame off vibration-damping hangers, decoupled from structure via temporary/removable perimeter anchors, with an air-gap cavity behind the finish board. Video 5's ZIPS panel system is instead a **rigid, factory-made sandwich panel screwed directly to the wall** through silicone-filled fastening nodes built into the panel itself — the decoupling element lives inside each fastening point, not in a separate hanger/bracket assembly, and there's no air-gap cavity. Both use a comparable perimeter damper tape and the same dense finish-drywall product (Акулайн) for mass-loading, and both trace back to the same manufacturer (Acoustic Group) — but they are genuinely two different products/methods, not two applications of one method. Recorded on `Soundproofing.md` as its own section, with the cross-check finding stated explicitly inline.
+
+### Same-project likely-link finding (videos 4 and 7), not explicitly requested but surfaced during extraction
+
+Videos 4 and 7 share a client name (Максим), a running-materials-cost-table format, and upload dates only ~2 weeks apart (video 7: 2017-09-18; video 4: 2017-10-01), with video 7's lower running total (370,815 RUB) consistent with being an earlier installment of the same evolving project video 4 continues. **Not confirmed as certain** — neither video's own transcript names or cross-references the other — but recorded as a probable link in both source notes and both `Budgeting_Guide.md` entries, kept as two separate running-cost data points rather than merged or assumed identical.
+
+## Progress Log
+
+- 2026-08-24 — **Round 11 complete.** All 7 fetchable videos fetched
+  serialized one at a time with real spacing (interleaved with each
+  video's own full extraction/routing/CSV/archiving work), zero
+  rate-limit issues across the entire round. Video 1 (paint/decorative-
+  plaster masterclass) hit a genuine no-captions failure (confirmed via
+  both `youtube-transcript-api` and `yt-dlp` failure reason classes —
+  neither rate-limit-related), logged `status: skipped` with the
+  specific reason. 6 full extractions + 1 partial low-value/ASR-degraded
+  pass (video 3). Yield 76 new facts / 7 processed videos = 10.9
+  facts/video — 114% of Round 10's 9.6 baseline, well above the 1.0
+  floor — no stop-and-ask trigger. Region checked explicitly per video:
+  3 of 7 cleared level 1 directly (videos 4, 5, 8 — including video 8's
+  unusually strong full-address signature), 3 stayed at level 2, 1
+  unresolved. Language checked — no English-titled videos this round,
+  all 7 fetches confirmed Russian audio. Two explicit cross-checks
+  performed as instructed (see the dedicated finding sections above):
+  video 2's string-beacon method vs. Rounds 1/2/3/6 rigid-beacon content
+  (confirmed genuinely distinct installation approach); video 5's ZIPS
+  panel system vs. Round 10's frame system (confirmed genuinely distinct
+  approach sharing only the underlying decoupling principle and
+  manufacturer). An unrequested but real same-project likely-link was
+  also surfaced between videos 4 and 7 (see dedicated section above).
+  This round's sources turned out unusually old (2016-2018, vs. 2022+ for
+  every prior round on this channel), requiring a one-time 2016 USD/RUB
+  exchange-rate backfill. Content routed to
+  `12_Engineering_and_Systems/analysis/Waterproofing_and_Plastering.md`
+  (string-beacon method, curved-wall beacon technique, trowel technique +
+  drying bottleneck), `Cable_Circuits_and_Panel_Design.md` (гофра
+  fire-behavior + cable burn test), `Soundproofing.md` (ZIPS panel
+  system, a major new section), `Water_Inlet_Node_Components.md` (water
+  rerouting/manifold consolidation, water-hammer-compensator dispute);
+  `07_Bathroom/analysis/Bathtub_and_Shower.md`, `Tile_Selection_and_
+  Layout.md` (2 sections), `Structure_and_Framing.md`, `Planning_and_
+  Layout.md`; `13_Surfaces_and_Finishes/Flooring_Guide.md` (first
+  cork-specific section), `Ceilings_Guide.md` (curtain-niche detail);
+  `11_Budget_and_Planning/Budgeting_Guide.md` (2 new running-cost-
+  tracking data points) and the general store's `Rules_Heuristics.md`
+  (tool-ownership philosophy, real-project value-engineering/design-
+  skepticism notes). All 7 processed transcripts archived via
+  `tools/youtube/archive_transcripts.py` (dry-run first, all 7 matched
+  correctly) — all 7 source notes' bottom `[source: ...]` inline links
+  needed the same manual fix as Rounds 5-10 (frontmatter
+  `transcript_file:` auto-updated by the script, bottom link was not) —
+  corrected by hand for all 7. All CSV rows (6 `archived` full + 1
+  `archived` partial + 1 `skipped`) independently re-verified via
+  Python's `csv` module to parse into the correct 15 columns.
+  `tools/verify_batch.py` to be run against the pre-round commit
+  (`72c434c`) before finishing.

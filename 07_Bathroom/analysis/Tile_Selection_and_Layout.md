@@ -435,3 +435,35 @@ technique page:
   committing**, regardless of grout type.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_tYcH95rlgNw_petrishin_5mln_2023_benchmark|tYcH95rlgNw]]]
+
+## Shower Tile Dimensions, Tile-Height Convention, and a Tile-to-Paint Flush-Plane Technique (Петришин-Строй, added 2026-08-24, Round 11)
+
+Real object, "Новая Рига" (region level 1). 2017-vintage source.
+
+- **Real tile dimensions for a shower zone**: wall tile 15cm × 7.5cm;
+  floor mosaic notably thin, estimated ~3-4mm thick.
+- **Bathroom tile-height convention for this job**: tile runs up to
+  roughly 1.10-1.15m, transitioning to paint above that line, finished
+  with a bullnose/pencil trim strip at the joint.
+- **Wall-buildup technique to eliminate a tile-to-paint plane step**: a
+  painted wall section adjoining tile was built out with drywall so both
+  surfaces sit flush in the same plane, avoiding the visible step/reveal
+  a tile's own thickness would normally create against an adjacent
+  painted wall.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|YT_gREGOOA2OHo]]]
+
+## Mosaic Layout Precision on a Curved Wall, and Named Materials (Петришин-Строй, added 2026-08-24, Round 11)
+
+Real object, город Видное (region level 1, full address named). Low
+promotional ratio.
+
+- **Mosaic-layout precision, real coordination example**: the tiler
+  pre-calculated the mosaic course so a whole, uncut tile pattern runs
+  continuously corner to corner around a curved wall, and separately
+  coordinated the bathtub podium's height/edge so the transition point
+  where tile ends and mosaic begins lines up exactly with where the
+  podium begins.
+- **Named materials**: tile brand Atlas Concorde; a two-component grout
+  (ASR-uncertain exact brand rendering) praised by the tiler as easy to
+  work with.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
