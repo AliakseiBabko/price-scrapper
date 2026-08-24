@@ -57,7 +57,7 @@ def source_files() -> list[Path]:
         path = STORE_DIR / name
         if path.exists() and path not in files:
             files.append(path)
-    for folder in sorted(p for p in ROOT.iterdir() if p.is_dir() and re.match(r"^\d{2}_", p.name)):
+    for folder in sorted(p for p in ROOT.iterdir() if p.is_dir() and re.match(r"^(?!00_)\d{2}_", p.name)):
         files.extend(path for path in sorted(folder.glob("*.md")) if not path.name.endswith("_Index.md"))
         analysis = folder / "analysis"
         if analysis.is_dir():
@@ -167,7 +167,7 @@ def extract() -> tuple[list[dict], dict]:
                 "source_id": sid or source_id(front, line, path),
                     "source_path": path.relative_to(ROOT).as_posix(),
                     "source_sha256": digest,
-                    "wiki_page": path.relative_to(ROOT).as_posix() if re.match(r"^\d{2}_", path.parts[0]) else None,
+                    "wiki_page": path.relative_to(ROOT).as_posix() if re.match(r"^(?!00_)\d{2}_", path.parts[0]) else None,
                     "section_anchor": anchor,
                     "source_span": source_span,
                     "claim_text": claim_text,

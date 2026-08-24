@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-NUMBERED = re.compile(r"^\d{2}_.+$")
+NUMBERED = re.compile(r"^(?!00_)\d{2}_.+$")  # excludes 00_Master (project docs, not wiki pages)
 TAG_RE = re.compile(r"^tags\s*:\s*(.+)$", re.IGNORECASE | re.MULTILINE)
 
 
