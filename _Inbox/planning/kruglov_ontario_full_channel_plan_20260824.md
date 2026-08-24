@@ -349,7 +349,7 @@ Not yet split into rounds — do that at triage time, in chunks of 6-8.
   every video ended with exactly one CSV row, verified by grep count.
   Handling per video: video 3 (`2cHetaq1bt0`) — the other session's
   work fully superseded this session's initial routing with a better
-  organization (a new dedicated `13_Surfaces_and_Finishes/analysis/Soundproofing.md`
+  organization (a new dedicated `12_Engineering_and_Systems/analysis/Soundproofing.md`
   page, created once the topic cleared this store's 3+-sources-with-no-page
   threshold); this session's redundant edits to `Durable_Facts.md`,
   `Flooring_Guide.md`, and `Ceilings_Guide.md` were discarded and replaced

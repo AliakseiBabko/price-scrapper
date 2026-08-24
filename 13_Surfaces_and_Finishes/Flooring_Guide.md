@@ -1,6 +1,6 @@
 # Flooring Guide - Do's and Don'ts
 
-See [[13_Surfaces_and_Finishes/analysis/Soundproofing|Soundproofing]] for floor impact-noise soundproofing (named Shumanet products, wall-perimeter isolation technique, floor-vs-ceiling cost asymmetry) and the general soundproofing decision framework.
+See [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]] for floor impact-noise soundproofing (named Shumanet products, wall-perimeter isolation technique, floor-vs-ceiling cost asymmetry) and the general soundproofing decision framework.
 
 ## Transitions, Grain Direction, and Material Cautions — per Zemskov/Zemstandart (added 2026-08-10)
 

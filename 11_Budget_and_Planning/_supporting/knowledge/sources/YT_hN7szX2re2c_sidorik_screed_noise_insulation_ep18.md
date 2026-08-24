@@ -82,7 +82,7 @@ corroborates_existing: false
 - **`tiered-knowledge-base`** — this project's renovation budgeting knowledge store, per this task's assignment.
 - **`16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals.md`** — the Belarusian developer-must-deliver-with-screed law is a new, level-1-qualifying regulatory fact, distinct from this page's existing исполком-approval-focused content; add as a new "What's confirmed" entry.
 - **`13_Surfaces_and_Finishes/Flooring_Guide.md`** — primary destination for the full DIY screed build (membrane, XPS, mesh, beacons, mix recipe, cure) as a new named section; several items (screed-vs-walls sequencing rationale, beacon-leveling precision) directly complement the page's existing screed-sequencing content from an unrelated source without contradicting it.
-- **`13_Surfaces_and_Finishes/analysis/Soundproofing.md`** — the named membrane product, structural-vs-airborne noise mechanism reasoning, and perimeter damper-strip technique fit this page's existing floor-vs-ceiling and floor-membrane sections.
+- **`12_Engineering_and_Systems/analysis/Soundproofing.md`** — the named membrane product, structural-vs-airborne noise mechanism reasoning, and perimeter damper-strip technique fit this page's existing floor-vs-ceiling and floor-membrane sections.
 - No `Budgeting_Guide.md` update — no usable absolute price figures in this source.
 
 ## Relevance to This Project's Topic

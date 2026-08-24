@@ -122,7 +122,7 @@ location-AND-year comparability rule.
 
 ## Relevance to This Project's Topic
 
-Directly relevant to [[13_Surfaces_and_Finishes/analysis/Soundproofing.md]]
+Directly relevant to [[12_Engineering_and_Systems/analysis/Soundproofing.md]]
 — extends the existing System Type Taxonomy and Floor vs. Ceiling cost
 sections with a real comparative decibel test among three specific,
 buyable materials, a genuinely new mineral-wool-under-stretch-ceiling

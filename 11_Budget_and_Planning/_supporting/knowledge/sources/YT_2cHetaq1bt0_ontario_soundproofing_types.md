@@ -22,7 +22,7 @@ corroborates_existing: true
 
 ## Processing status: FULL EXTRACTION
 
-Coherent, self-contained soundproofing-decision guide: noise-type taxonomy, material taxonomy, a worked one-bedroom-apartment per-wall decision walkthrough, and floor-vs-ceiling cost/practice reality. This is the third source touching soundproofing in this store (after `8CzgwqUKGF8` and `fnTjaXPEDDE`), clearing the store's 3+-sources-with-no-page threshold — routed to a new dedicated page, `13_Surfaces_and_Finishes/analysis/Soundproofing.md` (created this session). Promotional content confined to a single closing company call-out.
+Coherent, self-contained soundproofing-decision guide: noise-type taxonomy, material taxonomy, a worked one-bedroom-apartment per-wall decision walkthrough, and floor-vs-ceiling cost/practice reality. This is the third source touching soundproofing in this store (after `8CzgwqUKGF8` and `fnTjaXPEDDE`), clearing the store's 3+-sources-with-no-page threshold — routed to a new dedicated page, `12_Engineering_and_Systems/analysis/Soundproofing.md` (created this session). Promotional content confined to a single closing company call-out.
 
 ## Materials / Planning Rules — Noise Taxonomy
 

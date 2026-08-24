@@ -1,6 +1,8 @@
-# Surfaces & Finishes — Soundproofing
+# Engineering & Systems — Soundproofing
 
-New page (added 2026-08-24) — created once this sub-topic reached the store's 3+-sources-with-no-page threshold (`8CzgwqUKGF8`, `fnTjaXPEDDE`, `2cHetaq1bt0`). Covers noise-type taxonomy, material/system types, wall-by-wall decision framework, and floor-vs-ceiling cost reality — cross-cutting across [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]], [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings]], and [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring]], hence its own dedicated page rather than being split across those three.
+New page (added 2026-08-24) — created once this sub-topic reached the store's 3+-sources-with-no-page threshold (`8CzgwqUKGF8`, `fnTjaXPEDDE`, `2cHetaq1bt0`). Covers noise-type taxonomy, material/system types, wall-by-wall decision framework, floor-vs-ceiling cost reality, and installation/combination technique (frame systems, vibro-hangers, how methods stack together) — cross-cutting across [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]], [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings]], and [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring]], hence its own dedicated page rather than being split across those three.
+
+**Moved from `13_Surfaces_and_Finishes/analysis/` to `12_Engineering_and_Systems/analysis/` on 2026-08-24, per explicit user direction**: soundproofing is fundamentally about installation technique and how methods combine into a system, not about the surface material itself — closer in kind to this section's other systems content than to a finishes/materials page.
 
 ## Noise Taxonomy
 

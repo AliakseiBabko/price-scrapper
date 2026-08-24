@@ -76,7 +76,7 @@ corroborates_existing: false
 
 - **`tiered-knowledge-base`** — this project's renovation budgeting knowledge store, per this task's assignment.
 - **`12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md`** — the separate-zone dual-room exhaust design (shared-channel-with-isolated-branches problem and solution) is a new, checkable design pattern for this page, distinct from its existing fresh-air/breather-focused content (this is exhaust, not supply).
-- **`13_Surfaces_and_Finishes/analysis/Soundproofing.md`** — the sewer-riser vibro-acoustic mechanism distinction and named products are new content, not yet covered on this page (which currently has no riser/pipe-noise section).
+- **`12_Engineering_and_Systems/analysis/Soundproofing.md`** — the sewer-riser vibro-acoustic mechanism distinction and named products are new content, not yet covered on this page (which currently has no riser/pipe-noise section).
 - **`5b` price normalization complete**: 75 BYN ≈ $30 (trailing-6-month USD/BYN average ending 2021-05-19, via `currency_converter.py`).
 
 ## Relevance to This Project's Topic

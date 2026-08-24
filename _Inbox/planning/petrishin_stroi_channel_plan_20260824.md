@@ -1016,7 +1016,7 @@ Video 1 (`zuh3k15-STo`) carried an English on-screen title ("What is a master sw
   routed to `12_Engineering_and_Systems/analysis/Switches_and_Controls.md`,
   `Fresh_Air_Ventilation_and_Ducting.md`;
   `07_Bathroom/analysis/Tile_Selection_and_Layout.md` (2 new sections);
-  `13_Surfaces_and_Finishes/analysis/Soundproofing.md`,
+  `12_Engineering_and_Systems/analysis/Soundproofing.md`,
   `13_Surfaces_and_Finishes/Ceilings_Guide.md`, `Walls_and_Paint.md`;
   `11_Budget_and_Planning/analysis/Demolition.md` (extended, not
   duplicated); and the general store's `Rules_Heuristics.md` (3 new
