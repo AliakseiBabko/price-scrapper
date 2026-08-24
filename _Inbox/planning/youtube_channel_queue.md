@@ -70,6 +70,8 @@ When a fetch attempt returns a rate-limit/IP-block signature — HTTP 429, "Sign
 
 This is specifically a Group A protocol — Group B/C channels stay trial-only until their value is separately confirmed, so don't rotate one of them in as a rate-limit substitute without the user's go-ahead.
 
+**Correction, confirmed 2026-08-24**: this protocol assumes a rate-limit is channel-specific, but a real incident the same day showed otherwise — Kruglov/Ontario, Pavel Sidorik, *and* a freshly-rotated-in TimRemont all hit the identical block signature (`youtube-transcript-api` IP-block message + `yt-dlp` "Sign in to confirm you're not a bot") within about 15 minutes of each other, the third one on its very first fetch attempt before any content was even seen. This points to a **session/IP-wide throttle**, not a per-channel one. **When a second channel switch in short succession also hits the same block signature, stop rotating in a third — that's the signal the block is IP-wide, and rotating further channels just burns dispatches into the same wall.** At that point, actually pause all YouTube fetching for a real cooldown (longer than the single-channel bounded-retry cooldown - this is a stronger signal) before retrying any of the blocked channels, rather than continuing to search for an unaffected channel.
+
 ## Progress Log
 
 - 2026-08-24 — Queue created per explicit user request: 11 Group A channels, 8 Group B channels, 1 Group C channel, plus the rate-limit channel-switching protocol formalized (already practiced informally when Kruglov's Round 4 was rate-limited and the session switched to starting Pavel Sidorik). No channel in this queue has been preflighted yet.
