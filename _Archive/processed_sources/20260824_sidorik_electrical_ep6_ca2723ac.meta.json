@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=9-NjgDLleOw",
+  "video_id": "9-NjgDLleOw",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T08:07:03.768245+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ca2723ac34c8ecfc6054ebd3d8bb71e0b11920098d96b7d87917bc4f483e4e0a",
+  "attempts_before_success": []
+}

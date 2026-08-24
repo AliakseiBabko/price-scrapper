@@ -374,3 +374,19 @@ for a self-managed buyer.
 ### Pavel Sidorik — hpU_xEXmdvE (2020-08-22)
 
 - Mid-video sponsored segment for "Ritter" laminate flooring (Russian manufacturer): superlative/unverifiable claims ("best price-quality combination," locking-system convenience, wear class 34) with a direct manufacturer-link call-to-action. Excluded from all fact sections; the surrounding acceptance-checklist content is otherwise low-promotion, first-hand practitioner technique. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hpU_xEXmdvE_sidorik_new_building_acceptance_checklist|hpU_xEXmdvE]]]
+
+### Pavel Sidorik — _TGU8C0u010 (2020-09-13)
+
+- Mid-video sponsored segment for "Техносонус" ("Technosonus")'s soundproofing-calculator mobile app (Google Play/App Store): a "first on the market" superlative claim, not independently verified, with a description-link call-to-action. Excluded from all fact sections; surrounding lifehack/tips content is otherwise low-promotion, first-hand practitioner technique. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__TGU8C0u010_sidorik_new_building_lifehacks_ep2|_TGU8C0u010]]]
+
+### Pavel Sidorik — ZW-dNzbCREI (2020-09-30)
+
+- End-of-video subscriber-growth giveaway contest for a "LOSEV" work light (conditioned on subscribing to two channels) and a named compact wall-chaser tool credited to retailer "Все Инструменты.ру" with a description-link call-to-action. Both excluded from all fact sections; surrounding block-partition-build content is otherwise dense, low-promotion technique. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZW-dNzbCREI_sidorik_bathroom_block_partitions_ep4|ZW-dNzbCREI]]]
+
+### Pavel Sidorik — HqmQaZ1y1UM (2020-10-10)
+
+- In-video announcement of the LOSEV giveaway winner from episode 4's contest (a contest-resolution segment, not new content) and a closing self-promotion ask for a "best DIY blogger" award vote. Both excluded from all fact sections; surrounding AAC-partition-mistakes content is otherwise dense, low-promotion technique. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HqmQaZ1y1UM_sidorik_aac_partition_mistakes_ep5|HqmQaZ1y1UM]]]
+
+### Pavel Sidorik — IWVPepWlzSs (2020-11-11)
+
+- A laser-level giveaway contest (Kapro "Pro Laser 862," run jointly with retailer "Центр Инструмент," described as Kapro's exclusive Russia/CIS distributor), conditioned on subscribing to both channels, plus a reminder to vote again in a "best DIY blogger" award's second round. Both excluded from all fact sections; surrounding electrical-technique content is otherwise dense, low-promotion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IWVPepWlzSs_sidorik_electrical_ep7|IWVPepWlzSs]]]
