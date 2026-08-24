@@ -71,6 +71,24 @@ Zemstandart / Zemproekt says to **offset the whole sink/dishwasher stub-out grou
 
 Zemstandart / Alexey Zemskov gives an **explicit warning for both kitchen configurations**: the hot/cold supply spacing (75mm gaps) could technically be tightened to 50mm without immediate issue, but the drain lines cannot. At 32-50mm diameter, the required chase width plus the mandatory drain slope means compressed spacing forces extra elbow/joint bends and incorrect slope angles — described as "guaranteed" to cause intermittent drainage problems. This grid is presented as the minimum spacing that avoids drain-line conflicts while still leaving room under the sink for water filters and other under-sink appliances.
 
+## A Second Independent Coordinate Set (Pavel Sidorik, added 2026-08-24, Round 5)
+
+> [!NOTE]
+> A second practitioner's own standard convention for a different real bathroom+toilet layout — not a correction or contradiction of the Zemskov grid above, just an independent data point using different fixtures/room geometry. All heights from finished floor, calculated to account for future screed+tile buildup even though poured at marking time it wasn't yet in place. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_S4fOYedAruE_sidorik_sewer_installation_ep24|S4fOYedAruE_sidorik_sewer_installation_ep24]]]
+
+- **Washing machine**: drain 72 cm, cold supply 60 cm.
+- **Under-countertop sink with wall cabinet**: water supply 57 cm, sewage 54 cm.
+- **Shower mixer**: 20 cm above the tub rim, centered.
+- **Toilet-room sink**: water supply 66 cm, sewage 61 cm.
+- **Hygienic shower**: 65 cm.
+- **Towel warmer**: centered on the future tub's position.
+- **Electrical outlets in this cluster placed above the water/sewage lines**, specifically so a leak from those lines can't reach the outlets.
+- **General research method for standard placement figures** (reusable regardless of source): search "сантехника, разметка, размер" for widely-shared reference diagrams, then cross-check the specific equipment's own installation manual before finalizing — a real-world example of exactly the kind of self-service lookup this store's own numeric grid above is meant to replace/corroborate.
+
+## 150mm Mixer-Fitting Spacing — Independently Confirmed (added 2026-08-24, Round 5)
+
+Pavel Sidorik's own project (episode #26, metal-plastic pipe install) glues mixer-fitting water outlets at **150mm center-to-center spacing**, matching this page's existing shower-mixer fitting-spacing convention exactly — an independent same-channel confirmation, on a different fixture/context, that 150mm is a genuinely standard mixer-fitting spacing rather than a one-source figure. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26|q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26]]]
+
 ## Gaps
 
 - A figure for the sink-drain height was stated in the source as "500 сантиметров" (500cm), almost certainly an ASR/speech slip given every other figure in the source is in millimeters and 500cm would be absurd for a sink drain — corrected to 500mm here based on context, flagged `uncertain`.

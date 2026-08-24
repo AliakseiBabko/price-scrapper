@@ -12,6 +12,8 @@ Zemstandart / Alexey Zemskov supports the mapped door-reveal and mount-type clai
 | Flush/concealed-mount | Most modern/popular now; any finish material possible (panel, veneer, mirror, metal); only type supporting door closers and improved leaf soundproofing | ~90% custom-order (pricier material+labor); needs extra finishing — tiling/grouting/mitering the door reveal, painting both sides — cited at **~20,000-25,000 RUB extra per door** (5 doors ≈ 100,000-130,000 RUB, easy to underestimate in a budget); only pairs with concealed/shadow-gap skirting, not classic baseboards |
 | Sliding | — | **Explicitly the worst option** — worst soundproofing of the three; recommended against for bathrooms except a private master-suite bathroom used only by a couple |
 
+**Sliding-door mechanism detail, restated more strongly (added 2026-08-24, Round 4)**: a second, independent instance of this same channel calls choosing a sliding bathroom door a "fatal mistake" — the concrete mechanism given is that a sliding door mounts *only* on two top-mounted rails and carries **no gasket/seal at all**, versus a quality hinged door's three seals. Framed against the room's own need for acoustic privacy ("санузел — интимная зона"), a sliding door's convenience isn't worth trading away sound isolation for. `single-account` (same channel restating its own existing position), `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZlvJE-ncrK8_kruglov_bathroom_dont_save|YT_ZlvJE-ncrK8]]]
+
 ## Appliance-Clearance and Reveal Rules
 
 This legacy door-clearance section does not expose a decisive extraction-note `channel:` field.

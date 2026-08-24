@@ -89,35 +89,58 @@ one-line **Round N yield** note under each table once a round closes.
 
 **Round 3 yield**: 7 videos processed, 90 new facts (11 + 10 + 12 + 14 + 10 + 13 + 20, excluding duplicate/corroborating-only outcomes which were explicitly flagged and not counted), yield = 12.9/video. Compared against the Round 1 baseline (11.5/video) and Round 2 (10.3/video), this is the highest-yield round so far — no stop-and-ask trigger. No rate-limiting encountered. **Note**: this round was processed concurrently by two independent agent sessions on the same repo (a real collision, not anticipated at dispatch time) — see the Progress Log entry below for what happened. Both sessions actively reconciled collisions as they were found (duplicate CSV rows removed, duplicate/overlapping wiki sections merged or reverted, duplicate source notes deleted) — as of this update, `git status` and per-video CSV row counts confirm no known duplicates remain (each of the 7 videos has exactly one CSV row); the `uiiggEC7c9M` duplicate source note mentioned in an earlier version of this note was itself deleted during reconciliation and no longer exists.
 
-### Round 4 — Heating/Ventilation part 2 + Bathroom part 1 (7 videos) — PARTIAL, halted on rate-limit
+### Round 4 — Heating/Ventilation part 2 + Bathroom part 1 (7 videos) — CLOSED
 
 | # | Video ID | Title | Status |
 |---|---|---|---|
-| 1 | `wowlXrlGrEc` | Выкидывай очиститель и увлажнитель! Бризер | archived |
-| 2 | `WK-KLd2ssYY` | How to choose an air conditioner: economy vs. premium | archived |
-| 3 | `wsomY_6BRqA` | Как выбрать самый лучший кондиционер в 2025? | archived |
-| 4 | `sd2XYBZY-K8` | Bathroom Renovation 2026 – Safety, Convenience, and Design | failed_rate_limited (not fetched, not skipped — retry later) |
-| 5 | `IFnZxitFeNk` | The Best Bathroom Remodeling Ideas for 2026 | pending (not attempted, halted before reaching it) |
-| 6 | `MOYwhSd8tv4` | Your Tiles Will Crack or Fall Off! Top Rules for Tiling! | pending (not attempted, halted before reaching it) |
-| 7 | `ZlvJE-ncrK8` | Главные ОШИБКИ в ремонте ванной комнаты | pending (not attempted, halted before reaching it) |
+| 1 | `wowlXrlGrEc` | Выкидывай очиститель и увлажнитель! Бризер | archived, fact_yield 5 |
+| 2 | `WK-KLd2ssYY` | How to choose an air conditioner: economy vs. premium | archived, fact_yield 8 |
+| 3 | `wsomY_6BRqA` | Как выбрать самый лучший кондиционер в 2025? | archived, fact_yield 16 |
+| 4 | `sd2XYBZY-K8` | Bathroom Renovation 2026 – Safety, Convenience, and Design | archived, fact_yield 5 (retried successfully after rate-limit cooldown) |
+| 5 | `IFnZxitFeNk` | The Best Bathroom Remodeling Ideas for 2026 | archived, fact_yield 8 |
+| 6 | `MOYwhSd8tv4` | Your Tiles Will Crack or Fall Off! Top Rules for Tiling! | archived, fact_yield 12 |
+| 7 | `ZlvJE-ncrK8` | Главные ОШИБКИ в ремонте ванной комнаты, не экономьте! | archived, fact_yield 3 |
 
-**Round 4 status (2026-08-24): HALTED mid-round on a rate-limit/IP-block.** Videos 1-3 (the
-Heating/Ventilation part-2 sub-cluster) fully processed: fetched, extracted, wiki-routed, price-
-normalized, archived, CSV-logged. Video 4 (`sd2XYBZY-K8`, first Bathroom video) hit
+**Round 4 status (2026-08-24): FULLY CLOSED.** Videos 1-3 (the Heating/Ventilation part-2
+sub-cluster) were fully processed in the first session slice: fetched, extracted, wiki-routed,
+price-normalized, archived, CSV-logged. Video 4 (`sd2XYBZY-K8`, first Bathroom video) then hit
 `youtube-transcript-fetch` exit code 2 (`rate_limited_or_ip_blocked`) on both attempted methods
-(`youtube-transcript-api` IP-block message, `yt-dlp` "Sign in to confirm you're not a bot"). Per
-this project's own circuit-breaker rule, stopped immediately — did not retry, did not attempt
-videos 5-7, and did not mark any of videos 4-7 `skipped` in the CSV (a rate-limit isn't a genuine
-no-captions/unavailable case, so no CSV row was added for video 4 either — it remains fetchable
-on retry after a real cooldown). **Partial Round 4 yield so far: 3 videos processed, 29 new facts
-(5 + 8 + 16), yield = 9.67/video** — a ~25% drop from Round 3's 12.9/video baseline, within the
-normal-variance band (not the >50%-drop or <1.0/video stop-and-ask thresholds), though this is
-only a partial-round figure and should be recomputed once videos 4-7 are actually processed.
-**Resume plan**: after a real cooldown (tens of minutes to hours, not immediate), retry
-`sd2XYBZY-K8` first, then continue sequentially through `IFnZxitFeNk`, `MOYwhSd8tv4`,
-`ZlvJE-ncrK8` — all four remaining videos route to the Bathroom cluster
-(`07_Bathroom/analysis/*`). See `_Inbox/planning/batch_status_20260824_kruglov_round4.json` for
-the live per-video status.
+(`youtube-transcript-api` IP-block message, `yt-dlp` "Sign in to confirm you're not a bot") — per
+this project's own circuit-breaker rule, the session stopped immediately at the time, did not
+retry, did not attempt videos 5-7, and did not mark videos 4-7 `skipped` in the CSV (a rate-limit
+isn't a genuine no-captions/unavailable case).
+
+**Resumed 2026-08-24 after a real cooldown** (multiple other channel-processing rounds completed
+elsewhere in the interim, satisfying the standing "wait for a real cooldown" policy): the bounded
+single retry on `sd2XYBZY-K8` succeeded cleanly on the first attempt (`youtube-transcript-api`,
+`language=ru`, no further rate-limit signature). The remaining 3 videos (`IFnZxitFeNk`,
+`MOYwhSd8tv4`, `ZlvJE-ncrK8`) were then fetched sequentially with real spacing (interleaved with
+full extraction/routing/archiving work between fetches — no idle waiting), with no further
+rate-limiting encountered. All 4 videos routed to the Bathroom cluster as planned, plus two new
+downstream folders that didn't exist as routing targets when this round was originally planned:
+`17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md` (curved-wall and
+microcement trend content from `IFnZxitFeNk`) and `09_Laundry_Room/analysis/Dos_and_Donts.md`
+(heat-pump-dryer preference from `sd2XYBZY-K8`).
+
+**Full Round 4 yield (all 7 videos): 7 videos processed, 57 new facts
+(5 + 8 + 16 + 5 + 8 + 12 + 3), yield = 8.14/video.** Compared against Round 1 (11.5/video),
+Round 2 (10.3/video), and Round 3 (12.9/video), this is the lowest yield so far for this
+channel — a ~29% drop from the immediately-preceding Round 3, and a ~37% drop from the channel's
+own Round 1 baseline. Both are within the normal-variance band per the standing rule (stop-and-ask
+triggers only above a >50% drop from the previous round, or below the 1.0-new-fact/video absolute
+floor) — no stop-and-ask trigger. **Why the drop, worth recording rather than treating as noise**:
+the two oldest/most "recap"-style videos in this round (`sd2XYBZY-K8`'s top-10 list and especially
+`ZlvJE-ncrK8`'s 2024 "don't economize" list, fact_yield 5 and 3 respectively) both scored low
+specifically because they heavily restated this channel's own already-extensively-processed
+plumbing/electrical rough-in content (manifold distribution, PEX pipe, leak protection, check
+valves, water-hammer arrestors, КУП grounding, electric towel warmer) — genuinely corroborating,
+not low-value in an absolute sense, but with little left to newly extract after 3 prior rounds
+from the same channel's plumbing coverage. The two densest videos in the round
+(`wsomY_6BRqA`'s comprehensive AC guide at 16, and `MOYwhSd8tv4`'s non-promotional "7 rules of
+tiling" video at 12) pulled the average back up considerably. This is a first visible sign of
+same-channel content saturation on this project's most mature topic areas (plumbing rough-in,
+electrical rough-in) — worth watching in Round 5+ as this channel's remaining rounds increasingly
+touch bathroom/finishing topics already covered in earlier rounds, rather than a reason to stop.
 
 ### Round 5 — Bathroom part 2 + Walls/Ceilings part 1 (7 videos)
 
@@ -363,3 +386,41 @@ Not yet split into rounds — do that at triage time, in chunks of 6-8.
   Round 4 starting with `sd2XYBZY-K8`, then `IFnZxitFeNk`, `MOYwhSd8tv4`, `ZlvJE-ncrK8` (all four
   route to `07_Bathroom/analysis/*`); Round 5 (Bathroom part 2 + Walls/Ceilings part 1) follows
   once Round 4 actually closes.
+- **2026-08-24 (later same day)**: Round 4 resumed and closed. Real time had passed since the
+  rate-limit halt (multiple other channel-processing rounds completed elsewhere), satisfying the
+  standing "wait for a real cooldown before a bounded retry" policy. Retried `sd2XYBZY-K8` first,
+  per the resume plan — succeeded cleanly on the first attempt (`youtube-transcript-api`,
+  `language=ru`), no repeat of the rate-limit/IP-block signature. Continued sequentially through
+  `IFnZxitFeNk`, `MOYwhSd8tv4`, `ZlvJE-ncrK8` with real spacing between fetches (each fetch
+  followed by full extraction/wiki-routing/archiving work before the next fetch, never an idle
+  wait) — no further rate-limiting encountered on any of the three. Per-video fact yields: 5, 8,
+  12, 3. `sd2XYBZY-K8` (leak-protection sensor-priority/UPS mechanism, wall-hung-toilet frame load
+  ratings + footing rule, tankless-heater pros, valve-controlled hygienic shower) and `IFnZxitFeNk`
+  (furniture-facade access panels, concealed curtain mount, warm-wall dehumidification-loss
+  nuance, hidden-shelf install-timing distinction, rounded hatch corners, curved walls,
+  microcement, large+small tile combination) both routed cleanly to existing
+  `07_Bathroom/analysis/*` pages plus this project's newer `17_Design_and_Ergonomics` and
+  `09_Laundry_Room` folders. `MOYwhSd8tv4` (a dense, non-promotional "7 rules of tiling" video)
+  substantially extended `Tile_Selection_and_Layout.md` with adhesive-class vocabulary (C1/C2),
+  joint sizing, substrate tolerance, a 28-day heated-floor cure rule, and grout pricing — the
+  densest video in the round. `ZlvJE-ncrK8` (an older, 2024 "don't economize" recap) had the
+  lowest yield of the round (3), almost entirely restating this channel's own already-processed
+  plumbing/electrical content from Rounds 2-3; its few genuinely new items (storage-heater
+  revision hatch, sliding-door mechanism restatement, tankless-heater-as-outage-stopgap) were
+  still captured. Two of the sub-$10 grout-price figures on `Tile_Selection_and_Layout.md`
+  initially failed `tools/verify_batch.py`'s `check_rounding_bucket` check (a $10-bucket rounding
+  rule zeroing out figures under $10, e.g. $4→$0) — fixed by following this project's existing
+  "under $1" convention (documented in `verify_batch.py` itself) for figures too small to round
+  meaningfully, restated as plain RUB figures with a "under $10" note instead of a forced `≈$`
+  conversion. `verify_batch.py --base defb810` passed clean after the fix (0 problems across 18
+  changed files). Every one of the 4 retried videos verified to have exactly one `archived` CSV
+  row via direct CSV inspection (not narration) before this log entry was written. **Full Round 4
+  yield: 7 videos, 57 new facts, yield = 8.14/video** — the lowest of this channel's 4 rounds so
+  far (Round 1: 11.5, Round 2: 10.3, Round 3: 12.9), but still well inside the normal-variance band
+  (no >50% single-round drop, no sub-1.0/video floor breach) — first visible sign of same-channel
+  saturation on this project's most mature topics (plumbing/electrical rough-in), not a
+  stop-and-ask trigger. **Round 4 is now fully closed.** Next: Round 5 (Bathroom part 2 +
+  Walls/Ceilings part 1, 7 videos: `1x7srLdq12I`, `BDudniuyJ4s`, `_XCBMJmosDk`, `kxr8zFvUTj8`,
+  `W1PKG4tVw_g`, `lhNC30_adGc`, `qzi1LqwsP5k`) — worth a title-skim/value-filter pass before full
+  dispatch given Round 4's saturation signal on bathroom-adjacent topics, per the standing
+  value-filter rule, rather than assuming full processing by default.

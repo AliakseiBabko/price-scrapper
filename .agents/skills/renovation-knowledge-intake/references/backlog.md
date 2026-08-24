@@ -128,6 +128,20 @@ something to squeeze into a housekeeping check between processing rounds.
 the date/context it was flagged, same as the entries above, so a future
 session doesn't have to re-derive whether it's still overdue.
 
+## CSV data-quality: 6 legacy malformed rows (found 2026-08-24)
+
+While verifying two Kruglov/Sidorik intake rounds, found 6 pre-existing
+`00_Master/processed_sources.csv` rows (`run_20260805_2`, `_3`, `_4`,
+`run_20260810_1`, `_2`, `_8`) that parse to 16 columns instead of the
+schema's 15 — likely an unescaped comma inside a `notes` or `topic_tags`
+field from that day's batch (e.g. a `"25,000-45,000 RUB/m2"` figure written
+without full field quoting). Not caused by, or related to, today's work —
+found only because today's rounds were verified with Python's `csv` module
+rather than a naive line count. Not fixed here (out of scope, low urgency,
+doesn't corrupt anything downstream since no tool has broken on it yet) —
+worth a small dedicated pass to locate and re-quote the offending field in
+each of the 6 rows.
+
 ## Tooling limitations (known, not urgent)
 
 - `tools/verify_batch.py`'s arithmetic-plausibility check only fires on

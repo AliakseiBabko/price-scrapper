@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=IFnZxitFeNk",
+  "video_id": "IFnZxitFeNk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T09:16:41.712626+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "35a88ed57a3b7f2f111062b7343f52ced50eb6250982c04bf4f98aa8bbf532b4",
+  "attempts_before_success": []
+}

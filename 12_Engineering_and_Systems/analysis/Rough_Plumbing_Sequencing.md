@@ -90,6 +90,61 @@ Konstantin Kruglov / Ontario gives a fuller three-way taxonomy, extending the ra
 
 **~90% of developers run radiator pipes up through the floor by default, purely because it's faster/cheaper to build** — when converting to radial distribution, feed radiators from the wall instead. Beyond the floor-covering-integrity benefit already noted, floor-fed pipes create a permanent obstruction directly under/beside the radiator that neither a robot vacuum nor manual mopping can clear, becoming a chronic dust/grime accumulation point. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
 
+## Toilet Minimum Width, Pre-Finish Sequencing, and Inlet-Node Mounting Mistakes (added 2026-08-24, Round 5)
+
+Pavel Sidorik gives a **minimum comfortable toilet width when demolishing/rebuilding partitions: 100 cm** — enough to fit a toilet, sink, and hygienic shower while staying usable. His own toilet was originally ~130 cm; he narrowed it to the 100 cm minimum and gave the reclaimed space to the adjoining bathroom. A narrower toilet is physically possible (a sink still fits) but "not as convenient to use." `single-account`.
+
+**Two sequencing mistakes to fix before mounting inlet-node equipment on a wall**: (1) soundproof the sewage stack *before* boxing it in with drywall/tile — impossible to add once the wall is closed and finished, typically only discovered after move-in (reinforces this page's existing "soundproof before enclosing" rule); (2) **putty and paint the wall surface before mounting the inlet-node equipment on it**, not after — mounting first means finishing the wall afterward has to be done working around pipes, the boiler, and the installation frame, versus just a small touch-up if the wall is finished first.
+
+**A dedicated "plumbing equipment project" (проект на сантехническое оборудование), distinct from a design project**: this practitioner had an engineer draft a project specifying exactly what equipment will be installed and the installation *sequence* — separate from a designer's project, which only shows supply/drain outlet locations and installation-frame position. Framed as protection against plumber error, including from an unqualified plumber found through classifieds, since every nuance is worked out and agreed between engineer, homeowner, and installer in advance. A genuinely new, reusable planning-process concept for this store — not yet matched to an existing page beyond this one; flagged in Pending Wiki-Page Decisions if it recurs.
+
+**A water-hammer arrestor mounted on an extension fitting for installation convenience creates a stagnant water pocket where bacteria can grow** — this practitioner had to redo the mounting after installing one this way; mount an arrestor directly, not on an extender.
+
+**A "why" for the existing kitchen sink+dishwasher rough-in ordering rule above**: give the kitchen cold-water branch 3 separate outlets (mixer, filter, dishwasher) rather than one outlet split downstream with tees — routing everything through tees afterward is "not very convenient."
+
+**A real building-shutoff timing data point**: swapping the main shutoff valves and re-soldering a towel-warmer jumper during a riser inlet-node replacement took only 4 hours of water shutoff — useful for scheduling this stage of work with a building's management company.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cj2U_wVlG-I_sidorik_plumbing_intro_node_errors|Cj2U_wVlG-I_sidorik_plumbing_intro_node_errors]]]
+
+## Chase Sizing, Slope Technique, and Worked Fixture-Routing Examples (added 2026-08-24, Round 5)
+
+Pavel Sidorik, episode #24 on this same project's sewer install:
+
+**Size a chase (штроба) to the connector/fitting's outer diameter, not the pipe's own diameter** — fittings are meaningfully wider/deeper than the pipe. Concrete worked numbers: 50mm pipe needs a chase clearing ~70mm for its connector; a 20mm PP pipe's fitting is roughly 40mm, so the chase should be at least 45mm; a 32mm pipe's fitting is roughly 45mm. **Cutting the chase with the correct slope already built in makes the chase itself a self-guiding jig** — once seated, the pipe physically can't shift out of that slope. Leave margin in width and depth rather than cutting tight to the exact pipe/fitting size.
+
+**Drain-slope rule, with a concrete worked example and a spacer-gauge check technique — corrected by the same source one episode later (see below)**: maintain 2 cm of drop per 1 linear meter of horizontal run — a washing-machine drain 3 meters from the toilet's sewage riser needs 6 cm of total slope (2m→4cm, 3m→6cm, etc). **On-site check**: cut a short spacer piece of pipe to the exact target drop (e.g. a 2cm piece for a 1m run) and hold it under the pipe's far end to verify the slope visually.
+
+**Self-correction, on-camera, one episode later (added 2026-08-24, Round 5)**: Pavel Sidorik explicitly retracts the flat "2cm/meter" figure above as incomplete — the real, diameter-dependent rule is **3cm/meter slope for 50mm (d50) pipe, and 2cm/meter for 110mm (d110) pipe**. The 50mm figure now **exactly corroborates this page's existing Kruglov/Ontario figure** ("~3cm per meter for 50mm pipe") rather than conflicting with it as initially thought — the apparent disagreement was this source's own initial imprecision, now resolved by its own follow-up correction; the 2cm/meter figure applies specifically to the larger 110mm pipe, not as a universal constant. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-JlpzE6aHiU_sidorik_towel_warmer_ep25|-JlpzE6aHiU_sidorik_towel_warmer_ep25]]]
+
+**The two-45°s-not-a-90° corner rule holds, but "unfortunately not always possible"** — this source explicitly flags cases where the ideal isn't achievable, with two worked exceptions below, each with a stated reason (not just "sometimes 90° is used").
+
+**Kitchen (or any multi-fixture zone) sewage-outlet count: at least 2, ideally 3+ separate outlets** — a worked example gives 4 (sink, dishwasher, air conditioner, reverse-osmosis filter); an unused outlet can simply be capped later, so oversizing this is low-risk. **Extends this page's existing kitchen water-outlet-count rule to the drain/sewage side of the same wall.**
+
+**Pipe-cutting, deburring, and lubrication technique**: a dedicated rotary pipe-cutting blade tool costs 70-80 BYN (Belarus, 2021, ≈$30 at the trailing-6-month USD/BYN average before the 2021-07-17 publish date) — "a bit pricey," especially needing two separate blade sizes for 50mm and 32mm pipe, which is why most plumbers just use an angle grinder instead. **Always chamfer the outer edge and remove internal burrs after cutting any pipe** — skipped burrs obstruct flow and accumulate silt over time, eventually requiring the pipe to be cleaned out. **Use dedicated silicone lubricant for joint assembly, never a substitute** — explicitly rejects liquid soap, petroleum jelly, and homemade alternatives as inadequate; real silicone lubricant is inexpensive and makes assembly meaningfully easier, especially for larger-diameter joints that can be physically impossible to seat dry.
+
+**Worked fixture-routing examples, with stated reasons for each corner-rule exception**:
+- **Washing machine drain**: 32mm pipe (not 50mm) — the washer's own drain hose is thinner than 50mm would need, and the machine's own drain pump makes gravity slope less critical. **A single 90° elbow is used here deliberately**, not two 45s, because two 45s would need a wall/chase roughly twice as thick — the pump does the work, not gravity, so the exception is low-risk here specifically.
+- **Sink drain**: transitions 32mm→50mm with the transition fitting turned *upward* so falling water doesn't splash back out; uses a 45° elbow (not 90°) at the direction change.
+- **Wall-protrusion cosmetic rule**: where a diameter transition happens right at the wall face, route the *smaller* pipe (32mm) through the wall face rather than the larger one (50mm) — it protrudes less.
+- **Tub drain height-control warning**: don't set a tub's sewage stub-out based on the current unfinished floor level — it must account for the screed+tile buildup still to come, or the tub will need an unnecessarily raised, slope-starved installation once the floor is actually finished.
+- **Toilet-room node**: carries a 50mm line to the tub, a 50mm-to-32mm line to the toilet-room sink, and a separate 90mm line specifically for the installation-frame connection (matching the 90mm frame-outlet spec noted in the prior episode), which itself transitions to 110mm to join the main riser.
+
+**Buy sewage fittings with margin, planning to return unused pieces** — especially when connecting to an installation frame, where the exact fittings needed are hard to predict in advance. **Named product**: German Ostendorf sewage pipe, priced comparably to a Russian equivalent with better stated quality; 90mm pipe (matching the installation-frame outlet size) is useful but not always easy to find since the market default is 110mm.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_S4fOYedAruE_sidorik_sewer_installation_ep24|S4fOYedAruE_sidorik_sewer_installation_ep24]]]
+
+## Metal-Plastic Pipe System, Mounting Workaround, and a Second Chase-Sizing Confirmation (added 2026-08-24, Round 5)
+
+Pavel Sidorik, the "last plumbing episode" of this project's sewer/supply arc, uses **Kan Therma Ultraline** — an axial-press metal-plastic pipe with no internal rubber O-rings (unlike classic metal-plastic pipe, whose two internal rubber rings can become a weak point over time). Specs: max 95°C, max 10 bar, 2.2mm wall thickness; brass or PPSU fittings; different pipe types (e.g. metal-plastic and PEX) can be joined to each other. Installation tooling/technique is identical to PEX: same press tool (normally rented), tension sleeve slid on, pipe expanded in two passes with a 30° rotation between, then compressed with the press. **The core selling point: zero joints inside the screed** — one continuous pipe runs from the water-outlet fitting straight to the manifold, concretely illustrating this page's existing manifold/radial-distribution rationale (fewer embedded fittings) at the level of an actual product choice.
+
+**A second, independent same-channel confirmation of the chase-sizing-to-fitting rule** (see episode #24's addition above): chases were pre-cut sized to the outlet/fitting's depth and width, not the thinner pipe itself.
+
+**Fixture-outlet mounting workaround and sequencing**: when a new pipe system's own mounting plates aren't available yet, cut the mounting tabs off plates from a different (but compatible) system and glue outlets in place with hot glue as a workaround. **Mount and level fitting outlets first, then run pipe to them** — doing it pipe-first makes leveling the fittings harder since the pipe is in the way. Where the standard mixer-fitting spacing doesn't apply (a single supply point, e.g. a washing machine), skip the dedicated mounting plate — use plain ГВЛ as a simple platform, or for a genuinely single point, embed the outlet directly into the plaster. Insulate exposed pipe/outlet ends before plastering to keep plaster out of the fitting.
+
+**A specific material-compatibility warning**: never spray foam onto or near PPSU fittings — foam was used to fill other deep recesses before plastering, but PPSU-fitting locations and press-sleeve locations were explicitly excluded.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26|q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26]]]
+
 ## Fixture Stub-Out Coordinates
 
 A complete rough-plumbing stub-out coordinate reference by fixture type (sink, shower, tub, toilet+hygienic-shower, urinal, washing machine, kitchen sink with/without an adjacent washer) has its own dedicated page — see [[12_Engineering_and_Systems/analysis/Fixture_Stubout_Coordinates|Fixture Stub-Out Coordinates]] (added 2026-08-18).

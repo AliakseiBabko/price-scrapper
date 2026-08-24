@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=MOYwhSd8tv4",
+  "video_id": "MOYwhSd8tv4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T09:19:48.574665+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f246dc45feb34595601e5a32b3acc25f7ae749caf33d5ac5b0be1be2c8894530",
+  "attempts_before_success": []
+}

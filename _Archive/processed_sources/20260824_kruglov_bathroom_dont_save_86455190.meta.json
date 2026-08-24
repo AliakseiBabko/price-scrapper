@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ZlvJE-ncrK8",
+  "video_id": "ZlvJE-ncrK8",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T09:22:25.559396+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "86455190b72b990c552f82ec2045f00977ad4cd838c91345644fbb0c82cf5b8c",
+  "attempts_before_success": []
+}

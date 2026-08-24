@@ -17,6 +17,15 @@ Migrated 2026-08-24 from `Durable_Facts.md`'s "Design Concept" topic bucket ("In
 
 All items: `confirmed` as this practitioner's stated technique/convention, single-account (one Zemstandart video) — not independently cross-channel corroborated, consistent with this vault's existing single-account caveat for this channel elsewhere.
 
+## Rounded/Curved Walls — a Rising Trend, Bathroom-Adjacent (added 2026-08-24)
+
+Konstantin Kruglov / Ontario: rounded/curved (non-rectilinear) walls, mostly seen in living rooms/kitchens/bedrooms but relevant here because a bathroom sharing a wall with such a room can end up with a curved section too. **Poor fit for small bathrooms**; gaining real popularity in large bathrooms in private houses and free-plan large apartments. **Pros**: reads as strongly "designer"/modern; where a bathroom has a corner-facing entry, a curved wall removes the harsh corner and gives a more comfortable, cozy feel. **Cons**: meaningfully harder to build (plastering, painting, and finishing all get more complex); **tile can no longer be used at all on a curved wall — only mosaic, or a roller/brush-applied finish (e.g. paint, microcement — see below)** works on a curved surface. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
+
+## Microcement (микроцемент) as a Wall/Floor Finish — a 2025-2026 Trend (added 2026-08-24)
+
+Konstantin Kruglov / Ontario: microcement is a thin-applied, highly wear-resistant finish coating for both walls and floors — relevant to a bathroom both as a floor/wall finish in its own right and as one of the few materials that actually works on the curved walls described above. **Pros**: fully monolithic/seamless — no grout lines or joints anywhere across the whole floor+wall area, unlike tile; water-resistant, though this specifically depends on applying the correct topcoat/sealant ("лак") — water-resistance is a property of the finished system, not the raw material alone; reads as minimalist/aesthetic; available in a large range of textures and colors. **Cons**: requires a highly skilled, specialized installer — an incorrectly applied base coat *or* an incorrectly applied protective topcoat both mean the material won't deliver its claimed look, durability, or water-resistance; genuinely expensive, in both material and labor cost, not a budget option; less impact-resistant than porcelain tile (керамогранит) — more prone to mechanical damage. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
+
 ## Change Log
 
 - 2026-08-24 — Page created, migrating this content verbatim from `Durable_Facts.md`'s Design Concept bucket, as part of standing up the new `17_Design_and_Ergonomics` folder per explicit user request.
+- 2026-08-24 — Added curved-walls and microcement trend sections from Kruglov/Ontario's 2026 bathroom-trends video (`YT_IFnZxitFeNk`), Round 4 (Kruglov channel plan).

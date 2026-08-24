@@ -6,12 +6,43 @@
     "wowlXrlGrEc": "archived",
     "WK-KLd2ssYY": "archived",
     "wsomY_6BRqA": "archived",
-    "sd2XYBZY-K8": "failed_rate_limited",
-    "IFnZxitFeNk": "pending",
-    "MOYwhSd8tv4": "pending",
-    "ZlvJE-ncrK8": "pending"
+    "sd2XYBZY-K8": "archived",
+    "IFnZxitFeNk": "archived",
+    "MOYwhSd8tv4": "archived",
+    "ZlvJE-ncrK8": "archived"
   },
-  "halted": true,
-  "halt_reason": "youtube-transcript-fetch exit code 2 (rate_limited_or_ip_blocked) on video 4 of 7 (sd2XYBZY-K8). Per skill guardrail: stop fetch phase, do not mark remaining videos skipped, wait for real cooldown before any retry.",
-  "halted_at": "2026-08-24"
+  "halted": false,
+  "halt_reason": "youtube-transcript-fetch exit code 2 (rate_limited_or_ip_blocked) on video 4 of 7 (sd2XYBZY-K8) on 2026-08-24 (first attempt). Resolved: bounded single retry after a real cooldown succeeded on 2026-08-24 (second attempt) -- see retry_log below.",
+  "halted_at": "2026-08-24",
+  "round_status": "CLOSED -- all 7 of 7 videos archived as of 2026-08-24",
+  "round_yield": {
+    "videos_processed": 7,
+    "new_facts": 57,
+    "yield_per_video": 8.14,
+    "breakdown": "5 (wowlXrlGrEc) + 8 (WK-KLd2ssYY) + 16 (wsomY_6BRqA) + 5 (sd2XYBZY-K8) + 8 (IFnZxitFeNk) + 12 (MOYwhSd8tv4) + 3 (ZlvJE-ncrK8) = 57"
+  },
+  "retry_log": [
+    {
+      "video_id": "sd2XYBZY-K8",
+      "retry_result": "success",
+      "retry_at": "2026-08-24",
+      "method": "youtube-transcript-api (language=ru, generated=True)",
+      "notes": "fact_yield 5, archived: run_20260824_sd2XYBZY-K8. Routed to Leak_Protection_Systems.md, Structure_and_Framing.md, Fixtures_Mixers_and_Sinks.md, 09_Laundry_Room/analysis/Dos_and_Donts.md."
+    },
+    {
+      "video_id": "IFnZxitFeNk",
+      "retry_result": "n/a (fetched normally after sd2XYBZY-K8 succeeded, no rate-limit encountered)",
+      "notes": "fact_yield 8, archived: run_20260824_IFnZxitFeNk."
+    },
+    {
+      "video_id": "MOYwhSd8tv4",
+      "retry_result": "n/a (fetched normally, no rate-limit encountered)",
+      "notes": "fact_yield 12, archived: run_20260824_MOYwhSd8tv4."
+    },
+    {
+      "video_id": "ZlvJE-ncrK8",
+      "retry_result": "n/a (fetched normally, no rate-limit encountered)",
+      "notes": "fact_yield 3, archived: run_20260824_ZlvJE-ncrK8."
+    }
+  ]
 }
