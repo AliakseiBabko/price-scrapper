@@ -101,6 +101,54 @@ re-extracted.
   reasonably cost the same per unit as installing 2,000 RUB/m² tile.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xd1xP2FuN40_petrishin_kill_tile_spotcheck|xd1xP2FuN40]]]
 
+## Complex Small-Format Tile: Custom-Slope Cutting, Box-Sizing, and Cost Economics (Петришин-Строй, added 2026-08-24, Round 3)
+
+Real object, ЖК "Фестиваль Парк" (region level 2, named development,
+city not spoken). Medium promotional ratio. Extends this page's existing
+box-sizing-for-layout and corner-mitre content with a more elaborate
+real-object worked example.
+
+- **Custom sloped shower-pan tile fitting**: a non-standard, custom
+  artificial-stone shower pan (its own sloped-drainage spec, not
+  off-the-shelf) required each small-format tile piece around its
+  perimeter to be individually cut/ground/beveled to its own unique
+  angle, numbered in sequence so each custom-cut piece returns to its
+  exact intended position.
+- **⚠️ Box/niche dimensions pre-calculated at the construction stage to
+  land a whole tile at a 45°-mitered corner** — a second, independently
+  observed real case of this page's "widen the box to avoid a bad cut
+  piece" principle: row count was worked out and the box sized
+  accordingly *before* building it, not corrected after tiling started.
+- **Deliberate grout-joint-width variation (1.5mm vs. 2mm) used as a
+  layout-correction tool**: one section's joint was widened slightly
+  specifically so the row would terminate on a whole tile instead of a
+  narrow (~1cm) unsalvageable offcut.
+- **⚠️ Access-hatch reorder + box-widening to avoid a cut tile at the
+  hatch edge**: the hatch was originally sized before the final tile
+  layout was calculated; once the tile count was known, the crew
+  reordered a different hatch size and widened the box so the hatch
+  opened flush, framed by whole tiles on every side.
+- **Triangular-tile-shape seam-alignment complexity**: every seam in a
+  triangular-tile section must align continuously across the pattern —
+  meaningfully harder than a straight-line/rectangular pattern.
+- **⚠️ Cost-driver mechanism, extending this page's existing cost-risk
+  labor-pricing rationale with a real mid-project revision case**:
+  large-format tile is more profitable per hour for a tiler (faster
+  completion frees them for the next paid job), which is why many
+  tilers are reluctant to take small/complex-format jobs even at good
+  pay. On this job, once the true difficulty became apparent, the
+  company formally revised its cost estimate mid-project and obtained
+  the client's explicit consent before continuing (flagged to the
+  client as a real possibility before work started).
+- **Real productivity data point**: one full wall of this complex
+  small-format tile took a full workday to lay, plus a full second day
+  just for grout-joint cleanup.
+- **Practitioner's own practical recommendation, distinct from personal
+  taste**: recommends ordinary large-format tile to most people for
+  simplicity/cost, while personally finding small-format tile's own
+  visual result appealing too.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|ah3StuP2TZE]]]
+
 ## Sequencing
 
 Lay and grout the floor tile **first**, including under the tub's footprint — set the tub *after* floor tiling, not before (see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] for how the tub-to-wall-tile junction itself sequences).

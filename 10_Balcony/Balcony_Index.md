@@ -28,6 +28,72 @@
 - **A complete customer-side acceptance checklist exists and is worth using verbatim if hiring out this work** — specific tools (laser plane-builder, digital calipers, a low-E glass detector), specific tolerances (plumb/level ≤1.5mm/m, max 3mm over the full unit height), and specific checks (every locking point individually, not just "does it close"; drip-cap knock-test for sound dampening; profile/hardware/glass markings cross-checked against the design brief).
 - **Real safety-relevant caution**: an existing parapet's structural integrity can secretly depend entirely on its current old glazing — check with a simple push/kick test *before* any demolition begins, not after. A real documented repair case used compression-type anchors (never standard window-frame anchors — mixing the two undoes the whole repair) and painted steel bracket reinforcement.
 
+## 🔥 Insulation & Heating Technique — per Петришин-Строй (added 2026-08-24, Round 3)
+
+> [!NOTE]
+> Region **level 1 — clears the bar directly** (Moscow named directly in
+> this video's own spoken content, this channel's second level-1 source).
+> Retained as general technique/cost reference — the heated-floor/
+> electric-radiator content below is **not applicable to this project's
+> own unheated plan** (see Family Needs below), the same way the
+> Zemskov radiator-relocation content already on this page is retained
+> for reference despite not being adopted. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qt4uGvGRYT0_petrishin_balcony_insulation|Qt4uGvGRYT0]]]
+
+- **Fundamental principle**: insulation conserves heat, it doesn't
+  generate it — pointless without a real heat source. **Water/hydronic
+  radiators are illegal on a balcony/loggia** — independently
+  corroborates this page's existing Zemskov-sourced legal-risk finding
+  with a second, unrelated company's own stated practice. Electric
+  radiator is the legal alternative; recommended combination (where
+  heating is wanted) is heated floor + electric radiator.
+- **Window glazing is a hard prerequisite independent of insulation
+  thickness** — even 10cm of two-layer insulation is pointless behind
+  thin, draft-prone frames. Double-pane ("двухкамерный") glazing from a
+  reputable, genuinely non-drafting manufacturer is non-negotiable.
+- **Material comparison**: пеноплекс ("Комфорт" variant recommended for
+  a loggia) is the default — bonds well to concrete/brick, needs far
+  less thickness than mineral wool for the same effect (mineral wool
+  eats too much of a small loggia's floor area). Пенофол (foil-faced
+  reflective roll insulation) is layered specifically at heat-source
+  locations (behind a radiator, under a heated floor) to reflect heat
+  back into the room.
+- **Пеноплекс thickness rule**: minimum 5cm single-layer; if doing two
+  layers, 2.5cm each with the second layer's seams staggered/offset
+  against the first layer's — eliminates a straight-through cold path
+  at any single seam.
+- **Heated-floor-over-insulation stack, with a named failure mode it
+  avoids**: пеноплекс → пенофол → aquapanel (moisture-resistant cement
+  board) → heated-floor cable → finish flooring. Aquapanel is
+  mandatory — a heated-floor cable installed directly onto bare
+  пеноплекс risks the insulation itself degrading from direct heat.
+  Screed over this stack needs a minimum 5cm thickness or it risks
+  detaching/cracking off the underlying пенофол layer; a thicker
+  cable-heated screed also acts as a thermal accumulator (slower to
+  heat, holds heat longer) — a real tradeoff, not a pure downside.
+- **⚠️ Real documented failure case, relevant even to an unheated plan's
+  own flooring choice reasoning**: a client's quartz-vinyl flooring
+  installed over a heated loggia floor developed gaps, cupping, bumps,
+  and squeaking; the manufacturer blamed exceeding an unstated
+  temperature limit and offered no resolution. **Recommendation: use
+  ceramic tile or porcelain tile over any heated loggia floor** instead
+  of quartz-vinyl/laminate/engineered wood, citing thermal conductivity
+  and crack/squeak/gap resistance; a wood-look porcelain tile exists as
+  a close visual substitute.
+- **Full-contour insulation required** (floor, walls, ceiling — any gap
+  is a cold entry point). Anchor stems must be plastic, never metal — a
+  metal stem becomes a literal cold-transfer bridge through the
+  insulation layer.
+- **Loggia-merged-with-living-room detail**: insulation must extend
+  30-50cm into the adjoining room past the former door threshold, to
+  avoid a sharp uninsulated thermal-bridge line — must be planned at
+  the design-project stage.
+- **Real cost benchmark, level-1 Moscow region, 2025**: a standard
+  3m × 1.2m loggia (3.6 m² floor area), full insulation labor +
+  materials, **38,000 RUB (≈$460, ≈$130/m²)**. Turnkey/Full-Service
+  delivery model. First Petrishin-Stroi cost benchmark specifically for
+  loggia insulation (distinct scope from this channel's apartment-wide
+  rough-stage benchmarks in `Budgeting_Guide.md`).
+
 ## 🧱 Materials & Finishes
 
 * **Flooring / Subfloor** — *per Zemskov, added 2026-08-10*: a complete insulated timber subfloor method exists (see Source Notes). Height governed by 3 hard constraints: step height ≤20cm at the doorway, final ceiling height ≥2.45m, final railing height ≥95cm (**≥110cm specifically if young children will use the loggia**) — plus a 4th, softer reason to raise ≥15cm (baseboard/trim clearance). Framing: 50×70mm timber, cross-joists set to the uneven slab, only the 2-3 longitudinal lags leveled precisely. Mineral wool insulation, full coverage including the section adjoining the "warm" apartment wall (a downstairs neighbor's own insulation does **not** warm this floor — a real myth Zemskov explicitly debunks). Sheathing: moisture-resistant chipboard (ДСП) over plywood/solid board (most durable of the three under humidity swings), 2-3mm sheet gaps to prevent squeaking. **Final step: seal the subfloor's own perimeter with foam** — the under-panel cavity is ventilated, and an unsealed perimeter lets wool fibers migrate into the room through the convection grilles.
@@ -78,5 +144,7 @@ All sources below are Alexey Zemskov / Zemstandart-Zemsproekt (Moscow), fetched 
 - **Loggia zoning fix, general pattern** — relocating a loggia's entry-door position to make both storage-run sides directly reachable (0 → 2 usable storage zones on the same footprint, plus a centered-lighting rule); part of a kitchen-living-loggia combined-layout source (#154, 2021-10-31, remainder-pool batch, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_WmkOC9uKnCQ_kitchen_living_loggia_layout_lifehack_154|extraction note]].
 - **Loggia insulation-removal-for-area-gain technique** — verifying actual wall composition before joining, then removing an unnecessary existing insulation layer once properly re-glazed/warmed, recovering ~1 m² of usable floor area on top of the join itself; part of a full 111.5m² replan case (#520, 2020-03-15, remainder-pool batch, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|extraction note]].
 - **Second insulation-removal data point (17cm width recovered)** and **loggia rest-zone minimum width (~1.10m, ideally 1.20m, after glazing/insulation buildup)** — a large-scale remote-client project (#298, 2025-06-08, remainder-pool Round 2, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vRLdOS5HTTU_got_back_stolen_space_298|extraction note]].
+
+- **Insulation material comparison, thickness rules, heated-floor-over-insulation layer stack, a real quartz-vinyl-on-heated-floor failure case, and a level-1 Moscow cost benchmark** (Петришин-Строй, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qt4uGvGRYT0_petrishin_balcony_insulation|extraction note]] (2025-08-03).
 
 Full raw facts (including cross-references not repeated here) live in the `Balcony / Loggia` sections of [[11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index|store/_index.md]].

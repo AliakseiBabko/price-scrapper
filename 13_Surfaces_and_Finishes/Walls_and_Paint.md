@@ -58,6 +58,49 @@ See [[13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels|Decorative Wall P
 - **Wall-tie/hanger spacing to an adjoining structural wall: every second course, using flexible ties, never rigid angle brackets** — flexible ties absorb minor building settlement without cracking the partition; rigid brackets don't. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qs_FxXdsq40_masonry_glue_foam_technique_260|Qs_FxXdsq40_masonry_glue]]]
 - **Top-of-wall-to-ceiling gap treatment**: ≤2.5cm, foam directly with standard mounting foam (explicitly distinct from block-glue-foam — don't confuse the two products); larger gaps get blocks cut down first, then foamed. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qs_FxXdsq40_masonry_glue_foam_technique_260|Qs_FxXdsq40_masonry_glue]]]
 
+## Reveal-Plastering Guide Profile, First-Course Thickness Mechanism, and Whole-Apartment Pre-Wall Squaring (Петришин-Строй, added 2026-08-24, Round 3)
+
+A second, independent company's practice on a real ~96m² object — region
+level 2 (channel-only Moscow association, no city named). Medium
+promotional ratio (two CTAs).
+
+- **German-made plastic guide profile at door/window reveals, specifically
+  to prevent reveal-plaster cracking as the building settles/"plays"** —
+  normally a facade-work product, repurposed here for interior reveals;
+  framed as the fix for a near-universal reveal-cracking problem.
+- **First masonry course always on cement-sand mortar, later courses on
+  adhesive — extends this page's existing corroborated rule with a
+  numeric mechanism**: adhesive-layer thickness is capped at **10mm**;
+  beyond that, the adhesive's finer aggregate fraction can settle within
+  the joint and crack over time, which is why a thicker leveling
+  correction has to happen at the mortar-bed first course instead.
+- **⚠️ Whole-apartment squaring must be measured and marked *before* wall
+  construction starts, independently corroborated on a second, unrelated
+  company's project** — the stated failure mode this avoids: discovering
+  only after walls are built that a corner needs an 8cm plaster
+  build-up, or in the worst case genuinely can't be corrected at all.
+  Squaring tooling is now laser-based; the company no longer stocks an
+  ordinary 90° carpenter's square for its own work (though notes a
+  client checking a corner themselves would typically use one, since it
+  needs no special skill to walk around and verify with).
+- **Client/independent-inspector-facing QC verification practice**: the
+  crew leaves marked reference lines on walls specifically so a client or
+  their own independent building inspector ("технадзор") can call in and
+  verify wall straightness/squareness against those exact marks — plus
+  a photo/video documentation requirement at every seam between two
+  different wall materials (confirming mesh is present) and at the
+  masonry top joint (confirming it's fully foamed).
+- **Real job-speed/crew-structure data point**: ~96m² object, fully
+  plastered in **2 weeks**, crew of 6-7 with no unskilled-helper role —
+  every member a fully qualified all-round finisher, enabling immediate
+  parallel task division on arrival (layout marking and demolition
+  starting simultaneously).
+- **⚠️ Neighbor-noise legal-limit figure, `ASR-uncertain`**: speaker cites
+  a legal noise limit of roughly 50 dB ("если не ошибаюсь"), alongside a
+  practiced habit of avoiding loud work during a noise-sensitive
+  downstairs neighbor's quiet hours regardless of the legal minimum.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lTeNBUR1u8g_petrishin_wall_squareness|lTeNBUR1u8g]]]
+
 ## Radiator-Niche Insulation Mechanism — per Zemskov/Zemstandart (added 2026-08-18)
 
 > [!NOTE]
@@ -238,6 +281,64 @@ this episode). First wallpaper/paint acceptance-QC content on this page
   splatter is very hard to remove once dried.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VcrYHkDgb0o_petrishin_kill_walls_spotcheck|VcrYHkDgb0o]]]
 
+## Wall-Prep-for-Paint Staged Sequence, Timeline, and Cure-Discipline (Петришин-Строй, added 2026-08-24, Round 3)
+
+On-site interview with a subcontracted painter ("маляр"), not a company
+principal — first painting-specialist interview on this channel
+processed so far. Region level 2 (channel-only Moscow association, no
+city named). Low promotional ratio.
+
+- **Wall-prep-for-paint staged sequence, distinct from this page's
+  existing wallpaper-oriented prep sequencing**: full substrate float/
+  skim ("затирка") → **raking-light bump check with a portable work
+  lamp before sanding** (finds remaining bumps/waves so the sanding pass
+  removes exactly what the light reveals) → sanding → priming
+  ("грунтовка", removes dust, promotes bonding) → chase-filling → a base
+  filler pass, either "Пуфас" or "Унифлот" (see below) → **for a
+  paint-destined wall specifically**, two coats of "LR" putty (a product
+  the speaker says is normally used as a wallpaper finish coat,
+  repurposed here as an intermediate paint-prep layer) → fiberglass
+  wallpaper-backing mesh ("стеклохолст") glued across the entire
+  apartment (not just paint rooms) → final "Шитрок" (Sheetrock-brand)
+  finish putty → full sanding to true flatness → handover.
+- **"Пуфас" vs. "Унифлот" base-filler tradeoff**: Пуфас is slightly
+  cheaper but sandier/coarser and sheds more, needing an extra
+  troweling/rub-down pass so it doesn't later flake off; Унифлот costs
+  slightly more but self-bonds better ("as if already primed") and lays
+  flatter on its own, giving a modest labor-speed edge — the installer's
+  own view is that the time difference is minor and depends more on job
+  volume than the filler choice.
+- **Timeline**: full wall-prep-for-paint stage takes **2-3 weeks even for
+  a small area**; the painting pass itself afterward is only **1-2
+  days** — not time-consuming, but effort-intensive (avoiding drips/
+  runs, getting tone right).
+- **24-hour per-stage cure rule and its effect on a small job**: every
+  stage needs roughly a day to cure regardless of how little work it
+  took — named example: a balcony-only job where ~1 hour of actual work
+  on one stage still means the next visit must wait a full day before
+  continuing; on a full-apartment job the installer instead works
+  room-to-room in a rotating cycle so no single day is wasted waiting.
+- **⚠️ Most common paint-prep defect location: edges/corners, not the
+  open wall field** — distinct from this page's existing plastering-QC
+  content (which flags door openings as the main defect zone for
+  *plaster*): a less-practiced installer may not carry the finish layer
+  fully to an edge (e.g. a door/window reveal), leaving a short uneven
+  strip; getting this right needs a "trained hand." Chase lines
+  ("штроба") can still show as a visible groove after the first
+  finish-putty pass — sometimes needing **2-3 coats** to fully
+  disappear, followed by full sanding.
+- **⚠️ Cross-trade sequencing risk, named explicitly on-site**: a window/
+  door-frame crew working *after* plastering but *before* painting can
+  break already-finished door/window reveals — the painter then has to
+  redo that section as fresh plastering work before starting his own
+  finish-coat sequence, a real, uncoordinated-scheduling cost driver.
+- **Practitioner's own quality-distinguishing criterion, explicitly a
+  work-ethic judgment rather than a technical checklist**: asked how to
+  spot a bad painter, the speaker frames it as attitude toward the work
+  (taking the extra time to get a step right) rather than naming any
+  single technical tell.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d8WzpxSSX8k_petrishin_walls_for_paint|d8WzpxSSX8k]]]
+
 ## Wallpaper vs. Paint — Prep-Cost Mechanism and DIY Removal Tip (RemProektMD, added 2026-08-24)
 
 > [!NOTE]
@@ -304,3 +405,5 @@ RemProektMD/Andrei explains **why wallpaper is cheaper than paint for the same w
 - **"Total Disaster for 540K, Thanks to the Designer" — truncated-closet technique, split-loggia technique, 150mm partition (6th corroboration)** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_M4dxo-6kcDs_540k_thanks_designer_242|extraction note]] (#242, 2023-10-10).
 - **"638K to the Landfill, Thanks to the Designer" — gas-code glass-partition technique, future-flexible partition-wall technique** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2E7YVK6PhIM_638k_thanks_designer_241|extraction note]] (#241, 2023-10-03).
 - **"Designer Disaster for 420 Thousand" — future-flexible wiring technique, gaming-screen-angle rule** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_e1HRByaCFv0_420k_designer_disaster_239|extraction note]] (#239, 2023-09-26).
+- **"Идеальные стены под покраску" — wall-prep-for-paint staged sequence, filler comparison, cross-trade sequencing risk** (Петришин-Строй, painter-interview format, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d8WzpxSSX8k_petrishin_walls_for_paint|extraction note]] (2025-06-22).
+- **"Идеальные стены в 90 градусов?" — German reveal-guide profile, first-course thickness mechanism, whole-apartment pre-wall squaring, client QC-verification marks** (Петришин-Строй, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lTeNBUR1u8g_petrishin_wall_squareness|extraction note]] (2025-04-20).

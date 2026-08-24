@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=lTeNBUR1u8g",
+  "video_id": "lTeNBUR1u8g",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T13:42:25.225078+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f4d754dc2ed5f2e49d087eff4571044e8e1f3ec0cb0abe74efb696806bf244da",
+  "attempts_before_success": []
+}

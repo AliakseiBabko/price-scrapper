@@ -66,6 +66,74 @@ Konstantin Kruglov / Ontario adds a named-brand exception and a sub-taxonomy wit
 
 Konstantin Kruglov / Ontario gives four independent classification axes, useful as a buying checklist: control interface (mechanical dial, touchscreen, or buttons); programmability (simple on/off+setpoint vs. a full weekday/weekend schedule); connectivity (smartphone-app control — check per model, since visually-identical units sometimes differ only in this); and **⚠️ sensor dependency, a real failure-mode distinction**: a standard thermostat relies entirely on its own wired floor sensor — if that sensor later becomes embedded/inaccessible and fails (sealed under finished tile with no access), the whole heating system stops working until either the thermostat is replaced for a sensorless-capable model or the flooring is broken open to replace the sensor. Some models include a built-in air-temperature sensor as a fallback — less precise, but keeps heating functional if the floor sensor fails. **Prefer a thermostat with air-sensor fallback as insurance against this failure mode.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Is76QlotVFE_kruglov_underfloor_heating_hydronic_electric|Is76QlotVFE]]]
 
+## ⚠️ Perspectives — Electric Cable Floor Lifespan Disagreement (added 2026-08-24, Round 3)
+
+Two single-account sources give different service-life figures for
+electric-cable underfloor heating specifically — flagged as an open
+disagreement, not resolved in favor of either:
+
+- **Konstantin Kruglov / Ontario**: ~15 years.
+- **Петришин-Строй**: ~25 years.
+
+Both sources agree on water floor (~50 years) and film floor (~15
+years), so the disagreement is specific to the electric-cable figure.
+Neither source cites an independent testing standard or manufacturer
+spec sheet — treat the true figure as unresolved pending a
+manufacturer-sourced or third independent practitioner account, rather
+than defaulting to either number. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Is76QlotVFE_kruglov_underfloor_heating_hydronic_electric|Is76QlotVFE]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xt_q5SkINT8_petrishin_heated_floor_comparison|xt_q5SkINT8]]]
+
+## New Legality Nuance, Real Payback Economics, and Wood-Covering Thermal Mechanism (Петришин-Строй, added 2026-08-24, Round 3)
+
+Region level 2 (channel-only Moscow association). Low promotional
+ratio. Heavy structural overlap with the existing 10-parameter table
+above (not re-extracted) — only genuinely new content below.
+
+- **New legality exception for water/liquid underfloor heating**: also
+  permitted in a new-build specifically designed with separate
+  dedicated risers for underfloor heating — distinct from the existing
+  <1%-of-cases individually-metered-ground-floor-unit exception.
+  **Sharper mechanism for the illegal-hookup consequence**: connecting
+  to a shared central-heating riser without authorization also disrupts
+  the hydraulic balance of the entire riser line, not just a paperwork
+  violation.
+- **⚠️ Install cost vs. running cost, with a real payback figure**: water
+  floor is the most expensive to install but, run on mains gas or a
+  wood boiler, roughly **5× cheaper to operate** than any electric
+  floor (cable or film) — electricity tariffs are the most expensive
+  energy source in this comparison. In a permanently-occupied house,
+  the higher install cost is recouped in roughly **3 years** via gas
+  savings, saving "tens of thousands of RUB" annually thereafter.
+  Electric floor is cheaper to install but pricier to run — reasonable
+  for a weekend/seasonal dacha, financially poor for permanent
+  full-house heating.
+- **Bitumen-insulated-contact mechanism for film's wet-room
+  prohibition**, more specific than "exposed electrical connections":
+  film's electrical contacts are protected only by bitumen insulation —
+  water ingress causes a short circuit and real shock risk.
+- **Planning-sequence rule**: draw the furniture-placement floor plan
+  *before* designing the heated-floor layout, not after.
+- **Thermostat energy-saving figure**: using a thermostat instead of a
+  fixed constant setting saves **up to 30%** of energy consumption.
+- **Room-by-room combination strategy for an apartment**: film floor
+  under floating coverings in living spaces (fast, on-demand comfort
+  heating); electric cable floor under tile in wet/utility zones
+  (bathroom, kitchen, balcony).
+- **⚠️ General thermal-conductivity mechanism, broader than the
+  existing "film can't go under laminate" rule**: laminate, engineered
+  board, and solid wood all conduct heat poorly (heated-nail-vs-lit-
+  match analogy) — heating *any* underfloor-heating type under a thick
+  wood-based covering is largely pointless regardless of the heating
+  technology, since the covering itself blocks most heat from reaching
+  the surface. Recommendation: pair heated flooring with tile,
+  porcelain tile, quartz-vinyl, or linoleum instead, and always confirm
+  the covering manufacturer's own heating-temperature limit first.
+- **⚠️ Same-account restatement, not independent corroboration**: this
+  source's own quartz-vinyl-over-heated-floor failure account (cupping,
+  squeaking, manufacturer denial) is the same incident already recorded
+  from this channel's `Qt4uGvGRYT0` (loggia insulation) source — the
+  same company retelling the same real case, not a second data point.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xt_q5SkINT8_petrishin_heated_floor_comparison|xt_q5SkINT8]]]
+
 ## Brand Tier Reference (added 2026-08-24, Round 3, self-reported market survey)
 
 Konstantin Kruglov / Ontario, self-described own market survey (multiple retailer/installer calls) — **economy/comfort tiers are explicitly hearsay** from that survey, not the source's own hands-on experience; **premium tier reflects direct hands-on work**: Economy — Warmstat, Teplolux/Tropix (both claimed Russia-made). Comfort — Atom Standart (Russia), ART Basic (claimed Poland). Premium — **Thermo** (Sweden; source disputes a rival retailer's claim that production moved to China) and **DEVI** (considered historically even higher-ranked than Thermo, but reportedly exiting/reducing this market — limited stock or a 2-3 month parallel-import wait); Thermo and DEVI are named the market's two leading premium brands, Thermo currently easier to obtain. Atom Premium and Hertz (Extra line, claimed German manufacture) also mentioned by retail contacts as premium but **explicitly flagged by the source as hearsay, never personally used**. `single-account`, mixed direct/hearsay evidence as noted per brand. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Is76QlotVFE_kruglov_underfloor_heating_hydronic_electric|Is76QlotVFE]]]

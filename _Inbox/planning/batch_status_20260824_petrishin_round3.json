@@ -1,0 +1,19 @@
+{
+  "batch": "petrishin_stroi_round3",
+  "created": "2026-08-24",
+  "status": "complete",
+  "fact_yield_total": 71,
+  "fact_yield_per_video": 8.9,
+  "round2_baseline": 9.5,
+  "rate_limit_encountered": false,
+  "videos": {
+    "d8WzpxSSX8k": "archived",
+    "lTeNBUR1u8g": "archived",
+    "AcNu6CHE7Y4": "archived",
+    "ah3StuP2TZE": "archived",
+    "Qt4uGvGRYT0": "archived",
+    "xt_q5SkINT8": "archived",
+    "96mlkQoczI4": "archived",
+    "lvixGbwo0Ug": "archived"
+  }
+}

@@ -327,15 +327,139 @@ channel's 2026-dated "СРАВНЕНИЕ!" (comparison) format, testing whether
 that format performs similarly to the already-confirmed "Как выглядит
 качественная X" and "Как убить X" series formats.
 
-| # | Video ID | Title | Why selected | Status |
-|---|---|---|---|---|
-| 1 | `d8WzpxSSX8k` | Идеальные стены под покраску | Wall-prep-for-paint technique | pending |
-| 2 | `lTeNBUR1u8g` | Идеальные стены в 90 градусов? В чем секрет? Как проверить? | Wall-squareness technique/QC | pending |
-| 3 | `AcNu6CHE7Y4` | Как начать ремонт? ТОП 4 ошибки демонтажа. | Demolition mistakes | pending |
-| 4 | `ah3StuP2TZE` | Самая сложная плитка! Крупный формат или мозаика? Что выбрать? | Tile-format comparison technique | pending |
-| 5 | `Qt4uGvGRYT0` | Как правильно утеплить балкон / лоджию | Balcony/loggia insulation technique | pending |
-| 6 | `xt_q5SkINT8` | Как выбрать тёплый пол? СРАВНЕНИЕ! | Heated-floor comparison ("СРАВНЕНИЕ!" format spot-check) | pending |
-| 7 | `96mlkQoczI4` | Какой ПОЛ выбрать в 2026? СРАВНЕНИЕ! | Flooring comparison 2026 ("СРАВНЕНИЕ!" format) | pending |
-| 8 | `lvixGbwo0Ug` | Какой ПОТОЛОК выбрать в 2026? СРАВНЕНИЕ! | Ceiling comparison 2026 ("СРАВНЕНИЕ!" format) | pending |
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `d8WzpxSSX8k` | Идеальные стены под покраску | Wall-prep-for-paint technique | **FULL extraction** | 9 | Painter-interview format (subcontractor Mikhail, first of its kind on this channel). Wall-prep-for-paint staged sequence, Пуфас/Унифлот filler comparison, raking-light bump check, 2-3wk prep/1-2day paint timeline, 24hr per-stage cure rule, edge/corner defect QC, cross-trade reveal-damage risk. Region level 2. Low promotional ratio. |
+| 2 | `lTeNBUR1u8g` | Идеальные стены в 90 градусов? В чем секрет? Как проверить? | Wall-squareness technique/QC | **FULL extraction** | 7 | Real ~96m² object. German reveal-guide-profile technique, first-course 10mm-adhesive-cap mechanism (independently corroborates existing Zemskov first-course rule), whole-apartment pre-wall squaring principle (independent 2nd-company corroboration), client/inspector QC-verification marks, 2-week/96m² crew-speed data point, ASR-uncertain 50dB noise-limit citation. Cross-checked against Round 1 masonry acceptance (`caDB-roRasI`) and existing plastering QC content — genuinely new detail, not duplicate. Region level 2. Medium promotional ratio. |
+| 3 | `AcNu6CHE7Y4` | Как начать ремонт? ТОП 4 ошибки демонтажа. | Demolition mistakes | **FULL extraction — triggered new wiki page** | 7 | Top-4-mistakes format. Dust protection, waste-volume/skip-cost planning, dishonest-contractor underquoting practice, hidden-utility damage risk, towel-rail flood-risk 3-4/10 incidence, load-bearing-wall demolition + Мосжилинспекция approval mechanism. **Rare level-1 Moscow regulatory-body naming** in this video's own spoken content (kept out of `16_Legal_and_Regulations/` per the Russia-vs-Belarus routing rule). This was the 3rd Demolition-topic source in the intermediate store — triggered creation of `11_Budget_and_Planning/analysis/Demolition.md` this session, linked from `Budgeting_Guide.md`. Medium promotional ratio. |
+| 4 | `ah3StuP2TZE` | Самая сложная плитка! Крупный формат или мозаика? Что выбрать? | Tile-format comparison technique | **FULL extraction** | 9 | Real object ЖК "Фестиваль Парк," 70m², on-site tiler interview. Custom sloped shower-pan tile fitting, client-driven 45° mitred corner, box pre-sized for whole-tile miter landing, deliberate 1.5mm-vs-2mm grout-joint layout-correction, access-hatch reorder+box-widening, triangular-tile seam complexity, cost-driver mid-project smeta revision, 1-day-per-wall+1-day-grout-cleanup data point. Also yielded ceiling content (cornice/stretch-ceiling incompatibility mechanism, named TZI soundproofing product) routed to `Ceilings_Guide.md`. Region level 2 (named development, no city spoken). Medium promotional ratio. |
+| 5 | `Qt4uGvGRYT0` | Как правильно утеплить балкон / лоджию | Balcony/loggia insulation technique | **FULL extraction — 2nd level-1 region source** | 11 | **Region level 1 direct** — Moscow named directly in spoken content. Heat-conservation-not-generation principle, hydronic-radiator-illegal-on-balcony corroboration, glazing prerequisite, пеноплекс/mineral-wool/пенофол comparison, thickness rules, heated-floor-over-insulation stack w/ mandatory aquapanel layer, real quartz-vinyl-on-heated-floor failure case, ceramic/porcelain-tile recommendation, plastic-not-metal anchor rule, 30-50cm merge-zone extension rule, real cost benchmark 38,000 RUB/3.6m² ≈ $460 (~$130/m²). Not applicable to this project's own unheated-balcony plan but retained as reference. Low promotional ratio. |
+| 6 | `xt_q5SkINT8` | Как выбрать тёплый пол? СРАВНЕНИЕ! | Heated-floor comparison ("СРАВНЕНИЕ!" format spot-check 1/3) | **FULL extraction** | 8 | Heavy structural overlap with existing `Heating_Type_Selection.md` 10-parameter table, not re-extracted. **Cross-source disagreement flagged**: this source's 25yr electric-cable lifespan vs. existing Kruglov 15yr figure — added as a Perspectives block. New-build dedicated-riser water-floor legality exception, 5x running-cost/3yr-payback economics, bitumen-insulated-contact mechanism, furniture-plan-first sequencing rule, 30% thermostat-savings figure, room-by-room combo strategy, general wood-covering thermal-conductivity mechanism. Flagged same-account restatement of the `Qt4uGvGRYT0` quartz-vinyl failure case, not double-counted. Region level 2. Low promotional ratio. |
+| 7 | `96mlkQoczI4` | Какой ПОЛ выбрать в 2026? СРАВНЕНИЕ! | Flooring comparison 2026 ("СРАВНЕНИЕ!" format spot-check 2/3) | **FULL extraction** | 10 | **First general 5-material (laminate/quartz-vinyl/linoleum/tile/solid-wood) pros-cons comparison** on `Flooring_Guide.md` — genuinely new structural content, not overlap. Real named cost-driver mechanism (uncoordinated screed level vs. finish-buildup, 150-300k RUB/≈$1,900-3,700 cost trap; self-leveling compound from 1,000 RUB/≈$10 per bag), company expert's personal solid-oak-floor preference w/ 3 named reasons. Region level 2. Low promotional ratio. |
+| 8 | `lvixGbwo0Ug` | Какой ПОТОЛОК выбрать в 2026? СРАВНЕНИЕ! | Ceiling comparison 2026 ("СРАВНЕНИЕ!" format spot-check 3/3) | **FULL extraction — 3rd level-1 region source** | 10 | **Region level 1 direct** — "мы живём в Москве... в Московской области" spoken directly. Painted-ceiling misconception correction w/ chase-prohibition + single-fixture-only mechanism, ceiling-specific raking-light QC + 3m flatness standard, panel-seam paint-prep sequence, drywall-ceiling 2+2wk timeline + catastrophic-flood-outcome flag, expert drywall-vs-stretch ranking, stretch-ceiling flood-recoverability detail (extends existing RemProektMD finding), two named stretch techniques, new practically-free loft-exposed-slab ceiling option. Low promotional ratio. |
 
-Status: **pending dispatch**.
+**Status: COMPLETE — all 8 videos fully extracted, zero rate-limit issues.**
+
+**Round 3 yield**: 8 videos, 71 genuinely-new facts (9+7+7+9+11+8+10+10, excluding duplicate/corroborating-only outcomes), yield = 8.9 new facts/video — **93% of Round 2's 9.5 baseline** (well within the >50%-drop stop-and-ask threshold, and well above the 1.0/video floor). No stop-and-ask trigger.
+
+### "СРАВНЕНИЕ!" format spot-check — explicit finding
+
+All three spot-checked "СРАВНЕНИЕ!" videos (6, 7, 8) turned out **dense
+and substantive, not thin filler** — yields of 8, 10, and 10
+respectively, all at or above this round's own average (8.9). Two of
+the three (videos 7 and 8) added genuinely new structural content this
+project's existing wiki pages didn't have yet (a first general
+five-material flooring comparison; a first general three-way ceiling-
+type comparison plus a "practically free" loft-ceiling option) rather
+than merely restating existing per-material/per-type content — the
+"СРАВНЕНИЕ!" format's structured side-by-side framing turned out to be
+a genuine synthesis exercise, not just a repackaging of already-known
+facts. The one video with heavier overlap (video 6, heated-floor
+comparison) still surfaced a real cross-source disagreement (electric-
+cable-floor lifespan: 25 years per this source vs. 15 years per the
+existing Kruglov/Ontario figure) worth recording as an open Perspectives
+item, plus several genuinely new economics/mechanism facts once the
+overlapping structural framework was set aside. **Explicit finding: the
+"СРАВНЕНИЕ!" format performs comparably to this channel's other
+already-confirmed formats** ("Как выглядит качественная X," "Как убить
+X") — **recommend including it in future rounds on equal footing**,
+consistent with this project's standing value-filter warning that title
+format/framing alone is not a reliable predictor of substance.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence again varied video to video, not a fixed channel
+answer — consistent with every prior round. 6 of 8 videos stayed at
+level 2 (channel-only Moscow association, no city/street/regulatory
+body named). **2 of 8 cleared level 1 directly** (videos 5 and 8, both
+via Moscow named outright in spoken content) — this channel's 2nd and
+3rd level-1 sources after Round 1's "Нахимовский проспект." **1 of 8
+(video 3) cleared level 1 via an unusual signature**: a Moscow-specific
+regulatory body (Мосжилинспекция) named directly rather than a city or
+street — treated as level-1 evidence for that source specifically, but
+its content stayed in the general budgeting store rather than being
+mirrored into `16_Legal_and_Regulations/`, which is strictly
+Belarus-scoped per this project's own stricter-bar convention for that
+folder (a Russian regulatory body/process is a different country's law,
+not just weaker evidence).
+
+### Cross-check findings, per this round's explicit brief
+
+- **Video 2 (wall squareness) vs. Round 1's masonry acceptance
+  (`caDB-roRasI`) and existing plastering-QC content**: no duplication
+  found — video 2 contributed a distinct German reveal-guide-profile
+  technique, a new numeric mechanism (10mm adhesive-thickness cap) for
+  an already-corroborated first-course rule, and a whole-apartment
+  pre-wall squaring principle independently corroborated from a second,
+  unrelated company.
+- **Video 6 (heated floor) vs. existing Kruglov/Ontario heated-floor
+  content in `12_Engineering_and_Systems/analysis/`**: heavy structural
+  overlap correctly not re-extracted, but a genuine numeric
+  disagreement was found (electric-cable floor lifespan) and recorded
+  as an explicit Perspectives block rather than silently adopting
+  either figure.
+- **Videos 7-8 (flooring/ceiling 2026 comparisons) vs.
+  `Flooring_Guide.md`/`Ceilings_Guide.md`**: both pages lacked a
+  general material/type-vs-type comparison before this round — both
+  videos added genuinely new structural content rather than
+  overlapping with the existing technique-heavy entries on those pages.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All
+8 videos fetched serialized one at a time with real spacing (achieved
+by interleaving each video's own full extraction/routing/logging work
+between fetches — never an idle wait), consistent with Rounds 1-2's own
+clean results.
+
+### Language check
+
+All 8 videos confirmed Russian spoken audio (`youtube-transcript-api`
+returned `language: ru` for every fetch); no English-titled video was
+encountered this round.
+
+## Progress Log
+
+- 2026-08-24 — **Round 3 complete.** All 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/CSV/archiving work), zero rate-limit issues across
+  the entire round. All 8 fully extracted. Yield 71 new facts / 8
+  videos = 8.9 facts/video — 93% of Round 2's 9.5 baseline, well above
+  the 1.0 floor and not a >50% drop — no stop-and-ask trigger. Region
+  checked explicitly per video: 6 of 8 stayed at level 2, 2 (videos 5,
+  8) cleared level 1 directly via Moscow named outright in spoken
+  content, and 1 (video 3) cleared level 1 via an unusual signature — a
+  Moscow-specific regulatory body (Мосжилинспекция) named directly —
+  kept out of `16_Legal_and_Regulations/` per this project's
+  Russia-vs-Belarus stricter-bar convention for that folder. The
+  channel's own 3rd Demolition-topic source (video 3) crossed this
+  project's 3+-source page-creation threshold — created
+  `11_Budget_and_Planning/analysis/Demolition.md` this session, linked
+  from `Budgeting_Guide.md` §4, and marked the corresponding Pending
+  Wiki-Page Decisions entry resolved. The three "СРАВНЕНИЕ!" format
+  spot-check videos (6, 7, 8) were found dense and substantive
+  throughout — explicit finding: this format performs comparably to
+  the channel's other already-confirmed formats, recommend including it
+  on equal footing in future rounds (see the dedicated finding section
+  above). One genuine cross-source disagreement was found and recorded
+  explicitly rather than silently resolved: electric-cable
+  underfloor-heating lifespan (this round's video 6 states ~25 years,
+  vs. the existing Kruglov/Ontario figure of ~15 years) — added as a
+  Perspectives block to `Heating_Type_Selection.md`. Content routed to
+  `13_Surfaces_and_Finishes/Walls_and_Paint.md` (wall-prep-for-paint
+  sequence, reveal-guide-profile technique, first-course mechanism,
+  whole-apartment squaring), `Flooring_Guide.md` (first general
+  5-material comparison, screed-buildup cost-trap mechanism),
+  `Ceilings_Guide.md` (cornice/stretch-ceiling incompatibility, TZI
+  soundproofing product, full painted/drywall/stretch comparison, loft
+  option); `07_Bathroom/analysis/Tile_Selection_and_Layout.md` (complex
+  small-format tile technique/economics); `10_Balcony/Balcony_Index.md`
+  (insulation material/technique/cost reference, not applicable to this
+  project's own unheated plan); `12_Engineering_and_Systems/analysis/Heating_Type_Selection.md`
+  (legality nuance, payback economics, Perspectives disagreement block);
+  and the new `11_Budget_and_Planning/analysis/Demolition.md` page.
+  `tools/verify_batch.py` run against the pre-round commit (`c52f96f`) —
+  passed clean after one ID-cross-reference fix in
+  `Pending_Wiki_Page_Decisions.md`. All 8 new CSV rows independently
+  re-verified via Python's `csv` module to parse into the correct 15
+  columns each with `archived` status.

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=xt_q5SkINT8",
+  "video_id": "xt_q5SkINT8",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T13:53:36.831525+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4eece0176b1318f82443baa29e49534898a893a267b52728d6030aff3a4acbf1",
+  "attempts_before_success": []
+}

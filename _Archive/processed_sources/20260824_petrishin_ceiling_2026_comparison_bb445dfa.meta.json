@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=lvixGbwo0Ug",
+  "video_id": "lvixGbwo0Ug",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T13:59:00.803692+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "bb445dfa80fe08879b6aceb7deb87b0590eb6dae443217d2d7dda8f21f584929",
+  "attempts_before_success": []
+}

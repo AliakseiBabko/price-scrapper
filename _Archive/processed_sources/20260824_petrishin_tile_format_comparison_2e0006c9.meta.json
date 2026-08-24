@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ah3StuP2TZE",
+  "video_id": "ah3StuP2TZE",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T13:48:21.994794+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "2e0006c9e69b3f31c9a18c5d869062baec143397fc10eb9a9922dfec4eab7d70",
+  "attempts_before_success": []
+}

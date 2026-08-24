@@ -31,6 +31,82 @@ RemProektMD/Andrei recommends **stretch ceiling over a painted drywall-boxed cei
 
 **Recessed/point-lighting cost caution**: each individual light penetration through stretch-ceiling film is priced separately (a backing plate/hardware is required under every hole, adding material + labor cost per hole) — prefer 1-2 diffuse fixtures per room (chandelier or a surface-mounted LED "soft-box" type) over many recessed point lights.
 
+## Cornice/Stretch-Ceiling Incompatibility, and a Named Ceiling Soundproofing Product (Петришин-Строй, added 2026-08-24, Round 3)
+
+Real object, ЖК "Фестиваль Парк" (region level 2, named development,
+city not spoken). Medium promotional ratio.
+
+- **⚠️ A wide perimeter cornice/molding combined with a stretch ceiling
+  is a bad pairing — new mechanism for this page**: the raw ("black")
+  structural ceiling underneath continues to rise and settle over time,
+  while a stretch-ceiling membrane doesn't move the same way; a wide
+  cornice bridging the two junctions ends up looking poor as the raw
+  ceiling shifts relative to the membrane. This client's original design
+  called for a stretch ceiling with a full-perimeter wide cornice; the
+  company recommended switching to a drywall-boxed ceiling instead
+  specifically to avoid this incompatibility.
+- **Named ceiling soundproofing product: "ТЗИ" (термозвукоизол,
+  thermal-sound-insulation board)**, two-stage fixing: glued first, then
+  additionally secured with plastic dowel-mushroom fasteners
+  ("дюбель-гриб") specifically to prevent it sagging over time.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|ah3StuP2TZE]]]
+
+## Painted, Drywall, and Stretch Ceiling — Full Comparison, and a "Practically Free" Loft Option (Петришин-Строй, added 2026-08-24, Round 3)
+
+Region **level 1 — clears the bar directly** ("мы живём в Москве... в
+Московской области" spoken directly in this video). Low promotional
+ratio. Extends this page's existing stretch-ceiling content and adds
+two ceiling types (painted, drywall) not previously covered here in a
+general comparison.
+
+- **Painted ceiling**: widely misperceived as the simplest/cheapest
+  option — actually one of the hardest/priciest, requiring a dead-flat
+  plastered slab before multi-coat paint. **Chasing into the structural
+  slab is categorically prohibited** — wiring can only run in the
+  panel-to-panel seam, enough for one fixture only, no concealed
+  multi-scenario lighting is possible. A settlement crack needs visible
+  touch-up; a flood from above is very hard to patch invisibly and
+  usually needs a full redo. Genuine advantage: doesn't consume ceiling
+  height — common in low-ceiling secondary-market housing.
+- **⚠️ Ceiling-specific raking-light failure mode**: poor prep can look
+  fine under artificial evening light but reveal visible waviness under
+  natural morning/midday/sunset light at a specific angle — a ceiling
+  analogue of this project's existing wall raking-light QC theme.
+  **Flatness standard**: no gap against a 3m straightedge.
+- **Panel-seam paint-prep sequence**: plaster by beacons → putty 2-3
+  coats → fiberglass mesh → for a slab-panel ceiling specifically, open/
+  rout the seam, foam-fill, apply a stronger filler (Пуфас or Унифлот)
+  over the cured foam, reinforce with mesh plus paper bandage tape.
+- **Drywall ceiling**: enables any curved line/wave/lighting niche and
+  hides any service, but only reads well with a high ceiling — visually
+  presses down in a low-ceilinged room. **Real timeline (70m²
+  apartment, 2 workers)**: framing+board install alone ~2 weeks, plus a
+  further minimum 2 weeks of taping/plaster/finish before paint — a
+  full month or more is realistic. Installation labor typically costs
+  more than materials. **⚠️ A flood from above is "catastrophic" for
+  this ceiling type** — typically needs full demolition and rebuild,
+  unlike stretch ceiling's recoverability below.
+- **⚠️ Company expert's own ranking**: deprioritizes drywall ceilings
+  in most cases in favor of stretch ceiling — anything drywall hides
+  can equally hide behind a stretch ceiling, faster and cheaper.
+  Exception: when soundproofing is a genuine client priority.
+- **⚠️ Flood-recoverability detail, extending this page's existing
+  RemProektMD flood-containment finding**: a flooded stretch-ceiling
+  membrane can simply be drained and re-stretched, or fully replaced —
+  easy and inexpensive relative to redoing a painted or drywall
+  ceiling.
+- **Two named stretch-ceiling design techniques**: a "floating ceiling"
+  (perimeter shadow gap with an LED strip inside it) and a "seamless
+  wall junction" (membrane tucked into a specific trim profile for a
+  clean, gap-free wall-ceiling line).
+- **⚠️ New ceiling-type content: a deliberately exposed, unfinished
+  structural slab as a loft-style choice** — no need to hide services
+  or achieve flatness, since visible roughness is the aesthetic itself
+  (only works if the whole apartment commits to the style). Near-zero
+  installation cost, effectively no timeline, immune to flood/
+  settlement damage since there's no finish layer to damage.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lvixGbwo0Ug_petrishin_ceiling_2026_comparison|lvixGbwo0Ug]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |
@@ -57,3 +133,5 @@ RemProektMD/Andrei recommends **stretch ceiling over a painted drywall-boxed cei
 - **L-shaped stretch-ceiling cost penalty, fabric-vs-film waste, wardrobe-rail-to-ceiling-box detail** (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow, real 88.5m² project, user-supplied Turboscribe transcript after both automated caption-fetch methods failed, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]] (#138, 2020-12-01).
 - **Stretch-ceiling fabric seamless-width limit, real 5.92m×8.5m over-limit case** (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow, user-supplied Turboscribe transcript — no prior CSV row of any kind for this video, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2hg0mjR-M30_stretch_ceiling_seamless_width_limit|extraction note]] (2019-04-09).
 - **Stretch-ceiling-vs-drywall cost/speed/flood comparison, recessed-lighting cost caution** (RemProektMD/Andrei, Chișinău/Moldova, level 2 region only, added 2026-08-24) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|extraction note]] (2020-09-24).
+- **Cornice/stretch-ceiling incompatibility mechanism, named "ТЗИ" ceiling soundproofing product** (Петришин-Строй, ЖК "Фестиваль Парк", region level 2, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|extraction note]] (2025-03-23).
+- **Painted/drywall/stretch ceiling full comparison, flood-recoverability detail, named stretch-ceiling techniques, "practically free" loft-ceiling option** (Петришин-Строй, "СРАВНЕНИЕ!" format, region level 1 direct, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lvixGbwo0Ug_petrishin_ceiling_2026_comparison|extraction note]] (2025-09-22).

@@ -218,6 +218,81 @@ does not clear level 1).
   is responsible for watering/covering the screed during curing.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Y9PGtPmcMms_petrishin_screed_quality_checklist|Y9PGtPmcMms]]]
 
+## Five-Material Flooring Comparison and a Real Screed-Buildup Cost Trap (Петришин-Строй, added 2026-08-24, Round 3)
+
+Region level 2 (channel-only Moscow association). Low promotional
+ratio. **First general five-material pros/cons comparison on this
+page** — prior content here is technique-heavy (glue-down installation,
+layout, screed sequencing), not a structured material-vs-material
+overview.
+
+- **Laminate**: fast/clean click install, budget-friendly, comfortable/
+  less injury-prone than tile. Badly water-intolerant (unwiped water
+  swells it within 2-3 days, unrepairable except replacing panels — not
+  practical for kitchen/bathroom/hallway); needs a flat substrate;
+  **poor thermal conductivity, not suitable for heated floors**;
+  temperature swings can dry it out and open plank gaps; cheap budget
+  product can delaminate over time.
+- **Quartz-vinyl / SPC**: water-resistant (hallway/kitchen/bathroom-safe,
+  doesn't swell); continuous threshold-free runs (no thermal "tenting");
+  wide modern design range; **⚠️ most manufacturers claim heated-floor
+  compatibility, but always verify the exact rated max temperature on
+  that specific manufacturer's own spec sheet, not the general claim**;
+  simple to install correctly, available at every budget. Thin material —
+  transitioning to tile needs a self-leveling pour or stepped screed;
+  more substrate-flatness-sensitive than laminate (click-lock failures
+  on an uneven subfloor).
+- **Linoleum**: modern "comfort segment" product looks good despite the
+  material's old-Khrushchevka association; water-resistant, cheaper than
+  quartz-vinyl, soft/comfortable barefoot, stays warm-feeling even
+  unheated; tolerates a less-than-perfect subfloor. "Photocopies" every
+  subfloor bump/dip visibly if laid over an uneven base; heavy/bulky
+  roll genuinely needs two installers; shrinks/pulls from under
+  baseboards with temperature swings; **cannot be laid as one
+  continuous threshold-free run** — always needs transition thresholds.
+- **Tile**: durable (minimum 20-year cited service life), fully water-
+  resistant, best thermal conductivity of the five when paired with a
+  heated floor. Cold/injury-risk underfoot without heating; tiling
+  labor is one of the most expensive renovation line items, and
+  installation is dusty/messy/slow.
+- **Solid/engineered wood board or parquet**: an emotional/tactile
+  choice over a practical one — beautiful, eco-friendly, high-status,
+  no imitation matches real wood's feel. Expensive material and
+  install; temperamental (scratches, water-sensitive, needs care);
+  temperature/humidity swings can cause localized warping.
+
+**⚠️ Real named cost-driver: uncoordinated screed level vs. finish-
+flooring buildup, cited as costing a client 150,000-300,000 RUB
+(≈$1,900-$3,700) unnecessarily**: pouring the whole screed to one flat
+level without accounting for each zone's different finish-flooring
+buildup (worked example: porcelain tile ~1.3-1.5cm total buildup vs.
+quartz-vinyl at only 3-5mm) leaves a real height mismatch once both
+finishes are laid. Two after-the-fact fixes, both worse than avoiding
+the problem: a transition threshold (a real trip/annoyance point people
+remember as a sign of poor renovation), or raising the thinner zone
+with self-leveling compound across its whole area (real cited price
+**from 1,000 RUB/bag, ≈$10**, cost scaling directly with area — easily
+150,000-200,000 RUB/≈$1,900-$2,500 in material alone for one zone,
+before labor). **The actual fix**: at the screed-pouring stage, tell the
+crew each zone's exact planned finish-flooring buildup so some rooms
+are deliberately poured lower than others from the start — solves the
+problem for free instead of costing thousands of dollars later.
+
+**Company expert's own solid-wood preference, with reasoning distinct
+from the general comparison above**: despite professionally working
+mostly with laminate/quartz-vinyl in recent years, chose solid oak
+board for his own home (12-13 years in use). Three named reasons: (1)
+glued installation (to plywood or screed, quality two-component
+adhesive) creates a genuinely monolithic feel that even the best
+floating laminate/quartz-vinyl never fully achieves; (2) personal
+preference for how solid wood feels barefoot; (3) **refinishing
+("циклёвка") capability** — after ~5-10 years, the top ~2-3mm worn
+layer can be sanded off and fully recolored, producing a "whole new
+renovation" feeling without demolition. Engineered-board price scales
+with the thickness of its real-wood top veneer, which is what
+determines how many refinish cycles it can tolerate.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_96mlkQoczI4_petrishin_flooring_2026_comparison|96mlkQoczI4]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |
@@ -264,3 +339,4 @@ does not clear level 1).
 - **Full DIY reinforced screed build with sub-screed noise insulation, beacon/mesh technique, home-mixed screed recipe** (Pavel Sidorik, individual practitioner, own apartment, Belarus level-1 region, "New Building A-to-Z" #18, 2021-04-29, added 2026-08-24) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hN7szX2re2c_sidorik_screed_noise_insulation_ep18|extraction note]].
 - **Class-33 beveled-edge laminate as a budget kitchen-floor alternative to tile, 4-year real-world durability account** (RemProektMD/Andrei, Chișinău/Moldova channel, region level 2 only, added 2026-08-24) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|extraction note]] (2020-09-24).
 - **Finish self-leveling layer over that same beacon-poured screed** (same practitioner/project, "New Building A-to-Z" #27, 2021-09-02, added 2026-08-24, Round 5) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kXGYTsBTKj8_sidorik_self_leveling_floor_ep27|extraction note]].
+- **Five-material flooring comparison (laminate/quartz-vinyl/linoleum/tile/solid-wood), real screed-buildup cost-trap mechanism, company expert's solid-wood preference** (Петришин-Строй, "СРАВНЕНИЕ!" format, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_96mlkQoczI4_petrishin_flooring_2026_comparison|extraction note]] (2025-10-03).

@@ -1,0 +1,200 @@
+# Demolition — Technique, Site Management, and Cost/Legal Risk
+
+Part of [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]]. Created
+2026-08-24 once this sub-topic reached 3+ independent sources with no
+dedicated page (per this project's standing "3+ sources → create the
+page" rule) — see the intermediate store's Pending Wiki-Page Decisions
+for the accumulation history. Covers the demolition/strip-out stage of a
+renovation: hands-on technique, site-management/neighbor practice, and
+the cost/legal risks specific to this stage.
+
+## Technique
+
+- **Two-person masonry-partition demolition**: one person on a jackhammer
+  (medium size, easier to hold against a vertical wall), the other on a
+  sledgehammer (called equally essential, not just backup); rotary hammer
+  as an auxiliary tool, angle grinder for embedded rebar. Full PPE
+  required: dust mask, safety glasses, hearing protection.
+- **Repurpose an airless paint sprayer to mist down dust during
+  demolition** — a cheap, effective improvised dust-suppression
+  technique.
+- **Remove the toilet bowl before demolishing surrounding bathroom
+  walls**, to avoid it being broken by falling debris.
+- **Shut off the heating riser before breaking up a screed** — limits an
+  accidental pipe strike's water release to just what's in that
+  apartment's own pipes, not the full building system. **Never strike
+  blindly once a pipe is located under a screed** — break the screed on
+  both sides of the pipe and clear debris near it by hand instead.
+- **Use a heavier rented jackhammer for full screed removal**, resting
+  its weight on the screed itself, distinct from the lighter hand-held
+  hammer preferred for vertical wall demolition.
+- **Grind monolithic concrete surfaces (walls, ceilings, ventilation
+  ducts) to remove cement laitance and open surface pores before
+  plastering or applying a concrete-contact primer** — a concrete-
+  contact primer commonly fails to bond specifically at the laitance
+  layer; applies to ceilings too, done in alternating sections by a
+  two-person crew to manage overhead-work fatigue.
+- **Clean and flatten the exposed floor slab after screed removal before
+  installing a soundproofing membrane** — leftover mortar/plaster
+  splatter (~5mm) needs grinding + vacuuming first.
+- **Flooring-removal-to-bare-substrate rule**: remove all laminate/
+  plywood/baseboard remnants and leftover linoleum adhesive residue down
+  to bare substrate — unremoved adhesive residue can crack later once a
+  self-leveling floor is poured over it. Old bitumen in older apartments
+  can stay only if well-adhered, and then needs ≥4-5cm of screed over
+  it; remove it entirely if dried out/poorly adhered.
+- **Panel-ceiling joint ("руст") treatment for older low-ceiling Stalin/
+  Khrushchev-era buildings, extended to exterior corners generally
+  (new-builds included)**: strip whitewash/oil paint to bare concrete at
+  the joint, score/open it, foam-fill any void, apply reinforcing mesh,
+  then plaster.
+- **⚠️ Dust protection for anything not being replaced**: fully wrap
+  doors, windows, and sills not being replaced in protective film with
+  taped seams — otherwise expect scratches/chips/dirt with 100%
+  certainty, and dust can clog window/door hardware mechanisms to the
+  point of being nearly impossible to clean out later. Porous window
+  sills specifically get dust ground permanently into the surface if
+  left unprotected. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]]]
+
+## Site Management & Neighbor Relations
+
+- **Written scope-of-work requirement, with a dispute-resolution
+  mechanism**: even without a full design project, write a technical
+  task list specifying exactly which walls/openings to demolish/keep/
+  partially modify, and duplicate it in a messenger thread — settles
+  later disputes over a mistakenly-demolished wall/opening as client
+  error vs. crew error.
+- **Furniture-removal rule, cost mechanism**: fully remove furniture
+  rather than wrapping/leaving it in place — wrapped furniture is still
+  ruined by renovation-ambient humidity, and crews raise prices because
+  they're constantly forced to move it out of the way.
+- **Temporary lighting as a QC requirement**: insufficient light during
+  demolition can cause incomplete removal of old plaster/oil-paint
+  layers, besides being a basic safety issue.
+- **Temporary construction sink (water + drain), with a named flooding
+  risk it prevents**: crews repeatedly forgetting to close a tap on an
+  un-drained temporary water point has flooded the object and the
+  downstairs neighbor — a proper drain connection avoids this.
+- **Neighbor-relations practice, three tactics**: notify neighbors on
+  both sides/above/below before demolition; ask households with small
+  children about nap/sleep schedules; give the building concierge a
+  small gift (≈200-300 RUB/person candy) — stated 18-year experience
+  that this reliably de-escalates future noise/access complaints. Daily
+  hallway cleanup and a door-posted apology note with a contact number
+  round out the same practice.
+- **Debris-disposal cost lifehack**: negotiate debris removal/disposal
+  directly with the building's own janitorial staff — can be
+  meaningfully cheaper than a standard dumpster container if terms/
+  timeline are agreed explicitly upfront.
+- **Informal student labor is a real, usable option for bulk debris
+  hauling** — the most physically repetitive, lowest-skill part of
+  demolition — though not fully reliable (a no-show requires the
+  practitioner to cover the gap personally).
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
+
+## Cost & Waste-Volume Planning
+
+- **⚠️ Waste-volume miscalculation is one of the most common demolition
+  mistakes**: actual debris volume is almost always far greater than a
+  client/DIYer expects. Construction waste cannot legally go into an
+  ordinary yard dumpster (risk of a fine, plus real neighbor
+  complaints) — a specialized waste container/skip must be ordered
+  separately, plus separate paid labor to load it. **⚠️ Named dishonest-
+  contractor practice**: an incompetent/dishonest crew deliberately
+  underquotes total demolition cost specifically so as not to scare off
+  a potential client — leaving the client to discover and pay a large
+  additional sum later just to haul the debris away. [source:
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]]]
+- **A worked 5-reason framework for deciding to demolish bathroom/WC
+  partition walls even when structurally sound**: room-footprint
+  resizing, reclaiming ~4cm/side by rebuilding an oversized wall
+  thinner, removing crooked/non-90°-corner plaster that must come out
+  anyway, right-sizing an oversized developer false wall down to just
+  the pipe diameters it needs to conceal, and confirming the outer
+  wet-zone boundary isn't changing even as the internal split is.
+- **A worked 5(+1)-reason framework for deciding to demolish an
+  already-relatively-flat developer screed**: soundproofing underlayment
+  needs the bare substrate, an oversized screed can be thinned to
+  recover ceiling height, floor-routed electrical needs the space
+  underneath when the ceiling isn't being dropped, pouring a new screed
+  level from the start avoids needing a later self-leveling compound,
+  chases for new partition walls are easier to cut into an exposed slab
+  than through an existing screed, plus full heating-system inspection/
+  easier radiator replacement without a screed layer in the way.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
+
+## Mistakes / Warnings — Structural, Utility, and Regulatory Risk
+
+- **⚠️ Hidden-utility damage risk**: old plaster can conceal a heating
+  riser or hot/cold water pipe; a hammer-drill/jackhammer strike can
+  easily rupture one, flooding the unit and the neighbors below, pausing
+  the renovation, and requiring payment to the affected neighbors.
+  Mitigation: confirm the crew checks walls for hidden pipes/wiring
+  before starting demolition.
+- **⚠️ Named as the single scariest demolition mistake on this channel: a
+  damaged water-fed heated towel rail ("полотенцесушитель")** — common,
+  old, and fragile in secondary-market apartments; in an estimated
+  **3-4 out of 10 cases**, a careless/irresponsible crew damages one and
+  causes a flood, then disappears rather than taking responsibility.
+- **⚠️ A real documented flooding incident from delegating demolition
+  itself (not just debris hauling) to unsupervised, inexperienced
+  labor**: a bathroom demolition delegated to local janitors without
+  supervision led to a falling asbestos-cement sheet ("шифер") striking
+  and rupturing a hydronic towel-warmer pipe, flooding **7 apartments**
+  below. Stated lesson: even demolition needs experienced workers, not
+  just the cheapest available labor.
+- **⚠️ Load-bearing wall demolition is named the single most dangerous
+  demolition mistake**: a wall that superficially resembles a
+  non-structural partition can actually be carrying ceiling/slab load —
+  removing it can crack or deform the ceiling. **Any layout change must
+  be approved via Мосжилинспекция (Moscow Housing Inspection)** — an
+  unapproved layout change makes later reselling the apartment
+  meaningfully harder. Before demolition: check the BTI floor plan and
+  consult a Мосжилинспекция specialist. **Nuance**: an opening can
+  sometimes be cut into a load-bearing wall (a real, legally regulated
+  weakening of the structure, case-by-case), and in some circumstances
+  (e.g. a wall that is less structurally critical, such as on a
+  building's top floor) even a door opening, widening, or full removal
+  can be permitted — but only following load calculations reviewed
+  against the building's original structural documentation via
+  Мосжилинспекция; never assess this by eye.
+- **Ventilation-shaft resize lifehack, with an explicit legal caveat**:
+  developers sometimes oversize shaft boxing well beyond the real duct
+  footprint — cut an inspection hole to check for unused space; a
+  genuine 40-50cm of slack may justify rebuilding a smaller shaft to
+  reclaim floor area, but shafts are shared building property and
+  resizing without formal permission is prohibited.
+  [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]]]
+
+> [!NOTE]
+> **Regulatory-attribution caveat**: `AcNu6CHE7Y4`'s Мосжилинспекция
+> content is a Russian-Federation (Moscow-specific) regulatory body,
+> directly named in the video's own spoken content — a real level-1
+> region signal for *this specific source*, but this content stays in
+> this general budgeting/technique store and is **not** mirrored into
+> `16_Legal_and_Regulations/`, which is strictly Belarus-scoped per this
+> project's own stricter-bar convention for that folder. Treat this as
+> secondary comparative reference (a different country's regulatory
+> process, useful for understanding the *category* of risk) rather than
+> applicable Belarus procedure.
+
+## Source Notes
+
+- **"Как начать ремонт? ТОП 4 ошибки демонтажа" — dust protection, waste-
+  volume/skip-cost planning, dishonest-contractor underquoting practice,
+  hidden-utility damage risk, towel-rail flood risk (3-4/10 incidence),
+  load-bearing-wall demolition + Мосжилинспекция approval process**
+  (Петришин-Строй, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|extraction note]] (2025-03-30).
+- **"Как выглядит качественный демонтаж?" — written scope-of-work,
+  furniture/window/door protection, temp lighting/sink, neighbor-
+  relations practice, debris-disposal negotiation, panel-ceiling-joint
+  treatment, named 7-apartment flooding incident, ventilation-shaft
+  resize lifehack** (Петришин-Строй, added 2026-08-24, Round 2) —
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|extraction note]].
+- **"New Building A-to-Z" ep.3 — two-person demolition technique,
+  concrete-grinding surface prep, screed-removal decision framework,
+  debris logistics** (Pavel Sidorik, added 2026-08-24, Round 2) —
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|extraction note]].
+
+Full raw facts (including cross-references not repeated here) live in
+the `Demolition` sections of [[11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index|store/_index.md]].
