@@ -463,3 +463,26 @@ encountered this round.
   `Pending_Wiki_Page_Decisions.md`. All 8 new CSV rows independently
   re-verified via Python's `csv` module to parse into the correct 15
   columns each with `archived` status.
+
+## Round 4 — Case studies, comparisons, demolition, cost/budget tips (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing. Picked up while RemProektMD is paused on
+a single-video rate-limit (per the queue's channel-switching protocol —
+switch to the other active channel rather than idle-wait or retry
+immediately). Mix of real case studies (tests the client-review/case-study
+format not yet spot-checked on this channel), technique comparisons, a
+second demolition-mistakes video (tests fit against the new `Demolition.md`
+page from Round 3), and cost-saving tips.
+
+| # | Video ID | Title | Why selected | Status |
+|---|---|---|---|---|
+| 1 | `qFM8NIDIRro` | Finished renovating an old apartment. Police visits, wall cracks, and other challenges! | Real case study, tests client-review-format value not yet spot-checked on this channel | pending |
+| 2 | `IoQiGtso9Vk` | Complex renovations in a historic Arbat apartment. Results, tips, and challenges. | Real case study, historic building | pending |
+| 3 | `rt9R26k6dEM` | КАК ВЫБРАТЬ ПЛИТКУ? ПЛИТКА ИЛИ КЕРАМОГРАНИТ? | Tile-vs-porcelain comparison technique | pending |
+| 4 | `66pn-nIOJkg` | КРАСКА, ОБОИ, ИЛИ ОБОИ ПОД ПОКРАСКУ? ЧТО ЛУЧШЕ И ЧТО ВЫБРАТЬ? | Paint-vs-wallpaper comparison technique | pending |
+| 5 | `3sRfRiQ8XfE` | Крутые инженерные коммуникации! Сколько это стоит? | Engineering/utilities cost benchmark | pending |
+| 6 | `PBkZQHkjciE` | Как СЭКОНОМИТЬ на РЕМОНТЕ?! Конкретные СОВЕТЫ и ХИТРОСТИ | Budget-saving tips | pending |
+| 7 | `Z1IuJFudcPY` | TOP 10 CRITICAL DEMOLITION MISTAKES! | Second demolition-mistakes source, tests fit against new `Demolition.md` page | pending |
+| 8 | `F0ZHsu4k6JY` | ПРАВИЛА для маленькой квартиры. В ней есть ВСЕ | Small-apartment design/planning rules | pending |
+
+Status: **pending dispatch**.
