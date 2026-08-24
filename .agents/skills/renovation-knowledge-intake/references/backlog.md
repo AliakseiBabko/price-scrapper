@@ -85,6 +85,33 @@ correct rate/amount from `currency_converter.py` directly, don't just
 apply the nearest-bucket formula blind — some may also have a stale rate
 or amount, not just a rounding miss).
 
+## Page restructuring backlog
+
+Pages flagged during a housekeeping pass as having crossed the layered-
+conversion threshold (see `00_Master/wiki_page_format.md`'s "Layered
+convention" section) but not converted on the spot, because the conversion
+itself is dedicated-session-sized work (splitting into several `analysis/`
+pages, rewriting the compact guide, re-pointing every cross-link) — not
+something to squeeze into a housekeeping check between processing rounds.
+
+- **`13_Surfaces_and_Finishes/Walls_and_Paint.md`** (flagged 2026-08-24,
+  during the Kruglov/Ontario intake's post-Round-3 housekeeping review): 239
+  lines, ~15 distinct sub-topics (substrate compatibility, gas-block wall
+  material calculation, partition-layout masonry technique, foam-glue
+  masonry, radiator-niche insulation mechanism, load-bearing wall opening
+  technique, future-flexible planning, wall-plane offset/tie-in rules,
+  partition-thickness defaults, wall-squareness diagnostics, and more) — well
+  past the threshold that triggered the Bathroom (397 lines) and Wardrobes
+  (141 lines, 6 sub-decisions) conversions. **Not converted yet.** When
+  resuming: follow the same shape as those two conversions (compact guide +
+  `analysis/` pages, Source Notes and Change Log split to their own pages),
+  moving/reorganizing existing prose rather than re-deriving it, and update
+  every inbound link that named the old single page.
+
+**When adding a new item here**: note the line count, sub-topic count, and
+the date/context it was flagged, same as the entry above, so a future
+session doesn't have to re-derive whether it's still overdue.
+
 ## Tooling limitations (known, not urgent)
 
 - `tools/verify_batch.py`'s arithmetic-plausibility check only fires on
