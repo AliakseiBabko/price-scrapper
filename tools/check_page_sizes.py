@@ -35,7 +35,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-NUMBERED_FOLDER_RE = re.compile(r"^\d{2}_")
+NUMBERED_FOLDER_RE = re.compile(r"^(?!00_)\d{2}_")  # excludes 00_Master (project docs, not wiki pages)
 
 DETAIL_FLAG_LINES = 300
 DETAIL_FLAG_LINES_CLUSTERED = 220
