@@ -551,3 +551,25 @@ Both English-titled videos this round (1: `qFM8NIDIRro`, 7: `Z1IuJFudcPY`) were 
   to parse into the correct 15 columns each with `archived` status.
   `batch_status_20260824_petrishin_round4.json` maintained throughout,
   marked `complete`.
+
+## Round 5 — Designer mistakes, cost benchmark, cosmetic-renovation technique (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing. Mix of a fresh 2026-dated cost benchmark
+(extends the year-over-year benchmark series started in Round 1), a cluster
+of "designer mistakes"/"plastering mistakes" videos to test whether this
+channel's other recurring mistake-format clusters perform as well as the
+already-confirmed "Как убить X" and "СРАВНЕНИЕ!" formats, and a dedicated
+cosmetic-renovation ("косметический ремонт") technique video.
+
+| # | Video ID | Title | Why selected | Status |
+|---|---|---|---|---|
+| 1 | `w6_e7nySEXI` | Что скрывают дизайнеры? Самые частые ОШИБКИ В РЕМОНТЕ | СРЫВЫ СРОКОВ, задержки | Designer-mistakes/project-delay format | pending |
+| 2 | `LEsmpI8bWCY` | Сколько РЕАЛЬНО стоит ДИЗАЙНЕРСКИЙ ремонт в 2026 году?! | Fresh 2026 cost benchmark, extends year-over-year series | pending |
+| 3 | `8B2xnSNEqqs` | НИКОГДА ТАК НЕ ДЕЛАЙ! Глупые ошибки дизайн-проектов. | Design-project mistakes format | pending |
+| 4 | `mb-2ll0UtTo` | Главные ОШИБКИ штукатурки. НЕ ДЕЛАЙ ТАК! | Plastering-mistakes format, tests against existing dense plastering content | pending |
+| 5 | `s27qG_Eg3SY` | ТОП ОШИБОК косметического ремонта! НЕ ДЕЛАЙ ТАК! | Cosmetic-renovation mistakes | pending |
+| 6 | `vKMHNYQYWAI` | Топ 13 САМЫХ дорогих ОШИБОК ремонта квартиры. | Costly-mistakes format | pending |
+| 7 | `izhaUHRKViw` | Как сделать КАЧЕСТВЕННЫЙ косметический ремонт? Ловушки, технологии, результат | Cosmetic-renovation technique | pending |
+| 8 | `8QBqwydVND8` | Все этапы ремонта квартиры в 2026, пошагово. | All-stages 2026 walkthrough | pending |
+
+Status: **pending dispatch**.
