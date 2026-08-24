@@ -256,6 +256,25 @@ A concrete, step-by-step method — the difference between a bathroom that "look
 
 Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 80×120cm) with a small-format tile or mosaic (e.g. "кабанчик"/subway-style) in the same room — a deliberate large-vs-small contrast, not a matched, uniform surface. **Cited designer rationale**: adds volume/dynamism to the room ("the interior lives") and creates a visual zoning effect even though a bathroom is a small space to begin with. **No stated downside** beyond the ordinary subjective-taste caveat — the source explicitly says the only thing that matters is whether the client likes the designer's specific combination, not a technical drawback. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
 
+## Stress-Relief Drilling at Sharp Cut-Corners on Large-Format Tile (RemProektMD, added 2026-08-24, Round 2)
+
+> [!NOTE]
+> Chișinău/Moldova channel, region level 2 only. `single-account`, `ASR-uncertain` on exact fixture/guide-tool phrasing. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_PmxmmzyUZjg_remproektmd_tile_tension_relief|PmxmmzyUZjg]]]
+
+**⚠️ A distinct large-format-tile crack mechanism, not covered by this page's existing detachment content above**: when a piece is cut to notch around an obstacle, leaving a sharp/acute internal corner in the cut edge, that point concentrates mechanical stress in the slab and can crack *after* installation — the source reports this happening rarely but real enough to design around.
+
+**Fix: relieve the stress by rounding the sharp corner with a diamond-core-bit hole before installing the tile** ("снять напряжение") — drill a semicircular hole at the corner using a water-cooled diamond core bit, converting the acute cut into a rounded one. Practical execution: work on a rigid, stable surface (a table, not a flexing substrate); use a dedicated guide/fixture to hold the core bit steady on the tile surface so it doesn't slide during drilling; core-bit diameters used range 4mm-50mm depending on the specific corner.
+
+## Very-Large-Format Tile Lifting Rig and a Second "Butter Both Sides" Statement (RemProektMD, added 2026-08-24, Round 2)
+
+> [!NOTE]
+> Chișinău/Moldova channel, region level 2 only (channel branding, no city
+> spoken this video). `single-account`, no independent verification. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Wj_i-4GhOQk_remproektmd_large_format_tile_device|Wj_i-4GhOQk]]]
+
+- **Custom lifting rig for very-large-format, thin tile**: for a **280×120cm, 6mm-thick** slab, hand-carrying by the corners risks cracking it in transit — the crew built a dedicated frame of pipes fitted with suction cups ("присоски") specifically to move the slab from cutting table to installation point without hand-gripping the edges.
+- **SVP leveling-clip system sequencing detail**: set up *before* the tile is moved into place, not after — extends this page's existing SVP-clip content above with a placement-order note.
+- **Second, independent statement of the "butter both surfaces" rule**, here as a universal rule rather than size-gated: substrate must be primed (deep-penetration primer) for adhesion, and — named explicitly as a common mistake many installers make — **the tile is never laid "dry"; adhesive must go on both the floor and the tile's own back**, or voids form and installation quality suffers. Corroborates, from an independent channel, this page's existing Kruglov/Ontario size-gated version of this rule (floor tile over 60×60cm needs double-sided buttering).
+
 ## Patterned/Printed Tile Print-Quality Risk (added 2026-08-19, remainder-pool batch)
 
 **Printed/patterned large-format porcelain tile (imitation stone/marble-look) can show visible print-quality inconsistency across pieces once installed at scale** — the same printed pattern rendered inconsistently (uneven tinting, and on some cut pieces the print missing entirely, showing bare clear glaze underneath). **Practical guidance**: keep tile selection simple/plain rather than heavily patterned in a room that already has other visual-interest elements (e.g. a rain-shower fixture) — simplicity reduces exposure to this print-defect risk and still reads as intentional. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]

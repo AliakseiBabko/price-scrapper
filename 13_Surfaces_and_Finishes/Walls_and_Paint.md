@@ -4,6 +4,17 @@ See [[13_Surfaces_and_Finishes/analysis/Soundproofing|Soundproofing]] for wall/f
 
 See [[13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels|Decorative Wall Panels]] for the material comparison (MDF/LDF, polyurethane/polystyrene, gypsum, PVC, wood+veneer, textile/acoustic, cork, LDSP, bamboo, concrete-composite) and selection rules for decorative accent-wall panels (added 2026-08-24).
 
+## Decorative Plaster — Pet-Durability Case, Skill Requirement, and Substrate Tolerance (RemProektMD, added 2026-08-24, Round 2)
+
+> [!NOTE]
+> Chișinău/Moldova channel, region level 2 only. Real object: the practitioner's own home, a panel-house entryway. `single-account`, medium promotional ratio (closes with a direct service pitch). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mONJ1htVKrE_remproektmd_decorative_plaster_masterclass|mONJ1htVKrE]]]
+
+**Real motivating case for decorative plaster over wallpaper**: a household cat repeatedly tore/scratched entryway wallpaper regardless of replacement; tile was considered but rejected as atypical for an entryway. Decorative plaster chosen specifically for durability against pet claws and washability/water exposure — a practical pet-owner rationale, not purely aesthetic.
+
+**Prep and application**: strip to bare wall, prime with the primer bundled in the specific decorative-plaster kit (not a generic primer), then apply in multiple layers. **⚠️ Real skill/experience requirement, stated candidly**: buying the material alone doesn't let a first-timer reproduce the correct texture — pattern is created via a specific trowel movement, and the installer must judge by experience how long each section needs to partially dry before working the adjoining section ("fragment by fragment," not the whole wall at once). **Color changes meaningfully between wet application (looks like dark blotches) and final cured state (noticeably lighter/more muted)** — don't judge final color from the wet appearance mid-job.
+
+**⚠️ Real substrate-tolerance case**: this specific panel-house entryway's walls were "not prepared at all" — bare panel, only patchy skim-coat filler in some spots, not everywhere. The finished decorative-plaster coating fully concealed the previously visible small surface defects/voids — a real practical advantage over a flatter, more defect-revealing finish on a rough substrate. Finished coating described as durable and washable, more resistant than wallpaper to both water and pet claws.
+
 ## Substrate Compatibility & Real-World Deviation Costs — per Zemskov/Zemstandart (added 2026-08-19)
 
 > [!NOTE]

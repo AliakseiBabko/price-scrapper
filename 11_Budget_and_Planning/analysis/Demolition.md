@@ -56,6 +56,23 @@ the cost/legal risks specific to this stage.
   sills specifically get dust ground permanently into the surface if
   left unprotected. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]]]
 
+## Screed-Height Mismatch After a Wall Removal, and Panel-House Screed Irregularity (RemProektMD, added 2026-08-24, Round 2)
+
+> [!NOTE]
+> Chișinău/Moldova channel, region level 2 only. Real jobsite (panel-house apartment, ~25 m²). Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_I-iSW-9NHAs_remproektmd_screed_dismantling_panel_house|I-iSW-9NHAs]]]
+
+**⚠️ Real case: 4cm screed-height mismatch discovered after removing a dividing wall, with the full decision tree for fixing it** — a laser level found the two now-merged rooms' screeds 4cm apart in height. A small transition ramp was rejected (parquet board joints could separate, or crack at the bend); self-leveling compound/tile adhesive only works up to ~1cm difference, not 4cm; pouring the whole apartment up to the higher level was rejected (loses ~5cm ceiling height, and the source dislikes "double screeds" since an old screed underneath can delaminate over time even under a sound new pour). **Chosen fix**: fully remove the higher room's screed down to the bare structural slab and pour a new screed there matching the *other* room's existing level.
+
+**Semi-dry screed chosen specifically for its low-shrinkage property in a remediation context**: preferred over standard wet cement-sand screed poured to leveling pins ("маяки") because it shrinks "practically not at all," letting parquet board go down directly with no additional self-leveling pass — avoiding a second screed layer entirely.
+
+**⚠️ Panel-house-specific demolition caution: screed thickness and substrate can vary meaningfully room-to-room in the same apartment**: in one room the screed sits on ordinary (non-extruded) foam over the slab; in the adjoining hallway the screed was only ~1.5cm thick with a rebar lifting loop protruding *higher* than the slab surface at that spot. **Practical technique for telling screed mortar apart from structural slab concrete mid-demolition** (so the jackhammer stops in time): the slab contains coarse aggregate (limestone/granite crushed stone) and is much stronger — the operator feels the increased resistance immediately on contact. **Rule: never break into the structural slab itself — only the screed layer above it.**
+
+**Tool-rental note, real price stated directly in USD (no conversion needed)**: demolishing a 5-6cm screed needs a genuinely powerful jackhammer (Makita, in this case) — "an ordinary small household breaker won't remove screed this thick." Rental ~**$12/day**; the source notes maintenance is handled by the rental company, a real cost/ownership tradeoff worth knowing when deciding to rent vs. buy a demolition tool for a short job.
+
+**Laser-level datum-and-triangle-mark technique**: set one consistent laser reference height across every room, mark each point with a triangle symbol (habit from years as a site foreman), then measure down from the mark to the actual screed/up to the ceiling — lets levels be re-verified later with just a tape measure even after the laser tool itself has moved to another job.
+
+**Labor-reliability observation**: a subcontracted helper-tier ("подсобные") crew failed to show up for scheduled demolition work; after a ~2-hour wait with no contact, the practitioner did the jackhammer work himself rather than let a rented tool sit idle — stated as a general pattern where helper/general-labor workers are less reliable than specialized tradespeople in his own experience.
+
 ## Site Management & Neighbor Relations
 
 - **Written scope-of-work requirement, with a dispute-resolution
@@ -195,6 +212,8 @@ the cost/legal risks specific to this stage.
   concrete-grinding surface prep, screed-removal decision framework,
   debris logistics** (Pavel Sidorik, added 2026-08-24, Round 2) —
   [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|extraction note]].
+
+- **"Особенности демонтажа стяжки в панельном доме" — 4cm screed-height mismatch decision tree, semi-dry screed low-shrinkage rationale, panel-house screed/substrate irregularity, jackhammer rental price ($12/day), laser-level datum technique, labor-reliability observation** (RemProektMD, added 2026-08-24, Round 2) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_I-iSW-9NHAs_remproektmd_screed_dismantling_panel_house|extraction note]].
 
 Full raw facts (including cross-references not repeated here) live in
 the `Demolition` sections of [[11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index|store/_index.md]].

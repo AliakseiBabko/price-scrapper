@@ -64,6 +64,17 @@ Pavel Sidorik, individual practitioner, own apartment, Belarus (level 1): a shar
 
 **Named products**: automotive-derived foil-faced, self-adhesive vibration-damping sheet (StandartPlast/StP, a thinner/cheaper "Silver" variant also exists), or the manufacturer's purpose-built **"Noise Block Pipe"** kit sized for one 110mm-diameter, 3m sewer-stack section — pre-cut into 6 sheets, multi-layer (sound-absorbing layer + heavy sound-insulating polymer membrane + heat-insulating face), installed with aluminum mastic tape and plastic clamps rather than glued (a mis-wrap can be un-clamped and redone without wasting material). **Price: 75 BYN ≈ $30** (USD/BYN trailing-6-month average ending 2021-05-19, `currency_converter.py`) for a full one-stack kit — comparable to buying generic automotive sheet material, but pre-sized with no measuring/cutting needed. Extra material is fitted around any cleanout/access ("ревизия") fitting so that point isn't left as an acoustic/vibration gap. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zkM_gea0XVE_sidorik_bathroom_toilet_ventilation|zkM_gea0XVE]]]
 
+## Real Comparative Decibel Test — Three DIY Ceiling Materials Under a Stretch Ceiling (RemProektMD, added 2026-08-24, Round 2)
+
+> [!NOTE]
+> Chișinău/Moldova channel, region level 2 only. `single-account`, informal DIY decibel-meter-app methodology, not a lab test. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TFu0lu-_rzQ_remproektmd_ceiling_soundproofing_materials|TFu0lu-_rzQ]]]
+
+**⚠️ Mineral wool excluded from ceiling soundproofing specifically when it will stay exposed above a stretch ceiling (not boxed behind drywall)**: airflow in the void above a stretch-ceiling membrane can carry loose glass-wool fibers into the air over time — a health hazard distinct from this page's existing System Type Taxonomy notes. Narrower than a blanket anti-mineral-wool rule — applies to the exposed-above-a-stretch-ceiling case specifically.
+
+**Real three-material decibel-reduction test** (phone+speaker in a small sealed box built from each material, decibel-meter app, ~30-second sample, informal methodology): baseline (speaker on open table) = **61 dB**. **Extruded polystyrene/XPS** → 52 dB (**-9 dB**). **Foamed polyethylene, 2cm two-layer ("Пенофом Евроблок," Russian-made)** → 47 dB (**-14 dB, best performer**). **2cm natural cork agglomerate** → 57 dB (**-5 dB, worst of the three)**. **⚠️ The cheapest materials tested outperformed the most expensive one** — cork, priced highest, gave the smallest measured reduction.
+
+**Real price data, stated directly in USD**: cork ~**$20/m²** at 2cm thickness; XPS and foamed polyethylene each ~**$5/m²** — roughly 4× cheaper than cork at comparable thickness. Given the test result above, paying the cork premium for this specific under-stretch-ceiling use case is explicitly questioned by the source. Practitioner's own choice for this project: foamed polyethylene (Eurobloc), the cheapest and best-testing of the three. Scope caveat: this comparison applies to ceiling soundproofing staying exposed above a stretch ceiling only — not floor, wall, or a professional multi-layer system.
+
 ## Panel Handling and Wall-Build QC
 
 - **Sound-insulating panel cut-edge taping rule**: any cut edge of a sand-filled sound-insulating panel must be taped immediately with paper tape — an untaped cut edge lets the sand filler spill out, degrading acoustic performance (in the practitioner's words, turning the panel into "a very expensive piece of cardboard"). [source: `yt_fnTjaXPEDDE`]

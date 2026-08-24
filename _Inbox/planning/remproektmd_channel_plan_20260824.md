@@ -164,6 +164,32 @@ channel's internal script-reuse pattern.
   full-scale processing** — see verdict section above. `tools/verify_batch.py`
   run against this batch's changes (see verification notes in this session's
   final report).
+- 2026-08-24 — Round 2 batch dispatched (7 named-technique videos): 5
+  fetched and fully processed serially with real inter-video spacing via
+  interleaved extraction/wiki-routing work (`Wj_i-4GhOQk`, `PmxmmzyUZjg`,
+  `I-iSW-9NHAs`, `TFu0lu-_rzQ`, `mONJ1htVKrE`); 1 (`xXtmccyUqdE`) genuinely
+  skipped — no captions available via either fetch method, confirmed
+  unrelated to rate-limiting; 1 (`C2vRkbcEs7U`) not completed — the 7th
+  fetch attempt hit an HTTP 429/IP-block signature (exit code 2), fetching
+  stopped immediately per the circuit-breaker rule, left `pending` for a
+  future attempt after a real cooldown, not marked `skipped`. 26
+  genuinely-new facts across the 5 completed videos (5.2/video), a ~26%
+  decrease from Round 1's 7.0/video baseline — within the stop-and-ask
+  tolerance (>50% drop) and above the 1.0 floor, no stop-and-ask trigger.
+  Wiki-routing performed the same session for every completed source:
+  [[07_Bathroom/analysis/Tile_Selection_and_Layout.md]] (videos 1-2, a new
+  stress-relief-drilling section and a lifting-rig/butter-both-sides
+  section), [[11_Budget_and_Planning/analysis/Demolition.md]] (video 3, a
+  new screed-height-mismatch/panel-house-irregularity section with a real
+  USD tool-rental price), [[13_Surfaces_and_Finishes/analysis/Soundproofing.md]]
+  (video 4, a new real 3-material decibel-test section), and
+  [[13_Surfaces_and_Finishes/Walls_and_Paint.md]] (video 5, a brand-new
+  decorative-plaster section — first such content in this store). Two
+  videos this round (3, 4) carried real prices stated directly in USD,
+  sidestepping the anticipated MDL/EUR currency-gap entirely rather than
+  triggering it. `tools/verify_batch.py` run against this batch's changes
+  before reporting done (see verification notes in this session's final
+  report).
 
 ## Round 2 — Named-technique tutorials, avoiding the yearly-trend cluster (7 videos, dispatched 2026-08-24)
 
@@ -176,12 +202,42 @@ explicit script-overlap check across years, not folded in here.
 
 | # | Video ID | Title | Why selected | Status |
 |---|---|---|---|---|
-| 1 | `Wj_i-4GhOQk` | Device for installing large-format tiles. Master class on installing large-format tiles. | Large-format tile installation technique | pending |
-| 2 | `PmxmmzyUZjg` | Как снять напряжение в плитке крупного формата? | Large-format tile tension-relief technique | pending |
-| 3 | `I-iSW-9NHAs` | Features of dismantling screeds in a panel house. | Screed demolition technique | pending |
-| 4 | `TFu0lu-_rzQ` | Ceiling soundproofing materials. Comparison of materials for soundproofing ceilings under suspended ceilings. | Ceiling soundproofing technique, tests fit against `Soundproofing.md` | pending |
-| 5 | `mONJ1htVKrE` | Декоративная штукатурка. Мастер класс. | Decorative plaster technique | pending |
-| 6 | `xXtmccyUqdE` | Управление водяным теплым полом. Терморегуляторы теплого пола. | Hydronic heated-floor thermostat technique | pending |
-| 7 | `C2vRkbcEs7U` | Правильный щиток с автоматами. Краткий обзор электрощитка. | Electrical panel technique | pending |
+| 1 | `Wj_i-4GhOQk` | Device for installing large-format tiles. Master class on installing large-format tiles. | Large-format tile installation technique | **DONE** — fact_yield 4. Custom pipe+suction-cup lifting rig for 280×120cm/6mm tile; SVP-clip sequencing detail; second independent "butter both sides" statement. Low promotional ratio. Routed to [[07_Bathroom/analysis/Tile_Selection_and_Layout.md]]. |
+| 2 | `PmxmmzyUZjg` | Как снять напряжение в плитке крупного формата? | Large-format tile tension-relief technique | **DONE** — fact_yield 3. Sharp-cut-corner stress-concentration crack mechanism + diamond-core-bit stress-relief drilling fix (4-50mm bits). Low promotional ratio. Routed to [[07_Bathroom/analysis/Tile_Selection_and_Layout.md]]. |
+| 3 | `I-iSW-9NHAs` | Features of dismantling screeds in a panel house. | Screed demolition technique | **DONE** — fact_yield 8, densest video this round. Real 25m² case: 4cm screed-height-mismatch decision tree, semi-dry screed low-shrinkage rationale, panel-house screed/substrate irregularity + slab-vs-screed jackhammer-feel technique, jackhammer rental $12/day (stated directly in USD, no conversion needed), laser-level datum-and-triangle technique, subcontractor no-show labor-reliability note. Low promotional ratio. Routed to [[11_Budget_and_Planning/analysis/Demolition.md]]. |
+| 4 | `TFu0lu-_rzQ` | Ceiling soundproofing materials. Comparison of materials for soundproofing ceilings under suspended ceilings. | Ceiling soundproofing technique, tests fit against `Soundproofing.md` | **DONE** — fact_yield 6. Real 3-material decibel test (XPS -9dB, foamed-polyethylene "Eurobloc" -14dB best, cork -5dB worst *despite* being priciest at $20/m² vs $5/m², both stated directly in USD); mineral-wool-under-stretch-ceiling fiber-shedding health caveat. Low promotional ratio. Routed to [[13_Surfaces_and_Finishes/analysis/Soundproofing.md]]. |
+| 5 | `mONJ1htVKrE` | Декоративная штукатурка. Мастер класс. | Decorative plaster technique | **DONE** — fact_yield 5. Real object (practitioner's own home): pet-scratch-durability motivating case for decorative plaster over wallpaper, skilled-application requirement, wet-vs-cured color-change caveat, real unprepared-panel-substrate tolerance case. Medium promotional ratio (closing service pitch). Routed to [[13_Surfaces_and_Finishes/Walls_and_Paint.md]]. New topic for this store — no existing decorative-plaster content before this. |
+| 6 | `xXtmccyUqdE` | Управление водяным теплым полом. Терморегуляторы теплого пола. | Hydronic heated-floor thermostat technique | **SKIPPED — no captions available.** Confirmed via both `youtube-transcript-api` ("Subtitles are disabled for this video") and `yt-dlp` ("no subtitle tracks for languages ['ru','en']"). Neither failure carries a rate-limit/bot-check signature — genuinely unavailable, not a circuit-breaker case. Never fetched, not extracted. |
+| 7 | `C2vRkbcEs7U` | Правильный щиток с автоматами. Краткий обзор электрощитка. | Electrical panel technique | **NOT COMPLETED — rate-limit/IP-block hit (exit code 2, yt-dlp `HTTP Error 429`).** `youtube-transcript-api` first reported no ru/en transcript exists for this video at all (only Korean auto-captions found); the yt-dlp fallback then hit the 429. Per this skill's circuit-breaker rule, fetching stopped immediately — not retried, not marked `skipped` in the CSV (left entirely unlogged, matching the rule that a rate-limited video isn't given a `skipped` row). Left as `pending` in the batch-status file for a future attempt after a real cooldown. |
 
-Status: **pending dispatch**.
+**Round 2 yield**: 5 videos fully processed (1,2,3,4,5), 26 genuinely-new facts
+(4+3+8+6+5, excluding duplicate/corroborating-only content), yield = 5.2 new
+facts/video across the 5 completed videos. Compared to Round 1's 7.0
+facts/video baseline: a ~25.7% decrease — well within this project's
+stop-and-ask threshold (>50% drop) and well above the 1.0/video floor. No
+stop-and-ask trigger; continuing to process this channel in a future round
+remains reasonable. Video 3 (screed demolition) was the standout, at 8
+genuinely new facts including a real, directly-USD-stated price point.
+
+**MDL/EUR currency-gap outcome, Round 2**: the anticipated MDL gap again did
+not materialize as MDL specifically — but two videos this round (3 and 4)
+contained real price figures, and in both cases the source stated the price
+**directly in USD**, requiring no conversion and sidestepping the
+MDL/EUR tooling gap entirely. This is the first round from this channel
+where a price figure was directly usable with zero currency-normalization
+work. Videos 1, 2, and 5 contained no price figures at all.
+
+**Rate-limiting encountered**: yes, on the 7th and final fetch of this round
+(`C2vRkbcEs7U`) — an `HTTP Error 429` from yt-dlp's caption-subtitle
+request, following an already-negative `youtube-transcript-api` result
+(no ru/en track exists for that specific video, independent of the
+rate-limit). Per the skill's circuit-breaker rule, no further videos were
+fetched this run once this signature appeared. Videos 1-6 were unaffected —
+all fetched successfully or failed for a genuine no-captions reason before
+this point; the rate limit appeared to be specific to the final request in
+the session's overall fetch history, consistent with an IP-reputation
+effect building up over the run's aggregate request volume rather than a
+per-video block.
+
+Status: **5 of 7 videos complete, 1 genuinely skipped (no captions), 1
+incomplete (rate-limit circuit-breaker, retry after cooldown)**.

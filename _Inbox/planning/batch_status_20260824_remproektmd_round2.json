@@ -1,0 +1,14 @@
+{
+  "batch": "remproektmd_round2",
+  "created": "2026-08-24",
+  "videos": {
+    "Wj_i-4GhOQk": "archived",
+    "PmxmmzyUZjg": "archived",
+    "I-iSW-9NHAs": "archived",
+    "TFu0lu-_rzQ": "archived",
+    "mONJ1htVKrE": "archived",
+    "xXtmccyUqdE": "skipped_no_captions",
+    "C2vRkbcEs7U": "pending"
+  },
+  "notes": "Fetch of C2vRkbcEs7U (video 7/7) hit a rate-limit/IP-block signature (exit code 2, yt-dlp HTTP 429) on 2026-08-24. Per the skill's circuit-breaker rule, fetching was stopped immediately for this run - C2vRkbcEs7U is left as 'pending' (not marked 'skipped' - no CSV row written for it), no retry attempted. xXtmccyUqdE (video 6/7) is a genuine no-captions skip, confirmed unrelated to the rate-limit (failed before the 429 was ever hit, with an explicit 'subtitles disabled for this video' / 'no subtitle tracks' reason, no rate-limit signature in either failure message). Videos 1-5 fully archived. Round 2 batch is incomplete pending a real cooldown before retrying C2vRkbcEs7U."
+}
