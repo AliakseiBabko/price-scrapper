@@ -52,7 +52,28 @@ This channel cleared the value-filter bar decisively — 5 of 5 videos yielded g
 
 ## Rounds 2+ (cluster and dispatch per the verdict above)
 
-Per the verdict above: cluster the two numbered series and the standalone-technique pool by destination page (same approach as the Kruglov/Ontario plan), process series entries in narrative order (recommended — they're a real sequential project), and explicitly deprioritize/skip the tool-review and pure-filler videos identified in the channel facts above. Chunk into 5-8 video dispatches per this project's standing background-agent guidance, not one large batch.
+**Confirmed series structure** (re-derived directly from the manifest's numbered titles): both series are single continuous documented projects, numbered descending in upload order:
+
+- **"Renovation in a New Building from A to Z"** — episodes **#1–#42**, confirmed complete run. #1 (`hpU_xEXmdvE`) already processed in Round 1 (region: level 2 only for this project). Process the rest **in narrative order**.
+- **"Remaking a Khrushchevka from A to Z"** — episodes **#1–#36**, confirmed complete run (`xZBBLG8wd5A` = #1 through `z_gp4eGsSCM` = #36). The cost-overview "finale" (`0sJPlpi8I2U`, level-1 Belarus, already processed in Round 1) is a separate summary video, not part of the numbered run — process #1–36 in narrative order once the New Building series is underway.
+- **House-construction series** (~15 episodes, foundation → roof) — lower priority for an apartment-focused project.
+- **Standalone technique tutorials** (~180 videos) — cluster by topic once the two main series are underway; expect overlap with series content.
+- **Tool/equipment reviews** (~40 videos) — deprioritized.
+- **Filler** (New Year greeting, WorldSkills trip, clickbait, joke clips) — skip entirely, never fetch.
+
+### Round 2 — New Building A-to-Z, episodes #2–#8 (7 videos)
+
+| # | Video ID | Title | Status |
+|---|---|---|---|
+| 1 | `_TGU8C0u010` | Life hacks for apartment renovation. Useful tips. #2 | pending |
+| 2 | `H6atjh_g1jQ` | Dismantling work in a new building. Everything you need to know #3 | pending |
+| 3 | `ZW-dNzbCREI` | Construction of partitions of a bathroom from blocks. All stages. #4 | pending |
+| 4 | `HqmQaZ1y1UM` | The main mistakes when erecting partitions from aerated concrete #5 | pending |
+| 5 | `9-NjgDLleOw` | Do-it-yourself electrician in a new building. #6 | pending |
+| 6 | `IWVPepWlzSs` | Do-it-yourself electrician in a new building. Episode 2 #7 | pending |
+| 7 | `7QuzCGvDG_w` | Electrician in a new building. Cable routing with and without corrugation. Episode 3 #8 | pending |
+
+Further rounds (New Building #9–42, then Khrushchevka #1–36, then technique-cluster rounds) will be planned round-by-round as processing proceeds, given the scale (331 videos remaining) — not fully pre-planned in one pass.
 
 ## Progress Log
 
