@@ -114,6 +114,35 @@ from the substrate. **Cost, all-in per m² for the complete build-up**
 RUB/m² ≈$80-$90/m²**, trailing-6-month USD/RUB average ending
 2026-03-03. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c4mmaLAsDw4_petrishin_screed_soundproofing|YT_c4mmaLAsDw4]]]
 
+**Manufacturer spec sheet, a second Шумопласт source with real
+engineering-album figures (Петришин-Строй, real object in Одинцовский
+район/Ромашково — likely the same job as this page's ZIPS-panel case
+below, same crew — region level 1, added 2026-08-24, Round 12)**:
+ASTic Group's own published spec — total floor-construction thickness
+**≈80mm (±5mm)** = 20mm Шумопласт + a **minimum 60mm screed** on top;
+manufacturer figures **-28dB reduced impact-noise index** (matches
+this page's existing figure) and an airborne-insulation figure rendered
+in this transcript as "79dB" — `ASR-uncertain`, almost certainly the
+same **-7-9dB** range above rather than a new/different number.
+**A second, distinct product-selection criterion**, additive to the
+substrate-unevenness rule above: choose Шумопласт over roll-type
+Шуманет-100/Гидро specifically when **many utility lines/pipes run
+under the floor** in the room being treated — the granular material
+conforms around obstructions better than a sheet product. **Beacon
+rule, critical mechanism**: never drill/screw into the Шумопласт layer
+itself when setting screed beacons — the whole mechanism depends on the
+screed floating fully decoupled from both the walls and the structural
+slab; any rigid penetration short-circuits that decoupling. Perimeter
+damper strip can be built from Шумопласт itself (primed with matching
+"Шумопласт грунт" primer, then hand-tamped while fresh) or from cut
+Шуманет-100/Гидро roll strips, or a "Вибростек" roll product with
+"Вибросил" silicone — the practitioner's own view: the Шумопласт-
+perimeter method is less convenient than the roll-based alternatives.
+Reinforcement mesh: 5×5cm cells, wire-tied every 20cm. **Material-only
+cost, distinct from the all-in figure above**: one ≈10m²-coverage
+package costs **2,750 RUB (≈275-300 RUB/m², material only)**; matching
+primer **≈450-500 RUB per ~3L**. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ar4HNfWjzh4_petrishin_shumoplast_spec_sheet|YT_ar4HNfWjzh4]]]
+
 ## Partition-Wall Material Sound-Insulation Comparison, dB Figures (added 2026-08-24, Petrishin-Stroi Round 9)
 
 Sergey Petrishin's company cites real sound-insulation-index (dB)

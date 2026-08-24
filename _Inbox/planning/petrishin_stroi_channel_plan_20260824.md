@@ -1244,3 +1244,103 @@ Videos 4 and 7 share a client name (Максим), a running-materials-cost-tabl
   Python's `csv` module to parse into the correct 15 columns.
   `tools/verify_batch.py` to be run against the pre-round commit
   (`72c434c`) before finishing.
+
+## Round 12 — Short TV-format technique clips, wallpaper/plumbing/soundproofing material specifics, radiator freeze-burst, Виноградный episodic-series spot-check (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing, a fresh 8-video selection from the
+341-video manifest for topic diversity, deliberately avoiding the
+"Ремонт по проекту Алексея Земскова" cluster and the "Отзыв №N"
+client-testimonial cluster per this plan's standing notes. Includes an
+explicit cross-check of video 5 (radiator burst) against this channel's
+three other flood incidents, video 7 (Шумопласт) against Round 6's
+existing Шумопласт section, and a deliberate first-touch spot-check of
+the older numbered "ЖК Виноградный" episodic series (video 8).
+
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `szIzrJJMm4o` | Как защитить межплиточные швы? Телеканал «Бобёр». | Short TV-format tile-grout-protection technique | **FULL extraction** | 2 | Confirmed via `yt-dlp` uploader metadata to be uploaded directly by the Petrishin-Stroi channel itself, not a third-party "Бобёр" TV re-upload. 2016-04-20 upload date. New grout-joint water/mold-protection sealant technique, genuinely new to `Tile_Selection_and_Layout.md`. Region level 2. Low promotional ratio. |
+| 2 | `VZk4615VM6I` | Установка дверного порожка. Телеканал «Бобёр». | Short TV-format door-threshold-installation technique | **FULL extraction** | 4 | Same-day/same-series pair with video 1 (identical 2016-04-20 upload date, same channel uploader). Removable T-molding transition-threshold three-part construction technique — new to `Flooring_Guide.md`. Region level 2. Low promotional ratio. |
+| 3 | `MTKwKUx0Nnc` | Как покрасить обои. Секреты от профессионалов. | Painting-over-wallpaper technique | **SKIPPED — no captions available** | 0 | Both `youtube-transcript-api` (subtitles disabled) and `yt-dlp` (no ru/en subtitle tracks) failed, `reason_class: null` for both — a genuine no-captions failure, not a rate-limit signature. Not fetched, not extracted. |
+| 4 | `ot7qPVf7XVU` | Как клеить флизелиновые обои | Non-woven ("флизелиновые") wallpaper-hanging technique, explicit cross-check vs. Round 9 wallpaper Q&A | **FULL extraction** | 9 | Real jobsite demo, brand "Patent Decor" named. **Explicitly cross-checked against Round 2's acceptance checklist (`VcrYHkDgb0o`) and Round 9's 17-question Q&A (`NyIj6h8hZHw`) — confirmed no overlap**, first hands-on gluing/hanging-sequence walkthrough for non-woven wallpaper on this page. New: priming-mandatory-but-often-skipped rule, paintable-non-woven-specific 4.5L glue ratio, ⚠️ glue-on-wall-only-vs-vinyl-both-sides material distinction, knife-parallel-to-wall trim technique, waffle-cloth cleanup, seam-over-window/door placement rule, draft warning. Region level 2. Low promotional ratio. |
+| 5 | `oA6gABulhJk` | ЧП (чрезвычайное происшествие). Прорвало батарею! | Real radiator-burst emergency incident, explicit cross-check vs. this channel's other flood incidents | **FULL extraction — genuinely distinct 4th mechanism** | 9 | Real incident, filmed on-site day-of/day-after. **Explicitly cross-checked against Round 4's towel-warmer demolition damage, Round 9's concealed-ventilation-valve defect, and Round 10's radiator-fitting failure — confirmed a genuinely distinct 4th mechanism**: a freeze-burst from a management-company multi-unit heating shutoff combined with a window left open for post-plaster drying, not demolition damage, concealment, or a single fitting failure. **Region: level 1** (a real city named directly, ASR-uncertain exact spelling). New: management-company diagnostic-failure pattern, real ~1-1.5L incident scale, diagnostic sequence, and a **positive-case corroboration of Round 10's radial-piping recommendation from the opposite direction** (this apartment's radial wiring let the crew isolate just the one burst radiator). Low promotional ratio. |
+| 6 | `vv4Wav4S7dY` | Сантехнические работы полипропиленом | Polypropylene-pipe plumbing technique | **SKIPPED — no captions available** | 0 | Both `youtube-transcript-api` (subtitles disabled) and `yt-dlp` (no ru/en subtitle tracks) failed, `reason_class: null` for both — a genuine no-captions failure, not a rate-limit signature. Not fetched, not extracted. |
+| 7 | `ar4HNfWjzh4` | Шумоизоляция пола "Шумопласт". Советы от профессионалов. Петришин Строй | Шумопласт floor-soundproofing deep dive, explicit cross-check vs. Round 6's existing Шумопласт section | **FULL extraction** | 9 | Real object, Одинцовский район/Ромашково — **same district/settlement and same named crew (Валера/Ваня/Коля) as Round 11's ZIPS-panel video**, likely the same real job. **Explicitly cross-checked against Round 6's existing Шумопласт section — confirmed only partial originating-source status**: Round 6's source was already independently detailed (composition, -28dB figure, application technique, all-in cost); this video adds the manufacturer's own engineering-album spec sheet (80mm total buildup), a second product-selection criterion (utility-line density, additive to Round 6's substrate-unevenness criterion), a critical beacon-must-not-penetrate rule, and a material-only cost breakdown distinct from Round 6's all-in figure. Region level 1. Medium promotional ratio. |
+| 8 | `l4bXbwfOlrU` | Эпизод 7. Сантехнические работы. ЖК Виноградный. Ремонт квартиры онлайн. | First-touch spot-check of the older numbered "ЖК Виноградный" episodic series (~13 episodes) | **FULL extraction, explicit series-worth verdict recorded** | 10 | Oldest source processed on this channel to date (2015-12-28 confirmed via `yt-dlp`). **Explicitly checked against existing `Water_Inlet_Node_Components.md` — confirmed heavy overlap** on the general inlet-node component sequence (already densely corroborated from 5+ other sources), correctly excluded from the fact count; genuinely new: Honeywell glass-vs-metal filter/reducer material distinction, Geberit frame-anchoring detail, leak-protection trigger scenarios, and a genuinely new **real cable-under-straightedge floor-squeak demonstration mechanism**, routed to `Flooring_Guide.md`. **Verdict: worth a further small spot-check (2-3 later episodes, structural/finishing stages) before committing to the full ~13-episode series** — this episode's plumbing content was more heavily pre-covered ground than a first-touch episode ideally would be. Region level 2. Low promotional ratio. |
+
+**Status: COMPLETE — 6 of 8 videos fully fetched and extracted, 2 genuinely skipped for no captions, zero rate-limit issues.**
+
+**Round 12 yield**: 6 videos processed (videos 3 and 6 not fetched — no captions, excluded from the denominator), 43 genuinely-new facts (2+4+9+9+9+10, excluding duplicate/corroborating-only outcomes), yield = 7.2 new facts/video — **66% of Round 11's 10.9 baseline** (within the >50%-drop stop-and-ask threshold, and well above the 1.0/video floor). No stop-and-ask trigger.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 6 successful fetches were serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV/archiving work between fetches — never an idle wait), consistent with every prior round's clean result on this channel. Both no-captions failures (videos 3, 6) were independently confirmed as genuine per-video failures (`youtube-transcript-api`: "Subtitles are disabled for this video"; `yt-dlp`: no subtitle tracks for ru/en; `reason_class: null` for both attempts in both cases) — not the rate-limit/IP-block signature this project treats as a circuit breaker. Both logged `status: skipped` with the specific reason.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence again varied video to video, not a fixed channel answer, consistent with every prior round. Per-video: video 1 (level 2), video 2 (level 2), video 4 (level 2), video 5 (**level 1** — a real city named directly, ASR-uncertain exact spelling), video 7 (**level 1** — "Одинцовский район... деревня Ромашково" named directly, same location as Round 11's ZIPS video), video 8 (level 2 — named development, no city spoken). 2 of 6 fetched videos cleared level 1 directly this round.
+
+### Language check
+
+No English-titled video was encountered this round — all 8 selected videos had Russian titles. All 6 successful fetches confirmed Russian spoken audio (`youtube-transcript-api` returned `language: ru` for every fetch).
+
+### Radiator freeze-burst cross-check (video 5), per this round's explicit brief
+
+**Confirmed a genuinely distinct, fourth flood/burst mechanism on this channel.** Round 4's incidents are demolition-crew physical damage to an existing towel-warmer pipe; Round 9's is a years-later concealed shared-ventilation-valve defect; Round 10's is a developer-installed heating-fitting/gasket failure at a specific connection point with a liability dispute. This video's mechanism is environmental/interruption-driven: a management company cut heating to multiple apartments in response to an unrelated leak elsewhere, without diagnosing which unit was actually affected; this apartment's own window had been left cracked for post-plaster drying, and the resulting cold-plus-no-heat condition froze the radiator's water column, bursting both its top and bottom gaskets simultaneously. **A genuinely valuable secondary finding**: this apartment's radial ("лучевая") piping topology let the crew isolate and shut off only the burst radiator, keeping the other three fully functional — a positive-case corroboration, from the opposite direction, of Round 10's implied recommendation that non-radial topology is a liability. Recorded on `Radiators_and_Convectors.md` and cross-referenced from `Demolition.md`'s flood-incident cluster.
+
+### Шумопласт cross-check (video 7), per this round's explicit brief
+
+**Confirmed partial, not full, originating-source status.** Round 6's existing Шумопласт section (`c4mmaLAsDw4`) was already independently detailed — composition, manufacturer dB figures, application technique, cure protocol, and an all-in installed cost. This video adds real manufacturer engineering-album data (an 80mm total floor-buildup spec: 20mm Шумопласт + 60mm minimum screed) plus a second, additive product-selection criterion (utility-line density under the floor, distinct from Round 6's substrate-unevenness criterion), a critical beacon-must-not-penetrate-the-material rule, and a material-only cost breakdown (≈275-300 RUB/m²) kept explicitly separate from Round 6's all-in ≈$80-90/m² figure since the two are non-comparable cost bases. One manufacturer figure (an airborne-noise index ASR-rendered as "79dB") was flagged `ASR-uncertain` and treated as a likely digit-merge of the existing -7-9dB figure rather than adopted as a new, higher number. This video's location (Одинцовский район/Ромашково) and named crew (Валера/Ваня/Коля) match Round 11's ZIPS-panel video exactly, strongly suggesting the same real job across both soundproofing-method sources.
+
+### Виноградный episodic-series spot-check (video 8), per this round's explicit brief
+
+**Explicit verdict: worth a further small spot-check before committing to the full series, not yet a full-round commitment.** This first-touch episode (plumbing rough-in, episode 7 of ~13) delivered one genuinely new, physically-demonstrated mechanism (the cable-under-straightedge floor-squeak demo) and several brand-specific installation details (Honeywell, Geberit), but roughly two-thirds of its inlet-node-component content was a straightforward restatement of the sequence this vault already has densely corroborated from five other sources. The format looks structurally comparable to Kruglov/Sidorik's own numbered episodic series (which performed well on this project), but this specific episode's subject (plumbing) happened to be unusually pre-covered ground for a first-touch episode. **Recommendation for a future round**: sample 2-3 later episodes covering structural/electrical/finishing stages (this episode's own forward reference points to a drywall-construction episode next) before deciding on the full ~13-episode series.
+
+## Progress Log
+
+- 2026-08-24 — **Round 12 complete.** 6 of 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/CSV/archiving work), zero rate-limit issues across
+  the entire round. Videos 3 and 6 hit genuine no-captions failures
+  (confirmed via both `youtube-transcript-api` and `yt-dlp` failure
+  reason classes — neither rate-limit-related), logged `status: skipped`
+  with the specific reason. All 6 fetched videos fully extracted. Yield
+  43 new facts / 6 processed videos = 7.2 facts/video — 66% of Round 11's
+  10.9 baseline, well above the 1.0 floor and not a >50% drop — no
+  stop-and-ask trigger. Region checked explicitly per video: 2 of 6
+  cleared level 1 directly (videos 5, 7), 4 stayed at level 2. Language
+  checked — no English-titled videos this round, all 6 fetches confirmed
+  Russian audio. Three explicit cross-checks performed as instructed (see
+  the dedicated finding sections above): video 5 (radiator freeze-burst)
+  against this channel's three other flood incidents — confirmed a
+  genuinely distinct fourth mechanism plus a positive-case radial-piping
+  corroboration; video 7 (Шумопласт) against Round 6's existing section —
+  confirmed partial (not full) originating-source status, with new
+  manufacturer spec-sheet data and a second product-selection criterion;
+  and video 8 (Виноградный episode 7) against `Water_Inlet_Node_
+  Components.md` — confirmed heavy overlap correctly excluded, with an
+  explicit series-worth verdict recorded (spot-check further before
+  committing to the full series). Videos 1-2 were also confirmed, via
+  `yt-dlp` uploader metadata, to be genuine same-channel same-day content
+  rather than third-party "Бобёр" TV re-uploads. Content routed to
+  `07_Bathroom/analysis/Tile_Selection_and_Layout.md` (grout-protection
+  technique), `13_Surfaces_and_Finishes/Flooring_Guide.md` (T-molding
+  threshold technique, cable-under-straightedge demo mechanism),
+  `13_Surfaces_and_Finishes/Walls_and_Paint.md` (non-woven wallpaper
+  hanging technique), `12_Engineering_and_Systems/analysis/
+  Radiators_and_Convectors.md` (freeze-burst incident), `12_Engineering_
+  and_Systems/analysis/Soundproofing.md` (Шумопласт spec-sheet
+  extension), `12_Engineering_and_Systems/analysis/
+  Water_Inlet_Node_Components.md` (brand-specific filter/frame detail),
+  and `11_Budget_and_Planning/analysis/Demolition.md` (cross-reference to
+  the new freeze-burst mechanism). All 6 processed transcripts archived
+  via `tools/youtube/archive_transcripts.py` (dry-run first, all 6
+  matched correctly) — 2 of the 6 source notes' bottom `[source: ...]`
+  inline links needed the same manual fix as Rounds 5-11 (frontmatter
+  `transcript_file:` auto-updated by the script, bottom link was not) —
+  corrected by hand for both (`oA6gABulhJk`, `ar4HNfWjzh4`, both renamed
+  by the archive script to match their source notes' own filename slugs).
+  All CSV rows (6 `archived` + 2 `skipped`) independently re-verified via
+  Python's `csv` module to parse into the correct 15 columns.
+  `tools/verify_batch.py` run against the pre-round commit (`6ce34d8`) —
+  passed clean on the first run, no mojibake, BOM, retired-pattern,
+  ID-drift, rounding-bucket, or arithmetic-plausibility problems found.

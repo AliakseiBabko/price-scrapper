@@ -467,3 +467,22 @@ promotional ratio.
   (ASR-uncertain exact brand rendering) praised by the tiler as easy to
   work with.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+
+## Grout-Joint Water/Mold Protection ("Impregnation") Technique (Петришин-Строй, added 2026-08-24, Round 12)
+
+Short TV-style tip clip (confirmed uploaded by the Petrishin-Stroi channel
+itself, not a third-party re-upload). Region level 2. Low promotional
+ratio. Genuinely new to this page — no existing grout-sealant content.
+
+- **⚠️ Problem mechanism**: grout ("межплиточные швы") darkens over time
+  because its porous surface absorbs moisture and dirt, and mold/mildew
+  can grow inside the joint itself — once this happens, the joint is
+  genuinely harder to clean back to its fresh-installation appearance,
+  not just cosmetically dulled.
+- **Prevention technique, timed immediately post-tiling**: while grout is
+  still fresh, brush on a water-repellent antibacterial grout sealant
+  (bought at the same specialty store as the grout) with an ordinary
+  artist's paintbrush. Dries in 2-3 hours; a second coat is fine with no
+  downside. Tedious but effectively mold-proofs the joints and makes
+  long-term cleaning much easier.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_szIzrJJMm4o_petrishin_tile_grout_protection|YT_szIzrJJMm4o]]]

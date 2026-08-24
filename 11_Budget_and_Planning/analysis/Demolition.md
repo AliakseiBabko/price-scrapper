@@ -226,6 +226,15 @@ the cost/legal risks specific to this stage.
   pipe connection failed — see [[12_Engineering_and_Systems/analysis/Radiators_and_Convectors|Radiators & Convectors]]
   for the full incident, root-cause theory, and preventive checklist
   (Петришин-Строй, ЖК Рассказово, added 2026-08-24, Round 10).
+- **A fourth, distinct flooding mechanism, added 2026-08-24 Round 12**: a
+  radiator **freeze-burst** caused by a management company cutting
+  heating to multiple apartments (in response to an unrelated leak
+  elsewhere) combined with a window left open for post-plaster drying —
+  environmental/interruption-driven, not demolition damage, a concealed
+  defect, or a fitting failure. See
+  [[12_Engineering_and_Systems/analysis/Radiators_and_Convectors|Radiators & Convectors]]
+  for the full incident, including a positive case for radial piping's
+  isolation benefit.
 - **⚠️ Load-bearing wall demolition is named the single most dangerous
   demolition mistake**: a wall that superficially resembles a
   non-structural partition can actually be carrying ceiling/slab load —

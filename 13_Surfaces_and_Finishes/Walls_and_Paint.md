@@ -345,6 +345,53 @@ acceptance content:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NyIj6h8hZHw_petrishin_wallpaper_paint_qa|NyIj6h8hZHw]]]
 
+## Non-Woven ("Флизелиновые") Wallpaper Hanging Technique — Installation Walkthrough (Петришин-Строй, added 2026-08-24, Round 12)
+
+Real jobsite demo, brand "Patent Decor" named. Region level 2. Low
+promotional ratio. **Explicitly cross-checked against Round 2's
+acceptance-checklist (`VcrYHkDgb0o`) and Round 9's practitioner Q&A
+(`NyIj6h8hZHw`) — confirmed no overlap**: both existing sources cover
+what a finished job should look like or answer specific questions; this
+is the first hands-on gluing/hanging-sequence walkthrough for non-woven
+wallpaper on this page.
+
+- **Substrate prep, priming flagged as commonly skipped**: beacon-
+  plastered walls, two coats of putty (named "Vit LR," ASR-uncertain
+  exact rendering), fully sanded under inspection light, then **primed**
+  before adhesive — priming is explicitly called "obligatory" though
+  "many installers ignore this step"; an unprimed wall absorbs adhesive
+  too fast for the panel to bond properly.
+- **Glue-mixing ratio, paper-type-specific**: 4.5L water per glue package
+  for **paintable** non-woven wallpaper specifically (not the standard
+  5L ratio) — per the glue manufacturer's own instructions, since
+  paintable non-woven paper needs a different consistency. Mix in small
+  portions at the bucket edge, rest 10 minutes, remix; correct
+  consistency flows steadily off a roller (neither watery nor thick).
+- **⚠️ Material-specific glue-application rule (the video's central
+  point)**: for **non-woven wallpaper, glue goes on the wall only** —
+  **vinyl wallpaper requires glue on both the wall and the sheet's own
+  back**. Applying vinyl-style double-gluing to non-woven paper is an
+  avoidable mistake this distinction guards against.
+- **Panel-cutting/hanging allowance and edge technique**: cut each drop
+  with ~5cm excess top and bottom; hang top-down, squeeze out air
+  bubbles with a wide brush/roller/plastic spatula; apply glue
+  bottom-to-top to avoid drip staining; use a small brush for careful
+  edge work near a stretch-ceiling track.
+- **⚠️ Trim-cutting technique**: hold the utility knife blade **parallel
+  to the wall, not perpendicular**, and never lift the blade mid-cut —
+  slide the smoothing spatula and knife together in one continuous
+  motion rather than repositioning with fresh cuts, to avoid a
+  ragged/wandering trim line.
+- **Cleanup and seam-placement rules**: wipe excess glue immediately with
+  a damp "waffle-weave" cloth (rinsed frequently to avoid smearing
+  residue back onto the surface); plan panel layout so seams fall above
+  a window or door opening wherever possible, for minimum visibility
+  (both non-woven and vinyl wallpaper stretch slightly, allowing some
+  seam-position flexibility).
+- **⚠️ Draft warning**: no air drafts during hanging/drying — can
+  seriously degrade adhesion quality.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ot7qPVf7XVU_petrishin_flizelin_wallpaper|YT_ot7qPVf7XVU]]]
+
 ## Wall-Prep-for-Paint Staged Sequence, Timeline, and Cure-Discipline (Петришин-Строй, added 2026-08-24, Round 3)
 
 On-site interview with a subcontracted painter ("маляр"), not a company

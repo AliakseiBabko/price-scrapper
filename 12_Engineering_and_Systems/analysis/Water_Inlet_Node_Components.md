@@ -173,3 +173,36 @@ own reference photo. The practitioner explicitly invites more
 specialized viewers to weigh in with their own opinion in the comments —
 a rare instance of a source presenting a real technical dispute as
 still open rather than resolved with full confidence. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+
+## Real Two-Bathroom Rough-In Walkthrough — Brand-Specific Filter/Reducer and Frame Details (Петришин-Строй, "ЖК Виноградный" episodic series, added 2026-08-24, Round 12)
+
+Real object, region level 2 (named development, no city spoken), 2015-
+vintage source (oldest processed on this channel to date). Low
+promotional ratio. **Heavy overlap with the general inlet-node component
+sequence already densely recorded above from five other sources
+(main shutoff → coarse filter → leak-protection → meter → check valve →
+fine filter/reducer → manifold), correctly not double-counted.**
+Genuinely new brand-specific and mechanism detail:
+
+- **⚠️ Fine-filter/reducer material distinction by water temperature,
+  brand-named**: Honeywell fine filter + pressure reducer used on both
+  hot and cold lines, but **the cold-water unit has a glass bowl housing
+  while the manufacturer specifically recommends a metal (iron) housing
+  for the hot-water unit** — a material/temperature-rating distinction
+  not previously recorded here.
+- **Leak-protection sensor, real trigger scenarios named directly**: an
+  unattended running tap (e.g. answering a phone call), a child playing
+  with a tap, or a sink overflow drain unable to keep pace with an open
+  tap — any of these lets water rise past the sink's own overflow,
+  triggering the under-sink sensor to cut both hot and cold supply
+  completely.
+- **Geberit installation-frame detail**: a wall-hung-toilet frame's
+  mounting angle-bracket was pre-installed and fixed into the wall ahead
+  of the frame itself, specifically for anchoring reliability — a
+  distinct, earlier-stage anchoring detail from this page's existing
+  Kruglov/Ontario chemical-anchor rule for installation frames.
+- **Concealed-mixer hygienic-shower plumbing**: a concealed mixer valve
+  blends hot/cold internally in the wall before the mixed water reaches
+  the hygienic-shower outlet fixture.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_l4bXbwfOlrU_petrishin_vinogradny_ep7_plumbing|YT_l4bXbwfOlrU]]]

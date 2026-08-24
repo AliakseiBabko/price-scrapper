@@ -518,3 +518,64 @@ named).
 - **Screed QC and curing detail, real ЖК Topills object** (Петришин-Строй, region level 2, added 2026-08-24, Round 6): real sand-quality caution (must be washed river sand, never frozen — a real winter-delivery risk); fiber additive ("фибра") mixed into the screed mix for crack-resistance via micro-fiber reinforcement; reinforcement mesh must be physically lifted mid-pour so it ends up embedded within the screed body rather than settling uselessly at the bottom (an unembedded mesh "doesn't work at all," wasting its cost); explicit 2-3 day curing protocol — cover with plastic film immediately after pouring, then periodically uncover and thoroughly water the screed for 2-3 days before re-covering, to prevent rapid moisture loss that would otherwise stop the screed reaching full rated strength (skipping this is common and causes later cracking/warping even on an otherwise well-executed pour). **Quantified screed-height-planning cost trap on this real 120m² object**: not deciding finish-flooring materials (tile vs. quartz-vinyl by room) before the screed pour required a later self-leveling compensation layer costing a minimum additional ≈300,000 RUB ≈$3,800 — a concrete real-object number for this store's existing general 150,000-300,000 RUB cost-trap range. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c4mmaLAsDw4_petrishin_screed_soundproofing|YT_c4mmaLAsDw4]]]
 - **Herringbone (`ёлочкой`) install-time and error-tolerance mechanism, plus exclusive-material lead-time/crew-retention caution** (Петришин-Строй, real 120m² premium case, region level 2, added 2026-08-24, Round 6): a herringbone pattern install takes roughly 2-3× a standard flooring install, and a placement error as small as half a millimeter compounds to a ~1.5cm misalignment by the far end of a run — a concrete precision/time-cost mechanism for this layout. Separately: an exclusive-collection quartz-parquet color took 6 months to arrive after ordering; independently-hired private crews (not a company's salaried staff) may not return to finish a project after a gap that long, since crew members often pick up other, closer jobs during an extended wait — build known long lead times for bespoke/exclusive materials into the project schedule up front. Labor-only install cost for this case: 204,000 RUB ≈$2,600 (trailing-6-month USD/RUB average ending 2026-04-26). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8dyPTnmOHKs_petrishin_6mln_labor_per_stage|extraction note]] (2026-04-26).
 - **Real semi-dry-screed QC finding, one month post-pour, and an engineered-board no-plywood installation detail** (Петришин-Строй, real object on the "Новая Рига" highway corridor, Moscow region — region level 1, 2017-vintage source, added 2026-08-24, Round 11): a third-party-poured semi-dry mechanized screed, examined more than a month after pour and after the prescribed 10-day plastic-film curing period, came out generally well-planed with only minor deviations. **The one real defect found, and where it occurs**: a ~3mm bump specifically at a room-to-room threshold/doorway transition — flagged as the single most common evenness mistake across builders generally (a plane mismatch between adjacent rooms right at the doorway junction), distinct from flatness within one room. Semi-dry screed is explicitly framed as a legitimate cost-saving choice if minimizing spend is the priority — tap-tested with no hollow sound anywhere, some minor surface cracking within normal tolerance, but measurably less robust than a mechanized/reinforced alternative. Separately: engineered wood board on this object was glued directly to the screed with two-component adhesive, no plywood underlayment used; each box contained ~4-5 different plank lengths specifically to avoid a repeating pattern once laid; porcelain tile elsewhere on the same object was noted as very difficult to drill/cut. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|extraction note]] (2017-10-01).
+
+## Removable T-Molding Transition-Threshold Installation Technique (Петришин-Строй, added 2026-08-24, Round 12)
+
+Short TV-style tip clip, confirmed uploaded by the Petrishin-Stroi channel
+itself (same upload day, 2016-04-20, as this round's grout-protection
+clip — a same-series pair). Region level 2. Low promotional ratio.
+Genuinely new installation-mechanism content — distinct from this page's
+existing threshold *avoidance* guidance and from `Door_Anatomy_and_Mount_
+Types.md`'s "no visible threshold strip" preference (this is what to do
+when a transition strip is actually needed).
+
+- **What the threshold hides and secures**: a transition threshold at a
+  material-to-material junction (here: tile-to-laminate) both conceals an
+  otherwise-visible unevenness at the seam (up to ~1-1.5mm, which even a
+  skilled installer can leave) and physically holds down the floating
+  laminate edge, which can lift slightly over time without it.
+- **Three-part removable T-molding construction**: (1) a base channel
+  piece installed under/against the tile, fixed and static; (2) a
+  decorative metal T-shaped profile ("Т-образная," "тэшка") sized and
+  cut to the run length; (3) a rubber gasket strip, also pre-cut to
+  length, that slides over the T-profile's stem before it's pressed into
+  the base channel — the rubber's friction fit is what holds the whole
+  assembly snug and non-rattling against the tile/laminate surfaces on
+  either side.
+- **⚠️ No visible fasteners**: unlike some threshold types that are
+  screwed directly to the floor, this rubber-gasket friction-fit design
+  needs no visible screws through the finish surface — cited as a real
+  aesthetic advantage over a screwed-down threshold.
+- **Serviceability advantage**: because the T-profile is held only by
+  the rubber gasket's friction fit (not glued or screwed), a scratched or
+  worn threshold strip can be pulled out and replaced later with no
+  special tools or effort — a genuine maintenance/longevity benefit over
+  a permanently fixed threshold.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VZk4615VM6I_petrishin_door_threshold|YT_VZk4615VM6I]]]
+
+## A Physically-Demonstrated Beacon-Precision-to-Floor-Squeak Mechanism (Петришин-Строй, "ЖК Виноградный" episodic series, added 2026-08-24, Round 12)
+
+Real object, 2015-vintage source (oldest processed on this channel to
+date). Region level 2. Low promotional ratio. Genuinely new — no prior
+source on this page demonstrates this mechanism physically rather than
+just asserting it.
+
+- **⚠️ Real cable-under-straightedge demonstration**: to show why beacon-
+  setting precision matters, the practitioner places a piece of
+  insulated electrical wire (~2.5mm cross-section) under a straightedge
+  laid across the finished screed and presses down, visibly showing the
+  rocking/flexing gap a 2-3mm beacon-height error would leave under a
+  future rigid floor covering (laminate, parquet, solid board) — a
+  physical demonstration of the mechanism behind "an uneven screed
+  causes floor creaking," not just an assertion of the rule.
+- **Real QC result on this object**: a 3-meter straightedge check across
+  multiple rooms found deviation under 1mm, credited to the crew's care
+  at the beacon-setting stage.
+- **⚠️ Hand-poured (non-mechanized), room-by-room screed sequencing
+  risk, generalized as a common industry mistake**: pouring screed room
+  by room with hand-mixed material (rather than a continuous mechanized
+  pour) commonly produces a level mismatch right at the room-to-room/
+  corridor threshold, since each room is finished independently. This
+  object's execution was praised as an exception (seamless transitions),
+  but the underlying risk is stated as common practice generally.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_l4bXbwfOlrU_petrishin_vinogradny_ep7_plumbing|YT_l4bXbwfOlrU]]]
