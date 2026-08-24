@@ -124,6 +124,29 @@ something to squeeze into a housekeeping check between processing rounds.
   episodes as of this flag, better to let it settle before deciding the
   final page boundaries.
 
+- **`13_Surfaces_and_Finishes/Flooring_Guide.md`** (flagged 2026-08-24,
+  during the Petrishin-Stroi/RemProektMD intake's post-Round-4 housekeeping
+  review): 344 lines, ~15 top-level sections — crossed the top-level Guide
+  threshold (300 lines). **Not converted yet.**
+
+- **`13_Surfaces_and_Finishes/Walls_and_Paint.md`**: grown further since the
+  2026-08-24 flag above — now 430 lines, ~24 top-level sections (up from 239
+  lines/~15 sections). Still not converted; the gap has widened, not closed.
+
+- **`07_Bathroom/analysis/Tile_Selection_and_Layout.md`** (flagged
+  2026-08-24, same review): 303 lines, 19 top-level sections — a detail-level
+  `analysis/` page (not a top-level Guide) that has crossed the detail-page
+  threshold (220 lines), accumulating tile-format/large-format/grout content
+  from several channels (Kruglov, Sidorik, Petrishin-Stroi, RemProektMD).
+  **Not converted yet.**
+
+- **`11_Budget_and_Planning/analysis/Demolition.md`** (flagged 2026-08-24,
+  same review): 255 lines, 8 top-level sections — newly created in Round 3
+  of this same intake pass (2026-08-24) and already past the detail-page
+  threshold after just 2-3 sources. **Not converted yet** — young page,
+  worth letting it settle further before deciding boundaries, same reasoning
+  already applied to `Waterproofing_and_Plastering.md` above.
+
 **When adding a new item here**: note the line count, sub-topic count, and
 the date/context it was flagged, same as the entries above, so a future
 session doesn't have to re-derive whether it's still overdue.
