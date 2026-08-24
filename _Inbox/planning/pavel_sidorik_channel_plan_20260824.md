@@ -77,7 +77,21 @@ This channel cleared the value-filter bar decisively — 5 of 5 videos yielded g
 
 **Key findings**: episode 3 became the **first source to qualify `16_Legal_and_Regulations/analysis/Handover_Acceptance_and_Defect_Reporting.md`** (previously an empty placeholder) via a direct, unambiguous Belarus statement about developer defect-remediation practice. Per-episode region checks confirmed the Round 1 prediction that this varies episode-to-episode: 6 of 7 episodes independently cleared level 1 (via a city name, an explicit currency name, or a direct country statement — never the same signal twice), and only episode 6 (the first of a 3-part electrical mini-series) carried no region statement of its own. Real, explicitly-flagged topical overlap between episode 4 (bathroom silicate-block partitions) and episode 5 (general AAC-partition mistakes) was documented in both source notes and not double-counted. The 3-part electrical mini-series (episodes 6-8) turned out to be a genuine 4-part series (episode 8 announces a 4th installment) — the next chunk should pick up New Building episode #9, likely that 4th electrical episode.
 
-Further rounds (New Building #9–42, then Khrushchevka #1–36, then technique-cluster rounds) will be planned round-by-round as processing proceeds, given the scale (324 videos remaining after Round 2) — not fully pre-planned in one pass.
+### Round 3 — New Building A-to-Z, episodes #9–15 (7 videos)
+
+| # | Video ID | Title | Status |
+|---|---|---|---|
+| 1 | `pxVSMo5e7yc` | Electrician in the new building. Shield, input, switching, socket boxes. #9 | pending |
+| 2 | `TKTKBmTkebg` | Selection and installation of an entrance metal door in a new building #10 | pending |
+| 3 | `K-OopxgJ8wY` | How to avoid cracks on the walls? Preparation for plastering. #11 | pending |
+| 4 | `bF1I2olZSc0` | Installation of lighthouses under plaster. Angles 90 degrees. #12 | pending |
+| 5 | `Q70kwfR0LGs` | 10 working tricks for plastering walls. #13 | pending |
+| 6 | `M3HFaYaRC6M` | Ceiling plaster. Layer 3 cm. Unusual method #14 | pending |
+| 7 | `16k0TS363rM` | Bathroom plaster. 4 ways. 90 degrees. #15 | pending |
+
+Note: `nibMG4QkSWs` ("16 wall plaster mistakes") sits chronologically between #10 and #11 but carries no episode number — likely a standalone bonus video, not part of the numbered sequence. Left for a later standalone-technique round.
+
+Further rounds (New Building #16–42, then Khrushchevka #1–36, then technique-cluster rounds) will be planned round-by-round as processing proceeds, given the scale (317 videos remaining after this round) — not fully pre-planned in one pass.
 
 ## Progress Log
 
