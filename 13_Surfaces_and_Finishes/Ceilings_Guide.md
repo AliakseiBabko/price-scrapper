@@ -137,6 +137,26 @@ general comparison.
   on paper tape if a crew proposes mesh. `single-account`, this
   practitioner's own technology preference. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
 
+## Ceiling-Drop Forced by Low-Mounted Risers/Ventilation, and a Real Client Height-Tradeoff Decision (Петришин-Строй, real Chelomei St. object, Moscow level-1 region, added 2026-08-24, Round 6)
+
+Hot/cold-water riser shutoff valves mounted unusually low, plus a
+supply-ventilation duct mounted lower still, forced a full ~25cm
+ceiling drop across the corridor and living room to conceal them (a
+single stretch-ceiling membrane can't span that area with an internal
+step). The foreman offered an alternative — drop only the corridor and
+keep a visible step/break at the living-room boundary, preserving a
+higher living-room ceiling — but the client chose the full uniform drop
+instead. A concrete real example of an MEP-routing constraint forcing a
+ceiling-height tradeoff, with the actual client decision recorded, not
+just the mechanism. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
+
+## Concealed Curtain Track Built into a One-Piece Stretch Ceiling (Петришин-Строй-featured case, added 2026-08-24, Round 6)
+
+A single continuous stretch-ceiling membrane can include a hidden
+cornice/curtain-track recess built into the ceiling itself, avoiding a
+visible surface-mounted curtain rod — a decor/technique detail from a
+real 38 m² renovation. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |

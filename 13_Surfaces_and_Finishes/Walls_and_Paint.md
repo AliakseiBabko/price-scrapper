@@ -445,3 +445,17 @@ RemProektMD/Andrei explains **why wallpaper is cheaper than paint for the same w
 - **Paintable wallpaper ("обои под покраску") — explicit hybrid**: same base material as ordinary wallpaper, colorless/white, painted any color afterward — combines wallpaper's imperfection-masking/settlement-resilience with paint's shade freedom. Mid-price "golden middle." **Restorable**: damaged sections can be touched up/repainted rather than replaced; a quality product reportedly withstands ~5-15 repaint cycles (`ASR-uncertain` on the exact upper figure). Carries the same base ~5-7yr lifespan and ~10yr removal-difficulty risk as plain wallpaper; **⚠️ cheap-tier risk**: budget versions can have poor-quality/overly-raised texture that looks cheap once painted and is more prone to pet-scratch/child-picking damage.
 
 - **⚠️ Dark-tone paint coat-count, molding spray-painting technique, skilled-painter differentiator** (Петришин-Строй, real Arbat-area case study, Moscow level-1 region, added 2026-08-24, Round 4): dark wall paint needs 3-4 coats (vs. the standard 2) to fully cover without visible patches; decorative moldings/cornices are painted separately from walls using compressed-air spray equipment, never roller/brush, with hand-applied masking tape for the crisp junction line — a clean dark-wall-to-white-ceiling/molding line is explicitly named as a skilled-vs-unskilled painter differentiator. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IoQiGtso9Vk_petrishin_case_study_arbat_historic|extraction note]] (2025-06-15).
+
+## Drywall Partition Frame & Board Technique, Beyond Screw-Depth/Plane-Check QC (Петришин-Строй, added 2026-08-24, Round 6)
+
+Region level 2 only, medium promotional ratio (comedic-skit cold open,
+settling into a genuine technique-and-acceptance format).
+
+- **Bevel GKL board edges at 45° before installation** so boards fit tightly together without needing corner/edge trim at the seams.
+- **Metal profile frame cells must be ≤400mm and uniform** — wider or irregular spacing lets drywall sag under its own weight; guide rails must be installed strictly level, since the whole frame's accuracy depends on that reference line.
+- **Use anchor wedges, not nails or plastic dowels, for both wall fastening and ceiling-hanger attachment** — metal anchors don't expand/contract with temperature swings, reducing pull-out risk under sustained load (the video opens with a real collapsed-ceiling case attributed to poor fastening).
+- **Profile-to-profile cross joints need a proper crab-style connector plus self-tapping screws, not a simple two-piece butt join** — an improperly joined cross-member develops bulges/waviness over time.
+- **Perimeter damper/compression tape under the guide rails** prevents drywall cracking at the wall junction and gives a tighter wall-to-frame connection.
+- **Two-layer drywall should be staggered (checkerboard) relative to the first layer's seams**, not seam-aligned, for structural strength.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gCI2qF34Dss_petrishin_drywall_mistakes_acceptance|YT_gCI2qF34Dss]]]

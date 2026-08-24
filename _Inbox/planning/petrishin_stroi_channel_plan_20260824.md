@@ -658,3 +658,88 @@ All 8 videos had Russian titles and confirmed Russian spoken audio (`youtube-tra
   Russian title field (videos 1 and 7) and were fixed the same session.
   `tools/verify_batch.py` to be run against the pre-round commit before
   finishing.
+
+## Round 6 — Case-study review, per-stage cost benchmarks, market-tier cross-check, finishing/drywall/screed technique (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing. Deliberately favors case-study/cost-
+benchmark and named-technique videos over recap "ТОП-N ошибок" formats
+(Round 5 found those recap formats to have this channel's lowest yields
+so far). Includes a second 2024-dated market-tier video for an explicit
+cross-check against Round 5's 2025 market-tier note, and two videos
+(3, 4) explicitly checked for year/area confirmation against the
+existing real-object cost-benchmark series.
+
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `g1b6Hxx-HUk` | DON'T DO THIS! A designer reveals the secrets of remodeling (65 m² apartment review) | Real case-study/review format | **FULL extraction** | 11 | English title, confirmed Russian audio. Design-lead interview (Anastasia/Клара — same "Клара" as Round 5's `8B2xnSNEqqs`), real ~65m² apartment, no total cost/area pricing stated. Pre-purchase-designer-consultation heuristic, drywall-vs-masonry demolition-candidate signal, legalization-aware layout decision, 2-window furniture-placement caution, corridor-sightline caution, laundry-in-hallway placement, towel-warmer placement mitigation, humid-zone facade material rule, entry-tile-matching technique, reversible kids-room decal decor, lighting-preference-conflict resolution via backlit panel, designer-vetting-via-built-photos, in-store material verification, room-by-room budget tracking, remote-supervision fallback, RU illegal-replanning framing (not routed to Legal folder). Region level 2. Low promotional ratio. First real content on the previously-empty `17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement.md` placeholder. |
+| 2 | `8dyPTnmOHKs` | 6 МУЛЬТОВ ТОЛЬКО ЗА РАБОТУ?! ЦЕНЫ КАЖДОГО ЭТАПА на реальной квартире | Real per-stage labor-only cost breakdown | **FULL extraction — 4th cost-benchmark case** | 10 | Real 120m² premium turnkey object, labor-only total 6,000,000 RUB ≈$76,400 (≈$640/m²) — explicitly not blended with the existing rough-stage-only 2022/2024 series (different scope). Per-stage costs for plastering/electrical/plumbing/flooring/tile/painting; client off-spec switch substitution real-cost loss (~85,000 RUB ≈$1,100); herringbone install-time/error mechanism; exclusive-material 6-month lead-time/crew-retention caution; proactive raking-light wall-prep discipline. Warranty terms restated from Round 5 video 8, correctly not double-counted. Region level 2. Medium promotional ratio (competitor-dunk framing excluded). |
+| 3 | `JLjCveR-ft0` | Ремонт квартиры за 1 300 000! Обзор ремонта | Real cost-benchmark case study, tests fit against existing series | **FULL extraction, ⚠️ attribution nuance** | 10 | **Channel explicitly states this is not its own crew's object** — features another practitioner's ("Александр") real 38m² secondary-market full rough+finish renovation. Total 1,300,000 RUB ≈$14,000 (≈$370/m²) — a **full-scope** (not rough-only) budget benchmark, kept separate from the rough-stage-only series (different scope, per this project's price-comparability rule). New: dual towel-warmer pet-towel storage, under-bed pet nook, compact-footprint exhaust fan for cabinet clearance, custom two-leaf door for tight bathroom clearance, window-portal-to-desk conversion, dual-purpose acoustic panel, concealed stretch-ceiling curtain track, balcony insulation+glazing real-world effectiveness verification, single-chamber-glazing freeze-risk warning. Region level 2 (weaker than usual, object isn't the channel's own execution). Medium promotional ratio. |
+| 4 | `7LAB25SCQ1Q` | Сколько стоят этапы ремонта вторички? Ремонт на Арбате, Москва | Secondary-market per-stage cost breakdown, named Moscow district | **FULL extraction — same real object as Round 4's `IoQiGtso9Vk`** | 8 | **Region: level 1 direct** ("Новый Арбат" named). Explicit follow-up video on the **same real object** as Round 4's historic-Arbat case study — supplies the 75m²/Stalin-era-building/secondary-market scope that case was missing. Real per-stage rough-work costs: walls 76,000 RUB ≈$780; plastering 291,000 RUB ≈$3,000; drywall+soundproofing 410,000 RUB ≈$4,200; plumbing 156,000 RUB ≈$1,600; tile 500,000 RUB ≈$5,200. **Demolition and electrical costs ASR-garbled/missing — not extracted**; partial sum (≈1,433,000 RUB ≈$14,800) explicitly **not** added to the year-over-year full-total series (incomplete). Floor-system beam-material criterion refined (metal beams → screed) with an open, unresolved discrepancy flagged against Round 4's timber-beam wording. Low promotional ratio. |
+| 5 | `nT0qOcN_nEQ` | Сколько стоит ремонт в Москве в 2024 году? Эконом, комфорт, премиум? | 2024 market-tier pricing, cross-check against Round 5's 2025 video | **FULL extraction, explicit cross-check performed** | 10 | Genuinely 2024-dated (confirmed spoken + `yt-dlp`). **Cross-check finding**: not a clean same-scope year-over-year comparison — 2024's Comfort figure (35,000-40,000 RUB/m²) is labor-only excluding design/furniture, while 2025's Comfort band (30,000-70,000 RUB/m²) is full turnkey including design — similar raw numbers across unequal scope actually suggest a real price increase once equalized, not stability; recorded as an open finding, not a resolved inflation %. New: rough-work floor ~20,000 RUB/m², with-furniture Comfort ~100,000+ RUB/m², premium ventilation/smart-home big-ticket items (1-3 million RUB); White-Box realism caution; partition-material savings tiers; custom-hardware lead-time caution; flip-vs-own-home budget caution; Bentley/VW/Lada client-expectation-calibration technique. Region level 2 (Moscow mention is a service-area sales CTA). Medium promotional ratio. |
+| 6 | `Q0sVq_1SIQM` | Финишные работы при ремонте квартиры | Finishing-work technique | **FULL extraction** | 9 | Foreman ("Максим") interview, real object. **Region: level 1 direct** ("улица Челомея" named). Same-material countertop/backsplash rationale, push-to-open cabinet doors, deliberately non-built-in visible fridge, quartz-vinyl-with-wood-veneer vs. engineered-board substrate distinction, ceiling-drop mechanism from low-mounted risers+ventilation with a real client height-tradeoff decision, fixture-install-delay sequencing to protect from a ceiling trade, centralized LED-transformer metal-plate mounting (extends Round 5's rule), heated-wall-panel towel-warmer alternative, wired/wireless leak-sensor placement strategy. Medium promotional ratio. |
+| 7 | `gCI2qF34Dss` | Все ошибки гипсокартона! Как принимать работы? | Drywall mistakes + acceptance checklist, named-technique hybrid format | **FULL extraction** | 7 | Comedic-skit cold open (collapsed-ceiling gag) settling into genuine drywall frame/board technique. 45° board-edge bevel prep, 400mm max profile cell spacing, anchor-wedge vs. nail/plastic-dowel fastening (reinforced by a real collapsed-ceiling case), Knauf crab-connector cross-joint technique, perimeter damper tape, staggered two-layer drywall pattern. Screw-depth control and plane-check QC correctly not double-counted (same-channel Round 5 restatement). Region level 2. Medium promotional ratio. |
+| 8 | `c4mmaLAsDw4` | Не делайте стяжку без этого! Как спасти соседей и нервы. Самая лучшая шумоизоляция пола | Screed/floor-soundproofing technique, tests against existing content | **FULL extraction, densest video this round** | 11 | Real 120m² object, ЖК Topills. New named product **Шумопласт** (ASTic Group, granular polystyrene-bead, -28dB impact/-7-9dB airborne) — distinct from this store's existing Шумонет, with an explicit product-selection comparison by substrate unevenness. Application technique (compaction sound-QC signal, 48hr real-world cure vs. 24hr spec, no-extend-after-15min rule), sand-quality/frozen-sand caution, fiber additive, rebar-mesh mid-pour-lift technique, 2-3 day water-curing protocol, quantified screed-height cost-trap (~300,000 RUB ≈$3,800 on this real object), cost benchmark ≈6,000-7,000 RUB/m² ≈$80-$90/m² all-in. Region level 2. Low promotional ratio. |
+
+**Status: COMPLETE — all 8 videos fetched and fully extracted, zero rate-limit issues.**
+
+**Round 6 yield**: 8 videos, 76 genuinely-new facts (11+10+10+8+10+9+7+11, excluding duplicate/corroborating-only outcomes), yield = 9.5 new facts/video — **109% of Round 5's 8.75 baseline**, well above the 1.0/video floor. No stop-and-ask trigger.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 8 videos fetched serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV/archiving work between fetches, never an idle wait), consistent with every prior round's clean result on this channel.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence again varied video to video: 5 of 8 videos stayed at level 2 (channel-only Moscow association); **3 of 8 cleared level 1 directly** (video 4 via "Новый Арбат," video 6 via "улица Челомея," and — per the task brief's own framing — video 4's district naming was the strongest a-priori level-1 candidate of the batch and confirmed as such). Video 3's region was **weaker than usual even at level 2**, since the featured object isn't the channel's own execution (flagged explicitly in that video's note) — this project's per-video region-check discipline held even for that edge case rather than defaulting to the channel's usual association.
+
+### Language check
+
+Videos 1 ( `g1b6Hxx-HUk`), 3 (`JLjCveR-ft0`, English title, confirmed Russian audio implicitly by transcript fetch), and all others were fetched with `language: ru` returned by `youtube-transcript-api`; video 1's English on-screen title was individually verified against Russian spoken audio. No English-audio video was encountered.
+
+### Cross-check findings, per this round's explicit brief
+
+- **Video 3 (1,300,000 RUB, 38m²) and video 4 (New Arbat, 75m²)** were both explicitly checked for confirmed year/area via `yt-dlp` metadata before deciding whether to add them to the existing real-object cost-benchmark series (2022: 1,424,000 RUB/45m²; 2024: 1,122,000 RUB). **Neither was force-fit into that series**: video 3 is full-scope (rough+finish), a different scope from the series' rough-stage-only totals, and is also not the channel's own execution; video 4's total is only partially recoverable (two stage-cost figures ASR-garbled/missing), so no complete comparable total exists for it this round. Both are recorded as their own separate, clearly-scoped data points instead — the same discipline that caught Round 5's mislabeled "2026" video.
+- **Video 4 is a direct follow-up on the same real object as Round 4's `IoQiGtso9Vk`** (historic Arbat apartment) — the channel's own spoken content confirms this is a return visit. This closes part of that case's previously-flagged "no total cost or floor-area" gap (75m², Stalin-era building, secondary market) and also surfaced an open, unresolved beam-material discrepancy (timber vs. metal) between the two videos' own wording, flagged rather than silently reconciled.
+- **Video 5 (2024 market tiers) vs. Round 5's `LEsmpI8bWCY` (2025 market tiers)**: the explicit cross-check the task brief asked for. Finding: a genuine scope/methodology difference (2024 figure excludes design/furniture, 2025 figure includes them) means the two videos' similar raw RUB/m² numbers do **not** indicate price stability — if anything they suggest a real increase once scope is equalized. Recorded as an open cross-source finding, not a resolved year-over-year percentage.
+
+## Progress Log
+
+- 2026-08-24 — **Round 6 complete.** All 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/CSV/archiving work), zero rate-limit issues across
+  the entire round. All 8 fully extracted. Yield 76 new facts / 8 videos
+  = 9.5 facts/video — 109% of Round 5's 8.75 baseline, well above the 1.0
+  floor — no stop-and-ask trigger. Region checked explicitly per video:
+  3 of 8 cleared level 1 directly (videos 4, 6, and video 3's weaker-
+  than-usual level 2 due to the attribution nuance), 5 of 8 stayed at
+  level 2. Two videos (3, 4) were explicitly checked against the
+  existing real-object cost-benchmark series and correctly kept
+  separate rather than force-fit (different scope in both cases). Video
+  4 was found to be a direct follow-up on the same real object as Round
+  4's `IoQiGtso9Vk`, closing part of that case's cost/area gap and
+  surfacing an open beam-material wording discrepancy. Video 5 was
+  explicitly cross-checked against Round 5's 2025 market-tier video —
+  found a genuine scope/methodology difference rather than a clean
+  year-over-year comparison. Content routed to
+  `11_Budget_and_Planning/Budgeting_Guide.md` (3 new benchmark/cross-
+  check entries), `11_Budget_and_Planning/_supporting/knowledge/intermediate/store/Rules_Heuristics.md`
+  (5 new topic-area sections), `17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement.md`
+  (first real content on this previously-empty placeholder page),
+  `17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md`
+  and `Family_Scenario_Driven_Design.md` (new sections each),
+  `13_Surfaces_and_Finishes/Flooring_Guide.md` (3 new sections),
+  `Ceilings_Guide.md` (2 new sections), `Walls_and_Paint.md` (1 new
+  section), `analysis/Soundproofing.md` (1 new named-product section),
+  and `10_Balcony/Balcony_Index.md` (1 new section). All price figures
+  normalized to USD via `tools/pricing/currency_converter.py`'s
+  trailing-6-month average anchored to each video's own confirmed
+  publish date. One rounding-bucket fix applied (a $636/m² figure
+  corrected to $640/m² in two files) after `tools/verify_batch.py`
+  flagged it against the pre-round commit (`4b3eccc`) — re-run passed
+  clean afterward. `tools/youtube/archive_transcripts.py` run (dry-run
+  first, all 8 matched correctly); all 8 source notes' bottom
+  `[source: ...]` inline links needed the same manual fix as Round 5
+  (frontmatter `transcript_file:` auto-updated by the script, bottom
+  link was not) — corrected by hand for all 8. All 8 new CSV rows
+  independently re-verified via Python's `csv` module to parse into the
+  correct 15 columns each with `archived` status.

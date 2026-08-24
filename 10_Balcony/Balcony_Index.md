@@ -50,6 +50,18 @@
   thickness** — even 10cm of two-layer insulation is pointless behind
   thin, draft-prone frames. Double-pane ("двухкамерный") glazing from a
   reputable, genuinely non-drafting manufacturer is non-negotiable.
+- **Insulation-plus-glazing effectiveness verified in practice, not just
+  claimed** (Петришин-Строй-featured case, region level 2, added
+  2026-08-24, Round 6): a fully insulated balcony (пеноплекс on floor/
+  walls/ceiling, heated floor, tension ceiling, upgraded glazing) stayed
+  comfortable during finishing work even before radiators/heating were
+  connected — a real-world confirmation that insulation+glazing alone
+  can hold heat if done correctly, before any active heat source is even
+  running. Glazing spec used: 70mm-profile REHAU frame (matches this
+  page's existing Zemskov-sourced 70mm floor above) with a double-chamber
+  glass unit; the source explicitly warns that a thinner single-chamber
+  glass unit risks freezing/heat loss at the glazing itself even with a
+  correct frame. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 - **Material comparison**: пеноплекс ("Комфорт" variant recommended for
   a loggia) is the default — bonds well to concrete/brick, needs far
   less thickness than mineral wool for the same effect (mineral wool

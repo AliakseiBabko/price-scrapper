@@ -75,6 +75,43 @@ Pavel Sidorik, individual practitioner, own apartment, Belarus (level 1): a shar
 
 **Real price data, stated directly in USD**: cork ~**$20/m²** at 2cm thickness; XPS and foamed polyethylene each ~**$5/m²** — roughly 4× cheaper than cork at comparable thickness. Given the test result above, paying the cork premium for this specific under-stretch-ceiling use case is explicitly questioned by the source. Practitioner's own choice for this project: foamed polyethylene (Eurobloc), the cheapest and best-testing of the three. Scope caveat: this comparison applies to ceiling soundproofing staying exposed above a stretch ceiling only — not floor, wall, or a professional multi-layer system.
 
+## Шумопласт — A Granular Alternative to Shumanet for Uneven Old-Building Slabs (Петришин-Строй, real ЖК Topills object, added 2026-08-24, Round 6)
+
+Region level 2 only (named development, no city spoken), low
+promotional ratio. **Шумопласт (ASTic Group)** is a granular
+expanded-polystyrene-bead product bound with an acrylic binder plus a
+rubber-crumb compensating additive — a **distinct product category from
+this page's existing Shumanet-100/Shumanet Hydro-100** rolled sheet
+material, not a restatement of it. Manufacturer-stated reduction: -28dB
+impact noise, -7-9dB airborne noise. Sold ~13.8kg/bag (15.8kg with
+packaging), one bag per ~10 m² at 2cm thickness.
+
+**Explicit product-selection comparison, by substrate condition**:
+Шумопласт gives a **higher soundproofing result** than Shumanet and is
+the better choice on a **badly uneven old-building slab** (Stalin-era,
+Khrushchev-era) — the loose granulate self-conforms to an existing
+uneven surface, while a sheet material like Shumanet would tear on that
+unevenness and needs cutting/trimming/joining to lay properly. A
+concrete criterion for choosing between the two floor-soundproofing
+product types, not just a spec-sheet comparison.
+
+**Application technique**: prime the slab (removes fine dust for
+adhesion) → spread granulate to ~2cm using rail-guide battens (or
+floor-leveling-compound pins/stakes on a badly uneven slab) as a level
+reference → compact with a screed float, listening for a denser sound
+as the compaction-complete signal, rinsing the float periodically with
+water to prevent bead buildup → **never extend an already-compacted
+section after 10-15 minutes** (beads won't bond onto material that's
+begun setting — finish a section in one continuous pass). **Cure time**:
+manufacturer states 24h, but the practitioner's own experience
+recommends **48h** before pouring screed over it, for a denser result.
+**Cover the cured layer with plastic film before screed crews arrive** —
+foot traffic and heavy material bags can otherwise detach the granulate
+from the substrate. **Cost, all-in per m² for the complete build-up**
+(material + labor + the required 6-7cm screed pour): **≈6,000-7,000
+RUB/m² ≈$80-$90/m²**, trailing-6-month USD/RUB average ending
+2026-03-03. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c4mmaLAsDw4_petrishin_screed_soundproofing|YT_c4mmaLAsDw4]]]
+
 ## Panel Handling and Wall-Build QC
 
 - **Sound-insulating panel cut-edge taping rule**: any cut edge of a sand-filled sound-insulating panel must be taped immediately with paper tape — an untaped cut edge lets the sand filler spill out, degrading acoustic performance (in the practitioner's words, turning the panel into "a very expensive piece of cardboard"). [source: `yt_fnTjaXPEDDE`]

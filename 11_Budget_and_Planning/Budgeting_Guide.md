@@ -123,6 +123,30 @@ contractor-fraud schemes (lowball-bait-and-abandon, "recalculation of
 actual work" area-inflation clause, desperate-crew lowball-then-extort) —
 see the source note for full detail. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LEsmpI8bWCY_petrishin_2025_market_segments|LEsmpI8bWCY_petrishin_2025_market_segments]]]
 
+### Live intake benchmark — Petrishin-Stroi 2024 market-tier pricing, and cross-check against the 2025 tiers above (2024-11-17)
+
+A genuinely 2024-dated companion to the market-tier video above (spoken
+content itself confirms "на 24-й год"). Region level 2 (a Moscow/Moscow-
+region mention is a service-area sales CTA, not the object's location).
+**Rough-work-only floor**: ~20,000 RUB/m² labor (below that isn't
+realistically achievable). **Comfort segment, labor only, explicitly
+excluding design fee and furniture**: 35,000-40,000 RUB/m²; **with
+furniture**: ~100,000 RUB/m²+. Premium-tier big-ticket add-ons named
+concretely: a supply/exhaust ventilation system alone can cost 1-3
+million RUB (e.g. 2,000,000 RUB / 100 m² ≈ 20,000 RUB/m² for that one
+system). **⚠️ Cross-check finding, explicit per this project's own
+year-over-year comparison rule**: this 2024 Comfort-tier labor-only
+figure (35,000-40,000 RUB/m²) numerically overlaps the 2025 video's
+Comfort *full-turnkey* band (30,000-70,000 RUB/m², design+rough+finish
+bundled) above — but the two figures **describe different scopes**
+(2024: labor only, no design/furniture; 2025: design fee + rough +
+finish bundled). Similar raw RUB/m² numbers across a *narrower* 2024
+scope and a *broader* 2025 scope actually point toward a **real price
+increase once scope is equalized**, not price stability — recorded as
+an open cross-source finding, not a resolved inflation percentage, since
+neither video gives a clean same-scope figure for both years. [source:
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nT0qOcN_nEQ_petrishin_2024_market_tiers|extraction note]]]
+
 ### Live intake benchmark — Konstantin Kruglov/Ontario cost list (2026-06-05)
 
 One Moscow/Moscow-region renovation-company source (`yt_P8t_d7J9fm4`) separates a design package (2,500–10,000 RUB/m² → **≈$30–$130/m²**), secondary-apartment replanning (100,000–300,000 RUB → **≈$1,300–$3,900**), wired smart-home engineering (50,000–100,000 RUB → **≈$650–$1,300**), rough materials (12,000–35,000 RUB/m² → **≈$160–$450/m²**), and finish materials (18,000–40,000 RUB/m² → **≈$230–$520/m²**). These are self-reported, single-account Moscow benchmarks, not universal market rates or Minsk equivalents. USD figures use the 76.9848 RUB/USD trailing-six-month arithmetic mean ending 2026-06-05; see [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P8t_d7J9fm4_kruglov_renovation_cost_list_2026|source note]].
@@ -142,6 +166,63 @@ A second same-channel case (`yt_8IW762yALfc`) — this one **clears level-1 regi
 ### Live intake benchmark — Petrishin-Stroi rough-stage case, engineering-systems focus (2025-07-27)
 
 A third same-channel case (`3sRfRiQ8XfE`, region level 2 only — no city spoken directly), this one an itemized breakdown focused specifically on engineering systems. Real per-stage totals: demolition 400,000 RUB ≈ $4,800 (unusually high — full-gut replanning); wall-building (aerated-concrete block) 150,000 RUB ≈ $1,800; hand-applied plastering 300,000 RUB ≈ $3,600; plumbing (PEX/Rehau, wet-zone waterproofing, hydraulic-tested) 330,000 RUB ≈ $3,900; electrical rough-in (72-module panel) 400,000 RUB ≈ $4,800 — **arithmetic-summed total (not source-stated directly) 1,580,000 RUB ≈ $18,800**, trailing-six-month USD/RUB average ending 2025-07-27. **No floor area stated, so no $/m² figure exists for this case either** — don't compare its raw total against the 2022 or 2024 cases above; all three remain separate data points pending a shared area basis. **Cost-basis ambiguity flagged**: the source's own phrasing doesn't explicitly confirm whether these are labor-only or labor+materials figures. This case also states a real three-way partition-material cost-tier ranking (tongue-and-groove gypsum block cheapest, aerated-concrete block mid-tier requiring a skilled mason, drywall partition framing most expensive) — general market-rate information, not this specific object's own choice. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_3sRfRiQ8XfE_petrishin_engineering_cost|extraction note]]]
+
+### Live intake benchmark — Petrishin-Stroi labor-only case, premium tier, 120 m² (2026-04-26)
+
+A fourth same-channel case (`8dyPTnmOHKs`, region level 2 only — no city
+spoken directly), a **labor-only** (materials/furniture/appliances
+explicitly excluded) per-stage total for a real 120 m² premium/designer-
+tier apartment: plastering 600,000 RUB ≈$7,600 (336 m² wall area);
+electrical 600,000 RUB ≈$7,600 (70-module panel + separate low-voltage
+panel); plumbing ≈440,000 RUB ≈$5,600 (2 manifold nodes ≈70,000 RUB +
+remainder); flooring install (quartz-parquet, herringbone) 204,000 RUB
+≈$2,600; a custom decorative feature 250,000-300,000 RUB ≈$3,200-$3,800;
+tile work (2 bathrooms) 800,000 RUB ≈$10,200; painting/decor 630,000 RUB
+≈$8,000 — **source-stated total: 6,000,000 RUB ≈$76,400 (≈$640/m²,
+labor-only)**, trailing-six-month USD/RUB average ending 2026-04-26.
+**Not comparable to the three rough-stage-only cases above** — this is a
+full labor-only total through finish stages, a different scope from
+"rough-stage total (labor+materials)"; kept as a separate data point,
+not averaged with the others. A real cost consequence is also recorded:
+a client's off-spec switch/outlet brand substitution turned out physically
+incompatible with the planned mounting orientation, wasting ≈85,000 RUB
+≈$1,100 of installed work — a concrete number behind this guide's
+existing "verify substituted materials against spec" caution. [source:
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8dyPTnmOHKs_petrishin_6mln_labor_per_stage|extraction note]]]
+
+### Live intake benchmark — Petrishin-Stroi-featured full-scope budget case, 38 m² (2025-05-18)
+
+A fifth Petrishin-Stroi-channel data point, but with an attribution
+nuance: the channel explicitly states this is **not their own crew's
+object** — it features another practitioner's ("Александр") real
+secondary-market renovation. Region level 2 only (unusually weak even
+for that tier, since the object isn't confirmed to be the channel's own
+Moscow-associated work). Full rough-**and**-finish scope (not rough-only)
+for a 38 m² one-room panel-building apartment: **1,300,000 RUB ≈$14,000
+(≈$370/m²)**, trailing-six-month USD/RUB average ending 2025-05-18.
+**Not comparable to the rough-stage-only cases above, or to the
+labor-only case below** — different scope again (full turnkey
+rough+finish, explicitly framed by the source as a "budget renovation is
+possible" proof point) — kept as its own separate data point. [source:
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|extraction note]]]
+
+### Live intake benchmark — Petrishin-Stroi rough-stage case, New Arbat (2025-02-09) — partial, follow-up on Round 4's historic-Arbat case
+
+A sixth same-channel data point, and a direct **follow-up video on the
+same real object as Round 4's `IoQiGtso9Vk`** ("historic Arbat
+apartment" — that note flagged "no total cost or floor-area figure").
+This video supplies the missing scope: **75 m², Stalin-era building,
+secondary market**. **Region: level 1 direct** — "Новый Арбат" named in
+spoken content. **Rough-stage-only scope, comparable in kind to the
+2022/2024 cases** — but **not added as a full data point** to that
+series: two of the video's own stage-cost figures (demolition,
+electrical) are ASR-garbled/missing in the fetched transcript and
+weren't extracted. The five usable line items — walls 76,000 RUB ≈$780;
+plastering 291,000 RUB ≈$3,000; drywall+soundproofing 410,000 RUB
+≈$4,200; plumbing 156,000 RUB ≈$1,600; tile 500,000 RUB ≈$5,200
+(trailing-6-month USD/RUB average ending 2025-02-09) — sum to a
+**partial** ≈1,433,000 RUB ≈$14,800, explicitly a lower bound, not a
+comparable total. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7LAB25SCQ1Q_petrishin_arbat_secondary_stages|extraction note]]]
 
 ### Tracking Expenses (added 2026-08-19)
 

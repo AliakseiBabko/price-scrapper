@@ -44,6 +44,22 @@ All items: `confirmed` as the source's own stated framing/decisions, single-acco
 
 `single-account`, this practitioner's stated method. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xnSNEqqs]]]
 
+## Petrishin-Stroi-Featured Case — Pet-Ownership-Driven Design Decisions (added 2026-08-24, Round 6)
+
+From a 38 m² secondary-market renovation featured (not executed) by
+Петришин-Строй, foreman "Александр":
+
+- **Dual electric towel warmers in one small bathroom, by explicit
+  design intent**: the lower unit is dedicated to the household dog's
+  towels/cleaning cloths, kept separate from the human towel warmer
+  above — a real household-composition-driven fixture decision, not
+  redundancy.
+- **Under-bed pet nook**: a raised sleeping platform's built-in storage
+  base includes a recessed, doghouse-like space underneath for the
+  household's dog.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
+
 ## Open Questions
 
 - No source yet generalizes these examples into a reusable decision framework (a checklist of "which household variables to ask about before defaulting a layout choice") — each example above is a specific worked case, not yet a synthesized method.

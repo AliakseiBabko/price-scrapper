@@ -84,8 +84,25 @@ the at-risk zone — framed as a deliberate life-scenario decision (matches
 this page's family-scenario-driven design principle), not a decorative
 afterthought. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
 
+## Petrishin-Stroi — Material Selection & Decor Technique from a Real 65m² Project (added 2026-08-24, Round 6)
+
+- **Humid-zone furniture facade rule**: bathroom furniture facades should use enamel (`эмаль`) finish, not laminate/foil, specifically because bathrooms are a high-humidity environment — decorative wood-look laminate inserts (`Egger`-type) are reserved for surfaces outside the wet-splash zone. `single-account`.
+- **Entry "dirty zone" flooring should repeat an already-selected durable/wet-tolerant material rather than extend the main flooring run** — this project's entry-hallway floor tile was matched to the kitchen backsplash tile specifically because the apartment's main flooring (engineered/parquet board) isn't moisture/dirt-resistant enough for a shoes-on entry zone; repeating an existing tile selection avoids introducing a third flooring material. `single-account`.
+- **Reversible kids'-room wall decor for a growing child**: paint the walls plainly and apply printed decals over the paint instead of real wallpaper — the decals are removable once the child outgrows the theme, leaving a plain paintable surface ready for a future teen redecoration without a repaint or wallpaper strip-out. `single-account`.
+- **Resolving a lighting-preference conflict between two occupants without a forced compromise**: in a shared bedroom where one occupant wanted a hanging pendant light and the other did not want one at all, the fix was an accent wall (stone-texture `скала` + wood panel) with integrated LED backlighting on one side and the requested pendant on the other — each side of the bed gets its own preferred lighting type rather than dropping either preference. `single-account`.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_g1b6Hxx-HUk_petrishin_designer_secrets_65m2|YT_g1b6Hxx-HUk]]]
+
+## Petrishin-Stroi — Kitchen Material/Design Technique from a Real Chelomei St. Object (added 2026-08-24, Round 6)
+
+- **Same-material countertop-and-backsplash rationale**: a tile backsplash will always look at least slightly different from a stone/composite countertop, however carefully matched — making both from the same material gives a visually more coherent result than pairing a countertop with a tile backsplash. `single-account`.
+- **Deliberately non-built-in refrigerator as a visible design element**: this kitchen keeps an ordinary refrigerator with its own visible door rather than a fully integrated panel front, contrasted against a fully built-in range hood in the same run — an explicit choice, not an oversight, worth weighing against the more common all-built-in kitchen convention. `single-account`.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
+
 ## Change Log
 
 - 2026-08-24 — Page created, migrating this content verbatim from `Durable_Facts.md`'s Design Concept bucket, as part of standing up the new `17_Design_and_Ergonomics` folder per explicit user request.
 - 2026-08-24 — Added curved-walls and microcement trend sections from Kruglov/Ontario's 2026 bathroom-trends video (`YT_IFnZxitFeNk`), Round 4 (Kruglov channel plan).
 - 2026-08-24 — Added protective-wall-panel section from Petrishin-Stroi Round 5 (`YT_izhaUHRKViw`).
+- 2026-08-24 — Added material-selection/decor-technique section from Petrishin-Stroi Round 6 (`YT_g1b6Hxx-HUk`).
