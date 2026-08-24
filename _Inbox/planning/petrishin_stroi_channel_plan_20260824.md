@@ -189,3 +189,26 @@ rather than folding it into ordinary technique/cost rounds.
   recommend full-scale processing, filtered lightly by format** — see
   the Overall Trial Verdict section above for full reasoning and the
   Rounds 2+ recommendation.
+
+## Round 2 — Technique cluster + "ошибки" format spot-check (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing per the Round 1 verdict. Prioritizes this
+channel's own "Как выглядит качественная X? Материалы, лайфхаки и главные
+ошибки" comparison-format series (electrical, plumbing, plastering, screed,
+demolition — a structured technique+mistakes hybrid, distinct from the pure
+dunk-style clickbait), plus a deliberate 2-video spot-check of the "Как
+УБИТЬ X" clickbait format per the Round 1 recommendation to test it early
+rather than assume either way.
+
+| # | Video ID | Title | Why selected | Status |
+|---|---|---|---|---|
+| 1 | `Q6GKMOJuaPc` | Как выглядит качественная электрика? Материалы, лайфхаки и главные ошибки. | Electrical technique+QC series | pending |
+| 2 | `OgIZhrxD4v4` | Как выглядит качественная сантехника? Материалы, лайфхаки и главные ошибки. | Plumbing technique+QC series | pending |
+| 3 | `r1eyXzXNdI0` | What Does Quality Plastering Look Like? Materials, Hacks, and Common Mistakes. | Plastering technique+QC series (English title) | pending |
+| 4 | `Y9PGtPmcMms` | What Does Quality Floor Screed Look Like? Materials, Life Hacks, and Major Mistakes. | Screed technique+QC series, tests against Round 1's new screed method | pending |
+| 5 | `zxTbtAbuXFs` | Как выглядит качественный демонтаж? Лайфхаки и главные ошибки. | Demolition technique+QC series | pending |
+| 6 | `NjOkuREH8lI` | Как выбрать затирку? Основные ошибки и главные секреты. | Grout-selection technique, tests fit against `Tile_Selection_and_Layout.md` | pending |
+| 7 | `xd1xP2FuN40` | Как УБИТЬ ПЛИТКУ. Все ОШИБКИ укладки. Советы и лайфхаки | "Как убить X" clickbait-format spot-check #1 (tiling) | pending |
+| 8 | `VcrYHkDgb0o` | Как УБИТЬ СТЕНЫ. Все ОШИБКИ малярных работ. Советы и лайфхаки | "Как убить X" clickbait-format spot-check #2 (painting) | pending |
+
+Status: **pending dispatch**.
