@@ -90,3 +90,26 @@ Boxing radiator piping behind a false wall/slope panel (for a cleaner look) inci
 **Mounting hardware**: no additional foam/adhesive fixes the socket box into the panel — a standard drywall-specific socket box (spring/wing tabs clamping from behind) is sufficient; panel adhesion to the wall structure (via the foam step) is what actually carries the mechanical load, not the socket box's own grip. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
 
 **Quality red flag/DIY check**: if a slope-mounted outlet wobbles or comes loose along with its faceplate when a plug is removed, the panel was never properly glued to the structure — a simple, checkable test a homeowner can perform. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
+
+## Vapor-Barrier-Tape Timing: a Common Finisher Headache, Avoided (added 2026-08-24, Pavel Sidorik)
+
+Pavel Sidorik, an unlabeled continuation of the "New Building A-to-Z"
+project, reports: **a genuinely reusable sequencing trick, explicitly
+flagged as a common finisher headache**: don't apply the interior
+vapor-barrier tape onto fresh mounting foam immediately — expanding foam
+commonly domes/bulges under a vapor tape applied too soon, forcing
+finishers to trim the bulge and the tape off together, leaving no vapor
+barrier at all in that spot. **Better technique**: let the foam expand
+and firm up slightly first, press the bulge down flush with the frame
+using a finger, and only then apply the vapor-barrier tape — leaves it
+intact and undisturbed through the slope-finishing stage. The speaker
+specifically instructed his own installation crew to follow this
+sequencing, framing it as a detail finishers should ask installers about
+directly.
+
+Also from this source: **equal slope width is a leveling-stage check,
+not a slope-finishing-stage fix** — an asymmetric slope width (one side
+wider than the other) only becomes visibly obvious once the windowsill
+goes in, so verify it while the frame is still being leveled.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]

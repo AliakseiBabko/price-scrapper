@@ -28,3 +28,28 @@ Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Context**: a real 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Clearance check**: the resulting 700mm-wide space fit a 600mm-deep wardrobe with clearance to spare against the opening's own trim/reveal — explicitly verified so the wardrobe door doesn't conflict with the window reveal.
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Bonus rule, corroborated across this channel's sources**: always add at least two outlets inside a balcony/window reveal at the final design step — described as "a signature move of any good designer," a small, easily-forgotten detail. See [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Slope Finishing]] for the fuller outlets-in-slopes technique this corroborates.
+
+## Narrowing/Lowering an Elevated Sill Opening to Floor Level (added 2026-08-24, Pavel Sidorik)
+
+Pavel Sidorik, an unlabeled continuation of the "New Building A-to-Z"
+project, reports: **Context**: replacing an old window that sat on a
+raised block sill with a new floor-level sliding-door unit, requiring the
+opening to be narrowed/lowered rather than widened (the reverse of the
+refrigerator/wardrobe cases above).
+
+**Worked technique**:
+- Glue extruded polystyrene (XPS) foam board in two layers, plus foam
+  sealant, to build up the sill to floor level.
+- For rigidity at the frame's tie-in point (needed because the new unit
+  is a sliding door, which needs a rigid center anchor unlike a fixed
+  window): core-drill through the insulation to the structural lintel
+  beam at the opening's center, then cut a rigid strip through the
+  middle of the second XPS layer, sized to the frame's width.
+- Coat the whole assembly with gypsum plaster.
+- **Result**: insulation preserved on both sides of a rigid central
+  tie-in strip — avoids a cold thermal bridge to an unheated balcony
+  while still giving the sliding frame the rigidity it needs (XPS
+  insulation alone would flex/vibrate under a sliding door's repeated
+  use).
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]

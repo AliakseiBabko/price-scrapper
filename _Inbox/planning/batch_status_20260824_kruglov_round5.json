@@ -1,0 +1,10 @@
+{
+  "1x7srLdq12I": "integrated",
+  "BDudniuyJ4s": "pending",
+  "_XCBMJmosDk": "pending",
+  "kxr8zFvUTj8": "pending",
+  "W1PKG4tVw_g": "pending",
+  "lhNC30_adGc": "pending",
+  "qzi1LqwsP5k": "integrated",
+  "_note": "2026-08-24: rate_limited_or_ip_blocked (exit code 2) hit on BDudniuyJ4s fetch attempt (youtube-transcript-api IP-block message + yt-dlp bot-check). Stopped immediately per circuit-breaker rule -- no retry attempted, no further videos fetched this run, BDudniuyJ4s and remaining videos left pending (no CSV row written for any of them). Per project rate-limit-channel-switching protocol, reporting back to orchestrator rather than self-switching to another channel."
+}

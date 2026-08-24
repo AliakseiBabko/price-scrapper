@@ -336,3 +336,81 @@ No pricing figures spoken in this episode. Region: unresolved for this episode's
 
 - **Expansion/control joints are required at every wall-to-floor junction and every corner, but only for walls built *after* the screed was poured** — a wall that predates the screed pour doesn't need one at its base. Their absence lets the screed crack over time; verify their presence during screed work, since they can't be added after the fact without cutting into cured screed. [source: `_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt`]
 - **Two-layer floor soundproofing**: a first branded underlayment layer plus an additional thermal/sound-insulation felt layer on top, applied continuously across the whole floor — including areas later reopened for radiator-niche work (the section is removed and precisely reinstalled afterward, to avoid gaps in coverage). The material's overlapped/lapped edges, later trimmed off, double as an expansion buffer absorbing the screed's thermal expansion/contraction — flagged as a detail that shouldn't be economized away. [source: `_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt`]
+
+## Primer (Грунтовка) Selection & Application — General Guide (added 2026-08-24, Round 6)
+
+Pavel Sidorik, standalone general-technique FAQ, not part of the numbered
+project series. Region: unresolved (Belarus/Russia mentioned only as
+primer-manufacturing plant locations, a product-market fact, not this
+speaker's own project location). `single-account`.
+
+- **Core mechanism**: primer is the bonding layer between a substrate and
+  whatever is applied next (plaster, tile adhesive, self-leveling
+  compound) — it binds surface dust, reduces substrate absorbency, and
+  promotes even distribution and longer service life of the material
+  applied over it via adhesion. Demonstrated on camera: brick given 2
+  coats of deep-penetration primer (Ceresit CT17) showed dramatically
+  reduced water absorption vs. an untreated control brick.
+- **Absorbency-tier framework**: substrates are highly-absorbent /
+  medium-absorbent / low-absorbent / non-absorbent; manufacturers print a
+  substrate-specific application table on the container (a porous
+  substrate gets a diluted first coat, then a full-concentration coat).
+  **Over-application risk on non-absorbent substrates** (e.g. bare
+  monolithic concrete): repeated coats can build a continuous
+  plastic-like film that can delaminate together with whatever is applied
+  over it — "more is not better," follow the manufacturer's specified
+  coat count exactly. This generalizes the double-priming rule already
+  above (AAC-specific, highly-absorbent case) to the opposite,
+  non-absorbent end of the same spectrum.
+- **Three application methods, ranked by speed and tradeoffs**:
+  (1) spray/airless ("безвоздушка") — fastest, most productive, suited to
+  all work types, but requires masking anything that could be damaged by
+  overspray; (2) powered sprayer/gun ("краскопульт") — second-fastest,
+  same masking downside; (3) roller — the practical default for many
+  jobs since nothing needs masking (long-nap for textured surfaces,
+  short-nap velour for a smooth finish-coat substrate like putty before
+  painting); **for floors specifically, roller is the recommended
+  method** even though spray is faster on walls; (4) brush ("маклoвица")
+  — slowest, small areas only, **must not be used on finish-coat putty
+  before painting** (stiff bristles visibly scratch the putty surface).
+  Universal control point: watch for drips/running streaks and roll them
+  flat immediately if they occur.
+- **Re-priming between coats rule**: only needed if dust-generating work
+  (sanding, scraping) was done on the prior coat — skip the intermediate
+  priming step if no dusty work occurred between coats.
+- **"Will plaster/tile adhesive detach along with the primer?" — resolved
+  as a non-issue**: primer's polymer concentration is engineered so its
+  adhesion matches or exceeds the material applied over it; manufacturers
+  of cement-based plasters/adhesives deliberately *limit* that material's
+  own adhesion strength ("защита от дураков") since an overly strong bond
+  can tear itself off a weak substrate (e.g. aerated concrete) as it
+  shrinks while curing. Primer doesn't form one continuous film either —
+  it follows the substrate's microscopic irregularities, binding dust and
+  making the substrate itself more "tacky," rather than sealing it. With
+  cement-based material on a cement-based substrate specifically, the
+  cement crystals bond directly to the substrate, not to the primer
+  layer.
+- **PVA glue is not a valid primer substitute** — primer is an
+  engineered, specifically-formulated polymer blend; PVA glue is
+  ~90-95% polyvinyl acetate, different chemistry. A home-mixed substitute
+  shifts all liability for a resulting failure onto the person making the
+  substitution.
+- **PPE by application method**: brush/roller application doesn't
+  strictly require a respirator (though primer has a noticeable smell —
+  the speaker wears one anyway as habit); **spray application does
+  require a respirator**, since airborne concentration builds up and is
+  inhaled, plus a coverall to protect clothing.
+- **Why one manufacturer sells many near-identical SKUs**: different
+  national manufacturing plants (Belarus, Russia, possibly
+  Ukraine/elsewhere in Europe) with their own packaging design; different
+  concentration formats (ready-to-use vs. concentrate — the Belarus
+  market specifically offers 1:2 and 1:3 concentrate ratios); ordinary
+  marketing/packaging differentiation. Underlying product quality is
+  presented as essentially equivalent across variants.
+- **Three pricing drivers**: (1) quantity/quality of active polymer
+  ingredients, (2) testing/certification the manufacturer performs, (3)
+  warranty/guarantee terms offered — the cheapest primer from a reputable
+  manufacturer can perform equivalently for a given job.
+- **No single truly universal primer exists**, but deep-penetration
+  primer is the closest, covering the widest range of tasks.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_G03YKmotYP4_sidorik_top10_primer_questions|YT_G03YKmotYP4]]]

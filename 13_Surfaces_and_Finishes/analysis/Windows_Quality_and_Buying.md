@@ -23,3 +23,37 @@ Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Replacement fra
 **Many companies install only the window unit and decline slope finishing, leaving the client to DIY it or hire a second firm** — and if a problem later surfaces with the window itself, the original installer can (and reportedly does) deny warranty claims by blaming improperly-executed third-party slope work. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BbtWl3n-GNg_pvc_window_profile_myth|BbtWl3n-GNg_pvc_window_p]]]
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Recommendation: buy windows and slope finishing as one bundled product from one company offering one combined warranty**, not as separately-sourced work. See [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Slope Finishing]] for why slope quality matters as much as the window unit itself.
+
+## Plan Physical Access Before Ordering Oversized Replacement Windows (added 2026-08-24, Pavel Sidorik)
+
+Pavel Sidorik, an unlabeled continuation of the "New Building A-to-Z"
+project, reports: **a genuine developer-planning failure worth flagging
+for anyone replacing windows in an existing building**: this building's
+elevator and stairwell were not sized to accommodate passage of the
+largest replacement glazing units the practitioner ordered — the
+biggest frames fit through neither. **Practical lesson: measure
+elevator, stairwell, and balcony access dimensions before ordering
+oversized replacement windows**, since retrofitting large frames into an
+existing building envelope can require workarounds bordering on
+impossible.
+
+**Logistics attempts tried, in order, only the last two working**:
+(1) squeezing the frame through the stairwell with millimeter clearance
+(risked scratching the frame and walls) — worked, barely; (2) hoisting
+via ropes through a shared balcony — worked but was heavier/harder than
+expected; (3) a lift/cherry-picker truck — failed, a neighboring
+building blocked reach; (4) rope-lifting from the roof — denied by
+building management. **For the one frame none of these methods could
+move**: ordered as a 2-piece (split) construction instead of one
+oversized single-piece frame — same final appearance, installed in two
+connected sections.
+
+**Related demolition-stage caution**: developer-applied plaster around
+existing window openings can look solidly bonded but delaminate under
+any real physical force, even when demolished carefully (cut perimeter
+with a wall chaser first, then knock off with a hammer drill) — the
+practitioner explicitly regrets not fully demolishing and re-plastering
+these areas rather than keeping the developer plaster, since later putty
+work risks it lifting unexpectedly.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]

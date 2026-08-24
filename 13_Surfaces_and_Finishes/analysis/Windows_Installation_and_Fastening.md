@@ -58,3 +58,37 @@ Described as "the single most important detail" of a PVC window — five criteri
 ## Sound-Insulation Check (Drip Cap)
 
 Tap/knock the exterior drip cap — should sound dull/deadened if properly sound-dampened; a ringing sound means no dampening material was used and rain noise will be audible.
+
+## Frame-Fixing Method, Protective Film, and Fit Checks (added 2026-08-24, Pavel Sidorik)
+
+Pavel Sidorik, an unlabeled continuation of the "New Building A-to-Z"
+project (window replacement stage), reports:
+
+- **Two frame-fixing methods, independently corroborating the
+  plates-vs-direct-fastener distinction above from a different angle**:
+  anchor bolts driven directly through the frame are common but not
+  ideal (they perforate the frame itself); mounting plates screwed to the
+  wall with concrete screws (2 screws per plate) are the more correct
+  method, since they avoid frame perforation entirely.
+- **A very common installer mistake, named explicitly**: leaving the
+  exterior protective film on the frame during/after installation. If
+  exposed to sun, the film bonds permanently to the profile and becomes
+  extremely difficult to remove — requires grinding it off with a
+  sander. Remove it before setting the frame, every time.
+- **PSUL tape (pre-compressed expanding foam tape)** applied to the
+  frame's wall-contact face before setting the frame — protects the
+  foam/mounting joint from weather while remaining vapor-permeable. Must
+  not protrude past the "quarter" — should stay pressed flush against
+  it, not bulge outward.
+- **Foam-joint dampening step**: spray the joint with water immediately
+  before applying foam sealant — water increases adhesion and speeds
+  foam curing.
+- **Leveling/fit checks**: shims of varying thickness combined as
+  needed, checked with a bubble level on both axes, no deformation in the
+  jambs; slope width must be equal on both sides of the frame — an
+  asymmetric slope width only becomes visibly obvious once the
+  windowsill goes in, so check it at the leveling stage, not after.
+- **Large insulated glass units must be handled with suction cups** —
+  without them, the glass is easily chipped/broken, a real safety hazard
+  given the size/weight involved.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]

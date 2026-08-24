@@ -2,6 +2,8 @@
 
 See [[13_Surfaces_and_Finishes/analysis/Soundproofing|Soundproofing]] for wall/floor/ceiling soundproofing material types, the per-wall decision framework, and floor-vs-ceiling cost reality (added 2026-08-24, once this sub-topic reached 3+ sources with no dedicated page).
 
+See [[13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels|Decorative Wall Panels]] for the material comparison (MDF/LDF, polyurethane/polystyrene, gypsum, PVC, wood+veneer, textile/acoustic, cork, LDSP, bamboo, concrete-composite) and selection rules for decorative accent-wall panels (added 2026-08-24).
+
 ## Substrate Compatibility & Real-World Deviation Costs — per Zemskov/Zemstandart (added 2026-08-19)
 
 > [!NOTE]

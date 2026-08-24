@@ -142,17 +142,44 @@ same-channel content saturation on this project's most mature topic areas (plumb
 electrical rough-in) — worth watching in Round 5+ as this channel's remaining rounds increasingly
 touch bathroom/finishing topics already covered in earlier rounds, rather than a reason to stop.
 
-### Round 5 — Bathroom part 2 + Walls/Ceilings part 1 (7 videos)
+### Round 5 — Bathroom part 2 + Walls/Ceilings part 1 (7 videos) — HALTED ON RATE-LIMIT, 2/7 done
 
 | # | Video ID | Title | Status |
 |---|---|---|---|
-| 1 | `1x7srLdq12I` | Все СЕКРЕТЫ создания идеального санузла! | pending |
-| 2 | `BDudniuyJ4s` | These are the mistakes everyone makes when renovating a bathroom! | pending |
+| 1 | `1x7srLdq12I` | Все СЕКРЕТЫ создания идеального санузла! | archived, fact_yield 6 |
+| 2 | `BDudniuyJ4s` | These are the mistakes everyone makes when renovating a bathroom! | **not fetched — rate-limited** |
 | 3 | `_XCBMJmosDk` | ИДЕАЛЬНАЯ ВАННАЯ! 10 правил ремонта | pending |
 | 4 | `kxr8zFvUTj8` | Bathroom breakdowns from Pinterest. The best and worst! | pending |
 | 5 | `W1PKG4tVw_g` | Вся правда о НАТЯЖНЫХ ПОТОЛКАХ — мифы и ошибки | pending |
 | 6 | `lhNC30_adGc` | Which Ceiling to Choose? Materials, Cost, and Safety | pending |
-| 7 | `qzi1LqwsP5k` | Everything About Decorative Wall Panels | pending |
+| 7 | `qzi1LqwsP5k` | Everything About Decorative Wall Panels | archived, fact_yield 13 |
+
+**Round 5 status (2026-08-24): PARTIAL, halted on rate-limit.** `qzi1LqwsP5k` had been pre-staged
+(transcript already fetched by an earlier session pass) and was processed first with no new fetch
+needed — dense material-comparison video, no prior page existed for decorative wall panels, so a
+new `13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels.md` page was created (13 new facts:
+full material taxonomy across 10 material types, classification axes, five selection rules) rather
+than forcing it onto the already-oversized `Walls_and_Paint.md`. `1x7srLdq12I` was then fetched
+fresh (no rate-limiting on this fetch) and processed — heavy corroboration with Rounds 1-4's
+existing bathroom content (tub material, toilet-frame load rating, lighting, fan switching, sliding
+door, glass shelving all cross-checked and confirmed corroborating-only, not re-recorded), but still
+yielded 6 genuinely new items: Moscow water-shutoff law (level 1, city named directly), a
+tank-vs-tankless maximum-temperature-ceiling nuance, a standalone-dryer comfort recommendation, new
+heated-floor failure-mode/sensor-lifespan detail (20-30yr sensor life, cheap-thermostat failure
+point, sensorless-thermostat fallback), a concrete 6-9/16-20 heated-floor schedule example, and a
+full-height (floor-to-ceiling, all walls) brush-applied waterproofing technique — the last one
+recorded on `07_Bathroom/analysis/Structure_and_Framing.md` with a cross-reference rather than
+edited directly into `12_Engineering_and_Systems/analysis/Waterproofing_and_Plastering.md`, since
+that page was under concurrent edit by another intake session (Pavel Sidorik Round 6) at the time.
+The third fetch attempt, `BDudniuyJ4s`, hit `youtube-transcript-fetch` exit code 2
+(`rate_limited_or_ip_blocked`) on both `youtube-transcript-api` (IP-block message) and `yt-dlp`
+(bot-check) — stopped immediately per the circuit-breaker rule, no retry attempted, videos 2-6 not
+fetched, no CSV row written for any of them (a rate-limit isn't a genuine no-captions/unavailable
+case). `tools/verify_batch.py --base e3c51e3` passed clean (0 problems) across all files touched
+this session. **Partial Round 5 yield: 2 videos processed, 19 new facts (13 + 6), yield =
+9.5/video** — this figure will be recomputed once the round is completed; not compared against the
+stop-and-ask thresholds yet since the round isn't closed. Next: after a real cooldown, resume Round
+5 starting with `BDudniuyJ4s`, then `_XCBMJmosDk`, `kxr8zFvUTj8`, `W1PKG4tVw_g`, `lhNC30_adGc`.
 
 ### Round 6 — Walls/Ceilings part 2 + Flooring part 1 (7 videos)
 
