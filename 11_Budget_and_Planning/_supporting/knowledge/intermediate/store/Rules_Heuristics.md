@@ -439,3 +439,63 @@ same source. `single-account`.
 
 - **Staying within one narrow trade (e.g. putty/finishing only, not also taking on ceiling work or other trade types) avoids the re-learning/tool-changeover overhead of switching between different work types, and repeat-project experience within the same narrow trade compounds into real quality gains** (knowing the specific nuances/gotchas of just that one task) — offered directly as the practitioner's own explanation for why staying specialized, rather than generalizing across trades, increases both speed and quality over successive projects. A hiring-evaluation heuristic worth applying when comparing quotes from a narrow specialist vs. a jack-of-all-trades crew. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_G0vtTswg5Ck_petrishin_mechanized_putty|G0vtTswg5Ck]]]
 
+### Design-Phase Vetting, Sequencing, and Structural-Obstruction Notes (Петришин-Строй, added 2026-08-24, Round 8)
+
+Client-satisfaction interview format (⚠️ per its own source note, this
+video's title implied an acceptance-checklist but the actual content is
+mostly client sentiment — only the items below cleared the value-filter
+bar):
+
+- **Plan ventilation ductwork before building interior walls, not after,
+  in a free-plan renovation** — routing it before wall construction
+  avoids having to break into already-finished walls to retrofit
+  ducting; route it up near the ceiling so it can be hidden behind a
+  stretch ceiling or drywall niche without dropping ceiling height much.
+- **Integrating a protruding structural column into new partition walls
+  (rather than boxing around it separately) to avoid two named risks**:
+  building the wall out flush with the column's own protrusion avoids
+  both (a) the exterior corners that would otherwise form at the joint
+  ("could deform over time") and (b) shifting the wall inward toward an
+  uncertain-clearance sewage riser stack. Also created incidental space
+  for a built-in closet niche and kept the hallway visually straight.
+- **A company's construction-crew communication quality does not
+  automatically predict its design-team's communication quality** — a
+  real client account of a poor-communication design phase (no calls,
+  no follow-up) paired with a well-communicating construction crew at
+  the same company; worth vetting the two phases' communication
+  separately rather than assuming one implies the other.
+- **Client self-verification of company-quoted material pricing against
+  independent online prices, with a concrete variance band**: found
+  quoted prices consistent with market rate, "sometimes 3-5% below,
+  sometimes about 3% above, on average market rate" — a plausible
+  variance band for this kind of pre-contract due-diligence check.
+- **Floor-height-driven risk-budgeting rationale for leak-protection
+  investment**: living on a high floor (7th, 6 floors below) stated
+  directly as the reason to invest in more leak sensors than a minimal
+  setup, rather than a generic "always add sensors" framing.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_eInWxbd_UiA_petrishin_client_interview_denis|eInWxbd_UiA]]]
+
+### Finishing-Materials Shopping-Trip Habits (Петришин-Строй, added 2026-08-24, Round 8)
+
+- **Two-copy printed design-project habit**: designers reportedly print
+  two copies of the design project — one for the builders, one for the
+  client to carry to showrooms — so the client's own copy can be marked
+  up (underlined, crossed out, receipts stapled to pages) without
+  losing track the way digital files tend to get scattered.
+- **Real-time foreman consultation during a shopping trip**: when
+  uncertain which specific product/brand to buy on-site (this example:
+  grout type), call the site foreman directly from the store floor to
+  confirm before purchasing, rather than deciding unilaterally.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm0aHk4flxc_petrishin_finishing_materials_shopping|Rm0aHk4flxc]]]
+
+### Common-Area Finish Quality as an Informal Building-Quality Signal (Петришин-Строй, added 2026-08-24, Round 8)
+
+- **Common-area finish quality as an informal building-quality signal**:
+  a practitioner heuristic — seeing sloppily cut tile with poor corner
+  execution in a building's shared stairwell/landing areas is treated as
+  a signal that low-quality materials and non-specialist installation
+  are also likely inside individual units of that building, since a
+  developer/management company that tolerates poor common-area work is
+  unlikely to have held individual unit work to a higher standard.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
+

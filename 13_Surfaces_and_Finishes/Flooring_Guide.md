@@ -328,6 +328,43 @@ with the thickness of its real-wood top veneer, which is what
 determines how many refinish cycles it can tolerate.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_96mlkQoczI4_petrishin_flooring_2026_comparison|96mlkQoczI4]]]
 
+## Laminate Selection Criteria, In-Store Sample Distortion, and a Baseboard-Fixation Reality Check (Петришин-Строй, added 2026-08-24, Round 8)
+
+- **Laminate selection criteria stated explicitly**: bevel type (4-sided
+  beveled edge on every plank vs. 2-sided or none — check before buying,
+  it changes the finished look), wear class (example: class 33), and
+  thickness (8-10mm examples compared against 12mm). A textured
+  "artificially aged" wood-grain finish was rejected in favor of a
+  smoother matte-oil-look finish once compared as a real flat sample.
+- **In-store angled display samples distort how a floor will actually
+  look**: a plank shown tilted under a showroom's directional lighting
+  reads differently once installed flat under real room lighting —
+  lay a sample flat (ideally bring a real plank home to test in-room)
+  rather than trusting an angled display.
+- **Wood-plastic composite decking ("терасная доска") for a balcony,
+  chosen for weather-durability across non-summer seasons**, and noted
+  as usable cost-effectively for general balcony flooring, not just
+  deck-edge trim. Real price point: ≈968 RUB per 3m plank (2019).
+- **Baseboard fixation reality-check, a repeated real-world finding**:
+  manufacturer-recommended plastic mounting clips underperform in
+  practice; installers instead secure baseboards with dedicated screw
+  anchors ("шпильки") plus adhesive for a genuinely secure mount.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm0aHk4flxc_petrishin_finishing_materials_shopping|Rm0aHk4flxc]]]
+
+## Floor-Level-Transition Planning and a Thickness-Direction Asymmetry (Петришин-Строй, added 2026-08-24, Round 8)
+
+Floor-level-transition planning must account for finish-covering
+thickness at the rough/leveling stage, not after: parquet, tile, marble,
+and PVC flooring all have different thicknesses, so the rough-floor
+leveling reference must be set knowing which finish covering goes where,
+planned from the very start of the leveling stage. **A stated direction
+asymmetry**: going from a thicker to a thinner finish material is easy
+(the rough level can simply be built up higher without issue); going the
+other direction (needing the level to drop) is much harder — it requires
+demolition/grinding of already-placed material, genuinely difficult
+regardless of dust-control measures taken.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=D-DFsBMjlxQ",
+  "video_id": "D-DFsBMjlxQ",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T18:56:29.578953+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "23981b953a8be35cccd0f863ccba459ef7496cb41551a752b79a17738b6f4696",
+  "attempts_before_success": []
+}

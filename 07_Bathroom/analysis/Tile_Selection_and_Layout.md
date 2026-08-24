@@ -302,6 +302,41 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
 
 **Printed/patterned large-format porcelain tile (imitation stone/marble-look) can show visible print-quality inconsistency across pieces once installed at scale** — the same printed pattern rendered inconsistently (uneven tinting, and on some cut pieces the print missing entirely, showing bare clear glaze underneath). **Practical guidance**: keep tile selection simple/plain rather than heavily patterned in a room that already has other visual-interest elements (e.g. a rain-shower fixture) — simplicity reduces exposure to this print-defect risk and still reads as intentional. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
 
+## Large-Format Tile with a Scored Small-Format Look, and Grout-Color Selection Rules (Петришин-Строй, added 2026-08-24, Round 8)
+
+- **Large-format tile with a scored mid-line to visually mimic a
+  smaller format, easing installation**: a 45×45cm tile scored to read
+  as 22.5×22.5cm once grouted gives the small-format look a client
+  wanted while being faster/easier for a tile-setter to lay than genuine
+  small-format tile would be.
+- **Grout-color selection rule**: avoid a grout shade too close to the
+  tile's own lightness — it visually merges/washes out and reads as
+  flat/cheap; a grout the same shade as or darker than the tile gives
+  better visual definition. The same principle can be used deliberately
+  in reverse on a mosaic tile: choosing a grout that closely matches the
+  mosaic's own tone changes how the overall grid pattern reads — a
+  design lever, not just a match-or-clash binary choice.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm0aHk4flxc_petrishin_finishing_materials_shopping|Rm0aHk4flxc]]]
+
+## Mosaic vs. Rigid Tile — Curved/Organic-Shape Capability, and a Luxury Reference Price Point (Петришин-Строй, added 2026-08-24, Round 8)
+
+- **Curved/organic-shape capability distinction between mosaic and rigid
+  tile**: a client-requested custom shower stall in a deliberate curved
+  "teardrop" shape was executed in mosaic specifically because rigid
+  tile can't follow a smooth curved surface without either shrinking to
+  an impractically small format or leaving visibly ugly cut edges at the
+  curve — a genuine material-capability distinction for organic/curved
+  bathroom geometry.
+- **⚠️ Luxury reference data point, out of this project's own budget
+  scope**: a real 24-karat-gold-leaf mosaic (gold leaf between two glass
+  layers, certificate card per box stating gold karat) installed at
+  **€5,500/m²** for a private home pool project; a separate bathroom in
+  the same project used a silver-leaf mosaic. Recorded per this
+  project's price-comparability convention, explicitly flagged as a
+  luxury/pool-specific tier, not comparable to an apartment-renovation
+  budget.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
+
 ## Hexagonal Tile in an Entry Zone, Thin-Tile 45° Layout Difficulty, and a Grout-Staining Risk on Ordinary Cement Grout (Петришин-Строй, added 2026-08-24, Round 7)
 
 Real 54 m² apartment case study, outside the bathroom (entry hall +

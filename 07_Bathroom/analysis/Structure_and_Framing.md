@@ -61,6 +61,26 @@ content with several new checkable rules:
   planes and degrades the whole wall; build a leveling platform/pad
   first (a thicker mortar bed for the first row is a slower alternative
   for minor variation only).
+- **Design-to-layout dimension conversion, foam-block masterclass
+  (Петришин-Строй, added 2026-08-24, Round 8)**: a design-project's
+  finished dimension already assumes plastering — the crew adds ~10mm
+  to a design figure to get the raw block-layout marking dimension
+  (worked example: 775mm finished → 785mm raw layout target). A
+  precision utility chase (600×600mm for hot/cold/sewage lines) is laid
+  out with a laser level positioned specifically so future kitchen-
+  cabinet modules will sit flush against the finished, plastered chase —
+  derived from the kitchen design project before the cabinets exist on
+  site.
+- **"Average-face" leveling method, a distinct mechanism from the
+  plumb-tolerance rule below**: leveling a course to each block's
+  *average* face rather than one consistent reference edge tolerates
+  ~2mm per-block deviation (imperceptible) while avoiding the
+  progressive cumulative "runaway" error a single-edge reference method
+  produces over a long wall run. Cutting a reinforcement groove must
+  wait until the *adjacent* block's adhesive has fully cured, or the wet
+  bond gets disturbed; where existing rebar is tied into the building's
+  structural risers, the block is trimmed to fit around it rather than
+  removing the rebar. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A4OmiqS6kYo_petrishin_foam_block_masterclass|A4OmiqS6kYo]]]
 - **Plumb tolerance, this company's own stated standard**: max **7mm
   deviation across the full wall height** (bubble-level straightedge
   check) — beyond that, the wall is "заволена" (out of plumb) and

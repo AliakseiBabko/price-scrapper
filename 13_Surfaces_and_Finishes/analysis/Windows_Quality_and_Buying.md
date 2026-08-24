@@ -24,6 +24,51 @@ Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Replacement fra
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Recommendation: buy windows and slope finishing as one bundled product from one company offering one combined warranty**, not as separately-sourced work. See [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Slope Finishing]] for why slope quality matters as much as the window unit itself.
 
+## Component-by-Component Selection Primer, and a Perspectives Disagreement on Brand (Петришин-Строй, added 2026-08-24, Round 8)
+
+Sergey Petrishin's channel gives a pre-purchase profile/hardware/glazing/
+gasket/sill selection primer, organized around the window's own named
+components (reinforced frame profile, glazing unit, hardware, windowsill,
+drip cap, gaskets):
+
+- **Profile thickness ladder**: 58mm (thinnest, not of interest for
+  residential use), 70mm, 70-82mm, 90mm — thicker profile trades higher
+  thermal/sound insulation for a more premium price tier.
+- **Chamber-count range**: profiles typically run 3-7 chambers; the
+  mid/average market segment typically uses 5-6. Chamber count tracks
+  with the thermal-resistance-coefficient and sound-insulation figures —
+  treated as the actually-useful comparison metric over chasing
+  individual spec-sheet details.
+- **Glazing-unit chambers and add-ons**: 2- or 3-chamber glazing units,
+  more chambers meaning better energy-saving/sound-insulation (requiring
+  a wider profile); additional coatings, inert-gas fill, or a deliberate
+  pane-spacing offset add anti-resonance, thermal, and impact-resistance
+  properties, each raising cost.
+- **Gasket contour count and cross-section shape**: two-contour sealing
+  is generally sufficient, three-contour gives higher airtightness; a
+  gasket with an internal hollow chamber lasts longer than one without,
+  independent of contour count. Treat gaskets with automotive silicone
+  grease before each cold season.
+- **Windowsill material by function, not just look**: purely decorative
+  → plastic (Danke, Möller); interior-matched → a costlier color/texture
+  option; functional desk/reading-nook use → wood or stone (porcelain
+  tile also seen).
+- **Drip cap (отлив) fastening/length rule**: must be fully sealed at
+  every joint; length matters both ways — too short leaves gaps, too
+  long rattles loudly in rain. Fix for an already-rattling drip cap:
+  apply self-adhesive automotive vibration-damping sheet to its
+  underside.
+
+**⚠️ Perspectives — does profile/hardware brand matter?** This source
+names Rehau and Veka as the best-known profile brands and recommends
+European manufacturers generally for hardware reliability (quality
+metal, no rust/wear) — in direct tension with this page's existing claim
+above (Zemstandart/Alexey Zemskov) that profile brand has essentially no
+effect on quality within a market tier. Recorded as an open disagreement
+between two sources, not resolved either way.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_4bv7Aa6YLCo_petrishin_window_selection_primer|4bv7Aa6YLCo_petrishin_window_selection_primer]]]
+
 ## Plan Physical Access Before Ordering Oversized Replacement Windows (added 2026-08-24, Pavel Sidorik)
 
 Pavel Sidorik, an unlabeled continuation of the "New Building A-to-Z"

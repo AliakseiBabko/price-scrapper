@@ -841,3 +841,100 @@ All 8 videos had Russian titles and confirmed Russian spoken audio (`youtube-tra
   re-verified via Python's `csv` module to parse into the correct 15
   columns each with `archived` status. `tools/verify_batch.py` to be run
   against the pre-round commit before finishing.
+
+## Round 8 — Plumbing cabinet, window selection, client interview, foam-block masterclass, monolith electrical, finishing materials/tips (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing. A fresh, topic-diverse 8-video selection
+from the 341-video manifest (288 fresh/unprocessed at the start of this
+round), favoring named-technique and acceptance-checklist content over
+recap "ТОП-N ошибок" or pure room-tour formats per this channel's own
+established pattern. Includes one Russian-noise-law/quiet-hours video
+that hit a genuine no-captions failure (not a rate-limit), and three
+explicit cross-checks requested for this round: video 5 (foam-block
+masterclass) against Round 1's masonry acceptance video (`caDB-roRasI`);
+video 6 (monolith electrical) against existing electrical sequencing
+content (Rounds 2, 4, 7); and video 8 (finishing tips) against Round 7's
+finishing-works video (`Q0sVq_1SIQM`) and Round 2's wallpaper/paint video
+(`VcrYHkDgb0o`).
+
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `D-DFsBMjlxQ` | Зачем так много кранов? Это не обман? Сердце квартиры - ванная комната. | Bathroom-fixture/faucet technique (English title) | **FULL extraction** | 6 | English title, confirmed Russian audio. Despite the "faucets" framing, this is a plumbing-cabinet/water-inlet-node component walkthrough — heavily overlapping with `Water_Inlet_Node_Components.md` and this channel's own Round 7 `O_2Jji7NAHQ`, correctly not double-counted. New: Energoflex color-coded pipe-insulation mechanism, 6-8atm normal / 11atm hydraulic-shock-spike figure, fine-filter-omission warranty-void claim, coarse-filter landing-placement/meter-install precondition, check-valve old-building-stock risk angle, AC-condensate+filter-drain dry-siphon consolidation. Region level 2. Low promotional ratio. |
+| 2 | `4bv7Aa6YLCo` | Как выбрать окна? Основные ошибки и важные детали. | Window-selection technique (English title), cross-check against Windows pages | **FULL extraction** | 9 | English title, confirmed Russian audio. Studio explainer, dense pre-purchase profile/hardware/glazing/gasket/sill selection primer. **Explicitly cross-checked against `Windows_Quality_and_Buying.md`, `Windows_Hardware_Selection.md`, `Windows_Slope_Finishing.md`, `Windows_Acceptance_Checklist.md`, and Round 7's `QtQBGLzS698`** — no overlap found, genuinely new selection-criteria content. **⚠️ Perspectives disagreement flagged**: this source recommends Rehau/Veka/European brands, in direct tension with the existing Zemskov claim that profile brand doesn't affect quality within a tier. New: profile-thickness ladder, chamber-count range, tilt-turn mandatory-even-without-ventilation reasoning, glazing-unit chamber/add-on cost drivers, gasket contour+cross-section longevity rule, windowsill material-by-function guide, drip-cap fastening/length/rattle-fix rule. Region level 2. Low promotional ratio. |
+| 3 | `eInWxbd_UiA` | Как принять черновой этап ремонта? Основные ошибки. Технический дизайн. | Rough-stage acceptance checklist (expected, per title) | **PARTIAL extraction — title/format mismatch** | 5 | **⚠️ Despite the acceptance-checklist title, this is a client-satisfaction testimonial interview** (Denis/Ekaterina, 2020, COVID/ruble-crash era spoken directly) — the same low-yield sub-format flagged in Round 4 (`F0ZHsu4k6JY`). Only genuinely reusable content extracted per the value-filter: ventilation-before-walls sequencing rule, structural-column-integration wall-design technique, design-team-vs-construction-team communication-quality independence finding, client material-price self-verification variance band, floor-height-driven leak-sensor investment rationale. Region unresolved. Medium promotional ratio (heavy client-sentiment content correctly excluded). |
+| 4 | `tVex6zojJng` | Как не нарушить закон о тишине? Основные правила при ремонте в новостройке. | Moscow noise-law/quiet-hours regulation, expected level-1 regulatory candidate | **SKIPPED — no captions available** | 0 | Both `youtube-transcript-api` (subtitles disabled) and `yt-dlp` (no subtitle tracks for ru/en) failed with exit code 1 — a genuine per-video no-captions failure, `reason_class: null` in both attempts, **not a rate-limit/IP-block signature**. Not fetched, not extracted. The intended noise-law-routing question (general store vs. `16_Legal_and_Regulations/`, which is strictly Belarus-scoped) was never reached since no content was retrieved. |
+| 5 | `A4OmiqS6kYo` | Строим стены из пеноблока. Мастер класс. | Foam-block partition masterclass, cross-check against Round 1's masonry acceptance | **FULL extraction, cross-check confirms complementary (not duplicate) content** | 7 | Real jobsite masterclass with a second practitioner (Alexander Mikhalych) — a **builder's-perspective** technique video, distinct in angle from Round 1's `caDB-roRasI` (an **acceptance/QC checklist** for the same material). **Explicitly cross-checked**: offset/stagger rule, corner-toothing, and top-of-wall deformation gap all corroborate `caDB-roRasI` and were correctly not double-counted. New: design-to-raw-dimension plaster-allowance conversion, precision utility-chase layout coordinated with future kitchen-cabinet install, "average-face" leveling method preventing cumulative runaway error, rebar-groove cure-time sequencing rule, working-around-existing-riser-rebar technique, reinforcement-groove cutting detail, wallpaper-paste adhesive-application analogy. Region unresolved. Low promotional ratio. |
+| 6 | `sqk0Nl8AVYI` | Электромонтаж в монолите. Советы мастера. | Monolith-specific electrical wiring, cross-check against existing electrical sequencing | **FULL extraction, cross-check confirms genuinely new sub-topic** | 9 | Sergey Petrishin's own practitioner walkthrough. **Explicitly cross-checked against `Rough_Electrical_Sequencing.md` and `Cable_Circuits_and_Panel_Design.md`** — the existing monolith note there only covers breaker-panel niches; no overlap, genuinely new sub-topic. New: monolith chase-depth/rebar-cutting-prohibition mechanism, foam-block-covering soundproofing side-benefit, real 10min-vs-1hr time comparison, diamond-core-bit water-cooling technique for granite-aggregate monolith, outlet-box flush-mount discipline, hole-enlarging pull-out-resistance fix, ⚠️ phase-loss/neutral-disconnection 380V building-shared-infrastructure failure mechanism, cable-slack-for-design-ambiguity heuristic, supplier-verification-before-wiring habit. Region unresolved. Low promotional ratio. |
+| 7 | `Rm0aHk4flxc` | Как выбрать отделочные материалы? Основные принципы и секреты. | General finishing-materials comparison/selection (English title) | **FULL extraction** | 10 | English title, confirmed Russian audio. Real client+designer finishing-materials shopping trip (tile/décor showroom + hypermarket). New: two-copy design-project shopping habit, paint fan-deck necessity + trial-can cost tip, scored-large-format-tile small-tile-look technique, grout-color selection rule + mosaic-grout design lever, decorative micro-cement/anti-vandal-plaster durability guidance for high-traffic zones, angled-sample lighting-distortion warning, laminate bevel/wear-class/thickness criteria, composite decking balcony choice + price point, baseboard clip-vs-screw-anchor fixation reality check, real-time foreman shopping-trip consultation habit. Region level 2 (ASR-truncated Moscow location mention, not promoted to level 1). Low promotional ratio. |
+| 8 | `KlIQxR3vWU8` | Финишные работы. Советы по лепнине, обоям, плитке. | Finishing-work tips (molding/wallpaper/tile), cross-check against Round 7 and Round 2 finishing/wallpaper videos | **FULL extraction, cross-checks confirm no overlap** | 7 | Montage of several practitioner interviews (wallpaper/paint finisher; 25yr mosaic/pool specialist). **Explicitly cross-checked against Round 7's `Q0sVq_1SIQM` and Round 2's `VcrYHkDgb0o`** — no overlap found on either. This video's monolith-rebar mention restates this round's own video 6 (`sqk0Nl8AVYI`), correctly not double-counted. New: molding two-tone sponge-wipe paint technique, wallpaper-glue toxicity myth debunked, color-indicator glue product feature, floor-level-transition thickness-direction-asymmetry rule, mosaic-vs-tile curved/organic-shape capability distinction, ⚠️ luxury gold-leaf mosaic €5,500/m² reference price point (out of project budget scope, not converted), common-area-quality building-signal heuristic. Region unresolved. Low promotional ratio. |
+
+**Status: COMPLETE — 7 of 8 videos fetched and extracted (1 partial low-value pass on video 3), 1 genuinely skipped for no captions (video 4), zero rate-limit issues.**
+
+**Round 8 yield**: 7 videos processed (video 4 not fetched — no captions, excluded from the denominator per this project's `skipped` convention), 53 genuinely-new facts (6+9+5+7+9+10+7, excluding duplicate/corroborating-only outcomes), yield = 7.6 new facts/video — **98% of Round 7's 7.75 baseline** (comfortably within the >50%-drop stop-and-ask threshold, and well above the 1.0/video floor). No stop-and-ask trigger.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 7 successful fetches were serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV work between fetches — never an idle wait), consistent with every prior round's clean result on this channel. Video 4's failure was independently confirmed as a genuine no-captions case (`youtube-transcript-api`: "Subtitles are disabled for this video"; `yt-dlp`: no subtitle tracks for ru/en) — both attempts carried `"reason_class": null` in the `.FAILED.meta.json` record, not the rate-limit/IP-block signature this project treats as a circuit breaker. Per the standing rule, it was left unlogged/pending in no meaningful sense — instead logged with `status: skipped` and the specific no-captions reason, since it was a genuine per-video failure, not a block requiring a stop.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence again varied video to video, not a fixed channel answer, consistent with every prior round. Per-video: video 1 (level 2), video 2 (level 2), video 3 (unresolved), video 5 (unresolved), video 6 (unresolved), video 7 (level 2, with an ASR-truncated "в московском..." phrase explicitly not promoted to level 1 given the uncertainty), video 8 (unresolved). **No video this round cleared level 1** — consistent with Round 7's own finding that this channel's region evidence genuinely varies round to round, not a fixed pattern; this round's mix (studio explainers, a masterclass, and older 2019-vintage videos without the newer real-object case-study framing) simply didn't happen to include a directly-named city/street/development this time.
+
+### Language check
+
+Three videos carried English on-screen titles (1: `D-DFsBMjlxQ`, 2: `4bv7Aa6YLCo`, 7: `Rm0aHk4flxc`) — all three individually verified via `youtube-transcript-api` fetch metadata to have Russian spoken audio (`language: ru`), per this project's standing rule that title language is not a reliable signal. No English-audio video was encountered.
+
+### Cross-check findings, per this round's explicit brief
+
+- **Video 2 (window selection) vs. existing `Windows_*` pages and Round 7's `QtQBGLzS698`**: no overlap found — this video's pre-purchase component-selection primer (profile thickness/chamber count, tilt-turn hardware reasoning, glazing-unit add-ons, gasket contour/cross-section, windowsill material, drip-cap fastening) sits at a level of technical detail none of the existing Windows pages previously covered. Surfaced a genuine **Perspectives disagreement**: this source recommends known brands (Rehau, Veka, European hardware) directly contradicting the existing Zemskov claim that profile brand doesn't affect quality within a market tier — recorded as an open disagreement, not resolved.
+- **Video 5 (foam-block masterclass) vs. Round 1's `caDB-roRasI`**: confirmed complementary, not duplicate, as anticipated in the round brief — a builder's-perspective masterclass (layout/leveling/reinforcement technique) vs. an acceptance/QC checklist for the same material. The offset/stagger, corner-toothing, and deformation-gap rules corroborate and were correctly excluded from the new-fact count; the layout-precision and leveling-compensation technique content was genuinely new.
+- **Video 6 (monolith electrical) vs. existing electrical sequencing content (Rounds 2, 4, 7)**: confirmed genuinely new sub-topic, no overlap — the existing pages' only monolith-specific rule concerned breaker-panel niches; this video's chase-depth/rebar mechanism, drilling technique, and phase-loss failure mode were all new.
+- **Video 8 (finishing tips) vs. Round 7's `Q0sVq_1SIQM` and Round 2's `VcrYHkDgb0o`**: no overlap found on either — neither existing source covered the molding two-tone paint technique, the wallpaper-glue myth, or the floor-level-transition thickness-direction asymmetry. This video's own monolith-rebar mention was, however, a same-round restatement of video 6 and was correctly not double-counted.
+
+## Progress Log
+
+- 2026-08-24 — **Round 8 complete.** 7 of 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/CSV/archiving work), zero rate-limit issues. Video 4
+  (noise-law/quiet-hours) hit a genuine no-captions failure (confirmed via
+  both `youtube-transcript-api` and `yt-dlp` failure reason classes —
+  neither was rate-limit-related), logged `status: skipped` with the
+  specific reason, not left pending. 6 full extractions + 1 partial
+  low-value pass (video 3, a title/format-mismatched client-testimonial
+  interview). Yield 53 new facts / 7 processed videos = 7.6 facts/video —
+  98% of Round 7's 7.75 baseline, well above the 1.0 floor — no
+  stop-and-ask trigger. Region checked explicitly per video: no video
+  cleared level 1 this round (2 at level 2, 4 unresolved, 1 skipped),
+  consistent with Round 7's own finding that this channel's region
+  evidence genuinely varies round to round. Language checked explicitly
+  for all three English-titled videos (1, 2, 7) — all three confirmed
+  Russian spoken audio. Three explicit cross-checks performed as
+  instructed: video 5 (foam-block masterclass) vs. Round 1's masonry
+  acceptance video — confirmed complementary, not duplicate; video 6
+  (monolith electrical) vs. existing electrical-sequencing content —
+  confirmed genuinely new sub-topic; video 8 (finishing tips) vs. Round
+  7's and Round 2's finishing/wallpaper videos — confirmed no overlap on
+  either, only a same-round internal restatement (video 6's monolith-rebar
+  rule) correctly excluded. A genuine **Perspectives disagreement** was
+  surfaced and recorded on `Windows_Quality_and_Buying.md` (does profile/
+  hardware brand affect quality — this round's video 2 says yes, the
+  existing Zemskov source says no). Content routed to
+  `12_Engineering_and_Systems/analysis/Water_Inlet_Node_Components.md`,
+  `Rough_Electrical_Sequencing.md`;
+  `13_Surfaces_and_Finishes/analysis/Windows_Quality_and_Buying.md`,
+  `13_Surfaces_and_Finishes/Walls_and_Paint.md`,
+  `13_Surfaces_and_Finishes/Flooring_Guide.md`;
+  `07_Bathroom/analysis/Structure_and_Framing.md`,
+  `07_Bathroom/analysis/Tile_Selection_and_Layout.md`; and the general
+  store's `Rules_Heuristics.md` (3 new topic-area sections: design-phase
+  vetting/sequencing/structural-obstruction notes, finishing-materials
+  shopping-trip habits, common-area quality signal). All 7 processed
+  transcripts archived via `tools/youtube/archive_transcripts.py`
+  (dry-run first, all 7 matched correctly); all 7 source notes' bottom
+  `[source: ...]` inline links needed the same manual fix as Rounds 5-7
+  (frontmatter `transcript_file:` auto-updated by the script, bottom link
+  was not) — corrected by hand for all 7. All CSV rows (7 `archived` + 1
+  `skipped`) independently re-verified via Python's `csv` module to parse
+  into the correct 15 columns. `tools/verify_batch.py` run against the
+  pre-round commit (`9b25e40`) — passed clean on the first run, no
+  rounding-bucket or ID-drift problems found.

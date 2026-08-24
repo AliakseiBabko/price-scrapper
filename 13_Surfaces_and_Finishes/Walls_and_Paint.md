@@ -528,6 +528,52 @@ RemProektMD/Andrei explains **why wallpaper is cheaper than paint for the same w
 
 - **⚠️ Dark-tone paint coat-count, molding spray-painting technique, skilled-painter differentiator** (Петришин-Строй, real Arbat-area case study, Moscow level-1 region, added 2026-08-24, Round 4): dark wall paint needs 3-4 coats (vs. the standard 2) to fully cover without visible patches; decorative moldings/cornices are painted separately from walls using compressed-air spray equipment, never roller/brush, with hand-applied masking tape for the crisp junction line — a clean dark-wall-to-white-ceiling/molding line is explicitly named as a skilled-vs-unskilled painter differentiator. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IoQiGtso9Vk_petrishin_case_study_arbat_historic|extraction note]] (2025-06-15).
 
+## Color-Selection Shopping Tools and Decorative-Plaster-vs-Paint Durability Guidance (Петришин-Строй, added 2026-08-24, Round 8)
+
+- **Physical paint fan-decks are the real shopping tool, not a monitor
+  swatch**: professional color fan decks (Sherwin-Williams, NCS named)
+  let a color be compared directly against a real tile/flooring sample
+  on-site; color perception varies too much across screens/lighting to
+  trust digitally. A non-designer can use a large hypermarket's own
+  paint-sample chip display, or ask a retailer to lend/deposit-hold a
+  fan deck. **Cost-saving tip**: some brands sell small (~300 RUB) trial
+  tint cans for on-site test-painting, cheaper than tinting a full
+  liter can just to test a color.
+- **Decorative micro-cement/concrete-look plaster recommended over
+  paint specifically for high-traffic, abrasion-prone zones** (e.g. a
+  hallway where furniture gets moved through) — a showroom consultant's
+  reasoning: more durable, and locally repairable/restorable if
+  damaged, unlike some paint finishes. A separate **anti-vandal
+  silk-finish decorative plaster** was also named as a comparatively
+  low-cost yet durable option for the same use case.
+- **Directional-lighting sample distortion, general caution for any
+  textured finish**: a decorative-plaster (or flooring) sample shown at
+  an angle under a showroom's directional lighting can look meaningfully
+  different from the same material installed flat under a real room's
+  own lighting — check a sample laid/held flat, ideally in the actual
+  room, before committing.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm0aHk4flxc_petrishin_finishing_materials_shopping|Rm0aHk4flxc]]]
+
+## Molding Two-Tone Paint Technique and a Wallpaper-Glue Myth Debunked (Петришин-Строй, added 2026-08-24, Round 8)
+
+- **Two-tone molding/cornice paint-blend technique**: paint the molding
+  white twice and let it fully dry, then apply the wall's own color over
+  it, then wipe with a wet sponge — lifts the wall color off the
+  molding's raised/flat surfaces while leaving it inside the recessed
+  carved details, producing a deliberate two-tone blend rather than a
+  flat single-color molding, for a unified ceiling/wall look.
+- **Wallpaper-glue toxicity myth explicitly debunked**: popular claims
+  that wallpaper adhesive fumes cause real intoxication/hallucinations
+  are called a myth by a practicing painter — modern glue is stated not
+  to cause genuine poisoning, at most minor sensory irritation. Company/
+  practitioner claim, not independently verified against a toxicology
+  source, but specific enough to record with that caveat.
+- **Color-indicator wallpaper glue, a named product feature**: some
+  adhesive brands include a color indicator (pink while wet, fading as
+  it dries) so an installer can visually confirm full cure before the
+  next step, rather than guessing by touch/time.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
+
 ## Drywall Partition Frame & Board Technique, Beyond Screw-Depth/Plane-Check QC (Петришин-Строй, added 2026-08-24, Round 6)
 
 Region level 2 only, medium promotional ratio (comedic-skit cold open,
