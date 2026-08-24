@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=C-3BcpXDRnk",
+  "video_id": "C-3BcpXDRnk",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T08:55:13.356301+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f959278800caec142f8238816a6afeee73681e50b853fd29253ea58f1575595f",
+  "attempts_before_success": []
+}

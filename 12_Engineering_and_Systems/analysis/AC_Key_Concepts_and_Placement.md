@@ -68,6 +68,10 @@ Zemstandart/Alexey Zemskov recommends: 3. **Position it to be visually unobtrusi
 
 Zemstandart / Alexey Zemskov reports **a fourth constraint, added 2026-08-18 — building-level exterior restrictions**: default to placing the indoor unit wherever the condensate drain and outdoor condenser unit can be routed to the building exterior, letting incoming air mix and reach the room comfortably. **But some developments (real example: an "elite" new-build) categorically prohibit any exterior condenser or condensate-drain hardware** — in that case, place the indoor unit above the entrance door instead (or anywhere else that avoids blowing directly onto a seating/sleeping occupant, per rule 1 above). Check the building's own rules before finalizing AC placement, not just the room-level rules above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wFUUakbL5O8_90_regrets_designer_renovation_233|extraction note]]]
 
+## Outdoor-Unit Placement for Serviceability, and DIY/Hired Scope Split (added 2026-08-24, Sidorik Round 4)
+
+Pavel Sidorik, individual practitioner, own apartment: mounted the outdoor condenser **directly below the bedroom window specifically so it can be serviced without hiring industrial rope-access climbers** — a serviceability-driven placement rationale distinct from this page's existing comfort/sightline/building-restriction rules above. **DIY-vs-hired scope boundary, a generalizable heuristic for a self-managed project**: wall-chasing (refrigerant-line and condensate chases) and electrical-feed routing are reasonable DIY scope; connecting/charging the refrigerant lines and outdoor-unit hookup are best left to hired specialists with proper tools — doing that specific part yourself is "not sensible" without them. Chase spec: 7cm wide × 4cm deep for the line-set chase; condensate-drain chase sloped 1cm per meter. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C-3BcpXDRnk_sidorik_ventilation_ac_ep19|C-3BcpXDRnk]]]
+
 ## Kitchen-Specific AC Placement (added 2026-08-19)
 
 > [!NOTE]

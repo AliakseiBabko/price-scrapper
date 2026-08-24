@@ -8,6 +8,7 @@ Migrated 2026-08-24 from `11_Budget_and_Planning/_supporting/knowledge/intermedi
 
 - `yt__hYkf4UkCqw` — "Дома Минска" documented renovation series, Episode 1 (YouTube, published 2025-12-11). Minsk/Belarus named directly and repeatedly in speech. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__hYkf4UkCqw_doma_minska_severny_bereg_ep1|extraction note]]
 - `yt_QHl1YEHMfgE` — same series/project, Episode 2 (published 2026-04-07). **Not independently qualifying on its own** — this episode's own transcript doesn't itself name Minsk/Belarus. Included only as a continuity pointer: same real-world project, reinforces (doesn't newly establish) the исполком theme with a first-hand "we tried to DIY the approval process and lost a month" account. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QHl1YEHMfgE_doma_minska_severny_bereg_ep2_layout|extraction note]]
+- `hN7szX2re2c` — Pavel Sidorik, "New Building A-to-Z" #18, screed/noise-insulation episode (published 2021-04-29). Belarus named directly and unambiguously ("по белорусскому законодательству"). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hN7szX2re2c_sidorik_screed_noise_insulation_ep18|extraction note]]
 
 ## What's confirmed
 
@@ -16,6 +17,8 @@ Migrated 2026-08-24 from `11_Budget_and_Planning/_supporting/knowledge/intermedi
 **Merging two separate bathrooms, each on its own plumbing riser, typically means one riser is capped** ("глушится") while the other remains in use and absorbs the combined plumbing load. `confirmed`, level 1.
 
 **There is a specific height threshold above which a suspended/wall-hung fixture installation** (e.g. a wall-hung toilet built into a false wall) **cannot be approved/raised without going through the replanning approval process** — plumbing stacks above that height can't be freely relocated without authorization. The existence of this threshold is `confirmed` (stated as the host's own practical experience); **the actual height value was never stated** — see Open Questions.
+
+**⚠️ A developer cannot legally hand over a new-build apartment without a screed already poured.** A buyer who wants to remove the developer's own screed and pour their own preferred build (e.g. adding sub-screed sound insulation, rerouting utilities) must still accept receiving the unit with the developer's screed in place first, then demolish and redo it themselves as extra work — the law requires *a* screed at handover, not the buyer's chosen one. `confirmed`, level 1, directly spoken ("по белорусскому законодательству застройщик не может сдать квартиру без стяжки").
 
 ## Rules of thumb
 
@@ -39,3 +42,4 @@ Russian-Federation-sourced legal/regulatory content anywhere else in this vault 
 ## Change Log
 
 - 2026-08-24 — Page created, migrating the full content of `renovation_regulations_belarus_knowledge_store.md` (created 2026-07-31) verbatim, as part of standing up the new `16_Legal_and_Regulations` folder. No new sources added in this migration.
+- 2026-08-24 — Added the developer-must-deliver-with-screed rule from Pavel Sidorik's "New Building A-to-Z" #18 (Sidorik channel intake, Round 4) — a new, independent, level-1-qualifying source (not the "Дома Минска" project).

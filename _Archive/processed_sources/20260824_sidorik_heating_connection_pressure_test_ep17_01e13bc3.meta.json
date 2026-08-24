@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=SERg4hiCWdE",
+  "video_id": "SERg4hiCWdE",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T08:48:13.866063+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "01e13bc35aae7835aeda939c8d0620efa32add2a1057473cc10f4216e4f4a4f3",
+  "attempts_before_success": []
+}
