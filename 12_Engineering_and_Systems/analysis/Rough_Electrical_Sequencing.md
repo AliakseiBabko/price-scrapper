@@ -34,3 +34,49 @@ above with a third, distinct practitioner. [source: [[11_Budget_and_Planning/_su
 **⚠️ Low-ceiling wiring-layout rule (Петришин-Строй, added 2026-08-24, Round 4, Moscow level-1 case study)**: on a secondary-market apartment with limited ceiling height, keep only lighting circuits routed across the ceiling; run switch/socket cabling along the floor/walls instead. Stated mechanism: if all wiring (not just lighting) ran on the ceiling, cable crossovers would force a bigger ceiling recess/drop than lighting-only wiring needs — a concrete ceiling-height-preservation technique tied directly to a wiring-layout decision. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|qFM8NIDIRro]]]
 
 **Panel-termination and breaker-labeling discipline (Петришин-Строй, added 2026-08-24, Round 5)**: the breaker panel itself must be fully wired/terminated before the rough-electrical stage is handed over, not left as "we'll finish it in 30 minutes later" — a named real practitioner complaint about crews that route wiring to every outlet box but leave the panel itself unterminated. **Breaker labels should be requested and applied immediately at the moment of paying for the electrical stage**, not deferred — otherwise by the time the apartment is ready to occupy, nobody remembers which breaker controls which circuit. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
+
+## Project/Smeta Cross-Review, Wire-Labeling Hiring Risk, and a Live-Circuit Damage-Detection Mechanism (Петришин-Строй, added 2026-08-24, Round 7)
+
+- **Cross-review the design project and cost estimate together with an
+  experienced electrician before work starts** — specifically to catch
+  designer/estimator errors on paper; reworking an outlet/switch
+  position or a wired circuit line after installation is far slower and
+  costlier than correcting the same error while it's still a drawing.
+- **Panel-size decision framework, by client need and budget**: absent a
+  formal single-line electrical design, the foreman and electrician
+  assess client needs directly and propose a panel size (compact
+  12-breaker, or 36/48/72-breaker) plus whether a smart-home system is
+  wanted, rather than defaulting to one fixed size.
+- **⚠️ Wire-end labeling as a hiring-vetting red flag, not just tidiness**:
+  every wire end should be marked (marker or tag) with its destination
+  room/device. Unlabeled wires during or after an electrician's work are
+  a red flag either way — either the electrician is unskilled, *or* a
+  skilled one deliberately skipped labeling to make the client dependent
+  on him personally for any future work. **Cost consequence**: bringing
+  in a different electrician later on unlabeled work means tracing and
+  re-testing every connection from scratch, which the source states
+  commands "a large sum."
+- **⚠️ Live-circuit-during-drywall-install damage-detection mechanism**:
+  after temp outlets/switches/lights are connected and functionally
+  tested, **keeping the panel energized through subsequent trades' work
+  (e.g. drywall installers screwing metal track to the walls) means a
+  screw that hits a live wire trips the breaker immediately** — alerting
+  that trade on the spot. Leaving the panel de-energized instead lets
+  the same screw-through-wire damage go completely undetected until the
+  panel is later connected, by which point it's far more expensive and
+  difficult to trace and repair. Distinct from, and a refinement of,
+  this project's existing basic temp-outlet functional test.
+- **Explicit 4-factor electrical-rough-in cost-driver framework**: (1)
+  outlet/switch density; (2) wall material — reinforced-concrete panel
+  wall costs more to chase than aerated/gas-block; (3) panel size —
+  bigger panel costs more labor to assemble; (4) aesthetics — perfectly
+  straight/measured/hidden-back-box trace routing and a primed/painted
+  ceiling cost extra time without changing the electrical system's
+  actual performance. **Explicit performance-vs-aesthetics admission**:
+  neat routing does not improve "electron speed" or any functional
+  network parameter — it's a purely cosmetic/serviceability upsell,
+  stated candidly by the source rather than framed as technically
+  necessary — a useful line item for distinguishing must-pay from
+  nice-to-have spend on an electrical quote.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qnmVK1R3X0k_petrishin_electrical_pricing_mistakes|qnmVK1R3X0k]]]

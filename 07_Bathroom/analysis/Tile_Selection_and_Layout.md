@@ -301,3 +301,30 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
 ## Patterned/Printed Tile Print-Quality Risk (added 2026-08-19, remainder-pool batch)
 
 **Printed/patterned large-format porcelain tile (imitation stone/marble-look) can show visible print-quality inconsistency across pieces once installed at scale** — the same printed pattern rendered inconsistently (uneven tinting, and on some cut pieces the print missing entirely, showing bare clear glaze underneath). **Practical guidance**: keep tile selection simple/plain rather than heavily patterned in a room that already has other visual-interest elements (e.g. a rain-shower fixture) — simplicity reduces exposure to this print-defect risk and still reads as intentional. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
+
+## Hexagonal Tile in an Entry Zone, Thin-Tile 45° Layout Difficulty, and a Grout-Staining Risk on Ordinary Cement Grout (Петришин-Строй, added 2026-08-24, Round 7)
+
+Real 54 m² apartment case study, outside the bathroom (entry hall +
+kitchen backsplash), included here as this project's general tile-
+technique page:
+
+- **Hexagonal porcelain tile chosen for an entry zone specifically so
+  wet shoes can be set down safely** without damaging the floor,
+  transitioning to quartz-vinyl flooring through a **cork compensator/
+  expansion strip** at the joint.
+- **Thin (6mm) porcelain tile laid at 45° in hexagonal format is
+  explicitly harder to execute cleanly than the same pattern in
+  standard-thickness tile** — flagged directly by the tiler as a real
+  added-difficulty factor, not just a generic "hexagonal tile is hard"
+  caution.
+- **⚠️ Grout-staining risk on light tile even with ordinary
+  (non-epoxy) cement-based grout**: black cement grout used on a
+  kitchen backsplash's light-colored tile left the tile visibly stained
+  with dark pigment once excess grout was wiped/washed off — an
+  unexpected risk, since staining is more commonly flagged for
+  two-component epoxy grout specifically, not plain cement grout. A
+  stain-removal product had to be sourced and applied as an urgent fix.
+  **Worth sample-testing any dark-grout/light-tile combination before
+  committing**, regardless of grout type.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_tYcH95rlgNw_petrishin_5mln_2023_benchmark|tYcH95rlgNw]]]

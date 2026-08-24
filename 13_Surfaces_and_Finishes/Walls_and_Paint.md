@@ -367,6 +367,88 @@ distinct enough not to fold into that sequence directly:
   underbid by roughly 30% — at the cost of this crack protection.
   `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
 
+## Mechanized ("Sprayed") Putty: Equipment, Sequencing, and a Real Speed Benchmark (Петришин-Строй, added 2026-08-24, Round 7)
+
+Master finisher Eduard walks through **mechanized/sprayed putty
+application** — a distinct sub-stage from this page's base-coat
+plastering and wall-squareness content above; explicitly cross-checked
+against `D1REgSDwILU`, `r1eyXzXNdI0`, and `lTeNBUR1u8g` with no overlap
+found. `region: unresolved` (no city/development named).
+
+- **Toolkit**: a spray machine (doubles as primer/paint sprayer), a
+  two-whisk mixer (mixes more thoroughly than a single-whisk "жираф"),
+  a vacuum-attached sander, a dedicated work lamp, and 40/60/80cm
+  trowels (80cm preferred as the main size — less arm fatigue over a
+  shift).
+- **Batch rest time**: this gypsum-based putty needs roughly **3 hours**
+  of rest after mixing before application, per the manufacturer's own
+  spec — mixed in large multi-bag batches to keep the sprayer fed
+  continuously.
+- **Day-split room sequencing to protect fresh corners**: putty two
+  walls on day one, the other two the next day — not for drying time on
+  the finished walls, but because working an adjacent wall while a
+  shared corner from the just-finished wall is still soft risks
+  damaging that corner. A sequencing rule, distinct from this page's
+  existing corner-*inspection* QC content.
+- **Two sander types, an explicit tradeoff**: an orbital sander (direct
+  disc rotation) removes material fast, good for leveling base
+  plaster/rough putty, but less delicate; an eccentric/random-orbit
+  sander (free-rotating 4mm stroke) gives a more refined finish at
+  lower productivity. Corners need manual sanding either way — neither
+  machine reaches them.
+- **Two finish paths by covering**: wallpaper-bound walls: sand → prime
+  (×2) → done. Paint-bound walls: additionally apply fiberglass scrim
+  ("стеклохолст") onto the putty/adhesive, 2-3 more putty coats,
+  sand+prime again, repeating as needed — a materially longer path,
+  consistent with this page's existing wallpaper-vs-paint prep-cost
+  mechanism below.
+- **Real quantified speed benchmark, ~70 m²**: mechanized method — 2
+  days first coat + 2 days second coat + 2 days sanding = **6 total
+  days**, vs. an estimated **minimum ~2 weeks by hand** — roughly a
+  2-3x speed multiplier, also described as less physically exhausting.
+- **Two-person crew, fatigue-staggered task rotation**: one runs the
+  spray machine/trowel-finishes (tiring during the 2-day application
+  stage), the other sands (tiring during the 2-day sanding stage) — the
+  hard stretches are staggered between them. A third master is
+  explicitly "too many" for a job this size.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_G0vtTswg5Ck_petrishin_mechanized_putty|G0vtTswg5Ck]]]
+
+## Retrofit Wall-Crack Repair Technique and a Real Cost/Time Benchmark (Петришин-Строй, added 2026-08-24, Round 7)
+
+**Cross-checked explicitly against this channel's own Round 1 masonry-
+acceptance video (`caDB-roRasI`) and the building-settlement
+deformation-seam mechanism already flagged twice on this channel
+(Round 1 videos 1 and 4) — this is a third recurrence of that root-cause
+mechanism, correctly not double-counted.** The genuinely new content is
+the *repair* technique itself, applied on a real client apartment for
+the first time by this company:
+
+- **Diagnostic drill-and-inspect**: drill a small hole through intact-
+  looking plaster at a crack to confirm the underlying cause (here:
+  masonry with insufficient adhesive at vertical block joints) before
+  choosing a repair method.
+- **Groove-and-drywall-strip patch**: cut a 2cm-deep groove along the
+  crack with an angle-grinder disc (vacuum-attached for near-dustless
+  cutting), remove loosened plaster, set a routed strip of **sound-
+  insulating (reinforced) drywall** into the channel with adhesive,
+  leaving room for a putty skim so the stack-up finishes flush — the
+  heavier soundproof drywall is chosen specifically for strength
+  ("won't crack again"), an unusual use of that material. Embed non-
+  perforated paper tape *recessed below* the putty surface along both
+  seams so the buildup doesn't leave a raised ridge.
+- **Re-applied successfully on a second, distinct crack** in the same
+  apartment (two cement plaster layers separated by a cracking gypsum-
+  and-sawdust filler) — supports this as a general retrofit technique,
+  not a one-off fix for the first crack's specific cause.
+- **Real cost/time benchmark for this repair category**: ~3 working
+  days, ≈20,000-30,000 RUB (≈$280-$420, trailing-6-month USD/RUB
+  average ending 2023-05-14) depending on scale/method — a narrowly-
+  scoped defect-repair cost, distinct from this project's renovation-
+  stage cost-benchmark series.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UhE9cOJ35FY_petrishin_wall_crack_repair|UhE9cOJ35FY]]]
+
 ## Wallpaper vs. Paint — Prep-Cost Mechanism and DIY Removal Tip (RemProektMD, added 2026-08-24)
 
 > [!NOTE]

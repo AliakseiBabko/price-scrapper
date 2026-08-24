@@ -89,6 +89,16 @@ Konstantin Kruglov / Ontario reports: **Moscow developers most commonly install 
 
 **⚠️ Bottom-through-the-floor radiator connection (two pipes protruding from the finished floor) is explicitly discouraged**: unattractive, obstructs normal cleaning (neither a robot vacuum nor manual cleaning works properly around protruding pipes), and requires cutting into the finished floor covering for the penetration. **Through-the-wall connection is recommended instead** — doesn't compromise the floor covering and doesn't interfere with cleaning or a robot vacuum. Applies to horizontal/sequential and radial distribution; a vertical-riser system has no such choice (side connection only). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
 
+Petrishin-Stroy adds a distinct rationale for side connection specifically
+(complementary to the through-the-wall-vs-through-the-floor rule above,
+not a restatement of it): connecting radiator supply pipes **from the
+side rather than routing them across the floor toward the middle** also
+keeps the pipe run clear of the path where the baseboard will later be
+drilled/screwed to the wall — avoiding an accidental drill-through of a
+hidden pipe, or having to route the baseboard around a floor-level pipe,
+when the baseboard goes in during the finishing stage. (added 2026-08-24,
+Round 7) [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YxXfsKoyx6M_petrishin_flood_prevention_heating|YxXfsKoyx6M]]]
+
 ## Radiator Comparison by Construction Material (added 2026-08-24)
 
 | Type | Pros | Cons | Recommended use |

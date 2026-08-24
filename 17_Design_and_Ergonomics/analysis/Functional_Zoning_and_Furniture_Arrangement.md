@@ -11,6 +11,27 @@ From a real ~65m² apartment design-lead walkthrough — cautions worth checking
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_g1b6Hxx-HUk_petrishin_designer_secrets_65m2|YT_g1b6Hxx-HUk]]]
 
+## Petrishin-Stroi — Sofa-Sizing Heuristic and a Fixed-Distance TV Workaround (added 2026-08-24, Round 7)
+
+From a real 54 m² new-build case study, client present:
+
+- **Sofa-sizing heuristic — usable seat width vs. stated width**:
+  subtract both side armrests' width (cited example: ~20cm each, ~40cm
+  combined) from a sofa's stated overall width to get real usable
+  seating width — a sofa that looks wide enough on paper can end up
+  cramped once armrest width is accounted for. **Test firmness/comfort
+  in person** (visit showrooms, sit on multiple options) rather than
+  choosing from a catalog photo; a customized, firmer-than-standard
+  cushion spec was ordered here after in-person testing.
+- **Fixed sofa-to-TV distance workaround**: when two load-bearing
+  columns fix the distance between a sofa and the TV wall and the gap
+  can't be widened, the practical fix is choosing a **smaller TV
+  diagonal** rather than a larger one — avoids an uncomfortably close
+  "front-row cinema" viewing effect that a too-large screen would
+  create at a fixed, unchangeable distance.
+
+`region: unresolved`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FRRT0ZrhjaI_petrishin_54m2_roomtour|FRRT0ZrhjaI]]]
+
 ## Petrishin-Stroi-Featured Case — Window-Portal Conversion & Dual-Purpose Acoustic Panel (added 2026-08-24, Round 6)
 
 - **Window-portal-to-desk conversion for ergonomic continuity**: an

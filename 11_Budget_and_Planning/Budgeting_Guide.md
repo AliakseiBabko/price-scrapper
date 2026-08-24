@@ -206,6 +206,29 @@ rough+finish, explicitly framed by the source as a "budget renovation is
 possible" proof point) — kept as its own separate data point. [source:
 [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|extraction note]]]
 
+### Live intake benchmark — Petrishin-Stroi full-turnkey case, 54 m², confirmed 2023 (2023-06-04)
+
+A seventh same-channel data point (`tYcH95rlgNw`), region level 2 only
+(no city/development named). **Real total spoken cost, full turnkey
+scope, confirmed area and confirmed year** ("в 2023 году" spoken
+directly, plus `yt-dlp` upload date 2023-06-04): **5,250,000 RUB for a
+54 m² two-bedroom apartment**, explicitly all-in — rough+finish
+materials, furniture, appliances, chandeliers/lighting, "absolutely
+everything you see." Normalized via the trailing-**12**-month USD/RUB
+average ending on the confirmed publish date (66.7416 RUB/USD; 12
+months chosen over 6 given the project's own ~2-year multi-stage
+timeline): **≈$78,700 total, ≈$1,500/m²** (nearest-$100 bucket).
+**Turnkey/Full-Service delivery model. Not averaged with the rough-
+stage-only 2022/2024/2025 cases or the labor-only 2026 case above** —
+comparable in *kind* (both full-scope RUB totals with confirmed area) to
+the 38 m² full-scope case just above, but kept as its own separate,
+individually-dated/scoped data point per this project's non-blending
+convention. A real ~2-year multi-stage project timeline (design → pause
+→ 3 rough-work stages with pauses between, delayed partly by COVID-19
+and partly by client-side factors) is also recorded as a concrete
+illustration that calendar duration can run far longer than pure
+labor-days. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_tYcH95rlgNw_petrishin_5mln_2023_benchmark|extraction note]]]
+
 ### Live intake benchmark — Petrishin-Stroi rough-stage case, New Arbat (2025-02-09) — partial, follow-up on Round 4's historic-Arbat case
 
 A sixth same-channel data point, and a direct **follow-up video on the
@@ -223,6 +246,26 @@ plastering 291,000 RUB ≈$3,000; drywall+soundproofing 410,000 RUB
 (trailing-6-month USD/RUB average ending 2025-02-09) — sum to a
 **partial** ≈1,433,000 RUB ≈$14,800, explicitly a lower bound, not a
 comparable total. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7LAB25SCQ1Q_petrishin_arbat_secondary_stages|extraction note]]]
+
+### Live intake data point — Petrishin-Stroi real flood-damage remediation cost, a distinct category from the rough-work benchmarks above (2023-05-28)
+
+**Not part of the rough-stage/full-scope renovation cost-benchmark series
+above** — this is a damage-remediation cost, a different category of
+spend entirely, kept explicitly separate. A previously-renovated
+apartment (ЖК "Лучи," region level 2, no city named) suffered a slow
+leak from the upstairs neighbor's own developer-original heating pipe.
+Per an independent construction-expertise finding, the total cost to
+correct all resulting damage (ceiling replacement, wall re-priming/
+repainting/anti-mold treatment, custom photo-wallpaper reprint/reinstall)
+came to **more than 300,000 RUB** — normalized via the trailing-6-month
+USD/RUB average ending on the confirmed 2023-05-28 publish date
+(73.6736 RUB/USD) to **≈$4,100** (nearest-$100 bucket; a floor figure,
+since the source states the true total was higher than 300,000 RUB).
+Worth keeping as a concrete illustration of flood-damage cost exposure
+when budgeting for leak-protection hardware (see
+[[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak
+Protection Systems]]) — a leak-protection kit costing a few hundred
+dollars is cheap relative to a single incident like this one. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YxXfsKoyx6M_petrishin_flood_prevention_heating|extraction note]]]
 
 ### Tracking Expenses (added 2026-08-19)
 

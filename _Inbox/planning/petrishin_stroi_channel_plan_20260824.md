@@ -743,3 +743,101 @@ Videos 1 ( `g1b6Hxx-HUk`), 3 (`JLjCveR-ft0`, English title, confirmed Russian au
   link was not) — corrected by hand for all 8. All 8 new CSV rows
   independently re-verified via Python's `csv` module to parse into the
   correct 15 columns each with `archived` status.
+
+## Round 7 — Plumbing/flood-prevention technique, mechanized putty, window-masking, electrical pricing, wall cracks, real case studies (8 videos, dispatched 2026-08-24)
+
+Continues full-scale processing. Deliberately favors case-study/cost-
+benchmark and named-technique content over recap "ТОП-N ошибок" formats
+(per Rounds 3-6 findings). Includes two explicit cross-checks requested
+for this round: video 3 (mechanized putty) against Rounds 1-3's existing
+plastering/wall-squareness content, and video 6 (wall cracks) against
+Round 1's masonry acceptance video (`caDB-roRasI`) and the building-
+settlement deformation-seam mechanism already flagged twice on this
+channel. Videos 7 and 8 were each checked for confirmed year/scope
+before deciding whether to add them to the existing real-object cost-
+benchmark series.
+
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `O_2Jji7NAHQ` | Сантехнический шкаф. Зачем каждый элемент? Как сэкономить? Как избежать потопа, плесени и грибка? | Plumbing-cabinet technique/economy, flood/mold-prevention framing | **FULL extraction** | 9 | Interview with Mikhail (engineering-systems specialist, 20+yr experience), secondary-market object. Upload date 2024-04-07 confirmed via yt-dlp. Region level 2. No RUB prices spoken (no conversion applicable). Heavy corroboration of existing dense inlet-node/pressure/leak-protection content, correctly not re-extracted. New: 3D-printed reducer-key tool, cheap-Chinese-analog-substitute economics (works backward / needs annual replacement vs 5-10yr), aluminum-sheet lining alternative for a compromised masonry shaft, ~1yr-minimum DIY-experience heuristic (пакля packing skill), backward-installed-meter QC/fraud-risk red flag, mandatory RCD on cabinet outlet, 4-6mo whole-node maintenance cadence, mandatory cabinet ventilation vs mold, client-complaint-driven water-quality add-on filters. Low promotional ratio. |
+| 2 | `YxXfsKoyx6M` | Как предотвратить потоп в квартире? / Монтаж системы отопления в квартире / Ремонт после потопа | Flood-prevention + heating-system installation technique; tests this channel's recurring flooding-incident theme for genuinely new mechanism | **FULL extraction** | 6 | Real flood-damage case study, ЖК "Лучи," leak from upstairs neighbor's own developer heating pipe. Upload date 2023-05-28 confirmed via yt-dlp. Region level 2. **Genuinely new mechanism, not a restatement of the towel-warmer/tee-joint flooding themes already documented**: гофра (corrugated-conduit) hidden-leak-travel mechanism, AC-condensate seasonal-elimination diagnostic heuristic, radiator side-connection to protect the baseboard-drilling path, 24hr water-temperature-equilibration wait before a heating pressure test, real flood-remediation cost benchmark >300,000 RUB ≈$4,100 (a distinct damage-remediation category, not blended with the renovation cost-benchmark series). Replacement-system component list corroborates existing inlet-node sequence, not re-extracted. Low promotional ratio. |
+| 3 | `G0vtTswg5Ck` | Как сделать ровные стены в квартире? Механизированная шпатлевка. Все секреты. | Mechanized-putty wall-leveling technique, explicit cross-check against Rounds 1-3 plastering/squareness content | **FULL extraction, cross-check confirmed no overlap** | 9 | Named-technique tutorial, master finisher Eduard. Upload date 2023-07-02 confirmed via yt-dlp. Region unresolved (no city/development named). **Explicitly cross-checked against `D1REgSDwILU` (Round 1), `r1eyXzXNdI0` (Round 2), and `lTeNBUR1u8g` (Round 3) — no overlap found**: this covers the spray-putty-machine equipment/technique itself, a sub-topic none of those sources touched. New: two-whisk mixer, day-split corner-protection sequencing, orbital-vs-eccentric sander tradeoff, wallpaper-vs-paint finish-path branching, real 70m² 6-day-mechanized-vs-2-week-hand speed benchmark, 2-person fatigue-staggered crew composition, trade-specialization speed/quality rationale. Low promotional ratio. |
+| 4 | `QtQBGLzS698` | Как заклеить окно правильно? Мастер-класс. Ремонт в ЖК Оранж Парк. | Window-sealing masterclass, tests fit against existing Windows pages | **FULL extraction** | 8 | Real jobsite masterclass — actually a dust-protection **film-masking** technique (not weatherproofing/slope-insulation), foreman Sergey Vasilyevich. Upload date 2021-03-25 confirmed via yt-dlp. **Region: level 2** — "ЖК Оранж Парк" named, no city spoken. **Cross-checked against `Windows_Slope_Finishing.md` and `Windows_Acceptance_Checklist.md` — no overlap** (neither page has masking-film content); also cross-checked against `Demolition.md`'s existing general "wrap windows in film" rule — this is the concrete step-by-step technique behind that rule, not a duplicate. New: film-width preference, overlap-margin technique, top-edge gap for later puttying, static-cling positioning + a tape-type nuance, scratch-avoidance trim technique, operable-sash ventilation-compatible masking, windowsill protection, dark-frame caution, a real 5min-vs-15-20min time-tradeoff benchmark. Low promotional ratio. |
+| 5 | `qnmVK1R3X0k` | Электрика в квартире, цена// Как избежать косяков при ремонте квартиры | Electrical pricing + mistakes-avoidance, cross-check against existing electrical content | **FULL extraction** | 7 | Sergey Petrishin's own methodology explainer. Upload date 2023-04-30 confirmed via yt-dlp. Region unresolved. **Despite "цена" in the title, no RUB prices are actually spoken** (on-screen table only, not ASR-extractable). Heavy overlap with existing electrical content correctly excluded (junction-boxes-in-backboxes, temp-outlet test, and a Bentley/Hyundai restatement of Round 6's Bentley/VW/Lada analogy). New: project/smeta cross-review sequencing, panel-size decision framework, wire-labeling hiring-vetting red flag, live-circuit-during-drywall damage-detection mechanism, an explicit 4-factor cost-driver framework, a performance-vs-aesthetics admission, a ceiling-priming client-consent cost item. Low promotional ratio. |
+| 6 | `UhE9cOJ35FY` | Как исправить трещины на стенах // Почему трескаются стены в квартире? | Wall-crack repair technique, explicit cross-check against Round 1's masonry/settlement-crack content and the deformation-seam mechanism | **FULL extraction, cross-check confirms a third recurrence** | 6 | Real crack-repair case study. Upload date 2023-05-14 confirmed via yt-dlp. Region unresolved. **Explicitly cross-checked against `caDB-roRasI` and the deformation-seam mechanism already flagged in Round 1 videos 1 and 4 — confirmed this is a third recurrence**; the video's own "root causes" section is a near-complete restatement of the existing masonry-acceptance checklist, correctly not double-counted. The genuinely new content is the *repair* technique itself (first-time application by this company): drill-and-inspect diagnostic, groove-and-soundproof-drywall-strip patch technique, recessed paper-tape seam technique, reapplication on a second crack in the same video, and a real repair cost/time benchmark (~3 days, ≈20,000-30,000 RUB ≈$280-$420 — a distinct defect-repair cost category, not blended with renovation-stage benchmarks). Low promotional ratio. |
+| 7 | `FRRT0ZrhjaI` | Ремонт квартиры, цена. Новостройка 54 м2. Обзор готовой квартиры, румтур. | Real new-build case-study/room tour with a stated floor area, candidate for the real-object cost-benchmark series if year/total cost confirmed | **FULL extraction — not added to the cost-benchmark series** | 8 | Real 54m² room tour, client (Marina) present. Upload date 2024-01-14 confirmed via yt-dlp. Region unresolved. **Checked explicitly for a usable total/area per this round's brief — none exists**: every per-room cost is shown on-screen only, never spoken, so nothing is ASR-extractable except one real spoken furniture price (700,000 RUB wardrobe ≈$7,500) and two generic company "starting from" rates at the end (not this apartment's actual spend) — correctly **not** forced into the real-object benchmark series. New: 4-factor wardrobe cost-driver breakdown, a manufacturing-defect free-rework anecdote, a sofa usable-width heuristic, a fixed-distance TV-diagonal workaround, a wood-panel toilet-access-door design, a range-hood-type-change hole-relocation redo, a 3D-panel-integration precision caution, an AC-placement precision caution, and a procurement/price-verification workflow. Heated-wall towel-warmer content correctly excluded as a same-channel Round 6 restatement. Medium promotional ratio. |
+| 8 | `tYcH95rlgNw` | Как выглядит ремонт за 5 млн рублей в 2023 году? // С какими трудностями столкнулись при ремонте? | Real 2023 cost-benchmark case study, candidate to extend the multi-year real-object benchmark series if scope is comparable | **FULL extraction — new 7th cost-benchmark case, added to the series** | 9 | Real case study, client Shamil, foreman Yura. **Genuinely confirmed 2023** (spoken "в 2023 году" plus yt-dlp upload date 2023-06-04) — clears the year-confirmation bar. Region unresolved. **Real total spoken cost, full turnkey scope, confirmed 54m² area: 5,250,000 RUB ≈$78,700 (≈$1,500/m², trailing-12-month rate given the project's own ~2yr timeline)** — a genuinely new, distinctly-scoped data point, kept separate from the rough-only/labor-only series per this project's non-blending convention, comparable in kind to Round 6's `JLjCveR-ft0` full-scope case. New: ~2yr multi-stage COVID-delayed timeline, per-room area breakdown for a 54m² 2BR layout, hexagonal-tile/cork-transition entry technique, thin-6mm-tile 45° layout difficulty, a grout-staining-on-light-tile-with-ordinary-cement-grout risk+fix, a client-sourced DIY Instagram accent-panel technique, an aesthetic utility hatch, and a real material-buffer-stock logistics lesson. Low promotional ratio. |
+
+**Status: COMPLETE — all 8 videos fully fetched and extracted, zero rate-limit issues.**
+
+**Round 7 yield**: 8 videos, 62 genuinely-new facts (9+6+9+8+7+6+8+9, excluding duplicate/corroborating-only outcomes), yield = 7.75 new facts/video — **82% of Round 6's 9.5 baseline** (within the >50%-drop stop-and-ask threshold, and well above the 1.0/video floor). No stop-and-ask trigger.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 8 videos fetched serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV/archiving work between fetches — never an idle wait), consistent with every prior round's clean result on this channel.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence again varied video to video, not a fixed channel answer, consistent with every prior round. Per-video: video 1 (level 2, channel-only Moscow association), video 2 (level 2), video 3 (unresolved — no city/development named), video 4 (level 2 — "ЖК Оранж Парк" named but no city spoken), video 5 (unresolved), video 6 (unresolved), video 7 (unresolved), video 8 (unresolved). **No video this round cleared level 1** — a notably weaker region-evidence round than Round 6 (3 of 8 level-1) or Round 4 (4 of 8 level-1), consistent with this project's standing finding that region evidence varies video to video rather than following a fixed channel pattern; this round's mix (equipment/technique explainers and unbranded case studies) simply didn't happen to include a directly-named city/street/development this time.
+
+### Language check
+
+All 8 videos had Russian titles and confirmed Russian spoken audio (`youtube-transcript-api` returned `language: ru` for every fetch); no English-titled video was encountered this round.
+
+### Mechanized-putty cross-check finding (video 3), per this round's explicit brief
+
+**Explicitly cross-checked against Round 1's `D1REgSDwILU` (base-coat plastering), Round 2's `r1eyXzXNdI0` (same-channel plastering restatement test), and Round 3's `lTeNBUR1u8g` (wall-squareness QC) — confirmed no overlap.** This video covers a distinct sub-stage (mechanized/sprayed putty application, the finishing stage after base-coat plastering) with its own equipment, sequencing, and QC content that none of those three sources touched. Genuinely new material/technique, not a same-channel restatement — one of this round's stronger yields (9) as a direct result.
+
+### Wall-crack cross-check finding (video 6), per this round's explicit brief
+
+**Explicitly cross-checked against Round 1's `caDB-roRasI` (masonry acceptance) and the building-settlement deformation-seam mechanism already flagged twice on this channel (Round 1 videos 1 and 4) — confirmed this is a third recurrence of that mechanism**, not new. The video's own "root causes" section (block stagger/offset, deformation joints at top-course and new-to-existing seams, tie-back reinforcement frequency, flashlight joint-fill check) is a near-complete restatement of `caDB-roRasI`'s existing masonry-acceptance checklist on `07_Bathroom/analysis/Structure_and_Framing.md` — correctly not double-counted, which held this video's yield down to 6 despite a dense repair-technique section. The genuinely new content was isolated to the *repair* technique itself (drill-and-inspect diagnostic, groove-and-drywall-strip patch, recessed paper-tape technique, a second-crack reapplication, and a real cost/time benchmark) rather than the root-cause explainer.
+
+### Cost-benchmark-series findings (videos 7 and 8), per this round's explicit brief
+
+- **Video 7 (54m² room tour) was checked for a usable total/area and found not to clear the bar** — despite the 54m² figure in the title, no total cost is ever spoken (only shown on-screen), so this video contributes technique/mistake content and one real furniture price but is **not** added to the cost-benchmark series, consistent with the discipline that caught Round 5's mislabeled "2026" video and Round 6's partial-Arbat figure.
+- **Video 8 (5,000,000 RUB, 2023) was checked and cleared the bar decisively** — the year is confirmed two independent ways (spoken "в 2023 году" and `yt-dlp` upload date), the area is confirmed (54m²), and the total (5,250,000 RUB) is spoken directly and explicitly framed as all-in turnkey scope. Added as this channel's **7th** cost-benchmark data point in `Budgeting_Guide.md` — kept as its own separately-dated/scoped entry, not averaged with the rough-only, labor-only, or other full-scope cases already on that page.
+
+## Progress Log
+
+- 2026-08-24 — **Round 7 complete.** All 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/CSV/archiving work), zero rate-limit issues across
+  the entire round. All 8 fully extracted. Yield 62 new facts / 8 videos
+  = 7.75 facts/video — 82% of Round 6's 9.5 baseline, well above the 1.0
+  floor and not a >50% drop — no stop-and-ask trigger. Region checked
+  explicitly per video: no video cleared level 1 this round (a notably
+  weaker region-evidence round than Round 4 or 6), 4 stayed at level 2,
+  4 unresolved. Two explicit cross-checks performed as instructed: video
+  3 (mechanized putty) against Rounds 1-3's plastering/squareness
+  content — confirmed no overlap, genuinely new sub-topic; video 6 (wall
+  cracks) against Round 1's masonry acceptance video and the
+  deformation-seam mechanism — confirmed a third recurrence, root-cause
+  section correctly excluded from the fact count, only the repair
+  technique itself counted as new. Videos 7 and 8 were both explicitly
+  checked against the existing real-object cost-benchmark series before
+  deciding: video 7's 54m² figure was **not** force-fit in (no spoken
+  total), video 8's 5,250,000 RUB / 54m² / confirmed-2023 total **was**
+  added as a 7th, separately-scoped data point. Content routed to
+  `12_Engineering_and_Systems/analysis/Water_Inlet_Node_Components.md`,
+  `Cost_Drivers_and_Buying_Guidance.md`, `Pressure_Testing.md`,
+  `Leak_Protection_Systems.md`, `Radiators_and_Convectors.md`,
+  `Rough_Electrical_Sequencing.md`; `13_Surfaces_and_Finishes/Walls_and_Paint.md`;
+  `11_Budget_and_Planning/analysis/Demolition.md`;
+  `11_Budget_and_Planning/Budgeting_Guide.md` (a flood-remediation cost
+  data point plus the new 7th cost-benchmark case);
+  `07_Bathroom/analysis/Tile_Selection_and_Layout.md`;
+  `14_Furniture/analysis/Wardrobe_Worked_Cases.md`;
+  `17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement.md`;
+  and the general store's `Rules_Heuristics.md` (3 new topic-area
+  sections). All price figures normalized to USD via
+  `tools/pricing/currency_converter.py`'s trailing-6-or-12-month average
+  anchored to each video's own confirmed publish date.
+  `tools/youtube/archive_transcripts.py` run (dry-run first, all 8
+  matched correctly, 2 of them renamed by the script to match the note's
+  own filename slug); all 8 source notes' bottom `[source: ...]` inline
+  links needed the same manual fix as Rounds 5-6 (frontmatter
+  `transcript_file:` auto-updated by the script, bottom link was not) —
+  corrected by hand for all 8. All 8 new CSV rows independently
+  re-verified via Python's `csv` module to parse into the correct 15
+  columns each with `archived` status. `tools/verify_batch.py` to be run
+  against the pre-round commit before finishing.

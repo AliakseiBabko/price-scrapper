@@ -377,3 +377,65 @@ same source. `single-account`.
 - **Wall-hung-fixture installation-frame nut position-memory trick**: after leveling an installation frame's height-adjustment nut, fix its position with a dab of hot-melt glue — if the frame is removed and reinstalled later (e.g. during other trades' work), the nut stays at its already-correct setting instead of needing to be releveled from scratch; peel the glue off to intentionally readjust.
 - [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zaW8XagX72U_sidorik_hot_glue_lifehacks|zaW8XagX72U]]]
 
+### Real 54 m² Case-Study Mistakes/Fixes and a Procurement Workflow (Петришин-Строй, added 2026-08-24, Round 7)
+
+- **Wood-panel toilet-access door, functional + aesthetic rationale**:
+  the wall behind a wall-hung toilet was built as a furniture panel with
+  two wood doors instead of tile — wood reads as more comfortable/
+  aesthetic than cold tile, while the panel and upper doors remain fully
+  removable (the toilet tank/flush mechanism itself unscrews on two
+  bolts) for complete access to the concealed plumbing. A concrete
+  tile-alternative for a toilet's rear access panel, functional and
+  not just decorative.
+- **Range-hood type-change mid-project causing a real hole-relocation
+  redo**: the design originally planned a hanging/freestanding hood
+  centered on a pre-cut duct opening; switching to a built-in hood
+  (for more usable storage) shifted where the opening needed to be —
+  a technician relocated the hole in a few hours, a real but cheaply-
+  fixed example of a design-preference change cascading into rough-work
+  rework.
+- **3D wall-panel integration precision caution**: when built-in
+  furniture (e.g. a shelf) butts directly against a 3D-textured wall
+  panel, the panel's cut edge must be essentially perfectly straight —
+  even a 1mm deviation at that junction is immediately visually
+  obvious, a real construction-precision requirement specific to
+  combining 3D panels with adjoining furniture.
+- **AC indoor-unit placement precision caution, a real installed
+  error**: a bedroom AC indoor unit ended up offset ~1-2cm left of the
+  doorway's own centerline after installation, caught and corrected by
+  the client. **Recommendation**: model the AC unit's exact placement
+  in the 3D design model beforehand, especially in a tight installation
+  space, since even a 1-2cm error is visually noticeable there.
+- **Turnkey procurement workflow**: request itemized commercial
+  proposals (SKU + price) from supplier partners once the design
+  project/schedule calls for a given material category; forward to the
+  client for approval; the client can spot-check specific line items
+  against Yandex Market/Petrovich pricing before approving payment — a
+  concrete, checkable procurement-transparency practice, complementary
+  to this project's existing smeta-literacy/anti-upsell content.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FRRT0ZrhjaI_petrishin_54m2_roomtour|FRRT0ZrhjaI]]]
+
+### Client-Sourced DIY Accent Panel and a Real Material-Buffer-Stock Lesson (Петришин-Строй, added 2026-08-24, Round 7)
+
+- **Client-sourced custom DIY accent-wall tile panel, an unusual
+  sourcing technique**: a client found and ordered a modular decorative
+  wall-tile/panel product via an Instagram vendor — individually-sized
+  tile elements shippable in three thickness tiers, freely combinable/
+  oriented by the buyer to build a custom accent-wall pattern, then
+  installed it himself. A concrete example of a client sourcing and
+  installing a decorative feature independently of the general
+  contractor — worth knowing as an option for a DIY-inclined client on
+  a self-managed or hybrid delivery model.
+- **Real material-logistics/buffer-stock lesson**: running short one
+  piece of a specific metal balcony slat mid-installation required a
+  dedicated trip to a wholesale market (not sold in retail stores),
+  reachable only during weekday working hours — the foreman had to
+  personally take time off and coordinate building access to make the
+  run. A concrete illustration of why over-ordering buffer stock on a
+  distinctive/hard-to-source material can save real schedule time later.
+- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_tYcH95rlgNw_petrishin_5mln_2023_benchmark|tYcH95rlgNw]]]
+
+### Trade-Specialization Speed/Quality Rationale (Петришин-Строй, added 2026-08-24, Round 7)
+
+- **Staying within one narrow trade (e.g. putty/finishing only, not also taking on ceiling work or other trade types) avoids the re-learning/tool-changeover overhead of switching between different work types, and repeat-project experience within the same narrow trade compounds into real quality gains** (knowing the specific nuances/gotchas of just that one task) — offered directly as the practitioner's own explanation for why staying specialized, rather than generalizing across trades, increases both speed and quality over successive projects. A hiring-evaluation heuristic worth applying when comparing quotes from a narrow specialist vs. a jack-of-all-trades crew. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_G0vtTswg5Ck_petrishin_mechanized_putty|G0vtTswg5Ck]]]
+

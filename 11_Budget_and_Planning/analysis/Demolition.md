@@ -56,6 +56,26 @@ the cost/legal risks specific to this stage.
   sills specifically get dust ground permanently into the surface if
   left unprotected. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]]]
 
+  **The concrete step-by-step technique behind this rule (Петришин-Строй,
+  added 2026-08-24, Round 7)**: ~1.5m economy-grade film, ~2cm unattached
+  overlap margin at each edge (bonding surface for the next strip), a
+  deliberate ~1mm gap at the top edge so the sealing tape doesn't
+  interfere with a later puttying pass, static cling to help positioning
+  before taping (ordinary clear tape used for the seal itself — a
+  possible nuance against, not necessarily a contradiction of, this
+  page's own "avoid ordinary masking/painter's tape" caution above, since
+  clear packaging tape and painter's/masking tape are different
+  products), and trimming excess film with a putty knife held flat and
+  pressed firmly against the frame (not at an angle) to avoid scratching
+  the glass. **Operable-sash technique**: mask the movable sash as a
+  separate flap along its own perimeter so the window can still be
+  opened for ventilation during the covering period. Protect the
+  windowsill too. **Dark-colored frames need extra care** — scratches
+  show up far more visibly than on a light frame. **Real time-tradeoff**:
+  masking one window this way takes ~5 minutes; skipping it costs ~15-20
+  minutes later removing paint splatter/dust residue — do this at the
+  *start* of the dusty work stage, not after. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QtQBGLzS698_petrishin_window_masking_technique|QtQBGLzS698]]]
+
 ## Screed-Height Mismatch After a Wall Removal, and Panel-House Screed Irregularity (RemProektMD, added 2026-08-24, Round 2)
 
 > [!NOTE]

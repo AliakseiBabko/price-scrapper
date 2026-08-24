@@ -15,7 +15,7 @@ LAB-REMONT, Знакомые сантехники, and Zemstandart/Alexey Zemsko
 - **Coarse filter (грязевик)**, pre-meter: protects the water meter's impeller/vanes from mechanical debris (weld scale, sand, pipe scale) that would otherwise abrade the vanes and cause inaccurate metering over time. Mesh commonly 500 micron (also cited: 300, 600, 800 depending on source/product). [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
 - **Fine filter**, post-meter, mesh commonly cited 5–110 micron across sources (treat as "roughly two orders of magnitude finer than the coarse filter," not one precise number): protects downstream ceramic-cartridge valves in modern single-lever and thermostatic mixers from fine abrasive particulate — many fixture manufacturers require this level of filtration to preserve their warranty. **Install it after the meter, never before** — a fine filter placed before the meter can, per one source, effectively divert water around metering when the filter is opened/flushed, which is both improper and adjacent to a genuine water-theft/tamper vulnerability (see below). [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
 - **Self-flushing (самопромывные) fine filters, ~50–100 micron, are actively discouraged for residential use by one source** despite their marketing appeal: they need a manual flush roughly twice a year tied to a drain connection, and in practice residents rarely do it — the filter clogs silently, and the first symptom is a low-pressure complaint traced back to a forgotten, clogged filter. A standard, easily-swapped cartridge filter is recommended instead for most apartments; self-flushing filters are only argued to be worth it for larger units with 2+ bathrooms needing higher sustained throughput. [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
-- **If water quality itself is suspect (not just particulate), get a water analysis and install a dedicated mainline filter housing** downstream, with cartridge type chosen per the analysis: polypropylene mechanical (5–10 micron), carbon/charcoal (chlorine taste/odor removal), ion-exchange (softening/anti-scale), or iron/manganese-removal (only if water runs visibly yellowish). **Combining a flush filter and a mainline filter on the same node is called "generally pointless"** — let the water analysis decide which single approach is needed, not both. [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
+- **If water quality itself is suspect (not just particulate), get a water analysis and install a dedicated mainline filter housing** downstream, with cartridge type chosen per the analysis: polypropylene mechanical (5–10 micron), carbon/charcoal (chlorine taste/odor removal), ion-exchange (softening/anti-scale), or iron/manganese-removal (only if water runs visibly yellowish). **Combining a flush filter and a mainline filter on the same node is called "generally pointless"** — let the water analysis decide which single approach is needed, not both. [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]] Petrishin-Stroy corroborates and adds the concrete client-complaint trigger for each branch in practice: a softening cartridge gets added specifically when a client complains about hard water, an iron-removal cartridge specifically when the system shows elevated iron — add-ons are request-driven, not part of a default build. (added 2026-08-24, Round 7) [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_O_2Jji7NAHQ_petrishin_plumbing_cabinet_components|O_2Jji7NAHQ]]]
 - **Plastic filter housings aren't recommended on higher-pressure systems**, except the "Big Blue" (BB) type rated to 7 or 15 bar — other plastic housings are fine only where pressure is genuinely low. [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
 - **Don't oversize a filter housing "just in case."** Water sitting stagnant in an oversized bowl goes stale since it isn't circulating properly — match housing size to actual flow. [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
 - **Route a drain valve under each filter housing to the sewage line**, so unscrewing a filter bowl to change its cartridge doesn't spill residual water — a reusable coarse-filter mesh can often be flushed clean directly through this drain valve under pressure, without disassembly. [source: [[_Archive/processed_sources/20260731_plumbing_video_4_7f5e9a77.txt|20260731_plumbing_video_]]]
@@ -34,7 +34,30 @@ interior — a frequent minor-leak location — to protect the surrounding
 wall finish even though it doesn't prevent the leak itself. **Label every
 piece of equipment at the node with a function sticker**, so the owner
 can perform basic actions (isolating a branch, etc.) without calling a
-professional for routine tasks. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
+professional for routine tasks. Petrishin-Stroy also requires **ventilation inside the cabinet, called
+mandatory rather than optional, specifically to prevent mold/fungus** —
+the cabinet's own elevated humidity (open water-bearing components) needs
+active air exchange or moisture accumulates; and a **mandatory RCD/
+differential-current breaker on the cabinet's own electrical outlet**,
+framed as the floor-level minimum electrical protection if water reaches
+the socket and grounds out. (added 2026-08-24, Round 7)
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
+
+## Cabinet Back-Wall Waterproofing: Coating vs. Rigid Barrier by Substrate Condition, and a Small DIY Tool Fix (Петришин-Строй, added 2026-08-24, Round 7)
+
+Petrishin-Stroy: **normally a waterproofing coating on the cabinet's back
+wall is enough**, but on one secondary-market object the masonry riser
+shaft behind the cabinet had old cracked brick, holes, and four disused/
+abandoned pipes — judged too risky to coat directly, so an **aluminum
+sheet was installed as a rigid physical barrier instead**. A concrete
+substrate-condition decision rule (coating vs. rigid barrier), not a
+universal recommendation to switch away from coating by default.
+Separately: the pressure reducer's own adjustment cap uses a small key
+not sold separately anywhere this source has found — **3D-printing a
+replacement key shaped so it can't be set down and lost** (it stays
+attached to/can't easily separate from the cap) solves a real recurring
+small-tool-loss problem specific to this fitting. `region: level 2`.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_O_2Jji7NAHQ_petrishin_plumbing_cabinet_components|O_2Jji7NAHQ]]]
 
 ## Manifold, Meter, and Reducer — Additional Rules (added 2026-08-24, Round 2)
 
@@ -85,3 +108,19 @@ Pavel Sidorik, episode #27: the signal cable connecting the Neptun leak-protecti
 - **Correct code-referenced sequence**: a coarse/angled strainer *with a tamper-seal lug* installed before the meter, then a fine flush filter after the meter — matching the two-tier logic above, with the added detail that the pre-meter component should carry a tamper seal. [source: [[_Archive/processed_sources/20260731_plumbing_video_5_1992d0a4.txt|20260731_plumbing_video_]]]
 - **A threaded union joint ("сгонная резьба") placed before the water meter is a specific, named vulnerability, distinct from ordinary joint-corrosion risk**: it lets someone unscrew the union and draw water bypassing the meter entirely — a metering-fraud/water-theft loophole, not a mechanical-failure concern. One source's own job site had exactly this developer shortcut (a union joint before the meter, with the tamper-seal lug and anti-magnet sticker both skipped) — explicitly flagged as improper: **there should be no union/threaded disassembly points at all before the meter, and everything before the meter should be tamper-sealed.** [source: [[_Archive/processed_sources/20260731_plumbing_video_5_1992d0a4.txt|20260731_plumbing_video_]]]
 - **Threaded union joints ("сгон") anywhere on the riser side are separately called "a mine of delayed action"** — they corrode/degrade over time and are a classic unexpected-leak point, especially once concealed. On one job these were removed and converted to permanent welded joints specifically to eliminate this failure mode. [source: [[_Archive/processed_sources/20260731_plumbing_video_5_1992d0a4.txt|20260731_plumbing_video_]]]
+
+## Backward-Installed Meter as a QC/Handover Red Flag, and Maintenance Cadence (Петришин-Строй, added 2026-08-24, Round 7)
+
+Petrishin-Stroy reports a real repeat callout where a water meter had been
+installed **mechanically backward (counting in reverse)** despite already
+being tamper-sealed — nobody had checked its flow-direction orientation
+before sealing it. Consequence: an unusually low meter reading risks the
+utility company suspecting deliberate tampering and issuing a fine, even
+when the real cause was an installer's mistake, not fraud. **Add a meter-
+direction check to any handover/acceptance checklist**, not just a visual
+completeness check. Separately, the same source recommends a **routine
+whole-node inspection every 4–6 months**: flush filters (consistent with
+this page's existing self-flushing-filter cadence) and check specifically
+for leaks at rubber-gasket/threaded-joint connection points on the
+manifold and cabinet, not only at the filters themselves. `region: level
+2 (channel-only Moscow association)`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_O_2Jji7NAHQ_petrishin_plumbing_cabinet_components|O_2Jji7NAHQ]]]
