@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Oh4hGMZ90mw",
+  "video_id": "Oh4hGMZ90mw",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T07:32:47.846402+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e0b559138c04c53ad0b3d2670ce3493790dbddcda6581ec20a82e85084c90a6c",
+  "attempts_before_success": []
+}

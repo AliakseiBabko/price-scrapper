@@ -31,6 +31,53 @@ Four videos from a "general renovation tips" playlist (same channel, `single-acc
 - **Underfloor heating pipe QC**: the manifold must be permanently fixed at its final designed location *before* pipe runs are laid — repositioning it later disturbs every connected run. Pipes should run parallel to main walls, bend gently (roughly 0.5m radius, no kinks), be wrapped in a continuous protective flex sleeve, and be documented (photographed) precisely enough to be located later without a thermal camera. For anchoring pipe to the sub-floor, one source prefers older bitumen adhesive strips (heat-gun bonded) over newer peel-and-stick strips, describing the newer strips as harder to apply correctly for roughly 5x the cost with no real benefit. [source: [[_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt|20260804_never_take_this]]]
 - **Threshold-free flooring is close to a free byproduct of single-contour waterproofing, not a separate cost decision**: since a combined sound+waterproofing membrane applied continuously under the whole floor is already recommended for most apartments, and most customers want floor soundproofing anyway, going fully level (no door-sill steps) across the apartment becomes a natural extension of a decision already made rather than extra scope. `single-account`. [source: `_Archive/processed_sources/20260804_apartment_tour_tips_compilation_e2e466ad.txt`]
 
+## Brush-On/Cementitious Waterproofing: Product Selection & Application Technique
+
+Pavel Sidorik (individual finisher, `single-account`) demonstrates a
+full brush-on bathroom waterproofing job with two named products,
+filling a gap in this page's otherwise roll/membrane-heavy coverage:
+
+- **Product comparison**: Ceresit CR 65 (dry cement-based) is
+  non-deformable-substrate-only (concrete, cement plaster/screed),
+  **not usable on gypsum substrates**, cheaper, and requires the
+  substrate be pre-wetted before application, with tile-lay possible
+  only after **7 days**. Ceresit CL 51 (ready-mixed elastic mastic) works
+  on **any substrate**, tolerates minor substrate cracking without
+  losing its seal, costs more, is interior-only (not rated for pools/
+  constant water contact), and allows tiling after only **16 hours** —
+  the speaker's own preferred product for that speed advantage.
+- **Two named application mistakes with cement-based waterproofing**:
+  applying it to an unwetted/dry substrate (correct prep: lightly spray
+  the wall with a garden pump sprayer and let it absorb moisture first),
+  and applying it to a gypsum-based substrate at all (not rated for it).
+- **Waterproof the floor last, not first** — waterproofing the floor
+  before the walls forces the installer to walk on the fresh floor
+  membrane to reach the remaining walls, damaging it.
+- **A real client-driven scope-cutting compromise, named explicitly**:
+  correct technique tapes every wall corner (including vertical
+  corners) since cracks form there; this source's client asked to skip
+  vertical-corner taping to save cost. In a **panel building
+  specifically, the vertical joints between wall panels are the single
+  most crack-vulnerable point** — flagged as a real compromise, not a
+  neutral simplification, even though it was the client's own choice.
+- **Corner-taping technique**: brush mastic into the corner, coat the
+  tape itself with mastic before pressing it in (an extra-adhesion step
+  beyond the product's own minimum instructions), trim excess, then coat
+  the entire tape (not just its edges) with mastic afterward.
+- **Two-coat, cross-hatched mastic application**: first coat in one
+  direction, wait ~1.5 hours, second coat perpendicular to the first —
+  the same cross-hatch logic commonly used for tile adhesive, applied
+  here to brush-on waterproofing coats.
+- **Scope tradeoff**: full floor-to-ceiling waterproofing on every wall
+  is the default, but a cost-saving partial-scope alternative exists —
+  waterproof only the floor and the walls actually within a fixture's
+  splash zone.
+- Cement-based waterproofing product includes a red pigment specifically
+  so the applied coverage is visually distinguishable from the grey
+  substrate, making gaps easy to spot.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C0FOWRxqWX4_sidorik_bathroom_waterproofing_technique|YT_C0FOWRxqWX4]]]
+
 ## Rough-Stage Acceptance Checklist Items
 
 - **A dry-trap siphon at the water-inlet node is worth including even on the most basic build** — lets filter-flush water drain automatically instead of needing a bucket; without one, infrequent manual flushing plus standing water in a regular siphon causes sewer odor. **Dishwashers get the same treatment**: a dry-trap siphon under a dishwasher prevents sewer-gas odor the same way — framed as standard practice most homeowners don't know to ask for. `single-account`. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]

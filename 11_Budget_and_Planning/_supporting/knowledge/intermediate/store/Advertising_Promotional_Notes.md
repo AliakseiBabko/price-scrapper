@@ -370,3 +370,7 @@ for a self-managed buyer.
 
 - This is a high-promotional company self-description: Telegram/site lead funnel, free measurement/estimate offer, and advocacy for the company's staged process.
 - The 20,000 RUB/m² figure is explicitly a bad opaque-quote example, not a neutral benchmark. Keep the estimate-format warning, but do not treat the number as a recommended company rate or market rate. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_3vIpdUvgWW0_kruglov_contractors_2025|3vIpdUvgWW0]]]
+
+### Pavel Sidorik — hpU_xEXmdvE (2020-08-22)
+
+- Mid-video sponsored segment for "Ritter" laminate flooring (Russian manufacturer): superlative/unverifiable claims ("best price-quality combination," locking-system convenience, wear class 34) with a direct manufacturer-link call-to-action. Excluded from all fact sections; the surrounding acceptance-checklist content is otherwise low-promotion, first-hand practitioner technique. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hpU_xEXmdvE_sidorik_new_building_acceptance_checklist|hpU_xEXmdvE]]]

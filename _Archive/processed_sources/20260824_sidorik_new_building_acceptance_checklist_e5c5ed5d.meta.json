@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=hpU_xEXmdvE",
+  "video_id": "hpU_xEXmdvE",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-24T07:28:30.419080+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e5c5ed5dd429968c862026004a773adaea2d89760a0e11aaefc8d11d9a42ab88",
+  "attempts_before_success": []
+}
