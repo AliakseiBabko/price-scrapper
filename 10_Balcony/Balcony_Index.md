@@ -147,4 +147,6 @@ All sources below are Alexey Zemskov / Zemstandart-Zemsproekt (Moscow), fetched 
 
 - **Insulation material comparison, thickness rules, heated-floor-over-insulation layer stack, a real quartz-vinyl-on-heated-floor failure case, and a level-1 Moscow cost benchmark** (Петришин-Строй, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qt4uGvGRYT0_petrishin_balcony_insulation|extraction note]] (2025-08-03).
 
+- **Balcony scope note, real case (Петришин-Строй, added 2026-08-24, Round 4)**: masonry walls built up and plastered, plus client-driven replacement of the double-glazed window unit, radiator, and sills — corroborates this channel's own existing balcony content (`Qt4uGvGRYT0`) that balcony work on this channel's objects is usually client-driven scope-of-work rather than a fixed package. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|extraction note]] (2025-02-16).
+
 Full raw facts (including cross-references not repeated here) live in the `Balcony / Loggia` sections of [[11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index|store/_index.md]].

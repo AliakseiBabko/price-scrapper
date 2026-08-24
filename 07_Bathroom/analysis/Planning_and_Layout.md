@@ -82,6 +82,10 @@ A pure design/personal-preference point, included for completeness: some people 
 
 **Several of this channel's "default" fixture-clearance figures are premium-tier upsizes, not universal minimums** — a documented example: a toilet/hygienic-shower zone normally sized to an 800mm minimum was instead sized to 1000mm specifically because the project was premium-segment. Read this channel's other stated "minimums" with this segment-tier caveat in mind. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D8t1ADisUE8_odnushka_premium_replan_246|YT_D8t1ADisUE8]]]
 
+## Bathtub-vs-Shower Decision Heuristic (Петришин-Строй client testimonial, added 2026-08-24, Round 4)
+
+**⚠️ Count actual real-world bathtub usage frequency before deciding whether to keep one** — a real client in a 35m² apartment counted their own historical bathtub use at only 3 times total ever (once in childhood, twice as an adult) before removing the bathtub entirely for a shower enclosure. A general, actionable planning heuristic — an honest personal-use audit rather than a designer's default assumption — for anyone weighing a small bathroom's limited floor area between a tub and a shower. `single-account`. Region level 2 only. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F0ZHsu4k6JY_petrishin_small_apartment_client_review|F0ZHsu4k6JY]]]
+
 ## Comfort-Class Labor Cost (restated)
 
 **USD normalization status:** the 25,000–45,000 RUB/m² figure is **not computable** here because this restatement does not carry an independently confirmed publish date; no calendar-year or guessed date conversion is claimed.

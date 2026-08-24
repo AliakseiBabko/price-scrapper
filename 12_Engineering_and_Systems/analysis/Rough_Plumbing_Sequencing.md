@@ -163,6 +163,8 @@ be the ones dealing with any consequence at finish stage) — must be
 explicitly agreed with the crew *before* work starts; raising it
 mid-project is described as poor practice. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
 
+**Riser rework division of responsibility, real case (Петришин-Строй, added 2026-08-24, Round 4, Moscow level-1 case study)**: on this old-building object, the building-management/utility company (`жилищник`) — not the renovation crew — performed the heating-riser rework (rewelding pipe sections, swapping in new radiators); the renovation crew's own role was limited to painting the reworked pipework neatly afterward. **Named product/technique: a riser drain-noise soundproofing kit** applied specifically to reduce the noise of the shared drain riser flushing, distinct from this store's existing ceiling/floor airborne-noise soundproofing content. Client requested stainless-steel-finish visible fittings in the utility cabinet purely for appearance. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|qFM8NIDIRro]]]
+
 ## Fixture Stub-Out Coordinates
 
 A complete rough-plumbing stub-out coordinate reference by fixture type (sink, shower, tub, toilet+hygienic-shower, urinal, washing machine, kitchen sink with/without an adjacent washer) has its own dedicated page — see [[12_Engineering_and_Systems/analysis/Fixture_Stubout_Coordinates|Fixture Stub-Out Coordinates]] (added 2026-08-18).

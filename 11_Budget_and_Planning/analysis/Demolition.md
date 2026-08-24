@@ -73,6 +73,31 @@ the cost/legal risks specific to this stage.
 
 **Labor-reliability observation**: a subcontracted helper-tier ("подсобные") crew failed to show up for scheduled demolition work; after a ~2-hour wait with no contact, the practitioner did the jackhammer work himself rather than let a rented tool sit idle — stated as a general pattern where helper/general-labor workers are less reliable than specialized tradespeople in his own experience.
 
+## Case Study — Old Building, Police Visit, Structural Sway (Петришин-Строй, added 2026-08-24, Round 4)
+
+> [!NOTE]
+> Moscow, level 1 ("Олимпийский проспект" named directly). Client case-study/interview format, low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|qFM8NIDIRro]]]
+
+- **⚠️ Real incident: neighbors called the police during demolition despite the crew observing standard quiet hours** (13:00-15:00) — police checked the crew's documents and allowed work to resume, but the disruption forced the company to **swap out the demolition crew mid-job** to finish the work. The foreman's own read: a "legal" quiet-hours window doesn't guarantee no complaint, since some neighbors work nights and sleep days.
+- **⚠️ Structural-sway stop condition**: an old, very solid slab/partition under a bathtub was left un-demolished, despite being technically removable, because the whole building was visibly swaying ("дом ходил ходуном") during demolition — a real example of reading a building's own movement as a live stop signal rather than a pre-planned scope decision.
+- **Site-specific debris-container constraint**: a standard construction skip/container could not be placed at this site at all; workaround was fast staged loading near a rail-adjacent area with a pre-booked truck and laborers, specifically to avoid blocking the road — a variant on this page's existing container-negotiation content, for a site where a container isn't an option at all rather than just costly.
+
+## Second Mistakes Video, Cross-Checked Against Video 1 Above (Петришин-Строй, added 2026-08-24, Round 4)
+
+> [!NOTE]
+> Moscow, level 1 (personal story names "Марино" and "шоссе Энтузиастов" directly). Explicitly cross-checked against `AcNu6CHE7Y4`'s existing content on this page — several items are same-channel restatements, correctly not double-counted (see the source note's own corroboration list). Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z1IuJFudcPY_petrishin_top10_demolition_mistakes|Z1IuJFudcPY]]]
+
+- **⚠️ Teach-back verification method**: beyond a written scope document, have the foreman/master explain back in his own words how he understood it and how he'll execute each part — catches a misunderstanding before, not after, a wall is gone.
+- **Use delicate/gentle tape (not ordinary masking/painter's tape) for protective film over windows/doors** — avoids leaving adhesive residue marks.
+- **⚠️ Irreversible glass-pitting mechanism ("окалины") from angle-grinder sparks on unprotected window glass**: cutting metal near an uncovered window pits the glass with tiny permanent marks invisible from a distance but clearly visible up close — can't be cleaned off; the only fix is replacing the glass unit, roughly 50% of the window's total cost.
+- **White vs. green heavy-duty debris bags**: green (garden-waste type) bags tear under demolition debris, spilling into shared corridors/elevators; white bags cost only slightly more and are meaningfully more durable.
+- **⚠️ De-energize old wiring + run temporary wiring before demolition, with a hiring red flag**: a crew willing to "work in the dark" (skip disconnecting) to save time is a signal about their overall care/competence, not just a one-off shortcut.
+- **⚠️ Photo-document the apartment directly below before hammer-work starts** — defends against a downstairs neighbor later blaming pre-existing, unrelated cracks on your renovation.
+- **Debris-removal timing rule**: carry debris out midday, not during the after-work rush hour when residents are returning home.
+- **⚠️ Container-placement approval, new-build vs. secondary-market distinction, real cost consequence**: a modern ЖК requires management-company pre-approval for a container truck — without it, the driver drops the container ~300m from the entrance, forcing extra paid labor to haul bags that far; in an older secondary-market building, all curb space is usually car-occupied instead, so the driver drops it wherever's free.
+- **Towel-warmer accident-share statistic, distinct from this page's existing incidence figure**: "90% of all accident situations at this stage happen right at this point" — a share-of-accidents measure, not the existing share-of-projects figure (3-4/10) — recorded as related but not identical.
+- **⚠️⚠️ Standout real incident**: unsupervised local janitors assigned to demolish a shower cabin dropped a ceiling piece onto a protruding towel-warmer, flooding 5-6 apartments below — the foreman personally redid affected neighbors' wallpaper/laminate or paid cash compensation. A real first-person example of the general "vet who you trust with demolition" caution already on this page.
+
 ## Site Management & Neighbor Relations
 
 - **Written scope-of-work requirement, with a dispute-resolution
@@ -212,6 +237,17 @@ the cost/legal risks specific to this stage.
   concrete-grinding surface prep, screed-removal decision framework,
   debris logistics** (Pavel Sidorik, added 2026-08-24, Round 2) —
   [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|extraction note]].
+- **Case-study interview — police-visit-during-quiet-hours incident,
+  structural-sway stop condition, no-container-allowed site logistics**
+  (Петришин-Строй, added 2026-08-24, Round 4) —
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|extraction note]] (2025-02-16).
+- **"TOP 10 CRITICAL DEMOLITION MISTAKES!" — teach-back verification,
+  glass-pitting mechanism, white-vs-green debris bags, temp-wiring
+  hiring red flag, downstairs-neighbor photo-documentation, container-
+  approval new-build-vs-secondary-market distinction, standout real
+  flooding incident** (Петришин-Строй, second demolition-mistakes
+  source from this channel, added 2026-08-24, Round 4) —
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z1IuJFudcPY_petrishin_top10_demolition_mistakes|extraction note]] (2025-09-07).
 
 - **"Особенности демонтажа стяжки в панельном доме" — 4cm screed-height mismatch decision tree, semi-dry screed low-shrinkage rationale, panel-house screed/substrate irregularity, jackhammer rental price ($12/day), laser-level datum technique, labor-reliability observation** (RemProektMD, added 2026-08-24, Round 2) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_I-iSW-9NHAs_remproektmd_screed_dismantling_panel_house|extraction note]].
 

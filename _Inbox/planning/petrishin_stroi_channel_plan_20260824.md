@@ -474,15 +474,80 @@ format not yet spot-checked on this channel), technique comparisons, a
 second demolition-mistakes video (tests fit against the new `Demolition.md`
 page from Round 3), and cost-saving tips.
 
-| # | Video ID | Title | Why selected | Status |
-|---|---|---|---|---|
-| 1 | `qFM8NIDIRro` | Finished renovating an old apartment. Police visits, wall cracks, and other challenges! | Real case study, tests client-review-format value not yet spot-checked on this channel | pending |
-| 2 | `IoQiGtso9Vk` | Complex renovations in a historic Arbat apartment. Results, tips, and challenges. | Real case study, historic building | pending |
-| 3 | `rt9R26k6dEM` | КАК ВЫБРАТЬ ПЛИТКУ? ПЛИТКА ИЛИ КЕРАМОГРАНИТ? | Tile-vs-porcelain comparison technique | pending |
-| 4 | `66pn-nIOJkg` | КРАСКА, ОБОИ, ИЛИ ОБОИ ПОД ПОКРАСКУ? ЧТО ЛУЧШЕ И ЧТО ВЫБРАТЬ? | Paint-vs-wallpaper comparison technique | pending |
-| 5 | `3sRfRiQ8XfE` | Крутые инженерные коммуникации! Сколько это стоит? | Engineering/utilities cost benchmark | pending |
-| 6 | `PBkZQHkjciE` | Как СЭКОНОМИТЬ на РЕМОНТЕ?! Конкретные СОВЕТЫ и ХИТРОСТИ | Budget-saving tips | pending |
-| 7 | `Z1IuJFudcPY` | TOP 10 CRITICAL DEMOLITION MISTAKES! | Second demolition-mistakes source, tests fit against new `Demolition.md` page | pending |
-| 8 | `F0ZHsu4k6JY` | ПРАВИЛА для маленькой квартиры. В ней есть ВСЕ | Small-apartment design/planning rules | pending |
+| # | Video ID | Title | Why selected | Status | Fact yield | Notes |
+|---|---|---|---|---|---|---|
+| 1 | `qFM8NIDIRro` | Finished renovating an old apartment. Police visits, wall cracks, and other challenges! | Real case study, tests client-review-format value not yet spot-checked on this channel | **FULL extraction** | 12 | English title, confirmed Russian audio. Foreman-interview case-study format (not a client testimonial) — genuinely dense: real police-during-quiet-hours incident, structural-sway stop condition, no-container site logistics, wall-retention engineering sequence, screed-height compensation, low-ceiling wiring rule, riser rework by "жилищник" + drain-noise soundproofing kit, bathroom niche sightline design, magnetic tile access panel, two-tone tile scheme, balcony scope note. **No total cost/area stated — this case study carries no pricing data.** **Region: level 1** — "Олимпийский проспект" (a real Moscow street) named directly. Low promotional ratio. |
+| 2 | `IoQiGtso9Vk` | Complex renovations in a historic Arbat apartment. Results, tips, and challenges. | Real case study, historic building | **FULL extraction** | 8 | Second foreman-interview case study, historic pre-revolutionary building near Arbat. 14-container demolition waste volume, adjustable floor system chosen over screed by room load capacity, drywall ceiling over stretch due to structural beams, masonry inspection-hatch dimensions, historic cast-iron radiator preservation, client networking-equipment niche, wardrobe-behind-headboard layout, dark-tone paint coat-count + molding spray technique + skilled-painter differentiator. **No total cost/area stated.** **Region: level 1** — "центр Москвы исторически" named directly. Low promotional ratio. |
+| 3 | `rt9R26k6dEM` | КАК ВЫБРАТЬ ПЛИТКУ? ПЛИТКА ИЛИ КЕРАМОГРАНИТ? | Tile-vs-porcelain comparison technique | **FULL extraction** | 13 | Studio explainer, dense general/brand-agnostic tile-quality primer: ceramic-vs-porcelain material/durability difference, domestic-vs-imported market claim, format-size reference ladder, textured-tile fixture-fit risk, quality-factor taxonomy, surface-type placement rule, coloring-method durability rule, two buying-scam cautions. A closing case-study cost figure was shown on-screen but never spoken — not extractable from ASR. Region level 2 (channel branding only). Low promotional ratio. |
+| 4 | `66pn-nIOJkg` | КРАСКА, ОБОИ, ИЛИ ОБОИ ПОД ПОКРАСКУ? ЧТО ЛУЧШЕ И ЧТО ВЫБРАТЬ? | Paint-vs-wallpaper comparison technique | **FULL extraction — densest technique video this round** | 16 | Studio explainer, full three-way pros/cons comparison (paint vs. wallpaper vs. paintable wallpaper) — durability figures, cost-driver mechanisms, a building-settlement resilience mechanism, a named hybrid material with a repaint-cycle figure (ASR-uncertain exact number). Region level 2. Low promotional ratio. |
+| 5 | `3sRfRiQ8XfE` | Крутые инженерные коммуникации! Сколько это стоит? | Engineering/utilities cost benchmark | **FULL extraction — 3rd Petrishin-Stroi cost-benchmark case** | 10 | Real per-stage turnkey RUB figures converted via trailing-6-month rate: demolition ≈$4,800, walls ≈$1,800, plastering ≈$3,600, plumbing ≈$3,900, electrical ≈$4,800; arithmetic-summed total ≈$18,800 (self-computed, not source-stated). No floor area so no $/m². Also: three-way partition-material cost-tier ranking, mechanized-vs-hand-pulled plaster tradeoff. Region level 2. Medium promotional ratio. |
+| 6 | `PBkZQHkjciE` | Как СЭКОНОМИТЬ на РЕМОНТЕ?! Конкретные СОВЕТЫ и ХИТРОСТИ | Budget-saving tips | **FULL extraction — highest yield this round** | 18 | Extremely dense itemized Moscow-market labor-rate ladder across 8 work categories (design tiers, labor tiers, wall materials, plastering, electrical, plumbing, tile, baseboards/doors, ceilings, flooring), all converted to USD, plus a named screed-level-planning lifehack and a self-disclosed quality caution against the company's own cost-ranked material. **Region: level 1** — "в Москве" named directly for the electrical base rate. Low promotional ratio. |
+| 7 | `Z1IuJFudcPY` | TOP 10 CRITICAL DEMOLITION MISTAKES! | Second demolition-mistakes source, tests fit against new `Demolition.md` page | **FULL extraction, explicitly cross-checked against `Demolition.md`** | 10 | English title, confirmed Russian audio. Several items are same-channel restatements of `AcNu6CHE7Y4`'s existing content (scope document, dust protection, construction sink, neighbor notification) — correctly not double-counted. New: teach-back verification method, delicate-tape detail, glass-pitting mechanism, white-vs-green debris bags, temp-wiring hiring red flag, downstairs photo-documentation fraud defense, rush-hour debris timing, container-approval new-build-vs-secondary-market distinction, a distinct towel-warmer accident-share statistic, and a standout real 5-6-apartment flooding incident. **Region: level 1** — "Марино" and "шоссе Энтузиастов" (real Moscow locations) named directly in a personal story. Low promotional ratio. |
+| 8 | `F0ZHsu4k6JY` | ПРАВИЛА для маленькой квартиры. В ней есть ВСЕ | Small-apartment design/planning rules | **PARTIAL extraction — low-value pass** | 2 | Despite the "Rules"-framed title, this is almost entirely a client-satisfaction testimonial interview with no concrete technical/numeric substance (why the client picked this company, praise for named staff). Per the value-filter rule, only genuinely reusable content was extracted: a bathtub-vs-shower usage-frequency decision heuristic (35m² apartment) and a minor design-to-smeta turnaround note. Region level 2. **Promotional ratio: high.** |
 
-Status: **pending dispatch**.
+**Status: COMPLETE — all 8 videos fully fetched and processed (7 full extractions, 1 partial low-value pass), zero rate-limit issues.**
+
+**Round 4 yield**: 8 videos, 89 genuinely-new facts (12+8+13+16+10+18+10+2, excluding duplicate/corroborating-only outcomes), yield = 11.1 new facts/video — **125% of Round 3's 8.9 baseline**, the highest per-video yield of any round on this channel so far, well above the 1.0/video floor. No stop-and-ask trigger.
+
+### Case-study/client-review format finding — explicit, per this round's brief
+
+**This round's central format finding: "case study/client interview" is not one format on this channel — it splits sharply into two sub-formats with very different value.**
+
+- **Foreman/practitioner interview case studies** (videos 1-2, `qFM8NIDIRro` and `IoQiGtso9Vk`): dense, low-promotional, genuinely technical — a site foreman walks through real decisions (structural judgment calls, material choices, design compromises) with concrete, checkable detail. Both cleared **level-1 region** directly. **Neither carried a total project cost or floor-area figure**, however — despite being real "case studies," this sub-format did not deliver the price-comparability data (location + year + cost) this project's standing rule specifically wants; it delivered technique/decision substance instead. Fact yields (12, 8) were solid, in line with this round's other strong performers.
+- **Client-satisfaction testimonial interviews** (video 8, `F0ZHsu4k6JY`): despite a "Rules for a small apartment" title suggesting technique content, this was almost entirely consumer sentiment about *why the client chose this company* and *how happy they are* — the value-filter's explicit "pure consumer sentiment, no concrete technical/numeric substance" exclusion criterion applied almost in full. Fact yield collapsed to 2 (well below this round's 11.1 average, though this is an individual-video outcome, not a round-level trigger).
+
+**Recommendation for future rounds**: when this channel offers a case-study/interview-format video, check **who is being interviewed** before assuming substance — a foreman/practitioner interview (even a real-object walkthrough) reliably yields dense technique content but often skips pricing; a client-satisfaction interview reliably yields little beyond sentiment regardless of title framing. Both are worth a quick title+opening-line check before committing to full extraction, consistent with this project's standing value-filter guidance that title framing alone isn't a reliable predictor.
+
+### Region-check finding, per this round's explicit brief
+
+Region evidence was unusually strong this round — **4 of 8 videos cleared level 1 directly** (videos 1, 2, 6, 7 — two case-study interviews via named Moscow streets/districts, the budget-tips video via "в Москве" for the electrical rate, and the second demolition-mistakes video via "Марино"/"шоссе Энтузиастов" in a personal story), a notably higher level-1 rate than prior rounds on this channel (Round 1: 1/5, Round 2: 0/8, Round 3: 3/8). The remaining 4 videos (3, 4, 5, 8) stayed at level 2 (channel branding only, no city spoken). Consistent with every prior round's finding: this channel's region evidence varies video to video, not by a fixed channel-wide answer — worth re-checking every round.
+
+### Demolition.md cross-check finding, per this round's explicit brief
+
+Video 7 (`Z1IuJFudcPY`) was explicitly cross-checked against the `11_Budget_and_Planning/analysis/Demolition.md` page created in Round 3. Several items were confirmed same-channel restatements of existing content (written scope-of-work, dust protection, construction sink, neighbor notification) and correctly not double-counted. The remaining content was genuinely new — extending several existing sections (container-negotiation, towel-warmer risk) with new detail and adding several wholly new mechanisms (glass-pitting from grinder sparks, debris-bag material choice, downstairs-neighbor photo-documentation, a hiring red flag) plus a standout real flooding incident. This is a clean example of corroboration-with-extension, not pure duplication — the page grew substantially from this second source without inflating the fact count with restated content.
+
+### Language check
+
+Both English-titled videos this round (1: `qFM8NIDIRro`, 7: `Z1IuJFudcPY`) were individually verified via `youtube-transcript-api` fetch metadata to have Russian spoken audio (`language: ru`) — fetched and cited in Russian throughout, per this project's standing rule. Video 2 (`IoQiGtso9Vk`) also carries an English on-screen title and was likewise confirmed Russian-spoken. All other videos had Russian titles and Russian audio.
+
+### Rate-limit outcome
+
+**Zero rate-limit signatures encountered anywhere in this round.** All 8 videos fetched serialized one at a time with real spacing (achieved by interleaving each video's own full extraction/routing/CSV/archiving work between fetches, never an idle wait), consistent with Rounds 1-3's own clean results. This channel continues to show no distinct access risk beyond the general serialized-fetch discipline. RemProektMD's single-video rate-limit earlier in the session (the reason this round was dispatched on this channel instead) was not repeated here.
+
+## Progress Log
+
+- 2026-08-24 — **Round 4 complete.** All 8 videos fetched serialized one
+  at a time with real spacing (interleaved with each video's own full
+  extraction/routing/CSV/archiving work), zero rate-limit issues across
+  the entire round. 7 full extractions + 1 partial low-value pass. Yield
+  89 new facts / 8 videos = 11.1 facts/video — 125% of Round 3's 8.9
+  baseline, the highest per-video yield of any round on this channel to
+  date, well above the 1.0 floor — no stop-and-ask trigger. Region
+  checked explicitly per video: 4 of 8 cleared level 1 directly (a
+  notably higher rate than prior rounds), 4 stayed at level 2. **Central
+  finding this round**: case-study/client-review format splits sharply
+  into foreman-interview case studies (dense, technical, no pricing) vs.
+  client-satisfaction testimonials (thin, sentiment-only) — see the
+  dedicated finding section above. Video 7 was explicitly cross-checked
+  against Round 3's `Demolition.md` page — corroboration-with-extension
+  confirmed, several genuinely new mechanisms added without inflating
+  the fact count with restated content. Content routed to
+  `11_Budget_and_Planning/analysis/Demolition.md` (2 new sections),
+  `07_Bathroom/analysis/Tile_Selection_and_Layout.md`,
+  `07_Bathroom/analysis/Structure_and_Framing.md`,
+  `07_Bathroom/analysis/Planning_and_Layout.md`,
+  `12_Engineering_and_Systems/analysis/Rough_Electrical_Sequencing.md`,
+  `12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing.md`,
+  `13_Surfaces_and_Finishes/Flooring_Guide.md`,
+  `13_Surfaces_and_Finishes/Ceilings_Guide.md`,
+  `13_Surfaces_and_Finishes/Walls_and_Paint.md`,
+  `10_Balcony/Balcony_Index.md`, and `11_Budget_and_Planning/Budgeting_Guide.md`
+  (a 3rd Petrishin-Stroi cost-benchmark case in §4, plus a dense
+  itemized labor-rate ladder in §5 Cost-Saving Strategies). All price
+  figures normalized to USD via `tools/pricing/currency_converter.py`'s
+  trailing-6-month average anchored to each video's own confirmed
+  publish date. `tools/verify_batch.py` run against the round's changes;
+  all 8 new CSV rows independently re-verified via Python's `csv` module
+  to parse into the correct 15 columns each with `archived` status.
+  `batch_status_20260824_petrishin_round4.json` maintained throughout,
+  marked `complete`.

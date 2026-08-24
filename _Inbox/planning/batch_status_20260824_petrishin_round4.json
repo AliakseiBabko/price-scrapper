@@ -1,0 +1,31 @@
+{
+  "channel": "Petrishin-Stroi",
+  "round": 4,
+  "plan_file": "_Inbox/planning/petrishin_stroi_channel_plan_20260824.md",
+  "videos": {
+    "qFM8NIDIRro": "archived",
+    "IoQiGtso9Vk": "archived",
+    "rt9R26k6dEM": "archived",
+    "66pn-nIOJkg": "archived",
+    "3sRfRiQ8XfE": "archived",
+    "PBkZQHkjciE": "archived",
+    "Z1IuJFudcPY": "archived",
+    "F0ZHsu4k6JY": "archived"
+  },
+  "fact_yields": {
+    "qFM8NIDIRro": 12,
+    "IoQiGtso9Vk": 8,
+    "rt9R26k6dEM": 13,
+    "66pn-nIOJkg": 16,
+    "3sRfRiQ8XfE": 10,
+    "PBkZQHkjciE": 18,
+    "Z1IuJFudcPY": 10,
+    "F0ZHsu4k6JY": 2
+  },
+  "round_total_facts": 89,
+  "round_yield_per_video": 11.125,
+  "round3_baseline": 8.9,
+  "yield_vs_baseline_pct": 125,
+  "rate_limit_encountered": false,
+  "status": "complete"
+}

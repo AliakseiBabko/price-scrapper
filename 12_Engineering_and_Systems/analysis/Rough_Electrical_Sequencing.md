@@ -30,3 +30,5 @@ own stated experience is that furniture installers routinely show up
 front-loading this avoids the later rework. Independently corroborates the
 Zemskov/Sidorik "plan furniture before finalizing socket placement" rule
 above with a third, distinct practitioner. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q6GKMOJuaPc_petrishin_electrical_quality_checklist|Q6GKMOJuaPc]]]
+
+**⚠️ Low-ceiling wiring-layout rule (Петришин-Строй, added 2026-08-24, Round 4, Moscow level-1 case study)**: on a secondary-market apartment with limited ceiling height, keep only lighting circuits routed across the ceiling; run switch/socket cabling along the floor/walls instead. Stated mechanism: if all wiring (not just lighting) ran on the ceiling, cable crossovers would force a bigger ceiling recess/drop than lighting-only wiring needs — a concrete ceiling-height-preservation technique tied directly to a wiring-layout decision. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|qFM8NIDIRro]]]
