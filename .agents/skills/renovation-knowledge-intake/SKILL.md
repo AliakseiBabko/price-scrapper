@@ -293,6 +293,53 @@ misleading, not just imprecise:
 
 - Regulations knowledge store:
   `11_Budget_and_Planning\_supporting\knowledge\intermediate\renovation_regulations_belarus_knowledge_store.md`
+  (intake staging only — once a new qualifying fact lands here, also mirror it
+  into the dedicated wiki folder below per step 5a's routing pattern)
+
+### Regulations / Permits / Approvals now has its own wiki folder too (added 2026-08-24)
+
+`16_Legal_and_Regulations/` is a dedicated, strictly-Belarus-scoped wiki
+section (compact `Legal_and_Regulations_Guide.md` + layered `analysis/`
+pages: `Renovation_Permits_and_Approvals.md`, `Property_Registration.md`,
+`Handover_Acceptance_and_Defect_Reporting.md`) — the synthesized
+counterpart to the intermediate store above, same relationship as
+`Durable_Facts.md` has to a room/domain `analysis/` page. When a source's
+`Regulations / Permits / Approvals`-bucket content clears this store's
+level-1 Belarus-attribution bar, mirror it into the matching `analysis/`
+page under `16_Legal_and_Regulations/` the same session, not just into the
+intermediate store — this folder is a routine step 5a destination now, not
+a placeholder waiting for a future audit.
+
+**This folder's evidence bar is stricter than the rest of the project's own
+convention, not just a repeat of the store's bar above**: elsewhere in this
+project, a Russian-Federation source is explicitly usable as *secondary
+comparative reference* for pricing/technique (clearly labeled as such).
+**That allowance does not extend to `16_Legal_and_Regulations/` at all** —
+law, permitting bodies, and registration/warranty procedure are
+jurisdiction-specific; a Russian-sourced legal/regulatory claim is a
+different country's law, not just weaker evidence, and must never be
+written into this folder even with a hedge/caveat. If a source's
+regulatory content is Russian (or any non-Belarus) and doesn't independently
+qualify for the general store's own level-1 bar, it stays out of this
+folder entirely — route it to the general budgeting store's own
+Rules/Heuristics or Durable Facts instead, same as any other RU-sourced
+technique content, never into `16_Legal_and_Regulations/`.
+
+Property Registration and Handover/Acceptance/Defect-Reporting are
+currently empty placeholders — per explicit user direction, properly
+filling them out is a dedicated future task (reviewing actual Belarus
+legislation/official procedure), not something to backfill opportunistically
+from renovation-vlog transcripts the way the rest of this project's
+technique/pricing content is built. A video source can still contribute if
+it genuinely clears the level-1 bar, but don't treat incidental video
+mentions as sufficient coverage for this folder the way they are for other
+topics.
+
+Contractor-sourcing/vetting content (finding and evaluating renovation
+contractors/workers) is a budgeting/execution decision, not a legal one —
+route it to `11_Budget_and_Planning` as normal, never to
+`16_Legal_and_Regulations/`, even though a source may discuss it in the
+same breath as handover/registration topics.
 
 ### What counts as a case study
 
