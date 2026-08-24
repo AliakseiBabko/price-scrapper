@@ -108,8 +108,24 @@ something to squeeze into a housekeeping check between processing rounds.
   moving/reorganizing existing prose rather than re-deriving it, and update
   every inbound link that named the old single page.
 
+- **`12_Engineering_and_Systems/analysis/Waterproofing_and_Plastering.md`**
+  (flagged 2026-08-24, during the Pavel Sidorik intake's post-Round-4
+  housekeeping review): 338 lines and growing fast — this is itself already
+  a detail-level `analysis/` page (not a top-level Guide), but it has
+  accumulated at least 9 distinct sub-topics (floor waterproofing membrane
+  QC, brush-on/cementitious product selection, plaster substrate/crack
+  prevention, beacon/laser 90°-corner method, plastering-workflow tricks,
+  ceiling plaster without full mesh, bathroom-specific substrate prep,
+  rough-stage acceptance checklist, screed expansion joints/soundproofing) —
+  arguably dense enough to warrant its own further split into per-sub-topic
+  analysis pages under a compact `Waterproofing_and_Plastering` summary,
+  the same pattern applied one level up when a top-level Guide gets split.
+  **Not converted yet** — still accumulating new Pavel Sidorik plastering
+  episodes as of this flag, better to let it settle before deciding the
+  final page boundaries.
+
 **When adding a new item here**: note the line count, sub-topic count, and
-the date/context it was flagged, same as the entry above, so a future
+the date/context it was flagged, same as the entries above, so a future
 session doesn't have to re-derive whether it's still overdue.
 
 ## Tooling limitations (known, not urgent)
