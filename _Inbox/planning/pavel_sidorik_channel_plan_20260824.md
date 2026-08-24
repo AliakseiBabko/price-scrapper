@@ -117,7 +117,21 @@ Note: `nibMG4QkSWs` ("16 wall plaster mistakes") sits chronologically between #1
 
 **Round 4 yield**: 7 videos processed, 77 genuinely-new facts (10+11+14+12+12+11+7, excluding duplicate/corroborating-only content), yield = **11.0 new facts/video** — between Round 2 (9.29) and Round 3 (12.57), comfortably above the 1.0 floor and no >50% drop from Round 3 (a ~12.5% drop) — no stop-and-ask trigger.
 
-Note: videos 5-7 carry no visible episode number in the title but sit chronologically between #19 and #24 (`Cj2U_wVlG-I`, `N36scNqRwII`, `S4fOYedAruE` #24 come next) — treated as likely continuing the same series based on topical continuity (ventilation/false-walls/technique, all apartment-renovation-relevant), to be confirmed from each video's own content. `S4fOYedAruE` (#24) and the two remaining unlabeled videos between it and this round become Round 5.
+Note: videos 5-7 carry no visible episode number in the title but sit chronologically between #19 and #24 (`Cj2U_wVlG-I`, `N36scNqRwII`, `S4fOYedAruE` #24 come next) — **confirmed in Round 4 as genuine unlabeled continuations of the same series** (shared helper, brand loyalty, direct cross-references, strict upload-date sequencing).
+
+### Round 5 — New Building A-to-Z, episodes #20(unlabeled)–27 (7 videos)
+
+| # | Video ID | Title | Status |
+|---|---|---|---|
+| 1 | `Cj2U_wVlG-I` | Plumbing errors. Introductory node to the apartment. | pending |
+| 2 | `N36scNqRwII` | Installation of a water heater. Errors. | pending |
+| 3 | `S4fOYedAruE` | Do-it-yourself sewer installation. Errors and solutions. #24 | pending |
+| 4 | `-JlpzE6aHiU` | Electric or water heated towel rail? What to choose? Installation. #25 | pending |
+| 5 | `q4SSpq9jc3g` | Do-it-yourself installation of metal-plastic pipes. #26 | pending |
+| 6 | `mMr8Xnt95rE` | Simple idea. It has become much more convenient to work. | pending |
+| 7 | `kXGYTsBTKj8` | Self-leveling floor for lighthouses. Smooth and beautiful screed. #27 | pending |
+
+Note: video 6 (`mMr8Xnt95rE`) reads like a short standalone lifehack, not necessarily a series episode — value-filter it per SKILL.md's rule.
 
 Further rounds (New Building #16–42, then Khrushchevka #1–36, then technique-cluster rounds) will be planned round-by-round as processing proceeds, given the scale (317 videos remaining after this round) — not fully pre-planned in one pass.
 
