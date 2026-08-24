@@ -15,12 +15,15 @@ import json
 import os
 import re
 import sqlite3
-import sys
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
+import sys
+
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "tools"))
+from pricing.currency_converter import CurrencyConverter
 SOURCE_DIR = ROOT / "11_Budget_and_Planning" / "_supporting" / "knowledge" / "sources"
 STORE_DIR = ROOT / "11_Budget_and_Planning" / "_supporting" / "knowledge" / "intermediate" / "store"
 DEFAULT_DB = ROOT / "data" / "knowledge_base.db"
@@ -127,6 +130,49 @@ def normalized(value: str) -> float | None:
         return None
 
 
+def source_period(front: dict[str, str], year: int | None) -> tuple[str | None, str | None]:
+    """Return (period, method) following the project's normalization policy."""
+    raw_date = front.get("upload_date", "")
+    match = re.search(r"(20\d{2}-\d{2}-\d{2})", raw_date)
+    if match:
+        return match.group(1), "trailing_6_month_arithmetic_mean"
+    return (str(year), "calendar_year_arithmetic_mean") if year else (None, None)
+
+
+def convert_usd(
+    value: str,
+    currency: str | None,
+    front: dict[str, str],
+    year: int | None,
+    converter: CurrencyConverter,
+) -> tuple[str | None, str | None, str]:
+    """Convert a scalar or range, returning (USD text, basis, status)."""
+    if currency == "USD":
+        return (value, "source_usd", "source_usd")
+    if currency not in {"RUB", "BYN"}:
+        return (None, None, "not_convertible_currency")
+    period, method = source_period(front, year)
+    if not period:
+        return (None, None, "needs_source_date_or_year")
+    amounts = [normalized(item) for item in re.findall(NUMBER, value)]
+    if not amounts or any(item is None for item in amounts):
+        return (None, f"{method}:{period}", "ambiguous_numeric_value")
+    pair = f"USD/{currency}"
+    converted: list[float] = []
+    try:
+        for amount in amounts:
+            if method == "trailing_6_month_arithmetic_mean":
+                result = converter.lookup_trailing(pair, 6, period, amount=amount)
+            else:
+                result = converter.lookup_rate(pair, period=period, amount=amount)
+            converted.append(float(result.converted_usd))
+    except (FileNotFoundError, ValueError, sqlite3.Error) as exc:
+        return (None, f"{method}:{period}", f"conversion_unavailable:{type(exc).__name__}")
+    usd = "–".join(f"{item:.2f}" for item in converted)
+    basis = f"{pair};{method};period={period}"
+    return (usd, basis, "converted")
+
+
 def confidence(line: str, front: dict[str, str]) -> str:
     for value in ("uncertain", "unverified", "inferred", "single-account", "confirmed"):
         if value in line.lower():
@@ -138,6 +184,7 @@ def extract() -> tuple[list[dict], dict]:
     rows: list[dict] = []
     warnings: list[str] = []
     files = source_files()
+    converter = CurrencyConverter()
     for path in files:
         text = path.read_text(encoding="utf-8")
         digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
@@ -148,7 +195,6 @@ def extract() -> tuple[list[dict], dict]:
             for match in matches:
                 value = match.group("value")
                 unit = match.group("unit")
-                token = match.group(0)
                 anchor_match = re.search(r"^(#{1,6})\s+(.+)$", line)
                 anchor = anchor_match.group(2).strip() if anchor_match else None
                 source_span = f"{path.relative_to(ROOT).as_posix()}:{line_no}:{match.start()+1}-{match.end()}"
@@ -160,7 +206,10 @@ def extract() -> tuple[list[dict], dict]:
                 year = context_value(front, line, "year") or front.get("upload_date", "")[:4] or None
                 reg = region(front, line)
                 cur = currency_for(unit, front)
-                conversion_status = "not_applicable" if cur == "USD" else ("needs_region_or_year" if not reg or not year else "source_currency_only")
+                year_int = int(year) if year and year.isdigit() else None
+                usd_equivalent, conversion_basis, conversion_status = convert_usd(
+                    value, cur, front, year_int, converter
+                )
                 rows.append({
                     "claim_id": claim_id,
                     "claim_group_id": hashlib.sha256((source_key + "|" + str(line_no)).encode()).hexdigest(),
@@ -179,20 +228,22 @@ def extract() -> tuple[list[dict], dict]:
                     "region_confidence": region_confidence(reg),
                     "year": int(year) if year and year.isdigit() else None,
                     "delivery_model": front.get("delivery_model") or front.get("delivery_model_class"),
-                    "usd_equivalent": None,
-                    "conversion_basis": None,
+                    "usd_equivalent": usd_equivalent,
+                    "conversion_basis": conversion_basis,
                     "conversion_status": conversion_status,
                     "confidence_tag": confidence(line, front),
                     "citation_token": sid,
-                    "extractor_version": "numeric-claims-v1",
+                    "extractor_version": "numeric-claims-v2",
                     "extracted_at": datetime.now(timezone.utc).isoformat(),
                 })
     metadata = {
         "input_file_count": len(files),
         "claim_count": len(rows),
+        "usd_equivalent_count": sum(row["usd_equivalent"] is not None for row in rows),
+        "local_currency_claim_count": sum(row["currency"] in {"RUB", "BYN"} for row in rows),
         "warning_count": len(warnings),
         "warnings": warnings,
-        "extractor_version": "numeric-claims-v1",
+        "extractor_version": "numeric-claims-v2",
     }
     return rows, metadata
 
@@ -224,7 +275,7 @@ def create_db(path: Path, rows: list[dict], metadata: dict) -> None:
                     region_confidence TEXT NOT NULL,
                     year INTEGER,
                     delivery_model TEXT,
-                    usd_equivalent REAL,
+                    usd_equivalent TEXT,
                     conversion_basis TEXT,
                     conversion_status TEXT NOT NULL,
                     confidence_tag TEXT NOT NULL,
@@ -269,13 +320,15 @@ def main() -> int:
     parser.add_argument("--text", help="case-insensitive substring filter over the claim text")
     parser.add_argument("--priced-only", action="store_true", help="exclude measurements without a currency")
     parser.add_argument("--region-confidence", choices=("exact", "inferred", "missing", "any"), default="exact", help="default exact; use inferred/any explicitly")
+    parser.add_argument("--converted-only", action="store_true", help="return only claims with a USD equivalent")
+    parser.add_argument("--currency", help="exact source currency filter, e.g. RUB or BYN")
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
     rows, metadata = extract()
     create_db(args.database, rows, metadata)
     with sqlite3.connect(args.database) as conn:
         conn.row_factory = sqlite3.Row
-        query = "SELECT source_id, source_path, raw_value, unit, currency, region, region_confidence, year, claim_id FROM numeric_claims WHERE 1=1"
+        query = "SELECT source_id, source_path, raw_value, unit, currency, region, region_confidence, year, usd_equivalent, conversion_status, conversion_basis, claim_id FROM numeric_claims WHERE 1=1"
         params: list[object] = []
         if args.region:
             query += " AND lower(region) LIKE lower(?)"
@@ -297,6 +350,11 @@ def main() -> int:
         if args.region_confidence != "any":
             query += " AND region_confidence = ?"
             params.append(args.region_confidence)
+        if args.converted_only:
+            query += " AND usd_equivalent IS NOT NULL"
+        if args.currency:
+            query += " AND currency = ?"
+            params.append(args.currency.upper())
         query += " ORDER BY year, source_path, source_span"
         result = [dict(row) for row in conn.execute(query, params).fetchall()]
     output = {"database": args.database.relative_to(ROOT).as_posix() if args.database.is_relative_to(ROOT) else str(args.database), "metadata": metadata, "query_result_count": len(result), "query_results": result}
