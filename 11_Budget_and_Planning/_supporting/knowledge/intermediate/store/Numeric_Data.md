@@ -219,3 +219,12 @@ Evidence-level key used below: **(1) transcript text** → **(2) YouTube metadat
 - **AAC/foam-concrete block price, real comparison (Belarus level 1, currency named directly)**: standard block 2 BYN retail / 1 BYN wholesale (≈$0.81 / ≈$0.40); factory-made 1.2m door-lintel unit 30 BYN (≈$12, bucket-rounded from $12.13). A DIY lintel glued from 2-2.5 standard blocks costs roughly 7-8× less than the factory unit. Trailing-6-month BYN/USD average before 2020-10-10: 2.4734 BYN/USD. Block dimensions: 625×250×100mm, ~10kg. Year: 2020. [source: yt_HqmQaZ1y1UM]
 - **Real price, block-surface-correction sandpaper**: ≈$1 for a 0.5m strip of coarse (grit 30) sandpaper (stated directly in USD, no conversion needed) — the cheapest fix for a proud/uneven block edge, cheaper and more effective than a dedicated block plane. [source: yt_HqmQaZ1y1UM]
 
+### Kids Room — Custom Carpentry Estimate (added 2026-08-25, Разрули Мой Хаус/Sergey Tregubov)
+
+- **Real 12.5m² mixed-sex kids' room, custom carpentry/joinery estimate
+  (built-in loft bed + storage structures) — the main cost line for this
+  project**: ≈300,000-400,000 RUB (≈$4,300-$5,700, trailing-6-month rate
+  to 2023-04-25). Rough designer estimate, not an itemized quote — no
+  client budget was given up front. Region unstated, RUB inferred from
+  context. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
+

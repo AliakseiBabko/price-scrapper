@@ -16,3 +16,14 @@ Editorial history — not reader content.
   brand-new topic with several distinct sub-decisions starts layered from
   the first source, not just once it grows unwieldy). Cross-linked from
   `01_Entrance/Entrance_Index.md` and `02_Hallway/Hallway_Index.md`.
+- **2026-08-25 (later same day)**: added `YT_C-db6yom-IM`, dispatched as
+  an "Anuta Vlady channel revisit" but corrected on inspection — checked
+  directly via `yt-dlp` metadata, the channel is actually "Студия
+  архитектурного дизайна ALLA KROL" (Alla Krol), a different,
+  previously-unprocessed channel. Treated as a fresh, unvetted source
+  rather than a pre-confirmed one. Partial extraction (9 new facts):
+  wardrobe zoning/sizing formula, trumeau-mirror technique, robot-vacuum
+  and cat-litter-tray cutouts, doormat-at-design-stage rule (all routed
+  to `Storage.md`), plus a narrow-corridor three-segment visual-division
+  technique (routed to `Layout_and_Zoning.md`). Now 9 accumulated
+  sources, 6 independent channels/practitioners.

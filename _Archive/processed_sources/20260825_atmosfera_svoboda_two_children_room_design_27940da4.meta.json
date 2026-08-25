@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=lbaZ__wbLWo",
+  "video_id": "lbaZ__wbLWo",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T07:42:04.551489+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "27940da48c44bd5d9fdb547c75f4bcd50b756746aca3acf7badea1b6a25cc08c",
+  "attempts_before_success": []
+}

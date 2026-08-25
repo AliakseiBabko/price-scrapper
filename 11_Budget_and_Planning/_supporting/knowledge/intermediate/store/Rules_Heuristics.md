@@ -1111,4 +1111,68 @@ bar):
   wood slats or strung rope/cord behind it; build a divider-wardrobe to
   full ceiling height (not partial) since it's freestanding — a low unit
   looks incomplete, usually requiring a custom order. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]]
+- **Two-sided mirrored static partition**: a static partition covering
+  ~2/3 of a room's width (leaving a walk-through gap) with a mirror on
+  *both* faces — one enlarges the kitchen/utility-side zone visually, the
+  other the room-side zone, compounding to make the whole apartment read
+  as roughly double its size. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DO67YHV5uAU_gusev_two_rooms_from_one_partitions|YT_DO67YHV5uAU]]]
+- **Arched double swing-leaf partition with curtain layering**: fixed
+  side sections plus a center pair of hinged leaves opening like a formal
+  double-door; adding a curtain rod above the opening lets the opening
+  be curtained off for full closure/light-blocking on top of the leaves.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DO67YHV5uAU_gusev_two_rooms_from_one_partitions|YT_DO67YHV5uAU]]]
+- **"Book"/rotary-fold partition door**: instead of a single swinging
+  leaf that needs a large floor-space radius to open (blocked by nearby
+  furniture), a book-fold door folds in half into the wall opening,
+  needing far less swing clearance; can use up to 3 hinged leaves per
+  side (small accordion) for a wider opening while still folding flat —
+  a small-apartment space-saving alternative to a standard hinged
+  partition door. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DO67YHV5uAU_gusev_two_rooms_from_one_partitions|YT_DO67YHV5uAU]]]
+- **Windowless habitable-room registration caution (code-adjacent, region
+  unstated)**: a room with no natural light source generally cannot be
+  officially registered as a "жилая комната" (habitable/living room) per
+  applicable building norms — relevant when partitioning off a windowless
+  carve-out as a bedroom: an *opaque* partition on that carve-out's only
+  borrowed-light path would create exactly this problem, while a glass/
+  transparent partition avoids it by letting light through. Region
+  unstated at level 1 (not routed to `16_Legal_and_Regulations/`).
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mrnTQL0eyBc_studio57_glass_partitions_for_against|YT_mrnTQL0eyBc]]]
+
+### Kids Room (new taxonomy bucket, opened 2026-08-25 — Olga Kachanova channel, 1st source, no dedicated page yet)
+
+Real 2025 Moscow household (Elena Boltinova, ЦАО — level-1 region
+confirmed), a two-window apartment forcing a combined parent-child
+bedroom:
+
+- **Combined parent-child bedroom as a forced compromise** when an
+  apartment has too few windows to give a child their own lit room —
+  the alternatives considered and rejected were a windowless walk-in
+  closet or moving entirely; directly relevant context (not a template
+  to copy) for any household weighing a temporary shared-room phase.
+- **Canopy/baldachin as a soft zoning divider** between an adult bed and
+  a child's sleeping nook inside one combined room — ordered from a
+  marketplace specifically for fabric-quality/length options a
+  mass-market retailer didn't offer.
+- **Soft (padded) bed-side bumpers** where a small child regularly
+  crosses into the parents' bed at night, instead of a hard bed-frame
+  edge — avoids bumps/bruises; a soft ledge beside the bed can double as
+  incidental (phone/item) storage, removing the need for a separate
+  nightstand in a tight room.
+- **Low, child-height clothing storage** kept in a child's own reach so
+  she can dress herself independently — a small dedicated chest
+  separate from the adults' storage in the same room.
+- **Bright/saturated children's items (toys, costumes) visually clash
+  with a neutral whole-apartment palette** — mitigation: keep them
+  genuinely accessible to the child but inside a closed cabinet/drawer
+  rather than left out, so self-service and visual calm aren't traded
+  off against each other.
+- **Photo-wall placed opposite the bed, at lying-down eye level**,
+  specifically so it's the first thing seen on waking — reported as
+  noticeably meaningful to the household's own child, who comments on
+  it most mornings. Contrast: a full-length **mirror should not be
+  placed visible from the bed** (uncomfortable to see one's own
+  reflection while sleeping) — the photo-wall works precisely because
+  it isn't reflective.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1amhehTMxcg_kachanova_ideal_2room_family_child|YT_1amhehTMxcg]]]
 

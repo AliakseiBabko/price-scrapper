@@ -68,6 +68,58 @@ rather than treating either as settled.
   space at roughly arm's-length height; furniture below that line doesn't
   register as encroaching on it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
 
+## Wardrobe Zoning and Sizing (Alla Krol)
+
+A design-studio owner (Alla Krol, self-introduced by name — note: this
+source was originally dispatched as "Anuta Vlady" but is a different
+channel, checked directly via metadata), building wardrobe systems from a
+household's actual composition and inventory rather than from available
+wall space alone:
+
+- **Size a wardrobe's zoning from household composition** (couple + N
+  children, or childless) before deciding drawer/rod/shelf counts — treat
+  it like assembling a kit to the specific household's needs, not filling
+  a fixed box.
+- **Kids get the first, lowest-height zone right at the entry**, with a
+  low hanging rod for children's clothing under the adults' rod, so the
+  whole family splits and hangs up on entry rather than tracking items
+  further into the home.
+- **Reserve real guest-outerwear space inside the family's own first
+  section at design stage** — a token two-hook allocation gets absorbed
+  by the household's own overflow once occupied; plan an explicit slot.
+- **Pull-out shoe platforms inside the wardrobe's first section** contain
+  daily-worn shoes and let them dry/air out without leaving the corridor
+  floor cluttered — stated as more practical (if less visually striking)
+  than a below-bench door gap left 5cm off the floor.
+- **Storage-drawer sizing formula**: at minimum **4 pull-out drawers per
+  person**, each **no taller than 150mm** (roughly 1-2 stacked items) for
+  small-accessory order (hats, gloves, etc.) — a floor, not a fixed cap;
+  split rod/shelf counts by how many long items (coats, winter wear) the
+  household actually owns, and separate sections by child vs. adult and
+  by gender rather than one shared section.
+- **Design-process critique**: many wardrobes get sized backward from
+  "how much wall space is free" rather than forward from a real inventory
+  of what needs a home — this corroborates (with a concrete numeric
+  formula added) the storage-sizing-against-inventory principle already
+  recorded above from Olga Kachanova and Anuta Vlady's sources.
+- **Trumeau-mirror technique**: when a wardrobe's opened door leaves meet
+  at an angle, mount mirrors on the leaves so they flank a straight
+  mirror at an angle — the classic "trumeau" effect, letting someone see
+  an outfit from multiple angles without a separate full-length mirror.
+- **Hidden robot-vacuum charging dock**: cut an opening in the wardrobe's
+  base, behind a door panel, so a robot vacuum can dock/charge without
+  sitting exposed in the entryway.
+- **Flush cat-litter-tray wall cutout ("лаз")**: a wall opening finished
+  flush in the same material/color as the wall, routing a litter tray
+  into an adjoining WC or utility room without it standing out visually
+  in the entry/corridor.
+- **Plan the entry doormat at the design stage, not after move-in** — a
+  styled, photographed-well entry commonly gets undermined by a
+  mismatched doormat added post-occupancy; choose/size it as part of the
+  original plan instead.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C-db6yom-IM_alla_krol_entryway_wardrobe_no_clutter|YT_C-db6yom-IM]]]
+
 ## Security / Smart-Home (Kruglov)
 
 - A video door intercom or peephole camera; a door-open sensor integrated

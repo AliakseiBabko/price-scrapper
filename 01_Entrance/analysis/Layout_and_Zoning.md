@@ -95,6 +95,17 @@ specifically:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
 
+## Narrow-Corridor Segmentation (Alla Krol)
+
+Since a corridor's walls usually can't be physically moved, enter through
+the widest available zone and widen it visually (mirrors, light tones);
+then divide a long corridor into a **minimum of three visual segments**
+so each reads closer to a square proportion rather than one uninterrupted
+tunnel — a mirrored "narrow point" segment can bridge two wider segments.
+This is a coarser-grained companion technique to Anuta Vlady's own
+proportion-control rules above (color-blocking, flooring direction), not
+a contradiction of them. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C-db6yom-IM_alla_krol_entryway_wardrobe_no_clutter|YT_C-db6yom-IM]]]
+
 ## Zone-Divider Alternative to a Hard Wall
 
 An open bookshelf used as a soft zone divider between an open entry and a

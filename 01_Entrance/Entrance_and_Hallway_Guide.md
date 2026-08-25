@@ -15,23 +15,26 @@ placeholders) — those pages link here for sourced reasoning rather than
 duplicating it.
 
 > [!NOTE]
-> **Corroboration note.** Eight sources so far, from **five independent
+> **Corroboration note.** Nine sources so far, from **six independent
 > channels/practitioners** (unlike several other pages in this vault built
 > from one repeating channel): INMYROOM TV (a furniture-marketplace media
 > channel, three room-tour-compilation videos covering 17 different
 > households in total), Anuta Vlady (an individual practicing designer),
 > ИНТЕРЬЕР НАЛИЦО / "Interior Nalitso" (an interview-format channel, one
 > real replanning case), Olga Kachanova (an interview-format channel, one
-> real case), and Konstantin Kruglov/Ontario (a company channel, one
-> direct rules video, added 2026-08-25 just before this batch). Most
-> individual claims below are still `single-account` (one household's or
-> one practitioner's own view) — genuine independent agreement is called
-> out explicitly where it occurs (e.g. the heated-floor recommendation,
-> repeated by unrelated households), and genuine disagreement is likewise
-> flagged rather than silently resolved. No source in this batch names a
-> specific city/region at level 1 with the sole exception of Olga
-> Kachanova's source (West Moscow, 2011-built building) — treat every
-> other fact here as region-unresolved.
+> real case), Konstantin Kruglov/Ontario (a company channel, one direct
+> rules video), and Alla Krol (a design-studio owner's own channel, one
+> wardrobe/entryway technique video — added 2026-08-25, originally
+> dispatched as a second Anuta Vlady video but corrected to this distinct
+> channel on inspection). Most individual claims below are still
+> `single-account` (one household's or one practitioner's own view) —
+> genuine independent agreement is called out explicitly where it occurs
+> (e.g. the heated-floor recommendation, repeated by unrelated
+> households), and genuine disagreement is likewise flagged rather than
+> silently resolved. No source in this batch names a specific city/region
+> at level 1 with the sole exception of Olga Kachanova's source (West
+> Moscow, 2011-built building) — treat every other fact here as
+> region-unresolved.
 
 ## Layout & Zoning
 

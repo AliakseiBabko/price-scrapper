@@ -1,5 +1,7 @@
 # 👦👧 Kids Room Planning
 
+> See [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]] for sourced age-staged planning, zoning/partition methods, materials/furniture, and lighting reasoning gathered from multiple independent channels — this page stays this project's own floor-plan worksheet and household plan.
+
 * **Floor Area**: `15.28 m²`
 * **Ceiling Height**: `2.55 m`
 * **Est. Dimensions**: `2.91 m` x `5.25 m`

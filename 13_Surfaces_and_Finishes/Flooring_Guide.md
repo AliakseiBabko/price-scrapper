@@ -581,3 +581,15 @@ just asserting it.
   object's execution was praised as an exception (seamless transitions),
   but the underlying risk is stated as common practice generally.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_l4bXbwfOlrU_petrishin_vinogradny_ep7_plumbing|YT_l4bXbwfOlrU]]]
+
+## French Herringbone Pattern — Real Cost Premium and QC Standard (Olga Kachanova channel, added 2026-08-25)
+
+Real 2025 Moscow household case, RUB: **French herringbone ("французская
+ёлка") parquet installation costs ~15% more than standard "deck"/
+plank-run installation** for the same engineered-wood material —
+attributed specifically to installation labor complexity, not the wood
+itself. This household's installer required subfloor/screed flatness
+within **2mm** before accepting the job, and needed several re-grinding
+passes to meet that standard — worth budgeting installer callback/QC
+time for a herringbone floor specifically, beyond the direct material/
+labor price premium. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1amhehTMxcg_kachanova_ideal_2room_family_child|YT_1amhehTMxcg]]]

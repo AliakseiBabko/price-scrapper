@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=C-db6yom-IM",
+  "video_id": "C-db6yom-IM",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T07:25:21.854342+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "3a883b4f8f3066821ec92a41840209a66975e970fc20eec83642fe3d039bad4a",
+  "attempts_before_success": []
+}

@@ -5,9 +5,15 @@ How a space is actually lived in, day to day: color and material choices, how fu
 > [!NOTE]
 > **This folder vs. `00_Master/Design_Concept.md` and `00_Master/Family_Requirements.md`.** Those two files are *this project's own* specific, personal decisions — this apartment's chosen palette, this family's actual daily routines and stated preferences — filled in from the user directly, not synthesized from outside sources. **This folder is the general body of design/ergonomics knowledge and technique gathered from processed sources** (channels, practitioners, case studies) — the same relationship `11_Budget_and_Planning` has to this project's own budget, or `12_Engineering_and_Systems` has to this project's own MEP choices. Reading this folder should inform what eventually goes into `Design_Concept.md` and `Family_Requirements.md`, but this wrapper/pipeline never writes to those two files directly (an existing guardrail, unchanged) — a human decision still connects "here's what practitioners recommend" to "here's what we're actually doing."
 
-## Current state: early, two sources
+## Current state
 
-As of 2026-08-24 this folder has two processed sources, migrated from the general budgeting store's "Design Concept" taxonomy bucket (where this content had been accumulating with no dedicated page — see that store's own Change Log). Real content exists on family-scenario-driven layout decisions and on decor/finish selection technique; color-theory, functional-zoning-as-its-own-discipline, and cross-room-coherence sections below are thin or placeholder pending more sources — there are, per the user's own observation, many other channels with dedicated design content not yet processed into this vault.
+As of 2026-08-25 this folder has real content on family-scenario-driven
+layout decisions, decor/finish selection technique, and functional
+zoning/furniture arrangement (including a cross-cutting Room-Zoning
+Partition Methods reference). Color-theory and cross-room-coherence
+sections below remain thin or placeholder pending more sources — there
+are, per the user's own observation, many other channels with dedicated
+design content not yet processed into this vault.
 
 ## Family-Scenario-Driven Design Decisions
 
@@ -29,9 +35,20 @@ Practical installation-adjacent decor guidance: slat/rail (рейки) wall spac
 
 ## Functional Zoning & Furniture Arrangement (Ergonomics)
 
-*No dedicated source yet as its own topic* — related content currently lives split across room-specific pages (e.g. traffic-flow/clearance rules already captured in various `12_Engineering_and_Systems` and room `analysis/` pages) rather than synthesized here as a general ergonomics discipline. Worth building out once enough general (not room-specific) zoning/ergonomics sources are processed — cross-link from here rather than duplicating room-specific clearance figures.
+Room-selection cautions and space-saving placement techniques from real
+apartment walkthroughs (two exterior walls with windows eating usable
+furniture-wall length; entry-to-kitchen-living sightline exposure;
+laundry-in-hallway-niche placement) plus a **cross-cutting Room-Zoning
+Partition Methods reference** (added 2026-08-25, crossing this
+sub-topic's own 3+-source threshold): ten ranked partition mechanisms
+from slat/curtain/shelving through sliding-glass, rope, milled-MDF,
+screen, permanent-wall, and furniture-as-divider, plus three further
+mechanisms (two-sided mirrored static partition, arched double-leaf +
+curtain, book/rotary-fold door) and a windowless-room registration
+caution. Already cross-linked from `01_Entrance/analysis/Layout_and_Zoning.md`
+and `05_Kids_Room/analysis/Zoning_and_Partition_Methods.md`.
 
-→ **[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Full detail]]** (placeholder)
+→ **[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Full detail]]**
 
 ## Whole-Apartment Design Coherence
 

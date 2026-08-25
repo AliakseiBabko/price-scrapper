@@ -67,7 +67,7 @@ Zemstandart/Alexey Zemskov says: **don't cut cost on hardware even on a budget d
 
 ## Cost & Buying Guidance
 
-Beyond the individual pricing figures on each page above: **price out a concealed door's full itemized cost (wall prep + frame/hardware + install + shadow-gap baseboard) before committing at the design stage** — the 2-3× multiplier compounds across a whole apartment into "hundreds of thousands of RUB" a design render typically doesn't disclose up front.
+Beyond the individual pricing figures on each page above: **price out a concealed door's full itemized cost (wall prep + frame/hardware + install + shadow-gap baseboard) before committing at the design stage** — the 2-3× multiplier compounds across a whole apartment into "hundreds of thousands of RUB" a design render typically doesn't disclose up front. A cheaper alternative for a colored-wall room: **color-blocking ordinary laminated doors to the wall color** avoids the far larger cost of two-tone-painted solid-wood doors (a real 2025 Moscow case ran ~180,000 RUB color-blocked vs. an estimated ~500,000 RUB for the solid-wood two-tone alternative, same scope).
 
 → **[[13_Surfaces_and_Finishes/analysis/Doors_Trim_Cost_and_Buying|Full detail]]** (common mistakes checklist, full pricing tables by mount type and material tier)
 
