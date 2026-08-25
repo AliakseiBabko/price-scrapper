@@ -8,9 +8,9 @@ Part of [[09_Laundry_Room/Laundry_Guide|Laundry Guide]]. Editorial history — n
   `analysis/` pages), per this folder being explicitly targeted as this
   project's thinnest room folder and this batch alone crossing the
   3+-source threshold. Processed 6 new YouTube sources (see
-  [[09_Laundry_Room/analysis/Source_Notes|Source Notes]]), 62 new facts
-  total across them (10+16+19+8+7+14 — the earlier per-source fact_yield
-  fields). Split into
+  [[09_Laundry_Room/analysis/Source_Notes|Source Notes]]), 74 new facts
+  total across them (10+16+19+8+7+14, per each source note's own
+  `fact_yield` field). Split into
   [[09_Laundry_Room/analysis/Essential_Components_and_Layout|Essential Components & Layout]],
   [[09_Laundry_Room/analysis/Placement_Comparison_by_Room_Type|Placement Comparison by Room Type]],
   and [[09_Laundry_Room/analysis/Common_Mistakes|Common Mistakes]] by
