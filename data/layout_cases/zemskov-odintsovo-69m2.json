@@ -1,6 +1,7 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "case_id": "zemskov-odintsovo-69m2",
+  "case_kind": "single_apartment",
   "epistemic_status": "practitioner_opinion",
   "provenance": {
     "source_type": "youtube",
@@ -11,7 +12,8 @@
     "author_channel": "https://www.youtube.com/channel/UCEVywLKPJcyzqcWMswzooug",
     "language": "ru",
     "region": "moscow_moscow_region",
-    "frames_dir": "_Inbox/frames/20260825_mhE_5qlJ0KU"
+    "frames_dir": "_Inbox/frames/20260825_mhE_5qlJ0KU",
+    "dimension_policy": "dimensioned"
   },
   "apartment": {
     "area_total_m2": 69,

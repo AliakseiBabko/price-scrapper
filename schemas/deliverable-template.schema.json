@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://price-scrapper.local/schemas/deliverable-template.schema.json",
+  "title": "Renovation deliverable template",
+  "description": "The sheet list of a real, delivered document set, observed in an album a named practitioner published - plus, per sheet, what this repo's own tooling would need in order to produce the equivalent. The target that the wiki -> layout -> CAD pipeline is aiming at.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "template_id", "name", "provenance", "sheets"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.1.0" },
+    "template_id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string" },
+    "tier": {
+      "enum": ["planning_project", "design_project", "working_drawings", "other"],
+      "description": "Product tier as the practitioner markets it. planning_project deliberately omits visualisation and schedules."
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["author", "source_file"],
+      "properties": {
+        "author": { "type": "string" },
+        "source_file": { "type": "string" },
+        "source_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "pages_dir": { "type": "string" },
+        "page_count": { "type": "integer" },
+        "project_name": { "type": "string" },
+        "year": { "type": "integer" },
+        "sheet_format": { "type": "string", "description": "e.g. A3 landscape" },
+        "scale": { "type": "string", "description": "e.g. 1:50, or 'scale bar only'" },
+        "case_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "excluded_from_scope": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "What this tier deliberately leaves out, in the practitioner's own terms - the difference between tiers is mostly this list."
+    },
+    "sheets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["number", "title_ru"],
+        "properties": {
+          "number": { "type": "string", "description": "Sheet number as printed, e.g. '4' or '14.2'." },
+          "pdf_page": { "type": "integer" },
+          "title_ru": { "type": "string" },
+          "title_en": { "type": "string" },
+          "purpose": { "type": "string", "description": "What a builder actually uses this sheet for." },
+          "consumes": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "What data the sheet needs - e.g. 'measured plan', 'furniture layout', 'circuit assignment'."
+          },
+          "producible_from": {
+            "enum": ["ifc_model", "ifc_model_plus_schedule", "manual_decision", "not_yet_modelled"],
+            "description": "Honest statement of whether this repo could generate the sheet today from data it holds."
+          },
+          "our_tooling": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Repo-relative scripts that would generate or contribute to it."
+          },
+          "gap": { "type": "string", "description": "What is missing before we could produce this sheet." }
+        }
+      }
+    }
+  }
+}

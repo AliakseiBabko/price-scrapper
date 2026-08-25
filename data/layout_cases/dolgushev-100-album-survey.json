@@ -1,0 +1,680 @@
+{
+  "schema_version": "0.2.0",
+  "case_id": "dolgushev-100-album-survey",
+  "case_kind": "survey",
+  "epistemic_status": "practitioner_opinion",
+  "provenance": {
+    "source_type": "youtube",
+    "url": "https://www.youtube.com/watch?v=dQq6CxBC7VI",
+    "video_id": "dQq6CxBC7VI",
+    "author": "Sergey Dolgushev (Сергей Долгушев, ARCHIDOLGUSHEV)",
+    "author_channel": "https://www.youtube.com/@SergeyDolgushev",
+    "language": "ru",
+    "region": "moscow_moscow_region",
+    "frames_dir": "_Inbox/frames/20260825_dQq6CxBC7VI_scenes",
+    "dimension_policy": "scale_bar_only",
+    "caveats": [
+      "Автор сознательно не ставит размеры на бесплатных схемах: 'как только на схемах появятся размеры, за них придётся отвечать' - он работает по обмерам, присланным клиентом, и не берёт ответственность за чужие замеры. На всех планах есть размерная линейка, планы выполнены в масштабе - габарит можно снять самостоятельно, но ни одно число отсюда нельзя считать размером.",
+      "Один вариант на квартиру показан из минимум двух выполненных - это авторский выбор 'наиболее удачного', а не единственное решение.",
+      "Привязка кадр->страница выполнена автоматически (tools/layout/match_frames_to_pages.py, score 0,80-0,96) и сверена по порядку следования; текст комментария может опережать или отставать от смены кадра на одно предложение."
+    ],
+    "companion_documents": [
+      {
+        "id": "album-100",
+        "source_file": "00_Master/DQLaOE_A-NA_альбом_100_кв.pdf",
+        "source_sha256": "f68899d124c17afeaab9c5e8b32621b5ea607256e141f2f9c4018607403103a3",
+        "pages_dir": "_Inbox/pdf_pages/DQLaOE_A_NA_100_f68899d1",
+        "page_count": 104,
+        "role": "catalogue"
+      },
+      {
+        "id": "ushakov-album",
+        "source_file": "00_Master/dQq6CxBC7VI_albom_pr.pdf",
+        "source_sha256": "ba0ff5f531259bc92edc0dd0274b1f9490441f76c092787ae7ba87399cf547a3",
+        "pages_dir": "_Inbox/pdf_pages/dQq6CxBC7VI_albom_pr_ba0ff5f5",
+        "page_count": 30,
+        "role": "working_drawings"
+      }
+    ]
+  },
+  "household": {
+    "stated": false,
+    "needs": []
+  },
+  "problems": [
+    {
+      "id": "p1-third-room-costs-a-window",
+      "category": "daylight",
+      "statement": "Когда из квартиры с двумя окнами хотят получить три помещения, одно из них неизбежно останется без окна - выбор не в том, будет ли тёмное помещение, а в том, какое именно.",
+      "evidence": {
+        "t_start": 147,
+        "t_end": 168,
+        "frame": "frames/17_000241.jpg",
+        "quote": "логично что когда вы хотите сделать из квартиры с двумя окнами квартиру с тремя помещениями вам в любом случае придется выбирать в каком из них не будет окна",
+        "document_ref": {
+          "document_id": "album-100",
+          "page": 12
+        }
+      }
+    },
+    {
+      "id": "p2-corridor-is-the-donor",
+      "category": "circulation",
+      "statement": "Коридор - основной донор площади: за его счёт увеличивают санузел и выкраивают гардеробные при спальнях.",
+      "evidence": {
+        "t_start": 224,
+        "t_end": 233,
+        "frame": "frames/27_000352.jpg",
+        "quote": "тут немного увеличили санузел за счет коридора",
+        "document_ref": {
+          "document_id": "album-100",
+          "page": 27
+        }
+      }
+    }
+  ],
+  "moves": [],
+  "sub_cases": [
+    {
+      "id": "sc01-studio",
+      "room_count_before": 0,
+      "brief": "Единственная студия в подборке и самый первый объект автора.",
+      "ops": [],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 3,
+        "match_score": 0.88,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 102,
+        "t_end": 116,
+        "frame": "frames/12_000154.jpg"
+      }
+    },
+    {
+      "id": "sc02-1k-bedroom-keep-common",
+      "room_count_before": 1,
+      "room_count_after": 2,
+      "brief": "Добавить спальню, но сохранить общую зону кухни-гостиной.",
+      "ops": [
+        "zone.split",
+        "wall.add"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 10,
+        "match_score": 0.89,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 122,
+        "t_end": 128,
+        "frame": "frames/14_000207.jpg"
+      }
+    },
+    {
+      "id": "sc03-1k-windowless-bedroom",
+      "room_count_before": 1,
+      "room_count_after": 2,
+      "brief": "Добавить спальню; здесь она получилась без окна, зато общее пространство большое и светлое.",
+      "moves_summary": [
+        "Спальня без окна принята сознательно ради светлой общей зоны"
+      ],
+      "ops": [
+        "zone.split"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 9,
+        "match_score": 0.91,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 128,
+        "t_end": 137,
+        "frame": "frames/15_000216.jpg"
+      }
+    },
+    {
+      "id": "sc04-1k-two-closed-rooms",
+      "room_count_before": 1,
+      "room_count_after": 2,
+      "brief": "Боевая задача - организовать две закрытые комнаты.",
+      "outcome_note": "Зона кухни-гостиной освещается только вторым светом.",
+      "ops": [
+        "zone.split",
+        "wall.add"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 11,
+        "match_score": 0.9,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 137,
+        "t_end": 147,
+        "frame": "frames/16_000225.jpg"
+      }
+    },
+    {
+      "id": "sc05-1k-mirrored",
+      "room_count_before": 1,
+      "room_count_after": 2,
+      "brief": "Та же ситуация, что и в предыдущем случае, только отзеркаленная.",
+      "ops": [
+        "zone.split"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 12,
+        "match_score": 0.81,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 147,
+        "t_end": 162,
+        "frame": "frames/17_000241.jpg"
+      }
+    },
+    {
+      "id": "sc06-1k-furniture-only",
+      "room_count_before": 1,
+      "brief": "Практически ничего не меняли: подвигали мебель и открыли спальню из гостиной.",
+      "ops": [
+        "opening.create"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 13,
+        "match_score": 0.92,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 162,
+        "t_end": 168,
+        "frame": "frames/18_000246.jpg"
+      }
+    },
+    {
+      "id": "sc07-2k-to-3k-tiny",
+      "room_count_before": 2,
+      "room_count_after": 3,
+      "brief": "Сделать из двухкомнатной квартиры трёхкомнатную.",
+      "outcome_note": "Комнаты получились крохотные - автор подаёт это как допустимый вариант, а не как хорошее решение.",
+      "ops": [
+        "zone.split",
+        "wall.add"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 25,
+        "match_score": 0.89,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 172,
+        "t_end": 183,
+        "frame": "frames/20_000302.jpg"
+      }
+    },
+    {
+      "id": "sc08-2k-other-variants-on-channel",
+      "room_count_before": 2,
+      "brief": "Были и другие варианты - разбор есть в отдельном видео канала.",
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 20,
+        "match_score": 0.89,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 183,
+        "t_end": 191,
+        "frame": "frames/21_000309.jpg"
+      }
+    },
+    {
+      "id": "sc09-2k-furniture-only",
+      "room_count_before": 2,
+      "brief": "Просто подвигали мебель.",
+      "ops": [],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 21,
+        "match_score": 0.92,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 191,
+        "t_end": 196,
+        "frame": "frames/22_000315.jpg"
+      }
+    },
+    {
+      "id": "sc10-2k-entrance-reformat",
+      "room_count_before": 2,
+      "brief": "Немного переформатировали прихожую и расставили мебель.",
+      "ops": [
+        "zone.reshape"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 22,
+        "match_score": 0.9,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 196,
+        "t_end": 202,
+        "frame": "frames/23_000320.jpg"
+      }
+    },
+    {
+      "id": "sc11-2k-furniture-only",
+      "room_count_before": 2,
+      "brief": "Ничего не меняли, просто подвигали мебель.",
+      "ops": [],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 23,
+        "match_score": 0.89,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 202,
+        "t_end": 206,
+        "frame": "frames/24_000324.jpg"
+      }
+    },
+    {
+      "id": "sc12-2k-add-bedroom-common-kitchen-living",
+      "room_count_before": 2,
+      "room_count_after": 3,
+      "brief": "Добавить спальню и организовать общее пространство кухни-гостиной.",
+      "ops": [
+        "zone.split",
+        "zone.merge"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 24,
+        "match_score": 0.94,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 206,
+        "t_end": 212,
+        "frame": "frames/25_000331.jpg"
+      }
+    },
+    {
+      "id": "sc13-2k-pre-purchase",
+      "room_count_before": 2,
+      "brief": "Варианты выполнены в помощь при подборе квартиры: квартира ещё не куплена, но понимание, что из неё можно получить, уже есть.",
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 26,
+        "match_score": 0.85,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 212,
+        "t_end": 224,
+        "frame": "frames/26_000342.jpg"
+      }
+    },
+    {
+      "id": "sc14-2k-bath-from-corridor",
+      "room_count_before": 2,
+      "brief": "Немного увеличили санузел за счёт коридора и организовали вход в кухню из гостиной.",
+      "outcome_note": "Такая конфигурация позволяет создать общее перетекающее пространство.",
+      "ops": [
+        "wet_zone.expand",
+        "opening.create"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 27,
+        "match_score": 0.93,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 224,
+        "t_end": 233,
+        "frame": "frames/27_000352.jpg"
+      }
+    },
+    {
+      "id": "sc15-2k-keep-bedroom-and-kids",
+      "room_count_before": 2,
+      "brief": "Сохранить спальню и детскую и организовать общую гостиную.",
+      "ops": [
+        "zone.merge"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 28,
+        "match_score": 0.93,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 233,
+        "t_end": 239,
+        "frame": "frames/28_000357.jpg"
+      }
+    },
+    {
+      "id": "sc16-2k-second-light-bedroom",
+      "room_count_before": 2,
+      "brief": "Задача похожая; спальня получилась без окна, только со вторым светом.",
+      "outcome_note": "Общее пространство кухни-гостиной вышло достаточно просторным и светлым.",
+      "ops": [
+        "zone.split"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 29,
+        "match_score": 0.89,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 239,
+        "t_end": 249,
+        "frame": "frames/29_000407.jpg"
+      }
+    },
+    {
+      "id": "sc17-2k-wardrobe-carved",
+      "room_count_before": 2,
+      "brief": "Подвигали мебель и выкроили гардероб при спальне.",
+      "ops": [
+        "storage.add"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 30,
+        "match_score": 0.87,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 249,
+        "t_end": 254,
+        "frame": "frames/30_000413.jpg"
+      }
+    },
+    {
+      "id": "sc18-2k-big-kitchen-donates",
+      "room_count_before": 2,
+      "room_count_after": 3,
+      "brief": "За счёт большой площади кухни удалось сохранить гостиную и организовать детскую.",
+      "ops": [
+        "zone.split"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 31,
+        "match_score": 0.91,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 254,
+        "t_end": 264,
+        "frame": "frames/31_000423.jpg"
+      }
+    },
+    {
+      "id": "sc19-3k-became-design-project",
+      "room_count_before": 3,
+      "brief": "Квартира, для которой после бесплатных вариантов был разработан полный дизайн-проект.",
+      "outcome_note": "Тот же объект, чей полный альбом дизайн-проекта лежит в 00_Master/dQq6CxBC7VI_albom_pr.pdf (заказчик Максим Ушаков, 2018). Подтверждено совпадением всего набора площадей лист-в-лист: прихожая 11,7 / санузел-постирочная 5,8 / кухня 13,9 / гостиная 14,5 / спальня 15,9 / санузел 4,8 / гардероб 4,0 / гостевая 15,5 м2. То есть бесплатный вариант дошёл до реализации с неизменной программой помещений.",
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 73,
+        "match_score": 0.89,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 264,
+        "t_end": 282,
+        "frame": "frames/32_000441.jpg"
+      }
+    },
+    {
+      "id": "sc20-3k-pre-purchase",
+      "room_count_before": 3,
+      "brief": "Выполнено в помощь при подборе квартиры: если квартиру купят, на эту планировку можно будет посадить интересный дизайн.",
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 72,
+        "match_score": 0.86,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 282,
+        "t_end": 295,
+        "frame": "frames/33_000453.jpg"
+      }
+    },
+    {
+      "id": "sc21-3k-two-kids-plus-bedroom",
+      "room_count_before": 3,
+      "brief": "Сохранить две детских и спальню, попробовать организовать кухню-гостиную.",
+      "ops": [
+        "zone.merge"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 66,
+        "match_score": 0.96,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 295,
+        "t_end": 306,
+        "frame": "frames/34_000504.jpg"
+      }
+    },
+    {
+      "id": "sc22-3k-to-2k",
+      "room_count_before": 3,
+      "room_count_after": 2,
+      "brief": "Случай, когда из трёхкомнатной квартиры предлагалось сделать прекрасную двухкомнатную - при том что был и вариант превратить трёшку в четырёхкомнатную.",
+      "ops": [
+        "zone.merge"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 64,
+        "match_score": 0.91,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 306,
+        "t_end": 314,
+        "frame": "frames/35_000512.jpg"
+      }
+    },
+    {
+      "id": "sc23-3k-living-opens-from-kitchen",
+      "room_count_before": 3,
+      "brief": "Открыть гостиную из кухни, чтобы при необходимости визуально объединять пространство.",
+      "ops": [
+        "opening.create"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 65,
+        "match_score": 0.94,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 314,
+        "t_end": 322,
+        "frame": "frames/36_000521.jpg"
+      }
+    },
+    {
+      "id": "sc24-3k-entrance-group",
+      "room_count_before": 3,
+      "brief": "Чуть перекроили входную группу; функциональная связь кухни и гостиной та же - гостиная открывается из кухни.",
+      "ops": [
+        "zone.reshape",
+        "opening.create"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 67,
+        "match_score": 0.9,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 322,
+        "t_end": 333,
+        "frame": "frames/37_000532.jpg"
+      }
+    },
+    {
+      "id": "sc25-3k-to-2k-with-laundry",
+      "room_count_before": 3,
+      "room_count_after": 2,
+      "brief": "Из трёшки двушку: объединили кухню с гостиной и организовали постирочную.",
+      "ops": [
+        "zone.merge",
+        "wet_zone.expand"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 69,
+        "match_score": 0.8,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 333,
+        "t_end": 340,
+        "frame": "frames/38_000538.jpg"
+      }
+    },
+    {
+      "id": "sc26-3k-entrance-and-wardrobe",
+      "room_count_before": 3,
+      "brief": "Поработали над входной группой и выделили гардероб в спальне.",
+      "ops": [
+        "zone.reshape",
+        "storage.add"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 68,
+        "match_score": 0.9,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 340,
+        "t_end": 344,
+        "frame": "frames/39_000542.jpg"
+      }
+    },
+    {
+      "id": "sc27-3k-wardrobe-from-corridor",
+      "room_count_before": 3,
+      "brief": "Объединили кухню с гостиной и за счёт коридора организовали небольшой гардероб при спальне.",
+      "ops": [
+        "zone.merge",
+        "storage.add"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 70,
+        "match_score": 0.89,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 344,
+        "t_end": 350,
+        "frame": "frames/40_000549.jpg"
+      }
+    },
+    {
+      "id": "sc28-3k-similar",
+      "room_count_before": 3,
+      "brief": "Ситуация примерно такая же, принципиально очень похоже на предыдущий случай.",
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 71,
+        "match_score": 0.93,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 350,
+        "t_end": 358,
+        "frame": "frames/41_000557.jpg"
+      }
+    },
+    {
+      "id": "sc29-4k-plus",
+      "room_count_before": 4,
+      "brief": "Квартира из категории 'больше трёх комнат'; подробный разбор - в отдельном видео 'Как выбрать планировку при покупке'.",
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 90,
+        "match_score": 0.82,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 358,
+        "t_end": 367,
+        "frame": "frames/42_000606.jpg"
+      }
+    },
+    {
+      "id": "sc30-4k-functional-links",
+      "room_count_before": 4,
+      "brief": "Заключительная квартира подборки: поработали над функциональной взаимосвязью помещений и переформатировали входную группу.",
+      "ops": [
+        "zone.reshape"
+      ],
+      "document_ref": {
+        "document_id": "album-100",
+        "page": 91,
+        "match_score": 0.81,
+        "match_method": "ncc_ink_bbox"
+      },
+      "evidence": {
+        "t_start": 367,
+        "t_end": 382,
+        "frame": "frames/43_000620.jpg"
+      }
+    }
+  ],
+  "process": {
+    "variant_policy": "Минимум два варианта на квартиру; в этом обзоре показан один - субъективно наиболее удачный по мнению автора.",
+    "client_loop": "Бесплатные варианты по присланному плану; часть обратившихся затем заказывает полный проект.",
+    "excluded_from_scope": [
+      "Размеры на схемах - сознательно, чтобы не отвечать за чужие обмеры",
+      "Любые расчёты, требующие проверенных обмеров"
+    ],
+    "evidence": {
+      "t_start": 382,
+      "t_end": 417,
+      "frame": "frames/44_000636.jpg",
+      "quote": "мы не ставим на схемах размеры ... потому что как только на схемах появятся размеры ... за них придётся отвечать а мы работаем с теми материалами которые присылаете нам вы"
+    }
+  },
+  "outcome": {
+    "claims": [
+      "30 квартир из первой сотни объектов: 1 студия, 5 однокомнатных, 12 двухкомнатных, 10 трёхкомнатных, 2 с числом комнат больше трёх.",
+      "Категоризация по числу комнат условна - однокомнатная квартира иногда по площади больше двухкомнатной.",
+      "Значительная доля работ - вообще без переноса перегородок: 'просто подвигали мебель'."
+    ]
+  },
+  "rules_derived": [
+    "daylight.third_room_costs_a_window",
+    "corridor.is_the_area_donor",
+    "kitchen.open_to_living_for_flow",
+    "process.minimum_two_variants",
+    "process.no_dimensions_without_own_survey",
+    "layout.furniture_first_before_walls"
+  ]
+}

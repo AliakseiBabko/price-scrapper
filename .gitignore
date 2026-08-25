@@ -3,6 +3,7 @@ dist/
 data/*
 !data/layout_cases/
 !data/layout_rules/
+!data/deliverable_templates/
 __pycache__/
 *.pyc
 .env
@@ -25,3 +26,8 @@ _Inbox/audio/
 _Inbox/preflight/
 .playwright-mcp/
 _Inbox/frames/
+_Inbox/pdf_pages/
+
+# Third-party albums stay local: large, watermarked, and someone else's client documents.
+# Identity is preserved by the sha256 recorded in data/layout_cases/*.json.
+00_Master/*.pdf

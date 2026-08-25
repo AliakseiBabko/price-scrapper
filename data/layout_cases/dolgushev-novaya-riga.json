@@ -1,0 +1,472 @@
+{
+  "schema_version": "0.2.0",
+  "case_id": "dolgushev-novaya-riga",
+  "case_kind": "single_apartment",
+  "epistemic_status": "practitioner_opinion",
+  "provenance": {
+    "source_type": "youtube",
+    "url": "https://www.youtube.com/watch?v=DQLaOE_A-NA",
+    "video_id": "DQLaOE_A-NA",
+    "author": "Sergey Dolgushev (Сергей Долгушев, ARCHIDOLGUSHEV)",
+    "author_channel": "https://www.youtube.com/@SergeyDolgushev",
+    "language": "ru",
+    "region": "moscow_moscow_region",
+    "frames_dir": "_Inbox/frames/20260825_DQLaOE_A-NA",
+    "dimension_policy": "dimensioned",
+    "caveats": [
+      "Видео - презентация собственной услуги ('планировочный проект как альтернатива дизайн-проекту'), поэтому оценка продукта заведомо пристрастна; чертежи при этом настоящие и проверяемы.",
+      "Нумерация вариантов в озвучке совпадает с нумерацией листов альбома - проверено сверкой кадров 03a/04a с листами 3 и 6."
+    ],
+    "companion_documents": [
+      {
+        "id": "novaya-riga-album",
+        "source_file": "00_Master/DQLaOE_A-NA_Новая_Рига_Планировочный_проект.pdf",
+        "source_sha256": "ffd29dc0d05ca4c8ec8844269adbe53ad4fd987f0570ce05ca093a23793f5c04",
+        "pages_dir": "_Inbox/pdf_pages/DQLaOE_A_NA_ffd29dc0",
+        "page_count": 28,
+        "role": "variant_set"
+      }
+    ]
+  },
+  "apartment": {
+    "area_total_m2": 68.4,
+    "room_count": 2,
+    "city": "Москва / Новая Рига",
+    "constraints": [
+      {
+        "kind": "facade",
+        "statement": "Квартира угловая: четыре окна в трёх помещениях - именно это делает возможным нарезать три жилых помещения без тёмных комнат.",
+        "evidence": {
+          "t_start": 140,
+          "t_end": 160,
+          "frame": "frames/02b_000245.jpg",
+          "quote": "квартира угловая на иметь четыре окна в 3 помещениях и это очень хорошо"
+        }
+      },
+      {
+        "kind": "wet_zone",
+        "statement": "Мокрая зона (кухня, санузел) во всех вариантах остаётся в исходном углу у входа - на листах она закрашена голубым.",
+        "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 3 } }
+      }
+    ]
+  },
+  "household": {
+    "stated": true,
+    "needs": [
+      "Организовать спальню",
+      "Организовать детскую",
+      "Сделать просторную кухню-гостиную"
+    ],
+    "scenarios": [
+      {
+        "id": "s1-common-space",
+        "statement": "Общая зона кухни-гостиной как основное пространство совместного пребывания семьи.",
+        "zone_ids": ["kitchen", "living"]
+      },
+      {
+        "id": "s2-entrance-separation",
+        "statement": "Вход в квартиру: должен ли он быть частью общего пространства или отрезан от него - вариант выбора, а не данность.",
+        "zone_ids": ["hall", "living"]
+      }
+    ]
+  },
+  "zones": [
+    {
+      "id": "hall",
+      "name_ru": "прихожая",
+      "role": "entrance",
+      "observations": [
+        { "metric": "area", "value": 7.5, "unit": "m2", "state": "before",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 11 } } },
+        { "metric": "clear_width", "value": 2570, "unit": "mm", "state": "before",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 11 } } },
+        { "metric": "area", "value": 6.3, "unit": "m2", "state": "after",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 10 } } }
+      ]
+    },
+    {
+      "id": "bath",
+      "name_ru": "ванная",
+      "role": "bathroom",
+      "observations": [
+        { "metric": "area", "value": 4.2, "unit": "m2", "state": "before",
+          "note": "1750 x 2400 мм",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 11 } } },
+        { "metric": "area", "value": 4.1, "unit": "m2", "state": "after",
+          "note": "Ванна 1700 x 700 мм + стиральная машина + полотенцесушитель.",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 10 } } }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name_ru": "кухня",
+      "role": "kitchen",
+      "observations": [
+        { "metric": "area", "value": 10.9, "unit": "m2", "state": "before",
+          "note": "3190 x 3420 мм",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 11 } } },
+        { "metric": "area", "value": 8.5, "unit": "m2", "state": "after",
+          "note": "Кухня уменьшена, но раскрыта в гостиную 13,4 м2 - совокупное пространство больше исходного.",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 10 } } }
+      ]
+    },
+    {
+      "id": "living",
+      "name_ru": "гостиная (исходно жилая комната)",
+      "role": "living",
+      "observations": [
+        { "metric": "area", "value": 21.3, "unit": "m2", "state": "before",
+          "note": "6230 x 3420 мм - самая большая комната, из которой выкроены гостиная и детская.",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 11 } } },
+        { "metric": "area", "value": 13.4, "unit": "m2", "state": "after",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 10 } } }
+      ]
+    },
+    {
+      "id": "bedroom",
+      "name_ru": "спальня (исходно вторая жилая комната)",
+      "role": "bedroom",
+      "observations": [
+        { "metric": "area", "value": 14.6, "unit": "m2", "state": "before",
+          "note": "5050 x 2910 мм",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 11 } } },
+        { "metric": "area", "value": 12.2, "unit": "m2", "state": "after",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 10 } } }
+      ]
+    },
+    { "id": "kids", "name_ru": "детская", "role": "kids",
+      "observations": [
+        { "metric": "area", "value": 10.2, "unit": "m2", "state": "after",
+          "note": "Одинакова во всех четырёх вариантах - зафиксирована первой и больше не пересматривалась.",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 10 } } } ] },
+    { "id": "wardrobe", "name_ru": "гардероб", "role": "storage",
+      "observations": [
+        { "metric": "area", "value": 3.1, "unit": "m2", "state": "after",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 10 } } } ] },
+    { "id": "balcony", "name_ru": "балкон", "role": "balcony",
+      "observations": [
+        { "metric": "area", "value": 5.0, "unit": "m2", "state": "before",
+          "note": "3740 x 1340 мм; не присоединяется ни в одном из вариантов.",
+          "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 11 } } } ] }
+  ],
+  "problems": [
+    {
+      "id": "p1-two-rooms-three-needed",
+      "category": "ergonomics",
+      "statement": "Двухкомнатная квартира должна вместить спальню, детскую и просторную кухню-гостиную - то есть три жилых помещения плюс общую зону там, где комнат было две.",
+      "zone_ids": ["living", "bedroom", "kitchen"],
+      "evidence": {
+        "t_start": 140,
+        "t_end": 160,
+        "frame": "frames/02b_000245.jpg",
+        "quote": "основным пожеланием было организовать спальню детскую и сделать просторную кухню-гостиную"
+      }
+    },
+    {
+      "id": "p2-kitchen-too-small-for-common-space",
+      "category": "circulation",
+      "statement": "Исходная кухня 10,9 м2 отгорожена от жилой комнаты и не может работать как общая кухня-гостиная.",
+      "zone_ids": ["kitchen", "living"],
+      "measurements": [{ "metric": "area", "value": 10.9, "unit": "m2", "comparator": "is" }],
+      "evidence": {
+        "t_start": 160,
+        "t_end": 175,
+        "frame": "frames/02b_000245.jpg",
+        "quote": "мы сдвинули перегородку между кухней и жилой комнатой с тем чтобы увеличить пространство кухни-гостиной"
+      }
+    },
+    {
+      "id": "p3-entrance-in-common-space",
+      "category": "circulation",
+      "statement": "Входная зона выходит прямо в общее пространство: приятное перетекание, но мебельная группа гостиной размещается хуже.",
+      "zone_ids": ["hall", "living"],
+      "evidence": {
+        "t_start": 175,
+        "t_end": 190,
+        "frame": "frames/03a_000306.jpg",
+        "quote": "в следующем варианте мы отрезали прихожую от общего пространства это позволило нам наиболее рационально разместить мебельную группу"
+      }
+    },
+    {
+      "id": "p4-kitchen-perimeter",
+      "category": "ergonomics",
+      "statement": "Полезный периметр кухни ограничен: холодильник и духовой шкаф съедают рабочий фронт.",
+      "zone_ids": ["kitchen"],
+      "evidence": {
+        "t_start": 190,
+        "t_end": 215,
+        "frame": "frames/04a_000345.jpg",
+        "quote": "получилось сделать кухню с большим полезным периметром это удалось за счет выноса колон с холодильником и духовым шкафом за плоской стены санузла"
+      }
+    }
+  ],
+  "moves": [
+    {
+      "id": "m1-shift-kitchen-partition",
+      "op": "wall.reposition",
+      "target_zone_ids": ["kitchen", "living"],
+      "params": { "direction": "into the living room", "purpose": "enlarge the shared kitchen-living space" },
+      "solves": ["p2-kitchen-too-small-for-common-space"],
+      "rationale": "Перегородка между кухней и жилой комнатой сдвигается, чтобы увеличить кухню-гостиную; на листах граница исходных перегородок показана пунктиром.",
+      "legal_flag": "needs_approval",
+      "evidence": {
+        "t_start": 160,
+        "t_end": 175,
+        "frame": "frames/02b_000245.jpg",
+        "quote": "пунктирные линии показаны границы перегородок исходного плана",
+        "document_ref": { "document_id": "novaya-riga-album", "page": 3 }
+      }
+    },
+    {
+      "id": "m2-split-large-room",
+      "op": "zone.split",
+      "target_zone_ids": ["living", "kids"],
+      "params": { "from_area_m2": 21.3, "to_living_m2": 13.4, "to_kids_m2": 10.2 },
+      "solves": ["p1-two-rooms-three-needed"],
+      "rationale": "Самая большая комната 21,3 м2 делится на гостиную и детскую; возможно только потому, что угловая квартира даёт окна обеим частям.",
+      "legal_flag": "needs_approval",
+      "evidence": {
+        "t_start": 155,
+        "t_end": 185,
+        "frame": "frames/03a_000306.jpg",
+        "document_ref": { "document_id": "novaya-riga-album", "page": 10 }
+      }
+    },
+    {
+      "id": "m3-cut-off-entrance",
+      "op": "wall.add",
+      "target_zone_ids": ["hall", "living"],
+      "params": { "purpose": "separate the entrance from the common space" },
+      "solves": ["p3-entrance-in-common-space"],
+      "rationale": "Прихожая отрезается от общего пространства, что даёт более рациональную мебельную группу в гостиной (появляется кресло).",
+      "legal_flag": "needs_approval",
+      "evidence": {
+        "t_start": 175,
+        "t_end": 190,
+        "frame": "frames/03a_000306.jpg",
+        "document_ref": { "document_id": "novaya-riga-album", "page": 4 }
+      }
+    },
+    {
+      "id": "m4-appliance-column-out",
+      "op": "zone.reshape",
+      "target_zone_ids": ["kitchen", "hall"],
+      "params": { "moved": "fridge + oven column", "beyond": "plane of the bathroom wall" },
+      "solves": ["p4-kitchen-perimeter"],
+      "rationale": "Колонна с холодильником и духовым шкафом выносится за плоскость стены санузла: кухня получает больший полезный периметр, а в образовавшемся с другой стороны кармане ставится шкаф для сезонных вещей.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 190,
+        "t_end": 215,
+        "frame": "frames/04a_000345.jpg",
+        "document_ref": { "document_id": "novaya-riga-album", "page": 5 }
+      }
+    },
+    {
+      "id": "m5-wardrobe-at-bedroom",
+      "op": "storage.add",
+      "target_zone_ids": ["bedroom", "wardrobe"],
+      "params": { "area_m2": 3.1, "type": "walk-in wardrobe" },
+      "solves": [],
+      "rationale": "Гардеробная при главной спальне - выкраивается из площади спальни (12,2 + 3,1 против 14,9 м2 в варианте без неё).",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 190,
+        "t_end": 210,
+        "document_ref": { "document_id": "novaya-riga-album", "page": 4 }
+      }
+    },
+    {
+      "id": "m6-bath-instead-of-shower",
+      "op": "wet_zone.expand",
+      "target_zone_ids": ["bath"],
+      "params": { "fixture": "bathtub 1700 x 700 mm", "replaces": "shower cabin" },
+      "solves": [],
+      "rationale": "В четвёртом варианте в санузле размещается ванна вместо душевой кабины - именно этот блок ушёл в финальный вариант.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 223,
+        "t_end": 240,
+        "frame": "frames/05a_000402.jpg",
+        "quote": "он предлагает разместить в санузле в ванну вместо душевой кабины",
+        "document_ref": { "document_id": "novaya-riga-album", "page": 6 }
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "v1",
+      "label": "Вариант 1",
+      "status": "offered",
+      "concept": "Перетекающее пространство прихожей, кухни и гостиной; спальня самая большая (15,2 м2), гардеробной нет.",
+      "room_program": [
+        { "name_ru": "кухня", "role": "kitchen", "area_m2": 10.7 },
+        { "name_ru": "гостиная", "role": "living", "area_m2": 11.3 },
+        { "name_ru": "детская", "role": "kids", "area_m2": 10.2 },
+        { "name_ru": "спальня", "role": "bedroom", "area_m2": 15.2 },
+        { "name_ru": "прихожая", "role": "entrance", "area_m2": 6.4 },
+        { "name_ru": "санузел", "role": "combined_bath", "area_m2": 4.0, "note": "душевая кабина" }
+      ],
+      "move_ids": ["m1-shift-kitchen-partition", "m2-split-large-room"],
+      "gains": ["Приятное перетекающее пространство прихожая-кухня-гостиная", "Самая большая спальня из всех вариантов"],
+      "costs": ["Мебельная группа гостиной размещается менее рационально", "Нет выделенного хранения при спальне"],
+      "document_ref": { "document_id": "novaya-riga-album", "page": 3 },
+      "evidence": { "t_start": 160, "t_end": 185, "frame": "frames/03a_000306.jpg" }
+    },
+    {
+      "id": "v2",
+      "label": "Вариант 2",
+      "status": "merged_into_final",
+      "concept": "Прихожая отрезана от общего пространства; за счёт этого мебельная группа гостиной собирается рациональнее (появляется кресло) и выкраивается гардероб 3,1 м2 при спальне.",
+      "room_program": [
+        { "name_ru": "кухня", "role": "kitchen", "area_m2": 11.4 },
+        { "name_ru": "гостиная", "role": "living", "area_m2": 11.3 },
+        { "name_ru": "детская", "role": "kids", "area_m2": 10.2 },
+        { "name_ru": "спальня", "role": "bedroom", "area_m2": 12.4 },
+        { "name_ru": "гардероб", "role": "storage", "area_m2": 3.1 },
+        { "name_ru": "прихожая", "role": "entrance", "area_m2": 6.0 },
+        { "name_ru": "санузел", "role": "combined_bath", "area_m2": 4.0 }
+      ],
+      "move_ids": ["m3-cut-off-entrance", "m5-wardrobe-at-bedroom"],
+      "gains": ["Рациональная мебельная группа в гостиной", "Гардероб при спальне"],
+      "costs": ["Потеряно перетекание прихожей в общее пространство", "Спальня меньше на 2,8 м2, чем в варианте 1"],
+      "taken_into_final": ["Спальня с гардеробом"],
+      "document_ref": { "document_id": "novaya-riga-album", "page": 4 },
+      "evidence": { "t_start": 175, "t_end": 190, "frame": "frames/03a_000306.jpg" }
+    },
+    {
+      "id": "v3",
+      "label": "Вариант 3",
+      "status": "offered",
+      "concept": "Кухня с максимальным полезным периметром: колонна с холодильником и духовым шкафом вынесена за плоскость стены санузла, в образовавшемся кармане - шкаф для сезонных вещей. Прихожая самая большая (7,7 м2).",
+      "room_program": [
+        { "name_ru": "кухня", "role": "kitchen", "area_m2": 11.4 },
+        { "name_ru": "гостиная", "role": "living", "area_m2": 11.3 },
+        { "name_ru": "детская", "role": "kids", "area_m2": 10.2 },
+        { "name_ru": "спальня", "role": "bedroom", "area_m2": 13.5 },
+        { "name_ru": "прихожая", "role": "entrance", "area_m2": 7.7 },
+        { "name_ru": "санузел", "role": "combined_bath", "area_m2": 4.0 }
+      ],
+      "move_ids": ["m4-appliance-column-out"],
+      "gains": ["Больший полезный периметр кухни", "Шкаф для сезонных вещей в кармане за колонной"],
+      "costs": ["Колонна выступает в прихожую"],
+      "document_ref": { "document_id": "novaya-riga-album", "page": 5 },
+      "evidence": { "t_start": 190, "t_end": 215, "frame": "frames/04a_000345.jpg" }
+    },
+    {
+      "id": "v4",
+      "label": "Вариант 4",
+      "status": "merged_into_final",
+      "concept": "Ванна вместо душевой кабины; за счёт приёмов в организации кухни зона ТВ и мягкая группа размещаются наиболее рационально; предложен альтернативный вариант расположения кровати.",
+      "room_program": [
+        { "name_ru": "кухня", "role": "kitchen", "area_m2": 10.6 },
+        { "name_ru": "гостиная", "role": "living", "area_m2": 11.3 },
+        { "name_ru": "детская", "role": "kids", "area_m2": 10.2 },
+        { "name_ru": "спальня", "role": "bedroom", "area_m2": 14.9 },
+        { "name_ru": "прихожая", "role": "entrance", "area_m2": 7.0 },
+        { "name_ru": "санузел", "role": "combined_bath", "area_m2": 4.0, "note": "ванна вместо душевой" }
+      ],
+      "move_ids": ["m6-bath-instead-of-shower"],
+      "gains": ["Ванна вместо душевой кабины", "Наиболее рациональное размещение зоны ТВ и мягкой группы", "Альтернативная расстановка кровати"],
+      "costs": ["Нет выделенного гардероба"],
+      "taken_into_final": ["Блок прихожей", "Блок кухни-гостиной", "Ванная комната"],
+      "document_ref": { "document_id": "novaya-riga-album", "page": 6 },
+      "evidence": { "t_start": 223, "t_end": 250, "frame": "frames/05a_000402.jpg" }
+    },
+    {
+      "id": "final",
+      "label": "Финальный вариант",
+      "status": "final",
+      "concept": "Собран из частей: блок прихожей, кухни-гостиной и ванной - из варианта 4; спальня с гардеробом и расстановка мебели в детской - из варианта с гардеробом. Согласован практически сразу.",
+      "room_program": [
+        { "name_ru": "прихожая", "role": "entrance", "area_m2": 6.3 },
+        { "name_ru": "ванная", "role": "bathroom", "area_m2": 4.1 },
+        { "name_ru": "кухня", "role": "kitchen", "area_m2": 8.5 },
+        { "name_ru": "гостиная", "role": "living", "area_m2": 13.4 },
+        { "name_ru": "детская", "role": "kids", "area_m2": 10.2 },
+        { "name_ru": "спальня", "role": "bedroom", "area_m2": 12.2 },
+        { "name_ru": "гардероб", "role": "storage", "area_m2": 3.1 },
+        { "name_ru": "балкон", "role": "balcony", "area_m2": 5.0 }
+      ],
+      "move_ids": ["m1-shift-kitchen-partition", "m2-split-large-room", "m3-cut-off-entrance", "m5-wardrobe-at-bedroom", "m6-bath-instead-of-shower"],
+      "gains": ["Три жилых помещения вместо двух", "Гардероб", "Ванна", "Кухня-гостиная как единое пространство"],
+      "costs": ["Кухня 8,5 м2 - наименьшая из всех вариантов", "Спальня 12,2 м2 против 15,2 м2 в варианте 1"],
+      "document_ref": { "document_id": "novaya-riga-album", "page": 7 },
+      "evidence": {
+        "t_start": 257,
+        "t_end": 280,
+        "frame": "frames/06a_000450.jpg",
+        "quote": "из 4 варианта мы взяли блок прихожей кухни-гостиной и ванной комнаты из 3 спальни с гардеробом и расстановку мебели в детской"
+      }
+    }
+  ],
+  "tradeoffs": [
+    {
+      "id": "t1-flow-vs-furniture",
+      "chosen": "Отрезать прихожую от общего пространства (вариант 2 и финал)",
+      "rejected_alternative": "Перетекающее пространство прихожая-кухня-гостиная (вариант 1)",
+      "why": "Отрезанная прихожая позволяет разместить мебельную группу гостиной наиболее рационально - в ней появляется кресло; перетекание при этом теряется.",
+      "gains": ["Рациональная мебельная группа", "Возможность выкроить гардероб"],
+      "costs": ["Потеря перетекающего пространства", "Меньше воздуха на входе"],
+      "move_ids": ["m3-cut-off-entrance"],
+      "evidence": { "t_start": 175, "t_end": 190, "frame": "frames/03a_000306.jpg" }
+    },
+    {
+      "id": "t2-bedroom-vs-wardrobe",
+      "chosen": "Спальня 12,2 м2 + гардероб 3,1 м2",
+      "rejected_alternative": "Спальня 14,9-15,2 м2 без гардеробной",
+      "why": "Выделенное хранение при спальне признано ценнее почти трёх метров площади самой спальни - выбор клиента при сборке финального варианта.",
+      "gains": ["Выделенное хранение при спальне"],
+      "costs": ["Спальня меньше на 2,7-3,0 м2"],
+      "move_ids": ["m5-wardrobe-at-bedroom"],
+      "evidence": { "t_start": 257, "t_end": 280 }
+    },
+    {
+      "id": "t3-kitchen-area-vs-common-space",
+      "chosen": "Кухня 8,5 м2, раскрытая в гостиную 13,4 м2",
+      "rejected_alternative": "Кухня 10,6-11,4 м2 как в вариантах 1-4",
+      "why": "Финальный вариант жертвует площадью самой кухни ради связки кухня-гостиная; суммарно общее пространство больше, чем исходные 10,9 м2 изолированной кухни.",
+      "gains": ["Единое пространство кухни-гостиной 21,9 м2"],
+      "costs": ["Самая маленькая кухня из всех рассмотренных вариантов"],
+      "move_ids": ["m1-shift-kitchen-partition"],
+      "evidence": { "document_ref": { "document_id": "novaya-riga-album", "page": 7 } }
+    }
+  ],
+  "process": {
+    "inputs": ["Исходный план", "План обмеров", "Сформулированная клиентом задача"],
+    "brief": "Организовать спальню, детскую и просторную кухню-гостиную.",
+    "variant_count": 4,
+    "variant_policy": "Вариантов всегда минимум два, в среднем три.",
+    "client_loop": "Варианты отправляются клиенту -> комментарии -> клиент предлагает собрать финальный вариант из понравившихся частей нескольких вариантов -> финальный вариант согласован практически сразу -> по нему выполняются чертежи -> альбом отправляется на согласование -> правки -> финальная версия альбома -> 3D макет.",
+    "excluded_from_scope": [
+      "Визуализация (интерьерные рендеры)",
+      "Спецификации",
+      "Ведомости",
+      "Прочие дополнительные материалы, удорожающие проект"
+    ],
+    "evidence": {
+      "t_start": 100,
+      "t_end": 140,
+      "frame": "frames/02a_000144.jpg",
+      "quote": "планировочный проект это индивидуальная рациональная планировка и альбом всех необходимых для ремонта чертежей без визуализации спецификации и ведомости"
+    }
+  },
+  "outcome": {
+    "claims": [
+      "Из двухкомнатной квартиры получены три жилых помещения (спальня, детская, гостиная) плюс кухня, гардероб и ванная - без тёмных комнат, благодаря угловому положению и четырём окнам.",
+      "Итоговый комплект - 16 листов чертежей и схем плюс 3D макет, предлагается как альтернатива дизайн-проекту.",
+      "3D макет нужен не как визуализация, а чтобы клиент понял объёмы: 'не все обладают достаточным воображением чтобы представлять как планировка выглядит в объеме'."
+    ],
+    "evidence": { "t_start": 280, "t_end": 340, "frame": "frames/06b_000604.jpg" }
+  },
+  "deliverable_template_ref": "dolgushev-planirovochny-proekt",
+  "rules_derived": [
+    "process.minimum_two_variants",
+    "process.final_assembled_from_variants",
+    "variant.fix_the_constrained_room_first",
+    "kitchen.trade_area_for_openness",
+    "kitchen.appliance_column_beyond_wet_wall",
+    "entrance.cut_off_buys_furniture_placement",
+    "room.split_needs_a_window_each"
+  ]
+}

@@ -112,10 +112,31 @@ def segment(cues: list[dict], min_len: float, max_len: float) -> list[dict]:
     return segs
 
 
+def scene_segments(scenes: list[float], cues: list[dict], min_len: float, end: float) -> list[dict]:
+    """Segment by what is on screen, not by what is being said.
+
+    Catalogue videos ("30 apartments, one variant each") cut to a new plan
+    every few seconds while the narration runs on in one breath. There the
+    picture, not the sentence, is the unit of meaning.
+    """
+    bounds = [t for t in scenes if t < end]
+    merged: list[float] = []
+    for t in bounds:
+        if not merged or t - merged[-1] >= min_len:
+            merged.append(t)
+    segs = []
+    for i, st in enumerate(merged):
+        en = merged[i + 1] if i + 1 < len(merged) else end
+        text = " ".join(c["text"] for c in cues
+                        if c["start"] + c["duration"] > st and c["start"] < en).strip()
+        segs.append({"index": i + 1, "start": st, "end": en, "text": text})
+    return segs
+
+
 def download_video(vid: str, fmt: str, dest: Path) -> Path:
     dest.parent.mkdir(parents=True, exist_ok=True)
     cmd = [sys.executable, "-m", "yt_dlp", "-f", fmt, "--no-playlist",
-           "--js-runtimes", "node,deno",
+           "--js-runtimes", "node",
            "-o", str(dest), "https://www.youtube.com/watch?v=" + vid]
     p = run(cmd)
     if not dest.exists():
@@ -179,12 +200,18 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("video")
     ap.add_argument("--outdir")
-    ap.add_argument("--format", default="136", help="yt-dlp format id (136=720p, 137=1080p)")
+    ap.add_argument("--format", default="137/136/bv*[height<=1080]",
+                    help="yt-dlp format selector; falls back down the chain")
     ap.add_argument("--lang", default="ru")
     ap.add_argument("--scene", type=float, default=0.25)
     ap.add_argument("--min-seg", type=float, default=25.0)
     ap.add_argument("--max-seg", type=float, default=120.0)
     ap.add_argument("--times", help="comma-separated seconds; skip auto-segmenting")
+    ap.add_argument("--mode", choices=["speech", "scene"], default="speech",
+                    help="speech: one segment per logical unit of narration (a case study). "
+                         "scene: one segment per shot (a catalogue of many plans).")
+    ap.add_argument("--min-scene", type=float, default=4.0,
+                    help="scene mode: merge shots shorter than this")
     ap.add_argument("--per-seg", type=int, default=1,
                     help="frames per segment, taken from the steadiest shots")
     ap.add_argument("--keep-video", action="store_true")
@@ -208,9 +235,11 @@ def main() -> int:
             end = marks[i] if i < len(marks) else cues[-1]["start"] + cues[-1]["duration"]
             txt = " ".join(c["text"] for c in cues if t <= c["start"] < end)
             segs.append({"index": i, "start": t, "end": end, "text": txt.strip()})
-    else:
+    elif a.mode == "speech":
         segs = segment(cues, a.min_seg, a.max_seg)
-    print("      %d cues -> %d segments" % (len(cues), len(segs)), flush=True)
+    else:
+        segs = None  # needs the video first - built after scene detection
+    print("      %d cues" % len(cues), flush=True)
 
     print("[2/5] download stream fmt=" + a.format, flush=True)
     video = download_video(vid, a.format, out / (vid + ".mp4"))
@@ -218,6 +247,10 @@ def main() -> int:
     print("[3/5] scene detection", flush=True)
     scenes = scene_times(video, a.scene)
     print("      %d scene changes" % len(scenes), flush=True)
+    if segs is None:
+        end = cues[-1]["start"] + cues[-1]["duration"]
+        segs = scene_segments(scenes, cues, a.min_scene, end)
+    print("      %d segments (%s mode)" % (len(segs), a.mode), flush=True)
 
     print("[4/5] frame extraction", flush=True)
     frames_dir = out / "frames"
@@ -233,7 +266,7 @@ def main() -> int:
 
     print("[5/5] index", flush=True)
     meta = {"video_id": vid, "url": "https://www.youtube.com/watch?v=" + vid,
-            "language": lang, "format": a.format, "scene_threshold": a.scene,
+            "language": lang, "format": a.format, "mode": a.mode, "scene_threshold": a.scene,
             "generated": datetime.now(timezone.utc).isoformat(),
             "segments": segs}
     (out / "index.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")

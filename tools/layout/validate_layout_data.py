@@ -20,6 +20,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[2]
 CASES = REPO / "data" / "layout_cases"
 RULES = REPO / "data" / "layout_rules" / "rules.jsonl"
+TEMPLATES = REPO / "data" / "deliverable_templates"
 SCHEMAS = REPO / "schemas"
 
 
@@ -64,9 +65,38 @@ def check_case(case: dict, path: Path, strict_frames: bool, errors: list[str]):
             if m not in move_ids:
                 errors.append("%s: tradeoff %s references unknown move %r" % (cid, t["id"], m))
 
-    unsolved = problem_ids - {s for m in case.get("moves", []) for s in m.get("solves", [])}
-    for p in sorted(unsolved):
-        errors.append("%s: problem %s is never addressed by a move (note it or drop it)" % (cid, p))
+    if case.get("case_kind") != "survey":
+        # A survey states general observations, not per-apartment problems it then solves.
+        unsolved = problem_ids - {s for m in case.get("moves", []) for s in m.get("solves", [])}
+        for p in sorted(unsolved):
+            errors.append("%s: problem %s is never addressed by a move (note it or drop it)" % (cid, p))
+
+    for v in case.get("variants", []):
+        for m in v.get("move_ids", []):
+            if m not in move_ids:
+                errors.append("%s: variant %s references unknown move %r" % (cid, v["id"], m))
+    finals = [v for v in case.get("variants", []) if v.get("status") == "final"]
+    if len(finals) > 1:
+        errors.append("%s: %d variants marked final" % (cid, len(finals)))
+
+    docs = {d["id"]: d for d in case.get("provenance", {}).get("companion_documents", [])}
+    refs = [(v.get("document_ref"), "variant " + v["id"]) for v in case.get("variants", [])]
+    refs += [(s.get("document_ref"), "sub_case " + s["id"]) for s in case.get("sub_cases", [])]
+    refs += [(ev.get("document_ref"), where) for ev, where in walk_evidence(case)]
+    for ref, where in refs:
+        if not ref:
+            continue
+        doc = docs.get(ref.get("document_id"))
+        if not doc:
+            errors.append("%s: %s cites unknown document %r" % (cid, where, ref.get("document_id")))
+        elif ref.get("page") and doc.get("page_count") and ref["page"] > doc["page_count"]:
+            errors.append("%s: %s cites page %d of %s which has %d pages"
+                          % (cid, where, ref["page"], doc["id"], doc["page_count"]))
+
+    if case.get("case_kind") == "single_apartment" and "apartment" not in case:
+        errors.append("%s: single_apartment case has no apartment block" % cid)
+    if case.get("case_kind") == "survey" and not case.get("sub_cases"):
+        errors.append("%s: survey case has no sub_cases" % cid)
 
     frames_dir = case.get("provenance", {}).get("frames_dir")
     if frames_dir:
@@ -135,7 +165,21 @@ def main() -> int:
             if rid not in rules:
                 errors.append("case %s derives unknown rule %r" % (cid, rid))
 
-    print("%d case(s), %d rule(s)" % (len(cases), len(rules)))
+    templates = {}
+    tpl_schema = load_json(SCHEMAS / "deliverable-template.schema.json")
+    for p in sorted(TEMPLATES.glob("*.json")):
+        tpl = load_json(p)
+        validate_schema(tpl, tpl_schema, p.name, errors)
+        templates[tpl["template_id"]] = tpl
+        for cid in tpl.get("provenance", {}).get("case_ids", []):
+            if cid not in cases:
+                errors.append("template %s cites unknown case %r" % (tpl["template_id"], cid))
+    for cid, case in cases.items():
+        ref = case.get("deliverable_template_ref")
+        if ref and ref not in templates:
+            errors.append("case %s references unknown deliverable template %r" % (cid, ref))
+
+    print("%d case(s), %d rule(s), %d deliverable template(s)" % (len(cases), len(rules), len(templates)))
     if not schema_ran:
         print("  note: jsonschema not installed - structural validation skipped")
     for e in errors:
