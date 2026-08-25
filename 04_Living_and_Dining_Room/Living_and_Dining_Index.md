@@ -1,5 +1,12 @@
 # 🛋️ Living & Dining Room Planning
 
+> [!TIP]
+> For general, sourced technique/reasoning (not this household's own
+> specific plan) — kitchen-living zoning, living-bedroom combination
+> zoning, general layout, and common mistakes gathered from multiple
+> independent practitioners — see
+> [[04_Living_and_Dining_Room/Living_and_Dining_Guide|Living & Dining Room Guide]].
+
 * **Floor Area**: `13.57 m²`
 * **Ceiling Height**: `2.55 m`
 * **Est. Dimensions**: `3.28 m` x `4.14 m`

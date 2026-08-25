@@ -937,7 +937,7 @@ bar):
   form-over-function fixture caution, self-identified as the household's
   "biggest mistake." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
 
-### Kitchen-Living Combination Zoning (new topic area, added 2026-08-25 — Omikor/Elena, 1st source, no dedicated page yet)
+### Kitchen-Living Combination Zoning (now 3+ sources, added 2026-08-25 — crosses the 3+-source page-creation threshold; see the Living & Dining Guide page created this session)
 
 - Combined kitchen-living-room zoning is gated by total room area, with
   concrete thresholds: under ~20m² is too small for three distinct zones
@@ -1029,6 +1029,88 @@ bar):
   unattractive extended — independently confirmed by a second
   practitioner. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
 
+**3rd source, added 2026-08-25 — LightLab/Artem Voronov (professional lighting-design studio), lighting-specific:**
+
+- Give the dining-table zone a decorative accent fixture (pendant/linear/
+  round) as a focal point, distinct from functional lighting. Plan
+  functional light separately with a stated target of **~200-300 lux**
+  for genuine task use — many projects under-light because they rely on
+  decorative fixtures alone. Choose diffused (fewer/softer shadows) vs.
+  directional (more dramatic, more shadows) functional light
+  deliberately, by personal preference, not default. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hW1hlDoqDR0_voronov_lightlab_kitchen_living_lighting|YT_hW1hlDoqDR0]]]
+- Cove/perimeter backlighting ("закарнизная подсветка", an LED strip in a
+  perimeter niche/cornice) is a distinct third light layer under any
+  ceiling type — visually expands perceived room size, adds ambient
+  warmth; stated as the single most universally well-received technique
+  across this specialist's client projects. **Corroborates** the
+  primary/accent/decorative 3-layer lighting structure already recorded
+  from `YT_TnYExlfWw9c` (Diskill/Nadia Karmin) — an independent lighting
+  specialist converging on the same layered structure under different
+  layer names. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hW1hlDoqDR0_voronov_lightlab_kitchen_living_lighting|YT_hW1hlDoqDR0]]]
+- Centralized Bluetooth-mesh lighting-control systems (fixture/group
+  control blocks + a free app) are now affordable/simple enough for
+  ordinary projects, not a premium-only luxury — scenes can combine
+  multiple light layers (e.g. one button for decorative + cove backlight
+  together, a separate scene for functional light alone). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hW1hlDoqDR0_voronov_lightlab_kitchen_living_lighting|YT_hW1hlDoqDR0]]]
+- Plan the lighting layout **1-2 months before installation**, not
+  day-of: print the floor plan, mark fixture positions/types, build a
+  fixture specification table before purchasing — a same-day lighting
+  decision one lives with for ~10 years is a common, real planning
+  mistake. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hW1hlDoqDR0_voronov_lightlab_kitchen_living_lighting|YT_hW1hlDoqDR0]]]
+
+**4th source, added 2026-08-25 — Fenix Interior (turnkey design-build studio, real 20m² SPB-area project, delivery model: turnkey/full-service):**
+
+- Three classic kitchen-living layout patterns, with an explicit
+  designer preference: (a) dining table centered, sofa separate; (b) bar
+  counter instead of a dining table (young households without children);
+  (c) dining table placed next to the sofa — **the designer's own least-
+  preferred option**, since it mixes the post-meal relaxation zone with
+  the table's footprint. Real applied example: a 20m² room zoned into
+  near-entry U-shaped kitchen, soft-seating group, and dining zone, with
+  **floor material matched to the functional zoning** (tile in kitchen,
+  engineered wood in living zone) — a concrete built instance of the
+  flooring-zoning principle already recorded above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+- Pull-out/extendable countertop-as-table technique: a 2m quartz-
+  agglomerate counter slides out from 1.4m fixed usable worktop to seat 3;
+  worktop width chosen at 80cm (not an ideal 90-100cm) specifically to
+  preserve fridge-door-opening clearance with a chair pulled up —
+  a concrete, checkable clearance-vs-comfort trade-off. Ceiling-height
+  cabinetry with a full-perimeter cornice/valance is now a standard move
+  to visually unify base (60cm) and upper (35cm) cabinet depths into one
+  contour. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+- Corner dead-zone resolved with a functional rear-facing secondary
+  freezer compartment (not a "magic corner" or hidden-shelf default);
+  quartz agglomerate chosen specifically because its available panel size
+  let both corner countertop seams be routed to inconspicuous spots — a
+  material choice tied to this room's specific corner-count geometry, not
+  a generic preference. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+- "Eye-catching kitchen" design formula: accent large-format stone-look
+  porcelain backsplash; facades combining walnut veneer with wall-color-
+  matched painted MDF; cornices painted to match facades/walls for
+  compositional continuity; flooring combining engineered wood + multiple
+  porcelain-tile variants unified by a shared color undertone. `tier-
+  steering flag`: Blum drawer hardware and Gola handle-less profile are
+  this company's own specific product choices, not adopted as a
+  universal recommendation. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+- Appliance-stack placement: mount a coffee machine at approximately eye
+  level for convenient pouring, with the oven placed beneath it; if a
+  microwave replaces the coffee machine in the same stack, the oven
+  typically sits slightly higher with the microwave above it instead -
+  both configurations workable, choose by which appliance the household
+  actually uses more. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+
+**5th source, added 2026-08-25 - DELI (Moscow partition installer, featured on a soundproofing/flooring presenter's channel), a real kitchen-living partition installation, high promotional ratio (named-company endorsement excluded):**
+
+- Real installed sliding-partition opening dimensions: 2m wide x 2.65m
+  tall - a concrete real-world size data point for future partition
+  sizing. Custom RAL-color-matched MDF frame/leaf (customer supplied
+  physical color samples in advance for an exact match). Frosted glass
+  chosen for bidirectional visual privacy between kitchen and living
+  zones, corroborating this store's other frosted/opaque-glass privacy
+  entries. `commercial claim, not independently verified`: the
+  installer's reinforced/shatter-resistant glass is marketed as suited to
+  households with small children, pets, or gatherings. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pd_HXj0jT9g_deli_partition_kitchen_living_install|YT_pd_HXj0jT9g]]]
+
 ### Living Room + Bedroom Combination Zoning (new topic area, added 2026-08-25 — Iolanta Fedotova, 1st source, no dedicated page yet)
 
 > [!NOTE]
@@ -1072,6 +1154,96 @@ bar):
   sheet-stripping. Cites multiple Russian-market manufacturers producing
   this as of filming (2022), and suggests a custom furniture maker if no
   ready-made unit is available locally. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+
+**2nd source, added 2026-08-25 — Mirlay Glass (glazing/partition installer company), a real completed installation:**
+
+- Telescopic sliding-partition configuration for a large room: one fixed
+  panel plus two sliding panels (stacking behind each other when opened),
+  used to make a fully-closable bedroom zone possible while still
+  allowing full opening for shared floor space. Materials: black
+  anodized aluminum profile, tempered frosted glass. `promotional_ratio:
+  high (description only, not the spoken content)`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JTFhwaKEQAY_mirlay_glass_telescopic_partition|YT_JTFhwaKEQAY]]]
+- **Corroborates** the top-track-only/no-bottom-track mounting caution
+  already recorded from `YT_8oZexrWcMUY` (13DS/Olesya) — here from a
+  second, independent glazing/partition installer actually building this
+  mechanism (top track concealed with a decorative trim strip), not just
+  a design studio's recommendation. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JTFhwaKEQAY_mirlay_glass_telescopic_partition|YT_JTFhwaKEQAY]]]
+
+**3rd source, added 2026-08-25 — Ekaterina Popova (individual designer), a worked 3x5m real-dimension example with three furnished variants:**
+
+- Three sleep-solution options with a different trade-off framing than
+  `YT_qHuFie5U65g`: folding sofa (reads most like a living room, but a
+  genuinely comfortable sofa-bed isn't cheap and needs daily assembly);
+  regular bed + good mattress (most budget-friendly best sleep quality,
+  no daily effort, but pushes the room's identity toward "bedroom"); a
+  sofa-bed transformer (same daily effort as a sofa, plus a style
+  constraint - looks "alien" in a classical interior, suits modern rooms).
+  Decision heuristic: guests/living-room-look priority leads to sofa
+  (test in-person first); best-sleep/minimal-effort priority leads to
+  bed; unwilling to give up either leads to transformer, accepting the
+  daily effort. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
+- Corridor-visibility privacy question (genuinely new): consider whether
+  it matters if the unfolded/disassembled bed would be visible from the
+  corridor through an accidentally-open door. Furniture minimalism for a
+  small dual-purpose room: only truly necessary pieces, avoid full
+  packing. Wardrobe placement/camouflage: place on the wall farthest
+  from the window, camouflage its facade as wall paneling. Accent chair
+  should not match the sofa's own collection (avoids a "hotel room"
+  read). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
+- Shared cross-zone table-lamp placement (between the sleep and living
+  zones, lighting both at once); deliberate open-floor reserve left
+  uncommitted for future furniture rearrangement without a full redesign.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
+- Transformer-specific construction/styling cautions, extending
+  `YT_qHuFie5U65g`'s transformer recommendation: avoid ordering a
+  transformer bundled with extra built-in cabinets (looks overloaded -
+  keep to just bed+sofa, small side shelves only); order the transformer
+  and its sofa/chair in a matching light color to look visually lighter
+  (an explicit practicality-vs-looks compromise); **avoid a low-hanging
+  pendant near a transformer's bed zone - the bed mechanism can strike it
+  when opening; use track lighting instead.** Visual-lightness styling:
+  small neutral headboard + tall/exposed legs on a bed, matched by an
+  armless sofa on tall legs; match leg color to unify the two, or use a
+  bold accent leg color to draw the eye away from the bed; switch
+  material for a supporting piece (e.g. metal nightstand) when the room
+  already has several wood-toned surfaces. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
+
+### General Living-Room Layout & Furniture Arrangement (new topic area, added 2026-08-25 — 500LUX/Marina Zvereva, 1st source)
+
+- Define the living room's purpose (rest, entertainment, work,
+  socializing) before placing furniture — the intended use should drive
+  selection/placement, not the reverse.
+- Establish one central focal point per room (fireplace, large TV, dining
+  table, or even a window view) and arrange furniture so it visually
+  draws attention there without anything blocking it.
+- Organize the room around the soft-seating zone (sofa) for comfortable
+  conversation and TV viewing; a larger living room can be divided into
+  sub-zones, but walkways/circulation paths must never be blocked by that
+  zoning.
+- Match furniture scale to the room's actual size — don't overload a
+  smaller living room with oversized furniture.
+- **Lighting minimum-3-layer rule**: general (even ambient illumination),
+  decorative (table/floor lamps for specific tasks like reading), and
+  accent (directional fixtures/art-lighting) — a third independent
+  specialist source (after `YT_TnYExlfWw9c` and `YT_hW1hlDoqDR0`)
+  converging on the same 3-layer minimum, again under its own layer
+  names. **Rearrangement-planning caution**: if furniture is likely to be
+  periodically rearranged, plan only the basic general-lighting layer at
+  construction time (fixed wiring/outlets don't move with furniture) and
+  add accent/decorative layers later with flexible fixtures (lamps, not
+  hardwired spots) instead of over-committing to fixed accent positions.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gEykawbVyYQ_500lux_zvereva_top10_living_room_layout|YT_gEykawbVyYQ]]]
+- Furniture must be functional: side tables next to seating for
+  drinks/books, adequate storage to keep the room tidy.
+- **Rugs are a genuine zoning tool, not just decoration** — a rug
+  delineates a zone on its own; furniture should ideally not sit fully on
+  the rug (leave a clearance gap). A real applied example: two separate
+  rugs independently zone a dining area and a living/sofa area within one
+  combined room, with no physical partition at all.
+- Maintain balance between paired elements (sofa+art, sofa+chair,
+  sofa+table) and keep color palette/furniture style harmonious; avoid
+  overloading a room with too much furniture regardless of room size.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gEykawbVyYQ_500lux_zvereva_top10_living_room_layout|YT_gEykawbVyYQ]]]
 
 ### Room-Zoning Partition Methods (new topic area, added 2026-08-25 — 13DS/Olesya, 1st source, no dedicated page yet — cross-cutting, applies beyond Living/Dining)
 
@@ -1137,6 +1309,35 @@ bar):
   transparent partition avoids it by letting light through. Region
   unstated at level 1 (not routed to `16_Legal_and_Regulations/`).
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mrnTQL0eyBc_studio57_glass_partitions_for_against|YT_mrnTQL0eyBc]]]
+- **Partition material-selection heuristics (generic content-aggregator
+  source, thin but non-duplicative)**: glass/glass-block partitions suit
+  small or poorly-lit rooms specifically because they don't block light
+  transmission and don't visually overload the space (complements, does
+  not contradict, the glass-partition entries above); textile/curtain
+  partitions are the easiest option to maintain (simple to install,
+  change, and clean); a metal partition adds real individuality but needs
+  a deliberate matching design style, not a neutral default the way
+  glass/drywall are. `low-value source — most of its content duplicated
+  existing, more detailed coverage above and was not re-recorded`.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Mf2A7cbTq3s_dela_domashnie_partition_types_materials|YT_Mf2A7cbTq3s]]]
+- Cross-reference: `YT_pd_HXj0jT9g` (DELI, Moscow installer, a real
+  kitchen-living sliding-partition installation) adds a real installed
+  opening size (2m x 2.65m) and a custom-RAL-color-matched MDF frame
+  technique to this topic area's real-project data points — see the
+  Kitchen-Living Combination Zoning section above for the full entry.
+- **Same-channel follow-up video, added 2026-08-25 — Sergey Gusev/ПРО
+  ДВЕРИ (same channel as `YT_DO67YHV5uAU` above; not a new independent
+  corroborating channel per this project's own corroboration rule, but
+  contributes new content)**: a real stated market price range for a
+  quality interior sliding partition — **15,000-20,000 RUB/m²**
+  (≈$160-$220/m², trailing-6-month USD/RUB average before the 2024-11-22
+  publish date), described as the reasonable floor for genuine aluminum+
+  glass quality; cheaper offers flagged as a quality red flag. Frames
+  bottom-guide-track partitions as an outdated "kolkhoz"-era wardrobe
+  design most buyers now avoid — a further (same-channel) data point for
+  the top-track-only convention above. States sliding/hinged partitions
+  generally have fairly high sound insulation because thick laminated
+  ("triplex") or tempered glass is typically used. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xnLiADJF5lw_gusev_partition_pros_cons_pricing|YT_xnLiADJF5lw]]]
 
 ### Kids Room (new taxonomy bucket, opened 2026-08-25 — Olga Kachanova channel, 1st source, no dedicated page yet)
 

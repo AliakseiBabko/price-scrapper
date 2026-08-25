@@ -228,3 +228,14 @@ Evidence-level key used below: **(1) transcript text** → **(2) YouTube metadat
   client budget was given up front. Region unstated, RUB inferred from
   context. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
 
+### Room-Zoning Partition Methods — Real Market Price (added 2026-08-25, Sergey Gusev/PRO DVERI retailer)
+
+- **Interior sliding partition (aluminum + glass), retailer-stated
+  quality-floor price**: 15,000-20,000 RUB/m2 (approx $160-$220/m2,
+  trailing-6-month USD/RUB average before the 2024-11-22 publish date,
+  91.38 RUB/USD). Region: Moscow-based retailer (company showrooms named
+  directly). Delivery model: retail/installer quote, not a self-managed
+  materials-only figure - installation and fabrication by the company
+  are bundled into this price. Cheaper offers explicitly flagged by the
+  source as a quality red flag. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xnLiADJF5lw_gusev_partition_pros_cons_pricing|YT_xnLiADJF5lw]]]
+
