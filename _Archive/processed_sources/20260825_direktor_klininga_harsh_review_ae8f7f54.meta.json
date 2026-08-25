@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=-MJE43WkLP4",
+  "video_id": "-MJE43WkLP4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T12:40:15.526767+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ae8f7f542ca0e750be57527b4f820503daf4c34eccd3ac33c63bc5340ef36cfa",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=QnSnO8bVeNs",
+  "video_id": "QnSnO8bVeNs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T12:49:57.184056+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "bed077f265da75cb43d24181e9e1b80dd77e2a1e4390c264d2d4c6befe49c1d6",
+  "attempts_before_success": []
+}

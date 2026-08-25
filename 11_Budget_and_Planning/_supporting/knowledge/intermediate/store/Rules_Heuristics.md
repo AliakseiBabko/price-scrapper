@@ -1377,3 +1377,5 @@ bedroom:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1amhehTMxcg_kachanova_ideal_2room_family_child|YT_1amhehTMxcg]]]
 
+- **After a legal apartment replanning ("перепланировка"), an inspecting engineer visits to verify waterproofing work before signing off on updated official technical-passport documentation** — a bare procedural data point from one practitioner's real client case; region unresolved in the source and code/jurisdiction unconfirmed, so this does **not** qualify for the Belarus-specific `16_Legal_and_Regulations/` folder's stricter bar — recorded here only. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Kg9ee0cotfM_sidorik_early_bathroom_waterproofing|Kg9ee0cotfM]]]
+

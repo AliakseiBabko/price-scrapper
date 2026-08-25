@@ -77,6 +77,18 @@ distinct from an apartment's own scope.
 
 → **[[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Full detail]]** (pricing structure, cross-brand compatibility caution, safety-critical sensor case studies)
 
+## Fire Safety & Smoke Detection
+
+Four independent sources cover how smoke detectors actually work (optical-chamber/infrared-reflection mechanism), the full detector-type taxonomy (addressable vs. non-addressable systems, point smoke/heat, linear beam, flame, aspirating — each with its own coverage geometry and height limit), real 2-wire loop wiring/loop-current-budgeting technique, and **installation specifically on a stretch ceiling** (mounting platform must go up before the film is fitted) — directly applicable to this project's own ceiling type in several rooms.
+
+→ **[[12_Engineering_and_Systems/analysis/Fire_Safety_and_Smoke_Detection|Full detail]]** (system-type selection logic, detector mechanism & wiring, stretch-ceiling installation walkthrough)
+
+## Security Systems
+
+Two real hands-on DIY camera-system installations (one DVR/coax-based scaling to 16 cameras, one SD-card-per-camera architecture with no DVR needed) cover wiring/crimping technique, PoE vs. separate-power tradeoffs, and real security-specific installation choices (junction-box material, exterior-cable-routing caution). A third, heavily brand-promotional alarm-system demo still contributes general architecture concepts — hybrid wired/wireless sensor design, line-supervision/tamper detection, multi-path communication redundancy — with brand-specific claims excluded.
+
+→ **[[12_Engineering_and_Systems/analysis/Security_Systems|Full detail]]** (camera installation technique, alarm architecture concepts)
+
 ## Source Notes
 
 Traceability record moved to its own page — [[12_Engineering_and_Systems/analysis/Electrical_Source_Notes|Source Notes]]. Not reader content, kept off this page by design.

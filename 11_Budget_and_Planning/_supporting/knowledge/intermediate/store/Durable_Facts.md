@@ -257,6 +257,7 @@ This is a navigation aid over the chronological `###` batches below; it does not
 
 ### Other / Unclassified
 
+- `### Post-Renovation Cleaning Technique (new topic area, added 2026-08-25)`
 - `### Ventilation / Exhaust Duct Concealment (new topic area, added 2026-08-05)`
 - `### Design-Project Process & Deliverable Structure (new topic area, added 2026-08-10)`
 - `### Second Turboscribe Batch (8 sources, added 2026-08-10) — all previously `skipped` for no captions, now processed`
@@ -2088,3 +2089,186 @@ own Change Log for the exact split. `Budgeting_Guide.md` not updated —
 no headline pricing figure from this batch changes its synthesized
 framing.
 
+### Post-Renovation Cleaning Technique (new topic area, added 2026-08-25)
+
+Gap-fill batch targeting a topic with zero prior vault coverage, per an
+explicit full-vault gap analysis. First source: `yt_oF62qDhYkuw`
+(Директор Клининга/"Cleaning Director," a professional cleaning-company
+channel, region unresolved, 2021-03-02). Below the 3+-source page-creation
+threshold for now — see Pending Wiki-Page Decisions; expected to cross it
+within this same batch (4 candidate sources total).
+
+- **A single post-renovation cleaning pass is a real quality/cost
+  tradeoff, not just an upsell**: professional cleaners describe ~90% of
+  clients assuming one pass suffices; the source instead frames cleaning
+  as staged across construction milestones (see the 3-stage sequence
+  below), with the number of passes actually needed scaling with how
+  carefully the renovation crew itself worked. `single-account`. [source:
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]]]
+- **Three-stage cleaning sequence tied to construction milestones, not a
+  calendar**: (1) after rough works/before finish works — full de-dusting
+  of walls, floor, *and* ceiling, including any tile already installed;
+  (2) after finish works/before furniture and fixture installation — a
+  second full de-dusting pass, because dust trapped behind/under a
+  fixture once mounted becomes permanently inaccessible; (3) after
+  furniture/fixtures are installed — final de-dusting and floor wash
+  before move-in. An informal fourth, lighter pass after move-in (mopping
+  up movers' foot traffic) is distinguished from true construction-dust
+  cleaning. `single-account`, but internally coherent with a clear
+  mechanism at each stage. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]]]
+- **⚠️ Dust trapped above a stretch/suspended ceiling before installation
+  doesn't stay put** — it isn't sealed airtight and gradually escapes
+  through gaps/fixture openings over time, becoming a delayed,
+  hard-to-trace dust source that reappears in an already-finished
+  apartment months later. This is the stated reason ceiling de-dusting at
+  stage 1 is important, not just walls/floor. `single-account`. [source:
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]]]
+- **⚠️ Grout haze removal timing, especially epoxy grout**: excess grout
+  film must be wiped off tile immediately after grouting, before it sets
+  — left to dry (especially with epoxy grout), the haze "smears and stays
+  on the tile permanently," only partially removable afterward even with
+  professional cleaning effort. `single-account`, concrete mechanism.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]]]
+- **Window-frame factory protective film degrades if left on through a
+  renovation** (UV/weather exposure makes it brittle, forcing mechanical
+  scraping that risks frame damage) — cover the original film with an
+  additional taped-down layer instead of relying on it to peel cleanly
+  later. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]]]
+- **⚠️ Chemical paint-solvent removal on a factory-finished surface can
+  strip the surface's own finish along with the unwanted paint** — a real
+  incident is cited (a fireplace door's factory coating removed alongside
+  contractor paint splatter by the same solvent), framed as a real,
+  sometimes irreversible risk needing informed client consent, not a
+  routine safe cleaning operation. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]]]
+- **Combining cleaning into a single pass is a defensible cost-saving
+  choice for a budget renovation, but not recommended for a higher-end
+  one** — the full multi-stage sequence is framed as necessary to reach a
+  genuinely dust-free result on a higher-value finish. `single-account`,
+  practitioner's own framing/opinion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]]]
+
+**Second source from the same channel/practitioner** (`yt_-MJE43WkLP4`,
+same Директор Клининга channel — not independent corroboration, see
+`00_Master/wiki_page_format.md`'s "same channel ≠ independent source"
+rule; treated as this practitioner's second data point). A real-time QC
+walkthrough of a friend's apartment, largely non-overlapping content with
+the first source (a concrete "where dirt hides" checklist rather than the
+staged-process framework):
+
+- **⚠️ Kitchen facade protective-film adhesive residue must be actively
+  washed, not just peeled** — the leftover glue layer rapidly attracts
+  dust/dirt until properly cleaned. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **QC technique: check surfaces under strong/direct or accent lighting,
+  not just casual ambient light** — grout haze and dust on a backsplash
+  can be fully invisible under normal room lighting and obvious once
+  brighter lighting is switched on. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **Commonly-skipped hidden spots**: kitchen-drawer undersides/back
+  cavities, radiator fin interiors (needs a steam cleaner + narrow brush
+  attachment — **⚠️ named fraud risk**: some cleaners fake this by
+  spraying/wiping only the visible front), windowsill undersides, and
+  cabinet/door handle grip surfaces. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **⚠️ Bathtub access-screen removal is a genuine skill/liability gap** —
+  whether it can be safely detached to clean behind it isn't always
+  something a general cleaner can judge; real options are calling a
+  specialist, spending significant extra time, or the client accepting it
+  stays uncleaned behind the screen. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **⚠️ Door/window-frame top edges (above the sash) commonly hold heavy
+  construction dust on every interior door, not just windows** — remove
+  by dry vacuuming with a brush nozzle from a ladder; wiping construction
+  dust with a wet cloth on wood/dusty surfaces is called "madness" (it
+  smears rather than removes). Window rubber gasket/seal also conceals
+  dust invisible without physically pulling the seal back. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **⚠️ Never let the renovation crew wash windows themselves** — a crew
+  scraping dried paint off glass with a flat putty knife/scraper
+  permanently scratches it; professional cleaners should remove dried
+  paint from glass instead. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **Interior-only window washing on a sealed/non-opening high sash leaves
+  faint streaks visible only at certain lighting angles** — a genuinely
+  streak-free result requires exterior access (e.g. a rope-access window
+  washer); a real, accepted service-tier limitation for standard interior
+  post-renovation cleaning. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **Mechanism for why staged cleaning outperforms a single pass**: dust
+  disturbed during any de-dusting pass visibly resettles within the same
+  session; a staged process catches this via the *next* stage's own
+  de-dusting pass, while a single-pass clean has no such self-correcting
+  step. An air humidifier run during cleaning is used as an active
+  dust-control technique (heavier, humidified dust settles instead of
+  continuing to circulate). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **Correct door-handle taping order**: cover the handle in plastic film
+  first, then tape over the film — taping directly onto a bare handle
+  leaves adhesive residue that's harder to remove. Floor transition
+  thresholds are a commonly-missed protection point, scuffed by debris
+  bags dragged across them if not taped/covered like the rest of the
+  floor. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+- **⚠️ Second independent chemical-damage incident from the same
+  channel**: an acid-based cleaning product spilled/left near a faucet
+  fitting, combined with hot water, damaged the fixture's finish — the
+  team's stated policy is to replace the item and own the mistake.
+  Reinforces the fireplace-door solvent-damage caution from the first
+  source with a second example. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+
+**Third source, first genuinely independent channel** (`yt_iu-GGC7hEKA`,
+Ирина Илёнова, an independent solo cleaner, Moscow level-1) — the
+densest source in this batch, real-time on-the-job narration:
+
+- **⚠️ Third independent instance of "wrong chemical destroys a finish"**:
+  never use solvent/acid-based cleaner on acrylic bathtubs or organic
+  glass ("оргстекло")/plexiglass shower panels — solvent visibly clouds
+  organic glass almost immediately; use a dedicated weak-acid
+  plumbing-specific product instead. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+- **⚠️ Post-renovation window cleaning is a distinct three-sub-step
+  process**: (1) a first soapy-plus-acid-cleaner pass removes bulk
+  construction grime, streaks accepted at this stage; (2) a steam
+  generator flushes fine construction dust packed into the frame track
+  and hardware — the step that makes post-renovation window cleaning
+  meaningfully harder than routine cleaning; (3) a final squeegee/
+  magnetic-tool polish pass done from *both* interior and exterior sides,
+  since spots missed from one side only show from the other. Real time
+  benchmark: **~1.5 hours** for one especially dirty window. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+- **Polished/high-gloss porcelain tile needs a fully dry pre-wipe before
+  any wet chemical** — wiping while already wet on a dusty glossy surface
+  produces near-permanent white haze/streaks; dry-wipe first, then apply
+  solvent via a damp cloth and immediately dry-polish before it
+  evaporates. Lower wall sections accumulate disproportionately more dust
+  than higher ones (gravity settling) — clean zone by zone, not one
+  continuous pass. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+- **Every plumbing fixture must be fully dry, not just clean, at
+  handover** — visible dryness is what reads as "clean" to a client.
+  Mosquito screens need their own steam+chemical+rinse process and a
+  seasonal indoor-storage rule (roughly December-March) since outdoor
+  winter exposure degrades the synthetic mesh. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+- **⚠️ Occupational-health caution, first explicit framing of its kind in
+  this vault's cleaning content**: routine chemical/solvent exposure is
+  named as a real reason people with allergies/asthma should reconsider
+  professional cleaning work; cheap (~80 RUB) disposable gloves degrade
+  quickly under the same chemicals. Professional-conduct notes: cleaners
+  don't move furniture/appliances themselves (movers' scope), and warn
+  occupants before re-entering a room mid-task. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+
+**Page created this session — threshold crossed (2026-08-25)**: 3 usable
+sources now on record (2 from Директор Клининга, 1 independent from
+Ирина Илёнова); a 4th candidate (`yt_EzGU6yaUwus`) was fetched but
+returned content-free captions and logged `skipped` in
+`00_Master/processed_sources.csv`. Per this store's 3+-source threshold
+rule, [[11_Budget_and_Planning/analysis/Post_Renovation_Cleaning|Post-Renovation Cleaning]]
+was created this session, linked from `Budgeting_Guide.md`. This entry's
+Pending Wiki-Page Decisions note is resolved below.
+
+
+## Living in the Apartment During Renovation (added 2026-08-25, gap-fill batch)
+
+Alexey Zaharchuk (individual builder, region unresolved — RUB implies Russia, no city named), the strongest source found for a topic with zero prior vault coverage:
+
+- **⚠️ Occupying an apartment during its own renovation blocks basic hygiene/logistics in specific, checkable ways**: no functioning shower (tub and mixers are installed last specifically to avoid damage during the rest of construction); the temporary construction toilet is repeatedly connected/disconnected for other trades' work; no washing machine/iron, so laundry can't be cleaned; no kitchen (no cabinetry, no cooktop connection) forcing reliance on delivery food; a refrigerator is explicitly incompatible with an active site (dust/humidity risk).
+- **Windows generally must stay closed during wet/dusty rough-stage work** (skim-coating, fiberglass wallpaper, floor pours), meaning the occupant breathes drying-material moisture/dust in an unventilated space; belongings must be repeatedly relocated room to room as work progresses, adding time cost and damage risk.
+- **⚠️ Stress/sleep-deprivation from occupied-site living reportedly degrades the client-contractor relationship and the occupant's own outside-work productivity** — a real practitioner-observed secondary cost, not just a comfort complaint. Storage clutter (materials, offcuts, debris routed through a hallway used as staging) makes genuine cleanliness impossible even with daily effort.
+- **⚠️ Some contractors decline occupied-renovation jobs outright, and those who accept charge more** — inexperienced occupant-clients reportedly generate more friction (judging interim states, asking more questions, slowing work), which is the stated reason some builders refuse such jobs and others price them higher.
+- **⚠️ Phased (room-by-room) renovation while occupying the unit creates real cross-room quality/damage risk**: already-finished flooring in a lived-in room can be damaged by work in an adjacent room (worked example: laminate swelling from a concurrent screed pour next door); belongings relocated between rooms risk physical damage; a consistent finished-floor level across rooms becomes genuinely difficult to achieve without exposing all rooms together; proper whole-apartment electrical/plumbing rough-in similarly becomes difficult without touching every room at once.
+- **⚠️ A real safety-liability incident**: a client family locked a worker inside the unit while away; the worker suffered a foot injury during that period, with timely medical help only narrowly available. Stated rule: a worker must always be able to leave the site for medical help; this incident is the company's stated reason it no longer accepts occupied-residential-unit renovation jobs at all.
+- **Children present elevated injury risk on an active site** (electric shock, general injury) requiring continuous supervision if occupancy with children is chosen.
+- **⚠️ Quantified rent-vs-live-in-place comparison**: for a ~50m² apartment, mid-range renovation (~1,000,000 RUB) over 4 months — renting alternate housing for the duration is estimated at ~48,000 RUB total, while living on-site is estimated to push the same renovation to ~1,000,000-1,200,000 RUB (contractors charging more for occupied-unit jobs), before counting damaged-belongings cost. Net conclusion: renting plus separate storage is argued cheaper than living on-site once contractor markup and belongings-damage risk are counted, even before comfort/stress. Region unresolved — recorded as a bare data point, not used for cross-source comparison.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2ZNSYED46LQ_zaharchuk_living_during_renovation|2ZNSYED46LQ]]]
+
+## Planning Rules — Wet-Zone Expansion Restriction (added 2026-08-25)
+
+Karen Badalyan (individual homeowner, Moscow level 1 — landmark references): per housing-inspectorate ("жилищная инспекция") norms, a wet zone (bathroom/toilet) may only be legally expanded by annexing **non-residential corridor/hallway space** — expansion into the kitchen or into a residential (bedroom/living) zone is categorically prohibited and will not be approved/legalized. `confirmed`, Moscow level 1, a real practical planning constraint for any apartment layout change involving a wet room. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HpCg-xIrOlg_badalyan_1room_apartment_tour|HpCg-xIrOlg]]]

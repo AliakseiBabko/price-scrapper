@@ -58,6 +58,10 @@ and every apartment connects to it, removing outdoor-placement choice entirely (
 a Moscow-City-area development, name transcribed uncertainly as "ЖК Nivers в Сити" —
 `ASR-uncertain`). `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
 
+## Ventilated-Facade-Cavity Outdoor Unit Recessing, and Balcony-Placement Usability Tradeoff (added 2026-08-25)
+
+Forcemontage (turnkey renovation company, real project, region unresolved) extends this page's existing outdoor-unit-placement taxonomy with two real-case items: **balcony placement is technically workable but makes the balcony unusably hot while the AC runs** — a real usability tradeoff distinct from the building-restriction/serviceability rationales already above. A real solved case for a facade with no pre-designed basket and a ban on standard facade mounting: the outdoor unit was **recessed into a ventilated-facade cavity**, mounted on brackets fixed to the building's own monolithic structural slab, saving the boxing space a standard surface mount would need, with a dedicated serviceable access hatch planned separately for maintenance. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7vjW6SzHeWM_forcemontage_ventilation_types_cost|7vjW6SzHeWM]]]
+
 ## Indoor Unit Placement Rules
 
 Three rules, consistently given by an AC installation specialist:

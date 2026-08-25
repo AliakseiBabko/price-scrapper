@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=rsTdXaLenEw",
+  "video_id": "rsTdXaLenEw",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T12:39:50.533245+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "cd7a0563782a92ba317eb255fe71682b201c7a1f1fdd5f7f200bc4d74e7e9f9b",
+  "attempts_before_success": []
+}

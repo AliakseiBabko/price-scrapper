@@ -8,9 +8,10 @@ How a space is actually lived in, day to day: color and material choices, how fu
 ## Current state
 
 As of 2026-08-25 this folder has real content on family-scenario-driven
-layout decisions, decor/finish selection technique, and functional
+layout decisions, decor/finish selection technique, functional
 zoning/furniture arrangement (including a cross-cutting Room-Zoning
-Partition Methods reference). Color-theory and cross-room-coherence
+Partition Methods reference), and curtains/window treatments (a
+four-channel gap-fill batch). Color-theory and cross-room-coherence
 sections below remain thin or placeholder pending more sources — there
 are, per the user's own observation, many other channels with dedicated
 design content not yet processed into this vault.
@@ -68,6 +69,24 @@ several long/narrow-room and low-ceiling furniture techniques
 geometry) cross-referenced with the new `06_Small_Bedroom` guide.
 
 → **[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Full detail]]**
+
+## Curtains & Window Treatments
+
+Four independent practitioners so far, converging on light control
+(layering, organza vs. voile, blackout/dimout material vocabulary),
+color/pattern matching (a shared 60/30/10 formula, four wall-matching
+techniques), room/window proportion correction (via geometry, color, and
+fabric density/weight), construction technique (pleat + lining as the
+single biggest "looks expensive" lever, a precise width-calculation
+formula with header-type coefficients), four named curtain-length regimes
+(including a motorized-track drag mechanism), rod/track selection and
+placement (a numeric ceiling-height rule of thirds, recessed-niche depth
+figures, a shared "fabric first, rod last" load-bearing sequencing rule),
+and a distinctive physiological "lemon test" for resolving color-choice
+indecision. Two sources independently converge on the same aesthetic-
+restraint closing principle via different analogies.
+
+→ **[[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Full detail]]**
 
 ## Whole-Apartment Design Coherence
 

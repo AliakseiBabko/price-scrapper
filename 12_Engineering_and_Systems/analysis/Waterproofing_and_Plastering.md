@@ -119,6 +119,26 @@ filling a gap in this page's otherwise roll/membrane-heavy coverage:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C0FOWRxqWX4_sidorik_bathroom_waterproofing_technique|YT_C0FOWRxqWX4]]]
 
+### Two Independent Additions Using the Same Ceresit CL 51 Product (Сергей ByPas, added 2026-08-25)
+
+Сергей ByPas (individual practitioner, region unresolved, `single-account`) — a second, independent single-bathroom brush-on waterproofing demo that heavily overlaps the Sidorik source above (same product, same corner-taping and two-coat cross-hatch technique) — only the two genuinely new details below are added:
+
+- **⚠️ Bathtub-perimeter gap-tape technique**: tape the tub's own perimeter leaving a deliberate ~5mm gap before waterproofing across it, relying on the mastic's own elasticity to flex across that gap without cracking if the tub shifts slightly over time — a deliberate margin rather than waterproofing tight to the tub edge with no give.
+- **⚠️ Spray-applied automotive mastic for unreachable pipe-penetration clusters**: where multiple penetrations (grounding conductor, sewage stack, hot-water riser) cluster too closely for a brush to reach every pocket, switch to an automotive-type spray mastic aerosol, applied under pressure from multiple angles in several passes (20-30 min dry time between coats) until full coverage is visually confirmed — explicitly framed as necessary for the waterproofing to actually function, not just look complete for a client handoff.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UnzHKHcizto_bypas_bathroom_waterproofing|UnzHKHcizto]]]
+
+### Two-Tone Product QC Technique and Cost-Tiered Zone Scope (Pavel Sidorik, 2017 video, added 2026-08-25)
+
+Pavel Sidorik (same practitioner as the source above, an earlier 2017 video, region unresolved for this specific source, `single-account`) — uses a different product (Weber Tech 822) on a real two-wet-room apartment; adds three genuinely new items beyond what's already on this page:
+
+- **⚠️ Two-tone (pink then gray) mastic as a self-verifying QC mechanism**: first coat pink, second coat gray — any spot where the second coat is missing or thin stays visibly pink instead of gray, making coverage gaps immediately obvious by eye, unlike a single-color product.
+- **⚠️ Cost-tiered scope by zone, extending the existing partial-scope tradeoff above**: full mastic+tape coverage on the floor and true wet zones (shower, tub-mixer area); only ~10cm up the walls elsewhere; **the remaining wall area switches to cheaper ordinary cement-based waterproofing rather than being left unwaterproofed** — a more granular cost-saving structure than "skip non-splash-zone walls entirely."
+- **Deliberate thin-layer control for tile compatibility**: combined two-coat thickness kept to **0.8mm** specifically so the resulting ridge at corners doesn't complicate later tile leveling.
+- A real replanning ("перепланировка") case notes an inspecting engineer must approve the waterproofing work before updated official documentation can be issued — bare procedural detail, region/code unconfirmed, routed to the general store rather than the Belarus-specific Regulations folder.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Kg9ee0cotfM_sidorik_early_bathroom_waterproofing|Kg9ee0cotfM]]]
+
 ## Plaster Substrate Prep, Crack Prevention, and Mesh Reinforcement (added 2026-08-24, Round 3, ep.11)
 
 Pavel Sidorik (individual finisher, `single-account`), 1st of 5 consecutive

@@ -31,6 +31,8 @@ RemProektMD/Andrei recommends **stretch ceiling over a painted drywall-boxed cei
 
 **Recessed/point-lighting cost caution**: each individual light penetration through stretch-ceiling film is priced separately (a backing plate/hardware is required under every hole, adding material + labor cost per hole) — prefer 1-2 diffuse fixtures per room (chandelier or a surface-mounted LED "soft-box" type) over many recessed point lights.
 
+The same backing-plate-before-film logic applies to a smoke detector, not just light fixtures — see [[12_Engineering_and_Systems/analysis/Fire_Safety_Stretch_Ceiling_Installation|Fire Safety: Stretch Ceiling Installation]] for the mounting-platform sequencing, clearance rules, and film-penetration technique specific to this project's own ceiling type.
+
 ## Cornice/Stretch-Ceiling Incompatibility, and a Named Ceiling Soundproofing Product (Петришин-Строй, added 2026-08-24, Round 3)
 
 Real object, ЖК "Фестиваль Парк" (region level 2, named development,

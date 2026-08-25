@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=RwyPR2RFZYM",
+  "video_id": "RwyPR2RFZYM",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T12:38:11.623064+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ae19572a3f86245e1247a92c95661a0c7f1e33bebb6f3ac656de49c12756d61c",
+  "attempts_before_success": []
+}
