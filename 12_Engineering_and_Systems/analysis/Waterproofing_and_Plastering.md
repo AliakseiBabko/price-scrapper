@@ -12,6 +12,47 @@ Covers code-level waterproofing requirements, the gypsum-vs-cement plaster trade
 - **Always wrap the sewage stack in sound-insulating material during any bathroom renovation in a multi-unit building** — corroborated by two sources; one gives concrete product/cost detail (a bitumen-adhesive wrap kit, ~3,000–5,000 RUB, a few hours of DIY-feasible installation). Without it, plastic-stack drain noise from an upstairs flush is described as sounding like "a waterfall behind the wall" — a comfort issue, not a structural one, but a low-cost fix worth including as standard scope. [source: [[_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt|20260804_never_take_this]]]
 - Zemstandart/Alexey Zemskov recommends: **Brush-on/paint-applied waterproofing should always be bright blue, never gray** — gray waterproofing is visually indistinguishable from the surrounding gray plaster, making coverage gaps invisible to a non-expert inspecting the work. Bright blue makes any missed patch obvious even without training. [source: `_Archive/processed_sources/20260804_split_rough_finish_contracting_and_rough_stage_checklist_9a4efa5e.txt`]
 
+## Flat-Roof/Exterior Waterproofing Case Study — General Technique Reference (added 2026-08-25, Sergey Kodolov)
+
+**⚠️ Not this project's own scope** — this is a real flat-roof/villa
+repair case in Dubai, UAE, an exterior/roof context, not an apartment
+interior. Recorded as general waterproofing-technique reference only
+(the underlying mechanisms generalize even though the specific
+application doesn't):
+
+- **⚠️ Water-ponding flood test methodology, a real QC technique**: after
+  waterproofing a horizontal surface, flood it entirely and place a
+  marked bottle/gauge with a visible reference water-level line,
+  accounting for expected evaporation loss at the day's temperature
+  (checkable via reference tables); hold for multiple days (3 days on
+  this project) — if the actual level matches the expected-evaporation-
+  only line with no unexplained drop, there's no leak. **Explicitly
+  rejects "no visible leak inside" as a reliable test** — a leak can
+  travel behind furniture undetected for a year before black mold
+  appears; only a flood/gauge test is treated as reliable evidence. This
+  requires the membrane to be run up and terminated against an
+  adjoining wall (not stopped at the floor plane) so the test water can
+  actually be held at a raised level rather than running off an edge.
+- **Two-component waterproofing membrane can fail from application-time
+  heat, not just service-life exposure** — applying it during direct
+  midday sun in a hot climate caused visible crumbling; switching to
+  evening/night application (cooler surface) fixed it. General rule for
+  hot-climate exterior waterproofing: schedule application for cooler
+  hours, not midday.
+- **Every joint/corner must be sealed with zero exceptions** — a single
+  missed joint let water pour directly into a building, defeating an
+  otherwise complete waterproofing job elsewhere. Reinforcing tape plus
+  mesh at every corner, applied in multiple passes, since corners are
+  disproportionately the highest-failure-risk points.
+- **"Waterproofing is systemic, not additive" — one missed penetration
+  point can fail the whole system and be effectively unfindable
+  afterward**, sometimes forcing a full redo rather than a patch fix.
+- Reduce mechanical-support/post clutter *before* waterproofing around
+  equipment mounts — too many closely-clustered support posts can make
+  it physically impossible to properly wrap waterproofing around each
+  one.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AB76kZYvoaI_kodolov_flat_roof_leak_repair|AB76kZYvoaI_kodolov_flat_roof_leak_repair]]]
+
 ## Floor Waterproofing Membrane Installation & QC
 
 Four videos from a "general renovation tips" playlist (same channel, `single-account`) cover rolled bitumen/felt-backed membrane installation and acceptance-inspection in unusual technical depth:

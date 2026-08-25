@@ -44,6 +44,50 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
 
 **Cluster a multi-circuit switch group near the seating/sofa position in a combined kitchen-living room**, controlling separate lighting circuits (e.g. kitchen zone + loggia zone) from one location rather than scattering single switches at each zone's own entry. Pairs with the balcony-door-slope socket guidance below. **A balcony/loggia door slope (откос) should carry at least two sockets** — practical loggia-zone device/lighting need, not just a design flourish. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_WmkOC9uKnCQ_kitchen_living_loggia_layout_lifehack_154|YT_WmkOC9uKnCQ]]]
 
+## Switch Side-Placement, Back-Box Alignment, and Rough-Stage Sequencing (added 2026-08-25, Sergey Kodolov)
+
+Sergey Kodolov (turnkey company owner, multi-city Russia + Dubai) adds
+detail this vault's existing 90cm-height / 15cm-from-opening-edge switch
+rule didn't yet specify:
+
+- **Which side of the door opening a switch goes on**: the same side the
+  door opens toward (the handle side) — so it can be found and pressed
+  without looking, rather than fumbling on the hinge side.
+- **⚠️ Rough-stage back-box (подрозетник) alignment is the real leverage
+  point for a clean finish install** — back-boxes must be level-set and
+  installed exactly in line during the rough electrical stage; a finish
+  electrician then simply clips frames on with no correction needed.
+  Sequencing implication: put your most experienced electrician on the
+  **rough** stage, not the finish stage — a bad rough alignment can't be
+  fixed later by even a skilled finisher snapping on plates.
+- **Back-box selection criteria and a real price range**: 15–250 RUB per
+  unit; pricier back-boxes install more precisely and hold cable/
+  connections more securely. Choose based on wall material/thickness,
+  available recess depth, humidity, whether grounding contacts are
+  needed, and whether frequent access is needed (a covered/lidded
+  back-box variant exists for that case, though rarely actually needed in
+  practice).
+- **"No junction boxes, one breaker per outlet" flagged as a cost-inflating
+  Moscow ultra-premium trend, not a real technical upgrade** — wiring one
+  dedicated breaker straight to one single outlet (skipping the standard
+  branching junction-box topology) carries no functional benefit per this
+  source; watch for it as tier-steering rather than genuine improvement.
+- **"When debating a socket count, round up" heuristic**: if unsure
+  between e.g. 2 vs. 3 outlets at a location, install 4 instead — framed
+  as near-universal experience that occupants end up wanting more outlets
+  than originally planned.
+- **General living-room socket spacing rule of thumb: roughly every
+  2-3m along the walls**, distinct from a room's fixed-point sockets
+  (TV, appliances, etc.).
+- **Group audio/video/computer-equipment outlets at one location** to
+  avoid needing extension cords/power strips later.
+- **Reflected wall-elevation drawings (развертки) have a concrete,
+  checkable long-term purpose**: with a documented socket/switch layout,
+  the wire path from any outlet runs straight up or down at exactly 90° —
+  so years later, a homeowner can predict "there's a wire directly above
+  this outlet" and avoid drilling into it when hanging a picture or shelf.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QfTqabNW1Lc_kodolov_electrical_rough_install|QfTqabNW1Lc_kodolov_electrical_rough_install]]]
+
 ## Electrical-Panel Niche Sizing Formula (added 2026-08-19, remainder-pool Round 2)
 
 **⚠️ Electrical-panel recess: minimum 110mm panel installation depth → build the niche to at least 140mm deep.** If the host wall isn't thick enough to net a structurally sound remainder after recessing, thicken it first — worked example: a 200mm neighbor-shared wall thickened to 250mm specifically to make a 140mm-deep niche viable. **Full coordinate sequence, worked example**: from the floor screed, offset 1200mm up for the niche's bottom edge, then a further 500mm for the niche's height (spanning roughly 1200-1700mm above the floor); horizontally, offset 100mm from the neighbor-shared wall, then 400mm for the niche's width. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C4lUAfJyyb0_developer_stolen_meters_170|YT_C4lUAfJyyb0]]]

@@ -1,0 +1,1264 @@
+{
+  "playlist_url": "https://www.youtube.com/c/AnutaVlady/videos",
+  "generated_at": "2026-08-25T10:04:56.721654+00:00",
+  "counts": {
+    "duplicate": 5,
+    "private": 0,
+    "unavailable": 0,
+    "no_captions": 0,
+    "fresh": 150,
+    "rate_limited": 0
+  },
+  "csv_notes_mismatch": {
+    "in_index_no_note": [
+      "-k0oupEu3pM",
+      "-zgPfpGkwBw",
+      "1pLziv7Ri_k",
+      "2m1OOssKl-A",
+      "2mLS8dbqv04",
+      "41AEg9cCxO0",
+      "6lacLnqpJbM",
+      "74c0MGLFGT4",
+      "7Y4YsWPYg4s",
+      "7l0izpXaPx8",
+      "7qxFoOsLAe8",
+      "8MiJ6k5ujBU",
+      "8zm_5NjbGNA",
+      "9FSb8Kr55r0",
+      "ANYrUhhlKyw",
+      "ATRswtIp1OM",
+      "AaPvIn4s1SQ",
+      "B7BHeVD-smk",
+      "BPiw6b-Sm_c",
+      "CQM-pFRJBKY",
+      "CYllCjooMrE",
+      "DPnZjaSPACA",
+      "DsDbKEwR4pY",
+      "Dt8Ec_eTlXg",
+      "EbwgImqhnOQ",
+      "ElHcpT5WlUA",
+      "F6cBEeTw518",
+      "HE4u2vprC88",
+      "I0PUIxd9MQ8",
+      "IHmGfrQFc6Y",
+      "JHP3Fuf2KyA",
+      "Kj71Nk5CqLM",
+      "L_PWNMQC9iE",
+      "Ld-OWPUFlGE",
+      "MIA1tpRglGg",
+      "Nj0li7AdsvM",
+      "O6PNsmWaHYc",
+      "PRifljKyKfU",
+      "PaUWD6q_EAY",
+      "PbE1pgGCliY",
+      "QG3QNM9BESc",
+      "QbV-BBySZeU",
+      "R7Z_mJLwVpc",
+      "R_9_QLAsE-k",
+      "U6vunPg3OGw",
+      "XIDyyxjIwC8",
+      "XWmoyTQK1AQ",
+      "XahTpDGjf9w",
+      "XfEaoo82qnE",
+      "XhRHqDm2H2Y",
+      "XlvilzilV-c",
+      "Y3exSOS2Ob8",
+      "YLKN-UB4XG4",
+      "YQAm9PqK2ec",
+      "YaWcDOWHor4",
+      "Z4gS_W0sfaM",
+      "ZXpWoAcR08U",
+      "ZkdGHHPtfh0",
+      "a98BTmgIoik",
+      "b4ErDSHBY_4",
+      "bLG-v5bLHNs",
+      "c3qpHyJgBQ8",
+      "cqzGSjx7Gvg",
+      "fkt1LmF9D9M",
+      "frU2mqIMrPs",
+      "g3xI4531t_s",
+      "gD8KMGlS9ac",
+      "gbxv92vD36U",
+      "huvdLUEruBM",
+      "hxPXzLu0P3g",
+      "iHu5gijczA4",
+      "iRqMhrVT8pM",
+      "j-6A0DmjB_o",
+      "jObP8pTt7FY",
+      "jOvCg-d45w4",
+      "jhEqPMn3mBA",
+      "jseYAjJkab8",
+      "kBJZkSOp4-Q",
+      "mhE_5qlJ0KU",
+      "n-LzQXs3x9o",
+      "q4r7i8qccB4",
+      "qC5GNBHceJk",
+      "rGc_nGYY4mU",
+      "s1cWUR4l90w",
+      "to_ujRxQUbk",
+      "ty-t8aNelyY",
+      "v8GexdJC8ys",
+      "vCwxplOGtfY",
+      "wUXlaDnHiQw",
+      "wxkTw0YdxdU",
+      "xbq9Jl_yrsU",
+      "ym_Jd2mEL18",
+      "z1G8qqAUQnY",
+      "zAXDi2PvWz4",
+      "zOpmb-CmQI8",
+      "zjO0LugKt8Y"
+    ],
+    "in_notes_no_index": [
+      "-JlpzE6aHiU",
+      "0Nnv6VedbVo",
+      "0hjkfIfzkUw",
+      "0sJPlpi8I2U",
+      "16k0TS363rM",
+      "1_nKzwNZD6w",
+      "1amhehTMxcg",
+      "1dp7alivsLQ",
+      "1gXYL99mfY4",
+      "1x7srLdq12I",
+      "2cHetaq1bt0",
+      "2fLCiWU6U-I",
+      "3rbIBKfZDBY",
+      "3sRfRiQ8XfE",
+      "3vIpdUvgWW0",
+      "4O1UqRqpApw",
+      "4bv7Aa6YLCo",
+      "4jAQ526Zy2w",
+      "55zALDsXP2E",
+      "66pn-nIOJkg",
+      "6jC0aA1ZqWs",
+      "7LAB25SCQ1Q",
+      "7QuzCGvDG_w",
+      "8B2xnSNEqqs",
+      "8HnZ2m8vkZQ",
+      "8IW762yALfc",
+      "8QBqwydVND8",
+      "8dyPTnmOHKs",
+      "8oZexrWcMUY",
+      "9-NjgDLleOw",
+      "92hhojQNQTw",
+      "96mlkQoczI4",
+      "9ykrlQ5tpBs",
+      "A4OmiqS6kYo",
+      "AcNu6CHE7Y4",
+      "BFbNL-DjDh4",
+      "BpqCE2DeN9E",
+      "C-3BcpXDRnk",
+      "C-db6yom-IM",
+      "C0FOWRxqWX4",
+      "CVTf-a4XIEI",
+      "CVqedVQlZZU",
+      "Cj2U_wVlG-I",
+      "Cr1vew4sA9g",
+      "D-DFsBMjlxQ",
+      "D1REgSDwILU",
+      "DO67YHV5uAU",
+      "E7M-bWWSmfw",
+      "EQW9y4bNea0",
+      "EWNki2-ZFzQ",
+      "F0ZHsu4k6JY",
+      "FRRT0ZrhjaI",
+      "G03YKmotYP4",
+      "G0vtTswg5Ck",
+      "GC2vize3KQ0",
+      "GLU9nJYrtbQ",
+      "GfixqWjsD58",
+      "H6atjh_g1jQ",
+      "HGN_3WeL0Jk",
+      "HqmQaZ1y1UM",
+      "I-iSW-9NHAs",
+      "I8js5-kLrYI",
+      "IFnZxitFeNk",
+      "IWVPepWlzSs",
+      "IoQaozB-DYA",
+      "IoQiGtso9Vk",
+      "Is76QlotVFE",
+      "JLjCveR-ft0",
+      "JTFhwaKEQAY",
+      "K-OopxgJ8wY",
+      "KlIQxR3vWU8",
+      "L0kI_PZKvmQ",
+      "LEsmpI8bWCY",
+      "M3HFaYaRC6M",
+      "MOYwhSd8tv4",
+      "Mf2A7cbTq3s",
+      "N36scNqRwII",
+      "NWLckaXH1_U",
+      "NjOkuREH8lI",
+      "NyIj6h8hZHw",
+      "O4pGx8ESHDU",
+      "OP8ALhLynHE",
+      "O_2Jji7NAHQ",
+      "OcqynathaX8",
+      "OfqkRAZUfe0",
+      "OgIZhrxD4v4",
+      "Oh4hGMZ90mw",
+      "OperMXnGmXE",
+      "Oxv_w9zejsA",
+      "P8GMYTARyNU",
+      "P8t_d7J9fm4",
+      "PBkZQHkjciE",
+      "PJKk1BwtgVY",
+      "PmxmmzyUZjg",
+      "Q0sVq_1SIQM",
+      "Q1KSHFhLzJo",
+      "Q6GKMOJuaPc",
+      "Q70kwfR0LGs",
+      "QcYJwQgu67g",
+      "QginFVl00Hw",
+      "Qt4uGvGRYT0",
+      "QtQBGLzS698",
+      "RNiSYvLX6Vc",
+      "RfcoPP3dvcQ",
+      "Rm0aHk4flxc",
+      "S23VRWxzz08",
+      "S3Mn1FvQhKI",
+      "S4fOYedAruE",
+      "SERg4hiCWdE",
+      "SG0nbNRdl4c",
+      "TF0XTvwWyYg",
+      "TFu0lu-_rzQ",
+      "TJBcEpXymYk",
+      "TKTKBmTkebg",
+      "TnYExlfWw9c",
+      "Tq2IELynaGs",
+      "U95vMOOhKH8",
+      "UhE9cOJ35FY",
+      "VZk4615VM6I",
+      "VcrYHkDgb0o",
+      "VqrXg-tDRO8",
+      "WK-KLd2ssYY",
+      "Wj_i-4GhOQk",
+      "Y9PGtPmcMms",
+      "YarbTzTfq6I",
+      "YxXfsKoyx6M",
+      "Z1IuJFudcPY",
+      "ZW-dNzbCREI",
+      "ZlvJE-ncrK8",
+      "_6E5wt-PfqQ",
+      "_GL2t3cdSi8",
+      "_TGU8C0u010",
+      "a_i8pGVa7-w",
+      "ah3StuP2TZE",
+      "ar4HNfWjzh4",
+      "b0FeObtj2bo",
+      "bF1I2olZSc0",
+      "c4mmaLAsDw4",
+      "cM0AndkKdVk",
+      "caDB-roRasI",
+      "d5a3hti_P8g",
+      "d8WzpxSSX8k",
+      "eInWxbd_UiA",
+      "fIicREPruVs",
+      "g1b6Hxx-HUk",
+      "gCI2qF34Dss",
+      "gEykawbVyYQ",
+      "gKBzDEllg4M",
+      "gNN7G7vNyqY",
+      "gREGOOA2OHo",
+      "gWAOrislxFY",
+      "hCN5Cl7T2Qc",
+      "hN7szX2re2c",
+      "hW1hlDoqDR0",
+      "hpU_xEXmdvE",
+      "hrhJ6Y8hhPU",
+      "izhaUHRKViw",
+      "jxx99px88HA",
+      "k9CrEU5RuIE",
+      "kXGYTsBTKj8",
+      "kkQbz_lXTjU",
+      "l4bXbwfOlrU",
+      "lTeNBUR1u8g",
+      "lbaZ__wbLWo",
+      "lvixGbwo0Ug",
+      "mMr8Xnt95rE",
+      "mONJ1htVKrE",
+      "mb-2ll0UtTo",
+      "mrnTQL0eyBc",
+      "nT0qOcN_nEQ",
+      "ncOI16-meB4",
+      "nhJI_yGjfRU",
+      "oA6gABulhJk",
+      "oFGkW7wZsLo",
+      "olu1XyJ7q_w",
+      "ot7qPVf7XVU",
+      "pd_HXj0jT9g",
+      "pxVSMo5e7yc",
+      "q4SSpq9jc3g",
+      "qFM8NIDIRro",
+      "qHuFie5U65g",
+      "qnmVK1R3X0k",
+      "qzi1LqwsP5k",
+      "r1eyXzXNdI0",
+      "rEe5LHWj4fI",
+      "rt9R26k6dEM",
+      "s27qG_Eg3SY",
+      "sd2XYBZY-K8",
+      "shYCuunkPEY",
+      "sqk0Nl8AVYI",
+      "szIzrJJMm4o",
+      "t8k09YlBbtc",
+      "tYcH95rlgNw",
+      "uiiggEC7c9M",
+      "uvUmZuXgLtU",
+      "vKMHNYQYWAI",
+      "w6_e7nySEXI",
+      "wowlXrlGrEc",
+      "wsomY_6BRqA",
+      "xHOOBcDcJZU",
+      "xPxusEh-gow",
+      "xd1xP2FuN40",
+      "xikuzV80GP4",
+      "xnLiADJF5lw",
+      "xoLGoOIRMlc",
+      "xt_q5SkINT8",
+      "yyW9WaW3Pls",
+      "zBF3iPJfbaw",
+      "zZ_1iOXL_wA",
+      "zaW8XagX72U",
+      "zkM_gea0XVE",
+      "zuh3k15-STo",
+      "zxTbtAbuXFs"
+    ]
+  },
+  "entries": [
+    {
+      "video_id": "dVR8Q2DGG7U",
+      "title": "From Old Parental Interior to a Cozy Bedroom with a Home Office and Walk-in Closet. Subscriber Ma...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OrKqxOKzjFA",
+      "title": "New Renovation and Furniture, But the Interior Is Bland. Bedroom Makeover for Subscribers.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "71REwNAkU9c",
+      "title": "New Makeovers for Subscribers",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mvE9pAraR68",
+      "title": "AAAAAAAAAAAAAAAAA",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3LVeTZk7M30",
+      "title": "You didn't like it, so I'm changing the design. A redesign for subscribers.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Bb4Hh-GDRdA",
+      "title": "A SMALL bedroom with BIG potential. Subscribers' interior remodel.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CtFIVpeei14",
+      "title": "БОЛЬШАЯ ПЕРЕДЕЛКА кухни-гостиной в Нижнем Новгороде.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HMessbeDgHY",
+      "title": "Storage organization, sauna, and laundry room in the attic, a remodel for subscribers.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "l-gKUH-s4HA",
+      "title": "Большой диван в маленькой гостиной 13м, переделка интерьера подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fkoUNvB9LV8",
+      "title": "Как сделать серый интерьер уютным для семьи с ребенком?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5fbO5qJyV6c",
+      "title": "Исправляю мои проекты интерьеров для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QK1iGe15AGE",
+      "title": "НОВОГОДНЯЯ ПЕРЕДЕЛКА моего дома!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AL0zAXSPrfc",
+      "title": "Как смешать классику и современность? Переделка гостиной в Риме.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "r0HbfR3_3Kk",
+      "title": "Старая стенка, новый интерьер. Переделка для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oTnOUyn6Xh4",
+      "title": "СКАНДИНАВСКИЙ ИНТЕРЬЕР кухни-гостиной. Переделка для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ohOpaJczckE",
+      "title": "Как уместить все на 14 метрах? Стильный интерьер маленькой спальни.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zWtpKiFh2kQ",
+      "title": "ХОЧУ-МОГУ. Сохраняем старый пол, двери. Новый интерьер без капитального ремонта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mRD3GbTOtK8",
+      "title": "Simple decorating techniques to create a stylish and cozy interior.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MgCQRrJJwBA",
+      "title": "Фамильное пианино в современном интерьере. Много пустого пространства в кухне-гостиной.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wnPatKTp9AY",
+      "title": "Серая кровать, нет стиля и уюта. Переделка интерьера спальни.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SUN8UiXAjf0",
+      "title": "Коричневая стенка, обои с рисунком, длинная узкая комната. Переделка интерьера гостиной в СПБ.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TF0XTvwWyYg",
+      "title": "Как сделать интерьер уютным и цельным по стилю? Переделка кухни-гостиной для подписчиков.",
+      "status": "duplicate",
+      "reason": "already has a source note: YT_TF0XTvwWyYg_anutavlady_kitchen_living_makeover.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "5ctCTDdBWs4",
+      "title": "Новый ремонт и старый диван. Переделка просторной гостиной.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DvQTBiItLpY",
+      "title": "Длинная узкая спальня с маленьким шкафом на двоих/ 3 переделки одного интерьера",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Kp3RWjsGnns",
+      "title": "Устаревший интерьер нулевых, как осовременить спальню? Переделка для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZcfJlV4Rm8Q",
+      "title": "МЕБЕЛЬ ВЫБРОСИТЬ НЕЛЬЗЯ ОСТАВИТЬ. Переделка гостиной, где много коричневых шкафов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4MhGU-odLNc",
+      "title": "Гостиная в хрущевке для семьи из 3 человек и кота, переделка без капитального ремонта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZlkBfwlhYFU",
+      "title": "Пятиугольная спальня и комната для подростка. Улучшаем интерьеры подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uwGxjv9O1kk",
+      "title": "Маленькая спальня в хрущевке, переделка для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DBQ_lCMV6DU",
+      "title": "Спальня дизайнера, сделала кровать своими руками, рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nEixeQ_4Vlc",
+      "title": "Как добавить уюта в семейную кухню-гостиную?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QJE_vn7U6KQ",
+      "title": "Улучшаем интерьер без ремонта. Большая переделка для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zII4jISUGYY",
+      "title": "Отремонтировали заброшенный дом, но интерьер не закончен. Гостиная - столовая для семьи.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8YSZ2TWsDSE",
+      "title": "Что делать с устаревшей кухней? Создаем актуальный классический интерьер на основе старой мебели.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GfixqWjsD58",
+      "title": "Как осовременить классику? Гостиная и спальня, переделка интерьера подписчиков.",
+      "status": "duplicate",
+      "reason": "already has a source note: YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "S3Mn1FvQhKI",
+      "title": "Улучшаю 2 интерьера кухни-гостиной без ремонта.",
+      "status": "duplicate",
+      "reason": "already has a source note: YT_S3Mn1FvQhKI_anutavlady_two_kitchen_living_no_renovation.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "cpoW8AMzlY4",
+      "title": "Переделка интерьера для семьи из 4-х человек с собаками)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jOEpGu0heXg",
+      "title": "Бюджетно и быстро улучшаем интерьер без ремонта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_R4LaZi4WWE",
+      "title": "Однокомнатная квартира с множеством перестановок мебели, интерьер для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TJBcEpXymYk",
+      "title": "Улучшаем интерьер без ремонта. Кухня-гостиная с обоями и спальня-кабинет. Переделка для подписчиков.",
+      "status": "duplicate",
+      "reason": "already has a source note: YT_TJBcEpXymYk_anutavlady_bedroom_study_and_kitchen_living_makeover.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "RqZpw-WIYcw",
+      "title": "Спальня в Калифорнии и кухня-гостиная для художницы. Переделка интерьеров подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vmOTj2DBi9I",
+      "title": "Что не так с твоим интерьером? Переделка интерьеров спальни для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bxbmKeljveo",
+      "title": "Переделка гостиной-столовой 47 м.кв.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Y085a9pQNOo",
+      "title": "Мой дом, делюсь ссылками, новостями, показываю гардеробную, сделанную своими руками.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-d5PT7IN9JU",
+      "title": "Улучшаем интерьер без ремонта, переделка для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uEcV3UTp3nc",
+      "title": "Кто так строит? Исправляем архитектурные странности в интерьерах. Переделка для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Cdm3s1P1_D8",
+      "title": "Что не так с твоим интерьером? Большая новогодняя переделка интерьеров подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1HLNnCifnEQ",
+      "title": "Исправляю ваши интерьеры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PgPqMHca_Bc",
+      "title": "Улучшаем интерьер без ремонта. Переделка для подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xwlW2ilJQ0Q",
+      "title": "Что не так с твоим интерьером? Исправляю интерьеры подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DiQLSAE_FGc",
+      "title": "Как создать уют без ремонта?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "r6oOfIGXnXA",
+      "title": "Как обустроить маленькую кухню?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GrZ63w3twPU",
+      "title": "Не покупайте это для своего интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4wiXU9WRLvg",
+      "title": "РУССКТЙ ИНТЕРЬЕР, стиль A LA RUSSE в дизайне интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WKW-LdY6Z3Q",
+      "title": "Ошибки в выборе светильников. Как выбрать люстру?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UPlR4rO0E00",
+      "title": "СТРОЙКА ЗАКОНЧЕНА! Начинаем наводить красоту.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ps07Ql6RMhg",
+      "title": "ТРЕНДЫ 2025 в дизайне интерьеров",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "b6IlXadH_Vg",
+      "title": "💥Как выбрать обои? Правила дизайна, антитренды.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hVff6JSeTd8",
+      "title": "ФРАНЦУЗСКИЙ ИНТЕРЬЕР, правила дизайна",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aYRTkbNNpFA",
+      "title": "Правила дизайна для узкой, длинной кухни.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-hGVqnDBawk",
+      "title": "Правила дизайна для длинной, узкой комнаты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oPhLUlVtouA",
+      "title": "Такого я не ожидала, уже заказываю окна и покупаю краску.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4BsdsLFQvXE",
+      "title": "Зачем дизайнеры это делают?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UvIsYdYW7NA",
+      "title": "СТРОЮ ДОМ, ответы на вопросы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "StK2zdeesoU",
+      "title": "Мой дом, начало стройки, планы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Td0AdEUJV5A",
+      "title": "ЖИВОТНЫЕ, ДЕТИ, ИНТЕРЬЕР",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XKreqWPpGzk",
+      "title": "Опыт дизайнера, ошибки клиентов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_y1aY7Ob-no",
+      "title": "Ошибки и находки в ремонте и дизайне интерьеров.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hZqLMqq42vs",
+      "title": "ТАК НЕЛЬЗЯ!!! Антитренды в интерьере по версии Тикток дизайнеров.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "efChuQ1-9mo",
+      "title": "Найди свой стиль интерьера!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OAG3J1fFAwg",
+      "title": "Простые решения сложных интерьерных задач.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gLzNgE0cu0w",
+      "title": "Простые способы улучшить интерьер",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MyLSXvF1Ysw",
+      "title": "Психология и интерьер, порядок и беспорядок в вашем доме.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HJNgQfLaaVU",
+      "title": "Делай так, чтобы создать хорошую планировку.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gWvY6NnYxxA",
+      "title": "Кухни Мария: Функциональная и стильная мебель от лучших дизайнеров",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aRUYFTaPkls",
+      "title": "8 способов улучшить интерьер",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PGrxKyLhxp8",
+      "title": "Делюсь секретами дизайнеров. Цвет в интерьере.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JMcnBI1hRfY",
+      "title": "Фатальные ошибки в создании интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oOyNhNkGpWE",
+      "title": "Ваш интерьер отстал от жизни, если он выглядит так...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T5_P8RAAFKs",
+      "title": "Как создать тихую роскошь в своем интерьере?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MUIp__vRqxY",
+      "title": "ТРЕНДЫ 2024 в дизайне интерьера",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LUzv2IB1lpg",
+      "title": "Гостиная с камином в Англии, переделка интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yle-MRBk0I8",
+      "title": "Как выбрать, развесить картины в интерьере?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Q7A1e_V0s3c",
+      "title": "ЦЕЛЬНЫЙ ИНТЕРЬЕР. Как объединить стили и цвета разных комнат?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sFNztvFUlsY",
+      "title": "Лучшие программы для создания интерьера онлайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZaDmxfklJ0c",
+      "title": "ГДЕ ИСКАТЬ ИДЕИ? Топ 10 каналов о дизайне интерьера",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_Pleg1II6Ss",
+      "title": "Как визуально сделать потолок выше?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XBHCJi3yWkw",
+      "title": "Ошибки и лайфхаки в создание интерьеров, опыт подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oHel4IjZ5-8",
+      "title": "Лучше советы и находки подписчиков. Красивый и удобный интерьер.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Pp8Zhj1ofaM",
+      "title": "Интерьер, в котором хочется жить. Полезные советы от подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qiFdzOJuWoQ",
+      "title": "Удачные находки в интерьере",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UIWjSSEBYNo",
+      "title": "⏳Как создать неустаревающий интерьер вне моды?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BOBmeWtC5Sk",
+      "title": "🤬Сделали ремонт и пожалели/ истории подписчиков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Em4g8aMopK0",
+      "title": "УМНЫЙ ДОМ ЭТО УДОБНО? Современные технологии в интерьере.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HaET144Mk0w",
+      "title": "Выбор стиля. Как не врать себе?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gAUnsVGd6WQ",
+      "title": "КУХНЯ. Исправляем ошибки в дизайне интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ou01Y7JkBAo",
+      "title": "АНТИТРЕНДЫ В ИНТЕРЬЕРЕ  И МИФЫ О НИХ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D03if9PRJro",
+      "title": "ИСПРАВЛЯЕМ ОШИБКИ. Квартиры в аренду с АВИТО",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "v2KKslxreII",
+      "title": "Как сочетать двери, плинтус, пол без ошибок?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oa1Rs5JBkTk",
+      "title": "КАК НЕ НАДО ДЕЛАТЬ? Исправляем ошибки в интерьере",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ffcMAVZSkmY",
+      "title": "ОБОИ, ПЛИТКА, ТКАНИ с рисунком. Как не испортить интерьер?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ALEClFKRVpE",
+      "title": "Как не испортить интерьер? Разбираем ошибки в дизайне.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3rrgUkteJ0s",
+      "title": "Что не так с вашим интерьером?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DorQWUc4PcM",
+      "title": "Интерьер деревянного дома, эклектика, антиквариат. Переделка для подписчицы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DbdHm8K-iA8",
+      "title": "Удобные и функциональные решения в дизайне кухни, коллекция лафхаков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iaNRr9A4K20",
+      "title": "9 модных цветов в интерьере 2023 года по мнению экспертов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SEdkGvMEI1k",
+      "title": "Модная плитка для ванной и кухни 2023",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Jq85ZrpXv6c",
+      "title": "Тренды и антитренды в дизайне кухни 2023 по версии VOGUE, House Beautiful, Forbes.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rV5i4MHhmJo",
+      "title": "ТРЕНДЫ В ДИЗАЙНЕ ИНТЕРЬЕРА 2023 по прогнозу AD и ELLE Decoration",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Nc-WFpLlVMQ",
+      "title": "Интерьер, о котором вы мечтали, создать легко!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OADyvCwTxsA",
+      "title": "Современная классика, французские двери, книги и картины в интерьере двухкомнатной квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gRc-Dv8RgUc",
+      "title": "Потрясающе уютный интерьер двухкомнатной квартиры, декорирование. Мы закончили ремонт!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WRHqAn3XjME",
+      "title": "Цвет, размер, форма дивана. Выбираем идеальный диван для вашего интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9lDkhQ8pt2M",
+      "title": "Декорирование интерьера однокомнатной квартиры-студии 34,7м, переделка интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hBUyzFVlh-Y",
+      "title": "Эклектика, винтаж, бетонный потолок. Переделка интерьера гостиной и спальни, декорирование интерьера",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wbkUk24CW7s",
+      "title": "Как декорировать съемную квартиру? Переделка интерьера для подписчицы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RQZrfSIqiHU",
+      "title": "Современный интерьер спальни с нотками классики, переделка интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oGxTY3Mqh6M",
+      "title": "Гостиная с камином, серая спальня и синяя кухня. Обновляю интерьеры подписчиков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZNQ6Rarikeg",
+      "title": "Современный интерьер дома 120м. в серых тонах, минимализм, обзор реализованного проекта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "h20U6GK0vSE",
+      "title": "Это никогда не было модно! АНТИТРЕНДЫ в интерьере",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AQnBsgWcy1U",
+      "title": "Кухня-гостиная, современная классика. Переделка интерьера для подписчика.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FQlEEM5fv9s",
+      "title": "🎯Подбираю шторы для интерьеров подписчиков. Как оформить окно?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7gTAwfPGZeQ",
+      "title": "🔥Элегантный, светлый интерьер двухкомнатной квартиры. Красивые пластиковые окна. Процесс ремонта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s8yVv3v3A-c",
+      "title": "Строители накосячили!😭 Проблемы с ремонтом двухкомнатной квартиры, авторский надзор.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NIC2pmYuYeA",
+      "title": "🎯Маленькая спальня, переделка интерьера.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_6E5wt-PfqQ",
+      "title": "👉Как оформить длинный, узкий коридор? Отделка, освещение, мебель, декорирование коридора.",
+      "status": "duplicate",
+      "reason": "already has a source note: YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "MJ9ofxoO9gQ",
+      "title": "💗Студия 22 метра в Питере. РУМТУР, переделка интерьера",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zV_3YUHSW4I",
+      "title": "🤩Ремонт в двушке, РУМТУР, современная классика.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D-Dcb0FcnkE",
+      "title": "💖Ремонт в кризис, румтур по квартире заказчиков, выбираем краску.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O0VL9Hu08S4",
+      "title": "😍Лучшие решения для создания уютного дома.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aCXZymGgp4E",
+      "title": "😢9 причин, по которым ваш интерьер депрессивный.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1pHho-cwZDQ",
+      "title": "🥵Стильный, красивый и неудобный интерьер. Как не надо делать?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2dxnNNWu6E8",
+      "title": "🤑Как сделать интерьер дороже, не потратив больше денег? 10 способов",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j70Eyuqw8oo",
+      "title": "😵Как преобразить интерьер? Декорирование интерьера, композиция, баланс, пропорции.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4dZ7JGm6wtQ",
+      "title": "ТОП 10 ОШИБОК 🤬 в дизайне кухни.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PybFOTL4kno",
+      "title": "📌Как выбрать ковёр? С чем сочетать?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "R4tlcElNA5k",
+      "title": "😵👍6 вариантов планировки квартиры-студии 30м",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dwQa0m39tjU",
+      "title": "⛔Красивые ошибки в интерьере/ интерьер без правил",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rh6Cj0CW4Bo",
+      "title": "Как смешать стили интерьера?😵 4 правила",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rRLVqmrc8vA",
+      "title": "Зеркало в интерьере, как применять?🤩 Идеи, правила, ошибки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "edUnX-hoxZY",
+      "title": "📌Как расставить мебель? 4 секрета идеальной планировки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HgYdoQJvd7E",
+      "title": "👉Как выбрать шторы? С чем сочетать?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FRuM-iAtwpc",
+      "title": "🤢АНТИТРЕНДЫ в интерьере 2022",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NgShdwyRMJU",
+      "title": "Interior Design Trends 2022",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5gWO8RhYZ-8",
+      "title": "🎄Новогодние украшения/идеи праздничного декора",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tUq41Sgl_hU",
+      "title": "👑10 способов сделать интерьер дороже, это выглядит дорого.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "okj5JT07URM",
+      "title": "💡6 правил освещения в интерьере.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "c1s-FOx7Uxs",
+      "title": "📌АКЦЕНТНАЯ СТЕНА, 8 правил, тренды, способы создания.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "K0swXEfIisk",
+      "title": "😍ЛЮКС из ИКЕА, стильные покупки, копии брендов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LRtedmEn8mQ",
+      "title": "🎨3 СПОСОБА подбора цвета в интерьере, формула применения цветов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BumRKIpFm1A",
+      "title": "👉10 ПРАВИЛ для маленькой квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VISwA0BL0So",
+      "title": "👑Как сделать интерьер дороже? 10 способов.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "d1IznhlUFxE",
+      "title": "Картина акриловой пастой своими руками, DIY",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "boX8wu0NXlY",
+      "title": "Гардеробная, просторная спальня и лоджия, румтур по однокомнатной квартире.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ckywyoVRTeU",
+      "title": "Обои в ванной, мини кухня, эклектика в интерьере однокомнатной квартиры.",
+      "status": "fresh",
+      "reason": null
+    }
+  ]
+}

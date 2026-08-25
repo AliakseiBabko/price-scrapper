@@ -1960,31 +1960,17 @@ Full detail in each source's own extraction note: [[11_Budget_and_Planning/_supp
 - **⚠️ Verify sewer riser-stack placement before buying, not just after.** Documented case: a sewer riser positioned directly beside a kitchen window (confirmed via the developer's own plans, not a later AC-condensate line as initially assumed) — an objectively bad placement forcing the buyer to choose between installing an inconvenient "sololift"-type macerator pump or rerouting a long new sewer run to relocate the kitchen sink elsewhere. Prefer a layout with sensibly-placed risers when a comparable alternative exists.
 - **⚠️ A small "kitchen-niche" alcove labeled with a specific square footage (e.g. "5 m²" or "7 m²") on a floor plan often can't actually fit a full kitchen setup plus a table, despite how it reads on paper.** Verify with actual planning software before assuming it will work (the source names a specific paid app it uses for this, framed as a non-endorsement) — if it genuinely doesn't fit, the practical options are relocating the dining table to the living room, or combining the kitchen niche with the living room outright rather than fighting the space as a separate enclosed room.
 
-### Small Bedroom / Study — Dual-Purpose Bedroom/Home-Office Real Case (added 2026-08-25)
+### Small Bedroom / Study — MOVED to its own wiki page (2026-08-25)
 
 > [!NOTE]
-> Anuta Vlady, `TJBcEpXymYk` (2025-03-21, Case 1 of 2 in this video). First real source for this vault's "Small Bedroom / Study" topic area — directly analogous to this project's own `06_Small_Bedroom` (a temporary adult bedroom doubling as a remote-work office). Below the 3+-source page-creation threshold; store-only for now. No pricing content. Region unresolved at level 1. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TJBcEpXymYk_anutavlady_bedroom_study_and_kitchen_living_makeover|YT_TJBcEpXymYk]]]
-
-- **Video-call background design should match the room's existing fixed materials and reflect the occupant's profession** — matching wall panels toned to an existing floor/cabinet finish, deliberately "serious"-reading for a conservative profession (here: investment/law).
-- **When trimming laminated wall panels to fit a wall height, cut only the top row** — preserves the factory-laminated bottom edge, which would otherwise be exposed to floor-washing moisture and could swell.
-- **Reduce competing pattern/color sources to one unifying accent rather than stripping all pattern** — replacing just one high-contrast piece (a bedspread) to match an already-present color (a blind) resolved a "too busy" room without removing every pattern.
-- **DIY headboard-from-matching-panel technique, sized by a fixed reference**: build a custom headboard from the same finish as an existing built-in cabinet, and set its height by aligning to the bottom edge of a nearby wall outlet — a concrete, repeatable sizing method.
-- **⚠️ Physical furniture-placement mock-up should include actual height, not just floor footprint** — a floor-only mock-up misses head/shoulder-height clearance problems that a height-inclusive mock-up (boxes/props at the real height) would catch.
-- **⚠️ Bed-under-window objections (harder cleaning, drafts) argued as overstated in practice** — window cleaning is infrequent, and AC use is a more likely response to heat than opening the window. Presented as the source's own lived-experience opinion, not verified research.
-- **A large headboard with integrated shelving removes the need for separate bedside tables.**
-- **Double-layered curtains around a window-adjacent bed create a cozier "alcove" feel** — an explicit stylistic trade-off against a single-layer, airier alternative.
-- **Preserve one small deliberate personalization element for the room's actual occupant** even within an otherwise coordinated adult-led redesign, rather than fully overriding their own stated preference.
-- **A slim folding guest mattress (stored in a closet or under a lift-bed) can replace a bulky sleeper armchair** while preserving overnight-guest capacity and freeing meaningfully more daily floor space.
-
-**Second source, same topic area (added 2026-08-25)**: Anuta Vlady, `GfixqWjsD58` (2025-05-09, Case 2 — a genuinely tiny 3m×3.15m, 2.30m-ceiling bedroom, USA client, country-level region only). Now 2 sources, still below the 3+-source page-creation threshold. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
-
-- **⚠️ Low-ceiling (2.30m) proportion rule**: avoid heavy horizontal design elements (horizontal curtain trim, a wide horizontal painting) — they compress an already-low ceiling further. Favor vertical-emphasis elements (floor-to-ceiling curtain panels, a tall floor-to-ceiling headboard panel) to visually stretch perceived ceiling height, regardless of target style.
-- **DIY plumb-line technique without a laser level**: tie a small weight (coin/ring) to a string, tape the top to the wall — an improvised true-vertical reference for hanging panels/molding straight.
-- **Floor-to-ceiling self-adhesive soft wall panels as a combined headboard-replacement and ceiling-height-proportion fix.**
-- **Stated budget philosophy independent of any specific product**: even with an explicitly unlimited client budget, deliberately source moderately-priced items across the board, reasoning that money not spent on interior finishes can go toward other life priorities.
-- **⚠️ Explicitly undecided design call, presented as such rather than forced** — a genuine trade-off (keep vs. remove ornate mirrors) left open for the client/audience rather than asserted as a single correct answer.
-- **A fixed, uncoverable mechanical obstacle (a floor heating convector) can force an asymmetric, off-center rug placement** to preserve required access.
-- **A wanted feature can be a hard no under a real clearance constraint**: a floating TV shelf was dropped entirely (not miniaturized) because of a genuinely narrow (~30cm) walkway beside the bed.
+> This topic area crossed the 3+-source page-creation threshold during a
+> dedicated 8-video Anuta Vlady batch targeting `06_Small_Bedroom`. All
+> content previously here (from `TJBcEpXymYk` and `GfixqWjsD58`) has been
+> migrated to [[06_Small_Bedroom/Small_Bedroom_Guide|Small Bedroom Guide]]
+> and its `analysis/` pages, per this store's routing convention (prefer
+> a matching wiki page over the store once one exists). New Small
+> Bedroom / Study content should be routed directly to that guide going
+> forward, not appended here.
 
 ### Planning Rules — ARCHWOOD 90m² 3-Room Real-Project Walkthrough (added 2026-08-25)
 

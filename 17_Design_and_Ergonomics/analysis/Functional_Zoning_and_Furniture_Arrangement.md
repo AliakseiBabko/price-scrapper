@@ -1,5 +1,76 @@
 # Functional Zoning & Furniture Arrangement (Ergonomics)
 
+## General Household Storage & Decluttering Method (added 2026-08-25, Sergey Kodolov)
+
+Cross-cutting whole-home organization technique, not room-specific —
+cross-reference `01_Entrance/analysis/Storage.md`, `10_Balcony`, and
+`05_Kids_Room/analysis/Materials_Furniture_and_Storage.md` for related
+room-specific content rather than duplicating this here:
+
+- **Five root causes of household disorder**: insufficient cleaning
+  time, lack of organization/storage systems, excess possessions, no
+  habit of returning items to a designated place, and emotional factors
+  (stress/fatigue/mental clutter) — a diagnostic starting point before
+  applying any specific fix.
+- **⚠️ Categorization-first principle**: sort everything into explicit
+  categories with one consistent home each, rather than solving clutter
+  room by room with no defined categories.
+- **⚠️ Repeatable open-surface declutter method**: empty the target
+  surface/shelf into a bin; sort "actually used" vs. "rarely used"
+  (rarely-used → closed cabinet); group the remaining items into
+  category zones; physically test-arrange rather than assuming a layout
+  works on the first try.
+- **Entryway drop-zone needs a designated landing spot** (tray, bowl,
+  drawer) for daily-carry items — the first surface encountered on
+  entry accumulates a pile by default unless deliberately designated.
+- **⚠️ Pre-design-project decluttering exercise, with a real
+  measurement implication**: empty all existing storage and remove
+  genuinely unused items *before* specifying new storage capacity —
+  real practitioner finding: most clients' existing storage was already
+  sufficient once unused items were removed, despite initially
+  requesting more capacity.
+- **Skepticism toward trend-driven storage gadgets** — many marketplace-
+  trending organizer products turn out impractical or unattractive once
+  bought; don't over-buy on trend momentum alone.
+- **Practical fixes**: velvet/flocked hangers prevent clothes sliding
+  off; deep storage should be pull-out drawers, not fixed shelves
+  (corroborates the wardrobe shelf-depth rule on
+  `14_Furniture/analysis/Wardrobe_Vocabulary_and_Sizing.md` from a
+  general-storage angle); colored perforated boxes preferred over clear
+  plastic for stationery/small items; a hollow ottoman/pouf with a
+  lift-top lid doubles as seating + storage even in a small apartment;
+  hang towels on rails (stacked towels don't fully dry).
+- **⚠️ Kid-height toy-box placement, real client case**: toy boxes
+  placed low enough for a child to reach let children fully self-manage
+  their own toys (retrieve, play, return, push box back) — placement
+  height is the deciding factor, not the child's own tidiness.
+- **"Chair pile" alternative fixtures**: an open floor valet stand or a
+  decorative ladder leaned against a wall near the bed both let
+  worn-but-not-dirty clothes be set down without opening a closet —
+  framed as a legitimate designed alternative, not something to fix
+  through willpower alone.
+- **Windowsill decluttering has no real storage-design fix** — honest
+  admission; the one indirect mitigation given is a natural-stone sill,
+  which visibly stains and thereby self-motivates keeping it clear.
+- **⚠️ Balcony storage method, multi-step**: full inventory/purge →
+  floor-to-ceiling vertical shelving → matching boxes sorted by category
+  → hanging systems (hooks, bike/ski wall mounts) → ceiling storage +
+  storage-integrated furniture (folding table with drawers, storage
+  ottoman) → sliding/folding doors over swing doors to save clearance →
+  real lighting so stored items stay findable.
+- **⚠️ Cable/cord clutter is a rough-electrical planning decision, not a
+  storage-accessory fix** — specify extra outlets with real margin at
+  rough-in stage; where that wasn't planned, a small dedicated charging
+  cabinet contains cables instead of a scattered extension-cord tangle.
+- **Pet feeding-station integration**: built-in bowls (including a
+  pull-out faucet positioned to fill in place) integrated directly into
+  kitchen cabinetry rather than a freestanding floor bowl.
+- **General storage-placement priority, applies across every zone
+  above**: rarely-used items → hardest-to-reach storage; frequently-used
+  → closer/more accessible; daily-essential → always within immediate
+  reach while staying visually unobtrusive.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8PjHJZtblZw_kodolov_storage_methods|8PjHJZtblZw_kodolov_storage_methods]]]
+
 ## Petrishin-Stroi — Room-Selection Cautions & Space-Saving Placement (added 2026-08-24, Round 6)
 
 From a real ~65m² apartment design-lead walkthrough — cautions worth checking on a floor plan *before* purchase, plus two placement techniques applied after the fact:
@@ -140,6 +211,97 @@ staircase creating a tight walkway constraint):
 
 `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TJBcEpXymYk_anutavlady_bedroom_study_and_kitchen_living_makeover|YT_TJBcEpXymYk]]]
 
+## Anuta Vlady — Ceiling-Height, Rug-Sizing, and Market-Substitute Techniques (France, added 2026-08-25)
+
+From the same France kitchen-living-room case as the Family-Scenario page's entry:
+
+- **Vertical stripe/moulding technique for a spacious-but-low-ceiling
+  room** — corroborates this batch's low-ceiling techniques recorded on
+  [[06_Small_Bedroom/analysis/Space_Recovery_and_Proportion_Technique|Small Bedroom: Space Recovery and Proportion Technique]]
+  (a khrushchevka bedroom case, same channel) — same technique applied
+  across a spacious French living room and a small Russian bedroom,
+  suggesting the underlying principle is context-general.
+- **Rug-size mismatch triage rule**: when an existing rug's color/style
+  is right but its size is too small (requiring a second layered rug to
+  compensate), replace it with one correctly-sized rug rather than
+  continuing to layer mismatched rugs.
+- **Wall-clock functional-placement rule**: place a wall clock somewhere
+  visible from every point in the room, not at an arbitrary decorative
+  spot.
+- **⚠️ Chaise-attached armchair as a market-driven substitute for a
+  hard-to-find reclining chair**: in a market where standalone reclining
+  chairs are hard to source, an armchair with an attached ottoman/
+  chaise extension serves the same function and is easier to find/move.
+- **Don't add window treatment where it adds no value** — small flanking
+  windows already sealed and not contributing to the room's look were
+  deliberately left untreated.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
+
+## Anuta Vlady — Furniture-Isolation, Proportion-Matching, and Pet-Household Techniques (Alaska, added 2026-08-25)
+
+From a real decor-refinement case, Alaska (level 1):
+
+- **Furniture-isolation fix via echoed color/accessories**: an
+  otherwise-fine but visually-disconnected piece (a leather recliner) is
+  re-integrated into a room's composition by adding nearby accessories
+  in colors that echo its own tones, without moving or replacing it.
+- **Decor-object-to-surface proportion rule, restated for a vase**: a
+  small vase looked disproportionate on a large dining table; sizing up
+  fixed the mismatch — the same proportion-matching principle recorded
+  elsewhere in this batch for pendant-light shades and picture-block
+  sizing.
+- **⚠️ "French mattress" reusable sofa-protection technique**: a thin
+  quilted throw (washable, quick-drying, reversible) laid over a
+  light-colored sofa protects the upholstery from pets jumping on it —
+  a real alternative to re-upholstering or a fixed slipcover, simple
+  enough to DIY or commission from any tailor/atelier.
+- **⚠️ Mantel/shelf-styling constraint under a wall-mounted TV +
+  soundbar**: no decor items can go directly on/around a shelf that also
+  holds a mounted TV and soundbar — add a substantial mantel shelf
+  *below* that zone as the actual decor surface instead.
+- **Composition-bridging technique using matched framed art**: two
+  visually separate zones (a bookshelf wall and a TV/mantel wall) tied
+  into one cohesive composition using a matching pair of framed prints
+  positioned to visually connect them.
+- **Floor-plant-near-rug watering caution**: a floor-standing houseplant
+  on or near a rug carries a real risk of water spilling onto the rug
+  during watering.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mRD3GbTOtK8_anutavlady_alaska_decorating_techniques|YT_mRD3GbTOtK8]]]
+
+## Anuta Vlady — Long/Narrow Room Furniture and Ceiling-Height Technique (St. Petersburg, added 2026-08-25)
+
+From a real 22m² long/narrow living-room minimal-change case, St.
+Petersburg (level 1) — proportion-correction techniques cross-referenced
+in full detail on
+[[06_Small_Bedroom/analysis/Space_Recovery_and_Proportion_Technique|Small Bedroom: Space Recovery and Proportion Technique]]
+given the direct overlap with this batch's small-bedroom cluster; the
+furniture-specific techniques below are recorded here since they're not
+bedroom-specific:
+
+- **⚠️ Furniture-height-contrast technique for ceiling perception**:
+  removing a wall unit's horizontal open shelving, leaving a stark
+  height difference between tall wardrobe sections and a low console,
+  visually raises the ceiling.
+- **Round coffee table retained/repositioned specifically for its
+  no-sharp-corners shape** in a tight-clearance zone — corroborates the
+  no-sharp-corners-in-a-tight-space theme recorded above for a child's
+  play zone (`fkoUNvB9LV8`), now applied to a general adult
+  living-space furniture choice.
+- **Round/soft-form armchair as a corner-softening counterbalance**
+  for several nearby hard geometric edges accumulating in the same part
+  of a room.
+- **Table-lamp height tied to adjacent armrest height**: when a side
+  table sits lower than a sofa's armrest, choose a lamp tall enough that
+  its shade still rises to a visually harmonious height.
+- **Furniture-relocation-over-replacement as an explicit project-level
+  default** — most fixes were repositioning existing furniture rather
+  than buying replacements, an explicit "why replace something that
+  isn't actually the problem" philosophy.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SUN8UiXAjf0_anutavlady_spb_narrow_living_room|YT_SUN8UiXAjf0]]]
+
 ## Scope
 
 General ergonomics/zoning principles for arranging furniture and activity zones within a room or across an open-plan area: traffic-flow planning, activity-zone separation (e.g. within a combined kitchen-living room), clearance/reach ergonomics not already tied to one specific room's own fixtures, and general "how much space does an activity actually need" rules of thumb.
@@ -161,3 +323,9 @@ This vault already has substantial room-specific clearance/zoning content that s
   enough to warrant a further split. Cross-linked from
   `01_Entrance/analysis/Layout_and_Zoning.md` and
   `05_Kids_Room/analysis/Zoning_and_Partition_Methods.md`.
+- 2026-08-25 — Added 3 sections from a dedicated 8-video Anuta Vlady
+  batch targeting `06_Small_Bedroom` (`YT_fkoUNvB9LV8` France,
+  `YT_mRD3GbTOtK8` Alaska, `YT_SUN8UiXAjf0` St. Petersburg) — none are
+  bedroom-specific, so routed here instead; cross-linked with the new
+  `06_Small_Bedroom/Small_Bedroom_Guide.md` where a technique
+  generalizes to both.

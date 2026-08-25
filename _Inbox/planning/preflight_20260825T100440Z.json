@@ -1,0 +1,2726 @@
+{
+  "playlist_url": "https://www.youtube.com/c/KODOLOV/videos",
+  "generated_at": "2026-08-25T10:04:40.531921+00:00",
+  "counts": {
+    "duplicate": 3,
+    "private": 0,
+    "unavailable": 0,
+    "no_captions": 0,
+    "fresh": 396,
+    "rate_limited": 0
+  },
+  "csv_notes_mismatch": {
+    "in_index_no_note": [
+      "-k0oupEu3pM",
+      "-zgPfpGkwBw",
+      "1pLziv7Ri_k",
+      "2m1OOssKl-A",
+      "2mLS8dbqv04",
+      "41AEg9cCxO0",
+      "6lacLnqpJbM",
+      "74c0MGLFGT4",
+      "7Y4YsWPYg4s",
+      "7l0izpXaPx8",
+      "7qxFoOsLAe8",
+      "8MiJ6k5ujBU",
+      "8zm_5NjbGNA",
+      "9FSb8Kr55r0",
+      "ANYrUhhlKyw",
+      "ATRswtIp1OM",
+      "AaPvIn4s1SQ",
+      "B7BHeVD-smk",
+      "BPiw6b-Sm_c",
+      "CQM-pFRJBKY",
+      "CYllCjooMrE",
+      "DPnZjaSPACA",
+      "DsDbKEwR4pY",
+      "Dt8Ec_eTlXg",
+      "EbwgImqhnOQ",
+      "ElHcpT5WlUA",
+      "F6cBEeTw518",
+      "HE4u2vprC88",
+      "I0PUIxd9MQ8",
+      "IHmGfrQFc6Y",
+      "JHP3Fuf2KyA",
+      "Kj71Nk5CqLM",
+      "L_PWNMQC9iE",
+      "Ld-OWPUFlGE",
+      "MIA1tpRglGg",
+      "Nj0li7AdsvM",
+      "O6PNsmWaHYc",
+      "PRifljKyKfU",
+      "PaUWD6q_EAY",
+      "PbE1pgGCliY",
+      "QG3QNM9BESc",
+      "QbV-BBySZeU",
+      "R7Z_mJLwVpc",
+      "R_9_QLAsE-k",
+      "U6vunPg3OGw",
+      "XIDyyxjIwC8",
+      "XWmoyTQK1AQ",
+      "XahTpDGjf9w",
+      "XfEaoo82qnE",
+      "XhRHqDm2H2Y",
+      "XlvilzilV-c",
+      "Y3exSOS2Ob8",
+      "YLKN-UB4XG4",
+      "YQAm9PqK2ec",
+      "YaWcDOWHor4",
+      "Z4gS_W0sfaM",
+      "ZXpWoAcR08U",
+      "ZkdGHHPtfh0",
+      "a98BTmgIoik",
+      "b4ErDSHBY_4",
+      "bLG-v5bLHNs",
+      "c3qpHyJgBQ8",
+      "cqzGSjx7Gvg",
+      "fkt1LmF9D9M",
+      "frU2mqIMrPs",
+      "g3xI4531t_s",
+      "gD8KMGlS9ac",
+      "gbxv92vD36U",
+      "huvdLUEruBM",
+      "hxPXzLu0P3g",
+      "iHu5gijczA4",
+      "iRqMhrVT8pM",
+      "j-6A0DmjB_o",
+      "jObP8pTt7FY",
+      "jOvCg-d45w4",
+      "jhEqPMn3mBA",
+      "jseYAjJkab8",
+      "kBJZkSOp4-Q",
+      "mhE_5qlJ0KU",
+      "n-LzQXs3x9o",
+      "q4r7i8qccB4",
+      "qC5GNBHceJk",
+      "rGc_nGYY4mU",
+      "s1cWUR4l90w",
+      "to_ujRxQUbk",
+      "ty-t8aNelyY",
+      "v8GexdJC8ys",
+      "vCwxplOGtfY",
+      "wUXlaDnHiQw",
+      "wxkTw0YdxdU",
+      "xbq9Jl_yrsU",
+      "ym_Jd2mEL18",
+      "z1G8qqAUQnY",
+      "zAXDi2PvWz4",
+      "zOpmb-CmQI8",
+      "zjO0LugKt8Y"
+    ],
+    "in_notes_no_index": [
+      "-JlpzE6aHiU",
+      "0Nnv6VedbVo",
+      "0hjkfIfzkUw",
+      "0sJPlpi8I2U",
+      "16k0TS363rM",
+      "1_nKzwNZD6w",
+      "1amhehTMxcg",
+      "1dp7alivsLQ",
+      "1gXYL99mfY4",
+      "1x7srLdq12I",
+      "2cHetaq1bt0",
+      "2fLCiWU6U-I",
+      "3rbIBKfZDBY",
+      "3sRfRiQ8XfE",
+      "3vIpdUvgWW0",
+      "4O1UqRqpApw",
+      "4bv7Aa6YLCo",
+      "4jAQ526Zy2w",
+      "55zALDsXP2E",
+      "66pn-nIOJkg",
+      "6jC0aA1ZqWs",
+      "7LAB25SCQ1Q",
+      "7QuzCGvDG_w",
+      "8B2xnSNEqqs",
+      "8HnZ2m8vkZQ",
+      "8IW762yALfc",
+      "8QBqwydVND8",
+      "8dyPTnmOHKs",
+      "8oZexrWcMUY",
+      "9-NjgDLleOw",
+      "92hhojQNQTw",
+      "96mlkQoczI4",
+      "9ykrlQ5tpBs",
+      "A4OmiqS6kYo",
+      "AcNu6CHE7Y4",
+      "BFbNL-DjDh4",
+      "BpqCE2DeN9E",
+      "C-3BcpXDRnk",
+      "C-db6yom-IM",
+      "C0FOWRxqWX4",
+      "CVTf-a4XIEI",
+      "CVqedVQlZZU",
+      "Cj2U_wVlG-I",
+      "Cr1vew4sA9g",
+      "D-DFsBMjlxQ",
+      "D1REgSDwILU",
+      "DO67YHV5uAU",
+      "E7M-bWWSmfw",
+      "EQW9y4bNea0",
+      "EWNki2-ZFzQ",
+      "F0ZHsu4k6JY",
+      "FRRT0ZrhjaI",
+      "G03YKmotYP4",
+      "G0vtTswg5Ck",
+      "GC2vize3KQ0",
+      "GLU9nJYrtbQ",
+      "GfixqWjsD58",
+      "H6atjh_g1jQ",
+      "HGN_3WeL0Jk",
+      "HqmQaZ1y1UM",
+      "I-iSW-9NHAs",
+      "I8js5-kLrYI",
+      "IFnZxitFeNk",
+      "IWVPepWlzSs",
+      "IoQaozB-DYA",
+      "IoQiGtso9Vk",
+      "Is76QlotVFE",
+      "JLjCveR-ft0",
+      "JTFhwaKEQAY",
+      "K-OopxgJ8wY",
+      "KlIQxR3vWU8",
+      "L0kI_PZKvmQ",
+      "LEsmpI8bWCY",
+      "M3HFaYaRC6M",
+      "MOYwhSd8tv4",
+      "Mf2A7cbTq3s",
+      "N36scNqRwII",
+      "NWLckaXH1_U",
+      "NjOkuREH8lI",
+      "NyIj6h8hZHw",
+      "O4pGx8ESHDU",
+      "OP8ALhLynHE",
+      "O_2Jji7NAHQ",
+      "OcqynathaX8",
+      "OfqkRAZUfe0",
+      "OgIZhrxD4v4",
+      "Oh4hGMZ90mw",
+      "OperMXnGmXE",
+      "Oxv_w9zejsA",
+      "P8GMYTARyNU",
+      "P8t_d7J9fm4",
+      "PBkZQHkjciE",
+      "PJKk1BwtgVY",
+      "PmxmmzyUZjg",
+      "Q0sVq_1SIQM",
+      "Q1KSHFhLzJo",
+      "Q6GKMOJuaPc",
+      "Q70kwfR0LGs",
+      "QcYJwQgu67g",
+      "QginFVl00Hw",
+      "Qt4uGvGRYT0",
+      "QtQBGLzS698",
+      "RNiSYvLX6Vc",
+      "RfcoPP3dvcQ",
+      "Rm0aHk4flxc",
+      "S23VRWxzz08",
+      "S3Mn1FvQhKI",
+      "S4fOYedAruE",
+      "SERg4hiCWdE",
+      "SG0nbNRdl4c",
+      "TF0XTvwWyYg",
+      "TFu0lu-_rzQ",
+      "TJBcEpXymYk",
+      "TKTKBmTkebg",
+      "TnYExlfWw9c",
+      "Tq2IELynaGs",
+      "U95vMOOhKH8",
+      "UhE9cOJ35FY",
+      "VZk4615VM6I",
+      "VcrYHkDgb0o",
+      "VqrXg-tDRO8",
+      "WK-KLd2ssYY",
+      "Wj_i-4GhOQk",
+      "Y9PGtPmcMms",
+      "YarbTzTfq6I",
+      "YxXfsKoyx6M",
+      "Z1IuJFudcPY",
+      "ZW-dNzbCREI",
+      "ZlvJE-ncrK8",
+      "_6E5wt-PfqQ",
+      "_GL2t3cdSi8",
+      "_TGU8C0u010",
+      "a_i8pGVa7-w",
+      "ah3StuP2TZE",
+      "ar4HNfWjzh4",
+      "b0FeObtj2bo",
+      "bF1I2olZSc0",
+      "c4mmaLAsDw4",
+      "cM0AndkKdVk",
+      "caDB-roRasI",
+      "d5a3hti_P8g",
+      "d8WzpxSSX8k",
+      "eInWxbd_UiA",
+      "fIicREPruVs",
+      "g1b6Hxx-HUk",
+      "gCI2qF34Dss",
+      "gEykawbVyYQ",
+      "gKBzDEllg4M",
+      "gNN7G7vNyqY",
+      "gREGOOA2OHo",
+      "gWAOrislxFY",
+      "hCN5Cl7T2Qc",
+      "hN7szX2re2c",
+      "hW1hlDoqDR0",
+      "hpU_xEXmdvE",
+      "hrhJ6Y8hhPU",
+      "izhaUHRKViw",
+      "jxx99px88HA",
+      "k9CrEU5RuIE",
+      "kXGYTsBTKj8",
+      "kkQbz_lXTjU",
+      "l4bXbwfOlrU",
+      "lTeNBUR1u8g",
+      "lbaZ__wbLWo",
+      "lvixGbwo0Ug",
+      "mMr8Xnt95rE",
+      "mONJ1htVKrE",
+      "mb-2ll0UtTo",
+      "mrnTQL0eyBc",
+      "nT0qOcN_nEQ",
+      "ncOI16-meB4",
+      "nhJI_yGjfRU",
+      "oA6gABulhJk",
+      "oFGkW7wZsLo",
+      "olu1XyJ7q_w",
+      "ot7qPVf7XVU",
+      "pd_HXj0jT9g",
+      "pxVSMo5e7yc",
+      "q4SSpq9jc3g",
+      "qFM8NIDIRro",
+      "qHuFie5U65g",
+      "qnmVK1R3X0k",
+      "qzi1LqwsP5k",
+      "r1eyXzXNdI0",
+      "rEe5LHWj4fI",
+      "rt9R26k6dEM",
+      "s27qG_Eg3SY",
+      "sd2XYBZY-K8",
+      "shYCuunkPEY",
+      "sqk0Nl8AVYI",
+      "szIzrJJMm4o",
+      "t8k09YlBbtc",
+      "tYcH95rlgNw",
+      "uiiggEC7c9M",
+      "uvUmZuXgLtU",
+      "vKMHNYQYWAI",
+      "w6_e7nySEXI",
+      "wowlXrlGrEc",
+      "wsomY_6BRqA",
+      "xHOOBcDcJZU",
+      "xPxusEh-gow",
+      "xd1xP2FuN40",
+      "xikuzV80GP4",
+      "xnLiADJF5lw",
+      "xoLGoOIRMlc",
+      "xt_q5SkINT8",
+      "yyW9WaW3Pls",
+      "zBF3iPJfbaw",
+      "zZ_1iOXL_wA",
+      "zaW8XagX72U",
+      "zkM_gea0XVE",
+      "zuh3k15-STo",
+      "zxTbtAbuXFs"
+    ]
+  },
+  "entries": [
+    {
+      "video_id": "WDYOGGbzU-I",
+      "title": "Строительный бизнес: почему маркетинг не спасает, когда денег нет?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RiuDPwFZDsk",
+      "title": "WHY BUILDERS DON'T MAKE 10 MILLION: A Hard Reality Check",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "avHqeCxrgfo",
+      "title": "20 Million Loss: How to Avoid Driving Your Business into Debt / An Analysis of Owner Mistakes",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HxrP9hCZwkk",
+      "title": "A review of an apartment renovation using natural materials. Kitchen-living room zoning and a sec...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QXTQIto1ETw",
+      "title": "Turnkey apartment renovation in a new 380 sq. m. building. Atlantis the Royal",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yaycWptx8u4",
+      "title": "Paint: What Sales Associates at Petrovich and OBI Won't Tell You",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xtUwKJwG_2Y",
+      "title": "How to choose the right foundation for your home",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FnaKHwI00so",
+      "title": "How to build a house on a slope? A plot with a 12-meter drop.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jkfd4Ft56VE",
+      "title": "We're accepting a house on a slope. What's needed for a reliable retaining wall?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qNYOmMVwa9c",
+      "title": "From Mesopotamia to the Present Day | History of Brick | Sergey Kodolov",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zRqN_ejqLp8",
+      "title": "От вазы до небоскрёба: история стекла и идеи для вашего интерьера",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CifxHF7qH3Y",
+      "title": "Why Titles Are Holding Your Company and Employees Back From Growing",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BqCiqpqvlFc",
+      "title": "How a builder chooses a place to buy a house or apartment. How to choose a plot",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Dbmu2G3xnC8",
+      "title": "Why has repairs in Russia become the price of gold? Parallel imports and grey schemes. Special in...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vgs662uG1z0",
+      "title": "Interior Design for Lazy People: How to Create a Low-Maintenance Home That Doesn't Require Cleaning",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HR8DsQ4s-9s",
+      "title": "WINDOWS in 2025: from profile to installation.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vV_DsV99lsM",
+      "title": "Румтур квартиры для девушки. На чем можно сэкономить в ремонте и интерьере.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "82a8-dN6Q14",
+      "title": "Я В ШОКЕ от качества ремонта и цен на недвижимость в Саудовской Аравии!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "h83Mez7HcpQ",
+      "title": "Unobvious solutions in home renovation and interior design",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EF5kCiBwlIc",
+      "title": "Как найти бригаду для ремонта квартиры? Влог на стройке. Часть 1.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TRW8tN6YYIg",
+      "title": "О чем жалеют после ремонта. Красивые, но неудобные решения в интерьере",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fcvbrE-ROWQ",
+      "title": "Mikhail Shaposhnikov: The Richest Interior Designer in Russia. Diary of a Designer and the Secret...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bJJSH84q5fE",
+      "title": "How to choose curtains in 2025? Which curtains to buy: roller blinds, blackout curtains, roman bl...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yz2cBaVX66A",
+      "title": "9 ГЛАВНЫХ ОШИБОК при выборе шкафа, которые вы совершаете. Какой шкаф купить в 2025?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "B_eWt1NApnI",
+      "title": "I'M BLOWN AWAY BY CHINESE LAMINATE! What is laminate made of in China?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8PjHJZtblZw",
+      "title": "Избавься от беспорядка дома! 13 способов хранения вещей",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bp2a2KA4pAo",
+      "title": "Топ-10 лишних предметов на вашей кухне. Обустройство кухни в 2025.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FiU_grDq5Vg",
+      "title": "ТОП-15 ошибок в строительстве загородного дома. Какой дом построить?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nQrcpJsEKQ4",
+      "title": "How to achieve minimalism in your interior. Less is more?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Cr1vew4sA9g",
+      "title": "Как объединить детскую для мальчика и девочки? Ремонт детской комнаты.",
+      "status": "duplicate",
+      "reason": "already has a source note: YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "lYVb5LwixM0",
+      "title": "Which flooring to choose for your home: quartz parquet, engineered wood, or laminate.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QfTqabNW1Lc",
+      "title": "Основы надежной электрики в квартире. Как делать черновой монтаж?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-9RGL3BaYCI",
+      "title": "What lighting should I choose? How much light should I have in my home?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T-W5qFAVG9o",
+      "title": "Какой цвет выбрать в интерьер? Психология цвета.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sojmfQty2jo",
+      "title": "ЭТО ЛИШНЕЕ в РЕМОНТЕ!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wUT4gp1RPs0",
+      "title": "Рейтинг фасадов. Советы от строителя с 20 летним опытом",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AY-4nJx_87k",
+      "title": "IS WALLPAPER BEING RENOVATED OUTDATED? What wallpaper should I buy in 2025?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4R91axKDUoM",
+      "title": "Из мужа на час в мощную строительную компанию. Как открыть строительную компанию став застройщиком.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ivci7D8wn_Y",
+      "title": "I'M SHOCKED BY THE FACTORIES IN CHINA!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4gqCxWRBUrA",
+      "title": "THIS WILL BE OUTDATED BY THE TIME YOU FINISH RENOVATING!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_E9eT0r9rq4",
+      "title": "Эта ошибка УБЬЕТ ВАШ ДОМ! Почему важно знать о весе здания и его конструкций?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SlIKS7HYt6c",
+      "title": "Как дизайнеру и строителю работать без конфликтов? Часть 1.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IoQaozB-DYA",
+      "title": "ЭТИ решения стоят КОПЕЙКИ, но выглядят ДОРОГО! Обзор квартиры",
+      "status": "duplicate",
+      "reason": "already has a source note: YT_IoQaozB-DYA_kodolov_dubai_cheap_expensive_looking_apartment.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "RheQazx53JA",
+      "title": "I'M SHOCKED! They built a POOL IN THE KITCHEN of this Penthouse",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KH1YRY2JaX8",
+      "title": "Лучшие технологии в строительстве, которые не используются в России...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AB76kZYvoaI",
+      "title": "Протекает плоская кровля, что делать? Ремонт плоской кровли. Как отремонтировать крышу.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "om5BbhJDaOo",
+      "title": "Всё о системе умный дом. Какой умный дом установить в квартире? Цена умного дома.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pHlofd_HtAM",
+      "title": "How to open a construction company? Where to start a construction business?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LQ9pc4oml6k",
+      "title": "Олег Торбосов. Как заработать на недвижимости. Ремонт под ключ за 3 недели. Флиппинг квартир.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ufXiLvH13no",
+      "title": "TOP apartment renovation life hacks. How to renovate your apartment quickly and affordably.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JvFDGG88Yn8",
+      "title": "WHERE DO SUCH PRICES FOR REPAIR AND CONSTRUCTION COME FROM? Why are our prices cheaper?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wL9c62eegLw",
+      "title": "ОБЗОР КВАРТИРЫ С ИДЕАЛЬНЫМ РЕМОНТОМ! Лучшие решения! Запускаю конкурс!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "t7SvUOafNrU",
+      "title": "We don't have time to finish the renovation. The designer is shocked by the apartment. Renovating...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yG-TVzlwiEI",
+      "title": "Этапы черновых работ, на которых нельзя экономить.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2OFhGadJsCQ",
+      "title": "Finishing Solutions. Renovating an Apartment for Sale in 60 Days. Part 3.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oQ56dEfHnA4",
+      "title": "Художник довёл дизайнера интерьера и погубил проект. Ремонт за 60 дней. Часть 2.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pKoKDZewLC4",
+      "title": "Apartment renovation for sale in 60 days. Part 1.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "c6ZY9GO6BEU",
+      "title": "These tips will save your apartment renovation. How to avoid ruining your apartment renovation be...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TrC9Xho2NDs",
+      "title": "Apartment renovation in 40 days for 1,972,000 rubles. Part 6.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HQbRV7u90vI",
+      "title": "Никогда не совершайте этих ошибок во время покраски стен. Косметический ремонт за 40 дней. Часть 5.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aO-903ADOOk",
+      "title": "Раскладка плитки, плесень, душевая кабина и другие ошибки, которые испортят ваш санузел",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "c1uETIn0jo8",
+      "title": "Подготовка участка к фундаменту для частного дома. Никогда не допускай этих ошибок.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tPBLb5UPlsg",
+      "title": "Арки из гипсокартона на глаз и кривая штукатурка на потолке. Часть 4.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dSqtbQYnbb4",
+      "title": "What are we building behind a retaining wall on a site with a steep slope?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1krMIVRN8bI",
+      "title": "Напольное покрытие, которое переживет любой потоп",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "t5F4lKURZhc",
+      "title": "All the Mistakes We Made Building Our Construction Company Over 12 Years",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YW3bnulWkn4",
+      "title": "Почему строителям нельзя работать на окладе. Часть 3.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5wqqc5aHNQc",
+      "title": "Как строители себя убивают. Часть 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8NIgJpgfQq4",
+      "title": "TOP-8 kitchen countertops. Made of stone and furniture boards.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3A7hcGZ8xeo",
+      "title": "Price dumping in apartment renovations. Part 1.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Lk9JFaNnSm0",
+      "title": "Как мы делаем одновременно 60 ремонтов?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YK9L4xtcPc0",
+      "title": "Plus and minus 15,000.00 rubles with a company growing 10 times",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1w-tHEzU850",
+      "title": "Никогда не нанимай на свой объект таких строителей",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dAfXomONUKM",
+      "title": "Never put a bathroom in your bedroom",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_ODx5D487_U",
+      "title": "How a REFRIGERATOR was connected to a LIGHT BULB",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Km8fXcAm_aI",
+      "title": "Никогда не крась за картинами. Топ ошибок в ремонте квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s3dnKU5lgao",
+      "title": "The plumber left Russia. There are no orders. What should I do?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EzZBAMl3WUI",
+      "title": "Ремонт в квартире дизайнера без сметы. Какой интерьер делают для себя дизайнеры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cXJ3gHaDpK8",
+      "title": "How to Choose Lighting for a Modern Interior",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DbebHkqkMSg",
+      "title": "Дизайнерский ремонт за 2 месяца.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j-xzk2El8Zo",
+      "title": "The worst renovation I've ever seen.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "up6L1m4QI_w",
+      "title": "Какое напольное покрытие выбрать? SPC, ПВХ, ламинат или паркет.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "b_TUJJo7Vz4",
+      "title": "Ремонт квартиры за 30 дней. Квартира 300 м2.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "X4Kn9f9AOnQ",
+      "title": "Топ-15 кухонных фартуков в 2023.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lybWRG-1pww",
+      "title": "How to make your interior look more expensive.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aIVj33H9gyE",
+      "title": "Дизайнеры в Дубае. Почему дизайнеры красят плитку штукатуркой.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aqtl-9yv__I",
+      "title": "Лучшие решения в ремонте квартиры с нестандартной планировкой.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BdX5xRirDqo",
+      "title": "Ремонт квартиры в Дубае 840 м2. Как строителю из России уехать в Дубай.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EEm6I7mOcoI",
+      "title": "How to choose the perfect closet. What should a dressing room have?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IOXVh-ijbDY",
+      "title": "Как дизайнеру интерьера и заказчику выбрать строителя.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "26HIVxRGEaU",
+      "title": "Каким должен быть подоконник.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3oBGJagDMtM",
+      "title": "Ремонт квартиры в Сочи 500 м2 за 85 000 000 рублей.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "y62zMoUmpr4",
+      "title": "Какой толщины должны быть стены вашего дома.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RUIv_BkvM74",
+      "title": "Худшие решения в интерьере и ремонте квартиры спустя 10 лет.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "16RWZW7Rz0Y",
+      "title": "The best interior design and apartment renovation solutions after 10 years.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Is5tDY_Ua_w",
+      "title": "Electronic lock on the front door.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "m-5lMmYqV8Y",
+      "title": "Минусы купольного дома. Почему дома квадратные.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iPSZkYKPY-g",
+      "title": "Чем дизайн в Казахстане отличается от дизайна в России.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bsB-Ivn-xj8",
+      "title": "How Much Do Materials for Your Apartment Cost?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Bh7--uGVCzY",
+      "title": "Apartment finishing for 300,000 rubles. The apartment was covered with SPC laminate.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ed9sxunsU9w",
+      "title": "Ремонт квартиры глазами заказчика.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Yz0TJPdSw60",
+      "title": "Building a house today. What kind of house to build. Investing in real estate.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ROgepi0_v7M",
+      "title": "How to increase your ceiling height at home.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xGI5vssjY1E",
+      "title": "How to move into an unfinished apartment",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9RURjHKFf_I",
+      "title": "What kind of repairs are done in Kazakhstan.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YoK2OwaPNRQ",
+      "title": "Современная классика в интерьере. Квартира джедая.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wjK_ZCxjvAk",
+      "title": "How to choose materials for the bathroom.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tKuJO9IJgKo",
+      "title": "Как мы пришли к монтажу скатной и плоской кровли в строительстве.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9Va776FfqWY",
+      "title": "Выбираем напольное покрытие. Чем отличается дерево от ПВХ.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sKW_-pIoy7c",
+      "title": "Reasons for the destruction of country houses.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "L0SePfWGhsE",
+      "title": "Как работает интернет.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GUyHKE3lWL0",
+      "title": "Топ-5 трендов в интерьере.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mo4jaqEIATo",
+      "title": "Какие ванны бывают? Стеклянная, деревянная, стальная. Выбор идеальной ванны.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_y-mLtcLKlQ",
+      "title": "Safe heating for your dacha in winter. A heating agent for your radiator.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GI2T4oMLJRI",
+      "title": "Квартира в которой есть всё. Ремонт Вашей мечты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XXL18sgEKVM",
+      "title": "How to force builders to do high-quality repairs to a 55m2 apartment?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pUQz_LRGsdk",
+      "title": "Soundproofing or noise insulation? Protect your apartment from unnecessary noise and sounds.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ShhKButsK-Y",
+      "title": "Joining porcelain tiles with parquet.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dufT3Fc_awo",
+      "title": "TOP 5 interior design solutions. Bathhouse, ventilation, and air conditioning in your apartment.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hmWNvNe-H1E",
+      "title": "Ламинат на неровный пол не положить. Механизированная полусухая стяжка пола.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "g1rk3A8QR_I",
+      "title": "Building houses in India and Russia. Homes without blueprints, foundation cracks, and constructio...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SjXvYuRhXPA",
+      "title": "Румтур квартиры в старом фонде. Ремонт в здании после реконструкции.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6anbbYL5oF0",
+      "title": "How does private frame house construction differ in Japan from Russia?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iDiHgtaRoI8",
+      "title": "Stages of engineering repairs after white box finishing from the developer.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nRwPyXMQ64M",
+      "title": "Do-it-yourself major renovation of a secondary (three-room) apartment.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wVWvbw1cUg8",
+      "title": "Планировка одноэтажного дома 10 на 10 в прошлом и сегодня.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MP-8pD8V6DY",
+      "title": "Топ-38 советов по раскладке плитки в маленькой ванной, санузле или душевой.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dJkOnQW0B8I",
+      "title": "Repair and construction in Germany. Using the example of laying ceramic tiles and porcelain tiles.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xh89qQHuaJw",
+      "title": "TOP 10 Bathroom Solutions. Bathroom Finishing in Moscow",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_Vri_ZxcA1c",
+      "title": "Floor screed",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jw-4ViF7Sp8",
+      "title": "Цены на душевые системы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XCN1bedLBt8",
+      "title": "Смета на ремонт квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "A0_kOv-29fw",
+      "title": "Всё об электрощите за 30 минут.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rJBuZSbNdHQ",
+      "title": "Обзор современного дома в Сочи.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IgEmzcOw1eQ",
+      "title": "Why does an apartment need such plumbing?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uwtLIdPI-gQ",
+      "title": "Не начинай ремонт квартиры, пока не подготовишь всё это.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "haIzlUnaQ38",
+      "title": "Лучшие решения в ремонте. 1 квартира - 1000 деталей.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VI2Ik94LxT0",
+      "title": "Технологии ремонта квартиры или дома после пожара.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KGILKMUsZa4",
+      "title": "Combined bathroom with bedroom. Design ideas.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KOU27kPsKpI",
+      "title": "Вопросы плиточнику: Плитка под 45 градусов. Раскладка плитки. Эпоксидная затирка и многое другое.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2_0jPPL0E7Q",
+      "title": "Apartment renovation after 5 years in neoclassical style.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pRRtguLRxio",
+      "title": "The right choice of flooring.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "E4Bhc3AUa50",
+      "title": "Revealed the secret of soundproofing in 8 minutes.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YROWXxk4wtw",
+      "title": "Where to start renovating an apartment?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CUnhqHdJbuA",
+      "title": "Система вентиляции и кондиционирования в квартире. Бризер с кондиционером или приточная вентиляция.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WqU0qm161Ro",
+      "title": "Зачем нужен прораб на вашем объекте.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "INi2P4chEJk",
+      "title": "Ремонт квартиры спустя время.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mcy0x0eZMlo",
+      "title": "Качественный ремонт от застройщика.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UWtb1RCT0dI",
+      "title": "Ремонт в съёмной квартире.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "u4OLG_3SDNg",
+      "title": "What's Better: LVT, Laminate, or Tile? Choosing Flooring + Prices",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-1MbV3SVggc",
+      "title": "Строительство дома по типовому проекту за 2 месяца зимой.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7nbdecj5dNc",
+      "title": "How to lift a house off the ground or a pile-grillage foundation.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NJXthfjm0kE",
+      "title": "Flat roof from start to finish. Home is simple. Episode 5.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Cyz4hpiLF5Q",
+      "title": "Ремонт квартиры для холостяка 80 м². Рум тур.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qSS0szGWjQ4",
+      "title": "С чего начать ремонт однокомнатной квартиры?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GcqeOfSiLtc",
+      "title": "Франшиза по ремонту Ellis. Расследование.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T_peMpZisW8",
+      "title": "Как мы потратили 18 миллионов на ремонт квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Swiy8d_bEx8",
+      "title": "Why Do You Need Home Ventilation and Air Conditioning?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9PRFw3MaVEs",
+      "title": "Дренаж и водоотведение на участке за 12 минут.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hrDS5dxuLLk",
+      "title": "A complete apartment renovation for 16,000,000 rubles in Sochi in one video.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cgj2EZTGBeo",
+      "title": "Какой фундамент выбрать для своего участка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4K7Dg97u1PY",
+      "title": "How to choose grout for tile joints. Grouting",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OPd2ovhm5jE",
+      "title": "Silicone sealant that doesn't turn black. Seam sealant",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_yIw4ZSUB4I",
+      "title": "Как мы учили механизированно штукатурить наших зарубежных друзей. Механизированная штукатурка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zKDPRofZXh8",
+      "title": "We built a house in 7 weeks. It's a house made of aerated concrete or aerated concrete blocks.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rTIJEXU5r5k",
+      "title": "КАК ЗАЩИТИТЬ НАПОЛЬНОЕ ПОКРЫТИЕ ВО ВРЕМЯ РЕМОНТА",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "y2DnSC9s17k",
+      "title": "Flat roof in a private house. Building a house is easy. Episode 4.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XVPavfoZ0GQ",
+      "title": "НАТЯЖНЫЕ СТЕНЫ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "W2UeM-5CPbo",
+      "title": "7 FRAME HOUSES YOU DIDN'T KNOW ABOUT",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_MFNm_8dOVk",
+      "title": "СКАТНАЯ КРЫША ДОМА ИЛИ ПЛОСКАЯ?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "L1KtGOwmx-k",
+      "title": "VENTILATION INNOVATIONS YOU DIDN'T KNOW ABOUT",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "x9vEYTVBoIM",
+      "title": "Remote mounted windows or regular windows?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iw9C7XKQmto",
+      "title": "CEILING ACCESS PANELS YOU WON'T EVEN NOTICE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EcugMWpalFE",
+      "title": "How much does an apartment renovation cost per square meter",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zxx1wy0cjHc",
+      "title": "ВОЗВОДИМ СТЕНЫ ИЗ ГАЗОБЕТОНА. Дом - это просто. 3 серия.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DhwfxgVC5s8",
+      "title": "THE BEST ROOF FOR YOUR HOME",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ojy74COgPFk",
+      "title": "ФАСАДНЫЙ КИРПИЧ-НАКЛЕЙКА",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "r_1LpKLu0Yo",
+      "title": "Our secrets of plastering walls using beacons.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5H6BdLGl3Gc",
+      "title": "ОТКРЫТИЕ ОФИСА КОДОЛОВ ГРУПП В МОСКВЕ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UTdLdXTXIyA",
+      "title": "Как делают заветный белый порошок?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pucKAcvhQHc",
+      "title": "Pouring a monolithic slab with permanent block formwork. Home is easy! Episode 2.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SdbXTa9JvE8",
+      "title": "Tools for AC Installation. What Do You Need to Install an Air Conditioner?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "76W2lNGAK-s",
+      "title": "Air conditioning installation. Advice from a water-free installer.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yRsBn7zZlXc",
+      "title": "Everything about balcony interiors in 60 minutes.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XTcoyTu-nqM",
+      "title": "What kind of air conditioner do I need? How do I choose one, and what types are there?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4F6jqsjiWo0",
+      "title": "Underfloor heating thermostats. What's the difference between them?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rSGG2eeBs3A",
+      "title": "Свайно-ростверковый фундамент. Дом - это просто. 1 серия.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "E9WpZs9tVZU",
+      "title": "Ремонт кафе в экстремальных условиях. Франшиза Кофемашина.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4B-fxIrd-2Y",
+      "title": "Пробковые полы, пробковая подложка, пробковые покрытия и пробковая доска - все плюсы и минусы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6oLydKqPcRo",
+      "title": "Children's room. Well-stocked - a happy child.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8jSAi1c22rk",
+      "title": "Сделали дом под ипотеку 2%. В чем секрет?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yE9qUPK9RTc",
+      "title": "Сколько надо выстояться фундаменту?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wd-9OjK7TWg",
+      "title": "Как кухней наказывают детей?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mhBLQX0ycuY",
+      "title": "Бюджетный ремонт квартиры под ключ за 150.000 руб",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0QT-pm9u10Q",
+      "title": "Everything about bedrooms in one video.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "N7lQ_0ATJg8",
+      "title": "Technical design project. 100 projects later.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1nWIKxlglv8",
+      "title": "HALLWAY. How to organize the space?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "urUxeknU1i0",
+      "title": "Подложки под ламинат и другие покрытия. Обзор всех видов подложки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZMAVagzISzw",
+      "title": "Which kitchen apron is better? Kitchen design starts with a kitchen apron.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MmfNnAIuNRY",
+      "title": "American builders. Why don't we have  ?!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "09LL9Inw944",
+      "title": "Ремонт квартиры + подробная смета.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_Bdbt_7tsXM",
+      "title": "House or Apartment? Which Is Better? Comparing Prices.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lmotRUY3WXA",
+      "title": "TOP 10 KITCHEN FACADES: MDF, solid wood, plastic, stone.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "slzTtOtGqbE",
+      "title": "Гипсовая штукатурка стен по маякам. Как лучше и быстрее штукатурить?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "E66NBLYO0K8",
+      "title": "КУХОННЫЙ ФАРТУК. КАКОЙ ВЫБРАТЬ? Все виды фартуков в одном видео.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_9Wa6OLheBI",
+      "title": "Which materials should you choose for floors, walls, and ceilings?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MGsHHJSpWkY",
+      "title": "Электрика в доме, сантехника и теплый пол водяной и электрической.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LoK68czrTsw",
+      "title": "How to choose windows and facade for a turnkey house (warm house contour)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "p3oYhHV4RGo",
+      "title": "Which walls, roof, and ceiling should I choose to build a turnkey house?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "erJcQE8OmpA",
+      "title": "House Foundation and Earthworks",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "foGrmiHJgec",
+      "title": "Save 640,000 rubles on a turnkey home project.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mN6Ew5yaY10",
+      "title": "TOP 9 secrets on how to choose a good plot of land for a house?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s1h-x_R0goc",
+      "title": "Buy laminate from the catalog Leroy Merlin or another type of flooring (linoleum) ???",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iuKuTn9TMU4",
+      "title": "Ламинат дорогой и дешевый (какой выбрать, класс, цена)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OWISlz-hBNU",
+      "title": "How to install a beacon",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z7UBSp4cHq4",
+      "title": "Turnkey bathroom and toilet renovation based on a design project.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ATqjfwctKKc",
+      "title": "Какой ремонт под ключ делают? Хороший | Эконом | Дешевый.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VNb6c6UdjGM",
+      "title": "Самый честный отзыв на всю продукцию MAPEI (Мапей)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FWi8Vb4TUpQ",
+      "title": "TOP 10 points of budget repair work in your flat",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "11cuatZm8K8",
+      "title": "How to start a construction company. Business plan for small businesses.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cdCB3-CFOXc",
+      "title": "The best soundproofing for walls, floors, and ceilings in an apartment. All apartment soundproofi...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "svcTZwl92T8",
+      "title": "ТЕСТ ПЛИТКИ №1 - СМОТРИ И РЫДАЙ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wNjdlkQ3krM",
+      "title": "Инженерный ремонт. Ремонт квартиры, когда хочется качество, но бюджет ограничен.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PJKk1BwtgVY",
+      "title": "Особенные отзывы на технический дизайн-проект Сергея Кодолова",
+      "status": "duplicate",
+      "reason": "already has a source note: YT_PJKk1BwtgVY_kodolov_design_project_process_rebuttal.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "A8SNeQnDJvY",
+      "title": "Restaurant renovation. From interior design project to restaurant opening. Restaurant Tsekh Vladi...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KznvRVXlCwo",
+      "title": "Все о механизированной штукатурке за 2 часа.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vva_qb1gfiA",
+      "title": "Плинтус, как подоконник. Новое слово в шаблонной отделке.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RrwtwpRLBOs",
+      "title": "All about electric underfloor heating",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uLiie60LfGo",
+      "title": "Quartz vinyl tile. How they lie.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FZP7o9rti4Q",
+      "title": "Обзор ремонта квартиры за 12.000.000 руб",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fTZlRCETyKA",
+      "title": "TOP 8 BATHROOM DESIGN ELEMENTS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "C6cKxk_KU-M",
+      "title": "All about stretch ceilings in 30 minutes",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8GsNfG8c6gM",
+      "title": "How I Chose an Apartment in Moscow",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lajJy5T7Tmg",
+      "title": "Как ведут бизнес в Европе по штукатурке стен на штукатурных станциях Калета 4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bF5cf5huFO8",
+      "title": "Electrical wiring and plumbing in the house.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wJJu1Y3wV9o",
+      "title": "Ремонт квартиры с шумоизоляцией в панельном доме 83 серии.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SbMV-LiP51o",
+      "title": "Staircase to the 2nd floor. How we did it.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Wn5VWxpUDik",
+      "title": "How to start renovation in a 130 m2 apartment... A dubious new building, but with a sea view.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yEB810OvVH0",
+      "title": "Крутой поселок Владивостока... как в Москве.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WA1DG2FHnz0",
+      "title": "Все о шумоизоляции квартиры за 30 минут",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Zj0Dcu_RI_Q",
+      "title": "Топ-10 вопросов по ремонту квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Qa36tFEF6QI",
+      "title": "Подтягиваемся до Московского уровня. Обзор квартиры в элитном поселке Владивостока.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XwkkMM_Wh-s",
+      "title": "Разница в стройках Москвы и Владивостока.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jWTg70gLSso",
+      "title": "Small apartment for a girl 40 m2.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0YhVZ4sgESk",
+      "title": "Как делают элитные дома во Владивостоке",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iU2m6TtuP-A",
+      "title": "Сколько стоит построить дом - 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AicjO-vRxRw",
+      "title": "MY CLASSIC 90 m2 with two toilets.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "x9skIdGhB88",
+      "title": "16-клавишный выключатель... и его современный брат.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "t3TJ-1EfpYc",
+      "title": "Как сочетать цвета в интерьере",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "usGmYzQwLNw",
+      "title": "Умный дом. Восстание машин.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9W34v8WZJbs",
+      "title": "Квартира 70 м2 с ОДНИМ ОКНОМ!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "H1lMJm5ROBk",
+      "title": "Кварцвиниловая плитка и плитка ПВХ - одно и то же?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Mi6YXZVdM7E",
+      "title": "LVT Flooring Is Just Cut-Up Linoleum",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rnfU4Iye1ao",
+      "title": "Обзор готового ремонта в квартире 40 кв.м.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9g9b7jxCz2o",
+      "title": "В чем разница дешевого и дорогого ламината или плитки ПВХ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BTN9Bm8SDeU",
+      "title": "За неделю до сдачи. Экскурсия по квартире 50 м2 в элитном жилом комплексе Оникс.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "31j4FgpN6Wk",
+      "title": "Дизайн интерьера 2.0",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0sSn5pIUe28",
+      "title": "How to f*** your builder? The finale.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ft0CxRSa4dk",
+      "title": "Roomtour of the twins' apartment. Review of the 90 m2 apartment for a family with 2 children.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cXT0F7AWKSs",
+      "title": "They’re not just your employees!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ISqk5qgubkc",
+      "title": "Как раз****ть своего строителя?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dbgoerbrGyk",
+      "title": "Уничтожаем утеплитель в естественных условиях.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8NMh3wZKUfA",
+      "title": "Unique recipes for interior design of children's room.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qThnyd4Qxs4",
+      "title": "What material to choose for building new house.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JQdYU_5fT7g",
+      "title": "How My Construction Company Is Structured",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Kz4Am7yuOT0",
+      "title": "Как получают заказы Алексей Земсков, Дневник Дизайнера и Сергей Кодолов",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nobeQbo1_2w",
+      "title": "DIY foundation for a house made of aerated concrete (piles, grillage, slab)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YIN1l5VA06s",
+      "title": "Electrician at home",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AdZGJOnmaHA",
+      "title": "Стили дизайна интерьера. Какие бывают + фото дизайна квартир.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1BshcaIkJ8k",
+      "title": "Как купить диван и не прогадать. Пошаговая инструкция.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XfJXo8x027w",
+      "title": "Как выбрать и купить керамическую плитку для ванной комнаты и туалета.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j-EldYq1_ic",
+      "title": "Сантехник во Владивостоке.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uclDbO-OXWg",
+      "title": "How Much Does It Cost to Build a House in Vladivostok?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-owuHeWl89Y",
+      "title": "Parquet board or quartz vinyl tile (PVC tiles)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "R_wZNXp88E4",
+      "title": "Строительство дома под ключ во Владивостоке. Все этапы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cywrbaAmMKE",
+      "title": "Turnkey Apartment Renovation: Every Step of the Process",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ySSm6B-w9V8",
+      "title": "Soft roofing. Installation of shaped parts.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "r8IWZHnV65s",
+      "title": "House roof. Installation of soft roofing (TechnoNIKOL flexible shingles) in winter conditions",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cRPia0Uwnkc",
+      "title": "Concrete floor screed",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "p8-joyBYoMI",
+      "title": "Laying PVC tiles, vinyl flooring, quartz vinyl tiles",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_zUldJLkCs0",
+      "title": "Затирка швов плитки. Эпоксидная затирка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DFJYZwZIYzM",
+      "title": "Кладка газобетона на клей или клей-пену?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kHqB2ERq5TY",
+      "title": "Плитка под 45 градусов. Заусовка плитки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ofsvw_p0S5g",
+      "title": "Стены в квартире. Демонтаж стен в новостройке.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OtXxoo0U8dw",
+      "title": "Укладка плитки в ванной. Технология укладки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WDohQvzDGHQ",
+      "title": "Bathroom Tiling. Layout.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4QdnG25fQxc",
+      "title": "Вся правда про ремонт квартир",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qREIOqSLvFU",
+      "title": "Душевая кабина",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hsmHyMw7JyY",
+      "title": "Топ-5 ошибок дизайнеров от Алексея Земскова",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D6WI0gZ_OwA",
+      "title": "Штукатурка стен в ванной комнате",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0nfumJ6Rt5U",
+      "title": "Лопнула труба отопления. Система отопления в квартире.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vP6Sh1h3GwI",
+      "title": "Ремонт ванной комнаты",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JCH5A55dxJc",
+      "title": "Наливной пол или стяжка пола",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mFoT0yT7u6Q",
+      "title": "Дизайн ванной комнаты",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rwN-SHKjoXA",
+      "title": "Личные финансы, процент по вкладам, пенсия.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6m618nQEr3M",
+      "title": "Как строить стены из газоблока.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gbW0HoRO_Vs",
+      "title": "Repairings in the flat... what to start with?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tAnMWKKlaUY",
+      "title": "Floor cement screed. Which one is better?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "R1h-gyK9Viw",
+      "title": "Repair and construction by migrant workers.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "am6PHwDR3vM",
+      "title": "Цены на ремонт квартир во Владивостоке.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NaLp7-fc5TE",
+      "title": "Линолеум. Как выбрать? Как уложить? Вредность для здоровья.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iCsRJvdXDHY",
+      "title": "Ремонт квартир под ключ или ремонт комнаты",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8VefC2mILJo",
+      "title": "An Architect on Foundations, Soil Heaving, and Drainage.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LKhUqvWJwhI",
+      "title": "Wallpaper or wall painting",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bM9p3xzEjUQ",
+      "title": "Buy laminate or pvc tile (vinyl floor)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fgL3--zGv_o",
+      "title": "Как выбрать квартиру",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "f24Nnu4UtUI",
+      "title": "The End. Part 10. Dream Team.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_LxlKJ1Wdj0",
+      "title": "Final finishing. Part 9. Dream team.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rkowVV5x1T0",
+      "title": "Алексей Бурдюк - о септиках, зарплатах, государстве.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QyJeikkBKS4",
+      "title": "Japanese Upbringing. Part 8. Dream Team.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vrp2UtNzBIc",
+      "title": "Отопление дома - Про цену, котлы, теплый пол.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Xxli8Xji6Oc",
+      "title": "ГКЛ и кафель. Часть 7. Команда мечты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Cd_NlEnblSM",
+      "title": "Как построить дом?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "i_mwePHidJc",
+      "title": "Учет. Часть 6. Команда мечты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Mjmpqs6uUnA",
+      "title": "Мотивация. Часть 5. Команда мечты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "87goKK2hQjE",
+      "title": "How to Use a Builder's Level - 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jHtOSEqxaMs",
+      "title": "Plastering Walls. Part 4. Dream Team.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iDgOQmaZ7qM",
+      "title": "Налоги / Фокусы / Земсков. Про стройку.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Lvz3YdN8Q6I",
+      "title": "Floor screed. Part 3. Dream team.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JBJsgzSjRyA",
+      "title": "Стены и сети. Часть 2. Команда мечты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SaRU8BI1v5A",
+      "title": "Introduction. Part 1. Dream Team.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tfDNB9AMNq8",
+      "title": "Договор подряда",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZshELmHGCKo",
+      "title": "Управленческий и финансовый учет",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Fckdk2je3Q8",
+      "title": "Mechanized gypsum plaster (m-tec mono-mix FU)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GTThwCGBCo4",
+      "title": "Как пользоваться нивелиром.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T4vPmH6i4YU",
+      "title": "Appeal to builders of Primorsky Krai.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ow0kYTIKtgE",
+      "title": "Walls and partitions. What material should be used to build them?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "69hgpJ6E-u0",
+      "title": "Фотостудия - VII. P.S.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0-TSJAu-Ss4",
+      "title": "Фотостудия - VI. Финал.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YTej9Hf-iJk",
+      "title": "Фотостудия - V. Циклорама часть 2.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wrjAXvyKBWA",
+      "title": "Photo Studio - IV. Cyclorama part 1.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ygXJIuFK3yQ",
+      "title": "Фотостудия - III. Фотокомната из дерева.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "S15Gn5HvSso",
+      "title": "Фотостудия - II. Черновой этап.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_CZcjdelsV8",
+      "title": "Фотостудия - I. Начало.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bGvT5s1i1ag",
+      "title": "Коммерческий объект №7.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Kf1wzCYb5vU",
+      "title": "Коммерческий объект №6.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KjX8xbdS6wk",
+      "title": "Коммерческий объект №5.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0w6hmSD0MTQ",
+      "title": "Коммерческий объект №4.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1zLVmjRbXho",
+      "title": "Коммерческий объект №3.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dFBCejHwqgY",
+      "title": "Коммерческий объект №2.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lnB0iyLs3Gg",
+      "title": "Коммерческий объект №1.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FCy11k5fpyE",
+      "title": "Project No. 40. Pandora's Box.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-YWi8ZsgF7Q",
+      "title": "Объект №39. Судебное дело.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3wBkFBapMsw",
+      "title": "Объект №38. Элитный ремонт.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "GdTdSTrn6QY",
+      "title": "Объект №37. Поднятие цен.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-OwbHWonngY",
+      "title": "Объект №36. Молодой семье.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "efZ3oqxSCNQ",
+      "title": "Объект №35. Как срубить бабла.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YZc2Rbpg0t0",
+      "title": "Объект №34. Внимание к мелочам.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "S9UWPqG-_TE",
+      "title": "Объект №33. Строительство.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pSHX5F3rrss",
+      "title": "Subject #32. Close relatives.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7N9e665QhL4",
+      "title": "Объект №31. Русские рабочие.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AzrpgxONlnI",
+      "title": "Object No. 30. Korean technologies.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OaJgQD11RYw",
+      "title": "Объект №29. Неочевидные косяки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XCgGQZcPEpk",
+      "title": "Subject #28. Distant relatives.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dW2Yv0Rok4U",
+      "title": "Subject #27. When everything goes smoothly 2.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SdPb7T_oHkI",
+      "title": "Объект №26. Дешевая элита и стеклопластик.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WF407TPAlAc",
+      "title": "Object No. 25. Commercial renovation.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PkWvr7ZueCQ",
+      "title": "Объект №24. Автоматизация.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kDJy5A4G2VQ",
+      "title": "Объект №23. Соседи.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EeJbbnv4jQI",
+      "title": "Объект №22. Минусы оклада.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "n27CxM5Cr7s",
+      "title": "Screed or wooden floor",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D7dsNWjVmhM",
+      "title": "Project No. 21. Channeling and Drywall Extravaganza.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BShppw8RukU",
+      "title": "Item #20. By recommendation.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AlcMa70lr90",
+      "title": "Project No. 19. HOA.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xviGL9DYkE4",
+      "title": "Объект №18. Увольнение.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OJzhnjbAaZg",
+      "title": "Объект №17. Махинации и слабохарактерность.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gS4vQfR845o",
+      "title": "Object No. 16. Ice Age.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vEMYtOlTGGM",
+      "title": "Объект №15. Спасательная шлюпка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FmdgiarL1u4",
+      "title": "Project No. 13. Clarification.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jwvdHuy4Bvc",
+      "title": "Объект №14. Без акта выполненных работ.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "skqPDJqCi1o",
+      "title": "Объект №13. Джабба Хатт.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_5GyLZ3Gd10",
+      "title": "Project No. 12. First contact with the LLC.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FYEYHfO28lg",
+      "title": "Объект №11. Бедная девочка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "H1_zcbcbhJ4",
+      "title": "Project No. 10. Praise be to Vodka!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Jhc5X6UMBkQ",
+      "title": "Project No. 9. First foreman.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LEolbIxOrDA",
+      "title": "Project #8. A Real Man.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "67IGWdyFFJ4",
+      "title": "Project No. 7. Everything went like clockwork.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "n_cQVkaKxZU",
+      "title": "Stretch ceiling or plaster ceiling",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hBbutw9H6uA",
+      "title": "Объект №6. Первая квартира \"под ключ\".",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NOKSae1DDnk",
+      "title": "Объект №5. Дочка преподавателя.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "a-Mo1jTaOBA",
+      "title": "Объект №4. Воняющий стояк.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QYCvYxXroYo",
+      "title": "Subject #3. Single mother.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ECeqZrb2INk",
+      "title": "Объект №2. Военные.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RSLqA1G_Nf8",
+      "title": "Объект №1. Спальный район.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZaoXEtTStHI",
+      "title": "Бизнесмены. Начало.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "y2POmfPRvwI",
+      "title": "SNiP standards. Wall finishing (wallpaper, painting).",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zCjy4Jz95tk",
+      "title": "Нормы СНиП. Керамическая плитка и ламинат.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2Hees8aWavc",
+      "title": "Потолок из гипсокартона (Нормы)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uiilvsMFs6U",
+      "title": "СНиП. Штукатурка стен (Цементная и гипсовая). СНиП 3.04.01-87 \"Отделочные и изоляционные покрытия\".",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AcwRmiy2LNU",
+      "title": "Межкомнатные перегородки из гипсокартона.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "a1ndicFoeZA",
+      "title": "SNiP Standards. Screed and Water. SNiP 2.04.01-85. SNiP 3.04.01-87.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OPXExTkLKSs",
+      "title": "SNiP standards. Apartment renovation.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LTaYwq-TWnI",
+      "title": "Перегородки из гипсокартона полгода спустя.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fJX5pyH4Ptg",
+      "title": "Капитальный ремонт торгового центра.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IHTLYLkyzTk",
+      "title": "Гипсокартон видео (сравнение двух вариантов)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aPAiYBJRi3Y",
+      "title": "10-10 Укладка кафеля/керамогранита. Крестики нужны? 10-10 Laying tile / porcelain. Crosses need?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hBkUozUoe-0",
+      "title": "Сравнение видов укладки плитки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sgpDVk81vUE",
+      "title": "Лучший вариант укладки кафеля (новая технология)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZMaWuY4VDFE",
+      "title": "Новая технология укладки кафеля своими руками",
+      "status": "fresh",
+      "reason": null
+    }
+  ]
+}

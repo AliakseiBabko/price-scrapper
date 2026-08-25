@@ -76,6 +76,46 @@ From a 38 m² secondary-market renovation featured (not executed) by
 
 `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 
+## Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design (added 2026-08-25)
+
+From a real kitchen-living-room decor case, France (level 1) — dispatched
+as a "gray bedroom" video but actually a combined kitchen-living room for
+a family with a young child; directly relevant to this project's own
+household (young children, open-plan living space):
+
+- **⚠️ Furniture-consolidation rule for a child's play zone inside an
+  open living space**: swapping individual existing pieces one-for-one
+  doesn't reduce visual clutter — consolidating several small pieces
+  into **one larger, purpose-fit piece** (here: a round coffee table
+  with a built-in lower shelf, serving as both play surface and toy-
+  adjacent storage) cuts "visual noise" in a shared family room more
+  effectively than a like-for-like swap.
+- **No-sharp-corners furniture selection for a child-use zone** —
+  explicit safety-driven design constraint.
+- **⚠️ Storage relegation-with-upgrade-path sequencing rule**:
+  temporarily relocate a child's toy-storage unit to a less-visible spot
+  (out of the main sightline but still close to the play zone), with an
+  explicit plan to replace it with a proper dresser/console **once the
+  child outgrows toy storage** — sequencing a furniture decision around
+  a child's growth stage rather than solving for "forever" today.
+- **Floor cushions as a low-cost comfort mitigation for a window-adjacent
+  play zone** — added specifically because sitting/playing directly by a
+  window "might feel cool."
+- **⚠️ Regional sofa-mechanism market distinction**: in France/Western
+  Europe, the "eurobook"-style fold-out sofa mechanism common in Russia/
+  Eastern Europe is uncommon; fold-out mechanisms there are typically
+  full sleeper-sofa mechanisms for overnight guest sleep, not a simple
+  recline-to-watch-TV mechanism — a real, checkable regional furniture-
+  market difference relevant to sourcing in either market.
+- **Modular/sectional seating as an explicit alternative to a fold-out
+  sofa for reclined TV viewing**: a bench-loveseat-bench modular
+  configuration avoids the daily friction of clearing toys and
+  unfolding/refolding a sofa mechanism just to recline — the source's
+  own stated preference, specifically because of that daily-use
+  friction, directly relevant to a household with young children.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
+
 ## Open Questions
 
 - No source yet generalizes these examples into a reusable decision framework (a checklist of "which household variables to ask about before defaulting a layout choice") — each example above is a specific worked case, not yet a synthesized method.
@@ -83,4 +123,5 @@ From a 38 m² secondary-market renovation featured (not executed) by
 
 ## Change Log
 
+- 2026-08-25 — Added "Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design" section (1 source, `YT_fkoUNvB9LV8`), part of a dedicated 8-video Anuta Vlady batch targeting `06_Small_Bedroom` — this particular video turned out to be a kitchen-living room, not a bedroom, so routed here instead.
 - 2026-08-24 — Page created, migrating this content verbatim from `Durable_Facts.md`'s Design Concept bucket, as part of standing up the new `17_Design_and_Ergonomics` folder per explicit user request.

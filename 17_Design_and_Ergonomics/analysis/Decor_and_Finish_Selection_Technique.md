@@ -183,6 +183,57 @@ reposition, no full renovation):
 - **Buy furniture as individual pieces from different collections, not
   matched sets** — reads as more current than a uniform bedroom/sofa/
   dining set.
+
+## Curtain Selection and Sizing Rules (added 2026-08-25, Sergey Kodolov)
+
+- **Avoid heavy multi-layer baroque-style drapery** (large rosettes/
+  swags) in an ordinary apartment — visually consumes space rather than
+  expanding it; reserve for genuinely castle-scale ceiling heights.
+- **⚠️ Curtain-rod height and width rules, with reasoning**: mount the
+  rod high (roughly the top third of the wall, ceiling-to-rod, vs. two-
+  thirds rod-to-window) with floor-length curtains — visually raises the
+  ceiling, vs. a rod mounted right above the window frame, which shrinks
+  the room despite feeling intuitive. **Overhang the rod at least
+  15-30cm past each side of the window, ideally 30-40cm** — a rod cut
+  exactly to window width visually narrows the room; overhang makes even
+  a narrow window read as wide once curtains are drawn open to the side.
+- **Short (above-floor) curtains read as dated** — the one endorsed
+  exception: a kitchen window over a sink, where blinds (french/roman/
+  roller) are recommended over any curtain style.
+- **Floor-length pooling curtains carry a real durability/maintenance
+  tradeoff, not just an aesthetic one**: vulnerable to tearing from
+  children, pets, robot vacuums, or an adult accidentally stepping on
+  the fabric (worse with a full ring track — either the ring or fabric
+  can tear); pooled fabric also needs washing more often and is heavier
+  to launder.
+- **⚠️ Large-print curtain fabric is a common, avoidable mistake** —
+  curtains are almost always gathered/pleated, so a large pattern is
+  rarely actually visible once hung; use small prints for curtain
+  fabric, and use roller blinds instead for a genuinely large visible
+  print (a flat surface that actually displays it).
+- **⚠️ Plan radiator/windowsill size before ordering curtains, not
+  after** — an oversized radiator/windowsill relative to plan can leave
+  a floor-length curtain resting awkwardly on top of it; fix by
+  extending the curtain rod's room-ward projection 2-3cm. One more
+  reason radiators/windowsills need specifying early in the design
+  project, since curtains go up only after everything else is already
+  purchased/installed.
+- **In-floor convector clearance depends on convector type**: with a
+  floor-to-ceiling window, place the convector between curtain and
+  window (creates a warm-air curtain effect). Fine for a water-based
+  convector even if fabric rests on it; **avoid letting fabric
+  (especially fuzzy/textured weave) rest directly on an electric
+  convector** — no personal ignition case observed, but not a risk worth
+  taking.
+- **⚠️ Sheer/semi-sheer/blackout three-layer "stereotype" explicitly
+  debunked**: a single layer type (sheer-only, semi-sheer-only, or
+  blackout-only) works fine independently — skip any layer type you
+  never actually use rather than installing it by convention.
+- **Fullness/gather coefficient — a specific number**: curtain fabric
+  width should be **1.5-2× the rod's own width** for a visibly gathered,
+  wavy look rather than flat drape; 1.5× gives smaller waves, 2×+ gives
+  a fuller, more "premium"-reading result. Rule of thumb, not absolute.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_bJJSH84q5fE_kodolov_curtains_selection|bJJSH84q5fE_kodolov_curtains_selection]]]
 - **When mixing classic and contemporary styles, blend at the
   individual-piece level, not the whole-zone level** — pair a classic
   table with contemporary chairs (or vice versa) rather than placing an
@@ -244,6 +295,92 @@ project's own market.
   humidity/temperature resistance.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IoQaozB-DYA_kodolov_dubai_cheap_expensive_looking_apartment|YT_IoQaozB-DYA]]]
+
+## Anuta Vlady — Kitchen-Adjacent Wall Durability and Faux-Panel Art Technique (France, added 2026-08-25)
+
+From the same France kitchen-living-room case as this batch's other
+Anuta Vlady entries:
+
+- **Kitchen-adjacent wall paint durability technique**: a painted wall
+  near a cooktop exposed to grease/splatter should get a matte
+  protective varnish/sealant top-coat over the paint, to make routine
+  cleaning easier.
+- **DIY "faux wall panel" technique using oversized art**: hang two
+  identical large-format art canvases, with one deliberately flipped/
+  inverted so the pattern doesn't read as an obviously mirrored repeat —
+  mimics the vertical-emphasis look of physical wall panelling at a
+  fraction of the cost/effort, sized to match a nearby table's length
+  for proportion. A second, worked example of this same technique
+  appears in this batch's St. Petersburg living-room case below.
+- **Dining-pendant-light diameter proportioned to table size**: a
+  50cm-diameter pendant shade chosen to suit a 2m-long dining table.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
+
+## Anuta Vlady — One-Accent-Wall Rule and Functional-Display Technique (Alaska, added 2026-08-25)
+
+From a real decor-refinement case, Alaska (level 1):
+
+- **⚠️ One-accent-wall rule (general design principle, clearly stated)**:
+  a room should have only **one** accent wall — creating two identical
+  accent treatments in the same room cancels the accent function itself
+  ("an accent is something there's little of, something that stands out
+  — if you make two identical ones, they stop being accents"). Directly
+  relevant when deciding how to treat a second, currently-blank wall in
+  a room that already has one accent wall.
+- **Framed-print gallery technique, two vertical rows flanking a
+  window**: matching baguette/passe-partout frames filled with free
+  downloadable art (curated by theme/color palette), arranged as two
+  vertical columns — a real alternative when a second accent wall isn't
+  an option per the rule above.
+- **Battery-powered/rechargeable picture lights as a no-rewiring
+  workaround for an insulated stick-frame exterior wall** — fishing new
+  wire through an insulated wall is impractical; a cordless picture
+  light avoids the issue.
+- **⚠️ Functional-only open-kitchen-counter styling rule**: only display
+  kitchen items actually used regularly on open counters; group
+  functional items onto trays/boards/stands rather than leaving them
+  scattered — this, not object count, is what prevents visual clutter.
+- **Book-cover-wrapping technique to mute a bookshelf's visual noise**:
+  wrap display books in plain paper covers matching the room's palette,
+  rather than removing/hiding them.
+- **Faux-stone pendant shade** chosen over glass for a dual reason:
+  matches a natural-materials scheme *and* avoids the glass-shade
+  dust-visibility problem (see this page's existing decor entries for
+  the glass-shade caution elsewhere in this batch).
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mRD3GbTOtK8_anutavlady_alaska_decorating_techniques|YT_mRD3GbTOtK8]]]
+
+## Anuta Vlady — Pattern-Balance and Accent-Wall-Segment Rules (St. Petersburg, added 2026-08-25)
+
+From a real 22m² long/narrow living-room minimal-change case, St.
+Petersburg (level 1):
+
+- **⚠️ Accent-wall-on-the-longest-wall mistake, general rule**: putting
+  an accent wallpaper/finish on the *longest* wall of an already long/
+  narrow room emphasizes the room's poor proportions further — accent
+  only a segment/portion of that wall instead. (Full detail and
+  bedroom-specific application cross-referenced on
+  [[06_Small_Bedroom/analysis/Space_Recovery_and_Proportion_Technique|Small Bedroom: Space Recovery and Proportion Technique]].)
+- **⚠️ Genuine-plain vs. "technically neutral" companion-material
+  distinction**: a solid-color wallpaper meant to accompany a bold
+  patterned accent can still function as *another* pattern if it has
+  visible texture/sheen (embossed veining/stripes with shine) — for an
+  already-finished room, painting over such a wallpaper flattens it
+  into genuinely plain, cheaper than replacing it outright.
+- **Cumulative-texture-load principle**: several individually
+  "technically neutral" surfaces (a wood-grain floor, a patterned rug, a
+  sheen-shifting velour sofa) can still add up to a visually overloaded
+  room even though none is a single bold pattern on its own.
+- **Small-scale gallery-grid as an explicit large-format-art fallback**:
+  when no ready-made large painting/print matches a room's palette/size/
+  theme, a grid of 6-8 smaller framed pieces gives comparable visual
+  impact and is far easier to source.
+- **⚠️ Decorative-pillow anti-uniformity rule**: don't make all pillows
+  on a sofa the same size — combine large pillows with smaller/
+  differently-shaped ones for a better-looking mix.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SUN8UiXAjf0_anutavlady_spb_narrow_living_room|YT_SUN8UiXAjf0]]]
 
 ## Change Log
 

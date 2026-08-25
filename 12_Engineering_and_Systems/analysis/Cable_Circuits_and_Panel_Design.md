@@ -148,6 +148,35 @@ sound-absorbing-rated boxes for that wall. [source: [[11_Budget_and_Planning/_su
 
 **A few narrower technique notes worth knowing**: sample only the ground conductor when checking an existing de-energized service-entry cable's gauge, to avoid disturbing live/neutral conductors unnecessarily; extend an undersized service cable with crimp ferrule sleeves and a heat-shrink gel splice kit, not an ad-hoc splice; when extending a high-load cable, use a fire-safety-rated splicing capsule specifically — an incorrect splice on a high-load cable risks overheating and fire; size a specialty appliance's power feed (e.g. a sauna heater) by that appliance's own installer's spec, not the general electrician's assumption; outlet/junction boxes must themselves be sound-rated wherever the surrounding wall has soundproofing, or a standard box lets sound through and defeats the wall; a dedicated non-switchable circuit for a router+camera, wired ahead of the panel's breakers, keeps remote surveillance working even when every breaker is off. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_alnV3DYCDlg_extending_service_entry_cable|alnV3DYCDlg_extending_se]]]
 
+## Perspectives: GOST vs. TU, and a Panel-Location/Gofra Nuance (added 2026-08-25, Sergey Kodolov)
+
+- **⚠️ Perspective flagged, not applied to override the existing rule
+  below**: this page's existing buying-guidance rule (line 155 below)
+  says cable must be certified to ГОСТ, never merely ТУ. Sergey Kodolov
+  offers a broader counter-perspective on GOST-vs-TU generally: GOST
+  standards are revised very infrequently, while genuinely good new
+  products are released under a manufacturer's own ТУ (technical
+  specification) far more often — so a ТУ-certified product is not
+  automatically inferior. He's speaking about consumer/building products
+  broadly, not specifically about cable-insulation safety grade, so this
+  doesn't necessarily contradict the narrower existing cable rule — but
+  record it as a live perspective disagreement on how strictly to apply
+  "GOST-only" as a general buying heuristic, not a resolved question.
+- **Distribution-panel placement nuance for larger buildings**: the main
+  panel doesn't have to sit in an apartment's entry closet — for a large
+  house/multi-unit building, it can be placed mid-building in a dedicated
+  small utility/patch room ("кроссовая"), from which wiring fans out more
+  efficiently than routing everything back to one entry-point closet.
+- **Gofra-type ceiling/floor split, added reasoning**: ПВХ (light,
+  flexible, doesn't support combustion, easily damaged) is for ceiling/
+  open indoor use; ПНД (combustible, but far more mechanically/moisture/
+  chemically resistant) is for floor-under-screed use. This page's
+  existing ПНД-for-floor rule was previously reasoned via mechanical
+  durability alone — Kodolov adds that ПНД is specifically *not*
+  recommended for ceiling runs because it's combustible, a distinct
+  reason from ПВХ's ceiling-only use (which is about fragility, not fire).
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QfTqabNW1Lc_kodolov_electrical_rough_install|QfTqabNW1Lc_kodolov_electrical_rough_install]]]
+
 ## Real Materials/Cable Spec Worked Example (added 2026-08-24, Round 2)
 
 Pavel Sidorik, real ~61 m² new-build apartment, first episode of a 2-3-part electrical mini-series:

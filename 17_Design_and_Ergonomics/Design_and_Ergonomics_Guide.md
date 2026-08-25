@@ -23,7 +23,7 @@ The recurring theme across processed sources so far: **a layout/fixture/storage 
 
 ## Decor & Finish Selection Technique
 
-Practical installation-adjacent decor guidance: slat/rail (рейки) wall spacing must match the backlighting channel-box module or backlighting becomes impossible to add later; three slat-to-baseboard junction methods ranked worst-to-best by look/cost/difficulty; wall panels absolutely require a leveled wall underneath (called the single biggest, practically unfixable beginner mistake); milled/routed panels look more dramatic but are materially harder to keep clean than smooth ones; velour is flagged as unusable on any surface (marks from the slightest touch); floating ("парящая") furniture needs load-rated mounting hardware specified in the design documentation itself, even on an already-solid wall.
+Practical installation-adjacent decor guidance: slat/rail (рейки) wall spacing must match the backlighting channel-box module or backlighting becomes impossible to add later; three slat-to-baseboard junction methods ranked worst-to-best by look/cost/difficulty; wall panels absolutely require a leveled wall underneath (called the single biggest, practically unfixable beginner mistake); milled/routed panels look more dramatic but are materially harder to keep clean than smooth ones; velour is flagged as unusable on any surface (marks from the slightest touch); floating ("парящая") furniture needs load-rated mounting hardware specified in the design documentation itself, even on an already-solid wall. Also includes a clean, generally-quotable rule worth flagging up front: **a room should have only one accent wall** — two identical accent treatments cancel the accent function itself — plus the general version of that same idea for a long/narrow room specifically: never put an accent finish on the room's *longest* wall, accent a segment instead.
 
 → **[[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Full detail]]**
 
@@ -60,7 +60,12 @@ caution. Already cross-linked from `01_Entrance/analysis/Layout_and_Zoning.md`
 and `05_Kids_Room/analysis/Zoning_and_Partition_Methods.md`. A further
 source (Anuta Vlady, real kitchen-living makeover) adds a
 height-inclusive furniture mock-up technique, a TV-console-gap rule, and
-a counter-intuitive armchair-to-loveseat traffic-flow swap.
+a counter-intuitive armchair-to-loveseat traffic-flow swap. Also now
+covers a family-with-young-child living-room play-zone case (furniture
+consolidation, no-sharp-corners, growth-stage storage sequencing), and
+several long/narrow-room and low-ceiling furniture techniques
+(furniture-height contrast, round/soft-form pieces to counter sharp
+geometry) cross-referenced with the new `06_Small_Bedroom` guide.
 
 → **[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Full detail]]**
 

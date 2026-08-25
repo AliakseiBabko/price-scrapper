@@ -120,6 +120,46 @@ RemPlanner structures planning around four bands — 0-3, 3-6, 6-12,
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 
+## A Real 14-Year-Old's Room, Redesigned to Grow Into Early Adulthood
+
+A real case (Anuta Vlady, `ZlkBfwlhYFU` Case 2 — an 18m² room, P-44
+panel building, region unresolved at level 1) redesigning a 14-year-old
+boy's room specifically "на вырост" (to grow with him into early
+adulthood), rather than as a typical "teen room." Not this project's own
+current content — this household's own Phase 2 plan turns
+`06_Small_Bedroom` into "Kids Room #2" for the boy once the adults
+vacate it (see [[06_Small_Bedroom/Small_Bedroom_Index|Small Bedroom
+Index]]), so this case is a **forward-looking precedent**, not a
+current-occupant match. Recorded here rather than on
+[[06_Small_Bedroom/Small_Bedroom_Guide|Small Bedroom Guide]] since the
+occupant/room identity don't match this project's plan yet.
+
+- **Combined wardrobe + open-backed lit textbook niches, sized to match
+  the room's existing desk width (160cm)**: open-backed, internally-lit
+  upper niches let daylight penetrate further into a room whose natural
+  light doesn't reach its full depth — a light-conducting shelf design,
+  not just storage.
+- **Structured/quilted bedspread recommended for a teen who won't
+  carefully smooth wrinkles daily** — a stiff, shape-holding bedspread
+  that still looks tidy when just thrown over the bed.
+- **Wall-hung nightstand paired with a drawer-based bed** — keeps the
+  bed's own storage drawers clear to open fully.
+- **⚠️ Deliberate undecorated "blank zone" for an older child/teen
+  occupant's own self-expression**: rather than fully decorating per the
+  parent's brief, a neutral central band was left undecorated so the
+  room's actual (soon-adult) occupant can personalize it later — extends
+  this store's existing "preserve one occupant accent" principle
+  (`TJBcEpXymYk`, on
+  [[06_Small_Bedroom/analysis/Furniture_and_Storage_for_Tight_Clearances|Furniture and Storage for Tight Clearances]])
+  from "keep one object" to "reserve a deliberate blank space."
+- **Foam-block partition wall, existing/retained**, dividing the room
+  into two occupancy zones — corroborates this project's existing
+  foam-block-vs-drywall partition comparison (`1_nKzwNZD6w`, on
+  [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]])
+  from an independent household — genuine cross-channel corroboration.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZlkBfwlhYFU_anutavlady_pentagon_bedroom_and_teen_room|YT_ZlkBfwlhYFU]]]
+
 ## A Real Multi-Year, Multi-Child Room-Evolution Case
 
 ARCHWOOD's own multi-year client case (3 children — an older girl and

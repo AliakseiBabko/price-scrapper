@@ -298,6 +298,77 @@ overview.
   install; temperamental (scratches, water-sensitive, needs care);
   temperature/humidity swings can cause localized warping.
 
+## Laminate vs. Engineered Board vs. Quartz-Parquet: Composition, Health, and Heated-Floor Comparison (added 2026-08-25, Sergey Kodolov)
+
+A dedicated three-way comparison, scored across several dimensions with
+explicit reasoning (not just a verdict) — Kodolov, multi-city Russia +
+Dubai company, RUB pricing, 2024:
+
+- **Composition**: laminate = wood-fiber particle board + printed image
+  layer + lamination, no real wood. Engineered/parquet board = plywood
+  base + genuine natural-wood veneer top + protective coat. Quartz-
+  parquet = **75% stone (SPC) + 25% PVC** base + genuine natural-wood
+  veneer top + protective coat.
+- **⚠️ Formaldehyde emission — a real cross-material comparison,
+  counter-intuitive result**: laminate's tested emission was **~26×
+  higher** than quartz-parquet's; engineered board — despite looking
+  "most natural" — can legally emit *more* than laminate, because its
+  plywood base's adhesive is rated on the same E1/E2 system as laminate,
+  not automatically cleaner. Ranking (all three legally compliant):
+  quartz-parquet lowest, laminate 2nd, engineered board highest.
+  Emission increases when underfloor heating is added beneath a
+  material (heat accelerates outgassing) — most relevant to laminate.
+- **⚠️ Water-damage recovery, a real mechanism**: laminate swells and
+  breaks apart when flooded — not repairable, forces full replacement
+  plus collateral baseboard/wallpaper demolition. Engineered board
+  "tents" (buckles upward) rather than disintegrating — repairable in
+  place (relief kerfs + relay + adhesive injection). Quartz-parquet's
+  SPC/stone base isn't water-absorbent at all. Ranking: quartz-parquet
+  1st, engineered board 2nd, laminate 3rd.
+- **Price ranges (RUB/m², 2024)**: laminate ≈1,000-3,000; engineered
+  board ≈4,000-7,000 (up to ~10,000 still not "ultra-premium"); quartz-
+  parquet ≈4,000-6,000, exotic veneers (walnut, wenge) to ~7,000.
+- **Seamless installation area, a specific number**: SPC-based quartz-
+  parquet can run continuous up to **144m², max 12m per side**, before
+  needing an expansion break — second only to porcelain tile. Laminate
+  and engineered board should stay per-room (differential expansion is
+  proportional to run length — a long and a short room sharing one
+  continuous run expand by different absolute amounts regardless of
+  material).
+- **⚠️ Heated-floor suitability — disagrees with this page's existing
+  laminate verdict above, flagged as a live disagreement**: this page's
+  existing five-material comparison states laminate has "poor thermal
+  conductivity, not suitable for heated floors." Kodolov's direct
+  counter-claim: laminate actually transmits heat *well* and is
+  technically well-suited to heated floors — but he personally avoids
+  it under a heated floor for a **different** reason: heat measurably
+  increases its formaldehyde emission, a tradeoff he wouldn't accept for
+  a household with children/elderly residents (calls it a reasonable
+  individual choice for an adult-only household otherwise). Both
+  laminate claims can't be true as stated ("poor conductivity" vs.
+  "transmits heat well") — recorded as an unresolved cross-source
+  conflict rather than silently picking one; the formaldehyde-under-
+  heat caveat is new information either way. Engineered board's wood
+  layer insulates, reducing heated-floor efficiency (usually not
+  installed under it for this reason). Quartz-parquet's stone base has
+  the best heat transfer of the three.
+- **⚠️ Wear-layer/finish maintenance — new distinction**: engineered
+  board's visible "wood" is never actually touched underfoot — a
+  coating on top wears unevenly by traffic pattern. Four named coating
+  types in two tiers: water-based lacquer and synthetic-oil-resin
+  lacquer (thinner, closer feel to real wood, need re-coating roughly
+  every ~6 months); solvent-free polyurethane lacquer and acid-curing
+  lacquer (thicker, far more durable — cited up to ~50 years — but fully
+  seal the wood under a film). Quartz-parquet ships with 7 protective
+  layers and no refinishable variant ("unkillable, no choice"). Laminate
+  has no wood to maintain at all.
+- **Quick facts**: density ≈1 tonne/m³ (laminate, engineered board) vs.
+  **≈2 tonnes/m³ (quartz-parquet)**; engineered board and quartz-parquet
+  can be custom-painted any color (real wood veneer surface); laminate
+  cannot. **Quartz-parquet is explicitly usable in a bathroom/wet
+  installation; the other two are not.**
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lYVb5LwixM0_kodolov_flooring_comparison|lYVb5LwixM0_kodolov_flooring_comparison]]]
+
 **⚠️ Real named cost-driver: uncoordinated screed level vs. finish-
 flooring buildup, cited as costing a client 150,000-300,000 RUB
 (≈$1,900-$3,700) unnecessarily**: pouring the whole screed to one flat

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Bb4Hh-GDRdA",
+  "video_id": "Bb4Hh-GDRdA",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T10:12:14.198904+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d0260e128a1a9da3aa36c9cba7d82779117578bd4a9ad4ec76f4398c18e92673",
+  "attempts_before_success": []
+}

@@ -3,6 +3,15 @@
 Part of [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]].
 Editorial history — not reader content.
 
+- **2026-08-25** (later same day): Added a forward-looking "A Real
+  14-Year-Old's Room, Redesigned to Grow Into Early Adulthood" case
+  (`YT_ZlkBfwlhYFU`, Case 2, Anuta Vlady) to `Age_Staged_Planning.md`'s
+  12-18 age band section — recorded here rather than on the new
+  `06_Small_Bedroom/Small_Bedroom_Guide.md` since the occupant/room
+  identity doesn't match this project's current plan yet (this
+  project's own `06_Small_Bedroom` only becomes "Kids Room #2" for the
+  boy in Phase 2). One fact (foam-block partition wall) corroborates an
+  existing `Bedroom_Design_Principles.md` fact cross-channel.
 - **2026-08-25**: Page created. This topic ("Kids Room" taxonomy bucket,
   general sourced technique) crossed this project's 3+-source
   page-creation threshold during a 10-video trial batch that included a

@@ -65,6 +65,18 @@ Alexey Zemskov / ZEMS recommends **buying finish-stage devices about a week befo
 
 → **[[12_Engineering_and_Systems/analysis/Electrical_Buying_and_Hiring|Full detail]]** (cable-stripping tool rule, cottage-specific intercom/outdoor-cable content)
 
+## Smart Home Systems
+
+Sergey Kodolov gives a comprehensive smart-home explainer: **real
+pricing tiers (a ≈10,000 RUB starter kit up to ≈500,000 RUB+ for a
+full system, +3% wiring-only premium vs. +20-35% for a full smart
+layer)**, system architecture (controller/sensors/actuators),
+device-level notes (smart locks, curtain motorization above 3-3.5m
+ceilings, leak/gas safety shutoffs), and house-specific additions
+distinct from an apartment's own scope.
+
+→ **[[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Full detail]]** (pricing structure, cross-brand compatibility caution, safety-critical sensor case studies)
+
 ## Source Notes
 
 Traceability record moved to its own page — [[12_Engineering_and_Systems/analysis/Electrical_Source_Notes|Source Notes]]. Not reader content, kept off this page by design.
