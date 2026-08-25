@@ -112,6 +112,41 @@ exists*.
   [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4 as a
   comparison point when vetting a contractor's own quoted warranty terms
   — a useful figure to check a written contract against once one exists.
+- **⚠️ Payment-staging practice (Nastya Kolchina / Sinitsa Buro, added
+  2026-08-25)**: split a contractor payment schedule into small
+  stage-based increments — even a "100% prepayment" structure is fine if
+  it's 100% of one small stage, not a large lump sum — so either party
+  can cleanly exit at a stage boundary without one side having prepaid
+  for undelivered future work. A second, independent defense alongside
+  the written-scope-of-work practice above.
+- **⚠️ Change-request compounding effect during active construction**
+  (same source): a mid-project change (e.g. moving a partition 20cm
+  after work has started) does two things — signals to the crew that
+  the schedule has slack (risking broader schedule laxity), and cascades
+  non-linearly through an already-interdependent trade schedule rather
+  than adding a fixed proportional delay ("not +2, but 2 squared," in
+  the practitioner's own framing). Minimize in-progress changes; decide
+  as much as possible before construction starts. `single-account`.
+- **Technical-architect-only cost ratio**: hiring a technical architect
+  just for layout-change drawings (no full interior-design service)
+  costs roughly **1/10th** of a full design-service price — worth doing
+  even without a full designer, since proper drawings materially ease
+  contractor communication. `single-account`, `unverified` (relative
+  figure, no absolute price given). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IcTP1tPP7Bk_kolchina_sinitsa_diy_design_no_designer|YT_IcTP1tPP7Bk]]]
+- **⚠️ Revision-payment policy (Marina Izmailova / ARCHWOOD, added
+  2026-08-25)**: charge extra for design/layout revisions only when the
+  *client* reverses an already-approved decision — never for the
+  studio's own "not quite right yet" iterations, since a design project
+  is built like "a house of cards" and dependent downstream work built
+  on an approved element is the studio's own risk to absorb until the
+  client themselves changes course.
+- **⚠️ Tile-quantity smeta caution (same source)**: counting tile
+  quantity as equal to raw floor/wall area is "fundamentally wrong,"
+  especially for large-format tile — real cutting waste means the
+  actual quantity needed is meaningfully more than the area alone
+  suggests; check against a real-scale layout plan, not just m².
+  Complements the itemized-smeta template structures elsewhere on this
+  page. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LOw05Uk3rUk_archwood_6_stages_design_project|YT_LOw05Uk3rUk]]]
 
 ## Gaps
 

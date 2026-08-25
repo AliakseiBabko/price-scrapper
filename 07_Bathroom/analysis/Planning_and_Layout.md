@@ -100,6 +100,34 @@ blocking light entirely. `single-account`. [source: [[11_Budget_and_Planning/_su
 
 Архитектор Виталий Злобин (independent architect, own channel, real-project walkthrough, `single-account`, region unresolved) describes a layout technique for a large combined (not pre-split into WC + bathroom) ensuite bathroom: **build a dedicated partition around the toilet within the room, rather than leaving it fully open alongside the sink/shower/tub**, with two stated reasons — (1) hygiene: keeps the toilet as far as practical from the fixtures used for washing the face/body; (2) it lets **two people use the ensuite simultaneously** (one at the toilet, one at the sink or shower), explicitly framed around a double/king-size bed serving two occupants. Worth weighing for any combined-bathroom layout, not just a house-scale master suite. If the partition is translucent to admit light to the screened-off toilet area, **that only makes sense when the room itself has a window** — a translucent partition around a windowless toilet nook just adds cost without the intended lighting benefit. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uG1p1j9iAZ4_zlobin_wc_bath_practice_pt2|uG1p1j9iAZ4]]]
 
+## Fixture and Fitting Clearances (LA BURO, general ergonomics reference, added 2026-08-25)
+
+Turnkey Moscow/SPb/Dubai design bureau, general standards-reference
+video (not tied to one project). `single-account` for the specific
+figures. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
+
+- **⚠️ Minimum walk-in shower stall: 90×90cm**; if one side must be
+  narrower than 80cm, compensate by lengthening the other side to
+  ≥120cm rather than shrinking both dimensions. Shower door
+  conventionally opens outward; an inward-opening door needs the
+  stall's long side ≥130cm to leave room to enter and swing the door.
+- **Double-sink vanity needs ≥140cm of vanity length** to use both
+  sinks comfortably at once.
+- Standard sink height 85cm (adjustable to 90cm for a taller household);
+  shower-head height: manufacturer-recommended 210cm (adjustable to
+  220-230cm for a taller household).
+- **⚠️ Toilet-between-two-walls clearance: 85-90cm minimum width**, front
+  clearance (back wall to the leading edge of a usable path) ≥120cm
+  preferred.
+- **⚠️ Washing-machine niche/cabinet sizing**: standard machines are
+  60×60cm — plan the niche/cabinet at **65×65cm minimum**, not exactly
+  60×60cm, for real-world clearance margin. A related door-width
+  caution from the same source: a 60cm bathroom/WC door (previously used
+  by this practitioner's own firm) is now called categorically wrong
+  where a washing machine needs to pass through it — the machine may not
+  physically clear the resulting door opening; use 70cm minimum for any
+  wet-room door.
+
 ## Comfort-Class Labor Cost (restated)
 
 **USD normalization status:** the 25,000–45,000 RUB/m² figure is **not computable** here because this restatement does not carry an independently confirmed publish date; no calendar-year or guessed date conversion is claimed.

@@ -71,6 +71,22 @@ rather than treating either as settled.
   even at the same footprint as a taller piece — people perceive personal
   space at roughly arm's-length height; furniture below that line doesn't
   register as encroaching on it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- **⚠️ Entry storage depth standards, two distinct cabinet types (Ivan
+  Bezrukov / GRADIZ INTERIOR, real Yekaterinburg-market client project,
+  added 2026-08-25)**: a shoe cabinet needs only **35cm depth** to fit
+  one row of shoes per shelf (bottom shelves for shoes, upper shelves
+  for bags/hats/scarves/gloves); a separate outerwear/coat closet needs
+  **60cm depth** with two hanging rods (upper + lower level) so
+  clothes-on-hangers don't catch the door. Both built with flush,
+  handleless doors (same material as the wall where possible) for a
+  minimalist "nothing protrudes" look. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
+- **⚠️ Hallway mirror as a deliberate visual-distraction device** (same
+  source): placing a mirror along an unavoidable corridor stretch gives
+  the eye a decorative focal point, offsetting a corridor's visual
+  monotony/multiple-door clutter — not purely a functional grooming
+  mirror. Paired with an entry pouf/ottoman with a small ledge-top for
+  sitting to put on shoes and setting down keys/gloves/a bag on arrival,
+  called a near-mandatory entry element for that reason.
 
 ## Wardrobe Zoning and Sizing (Alla Krol)
 

@@ -239,3 +239,38 @@ Evidence-level key used below: **(1) transcript text** → **(2) YouTube metadat
   are bundled into this price. Cheaper offers explicitly flagged by the
   source as a quality red flag. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xnLiADJF5lw_gusev_partition_pros_cons_pricing|YT_xnLiADJF5lw]]]
 
+### General Circulation & Clearance Dimensions (LA BURO, added 2026-08-25)
+
+Turnkey Moscow/SPb/Dubai design bureau, general ergonomics reference —
+room-specific figures from this same source routed to their own pages
+(kitchen, living room, wardrobe, bathroom — see those pages' Change
+Logs); the following don't belong to any single room-specific page:
+
+- **Corridor width: 90cm absolute minimum; 110-120cm preferred** for a
+  long corridor.
+- **Interior door width: 70cm minimum** (used for bathrooms/WCs, where
+  this is critical); 80-90cm preferred where space allows. **⚠️ A 60cm
+  wet-room door is now called categorically wrong** by this firm (past
+  own-project mistake) — a standard washing machine may not clear the
+  resulting opening.
+- **Sofa clearances**: ≥5-10cm gap from a wall even for a "flush" sofa;
+  ≥70cm walk-behind clearance for a centrally-placed sofa; 30-40cm
+  between two sofas or a sofa and coffee table (feet-only path).
+- **Dining table clearance**: 90cm minimum to a wall/furniture, 100-110cm
+  preferred; standard seat-width allowance 60cm/diner (wider for
+  upholstered "half-chair" seating, a current trend per this source).
+- **Bedroom clearances**: 65cm minimum bed-side walk clearance, 70-80cm
+  on a wardrobe-adjacent side; foot-of-bed clearance can shrink to
+  50-55cm. **⚠️ Bed-frame sizing caution**: mattress dimensions aren't
+  the bed's real footprint — add ~5cm per side for the frame, up to
+  20-25cm more for a bulky headboard.
+- **Curtain-line allowance**: 20-25cm of wall depth for curtain
+  hardware/fabric in front of any window, in any room — don't draw
+  furniture flush to a window wall without it.
+- **Verification method note**: cross-check any single ergonomics figure
+  against ≥2 independent sources before trusting it; recommended
+  reference is **Neufert** ("Architects' Data") — already independently
+  cited elsewhere in this vault by architect Vitaly Zlobin (3 videos).
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
+

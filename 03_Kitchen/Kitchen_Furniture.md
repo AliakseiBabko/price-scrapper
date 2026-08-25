@@ -39,13 +39,43 @@
 > First dedicated dimensioning-standards source on this page — complements the Cabinet Modules & Sizing section above (which covers module-width discipline) with the actual height/depth figures those modules should follow. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|note]]]
 
 - **Base cabinet run depth: 60cm** — described as an unspoken universal standard the industry defaults to.
-- **⚠️ Base cabinet/countertop height, domestic vs. international standard**: domestic (source's own, ex-USSR/Russian-market) standard ≈ **80-85cm**; international/Western standard ≈ **90-93cm**. Know which standard a given manufacturer/order follows before finalizing an order — built-in appliances and hardware are often sized to one standard or the other.
+- **⚠️ Base cabinet/countertop height, domestic vs. international standard**: domestic (source's own, ex-USSR/Russian-market) standard ≈ **80-85cm**; international/Western standard ≈ **90-93cm**. Know which standard a given manufacturer/order follows before finalizing an order — built-in appliances and hardware are often sized to one standard or the other. **⚠️ A second Russian-market practitioner (LA BURO, turnkey Moscow bureau, added 2026-08-25) states a flat 90cm "standard" counter height** — sitting at the top of Zlobin's 80-85cm domestic range and closer to his 90-93cm international figure. A real, if modest, discrepancy between two independent Russian-market sources on what "domestic standard" actually means today; both agree the figure should scale up (95-100cm per LA BURO) for a taller household. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
 - **Upper (wall-hung) cabinets**: mounted **~55cm above the base cabinet/countertop** on average; own height **~60cm**; depth **35cm** (deeper is possible up to ~60cm, explicitly not recommended).
 - **⚠️ Window-sill-height coordination**: a conventional 90cm sill height conflicts with an 80-93cm-high countertop — raise the sill to **100cm** to clear the countertop cleanly and avoid trimming the interior windowsill board where it would otherwise collide with countertop depth.
 - **Kneading/dough-work surface, flagged as a fading requirement**: a standard 80-93cm countertop is too high for comfortable kneading (needs top-down body-weight pressure) — where genuinely needed, lower a dedicated section to **~70-75cm**, or use a pull-out lowered work surface instead of lowering the whole run.
 - **Design rationale tying the above together**: every height figure exists to let the cook stand with a straight back — too-low forces stooping, too-high forces standing on toes.
 
 `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|YT_Ubl--73gmTs]]]
+
+## Corner-Kitchen Critique and a Linear-Plus-Dresser Alternative (Ivan Bezrukov / GRADIZ INTERIOR, added 2026-08-25)
+
+> [!NOTE]
+> Real client project, Yekaterinburg market. `single-account`, opinionated stance against corner kitchens — presented here as a counter-position, not settled consensus (this vault's own existing corner-kitchen technique above, from a different practitioner, treats a corner layout as a workable default when handled with a technical column). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
+
+- **⚠️ Corner (Г-образная/L-shaped) kitchen critique**: called one of the
+  least-favored configurations — reads visually as "stacked boxes"
+  pressing on the room with their bulk; corner storage mechanisms
+  (carousel/lazy-susan pull-outs) are called both inconvenient in
+  practice and expensive.
+- **Alternative offered**: a single linear kitchen run along one wall,
+  paired with a separate free-standing dresser/sideboard ("комод") as
+  secondary storage — avoids the dead corner and its expensive hardware
+  entirely.
+- **Dresser as secondary kitchen-storage element**: visually distinct
+  finish from the kitchen cabinetry (not matching on purpose, for
+  variety), holds overflow items that don't fit the main cabinet run,
+  doubles as counter space for small appliances (kettle, coffee machine,
+  toaster), stores bread/napkins/dishware.
+- **⚠️ Axis-alignment layout technique**: align the dresser and the
+  dining table on one visual axis extending into an adjoining corridor
+  to visually elongate the space; a second axis, perpendicular to it,
+  crosses at the dining table and marks where an overhead light fixture
+  should hang.
+- **Kitchen-near-window placement rule**: place the kitchen work zone as
+  close to the window as possible, since it's the most constantly-used
+  zone in a combined kitchen-living space — critiques the common
+  developer default of placing the kitchen at the darkest, window-
+  furthest end (forcing near-constant artificial light).
 
 ## Kitchen Island Sizing (added 2026-08-18)
 

@@ -22,3 +22,5 @@ Traceability record — not reader content.
 17. `YT_sAXC1hn8u9A` — Квартиранты, hallway design concept + wall prep + electrical (added 2026-08-25; region unresolved). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sAXC1hn8u9A_kvartiranty_hallway_wall_prep_electrical|Extraction note]]
 
 **Not routed to this guide** (fetched during the same 2026-08-25 batch, but yielded no content for this specific page): `YT_c2ifRGBo-q4` (mawavlog18 — thin/personal-vlog pass, one minor unverified technique point only, see its own extraction note for traceability).
+
+18. `YT_7FbmDb6U2Ac` — GRADIZ INTERIOR (Ivan Bezrukov), real Yekaterinburg client project — shoe-cabinet (35cm) / coat-closet (60cm) depth standards, hallway-mirror distraction technique, entry pouf (added 2026-08-25, user-picked batch). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|Extraction note]]

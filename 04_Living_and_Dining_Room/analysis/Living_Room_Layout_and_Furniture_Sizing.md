@@ -120,10 +120,19 @@ clearance).
 
 - **⚠️ Viewing-distance rule of thumb: 4× the screen's own diagonal** —
   preferred over a fixed-meter figure (some sources cite 3-3.5m flat)
-  since it self-scales to whatever screen size is chosen.
+  since it self-scales to whatever screen size is chosen. **A third
+  independent flat-figure data point (LA BURO, added 2026-08-25): 2.5m
+  to 4m** from the eye-level point on the sofa back to the screen —
+  another practitioner favoring a flat range over the self-scaling rule.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
 - **⚠️ Mounting-height caution**: don't wall-mount a large TV
   unnecessarily high to "save floor space" — forces the viewer to crane
   their neck; keep it at eye level on a low console/stand instead.
+  Corroborated by LA BURO (same source above).
+- **Curtain-line allowance**: budget 20-25cm of wall depth for curtain
+  hardware/fabric thickness in front of any window — don't position a
+  sofa or other furniture flush against a window wall without this
+  allowance. Applies beyond the living room (bedrooms too, same source).
 
 ## Fireplace Zone
 
@@ -157,6 +166,26 @@ glazing/bidirectional-radiator content on
 from an independent source and angle.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gnUErjmtHcY_zlobin_living_room_theory_pt1|gnUErjmtHcY]]]
+
+## Corner-Sofa Caution and Deliberate Airiness (Ivan Bezrukov / GRADIZ INTERIOR, added 2026-08-25)
+
+A counter-position worth weighing against this page's own "L-shaped
+(corner)" arrangement pattern above (pattern 3 in the five-pattern
+taxonomy) — that pattern isn't wrong, but this source argues against
+defaulting to it in a genuinely small room specifically:
+
+- **No corner sofas in a small living space** — stated flatly: a corner
+  sofa "eats all the air and openness" of a compact room.
+- **⚠️ Deliberate airiness technique, "leave some space unused"**: use
+  visually light furniture (no bulky legs/solid bases) so sightlines
+  pass under/around pieces, and pull the sofa away from the wall to
+  leave a gap behind it. Explicitly recommends *not* filling that gap
+  with more storage — instead placing plants, a leaning picture frame,
+  or a small shelf, or leaving it genuinely empty — a deliberate
+  rule-break against the instinct to maximize every corner, in service
+  of a felt sense of spaciousness over maximum storage yield.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
 
 ## Change Log
 

@@ -2020,6 +2020,63 @@ Full detail in each source's own extraction note: [[11_Budget_and_Planning/_supp
 - **Stated real full design-project timeline: ~2-3 months**, split roughly evenly between designer working time and client review/approval turnaround — a direct rebuttal to requests for a 2-week design project.
 - **Client-site-visit access gated by financial commitment** (paid design project) once a company has enough completed objects that unlimited free tours would take time from paid work.
 
+### Planning Rules / Design Process — ARCHWOOD 10-Step DIY Layout Method, and a Genuine Disagreement (added 2026-08-25)
+
+> [!NOTE]
+> Marina Izmailova / ARCHWOOD (architect, own studio), `BLzLOUxdk3Q` (2020-07-21). A general-purpose 10-step DIY apartment-layout-planning methodology (distinct from this channel's other processed sources, which are project-specific case studies). Medium promotional ratio (course/checklist pitch bookends real content). Region unresolved (no city named in this transcript). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BLzLOUxdk3Q_archwood_10_steps_diy_layout|YT_BLzLOUxdk3Q]]]
+
+- **10-step sequence**: (1) list every furniture/fixture item + typical dimensions before laying out anything; (2) map constraints (load-bearing walls/columns, ducts, risers, wet zones) vs. resources (removable partitions — corridors, halls, storage rooms — reallocatable toward a wet zone); (3) determine cardinal orientation to decide where the main living zone goes; (4) legality-check every idea against local code (corroborates the wet-zone-expansion restriction already on file from Badalyan `YT_HpCg-xIrOlg` and Karapetyan `YT_frt8tQOrjiM`); (5) strip the plan to only truly immovable elements; (6) walk the real apartment and decide zone placement; (7) color-code zones, place major furniture at true scale; (8) a "coziness" gut-check per zone (below); (9) circulation/traffic-flow check for every household member and pet, reconsider door placement/type; (10) horizontal-ergonomics clearance norms on remaining furniture; (11) full-scale on-site mockup validation (see disagreement below).
+- **⚠️ "Coziness" psychological framing**: coziness = a felt sense of protection ("through the back and shoulders," a primal instinct to have shelter behind you near a hearth). Practical test: sit/lie in each planned position and check what's visible behind/around you and whether you're unexpectedly exposed from another zone's sightline (e.g. is the entry door or bathroom door visible from the dining spot).
+- Door-placement rule: a door should sit on the household's natural path between two zones, not just open into a hallway by default.
+- **⚠️ Genuine disagreement with an existing store entry**: this source's step 10 *recommends* taping/chalking layout outlines directly on the real floor and physically walking the mockup before finalizing a plan — the exact opposite conclusion from Sergey Kodolov (immediately above, `YT_PJKk1BwtgVY`), who explicitly *rejects* floor-taping as giving no genuine spatial sense and argues standardized clearance norms are the reliable substitute. Flagged as an open disagreement between two independent practitioners, not resolved.
+
+### Planning Rules / Design Process — Nastya Kolchina (Sinitsa Buro), DIY-Design Process Without a Designer (added 2026-08-25)
+
+> [!NOTE]
+> Nastya Kolchina, architect and co-founder of Sinitsa Buro, `IcTP1tPP7Bk` (2026-02-17). Counter-self-interested framing (arguing most viewers don't need her own paid service). Value-filter: partial — real checkable process rules extracted below; a relationship-preservation anecdote and generic decision-fatigue/expectation-setting content were not extracted. Payment-staging and technical-architect-cost-ratio points also routed to `11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates.md`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IcTP1tPP7Bk_kolchina_sinitsa_diy_design_no_designer|YT_IcTP1tPP7Bk]]]
+
+- **⚠️ Pinterest single-reference-image technique**: use a fresh,
+  history-free account, follow a small number of curated design-media
+  boards, build one folder per room, and converge on **exactly one**
+  reference photo per room rather than combining elements from several —
+  a non-professional can't reliably predict how mixed elements from
+  different sources will actually combine once assembled together.
+- **"Live in it before you design it" exposure technique**: spend some
+  off-days staying in different well-designed hotels/apartments before
+  starting a Pinterest search, to build a base of concrete reference
+  details from zero design vocabulary.
+- **Target-demographic design technique**: for an owner with no personal
+  aesthetic preference, design for the likely renter/buyer demographic
+  of the specific neighborhood instead, treating the property as an
+  asset rather than a personal-preference exercise.
+- **⚠️ Resale/rental liquidity vs. finish ornateness — inverse
+  relationship claim**: a more expensive/ornate finish level typically
+  rents or resells *slower*, not faster — people moving in generally
+  prefer a neutral, adaptable backdrop over a heavily personalized
+  interior they'd have to visually "fit into." `single-account`,
+  `unverified`.
+- **⚠️ Contractor-market "negative selection" claim**: competent,
+  well-organized crews are stated to exit the private-residential-
+  interior segment relatively quickly (to premium or commercial work),
+  leaving weaker crews disproportionately represented in the mainstream
+  private-apartment segment — an expectation-setting claim (a first
+  crew not working out is normal), not a fix. `single-account`,
+  `unverified`.
+
+### Planning Rules / Design Process — ARCHWOOD's 6-Stage Workflow, a Third Independent Design-Process Source (added 2026-08-25)
+
+> [!NOTE]
+> Marina Izmailova / ARCHWOOD, `LOw05Uk3rUk` (2022-06-09). A third independent design-process source this session, alongside Kodolov (above) and Kolchina (above) — real corroboration plus several new points. Medium promotional ratio (recruiting/upsell bookends). Revision-payment policy and tile-quantity caution also routed to `11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates.md`; motion-sensor cabinet-lighting point also routed to `12_Engineering_and_Systems/analysis/Lighting_Design.md`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LOw05Uk3rUk_archwood_6_stages_design_project|YT_LOw05Uk3rUk]]]
+
+- **⚠️ 6-stage structure**: (1) prep (questionnaire + measurement + documents + photos); (2) layout (3-4 variants, real dimensions from the start); (3) design concept (mood-board research, then one exploratory sketch in a single room before extending to the rest); (4) budget (calculated mid-process against actual budget, not deferred); (5) technical drawings (measured/furniture/demolition/build/electrical/floor-ceiling/wall-elevation/custom-furniture); (6) smeta (final quantities/procurement).
+- **⚠️ 70% of dimension-related renovation errors trace to the measurement stage itself, stated claim** — a 3D scanner recommended over manual point measurement for irregular/old-fund apartments; worked example: a seemingly-fine secondary-market apartment turned out to have a 10cm wall deviation invisible to the naked eye once scanned.
+- **⚠️ Revision-payment policy**: charge extra for revisions only when the *client* reverses an already-approved decision — never for the studio's own "not quite right yet" iterations, since dependent downstream work is the studio's own risk to absorb until the client themselves changes course.
+- **⚠️ Single-strong-concept-over-multiple-options critique**: argues against marketing "2-3 full design variants" — better to deeply develop one strong direction with the architect actively narrowing/recommending; only branch into a second direction if the first is fully rejected.
+- **⚠️ Electrical-plan-freeze sequencing rationale**: outlet/lighting positions feed into several later drawings (ceiling niches, wall-elevation duplication) — the electrical plan should be finalized and not keep changing after this stage, or every dependent drawing needs rework.
+- Drawing-set consolidation technique: put related information on as few sheets as practical — a fragmented drawing set looks impressive but confuses on-site workers who tend to work sequentially sheet-by-sheet absent a dedicated supervisor.
+- **⚠️ Two distinct supervision types, non-substitution position**: "технический надзор" (third-party construction QC) vs. "авторский надзор" (the original architect verifying built work matches drawings) — neither should substitute for a complete, unambiguous project; "figure it out on-site" only works for a very small-volume, extremely experienced architect.
+- **⚠️ Whole-project budget should include furniture from the start** — furniture frequently costs more than the construction itself, a common client mistake is budgeting only the labor/materials side.
+
 ### Walls / Ceilings / Doors-Trim / Electrical / Mistakes-Warnings — Hallway Execution Technique Batch (added 2026-08-25)
 
 10-video batch targeting `02_Hallway/` (real corridor-execution content,
@@ -2278,3 +2335,82 @@ Alexey Zaharchuk (individual builder, region unresolved — RUB implies Russia, 
 ## Planning Rules — Wet-Zone Expansion Restriction (added 2026-08-25)
 
 Karen Badalyan (individual homeowner, Moscow level 1 — landmark references): per housing-inspectorate ("жилищная инспекция") norms, a wet zone (bathroom/toilet) may only be legally expanded by annexing **non-residential corridor/hallway space** — expansion into the kitchen or into a residential (bedroom/living) zone is categorically prohibited and will not be approved/legalized. `confirmed`, Moscow level 1, a real practical planning constraint for any apartment layout change involving a wet room. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HpCg-xIrOlg_badalyan_1room_apartment_tour|HpCg-xIrOlg]]]
+
+**Corroborating generalization (Karen Karapetyan, architect, Moscow level 1, added 2026-08-25)**: states the same restriction as a general "wet zone" ("мокрая зона" — bathrooms + kitchens together, not just bathrooms) mechanism, with an added conditional: **if a non-residential space sits directly below your apartment, the wet-zone placement restriction can be ignored entirely**; the restriction only binds when a residential apartment sits below (the ordinary case). Also demonstrates a concrete partition-movement decision method built on this rule — walk every partition in the plan and classify it "can move" (borders a non-habitable space on both sides, e.g. entry hall↔WC, entry hall↔kitchen-living, entry hall↔bedroom, wardrobe↔bedroom, wardrobe↔WC) vs. "cannot move" (borders a habitable room directly, or is structural) before redesigning. `single-account`, Moscow level 1. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|frt8tQOrjiM]]]
+
+## Planning Rules — Real 2-Room Apartment Replan, Yekaterinburg (Ivan Bezrukov / GRADIZ INTERIOR, added 2026-08-25)
+
+Real client project (young couple, second room to become a nursery),
+named residential complex "Архитектон" (Yekaterinburg market, level 2 —
+named in video title/description, not spoken in-transcript), designer
+Ivan Bezrukov (own studio). `single-account`. Furniture/storage-specific
+findings routed to `01_Entrance/analysis/Storage.md`,
+`03_Kitchen/Kitchen_Furniture.md`, and
+`04_Living_and_Dining_Room/analysis/Living_Room_Layout_and_Furniture_Sizing.md`
+(see those pages); this store entry covers the remaining planning-level
+findings:
+
+- **Kitchen-living-dining minimum area, a second numeric threshold**: a
+  combined kitchen-living-dining space of 24m² is called insufficient;
+  stated minimum is "from ~30m²" for cook/dine/lounge to coexist
+  comfortably — a distinct, somewhat higher threshold than Karen
+  Karapetyan's ~25m² figure for a "full furniture set" (`YT_NWLckaXH1_U`,
+  already on file) — cite both rather than collapsing to one, they're
+  independent practitioners' own numbers, not derived from a shared
+  code.
+- **⚠️ Two-bathroom rationale (corroborates Karapetyan, `YT_frt8tQOrjiM`,
+  processed earlier this session)**: one bathroom means a growing family
+  queues to wash; split into a full bath + a shower-only space instead.
+  Worked example: moved a partition to enlarge a 2.4m² WC into a shower
+  (pan + curtain/glass), toilet, and 80cm sink; the main bathroom shifted
+  slightly toward the entry hall to keep its own footprint (bath + sink
+  + large storage cabinet).
+- **Washing-machine-in-bathroom critique, with a curtain-concealment
+  fallback**: a washing machine inside the bathroom is criticized as
+  making the room purely utilitarian; stated preference is removing it
+  entirely if any alternative placement exists. When no alternative
+  exists, concealing it behind a **curtain rather than a hinged door**
+  avoids a swing-clearance conflict with an adjacent fixture (here, the
+  door would have hit the sink) — a general curtain-vs-door concealment
+  technique, not bathroom-specific.
+- **80cm sink recommended over standard narrow developer sinks**, for
+  usable counter-edge/rim space around the basin.
+- **Shallow (20cm-deep) recessed wall-cabinet technique**: conceals
+  supply/drain pipework to a toilet behind a fixed panel section, while
+  the rest of the same run opens as real storage (bathroom supplies,
+  ironing equipment) — for spaces too tight for a standard-depth
+  cabinet.
+- **⚠️ Age-staged bedroom/kids-room placement rule, with mechanism**:
+  place the master bedroom closer to the living/common area and the
+  child's room farther away *while young*, because sound passes easily
+  through thin interior partitions — an evening gathering near the
+  living room is less likely to disturb a settling/sleeping child if
+  their room is the more distant one. **Explicit reversal for
+  teenagers**: once children become teenagers, placing their room closer
+  to the entry is preferred instead, so they and friends don't traverse
+  the whole apartment to reach it.
+- **Built-in wardrobe wall-uniformity technique**: when a partition
+  reconfiguration fits a deep (600mm) hanging wardrobe against a
+  bedroom wall, extend the wardrobe's facade the full length of that
+  wall (even past the actual storage cavity) so the wall reads as one
+  monolithic, uniform surface.
+- **Console/vanity-table-facing-window technique**: a slim console/
+  makeup table with a small mirror placed directly opposite a window
+  creates layered depth of view (console → window → outside view) and
+  benefits from natural light on the table surface.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|7FbmDb6U2Ac]]]
+
+## Planning Rules — Full Replan Case Study, 77.1m² Euro-3-Room, Moscow (Karen Karapetyan, added 2026-08-25)
+
+Real own-project case (Moscow, "Сильвер"/Silver residential complex, 77.1m², young couple + newborn), `single-account`:
+
+- **Walk-through-wardrobe false economy**: a developer-planned walk-through closet room fit only ~2.8 running meters of storage — no better than an ordinary hallway closet, while its extra partition wasted floor area on corridor space with zero storage benefit. Either remove the partition (open corridor closet) or redesign so the walk-through genuinely earns extra capacity.
+- **⚠️ Quantified storage-yield payoff of a full replanning pass**: same 77.1m² footprint — developer layout fit a maximum ~8.5–9 running meters of closet storage; redesigned plan (minimized dead corridor/appendix space, corrected room geometry) achieved ~13.8 running meters — roughly +50-60% more linear storage with no added apartment footprint, from layout optimization alone.
+- **Two full bathrooms over one bath + one WC-only, stated rationale**: bathing/showering is the single most time-consuming daily household routine; a second full shower (even if smaller than the primary bath) avoids other household members queuing for the only washing location.
+- **L-shaped-room correction technique**: an L-shaped bedroom with a small wasted "appendix" nook was straightened into a clean rectangle by aligning its far wall to the adjacent bathroom's partition line and absorbing a shallow strip from the neighboring bedroom — result fit a 3.9m wardrobe run and a bed the original L-shaped footprint could not physically accommodate.
+- Entry hall must not double as a walkthrough/thoroughfare between rooms ("незыблемое правило") — residents shouldn't track dirty footwear across it; give it a genuinely separate footprint with its own shoe/outerwear storage.
+- Nursery/office door placement: chose to open the future-nursery door off the kitchen-living room rather than the entry hall specifically for easier parental supervision once the room converts — a family-lifecycle-driven circulation choice.
+- Open kitchen-living dining table should not sit flush against a wall — reads as a cramped "khrushchev-era" small kitchen regardless of actual room size; if the kitchen is genuinely small, the practitioner's stated default is removing the dividing wall for a combined space instead (corroborates the same caution already on file from this channel's other video, `YT_NWLckaXH1_U`).
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|frt8tQOrjiM]]]

@@ -65,6 +65,8 @@ A complementary framing to the existing "minimum three scenarios per room" rule 
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xikuzV80GP4_kruglov_best_lighting_options|xikuzV80GP4]]]
 
+**Independent corroboration, with one new category (Marina Izmailova / ARCHWOOD, own design-project workflow, added 2026-08-25)**: an independently-derived four-category taxonomy — bright fill/task light, dimmed accent/mood light, architectural/decorative backlighting (stair/niche/curtain LED-profile, night lighting) — broadly matches the framing above from an unrelated practitioner. Adds a category not previously on this page: **"technical" light — motion-sensor-triggered automatic interior cabinet/closet lighting**, switching on when a door/hatch opens and auto-shutting after. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LOw05Uk3rUk_archwood_6_stages_design_project|YT_LOw05Uk3rUk]]]
+
 ## Bedroom and Home Office Color Temperature Refinements (added 2026-08-24)
 
 - **A single central chandelier as a bedroom's only light source, if used, should be 2700-3500K** — narrows this page's general 2700-4000K comfortable range specifically for a bedroom's main/central fixture. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xikuzV80GP4_kruglov_best_lighting_options|xikuzV80GP4]]]

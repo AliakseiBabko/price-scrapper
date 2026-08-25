@@ -372,6 +372,52 @@ extracted); the household-planning principles below do:
 
 `single-account`, `unverified` unless noted as corroborating. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9yi3HTL_Rwc_zlobin_10_principles_country_house|YT_9yi3HTL_Rwc]]]
 
+## Whole-Apartment Replan Case Study: 77.1m² Euro-3-Room, Moscow (Karen Karapetyan, added 2026-08-25)
+
+A full worked before/after replan (developer layout → constraint mapping
+→ redesign), complementary to the Zlobin philosophy list above — this one
+shows the mechanics of applying a similar "fewer wasted micro-spaces,
+more genuinely usable room" philosophy to one real floor plan. See
+`11_Budget_and_Planning`'s Durable Facts store for the wet-zone/
+partition-movement mechanism and plumbing-coordination facts from the
+same source; this page's share is the furniture/storage/zoning-specific
+findings:
+
+- **⚠️ Walk-through-wardrobe false economy**: the developer's original
+  plan included a walk-through ("проходная") closet room fitting only
+  ~2.8 running meters of storage — no better than an ordinary hallway
+  closet, while the extra partition wasted floor area on corridor space
+  for zero storage gain. Either remove the partition (open corridor
+  closet, same storage) or ensure a walk-through design earns genuinely
+  more capacity than the plain alternative.
+- **⚠️ Quantified storage-yield payoff from replanning alone**: same
+  77.1m² footprint, no added area — developer layout topped out around
+  ~8.5-9 running meters of total closet/wardrobe storage; the redesigned
+  plan reached ~13.8 running meters (~+50-60%) purely by eliminating dead
+  corridor/"appendix" space and correcting room geometry.
+- **Two full bathrooms over one bath + one WC-only as a default even in a
+  modest apartment**: stated rationale is that bathing/showering is the
+  single most time-consuming daily routine, so a second (even smaller)
+  full shower prevents household members queuing for the only wash
+  point.
+- **L-shaped-room correction technique**: straighten an L-shaped bedroom
+  with a wasted "appendix" nook by aligning its far wall to an adjacent
+  room's partition line and absorbing a shallow strip from the neighbor
+  — recovers a clean rectangle that can fit furniture (here: a 3.9m
+  wardrobe run + a bed) the original irregular footprint physically
+  couldn't.
+- Entry hall should never double as a walkthrough/thoroughfare between
+  other rooms — keep it a genuinely separate zone with its own
+  shoe/outerwear storage so residents aren't crossing it in dirty
+  footwear en route elsewhere.
+- Door placement as a family-lifecycle decision: a home-office door was
+  deliberately placed off the kitchen-living room (rather than the entry
+  hall) specifically to ease future parental supervision once the room
+  becomes a nursery.
+
+`single-account`, Moscow level 1 (named residential complex + city in
+transcript). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|frt8tQOrjiM]]]
+
 ## Scope
 
 General ergonomics/zoning principles for arranging furniture and activity zones within a room or across an open-plan area: traffic-flow planning, activity-zone separation (e.g. within a combined kitchen-living room), clearance/reach ergonomics not already tied to one specific room's own fixtures, and general "how much space does an activity actually need" rules of thumb.
@@ -407,3 +453,11 @@ This vault already has substantial room-specific clearance/zoning content that s
   plot-specific principles excluded). Independently corroborates this
   household's own Phase 2 transformable-partition plan, already recorded
   on `Living_Bedroom_Zoning.md`.
+- 2026-08-25 — Added Karen Karapetyan's 77.1m² Moscow whole-apartment
+  replan case study (`frt8tQOrjiM`): walk-through-wardrobe false economy,
+  quantified storage-yield payoff of replanning (+50-60% linear storage
+  from layout alone), two-bathroom rationale, L-shaped-room correction
+  technique, entry-hall-must-not-be-a-thoroughfare rule, nursery-adjacent
+  door placement. Companion wet-zone/plumbing-coordination facts from the
+  same source routed to `11_Budget_and_Planning`'s Durable Facts store
+  and `12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing.md`.

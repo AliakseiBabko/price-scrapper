@@ -17,4 +17,10 @@ Extraction notes: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1OLV
 
 Extraction notes: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LB2oYxyYL3c_kupedsgn_partition_stretch_ceiling_no_embed|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sFE1EyKRHvE_kupedsgn_suspended_partition_testimonial|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qcIz2--60Ts_mishchenko_partition_retrofit_stretch_ceiling|note]].
 
-No sources yet for Color Palette & Material Direction or Whole-Apartment Coherence.
+No sources yet for Color Palette & Material Direction.
+
+| Video ID | Content | Channel/Source | Routed to |
+|---|---|---|---|
+| `frt8tQOrjiM` | 77.1m² Moscow whole-apartment replan case (walk-through-wardrobe economy, storage-yield quantification, two-bathroom rationale, L-shaped-room correction, entry-hall rule) | Karen Karapetyan | Functional Zoning and Furniture Arrangement |
+
+Extraction note: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|note]].
