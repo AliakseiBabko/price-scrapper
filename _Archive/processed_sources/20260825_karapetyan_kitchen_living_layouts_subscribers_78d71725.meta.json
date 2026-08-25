@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=NWLckaXH1_U",
+  "video_id": "NWLckaXH1_U",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T09:51:08.689642+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "78d71725820518d4e17817344edaf9e1d7a8593610f80de9b54e0fadbadad934",
+  "attempts_before_success": []
+}

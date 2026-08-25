@@ -38,6 +38,16 @@ across that span. Concretely:
   rod height and count as the child grows, rather than rebuilt per
   stage. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 
+A separate, earlier ARCHWOOD real-client source (a 90m² 3-room family
+apartment, `gNN7G7vNyqY`) independently touches the same "growing room"
+logic at the brief-gathering stage, one step before the room design
+itself: **explicitly brief a school-age transition ~1-2 years out** — a
+5-year-old approaching school needs the design to anticipate a full desk
+with laptop/printer capability replacing the current toddler table/chair
+set, not just accommodate her current furniture. A thinner, earlier-stage
+version of the same age-staged-planning principle above, not a
+contradiction. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gNN7G7vNyqY_archwood_90m2_family_layout|YT_gNN7G7vNyqY]]]
+
 ## Three-Tier Design Longevity Framework
 
 ARCHWOOD frames the practical consequence of the rule above as three

@@ -21,6 +21,22 @@ A layout/fixture/storage decision should be driven by how *this specific househo
 
 All items: `confirmed` as the source's own stated framing/decisions, single-account (one designer's five case walkthroughs).
 
+## Anuta Vlady — Respecting an Irrational Client Fear Without Abandoning Good Judgment (added 2026-08-25)
+
+From a real living-room makeover case: a client feared a heavy antique
+mirror falling above the sofa. Rather than arguing the fear away (the
+practitioner's own view was that a properly mounted mirror would be
+perfectly safe), the antique mirror was swapped for a new mirror in a
+similar classic style — **treating the client's stated psychological
+comfort as worth designing around even when the underlying fear is
+objectively unfounded**, since living daily with an unresolved anxiety
+has its own real cost. This is distinct from indulging every proposed
+workaround uncritically: the same source explicitly rejected adhesive
+mirror-tile stickers as a substitute, flagging them as a dated,
+discouraged product regardless of the fear-management question — the
+"respect the fear" principle applies to the underlying need, not to
+whichever specific fix is proposed for it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
+
 ## Petrishin-Stroi (design lead "Клара") — Routine-Walkthrough Technique (added 2026-08-24)
 
 - **Mentally walk through each planned room simulating actual daily

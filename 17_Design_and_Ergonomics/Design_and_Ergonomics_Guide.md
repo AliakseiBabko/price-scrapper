@@ -29,9 +29,20 @@ Practical installation-adjacent decor guidance: slat/rail (рейки) wall spac
 
 ## Color Palette & Material Direction
 
-*No dedicated source yet.* Cross-reference `00_Master/Design_Concept.md` for this project's own (currently unfilled) palette/material choices. General color-theory/material-pairing technique from outside sources belongs here once processed.
+One source so far (ARCHWOOD/Marina Izmailova) — a mechanism-based
+5-technique framework specifically for a room with weak/indirect
+natural light: choose more saturated (not paler) colors than a sunlit
+room would use, avoid pale intermediate tones that read "dingy" in low
+light, place reflective surfaces only where real light already reaches
+(never a dark-corner mirror or a glossy ceiling), use a mirrored window-
+reveal trick to make a window read larger, keep a small window mostly
+uncovered, prefer semi-matte over full-matte or full-gloss finishes, and
+favor visually "light" furniture (legs, glass tops, medium natural
+tones) over heavy dark pieces or velvet. Cross-reference
+`00_Master/Design_Concept.md` for this project's own (currently
+unfilled) palette/material choices.
 
-→ **[[17_Design_and_Ergonomics/analysis/Color_Palette_and_Material_Direction|Full detail]]** (placeholder)
+→ **[[17_Design_and_Ergonomics/analysis/Color_Palette_and_Material_Direction|Full detail]]**
 
 ## Functional Zoning & Furniture Arrangement (Ergonomics)
 
@@ -46,7 +57,10 @@ screen, permanent-wall, and furniture-as-divider, plus three further
 mechanisms (two-sided mirrored static partition, arched double-leaf +
 curtain, book/rotary-fold door) and a windowless-room registration
 caution. Already cross-linked from `01_Entrance/analysis/Layout_and_Zoning.md`
-and `05_Kids_Room/analysis/Zoning_and_Partition_Methods.md`.
+and `05_Kids_Room/analysis/Zoning_and_Partition_Methods.md`. A further
+source (Anuta Vlady, real kitchen-living makeover) adds a
+height-inclusive furniture mock-up technique, a TV-console-gap rule, and
+a counter-intuitive armchair-to-loveseat traffic-flow swap.
 
 → **[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Full detail]]**
 

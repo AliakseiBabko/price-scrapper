@@ -1960,3 +1960,75 @@ Full detail in each source's own extraction note: [[11_Budget_and_Planning/_supp
 - **⚠️ Verify sewer riser-stack placement before buying, not just after.** Documented case: a sewer riser positioned directly beside a kitchen window (confirmed via the developer's own plans, not a later AC-condensate line as initially assumed) — an objectively bad placement forcing the buyer to choose between installing an inconvenient "sololift"-type macerator pump or rerouting a long new sewer run to relocate the kitchen sink elsewhere. Prefer a layout with sensibly-placed risers when a comparable alternative exists.
 - **⚠️ A small "kitchen-niche" alcove labeled with a specific square footage (e.g. "5 m²" or "7 m²") on a floor plan often can't actually fit a full kitchen setup plus a table, despite how it reads on paper.** Verify with actual planning software before assuming it will work (the source names a specific paid app it uses for this, framed as a non-endorsement) — if it genuinely doesn't fit, the practical options are relocating the dining table to the living room, or combining the kitchen niche with the living room outright rather than fighting the space as a separate enclosed room.
 
+### Small Bedroom / Study — Dual-Purpose Bedroom/Home-Office Real Case (added 2026-08-25)
+
+> [!NOTE]
+> Anuta Vlady, `TJBcEpXymYk` (2025-03-21, Case 1 of 2 in this video). First real source for this vault's "Small Bedroom / Study" topic area — directly analogous to this project's own `06_Small_Bedroom` (a temporary adult bedroom doubling as a remote-work office). Below the 3+-source page-creation threshold; store-only for now. No pricing content. Region unresolved at level 1. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TJBcEpXymYk_anutavlady_bedroom_study_and_kitchen_living_makeover|YT_TJBcEpXymYk]]]
+
+- **Video-call background design should match the room's existing fixed materials and reflect the occupant's profession** — matching wall panels toned to an existing floor/cabinet finish, deliberately "serious"-reading for a conservative profession (here: investment/law).
+- **When trimming laminated wall panels to fit a wall height, cut only the top row** — preserves the factory-laminated bottom edge, which would otherwise be exposed to floor-washing moisture and could swell.
+- **Reduce competing pattern/color sources to one unifying accent rather than stripping all pattern** — replacing just one high-contrast piece (a bedspread) to match an already-present color (a blind) resolved a "too busy" room without removing every pattern.
+- **DIY headboard-from-matching-panel technique, sized by a fixed reference**: build a custom headboard from the same finish as an existing built-in cabinet, and set its height by aligning to the bottom edge of a nearby wall outlet — a concrete, repeatable sizing method.
+- **⚠️ Physical furniture-placement mock-up should include actual height, not just floor footprint** — a floor-only mock-up misses head/shoulder-height clearance problems that a height-inclusive mock-up (boxes/props at the real height) would catch.
+- **⚠️ Bed-under-window objections (harder cleaning, drafts) argued as overstated in practice** — window cleaning is infrequent, and AC use is a more likely response to heat than opening the window. Presented as the source's own lived-experience opinion, not verified research.
+- **A large headboard with integrated shelving removes the need for separate bedside tables.**
+- **Double-layered curtains around a window-adjacent bed create a cozier "alcove" feel** — an explicit stylistic trade-off against a single-layer, airier alternative.
+- **Preserve one small deliberate personalization element for the room's actual occupant** even within an otherwise coordinated adult-led redesign, rather than fully overriding their own stated preference.
+- **A slim folding guest mattress (stored in a closet or under a lift-bed) can replace a bulky sleeper armchair** while preserving overnight-guest capacity and freeing meaningfully more daily floor space.
+
+**Second source, same topic area (added 2026-08-25)**: Anuta Vlady, `GfixqWjsD58` (2025-05-09, Case 2 — a genuinely tiny 3m×3.15m, 2.30m-ceiling bedroom, USA client, country-level region only). Now 2 sources, still below the 3+-source page-creation threshold. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
+
+- **⚠️ Low-ceiling (2.30m) proportion rule**: avoid heavy horizontal design elements (horizontal curtain trim, a wide horizontal painting) — they compress an already-low ceiling further. Favor vertical-emphasis elements (floor-to-ceiling curtain panels, a tall floor-to-ceiling headboard panel) to visually stretch perceived ceiling height, regardless of target style.
+- **DIY plumb-line technique without a laser level**: tie a small weight (coin/ring) to a string, tape the top to the wall — an improvised true-vertical reference for hanging panels/molding straight.
+- **Floor-to-ceiling self-adhesive soft wall panels as a combined headboard-replacement and ceiling-height-proportion fix.**
+- **Stated budget philosophy independent of any specific product**: even with an explicitly unlimited client budget, deliberately source moderately-priced items across the board, reasoning that money not spent on interior finishes can go toward other life priorities.
+- **⚠️ Explicitly undecided design call, presented as such rather than forced** — a genuine trade-off (keep vs. remove ornate mirrors) left open for the client/audience rather than asserted as a single correct answer.
+- **A fixed, uncoverable mechanical obstacle (a floor heating convector) can force an asymmetric, off-center rug placement** to preserve required access.
+- **A wanted feature can be a hard no under a real clearance constraint**: a floating TV shelf was dropped entirely (not miniaturized) because of a genuinely narrow (~30cm) walkway beside the bed.
+
+### Planning Rules — ARCHWOOD 90m² 3-Room Real-Project Walkthrough (added 2026-08-25)
+
+> [!NOTE]
+> ARCHWOOD/Marina Izmailova, `gNN7G7vNyqY` (2019-12-15). Real client project (family of 4, 90m² 3-room apartment), 5 layout variants compared with explicit rejection reasoning. No pricing content. Region unresolved at level 1. Adds to this store's long-overdue Planning Rules backlog (see Pending Wiki-Page Decisions) rather than resolving it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gNN7G7vNyqY_archwood_90m2_family_layout|YT_gNN7G7vNyqY]]]
+
+- **Brief-first methodology**: gather a full household-usage brief (habits, appliances, hobbies, routines) before any layout sketch, and lock every furniture dimension (folded/unfolded sofa, extended dining table) in before submitting for perepланировка approval — explicitly framed as preventing mid-renovation surprises.
+- **Develop two structurally different layout options in parallel** when a family is undecided on a real trade-off (here: one shared kids' room vs. two separate kids' rooms + a dedicated adult bedroom) rather than picking one path early.
+- **A "growing" kids'-room brief note**: anticipate a school-age child needing a full desk (laptop/printer capability) within ~1-2 years, not just their current toddler furniture.
+- **Two full bathrooms sell better even when a household doesn't need daily use of the second one** — a resale-value consideration weighed directly against the client's own stated preference to reduce/merge bathroom space.
+- **Plan a dedicated storage/pantry room explicitly for bulky items (e.g. bicycles)** when no other location exists for them, rather than treating it as an afterthought.
+- **⚠️ Kitchen-island layouts can cost more usable floor area than they're worth in a mid-size (~90m²) 3-room apartment** — tried first, then dropped in favor of a standard linear kitchen + freestanding table once judged to constrain the room's overall usable area too much.
+- **A kitchen sink/prep zone facing a dark interior niche (away from the window) was rejected for the cook's comfort**, not for any structural/code reason — "unpleasant to stand at a dark sink unable to see out the window."
+- **Loggia-to-living-space merge permitting notes (Russian-practice, region-unresolved, not routed to `16_Legal_and_Regulations/`)**: declaring a merged loggia as "кабинет" (non-residential office) at approval requires a sliding glass partition (not a solid wall) at the boundary; no household appliances may be declared there; a heated floor can be installed but not declared.
+- **Minimum kitchen-niche area for permitting when relocating a kitchen out of a former hallway/corridor**: stated at ≥6.5 m² to stay classified within the apartment's "common/public zone."
+- **TV-placement sightline rule for an open kitchen-living-dining plan**: place the TV so it's visible simultaneously from the loggia seating area, the kitchen counter/island, and the dining table — one shared media zone serving every regular use-position, not just the sofa.
+- **Semi-transparent wood-slat partition as an entry "dirty zone" divider**: for households with young children tracking dirt in, a daylight-permeable slat construction demarcates a tiled/washable entry zone (here ~90×150cm) without blocking daylight, unlike a solid opaque partition.
+- **Real household precedent (recorded as reference only)**: this family ultimately chose one shared kids' room over a fully-developed, technically buildable two-bedroom split, prioritizing open shared living space over a more conventional/resale-optimized layout.
+
+### Planning Rules — Karen Karapetyan, 5 Real Subscriber Kitchen-Living Layouts (added 2026-08-25)
+
+> [!NOTE]
+> Karen Karapetyan (architect/interior designer, atischler.ru studio), `NWLckaXH1_U` (2022-06-12). Critiques 5 real subscriber-submitted layouts. Region: Russia at level 1 for the permitting content specifically (explicit "не разрешено в России" statements) — not routed to `16_Legal_and_Regulations/` (Belarus-only bar). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NWLckaXH1_U_karapetyan_kitchen_living_layouts_subscribers|YT_NWLckaXH1_U]]]
+
+- **Minimum area for a genuinely functional combined kitchen-living space with a full furniture set (kitchen + sofa + dining table) is ~25m²** — below that, plan to keep only 2 of the 3.
+- **⚠️ "Paper plan" furniture-size illusion**: a schematic floor plan routinely looks more spacious than real furniture will be — a comfortable sofa needs ~1.0-1.1m depth/width; check the real dimensions of the actual furniture model you want against the plan, not a generic block.
+- **⚠️ Russian replanning-approval rule, kitchen expansion into a declared living room**: not permitted under standard rules; **genuine discretionary nuance** — if the kitchen niche keeps its original footprint and the extra space is instead declared a non-habitable corridor/hall, approval depends on the specific reviewing official's own judgment, not a fixed rule.
+- **⚠️ Russian replanning-approval rule, wet-zone expansion into a living space**: essentially never approved — **except** for a ground-floor apartment or one with no unit directly below (no downstairs neighbor's ceiling under the expanded wet zone).
+- **Minimizing internal partitions is generally the right response to an over-subdivided layout** — consolidate into one open zone, then use lightweight reversible dividers (curtain, light partition) for occasional privacy instead of permanent walls.
+- **⚠️ Flexible-partition guest-hosting design**: for households with periodic overnight guests, plan a genuinely open kitchen-living space with a lightweight closable divider so it can be isolated as sleeping quarters when guests stay, and reopened as normal living space otherwise — rather than keeping an awkward permanent separate galley kitchen just to preserve a guest room.
+- **⚠️ An isolated, visually-disconnected galley kitchen is flagged as a dated, less resale-marketable layout** compared to a combined kitchen-living plan.
+
+### Planning Rules / Design Process — Sergey Kodolov, Design-Project Workflow Rebuttal (added 2026-08-25)
+
+> [!NOTE]
+> Sergey Kodolov (Vladivostok-based turnkey company owner), `PJKk1BwtgVY` (2020-01-22). **⚠️ Value-filter finding**: despite the title framing this as client reviews/testimonials, the actual content is Kodolov himself rebutting common objections to his paid-design-project requirement — not a testimonial format at all, and genuinely substantive underneath the self-interested framing. Region: Vladivostok (level 1, spoken). No pricing content. `single-account`, self-interested. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_PJKk1BwtgVY_kodolov_design_project_process_rebuttal|YT_PJKk1BwtgVY]]]
+
+- **Staged design-project workflow**: brief → shared client/designer/design-lead group chat (contractor added only for technical Q&A, not permanently) → floor-plan/layout stage → "concept collage" stage → full visualization + technical drawings → production.
+- **Floor-plan iteration convention**: 2-5 initial layout variants based on area/window count; client feedback converges within ~2-4 rounds, ~1-2 weeks total.
+- **⚠️ Taping/drawing wall outlines on the floor to "feel" a layout is explicitly rejected** as giving no genuine spatial sense — standardized clearance/opening-width norms are the reliable substitute.
+- **"Concept collage" staging rationale**: a cheap rough moodboard before the expensive full visualization confirms client and designer share the same direction before committing to a costly-to-revise render.
+- **⚠️ Visualization's role is miscommunication-reduction, not just aesthetics**: without it, client/contractor/workers each imagine a different finished result from drawings alone, causing real on-site rework and time/cost loss.
+- **Three complementary construction-documentation types**: чертежи (precise plan drawings), развертки (wall-elevation views), and visualization — each serves a distinct role, not redundant with the others.
+- **⚠️ Refusal to quote from an unfinished apartment**: a rough-shell apartment is functionally a "clone" of every same-area unit until engineering specs are finalized — electrical-panel and flooring costs specifically can vary "tens of times" depending on final spec, making an on-site verbal quote effectively a quote for something not yet real.
+- **Stated real full design-project timeline: ~2-3 months**, split roughly evenly between designer working time and client review/approval turnaround — a direct rebuttal to requests for a 2-week design project.
+- **Client-site-visit access gated by financial commitment** (paid design project) once a company has enough completed objects that unlimited free tours would take time from paid work.
+

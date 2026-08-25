@@ -17,11 +17,19 @@ sourced general reasoning rather than duplicating it, and nothing in this
 guide edits or supersedes its own already-decided plan notes.
 
 > [!NOTE]
-> **Corroboration note.** Eleven sources so far, from **nine independent
-> channels/practitioners**: Omikor/Elena, Diskill/Nadia Karmin, Iolanta
-> Fedotova, LightLab/Artem Voronov, 500LUX (hosting guest designer Marina
-> Zvereva), Fenix Interior, Mirlay Glass, Ekaterina Popova, and Sergey
-> Gusev/ПРО ДВЕРИ (whose second video in this batch does not count as a
+> **Corroboration note.** Fourteen sources so far, from **twelve
+> independent channels/practitioners**: Omikor/Elena, Diskill/Nadia
+> Karmin, Iolanta Fedotova, LightLab/Artem Voronov, 500LUX (hosting guest
+> designer Marina Zvereva), Fenix Interior, Mirlay Glass, Ekaterina
+> Popova, Бюро ARCHWOOD/Marina Izmailova (a real 90m² client project,
+> adding the TV-sightline rule and a kitchen-island space caution), Anuta
+> Vlady (a real subscriber-photo remote makeover unifying a
+> style-mismatched kitchen-living space — dispatched under a mistaken
+> "Diskill" assumption, channel corrected via yt-dlp metadata), Karen
+> Karapetyan (a real 5-layout subscriber critique series, also dispatched
+> under the same mistaken "Diskill" assumption, adding the refrigerator-
+> placement and cooking-orientation rules), and Sergey Gusev/ПРО ДВЕРИ
+> (whose second video in this batch does not count as a
 > further independent source, per this project's own same-channel rule).
 > A generic content-aggregator source (`YT_Mf2A7cbTq3s`) and a
 > heavily-promotional installer testimonial (`YT_pd_HXj0jT9g`) both

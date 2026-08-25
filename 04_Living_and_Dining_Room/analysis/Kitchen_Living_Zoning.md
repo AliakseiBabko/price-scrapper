@@ -67,6 +67,35 @@ opening the adjacent refrigerator door while a chair is pulled up — a
 concrete, checkable trade-off between counter comfort and walkway
 clearance. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
 
+A sixth source, ARCHWOOD/Marina Izmailova's real 90m² 3-room client
+project (`gNN7G7vNyqY`), adds two further points from a real project's
+own rejected-variant reasoning: **a kitchen-island layout can cost more
+usable floor area than it's worth** in a mid-size (~90m²) 3-room
+apartment — tried first for this client, then dropped for a standard
+linear kitchen + freestanding dining table once the island was judged to
+constrain the room's overall usable area too much; and **place the TV so
+it's visible simultaneously from the loggia seating area, the kitchen
+counter/island, and the dining table** — one shared media zone serving
+every regular use-position in the open-plan area, not just the sofa.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gNN7G7vNyqY_archwood_90m2_family_layout|YT_gNN7G7vNyqY]]]
+
+A seventh source, Karen Karapetyan's real 5-layout subscriber critique
+(`NWLckaXH1_U`), adds several concrete cautions: **avoid placing a
+refrigerator as a freestanding "column" at the kitchen/living dividing
+line** in a small combined space — creates a maze-like circulation path;
+prefer a hallway/corridor built-in cabinet accessible from the living
+side instead, imperfect but clearly better. **A kitchen built without
+upper wall cabinets or full side panels lets more light and air into a
+small combined space**, both visually and physically enlarging it, at
+the cost of that upper storage capacity. **A protruding structural
+pylon/beam dividing kitchen from living in an already-small combined
+room disproportionately reduces furniture-layout flexibility.** **A
+dining table and a bar counter with stools in the same small zone are
+functionally redundant** — keep one. Also names an explicit **"cook
+faces the room, not the wall" orientation trend**, framed by the source
+as reflecting a shift away from treating the cook as an isolated
+household role. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NWLckaXH1_U_karapetyan_kitchen_living_layouts_subscribers|YT_NWLckaXH1_U]]]
+
 ## Storage, Cabinetry, and Corner Solutions
 
 Omikor recommends tall column-style cabinets as the most space-efficient
@@ -101,6 +130,23 @@ facades should coordinate with living-room furniture facades (matching,
 or different materials that visually complement each other); don't treat
 the kitchen as a stylistically separate zone once the space is physically
 open. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+
+Anuta Vlady's real case (a subscriber-photo remote makeover, not a build
+video) shows a concrete before/after fix for exactly this problem —
+adjoining kitchen and living zones renovated with no shared design
+language: derive the new wall paint from a fixed, unchangeable material
+already present (color-picked from the fireplace stone), repaint a
+must-keep furniture piece into the kitchen's already-present white to
+pull it into the shared palette, unify curtain treatment across every
+window in the combined space, and use small repeated black accent
+details to add contrast without a bold color change. Two further
+furniture-level techniques from the same source: darker chair legs were
+deliberately chosen (over lighter, better-matching ones) specifically to
+echo the living room's darker furniture tones and add contrast rather
+than blend in seamlessly; and a two-tone (dark base + light cushions)
+sofa upholstery, once a common furniture-manufacturer default, is now
+flagged as visually dated in favor of one unified fabric across the
+whole piece. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TF0XTvwWyYg_anutavlady_kitchen_living_makeover|YT_TF0XTvwWyYg]]]
 
 Fenix Interior's real applied "eye-catching kitchen" formula: an accent
 backsplash in large-format stone-look porcelain tile; facades combining

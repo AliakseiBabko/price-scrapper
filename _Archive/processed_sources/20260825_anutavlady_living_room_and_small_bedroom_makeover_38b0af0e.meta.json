@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=GfixqWjsD58",
+  "video_id": "GfixqWjsD58",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T09:48:23.480241+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "38b0af0ef565873dcd79dfdf988d07ca009309a9aa5bbcde4bbfbcf32dbfcd9c",
+  "attempts_before_success": []
+}

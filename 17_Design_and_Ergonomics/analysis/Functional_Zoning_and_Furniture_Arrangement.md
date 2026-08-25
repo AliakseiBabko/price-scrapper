@@ -112,6 +112,34 @@ caution — not routed to `16_Legal_and_Regulations/`.
 `single-account` per source except where corroboration is noted.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DO67YHV5uAU_gusev_two_rooms_from_one_partitions|YT_DO67YHV5uAU]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mrnTQL0eyBc_studio57_glass_partitions_for_against|YT_mrnTQL0eyBc]]]
 
+## Furniture-Placement Verification and Traffic-Flow Swaps (Anuta Vlady, added 2026-08-25)
+
+From a real kitchen-living-room makeover case (wallpaper interior, a
+staircase creating a tight walkway constraint):
+
+- **⚠️ Physical furniture mock-ups should include actual height, not
+  just floor footprint** — testing a furniture placement with boxes or
+  props taped only at floor level misses clearance problems at head/
+  shoulder height (relevant near a staircase, an overhang, or a
+  walkway); mock up the real height too before trusting a drawing's
+  floor-only clearance figure.
+- **A large gap between a high-mounted wall TV and a low-profile TV
+  cabinet reads as visually disharmonious** — when the TV is mounted
+  high, a taller, shallower-depth (~30cm) console table closes that
+  gap better than a standard-depth low TV cabinet.
+- **Swapping armchairs for loveseats/settees near a tight walkway can
+  free up more usable circulation space than the smaller chairs did**,
+  despite the larger individual footprint — a worked example achieved
+  just over 1m of clear stairway-access width this way while also
+  adding more lounging capacity than the original chairs offered.
+- **A shallow-depth (~40cm) storage cabinet remains functionally usable
+  even in a tight-clearance spot** as long as its drawers can still
+  physically open within the available approach space — a real
+  cost/practicality trade-off worth accepting rather than ruling the
+  location out.
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TJBcEpXymYk_anutavlady_bedroom_study_and_kitchen_living_makeover|YT_TJBcEpXymYk]]]
+
 ## Scope
 
 General ergonomics/zoning principles for arranging furniture and activity zones within a room or across an open-plan area: traffic-flow planning, activity-zone separation (e.g. within a combined kitchen-living room), clearance/reach ergonomics not already tied to one specific room's own fixtures, and general "how much space does an activity actually need" rules of thumb.

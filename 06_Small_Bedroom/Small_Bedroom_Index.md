@@ -25,6 +25,7 @@
 * **Phase 2 future use — "Kids Room #2" (clarified 2026-08-20, verbal)**: once the adults move out to Phase 2, this room becomes **"Kids Room #2," mostly for the boy** — not a generic study/guest room as originally assumed. The bigger [[Kids_Room_Index]] then becomes the girl's own room exclusively. See [[Family_Requirements]] §6-7 for the full transition plan. Anything built into this room now (wardrobe, storage, finishes) is worth planning so it can still work in a child's room later, rather than being purely bedroom/study-specific.
 * **Adjoining loggia stays separate (clarified 2026-08-10)**: this room adjoins the loggia — the household has explicitly decided **not** to join/merge the two spaces; the existing door and window unit between them stay in place, and the loggia remains its own closed room. See [[Balcony_Index]] and [[Family_Requirements]] §10 for the full plan (glazing replacement + insulation only, no envelope conversion).
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
+* **Sourced reasoning (added 2026-08-25)**: a first real dual-purpose bedroom/home-office source (Anuta Vlady) is recorded in `11_Budget_and_Planning/_supporting/knowledge/intermediate/store/Durable_Facts.md`'s "Small Bedroom / Study" topic area — below the 3+-source threshold for a dedicated analysis page, so not yet a linked guide page here.
 
 ## 🛋️ Furniture & Layout
 * **Bed**: *Placeholder* (Floor plan shows a single bed with bedside table).

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=IoQaozB-DYA",
+  "video_id": "IoQaozB-DYA",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T09:57:54.877776+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "fcb06c551fe5ef573aa9d83f219dae6a2c44d0c217f6d87cda79da402abde962",
+  "attempts_before_success": []
+}

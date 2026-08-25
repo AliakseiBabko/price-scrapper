@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=shYCuunkPEY",
+  "video_id": "shYCuunkPEY",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T09:39:59.110676+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f646057cdd77bc25644c91c83b15fdf4b044b1da93349a712d0af5648a760f01",
+  "attempts_before_success": []
+}
