@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://price-scrapper.local/schemas/layout-case.schema.json",
+  "title": "Layout analysis case",
+  "description": "One apartment re-planning case as analysed by one named practitioner in one source. Everything here is that practitioner's opinion, not established fact - see epistemic_status and attribution.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "epistemic_status", "provenance", "apartment", "problems", "moves"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.1.0" },
+    "case_id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "epistemic_status": {
+      "enum": ["practitioner_opinion", "regulation", "measured_fact"],
+      "description": "practitioner_opinion is the default - a named person's judgement, to be weighed, not obeyed."
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_type", "author", "language"],
+      "properties": {
+        "source_type": { "enum": ["youtube", "article", "book", "drawing", "conversation"] },
+        "url": { "type": "string" },
+        "video_id": { "type": "string" },
+        "upload_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "author": { "type": "string", "minLength": 1 },
+        "author_channel": { "type": "string" },
+        "language": { "type": "string" },
+        "region": { "type": "string", "description": "Where the practice applies - norms and habits are regional." },
+        "frames_dir": { "type": "string", "description": "Repo-relative dir holding the transcript/frame index for this source." },
+        "transcript_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "apartment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["area_total_m2", "room_count"],
+      "properties": {
+        "area_total_m2": { "type": "number", "exclusiveMinimum": 0 },
+        "room_count": { "type": "integer", "minimum": 0 },
+        "building_type": { "type": "string", "description": "e.g. panel, monolithic, brick, series name." },
+        "city": { "type": "string" },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "statement"],
+            "properties": {
+              "kind": {
+                "enum": ["load_bearing", "wet_zone", "riser", "duct", "party_wall", "facade", "gas", "ventilation", "legal", "other"]
+              },
+              "statement": { "type": "string" },
+              "value_mm": { "type": "number" },
+              "evidence": { "$ref": "#/$defs/evidence" }
+            }
+          }
+        }
+      }
+    },
+    "household": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "The client brief, when the source states one. Absent is normal; do not invent it.",
+      "properties": {
+        "stated": { "type": "boolean" },
+        "members": { "type": "string" },
+        "needs": { "type": "array", "items": { "type": "string" } },
+        "scenarios": {
+          "type": "array",
+          "description": "Daily-use scenarios the layout is judged against.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "statement"],
+            "properties": {
+              "id": { "type": "string" },
+              "statement": { "type": "string" },
+              "zone_ids": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "zones": {
+      "type": "array",
+      "description": "Rooms/areas referred to by problems and moves.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name_ru"],
+        "properties": {
+          "id": { "type": "string" },
+          "name_ru": { "type": "string" },
+          "name_en": { "type": "string" },
+          "role": {
+            "enum": ["entrance", "hallway", "corridor", "kitchen", "living", "bedroom", "kids", "bathroom", "wc", "combined_bath", "laundry", "balcony", "storage", "other"]
+          },
+          "observations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["metric", "value", "unit"],
+              "properties": {
+                "metric": { "type": "string", "description": "e.g. clear_width, wall_thickness, area." },
+                "value": { "type": "number" },
+                "unit": { "enum": ["mm", "m", "m2", "deg", "count"] },
+                "state": { "enum": ["before", "after"] },
+                "note": { "type": "string" },
+                "evidence": { "$ref": "#/$defs/evidence" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "problems": {
+      "type": "array",
+      "description": "What the practitioner says is wrong with the existing layout.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "category", "statement"],
+        "properties": {
+          "id": { "type": "string" },
+          "category": {
+            "enum": ["circulation", "storage", "wet_zone", "services", "acoustics", "geometry", "daylight", "ergonomics", "durability", "legal", "cost"]
+          },
+          "statement": { "type": "string" },
+          "zone_ids": { "type": "array", "items": { "type": "string" } },
+          "measurements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["metric", "value", "unit"],
+              "properties": {
+                "metric": { "type": "string" },
+                "value": { "type": "number" },
+                "unit": { "enum": ["mm", "m", "m2", "deg", "count"] },
+                "comparator": { "enum": ["is", "min_required", "max_allowed"] }
+              }
+            }
+          },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "moves": {
+      "type": "array",
+      "description": "Typed operations the practitioner performed on the layout. This is the layer CAD/geometry tooling consumes.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "op", "rationale"],
+        "properties": {
+          "id": { "type": "string" },
+          "op": {
+            "enum": [
+              "wall.remove", "wall.add", "wall.thicken", "wall.reposition",
+              "opening.create", "opening.resize", "opening.shift", "opening.remove",
+              "niche.create", "bulkhead.create", "duct.reduce",
+              "zone.reshape", "zone.merge", "zone.split",
+              "wet_zone.expand", "storage.add", "layer.add"
+            ]
+          },
+          "target_zone_ids": { "type": "array", "items": { "type": "string" } },
+          "params": {
+            "type": "object",
+            "description": "Free-form but unit-suffixed keys (…_mm) so geometry tooling can read them without parsing prose.",
+            "additionalProperties": { "type": ["number", "string", "boolean"] }
+          },
+          "solves": { "type": "array", "items": { "type": "string" }, "description": "problem ids" },
+          "sequence_after": { "type": "array", "items": { "type": "string" }, "description": "move ids that must precede this one" },
+          "rationale": { "type": "string" },
+          "legal_flag": {
+            "enum": ["routine", "needs_approval", "prohibited", "unclear"],
+            "description": "As characterised by the source, not by us."
+          },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "tradeoffs": {
+      "type": "array",
+      "description": "Where the practitioner chose one option over another and said why. The most transferable part of a case.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "chosen", "rejected_alternative", "why"],
+        "properties": {
+          "id": { "type": "string" },
+          "chosen": { "type": "string" },
+          "rejected_alternative": { "type": "string" },
+          "why": { "type": "string" },
+          "gains": { "type": "array", "items": { "type": "string" } },
+          "costs": { "type": "array", "items": { "type": "string" } },
+          "move_ids": { "type": "array", "items": { "type": "string" } },
+          "evidence": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "claims": { "type": "array", "items": { "type": "string" } },
+        "evidence": { "$ref": "#/$defs/evidence" }
+      }
+    },
+    "rules_derived": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Rule ids in data/layout_rules/rules.jsonl that this case supports."
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Where in the source this came from - timestamp, the frame showing it, and the speaker's own words.",
+      "properties": {
+        "t_start": { "type": "number", "minimum": 0 },
+        "t_end": { "type": "number", "minimum": 0 },
+        "frame": { "type": "string", "description": "Path relative to provenance.frames_dir." },
+        "quote": { "type": "string", "description": "Original language, never translated." },
+        "visual": { "type": "string", "description": "What the frame shows that the words do not." }
+      }
+    }
+  }
+}

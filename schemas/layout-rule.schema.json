@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://price-scrapper.local/schemas/layout-rule.schema.json",
+  "title": "Layout rule",
+  "description": "One reusable, machine-checkable planning rule distilled from one or more cases. One line of data/layout_rules/rules.jsonl. Never a flat fact: every rule names whose opinion it is.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "rule_id", "kind", "statement", "attribution", "supported_by"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.1.0" },
+    "rule_id": { "type": "string", "pattern": "^[a-z0-9]+(\\.[a-z0-9_]+)+$" },
+    "kind": {
+      "enum": [
+        "dimension_minimum",
+        "dimension_maximum",
+        "dimension_target",
+        "geometry_preference",
+        "sequencing",
+        "adjacency",
+        "avoid",
+        "tradeoff"
+      ]
+    },
+    "statement": { "type": "string", "description": "The rule in one sentence, in the practitioner's terms." },
+    "statement_ru": { "type": "string", "description": "Original Russian phrasing, kept for searchability." },
+    "applies_to": {
+      "type": "array",
+      "items": {
+        "enum": ["corridor", "hallway", "entrance", "door_opening", "wall", "switchboard", "wardrobe", "bathroom", "wc", "kitchen", "bedroom", "kids", "living", "duct", "riser", "acoustics", "storage", "ceiling"]
+      }
+    },
+    "params": {
+      "type": "object",
+      "description": "Numeric parameters with unit-suffixed keys, so a checker can evaluate a candidate layout against them directly.",
+      "additionalProperties": { "type": ["number", "string", "boolean"] }
+    },
+    "condition": {
+      "type": "string",
+      "description": "When the rule applies - e.g. 'only when the wall carries an acoustic layer'. Empty means unconditional in the source."
+    },
+    "rationale": { "type": "string" },
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["author"],
+      "properties": {
+        "author": { "type": "string" },
+        "role": { "type": "string", "description": "e.g. architect, contractor, designer, blogger." },
+        "region": { "type": "string" },
+        "epistemic_status": { "enum": ["practitioner_opinion", "regulation", "measured_fact"] },
+        "regulation_ref": { "type": "string", "description": "Only when the source cites a norm (SNiP/SP/etc.) - record the citation, not our own reading of it." }
+      }
+    },
+    "confidence": {
+      "enum": ["single_source", "corroborated", "contested"],
+      "description": "contested means another sourced rule in this file disagrees - see conflicts_with."
+    },
+    "supported_by": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "description": "case_ids supporting this rule."
+    },
+    "conflicts_with": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "rule_ids that disagree. Disagreement is kept, not resolved."
+    },
+    "wiki_ref": { "type": "string", "description": "Repo-relative path to the prose page carrying the reasoning." }
+  }
+}

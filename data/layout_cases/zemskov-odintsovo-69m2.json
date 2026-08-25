@@ -1,0 +1,602 @@
+{
+  "schema_version": "0.1.0",
+  "case_id": "zemskov-odintsovo-69m2",
+  "epistemic_status": "practitioner_opinion",
+  "provenance": {
+    "source_type": "youtube",
+    "url": "https://www.youtube.com/watch?v=mhE_5qlJ0KU",
+    "video_id": "mhE_5qlJ0KU",
+    "upload_date": "2024-12-08",
+    "author": "Alexey Zemskov (Алексей Земсков, ZEMS.PRO)",
+    "author_channel": "https://www.youtube.com/channel/UCEVywLKPJcyzqcWMswzooug",
+    "language": "ru",
+    "region": "moscow_moscow_region",
+    "frames_dir": "_Inbox/frames/20260825_mhE_5qlJ0KU"
+  },
+  "apartment": {
+    "area_total_m2": 69,
+    "room_count": 2,
+    "city": "Одинцово",
+    "constraints": [
+      {
+        "kind": "party_wall",
+        "statement": "Стена с соседями толщиной 200 мм - слишком тонкая для врезки электрощита.",
+        "value_mm": 200,
+        "evidence": {
+          "t_start": 67,
+          "t_end": 90,
+          "frame": "frames/02a_000129.jpg",
+          "quote": "толщина этих стен составляет всего лишь 200 мм"
+        }
+      },
+      {
+        "kind": "duct",
+        "statement": "Короба вокруг коммуникаций занимают полезную площадь санузла.",
+        "evidence": {
+          "t_start": 156,
+          "t_end": 175,
+          "frame": "frames/06a_000342.jpg",
+          "quote": "короба которые находятся вокруг коммуникаций и занимают слишком много полезного места"
+        }
+      }
+    ]
+  },
+  "household": {
+    "stated": false,
+    "needs": [
+      "Разместить всю верхнюю одежду заказчиков во встроенном шкафу в прихожей"
+    ]
+  },
+  "zones": [
+    {
+      "id": "hall",
+      "name_ru": "прихожая",
+      "name_en": "entrance hall",
+      "role": "entrance",
+      "observations": [
+        {
+          "metric": "shape_complexity",
+          "value": 1,
+          "unit": "count",
+          "state": "before",
+          "note": "Сложная форма с множеством наружных углов; после перепланировки - строго прямоугольная.",
+          "evidence": {
+            "t_start": 90,
+            "t_end": 116,
+            "frame": "frames/03a_000154.jpg",
+            "visual": "Frame shows the irregular L-shaped hall outline before any change."
+          }
+        }
+      ]
+    },
+    {
+      "id": "corridor",
+      "name_ru": "коридор",
+      "role": "corridor",
+      "observations": [
+        {
+          "metric": "clear_width",
+          "value": 1040,
+          "unit": "mm",
+          "state": "before",
+          "note": "До оштукатуривания; сужается ниже комфортного минимума.",
+          "evidence": {
+            "t_start": 116,
+            "t_end": 135,
+            "frame": "frames/04a_000214.jpg",
+            "quote": "составляет всего лишь 1040 мм",
+            "visual": "On-screen arrow marks the pinch point being measured."
+          }
+        },
+        {
+          "metric": "clear_width",
+          "value": 2000,
+          "unit": "mm",
+          "state": "before",
+          "note": "Другой участок - наоборот, почти 2 м, из-за чего зажаты соседние жилые помещения.",
+          "evidence": {
+            "t_start": 135,
+            "t_end": 156,
+            "frame": "frames/05a_000235.jpg",
+            "quote": "слишком большую ширину которая составляет почти 2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "name_ru": "детская",
+      "role": "kids"
+    },
+    {
+      "id": "bath",
+      "name_ru": "ванная",
+      "role": "bathroom"
+    },
+    {
+      "id": "wc",
+      "name_ru": "туалет",
+      "role": "wc"
+    }
+  ],
+  "problems": [
+    {
+      "id": "p1-switchboard",
+      "category": "services",
+      "statement": "В прихожей невозможно врезать электрощит: стена с соседями 200 мм, а нужна ниша не менее 140 мм при глубине щита от 110 мм.",
+      "zone_ids": [
+        "hall"
+      ],
+      "measurements": [
+        {
+          "metric": "party_wall_thickness",
+          "value": 200,
+          "unit": "mm",
+          "comparator": "is"
+        },
+        {
+          "metric": "switchboard_install_depth",
+          "value": 110,
+          "unit": "mm",
+          "comparator": "min_required"
+        },
+        {
+          "metric": "niche_depth",
+          "value": 140,
+          "unit": "mm",
+          "comparator": "min_required"
+        }
+      ],
+      "evidence": {
+        "t_start": 67,
+        "t_end": 95,
+        "frame": "frames/02a_000129.jpg",
+        "quote": "для того чтобы нормально установить электрощит глубина установки которого составляет минимум 110 мм нужно сделать нишу глубиной не менее 140 мм"
+      }
+    },
+    {
+      "id": "p2-hall-shape",
+      "category": "geometry",
+      "statement": "Сложная форма прихожей мешает монтажу натяжного потолка, плинтуса и обстановке, и порождает множество наружных углов, которые обтираются при эксплуатации.",
+      "zone_ids": [
+        "hall"
+      ],
+      "evidence": {
+        "t_start": 90,
+        "t_end": 120,
+        "frame": "frames/03a_000154.jpg",
+        "quote": "имеет очень сложную форму А это очень неудобно и при монтаже натяжного потолка и при установке плинтуса"
+      }
+    },
+    {
+      "id": "p3-corridor-narrow",
+      "category": "circulation",
+      "statement": "Ширина коридора 1040 мм ниже минимума 1100 мм, необходимого для удобного пользования и корректной установки двери в соседнее помещение.",
+      "zone_ids": [
+        "corridor"
+      ],
+      "measurements": [
+        {
+          "metric": "clear_width",
+          "value": 1040,
+          "unit": "mm",
+          "comparator": "is"
+        },
+        {
+          "metric": "clear_width",
+          "value": 1100,
+          "unit": "mm",
+          "comparator": "min_required"
+        }
+      ],
+      "evidence": {
+        "t_start": 116,
+        "t_end": 140,
+        "frame": "frames/04a_000214.jpg",
+        "quote": "он должен иметь ширину напомню минимум 1.100 мм"
+      }
+    },
+    {
+      "id": "p4-corridor-wide",
+      "category": "circulation",
+      "statement": "Другой участок коридора почти 2000 мм - сама по себе ширина не плоха, но из-за неё зажаты соседние жилые помещения.",
+      "zone_ids": [
+        "corridor"
+      ],
+      "measurements": [
+        {
+          "metric": "clear_width",
+          "value": 2000,
+          "unit": "mm",
+          "comparator": "is"
+        }
+      ],
+      "evidence": {
+        "t_start": 135,
+        "t_end": 160,
+        "frame": "frames/05a_000235.jpg",
+        "quote": "из-за этого достаточно сильно зажало рядом жилые помещения"
+      }
+    },
+    {
+      "id": "p5-ducts",
+      "category": "wet_zone",
+      "statement": "Короба вокруг коммуникаций отнимают полезную площадь у санузла.",
+      "zone_ids": [
+        "bath",
+        "wc"
+      ],
+      "evidence": {
+        "t_start": 156,
+        "t_end": 175,
+        "frame": "frames/06a_000342.jpg"
+      }
+    },
+    {
+      "id": "p6-acoustic-offset",
+      "category": "acoustics",
+      "statement": "Стена детской изолируется дополнительным слоем звукоизоляции 70 мм; если разместить проём до моделирования этого слоя, проём получится симметричным относительно коридора и наличник двери придётся подрезать.",
+      "zone_ids": [
+        "kids",
+        "corridor"
+      ],
+      "measurements": [
+        {
+          "metric": "acoustic_layer_thickness",
+          "value": 70,
+          "unit": "mm",
+          "comparator": "is"
+        }
+      ],
+      "evidence": {
+        "t_start": 360,
+        "t_end": 400,
+        "frame": "frames/08a_000637.jpg",
+        "quote": "стена детской на данном объекте изолируется от стены соседей с помощью дополнительного слоя звукоизоляции толщиной целых 70 мм"
+      }
+    }
+  ],
+  "moves": [
+    {
+      "id": "m1-demolish",
+      "op": "wall.remove",
+      "target_zone_ids": [
+        "hall",
+        "corridor"
+      ],
+      "params": {
+        "scope": "all removable partitions"
+      },
+      "solves": [
+        "p2-hall-shape",
+        "p3-corridor-narrow",
+        "p4-corridor-wide"
+      ],
+      "rationale": "Первым делом удалить всё, что можно удалить, чтобы дальше строить форму заново.",
+      "legal_flag": "unclear",
+      "evidence": {
+        "t_start": 175,
+        "t_end": 185,
+        "frame": "frames/06a_000342.jpg",
+        "quote": "первым делом Удалите все которые можно удалить"
+      }
+    },
+    {
+      "id": "m2-thicken-party-wall",
+      "op": "wall.thicken",
+      "target_zone_ids": [
+        "hall"
+      ],
+      "params": {
+        "added_mm": 50,
+        "resulting_total_mm": 250,
+        "min_total_mm": 250
+      },
+      "solves": [
+        "p1-switchboard"
+      ],
+      "sequence_after": [
+        "m1-demolish"
+      ],
+      "rationale": "Нарастить стену с соседями до суммарных 250 мм, чтобы стало возможно врезать электрощит.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 185,
+        "t_end": 200,
+        "frame": "frames/06a_000342.jpg",
+        "quote": "нарастить стену с соседями таким образом чтобы её суммарная толщина составляла не менее 250 мм"
+      }
+    },
+    {
+      "id": "m3-switchboard-niche",
+      "op": "niche.create",
+      "target_zone_ids": [
+        "hall"
+      ],
+      "params": {
+        "sill_above_screed_mm": 1200,
+        "height_mm": 500,
+        "offset_from_party_wall_mm": 100,
+        "width_mm": 400,
+        "depth_mm": 140
+      },
+      "solves": [
+        "p1-switchboard"
+      ],
+      "sequence_after": [
+        "m2-thicken-party-wall"
+      ],
+      "rationale": "Ниша под встроенный электрощит, размеченная от стяжки пола и от стены с соседями.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 200,
+        "t_end": 240,
+        "frame": "frames/06a_000342.jpg",
+        "quote": "отступите от стяжки пола 1.200 мм ... ещё 500 мм ... отступите от стены с соседями 100 мм ... ещё 400 мм ... глубина составляла ровно 140 мм"
+      }
+    },
+    {
+      "id": "m4-ceiling-bulkhead",
+      "op": "bulkhead.create",
+      "target_zone_ids": [
+        "hall"
+      ],
+      "params": {
+        "thickness_mm": 100,
+        "purpose": "wardrobe top fixing in the recessed area"
+      },
+      "solves": [],
+      "sequence_after": [
+        "m1-demolish"
+      ],
+      "rationale": "Потолочный короб 100 мм в утопленном участке, чтобы стал возможен шкаф-купе.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 240,
+        "t_end": 258,
+        "frame": "frames/06b_000411.jpg"
+      }
+    },
+    {
+      "id": "m5-wardrobe",
+      "op": "storage.add",
+      "target_zone_ids": [
+        "hall"
+      ],
+      "params": {
+        "type": "sliding wardrobe",
+        "leaves": 3,
+        "leaves_equal": true
+      },
+      "solves": [],
+      "sequence_after": [
+        "m4-ceiling-bulkhead"
+      ],
+      "rationale": "Смоделировать шкаф и рассчитать число створок до строительства - в этом случае три равные створки.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 258,
+        "t_end": 268,
+        "frame": "frames/06b_000411.jpg",
+        "quote": "необходимо разделить шкаф на три равных створки"
+      }
+    },
+    {
+      "id": "m6-entrance-door-opening",
+      "op": "opening.resize",
+      "target_zone_ids": [
+        "hall"
+      ],
+      "params": {
+        "width_mm": 1000,
+        "element": "entrance door opening"
+      },
+      "solves": [],
+      "sequence_after": [
+        "m1-demolish"
+      ],
+      "rationale": "Ширина проёма входной двери приводится ровно к 1000 мм.",
+      "legal_flag": "needs_approval",
+      "evidence": {
+        "t_start": 268,
+        "t_end": 275,
+        "frame": "frames/06b_000411.jpg"
+      }
+    },
+    {
+      "id": "m7-hall-rectangular",
+      "op": "zone.reshape",
+      "target_zone_ids": [
+        "hall"
+      ],
+      "params": {
+        "target_shape": "rectangular",
+        "new_wall_thickness_mm": 100,
+        "wall_sections": 2
+      },
+      "solves": [
+        "p2-hall-shape"
+      ],
+      "sequence_after": [
+        "m1-demolish"
+      ],
+      "rationale": "Форма прихожей задаётся двумя новыми участками стен по 100 мм на пересечении направляющих, параллельных стене с соседями.",
+      "legal_flag": "needs_approval",
+      "evidence": {
+        "t_start": 275,
+        "t_end": 290,
+        "frame": "frames/07a_000506.jpg"
+      }
+    },
+    {
+      "id": "m8-hall-opening",
+      "op": "opening.create",
+      "target_zone_ids": [
+        "hall",
+        "corridor"
+      ],
+      "params": {
+        "offset_from_party_wall_mm": 100,
+        "offset_from_perpendicular_wall_mm": 500,
+        "height_mm": 2070
+      },
+      "solves": [
+        "p2-hall-shape"
+      ],
+      "sequence_after": [
+        "m7-hall-rectangular"
+      ],
+      "rationale": "Проём в меньшем участке стены с намеренно асимметричными отбортовками 100 и 500 мм.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 290,
+        "t_end": 310,
+        "frame": "frames/07a_000506.jpg",
+        "quote": "Задайте высоту проёма в размере 2.070 мм"
+      }
+    },
+    {
+      "id": "m9-kids-opening-offset",
+      "op": "opening.shift",
+      "target_zone_ids": [
+        "kids",
+        "corridor"
+      ],
+      "params": {
+        "left_return_mm": 115,
+        "right_return_mm": 185,
+        "acoustic_layer_mm": 70
+      },
+      "solves": [
+        "p6-acoustic-offset"
+      ],
+      "sequence_after": [
+        "m10-acoustic-layer"
+      ],
+      "rationale": "Проём в детскую намеренно смещён влево, чтобы после наклейки 70 мм звукоизоляции наличник двери не пришлось подрезать.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 360,
+        "t_end": 400,
+        "frame": "frames/08a_000637.jpg",
+        "quote": "размещайте проёмы в жилые помещения только после того как вы смоделировали толщину звукоизоляции"
+      }
+    },
+    {
+      "id": "m10-acoustic-layer",
+      "op": "layer.add",
+      "target_zone_ids": [
+        "kids"
+      ],
+      "params": {
+        "thickness_mm": 70,
+        "purpose": "sound insulation from the party wall"
+      },
+      "solves": [],
+      "sequence_after": [
+        "m1-demolish"
+      ],
+      "rationale": "Стена детской изолируется от стены соседей дополнительным слоем звукоизоляции 70 мм.",
+      "legal_flag": "routine",
+      "evidence": {
+        "t_start": 360,
+        "t_end": 380,
+        "frame": "frames/08a_000637.jpg"
+      }
+    },
+    {
+      "id": "m11-wet-zone-layout",
+      "op": "duct.reduce",
+      "target_zone_ids": [
+        "bath",
+        "wc"
+      ],
+      "params": {
+        "detail": "not specified in source"
+      },
+      "solves": [
+        "p5-ducts"
+      ],
+      "sequence_after": [
+        "m1-demolish"
+      ],
+      "rationale": "Компоновка ванной и туалета моделируется заново, а короба вокруг коммуникаций сокращаются; автор заявляет результат ('вся полезная площадь принадлежит вам'), но в этом видео не показывает размеры коробов - деталей нет.",
+      "legal_flag": "unclear",
+      "evidence": {
+        "t_start": 330,
+        "t_end": 345,
+        "frame": "frames/08a_000637.jpg",
+        "quote": "базово смоделируйте компоновку ванно и туалета а затем последовательно сформируйте проёмы"
+      }
+    }
+  ],
+  "tradeoffs": [
+    {
+      "id": "t1-return-vs-passage",
+      "chosen": "Отбортовка 500 мм с одной стороны проёма",
+      "rejected_alternative": "Проём во всю ширину участка с отбортовками по 100 мм слева и справа",
+      "why": "Отбортовка 500 мм позволяет обустроить в этом участке дополнительную зону хранения глубиной 400 мм; автор прямо признаёт, что симметричный вариант удобнее для прохода и делает прихожую светлее и просторнее.",
+      "gains": [
+        "Дополнительная зона хранения глубиной 400 мм"
+      ],
+      "costs": [
+        "Менее удобный проход",
+        "Прихожая выглядит темнее и теснее"
+      ],
+      "move_ids": [
+        "m8-hall-opening"
+      ],
+      "evidence": {
+        "t_start": 300,
+        "t_end": 330,
+        "frame": "frames/08a_000637.jpg",
+        "quote": "Я не спорю что так было бы намного удобнее ходить а прихожая выглядело бы гораздо светлее и просторнее Но именно отбортовка в 500 мм позволит вам обустроить ... зону хранения глубиной целых 400 мм"
+      }
+    },
+    {
+      "id": "t2-symmetric-opening",
+      "chosen": "Асимметричные отбортовки 115/185 мм у проёма в детскую",
+      "rejected_alternative": "Проём, симметричный относительно коридора",
+      "why": "Симметричный из коридора проём выглядит лучше, но потребует подрезать наличник межкомнатной двери под слой звукоизоляции; автор считает, что закрытая дверь с подрезанным наличником смотрится хуже, чем разные отбортовки.",
+      "gains": [
+        "Наличник двери не подрезается"
+      ],
+      "costs": [
+        "Проём визуально смещён при взгляде из коридора"
+      ],
+      "move_ids": [
+        "m9-kids-opening-offset"
+      ],
+      "evidence": {
+        "t_start": 380,
+        "t_end": 415,
+        "frame": "frames/08b_000704.jpg"
+      }
+    }
+  ],
+  "outcome": {
+    "claims": [
+      "Прихожая строго прямоугольной формы - практичная и удобная в уборке, без наружных углов, которые повреждались бы при эксплуатации.",
+      "У входа - большой встроенный шкаф, вмещающий всю верхнюю одежду заказчиков.",
+      "Дополнительная зона хранения при сохранении комфортной ширины прохода мимо неё.",
+      "Вся полезная площадь ванной и туалета принадлежит пользователю, а не скрытым нишам под коммуникации.",
+      "Коридоры комфортной ширины, но не за счёт уменьшения жилых помещений."
+    ],
+    "evidence": {
+      "t_start": 415,
+      "t_end": 470,
+      "frame": "frames/09a_000738.jpg",
+      "visual": "Rendered after-state with a human figure for scale, seen from the corridor into the kids' room."
+    }
+  },
+  "rules_derived": [
+    "corridor.min_clear_width",
+    "switchboard.recess_requires_wall_250mm",
+    "switchboard.niche_position",
+    "opening.height_2070",
+    "opening.offset_after_acoustic_layer",
+    "hall.prefer_rectangular",
+    "opening.return_500mm_buys_400mm_storage",
+    "corridor.excess_width_is_stolen_from_rooms"
+  ]
+}

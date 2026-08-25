@@ -1,6 +1,8 @@
 node_modules/
 dist/
-data/
+data/*
+!data/layout_cases/
+!data/layout_rules/
 __pycache__/
 *.pyc
 .env
