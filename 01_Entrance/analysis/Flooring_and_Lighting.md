@@ -1,6 +1,6 @@
-# Entrance & Hallway — Flooring & Lighting
+# Entrance — Flooring & Lighting
 
-Part of [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]].
+Part of [[01_Entrance/Entrance_Guide|Entrance Guide]].
 
 ## Heated Flooring: Usage-Dependent, Not a Default Win
 
@@ -78,8 +78,8 @@ one**: Anuta Vlady notes a mirror on a corridor's *long wall* expands its
 *length* specifically, which can make an already-long hallway feel
 endless — orient/place a mirror to expand width instead if length is
 already the corridor's problem, not its asset. See
-[[01_Entrance/analysis/Layout_and_Zoning|Layout & Zoning]] for the full
-proportion-control context this recommendation sits inside.
+[[02_Hallway/analysis/Layout_and_Zoning|Hallway — Layout & Zoning]] for the
+full proportion-control context this recommendation sits inside.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]; [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]; [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]; [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
 

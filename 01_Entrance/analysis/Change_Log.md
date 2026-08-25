@@ -1,8 +1,22 @@
 # Entrance & Hallway — Change Log
 
-Part of [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]].
+Part of [[01_Entrance/Entrance_Guide|Entrance Guide]] and [[02_Hallway/Hallway_Guide|Hallway Guide]] (shared traceability page for both, split 2026-08-25).
 Editorial history — not reader content.
 
+- **2026-08-25 (later)**: Per explicit user direction ("02_Hallway is
+  still empty"), split the combined `Entrance_and_Hallway_Guide.md` into
+  two real per-room guides matching this vault's usual one-guide-per-
+  room-folder convention: [[01_Entrance/Entrance_Guide|Entrance Guide]]
+  (entryway-specific: storage, flooring/lighting, entrance-side mistakes)
+  and [[02_Hallway/Hallway_Guide|Hallway Guide]] (corridor-specific:
+  layout/proportion-control, wall-finish execution technique,
+  corridor-side mistakes). `Layout_and_Zoning.md` and
+  `Wall_Finish_Technique.md` physically moved from
+  `01_Entrance/analysis/` to `02_Hallway/analysis/` (their content was
+  overwhelmingly about the corridor, not the entryway); `Common_Mistakes.md`
+  was split by content between both folders. This page and `Source_Notes.md`
+  stay shared (pure traceability, not reader content) rather than
+  duplicated.
 - **2026-08-25**: Page created. This sub-topic ("Entrance/Hallway general
   layout & storage") crossed this project's 3+-source page-creation
   threshold during a 10-video trial batch of unvetted channels targeting
@@ -39,8 +53,8 @@ Editorial history — not reader content.
   thin/low-value pass (`YT_c2ifRGBo-q4`, mawavlog18 — confirmed the
   batch's own stated risk of personal-vlog-heavy content, only 1 minor
   unverified fact recorded, not routed to this guide). **Created a new
-  analysis page**: [[01_Entrance/analysis/Wall_Finish_Technique|Wall
-  Finish Technique]] — the full faux-brick-wall method (grid layout,
+  analysis page**: [[02_Hallway/analysis/Wall_Finish_Technique|Wall
+  Finish Technique]] (now under `02_Hallway/`, moved 2026-08-25) — the full faux-brick-wall method (grid layout,
   plaster application, painting/finishing), door-jamb plastering
   technique, and the Spanish source's full plaster/paint sequence.
   Cross-checked the faux-brick episodes (`rmYOxoub5y0`, `dvlxMc4X9_0`,

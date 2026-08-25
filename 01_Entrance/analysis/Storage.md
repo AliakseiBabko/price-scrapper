@@ -1,6 +1,10 @@
-# Entrance & Hallway — Storage
+# Entrance — Storage
 
-Part of [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]].
+Part of [[01_Entrance/Entrance_Guide|Entrance Guide]].
+
+See also [[02_Hallway/analysis/Layout_and_Zoning|Hallway — Layout & Zoning]]
+for Olga Kachanova's real case on sequencing an entry storage/closet zone
+*before* a kitchen or other prep-function zone, not after.
 
 ## The Open-vs-Closed Shoe Storage Disagreement
 

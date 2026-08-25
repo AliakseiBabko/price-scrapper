@@ -1,6 +1,6 @@
 # Entrance & Hallway — Source Notes
 
-Part of [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]].
+Part of [[01_Entrance/Entrance_Guide|Entrance Guide]] and [[02_Hallway/Hallway_Guide|Hallway Guide]] (shared traceability page for both, split 2026-08-25).
 Traceability record — not reader content.
 
 1. `YT_xPxusEh-gow` — INMYROOM TV, "Top 8 Thoughtful Entryways" compilation (8 households, region unresolved). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|Extraction note]]

@@ -1,6 +1,13 @@
-# Entrance & Hallway — Layout & Zoning
+# Hallway — Layout & Zoning
 
-Part of [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]].
+Part of [[02_Hallway/Hallway_Guide|Hallway Guide]].
+
+Moved here from `01_Entrance/analysis/` on 2026-08-25, per explicit user
+direction — this content is overwhelmingly about the corridor/hallway
+zone itself (proportion control, corridor segmentation, replanning),
+not the entryway. See [[01_Entrance/analysis/Storage|Entrance — Storage]]
+for the entry-specific storage-sequencing lesson from Olga Kachanova's
+case referenced below.
 
 ## Real Replanning Cases
 

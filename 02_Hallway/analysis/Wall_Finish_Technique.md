@@ -1,6 +1,10 @@
-# Entrance & Hallway — Wall-Finish Execution Technique
+# Hallway — Wall-Finish Execution Technique
 
-Part of [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]].
+Part of [[02_Hallway/Hallway_Guide|Hallway Guide]].
+
+Moved here from `01_Entrance/analysis/` on 2026-08-25, per explicit user
+direction — every source on this page is a corridor/hallway wall
+project specifically, not an entryway one.
 
 > [!NOTE]
 > New page, added 2026-08-25, once real corridor-execution technique
