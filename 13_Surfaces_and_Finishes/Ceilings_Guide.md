@@ -2,6 +2,8 @@
 
 See [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]] for ceiling impact-noise soundproofing (the floor-vs-ceiling ~400-500% cost asymmetry, the neighbor-floor-negotiation practice, and the stretch-ceiling combined approach) and the general soundproofing decision framework.
 
+See [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]] for embedded-backing sizing under a stretch ceiling, a suspended pre-mount-box alternative, and three distinct techniques for retrofitting a ceiling-hung sliding partition into an already-installed stretch ceiling (added 2026-08-25).
+
 ## L-Shaped / Non-Rectangular Ceiling Sections — per Zemskov/Zemstandart (added 2026-08-10)
 
 > [!NOTE]

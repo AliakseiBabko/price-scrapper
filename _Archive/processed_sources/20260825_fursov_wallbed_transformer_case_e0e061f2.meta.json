@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Gy68fsIdDLY",
+  "video_id": "Gy68fsIdDLY",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T14:12:28.176923+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e0e061f28f904edbd108587ee0a1e5cbab3cefc1072f459427ee952c47a5f1c0",
+  "attempts_before_success": []
+}

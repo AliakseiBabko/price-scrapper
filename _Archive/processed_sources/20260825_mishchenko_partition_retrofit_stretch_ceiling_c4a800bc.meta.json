@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=qcIz2--60Ts",
+  "video_id": "qcIz2--60Ts",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T14:08:54.968452+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c4a800bc3add48a625b24a0ad46434394619812f3f0bcb86850a7c2499e6941f",
+  "attempts_before_success": []
+}

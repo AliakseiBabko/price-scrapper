@@ -183,6 +183,16 @@ caution — not routed to `16_Legal_and_Regulations/`.
 `single-account` per source except where corroboration is noted.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DO67YHV5uAU_gusev_two_rooms_from_one_partitions|YT_DO67YHV5uAU]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mrnTQL0eyBc_studio57_glass_partitions_for_against|YT_mrnTQL0eyBc]]]
 
+> [!NOTE]
+> **Deep-dive companion page (added 2026-08-25)**: for the specific
+> ceiling-hung/no-floor-track sliding glass or MDF partition mechanism
+> (embedded-backing vs. suspended pre-mount-box sizing, three distinct
+> retrofit techniques for an already-installed stretch ceiling, leaf
+> sizing formulas, hardware, and the real "no floor rail" mechanism), see
+> [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]] —
+> this section stays the general zone-divider *type* comparison; that
+> page goes deep on one type's actual hardware/installation detail.
+
 ## Furniture-Placement Verification and Traffic-Flow Swaps (Anuta Vlady, added 2026-08-25)
 
 From a real kitchen-living-room makeover case (wallpaper interior, a

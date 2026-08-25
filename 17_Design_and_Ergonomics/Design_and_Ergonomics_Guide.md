@@ -70,6 +70,20 @@ geometry) cross-referenced with the new `06_Small_Bedroom` guide.
 
 → **[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Full detail]]**
 
+### Sliding Partition Mechanisms (deep-dive companion page, added 2026-08-25)
+
+A dedicated page for the specific **ceiling-hung/no-floor-track sliding
+partition** mechanism — five sources (dver1.ru, Holzberg/Дело в дизайне,
+Kupe-dsgn ×2, Mikhail Mishchenko) covering embedded-backing sizing vs. a
+suspended pre-mount box, three distinct retrofit techniques for adding a
+partition to an already-installed stretch ceiling, the real mechanical
+meaning of "no floor rail" (always one small floor pin, never a
+visible track), leaf sizing formulas, child-safety structural design,
+and a second independent confirmation that sliding partitions provide
+essentially no sound isolation.
+
+→ **[[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Full detail]]**
+
 ## Curtains & Window Treatments
 
 Four independent practitioners so far, converging on light control

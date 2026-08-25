@@ -134,6 +134,16 @@ from a design-studio source — here from a second, independent glazing/
 partition installer actually building the mechanism, not just
 recommending it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JTFhwaKEQAY_mirlay_glass_telescopic_partition|YT_JTFhwaKEQAY]]]
 
+> [!NOTE]
+> **Deep-dive companion page (added 2026-08-25)**: for the specific
+> mechanical detail behind "no floor rail" (there's always exactly one
+> small floor pin, never a visible track), embedded-backing sizing under
+> a stretch ceiling vs. a suspended pre-mount box, three distinct
+> stretch-ceiling retrofit techniques, and leaf-sizing/hardware formulas
+> from five further sources, see
+> [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]] —
+> directly relevant to this household's own Phase 2 partition plan.
+
 ## The Wall-Mounted Transformer/Foldaway Option
 
 Fedotova's own top recommendation for this room type: a wall-mounted
@@ -163,3 +173,13 @@ should weigh directly:
   configuration.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
+
+> [!NOTE]
+> **Wall-bed/Murphy-bed mechanism detail (added 2026-08-25)**: for
+> mechanism selection, reliability findings (a real crack failure mode
+> tied to particleboard thickness and daily use, and a steel-tube-frame
+> alternative), retention-strap design disagreement, and real combined-
+> room placement reasoning from nine further sources, see
+> [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]'
+> new "Wall-Bed / Murphy-Bed Mechanism Selection and Reliability" section
+> — directly relevant to this room's own Phase 2 plan.

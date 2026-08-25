@@ -49,3 +49,15 @@ Editorial history — not reader content.
   4 partial), roughly 35 genuinely new facts (excluding duplicate/
   corroborating-only content), yield approximately 4.4 new facts per
   processed video.
+- **2026-08-25 (second batch, same day)**: `Living_Bedroom_Zoning.md`
+  received two cross-reference notes (no new inline source content) to a
+  15-video targeted batch on ceiling-hung sliding partitions and wall-bed
+  mechanisms, dispatched directly against this household's own Phase 2
+  plan. The full new content lives on
+  [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]]
+  (5 sources, partition mechanism detail) and
+  [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]
+  (9 sources, wall-bed/Murphy-bed mechanism detail) — kept there rather
+  than duplicated here since neither sub-topic is specific to this room
+  alone. See those two pages' own Change Logs for the full source list
+  and round yield.
