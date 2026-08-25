@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=faCzY5kVkss",
+  "video_id": "faCzY5kVkss",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T13:41:25.002025+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c6b07b4a4f48c428475cf2abddd68a9d1e3b5796a2d7ba6bc4f7ec5008a47df7",
+  "attempts_before_success": []
+}

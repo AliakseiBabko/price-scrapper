@@ -2269,6 +2269,12 @@ Alexey Zaharchuk (individual builder, region unresolved — RUB implies Russia, 
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2ZNSYED46LQ_zaharchuk_living_during_renovation|2ZNSYED46LQ]]]
 
+**Second-batch addition (GEOMETRIUM design studio, added 2026-08-25, second search-angle batch)** — a directly relevant, distinct heuristic found in an otherwise-general full-cycle process video:
+
+- **⚠️ Never move in before the renovation is 100% complete, down to minor details — a behavioral/completion-risk argument distinct from Zaharchuk's cost/hygiene/safety case above**: real cited pattern — occupants who move in before finishing minor items (e.g. before ordering/installing a kitchen) reportedly live with that gap for **years**, since an unfinished item stops feeling urgent once the space is already occupied ("it's no longer on fire"). Stated as also **faster** overall to finish everything before move-in than after, since post-move-in work loses momentum. `single-account`, but a concrete, checkable behavioral mechanism complementary to the cost-based argument above.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_tenAKLEOso4_geometrium_dont_move_in_unfinished|tenAKLEOso4]]]
+
 ## Planning Rules — Wet-Zone Expansion Restriction (added 2026-08-25)
 
 Karen Badalyan (individual homeowner, Moscow level 1 — landmark references): per housing-inspectorate ("жилищная инспекция") norms, a wet zone (bathroom/toilet) may only be legally expanded by annexing **non-residential corridor/hallway space** — expansion into the kitchen or into a residential (bedroom/living) zone is categorically prohibited and will not be approved/legalized. `confirmed`, Moscow level 1, a real practical planning constraint for any apartment layout change involving a wet room. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HpCg-xIrOlg_badalyan_1room_apartment_tour|HpCg-xIrOlg]]]

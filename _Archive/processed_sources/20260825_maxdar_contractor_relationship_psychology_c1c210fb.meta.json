@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=exm_kOfNtXk",
+  "video_id": "exm_kOfNtXk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T13:49:46.024368+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c1c210fbc80e4ca872ab55657f2d45e003138863c1180ace48d7bdb52f24d509",
+  "attempts_before_success": []
+}

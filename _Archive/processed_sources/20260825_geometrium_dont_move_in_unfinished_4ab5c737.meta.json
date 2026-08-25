@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=tenAKLEOso4",
+  "video_id": "tenAKLEOso4",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T13:50:44.869172+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4ab5c73790625239fa91e26f9c78a27cd631afaeffa49ee61e11b91849b4d3a2",
+  "attempts_before_success": []
+}
