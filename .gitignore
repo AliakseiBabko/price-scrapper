@@ -4,6 +4,8 @@ data/*
 !data/layout_cases/
 !data/layout_rules/
 !data/deliverable_templates/
+!data/canonical/
+!data/variants/
 __pycache__/
 *.pyc
 .env

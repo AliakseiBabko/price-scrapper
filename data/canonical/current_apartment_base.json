@@ -1,0 +1,764 @@
+{
+  "schema_version": "0.1.0",
+  "spec_id": "current-apartment-base",
+  "name": "ZK Dubravinskiy - current apartment, existing state",
+  "status": "planned_from_visual_sources_not_field_verified",
+  "units": "m",
+  "storey_height_m": 2.8,
+  "default_wall_thickness_m": 0.15,
+  "exterior_wall_thickness_m": 0.25,
+  "slab": {
+    "name": "Current apartment floor seed",
+    "x_m": 0.0,
+    "y_m": -0.15,
+    "width_m": 10.28,
+    "depth_m": 8.56,
+    "thickness_m": 0.12,
+    "z_m": -0.12
+  },
+  "rooms": [
+    {
+      "name": "Living room",
+      "x_m": 6.28,
+      "y_m": 0.6,
+      "width_m": 3.46,
+      "depth_m": 5.63,
+      "area_m2": 19.49,
+      "role": "living",
+      "source": "current detailed plan"
+    },
+    {
+      "name": "Kitchen",
+      "x_m": 6.28,
+      "y_m": 6.23,
+      "width_m": 3.75,
+      "depth_m": 1.4,
+      "area_m2": 5.24,
+      "role": "kitchen",
+      "source": "current detailed plan"
+    },
+    {
+      "name": "Bedroom",
+      "x_m": 3.05,
+      "y_m": 0.6,
+      "width_m": 2.97,
+      "depth_m": 5.68,
+      "area_m2": 16.64,
+      "role": "bedroom",
+      "source": "current detailed plan and comparable plans"
+    },
+    {
+      "name": "Small bedroom",
+      "x_m": 0.15,
+      "y_m": 1.84,
+      "width_m": 2.79,
+      "depth_m": 3.35,
+      "area_m2": 9.36,
+      "role": "kids",
+      "source": "current detailed plan"
+    },
+    {
+      "name": "Bathroom",
+      "x_m": 0.15,
+      "y_m": 5.19,
+      "width_m": 1.8,
+      "depth_m": 1.72,
+      "area_m2": 3.09,
+      "role": "bathroom",
+      "source": "current detailed plan"
+    },
+    {
+      "name": "WC",
+      "x_m": 0.15,
+      "y_m": 6.91,
+      "width_m": 1.14,
+      "depth_m": 1.09,
+      "area_m2": 1.24,
+      "role": "wc",
+      "source": "current detailed plan"
+    },
+    {
+      "name": "Entrance hall",
+      "x_m": 2.0,
+      "y_m": 6.1,
+      "width_m": 4.1,
+      "depth_m": 2.31,
+      "area_m2": 9.79,
+      "role": "entrance",
+      "source": "current detailed plan; depth calibrated from comparable plans"
+    },
+    {
+      "name": "Loggia",
+      "x_m": 0.15,
+      "y_m": 0.0,
+      "width_m": 2.93,
+      "depth_m": 1.84,
+      "area_m2": 6.05,
+      "role": "balcony",
+      "source": "current detailed plan"
+    }
+  ],
+  "walls": [
+    {
+      "name": "North exterior wall",
+      "x_m": 0.0,
+      "y_m": 8.16,
+      "length_m": 10.2,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "exterior"
+    },
+    {
+      "name": "East exterior wall",
+      "x_m": 10.03,
+      "y_m": 0.6,
+      "length_m": 7.81,
+      "horizontal": false,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "exterior"
+    },
+    {
+      "name": "West exterior wall upper",
+      "x_m": 0.0,
+      "y_m": 1.84,
+      "length_m": 6.32,
+      "horizontal": false,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "exterior"
+    },
+    {
+      "name": "West exterior wall loggia",
+      "x_m": 0.0,
+      "y_m": 0.0,
+      "length_m": 1.84,
+      "horizontal": false,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "exterior"
+    },
+    {
+      "name": "South living wall",
+      "x_m": 6.02,
+      "y_m": 0.35,
+      "length_m": 4.01,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "exterior"
+    },
+    {
+      "name": "South bedroom wall",
+      "x_m": 2.94,
+      "y_m": 0.35,
+      "length_m": 3.23,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "exterior"
+    },
+    {
+      "name": "South loggia wall",
+      "x_m": 0.0,
+      "y_m": -0.15,
+      "length_m": 3.08,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "exterior"
+    },
+    {
+      "name": "Small-bedroom east wall",
+      "x_m": 2.94,
+      "y_m": 1.84,
+      "length_m": 3.35,
+      "horizontal": false,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Small-bedroom north wall",
+      "x_m": 0.0,
+      "y_m": 5.19,
+      "length_m": 2.94,
+      "horizontal": true,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Bathroom north wall",
+      "x_m": 0.0,
+      "y_m": 6.91,
+      "length_m": 1.95,
+      "horizontal": true,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Bathroom east wall",
+      "x_m": 1.95,
+      "y_m": 5.19,
+      "length_m": 1.72,
+      "horizontal": false,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "WC east wall",
+      "x_m": 1.29,
+      "y_m": 6.91,
+      "length_m": 1.09,
+      "horizontal": false,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Bedroom west wall",
+      "x_m": 2.94,
+      "y_m": 0.6,
+      "length_m": 5.68,
+      "horizontal": false,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Bedroom east wall",
+      "x_m": 6.02,
+      "y_m": 0.6,
+      "length_m": 5.68,
+      "horizontal": false,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Bedroom north wall",
+      "x_m": 2.94,
+      "y_m": 6.28,
+      "length_m": 3.08,
+      "horizontal": true,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Living west wall",
+      "x_m": 6.02,
+      "y_m": 0.6,
+      "length_m": 7.03,
+      "horizontal": false,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Kitchen-living top partition",
+      "x_m": 6.02,
+      "y_m": 6.23,
+      "length_m": 4.01,
+      "horizontal": true,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "Hall lower wall",
+      "x_m": 1.95,
+      "y_m": 6.1,
+      "length_m": 4.07,
+      "horizontal": true,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    }
+  ],
+  "openings": [
+    {
+      "host_wall": "North exterior wall",
+      "name": "Entrance opening 1010 mm",
+      "x_m": 2.4,
+      "y_m": 8.16,
+      "width_m": 1.01,
+      "horizontal": true,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "Small-bedroom east wall",
+      "name": "Small bedroom doorway",
+      "x_m": 2.94,
+      "y_m": 2.0,
+      "width_m": 0.91,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "Bathroom east wall",
+      "name": "Bathroom doorway",
+      "x_m": 1.95,
+      "y_m": 5.75,
+      "width_m": 0.71,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "WC east wall",
+      "name": "WC doorway",
+      "x_m": 1.29,
+      "y_m": 7.1,
+      "width_m": 0.71,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "Bedroom north wall",
+      "name": "Bedroom doorway",
+      "x_m": 3.35,
+      "y_m": 6.28,
+      "width_m": 0.91,
+      "horizontal": true,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "Living west wall",
+      "name": "Kitchen doorway",
+      "x_m": 6.02,
+      "y_m": 6.35,
+      "width_m": 1.2,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "Kitchen-living top partition",
+      "name": "Kitchen living doorway",
+      "x_m": 8.2,
+      "y_m": 6.23,
+      "width_m": 1.2,
+      "horizontal": true,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "South living wall",
+      "name": "Living room window opening",
+      "x_m": 7.3,
+      "y_m": 0.35,
+      "width_m": 1.8,
+      "horizontal": true,
+      "bottom_m": 1.0,
+      "height_m": 1.1,
+      "kind": "window",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "South bedroom wall",
+      "name": "Bedroom window opening",
+      "x_m": 3.6,
+      "y_m": 0.35,
+      "width_m": 1.8,
+      "horizontal": true,
+      "bottom_m": 1.0,
+      "height_m": 1.1,
+      "kind": "window",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "West exterior wall upper",
+      "name": "Small bedroom window opening",
+      "x_m": 0.0,
+      "y_m": 3.0,
+      "width_m": 1.4,
+      "horizontal": false,
+      "bottom_m": 1.0,
+      "height_m": 1.1,
+      "kind": "window",
+      "phase": "existing"
+    },
+    {
+      "host_wall": "North exterior wall",
+      "name": "Kitchen window opening",
+      "x_m": 7.55,
+      "y_m": 8.16,
+      "width_m": 1.8,
+      "horizontal": true,
+      "bottom_m": 1.0,
+      "height_m": 1.1,
+      "kind": "window",
+      "phase": "existing"
+    }
+  ],
+  "fills": [
+    {
+      "name": "Entrance door probable 910 mm leaf",
+      "x_m": 2.45,
+      "y_m": 8.17,
+      "width_m": 0.91,
+      "depth_m": 0.08,
+      "height_m": 2.1,
+      "rotation_deg": 0.0,
+      "ifc_class": "IfcDoor",
+      "phase": "existing"
+    },
+    {
+      "name": "Small bedroom door",
+      "x_m": 2.94,
+      "y_m": 2.0,
+      "width_m": 0.91,
+      "depth_m": 0.08,
+      "height_m": 2.1,
+      "rotation_deg": 90.0,
+      "ifc_class": "IfcDoor",
+      "phase": "existing"
+    },
+    {
+      "name": "Bathroom door",
+      "x_m": 1.95,
+      "y_m": 5.75,
+      "width_m": 0.71,
+      "depth_m": 0.08,
+      "height_m": 2.1,
+      "rotation_deg": 90.0,
+      "ifc_class": "IfcDoor",
+      "phase": "existing"
+    },
+    {
+      "name": "WC door",
+      "x_m": 1.29,
+      "y_m": 7.1,
+      "width_m": 0.71,
+      "depth_m": 0.08,
+      "height_m": 2.1,
+      "rotation_deg": 90.0,
+      "ifc_class": "IfcDoor",
+      "phase": "existing"
+    },
+    {
+      "name": "Bedroom door",
+      "x_m": 3.35,
+      "y_m": 6.28,
+      "width_m": 0.91,
+      "depth_m": 0.08,
+      "height_m": 2.1,
+      "rotation_deg": 0.0,
+      "ifc_class": "IfcDoor",
+      "phase": "existing"
+    },
+    {
+      "name": "Kitchen doorway",
+      "x_m": 6.02,
+      "y_m": 6.35,
+      "width_m": 1.2,
+      "depth_m": 0.08,
+      "height_m": 2.1,
+      "rotation_deg": 90.0,
+      "ifc_class": "IfcDoor",
+      "phase": "existing"
+    },
+    {
+      "name": "Kitchen living doorway",
+      "x_m": 8.2,
+      "y_m": 6.23,
+      "width_m": 1.2,
+      "depth_m": 0.08,
+      "height_m": 2.1,
+      "rotation_deg": 0.0,
+      "ifc_class": "IfcDoor",
+      "phase": "existing"
+    },
+    {
+      "name": "Living room window",
+      "x_m": 7.3,
+      "y_m": 0.36,
+      "width_m": 1.8,
+      "depth_m": 0.08,
+      "height_m": 1.1,
+      "rotation_deg": 0.0,
+      "ifc_class": "IfcWindow",
+      "phase": "existing"
+    },
+    {
+      "name": "Bedroom window",
+      "x_m": 3.6,
+      "y_m": 0.36,
+      "width_m": 1.8,
+      "depth_m": 0.08,
+      "height_m": 1.1,
+      "rotation_deg": 0.0,
+      "ifc_class": "IfcWindow",
+      "phase": "existing"
+    },
+    {
+      "name": "Small bedroom window",
+      "x_m": 0.02,
+      "y_m": 3.0,
+      "width_m": 1.4,
+      "depth_m": 0.08,
+      "height_m": 1.1,
+      "rotation_deg": 90.0,
+      "ifc_class": "IfcWindow",
+      "phase": "existing"
+    },
+    {
+      "name": "Kitchen window",
+      "x_m": 7.55,
+      "y_m": 8.08,
+      "width_m": 1.8,
+      "depth_m": 0.08,
+      "height_m": 1.1,
+      "rotation_deg": 0.0,
+      "ifc_class": "IfcWindow",
+      "phase": "existing"
+    }
+  ],
+  "space_boundaries": {
+    "North exterior wall": [
+      "Entrance hall",
+      "Kitchen",
+      "WC"
+    ],
+    "East exterior wall": [
+      "Kitchen",
+      "Living room"
+    ],
+    "West exterior wall upper": [
+      "Small bedroom",
+      "Bathroom",
+      "WC"
+    ],
+    "West exterior wall loggia": [
+      "Loggia"
+    ],
+    "South living wall": [
+      "Living room"
+    ],
+    "South bedroom wall": [
+      "Bedroom"
+    ],
+    "South loggia wall": [
+      "Loggia"
+    ],
+    "Small-bedroom east wall": [
+      "Small bedroom",
+      "Bedroom",
+      "Entrance hall"
+    ],
+    "Small-bedroom north wall": [
+      "Small bedroom",
+      "Bathroom"
+    ],
+    "Bathroom north wall": [
+      "Bathroom",
+      "WC"
+    ],
+    "Bathroom east wall": [
+      "Bathroom",
+      "Entrance hall"
+    ],
+    "WC east wall": [
+      "WC",
+      "Entrance hall"
+    ],
+    "Bedroom west wall": [
+      "Bedroom",
+      "Small bedroom",
+      "Loggia"
+    ],
+    "Bedroom east wall": [
+      "Bedroom",
+      "Living room"
+    ],
+    "Bedroom north wall": [
+      "Bedroom",
+      "Entrance hall"
+    ],
+    "Living west wall": [
+      "Living room",
+      "Bedroom",
+      "Entrance hall",
+      "Kitchen"
+    ],
+    "Kitchen-living top partition": [
+      "Kitchen",
+      "Living room",
+      "Entrance hall"
+    ],
+    "Hall lower wall": [
+      "Entrance hall",
+      "Bathroom",
+      "Bedroom"
+    ]
+  },
+  "electrical_plan": {
+    "Entrance hall": [
+      [
+        "bottom",
+        0.75
+      ],
+      [
+        "top",
+        0.65
+      ]
+    ],
+    "Kitchen": [
+      [
+        "top",
+        0.15
+      ],
+      [
+        "right",
+        0.55
+      ]
+    ],
+    "Living room": [
+      [
+        "bottom",
+        0.1
+      ],
+      [
+        "right",
+        0.5
+      ],
+      [
+        "top",
+        0.25
+      ]
+    ],
+    "Bedroom": [
+      [
+        "left",
+        0.7
+      ],
+      [
+        "right",
+        0.65
+      ]
+    ],
+    "Small bedroom": [
+      [
+        "bottom",
+        0.25
+      ],
+      [
+        "right",
+        0.55
+      ]
+    ],
+    "Bathroom": [
+      [
+        "top",
+        0.4
+      ]
+    ],
+    "WC": [
+      [
+        "top",
+        0.4
+      ]
+    ]
+  },
+  "plumbing_plan": [
+    {
+      "name": "Kitchen sink plumbing connection",
+      "room": "Kitchen",
+      "side": "right",
+      "fraction": 0.55,
+      "device_type": "sink_hot_cold_drain_placeholder",
+      "system": "water_and_waste"
+    },
+    {
+      "name": "Bathroom vanity plumbing connection",
+      "room": "Bathroom",
+      "side": "top",
+      "fraction": 0.5,
+      "device_type": "vanity_hot_cold_drain_placeholder",
+      "system": "water_and_waste"
+    },
+    {
+      "name": "WC cistern plumbing connection",
+      "room": "WC",
+      "side": "top",
+      "fraction": 0.5,
+      "device_type": "wc_cistern_water_placeholder",
+      "system": "cold_water_and_waste"
+    }
+  ],
+  "lighting": {
+    "mode": "ceiling_centre_per_room",
+    "exclude_rooms": [
+      "Loggia"
+    ],
+    "z_m": 2.62,
+    "size_m": 0.35,
+    "temperature_k": 3000,
+    "approx_lumens": 550
+  },
+  "finishes": {},
+  "furniture": [],
+  "evidence": {
+    "primary_sources": [
+      "00_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
+      "00_Inbox/_Visual_Drop/floor_plan_basic.jpg"
+    ],
+    "calibration_sources": [
+      "00_Inbox/_Visual_Drop/floor plan_1.jpg",
+      "00_Inbox/_Visual_Drop/floor plan_2.jpg",
+      "00_Inbox/_Visual_Drop/floor plan_3.jpg"
+    ],
+    "cad_underlay": {
+      "source": "00_Inbox/cad/20260727-ZK Dubravinskiy.dwg",
+      "policy": "reference_underlay_not_authoritative_bim_geometry",
+      "intake_summary": "tools/cad/CAD_INTAKE_SUMMARY.md",
+      "observed_dxf_units": "millimetres",
+      "candidate_controls": {
+        "entrance_opening_target_mm": 1010,
+        "nearest_cad_dimension_mm": 1014.671,
+        "probable_door_leaf_target_mm": 910,
+        "door_leaf_exact_matches_found": true,
+        "entrance_hall_depth_target_mm": 2310,
+        "nearest_cad_dimension_mm_for_hall_depth": 2308.734
+      }
+    },
+    "entrance_opening_mm": 1010,
+    "probable_door_leaf_mm": 910,
+    "hall_depth_scenarios_m": [
+      2.28,
+      2.31,
+      2.33
+    ],
+    "nominal_hall_depth_m": 2.31,
+    "geometry_status": "planned_from_visual_sources_not_field_verified",
+    "model_limitations": [
+      "irregular loggia facade simplified",
+      "some service shaft and column details approximated",
+      "room polygons represented with rectangular spaces for first seed",
+      "final millimetre dimensions require site measurement"
+    ]
+  }
+}

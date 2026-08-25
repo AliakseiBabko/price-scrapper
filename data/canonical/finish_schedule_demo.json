@@ -1,0 +1,32 @@
+{
+  "Living room": {
+    "trade": "Painter",
+    "material": "Primer and washable acrylic paint",
+    "unit_rate_byn_m2": 18.5
+  },
+  "Bedroom": {
+    "trade": "Painter",
+    "material": "Primer and washable acrylic paint",
+    "unit_rate_byn_m2": 18.5
+  },
+  "Kitchen": {
+    "trade": "Painter",
+    "material": "Moisture-resistant latex paint",
+    "unit_rate_byn_m2": 22.0
+  },
+  "Bathroom": {
+    "trade": "Tiler",
+    "material": "Waterproofing and ceramic tile",
+    "unit_rate_byn_m2": 45.0
+  },
+  "WC": {
+    "trade": "Tiler",
+    "material": "Waterproofing and ceramic tile",
+    "unit_rate_byn_m2": 45.0
+  },
+  "Entrance hall": {
+    "trade": "Plasterer",
+    "material": "Decorative mineral plaster",
+    "unit_rate_byn_m2": 32.0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1.0",
+  "project_name": "Residential renovation IFC PoC",
+  "storey_name": "Apartment level",
+  "units": "m",
+  "provenance": {
+    "source_id": "cad_20260727_2e87f270",
+    "source_file": "00_Inbox/cad/20260727-ZK Dubravinskiy.dwg",
+    "source_hash_sha256": "2e87f2703262be9e3d9062b4c5e986e9823a49ddd59d580bd8a96010e6906892",
+    "geometry_status": "illustrative",
+    "unit_status": "pending"
+  },
+  "room_dimensions": {
+    "length": 5.0,
+    "width": 4.0,
+    "height": 2.7,
+    "wall_thickness": 0.2
+  },
+  "door_opening": {
+    "wall_index": 0,
+    "offset_from_corner": 1.5,
+    "width": 0.9,
+    "height": 2.1
+  }
+}

@@ -148,12 +148,18 @@ That is roughly four working blocks before the album is complete in draft form,
 with a usable contractor-facing subset (demolition + partitions + floors) after
 step 3.
 
-## Two things to decide before starting
+## Both opening questions are now decided (2026-08-26)
 
-- **Does the model represent one variant or several?** The layout dataset holds
-  variants; the IFC currently holds one state. Replaying a variant's moves onto
-  the model (cap2) is what would let you compare options as drawings rather than
-  as JSON — worth deciding now, because it changes how phase is stored.
-- **Where do finish and furniture selections live?** They exist as prose across
-  `13_Surfaces_and_Finishes/`, `14_Furniture/`, `15_Appliances/`. cap4 and cap5
-  need them as data with a room binding; that is a small schema of its own.
+- **Several variants, compared as drawings.** Decided by the user. Implemented:
+  the seed geometry moved out of the script into
+  [`data/canonical/current_apartment_base.json`](../data/canonical/current_apartment_base.json),
+  `tools/ifc/model_from_spec.py` interprets it (verified to reproduce the seed
+  element for element), a variant is a patch of typed operations in
+  `data/variants/`, and `tools/layout/compare_variants.py` draws them side by
+  side on one A3 sheet with metrics and rule checks. cap2 is therefore partly
+  done: phase exists on every wall, opening and fill.
+- **Finishes and furniture** — decided in
+  [Finishes_and_Furniture_Data_Model.md](Finishes_and_Furniture_Data_Model.md):
+  a product catalogue (what a thing is, with its price), placements inside each
+  variant (where furniture goes), and a per-room finish schedule (surface
+  properties). Layers are generated at drawing time, not stored.

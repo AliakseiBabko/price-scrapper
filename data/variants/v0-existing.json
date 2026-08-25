@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "v0-existing",
+  "name": "Вариант 0 - существующее состояние (без изменений)",
+  "base_spec": "data/canonical/current_apartment_base.json",
+  "status": "baseline",
+  "concept": "Исходная планировка как есть. Нужна как база сравнения: любой другой вариант читается как разница с ней.",
+  "authored_by": "price-scrapper project",
+  "operations": []
+}

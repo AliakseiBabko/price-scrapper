@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.3.0",
+  "project_name": "Residential renovation provisional planning model",
+  "model_status": "planned_not_as_built",
+  "source_hierarchy": {
+    "current_primary": "00_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
+    "current_cross_check": "00_Inbox/_Visual_Drop/floor_plan_basic.jpg",
+    "reference_plans": [
+      "00_Inbox/_Visual_Drop/floor plan_1.jpg",
+      "00_Inbox/_Visual_Drop/floor plan_2.jpg",
+      "00_Inbox/_Visual_Drop/floor plan_3.jpg"
+    ],
+    "cad_source": "00_Inbox/cad/20260727-ZK Dubravinskiy.dwg"
+  },
+  "units": "m",
+  "control_geometry": {
+    "entrance_opening_m": 1.01,
+    "probable_door_leaf_m": 0.91,
+    "entrance_hall_depth_m": {"nominal": 2.31, "scenarios": [2.28, 2.33]}
+  },
+  "area_scenarios_m2": {
+    "detailed_plan": 69.09,
+    "basic_plan": 69.44,
+    "difference": 0.35
+  },
+  "room_area_labels_m2": {
+    "living_group_total": 45.49,
+    "hall": 9.79,
+    "kitchen": 5.24,
+    "bathroom": 3.09,
+    "wc": 1.24,
+    "loggia_included_area": 4.24,
+    "loggia_outer_label": 6.05
+  },
+  "geometry_policy": "Use current detailed plan topology and nominal values; keep uncertainty scenarios; replace with field measurements later.",
+  "qto_status": "provisional_not_for_procurement"
+}

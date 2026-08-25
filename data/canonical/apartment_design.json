@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.2.0",
+  "project_name": "Residential renovation design PoC",
+  "geometry_status": "illustrative",
+  "unit_status": "pending",
+  "rooms": [
+    {"room_id": "living", "name": "Living room", "length_m": 5.0, "width_m": 4.0, "height_m": 2.7},
+    {"room_id": "bedroom", "name": "Bedroom", "length_m": 4.0, "width_m": 3.2, "height_m": 2.7}
+  ],
+  "furniture": [
+    {"item_id": "wardrobe-bedroom-01", "room_id": "bedroom", "type": "built_in_wardrobe", "x_m": 0.2, "y_m": 0.2, "width_m": 2.4, "depth_m": 0.6, "height_m": 2.4, "verified_dimensions": false}
+  ],
+  "mep": {
+    "electrical": [{"id": "socket-living-01", "room_id": "living", "type": "socket", "x_m": 1.0, "y_m": 0.2, "height_m": 0.3}],
+    "plumbing": [],
+    "hvac": []
+  },
+  "lighting_scenarios": [
+    {"scenario_id": "living-evening", "room_id": "living", "target_lux": 150, "fixture_count": 4, "fixture_lumens": 800, "dimming": 0.5, "temperature_k": 3000, "status": "visual_estimate_not_lux_validated"},
+    {"scenario_id": "living-work", "room_id": "living", "target_lux": 300, "fixture_count": 6, "fixture_lumens": 1000, "dimming": 0.8, "temperature_k": 4000, "status": "visual_estimate_not_lux_validated"}
+  ],
+  "procurement_items": []
+}
