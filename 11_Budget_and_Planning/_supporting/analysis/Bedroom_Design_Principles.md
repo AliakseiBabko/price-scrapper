@@ -17,6 +17,231 @@ Per explicit user direction (2026-08-20), this project's adult sleeping arrangem
 
 **Practical implication for every rule below**: read "the bedroom" as "whichever space is functioning as the adults' bedroom in the phase being planned," not as a specific numbered room. **Most of the 12-item sequence below assumes a conventional bed occupying fixed floor space in a full four-wall room — Phase 2's fold-away wall-bed transformer changes several of these assumptions materially**: there's no fixed "bed center point," no permanent bedside-nightstand footprint (unless the nightstands are also part of the transformer unit or wall-mounted separately), and clearance/curtain-zone/false-wall steps need to be re-derived around the transformer unit's own footprint and swing/fold path, not a static bed position. Don't assume the sequence transfers unchanged to Phase 2 — flag this explicitly when that phase is actually designed, and look specifically for wall-bed/Murphy-bed design guidance (clearance for the bed's fold path, mattress thickness vs. cabinet depth, what can/can't be stored on or near a wall-bed) rather than assuming the standard sequence's bed-placement formula (step 6) applies as-is.
 
+## Bedroom Typology (source: `AcibYG4jtbs`, Architect Vitaly Zlobin)
+
+A private-house architect's own working typology for structuring a
+house's bedroom hierarchy — a useful vocabulary/mental model even though
+this project's own plan is an apartment, not a house: **master bedroom**
+(the owners' own room, highest comfort tier, ideally with its own ensuite
+and dressing room), **"просто спальня"/ordinary bedroom** (belongs to
+other household members, more occupant turnover over the house's
+lifetime, lower comfort tier by default), **children's bedroom** (its own
+separate topic), and **guest bedroom** — explicitly framed as
+**multifunctional**, not permanently occupied, and "sometimes becomes a
+home office." A **"suite bedroom"** (hospitality terminology) is a
+distinct, more premium concept: it adds a genuinely separate living-room-
+like space (sofa, sometimes a mini-kitchen) to the bedroom, functioning as
+a self-contained mini-apartment — distinguished from a master bedroom by
+this extra room, not just extra square footage.
+
+## Proportions, Window Sizing, and Zoning Theory (source: `AcibYG4jtbs`, Architect Vitaly Zlobin)
+
+**Two workable bedroom proportions**: a **square room** works well with a
+king-size bed (its ~2m×2m footprint is itself roughly square) and reads
+best at larger sizes — at smaller sizes a square room risks dark alcoves
+unless it's wide enough for three windows on one wall. A **rectangle with
+a mild ~3:4 aspect ratio** (close to, though not exactly, the golden
+ratio) is the recommended general-purpose default for an average bedroom.
+**Window placement on an elongated room matters more than proportion
+alone**: windows along the room's *long* wall let the light-front cover
+nearly the whole room; windows on a short end wall leave half the room
+permanently dark — orient windows to the room's longest interior wall
+when facade rhythm and interior comfort conflict.
+
+**A traditional-architecture window-height formula, new to this store**:
+set the sill at 0.9m above floor, then draw a line at 30° from the room's
+far bottom corner toward the window wall — where that line crosses the
+window's vertical plane sets the window's top edge (a 4m-deep room yields
+roughly a 1.5m-tall window this way). The architect recommends not
+deviating from this centuries-tested proportion for a standard house.
+
+**Functional zoning checklist for a modern bedroom**: bed zone, TV zone,
+wardrobe/dressing zone, own ensuite bathroom, and a soft/lounge zone
+(ideally two armchairs + a coffee table) for dressing, reading, or device
+use away from the bed. Historically (18th-19th century Georgian-era
+architecture), a fireplace zone filled this role instead — a single pair
+of chimney flues could heat up to 16 bedrooms across two floors via
+distributed routing, visible today as unusually tall Georgian-era
+chimneys — obsolete once central heating arrived, but genuinely new
+context for this store.
+
+**Door swing**: recommends bedroom doors swing **inward**, corroborating
+the 12-item sequence below independently — reasoning here is distinct:
+two adjacent bedroom doors both swinging outward into a shared hallway
+need roughly 1.85m of corridor width to avoid interfering with each
+other's swing arc; inward swing avoids this and allows a narrower
+corridor (client preference varies, so this is a recommendation, not an
+absolute).
+
+**Bed-to-window placement**: ideally the light source isn't behind/at the
+bed's headboard; if the window must be to the bed's side instead, minimum
+clearance from the bed to that side wall is **800mm, reducible to 700mm**
+if space genuinely doesn't allow more — a related but distinct figure
+from the 12-item sequence's own 50-60cm general walkway-clearance rule
+below.
+
+**Master-bedroom wardrobe/ensuite split**: a single partition typically
+creates two doors side by side — one to the wardrobe, one (also
+recommended inward-swinging) to the ensuite, with sink access preferred
+immediately on entry, toilet along a far wall, and bathtub/shower kept
+separate. **⚠️ A concrete ensuite-placement soundproofing rule, new to
+this store**: never place bathroom plumbing fixtures against a thin
+partition (120mm brick or 100mm gypsum-block) shared with an adjacent
+bedroom — route noisy fixtures against a load-bearing 380mm brick wall
+instead where two ensuite bedrooms are adjacent, which also carries
+utility routing more cleanly. See
+[[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]] for
+this project's other partition-thickness-vs-noise findings. For the bed
+itself, push it close to the window to free the entry-side zone for
+either a desk (daylight over the left shoulder for a right-handed
+occupant, reversed for a left-handed client — the same rule this store
+already has for kids'-room desks, now corroborated for an adult bedroom)
+or a soft lounge zone. In a long/elongated master bedroom, a
+non-structural drywall partition box can both mount the TV and split the
+room's two windows between a "public" (TV/lounge) zone and a "private"
+(sleep) zone. **⚠️ King-bed buying-margin tip (source: `uJ6l8t5TpwY`)**:
+when specifying a nominal 2m×2m king-size bed, buy larger — around
+**2.2m×2.2m** — since most king-size frames include raised side rails/
+borders that eat into the actual usable sleeping surface. The same
+source also records a deliberately **unfurnished "gathering" buffer zone
+just inside the master bedroom's entry** as a real functional choice (a
+spot for household members to gather before heading out), and a nuance
+to the wardrobe/bathroom door-configuration warning above: a
+**symmetrically-placed** two-separate-door layout (one to the wardrobe,
+one to the bathroom) is presented as an equally workable alternative to
+the single-pass-through route, provided the two doors are positioned to
+preserve the room's visual balance — the earlier warning's real target
+appears to be an asymmetric, poorly-placed two-door configuration
+specifically, not any two-door layout.
+
+**Suite-bedroom layout** (see typology above): a typical elongated suite
+divides into an entry mini-living-room zone (TV, sofa, maybe a small work
+area), a short connecting corridor with the ensuite along one side, and
+the large bedroom zone itself. A double sink is described as the
+**absolute minimum** standard for a master/suite-tier ensuite — ideally
+also both a bathtub AND a separate shower cabin for choice, plus toilet
+and bidet. The dressing area in this configuration is often
+P-shaped/U-shaped, positioned as the connecting element to the bathroom.
+
+**⚠️ Three bad/mistake layout patterns, all new to this store**: (1) a
+wardrobe with two side-by-side doors directly connecting bedroom to
+bathroom is "wildly inconvenient" in the architect's direct real-world
+experience — prefer making the wardrobe itself the pass-through space to
+the bathroom (one continuous route) instead of two separate doors off the
+bedroom, or use only one wardrobe (not two) if that's not possible; (2) a
+windowless, spotlight-only wardrobe zone spanning the room's full depth
+creates an awkward dark band visible on the building's own facade — plan
+the wardrobe as its own separate room instead, even if windowless by
+design; (3) squeezing a sliding wardrobe directly beside the entry door in
+a small bedroom can leave as little as 0.4-0.5m clearance — looks
+acceptable on a floor plan, genuinely uncomfortable in reality; in new
+construction, recessing/building the wardrobe into the wall recovers
+roughly 70-80cm versus a surface-mounted unit — general takeaway: avoid a
+wardrobe immediately beside the bed itself when avoidable.
+
+Full detail in the
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcibYG4jtbs_zlobin_bedroom_layout_part1_theory|source extraction note]].
+
+**Worked-example follow-up (source: `lA7RJiDJLkQ`, same architect, practice video)** —
+house-specific layout detail deliberately filtered out per this batch's
+generalization instruction; what generalizes: **avoid L-shaped/curvilinear
+room geometry entirely** ("wildly inconvenient" for both furniture
+placement and later interior design — every designer knows non-rectangular
+rooms are a known pain point); a **door-to-partition-corner offset** of at
+least the door casing's own width (60-70mm), defaulting to ~100mm in this
+architect's own practice or 120mm "by the book" (a brick-module multiple);
+**this video directly corroborates the walk-through-wardrobe-to-bathroom
+fix above** — praised here explicitly as "no less good" than a separately-
+entered wardrobe, with added reasoning (fewer doors preserve wall length
+for furniture/art; a single centered door reads as more visually
+symmetric); a **client-communication caution** worth its own note — show a
+client a large bed/sofa's true footprint honestly early, since furniture
+that looks proportional in a huge showroom looks oversized once placed in
+an actual 15-18m² bedroom; a **built-in-furniture consolidation**
+principle (still under-used in Russia per the architect, but reduces door/
+clutter count by combining TV zone + storage into one wall-length block);
+and a **don't-add-an-unjustified-fixture** heuristic (a guest shower cabin
+without an actual guest room isn't justified — better to enlarge the main
+bathroom instead). **⚠️ A genuine, unresolved lighting-convention
+disagreement, new to this store**: this video names an **older Soviet
+building-standard convention calling for natural light from the right**
+side for a desk, directly at odds with the "classic"
+left-daylight-for-right-handed rule already on this page (from
+`AcibYG4jtbs` above and this store's independent kids'-room desk rule) —
+recorded as an open disagreement between two named conventions, not a
+correction. Full detail in the
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lA7RJiDJLkQ_zlobin_bedroom_layout_part2_practice_10x10house|source extraction note]].
+
+## Guest Room — Multifunctional-Use Planning Framework (source: `h_o3RrQ9z40`, Architect Vitaly Zlobin)
+
+**⚠️ No dedicated Guest Room page exists yet in this vault** — this
+content is recorded here for now (1 source, below this store's 3+-source
+page-creation threshold; flagged in `Pending_Wiki_Page_Decisions.md`).
+Directly relevant to this project's own guest/study-room concept.
+
+The architect frames guest-room design around **three future-resale
+design principles** (functionality as a whole, clarity/simplicity, and
+following established world-standard comfort conventions), whose
+practical consequence is that roughly half a house's rooms — guest rooms
+and kids' rooms named as the clearest examples — need multifunctional
+planning to stay useful to a future owner 5-15 years out, not just the
+current one.
+
+**A named common mistake**: pairing a small single bed with a
+disproportionately large guest-room footprint — the two choices
+contradict each other. **Fix**: a **fold-out sofa-bed** instead of a
+fixed bed (converts between single/double capacity, wears less under
+occasional use, avoids an oversized permanent bed frame), sized to
+**10-11m² typically sufficient, 12m² the practical maximum** — beyond
+that is unjustified for this room's function. Location rules: ground
+floor only (house-specific, doesn't transfer to an apartment), as close
+as possible to a guest bathroom that includes a shower, near the house's
+own exit (not routed through the living room or kitchen), and preferably
+not north-facing.
+
+**⚠️ The core reusable framework — four future-use scenarios to plan
+against, not just the room's current use**: (1) **stays a guest room** —
+minimal furniture (sofa-bed, wall shelving, small wardrobe), no lounge
+zone; (2) **guest room ↔ home office/workshop** — a very common real
+scenario; provision water/ventilation or extra electrical capacity at
+design time if anticipated, keep the sofa (movable to a different wall)
+so the room still receives guests, desk near the window for side
+daylight, wardrobe converts to document storage or a small safe room —
+**directly relevant to this project's own guest/study room concept**;
+(3) **guest room ↔ a future elderly-parents' bedroom or the owners' own
+future downstairs bedroom** (aging-in-place) — the one scenario that must
+be planned larger and more completely from the start (full double bed,
+full furniture complement, and a full private ensuite if the guest WC
+isn't genuinely close by), since it can't be cheaply retrofitted later —
+a concrete instance of this page's existing future-flexible-planning
+principle, generalized beyond the Murphy-bed case; (4) **guest room ↔
+staff quarters** — large-property-only, least common.
+
+**Priority framing**: a guest room is "not that critical" by default
+since guests visit infrequently, but a known long-staying visit
+(a named example: an extended relative stay) justifies a deliberate
+upgrade — a small wardrobe, a dedicated ensuite if budget allows, or at
+minimum keeping the room clear of other traffic flows with good lighting
+and comfortable furnishing.
+
+Full detail in the
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_h_o3RrQ9z40_zlobin_guest_room_theory_multifunctional|source extraction note]].
+
+**Worked-example follow-up (source: `uJ6l8t5TpwY`, same architect,
+practice video)** — house-specific layout filtered out per this batch's
+generalization instruction; what generalizes: **directly corroborates
+the guest room's shortest-path-to-bathroom/exit rules** in a real worked
+plan, and shows the guest↔office conversion concretely (sofa relocates to
+entry as reception seating, desk at the window with left daylight,
+wardrobe converts to a document archive). **⚠️ Names a reusable planning
+concept, "traffic-flow crossing" ("пересечение потоков")** — the
+undesirable overlap between two groups of people who shouldn't
+unexpectedly meet (a home-office client and the household's own family,
+a stair exit dumping into a room where guests are present) — route
+circulation through neutral zones to avoid this, directly applicable to
+this project's own guest/study-room concept. Full detail in the
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uJ6l8t5TpwY_zlobin_guest_kids_practice_11x9house|source extraction note]].
+
 ## The 12-Item Design Sequence (source: `hVFmcw1H2Rk`, #314)
 
 **Core methodology: place bedroom elements in a specific priority order, each one locking in real dimensions the next step depends on** — structural/fixed elements first, furniture next, decor/electrical-detail last. Full detail and reasoning in the [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hVFmcw1H2Rk_bedroom_design_sequence_masterclass_314|source extraction note]]; summarized here:
@@ -407,6 +632,9 @@ sources are excluded as branded promotion. [source: [[11_Budget_and_Planning/_su
 
 ## Change Log
 
+- 2026-08-25 — Added "Guest Room — Multifunctional-Use Planning Framework" section from `h_o3RrQ9z40` (Architect Vitaly Zlobin, same paired theory+practice series, guest-room-theory half of a combined guest+kids' rooms episode). New content: a three-principle future-resale design philosophy, a named guest-room sizing mistake and fix (sofa-bed over fixed bed), location rules, and — the core reusable framework — four future-use scenarios (stays guest room / guest↔office-workshop / guest↔future full bedroom / guest↔staff quarters) with concrete infrastructure implications for each. Directly relevant to this project's own guest/study-room concept (scenario 2). No dedicated Guest Room page exists yet — flagged in `Pending_Wiki_Page_Decisions.md`, 1 source, below the 3+-source threshold.
+- 2026-08-25 — Added a worked-example follow-up paragraph from `lA7RJiDJLkQ` (same architect/channel, Part 2 practice video of the same series, a specific 9.5×9.5m private-house floor plan) to the section below — per this batch's explicit generalization instruction, the house-specific layout itself was filtered out; only generalizable principle was kept: an explicit avoid-L-shaped-rooms warning, a door-to-partition offset figure, a direct corroboration (with added reasoning) of the walk-through-wardrobe-to-bathroom fix, a showroom-furniture-scale client-communication caution, a built-in-furniture-consolidation principle, an unjustified-fixture heuristic, and a genuine unresolved disagreement between the "classic" left-daylight convention and an older Soviet right-daylight building-standard convention.
+- 2026-08-25 — Added "Bedroom Typology" and "Proportions, Window Sizing, and Zoning Theory" sections from `AcibYG4jtbs` (Architect Vitaly Zlobin, private-house theory video, part of a 6-video paired theory+practice architect series). New content: the master/ordinary/children's/guest/suite bedroom typology, the two-proportion (square vs. ~3:4 rectangle) rule with elongated-room window-placement logic, a traditional-architecture window-height sizing formula, a functional-zoning checklist with a Georgian-era fireplace historical aside, an ensuite-plumbing-noise placement rule (also cross-linked to `12_Engineering_and_Systems/analysis/Soundproofing.md`), and three flagged bad-layout patterns (pass-through wardrobe-to-bathroom, windowless full-depth wardrobe zone, tight-squeeze entry wardrobe). Corroborates (independently) this page's existing door-swing-inward rule and left-daylight-for-desk rule. Context caveat: source is private-house-scoped (not apartment) — house-specific examples (Georgian chimneys, 1000m²+ houses, suite-bedroom hospitality framing) noted as context, not directly applicable to this project's own apartment plan; the underlying proportion/lighting/zoning reasoning generalizes.
 - 2026-08-25 — Added "Wall-Bed / Murphy-Bed Mechanism Selection and Reliability" section from a targeted 9-video batch on ceiling-hung sliding partitions and wall-bed mechanisms (dispatched directly against this project's own Phase 2 household plan; the partition side of the same batch is on [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]]). Sources: ФурнитураДВ ×2 (`9jDv0Iibbfw` real cross-installation crack-reliability finding tied to ДСП thickness and daily use; `vFd4E6F6Z3Q` a 2.5-year daily-use MDF counter-example), Фурнитека (`viWTUee1PUY` mechanism taxonomy, wall anti-tip anchoring), KalibroomTV (`ldTVukHRIR0` gas-strut selection checklist, underbed-lift device), ARMOS (`gUY1BE4b_eA`, mostly branded promotion, narrow structural facts extracted), FREE_DOM (`wfmIOYsE2Hs` real placement reasoning around shift-work schedules, no-strap design choice), Мебель Константина Фурсова (`Gy68fsIdDLY` the richest single source — steel-tube-frame reliability claim, planning-sequence mistake, thick-mattress workaround), and Progress Design (`4xZ-9vlXV7Y` corner-sofa-to-bed spousal compromise, a child-engagement/self-tidying behavioral finding tied to button-operated mechanisms; a companion 28-second Progress Design short, `tRv7QSUoqpg`, had no substantive spoken content and was skipped). Two independent manufacturers disagree on mattress-retention straps — recorded as an open question, not resolved.
 - 2026-08-25 — **A second, separate 8-video Anuta Vlady batch** (targeting `06_Small_Bedroom` specifically, distinct from the earlier same-day 8-video batch below) crossed the 3+-source threshold for a dedicated Small Bedroom / Study page. That content (space recovery, proportion correction for small/narrow/irregular rooms, tight-clearance furniture sizing, and small-bedroom decor/color/lighting technique, including the two dual-purpose/tiny-room sources previously summarized only in the intermediate store) now lives on [[06_Small_Bedroom/Small_Bedroom_Guide|Small Bedroom Guide]] instead of this page — this page keeps only genuinely size-agnostic bedroom-layout content. See that new page's own Change Log for the full routing reasoning and source list.
 - 2026-08-25 — Same targeted 8-video Small Bedroom batch, remaining 7 sources: added a companion-video section (`BFbNL-DjDh4`, window trickle-vent, master en-suite bathroom, flagged bedside-outlet contradiction); a sliding-partition zoning precedent directly relevant to this page's own Phase 2 plan (`HGN_3WeL0Jk`); a master-bedroom WC-via-closet zoning rule and drywall-partition-rework cost lesson (`gWAOrislxFY`); a bedroom-vs-closet floor-area tradeoff, U-shape closet clearance formula, and door-sill soundproofing gasket (`U95vMOOhKH8`); a standard-vs-premium cost benchmark for an identical room (`L0kI_PZKvmQ`); and a real windowless-bedroom repartitioning fix (`1_nKzwNZD6w`). A companion frameless-soundproofing technique source (`CVqedVQlZZU`) was routed to `12_Engineering_and_Systems/analysis/Soundproofing.md` instead of this page.

@@ -14,6 +14,12 @@ Zemstandart / Alexey Zemskov supports the mapped door-reveal and mount-type clai
 
 **Sliding-door mechanism detail, restated more strongly (added 2026-08-24, Round 4)**: a second, independent instance of this same channel calls choosing a sliding bathroom door a "fatal mistake" — the concrete mechanism given is that a sliding door mounts *only* on two top-mounted rails and carries **no gasket/seal at all**, versus a quality hinged door's three seals. Framed against the room's own need for acoustic privacy ("санузел — интимная зона"), a sliding door's convenience isn't worth trading away sound isolation for. `single-account` (same channel restating its own existing position), `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZlvJE-ncrK8_kruglov_bathroom_dont_save|YT_ZlvJE-ncrK8]]]
 
+## Door-Swing Direction (added 2026-08-25)
+
+Архитектор Виталий Злобин (independent architect, own channel, country-house practice, `single-account`, region unresolved) gives a general spatial-efficiency rule for which way a bathroom/WC door should swing:
+
+**A door should open from the smaller room into the larger adjoining space, not the reverse** — a small guest WC/bathroom door swings out into a larger hall/corridor rather than inward into the cramped room itself, since the larger room can absorb the swing arc without conflicting with fixtures while the smaller room usually can't. Stated as the architect's own honest default (in response to viewer questions about why doors are drawn opening inward in some of his other layouts) — a general room-pairing principle, not a fixed always-outward rule. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uG1p1j9iAZ4_zlobin_wc_bath_practice_pt2|uG1p1j9iAZ4]]]
+
 ## Appliance-Clearance and Reveal Rules
 
 This legacy door-clearance section does not expose a decisive extraction-note `channel:` field.

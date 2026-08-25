@@ -3,6 +3,7 @@
 Part of [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]].
 Editorial history — not reader content.
 
+- **2026-08-25** (later same day, second addition): Processed `YT_AofVi5k45ps` (Architect Vitaly Zlobin, part of a 6-video paired theory+practice bedroom/guest/kids-room series) — cross-checked against the existing RemPlanner age-band content first. Added genuinely new detail (not overlap) to `Age_Staged_Planning.md`: preschool south-facing-orientation and sharp-corner cautions, a kid-scaled wardrobe sizing figure, a perimeter/built-in-furniture layout principle, a bed-placement conflict rule, a third independent corroboration of the hand-shadow desk rule, a 9-10m² four-zone compact-room template, and a blinds-over-curtains caution (flagged `inferred`, reasoning not stated by the source). Added a new "Two-Child Same-Age Shared Room" section to `Zoning_and_Partition_Methods.md` — a family-dynamics-driven equal-treatment furniture rule, two concrete room-shape layouts, and a future-resale room-sizing strategy that independently corroborates this project's own Phase 1→Phase 2 kids'-room-split reasoning. Source is private-house-scoped (not apartment) — house-specific framing (parent-adjacency-via-bathroom layout) noted as context only.
 - **2026-08-25** (later same day): Added a forward-looking "A Real
   14-Year-Old's Room, Redesigned to Grow Into Early Adulthood" case
   (`YT_ZlkBfwlhYFU`, Case 2, Anuta Vlady) to `Age_Staged_Planning.md`'s

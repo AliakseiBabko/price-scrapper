@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=AofVi5k45ps",
+  "video_id": "AofVi5k45ps",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T15:02:35.119382+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "83b6aa23548e228912e9fd0482210c40f2730554c7700c868d232e91891fb887",
+  "attempts_before_success": []
+}

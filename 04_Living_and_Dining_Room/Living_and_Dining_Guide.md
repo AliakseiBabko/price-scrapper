@@ -101,24 +101,35 @@ and transformer construction/safety detail)
 
 ## General Living-Room Layout & Furniture Arrangement
 
-A single source so far (500LUX, hosting guest designer Marina Zvereva) —
-treat this section as thinner-evidence than the two above until more
-sources accumulate. Core rules: define the room's purpose (rest,
-entertainment, work, socializing) before placing furniture; establish one
-central focal point (fireplace, TV, dining table, or even a window view)
-and arrange furniture to draw attention there without blocking it;
-organize around the soft-seating zone without blocking walkways; match
-furniture scale to the actual room size. The same source's real applied
-example uses **two separate rugs to independently zone a dining area and
-a living/sofa area within one combined room, with no physical partition
-at all** — rugs are a genuine zoning tool on their own, not just
-decoration, and furniture ideally shouldn't sit fully on a rug (leave a
-clearance gap). A practical planning caution for anyone likely to
-rearrange furniture periodically: plan only the basic general-lighting
-layer at construction time, since fixed wiring/outlet positions won't
-move with the furniture later.
+Two sources now: a real applied example (500LUX/Marina Zvereva — purpose-
+first planning, rug-based zoning without a physical partition) plus a
+dense architect theory lecture (Vitaly Zlobin, added 2026-08-25) covering
+room-size minimums, a 7-zone functional taxonomy, five named furniture-
+arrangement patterns with real clearance/sizing figures, doorway sizing,
+TV-placement rules, and fireplace-zone reasoning.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gEykawbVyYQ_500lux_zvereva_top10_living_room_layout|YT_gEykawbVyYQ]]]
+→ **[[04_Living_and_Dining_Room/analysis/Living_Room_Layout_and_Furniture_Sizing|Full detail]]**
+(all sizing figures, the arrangement-pattern taxonomy, and the glazing/
+heating interaction)
+
+## Dining Table Sizing & Zoning
+
+A dense single-source theory lecture (Architect Vitaly Zlobin) gives this
+page's first real furniture-dimension detail for the dining table itself
+— per-person footprint (60×40cm), a worked table-width derivation
+(100cm minimum, 110cm recommended), an 8-person default sizing (190×
+110-120cm), round-table diameters with a formula, and two clearance tiers
+(60cm general, 90-100cm on the serving side). It also contributes a
+reusable open-plan zoning framework: the dining table as the actual
+divider between kitchen and living sub-zones, a shelving-unit visual
+screen technique flagged by the source itself as closer to apartment
+scale than house scale, and a floor-area tradeoff argument for staying
+open-plan (shared clearance buffers) versus enclosing the dining zone
+later.
+
+→ **[[04_Living_and_Dining_Room/analysis/Dining_Table_Sizing_and_Zoning|Full detail]]**
+(all figures, the round-table formula, and the kitchen-island/breakfast-
+bar distinction from the formal dining table)
 
 ## Room-Zoning Partition Methods (Cross-Reference)
 

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=DcWsQMiMcak",
+  "video_id": "DcWsQMiMcak",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T14:55:19.047003+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "38973bc0a783daad8caf7796d6b3ee16b7ebb6c8e3cf8359af8c3c6487d74b0a",
+  "attempts_before_success": []
+}

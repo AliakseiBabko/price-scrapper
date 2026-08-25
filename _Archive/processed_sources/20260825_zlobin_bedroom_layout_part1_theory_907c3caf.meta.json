@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=AcibYG4jtbs",
+  "video_id": "AcibYG4jtbs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T14:54:27.347541+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "907c3cafea6c86ce46612e954e6cecd0d25222ea0729528afdc4869edb194e9e",
+  "attempts_before_success": []
+}

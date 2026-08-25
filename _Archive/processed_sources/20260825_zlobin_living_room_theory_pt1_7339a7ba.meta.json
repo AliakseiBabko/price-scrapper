@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=gnUErjmtHcY",
+  "video_id": "gnUErjmtHcY",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T15:06:42.495899+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "7339a7ba7d64f00f8b44dc3513d6fc4a09e8106cd42184567249fbb8adda8a55",
+  "attempts_before_success": []
+}

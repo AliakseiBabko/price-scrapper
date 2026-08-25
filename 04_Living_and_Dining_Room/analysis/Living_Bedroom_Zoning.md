@@ -175,6 +175,17 @@ should weigh directly:
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
 
 > [!NOTE]
+> **Independent corroboration from a general design-philosophy source
+> (added 2026-08-25)**: a dedicated architect channel (Vitaly Zlobin)
+> names the same transforming-partition-plus-sofa concept as one of its
+> own studio's ten standing planning principles, independently reaching
+> the same structural conclusion as Fedotova and Popova above from a
+> whole-home-philosophy angle rather than a room-combination-specific
+> one. See
+> [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]'s
+> "Whole-Home Planning Philosophy" section for the full principle list.
+
+> [!NOTE]
 > **Wall-bed/Murphy-bed mechanism detail (added 2026-08-25)**: for
 > mechanism selection, reliability findings (a real crack failure mode
 > tied to particleboard thickness and daily use, and a steel-tube-frame

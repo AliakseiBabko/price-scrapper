@@ -153,6 +153,15 @@ Pavel Sidorik, individual practitioner, own apartment, Belarus (level 1, via a s
 
 **Clarification from a later video in the same series**: the custom 90°-turn duct fitting shown for this build connects to the practitioner's own private "booster"/"accelerator" vent channel serving only his own toilet room, which then joins the shared building vent channel downstream — not a direct modification of the shared channel itself, addressing viewer criticism that the build blocked neighbors' ventilation. The fitting itself was fabricated by fusing flat plastic duct sections together with a hot-melt glue gun (used here as a plastic-welding technique, not just an adhesive). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zaW8XagX72U_sidorik_hot_glue_lifehacks|zaW8XagX72U]]]
 
+## Masonry Vent-Duct Sizing for a Wet Room (added 2026-08-25)
+
+Architect Vitaliy Zlobin (independent country-house architect, `single-account`, region unresolved) gives a concrete masonry vent-shaft sizing rule for a bathroom/WC/shower room, distinct from this page's mostly apartment-scale mechanical-system content above:
+
+- **A 140×140mm brick vent-duct opening is sufficient for a wet room up to 10m²** — sized to brick-coursing modularity rather than an arbitrary round number, so it's buildable within a standard masonry wall without odd partial courses.
+- **Duct air-intake height convention for a 3m ceiling: ~270cm** — set below the dropped-ceiling void specifically to leave room above for recessed downlights and other services; can be raised, but only if the intake's own path through the ceiling void to the duct opening is separately worked out.
+- **The duct must always terminate at the roof, never mid-building**, specifically for reliable odor removal — applies whether the shaft itself is masonry or, in a non-masonry building, a fabricated panel duct.
+- **An electric booster fan mounted in the duct is explicitly odor-removal assistance only, not a substitute for real forced ventilation** — the source states it "probably can" function as forced ventilation but will be underpowered for that job; don't rely on a duct-mounted booster alone where genuine mechanical exhaust capacity is actually needed. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DcWsQMiMcak_zlobin_wc_bath_theory_pt1|DcWsQMiMcak]]]
+
 ## Kitchen Extraction Hoods Share the Same Shaft-Capacity Ceiling
 
 The same shared-shaft constraint that governs fresh-air ventilation applies just as strongly to a kitchen range hood set to extraction mode ("отвод") — a mechanism worth stating explicitly since it's easy to assume a hood's own motor rating determines its real performance. **This is corroborated across 5 independent sources** — full multi-source breakdown, including a direct conflict this raises with the kitchen's already-selected hood model, lives in [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]]. Summary:

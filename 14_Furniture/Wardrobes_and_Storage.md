@@ -49,6 +49,27 @@ the named guest lawyer reports: **Whether the furniture is built-in or free-stan
 
 → **[[14_Furniture/analysis/Furniture_Dispute_Legal_Recourse|Full detail]]** (recommended sequence, IP personal-liability note, penalty percentages — verify against current statute before relying on them)
 
+## Pantries and Kitchen-Adjacent Storage (New Topic, Single Source)
+
+Architect Vitaly Zlobin (private-house practice, already represented
+elsewhere on this page) explains: **allocate at least 2% of a house's
+useful area to pantry space** (a real cited external benchmark, Ernst
+Neufert's *Architects' Data*), and don't substitute an attic/basement for
+one — a pantry's whole function is *frequent, low-friction access*, not
+just storage volume. A kitchen-adjacent pantry does two things: it
+**unloads the kitchen** (comparable storage capacity to a 5m cabinetry
+run, in half to a third the footprint) and, built as a **pass-through**,
+creates an alternate entry-to-kitchen route for unloading groceries
+without a full walk-through of the house. **The same four-way storage-
+configuration taxonomy as the walk-in-closet section above (one-sided,
+two-sided, L-shaped, U-shaped) reappears here independently**, derived
+from "pure geometry" rather than clothing-storage convention —
+genuine cross-topic corroboration.
+
+→ **[[14_Furniture/analysis/Pantries_and_Kitchen_Storage|Full detail]]**
+(the leftover-space design method, ventilation/heat-loss tradeoff, three
+kitchen-pantry planning types, shelf-depth figures)
+
 ## Source Notes
 
 Traceability record moved to its own page — [[14_Furniture/analysis/Wardrobes_Source_Notes|Source Notes]]. Not reader content, kept off this page by design.

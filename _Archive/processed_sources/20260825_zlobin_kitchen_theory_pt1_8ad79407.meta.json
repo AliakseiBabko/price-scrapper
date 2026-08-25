@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Ubl--73gmTs",
+  "video_id": "Ubl--73gmTs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T14:54:34.058879+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8ad79407414af17686e851eaf24e338877addb691878bf41f1cfb040b3427a1c",
+  "attempts_before_success": []
+}

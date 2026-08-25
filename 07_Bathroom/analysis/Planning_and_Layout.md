@@ -96,6 +96,10 @@ itself — frosted/sandblasted film or tinting applied directly to the
 glass, which blocks a neighbor's direct view into the room without
 blocking light entirely. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
 
+## Screening the Toilet Behind Its Own Partition in a Combined Ensuite (added 2026-08-25)
+
+Архитектор Виталий Злобин (independent architect, own channel, real-project walkthrough, `single-account`, region unresolved) describes a layout technique for a large combined (not pre-split into WC + bathroom) ensuite bathroom: **build a dedicated partition around the toilet within the room, rather than leaving it fully open alongside the sink/shower/tub**, with two stated reasons — (1) hygiene: keeps the toilet as far as practical from the fixtures used for washing the face/body; (2) it lets **two people use the ensuite simultaneously** (one at the toilet, one at the sink or shower), explicitly framed around a double/king-size bed serving two occupants. Worth weighing for any combined-bathroom layout, not just a house-scale master suite. If the partition is translucent to admit light to the screened-off toilet area, **that only makes sense when the room itself has a window** — a translucent partition around a windowless toilet nook just adds cost without the intended lighting benefit. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uG1p1j9iAZ4_zlobin_wc_bath_practice_pt2|uG1p1j9iAZ4]]]
+
 ## Comfort-Class Labor Cost (restated)
 
 **USD normalization status:** the 25,000–45,000 RUB/m² figure is **not computable** here because this restatement does not carry an independently confirmed publish date; no calendar-year or guessed date conversion is claimed.

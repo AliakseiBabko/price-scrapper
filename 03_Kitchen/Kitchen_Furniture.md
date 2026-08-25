@@ -33,6 +33,20 @@
 - **Upper cabinets are frequently never actually used functionally in practice, per one practitioner's stated real-world observation across many projects** — a legitimate cost-saving measure is making them decorative-only (blank door fronts, no functional hinges/opening hardware, no interior fitting cost) with no visual downside. `single-account`. (added 2026-08-18)
 - **Corner-kitchen-without-a-corner-module technique**: when the true corner is unusable for a full corner cabinet (a utility riser or adjacent bathroom wall intrudes into it), build a dedicated **60×60cm technical column** at that corner instead of defaulting to one cramped straight run — the two straight cabinet runs on either side dock cleanly against the column (their countertops don't need to form one continuous surface). (added 2026-08-18)
 
+## Cabinet Dimensioning Standards (added 2026-08-25)
+
+> [!NOTE]
+> First dedicated dimensioning-standards source on this page — complements the Cabinet Modules & Sizing section above (which covers module-width discipline) with the actual height/depth figures those modules should follow. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|note]]]
+
+- **Base cabinet run depth: 60cm** — described as an unspoken universal standard the industry defaults to.
+- **⚠️ Base cabinet/countertop height, domestic vs. international standard**: domestic (source's own, ex-USSR/Russian-market) standard ≈ **80-85cm**; international/Western standard ≈ **90-93cm**. Know which standard a given manufacturer/order follows before finalizing an order — built-in appliances and hardware are often sized to one standard or the other.
+- **Upper (wall-hung) cabinets**: mounted **~55cm above the base cabinet/countertop** on average; own height **~60cm**; depth **35cm** (deeper is possible up to ~60cm, explicitly not recommended).
+- **⚠️ Window-sill-height coordination**: a conventional 90cm sill height conflicts with an 80-93cm-high countertop — raise the sill to **100cm** to clear the countertop cleanly and avoid trimming the interior windowsill board where it would otherwise collide with countertop depth.
+- **Kneading/dough-work surface, flagged as a fading requirement**: a standard 80-93cm countertop is too high for comfortable kneading (needs top-down body-weight pressure) — where genuinely needed, lower a dedicated section to **~70-75cm**, or use a pull-out lowered work surface instead of lowering the whole run.
+- **Design rationale tying the above together**: every height figure exists to let the cook stand with a straight back — too-low forces stooping, too-high forces standing on toes.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|YT_Ubl--73gmTs]]]
+
 ## Kitchen Island Sizing (added 2026-08-18)
 
 - **An island is only appropriate in kitchens ≥14 m²** — smaller kitchens lack adequate passage clearance for one.
@@ -125,6 +139,7 @@ Companion to [[03_Kitchen/Kitchen_General|Kitchen — Layout & Configuration]]'s
 
 ## Source Notes
 
+- **Kitchen Layout // Part 1 (Theory)** — cabinet dimensioning standards (base depth/height, upper-cabinet offset/depth, window-sill coordination, kneading-surface height) (Архитектор Виталий Злобин, 2020-02-22, added 2026-08-25) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|extraction note]].
 - **Kitchen layout design principles, real project walkthrough** (Zemsproekt/Zemstandart, "КАК НЕЛЬЗЯ ПРОЕКТИРОВАТЬ КУХНЮ СВОИМИ РУКАМИ" #021, 2019-01-09, added 2026-08-17) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_guGybOqTF64_kitchen_layout_design_principles_021|extraction note]].
 - **Best Kitchen Solutions** (Zemstandart, #175, 2022-09-11, added 2026-08-18) — island sizing, dishwasher handedness, fridge/upper-cabinet recommendations. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MzEwow_CPR4_best_kitchen_solutions_175|extraction note]].
 - **28 Most Expensive Mistakes When Assembling Lower Kitchen Modules** (Zemstandart/Zemsremont, #153, 2021-10-24, added 2026-08-18) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Y_Tuxcd-VxM_28_mistakes_lower_kitchen_modules_153|extraction note]].
@@ -150,3 +165,4 @@ Companion to [[03_Kitchen/Kitchen_General|Kitchen — Layout & Configuration]]'s
 - 2026-08-19 — Added a Countertop Field-Trim Repair section from Category 4 batch, chunk 2, same-session wiki-routing (not deferred): a real field-recovery sequence for correcting an oversized delivered slab, plus a specific 5-7 minute sealant cure-time figure not previously recorded on this page. The freestanding-fridge niche sizing rule from the same chunk's `yt_fSEPr5fpfPM` was routed here too (see Source Notes); its stub-out and AC content went to `12_Engineering_and_Systems` pages instead.
 - 2026-08-19 (chunk 4) — Added Upper Module Assembly & Range-Hood Duct Cutout (new content, no prior duct-routing coverage on this page) and Lower Module Assembly — Additional Techniques (deliberately partial: overlapping general-assembly content from `yt_-RsGqvH_hbo` was not re-extracted, since it's already covered by the existing 28-item checklist at equal or greater precision — only the genuinely new bracket/tie/alignment techniques were added).
 - 2026-08-19 (chunk 5) — Added a second, independent upper-module-mistakes block to the existing Upper Module Assembly section from `yt_Ljji4-Sxmzk`: 10mm corrugated-duct oversizing rule, back-panel staple/nail-only + ≤100mm spacing rule, mounting-strip function explanation, unpack-all-before-starting warranty framing, wire pass-through placement rule.
+- 2026-08-25 — Added Cabinet Dimensioning Standards from a new independent architect channel (Vitaly Zlobin): base/upper cabinet height and depth figures (domestic 80-85cm vs. international 90-93cm base-height standard), window-sill coordination, kneading-surface height — genuinely new numeric detail not previously on this page.

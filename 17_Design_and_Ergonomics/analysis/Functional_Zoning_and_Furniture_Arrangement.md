@@ -312,6 +312,66 @@ bedroom-specific:
 
 `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SUN8UiXAjf0_anutavlady_spb_narrow_living_room|YT_SUN8UiXAjf0]]]
 
+## Whole-Home Planning Philosophy: Ten Standing Principles (Architect Vitaly Zlobin, added 2026-08-25)
+
+A dedicated architect channel's own studio-wide design-philosophy list —
+distinct from this page's other room-specific worked cases, this is
+general planning doctrine applied across an entire home. Two of the
+source's ten principles govern building-exterior-shape/plot-terracing
+decisions and don't generalize to an apartment renovation (not
+extracted); the household-planning principles below do:
+
+- **⚠️ Favor fewer, larger, airier rooms over many small rooms** — the
+  source frames maximizing room *count* within a fixed footprint
+  (producing many 9-10m² rooms and dark, narrow corridors) as an
+  outdated ~15-20-year-old trend; modern value is a sense of space/
+  openness over more numerous, thinner rooms. Directly applicable to any
+  compact-footprint replan, not just new construction.
+- **Dedicate one bedroom as a true master bedroom (en-suite bathroom +
+  walk-in closet) even in a small home**, worth the floor-area cost
+  under space pressure rather than trading it for one more generic room.
+- **Large-glazing tradeoff, stated as a genuine balance to find, not a
+  maximize-blindly rule**: floor-to-ceiling glazing gains light/openness
+  at real cost to privacy and thermal efficiency.
+- **⚠️ Built-in furniture as the practical enabler of compactness, with a
+  specific squaring-off use**: built-in furniture (1) hides into a
+  room's own finish, (2) is inherently multifunctional (e.g. a TV built
+  into a wardrobe front), and (3) **can square off an irregular room
+  shape** (e.g. an L-shaped room's awkward corner) into a visually
+  regular one — a specific technique not previously recorded this
+  explicitly on this vault's built-in-furniture content.
+- **⚠️ Plan dedicated storage/pantry space at the design stage, not as an
+  afterthought** — explicit critique of layouts with no answer for where
+  bedding, kitchenware, or bulky equipment actually gets stored; "a home
+  should be autonomous enough to solve its own future occupants' storage
+  needs by design, not by improvising later."
+- **⚠️ The kitchen deserves dedicated design-stage attention, not
+  post-construction furniture shopping** — corroborates this vault's
+  existing kitchen-island/cabinet-configuration content rather than
+  adding new numeric detail.
+- **⚠️ Multifunctional/transformable room use as this source's own stated
+  "future" of home design — a genuine independent corroboration of this
+  household's own Phase 2 plan**: a living room (sofa, coffee table, TV)
+  converting to a guest bedroom at night via a transforming partition is
+  the source's own worked example, applying the same logic to a kids'
+  room (temporary by design, expected to become a home office later) and
+  small utility functions grouped with a boiler room/bathroom/corridor
+  rather than getting their own room. **Independently corroborates, from
+  a general design-philosophy source rather than a room-combination-
+  specific one, the same sofa/bed-transformer structural choice already
+  recorded on
+  [[04_Living_and_Dining_Room/analysis/Living_Bedroom_Zoning|Living-Bedroom Zoning]].**
+- **⚠️ Explicitly self-flagged contested opinion — pass-through kitchens
+  and living rooms**: the source argues it's acceptable, even inevitable,
+  for a kitchen or living room to double as a circulation path between
+  other rooms in a compact plan, rather than insisting every public space
+  be a dead end — offset with built-in/transformable furniture. Recorded
+  as one practitioner's self-flagged minority position, not settled
+  guidance, but worth weighing against this household's own open-plan
+  circulation decisions.
+
+`single-account`, `unverified` unless noted as corroborating. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9yi3HTL_Rwc_zlobin_10_principles_country_house|YT_9yi3HTL_Rwc]]]
+
 ## Scope
 
 General ergonomics/zoning principles for arranging furniture and activity zones within a room or across an open-plan area: traffic-flow planning, activity-zone separation (e.g. within a combined kitchen-living room), clearance/reach ergonomics not already tied to one specific room's own fixtures, and general "how much space does an activity actually need" rules of thumb.
@@ -339,3 +399,11 @@ This vault already has substantial room-specific clearance/zoning content that s
   bedroom-specific, so routed here instead; cross-linked with the new
   `06_Small_Bedroom/Small_Bedroom_Guide.md` where a technique
   generalizes to both.
+- 2026-08-25 (architect/planner playlist, chunk 2) — Added "Whole-Home
+  Planning Philosophy: Ten Standing Principles" from Architect Vitaly
+  Zlobin (`YT_9yi3HTL_Rwc`) — this page's first general design-philosophy
+  source (vs. its existing room-specific worked cases); 8 of 10 stated
+  principles generalize to an apartment renovation (2 building-envelope/
+  plot-specific principles excluded). Independently corroborates this
+  household's own Phase 2 transformable-partition plan, already recorded
+  on `Living_Bedroom_Zoning.md`.

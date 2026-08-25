@@ -170,6 +170,17 @@ start defaulting to this build-up for its own future work specifically
 because of this result, a shift from its historical foam-block default.
 `single-account` dB figures, not independently lab-verified. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EQW9y4bNea0_petrishin_partition_material_comparison|EQW9y4bNea0]]]
 
+**A related ensuite-bathroom-placement rule, private-house architect
+source**: never place bathroom plumbing fixtures against the thin
+partition (120mm brick or 100mm gypsum-block) shared with an adjacent
+bedroom — route noisy fixtures against a load-bearing 380mm brick wall
+instead where two ensuite bedrooms sit side by side, which also carries
+utility routing more cleanly. A placement rule (which wall to put
+plumbing against) rather than a construction technique, so recorded here
+only as a cross-reference — full detail on
+[[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]].
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcibYG4jtbs_zlobin_bedroom_layout_part1_theory|AcibYG4jtbs]]]
+
 ## Full Frame-System Installation Technique — Wall and Ceiling, Named ASTic/Acusti Group System (Петришин-Строй, added 2026-08-24, Round 10)
 
 **⚠️ The first genuinely systematic, step-by-step soundproofing

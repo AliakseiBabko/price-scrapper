@@ -61,3 +61,26 @@ Editorial history — not reader content.
   than duplicated here since neither sub-topic is specific to this room
   alone. See those two pages' own Change Logs for the full source list
   and round yield.
+- **2026-08-25 (architect/planner playlist, chunk 2)**: created a new
+  `Dining_Table_Sizing_and_Zoning.md` analysis page from `YT__IpgWsKodXg`
+  (Architect Vitaly Zlobin) — genuinely new furniture-dimension content
+  (per-person footprint, table-width derivation, 8-person default sizing,
+  round-table diameter formula, two clearance tiers) not previously on
+  this page, plus a reusable open-plan sightline/zoning framework.
+  Guide-page summary section added. Single-source page, house-context
+  channel but content generalizes to an apartment dining zone.
+- **2026-08-25 (same chunk)**: added a same-channel practice-video
+  follow-up (`-ROgAlWhXlc`, partial extraction) to
+  `Dining_Table_Sizing_and_Zoning.md` — household-average-height sizing
+  correction, chair-height rule, and a transit-clearance exception. Page
+  now at 2 sources.
+- **2026-08-25 (same chunk)**: created `Living_Room_Layout_and_Furniture_Sizing.md`,
+  migrating the Guide's existing single-source "General Living-Room
+  Layout" content (500LUX/Zvereva) and adding a second, much denser
+  theory source (`gnUErjmtHcY`, Architect Vitaly Zlobin): dual-function
+  default, adjacency rule, room-size/proportion minimums, a 7-zone
+  functional taxonomy, 5 furniture-arrangement patterns with real
+  sizing/clearances, TV-distance formula, fireplace-zone reasoning, and
+  a floor-to-ceiling-glazing/heating interaction corroborating existing
+  `Radiators_and_Convectors.md` content. Guide page's inline section
+  replaced with a summary + link.

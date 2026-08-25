@@ -101,4 +101,8 @@ practitioner explicitly regrets not fully demolishing and re-plastering
 these areas rather than keeping the developer plaster, since later putty
 work risks it lifting unexpectedly.
 
+## Opaque ("Blind") Double-Glazing for a Wet-Room Window (added 2026-08-25)
+
+Архитектор Виталий Злобин (independent architect, own channel, country-house practice, `single-account`, region unresolved) flags a specific glazing product for a bathroom/WC window whose *facade* appearance needs to read as a normal window from outside (matching the building's overall window rhythm/proportion) while the *interior* needs full privacy: an opaque/"blind" double-glazed unit that looks like ordinary glass from the exterior but transmits no light or view into the room. A solved alternative to a merely frosted/translucent pane (which still passes daylight and vague shapes) where full opacity plus a conventional facade look are both required. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uG1p1j9iAZ4_zlobin_wc_bath_practice_pt2|uG1p1j9iAZ4]]]
+
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]

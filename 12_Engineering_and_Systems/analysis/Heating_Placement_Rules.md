@@ -44,6 +44,10 @@ sensor serviceable without breaking into the screed. Region level 2
 (channel-level Moscow association only, no city named in this source).
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q6GKMOJuaPc_petrishin_electrical_quality_checklist|Q6GKMOJuaPc]]]
 
+## Kitchen: Radiator Relocation When the Sink (Not the Prep Surface) Goes Under the Window (added 2026-08-25)
+
+Архитектор Виталий Злобин says: **the modern kitchen-window trend of putting the sink (rather than the prep surface) under the window has a real infrastructure cost** — code/convention places a radiator under the window by default, which is no longer possible once the sink occupies that spot. The radiator must move to a side wall instead. Two consequences: (1) **a side-wall radiator needs a higher rated output** than a standard under-window unit, since it no longer directly counters the window's own cold-air draft the same way; (2) **never tuck a kitchen radiator inside the cabinet run itself** — its efficiency drops sharply, it doesn't work properly, and it risks the cabinetry. Underfloor heating or convectors are offered as alternatives, with the same whole-floor-consistency caveat this page already records for underfloor heating (mixing underfloor heat in the kitchen with radiators elsewhere on the same floor is impractical). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|Ubl--73gmTs]]]
+
 ## The Cost of Deferring This Decision
 
 Retrofitting floor heating after a renovation is finished (breaking out already-tiled/finished flooring to add it later) costs meaningfully more than including it in the original design-project scope. The source uses this specifically as a worked illustration of a broader point: hundreds of small planning details like this one compound in cost when deferred to "later," not just floor heating.

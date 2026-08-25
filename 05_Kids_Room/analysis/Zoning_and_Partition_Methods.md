@@ -93,6 +93,42 @@ gaining some separation. [source: [[11_Budget_and_Planning/_supporting/knowledge
   feature rather than adding new construction to hang a soft divider;
   reported to make a narrow room feel cozier/more "square." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lbaZ__wbLWo_atmosfera_svoboda_two_children_room_design|YT_lbaZ__wbLWo]]]
 
+## Two-Child Same-Age Shared Room — Equal-Treatment Layout Framework (source: `AofVi5k45ps`, Architect Vitaly Zlobin)
+
+**⚠️ A family-dynamics-driven design constraint, new to this page**:
+parents of same/similar-age children need visibly equal provision to
+avoid sibling equity conflicts — the architect's own stated resulting
+rule is **two identical beds and two identical desks**, not asymmetric
+furniture (directly relevant to this household's own two children, ages
+3 and 6, currently below the "similar age" framing but worth keeping in
+mind as they grow).
+
+- **Elongated-room layout**: two desks with roughly **80-90cm to 1m of
+  walkway between them** (a real access clearance, not office-tight — "a
+  kids' room isn't an office"); one large **shared wardrobe**, sized up
+  for two occupants; two beds sharing one central nightstand or each with
+  its own.
+- **Wide/near-square-room layout**: beds arranged in a **Г-shape
+  (L-shape)** meeting at a shared corner nightstand, wardrobe elsewhere.
+  For two desks in a genuinely tight room, a **fallback (explicitly
+  framed as a compromise, not ideal)**: one long shared desk with two
+  chairs, rather than two full separate desk units.
+- **⚠️ Future-resale room-sizing strategy, generalizes to this project's
+  own Phase 1→Phase 2 kids'-room plan**: for two same-age children,
+  deliberately build the combined room **larger** (12-15m² range) rather
+  than minimal — once the children grow and eventually split into
+  separate rooms, a room this size converts cleanly into "a bonus full
+  bedroom." The same underlying logic (plan the room's size against its
+  *future* identity, not just its current occupants) already drives this
+  vault's existing Phase 1→Phase 2 split (see
+  [[05_Kids_Room/Kids_Room_Index|Kids Room Index]]'s own household plan)
+  — this source is independent confirmation the strategy is a real,
+  named architectural convention, not specific to this project's own
+  plan.
+
+Full detail in the
+[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AofVi5k45ps_zlobin_kids_room_theory_age_stages|source extraction note]].
+
 ## Multi-Child Storage and Personal-Space Techniques
 
 - **Divide a shared room by color/theme per half**, consider
