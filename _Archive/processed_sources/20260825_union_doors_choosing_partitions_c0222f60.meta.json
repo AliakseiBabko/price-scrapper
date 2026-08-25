@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=OpTLkQCSZHs",
+  "video_id": "OpTLkQCSZHs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T14:40:16.797178+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c0222f60a1b9de70b4f14669abb1e969c41a94305fa74aef192afebbe34acac6",
+  "attempts_before_success": []
+}

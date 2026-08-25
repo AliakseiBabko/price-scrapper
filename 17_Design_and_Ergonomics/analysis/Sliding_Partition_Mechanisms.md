@@ -24,6 +24,22 @@ hardware, embedded-backing sizing, retrofit techniques, and the real
 mechanical meaning of "no floor rail," from five independent
 manufacturer/installer/DIY sources.
 
+## Partition vs. Sliding Door — the Field-Identification Test (added 2026-08-25, UNION Doors Furniture)
+
+A genuinely independent fourth source (not the same channel as any other
+source on this page) states the top-track-only convention below as a
+direct, practical identification rule: a real interior **sliding
+partition** is always custom-sized to its opening (no standard sizes) and
+its mechanism/track sits **only at the top** — the floor underneath is
+always completely clean. **If a bottom-mounted rail/mechanism is visible,
+that is a wardrobe/closet ("шкаф-купе") door, not a partition.** This is
+the fourth independent source confirming the top-track-only convention
+(after dver1.ru, Kupe-dsgn, and the 13DS/Olesya + Sergey Gusev pair on
+[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]),
+and the first to frame it as a field test rather than just a design
+preference.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
+
 ## The Core "No Floor Rail" Mechanism, Clarified
 
 **⚠️ A genuinely ceiling-hung ("no floor rail") partition still touches
@@ -206,7 +222,7 @@ rather than treating as interchangeable:
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
 
-## Sound Isolation — A Second Independent Confirmation of "Essentially None"
+## Sound Isolation — A Second Independent Confirmation of "Essentially None", and a Disputed Counter-Claim
 
 dver1.ru states directly: sliding partitions have **minimal** sound
 isolation, "по сути ширма" (essentially a screen/curtain-equivalent) —
@@ -223,6 +239,279 @@ the recessed pocket), but explicitly frames this as a minor improvement,
 not real soundproofing.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
+
+**⚠️ A genuine, unresolved disagreement (added 2026-08-25, DELI)**: a
+fifth independent installer states that pairing a glass cascade partition
+with a **blackout curtain** achieves sound isolation "equivalent to a 10cm
+drywall wall with sound-absorbing infill" — a much stronger claim than the
+"essentially none" consensus above. This installer agrees with dver1.ru
+that curtains meaningfully help beyond the bare glass, but the specific
+drywall-equivalent figure has no stated measurement method, comes from a
+single self-interested source, and should be treated as `unverified`, not
+reconciled with the "essentially none" framing above. The same source
+separately states its own **opaque/MDF-insert partition variant** (no
+glass at all) gives noticeably better sound isolation than its
+transparent-glass variant — a more modest, more plausible material-choice
+claim, not directly in tension with the "essentially none for glass"
+consensus. Treat the drywall-equivalent figure specifically as an open
+question worth independently testing before relying on it, not as a
+settled fact.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z_NUmsCIwWA_deli_cascade_partition_5_interiors|YT_Z_NUmsCIwWA]]]
+
+## Leaf-Count Taxonomy and Opening-Width Sizing (added 2026-08-25, UNION Doors Furniture)
+
+An independent source's own systematic leaf-count-to-opening-width
+framework, distinct from (but consistent with) the three mounting-method
+families already recorded above:
+
+- **2-leaf, hidden-ceiling-rail**: the single most popular configuration —
+  minimal mechanism footprint — but only one leaf's worth of the opening
+  can ever be open at a time (part of the opening always stays covered
+  regardless of which leaf is drawn back).
+- **3-leaf, in-opening**: leaves nest against each other on the same
+  minimal-footprint rail; two of the three sections can open, but part of
+  the opening still stays covered. 2-3 leaf systems together span roughly
+  **1.5-3.5m** openings per this source.
+- **Wall-mounted (leaves slide along the wall face, not staying within the
+  opening)**: fully clears the entire opening, but limited to **2 leaves
+  only, each up to 125cm wide (≈2.5m max total opening)**, and needs clear
+  wall surface beside the opening for the leaves to retract into —
+  consistent with the wall-mounted "two parallel leaves only" limitation
+  already recorded above from dver1.ru.
+- **⚠️ Telescopic/pocket ("паровозик") system — framed as the most
+  advanced solution**: leaves recede one behind another into a
+  pre-planned wall niche/pocket. Fully clears the entire opening AND uses
+  a minimal rail footprint simultaneously — a second independent
+  confirmation of the cassette/pocket-mounting family already recorded
+  from Holzberg, though without Holzberg's specific ~190mm added-wall-
+  thickness figure.
+- **4-leaf and 6-leaf configurations**: for openings beyond 2-3-leaf
+  range — roughly **4.5-6m** per this source.
+- **Stationary (non-sliding) partitions**: permanently fixed panels, no
+  moving rail — used purely to divide space while preserving borrowed
+  light (e.g. fixed glass panels flanking a hinged door, or carving out a
+  kitchen/walk-in-closet zone from an open space).
+- **⚠️ Custom "book"/transformable folding partition**: this company's own
+  developed solution for occasional partial division of a large open
+  space (cited client uses: a meeting-room cutout, a car-dealership VIP
+  bay) — small panels fold together like a book, either extending to
+  close the opening or collapsing into a small stack when not needed. A
+  distinct mechanism from Holzberg's telescopic "book"-style *leaf*
+  variant (a leading-leaf-pulls-trailing-leaf sliding system, not a
+  folding accordion structure).
+- **Single-leaf systems for narrow openings**: where a full 2+-leaf
+  sliding partition doesn't fit and a hinged door's ~1m swing clearance
+  isn't wanted — either a single leaf sliding along the wall, or a single
+  leaf retracting into a pocket/niche. Stated common in Italian
+  residential design, rare in this source's own market (`single-account`
+  market observation).
+- **"Magic"-mechanism sliding door, explicitly NOT a partition**:
+  constrained to standard door widths (60/70/80/90cm) by the rail;
+  mechanism fully concealed behind the leaf for a minimalist look —
+  distinguished from a true partition by both its standard sizing and its
+  behind-the-door mechanism concealment.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
+
+## Material Taxonomy — Aluminum+Glass vs. Wood Veneer (added 2026-08-25, UNION Doors Furniture)
+
+- **Aluminum + glass**: single-glass leaf = lightest weight, maximum light
+  transmission; double-glass leaf (two panes set on either face of the
+  same profile) = materially better sound isolation than a single pane —
+  one pane can be a mirror instead of glass. Glass finishes: clear,
+  frosted/matte, various tints, a textured "streaming rain" visual effect,
+  or an internal filling (e.g. metal mesh) for a volumetric light effect.
+  **A distinct semi-transparent/one-way-mirror-effect glass** reads as a
+  mirror on the unlit side when only the lit side has lights on, and as
+  transparent when the lighting reverses — a real functional option not
+  previously recorded on this page. Aluminum moldings (single bars, a
+  Japanese-lattice grid, or other geometric patterns) can further divide a
+  leaf visually, independent of glass-type choice.
+- **Wood veneer** (this source's stated second-most-popular material):
+  adds warmth, slightly better sound isolation than aluminum+glass by
+  default; wide veneer species/tone range (light/medium walnut, oak,
+  smoked oak, dark) with vertical, horizontal, or C-shaped grain
+  orientation; finish can be paint-ready, wallpaper-ready, or
+  factory-pre-painted.
+- Matching a partition's finish to an adjoining hinged door's finish is
+  recommended for overall design unity.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
+
+## Quality-Check Checklist Before Buying (added 2026-08-25, UNION Doors Furniture)
+
+A concrete, checkable in-showroom procedure:
+
+1. Prefer proven European manufacturers.
+2. Physically test a sample leaf's open/close motion — smooth, no
+   audible noise, vibration, or creaking.
+3. Confirm soft-close dampers are present — protects both the finish and
+   fingers, given a partition leaf's real weight.
+4. Inspect the profile coating (typically powder-coated) for evenness —
+   no visible unevenness or "orange-peel" texture, smooth to the touch.
+5. Confirm the glass is genuine safety glass and ask the manufacturer to
+   specify/verify it directly.
+6. Check overall proportions/detailing (e.g. flush/integrated handles)
+   for coherence, and confirm finish can be matched across doors,
+   closets, and furniture in the same space.
+
+Installation advice: prefer a full-service company (sales + installation
++ warranty); a well-engineered system for DIY installation is designed to
+assemble simply — the top rail mounts first, then the sliding
+mechanism/leaf assembly inserts into it ("like Lego").
+
+**5-step buyer's decision sequence** (this source's own summary):
+(1) determine the opening's size and desired opening behavior; (2) choose
+the mounting type; (3) determine the primary purpose — light transmission
+vs. sound isolation — and let that drive material choice; (4) research
+the specific manufacturer's reputation; (5) don't overlook installation
+quality — use a company offering a real warranty.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
+
+## Material & Component Selection Criteria (added 2026-08-25, Sergey Gusev/ПРО ДВЕРИ)
+
+A retailer/installer's own buyer checklist — same channel as the mounting-
+technique corroboration cited earlier on this page, so treated as one
+practitioner's view across multiple videos, not a new independent source,
+but the content itself (material/component quality signals) is genuinely
+new to this page rather than a repeat of the mounting/mechanism detail
+above:
+
+- **⚠️ Profile wall-thickness is a durability signal independent of
+  "aluminum" as a category**: an economy aluminum profile looks visually
+  bulkier/wider but is thin-walled; a premium profile looks thin/minimal
+  from the edge but is actually thick-walled (anodized) — the thick-walled
+  premium profile has a materially longer stated service life, even though
+  the economy version can look "more substantial" at a glance. A separate
+  wood-look profile family also exists (effectively an MDF/particleboard
+  core with a thin solid-wood insert to resist warping, not real solid
+  wood).
+- **Anodizing as the stated top paint/finish tier**: a chemical-etching
+  process (profile submerged in an acid bath, oxidizing to produce the
+  finish) yields premium color options (bronze, gold, others) and is
+  framed as the top achievable quality tier — contrasted against
+  cheaply-painted low-end Chinese aluminum sold well under any price a
+  genuinely quality partition could be made for.
+- **Glass type, two-way breakdown**: **tempered glass** ("закалённое") —
+  shatters into small, non-hazardous granules if broken, explicitly
+  framed as a child-safety consideration (a dropped toy or bumped chair
+  cited as a realistic impact scenario); or **triplex/laminated glass**
+  (two glass layers bonded with an interlayer film, the same construction
+  as an automotive windshield) — stays adhered to the film in a cracked
+  "spiderweb" pattern rather than falling apart if broken. Either is
+  acceptable; plain non-safety glass is not.
+- **Mechanism country-of-origin quality claim**: most of the market uses
+  Chinese sliding mechanisms, stated to lead to a wobbly/loose feel over
+  time; Italian mechanisms are named as the higher-quality alternative,
+  noticeably smoother and softer in motion. `single-account`,
+  `unverified` — no specific brand or comparative test given.
+- **Buying-channel advice**: prefer a multi-brand showroom over a
+  showroom tied to a single manufacturer — the latter has a structural
+  incentive to push its own line regardless of client fit. Direct
+  tier-steering caution applies to this advice too, since the source
+  itself operates as a multi-brand retailer.
+- **Three self-reported price tiers, RUB/m² (region unresolved for this
+  specific video)**: premium ≈€50,000 RUB/m²; mid-tier ≈18,000-20,000
+  RUB/m²; economy-tier ≈6,000-8,000 RUB/m² (`ASR-uncertain` on the exact
+  digits). A cheaper (~3,000 RUB/m²) competitor offer is dismissed as
+  unrealistic for genuine quality. Compare against the sibling
+  `YT_xnLiADJF5lw` source's own resolved-region price point (Moscow-
+  associated, 15,000-20,000 RUB/m² ≈ $160-$220/m²) once this video's own
+  region is independently confirmed.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_aU37rUbfEoc_gusev_partition_selection_criteria|YT_aU37rUbfEoc]]]
+
+## Combined-Profile Construction and Glass Specification (added 2026-08-25, DELI/Ivan Degtev)
+
+The same DELI channel's company owner, in a dedicated materials/
+construction video (same channel as the case-study section below, so not
+a new independent source, but genuinely new construction-spec content):
+
+- **Three profile-material families**: metal (aluminum or steel), wood-
+  MDF, and **combined** — DELI's own product uses the combined type.
+- **⚠️ Combined-profile internal construction**: a finger-jointed/glued
+  solid-wood core (knot-free, glued from smaller pieces for rigidity) is
+  faced/wrapped in MDF, which acts as a cushioning/stabilizing outer layer
+  specifically to help the finished profile hold its geometry over time
+  (resist warping) — more construction detail than this page's existing
+  general "MDF profile" descriptions.
+- **Finished profile dimensions**: cross-section **60×38mm**; max
+  single-piece profile length **2.8m** (max single-leaf height ≈2.75m);
+  spliced/joined profile can reach heights up to **5m** — cited against a
+  real completed project with a leaf height of **3.7m**
+  (`ASR-uncertain` correction from a literal "37 meters" transcription
+  error).
+- **Two external coating options**: wood-textured film ("эко-шпон",
+  various colors), or enamel paint (matte or glossy, various colors).
+- **Glass surface-area share**: glass makes up roughly **85%** of a
+  partition's total surface area — the stated reason glass-choice quality
+  matters disproportionately. Tempered safety glass used, described as
+  "6 times stronger than ordinary glass." **⚠️ Same-channel inconsistency**:
+  the sibling case-study video from this exact channel states "7 times
+  stronger" — a minor, unresolved discrepancy between two videos from the
+  same company; both figures are `single-account`/`unverified`.
+- **⚠️ Frosted-vs-clear glass selection principle, generalized (not just
+  one project)**: frosted glass is most commonly used because it passes
+  up to 85% of natural light while still occluding a direct view; clear
+  glass is used specifically to physically separate two spaces while
+  preserving visual connection — restating (as a company-wide design
+  principle, not one specific project) the exact kitchen-living zoning use
+  case (cook watching children while odors stay contained) recorded below
+  from the sibling case-study video, a genuine reinforcement of that
+  case's generalizability.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UzVTR2DdYzg_deli_what_are_partitions_made_of|YT_UzVTR2DdYzg]]]
+
+## Real Case Studies — Five Cascade-Partition Installations (added 2026-08-25, DELI)
+
+A fifth independent installer, DELI Раздвижные Перегородки, walking
+through five real completed cascade-partition (leaves stacking at one
+edge of the opening) installations:
+
+- **⚠️ Kitchen-living zoning case — directly analogous to this
+  household's own Phase 2 combined kitchen/living-bedroom plan**: a
+  cascade partition joining two rooms (not dividing one). When closed
+  while cooking, it contains cooking odors from spreading through the
+  apartment; because the glass stays transparent, the person cooking can
+  still see and monitor the other room (e.g. children playing) even with
+  the partition fully closed — a real worked example of "closed for
+  smell/sound containment, open sightline for supervision" simultaneously.
+  Leaves park behind an adjoining cabinet (with a built-in fridge) without
+  protruding past it when open — a fitted-furniture integration detail
+  worth planning for.
+- **Top-track-only reasoning, a new stated mechanism**: beyond the visual
+  "floor doesn't read as divided" reasoning already on this page, this
+  installer adds a maintenance-based reason: a bottom track accumulates
+  dirt/debris over time and the small wheels riding in it wear out and
+  break as a result — top-track-only leaves last longer and run more
+  smoothly.
+- **Stack-depth planning figure**: a real 5-leaf cascade partition occupies
+  roughly **25cm of total depth when fully stacked/parked** — about 5cm
+  per leaf including gaps — a concrete number for estimating how much
+  wall/corner depth a multi-leaf stack needs when fully open.
+- **Baseboard-to-leaf abutment, independently corroborated**: this
+  installer uses the same two fixes already recorded from dver1.ru
+  (notch the baseboard where the leaf lands, or notch the leaf itself
+  instead) — now a second independent confirmation of both options.
+- **Integrated curtain-track detail**: a curtain track built directly
+  into the partition's own header/system (not a separately-mounted rod)
+  can hold a light tulle or blackout curtain behind the glass for
+  adjustable light/privacy control — worth asking a manufacturer whether
+  this is offered as a standard option.
+- **Tempered-glass strength claim**: described as "seven times stronger
+  than ordinary glass," `single-account`/`unverified` (the installer
+  states he personally tried and failed to break a sample by hand) — an
+  option for households concerned about breakage risk. An **opaque
+  MDF-insert (no-glass) variant** is also available for households
+  wanting zero light transmission, and is stated to give noticeably
+  better sound isolation than the glass variant.
+- **Pipe/utility-line boxing-in technique**: visible heating-system pipes
+  near an installation were boxed in with trim matched to the partition's
+  own finish/color — reads as intentional rather than an unaddressed
+  utility run, a general technique transferable beyond this installer.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z_NUmsCIwWA_deli_cascade_partition_5_interiors|YT_Z_NUmsCIwWA]]]
 
 ## Real Pricing (EUR, Region Unresolved)
 
@@ -241,6 +530,42 @@ price-comparability rule).
 
 ## Change Log
 
+- 2026-08-25 — Added "Combined-Profile Construction and Glass
+  Specification" section from `YT_UzVTR2DdYzg` (DELI/Ivan Degtev, same
+  channel as `YT_Z_NUmsCIwWA` below): profile cross-section and wood-
+  core-plus-MDF construction detail, glass surface-area share, a 6x vs.
+  7x same-channel tempered-glass-strength inconsistency flagged, and a
+  generalized restatement of the kitchen-living clear-glass zoning
+  principle.
+- 2026-08-25 — Added "Real Case Studies — Five Cascade-Partition
+  Installations" section from `YT_Z_NUmsCIwWA` (DELI Раздвижные
+  Перегородки — a fifth genuinely independent source): a kitchen-living
+  zoning case directly analogous to this household's own Phase 2 plan,
+  a new top-track-only maintenance rationale, a real stack-depth figure
+  (≈5cm/leaf), a second independent confirmation of dver1.ru's baseboard-
+  abutment fixes, an integrated curtain-track detail, and a tempered-
+  glass strength claim. Also added a flagged, unresolved disagreement to
+  the existing Sound Isolation section: this source's "blackout curtain +
+  partition ≈ 10cm drywall wall" claim contradicts the page's existing
+  "essentially no soundproofing" consensus and is recorded as disputed,
+  not reconciled.
+- 2026-08-25 — Added four new sections from `YT_OpTLkQCSZHs` (UNION Doors
+  Furniture — a genuinely independent, new source/company, not a repeat
+  channel): the partition-vs-sliding-door field-identification test (a
+  fourth independent confirmation of the top-track-only convention),
+  leaf-count taxonomy tied to opening-width sizing (including a custom
+  "book"/transformable folding-partition mechanism and a single-leaf
+  narrow-opening option), an aluminum+glass vs. wood-veneer material
+  taxonomy (including a one-way-mirror-effect glass option), and a
+  6-point in-showroom quality-check checklist plus a 5-step buyer's
+  decision sequence.
+- 2026-08-25 — Added "Material & Component Selection Criteria" section
+  from `YT_aU37rUbfEoc` (Sergey Gusev/ПРО ДВЕРИ — same channel as the
+  mounting-technique source already on this page, so not a new
+  independent source, but genuinely new content: profile wall-thickness/
+  anodizing quality signal, tempered-vs-triplex glass breakdown, an
+  Italian-vs-Chinese mechanism-quality claim, multi-brand-showroom buying
+  advice, and three self-reported price tiers).
 - 2026-08-25 — Page created from a 6-video targeted batch on ceiling-
   hung/no-floor-track sliding partitions (dver1.ru, Holzberg/Дело в
   дизайне, Kupe-dsgn ×2, Mikhail Mishchenko), split out from
