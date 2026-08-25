@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0",
+  "template_id": "price-scrapper-target-set",
+  "name": "Наш комплект: планировочный проект по модели Долгушева, без тёплого пола",
+  "tier": "planning_project",
+  "derived_from": "dolgushev-planirovochny-proekt",
+  "provenance": {
+    "author": "price-scrapper project (own target, modelled on ARCHIDOLGUSHEV)",
+    "source_file": "00_Master/Planning_Project_Deliverable_Set.md",
+    "project_name": "ZK Dubravinskiy",
+    "year": 2026,
+    "sheet_format": "A3 landscape",
+    "scale": "1:50 target; sheets currently carry a '1:50 visual sheet' label, not a verified scale",
+    "case_ids": [
+      "dolgushev-novaya-riga"
+    ]
+  },
+  "excluded_from_scope": [
+    "Тёплый пол - решение пользователя 2026-08-26: система не устанавливается, лист не выпускается",
+    "Визуализация (фотореалистичные рендеры) - как и в исходном продукте",
+    "Спецификации и ведомости",
+    "Развёртки стен",
+    "Схема кондиционирования"
+  ],
+  "sheets": [
+    {
+      "number": "1",
+      "title_ru": "СОСТАВ ПРОЕКТА",
+      "our_scope": "in_scope",
+      "capability": "needs_new_renderer",
+      "unlocked_by": [
+        "cap7-sheet-index"
+      ],
+      "scope_note": "Тривиально, но выпускается последним - список листов должен быть окончательным.",
+      "our_tooling": [
+        "tools/drawings/package_sheet.py"
+      ]
+    },
+    {
+      "number": "2",
+      "title_ru": "ПЛАН С РАССТАНОВКОЙ МЕБЕЛИ И ОБОРУДОВАНИЯ",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "unlocked_by": [
+        "cap1-drawing-conventions",
+        "cap4-furniture"
+      ],
+      "scope_note": "Лист уже выпускается, но мебель в модели условная и без экспликации.",
+      "our_tooling": [
+        "tools/drawings/apartment_sheet_from_ifc.py"
+      ],
+      "gap": "Реальные габариты выбранной мебели; блок экспликации."
+    },
+    {
+      "number": "3",
+      "title_ru": "ПЛАН ОБМЕРОВ/ДЕМОНТАЖНЫЙ ПЛАН",
+      "our_scope": "in_scope",
+      "capability": "needs_model_data",
+      "unlocked_by": [
+        "cap1-drawing-conventions",
+        "cap2-element-phase",
+        "cap0-control-dimension"
+      ],
+      "scope_note": "Ключевой лист: без него подрядчик не начнёт. Требует фазы элементов (существующий/демонтируемый/новый).",
+      "our_tooling": [
+        "tools/ifc/current_apartment_layout.py",
+        "tools/drawings/apartment_sheet_from_ifc.py"
+      ],
+      "gap": "У элементов модели нет признака фазы; нет красной штриховки демонтажа."
+    },
+    {
+      "number": "4",
+      "title_ru": "ПЛАН ВОЗВОДИМЫХ ПЕРЕГОРОДОК (СТРОИТЕЛЬНЫЙ ПЛАН)",
+      "our_scope": "in_scope",
+      "capability": "needs_model_data",
+      "unlocked_by": [
+        "cap2-element-phase",
+        "cap3-setting-out"
+      ],
+      "scope_note": "Обратная сторона демонтажного листа - тот же признак фазы плюс размерные привязки.",
+      "our_tooling": [
+        "tools/drawings/apartment_sheet_from_ifc.py"
+      ],
+      "gap": "Нет цепочек привязок новых перегородок к существующим конструкциям."
+    },
+    {
+      "number": "5",
+      "title_ru": "ПЛАН ПОЛОВ С УКАЗАНИЕМ ТИПА И ПЛОЩАДИ НАПОЛЬНЫХ ПОКРЫТИЙ",
+      "our_scope": "in_scope",
+      "capability": "needs_model_data",
+      "unlocked_by": [
+        "cap5-finish-schedule"
+      ],
+      "scope_note": "Прямо кормит закупку и смету - высокий приоритет несмотря на отсутствие тёплого пола.",
+      "our_tooling": [
+        "tools/ifc/calculate_wall_finishes.py"
+      ],
+      "gap": "Нет назначения покрытий по помещениям, линий стыков и подсчёта площадей полов."
+    },
+    {
+      "number": "6",
+      "title_ru": "СХЕМА РАЗМЕЩЕНИЯ ОСВЕТИТЕЛЬНОГО ОБОРУД. С РАСПРЕДЕЛЕНИЕМ ЛИНИЙ ПО ВЫКЛ.",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "unlocked_by": [
+        "cap6-scenarios",
+        "cap8-circuits"
+      ],
+      "scope_note": "Светильники печатаются; ценность листа - в группировке по выключателям, а её нет.",
+      "our_tooling": [
+        "tools/drawings/apartment_sheet_from_ifc.py"
+      ],
+      "gap": "Нет модели цепей и сценариев освещения."
+    },
+    {
+      "number": "7",
+      "title_ru": "ПЛАН ПОТОЛКОВ С ПРИВЯЗКОЙ ОСВЕТИТЕЛЬНОГО ОБОРУДОВАНИЯ",
+      "our_scope": "in_scope",
+      "capability": "needs_model_data",
+      "unlocked_by": [
+        "cap5-finish-schedule",
+        "cap3-setting-out"
+      ],
+      "scope_note": "Нужны отметки потолка по помещениям и координаты светильников.",
+      "our_tooling": [
+        "tools/drawings/apartment_sheet_from_ifc.py"
+      ],
+      "gap": "В модели нет уровней потолка."
+    },
+    {
+      "number": "8",
+      "title_ru": "ПЛАН РАЗМЕЩЕНИЯ ЭЛЕКТРОУСТАНОВОЧНОГО ОБОРУДОВАНИЯ",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "unlocked_by": [
+        "cap4-furniture",
+        "cap6-scenarios"
+      ],
+      "scope_note": "Розетки расставлены эвристикой по сторонам комнат - это заглушка, а не проект.",
+      "our_tooling": [
+        "tools/drawings/apartment_sheet_from_ifc.py"
+      ],
+      "gap": "Позиции должны следовать из мебели, техники и сценариев, а не из геометрии комнаты."
+    },
+    {
+      "number": "9",
+      "title_ru": "ПЛАН МАРКИРОВКИ ДВЕРНЫХ ПРОЁМОВ",
+      "our_scope": "in_scope",
+      "capability": "needs_new_renderer",
+      "unlocked_by": [
+        "cap9-marks-and-tables"
+      ],
+      "scope_note": "Проёмы в модели есть (7 дверей, 4 окна); нужны марки и таблица.",
+      "our_tooling": [
+        "tools/drawings/apartment_sheet_from_ifc.py"
+      ],
+      "gap": "Нет генератора марок и табличного блока."
+    },
+    {
+      "number": "10",
+      "title_ru": "ПЛАН РАЗМЕЩЕНИЯ САНТЕХНИЧЕСКОГО ОБОРУДОВАНИЯ",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "unlocked_by": [
+        "cap4-furniture"
+      ],
+      "scope_note": "Лист выпускается с 3 приборами; нужен подбор приборов и выводы воды/канализации.",
+      "our_tooling": [
+        "tools/drawings/apartment_sheet_from_ifc.py"
+      ],
+      "gap": "Нет выбранных приборов и точек подключения."
+    },
+    {
+      "number": "11-15",
+      "title_ru": "3Д МАКЕТ (прихожая, санузел, кухня-гостиная, детская, спальня)",
+      "our_scope": "in_scope",
+      "capability": "needs_new_renderer",
+      "unlocked_by": [
+        "cap10-massing-style"
+      ],
+      "scope_note": "Именно массинг, а не рендер - обещание, которое мы можем сдержать.",
+      "our_tooling": [
+        "tools/blender/build_apartment_demo.py"
+      ],
+      "gap": "Нет единого серого монохромного стиля и покомнатных ракурсов."
+    },
+    {
+      "number": "-",
+      "title_ru": "СХЕМА РАЗМЕЩЕНИЯ КОНТУРОВ ТЁПЛОГО ПОЛА",
+      "our_scope": "out_of_scope",
+      "capability": "not_started",
+      "unlocked_by": [],
+      "scope_note": "Решение пользователя 2026-08-26: тёплый пол не устанавливается. Лист исключён из комплекта; при отказе от решения вернуть его в план полов как отдельный слой."
+    }
+  ]
+}

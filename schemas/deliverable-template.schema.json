@@ -5,35 +5,85 @@
   "description": "The sheet list of a real, delivered document set, observed in an album a named practitioner published - plus, per sheet, what this repo's own tooling would need in order to produce the equivalent. The target that the wiki -> layout -> CAD pipeline is aiming at.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "template_id", "name", "provenance", "sheets"],
+  "required": [
+    "schema_version",
+    "template_id",
+    "name",
+    "provenance",
+    "sheets"
+  ],
   "properties": {
-    "schema_version": { "type": "string", "const": "0.1.0" },
-    "template_id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
-    "name": { "type": "string" },
+    "schema_version": {
+      "type": "string",
+      "const": "0.1.0"
+    },
+    "template_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string"
+    },
     "tier": {
-      "enum": ["planning_project", "design_project", "working_drawings", "other"],
+      "enum": [
+        "planning_project",
+        "design_project",
+        "working_drawings",
+        "other"
+      ],
       "description": "Product tier as the practitioner markets it. planning_project deliberately omits visualisation and schedules."
     },
     "provenance": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["author", "source_file"],
+      "required": [
+        "author",
+        "source_file"
+      ],
       "properties": {
-        "author": { "type": "string" },
-        "source_file": { "type": "string" },
-        "source_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
-        "pages_dir": { "type": "string" },
-        "page_count": { "type": "integer" },
-        "project_name": { "type": "string" },
-        "year": { "type": "integer" },
-        "sheet_format": { "type": "string", "description": "e.g. A3 landscape" },
-        "scale": { "type": "string", "description": "e.g. 1:50, or 'scale bar only'" },
-        "case_ids": { "type": "array", "items": { "type": "string" } }
+        "author": {
+          "type": "string"
+        },
+        "source_file": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "pages_dir": {
+          "type": "string"
+        },
+        "page_count": {
+          "type": "integer"
+        },
+        "project_name": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        },
+        "sheet_format": {
+          "type": "string",
+          "description": "e.g. A3 landscape"
+        },
+        "scale": {
+          "type": "string",
+          "description": "e.g. 1:50, or 'scale bar only'"
+        },
+        "case_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "excluded_from_scope": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "What this tier deliberately leaves out, in the practitioner's own terms - the difference between tiers is mostly this list."
     },
     "sheets": {
@@ -42,30 +92,91 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["number", "title_ru"],
+        "required": [
+          "number",
+          "title_ru"
+        ],
         "properties": {
-          "number": { "type": "string", "description": "Sheet number as printed, e.g. '4' or '14.2'." },
-          "pdf_page": { "type": "integer" },
-          "title_ru": { "type": "string" },
-          "title_en": { "type": "string" },
-          "purpose": { "type": "string", "description": "What a builder actually uses this sheet for." },
+          "number": {
+            "type": "string",
+            "description": "Sheet number as printed, e.g. '4' or '14.2'."
+          },
+          "pdf_page": {
+            "type": "integer"
+          },
+          "title_ru": {
+            "type": "string"
+          },
+          "title_en": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string",
+            "description": "What a builder actually uses this sheet for."
+          },
           "consumes": {
             "type": "array",
-            "items": { "type": "string" },
+            "items": {
+              "type": "string"
+            },
             "description": "What data the sheet needs - e.g. 'measured plan', 'furniture layout', 'circuit assignment'."
           },
           "producible_from": {
-            "enum": ["ifc_model", "ifc_model_plus_schedule", "manual_decision", "not_yet_modelled"],
+            "enum": [
+              "ifc_model",
+              "ifc_model_plus_schedule",
+              "manual_decision",
+              "not_yet_modelled",
+              "already_generated"
+            ],
             "description": "Honest statement of whether this repo could generate the sheet today from data it holds."
           },
           "our_tooling": {
             "type": "array",
-            "items": { "type": "string" },
+            "items": {
+              "type": "string"
+            },
             "description": "Repo-relative scripts that would generate or contribute to it."
           },
-          "gap": { "type": "string", "description": "What is missing before we could produce this sheet." }
+          "gap": {
+            "type": "string",
+            "description": "What is missing before we could produce this sheet."
+          },
+          "our_scope": {
+            "enum": [
+              "in_scope",
+              "out_of_scope",
+              "deferred"
+            ],
+            "description": "Our decision for this project - not the source practitioner's. Absent on records of someone else's album."
+          },
+          "scope_note": {
+            "type": "string",
+            "description": "Why the scope decision was made, and by whom."
+          },
+          "capability": {
+            "enum": [
+              "generated",
+              "prototype",
+              "needs_model_data",
+              "needs_new_renderer",
+              "not_started"
+            ],
+            "description": "generated: a sheet exists today from the current model. prototype: a sheet generates but its content is heuristic, not designed. needs_model_data: renderer would work once the model carries the data. needs_new_renderer: data exists or is easy, the drawing code does not."
+          },
+          "unlocked_by": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Roadmap capability ids this sheet waits on."
+          }
         }
       }
+    },
+    "derived_from": {
+      "type": "string",
+      "description": "template_id of the observed album this target set is modelled on. Present only on our own target sets, never on a record of someone else's album."
     }
   }
 }

@@ -63,11 +63,25 @@ The album is the *last* step. Dolgushev's process, from the same source:
 Steps 2–4 are the part this repo's `variants[]` structure exists to hold — see
 [`data/layout_cases/dolgushev-novaya-riga.json`](../data/layout_cases/dolgushev-novaya-riga.json).
 
+## Our own target set (scope decision 2026-08-26)
+
+Underfloor heating is **not being installed**, so that sheet is dropped: our
+target is **11 sheets**, recorded with per-sheet scope and capability status in
+[`price-scrapper-target-set.json`](../data/deliverable_templates/price-scrapper-target-set.json),
+with the work to get there in [Sheet_Production_Roadmap.md](Sheet_Production_Roadmap.md).
+
 ## Sheet list of the planning project (16 sheets)
 
 Machine-readable, with per-sheet "can we generate this today?" verdicts, in
 [`dolgushev-planirovochny-proekt.json`](../data/deliverable_templates/dolgushev-planirovochny-proekt.json).
 Summary of where this repo stands:
+
+> [!NOTE]
+> Corrected 2026-08-26 after inspecting `data/outputs/current_apartment/sheets/`:
+> four A3 sheets **already generate** from the IFC seed (architectural, floor plan,
+> electrical/lighting, plumbing), with symbol-placement validation. The verdicts
+> below were written before that check and understated what exists; the current
+> per-sheet status lives in the target set and the roadmap.
 
 - **Producible from the model we already build** (4 sheets): furniture plan,
   survey/demolition plan, new-partitions plan, door-opening marking plan —
