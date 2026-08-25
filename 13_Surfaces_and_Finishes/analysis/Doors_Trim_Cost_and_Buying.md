@@ -65,4 +65,41 @@ See [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]] for the 
   The large cost delta is attributed specifically to the solid-wood +
   two-tone-paint combination, not the color-matching concept itself.
   `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1amhehTMxcg_kachanova_ideal_2room_family_child|YT_1amhehTMxcg]]]
+- Sasha_Life_Vlog (individual DIY renovator, real personal purchase, added
+  2026-08-25) reports: a single real hardware-store purchase of **one
+  interior door + a doorway trim/extension kit ("добор") for a kitchen
+  opening, hinges and handles included**, totaled **≈14,114 RUB (≈$190,
+  2021 RUB, trailing-6-month rate to 2021-11-26; region unresolved)**,
+  described by the buyer herself as "дороговато" (kind of expensive) for
+  her budget. **Separately estimated installation cost of ≈5,000 RUB**
+  brought the combined door+install total to **≈20,000 RUB (≈$270)** for
+  one door and doorway opening — also called "expensive" by the source.
+  A real single-purchase data point, not a market survey. `single-
+  account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6VSQtiwkdcI_sasha_life_vlog_interior_door_price|YT_6VSQtiwkdcI]]]
+- Sasha_Life_Vlog also reports a genuine door-installer sourcing
+  difficulty (added 2026-08-25): the same installer who fit prior doors
+  in this apartment accepted a new order but couldn't give even an
+  approximate date, prompting the household to consider finding a
+  different installer — a real single-account anecdote about
+  door-installation labor availability, not confirmed as a general
+  market condition. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6VSQtiwkdcI_sasha_life_vlog_interior_door_price|YT_6VSQtiwkdcI]]]
+- "Испанский ремонт" (Alicante, Spain, added 2026-08-25 — this project's
+  first Spain/EUR-region source) reports a real floor/baseboard-retention
+  decision, driven by a structural constraint worth generalizing: **the
+  apartment's own front entry door opens inward into the corridor**,
+  meaning any floor buildup (new flooring layered atop existing tile)
+  risked the door no longer clearing the floor. Combined with existing
+  tile (1.5cm thick, on a loose cement bed over thick sand) being costly
+  to remove (large debris volume, a full new screed pour required), the
+  practical choice was to **paint the existing tile floor and its
+  matching tile baseboards** rather than replace either. **Check entry-door
+  swing/floor clearance before committing to any renovation option that
+  raises floor height in a hallway**, independent of aesthetic
+  preference. A specialty water/impact-resistant tile floor paint cost
+  **≈25 EUR per 700g (≈$30, rough manual EUR/USD estimate — not run
+  through this project's own RUB/BYN-only currency-conversion tooling)**;
+  applied directly to the tile per the manufacturer's own guidance (no
+  separate floor primer), 2 coats with ~24h drying between coats. Stated
+  design rule: baseboards should always match the color of the door/trim
+  casings. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dsBkqzhX08I_ispanskiy_remont_hallway_full_reno|YT_dsBkqzhX08I]]]
 - RemProektMD/Andrei recommends (Chișinău/Moldova channel, region level 2 only): **plastic baseboards over MDF or polyurethane for budget work** — the rubber edge gasket on a plastic baseboard presses flush against an imperfectly-flattened wall, visually hiding waviness that a rigid MDF/polyurethane baseboard (no gasket) would reveal. **Secondary benefit**: the gap between a plastic baseboard and the wall can route a forgotten/late-added cable without re-cutting into the wall, though the source still recommends planning cable routing in advance as the primary approach, not relying on this as a first resort. `single-account`, no absolute price given. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]

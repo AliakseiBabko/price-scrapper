@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=LPcgC50HCMY",
+  "video_id": "LPcgC50HCMY",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T11:13:39.188828+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "889577173ff1a4ff8f81f52bd124c5709d671baa6139253c7914d9e7e8849cd9",
+  "attempts_before_success": []
+}

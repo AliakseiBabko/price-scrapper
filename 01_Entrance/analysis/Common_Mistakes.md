@@ -28,3 +28,30 @@ Part of [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]].
   adjoining corridor, but a load-bearing wall blocked the plan
   entirely** — a real example of a replanning ambition constrained by
   structure, not just preference. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+- **First-time hallway baseboard (plinth) installation, real failure
+  modes** (added 2026-08-25): a fixed wall-mounted corner obstruction
+  blocked an intended continuous baseboard run, forcing a visibly awkward
+  junction — survey the wall for fixed protrusions *before* buying
+  baseboard length/corner-piece counts. Separately, **thick electrical
+  wiring was discovered inside the wall exactly where a hammer drill was
+  needed to seat the baseboard flush** — the household left a visible gap
+  rather than risk cutting the wiring. Check for hidden electrical routing
+  before hammer-drilling/chiseling a wall for trim; a live-wiring conflict
+  can force a permanent visible compromise, not just a delay. A doorway
+  threshold miscut by an earlier installer (a separate trade) also could
+  not be corrected without replacing it — a real cross-stage QC handoff
+  failure. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cCDk-1hthR4_sasha_life_vlog_baseboard_mistakes|YT_cCDk-1hthR4]]]
+- **A door jamb left uneven by the installers who fit the door** (added
+  2026-08-25) — jamb finishing is not automatically included in door
+  installation and needs separate planning/budget even for an
+  installation-only job. Attempting to mount a plastering guide-profile
+  with double-sided tape (instead of screws, due to lacking drilling
+  tools/ability) failed outright — plan for real mechanical fastening
+  before relying on this shortcut. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LPcgC50HCMY_sasha_life_vlog_door_jamb_plaster_ep3|YT_LPcgC50HCMY]]]
+- **Doing electrical/wiring work energized ("live") purely to keep filming
+  a video** (added 2026-08-25) — one source did exactly this and states
+  directly, as a caution to viewers: "repeating this and working on live
+  wiring is dangerous to health and life." Recorded here as a documented,
+  self-flagged unsafe practice, not a technique to copy — de-energize a
+  circuit before modifying it, regardless of filming convenience.
+  `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sAXC1hn8u9A_kvartiranty_hallway_wall_prep_electrical|YT_sAXC1hn8u9A]]]

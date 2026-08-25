@@ -134,6 +134,17 @@ page (line 5 above, and the physical-differentiation rule below):
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zuh3k15-STo_petrishin_master_switch|zuh3k15-STo_petrishin_master_switch]]]
 
+## Multi-Gang Switch Sequencing Should Match Walking Direction (added 2026-08-25, Квартиранты)
+
+A real household's own hallway rewiring: a 3-button switch panel by the
+entry door is wired so **button 1 controls the living room, button 2 the
+hallway's own light, and button 3 a picture's accent backlight** —
+deliberately ordered to match the sequence a person encounters walking
+from the entry door inward, rather than an arbitrary left-to-right
+assignment. A directly reusable multi-gang-switch layout principle for a
+corridor with several independently-lit zones in a row: order the gangs to
+match the walking path, not panel geometry. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sAXC1hn8u9A_kvartiranty_hallway_wall_prep_electrical|YT_sAXC1hn8u9A]]]
+
 ## Named Product Line and a Frame-Swap Lifehack (added 2026-08-24, Round 2)
 
 Pavel Sidorik names **EKF-brand outlets/switches, "Valencia" series**, with a direct price/quality assessment: "хороший вариант по соотношению цена и качество" (good price-to-quality ratio). Devices planned for one project: two-gang switch, two-gang pass-through (3-way/traveler) switch, one-gang switch, grounded outlets, outlets with integrated USB charging ports, network/ethernet outlets — a TV antenna outlet was considered and explicitly excluded. **Cosmetic lifehack: swap only the switch/outlet's outer frame (рамка) to a different color while keeping the same white mechanism/base** — frames are sold separately from the mechanism, making this a cheaper way to get a color accent than buying an entirely different product line. `single-account`, region unresolved for this episode (series-level Belarus attribution established elsewhere in this channel's other episodes). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9-NjgDLleOw_sidorik_electrical_ep6|9-NjgDLleOw_sidorik_electrical_ep6]]]

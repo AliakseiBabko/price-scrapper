@@ -159,3 +159,29 @@ conduit exists specifically to enable future wire replacement without
 demolition. `single-account`, `unverified`.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_yyW9WaW3Pls_petrishin_electrical_floor_vs_ceiling|yyW9WaW3Pls]]]
+
+## Locating a Concealed Junction Box, and a Live-Wiring Safety Caution (added 2026-08-25, Квартиранты)
+
+An individual homeowner (not a professional electrician), needing power for
+a new light fixture with no visible nearby source: **tapped the wall near
+the ceiling above an existing switch and listened for a hollow sound at
+several points** — this located a plastered-over, concealed junction box
+at the wall/ceiling seam. **A directly reusable diagnostic technique**:
+knock-testing along a wall/ceiling seam near an existing switch/outlet to
+find a concealed junction box before assuming new wiring must run all the
+way from the breaker panel. Once found, he broke open the plastered-over
+gap, drilled a short vertical chase from the ceiling down to the new
+wire's exit point with a hammer drill and masonry bit, threaded the new
+wire through, and filled the chase with **Rotband patching compound that
+was past its stated shelf life** — treating expired setting compound as
+still usable for a non-critical, purely cosmetic channel fill (not a
+structural application).
+
+**⚠️ Explicit, self-identified unsafe practice**: the source performed
+this work **live (energized)**, specifically because he wanted to film
+the process and needed the light on to do so, and states directly:
+"repeating this and working on live electrical wiring is dangerous to
+health and life." Recorded here as a documented, self-flagged bad
+practice, not a technique to copy — de-energize a circuit before
+modifying it, regardless of filming/visibility convenience.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sAXC1hn8u9A_kvartiranty_hallway_wall_prep_electrical|YT_sAXC1hn8u9A]]]

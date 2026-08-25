@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=cCDk-1hthR4",
+  "video_id": "cCDk-1hthR4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T11:15:25.397114+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c7a10bde4307b082971d1c89c62b56c727d4d618c5c222960db1b5864a6bd82c",
+  "attempts_before_success": []
+}

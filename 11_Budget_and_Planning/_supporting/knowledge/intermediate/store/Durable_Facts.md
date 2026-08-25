@@ -14,6 +14,7 @@ This is a navigation aid over the chronological `###` batches below; it does not
 ### Hallway
 
 - `### Quantities / Measurements — Minimum Corridor Width (added 2026-08-17)`
+- `### Walls / Ceilings / Doors-Trim / Electrical / Mistakes-Warnings — Hallway Execution Technique Batch (added 2026-08-25)`
 
 ### Kitchen
 
@@ -2017,4 +2018,73 @@ Full detail in each source's own extraction note: [[11_Budget_and_Planning/_supp
 - **⚠️ Refusal to quote from an unfinished apartment**: a rough-shell apartment is functionally a "clone" of every same-area unit until engineering specs are finalized — electrical-panel and flooring costs specifically can vary "tens of times" depending on final spec, making an on-site verbal quote effectively a quote for something not yet real.
 - **Stated real full design-project timeline: ~2-3 months**, split roughly evenly between designer working time and client review/approval turnaround — a direct rebuttal to requests for a 2-week design project.
 - **Client-site-visit access gated by financial commitment** (paid design project) once a company has enough completed objects that unlimited free tours would take time from paid work.
+
+### Walls / Ceilings / Doors-Trim / Electrical / Mistakes-Warnings — Hallway Execution Technique Batch (added 2026-08-25)
+
+10-video batch targeting `02_Hallway/` (real corridor-execution content,
+distinct from `01_Entrance/Entrance_and_Hallway_Guide.md`'s existing
+layout/storage/lighting-decision content). 9 of 10 videos fetched (1
+skipped, no captions — `YT_rXXzU6y3-QM`, "ИнДизайн" channel).
+
+- **Faux-brick wall built from gypsum plaster over a hand-drawn grid**
+  (Sasha_Life_Vlog, one real DIY project across 4 episodes used here —
+  `YT_rmYOxoub5y0`, `YT_LPcgC50HCMY`, `YT_dvlxMc4X9_0`, `YT_uzUqoUG0-Xs`):
+  full grid-layout formula (7.5cm brick-width lines, 25cm/13cm-offset
+  length lines), 12mm stationery tape for mortar-joint masking, and the
+  core counterintuitive insight that applying the plaster *unevenly*
+  (not smoothly) produces a more convincing brick texture. A door-jamb
+  plastering episode documents a real technique failure (double-sided
+  tape as a substitute for screws to mount a guide-profile — failed
+  outright). A later episode documents the painting/finishing technique
+  (brush mortar-joints, then dry-roller the brick faces for a soft
+  "meringue" texture) and real material prices (paint 850 RUB≈$10,
+  baseboard 676 RUB≈$10, trip total 2,489 RUB≈$30, all 2022 RUB,
+  trailing-6-month rate). A real interior-door + kitchen-doorway-kit
+  purchase (same project) cost ≈14,114 RUB≈$190 (2021 RUB) plus a
+  ≈5,000 RUB install estimate. First-time baseboard installation
+  produced real, checkable failure modes: a fixed wall obstruction, and
+  — more significantly — **hidden electrical wiring discovered exactly
+  where a hammer drill was needed**, forcing a permanent visible gap
+  rather than risking the wiring; a prior installer's miscut door
+  threshold could not be corrected without replacement, a real cross-
+  stage QC handoff failure.
+- **Full hallway plaster/paint sequence, independent second account**
+  ("Испанский ремонт"/"Spanish Renovation," `YT_dsBkqzhX08I` — **this
+  project's first Spain/EUR-region source**, level-1 confirmed: Alicante,
+  Spain): non-load-bearing partition and 1960s dropped-ceiling demolition
+  (straw-and-gypsum suspended ceiling over concrete joists/brick — a
+  regional-construction-history data point); a ceiling section near
+  shared-building wiring deliberately left as a visible "step" rather
+  than fully rebuilt (blast-radius-vs-compromise reasoning); a deliberate
+  wall-texture decision for narrow, light-painted corridors (a long-nap
+  roller "cobweb" texture, reasoning: scratches show less on texture than
+  on smooth-and-light); a named regional-market observation (plaster
+  guide-rails/beacons and a CIS-style screed tool were hard to source in
+  Alicante as of 2021, improving since — the source's own opinion,
+  flagged `single-account`); a floor/baseboard-retention decision driven
+  by an inward-opening entry door constraining floor-height buildup, plus
+  a real tile-floor-paint price (≈25 EUR/700g≈$30, rough manual EUR/USD
+  estimate — **this project's `currency_converter.py` tool does not yet
+  support EUR**, flagged as a gap, not blocking extraction).
+- **Hallway zoning via furniture-and-lighting composition, plus real
+  electrical technique** (Квартиранты, `YT_sAXC1hn8u9A`): a symmetric-
+  offset method for centering a mirror/console/wardrobe composition
+  opposite a living-room doorway (160-180cm × 100cm console dimensions),
+  reinforced by a deliberate color break between zones; a concealed-
+  junction-box knock-test location technique; multi-gang switch
+  sequencing matched to walking direction; and an **explicit, self-
+  flagged unsafe practice** (working live/energized purely to keep
+  filming) recorded as a documented caution, not a technique to copy.
+- **Thin/low-value pass** (mawavlog18, `YT_c2ifRGBo-q4`) — confirmed this
+  batch's own stated risk of personal-vlog-heavy content within a
+  selected video; only one minor, unverified technique point recorded
+  (corner-economy wallpapering in a small hallway).
+
+Routed to `01_Entrance/analysis/Wall_Finish_Technique.md` (new page),
+`01_Entrance/analysis/Common_Mistakes.md`, `01_Entrance/analysis/
+Layout_and_Zoning.md`, `13_Surfaces_and_Finishes/Doors_and_Trim.md`, and
+`12_Engineering_and_Systems/Electrical_and_Lighting.md` — see each page's
+own Change Log for the exact split. `Budgeting_Guide.md` not updated —
+no headline pricing figure from this batch changes its synthesized
+framing.
 

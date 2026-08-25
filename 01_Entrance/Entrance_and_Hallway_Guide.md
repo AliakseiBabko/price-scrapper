@@ -15,7 +15,7 @@ placeholders) — those pages link here for sourced reasoning rather than
 duplicating it.
 
 > [!NOTE]
-> **Corroboration note.** Nine sources so far, from **six independent
+> **Corroboration note.** Sixteen sources so far, from **nine independent
 > channels/practitioners** (unlike several other pages in this vault built
 > from one repeating channel): INMYROOM TV (a furniture-marketplace media
 > channel, three room-tour-compilation videos covering 17 different
@@ -26,14 +26,20 @@ duplicating it.
 > rules video), and Alla Krol (a design-studio owner's own channel, one
 > wardrobe/entryway technique video — added 2026-08-25, originally
 > dispatched as a second Anuta Vlady video but corrected to this distinct
-> channel on inspection). Most individual claims below are still
-> `single-account` (one household's or one practitioner's own view) —
-> genuine independent agreement is called out explicitly where it occurs
-> (e.g. the heated-floor recommendation, repeated by unrelated
+> channel on inspection), plus three more added later the same day from a
+> hallway-execution-technique batch: Sasha_Life_Vlog (an individual DIYer,
+> one real faux-brick-wall project spanning 4 episodes used here),
+> "Испанский ремонт"/"Spanish Renovation" (an individual tradesperson's own
+> full hallway renovation in Alicante, Spain — this project's first
+> Spain/EUR-region source), and Квартиранты (a couple documenting their
+> own rented apartment's renovation). Most individual claims below are
+> still `single-account` (one household's or one practitioner's own view)
+> — genuine independent agreement is called out explicitly where it
+> occurs (e.g. the heated-floor recommendation, repeated by unrelated
 > households), and genuine disagreement is likewise flagged rather than
-> silently resolved. No source in this batch names a specific city/region
-> at level 1 with the sole exception of Olga Kachanova's source (West
-> Moscow, 2011-built building) — treat every other fact here as
+> silently resolved. Two sources name a specific location at level 1: Olga
+> Kachanova's (West Moscow, 2011-built building) and "Испанский
+> ремонт"'s (Alicante, Spain) — treat every other fact here as
 > region-unresolved.
 
 ## Layout & Zoning
@@ -146,6 +152,28 @@ goal.
 heated-floor data points side by side, transition-joint techniques,
 lighting fixtures, and Kruglov's full material/baseboard guidance)
 
+## Wall-Finish Execution Technique
+
+New for this batch (2026-08-25): real corridor-execution technique, as
+opposed to the layout/storage/lighting *decisions* covered above. A
+Sasha_Life_Vlog individual DIY project documents a full faux-brick-wall
+method built from gypsum plaster over a hand-drawn grid — the key,
+non-obvious insight being to apply the plaster **deliberately unevenly**,
+since an uneven surface reads as convincing 3D brick while a smooth one
+works against the effect. A door-jamb-plastering episode from the same
+project documents a real technique failure (mounting a plastering
+guide-profile with double-sided tape instead of screws) worth knowing
+before relying on that shortcut. Independently, a tradesperson's full
+hallway renovation in Alicante, Spain (this project's first Spain/EUR-
+region source) gives the batch's most complete plaster-through-paint
+sequence, including a deliberate wall-texture decision for narrow, light-
+painted corridors specifically, and a first-hand account of regional
+plastering-tool availability.
+
+→ **[[01_Entrance/analysis/Wall_Finish_Technique|Full detail]]** (the
+full faux-brick method, door-jamb technique, and the Spanish source's
+full plaster/paint sequence)
+
 ## Common Mistakes
 
 A heavy pull-out shoe-storage drawer mounted flush against a wall
@@ -157,7 +185,14 @@ steam missing the hood) — verify cooktop orientation relative to hood
 type at design time (Olga Kachanova). A countertop multicooker sited too
 close to an active cooktop melted its own base when the cooktop switched
 on unintentionally — keep small appliances outside a cooktop's heat/
-splash range in a tight footprint.
+splash range in a tight footprint. A first-time baseboard installation hit
+real, checkable failure modes worth planning around: a fixed wall
+obstruction blocking the intended run, and — more importantly — thick
+electrical wiring discovered exactly where a hammer drill was needed,
+forcing a permanent visible gap rather than risking the wiring. A door
+jamb left uneven by installers, and an explicit self-flagged case of doing
+electrical work live purely to keep filming, round out this batch's real
+mistake/QC content.
 
 → **[[01_Entrance/analysis/Common_Mistakes|Full detail]]**
 

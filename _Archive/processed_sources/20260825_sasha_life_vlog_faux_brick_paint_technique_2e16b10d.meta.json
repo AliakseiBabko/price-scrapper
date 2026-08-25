@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=dvlxMc4X9_0",
+  "video_id": "dvlxMc4X9_0",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T11:16:22.391958+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "2e16b10dbd0055790da5e4895ce54233d700c11e569afa8e46ea67ba091e0ff3",
+  "attempts_before_success": []
+}
