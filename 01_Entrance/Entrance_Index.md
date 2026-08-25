@@ -1,5 +1,7 @@
 # 🚪 Entrance (Foyer) Planning
 
+> See [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]] for sourced layout, storage, flooring/lighting, and mistakes-to-avoid reasoning gathered from multiple independent channels — this page stays this project's own floor-plan worksheet.
+
 * **Floor Area**: `2.44 m²`
 * **Ceiling Height**: `2.55 m`
 * **Est. Dimensions**: `2.04 m` x `1.14 m`

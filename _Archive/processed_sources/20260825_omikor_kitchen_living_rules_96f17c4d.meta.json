@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ncOI16-meB4",
+  "video_id": "ncOI16-meB4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T06:42:18.988317+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "96f17c4d3b41aef4272a971f5094c3268945f6d40423153c907626f8fcc523cd",
+  "attempts_before_success": []
+}

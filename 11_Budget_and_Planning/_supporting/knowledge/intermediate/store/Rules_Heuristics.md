@@ -653,3 +653,462 @@ bar):
   routine), mount it out of normal reach (inside a closet) to prevent
   accidental triggering. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
 
+**3rd source, added 2026-08-25 — INMYROOM TV, "Top 8 Thoughtful Entryways" compilation (8 unnamed households, region unresolved for all segments) — crosses the 3+-source threshold; dedicated page created this session, see below:**
+
+- Heated entryway flooring recommended independently by two of the eight
+  featured households (speeds drying of wet/snowy shoes; a pass-through
+  entry corridor is otherwise noticeably cold) — corroborates and extends
+  the Kruglov entry above with the drying-time reasoning specifically.
+  `single-account` per household, independently repeated across unrelated
+  projects. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+- A level, threshold-free transition between two different entry floor
+  materials (tile + engineered board) can be achieved with a liquid-cork
+  joint instead of a conventional metal/plastic transition strip, avoiding
+  a raised trip hazard. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+- Tall (floor-to-ceiling, ~2.70m) entrance doors read as making ceiling
+  height taller than it is — cited independently by two of the eight
+  featured households as a deliberate visual technique. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+- Hide an electrical panel behind a removable decorative wall panel built
+  with a ~10cm air gap specifically for panel ventilation (prevents
+  overheating once enclosed) — the gap doubles as small storage niches on
+  each side. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+- Consolidating a wardrobe-and-laundry combo (washer, dryer, clothing
+  rail, boiler) into the entryway rather than the bathroom lets laundry
+  run independently while the bathroom is in use by someone else — a
+  concrete zoning rationale distinct from simply relocating a washer for
+  space reasons. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+- In a small entryway, prefer bold/dark colors plus mirrors over defaulting
+  to light colors to visually enlarge the space — stated as a deliberate
+  counter to the common assumption that small spaces need light colors.
+  `single-account`, opinion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+- Prefer hanging coats on hangers over wall hooks — holds shape/dries
+  better and looks tidier than a row of hooked coats. `single-account`.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+- Mistake: a heavy pull-out shoe-storage drawer mounted flush against the
+  wall scratched it in normal use — build in a small standoff/spacer block
+  before installing a heavy sliding mechanism. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+
+**4th source, added 2026-08-25 — INMYROOM TV, "Top 5 Entryways from 2m² in Khrushchevkas" compilation (region unresolved):**
+
+- Don't treat wavy/uneven khrushchevka-era walls as a defect requiring full
+  re-plastering — one project trued corners only where built-in furniture
+  needed a flat surface, left the rest wavy after cleaning/painting;
+  faster/cheaper with no stated quality-of-life cost. `single-account`,
+  opinion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
+- Dark ceilings matching the wall color are a deliberate technique for a
+  cozier, enclosed feel in a small entryway/bedroom/study — extends the
+  bold/dark-color-for-small-spaces technique above to ceilings
+  specifically. `single-account`, opinion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
+- Battery-powered, motion-sensor LED puck lights (no wiring) inside
+  entryway storage — turn on automatically on entry, auto-off after a
+  timeout; a low-cost no-wiring lighting option for a storage niche.
+  `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
+- A cork-compensator joint between tile and wood/laminate flooring
+  corroborates the liquid-cork threshold-free transition technique above,
+  from a second, independent household. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
+- A mirror built directly into a door leaf (rather than wall/furniture-
+  mounted) is a space-saving mirror solution specifically for a small
+  entryway. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
+- Removing an obsolete interior door/doorway and converting it to an open
+  doorway can widen a narrow connecting corridor cheaply — a real
+  space-gain move short of a full replan. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
+- **Unresolved disagreement, flagged not resolved**: this source's
+  deliberately-open entryway shoe shelf (kept open specifically to double
+  as a daily outfit-picking display) runs counter to the Kruglov-sourced
+  "prefer closed storage over open shelving" entry above — both positions
+  recorded, neither adopted as this store's default; the two serve
+  different stated purposes (general clutter-avoidance vs. a specific
+  daily-use display case). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
+
+**5th source, added 2026-08-25 — INMYROOM TV, "4 Practical Entryways in Different Styles" compilation (region unresolved):**
+
+- Match an entryway's accent color to an already-chosen accent color
+  elsewhere in the apartment for intentional whole-home visual continuity.
+  `single-account`, opinion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jxx99px88HA_inmyroom_4_entryways_styles|YT_jxx99px88HA]]]
+- Always physically test a specified paint color at full scale on the
+  actual wall before finalizing it, even when the color was already fixed
+  in an approved design project — real on-site lighting/reflection can
+  make a color read noticeably differently than the design swatch.
+  `single-account`, generalizable process caution. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jxx99px88HA_inmyroom_4_entryways_styles|YT_jxx99px88HA]]]
+- Weathered/pre-aged wood cladding is a durability choice for a small,
+  heavy-traffic entryway wall — reasoning given: paint/wallpaper in a
+  small entryway wears and gets dirty regardless of care taken, while
+  cladding is far more durable. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jxx99px88HA_inmyroom_4_entryways_styles|YT_jxx99px88HA]]]
+- Size entryway wardrobe storage generously based on a named prior pain
+  point (a previous home's insufficient storage caused coats to pile up
+  messily) rather than a generic guess — one project even shifted interior
+  walls during replanning specifically to enlarge this storage zone.
+  `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jxx99px88HA_inmyroom_4_entryways_styles|YT_jxx99px88HA]]]
+- **Counter-data-point, flagged**: one household installed heated
+  entryway flooring but reports never actually using it — their shoes
+  don't get wet/dirty enough to need active drying, and the measured
+  monthly electricity cost was "quite expensive." This directly counters
+  the "always install entryway heated floor" recommendation independently
+  repeated by two other households above (`YT_xPxusEh-gow`) — recorded as
+  a genuine disagreement, not resolved. **Practical implication**: heated-
+  floor value is usage-pattern-dependent (climate, how often shoes are
+  actually wet/snowy), not a universal win — weigh actual household usage
+  and running cost against install cost rather than defaulting to "always
+  install it." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jxx99px88HA_inmyroom_4_entryways_styles|YT_jxx99px88HA]]]
+
+**6th source, added 2026-08-25 — Anuta Vlady (individual practicing designer, new channel), "How to Design a Long, Narrow Hallway" — the first genuinely Hallway-specific (not Entrance-specific) source, full extraction, region unresolved:**
+
+- Flooring board-layout direction changes a corridor's apparent
+  proportions: boards laid lengthwise (parallel to long walls) read as
+  longer/narrower; laid crosswise, the same corridor reads as wider —
+  neither is objectively correct, it's a deliberate choice by desired
+  effect. Large floor/tile patterns read as more cramped; small patterns
+  read as more open. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- Vertical lines/elements visually raise ceiling height; horizontal lines
+  (paint bands, panels, moldings) visually shorten wall height and widen
+  the room — horizontal generally suits a narrow corridor better.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- A dark accent wall at a long corridor's far end visually shortens its
+  perceived length; a dark ceiling reads as lower, avoiding a "well/shaft"
+  feeling. **If ceiling height exceeds ~3m, a dark ceiling alone isn't
+  enough** — extend the dark color partway down adjoining walls to
+  further compress apparent height and add apparent width.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- Light-fixture mounting height reinforces a dark-ceiling illusion:
+  recessed spots keep the light source high (weakest effect); surface-
+  mounted/flush fixtures lower it (stronger); pendant/hanging fixtures
+  lower it furthest and put the upper wall/ceiling into shadow, maximally
+  hiding real ceiling height. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- To visually shorten an over-long corridor, color-block it into distinct
+  zones rather than one uniform run: paint just the end wall dark; extend
+  that color onto an adjoining surface (e.g. ceiling) to visually "cut
+  off" a segment; or align a color division with a genuine architectural
+  feature (e.g. a locally lower-ceiling section gets its own color) rather
+  than an arbitrary point. Real applied case: an unremovable structural
+  beam became the natural boundary for a color transition from entryway
+  to kitchen accent color in a friend's in-progress budget renovation
+  (region unresolved, no cost data — project incomplete at filming).
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- Create a focal point directly in a corridor's forward sightline (accent
+  wall/artwork/object group straight ahead) rather than leaving a "boring
+  dead-end wall" — reasoning: people pay far less visual attention to
+  side walls while moving through a pass-through corridor than to
+  whatever's directly ahead, so the far wall's treatment matters more than
+  the side walls'. Avoid large-format artwork in a narrow corridor (no
+  room to stand back and view it) — prefer small-format pieces.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- When a corridor segment sits directly opposite an always-open (doorless)
+  living-room entrance, treat it as effectively part of that room's own
+  interior — share its decorative-lighting switch rather than adding a
+  separate one. **General rule**: don't give a pass-through corridor's
+  accent/picture lighting its own switch by default — combine with the
+  main ceiling-light switch. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- Choose mirror orientation deliberately relative to the direction you
+  actually want to expand — a full-length mirror on a corridor's long
+  wall expands its *length* (an already-long corridor reading as even
+  longer), which may not be wanted; orient/place a mirror to expand width
+  instead when length is already the problem, not the asset.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- Furniture (console, chest of drawers) sitting below the height of a
+  person's extended-arm fingertips reads as leaving the space "free" even
+  at the same footprint as a taller piece — people perceive personal
+  space at roughly arm's-length height; furniture below that line doesn't
+  register as encroaching on it. A wall-mounted/hung or tall-legged shoe
+  cabinet reads as more spacious than a floor-standing one of the same
+  capacity, per the general principle "the more visible floor, the more
+  spacious the room feels." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+- Shallow-depth furniture (bookshelves especially) suits a corridor's
+  limited depth; mixing floor-standing sections near the entry with
+  wall-hung sections further down the same run keeps progressively more
+  floor visible. A wall-hung (not floor-standing) cabinet is specifically
+  practical for a corridor's "wet zone" (wet outdoor gear/umbrellas) since
+  it keeps the floor dry/cleanable underneath — pairing with heated floor
+  speeds drying further, corroborating this batch's heated-floor-for-
+  drying theme with a hung-storage-plus-heated-floor combination.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+
+**7th source, added 2026-08-25 — ИНТЕРЬЕР НАЛИЦО (host Alexander interviews homeowner Zinaida), real 52m² replanning case, region unresolved:**
+
+- Demolished the wall separating a small, isolated Soviet-era-style
+  entryway from the living room, converting to an open "European-style"
+  layout — stated reasons: too cramped to turn around in (2 dogs) and
+  very little natural light. `single-account`, real project. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+- **A second, independent data point on the closed-vs-open entryway
+  storage question** (see the two entries above, `YT_oFGkW7wZsLo`'s
+  open-for-daily-display counter-example vs. the Kruglov source's
+  closed-storage preference): this household originally planned an open,
+  boutique-style lit shoe niche, but was "mega happy" it didn't work out
+  — in practice an open niche shows real everyday shoes in mixed/dirty
+  condition, not an idealized curated display, and they ended up with
+  closed storage instead, calling it "very successful." Now 2-for-closed
+  vs. 1-for-open across this batch — still not a resolved consensus, but
+  the concrete mechanism here (idealized open-display expectation vs.
+  daily reality) is worth weighing explicitly. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+- A "temporary" storage solution that outperforms the originally planned
+  permanent one is worth keeping — this household planned a fully
+  enclosed entry-storage mezzanine, used open baskets temporarily instead,
+  and kept the baskets permanently because the look read as
+  lighter/cozier than the planned enclosure would have. General planning
+  lesson: don't assume the as-designed solution beats a lived-with interim
+  one by default. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+- Quartz-vinyl herringbone flooring, chosen on an in-store salesperson's
+  recommendation, survived a real pre-move-in roof leak (flooded through
+  a neighboring unit, bubbled wallpaper, detached wall putty elsewhere)
+  completely unaffected — a concrete durability case for quartz-vinyl
+  against real water exposure. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+- A partial wall segment directly abutting/splitting a window in half —
+  described as a defect pattern common across neighboring units in the
+  same block-building type — was removed during replanning: it blocked
+  roughly half the window's light and was structurally degrading over
+  time from thermal expansion/contraction cycling. Worth checking
+  developer-era partition walls abutting windows for both light-blocking
+  and structural degradation before deciding to keep them. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+- A wallpaper accent choice deliberately reserved for the entry/corridor
+  zone specifically, reasoning stated directly: "a corridor takes up
+  square meters and gives no beauty by default, so this is where we
+  decided to add real visual impact" — a generalizable design-allocation
+  rationale for treating a hallway as worth a deliberate finish choice
+  rather than an afterthought. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+- An open bookshelf used as a soft zone divider between an open entry and
+  the living room (instead of rebuilding a wall) — doubles as zoning
+  element and book storage, a concrete alternative to a hard partition
+  for defining an open-plan entry/living boundary. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+
+**8th source, added 2026-08-25 — Olga Kachanova (host) interviews homeowner Natalya, real "kitchen relocated into the hallway" case, West Moscow, 2011-built individual-project building — level-1 region confirmed, the strongest in this batch:**
+
+- A prior owner relocated the kitchen out of its original zone into the
+  corridor/hallway, splitting a studio into two rooms; the current owner
+  bought it already in this configuration deliberately, valuing "every
+  square meter used productively, no dead corridors" over a conventional
+  layout. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- **Load-bearing planning lesson, stated directly by the household**: "if
+  I designed this myself, I'd put a proper entry storage/closet zone
+  *first*, then the kitchen zone — walk in, hang up your things, *then*
+  proceed further in." As built, the kitchen sits immediately at the
+  entry with no room for more than one person to dress/undress at a time
+  (3-person household takes turns). **General principle**: when a
+  kitchen (or any prep/bending-space function) sits directly at the
+  entry, verify a genuine shoe-off/coat-off transition zone still exists
+  ahead of it — don't let the kitchen function crowd it out entirely.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- The "dirty entry zone next to food prep" worry tested against 5 real
+  years: never actually a problem for this household — but explicitly
+  attributed to their own lifestyle (little tracked-in dirt), not a
+  general reassurance that this layout is always fine. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- IKEA bathroom wall cabinets (15cm depth) repurposed as slim open
+  kitchen/hallway wall storage for small items, where standard-depth
+  cabinets don't fit — check a shallow-depth product line from a
+  different room category specifically when depth (not width) is the
+  binding constraint. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- Cooktop-placement caution for a compact/hallway-adjacent kitchen: a
+  2-burner cooktop set against a wall (not along the countertop's open
+  front edge) under an angled hood caused real, ongoing complaints —
+  large pots touch/heat the wall panel, and steam escapes sideways past
+  the angled hood instead of rising into it. Verify cooktop orientation
+  relative to hood type at design time, not just hood spec alone.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- A bathroom-department wall panel substituted for a kitchen backsplash
+  behind a cooktop showed no warping/swelling after 5 years of direct
+  cooking heat — a real durability track record for this cross-category
+  material substitution, though not independently lab-verified.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- Mistake/warning: a countertop multicooker sited too close to an active
+  cooktop melted its own base when the cooktop was switched on
+  unintentionally — verify small appliance placement stays outside a
+  cooktop's heat/splash range, especially in a tight compact-kitchen
+  footprint. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- A compact/tabletop dishwasher, deliberately chosen (not a fallback) for
+  a family of 3 based on actual daily fill rate rather than dwelling
+  size — a real counter-example to assuming full-size is always
+  necessary. No drawers at all in this kitchen is an acknowledged real
+  design compromise (even cutlery storage is awkward) — verify a compact
+  kitchen keeps at least one functional drawer rather than optimizing it
+  away entirely. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- Kitchen furniture cost data point (Leroy Merlin catalog line, national
+  chain, ~2018 purchase): full set excluding appliances 51,000 RUB, same/
+  equivalent line ~100,000 RUB by 2023 — roughly doubled in 5 years; a
+  240cm countertop SKU went from 5,500 to ~11,000 RUB over the same span.
+  Whole-apartment furnishing-only budget (explicitly not a construction/
+  renovation budget — floors/ceilings were inherited as-is): ~600,000
+  RUB. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- A partition improvised from vintage secondhand solid-wood glazed
+  pocket/sliding doors (Avito, ~10,000 RUB purchase / ~17,000 RUB with
+  dismantling+transport) reported genuinely good real soundproofing (solid
+  wood + overlap + curtains) — one partner sleeps while the other watches
+  TV loud enough to hear but not make out dialogue. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+- Mistake/warning: a kitchen-style waterfall mixer installed over a
+  bathroom vessel sink purely for looks requires reaching to shut it off
+  with wet hands and drips onto the counter constantly — a real ongoing
+  form-over-function fixture caution, self-identified as the household's
+  "biggest mistake." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+
+### Kitchen-Living Combination Zoning (new topic area, added 2026-08-25 — Omikor/Elena, 1st source, no dedicated page yet)
+
+- Combined kitchen-living-room zoning is gated by total room area, with
+  concrete thresholds: under ~20m² is too small for three distinct zones
+  (kitchen, dining, living/TV); ~10m² supports kitchen+dining but not a
+  separate living zone; ~50m² gives real room to spread all three out;
+  **~35m² is cited as workable for a family of four (two children)** —
+  kitchen+dining on the side nearer the entry, living/TV zone on the
+  other. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+- Dining-table clearance rule: leave a minimum of 1.1m clear on both
+  sides of any dining table for chair pull-out/seating, 1.2m preferred
+  for genuine comfort — a fixed rule regardless of table size. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+- Size the kitchen-zone footprint against actual household cooking
+  intensity, not a fixed default: an active cook needing a food
+  processor/juicer/full oven/large fridge justifies a larger (possibly
+  L-shaped/corner) kitchen footprint at dining's expense; a light/
+  occasional cook can work with a minimal footprint (small sink, ~60cm
+  worktop, 2-burner cooktop, fridge), freeing floor area for dining
+  instead. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+- Tall column-style cabinets are the most space-efficient storage option
+  in a combined kitchen-living zone, holding more volume than an
+  equivalent footprint of standard base + wall cabinets. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+- When a kitchen and living room form one continuous open space, unify
+  the design language across both — kitchen cabinet facades should
+  coordinate with living-room furniture facades (matching, or different
+  materials that complement each other); don't treat the kitchen as a
+  stylistically separate zone once the space is physically open. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+- Plan distinct lighting scenarios per zone within the same open space:
+  brighter task lighting plus general ceiling light over the kitchen
+  work zone; a pendant/chandelier specifically over the dining table;
+  dimmer, softer ambient lighting in the living zone. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+- Flooring-material zoning is area-dependent: a large combined space can
+  use different flooring per zone (e.g. tile in kitchen, parquet in
+  living); a small space should use one flooring material throughout for
+  visual continuity, generally favoring a wear-resistant option (ceramic/
+  tile) as the safer unifying default. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+
+**2nd source, added 2026-08-25 — Diskill/Nadia Karmin (individual designer, 15+ years), the densest source in this batch:**
+
+- Design storage/scope to the household's actual priorities, not a
+  generic default (families with kids need more concealed/child-safe
+  storage; avid cooks need large built-ins + prep space; big-group
+  hosts need a large table/sofa/media zone) — if a kitchen-living space
+  is really about entertaining rather than serious cooking, the real
+  functional kitchen can live in an entirely separate room instead.
+  Real client-pattern caution: many clients request a large
+  sliding/extendable table for hypothetical big gatherings but in
+  practice host only 1-2 guests/year — weigh actual entertaining
+  frequency against a table sized for a rare best case. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+- Outlet-count planning by zone: kitchen ~8-10 (fridge, hood, dishwasher,
+  microwave, stove, kettle, small appliances, plus a sink-disposal
+  outlet); living zone ~5-6 (TV, consoles, decorative lighting). Plan
+  more outlets upfront than seems necessary to avoid extension cords.
+  Major appliances (fridge, dishwasher, oven) should each get a
+  dedicated circuit for safety and to avoid voltage drops — label every
+  breaker correctly since these outlets sit in the cabinet plinth.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+- Hood shouldn't connect to a shared building ventilation stack in a
+  new-build (odors otherwise spread between units) — plan a
+  carbon-filter recirculating hood plus a standard vent with a
+  backdraft/check valve to block a neighbor's odors coming back. Even
+  with a strong hood, cooking smells will still spread through a combined
+  kitchen-living space to some degree. **Hood airflow-capacity sizing
+  formula**: kitchen floor area (m²) × ceiling height (m) × 12 =
+  required capacity (m³/h). Hood mounting height: 60-75cm above a gas
+  cooktop, 50-60cm above electric. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+- Multi-layer lighting, three explicit layers: primary/general (bright
+  enough for real cleaning), accent/task (under-cabinet or shelf
+  lighting for a specific surface), and decorative (sconces/floor lamps,
+  soft warm light, doubling as a legitimate main-light stand-in) — more
+  decorative sources in a kitchen-living zone is generally better for
+  atmosphere. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+- Flooring zoning with a structural reason, not just aesthetics: put
+  hard flooring (tile) under kitchen cabinetry specifically because
+  heavy cabinetry can dent/compress a softer material (quartz-vinyl or
+  laminate) over time — a dent in one spot forces the material to bulge
+  elsewhere. If a shared dining table spans the kitchen/living flooring
+  transition, position chairs off the material seam. Each zone can have
+  its own ceiling treatment and light — but give each zone its own
+  switch. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+- Storage planning: size concealed storage to actual usage (not
+  ceiling-height cabinets you can't fill — wasted volume becomes a junk
+  dump); vary opening mechanisms by position (lift-up upper fronts,
+  pull-out lower drawers) and never economize on mechanism quality; use
+  internal dividers/organizers; keep concealed kitchen storage well-lit
+  and ventilated. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+- **Corroborates** the sofa-bed aesthetic/practicality trade-off already
+  recorded from `YT_qHuFie5U65g` (Fedotova): many clients request a
+  pull-out sofa bed for occasional guests, but most pull-out sofas look
+  unattractive extended — independently confirmed by a second
+  practitioner. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+
+### Living Room + Bedroom Combination Zoning (new topic area, added 2026-08-25 — Iolanta Fedotova, 1st source, no dedicated page yet)
+
+> [!NOTE]
+> Directly relevant to this project's own Phase 2 household plan (a wall-
+> bed/Murphy-bed transformer, see `04_Living_and_Dining_Room/Living_and_
+> Dining_Index.md`) — recorded here as independent general reference
+> material corroborating that category of solution, not as an edit to the
+> household's own already-decided plan notes.
+
+- Two fundamental approaches to combining a living room and bedroom in
+  one room: **sofa-only** (fold-out sleeper, no separate bed) vs. **bed +
+  separate sofa** (two distinct zones). Sofa-only gives more open floor
+  space and room for extra furniture, but requires daily folding/unfolding
+  and forces a 3-way trade-off between real orthopedic quality, attractive
+  folded-profile design, and affordability (realistically 2 of 3). Bed+sofa
+  gives a permanently-made real orthopedic mattress with no daily chore,
+  but **a full double bed plus adequate access needs a minimum of ~9m²
+  dedicated to the sleep zone alone** — in a typical 16-22m² combined
+  room this leaves only ~9-12m² for the living/sofa zone. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+- Decision heuristic: choose based on actual guest frequency/size and
+  personal tolerance for daily folding, not a default preference; if
+  storage need dominates, consider dropping a dedicated bed zone entirely
+  in favor of large wardrobes/a walk-in closet instead. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+- Bed-vs-sofa placement relative to the entry is geometry-conditioned, not
+  fixed: if the room has a recessed niche near the entry, put the bed
+  there and the living/sofa zone nearer the window; if the room is a
+  straight walk-through with no recess, put the living/sofa zone in the
+  entry/walkway path and the bed further in near the window, away from
+  entry traffic. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+- Zone-divider options ranked with trade-offs: heavy curtains matching
+  the window treatment (cheapest, openable at will); a glass partition
+  (keeps daylight reaching the far zone, some sound-dampening); glass +
+  curtains combined (more complete — sound-blocking plus visual privacy);
+  a raised platform/podium (mentioned, not elaborated); furniture used as
+  a divider (this designer's own least-favored option — blocks too much
+  light to the far zone). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+- **This designer's own top recommendation for this room type**: a
+  wall-mounted transformer/foldaway furniture system (a sofa attached to
+  a wall-mounted mechanism) — full daytime living-room floor space, folds
+  down at night to a complete bed with its own mattress, no daily
+  sheet-stripping. Cites multiple Russian-market manufacturers producing
+  this as of filming (2022), and suggests a custom furniture maker if no
+  ready-made unit is available locally. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+
+### Room-Zoning Partition Methods (new topic area, added 2026-08-25 — 13DS/Olesya, 1st source, no dedicated page yet — cross-cutting, applies beyond Living/Dining)
+
+- Wood slat/batten partitions let light through but give no full acoustic/
+  visual privacy; need a ceiling mounting point ("закладная"), especially
+  under a stretch ceiling. Cheap dimensional lumber (e.g. hardware-store
+  battens) is dimensionally unstable and will likely warp — fine for pure
+  wall decor, but a real structural partition should use custom-ordered
+  MDF slats (pricier, pre-finished, far more reliable). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]]
+- Curtain zoning is the cheapest/fastest option (blackout fabric for full
+  light-blocking, fully flexible open/close); multiple curtains sharing a
+  wall with window curtains can look like "a pile of fabric" — pair with
+  a Roman blind on the window to lighten the visual load. Curtains are
+  dust magnets requiring periodic removal/washing, not just wiping. A
+  plain curtain track looks unfinished — conceal it in a ceiling niche
+  (drop the ceiling on both sides, or build two drywall stub walls at an
+  existing cornice's height) so the curtain glides through the middle.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]]
+- Shelving-unit dividers need real household discipline to avoid becoming
+  "a vertical junk pile" — mix open and closed cabinet sections instead of
+  fully open shelving to reduce visible clutter while still letting light
+  through. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]]
+- **Sliding glass/plastic partition mounting caution, generalizable to any
+  wardrobe-style sliding door system**: mounting on both a top AND bottom
+  track (like a standard closet door) is not recommended — the bottom
+  track creates a trip-hazard threshold and visually cheapens the
+  interior; prefer top-track-only mounting, but confirm the ceiling
+  backing/blocking requirement with the manufacturer before the ceiling
+  is closed up, since a top-track-only mechanism is heavier and needs a
+  genuinely solid structural mounting point. Real project price point
+  (this company's own project, region/date unconfirmed, ~2020): a glass
+  sliding partition separating bedroom from kitchen-living cost ~100,000
+  RUB; adding stub walls on both sides of a glass partition reduces the
+  glass width needed and lowers cost. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]]
+- A wardrobe/cabinet used as a room divider adds closed storage but
+  exposes an unattractive rear panel — mitigate by combining it with
+  wood slats or strung rope/cord behind it; build a divider-wardrobe to
+  full ceiling height (not partial) since it's freestanding — a low unit
+  looks incomplete, usually requiring a custom order. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]]
+

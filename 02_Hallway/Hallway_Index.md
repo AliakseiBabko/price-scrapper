@@ -1,5 +1,7 @@
 # 🧭 Hallway Planning
 
+> See [[01_Entrance/Entrance_and_Hallway_Guide|Entrance & Hallway Guide]] for sourced layout/proportion-control techniques, storage strategy, and flooring/lighting reasoning gathered from multiple independent channels (including long-narrow-corridor-specific proportion tricks) — this page stays this project's own floor-plan worksheet.
+
 * **Floor Area**: `5.88 m²`
 * **Ceiling Height**: `2.55 m`
 * **Est. Perimeter**: `12.24 m` (corridor structure)

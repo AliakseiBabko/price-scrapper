@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=YarbTzTfq6I",
+  "video_id": "YarbTzTfq6I",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T06:36:49.544359+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "9b8deb82da315bc90ba55986300f82ab40eb882484f559a0d4e097457d6fc07f",
+  "attempts_before_success": []
+}
