@@ -17,6 +17,9 @@
 * **Ceiling Type**: *Placeholder* (e.g. plasterboard, stretch ceiling).
 * **Lighting Fixtures**: *Placeholder* (Recommendation: Slim built-in spotlights or a flat ceiling plate due to `2.55 m` ceiling height).
 
+## 🚪 Entrance Door
+See [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]] for sizing/relocation rules, real installation pricing, and selection criteria gathered from sources so far.
+
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
 * **High-Traffic Entry**: Transition zone for 2 adults and 2 young kids. Requires highly durable, waterproof flooring.
 * **Storage Needs**: Needs low-level shoe racks/baskets accessible to kids, and hook organizers.

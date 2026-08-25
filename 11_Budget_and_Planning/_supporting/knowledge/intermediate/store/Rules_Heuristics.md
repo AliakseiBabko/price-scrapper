@@ -601,3 +601,55 @@ bar):
   instead of a hard corner, at the client's request mid-construction.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Tq2IELynaGs_petrishin_nonstandard_electrical_plumbing_pt4|YT_Tq2IELynaGs]]]
 
+### Entrance / Hallway general layout & storage (added 2026-08-25, Kruglov/Ontario) — no dedicated wiki page yet, 2nd source toward the 3+ threshold (see Pending Wiki-Page Decisions)
+
+- For entryway flooring, use moisture-resistant quartz-vinyl or porcelain
+  stoneware only, not laminate/parquet/engineered board — an entryway
+  seasonally tracks in snow/de-icing chemical residue, dust, or mud that
+  wood-based flooring can't tolerate; not all quartz-vinyl products are
+  the moisture-resistant type. Electric heated floor is recommended here
+  specifically to actively dry residual moisture rather than let it sit.
+  Use a rigid (not soft/flexible) baseboard so debris/slush can't migrate
+  under a gap. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- Deliberately over-light an entryway rather than under-light it — never
+  rely on a single fixture here. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- Include a full-height (full-body) mirror in the entryway — flexible on
+  placement (wall-mounted, recessed, on a wardrobe door leaf, or on the
+  entrance door's own interior face), but the full-body view is the
+  stated requirement. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- Provide a seat (pouf, or a built-in seated spot inside a wardrobe) for
+  putting on/removing shoes while tired or unwell. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- Prefer closed storage over open shelving/hooks for entryway shoe/coat
+  storage, despite the extra "open door" step — open shelves/hooks
+  inevitably accumulate small clutter (keys, mail, fobs) regardless of
+  intent, while closed storage preserves a sense of order and reduces
+  cleaning friction. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- Design entryway storage cabinetry to either seal fully to the floor (no
+  gap) or sit raised clear of it (legs, or wall-mounted/floating) so a
+  robot vacuum can clean underneath — a mid-height obstruction blocks the
+  robot and forces manual shoe removal to clean. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- Add an electrical outlet near in-closet shoe storage for a boot/shoe
+  dryer — near-zero cost, avoids drying wet footwear on a balcony or in a
+  living space. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- Entrance-door reveals/jambs are the single most vulnerable wall surface
+  in an entryway (repeated bag/parcel scuffing) — protect them with
+  decorative plaster (the most durable non-tile finish) or a protective
+  wood panel/trim; decorative plaster is also recommended for the
+  entryway's other walls generally, since the total area involved (~5-6
+  m²) makes the added cost negligible against a full renovation budget.
+  `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- Entryway security/smart-home options worth considering: a video door
+  intercom or peephole camera; a door-open sensor integrated with a
+  smart-home hub (no extra wiring, ~10 minute install) for a use case like
+  notifying a parent when a child leaves for or returns from school; a
+  smart lock (e.g. multiple unlock methods including temporary codes for
+  a cleaner, open/close logging, redundant low-battery warnings) as a
+  reusable selection-criteria list independent of brand. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+- A "master light switch" (one button kills all lights in the apartment)
+  only suits a household with synchronized schedules (single occupant, or
+  a couple who leave/return together) — it works one-directionally from
+  the entry point, so it's a poor fit for a larger family with staggered
+  schedules; if installed anyway (e.g. only for a vacation-departure
+  routine), mount it out of normal reach (inside a closet) to prevent
+  accidental triggering. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+

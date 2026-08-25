@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=cM0AndkKdVk",
+  "video_id": "cM0AndkKdVk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T05:55:31.901968+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8c79b0407eae3fd94e9a7573cf76580e4243174c303241c6eee6317749b6210a",
+  "attempts_before_success": []
+}
