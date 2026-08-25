@@ -30,6 +30,71 @@ Part of [[10_Balcony/Balcony_Guide|Balcony Guide]].
 - **Loggia insulation-removal-for-area-gain technique** — verifying actual wall composition before joining, then removing an unnecessary existing insulation layer once properly re-glazed/warmed, recovering ~1 m² of usable floor area on top of the join itself; part of a full 111.5m² replan case. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|extraction note]]]
 - **Second insulation-removal data point (17cm width recovered)** and **loggia rest-zone minimum width (~1.10m, ideally 1.20m, after glazing/insulation buildup)** — a large-scale remote-client project. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vRLdOS5HTTU_got_back_stolen_space_298|extraction note]]]
 
+## Independent Corroboration + Steel-Tube Parapet Alternative + Storage-Closet Framing (Большая Стройка, added 2026-08-25)
+
+A third, unrelated crew ("Большая Стройка", `single-account`, region
+unresolved — street address only, no city stated) independently reaches
+Zemskov's **no jamb-extension (добор) profile** conclusion, with
+different stated reasoning (an extra joint is a real leak risk depending
+on installer sealant quality, and a добор is simply more expensive than
+their preferred rigid external corner-angle bracket, glued/foamed and
+structurally sufficient once insulation/finish covers it) — presented as
+their own deliberate preference, not an absolute rule.
+
+**New structural technique**: this crew built an all-steel-tube
+reinforced parapet — a thick-walled 25×50mm profile tube welded to the
+base as a vertical anti-rack brace, topped by a 40×40mm horizontal tube
+as the actual glazing-fixing point — a genuinely different reinforcement
+method from Zemskov's gas-block masonry support course, for the same
+underlying problem (raising/strengthening the frame's fixing plane).
+
+**New technique for an extremely sloped slab**: rather than leveling only
+the top masonry course (Zemskov's method), this crew varied furring
+(обрешётка) depth itself — single/double/nearly-triple furring across a
+slab that ranged 0-15cm in buildup — to level the subfloor.
+
+**Storage-closet framing (this batch's specific target)**: this loggia
+was split into a fully insulated/heated main zone plus a partitioned,
+deliberately unheated storage nook at one end, with existing stored items
+left in place behind the new partition rather than emptied out — a real
+worked example of not treating a loggia's whole footprint uniformly.
+`single-account` — not yet a 3-source pattern, stays inline here rather
+than becoming a dedicated page per this project's threshold rule.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2rOr5Lwt7kA_bolshaya_stroyka_loggia_storage_closet|extraction note]]]
+
+## Independent Corroboration + New Technique (Московские балконы, added 2026-08-25)
+
+A second, unrelated glazing/insulation company ("Московские балконы" —
+Moscow Balconies, `single-account`, Moscow region level 2/title-only)
+independently used the same **70mm frame profile** as Zemskov's stated
+floor spec, on a real client job — a genuine corroboration (two
+independent companies landing on the same number, not one company's
+claim repeated). Also adds a wood-frame carcass reinforcement detail
+(the ceiling/wall wood frame ties into both the rear and side walls *and*
+braces against the glazing frame itself, adding rigidity beyond the
+plate-anchor mounting alone) and a client-decision-sequencing note
+(defer floor-to-ceiling internal corner trim until the client has decided
+on baseboard/plinth height, since the trim gets cut to match that line).
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AI6gdNR_LiE_moskovskie_balkony_wood_paneling_case|extraction note]]]
+
+## Alternative Anchor-Free Mounting Technique (individual DIY source, added 2026-08-25)
+
+Distinct from the anchor-fixing rules above (Zemskov's frame anchoring;
+Petrishin's plastic-dish insulation anchors, see
+[[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]]) — an
+individual DIY practitioner ("Строим для себя"/Konstantin, `single-
+account`) glued both a PIR insulation board and a rigid quartz-vinyl
+laminate finish directly to the wall with foam adhesive, using **no
+mechanical fasteners at all**, explicitly to avoid the cold-bridge risk of
+a dowel/anchor-based mounting scheme. Load-tested on camera: a 32kg
+weight hung from a shelf screwed only into the glued insulation+laminate
+assembly (not reaching the wall) held without failure — his conclusion:
+no embedded backing blocks needed for a light fixture with this
+assembly. Not a contradiction of the anchor-based rules (different
+insulation material/wall construction, and untested beyond 32kg) but a
+genuinely distinct third data point on avoiding a cold bridge at a wall
+fixing point. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggia_insulation_revisit|extraction note]]]
+
 ## Real Case: Client-Driven Balcony Scope (Петришин-Строй, added 2026-08-24, Round 4)
 
 Masonry walls built up and plastered, plus client-driven replacement of the double-glazed window unit, radiator, and sills — corroborates this channel's own existing balcony content (`Qt4uGvGRYT0`, see [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]]) that balcony work on this channel's objects is usually client-driven scope-of-work rather than a fixed package. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|extraction note]]]

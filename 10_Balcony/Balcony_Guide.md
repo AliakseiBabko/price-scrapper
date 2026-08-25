@@ -45,10 +45,16 @@ balcony scope-of-work.
 Insulation conserves heat, it doesn't generate it — pointless without a
 real heat source, and water/hydronic radiators are illegal on a
 balcony/loggia (electric is the legal alternative). Material comparison
-(пеноплекс vs. mineral wool vs. пенофол), thickness rules, a full
-heated-floor-over-insulation layer stack with a named failure mode it
-avoids, a real quartz-vinyl-over-heated-floor failure case, and a real
-2025 Moscow cost benchmark (≈$130/m² for full loggia insulation).
+(пеноплекс vs. mineral wool vs. пенофол vs. a PIR board alternative),
+thickness rules, a full heated-floor-over-insulation layer stack with a
+named failure mode it avoids, a genuine two-source disagreement on
+quartz-vinyl over a heated floor, and a real 2025 Moscow cost benchmark
+(≈$130/m² for full loggia insulation). **⚠️ A real pyrometer-measured
+3-loggia comparison directly bears on this project's own unheated plan**
+— insulation + glazing alone, with no active heat source and the loggia
+door kept closed, likely runs colder than the comfortable readings this
+source shows, since those depended on an open door borrowing room heat;
+see the linked page for the full caveat.
 
 → **[[10_Balcony/analysis/Insulation_and_Heating|Full detail]]** — not
 applicable to this project's own unheated plan, retained as reference.

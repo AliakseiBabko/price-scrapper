@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=09G3Q-LuD_s",
+  "video_id": "09G3Q-LuD_s",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T11:56:50.063297+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "12992475d3c8f183b57bd52b5f2fad839b0d6b096ea06f90e7b33e1015c9c6dc",
+  "attempts_before_success": []
+}

@@ -8,6 +8,13 @@
 
 ---
 
+> See [[09_Laundry_Room/Laundry_Guide|Laundry Guide]] for sourced
+> essential-components, placement-comparison, and common-mistakes reasoning
+> gathered from multiple sources — this page stays this project's own
+> floor-plan worksheet.
+
+---
+
 ## 🎨 Materials & Finishes
 * **Flooring**: *Placeholder* (Recommendation: Hard-wearing, waterproof porcelain tile).
 * **Walls**: *Placeholder* (Recommendation: Moisture-resistant paint or tiles).

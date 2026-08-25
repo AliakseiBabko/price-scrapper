@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=GM_m1IJk7Hk",
+  "video_id": "GM_m1IJk7Hk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T11:58:02.375038+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a6fc3a81240b4b3e451c0122782fd661a88cb6b8b8753a5746d257d9a6095ad9",
+  "attempts_before_success": []
+}

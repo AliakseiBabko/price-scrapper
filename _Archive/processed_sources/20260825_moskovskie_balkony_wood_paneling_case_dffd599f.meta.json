@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=AI6gdNR_LiE",
+  "video_id": "AI6gdNR_LiE",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T11:55:08.405562+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "dffd599fd7299d2c7bf62ebeaccf12040ef760a65caa10fde81c89e2e0558437",
+  "attempts_before_success": []
+}
