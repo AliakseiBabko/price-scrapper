@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=BFbNL-DjDh4",
+  "video_id": "BFbNL-DjDh4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T06:04:47.186058+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "900f6cf38f53bc827eb570198094b4c21fd1f20d4371de1b6387ac008f60f766",
+  "attempts_before_success": []
+}

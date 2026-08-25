@@ -88,14 +88,44 @@ Per Kruglov/Ontario, five stated tips plus one closing general-advice point:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
 
+## Installation Technique — A Real Worked Case (Polyurethane/Durapolymer Panels)
+
+TimRemont, own master-bedroom renovation project (region not stated at
+level 1): real installation sequence and two named mistakes for
+durapolymer/polyurethane-type decorative panels (a subtype of this page's
+existing "Polyurethane / thermoplastic polymer" material row above).
+
+- **⚠️ Buy the longest available panel length to minimize seams**: this
+  project bought 2m-length panels when 3m panels were available for the
+  same product — the extra seams created required repeated putty/sand
+  cycles to blend into the panel's own surface texture, costing far more
+  finishing time than planned.
+- **Horizontal seams are acceptable if unavoidable; vertical seams between
+  panels are explicitly not recommended** — much harder to finish cleanly.
+- **Installation sequence**: laser level for placement accuracy + a
+  construction adhesive ("жидкие гвозди") to mount the panel, a separate
+  specialized panel-joint adhesive to bond panel-to-panel seams, then
+  repeated putty + sand cycles at every seam until the joint's texture
+  matches the surrounding panel surface, before final painting. The same
+  matching baseboard (durapolymer) was painted *before* installation, then
+  joint-glued and puttied the same way.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gWAOrislxFY_timremont_bedroom_a_to_z|YT_gWAOrislxFY]]]
+
 ## Source Notes
 
 - **Full material taxonomy, classification axes, and five selection rules**
   (Konstantin Kruglov/Ontario, self-promotional Moscow renovation-company
   channel, `single-account`, no price figures or case-study numbers in this
   source) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|extraction note]].
+- **Durapolymer/polyurethane panel installation technique and two named
+  mistakes** (TimRemont, own bedroom project, region not stated) —
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gWAOrislxFY_timremont_bedroom_a_to_z|extraction note]].
 
 ## Change Log
 
+- 2026-08-25: Added a durapolymer/polyurethane panel installation-technique
+  section from a real worked case (TimRemont, `gWAOrislxFY`), part of a
+  targeted Small Bedroom intake batch.
 - 2026-08-24: Page created from the first dedicated source on this sub-topic
   (Kruglov/Ontario Round 5, `qzi1LqwsP5k`).

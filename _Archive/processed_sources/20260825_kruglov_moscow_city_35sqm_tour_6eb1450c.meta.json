@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=HGN_3WeL0Jk",
+  "video_id": "HGN_3WeL0Jk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-25T06:05:45.890119+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "6eb1450c8fbc410415272b63d423716c98571e8fe940657c530e75c17ae18d38",
+  "attempts_before_success": []
+}

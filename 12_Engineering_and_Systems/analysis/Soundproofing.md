@@ -359,6 +359,85 @@ manufacturer-training relationship).
   cutting GVL and handling silicone/tape) despite looking simple.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hrhJ6Y8hhPU_petrishin_zips_panel_soundproofing|YT_hrhJ6Y8hhPU]]]
 
+## Full Frameless (Sonoplat) Installation Technique — a Genuinely Distinct Method From the Frame System (TimRemont, added 2026-08-25, Small Bedroom batch)
+
+**Explicit cross-check against this page's existing Full Frame-System
+Installation Technique section above**: confirmed genuinely distinct, not
+a restatement — this is the systematic step-by-step technique for the
+**rigid, sand-filled panel ("Sonoplat")** frameless system this page's
+System Type Taxonomy already names as "Rolled type"'s rigid-panel cousin,
+mounted directly to the wall surface with no air-gap frame at all.
+Тимофей Клименко (TimRemont), own bedroom, region not stated at level 1,
+medium promotional ratio (named partner/sponsor system, "Технoсонус"/
+Sonoplat "Slim"). **Chosen specifically because the room was too small to
+give up a frame system's depth** — direct confirmation of this page's
+existing Decision-Framework factor #2.
+
+- **⚠️ Prerequisite the frame-system source didn't need to state**: the
+  wall must be plastered dead-flat first, checked with a straightedge —
+  a frameless panel has no hangers to compensate for wall waviness the way
+  a frame does, so any unevenness telegraphs straight through.
+- **Electrical must be fully chased into the wall before installation** —
+  no air-gap cavity exists afterward to route cable through.
+- **Material handling**: rest delivered panels flat for 2-3 days before
+  installing so the sheet "takes" a flat shape; never store on edge.
+- **Named parts**: perimeter damper tape + separate vibration tape, hammer-
+  set polymer dowels, 5×30mm soundproofing-rated screws, acoustic sealant,
+  a soundproofing-rated electrical box, the sand-filled Sonoplat panel
+  itself, and 12.5mm acoustic-rated drywall as the finish layer.
+- **Tongue-and-groove trimming**: cut off the panel's own edge profile
+  where it meets a wall/corner so it sits flush against the perimeter
+  tape with no gap; seal every panel-to-panel joint to prevent "sound
+  bridges."
+- **⚠️ Cut-edge taping rule — corroborates and extends this page's
+  existing note** (previously recorded from a separate source: any cut
+  edge of a sand-filled panel must be taped immediately or the sand filler
+  spills, degrading the panel). This source confirms the same rule for the
+  same product type and adds that the manufacturer supplies a dedicated
+  tape for exactly this purpose.
+- **Cutting technique**: a utility knife works but dulls fast cutting
+  directly on a hard screed floor — cut on a softer foam-board surface
+  instead to preserve the blade; an oscillating multi-tool is faster and
+  cleaner for outlet-box cutouts specifically.
+- **Fastening pattern**: hammer-set polymer dowels (not screwed) in
+  pre-drilled 6mm holes, first row set to a laser level with every
+  subsequent row referenced off it; panels staggered/brick-patterned, 3
+  vertical fastening columns per sheet, dowels no more than 30cm apart.
+  If a dowel hole hits embedded rebar, relocate the fastener rather than
+  forcing it, and seal the abandoned hole.
+- **Electrical box integration**: existing outlet boxes re-chased deeper
+  to leave room for a soundproofing-rated box within the new build-up,
+  positioned flush with the finished drywall plane, sealed around the
+  opening.
+- **Finish-layer fastening**: screws into the Sonoplat panel (not the
+  original wall) with a 10mm counterbore drilled first so the head sits
+  recessed and doesn't telegraph through the finish.
+- **⚠️ Real total assembly thickness, directly comparable to the frame
+  system's own ~10cm figure above**: this frameless build-up measured
+  **34mm total** — a concrete number confirming the frame-vs-frameless
+  depth tradeoff, not just a qualitative claim.
+- **Flagged manufacturer feedback item**: trimming excess perimeter tape
+  after installation reliably leaves sealant residue that's hard to fully
+  clean — reported directly to the product's manufacturer as an
+  unresolved process gap.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_CVqedVQlZZU_timremont_frameless_soundproofing|CVqedVQlZZU]]]
+
+## Door-Sill Soundproofing Gasket — a Technique Not Yet Covered Above
+
+TimRemont (Тимофей Клименко, own apartment, region not stated at level 1,
+added 2026-08-25, Small Bedroom batch): a **soundproofing gasket/threshold
+strip installed at the door sill itself** (bedroom and bathroom doors, in
+this case to protect a sleeping toddler) is a distinct technique from
+every wall/floor/ceiling method above — it targets the gap under a closed
+door specifically. Directly tested (music played, door closed) and
+confirmed a real, noticeable reduction in sound transfer. **⚠️ Explicit
+tradeoff**: the same seal that blocks sound also blocks the passive
+under-door airflow a room may depend on for ventilation — this
+practitioner's own workaround is propping the door slightly open, or
+relying on the room's AC/mechanical ventilation instead of passive
+under-door airflow. `single-account`, no named product. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_U95vMOOhKH8_timremont_39sqm_walkin_office_zoning|U95vMOOhKH8]]]
+
 ## Panel Handling and Wall-Build QC
 
 - **Sound-insulating panel cut-edge taping rule**: any cut edge of a sand-filled sound-insulating panel must be taped immediately with paper tape — an untaped cut edge lets the sand filler spill out, degrading acoustic performance (in the practitioner's words, turning the panel into "a very expensive piece of cardboard"). [source: `yt_fnTjaXPEDDE`]
