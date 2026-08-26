@@ -7,44 +7,139 @@
   "storey_height_m": 2.8,
   "default_wall_thickness_m": 0.15,
   "exterior_wall_thickness_m": 0.25,
-  "rooms": [],
-  "room_probe": [
+  "rooms": [
     {
-      "area_m2": 47.16,
-      "x_m": 3.0,
-      "y_m": 1.27,
-      "width_m": 6.54,
-      "depth_m": 8.34
+      "name": "Kids Room",
+      "role": "kids",
+      "area_m2": 15.28,
+      "x_m": 3.12,
+      "y_m": 1.61,
+      "width_m": 2.9,
+      "depth_m": 5.11,
+      "perimeter_m": 18.43,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "approximate",
+      "extent_delta_pct": -8.9
     },
     {
-      "area_m2": 8.04,
-      "x_m": 0.26,
-      "y_m": 2.75,
-      "width_m": 2.73,
-      "depth_m": 3.75
+      "name": "Living and Dining Room",
+      "role": "living",
+      "area_m2": 13.57,
+      "x_m": 6.13,
+      "y_m": 2.3,
+      "width_m": 3.41,
+      "depth_m": 3.83,
+      "perimeter_m": 14.84,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "good",
+      "extent_delta_pct": -7.3
     },
     {
-      "area_m2": 3.71,
+      "name": "Kitchen",
+      "role": "kitchen",
+      "area_m2": 10.56,
+      "x_m": 6.29,
+      "y_m": 6.05,
+      "width_m": 3.25,
+      "depth_m": 3.56,
+      "perimeter_m": 13.0,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "good",
+      "extent_delta_pct": 5.3
+    },
+    {
+      "name": "Bedroom small",
+      "role": "bedroom",
+      "area_m2": 9.29,
       "x_m": 0.26,
-      "y_m": 6.5,
+      "y_m": 3.14,
+      "width_m": 2.52,
+      "depth_m": 3.3,
+      "perimeter_m": 13.49,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "approximate",
+      "extent_delta_pct": -23.6
+    },
+    {
+      "name": "Balcony",
+      "role": "balcony",
+      "area_m2": 6.02,
+      "x_m": 0.2,
+      "y_m": 0.81,
+      "width_m": 2.79,
+      "depth_m": 2.47,
+      "perimeter_m": 10.38,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "good",
+      "extent_delta_pct": -4.2
+    },
+    {
+      "name": "Hallway",
+      "role": "hallway",
+      "area_m2": 5.88,
+      "x_m": 3.4,
+      "y_m": 5.97,
+      "width_m": 3.08,
+      "depth_m": 3.64,
+      "perimeter_m": 13.02,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "approximate",
+      "extent_delta_pct": -14.3
+    },
+    {
+      "name": "Bathroom",
+      "role": "bathroom",
+      "area_m2": 3.07,
+      "x_m": 0.26,
+      "y_m": 6.31,
       "width_m": 2.23,
-      "depth_m": 1.8
+      "depth_m": 2.0,
+      "perimeter_m": 7.01,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "approximate",
+      "extent_delta_pct": 22.5
     },
     {
-      "area_m2": 1.71,
-      "x_m": 0.61,
-      "y_m": 8.26,
-      "width_m": 1.65,
-      "depth_m": 1.35
-    },
-    {
-      "area_m2": 1.39,
+      "name": "Entrance",
+      "role": "entrance",
+      "area_m2": 2.44,
       "x_m": 3.0,
-      "y_m": 8.44,
+      "y_m": 6.08,
       "width_m": 1.17,
-      "depth_m": 1.44
+      "depth_m": 3.8,
+      "perimeter_m": 6.51,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "approximate",
+      "extent_delta_pct": -9.0
+    },
+    {
+      "name": "Laundry Room",
+      "role": "laundry",
+      "area_m2": 1.9,
+      "x_m": 4.28,
+      "y_m": 8.31,
+      "width_m": 1.92,
+      "depth_m": 1.3,
+      "perimeter_m": 6.13,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "approximate",
+      "extent_delta_pct": 8.4
+    },
+    {
+      "name": "WC",
+      "role": "wc",
+      "area_m2": 1.47,
+      "x_m": 0.61,
+      "y_m": 8.05,
+      "width_m": 1.88,
+      "depth_m": 1.56,
+      "perimeter_m": 5.18,
+      "source": "area and perimeter from the DWG room label; extent grown from that label's seed",
+      "extent_confidence": "approximate",
+      "extent_delta_pct": 20.4
     }
   ],
+  "room_probe": "superseded by the label-seeded growth; see data/cad/room_polygons.json",
   "walls": [
     {
       "name": "W001",
@@ -761,7 +856,7 @@
       "window_sill_m": 1.0,
       "window_height_m": 1.1
     },
-    "rooms_status": "NOT EXTRACTED. The wall geometry is exact, but room polygons are not recoverable from this export: P-Room blocks are empty, the footprint has a gap at every opening, and some rooms are joined by 3 m wide openings that no narrowness test can separate. Three attempts are recorded in room_probe and none is trustworthy. Get room names and areas from Homestyler directly - it knows them - or label them once by hand over data/cad/wall_plan.svg.",
+    "rooms_status": "SOLVED for names, areas and perimeters: Homestyler writes them into the DWG on layer 'P-Comment Text' as e.g. 'Kids Room S:15.28m² C:18.43m'. Those numbers are authoritative. Room OUTLINES are still approximate - each room is grown from its label's seed and checked against its own area, and the per-room error is carried in extent_delta_pct. Use the areas for quantities; use the boxes only to place things.",
     "caveats": [
       "Wall rectangles come from slab decomposition, so they are non-overlapping by construction - no material is double counted at junctions.",
       "Wall names are positional (W001...); they carry no meaning until reviewed.",

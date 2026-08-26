@@ -120,6 +120,10 @@ def apply_op(spec: dict, op: dict, log: list[str]) -> None:
                 r[key] = op[key]
         log.append("resized %r to %.2f m2" % (r["name"], r["area_m2"]))
 
+    elif kind == "room.add":
+        spec.setdefault("rooms", []).append(dict(op["room"]))
+        log.append("room %r (%.2f m2)" % (op["room"]["name"], op["room"]["area_m2"]))
+
     elif kind == "furniture.place":
         spec.setdefault("furniture", []).append(dict(op["item"]))
         log.append("placed %r in %s" % (op["item"]["name"], op["item"].get("room", "?")))

@@ -206,13 +206,27 @@ Full detail: `00_Master/How_To_View_Outputs.md`.
   the plan image. Cheapest fix by far: export the *original* layout from
   Homestyler as a second DXF, the way the redesign was exported. Failing that,
   reconstruct the partitions from the dimension strings by hand.
-- **Room polygons** are not extracted for either layout — the CAD has empty
-  `P-Room` blocks, a gap at every opening, and 3 m openings no narrowness test
-  can split. Room *schedules* are known; polygons are not. Areas in a variant
-  therefore come from the schedule, not from the model.
+- **Room areas and perimeters are solved.** Homestyler writes them into the DWG
+  on layer `P-Comment Text` as `Kids Room S:15.28m² C:18.43m`. Extract with
+  `tools/cad/extract_room_labels.py` — 10 rooms, 69.48 m². Those numbers are
+  authoritative; use them for quantities.
+  **Room outlines are still approximate.** `tools/cad/build_rooms_from_seeds.py`
+  grows each room from its label's seed and checks the result against the room's
+  own area: 3 of 10 land within 8%, the rest carry `extent_delta_pct` and an
+  `extent_confidence` of `approximate`. Use the boxes to place things, never to
+  measure them.
 - **4 of 13 openings** have no host wall (their gaps are wider than the host
   search reaches); they are carried in `unresolved_openings` and produce no void.
 - `current_apartment_base.json` is the old photo-derived geometry and still
   **fails** `--strict` (2 duplicate walls, 10.9% double-counted). Nothing should
   build on it; it stays only as provenance.
 - The ±25 mm band is documented but not yet applied inside the rule checks.
+- **The sheet renderer still carries demo text** ("Generic enclosed apartment
+  demonstrator", "Residential renovation demo") and does not label rooms or draw
+  door swings. That is the `cap1` conventions work, not a model problem.
+- **The DWG holds every export sheet**, not just the floor plan: the eight
+  `P-Wall-Section` instances are the sheet set (A-01…A-13 — Layout Plan,
+  Furniture Size Plan, Ceiling, Light Control, Voltage, Water Supply, Material
+  Tables). Re-exporting with everything ticked produces the same file we already
+  have, so the remaining sheet data is a matter of reading the file, not of
+  exporting again.
