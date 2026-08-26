@@ -78,11 +78,45 @@ Room areas are tighter — 0.1–0.3 m² apart:
 
 Two cautions in that table:
 
-- **The туалет is the outlier.** Every measured flat has it half a square metre
-  bigger than the developer's plan. Worth resolving before anything is designed
-  to fit in it.
+- **The туалет is not an outlier — it is a different convention.** Resolved
+  below.
 - The measured plans record living and kitchen as **one room** ("жилая с
   кухонным оборудованием"), so that row is only comparable summed.
+
+## Clear area vs gross area — the туалет, resolved
+
+The developer publishes **clear** floor area with the service boxing deducted;
+the measured БТИ-style plans publish **gross** area to the wall faces, counting
+the короб as floor. The туалет makes this visible because it is the room where
+the стояки land.
+
+The developer's plan draws the туалет as 1140 × 1090 mm of clear floor, with a
+hatched 1140 × 490 mm recess at the wall opposite the entrance holding three
+pipes — стояк холодной воды, стояк горячей воды and стояк канализации Ø110:
+
+```
+clear floor      1.140 × 1.090 = 1.24 m²   ← the developer's figure
+riser recess     1.140 × 0.490 = 0.56 m²
+gross            1.140 × 1.580 = 1.80 m²   ← what the measured plans report
+```
+
+**1.80 m² is exactly what two of the three measured flats print (1.8 and 1.9).**
+So the room is the same room; only the accounting differs. (`kv109` reads 1.6,
+0.2 below the other two — either a smaller recess or a different sub-type, and
+that one is still open.)
+
+Consequences worth carrying forward:
+
+- **Plan the туалет against ~1.24 m² of usable floor, not 1.8.** Anything sized
+  against the bigger number will not fit.
+- The короб is **not removable** — the стояки are common property serving the
+  whole riser — so it is a hard constraint on any layout, recorded as one in
+  `room_schedules.json`.
+- The same effect explains the smaller gaps elsewhere: ванная ≈ +0.15 m²,
+  прихожая ≈ +0.3 m². Living rooms have no risers and agree within 0.1 m².
+- **Never compare a developer area with a measured area directly.** Where they
+  differ by roughly the footprint of a service короб, that is the explanation
+  before any construction difference is.
 
 Totals differ by 2.4 m² (68.3 to 70.7), but that is dominated by how each plan
 counts the loggia, not by the rooms. `kv109`'s loggia is materially smaller and

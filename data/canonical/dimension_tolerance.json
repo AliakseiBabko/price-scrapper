@@ -55,7 +55,8 @@
       "measured_min_m2": 1.6,
       "measured_max_m2": 1.9,
       "measured_spread_m2": 0.3,
-      "developer_vs_measured_mean_m2": 0.53
+      "developer_vs_measured_mean_m2": 0.53,
+      "note": "Developer 1.24 m2 is CLEAR floor with the riser короб excluded; the measured 1.6-1.9 m2 are GROSS to the wall faces. See measurement_conventions - the room is the same size."
     },
     "bathroom": {
       "ru": "ванная",
@@ -273,12 +274,40 @@
     "dimension_spread_median_mm": 20,
     "guidance": "Wall-to-wall dimensions of the same nominal wall differ by 0-50 mm between flats (median 20 mm). Treat any dimension in the model as nominal +/- 25 mm, and never design a fit that depends on less than about 30 mm of slack.",
     "area_guidance": "Room areas agree within 0.1-0.3 m2 across the comparables; the totals differ by up to 2.4 m2 (68.3 to 70.7) and that is dominated by how the loggia is counted, not by the rooms.",
-    "biggest_outlier": "туалет: 1.24 m2 on the developer plan against 1.6-1.9 m2 measured. Worth resolving before anything is designed to fit in it."
+    "biggest_outlier": "RESOLVED: the туалет difference is a clear-vs-gross convention, not a size difference - 1140 x 1090 clear plus a 1140 x 490 riser recess reproduces the measured 1.8-1.9 m2. Usable floor is about 1.24 m2."
   },
   "caveats": [
     "The comparables are as-built plans of other flats in the same series, not of this flat.",
     "The measured plans record living and kitchen as one room; the developer plan separates them. Compare the pair summed, never individually.",
     "kv109's loggia is materially smaller and may be a different sub-type.",
     "Read from images by eye; re-check any single number before it drives a purchase."
-  ]
+  ],
+  "measurement_conventions": {
+    "developer_plan": "clear (net) floor area, service boxing deducted",
+    "measured_bti_plans": "gross floor area to wall faces, boxing counted as floor",
+    "rule": "Never compare a developer area with a measured area directly. Where they differ by roughly the footprint of a service короб, that is the explanation before any construction difference is.",
+    "affects": "туалет most (0.56 m2 of a 1.8 m2 room), ванная a little (~0.15), прихожая a little (~0.3). Living rooms have no risers and agree within 0.1.",
+    "wc_resolution": {
+      "question": "туалет reads 1.24 m2 on the developer plan and 1.6-1.9 m2 on every measured plan.",
+      "answer": "Different conventions, not different rooms. The developer publishes the CLEAR floor area with the стояки boxed out; the measured (БТИ-style) plans publish the GROSS area to the wall faces, counting the короб as floor.",
+      "arithmetic_m2": {
+        "developer_clear": 1.243,
+        "riser_recess": 0.559,
+        "developer_clear_plus_recess": 1.801,
+        "measured_range": [
+          1.6,
+          1.9
+        ]
+      },
+      "conclusion": "1140 x 1090 = 1.24 clear, plus the 1140 x 490 recess = 1.80 - which lands on the 1.8 and 1.9 of two of the three measured flats. The usable floor really is about 1.24 m2.",
+      "services_in_that_corner": [
+        "стояк холодной воды",
+        "стояк горячей воды",
+        "стояк канализации (Ø110)"
+      ],
+      "attribution": "Explanation from the apartment owner; the arithmetic above is the check, and it agrees.",
+      "consequence": "Plan the туалет against ~1.24 m2 of usable floor, not 1.8. The короб is not removable - the стояки are common property and serve the whole riser.",
+      "open_question": "kv109 reads 1.6 m2, which is 0.2 below the other two. Either a smaller recess or a different sub-type; unresolved."
+    }
+  }
 }

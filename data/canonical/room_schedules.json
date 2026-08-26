@@ -66,7 +66,22 @@
       "partition": 75,
       "note": "Read from the dimension strings on the plan; 75 mm partitions are drawn, which is thinner than anything the model has assumed so far."
     },
-    "rooms_total_check_m2": 64.85
+    "rooms_total_check_m2": 64.85,
+    "constraints": [
+      {
+        "kind": "riser",
+        "statement": "Стояки холодной воды, горячей воды и канализации стоят в туалете у стены, противоположной входу, и закрыты коробом примерно 1140 x 490 мм.",
+        "zone": "туалет",
+        "footprint_mm": [
+          1140,
+          490
+        ],
+        "area_m2": 0.559,
+        "movable": false,
+        "why": "Общедомовые стояки обслуживают весь райзер - перенос не рассматривается.",
+        "evidence": "_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg - заштрихованный короб с тремя трубами в верхней части туалета; подтверждено владельцем."
+      }
+    ]
   },
   "homestyler_modified": {
     "schema_version": "0.1.0",
