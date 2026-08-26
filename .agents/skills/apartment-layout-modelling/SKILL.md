@@ -93,6 +93,29 @@ building, and why the invariants cannot be edited by accident. The 200 mm
 thickness threshold that separates shell from partition is a heuristic, **not a
 structural survey — no wall may be called non-load-bearing on its strength.**
 
+## The raster plan is registered — it is a tracing surface in millimetres
+
+The owner drew the Homestyler layout on the developer's detailed plan as a base
+image, so the two share a frame. `tools/cad/overlay_plan.py` recovers it:
+
+- **20.63 mm per pixel, origin at (26, 22)** in `fllor_plan_detailed.jpeg`,
+  aspect agreeing with the CAD to 1.7%.
+- `--diff` colours the result: **green where a CAD wall sits on a drawn wall,
+  red where it does not**. Output: `data/cad/overlay_developer_plan_diff.png`.
+
+Two things that buys:
+
+1. **The CAD extraction is validated.** 27177 of 30511 wall pixels — **89.1%** —
+   land on walls the developer drew. The extraction is faithful to the plan it
+   came from, which nothing else had confirmed.
+2. **The redesign's additions are visible and measurable**: the remaining 10.9%
+   is where the owner added partitions — the laundry/entrance split and the wall
+   forming the Kids Room. Read red as "look here", not as a measurement; it also
+   picks up jitter along hatched edges.
+
+That registration is also how **v0 gets geometry**: the developer's own
+partitions can be traced off the raster in millimetres rather than guessed.
+
 ## Describing a change → a built model
 
 A variant is a **patch** on the shell, not a copy. Write
