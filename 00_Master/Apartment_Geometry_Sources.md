@@ -91,8 +91,10 @@ the короб as floor. The туалет makes this visible because it is the r
 the стояки land.
 
 The developer's plan draws the туалет as 1140 × 1090 mm of clear floor, with a
-hatched 1140 × 490 mm recess at the wall opposite the entrance holding three
-pipes — стояк холодной воды, стояк горячей воды and стояк канализации Ø110:
+1140 × 490 mm block at the wall opposite the entrance. Zoomed in, that block is
+a **вентблок** — a grey section with three rounded channels, the shaft plus its
+satellite ducts — not the water risers I first took it for. The arithmetic is
+unchanged; the service responsible is different:
 
 ```
 clear floor      1.140 × 1.090 = 1.24 m²   ← the developer's figure
@@ -101,17 +103,36 @@ gross            1.140 × 1.580 = 1.80 m²   ← what the measured plans report
 ```
 
 **1.80 m² is exactly what two of the three measured flats print (1.8 and 1.9).**
-So the room is the same room; only the accounting differs. (`kv109` reads 1.6,
-0.2 below the other two — either a smaller recess or a different sub-type, and
-that one is still open.)
+So the room is the same room; only the accounting differs.
+
+### Why kv109 reads 1.6 — the floor effect
+
+Ventilation, unlike plumbing, depends on the floor. Above the 10th floor each
+flat carries **two ventilation sections instead of one** — in the туалет, and
+again between the kitchen zone and the laundry/hallway zone — and the second
+section takes floor area with it. Plumbing risers are identical in every flat.
+
+This flat is on the **4th floor**, so it has the single-section geometry and the
+**larger** of the observed areas.
+
+That makes `kv109` (туалет 1.6 m², total 68.3 m²) a higher-floor sub-type rather
+than a sample of what to expect here. **Use kv53 and Минина 6 as the comparables
+for this flat**, and keep kv109 as evidence of the floor effect, not as a size
+sample. It also narrows the earlier 68.3–70.7 spread: the low end belongs to a
+different configuration.
+
+*Source: the owner. Consistent with the measured spread, and with the вентблок
+being visible on the developer's plan; not independently checked against a
+section drawing.*
 
 Consequences worth carrying forward:
 
 - **Plan the туалет against ~1.24 m² of usable floor, not 1.8.** Anything sized
   against the bigger number will not fit.
-- The короб is **not removable** — the стояки are common property serving the
-  whole riser — so it is a hard constraint on any layout, recorded as one in
-  `room_schedules.json`.
+- The вентблок is **not removable** — a common-property shaft — so it is a hard
+  constraint on any layout, recorded as one in `room_schedules.json` along with
+  the plumbing стояки and the second vent block between the kitchen and the
+  laundry/hallway zone.
 - The same effect explains the smaller gaps elsewhere: ванная ≈ +0.15 m²,
   прихожая ≈ +0.3 m². Living rooms have no risers and agree within 0.1 m².
 - **Never compare a developer area with a measured area directly.** Where they

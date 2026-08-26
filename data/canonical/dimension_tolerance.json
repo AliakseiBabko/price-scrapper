@@ -17,12 +17,14 @@
         "living": 51.3,
         "useful": 66.6,
         "total": 70.7
-      }
+      },
+      "sub_type_note": "Consistent with a lower floor, one ventilation section - the closer comparable for this flat."
     },
     {
       "id": "minina6",
       "source": "_Inbox/_Visual_Drop/floor plan_2.jpg",
-      "note": "Минск, ул. Минина 6; no totals printed"
+      "note": "Минск, ул. Минина 6; no totals printed",
+      "sub_type_note": "Consistent with a lower floor, one ventilation section - the closer comparable for this flat."
     },
     {
       "id": "kv109",
@@ -31,7 +33,8 @@
         "living": 51.0,
         "useful": 65.8,
         "total": 68.3
-      }
+      },
+      "sub_type_note": "Probably a flat above the 10th floor: two ventilation sections instead of one, which takes extra area and explains the smaller туалет and total. Do not average it with the other two."
     }
   ],
   "rooms_m2": {
@@ -274,7 +277,8 @@
     "dimension_spread_median_mm": 20,
     "guidance": "Wall-to-wall dimensions of the same nominal wall differ by 0-50 mm between flats (median 20 mm). Treat any dimension in the model as nominal +/- 25 mm, and never design a fit that depends on less than about 30 mm of slack.",
     "area_guidance": "Room areas agree within 0.1-0.3 m2 across the comparables; the totals differ by up to 2.4 m2 (68.3 to 70.7) and that is dominated by how the loggia is counted, not by the rooms.",
-    "biggest_outlier": "RESOLVED: the туалет difference is a clear-vs-gross convention, not a size difference - 1140 x 1090 clear plus a 1140 x 490 riser recess reproduces the measured 1.8-1.9 m2. Usable floor is about 1.24 m2."
+    "biggest_outlier": "RESOLVED. The туалет difference is a clear-vs-gross convention (developer deducts the вентблок, measured plans do not): 1140 x 1090 clear + 1140 x 490 вентблок = 1.80 m2, which two of three measured flats print. kv109's smaller 1.6 m2 is a floor effect - flats above the 10th floor carry a second ventilation section. This flat is on the 4th floor, so the single-section geometry and the larger areas apply.",
+    "use_which_comparables": "kv53 and Минина 6 for this flat. kv109 is a different sub-type; keep it as evidence of the floor effect, not as a sample of the expected size."
   },
   "caveats": [
     "The comparables are as-built plans of other flats in the same series, not of this flat.",
@@ -301,13 +305,21 @@
       },
       "conclusion": "1140 x 1090 = 1.24 clear, plus the 1140 x 490 recess = 1.80 - which lands on the 1.8 and 1.9 of two of the three measured flats. The usable floor really is about 1.24 m2.",
       "services_in_that_corner": [
-        "стояк холодной воды",
-        "стояк горячей воды",
-        "стояк канализации (Ø110)"
+        "вентблок с каналами (в туалете) - three channels drawn in section",
+        "стояки водоснабжения и канализации are also in the wet zone, position not yet pinpointed on the plan"
       ],
       "attribution": "Explanation from the apartment owner; the arithmetic above is the check, and it agrees.",
       "consequence": "Plan the туалет against ~1.24 m2 of usable floor, not 1.8. The короб is not removable - the стояки are common property and serve the whole riser.",
-      "open_question": "kv109 reads 1.6 m2, which is 0.2 below the other two. Either a smaller recess or a different sub-type; unresolved."
+      "open_question": "kv109 reads 1.6 m2, which is 0.2 below the other two. Either a smaller recess or a different sub-type; unresolved.",
+      "correction_2026_08_26": "The 1140 x 490 recess in the туалет is the ВЕНТБЛОК, not the plumbing короб. Zooming into the developer's plan shows a grey block with three rounded channels in section - the ventilation shaft with its satellite ducts - and not the circles that would draw water risers. The area arithmetic is unaffected (1.24 clear + 0.56 = 1.80 gross); what changes is which service is responsible.",
+      "floor_dependency": {
+        "statement": "Flats above the 10th floor carry TWO ventilation sections where the lower floors carry one - in the туалет and again between the kitchen zone and the laundry/hallway zone. The second section takes additional floor area.",
+        "source": "apartment owner",
+        "this_flat": "4th floor - one section, so the larger of the observed areas applies",
+        "explains": "kv109 printing туалет 1.6 m2 and a 68.3 m2 total against kv53's 1.9 and 70.7: consistent with kv109 being a higher-floor flat with the doubled vent block.",
+        "confidence": "owner's account, consistent with the measured spread; not independently verified against a section drawing",
+        "plumbing_note": "The plumbing riser zone is identical in every flat per the owner - only ventilation varies with floor."
+      }
     }
   }
 }
