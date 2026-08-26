@@ -47,6 +47,19 @@ LAYERS = {
     "A-FURN": {"color": 6},
 }
 
+RU = {
+    "kitchen": "Кухня", "living": "Гостиная", "kids": "Детская", "bedroom": "Спальня",
+    "hallway": "Коридор", "corridor": "Коридор", "entrance": "Прихожая",
+    "bathroom": "Ванная", "wc": "Туалет", "combined_bath": "Санузел",
+    "laundry": "Постирочная", "balcony": "Балкон", "storage": "Кладовая",
+}
+
+
+def bilingual(name: str, role: str) -> str:
+    ru = RU.get(role)
+    return "%s / %s" % (ru, name) if ru and ru.lower() != name.lower() else name
+
+
 PHASE_LAYER = {"existing": "A-WALL-EXIST", "demolished": "A-WALL-DEMO",
                "new": "A-WALL-NEW", "modified": "A-WALL-MOD"}
 
@@ -74,6 +87,10 @@ def export(spec: dict, out_path: Path) -> dict:
         lt = attrs.get("linetype")
         if lt and doc.linetypes.has_entry(lt):
             layer.dxf.linetype = lt
+    # Cyrillic needs a TrueType style; the default SHX font renders it as boxes
+    # in most viewers, TrueView included.
+    if "CYR" not in doc.styles:
+        doc.styles.add("CYR", font="arial.ttf")
     msp = doc.modelspace()
 
     counts = {"walls": 0, "openings": 0, "rooms": 0, "furniture": 0}
@@ -83,10 +100,12 @@ def export(spec: dict, out_path: Path) -> dict:
         x1, y1 = x0 + room["width_m"], y0 + room["depth_m"]
         add_rect(msp, "A-ROOM", x0, y0, x1, y1)
         cx, cy = (x0 + x1) / 2 * M, (y0 + y1) / 2 * M
-        msp.add_text(room["name"], height=120,
-                     dxfattribs={"layer": "A-ROOM-TEXT"}).set_placement((cx, cy + 90))
-        msp.add_text("%.2f m2" % room["area_m2"], height=120,
-                     dxfattribs={"layer": "A-ROOM-TEXT"}).set_placement((cx, cy - 90))
+        msp.add_text(bilingual(room["name"], room.get("role", "")), height=120,
+                     dxfattribs={"layer": "A-ROOM-TEXT", "style": "CYR"}
+                     ).set_placement((cx, cy + 90))
+        msp.add_text("%.2f m²" % room["area_m2"], height=120,
+                     dxfattribs={"layer": "A-ROOM-TEXT", "style": "CYR"}
+                     ).set_placement((cx, cy - 90))
         counts["rooms"] += 1
 
     for w in spec["walls"]:
@@ -126,10 +145,13 @@ def export(spec: dict, out_path: Path) -> dict:
                              p2=(x1 * M, y0 * M), dxfattribs={"layer": "A-ROOM-TEXT"})
     dim.render()
 
-    msp.add_text("%s - %s - NOT FOR CONSTRUCTION" % (spec.get("spec_id", ""),
-                                                     spec.get("status", "")),
-                 height=200, dxfattribs={"layer": "A-ROOM-TEXT"}
+    msp.add_text("Dubravinsky - %s - %s - НЕ ДЛЯ СТРОИТЕЛЬСТВА / NOT FOR CONSTRUCTION"
+                 % (spec.get("spec_id", ""), spec.get("status", "")),
+                 height=200, dxfattribs={"layer": "A-ROOM-TEXT", "style": "CYR"}
                  ).set_placement((x0 * M, (y1 + 0.6) * M))
+    msp.add_text("размеры номинальные ±25 мм / dimensions nominal ±25 mm",
+                 height=130, dxfattribs={"layer": "A-ROOM-TEXT", "style": "CYR"}
+                 ).set_placement((x0 * M, (y1 + 0.3) * M))
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     doc.saveas(str(out_path))
