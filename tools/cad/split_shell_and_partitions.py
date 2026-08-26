@@ -64,6 +64,7 @@ def main() -> int:
         "default_wall_thickness_m": 0.075,
         "exterior_wall_thickness_m": 0.25,
         "rooms": [],
+        "wall_outline_mm": cad.get("wall_outline_mm", []),
         "walls": shell_walls,
         "openings": shell_openings,
         "fills": [],

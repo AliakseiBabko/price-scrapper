@@ -42,8 +42,8 @@ LAYERS = {
     "A-WALL-MOD": {"color": 2},
     "A-DOOR": {"color": 2},
     "A-OPENING": {"color": 6},
-    "A-BALCONY-BLOCK": {"color": 5},
-    "A-WINDOW": {"color": 3},
+    "A-BALCONY-BLOCK": {"color": 3},   # glazing too - it is a window with a door in it
+    "A-WINDOW": {"color": 3},   # green - glazing
     "A-ROOM": {"color": 8},
     "A-ROOM-TEXT": {"color": 8},
     "A-FURN": {"color": 6},
@@ -97,10 +97,13 @@ def export(spec: dict, out_path: Path) -> dict:
 
     counts = {"walls": 0, "openings": 0, "rooms": 0, "furniture": 0}
 
+    # No room rectangle. The extent is recovered geometry and approximate, so
+    # drawing it puts a box over the walls that is close to the room but not
+    # the room. The label carries the authoritative area; the walls show the
+    # shape.
     for room in spec["rooms"]:
         x0, y0 = room["x_m"], room["y_m"]
         x1, y1 = x0 + room["width_m"], y0 + room["depth_m"]
-        add_rect(msp, "A-ROOM", x0, y0, x1, y1)
         cx, cy = (x0 + x1) / 2 * M, (y0 + y1) / 2 * M
         msp.add_text(bilingual(room["name"], room.get("role", "")), height=120,
                      dxfattribs={"layer": "A-ROOM-TEXT", "style": "CYR"}
@@ -110,29 +113,117 @@ def export(spec: dict, out_path: Path) -> dict:
                      ).set_placement((cx, cy - 90))
         counts["rooms"] += 1
 
+    outline = spec.get("wall_outline_mm") or []
+    if outline:
+        # The source's own wall outline: one continuous region, no internal
+        # lines where the decomposition happened to cut. Even-odd fill so the
+        # rooms stay holes rather than becoming wall.
+        hatch = msp.add_hatch(color=8, dxfattribs={"layer": "A-WALL-EXIST"})
+        hatch.set_pattern_fill("ANSI31", scale=18)
+        for cycle in outline:
+            pts = [(px, py) for px, py in cycle]
+            msp.add_lwpolyline(pts, close=True, dxfattribs={"layer": "A-WALL-EXIST"})
+            hatch.paths.add_polyline_path(pts, is_closed=True)
+        counts["walls"] = len(outline)
     for w in spec["walls"]:
-        layer = PHASE_LAYER.get(w.get("phase", "existing"), "A-WALL-EXIST")
+        phase = w.get("phase", "existing")
+        if outline and phase == "existing":
+            continue  # already drawn as part of the outline
+        layer = PHASE_LAYER.get(phase, "A-WALL-EXIST")
         x0, y0, x1, y1 = wall_rect(w)
         pts = add_rect(msp, layer, x0, y0, x1, y1)
-        if w.get("phase") != "demolished":
+        if phase != "demolished":
             hatch = msp.add_hatch(color=8, dxfattribs={"layer": layer})
             hatch.paths.add_polyline_path(pts, is_closed=True)
             hatch.set_pattern_fill("ANSI31", scale=18)
         counts["walls"] += 1
 
+    wall_by_name = {w["name"]: w for w in spec["walls"]}
+
+    def room_at(x_m: float, y_m: float):
+        """Which room a point falls in - used to decide which way a door opens."""
+        for r in spec["rooms"]:
+            if r["x_m"] <= x_m <= r["x_m"] + r["width_m"] \
+                    and r["y_m"] <= y_m <= r["y_m"] + r["depth_m"]:
+                return r
+        return None
+
+    def swing_side(o, t: float) -> int:
+        """+1 or -1: the side with the bigger room, or outward-safe if unknown.
+
+        A door drawn with a fixed swing opens into a wall about half the time.
+        Choosing the side by what is actually there is the difference between a
+        door symbol and a door.
+        """
+        cx = o["x_m"] + (o["width_m"] / 2 if o["horizontal"] else t / 2)
+        cy = o["y_m"] + (t / 2 if o["horizontal"] else o["width_m"] / 2)
+        reach = 0.6
+        if o["horizontal"]:
+            plus, minus = room_at(cx, cy + reach), room_at(cx, cy - reach)
+        else:
+            plus, minus = room_at(cx + reach, cy), room_at(cx - reach, cy)
+        a = plus["area_m2"] if plus else 0.0
+        b = minus["area_m2"] if minus else 0.0
+        return 1 if a >= b else -1
+
+    def host_thickness(o) -> float:
+        w = wall_by_name.get(o.get("host_wall") or "")
+        return w["thickness_m"] if w else 0.15
+
     for o in spec["openings"]:
         if o.get("phase") == "demolished":
             continue
+        kind = o["kind"]
         layer = {"door": "A-DOOR", "window": "A-WINDOW", "opening": "A-OPENING",
-                 "balcony_block": "A-BALCONY-BLOCK"}.get(o["kind"], "A-DOOR")
+                 "balcony_block": "A-BALCONY-BLOCK"}.get(kind, "A-DOOR")
+        t = host_thickness(o)
+        width = o["width_m"]
+        # Along the wall the opening runs `width`; across it, exactly the wall
+        # thickness. Drawing a fixed 190 mm depth is what made these look
+        # misplaced - they straddled the wall instead of sitting in it.
         if o["horizontal"]:
-            x0, y0, x1, y1 = o["x_m"], o["y_m"] - 0.02, o["x_m"] + o["width_m"], o["y_m"] + 0.17
+            x0, y0, x1, y1 = o["x_m"], o["y_m"], o["x_m"] + width, o["y_m"] + t
         else:
-            x0, y0, x1, y1 = o["x_m"] - 0.02, o["y_m"], o["x_m"] + 0.17, o["y_m"] + o["width_m"]
-        add_rect(msp, layer, x0, y0, x1, y1)
-        msp.add_text("%d" % round(o["width_m"] * M), height=90,
-                     dxfattribs={"layer": layer}).set_placement(((x0 + x1) / 2 * M,
-                                                                 (y0 + y1) / 2 * M))
+            x0, y0, x1, y1 = o["x_m"], o["y_m"], o["x_m"] + t, o["y_m"] + width
+
+        if kind in ("window", "balcony_block"):
+            # three lines across the reveal, the way a window is drawn
+            for frac in (0.25, 0.5, 0.75):
+                if o["horizontal"]:
+                    yy = (y0 + (y1 - y0) * frac) * M
+                    msp.add_line((x0 * M, yy), (x1 * M, yy), dxfattribs={"layer": layer})
+                else:
+                    xx = (x0 + (x1 - x0) * frac) * M
+                    msp.add_line((xx, y0 * M), (xx, y1 * M), dxfattribs={"layer": layer})
+        if kind in ("door", "balcony_block"):
+            # leaf plus swing, opening into the larger adjacent room
+            leaf = width
+            side = swing_side(o, t)
+            if o["horizontal"]:
+                hx, hy = x0 * M, (y0 + t / 2) * M
+                # leaf lies along the wall; the arc sweeps to the chosen side
+                msp.add_line((hx, hy), (hx + leaf * M, hy), dxfattribs={"layer": layer})
+                start, end = (0, 90) if side > 0 else (270, 360)
+            else:
+                hx, hy = (x0 + t / 2) * M, y0 * M
+                msp.add_line((hx, hy), (hx, hy + leaf * M), dxfattribs={"layer": layer})
+                start, end = (0, 90) if side > 0 else (90, 180)
+            msp.add_arc(center=(hx, hy), radius=leaf * M, start_angle=start, end_angle=end,
+                        dxfattribs={"layer": layer})
+        if kind == "opening":
+            # a проём has no leaf: mark the jambs and leave the gap empty
+            for px, py in (((x0, y0), (x0, y1)) if not o["horizontal"] else ((x0, y0), (x1, y0))):
+                pass
+            if o["horizontal"]:
+                msp.add_line((x0 * M, y0 * M), (x0 * M, y1 * M), dxfattribs={"layer": layer})
+                msp.add_line((x1 * M, y0 * M), (x1 * M, y1 * M), dxfattribs={"layer": layer})
+            else:
+                msp.add_line((x0 * M, y0 * M), (x1 * M, y0 * M), dxfattribs={"layer": layer})
+                msp.add_line((x0 * M, y1 * M), (x1 * M, y1 * M), dxfattribs={"layer": layer})
+
+        msp.add_text("%d" % round(width * M), height=90,
+                     dxfattribs={"layer": layer, "style": "CYR"}
+                     ).set_placement(((x0 + x1) / 2 * M, (y0 + y1) / 2 * M))
         counts["openings"] += 1
 
     for f in spec.get("furniture", []):

@@ -235,7 +235,7 @@ def slab_rectangles(cycles) -> list[tuple[float, float, float, float]]:
         for y0, y1 in intervals:
             if xb - xa > 1.0 and y1 - y0 > 1.0:
                 rects.append((xa, y0, xb, y1))
-    return coalesce(absorb_slivers(coalesce(snap_rects(rects))))
+    return merge_collinear(coalesce(absorb_slivers(coalesce(snap_rects(rects)))))
 
 
 SNAP_MM = 5.0
@@ -302,6 +302,41 @@ def absorb_slivers(rects):
             kept.append(r)
     print("  slivers: %d absorbed into a neighbour, %d dropped as crumbs" % (absorbed, dropped))
     return [tuple(r) for r in kept]
+
+
+def merge_collinear(rects, tol: float = 6.0):
+    """One wall should be one polygon.
+
+    coalesce() only joins rectangles that share a whole edge, so a wall cut by
+    every crossing partition stayed a row of separate pieces - which is what a
+    reader sees as "a bunch of small polygons instead of a wall". Grouping by
+    orientation, face line and thickness, then merging spans that touch or
+    overlap, rebuilds the wall as one run.
+    """
+    groups = {}
+    for x0, y0, x1, y1 in rects:
+        w, h = x1 - x0, y1 - y0
+        if w >= h:  # horizontal: same y band and thickness -> same wall line
+            key = ("h", round(y0 / tol), round(y1 / tol))
+            groups.setdefault(key, []).append([x0, x1, y0, y1])
+        else:
+            key = ("v", round(x0 / tol), round(x1 / tol))
+            groups.setdefault(key, []).append([y0, y1, x0, x1])
+
+    out = []
+    for (axis, _, _), spans in groups.items():
+        spans.sort()
+        merged = [spans[0]]
+        for a0, a1, b0, b1 in spans[1:]:
+            if a0 <= merged[-1][1] + tol:
+                merged[-1][1] = max(merged[-1][1], a1)
+                merged[-1][2] = min(merged[-1][2], b0)
+                merged[-1][3] = max(merged[-1][3], b1)
+            else:
+                merged.append([a0, a1, b0, b1])
+        for a0, a1, b0, b1 in merged:
+            out.append((a0, b0, a1, b1) if axis == "h" else (b0, a0, b1, a1))
+    return out
 
 
 def coalesce(rects, tol: float = 1.0):
@@ -547,6 +582,10 @@ def main() -> int:
         "exterior_wall_thickness_m": 0.25,
         "rooms": rooms,
         "room_probe": room_probe,
+        # The CAD's own wall outline. The rectangles below are a decomposition
+        # for the model; this is what the wall actually looks like, with no
+        # internal divisions, and it is what a drawing should show.
+        "wall_outline_mm": plan["outline_mm"],
         "walls": walls,
         "openings": spec_openings,
         "fills": [],
