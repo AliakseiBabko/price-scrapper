@@ -177,7 +177,11 @@ def build_one(variant_path: Path, render: bool) -> dict:
              "--output-dir", str(out / "sheets"), "--sheet-kind", "architectural"],
             capture_output=True, text=True, encoding="utf-8")
         if proc.returncode != 0:
-            result["sheet_error"] = proc.stderr[-800:]
+            # Silence here once left a stale sheet on disk being presented as
+            # the current drawing. A drawing that did not render is a failure.
+            raise SystemExit("sheet render failed for %s:
+%s"
+                             % (variant["variant_id"], proc.stderr[-1500:]))
         else:
             result["sheets"] = sorted(p.name for p in (out / "sheets").glob("*.pdf"))
     return result

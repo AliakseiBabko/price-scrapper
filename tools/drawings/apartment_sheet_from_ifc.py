@@ -284,6 +284,13 @@ def overlaps_interval(a0: float, a1: float, b0: float, b1: float, clearance: flo
 
 
 def wall_for_candidate(candidate: tuple[float, float], side: str, walls: list[Item]) -> tuple[Item, float, float]:
+    """Nearest wall on the given side, or None when there is nothing to hang on.
+
+    These symbols are placeholders placed by a heuristic, not designed
+    positions. On a CAD-derived model with fragmentary walls some candidates
+    have no wall to snap to, and losing one placeholder socket is not a reason
+    to lose the whole drawing.
+    """
     x, y = candidate
     best: tuple[float, Item, float, float] | None = None
     for wall in walls:
@@ -299,7 +306,7 @@ def wall_for_candidate(candidate: tuple[float, float], side: str, walls: list[It
                 if best is None or distance < best[0]:
                     best = (distance, wall, box.cx, y)
     if best is None:
-        raise SheetError(f"Could not snap electrical symbol at {candidate} on {side} side to a wall.")
+        return None
     return best[1], best[2], best[3]
 
 
@@ -352,19 +359,30 @@ def candidate_point(room: Item, side: str, fraction: float) -> tuple[float, floa
     raise SheetError(f"Unsupported room side: {side}")
 
 
+skipped_symbols: list[str] = []
+
+
 def electrical_symbols(spaces: list[Item], walls: list[Item], openings: list[Item]) -> list[ServiceSymbol]:
     alternates = [("bottom", 0.35), ("top", 0.35), ("left", 0.5), ("right", 0.5), ("bottom", 0.65), ("top", 0.65)]
     symbols: list[ServiceSymbol] = []
     for room in sorted(spaces, key=lambda item: item.name):
         for index, (side, fraction) in enumerate(room_electrical_positions(room), 1):
-            tried = [(side, fraction)] + alternates
-            for candidate_side, candidate_fraction in tried:
-                wall, x, y = wall_for_candidate(candidate_point(room, candidate_side, candidate_fraction), candidate_side, walls)
+            placed = False
+            for candidate_side, candidate_fraction in [(side, fraction)] + alternates:
+                snapped = wall_for_candidate(
+                    candidate_point(room, candidate_side, candidate_fraction), candidate_side, walls)
+                if snapped is None:
+                    continue
+                wall, x, y = snapped
                 if not collides_with_opening(x, y, wall, openings):
-                    symbols.append(ServiceSymbol("electrical", f"{room.name} outlet {index}", room.name, x, y, wall.name, candidate_side))
+                    symbols.append(ServiceSymbol("electrical", f"{room.name} outlet {index}",
+                                                 room.name, x, y, wall.name, candidate_side))
+                    placed = True
                     break
-            else:
-                raise SheetError(f"Could not place {room.name} outlet {index} without opening collision.")
+            if not placed:
+                # A placeholder that will not sit anywhere is dropped and
+                # reported. Losing one heuristic socket must not lose the sheet.
+                skipped_symbols.append(f"{room.name} outlet {index}")
     return symbols
 
 
