@@ -133,6 +133,24 @@ Two things that buys:
 That registration is also how **v0 gets geometry**: the developer's own
 partitions can be traced off the raster in millimetres rather than guessed.
 
+## Carrying several options at once
+
+One shell, a patch per option, and a **model built per option** - own IFC,
+sheets, DXF, Blender scene. Nothing is copied, so fixing the shell fixes every
+option.
+
+Options compose: a variant may `extends` another variant instead of naming
+`base_spec`, so furniture and finishes schemes layer onto a layout without
+duplicating it. The applied chain is recorded in the built spec as
+`variant_chain`.
+
+`status` is `draft` → `candidate` → `selected` (at most one) / `rejected` /
+`superseded`, with the reason in `decision`. **Rejected options are kept**, the
+way Dolgushev's album ships variants 1-4 next to the final one.
+
+Versions live in git history, not in filenames - edit the variant rather than
+creating `-v2`. Full account: `00_Master/Options_And_Versions.md`.
+
 ## Describing a change → a built model
 
 A variant is a **patch** on the shell, not a copy. Write

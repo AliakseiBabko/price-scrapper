@@ -140,25 +140,58 @@ def apply_op(spec: dict, op: dict, log: list[str]) -> None:
         raise SystemExit("unknown op %r - extend apply_op or fix the variant" % kind)
 
 
+def resolve_chain(variant_path: Path) -> tuple[list[dict], Path]:
+    """Follow `extends` back to the shell, so options can be layered.
+
+    Layout, furniture and finishes are separate decisions, and pinning them to
+    one file would force a copy of the layout for every furniture scheme. With
+    a chain, `warm-finishes` can extend `v2-open-kitchen`, and fixing the shell
+    fixes every option built on it at once - which copies never do.
+    """
+    chain: list[dict] = []
+    seen: set[str] = set()
+    path = variant_path
+    while True:
+        variant = json.loads(path.read_text(encoding="utf-8"))
+        vid = variant["variant_id"]
+        if vid in seen:
+            raise SystemExit("variant chain loops at %r" % vid)
+        seen.add(vid)
+        chain.append(variant)
+        parent = variant.get("extends")
+        if not parent:
+            if "base_spec" not in variant:
+                raise SystemExit("%s has neither `extends` nor `base_spec`" % vid)
+            return list(reversed(chain)), REPO / variant["base_spec"]
+        path = VARIANTS / (parent + ".json")
+        if not path.exists():
+            raise SystemExit("%s extends %r, which does not exist" % (vid, parent))
+
+
 def build_one(variant_path: Path, render: bool) -> dict:
-    variant = json.loads(variant_path.read_text(encoding="utf-8"))
-    base_path = REPO / variant["base_spec"]
+    chain, base_path = resolve_chain(variant_path)
+    leaf = chain[-1]
     spec = json.loads(base_path.read_text(encoding="utf-8"))
 
-    spec["spec_id"] = variant["variant_id"]
-    spec["name"] = variant["name"]
-    spec["derived_from"] = variant["base_spec"]
-    spec["status"] = variant.get("status", "draft")
+    spec["spec_id"] = leaf["variant_id"]
+    spec["name"] = leaf["name"]
+    spec["derived_from"] = str(base_path.relative_to(REPO))
+    spec["variant_chain"] = [v["variant_id"] for v in chain]
+    spec["status"] = leaf.get("status", "draft")
 
     log: list[str] = []
-    for op in variant.get("operations", []):
-        apply_op(spec, op, log)
+    for variant in chain:
+        if len(chain) > 1:
+            log.append("--- %s" % variant["variant_id"])
+        for op in variant.get("operations", []):
+            apply_op(spec, op, log)
 
-    out = OUTPUTS / variant["variant_id"]
+    out = OUTPUTS / leaf["variant_id"]
     out.mkdir(parents=True, exist_ok=True)
     spec_out = out / "spec.json"
-    spec_out.write_text(json.dumps(spec, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    spec_out.write_text(json.dumps(spec, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 
+    variant = leaf
     result = {"variant_id": variant["variant_id"], "spec": str(spec_out.relative_to(REPO)),
               "operations_applied": log}
 
