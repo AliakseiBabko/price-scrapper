@@ -1,0 +1,133 @@
+{
+  "developer_plan": {
+    "schema_version": "0.1.0",
+    "id": "developer-plan-3b-3plus",
+    "name": "ZK Dubravinskiy - developer plan, type 3Б/3+",
+    "source": "_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
+    "also_see": [
+      "_assets/floor_plan_initial.jpg",
+      "_Inbox/_Visual_Drop/floor_plan_basic.jpg"
+    ],
+    "status": "design_intent_building_not_finished",
+    "totals_m2": {
+      "total": 69.09,
+      "living": 45.49
+    },
+    "rooms": [
+      {
+        "name_ru": "жилая комната",
+        "role": "living",
+        "area_m2": 19.49
+      },
+      {
+        "name_ru": "жилая комната",
+        "role": "bedroom",
+        "area_m2": 16.64
+      },
+      {
+        "name_ru": "жилая комната",
+        "role": "kids",
+        "area_m2": 9.36
+      },
+      {
+        "name_ru": "прихожая",
+        "role": "entrance",
+        "area_m2": 9.79
+      },
+      {
+        "name_ru": "кухня",
+        "role": "kitchen",
+        "area_m2": 5.24
+      },
+      {
+        "name_ru": "ванная",
+        "role": "bathroom",
+        "area_m2": 3.09
+      },
+      {
+        "name_ru": "туалет",
+        "role": "wc",
+        "area_m2": 1.24
+      },
+      {
+        "name_ru": "лоджия",
+        "role": "balcony",
+        "area_m2": 6.05,
+        "counted_as_m2": 4.24,
+        "note": "counted with a coefficient in the 69.09 total"
+      }
+    ],
+    "key_dimensions_mm": {
+      "entrance_opening": 1010,
+      "internal_door_opening": 910,
+      "middle_room_length": 3250,
+      "window_opening": 1800,
+      "party_wall_or_structure": 250,
+      "partition": 75,
+      "note": "Read from the dimension strings on the plan; 75 mm partitions are drawn, which is thinner than anything the model has assumed so far."
+    },
+    "rooms_total_check_m2": 64.85
+  },
+  "homestyler_modified": {
+    "schema_version": "0.1.0",
+    "id": "homestyler-modified-layout",
+    "name": "ZK Dubravinskiy - modified layout designed by the owner in Homestyler",
+    "source": "_assets/floor_plan_modified.png",
+    "cad_export": "00_Master/../data/cad/dxf/20260727-ZK Dubravinskiy.dxf",
+    "status": "owner_design_not_built",
+    "relationship": "This is a VARIANT of the developer plan, not the existing state. It adds a laundry room, splits entrance from hallway, and roughly doubles the kitchen by taking it into the living room.",
+    "rooms": [
+      {
+        "name": "Living and Dining Room",
+        "role": "living",
+        "area_m2": 13.57
+      },
+      {
+        "name": "Kids Room",
+        "role": "kids",
+        "area_m2": 15.28
+      },
+      {
+        "name": "Kitchen",
+        "role": "kitchen",
+        "area_m2": 10.56
+      },
+      {
+        "name": "Bedroom small",
+        "role": "bedroom",
+        "area_m2": 9.29
+      },
+      {
+        "name": "Hallway",
+        "role": "hallway",
+        "area_m2": 5.88
+      },
+      {
+        "name": "Bathroom",
+        "role": "bathroom",
+        "area_m2": 3.07
+      },
+      {
+        "name": "Entrance",
+        "role": "entrance",
+        "area_m2": 2.44
+      },
+      {
+        "name": "Laundry Room",
+        "role": "laundry",
+        "area_m2": 1.9
+      },
+      {
+        "name": "WC",
+        "role": "wc",
+        "area_m2": 1.47
+      },
+      {
+        "name": "Balcony",
+        "role": "balcony",
+        "area_m2": 6.02
+      }
+    ],
+    "rooms_total_check_m2": 63.46
+  }
+}

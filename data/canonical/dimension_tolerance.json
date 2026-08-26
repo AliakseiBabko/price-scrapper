@@ -1,0 +1,284 @@
+{
+  "schema_version": "0.1.0",
+  "id": "zk-dubravinskiy-dimension-tolerance",
+  "purpose": "How much the built flat may differ from the developer's plan, measured from three as-built plans of the same layout rather than assumed.",
+  "base_case": {
+    "source": "_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
+    "what": "Developer's dimensioned plan, type 3Б/3+",
+    "total_m2": 69.09,
+    "living_m2": 45.49,
+    "status": "design intent - the building is not finished, so nothing is field verified"
+  },
+  "comparables": [
+    {
+      "id": "kv53",
+      "source": "_Inbox/_Visual_Drop/floor plan_1.jpg",
+      "totals_m2": {
+        "living": 51.3,
+        "useful": 66.6,
+        "total": 70.7
+      }
+    },
+    {
+      "id": "minina6",
+      "source": "_Inbox/_Visual_Drop/floor plan_2.jpg",
+      "note": "Минск, ул. Минина 6; no totals printed"
+    },
+    {
+      "id": "kv109",
+      "source": "_Inbox/_Visual_Drop/floor plan_3.jpg",
+      "totals_m2": {
+        "living": 51.0,
+        "useful": 65.8,
+        "total": 68.3
+      }
+    }
+  ],
+  "rooms_m2": {
+    "corridor": {
+      "ru": "коридор / прихожая",
+      "developer": 9.79,
+      "kv53": 10.2,
+      "minina6": 10.1,
+      "kv109": 10.0,
+      "measured_min_m2": 10.0,
+      "measured_max_m2": 10.2,
+      "measured_spread_m2": 0.2,
+      "developer_vs_measured_mean_m2": 0.31
+    },
+    "wc": {
+      "ru": "туалет",
+      "developer": 1.24,
+      "kv53": 1.9,
+      "minina6": 1.8,
+      "kv109": 1.6,
+      "measured_min_m2": 1.6,
+      "measured_max_m2": 1.9,
+      "measured_spread_m2": 0.3,
+      "developer_vs_measured_mean_m2": 0.53
+    },
+    "bathroom": {
+      "ru": "ванная",
+      "developer": 3.09,
+      "kv53": 3.2,
+      "minina6": 3.2,
+      "kv109": 3.2,
+      "measured_min_m2": 3.2,
+      "measured_max_m2": 3.2,
+      "measured_spread_m2": 0.0,
+      "developer_vs_measured_mean_m2": 0.11
+    },
+    "room_small": {
+      "ru": "жилая (малая)",
+      "developer": 9.36,
+      "kv53": 9.3,
+      "minina6": 9.3,
+      "kv109": 9.2,
+      "measured_min_m2": 9.2,
+      "measured_max_m2": 9.3,
+      "measured_spread_m2": 0.1,
+      "developer_vs_measured_mean_m2": -0.09
+    },
+    "room_mid": {
+      "ru": "жилая (средняя)",
+      "developer": 16.64,
+      "kv53": 16.8,
+      "minina6": 16.7,
+      "kv109": 16.7,
+      "measured_min_m2": 16.7,
+      "measured_max_m2": 16.8,
+      "measured_spread_m2": 0.1,
+      "developer_vs_measured_mean_m2": 0.09
+    },
+    "living_kitchen": {
+      "ru": "жилая с кухонным оборудованием",
+      "developer": 24.73,
+      "kv53": 25.2,
+      "minina6": 25.0,
+      "kv109": 25.1,
+      "note": "Developer figure is living 19.49 + kitchen 5.24; the measured plans record the pair as one room, so they are only comparable summed.",
+      "measured_min_m2": 25.0,
+      "measured_max_m2": 25.2,
+      "measured_spread_m2": 0.2,
+      "developer_vs_measured_mean_m2": 0.37
+    },
+    "loggia": {
+      "ru": "лоджия",
+      "developer": 6.05,
+      "kv53": 5.9,
+      "minina6": 6.0,
+      "kv109": 3.5,
+      "note": "Counted with a coefficient in the totals (4.24 / 4.1 / - / 2.5). kv109 has a visibly shorter loggia - treat it as a different sub-type.",
+      "measured_min_m2": 3.5,
+      "measured_max_m2": 6.0,
+      "measured_spread_m2": 2.5,
+      "developer_vs_measured_mean_m2": -0.92
+    }
+  },
+  "dimensions_mm": [
+    {
+      "what": "overall depth of the living/kitchen bay",
+      "kv53": 7460,
+      "minina6": 7440,
+      "kv109": 7450,
+      "min_mm": 7440,
+      "max_mm": 7460,
+      "spread_mm": 20,
+      "mean_mm": 7450
+    },
+    {
+      "what": "living/kitchen bay, top width",
+      "kv53": 3300,
+      "minina6": 3250,
+      "kv109": 3270,
+      "min_mm": 3250,
+      "max_mm": 3300,
+      "spread_mm": 50,
+      "mean_mm": 3273
+    },
+    {
+      "what": "living/kitchen bay, bottom width",
+      "kv53": 3480,
+      "minina6": 3460,
+      "kv109": 3480,
+      "min_mm": 3460,
+      "max_mm": 3480,
+      "spread_mm": 20,
+      "mean_mm": 3473
+    },
+    {
+      "what": "corridor run",
+      "kv53": 3800,
+      "minina6": 3810,
+      "kv109": 3810,
+      "min_mm": 3800,
+      "max_mm": 3810,
+      "spread_mm": 10,
+      "mean_mm": 3807
+    },
+    {
+      "what": "corridor width at the entrance",
+      "kv53": 2330,
+      "minina6": 2280,
+      "kv109": 2310,
+      "min_mm": 2280,
+      "max_mm": 2330,
+      "spread_mm": 50,
+      "mean_mm": 2307
+    },
+    {
+      "what": "middle room, length left",
+      "kv53": 5700,
+      "minina6": 5730,
+      "kv109": 5690,
+      "min_mm": 5690,
+      "max_mm": 5730,
+      "spread_mm": 40,
+      "mean_mm": 5707
+    },
+    {
+      "what": "middle room, length right",
+      "kv53": 5680,
+      "minina6": 5710,
+      "kv109": 5680,
+      "min_mm": 5680,
+      "max_mm": 5710,
+      "spread_mm": 30,
+      "mean_mm": 5690
+    },
+    {
+      "what": "middle room, width top",
+      "kv53": 2990,
+      "minina6": 2970,
+      "kv109": 2980,
+      "min_mm": 2970,
+      "max_mm": 2990,
+      "spread_mm": 20,
+      "mean_mm": 2980
+    },
+    {
+      "what": "middle room, width bottom",
+      "kv53": 2970,
+      "minina6": 2950,
+      "kv109": 2970,
+      "min_mm": 2950,
+      "max_mm": 2970,
+      "spread_mm": 20,
+      "mean_mm": 2963
+    },
+    {
+      "what": "wet block, depth",
+      "kv53": 3170,
+      "minina6": 3180,
+      "kv109": 3150,
+      "min_mm": 3150,
+      "max_mm": 3180,
+      "spread_mm": 30,
+      "mean_mm": 3167
+    },
+    {
+      "what": "small room, width",
+      "kv53": 2790,
+      "minina6": 2790,
+      "kv109": 2780,
+      "min_mm": 2780,
+      "max_mm": 2790,
+      "spread_mm": 10,
+      "mean_mm": 2787
+    },
+    {
+      "what": "small room, depth",
+      "kv53": 3330,
+      "minina6": 3290,
+      "kv109": 3290,
+      "min_mm": 3290,
+      "max_mm": 3330,
+      "spread_mm": 40,
+      "mean_mm": 3303
+    },
+    {
+      "what": "bathroom, width",
+      "kv53": 1780,
+      "minina6": null,
+      "kv109": 1780,
+      "min_mm": 1780,
+      "max_mm": 1780,
+      "spread_mm": 0,
+      "mean_mm": 1780
+    },
+    {
+      "what": "bathroom, depth",
+      "kv53": 1820,
+      "minina6": null,
+      "kv109": 1820,
+      "min_mm": 1820,
+      "max_mm": 1820,
+      "spread_mm": 0,
+      "mean_mm": 1820
+    },
+    {
+      "what": "wc, width",
+      "kv53": 1190,
+      "minina6": null,
+      "kv109": 1170,
+      "min_mm": 1170,
+      "max_mm": 1190,
+      "spread_mm": 20,
+      "mean_mm": 1180
+    }
+  ],
+  "tolerance_summary": {
+    "dimension_spread_min_mm": 0,
+    "dimension_spread_max_mm": 50,
+    "dimension_spread_median_mm": 20,
+    "guidance": "Wall-to-wall dimensions of the same nominal wall differ by 0-50 mm between flats (median 20 mm). Treat any dimension in the model as nominal +/- 25 mm, and never design a fit that depends on less than about 30 mm of slack.",
+    "area_guidance": "Room areas agree within 0.1-0.3 m2 across the comparables; the totals differ by up to 2.4 m2 (68.3 to 70.7) and that is dominated by how the loggia is counted, not by the rooms.",
+    "biggest_outlier": "туалет: 1.24 m2 on the developer plan against 1.6-1.9 m2 measured. Worth resolving before anything is designed to fit in it."
+  },
+  "caveats": [
+    "The comparables are as-built plans of other flats in the same series, not of this flat.",
+    "The measured plans record living and kitchen as one room; the developer plan separates them. Compare the pair summed, never individually.",
+    "kv109's loggia is materially smaller and may be a different sub-type.",
+    "Read from images by eye; re-check any single number before it drives a purchase."
+  ]
+}

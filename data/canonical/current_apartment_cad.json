@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "spec_id": "current-apartment-cad",
-  "name": "ZK Dubravinskiy - existing state, from the developer layout via Homestyler CAD",
-  "status": "from_developer_layout_via_cad_not_field_verified",
+  "spec_id": "homestyler-modified-cad",
+  "name": "ZK Dubravinskiy - owner's modified layout, geometry from the Homestyler CAD export",
+  "status": "owner_design_from_cad_not_built_not_field_verified",
   "units": "m",
   "storey_height_m": 2.8,
   "default_wall_thickness_m": 0.15,
@@ -1318,6 +1318,64 @@
       "Openings are assigned to the wall rectangle they overlap most; slab decomposition can split one physical wall into several rectangles, so an opening may name only the piece it happens to sit in.",
       "room_probe is a diagnostic only: the numbers in it are wrong and it exists to show what the segmentation attempts produced, not to be used.",
       "Heights are assumptions - a 2D plan does not contain them."
+    ],
+    "what_this_is": "The Homestyler export is the OWNER'S MODIFIED layout, not the existing state. Confirmed by matching the room areas the segmentation did recover (13.06 and 10.16 m2) against the Homestyler schedule (Living 13.57, Kitchen 10.56); the developer plan has no room of either size, its kitchen being 5.24 m2. The existing state is the developer plan - see data/canonical/room_schedules.json.",
+    "tolerance_reference": "data/canonical/dimension_tolerance.json"
+  },
+  "room_schedule": {
+    "source": "_assets/floor_plan_modified.png (Homestyler screenshot)",
+    "note": "Authoritative room names and areas for THIS layout. Room polygons are still not extracted; these areas are what any polygon work must reproduce.",
+    "rooms": [
+      {
+        "name": "Living and Dining Room",
+        "role": "living",
+        "area_m2": 13.57
+      },
+      {
+        "name": "Kids Room",
+        "role": "kids",
+        "area_m2": 15.28
+      },
+      {
+        "name": "Kitchen",
+        "role": "kitchen",
+        "area_m2": 10.56
+      },
+      {
+        "name": "Bedroom small",
+        "role": "bedroom",
+        "area_m2": 9.29
+      },
+      {
+        "name": "Hallway",
+        "role": "hallway",
+        "area_m2": 5.88
+      },
+      {
+        "name": "Bathroom",
+        "role": "bathroom",
+        "area_m2": 3.07
+      },
+      {
+        "name": "Entrance",
+        "role": "entrance",
+        "area_m2": 2.44
+      },
+      {
+        "name": "Laundry Room",
+        "role": "laundry",
+        "area_m2": 1.9
+      },
+      {
+        "name": "WC",
+        "role": "wc",
+        "area_m2": 1.47
+      },
+      {
+        "name": "Balcony",
+        "role": "balcony",
+        "area_m2": 6.02
+      }
     ]
   }
 }
