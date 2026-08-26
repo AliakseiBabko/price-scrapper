@@ -74,8 +74,8 @@
       "op": "wall.add",
       "wall": {
         "name": "W003",
-        "x_m": 6.023,
-        "y_m": 1.292,
+        "x_m": 6.025,
+        "y_m": 1.29,
         "length_m": 6.105,
         "horizontal": false,
         "thickness_m": 0.1,
@@ -88,8 +88,8 @@
       "wall": {
         "name": "W007",
         "x_m": 0.195,
-        "y_m": 2.774,
-        "length_m": 7.086,
+        "y_m": 2.775,
+        "length_m": 7.085,
         "horizontal": false,
         "thickness_m": 0.055,
         "phase": "existing",
@@ -100,9 +100,9 @@
       "op": "wall.add",
       "wall": {
         "name": "W011",
-        "x_m": 6.123,
-        "y_m": 1.292,
-        "length_m": 1.802,
+        "x_m": 6.125,
+        "y_m": 1.29,
+        "length_m": 1.805,
         "horizontal": false,
         "thickness_m": 0.15,
         "phase": "existing",
@@ -112,10 +112,10 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W015",
+        "name": "W016",
         "x_m": 0.25,
         "y_m": 6.44,
-        "length_m": 1.761,
+        "length_m": 1.76,
         "horizontal": true,
         "thickness_m": 0.12,
         "phase": "existing",
@@ -125,12 +125,12 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W017",
-        "x_m": 3.116,
-        "y_m": 6.272,
-        "length_m": 1.125,
+        "name": "W018",
+        "x_m": 2.01,
+        "y_m": 5.835,
+        "length_m": 1.195,
         "horizontal": false,
-        "thickness_m": 0.175,
+        "thickness_m": 0.17,
         "phase": "existing",
         "kind": "partition"
       }
@@ -138,10 +138,10 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W018",
+        "name": "W019",
         "x_m": 0.0,
-        "y_m": 2.844,
-        "length_m": 7.016,
+        "y_m": 2.845,
+        "length_m": 7.015,
         "horizontal": false,
         "thickness_m": 0.025,
         "phase": "existing",
@@ -151,10 +151,10 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W019",
-        "x_m": 0.604,
-        "y_m": 8.306,
-        "length_m": 1.407,
+        "name": "W021",
+        "x_m": 0.605,
+        "y_m": 8.305,
+        "length_m": 1.405,
         "horizontal": true,
         "thickness_m": 0.12,
         "phase": "existing",
@@ -164,10 +164,10 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W020",
-        "x_m": 2.991,
-        "y_m": 3.094,
-        "length_m": 3.346,
+        "name": "W022",
+        "x_m": 2.99,
+        "y_m": 3.095,
+        "length_m": 3.345,
         "horizontal": false,
         "thickness_m": 0.05,
         "phase": "existing",
@@ -177,10 +177,23 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W023",
-        "x_m": 6.273,
-        "y_m": 1.292,
-        "length_m": 1.005,
+        "name": "W024",
+        "x_m": 4.15,
+        "y_m": 6.12,
+        "length_m": 1.275,
+        "horizontal": false,
+        "thickness_m": 0.125,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W025",
+        "x_m": 6.275,
+        "y_m": 1.29,
+        "length_m": 1.01,
         "horizontal": false,
         "thickness_m": 0.15,
         "phase": "existing",
@@ -190,10 +203,10 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W024",
+        "name": "W026",
         "x_m": 4.175,
-        "y_m": 8.397,
-        "length_m": 1.463,
+        "y_m": 8.395,
+        "length_m": 1.465,
         "horizontal": false,
         "thickness_m": 0.1,
         "phase": "existing",
@@ -203,10 +216,23 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W025",
-        "x_m": 4.276,
-        "y_m": 6.722,
-        "length_m": 1.747,
+        "name": "W027",
+        "x_m": 6.205,
+        "y_m": 6.275,
+        "length_m": 1.22,
+        "horizontal": false,
+        "thickness_m": 0.115,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W028",
+        "x_m": 4.275,
+        "y_m": 6.72,
+        "length_m": 1.75,
         "horizontal": true,
         "thickness_m": 0.075,
         "phase": "existing",
@@ -216,10 +242,10 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W026",
-        "x_m": 6.203,
-        "y_m": 8.297,
-        "length_m": 1.563,
+        "name": "W029",
+        "x_m": 6.205,
+        "y_m": 8.295,
+        "length_m": 1.565,
         "horizontal": false,
         "thickness_m": 0.07,
         "phase": "existing",
@@ -229,10 +255,10 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W027",
-        "x_m": 3.116,
+        "name": "W030",
+        "x_m": 3.115,
         "y_m": 0.0,
-        "length_m": 1.612,
+        "length_m": 1.61,
         "horizontal": false,
         "thickness_m": 0.065,
         "phase": "existing",
@@ -242,22 +268,9 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W028",
-        "x_m": 4.201,
-        "y_m": 6.122,
-        "length_m": 1.275,
-        "horizontal": false,
-        "thickness_m": 0.074,
-        "phase": "existing",
-        "kind": "partition"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W029",
-        "x_m": 6.123,
-        "y_m": 6.277,
+        "name": "W031",
+        "x_m": 6.125,
+        "y_m": 6.275,
         "length_m": 1.12,
         "horizontal": false,
         "thickness_m": 0.08,
@@ -268,36 +281,10 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W030",
-        "x_m": 2.011,
-        "y_m": 5.835,
-        "length_m": 1.193,
-        "horizontal": false,
-        "thickness_m": 0.075,
-        "phase": "existing",
-        "kind": "partition"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W031",
-        "x_m": 6.203,
-        "y_m": 6.277,
-        "length_m": 1.22,
-        "horizontal": false,
-        "thickness_m": 0.07,
-        "phase": "existing",
-        "kind": "partition"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
         "name": "W032",
-        "x_m": 2.011,
-        "y_m": 7.738,
-        "length_m": 0.712,
+        "x_m": 2.01,
+        "y_m": 7.74,
+        "length_m": 0.71,
         "horizontal": false,
         "thickness_m": 0.12,
         "phase": "existing",
@@ -308,9 +295,9 @@
       "op": "wall.add",
       "wall": {
         "name": "W033",
-        "x_m": 2.011,
-        "y_m": 9.159,
-        "length_m": 0.701,
+        "x_m": 2.01,
+        "y_m": 9.16,
+        "length_m": 0.7,
         "horizontal": false,
         "thickness_m": 0.12,
         "phase": "existing",
@@ -321,8 +308,8 @@
       "op": "wall.add",
       "wall": {
         "name": "W034",
-        "x_m": 4.276,
-        "y_m": 8.397,
+        "x_m": 4.275,
+        "y_m": 8.395,
         "length_m": 0.79,
         "horizontal": true,
         "thickness_m": 0.075,
@@ -335,7 +322,7 @@
       "wall": {
         "name": "W035",
         "x_m": 3.575,
-        "y_m": 8.397,
+        "y_m": 8.395,
         "length_m": 0.6,
         "horizontal": true,
         "thickness_m": 0.075,
@@ -347,9 +334,9 @@
       "op": "wall.add",
       "wall": {
         "name": "W036",
-        "x_m": 3.111,
+        "x_m": 3.11,
         "y_m": 0.0,
-        "length_m": 7.397,
+        "length_m": 7.395,
         "horizontal": false,
         "thickness_m": 0.005,
         "phase": "existing",
@@ -360,11 +347,11 @@
       "op": "wall.add",
       "wall": {
         "name": "W037",
-        "x_m": 2.131,
+        "x_m": 2.13,
         "y_m": 9.61,
         "length_m": 0.25,
         "horizontal": false,
-        "thickness_m": 0.119,
+        "thickness_m": 0.12,
         "phase": "existing",
         "kind": "partition"
       }
@@ -373,22 +360,9 @@
       "op": "wall.add",
       "wall": {
         "name": "W038",
-        "x_m": 2.086,
-        "y_m": 6.44,
-        "length_m": 0.588,
-        "horizontal": false,
-        "thickness_m": 0.045,
-        "phase": "existing",
-        "kind": "partition"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W039",
-        "x_m": 5.876,
-        "y_m": 8.397,
-        "length_m": 0.327,
+        "x_m": 5.875,
+        "y_m": 8.395,
+        "length_m": 0.33,
         "horizontal": true,
         "thickness_m": 0.075,
         "phase": "existing",
@@ -398,157 +372,89 @@
     {
       "op": "wall.add",
       "wall": {
-        "name": "W040",
-        "x_m": 2.684,
-        "y_m": 2.774,
-        "length_m": 0.32,
-        "horizontal": false,
-        "thickness_m": 0.032,
-        "phase": "existing",
-        "kind": "partition"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W041",
-        "x_m": 2.131,
-        "y_m": 6.44,
-        "length_m": 0.12,
-        "horizontal": false,
-        "thickness_m": 0.05,
-        "phase": "existing",
-        "kind": "partition"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W042",
+        "name": "W039",
         "x_m": 9.49,
         "y_m": 6.295,
         "length_m": 0.09,
         "horizontal": false,
-        "thickness_m": 0.058,
+        "thickness_m": 0.06,
         "phase": "existing",
         "kind": "partition",
         "note": "short fragment from slab decomposition - geometry is real, naming is not"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W043",
-        "x_m": 6.273,
-        "y_m": 6.295,
-        "length_m": 0.09,
-        "horizontal": false,
-        "thickness_m": 0.046,
-        "phase": "existing",
-        "kind": "partition",
-        "note": "short fragment from slab decomposition - geometry is real, naming is not"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W044",
-        "x_m": 3.291,
-        "y_m": 7.322,
-        "length_m": 0.075,
-        "horizontal": false,
-        "thickness_m": 0.05,
-        "phase": "existing",
-        "kind": "partition",
-        "note": "short fragment from slab decomposition - geometry is real, naming is not"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W045",
-        "x_m": 4.151,
-        "y_m": 7.322,
-        "length_m": 0.075,
-        "horizontal": false,
-        "thickness_m": 0.05,
-        "phase": "existing",
-        "kind": "partition",
-        "note": "short fragment from slab decomposition - geometry is real, naming is not"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W046",
-        "x_m": 8.848,
-        "y_m": 2.047,
-        "length_m": 0.25,
-        "horizontal": false,
-        "thickness_m": 0.008,
-        "phase": "existing",
-        "kind": "partition"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W047",
-        "x_m": 9.798,
-        "y_m": 1.978,
-        "length_m": 0.07,
-        "horizontal": false,
-        "thickness_m": 0.021,
-        "phase": "existing",
-        "kind": "partition",
-        "note": "short fragment from slab decomposition - geometry is real, naming is not"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W048",
-        "x_m": 7.048,
-        "y_m": 1.978,
-        "length_m": 0.07,
-        "horizontal": false,
-        "thickness_m": 0.016,
-        "phase": "existing",
-        "kind": "partition",
-        "note": "short fragment from slab decomposition - geometry is real, naming is not"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W049",
-        "x_m": 5.492,
-        "y_m": 1.292,
-        "length_m": 0.07,
-        "horizontal": false,
-        "thickness_m": 0.01,
-        "phase": "existing",
-        "kind": "partition",
-        "note": "short fragment from slab decomposition - geometry is real, naming is not"
-      }
-    },
-    {
-      "op": "wall.add",
-      "wall": {
-        "name": "W050",
-        "x_m": 1.357,
-        "y_m": 2.844,
-        "length_m": 0.25,
-        "horizontal": false,
-        "thickness_m": 0.002,
-        "phase": "existing",
-        "kind": "partition"
       }
     },
     {
       "op": "opening.create",
       "opening": {
-        "host_wall": "W035",
+        "host_wall": "W037",
+        "name": "door 1 (850 mm)",
+        "x_m": 3.091,
+        "y_m": 9.86,
+        "width_m": 0.85,
+        "horizontal": false,
+        "bottom_m": 0.0,
+        "height_m": 2.1,
+        "kind": "door",
+        "phase": "existing",
+        "cad_layer": "P-Door-Section",
+        "cad_thickness_m": 0.04
+      }
+    },
+    {
+      "op": "opening.create",
+      "opening": {
+        "host_wall": "W032",
+        "name": "door 2 (650 mm)",
+        "x_m": 2.356,
+        "y_m": 7.443,
+        "width_m": 0.65,
+        "horizontal": false,
+        "bottom_m": 0.0,
+        "height_m": 2.1,
+        "kind": "door",
+        "phase": "existing",
+        "cad_layer": "P-Door-Section",
+        "cad_thickness_m": 0.04
+      }
+    },
+    {
+      "op": "opening.create",
+      "opening": {
+        "host_wall": "W033",
+        "name": "door 3 (650 mm)",
+        "x_m": 1.746,
+        "y_m": 8.864,
+        "width_m": 0.65,
+        "horizontal": false,
+        "bottom_m": 0.0,
+        "height_m": 2.1,
+        "kind": "door",
+        "phase": "existing",
+        "cad_layer": "P-Door-Section",
+        "cad_thickness_m": 0.04
+      }
+    },
+    {
+      "op": "opening.create",
+      "opening": {
+        "host_wall": "W022",
+        "name": "door 5 (750 mm)",
+        "x_m": 2.921,
+        "y_m": 5.69,
+        "width_m": 0.75,
+        "horizontal": false,
+        "bottom_m": 0.0,
+        "height_m": 2.1,
+        "kind": "door",
+        "phase": "existing",
+        "cad_layer": "P-Door-Section",
+        "cad_thickness_m": 0.04
+      }
+    },
+    {
+      "op": "opening.create",
+      "opening": {
+        "host_wall": "W024",
         "name": "door 6 (750 mm)",
         "x_m": 4.081,
         "y_m": 7.397,
@@ -565,34 +471,17 @@
     {
       "op": "opening.create",
       "opening": {
-        "host_wall": "W026",
-        "name": "door 9 (800 mm)",
+        "host_wall": "W029",
+        "name": "opening 9 (800 mm)",
         "x_m": 6.203,
         "y_m": 7.497,
         "width_m": 0.8,
         "horizontal": false,
         "bottom_m": 0.0,
         "height_m": 2.1,
-        "kind": "door",
+        "kind": "opening",
         "phase": "existing",
         "cad_layer": "P-Opening-Section",
-        "cad_thickness_m": 0.07
-      }
-    },
-    {
-      "op": "opening.create",
-      "opening": {
-        "host_wall": "W027",
-        "name": "window 13 (2718 mm)",
-        "x_m": 0.248,
-        "y_m": 0.433,
-        "width_m": 2.718,
-        "horizontal": true,
-        "bottom_m": 1.0,
-        "height_m": 1.1,
-        "kind": "window",
-        "phase": "existing",
-        "cad_layer": "P-Window",
         "cad_thickness_m": 0.07
       }
     },
@@ -760,59 +649,45 @@
   "unresolved_openings": [
     {
       "host_wall": "",
-      "name": "door 1 (850 mm)",
-      "x_m": 3.091,
-      "y_m": 9.86,
-      "width_m": 0.85,
-      "horizontal": false,
+      "name": "opening 7 (3097 mm)",
+      "x_m": 6.363,
+      "y_m": 6.3,
+      "width_m": 3.097,
+      "horizontal": true,
       "bottom_m": 0.0,
       "height_m": 2.1,
-      "kind": "door",
+      "kind": "opening",
       "phase": "existing",
       "cad_layer": "P-Door-Section",
-      "cad_thickness_m": 0.04
+      "cad_thickness_m": 0.08
     },
     {
       "host_wall": "",
-      "name": "door 2 (650 mm)",
-      "x_m": 2.356,
-      "y_m": 7.443,
-      "width_m": 0.65,
-      "horizontal": false,
+      "name": "opening 10 (3157 mm)",
+      "x_m": 6.319,
+      "y_m": 6.295,
+      "width_m": 3.157,
+      "horizontal": true,
       "bottom_m": 0.0,
       "height_m": 2.1,
-      "kind": "door",
+      "kind": "opening",
       "phase": "existing",
-      "cad_layer": "P-Door-Section",
-      "cad_thickness_m": 0.04
+      "cad_layer": "P-Opening-Section",
+      "cad_thickness_m": 0.09
     },
     {
       "host_wall": "",
-      "name": "door 4 (750 mm)",
-      "x_m": 5.806,
-      "y_m": 7.647,
-      "width_m": 0.75,
-      "horizontal": false,
-      "bottom_m": 0.0,
-      "height_m": 2.1,
-      "kind": "door",
+      "name": "window 13 (2718 mm)",
+      "x_m": 0.248,
+      "y_m": 0.433,
+      "width_m": 2.718,
+      "horizontal": true,
+      "bottom_m": 1.0,
+      "height_m": 1.1,
+      "kind": "window",
       "phase": "existing",
-      "cad_layer": "P-Door-Section",
-      "cad_thickness_m": 0.04
-    },
-    {
-      "host_wall": "",
-      "name": "door 5 (750 mm)",
-      "x_m": 2.921,
-      "y_m": 5.69,
-      "width_m": 0.75,
-      "horizontal": false,
-      "bottom_m": 0.0,
-      "height_m": 2.1,
-      "kind": "door",
-      "phase": "existing",
-      "cad_layer": "P-Door-Section",
-      "cad_thickness_m": 0.04
+      "cad_layer": "P-Window",
+      "cad_thickness_m": 0.07
     }
   ],
   "evidence": {

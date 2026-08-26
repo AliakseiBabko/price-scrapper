@@ -28,6 +28,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -234,7 +235,73 @@ def slab_rectangles(cycles) -> list[tuple[float, float, float, float]]:
         for y0, y1 in intervals:
             if xb - xa > 1.0 and y1 - y0 > 1.0:
                 rects.append((xa, y0, xb, y1))
-    return coalesce(rects)
+    return coalesce(absorb_slivers(coalesce(snap_rects(rects))))
+
+
+SNAP_MM = 5.0
+SLIVER_MM = 60.0      # thinner than any real wall here (75 is the thinnest drawn)
+CRUMB_M2 = 0.005      # a fragment smaller than this is decomposition noise
+
+
+def snap_rects(rects, grid: float = SNAP_MM):
+    """Pull coordinates onto a 5 mm grid.
+
+    The CAD carries sub-millimetre noise, which the slab sweep turns into extra
+    cut lines and therefore extra fragments. Snapping removes the noise without
+    touching any real step: the smallest real feature here is 70 mm and the
+    dimensional tolerance is +/-25 mm.
+    """
+    out = []
+    for x0, y0, x1, y1 in rects:
+        a, b = round(x0 / grid) * grid, round(y0 / grid) * grid
+        c, d = round(x1 / grid) * grid, round(y1 / grid) * grid
+        if c - a > 0.5 and d - b > 0.5:
+            out.append((a, b, c, d))
+    return out
+
+
+def absorb_slivers(rects):
+    """Fold junction leftovers into the wall they belong to.
+
+    Slab decomposition leaves 2-50 mm nubs where walls meet at an L. They are
+    not features of the drawing - the developer's plan has no 21 mm wall - so
+    they are extended into a collinear neighbour where one exists, and dropped
+    when they are pure crumbs. Real steps in the plan are untouched, because
+    they are wider than any sliver.
+    """
+    rects = [list(r) for r in rects]
+    kept, absorbed, dropped = [], 0, 0
+    for r in rects:
+        w, h = r[2] - r[0], r[3] - r[1]
+        thin = min(w, h) < SLIVER_MM
+        if not thin:
+            kept.append(r)
+            continue
+        host = None
+        for other in rects:
+            if other is r:
+                continue
+            ow, oh = other[2] - other[0], other[3] - other[1]
+            if min(ow, oh) < SLIVER_MM:
+                continue
+            touches_x = other[0] - 1 <= r[0] and r[2] <= other[2] + 1
+            touches_y = other[1] - 1 <= r[1] and r[3] <= other[3] + 1
+            if touches_x and (abs(other[1] - r[3]) < 1 or abs(other[3] - r[1]) < 1):
+                host = other
+                host[1], host[3] = min(host[1], r[1]), max(host[3], r[3])
+                break
+            if touches_y and (abs(other[0] - r[2]) < 1 or abs(other[2] - r[0]) < 1):
+                host = other
+                host[0], host[2] = min(host[0], r[0]), max(host[2], r[2])
+                break
+        if host is not None:
+            absorbed += 1
+        elif w * h / 1e6 < CRUMB_M2:
+            dropped += 1
+        else:
+            kept.append(r)
+    print("  slivers: %d absorbed into a neighbour, %d dropped as crumbs" % (absorbed, dropped))
+    return [tuple(r) for r in kept]
 
 
 def coalesce(rects, tol: float = 1.0):
@@ -357,33 +424,89 @@ def main() -> int:
             "kind": "partition",
         })
 
-    def host_for(x0, y0, x1, y1, horizontal, grow=350.0):
-        """The wall this opening belongs to.
+    def wall_box(w):
+        wx0 = w["x_m"] * 1000
+        wy0 = w["y_m"] * 1000
+        wx1 = wx0 + (w["length_m"] if w["horizontal"] else w["thickness_m"]) * 1000
+        wy1 = wy0 + (w["thickness_m"] if w["horizontal"] else w["length_m"]) * 1000
+        return wx0, wy0, wx1, wy1
 
-        An opening is a *gap* in the footprint, so it overlaps no wall rectangle
-        at all. Stretching its box along the wall direction reaches the wall
-        segments either side of the gap, and the larger of those is the host.
+    def host_for(x0, y0, x1, y1, horizontal):
+        """The wall this opening is a gap in.
+
+        An opening overlaps no wall - it is where the wall is not - so
+        proximity alone finds nothing. What identifies the host is the axis
+        band: a gap in a vertical wall lies on that wall's x band, and the
+        host is the nearest wall on that band along the opening's own
+        direction. Searching by band instead of by a fixed reach is what
+        stopped doors going homeless when a neighbouring sliver was absorbed.
         """
-        if horizontal:
-            x0, x1 = x0 - grow, x1 + grow
-        else:
-            y0, y1 = y0 - grow, y1 + grow
-        best, best_area = "", 0.0
+        best, best_gap = "", None
         for w in walls:
-            wx0 = w["x_m"] * 1000
-            wy0 = w["y_m"] * 1000
-            wx1 = wx0 + (w["length_m"] if w["horizontal"] else w["thickness_m"]) * 1000
-            wy1 = wy0 + (w["thickness_m"] if w["horizontal"] else w["length_m"]) * 1000
-            ox = min(x1, wx1) - max(x0, wx0)
-            oy = min(y1, wy1) - max(y0, wy0)
-            if ox > 0 and oy > 0 and ox * oy > best_area:
-                best, best_area = w["name"], ox * oy
-        return best
+            wx0, wy0, wx1, wy1 = wall_box(w)
+            if w["horizontal"] != horizontal:
+                continue
+            if horizontal:
+                # gap in a horizontal wall: bands must agree in y, gap measured in x
+                if not (wy0 - 60 <= (y0 + y1) / 2 <= wy1 + 60):
+                    continue
+                gap = max(wx0 - x1, x0 - wx1, 0)
+            else:
+                if not (wx0 - 60 <= (x0 + x1) / 2 <= wx1 + 60):
+                    continue
+                gap = max(wy0 - y1, y0 - wy1, 0)
+            if gap > 1500:
+                continue
+            if best_gap is None or gap < best_gap:
+                best, best_gap = w["name"], gap
+        if best:
+            return best
+
+        # Fall back to whichever wall of the same orientation is nearest the
+        # opening's centre. Some openings sit in a wall the decomposition split
+        # differently, so the band test misses them; being adopted by the
+        # nearest same-orientation wall is still right far more often than
+        # being left homeless.
+        cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+        nearest, nearest_d = "", None
+        for w in walls:
+            if w["horizontal"] != horizontal:
+                continue
+            wx0, wy0, wx1, wy1 = wall_box(w)
+            dx = max(wx0 - cx, cx - wx1, 0)
+            dy = max(wy0 - cy, cy - wy1, 0)
+            d = (dx * dx + dy * dy) ** 0.5
+            if d <= 1500 and (nearest_d is None or d < nearest_d):
+                nearest, nearest_d = w["name"], d
+        return nearest
+
+    # Where the balcony is, so a balcony block can be told from a door.
+    labels_path = REPO / "data" / "cad" / "room_labels.json"
+    balcony = None
+    if labels_path.exists():
+        for r in json.loads(labels_path.read_text(encoding="utf-8"))["rooms"]:
+            if "balcon" in r["name"].lower() or "лодж" in r["name"].lower():
+                balcony = r["seed_mm"]
+
+    def classify(layer: str, width_mm: float, x_mm: float, y_mm: float) -> str:
+        """door / opening / balcony_block / window.
+
+        One layer for everything that is not a window put a leaf on things that
+        have none: the 3157 mm kitchen-dining проём drew as a door, and so did
+        the balcony block, which is a door with a window over it.
+        """
+        if layer == "P-Window":
+            return "window"
+        if layer == "P-Opening-Section" or width_mm > 2000:
+            return "opening"
+        if balcony and width_mm >= 1000 and math.dist((x_mm, y_mm), balcony) < 3000:
+            return "balcony_block"
+        return "door"
 
     spec_openings = []
     unhosted = []
     for i, o in enumerate(openings, 1):
-        kind = "window" if o["layer"] == "P-Window" else "door"
+        kind = classify(o["layer"], o["width_mm"], o["x_mm"], o["y_mm"])
         # width_mm is the long extent, i.e. along the wall; depth_mm is the wall
         # thickness the block spans. An earlier version swapped them for vertical
         # openings and produced 40 mm doors.
@@ -405,7 +528,8 @@ def main() -> int:
             "width_m": round(width, 3),
             "horizontal": o["horizontal"],
             "bottom_m": ASSUMED["window_sill_m"] if kind == "window" else 0.0,
-            "height_m": ASSUMED["window_height_m"] if kind == "window" else ASSUMED["door_height_m"],
+            "height_m": (ASSUMED["window_height_m"] if kind == "window"
+                         else ASSUMED["door_height_m"]),
             "kind": kind,
             "phase": "existing",
             "cad_layer": o["layer"],

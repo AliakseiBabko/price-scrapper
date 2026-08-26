@@ -41,6 +41,8 @@ LAYERS = {
     "A-WALL-NEW": {"color": 4},
     "A-WALL-MOD": {"color": 2},
     "A-DOOR": {"color": 2},
+    "A-OPENING": {"color": 6},
+    "A-BALCONY-BLOCK": {"color": 5},
     "A-WINDOW": {"color": 3},
     "A-ROOM": {"color": 8},
     "A-ROOM-TEXT": {"color": 8},
@@ -121,7 +123,8 @@ def export(spec: dict, out_path: Path) -> dict:
     for o in spec["openings"]:
         if o.get("phase") == "demolished":
             continue
-        layer = "A-DOOR" if o["kind"] == "door" else "A-WINDOW"
+        layer = {"door": "A-DOOR", "window": "A-WINDOW", "opening": "A-OPENING",
+                 "balcony_block": "A-BALCONY-BLOCK"}.get(o["kind"], "A-DOOR")
         if o["horizontal"]:
             x0, y0, x1, y1 = o["x_m"], o["y_m"] - 0.02, o["x_m"] + o["width_m"], o["y_m"] + 0.17
         else:

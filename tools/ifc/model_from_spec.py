@@ -111,7 +111,7 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
         wall_meta[w["name"]] = {"horizontal": w["horizontal"], "bbox": wall_bbox(w),
                                 "phase": w.get("phase", "existing")}
 
-    created = {"door": [], "window": []}
+    created = {"door": [], "window": [], "opening": [], "balcony_block": []}
     opening_meta = []
     unhosted = []
     for o in spec["openings"]:
@@ -133,7 +133,7 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
                          RelatingBuildingElement=host, RelatedOpeningElement=item)
         add_pset(model, item, "Pset_ApartmentPhase", {"Phase": o.get("phase", "existing"),
                                                       "Kind": o["kind"]})
-        created[o["kind"]].append(item)
+        created.setdefault(o["kind"], []).append(item)
         opening_meta.append({"host_wall": o["host_wall"],
                              "bbox": (o["x_m"], o["y_m"] - 0.08, o["x_m"] + o["width_m"], o["y_m"] + 0.23)
                              if o["horizontal"] else
