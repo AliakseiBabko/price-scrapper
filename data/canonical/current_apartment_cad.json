@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "spec_id": "homestyler-modified-cad",
-  "name": "ZK Dubravinskiy - owner's modified layout, geometry from the Homestyler CAD export",
-  "status": "owner_design_from_cad_not_built_not_field_verified",
+  "spec_id": "current-apartment-cad",
+  "name": "ZK Dubravinskiy - existing state, from the developer layout via Homestyler CAD",
+  "status": "from_developer_layout_via_cad_not_field_verified",
   "units": "m",
   "storey_height_m": 2.8,
   "default_wall_thickness_m": 0.15,
@@ -58,6 +58,16 @@
     },
     {
       "name": "W002",
+      "x_m": 6.273,
+      "y_m": 9.61,
+      "length_m": 3.275,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W003",
       "x_m": 6.023,
       "y_m": 1.292,
       "length_m": 6.105,
@@ -67,7 +77,7 @@
       "kind": "partition"
     },
     {
-      "name": "W003",
+      "name": "W004",
       "x_m": 0.25,
       "y_m": 8.306,
       "length_m": 1.554,
@@ -77,7 +87,7 @@
       "kind": "partition"
     },
     {
-      "name": "W004",
+      "name": "W005",
       "x_m": 2.716,
       "y_m": 1.292,
       "length_m": 1.802,
@@ -87,17 +97,17 @@
       "kind": "partition"
     },
     {
-      "name": "W005",
-      "x_m": 7.064,
+      "name": "W006",
+      "x_m": 4.276,
       "y_m": 9.61,
-      "length_m": 1.784,
+      "length_m": 1.597,
       "horizontal": true,
       "thickness_m": 0.25,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W006",
+      "name": "W007",
       "x_m": 0.195,
       "y_m": 2.774,
       "length_m": 7.086,
@@ -107,7 +117,27 @@
       "kind": "partition"
     },
     {
-      "name": "W007",
+      "name": "W008",
+      "x_m": 5.873,
+      "y_m": 8.715,
+      "length_m": 1.145,
+      "horizontal": false,
+      "thickness_m": 0.33,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W009",
+      "x_m": 0.25,
+      "y_m": 2.774,
+      "length_m": 1.107,
+      "horizontal": true,
+      "thickness_m": 0.32,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W010",
       "x_m": 0.604,
       "y_m": 9.21,
       "length_m": 0.65,
@@ -117,17 +147,57 @@
       "kind": "partition"
     },
     {
-      "name": "W008",
+      "name": "W011",
+      "x_m": 6.123,
+      "y_m": 1.292,
+      "length_m": 1.802,
+      "horizontal": false,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W012",
+      "x_m": 3.16,
+      "y_m": 9.61,
+      "length_m": 1.015,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W013",
+      "x_m": 1.088,
+      "y_m": 9.61,
+      "length_m": 0.923,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W014",
       "x_m": 8.856,
       "y_m": 1.978,
-      "length_m": 0.634,
+      "length_m": 0.692,
       "horizontal": true,
       "thickness_m": 0.32,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W009",
+      "name": "W015",
+      "x_m": 0.25,
+      "y_m": 6.44,
+      "length_m": 1.761,
+      "horizontal": true,
+      "thickness_m": 0.12,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W016",
       "x_m": 6.423,
       "y_m": 1.978,
       "length_m": 0.625,
@@ -137,17 +207,17 @@
       "kind": "partition"
     },
     {
-      "name": "W010",
-      "x_m": 4.276,
-      "y_m": 9.61,
-      "length_m": 0.79,
-      "horizontal": true,
-      "thickness_m": 0.25,
+      "name": "W017",
+      "x_m": 3.116,
+      "y_m": 6.272,
+      "length_m": 1.125,
+      "horizontal": false,
+      "thickness_m": 0.175,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W011",
+      "name": "W018",
       "x_m": 0.0,
       "y_m": 2.844,
       "length_m": 7.016,
@@ -157,17 +227,17 @@
       "kind": "partition"
     },
     {
-      "name": "W012",
-      "x_m": 5.876,
-      "y_m": 8.715,
-      "length_m": 1.145,
-      "horizontal": false,
-      "thickness_m": 0.147,
+      "name": "W019",
+      "x_m": 0.604,
+      "y_m": 8.306,
+      "length_m": 1.407,
+      "horizontal": true,
+      "thickness_m": 0.12,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W013",
+      "name": "W020",
       "x_m": 2.991,
       "y_m": 3.094,
       "length_m": 3.346,
@@ -177,80 +247,10 @@
       "kind": "partition"
     },
     {
-      "name": "W014",
-      "x_m": 1.358,
-      "y_m": 9.61,
-      "length_m": 0.653,
-      "horizontal": true,
-      "thickness_m": 0.25,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W015",
-      "x_m": 8.856,
-      "y_m": 9.61,
-      "length_m": 0.634,
-      "horizontal": true,
-      "thickness_m": 0.25,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W016",
-      "x_m": 6.423,
-      "y_m": 9.61,
-      "length_m": 0.625,
-      "horizontal": true,
-      "thickness_m": 0.25,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W017",
-      "x_m": 0.604,
-      "y_m": 2.774,
-      "length_m": 0.484,
-      "horizontal": true,
-      "thickness_m": 0.32,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W018",
-      "x_m": 6.123,
-      "y_m": 1.292,
-      "length_m": 1.802,
-      "horizontal": false,
-      "thickness_m": 0.08,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W019",
-      "x_m": 6.203,
-      "y_m": 1.292,
-      "length_m": 1.802,
-      "horizontal": false,
-      "thickness_m": 0.07,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W020",
-      "x_m": 3.181,
-      "y_m": 6.272,
-      "length_m": 1.125,
-      "horizontal": false,
-      "thickness_m": 0.11,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
       "name": "W021",
       "x_m": 5.501,
       "y_m": 1.292,
-      "length_m": 0.372,
+      "length_m": 0.522,
       "horizontal": true,
       "thickness_m": 0.32,
       "phase": "existing",
@@ -258,36 +258,46 @@
     },
     {
       "name": "W022",
-      "x_m": 6.023,
-      "y_m": 8.715,
-      "length_m": 1.145,
-      "horizontal": false,
-      "thickness_m": 0.1,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W023",
-      "x_m": 0.25,
-      "y_m": 2.774,
-      "length_m": 0.354,
+      "x_m": 3.181,
+      "y_m": 1.292,
+      "length_m": 0.52,
       "horizontal": true,
       "thickness_m": 0.32,
       "phase": "existing",
       "kind": "partition"
     },
     {
+      "name": "W023",
+      "x_m": 6.273,
+      "y_m": 1.292,
+      "length_m": 1.005,
+      "horizontal": false,
+      "thickness_m": 0.15,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
       "name": "W024",
-      "x_m": 3.701,
-      "y_m": 9.61,
-      "length_m": 0.45,
-      "horizontal": true,
-      "thickness_m": 0.25,
+      "x_m": 4.175,
+      "y_m": 8.397,
+      "length_m": 1.463,
+      "horizontal": false,
+      "thickness_m": 0.1,
       "phase": "existing",
       "kind": "partition"
     },
     {
       "name": "W025",
+      "x_m": 4.276,
+      "y_m": 6.722,
+      "length_m": 1.747,
+      "horizontal": true,
+      "thickness_m": 0.075,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W026",
       "x_m": 6.203,
       "y_m": 8.297,
       "length_m": 1.563,
@@ -297,37 +307,17 @@
       "kind": "partition"
     },
     {
-      "name": "W026",
-      "x_m": 4.201,
-      "y_m": 8.397,
-      "length_m": 1.463,
-      "horizontal": false,
-      "thickness_m": 0.074,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
       "name": "W027",
-      "x_m": 5.066,
-      "y_m": 9.61,
-      "length_m": 0.425,
-      "horizontal": true,
-      "thickness_m": 0.25,
+      "x_m": 3.116,
+      "y_m": 0.0,
+      "length_m": 1.612,
+      "horizontal": false,
+      "thickness_m": 0.065,
       "phase": "existing",
       "kind": "partition"
     },
     {
       "name": "W028",
-      "x_m": 6.319,
-      "y_m": 1.292,
-      "length_m": 1.005,
-      "horizontal": false,
-      "thickness_m": 0.104,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W029",
       "x_m": 4.201,
       "y_m": 6.122,
       "length_m": 1.275,
@@ -337,27 +327,7 @@
       "kind": "partition"
     },
     {
-      "name": "W030",
-      "x_m": 5.501,
-      "y_m": 9.61,
-      "length_m": 0.372,
-      "horizontal": true,
-      "thickness_m": 0.25,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W031",
-      "x_m": 6.123,
-      "y_m": 8.715,
-      "length_m": 1.145,
-      "horizontal": false,
-      "thickness_m": 0.08,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W032",
+      "name": "W029",
       "x_m": 6.123,
       "y_m": 6.277,
       "length_m": 1.12,
@@ -367,7 +337,7 @@
       "kind": "partition"
     },
     {
-      "name": "W033",
+      "name": "W030",
       "x_m": 2.011,
       "y_m": 5.835,
       "length_m": 1.193,
@@ -377,17 +347,7 @@
       "kind": "partition"
     },
     {
-      "name": "W034",
-      "x_m": 1.088,
-      "y_m": 2.774,
-      "length_m": 0.32,
-      "horizontal": false,
-      "thickness_m": 0.269,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W035",
+      "name": "W031",
       "x_m": 6.203,
       "y_m": 6.277,
       "length_m": 1.22,
@@ -397,187 +357,47 @@
       "kind": "partition"
     },
     {
-      "name": "W036",
-      "x_m": 1.358,
-      "y_m": 6.44,
-      "length_m": 0.653,
-      "horizontal": true,
-      "thickness_m": 0.12,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W037",
-      "x_m": 1.358,
-      "y_m": 8.306,
-      "length_m": 0.653,
-      "horizontal": true,
-      "thickness_m": 0.12,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W038",
-      "x_m": 3.341,
-      "y_m": 1.292,
-      "length_m": 0.32,
-      "horizontal": false,
-      "thickness_m": 0.234,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W039",
-      "x_m": 3.116,
-      "y_m": 0.0,
-      "length_m": 1.612,
-      "horizontal": false,
-      "thickness_m": 0.044,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W040",
-      "x_m": 1.088,
-      "y_m": 9.61,
-      "length_m": 0.269,
-      "horizontal": true,
-      "thickness_m": 0.25,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W041",
-      "x_m": 4.276,
-      "y_m": 6.722,
-      "length_m": 0.79,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W042",
-      "x_m": 4.276,
-      "y_m": 8.397,
-      "length_m": 0.79,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W043",
-      "x_m": 3.341,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.234,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W044",
-      "x_m": 0.604,
-      "y_m": 6.44,
-      "length_m": 0.484,
-      "horizontal": true,
-      "thickness_m": 0.12,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W045",
-      "x_m": 0.604,
-      "y_m": 8.306,
-      "length_m": 0.484,
-      "horizontal": true,
-      "thickness_m": 0.12,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W046",
+      "name": "W032",
       "x_m": 2.011,
       "y_m": 7.738,
       "length_m": 0.712,
       "horizontal": false,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W047",
-      "x_m": 2.011,
-      "y_m": 9.159,
-      "length_m": 0.701,
-      "horizontal": false,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W048",
-      "x_m": 3.116,
-      "y_m": 6.272,
-      "length_m": 1.125,
-      "horizontal": false,
-      "thickness_m": 0.044,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W049",
-      "x_m": 5.876,
-      "y_m": 1.292,
-      "length_m": 0.32,
-      "horizontal": false,
-      "thickness_m": 0.147,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W050",
-      "x_m": 6.273,
-      "y_m": 1.292,
-      "length_m": 1.005,
-      "horizontal": false,
-      "thickness_m": 0.046,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W051",
-      "x_m": 0.25,
-      "y_m": 6.44,
-      "length_m": 0.354,
-      "horizontal": true,
       "thickness_m": 0.12,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W052",
-      "x_m": 3.575,
-      "y_m": 1.292,
-      "length_m": 0.32,
+      "name": "W033",
+      "x_m": 2.011,
+      "y_m": 9.159,
+      "length_m": 0.701,
       "horizontal": false,
-      "thickness_m": 0.126,
+      "thickness_m": 0.12,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W053",
-      "x_m": 4.175,
+      "name": "W034",
+      "x_m": 4.276,
       "y_m": 8.397,
-      "length_m": 1.463,
-      "horizontal": false,
-      "thickness_m": 0.026,
+      "length_m": 0.79,
+      "horizontal": true,
+      "thickness_m": 0.075,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W054",
+      "name": "W035",
+      "x_m": 3.575,
+      "y_m": 8.397,
+      "length_m": 0.6,
+      "horizontal": true,
+      "thickness_m": 0.075,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W036",
       "x_m": 3.111,
       "y_m": 0.0,
       "length_m": 7.397,
@@ -587,117 +407,17 @@
       "kind": "partition"
     },
     {
-      "name": "W055",
-      "x_m": 3.181,
-      "y_m": 1.292,
-      "length_m": 0.32,
-      "horizontal": false,
-      "thickness_m": 0.11,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W056",
-      "x_m": 3.701,
-      "y_m": 8.397,
-      "length_m": 0.45,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W057",
-      "x_m": 3.16,
-      "y_m": 0.0,
-      "length_m": 1.612,
-      "horizontal": false,
-      "thickness_m": 0.021,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W058",
-      "x_m": 1.088,
-      "y_m": 6.44,
-      "length_m": 0.269,
-      "horizontal": true,
-      "thickness_m": 0.12,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W059",
-      "x_m": 1.088,
-      "y_m": 8.306,
-      "length_m": 0.269,
-      "horizontal": true,
-      "thickness_m": 0.12,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W060",
-      "x_m": 2.086,
-      "y_m": 7.738,
-      "length_m": 0.712,
-      "horizontal": false,
-      "thickness_m": 0.045,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W061",
-      "x_m": 5.066,
-      "y_m": 6.722,
-      "length_m": 0.425,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W062",
-      "x_m": 3.575,
+      "name": "W037",
+      "x_m": 2.131,
       "y_m": 9.61,
       "length_m": 0.25,
       "horizontal": false,
-      "thickness_m": 0.126,
+      "thickness_m": 0.119,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W063",
-      "x_m": 2.086,
-      "y_m": 9.159,
-      "length_m": 0.701,
-      "horizontal": false,
-      "thickness_m": 0.045,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W064",
-      "x_m": 5.501,
-      "y_m": 6.722,
-      "length_m": 0.372,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W065",
-      "x_m": 3.181,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.11,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W066",
+      "name": "W038",
       "x_m": 2.086,
       "y_m": 6.44,
       "length_m": 0.588,
@@ -707,117 +427,17 @@
       "kind": "partition"
     },
     {
-      "name": "W067",
-      "x_m": 6.319,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.104,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W068",
-      "x_m": 3.16,
-      "y_m": 6.272,
-      "length_m": 1.125,
-      "horizontal": false,
-      "thickness_m": 0.021,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W069",
-      "x_m": 9.49,
-      "y_m": 1.978,
-      "length_m": 0.32,
-      "horizontal": false,
-      "thickness_m": 0.058,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W070",
-      "x_m": 2.181,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.07,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W071",
-      "x_m": 3.291,
-      "y_m": 1.292,
-      "length_m": 0.32,
-      "horizontal": false,
-      "thickness_m": 0.05,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W072",
-      "x_m": 9.49,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.058,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W073",
-      "x_m": 3.291,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.05,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W074",
-      "x_m": 2.131,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.05,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W075",
-      "x_m": 6.273,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.046,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W076",
-      "x_m": 5.876,
-      "y_m": 6.722,
-      "length_m": 0.147,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W077",
+      "name": "W039",
       "x_m": 5.876,
       "y_m": 8.397,
-      "length_m": 0.147,
+      "length_m": 0.327,
       "horizontal": true,
       "thickness_m": 0.075,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W078",
+      "name": "W040",
       "x_m": 2.684,
       "y_m": 2.774,
       "length_m": 0.32,
@@ -827,27 +447,7 @@
       "kind": "partition"
     },
     {
-      "name": "W079",
-      "x_m": 3.575,
-      "y_m": 8.397,
-      "length_m": 0.126,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W080",
-      "x_m": 6.023,
-      "y_m": 8.397,
-      "length_m": 0.1,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W081",
+      "name": "W041",
       "x_m": 2.131,
       "y_m": 6.44,
       "length_m": 0.12,
@@ -857,27 +457,7 @@
       "kind": "partition"
     },
     {
-      "name": "W082",
-      "x_m": 6.123,
-      "y_m": 8.397,
-      "length_m": 0.08,
-      "horizontal": true,
-      "thickness_m": 0.075,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W083",
-      "x_m": 4.151,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.024,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W084",
+      "name": "W042",
       "x_m": 9.49,
       "y_m": 6.295,
       "length_m": 0.09,
@@ -887,17 +467,7 @@
       "kind": "partition"
     },
     {
-      "name": "W085",
-      "x_m": 3.16,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.021,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W086",
+      "name": "W043",
       "x_m": 6.273,
       "y_m": 6.295,
       "length_m": 0.09,
@@ -907,27 +477,7 @@
       "kind": "partition"
     },
     {
-      "name": "W087",
-      "x_m": 7.048,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.016,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W088",
-      "x_m": 5.873,
-      "y_m": 8.715,
-      "length_m": 1.145,
-      "horizontal": false,
-      "thickness_m": 0.003,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W089",
+      "name": "W044",
       "x_m": 3.291,
       "y_m": 7.322,
       "length_m": 0.075,
@@ -937,17 +487,17 @@
       "kind": "partition"
     },
     {
-      "name": "W090",
-      "x_m": 5.492,
-      "y_m": 9.61,
-      "length_m": 0.25,
+      "name": "W045",
+      "x_m": 4.151,
+      "y_m": 7.322,
+      "length_m": 0.075,
       "horizontal": false,
-      "thickness_m": 0.01,
+      "thickness_m": 0.05,
       "phase": "existing",
       "kind": "partition"
     },
     {
-      "name": "W091",
+      "name": "W046",
       "x_m": 8.848,
       "y_m": 2.047,
       "length_m": 0.25,
@@ -957,47 +507,7 @@
       "kind": "partition"
     },
     {
-      "name": "W092",
-      "x_m": 8.848,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.008,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W093",
-      "x_m": 4.175,
-      "y_m": 7.322,
-      "length_m": 0.075,
-      "horizontal": false,
-      "thickness_m": 0.026,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W094",
-      "x_m": 4.151,
-      "y_m": 7.322,
-      "length_m": 0.075,
-      "horizontal": false,
-      "thickness_m": 0.024,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W095",
-      "x_m": 4.151,
-      "y_m": 8.397,
-      "length_m": 0.075,
-      "horizontal": false,
-      "thickness_m": 0.024,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W096",
+      "name": "W047",
       "x_m": 9.798,
       "y_m": 1.978,
       "length_m": 0.07,
@@ -1007,7 +517,7 @@
       "kind": "partition"
     },
     {
-      "name": "W097",
+      "name": "W048",
       "x_m": 7.048,
       "y_m": 1.978,
       "length_m": 0.07,
@@ -1017,27 +527,7 @@
       "kind": "partition"
     },
     {
-      "name": "W098",
-      "x_m": 5.873,
-      "y_m": 1.292,
-      "length_m": 0.32,
-      "horizontal": false,
-      "thickness_m": 0.003,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W099",
-      "x_m": 5.492,
-      "y_m": 6.722,
-      "length_m": 0.075,
-      "horizontal": false,
-      "thickness_m": 0.01,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W100",
+      "name": "W049",
       "x_m": 5.492,
       "y_m": 1.292,
       "length_m": 0.07,
@@ -1047,50 +537,10 @@
       "kind": "partition"
     },
     {
-      "name": "W101",
+      "name": "W050",
       "x_m": 1.357,
       "y_m": 2.844,
       "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.002,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W102",
-      "x_m": 1.357,
-      "y_m": 9.61,
-      "length_m": 0.25,
-      "horizontal": false,
-      "thickness_m": 0.002,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W103",
-      "x_m": 5.873,
-      "y_m": 6.722,
-      "length_m": 0.075,
-      "horizontal": false,
-      "thickness_m": 0.003,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W104",
-      "x_m": 1.357,
-      "y_m": 6.44,
-      "length_m": 0.12,
-      "horizontal": false,
-      "thickness_m": 0.002,
-      "phase": "existing",
-      "kind": "partition"
-    },
-    {
-      "name": "W105",
-      "x_m": 1.357,
-      "y_m": 8.306,
-      "length_m": 0.12,
       "horizontal": false,
       "thickness_m": 0.002,
       "phase": "existing",
@@ -1127,7 +577,7 @@
       "cad_thickness_m": 0.04
     },
     {
-      "host_wall": "W014",
+      "host_wall": "W013",
       "name": "door 3 (650 mm)",
       "x_m": 1.746,
       "y_m": 8.864,
@@ -1169,7 +619,7 @@
       "cad_thickness_m": 0.04
     },
     {
-      "host_wall": "W056",
+      "host_wall": "W035",
       "name": "door 6 (750 mm)",
       "x_m": 4.081,
       "y_m": 7.397,
@@ -1197,7 +647,7 @@
       "cad_thickness_m": 0.08
     },
     {
-      "host_wall": "W004",
+      "host_wall": "W009",
       "name": "door 8 (1326 mm)",
       "x_m": 1.358,
       "y_m": 2.844,
@@ -1211,7 +661,7 @@
       "cad_thickness_m": 0.25
     },
     {
-      "host_wall": "W025",
+      "host_wall": "W026",
       "name": "door 9 (800 mm)",
       "x_m": 6.203,
       "y_m": 7.497,
@@ -1239,7 +689,7 @@
       "cad_thickness_m": 0.09
     },
     {
-      "host_wall": "W009",
+      "host_wall": "W016",
       "name": "window 11 (1800 mm)",
       "x_m": 7.048,
       "y_m": 2.047,
@@ -1267,7 +717,7 @@
       "cad_thickness_m": 0.25
     },
     {
-      "host_wall": "W039",
+      "host_wall": "W027",
       "name": "window 13 (2718 mm)",
       "x_m": 0.248,
       "y_m": 0.433,
@@ -1296,7 +746,7 @@
   "finishes": {},
   "furniture": [],
   "evidence": {
-    "generated": "2026-08-26T06:19:12.396051+00:00",
+    "generated": "2026-08-26T10:05:01.034769+00:00",
     "source": "data\\cad\\dxf\\20260727-ZK Dubravinskiy.dxf",
     "wall_plan": "data\\cad\\wall_plan.json",
     "envelope_mm": {
@@ -1318,64 +768,6 @@
       "Openings are assigned to the wall rectangle they overlap most; slab decomposition can split one physical wall into several rectangles, so an opening may name only the piece it happens to sit in.",
       "room_probe is a diagnostic only: the numbers in it are wrong and it exists to show what the segmentation attempts produced, not to be used.",
       "Heights are assumptions - a 2D plan does not contain them."
-    ],
-    "what_this_is": "The Homestyler export is the OWNER'S MODIFIED layout, not the existing state. Confirmed by matching the room areas the segmentation did recover (13.06 and 10.16 m2) against the Homestyler schedule (Living 13.57, Kitchen 10.56); the developer plan has no room of either size, its kitchen being 5.24 m2. The existing state is the developer plan - see data/canonical/room_schedules.json.",
-    "tolerance_reference": "data/canonical/dimension_tolerance.json"
-  },
-  "room_schedule": {
-    "source": "_assets/floor_plan_modified.png (Homestyler screenshot)",
-    "note": "Authoritative room names and areas for THIS layout. Room polygons are still not extracted; these areas are what any polygon work must reproduce.",
-    "rooms": [
-      {
-        "name": "Living and Dining Room",
-        "role": "living",
-        "area_m2": 13.57
-      },
-      {
-        "name": "Kids Room",
-        "role": "kids",
-        "area_m2": 15.28
-      },
-      {
-        "name": "Kitchen",
-        "role": "kitchen",
-        "area_m2": 10.56
-      },
-      {
-        "name": "Bedroom small",
-        "role": "bedroom",
-        "area_m2": 9.29
-      },
-      {
-        "name": "Hallway",
-        "role": "hallway",
-        "area_m2": 5.88
-      },
-      {
-        "name": "Bathroom",
-        "role": "bathroom",
-        "area_m2": 3.07
-      },
-      {
-        "name": "Entrance",
-        "role": "entrance",
-        "area_m2": 2.44
-      },
-      {
-        "name": "Laundry Room",
-        "role": "laundry",
-        "area_m2": 1.9
-      },
-      {
-        "name": "WC",
-        "role": "wc",
-        "area_m2": 1.47
-      },
-      {
-        "name": "Balcony",
-        "role": "balcony",
-        "area_m2": 6.02
-      }
     ]
   }
 }

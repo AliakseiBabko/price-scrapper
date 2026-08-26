@@ -234,7 +234,42 @@ def slab_rectangles(cycles) -> list[tuple[float, float, float, float]]:
         for y0, y1 in intervals:
             if xb - xa > 1.0 and y1 - y0 > 1.0:
                 rects.append((xa, y0, xb, y1))
-    return rects
+    return coalesce(rects)
+
+
+def coalesce(rects, tol: float = 1.0):
+    """Glue the slab slivers back into walls.
+
+    Slab decomposition cuts at every x in the drawing, so one wall arrives as a
+    row of fragments - 2 mm here, 45 mm there. Repeatedly merging neighbours
+    that share a full edge turns those back into the handful of real walls, and
+    the result is still non-overlapping.
+    """
+    rects = [list(r) for r in rects]
+    changed = True
+    while changed:
+        changed = False
+        out = []
+        used = [False] * len(rects)
+        for i, a in enumerate(rects):
+            if used[i]:
+                continue
+            for j in range(i + 1, len(rects)):
+                if used[j]:
+                    continue
+                b = rects[j]
+                same_y = abs(a[1] - b[1]) < tol and abs(a[3] - b[3]) < tol
+                same_x = abs(a[0] - b[0]) < tol and abs(a[2] - b[2]) < tol
+                if same_y and (abs(a[2] - b[0]) < tol or abs(b[2] - a[0]) < tol):
+                    a = [min(a[0], b[0]), a[1], max(a[2], b[2]), a[3]]
+                    used[j] = changed = True
+                elif same_x and (abs(a[3] - b[1]) < tol or abs(b[3] - a[1]) < tol):
+                    a = [a[0], min(a[1], b[1]), a[2], max(a[3], b[3])]
+                    used[j] = changed = True
+            used[i] = True
+            out.append(a)
+        rects = out
+    return [tuple(r) for r in rects]
 
 
 def main() -> int:

@@ -76,9 +76,26 @@ that is a generator bug — fix the model and regenerate, never edit a drawing.*
 Annotation (dimension chains, hatches, экспликация) belongs to the drawing layer,
 not the model. See `00_Master/Model_and_Views.md`.
 
+## Shell and options
+
+Every layout option shares one **structural shell** and differs only in
+partitions:
+
+- `data/canonical/current_apartment_shell.json` — 14 walls, 250–484 mm, the
+  façade openings, and the immovable services as `constraints`. Never edited by
+  a layout option.
+- `data/variants/v1-homestyler.json` — the owner's design: 36 partitions added
+  to the shell, with its room schedule attached. **The owner's first
+  approximation of the wanted layout — layout only, no finishes.**
+
+That split is why an option is a short list of walls rather than a whole
+building, and why the invariants cannot be edited by accident. The 200 mm
+thickness threshold that separates shell from partition is a heuristic, **not a
+structural survey — no wall may be called non-load-bearing on its strength.**
+
 ## Describing a change → a built model
 
-A variant is a **patch** on the base spec, not a copy. Write
+A variant is a **patch** on the shell, not a copy. Write
 `data/variants/<id>.json`:
 
 ```json
@@ -86,7 +103,7 @@ A variant is a **patch** on the base spec, not a copy. Write
   "schema_version": "0.1.0",
   "variant_id": "v3-example",
   "name": "Вариант 3 — ...",
-  "base_spec": "data/canonical/current_apartment_base.json",
+  "base_spec": "data/canonical/current_apartment_shell.json",
   "status": "draft",
   "concept": "one sentence saying what idea this option is testing",
   "cites_rules": ["kitchen.open_to_living_for_flow"],
@@ -144,11 +161,18 @@ Full detail: `00_Master/How_To_View_Outputs.md`.
 
 ## Known-open items
 
-- **Room polygons for the redesign** are not extracted — the CAD has empty
+- **v0, the developer's own layout, has no geometry yet.** Its room schedule and
+  dimensions are known, but its partition positions are not — they exist only on
+  the plan image. Cheapest fix by far: export the *original* layout from
+  Homestyler as a second DXF, the way the redesign was exported. Failing that,
+  reconstruct the partitions from the dimension strings by hand.
+- **Room polygons** are not extracted for either layout — the CAD has empty
   `P-Room` blocks, a gap at every opening, and 3 m openings no narrowness test
-  can split. The room *schedule* is known; the polygons are not.
-- `current_apartment_base.json` is still the photo-derived geometry and **fails**
-  `audit_model_quality.py --strict` (2 duplicate walls, 10.9% double-counted).
-  `current_apartment_cad.json` passes and should replace it.
-- v0 should become the developer plan; the Homestyler design should become v1.
+  can split. Room *schedules* are known; polygons are not. Areas in a variant
+  therefore come from the schedule, not from the model.
+- **4 of 13 openings** have no host wall (their gaps are wider than the host
+  search reaches); they are carried in `unresolved_openings` and produce no void.
+- `current_apartment_base.json` is the old photo-derived geometry and still
+  **fails** `--strict` (2 duplicate walls, 10.9% double-counted). Nothing should
+  build on it; it stays only as provenance.
 - The ±25 mm band is documented but not yet applied inside the rule checks.

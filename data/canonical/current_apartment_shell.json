@@ -1,0 +1,301 @@
+{
+  "schema_version": "0.1.0",
+  "spec_id": "current-apartment-shell",
+  "name": "ZK Dubravinskiy - structural shell, common to every layout option",
+  "status": "from_developer_layout_via_cad_not_field_verified",
+  "units": "m",
+  "storey_height_m": 2.8,
+  "default_wall_thickness_m": 0.075,
+  "exterior_wall_thickness_m": 0.25,
+  "rooms": [],
+  "walls": [
+    {
+      "name": "W001",
+      "x_m": 9.548,
+      "y_m": 1.978,
+      "length_m": 7.883,
+      "horizontal": false,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W002",
+      "x_m": 6.273,
+      "y_m": 9.61,
+      "length_m": 3.275,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W004",
+      "x_m": 0.25,
+      "y_m": 8.306,
+      "length_m": 1.554,
+      "horizontal": false,
+      "thickness_m": 0.354,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W005",
+      "x_m": 2.716,
+      "y_m": 1.292,
+      "length_m": 1.802,
+      "horizontal": false,
+      "thickness_m": 0.275,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W006",
+      "x_m": 4.276,
+      "y_m": 9.61,
+      "length_m": 1.597,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W008",
+      "x_m": 5.873,
+      "y_m": 8.715,
+      "length_m": 1.145,
+      "horizontal": false,
+      "thickness_m": 0.33,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W009",
+      "x_m": 0.25,
+      "y_m": 2.774,
+      "length_m": 1.107,
+      "horizontal": true,
+      "thickness_m": 0.32,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W010",
+      "x_m": 0.604,
+      "y_m": 9.21,
+      "length_m": 0.65,
+      "horizontal": false,
+      "thickness_m": 0.484,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W012",
+      "x_m": 3.16,
+      "y_m": 9.61,
+      "length_m": 1.015,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W013",
+      "x_m": 1.088,
+      "y_m": 9.61,
+      "length_m": 0.923,
+      "horizontal": true,
+      "thickness_m": 0.25,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W014",
+      "x_m": 8.856,
+      "y_m": 1.978,
+      "length_m": 0.692,
+      "horizontal": true,
+      "thickness_m": 0.32,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W016",
+      "x_m": 6.423,
+      "y_m": 1.978,
+      "length_m": 0.625,
+      "horizontal": true,
+      "thickness_m": 0.32,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W021",
+      "x_m": 5.501,
+      "y_m": 1.292,
+      "length_m": 0.522,
+      "horizontal": true,
+      "thickness_m": 0.32,
+      "phase": "existing",
+      "kind": "partition"
+    },
+    {
+      "name": "W022",
+      "x_m": 3.181,
+      "y_m": 1.292,
+      "length_m": 0.52,
+      "horizontal": true,
+      "thickness_m": 0.32,
+      "phase": "existing",
+      "kind": "partition"
+    }
+  ],
+  "openings": [
+    {
+      "host_wall": "W013",
+      "name": "door 3 (650 mm)",
+      "x_m": 1.746,
+      "y_m": 8.864,
+      "width_m": 0.65,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing",
+      "cad_layer": "P-Door-Section",
+      "cad_thickness_m": 0.04
+    },
+    {
+      "host_wall": "W001",
+      "name": "door 7 (3097 mm)",
+      "x_m": 6.363,
+      "y_m": 6.3,
+      "width_m": 3.097,
+      "horizontal": true,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing",
+      "cad_layer": "P-Door-Section",
+      "cad_thickness_m": 0.08
+    },
+    {
+      "host_wall": "W009",
+      "name": "door 8 (1326 mm)",
+      "x_m": 1.358,
+      "y_m": 2.844,
+      "width_m": 1.325,
+      "horizontal": true,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing",
+      "cad_layer": "P-Door-Section",
+      "cad_thickness_m": 0.25
+    },
+    {
+      "host_wall": "W001",
+      "name": "door 10 (3157 mm)",
+      "x_m": 6.319,
+      "y_m": 6.295,
+      "width_m": 3.157,
+      "horizontal": true,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing",
+      "cad_layer": "P-Opening-Section",
+      "cad_thickness_m": 0.09
+    },
+    {
+      "host_wall": "W016",
+      "name": "window 11 (1800 mm)",
+      "x_m": 7.048,
+      "y_m": 2.047,
+      "width_m": 1.8,
+      "horizontal": true,
+      "bottom_m": 1.0,
+      "height_m": 1.1,
+      "kind": "window",
+      "phase": "existing",
+      "cad_layer": "P-Window",
+      "cad_thickness_m": 0.25
+    },
+    {
+      "host_wall": "W021",
+      "name": "window 12 (1800 mm)",
+      "x_m": 3.701,
+      "y_m": 1.362,
+      "width_m": 1.8,
+      "horizontal": true,
+      "bottom_m": 1.0,
+      "height_m": 1.1,
+      "kind": "window",
+      "phase": "existing",
+      "cad_layer": "P-Window",
+      "cad_thickness_m": 0.25
+    }
+  ],
+  "fills": [],
+  "space_boundaries": {},
+  "electrical_plan": {},
+  "plumbing_plan": [],
+  "lighting": {
+    "mode": "ceiling_centre_per_room",
+    "exclude_rooms": [],
+    "z_m": 2.62,
+    "size_m": 0.35,
+    "temperature_k": 3000,
+    "approx_lumens": 550
+  },
+  "finishes": {},
+  "furniture": [],
+  "constraints": [
+    {
+      "kind": "ventilation",
+      "statement": "Вентблок в туалете у стены, противоположной входу: 1140 x 490 мм, три канала в сечении. Не переносится - общедомовая шахта.",
+      "zone": "туалет",
+      "footprint_mm": [
+        1140,
+        490
+      ],
+      "area_m2": 0.559,
+      "movable": false,
+      "evidence": "_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg - серый блок с тремя каналами; виден при увеличении."
+    },
+    {
+      "kind": "ventilation",
+      "statement": "Второй вентблок между зоной кухни и зоной постирочной/прихожей.",
+      "zone": "кухня / постирочная / прихожая",
+      "movable": false,
+      "evidence": "Со слов владельца; на детальном плане не измерен."
+    },
+    {
+      "kind": "riser",
+      "statement": "Стояки холодного и горячего водоснабжения и канализации в мокрой зоне. Одинаковы во всех квартирах независимо от этажа; не переносятся.",
+      "zone": "туалет / ванная",
+      "movable": false,
+      "evidence": "Со слов владельца; точное положение на плане пока не выделено."
+    },
+    {
+      "kind": "other",
+      "statement": "Этажность влияет на вентиляцию: выше 10-го этажа два вентблока вместо одного, и они занимают больше площади. Эта квартира на 4-м этаже - один блок, то есть больший полезный метраж.",
+      "zone": "туалет / кухня / постирочная",
+      "movable": false,
+      "evidence": "Со слов владельца; согласуется с меньшими площадями в kv109."
+    }
+  ],
+  "evidence": {
+    "generated": "2026-08-26T10:06:17.640716+00:00",
+    "derived_from": "data\\canonical\\current_apartment_cad.json",
+    "rule": "Walls 200 mm and thicker are treated as structural shell; thinner walls are partitions and belong to a layout option, not to the shell.",
+    "shell_walls": 14,
+    "partitions_moved_to_variant": 36,
+    "tolerance_reference": "data/canonical/dimension_tolerance.json",
+    "area_convention": "Developer areas are clear (service blocks deducted). Never compare them with БТИ gross areas - see the skill.",
+    "caveats": [
+      "The 200 mm threshold is a heuristic on thickness, not a structural survey. Nothing here has been checked against the building's structural drawings, so no wall may be assumed non-load-bearing on the strength of this file.",
+      "Openings whose host wall is a partition move to the variant with it."
+    ]
+  }
+}

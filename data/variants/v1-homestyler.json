@@ -1,0 +1,653 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "v1-homestyler",
+  "name": "Вариант 1 - планировка владельца из Homestyler",
+  "base_spec": "data/canonical/current_apartment_shell.json",
+  "status": "owner_first_approximation",
+  "concept": "This is a VARIANT of the developer plan, not the existing state. It adds a laundry room, splits entrance from hallway, and roughly doubles the kitchen by taking it into the living room.",
+  "authored_by": "apartment owner, in Homestyler; geometry extracted from the CAD export",
+  "scope_note": "Layout only. Finishes, colour and decoration are explicitly not part of this variant.",
+  "room_schedule": [
+    {
+      "name": "Living and Dining Room",
+      "role": "living",
+      "area_m2": 13.57
+    },
+    {
+      "name": "Kids Room",
+      "role": "kids",
+      "area_m2": 15.28
+    },
+    {
+      "name": "Kitchen",
+      "role": "kitchen",
+      "area_m2": 10.56
+    },
+    {
+      "name": "Bedroom small",
+      "role": "bedroom",
+      "area_m2": 9.29
+    },
+    {
+      "name": "Hallway",
+      "role": "hallway",
+      "area_m2": 5.88
+    },
+    {
+      "name": "Bathroom",
+      "role": "bathroom",
+      "area_m2": 3.07
+    },
+    {
+      "name": "Entrance",
+      "role": "entrance",
+      "area_m2": 2.44
+    },
+    {
+      "name": "Laundry Room",
+      "role": "laundry",
+      "area_m2": 1.9
+    },
+    {
+      "name": "WC",
+      "role": "wc",
+      "area_m2": 1.47
+    },
+    {
+      "name": "Balcony",
+      "role": "balcony",
+      "area_m2": 6.02
+    }
+  ],
+  "operations": [
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W003",
+        "x_m": 6.023,
+        "y_m": 1.292,
+        "length_m": 6.105,
+        "horizontal": false,
+        "thickness_m": 0.1,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W007",
+        "x_m": 0.195,
+        "y_m": 2.774,
+        "length_m": 7.086,
+        "horizontal": false,
+        "thickness_m": 0.055,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W011",
+        "x_m": 6.123,
+        "y_m": 1.292,
+        "length_m": 1.802,
+        "horizontal": false,
+        "thickness_m": 0.15,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W015",
+        "x_m": 0.25,
+        "y_m": 6.44,
+        "length_m": 1.761,
+        "horizontal": true,
+        "thickness_m": 0.12,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W017",
+        "x_m": 3.116,
+        "y_m": 6.272,
+        "length_m": 1.125,
+        "horizontal": false,
+        "thickness_m": 0.175,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W018",
+        "x_m": 0.0,
+        "y_m": 2.844,
+        "length_m": 7.016,
+        "horizontal": false,
+        "thickness_m": 0.025,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W019",
+        "x_m": 0.604,
+        "y_m": 8.306,
+        "length_m": 1.407,
+        "horizontal": true,
+        "thickness_m": 0.12,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W020",
+        "x_m": 2.991,
+        "y_m": 3.094,
+        "length_m": 3.346,
+        "horizontal": false,
+        "thickness_m": 0.05,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W023",
+        "x_m": 6.273,
+        "y_m": 1.292,
+        "length_m": 1.005,
+        "horizontal": false,
+        "thickness_m": 0.15,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W024",
+        "x_m": 4.175,
+        "y_m": 8.397,
+        "length_m": 1.463,
+        "horizontal": false,
+        "thickness_m": 0.1,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W025",
+        "x_m": 4.276,
+        "y_m": 6.722,
+        "length_m": 1.747,
+        "horizontal": true,
+        "thickness_m": 0.075,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W026",
+        "x_m": 6.203,
+        "y_m": 8.297,
+        "length_m": 1.563,
+        "horizontal": false,
+        "thickness_m": 0.07,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W027",
+        "x_m": 3.116,
+        "y_m": 0.0,
+        "length_m": 1.612,
+        "horizontal": false,
+        "thickness_m": 0.065,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W028",
+        "x_m": 4.201,
+        "y_m": 6.122,
+        "length_m": 1.275,
+        "horizontal": false,
+        "thickness_m": 0.074,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W029",
+        "x_m": 6.123,
+        "y_m": 6.277,
+        "length_m": 1.12,
+        "horizontal": false,
+        "thickness_m": 0.08,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W030",
+        "x_m": 2.011,
+        "y_m": 5.835,
+        "length_m": 1.193,
+        "horizontal": false,
+        "thickness_m": 0.075,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W031",
+        "x_m": 6.203,
+        "y_m": 6.277,
+        "length_m": 1.22,
+        "horizontal": false,
+        "thickness_m": 0.07,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W032",
+        "x_m": 2.011,
+        "y_m": 7.738,
+        "length_m": 0.712,
+        "horizontal": false,
+        "thickness_m": 0.12,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W033",
+        "x_m": 2.011,
+        "y_m": 9.159,
+        "length_m": 0.701,
+        "horizontal": false,
+        "thickness_m": 0.12,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W034",
+        "x_m": 4.276,
+        "y_m": 8.397,
+        "length_m": 0.79,
+        "horizontal": true,
+        "thickness_m": 0.075,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W035",
+        "x_m": 3.575,
+        "y_m": 8.397,
+        "length_m": 0.6,
+        "horizontal": true,
+        "thickness_m": 0.075,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W036",
+        "x_m": 3.111,
+        "y_m": 0.0,
+        "length_m": 7.397,
+        "horizontal": false,
+        "thickness_m": 0.005,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W037",
+        "x_m": 2.131,
+        "y_m": 9.61,
+        "length_m": 0.25,
+        "horizontal": false,
+        "thickness_m": 0.119,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W038",
+        "x_m": 2.086,
+        "y_m": 6.44,
+        "length_m": 0.588,
+        "horizontal": false,
+        "thickness_m": 0.045,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W039",
+        "x_m": 5.876,
+        "y_m": 8.397,
+        "length_m": 0.327,
+        "horizontal": true,
+        "thickness_m": 0.075,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W040",
+        "x_m": 2.684,
+        "y_m": 2.774,
+        "length_m": 0.32,
+        "horizontal": false,
+        "thickness_m": 0.032,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W041",
+        "x_m": 2.131,
+        "y_m": 6.44,
+        "length_m": 0.12,
+        "horizontal": false,
+        "thickness_m": 0.05,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W042",
+        "x_m": 9.49,
+        "y_m": 6.295,
+        "length_m": 0.09,
+        "horizontal": false,
+        "thickness_m": 0.058,
+        "phase": "existing",
+        "kind": "partition",
+        "note": "short fragment from slab decomposition - geometry is real, naming is not"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W043",
+        "x_m": 6.273,
+        "y_m": 6.295,
+        "length_m": 0.09,
+        "horizontal": false,
+        "thickness_m": 0.046,
+        "phase": "existing",
+        "kind": "partition",
+        "note": "short fragment from slab decomposition - geometry is real, naming is not"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W044",
+        "x_m": 3.291,
+        "y_m": 7.322,
+        "length_m": 0.075,
+        "horizontal": false,
+        "thickness_m": 0.05,
+        "phase": "existing",
+        "kind": "partition",
+        "note": "short fragment from slab decomposition - geometry is real, naming is not"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W045",
+        "x_m": 4.151,
+        "y_m": 7.322,
+        "length_m": 0.075,
+        "horizontal": false,
+        "thickness_m": 0.05,
+        "phase": "existing",
+        "kind": "partition",
+        "note": "short fragment from slab decomposition - geometry is real, naming is not"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W046",
+        "x_m": 8.848,
+        "y_m": 2.047,
+        "length_m": 0.25,
+        "horizontal": false,
+        "thickness_m": 0.008,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W047",
+        "x_m": 9.798,
+        "y_m": 1.978,
+        "length_m": 0.07,
+        "horizontal": false,
+        "thickness_m": 0.021,
+        "phase": "existing",
+        "kind": "partition",
+        "note": "short fragment from slab decomposition - geometry is real, naming is not"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W048",
+        "x_m": 7.048,
+        "y_m": 1.978,
+        "length_m": 0.07,
+        "horizontal": false,
+        "thickness_m": 0.016,
+        "phase": "existing",
+        "kind": "partition",
+        "note": "short fragment from slab decomposition - geometry is real, naming is not"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W049",
+        "x_m": 5.492,
+        "y_m": 1.292,
+        "length_m": 0.07,
+        "horizontal": false,
+        "thickness_m": 0.01,
+        "phase": "existing",
+        "kind": "partition",
+        "note": "short fragment from slab decomposition - geometry is real, naming is not"
+      }
+    },
+    {
+      "op": "wall.add",
+      "wall": {
+        "name": "W050",
+        "x_m": 1.357,
+        "y_m": 2.844,
+        "length_m": 0.25,
+        "horizontal": false,
+        "thickness_m": 0.002,
+        "phase": "existing",
+        "kind": "partition"
+      }
+    },
+    {
+      "op": "opening.create",
+      "opening": {
+        "host_wall": "W035",
+        "name": "door 6 (750 mm)",
+        "x_m": 4.081,
+        "y_m": 7.397,
+        "width_m": 0.75,
+        "horizontal": false,
+        "bottom_m": 0.0,
+        "height_m": 2.1,
+        "kind": "door",
+        "phase": "existing",
+        "cad_layer": "P-Door-Section",
+        "cad_thickness_m": 0.04
+      }
+    },
+    {
+      "op": "opening.create",
+      "opening": {
+        "host_wall": "W026",
+        "name": "door 9 (800 mm)",
+        "x_m": 6.203,
+        "y_m": 7.497,
+        "width_m": 0.8,
+        "horizontal": false,
+        "bottom_m": 0.0,
+        "height_m": 2.1,
+        "kind": "door",
+        "phase": "existing",
+        "cad_layer": "P-Opening-Section",
+        "cad_thickness_m": 0.07
+      }
+    },
+    {
+      "op": "opening.create",
+      "opening": {
+        "host_wall": "W027",
+        "name": "window 13 (2718 mm)",
+        "x_m": 0.248,
+        "y_m": 0.433,
+        "width_m": 2.718,
+        "horizontal": true,
+        "bottom_m": 1.0,
+        "height_m": 1.1,
+        "kind": "window",
+        "phase": "existing",
+        "cad_layer": "P-Window",
+        "cad_thickness_m": 0.07
+      }
+    }
+  ],
+  "unresolved_openings": [
+    {
+      "host_wall": "",
+      "name": "door 1 (850 mm)",
+      "x_m": 3.091,
+      "y_m": 9.86,
+      "width_m": 0.85,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing",
+      "cad_layer": "P-Door-Section",
+      "cad_thickness_m": 0.04
+    },
+    {
+      "host_wall": "",
+      "name": "door 2 (650 mm)",
+      "x_m": 2.356,
+      "y_m": 7.443,
+      "width_m": 0.65,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing",
+      "cad_layer": "P-Door-Section",
+      "cad_thickness_m": 0.04
+    },
+    {
+      "host_wall": "",
+      "name": "door 4 (750 mm)",
+      "x_m": 5.806,
+      "y_m": 7.647,
+      "width_m": 0.75,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing",
+      "cad_layer": "P-Door-Section",
+      "cad_thickness_m": 0.04
+    },
+    {
+      "host_wall": "",
+      "name": "door 5 (750 mm)",
+      "x_m": 2.921,
+      "y_m": 5.69,
+      "width_m": 0.75,
+      "horizontal": false,
+      "bottom_m": 0.0,
+      "height_m": 2.1,
+      "kind": "door",
+      "phase": "existing",
+      "cad_layer": "P-Door-Section",
+      "cad_thickness_m": 0.04
+    }
+  ],
+  "evidence": {
+    "areas": "_assets/floor_plan_modified.png",
+    "geometry": "data/cad/dxf/20260727-ZK Dubravinskiy.dxf",
+    "note": "The owner built this on the developer plan, so the shell is shared and only the partitions differ. It is a first approximation of the wanted layout, not a final decision."
+  }
+}

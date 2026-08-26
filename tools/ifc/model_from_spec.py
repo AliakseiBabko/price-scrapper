@@ -113,10 +113,15 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
 
     created = {"door": [], "window": []}
     opening_meta = []
+    unhosted = []
     for o in spec["openings"]:
-        host = walls.get(o["host_wall"])
+        host = walls.get(o.get("host_wall") or "")
         if host is None:
-            raise SystemExit("opening %r has no host wall %r" % (o["name"], o["host_wall"]))
+            # An opening is a gap in the footprint, so CAD-derived ones do not
+            # always resolve to a wall. Losing the void is better than losing
+            # the model, but it must be visible in the manifest.
+            unhosted.append({"opening": o["name"], "host_wall": o.get("host_wall", "")})
+            continue
         if o["horizontal"]:
             item = add_box(model, body, storey, owner, "IfcOpeningElement", o["name"],
                            o["x_m"], o["y_m"] - 0.08, o["width_m"], 0.31, o["height_m"], z=o["bottom_m"])
@@ -289,6 +294,7 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
         "lighting_fixtures": len(lighting),
         "furniture_items": len(furniture),
         "skipped_services": skipped,
+        "unhosted_openings": unhosted,
         "finishes": spec.get("finishes", {}),
         "evidence": spec.get("evidence", {}),
     }
@@ -303,7 +309,8 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
             "flow_terminals": len(reopened.by_type("IfcFlowTerminal")),
             "light_fixtures": len(reopened.by_type("IfcLightFixture")),
             "furniture": len(reopened.by_type("IfcFurniture")),
-            "skipped_services": len(skipped), "status": manifest["status"]}
+            "skipped_services": len(skipped), "unhosted_openings": len(unhosted),
+            "status": manifest["status"]}
 
 
 def main() -> int:
