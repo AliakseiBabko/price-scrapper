@@ -34,19 +34,66 @@ filesystem does not have. Re-run it after generating anything new.
 
 Per-variant A3 sheets live in `data/outputs/variants/<variant-id>/sheets/`.
 
-## Viewing the 3D model
+## With DWG TrueView (installed here)
 
-The IFC is the real model; the renders are just pictures of it. Three ways in,
-cheapest first:
+TrueView opens DWG/DXF and nothing else, so each variant is also exported as a
+millimetre DXF:
 
-1. **Blender + Bonsai** (the IFC add-on, already used in `tools/blender/`) — open
-   Blender, install/enable Bonsai, then `File → Open IFC Project`. Full model
-   with properties: click a wall and read its phase, click a room and read its
-   area.
-2. **A free standalone viewer** — BIM Vision on Windows opens IFC directly, no
-   setup, good for a quick walk-through and for checking that openings really
-   cut the walls.
-3. **Convert and use the Windows 3D Viewer** — the repo ships the converter:
+```powershell
+.\.venv-ifc314\Scripts\python.exe tools\drawings\export_variant_dxf.py --all
+```
+
+Then open `data\outputs\variants\<variant-id>\<variant-id>_plan.dxf`.
+
+`$INSUNITS` is set to millimetres, so **TrueView's own measure tool reads real
+dimensions** — this is the file to use when you want to check a width rather
+than just look at the layout. Layers carry the phase distinction, so switching
+them tells the story:
+
+| Layer | Shows |
+|---|---|
+| `A-WALL-EXIST` | walls that stay (hatched) |
+| `A-WALL-DEMO` | walls to be removed — red, dashed |
+| `A-WALL-NEW` | walls to be built — cyan |
+| `A-DOOR` / `A-WINDOW` | openings, each labelled with its width in mm |
+| `A-ROOM` / `A-ROOM-TEXT` | room outlines, names and areas |
+| `A-FURN` | furniture, once there is any |
+
+Turn `A-WALL-DEMO` on over `A-WALL-EXIST` and you are looking at a demolition
+plan.
+
+The original Homestyler export opens there too:
+`data\cad\dxf\20260727-ZK Dubravinskiy.dxf` — though it carries all 8 plan
+instances plus every elevation, so it is crowded.
+
+## Viewing the 3D model (Blender is installed here)
+
+The IFC is the real model; the renders are just pictures of it.
+
+**1. Open the `.blend` — no add-on needed.** The repo carries its own portable
+Blender 5.2 with Bonsai already set up and verified, and uses it to convert a
+variant's IFC into a Blender scene:
+
+```powershell
+.\.venv-ifc314\Scripts\python.exe tools\blender\verify_environment.py `
+  --blender tools\blender\bin\blender-5.2.0-windows-x64\blender.exe `
+  --profile tools\blender\profile3 `
+  --bonsai-site tools\blender\profile3\extensions\.local\lib\python3.13\site-packages `
+  --ifc data\outputs\variants\v1-kitchen-living\model.ifc `
+  --blend-output data\outputs\variants\v1-kitchen-living\model.blend `
+  --output data\outputs\variants\v1-kitchen-living\blender_env.json
+```
+
+The `model.blend` it writes opens in **your own** Blender with nothing
+installed. Swap the variant id to build the others. `v1-kitchen-living` is
+already built.
+
+**2. Your Blender with Bonsai installed** — then `File → Open IFC Project` on
+the `.ifc` directly. This is the only route where the model answers questions:
+click a wall and read its phase, click a room and read its area. Worth setting
+up once.
+
+**3. Convert to glb** — the repo ships the converter:
 
    ```powershell
    .\tools\ifc\bin\IfcConvert.exe data\outputs\variants\v1-kitchen-living\model.ifc `
