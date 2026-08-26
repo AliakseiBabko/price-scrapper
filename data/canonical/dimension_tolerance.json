@@ -319,7 +319,26 @@
         "explains": "kv109 printing туалет 1.6 m2 and a 68.3 m2 total against kv53's 1.9 and 70.7: consistent with kv109 being a higher-floor flat with the doubled vent block.",
         "confidence": "owner's account, consistent with the measured spread; not independently verified against a section drawing",
         "plumbing_note": "The plumbing riser zone is identical in every flat per the owner - only ventilation varies with floor."
-      }
+      },
+      "precision_caveat_2026_08_26": "The 1.24 m2 used in the arithmetic is the DETAILED plan's figure. The developer's BASIC plan - the one actually traced in Homestyler - prints 1.42 m2 for the same туалет. With 1.42 the clear-plus-вентблок sum is 1.98 rather than 1.80, so the match to the measured 1.8/1.9 is suggestive rather than exact. The conclusion stands qualitatively: the measured plans count the вентблок zone and the usable floor is roughly 1.2-1.4 m2. The exact figure does not."
     }
+  },
+  "registration": {
+    "purpose": "Transform between the raster plans and CAD millimetres, so the images can be used as tracing surfaces.",
+    "detailed_plan": {
+      "mm_per_px": 20.6302,
+      "origin_px": [
+        26,
+        22
+      ],
+      "aspect_error_pct": 1.66,
+      "cad_wall_pixels_on_drawn_wall_pct": 89.1
+    },
+    "basic_plan": {
+      "aspect_error_pct": 2.65,
+      "cad_wall_pixels_on_drawn_wall_pct": 66.8,
+      "note": "Worse fit, but the residual is a thin fringe along every wall - a scale/offset error, not a geometric difference. The basic plan is a smaller, simpler drawing and registers less precisely."
+    },
+    "use": "Register against the DETAILED plan even though the BASIC plan was the tracing base in Homestyler: it is the more accurate target and the two describe the same flat."
   }
 }

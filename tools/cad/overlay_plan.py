@@ -141,6 +141,7 @@ def main() -> int:
                     help="also write a PPM comparing CAD walls with the drawn walls")
     a = ap.parse_args()
 
+    a.raster = a.raster.resolve()
     plan = json.loads(a.wall_plan.read_text(encoding="utf-8"))
     env_w = plan["envelope_mm"]["width"]
     env_h = plan["envelope_mm"]["depth"]
@@ -162,7 +163,7 @@ def main() -> int:
         ox, oy = bx0, by0
 
     report = {
-        "raster": str(a.raster.relative_to(REPO)),
+        "raster": str(a.raster.relative_to(REPO)) if a.raster.is_relative_to(REPO) else str(a.raster),
         "image_px": [iw, ih],
         "cad_envelope_mm": [env_w, env_h],
         "registration": {
@@ -186,7 +187,7 @@ def main() -> int:
              '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
              'viewBox="0 0 %d %d" width="%d">' % (iw, ih, min(iw, 1400)),
              '<image xlink:href="%s" x="0" y="0" width="%d" height="%d"/>'
-             % (Path("..") / ".." / a.raster.relative_to(REPO), iw, ih)]
+             % (a.raster.as_uri(), iw, ih)]
     parts.append('<g fill="#1c6ea4" fill-opacity="0.30" stroke="#1c6ea4" stroke-width="1">')
     for cycle in plan["outline_mm"]:
         pts = " ".join("%.1f,%.1f" % (ox + px / mm_per_px, oy + (env_h - py) / mm_per_px)
@@ -218,7 +219,7 @@ def main() -> int:
     (a.out.with_suffix(".json")).write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n",
                                             encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))
-    print("overlay -> %s" % a.out.relative_to(REPO))
+    print("overlay -> %s" % a.out)
     return 0
 
 

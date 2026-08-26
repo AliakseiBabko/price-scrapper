@@ -11,11 +11,23 @@ owner; re-deriving them costs hours and has already produced two wrong answers.
 
 ## The flat in one paragraph
 
-Type 3Б/3+, **69.09 m²** total, **4th floor**, building not finished, nothing
-field-verified. Rooms as sold: жилая 19.49 / 16.64 / 9.36, прихожая 9.79,
-кухня 5.24, ванная 3.09, туалет 1.24, лоджия 6.05 (counted 4.24). Partitions
+**69.1–69.4 m²** total, **4th floor**, building not finished, nothing
+field-verified. Rooms as sold: жилая 19.49 / 16.6 / 9.36, прихожая 9.8–10.0,
+кухня 5.24, ванная 3.09, туалет 1.2–1.4, лоджия 6.05 (counted 4.24). Partitions
 are drawn **75 mm**. The owner has redesigned it in Homestyler; that redesign is
 a *variant*, not the existing state.
+
+**The developer issued two drawings and they disagree**, each internally
+consistent:
+
+| | designation | total | туалет | прихожая | dimensions? |
+|---|---|---|---|---|---|
+| `fllor_plan_detailed.jpeg` | 3Б/3+ | 69.09 | 1.24 | 9.79 | **yes — the only dimensioned source** |
+| `floor_plan_basic.jpg` | 3Б/2+ | 69.44 | 1.42 | 9.97 | no — **this is the image traced in Homestyler** |
+
+The 0.35 m² spread sits inside the ±25 mm band, so it changes no layout
+decision — but **no single area figure here is exact**, and any quoted area
+should say which drawing it came from.
 
 ## Sources of truth — what each one may be used for
 
@@ -39,9 +51,11 @@ Extracted, so nobody re-reads the images:
    1.24 m² clear, plus the 1140 × 490 вентблок = 1.80 m² gross, which is what
    two of the three measured flats print. Where a developer area and a measured
    area differ by about a service block, that is the explanation *before* any
-   construction difference is.
+   construction difference is. (Using the basic plan's 1.42 the sum is 1.98, so
+   the match is suggestive, not exact — the mechanism holds, the precision does
+   not.)
 
-2. **Usable floor in the туалет is ~1.24 m², not 1.8.** Anything sized against
+2. **Usable floor in the туалет is ~1.2–1.4 m², not 1.8.** Anything sized against
    the bigger number will not fit.
 
 3. **±25 mm.** Wall-to-wall dimensions of the same nominal wall differ by
@@ -99,7 +113,10 @@ The owner drew the Homestyler layout on the developer's detailed plan as a base
 image, so the two share a frame. `tools/cad/overlay_plan.py` recovers it:
 
 - **20.63 mm per pixel, origin at (26, 22)** in `fllor_plan_detailed.jpeg`,
-  aspect agreeing with the CAD to 1.7%.
+  aspect agreeing with the CAD to 1.7%. Register against the **detailed** plan
+  even though the **basic** plan was the tracing base in Homestyler: it is the
+  more accurate target. On the basic plan the residual is a thin fringe along
+  every wall — a scale/offset error, not a geometric difference.
 - `--diff` colours the result: **green where a CAD wall sits on a drawn wall,
   red where it does not**. Output: `data/cad/overlay_developer_plan_diff.png`.
 

@@ -101,7 +101,42 @@
         "movable": false,
         "evidence": "Со слов владельца; согласуется с меньшими площадями в kv109."
       }
-    ]
+    ],
+    "variants_of_the_developer_plan": {
+      "note": "The developer issued two drawings of this flat and they do not print the same areas. Both are internally consistent - each sums to its own stated total - so this is a difference between revisions or between two type designations, not a reading error.",
+      "detailed": {
+        "source": "_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg",
+        "designation": "3Б/3+",
+        "living_m2": 45.49,
+        "total_m2": 69.09,
+        "rooms_differing_m2": {
+          "туалет": 1.24,
+          "прихожая": 9.79,
+          "жилая средняя": 16.64
+        },
+        "carries": "full dimension strings - the only source for wall-to-wall dimensions"
+      },
+      "basic": {
+        "source": "_Inbox/_Visual_Drop/floor_plan_basic.jpg",
+        "designation": "3Б/2+",
+        "living_m2": 45.48,
+        "total_m2": 69.44,
+        "rooms_differing_m2": {
+          "туалет": 1.42,
+          "прихожая": 9.97,
+          "жилая средняя": 16.63
+        },
+        "carries": "no dimensions; this is the image the owner traced in Homestyler"
+      },
+      "delta_m2": {
+        "туалет": 0.18,
+        "прихожая": 0.18,
+        "жилая средняя": -0.01,
+        "total": 0.35
+      },
+      "unresolved": "Which revision the built flat will follow. The 0.35 m2 spread sits inside the +/-25 mm dimensional band, so it does not change any layout decision, but it does mean no single area figure here is exact."
+    },
+    "rooms_note": "Areas below are from the DETAILED plan (69.09 total). The basic plan prints туалет 1.42, прихожая 9.97, жилая 16.63 and totals 69.44."
   },
   "homestyler_modified": {
     "schema_version": "0.1.0",
