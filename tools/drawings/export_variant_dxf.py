@@ -162,6 +162,8 @@ def export(spec: dict, out_path: Path) -> dict:
             plus, minus = room_at(cx, cy + reach), room_at(cx, cy - reach)
         else:
             plus, minus = room_at(cx + reach, cy), room_at(cx - reach, cy)
+        if plus is None and minus is None:
+            return 0  # nothing to open into; draw the leaf, skip the swing
         a = plus["area_m2"] if plus else 0.0
         b = minus["area_m2"] if minus else 0.0
         return 1 if a >= b else -1
@@ -208,8 +210,9 @@ def export(spec: dict, out_path: Path) -> dict:
                 hx, hy = (x0 + t / 2) * M, y0 * M
                 msp.add_line((hx, hy), (hx, hy + leaf * M), dxfattribs={"layer": layer})
                 start, end = (0, 90) if side > 0 else (90, 180)
-            msp.add_arc(center=(hx, hy), radius=leaf * M, start_angle=start, end_angle=end,
-                        dxfattribs={"layer": layer})
+            if side:
+                msp.add_arc(center=(hx, hy), radius=leaf * M, start_angle=start, end_angle=end,
+                            dxfattribs={"layer": layer})
         if kind == "opening":
             # a проём has no leaf: mark the jambs and leave the gap empty
             for px, py in (((x0, y0), (x0, y1)) if not o["horizontal"] else ((x0, y0), (x1, y0))):

@@ -1297,7 +1297,7 @@
   "finishes": {},
   "furniture": [],
   "evidence": {
-    "generated": "2026-08-26T15:35:21.739793+00:00",
+    "generated": "2026-08-26T15:39:46.229667+00:00",
     "source": "data\\cad\\dxf\\20260727-ZK Dubravinskiy.dxf",
     "wall_plan": "data\\cad\\wall_plan.json",
     "envelope_mm": {

@@ -834,7 +834,7 @@
     }
   ],
   "evidence": {
-    "generated": "2026-08-26T15:35:21.888342+00:00",
+    "generated": "2026-08-26T15:39:46.356845+00:00",
     "derived_from": "data\\canonical\\current_apartment_cad.json",
     "rule": "Walls 200 mm and thicker are treated as structural shell; thinner walls are partitions and belong to a layout option, not to the shell.",
     "shell_walls": 15,

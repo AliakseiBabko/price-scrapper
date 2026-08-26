@@ -122,12 +122,20 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
             # the model, but it must be visible in the manifest.
             unhosted.append({"opening": o["name"], "host_wall": o.get("host_wall", "")})
             continue
+        # The void must be as deep as the wall it cuts, plus a little to be
+        # sure it passes through. A fixed 310 mm made every opening the same
+        # thickness regardless of its wall, which is why they drew as fat bars
+        # straddling thin partitions.
+        host_t = next((w["thickness_m"] for w in spec["walls"]
+                       if w["name"] == o.get("host_wall")), 0.15)
+        depth = host_t + 0.04
         if o["horizontal"]:
             item = add_box(model, body, storey, owner, "IfcOpeningElement", o["name"],
-                           o["x_m"], o["y_m"] - 0.08, o["width_m"], 0.31, o["height_m"], z=o["bottom_m"])
+                           o["x_m"], o["y_m"] - 0.02, o["width_m"], depth, o["height_m"],
+                           z=o["bottom_m"])
         else:
             item = add_box(model, body, storey, owner, "IfcOpeningElement", o["name"],
-                           o["x_m"] - 0.08, o["y_m"], o["width_m"], 0.31, o["height_m"],
+                           o["x_m"] - 0.02, o["y_m"], o["width_m"], depth, o["height_m"],
                            z=o["bottom_m"], rotation=90.0)
         add_relationship(model, "IfcRelVoidsElement", owner,
                          RelatingBuildingElement=host, RelatedOpeningElement=item)
@@ -135,9 +143,11 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
                                                       "Kind": o["kind"]})
         created.setdefault(o["kind"], []).append(item)
         opening_meta.append({"host_wall": o["host_wall"],
-                             "bbox": (o["x_m"], o["y_m"] - 0.08, o["x_m"] + o["width_m"], o["y_m"] + 0.23)
+                             "bbox": (o["x_m"], o["y_m"] - 0.02, o["x_m"] + o["width_m"],
+                                      o["y_m"] + depth)
                              if o["horizontal"] else
-                             (o["x_m"] - 0.08, o["y_m"], o["x_m"] + 0.23, o["y_m"] + o["width_m"])})
+                             (o["x_m"] - 0.02, o["y_m"], o["x_m"] + depth,
+                              o["y_m"] + o["width_m"])})
 
     for f in spec["fills"]:
         kind = "door" if f["ifc_class"] == "IfcDoor" else "window"
@@ -288,6 +298,8 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
         "model_type": spec.get("spec_id", "apartment_spec"),
         "spec_id": spec.get("spec_id"),
         "name": spec.get("name", ""),
+        "wall_outline_mm": spec.get("wall_outline_mm", []),
+        "opening_kinds": {o["name"]: o.get("kind", "door") for o in spec.get("openings", [])},
         "variant_chain": spec.get("variant_chain", []),
         "derived_from": spec.get("derived_from"),
         "status": spec.get("status", "planned"),

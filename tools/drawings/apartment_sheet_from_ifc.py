@@ -557,13 +557,25 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     plan = svg_el("g", id="plan")
     root.append(plan)
     room_meta = {str(r.get("name")): r for r in (manifest.get("rooms") or [])}
-    for space in sorted(spaces, key=lambda item: item.name):
-        meta = room_meta.get(space.name, {})
-        plan.append(svg_el("rect", **rect_attrs(space.bbox, envelope, scale, placed_x, placed_y, drawing_h),
-                           fill=role_fill(str(meta.get("role", "other"))), stroke="#c8c8c8",
-                           **{"stroke-width": "0.12"}))
+
+    # No room rectangles: the extents are recovered geometry and approximate,
+    # so a filled box sits close to the room but not on it. The label carries
+    # the authoritative area and the walls carry the shape.
+    outline = manifest.get("wall_outline_mm") or []
+    if outline:
+        # The source's own wall outline - one region, no lines where the
+        # decomposition happened to cut a wall in two.
+        path_data = []
+        for cycle in outline:
+            pts = [project_point(px / 1000.0, py / 1000.0, envelope, scale, placed_x, placed_y, drawing_h)
+                   for px, py in cycle]
+            path_data.append("M " + " L ".join("%.2f %.2f" % pt for pt in pts) + " Z")
+        plan.append(svg_el("path", d=" ".join(path_data), fill="#3a3a3a",
+                           **{"fill-rule": "evenodd", "stroke": "#3a3a3a", "stroke-width": "0.15"}))
     for wall in sorted(walls, key=lambda item: item.name):
         phase = wall_phase.get(wall.name, "existing")
+        if outline and phase == "existing":
+            continue
         colour, dash = PHASE_STYLE.get(phase, PHASE_STYLE["existing"])
         plan.append(svg_el("rect", **rect_attrs(wall.bbox, envelope, scale, placed_x, placed_y, drawing_h),
                            fill=colour, stroke=colour, **{"stroke-width": "0.2",
@@ -573,13 +585,57 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     for opening in openings:
         plan.append(svg_el("rect", **rect_attrs(opening.bbox, envelope, scale, placed_x, placed_y, drawing_h), **{"class": "opening-cut", "data-host-wall": opening.host_wall or ""}))
 
-    door_openings = {filling.RelatingOpeningElement.GlobalId for door in model.by_type("IfcDoor") for filling in getattr(door, "FillsVoids", []) or []}
-    window_openings = {filling.RelatingOpeningElement.GlobalId for window in model.by_type("IfcWindow") for filling in getattr(window, "FillsVoids", []) or []}
+    kinds = manifest.get("opening_kinds") or {}
+
+    def room_at(xm, ym):
+        for r in (manifest.get("rooms") or []):
+            if r["x_m"] <= xm <= r["x_m"] + r["width_m"] and r["y_m"] <= ym <= r["y_m"] + r["depth_m"]:
+                return r
+        return None
+
     for opening in openings:
-        if opening.global_id in door_openings:
-            draw_door(plan, opening, envelope, scale, placed_x, placed_y, drawing_h)
-        if opening.global_id in window_openings:
+        kind = kinds.get(opening.name, "door")
+        box = opening.bbox
+        horizontal = is_horizontal(box)
+        if kind in ("window", "balcony_block"):
             draw_window(plan, opening, envelope, scale, placed_x, placed_y, drawing_h)
+        if kind in ("door", "balcony_block"):
+            # swing into whichever side has the larger room, as on the DXF
+            reach = 0.6
+            if horizontal:
+                a, b = room_at(box.cx, box.cy + reach), room_at(box.cx, box.cy - reach)
+            else:
+                a, b = room_at(box.cx + reach, box.cy), room_at(box.cx - reach, box.cy)
+            if a is None and b is None:
+                # nothing to open into - the entrance door is the case. Draw the
+                # leaf and leave the swing off rather than sweep it across the
+                # sheet into space that is not part of the flat.
+                side = 0
+            else:
+                side = 1 if (a["area_m2"] if a else 0) >= (b["area_m2"] if b else 0) else -1
+            leaf = (box.width if horizontal else box.depth)
+            hx, hy = (box.xmin, box.cy) if horizontal else (box.cx, box.ymin)
+            px0, py0 = project_point(hx, hy, envelope, scale, placed_x, placed_y, drawing_h)
+            if horizontal:
+                lx, ly = project_point(hx + leaf, hy, envelope, scale, placed_x, placed_y, drawing_h)
+                ax, ay = project_point(hx, hy + side * leaf, envelope, scale, placed_x, placed_y, drawing_h)
+            else:
+                lx, ly = project_point(hx, hy + leaf, envelope, scale, placed_x, placed_y, drawing_h)
+                ax, ay = project_point(hx + side * leaf, hy, envelope, scale, placed_x, placed_y, drawing_h)
+            radius = leaf * scale
+            plan.append(svg_el("line", x1="%.2f" % px0, y1="%.2f" % py0,
+                               x2="%.2f" % lx, y2="%.2f" % ly, **{"class": "door-leaf"}))
+            if side:
+                plan.append(svg_el("path", d="M %.2f %.2f A %.2f %.2f 0 0 %d %.2f %.2f"
+                                   % (lx, ly, radius, radius, 1 if side > 0 else 0, ax, ay),
+                                   fill="none", **{"class": "door-arc"}))
+        if kind == "opening":
+            # a проём: jambs only, no leaf
+            for x, y in (((box.xmin, box.cy), (box.xmax, box.cy)) if horizontal
+                         else ((box.cx, box.ymin), (box.cx, box.ymax))):
+                jx, jy = project_point(x, y, envelope, scale, placed_x, placed_y, drawing_h)
+                plan.append(svg_el("circle", cx="%.2f" % jx, cy="%.2f" % jy, r="0.5",
+                                   fill="#8a3fa0"))
 
     # Label with the schedule's area, never the bounding box: the box is
     # recovered geometry and approximate, the area is the source's own figure.
@@ -642,8 +698,7 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     for label, colour, dash in [
             ("существующая стена / existing wall", PHASE_STYLE["existing"][0], "none"),
             ("демонтируется / to be removed", PHASE_STYLE["demolished"][0], "1.4 1.0"),
-            ("возводится / new wall", PHASE_STYLE["new"][0], "none"),
-            ("мокрая зона / wet zone", ROLE_FILL["wet"], "none")]:
+            ("возводится / new wall", PHASE_STYLE["new"][0], "none")]:
         root.append(svg_el("rect", x=f"{sched_x:.1f}", y=f"{leg_y - 2.2:.1f}", width="6", height="2.6",
                            fill=colour, stroke="#555", **{"stroke-width": "0.2", "stroke-dasharray": dash}))
         append_text(root, label, sched_x + 8, leg_y, 2.5)
