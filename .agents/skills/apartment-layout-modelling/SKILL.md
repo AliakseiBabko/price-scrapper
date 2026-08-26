@@ -90,6 +90,25 @@ that is a generator bug — fix the model and regenerate, never edit a drawing.*
 Annotation (dimension chains, hatches, экспликация) belongs to the drawing layer,
 not the model. See `00_Master/Model_and_Views.md`.
 
+## Layout only — the model states what was decided, nothing more
+
+The model carries **walls (position and thickness), openings, and rooms.** That
+is all. No furniture, no finishes, no flooring, no ceilings, no lighting, no
+sockets, no plumbing. Owner's instruction, and it is the right default: a
+position on a drawing is a decision, and the model must not contain decisions
+nobody made.
+
+Two places used to invent content and no longer do:
+
+- the builder placed a ceiling light in the centre of every room unless told
+  otherwise — now off unless a spec sets `lighting.enabled`;
+- the sheet renderer fabricated a placeholder socket per room whenever the
+  model had none — now it draws only what the model actually contains.
+
+Nothing came across from Homestyler except the layout: its furniture, cabinets
+and fittings were never imported. When furniture does arrive it will be chosen
+from scratch, not recovered from that experiment.
+
 ## Shell and options
 
 Every layout option shares one **structural shell** and differs only in

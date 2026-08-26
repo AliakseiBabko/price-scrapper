@@ -438,10 +438,10 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     walls, spaces, openings, doors, windows = collect_items(model)
     symbols = collect_flow_terminals(model)
     light_symbols = collect_light_fixtures(model)
-    electrical_source = "native_ifc_flow_terminals"
-    if not symbols:
-        symbols = electrical_symbols(spaces, walls, openings)
-        electrical_source = "generated_sheet_fallback"
+    # A model that contains no sockets must not gain sockets by being drawn.
+    # This used to fabricate a placeholder per room when the model had none,
+    # which put positions on a drawing that nobody had decided.
+    electrical_source = "native_ifc_flow_terminals" if symbols else "none_in_model"
     for symbol in symbols:
         host_wall = next((wall for wall in walls if wall.name == symbol.wall), None)
         if not host_wall:

@@ -242,7 +242,9 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
 
     lighting = []
     lc = spec.get("lighting") or {}
-    for room in spec["rooms"]:
+    # Off unless a spec asks for it. A layout model states walls, openings and
+    # rooms; a light in the middle of every room is a decision nobody made.
+    for room in (spec["rooms"] if lc.get("enabled") else []):
         if room["name"] in (lc.get("exclude_rooms") or []):
             continue
         size = lc.get("size_m", 0.35)

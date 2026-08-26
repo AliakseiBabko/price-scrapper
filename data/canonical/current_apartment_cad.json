@@ -831,12 +831,8 @@
   "electrical_plan": {},
   "plumbing_plan": [],
   "lighting": {
-    "mode": "ceiling_centre_per_room",
-    "exclude_rooms": [],
-    "z_m": 2.62,
-    "size_m": 0.35,
-    "temperature_k": 3000,
-    "approx_lumens": 550
+    "enabled": false,
+    "note": "layout only - no lighting decided"
   },
   "finishes": {},
   "furniture": [],
