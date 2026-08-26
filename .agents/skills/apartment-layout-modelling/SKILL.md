@@ -216,6 +216,24 @@ writes the A3 sheets, the TrueView DXF, the Blender scene, the comparison sheet
 and the gallery. `--no-blend` while iterating; `--force` only after confirming a
 flagged service is genuinely untouched.
 
+## Sheet conventions (settled 2026-08-26)
+
+Project name **Dubravinsky**, sheets **bilingual** (Russian first — the builder
+reads that one), numbering **A-101**, room label **name + area**, and the
+**NOT FOR CONSTRUCTION** stamp stays until field measurement.
+
+Every sheet carries: a title block naming the project, the option and its
+status; numbered room labels keyed to an **ЭКСПЛИКАЦИЯ / ROOM SCHEDULE** with a
+total; wet-zone fill; walls coloured **by phase** with a legend; a scale bar;
+and an **ИСТОЧНИК / PROVENANCE** block stating the option chain, the model file,
+±25 mm and "not field verified".
+
+Room labels print the **schedule's area**, never the bounding box — the box is
+recovered geometry and approximate, the area is the source's own figure.
+
+The gallery marks any drawing older than its model **STALE**. That check exists
+because a stale sheet was twice presented as current.
+
 ## Viewing
 
 - **2D → DWG TrueView**: `data/outputs/variants/<id>/<id>_plan.dxf`, millimetres,
@@ -258,9 +276,10 @@ Full detail: `00_Master/How_To_View_Outputs.md`.
   **fails** `--strict` (2 duplicate walls, 10.9% double-counted). Nothing should
   build on it; it stays only as provenance.
 - The ±25 mm band is documented but not yet applied inside the rule checks.
-- **The sheet renderer still carries demo text** ("Generic enclosed apartment
-  demonstrator", "Residential renovation demo") and does not label rooms or draw
-  door swings. That is the `cap1` conventions work, not a model problem.
+- **Room boxes overlap walls on the sheet** in places, because room extents are
+  approximate (see above). It is cosmetic but visible, and it is the honest
+  signature of geometry recovered rather than drawn.
+- Door swings are still not drawn, and the entry arrow is missing.
 - **The DWG holds every export sheet**, not just the floor plan: the eight
   `P-Wall-Section` instances are the sheet set (A-01…A-13 — Layout Plan,
   Furniture Size Plan, Ceiling, Light Control, Voltage, Water Supply, Material

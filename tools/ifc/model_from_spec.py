@@ -287,6 +287,8 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
     manifest = {
         "model_type": spec.get("spec_id", "apartment_spec"),
         "spec_id": spec.get("spec_id"),
+        "name": spec.get("name", ""),
+        "variant_chain": spec.get("variant_chain", []),
         "derived_from": spec.get("derived_from"),
         "status": spec.get("status", "planned"),
         "rooms": spec["rooms"],

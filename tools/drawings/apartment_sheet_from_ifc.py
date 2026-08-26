@@ -23,6 +23,44 @@ import ifcopenshell.util.unit
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 
+PROJECT_NAME = "Dubravinsky"
+
+# Sheets are bilingual: the contractor reads the Russian, the owner reads both.
+RU = {
+    "kitchen": "Кухня", "living": "Гостиная", "kids": "Детская", "bedroom": "Спальня",
+    "hallway": "Коридор", "corridor": "Коридор", "entrance": "Прихожая",
+    "bathroom": "Ванная", "wc": "Туалет", "combined_bath": "Санузел",
+    "laundry": "Постирочная", "balcony": "Балкон", "storage": "Кладовая", "other": "Помещение",
+}
+WET_ROLES = {"kitchen", "bathroom", "wc", "combined_bath", "laundry"}
+ROLE_FILL = {
+    "wet": "#dceaf5", "living": "#f4f4f2", "circulation": "#ecebe7",
+    "balcony": "#f7f7f7", "other": "#f4f4f2",
+}
+PHASE_STYLE = {
+    "existing": ("#3a3a3a", "none"),
+    "demolished": ("#c23b3b", "1.4 1.0"),
+    "new": ("#1c6ea4", "none"),
+    "modified": ("#8a6d1f", "none"),
+}
+
+
+def role_fill(role: str) -> str:
+    if role in WET_ROLES:
+        return ROLE_FILL["wet"]
+    if role in {"entrance", "hallway", "corridor"}:
+        return ROLE_FILL["circulation"]
+    if role == "balcony":
+        return ROLE_FILL["balcony"]
+    return ROLE_FILL["living"]
+
+
+def bilingual(name: str, role: str) -> str:
+    """`Кухня / Kitchen` - Russian first, because the builder reads that one."""
+    ru = RU.get(role)
+    return f"{ru} / {name}" if ru and ru.lower() != name.lower() else name
+
+
 SHEET_CONFIG = {
     "combined": {
         "sheet_number": "A-101",
@@ -122,7 +160,8 @@ def svg_el(tag: str, **attrs: Any) -> ET.Element:
 
 
 def append_text(parent: ET.Element, value: str, x: float, y: float, size: float = 3.0,
-                anchor: str = "start", weight: str = "normal", klass: str | None = None) -> ET.Element:
+                anchor: str = "start", weight: str = "normal", klass: str | None = None,
+                fill: str | None = None) -> ET.Element:
     attrs: dict[str, Any] = {
         "x": f"{x:.3f}",
         "y": f"{y:.3f}",
@@ -133,6 +172,8 @@ def append_text(parent: ET.Element, value: str, x: float, y: float, size: float 
     }
     if klass:
         attrs["class"] = klass
+    if fill:
+        attrs["fill"] = fill
     node = svg_el("text", **attrs)
     node.text = value
     parent.append(node)
@@ -432,9 +473,22 @@ def draw_window(parent: ET.Element, opening: Item, origin: BBox, scale: float, p
         parent.append(svg_el("line", x1=f"{x + 1.2:.3f}", y1=f"{y0:.3f}", x2=f"{x + 1.2:.3f}", y2=f"{y1:.3f}", **{"class": "window-line"}))
 
 
+def read_phase(product) -> str:
+    """The phase property, so a wall can be drawn as what it is."""
+    try:
+        import ifcopenshell.util.element as _el
+        psets = _el.get_psets(product)
+    except Exception:
+        return "existing"
+    return str((psets.get("Pset_ApartmentPhase") or {}).get("Phase", "existing"))
+
+
 def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, output_pdf: Path | None, sheet_kind: str = "combined") -> dict[str, Any]:
     config = SHEET_CONFIG[sheet_kind]
     model = ifcopenshell.open(str(ifc_path))
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8")) \
+        if manifest_path and manifest_path.is_file() else {}
+    wall_phase = {str(w.Name or ""): read_phase(w) for w in model.by_type("IfcWall")}
     walls, spaces, openings, doors, windows = collect_items(model)
     symbols = collect_flow_terminals(model)
     light_symbols = collect_light_fixtures(model)
@@ -493,15 +547,29 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     root.append(defs)
 
     root.append(svg_el("rect", x="5", y="5", width="410", height="287", fill="none", stroke="#000", **{"stroke-width": "0.35"}))
-    append_text(root, "Generic enclosed apartment demonstrator", 24, 18, 5.0, weight="bold")
-    append_text(root, f"{config['sheet_number']} {config['title']} - coordination only", 24, 25, 3.2)
+    option_name = str(manifest.get("name") or manifest.get("spec_id") or "")
+    option_status = str(manifest.get("status", ""))
+    chain = " → ".join(manifest.get("variant_chain") or []) or str(manifest.get("spec_id", ""))
+    append_text(root, PROJECT_NAME, 24, 18, 5.0, weight="bold")
+    append_text(root, option_name, 24, 25, 3.4)
+    append_text(root, f"{config['sheet_number']}  {config['title']}", 24, 30.5, 2.8)
 
     plan = svg_el("g", id="plan")
     root.append(plan)
+    room_meta = {str(r.get("name")): r for r in (manifest.get("rooms") or [])}
     for space in sorted(spaces, key=lambda item: item.name):
-        plan.append(svg_el("rect", **rect_attrs(space.bbox, envelope, scale, placed_x, placed_y, drawing_h), **{"class": "space"}))
+        meta = room_meta.get(space.name, {})
+        plan.append(svg_el("rect", **rect_attrs(space.bbox, envelope, scale, placed_x, placed_y, drawing_h),
+                           fill=role_fill(str(meta.get("role", "other"))), stroke="#c8c8c8",
+                           **{"stroke-width": "0.12"}))
     for wall in sorted(walls, key=lambda item: item.name):
-        plan.append(svg_el("rect", **rect_attrs(wall.bbox, envelope, scale, placed_x, placed_y, drawing_h), **{"class": "wall", "data-name": wall.name}))
+        phase = wall_phase.get(wall.name, "existing")
+        colour, dash = PHASE_STYLE.get(phase, PHASE_STYLE["existing"])
+        plan.append(svg_el("rect", **rect_attrs(wall.bbox, envelope, scale, placed_x, placed_y, drawing_h),
+                           fill=colour, stroke=colour, **{"stroke-width": "0.2",
+                                                          "stroke-dasharray": dash,
+                                                          "fill-opacity": "0.35" if phase == "demolished" else "1",
+                                                          "data-name": wall.name, "data-phase": phase}))
     for opening in openings:
         plan.append(svg_el("rect", **rect_attrs(opening.bbox, envelope, scale, placed_x, placed_y, drawing_h), **{"class": "opening-cut", "data-host-wall": opening.host_wall or ""}))
 
@@ -513,10 +581,15 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
         if opening.global_id in window_openings:
             draw_window(plan, opening, envelope, scale, placed_x, placed_y, drawing_h)
 
-    for space in sorted(spaces, key=lambda item: item.name):
+    # Label with the schedule's area, never the bounding box: the box is
+    # recovered geometry and approximate, the area is the source's own figure.
+    for number, space in enumerate(sorted(spaces, key=lambda item: -(room_meta.get(item.name, {}).get("area_m2") or 0)), 1):
+        meta = room_meta.get(space.name, {})
         sx, sy = project_point(space.bbox.cx, space.bbox.cy, envelope, scale, placed_x, placed_y, drawing_h)
-        append_text(plan, space.name, sx, sy - 2.0, 3.0, "middle", "bold")
-        append_text(plan, f"{space.bbox.width:.2f} x {space.bbox.depth:.2f} m", sx, sy + 2.2, 2.4, "middle")
+        append_text(plan, f"{number}", sx, sy - 4.4, 2.6, "middle", "bold")
+        append_text(plan, bilingual(space.name, str(meta.get("role", "other"))), sx, sy - 1.2, 2.7, "middle", "bold")
+        if meta.get("area_m2"):
+            append_text(plan, f"{meta['area_m2']:.2f} m²", sx, sy + 2.0, 2.5, "middle")
 
     for symbol in visible_symbols:
         sx, sy = project_point(symbol.x, symbol.y, envelope, scale, placed_x, placed_y, drawing_h)
@@ -543,31 +616,67 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     root.append(svg_el("line", x1=f"{x1:.3f}", y1=f"{y1:.3f}", x2=f"{x1 + 6:.3f}", y2=f"{y1:.3f}", **{"class": "thin"}))
 
     legend_x, legend_y = 300.0, 36.0
-    append_text(root, "Legend", legend_x, legend_y, 3.4, weight="bold")
-    root.append(svg_el("rect", x=legend_x, y=legend_y + 6, width=8, height=4, **{"class": "wall"}))
-    append_text(root, "Wall cut", legend_x + 12, legend_y + 9.5, 2.7)
-    legend_offset = 15
-    if config["electrical"]:
-        root.append(svg_el("rect", x=legend_x, y=legend_y + legend_offset, width=3, height=3, **{"class": "electrical"}))
-        append_text(root, "Electrical outlet/switch", legend_x + 12, legend_y + legend_offset + 3, 2.7)
-        legend_offset += 9
-    if config["plumbing"]:
-        root.append(svg_el("circle", cx=legend_x + 1.5, cy=legend_y + legend_offset + 1, r=1.5, **{"class": "plumbing"}))
-        append_text(root, "Plumbing connection", legend_x + 12, legend_y + legend_offset + 2, 2.7)
-        legend_offset += 9
-    if config["lighting"]:
-        root.append(svg_el("circle", cx=legend_x + 1.5, cy=legend_y + legend_offset + 1, r=1.7, **{"class": "lighting"}))
-        append_text(root, "Ceiling light fixture", legend_x + 12, legend_y + legend_offset + 2, 2.7)
-        legend_offset += 9
-    root.append(svg_el("line", x1=legend_x, y1=legend_y + legend_offset + 1, x2=legend_x + 10, y2=legend_y + legend_offset + 1, **{"class": "window-line"}))
-    append_text(root, "Window in wall opening", legend_x + 12, legend_y + legend_offset + 2, 2.7)
+    # ЭКСПЛИКАЦИЯ / room schedule - numbered to match the plan labels
+    sched_x, sched_y = 300.0, 36.0
+    append_text(root, "ЭКСПЛИКАЦИЯ / ROOM SCHEDULE", sched_x, sched_y, 3.2, weight="bold")
+    sched_y += 5.0
+    total_area = 0.0
+    for number, space in enumerate(sorted(spaces, key=lambda item: -(room_meta.get(item.name, {}).get("area_m2") or 0)), 1):
+        meta = room_meta.get(space.name, {})
+        area = float(meta.get("area_m2") or 0)
+        total_area += area
+        append_text(root, f"{number}", sched_x, sched_y, 2.5)
+        append_text(root, bilingual(space.name, str(meta.get("role", "other")))[:34], sched_x + 5, sched_y, 2.5)
+        append_text(root, f"{area:.2f}", sched_x + 104, sched_y, 2.5, anchor="end")
+        sched_y += 3.6
+    root.append(svg_el("line", x1=f"{sched_x:.1f}", y1=f"{sched_y - 1.6:.1f}",
+                       x2=f"{sched_x + 104:.1f}", y2=f"{sched_y - 1.6:.1f}",
+                       stroke="#999", **{"stroke-width": "0.2"}))
+    append_text(root, "ИТОГО / TOTAL", sched_x + 5, sched_y + 1.6, 2.5, weight="bold")
+    append_text(root, f"{total_area:.2f} m²", sched_x + 104, sched_y + 1.6, 2.5, "end", weight="bold")
+
+    # legend: what the colours mean
+    leg_y = sched_y + 9.0
+    append_text(root, "УСЛОВНЫЕ ОБОЗНАЧЕНИЯ / LEGEND", sched_x, leg_y, 3.2, weight="bold")
+    leg_y += 5.0
+    for label, colour, dash in [
+            ("существующая стена / existing wall", PHASE_STYLE["existing"][0], "none"),
+            ("демонтируется / to be removed", PHASE_STYLE["demolished"][0], "1.4 1.0"),
+            ("возводится / new wall", PHASE_STYLE["new"][0], "none"),
+            ("мокрая зона / wet zone", ROLE_FILL["wet"], "none")]:
+        root.append(svg_el("rect", x=f"{sched_x:.1f}", y=f"{leg_y - 2.2:.1f}", width="6", height="2.6",
+                           fill=colour, stroke="#555", **{"stroke-width": "0.2", "stroke-dasharray": dash}))
+        append_text(root, label, sched_x + 8, leg_y, 2.5)
+        leg_y += 4.2
+
+    # scale bar - one metre, measured in the drawing's own scale
+    bar_x, bar_y = sched_x, leg_y + 4.0
+    metre = scale
+    root.append(svg_el("rect", x=f"{bar_x:.1f}", y=f"{bar_y:.1f}", width=f"{metre:.2f}", height="1.4",
+                       fill="#1a1a1a"))
+    root.append(svg_el("rect", x=f"{bar_x + metre:.2f}", y=f"{bar_y:.1f}", width=f"{metre:.2f}",
+                       height="1.4", fill="#ffffff", stroke="#1a1a1a", **{"stroke-width": "0.2"}))
+    append_text(root, "0", bar_x, bar_y + 4.4, 2.2, "middle")
+    append_text(root, "1", bar_x + metre, bar_y + 4.4, 2.2, "middle")
+    append_text(root, "2 m", bar_x + 2 * metre, bar_y + 4.4, 2.2, "middle")
+
+    # provenance - what produced this drawing and how far it may be trusted
+    prov_y = bar_y + 10.0
+    append_text(root, "ИСТОЧНИК / PROVENANCE", sched_x, prov_y, 3.2, weight="bold")
+    for line in [f"вариант / option: {chain}",
+                 f"статус / status: {option_status}",
+                 f"модель / model: {ifc_path.name}",
+                 "размеры номинальные ±25 мм / dimensions nominal ±25 mm",
+                 "обмеры не выполнялись / not field verified"]:
+        prov_y += 3.6
+        append_text(root, line[:60], sched_x, prov_y, 2.3, fill="#555")
 
     title_x, title_y = 280.0, 246.0
     root.append(svg_el("rect", x=title_x, y=title_y, width=130, height=41, fill="#fff", stroke="#000", **{"stroke-width": "0.35"}))
     for offset in (12, 25, 33):
         root.append(svg_el("line", x1=title_x, y1=title_y + offset, x2=title_x + 130, y2=title_y + offset, stroke="#000", **{"stroke-width": "0.2"}))
     root.append(svg_el("line", x1=350, y1=title_y, x2=350, y2=title_y + 41, stroke="#000", **{"stroke-width": "0.2"}))
-    append_text(root, "Residential renovation demo", title_x + 4, title_y + 6, 3.0, weight="bold")
+    append_text(root, PROJECT_NAME, title_x + 4, title_y + 6, 3.0, weight="bold")
     append_text(root, str(config["title"]), title_x + 4, title_y + 10, 2.5)
     append_text(root, "STATUS", title_x + 4, title_y + 18, 2.2, weight="bold")
     append_text(root, "COORDINATION ONLY / NOT FOR CONSTRUCTION", title_x + 22, title_y + 18, 2.2)
@@ -589,6 +698,8 @@ def build_svg(ifc_path: Path, manifest_path: Path | None, output_svg: Path, outp
     return {
         "source_ifc": str(ifc_path),
         "source_manifest": str(manifest_path) if manifest_path else None,
+        "source_model_mtime": ifc_path.stat().st_mtime if ifc_path.exists() else None,
+        "source_model_size": ifc_path.stat().st_size if ifc_path.exists() else None,
         "output_svg": str(output_svg),
         "output_pdf": str(output_pdf) if output_pdf else None,
         "classification": "coordination-ready; professional review required; not for construction",

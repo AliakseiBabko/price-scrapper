@@ -81,12 +81,20 @@ def main() -> int:
             if ext not in DRAWABLE and ext not in MODELS:
                 continue
             group = str(path.parent.relative_to(REPO)).replace("\\", "/")
+            # A drawing older than its model is out of date. Twice this went
+            # unnoticed and a stale sheet was presented as current.
+            stale = False
+            for candidate in (path.parent / "model.ifc", path.parent.parent / "model.ifc"):
+                if candidate.exists() and candidate.stat().st_mtime > path.stat().st_mtime + 1:
+                    stale = True
+                    break
             groups.setdefault(group, []).append({
                 "path": path,
                 "ext": ext,
                 "size_kb": round(path.stat().st_size / 1024),
                 "mtime": datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y-%m-%d %H:%M"),
                 "thumb": thumb_for(path, thumbs, a.dpi),
+                "stale": stale,
             })
 
     order = sorted(groups, key=lambda g: (0 if "variants" in g else 1 if "current_apartment" in g
@@ -137,9 +145,11 @@ def main() -> int:
             parts.append(
                 '<div class="card"><a class="view" href="%s" target="_blank">%s</a>'
                 '<div class="meta"><div class="name">%s</div>'
-                '<div class="dim">%s · %d KB · %s</div></div></div>'
+                '<div class="dim">%s · %d KB · %s%s</div></div></div>'
                 % (href, media, html.escape(it["path"].name),
-                   it["ext"].lstrip("."), it["size_kb"], it["mtime"]))
+                   it["ext"].lstrip("."), it["size_kb"], it["mtime"],
+                   ' · <b style="color:#b03030">STALE — older than its model</b>'
+                   if it.get("stale") else ""))
         parts.append("</div>")
 
     parts.append("</body></html>")
