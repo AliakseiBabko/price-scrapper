@@ -32,6 +32,7 @@ Queue (order as provided by the user, not yet re-prioritized):
 9. https://www.youtube.com/@axenovservice/videos
 10. https://www.youtube.com/@REMCRAFT/videos
 11. https://www.youtube.com/@remontkvpro/videos
+12. **`@sbk.remont`** ("ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ", Vladimir Amelchenko, business/premium-segment turnkey renovation, St. Petersburg, 94 videos) — added 2026-08-28 per explicit user request. `preflight_playlist.py` run (93 fresh, 1 duplicate, light mode). **3-video title-skim trial complete, 3-for-3 clean pass**: quartz-vinyl terminology/selection (`KXmidtaUNxI`), concealed-mount-door schedule/cost/swing-angle consequences (`ukZBqIlz8e0`, nuances the existing Ontario door note independently), 11 business/premium planning-process points (`33b61qeO_XY`, independently corroborates the ARCHWOOD author-supervision-vs-technical-supervision distinction). Low promotional ratio all 3. **Recommend a full preflight → round pipeline for this channel — awaiting user go-ahead before Round 1.**
 
 When a Group A channel currently active (Kruglov or Sidorik) is fully exhausted (all rounds/clusters done) or abandoned (fails its own trial), pull the next channel from this queue, top to bottom, to keep two active.
 
@@ -96,3 +97,4 @@ This is specifically a Group A protocol — Group B/C channels stay trial-only u
 ## Progress Log
 
 - 2026-08-24 — Queue created per explicit user request: 11 Group A channels, 8 Group B channels, 1 Group C channel, plus the rate-limit channel-switching protocol formalized (already practiced informally when Kruglov's Round 4 was rate-limited and the session switched to starting Pavel Sidorik). No channel in this queue has been preflighted yet.
+- 2026-08-28 — Added `@sbk.remont` to Group A per explicit user request, ran `preflight_playlist.py` (93 fresh/1 duplicate) and a 3-video trial batch — 3-for-3 clean pass, low promotional ratio, real cross-channel corroboration/nuance found. Recommend a full round pipeline; awaiting user go-ahead.

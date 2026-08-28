@@ -418,6 +418,25 @@ findings:
 `single-account`, Moscow level 1 (named residential complex + city in
 transcript). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|frt8tQOrjiM]]]
 
+## Whole-Home Zone Hierarchy and Room-Level Rules of Thumb (Architect Maxim Novikov, added 2026-08-28)
+
+A general-principles survey (`data/layout_cases/novikov-ideal-layout-principles.json`, 18 rules in `data/layout_rules/rules.jsonl`) — talking-head format, no floor plan ever shown, so every figure below is the practitioner's spoken rule of thumb rather than a dimensioned drawing. `single-account`, region unstated beyond general Russian-market framing.
+
+- **Three-zone hierarchy, entered in sequence**: reception zone (entrance hall/prихожая) → guest zone (kitchen-living, guest WC) → private zone (bedrooms, kids room, master bath) → optional personal zone if area allows (study, walk-in closets, storage). The kitchen-living zone is the connective link between the entrance and the bedrooms, not a room bedrooms should be reachable without passing through.
+- **Entrance hall sized 4-10 m²** is enough, provided it fits a wardrobe, a shoe shelf, and a mirror; a walk-in closet and guest WC directly off the entrance let arriving guests (or a dog after a walk) wash up immediately.
+- **Bedrooms 15-18 m²**, placed in the apartment's most remote part with windows facing the courtyard (quieter) and the bright/sunny side; the kids' room specifically should be the quietest and brightest room in the unit.
+- **⚠️ Corridor-avoidance stance, stated strongly**: the amount of area a plan spends on a bare corridor is treated as a direct signal of the designer's competence (more corridor = worse) — prefer a hall shape reachable from every room instead. Complements, rather than conflicts with, this page's existing Zemskov corridor-minimum-width rule (`corridor.min_clear_width`, 1100mm) and rectangular-hall-shape rule (`hall.prefer_rectangular`) — Zemskov gives the working minimum when a corridor exists at all; Novikov argues for not having one in the first place.
+- **Room proportions**: aim for square or rectangular across every room, not just the entrance hall.
+- **Ceiling height ≥2.8 m minimum**; at ≥5 m even a 15-18 m² footprint can become two functional levels (e.g. a sleeping mezzanine over a living area below).
+- **⚠️ Three-wet-room default**: guest WC (toilet + sink only), a common bathroom (shower/bath + toilet + bidet + linen cabinet), and a dedicated laundry/utility room for the washer and dryer — with a master-suite upgrade (ensuite bath off the bedroom + separate his/her walk-in closets) where area allows. Budget/area-constrained fallback: two wet rooms (separate bath/shower + separate WC) with the washing machine relocated to a hallway/entrance niche instead of a third room.
+- **Storage planned per zone in advance**: a wardrobe/walk-in at the entrance, a pantry in the kitchen, and a separate small utility space for cleaning equipment and bulk linens — decided at the planning stage, not improvised after move-in.
+- **Balcony/loggia should be a genuine functional space** (fresh-air nook, small office, exercise corner) given enough area, not a default dumping ground for unneeded items — and its absence is a bigger loss in a small apartment than a large one, since it is often the only private outdoor-adjacent space available at all.
+- **Kitchen-living zone should sit close to the entrance**, not the apartment's far corner, to avoid hauling groceries across the whole unit; a bedroom must never be placed between the kitchen and the living room, since that forces a walk through half the apartment to get from one to the other.
+- **⚠️ Developer "free-plan" deception**: a marketed "свободная планировка" unit is never actually unrestricted — the wet-zone and kitchen-zone footprint is fixed by the building design and cannot be relocated without approval from the technical-inventory authority (БТИ); enlarging the bathroom toward the corridor is approvable only when there is no habitable room directly below. Separately, check column positions and ventilation/utility risers before assuming freedom at all — a column mid-room or a shaft will dictate where partitions can actually go, regardless of the marketing term.
+- **Worst-case layout pattern flagged twice**: a "train-car" layout with no real entrance hall at all (door opens straight into the bathroom, then the kitchen-living room, no wardrobe zone) leaves no room to arrange furniture flexibly; the same layout without a balcony at all is flagged as worse still, since a small unit's balcony/loggia is often the only place a resident can get privacy.
+
+[source: novikov-ideal-layout-principles case, `SZxL_SNqZ1o`]
+
 ## Scope
 
 General ergonomics/zoning principles for arranging furniture and activity zones within a room or across an open-plan area: traffic-flow planning, activity-zone separation (e.g. within a combined kitchen-living room), clearance/reach ergonomics not already tied to one specific room's own fixtures, and general "how much space does an activity actually need" rules of thumb.
@@ -461,3 +480,13 @@ This vault already has substantial room-specific clearance/zoning content that s
   door placement. Companion wet-zone/plumbing-coordination facts from the
   same source routed to `11_Budget_and_Planning`'s Durable Facts store
   and `12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing.md`.
+- 2026-08-28 — Added Maxim Novikov's whole-home zone-hierarchy and
+  room-level rules-of-thumb survey (`SZxL_SNqZ1o`), processed through the
+  layout-case/rules pipeline (`data/layout_cases/novikov-ideal-layout-principles.json`,
+  18 new rules in `data/layout_rules/rules.jsonl`) rather than the
+  budgeting-note pipeline, since its content is entirely spoken planning
+  rules with no floor plan shown (`dimension_policy: undimensioned`).
+  Entrance/bedroom area ranges, 3-wet-room default with a budget fallback,
+  corridor-avoidance stance (complements rather than conflicts with the
+  existing Zemskov corridor rules on this page), developer free-plan
+  deception, and two worst-case "train-car" layout patterns.

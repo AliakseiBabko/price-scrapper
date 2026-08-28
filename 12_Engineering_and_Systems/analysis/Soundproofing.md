@@ -449,6 +449,21 @@ practitioner's own workaround is propping the door slightly open, or
 relying on the room's AC/mechanical ventilation instead of passive
 under-door airflow. `single-account`, no named product. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_U95vMOOhKH8_timremont_39sqm_walkin_office_zoning|U95vMOOhKH8]]]
 
+## Noise Transmission Mechanics, Window Levers, and a Real Cost Case (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ / Vladimir Amelchenko, added 2026-08-28, Round 3)
+
+St. Petersburg (channel level 2), low promotional ratio, `c_mql2Uhl7k` (2025-08-08). Corroborates this page's existing airborne/impact/structural noise taxonomy directly; adds a transmission-path distinction and window-specific figures not previously recorded here.
+
+- **⚠️ Direct vs. indirect noise transmission**: direct transmission is felt by hand on a wall a neighbor is drilling into; indirect transmission is the same source's vibration reaching you through floors, ceilings, and even radiators from a different stairwell/section of the building entirely — soundproofing has to address more than just the shared wall.
+- **Gap-size caution, stated as direct proportionality**: any gap in an enclosing surface (e.g. under a door) degrades soundproofing in direct proportion to its size — every penetration/adjoining element (door gaps, pipe penetrations, vent shafts) is part of the system, not just the flat surfaces.
+- **⚠️ Four window-upgrade soundproofing levers, quantified**: thicker glass panes **+3.8 dB** (low/mid frequencies); more glass layers **+3-8 dB** (mid/high); wider air gap between sashes/frames **+5-10 dB** (all frequencies); interior blinds/shutters **+7-13 dB**. `single-account`, no cited methodology, but this store's first quantified window-soundproofing figures.
+- **⚠️ Diminishing-returns illustration for slab mass alone**: doubling a monolithic floor slab's thickness (20cm→40cm poured concrete) improves sound insulation by only ≈9 dB — a concrete illustration that raw mass is a comparatively weak lever versus an engineered multi-material system (reference scale given: ≈80dB≈a shout, ≈70dB≈a lecture-voice level).
+- **Reflect/absorb/disperse framework**: a soundproofing material must reflect, absorb, or disperse the sound wave (water-jet analogy: glass reflects, a coarse mesh passes nearly everything, a sponge partially absorbs) — material choice should follow calculation for the specific frequency/noise profile, not guesswork.
+- **Material taxonomy**: porous vs. non-porous (non-porous = simple monolithic construction); porous named list — pumice/kaolin-based boards, fiberglass boards, sandwich panels (smooth/perforated face + mineral-wool infill), sound-absorbing plasters, soundproofing mats, porous absorbers faced with metal/wood/plastic screens.
+- **⚠️ "No project, no soundproofing" rule**: soundproofing without an engineered project (brief intake → on-site measurement where needed → material selection matched to the specific noise-control goal and budget → installation) is "money thrown to the wind." A real 2-piano apartment case: partners designed a project for that specific goal; **total cost ≈2,000,000 RUB (≈$24,200)**, inclusive of materials, labor, and the screed demolition/prep it required (not a materials-only figure).
+- **⚠️ Install-quality-vs-material-cost warning**: even expensive materials installed unprofessionally (sloppy acoustic-sealant work at joints/penetrations named specifically) can void the whole system's effective performance — a client can lose the full material cost to poor installation technique regardless of material quality.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c_mql2Uhl7k_sbk_soundproofing_explainer|c_mql2Uhl7k]]]
+
 ## Panel Handling and Wall-Build QC
 
 - **Sound-insulating panel cut-edge taping rule**: any cut edge of a sand-filled sound-insulating panel must be taped immediately with paper tape — an untaped cut edge lets the sand filler spill out, degrading acoustic performance (in the practitioner's words, turning the panel into "a very expensive piece of cardboard"). [source: `yt_fnTjaXPEDDE`]

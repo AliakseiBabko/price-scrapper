@@ -1,0 +1,16 @@
+{
+  "channel": "@sbk.remont (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, Vladimir Amelchenko)",
+  "round": 5,
+  "created": "2026-08-28",
+  "videos": {
+    "wf3Eu3Yij68": "integrated",
+    "NYLmHWw9Exc": "integrated",
+    "f8lzn1KEIww": "integrated",
+    "gU9bFxV1rzo": "integrated",
+    "nma3zHRugsM": "integrated",
+    "47V9BqTYDcU": "integrated",
+    "FA7paWxy_JE": "integrated",
+    "_U-FV_62gjM": "integrated"
+  },
+  "round_yield": "8 videos processed, 55 new-or-corroborating facts (9+8+8+6+7+4+10+3), yield = 6.875 new facts/video. No rate-limit encountered; all 8 fetched serially with real spacing. Verdicts: 7 full, 1 partial (_U-FV_62gjM, heavy overlap with own Round 2 source). Old-fund apartment sub-topic crossed its 3+-source threshold this round (dedicated page created: 11_Budget_and_Planning/analysis/Old_Fund_Apartment_Renovation.md)."
+}

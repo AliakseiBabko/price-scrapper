@@ -15,6 +15,14 @@ A useful reference vocabulary: classic 20–60 cm; "narrow"/plank tile (short:lo
 
 RemProektMD/Andrei recommends **skipping decorative tile trim/border strips** ("фризы," "бордюры," typically run in a single or double row around the room perimeter) for budget bathroom work: unlike field tile (priced per m²), these are priced **per piece or per linear meter**, and their installation labor is also billed per linear meter/piece rather than folded into the general tiling rate — both add real, avoidable cost. Also notes a general stylistic trend away from border strips toward a solid-color, full-field tile look, though this specific observation is opinion, not a checkable fact.
 
+## Tile and Adhesive Buying Practice (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, Round 1, added 2026-08-28)
+
+> [!NOTE]
+> Vladimir Amelchenko, `Zd6yryCjyhM`. Low promotional ratio, `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Zd6yryCjyhM_sbk_10_bathroom_mistakes|YT_Zd6yryCjyhM]]]
+
+- **⚠️ Never buy clearance/close-out tile from limited remaining stock, and never buy the exact piece count a store's layout diagram shows**: tile develops internal stress during cutting, and a normal fraction cracks during installation regardless of installer skill — this is expected process loss, not a sign of poor workmanship, and it requires spare stock. Buying a discontinued or near-sold-out line at exactly the calculated quantity leaves no margin for this: matching replacement tile may be unobtainable at any price if the collection is truly gone, or may require expensive small-quantity shipping from another city's stock.
+- **⚠️ Select tile adhesive by its class letter/number code (S1/S2/C1/C2, etc.), not by price**: these codes denote formulations for different tile weights, formats, substrates, and room types. A materially cheaper bag carrying the same generic "tile adhesive" label can be a genuine substrate/tile mismatch, not just a lower-quality version of the same product.
+
 ## Why Tile Falls Off — Substrate, Adhesive, Joints, and Cure Timing (added 2026-08-24, Round 4)
 
 Konstantin Kruglov / Ontario, a dense, non-promotional "7 rules" technical video framed around why tile fails/detaches. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MOYwhSd8tv4_kruglov_tiling_rules|YT_MOYwhSd8tv4]]]
@@ -225,6 +233,8 @@ trip. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NjOkuRE
 
 **A premium, labor-intensive corner-rounding technique exists** — miter tiles at 45° as usual, then further grind/chamfer the joint and grout it with a specialized process to produce a smooth, fully rounded, injury-safe edge. Described as extremely slow, precision hand-work (compared to a manicure) — **real cost cited: ~120,000 RUB for this detail alone on one project.** A luxury-tier finishing option, not a default recommendation, but worth knowing as a real cost data point if injury-safe rounded corners are a priority. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Uhqtnv3lsuo_zemskov_premium_class_tips|zemskov_premium_class_tips]]]
 
+**⚠️ Real cracked-corner case, plus a genuinely new four-step remediation procedure (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 5)** — cement grout in a bathroom's internal tile corners cracked within two weeks of installation, independently corroborating the internal-corner-silicone rule above (cement grout at an internal corner will crack "no matter what an installer tells you"). **Retrofit repair sequence for an internal corner where cement grout has already cracked**: (1) remove the failed grout — mechanically with a plain utility knife on matte tile, or a specialized chemical grout remover on glossy tile (a knife risks scratching gloss); (2) degrease the cleared corner; (3) apply a sealant color-matched to the surrounding grout from the manufacturer's own catalog, via caulking gun; (4) wet the surface generously with soapy water before/while tooling the bead, then wipe away excess sealant — the soapy water keeps excess sealant from adhering where it isn't wanted, for a clean tooled line. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_47V9BqTYDcU_sbk_corner_grout_crack_fix|47V9BqTYDcU]]]
+
 ## Shower Podium / Curb / Valve Height
 
 - **Shower podium can sometimes be skipped entirely**: with a sufficiently thick screed (14 cm in one cited case), the drain/trap can be recessed without raising the floor at all — check site conditions before assuming a podium is required (see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the general slope-constraint reasoning this depends on). Where a podium/curb is still needed, keep it low (~5 cm) — tall enough to register visually and prevent stubbed toes, but a taller podium is a worse trip/injury risk. `single-account`. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
@@ -343,6 +353,8 @@ but with a few genuinely reusable buying/design heuristics:
   used for oversized drywall sheets.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P8GMYTARyNU_petrishin_tile_expo_tour|P8GMYTARyNU]]]
+
+**⚠️ Concrete per-unit cost for the elevator-access caution above (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 2, 2021 St. Petersburg prices)**: when a large-format slab (1.2×2.4m or 1.2×3m) doesn't fit the building's passenger elevator, specially trained movers must hand-carry it up the stairwell floor by floor — **≈10,000 RUB (≈$130) per slab, per floor**, the first concrete price recorded for a risk previously only flagged qualitatively. Real worked example: a standard bathroom (1.7×1.5m) + toilet (0.9×1.5m) needs 14 sheets — at 2021 St. Petersburg prices (tile from ≈30,000 RUB/sheet ≈$400, installation labor from ≈5,000 RUB/m² ≈$70/m²), the tile alone plus lift cost can consume most of a modest whole-apartment renovation budget, a real case the source cites of a 100 m² full-gut renovation quoted at ≈850,000 RUB (≈$11,300) total. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XuTH1e-Fc0_sbk_large_format_tile_real_cost|YT_-XuTH1e-Fc0]]]
 
 ## Don't Force Full Seam Continuity Across Floor/Wall/Apron Plane Changes (added 2026-08-20)
 
@@ -529,3 +541,12 @@ ratio. Genuinely new to this page — no existing grout-sealant content.
   downside. Tedious but effectively mold-proofs the joints and makes
   long-term cleaning much easier.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_szIzrJJMm4o_petrishin_tile_grout_protection|YT_szIzrJJMm4o]]]
+
+## Door-Opening Tile Crack-Avoidance and Hatch-Clearance Detail (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 4)
+
+Real in-progress 80m² project, St. Petersburg (level 1). Medium
+promotional ratio.
+
+- **⚠️ Named failure mode and fix — "pseudo-jamb" tiling around a door opening**: wrapping a single tile piece around a door reveal in an L- or U-shaped cut carries a real crack risk at the internal corner (a stress-concentration failure in a brittle cut piece). **Fix**: tile the jamb/reveal as its own separate piece, mitered at 45° where it meets the field tile, instead of one continuous L/U-shaped cut — eliminates the internal-corner stress riser entirely. Claimed (unverified, single-account) durability: 30-50 years without cracking.
+- **⚠️ Inward-opening decorative hatch clearance**: a large decorative access hatch/panel that swings inward into the rough opening needs that opening sized with extra clearance beyond the panel's face dimensions to accommodate the inward swing — independently corroborates this page's existing magnetically-mounted removable tile access panel fact as a second, distinct hatch approach at the same functional point (hidden plumbing access).
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_bl25vUPfI8o_sbk_expensive_reno_durability_solutions|YT_bl25vUPfI8o]]]

@@ -1,0 +1,1012 @@
+{
+  "playlist_url": "https://www.youtube.com/@sbk.remont/videos",
+  "generated_at": "2026-08-28T07:08:53.953874+00:00",
+  "counts": {
+    "duplicate": 1,
+    "private": 0,
+    "unavailable": 0,
+    "no_captions": 0,
+    "fresh": 93,
+    "rate_limited": 0
+  },
+  "csv_notes_mismatch": {
+    "in_index_no_note": [
+      "-k0oupEu3pM",
+      "-zgPfpGkwBw",
+      "1pLziv7Ri_k",
+      "2m1OOssKl-A",
+      "2mLS8dbqv04",
+      "41AEg9cCxO0",
+      "6lacLnqpJbM",
+      "74c0MGLFGT4",
+      "7Y4YsWPYg4s",
+      "7l0izpXaPx8",
+      "7qxFoOsLAe8",
+      "8MiJ6k5ujBU",
+      "8zm_5NjbGNA",
+      "9FSb8Kr55r0",
+      "ANYrUhhlKyw",
+      "ATRswtIp1OM",
+      "AaPvIn4s1SQ",
+      "B7BHeVD-smk",
+      "BPiw6b-Sm_c",
+      "CQM-pFRJBKY",
+      "CYllCjooMrE",
+      "DPnZjaSPACA",
+      "DsDbKEwR4pY",
+      "Dt8Ec_eTlXg",
+      "EbwgImqhnOQ",
+      "ElHcpT5WlUA",
+      "F6cBEeTw518",
+      "HE4u2vprC88",
+      "I0PUIxd9MQ8",
+      "IHmGfrQFc6Y",
+      "JHP3Fuf2KyA",
+      "Kj71Nk5CqLM",
+      "L_PWNMQC9iE",
+      "Ld-OWPUFlGE",
+      "MIA1tpRglGg",
+      "Nj0li7AdsvM",
+      "O6PNsmWaHYc",
+      "PRifljKyKfU",
+      "PaUWD6q_EAY",
+      "PbE1pgGCliY",
+      "QG3QNM9BESc",
+      "QbV-BBySZeU",
+      "R7Z_mJLwVpc",
+      "R_9_QLAsE-k",
+      "U6vunPg3OGw",
+      "XIDyyxjIwC8",
+      "XWmoyTQK1AQ",
+      "XahTpDGjf9w",
+      "XfEaoo82qnE",
+      "XhRHqDm2H2Y",
+      "XlvilzilV-c",
+      "Y3exSOS2Ob8",
+      "YLKN-UB4XG4",
+      "YQAm9PqK2ec",
+      "YaWcDOWHor4",
+      "Z4gS_W0sfaM",
+      "ZXpWoAcR08U",
+      "ZkdGHHPtfh0",
+      "a98BTmgIoik",
+      "b4ErDSHBY_4",
+      "bLG-v5bLHNs",
+      "c3qpHyJgBQ8",
+      "cqzGSjx7Gvg",
+      "fkt1LmF9D9M",
+      "frU2mqIMrPs",
+      "g3xI4531t_s",
+      "gD8KMGlS9ac",
+      "gbxv92vD36U",
+      "huvdLUEruBM",
+      "hxPXzLu0P3g",
+      "iHu5gijczA4",
+      "iRqMhrVT8pM",
+      "j-6A0DmjB_o",
+      "jObP8pTt7FY",
+      "jOvCg-d45w4",
+      "jhEqPMn3mBA",
+      "jseYAjJkab8",
+      "kBJZkSOp4-Q",
+      "mhE_5qlJ0KU",
+      "n-LzQXs3x9o",
+      "q4r7i8qccB4",
+      "qC5GNBHceJk",
+      "rGc_nGYY4mU",
+      "s1cWUR4l90w",
+      "to_ujRxQUbk",
+      "ty-t8aNelyY",
+      "v8GexdJC8ys",
+      "vCwxplOGtfY",
+      "wUXlaDnHiQw",
+      "wxkTw0YdxdU",
+      "xbq9Jl_yrsU",
+      "ym_Jd2mEL18",
+      "z1G8qqAUQnY",
+      "zAXDi2PvWz4",
+      "zOpmb-CmQI8",
+      "zjO0LugKt8Y"
+    ],
+    "in_notes_no_index": [
+      "-JlpzE6aHiU",
+      "-MJE43WkLP4",
+      "-ROgAlWhXlc",
+      "0783KWcK4Co",
+      "09G3Q-LuD_s",
+      "0Nnv6VedbVo",
+      "0hjkfIfzkUw",
+      "0sJPlpi8I2U",
+      "16k0TS363rM",
+      "1NqrFHrIC3k",
+      "1_nKzwNZD6w",
+      "1amhehTMxcg",
+      "1dp7alivsLQ",
+      "1gXYL99mfY4",
+      "1x7srLdq12I",
+      "2BHSu-rE4oU",
+      "2ZNSYED46LQ",
+      "2cHetaq1bt0",
+      "2fLCiWU6U-I",
+      "2rOr5Lwt7kA",
+      "2weWrKT42aY",
+      "3rbIBKfZDBY",
+      "3sRfRiQ8XfE",
+      "3vIpdUvgWW0",
+      "4O1UqRqpApw",
+      "4bv7Aa6YLCo",
+      "4jAQ526Zy2w",
+      "4xZ-9vlXV7Y",
+      "55zALDsXP2E",
+      "66pn-nIOJkg",
+      "6VSQtiwkdcI",
+      "6jC0aA1ZqWs",
+      "6p5VLqlERyw",
+      "7FbmDb6U2Ac",
+      "7LAB25SCQ1Q",
+      "7QuzCGvDG_w",
+      "7vjW6SzHeWM",
+      "8B2xnSNEqqs",
+      "8HnZ2m8vkZQ",
+      "8IW762yALfc",
+      "8PjHJZtblZw",
+      "8QBqwydVND8",
+      "8dyPTnmOHKs",
+      "8oZexrWcMUY",
+      "8wo1qImfpDU",
+      "9-NjgDLleOw",
+      "92hhojQNQTw",
+      "96mlkQoczI4",
+      "9jDv0Iibbfw",
+      "9yi3HTL_Rwc",
+      "9ykrlQ5tpBs",
+      "A4OmiqS6kYo",
+      "AB76kZYvoaI",
+      "AI6gdNR_LiE",
+      "AcNu6CHE7Y4",
+      "AcibYG4jtbs",
+      "AofVi5k45ps",
+      "BFbNL-DjDh4",
+      "BLzLOUxdk3Q",
+      "Bb4Hh-GDRdA",
+      "BdztT9OUWVY",
+      "BpqCE2DeN9E",
+      "C-3BcpXDRnk",
+      "C-db6yom-IM",
+      "C0FOWRxqWX4",
+      "CVTf-a4XIEI",
+      "CVqedVQlZZU",
+      "Cj2U_wVlG-I",
+      "Cr1vew4sA9g",
+      "D-DFsBMjlxQ",
+      "D1REgSDwILU",
+      "DO67YHV5uAU",
+      "DcWsQMiMcak",
+      "DvQTBiItLpY",
+      "E7M-bWWSmfw",
+      "EQW9y4bNea0",
+      "EUM7kv77VVY",
+      "EWNki2-ZFzQ",
+      "F0ZHsu4k6JY",
+      "FRRT0ZrhjaI",
+      "Fu-GMSDLg_8",
+      "G03YKmotYP4",
+      "G0vtTswg5Ck",
+      "GC2vize3KQ0",
+      "GLU9nJYrtbQ",
+      "GM_m1IJk7Hk",
+      "GfixqWjsD58",
+      "Gy68fsIdDLY",
+      "H6atjh_g1jQ",
+      "HGN_3WeL0Jk",
+      "HpCg-xIrOlg",
+      "HqmQaZ1y1UM",
+      "I-iSW-9NHAs",
+      "I8js5-kLrYI",
+      "IFnZxitFeNk",
+      "IWVPepWlzSs",
+      "IcTP1tPP7Bk",
+      "IoQaozB-DYA",
+      "IoQiGtso9Vk",
+      "Is76QlotVFE",
+      "JLjCveR-ft0",
+      "JTFhwaKEQAY",
+      "JsRvUMfIPwc",
+      "K-OopxgJ8wY",
+      "KXszjTBmfpQ",
+      "Kg9ee0cotfM",
+      "KlIQxR3vWU8",
+      "L0kI_PZKvmQ",
+      "LB2oYxyYL3c",
+      "LEsmpI8bWCY",
+      "LOw05Uk3rUk",
+      "LPcgC50HCMY",
+      "LRtedmEn8mQ",
+      "LvppSP_QUrg",
+      "M3HFaYaRC6M",
+      "MOYwhSd8tv4",
+      "Mf2A7cbTq3s",
+      "N36scNqRwII",
+      "NWLckaXH1_U",
+      "NjOkuREH8lI",
+      "NvnA3PI0R7g",
+      "NyIj6h8hZHw",
+      "O4pGx8ESHDU",
+      "OP8ALhLynHE",
+      "O_2Jji7NAHQ",
+      "OcqynathaX8",
+      "OfqkRAZUfe0",
+      "OgIZhrxD4v4",
+      "Oh4hGMZ90mw",
+      "OpTLkQCSZHs",
+      "OperMXnGmXE",
+      "Oxv_w9zejsA",
+      "P8GMYTARyNU",
+      "P8t_d7J9fm4",
+      "PBkZQHkjciE",
+      "PJKk1BwtgVY",
+      "PmxmmzyUZjg",
+      "Q0sVq_1SIQM",
+      "Q1KSHFhLzJo",
+      "Q6GKMOJuaPc",
+      "Q70kwfR0LGs",
+      "Q7A1e_V0s3c",
+      "QcYJwQgu67g",
+      "QfTqabNW1Lc",
+      "QginFVl00Hw",
+      "QnSnO8bVeNs",
+      "Qt4uGvGRYT0",
+      "QtQBGLzS698",
+      "Qymq81j2wJ0",
+      "RNiSYvLX6Vc",
+      "RfcoPP3dvcQ",
+      "Rm0aHk4flxc",
+      "RwyPR2RFZYM",
+      "S23VRWxzz08",
+      "S3Mn1FvQhKI",
+      "S4fOYedAruE",
+      "SERg4hiCWdE",
+      "SG0nbNRdl4c",
+      "SUN8UiXAjf0",
+      "T-W5qFAVG9o",
+      "TF0XTvwWyYg",
+      "TFu0lu-_rzQ",
+      "TJBcEpXymYk",
+      "TKTKBmTkebg",
+      "TnYExlfWw9c",
+      "Tq2IELynaGs",
+      "Tyl0yPQkO5g",
+      "U95vMOOhKH8",
+      "Ubl--73gmTs",
+      "UhE9cOJ35FY",
+      "UnzHKHcizto",
+      "UzVTR2DdYzg",
+      "VZk4615VM6I",
+      "VcrYHkDgb0o",
+      "VqrXg-tDRO8",
+      "WK-KLd2ssYY",
+      "Wj_i-4GhOQk",
+      "XziSlSDeKM0",
+      "Y08zvnbxdM0",
+      "Y9PGtPmcMms",
+      "YarbTzTfq6I",
+      "YxXfsKoyx6M",
+      "Z1IuJFudcPY",
+      "Z5D8YuuF7uw",
+      "ZW-dNzbCREI",
+      "Z_NUmsCIwWA",
+      "ZlkBfwlhYFU",
+      "ZlvJE-ncrK8",
+      "_6E5wt-PfqQ",
+      "_F7HqN0-HyQ",
+      "_GL2t3cdSi8",
+      "_IpgWsKodXg",
+      "_TGU8C0u010",
+      "aD0piOY523I",
+      "aO4n2PJPeHk",
+      "aU37rUbfEoc",
+      "aUi7URsuQwU",
+      "aW2j9_5bywE",
+      "a_i8pGVa7-w",
+      "a_vchjD7CHQ",
+      "ah3StuP2TZE",
+      "ar4HNfWjzh4",
+      "b0FeObtj2bo",
+      "bF1I2olZSc0",
+      "bJJSH84q5fE",
+      "bZTJv6aZevw",
+      "bjfqQUgsyNs",
+      "c2ifRGBo-q4",
+      "c3gqyNTvFTc",
+      "c4mmaLAsDw4",
+      "cCDk-1hthR4",
+      "cM0AndkKdVk",
+      "caDB-roRasI",
+      "ctPLFrzuIqg",
+      "d5a3hti_P8g",
+      "d8WzpxSSX8k",
+      "dsBkqzhX08I",
+      "dvlxMc4X9_0",
+      "eInWxbd_UiA",
+      "exm_kOfNtXk",
+      "fIicREPruVs",
+      "faCzY5kVkss",
+      "fkoUNvB9LV8",
+      "frt8tQOrjiM",
+      "g1b6Hxx-HUk",
+      "gCI2qF34Dss",
+      "gEykawbVyYQ",
+      "gKBzDEllg4M",
+      "gNN7G7vNyqY",
+      "gREGOOA2OHo",
+      "gUY1BE4b_eA",
+      "gWAOrislxFY",
+      "gnUErjmtHcY",
+      "hCN5Cl7T2Qc",
+      "hHbKJuQth_w",
+      "hN7szX2re2c",
+      "hW1hlDoqDR0",
+      "h_o3RrQ9z40",
+      "hpU_xEXmdvE",
+      "hrhJ6Y8hhPU",
+      "iu-GGC7hEKA",
+      "izhaUHRKViw",
+      "jNGss4BSnLQ",
+      "jxx99px88HA",
+      "k9CrEU5RuIE",
+      "kXGYTsBTKj8",
+      "kZ4cZs-2Xhc",
+      "kkQbz_lXTjU",
+      "l4bXbwfOlrU",
+      "lA7RJiDJLkQ",
+      "lNh8L6NMhnI",
+      "lTeNBUR1u8g",
+      "lYVb5LwixM0",
+      "lbaZ__wbLWo",
+      "ldTVukHRIR0",
+      "lvixGbwo0Ug",
+      "mMr8Xnt95rE",
+      "mONJ1htVKrE",
+      "mRD3GbTOtK8",
+      "mb-2ll0UtTo",
+      "mrnTQL0eyBc",
+      "mvc_zbjfBWQ",
+      "nT0qOcN_nEQ",
+      "ncOI16-meB4",
+      "nhJI_yGjfRU",
+      "oA6gABulhJk",
+      "oF62qDhYkuw",
+      "oFGkW7wZsLo",
+      "ohOpaJczckE",
+      "olu1XyJ7q_w",
+      "om5BbhJDaOo",
+      "ot7qPVf7XVU",
+      "pEZhsdhu6xw",
+      "pd_HXj0jT9g",
+      "pxVSMo5e7yc",
+      "q4SSpq9jc3g",
+      "qFM8NIDIRro",
+      "qHuFie5U65g",
+      "qcIz2--60Ts",
+      "qnmVK1R3X0k",
+      "qzi1LqwsP5k",
+      "r1eyXzXNdI0",
+      "rEe5LHWj4fI",
+      "rh6Cj0CW4Bo",
+      "rmYOxoub5y0",
+      "rmfwTnA2tCA",
+      "rsTdXaLenEw",
+      "rt9R26k6dEM",
+      "rxk1uXjnKJo",
+      "s27qG_Eg3SY",
+      "sAXC1hn8u9A",
+      "sFE1EyKRHvE",
+      "sd2XYBZY-K8",
+      "shYCuunkPEY",
+      "sqk0Nl8AVYI",
+      "szIzrJJMm4o",
+      "t8k09YlBbtc",
+      "t9XmjCGO1Tw",
+      "tYcH95rlgNw",
+      "tenAKLEOso4",
+      "tviOSTliefY",
+      "txBBcq-D5mI",
+      "uG1p1j9iAZ4",
+      "uJ6l8t5TpwY",
+      "uiiggEC7c9M",
+      "uvUmZuXgLtU",
+      "uwGxjv9O1kk",
+      "uzUqoUG0-Xs",
+      "vFd4E6F6Z3Q",
+      "vKMHNYQYWAI",
+      "viWTUee1PUY",
+      "w6_e7nySEXI",
+      "wfmIOYsE2Hs",
+      "wowlXrlGrEc",
+      "wsomY_6BRqA",
+      "xHOOBcDcJZU",
+      "xPxusEh-gow",
+      "xd1xP2FuN40",
+      "xikuzV80GP4",
+      "xnLiADJF5lw",
+      "xoLGoOIRMlc",
+      "xt_q5SkINT8",
+      "yyW9WaW3Pls",
+      "yz2cBaVX66A",
+      "zBF3iPJfbaw",
+      "zZ_1iOXL_wA",
+      "zaW8XagX72U",
+      "ze87vOi2qrQ",
+      "zkM_gea0XVE",
+      "zuh3k15-STo",
+      "zxTbtAbuXFs"
+    ]
+  },
+  "entries": [
+    {
+      "video_id": "zKaWdi86hHA",
+      "title": "Why Businesses Lose Clients Without a Producer. Irina Radchenko.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uqv1-7DCKYI",
+      "title": "ОСТОРОЖНО: непрофессиональный ДИЗАЙН уничтожает ликвидность вашей квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AosCvLCh6WA",
+      "title": "ДЕШЕВЛЕ не значит ВЫГОДНЕЕ в ремонте квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "B1tyuT17vrU",
+      "title": "The Apartment Is Bought But No Longer Yours | A Legal Trap No One Sees",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vW9TWijhwfA",
+      "title": "10 Things Designers AVOID in Their Interiors (And Why)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "R4k5eRAjHjY",
+      "title": "This Will Help You Sell Any Property Very Quickly | An Interview With a Designer",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9z9uBKQkPb8",
+      "title": "WHAT WILL HAPPEN TO THE FOUNDATION OF A HOUSE IF CONCRETE IS POURED IN FREEZING FROST?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "33b61qeO_XY",
+      "title": "Почему РЕМОНТ КВАРТИРЫ всегда дороже? 11 скрытых проблем",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4NIZPYA8aB4",
+      "title": "Why You'll Lose Money on Country Real Estate",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VZUS0kmh7YM",
+      "title": "The Truth About Chinese Furniture: What’s Worth Buying and What Isn’t?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "80EFPGABZms",
+      "title": "Из авиации в художники в 50 лет. Как построить новую профессию с нуля?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yN9fP8l0pso",
+      "title": "7 вещей в квартире, которые ВСЕГДА делают БЕДНЫЕ и НИКОГДА не делают БОГАТЫЕ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-CfuyXXYNH0",
+      "title": "Почему дизайнеры интерьера выгорают? Правда, о которой молчат Екатерина Островская",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KX9CP6FbaIM",
+      "title": "ДИЗАЙНЕР ИНТЕРЬЕРА в 2026 году, ПОЧЕМУ все так ТЯЖЕЛО?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IXZItGe0K9M",
+      "title": "How an INTERIOR DESIGNER works and why there are so many mistakes in design projects",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5d9xxfDi7xs",
+      "title": "Современный ремонт квартиры в ЖК Нобелиус",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "c_mql2Uhl7k",
+      "title": "Что сделать в квартире, чтобы не было слышно соседей?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KXmidtaUNxI",
+      "title": "ИДЕАЛЬНЫЙ КВАРЦВИНИЛ! / Какой лучше уложить в квартире?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vg2AmdiakqM",
+      "title": "How to get rid of neighbors' noise in your apartment",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "u3Tn6Z3OH-0",
+      "title": "🔥Выжали максимум из 64 м²! САМЫЙ УЮТНЫЙ САНУЗЕЛ.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bl25vUPfI8o",
+      "title": "Дорогой РЕМОНТ БЕЗ ОШИБОК: решения, которые ПРОДЛЕВАЮТ СРОК службы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Yy7wLFrP6mo",
+      "title": "You'll pay 3 times more for a FLAT-ROOF HOUSE if you DON'T know THIS before building",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pwI058vcXP8",
+      "title": "Неубиваемый пол во ВСЕЙ КВАРТИРЕ без стыков и порогов!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "l0aR7nQGh4M",
+      "title": "ПРОВЕРКА стяжки в НОВОСТРОЙКЕ нашей подписчицы. О паркете можно забыть",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8-GD_CEX0Bg",
+      "title": "Основы надежной электрики в квартире. Как делать черновой монтаж?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0CoDufobsEY",
+      "title": "ОЧЕНЬ ЧАСТАЯ ОШИБКА при ремонте САНУЗЛА",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UmGYpAVM-m4",
+      "title": "ПОЧЕМУ всегда РЕМОНТ ДОРОЖЕ сметы  — 6 причин, о которых молчат.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vFmG2Me8P-o",
+      "title": "Чем ПРЕМИАЛЬНЫЙ РЕМОНТ отличается от дорогой имитации?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DE-4uFYXJQ4",
+      "title": "ИДЕАЛЬНОЕ И ХУДШЕЕ НАПОЛЬНОЕ ПОКРЫТИЕ! / Какой пол лучше сделать в квартире?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "13JpO2bBsqk",
+      "title": "ПОЧЕМУ КВАРТИРЫ в НОВОСТРОЙКАХ НИЗКОГО КАЧЕСТВА. Я раскрыл секреты строительства!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AGqrxEtyrdI",
+      "title": "Идеальная переделка старой квартиры в центре Санкт-Петербурга.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KmfwnHCd8Fk",
+      "title": "Хотите идеальные стены в 2025 году? ПРЕКРАТИТЕ делать эти ошибки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4gKFfJrbQjk",
+      "title": "Ошибки при выборе инсталляции. После них ремонт переделывают",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dSZpq5Z9CEk",
+      "title": "APARTMENT renovation from A to Z: A step-by-step plan without mistakes and alterations!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "m9AyomKoYho",
+      "title": "Электрика без риска: все Секреты электропроводки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9ndMjQLTF9E",
+      "title": "Главные минусы, о которых молчат | Стоит ли делать теплый пол?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XxPs6VSE9ic",
+      "title": "НЕ ДЕЛАЙ ШУМОИЗОЛЯЦИЮ ПОКА НЕ ПОСМОТРИШЬ ЭТО ВИДЕО!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Zd6yryCjyhM",
+      "title": "10 BATHROOM MISTAKES You Discover TOO LATE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XkQdhTf71ao",
+      "title": "8 Out of 10 People Seal Their Bathtub to the Wall Incorrectly",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2Yt--x7AR-Q",
+      "title": "ЛУЧШИЙ способ создания прочного пола в квартире.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-rxNyON1Zsk",
+      "title": "Современная квартира с КАМИНОМ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jfjW3Jf4hEM",
+      "title": "Флиппинг. Выгодно ли покупать такие квартиры, или нет?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AnBRspXdtZc",
+      "title": "Штукатурка как яичко, или что мы увидим под лампой Лосева? / Технадзор для подписчицы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dfXZ66EcGQQ",
+      "title": "Почему ремонт квартиры со скидкой — всегда плохая идея",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pUYzQl8F1Ts",
+      "title": "Умный дом в жк ЦДС Черная Речка.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WIY9KTZpbr8",
+      "title": "Ремонт квартиры с большой скидкой, это хорошо, или плохо?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NYLmHWw9Exc",
+      "title": "Как правильно выбрать электрика",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "X3YHN5LqQdA",
+      "title": "КАК ПОТЕРЯТЬ все ДЕНЬГИ на РЕМОНТЕ КВАРТИРЫ и сесть в ТЮРЬМУ!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pEZhsdhu6xw",
+      "title": "Реальные СРОКИ ХОРОШЕГО РЕМОНТА квартиры.",
+      "status": "duplicate",
+      "reason": "already has a source note: YT_pEZhsdhu6xw_delatnepередelat_real_timeframes.md",
+      "existing_run_id": null
+    },
+    {
+      "video_id": "kDtK1rSAmvg",
+      "title": "С этого начинается дорогой ремонт. Иначе — проблемы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Zl_fegEg7yY",
+      "title": "Как правильно смонтировать систему водоснабжения в квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "f8lzn1KEIww",
+      "title": "Стоит ли  покупать квартиры в старом фонде.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_U-FV_62gjM",
+      "title": "Коллекторный узел водоснабжения. Зачем в квартире такая сантехника?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "adjeU4n4EO0",
+      "title": "Современный одноэтажный дом с плоской крышей",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T4mNQQJk30w",
+      "title": "A modern renovation of a one-room apartment that won't get boring even after a couple of years",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uQJlesqDFf4",
+      "title": "Предчистовая отделка квартиры white box.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "N1P1xqcagys",
+      "title": "Обзор выставки МОСБИЛД MOSBUILD",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qwuInVACHyo",
+      "title": "Интервью на радио шансон.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LvPQ9F_OtCI",
+      "title": "How to Accept Electrical Work in an Apartment Remotely and Without Surprises?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wf3Eu3Yij68",
+      "title": "Как выбрать обои и не пожалеть? 7 ошибок, которые делают 90% людей",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ukZBqIlz8e0",
+      "title": "Почему ДВЕРЬ СКРЫТОГО МОНТАЖА - плохое решение?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6Jq9SvG8KlQ",
+      "title": "Коллекторный узел водоснабжения в современном ремонте квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "e0GCrgdxjms",
+      "title": "Коллекторный узел водоснабжения. Зачем в квартире такая сантехника?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AUBfwjy_Vh4",
+      "title": "Ремонт квартиры в ЖК «Цивилизация» м. Дыбенко",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "47V9BqTYDcU",
+      "title": "Треснула затирка в углах между плиток, как бороться?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "z45jhe0T91k",
+      "title": "Дизайнерский ремонт квартиры на расстоянии",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FA7paWxy_JE",
+      "title": "Для чего нужен дизайн-проект квартиры?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2m1aVlTj4ZU",
+      "title": "Заедает замок входной двери",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3GvLuU2x7wU",
+      "title": "Мастер выключатель. Выключение всего освещения в квартире из одного места",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gU9bFxV1rzo",
+      "title": "Сколько стоит ремонт квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nma3zHRugsM",
+      "title": "Когда в квартире нет ванны. Перепланировка в старом фонде.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "G2mmJo-CttA",
+      "title": "Терморегуляторы, теплые полы и очень важная ошибка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pyew_HmvSOE",
+      "title": "Почему растут цены на ремонт квартир?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Wbj_6CEgcGU",
+      "title": "Натяжные потолки. Как принять работу без последствий.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ypYsdp4thGc",
+      "title": "Ремонт квартиры, как принять работу мастера. Штукатурка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_lWp9b4K6uY",
+      "title": "Машинная или ручная штукатурка стен в ремонте?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "J864eOze5kU",
+      "title": "Спасаем ремонт квартиры в Спб после рукожопа.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-XuTH1e-Fc0",
+      "title": "Крупноформатный керамогранит: во что обойдется ремонт?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VdZf7w3Ldus",
+      "title": "Ремонт двухкомнатной квартиры под ключ в спб",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s8mhVMgIpBw",
+      "title": "Ремонт квартиры, когда клиент находится в другом городе.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xz3iuFR7RkI",
+      "title": "Ремонт квартиры, как принять работу мастера электрика",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7g73oy1tKTI",
+      "title": "Наливной пол в квартире, защити себя от дорогой ошибки!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D8K4CSVL1U4",
+      "title": "Некачественный ремонт квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ziOsy7OGQ2Q",
+      "title": "Как найти бригаду для ремонта квартиры.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WwKrmuDjVkc",
+      "title": "Установка вентиляционной решетки в натяжной потолок",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Du8rlKZ0U9k",
+      "title": "Правильный стык между ванной и плиткой",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "v-SdLOVwRS4",
+      "title": "Горячая вода в бачке унитаза",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qJWJvHP4uaw",
+      "title": "Пластиковый плинтус, полезные советы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JeRGrHsv07U",
+      "title": "Электрика до штукатурки или после?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MtfvzM9qu9M",
+      "title": "Правильный стык плитки и ламината",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mLyxUEp1a68",
+      "title": "Как закрыть, скрыть или убрать трубы в санузле",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z-jk95jveGg",
+      "title": "Вентилятор для санузла, туалета, или ванной комнаты, какой лучше выбрать?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pFrQLRQ37pY",
+      "title": "Цена ремонта квартиры в старом фонде.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8hsydA8idVE",
+      "title": "Отзыв клиента о ремонте квартиры",
+      "status": "fresh",
+      "reason": null
+    }
+  ]
+}

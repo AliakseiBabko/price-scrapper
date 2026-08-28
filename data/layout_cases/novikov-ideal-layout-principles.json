@@ -1,0 +1,133 @@
+{
+  "schema_version": "0.2.0",
+  "case_id": "novikov-ideal-layout-principles",
+  "case_kind": "survey",
+  "epistemic_status": "practitioner_opinion",
+  "provenance": {
+    "source_type": "youtube",
+    "url": "https://www.youtube.com/watch?v=SZxL_SNqZ1o",
+    "video_id": "SZxL_SNqZ1o",
+    "upload_date": "2020-11-26",
+    "author": "Maxim Novikov (Максим Новиков, Глазами Архитектора)",
+    "author_channel": "https://www.instagram.com/the_maks_novikov",
+    "language": "ru",
+    "region": "russia_unspecified_city",
+    "frames_dir": "_Inbox/frames/20260828_SZxL_SNqZ1o",
+    "dimension_policy": "undimensioned",
+    "caveats": [
+      "Talking-head format - no floor plan or drawing is ever shown on screen; every figure below is a spoken rule of thumb, not read off a plan.",
+      "No specific apartment, project, or city is named anywhere in the video - region is the channel's general Russian-market framing ('у нас в России'), not a level-1 named location.",
+      "Ends with a soft self-promotional call to action (free consultation via the author's Instagram) - noted per this project's advertising filter, does not affect the technical content above it."
+    ]
+  },
+  "household": {
+    "stated": false,
+    "needs": []
+  },
+  "problems": [
+    {
+      "id": "p1-old-panel-flaws",
+      "category": "geometry",
+      "statement": "Старые панельные/типовые дома (сталинки, брежневки, панельки) объединяет однотипная неудобная планировка: маленькие комнаты, тесная прихожая (вся семья не может войти одновременно, у подъезда образуется очередь), туалет вмещает только унитаз (раковину поставить некуда), ванная - только ванна и раковина, кухня настолько мала, что не всегда влезает стол.",
+      "evidence": {
+        "t_start": 0,
+        "t_end": 119,
+        "frame": "frames/01_000033.jpg",
+        "quote": "маленькое абсолютно все маленькое не удобная прихожая куда вы просто всей семьей не можете войти образуется очередь из подъезда в дом маленькие не удобные туалеты куда раковину просто невозможно поставить"
+      }
+    },
+    {
+      "id": "p2-corridor-wastes-area",
+      "category": "circulation",
+      "statement": "Коридор - бесполезное пространство; количество квадратных метров, которые проектировщик тратит на коридор, свидетельствует о его компетенции (чем больше - тем хуже).",
+      "evidence": {
+        "t_start": 394,
+        "t_end": 420,
+        "frame": "frames/05_000801.jpg",
+        "quote": "я вообще считаю что количество квадратных метров которые проектировщик тратит на коридор свидетельствует о его компетенции коридор это бесполезное пространство"
+      }
+    },
+    {
+      "id": "p3-developer-free-plan-is-not-free",
+      "category": "legal",
+      "statement": "Застройщики продают квартиры со свободной планировкой, но фактически там уже есть выделенные зоны (санузел, кухня) фиксированного размера, и переносить их без согласования с БТИ нельзя.",
+      "evidence": {
+        "t_start": 553,
+        "t_end": 590,
+        "frame": "frames/07_001009.jpg",
+        "quote": "большинство застройщиков обманывают своих покупателей следующим образом они продают квартиры свободной планировки но на самом деле ... у нас всегда там есть выделенные зоны ограниченный размер в ванной туалета или зона кухни и переносить без согласования с БТИ нельзя"
+      }
+    },
+    {
+      "id": "p4-free-plan-columns-and-shafts",
+      "category": "geometry",
+      "statement": "При покупке квартиры свободной планировки нужно проверять расположение колонн и вентиляционных шахт/коммуникаций - если колонна стоит посреди комнаты, она будет диктовать расположение стен, и вся 'свобода' планировки оказывается условной.",
+      "evidence": {
+        "t_start": 590,
+        "t_end": 615,
+        "frame": "frames/09_001210.jpg",
+        "quote": "важно обращать внимание на следующие моменты то есть у нас там располагается колонны если они стоят у нас посередине комнаты они будут диктовать условия расположения стен то же самое с вент-шахтами и коммуникациями"
+      }
+    }
+  ],
+  "moves": [],
+  "sub_cases": [
+    {
+      "id": "sc01-worst-layout-train-car-no-hall",
+      "brief": "Самый неудачный, по мнению автора, вариант планировки: квартира-'вагончик' примерно 30 м2 (с учётом балкона, ванной и кухни-гостиной) - от входа нет прихожей как таковой, сразу ванная, затем без гардеробной кухня-гостиная, затем балкон.",
+      "outcome_note": "Нет простора для расстановки мебели; тесно и некомфортно для жизни при такой площади - типичное следствие текущего тренда застройщиков на экономию площади квартир.",
+      "ops": [],
+      "evidence": {
+        "t_start": 607,
+        "t_end": 652,
+        "frame": "frames/08_001050.jpg",
+        "quote": "самый неудачный вариант планировки это когда она в виде такого вагона когда мы просто заходим у нас нет как таковой прихожей с одной стороны у нас ванная комната далее без всяких гардеробных комнат у нас идет уже кухня-гостиная и потом еще балкончик"
+      }
+    },
+    {
+      "id": "sc02-worst-layout-no-balcony",
+      "brief": "Ещё худший вариант той же 'вагонной' планировки - та же теснота, но вовсе без балкона.",
+      "outcome_note": "Балкон в маленькой квартире - единственное место, где человек может уединиться; без него совсем нет такой возможности. В этой же планировке кухня получается тесной.",
+      "ops": [],
+      "evidence": {
+        "t_start": 650,
+        "t_end": 675,
+        "frame": "frames/09_001210.jpg",
+        "quote": "из самых худший вариант даже ещё хуже чем предыдущий это такая маленькая квартира и без балкона потому что балкон в маленькой квартире это единственное место где человек может уединиться иначе куда он пойдет во двор"
+      }
+    }
+  ],
+  "outcome": {
+    "claims": [
+      "Идеальная планировка последовательно ведёт от приёмной зоны (прихожая/холл) к гостевой зоне (кухня-гостиная) и только затем к приватным помещениям (спальни).",
+      "Хранение должно быть спроектировано заранее по зонам (прихожая, кухня, отдельная кладовая), а не решаться постфактум.",
+      "Универсальной 'идеальной' планировки не существует - она подбирается под конкретную семью: число жильцов, животные, хобби (спортсмен, музыкант) требуют своих зон."
+    ],
+    "evidence": {
+      "t_start": 279,
+      "t_end": 300,
+      "frame": "frames/04_000635.jpg",
+      "quote": "планировка квартиры должна быть такой чтобы когда человек попадает в квартиру он сначала оказывался в приемной зоне то есть это коридор или холл затем мы попадаем в кухню гостиную и только потом идут жилые комнаты"
+    }
+  },
+  "rules_derived": [
+    "entrance.area_range_4_10_m2",
+    "entrance.adjacent_walkin_and_guest_wc",
+    "bedroom.area_range_15_18_m2",
+    "bedroom.placement_far_corner_courtyard_facing",
+    "kids.quietest_brightest_room",
+    "corridor.avoid_prefer_hall_shape",
+    "room.prefer_square_or_rectangular",
+    "ceiling.min_height_2800mm",
+    "ceiling.mezzanine_above_5m",
+    "wc.bathroom_count_minimum_3",
+    "wc.budget_fallback_2_wet_rooms",
+    "storage.plan_dedicated_rooms_per_zone",
+    "balcony.functional_use_beyond_storage",
+    "kitchenliving.proximity_to_entrance",
+    "avoid.bedroom_between_kitchen_and_living",
+    "freeplan.fixed_zones_need_approval",
+    "freeplan.columns_and_risers_dictate_walls",
+    "layout.worst_case_no_entrance_hall"
+  ]
+}

@@ -12,6 +12,29 @@ Covers code-level waterproofing requirements, the gypsum-vs-cement plaster trade
 - **Always wrap the sewage stack in sound-insulating material during any bathroom renovation in a multi-unit building** — corroborated by two sources; one gives concrete product/cost detail (a bitumen-adhesive wrap kit, ~3,000–5,000 RUB, a few hours of DIY-feasible installation). Without it, plastic-stack drain noise from an upstairs flush is described as sounding like "a waterfall behind the wall" — a comfort issue, not a structural one, but a low-cost fix worth including as standard scope. [source: [[_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt|20260804_never_take_this]]]
 - Zemstandart/Alexey Zemskov recommends: **Brush-on/paint-applied waterproofing should always be bright blue, never gray** — gray waterproofing is visually indistinguishable from the surrounding gray plaster, making coverage gaps invisible to a non-expert inspecting the work. Bright blue makes any missed patch obvious even without training. [source: `_Archive/processed_sources/20260804_split_rough_finish_contracting_and_rough_stage_checklist_9a4efa5e.txt`]
 
+> [!NOTE]
+> **Independent corroboration, with an added coat-count (Round 1, ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)**: Vladimir Amelchenko independently corroborates the gypsum-plaster-needs-waterproofing rule above, and adds a specific number: **two coats of acrylic waterproofing** over gypsum plaster before tiling. Skipping it lets the tile adhesive react directly with the gypsum plaster, degrading the bond ("turns to mush") until the tile eventually detaches — the mechanism behind the requirement, not just the rule itself. He recommends applying it over cement plaster too as a low-cost extra safeguard even though not strictly required there. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Zd6yryCjyhM_sbk_10_bathroom_mistakes|YT_Zd6yryCjyhM]]]
+
+## Plaster Acceptance Technique — Raking-Light Inspection, Real Case (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)
+
+Vladimir Amelchenko's real, on-camera technical-supervision visit to a subscriber's apartment whose own self-acceptance had skipped these checks — all failed once actually tested. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AnBRspXdtZc_sbk_loseva_lamp_plaster_inspection|YT_AnBRspXdtZc]]]
+
+- **2-meter straightedge, 2mm gap tolerance**: the actual code-referenced test — any gap over 2mm along a 2m straightedge is out of tolerance. Apply horizontal/vertical/diagonal roughly every meter (beacon spacing), *plus* a dedicated pass along baseboard zones and door/window opening returns, where sag/bow concentrates and is most visible once trim goes in.
+- **90° corner check with a right-angle tool, multiple points per corner** — a separate test from flatness, required wherever built-in furniture or fixtures will land (wardrobe corners, cabinet returns, bathtub/washing-machine corners). A factory-square unit pressed into an out-of-square corner leaves a visible gap or simply won't fit a non-custom item.
+- **Raking/grazing-light lamp ("лампа Лосева") inspection**: placed at a shallow angle against the wall, it throws long shadows across small bumps/dips invisible in normal light — used to verify a "smooth as an eggshell" finish before high-quality paint (texture flaws show under room light); less critical, though still informative, under wallpaper. Not part of standard handover inspection.
+- **Gypsum beacons ("маяки") left embedded under cement plaster is a code violation, not a shortcut** — the two materials react and the gypsum degrades, risking cracks that can take tile down with them in a wet room. Beacon removal/re-fill is normally bundled into a flat per-m² plastering quote, so skipping it is invisible on the quote itself.
+- **Protect fire-alarm sensors, the electrical panel, and pipe insulation before plastering** (cap/detach, plaster around the opening, reinstall) rather than plastering directly over them — otherwise the sensor may malfunction and needs disassembly/cleaning/resealing afterward.
+- **Uncovered floors during plastering force a paid sanding step before self-leveling compound**, which can't bond over gypsum dust residue — quoted at ≈20,000 RUB (≈$220) for a 63 m² apartment in this case, purely from omitting plastic floor sheeting.
+
+## Machine vs. Hand Plastering — Where the Machine Actually Helps (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 2)
+
+Direct rebuttal of a common belief that machine-applied plaster is inherently higher-quality. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lWp9b4K6uY_sbk_machine_vs_hand_plaster|YT__lWp9b4K6uY]]]
+
+- **Quality depends entirely on installer skill regardless of machine use** — a machine only affects speed/volume.
+- **Five-stage process, only one stage machine-assisted**: (1) beacon-setting (entirely manual, laid out with a green 360° self-leveling laser plus a red single-line plumb laser); (2) spraying/throwing plaster onto the wall (the *only* machine-assisted stage); (3) leveling against beacons with a straightedge (manual); (4) trimming excess after a specific partial-cure timing window (manual, timing-dependent); (5) final glazing/troweling (manual).
+- **Productivity at the machine-assisted stage**: manual crew ≈40-50 m²/day vs. up to 150 m²/day with a plastering station — plus a real physical-fatigue argument for large jobs beyond the speed gain alone.
+- **Vetting implication**: "we use a machine" says nothing about beacon-setting, leveling, trim timing, or final glazing quality — the four stages that actually determine finish quality.
+
 ## Flat-Roof/Exterior Waterproofing Case Study — General Technique Reference (added 2026-08-25, Sergey Kodolov)
 
 **⚠️ Not this project's own scope** — this is a real flat-roof/villa
@@ -778,4 +801,15 @@ purpose-built method for a curved wall, real object город Видное
   developer's original foam-block curved wall was built accurately
   enough for ordinary tile, but the finish here (mosaic) is unusually
   sensitive to substrate precision, requiring the extra plastering step.
+
+## Two-Layer Soundproofing/Waterproofing "Tub" Technique for a Screed Pour (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 4)
+
+Real in-progress project, St. Petersburg (level 1). Low-medium
+promotional ratio.
+
+- **⚠️ Named quantified developer-screed failure rate**: this company pull-off/cohesion-tests every developer screed before bonding flooring adhesive to it — **98% fail** the required 1 MPa minimum, typically testing at 0.2-0.65 MPa. This project's own screed: 0.64 MPa, still under spec, demolished and replaced.
+- **⚠️ Two-layer membrane + plywood-formwork sequence**: (1) first soundproofing/waterproofing membrane (branded "Шуманет 100" here) laid and run up the walls; (2) partition-wall stud framing installed on top, necessarily puncturing layer 1 at each fastener; (3) plywood sheathing on the framing, set taller than the planned screed height and fastened only at the top edge (so it can later be unscrewed); (4) a **second** membrane layer laid over the completed framing and run up onto the plywood facing and perimeter walls — sealing a fully intact "tub" since layer 2 goes on only after all stud-puncturing already happened in layer 1. The plywood strips double as the screed's required perimeter expansion-joint damper; removed after cure, leaving a clean air gap between framing and cured screed edge.
+- **Stated stakes framing**: failure of this seal on a high floor in an elite building is framed as risking tens to hundreds of millions of rubles in cumulative downstream flood liability (illustrative order-of-magnitude claim, not a quoted price).
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pwI058vcXP8_sbk_seamless_flooring_screed_prep|YT_pwI058vcXP8]]]
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]

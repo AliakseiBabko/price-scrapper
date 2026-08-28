@@ -382,8 +382,20 @@ Petersburg (level 1):
 
 `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SUN8UiXAjf0_anutavlady_spb_narrow_living_room|YT_SUN8UiXAjf0]]]
 
+## Vladimir Amelchenko (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ) — Ten "Cheapening" Mistakes, Materials/Decor-Relevant Subset (added 2026-08-28)
+
+From a general 10-item design-mistakes explainer (full list also recorded in `Durable_Facts.md`):
+
+- **⚠️ Limited-palette rule, stated directly**: tile, wallpaper, baseboard, lighting, and outlet/switch plates each chosen independently in isolation can each look good alone but clash once combined (named texture-clash examples: concave vs. convex mixed, cold grey vs. wood, gloss vs. matte) — a coherent, "expensive-reading" interior deliberately limits itself to a small, pre-verified-compatible set of materials/textures/colors/shades rather than picking each element on its own merits.
+- **⚠️ Accent-decor minimalism rule**: one or two accent objects only (a large mirror, one art object, two large figurines) reads as more expensive than many small decorative pieces accumulated post-renovation — "minimalism isn't emptiness, it's the skill of leaving only what matters."
+- **⚠️ Cheap decorative molding/cornice, three distinct failure modes**: (1) material-grade ceiling — cast polyurethane/foam (пенопласт) molding always visually reads as cheap regardless of installation quality, vs. gypsum, дюрополимер (duropolymer), or higher-grade polyurethane, which don't carry this visual tell; (2) overuse — piling on molding until it's the only thing visible entering the room is self-defeating, not "more = pricier"; (3) installation quality — crooked runs, visible seams/gaps, and poor paint finish read as an instant defect regardless of material grade. A related coordination failure: switch/outlet plates and molding runs competing for the same wall position is a design-planning error, not a materials issue.
+- **⚠️ Magnetic tile-faced access hatch over a plain plastic one**: a plain white plastic plumbing-inspection hatch mounted over an otherwise nice tile job is called out as a common budget-driven eyesore — the fix is a tile-faced magnetic access panel ("плитка на магнитах"), a real but modest cost premium over the plain panel, preferred over a decorative-picture-over-the-hatch workaround (inconsistent — sometimes clashes, sometimes reads as intentional).
+
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vW9TWijhwfA_sbk_10_designer_mistakes|YT_vW9TWijhwfA]]]
+
 ## Change Log
 
+- 2026-08-28 — Added the materials/decor-relevant subset of Vladimir Amelchenko's 10-mistakes explainer (`YT_vW9TWijhwfA`, Round 4 video 1) — limited-palette rule, accent-decor minimalism, 3-mode cheap-molding failure, magnetic tile-faced inspection hatch.
 - 2026-08-24 — Page created, migrating this content verbatim from `Durable_Facts.md`'s Design Concept bucket, as part of standing up the new `17_Design_and_Ergonomics` folder per explicit user request.
 - 2026-08-24 — Added curved-walls and microcement trend sections from Kruglov/Ontario's 2026 bathroom-trends video (`YT_IFnZxitFeNk`), Round 4 (Kruglov channel plan).
 - 2026-08-24 — Added protective-wall-panel section from Petrishin-Stroi Round 5 (`YT_izhaUHRKViw`).

@@ -9,7 +9,7 @@ Build the budget from the physical space, not from guesswork:
 2. **Confirm the design project package is complete** — a full package should include dimensioned as-built, demolition, and clean (unfurnished) montage plans; wall elevations cross-checked against the plans; visualizations for sign-off; and node/section drawings for junction details. MEP (electrical/HVAC) engineering is typically a separate deliverable, not assumed to be included by default. *(secondary reference — see intermediate knowledge store)*
 3. **Room-by-room breakdown** — group all costs (finishes, furniture, engineering) by room.
 4. **Volumes** — m² of floor/ceiling/wall, perimeter for baseboards, counts for doors/windows/fixtures.
-5. **Target tiers** — set a class benchmark (basic/comfort/premium) rather than pricing item-by-item first.
+5. **Target tiers** — set a class benchmark (basic/comfort/premium) rather than pricing item-by-item first. See [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers: Cheap / Optimal / Premium]] for a worked cheap/optimal/premium breakdown across 11 systems (ceiling, electrical, walls, tile, flooring, baseboard, window reveals, doors, ventilation, smart home, plumbing) — the tier per system need not match; watch for genuine technical dependencies between systems (not just taste) before mixing tiers on physically-connected choices.
 6. **Buffer** — add 10–15% to the total.
 7. **Verify and optimize** *before* demolition (e.g. laminate over parquet), not after.
 
@@ -96,6 +96,7 @@ One practitioner's framing, worth internalizing regardless of delivery model: **
 - **Five contractor-scam red flags, per RemProektMD (Chișinău/Moldova, region level 2, added 2026-08-24)** — fully region-agnostic: (1) refusal to sign a written contract (an individual, not just a registered company, can still be bound by one, and it should state the agreed sum); (2) refusal to produce an itemized smeta, only a rough total or a bare $/m² rate — a common precursor to "this task was never included" disputes once the client has paid in full; (3) a crew claiming to be "universal" (does electrical, plumbing, painting, plastering, tiling equally) — per the source's professional opinion, a real career rarely masters more than 1-2 trades, so a self-described generalist is often either weak across the board or genuinely skilled in only one area; (4) refusal to show completed past projects, when a legitimate contractor with a real track record can normally arrange a viewing with a former client's permission; (5) an unrealistically short quoted timeline (2-3 weeks, or even a month) for a full renovation spanning electrical + plumbing + plastering + painting — the source's stated floor for that combined scope is a minimum of 2-3-4 months; a much shorter quote signals either a fictional timeline or a rushed, lower-quality result. `single-account`, but structurally consistent with this guide's existing contractor-vetting and itemized-smeta guidance above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OcqynathaX8_remproektmd_5_scam_signs|OcqynathaX8_remproektmd_5_scam_signs]]]
 
 - **Demolition-stage risk is its own cost/legal category, not just a first construction step (added 2026-08-24)** — waste-volume underestimation, hidden-utility damage, and unapproved load-bearing-wall changes are all named, recurring, checkable risks specific to this stage. See [[11_Budget_and_Planning/analysis/Demolition|Demolition]] for the full technique/site-management/legal-risk detail.
+- **Old-fund ("старый фонд") apartments carry a distinct set of buy-time red flags, approval constraints, and structural/systems workarounds not shared by newer-build stock (added 2026-08-28)** — through-riser neighbor penetrations, aluminum-wiring and boxed-gas-pipe red flags, approval-driven fixture-location constraints that can override a client's own design preference, and old-fund-specific floor-height-compensation/hot-water-workaround techniques. See [[11_Budget_and_Planning/analysis/Old_Fund_Apartment_Renovation|Old-Fund Apartment Renovation]] for the full breakdown (3 sources, all ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ).
 - **Post-renovation cleaning is a staged process tied to construction milestones, not a single pass at the end (added 2026-08-25)** — professional cleaners describe a three-stage sequence (after rough works, after finish works, after furniture/fixtures) because dust and residue get physically sealed behind fixtures once they're installed, with real fixture- and surface-specific technique (window cleaning, chemical damage risk on acrylic/organic glass, glossy-tile handling). See [[11_Budget_and_Planning/analysis/Post_Renovation_Cleaning|Post-Renovation Cleaning]] for the full breakdown.
 - **A secondary-housing ("вторичка") estimate should include a hidden-defect self-check pass before signing (added 2026-08-24, Petrishin-Stroi)** — tap-test plaster near door frames and tile for hollow/detached spots, check behind curtains for developer film, verify an old baseboard's actual footprint, confirm whether a full capital renovation (electrical/plumbing/heating) was ever done before treating a job as "cosmetic only," and price furniture-packing/moving as its own explicit smeta line. See the intermediate store's Rules/Heuristics ("Secondary-Housing Renovation-Estimate Risk Checklist") for the full list. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes]]]
 - **Actively coordinate designer output against foreman execution and sub-trades, don't assume it happens on its own (added 2026-08-24, Petrishin-Stroi)** — real recurring defects on a complex custom-build object traced to gaps in this coordination: undimensioned custom drawings, undetected material-spec-vs-delivery mismatches, and independent sub-trades (HVAC, furniture makers) not cross-referencing the design plan. See the intermediate store's Rules/Heuristics ("Designer/Foreman Coordination & QC on Complex Custom Builds") for the full checklist. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_w6_e7nySEXI_petrishin_designer_mistakes_delays|w6_e7nySEXI_petrishin_designer_mistakes_delays]]]
@@ -304,6 +305,65 @@ beacon-based plastering of walls and ceilings. The client had paid
 **500,000 RUB (≈$8,600)** total toward rough materials to date, with the
 foreman holding an unspent balance of **90,000 RUB (≈$1,600)**. [source:
 [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Tq2IELynaGs_petrishin_nonstandard_electrical_plumbing_pt4|extraction note]]]
+
+### Live intake benchmark — ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ real itemized bathroom smeta, business and economy tiers (2025-02-22)
+
+Vladimir Amelchenko (business/premium-segment turnkey renovation,
+St. Petersburg/Moscow) walks through a real itemized bathroom smeta from
+one of the company's own design projects, explicitly rebutting real
+advertised lowball prices (70,000-200,000 RUB "with materials") as fraud.
+**Business tier, one real bathroom, new-build shell**: plaster ≈26,000
+RUB (≈$270); rough plumbing materials (manifold node, supply pipes,
+sewage) ≈270,000 RUB (≈$2,800); two heated-floor systems (floor + a
+"warm wall" in place of a towel warmer) ≈47,000 RUB (≈$480);
+waterproofing + tile adhesive + miscellaneous ≈45,000 RUB (≈$460);
+finish materials (tile, grout, tub, faucet, sink, miscellaneous)
+≈290,000 RUB (≈$3,000); labor ≈460,000 RUB (≈$4,700). **Total ≈1,138,000
+RUB (≈$11,700)**, rounded by the speaker to ≈1,200,000 RUB (≈$12,300) —
+verified independently against the transcript's own ASR-garbled total via
+a level-4 arithmetic cross-check (the six line items sum exactly to
+1,138,000 RUB). **Genuine economy-tier floor, after de-scoping** (simpler
+rough plumbing, no heated floor, skip waterproofing over cement plaster,
+cheaper finish materials, an optimistic half-price labor assumption):
+**≈600,000 RUB (≈$6,200)** — named directly as the real floor for a
+bare-bones bathroom with materials+labor, below which any advertised
+all-in price is fraud, not a legitimate discount. Converted at the
+trailing-6-month USD/RUB mean before 2025-02-22 (97.1734 RUB/USD).
+`single-account`, one company's own project-based estimate — not an
+independently audited market average, but a real, itemized, internally
+cross-checked figure, distinct in structure from this guide's existing
+per-m² whole-apartment benchmarks. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0CoDufobsEY_sbk_bathroom_lowball_pricing_scam|extraction note]]]
+
+### Live intake heuristic — quick renovation-budget-as-percent-of-purchase-price formula (2021-11-29)
+
+Vladimir Amelchenko (business/premium-segment turnkey renovation, St.
+Petersburg, level 1) offers a fast planning formula, distinct in structure
+from this guide's per-m² and itemized-smeta benchmarks above: for a
+"typical, standard" renovation with **rough/base materials only**, budget
+**≈15% of the apartment's purchase price**; with **finish materials
+included**, budget **≈25%**. **Worked example, cross-checked against a
+per-m² method**: a 1-room, 40m² apartment priced at 5,000,000 RUB
+(≈$68,600) — per-m² method (St. Petersburg 2021 prices: labor ≈10,000
+RUB/m², rough materials averaging ≈10,000 RUB/m² across an 8,000-12,000
+RUB/m² range) gives ≈800,000 RUB (≈$11,000) total; the 15% formula gives
+750,000 RUB (≈$10,300) — within ≈6% of each other, attributed to the
+stated material-price range rather than a contradiction. Stated practical
+floor: a genuinely good-quality 40m² renovation in St. Petersburg at 2021
+prices could not realistically cost less than ≈750,000 RUB (≈$10,300).
+Intended use: apply this formula *at apartment-purchase decision time*
+alongside the purchase price itself, to see the real combined budget
+before committing — if it exceeds available funds, save more first or
+choose a smaller/cheaper apartment rather than discovering the shortfall
+mid-project. Converted at the trailing-6-month USD/RUB mean before
+2021-11-29 (72.8580 RUB/USD). `single-account` heuristic, not an
+independently surveyed market constant. **Also corroborates the
+`0CoDufobsEY` (2025-02-22, above) lowball-pricing warning with a general
+whole-apartment version of the same fraud mechanism**: an unrealistically
+low competing quote (the video's example: ≈200,000 RUB against a real
+≈1,000,000 RUB requirement) typically means roughly half the real
+scope was silently omitted, with the estimate then incrementally revised
+upward mid-project back toward the real market total — worst case, the
+buyer runs out of money before the renovation finishes. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gU9bFxV1rzo_sbk_quick_budget_formula|extraction note]]]
 
 ### Tracking Expenses (added 2026-08-19)
 

@@ -147,6 +147,25 @@ exists*.
   suggests; check against a real-scale layout plan, not just m².
   Complements the itemized-smeta template structures elsewhere on this
   page. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LOw05Uk3rUk_archwood_6_stages_design_project|YT_LOw05Uk3rUk]]]
+- **⚠️ Staged-approval cost rationale, a fourth independent corroboration
+  (Maxim Novikov, added 2026-08-28)**: gating each design-project stage
+  on client sign-off before the next begins exists specifically because a
+  change requested only at the visualization stage forces paid rework of
+  every completed upstream stage — not just an expectations-management
+  practice. Same underlying logic as this page's revision-payment policy
+  above, now independently stated by a fourth practitioner. Per explicit
+  user instruction: this source is a designer selling his own
+  design-project service around a "you can't do this yourself" framing —
+  the staged-approval *mechanism* is extracted as reusable regardless of
+  who executes it, not the sales conclusion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|YT_mvc_zbjfBWQ]]]
+- **Material price-tier spread, worked tile example (2020, region
+  unstated)**: tiling a 100 m² apartment's bathroom + WC + kitchen +
+  entrance runs roughly **≈$1,300-$1,600 (100,000-120,000 RUB) for a
+  mid-tier brand** vs. roughly **≈$6,700 (500,000 RUB) for Spanish/
+  Italian premium tile** on the identical footprint — a concrete
+  illustration of how wide the price range can be for the same visual
+  result, useful context when sanity-checking a smeta's own tile line
+  item. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|YT_mvc_zbjfBWQ]]]
 
 ## Gaps
 
@@ -175,3 +194,4 @@ exists*.
 - [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_txBBcq-D5mI_azotremont_phone_smeta_template|AzotRemont — phone smeta template]] (2022-12-22).
 - [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cdNwbqsLUK4_remonthochu_smeta_methodology|РемонтХочу — smeta-literacy methodology]] (2024-11-14).
 - [[11_Budget_and_Planning/_supporting/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case Study]].
+- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|Maxim Novikov — design-project structure and staged-approval cost rationale]] (2020-12-01).

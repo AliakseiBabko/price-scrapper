@@ -1,0 +1,16 @@
+{
+  "channel": "@sbk.remont (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, Vladimir Amelchenko)",
+  "round": 6,
+  "created": "2026-08-28",
+  "videos": {
+    "pFrQLRQ37pY": "integrated",
+    "X3YHN5LqQdA": "integrated",
+    "uQJlesqDFf4": "integrated",
+    "ziOsy7OGQ2Q": "integrated",
+    "WwKrmuDjVkc": "integrated",
+    "qJWJvHP4uaw": "integrated",
+    "JeRGrHsv07U": "integrated",
+    "v-SdLOVwRS4": "integrated"
+  },
+  "round_yield": "8 videos, 47 new facts (8+6+7+8+4+5+4+5), yield = 5.875 new facts/video (vs Round 5's 6.9/video, a ~15% decrease, well within the 50%-drop threshold and above the 1.0/video floor). No rate-limit interruption, no skipped/archived videos - all 8 fully processed."
+}

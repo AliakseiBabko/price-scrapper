@@ -160,6 +160,18 @@ demolition. `single-account`, `unverified`.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_yyW9WaW3Pls_petrishin_electrical_floor_vs_ceiling|yyW9WaW3Pls]]]
 
+## Floor-Routing Detail, a Real Rough-In Walkthrough (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ / Vladimir Amelchenko, added 2026-08-28, Round 3)
+
+St. Petersburg (channel level 2), low promotional ratio, `8-GD_CEX0Bg` (2025-02-28), 170m² apartment/3 bathrooms. Corroborates this section's existing floor-vs-ceiling routing and never-fasten-through-soundproofing rules, with a distinct fixing-technique variant and new details.
+
+- **⚠️ Conduit-to-Шуманет fixing, a gluing variant**: after leveling the floor and laying two layers of Шуманет (soundproofing + waterproofing), corrugated conduit is **glued directly to the membrane using bitumen tape**, not screw-fastened — the membrane's own bitumen-like surface takes the tape well. This project's existing Petrishin-Stroi source instead ties floor conduit to a wire mesh laid loosely over the membrane; both share the same underlying rule (never fasten a rigid penetration through the membrane) but are two independent, non-identical methods.
+- **⚠️ Waterproofing-membrane repair at wall penetrations, a real flood-prevention detail**: where conduit exits the floor membrane into a wall, the membrane is necessarily cut, breaking the "trough" that makes the floor waterproof — two additional membrane layers must be welded/fused back over the cut to restore a sealed penetration. Without this repair only the soundproofing function survives at that point, not the waterproofing — the next screed pour would flood the neighbors below through the unsealed penetration.
+- **⚠️ Low-voltage (12-24V) transformer consolidation outside the wet zone**: a bathroom with extensive 12-24V transformer-driven lighting (shelves, mirror, vanity) routes all transformers out to a dedicated cabinet in an adjacent room — housing them in the wet zone itself is "not quite correct," and there's often no physical space there anyway.
+- **⚠️ Metal protective sleeve at a floor-conduit doorway-threshold crossing**: floor conduit passing under a door opening is fed through metal tubing so a later trade drilling/screwing in a threshold strip at that spot can't sever the cable.
+- **⚠️ Deliberate detour routing to guarantee avoiding a known future fixture-mounting point**: where a wall fixture has a known fixed anchor pattern (an intercom handset, a wall sconce, both anchored on a vertical axis), rough-in conduit is routed in a "U"-shape detour around that axis instead of a straight run — guaranteeing whoever later drills for those anchors (any installer, any care level) can't hit the cable. A deliberate mistake-proofing technique, not an aesthetic/cost choice.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8-GD_CEX0Bg_sbk_electrical_roughin_basics|8-GD_CEX0Bg]]]
+
 ## Locating a Concealed Junction Box, and a Live-Wiring Safety Caution (added 2026-08-25, Квартиранты)
 
 An individual homeowner (not a professional electrician), needing power for

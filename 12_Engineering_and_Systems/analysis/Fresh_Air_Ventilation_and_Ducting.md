@@ -228,3 +228,12 @@ forcing a real (if temporary) design compromise (this case: dark
 leftover tile used in place of the original light tile, with an explicit
 plan to swap back once matching material is sourced). `single-account`,
 heavily ASR-garbled transcript — treat with appropriate caution. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nhJI_yGjfRU_petrishin_ventilation_6years_later|nhJI_yGjfRU_petrishin_ventilation_6years_later]]]
+
+### Fifth Voice: Ceiling-Drop-by-Zone, a Second Independent Corroboration (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 4)
+
+Real in-progress project, St. Petersburg (level 1). Low-medium
+promotional ratio.
+
+- **⚠️ Ceiling-drop-by-zone, independently corroborating the Forcemontage real-project figure above (~350mm technical zone)**: general ducted-run areas lose roughly 12-15cm of ceiling height; rooms specifically housing ventilation equipment (air handling unit, mufflers/silencers — named examples: hallway, bathroom, utility room) lose 30-40cm, materially more. A second, separately-sourced project landing in the same 300-400mm equipment-zone range as Forcemontage's 350mm figure.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pwI058vcXP8_sbk_seamless_flooring_screed_prep|YT_pwI058vcXP8]]]

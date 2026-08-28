@@ -35,6 +35,14 @@ RemProektMD/Andrei recommends **stretch ceiling over a painted drywall-boxed cei
 
 The same backing-plate-before-film logic applies to a smoke detector, not just light fixtures — see [[12_Engineering_and_Systems/analysis/Fire_Safety_Stretch_Ceiling_Installation|Fire Safety: Stretch Ceiling Installation]] for the mounting-platform sequencing, clearance rules, and film-penetration technique specific to this project's own ceiling type.
 
+## Stretch-Ceiling Acceptance Checklist and Pre-Work Liability Act (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 2)
+
+Vladimir Amelchenko's acceptance checklist plus a broadly-reusable liability-management technique. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Wbj_6CEgcGU_sbk_stretch_ceiling_acceptance|YT_Wbj_6CEgcGU]]]
+
+- **Acceptance checklist**: membrane (no holes/punctures/creases, visually flat); edge trim tape (straight, no gap from wall or ceiling); corner tightness ("no gap you could fit half a finger into"); recessed-downlight thermal-ring gap must be *consistent* across all fixtures in a room (not just individually present — a 1mm gap at one fixture and 3mm at another reads as sloppy even if each is technically "in spec"); chandelier/fixture base flush with no skew or gap; cycle every switch to confirm it controls the intended zone.
+- **⚠️ Post-acceptance liability gap**: damage (wall paint smudges, chipped tile) often surfaces only during post-install cleanup, after the installer is paid and gone — attention during acceptance focuses on the ceiling itself, not the surrounding room. A chipped tile is functionally unprovable after the fact; wall paint damage is more often fixed/compensated on request.
+- **Fix: a signed pre-work room-condition act**, executed before the installer touches anything, documenting walls/floors/ceiling/windows/doors as intact with no chemical/mechanical damage. Forces the installer to inspect and photograph pre-existing damage upfront (surfacing it for the owner to raise with their original contractor), and reallocates the burden of proof afterward — any damage found post-install is attributed to the work just performed. Also a screening filter: a confident installer has no reason to refuse signing.
+
 ## Cornice/Stretch-Ceiling Incompatibility, and a Named Ceiling Soundproofing Product (Петришин-Строй, added 2026-08-24, Round 3)
 
 Real object, ЖК "Фестиваль Парк" (region level 2, named development,
