@@ -45,3 +45,14 @@ installation that only reveals itself later. [source: [[11_Budget_and_Planning/_
 - **Vertical radiators are an increasingly common alternative to standard horizontal ones** for three stated reasons: aesthetics, higher heat output for a given wall footprint, and fitting spaces too narrow for a standard horizontal radiator. `single-account`. [source: `_Archive/processed_sources/20260804_apartment_tour_tips_compilation_e2e466ad.txt`]
 - **A third alternative beyond the hydronic-vs-electric-rail comparison above: electric underfloor-heating cable mounted vertically on a wall, finished with tile, as a heated-wall towel-warmer substitute.** A real jobsite example: two bathroom wall sections get electric floor-heating cable mounted on the wall (not the floor) and finished with porcelain tile over it, functioning as a heated wall/towel-hanging surface — the room's actual floor separately gets its own, standard electric underfloor heating. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gKBzDEllg4M_kruglov_best_wiring_a_to_z|gKBzDEllg4M_kruglov_best_wiring_a_to_z]]]
 - **Further corroboration from a third-party practitioner (Петришин-Строй, added 2026-08-24, Round 11)**: states plainly that the company is increasingly avoiding recommending water-based (hydronic) towel warmers in favor of electric — matches this page's already-established electric-over-hydronic case, not a new mechanism. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+
+## Recessing an Exposed Towel-Warmer Riser and Transit Pipe (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 7)
+
+Vladimir Amelchenko addresses a common client complaint distinct from the hydronic-vs-electric choice above: a steel towel-warmer riser (змеевик) and transit hot-water line standing proud of the wall, blocking flush tile installation.
+
+- **⚠️ Named recessing technique**: chase the wall to create a cavity, cut the existing riser stack, weld or press-fit (опрессовка) a sleeve/coupling at the cut point (access to this joint is required regardless of method), then route the towel-warmer branch and riser continuation fully inside the wall cavity.
+- **⚠️ Transit-pipe rerouting where full wall-recessing isn't possible**: route the pipe up into a drop/stretch ceiling void instead, running it along the ceiling and back down behind the toilet — trading a wall chase for ceiling void space.
+- **⚠️ Named cost breakdown**: ≈15,000 RUB (≈$200) welder/pipefitter labor + ≈15,000 RUB (≈$200) consumables/demolition = ≈30,000 RUB (≈$400) total.
+- **Inferior fallback, explicitly discouraged**: a furniture-style box (мебельный короб) around exposed pipes is possible but typically looks poor compared to fully recessing the pipe.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mLyxUEp1a68_sbk_conceal_bathroom_pipes|YT_mLyxUEp1a68]]]

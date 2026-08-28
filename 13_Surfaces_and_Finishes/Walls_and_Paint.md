@@ -4,6 +4,13 @@ See [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]] for wall
 
 See [[13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels|Decorative Wall Panels]] for the material comparison (MDF/LDF, polyurethane/polystyrene, gypsum, PVC, wood+veneer, textile/acoustic, cork, LDSP, bamboo, concrete-composite) and selection rules for decorative accent-wall panels (added 2026-08-24).
 
+## "Stretch Walls" (Натяжные Стены) — an Emerging Trend, New Topic for This Page (Round 5, added 2026-08-28)
+
+> [!NOTE]
+> Flagged from a stretch-ceiling deep-dive interview (Andrey Frolov, independent professional installer, no commercial tie to Ontario) — see [[13_Surfaces_and_Finishes/Ceilings_Guide]] for the full ceiling-specific material/pricing/technique detail from the same source. `single-account`, low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_W1PKG4tVw_g_kruglov_stretch_ceiling_truth_frolov|YT_W1PKG4tVw_g]]]
+
+The same PVC-film/fabric stretch material and tensioning technique used for ceilings is starting to be applied to walls instead — genuinely new territory for this page. Cited benefits: **a soft/cushioned tactile wall surface** (firmness adjustable via the backing material chosen behind the membrane) — safer for a child bumping into it than a hard wall, and described by the installer as a pleasant tactile surprise rather than an unsettling "give" underfoot/underhand; **meaningful sound absorption/echo reduction** in the room; and **a perfectly even, defect-hiding finish** that replaces the need for flawless paint/wallpaper prep, with clean pre-built corner/reveal solutions at junctions. The installer (an independent stretch-ceiling professional) states he personally believes in the technique's staying power and plans to install it in his own home; Kruglov (the interviewer, a renovation-company owner) states he's skeptical the trend will stick, citing less mature supporting hardware/accessory infrastructure than stretch ceilings currently have. Recorded here as a real, current trend worth tracking — not yet a settled recommendation either way.
+
 ## Decorative Plaster — Pet-Durability Case, Skill Requirement, and Substrate Tolerance (RemProektMD, added 2026-08-24, Round 2)
 
 > [!NOTE]
@@ -238,6 +245,22 @@ promotional ratio (two CTAs).
 - **Zemskov's sheet-cutting method: cut in place, not by tape-measure-and-pencil** — hold an oversized sheet against the frame, mark by pressing/creasing at the frame edge, then snap/fold/cut along the crease; he frames the tape-measure method as "10 extra actions" for the same eventual result.
 - **Safety warning**: never brace a screw with a bare finger behind the drywall as a "stop" — a 35mm screw can drive nearly through the finger. Always wear gloves and safety glasses. [source: [[_Archive/processed_sources/20260810_drywall_false_wall_masterclass_6d77f6f5.txt|20260810_drywall_false_w]]] [source: [[_Archive/processed_sources/20260810_drywall_false_wall_masterclass_6d77f6f5.txt|_Archive/processed_sourc]]]
 
+## Wallpaper Hanging — Corner-Angle Check, Batch Wet-Test, and Bubble-Repair (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
+
+> [!NOTE]
+> This page's existing wallpaper content (Петришин-Строй, three sources below) already covers acceptance QC, a practitioner Q&A, and a non-woven hanging walkthrough — cross-checked against all three before writing; only genuinely new items recorded here. Region level 2 only (channel-level Moscow association). Medium promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xsU4wp9sR8A_kruglov_wallpaper_mistakes|YT_xsU4wp9sR8A]]]
+
+- **Corner-angle consistency check**: measure the internal corner angle at both top and bottom of the wall — it needn't be exactly 90°, but the two must match. A mismatch forces a wedge ("carrot") trim cut at the corner during hanging, which can visibly shift a patterned wallpaper's repeat right at the corner.
+- **Substrate-prep tier keyed to wallpaper thickness, not a flat standard**: named prep classes K2/K3/K4 (progressively finer); super-thin wallpaper needs full paint-grade prep (zero visible shadow under raking side-light). **Sequencing rule**: decide the wallpaper first, then prep to match it, not the reverse.
+- **Batch wet-test technique, independent of label**: soak a sample of the specific wallpaper batch and observe whether it expands in width, length, both, or neither — labels like "vinyl on fleece" don't reliably predict this; adjust hanging technique to the tested result, not the label.
+- **Primer's absorption-evening mechanism**: an unevenly primed wall has patches of higher glue absorption where adhesive dries faster than the rest of the same wall — this differential drying is a direct bubble/peeling cause. **Primer application lifehack**: apply with side/raking light and curtains closed to visually confirm even coverage; each coat needs 4-6 hours to dry before the next step.
+- **Laser-level vertical line for the first sheet, named consequence for skipping it**: a slightly off-vertical first sheet compounds into a large drift over a 5-7m wall run, forcing a wedge ("carrot") trim cut at the far corner — an installer without a laser level is a quality-shortfall signal.
+- **Tool restriction for smoothing**: only a rubber roller and plastic spatula — no waffle-weave towels or rags (a technique still seen as recently as ~10 years ago). Excess glue squeezed out during hanging should be pushed toward not-yet-papered wall (in the direction of hanging progress), never toward or across a seam.
+- **A second, distinct mechanism for cutting/butt-jointing internal corners rather than wrapping a sheet around them**: building settlement causes the two intersecting wall planes to move slightly independently over time, visibly accordion-wrinkling a wrapped sheet — different from this page's existing "wrapping traps air bubbles" reasoning (Петришин-Строй, below), not a duplicate.
+- **Glue-label unreliability and a named product**: retail labels ("glue for vinyl," "glue for fleece") often don't correspond to genuinely different formulas — tune glue choice/consistency to the specific wallpaper's own tested expansion behavior instead. Recommended brand: **Син Морал (Sinmoral)**.
+- **Dry-glue mixing order**: pour powder into cold water (not the reverse) to avoid clumping; mix, rest 3-5 minutes, remix. **Pre-moisten exception**: if a specific wallpaper swells when wetted, pre-moisten the wallpaper itself before hanging onto the already-glued wall — an exception to the general wall-vs-paper glue-placement rule already on this page (`ot7qPVf7XVU`).
+- **Climate and a new bubble-repair technique**: optimal hanging/curing temperature 18-23°C, avoid drafts/rapid humidity loss. **Repair an existing bubble** by injecting glue into it with an ordinary medical syringe and needle, then smoothing flat.
+
 ## Wallpaper & Paint — Acceptance/QC Checklist (Петришин-Строй, added 2026-08-24, Round 2)
 
 Region level 2 (channel-level Moscow association only, no city named
@@ -406,6 +429,22 @@ wallpaper on this page.
 - **⚠️ Draft warning**: no air drafts during hanging/drying — can
   seriously degrade adhesion quality.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ot7qPVf7XVU_petrishin_flizelin_wallpaper|YT_ot7qPVf7XVU]]]
+
+## Wall-Prep-for-Paint K1-K4 Class Ladder — Prices, Defect Tolerances, and the Raking-Light Trigger (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
+
+> [!NOTE]
+> First named regulatory framework and full price ladder for the K-class substrate-prep system on this page — this round's own wallpaper-hanging video (`xsU4wp9sR8A`, above) named K2/K3/K4 in passing but had no pricing or defect-tolerance detail; this is the source of both. Region level 2 only, plus an explicit Russia-vs-Switzerland/Germany regulatory comparison. Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UEy2UN3N3Aw_kruglov_wall_prep_for_paint_k_classes|YT_UEy2UN3N3Aw]]]
+
+- **Named framework**: Russia's K1-K4 substrate-prep classes correspond to Swiss/German Q1-Q4 standards; Russian requirements are described as at least as strict as Germany's and matching Switzerland's.
+- **Full four-tier price ladder with defect tolerances (RUB/m², USD normalized at this video's own trailing-6-month rate)**:
+  - **K1 ≈100 RUB (under $10)**: one primer coat after plastering only. Suitable for tile, other sheet materials, decorative panels. Defects up to **3mm** deep allowed. Never checked with raking/side light.
+  - **K2 ≈1,000 RUB (≈$10)**: suitable for facade paints/plasters with ≥1mm grain, heavy wallpaper. Defects up to **1mm** deep allowed. Not checked with side light.
+  - **K3 ≈2,000 RUB (≈$20)**: suitable for interior paints with <1mm grain, thin wallpaper, roller-applied matte paint. Defects up to **0.3mm** deep allowed (still faintly visible). Not checked with side light.
+  - **K4 ≈4,000 RUB (≈$40)**: the only tier checked with raking/side-light inspection — zero visible shadow or abrasive mark tolerated. Required for the thinnest finish materials (decorative/Venetian plaster); the **only tier permitting spray-gun/airless paint application** (lower tiers are roller-only).
+- **⚠️ The decisive K4 trigger is raking light exposure, not aesthetics generally**: any wall that will have a grazing/raking light source hitting it — most concretely a perimeter LED strip in a shadow-gap profile — forces K4 on that wall specifically, since the light reveals K3-level defects invisible under ordinary daylight (K3 and K4 look identical under plain daylight alone).
+- **⚠️ Worked whole-apartment example (85m², 3m ceiling, wall:floor area ratio 3:1)**: paintable area ≈200m² after subtracting non-painted zones. **K3 whole-apartment ≈400,000 RUB (≈$4,200)**; **K4 whole-apartment ≈800,000 RUB (≈$8,500)** — labor only. Per-apartment-floor-area cost of upgrading everywhere from K3 to K4: **≈5,000 RUB/m² (≈$50/m²)** of apartment floor area. **Practical recommendation**: apply K4 only where raking light will actually hit, not blanket the whole apartment, unless deliberately going for a maximum spec.
+- **Timeline**: painters alone, 85m² fully K4-prepped, take roughly **4-5 months**.
+- **Regulatory affordability contrast**: a Swiss client paying ≈100 EUR/m² for K4-equivalent prep is normal there; quoting a Russian client ≈10,000 RUB (≈$110/m²) for the same prep reliably causes the client to walk away — same technical requirement, much lower Russian price ceiling.
 
 ## Wall-Prep-for-Paint Staged Sequence, Timeline, and Cure-Discipline (Петришин-Строй, added 2026-08-24, Round 3)
 
@@ -632,6 +671,53 @@ RemProektMD/Andrei explains **why wallpaper is cheaper than paint for the same w
 - **"Designer Disaster for 420 Thousand" — future-flexible wiring technique, gaming-screen-angle rule** (same channel, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_e1HRByaCFv0_420k_designer_disaster_239|extraction note]] (#239, 2023-09-26).
 - **"Идеальные стены под покраску" — wall-prep-for-paint staged sequence, filler comparison, cross-trade sequencing risk** (Петришин-Строй, painter-interview format, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_d8WzpxSSX8k_petrishin_walls_for_paint|extraction note]] (2025-06-22).
 - **"Идеальные стены в 90 градусов?" — German reveal-guide profile, first-course thickness mechanism, whole-apartment pre-wall squaring, client QC-verification marks** (Петришин-Строй, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lTeNBUR1u8g_petrishin_wall_squareness|extraction note]] (2025-04-20).
+## Ten-Material Wall-Finish Comparison: Prep/Install/Material Cost Ladder by Material Group (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
+
+> [!NOTE]
+> Structured 5-criteria comparison (popularity, prep cost, install cost, material cost, wet-room suitability) across ~10 material categories — the round's structural anchor; two later Round 6 videos on the same topic (`6FbZY6YHrxQ`, `emfnY0TPyaY`) are cross-checked against this note before recording anything as new from them. Region level 2 only. Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2it-PLHuJoU_kruglov_paint_or_wallpaper_best_material|YT_2it-PLHuJoU]]]
+
+- **Vagonka (wood-board cladding) and PVC panels explicitly rejected** as dated/unsuitable for any modern quality renovation regardless of budget ("looks like a shed").
+- **Photo-wallpaper ("фотообои") vs. mural panel ("панно") distinction**: multi-roll photo-wallpaper (typically ≈5 rolls needing scene alignment) vs. a single oversized roll/sheet hung as one continuous picture with no seam-alignment risk. **Fresco**: a large single continuous painted-fabric mural (up to 5m×3m), expensive, must hang as one uninterrupted piece — any damage forces full replacement, no patch repair.
+- **Prep-cost tiers by material group**: plain wallpaper / paintable wallpaper / fresco share the cheapest prep (plaster, primer, two starting-putty coats, inter-coat sanding, primer). Paint and decorative plaster share a pricier tier — same steps plus a fiberglass-mesh (стеклохолст) layer, finish putty (two coats), inter-coat sanding, and a further primer coat. Simple/facade-style ("короед"-type) decorative plaster has the **cheapest** decorative-finish prep of all (flat plastered+primed wall, occasionally putty only) — rougher look but unconditionally wet-room-safe.
+- **Installation-cost ladder (RUB/m², USD normalized at this video's trailing-6-month rate 90.77)**: plain wallpaper ≈650 RUB (≈$10); paint ≈800 RUB (≈$10); decorative plaster 800-2,500 RUB (≈$10-$30).
+- **⚠️ Tile installation cost scales dramatically with format, same prep across all**: regular tile ≈3,000 RUB/m² (≈$30); large-format (≈80×160cm) 5,000-6,000 RUB/m² (≈$60-$70); mega-format (140×260cm) >10,000 RUB/m² (≈$110+). **Real cited logistics case**: a 2nd-floor client paid ≈10,000 RUB (≈$110) per panel for careful elevator-bypassing vertical transport of ~20 mega-format panels — ≈200,000 RUB (≈$2,200) on delivery/carrying alone, separate from material or installation labor.
+- **Panel-group install-cost spread, same simple substrate as tile**: prefab soft/upholstered panel, glue-and-mount only ≈800 RUB/m² (≈$10); a gypsum panel with a textured/wavy surface needing full hand-painted finishing after mounting 3,000-4,500 RUB/m² (≈$30-$50) — a labor-intensive "artistic" finish, not a simple mount; plain wood panel cladding needs no further finishing. **MDF/soft-panel moisture caveat**: tolerant of ambient humidity, not of direct water contact — avoid in genuine splash zones.
+- **Flooring-material-as-wall-cladding (laminate/parquet board on a wall) deprecated as a practical wall finish** — cheap prep/install, but poor outside-corner detailing and no durability advantage; acceptable only as a small decorative accent.
+- **Stone veneer (тонкий шпон камня) flagged as new/unproven**: minimal prep, manufacturer claims wet-room suitability, but no real long-term track record yet — explicitly compared to the same caution applied to quartz-vinyl flooring.
+- **⚠️ Behind-furniture area cost-skip rule, worked example**: wall area permanently hidden behind built-in furniture (kitchen units, wardrobes) needs no finish beyond putty+primer — refutes the "I might replace my kitchen later" objection (a furniture swap always triggers a full cosmetic refresh anyway). 50m² apartment (≈150m² total wall area, ≈30m²/1-fifth behind furniture): skipping decorative finish there saves ≈60,000 RUB (≈$660) labor + ≈20,000 RUB (≈$220) material = ≈80,000 RUB (≈$880) total, worth roughly a week off schedule.
+- **Selection heuristic and zoning rule**: judge a candidate material by tactile feel underfoot/underhand, not photos alone; reserve a more damage-resistant material (e.g. decorative plaster) for heavy-traffic zones (entryway/hallway) even if the rest of the apartment uses a cheaper material.
+
+## Real-Object Wall-Finish Walkthrough — Clinker, Porcelain-Tile Sizing, DIY Concrete-Look Plaster, and Spot-Repairability (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
+
+> [!NOTE]
+> A completed-apartment site walkthrough (presenter Nikita, not Kruglov), distinct format from this round's own structured comparison video (`2it-PLHuJoU`, above) — cross-checked against it, only genuinely new items recorded. Region level 2 only. Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6FbZY6YHrxQ_kruglov_best_wall_finish_options|YT_6FbZY6YHrxQ]]]
+
+- **Clinker tile is style-specific (loft interiors), not general-purpose** — prep identical to porcelain tile (flat plaster). Jointing: ~1cm gap via foam spacers, filled with clinker grout via a grout gun or cut-corner piping bag, finger-smoothed. **⚠️ Must run genuinely wall-to-wall** — stopping abruptly mid-wall reads as a dated 1990s look.
+- **Porcelain tile recommended anywhere, not just wet zones** — a single living-room accent wall is explicitly endorsed. **Recommended format 60×120cm**, framed as the price/appearance sweet spot: a mega-format slab only removes ~3 extra horizontal joints from view while costing dramatically more once delivery/install labor are counted.
+- **⚠️ Real DIY "concrete look" relief-texture technique using plain gypsum plaster**: install a temporary guide profile, drag ordinary gypsum plaster along it to build a textured relief, remove the profile — a raw-concrete-look surface from standard plaster alone, no specialized decorative-plaster product. Optionally painted, and in a kitchen clear-lacquered for washability.
+- **Roller-nap recommendation, contrary to "smoother is better"**: prefer a medium-nap roller over minimal-nap — glass-smooth paint demands flawless execution and shows every defect, while slight roller texture conceals installer-skill and paint-quality limitations.
+- **Concealed/hidden door painted to match an adjoining wall will always show a slight texture mismatch even at identical color** — the door's smooth factory surface absorbs paint differently than the rougher plastered wall. Worth flagging to detail-sensitive clients in advance.
+- **⚠️ Decorative plaster's spot-repairability advantage over paint**: a scratch on decorative plaster can be self-touched-up seamlessly by the resident; the same defect on paint almost never allows a clean spot-touch-up, typically forcing a full repaint of that wall corner-to-corner. A concrete reason to favor decorative plaster in higher-damage-risk areas.
+- **Cross-room color-continuity technique**: an accent material/color in one space (e.g. orange clinker) is deliberately echoed by a same-hued accent visible from an adjoining sightline (e.g. an orange corridor wall visible from that room) — everything else kept neutral so the echoed accent reads as a deliberate visual thread between spaces.
+- **Mirror-wall substrate varies by mounting method**: a glued mirror needs only flat plaster; hardware-mounted needs a puttied finish instead.
+- **Adjustable-opacity light-transmitting partition**: selectively darkened/obscured, letting a room alternate between an open, distant-sightline feel and a fully enclosed, intimate one — changes the room's perceived dimensions with the partition's state.
+
+## Painting-Substrate Cost-Inversion, Tile-Heating Pairing, and the Rotband Decorative-Plaster Hack (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
+
+> [!NOTE]
+> Final video of this round's own 5-video wall-finish cluster, presented as an explicit personal ranking across the same material families this round already covered — heavy internal overlap confirmed as anticipated at round dispatch. Cross-checked against all four earlier Round 6 wall-finish videos above; only genuinely new items recorded. Region level 2 only. Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_emfnY0TPyaY_kruglov_how_not_to_err_wall_finish|YT_emfnY0TPyaY]]]
+
+- **⚠️ Three-way painting-substrate cost-inversion**: painting plain prepared bare wall vs. paintable wallpaper vs. paintable non-woven lining paper ("малярный флизелин") — **painting flizelin/paintable wallpaper actually costs *more* than painting a plain prepared wall**, since prep is identical either way and the flizelin/wallpaper material cost is added on top, with invisible seams very hard to achieve when painting over flizelin.
+- **Micro-crack-visibility myth debunked**: flizelin/paintable wallpaper doesn't hide new-build settlement micro-cracks — a crack forming behind either material doesn't tear it, but the crack still becomes visible through it.
+- **Small-format tile (<10cm) flagged as a third genuinely on-trend porcelain-tile size**, alongside the 60-120cm sweet spot — distinct from old standard 20-40cm (out of trend) and oversized >80cm-tall slabs (expensive, installer risk premium).
+- **⚠️ Porcelain-tile-flooring pairing rule**: whenever porcelain tile is used as flooring, pair it with electric underfloor heating — inexpensive relative to the comfort gain, framed as close to mandatory.
+- **Kitchen porcelain-tile application detail**: a full accent wall *without* upper cabinets in front of it, not just a splashback strip.
+- **Decorative plaster's inherent uniqueness**: hand-applied by an individual craftsman, so no two decorative-plaster walls — even the same product — look truly identical; framed as a selling point (exclusivity).
+- **⚠️ Named company cost-hack: ordinary Rotband gypsum plaster used directly as a decorative-plaster substitute**, hand-troweled to achieve a decorative look at dramatically lower material cost — used on multiple real company projects. Distinct from this round's own guide-profile relief technique above (`6FbZY6YHrxQ`) — this is plain Rotband hand-troweled directly, no profile.
+- **Panel taxonomy extension**: soft/upholstered panels as a bedroom headboard substitute (coziness + acoustic damping); veneered panels, formerly commercial-only, now increasingly residential.
+- **Baguettes/moldings flagged as a declining trend with a resale-value caution** — the presenter would skip them if planning to sell within 10 years.
+- **Fresco explicitly predicted to decline despite currently being at peak popularity.**
+
 ## Paint vs. Wallpaper vs. Paintable Wallpaper — Full Three-Way Comparison (Петришин-Строй, added 2026-08-24, Round 4)
 
 > [!NOTE]

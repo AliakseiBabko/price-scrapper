@@ -162,6 +162,25 @@ don't move furniture or appliances themselves (movers' scope, even on
 direct client request); warn occupants before re-entering a room
 mid-task. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
 
+## Sourcing a Cleaner as a Renovation Client — a Fourth, Independent Perspective (added 2026-08-28)
+
+Konstantin Kruglov (Ontario, a turnkey renovation company — the buyer
+side of this relationship, distinct from the three cleaner-practitioner
+sources above) states his own company deliberately does **not** offer
+post-renovation cleaning in-house, after trialing "a large number" of
+private cleaners and both small and large cleaning companies over time
+without finding one it could work with long-term free of recurring
+damage complaints (chemical-solution damage to laminate, wallpaper,
+walls; scratches). Clients must source their own cleaner. **A named
+cost-tension example**: a cheap cleaner (~20,000 RUB, ≈$220) scratched a
+cooktop during an hourly clean, with the resulting damage-repair cost
+framed as falling back on the client despite the low quote, versus a
+cleaner confident enough to quote roughly double (~40,000 RUB, ≈$440)
+for reliably careful work — offered as the real cost/risk tradeoff
+behind hiring a post-renovation cleaner, not evidence that either figure
+is a safe threshold. `single-account`, converted at the trailing-6-month
+USD/RUB mean before 2024-10-11 (90.0715 RUB/USD). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hfJa_QNaN6c_kruglov_consumables_25_percent_budget|hfJa_QNaN6c]]]
+
 ## Occupational Health and Equipment
 
 Ирина Илёнова's account is the only one of the three to explicitly frame
@@ -206,3 +225,7 @@ dissolve) under the solvents/acids this work uses. `single-account`.
   sources, 1 content-free skip) targeting a topic with zero prior vault
   coverage per an explicit full-vault gap analysis. Linked from
   `Budgeting_Guide.md`.
+- 2026-08-28 — Added a fourth, independent client-side perspective
+  (Konstantin Kruglov/Ontario, Round 11 of this channel's intake): why a
+  turnkey renovation company might deliberately not offer in-house
+  cleaning, and a cheap-vs-careful-cleaner cost/risk anecdote.

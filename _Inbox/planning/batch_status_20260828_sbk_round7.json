@@ -1,0 +1,36 @@
+{
+  "channel": "@sbk.remont (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, Vladimir Amelchenko)",
+  "round": 7,
+  "created": "2026-08-28",
+  "videos": {
+    "jfjW3Jf4hEM": "integrated",
+    "dfXZ66EcGQQ": "integrated",
+    "3GvLuU2x7wU": "integrated",
+    "7g73oy1tKTI": "integrated",
+    "mLyxUEp1a68": "integrated",
+    "Z-jk95jveGg": "integrated",
+    "pyew_HmvSOE": "integrated",
+    "2m1aVlTj4ZU": "integrated"
+  },
+  "round_yield": {
+    "fact_yield_per_video": {
+      "jfjW3Jf4hEM": 11,
+      "dfXZ66EcGQQ": 9,
+      "3GvLuU2x7wU": 3,
+      "7g73oy1tKTI": 4,
+      "mLyxUEp1a68": 5,
+      "Z-jk95jveGg": 5,
+      "pyew_HmvSOE": 9,
+      "2m1aVlTj4ZU": 6
+    },
+    "total_facts": 52,
+    "videos": 8,
+    "facts_per_video": 6.5,
+    "prior_round_facts_per_video": 5.875,
+    "change_pct": "+10.6%",
+    "rate_limit_encountered": false,
+    "all_videos_full_or_partial": true,
+    "partial_extractions": ["3GvLuU2x7wU (overlaps existing vacation-mode panel note)"],
+    "no_video_skipped_or_archived": true
+  }
+}

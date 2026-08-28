@@ -2,6 +2,8 @@
 
 General kitchen configuration/layout decisions — distinct from [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]], which covers cabinet/countertop assembly technique. Room-specific requirements/dimensions for this project's own kitchen live on [[03_Kitchen/Kitchen_Index|Kitchen Index]].
 
+See [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring Guide]] for a kitchen-specific worst-to-best 8-material flooring ranking (quartz-parquet, engineered/parquet board, porcelain tile, MSPC composite, LVT, SPC, water-resistant laminate) — added 2026-08-28, Konstantin Kruglov/Ontario.
+
 ## Large Open Kitchen-Living Layout: Split Function Instead of One Continuous Run (added 2026-08-19)
 
 > [!NOTE]
@@ -68,7 +70,7 @@ A dedicated small-kitchen guide, distinct from the placement/layout content abov
 - **Evolution of the open-plan trend, useful framing**: kitchen+dining+living historically separated into three connected rooms → dining room absorbed into the kitchen as formal table-service time shrank → living room also absorbed, producing today's studio/open-plan kitchen-living-dining structure. Frames *why* the open-plan trend happened, not just that it did.
 - **Kitchen size floor and range** (Neufert-sourced, house context, generalizes as a reference range): minimum kitchen area **8m²**; for a mid-size home, target **12-20m²** (20m² if dining table is included in the kitchen, 12m² if dining lives elsewhere). **Minimum comfortable single-row cabinet run length: 7m.**
 - **⚠️ Functional-use time breakdown**: storage ~20%, food-prep/cutting (needs open countertop) ~25%, dishwashing ~20%, heat-treatment (cooking) ~20%, eating ~15%. **Reasoning point**: prep-surface time (25%) exceeds eating time (15%), yet most non-professionals plan a kitchen by prioritizing the dining table first — argued to be backwards. The source separately flags this breakdown as dated (traditional literature) and argues modern lifestyle (more delivered food, less home cooking) has shifted dishwashing to outweigh cooking time in practice — `single-account`, `unverified` nuance, not fully reconciled with the base percentages.
-- **Work triangle (fridge-sink-stove) side-length rule: each side ≤1.5m.** Explicit food/task flow: fridge → prep surface → sink → prep surface → stove → table → back to fridge (leftovers) — every triangle side doubles as a prep-surface run, not just a connector.
+- **Work triangle (fridge-sink-stove) side-length rule: each side ≤1.5m.** Explicit food/task flow: fridge → prep surface → sink → prep surface → stove → table → back to fridge (leftovers) — every triangle side doubles as a prep-surface run, not just a connector. **⚠️ Numeric variance, not resolved**: a later Konstantin Kruglov/Ontario source (`YT_A1mvvVObK5M`, added 2026-08-28) states the same three work-triangle zones (fridge, sink, stove) should sit **1-2.5m apart** — a noticeably looser upper bound than this 1.5m figure. Both figures recorded, attributed to their own source, as a genuine cross-source numeric disagreement rather than picking one.
 - **Single-row access order from the entry**: fridge first (grocery-carry reason above), then sink, then stove.
 - **Two-row (galley) corner-avoidance rule**: don't put the sink in the corner nearest the kitchen's entry door (concentrates traffic/blocks entry) — free that corner for the fridge, place the sink further down the run instead.
 - **⚠️ Window-placement debate, a real unresolved design tension**: traditional guidance puts the **prep surface** under the window (max light for fine hand-work); the current trend instead puts the **sink** under the window. Choosing the sink-at-window option has a real infrastructure cost — see the radiator-relocation note on [[12_Engineering_and_Systems/analysis/Heating_Placement_Rules|Heating Placement Rules]].
@@ -79,6 +81,25 @@ A dedicated small-kitchen guide, distinct from the placement/layout content abov
 
 `single-account`, `unverified` throughout unless noted. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|YT_Ubl--73gmTs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0783KWcK4Co_zlobin_kitchen_practice_pt2|YT_0783KWcK4Co]]]
 
+## Kitchen-Living Combined Room Sizing and Island Minimum-Size Variance (added 2026-08-28)
+
+> [!NOTE]
+> From a real-project walkthrough by a different on-camera presenter (Nikita Kuznetsov) on the same Ontario channel. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
+
+- **Kitchen-living combined room sizing, a whole-room figure distinct from the kitchen-only range above**: budget roughly **12-17 m²** of combined floor area to fit a sofa, TV, and full kitchen zone into one shared room.
+- **⚠️ Island minimum room size, a real numeric disagreement with this store's existing island-sizing rule**: this source recommends an island **only in rooms ≥30 m²** — considerably larger than the existing rule on [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]] ("An island is only appropriate in kitchens ≥14 m²"). Both figures recorded, attributed to their own source, rather than merged.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
+
+## Real-Project Prep-Zone Sizing Defect (added 2026-08-28)
+
+> [!NOTE]
+> A real-project defect critique, cross-checked against the work-triangle content above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
+
+- **⚠️ Real-project defect: an oversized (4-burner) cooktop choice left too little counter space on both sides** (sink-to-cooktop gap and cooktop-to-coffee-machine gap) for a young, actively-cooking household — no room remained for occasional-use appliances (grill, waffle iron). **Match cooktop size to actual household cooking volume rather than defaulting to the largest available cooktop.**
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
+
 ## Source Notes
 
 - **How Not to Design a Large Kitchen — Island vs. U-Shape vs. Split-Bar Layout** (Zemsproekt/Zemstandart, #001, 2018-11-27, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BUfY5YcnN-U_large_kitchen_layout_island_vs_split_001|extraction note]].
@@ -87,6 +108,9 @@ A dedicated small-kitchen guide, distinct from the placement/layout content abov
 - **Kitchen Layout // Part 1 (Theory)** — adjacency, functional-use statistics, work triangle, layout types, window-placement debate (Архитектор Виталий Злобин, 2020-02-22, added 2026-08-25) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|extraction note]].
 - **Kitchen Layout // Part 2 (Practice — 13x14m single-story house)** — partial extraction, house-specific floor plan not carried forward; two generalizable numeric points only (Архитектор Виталий Злобин, 2020-03-19, added 2026-08-25) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0783KWcK4Co_zlobin_kitchen_practice_pt2|extraction note]].
 - **Client Workflow Interview** — countertop bump-out hazard (added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|extraction note]].
+- **Top 10 Kitchen Design Mistakes** — work-triangle distance variance (Konstantin Kruglov/Ontario, 2025-05-17, added 2026-08-28, Round 9 video 2) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A1mvvVObK5M_kruglov_top10_design_mistakes|extraction note]].
+- **Top Solutions for a Modern Kitchen** — real-project prep-zone sizing defect (Konstantin Kruglov/Ontario, 2025-01-24, added 2026-08-28, Round 9 video 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|extraction note]].
+- **TOP 10 Popular Kitchen Renovation Mistakes** — kitchen-living sizing, island-size variance (Konstantin Kruglov/Ontario, presenter Nikita Kuznetsov, 2023-11-08, added 2026-08-28, Round 9 video 5) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|extraction note]].
 
 ## Change Log
 

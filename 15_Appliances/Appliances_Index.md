@@ -16,7 +16,9 @@ Central home for all appliance-domain content: cross-room preferences/rules, cat
 - **[[Kitchen_Appliance_Sets]]** — four budget/feature tiers, visual column comparison (oven+microwave stack).
 - **[[Kitchen_Hoods]]** — all researched hood candidates.
 - **[[Kitchen_Water_Filtering]]** — under-sink RO system options (no selection made yet).
-- **[[Kitchen_Dishwashers]]**, **[[Kitchen_Disposers]]**, **[[Kitchen_Refrigerators]]** — category pages, not yet filled.
+- **[[Kitchen_Refrigerators]]** — general buying-guide research (types, cooling systems, compressor economics, price/brand tiers) added 2026-08-28 from Konstantin Kruglov/Ontario's channel intake, alongside this project's own pre-existing Liebherr selection.
+- **[[Kitchen_Dishwashers]]** — general buying-guide research (width standards, wash-quality drivers, drying types, price/brand tiers) added 2026-08-28 from Konstantin Kruglov/Ontario's channel intake, alongside this project's own pre-existing Bosch selection.
+- **[[Kitchen_Disposers]]** — category page, not yet filled.
 - **Analysis**: [[Hood_Analysis]] (multi-source shaft-capacity/extraction research), [[FlexZone_Analysis]] (induction cooktop zone comparison), [[Filtration_Systems_Analysis]] (not yet filled).
 - **Selected models**: [[Bosch_HBG7764B1_Oven]], [[Bosch_BFL7221B1_Microwave]], [[Bosch_PIF63KHC1E_Cooktop]], [[Bosch_SMV8YCX02E_Dishwasher]], [[Bosch_DHL555BL_Hood]].
 

@@ -74,6 +74,8 @@ Konstantin Kruglov / Ontario states three governing principles behind this chann
 
 **Panel "modes" — a second named mode beyond vacation/away**: a **"winter" mode** that disconnects air-conditioner circuits specifically to prevent an accidental cold-weather AC startup (which can damage the unit), in addition to the existing vacation-mode exception list (fridge, router, leak-protection, alarm stay live).
 
+**Physical implementation alternative, corroborating the vacation/away-mode concept above (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 7)**: a dedicated "master switch" (мастер-выключатель) — an ordinary wall switch wired through a contactor — cuts all lighting (and optionally selected outlet circuits) with one press on the way out, while fridge/router/AC stay on the same always-on exception logic as the vacation-mode note. **Parts and cost**: switch + contactor + breaker, ≈3,000 RUB (≈$40) total. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_3GvLuU2x7wU_sbk_master_switch|YT_3GvLuU2x7wU]]]
+
 **Never use non-original/counterfeit breakers or RCDs to cut panel cost** — the correct lever is optimizing circuit grouping (e.g. combining WC + bathroom lighting onto one shared breaker), not downgrading device authenticity. **RCD+breaker combo vs. 3 separate RCBOs is roughly 3x cheaper** for equivalent protection (sharpens this page's existing shared-RCD-vs-RCBO cost note with a specific multiplier).
 
 **⚠️ Electrical-point density benchmark, from the company's own 30-project design sample: ~0.85 electrical points per m²** (a "point" = any outlet, switch, dimmer, underfloor-heating thermostat, HDMI outlet, or low-voltage/network outlet). Worked example: a 50 m² apartment needs at least 42 points; more is fine, less is not recommended.
@@ -255,3 +257,12 @@ Pavel Sidorik, same project (Belarus level 1 — direct statement that fiber-opt
   the company moved to ВВГнг-LS specifically, not merely GOST-certified
   cable in general.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VqrXg-tDRO8_petrishin_plastering_electrical_secrets|YT_VqrXg-tDRO8]]]
+
+## Real-World Circuit-Separation Failure Case, From a Third-Party Flip Teardown (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 7)
+
+Vladimir Amelchenko, reacting to a third-party flipper's own renovation-reveal video, names a concrete real-world illustration of why this page's existing circuit-separation guidance matters in practice, not just in theory:
+
+- **⚠️ Worked failure case: one undersized panel with no circuit separation** — all apartment lighting on a single breaker, no separate breaker for outlets by room, no dedicated breaker for the dishwasher. Named concrete consequence: when the dishwasher fails and trips the breaker it shares with unrelated outlets, everything on that shared breaker stops working — potentially half a kitchen's outlets — until the appliance is fixed or unplugged, not just the appliance's own circuit.
+- **⚠️ Standard breaker installed in place of an RCD (УЗО), named safety consequence**: without an RCD, a fault current to a metal appliance casing does not trip protection before a person touching the casing completes the circuit through their body — named explicitly as a potentially lethal risk for a small child.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jfjW3Jf4hEM_sbk_flipping_teardown|YT_jfjW3Jf4hEM]]]

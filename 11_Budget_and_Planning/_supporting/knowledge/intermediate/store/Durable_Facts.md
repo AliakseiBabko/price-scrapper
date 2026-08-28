@@ -2953,3 +2953,105 @@ Mirrored here for cross-source traceability; added directly to [[12_Engineering_
 - **Preventive rule**: install both check valves at initial installation time, regardless of topology.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v-SdLOVwRS4_sbk_hot_water_in_toilet_tank|v-SdLOVwRS4]]]
+
+## Mistakes / Warnings — Flip-Renovation Defect Pattern, Full Worked Cost Case (new channel Round 7, added 2026-08-28)
+
+Vladimir Amelchenko reacts to a third-party flipper's own renovation-reveal video and ties eight named technical defects to a single worked cost example:
+
+- **⚠️ Worked example: what a "successful flip" costs the eventual buyer**: apartment bought for 13,000,000 RUB (≈$145,000), renovated for a stated 1,200,000–1,375,000 RUB (≈$13,300–$15,300), resold for 16,800,000 RUB (≈$187,000) — the buyer's price effectively embeds ≈3,800,000 RUB (≈$42,200) attributed to "renovation," roughly triple the flipper's own genuine cash spend. Named conclusion: at the buyer's effective ≈85,000 RUB/m² (≈$950/m²), they receive construction quality worth roughly 25,000 RUB/m² (≈$280/m²) — below this speaker's own stated genuine-quality floor of 35,000 RUB/m² (≈$390/m²) for the same city/segment.
+- **⚠️ No-conduit exposed ceiling cable** is named as a 100% economy-class tell, independent of how the ceiling looks once covered.
+- **⚠️ Electrical installed before plastering** (same order-of-operations defect as Round 6's `JeRGrHsv07U` and this round's video 3) signals the crew likely skips guide-rail (маяки) plastering, so walls won't end up flat.
+- **⚠️ Old developer riser pipes left unreplaced** on a ≈30,000 RUB (≈$330) total plumbing budget — a real flood risk to the unit and neighbors, expensive to fix later once the bathroom is finished (would require breaking tiled surfaces to regain access).
+- **⚠️ No leak-protection system and no manifold (коллектор)** on the same ≈30,000 RUB plumbing budget: no auto-shutoff means an undetected leak floods until a plumber manually closes the risers; a tee-branch (not manifold) layout means one occupant's kitchen tap use can cause a scalding pressure/temperature spike for someone showering elsewhere in the unit.
+- **⚠️ No inline/mainline water filters**: any water-quality problem (e.g. rust) passes straight through to fixtures/appliances, accelerating wear and repair frequency.
+- **⚠️ Thick foam underlayment under laminate as an un-leveled-floor workaround, not a soundproofing choice** — floors were never leveled/screeded; the thick underlay visually compensates for humps/dips but predictably fails within 1-2 years (creaking, seam separation). Quartz-vinyl is avoided in this kind of flip specifically because its stricter subfloor-flatness requirement would fail on an un-leveled floor — its absence is itself a diagnostic signal.
+- **⚠️ Painted walls without crack-isolation prep**: predicted to crack by the speaker before the outcome was shown, then confirmed cracking on camera within the same source video.
+- **⚠️ Undersized panel with no circuit separation and no RCD**: mirrored directly into `12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design.md` (new dishwasher-fault-cuts-shared-outlets illustration and RCD child-shock-hazard point).
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jfjW3Jf4hEM_sbk_flipping_teardown|jfjW3Jf4hEM]]]
+
+
+## Planning Rules / Budget — Why a Discount Structurally Backfires: Tax-Bracket Cliff Economics (new channel Round 7, added 2026-08-28)
+
+Vladimir Amelchenko, extending this store's existing ≈30-35%-margin/segment-sorting note from `AosCvLCh6WA` with a sharper revenue split and a wholly new tax-regime mechanism:
+
+- **⚠️ Named revenue split**: market-typical is 70% of the total estimate to crew+foreman labor, 30% to the company (revenue, not net profit) — a 20% discount off the whole estimate is modeled as coming entirely from the company's 30% share, consuming two-thirds of it (30% -> 10%).
+- **⚠️ Russian simplified-tax (УСН, доходы) mechanism**: 7% of total revenue in tax (6% base + 1% surcharge once annual turnover exceeds 300,000 RUB, ~$3,300) — leaving only 3% of the original estimate as pre-expense margin after a 20% discount.
+- **⚠️ Fixed monthly operating-cost floor, itemized**: advertising 300,000-1,000,000 RUB/month (~$3,300-$11,000), office rent ~50,000 RUB (~$550), 3 sales managers at 80,000-100,000 RUB each, in-house accountant 50,000-80,000 RUB, in-house lawyer ~50,000 RUB — total minimum ~690,500 RUB/month (~$7,600).
+- **⚠️ Worked breakeven-turnover conclusion**: needs ~23,000,000 RUB/month (~$254,000), ~276,000,000 RUB/year (~$3,048,000) in signed contracts just to break even at zero profit while offering a 20% discount.
+- **⚠️ Tax-bracket-cliff mechanism**: the cheaper flat-fee patent system (ПСН) caps annual turnover at ~60,000,000 RUB (~$663,000), far below the ~276M RUB breakeven turnover above; exceeding ~265,800,000 RUB/year (~$2,936,000) on УСН forces the general tax regime, adding 20%-of-turnover VAT (НДС) on top of the 7% — turning the calculated break-even into a real loss.
+- **Quality-degradation feedback loop**: shrinking company margin drives hiring cheaper/lower-skilled staff to preserve some profit, worsening build quality, increasing disputes/litigation, adding further cost — a self-reinforcing loop.
+- **Named illegal fallback pattern (not endorsed by the speaker)**: shifting to cash-only client payment and under-reporting revenue to dodge the higher-tax-bracket threshold.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dfXZ66EcGQQ_sbk_discount_renovation_bad_idea|dfXZ66EcGQQ]]]
+
+
+## Electrical — Master Switch: Physical Implementation and Cost (new channel Round 7, added 2026-08-28, partial - overlaps existing vacation-mode note)
+
+Mirrored here for cross-source traceability; added directly to [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Cable_Circuits_and_Panel_Design.md]] (corroborates that page's existing Kruglov/Ontario vacation/away-mode exception list from a second company, with a physical parts list and cost):
+
+- A "master switch" (мастер-выключатель) is an ordinary wall switch wired through a contactor to cut all lighting (and optionally selected outlets) with one press — fridge, router, and AC stay on the same always-on exception logic as the existing vacation-mode note.
+- **Parts and cost**: switch + contactor + breaker, ~3,000 RUB (~$40) total.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_3GvLuU2x7wU_sbk_master_switch|3GvLuU2x7wU]]]
+
+## Materials — Cement-Based Floor Leveler Is Incompatible With a Wood Subfloor (new channel Round 7, added 2026-08-28)
+
+- **⚠️ Named categorical rule**: standard finish-leveling compound (финишный ровнитель) formulated for cement/gypsum-bound screeds must never be poured directly over a wood subfloor — an absolute rule, not case-by-case.
+- **⚠️ Named mechanism**: cement/gypsum screed is dense, rigid, dimensionally stable; wood expands/contracts/absorbs moisture with humidity changes. Once a rigid cement-based leveler is poured over wood and the wood swells, the leveler cracks/detaches because it cannot flex with the substrate.
+- **Correct product**: wood subfloors require a specialized, elastic ("works like rubber") wood-compatible leveler that flexes with normal wood movement.
+- **Practical mitigation**: if a crew is pouring (or about to pour) a standard cement/gypsum leveler over a wood subfloor, stop the work immediately and bring in a specialist in wood-substrate leveling.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7g73oy1tKTI_sbk_self_leveling_floor_wood_mistake|7g73oy1tKTI]]]
+
+## Plumbing — Recessing an Exposed Towel-Warmer Riser and Transit Pipe (new channel Round 7, added 2026-08-28)
+
+Mirrored here for cross-source traceability; added directly to [[12_Engineering_and_Systems/analysis/Hygienic_Shower_and_Towel_Warmer|Hygienic_Shower_and_Towel_Warmer.md]]:
+
+- **⚠️ Named recessing technique**: chase the wall, cut the existing riser stack, weld or press-fit a sleeve at the cut point, route the towel-warmer branch and riser continuation fully inside the wall cavity.
+- **⚠️ Transit-pipe rerouting** where full wall-recessing isn't possible: route it into a drop/stretch ceiling void instead.
+- **⚠️ Named cost breakdown**: ~15,000 RUB (~$200) welder labor + ~15,000 RUB (~$200) consumables/demolition = ~30,000 RUB (~$400) total.
+- **Inferior fallback**: a furniture-style box around exposed pipes, discouraged as typically looking poor vs. full recessing.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mLyxUEp1a68_sbk_conceal_bathroom_pipes|mLyxUEp1a68]]]
+
+## Electrical / HVAC — Bathroom Exhaust Fan Control Modes and a Late-Stage Wiring Trap (new channel Round 7, added 2026-08-28)
+
+Mirrored here for cross-source traceability; added directly to [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh_Air_Ventilation_and_Ducting.md]]:
+
+- **⚠️ Three control modes**: light-switch-tied (fan stops when light does); own separate switch (relies on occupant remembering to turn off); **turbo-timer fan** (auto-runs a fixed delay after power cut, then auto-shuts-off) — solves both prior tradeoffs.
+- **⚠️ Named wiring-scheme difference**: standard fan = 2-wire terminal block (like a light); turbo-timer fan = 3rd terminal carrying continuous phase power to the timer circuit, separate from the switched phase.
+- **⚠️ Real unfixable-late defect**: a turbo-timer fan cannot be retrofitted into standard-fan wiring once the ceiling/tile finishes are done — must be decided at design/rough-in stage.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z-jk95jveGg_sbk_turbo_timer_exhaust_fan|Z-jk95jveGg]]]
+
+## Planning Rules / Budget — Five Named Causes of Rising Renovation Prices (new channel Round 7, added 2026-08-28)
+
+Vladimir Amelchenko names five macro/structural causes of renovation price inflation (2021 market conditions), distinct from `dfXZ66EcGQQ`'s seller-side tax-bracket-cliff argument in this same round:
+
+- **⚠️ Tool-cost inflation pass-through**: a small power tool that cost ~40,000 RUB (~$540) two months prior had risen to ~60,000 RUB (~$810) by filming — attributed to metal-price spikes/component demand, passed directly into labor rates.
+- **General cost-of-living inflation** (fuel, consumables) raises overall company operating costs, passed into labor pricing.
+- **⚠️ Demand-rush behavior**: clients with a fixed budget rush to spend it immediately during visible inflation, reasoning the same money buys less renovation in 2-3 months — compounds ordinary seasonal demand.
+- **⚠️ Skilled-labor shortage**: near-total disappearance of vocational training producing new tradespeople; migrant labor doesn't reliably fill the skill gap — lets in-demand tradespeople raise rates.
+- **⚠️ Social-media-driven quality/tooling-cost spiral**: showcased high-end finishes raise client expectations without clients realizing the tooling investment behind them — worked example: entering the large-format porcelain-tile installation market requires ~400,000 RUB (~$5,400) minimum tooling, so rising demand for that finish structurally raises its labor rate.
+
+**Four buyer countermeasures** (two are new, two corroborate `33b61qeO_XY`'s existing budget-buffer/scope-creep principles, not double-counted):
+- Renovate in the off-season (January-February) when companies discount; avoid the pre-New-Year demand peak.
+- Don't chase the lowest bid — an anomalously low price during a high-demand period is itself a competence red flag, since tool/demand pressures are roughly market-uniform.
+- *(Corroborates `33b61qeO_XY`)* Keep a 20-30% budget buffer against mid-project material price spikes.
+- *(Corroborates `33b61qeO_XY`, new mechanism)* Mid-project material upgrades (e.g. 20x30cm to 60x120cm tile) raise not just material cost but the installation labor rate itself (cited: roughly doubling, ~1,000 to ~2,000 RUB/m²) — large-format installation is a distinct, more specialized skill/tooling requirement.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pyew_HmvSOE_sbk_why_prices_rising|pyew_HmvSOE]]]
+
+## Mistakes / Warnings — Diagnosing and Fixing a Binding Deadbolt (new channel Round 7, added 2026-08-28, final video)
+
+Mirrored here for cross-source traceability; added directly to [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance_Doors.md]]:
+
+- **⚠️ Named root cause**: a deadbolt/latch pin striking the metal frame strike-hole slightly off-center — locks, but with resistance.
+- **⚠️ Named diagnostic technique**: graphite-pencil-coat each bolt, tape over each frame strike-hole, cycle the lock, read the graphite transfer marks on the tape to pinpoint the contact point.
+- **⚠️ Named fix**: locally ream/enlarge the strike-hole with a metal reaming bit only at the marked contact point, then deburr with a knife/file.
+- **Cost**: combined tool/consumable cost well under ~500 RUB (~$10).
+- **⚠️ Manufacturer-authorization claim**: door manufacturer documentation reportedly permits on-site strike-hole adjustment.
+- **⚠️ Safety warning grounded in a real anecdote**: metal-shaving eye injury from reaming without safety glasses, requiring a doctor visit (~700 RUB, ~$10) — always wear safety glasses when reaming.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2m1aVlTj4ZU_sbk_sticking_door_lock_fix|2m1aVlTj4ZU]]]

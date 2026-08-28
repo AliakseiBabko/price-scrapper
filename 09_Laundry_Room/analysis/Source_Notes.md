@@ -16,6 +16,11 @@ Laundry batch, added 2026-08-25 (6 videos, restructured this folder into the lay
 - **Laundry in a modern home — layout and design** (2024-11-06) — Архитектор Виталий Злобин / Architect Vitaliy Zlobin — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1NqrFHrIC3k_zlobin_laundry_modern_home|extraction note]].
 - **Where to install the washing machine?** (2020-08-28) — Ekaterina Popova / Дизайн Интерьера EkaterinaPopova — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BdztT9OUWVY_popova_where_to_install_washer|extraction note]]. Concrete placement dimensions across bathroom/hallway/kitchen sub-options.
 
+Kruglov/Ontario Round 10 (Appliances), added 2026-08-28:
+
+- **Which Washing Machine to Buy in 2026? Full buying guide** (2026-07-03) — Konstantin Kruglov/Ontario — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-PfMz_L6pmI_kruglov_which_washing_machine_2026|extraction note]]. First dedicated general washing-machine buying-guide video for this store; routed to a new "Washing Machine Selection Criteria" section on `Essential_Components_and_Layout.md`.
+- **How to Choose a Tumble Dryer for Your Home** (2025-11-21, Round 10 video 5) — Konstantin Kruglov/Ontario — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IuyGPfH85dg_kruglov_how_to_choose_tumble_dryer|extraction note]]. First dedicated general tumble-dryer buying-guide video for this store; routed to a new "Tumble Dryer Selection Criteria" section on `Essential_Components_and_Layout.md`.
+
 Full raw facts (including cross-references not repeated here) live in the
 `Laundry Room` / `Laundry Appliances` sections of
 [[11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index|store/_index.md]]

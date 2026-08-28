@@ -237,3 +237,15 @@ promotional ratio.
 - **⚠️ Ceiling-drop-by-zone, independently corroborating the Forcemontage real-project figure above (~350mm technical zone)**: general ducted-run areas lose roughly 12-15cm of ceiling height; rooms specifically housing ventilation equipment (air handling unit, mufflers/silencers — named examples: hallway, bathroom, utility room) lose 30-40cm, materially more. A second, separately-sourced project landing in the same 300-400mm equipment-zone range as Forcemontage's 350mm figure.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pwI058vcXP8_sbk_seamless_flooring_screed_prep|YT_pwI058vcXP8]]]
+
+## Bathroom Exhaust Fan: Control Modes and a Late-Stage Wiring Trap (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 7)
+
+Vladimir Amelchenko, demonstrating with two physical fan units opened on camera:
+
+- **⚠️ Three control modes**: (1) wired to the light switch — fan stops when the light does, so moisture clears slower once you leave; (2) wired to its own separate switch — can keep running after the light, but relies on the occupant remembering to switch it off; (3) **turbo-timer fan** — starts with the light/switch but keeps running a fixed delay (~30 seconds to a few minutes, model-dependent) after power is cut, then auto-shuts-off — solves both problems above.
+- **⚠️ Named wiring-scheme difference**: a standard fan's terminal block has exactly 2 connections (neutral, phase) wired like a light fixture. A turbo-timer fan's terminal block has a 3rd terminal carrying continuous (always-on) phase power to the timer circuit itself, separate from the switched phase that starts the fan.
+- **⚠️ Real, effectively unfixable-late defect**: because the two fan types need genuinely different wiring at the switch/junction box, a turbo-timer fan cannot be retrofitted into wiring only ever run for a standard fan once the ceiling/tile finishes are done — the decision must be made at design or rough-in stage.
+- **⚠️ Named real-world failure pattern**: clients commonly buy (or upgrade to) a turbo-timer fan only at the very end of a renovation, once ceiling/tile are finished — by then the wiring can't be corrected without demolition.
+- **Mitigation**: decide the specific fan type before ceiling/tile finishing begins, not as a final-stage purchase decision.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z-jk95jveGg_sbk_turbo_timer_exhaust_fan|YT_Z-jk95jveGg]]]

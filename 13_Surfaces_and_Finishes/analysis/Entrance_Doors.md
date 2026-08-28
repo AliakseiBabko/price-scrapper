@@ -164,6 +164,20 @@ the companion video stating "Минск" directly):
   means; the separate turn-knob still opens from outside with a key.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_CVTf-a4XIEI_sidorik_install_metal_entrance_door_diy|YT_CVTf-a4XIEI]]]
 
+## Diagnosing and Fixing a Binding Deadbolt (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 7)
+
+Vladimir Amelchenko, addressing the same "deadbolts must engage without binding" acceptance criterion named above, with a concrete DIY fix when that criterion fails after handover:
+
+- **⚠️ Named root cause**: a deadbolt/latch pin (ригель) striking the metal frame strike-hole slightly off-center — the door still locks, but with resistance, because the bolt contacts metal at its edge rather than passing cleanly through its clearance hole.
+- **⚠️ Named low-cost diagnostic technique**: coat each bolt's perimeter with graphite pencil; cover each frame strike-hole with painter's tape stretched flat; close the door firmly and turn the lock through its full motion; inspect the tape for graphite transfer marks, which pinpoint exactly where the bolt is contacting the frame.
+- **⚠️ Named fix**: use a metal reaming/grinding bit (шарошка) in a hand drill to locally enlarge/reshape the strike-hole opening only at the marked contact point(s) — not a full re-drill.
+- **Finishing step**: deburr the reamed opening's rough edges with a utility knife or file.
+- **Parts/tool list and cost**: hand drill (rentable, ≈200 RUB), painter's tape (≈50 RUB), construction pencil, utility knife (≈18 RUB), metal reaming bit (≈100 RUB), safety glasses (≈100 RUB) — combined well under ≈500 RUB (≈$10 combined).
+- **⚠️ Manufacturer-authorization claim**: the source states the door manufacturer's own documentation explicitly permits on-site strike-hole adjustment as needed — not an off-manual workaround.
+- **⚠️ Safety warning, grounded in a real personal anecdote**: the speaker describes being struck in the eye by metal shavings while reaming a door frame early in his career, requiring a doctor visit days later (≈700 RUB, ≈$10) — and reports the treating doctor saw this injury pattern often, including installers who lost an eye or their vision. **Always wear safety glasses when reaming.**
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2m1aVlTj4ZU_sbk_sticking_door_lock_fix|YT_2m1aVlTj4ZU]]]
+
 ## Manufacturer Pricing Tiers
 
 Novakey says: **One manufacturer's own 6-tier product-catalog walkthrough** (the highest-promotional-density source in this batch), RUB, 2026: Optima 65,000–90,000 RUB (45 dB soundproofing); Master 77,000–120,000 RUB (55 dB); Comfort Pro 116,000–200,000 RUB (58 dB); Professional 148,000–280,000 RUB (65 dB, Italian locks); Smart (electronic lock, any tier) 85,000–380,000 RUB; Termo (thermal-break) from 94,000 RUB. This manufacturer's own stated prices — brand-specific, not a market-wide benchmark.

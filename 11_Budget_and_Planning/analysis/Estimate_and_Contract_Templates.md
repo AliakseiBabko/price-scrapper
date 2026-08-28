@@ -167,6 +167,23 @@ exists*.
   result, useful context when sanity-checking a smeta's own tile line
   item. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|YT_mvc_zbjfBWQ]]]
 
+- **⚠️ Two named smeta/contract psychological traps, per Kruglov/Ontario
+  (added 2026-08-28)**: (1) a fake "with-discount" price presented
+  alongside a "without-discount" price where the "discounted" figure is
+  actually just the honest sum of the line items shown (no real discount
+  exists) — the client checks one or two individual line rates against a
+  competitor, finds them plausible, and doesn't re-sum the full list to
+  catch the trick; (2) a large advertised discount (worked example: 20%
+  off 1,000,000 RUB) structured in the contract so it is **withheld until
+  the final payment act**, with every earlier act invoiced at full price
+  — since a company already incentivized to avoid finishing a project
+  (see `Budgeting_Guide.md`'s rough/finish bait-and-switch note) has every
+  reason never to reach that final act, the advertised discount is often
+  never actually collected. **Mitigation**: re-sum a smeta's own line
+  items before trusting a stated "with discount" total, and read a
+  discount clause's payment-timing structure, not just its headline
+  percentage. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|YT_rzpkTJYsY0Q]]]
+
 ## Gaps
 
 - Neither of this page's two new sources contains a **real, downloadable
@@ -195,3 +212,4 @@ exists*.
 - [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cdNwbqsLUK4_remonthochu_smeta_methodology|РемонтХочу — smeta-literacy methodology]] (2024-11-14).
 - [[11_Budget_and_Planning/_supporting/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case Study]].
 - [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|Maxim Novikov — design-project structure and staged-approval cost rationale]] (2020-12-01).
+- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|Konstantin Kruglov/Ontario — smeta wording-ambiguity traps and discount tricks]] (2025-06-27).
