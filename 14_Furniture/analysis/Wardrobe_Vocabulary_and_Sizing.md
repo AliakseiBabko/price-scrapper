@@ -29,4 +29,40 @@ The most practical configuration is **3-tier**: bottom 50cm (shoes), a hanging r
 
 **Independent second-source data point, close but not identical (added 2026-08-25)**: Архитектор Виталий Злобин (unrelated channel, own country-house practice, `single-account`) states his own recently-updated default of **65cm depth, never less than 62cm**, reasoning from door-hardware/model variation plus combined rough+finish-layer thickness — landing in the same range as the 65-70cm figure above via a differently-framed rationale. **Adds a door-collision clearance not previously on this page**: where a door swings close beside a built-in wardrobe run, as little as ~70mm may remain to the narrowest door casing — a wardrobe built even a few centimeters deeper than planned can collide with the door; pair with a door stop/bumper for protection. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rxk1uXjnKJo_zlobin_clothing_storage_theory|rxk1uXjnKJo]]]
 
+## Interior Organizer Accessories (Kruglov, "50 Storage Ideas," added 2026-08-28, Round 13 triage)
+
+Konstantin Kruglov / Ontario, from a general apartment-wide storage
+catalog (not wardrobe-specific): **drawer organizers for underwear/
+socks** — pre-made inserts, or the same telescoping-divider hardware
+described for kitchen drawers, with the same reliability caveat (the
+divider itself holds well; the connecting crossbar/insert between two
+dividers is the weak point). **A watch storage box** is worth it once a
+household has 2+ analog watches (smartwatches that live on a charger
+don't need one) — loose watches otherwise scratch and collect dust in a
+drawer. **Vertical bag dividers work well specifically for bags, unlike
+folded-shirt stacks**: the same divider hardware sometimes marketed for
+stacking shirts performs poorly there (a top-heavy shirt stack bows a
+thin divider) but works well for bags, whose center of mass sits low and
+doesn't load the divider the same way. **Multi-level closet rods**:
+install upper and lower rod levels plus a dedicated long-garment zone
+(dresses, trousers) sized taller than the rest; an optional pantograph
+(pull-down) rod lift helps reach a high rod, especially for shorter
+users, but is worth skipping if it doesn't suit the household or is too
+expensive. **Storage-box selection sequencing**: choose a box/bin
+product line first (plastic vs. textile; clear-windowed vs. solid),
+*then* size the internal shelving/cubbies to that specific box's
+footprint, to use the full interior efficiently — textile boxes with a
+clear window show contents without opening; solid boxes can be labeled
+with adhesive tags instead. **Fabric/textile shoe-storage bags** are a
+higher-end alternative to cardboard shoe boxes for the portion of a
+shoe collection that doesn't fit the main wardrobe/entryway zone
+(seasonal off-rotation pairs). **Wheeled low bins** (on casters) suit a
+walk-in floor or under-bed storage, so the container rolls out rather
+than needing to be dragged or lifted. `single-account`, `unverified`.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qt5mQQ6W6Z4_kruglov_storage_50_ideas|YT_qt5mQQ6W6Z4]]]
+
 **Third independent data point, swing-vs-sliding distinction (LA BURO, turnkey Moscow bureau, added 2026-08-25)**: a **swing-door** wardrobe needs only **60-65cm** depth, while a **sliding-door** wardrobe needs **70cm** — the extra ~10cm covers the sliding-track mechanism itself, a distinction this page's existing 65-70cm/75-80cm figures (above) don't explicitly separate by door type. Lands at the low end of the existing sliding-door range, broadly consistent rather than conflicting. Also gives dresser/shelf-unit depth as **45-50cm** — deeper makes the back row hard to reach, a general framing consistent with Kodolov's ~40cm shelf-depth-for-retrieval rule above, applied specifically to dressers rather than wardrobe shelving. And corroborates the shoe-zone depth rule (35-40cm, "never 60cm") with its own **35-40cm, max 45cm** figure. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
+
+**Fourth data point — hanging-rod, drawer, and open-shelf depths named together with a matching-clothing caveat (Konstantin Kruglov / Ontario, added 2026-08-28)**: for a hanging-rod section, ideal depth is **60cm**, with **55cm** an acceptable compromise only after physically test-fitting the household's own actual garments on hangers — a shallower zone risks the door facade catching and creasing clothing on close, "a detail almost nobody thinks about." **Open shelves should be shallower, 35-45cm** — corroborating this page's existing ~35-40cm/40cm shelf-depth-for-retrieval rules above (Kodolov, LA BURO) via a third independent source, with the same reasoning (a 60cm-deep open shelf forces multi-row stacking, burying and losing track of whatever sits in the back row). **Comodo-style pull-out drawers get their own figure, 55-60cm** — deep enough for two rows of folded items facing the user on opening, distinct from the open-shelf figure precisely because a drawer's whole front row slides into view rather than needing to be seen from above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2rU14i9NqOk_kruglov_walkin_closet_dream_guide|YT_2rU14i9NqOk]]]
+
+**Shelf-height ladder by content type, new granularity within the existing 3-tier vertical layout (Konstantin Kruglov / Ontario, added 2026-08-28)**: within the "bulky/seasonal" shelf band above the 2m clothing-rod line, don't build uniform-height shelves throughout — size each shelf's height to what it holds. **Thin folded items (t-shirts): 18-25cm.** **Bulkier folded items (jeans, sweaters): 25-30cm.** **Bedding/towels: 30-40cm.** Kruglov's stated failure mode for uniform oversized shelves: the bottom ~30% of a too-tall shelf gets used, then items above either topple or crush what's underneath, leaving the rest of the shelf's height permanently wasted. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2rU14i9NqOk_kruglov_walkin_closet_dream_guide|YT_2rU14i9NqOk]]]

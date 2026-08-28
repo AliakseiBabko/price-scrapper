@@ -187,6 +187,16 @@ defaulting to it in a genuinely small room specifically:
 
 `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
 
+## Real-Project Critique: Oversized Sofa, TV Cable-Concealment Niche, Hands-Free Smart Controls (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**⚠️ A real, client-approved sofa consumed ~60% of the entire living room's floor area** — the presenter's own retrospective critique, sitting in the finished room, is that he would have chosen a smaller sofa and skipped the matching nightstand/console entirely, since a large sofa plus a large TV is genuinely all the room needs functionally. **A concrete, related planning miss on the same sofa**: no outlet was placed anywhere near/behind it, so charging a phone while seated isn't possible without an extension cord — worth checking outlet placement against the actual seating layout, not just wall perimeter convention.
+
+**TV cable-concealment niche, 15cm deep**: where a wall-mounted TV sits in a walkway zone (here, the path toward the bedroom), a 15cm-deep niche recessed into the wall lets the TV sit flush against the wall while fully concealing its cables — a concrete depth figure for this specific coordination problem.
+
+**Voice-controlled hands-free lighting/curtains for a kitchen-adjacent living space, a concrete cooking-scenario use case**: basic smart-home voice control (the presenter's example: "Alice, close the kitchen curtains") lets someone with flour- or dough-covered hands adjust curtains/lighting without touching a physical switch — a specific, relatable justification for voice control beyond generic "convenience," worth citing directly when justifying the added smart-home cost to a client.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+
 ## Change Log
 
 - 2026-08-25 — Page created, migrating the existing single-source

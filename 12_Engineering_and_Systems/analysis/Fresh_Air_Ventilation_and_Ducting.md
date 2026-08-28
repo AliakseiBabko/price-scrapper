@@ -4,6 +4,10 @@ Covers breathers vs. full mechanical ventilation, the shared-shaft constraint ki
 
 Prolife Invest's dated Moscow comparison puts a full ducted supply-and-exhaust ventilation system at **1.5–10 million RUB** as of 2026-07-29. Using the trailing six-month USD/RUB average of 76.4100, `1,500,000 ÷ 76.4100 = $19,630.94` and `10,000,000 ÷ 76.4100 = $130,872.92`, or **≈$19,600–≈$131,000** in the nearest-$100 and nearest-$1,000 buckets respectively. The same source gives a breather figure rendered as “1,350” without a confirmed unit; that number is **not computable** and is not converted. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DsdLa87Acz4_prolife_invest_moscow_flipping|extraction note]]]
 
+## Disguised Humidifier as a Decorative "Fireplace" — Moscow-Region Winter Dry-Air Recommendation (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+**⚠️ A humidifier built into a decorative fireplace-style housing** (an illuminated-vapor "flame" effect, no real fire, no fuel, no flue/vent requirement) recommended as close to a mandatory device for Moscow/Moscow-region apartments specifically — the source cites the region's severe winter indoor-air dryness from central heating as the reason, one of the few points in this channel's content with an explicit on-camera regional statement ("our climate, Moscow and Moscow region"). Framed as solving a genuine air-quality problem and a decor want at the same time, not a purely cosmetic gimmick. `single-account`, `unverified`, Moscow/Moscow region (level 1, named directly). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
+
 ## Whole-Apartment Airflow-Balance Design Methodology (added 2026-08-25)
 
 ADS-vent.ru (ventilation-design/installation company, worked teaching example, region unresolved — general engineering methodology, not jurisdiction-specific) walks through a complete supply+exhaust design sequence, genuinely different from the rest of this page's per-device/per-fixture content — this is the *coordination* methodology across an entire unit, not a single fixture's technique:

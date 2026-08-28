@@ -3055,3 +3055,309 @@ Mirrored here for cross-source traceability; added directly to [[13_Surfaces_and
 - **⚠️ Safety warning grounded in a real anecdote**: metal-shaving eye injury from reaming without safety glasses, requiring a doctor visit (~700 RUB, ~$10) — always wear safety glasses when reaming.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2m1aVlTj4ZU_sbk_sticking_door_lock_fix|2m1aVlTj4ZU]]]
+
+## Fixed Partition Wall Construction — 5-Material Comparison (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+> [!NOTE]
+> Genuinely new sub-topic for this vault — fixed/masonry-type partition
+> wall construction material selection (brick, gypsum block, silicate
+> block, foam block, drywall), distinct from the existing
+> `17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms.md`
+> page (movable/sliding partitions only). Below the 3+-source
+> page-creation threshold — flagged in `Pending_Wiki_Page_Decisions.md`.
+> Prices converted at the trailing-6-month USD/RUB mean before this
+> video's 2025-01-31 upload date (96.3695), rounded per this project's
+> bucket convention.
+
+**5 materials compared across 8 criteria** — finished thickness, unit
+weight, weight per 100m² of wall, material cost per 100m², install-
+labor cost per 100m² (and per m²), install speed, airborne sound
+insulation (dB), and dowel/fastener pull-out strength (kg/m²):
+
+- **Brick** (half-brick, 120mm core + 15mm plaster each side):
+  **150mm finished** (thickest of the five), **~23 tonnes per 100m²**
+  (by far the heaviest), material cost ≈200,000 RUB/100m² (≈$2,100,
+  excl. plaster), install labor ≈350,000 RUB/100m² ≈3,500 RUB/m²
+  (≈$3,600 / ≈$40 per m², plaster labor extra and unquantified),
+  **slowest to build**, **47 dB airborne sound insulation** — and
+  **highest fastener pull-out strength at 150 kg/m² (called genuine
+  overkill for apartment use)**. **⚠️ Explicitly challenges a common
+  client/designer assumption**: brick's own sound-insulation figure
+  (47 dB) is *worse* than both drywall (49 dB) and silicate pazogreb
+  (50 dB) in this comparison — brick's popular "best soundproofing"
+  reputation doesn't hold up against the source's own figures. Requires
+  a solid floor-slab substrate (incompatible with a wood-joist floor or
+  screed-only substrate).
+- **Gypsum pazogreb block/plate, 80mm**: **80mm finished** (no plaster
+  typically needed), ~9 tonnes/100m², material ≈110,000 RUB/100m²
+  (≈$1,100), install labor ≈185,000 RUB/100m² ≈1,850 RUB/m² (≈$1,900 /
+  ≈$20 per m²), 2nd-fastest to build, **42 dB** (41-43 dB range across
+  manufacturers/sources), **100 kg/m² fastener strength** (also called
+  excessive for typical apartment loads).
+- **Silicate pazogreb block/plate, 80mm**: **80mm finished** (tied
+  thinnest), **~13.5 tonnes/100m²**, material ≈150,000 RUB/100m²
+  (≈$1,600), install labor ≈230,000 RUB/100m² ≈2,300 RUB/m² (≈$2,400 /
+  ≈$20 per m²), 2nd-fastest (tied), **50 dB — the single best
+  insulation-per-thickness ratio of the five**, but **weakest fastener
+  pull-out rating, only 40 kg/m² — no fastener holds well in this
+  material even though it's solid, not hollow**. Named the presenter's
+  own preferred material overall on that thickness/insulation tradeoff,
+  despite the fastener weakness.
+- **Foam block (aerated concrete), 100mm**: **120mm finished** (100mm
+  block + 2×10mm plaster), ~8.5 tonnes/100m² — **the lightest of the
+  four masonry-type options** — material ≈100,000 RUB/100m² (≈$1,000,
+  cheapest material cost of the five), install labor ≈145,000 RUB/100m²
+  ≈1,450 RUB/m² (≈$1,500 / ≈$20 per m², excl. plaster), 3rd fastest,
+  **⚠️ worst sound insulation of the five at only 39 dB — below the
+  cited СНиП norm of 43 dB even with plaster included**. **60 kg/m²
+  fastener strength** — porous material needs quality dowels/anchors
+  specifically, chemical anchors as fallback.
+- **Drywall (75mm steel stud, double 12.5mm layer/side)**: **125mm
+  finished**, **~500 kg per 100m² — by far the lightest option
+  overall**, material ≈150,000 RUB/100m² (≈$1,600, tied with silicate
+  pazogreb), install labor ≈330,000 RUB/100m² ≈3,300 RUB/m² (≈$3,400 /
+  ≈$30 per m² — 2nd-most-expensive labor despite being the cleanest,
+  no-wet-trades job, attributed to skilled-framing/reinforcement labor
+  demands), **fastest to build**, **49 dB at 125mm, upgradable to 60+ dB
+  by thickening the stud/insulation package to ~150mm total**. No fixed
+  fastener-strength figure (depends on hitting the stud vs. cavity) —
+  plan ahead by pre-installing plywood/OSB blocking behind the drywall
+  skin wherever a TV mount, wall cabinet, or pull-up bar is planned,
+  before the wall is closed up. **Most substrate-flexible of the five**
+  — buildable on a wood-joist floor or bare screed, unlike brick or the
+  block types.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oom96XXQobY_kruglov_partition_materials_comparison|oom96XXQobY]]]
+
+## Sofa Construction Quality Tiers — Economy vs. Premium (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+> [!NOTE]
+> Genuinely new sub-topic for this vault — upholstered-sofa construction
+> and material quality (frame, transformation mechanism, fill, fabric).
+> This project's existing living-room content covers sofa sizing/
+> placement only. Below the 3+-source page-creation threshold — flagged
+> in `Pending_Wiki_Page_Decisions.md` for a future `14_Furniture/` page.
+
+- **Frame material/joinery**: economy — particleboard (ДСП), thin
+  plywood (6-10mm) if any, hollow/cardboard armrests-backrests, no
+  reinforcement ribs, joined with screws/studs/brackets/staples;
+  lifespan **3-5 years**. Premium — thick plywood (15-18mm) or solid
+  dry hardwood (birch/oak/beech), reinforced arms/backrests, added
+  structural ribs, joined with tenon/mortise ("шип-паз") technique plus
+  furniture bolts and glue; lifespan **10-20 years**. **⚠️ Marketing
+  trick named directly**: a sofa built ~99% from ДСП with a single
+  reinforcing plywood strip can be labeled "ДСП + plywood frame" —
+  technically true, misleadingly implies far more plywood content.
+- **⚠️ Fold-out mechanism as a deliberate comfort tradeoff, core
+  recommendation**: for a sofa used mainly for daily sitting/lounging
+  (not primarily a spare bed), a sofa **without** a fold-out mechanism
+  is recommended — the mechanism itself constrains cushion-fill and
+  construction choices, trading everyday comfort for the fold function
+  (explicit washer-dryer-combo analogy). Suggested alternative for
+  occasional guests: a separate cheap folding cot/air mattress, since
+  guest stays are typically far less frequent than the sofa's own daily
+  use. Named as a real, felt-in-person difference by the presenter's own
+  first-hand comparison.
+- **Mechanism tier taxonomy**: economy — книжка, клик-кляк, еврокнижка,
+  cheap "dolphin" (дельфин); premium — седаф/седафлор, "lamp LED"-type,
+  high-end dolphin, accordion. Economy mechanisms use thin metal, weak
+  welds — **play/looseness after just 10-30 fold cycles**; premium uses
+  thick-wall metal, precision welding, powder coating — **no looseness
+  even after 10-20 years**. Premium folds one-handed and easily; economy
+  is stiff and fails fast.
+- **Foam density by tier**: economy **18-28 kg/m³** (often monolithic,
+  sags within ~6 months); premium **35-45 kg/m³** (may include HR foam,
+  multi-layer sandwich constructions), resists compression for years.
+  **⚠️ Consumer trap**: economy and premium can feel identical in the
+  showroom at time of sitting — the compression-resistance gap only
+  shows up ~6 months into home use, well after purchase.
+- **Anatomical support materials (premium only)**: latex, hollow-fiber
+  batting ("холлофайбер"), "трутто," coconut coir, felt, pocket-spring
+  units — absent in economy tier (uniformly hard or uniformly sagging
+  feel instead).
+- **⚠️ Fabric price does not predict durability — the one place in this
+  comparison where "more expensive = better" does not hold**: judge
+  fabric by its stated technical properties instead. **Martindale
+  abrasion index**: 15,000-25,000 cycles = short-lived; 80,000-100,000+
+  cycles = long-lived. **Pilling resistance is a separate, uncorrelated
+  property** — a high-Martindale fabric can still pill quickly.
+  Colorfastness/UV-fade resistance varies independently by fabric —
+  relevant mainly for a sofa near a loggia or panoramic window. Optional
+  treatments: Teflon-type stain repellent, "aquaclean"-type, antibacterial,
+  pet-claw/stain resistance.
+- **Customization and warranty**: economy — catalog-only options,
+  ~1-year warranty, higher defect rate; premium — full bespoke
+  specification of frame/fabric/mechanism/fill, 3-10 year warranty, top
+  assembly QC.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_5mSvRxFJOgE_kruglov_sofa_manufacturer_tricks|5mSvRxFJOgE]]]
+
+### Named Upholstery Fabric Durability Ranking (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+**⚠️ A concrete, named-material complement to the Martindale-abrasion-index rule above**: for durability specifically, ranks **flock (флок), microfiber, micro-suede (faux suede), and furniture velour** as the most wear-resistant upholstery fabric options — a concrete named-fabric-type list the existing Martindale/colorfastness framework above doesn't itself provide. Also: avoid genuine eco-leather entirely (cracks and peels with normal use over time, especially with pets in the household); avoid solid-wood furniture legs specifically because pets chew them; prefer furniture with removable, washable slipcovers on both the main piece and cushions; prefer simple rectangular furniture shapes over complex curved ones for cheaper future reupholstering.
+
+`single-account`, `unverified`, Konstantin Kruglov / Ontario. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IXicju8ul1A_kruglov_indestructible_materials|IXicju8ul1A]]]
+
+### Bedroom Media — Projector with Curtain-Integrated Retractable Screen (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+- **⚠️ Projector as a bedroom TV alternative, with a retractable screen built into the blackout-curtain track/mechanism**: accepts that projector image quality will never match OLED/QLED, in exchange for a clean wall with no visible TV or mount hardware — positioned so it can be watched lying down (feet toward the window/screen wall). **Stated tradeoffs**: image quality explicitly secondary to the clean-wall look; a softer, larger image is framed as gentler on the eyes than a bright TV panel; avoids complex swing-arm TV-mount hardware entirely. **Recommended split**: keep a separate, higher-quality TV in the living room for when image quality actually matters, use the projector setup for casual bedroom viewing. No dedicated general-bedroom media page exists in this store yet — routed here as a cross-cutting item; revisit if a bedroom-media topic area accumulates further sources.
+
+`single-account`, `unverified`, Konstantin Kruglov / Ontario. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|Rm4XLdyqj3s]]]
+
+### Design Choices That Drive Ongoing Cleaning Burden (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+Cross-cutting items from a "20 mistakes that will make you clean every
+day" video — no single dedicated page fits this cleaning-burden framing
+across rooms, so recorded here as general reference; item-specific
+mechanisms with an obvious single-page home were routed directly to
+`07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md`,
+`07_Bathroom/analysis/Bathtub_and_Shower.md`, and
+`03_Kitchen/Kitchen_Furniture.md` instead (see those pages' Round 15
+additions).
+
+- **⚠️ Bed/sofa floor-gap "trap zone"**: a **5-7cm gap** between a bed or
+  sofa's underside and the floor is the worst configuration for
+  cleaning — too low for a robot vacuum, a mop, or a hand-vacuum nozzle
+  to reach underneath. The two good alternatives are the extremes:
+  **legs tall enough for a robot vacuum to pass underneath**, or
+  **flush/near-flush to the floor** with minimal gap (so dust simply
+  can't accumulate in significant volume).
+- **Room-by-room open-storage closure framework**: entrance (closed
+  storage only; a pull-out drawer for keys/small items instead of an
+  open tray/hook); kitchen (closed cabinetry, or glass-fronted display
+  fronts as the lesser-bad compromise if a display format is wanted);
+  bathroom (the one room where full closure is conceded as physically
+  impractical — shampoo/toiletries will sit on some open surface
+  regardless, so the goal shifts to minimizing quantity and using
+  concealed/recessed mounting rather than eliminating exposure
+  entirely); loggia (always closed-front storage, explicitly because
+  Moscow's outdoor air is a real dust source at that specific location).
+- Large/many houseplants (real or artificial) named as a dust
+  accumulator requiring regular upkeep regardless of plant type — minor
+  standalone point, no mechanism beyond the observation itself.
+
+`single-account`, `unverified`, Konstantin Kruglov / Ontario. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__pOv1fnV6nM_kruglov_20_cleaning_mistakes|_pOv1fnV6nM]]]
+
+## "Dust-Free Interior" — Whole-Apartment Dust-Sourcing and Two Cross-Cutting Device Notes (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+Round 16, standalone topic 3/4, a full whole-apartment "how to build an
+easy-to-clean interior" guide. Cross-cutting items with no single obvious
+page home, recorded here per this store's convention (item-specific
+mechanisms with a clear page were routed directly instead — see
+`07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md`,
+`03_Kitchen/Kitchen_Furniture.md`, `13_Surfaces_and_Finishes/Flooring_Guide.md`,
+`01_Entrance/analysis/Storage.md`, and `09_Laundry_Room/analysis/Common_Mistakes.md`
+for this same source's Round 16 additions):
+
+- **⚠️ Dust-sourcing statistic, new to this store**: Kruglov cites an
+  (unnamed) study finding roughly **40% of household dust and dirt
+  enters from outside**, via windows or the entry door specifically —
+  offered as the basis for prioritizing window-sealing/mesh and entry
+  mat-defense over indoor-only cleaning habits. `single-account`,
+  `unverified` (study not named/cited beyond "there's research showing
+  this").
+- **Anti-dust window mesh, a distinct product category from standard
+  insect mesh**: a finer-weave mosquito-net product marketed
+  specifically as "anti-dust," with a meaningfully smaller cell size
+  than a standard mesh sold for keeping out insects — still needs
+  periodic cleaning itself, but meaningfully reduces street-dust
+  infiltration through an open window. New device category for this
+  store.
+- **Sharp interior corners block robot-vacuum reach, a general layout
+  rule beyond any single room**: any genuinely sharp (non-rounded, non-
+  chamfered) interior corner in a floor plan becomes a permanently
+  dirty spot no robot vacuum can reach, requiring recurring manual
+  touch-up — worth factoring into layout/furniture-placement decisions
+  generally, not just at fixture-specific pinch points already
+  documented elsewhere on this store (e.g. the top-mount-sink-angle
+  rule).
+- **Pet-hair reduction, two named methods**: (1) professional "express
+  shedding" (экспресс-линька) grooming-salon treatments; (2) home
+  deshedding tools — named as **deshedder** and **furminator** (same
+  underlying tool category, different manufacturer names) — a coarse
+  comb/brush designed to pull loose undercoat hair before it sheds
+  around the apartment. New pet-hair-management device category, no
+  dedicated pets page exists on this store yet.
+
+`single-account`, `unverified`, Konstantin Kruglov / Ontario. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
+
+## Homeowner Toolkit — What Every Apartment Should Own (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+Round 16, standalone topic 4/4. A recommended household toolkit for
+handling small day-to-day fixes (5,000 RUB to pay a handyman just to
+measure a wardrobe opening is explicitly framed as illogical) without
+overreaching into professional-grade tools this store doesn't recommend
+buying speculatively (soldering iron, jigsaw, heat gun, planer, circular
+saw — explicitly named as "buy only once you know exactly what job needs
+it," not a default-household item). No page on this store previously
+addressed a general homeowner toolkit, so recorded here as cross-cutting
+general reference:
+
+- **⚠️ Oscillating multi-tool ("Реноватор"), the video's own "lesser-known
+  but should be in every home" pick**: unlike an angle grinder (disc
+  rotation), an oscillating multi-tool cuts/sands with a rapid back-and-
+  forth wagging motion — explicitly framed as safer to use near a wall or
+  while leaning against a surface (e.g. cutting into or lifting a bumped/
+  swollen laminate board) than a spinning-disc tool, plus sanding
+  attachments for spot-finish work.
+- **⚠️ Socket/outlet tester ("тестер"), a concrete acceptance-testing
+  upgrade over the "phone charger in every outlet" method**: a small
+  plug-in tester (**≈500 RUB**, roughly 5 US dollars at the trailing-6-month
+  USD/RUB mean before 2025-02-21 (97.1934 RUB/USD) — below this project's
+  $10 rounding floor, so left as a RUB figure rather than a false-precision
+  dollar bucket) shows correct wiring/grounding at a glance and
+  includes a **push-button RCD/differential-breaker trip test** — the
+  video's explicit point is that checking each outlet with a phone charger
+  only confirms phase/neutral connection, **not** whether the RCD or
+  circuit breaker for that outlet is actually wired and functional. Framed
+  as essential specifically for accepting a contractor's finished
+  electrical work outlet-by-outlet (5 seconds per outlet) before signing
+  off, not just a general-purpose gadget.
+- **Indicator screwdriver ("индикаторная отвёртка")**: a **≈200 RUB**
+  (roughly 2 US dollars at the same rate — below this project's $10
+  rounding floor, RUB figure kept rather than a false-precision dollar
+  bucket) single-contact live-wire tester — insert into one outlet slot;
+  it lights only if that side is live. Named as the single most commonly
+  recommended item in this category.
+- **Multimeter**: standard two-probe device for continuity, voltage, and
+  resistance checks — named as a step up from the indicator screwdriver/
+  socket tester for anyone willing to do slightly more diagnostic work.
+- **⚠️ Wall-mounted wire/stud detector ("детектор проводки"), with a
+  named misrouting caution**: **≈3,500 RUB (≈$40)** — the unrounded
+  conversion (3,500 ÷ 97.1934) comes to just over 36 dollars, bucketed to
+  the nearest $10 per this project's convention. A handheld detector,
+  swept across a wall
+  before drilling (e.g. to hang a picture) to avoid hitting a hidden
+  cable. Explicit reasoning given for why this matters even with a
+  finished as-built electrical plan on file: **actual in-wall routing
+  between two visible outlets/switches frequently does not run the
+  "obvious" straight-line path a homeowner would assume** — the only way
+  to know for certain at a specific drill point is to check directly with
+  a detector, not to infer from a wiring diagram or outlet layout alone.
+- **Laser distance meter ("лазерная рулетка"/"дальномер")**: point-and-
+  read distance measurement without a second person holding the far end
+  of a tape — offered as a genuine upgrade over a standard tape measure
+  for single-person measuring (e.g. wardrobe openings, room dimensions),
+  not a replacement for it.
+- **Two distinct levels, kept separate on purpose**: a small **30-40cm
+  hand level** for furniture/small-object leveling (e.g. checking a
+  cabinet's adjustable feet), versus a **laser level** for larger-scale
+  checks (wall flatness during plastering, building a reference vertical/
+  horizontal plane across a room) — explicitly framed as two different
+  tools for two different scales of task, not one substituting for the
+  other.
+- **Baseline kit named without further detail**: rotary hammer (перфоратор),
+  drill/driver in two sizes (small for furniture assembly, larger for
+  drilling), small angle grinder or cordless equivalent, screwdriver bit
+  set (slotted/Phillips/hex), small precision-screwdriver set (electronics/
+  toys/watches), pliers/diagonal cutters, utility knife, hammer, drill-bit
+  set (concrete/metal/wood), small wrench set, adjustable wrench, channel-
+  lock pliers, clamps, headlamp, basic PPE (gloves, safety glasses),
+  stepladder, extension cords, and a tool storage box/case.
+- **Quality-over-cost guidance stated directly**: buy mid-tier bit sets
+  and hand tools rather than the cheapest option — a cheap bit set can
+  wear out after assembling a single wardrobe, while a modestly pricier
+  set (roughly double) lasts indefinitely for non-professional household
+  use.
+
+`single-account`, `unverified`, Konstantin Kruglov / Ontario. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DOJqxZoXCVw_kruglov_essential_household_tools|YT_DOJqxZoXCVw]]]

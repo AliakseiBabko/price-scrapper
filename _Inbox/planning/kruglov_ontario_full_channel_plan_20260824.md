@@ -475,31 +475,284 @@ part 2, 7 remaining videos — `Tyl0yPQkO5g` is already done from earlier
 today, so only `CK7eEeYlLj0`, `lPmjWTwNVQA`, `9lFhda_KDHk`,
 `9tScer1xT_E`, `lLuNbjNXjg0`, `x7wiBaReFN8`, `dBn4nhn8d9c` remain).
 
-### Round 12 — Cost/Budget/Planning part 2 (7 videos remaining, 8 originally listed)
+### Round 12 — Cost/Budget/Planning part 2 (7 videos remaining, 8 originally listed) — CLOSED
 
 | # | Video ID | Title | Status |
 |---|---|---|---|
-| 1 | `Tyl0yPQkO5g` | Cheap vs. Optimal vs. Expensive Repair | archived (already done earlier 2026-08-28 — see `YT_Tyl0yPQkO5g_kruglov_cheap_optimal_expensive_tiers.md`), not part of Round 12's own dispatch |
-| 2 | `CK7eEeYlLj0` | Как не ошибиться в выборе ПОДРЯДЧИКА для ремонта | pending |
-| 3 | `lPmjWTwNVQA` | Top Contractor Scams! Stay Vigilant! | pending |
-| 4 | `9lFhda_KDHk` | Вся правда о том СКОЛЬКО времени у вас займет ремонт | pending |
-| 5 | `9tScer1xT_E` | Все этапы ремонта квартиры в 2025 году от А до Я | pending |
-| 6 | `lLuNbjNXjg0` | Все этапы ремонта квартиры от А до Я в 2024 | pending |
-| 7 | `x7wiBaReFN8` | Как сделать качественный ремонт квартиры в 2024 | pending |
-| 8 | `dBn4nhn8d9c` | How to Create a Stylish, Budget-Friendly Renovation in 2024 | pending |
+| 1 | `Tyl0yPQkO5g` | Cheap vs. Optimal vs. Expensive Repair | archived (already done earlier 2026-08-28 — see `YT_Tyl0yPQkO5g_kruglov_cheap_optimal_expensive_tiers.md`, CSV row `run_20260828_Tyl0yPQkO5g`), not part of Round 12's own dispatch |
+| 2 | `CK7eEeYlLj0` | Как не ошибиться в выборе ПОДРЯДЧИКА для ремонта | integrated, fact_yield 6 (partial) |
+| 3 | `lPmjWTwNVQA` | Top Contractor Scams! Stay Vigilant! | integrated, fact_yield 7 (partial) |
+| 4 | `9lFhda_KDHk` | Вся правда о том СКОЛЬКО времени у вас займет ремонт | integrated, fact_yield 12 (full) |
+| 5 | `9tScer1xT_E` | Все этапы ремонта квартиры в 2025 году от А до Я | integrated, fact_yield 9 (partial) |
+| 6 | `lLuNbjNXjg0` | Все этапы ремонта квартиры от А до Я в 2024 | integrated, fact_yield 6 (partial) |
+| 7 | `x7wiBaReFN8` | Как сделать качественный ремонт квартиры в 2024 | integrated, fact_yield 3 (partial) |
+| 8 | `dBn4nhn8d9c` | How to Create a Stylish, Budget-Friendly Renovation in 2024 | integrated, fact_yield 8 (partial) |
 
 **Round 12 dispatch note**: only the 7 still-`pending` videos above
-(#2-8) need fetching — `Tyl0yPQkO5g` (#1) was already fully processed
+(#2-8) needed fetching — `Tyl0yPQkO5g` (#1) was already fully processed
 earlier the same day (2026-08-28, outside this round's own numbered
-dispatch) and should not be re-fetched.
+dispatch) and was not re-fetched.
+
+**Round 12 yield: 7 videos processed, 51 new facts (6 + 7 + 12 + 9 + 6 +
+3 + 8), yield = 7.3/video.** This is the lowest yield of any Kruglov/
+Ontario round to date (previous low: Round 4/5's saturation-affected
+~8.1-8.9/video) — still comfortably above the 1.0/video absolute floor
+and the drop from Round 11 (12.4/video, a ~41% decline) stays under the
+>50%-single-round stop-and-ask threshold, so no stop-and-ask trigger,
+but this is worth naming plainly as the clearest same-channel-saturation
+signal yet on this channel. The round's own heavy-overlap-risk warnings
+materialized almost exactly as anticipated on every flagged axis: video
+1 (contractor sourcing) and video 2 (contractor scams) both cross-
+checked cleanly against Round 11's `rzpkTJYsY0Q` and today's sbk.remont
+Avito-adjacent content with only modest new material surviving in each
+(a 6-quote cross-tier sourcing methodology; a contractor-termination-
+penalty clause, an appendix-price-list trap, and two sharper smeta
+variants). Videos 4-5 (the "all stages A to Z" 2025/2024 pair) were the
+round's single heaviest internal-overlap cluster, exactly as flagged at
+dispatch — both were read in full before either note was written, both
+overlapped extremely heavily with this vault's existing
+`Renovation_Sequence.md`, with each other, with Round 11's
+`nd5WfYyjelg`/`suY0GGTOG9E`, and with sbk.remont's `dSZpq5Z9CEk`; the
+newer (2025) video still yielded a genuinely new five-macro-stage
+organizing taxonomy plus documentation/preparatory/completion bookend
+detail none of those other sources covered (fact_yield 9), while the
+older (2024) sibling was correctly returned as the round's — and this
+channel's — thinnest video yet (fact_yield 6), with almost every
+specific technique it named already recorded somewhere in this store.
+Videos 6-7 (general design-trend/style content) turned out to be
+substantially out of scope for this round's four Budget/Planning target
+pages — most of their content is a design/decor checklist better suited
+to a page this vault hasn't yet dispatched (per the Round 13+ note
+below) — but video 7 specifically still earned a solid partial
+(fact_yield 8) by surfacing several genuine budget-tier techniques and
+one real, honestly-flagged same-channel disagreement against this
+morning's `Tyl0yPQkO5g` Budget Tiers page (PVC baseboard: acceptable-
+at-cheap-tier vs. avoid-entirely), recorded as an open two-sided
+disagreement rather than resolved. No rate-limiting encountered across
+any of the 7 sequential, spaced fetches. **Round 12 is now fully
+closed — this closes out the last topically-clustered round on this
+channel.**
 
 ### Round 13+ — General decor / "top-N" / apartment-tour cluster (36 videos)
 
-Lowest expected yield — classic thin "top-N tips" / apartment-tour/trend
-format for this channel. **Run a title-skim triage pass before dispatching
-any sub-batch of this cluster** (per the value-filter rule); expect a
-meaningful fraction to be skipped outright rather than fully processed.
-Not yet split into rounds — do that at triage time, in chunks of 6-8.
+**Triage batch 1 (2026-08-28): CLOSED.** 8 videos dispatched (5
+standalone topics + 3 cluster representatives); 7 fetched/extracted/
+integrated, 1 (`cM0AndkKdVk`) skipped as an already-processed duplicate
+from an earlier 2026-08-25 batch (not re-fetched, not re-counted). No
+rate-limiting encountered across any of the 7 fetches, sequential with
+real spacing. **106 new facts across the 7 processed videos** (12 + 27
++ 18 + 16 + 16 + 11 + 6), yield ≈ 15.1/video — comfortably above this
+channel's overall baseline (Round 1: 11.5/video), though driven mostly
+by the 5 standalone-topic videos; the 3 cluster representatives landed
+lower (16, 11, 6) as expected for a cluster-triage design.
+
+**Standalone topics (all full extractions)**:
+- `vm5u5_3v1_U` (curtains) — fact_yield 12, routed to
+  `Curtains_and_Window_Treatments.md` as a 5th independent source; 2
+  numeric points flagged as open disagreements (cornice-width margin,
+  in-floor-convector coverage) vs. the existing 4-source content.
+- `qt5mQQ6W6Z4` (50 storage ideas) — fact_yield 27, the batch's densest
+  video; a genuinely dense apartment-wide accessory catalog routed
+  across 4 room pages (kitchen, bathroom, entrance, closets/wardrobes).
+- `oom96XXQobY` (partition wall materials) — fact_yield 18; a
+  genuinely new sub-topic (fixed/masonry partition-wall construction
+  material comparison, 5 materials × 8 criteria) held in
+  `Durable_Facts.md`, below the 3+-source page-creation threshold.
+- `5mSvRxFJOgE` (sofa manufacturer tricks) — fact_yield 16; another new
+  sub-topic (upholstered-furniture construction quality tiers), also
+  held in `Durable_Facts.md` below threshold.
+
+**Cluster representatives — verdicts (the key deliverable of this
+batch)**:
+- **Trends cluster** (`oDHSbp6QRRE` tested, representing `86fmWWVXark`,
+  `Rm4XLdyqj3s`, `mJ0uLdys5cE`): fact_yield 16 net of heavy overlap with
+  this channel's own prior rounds (baseboards, ceilings, tile, veneer
+  facades, bathroom shelving all substantially restated). **Verdict:
+  worth a future round, moderate yield expected** — genuinely
+  well-argued, non-thin content, but budget real cross-check time
+  against existing pages rather than assuming fresh ground. Surfaced
+  one open same-channel cost divergence (drywall ceiling cost/m²) not
+  yet resolved.
+  **CLOSED in Round 14 (2026-08-28)**: the remaining 3 videos completed
+  the cluster — `86fmWWVXark` (fact_yield 5), `mJ0uLdys5cE` (fact_yield
+  6, though it read as a cheap-tier budget package rather than a trends
+  video), `Rm4XLdyqj3s` (fact_yield 6, the round's strongest trends
+  showing — a genuine Pinterest photo-critique format). **Full cluster
+  total: 33 new facts across 4 videos (16+5+6+6).** See the Round 14
+  Progress Log entry below for full detail.
+- **Cheap-vs-expensive cluster** (`JIWmxboS-oM` tested, representing
+  `xb5pUpTVIJU`, `qPi_0cW7aHI`, `V8c6mwdvpX0`): fact_yield 11, heavy
+  overlap confirmed with both this batch's own video 6 and this
+  morning's `Budget_Tiers_Cheap_Optimal_Premium.md` page. **Verdict:
+  worth a future round, but expect low-to-moderate yield and real
+  overlap-screening work.** Surfaced a genuine same-channel/same-
+  presenter contradiction on freestanding tubs (this video vs. the
+  Budget Tiers page's premium-tier pick, both Kruglov) — flagged
+  explicitly on that page, not resolved.
+  **CLOSED in Round 14 (2026-08-28)**: the remaining 3 videos completed
+  the cluster — `xb5pUpTVIJU` (fact_yield 5), `qPi_0cW7aHI` (fact_yield
+  6, though it read as general decor-composition rules rather than a
+  material comparison), `V8c6mwdvpX0` (fact_yield 7, the densest of the
+  three, contributing concrete budget material-substitution techniques).
+  **Full cluster total: 29 new facts across 4 videos (11+5+6+7).** No
+  further additions to the freestanding-tub disagreement were found in
+  this round's 3 videos. See the Round 14 Progress Log entry below.
+- **Mistakes cluster** (`0TLDGD8MY1A` tested, representing
+  `kkE25HmFciU`, `x8cNF81m7-A`, `N813aS8mI-Y`, `_pOv1fnV6nM`):
+  fact_yield 6 (partial) — **the thinnest video in the entire batch**,
+  roughly 85% restatement of this channel's own prior content
+  (including this same batch's videos 2, 6, and 7). **Verdict: worth a
+  future pass, but do not assume Round 8-9-level density** — this
+  specific video underperformed the dispatch note's own expectation
+  that this channel's mistakes format is reliably substantive; the
+  most likely explanation is same-channel saturation on repeated
+  talking points after 4 mistakes/checklist-format videos processed in
+  one session block, not that the format itself is unreliable. Budget
+  for moderate-to-low yield and heavy overlap-screening on the
+  remaining 4 videos.
+
+**Remaining pool after Round 14 (2026-08-28)**: both the trends and
+cheap-vs-expensive clusters are now fully closed (4 videos each, 8
+total across Round 13 + Round 14). `a_i8pGVa7-w` and `BFbNL-DjDh4`
+(the bedroom pair) were found already processed pre-session and are not
+in scope. `IXicju8ul1A` (durability) and `EwI_ZoT3VTQ` (small apartment)
+are now also closed as of Round 14. **Remaining untriaged pool: 20
+videos** — the mistakes cluster (4 members: `_pOv1fnV6nM`, `kkE25HmFciU`,
+`x8cNF81m7-A`, `N813aS8mI-Y`, tested representative `0TLDGD8MY1A`
+already closed in Round 13), the smart-home pair (`cHdQtVoFeuo`,
+`Y3Xpww54LpU`), the "top solutions" pair (`QyF37JEFpfA`, `VVxzNTshJCM`),
+4 pure apartment-tour/showcase videos already flagged low-priority
+(`A16VC0VYjSQ`, `kHmUYEX1Lqw`, `e0Tp5apV7Ds`, `xkA8v-0jGqg`), the
+low-priority apps video (`WQhi-AKDPc8`), and remaining standalones
+(`2rU14i9NqOk`, `zugXvK4CBlM`, `iEm_mwCJpfA`, `DOJqxZoXCVw`) — 4+2+2+4+1+4
+= 17 listed here, plus 3 more from the original 36-video list not yet
+individually triaged. A future session should give this pool a second
+title-skim/value-filter pass before dispatch, same as prior batches,
+and decide chunk size (6-8) informed by this round's yield pattern
+(both closed clusters landed in the "moderate, real but not high"
+range once fully completed — 33 and 29 total new facts respectively
+across 4 videos each).
+
+**Remaining pool after Round 15 (2026-08-28)**: the mistakes cluster,
+the smart-home pair, and the top-solutions pair are now all fully
+closed (see Round 15 table and Progress Log entry below). **Remaining
+untriaged pool: 13 videos** — 4 low-priority apartment-tour/showcase
+videos (`A16VC0VYjSQ`, `kHmUYEX1Lqw`, `e0Tp5apV7Ds`, `xkA8v-0jGqg`), 1
+low-priority apps video (`WQhi-AKDPc8`), and 4 remaining standalone
+topics (`2rU14i9NqOk` walk-in closet, `zugXvK4CBlM` visual noise/order,
+`iEm_mwCJpfA` easy-to-clean interior, `DOJqxZoXCVw` essential tools) —
+this would close out the original 36-video general/decor cluster (and
+this channel's full 119-video catalog) if a future session processes
+this final 9-video group (4+1+4), leaving 4 videos from the original
+36-video list still not individually accounted for in this plan file
+(worth a quick re-derivation from the channel's video list before that
+final dispatch, rather than assuming the count above is exact).
+
+### Round 15 — Mistakes cluster completion + smart-home pair + top-solutions pair (8 videos) — CLOSED
+
+| # | Video ID | Title | Status |
+|---|---|---|---|
+| 1 | `_pOv1fnV6nM` | 20 Renovation Mistakes That Will Make You Clean Every Day | archived, fact_yield 6 (partial) |
+| 2 | `kkE25HmFciU` | Худшие решения в ремонте. Не допускайте их! | archived, fact_yield 6 (partial) |
+| 3 | `x8cNF81m7-A` | Топ непрактичных решений в ремонте | archived, fact_yield 5 (partial) |
+| 4 | `N813aS8mI-Y` | TOP 10 Common Home Renovation Mistakes | archived, fact_yield 2 (partial) |
+| 5 | `cHdQtVoFeuo` | Which smart home should you choose? Wired vs. Wireless | archived, fact_yield 18 (full) |
+| 6 | `Y3Xpww54LpU` | Everything About Smart Homes in 2026 | archived, fact_yield 16 (full) |
+| 7 | `QyF37JEFpfA` | Топ 12 самых стильных решений в интерьере! | archived, fact_yield 12 (full) |
+| 8 | `VVxzNTshJCM` | Modern renovation: THESE solutions are a must | archived, fact_yield 3 (partial) |
+
+**Round 15 yield: 8 videos processed, 68 new facts (6+6+5+2+18+16+12+3),
+yield = 8.5/video.** No rate-limiting encountered across any of the 8
+sequential, spaced fetches (each fetch followed by full extraction/
+routing/archiving work before the next, never an idle wait).
+
+**Mistakes cluster (videos 1-4) — CLOSED, 5 members total including
+Round 13's representative**: the cluster's low-yield prediction held
+across all 4 members, and got progressively thinner as the cluster
+went on — `_pOv1fnV6nM` (6, a "cleaning burden" framing distinct from
+the general checklist format but still heavily overlapping this
+channel's own prior rounds), `kkE25HmFciU` (6, one item — the hygienic-
+shower leak mechanism — initially drafted as new before being caught on
+cross-check as a near-verbatim restatement and corrected down from a
+draft 7), `x8cNF81m7-A` (5, presented by Nikita Kuznetsov rather than
+Kruglov — a different presenter didn't produce fresher content, the
+overlap is with the channel's back-catalog broadly), and `N813aS8mI-Y`
+(2, the channel's oldest video in this round at 2023-11-16 and the
+thinnest video in the entire round — a "greatest hits" recap that
+predates and is now dwarfed by this channel's own later, more detailed
+treatments of every single point it raises). **Full cluster total (all
+5 members, Round 13 + Round 15): 6+6+6+5+2 = 25 new facts.** A genuine
+same-round duplicate was caught and handled correctly: `x8cNF81m7-A`'s
+stretch-ceiling-baguette-repairability point directly duplicated
+`kkE25HmFciU`'s own finding from two videos earlier in the same round —
+recorded as an extension (a 3-hour bare-membrane-replacement figure and
+a wall-repaint-cascade mechanism) on `Ceilings_Guide.md` rather than a
+separate new fact, exactly the kind of same-round self-duplication this
+project's standing process expects sessions to catch, not just
+same-channel/cross-round duplication.
+
+**Smart-home pair (videos 5-6) — CLOSED, genuinely fresh ground exactly
+as anticipated**: this channel had no prior dedicated smart-home
+content, and this store's only existing smart-home source (Sergey
+Kodolov) covers pricing/devices at a much lighter level of detail.
+`cHdQtVoFeuo` (18, the round's second-highest yield) delivered this
+store's first full wired-vs-wireless architecture comparison — decision
+triggers, mesh-protocol taxonomy (Zigbee/Z-Wave/Thread), and a
+structured 12-criteria cost/reliability/scalability comparison table
+with concrete figures throughout (installation cost ~200,000 RUB wired
+vs. 0-20,000+ RUB wireless; wired scalability near-zero vs. wireless
+scaling to "1,000 devices"; wired sensor failures cited once every
+several years vs. wireless devices randomly de-pairing). `Y3Xpww54LpU`
+(16) was genuinely complementary rather than overlapping — a concrete
+Yandex-ecosystem device taxonomy and 10 named scenarios (away-mode
+security arming with quantified timing, a gun-safe vibration sensor with
+a custom Alice voice alert, a leak-sensor cost/dual-sensor
+recommendation, a heated-floor smart-relay alternative to unreliable
+programmable thermostats) — the only real overlap between the two
+videos was the hub/mesh/Zigbee concept itself, correctly recorded once
+and flagged as corroborating in the second note rather than re-recorded.
+**Full pair total: 34 new facts across 2 videos (18+16)** — this
+channel's smart-home coverage is now genuinely substantive, matching
+its established depth on electrical/plumbing/HVAC.
+
+**Top-solutions pair (videos 7-8) — CLOSED, split yield exactly as the
+"likely design-tip overlap, but check first" dispatch caution
+anticipated, though asymmetrically so**: `QyF37JEFpfA` (12) scored
+higher than the pair's own cautious expectation, because nearly every
+one of its 12 trends is paired with a concrete, checkable cost or
+failure mechanism (a ~80cm floor-standing tub mixer's snap risk, a
+~20,000 RUB concealed-door finishing cost, a floor-level shadow
+profile's renovation-staging-sequence violation forcing 80-90% of an
+apartment's walls to be repainted, a 10,000-15,000 RUB per-seam linear-
+lighting finishing cost) rather than a bare aesthetic opinion.
+`VVxzNTshJCM` (3), by contrast, confirmed the overlap caution almost
+completely — a near-total restatement of this channel's own
+electrical-safety, leak-protection, and smart-home content, including
+this same round's own videos 1 and 5-6 (the named leak-protection
+brands Гидролок/Нептун/Аквасторож matched this store's existing content
+verbatim). **Full pair total: 15 new facts across 2 videos (12+3).**
+
+**Two flagged cross-checks explicitly performed, not assumed**: (1) the
+`x8cNF81m7-A`/`kkE25HmFciU` baguette-ceiling duplicate noted above; (2)
+the passthrough-switch content across `kkE25HmFciU` (a cognitive-load
+caution against overusing it) and `VVxzNTshJCM` (a cost-justification
+figure for using it selectively) was confirmed complementary, not
+conflicting, and recorded as two distinct entries on
+`Switches_and_Controls.md` rather than merged or treated as a
+disagreement.
+
+Every one of the 8 videos verified to have exactly one CSV row (via
+direct `csv.DictReader` parse, not narration) and a consistent
+`integrated` status-file entry before this log entry was written.
+`tools/verify_batch.py --base HEAD` reported 3 problems, all confirmed
+(by `git diff HEAD` inspection) to be pre-existing, uncommitted content
+from Round 13's `oDHSbp6QRRE` note (two ceiling cost figures on
+`Ceilings_Guide.md`, one baseboard cost figure on
+`Concealed_Door_Considerations.md`) — none introduced by this round's
+own edits. **Round 15 is now fully closed** — this closes the mistakes
+cluster, the smart-home pair, and the top-solutions pair. See the
+updated "Remaining pool after Round 15" note above for what's left of
+the original 36-video general/decor cluster.
 
 | Video ID | Title |
 |---|---|
@@ -539,6 +792,135 @@ Not yet split into rounds — do that at triage time, in chunks of 6-8.
 | `N813aS8mI-Y` | TOP 10 Common Home Renovation Mistakes |
 | `5mSvRxFJOgE` | The Truth About Sofas: How Manufacturers Rip Off Buyers |
 | `HGN_3WeL0Jk` | UNIQUE 1-Bedroom Apartment in MOSCOW CITY 35 sq.m. |
+
+### Round 16 — Final batch: 4 standalone topics + 5 low-priority videos (9 videos) — CLOSED, CHANNEL COMPLETE
+
+| # | Video ID | Title | Status |
+|---|---|---|---|
+| 1 | `2rU14i9NqOk` | How to Design the Walk-in Closet of Your Dreams? | integrated, fact_yield 12 (full) |
+| 2 | `zugXvK4CBlM` | How to remove visual noise and create a sense of order | archived, fact_yield 2 (partial, thinnest of this batch's standalone topics) |
+| 3 | `iEm_mwCJpfA` | Как создать идеальный интерьер, который легко убирать! | integrated, fact_yield 10 (full) |
+| 4 | `DOJqxZoXCVw` | The top essential tools that every apartment should have | integrated, fact_yield 8 (full) |
+| 5 | `WQhi-AKDPc8` | The Best Home Renovation Apps | archived, fact_yield 1 (low-value-pass, not routed to any wiki page) |
+| 6 | `A16VC0VYjSQ` | A tour of 5 apartment renovations in 2026 | integrated, fact_yield 7 (full — denser than expected) |
+| 7 | `kHmUYEX1Lqw` | ОБЗОР стильной двушки | integrated, fact_yield 10 (full — denser than expected) |
+| 8 | `e0Tp5apV7Ds` | WhiteBox Apartment | integrated, fact_yield 5 (full — genuine technical content, not a tour) |
+| 9 | `xkA8v-0jGqg` | Обзор современной 3-х комнатной квартиры | integrated, fact_yield 10 (full — denser than expected) |
+
+**Round 16 yield: 9 videos processed, 65 new facts (12+2+10+8+1+7+10+5+10),
+yield = 7.2/video.** No rate-limiting encountered across any of the 9
+sequential, spaced fetches (each fetch followed by full extraction/
+routing/archiving work before the next, never an idle wait). All 9
+videos re-verified fresh against `00_Master/processed_sources.csv` before
+dispatch (per the dispatch note); every video ended with exactly one CSV
+row, verified by direct `csv.DictReader` parse, not narration.
+`tools/verify_batch.py --base HEAD` reported 3 problems across the 49
+files touched this session, all confirmed by `git diff` inspection to be
+pre-existing uncommitted content from earlier same-day sessions
+(`Ceilings_Guide.md` ×2, `Concealed_Door_Considerations.md` ×1) — none
+introduced by this round's own edits (this round's own three initial
+false-precision USD figures in `Durable_Facts.md`, all sub-$10 tool
+prices, were caught and fixed during this round itself, not left for a
+future pass).
+
+**The 4 standalone technique topics performed as expected**: `2rU14i9NqOk`
+(walk-in closet) scored a strong 12 despite this being this store's most
+heavily pre-covered furniture sub-topic from other channels (Zemstandart,
+Kodolov, LA BURO, Zlobin) — a deliberate pre-check against all four
+existing wardrobe/walk-in analysis pages confirmed real but partial
+overlap, leaving aisle-width-as-a-distinct-figure, a 3-tier ventilation
+system, a vertical-lighting cost technique, and a shoe-storage policy as
+genuinely new ground. `iEm_mwCJpfA` (easy-to-clean interior) and
+`DOJqxZoXCVw` (household toolkit) both scored solidly (10 and 8) as
+genuinely new topic areas for this store. `zugXvK4CBlM` (visual
+noise/order), by contrast, was explicitly cross-checked against
+`iEm_mwCJpfA` before either note was written per the dispatch note's own
+caution (both cover near-identical ground) — confirmed as the batch's
+thinnest video (2), correctly scoped down to only its two genuinely
+distinct nuances (a clinker-grout perceptual-clutter point, a "visual
+noise" vocabulary definition) once `iEm_mwCJpfA`'s fuller coverage of the
+same material was accounted for.
+
+**The 5 low-priority videos split cleanly into two real categories, not
+one uniform "thin tour" bucket as the dispatch note's cautious default
+framing might have suggested**: `WQhi-AKDPc8` (renovation apps) was
+exactly as thin as anticipated — a software/service recommendation list
+with no renovation-technique content, archived as a genuine low-value
+pass (fact_yield 1, not routed to any wiki page). The other 4
+("apartment tour" format) **turned out denser than the dispatch note's
+"expect thin, pure tour/showcase format" expectation predicted, in 3 of
+4 cases**: `A16VC0VYjSQ` (5-site jobsite tour, fact_yield 7) and
+`kHmUYEX1Lqw` (finished-apartment critique, fact_yield 10) were both
+real, structured walkthroughs — active-construction-stage footage and a
+pros/cons critique format respectively — not narrated showcases, and
+surfaced genuine jobsite/design techniques. `xkA8v-0jGqg` (a third
+apartment review, presented by Nikita Kuznetsov) confirmed the same
+pattern a third time (fact_yield 10), including this store's first
+switchable-opacity ("smart") glass partition mechanism and first
+dual-direction blind product type. Only `e0Tp5apV7Ds` (WhiteBox
+Apartment) deviated from the "tour" framing entirely — genuine technical/
+planning content, not a tour at all, exactly as the dispatch note's own
+instruction to "read the actual transcript, don't assume from the title"
+anticipated might be the case. **The dispatch note's per-video caution to
+check `e0Tp5apV7Ds` against `sbk.remont`'s `uQJlesqDFf4` (processed
+earlier the same day) paid off directly**: this video is now a **third
+independent channel/company** on this store stating the same White-Box
+execution-quality skepticism (alongside Petrishin-Stroi's `nT0qOcN_nEQ`
+and sbk.remont/ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ's `uQJlesqDFf4`), with a close-but-
+distinct quality-rate figure (~15% good execution here vs. ~10% from
+`uQJlesqDFf4`) recorded as two corroborating-not-identical estimates
+rather than merged into one number — both sources named explicitly on
+`Rules_Heuristics.md`, per this project's standing disagreement/
+corroboration policy.
+
+**No new same-channel disagreements were found in this round** (this
+session's earlier same-day rounds already surfaced several: lighting
+placement ×2, PVC baseboard, freestanding tubs) — this round's
+cross-checks (walk-in-closet vs. existing wardrobe pages, `zugXvK4CBlM`
+vs. `iEm_mwCJpfA`, `e0Tp5apV7Ds` vs. `uQJlesqDFf4`) each resolved as
+either partial-overlap-with-genuine-new-content or direct corroboration,
+not contradiction.
+
+**Round 16 is now fully closed — this closes out the entire 36-video
+general/decor cluster, and with it this channel's entire known 119-video
+catalog.** See the closing summary immediately below.
+
+## Channel Closing Summary (2026-08-28)
+
+**This channel's entire known catalog — 119 videos total (4 pre-plan
+baseline + 105 processed across Rounds 2-16 of this plan + 10 already
+logged before this plan existed) — is now fully processed**, spanning
+16 rounds/batches across two sessions (started 2026-08-24, closed
+2026-08-28).
+
+**Totals reconstructed directly from this file's own round-by-round
+yield lines** (not re-derived from memory): 46 (R1) + 72 (R2) + 90 (R3) +
+57 (R4) + 62 (R5) + 80 (R6) + 71 (R7) + 62 (R8) + 105 (R9) + 68 (R10) +
+87 (R11) + 51 (R12) + 106 (R13) + 35 (R14, net of the 2 cluster-
+representative videos already counted in R13's own total) + 68 (R15) +
+65 (R16) = **1,125 new facts across the 105 videos this plan itself
+dispatched (Rounds 2-16)**, plus Round 1's 46 facts/4 videos folded in as
+the pre-existing baseline — **≈10.3 facts/video averaged across the
+entire 109-video plan scope**, consistent with Round 1's own 11.5/video
+baseline and the 8-21/video range every individual round landed within.
+
+**Yield trend worth naming plainly, not just archiving as a number**:
+yield was highest in the topically-fresh clusters this channel had never
+covered before on this store (Kitchen: Round 9 at 21.0/video, driven by
+one 49-fact outlier video; Kitchen/Appliances more broadly: Rounds 8-10
+all ≥12/video) and lowest in the most-already-covered/most-internally-
+overlapping clusters (Round 12's Cost/Budget/Planning-part-2 at
+7.3/video, and this final Round 16 at 7.2/video) — both of the two
+lowest-yield rounds of the entire channel came from mature, heavily
+pre-covered topic areas (contractor-sourcing/estimate-fraud in Round 12;
+wardrobe/walk-in-closet and general decor/tour content in Round 16),
+exactly the same-channel-saturation pattern first flagged in Round 4 and
+confirmed repeatedly through Round 15. No round ever crossed the
+>50%-single-round-drop or <1.0-facts/video stop-and-ask thresholds at
+any point across all 16 rounds.
+
+**This channel is now closed. No further Kruglov/Ontario videos remain
+to be triaged, fetched, or processed under this plan.**
 
 ## Progress Log
 
@@ -1078,3 +1460,319 @@ Not yet split into rounds — do that at triage time, in chunks of 6-8.
   fetch, since `Tyl0yPQkO5g` was already processed earlier the same day outside
   this round's own dispatch: `CK7eEeYlLj0`, `lPmjWTwNVQA`, `9lFhda_KDHk`,
   `9tScer1xT_E`, `lLuNbjNXjg0`, `x7wiBaReFN8`, `dBn4nhn8d9c`).
+- **2026-08-28 (later same day)**: Round 12 (Cost/Budget/Planning part 2,
+  7 videos fetched of 8 originally listed — `Tyl0yPQkO5g` was already
+  processed earlier the same day, outside this round's own dispatch)
+  completed in full, no rate-limiting encountered across any of the 7
+  sequential, spaced fetches (each fetch followed by full extraction/
+  routing/archiving work before the next, never an idle wait). Per this
+  round's own overlap-risk warnings, the two "all stages A to Z" videos
+  (4-5) were both fetched and read in full before either note was
+  written, cross-checked against `Renovation_Sequence.md`, Round 11's
+  `nd5WfYyjelg`/`suY0GGTOG9E`, and sbk.remont's `dSZpq5Z9CEk`; videos 1-2
+  (contractor sourcing/scams) were checked against Round 11's
+  `rzpkTJYsY0Q` and today's sbk.remont `X3YHN5LqQdA`/`J864eOze5kU`.
+  **Every flagged overlap axis materialized close to exactly as
+  anticipated, and this round produced this channel's lowest yield to
+  date (7.3 facts/video), a real same-channel-saturation signal worth
+  naming plainly rather than treating as noise** — see the Round 12
+  table note above for the full per-video breakdown. Highlights: video 1
+  (`CK7eEeYlLj0`, fact_yield 6) gave a named contractor-sourcing platform
+  taxonomy (profi.ru/remontnik.ru/Yandex Uslugi vs. Avito vs. friend
+  referrals) and a six-quote cross-tier sampling methodology, plus a
+  same-channel cost-range divergence against `soshw_203eY` recorded
+  rather than resolved. Video 2 (`lPmjWTwNVQA`, fact_yield 7) restated
+  Round 11's `rzpkTJYsY0Q` smeta-fraud taxonomy almost verbatim but added
+  a genuinely new contract-fraud half (an org-verification checklist, a
+  contractor-unilateral-termination penalty clause, and a separate/less-
+  favorable appendix price-list trap) plus two sharper smeta-wording
+  variants (a concrete cable-length ratio, a 2cm/4cm screed standard) and
+  one genuinely new slippery-wording example (wallpaper "without pattern
+  matching"). Video 3 (`9lFhda_KDHk`, fact_yield 12, this round's densest
+  and only full extraction) was a genuinely novel contribution — the
+  first source in this store to propose (and honestly report testing and
+  rejecting two alternative heuristics before arriving at) a concrete,
+  data-derived duration-estimation method: a 60+-object "выработка"
+  (monthly throughput) benchmark of ≈250,000 RUB/month, plus two named
+  timeline-specific contractor-scam mechanisms (a sunk-cost "illusion of
+  choice" deadline trap, and inflated change-order day-counts with a
+  named legal-recourse limitation) distinct from this channel's existing
+  smeta-wording-fraud catalog. Videos 4-5 (`9tScer1xT_E` fact_yield 9,
+  `lLuNbjNXjg0` fact_yield 6) were, exactly as anticipated at dispatch,
+  the round's heaviest internal-overlap pair — the newer (2025) video
+  still contributed a five-macro-stage organizing taxonomy (Documentation
+  → Preparatory → Rough → Finish → Completion) and genuine bookend-stage
+  detail (documentation/preparatory checklists, a furniture/AC
+  measurement-timing tip, a post-completion defect-discovery mechanism, a
+  handover-briefing checklist) that neither the older sibling nor Round
+  11's pair nor sbk.remont's `dSZpq5Z9CEk` covered; the older (2024)
+  sibling was correctly returned as this channel's thinnest video to
+  date, with only a concrete demolition-duration comparison, a
+  partition-substrate placement rule, and two sharper sequencing
+  rationales surviving after dedup. Videos 6-7 (`x7wiBaReFN8` fact_yield
+  3, `dBn4nhn8d9c` fact_yield 8) turned out to be substantially
+  general-design-trend content outside this round's four Budget/Planning
+  target pages — explicitly flagged as such rather than force-routed —
+  but video 7 still earned a solid partial by surfacing several concrete
+  budget-tier techniques (a framed-partition wardrobe-niche technique, an
+  integrated-underlayment quartz-vinyl flooring configuration, a new
+  budget-tier Lighting section, a sliding-door space-constrained
+  alternative with an explicit soundproofing tradeoff) plus **one
+  genuine, honestly-flagged same-channel disagreement**: this morning's
+  `Tyl0yPQkO5g` Budget Tiers page places PVC baseboard at the cheap tier
+  as acceptable-with-good-hardware, while this video recommends avoiding
+  PVC baseboard entirely (with an MDF-plus-moisture-film fallback and a
+  metal-corner-trim alternative) — recorded as an open, two-sided
+  disagreement on `Budget_Tiers_Cheap_Optimal_Premium.md`, not resolved
+  in favor of either. A real mid-batch incident, corrected in place before
+  this log entry was written: an attempted in-place CSV rewrite (to fix a
+  minor notes-field typo) truncated `00_Master/processed_sources.csv` to
+  its first 163 lines before erroring; caught immediately via `git status`/
+  `git diff --numstat` (0 insertions, 709 deletions — a pure truncation of
+  a tracked, uncommitted-but-already-partially-appended file, not
+  corruption), restored losslessly via `git show HEAD:<path>` diffed
+  byte-for-byte against the restored copy before it replaced the
+  truncated file, then this round's own 7 CSV rows were re-appended from
+  a fresh, quote-safe script — verified afterward via direct `grep -c`
+  that every one of this round's 7 videos plus `Tyl0yPQkO5g` has exactly
+  one CSV row. Every one of the 7 videos verified to have exactly one CSV
+  row, one source note, and a consistent `integrated` status-file entry
+  via direct inspection (not narration) before this log entry was
+  written. **Round 12 yield: 51 new facts / 7 videos = 7.3 facts/video**
+  — the lowest of any round on this channel to date (previous low:
+  Round 4's 8.14/video), a ~41% drop from Round 11's 12.4/video — within
+  the normal-variance band (no >50%-single-round drop, no sub-1.0/video
+  floor breach) but a real, worth-naming same-channel-saturation signal
+  now that this channel's cost/budget/planning topic area has had two
+  full rounds (11-12, 14 videos) of dedicated coverage. **Round 12 is now
+  fully closed, and with it, Rounds 2-12 (109 originally-fresh videos) are
+  now fully processed.** Only Round 13+ remains on this channel — a
+  36-video general decor/"top-N"/apartment-tour cluster explicitly
+  flagged in this plan since its creation as the lowest-expected-yield
+  cluster, needing its own title-skim/value-filter triage pass before any
+  sub-batch is dispatched (per the standing value-filter rule and this
+  plan's own Round 13+ note) — **not dispatched in this session; flagged
+  here as the clear next step for the user to decide on, not
+  auto-continued into.**
+- **2026-08-28 (later same day)**: Round 13+ triage batch 1 (8 videos:
+  5 standalone topics + 3 cluster representatives) completed in full.
+  All 8 re-verified fresh against `00_Master/processed_sources.csv`
+  before fetching — 1 (`cM0AndkKdVk`) turned out already processed from
+  the 2026-08-25 batch and was skipped without a new fetch or CSV row;
+  the remaining 7 were fetched sequentially with real spacing (each
+  fetch followed by full extraction/routing/archiving work before the
+  next), no rate-limiting encountered on any of them. **106 new facts
+  across the 7 processed videos, yield ≈15.1/video** — see the Round
+  13+ section above for full per-video detail. The 4 standalone-topic
+  videos were all genuinely dense (12-27 facts each): a curtains video
+  became this store's 5th independent `Curtains_and_Window_Treatments.md`
+  source; a 50-item storage catalog (27 facts, the batch's densest)
+  routed across 4 room pages; a partition-wall-material comparison and
+  a sofa-construction-quality video both opened genuinely new sub-
+  topics, held in `Durable_Facts.md` below this store's 3+-source
+  page-creation threshold. **The 3 cluster-representative verdicts are
+  this batch's core deliverable**: all three clusters (trends,
+  cheap-vs-expensive, mistakes) are judged worth a future round, but
+  with real, specific caveats — the trends and cheap-vs-expensive
+  representatives scored moderate yields (16 and 11) after heavy
+  cross-checking against this channel's own extensive prior rounds
+  surfaced substantial restatement; the mistakes representative scored
+  only 6 (partial, the thinnest video in the batch, ~85% restatement),
+  underperforming this plan's own standing note that this channel's
+  mistakes format is "genuinely substantive in other rounds" — the
+  most likely read is same-channel saturation after 4 mistakes/
+  checklist-format videos processed in one session block, not that the
+  format itself has degraded. Two genuine same-channel cross-source
+  findings worth naming: an open cost divergence on drywall-ceiling
+  pricing (video 6 vs. this channel's own Round 5 `Ceilings_Guide.md`
+  figures), and a direct same-presenter contradiction on freestanding
+  tubs (video 7 vs. this morning's `Budget_Tiers_Cheap_Optimal_Premium.md`
+  page, also Kruglov) — both flagged explicitly on the relevant pages,
+  neither resolved or silently picked. Every one of the 7 processed
+  videos verified to have exactly one CSV row, one source note, and a
+  consistent `integrated` status-file entry via direct inspection (not
+  narration) before this log entry was written. **Triage batch 1 is now
+  closed. 27 videos remain in the Round 13+ pool** (35 candidates − 8
+  dispatched); the 11 cluster members whose representative scored
+  "worth a future round" are the natural next dispatch, though still
+  worth a second title-skim pass given the overlap pattern found here,
+  rather than assuming full-density processing by default.
+- **2026-08-28 (Round 14, triage batch 2)**: completed the trends and
+  cheap-vs-expensive clusters (3 remaining videos each) plus 2 standalone
+  topics, 8 videos total. All 8 re-verified fresh against
+  `00_Master/processed_sources.csv` before dispatch (per the caller);
+  the originally-planned bedroom pair (`a_i8pGVa7-w`, `BFbNL-DjDh4`) was
+  found already processed pre-session and swapped out before this round
+  started, not re-fetched. All 8 fetched sequentially with real spacing
+  (each fetch followed by full extraction/routing/archiving before the
+  next), no rate-limiting encountered on any of them.
+  **Trends cluster (video 1-3 of this round) — CLOSED, 17 new facts**:
+  `86fmWWVXark` (5, heavy overlap with `oDHSbp6QRRE` and this same
+  round's `JIWmxboS-oM`-adjacent content — new: concealed toilet-brush/
+  paper-holder caution, GX53 downlight naming, heated-wall-vs-towel-
+  warmer quantified tradeoff, router/camera addition to the master-
+  switch exclusion list, a drywall 3-5× ratio data point on the existing
+  cost divergence); `mJ0uLdys5cE` (6, though this video's actual content
+  read as a cheap-tier system-by-system budget package rather than a
+  trends video — its own cluster label didn't predict its content — new:
+  an electrical-panel module-count sizing rule by apartment size, a
+  sanitary-cabin demolition topic, `Budget_Tiers_Cheap_Optimal_Premium.md`'s
+  first Furniture section, a second same-channel lighting disagreement
+  flagged on that page, and a 2-vs-1 reinforcement of the existing
+  PVC-baseboard disagreement); `Rm4XLdyqj3s` (6, the round's strongest
+  trends showing — a genuine Pinterest photo-critique format rather than
+  a repackaged checklist — new: a curved-column/integrated-lighting
+  conflict extending the existing curved-wall content to general living
+  spaces, a lowered-bar-counter-height kitchen trend, an "invisible
+  kitchen" critique, a projector-plus-retractable-screen bedroom media
+  technique, a glass-block partition trend flagged as fading, and a
+  disguised humidifier-fireplace with an explicit Moscow-winter-dry-air
+  rationale). **Full trends-cluster total across both rounds: 33 new
+  facts over 4 videos (16+5+6+6).**
+  **Cheap-vs-expensive cluster (video 4-6 of this round) — CLOSED, 18
+  new facts**: `xb5pUpTVIJU` (5, heavy overlap with `JIWmxboS-oM` and
+  this round's own trends videos — new: a sixth windowsill material
+  (quartz-vinyl) and a 45°-mitred porcelain-overhang technique, a
+  black-insert budget ceiling trick plus a new "slot"/щелевой profile
+  taxonomy addition, a general excessive-gloss critique, and a
+  fake-luxury-replica-furniture ethical distinction); `qPi_0cW7aHI` (6,
+  another video whose actual content — general decor-composition rules
+  — didn't match its cheap-vs-expensive cluster label; heavy restatement
+  on curtains/lighting specifically, since this store's existing
+  content there is more granular than this video provides — new: a
+  60-30-10 color-proportion rule with a repeat-of-3 accent rule, a
+  3-criterion contrast rule with named warm/cool palette pairings, a
+  rug-sizing rule, an interior-scent decor layer, a 4-layer decor
+  framework, small-object composition rules, and artwork placement/
+  sizing rules); `V8c6mwdvpX0` (7, the cluster's densest video this
+  round — concrete budget material-substitution techniques rather than
+  restated principles — new: an explicit material-imitation endorsement,
+  a floating-install herringbone budget technique, quartz-vinyl window
+  reveals with a sealant crack-avoidance mechanism, a concrete
+  window-frame-repaint price point, a DIY decorative-plaster-from-putty
+  technique with an honest durability tradeoff, and a vintage-vs-antique
+  furniture distinction). **No further additions to the freestanding-tub
+  disagreement were found in this round's 3 videos.** **Full
+  cheap-vs-expensive-cluster total across both rounds: 29 new facts over
+  4 videos (11+5+6+7).**
+  **Standalone videos (7-8 of this round) — 10 new facts**:
+  `EwI_ZoT3VTQ` (4, this store already has unusually deep small-
+  apartment/multifunctional-furniture coverage from many prior sources
+  — on closer check its P-shaped-closet item also turned out to restate
+  existing, more dimensionally precise content and was demoted from the
+  initially-drafted new-item list before this log entry was written —
+  new: a combined oven+microwave appliance, an installation-frame
+  space-savings-conditional-on-reuse caveat, a washer-dryer capacity-
+  mismatch figure, and a sink-over-washing-machine knee-knock caution);
+  `IXicju8ul1A` (6, explicitly checked against sbk.remont's `bl25vUPfI8o`
+  per the dispatch note's specific instruction — confirmed no overlap,
+  genuinely complementary durability-framed sources covering different
+  ground — new: a tempered-vs-laminated/triplex safety-glass comparison,
+  a furniture anti-tip wall-anchoring safety topic, a named upholstery-
+  fabric durability ranking complementing the existing Martindale-index
+  rule, a genuine-stainless-steel requirement for wet-zone metal
+  shelving, and mirror-placement/heavy-pendant-fixture safety cautions).
+  **Round 14 total: 45 new facts across 8 videos, yield ≈5.6/video** —
+  the lowest per-video yield of any Kruglov/Ontario round to date, as
+  anticipated at dispatch for a round specifically built from 2
+  triage-flagged "expect low-to-moderate yield" clusters plus their
+  own remaining members; still comfortably above the 1.0/video absolute
+  floor, no stop-and-ask trigger. Every one of the 8 videos verified to
+  have exactly one CSV row, one source note, and a consistent
+  `integrated` status-file entry via direct inspection before this log
+  entry was written. **Both the trends and cheap-vs-expensive clusters
+  are now fully closed.** See the updated "Remaining pool" note above
+  the Round 13+ table for the 20-video pool still untriaged.
+- **2026-08-28 (later same day)**: Round 15 (mistakes cluster completion + smart-home pair +
+  top-solutions pair, 8 videos) completed in full, no rate-limiting encountered across any of
+  the 8 sequential, spaced fetches (each fetch followed by full extraction/routing/archiving
+  work before the next, never an idle wait). All 8 videos had been re-verified fresh against
+  `00_Master/processed_sources.csv` before dispatch. **The mistakes cluster's low-yield
+  prediction (from Round 13's `0TLDGD8MY1A` representative) held across all 4 remaining
+  members, and got progressively thinner as the cluster went on**: `_pOv1fnV6nM` (6, a
+  "cleaning burden" framing distinct in structure but not in underlying content from this
+  channel's own prior rounds), `kkE25HmFciU` (6, corrected down from a draft 7 after the
+  hygienic-shower leak mechanism was caught on cross-check as a near-verbatim restatement of
+  this store's existing Kruglov-attributed content), `x8cNF81m7-A` (5, presented by a
+  different on-camera presenter, Nikita Kuznetsov — a fresh face didn't produce fresher
+  content), and `N813aS8mI-Y` (2, this round's — and one of this channel's — thinnest video,
+  a 2023 "greatest hits" recap now dwarfed by this channel's own later, more detailed
+  treatments of every point it raises). **Full mistakes-cluster total across all 5 members
+  (Round 13 + Round 15): 25 new facts.** A genuine same-round duplicate was caught correctly:
+  `x8cNF81m7-A`'s stretch-ceiling-baguette-repairability claim directly duplicated
+  `kkE25HmFciU`'s own finding two videos earlier in this same round — recorded as an extension
+  (a 3-hour bare-membrane-replacement figure, a wall-repaint-cascade mechanism) rather than a
+  separate new fact, the first explicitly-caught same-round (not just same-channel)
+  self-duplication in this channel's intake. **The smart-home pair delivered exactly the
+  genuinely-fresh-ground result the dispatch note anticipated**: `cHdQtVoFeuo` (18, this
+  round's second-highest yield) gave this store's first full wired-vs-wireless architecture
+  comparison (decision triggers, Zigbee/Z-Wave/Thread protocol taxonomy, a 12-criteria
+  cost/reliability/scalability table); `Y3Xpww54LpU` (16) was genuinely complementary rather
+  than overlapping — a concrete Yandex-ecosystem device taxonomy and 10 named scenarios
+  (quantified away-mode security timing, a gun-safe vibration sensor with a custom Alice
+  voice alert, a heated-floor smart-relay alternative to unreliable programmable thermostats)
+  — with only the shared hub/mesh/Zigbee concept correctly recorded once and flagged
+  corroborating in the second note. **Full smart-home-pair total: 34 new facts.** **The
+  top-solutions pair split its yield asymmetrically, testing the dispatch note's overlap
+  caution in both directions**: `QyF37JEFpfA` (12) scored above the cautious expectation
+  because nearly every trend it covers pairs with a concrete, checkable cost/failure
+  mechanism (an ~80cm floor-standing tub mixer's snap risk, a ~20,000 RUB concealed-door
+  finishing cost, a floor-level shadow profile's renovation-staging-sequence violation
+  forcing 80-90% of an apartment's walls to be repainted a second time); `VVxzNTshJCM` (3)
+  confirmed the overlap caution almost completely, restating this channel's own electrical-
+  safety/leak-protection/smart-home content near-verbatim (the same three named
+  leak-protection brands, Гидролок/Нептун/Аквасторож, matched this store's existing content
+  exactly). **Full top-solutions-pair total: 15 new facts.** One explicit cross-check
+  confirmed a complementary (not conflicting) relationship rather than assuming one:
+  `kkE25HmFciU`'s passthrough-switch cognitive-load caution and `VVxzNTshJCM`'s
+  passthrough-switch cost-justification figure were recorded as two distinct,
+  non-contradictory entries on `Switches_and_Controls.md`. **Round 15 yield: 68 new facts /
+  8 videos = 8.5 facts/video** — pulled down by the mistakes cluster's expected thinness and
+  up by the smart-home pair's genuine density; no stop-and-ask trigger. Every one of the 8
+  videos verified to have exactly one CSV row (via direct `csv.DictReader` parse, not
+  narration) and a consistent `integrated` status-file entry before this log entry was
+  written. `tools/verify_batch.py --base HEAD` reported 3 problems, all confirmed by
+  `git diff HEAD` inspection to be pre-existing, uncommitted content from Round 13's
+  `oDHSbp6QRRE` note (two ceiling-cost figures, one baseboard-cost figure), not introduced by
+  this round. **Round 15 is now fully closed — this closes the mistakes cluster, the
+  smart-home pair, and the top-solutions pair.** Next: a final ~9-13-video pass (4
+  low-priority apartment tours, 1 low-priority apps video, 4 remaining standalone topics,
+  plus a handful not yet individually re-derived) would close out this channel's original
+  36-video general/decor cluster entirely — see the updated "Remaining pool after Round 15"
+  note above the Round 13+ table.
+- **2026-08-28**: Round 16 (final batch — 4 standalone topics + 5 low-priority videos, 9
+  videos) completed in full, no rate-limiting encountered across any of the 9 sequential,
+  spaced fetches. All 9 re-verified fresh against `00_Master/processed_sources.csv` before
+  dispatch (a diff of the original 36-video list against the CSV, not estimated). Standalone
+  topics: `2rU14i9NqOk` (walk-in closet, fact_yield 12) scored well despite heavy pre-existing
+  coverage from other channels, after a deliberate pre-check against all four existing
+  wardrobe/walk-in analysis pages; `iEm_mwCJpfA` (easy-to-clean interior, 10) and
+  `DOJqxZoXCVw` (household toolkit, 8) were genuinely new topic areas; `zugXvK4CBlM` (visual
+  noise/order, 2) was explicitly cross-checked against `iEm_mwCJpfA` before either note was
+  written and correctly scoped down as near-total overlap. Low-priority videos:
+  `WQhi-AKDPc8` (renovation apps) was exactly as thin as expected, archived as a genuine
+  low-value pass (1, not routed to any page); the other 4 "apartment tour" videos
+  (`A16VC0VYjSQ` 7, `kHmUYEX1Lqw` 10, `xkA8v-0jGqg` 10, `e0Tp5apV7Ds` 5) all turned out denser
+  than the dispatch note's "expect thin, pure tour" caution anticipated — three were real
+  structured critiques/jobsite walkthroughs rather than narrated showcases, and `e0Tp5apV7Ds`
+  (WhiteBox Apartment) was genuine technical/planning content, not a tour at all. Its
+  cross-check against `sbk.remont`'s `uQJlesqDFf4` (per the dispatch note's instruction) found
+  a **third independent channel/company** now on record with the same White-Box
+  execution-quality skepticism (alongside Petrishin-Stroi and sbk.remont/ДЕЛАТЬ НЕ
+  ПЕРЕДЕЛАТЬ), with a close-but-distinct ~15%-good-execution figure recorded alongside the
+  existing ~10% one on `Rules_Heuristics.md`, both sources named explicitly. **Round 16
+  yield: 65 new facts / 9 videos = 7.2 facts/video** — the second-lowest of any round on this
+  channel (after Round 12's 7.3), both from mature, heavily pre-covered topic areas; no
+  stop-and-ask trigger. Every one of the 9 videos verified to have exactly one CSV row (via
+  direct `csv.DictReader` parse, not narration) and a consistent `integrated`/`archived`
+  status-file entry before this log entry was written. `tools/verify_batch.py --base HEAD`
+  reported 3 problems, all confirmed by `git diff HEAD` inspection to be pre-existing,
+  uncommitted content from earlier same-day sessions (`Ceilings_Guide.md` ×2,
+  `Concealed_Door_Considerations.md` ×1) — not introduced by this round (this round's own
+  three initial false-precision USD figures on sub-$10 tool prices were caught and fixed
+  within this same round, not left outstanding). **Round 16 is now fully closed — this
+  closes the entire 36-video general/decor cluster, and with it this channel's entire known
+  119-video catalog (109 fresh videos across Rounds 2-16 of this plan, plus the 10 already
+  logged before this plan existed).** See the "Channel Closing Summary" section above (between
+  the Round 16 table and this Progress Log) for reconstructed totals across all 16 rounds.
+  **This channel is now closed.**

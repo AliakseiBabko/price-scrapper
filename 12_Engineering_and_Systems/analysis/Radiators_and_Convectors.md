@@ -49,6 +49,8 @@ Konstantin Kruglov / Ontario explains: **⚠️ replacing a radiator on a vertic
 1. **L-shaped enclosure box** — consumes essentially zero usable floor area; include a small access hatch at the bottom (finished with matching wallpaper/paint) so a future inspection needs only that hatch opened, not the whole box removed.
 2. **False wall with a radiator niche** (open or covered with a purchased/custom screen) — genuinely new bonus-benefit list: a deeper window reveal/sill (room for an outlet, more usable sill depth), and a clean baseboard-to-corner transition where it meets a stretch ceiling, versus two baseboard runs butting awkwardly into an exposed pipe. Material cost roughly offsets the plastering labor it replaces.
 
+**⚠️ L-shaped box cost figure + a curtain-flexibility argument (Round 15, added 2026-08-28)**: a simple L-shaped drywall box around an exposed riser costs roughly **3,000 RUB** (below this store's $-bucket rounding threshold at this video's 2024-08-23 date). **New argument for boxing it in rather than just curtaining over it**: relying on curtains alone to visually hide an exposed riser locks you into curtains specifically — switching later to roller/roman blinds (mounted flush to the glass, no fabric drape) removes the concealment entirely, since a blind doesn't drape past the window reveal the way a curtain does. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
+
 ## Sequential Distribution: Refined Connection Count, and Panoramic-Glazing Fix Detail (added 2026-08-24, Round 3)
 
 Konstantin Kruglov / Ontario gives a more granular connection count for sequential distribution than the 12-tee figure above: **each tee has 3 physical joints, and 2 tees (supply + return) serve each radiator, so 6 connection points per radiator** — 18 for 3 radiators, 24 for 4. Same underlying risk (any one leaking connection floods the neighbor below and the unit itself) at a finer level of detail, not a contradiction of the tee-count figure. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
@@ -300,3 +302,7 @@ electric units**, available in custom colors made to order — a general
 market-product category worth knowing about when a radiator's own
 appearance doesn't suit the room, rather than one specific model's spec.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]
+
+## Vertical Radiator Height Coordinated With Future Built-In Furniture (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**A real-jobsite example: a vertical radiator installed at a deliberately nonstandard height**, not the usual default placement, specifically so a planned built-in furniture piece (a wardrobe/storage unit) fits around it correctly once installed later. A concrete real-project instance of coordinating radiator placement with furniture layout at the rough-plumbing stage, rather than letting furniture design work around wherever the radiator naturally lands. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]

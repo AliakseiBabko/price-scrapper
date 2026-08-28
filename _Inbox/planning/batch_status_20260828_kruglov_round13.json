@@ -1,0 +1,17 @@
+{
+  "channel": "Konstantin Kruglov / Ontario (@konstantin_kruglov_ontario)",
+  "round": "13 (triage batch 1 of the 36-video general/decor cluster)",
+  "created": "2026-08-28",
+  "batch_status": "CLOSED - all 8 videos processed (7 fetched/extracted/integrated, 1 skipped as already-processed duplicate); no rate-limiting encountered across any of the 7 fetches; total new facts = 12+27+18+16+16+11+6 = 106 across the 7 processed videos",
+  "note": "36-video cluster minus HGN_3WeL0Jk (already processed pre-session) = 35 candidates. This batch picks 5 standalone likely-fresh topics plus 3 representatives of internally-clustered near-duplicate groups (trends x4, cheap-vs-expensive x4, mistakes x5) to test whether the rest of each cluster is worth a further round.",
+  "videos": {
+    "vm5u5_3v1_U": "integrated (full, fact_yield 12)",
+    "qt5mQQ6W6Z4": "integrated (full, fact_yield 27)",
+    "oom96XXQobY": "integrated (full, fact_yield 18)",
+    "cM0AndkKdVk": "skipped (already processed 2026-08-25, run_20260825_cM0AndkKdVk, CSV row exists, source note exists, fact_yield 11)",
+    "5mSvRxFJOgE": "integrated (full, fact_yield 16)",
+    "oDHSbp6QRRE": "integrated (full, fact_yield 16, TRENDS CLUSTER representative - verdict: worth future round, moderate yield expected)",
+    "JIWmxboS-oM": "integrated (full, fact_yield 11, CHEAP-VS-EXPENSIVE CLUSTER representative - verdict: worth future round, expect low-to-moderate yield, heavy overlap)",
+    "0TLDGD8MY1A": "integrated (partial, fact_yield 6, MISTAKES CLUSTER representative - verdict: thinnest video in batch, ~85pct restatement; worth future pass but expect moderate-to-low yield)"
+  }
+}

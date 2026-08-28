@@ -6,6 +6,16 @@ page's dual-purpose (Case 1, `TJBcEpXymYk`) and tiny-room (Case 2,
 `GfixqWjsD58`) content already accumulated in the intermediate store
 before this page existed.
 
+## Bedside Fixture Safety — Glass Pendant Breakage Hazard (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+Konstantin Kruglov / Ontario: a pendant/hanging glass-shade sconce
+positioned within arm's reach over a nightstand is a real breakage
+hazard for a half-asleep occupant (e.g. reaching to silence an early
+alarm) — recommends against this fixture type/placement combination
+specifically, distinct from this vault's existing bedside-reading-light
+placement guidance (which addresses aim/function, not fixture material/
+breakage risk). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0TLDGD8MY1A_kruglov_top_renovation_mistakes_2026|YT_0TLDGD8MY1A]]]
+
 ## Perspectives on Record — Saturated Color in a Small Bedroom
 
 | Source | Position | Stated reasoning |

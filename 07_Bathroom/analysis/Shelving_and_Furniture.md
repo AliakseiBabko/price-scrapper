@@ -20,6 +20,37 @@ Konstantin Kruglov / Ontario supports the mapped direct-source claims; legacy ar
 - **⚠️ Exposed floor-standing vanity legs are a real, recurring injury hazard** — repeated finger injuries (including at least one fracture) from stubbing against exposed cabinet legs are cited directly. Favor a wall-hung (floating) vanity cabinet instead — described as handling any realistic real-world load, with the added benefit of being easier to clean around (no legs to clean under/around). Weigh against the siphon-access tradeoff immediately above before deciding. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
 - **⚠️ A tiled/mosaic countertop surface accumulates dirt at every grout seam and is effectively impossible to keep clean** — cement-grouted seams in this location can also grow mold over time. General rule: any horizontal tiled surface (countertop included) should minimize the number of seams it has. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
 
+## Tiled Shelves vs. Ready-Made Stainless Steel — a Middle Option (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+Complementing this page's existing tiled-shelf-cost and hidden-metal-
+shelf content above: ready-made stainless-steel shelf units, available
+via general marketplaces and classified-ad sites (not just specialty
+retailers) — some with concealed mounting, some with visible mounting,
+some integrated directly into the tile joint at install time with no
+visible fixing point at all — named as a genuinely good middle option
+between an expensive custom-tiled niche and cheap outdated chrome
+corner caddies. The source's own view: 1-2 tiled niche shelves in a
+genuinely useful spot (e.g. beside the shower) are worth the cost;
+relying on tiled shelves as the *primary* storage solution throughout
+the room is the overrated part. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
+
+**⚠️ Genuine stainless steel required for wet-zone use, not just any "metal" shelf unit (Round 14 triage, added 2026-08-28)**: two visually-identical metal shelving product lines are commonly sold on marketplaces — one made of plain steel (cheaper), one of genuine stainless steel (more expensive). In a wet zone specifically, the plain-steel version will rust, especially at welds/joints, **even with a quality powder-coat or primer finish** — the coating doesn't reliably prevent this. Only genuine stainless steel is safe to use in a bathroom's wet zone; either type is fine in a dry storage room or walk-in closet. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IXicju8ul1A_kruglov_indestructible_materials|YT_IXicju8ul1A]]]
+
+## Small Accessories — "50 Storage Ideas" Catalog (added 2026-08-28, Round 13 triage)
+
+Konstantin Kruglov / Ontario, from a general apartment-wide storage
+catalog (not bathroom-specific), Round 13 triage batch 1: off-the-shelf
+plastic cosmetic organizer boxes, recommended specifically as the
+fallback once a renovation is already finished and a built-in tiled
+niche or other concealed storage can no longer be added; cotton-pad and
+cotton-swab dispensers with enough seal to keep out excess humidity;
+dedicated bins for laundry powder and household chemicals; matching
+containers (same shape/style, different labels) for shampoo/conditioner/
+gel products, for visual unity; adhesive (no-drill) hooks that mount
+directly to tile, from cheap plastic to pricier styled metal; a
+wall-mounted bracket to hang a mop vertically. `single-account`,
+`unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qt5mQQ6W6Z4_kruglov_storage_50_ideas|YT_qt5mQQ6W6Z4]]]
+
 ## Utility Furniture: Pull-Out Columns and Clearance Rules
 
 - **A pull-out (slide-out drawer-style) furniture column is a better solution than a fixed shelf unit for a deep, narrow utility space** (e.g. leftover alcove space — see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] — or a gap created by a mandatory 3-sided tile-over-tub-rim rule) — it gives comfortable access to the entire depth rather than forcing you to unload items just to reach the back. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]

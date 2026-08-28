@@ -131,6 +131,32 @@ goes in, so verify it while the frame is still being leveled.
 - **Tile-slope-plus-windowsill continuous treatment**: some installations use identical tile across the windowsill and all three slopes, framing the whole window opening in one continuous material.
 - **⚠️ Slope-material cost ranking (four types)**: cheapest — plastic sandwich-panel with standard corner trim. Next — the plaster-transition trim-free plastic variant. Next — plaster-plus-panel and plaster-plus-tile, roughly equal to each other. **Priciest — painted/plastered slope**, though the cost gap between painted, tiled, and panel-finished slopes is stated as practically negligible, unlike the much larger gap down to plastic.
 
+## Two Further Windowsill Material Options (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+Extends this page's existing four-type windowsill material comparison
+(plastic/tile/acrylic stone/wood) above with two further premium
+options named in a separate "designer never uses this" video: **large-
+format porcelain tile** and **quartz agglomerate**, both offered
+alongside acrylic stone as designer-preferred alternatives to plastic —
+plastic is called a material no designer would keep in their own home
+regardless of budget. Not cross-checked in detail against the existing
+cost-ranking table above; recorded as additional material options,
+not yet slotted into that ranking. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
+
+## A Sixth Windowsill Material and a Porcelain Installation Detail (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+- **⚠️ Quartz-vinyl flooring material as a windowsill surface** — a sixth option beyond the five already on this page (plastic/tile/acrylic stone/wood/large-format porcelain/quartz agglomerate): some clients install quartz-vinyl flooring material directly as the windowsill surface itself, as an alternative to a plain wood board or plastic.
+- **⚠️ 45°-mitred overhanging large-format porcelain windowsill**: a large-format porcelain windowsill can be built out beyond the window-opening wall plane (not just flush-mounted), with every visible edge mitred at 45° for a seamless, factory-finished-looking product — a specific fabrication detail not previously recorded for this material on this page.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xb5pUpTVIJU_kruglov_looks_cheap_10_mistakes|YT_xb5pUpTVIJU]]]
+
+## Quartz-Vinyl Window Reveals, and a Window-Frame Repaint Price (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+- **⚠️ Quartz-vinyl as a window-reveal material, extending its windowsill use above to the reveals themselves**: applying quartz-vinyl flooring material to the three reveals (not just the sill) reads as notably more expensive than a plastered/painted reveal and is fully moisture-resistant. **New crack-avoidance mechanism**: the joint between the plastic window-frame profile and the quartz-vinyl reveal is sealed with sealant rather than a rigid material junction, so it never develops the crack that can form at a painted-reveal-to-frame joint (already documented on this page as a real, unpredictable risk for painted reveals).
+- **⚠️ Painting a plastic window frame — new price point**: repainting an inexpensive white plastic window frame (e.g. to black, for style match) costs roughly **2,000 RUB per running meter (≈$30/m, trailing-6-month USD/RUB mean before the 2026-03-08 upload date, 79.50 RUB/USD)** — meaningfully cheaper than replacing the window units entirely, and stated to transform the room's visual impression well beyond that modest cost.
+
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
+
 ## Reveal Micro-Cracks at the Frame Junction, and White-vs-Wall-Color Reveal Choice (Петришин-Строй, added 2026-08-24, Round 5)
 
 A real defect found on a secondary-housing cosmetic-renovation object:
@@ -147,3 +173,7 @@ crew (including the project's designer) debate the tradeoff without
 settling on one universal answer — treat as a stylistic choice with no
 technical durability difference stated either way. `single-account`.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
+
+## Deep Windowsill-as-Bench, With a Radiator-Convection Requirement and a GOST Citation (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
+
+**A deepened, extended wood windowsill built out into a bench/daybed nook** — wide enough to sit or recline on, doubling as informal extra seating for guests, real installed example. **⚠️ Real technical requirement if the sill sits over a radiator**: cut convection slots/openings into the sill itself so warm air can still rise past it into the room — citing a GOST requirement that **a radiator should be covered no more than half its height/depth** by anything above it (a windowsill, cover, or shelf). Skipping the cutouts blocks normal radiator convection and reduces effective heat output into the room, regardless of how deep or attractive the sill bench looks. `single-account`, `unverified` (GOST citation not independently verified by this project). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]

@@ -1,0 +1,17 @@
+{
+  "channel": "Konstantin Kruglov / Ontario (@konstantin_kruglov_ontario)",
+  "round": "16 (final batch - closes out the 36-video general/decor cluster and this channel's full known catalog)",
+  "created": "2026-08-28",
+  "note": "Exact remaining pool re-derived by diffing the original 36-video list against processed_sources.csv (not estimated): 9 videos. 4 are pure apartment-tour/showcase format (low priority per this channel's established pattern), 1 is a renovation-apps recommendation list (low priority, ages quickly, not really technique content), 4 are standalone technique topics not yet tested.",
+  "videos": {
+    "2rU14i9NqOk": "integrated",
+    "A16VC0VYjSQ": "integrated",
+    "zugXvK4CBlM": "archived",
+    "WQhi-AKDPc8": "archived",
+    "iEm_mwCJpfA": "integrated",
+    "DOJqxZoXCVw": "integrated",
+    "kHmUYEX1Lqw": "integrated",
+    "e0Tp5apV7Ds": "integrated",
+    "xkA8v-0jGqg": "integrated"
+  }
+}

@@ -261,6 +261,55 @@ well-dressed person needing no excess to read as elegant; "Заметки
 — a little black dress reading as more elegant than an ornate ball gown.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]]]
 
+## Kruglov/Ontario: Mistakes-Focused Practical Add-Ons
+
+A fifth, independent source — Konstantin Kruglov (Ontario, Moscow-region
+turnkey renovation company) — largely corroborates the four sources
+above (light-transmission fabric tiers, ceiling-height mounting logic,
+four-regime curtain length, restraint-over-price philosophy) while
+adding a few genuinely new mechanisms and two numeric points that
+**diverge from, rather than confirm,** this page's existing figures.
+
+**New**: curtains reduce in-room echo/reverberation through thickness or
+layering alone (distinct from Хихол's dedicated "acoustic fabric"
+category above); tulle traps street dust before it enters the room
+(partial effect only — dust still collects on the windowsill and in the
+curtain folds, requiring more frequent washing); a rod mounted across an
+entire wall (not just window-width-plus-margin) creates a floor-to-
+ceiling "wall is one big window" illusion; a wall-mounted rod's brackets
+typically inset 20-30cm from the rod's own ends, so bracket-to-bracket
+span (not nominal rod length) is what must clear the target window
+margin; standard curtain-niche depth is 20-25cm for a two-track cornice
+and ≥30cm for a three-track one, shrinking if the radiator itself is
+flush-mounted behind a false wall; a distinct curtain-panel-width rule
+of thumb — each panel = **3/4 of the window's own width** — that uses
+window width rather than rod length as its input, unlike this page's
+existing gather-ratio formula above; a named list of declining/outdated
+treatments (lambrequins, multi-tier valance compositions, patterned
+tulle-plus-drape pairings, "luxury" gold fabric, photo-print curtains);
+and a robot-vacuum-compatibility angle threaded through all four
+curtain-length regimes (shortest length = easiest for a robot vacuum,
+longest pooling length = hardest, may get caught or skipped entirely).
+
+**⚠️ Two open numeric disagreements with this page's existing content
+— not resolved here, both sides recorded:**
+
+- **Cornice/rod width margin**: Kruglov states the rod should be wider
+  than the window by **at least 30cm on each side** (≥60cm combined).
+  The existing "Заметки Дизайнера интерьера"/BOROSA GROUP figure above
+  is **30-50cm combined** — Kruglov's minimum sits above that range's
+  low end.
+- **In-floor convector coverage**: Kruglov states an open curtain may
+  cover **up to half** an in-floor convector without meaningfully
+  compromising heating. BOROSA GROUP's existing claim above is that a
+  curtain should **never** cover an in-floor convector at all.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vm5u5_3v1_U_kruglov_how_to_choose_curtains|vm5u5_3v1_U]]]
+
+## Dual-Direction Blinds — Top-Down/Bottom-Up Operation (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
+
+**Roller/pleated blinds that open from either end independently (top-down or bottom-up)**, used in place of curtains in a real project — the practical benefit named directly: raise only the bottom portion to block a ground-level or lower-floor sightline from neighbors/passersby while still letting daylight in through the now-uncovered top portion, rather than choosing between full coverage (no light) or full exposure (no privacy). A distinct product mechanism from every curtain/blind type already documented on this page. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
+
 ## Source Notes
 
 - **"Как выбрать шторы. 7 фундаментальных принципов"** (Ирина Хихол,
@@ -276,6 +325,10 @@ well-dressed person needing no excess to read as elegant; "Заметки
 - **"СДЕЛАЛ и ПОЖАЛЕЛ! Как правильно подобрать ШТОРЫ в свой ИНТЕРЬЕР?"**
   (BOROSA GROUP, architecture/construction design company, 2024-01-12) —
   [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|extraction note]].
+- **"Как выбрать шторы? Главные ошибки, которые портят интерьер"**
+  (Konstantin Kruglov, Ontario — Moscow-region turnkey renovation
+  company, 2026-07-10) —
+  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vm5u5_3v1_U_kruglov_how_to_choose_curtains|extraction note]].
 
 ## Change Log
 
@@ -283,3 +336,7 @@ well-dressed person needing no excess to read as elegant; "Заметки
   channels, all fully processed) targeting a topic with zero prior vault
   coverage per an explicit full-vault gap analysis. Linked from
   `Design_and_Ergonomics_Guide.md`.
+- 2026-08-28 — Added a 5th source (Kruglov/Ontario, Round 13 triage
+  batch 1). Mostly corroborating; two numeric points recorded as open
+  disagreements rather than merged (cornice-width margin, in-floor-
+  convector coverage allowance).

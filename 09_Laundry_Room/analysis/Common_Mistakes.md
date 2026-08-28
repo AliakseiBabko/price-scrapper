@@ -91,6 +91,10 @@ column) allow quick troubleshooting access** — if something electrical goes
 wrong, a drawer can be pulled to reach the outlet rather than needing to
 move the appliance. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JsRvUMfIPwc_inmyroom_22_secrets_washer_placement|INMYROOM TV]]]
 
+## Dryer Lint Is Normal, Not a Damage Signal (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**A visible buildup of lint/fabric fuzz after each drying cycle does not by itself mean the dryer is damaging clothing.** Kruglov's own framing: that lint and fuzz shed from clothing/textiles over time regardless of whether a tumble dryer is used at all — a dryer's lint trap simply collects and concentrates it in one visible place rather than letting it disperse invisibly through the apartment. **A genuine, distinct caveat**: a good-quality dryer is gentler on fabric than a poor one, so drum/cycle quality does still affect *how much* extra wear the clothing takes — but the mere presence of trapped lint after a cycle isn't itself evidence of that. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
+
 ## Source Notes
 
 Traceability record kept on its own page — [[09_Laundry_Room/analysis/Source_Notes|Source Notes]].

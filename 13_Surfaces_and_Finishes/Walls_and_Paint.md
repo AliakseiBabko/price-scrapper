@@ -22,6 +22,16 @@ The same PVC-film/fabric stretch material and tensioning technique used for ceil
 
 **⚠️ Real substrate-tolerance case**: this specific panel-house entryway's walls were "not prepared at all" — bare panel, only patchy skim-coat filler in some spots, not everywhere. The finished decorative-plaster coating fully concealed the previously visible small surface defects/voids — a real practical advantage over a flatter, more defect-revealing finish on a rough substrate. Finished coating described as durable and washable, more resistant than wallpaper to both water and pet claws.
 
+## Budget DIY Decorative Plaster from Ordinary Starter Putty (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+A cheaper alternative to the professional decorative-plaster compound above, with an explicit durability tradeoff stated honestly rather than glossed over:
+
+- **⚠️ Technique**: rather than a purpose-made decorative-plaster compound, apply the same decorative texturing technique (sponge, trowel, brush, or circular hand motion, applied and then smoothed once it begins to set) using **plain starter putty** over a properly primed and plastered wall.
+- **⚠️ Two variants, one recommended over the other**: (1) applying decorative texture directly over existing plaster with no further prep — the source recommends this only for low-traffic zones (balconies, storage, walk-in closets), not main living spaces. (2) The source's actual recommendation for main rooms: plaster the wall, prime, apply 1-2 coats of starter putty with inter-coat sanding, prime again, then apply the same putty in the chosen decorative texture.
+- **⚠️ Explicit durability tradeoff, stated honestly rather than hidden**: a genuine professional decorative-plaster compound (like the RemProektMD case above) is meaningfully more wear-resistant, more repairable, and harder to chip than this putty technique — but the putty method costs a small fraction of the professional compound while remaining visually indistinguishable to anyone not specifically trained to spot the difference.
+
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
+
 ## Substrate Compatibility & Real-World Deviation Costs — per Zemskov/Zemstandart (added 2026-08-19)
 
 > [!NOTE]
@@ -220,6 +230,10 @@ promotional ratio (two CTAs).
 - **⚠️ Curved/rounded wall corners are a fully mechanism-explained developer defect**: costlier plastering than a flat wall, persistent waviness and wallpaper bubbling regardless of finish quality, a curved curtain track that reliably jams, and a "fix" (a straight rod spanning the curve) that wastes floor area since the standard curtain-zone depth then applies across the full straight-line width. **Convert any curved wall segment into two straight, angled ("faceted") segments instead** — cheaper to finish, doesn't degrade over time, avoids the curtain-track problem entirely. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZVoExA0t6nI_useless_3bedroom_223|ZVoExA0t6nI_useless_3bed]]]
 - **⚠️ Detailed technique for positioning a wall between two fixed load-bearing columns, three options compared**: centering it in the gap leaves an awkward recess needing a large wedge filler; flushing it to the columns' outer face creates a protruding step forcing every adjacent wall to extend (wasting floor area, creating door conflicts, costing extra jamb-extension trim); the correct middle option is flushing the wall's inner face to an already-built-out filler/adjustment segment instead. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1pU60p0Jh3A_worst_two_room_228|1pU60p0Jh3A_worst_two_ro]]]
 - **⚠️ Wall thickness beyond 100mm brings no additional soundproofing benefit once an interior door is present in that wall** — the door leaf itself is the binding acoustic constraint once an opening exists, not the surrounding wall thickness. Distinct from, and a nuance to, the 150mm-partition-for-soundproofing default above, which applies to solid partition runs without a door. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1pU60p0Jh3A_worst_two_room_228|1pU60p0Jh3A_worst_two_ro]]]
+
+## Wall-Squareness Is Only Needed Selectively (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**A minor scoping nuance for the squareness content above**: precise 90° corners matter specifically where built-in or free-standing furniture will sit flush against two walls — the kitchen, bathroom, toilet, and any built-in-furniture zone — not as a blanket whole-apartment requirement. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_N813aS8mI-Y_kruglov_top10_common_mistakes|YT_N813aS8mI-Y]]]
 
 ## Textured-Finish Lighting Interaction, Diagonal-Tile Justification & Duct-Box Fill-vs-Finish — per Zemskov/Zemstandart (added 2026-08-19, remainder-pool Round 2)
 

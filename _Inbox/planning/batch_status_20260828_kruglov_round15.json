@@ -1,0 +1,16 @@
+{
+  "channel": "Konstantin Kruglov / Ontario (@konstantin_kruglov_ontario)",
+  "round": "15 (triage batch 3 - completing the mistakes cluster + smart-home pair + top-solutions pair)",
+  "created": "2026-08-28",
+  "note": "Completes the 4-video mistakes cluster (0TLDGD8MY1A was the tested representative in Round 13, low yield), plus the smart-home pair and the top-solutions pair not yet tested. All 8 confirmed fresh against processed_sources.csv before dispatch.",
+  "videos": {
+    "_pOv1fnV6nM": "integrated",
+    "kkE25HmFciU": "integrated",
+    "x8cNF81m7-A": "integrated",
+    "N813aS8mI-Y": "integrated",
+    "cHdQtVoFeuo": "integrated",
+    "Y3Xpww54LpU": "integrated",
+    "QyF37JEFpfA": "integrated",
+    "VVxzNTshJCM": "integrated"
+  }
+}

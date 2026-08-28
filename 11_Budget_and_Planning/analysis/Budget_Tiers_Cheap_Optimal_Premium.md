@@ -81,7 +81,11 @@ possible pairing of unrelated systems.
 
 - **Cheap (but quality)**: plain matte stretch ceiling, classic harpoon-track
   mounting profile, no added complexity (a named brand example: MSD
-  Premium, among others).
+  Premium, among others). **A second Kruglov/Ontario source (added
+  2026-08-28) corroborates this cheap-tier configuration** (no shadow-gap
+  profile, standard decorative insert trim) and adds one mild detail:
+  this basic insert can be finished in black for a deliberate style
+  accent, not just left in a plain white default. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dBn4nhn8d9c_kruglov_budget_stylish_reno_2024|YT_dBn4nhn8d9c]]]
 - **Optimal — the source's own "no other winner" pick** for reliability,
   repairability, price, and install speed: the same stretch ceiling, but
   with a **shadow-gap ("теневой") profile** instead of a plain trim.
@@ -163,6 +167,37 @@ material categories that exist for this use)
 - **Linoleum is explicitly excluded from all three tiers** — the source
   states he does not consider it a modern material appropriate for a
   quality renovation at any budget.
+- **A cheap-tier product-configuration detail, per a second Kruglov/
+  Ontario source (added 2026-08-28)**: quartz-vinyl with an integrated/
+  attached underlayment (rather than a separately purchased underlay)
+  is specifically recommended at this tier — cheaper to install,
+  moisture-resistant, heated-floor-compatible, and allows continuous
+  large-area runs without transition strips or thresholds, concrete
+  enough that the source suggests it can even replace tile in an
+  entryway/hallway. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dBn4nhn8d9c_kruglov_budget_stylish_reno_2024|YT_dBn4nhn8d9c]]]
+
+## Lighting (added 2026-08-28, single new source — not yet a full three-tier breakdown)
+
+- **Cheap**: track lighting or surface-mounted spotlights, explicitly
+  preferred over recessed (встраиваемые) fixtures at this tier — the
+  source states recessed lighting is "already leaving the trend."
+  A cheap-tier curtain-track-concealment technique: form a hidden
+  niche at the stretch-ceiling edge with an integrated ceiling-mounted
+  curtain rod, which visually raises perceived ceiling height.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dBn4nhn8d9c_kruglov_budget_stylish_reno_2024|YT_dBn4nhn8d9c]]]
+
+> [!WARNING]
+> **⚠️ Open, unresolved same-channel disagreement on cheap-tier lighting (added 2026-08-28, Round 14 triage)**: `dBn4nhn8d9c` above prefers track lighting or surface-mounted spotlights at the cheap tier, explicitly *over* recessed fixtures ("recessed lighting is already leaving the trend"). A different Kruglov/Ontario video (`mJ0uLdys5cE`) states the opposite for its own cheap-tier package: **surface-mounted or recessed point downlights, or a chandelier** — explicitly *excluding* LED strips, track lighting, and any backlighting at the cheap tier. Both positions come from the same channel; recorded as an open disagreement, not merged or silently favoring either side. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mJ0uLdys5cE_kruglov_best_2025_solutions_budget|YT_mJ0uLdys5cE]]]
+
+## Furniture (added 2026-08-28, Round 14 triage — this page's first source on this system)
+
+- **Cheap (but quality)**: fully ready-made, serial/modular furniture
+  only — modular kitchen units assemblable from a catalog/marketplace
+  rather than custom-fabricated cabinetry, and ready-made wardrobes/
+  cabinets/dressers rather than built-in wardrobe systems. Explicitly
+  named as a real cost driver worth cutting first when the goal is
+  maximum savings — no custom kitchen, no custom built-ins at this tier.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mJ0uLdys5cE_kruglov_best_2025_solutions_budget|YT_mJ0uLdys5cE]]]
 
 ## Baseboard (skirting)
 
@@ -176,6 +211,33 @@ material categories that exist for this use)
 - **Premium/no-compromise**: hidden-mount and shadow-gap baseboards —
   labor-intensive to build correctly but a real, modern, reliable look
   per the source (not just a fragile aesthetic choice).
+
+> [!WARNING]
+> **⚠️ A genuine same-channel disagreement on where PVC baseboard sits
+> (added 2026-08-28)**: `Tyl0yPQkO5g` above places PVC baseboard at the
+> cheap tier and endorses it as fine so long as the hardware/fittings are
+> decent quality. A second Kruglov/Ontario source takes a stricter
+> position: it recommends avoiding PVC baseboard entirely, stating it
+> signals "this is a cheap renovation," and instead starts its own
+> "budget-but-not-cheap" recommendation at polyurethane or durapolymer
+> paint-ready baseboard — with a further cost-saving fallback to **MDF
+> paint-ready baseboard specifically protected by a moisture-proof film/
+> coating** (MDF's core weakness being moisture sensitivity) as a
+> cheaper-than-polyurethane alternative once that protection is in
+> place. It also names a further alternative not on this page at all: a
+> plain metal corner/angle trim run along the room perimeter, described
+> as a good-looking, inexpensive option distinct from any baseboard
+> product. **Recorded as an open, two-sided disagreement, not resolved
+> in favor of either position.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dBn4nhn8d9c_kruglov_budget_stylish_reno_2024|YT_dBn4nhn8d9c]]]
+>
+> **⚠️ A third Kruglov/Ontario source reinforces the MDF/avoid-PVC side
+> (added 2026-08-28, Round 14 triage)**: `mJ0uLdys5cE`'s own cheap-tier
+> package specifies factory-finished (pre-painted or film-wrapped) MDF
+> baseboard, with no PVC baseboard mentioned anywhere in its cheap-tier
+> list. This brings the running count to 2 sources favoring MDF/avoid-PVC
+> vs. 1 source favoring PVC-at-cheap-tier — worth noting, but a vote
+> count isn't new technical evidence, so the disagreement above stays
+> open rather than resolved by tally. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mJ0uLdys5cE_kruglov_best_2025_solutions_budget|YT_mJ0uLdys5cE]]]
 
 ## Window Reveals/Slopes (откосы)
 
@@ -193,6 +255,12 @@ material categories that exist for this use)
 
 ## Interior Doors
 
+- **A named budget/space-constrained alternative, with an explicit
+  tradeoff (added 2026-08-28)**: when a swing door doesn't fit the
+  available space, a sliding door mounted on the wall outside the
+  opening is an inexpensive, reasonable-looking alternative — but with
+  **zero soundproofing**, a real named tradeoff rather than a free win.
+  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dBn4nhn8d9c_kruglov_budget_stylish_reno_2024|YT_dBn4nhn8d9c]]]
 - **Cheap**: standard external-hinge swing-mount doors, quality
   construction, **≈$150–$200 per set (15,000–20,000 RUB)**.
 - **Optimal**: same swing/classic mounting type, **≈$200–$400 per set
@@ -259,6 +327,20 @@ material categories that exist for this use)
   smart integrated system or a plain expensive wall-hung toilet paired
   with a smart bidet seat/lid.
 
+> [!WARNING]
+> **⚠️ Open, unresolved same-channel/same-presenter disagreement on
+> freestanding tubs (added 2026-08-28, Round 13 triage)**: this page's
+> premium-tier pick above (freestanding bathtub) comes from
+> `YT_Tyl0yPQkO5g`. A different, roughly contemporary video from the
+> **same channel and presenter** (`YT_JIWmxboS-oM`, "16 things you'll
+> never find in a designer's home") states the opposite as a personal-
+> taste claim: no designer would install a freestanding tub for
+> themselves, especially in a small bathroom. Both positions are
+> recorded rather than merged or silently favoring one — this may
+> reflect a genuine difference between a commercial tiering framework
+> (this page) and a design-taste opinion piece (the other video), not a
+> factual contradiction that needs resolving. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
+
 ## Related sources on this channel (not reconciled here — flagged for a
 future pass if a direct figure conflict is found)
 
@@ -273,6 +355,8 @@ worth reconciling if a future reader spots a direct contradiction.
 ## Source Notes
 
 - [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Tyl0yPQkO5g_kruglov_cheap_optimal_expensive_tiers|Konstantin Kruglov (Ontario) — Cheap vs Optimal vs Expensive renovation, all systems]] (2025-03-21).
+- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dBn4nhn8d9c_kruglov_budget_stylish_reno_2024|Ontario/Nikita Kuznetsov — how to make a stylish, budget-friendly renovation]] (2024-04-15).
+- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mJ0uLdys5cE_kruglov_best_2025_solutions_budget|Konstantin Kruglov (Ontario) — best renovation solutions 2025, budget package]] (2025-06-06).
 
 ## Change Log
 
@@ -282,3 +366,18 @@ worth reconciling if a future reader spots a direct contradiction.
   11-system breakdown from `Tyl0yPQkO5g`; cross-tier technical-dependency
   caveat added per the user's own explicit instruction (distinct from the
   source's own "mix tiers freely" position).
+- 2026-08-28 (later same day, Round 12) — Second same-channel source
+  (`dBn4nhn8d9c`) added: a new Lighting section (cheap tier only), a
+  flooring cheap-tier product-configuration addition (integrated-
+  underlayment quartz-vinyl), a sliding-door budget alternative under
+  Interior Doors, a mild ceiling-tier corroboration/addition, and —
+  most significantly — a flagged, unresolved same-channel disagreement
+  on baseboard tiering (PVC-acceptable-at-cheap-tier vs. PVC-avoid-
+  entirely) under Baseboard.
+- 2026-08-28 (Round 14 triage) — Third same-channel source
+  (`mJ0uLdys5cE`) added: a new Furniture section (cheap tier only, this
+  page's first furniture content); a second flagged same-channel
+  disagreement, this time on cheap-tier Lighting (track/spotlight vs.
+  downlight/chandelier — opposite of `dBn4nhn8d9c`'s own pick); and a
+  reinforcement (not resolution) of the existing PVC-baseboard
+  disagreement, now standing 2-vs-1 in favor of MDF/avoid-PVC.

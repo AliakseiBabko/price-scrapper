@@ -10,6 +10,7 @@ Part of [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]].
 - **Corner wardrobes in a two-child room** — each triangular section is
   only ~50cm usable, workable for one child, not two; see
   [[05_Kids_Room/analysis/Materials_Furniture_and_Storage|Materials, Furniture, and Storage]].
+- **⚠️ Furniture anti-tip wall-anchoring, new safety topic (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: any freestanding dresser, bookshelf, or cabinet-type unit should be securely fastened to the wall — tipping such a unit over is described as easy for a child (or a pet, or an adult leaning on it), and this is framed as a real injury-prevention measure, not just furniture-damage prevention. Generalizes beyond the kids' room but is especially relevant here given a child's lower body weight relative to the tipping leverage involved. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IXicju8ul1A_kruglov_indestructible_materials|YT_IXicju8ul1A]]]
 - **A bed against a cold exterior wall**, and **a glass-paned (even
   frosted) interior door** into a kids' room — the latter because seeing
   movement/shadows pass by a translucent door was flagged as a real,

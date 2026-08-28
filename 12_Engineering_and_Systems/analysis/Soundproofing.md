@@ -450,6 +450,18 @@ practitioner's own workaround is propping the door slightly open, or
 relying on the room's AC/mechanical ventilation instead of passive
 under-door airflow. `single-account`, no named product. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_U95vMOOhKH8_timremont_39sqm_walkin_office_zoning|U95vMOOhKH8]]]
 
+## Ceiling-Only Soundproofing Is Substantially Ineffective (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ A common client assumption corrected**: most perceived "noise from
+above" actually transmits through the shared **walls**, not primarily
+through the floor slab overhead. Soundproofing the ceiling alone
+therefore catches only a marginal percentage of total noise and isn't
+worth its cost as a standalone job — do it in combination with wall
+soundproofing, or skip it. Extends this page's existing direct/indirect-
+transmission framing (below) with an explicit "ceiling-only is
+profanation" verdict. `single-account`, `unverified`, Ontario (Nikita
+Kuznetsov presenting). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
+
 ## Noise Transmission Mechanics, Window Levers, and a Real Cost Case (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ / Vladimir Amelchenko, added 2026-08-28, Round 3)
 
 St. Petersburg (channel level 2), low promotional ratio, `c_mql2Uhl7k` (2025-08-08). Corroborates this page's existing airborne/impact/structural noise taxonomy directly; adds a transmission-path distinction and window-specific figures not previously recorded here.

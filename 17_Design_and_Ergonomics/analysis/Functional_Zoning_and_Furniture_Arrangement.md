@@ -183,6 +183,8 @@ caution — not routed to `16_Legal_and_Regulations/`.
 `single-account` per source except where corroboration is noted.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DO67YHV5uAU_gusev_two_rooms_from_one_partitions|YT_DO67YHV5uAU]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mrnTQL0eyBc_studio57_glass_partitions_for_against|YT_mrnTQL0eyBc]]]
 
+**Glass block partition — a new decorative divider material, flagged as a likely fading trend (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: glass blocks used as an internal partition or accent surface (including as a shower/WC divider) have become increasingly common — roughly every third design project per the source, a steep rise through 2024. Explicitly framed as a **temporary/fading trend** associated with a dated 1980s industrial-daylighting material now repurposed decoratively — can look genuinely good in the right composition, but the source flags the real question before installing it: whether the household is actually prepared to redo it in 5-7 years once the trend passes, which he doubts most clients would actually follow through on. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
+
 > [!NOTE]
 > **Deep-dive companion page (added 2026-08-25)**: for the specific
 > ceiling-hung/no-floor-track sliding glass or MDF partition mechanism
@@ -436,6 +438,10 @@ A general-principles survey (`data/layout_cases/novikov-ideal-layout-principles.
 - **Worst-case layout pattern flagged twice**: a "train-car" layout with no real entrance hall at all (door opens straight into the bathroom, then the kitchen-living room, no wardrobe zone) leaves no room to arrange furniture flexibly; the same layout without a balcony at all is flagged as worse still, since a small unit's balcony/loggia is often the only place a resident can get privacy.
 
 [source: novikov-ideal-layout-principles case, `SZxL_SNqZ1o`]
+
+## Loggia-as-Office — Concrete Viability Requirements (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**Extends the general "loggia as functional space" framing above with concrete criteria**: a loggia genuinely functions as a usable home office only with blackout curtains, a 3-4-chamber (thick-profile) double-glazed window unit, and full thermal insulation. **⚠️ Just placing a desk and chair on an insulated loggia does not make it a usable office** — without those specific conditions, direct sun glare, street noise, and outdoor distractions (the source's own example: children playing football under the window) undermine actual working comfort. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
 
 ## Scope
 

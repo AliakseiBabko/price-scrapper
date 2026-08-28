@@ -88,6 +88,26 @@ rather than treating either as settled.
   sitting to put on shoes and setting down keys/gloves/a bag on arrival,
   called a near-mandatory entry element for that reason.
 
+## Accessory-Level Techniques (Kruglov, "50 Storage Ideas," added 2026-08-28, Round 13 triage)
+
+Konstantin Kruglov / Ontario, from a general apartment-wide storage
+catalog: **robot-vacuum-compatible open shoe storage** — if the
+household uses a robot vacuum, keep shoes on an open shelf raised on a
+plinth/podium specifically so the vacuum can pass underneath, avoiding
+having to hand-clear a closed niche before every cleaning cycle (a
+cheaper robot vacuum otherwise disturbs shoes trying to enter the
+niche). This adds a robot-vacuum-specific case to the closed-vs-open
+shoe-storage disagreement above without resolving it — it's a reason
+*some* open storage can still work well, not a vote for open storage in
+general. **Coat storage**: prefer closed storage for the bulk of
+outerwear, at most 2-3 open hooks for frequently-worn items. **Key-tray
+critique**: a dedicated small "keys only" shelf/tray reliably ends up
+holding miscellaneous clutter in practice — use a small closed console
+table or a pull-out drawer sized for keys/tissues/a shoe-cleaning
+sponge instead, and add a raised edge to any open catch-all surface that
+is used, or loose items slide off it. `single-account`, `unverified`.
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qt5mQQ6W6Z4_kruglov_storage_50_ideas|YT_qt5mQQ6W6Z4]]]
+
 ## Wardrobe Zoning and Sizing (Alla Krol)
 
 A design-studio owner (Alla Krol, self-introduced by name — note: this
@@ -140,6 +160,12 @@ wall space alone:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C-db6yom-IM_alla_krol_entryway_wardrobe_no_clutter|YT_C-db6yom-IM]]]
 
+## Three-Tier Doormat Dust Defense, and a Shoe-Podium Figure (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**⚠️ A single doormat isn't enough — Kruglov's own recommended system is three sequential defense layers**: (1) tap/scrape shoes outside the building entrance itself before entering (the outermost layer); (2) a stiff-bristle mat immediately outside the apartment's own front door; (3) a second mat just inside the apartment door. **All three won't be fully effective without regular cleaning of at least the two apartment-adjacent mats** — the system reduces, not eliminates, tracked-in dust and dirt. New to this store — existing entry-mat content (Alla Krol, above) covers planning/sizing a doormat at design stage, not this specific 3-tier layered structure. `single-account`, `unverified`.
+
+**Extends the existing robot-vacuum-compatible shoe-podium note above (from `qt5mQQ6W6Z4`) with a concrete height figure and a routine**: raise the shoe shelf roughly **10cm** above the main floor level specifically so a robot vacuum can run underneath without needing shoes moved first. Recommended routine: before a cleaning run, wipe the shelf itself with a cloth so the robot vacuum then clears whatever dust was swept off it onto the floor below, rather than just running around already-parked shoes. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
+
 ## Security / Smart-Home (Kruglov)
 
 - A video door intercom or peephole camera; a door-open sensor integrated
@@ -152,5 +178,6 @@ wall space alone:
   only suits a household with synchronized schedules — a poor fit for a
   larger family with staggered schedules; if installed anyway, mount it
   out of normal reach (inside a closet) to prevent accidental triggering.
+- **⚠️ Concrete worked scenario illustrating the confusion above (added 2026-08-28, Round 16)**: a bedroom/walk-in/bathroom zone has both its own local "zone master switch" (kills lights in those 3 rooms together) and the apartment's own whole-apartment exit switch. Real case: partner A turns off the zone master switch at bedtime; partner B wakes first, leaves without turning any bedroom light on, and hits the whole-apartment exit switch on the way out — which turns *on* every light in the apartment except that already-off bedroom zone (since it wasn't "on" for the exit switch to toggle off). Partner A, woken by the sudden light elsewhere, has to work out this exact sequence before realizing the bedroom zone needs its own switch pressed twice (off-then-on) to restore normal lighting — a genuinely confusing multi-switch interaction, not solvable by a quick label. **Practical fix stated directly**: standardize on one single, consistent lighting-control philosophy across the whole apartment (either one master switch full-stop, or none at all) rather than layering a zone master switch on top of a whole-apartment one. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]

@@ -16,6 +16,7 @@
 - **Ask the client which hand they use to hold a dish while scraping food waste before loading it into the dishwasher — that hand determines which side of the sink the dishwasher goes on.** A specific-preference check, not a generic right-handed assumption. **Corroborated and sharpened by an independent source (added 2026-08-18)**: for a right-handed dishwasher, place it to the sink's *left* — the plate stays in the working (right) hand near the sink, and the free (left) hand needs the dishwasher on that same side to load it without an awkward reach/twist.
 - **Cutlery drawer near the dishwasher; large pot/pan drawers near the stove.**
 - **Upper cabinets are unconstrained client preference** (no electrical/plumbing dependency, unlike lower cabinets) — the one designer obligation is planning task lighting for the prep zone beneath them.
+- **⚠️ Avoid white built-in appliances (oven/microwave/cooktop), Round 13 triage (added 2026-08-28)**: far more limited model selection than black across every brand and price tier (black is available from essentially every manufacturer, easing replacement/matching later); **white shading genuinely differs between manufacturers, and even between different appliance types from the same manufacturer** (an oven and a built-in microwave from one brand, made in different factories, can show visibly different whites) — a color-mismatch risk unique to white that black doesn't share. Minor secondary note: mismatched control-panel display colors across units (e.g. red digital clock on one, blue on another) reads as a small but real inconsistency. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
 
 ## Cooking-Zone Definition
 
@@ -149,6 +150,7 @@ Two DIY masterclasses (companion sources, same channel) contribute a fully seque
 > Two corroborating Category 5 QC-critique sources, independent apartments/practitioners. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ROv1BuBfECU_designer_disaster_35m_281|note 1]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cWRgenv4B40_full_disaster_30m_274|note 2]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EnSpVCSUiqg_designer_lost_it_apartment_307|note 3, chunk 1]]]
 
 - **A "cabinet-to-ceiling" kitchen design must be checked against actual ceiling levelness and any recessed-light clearance before finalizing the upper-cabinet run's height — a real, corroborated rough-in-QC mechanism, not just a design nicety.** Two independent defects found: doors colliding with a slightly sagging ceiling and nearby recessed lights on opening, and the "wrong" fix in both cases — dropping the entire cabinet run down rather than adding the correct spacer/filler strip — leaving a dust-collecting gap at the top of the run too high to reach by hand. **Rule: survey the ceiling plane and any fixture clearances before specifying a flush-to-ceiling upper-cabinet height, and always use a spacer/filler strip to correct for minor unevenness rather than dropping the whole run.** [sources: notes 1, 2]
+- **⚠️ A grease-specific reason to close that gap, Round 15 (added 2026-08-28)**: beyond dust, a 10-15cm gap between an upper-cabinet run (or wardrobe) and the ceiling collects airborne kitchen grease and sticky residue — described as considerably harder to remove than dust alone. Reinforces (with a new mechanism, not a contradiction) the existing "build to the ceiling where possible" recommendation. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__pOv1fnV6nM_kruglov_20_cleaning_mistakes|YT__pOv1fnV6nM]]]
 - **⚠️ A built-in refrigerator's door-panel type must be checked against the cabinetry's own swing/clearance design before installation — now a two-source corroborated finding.** Both documented defects had a fridge door colliding with an adjacent counter/cabinet on opening because the panel type didn't match the design; both were "fixed" by pulling the fridge forward out of flush alignment, and in one case, ordering a costly custom-matched replacement cabinet panel that still visibly "stepped" relative to its neighbors. **Rule: confirm a built-in fridge's actual door-panel/hinge clearance against the cabinetry's planned depth and swing path before committing to a flush-integration design**, not after the appliance is delivered. [sources: notes 2, 3]
 
 ## Small-Kitchen Appliance Sizing (added 2026-08-20)
@@ -231,13 +233,70 @@ Companion to [[03_Kitchen/Kitchen_General|Kitchen — Layout & Configuration]]'s
 
 `single-account`, `unverified`. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f3EI72Nwemk_kruglov_best_kitchen_ideas_2026|YT_f3EI72Nwemk]]]
 
+## Storage Accessories — "50 Storage Ideas" Catalog (added 2026-08-28, Round 13 triage)
+
+> [!NOTE]
+> From a genuinely dense accessory/technique catalog video (framed as
+> personally tested by the presenter or his clients), Round 13 triage
+> batch 1 — not a mistakes/trends video, so no direct overlap check
+> against those two sections above beyond the "magic corner" item
+> (independently corroborated below, not merged). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qt5mQQ6W6Z4_kruglov_storage_50_ideas|YT_qt5mQQ6W6Z4]]]
+
+- **Telescoping drawer dividers**: prefer plain wooden (beech-type)
+  dividers without a connecting crossbar insert between two dividers —
+  the crossbar/insert connection is the reliability weak point long-term,
+  not the divider itself.
+- **Dish-drying rack order**: mugs on the lower shelf, plates on the
+  upper shelf — mugs are used more often and sit at an easier reach
+  height there; the larger plate diameter needs the lower rack's own
+  larger clearance anyway regardless of which shelf holds it.
+- **Adhesive-mounted stick-on pull-out drawers**, added above and/or
+  below a single fixed shelf — a low-cost way to retrofit drawer-style
+  storage into a budget cabinet run with mostly hinged (not pull-out)
+  fronts.
+- **Concealed sponge holder**, mounted on the back of the sink cabinet
+  face or under-sink, out of sight.
+- **Integrated dish-soap dispenser** built into the counter/faucet run —
+  more aesthetic than a free-standing dispenser bottle.
+- **Door-back containers near the trash cabinet**: for dishwasher
+  tablets or cleaning gloves specifically — never for damp cleaning
+  rags, which need to air-dry elsewhere (dry, already-dried rags are
+  fine there).
+- **⚠️ Tall pantry cabinet (~35cm wide) upgrade**: a custom rear-of-door
+  shallow-but-wide shelf system (ordered from the kitchen company, ~30,000
+  RUB for the full interior) is a genuine usability improvement over the
+  standard narrow pull-out basket/carousel for this cabinet width, at a
+  real cost premium.
+- **"Magic corner" alternative, independently corroborating this page's
+  existing "false economy" verdict above from a different angle**:
+  rather than an expensive rotating "magic corner" mechanism, narrow
+  wheeled bins that roll in and out of the same dead corner zone are a
+  much cheaper near-equivalent for usability (cleaning supplies, rags, or
+  even potatoes) — a cost/convenience argument reaching the same
+  skip-the-mechanism conclusion this page already recorded from the
+  "useless items" source below, via a different (bins vs. no dedicated
+  solution) proposed fix.
+- **Cutlery tray selection**: maximize drawer-footprint coverage; choose
+  a tactilely pleasant, durable material so it doesn't degrade within
+  ~6 months.
+- **Pull-out trash bin**: cheaper marketplace alternatives exist to
+  dedicated multi-compartment sorting systems that can cost 20,000-
+  30,000 RUB, without meaningfully worse basic function; keep the
+  trash-bag roll stored at the bottom of the bin itself so a fresh bag
+  is always in a known place when the full one is discarded.
+- **Bulk dry-goods clip dispenser with pour spout** — an airtight
+  sealed container/clip combining sealed storage and a pour spout,
+  in place of plain bag clips.
+- Home medicine storage (dedicated sized boxes) and door-back lid clips
+  for pot/pan lids are both viable, low-cost organizational add-ons.
+
 ## "Useless Kitchen Items" — Hardware and Mechanism Cautions (added 2026-08-28)
 
 > [!NOTE]
 > A structured 16-item "don't buy this" checklist — cross-checked against this page's existing content before recording anything below; two items (glass facades, mezzanine-tier justification) were found to already be corroborating, not new, and are not repeated here. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
 
 - **Avoid motorized/electric-drive facade mechanisms** — expensive to install, expensive to maintain, and generate repair/replacement service calls on failure.
-- **Avoid push-to-open (touch-latch) facade mechanisms entirely**, cabinetry and freestanding furniture alike — a well-known failure mode: leaning against the facade (e.g. reaching for a glass of water) triggers an unwanted spontaneous opening. **Prefer ordinary external handles or a milled finger-pull groove instead.**
+- **Avoid push-to-open (touch-latch) facade mechanisms entirely**, cabinetry and freestanding furniture alike — a well-known failure mode: leaning against the facade (e.g. reaching for a glass of water) triggers an unwanted spontaneous opening. **Prefer ordinary external handles or a milled finger-pull groove instead.** **⚠️ Refinement, Round 13 triage (added 2026-08-28)**: Konstantin Kruglov / Ontario softens "avoid entirely" to "avoid across all furniture" — a small, localized use (one attic-level cabinet, or a single chest of drawers) is called acceptable. **New specific failure detail**: mechanisms mounted at knee/hip height specifically suffer frequent false triggers from incidental contact, sharper than the general "leaning against it" caution above. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
 - **⚠️ Avoid motion/proximity-sensor task lighting under cabinets** — unreliable and prone to false triggers (the source's own installed unit, mounted above a kettle, fires on every rise of steam). **Prefer an ordinary physical switch, or a named "smart mechanical switch" (Hype Pro brand, explicit non-sponsorship disclaimer) paired with a relay** — a more stable system than a proximity sensor.
 - **Avoid a cutlery drawer nested behind a large lower facade** (reachable only by first pulling out the whole oversized bottom drawer in front of it) — that outer drawer is typically loaded with heavy pans/lids, so retrieving cutlery means hauling out the entire heavy load first; these nested mechanisms also develop play/rattle over time.
 - **Avoid standard-size plastic/rubberized dish-divider inserts** — fixed dimensions rarely fit real dishware well; **prefer simple added shelving plus loose containers instead.**
@@ -247,6 +306,7 @@ Companion to [[03_Kitchen/Kitchen_General|Kitchen — Layout & Configuration]]'s
 - **Pull-out/extending cutting boards and pull-out countertop extensions** — never actually seen installed per the source's direct experience; conceivably justifiable only in an extremely space-constrained "field kitchen"-style installation with no room for even a small standalone table.
 - **A built-in countertop trash-bin cutout (hinged lid, waste scraped directly through the counter surface)** — flagged as a feature the source has never understood the appeal of; not recommended.
 - **Facade color/finish avoid-list, same underlying dirt-visibility mechanism regardless of material**: very dark facades, very light/white facades, and glossy facades of any color all read as dirty faster than a mid-tone matte alternative — extends (doesn't duplicate) this store's monochrome-facade formula, which is about color/handle harmony rather than this dirt-visibility mechanism.
+- **⚠️ Open hanging-rail utensil storage as visual clutter, Round 13 triage (added 2026-08-28)**: an open rail/rod system for hanging utensils reads as constant visual clutter unless the household genuinely cooks and uses every hung item daily — better skipped otherwise. **Glass kitchen backsplash, same batch**: called an increasingly outdated choice, sharing glossy facades' downside (readily shows fingerprints/water marks/smudges) on top of reading as visually dated. **Cutlery-drawer partial-pull nuance**: even without full nesting behind a large facade (see the existing nested-drawer caution below), splitting a wide cutlery/utensil drawer into independently-openable sections, rather than one continuous wide tray, reduces the effort needed to reach a single item once the drawer carries real weight. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0TLDGD8MY1A_kruglov_top_renovation_mistakes_2026|YT_0TLDGD8MY1A]]]
 
 `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
 
@@ -293,6 +353,13 @@ Companion to [[03_Kitchen/Kitchen_General|Kitchen — Layout & Configuration]]'s
 - **⚠️ Artificial-stone/acrylic countertop wet-zone material-selection caution**: not every artificial-stone material suits a genuinely wet zone — some show permanent water marks/staining fixable only by professional polishing. **A higher price does not guarantee wet-zone suitability** — consult a countertop specialist on the specific material's rating before ordering.
 - **Backsplash-tile-after-countertop installation sequencing rule**: install and level the countertop first, then fit the tile backsplash down onto it — a cleaner, less-staining, longer-lasting, and more repairable joint at the seam than tiling first.
 - **Compact extending/transforming table recommended over a large fixed table for a small, low-occupancy household** — a heavy (~50kg) fixed table base is functionally immovable day-to-day and risks scratching a porcelain-tile floor if dragged rather than lifted.
+
+## Kitchen Layout Trends — Bar Counter Height and an "Invisible Kitchen" Critique (Round 14 triage, added 2026-08-28)
+
+- **⚠️ Bar counter lowered to standard dining-table height, new trend, no prior coverage on this page**: rather than a traditional elevated bar counter (uncomfortable for extended seating, especially with young children), this trend keeps the counter at normal dining-table height while retaining the visual "bar" composition as part of the kitchen cabinetry — the source calls it one of the best kitchen layout trends of the last 1.5-2 years, since it resolves the comfort-vs-bar-aesthetic tension directly rather than trading one for the other.
+- **"Invisible/hidden kitchen" trend — a design-marketing critique**: fully concealing the entire cooking zone (including the sink) behind cabinetry so the space reads as having no kitchen when closed. The source's own position: suits summer kitchens/terraces in private houses or office pantries, but **not apartments** — he considers washing dishes immediately after use "not stressful enough to justify" the added cost/complexity, despite seeing it increasingly marketed specifically for apartment kitchens on social media.
+
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
 - **Voice-controlled curtains via smart home, alongside voice-controlled lighting** — extends this page's existing voice-control lighting content (above) with curtain control in the same hands-free, cooking-with-dirty-hands use case.
 - **Door-mounted trash-bin retrofit claim**: this page's existing door-mounted bin-attachment kit is confirmed retrofit-compatible — installable onto an existing kitchen cabinet door even a decade after that kitchen's original installation, without a full kitchen replacement.
 
@@ -360,6 +427,30 @@ Companion to [[03_Kitchen/Kitchen_General|Kitchen — Layout & Configuration]]'s
 > **Round 10 addition**: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AOlNxAlI0So_kruglov_how_to_choose_oven_2026|`YT_AOlNxAlI0So`]] (this channel's dedicated oven buying-guide video) adds a third, distinct, conditional mechanism rather than taking a flat side — a combined unit can't run the oven at full capacity while the microwave function is active, so it recommends splitting into two separate appliances specifically if you use the oven often, while still endorsing a combined unit for a small studio/one-bedroom apartment. See [[03_Kitchen/Kitchen_Utilities|Kitchen Utilities]] for this source's full oven buying-guide content.
 
 `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
+
+## Island Plumbing Feasibility and Seating, Nikita Kuznetsov (Ontario, added 2026-08-28, Round 16)
+
+- **⚠️ A sink/dishwasher/washer built into a kitchen island depends on the sewer stack's real proximity, not just layout preference**: the presenter's own explicit caution is that he "wouldn't normally do this," but it worked on this real project specifically because the sewer stack and supply lines happened to sit close to the planned island location — avoiding the screed elevation that a longer drain run would otherwise need for proper fall/slope. Check the real distance to the stack before committing to island plumbing, rather than assuming it always works.
+- **A second island-seating solution, distinct from this page's existing ~30cm counter-overhang approach**: a separate, free-standing table-height surface butted against the island at matching height — visually reads as one continuous structure, but can be moved/repositioned later since it isn't physically fixed to the island. An alternative worth naming alongside the fixed-overhang approach, not a replacement for it.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
+
+## Real-Project Critique: Prep-Zone Clearance, Heated-Floor Thermostat Placement (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+- **⚠️ Insufficient counter clearance for food prep in a compact one-wall kitchen, a real defect example**: the gap between the sink and cooktop, and separately between the cooktop and a built-in coffee machine, was too narrow for comfortable food preparation. The presenter's own diagnosis: the design called for a 4-burner cooktop in a footprint that couldn't really support the counter space a household that cooks often would need — acceptable in this specific case only because the clients (a young couple) don't cook much and rely on Moscow's fast food-delivery market instead. **Planning takeaway**: if food prep matters to your household, verify actual counter clearance on both sides of the cooktop against your own cooking habits before finalizing a compact one-wall layout, rather than assuming any cooktop size fits.
+- **⚠️ Heated-floor thermostat placed on the backsplash — a real placement mistake, new to this store's heated-floor content**: mounting the floor-heating control panel on the kitchen backsplash competes for scarce outlet/socket space in the exact zone with this store's highest outlet demand (multiple small appliances). **Compounding reason it's the wrong location**: heated floors have a 2-3 hour lag before warmth is actually felt, so a backsplash-mounted manual toggle invites impulsive on/off use that doesn't match the system's real response time. **Recommended fix**: mount the thermostat on a wall away from the backsplash, and use a smart/programmable thermostat capable of a **fixed twice-daily schedule** (e.g. warm before waking, warm again in the evening) rather than manual toggling.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+
+## Integrated Downdraft-Extractor Cooktop — Floor Ventilation Routed Before Screed (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**⚠️ A cooktop with an integrated (in-counter/downdraft) extraction system needs its own ventilation trench routed through the floor *before* the screed is poured**, not retrofitted afterward — on a real jobsite, the floor-level duct run for a planned downdraft cooktop location was installed and confirmed prior to the screed pour, alongside the electrical cable run feeding that same cooktop. A concrete sequencing dependency worth flagging early in design for anyone specifying a downdraft-style cooktop rather than a conventional overhead hood. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
+
+## Trash-Bin Door-Mounted Slide Mechanism (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**⚠️ A stationary trash bin fixed inside a sink-cabinet reliably gets missed** — Kruglov's own stated everyday failure mode: throwing something toward a bin that doesn't move with the door, aim is often just slightly off. **Fix: mount the bin directly to the cabinet door face, or use a purpose-made slide-out bin carriage that rides out on rails together with the door as it opens** — the bin arrives directly under/in front of where you're aiming rather than staying recessed in a fixed spot. Same mechanism generalizes to any cabinet-concealed bin, not just kitchens (e.g. a bathroom vanity bin). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
+
+**Sink-type note, cross-reference**: this same source's undermount/fully-integrated sink recommendation (over top-mount/rimmed/vessel) is recorded in full on [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers & Sinks]] — Kruglov states it applies to kitchen sinks equally, not just bathroom fixtures.
 
 ## Source Notes
 

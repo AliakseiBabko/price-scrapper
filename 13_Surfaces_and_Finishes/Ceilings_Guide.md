@@ -111,6 +111,7 @@ general comparison.
   (perimeter shadow gap with an LED strip inside it) and a "seamless
   wall junction" (membrane tucked into a specific trim profile for a
   clean, gap-free wall-ceiling line).
+- **⚠️ Black perimeter-insert trim as a zero-cost budget approximation of shadow-gap, plus a new "slot" profile named (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: a plain white perimeter insert trim is now considered dated; switching the same trim to **black** is a zero-extra-cost way to visually approximate a shadow-gap profile's premium look from normal viewing distance (the difference only shows up close). For a genuinely premium result rather than the black-insert approximation, two profile options exist: the shadow-gap ("теневой") profile already on this page, or a **"slot" ("щелевой") profile** — a further profile type not previously named here, producing a stretch ceiling with **no visible seam against the wall at all** (technically present but effectively invisible), distinct from shadow-gap's visible recessed channel. Not yet cross-checked against this page's existing cost ladder. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xb5pUpTVIJU_kruglov_looks_cheap_10_mistakes|YT_xb5pUpTVIJU]]]
 - **⚠️ New ceiling-type content: a deliberately exposed, unfinished
   structural slab as a loft-style choice** — no need to hide services
   or achieve flatness, since visible roughness is the aesthetic itself
@@ -301,6 +302,10 @@ Konstantin Kruglov interviews Andrey Frolov, an independent professional stretch
 
 **⚠️ Smoke detectors must never be fully concealed behind the membrane** — must sit flush with or only slightly recessed into the ceiling surface, fully exposed, since real-fire detection speed is measured in seconds; a protective grille cover is sometimes installed at a client's explicit request but the installer actively discourages it. **Sprinkler/fire-suppression heads cannot be routed as permissively** — they need a specific manufacturer-made mounting collar/platform at a designated penetration point, distinct from an ordinary wire-penetration reinforcing ring. See [[12_Engineering_and_Systems/analysis/Fire_Safety_Stretch_Ceiling_Installation|Fire Safety: Stretch Ceiling Installation]] for this project's existing platform-before-film sequencing and clearance-rule detail from a different (installation-company) source — this interview adds the detection-speed rationale and practitioner stance, not new mounting mechanics.
 
+**⚠️ Solid baguette framing cancels the membrane's own repairability advantage (Round 15, added 2026-08-28)**: this page's existing repairability content notes a stretch ceiling can normally be locally unclipped and re-tensioned (to add a fixture, fix a leak, etc.) without disturbing the rest of the ceiling. Konstantin Kruglov / Ontario flags that framing the perimeter in a rigid, puttied-and-painted baguette molding removes that flexibility — accessing the membrane later means physically breaking off a baguette section and re-finishing (puttying/sanding/painting) it from scratch. Recommends a shadow-gap or "eurokant" perimeter finish instead, both already compatible with the membrane's repairability. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
+
+**Extension, a second Ontario source (Round 15, added 2026-08-28)**: a bare stretch-ceiling membrane replacement (no baguette) takes about **3 hours** with zero mess/dust — the installer unclips the existing profile, tensions new material, and reclips. Where a baguette *is* present, removing it to access the membrane damages the paint/plaster at the wall-ceiling junction, cascading the repair into repainting/re-finishing the walls too — a fuller "why it cascades" mechanism than the entry above gave. `single-account`, `unverified`, Ontario (Nikita Kuznetsov presenting). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
+
 **Cross-cutting**: a "stretch walls" (натяжные стены) trend — the same PVC/fabric material and technique applied to walls instead of ceilings, for a soft/cushioned child-safe tactile surface, sound absorption, and a perfectly even defect-hiding finish — is genuinely new territory, flagged for [[13_Surfaces_and_Finishes/Walls_and_Paint]] rather than covered here since it's a wall-finish technique.
 
 ## Five-Way Cost, Timeline, and Repairability Comparison (Kruglov/Ontario, Round 5, added 2026-08-28)
@@ -326,6 +331,53 @@ Konstantin Kruglov / Ontario gives the first full quantified labor+materials cos
 **Presenter's own personal ranking** (not framed as universal advice): stretch ceiling is his own favorite outright; drywall second if budget allows (shadow-gap stretch as the value pick otherwise); plastered ceiling ranked last, "not a single upside."
 
 **⚠️ A material-science detail behind the non-yellowing/hypoallergenic claim (same channel, added 2026-08-28)**: the stretch-ceiling membrane is made from **primary (virgin) plastic pellets, melted directly** — this is why it doesn't darken/yellow over time, unlike **recycled plastic**. The source's own comparison: PVC window-frame profiles themselves don't yellow (primary plastic), but plastic insert strips sometimes fitted to windowsills do yellow (recycled plastic) — the same underlying material distinction applies to the ceiling membrane. This video's own cost totals otherwise restate the cost ladder above almost exactly (same channel, same order of magnitude) and are not re-recorded as a separate data point. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KNY-XfgbGog_kruglov_top8_save_money_tips|YT_KNY-XfgbGog]]]
+
+## Drywall Ceiling — a Same-Channel Cost Divergence, Ventilation Exception, and Cove-Lighting Caution (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+> [!NOTE]
+> Trends-cluster representative video. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
+
+**⚠️ Open, unresolved same-channel cost divergence**: this video states
+drywall ceiling installation costs **~15,000 RUB/m² (≈$155/m²) labor
+alone plus ~5,000 RUB/m² (≈$50/m²) materials, ≈20,000 RUB/m² (≈$205/m²)
+all-in** for a single-level ceiling finished to paint. This channel's
+own Round 5 figures above (`YT_lhNC30_adGc`) put single-layer drywall
+meaningfully lower (~5,500 RUB/m² labor + ~3,500 RUB/m² materials ≈
+$100/m² combined) and even multi-level drywall only reaches ≈13,500
+RUB/m² (≈$150/m²). Roughly a year separates the two videos, which may
+explain part of the gap, but the ratio looks larger than ordinary
+inflation alone — **recorded as an open disagreement, not merged or
+averaged.** New timeline figures: a 50m² apartment's drywall ceiling
+(full prep-to-paint) can take 2-3 months; a 100m² apartment's framing
+alone takes about a month, with prep/finishing adding 4-5 more.
+
+**⚠️ An additional, still-unreconciled data point on this same divergence
+(Round 14 triage, added 2026-08-28)**: a third same-channel video states
+drywall costs simply **"3-5× more"** than stretch ceiling, with no
+separate RUB/m² breakdown. This ratio is higher than either prior
+figure-pair on this page implies on its own — `oDHSbp6QRRE`'s own
+≈20,000 vs. this page's earlier ≈13,500 RUB/m² multi-level figure works
+out closer to 1.5-2×, not 3-5×. Logged as a further data point on the
+open divergence above, not used to merge or resolve it. Konstantin
+Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
+
+**New exception case**: a drywall ceiling remains the right
+(unavoidable) choice specifically where ducted supply/exhaust
+ventilation trunking needs boxing in — this source explicitly carves
+that use case out of its own "avoid drywall ceilings" critique,
+recommending stretch ceiling for everything else.
+
+**New cove/contour-lighting caution, softening (not reversing) this
+page's own good-practice framing** — see also
+[[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]]:
+dust, gnats, and small insects accumulate in the concealed channel
+between the ceiling membrane and the light source over time; once lit,
+the light casts a visible shadow through the debris, reading as visible
+dirt on the ceiling — a real, fairly fast cosmetic failure specific to
+this construction detail, not a durability problem with the ceiling
+material itself.
+
+`single-account`, `unverified`.
 
 ## Do's
 

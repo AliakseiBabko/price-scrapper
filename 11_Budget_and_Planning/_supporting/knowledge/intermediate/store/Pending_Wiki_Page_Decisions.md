@@ -35,6 +35,30 @@
 
 - ~~**Old-Fund ("Старый Фонд") Apartment Full-Gut-Renovation Case Content**~~ — **RESOLVED 2026-08-28.** Crossed the 3+-source threshold the same session: `YT_AGqrxEtyrdI` (Round 3), `YT_f8lzn1KEIww` (Round 5, video 3), and `YT_nma3zHRugsM` (Round 5, video 5) — all ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, no independent second company yet. Page created: [[11_Budget_and_Planning/analysis/Old_Fund_Apartment_Renovation|Old-Fund Apartment Renovation]] (buy-time red flags, approval constraints, structural/substrate technique, systems workarounds, period-authentic-material cost drivers, real dysfunctional-layout fixes, company policy). Linked from `Budgeting_Guide.md` §4.
 
+- **Fixed Partition Wall Construction Materials (1 source, added
+  2026-08-28, below the 3+ threshold)**: `YT_oom96XXQobY` (Kruglov/
+  Ontario, Round 13 triage batch 1) contributes a genuinely new sub-
+  topic — a fully-quantified 5-material × 8-criteria comparison (brick,
+  gypsum pazogreb block, silicate pazogreb block, foam block, drywall)
+  for fixed/masonry-type partition wall construction. Distinct from the
+  existing `17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms.md`
+  page (movable/sliding partitions only — no overlap). Held in
+  `Durable_Facts.md` for now. Revisit for a dedicated page once 2 more
+  independent sources on fixed-partition-wall material selection
+  accumulate.
+
+- **Sofa / Upholstered Furniture Construction Quality (1 source, added
+  2026-08-28, below the 3+ threshold)**: `YT_5mSvRxFJOgE` (Kruglov/
+  Ontario, Round 13 triage batch 1) contributes a genuinely new
+  sub-topic under `14_Furniture/` — an economy-vs-premium construction
+  quality tier comparison (frame material/joinery, fold-mechanism
+  tradeoffs, foam density, fabric abrasion/Martindale index, warranty).
+  This project's existing living-room content covers sofa sizing/
+  placement only, not construction quality — no overlap. Held in
+  `Durable_Facts.md` for now. Revisit for a dedicated page once 2 more
+  independent sources on upholstered-furniture construction quality
+  accumulate.
+
 ## Decisions
 
 None yet.

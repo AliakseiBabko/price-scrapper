@@ -14,6 +14,10 @@ First content on this page (previously an empty placeholder). Covers appliance/f
 
 `single-account`, `unverified`. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f3EI72Nwemk_kruglov_best_kitchen_ideas_2026|YT_f3EI72Nwemk]]]
 
+## Combined Oven+Microwave Unit — Small-Apartment Space-Saving Option (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+**⚠️ A single appliance housing both an oven and a microwave**, saving the floor/wall space a separate built-in or countertop microwave would otherwise need. **Real tradeoff**: while the microwave function is in use, the oven function is unavailable (shared internal space/mechanism) — a genuine functional compromise, not just a footprint saving. **Cost note**: the combined unit costs roughly the same as a standalone oven alone — the added microwave function doesn't meaningfully raise the price. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EwI_ZoT3VTQ_kruglov_top11_small_apartment|YT_EwI_ZoT3VTQ]]]
+
 ## Sink & Mixer Color Caution: Avoid Black (added 2026-08-28)
 
 > [!NOTE]

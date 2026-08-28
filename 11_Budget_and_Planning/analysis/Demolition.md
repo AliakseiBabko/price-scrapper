@@ -28,6 +28,7 @@ the cost/legal risks specific to this stage.
 - **Use a heavier rented jackhammer for full screed removal**, resting
   its weight on the screed itself, distinct from the lighter hand-held
   hammer preferred for vertical wall demolition.
+- **⚠️ Full removal of an existing built-in sanitary cabin (сантехкабина) on a secondary-market apartment, rather than reusing it (Round 14 triage, added 2026-08-28)**: Konstantin Kruglov / Ontario recommends demolishing the pre-existing wet-zone cabin entirely instead of working around it, for two stated reasons — (1) the cabin eats usable floor, ceiling, and wall space that a from-scratch block or partition build wouldn't; (2) the material is described as "resonant" (звонкий) with real elastic give, so **it should never be chased horizontally** (a horizontal groove cut for pipe/cable routing removes structural strength) and should not be overloaded with heavy tile without care. Recommended replacement: build a new wet-zone enclosure from blocks or another solid material from scratch. `single-account`, `unverified`, Moscow/Moscow region (channel general market). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mJ0uLdys5cE_kruglov_best_2025_solutions_budget|YT_mJ0uLdys5cE]]]
 - **Grind monolithic concrete surfaces (walls, ceilings, ventilation
   ducts) to remove cement laitance and open surface pores before
   plastering or applying a concrete-contact primer** — a concrete-

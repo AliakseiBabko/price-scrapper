@@ -16,6 +16,8 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
 
 **Konstantin Kruglov / Ontario gives the precise general formula for the two-way/crossover pattern above**: keep exactly 2 two-way switches at the two logical "end" locations regardless of how many control points exist, and add one crossover/intermediate switch per additional point beyond those two — 3 points = 2 two-way + 1 crossover; 4 points = 2 two-way + 2 crossover; 10 points = 2 two-way + 8 crossover. Buying two ordinary standard switches and asking an electrician to wire them as two-way does not work — the devices must be two-way switches by construction from the start. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1dp7alivsLQ_kruglov_safe_sockets_switches|1dp7alivsLQ_kruglov_safe_sockets_switches]]]
 
+**⚠️ Never tie an exhaust-fan/ventilation circuit to the main light switch (Round 13 triage, added 2026-08-28)**: wiring a bathroom's extractor fan to switch on automatically with the main light is a common but avoidable mistake — always give ventilation its own dedicated switch. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0TLDGD8MY1A_kruglov_top_renovation_mistakes_2026|YT_0TLDGD8MY1A]]]
+
 **Konstantin Kruglov / Ontario: two devices worth avoiding, with reasoning** — (1) triple-gang switches: each gang is only ~2cm wide (about one fingertip), making it hard to hit the right gang reliably, especially at night; (2) wiring 3+ crossover control points onto one multi-gang switch instead of using separate crossover switches — the cable run required is disproportionate to the benefit. **Avoid a two-way ("проходной") dimmer specifically**: switch/socket lines are normally bought matched from one manufacturer/collection, and a two-way-capable dimmer often only exists in a different product line, forcing a visible frame/finish mismatch across the installation. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1dp7alivsLQ_kruglov_safe_sockets_switches|1dp7alivsLQ_kruglov_safe_sockets_switches]]]
 
 **Buy sockets, switches, and cover-frames from one manufacturer and, ideally, one product line/collection, sourced together** — a real documented client case: a client bought round-bodied socket/switch mechanisms with square-shaped cover frames from mismatched sources for a 45-point order (30 sockets, 15 switches); caught and returned before installation, but framed as a routine, easy-to-make mistake worth an explicit warning rather than assuming it's obvious. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1dp7alivsLQ_kruglov_safe_sockets_switches|1dp7alivsLQ_kruglov_safe_sockets_switches]]]
@@ -126,6 +128,7 @@ page (line 5 above, and the physical-differentiation rule below):
   timer/clock/program state in volatile memory when cut, needing
   reprogramming afterward; this is a deliberate tradeoff to make, not
   an oversight to avoid outright.
+- **⚠️ Second-household-member usability caveat, Round 15 (added 2026-08-28)**: because the master switch fully cuts the apartment's general lighting circuit, a household member who stays home/sleeps in after another member leaves for work (switching off the master light on the way out) loses light access entirely until they themselves walk to the entry door and reactivate it — a real, easily-overlooked tradeoff in a multi-person household with staggered schedules. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VVxzNTshJCM_kruglov_modern_must_have_solutions|YT_VVxzNTshJCM]]]
 - **Vetting heuristic**: if a prospective electrician can't give a
   clear answer about master switches, treat that as a sign they aren't
   fully current on residential electrical practice.
@@ -133,6 +136,8 @@ page (line 5 above, and the physical-differentiation rule below):
   single-apartment installs.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zuh3k15-STo_petrishin_master_switch|zuh3k15-STo_petrishin_master_switch]]]
+
+**⚠️ Router and security-camera system named explicitly in a fourth independent source's exclusion list (Round 14 triage, added 2026-08-28)**: Konstantin Kruglov / Ontario restates the same master-switch inconvenience case and "vacation mode" scoped-switch alternative already covered above, but names the **Wi-Fi router and a security/surveillance camera system** directly as always-excluded devices, alongside the refrigerator and leak-protection system already on this page's priority-group list. The existing "weak-current panel" category would implicitly cover the router, but this source calls it out by name — a minor but real specificity addition, not a new mechanism. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
 
 ## Multi-Gang Switch Sequencing Should Match Walking Direction (added 2026-08-25, Квартиранты)
 
@@ -144,6 +149,16 @@ from the entry door inward, rather than an arbitrary left-to-right
 assignment. A directly reusable multi-gang-switch layout principle for a
 corridor with several independently-lit zones in a row: order the gangs to
 match the walking path, not panel geometry. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sAXC1hn8u9A_kvartiranty_hallway_wall_prep_electrical|YT_sAXC1hn8u9A]]]
+
+## Passthrough-Switch Cognitive-Load Caution (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ Distinct from this page's existing cost-based crossover-switch-count formula**: passthrough (проходной) switching only genuinely simplifies life if the household can mentally track which switch controls what from where. Recommendation: apply it selectively (e.g. one bedroom entry-to-bedside pair in a 30m² apartment) rather than wiring every room in a passthrough chain — an apartment fully saturated with passthrough switches becomes a "piano of switches" the household never fully learns to use. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
+
+**A complementary cost-justification framing, a second Ontario source (Round 15, added 2026-08-28)**: a passthrough/crossover switch setup costs roughly **2,000-4,000 RUB** more than a standard switch at a given location — framed as clearly worth paying for the daily comfort of not needing to backtrack to a switch. Doesn't conflict with the cognitive-load caution above — this source argues the marginal cost is worth it specifically at locations where passthrough switching is genuinely useful, not that it should be used everywhere. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VVxzNTshJCM_kruglov_modern_must_have_solutions|YT_VVxzNTshJCM]]]
+
+## Touch/Capacitive Wall Switches — General-Purpose Impracticality (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**Distinct from this page's existing under-cabinet-lighting-specific touch-sensor caution above**: a touch switch requires visually locating the exact touch point and pressing precisely, and doesn't always register on the first attempt — contrasted with an ordinary toggle/rocker switch, which can be hit anywhere on its face by feel alone with no visual confirmation needed. Recommends touch switches only where already integrated into a smart-home voice-control setup (where the physical switch is rarely the primary control method anyway). `single-account`, `unverified`, Ontario (Nikita Kuznetsov presenting). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
 
 ## Named Product Line and a Frame-Swap Lifehack (added 2026-08-24, Round 2)
 

@@ -113,6 +113,16 @@ established fact.
   cultural readings by context, elegance/status vs. mourning/fear).
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_T-W5qFAVG9o_kodolov_color_psychology|T-W5qFAVG9o_kodolov_color_psychology]]]
 
+## Color Proportion and Contrast Rules (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+A distinct, complementary framework from the per-hue Color Psychology section above — not merged or reconciled with it, since this is a proportion/contrast methodology rather than a per-color-association one:
+
+- **⚠️ 60-30-10 color-proportion rule**: 60% of a room's color should be the base fill (walls, floor), 30% mid-weight elements (furniture, curtains), and only 10% genuinely accent colors (decor, light fixtures, chairs). **The accent color must repeat at least 3 times** across distinct objects (e.g. a painting, a cushion, a vase all sharing one accent tone) — a single accent instance doesn't read as a deliberate choice.
+- **⚠️ Three-criterion contrast rule for accents**: an accent color must differ from the base along at least one of three axes — **hue** (a different color outright), **temperature** (warmer or cooler), or **material/texture** (wood vs. metal vs. stone, etc.). If unsure about color contrast specifically, temperature or material contrast is the safer default.
+- **Named warm/cool palette pairings**: a warm base (beige, sand, cream, terracotta, warm gray) pairs best with deep blue, olive or forest green, black, brass, or gold; a cool base (concrete gray, cold white, graphite) pairs best with terracotta, caramel, cognac tones, warm wood, bronze, or warm green.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qPi_0cW7aHI_kruglov_expensive_interior_10_rules|YT_qPi_0cW7aHI]]]
+
 ## Related content elsewhere in this vault (not merged here)
 
 - One general color-pairing rule ("warm-accent/neutral-main color-pairing") is currently recorded in `12_Engineering_and_Systems/analysis/Lighting_Design.md`, since it came from a lighting-focused source discussing color temperature alongside fixture placement — cross-reference rather than duplicate once this page has enough content to warrant a synthesis pass.

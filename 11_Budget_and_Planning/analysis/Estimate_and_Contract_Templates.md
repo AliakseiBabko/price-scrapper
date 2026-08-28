@@ -184,6 +184,46 @@ exists*.
   discount clause's payment-timing structure, not just its headline
   percentage. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|YT_rzpkTJYsY0Q]]]
 
+- **⚠️ Three further contract/vetting mechanisms, per Kruglov/Ontario
+  (added 2026-08-28)**: (1) verify a contracting organization's legal
+  registration (OOO or IP) directly online — registration date, tax
+  filings, and litigation/court-case history are all realistically
+  checkable before signing; (2) specify penalty terms not just for the
+  client's early termination but explicitly for the **contractor's own
+  unilateral termination** — without this clause a crew can complete
+  only the most profitable rough-work stages and walk away at the
+  hardest stage with no consequence (the source states a meaningful
+  share of this company's own incoming work is finishing renovations
+  abandoned by a previous crew, precisely for this reason); (3) a
+  distinct trap from this page's fake-discount/discount-withholding
+  tricks above — some companies attach a **separate, less-favorable
+  price list for additional/change-order work** beyond the smeta
+  itself (worked example: a smeta specifies 60×60cm tile; switching to
+  120×60cm tile gets billed against this separate appendix list, not
+  the smeta's own more favorable rate) — read any contract appendix
+  price list as closely as the smeta itself. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lPmjWTwNVQA_kruglov_contractor_scams|YT_lPmjWTwNVQA]]]
+
+- **⚠️ Two named timeline-specific scam mechanisms, per Kruglov/Ontario
+  (added 2026-08-28)**, distinct from this guide's existing
+  smeta-*wording* fraud catalog: (1) a "sunk-cost illusion of choice"
+  deadline trap — a company quotes an artificially short headline
+  timeline specifically because by that date, 65-70% of the most
+  profitable rough-stage work is already done, leaving the client to
+  choose between extending the contract or firing the contractor to
+  inherit an unappealing, already-picked-over half-finished object (the
+  same underlying economics as this guide's rough/finish bait-and-
+  switch, expressed through timeline pressure instead of pricing
+  structure); (2) inflated day-counts on small change-order items
+  (worked example: a ≈1,000 RUB/≈$10 additional outlet quoted as
+  requiring 2 full working days) that compound into months of
+  attributed "client-caused" schedule slip. **⚠️ A named legal-
+  recourse limitation**: once a company has quoted a day-count for a
+  change order in writing and the client accepted it, courts are stated
+  to generally side with the quoting company — a client isn't
+  considered a qualified expert able to dispute the figure after the
+  fact, and doing so is described as expensive and unlikely to
+  succeed. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|YT_9lFhda_KDHk]]]
+
 ## Gaps
 
 - Neither of this page's two new sources contains a **real, downloadable

@@ -53,6 +53,7 @@ Covers general fixture-count guidance, bedroom lighting, ceiling light-source ty
 - **Light panels** (flat diffused-light panels, associated with Armstrong/cassette-panel ceiling systems) are a distinct fixture type from a chandelier even though some marketplace listings market a light panel under the "chandelier" (люстра) name — track as separate product categories when specifying. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xikuzV80GP4_kruglov_best_lighting_options|xikuzV80GP4]]]
 - **⚠️ LED strip mounting — real failure history**: roughly a decade ago, LED strips were commonly glued directly to a wall or ceiling and would detach/fall over time. **Current standard practice is to mount the strip inside a metal profile channel** (recessed or surface-mounted, with or without a diffuser lens) so the adhesive bonds to the metal profile rather than failing on the surface directly. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xikuzV80GP4_kruglov_best_lighting_options|xikuzV80GP4]]]
 - **Linear LED fixtures**: an aluminum profile housing pre-assembled with both the LED strip and its transformer/driver together, mounted the same three ways as track lighting (surface, recessed, suspended) — a distinct product from a bare LED-strip-in-profile install. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xikuzV80GP4_kruglov_best_lighting_options|xikuzV80GP4]]]
+- **⚠️ GX53 puck-style recessed downlight — a named product-type caution (Round 14 triage, added 2026-08-28)**: this format was popular roughly 7-10 years ago and is still widely used, but is specifically called out for **low CRI** (even bright output looks dull/washed-out) and **poor-quality integrated optics**, producing flat, uninteresting light — its one advantage being low cost. Concretizes this page's existing general "check CRI before buying" guidance with a specific fixture type to be wary of. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
 
 ## Function-Based Lighting Categories (added 2026-08-24)
 
@@ -98,6 +99,20 @@ Per designer Nikita Kuznetsov (Kruglov/Ontario) — trend-focused framing, compl
 - **Main/base light should be neutral; accent/decor lighting (LED strips behind 3D panels, cove lighting) can deliberately be warm-toned for coziness** — a pairing rule for primary-vs-accent roles within one room, distinct from this page's existing same-scene-must-match rule for simultaneous same-function fixtures. Dim/muted light in select spots can meaningfully elevate a design, achieved correctly via an indirect/wall-reflected source (see wall-bounce technique above) rather than dimming an overhead fixture to near-nothing. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1gXYL99mfY4_kruglov_how_to_choose_lighting|1gXYL99mfY4]]]
 - **⚠️ Explicit upper bound on scenario count, complementing the existing "minimum three scenarios" rule: don't exceed roughly 3-4 lighting scenarios per zone** — beyond that, extra scenarios stop getting used day-to-day and only get set up for guests, defeating the purpose of scene-based lighting. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1gXYL99mfY4_kruglov_how_to_choose_lighting|1gXYL99mfY4]]]
 
+## Cove/Contour Lighting — a Dust-Trap Caution (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+**⚠️ Softens, without reversing, this page's own "good practice" framing
+for perimeter cove lighting above**: dust, gnats, and small insects
+accumulate over time in the concealed channel between a stretch-ceiling
+membrane and the light source behind it; once lit, the light casts a
+visible shadow through the accumulated debris, reading as visible dirt
+on the ceiling. A real, fairly fast (not many-years-out) cosmetic
+failure specific to this construction detail — not a durability problem
+with the ceiling material itself, and not a reason to avoid cove
+lighting outright, but worth planning for (accessibility for cleaning,
+or accepting the eventual look) rather than treating it as maintenance-
+free. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
+
 ## Ceiling Light Source Types
 
 Three distinct ceiling light-source types come up repeatedly once you move past a single generic "downlight" mental model:
@@ -118,3 +133,11 @@ Three distinct ceiling light-source types come up repeatedly once you move past 
 5. **Higher total cost than one premium fixture**: each spotlight needs its own wiring run, most are 12V and need a step-down transformer (an added cost and failure point), and ongoing maintenance accrues on both bulbs and supply. An 18-spotlight installation shown cost several times more than a single high-end chandelier that would give brighter, more even, lower-maintenance light in the same space. [source: [[_Archive/processed_sources/20260810_recessed_spotlights_against_a91e17ca.txt|20260810_recessed_spotli]]]
 
 **Bonus injury note**: spotlight glass diffuser lenses can heat up enough that their retaining mechanism fails and the lens falls and shatters — one real incident cited in the speaker's own unit. [source: [[_Archive/processed_sources/20260810_recessed_spotlights_against_a91e17ca.txt|20260810_recessed_spotli]]]
+
+## Linear/Recessed Lighting Wall-to-Ceiling Seam Cost (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ New figure, complementing this round's own transformer-centralization finding below**: achieving a genuinely clean, invisible seam where a linear light channel transitions from a wall into the ceiling requires a skilled plasterer's work and costs **10,000-15,000 RUB (≈$100-$150, trailing-6-month USD/RUB mean before 2025-02-28, 97.0314 RUB/USD) per seam** — trivial for one or two seams, but scales into a real budget line at 15-30 seams across a whole apartment. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
+
+## LED-Strip Transformer Placement (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ Centralize LED-strip transformers in one location rather than mounting each near its own strip run** (a niche, behind a shelf, under a cornice — the common practice). Consolidate every 12V transformer for the apartment into one spot (a closet, walk-in wardrobe, or the low-voltage panel), ideally somewhere with extra passive cooling. **Stated reason transformers fail: overheating** — centralizing them somewhere deliberately cooled is framed as directly extending service life, not just a convenience-of-troubleshooting argument. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]

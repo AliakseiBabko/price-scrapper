@@ -76,6 +76,10 @@ Zemstandart / Alexey Zemskov reports **a fourth constraint, added 2026-08-18 —
 
 Pavel Sidorik, individual practitioner, own apartment: mounted the outdoor condenser **directly below the bedroom window specifically so it can be serviced without hiring industrial rope-access climbers** — a serviceability-driven placement rationale distinct from this page's existing comfort/sightline/building-restriction rules above. **DIY-vs-hired scope boundary, a generalizable heuristic for a self-managed project**: wall-chasing (refrigerant-line and condensate chases) and electrical-feed routing are reasonable DIY scope; connecting/charging the refrigerant lines and outdoor-unit hookup are best left to hired specialists with proper tools — doing that specific part yourself is "not sensible" without them. Chase spec: 7cm wide × 4cm deep for the line-set chase; condensate-drain chase sloped 1cm per meter. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C-3BcpXDRnk_sidorik_ventilation_ac_ep19|C-3BcpXDRnk]]]
 
+## Pre-Install Planning Even When Deferring Purchase (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ Don't defer AC planning entirely just to save money now — three concrete pre-install steps recommended even before the unit itself is bought**: (1) outdoor-unit location is constrained to a window-facing wall unless refrigerant lines are pre-routed — routing them later means an ugly surface-mounted plastic conduit box; (2) route the condensate drain to the sewer system now, rather than the older practice of letting it drip outside; (3) embed the refrigerant-line conduit/sleeve in the wall and cap it even without installing the unit — years later, hang the indoor unit on the pre-routed conduit and the outdoor unit outside for a clean, planned-looking result rather than retrofitted surface conduit. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_N813aS8mI-Y_kruglov_top10_common_mistakes|YT_N813aS8mI-Y]]]
+
 ## Kitchen-Specific AC Placement (added 2026-08-19)
 
 > [!NOTE]

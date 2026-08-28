@@ -204,6 +204,7 @@ mechanism claim, internally consistent. [source: [[11_Budget_and_Planning/_suppo
   proven/well-established enough to fully trust**; if either drum fails, the whole unit stops
   working (unlike two separate machines), and these twin-drum units cost noticeably more than
   two separate machines.
+- **⚠️ A concrete wash-vs-dry capacity mismatch (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: a combined unit that can wash a full **10kg** load can typically only dry about **7kg** of that same load in one drying cycle — worth planning around rather than assuming the wash and dry capacities match. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EwI_ZoT3VTQ_kruglov_top11_small_apartment|YT_EwI_ZoT3VTQ]]]
 - **Price drivers**: heat pump presence, filter quality, drum material (stainless steel raises
   price), electronics/Wi-Fi sophistication, brand, and named extras (garment-refresh,
   anti-allergen, anti-crease, self-cleaning, a dedicated shoe-drying program, drum lighting,
@@ -373,6 +374,10 @@ consideration. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/Y
 - A **heated towel rail repurposed for hanging cleaning cloths** (not bath
   towels) after use — the opposite of its usual bathroom application.
   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8wo1qImfpDU_diskill_laundry_room_essentials|Diskill]]]
+
+## Stacked Washer/Dryer Outlet Placement (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**⚠️ For a stacked washer-over-dryer (or dryer-over-washer) configuration inside a closed cabinet/niche, place the outlet(s) between the two machines, not below them** — the video explicitly frames a below-the-machines outlet as an outdated practice ("как это делалось ранее") worth correcting. Placing the outlet between the units keeps it reachable without pulling either machine out, rather than buried behind/under the stack. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
 
 ## Source Notes
 

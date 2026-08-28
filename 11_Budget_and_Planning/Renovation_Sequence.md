@@ -203,6 +203,94 @@ study linked from `Budgeting_Guide.md` §6). `single-account`. [source: [[11_Bud
   request to see them — a genuine signal of whether its quality process
   is systematized versus ad hoc.
 
+## A Five-Macro-Stage Documentation/Preparatory/Completion Checklist (Kruglov/Ontario, added 2026-08-28)
+
+An alternative organizing taxonomy — Documentation → Preparatory →
+Rough → Finish → Completion — from a source that, unlike this
+channel's other sequencing videos, gives comparable structured detail
+to the *bookend* stages (before rough works start, and after the
+visible work looks finished) rather than just the rough/finish middle.
+`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9tScer1xT_E_kruglov_all_stages_2025|YT_9tScer1xT_E]]]
+
+- **Documentation-stage checklist**: layout plan and its feasibility/
+  approval status; engineering plans (electrical, plumbing, sewage,
+  low-voltage, ventilation/AC); a replanning project and/or design
+  project if needed; a contractor-selection pass across five distinct
+  specialist categories (main montage contractor, special-installation
+  workers, door installers, AC installers, ventilation installers); and
+  management-company paperwork (powers of attorney, signed technical
+  conditions/regulations).
+- **Preparatory-work checklist**, commonly neglected despite being
+  genuinely time/effort-consuming: temporary site lighting/electricity;
+  temporary water supply and sewage (a toilet and shower pan); assembling
+  scaffolding/towers/tool-storage shelving; protectively covering
+  windows/doors and, separately, elevators/common areas; and arranging a
+  construction-debris container.
+- **A specific stage-ordering detail**: demolition, then window
+  replacement (entry door can go here too, but must be replaced before
+  screed is poured), then partition erection and plastering.
+- **A furniture/AC preliminary-measurement timing tip**: once walls are
+  plastered, furniture makers and AC installers can start their own
+  measurements and planning — even before the floor's "zero point" is
+  fixed, since wall geometry is already sufficient for this purpose.
+- **A deferred-wiring detail for drywall partitions**: walls that will
+  later be built from drywall get only rough electrical stub-outs at
+  the main rough-electrical stage — full routing is deferred until the
+  drywall structure itself is actually built.
+- **⚠️ Post-completion defect-discovery mechanism**: a cleaning crew
+  brought in once major work is done routinely surfaces accumulated
+  incidental damage from the whole install chain (scuffed floors from
+  furniture movers, a dropped tool from an AC installer) — client and
+  company jointly document and remediate these before calling the
+  project finished.
+- **⚠️ Remediation gets structurally harder the later it's found**: a
+  wiring or wall-flatness fix mid-rough-works is trivial; the same
+  class of fix once furniture, stretch ceilings, and finish fixtures
+  are all installed can require calling a ceiling installer back to
+  unhook a stretch-ceiling section just to access the problem —
+  a concrete argument for catching defects earlier rather than at
+  project's end.
+- **A named handover-briefing checklist**: alongside the keys, walk
+  through how the electrical panel/breaker labels work, how the water
+  supply system works, how to operate the hygienic shower, and how to
+  switch/operate a water heater (e.g. a tankless unit).
+
+## A Second "All Stages" Video: New-Build/Secondary Demolition Comparison and Two Sharper Rationales (Ontario/Nikita Kuznetsov, added 2026-08-28)
+
+This round's sibling "all stages" video (2024, older than the one
+above) restated most of this page's existing content almost verbatim —
+correctly identified as the round's thinnest source rather than forced
+into a denser extraction — but contributed a few genuinely new or
+sharper items. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lLuNbjNXjg0_kruglov_all_stages_2024|YT_lLuNbjNXjg0]]]
+
+- **A concrete new-build-vs-secondary demolition-duration comparison**:
+  a new-build unit with no existing partitions needs only its
+  developer's temporary heating loop and a single course of blocks
+  demolished — a one-day task; a secondary-market apartment on a 5th
+  floor with no elevator can take demolition and debris removal **up to
+  a full month**.
+- **⚠️ A partition-substrate placement rule, distinct from this page's
+  existing partition-material-dependent *plastering-order* note above**:
+  block-based partitions (aerated concrete, foam block, tongue-and-
+  groove gypsum block) mount directly on the floor slab; drywall-framed
+  partitions mount on top of the screed instead.
+- **A general (type-agnostic) rationale for electrical-after-
+  plastering**, complementing this page's existing panel-building/
+  rebar-specific version: before plastering, there are no accurate
+  final dimensions yet to place outlets/switches correctly — a reason
+  applicable regardless of building type.
+- **⚠️ A finish-electrical-before-stretch-ceiling testing rationale**,
+  distinct from this page's existing finish-plumbing-after-ceiling
+  rule: finish electrical (outlets, switches) is installed and tested
+  *before* the stretch ceiling goes in, specifically so a wiring problem
+  is caught while still easy to access — a different specific claim
+  from the fixture-damage-avoidance reasoning behind the existing rule.
+- **A general (not ceiling-type-conditional) two-phase stretch-ceiling
+  technique**: install the perimeter profile first, finish the walls,
+  then stretch the membrane last — presented as a general best-practice
+  option for any stretch ceiling, related to but distinct from this
+  page's existing ceiling-type-conditional sequencing rule above.
+
 ## Wall-Flatness Defects: a Pre-Kitchen/Cabinetry Check Worth Planning For (added 2026-08-04)
 
 A related, currently page-less topic worth a pointer here even though the full technique doesn't have a clean home: developer-delivered walls with several-centimeter depressions (up to 3–5 cm) are a common defect, not "free extra floor area" — an uneven wall should be checked and corrected before finalizing a kitchen or cabinetry layout, since off-the-shelf cabinet modules are standardized in multiples of 10 cm and won't fit a non-standard recessed segment. Three named failure modes exist for the wrong fix (thick gypsum plaster alone, cement-sand under gypsum finish, drywall-on-metal-stud-frame) versus one correct method (aerated-block infill, glued and mechanically dowel-anchored, leveled with plaster guide rails as one continuous plane with the surrounding wall). `single-account`. See the full technique in the source note — this vault has no general walls/plastering-technique page to hold it in full; check delivered walls for flatness during a pre-purchase or pre-renovation walkthrough, and budget the correction if found (see [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4). [source: `_Archive/processed_sources/20260804_wall_depression_aerated_block_fix_a0b9ff14.txt`]

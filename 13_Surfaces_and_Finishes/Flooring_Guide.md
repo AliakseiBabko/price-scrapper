@@ -17,6 +17,7 @@ See [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]] for floo
 - **Top-3 named crack-cause framework**: (1) bad mix composition (too much water/poor mixing → uneven drying, cracking); (2) installation defects (overly thick layer without reinforcement, or missing mandatory fiber+plasticizer in either screed type); (3) missing deformation joints — called out as the single most important cause.
 - **⚠️ Perimeter damper-tape minimum thickness spec, first numeric figure for this store: ≥8mm**, alongside deformation cuts at door openings, every 3-4m in long/narrow rooms, and a diagonal "T"-cut at every external corner (this last detail corroborates this page's existing Петришин-Строй content, not new).
 - **⚠️ Radiator-adjacent extra-watering technique during cure**: if a radiator can't be switched off while the screed cures, water that specific area more closely/frequently than the rest of the room — its heat accelerates local moisture loss, risking a locally weaker zone if not compensated for.
+- **⚠️ Install-time figure, distinct from the drying/cure schedule above (added 2026-08-28, Round 16)**: semi-dry screed installs across a whole apartment in **1-2 days regardless of layout**, and even a full **150-200m² apartment takes only ≈3 days total** — versus wet screed on the same footprint taking roughly **1.5 weeks**. This is the install/pour time itself, not the walkable/tile-layable/full-cure durations already on this page above (which apply after either screed type is poured) — a real-jobsite demonstration (scratch-test of a cured semi-dry screed to show it doesn't crumble) offered as a direct rebuttal to a common client worry that semi-dry screed is "just loose sand" or under-strength. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
 
 ## Developer Screed Acceptance Testing — Real Instruments and Thresholds (added 2026-08-28)
 
@@ -194,6 +195,38 @@ themselves, at a fraction of the cost — described as "80% of the result
 for 20% of the price" specifically for gap/squeak complaints, not a
 substitute for genuinely worn-out flooring finish. `single-account`.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
+
+## Floor-Level Shadow Profile — Dust Trap and Staging-Sequence Violation (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ Extends this page's existing "doesn't perform the baseboard function" finding on the shadow baseboard/profile above, with new mechanism and staging detail**: beyond not protecting walls, this profile is a genuine dust/dirt trap — a robot vacuum can't clean it at all except with a narrow brush-nozzle accessory some (not most) manufacturers offer. A floating-flooring-compatible spring-loaded variant exists but has no long-term reliability track record yet. **⚠️ Renovation-sequencing violation**: this profile's internal hardware installs at the rough-electrical/plumbing stage, but finish flooring only goes down at the very end — so the chase concealing it must be cut into the wall *after* finish flooring is laid, forcing painters to return and refinish **80-90% of the apartment's walls** a second time. Konstantin Kruglov / Ontario's own stated personal opinion: would never use this product for exactly this reason. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
+
+## Old Parquet Under a Capital (Full-Gut) Renovation — Replace, Not Preserve (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**Distinct from the gap-sealant content above, which addresses a
+secondary-market apartment not undergoing a full gut renovation**:
+Konstantin Kruglov / Ontario cautions that in a genuinely full capital
+renovation (walls re-plastered, wet trades throughout), an old parquet
+floor absorbs ambient moisture during the wet-trade stages and then
+dries/shrinks unevenly afterward. His recommendation for this specific
+project type is to **replace the floor rather than attempt to preserve
+or refinish it**, even where the existing parquet is otherwise high-
+quality — a different recommendation than the gap-sealant page content
+above specifically because of the wet-process context, not a
+contradiction of it. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
+
+## Floating-Floor Threshold Sealing — Why Cork/Sealant Fails (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ A distinct cracking mechanism from this store's existing shadow-gap-
+baseboard damper content**: at a transition between a floating floor
+(e.g. laminate, which expands/contracts with temperature/humidity and
+isn't glued down) and a different adjacent flooring (e.g. tile), filling
+the gap with cork compensator strip or sealant to avoid a visible
+threshold strip fails within a short time — the joint cracks/separates
+because the laminate side keeps moving. **Correct fix, stated
+directly**: use a small, flat transition threshold strip instead, which
+aesthetically covers the joint while leaving the laminate free to move
+underneath it. `single-account`, `unverified`, Ontario (Nikita Kuznetsov
+presenting). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
 
 ## Semi-Mechanized ("Полуручка") Screed, Cold-Weather/Access Constraints, and a Curing Routine (added 2026-08-24, Petrishin-Stroi trial)
 
@@ -699,11 +732,16 @@ named).
 | Compare wear-class/water-resistance specs line by line when a hypermarket price is dramatically below a specialized retailer's, per Zemskov/Zemstandart | Any flooring purchase | Chain hypermarkets may sell an identically-branded but spec-downgraded "special series" | `_Archive/processed_sources/20260810_flooring_hypermarket_spec_downgrade_scam_6f860ac8.txt` |
 | Use class-33 beveled-edge laminate as a budget kitchen-floor alternative to tile, per RemProektMD | Kitchen | Class 33 (commercial-rated) survived 4 years with no issues in the source's own kitchen; the bevel hides thermal-expansion seam gaps | [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips\|OP8ALhLynHE]] |
 
+## Steam-Cleaner Material Compatibility Caution (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**⚠️ Steam cleaners are largely incompatible with quartz-vinyl and laminate flooring** — check each specific product's own care instructions before using one, since compatibility varies by manufacturer/finish rather than being safe by default across either material family. Kruglov states his own personal opposition to steam cleaners generally, despite their popularity, precisely because of this material-compatibility risk — framed as a caution to verify before use, not a blanket ban for every flooring type. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
+
 ## Don'ts
 
 | Rule | Applies To | Risk | Source |
 | :--- | :--- | :--- | :--- |
 | Do not lay laminate directly in wet areas | Bathroom, WC | Swelling and water damage | `_Archive/processed_sources/20260727_vid1_transcript_d04723c5.txt` |
+| Do not steam-clean quartz-vinyl or laminate without checking the specific product's own care instructions first | Quartz-vinyl, laminate | Most such products are not steam-cleaner-compatible; risk varies by manufacturer/finish | [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide\|YT_iEm_mwCJpfA]] |
 | Do not install under-floor heating in entryway mudroom tile zones if household has large pets | Entrance Hallway | De-icing salts brought in on shoes melt and dry rapidly on heated tile; pets lick paws and risk chemical poisoning | `_Archive/processed_sources/20260727_renovation_guide_mistakes_3_a0e895b1.txt` |
 | Do not combine cork flooring with a large dog in the household, per Zemskov/Zemstandart | Households with large dogs | Claws reportedly shred cork flooring within roughly a week of normal use (single cited account) | `_Archive/processed_sources/20260810_never_do_project_in_pieces_873e1532.txt` |
 | Do not accept an underlayment recommendation without confirming it matches the flooring product's own spec, per Zemskov/Zemstandart | Any glued/floating flooring | A mismatched underlayment (real case: too-soft 3mm vs. required ≤2mm) can cause structural joint separation | `_Archive/processed_sources/20260810_quartz_vinyl_underlayment_dispute_621b3f51.txt` |
@@ -805,3 +843,10 @@ within **2mm** before accepting the job, and needed several re-grinding
 passes to meet that standard — worth budgeting installer callback/QC
 time for a herringbone floor specifically, beyond the direct material/
 labor price premium. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1amhehTMxcg_kachanova_ideal_2room_family_child|YT_1amhehTMxcg]]]
+
+## Floating-Install Herringbone as a Budget Alternative, and Material Imitation as an Endorsed Choice (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+- **⚠️ Floating-install herringbone in laminate or quartz-vinyl**: many laminate and quartz-vinyl product lines are now sold specifically for herringbone ("ёлочка") patterns and can be installed by the ordinary floating method (on underlayment, no adhesive) rather than requiring the glued-down installation a real engineered-wood herringbone floor needs (see the French-herringbone cost/QC content above) — a real budget path to the herringbone look without that premium.
+- **⚠️ Material imitation as a deliberate, endorsed cost-saving choice, not a compromise to be ashamed of**: choosing quality laminate or quartz-vinyl instead of engineered wood board (or porcelain tile with a marble-look print instead of real marble, on the wall/tile side) is described as visually indistinguishable to most designers, even though tactile differences remain — framed as a legitimate design choice rather than a lesser one.
+
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]

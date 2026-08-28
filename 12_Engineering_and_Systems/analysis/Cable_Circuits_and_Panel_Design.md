@@ -195,6 +195,22 @@ Pavel Sidorik, real ~61 m² new-build apartment, first episode of a 2-3-part ele
 - **Developer-supplied electrical inventory, real example**: an exterior metal panel with breakers, of which only one was actually wired to anything (the rest decorative/for future circuits per the developer's own labeling); that one breaker fed a single outlet. Incoming service cable: 3-conductor, 10mm² stranded, plus a separate fiber-optic line, expected to need extending (crimped, not soldered) to reach the new panel location.
 - Region unresolved for this specific episode (no location/currency named directly) — series-level Belarus attribution already established by this channel's other episodes. No pricing yet (deferred to a later episode). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9-NjgDLleOw_sidorik_electrical_ep6|9-NjgDLleOw_sidorik_electrical_ep6]]]
 
+## Panel Module-Count Sizing Rule by Apartment Size (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+**⚠️ A concrete minimum module-count rule, budget-tier framing**: studio
+or 1-bedroom apartments need a minimum **12-module** panel; 2-3-room
+apartments need a minimum **24-module** panel; 3-4-room apartments need
+a minimum **36-module** panel (three 12-module DIN rows). Framed
+explicitly as a *minimum*, not a luxury spec, for a budget renovation —
+larger or smart-home-integrated projects would need more. **The actual
+cable run length/quantity in an apartment depends on the number of
+planned circuits in the panel, not the raw count of outlets/switches**
+— a useful reframing for early rough-in budgeting. Also restates (not
+new): only copper conductors and ВВГнг-type cable are current
+ПУЭ-code-compliant; any aluminum wiring found in a secondary-market gut
+renovation must be fully removed, not partially reused. `single-account`,
+`unverified`, Russia-level (ПУЭ code named directly). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mJ0uLdys5cE_kruglov_best_2025_solutions_budget|YT_mJ0uLdys5cE]]]
+
 ## Back-Box Drilling/Chasing Detail and Panel Niche Placement (added 2026-08-24, Round 2, ep.7)
 
 Pavel Sidorik, same project, continuing the electrical mini-series (Belarus level 1 — Minsk named directly this episode):
@@ -221,6 +237,7 @@ Pavel Sidorik, same project, 4th/final episode of the electrical mini-series (Be
 - **Back-box installation sequencing rule**: mortar the empty back-box in first, let it cure (ideally overnight), *then* thread cables through — threading cable before setting the box makes it impossible to keep level, since cable slack pushes the box off-center. Grey plaster/adhesive is cosmetically preferable on a grey wall but not functionally required; ±1-2mm level tolerance is acceptable, correctable at the faceplate.
 - **⚠️ Whole-wall electrical-vs-plastering sequencing decision, a distinct and broader question from the back-box rule above**: running cable before wall plastering seems to save the labor of chasing into already-finished plaster, but carries two real risks that usually erase the savings. **(1) Cable-slack shortfall**: a socket box set before plastering must sit flush to the *final* post-plaster wall plane; plaster thickness varies by how uneven the wall is (developer wiring is typically left with almost no slack reserve at all), so always leave at least a palm-width of cable slack — otherwise a wall needing 3-4-5cm of plaster buildup can leave too little cable to properly reach the box afterward. **(2) Room-geometry shift**: plastering adds wall thickness unevenly across a room (e.g. 12cm vs. 5cm vs. 10cm on different walls of the same room, depending on how unevenly the walls were originally built), shifting the effective interior geometry enough that pre-marked/pre-wired outlet, switch, and light positions can end up misaligned with the finished wall (e.g. a plastered edge encroaching over a switch) — the two remaining options at that point (accept the misalignment, or redo the wiring) both typically cost more than the chasing labor the "before" sequence was meant to save. **Default recommendation**: run electrical *after* plastering unless the installer has deep specific expertise managing both of these nuances. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JeRGrHsv07U_sbk_electrical_before_after_plaster|JeRGrHsv07U]]]
 - **Cable-fixation-in-chase shortcut**: cut pieces of corrugated conduit used as an ad-hoc cable retainer inside a chase, avoiding a separate drill-and-dowel-clip step per fixation point.
+- **⚠️ Outlet-box (подрозетник) foam-insert protection during putty/paint-stage work (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)**: on every real site shown, back-boxes are plugged with a cut foam-board (пеноплекс) insert for the duration of finish plastering/painting work, then simply pulled out afterward — leaving a clean, debris-free box rather than one needing to be scraped/cleaned out. A cheap, reusable protection step worth planning into the finish-stage sequence rather than cleaning boxes out after the fact. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
 - **Incoming-cable re-pull technique**: to re-pull a new incomer cable through an existing conduit run, solder (not mechanically splice) the old and new cable ends together — tensile-tested by hand-pulling — so the joint survives being dragged through the conduit without snapping and jamming partway.
 - Fiber-splicing service (a specialized paid task, not DIY without a fusion-splicer): **35 BYN (≈$10, trailing-6-month average to the video's 2020-12-05 upload date)** including cable, ~20 minutes of work, same-day turnaround via a local classified ad. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pxVSMo5e7yc_sidorik_electrical_ep9|pxVSMo5e7yc_sidorik_electrical_ep9]]]
 

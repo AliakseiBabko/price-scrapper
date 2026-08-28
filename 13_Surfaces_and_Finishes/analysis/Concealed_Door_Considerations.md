@@ -20,6 +20,72 @@ Ontario, Avalremont, and Forcemontage report: **Settling-crack risk**: a conceal
 
 Ontario, Avalremont, and Forcemontage report: **Daily-wear visibility**: because a concealed door reads as part of the wall rather than a separate framed object, fingerprints, scuffs, and impacts are more visible than on a classic door (whose casing visually "contains" such marks) — worse with dark paint, kids, or pets. **Independently demonstrated on camera by two sources**: both dark and light painted concealed-door surfaces show a lasting fingerprint mark from a single bare touch.
 
+## Shadow-Gap and Micro-Baseboard — Further Cost/Failure Detail (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+> [!NOTE]
+> From this channel's own "worst/overrated solutions" video — the
+> Round 13 trends-cluster representative — cross-checked against this
+> page's existing shadow-gap content above before recording. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
+
+- **⚠️ Total incompatibility with floating (unglued) flooring**: a
+  shadow-gap baseboard is a hard exclusion, not a workaround case, with
+  any floating-installed flooring (laminate or SPC-type quartz-vinyl on
+  underlayment). Only works with flooring glued to the substrate.
+- **New cost figures for the glued-flooring case**: even where allowed,
+  a precise finish cut against the wall can run **~1,500 RUB/linear
+  meter (≈$20/m)**, and the mandatory damper gap then needs a cork
+  compensator or floor sealant, adding a further **~2,000 RUB/linear
+  meter (≈$25/m)**.
+- **New failure modes**: integrated LED lighting inside the gap
+  continuously illuminates the dust that collects there; the flooring
+  edge is embedded in the wall channel on both sides, so later floor
+  removal/repair means destructively prying it back out.
+- **Micro-baseboard (rigid aluminum L-profile), new material for this
+  page**: its perfect flatness/rigidity reveals normal in-spec plaster
+  waviness a softer baseboard would visually absorb; two lengths
+  meeting at an external corner rarely form a flush plane (one edge
+  proud by up to ~0.5mm — a real snag/scratch hazard for socks/
+  stockings/skin, children specifically flagged); floating flooring
+  can't be tucked in from a single starting wall the way it can under a
+  standard baseboard, forcing ad hoc installer workarounds. A
+  connector piece is reportedly in development by some manufacturers
+  but not yet common.
+
+## Interior Door Height vs. Entry Door Height (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+
+A near-full-height ("to the ceiling") interior door reads visually
+wrong specifically when the apartment's own entry door is a standard
+**2m** leaf — the entry door then looks disproportionately short next
+to the interior doors it opens onto. **Rule of thumb**: keep interior
+door height within **~20cm** of the entry door's own height (entry 2m →
+interior up to 2.2m is fine; entry 2.2m → interior up to 2.4m is fine,
+since bathroom/utility/walk-in doors near the entry are typically
+shorter anyway and blend the transition). **Cost**: an oversized
+(2.4-2.8m) interior door leaf costs **3-5×** a standard 2m leaf, and
+installation costs **5-10×** more — plus real delivery/lift logistics
+issues (doesn't fit a standard elevator), the same class of problem as
+oversized porcelain slabs (see
+[[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]]).
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
+
+## Concealed-Door Finishing Cost and Baseboard Price Multiplier (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ New concrete figures for this store**: the full finish-work package for one concealed door (painting both faces, sealing the partition-side joint, prepping/painting the opposite-side reveal with fiberglass mesh etc.) can cost **≈20,000 RUB (≈$210, trailing-6-month USD/RUB mean before 2025-02-28, 97.0314 RUB/USD)** per door — a real, easily underbudgeted line item distinct from the door hardware/leaf cost itself. **Concealed-mount baseboard (already on this page's compatible-baseboard-type list) costs 4-5× a standard rigid MDF baseboard** — at real linear footage (the source's own example: 200 running meters across an apartment), this multiplier meaningfully inflates the total budget beyond what a per-meter comparison alone suggests. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
+
+## Pocket/Cassette Sliding Doors — a Distinct Door Type (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**A different door type from the concealed swing-door content above**: a
+pocket/cassette sliding door retracts fully into a wall-mounted cassette
+("пенал") system, distinct from an ordinary surface-mounted sliding
+door (no complaint raised against that simpler type). Four stated
+drawbacks: (1) real cost premium — you pay for the cassette system
+itself, not just the door leaf; (2) no proper handle for comfortable
+repeated daily use, becoming a genuine annoyance over time; (3)
+meaningfully worse soundproofing than a hinged door; (4) a finite
+opening-cycle lifespan with real maintenance needs, unlike a hinged
+door's simple hinge mechanism. `single-account`, `unverified`, Ontario
+(Nikita Kuznetsov presenting). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
+
 ## A Case Where the Costs Are Worth It
 
 **Concealed doors are specifically justified when a door sits within or adjacent to a room's main TV-viewing sightline** — a real case: the source, whose own default stance is skeptical of concealed doors' cost/benefit, explicitly endorsed the choice here because a visible door casing in that exact sightline would have been a distracting element during TV viewing ("in another renovation I wouldn't understand this choice, but here it's justified"). The same reasoning extended to keeping a visible switch bank (for the concealed rooms) off the TV-facing wall entirely. `single-account`, `unverified`, but a useful concrete exception to weigh against the cost picture above rather than a blanket "never" or "always." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEpRx5Pe7to_designer_disaster_20m_277|YT_iEpRx5Pe7to]]]

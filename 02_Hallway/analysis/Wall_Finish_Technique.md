@@ -165,3 +165,7 @@ Sasha_Life_Vlog project above:
   market plastering tools and technique to be locally available by
   default.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dsBkqzhX08I_ispanskiy_remont_hallway_full_reno|YT_dsBkqzhX08I]]]
+
+## Gypsum Wall-Panel Casting — Pre-Filled Cavities at Fixture Locations (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**⚠️ A cast gypsum wall panel (poured/molded in place, then finish-painted) should have its cavities pre-filled solid at every point where a fixture will later be surface-mounted** — specifically the intercom/entry-phone handset location and any switch/outlet faceplate zone. On a real installed example, these specific spots were cast as solid fill rather than left with the panel's normal internal void structure, so the final surface reads as one continuous, uninterrupted plane once the handset and faceplates are screwed on — avoiding a visible seam, hollow-sounding spot, or fastening weakness at those points. A planning step to specify *before* the panel is cast, not something correctable afterward. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]

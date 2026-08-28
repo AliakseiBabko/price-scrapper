@@ -145,6 +145,62 @@ extraction note. Selected highlights, grouped by category:
   budget schedule slack for the gap between "contracted work complete"
   and "actually livable," not just for the contracted work itself.
 
+## A Data-Derived Duration Formula: "Throughput" (Kruglov/Ontario, added 2026-08-28)
+
+A fifth source, and the first in this batch to propose an explicit
+*method* for estimating duration rather than a headline range or
+stage-by-stage schedule — and the first to honestly report testing and
+rejecting two alternative approaches first, against a real 60+-object
+internal dataset. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|YT_9lFhda_KDHk]]]
+
+- **⚠️ Two duration heuristics tried and explicitly abandoned, worth
+  recording as negative findings**: (1) the naive room-count rule
+  ("1-room ≈1.5mo, 2-room ≈2mo, 3-room ≈3mo...") failed against real
+  completed-object data; (2) a three-tier "complexity coefficient"
+  (Tier 1: stretch ceiling/wallpaper/laminate/ordinary MDF baseboards,
+  few outlets; Tier 2: paint-ready walls/parquet board/rigid
+  baseboards, more outlets, some large-format tile; Tier 3: multi-level
+  drywall ceilings, decorative plaster or paint-ready walls, concealed
+  doors, many built-in linear lights, concealed/shadow-gap baseboards,
+  glued herringbone engineered board) also failed once mapped against
+  floor area — results were inconsistent across real objects (e.g. a
+  40 m² and a 100 m² apartment didn't scale proportionally under the
+  same coefficient).
+- **⚠️ The metric that did hold up, from a 60+-object internal
+  analysis**: a named monthly-throughput rate ("выработка") — this
+  company's own average is **≈250,000 RUB/month per object
+  (≈$2,800/month)**, individual objects ranging 300,000-350,000
+  RUB/month. **Duration formula**: months = labor-only smeta total ÷
+  250,000 RUB — worked examples: 1,000,000 RUB (≈$11,100) → 4 months;
+  2,000,000 RUB (≈$22,100) → 8 months; 3,000,000 RUB (≈$33,200) → 12
+  months. Complexity still matters, but only indirectly — through the
+  smeta total the formula divides, not as a separate multiplier.
+  Explicitly framed as only statistically meaningful at this dataset
+  size (the speaker states 1-10 objects wouldn't be "statistics" to
+  plan against).
+- **⚠️ Two annual "dead zones" to add on top of the throughput
+  estimate, not absorbed into it**: the week before New Year and the
+  May holiday period — both see productivity drop to near zero (clients
+  won't accept completed work, crews are mentally checked out) and must
+  be budgeted as separate calendar time.
+- **⚠️ A real small-apartment crowding-out mechanism, distinct from
+  this page's existing sequential-dependency and material-lead-time
+  mechanisms**: an electrician or plumber must route their trade across
+  the *entire* apartment, not one room — adding more workers (same
+  trade or multiple trades at once) in a small footprint causes real
+  physical crowding, lowering each worker's own throughput with **no**
+  net speed gain for the client. Only in larger apartments (100-150 m²)
+  can staggered (not simultaneous) multi-crew work help; incompatible
+  working conditions (dust from grinding/plastering vs. a painter's
+  need for a clean environment) limit parallelization even there.
+- **A stated narrow-specialist-QC-vs-speed tradeoff**: this company's
+  own multi-level QC chain (foreman sign-off → independent technical-
+  supervisor inspection → client acceptance/payment, no prepayment)
+  plus narrow trade specialization adds real time compared to a
+  "universal" 3-4-person crew working multiple trades in parallel with
+  no unified quality standard — explicitly framed as slower-but-
+  higher-quality, not a hidden inefficiency.
+
 ## Delivery Model Caveat
 
 **All four sources in this page are turnkey-company accounts** (three
@@ -181,3 +237,4 @@ automatically.
 - [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ — real timeframes for a good renovation]] (2024-04-17).
 - [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2weWrKT42aY_forcemontage_20_reasons_schedule_slip|Forcemontage — 20 reasons your timeline will slip]] (2019-06-17).
 - [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c3gqyNTvFTc_vitiongroup_real_cost_and_timeframes|VitionGroup — real cost and work timeframes]] (2022-12-03).
+- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|Konstantin Kruglov/Ontario — the whole truth about how long renovation takes]] (2024-10-28).

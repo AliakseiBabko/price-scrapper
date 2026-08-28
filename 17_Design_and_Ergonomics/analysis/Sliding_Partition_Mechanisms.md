@@ -513,6 +513,10 @@ edge of the opening) installations:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z_NUmsCIwWA_deli_cascade_partition_5_interiors|YT_Z_NUmsCIwWA]]]
 
+## Switchable-Opacity ("Smart") Glass Partition, a Genuinely New Mechanism Type (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
+
+**⚠️ A glass partition between a living room and bedroom can use switchable-opacity ("smart"/electrochromic-type) glass, distinct from every mechanism family already documented on this page**: transparent by default (letting light through and visually enlarging both spaces, since you can see through to the far room's own windows), with a button/switch that turns the glass opaque on demand for privacy — letting one occupant rest with full privacy while activity continues in the adjoining room, without needing a physical curtain, blind, or solid partition swap. A real installed example on this store's Kruglov/Ontario channel; no prior source on this page covers an opacity-switching glass mechanism (all prior content is aluminum/wood-frame slide-and-track hardware). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
+
 ## Real Pricing (EUR, Region Unresolved)
 
 Holzberg, a single company, real turnkey quotes (2023-04-25 upload):
