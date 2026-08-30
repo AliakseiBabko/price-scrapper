@@ -181,3 +181,41 @@ wall space alone:
 - **⚠️ Concrete worked scenario illustrating the confusion above (added 2026-08-28, Round 16)**: a bedroom/walk-in/bathroom zone has both its own local "zone master switch" (kills lights in those 3 rooms together) and the apartment's own whole-apartment exit switch. Real case: partner A turns off the zone master switch at bedtime; partner B wakes first, leaves without turning any bedroom light on, and hits the whole-apartment exit switch on the way out — which turns *on* every light in the apartment except that already-off bedroom zone (since it wasn't "on" for the exit switch to toggle off). Partner A, woken by the sudden light elsewhere, has to work out this exact sequence before realizing the bedroom zone needs its own switch pressed twice (off-then-on) to restore normal lighting — a genuinely confusing multi-switch interaction, not solvable by a quick label. **Practical fix stated directly**: standardize on one single, consistent lighting-control philosophy across the whole apartment (either one master switch full-stop, or none at all) rather than layering a zone master switch on top of a whole-apartment one. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
 
 [source: [[_Sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+
+## The Raised Entrance Wardrobe (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**⚠️ Lift the entrance-hall wardrobe off the floor by 30–40 cm** — she has gone as low as **15 cm** minimum, and describes it as a technique they use in almost every project. She calls it "10 в одном," and the reasons are cumulative rather than alternatives:
+
+- Whatever is pushed underneath is **invisible from the rest of the flat**, unless you deliberately light the recess.
+- **Low shoes live there** — out of sight and out of the circulation path.
+- **A robot-vacuum dock fits there** — a genuinely common problem with nowhere good to put it.
+- **Underfloor heating can be run under the wardrobe**, so wet and dirty shoes dry in the recess.
+- **A pouffe can be pushed under it** where there would otherwise be no room for one.
+
+**Two caveats she attaches, both practical:**
+
+- **⚠️ A wall-hung cabinet may not carry the load through its back panel** — it depends on the cabinet's size and what goes in it. **Discuss it with the joinery shop; don't plan this unaided.**
+- **Choose the pouffe first** (or fix its height), so the clearance actually fits it.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
+
+## Lightening the Entrance Door — Three Levels (added 2026-08-30)
+
+Her framing: an entrance door is structurally busy and carries far more visible hardware than an interior door — handle, thumbturn, keyholes, spyhole. Three escalating solutions:
+
+1. **Simplest.** A plain flat MDF overlay panel — **no filenki, no wood texture** — frame painted to match, and **ideally the whole assembly in the wall colour**. Then match the hardware finish to whatever the interior doors will use.
+2. **⚠️ A contrasting finish, but only if it runs to the ceiling.** If the entrance door gets a different finish (wood, say), **carry the same material above the door up to the ceiling** — otherwise it reads as "какой-то заплаткой на стене," a patch. **Either the whole wall takes one finish, or the finish is door-width but full-height.** She notes other designers use the same "плаcтырь/заплатка" language for this failure.
+3. **⚠️ A second, concealed *interior* door as a second contour inside the entrance door.** Her argument against relying on a concealed entrance door alone: **"у них скрыты лишь петли"** — handles, thumbturns and spyholes remain, and the hardware range for entrance doors is neither as large nor as attractive as for interior doors.
+
+The second-contour door is already on record in this vault from the same channel (see `z4G-ocStu9o`), with the same psychological rationale — the entrance is often visible from a seating position, and an interior door reads as another room rather than a front door. **Same channel, so this is a restatement rather than corroboration**, but it adds the hardware argument and the hidden-hinges point. She says they now do this "объект за объектом" and can barely remember the last ordinary entrance door they installed.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
+
+## ⚠️ She Pushes Back on the Reveal-Protection Premise (added 2026-08-30)
+
+Asked how to protect entrance-door reveals from being knocked, **she questions whether the problem is real** rather than answering — asking under what circumstances people actually damage them, noting that during construction they are unfinished and then protected, and that neither she nor her clients have found a reason. She allows it may be genuine for a household carrying bikes, prams or bulky items regularly.
+
+Her conclusion generalises well past this topic and is worth recording verbatim as a posture: **"не берите на веру любые советы из интернета — даже мои. Обязательно примеряйте на себя, задавайте дополнительные вопросы."**
+
+Consistent with her position elsewhere that reveals should simply be painted in a higher wear class — see [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]]. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
+

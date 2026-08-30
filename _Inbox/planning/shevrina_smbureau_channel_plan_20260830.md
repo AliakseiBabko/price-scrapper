@@ -127,7 +127,51 @@ All 8 fetched cleanly in Russian at 75 s spacing with `--languages ru` forced; n
 2. **Anti-trend cluster** — **the two processed do repeat each other materially** (announced as a pair; the marble-format rule appears in both). **Recommend skipping `Vv1oLfRd7rM`** ("Anti-trends 2023") entirely: it is the oldest of the three and a third pass over the same ground is unlikely to clear the bar.
 3. **Furniture-selection cluster** (`GcTaKRQ3QC0` sofa, `rRQ05JAoLtk` tables, `ccZBjb5qIQA` chairs) targets a real gap — `14_Furniture` currently has only wardrobe/storage pages, nothing on loose furniture selection. If Round 1 clears the bar, this cluster is the strongest argument for a Round 2.
 
-## Recommended Round 2 (awaiting user go-ahead)
+## Round 2 — completed 2026-08-30
+
+**8 of 8 processed, none skipped. Round 2 yield: 8 videos, 78 new facts, 9.75 per video** — slightly above Round 1's 9.0, so no decay across two rounds. All fetched cleanly at 75 s spacing with `--languages ru`, no rate-limit.
+
+| Video | Yield | Verdict |
+|---|---|---|
+| `KI2GvB0jzHs` podcast | 12 | FULL — richest of the round; procurement constraints a polished explainer never mentions |
+| `6y3UiXx9NQI` kitchen mistakes | 13 | FULL — most numerically dense kitchen source in the vault; figures cross-check |
+| `haM4H-b-bZM` bathroom tile | 11 | FULL — causes behind the "dirty tile" effect, plus the slab-logistics cost |
+| `MOXm91CE-QQ` hallway | 10 | FULL — raised-wardrobe technique, entrance-door ladder, manifold placement |
+| `rRQ05JAoLtk` tables | 9 | FULL — the dimensional core of the furniture cluster |
+| `dSm7M6oGFis` subscriber critique | 9 | FULL — **format probe passed** |
+| `GcTaKRQ3QC0` sofa | 8 | PARTIAL — brand survey; principles extracted, SKU verdicts not |
+| `ccZBjb5qIQA` chairs | 6 | PARTIAL — same; its value is sharpening the leg rule |
+
+**Structural outcome: this vault's first loose-furniture pages.** The three furniture videos crossed the 3-source threshold and produced `14_Furniture/Seating_and_Tables.md` plus `analysis/Loose_Furniture_Selection_Principles.md`, `Seating_Selection.md` and `Table_Types_and_Dimensions.md`, with their own Source Notes and Change Log. `Furniture_Index.md` had explicitly anticipated this gap and is now updated. **All three sources are the same channel, so the pages carry a prominent `single-account` caveat** rather than reading as settled practice.
+
+**Routed to fifteen pages across nine folders.**
+
+### What Round 2 confirmed and what it added
+
+- **Round 1's разнотон finding is now closed.** Round 1 proved walls and fronts at one code don't match; the podcast supplies the remedy (real MDF-in-enamel front samples, **~3,000 RUB ≈ $50** each) and the sequencing rule — **pick the stone slab first, then eliminate the enamel shades that don't suit it**, because stone is fixed and enamel is tintable.
+- **A third documented experiment**: an overhang *with a drip groove* still fails to keep water off the fronts, extending Round 1's plain-overhang test. This studio now has three physical experiments on record here.
+- **The subscriber-critique format probe passed** — every item was a named problem with a specific corrective and a stated reason. **`A5G04uPvzL0` and `p5lXLETWI5s` are now worth processing.**
+- **Two Russian-law claims kept out of `16_Legal_and_Regulations/`** (shaft-vented hoods; entrance-zone water supply subject to БТИ designation), per that folder's Belarus-only rule — routed to technical pages with the jurisdiction flagged and the Belarus position marked open.
+
+### The honest caveat on the furniture cluster
+
+**Three of the eight were brand-by-brand surveys of Russian furniture SKUs**, and roughly half of each runtime is per-model aesthetic verdicts. **None of those were extracted** — taste, market-specific, time-decaying, failing this project's value criteria. Only the reasoning underneath was kept. So ~55 minutes of furniture video produced comparatively compact pages, and the yield figures for those three (8, 9, 6) are lower than the rest of the round for that reason. **This is the weakest content type this channel produces**, and further brand surveys should be deprioritised in favour of the mistakes/podcast/critique formats.
+
+## Recommended Round 3 (awaiting user go-ahead)
+
+Ordered by expected yield, now informed by two rounds of evidence about which formats actually pay:
+
+1. **`A5G04uPvzL0` and `p5lXLETWI5s`** — the two remaining subscriber-critique videos. The format probe passed, and this format consistently produces named-problem/named-corrective content.
+2. **Any further "podcast" episodes** — `KI2GvB0jzHs` was episode 01 and the richest single source across both rounds. She said a second would follow within a week, so more exist beyond the 37-video listing captured on 2026-08-30. **Worth re-running preflight on the channel** to pick up anything published since.
+3. **`TUVsZ1Xx1aQ`** (плохие решения в ремонте) and **`Bnuim5NjgCU`** (ужасные решения в минимализме) — the mistakes format, which has been the most reliable across both rounds.
+4. **`9h2tAnm6rqA`** (small apartment) and **`HImsHPnSh-c`** (minimalist bathroom, unconventional solutions) — room-specific, both feed thin pages.
+5. **`AFBu0Uv-47U`** (плохой дизайнер / how designers deceive clients) — contractor-vetting content for `11_Budget_and_Planning`.
+
+**Deprioritised after two rounds**: `Vv1oLfRd7rM` (anti-trend overlap, unchanged), `Dz_n3257JFQ` (dated trends), `k1YBZzIMAgw` (style differentiation, low actionability), the four single-project showcases, the three exhibition videos and the three career videos. **21 of 37 processed or deliberately excluded; 16 remain, of which about 5 look genuinely worthwhile.**
+
+---
+
+## Superseded — the Round 2 recommendation as originally scoped
 
 Ordered by expected yield, weighted toward gaps this vault actually has and away from the overlap the trial exposed:
 

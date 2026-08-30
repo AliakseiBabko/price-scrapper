@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=haM4H-b-bZM",
+  "video_id": "haM4H-b-bZM",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T20:45:54.419539+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8354be6ac0222dbb6cc9797e54675cc576b7954366a144ff471979a62f000b5d",
+  "attempts_before_success": []
+}

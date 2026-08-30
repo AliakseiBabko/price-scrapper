@@ -305,3 +305,16 @@ Two alternatives to the standard shower enclosure detail, both from a studio tha
 
 `single-account`, `unverified`. [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
 
+## Fitting a Bath Into an Over-Wide Alcove (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+The situation: the wall-to-wall dimension exceeds the bath, so something has to fill the gap. **⚠️ The common move — building out only ONE side, with storage niches for bottles in it — is the mistake.** It reads as "какая-то недоработка," and she notes the internet is full of examples. Two correctives:
+
+1. **Build out both sides.** They come out shallower, so no bottle niches — compensate with **a horizontal shelf running almost the full length of the bath's long side**. Then **drop the ceiling over the bath zone and paint it the same colour**, which strengthens the "box" reading of the zone.
+2. **A tiled podium at bath height (60 cm)**, deliberately made *larger* than the bath so there are tiled margins at **both** ends, with the bath centred. She notes this reads as intended particularly with small-format tile, which is what most real examples of the detail use.
+
+**⚠️ Paint all three walls of a bath alcove one colour, not just one accent wall** — so the colour "окутывает" the bath. She praises this where a submitter had done it, and it pairs naturally with corrective 1 above.
+
+**Niche proportion**: storage niches for bottles should be **thin and elegant, not wide and massive** — she contrasts two submitted bathrooms directly on this point, and it is a common proportional error.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
+

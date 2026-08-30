@@ -70,7 +70,9 @@ https://www.youtube.com/@shevrinamaria/videos — 37 videos, requested directly 
 
 **⚠️ This channel breaks the Group B assumption and should probably be reclassified.** The premise of Group B is that design/room-tour channels may not yield transcript-extractable knowledge at all. This one yields *technical* content — an AC-enclosure failure mechanism, LED voltage drop, laminate expansion behaviour, a renovation cost structure from real bills of quantities, two documented physical experiments — and routed to eleven pages across six folders including `11_Budget_and_Planning`, `12_Engineering_and_Systems` and `13_Surfaces_and_Finishes`. **Treat it as a Group A channel presented by a designer** and process it with the normal Group A round pipeline.
 
-**Round 2 is scoped and recommended in the plan file, awaiting user go-ahead.** 29 videos remain; 11 of the 37 were triaged as clear non-starters. Note the real within-channel topic overlap (the two anti-trend videos are an announced pair) — process this channel by cluster, not exhaustively.
+**Rounds 1 and 2 complete (16 videos): yields 9.0 and 9.75 facts/video — no decay.** Round 2 created this vault's first loose-furniture pages and closed the Round 1 разнотон finding. **Round 3 is scoped in the plan file, awaiting go-ahead**; 16 videos remain, of which about 5 look genuinely worthwhile.
+
+**Format matters more than topic on this channel** — two rounds of evidence: the **podcast** (live project commentary), **mistakes** and **subscriber-critique** formats consistently yield mechanism-and-number content, while **brand-survey** videos are half per-SKU aesthetic verdict and yield noticeably less. Prioritise by format, not by subject.
 
 ## Group C — CAD / 2D Floor-Plan Channel (unique category, own evaluation)
 

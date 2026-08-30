@@ -860,3 +860,24 @@ Microcement is usually thought of as a bathroom material. **Her case is an entra
 
 [source: [[_Sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]]
 
+## Microcement on Cabinet Fronts — Two Execution Routes (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+Microcement can be applied to cabinet fronts, and **the choice of who applies it is forced by context rather than preference**:
+
+- **Route A — the joinery shop applies it at their factory** and delivers finished fronts.
+- **Route B — order raw MDF fronts "подготовленные под микроцемент"** and have the **same applicator who coats your walls** finish the fronts on site.
+
+**⚠️ Route B is required whenever a wall in the same room is also in microcement.** You cannot send a wall to a factory, so factory-finished fronts would be a different batch, applied in a different manner, in a different composition — and would not match the wall. She describes the raw fronts arriving as "немного сырые заготовочки" for the wall applicator to finish.
+
+Practical consequence for scheduling: on Route B the joinery delivery and the microcement applicator's visit have to be sequenced together, which is a coordination step that doesn't exist on Route A.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_KI2GvB0jzHs_shevrina_podcast01_kitchen_material_procurement|YT_KI2GvB0jzHs]]]
+
+## "Пол на стене" — Floor Planks Run Up a Wall (added 2026-08-30)
+
+Dated, per the same practitioner. Her account of why it happened: people wanted wood where water hits, wide-format wood-look ceramic didn't exist yet, and the only options were small floor-format planks or expensive wide slabs. **Replacement: wide-format wood-look ceramic.** For the cost objection to wide-format, see the slab-logistics note in [[11_Budget_and_Planning/Budgeting_Guide|the Budgeting Guide]].
+
+**On walls generally, choose a calmer wood grain** — knotty, high-contrast wood-look reads as visual noise and works only on horizontal surfaces such as floors.
+
+[source: [[_Sources/YT_haM4H-b-bZM_shevrina_bathroom_tile_selection|YT_haM4H-b-bZM]]] [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
+

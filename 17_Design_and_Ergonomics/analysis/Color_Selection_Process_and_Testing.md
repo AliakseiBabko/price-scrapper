@@ -167,6 +167,16 @@ She restates the same claim independently in her white-paint video, where she re
 
 [sources: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]], [[_Sources/YT_b5oeFxmaubI_shevrina_no_perfect_white|YT_b5oeFxmaubI]]]
 
+### The remedy for the wall-vs-front mismatch, and what it costs
+
+The section above establishes that walls and cabinet fronts painted to the same code will not match. **A later source from the same studio supplies the practical answer**, which that video left open:
+
+- **⚠️ Facade colour samples must be real MDF-in-enamel front samples, not paint on paper.** "Нельзя делать на фасады выкрасы чисто на листочке… МДФ другой материал, эмаль это другой материал, это не просто краской покрасить." A выкрас on a sheet tells you nothing about how the same code behaves on a sprayed MDF front.
+- **⚠️ A front sample costs about 3,000 RUB (≈$50)** from a joinery shop — cheap enough to order several and compare them on the actual site. *(5b: `USD/RUB` trailing 6-month mean before the 2023-03-18 publish date, 2022-09-20..2023-03-18, 121 samples, 66.1279 RUB/USD; rounded to the nearest 10. **Region unresolved at level 1**, so the standard comparability caveat applies to the absolute figure — the useful part is that it is a small, repeatable, per-unit cost.)*
+- **⚠️ Sequencing rule: let the less flexible material constrain the more flexible one.** On a live project they went to look at acrylic and quartz slabs **first**, chose the stone, and only then **eliminated the too-light NCS enamel shades** and ordered front samples in the survivors. Stone comes in fixed slabs; enamel can be tinted to anything — so the enamel adapts to the stone, never the reverse. Their shortlist ended up within two or three tones of each other.
+
+[source: [[_Sources/YT_KI2GvB0jzHs_shevrina_podcast01_kitchen_material_procurement|YT_KI2GvB0jzHs]]]
+
 ## There Is No "Perfect White" Article Number
 
 **Мария Шеврина / SMBUREAU**, and this is a direct challenge to the genre of naming shades.

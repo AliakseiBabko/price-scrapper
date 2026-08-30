@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=MOXm91CE-QQ",
+  "video_id": "MOXm91CE-QQ",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T20:47:10.825767+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ccd62b8ddb351ad63bf5e2f7807b96557fbd76ca2006c5104301cd85020abab8",
+  "attempts_before_success": []
+}

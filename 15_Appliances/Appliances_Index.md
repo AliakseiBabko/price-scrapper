@@ -30,3 +30,13 @@ Central home for all appliance-domain content: cross-room preferences/rules, cat
 ---
 
 *Engineering-system content that happens to mention appliances (circuit sizing, ventilation shaft capacity, clearances) stays in [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighting]], [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]], and [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] — this folder is specifically the shopping/model-selection layer, not general systems engineering.*
+
+## Clearances Two Appliances Need (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+Two appliance-driven dimensions that constrain a kitchen layout, and that people typically check too late:
+
+- **⚠️ A dishwasher door opens outward and occupies a full 80 cm.** The named failure is planning exactly 80 cm — or less — between the kitchen run and an island or table, having only checked the ordinary 40–60 cm cabinet fronts. With a bulky dining chair that doesn't tuck under, the required clearance rises to **145 cm**.
+- **⚠️ A fridge against a wall needs a 7–8 cm filler strip** so the door opens past 90° and the crisper drawers can be pulled out (model-dependent). **Their practice: assume 7 cm worst case, or better, put a narrow cabinet or bottle pull-out there instead.** Named downstream consequence — the strip shifts the whole run, and if the electrics are already installed a socket can end up over the hob or hidden behind a cabinet.
+
+Full clearance set in [[03_Kitchen/Kitchen_General|Kitchen General]]. `single-account`, `unverified`. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+

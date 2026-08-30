@@ -175,3 +175,37 @@ open-plan entry/living boundary, from the same ИНТЕРЬЕР НАЛИЦО cas
 See also `11_Budget_and_Planning`'s cross-cutting "Room-Zoning Partition
 Methods" topic area (13DS/Olesya, Diskill/Nadia Karmin) for more zoning
 methods not specific to entryways.
+
+## Water Supply in the Entrance Zone (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+> [!WARNING]
+> **The permissibility half of this is Russian practice and is deliberately not routed to `16_Legal_and_Regulations/`**, which is Belarus-only. Whether the equivalent is allowed in Belarus is an open question this source cannot answer. The technical half below transfers.
+
+She states that a water supply can legitimately be run to the entrance hall — for a dog paw-wash, or simply to wash hands or shoes on entry — **provided the zone is designated non-residential on the БТИ plan**, and notes people assume it requires either a large flat or special permission when the constraint is really just the plan designation.
+
+**The technical content, which is usable regardless:**
+
+- **Very small basins exist — around 30 cm long and 15–20 cm deep** — mounted at a normal ~80–90 cm. Very little space is actually needed.
+- **For a dog it is effectively a shower**: a tray with small upstands to contain water, plus a water supply — a mixer, a hygienic shower, or a handheld head — **at whatever height suits the animal**, from floor level for a small dog up to ~90 cm.
+
+`single-account`, `unverified`, Russian regulatory context. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
+
+## Electrical Panels and Heating Manifolds in the Entrance Zone (added 2026-08-30)
+
+- **An electrical panel is the easy case** — the cabling into it is thin, and they usually house it inside the entrance wardrobe.
+- **⚠️ Heating manifolds ("гребёнки") are the hard case, and the raised-wardrobe trick does not solve them.** They carry thick plumbing runs that cannot be buried in plaster, and **even with a surface-mounted manifold behind a wardrobe raised 30–40 cm, the pipes feeding it stay visible.** This has to be planned early, not discovered.
+- **Manifolds should be recessed into the wall.** If that wall is load-bearing, build it out.
+- **⚠️ Alternative used on one of their recent projects: pass through into the adjacent room (e.g. the bathroom) and reinforce the resulting opening.** Worth it specifically **where you cannot afford to lose ~12 cm** of circulation width or storage depth to a built-out wall.
+
+Cross-reference: the raised-wardrobe technique itself is on [[01_Entrance/analysis/Storage|Entrance Storage]].
+
+`single-account`, `unverified`. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
+
+## Switches, Sockets and the Intercom (added 2026-08-30)
+
+- **Switches can be recessed into the entry storage niche** — the one holding keys and bags — so they are invisible but findable by feel on the way in.
+- **Sockets can go inside the wardrobe; switches cannot** — you will not open a cabinet door to turn the light on in the dark. A small distinction, but it's the one people get wrong when chasing a clean wall.
+- **A video intercom has to stay visible at chest-to-face height**; slim part-recessed models exist. She questions whether one is needed at all now, since door codes get sent to guests and couriers — worth deciding deliberately rather than by default.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
+
