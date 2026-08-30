@@ -7,14 +7,14 @@ How a space is actually lived in, day to day: color and material choices, how fu
 
 ## Current state
 
-As of 2026-08-25 this folder has real content on family-scenario-driven
+As of 2026-08-30 this folder has real content on family-scenario-driven
 layout decisions, decor/finish selection technique, functional
 zoning/furniture arrangement (including a cross-cutting Room-Zoning
-Partition Methods reference), and curtains/window treatments (a
-four-channel gap-fill batch). Color-theory and cross-room-coherence
-sections below remain thin or placeholder pending more sources — there
-are, per the user's own observation, many other channels with dedicated
-design content not yet processed into this vault.
+Partition Methods reference), curtains/window treatments, whole-apartment
+coherence, and — following a dedicated 14-source batch — colour, now
+spread across four pages. The remaining thin area is per-room design
+integration: no room folder has yet accumulated enough room-*specific*
+design sources to earn its own "Design & Zoning" page.
 
 ## Family-Scenario-Driven Design Decisions
 
@@ -28,22 +28,27 @@ Practical installation-adjacent decor guidance: slat/rail (рейки) wall spac
 
 → **[[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Full detail]]**
 
-## Color Palette & Material Direction
+## Colour: Combining, Choosing, and Testing
 
-One source so far (ARCHWOOD/Marina Izmailova) — a mechanism-based
-5-technique framework specifically for a room with weak/indirect
-natural light: choose more saturated (not paler) colors than a sunlit
-room would use, avoid pale intermediate tones that read "dingy" in low
-light, place reflective surfaces only where real light already reaches
-(never a dark-corner mirror or a glossy ceiling), use a mirrored window-
-reveal trick to make a window read larger, keep a small window mostly
-uncovered, prefer semi-matte over full-matte or full-gloss finishes, and
-favor visually "light" furniture (legs, glass tops, medium natural
-tones) over heavy dark pieces or velvet. Cross-reference
-`00_Master/Design_Concept.md` for this project's own (currently
-unfilled) palette/material choices.
+Fourteen sources processed 2026-08-30 in a batch dispatched specifically on combining colours, plus the three already on record. The material outgrew a single page, so it now sits across four:
+
+**How colours actually go together.** The batch's most useful finding is that the practitioners who give a *testable* rule mostly don't answer by hue at all. SHELNAT/Наталья Шелковская rejects forbidden-pair thinking outright and matches instead on **equal lightness and/or saturation** (with paint-fan-deck rows as the physical proxy); Anuta Vlady matches on **warm-vs-cool subtone** — turquoise is a warm blue, and mixing it with a cool blue is why a "same colour" pairing fails — and on **чистый vs. припылённый**, clean shades with clean, dusty with dusty; Студия Wall Street reaches the same conclusion for complementary pairs, where using the pure versions instead of the muted ones is the difference between an interior and a Christmas display. Artcolor.Online supplies the formal scheme taxonomy with a per-scheme interior verdict, and Андрей Самарин the большой/малый-контраст vocabulary plus a spinning-top balance model. 60/30/10 now stands on six independent statements; PRIDE adds the two things the existing entries lacked — that **neutrals don't count against the three-role budget**, and that an accent stops working somewhere around **20–30%**. Also here: three accent-wall rules, ARCHWOOD's full ceiling rule set, and colour as a zoning instrument.
+
+→ **[[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Full detail]]**
+
+**How to arrive at a palette and verify it.** Three unrelated channels independently say the same thing about where to start, and it isn't the wall paint: begin from an **"якорный предмет"** — an object that already contains a good multi-colour combination — or, in Надежда Кузина's version, interview for **atmosphere → style → colour** in that order. ARCHWOOD recommends simply taking a ready-made palette if you only need to do this once, and is emphatic that **selecting the palette is the easy half — distributing it is the hard half**, since one palette yields opposite interiors depending on which member gets the volume. She also names household compromise as the real reason most palettes end up neutral, gives the vault's only **window-orientation table**, and a technique for treating wood as a palette member by mentally stripping its texture. On testing, four channels converge on mandatory выкрасы, and Школа дизайна Маши Черной adds the single most actionable rule in the batch: **choose one to two tones lighter than the fan-deck chip that appealed to you**, because the deck is held perpendicular to the light and reads brighter than a wall ever will.
+
+→ **[[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Full detail]]**
+
+**Neutrals, beige, grey and earth tones** — the densest sub-topic in the batch, and the one with the sharpest counter-intuition: **calm palettes are harder to combine, not easier** (Надежда Кузина), because every shade sits close to every other, each carries a подтон that shifts with light, and there is no brightness to hide an error behind. Contains her five-family earthy-palette taxonomy and "случайный гость" membership test; Vittoria Selina's definition of a genuinely *base* beige (mid-range and temperature-neutral — a butter-leaning beige will not take a cool blue) and her two paths for a beige interior; Школа дизайна Маши Черной's decision criterion for beige vs. grey (**balance against whatever material already dominates** — beige against metal and glass, grey against heavy wood — not style, not material availability); why white is not a safe default; and ARCHWOOD's **"сложные цвета"** argument, including why you cannot mix one yourself.
+
+→ **[[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Full detail]]**
+
+**Low-light rooms and colour psychology**, plus the batch's unresolved disagreements. ARCHWOOD/Marina Izmailova's mechanism-based five-technique framework for a room with weak or indirect daylight stays here, now alongside a **Perspectives block on whether a dark room should be painted light or dark** — where she and Vittoria Selina turn out to agree entirely on the diagnosis (a pale intermediate tone goes grey and fails) and split only on the remedy, one pushing up to the brightest white, the other down to a committed dark. A second Perspectives block sets Sergey Kodolov's per-hue psychology table against Надежда Кузина's argument that such tables are unreliable because colour association is biographical and culturally contingent — a disagreement that narrows, on inspection, to which tier leads.
 
 → **[[17_Design_and_Ergonomics/analysis/Color_Palette_and_Material_Direction|Full detail]]**
+
+Cross-reference `00_Master/Design_Concept.md` for this project's own (currently unfilled) palette and material choices — none of the above is a decision, only the general knowledge that should inform one.
 
 ## Functional Zoning & Furniture Arrangement (Ergonomics)
 

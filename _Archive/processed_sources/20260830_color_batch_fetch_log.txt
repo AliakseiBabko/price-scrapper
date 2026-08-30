@@ -1,0 +1,91 @@
+=== jOXPHR9Mpek Sun Aug 30 19:34:18 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_jOXPHR9Mpek_b8270bbd.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_jOXPHR9Mpek_b8270bbd.meta.json
+Method used: youtube-transcript-api (language=en, generated=False)
+SHA-256 Hash: b8270bbd7f1456c442fedaf6930b2c4fc921119de0df7f61e98ff51efbb3221d
+exit=0
+=== ZY_Xp8b_G5M Sun Aug 30 19:35:34 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_ZY_Xp8b_G5M_aa66de54.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_ZY_Xp8b_G5M_aa66de54.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: aa66de54699725ae1af4ffad6eef73f539ac59b6991b7ca3ac51bc0d6f00bbe3
+exit=0
+=== wjNz2wCtG7o Sun Aug 30 19:36:50 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_wjNz2wCtG7o_8724acfa.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_wjNz2wCtG7o_8724acfa.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 8724acfa37a5a875fd85d74390a107b62c8379e4a7caf4079b5cf8205691d0d0
+exit=0
+=== n5ZBqdq0wH8 Sun Aug 30 19:38:07 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_n5ZBqdq0wH8_29dfc5f7.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_n5ZBqdq0wH8_29dfc5f7.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 29dfc5f79d0aa840d4a60380988c5f426963e315c6d4a03d3e383ad38c4e5cbe
+exit=0
+=== gEhVxuxtOjc Sun Aug 30 19:39:23 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_gEhVxuxtOjc_1ccfcc57.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_gEhVxuxtOjc_1ccfcc57.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 1ccfcc578a11f1493132fe7b3c50bf6696c5cc8861b0c2be926968b9c6375aba
+exit=0
+=== _Vw-eaRekDk Sun Aug 30 19:40:39 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830__Vw-eaRekDk_200c8e67.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830__Vw-eaRekDk_200c8e67.meta.json
+Method used: youtube-transcript-api (language=ru, generated=False)
+SHA-256 Hash: 200c8e670563fa20d5bafceb639aa8122aae50c36bb06ee8bae8a3134980531a
+exit=0
+=== jJ05zqugmSc Sun Aug 30 19:41:56 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_jJ05zqugmSc_89174f34.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_jJ05zqugmSc_89174f34.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 89174f3428bb86c4fe783f963aae5839020216ca12473c71dc09b57d86f96fa4
+exit=0
+=== AKxOtRhIcJY Sun Aug 30 19:43:12 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_AKxOtRhIcJY_3e924e1e.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_AKxOtRhIcJY_3e924e1e.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 3e924e1e24207d3d19df8cf01d2955de1f9bf602add8e2ead29836ce351a05dd
+exit=0
+=== PGrxKyLhxp8 Sun Aug 30 19:44:39 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_PGrxKyLhxp8_648a5a8f.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_PGrxKyLhxp8_648a5a8f.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 648a5a8fc163728690aa057766f83b2cf0d1510c83822c2a97e44d290396d058
+exit=0
+=== 2__5Y0sLAxo Sun Aug 30 19:45:55 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_2__5Y0sLAxo_abed38e1.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_2__5Y0sLAxo_abed38e1.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: abed38e1b621880b3c232a243813727e30c061998e40d9501fdb491781da0670
+exit=0
+=== zF1YLMqIvNw Sun Aug 30 19:47:12 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_zF1YLMqIvNw_ac37f0f0.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_zF1YLMqIvNw_ac37f0f0.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: ac37f0f04109339fe180207f81d972365e0ae8fecfb305230e9b704d3e42861a
+exit=0
+=== EipFPdVqNgs Sun Aug 30 19:48:28 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_EipFPdVqNgs_5c0936ca.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_EipFPdVqNgs_5c0936ca.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 5c0936ca4704f1198b185be1b32f8dc730d785b389fb4ac2550f7005432d273e
+exit=0
+=== S9F9TGVG4x8 Sun Aug 30 19:49:45 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_S9F9TGVG4x8_ab7e9efa.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_S9F9TGVG4x8_ab7e9efa.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: ab7e9efa5406d8bf4ba39657e9c88f3c3bc4262ffaad241b4e9fc88956add0f0
+exit=0
+=== D9NZROUB3ZI Sun Aug 30 19:51:01 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_D9NZROUB3ZI_90e143d8.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_D9NZROUB3ZI_90e143d8.meta.json
+Method used: youtube-transcript-api (language=en, generated=True)
+SHA-256 Hash: 90e143d8039da48df13535b90d6b8ff2fad342680aad98ae5ef927f813a44ca4
+exit=0
+=== AQWuTQfr8w8 Sun Aug 30 19:52:18 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/color_batch\20260830_AQWuTQfr8w8_dae1928c.txt
+Metadata saved to: _Inbox/transcripts/color_batch\20260830_AQWuTQfr8w8_dae1928c.meta.json
+Method used: youtube-transcript-api (language=en, generated=True)
+SHA-256 Hash: dae1928cfe026abd5d3039307d4da3059ab3fa3be15d744cc7cc6b8e375c4244
+exit=0
+DONE

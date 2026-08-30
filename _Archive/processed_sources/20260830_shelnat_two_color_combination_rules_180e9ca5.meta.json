@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=jOXPHR9Mpek",
+  "video_id": "jOXPHR9Mpek",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T17:53:49.307536+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "180e9ca58170d64be66d0fb68b2c96797da67040d66a32b2eb5fae434925bb12",
+  "attempts_before_success": []
+}

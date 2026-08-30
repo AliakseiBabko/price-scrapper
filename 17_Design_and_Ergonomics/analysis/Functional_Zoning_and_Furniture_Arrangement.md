@@ -443,6 +443,18 @@ A general-principles survey (`data/layout_cases/novikov-ideal-layout-principles.
 
 **Extends the general "loggia as functional space" framing above with concrete criteria**: a loggia genuinely functions as a usable home office only with blackout curtains, a 3-4-chamber (thick-profile) double-glazed window unit, and full thermal insulation. **⚠️ Just placing a desk and chair on an insulated loggia does not make it a usable office** — without those specific conditions, direct sun glare, street noise, and outdoor distractions (the source's own example: children playing football under the window) undermine actual working comfort. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
 
+## Colour as a Zoning Instrument (added 2026-08-30, colour batch)
+
+Worth recording here specifically because the **Room-Zoning Partition Methods** reference above is built entirely around *physical* mechanisms — slats, curtains, shelving, sliding glass, screens, permanent walls, furniture-as-divider — and did not previously list colour among them at all.
+
+**ГК «Авальремонт» / Дмитрий Ворванович**: "не обязательно ставить перегородки, чтобы разделить комнаты на зоны. Цвет справится с этим лучше." Named applications: a kitchen distinguished by a different wall shade or tile; a rest zone by a soft rug or a contrasting sofa; a work spot by an accent wall. His framing — **"цвет — это инструмент планировки, просто он визуальный"** — puts colour alongside the physical partition methods as a planning tool rather than a finish decision. `single-account`, `unverified` (contractor marketing channel).
+
+The obvious limitation, not stated by the source but worth noting: colour zoning provides no acoustic, visual-privacy or thermal separation whatsoever, so it substitutes for a partition only where the requirement was purely legibility of zones. Where privacy or sound matters, see the partition-mechanism inventory above and [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]].
+
+Accent-wall placement, which is the specific case he leans on most, has its own rules on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]] — notably that an accent wall should be justified by an object, which constrains how freely it can be used purely to mark a zone.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
+
 ## Scope
 
 General ergonomics/zoning principles for arranging furniture and activity zones within a room or across an open-plan area: traffic-flow planning, activity-zone separation (e.g. within a combined kitchen-living room), clearance/reach ergonomics not already tied to one specific room's own fixtures, and general "how much space does an activity actually need" rules of thumb.

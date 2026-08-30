@@ -373,6 +373,17 @@ Anuta Vlady entries:
 
 `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
 
+## Anuta Vlady — Two Further Accent-Wall Rules (added 2026-08-30, colour batch)
+
+From the same practitioner as the one-accent-wall rule below, in a later error-analysis video demonstrated against real interior photos with corrected versions shown. `single-account` — the same channel, so these extend rather than corroborate that rule.
+
+- **⚠️ An accent wall should be at least somewhat *darker* than the room's other walls.** A lighter accent wall "как будто бы проваливается, вместо того чтобы выглядеть каким-то главным цветовым пятном" — it recedes instead of reading as the room's principal colour mass. Whether it is achieved with patterned wallpaper or plain paint makes no difference to the rule. The easiest colour choice is a darker shade of the same hue; a contrasting colour already present elsewhere in the room (her example: the floor cushions) also works.
+- **⚠️ Placement must be justified by an object — an accent wall on an arbitrary wall is named a большая ошибка.** "Акцентную стену нужно размещать именно там, где есть какой-то объект, который мы хотим дополнительно выделить" — a fireplace, a console, an entrance zone, a furniture composition, artwork. Her worked correction moves an accent from a random wall onto the wall with the console. **The accent wall is defined as a tool for reinforcing something that is already there, not as decoration in its own right** — which also gives a usable test for whether you need one at all.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_PGrxKyLhxp8_anutavlady_typical_color_mistakes|YT_PGrxKyLhxp8]]]
+
+For how accent *colour* (as opposed to accent wall) is chosen and proportioned, see [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]].
+
 ## Anuta Vlady — One-Accent-Wall Rule and Functional-Display Technique (Alaska, added 2026-08-25)
 
 From a real decor-refinement case, Alaska (level 1):

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=jJ05zqugmSc",
+  "video_id": "jJ05zqugmSc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T17:41:57.555027+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "89174f3428bb86c4fe783f963aae5839020216ca12473c71dc09b57d86f96fa4",
+  "attempts_before_success": []
+}

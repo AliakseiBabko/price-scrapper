@@ -390,3 +390,23 @@ for a self-managed buyer.
 ### Pavel Sidorik — IWVPepWlzSs (2020-11-11)
 
 - A laser-level giveaway contest (Kapro "Pro Laser 862," run jointly with retailer "Центр Инструмент," described as Kapro's exclusive Russia/CIS distributor), conditioned on subscribing to both channels, plus a reminder to vote again in a "best DIY blogger" award's second round. Both excluded from all fact sections; surrounding electrical-technique content is otherwise dense, low-promotion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IWVPepWlzSs_sidorik_electrical_ep7|IWVPepWlzSs]]]
+
+## PRIDE furniture-tour price comparisons — excluded, not market data (2026-08-30)
+
+Source: `yt_S9F9TGVG4x8` (МЕБЕЛЬНЫЙ ТУР В КИТАЙ ОТ КОМПАНИИ PRIDE, 2026-05-24), a colour-methodology video whose middle section is a sales segment for the company's organised furniture-buying tours to China.
+
+**Figures quoted, and deliberately not entered into any pricing store or comparison table:**
+
+- An Antonio Lupi bath: **$13,800 in Russia vs. $1,100 in China**.
+- A Baxter Milano bed: **$24,700 in Russia vs. $2,300 in China**.
+- A general claim of savings "от двух раз" across many categories, and "более тысячи клиентов" since 2008.
+
+**Why excluded.** These are seller-supplied figures from a company whose actual product is the buying tour, so the size of the gap is the sales argument. No sourcing is given, no specification match is confirmed between the compared items (an authentic Antonio Lupi bath and a same-shape product from a Chinese factory are not the same good, which is precisely the ambiguity the comparison depends on), and none of it is Belarus-relevant. This is **tier-steering promotional content** under this store's own market-data-vs-tier-steering distinction, not a price observation.
+
+The framing device of the whole video — that a colour cannot be judged from a screen, a showroom or a rendering, so you should come and see materials in person — is a real point, but it functions here as a funnel into the product. The substantive version of it is independently on record from `AKxOtRhIcJY` and `zF1YLMqIvNw` (compare shades under cool, warm and daylight conditions; juxtapose physical samples) and is credited to those sources, not to this one.
+
+The video's actual design content did clear the value bar and was extracted — see [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_S9F9TGVG4x8_pride_60_30_10_anchor_object|its note]].
+
+## Scarcity-framed consultation offers — a recurring device in design-channel content (2026-08-30)
+
+Noted rather than itemised: two sources in the 2026-08-30 colour batch close with a free-consultation offer, one of them using explicit artificial scarcity (`yt_EipFPdVqNgs`: "у дизайнеров ограниченное количество слотов, берут не больше пяти консультаций в неделю, и сейчас уже почти всё занято"). Both channels' technique content was still extracted where it was substantive; the offers themselves carry no information and are recorded here only so the pattern is visible when weighting future sources from design-studio channels.

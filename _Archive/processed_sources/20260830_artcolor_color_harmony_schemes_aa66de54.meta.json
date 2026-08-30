@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ZY_Xp8b_G5M",
+  "video_id": "ZY_Xp8b_G5M",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T17:35:35.721499+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "aa66de54699725ae1af4ffad6eef73f539ac59b6991b7ca3ac51bc0d6f00bbe3",
+  "attempts_before_success": []
+}

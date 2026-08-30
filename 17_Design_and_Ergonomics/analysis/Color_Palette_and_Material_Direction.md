@@ -2,7 +2,13 @@
 
 ## Scope
 
-General color-theory and material-pairing technique gathered from processed sources: how to choose a coherent palette, warm-vs-cool balance, accent-vs-neutral pairing rules, how material choice (wood tone, stone/quartz type, metal finish) interacts with color choice. This is general knowledge/technique, not this project's own chosen palette — see `00_Master/Design_Concept.md` for that (currently also unfilled).
+**Re-scoped 2026-08-30.** This page originally held all colour content in the vault. A 16-video batch on combining colours grew that content past one page, so the topic is now split three ways and this page keeps the two subjects that don't fit the others: **colour in low-natural-light rooms**, and **colour psychology** (per-hue association, and the disagreement about whether it is usable at all).
+
+- **[[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]]** — what makes colours work together: harmony schemes, lightness/saturation/temperature/dustiness matching, 60/30/10 and other proportion rules, accent walls, ceilings, warm-advances/cool-recedes, colour as a zoning tool.
+- **[[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]]** — how to arrive at a palette and verify it: anchor objects, ready-made palettes, household disagreement, window orientation, LRV, выкрасы and fan-deck correction, wood as a palette member.
+- **[[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Neutrals & Earth-Tone Palettes]]** — beige, grey, whites and the earthy family specifically, including "сложные" colours.
+
+All four pages are general knowledge and technique, **not** this project's own chosen palette — see `00_Master/Design_Concept.md` for that (currently unfilled).
 
 ## Color and Surface Technique for a Low-Natural-Light Room
 
@@ -61,6 +67,26 @@ just asserted preference.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0Nnv6VedbVo_archwood_dark_north_room_top5|YT_0Nnv6VedbVo]]]
 
+## Perspectives on Record — Should a Dark Room Be Painted Light or Dark? (added 2026-08-30)
+
+A real, unresolved disagreement between three named practitioners, surfaced by the 2026-08-30 colour batch. It matters here because it bears directly on any north-facing or light-obstructed room in this project's own apartment.
+
+| Source | Position | Stated reasoning |
+|---|---|---|
+| **ARCHWOOD / Марина Измайлова** (the section above) | **More saturated** than a sunlit room would use; and for the walls, **the brightest white in the paint line** paired with saturated accents | Shadow pulls any light tone toward grey, so a pale colour reads duller and can shift hue; pale intermediate tones (light grey, light beige, light blue) read as dingy white in low light because there isn't enough light for accurate colour perception |
+| **Vittoria Selina** | **"Тёмное помещение лучше красить в тёмные цвета"** — paint a small dark room a genuinely dark colour | A light beige in a room with genuinely blocked daylight (her example: a third-floor room with a poplar outside the window) "превращается просто моментально в серый тон," losing exactly the softness and refinement it was chosen for. A dark colour instead becomes deeper and, she claims, reads as expanded |
+| **ГК «Авальремонт»** | **Light walls and ceiling** for a small room | The conventional rule: light tones enlarge by reflecting light, dark shrink but add coziness |
+
+**Common ground — and it is substantial.** ARCHWOOD and Vittoria Selina **agree on the diagnosis and disagree only on the remedy**: both state that a pale, gentle, intermediate tone is exactly what fails in a low-light room, because it goes grey. ARCHWOOD's answer is to push *up* (brighter white, more saturated accents); Vittoria Selina's is to push *down* (commit to dark). Neither endorses the pale-beige-to-brighten-it move, which is what most people actually do — and which is what ГК «Авальремонт»'s general light-enlarges rule would lead to if applied without thinking about daylight availability.
+
+Vittoria Selina is also explicit that the choice is the occupant's: if the room will mostly be experienced under warm table-lamp and floor-lamp light in the evening, and the daytime grey shift doesn't bother you, do it anyway.
+
+**Your priority.** Not yet decided. The deciding factor all three point at is the same: **how much real daylight the specific room gets, and at what time of day it is actually used.** That is a per-room question for this apartment, not a general one.
+
+[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0Nnv6VedbVo_archwood_dark_north_room_top5|YT_0Nnv6VedbVo]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
+
+Distinct from, but adjacent to, the window-orientation table on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]] — that one is about *colour distortion* by orientation, this one is about *how dark to go* when daylight is genuinely scarce.
+
 ## Color Psychology — a Practitioner's Decision Framework (added 2026-08-25, Sergey Kodolov)
 
 **⚠️ All claims below are `unverified` pop-psychology/practitioner
@@ -113,15 +139,26 @@ established fact.
   cultural readings by context, elegance/status vs. mourning/fear).
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_T-W5qFAVG9o_kodolov_color_psychology|T-W5qFAVG9o_kodolov_color_psychology]]]
 
-## Color Proportion and Contrast Rules (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+## Perspectives on Record — Is Per-Hue Colour Psychology Usable at All? (added 2026-08-30)
 
-A distinct, complementary framework from the per-hue Color Psychology section above — not merged or reconciled with it, since this is a proportion/contrast methodology rather than a per-color-association one:
+The section above records one practitioner's per-hue association table. A second practitioner, processed 2026-08-30, argues against exactly that genre — so the two are placed side by side rather than merged.
 
-- **⚠️ 60-30-10 color-proportion rule**: 60% of a room's color should be the base fill (walls, floor), 30% mid-weight elements (furniture, curtains), and only 10% genuinely accent colors (decor, light fixtures, chairs). **The accent color must repeat at least 3 times** across distinct objects (e.g. a painting, a cushion, a vase all sharing one accent tone) — a single accent instance doesn't read as a deliberate choice.
-- **⚠️ Three-criterion contrast rule for accents**: an accent color must differ from the base along at least one of three axes — **hue** (a different color outright), **temperature** (warmer or cooler), or **material/texture** (wood vs. metal vs. stone, etc.). If unsure about color contrast specifically, temperature or material contrast is the safer default.
-- **Named warm/cool palette pairings**: a warm base (beige, sand, cream, terracotta, warm gray) pairs best with deep blue, olive or forest green, black, brass, or gold; a cool base (concrete gray, cold white, graphite) pairs best with terracotta, caramel, cognac tones, warm wood, bronze, or warm green.
+| Source | Position | Stated reasoning |
+|---|---|---|
+| **Sergey Kodolov** (the section above) | A per-hue association table is a usable decision aid, **applied in a three-tier priority order**: general colour-psychology association, then the client's own cultural/regional association, then their personal history with the colour | Personal history can override any "objective" argument, so the table is a starting point that gets overridden, not a lookup |
+| **Надежда Кузина** | Treats universal per-hue advice **with explicit caution** — "оливковый успокаивает," "оранжевый бодрит," "бежевый делает интерьер дорогим" are the examples she names and declines to rely on | The same colour produces different emotions in different people for **biographical** rather than perceptual reasons. Her worked instance: the same olive is a trip through Tuscany for one person, a district clinic's walls for another, a grandfather's jacket for a third |
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qPi_0cW7aHI_kruglov_expensive_interior_10_rules|YT_qPi_0cW7aHI]]]
+**Common ground, and it is closer than it first looks.** Kodolov's own third tier *is* Кузина's objection — he already states that a client's personal history with a colour can override any general argument. **The real disagreement is about which tier leads.** Kodolov starts from the general association and lets personal history override it; Кузина starts from the person and treats the general association as unreliable enough not to lead with. She reaches the same place from the historical side too: her Pastoureau argument (on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]]) is that colour associations have already reversed once — medieval red+green read as near-monochrome, yellow+green as hellish kitsch — so they are cultural conventions rather than constants.
+
+Both agree that **cultural/regional association is real and must be asked about**, and both treat the client conversation, not a table, as where the answer actually comes from.
+
+**Your priority.** Not yet decided. For this project the practical consequence is small and concrete: **the per-hue table above is a conversation prompt, not a specification** — the deciding input either way is what the household actually associates with a colour.
+
+[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_T-W5qFAVG9o_kodolov_color_psychology|T-W5qFAVG9o]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gEhVxuxtOjc_kuzina_why_you_cant_choose_a_color|YT_gEhVxuxtOjc]]]
+
+## Colour Proportion and Contrast Rules — moved (2026-08-30)
+
+The Kruglov/Ontario 60-30-10 proportion rule, the three-repetitions accent rule, the three-criterion accent-contrast rule and the named warm/cool base pairings have moved to **[[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules#Proportion and Hierarchy|Colour Harmony & Combination Rules → Proportion and Hierarchy]]**, where they now sit alongside five further independent statements of the same 60/30/10 rule and an explicit note on why Kruglov's three-repetitions rule and Anuta Vlady's large-block accent-dilution rule are *not* the same claim.
 
 ## Related content elsewhere in this vault (not merged here)
 
@@ -131,3 +168,4 @@ A distinct, complementary framework from the per-hue Color Psychology section ab
 
 - 2026-08-24 — Page created as part of standing up the `17_Design_and_Ergonomics` folder. No content yet.
 - 2026-08-25 — First real source added: ARCHWOOD/Marina Izmailova's 5-technique dark-room color/surface/curtain/furniture explainer (`YT_0Nnv6VedbVo`). Page is no longer an empty placeholder, though still single-source.
+- 2026-08-30 — **Page re-scoped and the colour topic split three ways**, following a 16-video batch dispatched specifically on combining colours (14 processed, 1 skipped, 1 already in the vault). This page kept low-light-room technique and colour psychology; three new `analysis/` pages were created for the rest — [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]], [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]], and [[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Neutrals & Earth-Tone Palettes]]. Two Perspectives blocks added here: dark rooms (ARCHWOOD vs. Vittoria Selina vs. ГК «Авальремонт» — the first two agree on the diagnosis and split on the remedy) and whether per-hue colour psychology is usable at all (Kodolov vs. Надежда Кузина, who turns out to differ mainly on which tier leads). The Kruglov/Ontario colour-proportion and accent-contrast section moved out to the new harmony page, with a pointer left in its place.

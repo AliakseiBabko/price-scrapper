@@ -310,6 +310,19 @@ longest pooling length = hardest, may get caught or skipped entirely).
 
 **Roller/pleated blinds that open from either end independently (top-down or bottom-up)**, used in place of curtains in a real project — the practical benefit named directly: raise only the bottom portion to block a ground-level or lower-floor sightline from neighbors/passersby while still letting daylight in through the now-uncovered top portion, rather than choosing between full coverage (no light) or full exposure (no privacy). A distinct product mechanism from every curtain/blind type already documented on this page. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
 
+## Ask the Composition Question Before the Colour Question (ARCHWOOD / Марина Измайлова, added 2026-08-30)
+
+Every other source on this page answers "what colour should the curtains be." This one argues that is the second question.
+
+- **⚠️ Full-length portières are a vertical element comparable to a column**, so the first question is not what colour but **"нужен ли мне здесь с этой стороны контрастный вертикальный элемент просто по композиции или нет?"** — for instance, to balance a massive element or a dominant on the opposite side of the room. Only if the answer is yes does contrast follow at all.
+- **⚠️ And if contrast is wanted, it can be *lighter* than the wall as well as darker.** "Они не обязательно должны быть тёмными — они могут быть и наоборот светлыми относительно цвета более тёмной стены." A useful correction to the default assumption that a contrasting curtain means a darker one.
+- **Curtains join the already-chosen palette** rather than being selected against the wall in isolation; if the palette lacks a suitable member, extend it with a neighbouring darker or lighter shade rather than importing an unrelated colour.
+- Her two composition self-checks apply here as much as anywhere: simplify the interior to plain rectangles and squares and see whether everything sits where it should, then convert the view to black-and-white, because visual weight reads differently without hue. She notes composition is what most of an architectural education is actually spent on.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|YT_AKxOtRhIcJY]]]
+
+**Compare with Anuta Vlady's attention-direction rule** (on [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]]): saturated contrasting curtains pull attention to the window, so if the intended focal point is elsewhere — a printed headboard, say — the fix is to bring the curtains down to roughly the wall colour. The two practitioners are asking the same question from opposite ends: ARCHWOOD asks whether the window *needs* emphasis, Anuta Vlady asks what the emphasis *costs* elsewhere.
+
 ## Source Notes
 
 - **"Как выбрать шторы. 7 фундаментальных принципов"** (Ирина Хихол,
@@ -340,3 +353,4 @@ longest pooling length = hardest, may get caught or skipped entirely).
   batch 1). Mostly corroborating; two numeric points recorded as open
   disagreements rather than merged (cornice-width margin, in-floor-
   convector coverage allowance).
+- 2026-08-30 — Composition-first section added from the colour batch (Бюро ARCHWOOD / Марина Измайлова, `AKxOtRhIcJY`): ask whether the room needs a contrasting vertical element at all before asking what colour, note that a contrasting curtain can be lighter than the wall rather than darker, and treat curtains as a member of the already-chosen palette. Cross-linked to Anuta Vlady's attention-direction rule on the new Colour Harmony page, which approaches the same decision from the opposite end.
