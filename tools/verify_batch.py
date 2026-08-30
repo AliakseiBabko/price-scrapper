@@ -57,7 +57,24 @@ INLINE_CODE_SPAN = re.compile(r"`[^`\n]*`")
 # correction (2026-08-21), USD equivalents are a comparability aid for an
 # approximate source figure, never a precise transaction record, so cents/
 # decimal places should not appear at all.
-USD_CENTS_PATTERN = re.compile(r"\$[\d,]+\.\d")
+# Two exclusions, both found by a real false-positive audit on 2026-08-30
+# (the `_supporting` dissolution surfaced 58 usd_cents hits, 41 of them noise):
+#   - a trailing k/K/m/M is thousands/millions shorthand, not cents. A case
+#     study's "$3.5k" means $3,500; matching "$3.5" out of it and demanding it
+#     be rounded to "$4" would corrupt the figure.
+#   - a figure below $10 is exempt (see SMALL_FIGURE_FLOOR): at that magnitude
+#     the decimal carries real information rather than false precision.
+USD_CENTS_PATTERN = re.compile(r"\$[\d,]+\.\d+(?![\d]*[kKmM])")
+
+# Below this, the no-cents and rounding-bucket rules stop making sense and
+# start destroying data. The 2026-08-21 rounding correction's own rationale is
+# that a USD equivalent is "a comparability aid for an approximate figure, not
+# a transaction record" - but at single-dollar magnitudes the opposite holds:
+# rounding "≈$1 for a 0.5m strip of sandpaper" to the nearest $10 yields $0,
+# and "$0.46" per unit rounds to nothing at all. The same correction's explicit
+# exception clause already covers these ("a figure that is itself genuinely
+# exact ... stays precise"). Confirmed against real flagged lines on 2026-08-30.
+SMALL_FIGURE_FLOOR = 10
 
 # Matches this project's "USD equivalent" annotation convention, e.g.:
 #   (÷ 83.21 RUB/USD, 2025 annual average, see [[...]])
@@ -97,6 +114,39 @@ def _rounding_unit(n: float) -> int:
     if n < 100_000:
         return 100
     return 1000
+
+# Files whose dollar figures are arithmetic-exact by construction and are
+# therefore exempt from the rounding-bucket and no-cents rules. This is not a
+# convenience suppression - the 2026-08-21 rounding correction states the
+# exception itself, and names one of these files as the example: "a figure ...
+# recovered by an explicit arithmetic cross-check against other stated figures
+# in the same source (e.g. the 7komnat.by case's $70,000/52m² totals) - those
+# stay precise, since rounding them would discard real information rather than
+# avoid manufacturing false precision." A case study's per-m² column is exactly
+# that: $2,700 / 52 m² = $51.92/m². Added 2026-08-30 after the checker was
+# found flagging 32 such figures.
+EXACT_FIGURE_PATH_PREFIXES = (
+    "11_Budget_and_Planning/case_studies/",
+    "_Knowledge/store/USD_Backfill_Inventory.md",
+)
+
+
+def figures_are_exact_by_construction(path: str) -> bool:
+    return any(path.startswith(prefix) for prefix in EXACT_FIGURE_PATH_PREFIXES)
+
+
+# Frozen content: archived raw evidence and superseded legacy pages. These are
+# a historical record and must not be edited to satisfy a present-day style
+# rule - rewriting a figure inside archived evidence would falsify the
+# evidence. `tools/check_page_sizes.py` already excludes `_Archive/**` on the
+# same reasoning. Added 2026-08-30, when 13 of 73 remaining money-check hits
+# turned out to be in a superseded pre-reorg legacy guide.
+FROZEN_PATH_PREFIXES = ("_Archive/",)
+
+
+def path_is_frozen(path: str) -> bool:
+    return any(path.startswith(prefix) for prefix in FROZEN_PATH_PREFIXES)
+
 
 EXCHANGE_RATE_TABLE_PATH = "00_Master/exchange_rates_reference.md"
 EXCHANGE_RATE_ROW_PATTERN = re.compile(
@@ -279,6 +329,8 @@ def check_rounding_bucket(path: str, base_text: str, head_text: str) -> list[str
     decimal '≈$' figure is separately flagged by check_usd_cents already,
     so this just evaluates the truncated integer)."""
     problems: list[str] = []
+    if figures_are_exact_by_construction(path) or path_is_frozen(path):
+        return problems
     base_lines = set(base_text.splitlines())
     head_lines = head_text.splitlines()
     added_lines = [line for line in head_lines if line not in base_lines]
@@ -290,6 +342,10 @@ def check_rounding_bucket(path: str, base_text: str, head_text: str) -> list[str
                 if raw is None:
                     continue
                 n = float(raw.replace(",", ""))
+                if n < SMALL_FIGURE_FLOOR:
+                    # Rounding a single-dollar figure to the nearest $10 gives
+                    # $0. See SMALL_FIGURE_FLOOR.
+                    continue
                 unit = _rounding_unit(n)
                 if n % unit != 0:
                     snippet = line.strip()[:80]
@@ -305,6 +361,8 @@ def check_usd_cents(path: str, base_text: str, head_text: str) -> list[str]:
     user correction (2026-08-21), a USD equivalent is a rounded comparability
     aid, never a precise transaction record; cents should never appear."""
     problems: list[str] = []
+    if figures_are_exact_by_construction(path) or path_is_frozen(path):
+        return problems
     base_lines = set(base_text.splitlines())
     head_lines = head_text.splitlines()
     added_lines = [line for line in head_lines if line not in base_lines]
@@ -314,7 +372,10 @@ def check_usd_cents(path: str, base_text: str, head_text: str) -> list[str]:
         # quotes a bad-example figure (e.g. "not `$47.2/m2`") isn't a live
         # violation, same reasoning as the retired-pattern check above.
         prose_line = INLINE_CODE_SPAN.sub("", line)
-        hits = USD_CENTS_PATTERN.findall(prose_line)
+        hits = [
+            hit for hit in USD_CENTS_PATTERN.findall(prose_line)
+            if float(hit.lstrip("$").replace(",", "")) >= SMALL_FIGURE_FLOOR
+        ]
         if hits:
             snippet = line.strip()[:80]
             problems.append(
@@ -336,24 +397,40 @@ def repo_wide_id_hits(id_value: str, exclude_path: str, ref: str | None) -> int:
     `origin/topic/...` while `main` was checked out searched the wrong
     tree entirely and flagged 3 genuinely-fine IDs as unverifiable
     (PRICE_SCRAPPER_USD_BACKFILL_RESIDUAL round 8)."""
-    cmd = ["git", "grep", "-l", "-F", id_value]
-    if ref is not None:
-        cmd.append(ref)
-    result = subprocess.run(
-        cmd,
-        cwd=REPO_ROOT,
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-    )
-    if result.returncode not in (0, 1):
-        return -1
-    lines = result.stdout.splitlines()
-    if ref is not None:
-        # "git grep -l <ref> -- ..." prefixes each hit with "<ref>:<path>".
-        prefix = f"{ref}:"
-        lines = [line[len(prefix):] if line.startswith(prefix) else line for line in lines]
-    hits = [line for line in lines if line.strip() != exclude_path]
+    # Search the bare core ID, not just the prefixed "yt_<id>" form. The same
+    # source is written several ways across the vault - "yt_<id>" in store
+    # prose, "YT_<id>_<slug>.md" as the source-note filename, "watch?v=<id>" in
+    # processed_sources.csv, and a bare "<id>" line in processed_video_ids.txt.
+    # Matching only the prefixed form reported every ID in a batch as
+    # unverifiable: 156 of them on 2026-08-30, all of which existed. Falling
+    # back to the core ID makes the check answer the question it is actually
+    # asking - "does this source exist anywhere else?" - rather than "is it
+    # spelled this one way elsewhere?".
+    candidates = [id_value]
+    core = id_value.split("_", 1)[1] if "_" in id_value else id_value
+    if core and core != id_value:
+        candidates.append(core)
+
+    hits: set[str] = set()
+    for candidate in candidates:
+        cmd = ["git", "grep", "-l", "-F", candidate]
+        if ref is not None:
+            cmd.append(ref)
+        result = subprocess.run(
+            cmd,
+            cwd=REPO_ROOT,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+        )
+        if result.returncode not in (0, 1):
+            return -1
+        lines = result.stdout.splitlines()
+        if ref is not None:
+            # "git grep -l <ref> -- ..." prefixes each hit with "<ref>:<path>".
+            prefix = f"{ref}:"
+            lines = [line[len(prefix):] if line.startswith(prefix) else line for line in lines]
+        hits.update(line for line in lines if line.strip() != exclude_path)
     return len(hits)
 
 

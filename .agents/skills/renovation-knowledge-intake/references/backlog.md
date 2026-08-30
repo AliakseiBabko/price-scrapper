@@ -31,6 +31,39 @@ resuming, these will drift as new content is added):
   **If new rooms/pages are added to the vault later, re-check this list
   isn't stale before assuming guide/detail scope is fully closed.**
 
+### Concrete residual as of 2026-08-30 — 60 items, located
+
+The `_supporting` dissolution re-ran `verify_batch.py` over ~1000 moved files
+and reported 292 problems. A full triage found **224 (77%) were checker false
+positives**, in four classes now fixed in the tool (see its
+`SMALL_FIGURE_FLOOR`, `EXACT_FIGURE_PATH_PREFIXES`, `FROZEN_PATH_PREFIXES`, and
+the ID-form normalisation in `repo_wide_id_hits`; regression test at
+`scripts/verify_batch_selftest.py`). One real defect — a UTF-8 BOM — was fixed.
+
+**The remaining 60 are the real Workstream D residual, and they line up with
+the scope-group counts above.** Exact locations, so the next pass doesn't have
+to re-derive them:
+
+| File | Hits |
+|---|---|
+| `_Knowledge/store/Numeric_Data.md` | 23 |
+| `_Knowledge/store/Cross_Source_Comparison_Tables.md` | 10 |
+| `_Knowledge/store/Durable_Facts.md` | 4 |
+| `_Knowledge/store/Source_Index.md` | 4 |
+| `_Knowledge/store/Change_Log.md` | 2 |
+| 8 individual `_Sources/YT_*` notes (Kruglov ×3, Sidorik ×4, others) | 16 |
+| `11_Budget_and_Planning/Budgeting_Guide.md` | 1 |
+
+Split: **50 `rounding_bucket`, 10 `usd_cents`**. Reproduce with
+`python tools/verify_batch.py --base <commit-before-the-batch> --json`.
+
+**⚠️ Do not mass-script these.** Some flagged figures are exact by arithmetic
+and the rounding rule protects them; a blind rounding pass would turn a
+verified `$1,346/m²` ($70,000 ÷ 52 m²) into `$1,300` and destroy real
+information. Each needs the same judgement the rule describes: is this an
+approximate conversion (round it) or a recovered exact figure (leave it, and
+consider whether its file belongs in `EXACT_FIGURE_PATH_PREFIXES`)?
+
 **When resuming**: use `USD_Backfill_Inventory.md`'s stable-ID ledger and
 content-specific-label convention (established turn 106) as the tracking
 mechanism, not raw counts. Run `tools/verify_batch.py --json` on every batch
