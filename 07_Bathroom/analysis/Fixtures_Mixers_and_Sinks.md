@@ -113,3 +113,12 @@ depth actually fits that specific model's rough-in body** — a light
 corroboration of this channel's recurring precision-recess-mounting theme
 (previously seen for LED transformers and other concealed fittings
 elsewhere on this vault), not a new mechanism on its own. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]
+
+## Filling a Bath Through the Slot Overflow (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**⚠️ Fill the bath through the slot overflow ("излив через слив-перелив") instead of fitting a spout.** SMBUREAU apply this in nearly every project and describe it as base practice rather than a flourish. Two stated reasons: a wall spout **protrudes and is a genuine injury hazard** (she rates it as more dangerous than the short-spout mistake she names elsewhere), and removing it leaves only a single mixer on the wall.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
+
+**Related cost note**: the labour to install a *concealed* mixer is not much more than for a surface-mounted one, once measured against the cost of running the services — so concealed mixers need not be abandoned on labour grounds, and budget concealed models exist. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+

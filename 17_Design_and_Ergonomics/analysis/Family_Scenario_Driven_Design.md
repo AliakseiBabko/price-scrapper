@@ -121,6 +121,25 @@ household (young children, open-plan living space):
 - No source yet generalizes these examples into a reusable decision framework (a checklist of "which household variables to ask about before defaulting a layout choice") — each example above is a specific worked case, not yet a synthesized method.
 - No source yet addresses this project's own actual family scenario directly — see `00_Master/Family_Requirements.md` for this project's own stated requirements, and treat these examples as illustrative technique, not a prescription for this apartment specifically.
 
+## An Intake Instrument: Scoring Aesthetics Against Practicality (SMBUREAU, added 2026-08-30)
+
+This page is built on the principle that a decision should follow how a specific household actually uses a space. **SMBUREAU (Мария Шеврина and Алёна Ключникова) supply an actual instrument for eliciting that**, which the page previously lacked — worked examples but no method for getting the input.
+
+Their client questionnaire does two things:
+
+1. **Every family member individually rates themselves on an aesthetics-versus-practicality scale (1 to 10)** — separately, because household members differ and the differences are the point.
+2. **The client lists the zones in descending priority for practicality, and separately in descending priority for aesthetics.** Their worked example: "the kitchen must be maximally hard-wearing," while in the bedroom a stone headboard or hard bed edges are acceptable because "главное, чтобы было красивенько."
+
+**⚠️ The finding that motivates it: roughly half their clients, or more, are *not* practicality-maximalists.** (Explicitly her impression from running the questionnaire, not a counted statistic.) Their stated conclusion — "мы никогда не полагаем в своей работе практичность как истину в последней инстанции" — is aimed at a habit they say designers have acquired from social media, of treating practicality as self-evidently the right answer.
+
+**What it changes downstream, in their own worked examples**: for a practicality-leaning client's study, fit everything needed into the cabinet and don't labour over an elegant front division; for an aesthetics-leaning client's make-up area, choose the beautiful chair over the softer one — **knowingly**, because the questionnaire already established that trade and the client has already agreed to it. The value is less in the scores than in having the conversation before the choice arrives rather than during it.
+
+They pair this with a broader position worth recording alongside: **no 100%-practical material exists, and a designer should not pretend otherwise** — "не нужно обманывать заказчиков, что существуют такие идеальные материалы… единороги." Every material ages; walls scuff, parquet dents under heavy furniture, laminate moves. They also observe that **people over-weight low-probability events and buy permanent ugliness to insure against them** — their examples are a stretch ceiling fitted against a hypothetical flood, and MDF cladding on entrance-door reveals against a hypothetical neighbour carrying a piano through — with the result that you look at the mitigation every day and the event never comes.
+
+`single-account`, `unverified`. **Directly relevant to this project**, whose `00_Master/Family_Requirements.md` and `Design_Concept.md` are both unfilled and which has two adults and two young children whose priorities will differ. Recorded as general technique — the wrapper does not write to those two files.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+
 ## Change Log
 
 - 2026-08-25 — Added "Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design" section (1 source, `YT_fkoUNvB9LV8`), part of a dedicated 8-video Anuta Vlady batch targeting `06_Small_Bedroom` — this particular video turned out to be a kitchen-living room, not a bedroom, so routed here instead.

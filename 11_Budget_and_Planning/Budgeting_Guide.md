@@ -497,6 +497,53 @@ Tactical moves for trimming budget without cutting quality (compressed from 13 s
 - **Tiled-niche shower shelving vs. glass shelving, a concrete cost comparison, per Kruglov/Ontario (added 2026-08-28)**: recessed shelf niches lined in tile (cutting/finishing tile edges per opening) cost roughly ≈10,000 RUB (≈$110) per shelf — 5 shelves this way total ≈50,000 RUB (≈$560) — versus a single larger tiled niche fitted with several built-in tempered-glass shelves at a meaningfully lower total (the video's own exact glass-alternative total is ASR-garbled, not extracted precisely). The glass used is tempered/safety glass, comparable to automotive windshield glass — won't cut on breakage. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KNY-XfgbGog_kruglov_top8_save_money_tips|KNY-XfgbGog]]]
 - **⚠️ Three material-procurement rules, per Kruglov/Ontario (added 2026-08-28)**, directly protective of a self-managed budget: (1) approve rough-material volumes/types before purchase — material shouldn't be delivered to site until the client has signed off on the proposed list and quantity; (2) keep material cost as a separate, distinctly-tracked line from the labor contract sum, never bundled into one fixed total — bundling removes the client's ability to independently source or substitute materials, and a pre-quoted bundled quantity (e.g. "100 bags at 400 RUB each") typically carries enough built-in price buffer to protect the seller's margin months later, while still billing the client by actual quantity used; (3) agree on an explicit reference retail-price benchmark up front (e.g. a named big-box chain) — if delivered pricing lands more than ~15-20% above that benchmark, the company isn't honoring the agreement and self-purchasing directly is a reasonable response. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hfJa_QNaN6c_kruglov_consumables_25_percent_budget|hfJa_QNaN6c]]]
 
+## 5a. Where the Money Actually Goes — A Bill-of-Quantities Breakdown (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+An unusually concrete cost-structure analysis, built from the actual bills of quantities on her studio's own projects rather than from generic saving advice — she describes herself as being "душнилой с цифрами и табличками."
+
+**Case basis**: a **90 m² minimalist apartment, full turnkey** including deliveries, hoisting and installation, deliberately chosen because it is "полный фарш" — engineered board, porcelain, paint, microcement, shadow-gap junctions, plasterboard ceilings with tracks and spots, concealed sanitaryware. She states up front that **a minimalist renovation is the most expensive kind**, which frames everything below.
+
+### The structure
+
+- **⚠️ Contractor labour + rough materials = 24.5% of the total budget** — the largest single slice, and **she states this share repeats from project to project.** The most transferable figure in the source.
+- **⚠️ Shopping for a cheaper crew does not reduce it.** Crew rates barely differ between crews: "стоимость в данной категории уменьшается не за счёт выбора просто другой бригады, а за счёт выбора других работ." **The lever is the scope of work, not the vendor** — which is the organising insight of the whole analysis.
+- **Inside the crew's estimate, descending**: rough finishing → finishing → electrical → plumbing → demolition. **Electrical is not worth attacking** — cable runs, chasing and back-boxes are each individually necessary and the category's weight is modest.
+- **Inside rough works, descending**: walls → ceilings → floors → **reveals, the smallest contributor of all.** Direct consequence: **plastic reveals are a pointless economy.**
+- **⚠️ Plasterboard partitions cost about 2.5× more than foam-block** for essentially equal volume.
+- **⚠️ Preparing walls for painting is a very large line — large enough to invert an intuition.** Wallpaper remains genuinely budget (she notes she dislikes it: short-lived, bad over wall cracks, unrestorable). **And on one real project where they were economising, cladding a wall in 120×60 porcelain to the ceiling came out cheaper in labour than preparing that wall for paint.**
+- **Joinery is the second-largest category overall**, even with ~80% of cabinets costed in chipboard. **She states plainly that it essentially cannot be reduced** if already in the cheapest material — the only levers are deferring purchases, or planning from the outset around ready-made units and building partitions and dropped ceilings to suit them.
+- **Third: finishing materials** — and within it, **the paint brand barely matters** (San Marco vs. Sherwin-Williams), because paint is a small share and labour dominates. If you must cut, switch to wallpaper rather than to cheaper paint.
+- **Large-format ceramic slabs are expensive mainly in labour**: on this project, 1×3 m slabs covered about half the area of the porcelain at roughly double the price, and the same inversion appears in the materials line.
+
+### A worked figure
+
+**Concealed / shadow-gap plinth on the 90 m² project: profiles 44,000 RUB (≈$690) + installation 72,000 RUB (≈$1,100) = ~116,000 RUB (≈$1,800).** She presents it deliberately and leaves the judgement to the viewer, noting it is small relative to the whole estimate.
+
+*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before the 2023-02-20 publish date (2022-08-20..2023-02-18, 125 samples, 63.8687 RUB/USD).* **Year confirmed (2023); location unresolved at level 1** — RUB pricing implies the Russian market but no city is named in the source, so per this project's standing rule the absolute figure is not directly comparable to its Belarus benchmarks. **The proportions above travel much better than this number.**
+
+### ⚠️ Her two lists — and they are the practical output
+
+**Real economy** (moves the budget materially):
+
+- Don't use plasterboard ceilings — **plaster the existing slab** and use surface-mounted fixtures, which she argues is both cheaper and aesthetically preferable.
+- Don't paint walls — wallpaper, or porcelain.
+- Don't use large-format above 120×60.
+- Don't use glued floor coverings — laminate or floating quartz-vinyl saves in both goods and labour.
+- Design caveat: **if the porcelain is a stone imitation, don't drop below ~120×45** — small stone-look formats look bad, so this economy only applies to non-stone designs.
+
+**Useless economy** (doesn't move the budget, but makes the result worse):
+
+- Plastic reveals instead of proper ones.
+- Giving up concealed doors — take them standard-height and paint-ready instead. **Concealed doors no longer cost more than ordinary ones.**
+- Cheap socket and switch finishes — the contribution is negligible, so buy the finish you want. (Her opening example: trading Schneider Merten for Atlas Design saves very little.)
+- Avoiding concealed mixers — **the labour to install one is not much more than surface-mounted**, measured against the cost of running the services, and budget concealed models exist.
+- Avoiding large mirrors — plain floor-to-ceiling mirrors are cheap relative to their effect.
+- Also negligible: **curtain making**, even at fabric category 5 and above.
+
+**On lighting specifically**: cutting spot count or LED strip runs saves very little; **track lighting is the heavy line.** On a plastered ceiling, **surface-mounted non-magnetic tracks** cut the budget substantially while keeping tracks.
+
+`single-account`, `unverified`, 2023 data, one studio, one project, self-reported. **The 24.5% figure is the only one she explicitly generalises across projects**; the rest come from this single case. Relative proportions age better than absolute figures, but even proportions shift as material prices move. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+
 ## 6. Detailed Case Studies
 
 - [[11_Budget_and_Planning/_supporting/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).

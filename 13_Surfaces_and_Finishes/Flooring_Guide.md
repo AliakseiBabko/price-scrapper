@@ -850,3 +850,16 @@ labor price premium. `single-account`. [source: [[11_Budget_and_Planning/_suppor
 - **⚠️ Material imitation as a deliberate, endorsed cost-saving choice, not a compromise to be ashamed of**: choosing quality laminate or quartz-vinyl instead of engineered wood board (or porcelain tile with a marble-look print instead of real marble, on the wall/tile side) is described as visually indistinguishable to most designers, even though tactile differences remain — framed as a legitimate design choice rather than a lesser one.
 
 Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
+
+## Never Bridge Laminate to a Wall With Cork or Sealant (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**⚠️ Do not close the perimeter gap between laminate and a wall — or between laminate and another floor material — with a cork expansion strip or with sealant.** She notes this **is written in laminate manufacturers' own technical sheets**, and that she receives consistent hostility for repeating it.
+
+**The mechanism and why the counter-evidence is misleading**: laminate shrinks and expands substantially, and **the failure may not appear in the first year.** Someone reporting success a month or two after moving in has not yet tested the claim — "вы на самом деле просто сделали хуже только себе, будущему." Regional variation (small seasonal temperature swings, low humidity variation, an older building) can make it survivable, but she puts the probability low enough not to plan around.
+
+**Scope**: "чем больше площадь, на которую вы положите этот герметик, тем хуже." A single small threshold strip under a door is survivable; a long run against a wall is not. Honour the technological expansion gap.
+
+`single-account`, `unverified`, but the claim is that it restates the manufacturer's own installation requirement, which is checkable against any laminate technical sheet.
+
+**Related cost note, same practitioner**: glued engineered board is the expensive floor finish (gluing to plywood costs more still), and **laminate or any floating covering is a genuine saving in both goods and labour** — one of the few reductions she rates as real rather than cosmetic. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+

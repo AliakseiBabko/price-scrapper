@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=QES02ExtmAg",
+  "video_id": "QES02ExtmAg",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T19:09:25.631322+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "6aa3072d385b417279031393206659ba41fe709ea82d825b04fd123c1e06d7d0",
+  "attempts_before_success": []
+}

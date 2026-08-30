@@ -517,6 +517,17 @@ edge of the opening) installations:
 
 **⚠️ A glass partition between a living room and bedroom can use switchable-opacity ("smart"/electrochromic-type) glass, distinct from every mechanism family already documented on this page**: transparent by default (letting light through and visually enlarging both spaces, since you can see through to the far room's own windows), with a button/switch that turns the glass opaque on demand for privacy — letting one occupant rest with full privacy while activity continues in the adjoining room, without needing a physical curtain, blind, or solid partition swap. A real installed example on this store's Kruglov/Ontario channel; no prior source on this page covers an opacity-switching glass mechanism (all prior content is aluminum/wood-frame slide-and-track hardware). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
 
+## Sliding Storage Frontage: Order It as a Partition, Not as a Wardrobe (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+This page treats ceiling-hung sliding systems as **room dividers**. The same hardware has a second use this vault had not recorded: **as the frontage of full-height storage.**
+
+- **⚠️ The procurement instruction, which is the actionable part**: for a floor-to-ceiling sliding storage front, **"вы обращаетесь не в столярную мастерскую и не заказываете шкаф-купе, а обращаетесь к перегородочникам."** Go to a partition contractor rather than a joinery shop. Modern partition systems **conceal the floor and ceiling rails**, so you get a full-height sliding front with no visible track and no applied structure, with shelving and hanging storage simply sitting behind it. Her framing: the sliding *mechanism* was never the problem with a шкаф-купе — the problem was the way it was traditionally delivered.
+- **⚠️ Co-planar systems ("компланарные системы открывания") as the other alternative.** Mechanism as she describes it: **both fronts sit flush in the closed position; to open, one front moves slightly forward and then travels parallel to the other; closing returns it flush.** Her caveat is specific — **not suitable for tall floor-to-ceiling wardrobes**; better on suspended TV units and similar lower runs.
+
+`single-account`, `unverified`. Directly relevant to this project's Phase 2 plan, where a ceiling-hung glass partition already divides a night zone from a day zone — the same contractor route and the same concealed-rail expectation apply if any storage frontage is wanted on the same principle.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]]
+
 ## Real Pricing (EUR, Region Unresolved)
 
 Holzberg, a single company, real turnkey quotes (2023-04-25 upload):

@@ -86,3 +86,14 @@ Pavel Sidorik, individual practitioner, own apartment: mounted the outdoor conde
 > The first kitchen-specific AC placement rule recorded for this store — the three general rules above were given for bedroom/living-room/kids-room contexts. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fSEPr5fpfPM_kitchen_stubouts_ac_fridge_niche_166|note]]]
 
 Zemsproekt / Zemstandart (Alexey Zemskov, with Sergey Saratov identified in the note) recommends **mounting over the entry doorway, never over a sofa (in a kitchen-living combo) and never over the cooking zone.** Reasoning by elimination across both alternatives: over a sofa in an open kitchen-living layout blows directly on whoever sits with their back to it while cooking; over the cooking zone conflicts with upper cabinets and blows on whoever sits on a nearby sofa. Over the doorway instead, the cold stream lands on open floor space, mixes with ambient warm air, and cools the room evenly with no one in the direct draft — independently the same doorway-placement outcome as the building-restriction fallback above, but reached here for a comfort reason specific to a kitchen's own layout, not an exterior-hardware restriction. **Coordinates**: centered on the vertical midpoint of the wall segment above the door (not flush to the ceiling — a named common installer mistake), centered horizontally on the doorway's own centerline (not the wall segment's centerline).
+
+## Never Conceal an Indoor Unit Behind a Perforated Panel (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+A Pinterest detail that fails for a specific and well-stated reason. "Ни один кондиционерщик вам не скажет, что это грамотное решение."
+
+- **⚠️ Primary mechanism — the unit's temperature sensor is on the unit, inside the enclosure.** Even with generously sized slots in the MDF panel, only part of the cooled air escapes into the room, so the air inside the cabinet is always colder than the room. **Set the unit to 18 °C, its minimum, and you get 18 °C inside the cabinet while the room sits at, say, 25 °C — and you are still hot.** The unit satisfies its own sensor and stops working the room.
+- **⚠️ Secondary mechanism — condensation.** The temperature differential across the panel produces condensate on both the unit body and the panel itself, and **mould follows within roughly a year to eighteen months of use.** Her stated end state is that the owner removes the panel anyway to get the unit working at all.
+- She notes that even a furniture maker will decline to endorse it, and advises checking with both the joiner and the AC installer before committing to the detail in a drawing.
+
+`single-account`, `unverified`, but the sensor-location mechanism is a straightforwardly checkable physical claim. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]]
+

@@ -93,3 +93,25 @@ door's simple hinge mechanism. `single-account`, `unverified`, Ontario
 ## A Note on the "Avoid Concealed Doors" Framing
 
 Worth flagging lightly rather than overclaiming: the concealed-door regret/hidden-cost content above is real and comes from businesses with real jobsite experience — but those same businesses also sell the alternative (classic doors), so the "avoid concealed doors" framing itself carries a mild structural interest, the same way a competing retailer's security-spec claims do in [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]]. This doesn't discredit the specific mechanisms described above (wall-prep prerequisite, fabrication tolerance, schedule impact are all concrete and checkable, not vague warnings) — but it's a reason to read the framing as "concealed doors have real, documented costs that are often undersold at the design stage," not as "concealed doors are a mistake," which is a stronger claim than the evidence supports.
+
+## Recessed Door Frame ("Утопленный короб") — With One Critical Constraint (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**⚠️ The detail**: the frame is set into the wall so that the small return wall (простенок) which a normally-mounted frame creates disappears, and the wall reads as continuous, with the finish flowing from one room into the next.
+
+**⚠️ The constraint, which she flags as very important: recess the frame on the *hinge* side only, never on the lock side** — otherwise the handle strikes the wall.
+
+Two further conditions: it works best visually with **floor-to-ceiling doors**, and it **must be drawn as a detail in advance**. This is not a decision that can be taken on site once the opening exists.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
+
+## A Second, Concealed Interior Door Inboard of the Entrance Door (added 2026-08-30)
+
+Not merely a revival of the old Soviet two-door entrance — SMBUREAU give two distinct rationales:
+
+- **Acoustic**: real sound insulation from the stairwell and neighbours.
+- **⚠️ Psychological, and this is the part worth recording**: proposed specifically for flats where the occupant spends long periods with the entrance group in view — her example is sitting on a sofa looking at the hall. Staring at a *front door* is subtly uncomfortable; **an interior door reads as "just another room" instead**, and she reports clients finding the space more relaxed as a result.
+
+Her nearest alternative if a second door is not wanted: an entrance door on **concealed hinges and a concealed frame with a code or biometric lock**. She notes the limit of that substitute — an entrance door inevitably carries far more visible hardware (locks, spyhole, handle) than an interior door, which needs only one restrained handle.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
+

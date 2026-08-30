@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=XGI6FS2ZdCc",
+  "video_id": "XGI6FS2ZdCc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T19:10:42.212947+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "babebe655bbfd6656e3d14912e14b515870253d325ae68a9618a4b9df69ed03c",
+  "attempts_before_success": []
+}

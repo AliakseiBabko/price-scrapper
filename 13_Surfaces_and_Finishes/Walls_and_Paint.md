@@ -819,3 +819,44 @@ St. Petersburg channel-level (level 2, not spoken directly in this video). Mediu
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wf3Eu3Yij68_sbk_wallpaper_selection_guide|wf3Eu3Yij68]]]
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gCI2qF34Dss_petrishin_drywall_mistakes_acceptance|YT_gCI2qF34Dss]]]
+
+## Reveals, Flush Junctions and Microcement (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+### Window and entrance-door reveals: paint them
+
+**⚠️ A reveal is not a traffic zone**, so ordinary paint is adequate — pick a **higher wash-durability class** if the window is often open and there is no supply ventilation. Plastic overlays are argued to be both ugly and largely useless.
+
+**⚠️ For entrance-door reveals the argument is asymmetric repair: damaged MDF has to be replaced; damaged paint is touched up.** Again a higher wear class of paint. If a client insists on something tougher:
+
+- **Microcement — and specifically the coarse-fraction kind.** They report trying to trim a slight excess at a corner with a knife on site and failing, because it sets that hard. (Fine-fraction microcement is the paint-like one, used where the wall should read as painted.)
+- **Slaked lime with marble chip** — a newer material she names as behaving similarly and performing well in traffic zones.
+- **If MDF is genuinely wanted, use a thin frame** around the reveal rather than wrapping the whole corner, optionally standing a couple of millimetres proud, in the wall colour or in veneer or stone.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+
+### Don't glue tile on top of an existing finish — leave the recess in advance
+
+**⚠️ Gluing porcelain over a finished wall leaves an exposed edge, and neither a metal edge profile nor plastering over it is a fix.** The correct approach is to **leave a recess in the plaster in advance**, so the tile sits **flush with the adjacent finish**, the two meeting in one plane through a П-profile. **The same applies to mirrors.**
+
+The consequence she draws is a scheduling one: this has to be raised with the builder **at the rough-plastering stage**, not later. Her attached framing is worth quoting, because it is the argument for caring about this class of detail at all — a designer interior is not one with red accents, a yellow sofa or a designer pendant, but "интерьер, который… продуман до мелочей."
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]]
+
+### Microcement over a heated wall — an application outside the bathroom
+
+Microcement is usually thought of as a bathroom material. **Her case is an entrance hall or utility block needing open storage** — hooks for a wet umbrella or a snow-covered coat — where the owner does not want a visually distinct material such as porcelain or panelling, but wants the wall to read as painted.
+
+- **Applied smooth, non-mottled and non-textured, microcement reads like paint and can be colour-matched to the wall paint**, while being genuinely water-resistant.
+- **A floor-heating mat can be laid beneath it to create a heated drying wall** — they did exactly this in a utility block, with hooks and rails for drying cloths.
+- Substrate preparation differs between floor and wall and must be discussed with the applicator specifically; with that done, microcement is argued to be fine in wet rooms and even public spaces.
+
+**Project note**: this project has decided against underfloor heating, but a heated *wall* in a utility or entrance zone is a different application and is not covered by that decision — flagged here, not assumed either way.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+
+### Selection criterion for microcement and decorative plaster
+
+**⚠️ The criterion is texture, not the material.** Smooth, calm, non-mottled, low-contrast, visually light textures stay current; **visually heavy, mottled, obtrusive textures start to irritate over time.** A usable selection rule rather than a verdict on the material as such.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]]
+

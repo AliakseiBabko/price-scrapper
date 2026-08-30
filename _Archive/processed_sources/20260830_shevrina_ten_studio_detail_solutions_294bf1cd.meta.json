@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=z4G-ocStu9o",
+  "video_id": "z4G-ocStu9o",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T19:08:08.589429+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "294bf1cddb053fddbeb9901c94a812b3e0ab058071398e8e8843bb170b2b2b3c",
+  "attempts_before_success": []
+}
