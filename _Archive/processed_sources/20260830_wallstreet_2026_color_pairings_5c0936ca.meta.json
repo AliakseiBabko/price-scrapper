@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=EipFPdVqNgs",
+  "video_id": "EipFPdVqNgs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T17:48:30.113287+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "5c0936ca4704f1198b185be1b32f8dc730d785b389fb4ac2550f7005432d273e",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=2__5Y0sLAxo",
+  "video_id": "2__5Y0sLAxo",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T17:45:57.004049+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "abed38e1b621880b3c232a243813727e30c061998e40d9501fdb491781da0670",
+  "attempts_before_success": []
+}

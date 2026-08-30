@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=D9NZROUB3ZI",
+  "video_id": "D9NZROUB3ZI",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T17:51:03.708334+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "90e143d8039da48df13535b90d6b8ff2fad342680aad98ae5ef927f813a44ca4",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=zF1YLMqIvNw",
+  "video_id": "zF1YLMqIvNw",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T17:47:13.903893+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ac37f0f04109339fe180207f81d972365e0ae8fecfb305230e9b704d3e42861a",
+  "attempts_before_success": []
+}
