@@ -17,7 +17,7 @@ Not rigid — adapt per system, since electrical, HVAC, and plumbing don't have 
 4. **Common Mistakes** — durable, checkable failure modes (not vague warnings).
 5. **Buying/Practical Guidance** — timing, warranty structure, vendor selection — where the source material supports it.
 6. **Quick Reference — Do's and Don'ts** — the existing table format, kept as-is where rows are still accurate, extended with new rows as more sources are processed. This is a summary/lookup aid, not the primary content anymore.
-7. **Source Notes** — list the archived sources (and, where they exist, the richer extraction notes in `11_Budget_and_Planning/_supporting/knowledge/sources/`) this page's content is built from, so a claim can be traced back to evidence.
+7. **Source Notes** — list the archived sources (and, where they exist, the richer extraction notes in `_Sources/`) this page's content is built from, so a claim can be traced back to evidence.
 
 ### Inline attribution when it can be confirmed — never a content-free "unconfirmed" note (corrected 2026-08-20)
 
@@ -118,7 +118,7 @@ When a page is going to be built up incrementally from many individual sources (
 
 ## Note from converting Electrical_and_Lighting.md
 
-Found a smaller version of the same gap that motivated this template in the first place: several genuinely useful facts (recessed-lighting/dimmer/switch-count guidance from WITALT, two-way-switch and bedroom-lighting rules from Prolife Invest) existed only in their source extraction notes under `11_Budget_and_Planning/_supporting/knowledge/sources/` — never promoted into the budgeting store's own Durable Facts/Rules sections, and therefore invisible to anyone not reading each extraction note individually. They're now in this page.
+Found a smaller version of the same gap that motivated this template in the first place: several genuinely useful facts (recessed-lighting/dimmer/switch-count guidance from WITALT, two-way-switch and bedroom-lighting rules from Prolife Invest) existed only in their source extraction notes under `_Sources/` — never promoted into the budgeting store's own Durable Facts/Rules sections, and therefore invisible to anyone not reading each extraction note individually. They're now in this page.
 
 ## Note from converting Plumbing_and_Waterproofing.md
 

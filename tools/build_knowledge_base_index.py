@@ -24,8 +24,8 @@ import sys
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from pricing.currency_converter import CurrencyConverter
-SOURCE_DIR = ROOT / "11_Budget_and_Planning" / "_supporting" / "knowledge" / "sources"
-STORE_DIR = ROOT / "11_Budget_and_Planning" / "_supporting" / "knowledge" / "intermediate" / "store"
+SOURCE_DIR = ROOT / "_Sources"
+STORE_DIR = ROOT / "_Knowledge" / "store"
 DEFAULT_DB = ROOT / "data" / "knowledge_base.db"
 SOURCE_ID = re.compile(r"(?:yt|web)_[A-Za-z0-9_-]+", re.IGNORECASE)
 FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)

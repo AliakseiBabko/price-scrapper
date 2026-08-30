@@ -5,42 +5,42 @@ First content on this page (previously an empty placeholder). Covers appliance/f
 ## 2026 Trend Appliances (added 2026-08-28)
 
 > [!NOTE]
-> From this channel's three 2026-trends videos (Round 8, videos 3-5) — cross-checked against each other for overlap before recording; the mixer-brand comparison is stated almost verbatim in two of the three sources and recorded once here. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f3EI72Nwemk_kruglov_best_kitchen_ideas_2026|YT_f3EI72Nwemk]]]
+> From this channel's three 2026-trends videos (Round 8, videos 3-5) — cross-checked against each other for overlap before recording; the mixer-brand comparison is stated almost verbatim in two of the three sources and recorded once here. [sources: [[_Sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]], [[_Sources/YT_f3EI72Nwemk_kruglov_best_kitchen_ideas_2026|YT_f3EI72Nwemk]]]
 
 - **⚠️ Steam-function oven** — a scaled-down home version of a professional combi-steamer (the type used in high-end restaurant kitchens), available at mid and premium price tiers (mid-tier is a real but compromised option; premium has no compromises). Named benefits: juicier/softer food, prevents over-drying, faster cooking, better baking, and — the source's own strongest claim — excellent specifically for *reheating* (a reheated slice of pizza reportedly comes out tasting/feeling freshly baked, versus visibly worse texture from a microwave).
 - **⚠️ Integrated-hood cooktop (venting built into the cooktop), a premium-segment answer to the no-upper-cabinets trend** (see [[03_Kitchen/analysis/Furniture_Facade_Materials|Furniture Facade Materials]] for that trend): once upper cabinets — and the wall that would normally carry a hood — are removed, an integrated-hood cooktop solves the "where does the hood go" problem. Requires the ventilation duct route planned well in advance, most often under the screed; these units are physically larger than a standard cooktop, so unsuitable for a small kitchen. **Named manufacturers**: Bora, Bosch, Miele, Smeg, Siemens, Elica.
 - **Food-waste disposer/grinder ("диспоузер")** — installs directly under the sink drain and grinds food waste before it reaches the trash. Benefits: eliminates odor buildup from trash sitting a day or two; reduces sewage-clog risk (waste is ground fine, not whole); genuinely useful during vegetable prep (peelings go straight down the drain); modern units run quietly. Activation: a water-flow sensor triggers grinding automatically, with a manual override button to force it off.
 - **⚠️ Two-in-one kitchen-mixer brand comparison, first named-brand mixer/faucet content for this store**: **Amikiria/Amikiriant** is the year's best-selling combined kitchen-faucet-plus-drinking-water-tap model with a pull-out flexible spout, but the source's own subjective critique flags two usability drawbacks — (1) re-docking the pull-out spout needs precisely finding a narrow metal alignment tube; (2) no stream-pattern adjustment. **Two named alternatives the source personally prefers**: **Aelsberg Venta (model IXF)** and **Sancas Mola/Imola** (Italian/Russian-branded, likely China-manufactured per the source's own observation) — both dock via magnet (no precise alignment needed) and both offer stream-pattern adjustment, useful for rinsing delicate produce. Explicit non-sponsorship disclaimer from the source.
 
-`single-account`, `unverified`. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f3EI72Nwemk_kruglov_best_kitchen_ideas_2026|YT_f3EI72Nwemk]]]
+`single-account`, `unverified`. [sources: [[_Sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]], [[_Sources/YT_f3EI72Nwemk_kruglov_best_kitchen_ideas_2026|YT_f3EI72Nwemk]]]
 
 ## Combined Oven+Microwave Unit — Small-Apartment Space-Saving Option (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
-**⚠️ A single appliance housing both an oven and a microwave**, saving the floor/wall space a separate built-in or countertop microwave would otherwise need. **Real tradeoff**: while the microwave function is in use, the oven function is unavailable (shared internal space/mechanism) — a genuine functional compromise, not just a footprint saving. **Cost note**: the combined unit costs roughly the same as a standalone oven alone — the added microwave function doesn't meaningfully raise the price. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EwI_ZoT3VTQ_kruglov_top11_small_apartment|YT_EwI_ZoT3VTQ]]]
+**⚠️ A single appliance housing both an oven and a microwave**, saving the floor/wall space a separate built-in or countertop microwave would otherwise need. **Real tradeoff**: while the microwave function is in use, the oven function is unavailable (shared internal space/mechanism) — a genuine functional compromise, not just a footprint saving. **Cost note**: the combined unit costs roughly the same as a standalone oven alone — the added microwave function doesn't meaningfully raise the price. `single-account`, `unverified`. [source: [[_Sources/YT_EwI_ZoT3VTQ_kruglov_top11_small_apartment|YT_EwI_ZoT3VTQ]]]
 
 ## Sink & Mixer Color Caution: Avoid Black (added 2026-08-28)
 
 > [!NOTE]
-> From the "useless kitchen items" checklist video. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
+> From the "useless kitchen items" checklist video. [source: [[_Sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
 
 - **⚠️ Avoid black sinks and black mixers/faucets, specifically for the Russian domestic-water context**: Russian tap water commonly carries mineral content (iron, etc.) that leaves visible mineral-deposit residue once the fixture air-dries; a black finish only looks clean immediately after hand-drying and reads as visibly dirty the rest of the time. Recommend a different (non-black) sink/mixer color for this reason.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
 
 ## Heated-Floor Thermostat Placement and Other Small Fixtures (added 2026-08-28)
 
 > [!NOTE]
-> From a real single-project kitchen walkthrough. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
+> From a real single-project kitchen walkthrough. [source: [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
 
 - **⚠️ Avoid mounting a heated-floor thermostat on the kitchen backsplash** — the backsplash is a kitchen's highest-demand real estate for outlets/small-appliance placement, and a heated floor has a real 2-3 hour thermal lag before warmth is felt anyway, so instant backsplash access provides no practical benefit. **Mount the thermostat on a wall away from the backsplash instead**, and use the thermostat's twice-daily schedule-programming capability rather than relying on immediate manual access. See [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Heated Floor and Thermostat]] for this store's general heated-floor/thermostat content.
 - **Hidden sponge-holder mount**: a sponge holder/clip mounted to the underside/front face of the sink lip itself, keeping it out of sight while still within reach.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
 
 ## "Whole Truth About Kitchens 2026" — Sink Mounting, Mixer Spray Modes, Appliance Budgeting (added 2026-08-28)
 
 > [!NOTE]
-> From this channel's densest kitchen video to date (~75 min) — cross-checked against this page's existing sink/mixer/appliance content and this round's own videos before recording anything below. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
+> From this channel's densest kitchen video to date (~75 min) — cross-checked against this page's existing sink/mixer/appliance content and this round's own videos before recording anything below. [source: [[_Sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
 
 - **⚠️ Sink-mounting three-tier framework, extending this round's own rimmed-sink caution with the full comparison**: **top-mount/rimmed (drop-in)** — cheapest, widest material/style range, fits any countertop, least modern, hardest to keep clean at the rim. **Undermount (glued from below, sometimes with added mechanical fixings)** — modern, easiest to sweep debris straight into the basin, but **only compatible with a countertop material that doesn't need edge-banding at the cutout** (rules out LDSP; works with quartz/acrylic/composite). **Fully integrated (monolithic, typically acrylic)** — easiest to clean, best aesthetics, highest cost.
 - **Sink shape preference reinforced across a third independent source**: round sinks are the clear "outsider" (can't properly wash a baking tray/rack); rectangular or square is the only recommended shape.
@@ -51,18 +51,18 @@ First content on this page (previously an empty placeholder). Covers appliance/f
 - **⚠️ Appliance-budget framing, converted example**: cabinetry and appliance costs are separate, comparably-sized budget lines — the source's own worked example: **≈300,000 RUB (≈$3,700)** cabinetry paired with **≈1,000,000 RUB (≈$12,400)** of appliances for the same kitchen — budget for appliances as a distinct, potentially larger line item, not an afterthought.
 - **Service-tier distinction**: economy-tier kitchens are typically self-service (modular/prefab order, DIY assembly, or a high-volume showroom order); comfort/premium include a dedicated personal design/technical manager guiding the full specification.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
 
 ## Price Data Points: Disposer, Flexible-Spout Mixer, Integrated Sink (2023 vs. 2025, added 2026-08-28)
 
 > [!NOTE]
-> From a 2023 real-project video by a different on-camera presenter (Nikita Kuznetsov) on the same Ontario channel — earlier price points than this round's own `FdJLbYEpViU` (2025), recorded as a price-evolution data point across roughly two years rather than a disagreement. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
+> From a 2023 real-project video by a different on-camera presenter (Nikita Kuznetsov) on the same Ontario channel — earlier price points than this round's own `FdJLbYEpViU` (2025), recorded as a price-evolution data point across roughly two years rather than a disagreement. [source: [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
 
 - **⚠️ Food-waste disposer price at time of this (2023) recording: starting from ≈10,000 RUB (≈$110)** — considerably lower than this round's own `FdJLbYEpViU` (2025 recording, ≈30,000-40,000 RUB/≈$370-490) — a plausible price-rise data point across roughly two years, not a disagreement.
 - **⚠️ Flexible-spout mixer price: starting from ≈4,000 RUB (≈$40)** — a concrete entry price point for this store's existing flexible-spout-mixer recommendation.
 - **⚠️ Integrated same-material sink price add-on: ≈25,000 RUB (≈$270)** added to the countertop cost for a seamless same-material integrated sink.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
 
 ## Refrigerator Selection (see dedicated page, added 2026-08-28)
 
@@ -71,7 +71,7 @@ First content on this page (previously an empty placeholder). Covers appliance/f
 > economics, price/brand tiers) is routed to the dedicated, previously-empty
 > [[15_Appliances/Kitchen_Refrigerators|Kitchen Refrigerators]] category page rather than
 > duplicated here — that page already existed as a reserved category-page stub for exactly this
-> kind of content. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|YT_FmGVmt2RH1c]]]
+> kind of content. [source: [[_Sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|YT_FmGVmt2RH1c]]]
 
 ## Dishwasher Selection (see dedicated page, added 2026-08-28)
 
@@ -81,14 +81,14 @@ First content on this page (previously an empty placeholder). Covers appliance/f
 > [[15_Appliances/Kitchen_Dishwashers|Kitchen Dishwashers]] category page rather than
 > duplicated here. This store's existing dishwasher *placement/sizing-in-context* content
 > (the 45cm small-kitchen compromise, sink-adjacency rules) stays on `Kitchen_Furniture.md` —
-> distinct scope from this buying-guide content. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|YT_10sNVkAEATw]]]
+> distinct scope from this buying-guide content. [source: [[_Sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|YT_10sNVkAEATw]]]
 
 ## Oven Selection Criteria (added 2026-08-28)
 
 > [!NOTE]
 > This channel's first dedicated general oven buying-guide video for this store — cross-checked
 > against this page's and `Kitchen_Furniture.md`'s existing oven/microwave content before
-> recording. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AOlNxAlI0So_kruglov_how_to_choose_oven_2026|YT_AOlNxAlI0So]]]
+> recording. [source: [[_Sources/YT_AOlNxAlI0So_kruglov_how_to_choose_oven_2026|YT_AOlNxAlI0So]]]
 
 - **Exclusions**: gas ovens (worse temperature precision, fewer modes, worse safety); 45cm
   "compact" ovens (a compact oven's usable area is roughly an A4-sheet footprint — in ~90% of
@@ -163,19 +163,19 @@ First content on this page (previously an empty placeholder). Covers appliance/f
   the identical factory unit under the IVA brand — the source states it cannot explain the
   mechanism behind this roughly 2x brand-name price gap.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AOlNxAlI0So_kruglov_how_to_choose_oven_2026|YT_AOlNxAlI0So]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_AOlNxAlI0So_kruglov_how_to_choose_oven_2026|YT_AOlNxAlI0So]]]
 
 ## Source Notes
 
-- **10 Key Kitchen Trends for 2026** (2026-01-23, added 2026-08-28) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|extraction note]].
-- **The Best Kitchen Ideas of 2026: Top 10 Tricks** (2026-01-04, added 2026-08-28) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f3EI72Nwemk_kruglov_best_kitchen_ideas_2026|extraction note]].
-- **Top Solutions for a Modern Kitchen** (2025-01-24, added 2026-08-28, Round 9 video 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|extraction note]].
-- **ВСЯ ПРАВДА О КУХНЯХ 2026** (2025-09-13, added 2026-08-28, Round 9 video 4) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|extraction note]].
-- **TOP 10 Popular Kitchen Renovation Mistakes** — disposer/mixer/sink price data points (presenter Nikita Kuznetsov, 2023-11-08, added 2026-08-28, Round 9 video 5) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|extraction note]].
+- **10 Key Kitchen Trends for 2026** (2026-01-23, added 2026-08-28) — [[_Sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|extraction note]].
+- **The Best Kitchen Ideas of 2026: Top 10 Tricks** (2026-01-04, added 2026-08-28) — [[_Sources/YT_f3EI72Nwemk_kruglov_best_kitchen_ideas_2026|extraction note]].
+- **Top Solutions for a Modern Kitchen** (2025-01-24, added 2026-08-28, Round 9 video 3) — [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|extraction note]].
+- **ВСЯ ПРАВДА О КУХНЯХ 2026** (2025-09-13, added 2026-08-28, Round 9 video 4) — [[_Sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|extraction note]].
+- **TOP 10 Popular Kitchen Renovation Mistakes** — disposer/mixer/sink price data points (presenter Nikita Kuznetsov, 2023-11-08, added 2026-08-28, Round 9 video 5) — [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|extraction note]].
 
-- **How to Choose an Oven in 2026** (2026-03-13, added 2026-08-28, Round 10 video 2) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AOlNxAlI0So_kruglov_how_to_choose_oven_2026|extraction note]].
-- **Which Refrigerator Should You Buy in 2026?** (2026-02-27, added 2026-08-28, Round 10 video 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|extraction note]]. Full content routed to `15_Appliances/Kitchen_Refrigerators.md`; only a cross-reference pointer kept here.
-- **How to Choose a Dishwasher in 2026?** (2026-02-20, added 2026-08-28, Round 10 video 4) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|extraction note]]. Full content routed to `15_Appliances/Kitchen_Dishwashers.md`; only a cross-reference pointer kept here.
+- **How to Choose an Oven in 2026** (2026-03-13, added 2026-08-28, Round 10 video 2) — [[_Sources/YT_AOlNxAlI0So_kruglov_how_to_choose_oven_2026|extraction note]].
+- **Which Refrigerator Should You Buy in 2026?** (2026-02-27, added 2026-08-28, Round 10 video 3) — [[_Sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|extraction note]]. Full content routed to `15_Appliances/Kitchen_Refrigerators.md`; only a cross-reference pointer kept here.
+- **How to Choose a Dishwasher in 2026?** (2026-02-20, added 2026-08-28, Round 10 video 4) — [[_Sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|extraction note]]. Full content routed to `15_Appliances/Kitchen_Dishwashers.md`; only a cross-reference pointer kept here.
 
 ## Change Log
 

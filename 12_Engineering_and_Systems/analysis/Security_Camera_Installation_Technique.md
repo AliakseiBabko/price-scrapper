@@ -1,6 +1,6 @@
 # Security Systems — Camera Installation Technique
 
-Detail page for [[12_Engineering_and_Systems/analysis/Security_Systems|Security Systems]]. Sources: Vasily Tarasov (Ucam / Системы видеонаблюдения, CCTV-kit retailer/installer) and Рабочая Молодежь (a real personal DIY project — a woodworking-workshop camera install). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qymq81j2wJ0_tarasov_camera_system_diy_install|Qymq81j2wJ0]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_aD0piOY523I_rabochaya_molodezh_camera_system_diy_simple|aD0piOY523I]]]
+Detail page for [[12_Engineering_and_Systems/analysis/Security_Systems|Security Systems]]. Sources: Vasily Tarasov (Ucam / Системы видеонаблюдения, CCTV-kit retailer/installer) and Рабочая Молодежь (a real personal DIY project — a woodworking-workshop camera install). [source: [[_Sources/YT_Qymq81j2wJ0_tarasov_camera_system_diy_install|Qymq81j2wJ0]]] [source: [[_Sources/YT_aD0piOY523I_rabochaya_molodezh_camera_system_diy_simple|aD0piOY523I]]]
 
 ## DVR-Based Coax System (Vasily Tarasov / Ucam)
 

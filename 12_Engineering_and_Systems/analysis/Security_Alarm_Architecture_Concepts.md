@@ -1,6 +1,6 @@
 # Security Systems — Alarm Architecture Concepts
 
-Detail page for [[12_Engineering_and_Systems/analysis/Security_Systems|Security Systems]]. Source: Винтошпунт, a general "we film everything" content channel — a single-installation showcase of a Pima Force alarm system. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jNGss4BSnLQ_vintoshpunt_pima_force_alarm_mechanism|jNGss4BSnLQ]]]
+Detail page for [[12_Engineering_and_Systems/analysis/Security_Systems|Security Systems]]. Source: Винтошпунт, a general "we film everything" content channel — a single-installation showcase of a Pima Force alarm system. [source: [[_Sources/YT_jNGss4BSnLQ_vintoshpunt_pima_force_alarm_mechanism|jNGss4BSnLQ]]]
 
 > [!WARNING]
 > **This source's entire framing is high-promotion for a specific product** — explicitly billed as "one of the best security systems in the world." That superlative claim is the channel's own marketing framing, not verified or extractable as fact, and is not adopted here. **Only the general, brand-agnostic architecture concepts the installation demonstrates are recorded below** — Pima-Force-specific product/model claims are deliberately excluded from this page's prose.

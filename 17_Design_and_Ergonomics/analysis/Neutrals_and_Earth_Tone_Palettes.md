@@ -22,7 +22,7 @@ Her mechanism, and it is a real one:
 - Each of those carries a **подтон** that is hard to read by eye and that **shifts with lighting and time of day**.
 - **There is no brightness to hide a подтон error behind.** "Спрятаться за яркостью цвета здесь не получается."
 
-So an undertone error in a muted palette reads immediately as flat and dirty, and this is why "именно из таких палитр чаще всего получаются скучные бежевые интерьеры." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|YT_n5ZBqdq0wH8]]]
+So an undertone error in a muted palette reads immediately as flat and dirty, and this is why "именно из таких палитр чаще всего получаются скучные бежевые интерьеры." [source: [[_Sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|YT_n5ZBqdq0wH8]]]
 
 The practical answer to this is on the companion page: **physically juxtapose every sample** rather than judging them separately (Школа дизайна Маши Черной), and **pick one to two tones lighter than the fan-deck chip suggests**. See [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]].
 
@@ -46,7 +46,7 @@ The practical answer to this is on the companion page: **physically juxtapose ev
 
 **Trend trajectory (dated, treat as time-bound)**: started as classic терракота and охра, added оливковый and сливовый, and is now moving toward **"Earthy Vibrancy"** — a more saturated version with complex blues, deep ochres and faded yellows. She notes the palette is expanding faster than its mental image is settling, which is itself the reason people picture it too narrowly.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|YT_n5ZBqdq0wH8]]]
+[source: [[_Sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|YT_n5ZBqdq0wH8]]]
 
 ### How far apart to space the shades
 
@@ -57,7 +57,7 @@ The practical answer to this is on the companion page: **physically juxtapose ev
 - **⚠️ Her own stated control variable, and the most reusable line here**: "я слежу за растяжкой по светлоте больше, чем за конкретным цветом, и ограничиваю их количество." Concretely — **take two or three colours from the palette and generate variety through lightness spread and texture, not by adding more hues.**
 - **Dark and dramatic works well in this palette**: **глубокий коричневый works softer and warmer than тёмно-серый**, giving saturation without coldness. If the space starts "проваливаться," add a light shade to lift the warm tones and return air.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|YT_n5ZBqdq0wH8]]]
+[source: [[_Sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|YT_n5ZBqdq0wH8]]]
 
 ### Materials are load-bearing, not decoration
 
@@ -71,9 +71,9 @@ The practical answer to this is on the companion page: **physically juxtapose ev
 
 ### What it is
 
-**Vittoria Selina** gives the definitions: **"бежевый"** is the French term for undyed natural wool fabric; **"экрю"** (écru), one step lighter, is the French term for unbleached linen or silk. Both are fundamentally natural, unprocessed colours; natural referents are wheat, stone surfaces, sand. **Терракота** she defines as brown plus red, from *terra* = earth. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
+**Vittoria Selina** gives the definitions: **"бежевый"** is the French term for undyed natural wool fabric; **"экрю"** (écru), one step lighter, is the French term for unbleached linen or silk. Both are fundamentally natural, unprocessed colours; natural referents are wheat, stone surfaces, sand. **Терракота** she defines as brown plus red, from *terra* = earth. [source: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
 
-**Школа дизайна Маши Черной** attributes beige's durability to the same naturalness — a warm natural colour with direct referents (sand, sun) that lets a person relax at home — and addresses the "простенький, бежевенький" dismissal head-on, pointing out that beige-brown interiors were current before and still appear in well-worked contemporary ones. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zF1YLMqIvNw_masha_chernaya_beige_vs_gray|YT_zF1YLMqIvNw]]]
+**Школа дизайна Маши Черной** attributes beige's durability to the same naturalness — a warm natural colour with direct referents (sand, sun) that lets a person relax at home — and addresses the "простенький, бежевенький" dismissal head-on, pointing out that beige-brown interiors were current before and still appear in well-worked contemporary ones. [source: [[_Sources/YT_zF1YLMqIvNw_masha_chernaya_beige_vs_gray|YT_zF1YLMqIvNw]]]
 
 ### ⚠️ What a *base* / neutral beige is — the page's most reusable definition
 
@@ -83,11 +83,11 @@ The practical answer to this is on the companion page: **physically juxtapose ev
 - **Temperature-neutral.** A beige leaning yellow ("оттенок сливочного масла") is beautiful but has predispositions — it will *not* take everything, and specifically won't take a cool light blue, though it will take a warmer one. A genuinely neutral beige is "и не тёплый, и не холодный," and that is what makes "к нему и синий, и зелёный, и красные, и жёлтый — всё должно подходить."
 - **Named products she says she has used repeatedly on real objects**: Little Greene **Clay 39**, **Rolling Fog 143**, and **Rolling Fog Dark 160** — the last described as a beige-grey and her most-used neutral. `single-account`. **The catalogue numbers came through auto-generated captions and should be re-verified against the manufacturer before ordering paint**; the shade names are the reliable part.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
+[source: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
 
 ### ⚠️ Beige and grey walls flatter objects better than white does
 
-**Vittoria Selina**, with a stated mechanism: against pure white a coloured object is just "предмет и предмет," whereas "**именно вот такие оттенки серого и бежевого создают тени для этих предметов**," so the same object reads richer and more deliberate. She frames white walls as a photography backdrop rather than an interior decision. Applies equally to grey. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
+**Vittoria Selina**, with a stated mechanism: against pure white a coloured object is just "предмет и предмет," whereas "**именно вот такие оттенки серого и бежевого создают тени для этих предметов**," so the same object reads richer and more deliberate. She frames white walls as a photography backdrop rather than an interior decision. Applies equally to grey. [source: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
 
 ### Path 1 — A fully beige interior, no colour at all
 
@@ -97,9 +97,9 @@ The practical answer to this is on the companion page: **physically juxtapose ev
 2. **⚠️ Texture difference is mandatory, and is the actual source of volume.** Named combination: painted wall + linen curtains + velvet sofa = three materials, three tones, three textures. **Explicit instruction not to place velvet chairs next to a velvet sofa** — vary рогожка, бархат, букле, хлопок across pieces. "Множество фактур в интерьере — это всегда выигрышный вариант."
 3. **⚠️ No coloured decor on this path.** Permitted: natural-toned ceramics, white clay pots, wooden trays/stands/salad bowls, and **clear uncoloured glass and crystal**. Refinement she stresses: use glass with *varied* relief, ribbing and pattern rather than just plain clear, and use it in quantity — the same "several different shades" logic applied to the glass. **Brass** is the single addition she says most raises the perceived level; **wood** second.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
+[source: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
 
-**A related warm-monochrome variant from Студия Wall Street / Виктор**: coffee tones plus natural wood (табачный, какао, песочный, жжёный сахар, дуб, орех, венги) are claimed not to conflict internally, so **three to five of them can run together** — with an explicit instruction *not* to match exactly: "смело миксуйте: венги плюс выбеленный дуб, песок плюс орех. Вот это придаёт интерьеру глубину." Reinforce with textured fabric (лён, шерсть, шенилл). Same principle as Vittoria Selina's rule 1, applied to a browner range. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EipFPdVqNgs_wallstreet_2026_color_pairings|YT_EipFPdVqNgs]]]
+**A related warm-monochrome variant from Студия Wall Street / Виктор**: coffee tones plus natural wood (табачный, какао, песочный, жжёный сахар, дуб, орех, венги) are claimed not to conflict internally, so **three to five of them can run together** — with an explicit instruction *not* to match exactly: "смело миксуйте: венги плюс выбеленный дуб, песок плюс орех. Вот это придаёт интерьеру глубину." Reinforce with textured fabric (лён, шерсть, шенилл). Same principle as Vittoria Selina's rule 1, applied to a browner range. [source: [[_Sources/YT_EipFPdVqNgs_wallstreet_2026_color_pairings|YT_EipFPdVqNgs]]]
 
 ### Path 2 — Beige as a base for colour
 
@@ -110,7 +110,7 @@ The practical answer to this is on the companion page: **physically juxtapose ev
 - **Beige + yellow + greenery** — read explicitly as Italian; add clay and terracotta, keep the walls beige and the yellow in details (curtain trim, beading, decor), and use "очень много растений."
 - **Beige + violet (краплак) + warm green** — violet velvet sofa, rogozhka chairs in краплак, a green pendant on a black cord. Her stated mechanism for why it stays warm despite violet being cool: the green chosen has yellow in it and the beige is the neutral one, so "фиолетовый приобретает немного даже нейтральность."
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
+[source: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
 
 ---
 
@@ -148,7 +148,7 @@ She deliberately declines to give fixed pairings — "вряд ли сейчас
 
 **Taupe defined**: "серо-коричневый с элементами какой-то лиловой гаммы" — the grey-beige mix she says most contemporary interiors are actually running.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zF1YLMqIvNw_masha_chernaya_beige_vs_gray|YT_zF1YLMqIvNw]]]
+[source: [[_Sources/YT_zF1YLMqIvNw_masha_chernaya_beige_vs_gray|YT_zF1YLMqIvNw]]]
 
 ---
 
@@ -167,7 +167,7 @@ Note also that they are describing different tasks. Vittoria Selina is choosing 
 
 **Your priority.** Not yet decided. The practical reconciliation both would accept: **treat any named shade — including the three above — as a candidate to test, never as a specification.** The deciding step is the same either way: buy the sample pot, paint it on your own wall, and expect two or three iterations.
 
-[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_b5oeFxmaubI_shevrina_no_perfect_white|YT_b5oeFxmaubI]]]
+[sources: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]], [[_Sources/YT_b5oeFxmaubI_shevrina_no_perfect_white|YT_b5oeFxmaubI]]]
 
 ## Independent Corroboration: Neutrals Really Are the Hardest (added 2026-08-30)
 
@@ -179,7 +179,7 @@ Two unrelated practitioners, reaching the same counter-intuitive conclusion by d
 
 **⚠️ And a named failure mode for one of this vault's own rules.** Shevrina diagnoses where yellow walls come from: people want a beige or warm-white interior and overshoot, **because of the long-standing advice that a north-facing, low-sun room should be painted a warmer, yellower colour** — which they then apply too heavily. That advice is on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]] as ARCHWOOD's orientation rule ("choose a shade slightly warmer than the one you actually want"). **This is not a contradiction of that rule — it is a caution about its failure mode**, and the mitigation she offers is the obvious one: gather references, and compare your выкрас on your own wall against them side by side rather than warming the shade by eye.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
+[source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
 
 ## White Is Not a Safe Default
 
@@ -189,12 +189,12 @@ Two unrelated practitioners, reaching the same counter-intuitive conclusion by d
 - **The same cool white under warm artificial lighting produces "желтоватый хаос."**
 - **His recommendation for a genuinely clean read: молочный or ivory rather than a pure white.**
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
+[source: [[_Sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
 
 Corroborated from two other directions in the same batch:
 
-- **ARCHWOOD / Марина Измайлова** prescribes a warm or milky white specifically for north-facing rooms, where the grey filter makes any white read dirtier. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|YT_AKxOtRhIcJY]]]
-- **Vittoria Selina** prescribes a warm-white / экрю ceiling paint rather than a pure white one whenever the walls are coloured or dark — see the ceiling section on [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]]. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
+- **ARCHWOOD / Марина Измайлова** prescribes a warm or milky white specifically for north-facing rooms, where the grey filter makes any white read dirtier. [source: [[_Sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|YT_AKxOtRhIcJY]]]
+- **Vittoria Selina** prescribes a warm-white / экрю ceiling paint rather than a pure white one whenever the walls are coloured or dark — see the ceiling section on [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]]. [source: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]]]
 
 **Note the counter-position**, from the ARCHWOOD low-light section already on [[17_Design_and_Ergonomics/analysis/Color_Palette_and_Material_Direction|Colour Palette & Material Direction]]: for a genuinely dark room she prescribes **the brightest white in a paint line, or one shade brighter than usual**, paired with saturated accents — the opposite of the warm-white advice, and scoped specifically to low natural light rather than to north orientation.
 
@@ -212,7 +212,7 @@ Corroborated from two other directions in the same batch:
 
 > **Practical instruction: choose a ready-made complex base colour from a manufacturer's own collection, rather than tinting to a code out of a simplified catalogue.**
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|YT_AKxOtRhIcJY]]]
+[source: [[_Sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|YT_AKxOtRhIcJY]]]
 
 This is the same underlying idea as **Anuta Vlady's** припылённый/чистый distinction and **Студия Wall Street's** muted-complementary rule, from a manufacturing rather than a pairing angle — see [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]].
 

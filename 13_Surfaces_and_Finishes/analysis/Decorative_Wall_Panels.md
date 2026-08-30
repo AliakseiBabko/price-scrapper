@@ -13,7 +13,7 @@ Per Konstantin Kruglov/Ontario: decorative panels ("декоративные с�
 decorative effect. They hide substrate unevenness, add volume/character/style,
 create an accent zone (e.g. behind a bed, a TV zone, or an entryway), and
 protect walls from mechanical damage (chairs, bags, clothing) in high-traffic
-areas. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
+areas. [source: [[_Sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
 
 ## Classification axes (beyond material)
 
@@ -36,7 +36,7 @@ material:
   painted, finished with a spline/fillet ("шпонка"), or left unfinished (e.g.
   acoustic panels, where the visible gap exposes the acoustic-felt backing).
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
+[source: [[_Sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
 
 ## Material comparison
 
@@ -56,7 +56,7 @@ source's company has actually encountered on real jobs or estimates:
 | **Bamboo** | Unclear — too new to have a track record | — | — | Newly popularizing, imitates wood/metal/leather/marble/fabric facings; not yet widely available even in Moscow | Durability claims not yet trustworthy — compare to how quartz-vinyl flooring entered this market before establishing a track record |
 | **Concrete / cement-composite** | Unclear — rarely used | — | — | Exclusive/expensive niche option | Performance characteristics still not well understood in practice |
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
+[source: [[_Sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
 
 ## Selection rules
 
@@ -86,7 +86,7 @@ Per Kruglov/Ontario, five stated tips plus one closing general-advice point:
    for heavier/fragile materials (gypsum) and precise flexible-panel curve
    work.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
+[source: [[_Sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|YT_qzi1LqwsP5k]]]
 
 ## Installation Technique — A Real Worked Case (Polyurethane/Durapolymer Panels)
 
@@ -110,17 +110,17 @@ existing "Polyurethane / thermoplastic polymer" material row above).
   matching baseboard (durapolymer) was painted *before* installation, then
   joint-glued and puttied the same way.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gWAOrislxFY_timremont_bedroom_a_to_z|YT_gWAOrislxFY]]]
+[source: [[_Sources/YT_gWAOrislxFY_timremont_bedroom_a_to_z|YT_gWAOrislxFY]]]
 
 ## Source Notes
 
 - **Full material taxonomy, classification axes, and five selection rules**
   (Konstantin Kruglov/Ontario, self-promotional Moscow renovation-company
   channel, `single-account`, no price figures or case-study numbers in this
-  source) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|extraction note]].
+  source) — [[_Sources/YT_qzi1LqwsP5k_kruglov_decorative_wall_panels|extraction note]].
 - **Durapolymer/polyurethane panel installation technique and two named
   mistakes** (TimRemont, own bedroom project, region not stated) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gWAOrislxFY_timremont_bedroom_a_to_z|extraction note]].
+  [[_Sources/YT_gWAOrislxFY_timremont_bedroom_a_to_z|extraction note]].
 
 ## Change Log
 

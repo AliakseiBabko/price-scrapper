@@ -27,6 +27,6 @@ Central hub for project guides, budgeting, and room specifications.
 - [[00_Master/Dos_and_Donts_Master_Summary|Do's and Don'ts Master Summary]]
 - [[11_Budget_and_Planning/Budgeting_Guide|Master Budgeting Guide]]
 - [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]]
-- [[11_Budget_and_Planning/_supporting/analysis/Revit_AutoCAD_Integration_Strategy|Revit & AutoCAD Integration Strategy]]
+- [[00_Master/Revit_AutoCAD_Integration_Strategy|Revit & AutoCAD Integration Strategy]]
 - [[16_Legal_and_Regulations/Legal_and_Regulations_Guide|Legal & Regulations (Belarus)]]
 - [[17_Design_and_Ergonomics/Design_and_Ergonomics_Guide|Design & Ergonomics]]

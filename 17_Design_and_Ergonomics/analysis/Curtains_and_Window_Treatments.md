@@ -31,7 +31,7 @@ genuinely unrelaxing, while soft diffused light is comfortable to occupy
 filter would. BOROSA GROUP frames the same idea structurally, naming six
 distinct treatment types (drapes, Roman blinds, roller blinds,
 louvered blinds, pleated shades, sheers) each suited to a different
-light-control/visibility goal rather than one default choice. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
+light-control/visibility goal rather than one default choice. [source: [[_Sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]], [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
 
 ## Light Control: Layering, Fabric Choice, and Material Vocabulary
 
@@ -47,7 +47,7 @@ supplies the precise material vocabulary underneath this: **"blackout"
 fabric has an acrylic light-reflective coating that fully blocks
 sunlight**, usable on drapes, Roman blinds, or roller blinds alike;
 **"dimout" fabric blocks roughly 70-90% of light** (varying with curtain
-length) for when full blackout isn't needed. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
+length) for when full blackout isn't needed. [source: [[_Sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]], [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
 
 Reflected light from outside also matters, per Хихол: the color of
 nearby exterior surfaces (a gray building, a neighbor's red roof,
@@ -69,7 +69,7 @@ GROUP calls it "pseudo-luxury" that cheapens an interior). For a
 curtain intended to lie or touch the floor precisely, BOROSA GROUP
 recommends the opposite tradeoff — a dense-weave **synthetic or blended**
 fabric specifically, since natural-fiber content is more vulnerable to
-humidity-driven dimensional change at that precision. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
+humidity-driven dimensional change at that precision. [source: [[_Sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
 
 ## Color and Pattern: Four Matching Techniques, a Shared 60/30/10 Formula
 
@@ -90,7 +90,7 @@ or when the room already has enough color accents; match a textile
 element (sofa, rug) when the room is calm/neutral and needs a bit more
 mood — with an explicit downstream caution that replacing that furniture
 later will likely force replacing the curtains too, since they were
-matched to it specifically. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
+matched to it specifically. [source: [[_Sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
 
 **Pattern scale should match room size** ("Заметки Дизайнера интерьера"):
 large-scale, many-colored prints suit spacious rooms; small-scale,
@@ -119,7 +119,7 @@ same proportion-correction goal through a *different* mechanism — fabric
 "presses" a long room's far wall closer, and heavy fabric like velvet is
 explicitly not recommended for small rooms (it reads as visually
 oppressive there) but can suit a light, minimal interior with oversized
-windows if used sparingly. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]]]
+windows if used sparingly. [source: [[_Sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]], [[_Sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]]]
 
 ## Construction Technique: Pleats, Lining, and Width Calculation
 
@@ -139,7 +139,7 @@ headers.** Alla Krol's real client anecdote (a 150,000+ RUB smeta gap
 between two quotes) independently corroborates that gather ratio is a
 genuine, checkable cost driver, not arbitrary markup — she notes a bare
 1:1 gather (no extra fullness) is essentially unused by quality decorators
-today. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]]]
+today. [source: [[_Sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]], [[_Sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]]]
 
 ## Curtain Length: Four Regimes and a Motorized-Track Mechanism
 
@@ -168,7 +168,7 @@ mechanism explanation in this batch:
 
 A 2-3cm floor clearance is named as one of the most common practical
 choices across both sources, and a 5-10+cm gap above the floor is
-explicitly named as a mistake rather than a deliberate style. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
+explicitly named as a mistake rather than a deliberate style. [source: [[_Sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
 
 ## Rod/Track Selection, Placement, and Motorization
 
@@ -197,7 +197,7 @@ BOROSA GROUP, corroborating); a single-window room typically gets a
 wall-to-wall/corner-to-corner rod. Motorized tracks can be controlled by
 switch, remote, phone app, or voice assistant, and can be scheduled to
 open/close automatically (an "alarm clock" pattern named by both Alla
-Krol and BOROSA GROUP). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]]]
+Krol and BOROSA GROUP). [source: [[_Sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]], [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]], [[_Sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]]]
 
 **A separate, real failure-prevention detail from Alla Krol**: whatever
 track material is chosen, a wooden blocking strip must be embedded in the
@@ -212,7 +212,7 @@ radiator positioned under the window, so the curtain doesn't contact it;
 **≥30cm niche depth** to conceal a wall-mounted AC unit behind drapes
 without a visible bulge. BOROSA GROUP adds a distinct HVAC-interaction
 caution: curtains should never cover an **in-floor convector**, so heat
-reaches the room instead of being trapped behind the fabric. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
+reaches the room instead of being trapped behind the fabric. [source: [[_Sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]], [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|XziSlSDeKM0]]]
 
 ## Fabric Selection and Handling Technique
 
@@ -224,7 +224,7 @@ table), so match the fabric's undertone against the room's own
 wall-color undertone under real light. Her cautionary anecdote: an
 expensive fabric (~25,000 RUB) shrank ~10cm after laundering — know a
 fabric's actual care requirements before committing to an expensive
-curtain. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]]]
+curtain. [source: [[_Sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]]]
 
 ## A Physiological Color-Preference Test (Ирина Хихол)
 
@@ -237,7 +237,7 @@ with introversion and a preference for muted colors and subtler
 textures/patterns. **Recorded as the source's own claimed
 psychological-typing method, not independently validated here** — a
 genuinely specific, checkable, reusable decision tool worth recording
-regardless of the underlying psychological claim's validity. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]]]
+regardless of the underlying psychological claim's validity. [source: [[_Sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]]]
 
 ## Function Beyond Decoration
 
@@ -249,7 +249,7 @@ overheating. "Заметки Дизайнера интерьера" separately n
 serve a real psychological privacy/personal-space function in dense
 residential complexes, beyond their decorative role — worth analyzing the
 actual view through a window (attractive views merit emphasis; poor ones
-merit obscuring) before choosing a treatment. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]]]
+merit obscuring) before choosing a treatment. [source: [[_Sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|ze87vOi2qrQ]], [[_Sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]]]
 
 ## Aesthetic Restraint
 
@@ -259,7 +259,7 @@ at once) with restrained, "dosed" texture use, analogized to a
 well-dressed person needing no excess to read as elegant; "Заметки
 Дизайнера интерьера" makes the identical point with a different analogy
 — a little black dress reading as more elegant than an ornate ball gown.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]]]
+[source: [[_Sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|QnSnO8bVeNs]], [[_Sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|_F7HqN0-HyQ]]]
 
 ## Kruglov/Ontario: Mistakes-Focused Practical Add-Ons
 
@@ -304,11 +304,11 @@ longest pooling length = hardest, may get caught or skipped entirely).
   compromising heating. BOROSA GROUP's existing claim above is that a
   curtain should **never** cover an in-floor convector at all.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vm5u5_3v1_U_kruglov_how_to_choose_curtains|vm5u5_3v1_U]]]
+[source: [[_Sources/YT_vm5u5_3v1_U_kruglov_how_to_choose_curtains|vm5u5_3v1_U]]]
 
 ## Dual-Direction Blinds — Top-Down/Bottom-Up Operation (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
 
-**Roller/pleated blinds that open from either end independently (top-down or bottom-up)**, used in place of curtains in a real project — the practical benefit named directly: raise only the bottom portion to block a ground-level or lower-floor sightline from neighbors/passersby while still letting daylight in through the now-uncovered top portion, rather than choosing between full coverage (no light) or full exposure (no privacy). A distinct product mechanism from every curtain/blind type already documented on this page. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
+**Roller/pleated blinds that open from either end independently (top-down or bottom-up)**, used in place of curtains in a real project — the practical benefit named directly: raise only the bottom portion to block a ground-level or lower-floor sightline from neighbors/passersby while still letting daylight in through the now-uncovered top portion, rather than choosing between full coverage (no light) or full exposure (no privacy). A distinct product mechanism from every curtain/blind type already documented on this page. `single-account`, `unverified`. [source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
 
 ## Ask the Composition Question Before the Colour Question (ARCHWOOD / Марина Измайлова, added 2026-08-30)
 
@@ -319,7 +319,7 @@ Every other source on this page answers "what colour should the curtains be." Th
 - **Curtains join the already-chosen palette** rather than being selected against the wall in isolation; if the palette lacks a suitable member, extend it with a neighbouring darker or lighter shade rather than importing an unrelated colour.
 - Her two composition self-checks apply here as much as anywhere: simplify the interior to plain rectangles and squares and see whether everything sits where it should, then convert the view to black-and-white, because visual weight reads differently without hue. She notes composition is what most of an architectural education is actually spent on.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|YT_AKxOtRhIcJY]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|YT_AKxOtRhIcJY]]]
 
 **Compare with Anuta Vlady's attention-direction rule** (on [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]]): saturated contrasting curtains pull attention to the window, so if the intended focal point is elsewhere — a printed headboard, say — the fix is to bring the curtains down to roughly the wall colour. The two practitioners are asking the same question from opposite ends: ARCHWOOD asks whether the window *needs* emphasis, Anuta Vlady asks what the emphasis *costs* elsewhere.
 
@@ -327,21 +327,21 @@ Every other source on this page answers "what colour should the curtains be." Th
 
 - **"Как выбрать шторы. 7 фундаментальных принципов"** (Ирина Хихол,
   textile/interior-decor designer, 2019-10-15) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|extraction note]].
+  [[_Sources/YT_ze87vOi2qrQ_khikhol_7_curtain_principles|extraction note]].
 - **"Как выбрать ШТОРЫ и оформить ОКНО в доме? / Главные ошибки при
   выборе штор"** (Alla Krol, architect-designer/full-service company,
   2023-12-17) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|extraction note]].
+  [[_Sources/YT_QnSnO8bVeNs_alla_krol_curtain_mistakes|extraction note]].
 - **"ШТОРЫ 5 ПРАВИЛ: КАК ВЫБРАТЬ И СДЕЛАТЬ ИНТЕРЬЕР ДОРОЖЕ"** (Заметки
   Дизайнера интерьера, 2022-02-06) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|extraction note]].
+  [[_Sources/YT_F7HqN0-HyQ_designer_notes_5_curtain_rules|extraction note]].
 - **"СДЕЛАЛ и ПОЖАЛЕЛ! Как правильно подобрать ШТОРЫ в свой ИНТЕРЬЕР?"**
   (BOROSA GROUP, architecture/construction design company, 2024-01-12) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|extraction note]].
+  [[_Sources/YT_XziSlSDeKM0_borosa_group_regret_curtains|extraction note]].
 - **"Как выбрать шторы? Главные ошибки, которые портят интерьер"**
   (Konstantin Kruglov, Ontario — Moscow-region turnkey renovation
   company, 2026-07-10) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vm5u5_3v1_U_kruglov_how_to_choose_curtains|extraction note]].
+  [[_Sources/YT_vm5u5_3v1_U_kruglov_how_to_choose_curtains|extraction note]].
 
 ## Change Log
 

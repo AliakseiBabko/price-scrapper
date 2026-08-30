@@ -19,7 +19,7 @@ refrigerant-line kink obstructing more than ~30% of the tube's flow cross-sectio
 unit failure**; and **⚠️ skipping vibration-isolation mounts/soundproofing when bolting the
 outdoor unit to a facade can make it resonate with the building's own wall panel**, producing an
 audible in-apartment hum whose cause isn't obvious unless the installer specifically checks for
-missing vibration mounts. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+missing vibration mounts. `single-account`, `unverified`. [source: [[_Sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
 
 ## Buying Guidance
 

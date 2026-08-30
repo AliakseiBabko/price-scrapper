@@ -11,21 +11,21 @@ A useful reference vocabulary: classic 20–60 cm; "narrow"/plank tile (short:lo
 ## Skip Trim/Border Strips ("Фризы"/Бордюры) for Budget Work (RemProektMD, added 2026-08-24)
 
 > [!NOTE]
-> Chișinău/Moldova channel, region level 2 only. `single-account`, no absolute prices for this specific claim. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
+> Chișinău/Moldova channel, region level 2 only. `single-account`, no absolute prices for this specific claim. [source: [[_Sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
 
 RemProektMD/Andrei recommends **skipping decorative tile trim/border strips** ("фризы," "бордюры," typically run in a single or double row around the room perimeter) for budget bathroom work: unlike field tile (priced per m²), these are priced **per piece or per linear meter**, and their installation labor is also billed per linear meter/piece rather than folded into the general tiling rate — both add real, avoidable cost. Also notes a general stylistic trend away from border strips toward a solid-color, full-field tile look, though this specific observation is opinion, not a checkable fact.
 
 ## Tile and Adhesive Buying Practice (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, Round 1, added 2026-08-28)
 
 > [!NOTE]
-> Vladimir Amelchenko, `Zd6yryCjyhM`. Low promotional ratio, `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Zd6yryCjyhM_sbk_10_bathroom_mistakes|YT_Zd6yryCjyhM]]]
+> Vladimir Amelchenko, `Zd6yryCjyhM`. Low promotional ratio, `single-account`. [source: [[_Sources/YT_Zd6yryCjyhM_sbk_10_bathroom_mistakes|YT_Zd6yryCjyhM]]]
 
 - **⚠️ Never buy clearance/close-out tile from limited remaining stock, and never buy the exact piece count a store's layout diagram shows**: tile develops internal stress during cutting, and a normal fraction cracks during installation regardless of installer skill — this is expected process loss, not a sign of poor workmanship, and it requires spare stock. Buying a discontinued or near-sold-out line at exactly the calculated quantity leaves no margin for this: matching replacement tile may be unobtainable at any price if the collection is truly gone, or may require expensive small-quantity shipping from another city's stock.
 - **⚠️ Select tile adhesive by its class letter/number code (S1/S2/C1/C2, etc.), not by price**: these codes denote formulations for different tile weights, formats, substrates, and room types. A materially cheaper bag carrying the same generic "tile adhesive" label can be a genuine substrate/tile mismatch, not just a lower-quality version of the same product.
 
 ## Why Tile Falls Off — Substrate, Adhesive, Joints, and Cure Timing (added 2026-08-24, Round 4)
 
-Konstantin Kruglov / Ontario, a dense, non-promotional "7 rules" technical video framed around why tile fails/detaches. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MOYwhSd8tv4_kruglov_tiling_rules|YT_MOYwhSd8tv4]]]
+Konstantin Kruglov / Ontario, a dense, non-promotional "7 rules" technical video framed around why tile fails/detaches. [source: [[_Sources/YT_MOYwhSd8tv4_kruglov_tiling_rules|YT_MOYwhSd8tv4]]]
 
 - **Substrate-flatness check, with a concrete tolerance figure**: verify the plane with a laser, then check deviation with a 2m straightedge — **maximum allowed deviation is 2mm over the 2m length**. Beyond that, level the floor (self-leveling compound or screed) or re-plaster the wall before tiling. Substrate must also be strong (no hollow spots — sound it out by tapping), dry, clean/dust-free, and primed; **primer dry time: 4-8 hours** before tiling can start.
 - **Tile-adhesive classification (C1/C2), a genuinely useful buying vocabulary not yet on this page**: **C1** — the most basic/cheapest adhesive class, for standard tile under 60cm on the long side, only in a dry (non-wet) room; not rated for mosaic; the source states his own company doesn't use C1 on any project. **C2** — an upgraded formulation rated for heavier tile including porcelain (керамогранит); **this is the practical minimum the source recommends for any real project**. **C2 reinforced/armored** — needed specifically for large-format tile. Beyond the base C1/C2 split, a given adhesive can carry additional certifications that must be checked against the specific application: **heated-floor-rated** (needed under any electric/hydronic heated floor), **mosaic-rated** (more elastic formulation), and **frost-/water-resistant** (mandatory for an unheated loggia/balcony or any exterior application) — a single product can carry all of these at once, and the packaging states which it's rated for. **The single most common failure-causing mistake named**: using the cheapest available adhesive under heavy large-format tile — it can't bear the load and the tile detaches, wall or floor.
@@ -33,7 +33,7 @@ Konstantin Kruglov / Ontario, a dense, non-promotional "7 rules" technical video
 - **Tile joint sizing, with the real mechanical reason it exists (not just installation convenience)**: inter-tile grout joints should be **1.5-2mm**, sized specifically to accommodate the substrate and the tile material having different rates of movement — skipping this joint isn't just a cosmetic issue but risks tiles delaminating under differential movement. **Perimeter (room-edge) expansion gap: 5-10mm — deliberately larger than the inter-tile joint.** Skipping the perimeter gap (a fully seamless, edge-to-edge tile installation) risks the whole tiled plane buckling/being pushed out of true as it dries and over time.
 - **Temperature rules for tiling**: indoor tiling is fine any time the room is above ~10°C (typical for an occupied interior). Tiling outdoors, or on an unheated loggia/balcony, needs the ambient temperature above 5°C **and** a frost-/water-resistant adhesive specifically.
 - **⚠️ Heated-floor cure-time rule, with a specific named failure mode**: never turn on a heated floor until the tile adhesive has fully cured — **minimum 28 calendar days after tiling**. The most common mistake in this category is switching on the heated floor early specifically to speed up adhesive drying — this deforms the adhesive and causes the tile to detach. Do not let installers do this even if asked to "test" the heated floor early.
-- **⚠️ A jobsite construction sink prevents a distinct detachment mechanism this list doesn't otherwise cover**: without a convenient sink, a tiler wet-cutting tile on a saw rarely bothers to rinse the dirty cutting slurry off the cut face before installing — the dried slurry becomes an invisible dust layer, and adhesive applied over it bonds to that residue rather than to the wall, producing a later hollow-sounding tile. **Installers who then blame "a bad batch of adhesive" are often actually experiencing this residue-bonding failure instead.** See [[11_Budget_and_Planning/analysis/Demolition|Demolition]] for the construction-sink build instructions this mechanism is drawn from. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RNiSYvLX6Vc_petrishin_construction_sink_howto|RNiSYvLX6Vc]]]
+- **⚠️ A jobsite construction sink prevents a distinct detachment mechanism this list doesn't otherwise cover**: without a convenient sink, a tiler wet-cutting tile on a saw rarely bothers to rinse the dirty cutting slurry off the cut face before installing — the dried slurry becomes an invisible dust layer, and adhesive applied over it bonds to that residue rather than to the wall, producing a later hollow-sounding tile. **Installers who then blame "a bad batch of adhesive" are often actually experiencing this residue-bonding failure instead.** See [[11_Budget_and_Planning/analysis/Demolition|Demolition]] for the construction-sink build instructions this mechanism is drawn from. [source: [[_Sources/YT_RNiSYvLX6Vc_petrishin_construction_sink_howto|RNiSYvLX6Vc]]]
 
 ## Installer Method Variance Over a Heated Floor, and a Textured-Tile Grout-Cleanup Warning (Петришин-Строй, ЖК Виноградный episodic series, added 2026-08-24, Round 13)
 
@@ -57,7 +57,7 @@ spoken), low promotional ratio.
   afterward — mask/work the perimeter of each textured tile carefully
   during grouting rather than relying on post-grouting wipe-down, which
   works fine on a smooth tile but not this texture.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GC2vize3KQ0_petrishin_vinogradny_ep11_tile_work|GC2vize3KQ0]]]
+  [source: [[_Sources/YT_GC2vize3KQ0_petrishin_vinogradny_ep11_tile_work|GC2vize3KQ0]]]
 
 ## Grout Cost and Labor-Cost Figures, and Repair Technique (added 2026-08-24, Round 4)
 
@@ -132,7 +132,7 @@ re-extracted.
   single large-format porcelain slab can cost 40,000-50,000 RUB, so a
   tiler's mistake is a real material loss, meaning installing it can't
   reasonably cost the same per unit as installing 2,000 RUB/m² tile.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xd1xP2FuN40_petrishin_kill_tile_spotcheck|xd1xP2FuN40]]]
+  [source: [[_Sources/YT_xd1xP2FuN40_petrishin_kill_tile_spotcheck|xd1xP2FuN40]]]
 
 ## Complex Small-Format Tile: Custom-Slope Cutting, Box-Sizing, and Cost Economics (Петришин-Строй, added 2026-08-24, Round 3)
 
@@ -180,12 +180,12 @@ real-object worked example.
   taste**: recommends ordinary large-format tile to most people for
   simplicity/cost, while personally finding small-format tile's own
   visual result appealing too.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|ah3StuP2TZE]]]
+  [source: [[_Sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|ah3StuP2TZE]]]
 
 ## General Tile Buying Guide: Scam Warning, Diagonal-Layout Life-Hack, and Wall-Tile Cost Comparison (Konstantin Kruglov / Ontario, added 2026-08-28, Round 7)
 
 > [!NOTE]
-> Cross-checked against this page's existing size taxonomy, porcelain-tile-dominance figure, and grout comparison table — those largely corroborate and aren't re-recorded; only genuinely new items below. Also checked against this channel's own existing tiling-technique video (`MOYwhSd8tv4`) — no direct overlap. Region level 2 only. Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YvtdjHJhfpU_kruglov_choosing_tile|YT_YvtdjHJhfpU]]]
+> Cross-checked against this page's existing size taxonomy, porcelain-tile-dominance figure, and grout comparison table — those largely corroborate and aren't re-recorded; only genuinely new items below. Also checked against this channel's own existing tiling-technique video (`MOYwhSd8tv4`) — no direct overlap. Region level 2 only. Low promotional ratio. [source: [[_Sources/YT_YvtdjHJhfpU_kruglov_choosing_tile|YT_YvtdjHJhfpU]]]
 
 - **⚠️ Real estimate/contract line-item scam mechanism, first for this store**: since porcelain tile has effectively fully displaced ceramic tile for floor use (this source states even a wall-tile collection's own matching floor piece is porcelain, not ceramic, within the same product line), a company can write "ceramic floor tile" in a client's estimate, knowing the client will in practice buy porcelain (pricier) since ceramic floor tile essentially doesn't exist on the market anymore — then mid-project claim the original estimate only covered ceramic and raise the price 2-5× on that technicality. **Practical defense**: confirm exactly what tile *type* (ceramic vs. porcelain) an estimate's floor line-item names before signing.
 - **⚠️ Diagonal-layout technique to mask non-parallel walls**: in a narrow corridor or room where walls aren't perfectly parallel, laying large-format tile in a straight grid (even at a common 60×60cm) makes the non-parallelism visually obvious (a visible taper/skew along the run). **Fix: lay the tile diagonally instead** — a diagonal pattern absorbs the wall's actual non-parallelism, which a straight grid cannot.
@@ -236,15 +236,15 @@ personal preference, not a universal quality ranking (commercial brand
 comparison, not adopted as fact). Some manufacturers sell matching-color
 silicone sealant alongside their grout swatches, letting a buyer
 color-match corner sealant to the chosen grout shade in one shopping
-trip. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NjOkuREH8lI_petrishin_grout_selection_personal|NjOkuREH8lI]]]
+trip. [source: [[_Sources/YT_NjOkuREH8lI_petrishin_grout_selection_personal|NjOkuREH8lI]]]
 
 ## Corner Treatment
 
 **External corners are always 45°-mitered and should always use epoxy grout even if the rest of the room uses cement grout** — a slight tile shift at an external corner will pop cement grout out (insufficient bonding area). A plastic/metal corner-trim profile is the deprecated older alternative — "haven't seen it used in ~5-6 years," per the source. Internal corners are never mitered (tile butts with overlap) and are sealed only with elastic silicone sealant, never grout — install a foam backer rod behind the sealant first, which improves adhesion and sealant lifespan. [source: [[_Archive/processed_sources/20260731_zems_b054_tiles_64563b4e.txt|zems_b054_tiles_64563b4e]]]
 
-**A premium, labor-intensive corner-rounding technique exists** — miter tiles at 45° as usual, then further grind/chamfer the joint and grout it with a specialized process to produce a smooth, fully rounded, injury-safe edge. Described as extremely slow, precision hand-work (compared to a manicure) — **real cost cited: ~120,000 RUB for this detail alone on one project.** A luxury-tier finishing option, not a default recommendation, but worth knowing as a real cost data point if injury-safe rounded corners are a priority. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Uhqtnv3lsuo_zemskov_premium_class_tips|zemskov_premium_class_tips]]]
+**A premium, labor-intensive corner-rounding technique exists** — miter tiles at 45° as usual, then further grind/chamfer the joint and grout it with a specialized process to produce a smooth, fully rounded, injury-safe edge. Described as extremely slow, precision hand-work (compared to a manicure) — **real cost cited: ~120,000 RUB for this detail alone on one project.** A luxury-tier finishing option, not a default recommendation, but worth knowing as a real cost data point if injury-safe rounded corners are a priority. [source: [[_Sources/YT_Uhqtnv3lsuo_zemskov_premium_class_tips|zemskov_premium_class_tips]]]
 
-**⚠️ Real cracked-corner case, plus a genuinely new four-step remediation procedure (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 5)** — cement grout in a bathroom's internal tile corners cracked within two weeks of installation, independently corroborating the internal-corner-silicone rule above (cement grout at an internal corner will crack "no matter what an installer tells you"). **Retrofit repair sequence for an internal corner where cement grout has already cracked**: (1) remove the failed grout — mechanically with a plain utility knife on matte tile, or a specialized chemical grout remover on glossy tile (a knife risks scratching gloss); (2) degrease the cleared corner; (3) apply a sealant color-matched to the surrounding grout from the manufacturer's own catalog, via caulking gun; (4) wet the surface generously with soapy water before/while tooling the bead, then wipe away excess sealant — the soapy water keeps excess sealant from adhering where it isn't wanted, for a clean tooled line. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_47V9BqTYDcU_sbk_corner_grout_crack_fix|47V9BqTYDcU]]]
+**⚠️ Real cracked-corner case, plus a genuinely new four-step remediation procedure (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 5)** — cement grout in a bathroom's internal tile corners cracked within two weeks of installation, independently corroborating the internal-corner-silicone rule above (cement grout at an internal corner will crack "no matter what an installer tells you"). **Retrofit repair sequence for an internal corner where cement grout has already cracked**: (1) remove the failed grout — mechanically with a plain utility knife on matte tile, or a specialized chemical grout remover on glossy tile (a knife risks scratching gloss); (2) degrease the cleared corner; (3) apply a sealant color-matched to the surrounding grout from the manufacturer's own catalog, via caulking gun; (4) wet the surface generously with soapy water before/while tooling the bead, then wipe away excess sealant — the soapy water keeps excess sealant from adhering where it isn't wanted, for a clean tooled line. [source: [[_Sources/YT_47V9BqTYDcU_sbk_corner_grout_crack_fix|47V9BqTYDcU]]]
 
 ## Shower Podium / Curb / Valve Height
 
@@ -290,7 +290,7 @@ A concrete, step-by-step method — the difference between a bathroom that "look
 - **If a room has two zones of different visible length**, apply the classic layout to whichever zone stays fully visible after fixtures are installed — optimizing a zone that ends up hidden behind a sink or cabinet wastes the technique on the wrong wall.
 - **If shrinking a utility box slightly (e.g., by ~15 cm) yields meaningfully more room for a larger sink elsewhere**, that tradeoff can be worth accepting a correspondingly larger visible cut piece near the box, breaking strict symmetry.
 - **For continuous flooring across multiple adjoining rooms (avoiding a transition strip/threshold at doorways)**: keep each wall as a separately movable object during planning specifically so a wall can be nudged later without redoing the whole layout. **When a narrow cut piece shows up along a wall, move the wall itself, not the tile grid — always in multiples of 10mm.** Moving a wall consumes exactly one grout joint's worth of material at that wall, so both tiles on either side remain whole — a cut piece removed in one room by shifting its wall does **not** cause a new cut piece to appear in the adjoining room. (Sliding the *tile grid* instead risks exactly that knock-on problem.)
-- **Corroborating defect case for the "classic/centered layout" rule above**: a documented QC critique flagged a small wet room where the layout wasn't centered from the room's own centerline, producing narrow scrap-width cut pieces at *both* edges simultaneously — exactly the failure mode this page's classic-layout technique is designed to avoid. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cWRgenv4B40_full_disaster_30m_274|YT_cWRgenv4B40]]]
+- **Corroborating defect case for the "classic/centered layout" rule above**: a documented QC critique flagged a small wet room where the layout wasn't centered from the room's own centerline, producing narrow scrap-width cut pieces at *both* edges simultaneously — exactly the failure mode this page's classic-layout technique is designed to avoid. `single-account`, `unverified`. [source: [[_Sources/YT_cWRgenv4B40_full_disaster_30m_274|YT_cWRgenv4B40]]]
 - **A practical priority order for checking/fixing narrow cut pieces across a whole apartment's tile layout**: (1) the main/central circulation space first; (2) other main rooms' bare walls; (3) transition/passage spaces, especially right at an entry doorway; (4) window walls; (5) only then bring furniture placement into the model and re-check everything; (6) finally, auxiliary/utility rooms. [source: [[_Archive/processed_sources/20260731_zems_b054_tiles_64563b4e.txt|zems_b054_tiles_64563b4e]]]
 - **Vertical tile orientation is discouraged in most cases** — even with a correct classic layout, vertical tiles still show long narrow cut strips (rather than the compact corner pieces horizontal tiles produce). Vertical orientation is described as only working well at very cheap or very expensive/bespoke tile tiers; horizontal is the right default for the large middle of the market. [source: [[_Archive/processed_sources/20260731_zems_b054_tiles_64563b4e.txt|zems_b054_tiles_64563b4e]]]
 
@@ -337,7 +337,7 @@ bathroom tiling on a real object:
 - **24-hour cure before removing spacer crosses and the support
   batten**; clean excess adhesive out of the joints before grouting.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OperMXnGmXE_petrishin_bathroom_tile_stages|OperMXnGmXE_petrishin_bathroom_tile_stages]]]
+[source: [[_Sources/YT_OperMXnGmXE_petrishin_bathroom_tile_stages|OperMXnGmXE_petrishin_bathroom_tile_stages]]]
 
 ## Rectified-Tile Joint Claim, Metallic-Insert Use, and Large-Slab Delivery Access (Петришин-Строй, added 2026-08-24, Round 9)
 
@@ -363,22 +363,22 @@ but with a few genuinely reusable buying/design heuristics:
   need window-and-crane delivery on a lower floor, the same workaround
   used for oversized drywall sheets.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P8GMYTARyNU_petrishin_tile_expo_tour|P8GMYTARyNU]]]
+[source: [[_Sources/YT_P8GMYTARyNU_petrishin_tile_expo_tour|P8GMYTARyNU]]]
 
-**⚠️ Concrete per-unit cost for the elevator-access caution above (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 2, 2021 St. Petersburg prices)**: when a large-format slab (1.2×2.4m or 1.2×3m) doesn't fit the building's passenger elevator, specially trained movers must hand-carry it up the stairwell floor by floor — **≈10,000 RUB (≈$130) per slab, per floor**, the first concrete price recorded for a risk previously only flagged qualitatively. Real worked example: a standard bathroom (1.7×1.5m) + toilet (0.9×1.5m) needs 14 sheets — at 2021 St. Petersburg prices (tile from ≈30,000 RUB/sheet ≈$400, installation labor from ≈5,000 RUB/m² ≈$70/m²), the tile alone plus lift cost can consume most of a modest whole-apartment renovation budget, a real case the source cites of a 100 m² full-gut renovation quoted at ≈850,000 RUB (≈$11,300) total. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XuTH1e-Fc0_sbk_large_format_tile_real_cost|YT_-XuTH1e-Fc0]]]
+**⚠️ Concrete per-unit cost for the elevator-access caution above (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 2, 2021 St. Petersburg prices)**: when a large-format slab (1.2×2.4m or 1.2×3m) doesn't fit the building's passenger elevator, specially trained movers must hand-carry it up the stairwell floor by floor — **≈10,000 RUB (≈$130) per slab, per floor**, the first concrete price recorded for a risk previously only flagged qualitatively. Real worked example: a standard bathroom (1.7×1.5m) + toilet (0.9×1.5m) needs 14 sheets — at 2021 St. Petersburg prices (tile from ≈30,000 RUB/sheet ≈$400, installation labor from ≈5,000 RUB/m² ≈$70/m²), the tile alone plus lift cost can consume most of a modest whole-apartment renovation budget, a real case the source cites of a 100 m² full-gut renovation quoted at ≈850,000 RUB (≈$11,300) total. [source: [[_Sources/YT_XuTH1e-Fc0_sbk_large_format_tile_real_cost|YT_-XuTH1e-Fc0]]]
 
 ## Don't Force Full Seam Continuity Across Floor/Wall/Apron Plane Changes (added 2026-08-20)
 
-**⚠️ Chasing one continuous, unbroken grout line across a change of plane and material — floor tile into wall tile into a bathtub apron/screen — drives cost up sharply for a detail the source judges not worth it.** Achieving it reliably requires an unusually skilled (and expensive) tile setter; the source recommends against setting this as a design goal. **Distinct from this page's existing apron-tile-layout rule** (in [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]]) that the apron's own tile *pattern* should align with the adjacent wall tile's layout — that rule is about the apron matching the wall it's built against, not about forcing one unbroken seam across every plane change in the room; the two aren't in tension. Ordinary same-plane joint alignment (e.g. horizontal wall-tile joints staying level across adjoining walls) is still worth doing — this caution is specifically about forcing continuity *across* a plane/material change. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
+**⚠️ Chasing one continuous, unbroken grout line across a change of plane and material — floor tile into wall tile into a bathtub apron/screen — drives cost up sharply for a detail the source judges not worth it.** Achieving it reliably requires an unusually skilled (and expensive) tile setter; the source recommends against setting this as a design goal. **Distinct from this page's existing apron-tile-layout rule** (in [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]]) that the apron's own tile *pattern* should align with the adjacent wall tile's layout — that rule is about the apron matching the wall it's built against, not about forcing one unbroken seam across every plane change in the room; the two aren't in tension. Ordinary same-plane joint alignment (e.g. horizontal wall-tile joints staying level across adjoining walls) is still worth doing — this caution is specifically about forcing continuity *across* a plane/material change. `single-account`, `unverified`. [source: [[_Sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
 
 ## Large-Format + Small-Format Tile Combination — a 2025-2026 Trend (added 2026-08-24)
 
-Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 80×120cm) with a small-format tile or mosaic (e.g. "кабанчик"/subway-style) in the same room — a deliberate large-vs-small contrast, not a matched, uniform surface. **Cited designer rationale**: adds volume/dynamism to the room ("the interior lives") and creates a visual zoning effect even though a bathroom is a small space to begin with. **No stated downside** beyond the ordinary subjective-taste caveat — the source explicitly says the only thing that matters is whether the client likes the designer's specific combination, not a technical drawback. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
+Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 80×120cm) with a small-format tile or mosaic (e.g. "кабанчик"/subway-style) in the same room — a deliberate large-vs-small contrast, not a matched, uniform surface. **Cited designer rationale**: adds volume/dynamism to the room ("the interior lives") and creates a visual zoning effect even though a bathroom is a small space to begin with. **No stated downside** beyond the ordinary subjective-taste caveat — the source explicitly says the only thing that matters is whether the client likes the designer's specific combination, not a technical drawback. `single-account`, `unverified`. [source: [[_Sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
 
 ## Stress-Relief Drilling at Sharp Cut-Corners on Large-Format Tile (RemProektMD, added 2026-08-24, Round 2)
 
 > [!NOTE]
-> Chișinău/Moldova channel, region level 2 only. `single-account`, `ASR-uncertain` on exact fixture/guide-tool phrasing. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_PmxmmzyUZjg_remproektmd_tile_tension_relief|PmxmmzyUZjg]]]
+> Chișinău/Moldova channel, region level 2 only. `single-account`, `ASR-uncertain` on exact fixture/guide-tool phrasing. [source: [[_Sources/YT_PmxmmzyUZjg_remproektmd_tile_tension_relief|PmxmmzyUZjg]]]
 
 **⚠️ A distinct large-format-tile crack mechanism, not covered by this page's existing detachment content above**: when a piece is cut to notch around an obstacle, leaving a sharp/acute internal corner in the cut edge, that point concentrates mechanical stress in the slab and can crack *after* installation — the source reports this happening rarely but real enough to design around.
 
@@ -388,7 +388,7 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
 
 > [!NOTE]
 > Chișinău/Moldova channel, region level 2 only (channel branding, no city
-> spoken this video). `single-account`, no independent verification. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Wj_i-4GhOQk_remproektmd_large_format_tile_device|Wj_i-4GhOQk]]]
+> spoken this video). `single-account`, no independent verification. [source: [[_Sources/YT_Wj_i-4GhOQk_remproektmd_large_format_tile_device|Wj_i-4GhOQk]]]
 
 - **Custom lifting rig for very-large-format, thin tile**: for a **280×120cm, 6mm-thick** slab, hand-carrying by the corners risks cracking it in transit — the crew built a dedicated frame of pipes fitted with suction cups ("присоски") specifically to move the slab from cutting table to installation point without hand-gripping the edges.
 - **SVP leveling-clip system sequencing detail**: set up *before* the tile is moved into place, not after — extends this page's existing SVP-clip content above with a placement-order note.
@@ -397,7 +397,7 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
 ## Niche Sightline Design + Magnetic Access Panel (Петришин-Строй, added 2026-08-24, Round 4)
 
 > [!NOTE]
-> Moscow, level 1 ("Олимпийский проспект" named directly). Client case-study/interview format, low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|qFM8NIDIRro]]]
+> Moscow, level 1 ("Олимпийский проспект" named directly). Client case-study/interview format, low promotional ratio. [source: [[_Sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|qFM8NIDIRro]]]
 
 - **⚠️ Bathroom-niche sightline design rule**: position a shampoo/gel storage niche further into the room, not directly visible from the doorway — a person entering the bathroom shouldn't immediately see storage shelving; the person bathing can still see it fine from inside the tub. A concrete sightline-based placement rule, distinct from this page's existing niche-sizing/box-layout content.
 - **⚠️ Magnetically-mounted removable tile access panel**: a section of large-format tile over a hidden plumbing point was mounted on magnets with a metal corner bracket, so the panel lifts off cleanly for access and reseats with an unbroken grout line — described as giving full plumbing access without a visible standard inspection hatch.
@@ -406,7 +406,7 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
 ## Tile vs. Porcelain Stoneware — Material, Format, and Quality-Factor Primer (Петришин-Строй, added 2026-08-24, Round 4)
 
 > [!NOTE]
-> Region level 2 only (channel branding, no city spoken this video). Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rt9R26k6dEM_petrishin_tile_vs_porcelain|rt9R26k6dEM]]]
+> Region level 2 only (channel branding, no city spoken this video). Low promotional ratio. [source: [[_Sources/YT_rt9R26k6dEM_petrishin_tile_vs_porcelain|rt9R26k6dEM]]]
 
 - **Ceramic tile vs. porcelain stoneware**: ceramic tile (fired clay + glaze) doesn't come in large formats and cracks at scale — mostly a 15-years-ago material now. Porcelain stoneware adds strength-boosting components plus more intense pressing/firing for a much denser, stronger structure available in large formats — the generally preferred choice. Minimum tile-category service life stated: **20 years**.
 - **⚠️ Domestic-vs-imported porcelain claim (possible self-interest, still fact-based)**: Russian manufacturers now use the same production equipment/pigments/technology as European (Italy/Spain/Turkey) factories — recommendation to buy domestic porcelain for quality-for-money, reserving imported brands for cases domestic doesn't satisfy.
@@ -419,7 +419,7 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
 
 ## Patterned/Printed Tile Print-Quality Risk (added 2026-08-19, remainder-pool batch)
 
-**Printed/patterned large-format porcelain tile (imitation stone/marble-look) can show visible print-quality inconsistency across pieces once installed at scale** — the same printed pattern rendered inconsistently (uneven tinting, and on some cut pieces the print missing entirely, showing bare clear glaze underneath). **Practical guidance**: keep tile selection simple/plain rather than heavily patterned in a room that already has other visual-interest elements (e.g. a rain-shower fixture) — simplicity reduces exposure to this print-defect risk and still reads as intentional. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
+**Printed/patterned large-format porcelain tile (imitation stone/marble-look) can show visible print-quality inconsistency across pieces once installed at scale** — the same printed pattern rendered inconsistently (uneven tinting, and on some cut pieces the print missing entirely, showing bare clear glaze underneath). **Practical guidance**: keep tile selection simple/plain rather than heavily patterned in a room that already has other visual-interest elements (e.g. a rain-shower fixture) — simplicity reduces exposure to this print-defect risk and still reads as intentional. `single-account`, `unverified`. [source: [[_Sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
 
 ## Large-Format Tile with a Scored Small-Format Look, and Grout-Color Selection Rules (Петришин-Строй, added 2026-08-24, Round 8)
 
@@ -435,7 +435,7 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
   in reverse on a mosaic tile: choosing a grout that closely matches the
   mosaic's own tone changes how the overall grid pattern reads — a
   design lever, not just a match-or-clash binary choice.
-- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm0aHk4flxc_petrishin_finishing_materials_shopping|Rm0aHk4flxc]]]
+- [source: [[_Sources/YT_Rm0aHk4flxc_petrishin_finishing_materials_shopping|Rm0aHk4flxc]]]
 
 ## Mosaic vs. Rigid Tile — Curved/Organic-Shape Capability, and a Luxury Reference Price Point (Петришин-Строй, added 2026-08-24, Round 8)
 
@@ -454,7 +454,7 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
   project's price-comparability convention, explicitly flagged as a
   luxury/pool-specific tier, not comparable to an apartment-renovation
   budget.
-- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
+- [source: [[_Sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
 
 ## Glass Mosaic — Adhesive Color and Notch-Depth Rules (Sergey Petrishin, NTV segment, added 2026-08-24, Round 13)
 
@@ -473,7 +473,7 @@ comparison content (not re-extracted).
   trowel's notch depth to roughly **half the mosaic tile's own
   thickness**, to avoid excess adhesive squeezing up between the
   (very narrow) mosaic joints.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_I8js5-kLrYI_petrishin_ntv_diy_mosaic|I8js5-kLrYI]]]
+  [source: [[_Sources/YT_I8js5-kLrYI_petrishin_ntv_diy_mosaic|I8js5-kLrYI]]]
 
 ## Hexagonal Tile in an Entry Zone, Thin-Tile 45° Layout Difficulty, and a Grout-Staining Risk on Ordinary Cement Grout (Петришин-Строй, added 2026-08-24, Round 7)
 
@@ -500,7 +500,7 @@ technique page:
   **Worth sample-testing any dark-grout/light-tile combination before
   committing**, regardless of grout type.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_tYcH95rlgNw_petrishin_5mln_2023_benchmark|tYcH95rlgNw]]]
+[source: [[_Sources/YT_tYcH95rlgNw_petrishin_5mln_2023_benchmark|tYcH95rlgNw]]]
 
 ## Shower Tile Dimensions, Tile-Height Convention, and a Tile-to-Paint Flush-Plane Technique (Петришин-Строй, added 2026-08-24, Round 11)
 
@@ -516,7 +516,7 @@ Real object, "Новая Рига" (region level 1). 2017-vintage source.
   surfaces sit flush in the same plane, avoiding the visible step/reveal
   a tile's own thickness would normally create against an adjacent
   painted wall.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|YT_gREGOOA2OHo]]]
+[source: [[_Sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|YT_gREGOOA2OHo]]]
 
 ## Mosaic Layout Precision on a Curved Wall, and Named Materials (Петришин-Строй, added 2026-08-24, Round 11)
 
@@ -532,7 +532,7 @@ promotional ratio.
 - **Named materials**: tile brand Atlas Concorde; a two-component grout
   (ASR-uncertain exact brand rendering) praised by the tiler as easy to
   work with.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+[source: [[_Sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
 
 ## Grout-Joint Water/Mold Protection ("Impregnation") Technique (Петришин-Строй, added 2026-08-24, Round 12)
 
@@ -551,7 +551,7 @@ ratio. Genuinely new to this page — no existing grout-sealant content.
   artist's paintbrush. Dries in 2-3 hours; a second coat is fine with no
   downside. Tedious but effectively mold-proofs the joints and makes
   long-term cleaning much easier.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_szIzrJJMm4o_petrishin_tile_grout_protection|YT_szIzrJJMm4o]]]
+[source: [[_Sources/YT_szIzrJJMm4o_petrishin_tile_grout_protection|YT_szIzrJJMm4o]]]
 
 ## Door-Opening Tile Crack-Avoidance and Hatch-Clearance Detail (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 4)
 
@@ -560,7 +560,7 @@ promotional ratio.
 
 - **⚠️ Named failure mode and fix — "pseudo-jamb" tiling around a door opening**: wrapping a single tile piece around a door reveal in an L- or U-shaped cut carries a real crack risk at the internal corner (a stress-concentration failure in a brittle cut piece). **Fix**: tile the jamb/reveal as its own separate piece, mitered at 45° where it meets the field tile, instead of one continuous L/U-shaped cut — eliminates the internal-corner stress riser entirely. Claimed (unverified, single-account) durability: 30-50 years without cracking.
 - **⚠️ Inward-opening decorative hatch clearance**: a large decorative access hatch/panel that swings inward into the rough opening needs that opening sized with extra clearance beyond the panel's face dimensions to accommodate the inward swing — independently corroborates this page's existing magnetically-mounted removable tile access panel fact as a second, distinct hatch approach at the same functional point (hidden plumbing access).
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_bl25vUPfI8o_sbk_expensive_reno_durability_solutions|YT_bl25vUPfI8o]]]
+[source: [[_Sources/YT_bl25vUPfI8o_sbk_expensive_reno_durability_solutions|YT_bl25vUPfI8o]]]
 
 ## Format and Colour Rules for Stone-Look Tile (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
@@ -571,5 +571,5 @@ promotional ratio.
 - **⚠️ Porcelain that mimics engineered board, to avoid a visible floor transition.** Where a hallway needs a floor resistant to water, road salt and mechanical wear but the rest of the flat is engineered board or parquet, the usual result is a visible split between a stone-look porcelain and a wood floor. **Many manufacturers now make porcelain in plank formats sized like engineered board, in wood tones with grain** — matched carefully, the hall floor reads continuous with the living-area floor while being substantially more durable.
 - **Myth corrected**: 45° mitring of porcelain is **not** as expensive as commonly assumed — and a properly mitred corner with matching grout is no weaker than one protected by a trim.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]] [source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]] [source: [[_Sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]] [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]] [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 

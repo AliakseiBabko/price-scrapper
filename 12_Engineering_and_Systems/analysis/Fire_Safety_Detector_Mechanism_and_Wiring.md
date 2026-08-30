@@ -1,6 +1,6 @@
 # Fire Safety — Detector Mechanism & Wiring
 
-Detail page for [[12_Engineering_and_Systems/analysis/Fire_Safety_and_Smoke_Detection|Fire Safety & Smoke Detection]]. Primary sources: СТРОИТЕЛЬСТВО И РЕМОНТ (branded hub ecosystem demo) and Системы безопасности (hands-on technician wiring demo, detector model ИП 212-45). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RwyPR2RFZYM_stroy_i_remont_smoke_detectors_general|RwyPR2RFZYM]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hHbKJuQth_w_sistemy_bezopasnosti_smoke_detector_wiring|hHbKJuQth_w]]]
+Detail page for [[12_Engineering_and_Systems/analysis/Fire_Safety_and_Smoke_Detection|Fire Safety & Smoke Detection]]. Primary sources: СТРОИТЕЛЬСТВО И РЕМОНТ (branded hub ecosystem demo) and Системы безопасности (hands-on technician wiring demo, detector model ИП 212-45). [source: [[_Sources/YT_RwyPR2RFZYM_stroy_i_remont_smoke_detectors_general|RwyPR2RFZYM]]] [source: [[_Sources/YT_hHbKJuQth_w_sistemy_bezopasnosti_smoke_detector_wiring|hHbKJuQth_w]]]
 
 ## How the Detection Mechanism Works
 

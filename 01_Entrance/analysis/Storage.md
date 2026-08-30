@@ -13,7 +13,7 @@ shelving/hooks by default** for entryway shoe/coat storage, despite the
 extra "open door" step — his stated reasoning: open shelves/hooks
 inevitably accumulate small clutter (keys, mail, fobs) regardless of
 intent, while closed storage preserves a sense of order and reduces
-cleaning friction. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+cleaning friction. `single-account`. [source: [[_Sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
 
 ИНТЕРЬЕР НАЛИЦО's featured household independently arrived at the same
 preference from a different angle: they originally planned an open,
@@ -21,11 +21,11 @@ boutique-style lit shoe niche, but say they're "mega happy" it didn't
 work out — in practice an open niche shows real everyday shoes in
 mixed/dirty condition (multiple pairs, various states after outdoor use),
 not an idealized curated display, and they ended up with closed storage
-instead, calling it "very successful." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+instead, calling it "very successful." [source: [[_Sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
 
 Against both: one INMYROOM TV-featured household (of eight in a
 compilation) deliberately kept its entryway shoe shelf **open**
-specifically so it doubles as a daily outfit-picking display. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
+specifically so it doubles as a daily outfit-picking display. [source: [[_Sources/YT_oFGkW7wZsLo_inmyroom_top5_khrushchevka_entryways|YT_oFGkW7wZsLo]]]
 
 **Net count: 2-for-closed vs. 1-for-open — not a resolved consensus.**
 Both positions serve different stated purposes (general clutter-avoidance
@@ -39,38 +39,38 @@ rather than treating either as settled.
   kitchen/entry wall storage** for small items, where a standard-depth
   cabinet line doesn't fit — check a shallow-depth product line from a
   different room category specifically when depth (not width) is the
-  binding constraint. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+  binding constraint. [source: [[_Sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
 - **A large sliding-door wardrobe-and-laundry combo unit** (two-tier
   clothing rail, washer, dryer, vacuum, boiler, long-term storage shelf)
   consolidated into a small entryway footprint specifically to keep
   laundry functionally independent from the bathroom — so laundry can run
-  while someone else is bathing, without noise/access conflict. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+  while someone else is bathing, without noise/access conflict. [source: [[_Sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
 - **Size storage benches and shoe cabinets against the household's actual
   inventory**, not a generic default — drawer width/height and bench-seat
   height calculated against the specific number and size of shoe pairs
-  the household needed. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
+  the household needed. [source: [[_Sources/YT_xPxusEh-gow_inmyroom_top8_entryways|YT_xPxusEh-gow]]]
 - **A wall-hung (not floor-standing) storage cabinet is specifically
   practical for a corridor's "wet zone"** (wet outdoor gear/umbrellas) —
   keeps the floor itself dry and easy to clean underneath; pairing this
-  zone with a heated floor speeds drying further. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+  zone with a heated floor speeds drying further. [source: [[_Sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
 - **Shallow-depth furniture (bookshelves especially) suits a corridor's
   limited depth**; mixing floor-standing sections near the entry with
   wall-hung sections further down the same run keeps progressively more
   floor visible, compounding a spaciousness effect ("the more visible
   floor, the more spacious the room feels"). A wall-mounted/hung or
   tall-legged shoe cabinet reads as more spacious than a floor-standing
-  one of the same capacity. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+  one of the same capacity. [source: [[_Sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
 - **A "temporary" storage solution that outperforms the planned permanent
   one is worth keeping**: one household planned a fully enclosed entry-
   storage mezzanine, used open baskets temporarily instead, and kept the
   baskets permanently because the look read as lighter/cozier than the
   planned enclosure would have. General lesson: don't assume the
-  as-designed solution beats a lived-with interim one by default. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+  as-designed solution beats a lived-with interim one by default. [source: [[_Sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
 - **Furniture (console, chest of drawers) sitting below the height of a
   person's extended-arm fingertips reads as leaving the space "free,"**
   even at the same footprint as a taller piece — people perceive personal
   space at roughly arm's-length height; furniture below that line doesn't
-  register as encroaching on it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+  register as encroaching on it. [source: [[_Sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
 - **⚠️ Entry storage depth standards, two distinct cabinet types (Ivan
   Bezrukov / GRADIZ INTERIOR, real Yekaterinburg-market client project,
   added 2026-08-25)**: a shoe cabinet needs only **35cm depth** to fit
@@ -79,7 +79,7 @@ rather than treating either as settled.
   **60cm depth** with two hanging rods (upper + lower level) so
   clothes-on-hangers don't catch the door. Both built with flush,
   handleless doors (same material as the wall where possible) for a
-  minimalist "nothing protrudes" look. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
+  minimalist "nothing protrudes" look. [source: [[_Sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
 - **⚠️ Hallway mirror as a deliberate visual-distraction device** (same
   source): placing a mirror along an unavoidable corridor stretch gives
   the eye a decorative focal point, offsetting a corridor's visual
@@ -106,7 +106,7 @@ holding miscellaneous clutter in practice — use a small closed console
 table or a pull-out drawer sized for keys/tissues/a shoe-cleaning
 sponge instead, and add a raised edge to any open catch-all surface that
 is used, or loose items slide off it. `single-account`, `unverified`.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qt5mQQ6W6Z4_kruglov_storage_50_ideas|YT_qt5mQQ6W6Z4]]]
+[source: [[_Sources/YT_qt5mQQ6W6Z4_kruglov_storage_50_ideas|YT_qt5mQQ6W6Z4]]]
 
 ## Wardrobe Zoning and Sizing (Alla Krol)
 
@@ -158,13 +158,13 @@ wall space alone:
   mismatched doormat added post-occupancy; choose/size it as part of the
   original plan instead.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C-db6yom-IM_alla_krol_entryway_wardrobe_no_clutter|YT_C-db6yom-IM]]]
+[source: [[_Sources/YT_C-db6yom-IM_alla_krol_entryway_wardrobe_no_clutter|YT_C-db6yom-IM]]]
 
 ## Three-Tier Doormat Dust Defense, and a Shoe-Podium Figure (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
 **⚠️ A single doormat isn't enough — Kruglov's own recommended system is three sequential defense layers**: (1) tap/scrape shoes outside the building entrance itself before entering (the outermost layer); (2) a stiff-bristle mat immediately outside the apartment's own front door; (3) a second mat just inside the apartment door. **All three won't be fully effective without regular cleaning of at least the two apartment-adjacent mats** — the system reduces, not eliminates, tracked-in dust and dirt. New to this store — existing entry-mat content (Alla Krol, above) covers planning/sizing a doormat at design stage, not this specific 3-tier layered structure. `single-account`, `unverified`.
 
-**Extends the existing robot-vacuum-compatible shoe-podium note above (from `qt5mQQ6W6Z4`) with a concrete height figure and a routine**: raise the shoe shelf roughly **10cm** above the main floor level specifically so a robot vacuum can run underneath without needing shoes moved first. Recommended routine: before a cleaning run, wipe the shelf itself with a cloth so the robot vacuum then clears whatever dust was swept off it onto the floor below, rather than just running around already-parked shoes. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
+**Extends the existing robot-vacuum-compatible shoe-podium note above (from `qt5mQQ6W6Z4`) with a concrete height figure and a routine**: raise the shoe shelf roughly **10cm** above the main floor level specifically so a robot vacuum can run underneath without needing shoes moved first. Recommended routine: before a cleaning run, wipe the shelf itself with a cloth so the robot vacuum then clears whatever dust was swept off it onto the floor below, rather than just running around already-parked shoes. [source: [[_Sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
 
 ## Security / Smart-Home (Kruglov)
 
@@ -178,6 +178,6 @@ wall space alone:
   only suits a household with synchronized schedules — a poor fit for a
   larger family with staggered schedules; if installed anyway, mount it
   out of normal reach (inside a closet) to prevent accidental triggering.
-- **⚠️ Concrete worked scenario illustrating the confusion above (added 2026-08-28, Round 16)**: a bedroom/walk-in/bathroom zone has both its own local "zone master switch" (kills lights in those 3 rooms together) and the apartment's own whole-apartment exit switch. Real case: partner A turns off the zone master switch at bedtime; partner B wakes first, leaves without turning any bedroom light on, and hits the whole-apartment exit switch on the way out — which turns *on* every light in the apartment except that already-off bedroom zone (since it wasn't "on" for the exit switch to toggle off). Partner A, woken by the sudden light elsewhere, has to work out this exact sequence before realizing the bedroom zone needs its own switch pressed twice (off-then-on) to restore normal lighting — a genuinely confusing multi-switch interaction, not solvable by a quick label. **Practical fix stated directly**: standardize on one single, consistent lighting-control philosophy across the whole apartment (either one master switch full-stop, or none at all) rather than layering a zone master switch on top of a whole-apartment one. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+- **⚠️ Concrete worked scenario illustrating the confusion above (added 2026-08-28, Round 16)**: a bedroom/walk-in/bathroom zone has both its own local "zone master switch" (kills lights in those 3 rooms together) and the apartment's own whole-apartment exit switch. Real case: partner A turns off the zone master switch at bedtime; partner B wakes first, leaves without turning any bedroom light on, and hits the whole-apartment exit switch on the way out — which turns *on* every light in the apartment except that already-off bedroom zone (since it wasn't "on" for the exit switch to toggle off). Partner A, woken by the sudden light elsewhere, has to work out this exact sequence before realizing the bedroom zone needs its own switch pressed twice (off-then-on) to restore normal lighting — a genuinely confusing multi-switch interaction, not solvable by a quick label. **Practical fix stated directly**: standardize on one single, consistent lighting-control philosophy across the whole apartment (either one master switch full-stop, or none at all) rather than layering a zone master switch on top of a whole-apartment one. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
+[source: [[_Sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]

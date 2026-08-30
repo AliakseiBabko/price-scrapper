@@ -31,7 +31,7 @@ likely to rearrange furniture periodically: plan only the basic
 general-lighting layer at construction time, since fixed wiring/outlet
 positions won't move with the furniture later.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gEykawbVyYQ_500lux_zvereva_top10_living_room_layout|YT_gEykawbVyYQ]]]
+[source: [[_Sources/YT_gEykawbVyYQ_500lux_zvereva_top10_living_room_layout|YT_gEykawbVyYQ]]]
 
 ## Dual-Function Default and Adjacency (Architect Vitaly Zlobin, added 2026-08-25)
 
@@ -124,7 +124,7 @@ clearance).
   independent flat-figure data point (LA BURO, added 2026-08-25): 2.5m
   to 4m** from the eye-level point on the sofa back to the screen —
   another practitioner favoring a flat range over the self-scaling rule.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
+  [source: [[_Sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
 - **⚠️ Mounting-height caution**: don't wall-mount a large TV
   unnecessarily high to "save floor space" — forces the viewer to crane
   their neck; keep it at eye level on a low console/stand instead.
@@ -165,7 +165,7 @@ glazing/bidirectional-radiator content on
 [[12_Engineering_and_Systems/analysis/Radiators_and_Convectors|Radiators and Convectors]]
 from an independent source and angle.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gnUErjmtHcY_zlobin_living_room_theory_pt1|gnUErjmtHcY]]]
+[source: [[_Sources/YT_gnUErjmtHcY_zlobin_living_room_theory_pt1|gnUErjmtHcY]]]
 
 ## Corner-Sofa Caution and Deliberate Airiness (Ivan Bezrukov / GRADIZ INTERIOR, added 2026-08-25)
 
@@ -185,7 +185,7 @@ defaulting to it in a genuinely small room specifically:
   rule-break against the instinct to maximize every corner, in service
   of a felt sense of spaciousness over maximum storage yield.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
+`single-account`. [source: [[_Sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
 
 ## Real-Project Critique: Oversized Sofa, TV Cable-Concealment Niche, Hands-Free Smart Controls (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
@@ -195,7 +195,7 @@ defaulting to it in a genuinely small room specifically:
 
 **Voice-controlled hands-free lighting/curtains for a kitchen-adjacent living space, a concrete cooking-scenario use case**: basic smart-home voice control (the presenter's example: "Alice, close the kitchen curtains") lets someone with flour- or dough-covered hands adjust curtains/lighting without touching a physical switch — a specific, relatable justification for voice control beyond generic "convenience," worth citing directly when justifying the added smart-home cost to a client.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
 
 ## Change Log
 

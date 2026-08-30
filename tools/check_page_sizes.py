@@ -20,7 +20,7 @@ how to split it.
 Positive page selector (matches Workstream C's definition so the two stay
 consistent): only files directly under a numbered folder (NN_Name/) or
 directly under NN_Name/analysis/ are considered. Everything else -
-_supporting/knowledge/**, _Archive/**, _Inbox/**, source notes, case
+_Sources/**, _Knowledge/**, _Archive/**, _Inbox/**, source notes, case
 studies, change logs - is out of scope for this checker.
 
 Usage:

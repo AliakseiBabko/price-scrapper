@@ -43,7 +43,7 @@ side by side.
   consider dropping a dedicated bed zone entirely for large wardrobes or
   a walk-in closet instead.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+[source: [[_Sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
 
 **Ekaterina Popova**, working through a worked 3×5m example, reaches the
 same three options through assembly-effort and style-fit reasoning
@@ -67,7 +67,7 @@ instead:
   it matters if the unfolded/disassembled bed would be visible from the
   corridor through an accidentally-open door.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
+[source: [[_Sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
 
 ## Placement, Furniture Selection, and Layout Technique
 
@@ -76,7 +76,7 @@ if the room has a recessed niche near the entry, put the bed there and
 the living/sofa zone nearer the window; if the room is a straight
 walk-through with no recess, put the living/sofa zone in the entry/
 walkway path and the bed further in, near the window, away from entry
-traffic. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+traffic. [source: [[_Sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
 
 Popova's worked example adds concrete furniture-selection technique on
 top of the placement question:
@@ -107,7 +107,7 @@ top of the placement question:
   surfaces, switch material for a supporting piece (e.g. a metal
   nightstand) rather than repeating wood.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
+[source: [[_Sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
 
 ## Zone-Divider Options
 
@@ -118,7 +118,7 @@ dampening); **glass + curtains combined** (the more complete solution —
 glass blocks some sound, curtains add visual privacy); a raised
 platform/podium (mentioned, not elaborated); furniture used as a divider
 (this designer's own least-favored option — blocks too much light to the
-far zone). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+far zone). [source: [[_Sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
 
 Mirlay Glass, a glazing/partition-installer company, contributes a real
 completed installation matching this exact zoning use case: a
@@ -132,7 +132,7 @@ trim strip) **independently corroborates** the top-track-only mounting
 caution already recorded in [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Room-Zoning Partition Methods]]
 from a design-studio source — here from a second, independent glazing/
 partition installer actually building the mechanism, not just
-recommending it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JTFhwaKEQAY_mirlay_glass_telescopic_partition|YT_JTFhwaKEQAY]]]
+recommending it. [source: [[_Sources/YT_JTFhwaKEQAY_mirlay_glass_telescopic_partition|YT_JTFhwaKEQAY]]]
 
 > [!NOTE]
 > **Deep-dive companion page (added 2026-08-25)**: for the specific
@@ -152,7 +152,7 @@ mechanism) — full daytime living-room floor space, folding down at night
 to a complete bed with its own mattress, no daily sheet-stripping. Cites
 multiple Russian-market manufacturers producing this type of unit as of
 filming (2022), and suggests a custom furniture maker if no ready-made
-unit is available locally. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
+unit is available locally. [source: [[_Sources/YT_qHuFie5U65g_fedotova_living_bedroom_combo_rules|YT_qHuFie5U65g]]]
 
 Popova's worked example, which also builds a transformer variant, adds
 construction- and safety-level detail this project's own future build
@@ -172,7 +172,7 @@ should weigh directly:
   physically strike it when opening. Use track lighting instead in this
   configuration.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
+[source: [[_Sources/YT_SG0nbNRdl4c_popova_two_rooms_in_one_bedroom_living|YT_SG0nbNRdl4c]]]
 
 > [!NOTE]
 > **Independent corroboration from a general design-philosophy source
@@ -191,6 +191,6 @@ should weigh directly:
 > tied to particleboard thickness and daily use, and a steel-tube-frame
 > alternative), retention-strap design disagreement, and real combined-
 > room placement reasoning from nine further sources, see
-> [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]'
+> [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]'
 > new "Wall-Bed / Murphy-Bed Mechanism Selection and Reliability" section
 > — directly relevant to this room's own Phase 2 plan.

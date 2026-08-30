@@ -12,9 +12,9 @@ Three distinct noise types, each with a different transmission path and counterm
 - **Impact noise** — an object striking the floor (dropped item, footsteps), heard by the neighbor below.
 - **Structural/percussive noise** — direct mechanical force on a wall (e.g. hammering), which travels through the building's structure and can reach neighbors on floors well below the source, not just the immediate one.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
+[source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
 
-**Effective soundproofing needs both a sound-insulating material and a sound-absorbing material in contact with the sound path** — the two categories serve distinct functions and neither alone is sufficient. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
+**Effective soundproofing needs both a sound-insulating material and a sound-absorbing material in contact with the sound path** — the two categories serve distinct functions and neither alone is sufficient. [source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
 
 ## System Type Taxonomy
 
@@ -23,7 +23,7 @@ Three distinct noise types, each with a different transmission path and counterm
 3. **Acoustic panels** — a distinct dedicated product category.
 4. **Sandwich panels** (e.g. Zips-brand) — factory-laminated: sound-insulating core + rigid GVL face in one unit, giving a finished, load-bearing-capable surface (can hang shelves/frames) without a separate drywall finish step.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
+[source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
 
 ## Decision Framework — 4 Factors Per Surface
 
@@ -31,7 +31,7 @@ Three distinct noise types, each with a different transmission path and counterm
 
 **⚠️ No reliable way exists to calculate exactly how much soundproofing is "enough" for a given apartment in practice.** Manufacturers publish decibel-reduction ratings, but there's no practical way to measure actual incoming noise beforehand and back-calculate a required spec — neither the material manufacturer nor the installer will guarantee a specific noise-reduction outcome.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
+[source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
 
 ## Worked Case — One-Bedroom New-Build, Per-Wall Walkthrough
 
@@ -40,24 +40,24 @@ Three distinct noise types, each with a different transmission path and counterm
 - **Kitchen wall shared with a neighbor, carrying load-bearing cabinets/range hood**: frame-based soundproofing required for load capacity, but a plain insulation-and-drywall frame isn't enough — **add a plywood backing layer or plywood blocking inserts at the specific mounting points** before the drywall skin so heavy items have something solid to anchor into.
 - **Wall bordering an elevator shaft** (typically a hallway/bathroom wall): decide based on what's on the far side — **a closet/wardrobe on the other side may only need a thin membrane**, saving space and cost versus a lived-in room on the far side, which would call for stronger treatment.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
+[source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
 
 ## Floor vs. Ceiling — an Asymmetric Cost Reality
 
-- **Floor soundproofing protects the neighbor below from you** (impact noise) — **~99% of cases use the same rolled-type material**, named products **Shumanet-100** or the waterproofing-capable **Shumanet Hydro-100**. **⚠️ The material must turn up the walls at the perimeter so the poured screed above it never directly contacts the walls** — a physical break preventing impact/vibration transfer between floor and walls. Fast, cheap, effective — now near-universal in renovations, and some property-management companies require it in new builds. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
-- **⚠️ Ceiling soundproofing costs roughly 400-500% more than floor soundproofing for a comparable result** — mostly a labor-cost driver (a rolled floor product is just rolled out; effective ceiling treatment needs a full frame-based build-up). `single-account`, `unverified` cost-multiple figure. Because of this asymmetry, **a common real-world workaround is negotiating with the upstairs neighbor to soundproof their own floor instead** — a downstairs owner sometimes pays for the material and/or provides free installation labor on the neighbor's floor, since it's cheaper and more effective than soundproofing one's own ceiling. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
-- One company's self-reported practice (Ontario, ~95% stretch-ceiling projects): rolled soundproofing applied directly to the structural ceiling, then covered by the stretch-ceiling membrane — a cheap, low-effort combination presented as adequate for most clients, in place of a full frame-based ceiling build. Tag as a self-reported business-practice pattern, not a universal recommendation. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
-- **This channel restates its own "soundproof the neighbor's floor" recommendation a second time (added 2026-08-28)**, with an explicit transmission mechanism this vault hadn't recorded before: impact noise from an upstairs neighbor's footsteps travels partly through the rigid structural connection between the floor slab and the building's concrete columns/walls, not only straight down through the ceiling — so soundproofing only your own ceiling doesn't fully block the wall-borne path. **A narrower fallback named if the neighbor won't cooperate**: soundproof just the wall behind the bed's headboard, if a shared wall exists there — a real, more targeted partial mitigation than the general wall-soundproofing note above. Same-channel restatement (not independent corroboration of itself), but does independently corroborate this store's separate Zemskov-sourced note on `Budgeting_Guide.md` recommending the same floor-vs-ceiling tradeoff from an unrelated channel. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zMu1mAFlVPQ_kruglov_what_you_overpay_for|zMu1mAFlVPQ]]]
+- **Floor soundproofing protects the neighbor below from you** (impact noise) — **~99% of cases use the same rolled-type material**, named products **Shumanet-100** or the waterproofing-capable **Shumanet Hydro-100**. **⚠️ The material must turn up the walls at the perimeter so the poured screed above it never directly contacts the walls** — a physical break preventing impact/vibration transfer between floor and walls. Fast, cheap, effective — now near-universal in renovations, and some property-management companies require it in new builds. [source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
+- **⚠️ Ceiling soundproofing costs roughly 400-500% more than floor soundproofing for a comparable result** — mostly a labor-cost driver (a rolled floor product is just rolled out; effective ceiling treatment needs a full frame-based build-up). `single-account`, `unverified` cost-multiple figure. Because of this asymmetry, **a common real-world workaround is negotiating with the upstairs neighbor to soundproof their own floor instead** — a downstairs owner sometimes pays for the material and/or provides free installation labor on the neighbor's floor, since it's cheaper and more effective than soundproofing one's own ceiling. [source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
+- One company's self-reported practice (Ontario, ~95% stretch-ceiling projects): rolled soundproofing applied directly to the structural ceiling, then covered by the stretch-ceiling membrane — a cheap, low-effort combination presented as adequate for most clients, in place of a full frame-based ceiling build. Tag as a self-reported business-practice pattern, not a universal recommendation. [source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
+- **This channel restates its own "soundproof the neighbor's floor" recommendation a second time (added 2026-08-28)**, with an explicit transmission mechanism this vault hadn't recorded before: impact noise from an upstairs neighbor's footsteps travels partly through the rigid structural connection between the floor slab and the building's concrete columns/walls, not only straight down through the ceiling — so soundproofing only your own ceiling doesn't fully block the wall-borne path. **A narrower fallback named if the neighbor won't cooperate**: soundproof just the wall behind the bed's headboard, if a shared wall exists there — a real, more targeted partial mitigation than the general wall-soundproofing note above. Same-channel restatement (not independent corroboration of itself), but does independently corroborate this store's separate Zemskov-sourced note on `Budgeting_Guide.md` recommending the same floor-vs-ceiling tradeoff from an unrelated channel. [source: [[_Sources/YT_zMu1mAFlVPQ_kruglov_what_you_overpay_for|zMu1mAFlVPQ]]]
 
 ## Floor Membrane Installation Technique
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8CzgwqUKGF8_floor_soundwaterproofing_technique|8CzgwqUKGF8]]] — see that source note for the full detail; folded in here as this page is created rather than left solely in `Durable_Facts.md`.
+[source: [[_Sources/YT_8CzgwqUKGF8_floor_soundwaterproofing_technique|8CzgwqUKGF8]]] — see that source note for the full detail; folded in here as this page is created rather than left solely in `Durable_Facts.md`.
 
 ### A Second Independent Build, with Structural-vs-Airborne Reasoning and a Perimeter-Damper Detail (added 2026-08-24, Sidorik Round 4)
 
 Pavel Sidorik, individual practitioner, own apartment, Belarus (level 1): named bitumen-polymer membrane "Стопзвука М" (ТехноСонус), heat-fused at overlaps, doubles as a waterproofing layer. **His own stated reasoning for prioritizing floor (not ceiling) sound insulation**: structural/impact noise (footsteps, dropped objects, furniture) is far easier to stop at its source floor than to absorb from the receiving neighbor's ceiling below — a first-hand rationale consistent with this page's existing floor-vs-ceiling cost-asymmetry section above, from an unrelated source. Paired with 20mm XPS (rated 21dB absorption on its own per the manufacturer) directly under the screed.
 
-**Perimeter damper strip, a construction detail not yet on this page**: 15cm strips cut from the same membrane, glued to the wall at final screed height, topped with an additional 5mm foamed-polyethylene layer stapled on top — the membrane alone (5mm) is thinner than the ~10mm gap the screed's own linear-expansion movement needs, so the extra layer closes that gap. Runs the entire perimeter of every room getting a screed; trimmed flush and sealed with acoustic sealant once finish work is done. Full technique and the screed build it sits under is on [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring Guide]]. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hN7szX2re2c_sidorik_screed_noise_insulation_ep18|hN7szX2re2c]]]
+**Perimeter damper strip, a construction detail not yet on this page**: 15cm strips cut from the same membrane, glued to the wall at final screed height, topped with an additional 5mm foamed-polyethylene layer stapled on top — the membrane alone (5mm) is thinner than the ~10mm gap the screed's own linear-expansion movement needs, so the extra layer closes that gap. Runs the entire perimeter of every room getting a screed; trimmed flush and sealed with acoustic sealant once finish work is done. Full technique and the screed build it sits under is on [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring Guide]]. [source: [[_Sources/YT_hN7szX2re2c_sidorik_screed_noise_insulation_ep18|hN7szX2re2c]]]
 
 ## Sewer-Riser Vibro-Acoustic Soundproofing (added 2026-08-24, Sidorik Round 4)
 
@@ -65,12 +65,12 @@ Pavel Sidorik, individual practitioner, own apartment, Belarus (level 1): a shar
 
 **⚠️ Key material distinction**: ordinary sound-*absorbing* wrap (foamed polyethylene, mineral wool) removes airborne noise from a pipe but does **not** address the vibration transmitted through the pipe wall itself — a stack specifically needs **vibro-acoustic** soundproofing (engineered to damp vibration, not just absorb air-transmitted sound) to be effectively quieted.
 
-**Named products**: automotive-derived foil-faced, self-adhesive vibration-damping sheet (StandartPlast/StP, a thinner/cheaper "Silver" variant also exists), or the manufacturer's purpose-built **"Noise Block Pipe"** kit sized for one 110mm-diameter, 3m sewer-stack section — pre-cut into 6 sheets, multi-layer (sound-absorbing layer + heavy sound-insulating polymer membrane + heat-insulating face), installed with aluminum mastic tape and plastic clamps rather than glued (a mis-wrap can be un-clamped and redone without wasting material). **Price: 75 BYN ≈ $30** (USD/BYN trailing-6-month average ending 2021-05-19, `currency_converter.py`) for a full one-stack kit — comparable to buying generic automotive sheet material, but pre-sized with no measuring/cutting needed. Extra material is fitted around any cleanout/access ("ревизия") fitting so that point isn't left as an acoustic/vibration gap. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zkM_gea0XVE_sidorik_bathroom_toilet_ventilation|zkM_gea0XVE]]]
+**Named products**: automotive-derived foil-faced, self-adhesive vibration-damping sheet (StandartPlast/StP, a thinner/cheaper "Silver" variant also exists), or the manufacturer's purpose-built **"Noise Block Pipe"** kit sized for one 110mm-diameter, 3m sewer-stack section — pre-cut into 6 sheets, multi-layer (sound-absorbing layer + heavy sound-insulating polymer membrane + heat-insulating face), installed with aluminum mastic tape and plastic clamps rather than glued (a mis-wrap can be un-clamped and redone without wasting material). **Price: 75 BYN ≈ $30** (USD/BYN trailing-6-month average ending 2021-05-19, `currency_converter.py`) for a full one-stack kit — comparable to buying generic automotive sheet material, but pre-sized with no measuring/cutting needed. Extra material is fitted around any cleanout/access ("ревизия") fitting so that point isn't left as an acoustic/vibration gap. [source: [[_Sources/YT_zkM_gea0XVE_sidorik_bathroom_toilet_ventilation|zkM_gea0XVE]]]
 
 ## Real Comparative Decibel Test — Three DIY Ceiling Materials Under a Stretch Ceiling (RemProektMD, added 2026-08-24, Round 2)
 
 > [!NOTE]
-> Chișinău/Moldova channel, region level 2 only. `single-account`, informal DIY decibel-meter-app methodology, not a lab test. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TFu0lu-_rzQ_remproektmd_ceiling_soundproofing_materials|TFu0lu-_rzQ]]]
+> Chișinău/Moldova channel, region level 2 only. `single-account`, informal DIY decibel-meter-app methodology, not a lab test. [source: [[_Sources/YT_TFu0lu-_rzQ_remproektmd_ceiling_soundproofing_materials|TFu0lu-_rzQ]]]
 
 **⚠️ Mineral wool excluded from ceiling soundproofing specifically when it will stay exposed above a stretch ceiling (not boxed behind drywall)**: airflow in the void above a stretch-ceiling membrane can carry loose glass-wool fibers into the air over time — a health hazard distinct from this page's existing System Type Taxonomy notes. Narrower than a blanket anti-mineral-wool rule — applies to the exposed-above-a-stretch-ceiling case specifically.
 
@@ -113,7 +113,7 @@ foot traffic and heavy material bags can otherwise detach the granulate
 from the substrate. **Cost, all-in per m² for the complete build-up**
 (material + labor + the required 6-7cm screed pour): **≈6,000-7,000
 RUB/m² ≈$80-$90/m²**, trailing-6-month USD/RUB average ending
-2026-03-03. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c4mmaLAsDw4_petrishin_screed_soundproofing|YT_c4mmaLAsDw4]]]
+2026-03-03. [source: [[_Sources/YT_c4mmaLAsDw4_petrishin_screed_soundproofing|YT_c4mmaLAsDw4]]]
 
 **Manufacturer spec sheet, a second Шумопласт source with real
 engineering-album figures (Петришин-Строй, real object in Одинцовский
@@ -142,7 +142,7 @@ perimeter method is less convenient than the roll-based alternatives.
 Reinforcement mesh: 5×5cm cells, wire-tied every 20cm. **Material-only
 cost, distinct from the all-in figure above**: one ≈10m²-coverage
 package costs **2,750 RUB (≈275-300 RUB/m², material only)**; matching
-primer **≈450-500 RUB per ~3L**. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ar4HNfWjzh4_petrishin_shumoplast_spec_sheet|YT_ar4HNfWjzh4]]]
+primer **≈450-500 RUB per ~3L**. [source: [[_Sources/YT_ar4HNfWjzh4_petrishin_shumoplast_spec_sheet|YT_ar4HNfWjzh4]]]
 
 ## Partition-Wall Material Sound-Insulation Comparison, dB Figures (added 2026-08-24, Petrishin-Stroi Round 9)
 
@@ -169,7 +169,7 @@ double-layer drywall with an infill is the better choice over any of
 the three masonry options tested here — the company states it plans to
 start defaulting to this build-up for its own future work specifically
 because of this result, a shift from its historical foam-block default.
-`single-account` dB figures, not independently lab-verified. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EQW9y4bNea0_petrishin_partition_material_comparison|EQW9y4bNea0]]]
+`single-account` dB figures, not independently lab-verified. [source: [[_Sources/YT_EQW9y4bNea0_petrishin_partition_material_comparison|EQW9y4bNea0]]]
 
 **A related ensuite-bathroom-placement rule, private-house architect
 source**: never place bathroom plumbing fixtures against the thin
@@ -179,8 +179,8 @@ instead where two ensuite bedrooms sit side by side, which also carries
 utility routing more cleanly. A placement rule (which wall to put
 plumbing against) rather than a construction technique, so recorded here
 only as a cross-reference — full detail on
-[[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]].
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcibYG4jtbs_zlobin_bedroom_layout_part1_theory|AcibYG4jtbs]]]
+[[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]].
+[source: [[_Sources/YT_AcibYG4jtbs_zlobin_bedroom_layout_part1_theory|AcibYG4jtbs]]]
 
 ## Full Frame-System Installation Technique — Wall and Ceiling, Named ASTic/Acusti Group System (Петришин-Строй, added 2026-08-24, Round 10)
 
@@ -292,7 +292,7 @@ installers may skip or not know about.
   irritation during handling (less than mineral wool, but still
   unpleasant) — a protective coverall is worn.
 
-[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rEe5LHWj4fI_petrishin_wall_soundproofing_frame|rEe5LHWj4fI]] (wall), [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_O4pGx8ESHDU_petrishin_ceiling_soundproofing_frame|O4pGx8ESHDU]] (ceiling)]
+[sources: [[_Sources/YT_rEe5LHWj4fI_petrishin_wall_soundproofing_frame|rEe5LHWj4fI]] (wall), [[_Sources/YT_O4pGx8ESHDU_petrishin_ceiling_soundproofing_frame|O4pGx8ESHDU]] (ceiling)]
 
 ## ZIPS Panel System — a Genuinely Distinct Installation Approach from the Frame System (Петришин-Строй, added 2026-08-24, Round 11)
 
@@ -369,7 +369,7 @@ manufacturer-training relationship).
   effectiveness; cons are cost ("not cheap, if not outright expensive")
   and a genuinely irritant work environment (masks/gloves needed for
   cutting GVL and handling silicone/tape) despite looking simple.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hrhJ6Y8hhPU_petrishin_zips_panel_soundproofing|YT_hrhJ6Y8hhPU]]]
+[source: [[_Sources/YT_hrhJ6Y8hhPU_petrishin_zips_panel_soundproofing|YT_hrhJ6Y8hhPU]]]
 
 ## Full Frameless (Sonoplat) Installation Technique — a Genuinely Distinct Method From the Frame System (TimRemont, added 2026-08-25, Small Bedroom batch)
 
@@ -433,7 +433,7 @@ existing Decision-Framework factor #2.
   clean — reported directly to the product's manufacturer as an
   unresolved process gap.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_CVqedVQlZZU_timremont_frameless_soundproofing|CVqedVQlZZU]]]
+[source: [[_Sources/YT_CVqedVQlZZU_timremont_frameless_soundproofing|CVqedVQlZZU]]]
 
 ## Door-Sill Soundproofing Gasket — a Technique Not Yet Covered Above
 
@@ -448,7 +448,7 @@ tradeoff**: the same seal that blocks sound also blocks the passive
 under-door airflow a room may depend on for ventilation — this
 practitioner's own workaround is propping the door slightly open, or
 relying on the room's AC/mechanical ventilation instead of passive
-under-door airflow. `single-account`, no named product. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_U95vMOOhKH8_timremont_39sqm_walkin_office_zoning|U95vMOOhKH8]]]
+under-door airflow. `single-account`, no named product. [source: [[_Sources/YT_U95vMOOhKH8_timremont_39sqm_walkin_office_zoning|U95vMOOhKH8]]]
 
 ## Ceiling-Only Soundproofing Is Substantially Ineffective (Kruglov/Ontario, Round 15, added 2026-08-28)
 
@@ -460,7 +460,7 @@ worth its cost as a standalone job — do it in combination with wall
 soundproofing, or skip it. Extends this page's existing direct/indirect-
 transmission framing (below) with an explicit "ceiling-only is
 profanation" verdict. `single-account`, `unverified`, Ontario (Nikita
-Kuznetsov presenting). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
+Kuznetsov presenting). [source: [[_Sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
 
 ## Noise Transmission Mechanics, Window Levers, and a Real Cost Case (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ / Vladimir Amelchenko, added 2026-08-28, Round 3)
 
@@ -475,9 +475,9 @@ St. Petersburg (channel level 2), low promotional ratio, `c_mql2Uhl7k` (2025-08-
 - **⚠️ "No project, no soundproofing" rule**: soundproofing without an engineered project (brief intake → on-site measurement where needed → material selection matched to the specific noise-control goal and budget → installation) is "money thrown to the wind." A real 2-piano apartment case: partners designed a project for that specific goal; **total cost ≈2,000,000 RUB (≈$24,200)**, inclusive of materials, labor, and the screed demolition/prep it required (not a materials-only figure).
 - **⚠️ Install-quality-vs-material-cost warning**: even expensive materials installed unprofessionally (sloppy acoustic-sealant work at joints/penetrations named specifically) can void the whole system's effective performance — a client can lose the full material cost to poor installation technique regardless of material quality.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c_mql2Uhl7k_sbk_soundproofing_explainer|c_mql2Uhl7k]]]
+[source: [[_Sources/YT_c_mql2Uhl7k_sbk_soundproofing_explainer|c_mql2Uhl7k]]]
 
 ## Panel Handling and Wall-Build QC
 
 - **Sound-insulating panel cut-edge taping rule**: any cut edge of a sand-filled sound-insulating panel must be taped immediately with paper tape — an untaped cut edge lets the sand filler spill out, degrading acoustic performance (in the practitioner's words, turning the panel into "a very expensive piece of cardboard"). [source: `yt_fnTjaXPEDDE`]
-- **Top-joint (wall-to-ceiling) technique for soundproofing/strength**: don't try to fully pack the top gap with block adhesive via trowel — a ~5mm ungapped strip reliably remains regardless of care, and delamination reappears over time even if forced full. Instead wait the full 48-hour adhesive cure, then fill the top joint with professional polyurethane foam as two separate continuous beads (one per wall face), forming an unbroken perimeter seal — even a small gap here is a real soundproofing failure point. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OR0Vk7V6zeo_zems_foam_block_partition_masonry|OR0Vk7V6zeo]]] (see [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]] for the full masonry context this technique is drawn from).
+- **Top-joint (wall-to-ceiling) technique for soundproofing/strength**: don't try to fully pack the top gap with block adhesive via trowel — a ~5mm ungapped strip reliably remains regardless of care, and delamination reappears over time even if forced full. Instead wait the full 48-hour adhesive cure, then fill the top joint with professional polyurethane foam as two separate continuous beads (one per wall face), forming an unbroken perimeter seal — even a small gap here is a real soundproofing failure point. [source: [[_Sources/YT_OR0Vk7V6zeo_zems_foam_block_partition_masonry|OR0Vk7V6zeo]]] (see [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]] for the full masonry context this technique is drawn from).

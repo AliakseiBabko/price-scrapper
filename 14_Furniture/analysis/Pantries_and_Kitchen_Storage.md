@@ -108,7 +108,7 @@ opposing shelf runs, 100cm recommended, for an adult to turn around).
 range, 40cm+ crosses into heavy-duty warehouse-style shelving more
 suited to a garage/workshop than a household pantry.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_t9XmjCGO1Tw_zlobin_pantry_theory_house_kitchen|YT_t9XmjCGO1Tw]]]
+[source: [[_Sources/YT_t9XmjCGO1Tw_zlobin_pantry_theory_house_kitchen|YT_t9XmjCGO1Tw]]]
 
 ## Pantry Entry-Point Placement (Cross-Referenced, Same Batch)
 
@@ -118,4 +118,4 @@ rule worth recording here: **the entry point into a pantry matters as
 much as its gross floor area** — entering a small under-stair pantry
 from its narrow/cornered end can leave as little as ~1-1.2m of genuinely
 usable depth, while a centered entry point splits the same footprint
-into two independently usable storage zones. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uJ6l8t5TpwY_zlobin_guest_kids_practice_11x9house|YT_uJ6l8t5TpwY]]]
+into two independently usable storage zones. [source: [[_Sources/YT_uJ6l8t5TpwY_zlobin_guest_kids_practice_11x9house|YT_uJ6l8t5TpwY]]]

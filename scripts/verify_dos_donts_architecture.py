@@ -36,12 +36,12 @@ def verify():
     # Paths updated 2026-07-31 to match the 11_Budget_and_Planning reorg (top-level
     # Budgeting_Guide.md/Renovation_Sequence.md; the old Cost_Saving_Strategies.md and
     # Master_Budgeting_Guide.md names no longer exist - the content was folded into
-    # Budgeting_Guide.md itself, with full detail preserved under _supporting/analysis/).
+    # Budgeting_Guide.md itself, with full detail preserved under 11_Budget_and_Planning/analysis/).
     key_target_docs = [
-        r"11_Budget_and_Planning\_supporting\analysis\cost_saving_strategies_full.md",
+        r"11_Budget_and_Planning\analysis\cost_saving_strategies_full.md",
         r"11_Budget_and_Planning\Budgeting_Guide.md",
         r"11_Budget_and_Planning\Renovation_Sequence.md",
-        r"11_Budget_and_Planning\_supporting\analysis\Revit_AutoCAD_Integration_Strategy.md",
+        r"00_Master\Revit_AutoCAD_Integration_Strategy.md",
         r"00_Master\exchange_rates_reference.md"
     ]
 

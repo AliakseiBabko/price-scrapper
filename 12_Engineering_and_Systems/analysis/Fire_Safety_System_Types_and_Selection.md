@@ -1,6 +1,6 @@
 # Fire Safety — System Types & Selection
 
-Detail page for [[12_Engineering_and_Systems/analysis/Fire_Safety_and_Smoke_Detection|Fire Safety & Smoke Detection]]. Primary source: Nikolai (Системы безопасности и связи АПС, СОУЭ, ОС, СКС), a fire-alarm-systems trainer/specialist channel. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rsTdXaLenEw_nikolai_fire_detector_types|rsTdXaLenEw]]]
+Detail page for [[12_Engineering_and_Systems/analysis/Fire_Safety_and_Smoke_Detection|Fire Safety & Smoke Detection]]. Primary source: Nikolai (Системы безопасности и связи АПС, СОУЭ, ОС, СКС), a fire-alarm-systems trainer/specialist channel. [source: [[_Sources/YT_rsTdXaLenEw_nikolai_fire_detector_types|rsTdXaLenEw]]]
 
 ## Addressable vs. Non-Addressable Systems
 

@@ -16,7 +16,7 @@ apartment, region unresolved) demolished the wall separating a small,
 isolated Soviet-era-style entryway from the living room, converting to an
 open "European-style" layout. Stated reasons: the isolated entryway was
 too cramped to turn around in (the household has two dogs) and received
-very little natural light. `single-account`, real project. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
+very little natural light. `single-account`, real project. [source: [[_Sources/YT_YarbTzTfq6I_interior_nalitso_old_fund_replan_case|YT_YarbTzTfq6I]]]
 
 Olga Kachanova's featured household (real 53m² apartment, individual-
 project building, **West Moscow, 2011** — level-1 region confirmed) lives
@@ -43,7 +43,7 @@ The "dirty entry zone next to food prep" worry was tested against 5 real
 years of living in this layout: never actually a problem for this
 household — but explicitly attributed to their own lifestyle (little
 tracked-in dirt/mud), not a general reassurance that this layout is
-always fine for any household. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
+always fine for any household. [source: [[_Sources/YT_uvUmZuXgLtU_kachanova_kitchen_in_hallway_case|YT_uvUmZuXgLtU]]]
 
 A partial wall segment directly abutting/splitting a window in half — a
 defect pattern the ИНТЕРЬЕР НАЛИЦО household describes as common across
@@ -70,7 +70,7 @@ than fully rebuilt, since fixing it properly would have required much
 more demolition and rerouting shared infrastructure — **a generalizable
 principle**: weigh the "blast radius" of a fully proper fix against
 accepting a smaller visible compromise, especially near shared-building
-systems. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dsBkqzhX08I_ispanskiy_remont_hallway_full_reno|YT_dsBkqzhX08I]]]
+systems. [source: [[_Sources/YT_dsBkqzhX08I_ispanskiy_remont_hallway_full_reno|YT_dsBkqzhX08I]]]
 
 ## Hallway Proportion-Control Techniques (Anuta Vlady)
 
@@ -119,7 +119,7 @@ specifically:
   that's not the goal; orient/place a mirror to expand width instead when
   length is already the problem.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
+[source: [[_Sources/YT__6E5wt-PfqQ_anuta_vlady_narrow_hallway_design|YT__6E5wt-PfqQ]]]
 
 ## Narrow-Corridor Segmentation (Alla Krol)
 
@@ -130,7 +130,7 @@ so each reads closer to a square proportion rather than one uninterrupted
 tunnel — a mirrored "narrow point" segment can bridge two wider segments.
 This is a coarser-grained companion technique to Anuta Vlady's own
 proportion-control rules above (color-blocking, flooring direction), not
-a contradiction of them. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C-db6yom-IM_alla_krol_entryway_wardrobe_no_clutter|YT_C-db6yom-IM]]]
+a contradiction of them. [source: [[_Sources/YT_C-db6yom-IM_alla_krol_entryway_wardrobe_no_clutter|YT_C-db6yom-IM]]]
 
 ## Furniture-and-Lighting Composition Zoning (Квартиранты, added 2026-08-25)
 
@@ -164,7 +164,7 @@ zones read as distinct even with no physical wall between them — the same
 above, implemented through furniture/ceiling color instead. A wall-mounted
 picture with dedicated LED backlighting, placed opposite a bathroom door,
 does double duty as decor and as general corridor illumination for an
-under-lit spot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sAXC1hn8u9A_kvartiranty_hallway_wall_prep_electrical|YT_sAXC1hn8u9A]]]
+under-lit spot. [source: [[_Sources/YT_sAXC1hn8u9A_kvartiranty_hallway_wall_prep_electrical|YT_sAXC1hn8u9A]]]
 
 ## Zone-Divider Alternative to a Hard Wall
 

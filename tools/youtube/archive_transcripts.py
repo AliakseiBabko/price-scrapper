@@ -21,7 +21,7 @@ Usage:
 Expects each transcript in <inbox_dir> to have a same-stem `.meta.json`
 sidecar (as written by youtube-transcript-fetch's fetch_youtube_transcript.py)
 containing at least `video_id` and `sha256`. For each one:
-  1. Find the source note under 11_Budget_and_Planning/_supporting/knowledge/
+  1. Find the source note under _Knowledge/
      sources/ whose frontmatter `video_id:` matches.
   2. Derive the archive slug from that note's own filename (the part after
      `YT_<video_id>_` and before `.md`) - keeps the archived transcript's
@@ -48,13 +48,7 @@ from preflight_playlist import load_known_ids_from_notes  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE_DIR = REPO_ROOT / "_Archive" / "processed_sources"
-SOURCE_NOTES_DIR = (
-    REPO_ROOT
-    / "11_Budget_and_Planning"
-    / "_supporting"
-    / "knowledge"
-    / "sources"
-)
+SOURCE_NOTES_DIR = REPO_ROOT / "_Sources"
 
 INBOX_DATE_PREFIX_RE = re.compile(r"^(\d{8})_")
 NOTE_FILENAME_RE = re.compile(r"^YT_(.+?)_([^_]+(?:_[^_]+)*)\.md$")

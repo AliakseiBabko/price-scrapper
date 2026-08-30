@@ -10,11 +10,11 @@ Part of [[10_Balcony/Balcony_Guide|Balcony Guide]].
 > this project's own unheated plan** (see [[10_Balcony/Balcony_Guide|Balcony Guide]]'s
 > Family Needs section), the same way the Zemskov radiator-relocation
 > content on [[10_Balcony/analysis/Glazing_and_Structural_Work|Glazing & Structural Work]]
-> is retained for reference despite not being adopted. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Qt4uGvGRYT0_petrishin_balcony_insulation|Qt4uGvGRYT0]]]
+> is retained for reference despite not being adopted. [source: [[_Sources/YT_Qt4uGvGRYT0_petrishin_balcony_insulation|Qt4uGvGRYT0]]]
 
 - **Fundamental principle**: insulation conserves heat, it doesn't generate it — pointless without a real heat source. **Water/hydronic radiators are illegal on a balcony/loggia** — independently corroborates the Glazing page's Zemskov-sourced legal-risk finding with a second, unrelated company's own stated practice. Electric radiator is the legal alternative; recommended combination (where heating is wanted) is heated floor + electric radiator.
 - **Window glazing is a hard prerequisite independent of insulation thickness** — even 10cm of two-layer insulation is pointless behind thin, draft-prone frames. Double-pane ("двухкамерный") glazing from a reputable, genuinely non-drafting manufacturer is non-negotiable.
-- **Insulation-plus-glazing effectiveness verified in practice, not just claimed** (Петришин-Строй-featured case, region level 2, added 2026-08-24, Round 6): a fully insulated balcony (пеноплекс on floor/walls/ceiling, heated floor, tension ceiling, upgraded glazing) stayed comfortable during finishing work even before radiators/heating were connected — a real-world confirmation that insulation+glazing alone can hold heat if done correctly, before any active heat source is even running. Glazing spec used: 70mm-profile REHAU frame (matches the Glazing page's Zemskov-sourced 70mm floor) with a double-chamber glass unit; the source explicitly warns that a thinner single-chamber glass unit risks freezing/heat loss at the glazing itself even with a correct frame. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
+- **Insulation-plus-glazing effectiveness verified in practice, not just claimed** (Петришин-Строй-featured case, region level 2, added 2026-08-24, Round 6): a fully insulated balcony (пеноплекс on floor/walls/ceiling, heated floor, tension ceiling, upgraded glazing) stayed comfortable during finishing work even before radiators/heating were connected — a real-world confirmation that insulation+glazing alone can hold heat if done correctly, before any active heat source is even running. Glazing spec used: 70mm-profile REHAU frame (matches the Glazing page's Zemskov-sourced 70mm floor) with a double-chamber glass unit; the source explicitly warns that a thinner single-chamber glass unit risks freezing/heat loss at the glazing itself even with a correct frame. [source: [[_Sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 - **Material comparison**: пеноплекс ("Комфорт" variant recommended for a loggia) is the default — bonds well to concrete/brick, needs far less thickness than mineral wool for the same effect (mineral wool eats too much of a small loggia's floor area). Пенофол (foil-faced reflective roll insulation) is layered specifically at heat-source locations (behind a radiator, under a heated floor) to reflect heat back into the room.
 - **Пеноплекс thickness rule**: minimum 5cm single-layer; if doing two layers, 2.5cm each with the second layer's seams staggered/offset against the first layer's — eliminates a straight-through cold path at any single seam.
 - **Heated-floor-over-insulation stack, with a named failure mode it avoids**: пеноплекс → пенофол → aquapanel (moisture-resistant cement board) → heated-floor cable → finish flooring. Aquapanel is mandatory — a heated-floor cable installed directly onto bare пеноплекс risks the insulation itself degrading from direct heat. Screed over this stack needs a minimum 5cm thickness or it risks detaching/cracking off the underlying пенофол layer; a thicker cable-heated screed also acts as a thermal accumulator (slower to heat, holds heat longer) — a real tradeoff, not a pure downside.
@@ -38,7 +38,7 @@ cupping/gapping, dimensionally stable under heat/humidity cycling.
 source addresses directly is installation method (glued-down vs.
 floating-with-expansion-gap) — recorded as an open two-source
 contradiction on the same underlying question, not silently resolved.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggia_insulation_revisit|extraction note]]]
+[source: [[_Sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggia_insulation_revisit|extraction note]]]
 
 ## ⚠️ Real Measured Comparison: Insulation + Glazing Without Active Heating (Domamaster.com, added 2026-08-25)
 
@@ -83,7 +83,7 @@ demolished: build a new gas-block parapet in front of it with a 5-10cm
 insulation break, and mount new glazing on the new block parapet instead
 — moves the glazing's fixing point into the warm zone and removes a
 windowsill freeze zone, at the cost of a narrower windowsill.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rmfwTnA2tCA_domamaster_3_balcony_thermal_comparison|extraction note]]]
+[source: [[_Sources/YT_rmfwTnA2tCA_domamaster_3_balcony_thermal_comparison|extraction note]]]
 
 ## Further Independent Corroboration (Большая Стройка, added 2026-08-25)
 
@@ -94,7 +94,7 @@ the first layer's (stated explicitly as done "to rule out any random
 drafts") and that furring/battens don't create a cold bridge as long as
 they're foam-sealed at their fasteners and the finish material never
 directly touches the metal frame once insulation is built up over it.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2rOr5Lwt7kA_bolshaya_stroyka_loggia_storage_closet|extraction note]]]
+[source: [[_Sources/YT_2rOr5Lwt7kA_bolshaya_stroyka_loggia_storage_closet|extraction note]]]
 
 ## Independent Corroboration + Full Two-Layer Install Sequence (Forcemontage, added 2026-08-25)
 
@@ -126,7 +126,7 @@ technique of gluing-only + weighting with dry-mix bags during cure
 explicitly capped at 2cm deviation before it's treated as a real problem,
 and a sequencing tip to leave a ~20cm floor-edge strip unfinished while
 doing ceiling work, so ladders/stools aren't loaded directly onto
-finished floor insulation before it's structurally backed. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_09G3Q-LuD_s_forcemontage_penoplex_two_layer_install|extraction note]]]
+finished floor insulation before it's structurally backed. [source: [[_Sources/YT_09G3Q-LuD_s_forcemontage_penoplex_two_layer_install|extraction note]]]
 
 ## Independent Corroboration: пеноплекс 5cm Thickness Rule (added 2026-08-25)
 
@@ -139,7 +139,7 @@ above, not a repeated claim from the same company. Also states a
 practical seasonal-timing heuristic: **insulate/glaze in winter, not
 summer** — a draft or gap is only detectable when it's actually cold
 outside, so a summer installation risks an undetected leak that only
-surfaces (and requires costly rework) once winter arrives. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AI6gdNR_LiE_moskovskie_balkony_wood_paneling_case|extraction note]]]
+surfaces (and requires costly rework) once winter arrives. [source: [[_Sources/YT_AI6gdNR_LiE_moskovskie_balkony_wood_paneling_case|extraction note]]]
 
 ## New Insulation Material: ТехноНИКОЛЬ "Логикпир" PIR Board (added 2026-08-25)
 
@@ -157,4 +157,4 @@ adhesive only, no mechanical anchors — see the alternative anchor-free
 mounting technique on
 [[10_Balcony/analysis/Glazing_and_Structural_Work|Glazing & Structural Work]].
 `single-account`, ~1 season of use at time of filming plus prior use in a
-garage/sauna context. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggia_insulation_revisit|extraction note]]]
+garage/sauna context. [source: [[_Sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggia_insulation_revisit|extraction note]]]

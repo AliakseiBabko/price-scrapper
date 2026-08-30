@@ -42,7 +42,7 @@ narrow bedroom.
   irregular geometry directly. Anuta Vlady, `ZlkBfwlhYFU` (St. Petersburg,
   pentagonal bedroom) — complements this store's existing trapezoidal-
   bedroom case (`RF6FdHk_jgE`, on
-  [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]])
+  [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]])
   with a genuinely different technique (distract via direction, rather
   than reshape).
 - **Floor-thickness-matching rule for a partial flooring replacement**:

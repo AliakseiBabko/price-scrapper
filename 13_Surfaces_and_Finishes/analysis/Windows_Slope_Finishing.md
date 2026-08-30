@@ -4,28 +4,28 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]]. Covers slope material sele
 
 ## Why Plastered Slopes Are Never Appropriate
 
-**Three slope types compared: insulated sandwich-panel, decorative (thin plastic, no insulation), and plastered.** Plastered slopes are stated as never appropriate for a PVC window, for four mechanism-based reasons: [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nb3L-k69yx8_pvc_window_slope_sandwich_panel_technique|nb3L-k69yx8_pvc_window_s]]]
+**Three slope types compared: insulated sandwich-panel, decorative (thin plastic, no insulation), and plastered.** Plastered slopes are stated as never appropriate for a PVC window, for four mechanism-based reasons: [source: [[_Sources/YT_nb3L-k69yx8_pvc_window_slope_sandwich_panel_technique|nb3L-k69yx8_pvc_window_s]]]
 
 1. **Thermal-expansion crack, structural mismatch**: PVC and plaster have different thermal-expansion coefficients, and no sealant bonds well to both simultaneously — a crack reliably forms along the frame-to-plaster joint (and sill-to-plaster joint) regardless of installer skill.
 2. **Plaster itself cracks over time even done well** — no installer can deliver a plastered slope guaranteed crack-free for even 5 years, against the window's own 10-20 year rating; painted plaster also yellows (visible within ~1 year, pronounced by 3-4 years).
 3. **No closing/retaining contour is possible on a plastered slope** — the cut edge of wallpaper terminating at the slope is always exposed and will eventually peel.
 4. **Plastering forces the installation foam joint to be trimmed thin/flush** — the frame-to-wall foam joint is already this system's known weakest point and should always be maximized, never thinned; plastering forces exactly the wrong compromise.
 
-Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Independent corroboration (added 2026-08-19)**: a second, independent source confirms the paint-yellowing mechanism above specifically — even top-tier paint on a plastered slope yellows over time, while the frame-edge and plane-cracking failure modes can each individually be avoided with care; yellowing cannot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
+Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Independent corroboration (added 2026-08-19)**: a second, independent source confirms the paint-yellowing mechanism above specifically — even top-tier paint on a plastered slope yellows over time, while the frame-edge and plane-cracking failure modes can each individually be avoided with care; yellowing cannot. [source: [[_Sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
 
-RemProektMD/Andrei reports: **A third, independent corroboration (added 2026-08-24), from a Chișinău/Moldova channel unrelated to Zemstandart** — for budget renovation work specifically, plastic returns (ordered together with the window) are preferred over plastered returns for the same underlying reason already documented above: a plastered return develops a crack at the frame-to-plaster joint from seasonal thermal/humidity cycling that must be periodically resealed, a defect plastic returns don't develop. Also notes plastered returns cost meaningfully more (plaster, foam-board insulation, putty, mesh tape, corner beading, paint) even though they can look marginally better. `single-account`, region level 2 only — kept as an independent-channel corroboration, not blended with the Zemstandart figures above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
+RemProektMD/Andrei reports: **A third, independent corroboration (added 2026-08-24), from a Chișinău/Moldova channel unrelated to Zemstandart** — for budget renovation work specifically, plastic returns (ordered together with the window) are preferred over plastered returns for the same underlying reason already documented above: a plastered return develops a crack at the frame-to-plaster joint from seasonal thermal/humidity cycling that must be periodically resealed, a defect plastic returns don't develop. Also notes plastered returns cost meaningfully more (plaster, foam-board insulation, putty, mesh tape, corner beading, paint) even though they can look marginally better. `single-account`, region level 2 only — kept as an independent-channel corroboration, not blended with the Zemstandart figures above. [source: [[_Sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
 
 ## Exception: Bay/Oriel (Эркерное) Windows — Plastered Is the Correct Choice Here (added 2026-08-19)
 
 > [!NOTE]
-> Refines, doesn't contradict, the "never appropriate" rule above — this is the one window geometry where the general recommendation reverses. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
+> Refines, doesn't contradict, the "never appropriate" rule above — this is the one window geometry where the general recommendation reverses. [source: [[_Sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
 
 On a non-rectangular (angled/broken-plane) window opening, a plastic slope's snap-together trim system produces large, clearly visible seams at each angled corner joint. A visible seam is tolerable on a **sill** (occupants are already used to seeing a sill's connector profile there, and it yellows more slowly at that location) but conspicuous — and worsening as it yellows — on the **vertical/head slopes** of the same bay-window opening. On this specific geometry, the usual crack/yellowing downsides of a plastered slope are explicitly the lesser problem versus large visible plastic-trim seams: **reverse the general material recommendation for a bay/oriel window specifically**, and use plastered slopes there.
 
 ## Trim-Free Premium-Look Finish for Plastic Slopes (added 2026-08-19)
 
 > [!NOTE]
-> A cosmetic finish variant of the standard sandwich-panel technique below — not a competing installation method, and not a durability upgrade. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
+> A cosmetic finish variant of the standard sandwich-panel technique below — not a competing installation method, and not a durability upgrade. [source: [[_Sources/YT_LK23SSRK_zo_plastered_vs_plastic_slopes_164|note]]]
 
 To make a plastic slope read as plastered/premium rather than the cheaper-looking standard plastic install: **omit connector profiles and corner trim entirely.** Fit the sandwich panel (8mm thick in the worked example) directly, using a guide strip only to true the panel relative to the frame; trim the panel's own edge cleanly, then skim/putty it so wallpaper can be applied right up to the corner with no visible plastic trim strip at all. **Caution**: this finish doesn't remove the underlying risk that a hard door impact against the wall can delaminate wallpaper near the slope edge — true of plastic and plastered slopes alike, unrelated to whether trim is used.
 
@@ -42,20 +42,20 @@ Legitimate specifically because insulation/soundproofing isn't the point at thes
 2. **True sandwich-panel construction (foam core)**, never hollow-core — hollow panels show visible internal reinforcing-rib lines and insulate far worse.
 3. **A closing/retaining perimeter contour**, not just butted-and-puttied — for appearance and to prevent wallpaper's cut edge peeling.
 4. That contour must be a **snap-together two-piece profile (inner J-profile + outer profile), never glued** — glued corner trim eventually detaches from a heavy sash's repeated impact; a snap-fit system flexes and returns. The same snap system also lets an installer lift and re-tuck wallpaper edges cleanly during later repainting.
-5. **Both panel and profile hardware must be primary (virgin) plastic, never secondary (recycled)** — secondary plastic has unknown composition and visibly yellows within a few years (real example: window-sill end-caps, commonly secondary plastic, yellow against a still-white sill within ~3 years). **Independently corroborated and extended to window trim strips specifically (2026-08-19)**: a real defect found installers leaving the original frame's protective nail-strip in place, puttying/plastering over it, then filling the resulting gap with a secondary-plastic infill strip — that strip visibly yellowed within 2-3 years and could never be restored to white, unlike the frame's own primary-plastic material. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_o7lGqaUuGm0_fake_renovation_scam_walkthrough_214|note]]]
+5. **Both panel and profile hardware must be primary (virgin) plastic, never secondary (recycled)** — secondary plastic has unknown composition and visibly yellows within a few years (real example: window-sill end-caps, commonly secondary plastic, yellow against a still-white sill within ~3 years). **Independently corroborated and extended to window trim strips specifically (2026-08-19)**: a real defect found installers leaving the original frame's protective nail-strip in place, puttying/plastering over it, then filling the resulting gap with a secondary-plastic infill strip — that strip visibly yellowed within 2-3 years and could never be restored to white, unlike the frame's own primary-plastic material. [source: [[_Sources/YT_o7lGqaUuGm0_fake_renovation_scam_walkthrough_214|note]]]
 
-**Named common installer shortcut, explicitly flagged as never acceptable**: skipping the closing contour entirely — butting a raw hand-cut sandwich-panel edge to the wall, puttying, wallpapering over. Three concrete failure mechanisms: hand-cut edges are visibly wavy once finished; putty/wallpaper bonds far better to wall than to a panel's raw cut edge, so the joint reliably peels; a sandwich panel is far softer/more flexible than plaster, so a heavy sash's repeated impact flexes it enough to crack the puttied seam over time. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nb3L-k69yx8_pvc_window_slope_sandwich_panel_technique|nb3L-k69yx8_pvc_window_s]]]
+**Named common installer shortcut, explicitly flagged as never acceptable**: skipping the closing contour entirely — butting a raw hand-cut sandwich-panel edge to the wall, puttying, wallpapering over. Three concrete failure mechanisms: hand-cut edges are visibly wavy once finished; putty/wallpaper bonds far better to wall than to a panel's raw cut edge, so the joint reliably peels; a sandwich panel is far softer/more flexible than plaster, so a heavy sash's repeated impact flexes it enough to crack the puttied seam over time. [source: [[_Sources/YT_nb3L-k69yx8_pvc_window_slope_sandwich_panel_technique|nb3L-k69yx8_pvc_window_s]]]
 
 ## Splay Angle: the 35mm Standard (added 2026-08-19)
 
 > [!NOTE]
-> A short, single-topic, high-precision source — despite the "how not to" title, a purely positive numeric-standard explainer. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XmtGo4BE1bw_window_slope_splay_angle_092|note]]]
+> A short, single-topic, high-precision source — despite the "how not to" title, a purely positive numeric-standard explainer. [source: [[_Sources/YT_XmtGo4BE1bw_window_slope_splay_angle_092|note]]]
 
 A slope's "splay" — the angle relative to the window frame so light spreads into the room and the slope reads as intentionally flared, rather than either flat/boxy or visibly caved-in — is **measured in centimeters at the widest point, not in degrees** (degrees are impractical to measure accurately on-site with hand tools). Method: set a square against the frame at the corner, then measure the maximum gap between the square's edge and the slope's actual surface.
 
-**Correct figure: 35mm, valid across a slope width range of 15-50cm** (covers effectively any apartment's window) — this settles a commonly-disputed figure (installers and clients often cite anywhere from 10 to 30 degrees, an already-wrong unit). At 35mm the slope reads as properly splayed without looking either flat ("coffin" profile) or excessively flared ("gun-slit" profile). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XmtGo4BE1bw_window_slope_splay_angle_092|XmtGo4BE1bw_window_slope]]]
+**Correct figure: 35mm, valid across a slope width range of 15-50cm** (covers effectively any apartment's window) — this settles a commonly-disputed figure (installers and clients often cite anywhere from 10 to 30 degrees, an already-wrong unit). At 35mm the slope reads as properly splayed without looking either flat ("coffin" profile) or excessively flared ("gun-slit" profile). [source: [[_Sources/YT_XmtGo4BE1bw_window_slope_splay_angle_092|XmtGo4BE1bw_window_slope]]]
 
-**Asymmetry tolerance**: the two side slopes must match each other's splay exactly, but the top slope may differ from the sides by 5-10mm without being a defect — a top slope splayed slightly *more* than the sides (up to +5-10mm) actually looks better, not worse, since it's viewed from below at a steeper angle and reads as straighter than it measures. Don't insist an installer rework a top slope to match the sides exactly. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XmtGo4BE1bw_window_slope_splay_angle_092|XmtGo4BE1bw_window_slope]]]
+**Asymmetry tolerance**: the two side slopes must match each other's splay exactly, but the top slope may differ from the sides by 5-10mm without being a defect — a top slope splayed slightly *more* than the sides (up to +5-10mm) actually looks better, not worse, since it's viewed from below at a steeper angle and reads as straighter than it measures. Don't insist an installer rework a top slope to match the sides exactly. [source: [[_Sources/YT_XmtGo4BE1bw_window_slope_splay_angle_092|XmtGo4BE1bw_window_slope]]]
 
 ## Sandwich-Panel Install Sequence
 
@@ -75,8 +75,8 @@ Boxing radiator piping behind a false wall/slope panel (for a cleaner look) inci
 - **Two-way (проходной) bedside switch, placed in the slope panel near the bed** — turns off the main room light without walking to the entry switch. A switch mounted *above a desk* instead is worse: the user must reach across the desk, and the switch tends to get hidden behind clutter (monitor, printer). **Recommended: in the slope beside/below the desk, not above it.**
 - **Slope-mounted outlet near a desk** — for phone/device charging without running a cable across the desk to a farther outlet; commonly used for 2-3 devices (monitor plus phone charger).
 - **Safety myth-debunking, condensation cannot short/electrocute**: pure water doesn't conduct electricity (dissolved salt does); condensation only forms when a cold surface drops below the ambient dew point, and the slope cavity sits at the same temperature as the room — no dew-point crossing, so no condensation on the contacts. `unverified` physics reasoning stated by a non-specialist source, internally consistent, not independently verified.
-- **Safety myth-debunking, rain ingress**: rain can't reach a slope-mounted outlet, because for rain to enter the room at all the sash would already have to be open, and an open sash opens toward/over the slope, physically shielding the outlet. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
-- **Safety myth-debunking, overheating/fire risk**: correctly-sized circuit protection trips from overcurrent well before the cable or contacts could reach ignition temperature — a general property of correct circuit protection, not specific to slope-mounted outlets. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
+- **Safety myth-debunking, rain ingress**: rain can't reach a slope-mounted outlet, because for rain to enter the room at all the sash would already have to be open, and an open sash opens toward/over the slope, physically shielding the outlet. [source: [[_Sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
+- **Safety myth-debunking, overheating/fire risk**: correctly-sized circuit protection trips from overcurrent well before the cable or contacts could reach ignition temperature — a general property of correct circuit protection, not specific to slope-mounted outlets. [source: [[_Sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
 
 ### Installation Sequence
 
@@ -87,11 +87,11 @@ Boxing radiator piping behind a false wall/slope panel (for a cleaner look) inci
 5. Cut holes for the electrical points into the panel and pull the cable through.
 6. Apply a second, fresh foam layer — timed so this layer is what actually bonds the panel to the wall — then permanently fix the panel.
 
-**Why panels must be glued, not just clipped/screwed**: unglued panels flex when a plug is inserted/removed, which over time can damage the panel joint or the sealant bead along the windowsill — a properly glued installation resists full body weight pressed on the outlet without deflecting. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
+**Why panels must be glued, not just clipped/screwed**: unglued panels flex when a plug is inserted/removed, which over time can damage the panel joint or the sealant bead along the windowsill — a properly glued installation resists full body weight pressed on the outlet without deflecting. [source: [[_Sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
 
-**Mounting hardware**: no additional foam/adhesive fixes the socket box into the panel — a standard drywall-specific socket box (spring/wing tabs clamping from behind) is sufficient; panel adhesion to the wall structure (via the foam step) is what actually carries the mechanical load, not the socket box's own grip. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
+**Mounting hardware**: no additional foam/adhesive fixes the socket box into the panel — a standard drywall-specific socket box (spring/wing tabs clamping from behind) is sufficient; panel adhesion to the wall structure (via the foam step) is what actually carries the mechanical load, not the socket box's own grip. [source: [[_Sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
 
-**Quality red flag/DIY check**: if a slope-mounted outlet wobbles or comes loose along with its faceplate when a plug is removed, the panel was never properly glued to the structure — a simple, checkable test a homeowner can perform. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
+**Quality red flag/DIY check**: if a slope-mounted outlet wobbles or comes loose along with its faceplate when a plug is removed, the panel was never properly glued to the structure — a simple, checkable test a homeowner can perform. [source: [[_Sources/YT_P7_rUkk8clU_outlets_in_window_slopes|P7_rUkk8clU_outlets_in_w]]]
 
 ## Vapor-Barrier-Tape Timing: a Common Finisher Headache, Avoided (added 2026-08-24, Pavel Sidorik)
 
@@ -114,12 +114,12 @@ not a slope-finishing-stage fix** — an asymmetric slope width (one side
 wider than the other) only becomes visibly obvious once the windowsill
 goes in, so verify it while the frame is still being leveled.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]
+[source: [[_Sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]
 
 ## Windowsill Materials, Use-Cases, and a Slope Cost Ranking (Konstantin Kruglov / Ontario, added 2026-08-28, Round 7)
 
 > [!NOTE]
-> This page previously covered slope materials only — no windowsill-material comparison existed. Cross-checked before writing; slope-material content below substantially restates this page's existing content and is flagged, not re-recorded, except for two genuinely new nuances. Region level 2 only. Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Tp2VuAaqXgE_kruglov_windowsills_slopes|YT_Tp2VuAaqXgE]]]
+> This page previously covered slope materials only — no windowsill-material comparison existed. Cross-checked before writing; slope-material content below substantially restates this page's existing content and is flagged, not re-recorded, except for two genuinely new nuances. Region level 2 only. Low promotional ratio. [source: [[_Sources/YT_Tp2VuAaqXgE_kruglov_windowsills_slopes|YT_Tp2VuAaqXgE]]]
 
 **Windowsill vs. slope, a functional/decorative distinction**: the windowsill is the genuinely functional zone (shelf, desk-surface extension, kitchen-counter continuation, seating nook); the three slopes are purely decorative, with the narrow exception of 1-3 integrated electrical outlets (see this page's existing electrical-points-in-slopes content above).
 
@@ -141,21 +141,21 @@ alongside acrylic stone as designer-preferred alternatives to plastic —
 plastic is called a material no designer would keep in their own home
 regardless of budget. Not cross-checked in detail against the existing
 cost-ranking table above; recorded as additional material options,
-not yet slotted into that ranking. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
+not yet slotted into that ranking. `single-account`, `unverified`. [source: [[_Sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
 
 ## A Sixth Windowsill Material and a Porcelain Installation Detail (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 - **⚠️ Quartz-vinyl flooring material as a windowsill surface** — a sixth option beyond the five already on this page (plastic/tile/acrylic stone/wood/large-format porcelain/quartz agglomerate): some clients install quartz-vinyl flooring material directly as the windowsill surface itself, as an alternative to a plain wood board or plastic.
 - **⚠️ 45°-mitred overhanging large-format porcelain windowsill**: a large-format porcelain windowsill can be built out beyond the window-opening wall plane (not just flush-mounted), with every visible edge mitred at 45° for a seamless, factory-finished-looking product — a specific fabrication detail not previously recorded for this material on this page.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xb5pUpTVIJU_kruglov_looks_cheap_10_mistakes|YT_xb5pUpTVIJU]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_xb5pUpTVIJU_kruglov_looks_cheap_10_mistakes|YT_xb5pUpTVIJU]]]
 
 ## Quartz-Vinyl Window Reveals, and a Window-Frame Repaint Price (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 - **⚠️ Quartz-vinyl as a window-reveal material, extending its windowsill use above to the reveals themselves**: applying quartz-vinyl flooring material to the three reveals (not just the sill) reads as notably more expensive than a plastered/painted reveal and is fully moisture-resistant. **New crack-avoidance mechanism**: the joint between the plastic window-frame profile and the quartz-vinyl reveal is sealed with sealant rather than a rigid material junction, so it never develops the crack that can form at a painted-reveal-to-frame joint (already documented on this page as a real, unpredictable risk for painted reveals).
 - **⚠️ Painting a plastic window frame — new price point**: repainting an inexpensive white plastic window frame (e.g. to black, for style match) costs roughly **2,000 RUB per running meter (≈$30/m, trailing-6-month USD/RUB mean before the 2026-03-08 upload date, 79.50 RUB/USD)** — meaningfully cheaper than replacing the window units entirely, and stated to transform the room's visual impression well beyond that modest cost.
 
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
 
 ## Reveal Micro-Cracks at the Frame Junction, and White-vs-Wall-Color Reveal Choice (Петришин-Строй, added 2026-08-24, Round 5)
 
@@ -172,8 +172,8 @@ reveals painted to match the wall/paint color instead, and the on-camera
 crew (including the project's designer) debate the tradeoff without
 settling on one universal answer — treat as a stylistic choice with no
 technical durability difference stated either way. `single-account`.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
+[source: [[_Sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
 
 ## Deep Windowsill-as-Bench, With a Radiator-Convection Requirement and a GOST Citation (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
 
-**A deepened, extended wood windowsill built out into a bench/daybed nook** — wide enough to sit or recline on, doubling as informal extra seating for guests, real installed example. **⚠️ Real technical requirement if the sill sits over a radiator**: cut convection slots/openings into the sill itself so warm air can still rise past it into the room — citing a GOST requirement that **a radiator should be covered no more than half its height/depth** by anything above it (a windowsill, cover, or shelf). Skipping the cutouts blocks normal radiator convection and reduces effective heat output into the room, regardless of how deep or attractive the sill bench looks. `single-account`, `unverified` (GOST citation not independently verified by this project). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
+**A deepened, extended wood windowsill built out into a bench/daybed nook** — wide enough to sit or recline on, doubling as informal extra seating for guests, real installed example. **⚠️ Real technical requirement if the sill sits over a radiator**: cut convection slots/openings into the sill itself so warm air can still rise past it into the room — citing a GOST requirement that **a radiator should be covered no more than half its height/depth** by anything above it (a windowsill, cover, or shelf). Skipping the cutouts blocks normal radiator convection and reduces effective heat output into the room, regardless of how deep or attractive the sill bench looks. `single-account`, `unverified` (GOST citation not independently verified by this project). [source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]

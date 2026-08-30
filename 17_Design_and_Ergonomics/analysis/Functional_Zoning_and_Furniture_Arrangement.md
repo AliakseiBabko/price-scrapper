@@ -69,7 +69,7 @@ room-specific content rather than duplicating this here:
   above**: rarely-used items → hardest-to-reach storage; frequently-used
   → closer/more accessible; daily-essential → always within immediate
   reach while staying visually unobtrusive.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8PjHJZtblZw_kodolov_storage_methods|8PjHJZtblZw_kodolov_storage_methods]]]
+[source: [[_Sources/YT_8PjHJZtblZw_kodolov_storage_methods|8PjHJZtblZw_kodolov_storage_methods]]]
 
 ## Petrishin-Stroi — Room-Selection Cautions & Space-Saving Placement (added 2026-08-24, Round 6)
 
@@ -80,7 +80,7 @@ From a real ~65m² apartment design-lead walkthrough — cautions worth checking
 - **Laundry-in-hallway-niche placement, not bathroom/WC**: placing the washing machine/utility zone in a hallway niche instead of inside the bathroom or WC avoids consuming bathroom/WC floor area with laundry equipment — a placement principle independent of the room's decor. `single-account`.
 - **Towel-warmer-near-toilet placement mitigation**: when a towel warmer must sit near a toilet, position it so it is not reachable directly by hand from a seated position — this project's own primary bathroom skipped the mitigation (warmer directly beside the toilet), flagged by the designer as the less-preferred version of the same placement. `single-account`.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_g1b6Hxx-HUk_petrishin_designer_secrets_65m2|YT_g1b6Hxx-HUk]]]
+[source: [[_Sources/YT_g1b6Hxx-HUk_petrishin_designer_secrets_65m2|YT_g1b6Hxx-HUk]]]
 
 ## Petrishin-Stroi — Sofa-Sizing Heuristic and a Fixed-Distance TV Workaround (added 2026-08-24, Round 7)
 
@@ -101,7 +101,7 @@ From a real 54 m² new-build case study, client present:
   "front-row cinema" viewing effect that a too-large screen would
   create at a fixed, unchangeable distance.
 
-`region: unresolved`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FRRT0ZrhjaI_petrishin_54m2_roomtour|FRRT0ZrhjaI]]]
+`region: unresolved`. [source: [[_Sources/YT_FRRT0ZrhjaI_petrishin_54m2_roomtour|FRRT0ZrhjaI]]]
 
 ## Petrishin-Stroi-Featured Case — Window-Portal Conversion & Dual-Purpose Acoustic Panel (added 2026-08-24, Round 6)
 
@@ -116,7 +116,7 @@ From a real 54 m² new-build case study, client present:
   application context for this project's already-documented decorative
   acoustic panel material.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
+`single-account`. [source: [[_Sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 
 ## Room-Zoning Partition Methods (new topic area, added 2026-08-25 — crosses the 3+-source page-creation threshold this session)
 
@@ -181,9 +181,9 @@ avoids this specific problem. Region unstated at level 1 for this
 caution — not routed to `16_Legal_and_Regulations/`.
 
 `single-account` per source except where corroboration is noted.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_DO67YHV5uAU_gusev_two_rooms_from_one_partitions|YT_DO67YHV5uAU]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mrnTQL0eyBc_studio57_glass_partitions_for_against|YT_mrnTQL0eyBc]]]
+[source: [[_Sources/YT_8oZexrWcMUY_13ds_10_partition_zoning_ideas|YT_8oZexrWcMUY]]], [source: [[_Sources/YT_DO67YHV5uAU_gusev_two_rooms_from_one_partitions|YT_DO67YHV5uAU]]], [source: [[_Sources/YT_mrnTQL0eyBc_studio57_glass_partitions_for_against|YT_mrnTQL0eyBc]]]
 
-**Glass block partition — a new decorative divider material, flagged as a likely fading trend (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: glass blocks used as an internal partition or accent surface (including as a shower/WC divider) have become increasingly common — roughly every third design project per the source, a steep rise through 2024. Explicitly framed as a **temporary/fading trend** associated with a dated 1980s industrial-daylighting material now repurposed decoratively — can look genuinely good in the right composition, but the source flags the real question before installing it: whether the household is actually prepared to redo it in 5-7 years once the trend passes, which he doubts most clients would actually follow through on. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
+**Glass block partition — a new decorative divider material, flagged as a likely fading trend (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: glass blocks used as an internal partition or accent surface (including as a shower/WC divider) have become increasingly common — roughly every third design project per the source, a steep rise through 2024. Explicitly framed as a **temporary/fading trend** associated with a dated 1980s industrial-daylighting material now repurposed decoratively — can look genuinely good in the right composition, but the source flags the real question before installing it: whether the household is actually prepared to redo it in 5-7 years once the trend passes, which he doubts most clients would actually follow through on. `single-account`, `unverified`. [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
 
 > [!NOTE]
 > **Deep-dive companion page (added 2026-08-25)**: for the specific
@@ -221,7 +221,7 @@ staircase creating a tight walkway constraint):
   cost/practicality trade-off worth accepting rather than ruling the
   location out.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TJBcEpXymYk_anutavlady_bedroom_study_and_kitchen_living_makeover|YT_TJBcEpXymYk]]]
+`single-account`. [source: [[_Sources/YT_TJBcEpXymYk_anutavlady_bedroom_study_and_kitchen_living_makeover|YT_TJBcEpXymYk]]]
 
 ## Anuta Vlady — Ceiling-Height, Rug-Sizing, and Market-Substitute Techniques (France, added 2026-08-25)
 
@@ -248,7 +248,7 @@ From the same France kitchen-living-room case as the Family-Scenario page's entr
   windows already sealed and not contributing to the room's look were
   deliberately left untreated.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
+`single-account`. [source: [[_Sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
 
 ## Anuta Vlady — Furniture-Isolation, Proportion-Matching, and Pet-Household Techniques (Alaska, added 2026-08-25)
 
@@ -280,7 +280,7 @@ From a real decor-refinement case, Alaska (level 1):
   on or near a rug carries a real risk of water spilling onto the rug
   during watering.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mRD3GbTOtK8_anutavlady_alaska_decorating_techniques|YT_mRD3GbTOtK8]]]
+`single-account`. [source: [[_Sources/YT_mRD3GbTOtK8_anutavlady_alaska_decorating_techniques|YT_mRD3GbTOtK8]]]
 
 ## Anuta Vlady — Long/Narrow Room Furniture and Ceiling-Height Technique (St. Petersburg, added 2026-08-25)
 
@@ -312,7 +312,7 @@ bedroom-specific:
   than buying replacements, an explicit "why replace something that
   isn't actually the problem" philosophy.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SUN8UiXAjf0_anutavlady_spb_narrow_living_room|YT_SUN8UiXAjf0]]]
+`single-account`. [source: [[_Sources/YT_SUN8UiXAjf0_anutavlady_spb_narrow_living_room|YT_SUN8UiXAjf0]]]
 
 ## Whole-Home Planning Philosophy: Ten Standing Principles (Architect Vitaly Zlobin, added 2026-08-25)
 
@@ -372,7 +372,7 @@ extracted); the household-planning principles below do:
   guidance, but worth weighing against this household's own open-plan
   circulation decisions.
 
-`single-account`, `unverified` unless noted as corroborating. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9yi3HTL_Rwc_zlobin_10_principles_country_house|YT_9yi3HTL_Rwc]]]
+`single-account`, `unverified` unless noted as corroborating. [source: [[_Sources/YT_9yi3HTL_Rwc_zlobin_10_principles_country_house|YT_9yi3HTL_Rwc]]]
 
 ## Whole-Apartment Replan Case Study: 77.1m² Euro-3-Room, Moscow (Karen Karapetyan, added 2026-08-25)
 
@@ -418,7 +418,7 @@ findings:
   becomes a nursery.
 
 `single-account`, Moscow level 1 (named residential complex + city in
-transcript). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|frt8tQOrjiM]]]
+transcript). [source: [[_Sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|frt8tQOrjiM]]]
 
 ## Whole-Home Zone Hierarchy and Room-Level Rules of Thumb (Architect Maxim Novikov, added 2026-08-28)
 
@@ -441,7 +441,7 @@ A general-principles survey (`data/layout_cases/novikov-ideal-layout-principles.
 
 ## Loggia-as-Office — Concrete Viability Requirements (Kruglov/Ontario, Round 15, added 2026-08-28)
 
-**Extends the general "loggia as functional space" framing above with concrete criteria**: a loggia genuinely functions as a usable home office only with blackout curtains, a 3-4-chamber (thick-profile) double-glazed window unit, and full thermal insulation. **⚠️ Just placing a desk and chair on an insulated loggia does not make it a usable office** — without those specific conditions, direct sun glare, street noise, and outdoor distractions (the source's own example: children playing football under the window) undermine actual working comfort. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
+**Extends the general "loggia as functional space" framing above with concrete criteria**: a loggia genuinely functions as a usable home office only with blackout curtains, a 3-4-chamber (thick-profile) double-glazed window unit, and full thermal insulation. **⚠️ Just placing a desk and chair on an insulated loggia does not make it a usable office** — without those specific conditions, direct sun glare, street noise, and outdoor distractions (the source's own example: children playing football under the window) undermine actual working comfort. `single-account`, `unverified`. [source: [[_Sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
 
 ## Colour as a Zoning Instrument (added 2026-08-30, colour batch)
 
@@ -453,7 +453,7 @@ The obvious limitation, not stated by the source but worth noting: colour zoning
 
 Accent-wall placement, which is the specific case he leans on most, has its own rules on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]] — notably that an accent wall should be justified by an object, which constrains how freely it can be used purely to mark a zone.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
+[source: [[_Sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
 
 ## Scope
 

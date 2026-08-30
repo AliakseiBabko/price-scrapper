@@ -722,7 +722,7 @@ Videos 1 ( `g1b6Hxx-HUk`), 3 (`JLjCveR-ft0`, English title, confirmed Russian au
   found a genuine scope/methodology difference rather than a clean
   year-over-year comparison. Content routed to
   `11_Budget_and_Planning/Budgeting_Guide.md` (3 new benchmark/cross-
-  check entries), `11_Budget_and_Planning/_supporting/knowledge/intermediate/store/Rules_Heuristics.md`
+  check entries), `_Knowledge/store/Rules_Heuristics.md`
   (5 new topic-area sections), `17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement.md`
   (first real content on this previously-empty placeholder page),
   `17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md`

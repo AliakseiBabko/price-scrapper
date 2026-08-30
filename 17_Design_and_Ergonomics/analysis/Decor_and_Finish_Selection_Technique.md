@@ -4,7 +4,7 @@ Migrated 2026-08-24 from `Durable_Facts.md`'s "Design Concept" topic bucket ("In
 
 ## Source
 
-`yt_1OLVQUJkOdM` — Zemstandart/Alexey Zemskov (Moscow, per this vault's confirmed channel convention). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1OLVQUJkOdM_interior_decor_cheap_solutions|extraction note]]
+`yt_1OLVQUJkOdM` — Zemstandart/Alexey Zemskov (Moscow, per this vault's confirmed channel convention). [[_Sources/YT_1OLVQUJkOdM_interior_decor_cheap_solutions|extraction note]]
 
 ## Facts
 
@@ -19,15 +19,15 @@ All items: `confirmed` as this practitioner's stated technique/convention, singl
 
 ## Rounded/Curved Walls — a Rising Trend, Bathroom-Adjacent (added 2026-08-24)
 
-Konstantin Kruglov / Ontario: rounded/curved (non-rectilinear) walls, mostly seen in living rooms/kitchens/bedrooms but relevant here because a bathroom sharing a wall with such a room can end up with a curved section too. **Poor fit for small bathrooms**; gaining real popularity in large bathrooms in private houses and free-plan large apartments. **Pros**: reads as strongly "designer"/modern; where a bathroom has a corner-facing entry, a curved wall removes the harsh corner and gives a more comfortable, cozy feel. **Cons**: meaningfully harder to build (plastering, painting, and finishing all get more complex); **tile can no longer be used at all on a curved wall — only mosaic, or a roller/brush-applied finish (e.g. paint, microcement — see below)** works on a curved surface. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
+Konstantin Kruglov / Ontario: rounded/curved (non-rectilinear) walls, mostly seen in living rooms/kitchens/bedrooms but relevant here because a bathroom sharing a wall with such a room can end up with a curved section too. **Poor fit for small bathrooms**; gaining real popularity in large bathrooms in private houses and free-plan large apartments. **Pros**: reads as strongly "designer"/modern; where a bathroom has a corner-facing entry, a curved wall removes the harsh corner and gives a more comfortable, cozy feel. **Cons**: meaningfully harder to build (plastering, painting, and finishing all get more complex); **tile can no longer be used at all on a curved wall — only mosaic, or a roller/brush-applied finish (e.g. paint, microcement — see below)** works on a curved surface. `single-account`, `unverified`. [source: [[_Sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
 
-**⚠️ Extends to general living spaces beyond the bathroom, with a new lighting conflict (Round 14 triage, added 2026-08-28)**: a curved half-column or wall section anywhere in an apartment (not just a bathroom) carries the same cost/complexity penalty, and specifically **conflicts with an integrated linear light source** — finishing a curved surface to the Q4 plaster standard needed for a clean lit edge is called practically impossible to achieve well. **Practical recommendation**: choose one — drop the integrated lighting, or drop the curved element — rather than trying to combine both. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
+**⚠️ Extends to general living spaces beyond the bathroom, with a new lighting conflict (Round 14 triage, added 2026-08-28)**: a curved half-column or wall section anywhere in an apartment (not just a bathroom) carries the same cost/complexity penalty, and specifically **conflicts with an integrated linear light source** — finishing a curved surface to the Q4 plaster standard needed for a clean lit edge is called practically impossible to achieve well. **Practical recommendation**: choose one — drop the integrated lighting, or drop the curved element — rather than trying to combine both. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
 
-**Real-project execution example, a named material (added 2026-08-28, Round 16)**: on a real 130m² secondary-market apartment, the designer specified rounded external corners at nearly every external corner in the apartment, plastered using **Волма (Volma)** brand mortar at the rough-plastering stage — a concrete, named-product real-project instance of the general rounded-corner/curved-wall trend already documented above, corroborating rather than adding a new mechanism. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
+**Real-project execution example, a named material (added 2026-08-28, Round 16)**: on a real 130m² secondary-market apartment, the designer specified rounded external corners at nearly every external corner in the apartment, plastered using **Волма (Volma)** brand mortar at the rough-plastering stage — a concrete, named-product real-project instance of the general rounded-corner/curved-wall trend already documented above, corroborating rather than adding a new mechanism. `single-account`, `unverified`. [source: [[_Sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
 
 ## Microcement (микроцемент) as a Wall/Floor Finish — a 2025-2026 Trend (added 2026-08-24)
 
-Konstantin Kruglov / Ontario: microcement is a thin-applied, highly wear-resistant finish coating for both walls and floors — relevant to a bathroom both as a floor/wall finish in its own right and as one of the few materials that actually works on the curved walls described above. **Pros**: fully monolithic/seamless — no grout lines or joints anywhere across the whole floor+wall area, unlike tile; water-resistant, though this specifically depends on applying the correct topcoat/sealant ("лак") — water-resistance is a property of the finished system, not the raw material alone; reads as minimalist/aesthetic; available in a large range of textures and colors. **Cons**: requires a highly skilled, specialized installer — an incorrectly applied base coat *or* an incorrectly applied protective topcoat both mean the material won't deliver its claimed look, durability, or water-resistance; genuinely expensive, in both material and labor cost, not a budget option; less impact-resistant than porcelain tile (керамогранит) — more prone to mechanical damage. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
+Konstantin Kruglov / Ontario: microcement is a thin-applied, highly wear-resistant finish coating for both walls and floors — relevant to a bathroom both as a floor/wall finish in its own right and as one of the few materials that actually works on the curved walls described above. **Pros**: fully monolithic/seamless — no grout lines or joints anywhere across the whole floor+wall area, unlike tile; water-resistant, though this specifically depends on applying the correct topcoat/sealant ("лак") — water-resistance is a property of the finished system, not the raw material alone; reads as minimalist/aesthetic; available in a large range of textures and colors. **Cons**: requires a highly skilled, specialized installer — an incorrectly applied base coat *or* an incorrectly applied protective topcoat both mean the material won't deliver its claimed look, durability, or water-resistance; genuinely expensive, in both material and labor cost, not a budget option; less impact-resistant than porcelain tile (керамогранит) — more prone to mechanical damage. `single-account`, `unverified`. [source: [[_Sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
 
 ## Petrishin-Stroi (design lead "Клара") — Practicality Rationale Behind Criticized Design Choices (added 2026-08-24)
 
@@ -75,7 +75,7 @@ Konstantin Kruglov / Ontario: microcement is a thin-applied, highly wear-resista
 
 `single-account`, this practitioner's stated rationale, defending real
 design choices against real viewer criticism (comment-response Q&A
-format). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xnSNEqqs]]]
+format). [source: [[_Sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xnSNEqqs]]]
 
 ## Protective Wall Panels for a Recurring Family Wear Pattern (Петришин-Строй, added 2026-08-24, Round 5)
 
@@ -86,7 +86,7 @@ damage again within 1-2 weeks. Recommended fix: a protective wall-panel
 material (flexible "marble," or slat/rail paneling) sized specifically to
 the at-risk zone — framed as a deliberate life-scenario decision (matches
 this page's family-scenario-driven design principle), not a decorative
-afterthought. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
+afterthought. `single-account`. [source: [[_Sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
 
 ## Petrishin-Stroi — Material Selection & Decor Technique from a Real 65m² Project (added 2026-08-24, Round 6)
 
@@ -95,14 +95,14 @@ afterthought. `single-account`. [source: [[11_Budget_and_Planning/_supporting/kn
 - **Reversible kids'-room wall decor for a growing child**: paint the walls plainly and apply printed decals over the paint instead of real wallpaper — the decals are removable once the child outgrows the theme, leaving a plain paintable surface ready for a future teen redecoration without a repaint or wallpaper strip-out. `single-account`.
 - **Resolving a lighting-preference conflict between two occupants without a forced compromise**: in a shared bedroom where one occupant wanted a hanging pendant light and the other did not want one at all, the fix was an accent wall (stone-texture `скала` + wood panel) with integrated LED backlighting on one side and the requested pendant on the other — each side of the bed gets its own preferred lighting type rather than dropping either preference. `single-account`.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_g1b6Hxx-HUk_petrishin_designer_secrets_65m2|YT_g1b6Hxx-HUk]]]
+[source: [[_Sources/YT_g1b6Hxx-HUk_petrishin_designer_secrets_65m2|YT_g1b6Hxx-HUk]]]
 
 ## Petrishin-Stroi — Kitchen Material/Design Technique from a Real Chelomei St. Object (added 2026-08-24, Round 6)
 
 - **Same-material countertop-and-backsplash rationale**: a tile backsplash will always look at least slightly different from a stone/composite countertop, however carefully matched — making both from the same material gives a visually more coherent result than pairing a countertop with a tile backsplash. `single-account`.
 - **Deliberately non-built-in refrigerator as a visible design element**: this kitchen keeps an ordinary refrigerator with its own visible door rather than a fully integrated panel front, contrasted against a fully built-in range hood in the same run — an explicit choice, not an oversight, worth weighing against the more common all-built-in kitchen convention. `single-account`.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
+[source: [[_Sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
 
 ## Texture, Fаktura, and Relief — Three Distinct, Separately-Tunable Design Levers (ARCHWOOD, added 2026-08-25)
 
@@ -143,7 +143,7 @@ atmosphere despite looking similar in photos.
   real depth) is flagged as a generally poor substitute for genuine
   dimensional relief.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_shYCuunkPEY_archwood_texture_pattern_relief|YT_shYCuunkPEY]]]
+[source: [[_Sources/YT_shYCuunkPEY_archwood_texture_pattern_relief|YT_shYCuunkPEY]]]
 
 ## Furniture-Sourcing and Placement Technique (Anuta Vlady, added 2026-08-25)
 
@@ -168,7 +168,7 @@ reposition, no full renovation):
   long-wall placement and/or the room's central symmetry axis to make a
   long narrow room read more balanced/square.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
+[source: [[_Sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
 
 ## More Furniture-Sourcing/Storage Technique (Anuta Vlady, added 2026-08-25, fourth same-channel video)
 
@@ -193,7 +193,7 @@ reposition, no full renovation):
 - **⚠️ Excessive glossy surfaces — a general critique, distinct from this page's existing narrower gloss-vs-matte-warmth and glossy-ceiling-glare content**: heavy use of glossy facades, cabinets, mixers, and countertops together causes glare/reflection throughout a room — described as eye-fatiguing and reading as artificial/uncozy regardless of the underlying material's actual cost, i.e. a real "high price, cheap result" combination worth avoiding even on an otherwise expensive material palette.
 - **⚠️ Fake/replica luxury furniture — a new ethical/practical distinction**: distinguishes (1) knowingly buying a replica of an expensive/exclusive piece specifically to appear wealthier or more successful — explicitly discouraged — from (2) buying a piece because it genuinely suits your taste/budget/style, only learning afterward (or never learning) that it happens to be a replica of something else — explicitly fine. For anyone drawn to scenario (1), the concrete recommendation is to instead find a genuine original product within your actual budget rather than a fake of something more expensive — avoids the paint-quality/hardware compromises a replica typically carries, at the real price the product is actually worth.
 
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xb5pUpTVIJU_kruglov_looks_cheap_10_mistakes|YT_xb5pUpTVIJU]]]
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_xb5pUpTVIJU_kruglov_looks_cheap_10_mistakes|YT_xb5pUpTVIJU]]]
 
 ## Rug Sizing, Interior Scent, a Four-Layer Decor Framework, and Composition Rules (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
@@ -203,13 +203,13 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budg
 - **⚠️ Small-object composition rules (four sub-rules)**: (1) **rule of thirds for groupings** — each successive object should be roughly 1/3 taller or shorter than the previous one (e.g. 10cm/20cm/30cm figurines), not evenly or randomly sized; (2) **odd-number preference** — groupings of 3, 5, or 7 objects read better than 2, 4, or 6; (3) **triangle-shaped composition** — a grouping's overall silhouette or key accent points should trace a triangle the eye can follow; (4) **visual-balance/"scale" rule** — one large object on one side should be counterbalanced by smaller objects with roughly equivalent visual weight on the other, not left lopsided.
 - **⚠️ Artwork/poster placement rules**: prefer one large-format piece over two or three smaller ones in the same spot. **Sizing rule**: a piece's width should be roughly 2/3 the width of the furniture it's paired with (sofa or bed). **Placement rule**: hang low enough to visually anchor to the adjacent furniture rather than floating in otherwise-empty wall space, which reads as an afterthought rather than a deliberate composition.
 
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qPi_0cW7aHI_kruglov_expensive_interior_10_rules|YT_qPi_0cW7aHI]]]
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_qPi_0cW7aHI_kruglov_expensive_interior_10_rules|YT_qPi_0cW7aHI]]]
 
 ## Vintage vs. Antique Furniture — a Concrete Age-Based Distinction (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 **⚠️ Vintage (roughly 20-50 years old) is recommended over antique (50+ years) as an accent-furniture sourcing category**, since antiques carry more restoration/authentication risk the source advises against experimenting with — vintage pieces (mirrors, dressers, nightstands, restored or as-is) are more accessibly sourced (e.g. via Avito) and lower-risk. **Vintage rugs** are named as a further accessible accent in the same category. Explicit caution: overdone vintage decor is just as easy to ruin a room with as underdone — moderation matters as much as the sourcing choice itself.
 
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
 
 ## Slat/Rail Panels and Partitions, and Soft/Rigid Panel Durability (Kruglov/Ontario, Round 15, added 2026-08-28)
 
@@ -221,24 +221,24 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budg
 
 **Rigid panel calibration and relief-orientation nuances**: some rigid panel products (MDF, gypsum, duropolymer) arrive poorly factory-calibrated, needing extra on-site sanding/fitting labor priced to the painter's actual correction time. **Relief-orientation dust rule**: a vertical relief pattern collects meaningfully less dust than a horizontal "wave" relief, which can visibly re-accumulate dust within about 2 hours of a thorough cleaning.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
 
 ## Clinker Tile Grout Lines — a Perceptual-Clutter Nuance, Distinct From the Dust Mechanism (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
-**A new, distinct nuance from this page's existing dust-accumulation content**: Kruglov flags clinker tile's dense grout-joint pattern as visually reading like "a bit of a mess" — a perceptual/visual-noise effect from the joint lines themselves, separate from any dust or cleaning-difficulty mechanism. Explicitly not a flat rejection: he notes clinker fits some styles well and the caution is about overdoing it, not avoiding the material outright. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zugXvK4CBlM_kruglov_visual_noise_and_order|YT_zugXvK4CBlM]]]
+**A new, distinct nuance from this page's existing dust-accumulation content**: Kruglov flags clinker tile's dense grout-joint pattern as visually reading like "a bit of a mess" — a perceptual/visual-noise effect from the joint lines themselves, separate from any dust or cleaning-difficulty mechanism. Explicitly not a flat rejection: he notes clinker fits some styles well and the caution is about overdoing it, not avoiding the material outright. `single-account`, `unverified`. [source: [[_Sources/YT_zugXvK4CBlM_kruglov_visual_noise_and_order|YT_zugXvK4CBlM]]]
 
 ## Budget Faux-Concrete/Decorative-Plaster Backsplash Technique (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
 
-**⚠️ A real, checkable technique for a "decorative plaster" or "raw concrete" look at a fraction of the real material's cost**: rather than a specialty decorative-plaster product, box out the target area with plain gypsum-board panels ("закладные"), skim it with standard, inexpensive plaster (Ротбанд/Rotband or equivalent), hand-work the surface texture while wet, then paint and finish with a protective varnish/lacquer topcoat. On a real kitchen backsplash-adjacent wall, this read as visually indistinguishable from large-format tile, poured concrete, or genuine decorative plaster to a casual viewer, at a fraction of any of those materials' real cost — the presenter states this technique is now used repeatedly across projects specifically because clients respond well to it. A genuinely new budget-tier technique for this store's decorative-finish content. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
+**⚠️ A real, checkable technique for a "decorative plaster" or "raw concrete" look at a fraction of the real material's cost**: rather than a specialty decorative-plaster product, box out the target area with plain gypsum-board panels ("закладные"), skim it with standard, inexpensive plaster (Ротбанд/Rotband or equivalent), hand-work the surface texture while wet, then paint and finish with a protective varnish/lacquer topcoat. On a real kitchen backsplash-adjacent wall, this read as visually indistinguishable from large-format tile, poured concrete, or genuine decorative plaster to a casual viewer, at a fraction of any of those materials' real cost — the presenter states this technique is now used repeatedly across projects specifically because clients respond well to it. A genuinely new budget-tier technique for this store's decorative-finish content. `single-account`, `unverified`. [source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
 
 ## Mirror Placement and Pendant Glass-Fixture Safety Cautions (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 - **⚠️ Avoid hanging a mirror in a narrow hallway/corridor**: easily struck and broken while carrying furniture, boxes, or other bulky items through — mount the mirror on a door instead (e.g. the entry door) for a placement that avoids this specific carrying-collision risk.
 - **⚠️ Avoid heavy glass-globe pendant light fixtures over a nightstand or bathroom sink specifically**: easily knocked and broken by an arm reaching for a phone at night, and some models are notably heavy — compounding both the breakage risk and the injury risk from a falling fixture.
 
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IXicju8ul1A_kruglov_indestructible_materials|YT_IXicju8ul1A]]]
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_IXicju8ul1A_kruglov_indestructible_materials|YT_IXicju8ul1A]]]
 
-**⚠️ Never let a full-height mirror panel run through a switch/outlet zone, a real installed mistake (added 2026-08-28, Round 16)**: mounting light switches or outlets directly inside a large mirrored wall panel makes them hard to find by touch at night (no tactile/visual break from the surrounding mirror) and the mirror surface around them smudges with fingerprints noticeably faster than the rest of the panel. **Fix**: stop the mirror short of the switch/outlet zone and cover that section with a plain, matching (non-reflective) panel instead — a small deliberate break in the mirror run, planned before installation rather than accepted as an unavoidable side effect of "mirror everywhere." `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+**⚠️ Never let a full-height mirror panel run through a switch/outlet zone, a real installed mistake (added 2026-08-28, Round 16)**: mounting light switches or outlets directly inside a large mirrored wall panel makes them hard to find by touch at night (no tactile/visual break from the surrounding mirror) and the mirror surface around them smudges with fingerprints noticeably faster than the rest of the panel. **Fix**: stop the mirror short of the switch/outlet zone and cover that section with a plain, matching (non-reflective) panel instead — a small deliberate break in the mirror run, planned before installation rather than accepted as an unavoidable side effect of "mirror everywhere." `single-account`, `unverified`. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
 
 ## Curtain Selection and Sizing Rules (added 2026-08-25, Sergey Kodolov)
 
@@ -289,7 +289,7 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budg
   width should be **1.5-2× the rod's own width** for a visibly gathered,
   wavy look rather than flat drape; 1.5× gives smaller waves, 2×+ gives
   a fuller, more "premium"-reading result. Rule of thumb, not absolute.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_bJJSH84q5fE_kodolov_curtains_selection|bJJSH84q5fE_kodolov_curtains_selection]]]
+[source: [[_Sources/YT_bJJSH84q5fE_kodolov_curtains_selection|bJJSH84q5fE_kodolov_curtains_selection]]]
 - **When mixing classic and contemporary styles, blend at the
   individual-piece level, not the whole-zone level** — pair a classic
   table with contemporary chairs (or vice versa) rather than placing an
@@ -303,7 +303,7 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budg
   rather than framing separately — reduces visual clutter, reads as one
   unified element.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_S3Mn1FvQhKI_anutavlady_two_kitchen_living_no_renovation|YT_S3Mn1FvQhKI]]]
+[source: [[_Sources/YT_S3Mn1FvQhKI_anutavlady_two_kitchen_living_no_renovation|YT_S3Mn1FvQhKI]]]
 
 ## Disguise, Refinish, and Material-Substitution Technique From a Real Dubai Apartment (Sergey Kodolov + designer Tatiana, added 2026-08-25)
 
@@ -350,7 +350,7 @@ project's own market.
   grain-finished aluminum instead of real wood, chosen specifically for
   humidity/temperature resistance.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IoQaozB-DYA_kodolov_dubai_cheap_expensive_looking_apartment|YT_IoQaozB-DYA]]]
+[source: [[_Sources/YT_IoQaozB-DYA_kodolov_dubai_cheap_expensive_looking_apartment|YT_IoQaozB-DYA]]]
 
 ## Anuta Vlady — Kitchen-Adjacent Wall Durability and Faux-Panel Art Technique (France, added 2026-08-25)
 
@@ -371,7 +371,7 @@ Anuta Vlady entries:
 - **Dining-pendant-light diameter proportioned to table size**: a
   50cm-diameter pendant shade chosen to suit a 2m-long dining table.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
+`single-account`. [source: [[_Sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
 
 ## Gloss, Mirrors and Trim: Three Beliefs Corrected (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
@@ -385,7 +385,7 @@ Two framing rules from the same practitioner, worth keeping with the above:
 - **⚠️ "Чаще всего людей тошнит не от мрамора… а от плохого дизайна вокруг этого мрамора."** Applied identically to slats: "тут плохие не рейки, тут плохой дизайн." **The generalisable claim: a material blamed for a bad result is usually a scapegoat for the composition around it** — a useful counterweight to anti-trend listicles as a genre, including her own.
 - **⚠️ "Любое упрощение чего-либо можно сразу записывать в новую базу."** Any simplification, and any concealment of technical elements, produces an interior that stays current — the reasoning she applies to track lights, concealed doors and shadow-gap plinths alike.
 
-`single-account`, `unverified`. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+`single-account`, `unverified`. [sources: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]], [[_Sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]], [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
 
 ## Anuta Vlady — Two Further Accent-Wall Rules (added 2026-08-30, colour batch)
 
@@ -394,7 +394,7 @@ From the same practitioner as the one-accent-wall rule below, in a later error-a
 - **⚠️ An accent wall should be at least somewhat *darker* than the room's other walls.** A lighter accent wall "как будто бы проваливается, вместо того чтобы выглядеть каким-то главным цветовым пятном" — it recedes instead of reading as the room's principal colour mass. Whether it is achieved with patterned wallpaper or plain paint makes no difference to the rule. The easiest colour choice is a darker shade of the same hue; a contrasting colour already present elsewhere in the room (her example: the floor cushions) also works.
 - **⚠️ Placement must be justified by an object — an accent wall on an arbitrary wall is named a большая ошибка.** "Акцентную стену нужно размещать именно там, где есть какой-то объект, который мы хотим дополнительно выделить" — a fireplace, a console, an entrance zone, a furniture composition, artwork. Her worked correction moves an accent from a random wall onto the wall with the console. **The accent wall is defined as a tool for reinforcing something that is already there, not as decoration in its own right** — which also gives a usable test for whether you need one at all.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_PGrxKyLhxp8_anutavlady_typical_color_mistakes|YT_PGrxKyLhxp8]]]
+[source: [[_Sources/YT_PGrxKyLhxp8_anutavlady_typical_color_mistakes|YT_PGrxKyLhxp8]]]
 
 For how accent *colour* (as opposed to accent wall) is chosen and proportioned, see [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]].
 
@@ -430,7 +430,7 @@ From a real decor-refinement case, Alaska (level 1):
   dust-visibility problem (see this page's existing decor entries for
   the glass-shade caution elsewhere in this batch).
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mRD3GbTOtK8_anutavlady_alaska_decorating_techniques|YT_mRD3GbTOtK8]]]
+`single-account`. [source: [[_Sources/YT_mRD3GbTOtK8_anutavlady_alaska_decorating_techniques|YT_mRD3GbTOtK8]]]
 
 ## Anuta Vlady — Pattern-Balance and Accent-Wall-Segment Rules (St. Petersburg, added 2026-08-25)
 
@@ -461,7 +461,7 @@ Petersburg (level 1):
   on a sofa the same size — combine large pillows with smaller/
   differently-shaped ones for a better-looking mix.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SUN8UiXAjf0_anutavlady_spb_narrow_living_room|YT_SUN8UiXAjf0]]]
+`single-account`. [source: [[_Sources/YT_SUN8UiXAjf0_anutavlady_spb_narrow_living_room|YT_SUN8UiXAjf0]]]
 
 ## Vladimir Amelchenko (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ) — Ten "Cheapening" Mistakes, Materials/Decor-Relevant Subset (added 2026-08-28)
 
@@ -472,7 +472,7 @@ From a general 10-item design-mistakes explainer (full list also recorded in `Du
 - **⚠️ Cheap decorative molding/cornice, three distinct failure modes**: (1) material-grade ceiling — cast polyurethane/foam (пенопласт) molding always visually reads as cheap regardless of installation quality, vs. gypsum, дюрополимер (duropolymer), or higher-grade polyurethane, which don't carry this visual tell; (2) overuse — piling on molding until it's the only thing visible entering the room is self-defeating, not "more = pricier"; (3) installation quality — crooked runs, visible seams/gaps, and poor paint finish read as an instant defect regardless of material grade. A related coordination failure: switch/outlet plates and molding runs competing for the same wall position is a design-planning error, not a materials issue.
 - **⚠️ Magnetic tile-faced access hatch over a plain plastic one**: a plain white plastic plumbing-inspection hatch mounted over an otherwise nice tile job is called out as a common budget-driven eyesore — the fix is a tile-faced magnetic access panel ("плитка на магнитах"), a real but modest cost premium over the plain panel, preferred over a decorative-picture-over-the-hatch workaround (inconsistent — sometimes clashes, sometimes reads as intentional).
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vW9TWijhwfA_sbk_10_designer_mistakes|YT_vW9TWijhwfA]]]
+`single-account`. [source: [[_Sources/YT_vW9TWijhwfA_sbk_10_designer_mistakes|YT_vW9TWijhwfA]]]
 
 ## Change Log
 

@@ -54,7 +54,7 @@ rooms).
   even narrower; a solid-door wardrobe read squarer and airier — a
   distinct mechanism (proportion amplification via reflective surface)
   from the mirror-glare/discomfort caution already on
-  [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]].
+  [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]].
   `uwGxjv9O1kk`.
 - **Low dresser/console height rule for a walkway-adjacent room**: keep
   a dresser/console at or below roughly outstretched-arm-fingertip

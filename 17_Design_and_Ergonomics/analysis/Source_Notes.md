@@ -7,7 +7,7 @@ Traceability record for `17_Design_and_Ergonomics`. Not reader content — kept 
 | `yt_1OLVQUJkOdM` | Interior decor, cheap solutions (slats, panels, velour, floating furniture) | Zemstandart/Alexey Zemskov (Moscow) | Decor & Finish Selection Technique |
 | `yt_cp8U9wvsqI8` | Five layout concepts / client profiles | (designer, channel per extraction note) | Family-Scenario-Driven Design Decisions |
 
-Extraction notes: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1OLVQUJkOdM_interior_decor_cheap_solutions|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cp8U9wvsqI8_five_layout_concepts_client_profiles|note]].
+Extraction notes: [[_Sources/YT_1OLVQUJkOdM_interior_decor_cheap_solutions|note]], [[_Sources/YT_cp8U9wvsqI8_five_layout_concepts_client_profiles|note]].
 
 | `a_vchjD7CHQ` | Telescopic partition buyer guide (embedded backing, retrofit, leaf sizing, hardware) | dver1.ru / Andrei Ivanov | Sliding Partition Mechanisms |
 | `Fu-GMSDLg_8` | Invisible doors + sliding partitions, detailed breakdown/price/nuances | Дело в дизайне × Holzberg | Sliding Partition Mechanisms |
@@ -15,7 +15,7 @@ Extraction notes: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_1OLV
 | `sFE1EyKRHvE` | Suspended-partition customer testimonial | Kupe-dsgn | Sliding Partition Mechanisms |
 | `qcIz2--60Ts` | Partition retrofit into an already-installed stretch ceiling | Михаил Мищенко | Sliding Partition Mechanisms |
 
-Extraction notes: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LB2oYxyYL3c_kupedsgn_partition_stretch_ceiling_no_embed|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sFE1EyKRHvE_kupedsgn_suspended_partition_testimonial|note]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qcIz2--60Ts_mishchenko_partition_retrofit_stretch_ceiling|note]].
+Extraction notes: [[_Sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|note]], [[_Sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|note]], [[_Sources/YT_LB2oYxyYL3c_kupedsgn_partition_stretch_ceiling_no_embed|note]], [[_Sources/YT_sFE1EyKRHvE_kupedsgn_suspended_partition_testimonial|note]], [[_Sources/YT_qcIz2--60Ts_mishchenko_partition_retrofit_stretch_ceiling|note]].
 
 No sources yet for Color Palette & Material Direction.
 
@@ -23,7 +23,7 @@ No sources yet for Color Palette & Material Direction.
 |---|---|---|---|
 | `frt8tQOrjiM` | 77.1m² Moscow whole-apartment replan case (walk-through-wardrobe economy, storage-yield quantification, two-bathroom rationale, L-shaped-room correction, entry-hall rule) | Karen Karapetyan | Functional Zoning and Furniture Arrangement |
 
-Extraction note: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|note]].
+Extraction note: [[_Sources/YT_frt8tQOrjiM_karapetyan_planning_for_life_euro3room|note]].
 
 ## Colour batch — 2026-08-30 (14 sources)
 
@@ -46,6 +46,6 @@ A 16-video batch dispatched specifically on combining colours in interior design
 | `2__5Y0sLAxo` | White-undertone taxonomy; don't default the ceiling white; colour as a zoning instrument | ГК «Авальремонт» / Дмитрий Ворванович | N&ETP, CH&CR (partial) |
 | `D9NZROUB3ZI` | LRV as a numeric selection criterion; undertone stability under changing light | Best Color Design (US, Sherwin-Williams, probable AI narration) | CSP&T (concept only, products excluded) |
 
-Extraction notes: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jOXPHR9Mpek_shelnat_two_color_combination_rules|jOXPHR9Mpek]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZY_Xp8b_G5M_artcolor_color_harmony_schemes|ZY_Xp8b_G5M]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wjNz2wCtG7o_samarin_colouristics_basics|wjNz2wCtG7o]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gEhVxuxtOjc_kuzina_why_you_cant_choose_a_color|gEhVxuxtOjc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|n5ZBqdq0wH8]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__Vw-eaRekDk_archwood_three_approaches_main_color|_Vw-eaRekDk]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|AKxOtRhIcJY]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|jJ05zqugmSc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_PGrxKyLhxp8_anutavlady_typical_color_mistakes|PGrxKyLhxp8]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zF1YLMqIvNw_masha_chernaya_beige_vs_gray|zF1YLMqIvNw]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_S9F9TGVG4x8_pride_60_30_10_anchor_object|S9F9TGVG4x8]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EipFPdVqNgs_wallstreet_2026_color_pairings|EipFPdVqNgs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|2__5Y0sLAxo]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D9NZROUB3ZI_bestcolordesign_sherwin_williams_neutrals_lrv|D9NZROUB3ZI]].
+Extraction notes: [[_Sources/YT_jOXPHR9Mpek_shelnat_two_color_combination_rules|jOXPHR9Mpek]], [[_Sources/YT_ZY_Xp8b_G5M_artcolor_color_harmony_schemes|ZY_Xp8b_G5M]], [[_Sources/YT_wjNz2wCtG7o_samarin_colouristics_basics|wjNz2wCtG7o]], [[_Sources/YT_gEhVxuxtOjc_kuzina_why_you_cant_choose_a_color|gEhVxuxtOjc]], [[_Sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|n5ZBqdq0wH8]], [[_Sources/YT__Vw-eaRekDk_archwood_three_approaches_main_color|_Vw-eaRekDk]], [[_Sources/YT_AKxOtRhIcJY_archwood_color_qa_orientation_ceilings|AKxOtRhIcJY]], [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|jJ05zqugmSc]], [[_Sources/YT_PGrxKyLhxp8_anutavlady_typical_color_mistakes|PGrxKyLhxp8]], [[_Sources/YT_zF1YLMqIvNw_masha_chernaya_beige_vs_gray|zF1YLMqIvNw]], [[_Sources/YT_S9F9TGVG4x8_pride_60_30_10_anchor_object|S9F9TGVG4x8]], [[_Sources/YT_EipFPdVqNgs_wallstreet_2026_color_pairings|EipFPdVqNgs]], [[_Sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|2__5Y0sLAxo]], [[_Sources/YT_D9NZROUB3ZI_bestcolordesign_sherwin_williams_neutrals_lrv|D9NZROUB3ZI]].
 
 **Skipped, with reason**: `AQWuTQfr8w8` (Palette Perfect, "10 best neutral paint colors sherwin williams") — near-identical topic to `D9NZROUB3ZI` from a different channel, and **the transcript contradicts itself on air about paint codes** ("Accessible Beige 7029… Agreeable Gray 7029… wait, I need to correct that") and quotes several codes that do not match Sherwin-Williams' published numbering. No LRV figures, no checkable mechanism. Logged `skipped` in the CSV; no extraction note written.

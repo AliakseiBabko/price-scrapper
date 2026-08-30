@@ -129,7 +129,7 @@ migrate them.
 - `duplicate_skipped` - the video ID was already logged under a prior `run_id` before this one started (checked by canonical video ID, not by re-deriving a transcript hash) - not re-fetched or re-extracted. Cite the earlier `run_id`/source-note slug in `notes`.
 - `failed` - a fetch or extraction attempt was made and errored for a reason other than "no captions"/"duplicate"/"unavailable" (e.g. a tool crash) - distinct from `skipped` so a genuine bug isn't confused with an expected no-captions/duplicate outcome.
 
-**Before fetching anything from a playlist or channel already represented in this CSV**, canonicalize each candidate video ID (from any URL form - `watch?v=`, `youtu.be/`, `shorts/`, `embed/`, a playlist entry) and check it against every `source_url` in this CSV *and* every `YT_<video_id>_*.md` source-note filename under `11_Budget_and_Planning/_supporting/knowledge/sources/` - a row can exist without a note (e.g. `duplicate_skipped`) and in principle a note could exist without a row, so check both. Do not rely on transcript-hash-based dedup alone (it only catches a duplicate *after* re-fetching, and does nothing for a video whose prior row has `source_hash: n/a`).
+**Before fetching anything from a playlist or channel already represented in this CSV**, canonicalize each candidate video ID (from any URL form - `watch?v=`, `youtu.be/`, `shorts/`, `embed/`, a playlist entry) and check it against every `source_url` in this CSV *and* every `YT_<video_id>_*.md` source-note filename under `_Sources/` - a row can exist without a note (e.g. `duplicate_skipped`) and in principle a note could exist without a row, so check both. Do not rely on transcript-hash-based dedup alone (it only catches a duplicate *after* re-fetching, and does nothing for a video whose prior row has `source_hash: n/a`).
 
 **`tools/youtube/preflight_playlist.py`** (added 2026-08-04) automates exactly this check - run it against a playlist/channel URL before invoking `youtube-transcript-fetch` on anything from it:
 
@@ -274,6 +274,44 @@ family needs or aesthetic direction feeds those specific `00_Master`
 documents' subject matter (via the intermediate store, not by this
 wrapper writing to those files directly - see Guardrails).
 
+## Vault layout change — `_supporting` dissolved (2026-08-30)
+
+Per explicit user observation: source extraction notes had accumulated under
+`11_Budget_and_Planning/_supporting/knowledge/sources/`, but they were never
+budgeting-specific evidence. A count settled it — **`12_Engineering_and_Systems`
+cited them from 44 files versus `11_Budget_and_Planning`'s own 23**, with 795
+notes referenced 3,044 times across 180 files in sixteen folders. They were
+vault-wide evidence living in one topic's basement for historical reasons, and
+their own raw transcripts already sat at top level in `_Archive/processed_sources/`.
+
+The whole `_supporting/` tree was therefore dissolved:
+
+| Was | Now |
+|---|---|
+| `11_Budget_and_Planning/_supporting/knowledge/sources/` | **`_Sources/`** |
+| `.../knowledge/intermediate/store/` | **`_Knowledge/store/`** |
+| `.../knowledge/intermediate/*.md`, `.../knowledge/*.md` | **`_Knowledge/`** |
+| `.../case_studies/` | `11_Budget_and_Planning/case_studies/` |
+| `.../analysis/Bedroom_Design_Principles.md` | `00_Master/` |
+| `.../analysis/Revit_AutoCAD_Integration_Strategy.md` | `00_Master/` |
+| `.../analysis/cost_saving_strategies_full.md` | `11_Budget_and_Planning/analysis/` |
+| `.../legacy/` | `_Archive/legacy/` |
+
+`_Sources/` and `_Knowledge/` are top-level and underscore-prefixed to match the
+vault's existing convention for cross-cutting infrastructure (`_Archive/`,
+`_Inbox/`, `_assets/`) — they are not topics and must not be nested under one.
+
+**`Bedroom_Design_Principles.md` went to `00_Master/`, deliberately not to a room
+folder.** Its own header explains why: this project has no fixed master bedroom,
+so the page is written to apply to whichever room currently serves that function
+and is cross-referenced from each phase's room page rather than owning a room
+number. Don't "tidy" it into `06_Small_Bedroom` later.
+
+Change-log entries in `_Knowledge/store/Change_Log.md` dated before 2026-08-30
+still describe the old paths; they were left as written (they record what was true
+at the time) and carry a note saying so. Only live cross-reference links were
+rewritten.
+
 ## This project's storage paths
 
 Pass these exact paths to `tiered-knowledge-base` (its own required-start
@@ -281,9 +319,9 @@ step asks for these three; this wrapper answers that question so the
 user doesn't have to restate it each time):
 
 - Source extraction notes folder:
-  `11_Budget_and_Planning\_supporting\knowledge\sources\`
+  `_Sources\`
 - Intermediate knowledge store:
-  `11_Budget_and_Planning\_supporting\knowledge\intermediate\store\_index.md`
+  `_Knowledge\store\_index.md`
   (the former monolith is retained as a redirect stub; use the linked
   `Numeric_Data.md`, `Durable_Facts.md`, `Rules_Heuristics.md`,
   `Planning_Rules.md`, `Pending_Wiki_Page_Decisions.md`, and `Change_Log.md`
@@ -304,7 +342,7 @@ than pricing or technique - applying the wrong city's rule is actively
 misleading, not just imprecise:
 
 - Regulations knowledge store:
-  `11_Budget_and_Planning\_supporting\knowledge\intermediate\renovation_regulations_belarus_knowledge_store.md`
+  `_Knowledge\renovation_regulations_belarus_knowledge_store.md`
   (intake staging only — once a new qualifying fact lands here, also mirror it
   into the dedicated wiki folder below per step 5a's routing pattern)
 

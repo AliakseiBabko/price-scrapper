@@ -6,7 +6,7 @@ Part of [[13_Surfaces_and_Finishes/Windows|Windows]].
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) says: **Central claim**: PVC window profile brand/model has essentially no effect on window quality within the same market class — a profile is just an extruded plastic shape, and even an experienced practitioner states he can't visually distinguish one brand from another once stickers are removed. `single-account`, delivered with confident, categorical language — not benchmarked against an independent materials-testing source.
 
-**Supply-chain explanation for why the brand myth persists**: profile manufacturer (extrudes the raw profile) → processor/fabricator (buys 6m profile bars, produces finished window units) → dealer (measures, orders, installs — doesn't manufacture) → sometimes a factory's own retail arm sells direct. In the market's early days profiles genuinely differed and lacked common standards, which is when brand-differentiation marketing took hold; the claim is that the technical gap has long since closed as standards matured, but the marketing habit persisted past the point it reflected a real difference. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BbtWl3n-GNg_pvc_window_profile_myth|BbtWl3n-GNg_pvc_window_p]]]
+**Supply-chain explanation for why the brand myth persists**: profile manufacturer (extrudes the raw profile) → processor/fabricator (buys 6m profile bars, produces finished window units) → dealer (measures, orders, installs — doesn't manufacture) → sometimes a factory's own retail arm sells direct. In the market's early days profiles genuinely differed and lacked common standards, which is when brand-differentiation marketing took hold; the claim is that the technical gap has long since closed as standards matured, but the marketing habit persisted past the point it reflected a real difference. [source: [[_Sources/YT_BbtWl3n-GNg_pvc_window_profile_myth|BbtWl3n-GNg_pvc_window_p]]]
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Replacement framework: classify by market tier (economy/standard/premium), not by brand.** Real quality differences exist *between* tiers, not *within* a tier across different brand names.
 
@@ -20,7 +20,7 @@ Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Replacement fra
 
 ## Buying Caution: Bundle the Window and Its Slope Finishing
 
-**Many companies install only the window unit and decline slope finishing, leaving the client to DIY it or hire a second firm** — and if a problem later surfaces with the window itself, the original installer can (and reportedly does) deny warranty claims by blaming improperly-executed third-party slope work. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BbtWl3n-GNg_pvc_window_profile_myth|BbtWl3n-GNg_pvc_window_p]]]
+**Many companies install only the window unit and decline slope finishing, leaving the client to DIY it or hire a second firm** — and if a problem later surfaces with the window itself, the original installer can (and reportedly does) deny warranty claims by blaming improperly-executed third-party slope work. [source: [[_Sources/YT_BbtWl3n-GNg_pvc_window_profile_myth|BbtWl3n-GNg_pvc_window_p]]]
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Recommendation: buy windows and slope finishing as one bundled product from one company offering one combined warranty**, not as separately-sourced work. See [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Slope Finishing]] for why slope quality matters as much as the window unit itself.
 
@@ -67,7 +67,7 @@ above (Zemstandart/Alexey Zemskov) that profile brand has essentially no
 effect on quality within a market tier. Recorded as an open disagreement
 between two sources, not resolved either way.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_4bv7Aa6YLCo_petrishin_window_selection_primer|4bv7Aa6YLCo_petrishin_window_selection_primer]]]
+[source: [[_Sources/YT_4bv7Aa6YLCo_petrishin_window_selection_primer|4bv7Aa6YLCo_petrishin_window_selection_primer]]]
 
 ## Plan Physical Access Before Ordering Oversized Replacement Windows (added 2026-08-24, Pavel Sidorik)
 
@@ -103,6 +103,6 @@ work risks it lifting unexpectedly.
 
 ## Opaque ("Blind") Double-Glazing for a Wet-Room Window (added 2026-08-25)
 
-Архитектор Виталий Злобин (independent architect, own channel, country-house practice, `single-account`, region unresolved) flags a specific glazing product for a bathroom/WC window whose *facade* appearance needs to read as a normal window from outside (matching the building's overall window rhythm/proportion) while the *interior* needs full privacy: an opaque/"blind" double-glazed unit that looks like ordinary glass from the exterior but transmits no light or view into the room. A solved alternative to a merely frosted/translucent pane (which still passes daylight and vague shapes) where full opacity plus a conventional facade look are both required. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uG1p1j9iAZ4_zlobin_wc_bath_practice_pt2|uG1p1j9iAZ4]]]
+Архитектор Виталий Злобин (independent architect, own channel, country-house practice, `single-account`, region unresolved) flags a specific glazing product for a bathroom/WC window whose *facade* appearance needs to read as a normal window from outside (matching the building's overall window rhythm/proportion) while the *interior* needs full privacy: an opaque/"blind" double-glazed unit that looks like ordinary glass from the exterior but transmits no light or view into the room. A solved alternative to a merely frosted/translucent pane (which still passes daylight and vague shapes) where full opacity plus a conventional facade look are both required. [source: [[_Sources/YT_uG1p1j9iAZ4_zlobin_wc_bath_practice_pt2|uG1p1j9iAZ4]]]
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]
+[source: [[_Sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]

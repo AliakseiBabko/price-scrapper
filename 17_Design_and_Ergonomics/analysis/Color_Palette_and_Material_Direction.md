@@ -65,7 +65,7 @@ just asserted preference.
   furniture pieces (dark bedspreads, dark beds/sofas/wardrobes) — a
   dark-toned volume reads even darker once placed in a low-light space.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0Nnv6VedbVo_archwood_dark_north_room_top5|YT_0Nnv6VedbVo]]]
+[source: [[_Sources/YT_0Nnv6VedbVo_archwood_dark_north_room_top5|YT_0Nnv6VedbVo]]]
 
 ## A Second Condition on the Mirror Rule (added 2026-08-30)
 
@@ -80,7 +80,7 @@ She applies the identical argument to **gloss**, and in doing so dismantles two 
 
 Taken together with ARCHWOOD's rule, the reflective-surface test has two parts: **is there real light here, and is what would be reflected worth doubling?**
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
+[source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
 
 ## Perspectives on Record — Should a Dark Room Be Painted Light or Dark? (added 2026-08-30)
 
@@ -98,7 +98,7 @@ Vittoria Selina is also explicit that the choice is the occupant's: if the room 
 
 **Your priority.** Not yet decided. The deciding factor all three point at is the same: **how much real daylight the specific room gets, and at what time of day it is actually used.** That is a per-room question for this apartment, not a general one.
 
-[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0Nnv6VedbVo_archwood_dark_north_room_top5|YT_0Nnv6VedbVo]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
+[sources: [[_Sources/YT_0Nnv6VedbVo_archwood_dark_north_room_top5|YT_0Nnv6VedbVo]], [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]], [[_Sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
 
 Distinct from, but adjacent to, the window-orientation table on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]] — that one is about *colour distortion* by orientation, this one is about *how dark to go* when daylight is genuinely scarce.
 
@@ -152,7 +152,7 @@ established fact.
   (psychologically heavy with extended exposure, but genuinely effective
   for deliberate intimacy/coziness in a large room — carries opposite
   cultural readings by context, elegance/status vs. mourning/fear).
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_T-W5qFAVG9o_kodolov_color_psychology|T-W5qFAVG9o_kodolov_color_psychology]]]
+[source: [[_Sources/YT_T-W5qFAVG9o_kodolov_color_psychology|T-W5qFAVG9o_kodolov_color_psychology]]]
 
 ## Perspectives on Record — Is Per-Hue Colour Psychology Usable at All? (added 2026-08-30)
 
@@ -169,7 +169,7 @@ Both agree that **cultural/regional association is real and must be asked about*
 
 **Your priority.** Not yet decided. For this project the practical consequence is small and concrete: **the per-hue table above is a conversation prompt, not a specification** — the deciding input either way is what the household actually associates with a colour.
 
-[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_T-W5qFAVG9o_kodolov_color_psychology|T-W5qFAVG9o]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gEhVxuxtOjc_kuzina_why_you_cant_choose_a_color|YT_gEhVxuxtOjc]]]
+[sources: [[_Sources/YT_T-W5qFAVG9o_kodolov_color_psychology|T-W5qFAVG9o]], [[_Sources/YT_gEhVxuxtOjc_kuzina_why_you_cant_choose_a_color|YT_gEhVxuxtOjc]]]
 
 ## Colour Proportion and Contrast Rules — moved (2026-08-30)
 

@@ -24,17 +24,17 @@ Three unrelated turnkey companies, processed independently in this batch,
 land on the same order of magnitude for a full design-project renovation:
 
 - **MaxDar** (Nizhny Novgorod): **6-9 months typical, never under 6
-  months** — stated as a flat floor, not a soft guideline. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_aW2j9_5bywE_maxdar_real_renovation_timeframes|aW2j9_5bywE]]]
+  months** — stated as a flat floor, not a soft guideline. [source: [[_Sources/YT_aW2j9_5bywE_maxdar_real_renovation_timeframes|aW2j9_5bywE]]]
 - **ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ** (St. Petersburg/Moscow): **6-8 months for a
   70-80 m² apartment; up to 12 months for 100 m²** — a complete
   week-by-week worked example ("ideal case" ≈8 months, realistic-hiccups
-  case ≈10 months), business-class-or-above segment specifically. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|pEZhsdhu6xw]]]
+  case ≈10 months), business-class-or-above segment specifically. [source: [[_Sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|pEZhsdhu6xw]]]
 - **VitionGroup** (Odintsovo, Moscow Oblast): a **real, dated 61 m²
   project** — work started 2022-03-10, contractor-acceptance certificate
   signed 2022-09-21 (≈6.4 months, arithmetic-confirmed), with an
   additional stated 1.5-2 months before genuine move-in readiness, and an
   explicit generalization that "even such a renovation is at minimum 7
-  months." [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c3gqyNTvFTc_vitiongroup_real_cost_and_timeframes|c3gqyNTvFTc]]]
+  months." [source: [[_Sources/YT_c3gqyNTvFTc_vitiongroup_real_cost_and_timeframes|c3gqyNTvFTc]]]
 
 **Three independent companies, three different cities/regions, converging
 on the same 6-9-month range for a comparable (design-project, business-
@@ -60,7 +60,7 @@ explanation, in comparable detail:
   either electrical or plumbing rough-in can begin; plastering must be
   finished before water outlets can be brought out of the wall; a delay
   in any one sub-stage necessarily pushes every downstream sub-stage back.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_aW2j9_5bywE_maxdar_real_renovation_timeframes|aW2j9_5bywE]]]
+  [source: [[_Sources/YT_aW2j9_5bywE_maxdar_real_renovation_timeframes|aW2j9_5bywE]]]
 - **A full worked week-by-week/month-by-month schedule** (site setup →
   demolition → plastering + drying → floor-leveling + Шуманет membrane →
   partition frames → electrical/plumbing rough-in → screed + drying →
@@ -68,7 +68,7 @@ explanation, in comparable detail:
   electrical/plumbing → furniture/doors → baseboards → cleaning) is
   documented in full, with each stage's minimum duration and the drying
   wait built into the transition to the next, in the ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ
-  source note — see [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|pEZhsdhu6xw]]
+  source note — see [[_Sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|pEZhsdhu6xw]]
   for the full stage table.
 - **Furniture/doors must be installed before baseboards, not after** —
   baseboards are fitted around door casings and furniture, not the
@@ -81,7 +81,7 @@ explanation, in comparable detail:
 Forcemontage's own 14+-mechanism catalog (from real, named past projects,
 not hypothetical) is the richest source in this batch for *why* an
 otherwise-reasonable schedule slips in practice — full detail in
-[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2weWrKT42aY_forcemontage_20_reasons_schedule_slip|2weWrKT42aY]]'s
+[[_Sources/YT_2weWrKT42aY_forcemontage_20_reasons_schedule_slip|2weWrKT42aY]]'s
 extraction note. Selected highlights, grouped by category:
 
 - **Material lead times**: special-order tile/fixtures can take 1-1.5+
@@ -130,7 +130,7 @@ extraction note. Selected highlights, grouped by category:
   is technically plausible; if a company still insists on an
   implausible timeline even with a week-by-week breakdown, an independent
   технадзор (technical supervisor) will recognize it as either dishonest
-  or technically uninformed. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|pEZhsdhu6xw]]]
+  or technically uninformed. [source: [[_Sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|pEZhsdhu6xw]]]
 - **Named sales-manipulation pattern**: some companies deliberately
   understate both price and timeline in marketing to secure a signed
   contract, calculating that a client who has already paid significant
@@ -151,7 +151,7 @@ A fifth source, and the first in this batch to propose an explicit
 *method* for estimating duration rather than a headline range or
 stage-by-stage schedule — and the first to honestly report testing and
 rejecting two alternative approaches first, against a real 60+-object
-internal dataset. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|YT_9lFhda_KDHk]]]
+internal dataset. `single-account`. [source: [[_Sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|YT_9lFhda_KDHk]]]
 
 - **⚠️ Two duration heuristics tried and explicitly abandoned, worth
   recording as negative findings**: (1) the naive room-count rule
@@ -233,8 +233,8 @@ automatically.
 
 ## Source Notes
 
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_aW2j9_5bywE_maxdar_real_renovation_timeframes|MaxDar — real renovation timeframes]] (2024-09-01).
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ — real timeframes for a good renovation]] (2024-04-17).
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2weWrKT42aY_forcemontage_20_reasons_schedule_slip|Forcemontage — 20 reasons your timeline will slip]] (2019-06-17).
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_c3gqyNTvFTc_vitiongroup_real_cost_and_timeframes|VitionGroup — real cost and work timeframes]] (2022-12-03).
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|Konstantin Kruglov/Ontario — the whole truth about how long renovation takes]] (2024-10-28).
+- [[_Sources/YT_aW2j9_5bywE_maxdar_real_renovation_timeframes|MaxDar — real renovation timeframes]] (2024-09-01).
+- [[_Sources/YT_pEZhsdhu6xw_delatnepередelat_real_timeframes|ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ — real timeframes for a good renovation]] (2024-04-17).
+- [[_Sources/YT_2weWrKT42aY_forcemontage_20_reasons_schedule_slip|Forcemontage — 20 reasons your timeline will slip]] (2019-06-17).
+- [[_Sources/YT_c3gqyNTvFTc_vitiongroup_real_cost_and_timeframes|VitionGroup — real cost and work timeframes]] (2022-12-03).
+- [[_Sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|Konstantin Kruglov/Ontario — the whole truth about how long renovation takes]] (2024-10-28).

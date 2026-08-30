@@ -15,7 +15,7 @@ personal selection.
 > type/sizing/cooling-system/compressor/price-tier deep dive from a Moscow-region renovation
 > company's YouTube channel (RUB pricing, converted to USD at the exact publish-date rate —
 > distinct in scope and currency from this page's own BYN-priced personal fridge research
-> above, kept in its own clearly-labeled section rather than merged). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|Konstantin Kruglov/Ontario]]]
+> above, kept in its own clearly-labeled section rather than merged). [source: [[_Sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|Konstantin Kruglov/Ontario]]]
 
 ### Fridge Types
 
@@ -115,7 +115,7 @@ personal selection.
 
 `single-account`, `unverified`. Several brand names above were transcribed indistinctly by the
 auto-generated Russian captions and are flagged individually — treat those specific names as
-approximate pending verification against a cleaner source. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|YT_FmGVmt2RH1c]]]
+approximate pending verification against a cleaner source. [source: [[_Sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|YT_FmGVmt2RH1c]]]
 
 ## This Project's Own Selection (pre-existing, BYN)
 

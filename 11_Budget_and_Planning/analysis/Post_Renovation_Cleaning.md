@@ -36,7 +36,7 @@ fixtures once they're installed, and a single pass has no opportunity to
 catch dust that resettles after cleaning finishes. A budget renovation can
 reasonably accept the tradeoff of a single combined pass; a higher-end
 renovation, per Директор Клининга's own framing, generally shouldn't.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+[source: [[_Sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]], [[_Sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
 
 ## The Staged Sequence
 
@@ -65,7 +65,7 @@ three-stage vocabulary: she describes dust resettling visibly during any
 single cleaning pass, and frames a staged process as the only way that
 resettled dust gets caught by a later pass rather than left in place —
 the same underlying logic from a different practitioner's own words.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+[source: [[_Sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]], [[_Sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]], [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
 
 ## Protective Technique During Construction (Upstream of Cleaning)
 
@@ -86,7 +86,7 @@ order for door/window handles: cover in plastic film first, *then* tape
 over the film — taping directly onto bare hardware leaves adhesive
 residue that's harder to remove. Floor transition thresholds are a
 commonly-missed protection point, scuffed by debris bags dragged across
-them if left uncovered. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+them if left uncovered. [source: [[_Sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]], [[_Sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
 
 ## Commonly-Missed Spots (QC Checklist)
 
@@ -106,7 +106,7 @@ detach, with real options being a specialist, extra time, or the client
 accepting it stays uncleaned behind it. **QC technique**: check surfaces
 under strong/direct or accent lighting, not just ambient light — grout
 haze and dust on a backsplash can be fully invisible under normal room
-lighting. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+lighting. [source: [[_Sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
 
 ## Window Cleaning: a Distinct Three-Sub-Step Process
 
@@ -127,7 +127,7 @@ putty knife/scraper permanently scratches it. An interior-only clean on a
 sealed/non-opening high sash leaves faint streaks visible only at certain
 lighting angles — a genuinely streak-free result needs exterior access
 (e.g. a rope-access washer), a real, accepted service-tier limit rather
-than a defect to chase indefinitely. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
+than a defect to chase indefinitely. [source: [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]], [[_Sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]]]
 
 ## Surface-Specific Chemical Cautions
 
@@ -147,7 +147,7 @@ permanent white haze/streaks; dry-wipe first, then apply solvent (she
 uses "646 растворитель") via a damp cloth and immediately dry-polish
 before it evaporates. Lower wall sections accumulate disproportionately
 more dust than higher ones (gravity settling) — clean zone by zone.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+[source: [[_Sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|oF62qDhYkuw]], [[_Sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|-MJE43WkLP4]], [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
 
 ## Handover Standard and Professional Conduct
 
@@ -160,7 +160,7 @@ store them indoors roughly December-March, since outdoor winter exposure
 degrades the synthetic mesh faster. Professional-conduct notes: cleaners
 don't move furniture or appliances themselves (movers' scope, even on
 direct client request); warn occupants before re-entering a room
-mid-task. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+mid-task. [source: [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
 
 ## Sourcing a Cleaner as a Renovation Client — a Fourth, Independent Perspective (added 2026-08-28)
 
@@ -179,7 +179,7 @@ cleaner confident enough to quote roughly double (~40,000 RUB, ≈$440)
 for reliably careful work — offered as the real cost/risk tradeoff
 behind hiring a post-renovation cleaner, not evidence that either figure
 is a safe threshold. `single-account`, converted at the trailing-6-month
-USD/RUB mean before 2024-10-11 (90.0715 RUB/USD). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hfJa_QNaN6c_kruglov_consumables_25_percent_budget|hfJa_QNaN6c]]]
+USD/RUB mean before 2024-10-11 (90.0715 RUB/USD). [source: [[_Sources/YT_hfJa_QNaN6c_kruglov_consumables_25_percent_budget|hfJa_QNaN6c]]]
 
 ## Occupational Health and Equipment
 
@@ -190,7 +190,7 @@ reconsider professional cleaning work specifically because of it, not as
 a throwaway caution. Cheap (~80 RUB, under $2 USD, "fix price"-tier)
 disposable gloves are reported to degrade quickly (tear, partially
 dissolve) under the solvents/acids this work uses. `single-account`.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+[source: [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
 
 ## Numeric Data
 
@@ -199,20 +199,20 @@ dissolve) under the solvents/acids this work uses. `single-account`.
   2022-10-19 upload date — too small a figure for this store's
   magnitude-based rounding-bucket convention to produce a meaningful
   value) — stated informally in reply to viewer comments about cleaner
-  pay, not an invoice line item. `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+  pay, not an invoice line item. `unverified`. [source: [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
 - ~1.5 hours to fully clean one especially dirty post-renovation window
-  (see above). `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
+  (see above). `single-account`. [source: [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
 
 ## Source Notes
 
 - **"Уборка после ремонта в ТРИ этапа"** (Директор Клининга, 2021-03-02)
-  — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|extraction note]].
+  — [[_Sources/YT_oF62qDhYkuw_direktor_klininga_3stage_cleaning|extraction note]].
 - **"Уборка после ремонта - жесткий разбор"** (Директор Клининга,
   2021-04-24, same channel as above) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|extraction note]].
+  [[_Sources/YT_MJE43WkLP4_direktor_klininga_harsh_review|extraction note]].
 - **"Генеральная уборка квартиры 85кв.м. после ремонта..."** (Ирина
   Илёнова, independent channel, 2022-10-19, Moscow level-1) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|extraction note]].
+  [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|extraction note]].
 - A fourth candidate, `YT_EzGU6yaUwus` (Золотая Середина, "Уборка
   квартиры после ремонта от А до Я"), was fetched but returned
   content-free auto-captions (no Russian track, English auto-captions
