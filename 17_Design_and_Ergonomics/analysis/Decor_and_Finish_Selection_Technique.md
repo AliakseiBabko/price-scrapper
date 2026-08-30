@@ -373,6 +373,20 @@ Anuta Vlady entries:
 
 `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
 
+## Gloss, Mirrors and Trim: Three Beliefs Corrected (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+- **⚠️ Fingerprints show more on gloss, not less** — matte hides them, and Fenix-type or soft-touch coatings hide them entirely. She notes people routinely believe the opposite. Her recommendation is matte throughout: fronts, porcelain (floors and bathrooms), ceilings.
+- **⚠️ MDF slat panels are superseded by shadow profiles — a cost and technology argument, not a taste one.** She is explicit that the slat rhythm *effect* is fine; the objection is to the delivery method. **Profiles installed during wall finishing produce the same groove effect and are much cheaper than buying paint-ready MDF panels and then colour-matching enamel to the wall paint.** Note this does not contradict her defence of рейки elsewhere — there she defends the rhythm principle, here she objects to the panel product. Relevant to this page's existing slat-spacing and slat-to-baseboard junction material.
+- **⚠️ Plastic and metal trim as a category — windowsills, reveals, corner beads, edge profiles on porcelain and panels.** Her replacements: **paint; microcement (including on the sill and reveals); or acrylic stone set flush with the wall in the wall colour.** For a porcelain edge, a 45° mitre rather than a profile — and if the mistake is already made, plaster the exposed edge and paint it the porcelain's colour. **Tile corner trims specifically are argued never to be justified**: a properly mitred 45° corner with matching grout is no weaker, and in a wet zone the trim collects mould and eventually peels off.
+- **⚠️ Shelves should have no visible fixings — and the mechanism is simpler than it looks.** An acrylic or metal plate whose edges are set into the joints between porcelain courses and clamped there: no visible fixings and in fact **no separate fixings at all.** She reports it carries real load, and notes the secondary benefit is hygiene — no extra joints or brackets for dirt and mould.
+
+Two framing rules from the same practitioner, worth keeping with the above:
+
+- **⚠️ "Чаще всего людей тошнит не от мрамора… а от плохого дизайна вокруг этого мрамора."** Applied identically to slats: "тут плохие не рейки, тут плохой дизайн." **The generalisable claim: a material blamed for a bad result is usually a scapegoat for the composition around it** — a useful counterweight to anti-trend listicles as a genre, including her own.
+- **⚠️ "Любое упрощение чего-либо можно сразу записывать в новую базу."** Any simplification, and any concealment of technical elements, produces an interior that stays current — the reasoning she applies to track lights, concealed doors and shadow-gap plinths alike.
+
+`single-account`, `unverified`. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+
 ## Anuta Vlady — Two Further Accent-Wall Rules (added 2026-08-30, colour batch)
 
 From the same practitioner as the one-accent-wall rule below, in a later error-analysis video demonstrated against real interior photos with corrected versions shown. `single-account` — the same channel, so these extend rather than corroborate that rule.

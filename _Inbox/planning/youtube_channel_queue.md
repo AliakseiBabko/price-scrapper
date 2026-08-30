@@ -62,6 +62,16 @@ Channels (not yet preflighted):
 
 **Recommended first step when picking this group up**: run one small trial (2-4 videos) across a couple of these channels, report the honest substance-to-promotion ratio and whether real "N options for X problem" content actually shows up, and let the user decide whether to invest further in this group at all — same decision structure as the original Kruglov trial, but with the outcome genuinely open this time.
 
+## Group B addition — Мария Шеврина / SMBUREAU (added and trialled 2026-08-30)
+
+https://www.youtube.com/@shevrinamaria/videos — 37 videos, requested directly by the user, not from the original Group B list.
+
+**Round 1 trial complete: 8 videos, 8/8 pass, yield 9.0 facts/video.** Full triage and results in `shevrina_smbureau_channel_plan_20260830.md`.
+
+**⚠️ This channel breaks the Group B assumption and should probably be reclassified.** The premise of Group B is that design/room-tour channels may not yield transcript-extractable knowledge at all. This one yields *technical* content — an AC-enclosure failure mechanism, LED voltage drop, laminate expansion behaviour, a renovation cost structure from real bills of quantities, two documented physical experiments — and routed to eleven pages across six folders including `11_Budget_and_Planning`, `12_Engineering_and_Systems` and `13_Surfaces_and_Finishes`. **Treat it as a Group A channel presented by a designer** and process it with the normal Group A round pipeline.
+
+**Round 2 is scoped and recommended in the plan file, awaiting user go-ahead.** 29 videos remain; 11 of the 37 were triaged as clear non-starters. Note the real within-channel topic overlap (the two anti-trend videos are an announced pair) — process this channel by cluster, not exhaustively.
+
 ## Group C — CAD / 2D Floor-Plan Channel (unique category, own evaluation)
 
 https://www.youtube.com/@RemPlanner/videos

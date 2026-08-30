@@ -487,3 +487,17 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budg
 - 2026-08-19 (chunk 4) — Added Upper Module Assembly & Range-Hood Duct Cutout (new content, no prior duct-routing coverage on this page) and Lower Module Assembly — Additional Techniques (deliberately partial: overlapping general-assembly content from `yt_-RsGqvH_hbo` was not re-extracted, since it's already covered by the existing 28-item checklist at equal or greater precision — only the genuinely new bracket/tie/alignment techniques were added).
 - 2026-08-19 (chunk 5) — Added a second, independent upper-module-mistakes block to the existing Upper Module Assembly section from `yt_Ljji4-Sxmzk`: 10mm corrugated-duct oversizing rule, back-panel staple/nail-only + ≤100mm spacing rule, mounting-strip function explanation, unpack-all-before-starting warranty framing, wire pass-through placement rule.
 - 2026-08-25 — Added Cabinet Dimensioning Standards from a new independent architect channel (Vitaly Zlobin): base/upper cabinet height and depth figures (domestic 80-85cm vs. international 90-93cm base-height standard), window-sill coordination, kneading-surface height — genuinely new numeric detail not previously on this page.
+
+## Worktop Overhang: An Experiment Against the Cabinetmakers' Argument (SMBUREAU, added 2026-08-30)
+
+SMBUREAU specify worktops **flush with the cabinet fronts, with no overhang**, and report having to argue it on site each time — "мебельщики просто округляют глаза."
+
+**⚠️ The standard trade argument, and their experiment against it.** Cabinetmakers object that a ~2 cm overhang protects the fronts from water spilled on the worktop. **They poured a large quantity of water onto an overhanging worktop and it wrapped around the overhang and ran straight down the fronts anyway** — so the protective function does not hold.
+
+**Their two further objections:**
+
+- An overhang reads like a depth error — as though the worktop was mis-specified and a strip is now sticking out.
+- **⚠️ You strike your hand on it every time you grab a handle.** During active cooking this is repeated many times, and she rates it as not merely impractical but painful.
+
+`single-account`, `unverified` — one studio's position and one informal experiment, stated against prevailing trade practice. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+

@@ -152,6 +152,35 @@ She deliberately declines to give fixed pairings — "вряд ли сейчас
 
 ---
 
+## Perspectives on Record — Should a Designer Ever Name a Paint Article? (added 2026-08-30)
+
+Two practitioners, both working with the same manufacturer's range, reaching opposite conclusions about whether naming a specific shade is helpful or harmful.
+
+| Source | Position | Stated reasoning |
+|---|---|---|
+| **Vittoria Selina** | **Yes — she names three go-to neutrals she reuses across objects**: Little Greene Clay 39, Rolling Fog 143, Rolling Fog Dark 160 | A genuinely *neutral* beige (mid-range, temperature-neutral) accepts any companion colour, so a well-chosen one is reusable. These are shades she reports having used repeatedly on real objects |
+| **Мария Шеврина / SMBUREAU** | **No — and a designer who hands out article numbers should not be trusted.** Her studio has never reused the same paint article on two objects | The same article produces different results in different flats. **Her named failure case is Little Greene "Flint"** — a warm white she loved on one project, which on the next came out "грязно-серовато-зеленоватым." She lists floor area, room configuration, storey, glazing, view, opposite buildings, window size and count, and the flat's other shades as the reasons |
+
+**Common ground, and it is larger than the disagreement.** Both insist on выкрасы; both reject judging a colour from a screen; both treat white/beige/grey as the *hardest* colours rather than the safe default. **Neither thinks you can order paint from a number without testing it.** The real disagreement is narrower: whether a named shade is a useful *starting point* for your own выкрас iterations (Vittoria Selina's implicit position) or a false promise that will send you to the shop with the wrong expectation (Shevrina's explicit one).
+
+Note also that they are describing different tasks. Vittoria Selina is choosing a **base neutral to build a room around**; Shevrina is answering **"what exact white did you use in that photo"** — a question about reproducing a specific finished result, which is the thing she says cannot transfer.
+
+**Your priority.** Not yet decided. The practical reconciliation both would accept: **treat any named shade — including the three above — as a candidate to test, never as a specification.** The deciding step is the same either way: buy the sample pot, paint it on your own wall, and expect two or three iterations.
+
+[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_b5oeFxmaubI_shevrina_no_perfect_white|YT_b5oeFxmaubI]]]
+
+## Independent Corroboration: Neutrals Really Are the Hardest (added 2026-08-30)
+
+The premise this page opens with — Надежда Кузина's claim that calm palettes are *harder* to combine, not easier — now has independent support from an unrelated channel.
+
+**Мария Шеврина / SMBUREAU**: "проще простого сделать более такой цветной интерьер, нежели чем вот такой вот просто базово-бежевато-белый." She names white, warm-white, beige and greyish as **the most difficult colours in an interior**, and treats getting them right as a specialist skill rather than a default.
+
+Two unrelated practitioners, reaching the same counter-intuitive conclusion by different routes — Кузина from undertone behaviour under changing light, Shevrina from the unrepeatability of a given article across flats. This is the best-corroborated claim on the page.
+
+**⚠️ And a named failure mode for one of this vault's own rules.** Shevrina diagnoses where yellow walls come from: people want a beige or warm-white interior and overshoot, **because of the long-standing advice that a north-facing, low-sun room should be painted a warmer, yellower colour** — which they then apply too heavily. That advice is on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]] as ARCHWOOD's orientation rule ("choose a shade slightly warmer than the one you actually want"). **This is not a contradiction of that rule — it is a caution about its failure mode**, and the mitigation she offers is the obvious one: gather references, and compare your выкрас on your own wall against them side by side rather than warming the shade by eye.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
+
 ## White Is Not a Safe Default
 
 **ГК «Авальремонт»**: "Белый бывает тёплый, холодный, сероватый и с кремовым подтоном. Если выбрать не тот, комната может выглядеть грязной или мёртвой."

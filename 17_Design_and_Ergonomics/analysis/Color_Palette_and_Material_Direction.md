@@ -67,6 +67,21 @@ just asserted preference.
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0Nnv6VedbVo_archwood_dark_north_room_top5|YT_0Nnv6VedbVo]]]
 
+## A Second Condition on the Mirror Rule (added 2026-08-30)
+
+The low-light section above gives one condition for placing a mirror: **only where real light already reaches**, since a mirror in the darkest corner only reflects darkness back (ARCHWOOD / Марина Измайлова).
+
+**Мария Шеврина / SMBUREAU** adds a second, independent condition: **a mirror enlarges a room only when what it reflects is itself visually light.** "Даже зеркало не всегда работает на увеличение и расширение помещения, потому что зависит от того, что отражается в этом зеркале." Her worked case: a mirror facing a hallway full of shoes and clutter doubles the clutter rather than the space.
+
+She applies the identical argument to **gloss**, and in doing so dismantles two common beliefs at once:
+
+- **Fingerprints show *more* on gloss, not less** — matte hides them, and coatings such as Fenix or soft-touch hide them entirely. She notes people believe the opposite.
+- **Gloss does not enlarge a room.** A glossy front reflects the whole room back at you, so **you get visual clutter, not expansion** — the same mechanism as the cluttered mirror. Her recommendation is matte throughout: matte fronts, matte porcelain on floors and in bathrooms, matte ceilings.
+
+Taken together with ARCHWOOD's rule, the reflective-surface test has two parts: **is there real light here, and is what would be reflected worth doubling?**
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
+
 ## Perspectives on Record — Should a Dark Room Be Painted Light or Dark? (added 2026-08-30)
 
 A real, unresolved disagreement between three named practitioners, surfaced by the 2026-08-30 colour batch. It matters here because it bears directly on any north-facing or light-obstructed room in this project's own apartment.

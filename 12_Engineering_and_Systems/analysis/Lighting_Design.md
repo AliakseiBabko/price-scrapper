@@ -113,6 +113,30 @@ lighting outright, but worth planning for (accessibility for cleaning,
 or accepting the eventual look) rather than treating it as maintenance-
 free. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
 
+## Seven Lighting Mistakes, With Mechanisms (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+The densest single-source lighting addition to this page so far, and unusually concrete — three of the seven items carry a number. `single-account`, `unverified`, but items 3, 4 and 6 are physical claims rather than taste.
+
+- **⚠️ LED strip run round the whole perimeter of a non-rectangular room produces an ugly broken line.** Her stated principle is that minimalist and contemporary interiors use simple geometric forms, so where a room has a projection formed by two walls (a wardrobe boxed out of a bedroom, say), **light only that external corner, or run one single line along the headboard wall under the ceiling, or use a cornice-concealed strip** — do not trace every jog in the plan.
+- **⚠️ A strip you can see into glares.** Her named case is a strip above a bed headboard that shines straight into your eyes once you lean back, and she notes it is uncomfortably bright even when not looked at directly. **Fix: mount the strip to throw light upward rather than downward, on a small standoff, preferably in a corner profile**, so the output is soft and diffuse.
+- **⚠️ Voltage drop over a long strip run — the most concrete item here. A reel is 5 m, and if the total run exceeds one reel fed from a single end, the far end is visibly dimmer.** The classic case is a bedroom perimeter fed from one corner, leaving the opposite corner dark, because the summed side lengths exceed 5 m. **Fix: feed from at least two opposite corners.** The same applies to multiple strips on one switch — **three vertical wall strips should each get their own cable**, not be chained off one; the fade "будет довольно заметно глазу." She notes the fitter may not warn you, since it works electrically either way.
+- **⚠️ Do not choose warm 3000 K as the main light because it "looks less bright" — luminous flux is independent of colour temperature.** People compare two showroom fixtures of **identical lumen output**, one 3000 K and one 4000 K, conclude the 4000 K is brighter, and downgrade to warm. Both illuminate a tabletop identically; they are confusing *warm* with *soft*. **If 4000 K feels too bright, take 4000 K with fewer lumens.** Two further reasons she gives for neutral as the main light: warm light is strongly relaxing and sleep-inducing, which is wrong if you want to work in the evening; and **neutral light does not distort the flat colours**, so it will not push already-warm walls further yellow when the main light comes on.
+- **⚠️ Switches with an indicator lamp make ceiling spots glow dimly at night, or switch on spontaneously** — current accumulates until it is enough to trigger the driver. **Fix: a shunt resistor in the circuit, possibly more than one.**
+- **⚠️ Add 1 cm to a recessed fixture's stated depth when calculating the ceiling drop.** A 6 cm fixture needs a 7 cm drop; a 10 cm fixture forces an 11 cm drop. Her named failure is buying an attractive showroom spot on light quality and colour temperature alone and only then discovering the ceiling must come down 11 cm.
+- **⚠️ Do not size a magnetic track power supply to the initial fixture count** — that removes the track's whole advantage. Specify headroom at purchase; she suggests telling the supplier you plan roughly three more fixtures.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NfHyCfo1J4w_shevrina_lighting_mistakes|YT_NfHyCfo1J4w]]]
+
+## Two Lighting Scenarios on One Track (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**One track does not have to mean one switch.** Two switches can drive different fixture groups on the same visual track line — her example puts the track pendants on one switch and the track general-light fixtures on another, ganged with the room's remaining spots. **Stated purpose: keep the ceiling clear of fixture clutter**, following their rule of thumb to leave only the minimum necessary lighting function visible on the ceiling.
+
+Complements the **"Minimum Three Scenarios" rule** already on this page — that one is about how many scenarios a room needs; this is a mechanism for delivering two of them without adding hardware to the ceiling.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
+
+**Related, from the same practitioner**: coloured/RGB strip lighting is argued to cheapen an interior except in a deliberately themed room (a gaming room is named as legitimate); for normal use she specifies **4000 K neutral or 3000 K warm**, preferring warm because a strip is usually part of the evening scenario. She also states that **the influence of a cornice LED strip on wall-colour choice is overstated** — people over-weight it when selecting paint. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NfHyCfo1J4w_shevrina_lighting_mistakes|YT_NfHyCfo1J4w]]]
+
 ## Ceiling Light Source Types
 
 Three distinct ceiling light-source types come up repeatedly once you move past a single generic "downlight" mental model:

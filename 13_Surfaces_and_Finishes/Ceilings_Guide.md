@@ -379,6 +379,22 @@ material itself.
 
 `single-account`, `unverified`.
 
+## Perspectives on Record — A Blanket "Never" on Stretch Ceilings (added 2026-08-30)
+
+**Мария Шеврина / SMBUREAU** state a categorical position against stretch ceilings that runs against most of this page. It is recorded here as a dissent rather than folded into the comparisons above, and **one half of her argument is directly contradicted by evidence already on this page.**
+
+| Her argument | How it stands against what this page already holds |
+|---|---|
+| **The flood-protection argument fails**, because a contemporary interior has many light penetrations through the membrane and water finds its way through anyway | **⚠️ Contradicted by a documented incident.** RemProektMD record a real upstairs-neighbour flood **fully contained** by an already-installed PVC-film stretch ceiling — the film bulged but held all the water, protecting the engineered-wood floor beneath entirely. Her reasoning about penetrations is plausible in principle but is not what happened in the one real case on record here. **Treat her flood claim as the weaker side of this disagreement** |
+| **⚠️ The membrane is installed before the last fit-out trades arrive, and one careless movement by a furniture fitter puts a hole in it** — after which you are patching or replacing the whole sheet | **A genuinely new point on this page, and the stronger half of her case.** This page covers acceptance checklists, seam limits and cost comparisons, but not sequencing risk from *subsequent* trades. Consistent with the existing "Pre-Work Liability Act" material, which addresses damage liability from the other direction |
+| Cats | Anecdotal; recorded for completeness only |
+
+**Common ground.** She is not disputing cost or speed — the two advantages this page's other sources rest on (2–3× cheaper than painted drywall; one day versus two weeks). Her objection is about durability-in-use and about a design preference for an unadorned ceiling plane, and her recommended alternative is consistent with that: **plaster the existing structural slab and use surface-mounted fixtures**, which she argues is both cheaper than a plasterboard ceiling and aesthetically preferable — a point she makes again in her cost analysis, where GKL ceilings dominate the ceiling line.
+
+**Your priority.** Not yet decided. The deciding factors are the ones both sides actually name: **how much of your lighting penetrates the ceiling plane** (which is what her flood argument turns on, and which a spot-heavy scheme maximises), and **whether the ceiling goes in before or after the furniture fitters**.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+
 ## Do's
 
 | Rule | Applies To | Reason | Source |

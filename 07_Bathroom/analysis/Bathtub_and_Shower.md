@@ -295,3 +295,13 @@ promotional ratio.
   covered with hardboard ("оргалит") to prevent scuffing/damage during
   the remainder of the ongoing work.
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+
+## Concealed Curtain Track and Concealed Glass Profile (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+Two alternatives to the standard shower enclosure detail, both from a studio that applies them across projects:
+
+- **⚠️ A concealed (recessed) track for a bath or shower curtain** — the same recessed-niche track normally used for window curtains, used where a curtain is preferred to a glass screen. She specifies a custom curtain in treated fabric. **On the recurring "how do you take it down to wash it" objection: there is an end cap on the track — pop the cap and the runners slide out, or simply unhook the curtain from the hooks.**
+- **⚠️ Shower glass set in a concealed profile rather than a surface-mounted aluminium one.** Three stated advantages: **more watertight**; **more hygienic**, with fewer corners collecting dirt and mould, and easier to clean; and visually the glass appears to emerge directly from wall and floor, which she notes matters most in small bathrooms. Sourced from shower-partition manufacturers rather than from a general contractor.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
+

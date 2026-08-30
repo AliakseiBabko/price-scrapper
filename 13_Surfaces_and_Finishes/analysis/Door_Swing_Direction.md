@@ -15,3 +15,14 @@ See [[13_Surfaces_and_Finishes/analysis/Rough_Opening_and_Casing_Sizing|Rough-Op
 ## Diagnostic: No Valid Swing Direction Means Relocate the Opening (added 2026-08-19, remainder-pool batch)
 
 Zemstandart/Alexey Zemskov and the cited corroborating source say: **If a door opening's position (e.g. on a diagonal corner, or hemmed in by fixtures on multiple sides) leaves the door leaf conflicting with something in every possible swing direction, the fix is almost always relocating the opening itself, not compromising on a "least-bad" swing.** Documented case: a bathroom door as originally positioned by the developer would have conflicted with the kitchen entrance, the bedroom exit, the sink, or the towel warmer depending on which way it swung — every option failed until the opening itself was moved to a wall section clear of all four conflicts. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|YT_v7UXJ5fJ0H0]]]
+
+## Approach Direction, Not Just Room Geometry (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+She names door swing alongside a short basin spout as her "top two favourite mistakes," and the specific insight is about *which side you actually arrive from*:
+
+**⚠️ Work out the direction the door is most often approached from — which for a guest WC, a utility/laundry block or a wardrobe is usually *not* the entrance hall.** It is the kitchen or the living room. The handle should fall on the line of travel, rather than forcing you to take two extra steps, grab the handle, step aside to clear the swinging leaf, and only then walk in. "Очень часто есть какие-то помещения… вы будете заходить в эти помещения не со входной двери."
+
+**Her method: rehearse the usage scenarios on the plan** — and decide the light-switch position in the same pass, since it is the same walking line.
+
+`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]]
+

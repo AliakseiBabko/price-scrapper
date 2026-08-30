@@ -274,3 +274,23 @@ Logs); the following don't belong to any single room-specific page:
 
 [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
 
+## Renovation Cost Structure — 90 m² Minimalist Turnkey (Мария Шеврина / SMBUREAU, 2023, region unresolved, added 2026-08-30)
+
+From the studio's own bill of quantities. **Region unresolved at level 1** (RUB pricing implies the Russian market; no city named), year confirmed 2023 — so the percentages are the usable part and the absolute figures carry the standard comparability caveat.
+
+| Figure | Value | Note |
+|---|---|---|
+| Contractor labour + rough materials, share of total budget | **24.5%** | The largest single category; **explicitly stated to repeat across projects** |
+| Plasterboard vs. foam-block partitions | **~2.5× more expensive** | For essentially equal volume |
+| Reverse-swing vs. standard-swing doors | **+20%** | |
+| Floor-to-ceiling vs. standard 2100 mm doors | **+15%** | |
+| Concealed doors vs. ordinary doors | **no longer more expensive** | Her explicit claim |
+| Large-format ceramic slab (1×3 m) vs. porcelain | **~2× the price for ~half the area** | Driven mainly by labour |
+| Shadow-gap plinth profiles, 90 m² | **44,000 RUB ≈ $690** | |
+| Shadow-gap plinth installation, 90 m² | **72,000 RUB ≈ $1,100** | |
+| Shadow-gap plinth, total | **~116,000 RUB ≈ $1,800** | |
+
+*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before 2023-02-20 (2022-08-20..2023-02-18, 125 samples, 63.8687 RUB/USD), rounded to the nearest 10 below $1,000 and the nearest 100 above.*
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+

@@ -103,3 +103,17 @@ See [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]] for the 
   design rule: baseboards should always match the color of the door/trim
   casings. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dsBkqzhX08I_ispanskiy_remont_hallway_full_reno|YT_dsBkqzhX08I]]]
 - RemProektMD/Andrei recommends (Chișinău/Moldova channel, region level 2 only): **plastic baseboards over MDF or polyurethane for budget work** — the rubber edge gasket on a plastic baseboard presses flush against an imperfectly-flattened wall, visually hiding waviness that a rigid MDF/polyurethane baseboard (no gasket) would reveal. **Secondary benefit**: the gap between a plastic baseboard and the wall can route a forgotten/late-added cable without re-cutting into the wall, though the source still recommends planning cable routing in advance as the primary approach, not relying on this as a first resort. `single-account`, no absolute price given. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
+
+## Cost Levers Within a Door Specification (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+From an analysis of her studio's own bills of quantities on a 90 m² project. Four named levers, three with percentages:
+
+- **⚠️ Reverse-swing doors cost about 20% more than standard-swing.** Her advice is to design the plan so that the convenient swing is also the standard one — cost and ergonomics point the same way here.
+- **⚠️ Floor-to-ceiling doors cost about 15% more** than standard 2100 mm doors.
+- **Avoid concealed doors supplied pre-finished with panels** — plain paint-ready concealed doors are cheaper.
+- **⚠️ Concealed doors no longer cost more than ordinary doors**, and she advises explicitly against abandoning them as an economy. Her wider point is that they belong on the "useless economy" list: giving them up saves little and costs a lot of the result.
+
+Glass constructions (shower enclosures, sliding loggia partitions) contribute less to the estimate than concealed doors, but do add up.
+
+`single-account`, `unverified`, 2023 data, **region unresolved at level 1** (RUB pricing implies the Russian market; no city named in the source). Percentages travel better than absolute figures, but both should be read as one studio's cost experience. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+

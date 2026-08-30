@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=avRNMkNdOBs",
+  "video_id": "avRNMkNdOBs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T19:06:52.232315+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4ee4ee8a0b394f5bada85730136b1bdc3388a07c717e9ae3c4b8e891ab664810",
+  "attempts_before_success": []
+}

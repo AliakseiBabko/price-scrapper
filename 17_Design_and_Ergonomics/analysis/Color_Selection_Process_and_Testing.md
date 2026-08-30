@@ -151,6 +151,48 @@ The most strongly corroborated procedural content in the batch — **four indepe
 
 ---
 
+## The Same Paint Code on a Wall and on a Cabinet Front Will Not Match
+
+**Мария Шеврина / SMBUREAU** — a new mechanism for this page, and one backed by a controlled experiment on their own site.
+
+The intuition is obvious and wrong: pick one NCS or RAL number, use it for both the walls and the kitchen or wardrobe fronts, and they will match. **They will visibly differ.**
+
+> **Their experiment.** On a site where the walls were already painted to a specific NCS article, they had their joinery shop produce a perforated radiator panel to *exactly the same NCS number*. The panel came out visibly pinker than the wall.
+
+**Her stated mechanism, in three parts**: the paint formulations differ (what goes onto MDF is not what goes onto a wall, so the same colour recipe yields a different film); the substrate differs; and the application method differs entirely.
+
+**⚠️ The fix is counter-intuitive and is the practical payoff: to achieve a tone-on-tone match, deliberately specify *different* shades for the wall and the front.** That is how they got the matched result they show. The general rule attached: always do выкрасы **and** commission a front sample — don't skip the sample stage on joinery.
+
+She restates the same claim independently in her white-paint video, where she reports repeatedly receiving messages from people who painted walls and fronts to one code and got an obvious mismatch, the fronts reading as though "заляпанные, им уже 15 лет" — and notes it is visible to anyone, not only a perfectionist.
+
+[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_b5oeFxmaubI_shevrina_no_perfect_white|YT_b5oeFxmaubI]]]
+
+## There Is No "Perfect White" Article Number
+
+**Мария Шеврина / SMBUREAU**, and this is a direct challenge to the genre of naming shades.
+
+- **⚠️ Their studio has never reused the same paint article on two objects.** Not once. The finished results read as the same warm white; the articles behind them are entirely different.
+- **⚠️ The demonstration**: take the paint used on object A and on object B, make two выкрасы, and view them side by side under identical conditions. **They differ visibly in lightness, in saturation, and in pigment** — one may read distinctly pink, the other greyish or even greenish.
+- **⚠️ Her named failure case**: she found a warm white she loved — **Little Greene "Flint"** — and carried it to the next project, where it came out "настолько отвратительно грязно-серовато-зеленоватым," with none of the warmth that made her choose it.
+- **What makes a shade unrepeatable**, in her list: floor area; room configuration (elongated with one window vs. elongated with five along a wall); the storey; the glazing itself; the view; the buildings opposite; window size and count; and the other shades already present in the flat. She notes the list is incomplete.
+- **⚠️ The method: выкрасы, expecting two iterations and sometimes three.** Buy a first batch of sample pots, paint them, assess, **correct on what you actually see**, buy a second batch. Correcting intelligently requires understanding pigment, saturation and lightness — which is why she treats white as genuinely difficult rather than a safe default. She is explicit that designers go through the same iterations, and not from inexperience.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_b5oeFxmaubI_shevrina_no_perfect_white|YT_b5oeFxmaubI]]]
+
+### RAL is the wrong fan deck for wall colour
+
+Same source, and a specific correction to a common assumption:
+
+- **RAL is "самый ужасный, самый маленький веер, который только может быть"** for this purpose — it is intended for painting plastic and metal constructions, her example being the aluminium profile of a partition. She notes that nearly every question she receives is phrased as "what RAL is on the walls," and that designers rarely pick up a RAL deck for wall colour at all.
+- **In ~99% of cases the working reference is a paint manufacturer's own fan deck** — shades devised by the paint-makers' own designers. She has used an NCS deck once, to find a particular grey. **This independently corroborates ARCHWOOD's "сложные цвета" argument** on [[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Neutrals & Earth-Tone Palettes]]: take a ready-made complex shade from a manufacturer's collection rather than tinting to a code from a simplified catalogue.
+- **And the reason people reach for RAL is itself the mistake** — they want one code they can reuse for cabinet fronts later, which is exactly the разнотон trap above.
+
+[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_b5oeFxmaubI_shevrina_no_perfect_white|YT_b5oeFxmaubI]]]
+
+### A lighting caveat on colour selection
+
+**Мария Шеврина / SMBUREAU** adds two points from the lighting side. **Neutral (4000 K) main light does not distort the flat's colours**, which makes colour selection easier and avoids pushing already-warm walls further yellow when the evening light goes on — a reason to prefer neutral over warm for the *main* light. And, cutting the other way, she argues **the influence of a cornice LED strip on wall-colour choice is overstated** and that people over-weight it when picking paint. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NfHyCfo1J4w_shevrina_lighting_mistakes|YT_NfHyCfo1J4w]]]
+
 ## Wood as a Palette Member
 
 **ARCHWOOD / Марина Измайлова** gives a named, explicitly non-scientific but workable technique for the question "does this wood tone fit my palette":

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=UDrpyZE_V38",
+  "video_id": "UDrpyZE_V38",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T19:14:31.543647+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e80c4f925de424aa4930fc21d000ba8e08089fb241c6308109e14d99f724aacd",
+  "attempts_before_success": []
+}
