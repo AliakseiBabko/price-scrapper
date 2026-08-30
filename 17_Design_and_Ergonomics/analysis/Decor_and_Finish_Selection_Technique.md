@@ -485,3 +485,24 @@ From a general 10-item design-mistakes explainer (full list also recorded in `Du
 - 2026-08-25 — Added furniture-sourcing/placement technique section from Anuta Vlady's living-room makeover case (`YT_GfixqWjsD58`).
 - 2026-08-25 — Added track-lighting/storage/style-mixing technique section from Anuta Vlady's fourth same-channel video (`YT_S3Mn1FvQhKI`, dispatched as Kodolov, corrected via yt-dlp metadata).
 - 2026-08-25 — Added disguise/refinish/material-substitution technique section from Sergey Kodolov + designer Tatiana's real Dubai apartment review (`YT_IoQaozB-DYA`) — first Dubai-market source in this vault, flagged as region-noncomparable for pricing.
+
+## Three More From the Same Studio (added 2026-08-30, Round 2)
+
+- **⚠️ Staggered-height pendants, sconces and shelves.** She names staggered pendants as the single most frequent mistake she sees across submitted interiors — "это и не было стильно тогда, и не стильно сейчас" — and applies the same verdict to shelves hung at deliberately uneven heights, which read overloaded rather than playful. Hang them level. Lighting-specific detail on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]].
+- **⚠️ Random single-element colour or material insertions.** One wood-fronted door among white fronts; a random blue patch on an otherwise white wall. Her position: don't, unless you can say why *that specific element* is being distinguished. Consistent with the accent-must-be-justified rule already on this page from Anuta Vlady, reached independently.
+- **⚠️ Where a material defines a zone, take it to full height.** Her worked correction on a submitted bathroom: carry the wood fronts over the WC installation too, in wood-look panels, so the whole WC zone reads as wood floor-to-ceiling — rather than wood cabinets floating above a differently-finished installation. The same logic she applies to an entrance door in a contrasting finish (carry it to the ceiling or it reads as a patch).
+
+`single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
+
+## Why a Piece of Furniture Reads "Designed" (added 2026-08-30, Round 2)
+
+Stated about furniture but general enough to belong here: **an attractive object is never accidental** — "он не может быть красивым ни с того ни с сего." The causes she names are checkable against anything:
+
+- **Соосность** — coaxial alignment of elements to one another.
+- **Repetition of one form at several scales.**
+- **Deliberate scale relationships between details — or a deliberate contrast instead.** Either is a decision; neither being present is the failure.
+- **⚠️ Equal corner radii at every junction.** Unequal radii within a single object is her named marker of unconsidered design.
+- **⚠️ Contrast of forms controls visual weight**: a thick base under a thin top reads light; both the same thickness reads massive.
+
+Full treatment, with the furniture-specific consequences, on [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]. [source: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
+

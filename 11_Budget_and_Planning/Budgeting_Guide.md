@@ -544,6 +544,36 @@ An unusually concrete cost-structure analysis, built from the actual bills of qu
 
 `single-account`, `unverified`, 2023 data, one studio, one project, self-reported. **The 24.5% figure is the only one she explicitly generalises across projects**; the rest come from this single case. Relative proportions age better than absolute figures, but even proportions shift as material prices move. [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
+## 5b. Two Procurement Traps That Change the Budget (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+### Large ceramic slabs: the delivery you didn't budget for
+
+**⚠️ A 3 m ceramic slab does not fit in a lift and has to be carried up the stairs by hand — she puts that at 30,000–50,000 RUB (≈$330–$550)**, on top of a delivery that already costs more because the truck and the loading are a different class of job from panels under a metre.
+
+**⚠️ The mitigation is specific and cheap: have the slab cut down at the factory before delivery**, into pieces of about a metre, and **align the cuts to real lines in the design** — where cabinet-front divisions fall, where the mirror begins, where the basin or WC installation ends — so the joints read as deliberate rather than as random seams. You keep the wide-format look and drop both the hand-carry and the oversize delivery.
+
+*(5b: `USD/RUB` trailing 6-month arithmetic mean before the 2024-05-09 publish date, 91.0617 RUB/USD; rounded to the nearest 10. **Region unresolved at level 1** — the standard comparability caveat applies to the figure; the *mechanism*, that lift dimensions force a hand-carry, transfers anywhere.)*
+
+[source: [[_Sources/YT_haM4H-b-bZM_shevrina_bathroom_tile_selection|YT_haM4H-b-bZM]]]
+
+### Your fabricator's capabilities are a design constraint
+
+**⚠️ On a real project this killed a specified material outright.** The client insisted on a particular joinery shop — another city, a personal connection, a large discount, and genuinely good service — that **does not work with ceramic.** Ceramic was consequently dropped from both the island and the cabinet fronts, and the design reworked toward metal or microcement fronts instead.
+
+**Her stated market pattern: finding a ceramic-capable joinery shop is easy in Moscow and hard elsewhere.** She has clients in other cities who canvassed local shops and got refusals.
+
+**Actionable: confirm the fabricator can actually execute the specified material before specifying it** — and treat "the client wants to use their own contractor" as a design input, not just a commercial one.
+
+### Material availability risk scales with how common the decor is
+
+- **Popular decors — concrete-look, microcement-look, marble-look — have many producers.** "Даже если половина производителей уедут из России, у вас всё ещё останется половина." Low substitution risk.
+- **⚠️ A rare decor such as onyx has no substitute.** If it runs out, "пиши пропала, придётся вообще другой дизайн придумывать." **Mitigation for anything rare: track stock levels, and reserve, buy out and warehouse it in advance.**
+- Worked instance: a supplier stopped shipping in early 2022 while they needed bathroom tile immediately; they substituted another manufacturer. One bathroom ended up near-identical to the render, the other didn't.
+
+**⚠️ And the reason this belongs in a budgeting guide rather than a design one: up to about a year and a half can pass between the design project and joinery realisation**, which is long enough for specified materials to sell out or be discontinued. Budget and programme should assume some substitution rather than treating the specification as fixed.
+
+`single-account`, `unverified`, 2023–2024, region unresolved. [source: [[_Sources/YT_KI2GvB0jzHs_shevrina_podcast01_kitchen_material_procurement|YT_KI2GvB0jzHs]]]
+
 ## 6. Detailed Case Studies
 
 - [[11_Budget_and_Planning/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).

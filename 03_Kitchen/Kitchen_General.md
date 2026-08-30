@@ -118,3 +118,30 @@ A dedicated small-kitchen guide, distinct from the placement/layout content abov
 - 2026-08-19 (chunk 4) — Added a "Why Not to Place a Kitchen at a Window" placement checklist, complementing the existing layout-configuration content.
 - 2026-08-25 — Added "Kitchen Theory: Adjacency, Functional-Use Statistics, and the Work Triangle" from a new independent architect channel (Vitaly Zlobin) — this page's first general-theory/reasoning-framework source, complementing the existing worked-case and checklist content.
 - 2026-08-25 — Added two generalizable points (0.5m minimum work-surface width, corner-sink-as-small-kitchen-compromise) from the same channel's Part 2 practice video — partial extraction only, house-specific floor plan not carried forward per this project's apartment context.
+
+## Ergonomic Clearances Around a Kitchen (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+The most numerically dense kitchen source processed into this vault, and the figures cross-check against each other rather than being asserted separately.
+
+- **⚠️ Dining table to a wall: 75 cm — and she decomposes it as 45 cm for a seated person + 30 cm for someone to pass sideways.** She attributes the 75 cm to ergonomic regulation (no standard named). **The decomposition is the useful part**, because it lets you re-derive the figure for a situation the rule doesn't cover.
+- **⚠️ Dining table to a *kitchen run* (not a wall): minimum 110 cm — 50 cm for the seated person + 60 cm for a cabinet front to open.** A larger number than the wall case, and the one she says people miss because the plan "looks fine" once the fronts are drawn.
+- **⚠️ With a dishwasher door open plus a bulky armchair-style dining chair that doesn't tuck under: minimum 145 cm.**
+- **⚠️ Measure to the chairs, not the table, whenever the chairs don't tuck under.**
+- **⚠️ A dishwasher door opens outward and occupies a full 80 cm.** The named failure is planning exactly 80 cm — or less — between the kitchen run and an island or table, having only checked the ordinary 40–60 cm cabinet fronts.
+- **⚠️ Walk three scenarios on the plan, not one**: (1) pushing a chair back and standing up; (2) one person seated while another passes; (3) one person seated while another uses the kitchen fronts.
+
+**Two clearances that aren't about people:**
+
+- **⚠️ A fridge against a wall needs a 7–8 cm filler strip** so the door opens past 90° and the crisper drawers pull out (model-dependent). **Their practice: assume 7 cm worst case, or better, put a narrow cabinet or bottle pull-out there instead.** Named downstream consequence — the strip shifts the whole run, and if the electrics are already installed a socket can end up over the hob or hidden behind a cabinet.
+- **⚠️ A radiator closer than 60 cm to the kitchen run blocks the fronts from opening.** Relocate it if it's being replaced, or plan a blind filler panel.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+
+## Hob Setback — a Fabricator's Warranty Constraint (added 2026-08-30)
+
+**⚠️ Stone fabricators require a minimum 10–15 cm setback from the worktop edge for the hob cut-out, or the stone cracks — and they will not warranty the worktop otherwise.** This is a supply-side constraint, not a design preference, and it is worth knowing before the layout is fixed.
+
+The ergonomic objection points the same way: a hob at the edge means your elbow hits the wall or a tall unit, and pan handles can't be turned freely. Her sequencing advice: knowing the 10–15 cm rule, plan the electrics and possibly a narrow bottle pull-out at the end of the run **first**, and place the hob after.
+
+[source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+

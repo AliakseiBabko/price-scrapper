@@ -1,6 +1,6 @@
 # 🛋️ Furniture — Domain Overview
 
-Landing page for furniture/built-in content that spans multiple rooms rather than belonging to any single one. Currently covers wardrobes and closet storage; expected to grow as more furniture categories (seating, tables, kitchen-adjacent furniture) get processed.
+Landing page for furniture/built-in content that spans multiple rooms rather than belonging to any single one. Covers built-in wardrobes and closet storage, and — since 2026-08-30 — loose furniture: sofas, beds, dining chairs and tables.
 
 *Created 2026-08-17 alongside the [[14_Furniture/Wardrobes_and_Storage|Wardrobes & Storage]] layered-guide conversion — this folder previously had no landing page at all.*
 
@@ -8,6 +8,12 @@ Landing page for furniture/built-in content that spans multiple rooms rather tha
 
 - **[[14_Furniture/Wardrobes_and_Storage|Wardrobes & Storage Guide]]** — built-in vs. walk-in vocabulary, sizing formulas by configuration, common mistakes, worked real-project cases, and legal recourse for defective contractor work.
   - Detail pages: [[14_Furniture/analysis/Wardrobe_Vocabulary_and_Sizing|Vocabulary & Sizing]] · [[14_Furniture/analysis/Walkin_Closet_Configurations|Walk-In Configurations]] · [[14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff|Wardrobe vs. Walk-In Tradeoff]] · [[14_Furniture/analysis/Wardrobe_Common_Mistakes|Common Mistakes]] · [[14_Furniture/analysis/Wardrobe_Worked_Cases|Worked Cases]] · [[14_Furniture/analysis/Furniture_Dispute_Legal_Recourse|Legal Recourse]]
+
+## Seating & Tables
+
+- **[[14_Furniture/Seating_and_Tables|Seating & Tables Guide]]** — loose furniture: the 40 cm rest-furniture height rule, the low-table vs side-table taxonomy with heights, the leg and junction rules, and why a short bulky sofa makes a small room read smaller.
+  - Detail pages: [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Selection Principles]] · [[14_Furniture/analysis/Seating_Selection|Seating & Beds]] · [[14_Furniture/analysis/Table_Types_and_Dimensions|Table Types & Dimensions]]
+  - `single-account` — all sources are one studio (Мария Шеврина / SMBUREAU). See the caveat on the guide page.
 
 ## Related, Living Elsewhere
 

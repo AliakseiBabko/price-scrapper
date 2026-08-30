@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=dSm7M6oGFis",
+  "video_id": "dSm7M6oGFis",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-30T20:48:27.080745+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "dbc12f15323f4e8cf5c8d1b40771a7eac844aea3ccd9c0849b56f41d60b6384d",
+  "attempts_before_success": []
+}

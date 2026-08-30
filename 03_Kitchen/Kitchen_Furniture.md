@@ -501,3 +501,37 @@ SMBUREAU specify worktops **flush with the cabinet fronts, with no overhang**, a
 
 `single-account`, `unverified` — one studio's position and one informal experiment, stated against prevailing trade practice. [source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
 
+## Worktop Materials, Sinks and Handles (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+### The overhang question is now settled twice over
+
+This page already records her experiment showing that a **2 cm worktop overhang does not protect the fronts** from spilled water — it wraps the overhang and runs down anyway. **A second, later experiment tests the supposedly-improved version and finds it also fails**: an overhang *with a drip groove* ("капельник") still lets water reach both the fronts and the space behind them, because the stream separates from the surface and surface tension gives it an angle in the air. Her conclusion: the detail has no functional purpose and only spoils the kitchen visually, "ровно так же, как подоконник с навесом."
+
+[source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+
+### Worktop material tradeoffs
+
+- **Ceramic**: heat-tolerant (hot pans can go straight down) and **absorbs no stains at all**. Thin large-format ceramic (~3–6 mm) is light enough to be fixed to MDF fronts as well, so worktop, splashback and fronts can carry one continuous stone pattern.
+- **⚠️ Acrylic (solid surface)**: white acrylic stains — red wine absorbs if not wiped promptly, hot items leave a yellow mark. It **is** restorable by sanding and polishing, and she says so plainly. **But her design position is to specify for the realistic owner, not the ideal one**: "чаще люди ленятся… лучше предусмотреть материал понадёжнее, не рассчитывать на то, что человек будет готов шлифовать." A clean, transferable principle for any maintenance-dependent material.
+- **Microcement on a kitchen worktop**: she is **explicitly unsure** whether it resists grease and heat, and says it would need real testing. Recorded as an open question, not a recommendation either way.
+
+[source: [[_Sources/YT_KI2GvB0jzHs_shevrina_podcast01_kitchen_material_procurement|YT_KI2GvB0jzHs]]]
+
+### Sinks
+
+**⚠️ Avoid acrylic sinks. Stainless steel is what designers actually specify** — undermounted: hygienic, wear-resistant, and tolerant of chemicals, heat and staining agents. She notes the common assumption that designers choose a stone sink matching the worktop, and says the opposite is true in her practice. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+
+### Handles — the mechanism behind the push-to-open objection
+
+This vault already records her rejection of push-to-open on frequently-used fronts. **The kitchen video supplies the reasoning the earlier note lacked**: a showroom trial of two or three opens misleads, because **in daily use it is two motions, not one — press, then pull — since the self-opening speed is never the speed you want.** A real handle is one motion at your own pace. On a surface opened many times a day the difference compounds.
+
+Integrated groove handles: fingers slip and nails break. **If specifying remotely without a showroom trial, choose fronts with no cut-out at all** and pull on the front edge. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+
+### Island cost technique
+
+**Ceramic on the top and wrapped down the visible side, front and back panels; ordinary MDF fronts on the hidden inner side, "потому что там никто ничего не видит"** — a straightforward way to keep the expensive material where it is seen. [source: [[_Sources/YT_KI2GvB0jzHs_shevrina_podcast01_kitchen_material_procurement|YT_KI2GvB0jzHs]]]
+
+### Sockets
+
+**⚠️ Plan sockets inside cabinets, not only above the worktop** — for countertop appliances (toaster, coffee machine, kettle, multicooker), especially in a small kitchen. With pull-out shelves the appliance is usable without being lifted out, which frees worktop and gets the electrics right. **Her method: list every appliance you own first**, then decide which live in a cabinet. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+

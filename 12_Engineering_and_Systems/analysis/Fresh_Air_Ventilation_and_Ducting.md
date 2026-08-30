@@ -253,3 +253,15 @@ Vladimir Amelchenko, demonstrating with two physical fan units opened on camera:
 - **Mitigation**: decide the specific fan type before ceiling/tile finishing begins, not as a final-stage purchase decision.
 
 [source: [[_Sources/YT_Z-jk95jveGg_sbk_turbo_timer_exhaust_fan|YT_Z-jk95jveGg]]]
+
+## Recirculating Hoods — a Russian Regulatory Change, and Why the Technical Argument Travels (added 2026-08-30)
+
+> [!WARNING]
+> **This is a claim about Russian law and is recorded here, not in `16_Legal_and_Regulations/`.** That folder is strictly Belarus-scoped, and this project's own rule is explicit that a Russian-sourced regulatory claim is a different country's law rather than weaker evidence — it must not be written there even with a hedge. **Whether any equivalent Belarus rule exists is an open question this source cannot answer.**
+
+**Мария Шеврина / SMBUREAU** states that venting a cooker hood into the apartment's ventilation shaft is **now illegal in Russia** — including the partial variant that blocks only half the vent opening to preserve natural ventilation — and that this now applies to **all** apartments rather than only gas ones. Her stated exception: apartments with their own individual ventilation ducts. Her prescribed alternative is a **recirculating (filter) hood**, which she says are now widely available and inexpensive; filter for "рециркуляция" when buying.
+
+**⚠️ The transferable part is the technical argument, which stands regardless of jurisdiction.** She adds a personal view that the change is correct anyway: shaft-vented hoods degrade the building's natural ventilation for everyone on the riser, which is a physical claim about shared infrastructure, not a legal one. That reasoning is directly relevant to any apartment on a shared ventilation shaft, and this page's existing material on shaft behaviour is the right place to weigh it.
+
+`single-account`, `unverified`, **Russian jurisdiction**. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+

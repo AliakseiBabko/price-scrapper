@@ -84,3 +84,11 @@ The source itself frames these as aesthetic extras, not functional necessities �
 
 `single-account`, `unverified`. [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
 
+## Shelf Proportion — a Specific Corrective (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**⚠️ For open shelving that reads too wide: add a central vertical divider and make it thick — about 2 cm — to assert the vertical, then reduce the number of horizontal divisions and make them thinner** (metal, for instance) so they recede. Function is unchanged; the piece stops reading as a grid of horizontals.
+
+The same page's existing concealed-fixing technique (an acrylic or metal plate clamped between tile courses) is her preferred execution where a shelf can be built into the tiling rather than added to it.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
+

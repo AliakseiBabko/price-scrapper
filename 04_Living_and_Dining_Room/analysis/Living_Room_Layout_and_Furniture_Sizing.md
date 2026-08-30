@@ -209,3 +209,13 @@ defaulting to it in a genuinely small room specifically:
   formula, and fireplace-zone reasoning. Guide page's inline section
   replaced with a summary + link per this project's layered-page
   convention.
+
+## Sofa Visual Weight and Table Co-Scale (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+Two additions that sit directly against this page's existing sofa-sizing material:
+
+- **⚠️ A compact sofa can make a small room read *smaller*, not larger** — the counter-intuitive one. People buy short-but-bulky precisely because the room is small. Her stated mechanism: **high seat height plus disharmonious side-proportions**; her fix: **add legs at the same overall sitting height**, which lowers the cushion mass relative to the floor and lightens the piece without costing seat height. She notes the same model can read elegant in its larger configuration and wrong in the compact one.
+- **⚠️ Scale the low/side table to the sofa**: a small-diameter side table suits a sofa of roughly **180–190 cm**; against a **2,400–2,500 mm** sofa the same table reads out of scale.
+
+Full treatment in [[14_Furniture/Seating_and_Tables|Seating & Tables]], a new page created the same day. `single-account`, `unverified`. [source: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]]] [source: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
+

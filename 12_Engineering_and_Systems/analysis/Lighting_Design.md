@@ -137,6 +137,32 @@ Complements the **"Minimum Three Scenarios" rule** already on this page — that
 
 **Related, from the same practitioner**: coloured/RGB strip lighting is argued to cheapen an interior except in a deliberately themed room (a gaming room is named as legitimate); for normal use she specifies **4000 K neutral or 3000 K warm**, preferring warm because a strip is usually part of the evening scenario. She also states that **the influence of a cornice LED strip on wall-colour choice is overstated** — people over-weight it when selecting paint. [source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]], [[_Sources/YT_NfHyCfo1J4w_shevrina_lighting_mistakes|YT_NfHyCfo1J4w]]]
 
+## Worktop Shadow — Why Lighting Behind You Fails (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**⚠️ Lighting placed behind the cook, using spots, throws their own shadow onto the worktop.** The mechanism is a beam-angle one: **most spots on the market have a narrow beam of about 60°.** She treats hard shadows on a kitchen worktop as a safety issue, not merely a comfort one.
+
+Her order of preference:
+
+1. **Best — a luminaire between the worktop edge and the upper cabinet fronts**, i.e. lighting the surface from in front of the cook rather than behind.
+2. **If it must go behind: use diffuse fixtures with a wider spread (~90–110°)** so at least there are no hard-edged shadows. *(Spoken without a unit; read in context as degrees, contrasted with the 60° spots — recorded as probable, not certain.)*
+3. **Don't skip backsplash / under-cabinet lighting in any case** — it is what rescues the shadow problem regardless of what the ceiling does.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+
+## Hang Pendants and Sconces at Equal Heights (added 2026-08-30)
+
+**⚠️ She names staggered-height pendants as the single most frequent mistake she sees** across submitted interiors — "я не знаю, откуда пошла такая мода: это и не было стильно тогда, и не стильно сейчас." It applies equally to dining-zone pendants, bedside pendants and wall sconces.
+
+**The same error with staggered shelves** reads visually overloaded rather than playful — see [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]].
+
+`single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
+
+## RGB / Coloured Strip Lighting (added 2026-08-30)
+
+Coloured strip lighting is argued to cheapen an interior except in a deliberately themed room — she names a gaming or computer room as a legitimate case. **For normal use: 4000 K neutral, or 3000 K warm** — she prefers warm here specifically because a strip usually belongs to the evening scenario rather than the working one.
+
+[source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
+
 ## Ceiling Light Source Types
 
 Three distinct ceiling light-source types come up repeatedly once you move past a single generic "downlight" mental model:

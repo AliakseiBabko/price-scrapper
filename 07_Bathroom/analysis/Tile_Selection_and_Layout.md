@@ -573,3 +573,49 @@ promotional ratio.
 
 `single-account`, `unverified`. [source: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]] [source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]] [source: [[_Sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]] [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]] [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
+## Format, Undertone and Relief — a Deeper Pass (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+This page already carries her Round 1 format rules. A dedicated tile video adds the causes, a showroom test, and a hard cost consequence.
+
+### The "dirty tile" effect, with its causes
+
+Concrete-look tile reads as dirt for **three** reasons, not one:
+
+1. **Too mottled (пёстрая).**
+2. **Too dark.**
+3. **⚠️ Wrong undertone — a cold one especially — and the effect intensifies when a cold-toned tile is combined with saturated warm wood.**
+
+Plus a fourth, physical cause: **many such tiles are printed with darkened edges**, so every unit's border stays visible and the wall reads as a grid rather than as one continuous concrete surface — which clutters an already small bathroom.
+
+**⚠️ Her showroom test, cheap and concrete: lay two or three tiles from the same collection side by side** and check (a) whether they have darkened edges, and (b) whether a continuous texture is actually achievable with them.
+
+**Replacements**: the same concrete-look but calmer, lighter and warmer; or commit fully to dark (graphite or black works); or switch to a quiet **slate** or **microcement** texture — stone patterns she says have been current for decades and will stay so.
+
+### Format rules, tightened
+
+- **⚠️ Mid formats are the problem — 20×40 is named as the worst**, with 30×60 alongside it. **Go large or genuinely small; the middle is where tile looks cheap.**
+- **⚠️ Marble and marble-look: from 120×45 or 120×60 upward, never a mid format.** Pins the lower bound more precisely than the Round 1 statement of the same rule.
+- **⚠️ The small classic format is fully current and is not a trend** — "ещё 100 лет назад выглядели актуально."
+- **⚠️ Marble must be matte, with a stated reason: "в природе не встречаются полированные материалы, мрамор в природе матовый."** Gloss cheapens it, worst of all on wide format. She reports still seeing polished marble on living-room and hallway floors.
+- **⚠️ The one place gloss works is the small classic format** — "это единственная плитка, в которой идёт глянец."
+
+### Relief and pattern
+
+- **Avoid**: representational reliefs (plant motifs are both the most-bought and the most artificial-looking); over-specific or complex geometric reliefs (recently trendy, now dated); and **wave reliefs**, rejected on cleaning grounds as much as aesthetic ones — she notes cleaning is what deterred most buyers anyway.
+- **⚠️ The timeless relief is the slat/rib — метр or ритм**, a motif she dates to Asia and Japan centuries back. *(She gives different centuries in two different videos; recorded as "long-standing" rather than as a date.)*
+- **Patterned tile is trend-bound by nature.** Either it was trendy and is now dated, or it is trendy now and will likely be dated in about five years. Asked which patterned tile she would specify for a долговечный interior: **"никакую."**
+
+### Two more
+
+- **"Пол на стене"** — floor-format planks run up a wall — is dated. It arose because wide-format wood-look didn't exist and people wanted wood where water hits. **Replacement: wide-format wood-look ceramic.**
+- **⚠️ Splitting a wall horizontally into two different tiles is NOT an anti-trend** — she raises it specifically to defend it. It's a standard move for balancing a tall, narrow, box-like small bathroom and it still works; the failure was the *old* execution (floral or dolphin borders, decorative кантики), not the device itself. It reads well in large bathrooms too.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_haM4H-b-bZM_shevrina_bathroom_tile_selection|YT_haM4H-b-bZM]]]
+
+### Two refinements from her subscriber-critique video
+
+- **⚠️ Knotty, high-contrast wood-look tile is wrong in minimalism** — it generates visual noise and steals attention from a genuine accent. **It works only on horizontal surfaces such as floors; on walls choose a calmer grain, without knots and without strong veining.**
+- **⚠️ Square floor drains ("трапы") — avoid, and never place one at a random point in the shower.** Her objection is a tiling one and is invisible in a render: **the floor has to fall to the drain, so the tile gets cut heavily, including diagonal cuts.** Visualisations show smooth uncut tile and mislead. A fabrication consequence rather than a taste verdict.
+
+[source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
+
