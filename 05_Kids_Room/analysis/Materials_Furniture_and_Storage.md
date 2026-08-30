@@ -16,7 +16,7 @@ vacuum daily" resolve of new parents reliably fades within a few months
 (stated from personal and peer experience) — don't plan around
 daily-vacuuming discipline holding up long-term. RemPlanner offers
 engineered wood or quartz-vinyl-with-underfloor-heating as alternatives
-if the base floor runs cold. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
+if the base floor runs cold. [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]], [source: [[_Sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 
 ## Wall Finish
 
@@ -26,7 +26,7 @@ whose parents don't want to restrict that; veneer panels for a "nobler"
 look, but carry real irreversible damage risk from a hard knock (a toy
 hammer) with no repair option; patterned wallpaper only once a child's
 taste has genuinely stabilized, or if parents plan to redecorate
-periodically. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
+periodically. [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
 
 A neutral, repaint-ready base (washable/anti-vandal paint) is the
 infrastructure-layer default — see [[05_Kids_Room/analysis/Age_Staged_Planning|Age-Staged Planning]]
@@ -43,7 +43,7 @@ channel — no less breathable than drywall. A star-field ceiling is
 framed by two independent sources as a genuinely memorable design
 feature children recall fondly as adults; a stretch ceiling with a
 self-installable LED strip suits an older child (~10) as an
-identity-expression feature. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
+identity-expression feature. [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]], [source: [[_Sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 
 ## Furniture Quality and Sizing
 
@@ -52,16 +52,16 @@ identity-expression feature. [source: [[11_Budget_and_Planning/_supporting/knowl
   between single- and double-layer construction is small, but a child
   who grows up around solid furniture internalizes that as the normal
   standard for life; cheap furniture (visible torn-out hinges, crumbling
-  edges) sets a lower baseline instead. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
+  edges) sets a lower baseline instead. [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
 - **Desk/shelf height by age**: shelf reach ~130cm at age 5, ~150cm at
   age 7; desk height ~40-45cm preschool, ~52cm at 6-7yr, ~58cm at
   7-8yr, ~70cm at 9-11yr. Since most households won't re-buy furniture
   every year or two, **height-adjustable desks/chairs** are the
-  practical default — buy quality once, adjust indefinitely. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
+  practical default — buy quality once, adjust indefinitely. [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
 - **Modular wardrobe systems are strongly preferred over a fixed
   build**, since children's hobby-driven storage needs (sports one
   year, art supplies the next) change faster and less predictably than
-  a fixed interior can accommodate without a rebuild. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
+  a fixed interior can accommodate without a rebuild. [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
 
 ## Two Real, Concrete Cautions from Case Studies
 
@@ -69,11 +69,11 @@ identity-expression feature. [source: [[11_Budget_and_Planning/_supporting/knowl
   children**: each of the two resulting triangular sections is only
   ~50cm usable width — workable for one child, insufficient once split
   between two. "They steal both your things and your space" — avoid a
-  corner-wardrobe system for a genuinely shared room. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
+  corner-wardrobe system for a genuinely shared room. [source: [[_Sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
 - **A bed against a cold exterior wall is genuinely uncomfortable to
   sleep against** — a low-cost mitigation without structural change:
   add a railing/backrest and pillows to the wall-adjacent bed edge,
-  converting the sleeping edge toward a sofa feel. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
+  converting the sleeping edge toward a sofa feel. [source: [[_Sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
 
 ## Toy and Personal-Item Storage
 
@@ -86,29 +86,29 @@ identity-expression feature. [source: [[11_Budget_and_Planning/_supporting/knowl
   to lock the other one out as a prank). **School-age storage must be
   closed (doors/drawers), not open shelving** — open shelving invites
   visible clutter; closed storage lets a child stash messily inside
-  while the room still reads as tidy from outside. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
+  while the room still reads as tidy from outside. [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
 - **Toy/book storage accessibility rule (young children)**: size and
   place open shelving/baskets so a young child can retrieve *and* put
   away items independently — open book display doubles as wall decor.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
+  [source: [[_Sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 - **Storage-orientation reframe**: converting an existing horizontal
   under-bed storage area to a vertical lift-lid storage bench (for
   off-season bedding) is "not lost space, just a change in storage
   orientation" — a useful reframe when a client worries a redesign will
-  cost them storage capacity. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
+  cost them storage capacity. [source: [[_Sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
 - **Bed-staircase drawers and a dual-purpose loft-bed base**: a young
   child's elevated-bed staircase with integrated pull-out drawers, sized
   so she can self-tidy her own toys quickly (avoiding older-sibling
   complaints); a deep, triple-door cabinet built into a loft-bed base
-  can double as both storage and a hide-and-seek play spot. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
+  can double as both storage and a hide-and-seek play spot. [source: [[_Sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
 - **A pouf/ottoman doubling as a large toy-storage box**, paired with
-  under-bed storage drawers. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lbaZ__wbLWo_atmosfera_svoboda_two_children_room_design|YT_lbaZ__wbLWo]]]
+  under-bed storage drawers. [source: [[_Sources/YT_lbaZ__wbLWo_atmosfera_svoboda_two_children_room_design|YT_lbaZ__wbLWo]]]
 - **Deliberately limit total toy volume kept in the room** and teach a
   child to actively discard unused toys — most bought toys go unplayed
   with regardless of quantity; modeling non-hoarding behavior tends to
   transfer to the child. Avoid over-furnishing/over-filling a small room
   with wardrobes and toys — it reads as cramped rather than functional.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
+  [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
 
 ## Real Pricing
 
@@ -116,4 +116,4 @@ A real 12.5m² mixed-sex kids' room's custom carpentry/joinery estimate
 (built-in loft bed + storage structures) — the main cost line for that
 project — ran **~300,000-400,000 RUB (≈$4,300-$5,700, trailing-6-month
 rate to 2023-04-25)**, a rough designer estimate rather than an itemized
-quote, region unstated. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
+quote, region unstated. `single-account`. [source: [[_Sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]

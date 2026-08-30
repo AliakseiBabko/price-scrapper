@@ -1,6 +1,6 @@
 # Renovation Sequence
 
-Airplane-view guide to renovation sequencing. For trade-off tables and the full 24-step turnkey workflow, see [[11_Budget_and_Planning/_supporting/case_studies/schedule_analysis_case|Schedule Analysis Case Study]].
+Airplane-view guide to renovation sequencing. For trade-off tables and the full 24-step turnkey workflow, see [[11_Budget_and_Planning/case_studies/schedule_analysis_case|Schedule Analysis Case Study]].
 
 ## General Order of Events
 
@@ -25,7 +25,7 @@ The order above is a default, not a fixed rule — several material and design c
 - **Large-format tile backsplash vs. standard tile** — large slabs (e.g. 3m runs) must be tiled *before* cabinet installation to leave maneuvering clearance; standard small tiles can go in after cabinets.
 - **Drywall-frame vs. block/brick partition walls** — drywall framing allows utility routing inside the cavity before closing (zero wall chasing); block/brick walls require plastering first, then chasing grooves for cables/pipes after a 2–3 week drying wait.
 
-Each of these trade-offs, with sources and full option tables, is documented in the [[11_Budget_and_Planning/_supporting/case_studies/schedule_analysis_case|Schedule Analysis Case Study]] — decide on these choices *before* the relevant rough-works stage, not after.
+Each of these trade-offs, with sources and full option tables, is documented in the [[11_Budget_and_Planning/case_studies/schedule_analysis_case|Schedule Analysis Case Study]] — decide on these choices *before* the relevant rough-works stage, not after.
 
 ## A Concrete Stated Build Order Within "Rough Works & Structural Changes" (added 2026-08-04)
 
@@ -62,7 +62,7 @@ A dedicated QC milestone between rough-in and finish work — walls plastered+sa
 ## Replanning Approval, Pre-Demolition Packing, and Two Late-Stage Sequencing Rules (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)
 
 Vladimir Amelchenko's own 17-stage sequence checklist, low promotional
-ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dSZpq5Z9CEk_sbk_full_renovation_sequence_az|YT_dSZpq5Z9CEk]]]
+ratio. [source: [[_Sources/YT_dSZpq5Z9CEk_sbk_full_renovation_sequence_az|YT_dSZpq5Z9CEk]]]
 
 - **⚠️ Replanning approval must happen before demolition/reconstruction work starts, not after** — many people take a finished design project straight into demolition, only to later discover the layout change may be unregistered, risking a fine and a forced reversal. **Named timeline caution**: the approval process itself varies by district — up to **2 months** in the speaker's own example — budget this as a real planning delay, not a formality alongside other early-stage work.
 - **⚠️ Pre-demolition protective packing (windows, doors, elevator, mailboxes) as a default, not just damage-avoidance**: prevents an unresolvable liability dispute — a real worked scenario: an unprotected wall gets scratched, the crew and any delivery company both disclaim responsibility, and without a camera or packing in place the owner either fixes it personally or risks a management-company bill. Even with a camera clearly identifying the responsible party, recovering compensation still requires real effort (determining repair cost, matching the original developer finish) — packing by default is cheaper in time/money/stress than pursuing compensation after the fact, even when liability is provable.
@@ -75,7 +75,7 @@ ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dSZpq5
 
 Several concrete construction techniques from a real secondary-apartment
 ("вторичка") rough-stage sequence walkthrough, `single-account`.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_nd5WfYyjelg_kruglov_rough_reno_stages_old_apartment|YT_nd5WfYyjelg]]]
+[source: [[_Sources/YT_nd5WfYyjelg_kruglov_rough_reno_stages_old_apartment|YT_nd5WfYyjelg]]]
 
 - **Partition-wall build technique**: aerated/gas-block partitions are
   built up **row by row with a mandated drying wait between each row**
@@ -139,7 +139,7 @@ Several concrete construction techniques from a real secondary-apartment
 ## New-Build Rough-Stage QC Acceptance Checklist (Ontario/Nikita Kuznetsov, added 2026-08-28)
 
 From a real, itemized new-build rough-renovation case (see the case
-study linked from `Budgeting_Guide.md` §6). `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_suY0GGTOG9E_kruglov_rough_reno_new_build_case|YT_suY0GGTOG9E]]]
+study linked from `Budgeting_Guide.md` §6). `single-account`. [source: [[_Sources/YT_suY0GGTOG9E_kruglov_rough_reno_new_build_case|YT_suY0GGTOG9E]]]
 
 - **Partition acceptance**: check tilt/plumb with a laser level, confirm
   opening heights against the apartment's own reference "zero" mark, and
@@ -210,7 +210,7 @@ Rough → Finish → Completion — from a source that, unlike this
 channel's other sequencing videos, gives comparable structured detail
 to the *bookend* stages (before rough works start, and after the
 visible work looks finished) rather than just the rough/finish middle.
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9tScer1xT_E_kruglov_all_stages_2025|YT_9tScer1xT_E]]]
+`single-account`. [source: [[_Sources/YT_9tScer1xT_E_kruglov_all_stages_2025|YT_9tScer1xT_E]]]
 
 - **Documentation-stage checklist**: layout plan and its feasibility/
   approval status; engineering plans (electrical, plumbing, sewage,
@@ -261,7 +261,7 @@ This round's sibling "all stages" video (2024, older than the one
 above) restated most of this page's existing content almost verbatim —
 correctly identified as the round's thinnest source rather than forced
 into a denser extraction — but contributed a few genuinely new or
-sharper items. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lLuNbjNXjg0_kruglov_all_stages_2024|YT_lLuNbjNXjg0]]]
+sharper items. `single-account`. [source: [[_Sources/YT_lLuNbjNXjg0_kruglov_all_stages_2024|YT_lLuNbjNXjg0]]]
 
 - **A concrete new-build-vs-secondary demolition-duration comparison**:
   a new-build unit with no existing partitions needs only its

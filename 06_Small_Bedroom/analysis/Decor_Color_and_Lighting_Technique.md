@@ -14,14 +14,14 @@ hazard for a half-asleep occupant (e.g. reaching to silence an early
 alarm) — recommends against this fixture type/placement combination
 specifically, distinct from this vault's existing bedside-reading-light
 placement guidance (which addresses aim/function, not fixture material/
-breakage risk). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0TLDGD8MY1A_kruglov_top_renovation_mistakes_2026|YT_0TLDGD8MY1A]]]
+breakage risk). `single-account`, `unverified`. [source: [[_Sources/YT_0TLDGD8MY1A_kruglov_top_renovation_mistakes_2026|YT_0TLDGD8MY1A]]]
 
 ## Perspectives on Record — Saturated Color in a Small Bedroom
 
 | Source | Position | Stated reasoning |
 |---|---|---|
 | Anuta Vlady (`ohOpaJczckE`, 2025) | Saturated/dark accent color (deep green) is "the ideal solution" for a small bedroom | Small rooms specifically benefit from saturated color (styling/atmosphere framing; no sleep-quality claim made) |
-| Kruglov/Ontario (`a_i8pGVa7-w`, on [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]) | Avoid bright/saturated colors in a bedroom | Saturated color is psychologically stimulating, works against falling asleep |
+| Kruglov/Ontario (`a_i8pGVa7-w`, on [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]) | Avoid bright/saturated colors in a bedroom | Saturated color is psychologically stimulating, works against falling asleep |
 
 **Common ground**: neither source addresses the other's stated concern
 directly (styling/atmosphere vs. sleep-physiology) — may be a matter of
@@ -68,7 +68,7 @@ palette is chosen.
   facing the bed from elsewhere in the room — achieves the desired
   effect without disturbing the person lying on the bed. Distinct from,
   and complementary to, the existing wardrobe-mirror-facing-into-closet
-  rule on [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]].
+  rule on [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]].
   `DvQTBiItLpY`.
 - **Dressing-mirror standoff-clearance rule**: place a mirror used for
   dressing with enough floor clearance in front of it to step back and

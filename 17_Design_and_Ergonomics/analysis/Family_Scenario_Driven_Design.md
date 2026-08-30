@@ -4,7 +4,7 @@ Migrated 2026-08-24 from `Durable_Facts.md`'s "Design Concept" topic bucket ("In
 
 ## Source
 
-`yt_cp8U9wvsqI8` — a designer walking through 5 real client-profile layouts, illustrating how the same generic room type gets resolved differently depending on the actual household. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cp8U9wvsqI8_five_layout_concepts_client_profiles|extraction note]]
+`yt_cp8U9wvsqI8` — a designer walking through 5 real client-profile layouts, illustrating how the same generic room type gets resolved differently depending on the actual household. [[_Sources/YT_cp8U9wvsqI8_five_layout_concepts_client_profiles|extraction note]]
 
 ## The core principle
 
@@ -35,7 +35,7 @@ workaround uncritically: the same source explicitly rejected adhesive
 mirror-tile stickers as a substitute, flagging them as a dated,
 discouraged product regardless of the fear-management question — the
 "respect the fear" principle applies to the underlying need, not to
-whichever specific fix is proposed for it. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
+whichever specific fix is proposed for it. [source: [[_Sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
 
 ## Petrishin-Stroi (design lead "Клара") — Routine-Walkthrough Technique (added 2026-08-24)
 
@@ -58,7 +58,7 @@ whichever specific fix is proposed for it. [source: [[11_Budget_and_Planning/_su
   molding-bordered mural can be swapped for a new one later without
   redoing the room.
 
-`single-account`, this practitioner's stated method. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xnSNEqqs]]]
+`single-account`, this practitioner's stated method. [source: [[_Sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xnSNEqqs]]]
 
 ## Petrishin-Stroi-Featured Case — Pet-Ownership-Driven Design Decisions (added 2026-08-24, Round 6)
 
@@ -74,7 +74,7 @@ From a 38 m² secondary-market renovation featured (not executed) by
   base includes a recessed, doghouse-like space underneath for the
   household's dog.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
+`single-account`. [source: [[_Sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 
 ## Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design (added 2026-08-25)
 
@@ -114,7 +114,7 @@ household (young children, open-plan living space):
   own stated preference, specifically because of that daily-use
   friction, directly relevant to a household with young children.
 
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
+`single-account`. [source: [[_Sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
 
 ## Open Questions
 
@@ -138,7 +138,7 @@ They pair this with a broader position worth recording alongside: **no 100%-prac
 
 `single-account`, `unverified`. **Directly relevant to this project**, whose `00_Master/Family_Requirements.md` and `Design_Concept.md` are both unfilled and which has two adults and two young children whose priorities will differ. Recorded as general technique — the wrapper does not write to those two files.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+[source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
 
 ## Change Log
 

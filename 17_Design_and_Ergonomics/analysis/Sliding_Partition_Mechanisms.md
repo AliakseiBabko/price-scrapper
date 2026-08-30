@@ -38,7 +38,7 @@ the fourth independent source confirming the top-track-only convention
 [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]),
 and the first to frame it as a field test rather than just a design
 preference.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
+[source: [[_Sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
 
 ## The Core "No Floor Rail" Mechanism, Clarified
 
@@ -54,7 +54,7 @@ behind "no visible floor hardware" marketing claims** — it isn't zero
 floor contact, it's one small, low-profile point instead of a visible
 rail. Independently confirmed by a customer (not the installer) for a
 different company's product in
-[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_sFE1EyKRHvE_kupedsgn_suspended_partition_testimonial|YT_sFE1EyKRHvE]]
+[[_Sources/YT_sFE1EyKRHvE_kupedsgn_suspended_partition_testimonial|YT_sFE1EyKRHvE]]
 ("направляющие находится сверху, снизу ничего не мешает").
 
 Holzberg (via Дело в дизайне) gives the floor-stopper hardware taxonomy
@@ -67,8 +67,8 @@ below-floor magnet). **⚠️ Recessed-stopper depth caution**: the stopper
 body recesses 42mm into the floor — a real risk of hitting embedded
 floor-heating or plumbing lines in the screed at that depth; check
 before drilling.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
+[source: [[_Sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
+[source: [[_Sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
 
 ## Three Mounting-Method Families
 
@@ -92,8 +92,8 @@ taxonomy:
    (leaf clearance/gaps) + ~70mm (added stud wall) ≈ **190mm** in their
    own minimal reference example.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
+[source: [[_Sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
+[source: [[_Sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
 
 ## Embedded Backing vs. a Suspended Pre-Mount Box — Two Different Techniques for a Hidden Ceiling Track
 
@@ -128,8 +128,8 @@ embedded-backing sizing/sandwiching problem entirely, at the cost of
 needing to plan and install the box during the structural/rough stage —
 still well before the finish ceiling goes in, but a different sequencing
 commitment than an embedded backing block.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
+[source: [[_Sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
+[source: [[_Sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
 
 ## Retrofit Into an ALREADY-Installed Stretch Ceiling — Three Distinct Techniques
 
@@ -148,7 +148,7 @@ rather than treating as interchangeable:
    rail, not a suspended system."** For this installer's own method, a
    genuinely floor-rail-free result requires the backing to have been
    planned before the stretch ceiling went in.
-   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LB2oYxyYL3c_kupedsgn_partition_stretch_ceiling_no_embed|YT_LB2oYxyYL3c]]]
+   [source: [[_Sources/YT_LB2oYxyYL3c_kupedsgn_partition_stretch_ceiling_no_embed|YT_LB2oYxyYL3c]]]
 2. **Suspended-rod technique, no cutting the membrane (dver1.ru,
    manufacturer)**: glue reinforced tape to the membrane, cut a small
    hole, insert threaded rods spaced ~0.5m apart through the hole into
@@ -156,7 +156,7 @@ rather than treating as interchangeable:
    rods — genuinely avoids the floor-track fallback above. Demonstrated
    stable for several years in the company's own showroom (`single-
    account`, not independently verified elsewhere).
-   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]]
+   [source: [[_Sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]]
 3. **Membrane cut-and-reweld (Mikhail Mishchenko, independent DIY
    hobbyist)**: cut the membrane along the new partition's path, glue a
    new pre-fabricated welt strip ("гарпун") along the cut edge with a
@@ -172,7 +172,7 @@ rather than treating as interchangeable:
    person. Demonstrated for a drywall partition, but the anchor-point
    principle and membrane-cutting technique transfer directly to a glass
    partition retrofit.
-   [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qcIz2--60Ts_mishchenko_partition_retrofit_stretch_ceiling|YT_qcIz2--60Ts]]]
+   [source: [[_Sources/YT_qcIz2--60Ts_mishchenko_partition_retrofit_stretch_ceiling|YT_qcIz2--60Ts]]]
 
 ## Leaf Sizing, Structural Safety, and Hardware Add-Ons
 
@@ -219,8 +219,8 @@ rather than treating as interchangeable:
   covered (vs. ~50/50 for the standard split-leaf arrangement) — a more
   compact stacking option, same hidden-track installation method.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
+[source: [[_Sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
+[source: [[_Sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
 
 ## Sound Isolation — A Second Independent Confirmation of "Essentially None", and a Disputed Counter-Claim
 
@@ -230,15 +230,15 @@ felt/brush weatherstripping along the bottom and sides gives only a
 small improvement; for real sound-isolation priority, hang thick
 curtains in addition to the partition. **This independently corroborates**
 the existing no-soundproofing caution recorded in
-[[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]
+[[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]
 from `HGN_3WeL0Jk` (Kruglov/Ontario) — now two independent practitioners
 (a designer/installer and a manufacturer) stating the same mechanism.
 Holzberg's own pocket-partition variant claims *slightly* better
 isolation than a standard sliding partition (a tighter dust-seal fit in
 the recessed pocket), but explicitly frames this as a minor improvement,
 not real soundproofing.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
+[source: [[_Sources/YT_a_vchjD7CHQ_dver1_telescopic_partition_buyer_guide|YT_a_vchjD7CHQ]]],
+[source: [[_Sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
 
 **⚠️ A genuine, unresolved disagreement (added 2026-08-25, DELI)**: a
 fifth independent installer states that pairing a glass cascade partition
@@ -256,7 +256,7 @@ claim, not directly in tension with the "essentially none for glass"
 consensus. Treat the drywall-equivalent figure specifically as an open
 question worth independently testing before relying on it, not as a
 settled fact.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z_NUmsCIwWA_deli_cascade_partition_5_interiors|YT_Z_NUmsCIwWA]]]
+[source: [[_Sources/YT_Z_NUmsCIwWA_deli_cascade_partition_5_interiors|YT_Z_NUmsCIwWA]]]
 
 ## Leaf-Count Taxonomy and Opening-Width Sizing (added 2026-08-25, UNION Doors Furniture)
 
@@ -311,7 +311,7 @@ families already recorded above:
   distinguished from a true partition by both its standard sizing and its
   behind-the-door mechanism concealment.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
+[source: [[_Sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
 
 ## Material Taxonomy — Aluminum+Glass vs. Wood Veneer (added 2026-08-25, UNION Doors Furniture)
 
@@ -336,7 +336,7 @@ families already recorded above:
 - Matching a partition's finish to an adjoining hinged door's finish is
   recommended for overall design unity.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
+[source: [[_Sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
 
 ## Quality-Check Checklist Before Buying (added 2026-08-25, UNION Doors Furniture)
 
@@ -367,7 +367,7 @@ vs. sound isolation — and let that drive material choice; (4) research
 the specific manufacturer's reputation; (5) don't overlook installation
 quality — use a company offering a real warranty.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
+[source: [[_Sources/YT_OpTLkQCSZHs_union_doors_choosing_partitions|YT_OpTLkQCSZHs]]]
 
 ## Material & Component Selection Criteria (added 2026-08-25, Sergey Gusev/ПРО ДВЕРИ)
 
@@ -420,7 +420,7 @@ above:
   associated, 15,000-20,000 RUB/m² ≈ $160-$220/m²) once this video's own
   region is independently confirmed.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_aU37rUbfEoc_gusev_partition_selection_criteria|YT_aU37rUbfEoc]]]
+[source: [[_Sources/YT_aU37rUbfEoc_gusev_partition_selection_criteria|YT_aU37rUbfEoc]]]
 
 ## Combined-Profile Construction and Glass Specification (added 2026-08-25, DELI/Ivan Degtev)
 
@@ -461,7 +461,7 @@ a new independent source, but genuinely new construction-spec content):
   from the sibling case-study video, a genuine reinforcement of that
   case's generalizability.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UzVTR2DdYzg_deli_what_are_partitions_made_of|YT_UzVTR2DdYzg]]]
+[source: [[_Sources/YT_UzVTR2DdYzg_deli_what_are_partitions_made_of|YT_UzVTR2DdYzg]]]
 
 ## Real Case Studies — Five Cascade-Partition Installations (added 2026-08-25, DELI)
 
@@ -511,11 +511,11 @@ edge of the opening) installations:
   own finish/color — reads as intentional rather than an unaddressed
   utility run, a general technique transferable beyond this installer.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z_NUmsCIwWA_deli_cascade_partition_5_interiors|YT_Z_NUmsCIwWA]]]
+[source: [[_Sources/YT_Z_NUmsCIwWA_deli_cascade_partition_5_interiors|YT_Z_NUmsCIwWA]]]
 
 ## Switchable-Opacity ("Smart") Glass Partition, a Genuinely New Mechanism Type (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
 
-**⚠️ A glass partition between a living room and bedroom can use switchable-opacity ("smart"/electrochromic-type) glass, distinct from every mechanism family already documented on this page**: transparent by default (letting light through and visually enlarging both spaces, since you can see through to the far room's own windows), with a button/switch that turns the glass opaque on demand for privacy — letting one occupant rest with full privacy while activity continues in the adjoining room, without needing a physical curtain, blind, or solid partition swap. A real installed example on this store's Kruglov/Ontario channel; no prior source on this page covers an opacity-switching glass mechanism (all prior content is aluminum/wood-frame slide-and-track hardware). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
+**⚠️ A glass partition between a living room and bedroom can use switchable-opacity ("smart"/electrochromic-type) glass, distinct from every mechanism family already documented on this page**: transparent by default (letting light through and visually enlarging both spaces, since you can see through to the far room's own windows), with a button/switch that turns the glass opaque on demand for privacy — letting one occupant rest with full privacy while activity continues in the adjoining room, without needing a physical curtain, blind, or solid partition swap. A real installed example on this store's Kruglov/Ontario channel; no prior source on this page covers an opacity-switching glass mechanism (all prior content is aluminum/wood-frame slide-and-track hardware). `single-account`, `unverified`. [source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
 
 ## Sliding Storage Frontage: Order It as a Partition, Not as a Wardrobe (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
@@ -526,7 +526,7 @@ This page treats ceiling-hung sliding systems as **room dividers**. The same har
 
 `single-account`, `unverified`. Directly relevant to this project's Phase 2 plan, where a ceiling-hung glass partition already divides a night zone from a day zone — the same contractor route and the same concealed-rail expectation apply if any storage frontage is wanted on the same principle.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]]
+[source: [[_Sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]]
 
 ## Real Pricing (EUR, Region Unresolved)
 
@@ -541,7 +541,7 @@ supports USD/RUB and USD/BYN only, not EUR, and region is unresolved
 regardless, so a forced conversion would add false precision without
 resolving the underlying comparability gap (see this project's own
 price-comparability rule).
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
+[source: [[_Sources/YT_Fu-GMSDLg_8_holzberg_invisible_doors_sliding_partitions|YT_Fu-GMSDLg_8]]]
 
 ## Change Log
 

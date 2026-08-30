@@ -19,24 +19,24 @@ across that span. Concretely:
   **90cm above the floor** ahead of an adult-height desk actually
   arriving, and a second outlet at "second level" height if a bunk/loft
   bed is anticipated. Where one outlet placement can serve two different
-  future layouts, that's the ideal case. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
+  future layouts, that's the ideal case. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
 - **Lighting should include distinct general and zone-specific
   scenarios from the start** (a night-light for sleep, decorative/accent
-  lighting for play) rather than one uniform room light. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
+  lighting for play) rather than one uniform room light. [source: [[_Sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 - **Wall finish should default to a neutral, repaint-ready base**
   (white/gray/beige) using a washable/anti-vandal kids' paint, so a
   future age-stage change is a cosmetic repaint, not a strip-and-redo.
   Ordinary wallpaper is flagged by both sources as unlikely to survive a
-  young child's room. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
+  young child's room. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]], [source: [[_Sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 - **A floor-to-ceiling chalkboard/magnetic-paint drawing strip in a
   neutral shape** gives a sanctioned drawing surface that works
   unmodified from toddler years (drawing) through school age (pinning
   schedules/posters) — its durability comes specifically from the
-  neutral shape, not from being redecorated per age. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
+  neutral shape, not from being redecorated per age. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
 - **Wardrobe interiors should be neutral (no childish motifs) with
   adult-height rods/drawers from the start**, reconfigurable in shelf/
   rod height and count as the child grows, rather than rebuilt per
-  stage. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
+  stage. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]], [source: [[_Sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 
 A separate, earlier ARCHWOOD real-client source (a 90m² 3-room family
 apartment, `gNN7G7vNyqY`) independently touches the same "growing room"
@@ -46,7 +46,7 @@ itself: **explicitly brief a school-age transition ~1-2 years out** — a
 with laptop/printer capability replacing the current toddler table/chair
 set, not just accommodate her current furniture. A thinner, earlier-stage
 version of the same age-staged-planning principle above, not a
-contradiction. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gNN7G7vNyqY_archwood_90m2_family_layout|YT_gNN7G7vNyqY]]]
+contradiction. [source: [[_Sources/YT_gNN7G7vNyqY_archwood_90m2_family_layout|YT_gNN7G7vNyqY]]]
 
 ## Three-Tier Design Longevity Framework
 
@@ -60,7 +60,7 @@ cheapest, fastest layer to refresh as interests change. The practical
 implication: build a neutral base at tiers 1-2 and let tier-3 decor carry
 the actual theming — a themed "spaceship" or "submarine" room is
 achievable via wall stickers on a neutral base, without buying themed
-furniture at all. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
+furniture at all. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
 
 RemPlanner independently arrives at the same conclusion from the
 opposite direction — **"if you don't want to redo a kids' room's finish
@@ -69,7 +69,7 @@ through swappable furniture/decor"** — and Kodolov's channel corroborates
 it a third way, noting that parental motivation to keep re-buying/
 rebuilding a child's furniture "for every centimeter of growth" reliably
 fades, which is exactly what transformer/adjustable furniture and a
-neutral infrastructure base are meant to route around. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]], [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
+neutral infrastructure base are meant to route around. [source: [[_Sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]], [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
 
 ## Four Developmental Age Bands (RemPlanner's Granular Reference)
 
@@ -118,7 +118,7 @@ RemPlanner structures planning around four bands — 0-3, 3-6, 6-12,
   how fast consumer-tech form factors change — the source deliberately
   avoids over-committing infrastructure to any one current format.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
+[source: [[_Sources/YT_OfqkRAZUfe0_remplanner_kids_room_grow_into_15_years|YT_OfqkRAZUfe0]]]
 
 ## Additional Age-Band Detail — a Third Independent Source (Architect Vitaly Zlobin, source `AofVi5k45ps`)
 
@@ -164,7 +164,7 @@ layouts, and a future-resale room-sizing strategy directly relevant to
 this project's own Phase 1→Phase 2 kids'-room split) — a zoning/
 partition-scoped topic rather than an age-staging one, kept off this
 page to avoid duplicating content across both pages. Full detail in the
-[[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AofVi5k45ps_zlobin_kids_room_theory_age_stages|source extraction note]].
+[[_Sources/YT_AofVi5k45ps_zlobin_kids_room_theory_age_stages|source extraction note]].
 
 ## A Real 14-Year-Old's Room, Redesigned to Grow Into Early Adulthood
 
@@ -201,10 +201,10 @@ occupant/room identity don't match this project's plan yet.
 - **Foam-block partition wall, existing/retained**, dividing the room
   into two occupancy zones — corroborates this project's existing
   foam-block-vs-drywall partition comparison (`1_nKzwNZD6w`, on
-  [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]])
+  [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]])
   from an independent household — genuine cross-channel corroboration.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZlkBfwlhYFU_anutavlady_pentagon_bedroom_and_teen_room|YT_ZlkBfwlhYFU]]]
+[source: [[_Sources/YT_ZlkBfwlhYFU_anutavlady_pentagon_bedroom_and_teen_room|YT_ZlkBfwlhYFU]]]
 
 ## A Real Multi-Year, Multi-Child Room-Evolution Case
 
@@ -220,4 +220,4 @@ area, small sofa, shared sports corner) — avoiding duplicating
 shared-use items across the individual rooms. Directly relevant
 precedent (not a template) for this project's own Phase 1→Phase 2
 transition — see [[05_Kids_Room/Kids_Room_Index|Kids Room Index]]'s own
-household plan. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
+household plan. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]

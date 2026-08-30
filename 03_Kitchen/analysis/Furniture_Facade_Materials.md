@@ -4,22 +4,22 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 
 ## Small-Kitchen Facade Formula: Monochrome + Minimal Handles + Muted Tones (added 2026-08-20)
 
-**⚠️ Formula: single-color (monochrome) facades + minimal-or-no visible handles + calm/muted tones = the recommended combination for a small kitchen specifically.** The underlying reasoning: a kitchen already concentrates an unusually high density of small visual elements in one place (fixtures, appliances, dishware, food-storage containers, switches/sockets) — in a small kitchen that concentration is compressed into less visual area, effectively squaring the perceived clutter. Reducing every *avoidable* source of visual complexity (facade color contrast, protruding handle hardware) compensates for that unavoidable density. **Explicit anti-pattern**: never mix strongly contrasting facade colors on the same run (the source's own example: red upper cabinets over green lower cabinets) — even a milder version of mismatched tones works against the same goal. Minimizing visual noise this way is stated to make even a genuinely small kitchen read as more spacious, tidy, and clean. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ihx8gUDO3vI_kruglov_small_kitchen|YT_ihx8gUDO3vI]]]
+**⚠️ Formula: single-color (monochrome) facades + minimal-or-no visible handles + calm/muted tones = the recommended combination for a small kitchen specifically.** The underlying reasoning: a kitchen already concentrates an unusually high density of small visual elements in one place (fixtures, appliances, dishware, food-storage containers, switches/sockets) — in a small kitchen that concentration is compressed into less visual area, effectively squaring the perceived clutter. Reducing every *avoidable* source of visual complexity (facade color contrast, protruding handle hardware) compensates for that unavoidable density. **Explicit anti-pattern**: never mix strongly contrasting facade colors on the same run (the source's own example: red upper cabinets over green lower cabinets) — even a milder version of mismatched tones works against the same goal. Minimizing visual noise this way is stated to make even a genuinely small kitchen read as more spacious, tidy, and clean. `single-account`, `unverified`. [source: [[_Sources/YT_ihx8gUDO3vI_kruglov_small_kitchen|YT_ihx8gUDO3vI]]]
 
 ## Glass Display Facades: A Recurring Clutter Critique, and Sliding/Pocket Hardware (added 2026-08-28)
 
 > [!NOTE]
-> From a ~25-photo Pinterest kitchen review, generalizing a complaint repeated across most of the "bad" examples shown. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_N6UZiZ1-sNI_kruglov_pinterest_kitchens|YT_N6UZiZ1-sNI]]]
+> From a ~25-photo Pinterest kitchen review, generalizing a complaint repeated across most of the "bad" examples shown. [source: [[_Sources/YT_N6UZiZ1-sNI_kruglov_pinterest_kitchens|YT_N6UZiZ1-sNI]]]
 
 - **⚠️ Glass display-facade critique**: glass cabinet facades — especially full vertical glass runs to the ceiling, or open wine-bottle display shelving — are flagged as a near-universal source of a "visually cluttered/untidy" impression: the interior contents (dishware, wine bottles) stay visible and read as messy however carefully arranged, and open glass-front wine racks specifically accumulate dust that's hard to clean. **Recommendation: skip glass facades entirely, or limit to a single small display unit** — more than one glass-fronted run in the same kitchen is called excessive regardless of how well-organized the contents are.
 - **Sliding/pocket-facade hardware, first named-brand mechanism content for this page**: a facade type that opens and slides fully away (flush-recessed) rather than swinging on a hinge is available from at least two named manufacturers — **Blum** (premium/more expensive) and **Hettich** (a genuinely cheaper alternative offering the same mechanism).
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_N6UZiZ1-sNI_kruglov_pinterest_kitchens|YT_N6UZiZ1-sNI]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_N6UZiZ1-sNI_kruglov_pinterest_kitchens|YT_N6UZiZ1-sNI]]]
 
 ## Budget-Tier Facade Material, Hardware, and Countertop Brands (added 2026-08-28)
 
 > [!NOTE]
-> From this store's first dedicated budget-kitchen cost-cutting video — see [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s "Budget Kitchen: What to Cut vs. Never Cut" section for the full framework this brand content supports. Every named brand below carries the source's own explicit "not an ad, no sponsorship" disclaimer. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2I77xJIeRwM_kruglov_kitchen_10x_cheaper|YT_2I77xJIeRwM]]]
+> From this store's first dedicated budget-kitchen cost-cutting video — see [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s "Budget Kitchen: What to Cut vs. Never Cut" section for the full framework this brand content supports. Every named brand below carries the source's own explicit "not an ad, no sponsorship" disclaimer. [source: [[_Sources/YT_2I77xJIeRwM_kruglov_kitchen_10x_cheaper|YT_2I77xJIeRwM]]]
 
 - **⚠️ LDSP (laminated particleboard) facade recommended over veneer/solid wood/film/plastic for the best budget price-to-quality ratio** — named leader manufacturer **Egger**, cited for the largest color/texture palette in the category.
 - **Handle-hardware cost-cut**: lower cabinets — integrated/recessed aluminum handle profile (available on general marketplaces); upper cabinets — no handles at all, facade panel sized slightly oversized relative to the box for a bottom finger-pull gap.
@@ -28,12 +28,12 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 - **Sink for budget: surface-mount artificial-stone, rectangular only** — avoid stainless steel and round/oval bowl shapes.
 - **⚠️ Countertop material tier ladder**: cheapest acceptable — DSP-core with HPL plastic laminate (a thicker, more durable surface than plain LDSP lamination film); next tier — compact-laminate slab; premium upgrade — quartz-agglomerate (quartz-composite). **Two named quartz-agglomerate brands, a cost/tier comparison**: **Smart Quarz** (well-known among cabinet-makers, not the cheapest) vs. **PRX** (a Russian brand manufactured in China, cheaper than Smart Quarz, with a substantially larger range of colors/decors).
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2I77xJIeRwM_kruglov_kitchen_10x_cheaper|YT_2I77xJIeRwM]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_2I77xJIeRwM_kruglov_kitchen_10x_cheaper|YT_2I77xJIeRwM]]]
 
 ## Facade Material Tier Ladder: Economy, Mid, Premium (added 2026-08-28)
 
 > [!NOTE]
-> This store's densest facade-material source to date — a structured, five-criteria comparison (price/quality, popularity, durability, manufacturer reliability, appearance) across all three price tiers, with named brands and construction detail. **Directly extends** (not duplicates) this page's existing Egger/DTC budget content above from `YT_2I77xJIeRwM` — that source named Egger in passing; this one supplies the full manufacturing detail behind the same recommendation. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_W2KvnHPQdjM_kruglov_best_kitchen_facades_2026|YT_W2KvnHPQdjM]]]
+> This store's densest facade-material source to date — a structured, five-criteria comparison (price/quality, popularity, durability, manufacturer reliability, appearance) across all three price tiers, with named brands and construction detail. **Directly extends** (not duplicates) this page's existing Egger/DTC budget content above from `YT_2I77xJIeRwM` — that source named Egger in passing; this one supplies the full manufacturing detail behind the same recommendation. [source: [[_Sources/YT_W2KvnHPQdjM_kruglov_best_kitchen_facades_2026|YT_W2KvnHPQdjM]]]
 
 ### Economy tier — LDSP (laminated particleboard)
 
@@ -60,22 +60,22 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 - **Veneer's living-material behavior** (framed as a benefit, not a defect): genuine wood veneer continues to change color/tone unevenly over time, since it's a living material — a real characteristic to set expectations on before ordering.
 - **Veneer's one clear con: scratches very easily** — applies to veneer flooring as well as facades.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_W2KvnHPQdjM_kruglov_best_kitchen_facades_2026|YT_W2KvnHPQdjM]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_W2KvnHPQdjM_kruglov_best_kitchen_facades_2026|YT_W2KvnHPQdjM]]]
 
 ## Carcass Material: Standard LDSP Sufficient, "Moisture-Resistant" Label Flagged as Low-Value Upsell (added 2026-08-28)
 
 > [!NOTE]
-> Complements this page's Egger LDSP economy-tier facade content above with a carcass-material (not facade) opinion from the same channel's "useless kitchen items" checklist video. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
+> Complements this page's Egger LDSP economy-tier facade content above with a carcass-material (not facade) opinion from the same channel's "useless kitchen items" checklist video. [source: [[_Sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
 
 - **⚠️ Standard LDSP carcass recommended over MDF carcass** — MDF carcass material called unnecessary premium spend for the structural box (distinct from a facade, where MDF is the norm for milled/enamel finishes per this page's tier ladder above).
 - **⚠️ "Moisture-resistant" (влагостойкая) LDSP flagged as a low-value upsell**: paying extra for the "moisture-resistant" label doesn't meaningfully extend a carcass's real service life. **What actually determines carcass longevity is the fabricating company's own workmanship** (accurate cutting, correct edge banding, ideally PUR-glue-bonded edges) applied to a quality base LDSP board (Egger named again here as an example quality brand) — not the board's "moisture-resistant" or material-type label itself.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_e3bHUlP0PMY_kruglov_useless_kitchen_items|YT_e3bHUlP0PMY]]]
 
 ## "Whole Truth About Kitchens 2026" — Additional Facade Types, Hardware Cycle Ratings, Carcass Tiers (added 2026-08-28)
 
 > [!NOTE]
-> This channel's single densest kitchen video to date (~75 min encyclopedic guide) — heavily cross-checked against this page's existing economy/mid/premium facade ladder (Round 8, `W2KvnHPQdjM`) before recording anything below; brand identities already named (Blum, Hettich, DTC, Egger) aren't repeated, only genuinely new detail. **One genuine cross-source disagreement found on quartz-agglomerate integrated sinks — see callout below.** [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
+> This channel's single densest kitchen video to date (~75 min encyclopedic guide) — heavily cross-checked against this page's existing economy/mid/premium facade ladder (Round 8, `W2KvnHPQdjM`) before recording anything below; brand identities already named (Blum, Hettich, DTC, Egger) aren't repeated, only genuinely new detail. **One genuine cross-source disagreement found on quartz-agglomerate integrated sinks — see callout below.** [source: [[_Sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
 
 ### Additional facade types
 
@@ -110,31 +110,31 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 - **⚠️ Premium (quartz agglomerate) detail**: 90-95% natural quartz + polymer binder + pigment; slabs **20mm or 30mm** (rare 12mm); second only to diamond in scratch hardness; genuinely heat-resistant; non-porous; realistic lifespan **10-30 years**. Cons: heavy/brittle under bending stress; **the slab seam is never fully hideable**; a chip is very hard to repair.
 - **⚠️ Open disagreement — quartz agglomerate + integrated same-material undermount sink**: this source states flatly that a quartz-agglomerate countertop **cannot** have an integrated same-material sink — a hole can be cut for an undermount sink, but the sink itself must be a separate material. This directly contradicts Round 8's `SaMpFOPm_4U` (already recorded above in the 2026-trends section), which states some manufacturers *can* now produce a matching same-material quartz-agglomerate undermount sink (visible seam, not universal). Both positions recorded, attributed to their own source, rather than resolved — this may reflect genuine manufacturer-to-manufacturer variation rather than a factual error on either side.
 - **Natural stone (granite/marble/travertine/slate)**: granite strong but porous (wine/coffee stains can be permanent); marble more porous still (even lemon juice can stain permanently); travertine/slate more exotic, harder to fabricate; all need periodic re-sealing — chosen more for aesthetics/status than durability.
-- **⚠️ Quartzite — a new natural-stone tier added above granite/marble/travertine/slate (Kruglov/Ontario, Round 13 triage, added 2026-08-28)**: combines strength, low porosity, durability, and wear-resistance better than any of the other four natural stones in this list, with very high cost as its sole tradeoff. **Travertine resealing, new maintenance-recurrence framing**: sealing travertine's pores is not a one-time treatment — it must be periodically re-applied, directly analogized to reapplying anti-corrosion undercoating on a car ("you can't do it once and be done for life"). `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
+- **⚠️ Quartzite — a new natural-stone tier added above granite/marble/travertine/slate (Kruglov/Ontario, Round 13 triage, added 2026-08-28)**: combines strength, low porosity, durability, and wear-resistance better than any of the other four natural stones in this list, with very high cost as its sole tradeoff. **Travertine resealing, new maintenance-recurrence framing**: sealing travertine's pores is not a one-time treatment — it must be periodically re-applied, directly analogized to reapplying anti-corrosion undercoating on a car ("you can't do it once and be done for life"). `single-account`, `unverified`. [source: [[_Sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
 - **Compact-plate/HPL self-supporting panel** — corroborates and extends the existing compact-laminate content: no LDSP/MDF substrate at all, **10-12mm thick**, sold/jointed like stone slabs; priced like stone/acrylic despite being fundamentally plastic.
 - **Natural wood countertop** — rare, needs constant oiling, absorbs moisture, scratches easily — more decor than function.
 - **Out-of-league materials**: stainless steel (commercial kitchens); glass (costly, shows every mark); tile — **modern large-format porcelain slab now makes a genuine tile countertop feasible** (no integrated sink, full-slab replacement on damage, joints filled with two-component epoxy).
 - **⚠️ Concrete worked cost comparison**: switching a kitchen's countertop from LDSP to quartz agglomerate roughly **doubles the entire kitchen's total cost** — source's own example: **≈300,000 RUB (≈$3,700) → ≈600,000 RUB (≈$7,400)**, from one material change alone.
 - **Countertop tier leaders**: economy = LDSP; comfort = acrylic with integrated same-material sink; premium = quartz agglomerate.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
 
 ## Anti-Fingerprint Coating and Saturated-Color Caution (added 2026-08-28)
 
 > [!NOTE]
-> From the "Top 10 Kitchen Design Mistakes" video, a distinct color axis (saturation) from this round's own `e3bHUlP0PMY` dark/light/glossy caution above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A1mvvVObK5M_kruglov_top10_design_mistakes|YT_A1mvvVObK5M]]]
+> From the "Top 10 Kitchen Design Mistakes" video, a distinct color axis (saturation) from this round's own `e3bHUlP0PMY` dark/light/glossy caution above. [source: [[_Sources/YT_A1mvvVObK5M_kruglov_top10_design_mistakes|YT_A1mvvVObK5M]]]
 
 - **Named anti-fingerprint matte facade coating: "Феникс" (Phoenix)** — a specific super-matte coating recommended for reducing visible fingerprints/smudges, complementing this page's existing dark/light/glossy avoid-list.
 - **⚠️ Avoid bright/saturated facade colors (pink, red, green)** — real-world client-regret claim: owners of highly saturated-color kitchens reportedly tire of the color within about a year. Recommend calm/neutral tones instead.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A1mvvVObK5M_kruglov_top10_design_mistakes|YT_A1mvvVObK5M]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_A1mvvVObK5M_kruglov_top10_design_mistakes|YT_A1mvvVObK5M]]]
 
 ## Monochrome/Minimalist Facade Aesthetic and No-Upper-Cabinets Trend (added 2026-08-28)
 
 > [!NOTE]
-> Complements the small-kitchen monochrome-facade formula above with a general (not small-kitchen-specific) 2026 trend statement. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]]]
+> Complements the small-kitchen monochrome-facade formula above with a general (not small-kitchen-specific) 2026 trend statement. [source: [[_Sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]]]
 
 - **⚠️ Monochrome/minimalist facade aesthetic named as the dominant 2026 trend**: integrated or entirely absent handles, calm/muted tones, and matching the countertop and backsplash in the *same material* (not just a coordinating color). For clients who prefer a classical (non-minimalist) facade profile but want calmer tones/textures, "neoclassic milling" (a routed facade profile) is the compromise option.
 - **No-upper-cabinets design trend, with a storage-relocation requirement** — see [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s 2026-trends section for the full framing (removing upper cabinets requires relocating that storage elsewhere, not dropping it).
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]]]

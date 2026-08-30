@@ -56,7 +56,7 @@ Editorial history — not reader content.
   plan. The full new content lives on
   [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]]
   (5 sources, partition mechanism detail) and
-  [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]
+  [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]
   (9 sources, wall-bed/Murphy-bed mechanism detail) — kept there rather
   than duplicated here since neither sub-topic is specific to this room
   alone. See those two pages' own Change Logs for the full source list

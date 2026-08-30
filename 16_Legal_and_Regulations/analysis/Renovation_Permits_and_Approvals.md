@@ -1,14 +1,14 @@
 # Renovation Permits & Approvals — Belarus/Minsk
 
-Migrated 2026-08-24 from `11_Budget_and_Planning/_supporting/knowledge/intermediate/renovation_regulations_belarus_knowledge_store.md`, which remains the live intermediate staging store for new sources on this topic (per the standard store → wiki-page routing pattern used across this project) — this page is the synthesized, citable version.
+Migrated 2026-08-24 from `_Knowledge/renovation_regulations_belarus_knowledge_store.md`, which remains the live intermediate staging store for new sources on this topic (per the standard store → wiki-page routing pattern used across this project) — this page is the synthesized, citable version.
 
 **Evidence bar for this page (and this whole folder): level 1 only.** A source qualifies only if it names Minsk/Belarus directly and specifically in its own spoken/written content — not via channel branding, tags, or title alone (level 2), which does not qualify.
 
 ## Sources
 
-- `yt__hYkf4UkCqw` — "Дома Минска" documented renovation series, Episode 1 (YouTube, published 2025-12-11). Minsk/Belarus named directly and repeatedly in speech. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__hYkf4UkCqw_doma_minska_severny_bereg_ep1|extraction note]]
-- `yt_QHl1YEHMfgE` — same series/project, Episode 2 (published 2026-04-07). **Not independently qualifying on its own** — this episode's own transcript doesn't itself name Minsk/Belarus. Included only as a continuity pointer: same real-world project, reinforces (doesn't newly establish) the исполком theme with a first-hand "we tried to DIY the approval process and lost a month" account. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QHl1YEHMfgE_doma_minska_severny_bereg_ep2_layout|extraction note]]
-- `hN7szX2re2c` — Pavel Sidorik, "New Building A-to-Z" #18, screed/noise-insulation episode (published 2021-04-29). Belarus named directly and unambiguously ("по белорусскому законодательству"). [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hN7szX2re2c_sidorik_screed_noise_insulation_ep18|extraction note]]
+- `yt__hYkf4UkCqw` — "Дома Минска" documented renovation series, Episode 1 (YouTube, published 2025-12-11). Minsk/Belarus named directly and repeatedly in speech. [[_Sources/YT__hYkf4UkCqw_doma_minska_severny_bereg_ep1|extraction note]]
+- `yt_QHl1YEHMfgE` — same series/project, Episode 2 (published 2026-04-07). **Not independently qualifying on its own** — this episode's own transcript doesn't itself name Minsk/Belarus. Included only as a continuity pointer: same real-world project, reinforces (doesn't newly establish) the исполком theme with a first-hand "we tried to DIY the approval process and lost a month" account. [[_Sources/YT_QHl1YEHMfgE_doma_minska_severny_bereg_ep2_layout|extraction note]]
+- `hN7szX2re2c` — Pavel Sidorik, "New Building A-to-Z" #18, screed/noise-insulation episode (published 2021-04-29). Belarus named directly and unambiguously ("по белорусскому законодательству"). [[_Sources/YT_hN7szX2re2c_sidorik_screed_noise_insulation_ep18|extraction note]]
 
 ## What's confirmed
 

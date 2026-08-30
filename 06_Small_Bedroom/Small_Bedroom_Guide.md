@@ -18,7 +18,7 @@ rather than duplicating it, and this page does not edit or override any
 of that household-specific content.
 
 **How this page relates to
-[[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]**:
+[[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]**:
 that page is the phase-agnostic reference for "how do I lay out *a*
 bedroom" (the 12-item design sequence, universal mistakes, applies at
 any room size) — read it first for the general formula. This page is

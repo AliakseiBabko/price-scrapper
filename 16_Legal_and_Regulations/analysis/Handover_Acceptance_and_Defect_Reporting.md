@@ -10,7 +10,7 @@ Pavel Sidorik (individual practitioner, own new-build apartment renovation) stat
 - **An unqualified/uncredentialed buyer's own acceptance inspection carries the same legal standing as one performed by a credentialed specialist** — "a defect exists or it doesn't," independent of who identifies it or what training they have.
 - **Deep glass-pane chips/scratches are grounds for full sash/glazing-unit replacement** — confirmed with a real outcome: two of this apartment's largest glazing units were replaced by the developer after being flagged at acceptance.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
+[source: [[_Sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
 
 **Note on this page's other episodes from the same channel**: episode 1 of this same series (`hpU_xEXmdvE`) does **not** independently qualify for this page — its regulatory tolerance figures are explicitly Russian-СНиП-sourced by the speaker's own stated choice ("most viewers are in Russia"), a separate question from where the apartment itself is physically located. That content remains in the general budgeting store as a Russian-code secondary reference, not here.
 

@@ -16,7 +16,7 @@
   several distinct sub-decisions.
   **Routing decision recorded**: kept this content on a *dedicated*
   `06_Small_Bedroom` guide rather than folding it into
-  [[11_Budget_and_Planning/_supporting/analysis/Bedroom_Design_Principles|Bedroom Design Principles]]
+  [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]
   (the existing phase-agnostic "whichever room is the adult bedroom"
   reference page) — the two pages serve genuinely different questions.
   `Bedroom_Design_Principles.md` answers "how do I lay out *a* bedroom"

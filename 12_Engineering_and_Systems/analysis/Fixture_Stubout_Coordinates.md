@@ -3,7 +3,7 @@
 A complete, mechanism-explained rough-plumbing stub-out coordinate reference by fixture type, from a single dense source. Part of [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] — complements [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Rough Plumbing Sequencing]] (technique/order) and [[12_Engineering_and_Systems/analysis/Mounting_Heights_and_Positioning|Mounting Heights & Positioning]] (electrical-point heights).
 
 > [!NOTE]
-> `single-account`, one practitioner's own standard convention — not independently verified against an official plumbing code or a second source. All heights measured from finished-floor level unless stated otherwise; color convention hot=red, cold=blue, drain=grey. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ssS7-TdXhu0_plumbing_stubout_coordinates_225|extraction note]]]
+> `single-account`, one practitioner's own standard convention — not independently verified against an official plumbing code or a second source. All heights measured from finished-floor level unless stated otherwise; color convention hot=red, cold=blue, drain=grey. [source: [[_Sources/YT_ssS7-TdXhu0_plumbing_stubout_coordinates_225|extraction note]]]
 
 ## Sink / Basin
 
@@ -63,7 +63,7 @@ Net layout: three drain outlets (washer 32mm, dishwasher 32mm, sink 50mm) and fo
 ## Kitchen Stub-Out Group Placement: Trash-Bin Clearance (added 2026-08-19)
 
 > [!NOTE]
-> A different, complementary aspect of kitchen stub-out planning — offset/placement, not the coordinate grid itself. Independent source. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fSEPr5fpfPM_kitchen_stubouts_ac_fridge_niche_166|note]]]
+> A different, complementary aspect of kitchen stub-out planning — offset/placement, not the coordinate grid itself. Independent source. [source: [[_Sources/YT_fSEPr5fpfPM_kitchen_stubouts_ac_fridge_niche_166|note]]]
 
 Zemstandart / Zemproekt says to **offset the whole sink/dishwasher stub-out group left or right of the sink's own centerline — never center the group under the sink itself.** Purpose: leaves clear floor space directly under the sink cabinet for a floor-standing trash bin. This is a placement/positioning decision layered on top of the coordinate grid above, not a change to any of its numbers.
 
@@ -74,7 +74,7 @@ Zemstandart / Alexey Zemskov gives an **explicit warning for both kitchen config
 ## A Second Independent Coordinate Set (Pavel Sidorik, added 2026-08-24, Round 5)
 
 > [!NOTE]
-> A second practitioner's own standard convention for a different real bathroom+toilet layout — not a correction or contradiction of the Zemskov grid above, just an independent data point using different fixtures/room geometry. All heights from finished floor, calculated to account for future screed+tile buildup even though poured at marking time it wasn't yet in place. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_S4fOYedAruE_sidorik_sewer_installation_ep24|S4fOYedAruE_sidorik_sewer_installation_ep24]]]
+> A second practitioner's own standard convention for a different real bathroom+toilet layout — not a correction or contradiction of the Zemskov grid above, just an independent data point using different fixtures/room geometry. All heights from finished floor, calculated to account for future screed+tile buildup even though poured at marking time it wasn't yet in place. [source: [[_Sources/YT_S4fOYedAruE_sidorik_sewer_installation_ep24|S4fOYedAruE_sidorik_sewer_installation_ep24]]]
 
 - **Washing machine**: drain 72 cm, cold supply 60 cm.
 - **Under-countertop sink with wall cabinet**: water supply 57 cm, sewage 54 cm.
@@ -87,7 +87,7 @@ Zemstandart / Alexey Zemskov gives an **explicit warning for both kitchen config
 
 ## 150mm Mixer-Fitting Spacing — Independently Confirmed (added 2026-08-24, Round 5)
 
-Pavel Sidorik's own project (episode #26, metal-plastic pipe install) glues mixer-fitting water outlets at **150mm center-to-center spacing**, matching this page's existing shower-mixer fitting-spacing convention exactly — an independent same-channel confirmation, on a different fixture/context, that 150mm is a genuinely standard mixer-fitting spacing rather than a one-source figure. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26|q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26]]]
+Pavel Sidorik's own project (episode #26, metal-plastic pipe install) glues mixer-fitting water outlets at **150mm center-to-center spacing**, matching this page's existing shower-mixer fitting-spacing convention exactly — an independent same-channel confirmation, on a different fixture/context, that 150mm is a genuinely standard mixer-fitting spacing rather than a one-source figure. [source: [[_Sources/YT_q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26|q4SSpq9jc3g_sidorik_metal_plastic_pipes_ep26]]]
 
 ## Gaps
 

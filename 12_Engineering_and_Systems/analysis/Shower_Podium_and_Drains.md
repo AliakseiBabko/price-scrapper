@@ -24,4 +24,4 @@ mixer-centering mistake**: not accounting for the finish tile plus
 tile-adhesive thickness when planning a bathtub mixer's position relative
 to the tub leaves the mixer unable to center on the tub's spout/drain
 once tiling is done, so the water stream runs off-center from the tub
-opening instead of straight down the middle. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
+opening instead of straight down the middle. [source: [[_Sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]

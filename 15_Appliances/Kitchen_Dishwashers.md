@@ -12,7 +12,7 @@ InfoLight/TimeBeam floor indicator). This page was an empty placeholder until 20
 > width/wash-quality/drying/program/noise/chemistry/price-tier deep dive from a Moscow-region
 > renovation company's YouTube channel (RUB pricing, converted to USD at the exact publish-date
 > rate — kept in its own section, distinct from this page's personal-selection content).
-> [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|Konstantin Kruglov/Ontario]]]
+> [source: [[_Sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|Konstantin Kruglov/Ontario]]]
 
 ### Width
 
@@ -110,7 +110,7 @@ InfoLight/TimeBeam floor indicator). This page was an empty placeholder until 20
 
 `single-account`, `unverified`. Several brand/model names above were transcribed indistinctly
 by the auto-generated Russian captions and are flagged individually — treat as approximate
-pending verification. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|YT_10sNVkAEATw]]]
+pending verification. [source: [[_Sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|YT_10sNVkAEATw]]]
 
 ## This Project's Own Selection (pre-existing)
 

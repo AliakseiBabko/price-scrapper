@@ -27,7 +27,7 @@ Zemstandart / Zemproekt says **the three-point takeaway is**: (1) never forget s
 ## Stretch Ceiling vs. Drywall-Boxed Ceiling — Cost, Speed, and Flood Protection (RemProektMD, added 2026-08-24)
 
 > [!NOTE]
-> First Moldova/Chișinău-market source in this store, `single-account`, no absolute price figures (only relative comparisons — no currency-normalization question arises). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
+> First Moldova/Chișinău-market source in this store, `single-account`, no absolute price figures (only relative comparisons — no currency-normalization question arises). [source: [[_Sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
 
 RemProektMD/Andrei recommends **stretch ceiling over a painted drywall-boxed ceiling for budget renovations**, citing four separate advantages: (1) **flood protection** — a real documented incident where an upstairs-neighbor flood was fully contained by an already-installed PVC-film stretch ceiling (the film bulged but held all the water, protecting the owner's engineered-wood flooring underneath entirely; a drywall or plastered ceiling would have let the water through onto the floor); (2) **installation speed** — a drywall ceiling's full sequence (profile, board, seam-tape, mesh, two putty passes, paint) takes a minimum of 2 weeks, vs. **1 day** for a stretch ceiling; (3) **visual parity** — a matte stretch ceiling looks indistinguishable from a painted ceiling at normal viewing distance; (4) **cost** — stretch ceiling is **2-3× cheaper** than an equivalent painted drywall-boxed ceiling. A fabric ("тканевый") stretch-ceiling variant costs more than PVC film but is still cheaper than drywall — framed mainly as an ecological/tactile preference, not a functional upgrade over film.
 
@@ -37,7 +37,7 @@ The same backing-plate-before-film logic applies to a smoke detector, not just l
 
 ## Stretch-Ceiling Acceptance Checklist and Pre-Work Liability Act (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 2)
 
-Vladimir Amelchenko's acceptance checklist plus a broadly-reusable liability-management technique. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Wbj_6CEgcGU_sbk_stretch_ceiling_acceptance|YT_Wbj_6CEgcGU]]]
+Vladimir Amelchenko's acceptance checklist plus a broadly-reusable liability-management technique. [source: [[_Sources/YT_Wbj_6CEgcGU_sbk_stretch_ceiling_acceptance|YT_Wbj_6CEgcGU]]]
 
 - **Acceptance checklist**: membrane (no holes/punctures/creases, visually flat); edge trim tape (straight, no gap from wall or ceiling); corner tightness ("no gap you could fit half a finger into"); recessed-downlight thermal-ring gap must be *consistent* across all fixtures in a room (not just individually present — a 1mm gap at one fixture and 3mm at another reads as sloppy even if each is technically "in spec"); chandelier/fixture base flush with no skew or gap; cycle every switch to confirm it controls the intended zone.
 - **⚠️ Post-acceptance liability gap**: damage (wall paint smudges, chipped tile) often surfaces only during post-install cleanup, after the installer is paid and gone — attention during acceptance focuses on the ceiling itself, not the surrounding room. A chipped tile is functionally unprovable after the fact; wall paint damage is more often fixed/compensated on request.
@@ -61,7 +61,7 @@ city not spoken). Medium promotional ratio.
   thermal-sound-insulation board)**, two-stage fixing: glued first, then
   additionally secured with plastic dowel-mushroom fasteners
   ("дюбель-гриб") specifically to prevent it sagging over time.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|ah3StuP2TZE]]]
+  [source: [[_Sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|ah3StuP2TZE]]]
 
 ## Painted, Drywall, and Stretch Ceiling — Full Comparison, and a "Practically Free" Loft Option (Петришин-Строй, added 2026-08-24, Round 3)
 
@@ -111,14 +111,14 @@ general comparison.
   (perimeter shadow gap with an LED strip inside it) and a "seamless
   wall junction" (membrane tucked into a specific trim profile for a
   clean, gap-free wall-ceiling line).
-- **⚠️ Black perimeter-insert trim as a zero-cost budget approximation of shadow-gap, plus a new "slot" profile named (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: a plain white perimeter insert trim is now considered dated; switching the same trim to **black** is a zero-extra-cost way to visually approximate a shadow-gap profile's premium look from normal viewing distance (the difference only shows up close). For a genuinely premium result rather than the black-insert approximation, two profile options exist: the shadow-gap ("теневой") profile already on this page, or a **"slot" ("щелевой") profile** — a further profile type not previously named here, producing a stretch ceiling with **no visible seam against the wall at all** (technically present but effectively invisible), distinct from shadow-gap's visible recessed channel. Not yet cross-checked against this page's existing cost ladder. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xb5pUpTVIJU_kruglov_looks_cheap_10_mistakes|YT_xb5pUpTVIJU]]]
+- **⚠️ Black perimeter-insert trim as a zero-cost budget approximation of shadow-gap, plus a new "slot" profile named (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: a plain white perimeter insert trim is now considered dated; switching the same trim to **black** is a zero-extra-cost way to visually approximate a shadow-gap profile's premium look from normal viewing distance (the difference only shows up close). For a genuinely premium result rather than the black-insert approximation, two profile options exist: the shadow-gap ("теневой") profile already on this page, or a **"slot" ("щелевой") profile** — a further profile type not previously named here, producing a stretch ceiling with **no visible seam against the wall at all** (technically present but effectively invisible), distinct from shadow-gap's visible recessed channel. Not yet cross-checked against this page's existing cost ladder. `single-account`, `unverified`. [source: [[_Sources/YT_xb5pUpTVIJU_kruglov_looks_cheap_10_mistakes|YT_xb5pUpTVIJU]]]
 - **⚠️ New ceiling-type content: a deliberately exposed, unfinished
   structural slab as a loft-style choice** — no need to hide services
   or achieve flatness, since visible roughness is the aesthetic itself
   (only works if the whole apartment commits to the style). Near-zero
   installation cost, effectively no timeline, immune to flood/
   settlement damage since there's no finish layer to damage.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lvixGbwo0Ug_petrishin_ceiling_2026_comparison|lvixGbwo0Ug]]]
+  [source: [[_Sources/YT_lvixGbwo0Ug_petrishin_ceiling_2026_comparison|lvixGbwo0Ug]]]
 
 ## Old Whitewash vs. Paint Ceilings, and a Physical Cornice-Crack Check (Петришин-Строй, added 2026-08-24, Round 5)
 
@@ -134,7 +134,7 @@ general comparison.
   only found by climbing a ladder and testing it by touch/sound, not by
   looking from the floor. Can mean re-installing cornice throughout the
   whole apartment — an easy-to-miss cost driver at estimate time.
-  `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
+  `single-account`. [source: [[_Sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
 
 ## Drywall Screw-Depth Control and Paper-vs-Mesh Joint Tape (Петришин-Строй, added 2026-08-24, Round 5)
 
@@ -148,7 +148,7 @@ general comparison.
   cross-checked**: this source states paper joint tape works properly
   for drywall seams, while mesh tape does not, and recommends insisting
   on paper tape if a crew proposes mesh. `single-account`, this
-  practitioner's own technology preference. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
+  practitioner's own technology preference. [source: [[_Sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
 
 ## Ceiling-Drop Forced by Low-Mounted Risers/Ventilation, and a Real Client Height-Tradeoff Decision (Петришин-Строй, real Chelomei St. object, Moscow level-1 region, added 2026-08-24, Round 6)
 
@@ -161,14 +161,14 @@ keep a visible step/break at the living-room boundary, preserving a
 higher living-room ceiling — but the client chose the full uniform drop
 instead. A concrete real example of an MEP-routing constraint forcing a
 ceiling-height tradeoff, with the actual client decision recorded, not
-just the mechanism. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
+just the mechanism. `single-account`. [source: [[_Sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
 
 ## Concealed Curtain Track Built into a One-Piece Stretch Ceiling (Петришин-Строй-featured case, added 2026-08-24, Round 6)
 
 A single continuous stretch-ceiling membrane can include a hidden
 cornice/curtain-track recess built into the ceiling itself, avoiding a
 visible surface-mounted curtain rod — a decor/technique detail from a
-real 38 m² renovation. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
+real 38 m² renovation. `single-account`. [source: [[_Sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 
 ## Drywall-to-Stretch-Ceiling L-Joint Curtain Niche — a Distinct Two-Ceiling-Type Detail (Петришин-Строй, added 2026-08-24, Round 11)
 
@@ -180,7 +180,7 @@ stretch ceiling set slightly lower, joined to the drywall section via an
 L-shaped/right-angle transition deliberately built to leave a recessed
 niche — curtains hang down from inside this niche rather than from a
 surface-mounted track or the stretch membrane's own hidden recess.
-Region level 1 (город Видное, full address named). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+Region level 1 (город Видное, full address named). [source: [[_Sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
 
 ## Bathroom-Specific Ceiling Comparison: Slatted, Cassette, Glass/Mirror, Plastic, Stretch (Петришин-Строй + design blogger Ekaterina Popova, added 2026-08-24, Round 9)
 
@@ -260,7 +260,7 @@ covered there:
   lighting for a large, high-ceilinged country-house bathroom, worth the
   extra labor cost.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RfcoPP3dvcQ_petrishin_bathroom_ceiling_comparison|RfcoPP3dvcQ]]]
+[source: [[_Sources/YT_RfcoPP3dvcQ_petrishin_bathroom_ceiling_comparison|RfcoPP3dvcQ]]]
 
 ## Elevator-Too-Small Logistics: Profile Can't Be Cut, Must Be Hand-Carried (Петришин-Строй, ЖК Виноградный episodic series, added 2026-08-24, Round 13)
 
@@ -272,11 +272,11 @@ without structurally weakening it — when it doesn't fit a small elevator
 either, it must be **carried up the stairwell by hand** to the working
 floor (this job: 10th floor), a real added-labor cost worth budgeting for
 in a small-elevator/high-floor building. Region level 2 (ЖК Виноградный
-named, no city spoken). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_EWNki2-ZFzQ_petrishin_vinogradny_ep8_drywall_ceilings|EWNki2-ZFzQ]]]
+named, no city spoken). [source: [[_Sources/YT_EWNki2-ZFzQ_petrishin_vinogradny_ep8_drywall_ceilings|EWNki2-ZFzQ]]]
 
 ## Deep-Dive Interview with a Professional Installer — Andrey Frolov (Round 5, added 2026-08-28)
 
-Konstantin Kruglov interviews Andrey Frolov, an independent professional stretch-ceiling installer/blogger (no commercial tie to Ontario) — a low-promotional, ~87-minute practitioner interview, genuinely fresh material for this page beyond the general painted/drywall/stretch comparisons above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_W1PKG4tVw_g_kruglov_stretch_ceiling_truth_frolov|YT_W1PKG4tVw_g]]]
+Konstantin Kruglov interviews Andrey Frolov, an independent professional stretch-ceiling installer/blogger (no commercial tie to Ontario) — a low-promotional, ~87-minute practitioner interview, genuinely fresh material for this page beyond the general painted/drywall/stretch comparisons above. [source: [[_Sources/YT_W1PKG4tVw_g_kruglov_stretch_ceiling_truth_frolov|YT_W1PKG4tVw_g]]]
 
 **USD normalization**: using the 2026-04-10 upload date and trailing 6-month USD/RUB average of 79.04, 30,000 RUB ≈ $380; 1,000-1,500 RUB ≈ $10-$20; smaller RUB figures below (200, 350, 300-400, 800) are kept as plain RUB per this project's under-$10 convention.
 
@@ -302,15 +302,15 @@ Konstantin Kruglov interviews Andrey Frolov, an independent professional stretch
 
 **⚠️ Smoke detectors must never be fully concealed behind the membrane** — must sit flush with or only slightly recessed into the ceiling surface, fully exposed, since real-fire detection speed is measured in seconds; a protective grille cover is sometimes installed at a client's explicit request but the installer actively discourages it. **Sprinkler/fire-suppression heads cannot be routed as permissively** — they need a specific manufacturer-made mounting collar/platform at a designated penetration point, distinct from an ordinary wire-penetration reinforcing ring. See [[12_Engineering_and_Systems/analysis/Fire_Safety_Stretch_Ceiling_Installation|Fire Safety: Stretch Ceiling Installation]] for this project's existing platform-before-film sequencing and clearance-rule detail from a different (installation-company) source — this interview adds the detection-speed rationale and practitioner stance, not new mounting mechanics.
 
-**⚠️ Solid baguette framing cancels the membrane's own repairability advantage (Round 15, added 2026-08-28)**: this page's existing repairability content notes a stretch ceiling can normally be locally unclipped and re-tensioned (to add a fixture, fix a leak, etc.) without disturbing the rest of the ceiling. Konstantin Kruglov / Ontario flags that framing the perimeter in a rigid, puttied-and-painted baguette molding removes that flexibility — accessing the membrane later means physically breaking off a baguette section and re-finishing (puttying/sanding/painting) it from scratch. Recommends a shadow-gap or "eurokant" perimeter finish instead, both already compatible with the membrane's repairability. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
+**⚠️ Solid baguette framing cancels the membrane's own repairability advantage (Round 15, added 2026-08-28)**: this page's existing repairability content notes a stretch ceiling can normally be locally unclipped and re-tensioned (to add a fixture, fix a leak, etc.) without disturbing the rest of the ceiling. Konstantin Kruglov / Ontario flags that framing the perimeter in a rigid, puttied-and-painted baguette molding removes that flexibility — accessing the membrane later means physically breaking off a baguette section and re-finishing (puttying/sanding/painting) it from scratch. Recommends a shadow-gap or "eurokant" perimeter finish instead, both already compatible with the membrane's repairability. `single-account`, `unverified`. [source: [[_Sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
 
-**Extension, a second Ontario source (Round 15, added 2026-08-28)**: a bare stretch-ceiling membrane replacement (no baguette) takes about **3 hours** with zero mess/dust — the installer unclips the existing profile, tensions new material, and reclips. Where a baguette *is* present, removing it to access the membrane damages the paint/plaster at the wall-ceiling junction, cascading the repair into repainting/re-finishing the walls too — a fuller "why it cascades" mechanism than the entry above gave. `single-account`, `unverified`, Ontario (Nikita Kuznetsov presenting). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
+**Extension, a second Ontario source (Round 15, added 2026-08-28)**: a bare stretch-ceiling membrane replacement (no baguette) takes about **3 hours** with zero mess/dust — the installer unclips the existing profile, tensions new material, and reclips. Where a baguette *is* present, removing it to access the membrane damages the paint/plaster at the wall-ceiling junction, cascading the repair into repainting/re-finishing the walls too — a fuller "why it cascades" mechanism than the entry above gave. `single-account`, `unverified`, Ontario (Nikita Kuznetsov presenting). [source: [[_Sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
 
 **Cross-cutting**: a "stretch walls" (натяжные стены) trend — the same PVC/fabric material and technique applied to walls instead of ceilings, for a soft/cushioned child-safe tactile surface, sound absorption, and a perfectly even defect-hiding finish — is genuinely new territory, flagged for [[13_Surfaces_and_Finishes/Walls_and_Paint]] rather than covered here since it's a wall-finish technique.
 
 ## Five-Way Cost, Timeline, and Repairability Comparison (Kruglov/Ontario, Round 5, added 2026-08-28)
 
-Konstantin Kruglov / Ontario gives the first full quantified labor+materials cost ladder across all five ceiling types this page tracks, plus an independent cross-check of this round's own Frolov ceiling-drop figures. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lhNC30_adGc_kruglov_which_ceiling_cost_comparison|YT_lhNC30_adGc]]]
+Konstantin Kruglov / Ontario gives the first full quantified labor+materials cost ladder across all five ceiling types this page tracks, plus an independent cross-check of this round's own Frolov ceiling-drop figures. [source: [[_Sources/YT_lhNC30_adGc_kruglov_which_ceiling_cost_comparison|YT_lhNC30_adGc]]]
 
 **USD normalization**: 2024-11-15 upload date, trailing 6-month USD/RUB average of 91.03.
 
@@ -330,12 +330,12 @@ Konstantin Kruglov / Ontario gives the first full quantified labor+materials cos
 
 **Presenter's own personal ranking** (not framed as universal advice): stretch ceiling is his own favorite outright; drywall second if budget allows (shadow-gap stretch as the value pick otherwise); plastered ceiling ranked last, "not a single upside."
 
-**⚠️ A material-science detail behind the non-yellowing/hypoallergenic claim (same channel, added 2026-08-28)**: the stretch-ceiling membrane is made from **primary (virgin) plastic pellets, melted directly** — this is why it doesn't darken/yellow over time, unlike **recycled plastic**. The source's own comparison: PVC window-frame profiles themselves don't yellow (primary plastic), but plastic insert strips sometimes fitted to windowsills do yellow (recycled plastic) — the same underlying material distinction applies to the ceiling membrane. This video's own cost totals otherwise restate the cost ladder above almost exactly (same channel, same order of magnitude) and are not re-recorded as a separate data point. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_KNY-XfgbGog_kruglov_top8_save_money_tips|YT_KNY-XfgbGog]]]
+**⚠️ A material-science detail behind the non-yellowing/hypoallergenic claim (same channel, added 2026-08-28)**: the stretch-ceiling membrane is made from **primary (virgin) plastic pellets, melted directly** — this is why it doesn't darken/yellow over time, unlike **recycled plastic**. The source's own comparison: PVC window-frame profiles themselves don't yellow (primary plastic), but plastic insert strips sometimes fitted to windowsills do yellow (recycled plastic) — the same underlying material distinction applies to the ceiling membrane. This video's own cost totals otherwise restate the cost ladder above almost exactly (same channel, same order of magnitude) and are not re-recorded as a separate data point. [source: [[_Sources/YT_KNY-XfgbGog_kruglov_top8_save_money_tips|YT_KNY-XfgbGog]]]
 
 ## Drywall Ceiling — a Same-Channel Cost Divergence, Ventilation Exception, and Cove-Lighting Caution (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
 
 > [!NOTE]
-> Trends-cluster representative video. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
+> Trends-cluster representative video. [source: [[_Sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
 
 **⚠️ Open, unresolved same-channel cost divergence**: this video states
 drywall ceiling installation costs **~15,000 RUB/m² (≈$155/m²) labor
@@ -359,7 +359,7 @@ figure-pair on this page implies on its own — `oDHSbp6QRRE`'s own
 ≈20,000 vs. this page's earlier ≈13,500 RUB/m² multi-level figure works
 out closer to 1.5-2×, not 3-5×. Logged as a further data point on the
 open divergence above, not used to merge or resolve it. Konstantin
-Kruglov / Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
+Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
 
 **New exception case**: a drywall ceiling remains the right
 (unavoidable) choice specifically where ducted supply/exhaust
@@ -393,7 +393,7 @@ material itself.
 
 **Your priority.** Not yet decided. The deciding factors are the ones both sides actually name: **how much of your lighting penetrates the ceiling plane** (which is what her flood argument turns on, and which a spot-heavy scheme maximises), and **whether the ceiling goes in before or after the furniture fitters**.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]] [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+[source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]] [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
 ## Do's
 
@@ -405,8 +405,8 @@ material itself.
 | channel not confirmed — archive extraction has no decisive channel field: construct a rigid drywall framing box above full-height kitchen cabinetry lines | Kitchen | Accepts stretch ceiling perimeter track on its vertical face so cabinet doors open smoothly underneath | `_Archive/processed_sources/20260727_renovation_guide_mistakes_4_21a6e3c1.txt` |
 | Split an L-shaped room section into two rectangular stretch-ceiling zones via a dividing wall, per Zemskov/Zemstandart | Any L-shaped or non-rectangular room section | Avoids costly material waste and a long, short-lived seam — cited real delta >10,000-20,000 RUB | `_Archive/processed_sources/20260810_entry_hallway_dividing_wall_case_8963951b.txt` |
 | Check any room dimension against the ~5m stretch-ceiling seamless-fabric-width limit before finalizing layout, per Zemskov/Zemstandart | Any room over ~5m in either direction | A room exceeding the limit forces either a visible seam or a partition wall to split it into compliant zones | `_Archive/processed_sources/20260810_stretch_ceiling_seamless_width_limit_25477732.txt` |
-| Prefer stretch ceiling over painted drywall for budget/speed/flood-protection reasons, per RemProektMD | All Rooms (esp. under a shared-riser flood risk) | 2-3x cheaper, ~1 day vs 2+ weeks install, contained a real upstairs-flood incident that would have ruined the floor otherwise | [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips\|OP8ALhLynHE]] |
-| Limit recessed/point lights to 1-2 diffuse fixtures per room in a stretch ceiling, per RemProektMD | All Rooms | Each ceiling penetration is individually priced (backing hardware + labor per hole) | [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips\|OP8ALhLynHE]] |
+| Prefer stretch ceiling over painted drywall for budget/speed/flood-protection reasons, per RemProektMD | All Rooms (esp. under a shared-riser flood risk) | 2-3x cheaper, ~1 day vs 2+ weeks install, contained a real upstairs-flood incident that would have ruined the floor otherwise | [[_Sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips\|OP8ALhLynHE]] |
+| Limit recessed/point lights to 1-2 diffuse fixtures per room in a stretch ceiling, per RemProektMD | All Rooms | Each ceiling penetration is individually priced (backing hardware + labor per hole) | [[_Sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips\|OP8ALhLynHE]] |
 
 ## Don'ts
 
@@ -418,11 +418,11 @@ material itself.
 ## Source Notes
 
 - Ceiling height/door/cabinet coordination, cabinet-mounted track technique, concrete-slab priming, kitchen cabinetry framing box — sources as cited inline above (region/channel not yet cross-referenced against the rest of this vault's source-attribution conventions; flagged for future cleanup).
-- **L-shaped stretch-ceiling cost penalty, fabric-vs-film waste, wardrobe-rail-to-ceiling-box detail** (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow, real 88.5m² project, user-supplied Turboscribe transcript after both automated caption-fetch methods failed, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]] (#138, 2020-12-01).
-- **Stretch-ceiling fabric seamless-width limit, real 5.92m×8.5m over-limit case** (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow, user-supplied Turboscribe transcript — no prior CSV row of any kind for this video, added 2026-08-10) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2hg0mjR-M30_stretch_ceiling_seamless_width_limit|extraction note]] (2019-04-09).
-- **Stretch-ceiling-vs-drywall cost/speed/flood comparison, recessed-lighting cost caution** (RemProektMD/Andrei, Chișinău/Moldova, level 2 region only, added 2026-08-24) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|extraction note]] (2020-09-24).
-- **Cornice/stretch-ceiling incompatibility mechanism, named "ТЗИ" ceiling soundproofing product** (Петришин-Строй, ЖК "Фестиваль Парк", region level 2, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|extraction note]] (2025-03-23).
-- **Painted/drywall/stretch ceiling full comparison, flood-recoverability detail, named stretch-ceiling techniques, "practically free" loft-ceiling option** (Петришин-Строй, "СРАВНЕНИЕ!" format, region level 1 direct, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lvixGbwo0Ug_petrishin_ceiling_2026_comparison|extraction note]] (2025-09-22).
-- **Konstantin Kruglov / Ontario, five-way cost/timeline/repairability comparison** (plastered, two stretch-profile tiers, two drywall configurations) — first full quantified per-m² cost ladder across all five ceiling types on this page, Round 5, added 2026-08-28. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lhNC30_adGc_kruglov_which_ceiling_cost_comparison|extraction note]] (2024-11-15).
-- **Andrey Frolov (independent installer) deep-dive interview**: material health/composition, fire-rating tiers and named brands (КНТ/KNT, Н-пласт/N-plast), PVC-vs-fabric pricing, sizing/cold-tolerance figures, ceiling-drop ladder, lighting-integration types and costs, damage-repair triage, and smoke-detector/sprinkler mounting rules — Round 5, added 2026-08-28. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_W1PKG4tVw_g_kruglov_stretch_ceiling_truth_frolov|extraction note]] (2026-04-10).
-- **⚠️ Drywall-on-frame ceiling chosen over stretch specifically because of exposed structural beams in a historic building's corridor** (Петришин-Строй, real Arbat-area case study, Moscow level-1 region, added 2026-08-24, Round 4): a stretch ceiling wasn't feasible because the beams still needed boxing in with a frame regardless, so drywall was used directly instead — high existing ceiling height made the resulting drop acceptable. A concrete added case for old/historic structural-obstruction ceiling decisions. [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IoQiGtso9Vk_petrishin_case_study_arbat_historic|extraction note]] (2025-06-15).
+- **L-shaped stretch-ceiling cost penalty, fabric-vs-film waste, wardrobe-rail-to-ceiling-box detail** (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow, real 88.5m² project, user-supplied Turboscribe transcript after both automated caption-fetch methods failed, added 2026-08-10) — [[_Sources/YT_UfmUC4-T3jY_entry_hallway_dividing_wall_case|extraction note]] (#138, 2020-12-01).
+- **Stretch-ceiling fabric seamless-width limit, real 5.92m×8.5m over-limit case** (Alexey Zemskov / Zemstandart-Zemsproekt, Moscow, user-supplied Turboscribe transcript — no prior CSV row of any kind for this video, added 2026-08-10) — [[_Sources/YT_2hg0mjR-M30_stretch_ceiling_seamless_width_limit|extraction note]] (2019-04-09).
+- **Stretch-ceiling-vs-drywall cost/speed/flood comparison, recessed-lighting cost caution** (RemProektMD/Andrei, Chișinău/Moldova, level 2 region only, added 2026-08-24) — [[_Sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|extraction note]] (2020-09-24).
+- **Cornice/stretch-ceiling incompatibility mechanism, named "ТЗИ" ceiling soundproofing product** (Петришин-Строй, ЖК "Фестиваль Парк", region level 2, added 2026-08-24, Round 3) — [[_Sources/YT_ah3StuP2TZE_petrishin_tile_format_comparison|extraction note]] (2025-03-23).
+- **Painted/drywall/stretch ceiling full comparison, flood-recoverability detail, named stretch-ceiling techniques, "practically free" loft-ceiling option** (Петришин-Строй, "СРАВНЕНИЕ!" format, region level 1 direct, added 2026-08-24, Round 3) — [[_Sources/YT_lvixGbwo0Ug_petrishin_ceiling_2026_comparison|extraction note]] (2025-09-22).
+- **Konstantin Kruglov / Ontario, five-way cost/timeline/repairability comparison** (plastered, two stretch-profile tiers, two drywall configurations) — first full quantified per-m² cost ladder across all five ceiling types on this page, Round 5, added 2026-08-28. [[_Sources/YT_lhNC30_adGc_kruglov_which_ceiling_cost_comparison|extraction note]] (2024-11-15).
+- **Andrey Frolov (independent installer) deep-dive interview**: material health/composition, fire-rating tiers and named brands (КНТ/KNT, Н-пласт/N-plast), PVC-vs-fabric pricing, sizing/cold-tolerance figures, ceiling-drop ladder, lighting-integration types and costs, damage-repair triage, and smoke-detector/sprinkler mounting rules — Round 5, added 2026-08-28. [[_Sources/YT_W1PKG4tVw_g_kruglov_stretch_ceiling_truth_frolov|extraction note]] (2026-04-10).
+- **⚠️ Drywall-on-frame ceiling chosen over stretch specifically because of exposed structural beams in a historic building's corridor** (Петришин-Строй, real Arbat-area case study, Moscow level-1 region, added 2026-08-24, Round 4): a stretch ceiling wasn't feasible because the beams still needed boxing in with a frame regardless, so drywall was used directly instead — high existing ceiling height made the resulting drop acceptable. A concrete added case for old/historic structural-obstruction ceiling decisions. [[_Sources/YT_IoQiGtso9Vk_petrishin_case_study_arbat_historic|extraction note]] (2025-06-15).

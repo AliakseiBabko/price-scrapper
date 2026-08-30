@@ -60,14 +60,14 @@ plastic-window technician to replace weatherstripping/seals, lubricate
 moving parts, and replace handles — a real added cost/time item easy to
 miss without physically operating and inspecting existing window hardware
 during a walkthrough, not just checking that a window "looks fine."
-`single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
+`single-account`. [source: [[_Sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
 
 ## Child-Safety Lockable Handles for Kids' Rooms (Петришин-Строй, added 2026-08-24, Round 5)
 
 In a cosmetic-scope renovation that services (but doesn't replace)
 existing windows, install lockable handles specifically in children's
 rooms — for child safety, with a side benefit of reduced draft/noise the
-same way general hardware servicing does. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
+same way general hardware servicing does. `single-account`. [source: [[_Sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) advises: **Design-brief-specific requirement**: the bottom section's set height must leave the exact clearance the project specifies for future floor insulation and finish buildup — the glazing's bottom reference must account for the eventual finished floor stack-up, not just today's raw slab.
 

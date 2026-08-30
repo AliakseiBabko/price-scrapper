@@ -19,7 +19,7 @@ Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Context**: standar
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) reports: **Context**: a real 79.5m² free-plan apartment where bed and TV placement were fixed first (the bed could only go against one wall; the TV had to go opposite it), leaving the wardrobe to fit whatever remained — which required reconfiguring the room's own window/balcony opening to create space. **Sequencing lesson: decide bed and TV placement before wardrobe placement, not after.**
 
-**Worked dimensioned sequence**: [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_CHCB4KPupyc_bedroom_window_reconfig_for_wardrobe|CHCB4KPupyc_bedroom_wind]]]
+**Worked dimensioned sequence**: [source: [[_Sources/YT_CHCB4KPupyc_bedroom_window_reconfig_for_wardrobe|CHCB4KPupyc_bedroom_wind]]]
 - Offset 700mm from the right wall, then another 800mm to set the new opening width.
 - Offset 500mm from the left wall to set window width.
 - Raise the balcony-block threshold to exactly 100mm above the screed.
@@ -52,4 +52,4 @@ refrigerator/wardrobe cases above).
   insulation alone would flex/vibrate under a sliding door's repeated
   use).
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]
+[source: [[_Sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]

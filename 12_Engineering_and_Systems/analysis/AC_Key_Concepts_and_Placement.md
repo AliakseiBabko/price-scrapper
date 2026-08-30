@@ -24,7 +24,7 @@ under-cools others; (4) **ducted/channel unit** — concealed above the ceiling,
 rooms from one unit via ducting, with individually-controllable electronic dampers per room
 (manual or smart-home-integrated). Ducted units need ceiling depth, condensate routing, and
 access-panel planning, and are described as most common in higher-end, high-ceiling renovations
-specifically because of that added design complexity. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+specifically because of that added design complexity. [source: [[_Sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
 
 ## Multi-Split: Hard Limit and Failure-Mode Downside (added 2026-08-24, Round 4)
 
@@ -34,7 +34,7 @@ outdoor unit fails, every room it serves loses AC simultaneously during repair �
 split-system failure only takes out one room. A multi-split serving 2 rooms can cost *more* than
 two fully independent split systems, despite serving the same room count. The one scenario that
 forces multi-split regardless of this trade-off: the facade only has physical space for one
-outdoor unit, but AC is needed in more than one room. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+outdoor unit, but AC is needed in more than one room. `single-account`, `unverified`. [source: [[_Sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
 
 ## Portable/Mobile AC: Quantified Ineffectiveness (added 2026-08-24, Round 4)
 
@@ -43,7 +43,7 @@ barely effective** — roughly 4 hours to drop room temperature by just 1°C, co
 window needing to stay cracked for the exhaust hose (which independently reduces any AC's
 efficiency) and by real noise. The source frames the real-world benefit as closer to a "placebo
 effect," with the only meaningfully cool spot directly in front of the unit's outlet.
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
 
 ## Outdoor Unit Placement — Full Taxonomy (added 2026-08-24, Round 4, extends the single restriction below)
 
@@ -56,11 +56,11 @@ some new-builds provide one dedicated space per floor for every unit's outdoor h
 **centralized rooftop system** — a developer installs one large shared outdoor unit on the roof
 and every apartment connects to it, removing outdoor-placement choice entirely (cited example:
 a Moscow-City-area development, name transcribed uncertainly as "ЖК Nivers в Сити" —
-`ASR-uncertain`). `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+`ASR-uncertain`). `single-account`. [source: [[_Sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
 
 ## Ventilated-Facade-Cavity Outdoor Unit Recessing, and Balcony-Placement Usability Tradeoff (added 2026-08-25)
 
-Forcemontage (turnkey renovation company, real project, region unresolved) extends this page's existing outdoor-unit-placement taxonomy with two real-case items: **balcony placement is technically workable but makes the balcony unusably hot while the AC runs** — a real usability tradeoff distinct from the building-restriction/serviceability rationales already above. A real solved case for a facade with no pre-designed basket and a ban on standard facade mounting: the outdoor unit was **recessed into a ventilated-facade cavity**, mounted on brackets fixed to the building's own monolithic structural slab, saving the boxing space a standard surface mount would need, with a dedicated serviceable access hatch planned separately for maintenance. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_7vjW6SzHeWM_forcemontage_ventilation_types_cost|7vjW6SzHeWM]]]
+Forcemontage (turnkey renovation company, real project, region unresolved) extends this page's existing outdoor-unit-placement taxonomy with two real-case items: **balcony placement is technically workable but makes the balcony unusably hot while the AC runs** — a real usability tradeoff distinct from the building-restriction/serviceability rationales already above. A real solved case for a facade with no pre-designed basket and a ban on standard facade mounting: the outdoor unit was **recessed into a ventilated-facade cavity**, mounted on brackets fixed to the building's own monolithic structural slab, saving the boxing space a standard surface mount would need, with a dedicated serviceable access hatch planned separately for maintenance. `single-account`. [source: [[_Sources/YT_7vjW6SzHeWM_forcemontage_ventilation_types_cost|7vjW6SzHeWM]]]
 
 ## Indoor Unit Placement Rules
 
@@ -70,20 +70,20 @@ Zemstandart/Alexey Zemskov recommends: 1. **Don't blow cold air directly on occu
 Zemstandart/Alexey Zemskov recommends: 2. **Leave clear space above and below the indoor unit** — it needs unobstructed airflow to draw in warm air and release cooled air; boxing it in tightly (e.g. inside a cabinet with no clearance) defeats this.
 Zemstandart/Alexey Zemskov recommends: 3. **Position it to be visually unobtrusive** — avoid the center of a wall or a spot that disrupts the room's sightlines/design where a less prominent option exists.
 
-Zemstandart / Alexey Zemskov reports **a fourth constraint, added 2026-08-18 — building-level exterior restrictions**: default to placing the indoor unit wherever the condensate drain and outdoor condenser unit can be routed to the building exterior, letting incoming air mix and reach the room comfortably. **But some developments (real example: an "elite" new-build) categorically prohibit any exterior condenser or condensate-drain hardware** — in that case, place the indoor unit above the entrance door instead (or anywhere else that avoids blowing directly onto a seating/sleeping occupant, per rule 1 above). Check the building's own rules before finalizing AC placement, not just the room-level rules above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_wFUUakbL5O8_90_regrets_designer_renovation_233|extraction note]]]
+Zemstandart / Alexey Zemskov reports **a fourth constraint, added 2026-08-18 — building-level exterior restrictions**: default to placing the indoor unit wherever the condensate drain and outdoor condenser unit can be routed to the building exterior, letting incoming air mix and reach the room comfortably. **But some developments (real example: an "elite" new-build) categorically prohibit any exterior condenser or condensate-drain hardware** — in that case, place the indoor unit above the entrance door instead (or anywhere else that avoids blowing directly onto a seating/sleeping occupant, per rule 1 above). Check the building's own rules before finalizing AC placement, not just the room-level rules above. [source: [[_Sources/YT_wFUUakbL5O8_90_regrets_designer_renovation_233|extraction note]]]
 
 ## Outdoor-Unit Placement for Serviceability, and DIY/Hired Scope Split (added 2026-08-24, Sidorik Round 4)
 
-Pavel Sidorik, individual practitioner, own apartment: mounted the outdoor condenser **directly below the bedroom window specifically so it can be serviced without hiring industrial rope-access climbers** — a serviceability-driven placement rationale distinct from this page's existing comfort/sightline/building-restriction rules above. **DIY-vs-hired scope boundary, a generalizable heuristic for a self-managed project**: wall-chasing (refrigerant-line and condensate chases) and electrical-feed routing are reasonable DIY scope; connecting/charging the refrigerant lines and outdoor-unit hookup are best left to hired specialists with proper tools — doing that specific part yourself is "not sensible" without them. Chase spec: 7cm wide × 4cm deep for the line-set chase; condensate-drain chase sloped 1cm per meter. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C-3BcpXDRnk_sidorik_ventilation_ac_ep19|C-3BcpXDRnk]]]
+Pavel Sidorik, individual practitioner, own apartment: mounted the outdoor condenser **directly below the bedroom window specifically so it can be serviced without hiring industrial rope-access climbers** — a serviceability-driven placement rationale distinct from this page's existing comfort/sightline/building-restriction rules above. **DIY-vs-hired scope boundary, a generalizable heuristic for a self-managed project**: wall-chasing (refrigerant-line and condensate chases) and electrical-feed routing are reasonable DIY scope; connecting/charging the refrigerant lines and outdoor-unit hookup are best left to hired specialists with proper tools — doing that specific part yourself is "not sensible" without them. Chase spec: 7cm wide × 4cm deep for the line-set chase; condensate-drain chase sloped 1cm per meter. [source: [[_Sources/YT_C-3BcpXDRnk_sidorik_ventilation_ac_ep19|C-3BcpXDRnk]]]
 
 ## Pre-Install Planning Even When Deferring Purchase (Kruglov/Ontario, Round 15, added 2026-08-28)
 
-**⚠️ Don't defer AC planning entirely just to save money now — three concrete pre-install steps recommended even before the unit itself is bought**: (1) outdoor-unit location is constrained to a window-facing wall unless refrigerant lines are pre-routed — routing them later means an ugly surface-mounted plastic conduit box; (2) route the condensate drain to the sewer system now, rather than the older practice of letting it drip outside; (3) embed the refrigerant-line conduit/sleeve in the wall and cap it even without installing the unit — years later, hang the indoor unit on the pre-routed conduit and the outdoor unit outside for a clean, planned-looking result rather than retrofitted surface conduit. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_N813aS8mI-Y_kruglov_top10_common_mistakes|YT_N813aS8mI-Y]]]
+**⚠️ Don't defer AC planning entirely just to save money now — three concrete pre-install steps recommended even before the unit itself is bought**: (1) outdoor-unit location is constrained to a window-facing wall unless refrigerant lines are pre-routed — routing them later means an ugly surface-mounted plastic conduit box; (2) route the condensate drain to the sewer system now, rather than the older practice of letting it drip outside; (3) embed the refrigerant-line conduit/sleeve in the wall and cap it even without installing the unit — years later, hang the indoor unit on the pre-routed conduit and the outdoor unit outside for a clean, planned-looking result rather than retrofitted surface conduit. `single-account`, `unverified`. [source: [[_Sources/YT_N813aS8mI-Y_kruglov_top10_common_mistakes|YT_N813aS8mI-Y]]]
 
 ## Kitchen-Specific AC Placement (added 2026-08-19)
 
 > [!NOTE]
-> The first kitchen-specific AC placement rule recorded for this store — the three general rules above were given for bedroom/living-room/kids-room contexts. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_fSEPr5fpfPM_kitchen_stubouts_ac_fridge_niche_166|note]]]
+> The first kitchen-specific AC placement rule recorded for this store — the three general rules above were given for bedroom/living-room/kids-room contexts. [source: [[_Sources/YT_fSEPr5fpfPM_kitchen_stubouts_ac_fridge_niche_166|note]]]
 
 Zemsproekt / Zemstandart (Alexey Zemskov, with Sergey Saratov identified in the note) recommends **mounting over the entry doorway, never over a sofa (in a kitchen-living combo) and never over the cooking zone.** Reasoning by elimination across both alternatives: over a sofa in an open kitchen-living layout blows directly on whoever sits with their back to it while cooking; over the cooking zone conflicts with upper cabinets and blows on whoever sits on a nearby sofa. Over the doorway instead, the cold stream lands on open floor space, mixes with ambient warm air, and cools the room evenly with no one in the direct draft — independently the same doorway-placement outcome as the building-restriction fallback above, but reached here for a comfort reason specific to a kitchen's own layout, not an exterior-hardware restriction. **Coordinates**: centered on the vertical midpoint of the wall segment above the door (not flush to the ceiling — a named common installer mistake), centered horizontally on the doorway's own centerline (not the wall segment's centerline).
 
@@ -95,5 +95,5 @@ A Pinterest detail that fails for a specific and well-stated reason. "Ни од�
 - **⚠️ Secondary mechanism — condensation.** The temperature differential across the panel produces condensate on both the unit body and the panel itself, and **mould follows within roughly a year to eighteen months of use.** Her stated end state is that the owner removes the panel anyway to get the unit working at all.
 - She notes that even a furniture maker will decline to endorse it, and advises checking with both the joiner and the AC installer before committing to the detail in a drawing.
 
-`single-account`, `unverified`, but the sensor-location mechanism is a straightforwardly checkable physical claim. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]]
+`single-account`, `unverified`, but the sensor-location mechanism is a straightforwardly checkable physical claim. [source: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]]
 

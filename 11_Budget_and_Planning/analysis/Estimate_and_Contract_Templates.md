@@ -7,7 +7,7 @@ complete smeta should verify/itemize — see §4 of the Budgeting Guide) but
 no page holding actual template *structures/artifacts* a self-managed buyer
 could adapt. Six sources now support this page (crossing the standing 3+
 threshold): two pre-existing (`YT_cdNwbqsLUK4`, and the
-[[11_Budget_and_Planning/_supporting/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case]])
+[[11_Budget_and_Planning/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case]])
 plus four newly processed for this gap-fill batch (`YT_3qUMo5zsidU` and
 `YT_Qq3kwvFM47Y` were dispatched but had no captions available and
 contributed nothing; `YT_Y08zvnbxdM0` and `YT_txBBcq-D5mI` did clear the
@@ -37,7 +37,7 @@ specifics to be duplicates of each other:
   (worked example: baseboard demolition, laminate/parquet removal,
   wallpaper removal, window-reveal removal, ceiling-panel/baseboard
   removal), and checked items roll up automatically into a single running
-  grand total across every room. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Y08zvnbxdM0_anatolich_smeta_selfcalc_methodology|Y08zvnbxdM0]]]
+  grand total across every room. [source: [[_Sources/YT_Y08zvnbxdM0_anatolich_smeta_selfcalc_methodology|Y08zvnbxdM0]]]
 - **AzotRemont's live Google-Sheets template, built and used by an
   independent solo contractor** (not a company channel — the closest
   match in this batch to the actual gap): work-item name | unit of
@@ -60,7 +60,7 @@ specifics to be duplicates of each other:
   recipient's own Drive via Google's "make a copy" function. Once filled
   in, the sheet's contents are copied into a separate contract-appendix
   document ("Приложение №1"), print-preview-checked to catch page-edge
-  clipping, then printed and attached to the signed contract. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_txBBcq-D5mI_azotremont_phone_smeta_template|txBBcq-D5mI]]]
+  clipping, then printed and attached to the signed contract. [source: [[_Sources/YT_txBBcq-D5mI_azotremont_phone_smeta_template|txBBcq-D5mI]]]
 
 **Practical takeaway for this project's own self-managed plan**: both
 templates converge on the same core shape — dimension/quantity inputs →
@@ -79,8 +79,8 @@ putty/plaster sub-steps, verifying flooring pattern and plaster-grade
 specification before work starts, and a real 11-stage Moscow construction-
 only worked example with two arithmetic-recovered figures — already lives
 in [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4 and its
-underlying [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cdNwbqsLUK4_remonthochu_smeta_methodology|РемонтХочу extraction note]]
-and the [[11_Budget_and_Planning/_supporting/case_studies/remonthochu_11stage_moscow_smeta_case|11-Stage Smeta Case Study]] — not
+underlying [[_Sources/YT_cdNwbqsLUK4_remonthochu_smeta_methodology|РемонтХочу extraction note]]
+and the [[11_Budget_and_Planning/case_studies/remonthochu_11stage_moscow_smeta_case|11-Stage Smeta Case Study]] — not
 duplicated here. This page's own content is complementary: *how the
 spreadsheet itself is built and shared*, not *what to check for once it
 exists*.
@@ -132,7 +132,7 @@ exists*.
   costs roughly **1/10th** of a full design-service price — worth doing
   even without a full designer, since proper drawings materially ease
   contractor communication. `single-account`, `unverified` (relative
-  figure, no absolute price given). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_IcTP1tPP7Bk_kolchina_sinitsa_diy_design_no_designer|YT_IcTP1tPP7Bk]]]
+  figure, no absolute price given). [source: [[_Sources/YT_IcTP1tPP7Bk_kolchina_sinitsa_diy_design_no_designer|YT_IcTP1tPP7Bk]]]
 - **⚠️ Revision-payment policy (Marina Izmailova / ARCHWOOD, added
   2026-08-25)**: charge extra for design/layout revisions only when the
   *client* reverses an already-approved decision — never for the
@@ -146,7 +146,7 @@ exists*.
   actual quantity needed is meaningfully more than the area alone
   suggests; check against a real-scale layout plan, not just m².
   Complements the itemized-smeta template structures elsewhere on this
-  page. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LOw05Uk3rUk_archwood_6_stages_design_project|YT_LOw05Uk3rUk]]]
+  page. [source: [[_Sources/YT_LOw05Uk3rUk_archwood_6_stages_design_project|YT_LOw05Uk3rUk]]]
 - **⚠️ Staged-approval cost rationale, a fourth independent corroboration
   (Maxim Novikov, added 2026-08-28)**: gating each design-project stage
   on client sign-off before the next begins exists specifically because a
@@ -157,7 +157,7 @@ exists*.
   user instruction: this source is a designer selling his own
   design-project service around a "you can't do this yourself" framing —
   the staged-approval *mechanism* is extracted as reusable regardless of
-  who executes it, not the sales conclusion. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|YT_mvc_zbjfBWQ]]]
+  who executes it, not the sales conclusion. [source: [[_Sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|YT_mvc_zbjfBWQ]]]
 - **Material price-tier spread, worked tile example (2020, region
   unstated)**: tiling a 100 m² apartment's bathroom + WC + kitchen +
   entrance runs roughly **≈$1,300-$1,600 (100,000-120,000 RUB) for a
@@ -165,7 +165,7 @@ exists*.
   Italian premium tile** on the identical footprint — a concrete
   illustration of how wide the price range can be for the same visual
   result, useful context when sanity-checking a smeta's own tile line
-  item. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|YT_mvc_zbjfBWQ]]]
+  item. [source: [[_Sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|YT_mvc_zbjfBWQ]]]
 
 - **⚠️ Two named smeta/contract psychological traps, per Kruglov/Ontario
   (added 2026-08-28)**: (1) a fake "with-discount" price presented
@@ -182,7 +182,7 @@ exists*.
   never actually collected. **Mitigation**: re-sum a smeta's own line
   items before trusting a stated "with discount" total, and read a
   discount clause's payment-timing structure, not just its headline
-  percentage. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|YT_rzpkTJYsY0Q]]]
+  percentage. [source: [[_Sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|YT_rzpkTJYsY0Q]]]
 
 - **⚠️ Three further contract/vetting mechanisms, per Kruglov/Ontario
   (added 2026-08-28)**: (1) verify a contracting organization's legal
@@ -201,7 +201,7 @@ exists*.
   itself (worked example: a smeta specifies 60×60cm tile; switching to
   120×60cm tile gets billed against this separate appendix list, not
   the smeta's own more favorable rate) — read any contract appendix
-  price list as closely as the smeta itself. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lPmjWTwNVQA_kruglov_contractor_scams|YT_lPmjWTwNVQA]]]
+  price list as closely as the smeta itself. [source: [[_Sources/YT_lPmjWTwNVQA_kruglov_contractor_scams|YT_lPmjWTwNVQA]]]
 
 - **⚠️ Two named timeline-specific scam mechanisms, per Kruglov/Ontario
   (added 2026-08-28)**, distinct from this guide's existing
@@ -222,7 +222,7 @@ exists*.
   to generally side with the quoting company — a client isn't
   considered a qualified expert able to dispute the figure after the
   fact, and doing so is described as expensive and unlikely to
-  succeed. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|YT_9lFhda_KDHk]]]
+  succeed. [source: [[_Sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|YT_9lFhda_KDHk]]]
 
 ## Gaps
 
@@ -247,9 +247,9 @@ exists*.
 
 ## Source Notes
 
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Y08zvnbxdM0_anatolich_smeta_selfcalc_methodology|Anatolich Group — self-calculation smeta walkthrough]] (2020-06-20).
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_txBBcq-D5mI_azotremont_phone_smeta_template|AzotRemont — phone smeta template]] (2022-12-22).
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cdNwbqsLUK4_remonthochu_smeta_methodology|РемонтХочу — smeta-literacy methodology]] (2024-11-14).
-- [[11_Budget_and_Planning/_supporting/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case Study]].
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|Maxim Novikov — design-project structure and staged-approval cost rationale]] (2020-12-01).
-- [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|Konstantin Kruglov/Ontario — smeta wording-ambiguity traps and discount tricks]] (2025-06-27).
+- [[_Sources/YT_Y08zvnbxdM0_anatolich_smeta_selfcalc_methodology|Anatolich Group — self-calculation smeta walkthrough]] (2020-06-20).
+- [[_Sources/YT_txBBcq-D5mI_azotremont_phone_smeta_template|AzotRemont — phone smeta template]] (2022-12-22).
+- [[_Sources/YT_cdNwbqsLUK4_remonthochu_smeta_methodology|РемонтХочу — smeta-literacy methodology]] (2024-11-14).
+- [[11_Budget_and_Planning/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case Study]].
+- [[_Sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|Maxim Novikov — design-project structure and staged-approval cost rationale]] (2020-12-01).
+- [[_Sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|Konstantin Kruglov/Ontario — smeta wording-ambiguity traps and discount tricks]] (2025-06-27).

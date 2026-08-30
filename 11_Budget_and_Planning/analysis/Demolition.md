@@ -28,7 +28,7 @@ the cost/legal risks specific to this stage.
 - **Use a heavier rented jackhammer for full screed removal**, resting
   its weight on the screed itself, distinct from the lighter hand-held
   hammer preferred for vertical wall demolition.
-- **⚠️ Full removal of an existing built-in sanitary cabin (сантехкабина) on a secondary-market apartment, rather than reusing it (Round 14 triage, added 2026-08-28)**: Konstantin Kruglov / Ontario recommends demolishing the pre-existing wet-zone cabin entirely instead of working around it, for two stated reasons — (1) the cabin eats usable floor, ceiling, and wall space that a from-scratch block or partition build wouldn't; (2) the material is described as "resonant" (звонкий) with real elastic give, so **it should never be chased horizontally** (a horizontal groove cut for pipe/cable routing removes structural strength) and should not be overloaded with heavy tile without care. Recommended replacement: build a new wet-zone enclosure from blocks or another solid material from scratch. `single-account`, `unverified`, Moscow/Moscow region (channel general market). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mJ0uLdys5cE_kruglov_best_2025_solutions_budget|YT_mJ0uLdys5cE]]]
+- **⚠️ Full removal of an existing built-in sanitary cabin (сантехкабина) on a secondary-market apartment, rather than reusing it (Round 14 triage, added 2026-08-28)**: Konstantin Kruglov / Ontario recommends demolishing the pre-existing wet-zone cabin entirely instead of working around it, for two stated reasons — (1) the cabin eats usable floor, ceiling, and wall space that a from-scratch block or partition build wouldn't; (2) the material is described as "resonant" (звонкий) with real elastic give, so **it should never be chased horizontally** (a horizontal groove cut for pipe/cable routing removes structural strength) and should not be overloaded with heavy tile without care. Recommended replacement: build a new wet-zone enclosure from blocks or another solid material from scratch. `single-account`, `unverified`, Moscow/Moscow region (channel general market). [source: [[_Sources/YT_mJ0uLdys5cE_kruglov_best_2025_solutions_budget|YT_mJ0uLdys5cE]]]
 - **Grind monolithic concrete surfaces (walls, ceilings, ventilation
   ducts) to remove cement laitance and open surface pores before
   plastering or applying a concrete-contact primer** — a concrete-
@@ -55,7 +55,7 @@ the cost/legal risks specific to this stage.
   certainty, and dust can clog window/door hardware mechanisms to the
   point of being nearly impossible to clean out later. Porous window
   sills specifically get dust ground permanently into the surface if
-  left unprotected. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]]]
+  left unprotected. [source: [[_Sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]], [[_Sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]]]
 
   **The concrete step-by-step technique behind this rule (Петришин-Строй,
   added 2026-08-24, Round 7)**: ~1.5m economy-grade film, ~2cm unattached
@@ -75,12 +75,12 @@ the cost/legal risks specific to this stage.
   show up far more visibly than on a light frame. **Real time-tradeoff**:
   masking one window this way takes ~5 minutes; skipping it costs ~15-20
   minutes later removing paint splatter/dust residue — do this at the
-  *start* of the dusty work stage, not after. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QtQBGLzS698_petrishin_window_masking_technique|QtQBGLzS698]]]
+  *start* of the dusty work stage, not after. [source: [[_Sources/YT_QtQBGLzS698_petrishin_window_masking_technique|QtQBGLzS698]]]
 
 ## Screed-Height Mismatch After a Wall Removal, and Panel-House Screed Irregularity (RemProektMD, added 2026-08-24, Round 2)
 
 > [!NOTE]
-> Chișinău/Moldova channel, region level 2 only. Real jobsite (panel-house apartment, ~25 m²). Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_I-iSW-9NHAs_remproektmd_screed_dismantling_panel_house|I-iSW-9NHAs]]]
+> Chișinău/Moldova channel, region level 2 only. Real jobsite (panel-house apartment, ~25 m²). Low promotional ratio. [source: [[_Sources/YT_I-iSW-9NHAs_remproektmd_screed_dismantling_panel_house|I-iSW-9NHAs]]]
 
 **⚠️ Real case: 4cm screed-height mismatch discovered after removing a dividing wall, with the full decision tree for fixing it** — a laser level found the two now-merged rooms' screeds 4cm apart in height. A small transition ramp was rejected (parquet board joints could separate, or crack at the bend); self-leveling compound/tile adhesive only works up to ~1cm difference, not 4cm; pouring the whole apartment up to the higher level was rejected (loses ~5cm ceiling height, and the source dislikes "double screeds" since an old screed underneath can delaminate over time even under a sound new pour). **Chosen fix**: fully remove the higher room's screed down to the bare structural slab and pour a new screed there matching the *other* room's existing level.
 
@@ -97,7 +97,7 @@ the cost/legal risks specific to this stage.
 ## Case Study — Old Building, Police Visit, Structural Sway (Петришин-Строй, added 2026-08-24, Round 4)
 
 > [!NOTE]
-> Moscow, level 1 ("Олимпийский проспект" named directly). Client case-study/interview format, low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|qFM8NIDIRro]]]
+> Moscow, level 1 ("Олимпийский проспект" named directly). Client case-study/interview format, low promotional ratio. [source: [[_Sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|qFM8NIDIRro]]]
 
 - **⚠️ Real incident: neighbors called the police during demolition despite the crew observing standard quiet hours** (13:00-15:00) — police checked the crew's documents and allowed work to resume, but the disruption forced the company to **swap out the demolition crew mid-job** to finish the work. The foreman's own read: a "legal" quiet-hours window doesn't guarantee no complaint, since some neighbors work nights and sleep days.
 - **⚠️ Structural-sway stop condition**: an old, very solid slab/partition under a bathtub was left un-demolished, despite being technically removable, because the whole building was visibly swaying ("дом ходил ходуном") during demolition — a real example of reading a building's own movement as a live stop signal rather than a pre-planned scope decision.
@@ -106,7 +106,7 @@ the cost/legal risks specific to this stage.
 ## Second Mistakes Video, Cross-Checked Against Video 1 Above (Петришин-Строй, added 2026-08-24, Round 4)
 
 > [!NOTE]
-> Moscow, level 1 (personal story names "Марино" and "шоссе Энтузиастов" directly). Explicitly cross-checked against `AcNu6CHE7Y4`'s existing content on this page — several items are same-channel restatements, correctly not double-counted (see the source note's own corroboration list). Low promotional ratio. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z1IuJFudcPY_petrishin_top10_demolition_mistakes|Z1IuJFudcPY]]]
+> Moscow, level 1 (personal story names "Марино" and "шоссе Энтузиастов" directly). Explicitly cross-checked against `AcNu6CHE7Y4`'s existing content on this page — several items are same-channel restatements, correctly not double-counted (see the source note's own corroboration list). Low promotional ratio. [source: [[_Sources/YT_Z1IuJFudcPY_petrishin_top10_demolition_mistakes|Z1IuJFudcPY]]]
 
 - **⚠️ Teach-back verification method**: beyond a written scope document, have the foreman/master explain back in his own words how he understood it and how he'll execute each part — catches a misunderstanding before, not after, a wall is gone.
 - **Use delicate/gentle tape (not ordinary masking/painter's tape) for protective film over windows/doors** — avoids leaving adhesive residue marks.
@@ -151,7 +151,7 @@ the cost/legal risks specific to this stage.
   later hollow-sounding tile that installers often misdiagnose as "bad
   adhesive"** rather than this real root cause. See
   [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection &
-  Layout]] for the tile-side mechanism. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_RNiSYvLX6Vc_petrishin_construction_sink_howto|RNiSYvLX6Vc]]]
+  Layout]] for the tile-side mechanism. [source: [[_Sources/YT_RNiSYvLX6Vc_petrishin_construction_sink_howto|RNiSYvLX6Vc]]]
 - **Neighbor-relations practice, three tactics**: notify neighbors on
   both sides/above/below before demolition; ask households with small
   children about nap/sleep schedules; give the building concierge a
@@ -167,7 +167,7 @@ the cost/legal risks specific to this stage.
   hauling** — the most physically repetitive, lowest-skill part of
   demolition — though not fully reliable (a no-show requires the
   practitioner to cover the gap personally).
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
+  [source: [[_Sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]], [[_Sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
 
 ## Cost & Waste-Volume Planning
 
@@ -181,7 +181,7 @@ the cost/legal risks specific to this stage.
   underquotes total demolition cost specifically so as not to scare off
   a potential client — leaving the client to discover and pay a large
   additional sum later just to haul the debris away. [source:
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]]]
+  [[_Sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]]]
 - **A worked 5-reason framework for deciding to demolish bathroom/WC
   partition walls even when structurally sound**: room-footprint
   resizing, reclaiming ~4cm/side by rebuilding an oversized wall
@@ -198,7 +198,7 @@ the cost/legal risks specific to this stage.
   chases for new partition walls are easier to cut into an exposed slab
   than through an existing screed, plus full heating-system inspection/
   easier radiator replacement without a screed layer in the way.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
+  [source: [[_Sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
 
 ## Mistakes / Warnings — Structural, Utility, and Regulatory Risk
 
@@ -257,7 +257,7 @@ the cost/legal risks specific to this stage.
   genuine 40-50cm of slack may justify rebuilding a smaller shaft to
   reclaim floor area, but shafts are shared building property and
   resizing without formal permission is prohibited.
-  [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]]]
+  [sources: [[_Sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|AcNu6CHE7Y4]], [[_Sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]]]
 
 > [!NOTE]
 > **Regulatory-attribution caveat**: `AcNu6CHE7Y4`'s Мосжилинспекция
@@ -277,30 +277,30 @@ the cost/legal risks specific to this stage.
   volume/skip-cost planning, dishonest-contractor underquoting practice,
   hidden-utility damage risk, towel-rail flood risk (3-4/10 incidence),
   load-bearing-wall demolition + Мосжилинспекция approval process**
-  (Петришин-Строй, added 2026-08-24, Round 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|extraction note]] (2025-03-30).
+  (Петришин-Строй, added 2026-08-24, Round 3) — [[_Sources/YT_AcNu6CHE7Y4_petrishin_demolition_mistakes|extraction note]] (2025-03-30).
 - **"Как выглядит качественный демонтаж?" — written scope-of-work,
   furniture/window/door protection, temp lighting/sink, neighbor-
   relations practice, debris-disposal negotiation, panel-ceiling-joint
   treatment, named 7-apartment flooding incident, ventilation-shaft
   resize lifehack** (Петришин-Строй, added 2026-08-24, Round 2) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|extraction note]].
+  [[_Sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|extraction note]].
 - **"New Building A-to-Z" ep.3 — two-person demolition technique,
   concrete-grinding surface prep, screed-removal decision framework,
   debris logistics** (Pavel Sidorik, added 2026-08-24, Round 2) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|extraction note]].
+  [[_Sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|extraction note]].
 - **Case-study interview — police-visit-during-quiet-hours incident,
   structural-sway stop condition, no-container-allowed site logistics**
   (Петришин-Строй, added 2026-08-24, Round 4) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|extraction note]] (2025-02-16).
+  [[_Sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|extraction note]] (2025-02-16).
 - **"TOP 10 CRITICAL DEMOLITION MISTAKES!" — teach-back verification,
   glass-pitting mechanism, white-vs-green debris bags, temp-wiring
   hiring red flag, downstairs-neighbor photo-documentation, container-
   approval new-build-vs-secondary-market distinction, standout real
   flooding incident** (Петришин-Строй, second demolition-mistakes
   source from this channel, added 2026-08-24, Round 4) —
-  [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Z1IuJFudcPY_petrishin_top10_demolition_mistakes|extraction note]] (2025-09-07).
+  [[_Sources/YT_Z1IuJFudcPY_petrishin_top10_demolition_mistakes|extraction note]] (2025-09-07).
 
-- **"Особенности демонтажа стяжки в панельном доме" — 4cm screed-height mismatch decision tree, semi-dry screed low-shrinkage rationale, panel-house screed/substrate irregularity, jackhammer rental price ($12/day), laser-level datum technique, labor-reliability observation** (RemProektMD, added 2026-08-24, Round 2) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_I-iSW-9NHAs_remproektmd_screed_dismantling_panel_house|extraction note]].
+- **"Особенности демонтажа стяжки в панельном доме" — 4cm screed-height mismatch decision tree, semi-dry screed low-shrinkage rationale, panel-house screed/substrate irregularity, jackhammer rental price ($12/day), laser-level datum technique, labor-reliability observation** (RemProektMD, added 2026-08-24, Round 2) — [[_Sources/YT_I-iSW-9NHAs_remproektmd_screed_dismantling_panel_house|extraction note]].
 
 Full raw facts (including cross-references not repeated here) live in
-the `Demolition` sections of [[11_Budget_and_Planning/_supporting/knowledge/intermediate/store/_index|store/_index.md]].
+the `Demolition` sections of [[_Knowledge/store/_index|store/_index.md]].

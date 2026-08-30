@@ -21,7 +21,7 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
   renovation timeline (commissioning finishes around the same time as
   final furniture placement), unlike ordinary lighting which just works
   once wired.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
+[source: [[_Sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
 
 ## System Architecture and Control Methods
 
@@ -50,7 +50,7 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
   knowledge, not to the technology itself. (Tier-steering flag: this is
   also the source's own paid service — the protocol-compatibility
   reasoning behind it is genuine regardless.)
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
+[source: [[_Sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
 
 ## Device-Level Notes
 
@@ -77,7 +77,7 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
   real-world benefit. General framing: prioritize smart-home tools that
   actually solve a problem for your specific household, not devices
   adopted just because the category exists. Konstantin Kruglov /
-  Ontario, `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VVxzNTshJCM_kruglov_modern_must_have_solutions|YT_VVxzNTshJCM]]]
+  Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_VVxzNTshJCM_kruglov_modern_must_have_solutions|YT_VVxzNTshJCM]]]
 - **⚠️ Motorized curtains/blinds — a real physical threshold, not just a
   convenience upgrade**: above roughly **3-3.5m ceiling height**, manual
   pull-cords/rods stop being practical even with pull-rod attachments —
@@ -101,7 +101,7 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
   floor heating kept being left on by staff after hours — fixed with a
   temperature-threshold automation (auto-off at a set floor temperature,
   e.g. ~23°C) rather than relying on staff compliance.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
+[source: [[_Sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
 
 ## Safety-Critical Sensors — "Basic Safety, Not Optional"
 
@@ -114,14 +114,14 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
 - **Gas sensors + automatic shutoff**: standard recommendation
   specifically for elderly-occupant households (forgotten unlit gas
   burners named as the risk case).
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
+[source: [[_Sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
 
 ## Wired vs. Wireless — a Full Architecture Comparison (Kruglov/Ontario, Round 15, added 2026-08-28)
 
 This channel's first dedicated smart-home explainer — a structured,
 ~18-minute comparison substantially deeper than this page's existing
 Kodolov content on the specific wired-vs-wireless question. `single-
-account`, `unverified`, upload 2025-10-17. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_cHdQtVoFeuo_kruglov_smart_home_wired_vs_wireless|YT_cHdQtVoFeuo]]]
+account`, `unverified`, upload 2025-10-17. [source: [[_Sources/YT_cHdQtVoFeuo_kruglov_smart_home_wired_vs_wireless|YT_cHdQtVoFeuo]]]
 
 **Decision triggers — when only one option is actually viable**:
 
@@ -214,7 +214,7 @@ wireless installation as a service at all**.
 
 A device/scenario-level companion to the wired-vs-wireless comparison
 above, from the same round: `single-account`, `unverified`, upload
-2025-07-04. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Y3Xpww54LpU_kruglov_smart_home_2026_starter_kit|YT_Y3Xpww54LpU]]]
+2025-07-04. [source: [[_Sources/YT_Y3Xpww54LpU_kruglov_smart_home_2026_starter_kit|YT_Y3Xpww54LpU]]]
 
 **Named hub hardware and compatible brands**: Яндекс Станция 2, Max, and
 Lite (with a Zigbee module) as hub-capable speakers; confirmed
@@ -288,7 +288,7 @@ view-only (no cross-app automation triggers yet).
 
 **⚠️ Yandex Alice ecosystem scale**: as of this source's 2025-02-28 upload, the Yandex Smart Home app lists **260 registered device-manufacturer companies** compatible with Alice — offered as evidence of the ecosystem's practical maturity for a first-time adopter, complementing this round's own Yandex-ecosystem starter-kit content above.
 
-**Water-vapor "fireplace" humidifier — a new device category for this store**: a decorative unit producing a realistic flame-like visual effect using only water (no real combustion, distinct from a bio-fuel fireplace), can be built into furniture, and can integrate into a smart-home system — offered as a humidifier alternative with a stronger aesthetic payoff than a plain humidifier appliance. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
+**Water-vapor "fireplace" humidifier — a new device category for this store**: a decorative unit producing a realistic flame-like visual effect using only water (no real combustion, distinct from a bio-fuel fireplace), can be built into furniture, and can integrate into a smart-home system — offered as a humidifier alternative with a stronger aesthetic payoff than a plain humidifier appliance. `single-account`, `unverified`. [source: [[_Sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
 
 ## Apartment-Interior Motion Sensors — a Reliability Caution (Kruglov/Ontario, Round 15, added 2026-08-28)
 
@@ -298,7 +298,7 @@ configured, "you'll never trust that the light will turn on when you
 actually need it." He concedes motion sensors genuinely help for
 street/entryway/stairwell lighting (exterior/common-area use), but
 recommends standard or two-way/crossover switches for interior apartment
-rooms instead. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
+rooms instead. `single-account`, `unverified`. [source: [[_Sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
 
 ## House/Villa-Specific Additions (⚠️ Not This Project's Apartment Scope)
 
@@ -318,4 +318,4 @@ recorded as general reference only:
   residential fire (~400m² roof) was attributed to an improperly
   self-installed roof heating system — used as the reasoning for
   "trust professionals for this specific system."
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
+[source: [[_Sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]

@@ -13,11 +13,11 @@ Covers code-level waterproofing requirements, the gypsum-vs-cement plaster trade
 - Zemstandart/Alexey Zemskov recommends: **Brush-on/paint-applied waterproofing should always be bright blue, never gray** — gray waterproofing is visually indistinguishable from the surrounding gray plaster, making coverage gaps invisible to a non-expert inspecting the work. Bright blue makes any missed patch obvious even without training. [source: `_Archive/processed_sources/20260804_split_rough_finish_contracting_and_rough_stage_checklist_9a4efa5e.txt`]
 
 > [!NOTE]
-> **Independent corroboration, with an added coat-count (Round 1, ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)**: Vladimir Amelchenko independently corroborates the gypsum-plaster-needs-waterproofing rule above, and adds a specific number: **two coats of acrylic waterproofing** over gypsum plaster before tiling. Skipping it lets the tile adhesive react directly with the gypsum plaster, degrading the bond ("turns to mush") until the tile eventually detaches — the mechanism behind the requirement, not just the rule itself. He recommends applying it over cement plaster too as a low-cost extra safeguard even though not strictly required there. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Zd6yryCjyhM_sbk_10_bathroom_mistakes|YT_Zd6yryCjyhM]]]
+> **Independent corroboration, with an added coat-count (Round 1, ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)**: Vladimir Amelchenko independently corroborates the gypsum-plaster-needs-waterproofing rule above, and adds a specific number: **two coats of acrylic waterproofing** over gypsum plaster before tiling. Skipping it lets the tile adhesive react directly with the gypsum plaster, degrading the bond ("turns to mush") until the tile eventually detaches — the mechanism behind the requirement, not just the rule itself. He recommends applying it over cement plaster too as a low-cost extra safeguard even though not strictly required there. [source: [[_Sources/YT_Zd6yryCjyhM_sbk_10_bathroom_mistakes|YT_Zd6yryCjyhM]]]
 
 ## Plaster Acceptance Technique — Raking-Light Inspection, Real Case (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)
 
-Vladimir Amelchenko's real, on-camera technical-supervision visit to a subscriber's apartment whose own self-acceptance had skipped these checks — all failed once actually tested. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AnBRspXdtZc_sbk_loseva_lamp_plaster_inspection|YT_AnBRspXdtZc]]]
+Vladimir Amelchenko's real, on-camera technical-supervision visit to a subscriber's apartment whose own self-acceptance had skipped these checks — all failed once actually tested. [source: [[_Sources/YT_AnBRspXdtZc_sbk_loseva_lamp_plaster_inspection|YT_AnBRspXdtZc]]]
 
 - **2-meter straightedge, 2mm gap tolerance**: the actual code-referenced test — any gap over 2mm along a 2m straightedge is out of tolerance. Apply horizontal/vertical/diagonal roughly every meter (beacon spacing), *plus* a dedicated pass along baseboard zones and door/window opening returns, where sag/bow concentrates and is most visible once trim goes in.
 - **90° corner check with a right-angle tool, multiple points per corner** — a separate test from flatness, required wherever built-in furniture or fixtures will land (wardrobe corners, cabinet returns, bathtub/washing-machine corners). A factory-square unit pressed into an out-of-square corner leaves a visible gap or simply won't fit a non-custom item.
@@ -28,7 +28,7 @@ Vladimir Amelchenko's real, on-camera technical-supervision visit to a subscribe
 
 ## Machine vs. Hand Plastering — Where the Machine Actually Helps (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 2)
 
-Direct rebuttal of a common belief that machine-applied plaster is inherently higher-quality. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lWp9b4K6uY_sbk_machine_vs_hand_plaster|YT__lWp9b4K6uY]]]
+Direct rebuttal of a common belief that machine-applied plaster is inherently higher-quality. [source: [[_Sources/YT_lWp9b4K6uY_sbk_machine_vs_hand_plaster|YT__lWp9b4K6uY]]]
 
 - **Quality depends entirely on installer skill regardless of machine use** — a machine only affects speed/volume.
 - **Five-stage process, only one stage machine-assisted**: (1) beacon-setting (entirely manual, laid out with a green 360° self-leveling laser plus a red single-line plumb laser); (2) spraying/throwing plaster onto the wall (the *only* machine-assisted stage); (3) leveling against beacons with a straightedge (manual); (4) trimming excess after a specific partial-cure timing window (manual, timing-dependent); (5) final glazing/troweling (manual).
@@ -74,7 +74,7 @@ application doesn't):
   equipment mounts — too many closely-clustered support posts can make
   it physically impossible to properly wrap waterproofing around each
   one.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_AB76kZYvoaI_kodolov_flat_roof_leak_repair|AB76kZYvoaI_kodolov_flat_roof_leak_repair]]]
+[source: [[_Sources/YT_AB76kZYvoaI_kodolov_flat_roof_leak_repair|AB76kZYvoaI_kodolov_flat_roof_leak_repair]]]
 
 ## Threshold Height, Cross-Room Floor-Level Coordination, and Waterproofing Product Taxonomy (Профком Саратов, added 2026-08-25)
 
@@ -89,9 +89,9 @@ application doesn't):
 - **Mastic elongation is thickness-dependent, not a fixed percentage independent of thickness** — a quoted "270% elongation" spec means a given coat thickness can stretch to ~2.7x its own length before tearing, so a thin coat has far less *absolute* stretch capacity at a stress point (corner, joint) than a thick coat despite the same percentage spec — a mechanism explanation for why corners specifically need adequate applied thickness.
 - **⚠️ Direct source disagreement on two-tone product color's purpose**: this source states the color change (e.g. pink-then-gray) in its own product line is purely cosmetic/branding, not a designed coverage-QC feature — contradicting the two other sources already on this page (Sidorik/Weber Tech 822; Сергей ByPas/Ceresit CL 51) that frame the same visual mechanism as deliberate self-verifying QC. All three agree the visual effect (a missed second coat stays visibly the first color) is real; they disagree on whether it was designed for that purpose.
 - **Coverage/thickness numeric targets** (this source's own product): 0.7-1mm finished thickness across two coats, ~1200-1500g/m² coverage (an 8kg bucket covers ~6-6.5m²); roller-nap visual thickness check — ~4-5mm gaps between roller-texture ridges indicates correct thickness, ~1mm gaps indicates under-application.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_lNh8L6NMhnI_saratov_waterproofing_types_and_threshold|lNh8L6NMhnI]]]
+[source: [[_Sources/YT_lNh8L6NMhnI_saratov_waterproofing_types_and_threshold|lNh8L6NMhnI]]]
 
-**Minor addition (Александр Чикинов, added 2026-08-25, `corroborates_existing`)**: independently corroborates the gypsum-substrate exclusion for cement-based waterproofing (a second source, distinct from Sidorik's Ceresit CR65 finding). Adds one new pricing data point and a second non-splash-zone wall fold-up height figure: **standard 3m² bathroom waterproofing ≈10,000 RUB total (≈$140, trailing-6-month USD/RUB average to 2020-10-28) split roughly 50/50 materials/labor** (Labor-Only delivery model); non-splash-zone wall fold-up height **15cm** (vs. Sidorik's existing ~10cm figure — a second, differing practitioner number for the same decision, not a correction). No cross-room coordination content — single-bathroom technique only, heavily overlapping already-covered material. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_faCzY5kVkss_chikinov_waterproofing_types_and_pricing|faCzY5kVkss]]]
+**Minor addition (Александр Чикинов, added 2026-08-25, `corroborates_existing`)**: independently corroborates the gypsum-substrate exclusion for cement-based waterproofing (a second source, distinct from Sidorik's Ceresit CR65 finding). Adds one new pricing data point and a second non-splash-zone wall fold-up height figure: **standard 3m² bathroom waterproofing ≈10,000 RUB total (≈$140, trailing-6-month USD/RUB average to 2020-10-28) split roughly 50/50 materials/labor** (Labor-Only delivery model); non-splash-zone wall fold-up height **15cm** (vs. Sidorik's existing ~10cm figure — a second, differing practitioner number for the same decision, not a correction). No cross-room coordination content — single-bathroom technique only, heavily overlapping already-covered material. [source: [[_Sources/YT_faCzY5kVkss_chikinov_waterproofing_types_and_pricing|faCzY5kVkss]]]
 
 ## Floor Waterproofing Membrane Installation & QC
 
@@ -157,7 +157,7 @@ filling a gap in this page's otherwise roll/membrane-heavy coverage:
   so the applied coverage is visually distinguishable from the grey
   substrate, making gaps easy to spot.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_C0FOWRxqWX4_sidorik_bathroom_waterproofing_technique|YT_C0FOWRxqWX4]]]
+[source: [[_Sources/YT_C0FOWRxqWX4_sidorik_bathroom_waterproofing_technique|YT_C0FOWRxqWX4]]]
 
 ### Two Independent Additions Using the Same Ceresit CL 51 Product (Сергей ByPas, added 2026-08-25)
 
@@ -166,7 +166,7 @@ filling a gap in this page's otherwise roll/membrane-heavy coverage:
 - **⚠️ Bathtub-perimeter gap-tape technique**: tape the tub's own perimeter leaving a deliberate ~5mm gap before waterproofing across it, relying on the mastic's own elasticity to flex across that gap without cracking if the tub shifts slightly over time — a deliberate margin rather than waterproofing tight to the tub edge with no give.
 - **⚠️ Spray-applied automotive mastic for unreachable pipe-penetration clusters**: where multiple penetrations (grounding conductor, sewage stack, hot-water riser) cluster too closely for a brush to reach every pocket, switch to an automotive-type spray mastic aerosol, applied under pressure from multiple angles in several passes (20-30 min dry time between coats) until full coverage is visually confirmed — explicitly framed as necessary for the waterproofing to actually function, not just look complete for a client handoff.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_UnzHKHcizto_bypas_bathroom_waterproofing|UnzHKHcizto]]]
+[source: [[_Sources/YT_UnzHKHcizto_bypas_bathroom_waterproofing|UnzHKHcizto]]]
 
 ### Two-Tone Product QC Technique and Cost-Tiered Zone Scope (Pavel Sidorik, 2017 video, added 2026-08-25)
 
@@ -177,7 +177,7 @@ Pavel Sidorik (same practitioner as the source above, an earlier 2017 video, reg
 - **Deliberate thin-layer control for tile compatibility**: combined two-coat thickness kept to **0.8mm** specifically so the resulting ridge at corners doesn't complicate later tile leveling.
 - A real replanning ("перепланировка") case notes an inspecting engineer must approve the waterproofing work before updated official documentation can be issued — bare procedural detail, region/code unconfirmed, routed to the general store rather than the Belarus-specific Regulations folder.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Kg9ee0cotfM_sidorik_early_bathroom_waterproofing|Kg9ee0cotfM]]]
+[source: [[_Sources/YT_Kg9ee0cotfM_sidorik_early_bathroom_waterproofing|Kg9ee0cotfM]]]
 
 ## Plaster Substrate Prep, Crack Prevention, and Mesh Reinforcement (added 2026-08-24, Round 3, ep.11)
 
@@ -242,7 +242,7 @@ pricing stated:
   **quartz sand, not the acrylic binder, is what actually anchors the
   subsequent gypsum plaster** (the acrylic is only a binder for the primer
   layer itself, not the bonding mechanism to the next coat). Dry time ~3hr.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_K-OopxgJ8wY_sidorik_crack_prevention_ep11|YT_K-OopxgJ8wY]]]
+  [source: [[_Sources/YT_K-OopxgJ8wY_sidorik_crack_prevention_ep11|YT_K-OopxgJ8wY]]]
 
 ## Beacon (Lighthouse) Installation via Laser Level, and 90° Corner Technique (added 2026-08-24, Round 3, ep.12)
 
@@ -286,7 +286,7 @@ this episode to extract):
   new plaster ties in flush rather than stepping.
 - Re-patch beacons after final trim, ideally once the setting plaster has
   fully hardened, to prevent sagging under later straightedge pressure.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_bF1I2olZSc0_sidorik_beacons_ep12|YT_bF1I2olZSc0]]]
+  [source: [[_Sources/YT_bF1I2olZSc0_sidorik_beacons_ep12|YT_bF1I2olZSc0]]]
 
 ## Ten Plastering-Workflow Tricks: Chases, Mixing, Trim Timing, Corners (added 2026-08-24, Round 3, ep.13)
 
@@ -351,7 +351,7 @@ beacon cost, priced separately in ep.12's estimate):
   (120-grit, ~10 min/wall) for what he subjectively judges a flatter
   result, while explicitly noting many practitioners float successfully
   and get good results the traditional way.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Q70kwfR0LGs_sidorik_plaster_tricks_ep13|YT_Q70kwfR0LGs]]]
+  [source: [[_Sources/YT_Q70kwfR0LGs_sidorik_plaster_tricks_ep13|YT_Q70kwfR0LGs]]]
 
 ## Thick-Layer Ceiling Plaster Without Full Metal Mesh (added 2026-08-24, Round 3, ep.14)
 
@@ -405,7 +405,7 @@ ceilings; stilts priced in BYN):
   numeric details are the only genuinely new items from this short
   segment. Confirmed same practitioner (Sergey Petrishin named directly
   on air) and Russian audio; region unresolved (no location named).
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0hjkfIfzkUw_petrishin_ntv_diy_ceiling|0hjkfIfzkUw]]]
+  [source: [[_Sources/YT_0hjkfIfzkUw_petrishin_ntv_diy_ceiling|0hjkfIfzkUw]]]
 - **Ceiling vs. wall plastering technique differences**: a bonding coat is
   essential (not optional) before throwing plaster overhead; the upward
   throwing motion is the physically hardest part for someone unaccustomed
@@ -416,7 +416,7 @@ ceilings; stilts priced in BYN):
   used identically) — a real substitution data point, not a quality
   complaint. Stilts purchase (named: Stiles.by) **320 BYN (≈$120,
   trailing-6-month average to 2021-03-06)**.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_M3HFaYaRC6M_sidorik_ceiling_plaster_ep14|YT_M3HFaYaRC6M]]]
+  [source: [[_Sources/YT_M3HFaYaRC6M_sidorik_ceiling_plaster_ep14|YT_M3HFaYaRC6M]]]
 
 ## Bathroom Plastering: Substrate-Prep Methods for Wet Rooms (added 2026-08-24, Round 3, ep.15)
 
@@ -436,7 +436,7 @@ Bathroom finish work (tile + labor) is typically the single most expensive finis
 - **Deliberate wet-room chase-fill choice**: fills every beacon-channel chase flush in the bathroom specifically (rather than leaving it, an option a non-wet-room wall might tolerate) because the later waterproofing membrane needs a continuous flat substrate to bond to correctly.
 
 No pricing figures spoken in this episode. Region: unresolved for this episode's own project-location claim (the hopper-gun brand's Gomel/Belarus manufacturing origin is a product fact, not a project-location statement) — does not independently clear this store's level-1 bar, distinct from several other episodes in this same round.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_16k0TS363rM_sidorik_bathroom_plaster_ep15|YT_16k0TS363rM]]]
+[source: [[_Sources/YT_16k0TS363rM_sidorik_bathroom_plaster_ep15|YT_16k0TS363rM]]]
 
 ## Substrate-Prep, Betonokontakt Troubleshooting, and QC Tolerances (added 2026-08-24, Petrishin-Stroi trial)
 
@@ -504,7 +504,7 @@ Moscow association only; not stated directly in this video):
   plastering-stage total. No floor area given, so no $/m² is
   derivable. **Turnkey/Full-Service delivery model** (company's own
   bundled client job).
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_D1REgSDwILU_petrishin_plastering_basics|YT_D1REgSDwILU]]]
+  [source: [[_Sources/YT_D1REgSDwILU_petrishin_plastering_basics|YT_D1REgSDwILU]]]
 
 ## Beacon Rust-Bleed Mechanism, Corner Scoping, and Two New QC Field Tests (Петришин-Строй, added 2026-08-24, Round 2)
 
@@ -540,7 +540,7 @@ Region level 2 (channel-only Moscow association, no city named).
   practice**: whenever plaster thickness exceeds 3cm, the foreman
   photographs it, so the client can see exactly how much extra material/
   labor a thicker-than-normal layer required.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_r1eyXzXNdI0_petrishin_plastering_quality_checklist|r1eyXzXNdI0]]]
+[source: [[_Sources/YT_r1eyXzXNdI0_petrishin_plastering_quality_checklist|r1eyXzXNdI0]]]
 
 ## Minimum Temperature, Vapor-Barrier Junctions, Ventilation, and Forced-Drying Failure (Петришин-Строй, added 2026-08-24, Round 5)
 
@@ -582,7 +582,7 @@ restatement and not re-counted. Region level 2.
   kitchens specifically (fixture/countertop/cabinet fit), ideally
   throughout the apartment — otherwise flooring gets an ugly tapered
   wedge line and cabinetmakers must custom-trim furniture to a crooked
-  wall. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_mb-2ll0UtTo_petrishin_plastering_mistakes|mb-2ll0UtTo]]]
+  wall. [source: [[_Sources/YT_mb-2ll0UtTo_petrishin_plastering_mistakes|mb-2ll0UtTo]]]
 
 ## Proactive Wall-Geometry Pre-Check at the Wall-Building Stage (Петришин-Строй, added 2026-08-24, Round 5)
 
@@ -593,7 +593,7 @@ deliberately adjust the first course of new wall material to compensate
 for known deviation — reduces how much plaster thickness (and therefore
 cost and dry time) will be needed later, versus building walls with no
 reference to existing geometry and letting plastering absorb the full
-correction. `single-account`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_8QBqwydVND8_petrishin_2026_all_stages|YT_8QBqwydVND8]]]
+correction. `single-account`. [source: [[_Sources/YT_8QBqwydVND8_petrishin_2026_all_stages|YT_8QBqwydVND8]]]
 
 ## Rough-Stage Acceptance Checklist Items
 
@@ -684,7 +684,7 @@ speaker's own project location). `single-account`.
   manufacturer can perform equivalently for a given job.
 - **No single truly universal primer exists**, but deep-penetration
   primer is the closest, covering the widest range of tasks.
-- [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_G03YKmotYP4_sidorik_top10_primer_questions|YT_G03YKmotYP4]]]
+- [source: [[_Sources/YT_G03YKmotYP4_sidorik_top10_primer_questions|YT_G03YKmotYP4]]]
 
 ## String-Beacon ("Струнные маяки") Installation Method — a Distinct Alternative to Rigid Strip Beacons (Петришин-Строй, added 2026-08-24, Round 11)
 
@@ -750,7 +750,7 @@ level 2. Low promotional ratio.
 - **Speed claim**: setting up both string lines shown in this demo took
   about 15 minutes; laying out this method for a full room was separately
   estimated at roughly 3 hours.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_xoLGoOIRMlc_petrishin_string_beacons|YT_xoLGoOIRMlc]]]
+[source: [[_Sources/YT_xoLGoOIRMlc_petrishin_string_beacons|YT_xoLGoOIRMlc]]]
 
 ## Conditional-Value "Quick Flatten" Trowel Technique, and a Post-Plastering Drying Bottleneck (Петришин-Строй, added 2026-08-24, Round 11)
 
@@ -776,7 +776,7 @@ ASR-degraded transcript — extracted conservatively.
   equipment to shrink it further still — a concrete cost-driver/
   scheduling insight distinct from this page's existing technique
   content.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_VqrXg-tDRO8_petrishin_plastering_electrical_secrets|YT_VqrXg-tDRO8]]]
+[source: [[_Sources/YT_VqrXg-tDRO8_petrishin_plastering_electrical_secrets|YT_VqrXg-tDRO8]]]
 
 ## Curved/Radius-Wall Beacon Fabrication Technique (Петришин-Строй, added 2026-08-24, Round 11)
 
@@ -811,5 +811,5 @@ promotional ratio.
 - **⚠️ Two-layer membrane + plywood-formwork sequence**: (1) first soundproofing/waterproofing membrane (branded "Шуманет 100" here) laid and run up the walls; (2) partition-wall stud framing installed on top, necessarily puncturing layer 1 at each fastener; (3) plywood sheathing on the framing, set taller than the planned screed height and fastened only at the top edge (so it can later be unscrewed); (4) a **second** membrane layer laid over the completed framing and run up onto the plywood facing and perimeter walls — sealing a fully intact "tub" since layer 2 goes on only after all stud-puncturing already happened in layer 1. The plywood strips double as the screed's required perimeter expansion-joint damper; removed after cure, leaving a clean air gap between framing and cured screed edge.
 - **Stated stakes framing**: failure of this seal on a high floor in an elite building is framed as risking tens to hundreds of millions of rubles in cumulative downstream flood liability (illustrative order-of-magnitude claim, not a quoted price).
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pwI058vcXP8_sbk_seamless_flooring_screed_prep|YT_pwI058vcXP8]]]
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+[source: [[_Sources/YT_pwI058vcXP8_sbk_seamless_flooring_screed_prep|YT_pwI058vcXP8]]]
+[source: [[_Sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]

@@ -57,7 +57,7 @@ plastering was "very dirty work — more cleanup than actual work," roughly
 2 working days total for one wall. A genuinely low-skill-friendly
 technique precisely because unevenness is the goal rather than a flaw —
 worth flagging for a first-time DIYer wary of hand-plastering skill.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_rmYOxoub5y0_sasha_life_vlog_brick_wall_gypsum_ep1|YT_rmYOxoub5y0]]]
+[source: [[_Sources/YT_rmYOxoub5y0_sasha_life_vlog_brick_wall_gypsum_ep1|YT_rmYOxoub5y0]]]
 
 **Sequencing/tooling refinements from a later wall section** (episode 9):
 confirms and extends the "prime over the drawn grid" step (draw first,
@@ -77,7 +77,7 @@ output on a typical day was only ~1 hour once household duties
 (cleaning, laundry, childcare) are accounted for — a realistic time-budget
 baseline for a self-managed project fit around normal life, not a
 dedicated full-time renovation.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_uzUqoUG0-Xs_sasha_life_vlog_faux_brick_wall_prep_ep9|YT_uzUqoUG0-Xs]]]
+[source: [[_Sources/YT_uzUqoUG0-Xs_sasha_life_vlog_faux_brick_wall_prep_ep9|YT_uzUqoUG0-Xs]]]
 
 **Painting/finishing the brick texture** (a later episode): a thicker,
 more expensive paint covered surface imperfections meaningfully better
@@ -92,7 +92,7 @@ losing track of which brick has already been painted is easy if
 distracted mid-wall, since the technique requires brick-by-brick painting
 rather than broad strokes. A smaller roller than the one already owned
 was deliberately bought, since it's easier to control brick-by-brick.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dvlxMc4X9_0_sasha_life_vlog_faux_brick_paint_technique|YT_dvlxMc4X9_0]]]
+[source: [[_Sources/YT_dvlxMc4X9_0_sasha_life_vlog_faux_brick_paint_technique|YT_dvlxMc4X9_0]]]
 
 ## Door-Jamb (Откос) Plastering, Including a Real Technique Failure
 
@@ -115,7 +115,7 @@ substrate's required precision to the finish that will actually sit on
 top of it, rather than defaulting to "as even as possible" everywhere.
 Real time cost: ~2 hours on one corner, "a whole day" for the jamb
 overall, for a first-time solo DIYer.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_LPcgC50HCMY_sasha_life_vlog_door_jamb_plaster_ep3|YT_LPcgC50HCMY]]]
+[source: [[_Sources/YT_LPcgC50HCMY_sasha_life_vlog_door_jamb_plaster_ep3|YT_LPcgC50HCMY]]]
 
 ## Full Hallway Plaster/Paint Sequence (Испанский ремонт / "Spanish Renovation," Alicante, Spain)
 
@@ -164,8 +164,8 @@ Sasha_Life_Vlog project above:
   Relevant context for anyone renovating in Spain expecting Russian/CIS-
   market plastering tools and technique to be locally available by
   default.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_dsBkqzhX08I_ispanskiy_remont_hallway_full_reno|YT_dsBkqzhX08I]]]
+[source: [[_Sources/YT_dsBkqzhX08I_ispanskiy_remont_hallway_full_reno|YT_dsBkqzhX08I]]]
 
 ## Gypsum Wall-Panel Casting — Pre-Filled Cavities at Fixture Locations (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
-**⚠️ A cast gypsum wall panel (poured/molded in place, then finish-painted) should have its cavities pre-filled solid at every point where a fixture will later be surface-mounted** — specifically the intercom/entry-phone handset location and any switch/outlet faceplate zone. On a real installed example, these specific spots were cast as solid fill rather than left with the panel's normal internal void structure, so the final surface reads as one continuous, uninterrupted plane once the handset and faceplates are screwed on — avoiding a visible seam, hollow-sounding spot, or fastening weakness at those points. A planning step to specify *before* the panel is cast, not something correctable afterward. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+**⚠️ A cast gypsum wall panel (poured/molded in place, then finish-painted) should have its cavities pre-filled solid at every point where a fixture will later be surface-mounted** — specifically the intercom/entry-phone handset location and any switch/outlet faceplate zone. On a real installed example, these specific spots were cast as solid fill rather than left with the panel's normal internal void structure, so the final surface reads as one continuous, uninterrupted plane once the handset and faceplates are screwed on — avoiding a visible seam, hollow-sounding spot, or fastening weakness at those points. A planning step to specify *before* the panel is cast, not something correctable afterward. `single-account`, `unverified`. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]

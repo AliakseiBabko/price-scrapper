@@ -103,7 +103,7 @@ plan space for a future dividing wall from the start even while keeping
 the space open initially, so a later conversion to an enclosed dining
 room doesn't require a full replan.
 
-[sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT__IpgWsKodXg_zlobin_dining_theory_pt1|_IpgWsKodXg]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-ROgAlWhXlc_zlobin_dining_practice_pt2|-ROgAlWhXlc]]]
+[sources: [[_Sources/YT__IpgWsKodXg_zlobin_dining_theory_pt1|_IpgWsKodXg]], [[_Sources/YT_-ROgAlWhXlc_zlobin_dining_practice_pt2|-ROgAlWhXlc]]]
 
 ## Change Log
 

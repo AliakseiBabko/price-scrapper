@@ -6,11 +6,11 @@ Covers minimum functional width, opening-relocation technique, manufacturer pric
 
 Zemstandart/Alexey Zemskov says: **Minimum functional clear/light opening width: ~74 cm (740 mm)** — the practical floor below which passing through with furniture (e.g. a non-collapsible armchair) becomes impractical. This floor should take priority over cosmetic rules (e.g. casing standoff — see [[13_Surfaces_and_Finishes/analysis/Rough_Opening_and_Casing_Sizing|Rough-Opening & Casing Sizing]]) when a hard site constraint (a neighboring wall, embedded electrical conduit) forces a choice.
 
-Zemstandart/Alexey Zemskov says: **A practical maximum leaf width exists too, not just the minimum above: roughly 90cm.** Past about 1 meter, an entrance door leaf becomes genuinely heavy and a real injury risk, without meaningfully improving function beyond that point. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HLiLNZpVWpg_max_disaster_258|YT_HLiLNZpVWpg]]]
+Zemstandart/Alexey Zemskov says: **A practical maximum leaf width exists too, not just the minimum above: roughly 90cm.** Past about 1 meter, an entrance door leaf becomes genuinely heavy and a real injury risk, without meaningfully improving function beyond that point. `single-account`, `unverified`. [source: [[_Sources/YT_HLiLNZpVWpg_max_disaster_258|YT_HLiLNZpVWpg]]]
 
-Zemstandart/Alexey Zemskov warns: **A building/HOA can prohibit residents from changing developer-installed entrance-door swing direction at all — verify this constraint before assuming a swing-direction fix is available**, not just a technique choice. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_6syO3dTButw_designer_disaster_66m2_259|YT_6syO3dTButw]]]
+Zemstandart/Alexey Zemskov warns: **A building/HOA can prohibit residents from changing developer-installed entrance-door swing direction at all — verify this constraint before assuming a swing-direction fix is available**, not just a technique choice. `single-account`, `unverified`. [source: [[_Sources/YT_6syO3dTButw_designer_disaster_66m2_259|YT_6syO3dTButw]]]
 
-Konstantin Kruglov / Ontario (Round 13 triage, added 2026-08-28): **avoid wallpaper or a thin coat of paint on the entry door's own reveal** — this is a high-mechanical-wear zone (large items routinely carried in/out) that will get scuffed, scratched, or chipped. **Prefer a genuinely anti-vandal finish**: decorative plaster, a rigid panel, or an interior-door jamb-extension ("добор") trim piece repurposed for this location. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0TLDGD8MY1A_kruglov_top_renovation_mistakes_2026|YT_0TLDGD8MY1A]]]
+Konstantin Kruglov / Ontario (Round 13 triage, added 2026-08-28): **avoid wallpaper or a thin coat of paint on the entry door's own reveal** — this is a high-mechanical-wear zone (large items routinely carried in/out) that will get scuffed, scratched, or chipped. **Prefer a genuinely anti-vandal finish**: decorative plaster, a rigid panel, or an interior-door jamb-extension ("добор") trim piece repurposed for this location. `single-account`, `unverified`. [source: [[_Sources/YT_0TLDGD8MY1A_kruglov_top_renovation_mistakes_2026|YT_0TLDGD8MY1A]]]
 
 Zemstandart/Alexey Zemskov says: **Relocating a developer-installed entrance door opening in a light partition wall is generally low-complexity**: cut/rebuild the wall section, weld a steel angle-iron frame (~8 mm stock) around the new opening for reinforcement, backfill with cement-sand mortar, weld the door frame to the angle-iron, plaster to conceal it, and finish reveals with standard interior-door jamb-extension panels to match. One documented real project shifted an opening ~30 cm this way; the only cited downside was needing anti-vandal stairwell-plaster repair, and no cost figures were given. `single-account`, real project in a light aerated-concrete partition — **may not generalize to load-bearing walls or larger shifts.**
 
@@ -71,7 +71,7 @@ all prices in Belarusian rubles):
   door brand (Стальная линия) and lock-cylinder brand (abus) — a
   practitioner's own stated purchasing pattern (cites 80% of his own
   clients choosing that door brand), not an independent brand comparison.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TKTKBmTkebg_sidorik_entrance_door_ep10|YT_TKTKBmTkebg]]]
+  [source: [[_Sources/YT_TKTKBmTkebg_sidorik_entrance_door_ep10|YT_TKTKBmTkebg]]]
 
 ## Apartment vs. House Door Construction, and a Manufacturer's Series Line-up
 
@@ -117,7 +117,7 @@ advance with the company, not an independent comparison:
   benchmark (same caveat as the `Novakey` tier table below) — and dated
   nearly a decade before that 2026 entry, so not directly comparable
   without an inflation adjustment even within the same product category.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BpqCE2DeN9E_sidorik_choose_metal_entrance_door|YT_BpqCE2DeN9E]]]
+  [source: [[_Sources/YT_BpqCE2DeN9E_sidorik_choose_metal_entrance_door|YT_BpqCE2DeN9E]]]
 
 ## Old-Building Installation Technique and Acceptance Checks
 
@@ -164,7 +164,7 @@ the companion video stating "Минск" directly):
   new-build source, now with the mechanism explained. Night latch, once
   engaged from inside, makes the door unopenable from outside by any
   means; the separate turn-knob still opens from outside with a key.
-  [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_CVTf-a4XIEI_sidorik_install_metal_entrance_door_diy|YT_CVTf-a4XIEI]]]
+  [source: [[_Sources/YT_CVTf-a4XIEI_sidorik_install_metal_entrance_door_diy|YT_CVTf-a4XIEI]]]
 
 ## Diagnosing and Fixing a Binding Deadbolt (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 7)
 
@@ -178,7 +178,7 @@ Vladimir Amelchenko, addressing the same "deadbolts must engage without binding"
 - **⚠️ Manufacturer-authorization claim**: the source states the door manufacturer's own documentation explicitly permits on-site strike-hole adjustment as needed — not an off-manual workaround.
 - **⚠️ Safety warning, grounded in a real personal anecdote**: the speaker describes being struck in the eye by metal shavings while reaming a door frame early in his career, requiring a doctor visit days later (≈700 RUB, ≈$10) — and reports the treating doctor saw this injury pattern often, including installers who lost an eye or their vision. **Always wear safety glasses when reaming.**
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_2m1aVlTj4ZU_sbk_sticking_door_lock_fix|YT_2m1aVlTj4ZU]]]
+[source: [[_Sources/YT_2m1aVlTj4ZU_sbk_sticking_door_lock_fix|YT_2m1aVlTj4ZU]]]
 
 ## Manufacturer Pricing Tiers
 

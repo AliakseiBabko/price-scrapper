@@ -5,7 +5,7 @@
 Cross-checks every video ID in a playlist against this repo's own
 processed-source records (00_Master/processed_video_ids.txt and the
 YT_<video_id>_*.md source notes under
-11_Budget_and_Planning/_supporting/knowledge/sources/) *before* any
+_Sources/) *before* any
 transcript is fetched.
 
 Two modes:
@@ -66,13 +66,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CSV_PATH = REPO_ROOT / "00_Master" / "processed_sources.csv"
 VIDEO_IDS_PATH = REPO_ROOT / "00_Master" / "processed_video_ids.txt"
-SOURCE_NOTES_DIR = (
-    REPO_ROOT
-    / "11_Budget_and_Planning"
-    / "_supporting"
-    / "knowledge"
-    / "sources"
-)
+SOURCE_NOTES_DIR = REPO_ROOT / "_Sources"
 
 VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 

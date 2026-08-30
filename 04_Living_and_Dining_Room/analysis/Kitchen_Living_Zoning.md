@@ -14,7 +14,7 @@ small for three distinct zones (kitchen, dining, living/TV); ~10m² can
 support a kitchen+dining pairing but not a separate living zone as well;
 ~50m² gives real room to spread all three out; **~35m² is cited as
 workable for a family of four (two children)**, with kitchen+dining on
-the side nearer the entry and the living/TV zone on the other. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+the side nearer the entry and the living/TV zone on the other. [source: [[_Sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
 
 Fenix Interior's real, completed 20m² project (a turnkey design-build
 studio's own client apartment, region level-2 only) shows one concrete
@@ -27,7 +27,7 @@ room with sofa separate, or (b) a bar counter instead of a dining table
 for young households without children, both fine; (c) dining table placed
 next to the sofa — flagged as **the weakest of the three**, since it puts
 the table's footprint directly in the way of the post-meal relaxation
-zone. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+zone. [source: [[_Sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
 
 Diskill/Nadia Karmin adds a household-priority-first framing on top of
 area thresholds: **size the space to actual stated priorities**, not a
@@ -40,7 +40,7 @@ entirely separate room**, freeing the shown kitchen-living space for a
 more social role. A genuinely useful caution here: many clients request a
 large sliding/extendable dining table for hypothetical big gatherings but
 in practice host only 1-2 guests a year — weigh actual entertaining
-frequency against a table sized for a rare best case. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+frequency against a table sized for a rare best case. [source: [[_Sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
 
 ## Kitchen-Footprint Sizing and Dining-Table Clearance
 
@@ -55,7 +55,7 @@ behavior, not the reverse** (deciding dining/living space first and
 fitting the kitchen into whatever's left). The same source gives a fixed
 dining-table clearance rule regardless of table size: **1.1m minimum
 clear on both sides for chair pull-out, 1.2m preferred** for genuine
-comfort. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+comfort. [source: [[_Sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
 
 Fenix Interior's real project shows a concrete instance of clearance
 trading off against counter comfort: a 2m quartz-agglomerate countertop
@@ -65,7 +65,7 @@ seating 3. The worktop's width was deliberately set at 80cm rather than
 an ideally-preferred 90-100cm, specifically to preserve clearance for
 opening the adjacent refrigerator door while a chair is pulled up — a
 concrete, checkable trade-off between counter comfort and walkway
-clearance. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+clearance. [source: [[_Sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
 
 A sixth source, ARCHWOOD/Marina Izmailova's real 90m² 3-room client
 project (`gNN7G7vNyqY`), adds two further points from a real project's
@@ -77,7 +77,7 @@ constrain the room's overall usable area too much; and **place the TV so
 it's visible simultaneously from the loggia seating area, the kitchen
 counter/island, and the dining table** — one shared media zone serving
 every regular use-position in the open-plan area, not just the sofa.
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_gNN7G7vNyqY_archwood_90m2_family_layout|YT_gNN7G7vNyqY]]]
+[source: [[_Sources/YT_gNN7G7vNyqY_archwood_90m2_family_layout|YT_gNN7G7vNyqY]]]
 
 A seventh source, Karen Karapetyan's real 5-layout subscriber critique
 (`NWLckaXH1_U`), adds several concrete cautions: **avoid placing a
@@ -94,13 +94,13 @@ dining table and a bar counter with stools in the same small zone are
 functionally redundant** — keep one. Also names an explicit **"cook
 faces the room, not the wall" orientation trend**, framed by the source
 as reflecting a shift away from treating the cook as an isolated
-household role. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_NWLckaXH1_U_karapetyan_kitchen_living_layouts_subscribers|YT_NWLckaXH1_U]]]
+household role. [source: [[_Sources/YT_NWLckaXH1_U_karapetyan_kitchen_living_layouts_subscribers|YT_NWLckaXH1_U]]]
 
 ## Storage, Cabinetry, and Corner Solutions
 
 Omikor recommends tall column-style cabinets as the most space-efficient
 storage option in a combined zone — they hold more volume than an
-equivalent footprint of standard base + wall cabinets. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+equivalent footprint of standard base + wall cabinets. [source: [[_Sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
 
 Diskill adds concrete storage-execution rules: size concealed storage to
 actual usage rather than building cabinets to the ceiling if the
@@ -108,7 +108,7 @@ household doesn't own enough dishware/appliances to fill them (wasted
 volume typically becomes a junk dump); vary opening mechanisms by cabinet
 position (lift-up upper fronts, pull-out lower drawers); never economize
 on mechanism quality; use internal dividers/organizers; keep concealed
-kitchen storage specifically well-lit and ventilated. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+kitchen storage specifically well-lit and ventilated. [source: [[_Sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
 
 Fenix Interior's real project solves the classic corner dead-zone problem
 (usually a "magic corner" mechanism or hidden shelving by default) with a
@@ -120,7 +120,7 @@ inconspicuous spots — a material choice tied to this room's own
 corner-count geometry, not a generic preference. Ceiling-height
 cabinetry with a full-perimeter cornice/valance is now a standard move to
 visually unify base (60cm) and upper (35cm) cabinet depths into one
-contour. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+contour. [source: [[_Sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
 
 ## Design-Language Continuity
 
@@ -129,7 +129,7 @@ space, **unify the design language across both** — kitchen cabinet
 facades should coordinate with living-room furniture facades (matching,
 or different materials that visually complement each other); don't treat
 the kitchen as a stylistically separate zone once the space is physically
-open. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+open. [source: [[_Sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
 
 Anuta Vlady's real case (a subscriber-photo remote makeover, not a build
 video) shows a concrete before/after fix for exactly this problem —
@@ -146,7 +146,7 @@ echo the living room's darker furniture tones and add contrast rather
 than blend in seamlessly; and a two-tone (dark base + light cushions)
 sofa upholstery, once a common furniture-manufacturer default, is now
 flagged as visually dated in favor of one unified fabric across the
-whole piece. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TF0XTvwWyYg_anutavlady_kitchen_living_makeover|YT_TF0XTvwWyYg]]]
+whole piece. [source: [[_Sources/YT_TF0XTvwWyYg_anutavlady_kitchen_living_makeover|YT_TF0XTvwWyYg]]]
 
 Fenix Interior's real applied "eye-catching kitchen" formula: an accent
 backsplash in large-format stone-look porcelain tile; facades combining
@@ -156,7 +156,7 @@ engineered wood with several porcelain-tile variants, unified by a shared
 color undertone across all the materials. `tier-steering flag`: this
 source's specific hardware choices (Blum drawer mechanisms, a Gola
 handle-less profile) are this company's own product picks, not a
-universal recommendation. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+universal recommendation. [source: [[_Sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
 
 ## Flooring Zoning — Aesthetic and Structural Reasons
 
@@ -164,7 +164,7 @@ Omikor: flooring-material zoning is area-dependent — a large combined
 space can use different flooring per zone (tile in kitchen, parquet in
 living), while a small space should generally use one material
 throughout for visual continuity, favoring a wear-resistant option
-(ceramic/tile) as the safer unifying default. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
+(ceramic/tile) as the safer unifying default. [source: [[_Sources/YT_ncOI16-meB4_omikor_kitchen_living_rules|YT_ncOI16-meB4]]]
 
 Diskill/Nadia Karmin gives the same zoning pattern a genuine **structural**
 reason, not just an aesthetic one: put hard flooring (tile) under kitchen
@@ -172,11 +172,11 @@ cabinetry specifically because heavy cabinetry can dent/compress a softer
 material (quartz-vinyl or laminate) over time — a dent in one spot forces
 the material to bulge elsewhere. The living zone can prioritize comfort
 (carpet, wood-look) instead. If a shared dining table spans the flooring
-transition, position chairs off the material seam. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+transition, position chairs off the material seam. [source: [[_Sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
 
 Fenix Interior's real 20m² project is a concrete built instance of both
 rules together: porcelain tile in the kitchen meets engineered wood in
-the living zone at a defined transition line. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
+the living zone at a defined transition line. [source: [[_Sources/YT_olu1XyJ7q_w_fenix_interior_20m2_kitchen_living|YT_olu1XyJ7q_w]]]
 
 ## Electrical, Ventilation, and Lighting
 
@@ -209,7 +209,7 @@ planning for a combined kitchen-living space:
   kitchen-living zone. Each zone can have its own ceiling treatment and
   light — but give each zone its own switch.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
+[source: [[_Sources/YT_TnYExlfWw9c_diskill_kitchen_living_10_rules|YT_TnYExlfWw9c]]]
 
 LightLab/Artem Voronov, a professional lighting-design studio specialist,
 independently converges on the same 3-layer minimum under different layer
@@ -233,7 +233,7 @@ names, specifically for the kitchen-living dining zone:
   day-of — a same-day decision one lives with for ~10 years is a common,
   real planning mistake.
 
-[source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_hW1hlDoqDR0_voronov_lightlab_kitchen_living_lighting|YT_hW1hlDoqDR0]]]
+[source: [[_Sources/YT_hW1hlDoqDR0_voronov_lightlab_kitchen_living_lighting|YT_hW1hlDoqDR0]]]
 
 ## A Real Kitchen-Living Partition Installation
 
@@ -246,7 +246,7 @@ from customer-supplied samples, and frosted glass chosen for bidirectional
 visual privacy between the two zones. The installer's claim that the
 glass is shatter-resistant (marketed toward households with small
 children/pets/gatherings) is recorded as a `commercial claim, not
-independently verified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_pd_HXj0jT9g_deli_partition_kitchen_living_install|YT_pd_HXj0jT9g]]]
+independently verified`. [source: [[_Sources/YT_pd_HXj0jT9g_deli_partition_kitchen_living_install|YT_pd_HXj0jT9g]]]
 
 See [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Room-Zoning Partition Methods]]
 for the full cross-cutting partition-method breakdown (not specific to

@@ -7,7 +7,7 @@ See [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring Guide]] for a kitchen-spe
 ## Large Open Kitchen-Living Layout: Split Function Instead of One Continuous Run (added 2026-08-19)
 
 > [!NOTE]
-> First real content for this page. `single-account`, real 109m² project. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BUfY5YcnN-U_large_kitchen_layout_island_vs_split_001|note]]]
+> First real content for this page. `single-account`, real 109m² project. [source: [[_Sources/YT_BUfY5YcnN-U_large_kitchen_layout_island_vs_split_001|note]]]
 
 On a sufficiently large open kitchen-living space, **don't default to one continuous kitchen run** (an L-shape with a separate island, or a U-shape with a bar-counter "tongue") — **splitting distinct functions into physically separate modules along different walls can solve circulation, furniture-placement, and corner-protection problems that a single continuous layout can't solve all at once.** A worked example, reasoning by elimination across three candidate layouts:
 
@@ -20,7 +20,7 @@ On a sufficiently large open kitchen-living space, **don't default to one contin
 ## Why Not to Place a Kitchen at a Window (added 2026-08-19, chunk 4)
 
 > [!NOTE]
-> A placement/site-selection checklist — complements the layout-configuration content above (that's about *how* to lay a kitchen out once placed; this is about *where not* to place one at all). Built from 10 years of collected client feedback, several points illustrated with direct client quotes (`single-account` testimonial evidence). [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzfABiffDB8_never_kitchen_near_window_144|note]]]
+> A placement/site-selection checklist — complements the layout-configuration content above (that's about *how* to lay a kitchen out once placed; this is about *where not* to place one at all). Built from 10 years of collected client feedback, several points illustrated with direct client quotes (`single-account` testimonial evidence). [source: [[_Sources/YT_qzfABiffDB8_never_kitchen_near_window_144|note]]]
 
 Despite the intuitive appeal ("cooking with a view," natural light), a window-adjacent kitchen run carries eight independent, mechanism-explained downsides:
 
@@ -35,11 +35,11 @@ Despite the intuitive appeal ("cooking with a view," natural light), a window-ad
 
 ## Wall-Angle Verification (added 2026-08-19, remainder-pool batch)
 
-**Verify every wall's actual angle before accepting a developer's layout as fixed** — a small angular deviation (e.g. 135° instead of a true 90° corner) compounds into a large usable-area loss over a wall's full length, and if left uncorrected, causes a visible seam misalignment once kitchen cabinetry is installed against it. Documented case: a developer-built 135°-angled wall between a kitchen and adjacent corridor cost the kitchen ~1.10m of usable width; rebuilding it to a true 90° recovered the width without shrinking any other room. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|YT_v7UXJ5fJ0H0]]]
+**Verify every wall's actual angle before accepting a developer's layout as fixed** — a small angular deviation (e.g. 135° instead of a true 90° corner) compounds into a large usable-area loss over a wall's full length, and if left uncorrected, causes a visible seam misalignment once kitchen cabinetry is installed against it. Documented case: a developer-built 135°-angled wall between a kitchen and adjacent corridor cost the kitchen ~1.10m of usable width; rebuilding it to a true 90° recovered the width without shrinking any other room. `single-account`, `unverified`. [source: [[_Sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|YT_v7UXJ5fJ0H0]]]
 
 ## Countertop Bump-Out Trip Hazard (added 2026-08-19, remainder-pool batch)
 
-**A decorative countertop "bump-out" step added purely for visual interest, with no functional storage use (nothing fits under, behind, or on it usably), is a real trip/collision hazard** when moving between adjacent kitchen work zones. If pursuing this purely for aesthetics, round the edges/corners rather than leaving them sharp, or skip the feature entirely. `single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
+**A decorative countertop "bump-out" step added purely for visual interest, with no functional storage use (nothing fits under, behind, or on it usably), is a real trip/collision hazard** when moving between adjacent kitchen work zones. If pursuing this purely for aesthetics, round the edges/corners rather than leaving them sharp, or skip the feature entirely. `single-account`, `unverified`. [source: [[_Sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
 
 ## Small Kitchen: Layout & Space-Efficiency Principles (added 2026-08-20)
 
@@ -55,16 +55,16 @@ A dedicated small-kitchen guide, distinct from the placement/layout content abov
 - **Combining a small kitchen with an adjoining living room** is offered as a valid space-efficiency solution, zoned by a flooring-material change or a style shift rather than a wall — more space-efficient overall than keeping the kitchen enclosed and cramped.
 - **Layered lighting (main + decorative + accent) as a perceived-spaciousness lifehack**: multiple lighting levels/types (not one single ceiling fixture) add visual depth and a sense of multi-level dimensionality to a room, which indirectly makes a small kitchen read as larger. Same channel as this store's existing scenario-lighting guidance (see [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]]) — not independent corroboration, but this source adds a specific claim about the *spaciousness* benefit, not just the general scenario-count rule.
 
-`single-account`, `unverified` throughout this section. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ihx8gUDO3vI_kruglov_small_kitchen|YT_ihx8gUDO3vI]]]
+`single-account`, `unverified` throughout this section. [source: [[_Sources/YT_ihx8gUDO3vI_kruglov_small_kitchen|YT_ihx8gUDO3vI]]]
 
 ## Module-Width Discipline & Minimum Linear-Kitchen Width (added 2026-08-19, remainder-pool batch)
 
-**Never widen a kitchen cabinet module beyond the width of an adjacent fixed-width appliance it's paired with** (worked example: kept a storage module at 60cm to match an adjacent 60cm refrigerator and a 60cm oven column, deliberately not widening it to 70-80cm even though floor space allowed) — an oversized module next to a fixed-width appliance reads as visually disproportionate. **A straight/linear kitchen run narrower than ~2.30m is functionally too narrow regardless of layout reconfiguration** — a documented real example found no arrangement within that width avoided a cramped, awkward result; the fix was combining it with an adjacent room into an open plan instead. `single-account`, `unverified`. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_HVSZh0lH9hk_craziest_two_room_230|YT_HVSZh0lH9hk]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_ZVoExA0t6nI_useless_3bedroom_223|YT_ZVoExA0t6nI]]]
+**Never widen a kitchen cabinet module beyond the width of an adjacent fixed-width appliance it's paired with** (worked example: kept a storage module at 60cm to match an adjacent 60cm refrigerator and a 60cm oven column, deliberately not widening it to 70-80cm even though floor space allowed) — an oversized module next to a fixed-width appliance reads as visually disproportionate. **A straight/linear kitchen run narrower than ~2.30m is functionally too narrow regardless of layout reconfiguration** — a documented real example found no arrangement within that width avoided a cramped, awkward result; the fix was combining it with an adjacent room into an open plan instead. `single-account`, `unverified`. [sources: [[_Sources/YT_HVSZh0lH9hk_craziest_two_room_230|YT_HVSZh0lH9hk]], [[_Sources/YT_ZVoExA0t6nI_useless_3bedroom_223|YT_ZVoExA0t6nI]]]
 
 ## Kitchen Theory: Adjacency, Functional-Use Statistics, and the Work Triangle (added 2026-08-25)
 
 > [!NOTE]
-> First dedicated general-theory source on this page (architect explainer, house-context but generalizable). Complements the placement/layout content above with the underlying reasoning framework — why adjacency, sizing, and the work triangle work the way they do. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|note]]]
+> First dedicated general-theory source on this page (architect explainer, house-context but generalizable). Complements the placement/layout content above with the underlying reasoning framework — why adjacency, sizing, and the work triangle work the way they do. [source: [[_Sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|note]]]
 
 - **Kitchen placement should minimize the path from the entry to kitchen storage** — the practical reason is carrying grocery bags as few steps as possible from the front door/car to fridge/pantry/cabinets; this should drive both a kitchen's placement in the overall floor plan and internal storage placement within the kitchen itself.
 - **Evolution of the open-plan trend, useful framing**: kitchen+dining+living historically separated into three connected rooms → dining room absorbed into the kitchen as formal table-service time shrank → living room also absorbed, producing today's studio/open-plan kitchen-living-dining structure. Frames *why* the open-plan trend happened, not just that it did.
@@ -79,38 +79,38 @@ A dedicated small-kitchen guide, distinct from the placement/layout content abov
 - **⚠️ Minimum work-surface width beside each work-triangle element: ≥0.5m on each side** — the same source's own practice-video follow-up sharpens the abstract ≤1.5m triangle-side rule above with a concrete countertop-width figure needed at each triangle point for utensils/ingredients/dishes during actual use.
 - **⚠️ Corner-sink placement should be a small-kitchen compromise, not a default**: in a genuinely small kitchen (~2x2.5m) a corner sink may be the only option, with a trash bin fitted underneath — but in a spacious kitchen, prefer a straight-run sink placement instead of a corner, since working in a corner is awkward when a longer straight run is available.
 
-`single-account`, `unverified` throughout unless noted. [sources: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|YT_Ubl--73gmTs]], [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0783KWcK4Co_zlobin_kitchen_practice_pt2|YT_0783KWcK4Co]]]
+`single-account`, `unverified` throughout unless noted. [sources: [[_Sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|YT_Ubl--73gmTs]], [[_Sources/YT_0783KWcK4Co_zlobin_kitchen_practice_pt2|YT_0783KWcK4Co]]]
 
 ## Kitchen-Living Combined Room Sizing and Island Minimum-Size Variance (added 2026-08-28)
 
 > [!NOTE]
-> From a real-project walkthrough by a different on-camera presenter (Nikita Kuznetsov) on the same Ontario channel. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
+> From a real-project walkthrough by a different on-camera presenter (Nikita Kuznetsov) on the same Ontario channel. [source: [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
 
 - **Kitchen-living combined room sizing, a whole-room figure distinct from the kitchen-only range above**: budget roughly **12-17 m²** of combined floor area to fit a sofa, TV, and full kitchen zone into one shared room.
 - **⚠️ Island minimum room size, a real numeric disagreement with this store's existing island-sizing rule**: this source recommends an island **only in rooms ≥30 m²** — considerably larger than the existing rule on [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]] ("An island is only appropriate in kitchens ≥14 m²"). Both figures recorded, attributed to their own source, rather than merged.
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
 
 ## Real-Project Prep-Zone Sizing Defect (added 2026-08-28)
 
 > [!NOTE]
-> A real-project defect critique, cross-checked against the work-triangle content above. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
+> A real-project defect critique, cross-checked against the work-triangle content above. [source: [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
 
 - **⚠️ Real-project defect: an oversized (4-burner) cooktop choice left too little counter space on both sides** (sink-to-cooktop gap and cooktop-to-coffee-machine gap) for a young, actively-cooking household — no room remained for occasional-use appliances (grill, waffle iron). **Match cooktop size to actual household cooking volume rather than defaulting to the largest available cooktop.**
 
-`single-account`, `unverified`. [source: [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
+`single-account`, `unverified`. [source: [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
 
 ## Source Notes
 
-- **How Not to Design a Large Kitchen — Island vs. U-Shape vs. Split-Bar Layout** (Zemsproekt/Zemstandart, #001, 2018-11-27, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_BUfY5YcnN-U_large_kitchen_layout_island_vs_split_001|extraction note]].
-- **Never Make a Kitchen Near a Window** — 8 client-sourced reasons (Zemstandart, #144, 2021-08-08, added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_qzfABiffDB8_never_kitchen_near_window_144|extraction note]].
-- **Worst Apartment of 2019 (full replan case)** — developer wall-angle defect (added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|extraction note]].
-- **Kitchen Layout // Part 1 (Theory)** — adjacency, functional-use statistics, work triangle, layout types, window-placement debate (Архитектор Виталий Злобин, 2020-02-22, added 2026-08-25) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|extraction note]].
-- **Kitchen Layout // Part 2 (Practice — 13x14m single-story house)** — partial extraction, house-specific floor plan not carried forward; two generalizable numeric points only (Архитектор Виталий Злобин, 2020-03-19, added 2026-08-25) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_0783KWcK4Co_zlobin_kitchen_practice_pt2|extraction note]].
-- **Client Workflow Interview** — countertop bump-out hazard (added 2026-08-19) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|extraction note]].
-- **Top 10 Kitchen Design Mistakes** — work-triangle distance variance (Konstantin Kruglov/Ontario, 2025-05-17, added 2026-08-28, Round 9 video 2) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_A1mvvVObK5M_kruglov_top10_design_mistakes|extraction note]].
-- **Top Solutions for a Modern Kitchen** — real-project prep-zone sizing defect (Konstantin Kruglov/Ontario, 2025-01-24, added 2026-08-28, Round 9 video 3) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|extraction note]].
-- **TOP 10 Popular Kitchen Renovation Mistakes** — kitchen-living sizing, island-size variance (Konstantin Kruglov/Ontario, presenter Nikita Kuznetsov, 2023-11-08, added 2026-08-28, Round 9 video 5) — [[11_Budget_and_Planning/_supporting/knowledge/sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|extraction note]].
+- **How Not to Design a Large Kitchen — Island vs. U-Shape vs. Split-Bar Layout** (Zemsproekt/Zemstandart, #001, 2018-11-27, added 2026-08-19) — [[_Sources/YT_BUfY5YcnN-U_large_kitchen_layout_island_vs_split_001|extraction note]].
+- **Never Make a Kitchen Near a Window** — 8 client-sourced reasons (Zemstandart, #144, 2021-08-08, added 2026-08-19) — [[_Sources/YT_qzfABiffDB8_never_kitchen_near_window_144|extraction note]].
+- **Worst Apartment of 2019 (full replan case)** — developer wall-angle defect (added 2026-08-19) — [[_Sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|extraction note]].
+- **Kitchen Layout // Part 1 (Theory)** — adjacency, functional-use statistics, work triangle, layout types, window-placement debate (Архитектор Виталий Злобин, 2020-02-22, added 2026-08-25) — [[_Sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|extraction note]].
+- **Kitchen Layout // Part 2 (Practice — 13x14m single-story house)** — partial extraction, house-specific floor plan not carried forward; two generalizable numeric points only (Архитектор Виталий Злобин, 2020-03-19, added 2026-08-25) — [[_Sources/YT_0783KWcK4Co_zlobin_kitchen_practice_pt2|extraction note]].
+- **Client Workflow Interview** — countertop bump-out hazard (added 2026-08-19) — [[_Sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|extraction note]].
+- **Top 10 Kitchen Design Mistakes** — work-triangle distance variance (Konstantin Kruglov/Ontario, 2025-05-17, added 2026-08-28, Round 9 video 2) — [[_Sources/YT_A1mvvVObK5M_kruglov_top10_design_mistakes|extraction note]].
+- **Top Solutions for a Modern Kitchen** — real-project prep-zone sizing defect (Konstantin Kruglov/Ontario, 2025-01-24, added 2026-08-28, Round 9 video 3) — [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|extraction note]].
+- **TOP 10 Popular Kitchen Renovation Mistakes** — kitchen-living sizing, island-size variance (Konstantin Kruglov/Ontario, presenter Nikita Kuznetsov, 2023-11-08, added 2026-08-28, Round 9 video 5) — [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|extraction note]].
 
 ## Change Log
 
