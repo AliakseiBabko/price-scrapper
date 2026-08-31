@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=AafdFwF_Rgs",
+  "video_id": "AafdFwF_Rgs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-31T22:46:06.580932+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "eb88571c3fe85fb818ebe18385bbf4f12b67d834e791c2beaf52454f313921ff",
+  "attempts_before_success": []
+}

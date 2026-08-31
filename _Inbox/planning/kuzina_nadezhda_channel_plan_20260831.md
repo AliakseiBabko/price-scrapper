@@ -143,3 +143,63 @@ the actual result when the round closes.
 - **Cluster 2 (the «Цвет в интерьере» series, ~19 videos) is completely untouched** and is the channel's other systematic body of work. The two videos already processed on 2026-08-30 came from it and yielded 6 and 8 — respectable but well below Round 1's average, which suggests **Cluster 1's remainder should be finished before Cluster 2 is opened.**
 
 **Recommended Round 2**: the remaining Cluster 1 videos, prioritising any long-format item, with `VBMzas01VRs` included so the corner/geometry gap gets its second source. **Awaiting user go-ahead** — no stop-and-ask trigger fired (yield is far above the 1.0 floor and there is no prior round to have dropped from), so this is a scoping recommendation rather than a required check-in.
+
+## Round 2 — dispatched 2026-09-01
+
+**Selected by duration first, per Round 1's own finding that format beats topic on this channel** — durations were pulled from `yt-dlp` before selecting, rather than picking by title. Two of the eight come from clusters this plan had *deprioritised on topic*, and are included specifically because the format bet should override that call:
+
+| # | Video | Len | Cluster | Why |
+| :--- | :--- | ---: | :--- | :--- |
+| 1 | `7Kk_TTxoq4g` — «Магия орнамента», seminar at the LeDimore showroom | **92 min** | 4 (LOW on topic) | **The longest video on the channel and a seminar** — the exact format that produced Round 1's 27 and 38. Ornament is also more applicable than its cluster suggests: wallpaper, tile and textile pattern are real decisions |
+| 2 | `xeJWHR77QlE` — ваби-саби/хюгге/лагом podcast | **49 min** | 4 (LOW on topic) | **Podcast format, the single richest format on both this channel and Шеврина.** ⚠️ It is a **@lemanapro** (Leroy Merlin) podcast — a retailer's brand channel, so check promotional ratio and tier-steering carefully before extracting |
+| 3 | `SC6icQAYFhw` — low ceilings, and whether to raise them visually | 27 min | 1 | Longest remaining Cluster 1 item |
+| 4 | `AafdFwF_Rgs` — 10 rules for combining wood finishes | 22 min | 1 | Enumerated format; pairs with #5 |
+| 5 | `LAuZhM9tJWA` — combining metal finishes | 21 min | 1 | Pairs with #4 — both route to material-direction pages, so batching them cuts the reconciliation work |
+| 6 | `0pqfj2JdAGU` — the door as an element / as an art object | 21 min | 1 | Routes to `Doors_and_Trim` |
+| 7 | `VBMzas01VRs` — irregularly shaped apartment, correcting the geometry | 15 min | 1 | **Deliberately included to give the protruding-corner / irregular-geometry gap its second source**, per the `Pending_Wiki_Page_Decisions.md` entry opened in Round 1 |
+| 8 | `E6nYBdz9NhM` — small-apartment design, 10 tips beyond the usual | 15 min | 1 | Enumerated format; explicitly positions itself against generic YouTube advice |
+
+**⚠️ Anomaly to check: `f8-HNRq119g`** (однушка→двушка with перепланировка) **returns duration 0 from `yt-dlp`** — it may be a Short, a livestream artefact, or unavailable. Not selected for Round 2; investigate before scheduling it, and do not assume it is fetchable.
+
+**Still untouched after Round 2 will be**: `X3emRuW-PbA` (tile types, 13 min), `zrnhNEgk-Sk` (DIY design walkthrough, 13 min), `Oy_eTelj-X0` (home workspace, 9 min), `H43m5bn7W8k` (why a render is not a design project, 9 min), `gwa1wsTYYLE` (natural light, 8 min), `dIdcLPKj6is` (home spa, 16 min), `bVmE50y33Ls` (what to bring from the old flat, 17 min), plus all 19 of Cluster 2.
+
+## Round 2 — complete, 2026-09-01
+
+**Round 2 yield**: 8 videos processed (7 FULL, 1 PARTIAL), 161 new facts, yield = **20.1 facts/video** — marginally above Round 1's 19.6, with no decay. All 8 fetched cleanly in `ru`, zero rate-limit signatures.
+
+| # | Video | Len | Cluster | Yield | Promo | Outcome |
+| :--- | :--- | ---: | :--- | ---: | :--- | :--- |
+| 1 | `7Kk_TTxoq4g` — ornament seminar | 92 min | 4 | 20 | medium | FULL |
+| 2 | `xeJWHR77QlE` — wabi-sabi/hygge/lagom podcast | 49 min | 4 | 8 | **medium-high** | **PARTIAL** |
+| 3 | `SC6icQAYFhw` — low ceilings | 27 min | 1 | **31** | low | FULL |
+| 4 | `AafdFwF_Rgs` — combining wood finishes | 22 min | 1 | 22 | low | FULL |
+| 5 | `LAuZhM9tJWA` — combining metal finishes | 21 min | 1 | 21 | low | FULL |
+| 6 | `0pqfj2JdAGU` — the door as an element | 21 min | 1 | 17 | low | FULL |
+| 7 | `VBMzas01VRs` — irregular apartment geometry | 15 min | 1 | 18 | low | FULL |
+| 8 | `E6nYBdz9NhM` — small-apartment rebuttal | 15 min | 1 | 24 | low | FULL |
+
+### ⚠️ The main finding: format raises the ceiling, it does not rescue the topic
+
+**Round 1 concluded "format beats topic." Round 2 tested that by deliberately promoting two Cluster 4 items on length alone, and the test failed.**
+
+- `7Kk_TTxoq4g` is **the channel's longest video and a seminar** — the exact format that produced 27 and 38 in Round 1. It returned **20 facts from 92 minutes**, roughly 60% of it art history and prehistoric symbolism supporting no renovation decision. **Yield per minute is by far the worst of any Кузина source: 0.22/min against 0.49 (`Rcd9gkPC6CI`) and 0.57 (`iHViNm3dESU`).**
+- `xeJWHR77QlE` is a **49-minute podcast**, the single richest format on this channel and on Шеврина. It returned **8 facts and is the only PARTIAL of either round**, at the highest promotional ratio yet recorded here.
+- **Meanwhile the four highest-yield-per-minute sources of Round 2 were all Cluster 1, and none exceeded 27 minutes.** `SC6icQAYFhw` alone returned 31 facts in 27 minutes (1.15/min).
+
+**Corrected rule for Round 3: cluster first, then sort by length within the cluster.** The original six-cluster triage was right; length is a tiebreaker inside a good topic, not a promotion mechanism out of a weak one. **Do not promote another Cluster 4 item on duration.**
+
+### What Round 2 changed in the vault
+
+- **⚠️ Reframed an open Perspectives block rather than voting in it.** `AafdFwF_Rgs` is Кузина's primary statement on wood-tone count, and it supplies **a controlled two-step experiment**: change brightness only → still good; change brightness *and* undertone → "интерьер разваливается." **Her position is not a number — vary brightness freely, never vary undertone — which means the failure everyone attributes to "too many tones" is an undertone collision.** She also relativises her own rule of three (a specialist working with five to seven is fine "because structure is still present"), softening the capped-hue-count previously attributed to her.
+- **⚠️ Opened a new Perspectives block against Шеврина** on small apartments: they agree on a restrained low-contrast **envelope** and split on **accents**. Кузина rejects "keep it calm so the eye glides" — "это всё равно что скакать на лошади, отпустив поводья" — and her reconciling move (the accent may be small, only interesting) may narrow the gap rather than close it.
+- **⚠️ A second independent objection to cove lighting**, on grounds unrelated to Kruglov's existing dust caution: **it needs ≥5 cm to the ceiling for light to escape, so it lights precisely the wall/ceiling junction the whole low-ceiling strategy exists to hide.**
+- **First coverage of metal-finish coordination in this vault at all**, with the 70/30 dominance ratio and the two-vs-four-metals-by-room-size count.
+- **A whole new page section on low ceilings**, including the three ceiling-void figures (8 cm recessed / 5 cm plasterboard / 3 cm stretch) that decide the lighting strategy.
+- **The predicted second source for the irregular-geometry gap arrived** (`VBMzas01VRs`) — **but both sources are Кузина, so the pair stays `single-account` and the page was deliberately not created.**
+
+### Notes for Round 3
+
+- **Cluster 1 is now nearly exhausted.** Remaining: `X3emRuW-PbA` (tile types by style, 13 min), `zrnhNEgk-Sk` (DIY design walkthrough, 13 min), `Oy_eTelj-X0` (home workspace, 9 min), `H43m5bn7W8k` (why a render is not a design project, 9 min), `gwa1wsTYYLE` (natural light, 8 min), `dIdcLPKj6is` (home spa, 16 min), `bVmE50y33Ls` (what to bring from the old flat, 17 min). **All are short, which per this round's finding is not a problem.**
+- **Cluster 2 — the 19-video «Цвет в интерьере» series — remains entirely untouched** and is the obvious Round 3 body of work once Cluster 1 closes. **The two colour videos already processed (2026-08-30) yielded 6 and 8, well below both rounds' averages** — so expect a lower yield there, and consider it a natural stopping point rather than a decay signal.
+- **⚠️ `f8-HNRq119g` still unresolved**: `yt-dlp` reports duration 0. Investigate before scheduling; do not assume it is fetchable.
+- **ASR quality remains the binding constraint on pre-2022 uploads.** Round 2 deliberately did not extract: the ornament seminar's symbolism section, the door video's 40% historical preamble, and several unrecoverable designer and product names. **The term for an inward-projecting corner was garbled differently in two separate videos and was not guessed in either.**

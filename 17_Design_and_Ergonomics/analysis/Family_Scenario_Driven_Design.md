@@ -144,3 +144,11 @@ They pair this with a broader position worth recording alongside: **no 100%-prac
 
 - 2026-08-25 — Added "Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design" section (1 source, `YT_fkoUNvB9LV8`), part of a dedicated 8-video Anuta Vlady batch targeting `06_Small_Bedroom` — this particular video turned out to be a kitchen-living room, not a bedroom, so routed here instead.
 - 2026-08-24 — Page created, migrating this content verbatim from `Durable_Facts.md`'s Design Concept bucket, as part of standing up the new `17_Design_and_Ergonomics` folder per explicit user request.
+
+## ⚠️ Client Intake — Ask About Lifestyle, Not Worldview (added 2026-09-01)
+
+Asked on a podcast what advice to give someone trying to make an interior match their inner world, Надежда Кузина **declines the premise**: **"я бы советовала не копать слишком глубоко, потому что если начнёшь задумываться о том, что конкретно соответствует моему сложному внутреннему миру, то можно остаться без ремонта."** [source: [[_Sources/YT_xeJWHR77QlE_kuzina_lemanapro_philosophy_podcast|YT_xeJWHR77QlE]]]
+
+**The practice both designers present describe instead**: the first question is about **образ жизни — lifestyle — not worldview**, and the interior is built around that. Worldview gets used only if the client volunteers it, once there is enough rapport. **"Дизайнер всё-таки более прикладная функция, поэтому в философию мы без запроса не вникаем."**
+
+**This independently reinforces the verb-list method** on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]] — list what you actually *do* in a room, then filter it against what you want to stop and start doing. She reaches the same place from a completely different direction, in front of two other professionals who agree.

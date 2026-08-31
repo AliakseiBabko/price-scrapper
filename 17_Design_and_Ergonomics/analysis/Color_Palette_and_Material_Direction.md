@@ -210,3 +210,29 @@ Asked directly in a lecture Q&A for colour combinations that make a small flat f
 - **⚠️ Colour only oppresses when it is uniform.** A single green on everything becomes unbearable within a week; muted grey-greens balanced against a light sofa with touches of blue or red do not. The failure mode is one shade applied to all walls or all furniture, not colour as such.
 - **⚠️ Buy paints with complex pigments** — good European, American or English brands rather than the cheapest. Their property is that the same paint reads differently under different light, cooler by day and warmer in the evening. **Her analogy: alexandrite.**
 - **If enlarging is genuinely the goal: mirrors.** And if a dark scheme palls, change the textiles for lighter patches rather than repainting — **art also reads very well on a dark ground.**
+
+## ⚠️ Gradient as a Room-Proportion Tool — Direction Is Prescriptive (Надежда Кузина, added 2026-09-01)
+
+A gradient («градиент») on a wall reads like faintly coloured light — a coloured shadow — and so changes perceived proportions rather than just colour. [source: [[_Sources/YT_7Kk_TTxoq4g_kuzina_ornament_seminar|YT_7Kk_TTxoq4g]]]
+
+- **Darker at the bottom, lighter at the top raises the ceiling and makes the floor read more grounded and stable.**
+- **⚠️ "Если у вас потолки до трёх метров, то лучше делать именно так и не отступать от этого правила."** Below 3 m the direction is not a preference.
+- **Only above 3 m** does she allow the alternatives — three tones, or inverting it with the dark at the top.
+- She notes the effect works best when soft enough to read as gentle volume rather than as a graphic device — a linen-like transition where the surface almost reads plain, with the gradient registering only as an interesting shadow.
+
+## ⚠️ Perspectives — Should a Small Flat Be Kept Calm, or Given Something to Catch the Eye? (added 2026-09-01)
+
+Two practitioners already in this vault, agreeing on the envelope and disagreeing on the accents.
+
+| Source | Position | Stated reasoning |
+| :--- | :--- | :--- |
+| **Мария Шеврина / SMBUREAU** (`9h2tAnm6rqA`) | **Fewer tones; avoid active textures; less decor; for a very small flat, one colour in one tone.** Two or three materials maximum | Visual quiet is what makes a small flat read larger; active surfaces and clutter shrink it |
+| **Надежда Кузина** (`E6nYBdz9NhM`) | **"Я с этим не согласна."** Use accent objects and accent colours, sited toward the **centre** of the room | An eye gliding with nothing to catch on is **"как скакать на лошади, отпустив поводья"** — the horse goes where it likes. **"Глазом и умом зрителя нужно управлять."** An accent at the centre pulls attention off a low ceiling or a small floor |
+
+**Common ground, and it is substantial.** Both want a restrained, low-contrast **envelope** — Кузина's own prescription is walls and ceiling in one colour, floors as low-contrast as possible, **no accent wall**, no mouldings differing from the wall plane, and rugs that more or less merge into the floor. **The disagreement is not about the shell; it is about whether anything should stand out inside it.**
+
+**⚠️ Кузина's reconciling move, which may narrow the gap rather than close it: the accent need not be large or bright.** It can be proportional to the room, even small — **"историю можно рассказать и маленьким предметом, главное чтобы на него было интересно смотреть."** A contrasting headboard, or a picture above it, will do. Read that way, her position may be compatible with Шеврина's "less decor" as long as the little that remains is deliberate and central.
+
+**⚠️ A separate correction from Кузина that neither the received advice nor the table above captures: a monochrome palette does not have to be light.** "Монохромная палитра не означает чёрно-белое, это просто означает, что цвет должен быть один." Her example is a blue bedroom, tone-on-tone across bedspread, headboard and wall, with small cushion accents differing in both lightness and colour. **This aligns with her separate rejection of "light colours enlarge a room" as a cliché, recorded above.**
+
+**Your Priority: not yet decided.** Both positions are compatible with the envelope decisions this project has already made; the accent question only becomes live once a specific room's furnishings are being chosen. [source: [[_Sources/YT_E6nYBdz9NhM_kuzina_small_apartment_rebuttal|YT_E6nYBdz9NhM]]]

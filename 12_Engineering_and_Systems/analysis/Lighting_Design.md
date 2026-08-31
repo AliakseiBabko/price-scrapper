@@ -315,3 +315,26 @@ This page already carries the rule from Kruglov — *every fixture running simul
 #### ⚠️ His own most expensive mistake — check every washed surface for gloss
 
 Expensive German **asymmetric-optic** fixtures recessed into a ceiling and aimed sideways, producing a crisp wall-graze with the source invisible — a museum effect. **The client did not mention the wall would be marble.** Marble reflects, so the fixture's own reflection appears in the wall and the effect is destroyed — **at roughly €300 per fixture, the most expensive fittings in the apartment.** "Такому не научишься, такое можно только понаошибаться." **Generalises to: verify every surface a directional fixture will wash for gloss before specifying it.**
+
+## Lighting a Low-Ceiling Room (Надежда Кузина, added 2026-09-01)
+
+The full low-ceiling strategy is on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]]. [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
+
+### ⚠️ A second, independent objection to cove lighting — on different grounds from this page's existing one
+
+This page already carries a **dust-trap** caution against cove/contour lighting from Kruglov/Ontario. **Кузина objects to the same detail for an entirely unrelated reason, which makes this convergence rather than repetition.**
+
+- **Her observation**: **the more expensive the project, the less cove lighting it contains** — she sees almost none in leading European designers' work.
+- **⚠️ Her mechanism: the standard product is self-defeating.** A hollow cornice with an LED strip needs **≥5 cm to the ceiling** for light to escape — **so it illuminates precisely the wall/ceiling junction the whole low-ceiling strategy exists to hide.** "Такой вариант не подходит."
+- **Two working alternatives**: a cornice already shaped with a bend that conceals the strip (effectively a double cornice), **or buy the cornice and a separate light moulding and place the light moulding *under* the cornice — so the light washes the cornice, not the junction.**
+
+### Fixture strategy when ceiling height is scarce
+
+- **⚠️ The common move is wrong: finding a lower chandelier so it does not hit your head, and centring it. Better to drop the chandelier entirely and use technical light.**
+- **Track lighting, with a rebuttal she volunteers**: she has read many comments calling tracks "office style" or inherently contemporary — **"немножко не так," tracks fit essentially any style, including classical.** She particularly likes **tracks dropped away from the ceiling**: a thin thread running a large room's perimeter, unifying several zones and lighting all of them.
+- **Ceiling-void cost drives the choice** — recessed fixtures cost a **minimum 8 cm**, plasterboard without them ~5 cm, a good stretch ceiling ~3 cm. Where those centimetres do not exist, use **surface-mounted cylinders** — **but they come mostly in white and black, sometimes silver**, so against non-white walls or ceilings check they will not draw attention.
+- **LED strip without a light cornice**: profiles made to sit between ceiling and wall throwing light down the wall, or a perimeter run bright enough to **replace the chandelier entirely.**
+- **⚠️ Always specify a diffuser with an LED profile — never buy one without.** Even in a niche where the strip is not directly in view, **the strip's joints and its corner joints show.**
+- **Ceiling niches with concealed indirect light as a chandelier replacement** cost perhaps 10 cm — a favourable trade, since no chandelier is only 10 cm tall. The refined version throws light sideways from under a lip and reflects it down; **it needs genuinely skilled builders.**
+- **Replacing the chandelier's decorative role**, since technical light alone can read as bare: pendants along the walls (conventionally over bedroom nightstands, but equally over living-room coffee tables); **a full chandelier hung in a corner** rather than centrally, proportioned to what it hangs over; and **large wall fixtures — too big to call sconces — which pair well with ceiling technical light and make a chandelier redundant.**
+- **⚠️ Do not use a chandelier with a downward-facing opaque shade** — it casts a shadow line around the room's perimeter, **adding another horizontal line**, which is the opposite of the goal. **Prefer an upward-facing shade, and sconces throwing light onto the ceiling.**

@@ -81,3 +81,14 @@ Three of this backlog's pages were touched by the Кузина Round 1 intake. *
 - **`Flooring_Installation_and_Baseboards.md`** gained content as a **`###` subsection nested under the existing threshold-sealing section**, adding no top-level heading — that page's flag is unchanged by this round.
 
 **Convention worth generalising from this round**: when a batch adds several sources to an already-fragmented page, give the whole batch one top-level heading and nest per-source content beneath it. It keeps the section count flat and it groups material that a future merge pass would want together anyway.
+
+## Update after Кузина Round 2 (2026-09-01)
+
+Round 2 added substantial content to three pages already on this backlog, and created a fourth candidate. **Fragmentation was avoided — every addition went under one top-level heading per source with `###` subsections, per the convention adopted after Round 1 — but the *size* problem got worse on two pages.**
+
+- **`17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md`** — was #3 on the split list at 33 sections / 564 lines; **now 36 sections / 636 lines.** It gained the ornament scale-hierarchy rules, the wood-finish rules and the metal-finish rules. **This is now the most urgent split on the list, and it has an obvious seam: pattern/ornament combination, wood finishes, and metal finishes are three coherent topics that arrived together and would separate cleanly.**
+- **`17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement.md`** — **now 23 sections / 664 lines**, the longest detail page in this folder. It absorbed the Round 1 planning method, the low-ceiling furniture rules, the irregular-geometry material and the small-apartment box technique. **Newly flagged; a plausible seam is planning *method* versus room-shape *remedies*.**
+- **`13_Surfaces_and_Finishes/Ceilings_Guide.md`** — **now 486 lines / 21 sections**, over the 350-line guide threshold. The low-ceiling section is self-contained and is the natural first `analysis/` page to carve out.
+- **`Neutrals_and_Earth_Tone_Palettes.md`** and **`Doors_and_Trim.md`** also grew but remain coherent single topics.
+
+**⚠️ Neither round attempted a split.** Splitting is the deliberate, verify-afterwards operation this file already describes, and doing it mid-intake would have mixed two kinds of change in one commit. **Recorded here rather than silently deferred.**

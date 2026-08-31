@@ -594,3 +594,71 @@ From lagom decluttering literature, and she uses it as the analogy for the whole
 
 - **"In one evening you can only make a very bad layout"** — furniture scattered with no thought given to the occupants' actual needs.
 - **"Layout is not about an изюминка."** Aimed at people hunting a special twist on 10 m²: **don't reinvent the wheel unless you are a strong architect. Layout is the logic and functionality of space; the twist comes from textiles, decor, or interesting furniture shapes.**
+
+## ⚠️ Furniture Height in a Low Room — the Proportion Rule, and Why Low Furniture Usually Fails (Надежда Кузина, added 2026-09-01)
+
+Part of the low-ceiling strategy on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]]. [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
+
+- **⚠️ It seems that low furniture suits a low room. What actually matters is the proportion between the furniture's height and the strip of wall above it — and the two must be noticeably different.** Either the furniture is much taller with a band of wall above, or much lower with more wall above. **"Пополам" — half and half — is the worst possible case.**
+- **⚠️ And do not use low furniture in a *small* room — a low ceiling is not the same problem as a small room.** In a 100 m² room with ribbon windows and a view, low furniture is excellent because it emphasises the horizontal; **she cites Frank Lloyd Wright's Prairie House as the deliberate version.** In an ordinary ~20 m² room it fails.
+- **Her analogy for why**: low furniture in a small room is like cropped trousers — superb on the few people built for them, and on everyone else simply reading as ill-fitting or outgrown. **"Я бы ставила скорее обычную мебель, чем специально искала низкую."**
+- **Verticals that do work**: mirror inserts (she flags the behind-the-nightstand version as common and rather banal); **elongated niches with fixtures or shelves inside**; a projecting wall section built into the ceiling with a light niche around its contour (a risalit with perimeter ceiling light), which she suggests using behind a bed headboard; and **niches with shelving dividing a wall into three vertical segments.**
+- **Bedroom: a headboard running to the ceiling, or soft wall panels acting as one — composed of several vertical segments** so it carries upward movement rather than reading as one block.
+- **Furniture on invisible legs (clear acrylic) adds airiness.** It does not stretch the room upward but it lightens it.
+
+## Irregular Apartment Geometry — Push the Defect Into the Circulation (Надежда Кузина, added 2026-09-01)
+
+The corner-specific treatments are above; this is the whole-flat version, and the **second Кузина source** on the topic. [source: [[_Sources/YT_VBMzas01VRs_kuzina_irregular_apartment_geometry|YT_VBMzas01VRs]]]
+
+### What is actually wrong with it — two costs, not an aesthetic complaint
+
+1. **Loss of square metres** — the central part of such a flat cannot really be used, serving only as circulation to the rooms around its perimeter.
+2. **Without right angles, bulky furniture can usually go only in the centre or along a single wall** — the sofa, the bed — **which limits the layout options available at all.**
+
+**Some irregularities are a find rather than a defect** — but the qualification is the useful part: an irregularity is only an asset **if it happens to suit the intended direction.** Distinctive window shapes read as a feature — until the client wants neoclassical, at which point they must be worked around.
+
+### ⚠️ The governing move: straighten the *habitable* volumes at the expense of circulation and storage
+
+**"Лучше иметь кривой коридор, чем кривую спальню"** — and better a crooked dressing room than a crooked living room. **Push the irregularity into the spaces where it costs least.** If you own such a flat, she treats replanning as a given rather than an option.
+
+- **Combining rooms is the strongest wall-level move: the larger the room, the less noticeable the shape defect.** Her example carries two pylons, one protruding mid-room and preventing a sofa sitting flush — **but volume, good light and large windows mean the geometry stops mattering.**
+- **⚠️ And the consequent furniture rule: when you combine zones and get an irregular room, pull the furniture off the walls and group it by function.** Had her Scandinavian example not combined kitchen and living, the living room would have been "кусок пиццы" taking one sofa along one wall and nothing else.
+- **Inward-projecting corners** — usually from pylons and ventilation ducts — carry a durability cost as well as a visual one: **materials at that junction often come out untidy and wear faster.** (Consistent with the wear framing in the corner section above.)
+
+### Furniture — the islands technique, and a real cost lever
+
+- **⚠️ Build independent "islands."** Where walls cannot move, hide the problem with strategic placement. Her own project — a living room semi-circular in plan — got **two islands**: one axis on the sofa with a centred table and two pouffes, and **a second axis not tied to the architecture at all** with two armchairs, floor lamps and another table. **Use paired items to emphasise symmetry — "так оно лучше читается."** The pairing is what makes an invented axis legible.
+- **Or lean on the architecture instead**: orient furniture to a skewed wall, which adds dynamism. **Scoped by length — "если у вас скос 30 сантиметров, то не нужно на него ориентировать мебель."** Run the rug along it too, or lay the flooring perpendicular to that angle.
+- **⚠️ Non-standard furniture will be required, and here is why**: in a room under **~20 m²**, any bulky right-angled object **emphasises** the irregular shape. Triangular or radiused rooms will not take standard furniture at all.
+- **⚠️ The cost lever, and it is the most practical item**: a wardrobe along an irregular wall, **divided into regular modules of roughly 60–65 cm that turn as the wall turns, with a single non-standard corner element joining the two runs.** Standard construction elements everywhere except the one joint is what brings the price down.
+
+### ⚠️ The counter-intuitive option — make it *more* irregular
+
+If a distortion already exists, adding more is not hard: **"как спрятать иголку в стоге сена или дерево в лесу."** Two floor coverings whose joint turns, echoed by a matching joint on the ceiling, so a niche reads as a volume cut into the room's volume; arches and vaults. Or an entrance door obviously angled to the kitchen wall, reading as an error **until furniture "как масло, отрезанное ножом" makes the whole configuration appropriate.**
+
+**Decorative distractions**: an artwork placed deliberately on a pylon, after which it reads as a gallery stand rather than an accident; **two distinct colour strategies** — bright colour to *distract* from a problem zone, or painting the problem zone in a shade that *continues onto other zones*, dissolving it; and **a large mirror panel undivided into diamonds or squares**, which reads as an extra opening and adds light and air.
+
+**Her overall verdict, worth recording plainly**: working with an irregular interior is difficult, **in most cases it is a disadvantage rather than an advantage, and the disadvantage entails additional expenditure.**
+
+## Small Apartments — "Работа с коробкой," and Furniture That Breaks Two Planes (Надежда Кузина, added 2026-09-01)
+
+From a video framed as a rebuttal of the standard small-apartment advice. **The colour half of that rebuttal is a genuine disagreement with Шеврина/SMBUREAU and is recorded as a Perspectives block on [[17_Design_and_Ergonomics/analysis/Color_Palette_and_Material_Direction|Colour Palette & Material Direction]].** [source: [[_Sources/YT_E6nYBdz9NhM_kuzina_small_apartment_rebuttal|YT_E6nYBdz9NhM]]]
+
+### ⚠️ The mechanism the received advice never states
+
+Entering a room you are in a box. **The brain judges the area by seeing where the ceiling ends, where the walls are, and where the floor begins and stops.** **To stop the brain measuring, blur or remove the boundaries between those planes.** Everything else follows from this.
+
+- **Give the eye emptiness or perspective to look into** — a window with a good view, or **a large opening to the adjacent room, deliberately not a normal doorway and not filled with a door.** The rooms stay separated but **the eye stops hitting a wall right in front of it.** Potentially transformative for an **8–10 m² bedroom**.
+- **⚠️ Two scoped exceptions, both from consultation experience**: where the kitchen is permanently untidy; **and specifically the room-plus-hallway combination, because a hallway is nearly always cluttered or dirty with boots.** *(Independently restates her rule that habitable rooms should not see the hallway.)*
+- **Break the upper boundary** — a wall stopping short of the ceiling, or **a glazed transom above it**, so the eye reads the ceiling continuing into the next space. Her example does both, plus omits the door entirely so the shower wall simply *is* the bedroom wall.
+- **Mirrors imitate the effect where there is no adjacent room — and the placement is specific: press the mirror into a corner.** Against the ceiling it reads like a window; into the corner between two walls as a strip of good proportion, not too wide, it breaks the corner.
+- **⚠️ Two cautions she attaches, which is what separates this from the standard advice.** **Mirrors complicate spatial orientation and in a small room cause real discomfort** — you keep half-worrying about walking into one. **The same for transparent furniture**: it does dissolve visually, **but you feel you do not quite command the space, and a transparent table is not convenient to use.**
+- **Shorten a wall in length, not only in height** — a small partition mid-room screening the principal zone, e.g. the view of the bed.
+
+### ⚠️ Furniture detached from both floor and ceiling — a two-plane zoning device
+
+Zone with furniture **detached from both floor and ceiling**, so the eye slides beneath and above it and **one space seems to flow into another across two planes at once.** Requires very stable fixing to floor and ceiling where there is no wall behind.
+
+**Or detach from the floor only.** With a wardrobe this costs storage — **upper shelves are less convenient than lower ones, and long clothes become hard to hang** — but it adds real air to a bedroom that previously had a floor-standing wardrobe in the same position.
+
+**Upholstered furniture: reduce the footprint by omitting armrests** — or, where space allows, no armrests instead yields extra seating on the same piece.
