@@ -48,6 +48,25 @@ STUB_FILE = "CLAUDE.md"
 ROUTER_TARGET_LINES = 150
 ROUTER_MAX_LINES = 200
 
+# Two exemptions, both found by running this check against a clean repo on
+# 2026-08-31 and watching it flag things that are not defects:
+#
+#   SELF_PATH  - this file necessarily contains every pattern it searches for.
+#                Same self-reference trap as tools/verify_batch.py's SELF_PATH
+#                and scripts/verify_batch_selftest.py's fixtures.
+#   HISTORICAL - a file may legitimately DESCRIBE the migration away from agent
+#                memory. 00_Master/project_decisions.md records that its content
+#                was drained out of ~/.claude/projects/.../memory/, which is
+#                history, not a live dependency. The defect this check exists to
+#                catch is a POINTER - "see <note> in this machine's Claude
+#                memory" - because that resolves to nothing for Codex, for
+#                Antigravity, or for Claude on another machine. Prose about the
+#                past resolves to nothing either, but nobody is meant to follow
+#                it. A file declares the exemption explicitly with the marker
+#                below, so the check is never silently weakened for a new file.
+SELF_PATH = "tools/verify_agent_readiness.py"
+HISTORICAL_MARKER = "memory-reference: historical"
+
 # Patterns that indicate a git-tracked file reaching into agent-private memory.
 MEMORY_LEAK_PATTERNS = (
     r"claude memory",
@@ -128,9 +147,16 @@ def contract_2_skill_resolution() -> tuple[list[dict], list[str]]:
 
 def contract_3_no_memory_leaks() -> list[dict]:
     findings = []
+    exempt = {SELF_PATH}
+    code, out = run_git(["grep", "-lIF", HISTORICAL_MARKER, "--", "."])
+    exempt.update(line.strip() for line in out.splitlines() if line.strip())
+
     for pattern in MEMORY_LEAK_PATTERNS:
         code, out = run_git(["grep", "-In", "-E", pattern, "--", "."])
-        hits = [line for line in out.splitlines() if line.strip()]
+        hits = [
+            line for line in out.splitlines()
+            if line.strip() and line.split(":", 1)[0] not in exempt
+        ]
         # git grep exits 1 on no match, which is the passing case here
         findings.append({
             "contract": 3, "check": f"no_leak:{pattern}", "ok": not hits,
