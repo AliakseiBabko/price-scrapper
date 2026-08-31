@@ -1,10 +1,53 @@
-# Smart Home Appliance Scraper & Comparison Engine
+# Apartment Renovation Knowledge Base
 
-A modular scraping tool and data comparison engine built using **Node.js (TypeScript)**, **Playwright**, and **SQLite**. 
+A personal planning vault for one apartment renovation, built from ~813 source
+extraction notes — mostly Russian-language YouTube practitioner sources —
+routed into ~243 wiki pages across room and topic folders.
 
-This tool is designed to fetch actual local market data (prices, technical specifications, and customer reviews) from marketplaces (initially `catalog.onliner.by`) using target API query parameters, allowing you to ask analytical questions (compatibility matching, technology comparisons, budget optimization) directly in this chat or compile research files for **Obsidian**.
+It also contains the marketplace price scraper the project started as, which
+now serves it as one component. **Those docs are at the bottom of this file.**
+
+> [!IMPORTANT]
+> **If you are an AI agent, read [AGENTS.md](./AGENTS.md) instead of this file.**
+> It is the shared entry point for Claude Code, Codex and Antigravity, and it
+> carries the standing rules, the tool list and the skill map. This README is
+> orientation for a human.
+
+## Layout
+
+| Path | Contents |
+| :--- | :--- |
+| `_Sources/` | Extraction notes, one per source — raw evidence |
+| `_Knowledge/store/` | Intermediate store: durable facts, heuristics, numeric data, source index, change log |
+| `00_Master/` | Project docs, deliverable roadmap, processed-source ledger, FX reference, page-format convention |
+| `01_`–`17_` | Room and topic wiki folders: a compact guide page plus `analysis/` detail pages |
+| `_Archive/` | Archived transcripts, hashed for provenance |
+| `_Inbox/planning/` | Channel triage plans and backlogs |
+| `.agents/skills/` | Project-specific agent skills |
+| `tools/` | Python tooling for intake, verification, pricing and drawings |
+| `src/`, `data/` | The price scraper (below) |
+
+## Working on the vault
+
+```bash
+python tools/youtube/preflight_playlist.py <url>   # dedup before fetching
+python tools/verify_batch.py --base <ref>          # run before every commit
+python tools/check_page_sizes.py                   # page split / fragmentation check
+python tools/build_knowledge_base_index.py         # rebuild the numeric index
+```
+
+The intake pipeline is documented in
+`.agents/skills/renovation-knowledge-intake/SKILL.md`; page shape in
+`00_Master/wiki_page_format.md`.
 
 ---
+
+# Component: Smart Home Appliance Scraper
+
+A modular scraping tool and data comparison engine built with **Node.js
+(TypeScript)**, **Playwright** and **SQLite**, fetching prices, specifications
+and reviews from marketplaces (initially `catalog.onliner.by`). It supplies the
+appliance pricing used by `15_Appliances/` and the budgeting pages.
 
 ## 🛠️ Project Setup
 
