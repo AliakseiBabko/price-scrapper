@@ -881,3 +881,41 @@ Dated, per the same practitioner. Her account of why it happened: people wanted 
 
 [source: [[_Sources/YT_haM4H-b-bZM_shevrina_bathroom_tile_selection|YT_haM4H-b-bZM]]] [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
 
+## Wallpaper — Why Designers Don't Specify It (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+Except locally and deliberately — a headboard, in genuinely good paper with proper substrate prep — **she says designers won't specify wallpaper**, and gives two reasons that are about behaviour over time rather than taste:
+
+- **It was never designed to be a durable covering** and will start lifting at joints and corners.
+- **⚠️ It cannot be restored, and paint can.** Her worked example: she plastered and repainted a single section over a settlement crack in her own flat with no visible difference — "было просто великолепно." Wallpaper offers nothing equivalent, and the same applies to a scratch from a cat, dog or child.
+
+**⚠️ Myth corrected: wallpaper does not hide cracks — it accentuates them.** A settling building cracks, and wallpaper draws the eye straight to those places. On reinforcing mesh as an answer she is dismissive: for real cracks it is "как пластырь на дыру в асфальте."
+
+[source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
+
+## Microcement in Wet Areas — a Composition-Based Defence (added 2026-08-31)
+
+Addressing the fear of using microcement in a shower: **microcement is not paint.** Its composition is **cement + polymers + quartz sand in various fractions**, and quartz is highly wear-resistant — she analogises to quartz being the most durable worktop material. **It is used in public high-traffic spaces on both walls and floors.**
+
+Her conclusion: reliable in a bathroom's dry, damp **and wettest** zones — **and it can be applied to the ceiling**, which is what delivers a single-finish "box" effect where porcelain cannot (porcelain is too heavy for a ceiling). **The finish is controllable**: different application methods and aggregate fractions give either a mottled look or something reading as plain paint.
+
+Complements the coarse-vs-fine fraction material already on this page, and the microcement-over-a-heated-wall technique.
+
+[source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]]
+
+## Headboard and Feature Wall Materials — What Each Look Actually Is (added 2026-08-31)
+
+A reverse-engineering taxonomy, useful when working from reference photographs:
+
+- **Gypsum panels** (гипсовые панели).
+- **A trowelled decorative-plaster texture** — **genuinely DIY-able with a square trowel**, or done by a decorative-plaster applicator.
+- **MDF panels in veneer**, or **laminated chipboard** (Egger named as a recognisable laminate).
+- **Fabric wallpaper** — the "textile on the wall" look.
+- **Microcement / decorative plaster.**
+- **⚠️ Recessed groove/slot details made with a dedicated profile**, set into the wall at rough stage and painted over afterwards. **She is emphatic that this has superseded MDF-panels-in-enamel for producing the same rhythm** — "не надо бежать и тратиться на них; просто возьмите профиль, это недорогое удовольствие." **Third statement of this from the channel.**
+- **Porcelain**, or **wide-format ceramic**.
+- **Upholstered headboards** — made by sofa and bed manufacturers, not joinery shops.
+
+**⚠️ This resolves a thickness inconsistency flagged in Round 2.** `z4G-ocStu9o` gave thin ceramic as "up to 6 mm"; `KI2GvB0jzHs` gave "3–5 mm". This source gives **"примерно 3–6 мм, плиты около 3 м × 1 м"**. **Read the reconciled figure as ~3–6 mm thick, in slabs up to about 3 m × 1 m.**
+
+[source: [[_Sources/YT_nYvqqkNeS4k_shevrina_bedroom_lighting_and_headboard|YT_nYvqqkNeS4k]]]
+

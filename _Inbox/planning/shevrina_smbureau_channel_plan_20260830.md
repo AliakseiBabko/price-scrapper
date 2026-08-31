@@ -157,7 +157,63 @@ All 8 fetched cleanly in Russian at 75 s spacing with `--languages ru` forced; n
 
 **Three of the eight were brand-by-brand surveys of Russian furniture SKUs**, and roughly half of each runtime is per-model aesthetic verdicts. **None of those were extracted** — taste, market-specific, time-decaying, failing this project's value criteria. Only the reasoning underneath was kept. So ~55 minutes of furniture video produced comparatively compact pages, and the yield figures for those three (8, 9, 6) are lower than the rest of the round for that reason. **This is the weakest content type this channel produces**, and further brand surveys should be deprioritised in favour of the mistakes/podcast/critique formats.
 
-## Recommended Round 3 (awaiting user go-ahead)
+## Round 3 — completed 2026-08-31
+
+**8 of 8 processed, none skipped. Round 3 yield: 8 videos, 88 new facts, 11.0 per video** — up from Round 2's 9.75 and Round 1's 9.0. **Three rounds, 24 videos, no decay.** Routed across sixteen pages in eight folders.
+
+**Preflight re-run first**: 16 duplicates correctly deduped, 21 fresh, still 37 videos total. **No PODCAST 02 exists**, so that planned Round 3 item was dropped and the slot given to `nYvqqkNeS4k` (bedroom), which feeds this project's actual Phase 1 bedroom.
+
+| Video | Yield | Note |
+|---|---|---|
+| `nYvqqkNeS4k` bedroom | 13 | Densest single-source lighting addition this vault has had |
+| `TUVsZ1Xx1aQ` bad decisions | 12 | Forced the stretch-ceiling revision |
+| `9h2tAnm6rqA` small flat | 12 | Extended the mirror rules; furniture-to-the-centre |
+| `p5lXLETWI5s` critique | 12 | Supplied the near-miss mechanism |
+| `Bnuim5NjgCU` minimalism | 11 | Island-by-configuration; tone count |
+| `HImsHPnSh-c` bathroom | 10 | Microcement wet-area defence; concealed-profile timing |
+| `AFBu0Uv-47U` bad designer | 9 | First designer-vetting source in the vault |
+| `A5G04uPvzL0` critique | 9 | Mid-century component checklist; pendant height |
+
+### ⚠️ Selection by format was the right call, and it is now evidenced
+
+Round 3 was chosen **entirely by format rather than topic**, on the basis of two prior rounds. **Every one of the eight was a FULL extraction** — the first round with no partials. Compare Round 2, where the three brand-survey videos yielded 8, 9 and 6 while the podcast and mistakes videos yielded 12 and 13.
+
+**Standing conclusion for this channel: prioritise podcast > mistakes > subscriber-critique > room-specific, and deprioritise brand surveys and trend listicles.**
+
+### Three corrections to earlier rounds
+
+All three came out of the step-5a routing pass, which is what that step is for:
+
+1. **⚠️ The stretch-ceiling Perspectives block on `Ceilings_Guide.md` was substantially revised, and its conclusion changed.** Round 1 recorded her flood argument as weak (correctly — RemProektMD have a documented contained flood) and her fit-out sequencing point as her only strong contribution. `TUVsZ1Xx1aQ` supplies a third argument stronger than either: **manufacturers publish 2.5% sag, giving ~7 cm at centre on a room over 8 m²**, independent of installer skill or membrane price. The arithmetic cross-checks. The block now says the original assessment understated her case.
+2. **A numeric conflict flagged, not resolved**: reverse-swing doors are **+20%** in Round 2's bill-of-quantities video and **~+30%** here. Both recorded; the cost video noted as better-evidenced; the **ordering** (floor-to-ceiling is a smaller premium than reverse-swing) is what survives either way and is what the advice rests on.
+3. **A Round 2 inconsistency resolved**: thin large-format ceramic was "up to 6 mm" in one video and "3–5 mm" in another; `nYvqqkNeS4k` gives "~3–6 mm, slabs ~3 m × 1 m".
+
+### A new Perspectives block
+
+**Tone count** (`Neutrals_and_Earth_Tone_Palettes.md`) — a genuine four-way disagreement. Shevrina states the low-count position **three separate times in this round**, against Vittoria Selina ("stretch the beige across several lightnesses") and Студия Wall Street ("three to five coffee tones"), with Надежда Кузина between the poles. **Scope may explain much of it** — Shevrina scopes hers to architectural minimalism and, in the strongest version, to small flats — and that is said rather than assumed.
+
+### Other firsts
+
+- **First designer-vetting content in the vault** — two kickback schemes with percentages, the client-to-shop direct-payment defence, and three questions for a first meeting. `Estimate_and_Contract_Templates.md` previously had nothing on engaging a designer.
+- **Two more Russian-jurisdiction claims kept out of `16_Legal_and_Regulations/`**, consistent with Round 2.
+
+## Recommended Round 4 — and a stopping recommendation
+
+**16 videos remain. I'd process at most 3 more, then stop.**
+
+Worth doing:
+
+1. **`k1YBZzIMAgw`** (MUJI vs scandi/japandi/minimalism) — style differentiation. Lower actionability, but she is a minimalism specialist and this is the one remaining video on her core subject.
+2. **`F-rn8udbmco`** (Design Shanghai) — an exhibition video, normally Tier 3, but the only source on the channel that might carry market/trend observation from outside the Russian market.
+3. **`Dz_n3257JFQ`** (trends 2023) — only to close out the trend content; expect little.
+
+**Not worth doing, and the pool is now genuinely thin**: `Vv1oLfRd7rM` (third anti-trend video, overlaps two already processed), the four single-project showcases (`C7j7NSwlJVk`, `yyVKaoD-ag4`, `FeS2eypPmX4`, `d7xxUkVzAlA`), the two remaining exhibition videos (`f3T2XC0lcjs`, `Yi_ONPfxSUs`), and the three career videos (`WfJpgwStO1s`, `fN8wJAEz2zM`, `GvjT1mNRaiQ`).
+
+**⚠️ Recommendation: treat the channel as substantially exhausted after 24 of 37 videos.** Every format that produces mechanism-and-number content has now been mined; what remains is showcase, event and career content plus one style explainer. **A Round 4 would likely fall below the 1.0 facts/video floor** on anything except item 1. Better to re-run preflight in a few months to pick up new podcast episodes — that format was the single richest source across all three rounds — than to work down this tail.
+
+---
+
+## Superseded — the Round 3 recommendation as originally scoped
 
 Ordered by expected yield, now informed by two rounds of evidence about which formats actually pay:
 

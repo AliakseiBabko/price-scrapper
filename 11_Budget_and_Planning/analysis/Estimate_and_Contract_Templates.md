@@ -253,3 +253,15 @@ exists*.
 - [[11_Budget_and_Planning/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case Study]].
 - [[_Sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|Maxim Novikov — design-project structure and staged-approval cost rationale]] (2020-12-01).
 - [[_Sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|Konstantin Kruglov/Ontario — smeta wording-ambiguity traps and discount tricks]] (2025-06-27).
+
+## Designer Engagement Terms — What the Contract Must Say (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+This page covers estimates and contracts with builders; **it had nothing on engaging a designer.** From a source specifically about how designers defraud clients:
+
+- **⚠️ The payment scheme for design services and for procurement (комплектация) must be written into the contract** — not agreed verbally.
+- **⚠️ Agree the discount split explicitly and in advance**: who takes how much of any trade discount, and how much reaches the client. Ask at the first meetings; a competent designer answers clearly.
+- **⚠️ Payment for goods should flow from the client directly to the shop**, never through the designer's own account. "У каждого своя зона ответственности." This is the structural defence against invoice padding.
+- **An alternative that removes the incentive entirely**: pay the designer a proper fee, or a fixed monthly amount, rather than leaving them to make their margin on procurement.
+
+Full detail, including the two kickback schemes, in [[11_Budget_and_Planning/Budgeting_Guide|the Budgeting Guide §5c]]. `single-account`, `unverified`, Russian market. [source: [[_Sources/YT_AFBu0Uv-47U_shevrina_bad_designer_kickbacks|YT_AFBu0Uv-47U]]]
+

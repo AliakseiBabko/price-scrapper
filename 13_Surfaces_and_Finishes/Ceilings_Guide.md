@@ -379,21 +379,28 @@ material itself.
 
 `single-account`, `unverified`.
 
-## Perspectives on Record — A Blanket "Never" on Stretch Ceilings (added 2026-08-30)
+## Perspectives on Record — A Blanket "Never" on Stretch Ceilings (added 2026-08-30, **substantially revised 2026-08-31**)
 
-**Мария Шеврина / SMBUREAU** state a categorical position against stretch ceilings that runs against most of this page. It is recorded here as a dissent rather than folded into the comparisons above, and **one half of her argument is directly contradicted by evidence already on this page.**
+**Мария Шеврина / SMBUREAU** hold a categorical position against stretch ceilings that runs against most of this page.
 
-| Her argument | How it stands against what this page already holds |
+> [!IMPORTANT]
+> **This block was revised on 2026-08-31 and the revision changes its conclusion.** As first written it recorded her flood argument as the weak half — correctly — and her fit-out sequencing point as her only strong contribution. **A second video from the same studio then supplied a third argument that is stronger than either, physical, and sourced to manufacturers' own published data.** The original assessment understated her case and is corrected below rather than left standing.
+
+| Her argument | How it stands |
 |---|---|
-| **The flood-protection argument fails**, because a contemporary interior has many light penetrations through the membrane and water finds its way through anyway | **⚠️ Contradicted by a documented incident.** RemProektMD record a real upstairs-neighbour flood **fully contained** by an already-installed PVC-film stretch ceiling — the film bulged but held all the water, protecting the engineered-wood floor beneath entirely. Her reasoning about penetrations is plausible in principle but is not what happened in the one real case on record here. **Treat her flood claim as the weaker side of this disagreement** |
-| **⚠️ The membrane is installed before the last fit-out trades arrive, and one careless movement by a furniture fitter puts a hole in it** — after which you are patching or replacing the whole sheet | **A genuinely new point on this page, and the stronger half of her case.** This page covers acceptance checklists, seam limits and cost comparisons, but not sequencing risk from *subsequent* trades. Consistent with the existing "Pre-Work Liability Act" material, which addresses damage liability from the other direction |
+| **⚠️ Sag is unavoidable and manufacturers publish the figure: 2.5%.** Her worked consequence — **on a room already exceeding 8 m², centre sag can reach 7 cm.** The cause is gravity acting on a soft material, so it is **independent of installer skill, of membrane price, and of whether an air vent is fitted.** Sag shows worst where the membrane is drawn in around spots and tracks | **The strongest argument on this side, and new to this page.** The arithmetic is internally coherent: 2.5% of a ~2.8 m span is 70 mm, consistent with a room "exceeding 8 m²". She reports attending 4–5 manufacturer presentations of premium European membranes priced above a plasterboard ceiling and still seeing the defect at the fixture junctions. **The 2.5% is attributed to membrane manufacturers' own technical data and is checkable against any manufacturer's sheet — worth doing before relying on it** |
+| **The flood-protection argument fails**, because a contemporary interior has many light penetrations and water finds its way through anyway | **⚠️ Still contradicted by a documented incident.** RemProektMD record a real upstairs-neighbour flood **fully contained** by an installed PVC film — it bulged but held, protecting the engineered-wood floor. **This remains the weakest part of her case** |
+| **The membrane goes in before the last fit-out trades, and one careless movement puts a hole in it** — then you patch or replace the whole sheet | A real point this page didn't cover; complements the existing "Pre-Work Liability Act" material from the other direction |
+| **Can't be painted, can't be locally restored, can't move a pendant later** if you reposition the table beneath it | Straightforward maintainability limits, not in dispute |
 | Cats | Anecdotal; recorded for completeness only |
 
-**Common ground.** She is not disputing cost or speed — the two advantages this page's other sources rest on (2–3× cheaper than painted drywall; one day versus two weeks). Her objection is about durability-in-use and about a design preference for an unadorned ceiling plane, and her recommended alternative is consistent with that: **plaster the existing structural slab and use surface-mounted fixtures**, which she argues is both cheaper than a plasterboard ceiling and aesthetically preferable — a point she makes again in her cost analysis, where GKL ceilings dominate the ceiling line.
+**Common ground.** She does not dispute cost or speed — the two advantages this page's other sources rest on (2–3× cheaper than painted drywall; one day versus two weeks). Her objection is durability-in-use and finish quality.
 
-**Your priority.** Not yet decided. The deciding factors are the ones both sides actually name: **how much of your lighting penetrates the ceiling plane** (which is what her flood argument turns on, and which a spot-heavy scheme maximises), and **whether the ceiling goes in before or after the furniture fitters**.
+**⚠️ And her alternative is cheaper than the comparison this page usually makes.** She recommends **plastering the existing structural slab, chasing the wiring into that plaster, and using neat surface-mounted fixtures** — which she states is **cheaper than a plasterboard ceiling**, not merely a premium alternative to stretch. That reframes the choice: this page has largely treated it as stretch-versus-plasterboard, and there is a third option that is cheaper than one and (on her account) better-looking than the other.
 
-[source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]] [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+**Your priority.** Not yet decided, but the deciding factor has shifted. It is no longer mainly the flood question — it is **how much sag you will actually see**, which scales with the room's span and with how many spots and tracks penetrate the membrane. A small bathroom is a different proposition from a 4 m-wide living room with a spot-heavy scheme. **The cheap test before deciding: ask the installer for the membrane's published sag percentage and multiply it by your longest span.**
+
+[sources: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]], [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]], and for the contradicting flood incident see this page's RemProektMD section above]
 
 ## Do's
 

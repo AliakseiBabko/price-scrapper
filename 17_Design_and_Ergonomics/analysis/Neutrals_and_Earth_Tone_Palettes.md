@@ -227,3 +227,40 @@ Traceability record kept on its own page — [[17_Design_and_Ergonomics/analysis
 ## Change Log
 
 Editorial history kept on its own page — [[17_Design_and_Ergonomics/analysis/Change_Log|Change Log]].
+
+## Perspectives on Record — How Many Tones of One Colour? (added 2026-08-31)
+
+A genuine disagreement between practitioners already in this vault, surfaced by three separate statements of one position in the Shevrina Round 3 batch.
+
+| Source | Position | Stated reasoning |
+|---|---|---|
+| **Vittoria Selina** | **Stretch the colour across several distinct lightnesses.** Neutral beige walls, lighter curtains, a slightly darker sofa, wooden chairs in another tone again — and explicitly *don't* carry a swatch around matching things exactly | Different lightnesses of one colour is what makes a room read three-dimensional "instead of the flat, impersonal monochrome that gives beige its bad reputation" |
+| **Студия Wall Street / Виктор** | **Three to five coffee tones together**, deliberately not matched — "смело миксуйте: венги плюс выбеленный дуб, песок плюс орех" | The mix "придаёт интерьеру глубину" |
+| **Надежда Кузина** | **Two or three colours; generate variety through lightness spread and texture, not more hues** — and watch the spread rather than the specific hue | Too-similar shades give "не глубина, а грязь"; the eye can't separate them |
+| **Мария Шеврина / SMBUREAU** | **Fewer tones, and the smaller the space the fewer** — for a very small flat, **one colour in one tone throughout**. Also **one wood tone only** in an interior, rejecting the common "up to three is fine" advice | Deliberately varying tones to avoid boredom produces "безвкусица", not minimalism. Eyedropper every surface and "получится просто палитра производителя красок." Minimalism achieves interest through **texture, material and gloss level** instead |
+
+**Common ground, and it is real.** All four reject *exact* tone-matching across objects, and all four agree that a flat single tone applied uniformly fails. **Кузина sits between the poles and is the most reconcilable with everyone**: she wants lightness spread *and* a capped hue count *and* texture doing the work.
+
+**Where they actually differ**: what carries the variation. **Vittoria Selina and Wall Street put it in the tones themselves; Shevrina puts it in texture and material and wants the tones held still.** Кузина wants it in lightness plus texture, with hue count capped.
+
+**Two things worth noting before treating this as a stalemate:**
+
+- **Scope may explain much of it.** Shevrina scopes her position explicitly to **architectural minimalism** and, in the strongest version, to **small flats**. Vittoria Selina's advice is for an all-beige room of unstated size. These may be compatible positions about different rooms rather than a real contradiction.
+- **Shevrina's is the only position with a stated scaling rule** — fewer tones as the area shrinks — which makes it the easier one to apply to a specific room rather than in the abstract.
+
+**Your priority.** Not yet decided. **The deciding question all four implicitly agree on: what is doing the work of keeping the room from reading flat — the tones, or the textures?** Pick one and commit; the failure mode every source names is doing a weak version of both.
+
+[sources: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]], [[_Sources/YT_EipFPdVqNgs_wallstreet_2026_color_pairings|YT_EipFPdVqNgs]], [[_Sources/YT_n5ZBqdq0wH8_kuzina_earthy_palette_practice|YT_n5ZBqdq0wH8]], [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]], [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]], [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]]
+
+## Undertone Coordination Across Materials — a Worked Corrective (added 2026-08-31)
+
+The "dirty tile" causes recorded above are stated abstractly. **Мария Шеврина applies them to a real submitted interior and gives the fix**, which makes the rule easier to use:
+
+A concrete/microcement wall had been chosen in a **neutral grey**, in an otherwise warm interior. **Her corrective: make the concrete a touch warmer — and do the same with the chair fabric**, because the chairs currently matched the concrete but the pair matched nothing else in the flat.
+
+**Her general statement: an active concrete texture + a neutral or cool undertone, dropped into a warm interior, produces the dirt effect.** Note this is the *combination* that fails — an active texture alone, or a cool undertone alone, may be fine.
+
+She raises the same pairing failure for **wood + concrete**: not inherently bad, but people choose both textures too active — rustic wood plus heavily mottled concrete in the wrong undertone. She says it can be done well and that "коротко ответить, а как же надо, невозможно."
+
+[source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]] [source: [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]]]
+

@@ -84,8 +84,13 @@ def main() -> int:
     print()
     real_id = "yt_avRNMkNdOBs"
     bogus_id = "yt_totallyBogusXX"
-    real_hits = vb.repo_wide_id_hits(real_id, "nonexistent.md", None)
-    bogus_hits = vb.repo_wide_id_hits(bogus_id, "nonexistent.md", None)
+    # Exclude this file's own path: once this self-test is committed, the repo
+    # genuinely contains the literal bogus ID below, so a repo-wide grep finds
+    # it here and the case fails on its own existence rather than on a defect.
+    # exclude_path is exactly the parameter for that.
+    self_path = "scripts/verify_batch_selftest.py"
+    real_hits = vb.repo_wide_id_hits(real_id, self_path, None)
+    bogus_hits = vb.repo_wide_id_hits(bogus_id, self_path, None)
     for label, hits, want in (
         ("real id resolves", real_hits, real_hits > 0),
         ("bogus id stays unverifiable", bogus_hits, bogus_hits == 0),

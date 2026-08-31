@@ -250,3 +250,16 @@ Traceability record kept on its own page — [[17_Design_and_Ergonomics/analysis
 ## Change Log
 
 Editorial history kept on its own page — [[17_Design_and_Ergonomics/analysis/Change_Log|Change Log]].
+
+### The paint-article recommendation as a competence marker (added 2026-08-31)
+
+The section above records her position that no "perfect white" article exists. **A later video reframes it as a way to evaluate a designer**, which makes it useful beyond colour selection:
+
+**⚠️ A designer who publicly recommends specific paint article numbers as universally good is displaying incompetence** — her reasoning is that it means they painted **exactly one object** that colour and generalised from it, which she calls "чистой воды когнитивное искажение."
+
+**She includes her own past self** — "моё рыльце в пушку" — describing carrying a favourite warm white to a second and third project and getting "серовато-зеленоватый болотный" instead. She reports **running repeated experiments, buying extra sample pots specifically to test this**, and says there has not been a single case where the same article reproduced the result. Her conclusion: **"у дизайнера не может быть любимчиков."**
+
+Her attached warning about why publishing such advice is actively harmful: **"люди любят волшебные таблетки"** — someone will buy full tins for a whole flat sight-unseen, waste the money, and then blame the person who recommended it.
+
+[source: [[_Sources/YT_AFBu0Uv-47U_shevrina_bad_designer_kickbacks|YT_AFBu0Uv-47U]]]
+

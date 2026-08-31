@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=HImsHPnSh-c",
+  "video_id": "HImsHPnSh-c",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-31T07:08:33.900783+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e9d907ad331de52d94a43bd67178a937b63804a63c8458e00d652e4a379ec136",
+  "attempts_before_success": []
+}

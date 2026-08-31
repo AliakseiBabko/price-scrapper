@@ -145,3 +145,19 @@ The ergonomic objection points the same way: a hob at the edge means your elbow 
 
 [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
 
+## L- and U-Shaped Kitchens, and When an Island Actually Works (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+Scoped to minimalism, but the second and third objections are practical rather than stylistic:
+
+1. **Perceptual** — the brain prefers simple geometry; complex shapes visually weight and clutter an already small area.
+2. **⚠️ Material joins fail at the internal corner.** A wood worktop joins badly there, and **any directional decor — marble with pronounced veining — will not read as one continuous slab** once it turns the corner.
+3. **⚠️ The blind corner can never be fully used**, even with a "magic corner," and using it is awkward — so in practice it becomes where rarely-used items end up.
+
+**⚠️ And the correction worth having: whether an island works depends on the flat's *configuration*, not its area.** She designed a **37 m²** flat that took an island comfortably, and says a **70 m²** flat can be one where an island doesn't work. This directly contradicts the common "you need X m² for an island" rule of thumb.
+
+**She reaches the same conclusion from the opposite direction elsewhere**: an island *lightens* a small kitchen because it frees the wall verticals for the eye, where a run of cabinets against the wall does not — see [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]].
+
+**Her alternative to L/U**: tall floor-to-ceiling units along one wall, and lower (~90 cm) units perpendicular with wall cabinets above — simpler geometry, comparable capacity.
+
+[source: [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]]] [source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]]
+

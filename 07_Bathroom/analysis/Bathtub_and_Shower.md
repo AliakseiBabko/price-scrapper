@@ -318,3 +318,27 @@ The situation: the wall-to-wall dimension exceeds the bath, so something has to 
 
 `single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
 
+## Mixer and Shower Placement — Walk Your Own Scenarios (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+Explicitly against copying reference images: **don't put the spout, hand shower, overhead and mixers all on one wall just because that's what the photo shows.**
+
+Her worked example — a bath with a glass screen, in a household with a child or a dog:
+
+- **Hand shower and its mixer on the LONG wall, centred on the bath** — otherwise you reach across the glass screen to the far end every time.
+- **Overhead shower on the short wall**, where the height works.
+- **⚠️ But put the overhead's mixer on the long wall**, so you can turn it on before stepping in and let the water warm.
+- **She then raises the counter-argument against her own suggestion**: adjusting temperature while already standing under the overhead means bending and reaching. So the answer depends on which discomfort you would rather have — which is the point.
+
+**Her practice: split the components across walls** — mixers often on the long wall, overhead and head on the short wall, sometimes the hand shower with the mixers.
+
+## ⚠️ Concealed-Profile Glass Screens — Procurement and Timing (added 2026-08-31)
+
+This page already records the concealed profile as the preferred detail. **Here is how to actually get one:**
+
+- **If a glass-partition showroom says they can't do a concealed profile, leave and go elsewhere** — it means they have no experience of it and no profiles for it.
+- **It is not the builders' job.** "Не мучайте их, не пытайтесь сами там что-то колхозить."
+- **⚠️ Raise it BEFORE the tiling goes on.** Installation may be two-stage — **the profile fitted at rough stage onto the screed, and the glass only after finishing works.** Get this wrong and the detail is no longer available.
+- **⚠️ On a bath**: nobody cuts a niche into the tub. **The glass sits on the rim through a sealing tape** (or, less well, sealant) — **never bare glass onto the tub.**
+
+[source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]]
+

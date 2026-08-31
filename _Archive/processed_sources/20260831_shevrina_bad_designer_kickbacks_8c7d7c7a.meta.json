@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=AFBu0Uv-47U",
+  "video_id": "AFBu0Uv-47U",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-31T07:09:50.207215+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8c7d7c7a0ec8ce9b19daed16a5a6dff1b61ba96f6022ec12cf0ffe74b146332d",
+  "attempts_before_success": []
+}

@@ -1,0 +1,50 @@
+METADATA DONE
+=== A5G04uPvzL0 Mon Aug 31 09:02:11 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/shevrina_r3\20260831_A5G04uPvzL0_5495eaa6.txt
+Metadata saved to: _Inbox/transcripts/shevrina_r3\20260831_A5G04uPvzL0_5495eaa6.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 5495eaa653bc996cbe2841a13971ffb8a0bbd32ab3e2ba614975c3b208ebea30
+exit=0
+=== p5lXLETWI5s Mon Aug 31 09:03:27 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/shevrina_r3\20260831_p5lXLETWI5s_3e05a72d.txt
+Metadata saved to: _Inbox/transcripts/shevrina_r3\20260831_p5lXLETWI5s_3e05a72d.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 3e05a72d26faed1c84028b842ed13099d829d56177dcb15b52719a20c5d55788
+exit=0
+=== TUVsZ1Xx1aQ Mon Aug 31 09:04:43 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/shevrina_r3\20260831_TUVsZ1Xx1aQ_6d157b5e.txt
+Metadata saved to: _Inbox/transcripts/shevrina_r3\20260831_TUVsZ1Xx1aQ_6d157b5e.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 6d157b5e8f1607aadc2f3507090d77a01bfeec5cec14fb26985e8399bcf0c8c9
+exit=0
+=== Bnuim5NjgCU Mon Aug 31 09:05:59 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/shevrina_r3\20260831_Bnuim5NjgCU_851bec87.txt
+Metadata saved to: _Inbox/transcripts/shevrina_r3\20260831_Bnuim5NjgCU_851bec87.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 851bec87487472f188b89fbba56ad98d9a1fbc551f58834faf6b8edc271359c2
+exit=0
+=== 9h2tAnm6rqA Mon Aug 31 09:07:16 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/shevrina_r3\20260831_9h2tAnm6rqA_d1b8b767.txt
+Metadata saved to: _Inbox/transcripts/shevrina_r3\20260831_9h2tAnm6rqA_d1b8b767.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: d1b8b767afa2c3a3a27c9b1f23e61b192b7487e7fe178dca4d8800499c3e9722
+exit=0
+=== HImsHPnSh-c Mon Aug 31 09:08:32 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/shevrina_r3\20260831_HImsHPnSh-c_e9d907ad.txt
+Metadata saved to: _Inbox/transcripts/shevrina_r3\20260831_HImsHPnSh-c_e9d907ad.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: e9d907ad331de52d94a43bd67178a937b63804a63c8458e00d652e4a379ec136
+exit=0
+=== AFBu0Uv-47U Mon Aug 31 09:09:48 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/shevrina_r3\20260831_AFBu0Uv-47U_8c7d7c7a.txt
+Metadata saved to: _Inbox/transcripts/shevrina_r3\20260831_AFBu0Uv-47U_8c7d7c7a.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 8c7d7c7a0ec8ce9b19daed16a5a6dff1b61ba96f6022ec12cf0ffe74b146332d
+exit=0
+=== nYvqqkNeS4k Mon Aug 31 09:11:05 CEDT 2026 ===
+Transcript saved to: _Inbox/transcripts/shevrina_r3\20260831_nYvqqkNeS4k_0c956944.txt
+Metadata saved to: _Inbox/transcripts/shevrina_r3\20260831_nYvqqkNeS4k_0c956944.meta.json
+Method used: youtube-transcript-api (language=ru, generated=True)
+SHA-256 Hash: 0c9569447d80a4a53f1bdc1b292f59c81750b88f03c07e504e14b846e8770b51
+exit=0
+DONE

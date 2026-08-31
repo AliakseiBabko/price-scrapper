@@ -163,6 +163,55 @@ Coloured strip lighting is argued to cheapen an interior except in a deliberatel
 
 [source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
 
+## Bedroom Lighting — Three Scenarios, and Why Diffuse Light Can't Be a Night Light (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+The densest single-source lighting addition to this page. She treats all three scenarios as obligatory in a bedroom.
+
+**Scenario 1 — main ceiling light** (tracks and spots). **⚠️ She argues against relying on a chandelier alone: it doesn't light the room's corners adequately.** If a decorative pendant is wanted, **add at least one spot in each corner.** But she also **legitimises omitting ceiling light entirely** where the bedroom is genuinely only used for sleeping — her own previous flat had none, and she presents that as a valid choice rather than a compromise.
+
+**Scenario 2 — atmospheric evening light, on its own switch.** **⚠️ It must be both dimmed AND diffuse** — she stresses "рассеянный" repeatedly, because a narrow-beam fixture cannot do this job.
+
+- **⚠️ The headboard LED strip mistake, with the correct construction detail.** The usual approach — cut a niche and glue the strip in — **glares directly at you when you lie down or lean against the headboard.** **Correct: build a plasterboard backing and mount the strip in a corner profile so it throws light INTO the ceiling**, so only light reflected off ceiling and wall reaches your eyes. This is the construction-level version of the throw-it-upward rule already on this page from `NfHyCfo1J4w`.
+- **⚠️ Evening light must be warm — not above 3000 K.** Cool light rouses; warm promotes sleep. She states this as settled science; recorded as her stated rationale, `unverified`.
+
+**Scenario 3 — functional light** for named activities: reading in bed, a lounge chair. Walk your actual functions.
+
+### ⚠️ The distinction that makes this source valuable
+
+**Diffuse light cannot serve as a night light.** It spreads through the whole room, so switching it on at night wakes the person beside you.
+
+**For getting up at night you need the opposite — a directional fixture with a narrow beam, up to about 60°** — lighting only a small patch, e.g. the floor on your side of the bed. **The same fixture serves for reading in bed** while the other person sleeps, lighting only your page.
+
+Diffuse light *can* work as a night light **only if it sits low** (skirting backlighting), or is a small wall fixture, or is a strip placed around a corner or in a passage where a wardrobe blocks it from the other person. Her framing: **"думайте о втором человеке."**
+
+*Note the 60° figure is internally consistent with the kitchen source on this page, where ~60° is cited as the typical spot beam and treated as a* problem *(it causes worktop shadow). Here the same narrowness is the* virtue*. Same physical fact, opposite application.*
+
+### ⚠️ Plan the switching for floor and table lamps
+
+Table lamps usually have a switch on the body. **Floor lamps usually have an inline switch on the cable, some way from the body — so you end up bending down or fishing for it with a foot.** Two fixes: **a socket with its own integral switch**, or **wire the low socket to a wall switch at bedside height** so the wall switch controls that socket. Cheap, and only available if decided at the electrical-planning stage.
+
+[source: [[_Sources/YT_nYvqqkNeS4k_shevrina_bedroom_lighting_and_headboard|YT_nYvqqkNeS4k]]]
+
+## Track Layout, Two Pendant Zones, and Pendant Heights (added 2026-08-31)
+
+- **⚠️ Track quantity matters.** Tracks are her preferred format, **but too many read bulky and draw attention, especially in a small area.** **Prefer simple parallel lines over a square or rectangle of tracks on the ceiling.**
+- **⚠️ A much more specific fix for the worktop-shadow problem than this page previously had.** Standing with your back to a track blocks its light onto the worktop — hence backsplash lighting. **And: where the upper cabinets are shallow, put point spots at about 40–45 cm from the wall** — i.e. between the line of 60-deep cabinets and 30–35-deep ones — **so they light exactly the strip of worktop between you and the shallow fronts.**
+- **⚠️ Two pendant zones (island plus dining table) — three valid resolutions.** The common mistake is an active accent fixture over **both**, so the eye can't tell where the accent is: (1) the same restrained pendant over both; (2) **an accent fixture over one and plain ceiling light over the other — her own usual practice is to accent the dining zone and give the island directional track or spot light**; (3) no pendant over one of the zones at all.
+- **⚠️ Pendant heights, from two videos in the same round and mutually consistent:**
+  - **Over a dining table: the fixture should end 75–80 cm above the tabletop — about 1.5 m from the floor.**
+  - **Over an island: it can come down to 150–170 cm from the floor.** You won't hit your head because it sits outside the head zone; it lights better and composes better.
+- **Hang pendants and sconces at equal heights** — already on this page from `dSm7M6oGFis`; she names staggered heights as the most frequent mistake she sees.
+
+[source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]] [source: [[_Sources/YT_A5G04uPvzL0_shevrina_subscriber_critique_midcentury|YT_A5G04uPvzL0]]]
+
+## Small-Flat Ceiling Fixtures (added 2026-08-31)
+
+**⚠️ Black ceiling fixtures and black tracks are the wrong choice in a small flat** — even recessed ones are usually black, and they draw the eye and add visual rubbish to the ceiling, when the point is to let the eye leave the ceiling alone. **Use simple white spots, preferably recessed, and best of all trimless/plaster-in ("под отделку").**
+
+**For pendants**: many have a bulky base concealing the LED driver. **Prefer one whose base and driver can be hidden in the ceiling void**, so the cable appears to start at the ceiling plane.
+
+[source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]]
+
 ## Ceiling Light Source Types
 
 Three distinct ceiling light-source types come up repeatedly once you move past a single generic "downlight" mental model:

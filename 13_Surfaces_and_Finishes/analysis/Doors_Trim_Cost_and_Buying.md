@@ -117,3 +117,24 @@ Glass constructions (shower enclosures, sliding loggia partitions) contribute le
 
 `single-account`, `unverified`, 2023 data, **region unresolved at level 1** (RUB pricing implies the Russian market; no city named in the source). Percentages travel better than absolute figures, but both should be read as one studio's cost experience. [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
+## ⚠️ Reverse-Swing Premium — Two Conflicting Figures From the Same Practitioner (added 2026-08-31)
+
+The section above records a **+20%** premium for reverse-swing doors, from her bill-of-quantities video. **A second video from the same studio gives "процентов на 30" for the same thing.**
+
+| Source | Figure |
+|---|---|
+| `UDrpyZE_V38` (2023-02-20, cost-structure analysis from real bills of quantities) | **+20%** |
+| `TUVsZ1Xx1aQ` (2023-07-09, "decisions designers avoid") | **~+30%** |
+
+**Neither is averaged and neither is discarded.** The cost-structure video is the more careful of the two — it is built on actual estimates rather than stated in passing — so **+20% is the better-evidenced figure**, but the range 20–30% is what this source set actually supports.
+
+**⚠️ What *is* consistent across both videos is the ordering, and the ordering is what the advice rests on: a floor-to-ceiling door is a smaller premium than a reverse-swing one.** Stated in the cost video as +15% vs +20%, and in the second as "наценка за высокие двери куда меньше, чем наценка за обратное открывание." **Her recommendation follows from the ordering, not the absolute number: if you are choosing between them, take the floor-to-ceiling door.**
+
+### Three costs of reverse swing beyond the price premium
+
+- **⚠️ It looks different.** On a concealed door, reverse swing shows visible steps on the leaf when open. **With some makers it differs even when closed**, because the leaf sits in an aluminium frame visible from the face side — **which then forces the other doors on the same wall into aluminium frames too**, with extra markups on each of them.
+- **Functionally worse**: entering the room you have less space for yourself. Direct swing — push in on entry, pull on exit — is more comfortable, especially into small rooms.
+- **⚠️ It can cost you your switch position** — see [[13_Surfaces_and_Finishes/analysis/Door_Swing_Direction|Door Swing Direction]].
+
+[source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
+
