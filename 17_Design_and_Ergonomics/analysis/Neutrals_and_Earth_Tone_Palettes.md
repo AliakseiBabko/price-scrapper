@@ -268,3 +268,21 @@ She raises the same pairing failure for **wood + concrete**: not inherently bad,
 
 [source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]] [source: [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]]]
 
+
+### ⚠️ Update 2026-09-01 — Кузина's position now has a controlled experiment behind it, and it partly dissolves the disagreement
+
+Her wood-finishes video (`AafdFwF_Rgs`) is the **primary statement** of the position summarised above from secondary mentions, and it is sharper than a tone count. [source: [[_Sources/YT_AafdFwF_Rgs_kuzina_combining_wood_finishes|YT_AafdFwF_Rgs]]]
+
+**She runs a two-step edit on one interior, changing one variable at a time:**
+
+1. **Brightness only** — darken a partition, keeping its yellow undertone. Result: **more varied, less laconic, "но это не хорошо и не плохо."** Still a good interior.
+2. **Brightness *and* undertone** — make the same partition reddish. Result: **"это уже не разнообразный интерьер, а просто вудхаус."** The colours fight, it becomes unclear whether red or yellow leads, and **"интерьер разваливается."**
+
+**⚠️ The conclusion is not a number: vary brightness freely; never vary undertone.** This matters for the block above because **the failure everyone attributes to "too many tones" is, on her account, an undertone collision** — which is why she can hold both a capped hue count *and* a wide lightness spread without contradiction, and why she reads as the most reconcilable party.
+
+**And she relativises her own cap explicitly.** Her stated rule is a maximum of three wood finishes, **but she then presents a designer who works with five to seven as a signature and calls the result beautiful and not chaotic — "такому правилу, правилу трёх, не обязательно следовать," because structure is still present.** **The count is a heuristic; the structure and the undertone discipline are the requirements.** That is a meaningful softening of the "capped hue count" attributed to her in the table above.
+
+**Two further qualifications from the same source, both of which cut against her own rules:**
+
+- **Warm and cold are relative, not absolute.** Two finishes each reading cold in isolation will resolve into one warm and one cold when placed together. **If you have cold wood and want warmth, take it from the wall colour, not from a second wood finish.**
+- **Wood need not lead at all.** "Часто формы предметов и палитра важнее для стиля, чем оттенок дерева." Her own example is a bedroom with distinctive bluish floors that are **not** in the palette's lead — the room is built on wall colour and textiles, and the floor is simply woven in. **"Вполне достаточно, чтобы дерево не противоречило общей концепции и вписывалось в палитру."**

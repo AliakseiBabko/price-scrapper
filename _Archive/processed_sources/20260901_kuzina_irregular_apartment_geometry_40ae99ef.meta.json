@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=VBMzas01VRs",
+  "video_id": "VBMzas01VRs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-31T22:50:45.455353+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "40ae99ef0344c1b7d72ff50788d64b345c05d7699bb6ac7fa91598622f4f858c",
+  "attempts_before_success": []
+}

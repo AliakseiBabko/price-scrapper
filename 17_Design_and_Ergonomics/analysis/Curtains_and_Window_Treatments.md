@@ -354,3 +354,14 @@ Every other source on this page answers "what colour should the curtains be." Th
   disagreements rather than merged (cornice-width margin, in-floor-
   convector coverage allowance).
 - 2026-08-30 — Composition-first section added from the colour batch (Бюро ARCHWOOD / Марина Измайлова, `AKxOtRhIcJY`): ask whether the room needs a contrasting vertical element at all before asking what colour, note that a contrasting curtain can be lighter than the wall rather than darker, and treat curtains as a member of the already-chosen palette. Cross-linked to Anuta Vlady's attention-direction rule on the new Colour Harmony page, which approaches the same decision from the opposite end.
+
+## Curtains in a Low Room — Raise the Top Edge, Hide the Fixing (Надежда Кузина, added 2026-09-01)
+
+The full low-ceiling strategy is on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]]; this is its curtain half. [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
+
+- **Choose simple textiles** in a low room.
+- **⚠️ Hide the curtains in a curtain niche.** Where a ceiling cornice exists, use its niche. **Where there is no cornice, build one only at the window where the niche is needed** — still better than an exposed rod, however attractive the rod.
+- **If a rod is unavoidable, push it as close to the ceiling as possible**, even where there is a lot of wall above the window. What matters is raising the curtains' **top** edge, not centring them on the opening.
+- **Better still: a ceiling-mounted track**, so the fabric begins at the ceiling. Usually unattractive — which is why niches exist — but tidier versions can be found, **or hide the track behind the fabric's own folds.** This is the right answer where there is no cornice.
+- **⚠️ Do not use a pelmet («ламбрекен»), and probably not tie-backs («подхваты»).** Emphasise falling fabric with **vertical folds**, which add vertical lines.
+- **In the worked example she closes on**, the curtains and their fixing are both hidden in a niche, so the fabric reads unbroken to the ceiling and its reflection in a glossy ceiling continues upward — one of five stacked techniques making the room read "просто в два раза выше."

@@ -78,3 +78,30 @@ Traceability record moved to its own page — [[13_Surfaces_and_Finishes/analysi
 ## Change Log
 
 Editorial history moved to its own page — [[13_Surfaces_and_Finishes/analysis/Doors_Trim_Change_Log|Change Log]]. Not reader content, kept off this page by design.
+
+## ⚠️ Using the Door to Stretch a Low Wall — and What It Rules Out (Надежда Кузина, added 2026-09-01)
+
+**A door is already a vertical element, so in a low room take it further.** Two routes: specify a genuinely tall door (**expensive**), or fit **a standard-height door and pay for an over-panel** finished to match either the leaf or the architrave, carrying the opening up to the ceiling. [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
+
+> [!WARNING]
+> **This is mutually exclusive with a ceiling cornice.** Running the door to the ceiling presupposes a straight wall/ceiling junction — but the main low-ceiling strategy on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]] is to *hide* that junction behind a cornice or plaster radius. **Pick one strategy per room** and use the other tools (ceiling colour, lighting, curtain niches) alongside whichever you choose.
+
+## The Door as a Design Element — Two Theses, and the Edge-Colour Procedure (Надежда Кузина, added 2026-09-01)
+
+She explicitly excludes materials, constructions and door-to-floor colour matching as already covered, and scopes herself to composition. [source: [[_Sources/YT_0pqfj2JdAGU_kuzina_door_as_design_element|YT_0pqfj2JdAGU]]]
+
+- **⚠️ Thesis one, a budget rule: on a small budget, choose neutral doors *or* make an art object of them — nothing in between.** A half-decorated door is the failure case.
+- **⚠️ Thesis two: a door never plays the leading role**, and the reason is physical rather than aesthetic — **the door is behind you once you have entered.** "Довольно странно было бы сидеть на диване и любоваться дверью." The dominant is normally a fireplace, a picture, or the view. Her governing conditional: **"Если вы усложняете дверь — усложняйте и сам интерьер."**
+  - Two analogies that set the ceiling on ambition: **the background landscape in a Renaissance painting** (Leonardo's are worth examining, but you look at the figures first — it adds mood, never the protagonist), and **theatre scenery** (beautiful, complex, creating the world the actors inhabit, but not replacing the actors).
+- **⚠️ A decorated door forces matching commitments across the whole flat — the strongest practical argument here.** A door with diagonal veneer plus routed slots needs **either parquet laid diagonally or wall battens supporting the slots.** Her worst case is **a door with hexagons** — "самый трэш," and easily found on suppliers' sites — because **you would have to repeat hexagons in every room** (cushions, hexagonal tile, curtains) **or accept different doors on each side of the opening.**
+  - **A cheaper but complex door can be supported by furniture rather than by the whole scheme**: her project pairs a door divided into **unequal vertical strips** with a bookcase divided into unequal vertical sections and a decorative insert finished like the door.
+  - **A door can be a true art object only where the interior is equally bold** — her example is Dorothy Draper.
+- **Doors and windows are part of the architecture, like mouldings** — so what matters is the proportion **between doors and room, and between doors, casings, mouldings and windows.** Cased openings without leaves follow the same rules.
+- **Dark doors work in light interiors provided another contrast is present** — patterned black-and-white wallpaper, or a strongly contrasting geometric floor. **The door can carry the contrast internally: black leaf, white architraves.**
+- **⚠️ In symmetrical arrangements only one of the pair is often a real opening — the other is a false door**, with differently finished wall behind it in the next room, placed purely for symmetry.
+- **Relate the door to the casegoods, not only to walls and floors** — wardrobe sliding doors can be deliberately styled as an additional pair of doors, and one motif can run across door, mirror and cabinet fronts.
+- **Bi-fold ("книжка") doors are the mechanism choice where an open leaf would obstruct the perception of a room's shape** — her example is a round living room, where conventional leaves would stick out awkwardly held open.
+- **⚠️ Two-colour doors — which colour for the edge? The procedure is easy to apply: stand in the room and pull the door toward you. The colour that then appears in your room is the colour that was on the *outside* face, and that is the colour to paint the edge.** Worked example: a bathroom door, white one side and pink the other in the adjoining room's colour, **where the edge should be pink.**
+- **⚠️ Colour can appear in unexpected places: extension jambs («доборы») and architrave edges can be painted a contrasting colour unrelated to the leaf.** Her project used warm grey-brown doors with **black доборы and black architrave edges running into a black skirting** — giving "тонкую графику" **without introducing too much black.**
+- **⚠️ Treat a door as part of the wall where it suits** — wall patterns continuing onto the leaf. **Especially effective in small rooms, and specifically useful where a door is badly placed**: painted the wall colour it "практически исчезает."
+- **⚠️ Doors need not all match, and her own hallway has three** — a glazed entrance door, sliding doors, and a standard hinged door, **with three architrave treatments: none, black, and grey** — decided by comparing viewpoints one at a time. **Two constraints bound that freedom**: doors relate to the building's exterior (entrance door ↔ facade, interior doors ↔ entrance door), so **"вопрос не в том, сколько у вас видов дверей, а как хорошо они связаны друг с другом"**; and **hierarchy must be logical** — large sliding glass doors to a bedroom while the living room gets a small ordinary door **is a worse error than several architrave types in one room.**

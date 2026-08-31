@@ -440,3 +440,47 @@ material itself.
 - **Konstantin Kruglov / Ontario, five-way cost/timeline/repairability comparison** (plastered, two stretch-profile tiers, two drywall configurations) — first full quantified per-m² cost ladder across all five ceiling types on this page, Round 5, added 2026-08-28. [[_Sources/YT_lhNC30_adGc_kruglov_which_ceiling_cost_comparison|extraction note]] (2024-11-15).
 - **Andrey Frolov (independent installer) deep-dive interview**: material health/composition, fire-rating tiers and named brands (КНТ/KNT, Н-пласт/N-plast), PVC-vs-fabric pricing, sizing/cold-tolerance figures, ceiling-drop ladder, lighting-integration types and costs, damage-repair triage, and smoke-detector/sprinkler mounting rules — Round 5, added 2026-08-28. [[_Sources/YT_W1PKG4tVw_g_kruglov_stretch_ceiling_truth_frolov|extraction note]] (2026-04-10).
 - **⚠️ Drywall-on-frame ceiling chosen over stretch specifically because of exposed structural beams in a historic building's corridor** (Петришин-Строй, real Arbat-area case study, Moscow level-1 region, added 2026-08-24, Round 4): a stretch ceiling wasn't feasible because the beams still needed boxing in with a frame regardless, so drywall was used directly instead — high existing ceiling height made the resulting drop acceptable. A concrete added case for old/historic structural-obstruction ceiling decisions. [[_Sources/YT_IoQiGtso9Vk_petrishin_case_study_arbat_historic|extraction note]] (2025-06-15).
+
+## Low Ceilings — Where the Centimetres Go, and Hiding the Junction (Надежда Кузина, added 2026-09-01)
+
+A 27-minute structured problem/solution walkthrough with concrete dimensions, explicit anti-patterns, and a mechanism attached to nearly every rule. Lighting consequences are on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]]; the furniture and curtain consequences are on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning]] and [[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Curtains & Window Treatments]]. [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
+
+### ⚠️ The problem is largely self-inflicted, and she quantifies it
+
+The highest new-build ceiling she has heard of is **320 cm** — of which **~20 cm goes to screed and plasterboard ceilings**, with a ceiling-void ventilation system taking more. **"Потолок неожиданно из 3,20 превращается в 2,90 или меньше."** Developers already advertise 3 m as "super-high."
+
+**⚠️ Ceiling-void cost by construction type — the three figures that decide the lighting strategy:**
+
+| Construction | Ceiling drops by |
+| :--- | ---: |
+| Plasterboard **with** recessed fixtures | **min 8 cm** |
+| Plasterboard, no recessed fixtures | **~5 cm** |
+| Good-brand stretch ceiling (she names Clipso) | **~3 cm**, if the slab above is reasonably flat |
+
+### ⚠️ Colour and finish — white is the wrong instinct
+
+- **White does not make a ceiling read highest; she names this as a misconception.** The highest-reading ceiling is **painted the wall colour**, better still **half a tone to a tone lighter.**
+- **The mechanism is why the gap must be small**: the ceiling is almost always in shadow while the walls may be lit, **so it needs to be only imperceptibly lighter.** Demonstrated on paint swatches — the pair with the *smaller* tonal gap wins.
+- **Gloss or semi-gloss ceiling paint helps** (she'd choose semi-gloss) — **but not a glossy stretch ceiling, "это выглядит просто как пластик." If stretch, matte only.** The gloss advice is about paint specifically.
+- **Glossy floors also raise the perceived ceiling** — the wall appears to continue downward. Best where fixtures come close to the floor and reflect, or where low sills let the window reflect. The effect runs upward too: a window close to the ceiling reflects better in it.
+- **Do not**: ceiling murals (**including 3D sky-and-clouds — "этот потолок лежит практически уже на вас"**), beams, heavy stucco, or multi-colour ceilings. All pull attention upward.
+
+### ⚠️ The governing principle — the eye must not be able to find the junction
+
+That line is what defines the wall's height, so the goal is a radius at the wall/ceiling junction.
+
+- **Cornice options**, choosing the simplest profiles. **Two selection criteria, both about minimising the visible step**: the shallower the cornice's lowest point the better, and the smaller its height where it meets the ceiling the better.
+- **⚠️ Cornice geometry rule: pick one that extends further onto the ceiling than it occupies on the wall** — low height, large depth. **Some cornices can be inverted** to convert height into depth.
+- **A plaster radius with no cornice at all** works. **This was standard in cheap pre-revolutionary flats precisely because there was no money for a cornice** — and it looks good, so use it deliberately rather than as a fallback.
+- **⚠️ A consequence that is easy to get wrong: with a radius you cannot paint wall and ceiling different colours.** Doing so re-establishes the line you just erased, and looks messy because there is no depth change to cut the paint against. **Default: with a radius, ceiling and wall are one colour.** If you want two, **use a gradient with its top, on the wall, matching the ceiling.**
+- **⚠️ A version needing no construction at all**: the junction goes unnoticed if **the lower part of the wall is more colourful** — the eye is drawn there and spends its time hunting for the colour transition, which is deliberately not at the junction.
+- **"Flying ceiling" («летящий потолок»)** — detach the ceiling from the walls with a shadow gap, with or without perimeter light, creating a recess the eye cannot read. **Shadow profiles exist for this; she tried one and it failed on quality** ("отвратного качества"), expecting the market to improve.
+- **Cornice plus a ceiling moulding in tandem** blurs the junction too — provided the moulding sits close enough to read as part of the cornice.
+- **Minimum cornice sizes: anything under 10 cm she considers small, and never below 5 cm.** A 4 cm cornice "выглядит очень смешно" — **if a proper one will not fit, fit none at all.**
+- **Do not**: different wall and ceiling colours with no cornice, or a **coloured cornice** — it points at exactly the place you want unnoticed. **Match the cornice to the wall.**
+
+### The worked example, as a pattern rather than separate rules
+
+She closes on a room stacking five techniques at once: **ceiling and wall one colour; ceiling glossy; a small distance above the window so the window visually continues into the ceiling; curtains and their fixing hidden in a niche so the fabric reads unbroken to the ceiling and reflects upward** — "комната кажется просто в два раза выше, чем она есть на самом деле" — **plus bright colour spots distributed around the room to pull attention off the junction.**
+
+**All of these also work as purely decorative devices where the ceiling is adequate**, to add air — they are not only remedial.

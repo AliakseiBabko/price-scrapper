@@ -562,3 +562,75 @@ Round 2 recorded her naming mid-century as the safe thing to mix into minimalism
 
 [source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]] [source: [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]]] [source: [[_Sources/YT_A5G04uPvzL0_shevrina_subscriber_critique_midcentury|YT_A5G04uPvzL0]]] [source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]]
 
+
+## Combining Patterns — Hierarchy by Scale, Not Only by Colour (Надежда Кузина, added 2026-09-01)
+
+From a 92-minute seminar. **`promotional_ratio: medium`** — it was hosted in the LeDimore / de Mora showroom, which supplied the examples, so read brand-specific praise as venue-sponsored; the rules below stand independently. [source: [[_Sources/YT_7Kk_TTxoq4g_kuzina_ornament_seminar|YT_7Kk_TTxoq4g]]]
+
+- **⚠️ Combining patterns is a scale problem as much as a colour one — "не только по цвету завязано... но и по размеру."** Reading a Kit Kemp interior, she shows the hierarchy explicitly: the boldest ornament is simultaneously **the most tonally contrasting and the largest in scale** (the rug); then a finer stripe on the curtains; then finer again on an armchair; then near-plain surfaces carrying only a faint texture, noticeable purely because the surface is not uniform.
+- **⚠️ The prescription: one dominant eye-catcher — or two, separated into different zones — and everything else supporting in defined proportions.** Main → secondary → tertiary, deliberately ranked. "Важно соблюдать логику в плане иерархии."
+- **⚠️ Why a heavily-patterned room need not read as overloaded, with the mechanism.** She counts **eight or nine** distinct textile and surface variants in one calm-looking room. It works for two reasons: **they sit close in tonality, and there is a large quantity of neutral ground.** Her rule: **"любой ткани нужно какое-то более спокойное обрамление, если это достаточно насыщенная ткань."**
+- **⚠️ She rejects the widely-repeated "use an odd number of fabrics" convention outright.** It comes from arranging a rhythmic row of identical objects — **"с тканями это вообще никак не работает."** Any number works provided they relate to one another. **But do not put one fabric on everything** (curtains, cushions and upholstery alike); and "more is better" is equally wrong. **The constraint is relationship, not count.**
+- **⚠️ The anchor method, as a procedure**: find one fabric containing many colours and make it the lead, **then choose every other fabric so each contains one of the lead's colours.** In her example the lead is also the largest-scale pattern.
+- **Patterns of differing scale combine well** — the corollary of the hierarchy rule — and **a rug is the device that binds a group of heterogeneous items together.**
+- **Kelly Wearstler as the instructive counter-case**: interiors that read as whimsical and capricious turn out to be **built almost mathematically**, with a **light pattern on a dark ground deliberately paired against a dark pattern on a light ground** and a clear main/secondary/tertiary ranking under the apparent chaos.
+- **Her own estimate of where the work sits**: "треть работы дизайнера — это работа с сочетанием различных орнаментов и фактур," the remainder being client communication and drawings.
+
+## Combining Wood Finishes — Which Ones Actually Matter, and Texture Over Colour (Надежда Кузина, added 2026-09-01)
+
+From a 22-minute enumerated rule-set. The tone-count half is on [[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Neutrals & Earth-Tone Palettes]]; the sampling procedure is on [[13_Surfaces_and_Finishes/analysis/Material_and_Finish_Tiers|Material & Finish Tiers]]. [source: [[_Sources/YT_AafdFwF_Rgs_kuzina_combining_wood_finishes|YT_AafdFwF_Rgs]]]
+
+- **⚠️ Significance follows visual area, so not every wood finish deserves equal effort.** Least: chair legs, wooden armrests, small non-accent tables. Middle: worktops, chests. **Most: floors, doors, wall panels.**
+  - **⚠️ Doors are the exception that proves the rule.** A door occupies no more area than a chest — **but doors repeat from room to room and tie the whole apartment together, so you reckon with them in every room.** If they are wood, treat them as elevated importance.
+  - **The payoff is permission to stop searching**: you do **not** need a perfect match for chair legs. Knowing which finishes matter saves the hunt.
+- **⚠️ Choose a principal finish deliberately, and do not let area choose it.** "Если исходить исключительно из площади, то получается, что самым важным всегда будут полы, а это не так." The principal can be the brightest instead — floors as background with the table and chairs leading, or a bright chest on the room's central axis that everything ties to.
+  - **The procurement counter-case**: sometimes you fit the principal to a standard. Chairs are the example — a shop offers one or three leg finishes with a given upholstery. **It is easier to choose the chairs and adapt made-to-order wall panels to them than the reverse, even when the panels are the principal finish.**
+- **⚠️ Only one bold texture** — grain and annual rings, i.e. how variegated the wood is. Bold grain suits **a large flat object**, a chest or wall panels. **Two bold finishes will not join, because it is unclear which should dominate.** Support a bold finish with plainer woods or with painted furniture.
+- **⚠️ Differences must be obvious.** Many *similar* wood tones read as a mistake — as though tone-on-tone was attempted and missed. **Choose tones with a larger gap.** Scoped to interiors deliberately built on multiple wood tones.
+- **⚠️ Texture is style-bound in a way colour is not.** Wenge floors suggest Art Deco but work in classical; matte light oak suggests Scandi but works in classical — **"по одной отделке стиль определить невозможно."** Texture is different: **rough, rustic, deeply brushed wood belongs to loft and country and cannot go into classical**, which carries little wood texture and uses polished wood or roughly **15% gloss** under lacquer.
+  - **⚠️ The prescription: "лучше использовать одну фактуру в разных цветах, чем один цвет в разных фактурах."**
+  - **Worked example**: against a rough brushed floorboard, a smooth light walnut matching on *undertone* still fails — **the textures fight.** A saw-marked finish with relief matches far better. **Use one texture across the interior** so that touching the stool legs, the floor and the table gives roughly the same sensation.
+  - **She criticises published "good interiors" that texture-play** — a semi-gloss floor with very matte rough wood on the table; a glossy floor with brushed wood **on the ceiling** ("если бы сделали просто белый потолок, было бы лучше, перемудрили"). It can work — simple floors, fresh white walls, one genuinely aged console — **"но так нужно уметь."**
+- **⚠️ When in doubt, separate. "При сомнении разделяйте."** Put a buffer between two doubtful tones: **a rug** between a dark coffee table and very light floors makes the pair read harmonious; if wall panels and a wardrobe are doubtful together, **move the panel so the wardrobe stands against a painted wall instead.**
+
+## Combining Metal Finishes — Hierarchy, and What Actually Goes Together (Надежда Кузина, added 2026-09-01)
+
+**Read alongside the wood-finishes rules above** — same structure, same problem class. **She states outright that these rules are induced from photographs of real interiors because the information is not in the literature** ("эту информацию практически невозможно найти ни в учебниках, ни в книгах"), so treat them as one practitioner's systematisation. That disclosure is also why they are worth having: nothing else in this vault covers metal-finish coordination. [source: [[_Sources/YT_LAuZhM9tJWA_kuzina_combining_metal_finishes|YT_LAuZhM9tJWA]]]
+
+### ⚠️ How the problem actually arises — a procurement cascade, not a design decision
+
+Nobody sets out to mix six metals. Her worked example: buy a **gold pendant** before choosing the kitchen → pick facades with a **gold profile** to match → standard hardware has no gold, so buy **gold handles separately** → but the built-in appliances have **silver** handles, and gold-handled appliances are very hard to source, so settle for **black** → then find a mixer roughly matching the facade handles. **Assembled, nothing matches**: in daylight the "gold" pendant reads almost silver, the mixer is matte, and the facade handles are glossy, "как будто его раскапывали у инков."
+
+**And the obvious fix fails too**: giving up and using chrome throughout while leaving the pendant alone **reads as a random set.** Neither forcing a match nor abandoning it works — the answer is hierarchy.
+
+**The subtler bathroom version**: matching a mixer to a towel warmer, **two chromes turn out to be visibly different shades.**
+
+### The taxonomy — colour only, not alloy
+
+- **Warm**: gold, brass («латунь»), bronze, copper — **and black, which she classes as warm by default.** **Warm metals are easier to work with because they differ more from each other** — you will not confuse reddish copper with bright gold. Gold is brighter, brass paler and calmer, though a satin finish shifts this.
+- **Cold**: **chrome is coldest** (a white cast), silver slightly warmer, **nickel and titanium warmer still** (titanium slightly darker than nickel).
+- **⚠️ Nickel, titanium and "platinum" behave relatively** — grouped with colder metals they read warm, with warm metals they read cold. **Nickel combines with warm metals better than silver or chrome do.** "Platinum" here is a gold/silver mix the Italians call *argento antico*, **despite involving no actual ageing.**
+- **Surface treatment matters as much as colour**: full gloss; matte (**you cannot see your reflection — it is not a mirror**); artificially blackened or aged; or tinted — black, ivory, white, imitation rust, **or a greenish oxidised patina, which adds volume.**
+- **⚠️ The mix includes anything with metallic sheen, not only metal objects** — textiles, wallpaper with sheen, metallised-plastic worktops, metallised door inserts, **and rust-imitating tile.** These enter your metal count whether you intended it or not.
+
+### ⚠️ Hierarchy — the core rule, with figures
+
+- **The dominant metal should occupy roughly 70% — two-thirds — of all metallised items; the accent takes the rest.**
+- **Her contrast pair makes the threshold concrete.** A bathroom with **only two metals** — matte brass ~60%, glossy chrome ~40% — **still fails, because near-half-and-half has no dominant.** The successful comparison: silvery-sheen wallpaper + matte-nickel sconces + matte-silver mixer + visible waste, **70–80% in one family**, with **a rose-gold mirror at ~20–30%** as the accent — the first thing you see.
+- **⚠️ Count by room size: two metals in a small room, up to four in a large one** (a combined kitchen-dining-living). **The reason is object count** — in a small room there are not enough objects, so each ends up carrying its own finish.
+- **Several objects must share each finish** — at minimum several in the dominant and several in the accent.
+
+### ⚠️ What combines — metals go together when they are *different*
+
+- **Different in colour (warm + cold), different in texture (glossy + matte), or anything plus black.**
+- **Warm + cold works regardless of finish** — gloss with gloss, gloss with matte, matte with matte. What matters is that one is warm and one is cold.
+- **Different warm metals work** because they are easy to tell apart — bright gold as the accent with quieter brass on legs, which do not compete.
+- **⚠️ Black is the universal joiner: "чёрный сочетается с любым металлом."** If one element is black, everything else will go with it, and the result reads graphic.
+- **⚠️ Two *similar* colours fail — "два похожих цвета будет выглядеть просто как ошибка."** **Worse in cold metals: silver + nickel, silver + chrome, chrome + nickel will very likely fail if they share the same surface treatment.** This is exactly why the two chromes clash in the bathroom example.
+- **Composition note**: where the object mix is complex, **set it against a very simple background** so the eye examines the objects rather than competing with the walls.
+
+### ⚠️ How to distribute them
+
+- **Spread the dominant metal evenly around the room.** In her example gold is not a large quantity in total, **but it appears on the central table, on accessories, on cushions and on the visible curtain bracket** — so it is unmistakably the lead.
+- **Distribute by height — a rule she offers while doubting it.** Top to bottom: ceiling fixtures, curtain brackets, sconces, table lamps → door, window and cabinet hardware → side tables and furniture legs. Assign finishes by band; **if using two groups rather than three, assign the middle band arbitrarily.** **She notes most examples she found did not follow this**, so it is a suggestion, not a rule.
+- **⚠️ There must be something in common between objects in different finishes — the most usable of the three.** Two strong devices: **several fixtures of the same form in different sizes and finishes**, which bind further colours in; and **a chandelier that itself contains several finishes** (silver + gold + crystals), after which **gold side tables and silver side tables both work** — the chandelier ties them together.
