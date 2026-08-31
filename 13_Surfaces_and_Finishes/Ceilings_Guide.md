@@ -337,9 +337,16 @@ Konstantin Kruglov / Ontario gives the first full quantified labor+materials cos
 > [!NOTE]
 > Trends-cluster representative video. [source: [[_Sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
 
+> [!IMPORTANT]
+> **⚠️ USD figures in the divergence below were corrected 2026-08-31 — they were converted at the wrong rate.**
+>
+> They previously read ≈$155 / ≈$50 / ≈$205 per m². The source note's own stated basis is the trailing-6-month USD/RUB mean before its 2026-08-21 upload date, **77.16**, but those three figures had been computed at roughly **96.8** — understating each by about 25%. The same note's 1,500 RUB → ≈$20/m figure *is* correct at 77.16, which is how the error was isolated rather than guessed: the rate was never in doubt, the three figures simply weren't computed with it. Corrected to **≈$190 / ≈$60 / ≈$260 per m²**.
+>
+> **The divergence this section reports is unaffected**, because it rests on the RUB figures (≈20,000 vs ≈9,000 RUB/m²), which are what the two videos actually state. **But do not compare the USD figures across the two rounds directly** — the Round 5 numbers were converted at that source's own date and rate, not this one's, so a USD-to-USD comparison here measures the exchange rate as much as the price.
+
 **⚠️ Open, unresolved same-channel cost divergence**: this video states
-drywall ceiling installation costs **~15,000 RUB/m² (≈$155/m²) labor
-alone plus ~5,000 RUB/m² (≈$50/m²) materials, ≈20,000 RUB/m² (≈$205/m²)
+drywall ceiling installation costs **~15,000 RUB/m² (≈$190/m²) labor
+alone plus ~5,000 RUB/m² (≈$60/m²) materials, ≈20,000 RUB/m² (≈$260/m²)
 all-in** for a single-level ceiling finished to paint. This channel's
 own Round 5 figures above (`YT_lhNC30_adGc`) put single-layer drywall
 meaningfully lower (~5,500 RUB/m² labor + ~3,500 RUB/m² materials ≈

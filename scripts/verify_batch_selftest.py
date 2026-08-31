@@ -22,6 +22,27 @@ the tool unusable as a gate:
      flagged, even though the 2026-08-21 rounding correction states this
      exception explicitly and names that very case as its example.
 
+A second triage on 2026-08-31, against the whole history rather than one
+batch, found **four further classes** among the 219 remaining hits:
+
+  5. multi-line code spans - the money checks run line-by-line, so the tail of
+     a `code span` that wraps a line break arrives unmasked. Six hits came
+     from the store's own show-your-work annotations
+     (`25,000 / 80.2918 = $311.36 -> $310`), where the cents figure IS the
+     working and the bucketed result beside it is correct.
+  6. documented pre-rounding values - `~$12 (bucket-rounded from $12.13)`.
+     The audit trail the rounding policy asks for was being read as a defect.
+  7. superseded figures quoted inside correction notes - "the previous figure
+     (~$52,207/~$522) predates the trailing-date precision policy". Editing
+     those would destroy the correction's own evidence.
+  8. spelled-out scale words - `$249 million`, `$1.56 billion`. Three
+     significant figures at that magnitude is not false precision, and the
+     bucket table cannot say anything useful about it.
+
+Plus two non-money classes fixed in the same pass: binary files (PNG/DWG/JPEG)
+reported as "not valid UTF-8" - 136 of the 219 - and this file's own literal
+bogus ID being found by the repo-wide grep once it was committed.
+
 The risk in fixing false positives is over-correcting into a checker that
 passes everything. These cases pin both directions: real defects must still
 flag, and the four artefact classes must not.
@@ -61,6 +82,76 @@ CASES: list[tuple[str, str, str, bool, bool]] = [
     ("fp2: small $0.46", NORMAL, "unit price $0.46 per block", False, False),
     ("fp3: exact case $51.92", CASE, "| Design | $2,700 | $51.92/m² |", False, False),
     ("fp3: exact case ≈$1,346/m²", CASE, "grand total ≈$1,346/m² verified", False, False),
+    # --- must stay silent: the four classes found in the 2026-08-31 triage ---
+    (
+        "fp5: show-your-work span",
+        NORMAL,
+        "Economy: 25,000 RUB (`25,000 / 80.2918 = $311.36 -> $310`, nearest-10)",
+        False,
+        False,
+    ),
+    # Note the asymmetry, which is deliberate and was found by this very case:
+    # the annotation excuses the CENTS complaint about the documented $12.13,
+    # but must NOT excuse the bucket complaint about the $12 beside it - the
+    # note called $12 "bucket-rounded" when the bucket for that magnitude is
+    # $10. Suppressing both would have hidden a real (if small) defect, which
+    # is precisely the over-correction this file exists to prevent.
+    (
+        "fp6: pre-round excuses cents, not a bad bucket",
+        NORMAL,
+        "factory lintel ≈$12 (bucket-rounded from $12.13), block ≈$0.81",
+        True,
+        False,
+    ),
+    (
+        "fp7: superseded in note",
+        NORMAL,
+        "Corrected — the previous figure (≈$52,207 total, ≈$522/m²) predates the policy.",
+        False,
+        False,
+    ),
+    (
+        "fp10: arithmetic-exact tag",
+        NORMAL,
+        "four group totals ($2,700 / $17,500 / $7,000 / $42,800) summing to "
+        "$70,000 for 52 m² (≈$1,346/m²), `arithmetic-exact`",
+        False,
+        False,
+    ),
+    (
+        "guard: no tag, same figure still flags",
+        NORMAL,
+        "four group totals summing to $70,000 for 52 m² (≈$1,346/m²)",
+        True,
+        False,
+    ),
+    ("fp8: scale word million", NORMAL, "PIK alone paid out ≈$249 million in 2024", False, False),
+    ("fp8: scale word billion", NORMAL, "developers lost ≈$1.56 billion to lawsuits", False, False),
+    (
+        "fp9: already stated in USD",
+        NORMAL,
+        "Chinese-made ≈$60–65; Spanish-made ≈$95. **USD equivalent:** same as original.",
+        False,
+        False,
+    ),
+    # --- the suppressions must stay narrow: a real defect on a line that
+    # merely MENTIONS one of these ideas far away must still be caught ---
+    (
+        "guard: marker too far to excuse",
+        NORMAL,
+        "The previous figure was fine, and after a long unrelated clause about "
+        "sequencing, scheduling and site access that runs well past the "
+        "suppression window, the new labour rate is ≈$492 per unit",
+        True,
+        False,
+    ),
+    (
+        "guard: scale word not adjacent",
+        NORMAL,
+        "≈$492 per unit, on a project the trade press valued in the millions",
+        True,
+        False,
+    ),
 ]
 
 

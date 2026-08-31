@@ -56,7 +56,7 @@ worth preserving alongside the headline total, not dropped.
   15,800**, not a single exact figure).
 - **Per-m² figure (this project's own derivation, not stated by the
   speaker)**: $15,361 ÷ 31.2 m² ≈ **$492/m²** (labor + materials, before
-  the speaker's own "~$300 more" caveat; ≈$502–507/m² if that caveat is
+  the speaker's own "~$300 more" caveat; ≈$502–507/m² (`arithmetic-exact`) if that caveat is
   included). This is the **first self-managed case in this store with
   both (a) level-1 Belarus confirmation and (b) a directly computable
   $/m² figure** — the existing Yana Vrublevskaya self-managed case

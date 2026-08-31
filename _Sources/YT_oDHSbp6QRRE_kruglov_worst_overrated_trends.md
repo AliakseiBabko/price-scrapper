@@ -52,7 +52,7 @@ existing schedule-burden/compatibility-list content**:
   baseboard, a precise finish cut against the wall can cost up to
   **~1,500 RUB per linear meter (≈$20/m)**, and the mandatory damper gap
   then needs either a cork compensator or floor sealant, adding a
-  further **~2,000 RUB per linear meter (≈$25/m)** — both real added
+  further **~2,000 RUB per linear meter (≈$30/m)** — both real added
   costs beyond the flooring and baseboard hardware itself.
 - **New dust-illumination failure mode**: a shadow-gap baseboard with
   integrated LED lighting continuously illuminates the dust that
@@ -85,9 +85,9 @@ existing schedule-burden/compatibility-list content**:
 
 **Drywall ceiling — a real cost-figure divergence worth flagging against
 this page's existing Round 5 cost ladder**: this video states drywall
-ceiling installation costs **~15,000 RUB/m² (≈$155/m²) for labor alone**
-plus roughly another **~5,000 RUB/m² (≈$50/m²) materials**, i.e. **~20,000
-RUB/m² (≈$205/m²) all-in** for a single-level ceiling finished to paint.
+ceiling installation costs **~15,000 RUB/m² (≈$190/m²) for labor alone**
+plus roughly another **~5,000 RUB/m² (≈$60/m²) materials**, i.e. **~20,000
+RUB/m² (≈$260/m²) all-in** for a single-level ceiling finished to paint.
 **The existing page's Round 5 figures (from this same channel,
 `YT_lhNC30_adGc`) put single-layer drywall meaningfully lower: ~5,500
 RUB/m² labor + ~3,500 RUB/m² materials (≈$60+$40 ≈ $100/m² combined),

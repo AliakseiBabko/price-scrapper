@@ -6,16 +6,22 @@ This is an advisory checker, not an automated editor. It approximates the
 existing "judge by topic decomposition, not a hard line count" convention
 (00_Master/wiki_page_format.md) with a two-tier heuristic:
 
-  - Detail pages (under a numbered folder's analysis/): flag at 300 lines,
-    or at 220 lines if the page has 3+ top-level (##) sections.
+  - Detail pages (under a numbered folder's analysis/): flag at 400 lines,
+    or at 260 lines if the page has 12+ top-level (##) sections.
   - Guide pages (top-level file directly in a numbered folder, excluding
-    *_Index.md): flag at 450 lines, or at 300 lines if the page has 3+
+    *_Index.md): flag at 500 lines, or at 350 lines if the page has 12+
     top-level (##) sections.
+  - Any page: flag as FRAGMENTED at 20+ sections averaging under 12 lines
+    each - the opposite problem, where the fix is merging, not splitting.
 
-"3+ top-level sections" is a proxy for "3+ independent topic/decision
+"12+ top-level sections" is a proxy for "many independent topic/decision
 clusters" - a heuristic, not a claim that heading count equals editorial
 judgment. A flagged page still needs a human/agent decision on whether and
 how to split it.
+
+Thresholds were recalibrated on 2026-08-31 after three real splits showed the
+original values flagged the correctly-split result pages too; see the comment
+block above the constants for the evidence.
 
 Positive page selector (matches Workstream C's definition so the two stay
 consistent): only files directly under a numbered folder (NN_Name/) or
@@ -37,11 +43,42 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 NUMBERED_FOLDER_RE = re.compile(r"^(?!00_)\d{2}_")  # excludes 00_Master (project docs, not wiki pages)
 
-DETAIL_FLAG_LINES = 300
-DETAIL_FLAG_LINES_CLUSTERED = 220
-GUIDE_FLAG_LINES = 450
-GUIDE_FLAG_LINES_CLUSTERED = 300
-CLUSTER_THRESHOLD = 3
+# Recalibrated 2026-08-31, on evidence rather than taste. The previous values
+# (300/220 detail, 450/300 guide, cluster at 3 sections) were tested for the
+# first time by actually performing three splits - Walls_and_Paint 921 lines
+# into four pages, Flooring_Guide 865 into three, Waterproofing_and_Plastering
+# 815 into four - and they FAILED the test: the flagged count went UP, from 31
+# to 35, because seven correctly-sized, single-topic result pages (234-336
+# lines) tripped the threshold that their 900-line parent had tripped.
+#
+# A rule that punishes a correct split is worse than no rule: it tells an
+# author their finished work is still wrong, with no achievable target short of
+# atomising every page into stubs.
+#
+# Two changes, both aimed at making the flag mean "too many independent topics"
+# rather than "long":
+#   - The cluster signal now needs 12+ sections, not 3+. At 3 the clustered
+#     threshold applied to essentially every page, so the tool was really a
+#     flat 220-line limit wearing a heuristic's clothes; almost no real detail
+#     page has fewer than three headings.
+#   - Line thresholds raised to match observed reality. A source-attributed
+#     prose section in this vault runs 20-60 lines, so 220 lines capped a
+#     detail page at roughly five sources before it was declared too long.
+DETAIL_FLAG_LINES = 400
+DETAIL_FLAG_LINES_CLUSTERED = 260
+GUIDE_FLAG_LINES = 500
+GUIDE_FLAG_LINES_CLUSTERED = 350
+CLUSTER_THRESHOLD = 12
+
+# The opposite failure, which the size checker was structurally blind to: a
+# page with many headings and very little under each is not too long, it is
+# FRAGMENTED, and the fix is merging rather than splitting. Splitting it would
+# make things actively worse. Found on the same 2026-08-31 pass -
+# `Lighting_Design.md` had 26 top-level sections in 242 lines, 9 lines each,
+# because every batch appended its own dated heading instead of adding to an
+# existing one. It had been flagged for splitting for weeks.
+FRAGMENT_MIN_SECTIONS = 20
+FRAGMENT_MAX_LINES_PER_SECTION = 12
 
 DEFAULT_EXCEPTIONS_PATH = REPO_ROOT / "tools" / "page_size_exceptions.json"
 
@@ -102,8 +139,29 @@ def check_page(entry: dict, exceptions: dict) -> dict | None:
     else:
         threshold = GUIDE_FLAG_LINES_CLUSTERED if clustered else GUIDE_FLAG_LINES
 
-    if line_count < threshold:
+    per_section = line_count / sections if sections else line_count
+    fragmented = (
+        sections >= FRAGMENT_MIN_SECTIONS
+        and per_section < FRAGMENT_MAX_LINES_PER_SECTION
+    )
+
+    if line_count < threshold and not fragmented:
         return None
+
+    if fragmented:
+        reason = (
+            f"{kind} page is FRAGMENTED, not oversized: {sections} top-level "
+            f"sections across only {line_count} lines ({per_section:.1f} lines "
+            f"each). The fix is MERGING related sections, not splitting - "
+            f"splitting this would make it worse. Usually caused by each batch "
+            f"appending its own dated heading instead of adding to an existing "
+            f"section."
+        )
+    else:
+        reason = (
+            f"{kind} page at {line_count} lines >= {threshold}-line threshold "
+            f"({'clustered: ' + str(sections) + ' top-level sections' if clustered else 'base threshold, no cluster signal'})"
+        )
 
     return {
         "path": rel_path,
@@ -111,11 +169,9 @@ def check_page(entry: dict, exceptions: dict) -> dict | None:
         "line_count": line_count,
         "top_level_sections": sections,
         "clustered": clustered,
+        "fragmented": fragmented,
         "threshold_used": threshold,
-        "reason": (
-            f"{kind} page at {line_count} lines >= {threshold}-line threshold "
-            f"({'clustered: ' + str(sections) + ' top-level sections' if clustered else 'base threshold, no cluster signal'})"
-        ),
+        "reason": reason,
     }
 
 

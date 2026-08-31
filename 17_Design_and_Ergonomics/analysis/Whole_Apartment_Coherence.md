@@ -92,6 +92,34 @@ A third independent methodology on this page, arriving from a colour-selection r
 
 Directly relevant to this project, which has a hallway, an entrance, a WC and a laundry room that are all short-dwell spaces — but it is general technique, not a decision; `00_Master/Design_Concept.md` remains where any actual choice gets recorded.
 
+## A Style Differentiation Set, and Which Styles Actually Combine (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+Мария Шеврина (interior-design studio principal specialising in minimalism, region not resolved in this source, `single-account`, `unverified`) is the first source on this page to address style *compatibility* directly rather than style *unification* — the question of which languages can sit together at all, upstream of how to blend them.
+
+- **⚠️ Her compatibility claim: muji combines with scandi, wabi-sabi and mid-century, and does not combine with classic, art deco or other decorative styles.** Her stated reason is worth more than the pairing list: **the incompatibility is at the level of approach and philosophy, not surface appearance** — which is why, on her account, it cannot be patched over with careful colour or material matching. **This gives a mechanism for the eclectic style-mixing cap above**, which ALLA KROL states as a bare numeric limit (~3 directions) with no explanation of why mixing fails.
+- **She departs from her own rule and says so openly**: her stated preference is muji *diluted* with an interesting light fitting, a sofa, and specifically mid-century chairs. **Recorded because the candour is itself evidence about how hard the rule is meant to be** — she presents it as her taste, not as a correction.
+
+**Her differentiation set**, useful mainly as vocabulary when reading other sources, several of which use these names loosely:
+
+| Style | Her definition |
+|---|---|
+| **Muji** | Minimalism stripped of designer pieces; only high-quality materials; a fixed narrow palette; wood-dominant; built to last |
+| **Wabi-sabi** | Minimalism that accepts imperfection — irregular forms, handmade objects, rough natural finishes such as coarse plaster |
+| **Scandi** | The most decorative of the group; permits bright colour accents; no requirement that furniture be simple in form |
+| **Japandi** | Scandi with more minimalism — ornament removed, Japanese elements added |
+| **Minimalism** | The broad category; muji is a branch of it. Permits authored/designer pieces and accent focal points |
+
+> [!NOTE]
+> **⚠️ A small but real divergence with Bro Buro's "timeless" method above — and the two agree on more than they differ.**
+>
+> **Common ground**: both prescribe a natural restrained palette and natural, durable, high-quality materials, and both frame the goal as resistance to trend cycles rather than as a look. Two independent practitioners arriving at the same two of three components is the more useful finding here.
+>
+> **Where they split**: Bro Buro's third component is **"simple forms plus enduring/iconic designer furniture"**. Muji, by Шеврина's definition, **admits no authored pieces and no accent focal point at all** — the absence of a recognisable designer signature is the point of the style.
+>
+> **Not a contradiction so much as different scope**: Bro Buro is describing timelessness in general, Шеврина one named style within minimalism. **They are, however, genuinely opposed on whether an iconic designer piece helps or hurts durability of appeal** — and Шеврина's own stated preference (muji plus mid-century chairs) lands closer to Bro Buro than her definition does. **No basis in either source for resolving it; both positions are asserted.**
+
+[source: [[_Sources/YT_k1YBZzIMAgw_shevrina_muji_style_differentiation|k1YBZzIMAgw]]]
+
 ## Connection to this project's own decisions
 
 `00_Master/Design_Concept.md` already has a scaffolded (currently empty) "Consistency Rules Across Rooms" section for exactly this question, at the level of this project's own specific apartment. Once general sources on this topic are processed here, they should inform that file's content — this wrapper still doesn't write to `00_Master` files directly (existing guardrail, unchanged), so a human decision connects the two.
@@ -102,4 +130,5 @@ Directly relevant to this project, which has a hallway, an entrance, a WC and a 
 - 2026-08-25 — First real source added: Anuta Vlady's real kitchen-living style-unification makeover case (`YT_TF0XTvwWyYg`). Page is no longer an empty placeholder, though still single-source.
 - 2026-08-25 — Two additional sources added from a targeted gap-fill batch (ALLA KROL `Z5D8YuuF7uw`, Bro Buro `NvnA3PI0R7g`) — both confirmed the batch's weak-pool prediction: mostly style-showcase/trend-listicle content, not true whole-apartment coherence methodology. Three small heuristics added (eclectic style-mixing cap, classical-ornament pretext rule, "timeless" three-part selection method). The core gap — a systematic process for keeping multiple rooms visually connected — remains substantially open.
 - 2026-08-25 — **Second search-angle batch (5 videos targeting "unite/connect multiple rooms' styles" titles) genuinely closes this gap.** Two real cross-room coherence methodologies added: Anuta Vlady's `Q7A1e_V0s3c` ("related, not identical" framing, form-matching, 3 baseline techniques, 70:30 style ratio, microscopic-dose eclectic technique, cross-room color-derivation) and Iolanta Fedotova's `tviOSTliefY` (public-vs-private zone distinction, closed-door style exception, maximalist-style exception). The other 3 videos in this batch (`aUi7URsuQwU`, `rh6Cj0CW4Bo`, `LRtedmEn8mQ`) turned out to be single-space style-mixing or single-room color-theory content, not cross-room coherence — a real, adjacent-but-distinct sub-topic, not routed to this page (see their own extraction notes). Page now has 5 sources total, 2 of which are genuine worked-methodology sources — this topic's core gap is now substantially addressed, no longer "substantially open."
+- 2026-08-31 — First style-*compatibility* material added (Мария Шеврина / SMBUREAU, `k1YBZzIMAgw`): a five-style differentiation set (muji / wabi-sabi / scandi / japandi / minimalism) and a claim about which combine, with a philosophy-level mechanism that supplies the missing "why" behind this page's existing eclectic style-mixing cap. A NOTE block records a genuine divergence with the Bro Buro "timeless" method already on the page — they agree on a restrained natural palette and durable quality materials, and split on whether iconic designer furniture helps; neither source can resolve it. Taxonomy source, no numbers.
 - 2026-08-30 — Third independent methodology added from the colour batch (Бюро ARCHWOOD / Марина Измайлова, `_Vw-eaRekDk`): one palette per apartment with a widen-don't-add rule, an excluded-room exception that closely matches Fedotova's closed-door exception, an independent restatement of the page's own "related, not identical" core framing, and one genuinely new technique — concentrating bold colour in short-dwell transit rooms (corridors, entrance hall, guest WC, wardrobes) while keeping the long-dwell rooms neutral, on the reasoning that a large volume of colour seen briefly doesn't have time to pall.

@@ -317,3 +317,84 @@ row's own correct annotation; 1 appended to a paragraph with no price figure
 at all) and removed them, and a CODEX self-audit then rebuilt this table with
 content-specific anchors for the real 19, superseding the earlier generic
 version and this note's prior draft.
+
+## 2026-08-31 — Checker-findings sweep (distinct from the 233-unit backfill)
+
+**⚠️ This sweep closed the `verify_batch` money findings. It did NOT advance
+the Workstream D coverage count**, and the two should not be conflated: the
+ledger above tracks *units with no USD equivalent at all* (105 of 338 covered;
+**233 still uncovered — unchanged by this pass**), while the findings below
+were *wrong or badly-rounded equivalents among figures that already had one*.
+
+A full-history run (`--base <root commit>`) reported **219 problems**. Triage
+against the actual source lines resolved every one:
+
+| Class | Count | Disposition |
+| :--- | ---: | :--- |
+| Binary files read as "not valid UTF-8" | 136 | Checker fixed — PNG/DWG/JPEG skipped by NUL-byte sniff |
+| Self-test fixtures reported as defects | 18 | Checker fixed — `FIXTURE_PATHS` excluded, as `SELF_PATH` already was |
+| Show-your-work spans wrapping a line break | 6 | Checker fixed — spans now masked across newlines |
+| Spelled-out scale words (`$249 million`) | 2 | Checker fixed — bucket rule is meaningless at that magnitude |
+| Documented pre-rounding values / superseded figures in correction notes | 4 | Checker fixed — narrow, windowed suppression markers |
+| BOM in archived transcripts | 4 | **Deliberately not fixed** — see below |
+| Figures exempt under the rounding rule's own exception | 18 | Tagged `arithmetic-exact` in place |
+| **Genuine defects corrected** | **31** | See below |
+
+### ⚠️ The one finding that was not a rounding nit
+
+`YT_oDHSbp6QRRE` (Kruglov, upload 2026-08-21) states three ceiling costs whose
+USD equivalents had been computed at roughly **96.8 RUB/USD**, while the note's
+own stated basis — the trailing-6-month mean before its upload date — is
+**77.16**. Each was understated by about 25%:
+
+| Original | Was | Now |
+| :--- | :--- | :--- |
+| 15,000 RUB/m² labour | ≈$155/m² | **≈$190/m²** |
+| 5,000 RUB/m² materials | ≈$50/m² | **≈$60/m²** |
+| 20,000 RUB/m² all-in | ≈$205/m² | **≈$260/m²** |
+| 2,000 RUB/linear m | ≈$25/m | **≈$30/m** |
+
+**The rate was never in doubt**: the same note's 1,500 RUB → ≈$20/m figure *is*
+correct at 77.16, which is how the error was isolated rather than guessed. The
+wrong figures had propagated to `Ceilings_Guide.md` and
+`Concealed_Door_Considerations.md`; both are corrected, and the Ceilings page
+carries an IMPORTANT block recording it.
+
+**A second-order warning was added there too**: that page compares this video's
+cost against a Round 5 video's, and the two were converted at different dates
+and rates. **The divergence itself is unaffected** — it rests on the RUB
+figures, which is what the sources actually state — **but the USD figures must
+not be compared across the two**, or the comparison measures the exchange rate
+as much as the price.
+
+The remaining 27 corrections were true bucket misses (e.g. 4,000/5,000/7,000
+RUB/m² ÷ 94.72 shown as ≈$42/≈$53/≈$74 rather than ≈$40/≈$50/≈$70). **Each was
+recomputed from the original currency figure and the note's own cited rate, not
+by rounding the displayed dollar value** — rounding a wrong conversion only
+hides the error, as the case above shows.
+
+### ⚠️ The BOMs are not a defect and must stay
+
+Four archived transcripts carry a UTF-8 BOM. **The BOM is inside their recorded
+provenance hash**: `20260727_vid1_transcript` is sha256 `d04723c5…` with it and
+`b3993e98…` without, and `d04723c5` is what `processed_sources.csv` records.
+Stripping it to satisfy a style check would silently invalidate the evidence
+chain the archive exists to preserve. The BOM check now skips frozen paths.
+
+### New convention: the `arithmetic-exact` tag
+
+The 2026-08-21 rounding correction exempts figures that are exact by
+construction, but until now the only way to claim that exemption was to sit
+under an exempt path prefix — so the same project total was reported as a
+defect in five different files that cited it. A backticked `arithmetic-exact`
+tag now claims it inline, alongside the store's existing `confirmed` /
+`single-account` / `unverified` vocabulary. It governs its whole line, because
+these figures travel in groups.
+
+**Guard against over-correction**: `scripts/verify_batch_selftest.py` grew from
+14 to 23 cases, and every new suppression is pinned in *both* directions — the
+untagged version of the same figure must still flag, and a suppression marker
+placed outside the 90-character window must not excuse anything. One test case
+found a real defect while being written: a note that said "bucket-rounded from
+$12.13" had produced $12, when the bucket at that magnitude is $10.
+

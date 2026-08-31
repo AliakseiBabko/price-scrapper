@@ -165,6 +165,10 @@ Two practitioners, both working with the same manufacturer's range, reaching opp
 
 Note also that they are describing different tasks. Vittoria Selina is choosing a **base neutral to build a room around**; Shevrina is answering **"what exact white did you use in that photo"** — a question about reproducing a specific finished result, which is the thing she says cannot transfer.
 
+**⚠️ Update 2026-08-31 — a fourth statement of her position, which cuts both ways.** Her muji video (`k1YBZzIMAgw`) gives the palette of that style as **wood + beige + white + warm grey/warm white used all together, all muted, with no bright accents at all** — and **wood in a single tone only, light oak.** That is now the **fourth separate statement of the one-wood-tone rule** from this practitioner.
+
+**But it does not simply strengthen her side, and it should not be counted as if it did.** Here the rule is stated as a property of **one named style** rather than as general advice — which **supports the scope explanation above rather than her position over the others.** What it does establish firmly is that she holds it *consistently* rather than reaching for it rhetorically. Note also that the muji palette is **four neutrals used simultaneously**, which is not obviously the low-count position it first appears to be: **her constraint is on tones of the *same* colour and on wood in particular, not on the number of neutrals in play** — a distinction the other three sources do not draw, and one that may narrow the disagreement more than anything else on this page. [source: [[_Sources/YT_k1YBZzIMAgw_shevrina_muji_style_differentiation|k1YBZzIMAgw]]]
+
 **Your priority.** Not yet decided. The practical reconciliation both would accept: **treat any named shade — including the three above — as a candidate to test, never as a specification.** The deciding step is the same either way: buy the sample pot, paint it on your own wall, and expect two or three iterations.
 
 [sources: [[_Sources/YT_jJ05zqugmSc_vittoria_selina_beige_combinations|YT_jJ05zqugmSc]], [[_Sources/YT_b5oeFxmaubI_shevrina_no_perfect_white|YT_b5oeFxmaubI]]]
