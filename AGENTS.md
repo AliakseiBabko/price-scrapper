@@ -2,7 +2,11 @@
 
 Read this first. It is a **router**, not a manual: it tells you what this repo is and where the real instructions live. Detailed procedure lives in skills, which load on demand.
 
-Verified to be read natively by Claude Code (via the `CLAUDE.md` stub), Codex, and Antigravity.
+**Read-status per agent, honestly stated:**
+
+- **Antigravity** — verified 2026-08-31 against its own runtime: reads `AGENTS.md` natively, walking up from cwd to repo root. No `GEMINI.md` needed.
+- **Claude Code** — reads it via the `CLAUDE.md` stub.
+- **Codex** — ⚠️ **not yet verified.** Codex reported in one turn that root `AGENTS.md` is its correct entry point, and in a later turn that no `AGENTS.md` content was surfaced automatically. That second test ran with a *different repository* as the working directory, so it does not settle the question. **If you are Codex and had to be told to read this file, say so** — it is an open item.
 
 ---
 
