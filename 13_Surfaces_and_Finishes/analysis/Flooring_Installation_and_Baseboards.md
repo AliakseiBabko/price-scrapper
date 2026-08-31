@@ -66,6 +66,22 @@ aesthetically covers the joint while leaving the laminate free to move
 underneath it. `single-account`, `unverified`, Ontario (Nikita Kuznetsov
 presenting). [source: [[_Sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
 
+### Third Channel Converges — and Supplies the Positive Condition the Other Two Leave Out (Надежда Кузина, added 2026-08-31)
+
+Interior designer Надежда Кузина compares **four** joint methods and lands on the same recommendation as the section above — but her contribution is not the verdict, it is **the condition under which the rejected methods actually work.** Cork, sealant and grout are not simply wrong; they are wrong **for a floating floor.** [source: [[_Sources/YT_g252JnMcc3Q_kuzina_flooring_transition_methods|YT_g252JnMcc3Q]]]
+
+> [!IMPORTANT]
+> **Three unrelated channels now agree** that cork/sealant at a dissimilar-flooring joint is the wrong default and a threshold strip is the right one: Kruglov/Ontario (above), Шеврина/SMBUREAU (below, from the laminate manufacturer's own technical sheet), and Кузина here. Kruglov and Шеврина both explain the failure by movement on the floating side. **Кузина completes the picture from the other direction** — she uses rigid-joint methods routinely, on floors that are bonded down.
+
+- **⚠️ The partial-bond trick, which is the genuinely new item**: if the floor must be floating for other reasons but a rigid joint is wanted, **bond only the single row that meets the tile.** The rest of the floor moves as designed; the joint row stays dimensionally stable against humidity and temperature. This is the case neither of the other two sources addresses.
+- **The one joint geometry that rules threshold strips out entirely**: a deliberately **irregular** joint — she names the fashionable hexagonal/octagonal tile interlocking into parquet with a ragged edge. **A threshold cannot follow that line and a cork compensator is very difficult to.** The answer there is **grout** («затирка»), the same two-component polymer grout used on the tile — subject to the rigid-bond condition above.
+- **Cork compensator — why it persists and why she is leaving it.** It is chosen because it breathes and absorbs movement, and **parquet fitters recommend it**, which is why designers keep specifying it. Her objection is appearance, specifically where the tile side is a **cut** edge rather than a factory edge. The preformed factory-tinted profile ("батончик") with a rounded top edge is the better grade; loose tinted sheet cork is the worse one.
+- **"Liquid cork" («жидкая пробка») = sealant with cork crumb mixed in** — harder to pick out than plain sealant, and she is openly unsure it looks any better. **Width constraint: the joint should be up to 5 mm, and at that width the crumb sometimes will not fit through.**
+- **Plain silicone is the most elastic option and the least visible** — she rates it less visible than cork, and best at absorbing building settlement. Its two failure modes, reported as others' accounts rather than asserted: it **hardens and loses elasticity over time**, and it is **easily picked out of the joint** (her example: a pet acquiring the habit), so it needs periodic renewal.
+- **Why the metal threshold wins for her**: brass reads well, or paint it to the floor colour so it disappears; **nothing needs renewing**; and **it is the only one of the four that works with a floating floor**, provided the top of the "T" is wider than ~5 mm so it covers the movement gap.
+- **⚠️ The real obstacle is procurement, not performance.** A threshold **cannot be bought with the tile and cannot be bought with the parquet** — it must be separately sourced, painted if required, and delivered to site. "В этом заключается основная сейчас проблема." Treat it as its own line item, not as an accessory to the flooring order.
+- **Where the transition falls in a doorway, the joint must sit under the door leaf** so it is hidden when the door is closed — which means **the door's swing direction has to be settled before the joint is made.** See [[13_Surfaces_and_Finishes/analysis/Door_Swing_Direction|Door Swing Direction]].
+
 ## Floor-Level-Transition Planning and a Thickness-Direction Asymmetry (Петришин-Строй, added 2026-08-24, Round 8)
 
 Floor-level-transition planning must account for finish-covering

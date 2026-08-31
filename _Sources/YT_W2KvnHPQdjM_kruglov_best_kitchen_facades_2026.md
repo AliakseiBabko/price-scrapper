@@ -2,7 +2,7 @@
 source_type: video transcript (self-produced Ontario studio explainer, Russian, auto-generated captions)
 source_url: https://www.youtube.com/watch?v=W2KvnHPQdjM
 video_id: W2KvnHPQdjM
-transcript_file: scratchpad/W2KvnHPQdjM.json (not separately archived to _Archive/processed_sources — see archive_transcripts.py run note at batch close)
+transcript_file: _Archive/processed_sources/20260823_kruglov_best_kitchen_facades_2026_6059235b.txt
 fetched: 2026-08-28
 upload_date: 2025-12-20 (metadata-confirmed via yt-dlp `upload_date`)
 channel: Konstantin Kruglov | Ontario

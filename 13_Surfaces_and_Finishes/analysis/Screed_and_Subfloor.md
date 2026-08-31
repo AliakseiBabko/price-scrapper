@@ -250,3 +250,12 @@ just asserting it.
   object's execution was praised as an exception (seamless transitions),
   but the underlying risk is stated as common practice generally.
 [source: [[_Sources/YT_l4bXbwfOlrU_petrishin_vinogradny_ep7_plumbing|YT_l4bXbwfOlrU]]]
+
+## Finish Build-Up Thicknesses That Set the Screed Level at a Material Change (Надежда Кузина, added 2026-08-31)
+
+**Puts numbers on the qualitative rule already on [[13_Surfaces_and_Finishes/analysis/Flooring_Installation_and_Baseboards|Flooring Installation, Transitions & Baseboards]]** (Петришин-Строй's thickness-direction asymmetry): different finishes have different total build-ups, so the screed reference must be set knowing which finish goes where. Кузина gives the two figures that decision usually turns on. [source: [[_Sources/YT_g252JnMcc3Q_kuzina_flooring_transition_methods|YT_g252JnMcc3Q]]]
+
+- **Tile / porcelain + adhesive ≈ 15 mm total.**
+- **Parquet or engineered board + plywood beneath + adhesive between ≈ 30–32 mm.**
+- **⚠️ The difference — roughly 15–17 mm — is compensated in the screed**, which is why the sequencing rule bites: *"вы не можете начать укладывать плитку, если вы точно не определились с тем, как у вас будет паркет."* Glued to plywood, glued straight to the screed, or laminate instead — each demands a different screed height on that side of the joint.
+- **The decision this forces early**: the flooring transition is bound to three earlier decisions at once — screed level, the finish build-up on *both* sides, and the door swing direction (the joint must land under the leaf). `single-account`, `unverified`, 2020 source; the thicknesses are conventional build-ups rather than a measured project.

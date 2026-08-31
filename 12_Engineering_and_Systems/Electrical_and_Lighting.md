@@ -5,6 +5,10 @@ Overview of electrical planning and rough-in, cable/circuit/panel design, mounti
 > [!NOTE]
 > Most of this page's technical detail comes from a single 29-video Zemstandart / Alexey Zemskov YouTube playlist (a Belarus/Russia-region renovation-design company channel used elsewhere in this project). **Because it's all one practitioner/channel, treat repeated claims as one consistent stated convention, not independent corroboration** — even where a number (e.g. the 90 cm switch height) repeats across several of the channel's own videos, it's still a single source. Cross-check against an applicable electrical code before treating any spacing/gauge/height figure as load-bearing. Earlier content (WITALT, Prolife Invest, BURO, Minsk World) predates that playlist. Full source list in [[12_Engineering_and_Systems/analysis/Electrical_Source_Notes|Source Notes]].
 
+## Perspectives on Record
+
+- **Countertop outlet height — 110 cm vs 100 cm, open.** The Zemskov-lineage electrical convention says 110 cm from finished floor; interior designer Надежда Кузина specifies 100 cm and argues explicitly against 110/130 on compositional grounds (at 130 cm the outlet lands mid-backsplash). They are reasoning from different disciplines and hold different references constant. **Deciding factor: backsplash height and whether a joint trim strip is used** — and with a glass backsplash the number must be fixed before the glass is fabricated. Not yet decided for this apartment. → [[12_Engineering_and_Systems/analysis/Mounting_Heights_and_Positioning|full block]]
+
 ## Key Concepts & Planning
 
 Alexey Zemskov / ZEMS recommends: **Plan furniture layout before finalizing socket placement** — a socket blocked by a bed headboard or cabinet is a common, avoidable mistake. **Four lighting categories, each with its own recommended color temperature**: main/task light (~4000K, neutral-white) and decorative/night light (~2700-3000K, warm) — and **night light belongs in hallways/WCs but never a bedroom**, since it disrupts sleep.
@@ -27,7 +31,9 @@ Alexey Zemskov / ZEMS explains **why screed has to go down before rough electric
 
 Alexey Zemskov / ZEMS says **switch height is a fixed constant, not something to scale per-occupant** — a repeated on-camera demonstration across four people (150-185cm tall) found the resting hand-drop height essentially constant across adults. Default: **switches 90cm from floor, 15cm from the door-opening edge** (moving to 10cm was shown causing casing conflicts). Countertop outlets default to 110cm, shifting by the same delta as any non-standard countertop height. The one real exception: video-intercom monitors and thermostats should track eye level instead, since they're read visually, not operated by feel.
 
-→ **[[12_Engineering_and_Systems/analysis/Mounting_Heights_and_Positioning|Full detail]]** (bedside-point formula)
+Надежда Кузина (interior designer, RU) **disputes the 110 cm countertop figure, giving 100 cm** — see Perspectives on Record above. She also contributes the heights that are referenced to the *cabinetry* rather than to the floor plane: a **250 mm minimum** for an outlet inside a sink base (a correction to her own 200 mm mistake, which collided with the base's internal stiffener rail), **25 cm** behind a freestanding freezer, and the arithmetic showing a **10 cm plinth leaves only ~1 cm of clearance** for the faceplate once floor tolerance is counted.
+
+→ **[[12_Engineering_and_Systems/analysis/Mounting_Heights_and_Positioning|Full detail]]** (bedside-point formula, the 110/100 Perspectives block, kitchen carcass-referenced heights)
 
 ## Rough Electrical: Sequencing & Common Pitfalls
 

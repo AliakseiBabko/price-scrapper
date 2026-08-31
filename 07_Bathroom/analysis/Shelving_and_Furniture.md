@@ -100,3 +100,53 @@ The same page's existing concealed-fixing technique (an acrylic or metal plate c
 
 [source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]]
 
+
+## Natural Wood in a Wet Room — Species, Deformation, and Why Oil Beats Lacquer (Надежда Кузина, added 2026-08-31)
+
+**This vault's first source on wood in a bathroom.** A 12.5-minute material explainer framed sceptically rather than aspirationally — "всегда есть страх, что всё это очень быстро сгниёт... давайте разбираться, что из этого просто красивая картинка, а что имеет связь с реальностью." She rejects several popular applications outright. [source: [[_Sources/YT_B7G_oKHEjkc_kuzina_natural_wood_in_bathroom|YT_B7G_oKHEjkc]]]
+
+### Two preconditions before any wood goes in
+
+**Good ventilation, and impregnated wood.** Both non-negotiable, and stated as the frame for everything else.
+
+**⚠️ Distance from wet zones is a planning-stage decision, not a finishing one.** Wetter zones are immediately by the basin, shower or bath; drier zones are the walls furthest from any mixer — **but she is explicit that dry zones still suffer from condensate.** "Dry" here is relative, not safe.
+
+### Species — selection follows the zone, because absorption and deformation differ
+
+- **⚠️ Oak («дуб») is best, and the reason is chemical rather than density: it contains tannin, a natural antiseptic that inhibits fungal growth.** It also deforms less than beech.
+- **⚠️ Beech («бук») is popular for furniture and specifically should not go in a bathroom** — it will either **bow and open along its glue lines, or crack.**
+- **Ash («ясень»)** — harder than some oaks (baseball bats are made from it), usually lighter than oak. **Its drawback is appearance, not performance**: it can be blotchy («пёстрый»), so ash is often toned or painted.
+- **Elm / karagach** — bright, contrasting, slightly exotic figure, common in single-slab worktops. **Rarely seen in bathrooms**, for the slab reason below.
+- **Larch («лиственница») — cheaper than oak or ash**, and works given a proper moisture-resistant anti-rot impregnation.
+- **Any species can technically go in, including birch and softwoods, but soft species rot faster.**
+- **⚠️ Birch («берёза») is a scoped exception**: it **cracks quickly, which is a defect everywhere except a wabi-sabi bathroom, where it is the point.** No pronounced texture, so it reads calm and monolithic. Needs good impregnation and careful care — **"если у вас не ваби, то не надо так."**
+
+### ⚠️ Two deformation mechanisms, and the rules that follow from each
+
+**Mechanism 1 — general moisture and temperature movement.**
+- **Doors and drawer fronts warp, doors faster because they have more area.** They stop closing properly and the distortion is visible.
+- **⚠️ Never fix a large flat wooden surface rigidly. Always leave gaps for movement**, especially in a bathroom where wood "меняется сильно и постоянно." Shelves too.
+- **⚠️ Worked failure: joinery built tight around a washing machine — two problems at once.** The shelf has nowhere to expand, **and the machine's vibration will rapidly loosen a structure clamped against it.** The better version leaves space "куда им трястись." **This generalises beyond wood and beyond bathrooms.**
+- **⚠️ Shelves near water are a maintenance trap, not a material failure.** Wood does better dry so it must be wiped — **and a worktop wipes easily while a shelf means unloading everything, wiping, and putting it back.** Put shelves further from the wet zone, or on the other side of a wall.
+- **⚠️ Fronts do better as a framed («рамочная») construction of separate elements than as one solid panel** — her example uses glass infill.
+
+**Mechanism 2 — cupping along the growth rings.**
+- **A single large piece bows along its annual rings even if it was well dried.** Same for a wide board. Such a piece with a natural edge is a **slab («слэб»)** — which she notes is out of fashion anyway, especially with epoxy.
+- **⚠️ The remedy is narrow lamellae: the smaller the pieces a glued panel («щит») is built from, the less it deforms. Choose lamellae 5–9 cm wide.**
+
+### ⚠️ Finishes — oil, not lacquer, and the mechanism is the argument
+
+- **Lacquer forms a film that protects only while it stays hermetic. Any crack lets moisture in — and it cannot evaporate back out.** That is where rot starts. **Even the most expensive or industrial lacquer performs worse than oil.**
+- **Yacht lacquer is not an exception** despite being made for prolonged water exposure — moisture still gets under it, **and it yellows the timber**, producing a look she compares to a faded Soviet doll.
+- **Enamel fails the same way** — scratches form easily and moisture enters through them.
+- **Stain («морилка») needs a coating over it, usually lacquer** — and because stain does not penetrate deeply, **any scratch or chip shows clearly.**
+- **Why oil works**: it soaks into the pores and, applied correctly, **the wood takes up as much as it can so there is no room left for moisture** — and **if moisture does get in, nothing stops it evaporating back out.**
+- **Oiled work is also easy to repair** — sand the damaged spot and re-oil. The condition is not to delay and not to leave wood unprotected.
+
+### What is worth making from wood here, and what is not
+
+- **⚠️ Wooden basins — rejected in unusually strong terms**: "я не считаю, что они стильные, и, на мой взгляд, они даже хуже, чем садовые гномики." **An uncoated wooden basin lasts a couple of weeks and turns slimy "как деревяшка в реке."** Her rule for sanitaryware: **"лучше не искать приключений — быть как все. Выбирайте керамику."**
+- **Wooden baths** — the surface shows the pieces it is built from, since they are almost never one solid piece, so it reads variegated. **Her observation about register is the useful part: it is a way to spend at luxury level while lowering the ostentation.**
+- **⚠️ Worktops and vanity units are the recommended application: choose oak, impregnate thoroughly, and wipe water off as soon as it lands.**
+- **⚠️ Barn board («амбарная доска») — a specific caution.** Reclaimed and deliberately barely processed, or it loses its charm — **but often so warped that even a purpose-cut recess for the basin base does not save it.** It crumbles, and carries deep cracks and holes where moisture, dust and dirt collect **and cannot be cleaned out.** Her principle: **"если вы покупаете предмет с историей, то вы покупаете и всё, что к этой истории прилагается."** Two clean alternatives: a flat surface with no patina, or **an imitated aged look**, where the cracks are shallower, freshly coated, and maintainable.
+- **⚠️ Small wooden items tolerate humidity considerably better than large ones.** Mirror frames, ladders, stools, short shelves keep their appearance well. Care is the same as a worktop — wipe them, and **do not let them stand in a puddle.**

@@ -120,3 +120,25 @@ Traceability record kept on its own page — [[01_Entrance/analysis/Source_Notes
 ## Change Log
 
 Editorial history kept on its own page — [[01_Entrance/analysis/Change_Log|Change Log]]. Not reader content, kept off this page by design.
+
+## What a Hallway Is For, and the Sightline Rules That Follow (Надежда Кузина, added 2026-08-31)
+
+From a 78-minute planning lecture. The general planning method is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
+
+- **Why hallways are always too small, stated as a shared client/developer error**: the developer reasons exactly as the client does — "extra metres in the hallway, or in the living room?" — and the living room wins. **The consequence is concrete: two children cannot be got ready for school at the same time, and there is nowhere to hang anything** — while in practice guests are received in the kitchen anyway.
+- **Her own project, reported as a partial failure rather than a success**: she tried to steal wardrobe depth from the guest WC and could not take it fully, because the washing machine door would then not open. The wardrobe corner still protrudes into the hallway. **Her point is that this is still the right trade** — the alternative was the developer's single coat hook.
+- **⚠️ A hallway is a pass-through zone, so you can be bolder in it than anywhere else** — you do not spend enough time there to tire of a strong move. Good place to state the style the guest is about to meet. Her example: **in a soft-loft flat, do hard loft in the hallway specifically.**
+- **⚠️ The buffer-zone argument, which is her actual reason for requiring a mirror.** We play different social roles — the person who comes home is not the person who goes to work — and **the hallway is where the mask changes**, between the ordered, controlled world of the flat and the chaotic, sometimes aggressive world outside. **Therefore there must be a mirror.**
+- **Tie the hallway to the world outside the front door.** In a Stalinka with a minimalist or loft interior, mix styles in the hallway specifically — place an Empire-style object that belongs to the building — "таким образом вы завязываете внешнюю и внутреннюю среду."
+- **Give small items a defined place** — keys, phone — so leaving in the morning is not a search.
+
+### Sightlines — «выход на красоту» and what must not be visible
+
+- **Opening the front door should land the eye on something worth seeing** — art, a picture, a sculpture, or at minimum a mirror. **Caveat she volunteers herself**: feng shui objects to a mirror directly opposite the front door, and while she is not an adherent she agrees that specific placement is not great.
+- **Same principle inside**: entering the living room you should see most of it, with wall decor or a picture over the sofa — better than facing a wardrobe.
+- **⚠️ From habitable rooms you should not be able to see the WC or the hallway.** Her reason is realism rather than theory: **outerwear ends up on open hooks and shoes drip melting snow**, and you do not want to sit on the sofa looking at it.
+- **Do not let the entry sightline land on the side panel of a wardrobe** or any other furniture — frontal comprehension reads better.
+- **⚠️ A well-planned hallway makes it self-evident to a guest where to go**, a principle she credits to classical architecture rather than claiming as her own. Her failure scenario: you are detained at the door arguing with the management company about ЖКХ charges; the guest sidles past with no idea where to go — past a spouse in curlers, past a children's room. **The hallway should route them to the living room unprompted.**
+- **Axes are what make patterned floor-tile layouts work in a hallway** — she likes carpet-like tile layouts, and they only succeed against a proper axis.
+- **Where an added door to a dressing room or WC breaks the hallway's symmetry** and pushes a console or pouffe corner into the space: **"просто нужно скруглять"** — round it off, there is nothing else to be done.
+- **⚠️ A layout answer to the courier problem.** An audience member said her kitchen is visible from the open hallway and she hates couriers seeing into the flat. **Her answer is a planning one — arrange the hallway so the courier's sightline lands on a composed vignette rather than into the apartment.**
