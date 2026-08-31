@@ -167,6 +167,98 @@ Per explicit user direction: the large majority of sources this project processe
 
 It matches each transcript to its source note by the `.meta.json` sidecar's own `video_id` field against each note's frontmatter `video_id:` field - never by filename globbing (a prior glob-based approach broke on a video ID with a leading underscore) - and rewrites the note's `transcript_file:` line by regex on the frontmatter key, not by guessing at the old path string. Run with `--dry-run` first on an unfamiliar batch.
 
+### Fetch pacing and rate-limit policy (drained from Claude machine-local memory 2026-08-31)
+
+**This is the rule most likely to cost you an afternoon, and it was previously
+recorded only in one agent's private memory** — which meant Codex and
+Antigravity had no access to it at all. Drained here per the
+`AGENT_KNOWLEDGE_PORTABILITY` plan.
+
+**Serialize every YouTube network fetch.** One video at a time, never in
+parallel across videos, processes or agents. Parallelism belongs in extraction
+and synthesis, working from transcripts already on disk — never in the remote
+fetch itself.
+
+**Pace them.** One fetch every ~5–10 minutes, not back-to-back even when
+sequential. Never re-fetch a video already cached on disk.
+
+**On a rate-limit, stop the whole fetch phase — do not retry in a loop.**
+
+- `fetch_youtube_transcript.py` exits **2** (not 1) when a failure looks like a
+  rate-limit or IP block, and writes `reason_class: "rate_limited_or_ip_blocked"`
+  plus `next_retry_guidance` into `<video_id>.FAILED.meta.json`. **Treat exit
+  code 2 as a stop signal for the run, not for that one video.**
+- Exit code **3** is a *local* setup failure and must NOT trigger a cooldown:
+  most often `--cookies-from-browser` failing because the named browser is
+  still running (a tray/background process counts) and its cookie database is
+  locked.
+- `preflight_playlist.py` defaults to light mode (duplicate check, no network).
+  Probing is opt-in via `--probe` and has a circuit breaker: on a detected
+  block it stops probing and lets the remainder through as unprobed `fresh`
+  rather than generating more 429s.
+
+> [!WARNING]
+> **Never record a rate-limited video as `skipped` or `duplicate_skipped` in
+> `processed_sources.csv`.** Those statuses mean genuinely no-captions,
+> unavailable, or duplicate. A transient block is not a skip, and mislabelling
+> it silently drops the video from the queue forever. Leave the preflight
+> manifest and `<video_id>.FAILED.meta.json` in place as retry evidence.
+
+**⚠️ A block can be IP-wide, not channel-specific.** Confirmed 2026-08-24:
+three unrelated channels (Kruglov/Ontario, Pavel Sidorik, TimRemont) hit the
+identical signature within ~15 minutes, the third on its very first attempt
+before any content was seen. **So switching channels does not route around a
+block.** If a second channel switch in short succession hits the same
+signature, stop rotating — rotating a third and fourth channel just burns
+dispatches into the same wall. Pause **all** fetching for a real cooldown, and
+only resume rotating once one channel's retry actually succeeds.
+
+**Cooldowns are measured in hours, not minutes.** Confirmed twice: a 429
+cleared after a multi-hour wait with a plain anonymous fetch succeeding on the
+first method tried, and a 5-day-old block had fully cleared with no escalation
+needed. **Standing check when starting a session after a prior block: try one
+plain anonymous fetch on whatever is pending before reaching for any
+escalation.** Do not assume a block is still active because it was recent, and
+do not credit cookies for a success — check `attempts_before_success` in the
+metadata sidecar to see which method actually worked.
+
+**Escalation tiers**, in order, opt-in only:
+
+1. **Anonymous, slow, cached** — the default above.
+2. **`--cookies-from-browser BROWSER[:PROFILE]`** (e.g. `chrome:Profile 3`),
+   supported by `fetch_youtube_transcript.py` (yt-dlp-based methods only, not
+   `youtube-transcript-api`) and `preflight_playlist.py --probe`. For a small
+   batch when anonymous keeps failing. Still stops on exit code 2. **Never
+   export, commit or log cookie contents or the cookie DB path.** Account-level
+   ban risk is distinct from IP-level limiting; a secondary Google account is
+   worth considering for a regular workflow.
+3. **Whisper ASR or a paid transcription service** — only when captions are
+   genuinely disabled, or authenticated fetch still fails after a real
+   cooldown. Mark provenance (`asr_fallback: true`) and treat its facts
+   sceptically.
+
+> [!NOTE]
+> **Already tested and ruled out: an anonymous browser-UI fetch does not bypass
+> the block.** `tools/youtube/browser_ui_transcript_fetch.mjs` drives a real
+> headed Chromium to the watch page and opens the transcript panel through the
+> UI. On test (`ZqfaeREBEYQ`) the page rendered "Sign in to confirm you're not
+> a bot" over the player — the same defence as the API paths, just as a page
+> element instead of an HTTP error. Confirmed by screenshot. **Do not
+> re-propose this as an untested escalation.** It is worth revisiting only with
+> a genuinely authenticated browser session, or from a different IP or cooldown
+> state.
+
+**Why the tiers exist at all**: `youtube-transcript-api` and `yt-dlp` are
+unofficial access paths — transcript-endpoint scraping and Innertube-internal
+calls — sensitive to request pattern and IP reputation, not a sanctioned API. A
+429 and a "confirm you're not a bot" wall are the same defence reacting
+differently. The root cause is never "this video" or "this channel".
+
+The global fetch skill is vendored read-only into this repo at
+`tools/youtube/vendored_skill_backup/youtube-transcript-fetch/` so the patched
+behaviour above is not lost on a machine whose `~/.claude/skills/` copy is
+older.
+
 ### Process note for a broad (non-topic-scoped) playlist (added 2026-08-05)
 
 For a playlist that isn't scoped to one topic (i.e. its videos will end up routed across several different wiki pages, not one), run `preflight_playlist.py` **and** a lightweight topic-clustering pass **before** splitting into parallel extraction batches - classify each fresh video's likely destination page(s) first (a quick title/first-line skim is enough, doesn't need to be exact), then batch by destination cluster rather than arbitrary chunks of N videos. The bottleneck on a broad playlist is synthesis (deciding per-fact page routing and reconciling it across sources afterward), not extraction - grouping related content into the same batch up front means each batch's own report comes back pre-organized by page, cutting down the reconciliation work substantially versus discovering the routing spread only after all batches finish.
@@ -174,6 +266,15 @@ For a playlist that isn't scoped to one topic (i.e. its videos will end up route
 Section-reference validation (checking that a prose `§N.M` cross-reference actually matches an existing heading) was considered as a companion tool during the 2026-08-04 hardening pass but deliberately deferred - not worth building preemptively. Revisit if a heading/anchor mismatch actually surfaces again, or when the next larger wiki reorg happens (a natural time to add a repo-wide reference check, since headings are being renumbered anyway).
 
 ### Value-filter pass before processing a list of videos (added 2026-08-17)
+
+> [!TIP]
+> **Channel-specific triage signal, Zemskov/Zemstandart (drained from memory 2026-08-31).**
+> This channel's «как нельзя / how not to X» title format was misleading in
+> **every instance checked — 14 of 14**: all were positive step-by-step
+> technique demos, not critiques. Stronger evidence than the general "title
+> sentiment is unreliable" finding below. **Lean toward treating this channel's
+> "how not to" titles as a positive-content signal rather than a coin flip**,
+> while still spot-checking.
 
 Per explicit user guidance (confirmed effective on a real 8-video test against the Zemskov/Zemstandart channel, 2026-08-17): whenever asked to process a **list** of sources (a playlist, a channel, or any named batch of several videos) - not a single video - run a value-filter pass before committing to full pipeline processing on all of them, rather than processing every fresh video in the list by default. This is a separate concern from the topic-clustering pass above (that one decides *how to batch*; this one decides *whether to process at all*), and both apply together on a broad, high-volume list.
 
