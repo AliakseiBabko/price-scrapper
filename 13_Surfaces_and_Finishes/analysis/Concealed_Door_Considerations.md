@@ -35,7 +35,7 @@ Ontario, Avalremont, and Forcemontage report: **Daily-wear visibility**: because
   a precise finish cut against the wall can run **~1,500 RUB/linear
   meter (≈$20/m)**, and the mandatory damper gap then needs a cork
   compensator or floor sealant, adding a further **~2,000 RUB/linear
-  meter (≈$25/m)**.
+  meter (≈$30/m)**.
 - **New failure modes**: integrated LED lighting inside the gap
   continuously illuminates the dust that collects there; the flooring
   edge is embedded in the wall channel on both sides, so later floor

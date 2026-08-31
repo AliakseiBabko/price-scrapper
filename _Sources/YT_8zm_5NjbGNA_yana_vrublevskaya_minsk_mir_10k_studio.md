@@ -66,7 +66,7 @@ Flooring/general: bedroom laminate incl. underlay 1,400, balcony tile 80.
 
 Furniture/other: wall hooks in lieu of a wardrobe 55, wallpaper 375, robot vacuum 303, accent wallpaper (behind sofa) 155, dining table 172, two chairs 234, extra wifi router 68 (paid 25 via cashback), garment steamer 83 (paid ~3 via cashback), room fan 75, mattress 417. Still-to-buy at time of filming: bed, TV, two wardrobes, sofa, curtains, side table, pouf, video intercom, rug.
 
-**Grand total to date**: **$10,350 spent, ~$2,607 still needed** (per the speaker's own stated figures, both converted "по курсу 2,8") — **≈$12,957 total against her own $10,000 target title**, a real ~30% overshoot on a self-managed budget. `confirmed`, directly stated.
+**Grand total to date**: **$10,350 spent, ~$2,607 still needed** (per the speaker's own stated figures, both converted "по курсу 2,8") — **≈$12,957 total against her own $10,000 target title** (`arithmetic-exact` — $10,350 + $2,607, both her own spoken USD figures), a real ~30% overshoot on a self-managed budget. `confirmed`, directly stated.
 
 ## Practical/Soft-Cost Line Items — genuinely useful checklist content
 

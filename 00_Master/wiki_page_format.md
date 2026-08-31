@@ -89,6 +89,18 @@ Per explicit user direction: once a full rollout confirmed the pattern works, th
 - **Adding new source content to an existing *single-file* page** (WC, Laundry, Kitchen, Balcony, or a future new topic that started small): keep appending normally under the plain shape until the page's Core Technical Sections step is genuinely hard to scan or has accumulated several distinct sub-decisions — then convert it then, the same way Bathroom and Wardrobes organically crossed that line. Don't convert preemptively on a guess that a page might grow.
 - **This still isn't a numeric line-count threshold** — `Wardrobes_and_Storage.md` converted at 141 lines because it already had 6 clearly separable sub-decisions, not because it crossed a specific number. Judge by topic decomposition, use line count only as a rough proxy when the decomposition itself is ambiguous.
 
+## ⚠️ Two failure modes, not one — and the second was invisible until 2026-08-31
+
+The convention above is about pages that get **too big**. A batch of real splits on 2026-08-31 surfaced the opposite failure, which this document had never named and `tools/check_page_sizes.py` was structurally unable to see:
+
+**A page can be fragmented rather than oversized** — many headings with very little under each. `12_Engineering_and_Systems/analysis/Lighting_Design.md` had **26 top-level sections in 242 lines, 9 lines apiece**, because every processing batch appended its own dated heading instead of adding to an existing section. It had been flagged as "too long, split it" for weeks. **Splitting it would have made it strictly worse.** The fix is merging.
+
+**The practical rule when routing a new fact: look for an existing section it belongs under before adding a heading.** A dated heading per batch is convenient while writing and corrosive to read, and the cost only becomes visible once a page has twenty of them.
+
+**A second lesson from the same pass, about the checker rather than the pages.** The original thresholds (detail pages at 220 lines with 3+ sections) were never tested by actually performing a split. When three were finally done — 921, 865 and 815 lines, into eleven pages — **the flagged count went up, 31 to 35**, because the correctly-sized single-topic results (234–336 lines) tripped the same threshold their oversized parents had. **A rule that punishes a correct split gives an author no achievable target short of atomising every page into stubs**, which is exactly how the fragmentation above happens. Thresholds were recalibrated accordingly; the reasoning is in the tool's own constants block.
+
+**So the two failure modes generate each other**, and the guidance has to hold both at once: split when a page carries several genuinely independent decisions, merge when it carries one decision cut into twenty dated slices, and treat any line-count number as the weakest of the available signals.
+
 ## Not done yet
 
 All three pages (`HVAC_and_Ventilation.md`, `Electrical_and_Lighting.md`, `Plumbing_and_Waterproofing.md`) are now converted to this shape (last one finished 2026-07-31). No known remaining flat-table placeholders in this folder — if a new system topic is added later (e.g. a dedicated Waterproofing-only or Smart-Home page), use any of the three as the reference example.

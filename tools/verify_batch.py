@@ -51,7 +51,38 @@ DEFAULT_ID_PATTERN = r"yt_[A-Za-z0-9_-]+"
 # (Codex, PRICE_SCRAPPER_ATTRIBUTION_AND_CURRENCY_NORMALIZATION turn 74).
 SELF_PATH = "tools/verify_batch.py"
 
+# The self-test's fixtures are deliberately-malformed figures and a deliberately
+# fabricated source ID - that is what it is for. Once committed they became 18
+# of the tool's own 71 findings on a full-history run (2026-08-31), which is
+# both noise and self-referential nonsense: the checker reporting its own test
+# data as defects. Excluded on the same reasoning as SELF_PATH.
+FIXTURE_PATHS = ("scripts/verify_batch_selftest.py",)
+
 INLINE_CODE_SPAN = re.compile(r"`[^`\n]*`")
+
+# A code span that WRAPS ACROSS A LINE BREAK is invisible to INLINE_CODE_SPAN,
+# which by construction cannot match past a newline. Because the money checks
+# run line-by-line, the tail of a wrapped span reaches them unmasked - which is
+# how six "cents" findings arose on 2026-08-31 from lines like
+#     `25,000 / 80.2918 = $311.36 -> $310`, nearest-10 bucket
+# where the span documents the arithmetic AND its correctly-bucketed result.
+# Those are the store's own show-your-work annotations, the opposite of a
+# defect. Masking spans across the whole text first - preserving line structure
+# so line ordering and added-line diffing still line up - fixes the class.
+MULTILINE_CODE_SPAN = re.compile(r"`[^`]*`", re.S)
+
+
+def mask_code_spans(text: str) -> str:
+    """Blank every `code span`, including ones wrapping across newlines.
+
+    Newlines inside a span are preserved so the result has the same line
+    count and ordering as the input - callers zip masked lines against
+    original lines and rely on that."""
+
+    def blank(match: "re.Match[str]") -> str:
+        return "".join("\n" if ch == "\n" else " " for ch in match.group(0))
+
+    return MULTILINE_CODE_SPAN.sub(blank, text)
 
 # A USD figure with cents, e.g. "$494.6" or "$1,209.30" - per explicit user
 # correction (2026-08-21), USD equivalents are a comparability aid for an
@@ -143,9 +174,109 @@ def figures_are_exact_by_construction(path: str) -> bool:
 # turned out to be in a superseded pre-reorg legacy guide.
 FROZEN_PATH_PREFIXES = ("_Archive/",)
 
+# A binary file that doesn't decode as UTF-8 is not a corruption finding - it
+# is a PNG, a DWG or a JPEG doing exactly what it should. The utf8/BOM checks
+# exist to catch a *text* file mangled by a bad write, and reporting every
+# screenshot in `_Inbox/_Visual_Drop/` as "not valid UTF-8" buried the real
+# findings: 136 of 219 hits on a full-history run on 2026-08-31 were binaries.
+# Detection is a NUL-byte sniff rather than an extension list, so an unknown
+# binary format is still skipped and a text file with an odd extension is
+# still scanned.
+BINARY_SNIFF_BYTES = 8192
+
+
+def looks_binary(data: bytes) -> bool:
+    return b"\x00" in data[:BINARY_SNIFF_BYTES]
+
 
 def path_is_frozen(path: str) -> bool:
+    if path in FIXTURE_PATHS:
+        return True
     return any(path.startswith(prefix) for prefix in FROZEN_PATH_PREFIXES)
+
+
+# Three phrase classes that make an otherwise-suspect figure legitimate. All
+# three were found on 2026-08-31 as real false positives on a full-history run,
+# and in each the store is being MORE careful than the rule, not less - so
+# flagging them teaches the reader to ignore the checker.
+#
+#   pre_rounding  - the note documents the value it rounded FROM, e.g.
+#                   "factory lintel ~$12 (bucket-rounded from $12.13)". The
+#                   live figure is correct and the parenthetical is exactly the
+#                   audit trail the rounding policy asks for.
+#   superseded    - a correction note quotes the figure it replaced, e.g. "the
+#                   previous figure (~$52,207/~$522) predates the trailing-date
+#                   precision policy". Rewriting that destroys the correction's
+#                   own evidence.
+#   already_usd   - the source stated the figure in USD, so no conversion
+#                   happened and the rounding-bucket rule - which governs
+#                   converted *equivalents* - does not apply. The store writes
+#                   "~" on these to mean "approximately", not "converted".
+#
+# Matching is deliberately narrow: a marker must sit within SUPPRESSION_WINDOW
+# characters of the figure, so an unrelated "previously" elsewhere on a long
+# line cannot excuse a real defect.
+SUPPRESSION_WINDOW = 90
+PRE_ROUNDING_MARKERS = (
+    "rounded from",
+)
+# An explicit, greppable assertion by the note's author that a figure is exact
+# by construction - a real stated transaction total, or one recovered by
+# arithmetic on other figures the SOURCE stated in USD (e.g. $70,000 / 52 m² =
+# $1,346/m²). The 2026-08-21 rounding correction carves out exactly this case:
+# such figures "stay precise, since rounding them would discard real
+# information rather than avoid manufacturing false precision." Until now the
+# only way to claim the exception was to live under an exempt path prefix,
+# which left the same figures flagged wherever else they were cited - one
+# project total was reported five times across five files. Written as a
+# backticked tag alongside the store's existing `confirmed` / `single-account`
+# / `unverified` vocabulary; marker lookup therefore runs against the raw line,
+# not the code-span-masked one.
+ARITHMETIC_EXACT_MARKERS = (
+    "arithmetic-exact",
+)
+SUPERSEDED_MARKERS = (
+    "previous figure",
+    "previously said",
+    "previously read",
+    "originally miscalculated",
+    "was originally",
+    "superseded",
+)
+ALREADY_USD_MARKERS = (
+    "already stated in usd",
+    "stated directly in usd",
+    "explicit usd",
+    "same as original",
+    "no currency conversion applied",
+    "figures are already stated",
+)
+
+# "$249 million" / "$1.56 billion" are three-significant-figure magnitudes, not
+# false precision, and the bucket table (nearest 10/100/1,000) is meaningless
+# against them - it would demand "$249,000,000 -> $249,000,000". The cents
+# pattern already excluded a k/M *suffix*; this covers the spelled-out scale
+# words, which is how two industry-scale lobbying figures came to be flagged.
+SCALE_WORD_PATTERN = re.compile(r"^\s*(million|billion|trillion|bn|mn)\b", re.I)
+
+
+def _figure_is_excused(line: str, start: int, end: int) -> bool:
+    """True if the dollar figure at [start:end) in `line` is a documented
+    non-defect rather than a live violation."""
+    if SCALE_WORD_PATTERN.match(line[end:]):
+        return True
+    behind = line[max(0, start - SUPPRESSION_WINDOW):start].lower()
+    if any(m in behind for m in PRE_ROUNDING_MARKERS + SUPERSEDED_MARKERS):
+        return True
+    # An `arithmetic-exact` tag governs its whole line: these figures travel in
+    # groups ("$2,700 / $17,500 / $7,000 / $42,800, summing to $70,000 for
+    # 52 m² (≈$1,346/m²)") and tagging each one individually would be noise.
+    if any(m in line.lower() for m in ARITHMETIC_EXACT_MARKERS):
+        return True
+    # An `already_usd` marker usually trails its figures ("... device ~$95 ...
+    # figures are already stated in USD"), so look both ways for that class.
+    ahead = line[end:end + SUPPRESSION_WINDOW].lower()
+    return any(m in behind or m in ahead for m in ALREADY_USD_MARKERS)
 
 
 EXCHANGE_RATE_TABLE_PATH = "00_Master/exchange_rates_reference.md"
@@ -332,13 +463,13 @@ def check_rounding_bucket(path: str, base_text: str, head_text: str) -> list[str
     if figures_are_exact_by_construction(path) or path_is_frozen(path):
         return problems
     base_lines = set(base_text.splitlines())
-    head_lines = head_text.splitlines()
-    added_lines = [line for line in head_lines if line not in base_lines]
-
-    for line in added_lines:
-        prose_line = INLINE_CODE_SPAN.sub("", line)
+    # Mask across the whole text so a code span wrapping a line break is
+    # blanked on both of its lines - see mask_code_spans.
+    for line, prose_line in zip(head_text.splitlines(), mask_code_spans(head_text).splitlines()):
+        if line in base_lines:
+            continue
         for match in APPROX_DOLLAR_PATTERN.finditer(prose_line):
-            for raw in match.groups():
+            for group_index, raw in enumerate(match.groups(), start=1):
                 if raw is None:
                     continue
                 n = float(raw.replace(",", ""))
@@ -347,12 +478,15 @@ def check_rounding_bucket(path: str, base_text: str, head_text: str) -> list[str
                     # $0. See SMALL_FIGURE_FLOOR.
                     continue
                 unit = _rounding_unit(n)
-                if n % unit != 0:
-                    snippet = line.strip()[:80]
-                    problems.append(
-                        f"USD figure ${raw} isn't a multiple of the expected rounding unit "
-                        f"(${unit:,}) for its magnitude - false precision (line: {snippet}...)"
-                    )
+                if n % unit == 0:
+                    continue
+                if _figure_is_excused(line, match.start(group_index), match.end(group_index)):
+                    continue
+                snippet = line.strip()[:80]
+                problems.append(
+                    f"USD figure ${raw} isn't a multiple of the expected rounding unit "
+                    f"(${unit:,}) for its magnitude - false precision (line: {snippet}...)"
+                )
     return problems
 
 
@@ -364,17 +498,18 @@ def check_usd_cents(path: str, base_text: str, head_text: str) -> list[str]:
     if figures_are_exact_by_construction(path) or path_is_frozen(path):
         return problems
     base_lines = set(base_text.splitlines())
-    head_lines = head_text.splitlines()
-    added_lines = [line for line in head_lines if line not in base_lines]
-
-    for line in added_lines:
-        # Strip inline `code spans` before matching - documentation that
-        # quotes a bad-example figure (e.g. "not `$47.2/m2`") isn't a live
-        # violation, same reasoning as the retired-pattern check above.
-        prose_line = INLINE_CODE_SPAN.sub("", line)
+    # Strip `code spans` before matching - documentation that quotes a
+    # bad-example figure (e.g. "not `$47.2/m2`") isn't a live violation, same
+    # reasoning as the retired-pattern check above. Masking runs over the whole
+    # text so a span wrapping a line break is blanked too; that wrapped case is
+    # how this check's worst false-positive class arose. See mask_code_spans.
+    for line, prose_line in zip(head_text.splitlines(), mask_code_spans(head_text).splitlines()):
+        if line in base_lines:
+            continue
         hits = [
-            hit for hit in USD_CENTS_PATTERN.findall(prose_line)
-            if float(hit.lstrip("$").replace(",", "")) >= SMALL_FIGURE_FLOOR
+            match.group(0) for match in USD_CENTS_PATTERN.finditer(prose_line)
+            if float(match.group(0).lstrip("$").replace(",", "")) >= SMALL_FIGURE_FLOOR
+            and not _figure_is_excused(line, match.start(), match.end())
         ]
         if hits:
             snippet = line.strip()[:80]
@@ -508,16 +643,28 @@ def main() -> int:
         if head_bytes is None:
             # Deleted file — nothing to scan for corruption, but still check ID drift below.
             head_text = ""
+        elif looks_binary(head_bytes):
+            # A PNG/DWG/JPEG is not a corrupted text file. See looks_binary.
+            continue
         else:
             try:
                 head_text = head_bytes.decode("utf-8")
             except UnicodeDecodeError:
                 problems.append({"file": path, "check": "utf8", "message": "not valid UTF-8 in head state"})
                 continue
-            if head_bytes[:3] == b"\xef\xbb\xbf":
+            # A BOM inside archived evidence is not fixable and must not be
+            # "fixed": these transcripts are hashed for provenance, and the BOM
+            # is INSIDE the recorded hash. 20260727_vid1_transcript is sha256
+            # d04723c5... with its BOM and b3993e98... without, and d04723c5 is
+            # what processed_sources.csv records. Stripping it to satisfy a
+            # style check would silently invalidate the chain of evidence the
+            # archive exists to preserve. Verified 2026-08-31.
+            if head_bytes[:3] == b"\xef\xbb\xbf" and not path_is_frozen(path):
                 problems.append({"file": path, "check": "bom", "message": "has a UTF-8 BOM"})
 
-        is_self_or_excluded = path == SELF_PATH or path in args.exclude_path
+        is_self_or_excluded = (
+            path == SELF_PATH or path in FIXTURE_PATHS or path in args.exclude_path
+        )
 
         if not is_self_or_excluded:
             for sig in MOJIBAKE_SIGNATURES:
@@ -558,7 +705,10 @@ def main() -> int:
                 ),
             })
 
-        if not args.skip_repo_wide_id_check:
+        # The fixtures file's fabricated ID is the point of the fixture; see
+        # FIXTURE_PATHS. Skipping the whole ID block for it rather than only
+        # the repo-wide half, since its drift is equally meaningless.
+        if not args.skip_repo_wide_id_check and not is_self_or_excluded:
             for aid in sorted(added_ids):
                 hits = repo_wide_id_hits(aid, path, args.head)
                 if hits == 0:

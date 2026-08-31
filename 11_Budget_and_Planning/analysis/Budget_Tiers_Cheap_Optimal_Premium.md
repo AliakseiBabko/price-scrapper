@@ -341,6 +341,25 @@ material categories that exist for this use)
 > (this page) and a design-taste opinion piece (the other video), not a
 > factual contradiction that needs resolving. [source: [[_Sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
 
+## ⚠️ A Style-Level Cost Floor: Not Every Style Is Available at Every Tier (added 2026-08-31)
+
+**This page is organised per *system*. This source adds a constraint that sits above all of them, and it is the first on this page to do so.**
+
+Мария Шеврина (interior-design studio principal specialising in minimalism, region not resolved in this source, `single-account`, `unverified`) argues that **styles have different cost *floors*, not merely different typical spends** — so the choice of style can rule out the cheap tier across many systems at once, before any per-system decision is made:
+
+- **⚠️ Minimalism can be executed cheaply and still read correctly.** Her words: it "можно сделать из дешёвых материалов… из имитации каких-то материалов" — imitation materials are acceptable, provided the storage is properly thought through. The look survives budget execution.
+- **⚠️ Muji cannot** — "а вот в муджи так не прокатит". Her reason is structural rather than aesthetic: **in muji, material quality is not a tier choice within the style, it is the style's defining content.** Choosing muji therefore forecloses the cheap tier on every surface and furniture system simultaneously.
+- **⚠️ Scandi is achievable over a developer's base finish** ("вы можете сделать Сканди в ремонте от застройщика") — of the five styles she discusses, the only one she says survives an unrenovated shell. It asks for a colour range, permits bright accents, and imposes no requirement of simple furniture forms.
+
+**The resulting ordering of style cost-floors, as she states it**: scandi (lowest — works over a builder finish) → minimalism (cheap execution possible with imitation materials) → japandi / wabi-sabi (she does not say) → muji (highest — quality is non-negotiable).
+
+> [!WARNING]
+> **The ordering is asserted and entirely uncosted.** There is not a single price figure anywhere in the source, and two of the five styles are unplaced. **Use it as a shortlist heuristic when a style is still undecided — never as a budget input**, and never in place of the per-system figures above, which come from sources that actually quote numbers.
+
+**How it interacts with the per-system framework**: the page's own closing position is that you pick a tier per system rather than one tier for the apartment. **This source does not contradict that, but it does bound it** — if a style with a high floor is chosen first, the per-system freedom that framework assumes is narrower than it looks, and specifically the cheap column stops being available on the systems that carry the style (surfaces and furniture) while remaining available on the ones that don't (ventilation, smart home, rough-in electrics). **That is a taste-driven technical dependency of the kind the user's own caveat above asks to be tracked**, arriving from an unexpected direction.
+
+[source: [[_Sources/YT_k1YBZzIMAgw_shevrina_muji_style_differentiation|k1YBZzIMAgw]]]
+
 ## Related sources on this channel (not reconciled here — flagged for a
 future pass if a direct figure conflict is found)
 
@@ -381,3 +400,13 @@ worth reconciling if a future reader spots a direct contradiction.
   downlight/chandelier — opposite of `dBn4nhn8d9c`'s own pick); and a
   reinforcement (not resolution) of the existing PVC-baseboard
   disagreement, now standing 2-vs-1 in favor of MDF/avoid-PVC.
+- 2026-08-31 — First *style-level* constraint added to a page that had
+  been organised purely per system (Мария Шеврина / SMBUREAU,
+  `k1YBZzIMAgw`): styles have different cost floors, so choosing a style
+  can remove the cheap tier from many systems at once. Scandi survives a
+  developer's base finish; minimalism tolerates imitation materials; muji
+  does not, because material quality *is* the style. Entirely uncosted —
+  no price figures in the source and two of five styles unplaced — so it
+  is marked as a shortlist heuristic, not a budget input. Notable as an
+  instance of the user's own cross-system-dependency caveat arriving from
+  a taste decision rather than a technical one.

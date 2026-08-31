@@ -143,7 +143,7 @@ Zemstandart/zemspro checklist (`web_zemspro_about_development`,
   ceiling).
 - **Speaker's own real example** (his own 61 m² apartment, same object as
   video 1): a design project with 3D visualization would cost
-  approximately **$1,500** (≈$24.6/m², falling inside the "established
+  approximately **$1,500** — $1,500 for 61 m², so ≈$25/m² (`arithmetic-exact`), falling inside the "established
   professional" tier above) — the speaker notes price varies by scope: a
   schemes/drawings-only package (no visualization) is markedly cheaper
   than a full visualized package, and price rises further if ongoing

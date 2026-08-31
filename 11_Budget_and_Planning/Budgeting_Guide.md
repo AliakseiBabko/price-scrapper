@@ -45,7 +45,7 @@ studio, arithmetic-checked; it also overshot its own $10,000 target by
 ~30%, worth keeping in mind against this guide's 10–15% buffer figure
 below); and a **real, complete, level-1-confirmed-Belarus DIY project** in
 [[11_Budget_and_Planning/case_studies/sidorik_khrushchevka_finale_31m2_2020_case|Sidorik Khrushchevka Finale Case]]
-(2020, 31.2 m², ≈$492–507/m² — the only self-managed reference in this
+(2020, 31.2 m², ≈$492–507/m² `arithmetic-exact` — the only self-managed reference in this
 store with both a directly-spoken Belarus confirmation *and* a computable
 $/m² figure, though its labor cost is the practitioner's own DIY time,
 not a hired-specialist market rate, so it likely understates a
@@ -618,7 +618,7 @@ Her own preferred arrangement, stated to designers: **charge a proper fee, or a 
 - [[11_Budget_and_Planning/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).
 - [[11_Budget_and_Planning/case_studies/price_table_screenshot_case|Price Table Screenshot Case]] — **self-managed / labor-only**. Row-level labor смета reconstruction from a real 44 m² Minsk estimate (average market rate per work item), plus a companion rate-card summary.
 - [[11_Budget_and_Planning/case_studies/yana_vrublevskaya_minsk_mir_studio_2023_case|Yana Vrublevskaya Studio Case]] — **self-managed / full end-to-end, the closest structural match to this project's own plan**. A real, itemized self-managed studio renovation (Minsk Mir, region level 2 only, 2023) covering rough works *and* the full finish/fixture/appliance/furniture spend — arithmetic-checked, and a real ~30% overshoot against its own stated budget target.
-- [[11_Budget_and_Planning/case_studies/sidorik_khrushchevka_finale_31m2_2020_case|Sidorik Khrushchevka Finale Case]] — **self-managed / DIY, level-1 Belarus confirmation**. A real, complete, self-executed 31.2 m² renovation (2020) with a directly-spoken "average cost for Belarus" framing and a computable ≈$492–507/m² — labor cost is the practitioner's own DIY time valuation, not a hired-specialist rate, so treat as a likely-understated self-managed floor rather than a typical hired-labor self-managed cost.
+- [[11_Budget_and_Planning/case_studies/sidorik_khrushchevka_finale_31m2_2020_case|Sidorik Khrushchevka Finale Case]] — **self-managed / DIY, level-1 Belarus confirmation**. A real, complete, self-executed 31.2 m² renovation (2020) with a directly-spoken "average cost for Belarus" framing and a computable ≈$492–507/m² (`arithmetic-exact`: stated USD totals ÷ stated area) — labor cost is the practitioner's own DIY time valuation, not a hired-specialist rate, so treat as a likely-understated self-managed floor rather than a typical hired-labor self-managed cost.
 - [[11_Budget_and_Planning/case_studies/schedule_analysis_case|Schedule Analysis Case]] — full 24-step turnkey workflow and trade-off tables for sequencing decisions.
 - [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] — companion top-level page for sequencing (general order, and how choices like hidden vs. standard doors change it).
 - [[11_Budget_and_Planning/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya 52 m² Case Study]] — **turnkey**. Full itemized breakdown of a real $70,000 turnkey 52 m² Minsk project (2026, primary Minsk benchmark, second data point alongside Minsk World).
