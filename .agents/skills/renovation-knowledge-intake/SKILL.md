@@ -184,14 +184,21 @@ sequential. Never re-fetch a video already cached on disk.
 
 **On a rate-limit, stop the whole fetch phase — do not retry in a loop.**
 
-- `fetch_youtube_transcript.py` exits **2** (not 1) when a failure looks like a
-  rate-limit or IP block, and writes `reason_class: "rate_limited_or_ip_blocked"`
-  plus `next_retry_guidance` into `<video_id>.FAILED.meta.json`. **Treat exit
-  code 2 as a stop signal for the run, not for that one video.**
-- Exit code **3** is a *local* setup failure and must NOT trigger a cooldown:
-  most often `--cookies-from-browser` failing because the named browser is
-  still running (a tray/background process counts) and its cookie database is
-  locked.
+> [!IMPORTANT]
+> **The exit-code semantics are NOT defined here.** `youtube-transcript-fetch/SKILL.md`
+> is the authoritative source for what exit codes 1, 2 and 3 mean and for the
+> **precedence rule** (a local setup failure dominates the overall
+> classification, so a run that hit a genuine 429 on one attempt and a local
+> failure on another still exits 3 — the rate-limit signal survives per-attempt
+> inside `.FAILED.meta.json` but is not what decided the result).
+>
+> **Read it there.** This section previously restated the definitions and the
+> restatement was already out of date, missing that precedence rule — caught
+> 2026-08-31 when all three agents answered an exit-code question correctly from
+> the shared skill while this file held a lossier copy. The one-line operational
+> consequence, which is what this pipeline needs: **exit 2 stops the whole fetch
+> phase for the run, not just that video; exit 3 must not trigger a cooldown.**
+
 - `preflight_playlist.py` defaults to light mode (duplicate check, no network).
   Probing is opt-in via `--probe` and has a circuit breaker: on a detected
   block it stops probing and lets the remainder through as unprobed `fresh`
