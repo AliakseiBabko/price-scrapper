@@ -1,3 +1,7 @@
+<!-- memory-reference: historical - this page describes the 2026-08-31 drain
+     out of Claude's machine-local memory. It does not depend on that memory;
+     see tools/verify_agent_readiness.py for why the distinction matters. -->
+
 # Project Decisions & Open Items
 
 Decisions taken about **this apartment and this project**, with dates, plus the open items that are not yet resolved.
