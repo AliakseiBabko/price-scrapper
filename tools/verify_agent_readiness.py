@@ -112,10 +112,28 @@ def contract_1_instruction_scope() -> list[dict]:
                          "detail": f"{STUB_FILE} missing - Claude Code has no entry point"})
     else:
         text = stub.read_text(encoding="utf-8")
-        points_at = AGENTS_FILE in text
-        findings.append({"contract": 1, "check": "claude_stub", "ok": points_at,
-                         "detail": f"{STUB_FILE} -> {AGENTS_FILE}" if points_at
-                         else f"{STUB_FILE} exists but does not reference {AGENTS_FILE}"})
+        # Require the Claude Code IMPORT form (`@AGENTS.md`), not merely a
+        # mention. This check used to accept any occurrence of the filename and
+        # therefore PASSED a stub reading "See [AGENTS.md](./AGENTS.md)" - a
+        # markdown link, which is inert prose. The 2026-08-31 cold-session test
+        # found Claude Code was the only one of three agents that could not
+        # answer anything from AGENTS.md: it loaded the stub, read the link as
+        # text, and never opened the file. Codex and Antigravity both received
+        # the router automatically. So the checker was giving a false PASS on
+        # exactly the defect it exists to catch.
+        imported = any(
+            line.strip() in (f"@{AGENTS_FILE}", f"@./{AGENTS_FILE}")
+            for line in text.splitlines()
+        )
+        if imported:
+            detail = f"{STUB_FILE} imports {AGENTS_FILE} (@-import, inlined)"
+        elif AGENTS_FILE in text:
+            detail = (f"{STUB_FILE} MENTIONS {AGENTS_FILE} but does not import it - "
+                      f"a markdown link is inert prose; use a bare `@{AGENTS_FILE}` line")
+        else:
+            detail = f"{STUB_FILE} exists but does not reference {AGENTS_FILE}"
+        findings.append({"contract": 1, "check": "claude_stub", "ok": imported,
+                         "detail": detail})
     return findings
 
 
