@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=TUVsZ1Xx1aQ",
+  "video_id": "TUVsZ1Xx1aQ",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-31T07:04:44.846779+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "6d157b5e8f1607aadc2f3507090d77a01bfeec5cec14fb26985e8399bcf0c8c9",
+  "attempts_before_success": []
+}

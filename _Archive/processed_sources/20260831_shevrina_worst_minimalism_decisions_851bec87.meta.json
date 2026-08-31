@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Bnuim5NjgCU",
+  "video_id": "Bnuim5NjgCU",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-31T07:06:01.181258+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "851bec87487472f188b89fbba56ad98d9a1fbc551f58834faf6b8edc271359c2",
+  "attempts_before_success": []
+}

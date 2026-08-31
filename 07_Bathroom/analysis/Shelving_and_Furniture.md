@@ -92,3 +92,11 @@ The same page's existing concealed-fixing technique (an acrylic or metal plate c
 
 `single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
 
+## Hide What Irritates You, and Place Shelves by Sightline (added 2026-08-31)
+
+- **⚠️ A narrow vertical niche cabinet with the toilet brush mounted to the inside of the door**; the **paper holder likewise**, with a perforation in the front for the paper end to emerge.
+- **⚠️ To recess a paper holder into the wall you need a genuinely thick wall — and she gives a real method for checking**: go and measure how much depth your paper plus holder actually occupies, and **add that to the wall thickness**, since it must not pass through to the other side.
+- **⚠️ Place shelves by sightline, not by plan.** Identify where you actually stand and what you look at — at the basin looking one way, in the shower looking another — and position shelves relative to those viewpoints. Her worked example: orient a vertical shelf so that from the main viewpoint it is seen **edge-on** and its contents are not visible at all.
+
+[source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]]
+

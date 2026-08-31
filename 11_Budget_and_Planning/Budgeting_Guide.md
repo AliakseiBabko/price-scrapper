@@ -574,6 +574,45 @@ An unusually concrete cost-structure analysis, built from the actual bills of qu
 
 `single-account`, `unverified`, 2023–2024, region unresolved. [source: [[_Sources/YT_KI2GvB0jzHs_shevrina_podcast01_kitchen_material_procurement|YT_KI2GvB0jzHs]]]
 
+## 5c. Two Rules About Where the Money Should Go (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+### ⚠️ Finishes before furniture — an irreversibility-ranked priority
+
+**"Если у вас нет нескольких десятков миллионов рублей на ремонт, то лучше потратьтесь на отделку… лучше не докупить диванчик, не закупить пока что кровать, а вложиться в качественную отделку."**
+
+**Her reasoning is reversibility, not taste: furniture can be bought at any later date; finishes cannot easily be stripped out and redone.** A clean statement of a heuristic this guide implies in places but has not stated directly.
+
+**A real marker of where she draws the line under budget pressure**: on a small rental flat where they deliberately economised, they used **porcelain at about 1,000 RUB/m² (≈$10/m²)** and laminate — **but still refused both a stretch ceiling and wallpaper**, plastering the structural slab instead. *(5b: `USD/RUB` trailing 6-month mean before 2023-07-09, 77.9178 RUB/USD. **The rounding bucket is coarse at this magnitude — use the raw 1,000 RUB/m².** Region unresolved at level 1.)*
+
+[source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
+
+### ⚠️ How Designers Defraud Clients — and the Questions That Prevent It
+
+The first source in this vault aimed at helping a client evaluate a *designer* rather than at design technique. **Weigh it knowing a designer describing other designers' misconduct has an interest** — though she implicates her own past practice on one point, and the questions she proposes cost nothing to ask.
+
+**Scheme 1 — invoice padding, which she calls fraud.** A product has an open retail price. The designer asks the supplier to **add their own percentage to the invoice issued to the client** — she puts it at **15–20%, with the size depending "лишь от наглости дизайнера."** Supplier and designer issue the inflated invoice together; the client pays; the designer collects the padding. She states such a designer can be sued and refers to recent large Russian court cases. *(Russian legal context — deliberately not routed to `16_Legal_and_Regulations/`.)*
+
+> **⚠️ The client-side defence, and the single most actionable line: never work with a designer on a scheme where you hand them money and they make all purchases and payments through themselves. Payment should go from the client directly to the shop** — "у каждого своя зона ответственности."
+
+**Scheme 2 — concealed discount split, not fraud but concealment.** Designers receive trade discounts. The client sees an invoice below retail and feels well served — **but the discount passed on is 5% or 10% while the designer keeps the rest.** Discovery is the failure mode: another showroom offers 15%, or a manager mentions that "ваш дизайнер забрал 20%, вам оставил 5, а скидка могла быть 25%." **Her point is that the damage is relational** — clients are generally willing to pay a designer properly, and what destroys the relationship is the concealment.
+
+**⚠️ The three questions to ask at the first meetings:**
+
+1. **How will discounts be distributed — who takes how much, and how much reaches me?**
+2. **What exactly is the payment scheme for design services and for procurement (комплектация)?** A competent designer will give a clear answer.
+3. **Is it written into the contract?** — see [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]].
+
+Her own preferred arrangement, stated to designers: **charge a proper fee, or a fixed monthly amount, so the incentive doesn't exist.**
+
+**⚠️ Two competence markers for choosing a designer**, from the same source:
+
+- **A designer who publicly recommends specific paint article numbers as universally good is displaying incompetence** — it means they painted exactly one object that colour and generalised. **She includes her own past self.** See [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]].
+- **A designer should decline a project whose budget they cannot work with**, rather than render unobtainable furniture and substitute downward during realisation — which she calls "плохой тон, если даже не обман." Her remedy for designers who can't yet estimate: **keep a running priced spreadsheet of everything used in the visualisation.**
+
+**She is careful to separate malpractice from legitimate divergence**: a client-chosen fabricator who can't execute the specified material, post-2022 supply disruption, and currency-linked price rises are all named as **not** the designer's fault — and all three corroborate the Round 2 podcast (`KI2GvB0jzHs`).
+
+[source: [[_Sources/YT_AFBu0Uv-47U_shevrina_bad_designer_kickbacks|YT_AFBu0Uv-47U]]]
+
 ## 6. Detailed Case Studies
 
 - [[11_Budget_and_Planning/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).

@@ -455,6 +455,23 @@ Accent-wall placement, which is the specific case he leans on most, has its own 
 
 [source: [[_Sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
 
+## Furniture Toward the Centre, Not Against the Walls (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+**⚠️ A counter-intuitive claim with a stated mechanism: placing furniture toward the centre of a flat gives more sense of space than pushing it against the walls.**
+
+Her reasoning: **the walls stay clear, so you see their full height floor-to-ceiling — and it is verticals that produce the sense of ceiling height**, which is where the feeling of volume comes from, not floor area alone.
+
+Worked applications:
+
+- **Float the sofa** after the dining group rather than against a wall.
+- **An island lightens a kitchen** rather than crowding it, because it frees the wall verticals for the eye. *(Consistent with her island-by-configuration argument on [[03_Kitchen/Kitchen_General|Kitchen General]].)*
+
+**⚠️ A related planning rule from the same source: eliminate unnecessary wall steps and jogs** — at planning stage, at rough-finish stage, or finally with joinery, by turning the resulting niches into storage. Extra corners "засоряют помещение визуально, отвлекают на себя внимание, рассеивают его," making a space read cluttered and harder to parse.
+
+**And a myth she rejects**: **niches do not make a flat look smaller.** They break up otherwise dry wall and cabinet-front surfaces well — provided you don't fill them with small decor. Same for shelves: the problem is what is on them.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]]
+
 ## Scope
 
 General ergonomics/zoning principles for arranging furniture and activity zones within a room or across an open-plan area: traffic-flow planning, activity-zone separation (e.g. within a combined kitchen-living room), clearance/reach ergonomics not already tied to one specific room's own fixtures, and general "how much space does an activity actually need" rules of thumb.

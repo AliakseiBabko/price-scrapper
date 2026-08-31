@@ -148,3 +148,22 @@ palette is chosen.
 See [[06_Small_Bedroom/analysis/Source_Notes|Source Notes]] for full
 citations, and the intermediate store's Change Log for this page's two
 earlier (pre-page) sources, `TJBcEpXymYk` and `GfixqWjsD58`.
+
+## Lighting and the Headboard Wall (Мария Шеврина / SMBUREAU, added 2026-08-31)
+
+Full lighting treatment on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]]; the bedroom-specific points:
+
+- **⚠️ Three scenarios are obligatory** — main ceiling light, atmospheric evening light on its own switch, and functional light for named activities. **She argues against relying on a chandelier alone** (it misses the corners; add a spot per corner), while **legitimising no ceiling light at all** where the room is genuinely only slept in.
+- **⚠️ Evening light must be warm — not above 3000 K.**
+- **⚠️ The headboard LED strip must throw light into the ceiling, on a plasterboard backing in a corner profile** — the common cut-a-niche-and-glue approach glares straight at you once you lean back.
+- **⚠️ Diffuse light cannot be your night light** — it wakes the person beside you. For getting up at night, and for reading in bed while someone sleeps, use a **directional fixture, beam up to ~60°**, lighting only a small patch.
+
+## Headboard and Opposite Wall (added 2026-08-31)
+
+- **⚠️ Don't make both the headboard wall and the wall opposite the bed accent walls.** Accent the headboard; lighten the wall opposite. Ways to keep the opposite wall interesting without overloading it: an already-interesting wall material is enough on its own; or add **recessed groove profiles** for a light rhythm (cheap); or hang **one large but restrained picture**, ideally in a colour you'll enjoy before sleep.
+- **⚠️ A soft headboard plus its cushions consumes 25–30 cm of room depth** — a real cost in a room this size. **Ask whether you actually lean against it**; she never does. **Alternative: buy a bed without a headboard — they are cheaper — and build the headboard as wall panels**, making it "часть стены, а не часть кровати."
+- **Pillows: at most four, in two rows.** No decorative square cushions, no "central pillow." **Elongated pillows read better than square.**
+- **A bulky bed with a tall headboard is specifically named as what makes a small room read smaller** — because space is felt in **volume, not just floor area**. Consistent with the 40 cm rest-furniture height rule on [[14_Furniture/analysis/Seating_Selection|Seating Selection]].
+
+[source: [[_Sources/YT_nYvqqkNeS4k_shevrina_bedroom_lighting_and_headboard|YT_nYvqqkNeS4k]]] [source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]]
+

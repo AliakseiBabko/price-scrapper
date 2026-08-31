@@ -619,3 +619,11 @@ Plus a fourth, physical cause: **many such tiles are printed with darkened edges
 
 [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
 
+## Rectangular Over Square on Walls, and Grout (added 2026-08-31)
+
+- **⚠️ Prefer rectangular tile formats over square on walls.** Her stated mechanism: **people find elongated/horizontal forms more agreeable than squares** — she points to screens, phones and televisions all being rectangular. **Square porcelain is fine on floors**, because you see it in perspective rather than face-on, and because you look at walls far more than at floors. Orientation of the rectangles is free choice. *(This is one of three distinct applications of the same asserted perceptual preference across her catalogue — tile format, pillow shape, and device screens — so treat it as one consistent position rather than three findings.)*
+- **⚠️ Cement grout cracks over a heated floor or a heated wall** — a failure mode she says people routinely miss. The cracks then admit water and dirt and cannot be cleaned out. Separately, cement grout grows mould in a bathroom with poor extraction. **Workers prefer cement because it is easier to work than epoxy** — "рабочий сделал и ушёл, не ему там жить" — so designers have to argue for epoxy. **Relevant to this project's heated-wall discussion** (see the microcement/heated-wall material on `13_Surfaces_and_Finishes/Walls_and_Paint.md`), though not to underfloor heating, which this project has ruled out.
+- **The flush-junction rule, with her best analogy**: finishing a wall and then gluing porcelain onto part of it leaves an exposed edge, and **even neatly dressed, the mere existence of that small step makes the whole bathroom read unconsidered.** Her comparison — **it is like wallpaper hung with the seams misaligned between two runs; nobody accepts that, yet people accept a badly-terminated porcelain edge.** The perceptual mechanism behind this is on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]].
+
+[source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]] [source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
+

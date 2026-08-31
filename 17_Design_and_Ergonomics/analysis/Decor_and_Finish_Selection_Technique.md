@@ -506,3 +506,59 @@ Stated about furniture but general enough to belong here: **an attractive object
 
 Full treatment, with the furniture-specific consequences, on [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]. [source: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
 
+## ⚠️ Why the Flush-Junction Rule Matters — the Near-Miss Mechanism (added 2026-08-31)
+
+This studio has asserted "don't glue a finish onto an already-finished wall" across five separate videos now, on several pages of this vault. **A subscriber critique finally supplies the perceptual mechanism, and it generalises far beyond tiling:**
+
+**A wall material applied as a thin surface-glued overlay reads as an error.** The brain registers the small offset — just the thickness of the panel — as a construction defect: **"вроде попадаешь, но вроде не попадаешь."** The near-miss is what fails, not the material.
+
+**⚠️ The fix is a genuine either/or, and the second half is the new part: land it perfectly flush, OR deliberately separate it far enough that alignment clearly wasn't attempted — she suggests setting the material 10–15 cm off the base wall.** Anything in between reads as a mistake.
+
+**A scoped exception: this does not apply to mirrors**, because "зеркало ломает помещение." A mirror set in the same plane as slats is fine, and in a narrow spot can produce the expansion effect.
+
+Two related rules from the same source:
+
+- **⚠️ Don't wrap a material around internal corners into L- or U-shaped configurations.** Her worked case: marble covering three planes at three different heights, which reads as "шоурум декоров в квартире." **Better: stop the marble at the splashback, and make the tall-unit end panel the same colour as its own fronts.**
+- **⚠️ Don't put two materials in one plane** — a tall unit in MDF enamel continuing into marble-look porcelain within the same plane. Either separate them clearly (a niche), or give the whole run one finish.
+
+[source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]]
+
+## Trims, Skirting and Mouldings — the Case Against, Now With Evidence (added 2026-08-31)
+
+This vault already records this studio rejecting tile corner trims three times. **The minimalism video adds evidence rather than repetition:** she notes that **abroad, and even in Russian developers' own common-area finishes, everything is done flush**, and that she has repeatedly executed flush details on her own projects and found them **durable** — "живучие решения." **This directly counters the usual objection that flush junctions are fragile**, which is the main argument for keeping trims.
+
+- **⚠️ The dust objection to shadow gaps, inverted.** People object that a shadow gap collects dust. Her answer: **dust settles on a surface-mounted skirting too — and there you have to wipe it by hand, smearing the wall, whereas a robot vacuum gets into a shadow gap and does it for you without touching the wall.**
+- **⚠️ Skirting can be omitted entirely** where the corners are neatly formed — easier cleaning, and furniture sits closer to the wall. On the "children will scuff the wall" objection: a child scuffs above skirting height too.
+- **⚠️ Remove mouldings where there are no other classical elements in the room.** And when mouldings *are* used, they are normally **inset from the edges** of a construction rather than run along them.
+
+[source: [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]]] [source: [[_Sources/YT_A5G04uPvzL0_shevrina_subscriber_critique_midcentury|YT_A5G04uPvzL0]]]
+
+## Mid-Century as the Safe Addition to Minimalism — the Component Checklist (added 2026-08-31)
+
+Round 2 recorded her naming mid-century as the safe thing to mix into minimalism, but only listed chair archetypes. **This gives the full component set, which makes it usable:**
+
+1. **Chromed metal** — shelves, planters.
+2. **Glass** — e.g. a glass low table.
+3. **⚠️ Clean, saturated colours — explicitly NOT muted** — red, green, blue, **in small quantities** (a picture, a magazine, decor). Her reason: Bauhaus-era masters worked in pure colour; she names Mondrian.
+   - **⚠️ This is a scoped exception to her own general rule that saturated colours cheapen an interior.** Recorded as an exception rather than a contradiction: saturated colour is correct **in small doses, in this specific style context**.
+4. **Wood in saturated, greenish tones.**
+5. **Signature archetypes** — Tulip table, cantilever chairs, Wassily chair, Pierre Jeanneret chairs. *(Names came through poor ASR — verify before sourcing.)*
+6. **⚠️ Specific plant species carry the period**: an **olive tree** suits strict minimalist interiors; **ficus lyrata or monstera** suit mid-century. An unusually concrete piece of styling guidance.
+7. **Metal shelves**, and **heavy wooden commodes** with a period lamp and a picture composed above.
+
+**⚠️ The caution that makes it work, from Round 2 and reinforced here: a period piece alone doesn't deliver the look** — it needs supporting elements from the same period, or it reads as an orphan.
+
+[source: [[_Sources/YT_A5G04uPvzL0_shevrina_subscriber_critique_midcentury|YT_A5G04uPvzL0]]]
+
+## Fewer Finishes, Less Decor (added 2026-08-31)
+
+- **⚠️ Don't use many finishes** — concrete plus marble plus wood plus slat panels plus backlighting plus fabric wallpaper plus soft panels, all in one small flat. **Settle on two or three materials** (e.g. smooth paint, microcement, wood) and **use рейки as the single decorative device** — which also raises perceived ceiling height — rather than stacking 45°-angled panels, soft oval panels and rattan on top.
+- **⚠️ Drop the compulsion to fill every horizontal surface.** The named pattern: a composition on the low table, more decor on the island, something else on the dining table. **One large fruit bowl on the dining table is enough; a couple of magazines or a tray and one candle on the low table.** Her practical argument: life adds mugs and candles anyway, so buying decor for every surface up front is wasted money.
+- **Minimalism avoids boredom through texture, not print** — a different material, a different weave, a different degree of gloss or transparency.
+- **⚠️ Black accessories — the quantity is the mistake, not the colour.** Deciding "all accessories black" and buying a black mixer, hook, brush, paper holder and shelf produces **a mass of small visual noise in a 4 m² bathroom someone wanted to feel light.** There is no rule that accessories share one colour — mix them (brown with black, brass with green, a chrome hook with black mixers) provided each participates in the scheme. **Her mechanism: manufacturers now issue black as a second base colour, so the market is flooded and people tired of chrome over-buy.** And chrome itself is fine — not a dated finish.
+- **⚠️ A dark or black wall recedes and becomes background** — "отходит на задний план, является фоном… не привлекая к себе внимание." A clean mechanism for using dark colour to *reduce* prominence rather than to create an accent.
+- **Random single-element colour or material insertions** — already on this page from `dSm7M6oGFis`; reinforced here.
+- **⚠️ Wood grain direction should follow the object's proportions**: on an elongated horizontal island, run the grain longitudinally — rotate the sheet 90° if needed.
+
+[source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]] [source: [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]]] [source: [[_Sources/YT_A5G04uPvzL0_shevrina_subscriber_critique_midcentury|YT_A5G04uPvzL0]]] [source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]]
+

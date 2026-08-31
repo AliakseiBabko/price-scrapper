@@ -26,3 +26,21 @@ She names door swing alongside a short basin spout as her "top two favourite mis
 
 `single-account`, `unverified`. [source: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]]
 
+## Swing Direction Decides Where the Switches Can Go (added 2026-08-31)
+
+**⚠️ A door opening inward covers the wall where switches would otherwise sit.** She gives a worked case where inward opening would have made their chosen switch position impossible, forcing it onto the wall opposite — survivable there, but **the worst case is a door that blocks the only wall available for switches**, which happens where one side is a real wall and the other is the end panel of a non-built-in wardrobe. Mounting switches on a wardrobe end panel is possible but the electrician will not thank you for the cable run.
+
+**Practical consequence: decide swing direction and switch position together, on the plan** — the same pairing she recommends when working out approach direction (section above).
+
+[source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
+
+## Floor-to-Ceiling Doors, and the Transom Workaround (added 2026-08-31)
+
+**⚠️ In architectural minimalism, floor-to-ceiling doors are the preferred option regardless of finish** — concealed, painted to the wall, or with architraves.
+
+**⚠️ Where the openings cannot be full height *and* the doors take a finish different from the walls, add a matching transom panel ("антресолька") above the door** — orderable in the same finish as the leaf. It raises the opening visually and harmonises the doors with any adjacent full-height element. Her worked case: a hallway where slats, mirror and one sliding door all run to the ceiling while the hinged doors stop short, leaving the doors looking truncated.
+
+This is the door-specific version of the rule already on [[01_Entrance/analysis/Storage|Entrance Storage]] for the entrance door — **a contrasting finish must reach the ceiling, or it reads as a patch on the wall.**
+
+[source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]]
+

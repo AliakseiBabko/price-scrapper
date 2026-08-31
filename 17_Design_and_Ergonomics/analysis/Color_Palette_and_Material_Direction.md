@@ -82,6 +82,21 @@ Taken together with ARCHWOOD's rule, the reflective-surface test has two parts: 
 
 [source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
 
+## Mirrors — the Consolidated Rule Set (updated 2026-08-31)
+
+This page has accumulated mirror guidance from two sources across three rounds. Collected here, because the conditions are cumulative and a mirror has to satisfy all of them:
+
+1. **Only place a mirror where real light already reaches** — a mirrored wardrobe door facing away from the window, in the darkest corner, only reflects darkness back. *(ARCHWOOD / Марина Измайлова — see the low-light section above.)*
+2. **A mirror enlarges only if what it reflects is itself visually light.** A mirror facing a hallway full of shoes and clutter doubles the clutter. *(Мария Шеврина, `XGI6FS2ZdCc`.)*
+3. **⚠️ Size and shape decide whether it works as an optical device at all.** A **small mirror does not enlarge**; **several small mirrors in a composition actively clutter** and make the room read smaller; and **oval or framed mirrors read as decor rather than as an optical device.** What a small room needs is something that "ломает пространство" — decor doesn't. **Only floor-to-ceiling mirrors, in the right places, achieve it.**
+4. **⚠️ Placement: don't centre a mirror on a wall.** Set it into an **internal corner so one edge butts the perpendicular wall**, or place it **at a window**. Pushed to the edge of the room it reads as a continuation of space rather than as an object hung on a wall.
+
+*(3 and 4: Мария Шеврина, `9h2tAnm6rqA`.)*
+
+**And the same practitioner's related point about gloss** (already on this page): gloss doesn't enlarge either, for the same reason — it reflects the whole cluttered room back at you.
+
+[source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]]
+
 ## Perspectives on Record — Should a Dark Room Be Painted Light or Dark? (added 2026-08-30)
 
 A real, unresolved disagreement between three named practitioners, surfaced by the 2026-08-30 colour batch. It matters here because it bears directly on any north-facing or light-obstructed room in this project's own apartment.
