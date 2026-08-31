@@ -10,7 +10,7 @@ All three were asked, in a fresh session with this repo as the working directory
 | :--- | :--- | :--- |
 | **Antigravity** | **Yes** | Answered both, plus listed all four skills and knew the deprecated one. Discovery walks up from cwd; no `GEMINI.md` needed. |
 | **Codex** | **Yes** | Answered both exactly. ⚠️ Note it had earlier *reported* it does not receive this file — **its self-report was wrong**; trust the test. |
-| **Claude Code** | **Yes, via the `@AGENTS.md` import in `CLAUDE.md`** | ⚠️ **Failed this test on first run** and was the only agent that did. `CLAUDE.md` held a markdown *link*, which is inert prose — Claude loaded the stub, read "see AGENTS.md", and never opened it. Fixed to an `@`-import the same day; **the fix is unverified until a fresh Claude session passes.** |
+| **Claude Code** | **Yes, via the `@AGENTS.md` import in `CLAUDE.md`** | ⚠️ **Failed this test on first run** and was the only agent that did. `CLAUDE.md` held a markdown *link*, which is inert prose — Claude loaded the stub, read "see AGENTS.md", and never opened it. Replaced with an `@`-import and **retested in a fresh session the same day: passes.** This is why the stub must stay an import. |
 
 > [!WARNING]
 > **None of these agents can be trusted about its own context loading.** Codex gave three mutually inconsistent accounts of whether it reads this file; Claude Code asserted it was readable via the stub when it was not. **Ask an agent what it knows, never how it knows it** — the answers are evidence, the introspection isn't.

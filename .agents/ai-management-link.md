@@ -35,8 +35,8 @@ This repo's own project-specific skills
 under `.agents/skills/` rather than as junction adapters to a separate
 `ai-project-contexts/price-scrapper/` store — that migration was not part of
 the 2026-08-20 connection work and is a candidate for later, not done here.
-`youtube-to-obsidian` is **deprecated as of 2026-08-04** and must not be
-followed for a new batch. Use `renovation-knowledge-intake/SKILL.md` instead —
+`youtube-to-obsidian` was **deprecated 2026-08-04 and deleted 2026-08-31**
+(WS-2 of the `AGENT_KNOWLEDGE_PORTABILITY` plan). It must not be revived. Use `renovation-knowledge-intake/SKILL.md` instead —
 it wraps the shared `youtube-transcript-fetch` and `tiered-knowledge-base`
 skills and is the maintained path. The old `scripts/get_youtube_transcript.py`
 still runs and is usable as a manual fallback; the skill's *instructions* are
