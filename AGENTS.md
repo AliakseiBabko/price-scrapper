@@ -21,7 +21,7 @@ The renovation vault is the primary work. The scraper feeds appliance pricing in
 | :--- | :--- |
 | `_Sources/` | ~813 extraction notes, one per source. **Raw evidence — never edit to fit a conclusion.** |
 | `_Knowledge/store/` | Intermediate store: `Durable_Facts`, `Rules_Heuristics`, `Numeric_Data`, `Source_Index`, `Change_Log`, `Cross_Source_Comparison_Tables` |
-| `00_Master/` | Project-level docs, the deliverable roadmap, `processed_sources.csv`, `exchange_rates_reference.md`, `wiki_page_format.md` |
+| `00_Master/` | Project-level docs. **Start with `project_decisions.md`** — decisions taken about this apartment, and the open items. Also the deliverable roadmap, `processed_sources.csv`, `exchange_rates_reference.md`, `wiki_page_format.md` |
 | `01_`–`17_` | Room and topic wiki folders. Each has a compact guide page plus `analysis/` detail pages |
 | `_Archive/processed_sources/` | Archived transcripts. **Frozen — hashed for provenance; never edit, not even to fix a BOM** |
 | `_Inbox/planning/` | Channel triage plans, backlogs, work-in-progress notes |
