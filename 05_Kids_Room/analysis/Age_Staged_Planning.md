@@ -221,3 +221,49 @@ shared-use items across the individual rooms. Directly relevant
 precedent (not a template) for this project's own Phase 1→Phase 2
 transition — see [[05_Kids_Room/Kids_Room_Index|Kids Room Index]]'s own
 household plan. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
+
+## Safety, Zoning and Layout for a Kids Room (Надежда Кузина, added 2026-08-31)
+
+From a 78-minute planning lecture. She frames a kids' room as "мир в мире, квартира в квартире" — every function a child needs, concentrated into a limited space. Her six requirements: **ecological, safe, functional across many activities, easy to clean, anti-vandal, and easily transformable as the child grows.** The general planning method is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
+
+### Safety — a checklist, mostly specifiable at rough stage
+
+- **Ideally no balcony off the room**, or a fully blockable exit onto it. She has had both cases in practice.
+- **Windows: tilt-opening («откидные»), not casement — and preferably key-lockable.**
+- **⚠️ No Roman blinds, and nothing with a cord** of any kind — the child will pull it, "и это не всегда заканчивается хорошо."
+- **Doors with limiters and slow closing** so fingers are not trapped.
+- **Sockets with child shutters («шторки»).**
+- **Furniture must not be able to tip onto the child — fix it to the wall** wherever there is any risk. The child must not be able to fall out of bed.
+- **Fewer hard surfaces**, rugs, corner protectors — scoped explicitly to small children.
+- **⚠️ Lay the electrics for the *second* layout now — the highest-leverage item in the source.** With a one-year-old, design the age-7-or-10 layout at the same time and install those sockets during the renovation. **The later change then becomes cosmetic only — re-paper, rearrange, buy new furniture — with no rewiring.**
+
+### Zoning — four activities, all scaled to the child
+
+- **Four zones for four activities**, and ideally **screen the sleep zone so the child cannot see the toys from the bed.**
+- **The largest and lightest room is often given to the children**, treated as more necessary than the living room.
+- **Play stations, each scaled to the child**: a small play kitchen, a shelf unit with books, a small drawing table — every activity with its own delimited zone and its own storage. **The mechanism she names is the child's own agency** — being able to decide "мы сегодня будем готовить искусственную картошку или мы будем переодеваться в принцессу."
+- **Favour problem-solving and creative toys (Lego) — and plan where they are stored.**
+- **The child touches the interior, not only looks at it** — tactile variety is developmentally useful, and a reason to vary materials rather than specify one smooth finish.
+- **⚠️ Shelves scaled to the child: the smaller the child, the lower the most interesting shelf must be.** Open shelves, so a small child can reach without help.
+- **Storage by category** — clothes, school books and toys held separately.
+- **Do not throw away or hide the child's drawings.** She cites a recent Cosmoscow exhibition where half the show was adult artists deliberately painting like small children. It need not hang in the kids' room to be worth keeping.
+
+### Beds and layout
+
+- **⚠️ Girls need larger beds than boys** — girls use the bed as a play surface and boys generally do not.
+- **Provide space for an adult to sit beside the bed.**
+- **⚠️ Do not buy themed beds — a Cinderella carriage, a car — for two reasons.** They **constrain imagination**: a plain bed can be a carriage, a house, a ship at sea, whatever the child decides; a car can only ever be a car. And **the child tires of it within days while it is an expensive object.** She reports clients doing it anyway.
+- **A guest zone inside the room** is a feature she rates: visiting children can shut themselves in and play unobserved, with somewhere to sit and plenty of free floor left.
+- **Common failure: a sofa competing with a wardrobe**, leaving a dead zone behind sliding doors.
+- **A bed set head-to-wall rather than along a wall is a poor option unless there is a separate playroom** — it consumes floor area and the child must constantly walk around it.
+- **⚠️ Better: the bed in a corner — and her stated logic is light-based. The darkest corner goes to the bed; the lightest part of the room goes to study.**
+- **Custom joinery is what makes a small kids' room work.** She highlights shelves worked from **both** sides, serving the study zone and the bed zone at once.
+- **Two children without bunk beds** reduces the room to a bedroom with a workspace, and nothing else will fit.
+- **⚠️ Podium beds — a plan she abandoned, and the reasons are the value.** Raise a podium 30–40 cm with beds rolling out beneath. She dropped it: **very hard to execute, few joinery shops can make a good pull-out-from-podium bed, and it depends on windowsill height** — the child must not be able to reach the window from the raised level. Podium sizing detail is on [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]].
+- **⚠️ Bunk beds — the lighting must be worked out deliberately, and she tested the failure herself.** The sconce must be reachable from the bed, **and there must be a two-way switch by the door.** Without it, a child who falls asleep with the sconce on in the top bunk means a parent climbing the ladder past a sleeping child — **"я кстати пробовала, я реально сама просто на этой лестнице не помещаюсь."**
+
+### Workspace for an older child
+
+- **Often placed at the window, and she notes the side effect: in an elongated room it makes the room read shorter.**
+- **⚠️ Her favourite detail: custom shelves left and right of the desk, turned to face the worktop rather than frontally**, so things can be stacked against them; combine orientations across the run. She has tested shelves wrapped around a window.
+- **Plan for the equipment.** A client's solution she rates highly: **a printer hidden inside a desk drawer with its own socket inside and no visible cable hole** — pull the drawer out and take the sheet straight from the printer.

@@ -85,6 +85,12 @@ A complementary framing to the existing "minimum three scenarios per room" rule 
 - **Countertop/prep zone needs strong, non-dim task light** — cited symptom: eyes tiring within ~15 minutes of chopping vegetables under insufficiently bright light. Corroborates existing kitchen-worktop task-lighting guidance with a concrete symptom/timeframe. [source: [[_Sources/YT_xikuzV80GP4_kruglov_best_lighting_options|xikuzV80GP4]]]
 - **⚠️ If the home has a staircase, it must have navigational/night lighting — no exception stated ("100%")**, implemented via motion-sensor-triggered fixtures, a single always-dim fixture left on overnight in one zone, or a manual single-switch "night mode" covering the whole home. [source: [[_Sources/YT_xikuzV80GP4_kruglov_best_lighting_options|xikuzV80GP4]]]
 - **Plan lighting during renovation design, not as an afterthought** — a single generic chandelier as the sole light source (the old, pre-2000s default) is insufficiently functional for a modern renovation; mix multiple fixture types deliberately per task/zone rather than relying on one universal source. [source: [[_Sources/YT_xikuzV80GP4_kruglov_best_lighting_options|xikuzV80GP4]]]
+- **4000K for the worktop task light — independently corroborated from a second channel (added 2026-08-31).** Interior designer Надежда Кузина specifies 4000K for kitchen worktop lighting on the grounds that the brighter, whiter light is materially easier to work under. This restates the Kruglov figure above from an unrelated source. **The constraint she attaches is the more useful half**: kitchen ceiling light is almost never 4000K, and a white task light running under warm ambient light "reads as a mistake, not a design feature" — so check the pairing before specifying, which is this page's own same-scene colour-temperature rule arriving independently. [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+- **⚠️ Worktop task light gets interrupted in two predictable places, and the wiring must anticipate it (added 2026-08-31)**: the dish-rack («сушка») zone (not every rack allows a line beneath it, and it can be wet) and the extractor-hood zone. **If the run will therefore split into three segments, provide two stubs placed at the outer extremes** — you can always extend across from the hood side, so a stub stranded in the middle is the one you cannot recover from. [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+- **⚠️ Put the task-light stub higher than the obvious place, and leave slack (added 2026-08-31)**: not where the backsplash ends, but in the top of the wall units — or above the kitchen entirely, e.g. behind the cornice over the uppers, wherever it stays reachable afterwards. **Leave ~1.5 m of cable slack** for the installers. [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+- **⚠️ Plinth / "floating kitchen" («летящая кухня») lighting — recommended against outright.** It rakes the floor at a shallow angle and so reveals every stain, crumb and drip; Кузина calls it beautiful but "вообще не функционально," a showroom effect that only works if the floor is wiped constantly. Note this is a *functional* objection, not a cost one — she prices plinth lighting as inexpensive. [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+- **Cheap baseline for worktop task light**: a surface-mounted aluminium profile with diffuser and strip runs **~2,000–5,000 RUB for 2 m of profile (≈$30–$70**, trailing-6-month USD/RUB mean to 2021-09-26, 73.9598 RUB/USD**)** — "три копейки." Flush/recessed light integrated into the carcass («заподлицо») is materially more complex and more expensive; no figure given. `single-account`, `unverified`. [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+- **⚠️ Don't put a pendant over the dining table *and* pendants over the bar counter in the same open zone.** Matched fittings read as a bought-the-whole-suite «гарнитур»; mismatched ones read as "the whole lighting shop's range in one room." **Resolution: give the pendant to the dining table and light the bar counter from above with directional, more powerful fixtures.** Stated principle: "подвесы с подвесами работают нехорошо." [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
 
 ## Current Design Trends and Outdated Patterns (added 2026-08-24)
 
@@ -240,3 +246,72 @@ Three distinct ceiling light-source types come up repeatedly once you move past 
 ## LED-Strip Transformer Placement (Kruglov/Ontario, Round 15, added 2026-08-28)
 
 **⚠️ Centralize LED-strip transformers in one location rather than mounting each near its own strip run** (a niche, behind a shelf, under a cornice — the common practice). Consolidate every 12V transformer for the apartment into one spot (a closet, walk-in wardrobe, or the low-voltage panel), ideally somewhere with extra passive cooling. **Stated reason transformers fail: overheating** — centralizing them somewhere deliberately cooled is framed as directly extending service life, not just a convenience-of-troubleshooting argument. `single-account`, `unverified`. [source: [[_Sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
+
+**Second channel, weaker version of the same rule (added 2026-08-31)**: Надежда Кузина's point is only that the driver («блок питания») must have a decided location and a decided cover **at design time**, discovered at the drawing stage rather than at installation — she treats a dedicated hidden bay as the correct approach, the same one she uses for servo-drive power blocks in cabinetry. She does not make the centralization or the cooling argument. Records as independent support for "plan where the driver lives," not for "put them all in one place." [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+
+## Pendants, Chandeliers-as-Decor, and Light-Design Mechanisms (Кузина Round 1, added 2026-08-31)
+
+Three sources from one round, kept as a single section rather than three so this page does not fragment further: two Кузина videos plus a podcast with lighting engineer Сергей Реньжин (500lux, Sochi).
+
+### Dining Pendant — a Diameter Formula, and Convergence on the 75–90 cm Height
+
+**The height figure independently corroborates Мария Шеврина / SMBUREAU's 75–80 cm above the tabletop, already on this page from an unrelated channel** — recorded as convergence, not as a duplicate. Кузина additionally supplies the diameter formula and two checks Шеврина's figure lacks. [source: [[_Sources/YT_Dd_pUAvzqew_kuzina_dining_pendant_size_and_height|YT_Dd_pUAvzqew]]]
+
+- **⚠️ Diameter formula: take the table's WIDTH — not its length — and subtract 30 cm.** Stated purpose: you will not hit your head on it sitting down, while it still carries enough lamps to light the table.
+- **Scope: rectangular tables seating no more than three per long side. For four or more per side, hang two fixtures rather than one larger one.** **The failure mode she names is specific**: for a 10–12 seat table, designers commonly hang one very large many-lamp fixture so light reaches the ends — **and it then dazzles whoever sits opposite it at the middle of the long edge.**
+- **Round table: diameter minus 30 cm.** A small round table up to 90 cm diameter can take a single-bulb pendant — **not only 60 cm but down to about 40 cm.** A square table is the same case as a round one.
+- **⚠️ Height: 75–90 cm above the tabletop with ceilings up to 3 m**, raised for higher ceilings. **The common error she names is hanging a dining pendant at the height used for a bedroom or living-room fixture** — over a table it must sit lower, or it throws unpleasant shadows on faces.
+- **The check that makes it memorable**: at a 75 cm table height the fixture's underside then lands **roughly at a standing person's eye line, or slightly above** — so it neither dazzles a seated diner through the meal nor sits in front of their face.
+- **⚠️ Size against ceiling height too, not only the tabletop.** A giant fixture in a normal-height room leaves "не хватает воздуха" and crowds the ceiling. **Method: available fixture height = ceiling − table height − the 75–90 cm gap, and then subtract the canopy («чашка») and the rod/cable/chain**, whose length depends on the fixture's form. *(Her worked 2.70 m example is arithmetically inconsistent in the captions and is deliberately not reproduced.)*
+- **⚠️ Where the fixture would block an interesting view, wallpaper or a TV from some seats: use an open frame or lattice fixture**, or any type whose form is thin lines rather than solid volume. **She notes this also rescues a fixture whose height was not chosen by the rules.**
+- **Form preferences (hers, not rules)**: round or hexagonal over a round table; linear multi-arm or square over a square table; **over a rectangular table she dislikes rectangular pendants** and would use a linear elongated fixture, two pendants, or many small ones.
+- **Where the dining zone shares a space with a living room, island or bar counter: keep a hierarchy — the table fixture should be the larger and more prominent — and do not overdo the quantity of decorative light in one zone.**
+
+### ⚠️ "Люстра — не прибор освещения" — Two Speakers, Two Disciplines, One Conclusion
+
+**A convergence worth flagging because the two arrive from opposite premises.** In [[_Sources/YT_Dd_pUAvzqew_kuzina_dining_pendant_size_and_height|Dd_pUAvzqew]] Кузина, a designer, says she considers it legitimate to buy a chandelier that does not really light, because it is interior decoration. In [[_Sources/YT_9MsEZVjLH2M_kuzina_renzhin_lighting_design_podcast|9MsEZVjLH2M]] she puts that to **Сергей Реньжин, a lighting engineer and founder of the 500lux studio (Sochi)** — and he confirms it is not merely acceptable but correct.
+
+- **"Люстра не должна светить. Люстра должна выглядеть круто, красиво и уместно в интерьере."** A chandelier, surface sconce or decorative pendant is **first a decorative element that also glows**, not a lighting device. Treating it as the lighting device is "большая ошибка."
+- **⚠️ The compounding error, and the mechanism: designers build the whole lighting scheme around the chandelier — "колоссальная ошибка" — because a chandelier flattens the design.** "У тебя разные цвета, разные паттерны на стенах — врубила люстру, всё одинаково, свет равномерно спустился везде. **Люстра — убийца интерьера.**"
+- **Consequence: the less light a chandelier gives, the better** — and a fixture must therefore look good switched off, since it furnishes the room in daylight too.
+- **Formality register as a selection lever** (Кузина): crystal or glossy metal reads **more formal**; wood, woven elements or an exposed bulb **lower the "градус пафоса."**
+
+### Light Design Mechanisms — Сергей Реньжин / 500lux
+
+A 45-minute podcast. **`promotional_ratio: medium`** — the guest plugs his own studio's express-project service with a promo code, and a running thread is the case for hiring a lighting designer, which is his business. **Extracted in full anyway because his strongest claims cut against that interest**: less light is better, recessed fixtures can be bought cheap, Chinese fixtures are fine, and the visible difference between a good and a mediocre fixture is only 15–20%. [source: [[_Sources/YT_9MsEZVjLH2M_kuzina_renzhin_lighting_design_podcast|YT_9MsEZVjLH2M]]]
+
+#### ⚠️ The glare mechanism that underlies most of the rest
+
+**A bright unshielded source in the field of view makes the eye adapt down, and you stop seeing the room.** A bare lamp has no optics and emits over roughly **350°**; when it enters your vision the eye darkens its own response and "ты уже не видишь пространство." **His summary: "ни одна лампочка за тридцать рублей может убить дизайн за несколько миллионов."** His named example is the fashionable **bare-bulb glass globe** — a beautiful form factor, but lit in the evening "ты не видишь шары, ты видишь горящую лампочку."
+
+**And the blunt corollary: "чем меньше света, тем лучше. Не надо много света в квартире."**
+
+#### ⚠️ The physiological mechanism behind this page's same-scene colour-temperature rule
+
+This page already carries the rule from Kruglov — *every fixture running simultaneously in one scene must share a colour temperature* — **as an assertion without a mechanism. Реньжин supplies one**: "по физиологии, когда ты видишь разную цветовую температуру в одном помещении... **фокус внимания раздваивается**." You stop reading it as a single space; mixing temperatures "разбивает пространство на две части."
+
+**Scoped exception he allows**: a genuine functional split — a workout corner under cold light beside a calm zone under warm — which is a scenario distinction rather than a mistake. **He also notes cold light aids focus physiologically**, which is why offices use it, and that office lighting should ideally warm towards evening though most companies do not bother.
+
+- **CRI («коэффициент цветопередачи») should be above 95** — "желательно, чтобы ты выглядел так, как ты по-настоящему выглядишь."
+- **⚠️ The complete set of objective fixture parameters: colour temperature, luminous flux, secondary optics, CRI — plus form factor.** His point in listing them is that **there is no other axis on which one fixture can be claimed to "light better" than another** — a usable filter against marketing claims.
+- **Tunable white is now baseline.** Three or four years before recording a factory told him it did not exist, then quoted **3× list**; by 2022 it can be done on a single fixture as standard. Some fixtures **shift warmer as they dim**, which is the practical answer to a household that disagrees about colour temperature.
+
+#### ⚠️ Scenarios, deflated
+
+- **In an ordinary flat there are effectively two scenarios, not a system.** "Принцип здравого смысла" — in a 45 m² apartment there cannot meaningfully be scenarios, **"это называется выключатель."** The baseline pair: a **weekday** scenario (four of six lamps) and an **evening/duty** scenario for reaching the toilet at night.
+- **Scenarios earn their cost only against a real task** — a two-level flat that hosts events, or a client who reads in one specific corner, in which case the designer's job is to know where he reads and where his hand falls to switch it.
+- **Night lighting: several very weak sources**, specifically so you do not fully wake getting a glass of water — **and a strip near the bed, necessarily in an aluminium profile so heat is dissipated and the LED does not degrade.** *(Second unrelated channel to make the LED thermal point on this page.)*
+- **⚠️ Kids' room lighting: "все про это забывают."** Children draw and pick at things at very close range, **so real illuminance in the work zones matters for their eyes.**
+- **The hotel proof**: hotels have almost no fixtures, only table and floor lamps — throw a towel over a shade and you have a working scenario.
+
+#### Layering, sequence, and a specification default
+
+- **Functional layer first, accents second — and only where there is something to accent.** "Самое важное в освещении — чтобы был слой функционального освещения, чтоб тебе было просто комфортно и всё видно."
+- **Named default for that layer: a recessed downlight with 60° optics** — "мы его почти всегда используем." Accents come from tracks, other recessed types, or pendants.
+- **⚠️ Lighting follows the plan and is never the organising idea.** "Дизайн первичен, всегда. Всегда. Свет — это просто макияж." Asked whether an interior can be built around its lighting, he rejects it outright — the layout tells you which accents you want and where.
+- **Track systems have a non-aesthetic advantage: universal and removable** — unclip the fittings and take them when you move.
+- **Presence sensors («датчик присутствия», distinct from motion) dim by up to 80%** and save substantial electricity; with daylight sensors they also track temperature and brightness through the day. Expensive up front.
+
+#### ⚠️ His own most expensive mistake — check every washed surface for gloss
+
+Expensive German **asymmetric-optic** fixtures recessed into a ceiling and aimed sideways, producing a crisp wall-graze with the source invisible — a museum effect. **The client did not mention the wall would be marble.** Marble reflects, so the fixture's own reflection appears in the wall and the effect is destroyed — **at roughly €300 per fixture, the most expensive fittings in the apartment.** "Такому не научишься, такое можно только понаошибаться." **Generalises to: verify every surface a directional fixture will wash for gloss before specifying it.**

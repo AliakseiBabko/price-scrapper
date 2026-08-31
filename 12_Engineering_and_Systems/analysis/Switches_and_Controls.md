@@ -160,6 +160,21 @@ match the walking path, not panel geometry. `single-account`. [source: [[_Source
 
 **Distinct from this page's existing under-cabinet-lighting-specific touch-sensor caution above**: a touch switch requires visually locating the exact touch point and pressing precisely, and doesn't always register on the first attempt — contrasted with an ordinary toggle/rocker switch, which can be hit anywhere on its face by feel alone with no visual confirmation needed. Recommends touch switches only where already integrated into a smart-home voice-control setup (where the physical switch is rarely the primary control method anyway). `single-account`, `unverified`, Ontario (Nikita Kuznetsov presenting). [source: [[_Sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
 
+### A Working Alternative to Both — Wall Switch Plus Proximity Sensor (Надежда Кузина, added 2026-08-31)
+
+**This resolves the under-cabinet touch-sensor objection above rather than restating it.** Interior designer Надежда Кузина agrees the "feel along the underside for the touch spot" type is inconvenient, but reports the **combination** as unusually successful in practice: **an ordinary wall switch as the primary control, plus a proximity sensor on the fitting itself** for the case where hands are dirty or full. The switch keeps the hit-it-by-feel property the section above defends; the sensor covers only the exception.
+
+**She draws a distinction worth keeping**: this is a hand-brought-close sensor, **not** room-entry motion detection — it responds to a deliberate gesture at the fitting, not to someone walking in, so it does not produce the spurious triggering that makes motion sensors unsuitable for a work surface. `single-account`, `unverified`, RU. [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+
+**Related placement rule from the same source**: don't scatter the worktop-light switch across the backsplash separately from the outlets — put it in the same frame, on the same line ("не мельтешить по всему фартуку").
+
 ## Named Product Line and a Frame-Swap Lifehack (added 2026-08-24, Round 2)
 
 Pavel Sidorik names **EKF-brand outlets/switches, "Valencia" series**, with a direct price/quality assessment: "хороший вариант по соотношению цена и качество" (good price-to-quality ratio). Devices planned for one project: two-gang switch, two-gang pass-through (3-way/traveler) switch, one-gang switch, grounded outlets, outlets with integrated USB charging ports, network/ethernet outlets — a TV antenna outlet was considered and explicitly excluded. **Cosmetic lifehack: swap only the switch/outlet's outer frame (рамка) to a different color while keeping the same white mechanism/base** — frames are sold separately from the mechanism, making this a cheaper way to get a color accent than buying an entirely different product line. `single-account`, region unresolved for this episode (series-level Belarus attribution established elsewhere in this channel's other episodes). [source: [[_Sources/YT_9-NjgDLleOw_sidorik_electrical_ep6|9-NjgDLleOw_sidorik_electrical_ep6]]]
+
+### Two Switching Cases Set by Furniture, Not by the Room (Надежда Кузина, added 2026-08-31)
+
+Both from a planning lecture, and both are decided at layout stage rather than by any switch-height rule. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
+
+- **⚠️ A bunk bed requires a two-way switch at the door, and she found this out by testing it.** The sconce must be reachable from the bed — but without a second switch by the door, a child who falls asleep with the sconce on in the **top** bunk means a parent climbing the ladder past a sleeping child to turn it off. **"Я кстати пробовала, я реально сама просто на этой лестнице не помещаюсь."**
+- **Where spouses wake at different times, the bedroom wardrobe zone needs its own lighting and its own control**, so one can dress without waking the other. Both belong in the electrical drawing at the same time the bedroom layout is fixed.

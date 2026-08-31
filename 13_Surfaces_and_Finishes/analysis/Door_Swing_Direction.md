@@ -44,3 +44,9 @@ This is the door-specific version of the rule already on [[01_Entrance/analysis/
 
 [source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]]
 
+
+## Swing Direction Also Decides Where the Flooring Joint Can Go (added 2026-08-31)
+
+**Where a flooring transition falls in a doorway, the joint must sit under the door leaf** so it is hidden when the door is closed — which makes the swing direction an input to the *floor* programme, not only to the wall and switch layout. Interior designer Надежда Кузина flags it as an obvious rule that people nonetheless get wrong, because the joint is usually made by a different trade at a different time from the door.
+
+**Practical consequence**: the swing decision has to be locked before the screed is set, not before the door is hung — the transition's position, the screed heights either side of it, and the leaf position are one coupled decision. Full four-method transition comparison on [[13_Surfaces_and_Finishes/analysis/Flooring_Installation_and_Baseboards|Flooring Installation, Transitions & Baseboards]]. [source: [[_Sources/YT_g252JnMcc3Q_kuzina_flooring_transition_methods|YT_g252JnMcc3Q]]]

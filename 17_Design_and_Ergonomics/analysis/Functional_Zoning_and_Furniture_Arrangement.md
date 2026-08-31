@@ -525,3 +525,72 @@ This vault already has substantial room-specific clearance/zoning content that s
   corridor-avoidance stance (complements rather than conflicts with the
   existing Zemskov corridor rules on this page), developer free-plan
   deception, and two worst-case "train-car" layout patterns.
+
+## Removing a Protruding Internal Corner by Changing the Geometry (Надежда Кузина, added 2026-08-31)
+
+The cladding options for an inward-pointing corner are on [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]]. These six change the geometry instead — and the last is Кузина's own default. [source: [[_Sources/YT_fSBAMSIgnBs_kuzina_protruding_corner_protection|YT_fSBAMSIgnBs]]]
+
+- **Chamfer it («снять фаску»)** — take the 90° down to a shallower angle, which abrades less than a sharp arris.
+- **Round it (a radius)**, with two conditions. **It must be justified within the scheme** — radii draw attention, so a single isolated curve reads as an accident and there should be others elsewhere. **⚠️ And it changes the *adjacent* room, not just this one**: a corresponding curve appears on the other side of the wall and has to be resolved there — "ещё не факт, что это получится сделать." Worked example she rates: a curved wall finished in MDF strips with painted edges.
+- **Cut niches with shelves into the wall** — breaks one long corner into short segments that each abrade less. **The mechanism she gives is behavioural rather than geometric**: "психологически вы будете бояться снести что-то с этих полок," so people keep their distance without thinking about it.
+- **Put an obstacle in front of it** — a plant stand, say; you brush the obstacle instead, or steer around the zone entirely. **She states the limit plainly: it fails with many children or dogs** (dogs eat the plants).
+- **Build a column beside it** — suits classical and neoclassical schemes, **not viable in a narrow corridor.** Her analogy carries the mechanism: the corner guard stones of old Moscow, set so carriages struck the stone rather than the building.
+- **⚠️ Remove the corner entirely by splitting the room — "я в своих проектах обычно стараюсь делать именно так."** Rather than keep a pistol-shaped room, divide it in two with **a cased opening sized deliberately wide**: "не такой проём, который размером с дверь, а большой широкий, размером с то пространство, которое у вас есть" — you concede only the width the architrave needs. **Two benefits beyond losing the corner**: it lets you **change wall colour between the two parts** while the whole stays visually connected and fully open, and it "исправляет огрехи той архитектуры, которая вам досталась."
+
+## Planning Method — The Verb List, the Neufert Correction, and Why Room Shape Beats Furniture (Надежда Кузина, added 2026-08-31)
+
+From a 78-minute lecture on planning a bedroom, kids' room and hallway. **This section is the transferable method; the room-specific dimensions are on [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]], [[05_Kids_Room/Kids_Room_Guide|Kids Room]] and [[01_Entrance/Entrance_Guide|Entrance]].** [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
+
+### ⚠️ The Neufert correction — the single most useful item
+
+The ergonomic figures that surface from any search come from **Нойферт (Neufert)**, first published 1959 and now in its 41st edition, still valid because human dimensions have not changed. **But the published figures are the minimum tolerable, not the comfortable.** Her prescription: **add 10%, better 15%, better 20%** to any Neufert minimum. **Where two sources give different figures, take the larger.**
+
+**And one number covers most cases: 1 m to 1.2 m** — enough to pull a chair back from a table and pass behind it, and enough for a corridor. "Если есть метр или метр двадцать, то обычно это оно."
+
+**Her rebuttal to shaving those minimums** is worth keeping, because clients make the argument constantly: *the corridor "should" be 1.2 m, but the door leaf is only 70 cm and we stand in it fine, so why 1.2 m — especially when the washing machine then won't fit.* **Answer: one step through a wall thickness at 70 cm is fine; ten steps down a narrow corridor is not — and the door into a 70 cm corridor will not open if its own leaf is 70 cm.**
+
+### ⚠️ The verb-list method
+
+**Planning order is tasks → constraints → furniture.** Starting from "we need a corner sofa, where does it go" is a good question asked at the wrong point.
+
+1. **Write the verbs — what you actually do in this room.** Her bedroom list: sleep, make love, read, use a tablet, do live streams, watch TV, put on makeup, drink coffee in bed, do sit-ups.
+2. **Filter the list twice: what you do now, versus what you want to do later.** Worked example — you drink coffee in bed not because you enjoy it but because the kitchen table seats one and your husband gets there first. **That is a process to design *out*, not to design around.** Conversely, list things absent now that you want (lying and staring at the ceiling to relax).
+3. **Decompose each verb into requirements.** Intimacy → dimmed light: is a sconce enough, does it need a dimmer, diffuse or low at ankle level? Sleep → possibly blackout (a client whose children woke at 5am without it) and silence — **and in a three-room-plus flat that becomes the criterion for deciding which room is the bedroom.**
+4. **Check sightlines per verb** — for a live stream, what is behind you, is the door in frame, can a partner cross the room.
+
+### ⚠️ Room shape, axes, and the plan that cannot be saved
+
+- **Shape is a parameter finishes and furniture cannot fix.** She sees clients trying to correct a layout error with finishes or rearrangement; sometimes possible, often not. Correct shapes are proper geometric figures — squares and rectangles, not triangles or trapezoids. A rectangle plus a bay is fine; **modern architecture often makes the bay a "ship's prow," which destroys the axes.**
+- **Why axes matter**: they tell you immediately where the centre is, where the largest object goes, where the pendant hangs, what a row of fittings centres on. **With an irregular shape the centre is not obvious even when it can be computed geometrically.**
+- **Lay in symmetry first, then break it.** Once the axis exists, asymmetric moments (one armchair larger, a side table one side and a chest the other) are easy and the space still reads as correct. A purely symmetrical room can look "скучновато" — that is what the asymmetric moments are for.
+- **Axes also rescue over-saturated interiors** — heavy ornament, many details. The axis "не даёт этому интерьеру рассыпаться на куски." She cites a Kelly Hoppen bedroom that reads laconic but has complex ceiling geometry all resolved on the axis.
+- **⚠️ Fully asymmetric layouts: she advises against them for DIY**, and her reason generalises well beyond layout — **more options is not freedom, it is simply more choices, and it ends in worse-quality work.**
+- **⚠️ Diagnostic for an unfixable plan.** Analysing a Houzz layout, she notes the central circulation zone is **14 m²** while the two children's rooms are **14 m² and 11 m²** — circulation both larger than either habitable room and better-proportioned. **Verdict: the flat did not match the brief and "дизайнер в этом случае бессилен."** If the pass-through zone out-measures and out-shapes the rooms, the problem is the apartment, not the design.
+
+### ⚠️ The case for walk-through rooms, against universal client resistance
+
+"У меня не было ещё ни одного клиента, который бы сказал: давай мы сделаем побольше проходных комнат." **In a 100 m² flat a central corridor can consume ~15 m²** — a whole room's worth of area existing only so you never cross a room. Accepting one walk-through room instead returns that area to living space.
+
+**She attributes the resistance to two specific things**: a residual cultural fear of Soviet communal-flat «уплотнение», and the once-a-year visiting relative driving a permanent guest-room decision — "весь остальной год по этому поводу мы будем ходить по коридору."
+
+### Constraints to establish before any of the above (RU jurisdiction where noted)
+
+> [!IMPORTANT]
+> **These are Russian norms.** Recorded here on the planning page with the jurisdiction flagged, **not** in `16_Legal_and_Regulations/`, which is Belarus-only. Check the Belarusian equivalent before relying on any of them.
+
+- **⚠️ Habitable rooms are limited by window count, not by area (RU)** — a habitable room by norm requires a window, so a 100 m² flat with three windows cannot be a four-room flat regardless of area. The surplus becomes dressing rooms or a bigger bathroom.
+- **Wet zones are essentially immovable except on the first or last floor (RU)**; a small expansion at the corridor's expense is allowed. Kitchens likewise, and **a gas kitchen cannot be moved at all** and must be an enclosed room.
+- **⚠️ Entrance-door swing is legally constrained (RU)** — where your door adjoins a neighbour's, yours must not be able to block their exit during a fire evacuation. **And the entrance door cannot be relocated at all**, because the landing is common property.
+- **Load-bearing walls**: an opening is sometimes possible, removal never, and even the opening is not always permitted. **Pylons («пилоны») are worse** — a large square column carrying the slab, presented by developers as a small square on the plan; the whole problem is hiding it.
+- **Radiator relocation constrains annexing a loggia** — removing the under-window block leaves the radiator nowhere to go if there is no pier beside the new opening, and an in-floor convector is "тоже не всегда возможно."
+- **⚠️ Riser distance constrains the fashionable corridor "kitchen niche"** — even where approved, the drain run grows from ~0.5 m to ~3 m, so **it clogs more and is harder to rod out.** Closer to the risers is better for both WC and sink.
+- **Use standard furniture dimensions rather than fighting them** — a chair seat is ~45 cm and there is no point commissioning a custom chair; not every workshop can even make one well.
+
+### ⚠️ Storage capacity is bounded by retrievability, not volume
+
+From lagom decluttering literature, and she uses it as the analogy for the whole flat: professional organisers put **two large frying pans into a 90 cm drawer and told the client the drawer was full** — though there was visible space above. **The mechanism is access: fill the remaining volume and you must unload everything to reach the bottom.** Capacity is set by what can be comfortably retrieved.
+
+### Two rebuttals of DIY layout advice
+
+- **"In one evening you can only make a very bad layout"** — furniture scattered with no thought given to the occupants' actual needs.
+- **"Layout is not about an изюминка."** Aimed at people hunting a special twist on 10 m²: **don't reinvent the wheel unless you are a strong architect. Layout is the logic and functionality of space; the twist comes from textiles, decor, or interesting furniture shapes.**

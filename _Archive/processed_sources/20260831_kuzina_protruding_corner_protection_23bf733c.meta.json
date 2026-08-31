@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=fSBAMSIgnBs",
+  "video_id": "fSBAMSIgnBs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-31T21:15:52.585032+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "23bf733c8e312a0f9a52e76f2deffcf3a8deeefcb02955ccb5b69e3de4153e1d",
+  "attempts_before_success": []
+}

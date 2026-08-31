@@ -2,7 +2,7 @@
 source_type: video transcript (turnkey renovation company owner, real 5-site jobsite walkthrough, Russian, manually-created captions)
 source_url: https://www.youtube.com/watch?v=A16VC0VYjSQ
 video_id: A16VC0VYjSQ
-transcript_file: not separately archived — fetched inline via youtube_transcript_api (sha256 2f1a3be96d2b9db070845fe5741103e08707d681df5b7116528935ab1870f730)
+transcript_file: _Archive/processed_sources/20260823_kruglov_5_site_tour_2f1a3be9.txt
 fetched: 2026-08-28 (anonymous, youtube-transcript-api, ru transcript, language_code=ru)
 upload_date: 2025-12-15 (confirmed via yt-dlp metadata; duration 1529s / ~25 min)
 channel: Константин Круглов | Ontario (Konstantin Kruglov, Ontario — Moscow/Moscow-region turnkey renovation company)

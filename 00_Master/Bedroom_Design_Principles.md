@@ -643,3 +643,53 @@ sources are excluded as branded promotion. [source: [[_Sources/YT_ldTVukHRIR0_ka
 - 2026-08-20 (same day, correction) — Initial Phase 2 description was mis-scoped as "a partitioned section of the kitchen-living room" with an ordinary bed. User corrected: there is no separate fixed living/dining room at all — `04_Living_and_Dining_Room` and `03_Kitchen` together form one combined space whose identity changes by time of day, and the bed is specifically a wall-bed/Murphy-bed transformer folding into a wall/wardrobe, not a bed occupying fixed floor space. Updated the Household Plan section accordingly and flagged that most of the 12-item sequence's bed-related steps need re-deriving around the transformer unit rather than assumed to transfer unchanged. Added a cross-reference to this store's independently-recorded fold-away-bed-into-storage-wall technique (`yt_JwB6L-tYd7I`), which now reads as a direct corroboration of this project's own plan.
 - 2026-08-20 (same day, further refinement) — User added: (1) the everyday dining table moves to the kitchen, so the Phase 2 room is living-room-only on a daily basis with the extended table reserved for special events; (2) Phase 1 has no bedroom function in `04_Living_and_Dining_Room` at all — pure living room until Phase 2; (3) the Murphy bed should be **installed now** during the current Phase 1 renovation and only **activated** in Phase 2 (~3-4 years out) — an explicit application of this store's independently-established "future-flexible planning" principle (`13_Surfaces_and_Finishes/Walls_and_Paint.md`), now cross-referenced above; (4) a kids'-room split for Phase 2: `05_Kids_Room` becomes the girl's room exclusively, `06_Small_Bedroom` becomes "Kids Room #2" for the boy. Updated the Household Plan section and this room's own long-term-use description accordingly; propagated the same clarifications to `Family_Requirements.md` §5-7, `Living_and_Dining_Index.md`, `Small_Bedroom_Index.md`, and `Kids_Room_Index.md`.
 - 2026-08-20 (same day, further clarification) — User confirmed "head office bedroom" was a voice-recognition misfire for "adults' bedroom," and added the combined space's internal zone-division layout: bigger/window-side portion = living/bedroom zone, smaller/entrance-side portion (opposite the window) = kitchen zone holding the dining table, positioned clear of the sliding door's travel path. Propagated to `Family_Requirements.md` §5 and `Living_and_Dining_Index.md`.
+
+## Bedroom Dimensions and Clearances (source: `Rcd9gkPC6CI`, Надежда Кузина, added 2026-08-31)
+
+From a 78-minute planning lecture with an extended Q&A. The general planning method — the verb list, the Neufert +10/15/20% correction, room shape and axes — is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]] and applies to everything below. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
+
+### The dimensional chain
+
+- **⚠️ Bed size is not mattress size**, flagged as a common planning error. **For a 160×200 mattress the bed is roughly 180×210, and better planned at 180×220** — the side rail («царга») has width, the headboard occupies depth, and on comfortable beds the headboard is **angled back**, taking more still.
+- **Nightstands must not butt the bed — leave 5–10 cm**, so a bedspread can be pulled off and bedding changed.
+- **⚠️ Around the bed, Neufert's minimum is 70 cm — "это очень мало." Better at least 1 m.** For a bed detached from the walls, **70 cm each side is the floor**, and at that dimension you cannot form openings there.
+- **⚠️ Chest of drawers: allow the chest's depth plus 60 cm.** Her arithmetic: a 45 cm chest whose drawer pulls out 40 cm, given only 70 cm of clearance, leaves 30 cm for your knees — and the bottom drawer may need you to crouch. "Так нельзя, так не работает."
+- **⚠️ Hinged wardrobe doors: leaf width plus 60 cm**, so you can step back rather than manoeuvring around open doors.
+- **Standard Russian bed height is up to 40 cm**, explicitly contrasted with American beds.
+- **Headboard height should not be half the wall height** — on a 3 m wall, not 1.5 m; go lower (~1.2 m) or higher (1.8 m+). Halving a wall visually reads badly.
+- **American-height beds with a thick mattress**, tested in a showroom: sitting on one is like a bar stool — at average height her feet did not reach the floor. **Excellent to lie on, poor to sit on — which is precisely the argument for a bench or pouffe** to dress on, which also takes the discarded duvet and gives extra storage.
+
+### Wardrobe placement, and the error that costs a dropped ceiling
+
+- **The wardrobe usually lands on the wall adjacent to the door, and then "спорят две красоты."** The primary beauty is the headboard, so **mute the wardrobe — paint it the wall colour, and ideally build it in.**
+- **⚠️ If built in, you drop the ceiling over it — and the common error is sizing that drop to the carcass alone.** A 60 cm wardrobe **plus a 10 cm cornice overhang is 70 cm.** The dropped ceiling and the niche must be set out to 70, or the cornice protrudes into the room.
+- **Where spouses wake at different times, give the wardrobe zone its own lighting** so one can dress without waking the other.
+- **A wardrobe on the same wall as the door is better** — not in view on entering.
+- **⚠️ Never use a rounded corner-module wardrobe** (the Soviet-style curved end used to soften a protruding corner): "это просто адски адский ад, это никогда не выглядит хорошо."
+- **Plan the dead zone behind a nightstand set against a wardrobe** — that corner is blind and should hold what is not needed daily.
+
+### Bed position and the arrangements that follow
+
+- **⚠️ A person lying in bed should see whoever comes through the door** — so **do not put the headboard on the same wall as the door.** Where two layouts are otherwise equal, this decides.
+- **Entering from the long side of a rectangle is easier** — a longer wardrobe fits with no protruding corner to resolve.
+- **Symmetrical wardrobes either side with a bridge over the bed**: everything is on one wall, so there is no competition between the wardrobe's appearance and the bed's. **Where nightstands do not fit, put small lit niches in the wardrobe ends** for a phone.
+- **Bed in an alcove** — she likes it; some clients dislike sleeping enclosed by three walls, and it suits one occupant better than two.
+- **Elongated bedrooms**: use the length in front of the bed — a desk (**then plan floor sockets**), a bench, or a deeper small sofa. If a desk disturbs sleep, screen it — **screens are unpopular in Russia and much used in America.** Alternatives: a niche in the wardrobe for a TV or art, so the view from bed is not wardrobe doors; or a reading corner with a floor lamp and armchairs.
+- **A bed detached from the walls needs something behind the headboard** for a book or a cup, since nightstands are unavailable in that arrangement.
+
+### ⚠️ A 2.70 × 4.70 m bedroom — a practitioner declaring it unsolvable
+
+Asked in the Q&A. At 2.70 m a bed 210–220 deep leaves ~50 cm to squeeze past. Options she offers:
+
+- **A bed built into a full wall-to-wall podium** with the mattress set in — a Japanese arrangement, not necessarily a Japanese style — moving the sleeping zone to the window, **with the radiator position calculated so it does not interfere with sleep.**
+- **Stealing a niche from the adjacent room** along the long wall, with the obvious question of what that does to the other room and the reminder that moving partitions is a long process.
+- **Two single beds along the 4.70 m wall** (two 2 m beds fit), at the cost of sleeping separately.
+
+**And then she declines to solve it: "я бы рада была помочь, но я просто не знаю, как сделать так, чтобы из 2,70 было бы 3,70."** Recorded because a practitioner naming a constraint as unsolvable is more useful than an invented fix.
+
+### Related, from the same Q&A — dressing rooms
+
+- **⚠️ Absolute minimum depth when entered from the end: 142 cm.** Asked whether a 60 cm wardrobe plus 60 cm to turn in is enough, she says no — reaching a top shelf you occupy more space and need a step back. **And the opening must be resolved**: the smallest door leaf is 60 cm → the opening must be **72 cm, plus at least 10 cm around it for architraves = 82 cm; plus 60 cm of wardrobe = 142 cm.** She adds that she does not personally use 60 cm leaves.
+- **⚠️ Her alternative where that depth is unavailable — enter from the long side and treat it as a very deep wardrobe**: one step in, large sliding doors, free space behind you to step back into, **and two "wings" at the sides for the vacuum cleaner and the ironing board.**
+- **Cutting a dressing room off an existing room**: **60 cm minimum for the wardrobe zone, plus ideally 1 m in front, plus ~10 cm of partition = 1.7–1.8 m** to take. **Do this to an elongated room ("как вагон метро"), not to a good square one** — "лучше я бы не рекомендовала его портить."
+- **Podium height for a pull-out bed**: allow **at least 10 cm for frame and cladding over the ~40 cm bed height, so the podium lands around 50 cm** — confirm with the joiner, since it depends on the pull-out mechanism. **Lower is better**: more headroom on the podium and more clearance below the windowsill.

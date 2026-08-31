@@ -70,3 +70,14 @@ All three should split cleanly along the same verbatim-move pattern, with the sa
 ## Note on `Budgeting_Guide.md`
 
 632 lines but only **9 sections** — the one page in the list where the line count is high and the topic count is not. It may genuinely be one long thing rather than nine, so it needs reading before any split is designed. Do not treat it as mechanical.
+
+## Update after Кузина Round 1 (2026-08-31, same day)
+
+Three of this backlog's pages were touched by the Кузина Round 1 intake. **Net effect on the fragmentation count: slightly better, deliberately.**
+
+- **`Lighting_Design.md` — the merge-don't-split page above.** Round 1 added three sources' worth of lighting content (dining-pendant sizing, the chandelier-as-decor convergence, and the Реньжин mechanisms). **Rather than appending three more dated top-level headings — exactly the behaviour that produced this page's problem — they were consolidated into one top-level section with `###` subsections, and the page went from 28 to 27 top-level sections while gaining content.** The underlying merge job is untouched and still owed by hand.
+- **`Kitchen_Furniture.md`** (#1 to split) gained two sections and one subsection. **The subsection was deliberately nested under the existing fridge-niche section** rather than added at top level, but the two new top-level sections do make the split job marginally larger. They are self-contained and will move cleanly.
+- **`Functional_Zoning_and_Furniture_Arrangement.md`** gained one top-level section with `###` subsections, and is now newly flagged for splitting.
+- **`Flooring_Installation_and_Baseboards.md`** gained content as a **`###` subsection nested under the existing threshold-sealing section**, adding no top-level heading — that page's flag is unchanged by this round.
+
+**Convention worth generalising from this round**: when a batch adds several sources to an already-fragmented page, give the whole batch one top-level heading and nest per-source content beneath it. It keeps the section count flat and it groups material that a future merge pass would want together anyway.

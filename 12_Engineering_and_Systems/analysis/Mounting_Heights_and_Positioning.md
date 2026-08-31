@@ -7,6 +7,34 @@ A repeated on-camera demonstration (four people, heights 150–185 cm) found tha
 - **Countertop outlets: 110 cm from finished floor by default**, shifting by the same delta as the countertop height when a non-standard countertop is planned (e.g. +10 cm countertop → +10 cm outlets). Window-slope and ceiling-referenced points are the explicit exceptions — see [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Cable, Circuits & Panel Design]] for the documentation convention. [source: [[_Sources/YT_l_rjjPlPkRo_switch_height_offset_rules|l_rjjPlPkRo_switch_heigh]]]
 - **A small set of point types should track occupant eye level instead of a fixed height**: video-intercom monitors and underfloor-heating thermostats, both read visually while standing/using them — unlike switches, which are operated by feel, not sight. [source: [[_Sources/YT_uLJGsTfTj3A_switch_outlet_mounting_heights|uLJGsTfTj3A_switch_outle]]]
 
+## Kitchen Heights Referenced to the Cabinetry, Not the Floor Plane (added 2026-08-31)
+
+Everything above is measured from finished floor. This set is different: the constraint comes from the carcass, so the figures cannot be transferred between kitchens without checking the drawing. All from interior designer Надежда Кузина. [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+
+- **⚠️ Minimum 250 mm from floor for an outlet inside a sink base — stated as a correction to her own error.** She specified **200 mm** for a waste-disposer outlet, having fitted disposer, filter and bin into a single base under 90 cm wide, and had not accounted for the **internal stiffener rail** that holds a sink base's shape. The outlet collided with it and a cut-out had to be improvised on site. Worth more than a generic warning because the mechanism is named and the failure is her own.
+- **⚠️ The 10 cm plinth trap, with the arithmetic.** Plinth («цоколь») height runs **10–15 cm**. An outlet in a 10 cm plinth leaves roughly **1 cm of clearance** once the mounting box's own half-height is taken — and outlets go in **before the finish floor is poured**, so builder tolerance plus actual floor level can consume that centimetre entirely and the faceplate then will not fit. **If the plinth is known to be 15 cm, raise the outlets rather than defaulting to the 10 cm assumption.**
+- **Freestanding freezer: 25 cm** behind it, or in the plinth. Unlike a fridge it stands on the floor rather than on a shelf, so an outlet directly behind may not sit flush once the plug is in — and several manuals forbid an outlet inside the appliance's own footprint outright.
+- **Built-in fridge is the easy case**: standard mounting puts it on a shelf, clear of the floor, so an outlet in the same base or in the plinth is unproblematic and there is no need to displace it to a neighbouring base.
+- **The dimensional chain these hang off**: plinth 10–15 cm → base height → backsplash. **Worktop height is a function of the user's height, not a constant** — serial production defaults to **815–820 mm**; for a person of ~1.80 m she puts it **above 90 cm, with ~94 cm comfortable**; **95 cm** for the very tall. A joinery shop will build to any height, which is precisely why the outlet heights cannot be assumed.
+
+## Perspectives — Countertop Outlet Height: 110 cm vs 100 cm (added 2026-08-31)
+
+Two named practitioners give different default heights for a kitchen worktop outlet, and they are arguing from **different disciplines**, which is what makes this worth recording rather than averaging.
+
+| Source | Position | Stated reasoning |
+| :--- | :--- | :--- |
+| Zemskov/Zemstandart-lineage electrical source (`l_rjjPlPkRo`) | **110 cm** from finished floor by default, shifting by the same delta as a non-standard countertop height | An installation standard, expressed as a rule that tracks countertop height so the relationship to the work surface stays constant |
+| Надежда Кузина, interior designer (`iHViNm3dESU`) | **100 cm** from finished floor, on an 82 cm base height | Compositional. At **130 cm** the outlet lands in the **middle of the backsplash** and looks bad; sitting it near the **lower edge** of the backsplash reads far better. She explicitly rejects the usual argument for 110 cm+ — that it clears the «уголок» trim strip over the worktop/backsplash joint — because not every kitchen has that strip and where it exists it may be 1 cm rather than 5 cm. She calls that argument "нерациональный" |
+
+**Common Ground.** Neither treats the number as a code requirement, and Кузина's own search of ГОСТ/СНиП found nothing governing outlet *position* at all (see the RU-jurisdiction note under Kitchen Utilities). Both also agree the figure is **derived, not absolute**: it moves with the countertop height. The real disagreement is over which reference the outlet should hold constant — its distance above the worktop, or its position within the visible backsplash field.
+
+**Deciding factor both point to**: the backsplash height and whether a joint trim strip is being used. Where the backsplash is tall and untrimmed, Кузина's lower-edge logic dominates; where a substantial trim strip exists, the 110 cm figure has something concrete to clear.
+
+> [!IMPORTANT]
+> **This is decided by the кухня drawing, not by this page.** With a glass backsplash («скинали») the cut-outs are fabricated into the glass and **nothing can be moved afterwards** — so the number must be fixed against the actual elevation before the glass is ordered.
+
+**Your Priority: not yet decided.** No kitchen elevation exists for this apartment yet, so the deciding factor above cannot be applied.
+
 ## The Zero-Reference / Working-Reference System All These Heights Are Measured From (added 2026-08-19)
 
 > [!NOTE]

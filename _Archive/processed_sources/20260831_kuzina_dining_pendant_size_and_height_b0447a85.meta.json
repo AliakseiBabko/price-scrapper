@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Dd_pUAvzqew",
+  "video_id": "Dd_pUAvzqew",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-08-31T21:22:05.011212+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "b0447a859246eec6ea4b837efdeef36708c6d66f050af43ad0f5761a56308c4b",
+  "attempts_before_success": []
+}
