@@ -99,3 +99,14 @@ A specific, useful, transferable method — genuinely new for this page. The dec
 - **Clear bins remain acceptable in genuinely non-living utility spaces** (garage, storage room/kladovka, balcony) as long as some organizational discipline (labeling, sorting by category) is still maintained even there.
 
 `single-account`, `unverified`.
+
+## Mixed Open/Closed Storage, Internal Organizers, and Personalization Through Objects (Игорь Краснов, added 2026-09-01, Round 5)
+
+[source: [[_Sources/YT_4ZjCbDRhfNM_krasnov_please_buy_these_6things|4ZjCbDRhfNM]]]
+
+- **⚠️ Mixed open/closed storage nuance — a counterbalance, not a contradiction, to this page's and this vault's several existing "avoid open shelving" critiques**: recommends MIXING closed cabinets with open shelves rather than an all-closed system — all-closed storage can feel visually "heavy." Open shelves should hold only frequently-used or intentionally-displayed items, in moderation, to avoid becoming visual clutter. Frame this explicitly as a nuance/counterbalance, since both this and the existing critiques agree moderation is the key variable.
+- **⚠️ Internal drawer/cabinet organizers — a specific, quantified claim**: using appropriately-sized internal dividers/containers to structure drawer and cabinet interior space (rather than piling items loosely) is claimed to reduce time spent searching for specific items by roughly **30% on average** — tag explicitly as his own unverified estimate, not a cited statistic. Cites unnamed/uncredited "studies" claiming household clutter directly correlates with elevated stress and reduced productivity, combined with his own personal work-from-home anecdote needing an uncluttered space to concentrate — tag the "studies" reference as unverified/uncredited, the personal anecdote as his own stated experience.
+- **⚠️ Books-as-personalization — a specific, pointed critique worth recording distinctly**: explicitly NOT books purchased purely for colour-coordinated spine display, but books the household actually reads — recommends an open shelf or a small floor-standing bookcase specifically for genuinely-read books, as a distinct personalization signal from generic styled bookshelves.
+- **⚠️ Hobby-object display — a specific, concrete technique category, genuinely useful**: display a played guitar on a wall-mounted stand rather than hiding it in its case; create a dedicated small easel/painting corner for a painter; install an open display shelf for bottles if wine collecting is a genuine hobby. Explicit caveat against overdoing it — too many meaningful objects displayed at once still reads as clutter/"visual noise" regardless of sentimental value; recommends a few well-chosen accents over a large collection, consistent with this page's existing curation-over-accumulation principle.
+
+`single-account`, `unverified`.

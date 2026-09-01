@@ -193,6 +193,10 @@ Two Round 3 videos from the same channel appear to disagree about headboards but
 
 `single-account`, `unverified`.
 
+## Bedside Sconce Mounting Height Above the Headboard (Игорь Краснов, added 2026-09-01, Round 5)
+
+**⚠️ A specific, new numeric bedroom-lighting standard**: the correct mounting height for a wall sconce above a bed's headboard is **20-30cm above the headboard** — a real-listing critique from this round flagged a case at roughly 50cm as too high. Distinct from this vault's existing bathroom-mirror-sconce mounting content (a different room and fixture-function) — this is specifically a bedroom-headboard sconce figure, genuinely new for this page. `single-account`, `unverified`. [source: [[_Sources/YT_Pqc19izKNXI_krasnov_dont_do_classic_interior|Pqc19izKNXI]]]
+
 ## Bedside Sconce Dual-Function Rule, and Blackout Curtains as Sleep Science (Игорь Краснов, added 2026-09-01, Round 4)
 
 [source: [[_Sources/YT_mqIWre0VXGU_krasnov_sleep_mistakes|mqIWre0VXGU]]]

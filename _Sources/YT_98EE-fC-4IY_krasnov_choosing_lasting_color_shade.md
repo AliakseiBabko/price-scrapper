@@ -1,0 +1,53 @@
+---
+source_type: video transcript (turnkey interior design studio, YouTube technical-methodology format)
+source_url: https://www.youtube.com/watch?v=98EE-fC-4IY
+video_id: 98EE-fC-4IY
+transcript_file: _Archive/processed_sources/20260901_krasnov_choosing_lasting_color_shade_516b037f.txt
+fetched: 2026-09-01 via youtube-transcript-api (auto-generated ru captions)
+upload_date: 2025-11-29 (confirmed via yt-dlp metadata, upload_date=20251129)
+channel: Игорь Краснов / Студия Краснов (Krasnov Design, St. Petersburg, turnkey interior design studio)
+source_metadata_location: region level 1 — St. Petersburg (studio's own channel branding); the Ostozhenka case names Moscow directly in the source
+language: ru
+extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)
+fact_yield: 13
+promotional_ratio: medium
+corroborates_existing: false
+---
+
+# Extraction Note — Игорь Краснов: Color in the Interior — Choosing a Shade That Lasts (YouTube 98EE-fC-4IY)
+
+## Evidence levels
+(1) transcript text — (2) YouTube metadata — (3) contextual inference — (4) external validation (none performed).
+
+## Source Metadata / Promotional Context
+
+`promotional_ratio: medium` — a Telegram plug and a brief consultation mention, but genuinely dense technical content dominates this video; noted honestly rather than defaulting to "high" the way the round's briefing flagged as a risk. **The densest, most technically valuable source of Round 5.**
+
+## Design Concept, Materials, Quantities / Measurements, Cost Drivers
+
+- **⚠️ Four-way compass-orientation color-adjustment system — genuinely new, extends existing orientation-aware content with more specific per-direction guidance**: **North** — cold, diffuse light; even objectively warm-toned paint reads greyer/cooler than intended, so warm the chosen color further than seems needed. **East** — soft morning light suits pastel/complex light tones well, but light weakens noticeably after midday, so the chosen color must "hold its form" in weaker afternoon light. **South** — strong, warm, harsh light; colors fade faster and can read too warm/yellow-shifted, so control color temperature carefully and avoid tones that already skew yellow. **West** — warm evening light specifically, under which grey tones can visibly shift toward pink or lilac; explicitly recommends testing a west-facing room's color specifically in the afternoon/evening, not just at midday.
+- **⚠️ Paint-testing protocol, more rigorous than Rounds 3-4's versions (`DQr8J5rkaPk`, `vM7inxJZ-6U`) — canonical, fullest entry**: minimum **5-7 separate paint swatches**, each **50cm×50cm**, painted onto a MOVABLE/PORTABLE panel (a large sheet of wallpaper backing or drywall) that can be physically carried and held up in different rooms/orientations — not necessarily painted permanently onto the wall in every case (the portability is the new detail). Each swatch must be viewed at **morning, midday, evening, AND under artificial lighting SEPARATELY** — four distinct viewing conditions.
+- **⚠️ "Eyes-closed" color test — a specific, novel technique, genuinely new**: stand in the actual space, close your eyes for several seconds, then open them and note your immediate/involuntary reaction — if the color does NOT "shout" or create an immediate sense of visual dominance/discomfort on reopening, it has been correctly chosen as a supportive background tone rather than a demanding foreground element.
+- **⚠️ Named real branded paint reference colors, tied to warm vs. cool wood-tone pairing — flag per the advertising/brand-mention filter**: for warmer wood tones — Farrow & Ball "Skimming Stone," "Hard White," "Little Green," "Rolling Fog," and Tikkurila color code **К498** (soft warm greige/beige); for cooler/greyer wood tones — Farrow & Ball "Ammonite," "Little Green Limestone" (name possibly ASR-merged, verify before citing further), and Tikkurila code **F487**.
+- **⚠️ RAL/catalog desaturation adjustment — a specific, actionable technique**: when starting from a RAL or manufacturer catalog color, reduce its saturation by roughly **10-15%** before applying it to a real living space — a catalog color's full-saturation value reads too harsh/intense once applied at real room scale.
+- **⚠️ Color-gradation/layering methodology — a specific, reusable technique worth its own entry**: pick ONE base hue, then use **3-4 tonal variations of that same hue** across different elements: the LIGHTEST tone on the walls (background); a somewhat MORE saturated tone on large furniture, especially built-ins; the DEEPEST/richest tone on textiles/upholstery specifically, so the color "lands"/grounds the composition. Creates a sense of depth ("the room breathes") versus the flat look from repeating one identical shade everywhere.
+- **⚠️ Color-and-material pairing check**: always verify the stone/wood/wall-color combination together as a set before finalizing any one individually — if a stone material (countertop, floor slab) has an active, bold vein pattern, the wall color must stay calm/muted, or the two compete ("a race to see who out-shouts the other," his own phrase).
+- **Pinterest-photo unreliability claim**: roughly half of Pinterest interior photos are meaningfully retouched, and the other half are shot with camera settings/white-balance choices that measurably alter color perception — choosing a paint color purely from a photo reference is fundamentally unreliable. Tag as his own stated observation/estimate, not a cited statistic.
+- **⚠️ Four named common color-selection mistakes, worth recording as a discrete checklist**: (1) painting without a real-light test swatch first; (2) installing light fixtures with the wrong color temperature AFTER the wall color has already been chosen, causing a mismatch between intended color and how it reads under installed lighting; (3) mismatched warm/cool temperature between wall color and furniture/material choices — frames the general warm/cool-matching rule from Round 4's `vM7inxJZ-6U` specifically as a sequencing failure; (4) choosing wall/paint color only AFTER furniture has already been purchased, rather than the reverse.
+- **⚠️ A real, detailed, quantified cautionary case — the Ostozhenka repaint overrun**: a 120m² apartment on Ostozhenka Street, Moscow, north-facing; the client chose a "greige" color purely from a Pinterest photo/catalog reference without a real in-space test swatch, to save time. Once painted, the color visibly shifted to a "grey-lilac" tone reading "puffy"/tired especially under evening lighting; the client reported genuine discomfort living with it for roughly two weeks. The wall was repainted approximately THREE times, each requiring new materials and idle contractor time. Total result: roughly a 2-week schedule delay and **≈300,000 RUB in cost overrun**. Resolved once the studio insisted on and performed the 7-swatch, multiple-time-of-day test described above.
+  - **5b — eligibility and conversion**: location (Moscow) and year (2025, upload date confirmed 2025-11-29) both clear this project's level-1 comparability bar directly from the source's own content (names the street and describes the project in enough detail to place it in time relative to the video's publish date — treated as a same-period figure, not historical). **Trailing-6-month mean before 2025-11-29**: 80.2905 RUB/USD (130 daily samples, 2025-05-29..2025-11-29, via `tools/pricing/currency_converter.py`). 300,000 RUB ÷ 80.2905 = 3,736.43 USD → rounded to the nearest 100 per this project's rounding rule (range $1,000-$99,999): **≈$3,700**. This clears the bar and is usable for cross-source comparison as a Moscow/2025, turnkey-studio repaint-overrun figure — one of only a handful of priced figures this channel has surfaced across all five rounds.
+- **⚠️ Ownership/accountability principle**: color decisions should be made by the project's own original architect/designer, not delegated to a contractor, because genuine understanding of the room's light/orientation/material/functional program is required. Cites an explicit **~80% error-risk estimate** when color is chosen by someone other than the project's original designer — tag as his own unverified estimate, not a cited statistic.
+- **Function-specific color-scenario guidance, two new scenario examples**: kitchen colors should avoid "acidic"/harsh tones and favor tones supporting appetite ("a kitchen is not a restaurant," his phrasing); a home office/study benefits from a LIGHT degree of color contrast specifically to support concentration (vs. a fully flat, low-contrast scheme).
+- **⚠️ Named 2025-2026 color-trend movement, tag as time-sensitive, not durable technique**: moving AWAY from flat "milky"/undifferentiated off-white (reads "under-finished" at large room scale), heavy "graphite" as a full-room color (now increasingly reserved for small accent use), and "brass + green" as an over-cited, now-tired combination ("decoration, not architecture," his words); moving TOWARD "soft clay" tones (sand, stone-dust, umber, complex greys with minimal color tint) and colors with an intentional "aged"/patina-like depth rather than flat fresh-paint saturation.
+
+## Confidence & Evidence Notes
+
+- Single practitioner, single video, `single-account` throughout; the Ostozhenka case is a single-account client anecdote, not independently verified, but is specific and internally consistent (location, orientation, timeline, cost all cohere).
+- ASR quality: clean; brand names (Farrow & Ball, Tikkurila codes) render clearly except the possible "Little Green Limestone" merge noted above.
+- `corroborates_existing: false` — nearly everything here is genuinely new; only the sequencing-failure framing of warm/cool matching restates Round 4's core rule from a new angle.
+
+## Recommended Downstream Routing
+
+- **`17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing.md`** — canonical paint-testing protocol (5-7 swatches, movable panel, four viewing conditions), eyes-closed test, RAL desaturation adjustment, four named color-selection mistakes, and the Ostozhenka case as a third cautionary example alongside Rounds 3-4's.
+- **`17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules.md`** and/or **`Neutrals_and_Earth_Tone_Palettes.md`** — compass-orientation color-adjustment system, color-gradation/layering technique, color-material pairing check, named Farrow & Ball/Tikkurila reference colors (flagged per advertising filter), 2025-2026 trend movement (tagged time-sensitive).
+- **5b**: Ostozhenka case — see conversion above, ≈$3,700 (nearest-100 rounding), Moscow/2025, cleared for cross-source comparison.

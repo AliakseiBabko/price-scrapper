@@ -70,6 +70,10 @@ layout/storage notes.
 
 → **[[10_Balcony/analysis/Materials_Finishes_and_Layout|Full detail]]**
 
+## The Balcony as a Living Transitional Zone, Not a Storage Dump (Игорь Краснов, added 2026-09-01)
+
+A brief but genuinely valuable addition given this page's otherwise thin design-concept coverage of the balcony/loggia, from an atmospheric travelogue video whose other content was mostly cultural framing with limited direct actionable value. **Thailand's principle of a soft transitional zone between street and interior** (a veranda, overhang, or shaded semi-open space) prompted his own explicit critique: **Russian balconies/loggias typically become storage-dump spaces rather than genuine living transitional zones**, and his stated view that they COULD instead function as a real part of the living space — a deliberately furnished, used zone rather than a default overflow closet. Worth weighing against this project's own stated unheated, three-season plan (see [[10_Balcony/Balcony_Index|Balcony_Index]]'s Family Needs section) — a genuinely usable transitional space and a storage-dump outcome are both live possibilities for the same unheated footprint, and which one results is a planning/discipline choice, not a foregone conclusion either way. `single-account`, `unverified`. [source: [[_Sources/YT_vokGmmhZ9hg_krasnov_8ideas_different_countries|vokGmmhZ9hg]]]
+
 ## Source Notes
 
 Traceability record kept on its own page — [[10_Balcony/analysis/Source_Notes|Source Notes]]. Not reader content, kept off this page by design.

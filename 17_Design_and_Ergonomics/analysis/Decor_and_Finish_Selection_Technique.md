@@ -444,6 +444,32 @@ From the basic-elements source, and these are the parts of it that are not alrea
 
 `single-account`, `unverified`.
 
+## Real-Listing Critique Cluster — Over-Matching, Style-Mixing, Column Scale, and Textile Details (Игорь Краснов, added 2026-09-01, Round 5)
+
+A distinct format from this channel's usual generic-advice videos: critiquing real Cian listing photos rather than speaking abstractly, which surfaces several specific, checkable findings. [source: [[_Sources/YT_Pqc19izKNXI_krasnov_dont_do_classic_interior|Pqc19izKNXI]]]
+
+- **⚠️ Mixing genuinely disparate historical/decorative registers in one room** — a real listing combined Art Nouveau doorway detailing, a floor pattern resembling a backgammon board, and a Greek-motif glass cabinet, plus a plain modern bar stool "from another era entirely." Diagnosing WHY a specific real room fails (competing decorative "languages" with no unifying logic) — distinct from generic "pick one style" advice.
+- **⚠️ Over-matching finishes — a specific critique of too much exact matching, the inverse of a mismatch critique**: identical wall panels and cabinet-door panels in the same room fuse furniture and walls into one visual mass, making the room read as "a box with no depth" and erasing any sense of zoning between furniture and architecture.
+- Heavy ceiling moulding paired with completely flat, undecorated walls flagged as a vertical/horizontal compositional imbalance — decorative intensity should be reasonably proportional between ceiling and wall planes, not concentrated entirely on one.
+- **⚠️ Columns installed inside an ordinary residential apartment (not a palace or museum) flagged as inherently disproportionate at that scale** — the same underlying "misapplied monumental architectural element at residential scale" pattern already logged for arches on this page (Round 3's `gbOoH1oV4Hk`, in the Decorative Arches section below) — cross-reference explicitly rather than treat as a separate finding.
+- **⚠️ Braid/passementerie trim edging on curtains/upholstery («отделка тесьмой», quoted Russian term)** flagged as reading dated rather than elegant — a specific named textile-detailing critique, genuinely new for this page.
+- A random decorative object with no thematic connection to the room (a decorative deer/stag figurine between two windows in an otherwise classic dining room) flagged as reading arbitrary — recommends either removing it or replacing it with something coherent, e.g. a painting.
+- **⚠️ A picture frame with no stylistic relationship to anything else in the room** — his point is the FRAME itself (not just the artwork) needs to be a deliberate choice, either matching or intentionally accenting the room's palette/style; consistent with, and worth reading alongside, this page's existing Кузина content above on framing/baguette as a way to raise perceived value.
+- Furniture-style clash within one room (a heavy formal classic dining set alongside a plain Scandinavian-style sofa, plus a rough "country"-textured rug) reads as "a random assortment" rather than deliberate eclecticism.
+- **A sofa positioned back-to a dining zone — a nuanced point about HOW furniture-based zoning is executed, not whether it's valid**: furniture CAN be used to zone a room deliberately, but here the specific positioning reads as cutting the room into two disconnected halves rather than a soft zoning gesture. Cross-reference [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]] for the general mechanism.
+- Overly heavy drapery blocking natural daylight — a real listing had two-window daylight potential undercut by overly heavy curtains.
+
+`single-account`, `unverified`.
+
+## Mirror-Opposite-Window Placement and Curtain Drop-Height Rules (Игорь Краснов, added 2026-09-01, Round 5)
+
+[source: [[_Sources/YT_4ZjCbDRhfNM_krasnov_please_buy_these_6things|4ZjCbDRhfNM]]]
+
+- **⚠️ Mirror-opposite-window placement rule — a specific, new, well-reasoned addition to existing mirror-sizing content**: the single best mirror placement for maximizing perceived space and daylight is directly OPPOSITE a window — doubles the effective daylight reaching the room and visually doubles apparent space; specifically valuable in dark rooms or rooms with persistent dark corners.
+- **⚠️ Curtain drop-height rule, with a style-dependent distinction — extends the puddle-measurement content from Round 3**: minimum curtain drop is **280cm** so fabric falls/drapes properly rather than reading as a short "stump." In CLASSICAL interiors, a small puddle/break on the floor is acceptable/desirable; in MODERN/contemporary styles, curtains should land exactly at floor length with no puddle. Cross-reference [[17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware|Curtain Sizing, Mounting & Hardware]]'s existing ~1-3cm puddle-break figure — this adds the minimum drop height and the classical-vs-modern distinction, not a contradiction.
+
+`single-account`, `unverified`.
+
 ## Decorative Arches — Proportion Mismatch in Low-Ceilinged Apartments (Игорь Краснов, added 2026-09-01, Round 3)
 
 [source: [[_Sources/YT_gbOoH1oV4Hk_krasnov_interiors_age_badly|gbOoH1oV4Hk]]]

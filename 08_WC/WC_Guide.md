@@ -149,6 +149,18 @@ brand-specific, region unresolved. [source: [[_Sources/YT_zZ_1iOXL_wA_petrishin_
 
 Masonry vent-duct sizing (140×140mm brick shaft, ~270cm intake height, roof-only termination, booster-fan-is-odor-only-not-forced-ventilation) from this same source is routed to [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Engineering: Fresh-Air Ventilation & Ducting]] rather than duplicated here.
 
+## 4d. Over-Decoration in a Small WC — a Style-Critique Cluster (Игорь Краснов, added 2026-09-01, Round 5)
+
+A real-listing critique format (not this studio's own project) supplies a cluster of small-WC over-decoration findings this page previously lacked, plus a genuine functional gap independent of style. [source: [[_Sources/YT_Pqc19izKNXI_krasnov_dont_do_classic_interior|Pqc19izKNXI]]]
+
+- A crystal chandelier in a small WC/toilet room flagged as excessive for the room's scale.
+- A heavily gilded, ornately-moulded mirror with candle-holder details flagged as too "dressed up" for a small utilitarian room.
+- Framed art/engravings in gilt frames flagged as belonging in a living room, not stacked in quantity in a small WC.
+- Heavy decorative moulding trim in a narrow WC specifically flagged as visually elongating the room further, worsening a "train-car"/corridor-like feel rather than helping — a specific interaction between decorative choice and a WC's already-narrow proportions.
+- **⚠️ Explicitly flags this specific WC's total lack of storage (no shelves, no cabinet) as a real functional gap independent of any style choice** — worth weighing against this page's own §2a/§4a storage-cabinet-around-the-installation-frame content above: a WC with genuinely no storage plan at all is a distinct, more basic failure than getting the storage box's proportions wrong.
+
+`single-account`, `unverified`.
+
 ## 5. Quick Reference
 
 See [[08_WC/analysis/Dos_and_Donts|the companion Do's and Don'ts table]] for the sourced rule/reason/risk format shared across this vault's room pages.

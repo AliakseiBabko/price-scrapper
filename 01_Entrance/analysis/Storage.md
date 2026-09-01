@@ -170,6 +170,17 @@ wall space alone:
 
 **Hide shoes behind closed cabinet doors** (not an open shelf/rack — described as visually chaotic with mismatched shoe shapes/sizes) **and combine with underfloor heating across the entryway/hallway zone**, including running the heated floor **under a "floating" (wall-bracket-mounted) shoe cabinet** so shoes stored beneath sit on a warm floor rather than a cold one — addresses the specific climate problem of shoes arriving wet/cold/snow-covered for most of the year. Requires detailed coordination with the cabinet manufacturer at design stage (bracket engineering, floor-heating layout) rather than an afterthought. **Complements this page's existing robot-vacuum-compatible raised-shelf note above** (Kruglov, `qt5mQQ6W6Z4`/`iEm_mwCJpfA`) — both raise the shoe storage off the main floor, but for different reasons (robot-vacuum clearance vs. heated-floor warmth) and via different mechanisms (a fixed ~10cm platform vs. a full floating cabinet on brackets). `single-account`, `unverified`. [source: [[_Sources/YT_6ttTd82TWPM_krasnov_closets_wasting_space|6ttTd82TWPM]]]
 
+## Switch Placement, Wardrobe Depth, Mirrored-Door Fingerprints, and Flooring (Игорь Краснов, added 2026-09-01, Round 5)
+
+A comparative-methodology format applied to a real project photo, with genuinely new entryway-specific content this vault likely under-covers. [source: [[_Sources/YT_u4yj6dD01aE_krasnov_expensive_vs_cheap_renovation|u4yj6dD01aE]]]
+
+- **⚠️ Entryway light-switch placement rule — a specific, checkable, genuinely new electrical-planning standard**: the switch should be positioned on the door-HANDLE side (the door's opening edge), not the hinge side.
+- **⚠️ Mirrored sliding-closet-door fingerprint issue**: if a sliding closet door has no visible pull handle and must be opened by pressing directly on its mirrored surface, fingerprints/smudges accumulate constantly on the mirror — a real functional flaw distinct from pure aesthetics, worth weighing when specifying a handleless mirrored-door wardrobe (compare the existing flush/handleless entry-storage doors already on this page from GRADIZ INTERIOR above, which don't carry a mirror surface and so don't have this specific problem).
+- **⚠️ Entryway wardrobe minimum depth — a specific, new numeric standard**: minimum **60cm depth**; a narrower 50cm depth forces bulky winter clothing to be crammed/stuffed rather than hung properly. Compare against this page's existing GRADIZ figures above (35cm for a shoe cabinet, 60cm for a separate outerwear closet) — this independently converges on the same 60cm figure for hanging outerwear storage specifically.
+- **Entryway/hallway flooring material reinforcement**: porcelain tile or stone-look tile remains the best choice over wood specifically for entryways, because even the hardest wood species is more susceptible to mechanical wear than stone in a high-traffic entry zone, and any material's joints/grout lines accumulate dirt regardless — reinforces existing material-durability logic, applied specifically to entryways.
+
+`single-account`, `unverified`.
+
 ## Security / Smart-Home (Kruglov)
 
 - A video door intercom or peephole camera; a door-open sensor integrated
