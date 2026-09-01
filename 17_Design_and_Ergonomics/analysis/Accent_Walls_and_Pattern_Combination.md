@@ -96,3 +96,28 @@ From a 92-minute seminar. **`promotional_ratio: medium`** — it was hosted in t
 - **Patterns of differing scale combine well** — the corollary of the hierarchy rule — and **a rug is the device that binds a group of heterogeneous items together.**
 - **Kelly Wearstler as the instructive counter-case**: interiors that read as whimsical and capricious turn out to be **built almost mathematically**, with a **light pattern on a dark ground deliberately paired against a dark pattern on a light ground** and a clear main/secondary/tertiary ranking under the apparent chaos.
 - **Her own estimate of where the work sits**: "треть работы дизайнера — это работа с сочетанием различных орнаментов и фактур," the remainder being client communication and drawings.
+
+## Two Colours on One Wall, and Colour Zoning That Fails (Надежда Кузина, added 2026-09-01, Round 4)
+
+### ⚠️ Two colours on one wall — the proportion and the collisions
+
+Scoped to two colours; **three or more belongs to art painting.** [source: [[_Sources/YT_lptrnXyf0as_kuzina_two_colours_one_wall|lptrnXyf0as]]]
+
+**The objection she starts from is cultural**: schools and hospitals painted the lower wall green and the upper white, so clients refuse it. **⚠️ Her reframe: private homes increasingly borrow devices from bars and restaurants, and this is one — read the same wall as "мы сидим за барной стойкой" rather than as a school corridor and it changes register entirely.** The device is unchanged; only the reference is.
+
+- **⚠️ Divide one third to two thirds, justified by the golden section** — hedged honestly as not the only ideal, but the proportion your eye meets constantly. **Either direction**, and the upper third can flow onto the ceiling.
+- **⚠️ The collision rules are the load-bearing part. The boundary must NOT coincide with the top of the doors** — lower it rather than raising the doors. **Worked: with a 2100 door, run the boundary at roughly 1800 from finished floor.** **⚠️ Nor with low furniture standing along the wall.**
+- **⚠️ Where tall furniture crosses the boundary, paint the furniture in the two colours too — you dissolve it into the wall plane.** Best for built-in furniture already in the wall plane, but it also works for a freestanding buffet standing in front of it.
+- **Three colour schemes**: **darker below and lighter above** — grounds the interior at the bottom while the top reads airier; **two different colours at the same lightness** (light green with light blue), **checkable by photographing it, when the wall should read almost uniformly grey**; or **one colour split into a darker, more saturated part and a lighter one.**
+- **⚠️ Scope: all walls round the room or just one — but dividing a SHORT wall reads more harmoniously than a long one. Her named bad case: 3 m ceilings and a 5 m wall divided horizontally.**
+- **Materials beyond paint-on-paint**: wallpaper above with paint below; **wallpaper above with darker paint below carried onto the skirting and doors**; wall panels below matched to the wallpaper; or tile. **⚠️ With tile or panels always resolve the edge («кромка»). ⚠️ With wallpaper against paint, separate the zones with a moulding — so the cut edge is hidden and cannot peel.**
+
+### ⚠️ Colour zoning that fails, and the unsupported-zone rule
+
+Zoning here means dividing one large space into functional zones. **⚠️ It usually collapses into different wall colours plus an accent wall, and she advises against that — dividing a wall into colour sections that line up with the zones is hard.** [source: [[_Sources/YT_ocoPRS3d8sA_kuzina_colour_mistakes|ocoPRS3d8sA]]]
+
+**On accent walls she is measured rather than absolute: "не очень в тренде… не могу сказать, что это прямо табу," but not fashionable either.**
+
+**⚠️ The worked failure and its diagnosis**: a yellow patch at the back of a space, closable behind curtains — **and you want to close them, because the yellow is supported nowhere else.** It would need a yellow sofa, or yellow accents, or yellow inside a cabinet. **Her verdict, which she flags as surprising herself: "лучше бы он просто был бежевым, чем бежевым с такой жёлтой зоной, которая не поддержана ничем."**
+
+> **⚠️ An unsupported colour zone is worse than no colour at all.** That is the sharpest form of the colour-support principle on these pages, and it applies to any accent, not only a zoning one.

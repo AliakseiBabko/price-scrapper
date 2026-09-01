@@ -115,3 +115,13 @@ From her source on what to carry over from an old flat, but it is a general sele
 - **⚠️ Her standing practice, stated as how her studio actually works and directly adoptable: samples of cushions and curtains are always tried at the client's, never judged in the salon** — because the salon is not where it will hang. Same failure mode as this page's existing in-store sample cautions.
 
 <!-- Moved verbatim from 17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md on 2026-09-01, where a full curtain rule set had been filed on a finishes page. -->
+
+## ⚠️ The 60/30/10 Formula on This Page Is Contested (added 2026-09-01)
+
+The 60/30/10 formula recorded above is stated independently by several of this page's sources, which is why it reads as settled. **It is not.**
+
+**Надежда Кузина argues it cannot be checked at all** — she counts what is actually present in the images used to demonstrate it and finds white ceilings, gold fittings, black window framing and marble that no one assigns to any of the three shares, concluding *"совершенно непонятно, как можно считать пропорцию в таком помещении."* **She also notes the rule has no answer to what counts as a colour, and that neutrals are counted or not depending on whether the author needs three.**
+
+**The full disagreement, her more operational statement of the rule itself, and the alternative she offers (a bank-hierarchy model of colour proportion) are on [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]].** [source: [[_Sources/YT_GEBJkzYd874_kuzina_60_30_10_rule_rebuttal|GEBJkzYd874]]]
+
+**Keep using the formula here as the sources on this page state it** — it is a reasonable starting heuristic for textile, where the areas genuinely are countable. **Just do not treat it as verified because it is repeated.**

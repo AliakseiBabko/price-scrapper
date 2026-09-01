@@ -275,3 +275,35 @@ The satirical companion to the block above — she reverse-engineered the recipe
 Cushions on the sofa pick up the chair colour when both share a space. The sofa itself is occasionally coloured — usually pale blue, sometimes a barely-readable dusty pink or green. If a coloured headboard wall is too much, put the colour in part of the bedspread or a throw instead.
 
 **Her closing concession, which keeps this honest**: *"типовой проект не значит плохой"* — the designer producing it is serving the request the majority actually has. She then reopens the question she started with: she said there is no style, but a style *is* a set of shared traits, and these interiors share a great many.
+
+## Single-Colour Interiors, Dark Colours, and a Settled Position on Generic Results (Надежда Кузина, added 2026-09-01, Round 4)
+
+### ⚠️ Building an interior on shades of one colour
+
+Articles argue both ways with equal zeal; she gives both sides. [source: [[_Sources/YT_yU2zKPpDghM_kuzina_colour_difficulties|yU2zKPpDghM]]]
+
+- **For**: the interior gains wholeness, **and you stop having to think about combinability.**
+- **Against**: it becomes more predictable, **and must be carried on nuance, which is harder.**
+- **⚠️ Two scale limits**: large interiors are very rarely done in one colour, and **one colour per *room* makes a project fall apart — "каждая комната в доме в оттенках своего цвета — это довольно странно."**
+- **Worked historical examples**: **David Hicks** (a living room in reds with a little gold) — **⚠️ and the observation that "ограниченная но яркая палитра даёт больше возможности для работы с орнаментом и для работы с фактурой"**; **Diana Vreeland's «Garden of Hell» by Billy Baldwin**, where **one *ornament* repeats on the walls and in the sofa upholstery**, not merely one colour; **Mark Hampton**, a whole house on one light blue with the ornaments varying — **which she flags as rare.** One restaurant she finds hard going because **her eye cannot find a focal point among repeating green upholsteries** — **but names the compensation: with colour so limited you are forced to look harder at detail.**
+- **⚠️ Her rule for doing it properly: do NOT take one hue and vary it only by adding white — moving straight down one column of the fan deck is "скучновато." Move horizontally instead: mix two different shades that are both, say, reddish. The formula: one colour + white/black/grey, OR several close colours at the same saturation.**
+
+### ⚠️ Do not reject dark colours reflexively
+
+**The stereotype is that dark colours narrow a space and eat light. Sometimes true — "но далеко не все пространства нуждаются в том, чтобы их расширяли, и не все пространства должны быть светлыми."** **⚠️ Dark colours often read richer, dressier and more original; they lend mystery, can dissolve boundaries and can give depth.** [source: [[_Sources/YT_ocoPRS3d8sA_kuzina_colour_mistakes|ocoPRS3d8sA]]]
+
+*This strengthens her side of this page's existing Perspectives block on whether a dark room should be painted light or dark.* **Its counterweight, from the same source: many people start with beige walls and finish with beige — the bright colours never appear at all, "что конечно тоже не хорошо."**
+
+### ⚠️ Converging on the generic — now a settled position, stated three times from three directions
+
+**This page already records her complaint that following the received advice produces interiors "под копирку" — from small flats, and again from daylight. Round 4 supplies a third instance, from the neutral-base-plus-one-colour technique**, whose cost she names as *"а всё остальное такое беленькое, серенькое, бежевенькое и нейтральненькое."* [source: [[_Sources/YT_GEBJkzYd874_kuzina_60_30_10_rule_rebuttal|GEBJkzYd874]]]
+
+**Three independent starting points reaching the same complaint should be treated as a settled position of hers rather than as three observations** — and the position is: **the standard advice is individually sound and collectively converges on one interior.**
+
+### Room purpose — the failures that are physical rather than psychological
+
+**She calls per-hue colour psychology "лже-наука"** *(consistent with this vault's existing Perspectives block where she is the sceptic)*, and relativises the warm-for-daytime / cool-for-private stereotypes — **a pinkish bedroom instead of an olive one is not thereby bad.** **⚠️ But three purpose-bound constraints do bind, and they are optical:** [source: [[_Sources/YT_ocoPRS3d8sA_kuzina_colour_mistakes|ocoPRS3d8sA]]]
+
+- **A fuchsia bedroom wall is especially bad in a bedroom** because such colours *сильно будоражат*.
+- **⚠️ Where makeup is applied, over-bright colours throw colour reflexes onto the face.**
+- **⚠️ Where people concentrate, work or read, bright colours distract and throw reflexes onto light surfaces.**

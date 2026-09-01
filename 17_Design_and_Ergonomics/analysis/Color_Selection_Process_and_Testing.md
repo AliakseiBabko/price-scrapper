@@ -263,3 +263,87 @@ Her attached warning about why publishing such advice is actively harmful: **"л
 
 [source: [[_Sources/YT_AFBu0Uv-47U_shevrina_bad_designer_kickbacks|YT_AFBu0Uv-47U]]]
 
+## A Complete Working Method for Choosing Paint (Надежда Кузина, added 2026-09-01, Round 4)
+
+**⚠️ The most executable content routed to this page.** Four sources from one round; the paint-selection source is a full procedure rather than a set of principles, and it becomes this page's backbone.
+
+### Why in-store advice never answers the question
+
+**Salespeople are usually competent but never recommend a specific colour in the abstract — "потому что если вам вдруг потом не понравится этот цвет на стене, то им будут выслушивать ваши претензии."** So they talk about opacity, consumption, application and storage instead. **The advice is real; it is simply never about the decision.** [source: [[_Sources/YT_pFCVO7AuSMw_kuzina_choosing_wall_paint|pFCVO7AuSMw]]]
+
+### Before the shop
+
+- **Fix the effect you want from the whole interior first** — wall colour strongly affects the mood of the entire space. Decide the broad class: neutral or bright, light or dark.
+- **⚠️ Better: arrive with an abstract colour *name* already fixed** — *"это должен быть лиловый интерьер"* — so you look only at lilacs and stop registering the rest.
+- **⚠️ Never select paint abstractly, and never start material selection with paint. Bring a floor sample, and ideally the door colours. Choose the specific option together with the paint.** [source: [[_Sources/YT_pFCVO7AuSMw_kuzina_choosing_wall_paint|pFCVO7AuSMw]]]
+- **⚠️ The sequencing rule stated in full from a second source: on site walls are finished first and furniture arrives later, but in *design* the order inverts — furniture, upholstery, finishes and rugs FIRST, wall paint LAST. The reason is supply-side: "спектр вариантов краски для стен всегда будет больше, чем любой набор обивок."** Paint is the most freely matchable element, so it should absorb the constraint. [source: [[_Sources/YT_ocoPRS3d8sA_kuzina_colour_mistakes|ocoPRS3d8sA]]]
+
+### ⚠️ Choose a supplier with FEWER colours
+
+- The only case where thousands help is an exact match to something you already own — **and then the choice is not hard, because you know what you want.**
+- **Otherwise prefer a small palette, "потому что глаза не так разбегаются."** Her working catalogues run **156** and **~160** colours and she calls that ample; if something is genuinely missing, move to the next supplier and close the question.
+- **⚠️ The reason is physiological — the eye tires of colour as other senses tire under load.** Her analogy: by the fourth perfume you have stopped smelling anything.
+- **⚠️ The scheduling consequence for a whole flat: look at the colours for ALL rooms in one session.** One room per visit across several days **does not work.** **The method: look at everything and shortlist, come back the next day, take a break, return and look again — "иначе глаз замыливается очень быстро."**
+
+### ⚠️ The order of choosing, and how many samples
+
+- **If the main colour (the one covering most area) is pronounced: choose it first, then the accents.**
+- **⚠️ If the main colour is neutral and should recede as far as possible: choose the bright accents FIRST and fit the background to them.**
+- **⚠️ Order three shades, not one — the chosen paint plus the tones one step lighter and one step darker. At home the paint can look nothing like it did in the shop, and choosing from a *set* pins it down.** **Three variants for every colour you need**, including the moulding if that is different again.
+
+### ⚠️ The tester procedure
+
+**Never choose from the fan deck** — a small chip cannot tell you how a wall reads at scale.
+
+- **Paint testers onto hardboard or plasterboard**, or onto a piece of the paintable wallpaper if that is what goes up.
+- **⚠️ No smaller than A3** — below that you lose the sense of the colour's brightness.
+- **⚠️ Do NOT paint testers on the wall. They must be mobile so you can carry them round the room.**
+- **⚠️ Never leave a margin of white paper or backing showing around the paint — especially the green face of plasterboard. It strongly distorts perception.**
+
+**Where to hold each tester:** at **ceiling level** (**and on the ceiling itself if the paint runs up there — the colour reads much darker there**); at **eye level**; at **floor level**, **since the floors are often already laid by this point, so you can check the interaction directly**; on **the wall opposite the window**; on **the side walls**; and **in shadow** — under the window and in corners. **⚠️ That last one especially for a near-white with an undertone: a faintly greenish tint shows up most in the corners.** [source: [[_Sources/YT_pFCVO7AuSMw_kuzina_choosing_wall_paint|pFCVO7AuSMw]]]
+
+### ⚠️ Ignoring accidental context
+
+- **We perceive colour inside a context, and it will not be the context of your interior.** **Her proof: Photoshop and other graphics programs use a grey background specifically so it does not interfere with perception.**
+- Worked: a grey among lilacs and aubergines reads as having pink in it. **Alone it may not — and in a room with an orange armchair against grey walls the orange may cancel the pink entirely.**
+- **⚠️ So look at one colour at a time**: carry a single chip, or **cut a hole in a sheet of paper and look through it.** **The flaw: white paper is itself very bright, and a white like paper practically never occurs in an interior** — one manufacturer's viewing card is deliberately neutral beige instead.
+- **⚠️ The same problem on site: pre-painting walls are white gypsum filler, and against that background neutrals look far dirtier than they will once the white is gone.**
+
+### ⚠️ Testing under real light
+
+- **"Даже один цвет в разном освещении может дать гораздо больше разницы в тоне, чем два соседних цвета."** Agonising in the shop between two near-identical colours is the wrong problem.
+- **⚠️ Test in the room that will be painted** — a west-facing and a north-facing room have different light. Do not judge every tester in the living room.
+- **⚠️ And at different times of day.** Weather matters too; **some rooms change by season** — a tree outside a window throws green reflexes in summer and none in winter. **Nobody waits for the seasons, but check the times of day.**
+- **⚠️ The artificial-light problem, and the best fix in the source: on site there is usually a builder's bulb of unknown colour temperature. Use a variable-temperature LED panel — the common photographer's product — set to the temperature your lighting will actually be, e.g. 3000 K, and hold it to the sample.** Dedicated sample-testing lamps exist, and some manufacturers supply **three-dimensional room samples** showing the paint opposite the window, on side walls and on the ceiling.
+- **⚠️ Reflexes: neighbouring surfaces reflect light onto the paint too** — most relevant for whitish, greyish and light neutrals.
+
+### ⚠️ Three procedural rules from the mistakes source
+
+[source: [[_Sources/YT_ocoPRS3d8sA_kuzina_colour_mistakes|ocoPRS3d8sA]]]
+
+- **⚠️ The A3 trap, stated from the other direction: A3 is not large relative to a room, so impressions still differ once the whole room is painted.** She says this is normal — **some designers repaint several times.** **The fix: buy the paint slightly less bright than the result you want.** *(Read together with the A3 minimum above: A3 is the floor, not the target.)*
+- **⚠️ Never choose colour from memory.** Her worked case goes to buy upholstery without bringing the wallpaper. **She runs a live test — memorise a palette, then identify it a minute later among four similar options.** *"А если бы прошёл день? А если бы прошла неделя?"*
+- **⚠️ Never rely on a colour's name.** «Песочный» wallpaper and a «Песочная» paint swatch are not the same sand. **"Люди, которые придумывают эти названия, придумывают их просто вот так, потому что им надо придумать по 50 названий в день."** **"Названия лучше не читать."**
+
+### ⚠️ The greyscale photograph — her standard working check
+
+**Recorded once here because it recurs across three separate sources in this round, used for three different purposes:**
+
+| Purpose | Source |
+| :--- | :--- |
+| **Verify a colourless scheme has tonal structure** — it must not read as one grey amorphous mush; you should easily pick out dark, mid and light parts, **and they must not be equal in scale** (an all-dark floor with everything else white will not work) | [source: [[_Sources/YT_ubB1GSFtN20_kuzina_afraid_of_colour|ubB1GSFtN20]]] |
+| **Verify shared lightness before mixing warm and cold** — no very bright or very dark patches | [source: [[_Sources/YT_yU2zKPpDghM_kuzina_colour_difficulties|yU2zKPpDghM]]] |
+| **Verify two colours are genuinely the same lightness** on a two-tone wall — photographed, it should read almost uniformly grey | [source: [[_Sources/YT_lptrnXyf0as_kuzina_two_colours_one_wall|lptrnXyf0as]]] |
+
+### ⚠️ Adding colour when you are afraid of it — a low-commitment ladder
+
+**The client reasoning she is answering is a *cost* fear**: *"эксперименты — это дорого, поэтому если мы промахнёмся с цветом, потом придётся всё переделывать. Ну нафиг, сделаем всё нейтрально."* **And the tension: the same people do not want a faceless hotel interior.** [source: [[_Sources/YT_ubB1GSFtN20_kuzina_afraid_of_colour|ubB1GSFtN20]]]
+
+1. **Neutral ground with bright accents** — cushions, **coloured piping on curtains and bedspreads, cords, tassels, tiebacks**, coloured lampshades or lamp bases. **⚠️ But an all-beige room with only pink tiebacks looks strange — there must be several such objects.** **⚠️ Choose the coloured items to be the cheap, replaceable ones — that is the direct answer to the cost fear.**
+2. **⚠️ Colour dosed into details**: paint the **window reveal**; paint the **end panels of cabinets** while fronts stay neutral; a chair with neutral seat and **bright legs**; a wardrobe with neutral fronts but bright **interior or handles**.
+3. **When braver: coloured cornice and skirting** — **but mind how the skirting relates to the door; architraves and skirting are usually one colour, and the door can stay neutral.**
+4. **⚠️ «Скрытый цвет» — hidden colour**: behind cabinet doors, inside drawers, or **as a lining on the reverse of a curtain or a folded-back bedspread.**
+
+**Then add gradually** — if the bright handles worked, change the curtains next.
+
+**⚠️ Limit the palette so combination cannot fail: use nuance combinations, colours adjacent on the wheel**, where the chance of clashing is low — greens with blues, several shades of blue alone, oranges with yellow and brown elements. **⚠️ And match the neutral base's temperature against the accents: cool accents → a slightly warmer beige; warm accents → a slightly cooler beige, or a cool grey instead.** **⚠️ Put the bolder experiments in transit zones**, where the colour has less chance to tire you.

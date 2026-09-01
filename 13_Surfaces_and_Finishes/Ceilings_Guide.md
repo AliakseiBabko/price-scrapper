@@ -484,3 +484,20 @@ That line is what defines the wall's height, so the goal is a radius at the wall
 She closes on a room stacking five techniques at once: **ceiling and wall one colour; ceiling glossy; a small distance above the window so the window visually continues into the ceiling; curtains and their fixing hidden in a niche so the fabric reads unbroken to the ceiling and reflects upward** — "комната кажется просто в два раза выше, чем она есть на самом деле" — **plus bright colour spots distributed around the room to pull attention off the junction.**
 
 **All of these also work as purely decorative devices where the ceiling is adequate**, to add air — they are not only remedial.
+
+## ⚠️ The Ceiling as the Fifth Wall — Colour (Надежда Кузина, added 2026-09-01)
+
+**People forget a ceiling can be anything other than white**, and she treats the choice as genuinely open. [source: [[_Sources/YT_yU2zKPpDghM_kuzina_colour_difficulties|yU2zKPpDghM]]]
+
+| | |
+| :--- | :--- |
+| **For** | **A ceiling in the same colour as the walls visually increases room height** |
+| **For** | **A bright ceiling irritates the eye less than a bright accent wall does** |
+| **Against** | **A bright ceiling with walls of a different colour visually lowers the ceiling** |
+| **Against** | **⚠️ A coloured ceiling can throw an unplanned reflex** — a white room with a bright pink ceiling gives all the white furniture pink tones. **Fine if intended; a problem if not** |
+
+**⚠️ Neither choice is a mistake** — there are good interiors both ways. **"К потолку следует относиться как к пятой стене."** The point is to know the ceiling has a colour and that it is yours to choose.
+
+> **⚠️ Read against the convention recorded from the same practitioner elsewhere.** Her reverse-engineering of the mainstream Russian design project states the opposite as a rule: *ceiling always flat and white, no coloured ceilings, no level changes.* **The two are consistent — that source describes what the market does, this one argues against treating it as a constraint — but the pair should be read together before specifying.**
+
+**A related test from the same round**: if the paint will run onto the cornice or the ceiling, **test the sample on the ceiling too — the colour reads much darker there than on the wall.** [source: [[_Sources/YT_pFCVO7AuSMw_kuzina_choosing_wall_paint|pFCVO7AuSMw]]]

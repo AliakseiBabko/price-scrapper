@@ -295,3 +295,46 @@ Except locally and deliberately — a headboard, in genuinely good paper with pr
 **⚠️ Myth corrected: wallpaper does not hide cracks — it accentuates them.** A settling building cracks, and wallpaper draws the eye straight to those places. On reinforcing mesh as an answer she is dismissive: for real cracks it is "как пластырь на дыру в асфальте."
 
 [source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
+
+## Paint Specification — Technical Characteristics, Gloss, and Two Buying Traps (Надежда Кузина, added 2026-09-01, Round 4)
+
+The *selection* method is on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]]; what belongs here is what to specify. [source: [[_Sources/YT_pFCVO7AuSMw_kuzina_choosing_wall_paint|pFCVO7AuSMw]]]
+
+### The characteristics to check
+
+- **Укрывистость (opacity)** — how many coats to cover the wall.
+- **Фактурность** — grain: sand particles, fibres.
+- **Washability** — whether, how much, and whether it suits wet rooms.
+- **⚠️ LRV (light reflectance value) — how much the paint reflects light.** **"Если ваша задача сделать комнату как можно светлее"** and you are choosing between two light paints, **LRV can be the deciding argument.** A concrete, checkable spec for the daylight problem.
+- **Fade resistance — and it can vary between shades from the same manufacturer.**
+- **⚠️ Adhesion.** Cheaper paint can fade faster and flake; **more expensive paint is more flexible, so if the building settles, cracks may appear less quickly than on cheap paint.** A durability argument for the upgrade, not an aesthetic one.
+- **Composition and health.** Interiors are mostly water-emulsion; **oil-based paints can smell and emit harmful substances.** Brands she names as interior-appropriate and safe: **Little Greene, Farrow & Ball, Sherwin-Williams, Benjamin Moore.**
+
+### ⚠️ Light paint is more practical than dark — and the reason is structural
+
+**Under the paint there is always a light base** — light paintable wallpaper, or a prepared wall. **So a chip or a crack is far less noticeable on a light surface than on a dark one.**
+
+### ⚠️ The gloss ladder
+
+| Level | Use |
+| :--- | :--- |
+| **~5% — plain matte, the default you are given** | Ordinary living interiors: living room, bedroom |
+| **⚠️ ~15% — eggshell** | **The more gloss, the more latex in the composition, so it resists moisture and other impacts better and washes more easily.** She specifies it for **a balcony or a tambour** — significant temperature swings, but still interior |
+| **80–90% gloss** | **Very much a matter of taste; not for classic. Possibly Art Deco or a 1960s–70s revival** |
+
+**⚠️ Before specifying high gloss, ask whether you want it on the *wall* at all, or would rather have it on another plane — furniture, say.**
+
+**⚠️ Two traps within a single manufacturer's range:**
+
+1. **Dark and light paints have different gloss parameters even when sold in the same category.** Both may be labelled matte or super-matte, **yet the dark version can be glossier.** Check rather than assume.
+2. **The same manufacturer and the same colour can be supplied at different gloss levels on request** — so the sheen is a separate order line, not a property of the colour.
+
+### ⚠️ Sheen as a design device, not just a spec
+
+**From a second source in the same round: you can leave the colour alone and change the sheen instead — super-matte walls with eggshell architectural details. That alone gives extra volume and interest.** [source: [[_Sources/YT_I-F2ULBDc5A_kuzina_trim_and_moulding_colour|I-F2ULBDc5A]]]
+
+*(The ~15% eggshell category is ASR-garbled differently in both sources — «action» in one, «excel» in the other — which together make eggshell the confident reading. Recorded because neither source alone would support naming it.)*
+
+### ⚠️ Wallpaper meeting paint on the same wall
+
+**Where a wall is divided horizontally between wallpaper above and paint below, separate the two zones with a moulding.** Two practical reasons: **you do not see the wallpaper's cut edge, and it cannot start to peel.** The full two-colour-wall technique, including the proportion and the boundary-collision rules, is on [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]]. [source: [[_Sources/YT_lptrnXyf0as_kuzina_two_colours_one_wall|lptrnXyf0as]]]

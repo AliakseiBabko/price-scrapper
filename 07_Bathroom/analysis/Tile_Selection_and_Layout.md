@@ -229,3 +229,16 @@ Laconic, much empty space, flat fronts, integrated handles, minimal decor. Histo
 - **Terrazzo** — poured concrete with marble, stone and glass chips; ancient Greece → Venice → USSR. **⚠️ Practical trick: take one of the chip colours as the room's paint colour or companion tile** — a ready-made palette source.
 - **⚠️ Concrete-effect reads rough — pair it with refined materials (gloss, glass, thin edges). Add anything further that is rough and you land in Loft.**
 - Ornament possible but **graphic and geometric, so the rhythm reads easily.**
+
+## ⚠️ Where a Tile-to-Paint Horizontal Boundary Should Land (Надежда Кузина, added 2026-09-01)
+
+The general two-colour-wall technique is on [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]]; **the bathroom case carries dimensions and is a layout constraint rather than a colour decision.** [source: [[_Sources/YT_lptrnXyf0as_kuzina_two_colours_one_wall|lptrnXyf0as]]]
+
+The arrangement is common — **tile below, and increasingly wallpaper or paint above** — divided at roughly one third to two thirds. **Two collisions to plan around:**
+
+- **⚠️ The lower boundary must not land at the basin height. Worked: a basin at 800, plus roughly 200 of splashback above it, puts the boundary at about 1000 from finished floor.**
+- **⚠️ The gap between basin and mirror is usually small. Where the division carries a depth change between tile and paint, or a moulding, that detail must end up *under* the mirror — so bring the mirror down as close as possible to the boundary.**
+
+**⚠️ And her statement of what the drawing stage is for, which is unusually concrete**: *"именно для этого вы нанимаете дизайнера, который может на развёртке, на чертеже перепроверить пропорции"* — mirror size, vanity size, where the boundary runs, and whether the three land together.
+
+**Also**: with tile or wall panels meeting another material, **always resolve the edge («кромка») — how the end of the material is closed.**
