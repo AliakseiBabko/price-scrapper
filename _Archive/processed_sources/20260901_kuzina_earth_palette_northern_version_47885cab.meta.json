@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=IBecn-3_7Ls",
+  "video_id": "IBecn-3_7Ls",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T10:03:35.607192+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "47885caba24a39682525b05bae7810b6633562998f826a4574e495137adc0afa",
+  "attempts_before_success": []
+}

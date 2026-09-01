@@ -148,3 +148,19 @@ The tile section above states the rule for finishes; this states it for objects 
 **A picture (or any object) that does not suit the style can still be brought — but only if you commit to eclecticism deliberately, from the start.** The failure is never the mixture; it is carrying the object across *by default* and then discovering the scheme has become eclectic without anyone deciding it should be. **As with tile, the mislabelling is what does the damage, because the label drives every subsequent decision.**
 
 **And the corollary this source adds**, which the tile source does not: an object carried over that suited the *old* interior is not thereby suitable. **It was good in a context you are demolishing.** Coherence is a property of the whole, so it does not survive being moved a piece at a time.
+
+## ⚠️ The Musical — Why Rooms Need Not Share a Colour or Even a Palette (Надежда Кузина, added 2026-09-01)
+
+**A more permissive and more precise statement of this page's existing "related, not identical" method, from a different practitioner.** Her framing is that **choosing colours room by room is a mistake — the palette must be treated as a single whole** — but her account of what "whole" requires is looser than the rule it replaces. [source: [[_Sources/YT_ocoPRS3d8sA_kuzina_colour_mistakes|ocoPRS3d8sA]]]
+
+**The analogy**: in a musical, verses fit choruses within a song; **the songs are ordered into a plot**; all are stylised to a period; the characters dress to match and sing in one key; **a motif recurs from song to song — a reprise; and the cast is limited, so the same voices return.** That is what makes the work whole.
+
+**⚠️ The consequence: you need NOT repeat one colour from room to room** — not everyone in a musical sings bass — **and you need not even hold one palette. It is enough that the colours have something in common: one saturation, or one warmth.**
+
+**Worked positive example — designer Wesley Moon.** Pinkish, fuchsia and plum shades recur room to room; the living room is more restrained with more beiges, **but the beiges lean pink**; the owners' bedroom has a plum bedspread; the daughters' rooms are pink-dominant with others added, **and the ground is always a neutral pinkish beige.**
+
+**⚠️ The subtlest observation, and the one worth carrying**: in the same property, her study and his study use **similar shades but feel entirely different** — hers airy with the pink reading slightly frivolous, his more serious and more contrasting, **and the pinks do not read girly there because they are a saturated dark plum.** **The same hue family carries opposite registers depending on saturation and contrast** — which is what makes the shared-parameter approach workable across rooms with different characters.
+
+### A cross-room trim idea from the same round
+
+**⚠️ Repeat a colour from one room in the *architectural details* of another** — a blue sofa in the living room, and skirtings and cornices of the same blue in the adjoining kitchen or corridor. She calls it *"очень крутая тема."* **It is a coherence device that costs almost no area.** [source: [[_Sources/YT_I-F2ULBDc5A_kuzina_trim_and_moulding_colour|I-F2ULBDc5A]]]

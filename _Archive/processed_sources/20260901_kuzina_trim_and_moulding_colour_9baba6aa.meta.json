@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=I-F2ULBDc5A",
+  "video_id": "I-F2ULBDc5A",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T10:03:13.999155+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "9baba6aa3ad2adca35a2fb4ba7b151dd8a1539ebfd895582ec1f84c7524237ab",
+  "attempts_before_success": []
+}

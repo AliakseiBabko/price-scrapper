@@ -257,3 +257,79 @@ the actual result when the round closes.
 - **What remains beyond Cluster 2**: four project showcases, three exhibition videos, three career videos and two trend listicles. Low priority.
 - **`f8-HNRq119g` stays excluded** — 58 s, no captions of any kind.
 - **ASR quality remains the binding constraint on pre-2022 uploads**, and Round 3 confirmed it twice: `H43m5bn7W8k` (2019) and `bVmE50y33Ls` (2020) were the two worst transcripts of the round. Deliberately not extracted: a long Vonnegut digression the speaker herself says does not transfer, one showroom name, and one lighting-fixture type recorded as-heard rather than guessed.
+
+## Round 4 — dispatched 2026-09-01
+
+**Opens Cluster 2 — the 19-video «Цвет в интерьере» series — but deliberately does NOT process all of it.**
+
+**⚠️ The value filter is the whole point of this round's selection.** The plan's own warning stands: the two colour videos already processed on 2026-08-30 yielded **6 and 8 facts**, against round averages of 19.6, 20.1 and 21.6. Processing 19 colour videos on that basis would be the single worst use of a round in this channel's history. **Eight were promoted; eleven were deferred with reasons.**
+
+**The selection rule applied — the one three rounds of evidence support**: this channel's best sources are **rebuttals and checklists**, not expositions. `E6nYBdz9NhM` (24), `gwa1wsTYYLE` (20) and `zrnhNEgk-Sk` (26) were all "here is the received advice, here is what is wrong with it." Its weakest have been theory. So Cluster 2 was split on that axis rather than on length.
+
+| # | Video | Len | Why promoted |
+| :--- | :--- | ---: | :--- |
+| 1 | `GEBJkzYd874` — what is wrong with the 60-30-10 rule | 12 min | **⚠️ Highest expected value in the round: a direct rebuttal of a rule this vault already records** as "a Shared 60/30/10 Formula" on the curtains pages, corroborated there by multiple sources. A named attack on existing vault content is worth more than new content |
+| 2 | `ocoPRS3d8sA` — colour mistakes | 31 min | Mistakes format, and the longest in the cluster |
+| 3 | `yU2zKPpDghM` — difficulties working with colour | 20 min | Problem-led rather than exposition-led |
+| 4 | `pFCVO7AuSMw` — choosing wall paint | 22 min | Practical; routes to `Wallpaper_and_Paint_Application` and `Color_Selection_Process_and_Testing` rather than to a colour-theory page |
+| 5 | `I-F2ULBDc5A` — what colour to paint skirting, mouldings and door trim | 18 min | **Routes outside `17_Design_and_Ergonomics` entirely**, to `13_Surfaces_and_Finishes` doors/trim — and this vault already carries a *case against* trims from this channel, so it may extend or complicate it |
+| 6 | `lptrnXyf0as` — two colours on one wall | 8 min | Concrete technique with a decidable answer |
+| 7 | `IBecn-3_7Ls` — a Russia-specific earth palette | 6 min | **The direct sequel to the already-processed `n5ZBqdq0wH8`**, and at 2026-08-06 the most recent upload processed from this channel |
+| 8 | `ubB1GSFtN20` — adding colour when you are afraid of it | 9 min | Addresses the actual client-side blocker, which is the format that produced her best material elsewhere |
+
+### ⚠️ Deferred, with reasons — eleven videos
+
+- **The three numbered theory videos** — `rMWkR7k6k-E` (Itten's wheel), `dcsM3cifn6U` (colour parameters), `Z4NlVTPX70I` (simultaneous contrast). **These are the ones most likely to restate what `Color_Harmony_and_Combination_Rules.md` already carries from several sources**, and colour theory is the one area of this vault where general reference material is already adequate. Reconsider only if Round 4 shows the applied videos depend on them.
+- **The six per-colour videos** — white `QHZZU5MF-8Q`, black `2FPgyQPT5QU`, grey `ZC8DDJY3lM8` and `sPiCm3xCS0w`, beige `bMtEzmP_k84`, pink `NouPlstU1mA`, green `OuJo8l3ux0M`. Seven videos, one hue each, on a channel whose colour content already underperforms. **If Round 4's yield holds up, take two of these as a probe rather than all seven.**
+- **`HENjGv0DGjI`** (colour block) — deferred as a likely overlap with `lptrnXyf0as` (two colours on one wall), which was promoted instead. Reconsider if that one turns out to be about something else.
+
+### What Round 4 is actually testing
+
+**Whether the 6-and-8 yield was the *cluster* or the *format*.** If the eight applied videos here come in near the channel average, the low yield was a format artefact and the per-colour videos are still worth a probe. **If they come in near 6–8 as well, Cluster 2 is genuinely thin and the channel should be closed** rather than ground through — which is what the Round 3 close-out already flagged as the likely stopping point. Either way this round answers it.
+
+## Round 4 — complete, 2026-09-01
+
+**Round 4 yield**: 8 videos processed, all FULL, **208 new facts, yield = 26.0 facts/video.** All 8 fetched cleanly in `ru`, zero rate-limit signatures.
+
+| Round | Cluster | Videos | Facts | Yield |
+| :--- | :--- | ---: | ---: | ---: |
+| 1 | Cluster 1 | 7 | 137 | 19.6 |
+| 2 | Cluster 1 | 8 | 161 | 20.1 |
+| 3 | Cluster 1 | 7 | 151 | 21.6 |
+| **4** | **Cluster 2 (applied subset)** | **8** | **208** | **26.0** |
+
+**Four rounds, yield rising every round, and Round 4 is the best by a clear margin.**
+
+### ⚠️ The question this round was designed to answer, and the answer
+
+**It asked whether the 6-and-8 yield from the two colour videos processed on 2026-08-30 was the *cluster* or the *format*.**
+
+**It was the format, decisively.** Eight applied and rebuttal videos from the same «Цвет в интерьере» cluster returned **26.0 facts/video against a channel average of 20.4** — the cluster is not thin, and the earlier low readings were two expository videos rather than a signal about colour.
+
+**The selection rule that produced this is now confirmed across four rounds and should be treated as settled for this channel: her rebuttals and checklists outperform her expositions, consistently and by a wide margin.** Round 4's two best sources are a *procedure* (`pFCVO7AuSMw`, 40) and a *mistakes digest* (`ocoPRS3d8sA`, 34); its weakest is the one pure essay (`IBecn-3_7Ls`, 14) — and even that earned its place on other grounds.
+
+### What Round 4 changed in the vault
+
+- **⚠️ A rule this vault recorded as settled is now contested, and correctly so.** The 60/30/10 formula sat on the curtain pages as a *shared* figure — independently stated by several sources, which is normally strong evidence. **`GEBJkzYd874` is the first source to attack it, and the attack is empirical rather than contrarian: she counts what is actually present in the rule's own illustrations and finds the proportion cannot be computed at all.** Now a Perspectives block on `Color_Harmony_and_Combination_Rules.md`, with a pointer left on the curtain page so a reader does not mistake repetition for verification.
+- **⚠️ And it was replaced, not merely demolished.** The **bank-hierarchy model** from `ocoPRS3d8sA` is the most complete answer this vault holds to "how much of each colour" — four tiers, four named failure modes, a tier-by-tier success reading, and **a proportion rule that directly answers 60/30/10: there are fewer bosses than staff, so do not divide the areas equally.**
+- **⚠️ One external validation was performed, and it caught an error worth catching.** Кузина's Itten-derived worked examples **invert the standard formulation** — she says three parts yellow to one of violet, where Itten's harmonious areas are inversely proportional to the light values, giving three yellow to nine violet. **Her red-against-green 1:1 example is unaffected, which is probably why the error survived.** Recorded as her claim with the inversion flagged `⚠️ verify before use`, rather than reproduced silently or quietly corrected — **the attribute-as-opinion rule does not license propagating an unusable formula.**
+- **A complete working procedure for choosing paint** (`pFCVO7AuSMw`, 40 facts) is now the backbone of `Color_Selection_Process_and_Testing.md`: the fewer-colours supplier rule and its eye-fatigue reason, the whole-flat-in-one-session schedule with a next-day recheck, three shades per colour, the A3 mobile-tester method with its full position checklist, **ignoring accidental context**, and **the variable-temperature LED panel for testing a finish at the kelvins it will actually be lit at** — which also went to `Lighting_Design.md`, because the finish is chosen before the fittings exist.
+- **⚠️ A second Perspectives block opened, on trims.** This vault carried Шеврина's case *against* trims and mouldings; `I-F2ULBDc5A` is Кузина's case *for* them. **The block states honestly that they agree on more than it first appears — hers is about what to do once trim exists, Шеврина's is a construction argument about junctions — and isolates the one head-on collision:** whether mouldings belong in a room with no other classical elements.
+- **⚠️ A genuine consideration for *this apartment*, not a general one.** `IBecn-3_7Ls` argues the earth palette is **«палитра ландшафтов с дефицитом воды»** and that transposing it to a northern, damp, grey-light climate needs a different version — more moss, more wood tones, more grey-green and grey-blue, under light passing *through* cloud rather than falling directly. **This flat is in Belarus, in her northern band rather than the Mediterranean one the trend formed in.** Flagged on the wiki page as a checkable design consideration rather than filed as theory.
+- **The greyscale-photograph test was consolidated rather than triplicated.** It appears in three separate sources this round for three different purposes; it is recorded once, on `Color_Selection_Process_and_Testing.md`, as her standard working check, with the three uses cross-referenced.
+- **A third independent statement of her converge-on-generic complaint** — this time from the neutral-base-plus-one technique, after small flats and daylight. **Now recorded as a settled position of hers rather than as a recurring observation.**
+- **Twelve wiki pages routed, and section counts stayed flat** — one top-level heading per page for the whole batch, per the convention adopted after Round 1.
+
+### ⚠️ A channel-level observation worth acting on
+
+**`IBecn-3_7Ls` (2026-08-06) is by far the most recent upload processed from this channel, and the format has visibly changed**: scripted and tightly edited, a formal self-introduction and positioning line, and **the Telegram channel plugged twice in six minutes with a QR code, with part of the content explicitly withheld to it.** Its `promotional_ratio: medium` is the highest of any source from this channel.
+
+**The channel has professionalised and the promotional load has risen with it.** Content quality is not obviously affected — this source carries her strongest colour-theory claim of the round — **but 2024–2026 uploads should be value-filtered with that in mind, and content withheld to an off-platform funnel should be recorded as withheld rather than treated as absent.**
+
+### Notes for Round 5
+
+- **⚠️ The eleven Cluster 2 videos deferred in this round are worth reconsidering, and the reason has changed.** They were deferred on the expectation that colour is thin on this channel; **that expectation is now disproved.** The three numbered theory videos (`rMWkR7k6k-E`, `dcsM3cifn6U`, `Z4NlVTPX70I`) remain the weakest bet — **they are expositions, the format that underperforms** — but the **six per-colour videos** (white `QHZZU5MF-8Q`, black `2FPgyQPT5QU`, grey `ZC8DDJY3lM8` and `sPiCm3xCS0w`, beige `bMtEzmP_k84`, pink `NouPlstU1mA`, green `OuJo8l3ux0M`) **should get a two-video probe rather than being written off.** She twice referred to her own pink and black videos as among her best.
+- **`HENjGv0DGjI`** (colour block) was deferred as a likely overlap with `lptrnXyf0as`. **It is not an overlap** — that source turned out to be horizontal two-tone division with dimensions, not colour blocking. **Promote it.**
+- **⚠️ Cluster 3 (design-process and methodology, ~14 videos) is now the strongest untouched cluster**, because it is almost entirely rebuttal-and-method formats — the profile that has produced this channel's best work in every round. Named candidates: `Jj96GbK_35w` (making an interior look more expensive, a critique of popular-blogger advice), `UnCjxyDtWG0` (why not to trust TikTok renovation lifehacks), `vnLZqiYxY1Q` (why expensive interiors are colourful and budget ones beige — **which connects directly to this round's beige-to-beige and neutral-is-not-safe material**), `NenrhBgNxGI`, `BLKTn8_KrMc`, `JOBm37_9iDg`, `wTYPfyC2WtY`, `aNrZEUNqfdc`.
+- **Clusters 4–6 remain deprioritised** and nothing in this round changes that.
+- **ASR remains the binding constraint on pre-2022 uploads.** Deliberately not guessed this round: two paint-brand names, one designer name, the authority behind the warmest/coldest-colour claim, and one product-category name — **though that last one was recovered anyway by cross-referencing two sources that garbled it differently («action» and «excel» both for eggshell), which is a technique worth reusing.**

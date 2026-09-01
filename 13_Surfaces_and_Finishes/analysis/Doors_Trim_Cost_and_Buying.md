@@ -138,3 +138,24 @@ The section above records a **+20%** premium for reverse-swing doors, from her b
 
 [source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
 
+## ⚠️ Perspectives — Are Trims and Mouldings Worth Having At All? (added 2026-09-01)
+
+**Two practitioners, opposite conclusions, and the disagreement is real rather than a matter of emphasis.**
+
+**Against — Мария Шеврина / SMBUREAU**, recorded on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]: flush junctions are durable and she has executed them repeatedly; a shadow gap is *easier* to clean than a surface-mounted skirting because a robot vacuum reaches into it; skirting can be omitted entirely where corners are neatly formed; **and mouldings should be removed where there are no other classical elements in the room.**
+
+**For — Надежда Кузина**, this source. Her case is not a rebuttal of the construction argument; it is a defence of the category. [source: [[_Sources/YT_I-F2ULBDc5A_kuzina_trim_and_moulding_colour|I-F2ULBDc5A]]]
+
+- **⚠️ "Архитектурные детали — это не всегда бабушкин стиль."** She acknowledges many now refuse them and does not insist — **but they can look thoroughly contemporary**, and her closing example is essentially **Japandi carrying a great deal of trim.**
+- **⚠️ Her reason for the category existing at all**: Russian has no single word for these elements; English has **"trim,"** which also covers braid on a dress or coloured trims on a car's wheel arches and mirrors. **People pay extra for those, and it is the same purchase — attention to detail that makes the thing individual.**
+- **⚠️ The head-on collision with the position above: Шеврина says remove mouldings where the room has no other classical elements; Кузина says moulding on concrete walls is a legitimate way to mix classic with loft** — provided the mix is carried through the rest of the interior rather than left as one gesture.
+
+> **They agree on less than it appears, which is worth stating so the block is not over-read.** Шеврина's case is largely a *construction and maintenance* argument about junctions; Кузина's is about *what to do once trim exists*, plus the style defence. **Only the mouldings-without-classical-elements question is genuinely head-to-head.** The full colour taxonomy is on [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]].
+
+### Material taxonomy, and one buying observation
+
+**«Лепнина» implies gypsum, but these elements are also made of polyurethane, MDF, expanded polystyrene (the cheapest), aluminium and plastic** — and you would hardly call an aluminium skirting «лепнина».
+
+**⚠️ A buying observation worth acting on: suppliers who will veneer a skirting to match the doors or the parquet can just as easily veneer *all* the trims — "не такая уж сложная или нерешаемая задача на русском рынке."** If wood trim is wanted, ask for the whole set rather than accepting a partial match.
+
+**⚠️ Two constraints if you take that route**: **choose a wood colour slightly different from the floors**; **it becomes hard to select wallpaper, so plain painted walls are the safer pairing**; and **keep to a maximum of three wood-effect finishes in an interior.**

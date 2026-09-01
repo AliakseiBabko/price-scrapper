@@ -286,3 +286,63 @@ Her wood-finishes video (`AafdFwF_Rgs`) is the **primary statement** of the posi
 
 - **Warm and cold are relative, not absolute.** Two finishes each reading cold in isolation will resolve into one warm and one cold when placed together. **If you have cold wood and want warmth, take it from the wall colour, not from a second wood finish.**
 - **Wood need not lead at all.** "Часто формы предметов и палитра важнее для стиля, чем оттенок дерева." Her own example is a bedroom with distinctive bluish floors that are **not** in the palette's lead — the room is built on wall colour and textiles, and the floor is simply woven in. **"Вполне достаточно, чтобы дерево не противоречило общей концепции и вписывалось в палитру."**
+
+## The Earth Palette, Undertones, and Working Without Colour (Надежда Кузина, added 2026-09-01, Round 4)
+
+### ⚠️ The earth palette is not the palette of nature — and what that means at this latitude
+
+**The source that finally gives this page a reason rather than a swatch list.** [source: [[_Sources/YT_IBecn-3_7Ls_kuzina_earth_palette_northern_version|IBecn-3]]]
+
+**Her opening challenge**: who decided these are nature's colours? *"Если палитра земли — это палитра природы, то где васильки, где море, где северное сияние, где цветущие луга?"* The palette as named: **ochre, terracotta, sienna, sand, linen, olive, sage, tobacco, wood tones, stone.**
+
+**⚠️ The answer: it is the palette of a very specific *type* of nature.** The places it recurs — **the south-west USA, Morocco, Algeria, Egypt, parts of Spain and Greece** — are different cultures with similar landscapes: **much sun, little water, the earth permanently visible because vegetation does not cover it.**
+
+> **«По сути, палитра земли — это палитра ландшафтов с дефицитом воды. Чем меньше воды в ландшафте, тем чаще мы видим саму землю.»**
+
+**Why the colours read as primordial rather than as a choice**: earth pigments predate any trend — before the names existed they were **materials you could pick up and grind: clay, charcoal, chalk, stone**, mixed with saliva or fat. **Ochre is pigmented clay containing hematite, which neither washes out nor decomposes** — hence its survival on cave walls. **"Earth tones — это, по сути, цвета руки, держащей кусок земли."**
+
+**⚠️ And the part with direct bearing on this project.** Move the palette to a climate with **more forest, more grey sky, more cold light and damp** and literal copying stops working. Her caveat forecloses the obvious rebuttal: **a burnt landscape alone is not enough — Russia has burnt peat bogs and "никто не мечтает оформить квартиру в эстетике торфяного пожара."**
+
+**The northern version, which she builds from painters rather than swatches**: **Levitan's** sky is **not bright but diffuse, as though light passes *through* cloud rather than falling directly**; **Apollinary Vasnetsov's** nature is **damp, forested, full of air and half-shadow**. Photographs of northern landscape in its ordinary state — not on a sunny tourist day — show the palette **as a muted colour under cloud rather than exotic clay under blazing sun.**
+
+**⚠️ The specification that follows: more moss, more wood tones, more grey-green and more grey-blue.**
+
+> [!IMPORTANT]
+> **This bears on this apartment directly.** The project is in **Belarus**, in the same northern, damp, grey-light band she is describing — **not** the Mediterranean and North-African band the trend was formed in. **A palette copied literally from earth-tone reference imagery will sit under a different sky here.** Treat it as a checkable design consideration, not as an essay point.
+
+**Her conclusion, which generalises**: **"никакой единственной природной палитры не существует."** Different landscapes, different light, different climates, and each culture answers differently which colours seem natural. **So the question is not whether the earth palette suits you but which nature you want to bring home.**
+
+### ⚠️ Overtone and undertone — the mechanism behind matching neutrals
+
+[source: [[_Sources/YT_pFCVO7AuSMw_kuzina_choosing_wall_paint|pFCVO7AuSMw]]]
+
+- **The pigment is the overtone** — what reads immediately, the surface, easily identified part. **The undertone is the nuance.** Her yellows: one near lemon, one leaning to lime because it goes green, one cadmium.
+- **⚠️ Undertone matters most in the neutral palette, because nuance is what makes a colour stick out from the set — "вы не сможете подогнать цвет своих стен к цвету полов, или к цвету дверей, или к цвету обивки мебели."**
+- **⚠️ The procedure: whites, whitish shades, greys, beiges, browns and blacks must be compared precisely against each other to establish which colour underlies each — red, orange, yellow, blue or green. That is what makes a palette coherent.**
+- **⚠️ Each undertone has a characteristic failure: warmer shades can look dirtier; cooler shades can look less cosy.**
+- **⚠️ And from a second source: with no white adjacent to them, subtle light shades are often read as simply colourless. Adjacency with white shows off both — the white becomes ideal and clean, the neutral acquires the depth it needs.** [source: [[_Sources/YT_I-F2ULBDc5A_kuzina_trim_and_moulding_colour|I-F2ULBDc5A]]]
+
+### ⚠️ Neutral does not mean beige
+
+[source: [[_Sources/YT_yU2zKPpDghM_kuzina_colour_difficulties|yU2zKPpDghM]]]
+
+- *"Бледно-розовый может стать отличным фоном для ярких изумрудных штор."*
+- **The key to a neutral ground is balance** — you can play warm against cold within it.
+- **⚠️ And a technique worth naming: hide the scheme's additional colours in very muted versions and build the ground out of those**, so the ground relates to the accents by descent rather than by contrast.
+
+### Working with little or no colour
+
+[source: [[_Sources/YT_ubB1GSFtN20_kuzina_afraid_of_colour|ubB1GSFtN20]]]
+
+- **The achromatic palette — white, black and grey only — is "скорее из области абстракции, чем реальной жизни," because any black leans somewhere (dark blue or dark brown) and so does any white. You can play on that.** *(Consistent with the all-white-paints-are-tinted rule below.)*
+- **⚠️ Consider complex colours close to neutral — colour that is present without being bright.** Her examples: **cream with complex browns; the colour of natural leather with ochre; wood colours; the natural colour of undyed linen or unbleached cotton.**
+- **⚠️ Black in a beige interior is a device she rates highly: in a very neutral, very warm room, black sets conceptuality.** Add it through **abstract lines, thin graphics, drawing** — her example reads a little like Morse code — **and balance it with white. Beige as base, plus black, plus white.**
+- **⚠️ To stop a neutral interior reading like a hotel, add more small details** — you may not like colour but may like **black-and-white photography or graphics, or small drawings that reward examination.**
+- **⚠️ And work the textures: when there is little colour, texture comes to the front.** Combine **smooth with rough, matte with glossy**, and distinguish **full polished gloss from the muted gloss of metal.**
+
+> [!NOTE]
+> **⚠️ Her verdict challenges the default this page otherwise assumes: "плохо сделанных нейтральных интерьеров гораздо больше, чем плохо сделанных цветных интерьеров."** Recorded as her claim rather than as a measurement — but it is the load-bearing argument of that source: **choosing neutral is not the safe option it is taken to be.**
+
+### All white paints are tinted
+
+**⚠️ Deciding "the walls will be white" is not a specification — you must choose a shade.** White expands space and suits almost any style, but is not very practical and can read lifeless. **⚠️ A specific trap: reproducing a white seen in a photograph, which is almost always an off-white — a tinted cream or greyish white — and hard to read from an image. Any colour is hard to choose from a screen.** **⚠️ Different whites become obvious only when several sit side by side.** White interiors are ascetic, **the absence of colour makes room for other decorative devices**, and **white is architects' favourite colour.** [source: [[_Sources/YT_yU2zKPpDghM_kuzina_colour_difficulties|yU2zKPpDghM]]]

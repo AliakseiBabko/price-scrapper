@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=GEBJkzYd874",
+  "video_id": "GEBJkzYd874",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T10:02:29.764508+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "470f3da7213c6ef3ebfa0335fa1d041cca5d16c1ab4aa9e2c89d5acce8a90648",
+  "attempts_before_success": []
+}

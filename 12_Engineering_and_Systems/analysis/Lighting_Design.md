@@ -383,3 +383,14 @@ The same applies to multiple strips on one switch — **three vertical wall stri
 **Moved to [[17_Design_and_Ergonomics/analysis/Daylight_and_Natural_Light|Daylight & Natural Light]] on 2026-09-01.** It was routed onto this page earlier the same day, correctly noting it was the first non-artificial-light content here — **and the merge pass showed that was the wrong home.** Daylight involves no circuits, no fixtures and no electrical planning, and this page lives in `12_Engineering_and_Systems`. The material is unchanged; only its address is.
 
 It still bears on decisions here: **fewer shadows means a lighter interior** interacts with fixture placement, and the desk-at-the-window rebuttal is a lighting-ergonomics argument. Follow the link.
+
+## ⚠️ Test a Finish at the Colour Temperature It Will Actually Be Lit At (Надежда Кузина, added 2026-09-01)
+
+A short cross-reference into this page's colour-temperature section from a paint-selection source, because **the technique solves a sequencing problem: the finish is usually chosen before the fittings exist.** [source: [[_Sources/YT_pFCVO7AuSMw_kuzina_choosing_wall_paint|pFCVO7AuSMw]]]
+
+- **⚠️ "Даже один цвет в разном освещении может дать гораздо больше разницы в тоне, чем два соседних цвета."** So agonising between two near-identical paint colours in a showroom is the wrong problem — the lighting will move the colour further than the choice does.
+- **⚠️ The on-site problem: while finishes are being chosen there is usually a builder's bulb of unknown origin hanging from the ceiling, and nobody knows its colour temperature.** Any judgment made under it is worthless.
+- **⚠️ The fix, and it is cheap: use a variable-temperature LED panel — the common photographer's and videographer's product. Set it to the temperature the room's lighting will actually be, e.g. 3000 K, hold it to the sample, and check how the finish behaves under exactly that light.** Dedicated sample-testing lamps also exist.
+- **Reflexes compound it**: neighbouring surfaces reflect onto the finish too, which matters most for whitish, greyish and light neutrals.
+
+**This complements the finish constraint already on this page** — that some finishes look very bad under coloured light, so cream walls and grey floors should be specified where RGB is planned. **The general rule behind both: a finish and the light it will sit under are one decision, and the finish is normally chosen first.**
