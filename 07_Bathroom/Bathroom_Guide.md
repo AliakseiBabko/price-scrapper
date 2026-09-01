@@ -63,7 +63,11 @@ Zemstandart recommends the mapped tile-layout, apron, and grout practices below;
 
 On buying tile: **don't shop to a fixed budget** — tile lasts 20+ years, so a modest per-m² increase amortizes to almost nothing, and the recommended target band (~20-30 EUR/m², one vendor-affiliated source) treats anything meaningfully below that as a real quality cliff. Independent of price, **lower calibre (tighter batch-to-batch size tolerance) is the parameter that actually determines whether thin, even grout lines are achievable** — not brand or finish.
 
-→ **[[07_Bathroom/analysis/Tile_Selection_and_Layout|Full detail]]** (size taxonomy, porcelain quality parameters, shower podium/curb sizing, the full layout-technique walkthrough)
+→ **[[07_Bathroom/analysis/Tile_Selection_and_Layout|Full detail]]** — *which tile to buy*: size and format taxonomy, porcelain quality parameters, undertone and relief, stone-look and style-group matching, buying practice. **Split 2026-09-01 into three further pages:**
+
+- **[[07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance|Tile Installation, Sequencing & Acceptance]]** — why tile falls off, laying sequence, corner and layout planning, shower podium and niche details, the acceptance checklist.
+- **[[07_Bathroom/analysis/Tile_Cutting_Handling_and_Special_Formats|Tile Cutting, Handling & Special Formats]]** — small-format custom slopes, very large slabs, rectified joints, glass mosaic, hexagons, curved walls.
+- **[[07_Bathroom/analysis/Tile_Grout_Selection_and_Protection|Tile Grout Selection & Protection]]** — grout type comparison, colour selection, cost, repair, impregnation.
 
 ## Access Hatches, Shelving & Furniture
 

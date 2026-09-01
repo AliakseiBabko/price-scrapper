@@ -13,7 +13,7 @@
 
 ## 🎨 Materials & Tiling
 * **Flooring**: *Placeholder* (Recommendation: Anti-slip porcelain tiles with underfloor heating).
-* **Walls (Tiling)**: *Placeholder* (Est. tiling area: ~`15 m²` after excluding door opening). See [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]] for sizing/sequencing/grout guidance before finalizing.
+* **Walls (Tiling)**: *Placeholder* (Est. tiling area: ~`15 m²` after excluding door opening). See [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]] for what to buy, [[07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance|Tile Installation, Sequencing & Acceptance]] for how it goes on, and [[07_Bathroom/analysis/Tile_Grout_Selection_and_Protection|Tile Grout Selection & Protection]] for the joints — before finalizing.
 * **Waterproofing**: Liquid/roll membrane under the screed with an upturn onto walls, plus brush-on waterproofing at floor-wall and corner joints — see [[12_Engineering_and_Systems/analysis/Waterproofing_and_Plastering|Plumbing: Waterproofing & Plastering]] for the full code-requirement writeup (brush-on wall waterproofing is mandatory specifically if using gypsum-based plaster).
 
 ## 💡 Lighting & Electrical

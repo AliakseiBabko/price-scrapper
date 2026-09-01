@@ -155,7 +155,7 @@ Scoped to minimalism, but the second and third objections are practical rather t
 
 **⚠️ And the correction worth having: whether an island works depends on the flat's *configuration*, not its area.** She designed a **37 m²** flat that took an island comfortably, and says a **70 m²** flat can be one where an island doesn't work. This directly contradicts the common "you need X m² for an island" rule of thumb.
 
-**She reaches the same conclusion from the opposite direction elsewhere**: an island *lightens* a small kitchen because it frees the wall verticals for the eye, where a run of cabinets against the wall does not — see [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]].
+**She reaches the same conclusion from the opposite direction elsewhere**: an island *lightens* a small kitchen because it frees the wall verticals for the eye, where a run of cabinets against the wall does not — see [[17_Design_and_Ergonomics/analysis/Difficult_Room_Shapes_and_Proportion_Remedies|Difficult Room Shapes & Proportion Remedies]].
 
 **Her alternative to L/U**: tall floor-to-ceiling units along one wall, and lower (~90 cm) units perpendicular with wall cabinets above — simpler geometry, comparable capacity.
 

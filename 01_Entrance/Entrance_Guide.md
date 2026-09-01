@@ -123,7 +123,7 @@ Editorial history kept on its own page — [[01_Entrance/analysis/Change_Log|Cha
 
 ## What a Hallway Is For, and the Sightline Rules That Follow (Надежда Кузина, added 2026-08-31)
 
-From a 78-minute planning lecture. The general planning method is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
+From a 78-minute planning lecture. The general planning method is on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]]. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
 
 - **Why hallways are always too small, stated as a shared client/developer error**: the developer reasons exactly as the client does — "extra metres in the hallway, or in the living room?" — and the living room wins. **The consequence is concrete: two children cannot be got ready for school at the same time, and there is nowhere to hang anything** — while in practice guests are received in the kitchen anyway.
 - **Her own project, reported as a partial failure rather than a success**: she tried to steal wardrobe depth from the guest WC and could not take it fully, because the washing machine door would then not open. The wardrobe corner still protrudes into the hallway. **Her point is that this is still the right trade** — the alternative was the developer's single coat hook.

@@ -224,7 +224,7 @@ household plan. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zo
 
 ## Safety, Zoning and Layout for a Kids Room (Надежда Кузина, added 2026-08-31)
 
-From a 78-minute planning lecture. She frames a kids' room as "мир в мире, квартира в квартире" — every function a child needs, concentrated into a limited space. Her six requirements: **ecological, safe, functional across many activities, easy to clean, anti-vandal, and easily transformable as the child grows.** The general planning method is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
+From a 78-minute planning lecture. She frames a kids' room as "мир в мире, квартира в квартире" — every function a child needs, concentrated into a limited space. Her six requirements: **ecological, safe, functional across many activities, easy to clean, anti-vandal, and easily transformable as the child grows.** The general planning method is on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]]. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
 
 ### Safety — a checklist, mostly specifiable at rough stage
 

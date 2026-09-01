@@ -26,7 +26,19 @@ The recurring theme across processed sources so far: **a layout/fixture/storage 
 
 Practical installation-adjacent decor guidance: slat/rail (рейки) wall spacing must match the backlighting channel-box module or backlighting becomes impossible to add later; three slat-to-baseboard junction methods ranked worst-to-best by look/cost/difficulty; wall panels absolutely require a leveled wall underneath (called the single biggest, practically unfixable beginner mistake); milled/routed panels look more dramatic but are materially harder to keep clean than smooth ones; velour is flagged as unusable on any surface (marks from the slightest touch); floating ("парящая") furniture needs load-rated mounting hardware specified in the design documentation itself, even on an already-solid wall. Also includes a clean, generally-quotable rule worth flagging up front: **a room should have only one accent wall** — two identical accent treatments cancel the accent function itself — plus the general version of that same idea for a long/narrow room specifically: never put an accent finish on the room's *longest* wall, accent a segment instead.
 
-→ **[[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Full detail]]**
+→ **[[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Full detail]]** — choosing and refinishing materials, texture/fаktura/relief, trims, the empty-wall method, and what to carry over from an old flat.
+
+### Combining Finishes — Wood, Metal and Gloss (split out 2026-09-01)
+
+Making two or more finishes of the *same kind* coexist is a different decision from choosing a finish. Covers the wood-tone rule (vary brightness freely, never vary undertone), the metal-finish hierarchy and its 70/30 dominance ratio, and three gloss beliefs corrected.
+
+→ **[[17_Design_and_Ergonomics/analysis/Combining_Finishes_Wood_Metal_and_Gloss|Full detail]]**
+
+### Accent Walls & Pattern Combination (split out 2026-09-01)
+
+Where an accent may go, how many are allowed, and how two patterns coexist — including the one-accent-wall-per-room rule, the never-accent-the-longest-wall rule, and pattern hierarchy by scale rather than by colour alone.
+
+→ **[[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Full detail]]**
 
 ## Colour: Combining, Choosing, and Testing
 
@@ -73,7 +85,19 @@ several long/narrow-room and low-ceiling furniture techniques
 (furniture-height contrast, round/soft-form pieces to counter sharp
 geometry) cross-referenced with the new `06_Small_Bedroom` guide.
 
-→ **[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Full detail]]**
+→ **[[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Full detail]]** — zoning devices and arrangement inside a room whose shape is already settled.
+
+### Whole-Home Planning Method (split out 2026-09-01)
+
+How a plan is arrived at in the first place: the standing principles, a worked whole-apartment replan, the zone hierarchy, the verb-list method, the Neufert correction — and **the definition of what actually counts as a zone**, which is the test every plan elsewhere should be run against. A desk in a bedroom is not a work zone; it is a change of layout.
+
+→ **[[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Full detail]]**
+
+### Difficult Room Shapes & Proportion Remedies (split out 2026-09-01)
+
+What to do when the room itself is the problem — low ceilings, long and narrow rooms, irregular geometry, protruding internal corners, very small flats. The governing move for irregular geometry: straighten the *habitable* volumes at the expense of circulation and storage.
+
+→ **[[17_Design_and_Ergonomics/analysis/Difficult_Room_Shapes_and_Proportion_Remedies|Full detail]]**
 
 ### Sliding Partition Mechanisms (deep-dive companion page, added 2026-08-25)
 
@@ -105,7 +129,10 @@ and a distinctive physiological "lemon test" for resolving color-choice
 indecision. Two sources independently converge on the same aesthetic-
 restraint closing principle via different analogies.
 
-→ **[[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Full detail]]**
+→ **[[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Full detail]]** — why curtains are a functional element, restraint, clearances, and the shared source notes. Split 2026-09-01 into two further pages:
+
+- **[[17_Design_and_Ergonomics/analysis/Curtain_Fabric_Colour_and_Pattern|Curtain Fabric, Colour & Pattern]]** — what the textile *is*: layering, fibre, translucency, the 60/30/10 formula, pattern matching, handling.
+- **[[17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware|Curtain Sizing, Mounting & Hardware]]** — how it is *hung*: proportion correction, pleat and width arithmetic, length regimes, rods, tracks, motorisation, blinds.
 
 ## Whole-Apartment Design Coherence
 

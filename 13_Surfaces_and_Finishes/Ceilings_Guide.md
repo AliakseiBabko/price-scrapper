@@ -443,7 +443,7 @@ material itself.
 
 ## Low Ceilings — Where the Centimetres Go, and Hiding the Junction (Надежда Кузина, added 2026-09-01)
 
-A 27-minute structured problem/solution walkthrough with concrete dimensions, explicit anti-patterns, and a mechanism attached to nearly every rule. Lighting consequences are on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]]; the furniture and curtain consequences are on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning]] and [[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Curtains & Window Treatments]]. [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
+A 27-minute structured problem/solution walkthrough with concrete dimensions, explicit anti-patterns, and a mechanism attached to nearly every rule. Lighting consequences are on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]]; the furniture and curtain consequences are on [[17_Design_and_Ergonomics/analysis/Difficult_Room_Shapes_and_Proportion_Remedies|Difficult Room Shapes & Proportion Remedies]] and [[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Curtains & Window Treatments]]. [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
 
 ### ⚠️ The problem is largely self-inflicted, and she quantifies it
 
