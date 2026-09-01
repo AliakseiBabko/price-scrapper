@@ -223,3 +223,33 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 **"В дизайне считается хорошим тоном, что рядом с любым местом для сидения есть поверхность, куда можно поставить стакан."** [source: [[_Sources/YT_NenrhBgNxGI_kuzina_improving_any_interior|NenrhBgNxGI]]]
 
 **A single checkable test for any seating layout.** A central coffee table plus side tables improve both design and function. **⚠️ And in a bedroom, where no nightstand fits, provide another surface — for instance behind the headboard.**
+
+## Round 4 Additions — Verification Method, Storage-vs-Aesthetics Tradeoffs, Custom-vs-Stock, and a Base/Accent Framework (Игорь Краснов, added 2026-09-01)
+
+Several distinct additions from three Round 4 sources, kept under one heading so this page does not fragment.
+
+### ⚠️ Furniture-purchase verification method
+
+**Extends this vault's existing tape-measure/painter's-tape mock-up content (Round 2, `7CIZQ-pxNl4`).** Never buy furniture from a photo alone — always plot the piece to-scale on the ACTUAL floor plan first and verify real walkways, door-swing clearance, and ergonomic access before purchasing. Concrete, quotable framing: **"one evening spent on planning saves a month of redoing."** Furniture should never visually block window/door sightlines or interrupt a room's "light axes" — keep clear sightlines to windows/doors when placing large furniture. `single-account`, `unverified`. [source: [[_Sources/YT_HnIsWX96g6o_krasnov_7gross_decorating_mistakes|HnIsWX96g6o]]]
+
+### ⚠️ Clothing rails/garment racks
+
+Appropriate only for short-term/temporary living situations (moving, just-moved-in, very young/indifferent occupant); otherwise waste vertical storage volume (same footprint as a full wardrobe, but doesn't use the space above) and create visual clutter (displayed clothes rarely colour-coordinated). [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
+### ⚠️ Custom vs. stock furniture — a specific mechanism
+
+A niche/alcove of, say, 500mm gets an EXACT custom-built cabinet, whereas stock cabinets typically only come in 450mm or 600mm increments, forcing either a wasted gap or an overhang. Custom costs more upfront but **"you pay twice" with stock furniture** due to wasted usable space. A rental-budget alternative: custom-built in cheap LDSP (particleboard) with basic hardware can match stock furniture's price while using space far better — hardware/fitting cost, not carcass material, is the adjustable lever. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
+### ⚠️ Furniture without built-in storage — a deliberate aesthetics-vs-function tradeoff, not a universal mistake
+
+Leggy/airy furniture (no built-in storage) reads more spacious because visible floor space under it registers as "free" to the eye — but this trades off against real storage capacity (storage ottomans, drawer-base sofas/beds, lift-mechanism beds). Frame this explicitly as a household priority decision, not a mistake either way. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
+### ⚠️ "Reliable base vs. swappable accent" — a genuinely reusable planning framework
+
+**Its own section, per this vault's own assessment that it's a genuinely valuable, reusable planning principle.** Distinguish BASE elements (built-in wardrobe, kitchen cabinetry, large furniture) that are expensive/disruptive to change later, from ACCENT elements (bedspread, curtains, pillows, textiles — his phrase, "swappable batteries") that are cheap and easy to change seasonally or for mood. Recommends building base furniture as neutral, durable, and — specifically for a wardrobe — **floor-to-ceiling and flush with the wall** ("до потолка... заподлицо") — a wardrobe that doesn't reach the ceiling forces a costly full redo later if you want to change it — while treating textiles as the flexible layer you actually rotate. [source: [[_Sources/YT_DT_IjSALrX0_krasnov_5tricks_avoid_regret|DT_IjSALrX0]]]
+
+### ⚠️ Timeless furniture design pedigree (flag per the advertising/brand-mention filter)
+
+Frameless/backless sofas ("бескаркасные диваны") flagged as a fad likely to be "yesterday's news" within a year or two — recommends choosing furniture with genuine design pedigree instead. **Names two specific real, historically significant design pieces: the Eames chair (produced since the late 1940s) and the Barcelona chair by Ludwig Mies van der Rohe (~100 years old)** — both cited as proof that well-designed furniture remains desirable across generations regardless of trend cycles. **Flagged per this vault's advertising/brand-mention filter**: these are real design-history references, not his own invention or a specific vendor plug — but the recommendation to seek them out specifically is his own advice, so the mention is tagged even though it's a generic "classic design" reference rather than a self-interested product endorsement. [source: [[_Sources/YT_DT_IjSALrX0_krasnov_5tricks_avoid_regret|DT_IjSALrX0]]]
+
+`single-account`, `unverified`.

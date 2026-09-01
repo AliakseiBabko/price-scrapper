@@ -172,3 +172,12 @@ Asked on a podcast what advice to give someone trying to make an interior match 
 **The practice both designers present describe instead**: the first question is about **образ жизни — lifestyle — not worldview**, and the interior is built around that. Worldview gets used only if the client volunteers it, once there is enough rapport. **"Дизайнер всё-таки более прикладная функция, поэтому в философию мы без запроса не вникаем."**
 
 **This independently reinforces the verb-list method** on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]] — list what you actually *do* in a room, then filter it against what you want to stop and start doing. She reaches the same place from a completely different direction, in front of two other professionals who agree.
+
+## ⚠️ "Design for Future Life Stages" — a Planning Principle With a Real Case (Игорь Краснов, added 2026-09-01, Round 4)
+
+A genuinely valuable planning principle with a real case example, worth its own entry alongside this page's existing scenario-driven worked examples above. [source: [[_Sources/YT_DT_IjSALrX0_krasnov_5tricks_avoid_regret|DT_IjSALrX0]]]
+
+- Recommends designing a room (specifically a kids' room) with multiple deliberate FUTURE configurations in mind from the start (infant stage, preschool stage, school-age stage), not just the immediate need — three distinct variants of the same room planned up front.
+- **⚠️ Real project example — Moscow, Paveletskaya district, ~100m² apartment for a young couple.** Region note: this specific case is explicitly Moscow, not St. Petersburg — flagged as a distinct Russian city from the channel's own base. Initially designed with a home office/study for the husband (plus master bedroom, large kitchen-living room, walk-in closets, two bathrooms, full MEP/ventilation/AC/flooring planning), changed mid-construction — **AFTER partition walls were already up and MEP rough-in had started** — to a nursery/kids' room because the wife became pregnant during the design process. Used as a real, single-account cautionary case for why forward-scenario planning at the EARLIEST stage (before walls/MEP commitments) matters, since a late-stage room-purpose change is costly once construction has progressed past framing.
+
+`single-account`, `unverified`.

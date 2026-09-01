@@ -24,6 +24,10 @@ Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Replacement fra
 
 Zemstandart/Zemsproekt/Zemsremont (Alexey Zemskov) recommends: **Recommendation: buy windows and slope finishing as one bundled product from one company offering one combined warranty**, not as separately-sourced work. See [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Slope Finishing]] for why slope quality matters as much as the window unit itself.
 
+## ⚠️ Plastic Window Sills Read as a Cheap Tell (Игорь Краснов, added 2026-09-01, Round 4)
+
+A specific cheap-tell critique, genuinely new for this page. Recommends natural stone, engineered stone, or plain porcelain tile ("керамогранит") for the sill instead as an inexpensive upgrade with disproportionate visual payoff — doesn't need to be natural stone specifically; porcelain tile is explicitly named as a budget-friendly option that still reads organically rather than cheap. `single-account`, `unverified`. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
+
 ## Component-by-Component Selection Primer, and a Perspectives Disagreement on Brand (Петришин-Строй, added 2026-08-24, Round 8)
 
 Sergey Petrishin's channel gives a pre-purchase profile/hardware/glazing/

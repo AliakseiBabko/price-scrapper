@@ -82,3 +82,12 @@ Traceability record kept on its own page — [[14_Furniture/analysis/Seating_and
 ## Change Log
 
 Editorial history kept on its own page — [[14_Furniture/analysis/Seating_and_Tables_Change_Log|Change Log]].
+
+## Leather Sofas, and a Large-Sectional Size/Context Rule (Игорь Краснов, added 2026-09-01, Round 4)
+
+[source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
+
+- **Leather sofas — flagged as reading dated/"2000s waiting room"** specifically when it's a cream-coloured leather sofa alone with no supporting warm materials around it. Recommends warm-toned leather (eco or genuine) plus warm-toned surrounding furniture/textiles and natural wood flooring (not tile) to make a leather sofa read intentional.
+- **⚠️ Large corner/sectional sofas — a specific size/context rule with a practical purchase-sequencing tip.** Appropriate only in genuinely large rooms (20m²+ standalone living room, or 50m²+ combined kitchen-living zone in a house) — in a compact 20-25m² combined kitchen-living apartment, a large sectional "eats" all usable floor area. Recommends mocking up the sofa's real footprint with cardboard boxes and a draped sheet/throw BEFORE ordering to see its real visual mass, or ordering the sofa LAST (after everything else is placed/visible) so its proportional impact can be judged directly against the finished room. Complements — does not duplicate — this vault's existing floor-plan furniture-verification method on [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]] — this one is a physical 3D mockup method, applied specifically to a large sofa's mass rather than general 2D layout verification.
+
+`single-account`, `unverified`.

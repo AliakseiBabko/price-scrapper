@@ -25,6 +25,15 @@ A personal, first-person anecdote gives the mechanism this entry adds: living in
 
 `single-account`, `unverified`.
 
+## Bedroom-Specific Dedicated Ventilation, Planned at the Layout Stage (Игорь Краснов, added 2026-09-01, Round 4)
+
+[source: [[_Sources/YT_mqIWre0VXGU_krasnov_sleep_mistakes|mqIWre0VXGU]]]
+
+- Recommends a dedicated supply-and-exhaust ("приточно-вытяжная") ventilation system over just an open window for a bedroom specifically, citing better air quality and quieter operation than an open window.
+- **⚠️ Frames bedroom ventilation planning as a "boring but foundational" item that should be decided at the layout stage, before aesthetic/rendering choices, alongside the room's overall MEP planning** — his studio explicitly plans ventilation type (приточно-вытяжная / natural / общедымовая) at the planning-solution stage, tied to the household's own life scenarios/patterns, rather than an afterthought once the "Pinterest" visual direction is set. Genuinely new for this page's bedroom-specific coverage — extends rather than duplicates the page's existing whole-apartment and bathroom-specific ventilation content.
+
+`single-account`, `unverified`.
+
 ## Disguised Humidifier as a Decorative "Fireplace" — Moscow-Region Winter Dry-Air Recommendation (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 **⚠️ A humidifier built into a decorative fireplace-style housing** (an illuminated-vapor "flame" effect, no real fire, no fuel, no flue/vent requirement) recommended as close to a mandatory device for Moscow/Moscow-region apartments specifically — the source cites the region's severe winter indoor-air dryness from central heating as the reason, one of the few points in this channel's content with an explicit on-camera regional statement ("our climate, Moscow and Moscow region"). Framed as solving a genuine air-quality problem and a decor want at the same time, not a purely cosmetic gimmick. `single-account`, `unverified`, Moscow/Moscow region (level 1, named directly). [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]

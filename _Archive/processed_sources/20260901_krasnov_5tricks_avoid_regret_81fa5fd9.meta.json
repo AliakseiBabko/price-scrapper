@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=DT_IjSALrX0",
+  "video_id": "DT_IjSALrX0",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T19:47:04.820235+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "81fa5fd9100fe50d9d822ca50309af0e36d5f96be2de5733dcc8fc320e3e4335",
+  "attempts_before_success": []
+}

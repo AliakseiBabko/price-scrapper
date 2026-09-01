@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=vM7inxJZ-6U",
+  "video_id": "vM7inxJZ-6U",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T19:47:28.038829+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "087f0e11fec3c15dab0b4a7b59ab2e97686b2a4357d7ab8938ff95672833d1ac",
+  "attempts_before_success": []
+}

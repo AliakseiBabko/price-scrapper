@@ -142,6 +142,10 @@ Two further reasons Шеврина gives for neutral as the *main* light: warm l
 
 **⚠️ And a finish constraint that belongs with the decision, not with the fitting: some finishes look very bad under coloured light. If RGB is planned, specify plain cream walls and grey floors.** Кузина is openly sceptical of chromotherapy claims — green relaxes, red stimulates is *"всё очень относительно"* — but allows that watching one shade fade into another under the shower may simply be pleasant. **A solution she does rate: a stretch ceiling backlit by LED strip through the membrane**, giving an even wash, switchable between colour and white. [source: [[_Sources/YT_dIdcLPKj6is_kuzina_home_spa_bathroom|YT_dIdcLPKj6is]]]
 
+### ⚠️ Cheap multi-colour-temperature "smart" fixtures — a specific product-quality warning (Игорь Краснов, added 2026-09-01, Round 4)
+
+**Extends this section's existing same-scene colour-temperature-matching rule with a specific product-category failure mode, genuinely new to this page.** Never install bulbs of genuinely different colour temperatures in the same fixture or room (his example: 3000K+4000K+5000K mixed). **Names AliExpress specifically** as a source of cheap multi-colour-temperature "smart" LED fixtures that cycle between cold/neutral/warm output on each power-on rather than holding a fixed temperature — calling this "unusable" since the user can't reliably get back to the temperature they wanted. Specifically flags the failure mode of a second light source in the same room being a DIFFERENT FIXED temperature than the main fixture — the same underlying mismatch this page's existing same-scene rule already warns against, here traced to a specific cheap-product cause rather than a specification mistake. `single-account`, `unverified`. [source: [[_Sources/YT_vM7inxJZ-6U_krasnov_color_combination_mistakes|vM7inxJZ-6U]]]
+
 ---
 
 ## 3. Fixture Types, and What to Check Before Buying
@@ -248,6 +252,10 @@ From Шеврина, across two videos in the same round and mutually consistent
 ### ⚠️ Chandelier-to-Room-Area Sizing Rule (Игорь Краснов, added 2026-09-01)
 
 **⚠️ Match the fixture to its manufacturer-rated coverage area — rule of thumb, the room should be roughly ≥4× the fixture's rated area** (his example: a fixture rated for 50 m² is oversized for a 20 m² room). **Also physically measure the fixture's stated height dimension against the room's actual headroom before buying** — a spec-sheet height (his example: 50 cm) occupies real vertical space once installed that isn't intuitive from the listing alone. A concrete, checkable pre-purchase test complementing this page's existing height/diameter formulas above. `single-account`, `unverified`. [source: [[_Sources/YT_GpkgVoPesDI_krasnov_lighting_guide_ruins|GpkgVoPesDI]]]
+
+### ⚠️ Decorative filament bulbs make a large chandelier visually big but functionally underlit (Игорь Краснов, added 2026-09-01, Round 4)
+
+**A specific new failure mode extending this page's existing chandelier-to-room-area sizing rule above**: installing a large chandelier fitted with decorative filament-style bulbs that provide almost no actual light output — visually large but functionally underlit, undermining the whole point of a "statement" fixture. Recommends recessed downlights instead for low-ceiling rooms where a large chandelier isn't proportionate anyway. `single-account`, `unverified`. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
 
 ### Replacing the chandelier when ceiling height is scarce
 

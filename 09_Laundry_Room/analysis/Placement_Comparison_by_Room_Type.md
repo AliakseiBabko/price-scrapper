@@ -178,6 +178,10 @@ approval obtained — one real INMYROOM case moved a meter from a different
 wall into the washer cabinet and states this was authorized, not something
 to assume is automatically disallowed. [source: [[_Sources/YT_JsRvUMfIPwc_inmyroom_22_secrets_washer_placement|INMYROOM TV]]]
 
+## ⚠️ Laundry-Drying Location — a Commonly-Overlooked Planning Point (Игорь Краснов, added 2026-09-01, Round 4)
+
+**A genuinely practical, commonly-overlooked planning point, distinct from this page's existing washer/dryer-appliance placement content above** — this is specifically about where WET laundry gets hung to dry, not where the washing machine itself sits. Decide at the floor-plan stage WHERE laundry will be hung to dry. Common improvised fallback locations named as suboptimal: kids' room, living room, bathroom, balcony/loggia (his image: laundry on a loggia looking like "the flag of a non-existent country"). Recommends either a dedicated laundry/utility room ("постирочная") with a fixed or pull-out drying rack, or a wall-mounted/sliding rack system built into the plan from the start — consistent with this page's existing dedicated-room-vs-closet format content above. `single-account`, `unverified`. [source: [[_Sources/YT_FIAZhQGKq7g_krasnov_7designer_taboos|FIAZhQGKq7g]]]
+
 ## Source Notes
 
 Traceability record kept on its own page — [[09_Laundry_Room/analysis/Source_Notes|Source Notes]].

@@ -223,3 +223,7 @@ Her conclusion generalises well past this topic and is worth recording verbatim 
 
 Consistent with her position elsewhere that reveals should simply be painted in a higher wear class — see [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]]. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
 
+## ⚠️ Zigzag-Wall Entryway Wardrobe — a Real Project Case (Игорь Краснов, added 2026-09-01, Round 4)
+
+A specific, real, technique-level layout solution from his own studio's practice. In a cramped 60m² apartment, the entry nook was reconfigured by **recessing part of the corridor wall by 600mm** to create a flush, built-in three-section wardrobe (1800mm wide) directly opposite the entrance door, while keeping a separate open zone to the side for a mirror and a pouf/bench for putting on shoes. States the same approach works at both small (60m²) and large (250m²) scale — the technique is about creating a flush recess for the wardrobe rather than letting it protrude into the entry, keeping the sightline on entry uncluttered. `single-account`, `unverified`. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+

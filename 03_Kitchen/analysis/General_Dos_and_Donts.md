@@ -106,3 +106,12 @@ Debunking a short-form clip showing a false panel neatly hiding "ugly pipes" in 
 - **⚠️ Open-plan living/kitchen layouts — a stated PERSONAL preference, tagged as his opinion, not a universal rule**: real downsides listed (loss of privacy, sound/smell/activity bleed between zones, hard to find quiet, requires the whole space tidy essentially all the time — called unrealistic especially with kids or a demanding job). He states he personally prefers closed floor plans for these reasons — record distinctly as an attributed opinion, not as a "mistake."
 
 `single-account`, `unverified`.
+
+## Kitchen-Gadget Storage — Plan By Name, Put Away Immediately (Игорь Краснов, added 2026-09-01, Round 4)
+
+Light addition — echoes this page's existing storage-by-functional-zone content, but the specific method below is distinct enough to record as its own bullets. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
+- Plan a specific storage spot for every named kitchen gadget at the design stage, and maintain the discipline of putting each one away immediately after use.
+- States plainly that without a planned storage spot, any kitchen devolves into clutter regardless of size — the "clean up immediately after each use" discipline point and "plan storage for every gadget by name" method are the genuinely new parts.
+
+`single-account`, `unverified`.

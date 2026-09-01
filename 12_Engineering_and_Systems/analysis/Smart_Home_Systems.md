@@ -300,6 +300,14 @@ street/entryway/stairwell lighting (exterior/common-area use), but
 recommends standard or two-way/crossover switches for interior apartment
 rooms instead. `single-account`, `unverified`. [source: [[_Sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
 
+## A Turnkey Designer's Reliability Caution (Игорь Краснов, added 2026-09-01, Round 4)
+
+Distinct from the Kruglov/Ontario wired-vs-wireless architecture comparison above — this is a broader adoption caution from a design (not installation) practitioner, and genuinely new for this page's own risk framing. [source: [[_Sources/YT_NO6-2zAJgys_krasnov_19controversial_items|NO6-2zAJgys]]]
+
+- **⚠️ Sensors misfire, companion apps freeze/lag, automations frequently don't behave as configured.** Many users report reverting to basic manual switches/thermostats over time and end up using only a few core functions (lighting on/off, climate control) out of a much larger installed feature set. **Recommends realistically assessing which specific smart-home functions will actually see daily use BEFORE investing in a full system**, rather than installing maximal automation by default. Converges with this page's own existing "prioritize tools that actually solve a problem for your specific household" framing (Kruglov's kettle counterpoint above) — same conclusion, independent channel, applied at the whole-system level rather than one device category.
+
+`single-account`, `unverified`.
+
 ## House/Villa-Specific Additions (⚠️ Not This Project's Apartment Scope)
 
 Flagged as outside this project's own apartment-renovation context —

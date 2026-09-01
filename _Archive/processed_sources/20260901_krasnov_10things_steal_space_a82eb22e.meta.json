@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Gs-g7kR_7bI",
+  "video_id": "Gs-g7kR_7bI",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T19:45:59.975214+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a82eb22ec86fda2f9762f16f52b301cc01fd60ab8b1f8c6a26c78b67dfd78235",
+  "attempts_before_success": []
+}

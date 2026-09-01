@@ -185,13 +185,23 @@ Two additions from a self-branded turnkey studio, worth reading against this pag
 
 `single-account`, `unverified`.
 
-## Source Notes
+## Accent-Wall Placement, Three Colour-Wheel Systems, and Temperature Matching (Игорь Краснов, added 2026-09-01, Round 4)
 
-Traceability record kept on its own page — [[17_Design_and_Ergonomics/analysis/Source_Notes|Source Notes]].
+The densest single source this round, extending several sections of this page at once. [source: [[_Sources/YT_vM7inxJZ-6U_krasnov_color_combination_mistakes|vM7inxJZ-6U]]]
 
-## Change Log
+- **Single accent wall rule**: never split a room's accent treatment across TWO walls in different colours (a 50/50 area split) — this creates two competing focal points the human eye can't resolve into a clear hierarchy ("ошибка чтения"). Use exactly ONE accent wall. **Independently converges with Anuta Vlady's existing one-accent-wall rule above** — same conclusion, unrelated channel.
+- **Accent wall placement**: position it OPPOSITE or DIAGONAL from the room's entrance, never adjacent to/bordering the entrance — a wall bordering the entrance can't function as a visual draw upon entry, which is the whole point of an accent wall. Extends Anuta Vlady's existing "placement must be justified by an object" rule with a specific entry-sightline mechanism she didn't state.
+- **Accent walls should be actively decorated, not left bare** — names specific decor techniques by style: macramé for Scandinavian-style rooms, framed art/posters (including AI-generated art as a legitimate modern option) for others.
+- **⚠️ Three named, concrete colour-wheel systems for combining accent colours with a base hue** — genuinely new, specific, technically useful content for this page:
+  1. **Analogous ("цвета-соседи")** — colours adjacent on the wheel (a few degrees either side of the base hue) used as harmonious accents.
+  2. **Complementary/two-colour system ("двухцветная система")** — colours directly opposite across the wheel's diameter. Worked example: a deep blue base with a muted/desaturated orange accent (grey curtains plus an orange bedspread and pillows).
+  3. **Triad systems, TWO named variants**: a classic equilateral 60°-spaced triangle, AND an alternate triangle with one 30° vertex and two 75° base angles — his STATED PREFERENCE, described as more "balanced." Worked example: blue + orange + red-toned accents together.
+  Explicitly states these systems work equally well with desaturated/pastel/muted versions of the chosen hues, not just fully saturated colours.
+- **⚠️ Warm/cool temperature-matching rule, with a lighting-specific illustration.** Never mix warm-toned and cool-toned colours/materials in the same space — group warm with warm, cool with cool. Neutrals (black/white/grey) are the explicit exception and pair with anything. **Independently converges with this vault's existing warm-pairs-with-warm rule** (Anuta Vlady, above). Illustrates the SAME principle with LIGHTING specifically: never install bulbs of genuinely different colour temperatures in the same fixture or room (his example: 3000K+4000K+5000K mixed) — see [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]] for the full lighting-fixture version of this claim (names AliExpress as a source of unreliable multi-temperature "smart" fixtures).
+- **Pastel + saturated-colour mixing critique** — don't scatter pastel and bold/saturated colours evenly through a room; group like-with-like (pastels together, saturated accents together) rather than distributing both types evenly.
+- **⚠️ Colour-selection SEQUENCE — a specific, actionable methodology genuinely new for this page.** Choose the room's BACKGROUND colour/temperature FIRST (of six surfaces — 4 walls, floor, ceiling — the floor is usually a fixed wood tone by default, so the real decision space is the other 5), and only AFTER that pick accent colours. Explicitly debunks the naive "what's your favourite colour" approach — **converges with this page's existing "start with an anchor object, not the wall paint" process content** on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process and Testing]], though from a different angle (sequence of surfaces, not sequence of anchor-vs-accent decision).
 
-Editorial history kept on its own page — [[17_Design_and_Ergonomics/analysis/Change_Log|Change Log]].
+`single-account`, `unverified`.
 
 ## How Much of Each Colour — the 60/30/10 Dispute, and a Better Answer (Надежда Кузина, added 2026-09-01, Round 4)
 
@@ -226,6 +236,9 @@ Three sources from one round, kept under one heading so this page does not fragm
 
 > [!NOTE]
 > **The disagreement is left open.** The formula's supporters on the curtain pages state it as a working heuristic; Кузина attacks its checkability, not its usefulness as a starting point. **Her own closing position is compatible with keeping it: use it if you want, but the goal is a logically built interior, not hitting a ratio.**
+
+> [!IMPORTANT]
+> **A third voice, added Round 4 (2026-09-01, Игорь Краснов): uses 60/30/10 uncritically, with no engagement with Кузина's attack on its checkability.** `vM7inxJZ-6U` states the rule explicitly as "60% background, 30% secondary accent, 10% boldest accent," framing it as a working design rule for choosing how much of a bold/saturated accent colour to use (his stated cap: a single bold accent should occupy no more than roughly 10% of a room's visible surface). This is the same uncritical-use camp as the curtain-page sources this section already contrasts against Кузина — **Krasnov doesn't defend the rule's checkability against her specific objections (what counts as a colour, how do you measure the proportion in a real photo), he simply applies it as a given.** Worth recording as a third data point on the "sources that use 60/30/10 uncritically" side of this page's own internal split (uncritical-use sources vs. Кузина's attack-and-replace), not as a new disagreement requiring its own block — the disagreement is already on record above. [source: [[_Sources/YT_vM7inxJZ-6U_krasnov_color_combination_mistakes|vM7inxJZ-6U]]]
 
 ### ⚠️ The replacement she offers — Itten's lightness-to-area principle, with a flagged error
 
@@ -346,3 +359,11 @@ A specific, detailed colour-usage caution, distinct from this page's general col
 - **⚠️ For anyone wanting orange's warmth without its visual aggression in an ordinary city apartment, recommends muted/adjacent alternatives instead**: terracotta, cinnamon, honey, chestnut, rust-brick, warm caramel — read as "warm/earthy/grounded" without the same dominance problem. Consistent with this vault's existing earth-palette content on [[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Neutrals & Earth-Tone Palettes]] (the "Earth and clay" group there names an overlapping set).
 
 `single-account`, `unverified`.
+
+## Source Notes
+
+Traceability record kept on its own page — [[17_Design_and_Ergonomics/analysis/Source_Notes|Source Notes]].
+
+## Change Log
+
+Editorial history kept on its own page — [[17_Design_and_Ergonomics/analysis/Change_Log|Change Log]].

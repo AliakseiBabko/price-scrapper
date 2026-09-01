@@ -133,6 +133,21 @@ mother's remote-work study)**:
   miniaturized) because of a genuinely narrow (~30cm) walkway beside
   the bed.
 
+## Bed Placement, Clearance, and Nightstand Count (Игорь Краснов, added 2026-09-01, Round 4)
+
+[source: [[_Sources/YT_mqIWre0VXGU_krasnov_sleep_mistakes|mqIWre0VXGU]]]
+
+- **⚠️ Bed placement — visible-on-entry sightline rule, distinct from this vault's existing prospect-refuge content.** The bed's headboard end should be what is VISIBLE when a person walks INTO the bedroom — since most room entries are offset to one side, position the bed (and its headboard) toward the wall diagonally opposite the entrance. **This is about the visual sightline registered on entry**, not about where the sleeper's own gaze points while lying in bed (Round 2's `ufKHek_TU30` prospect-refuge content, sofa/desk facing the entrance from the seated/lying person's perspective, on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning and Furniture Arrangement]]) — related but genuinely distinct claims, kept separate rather than merged.
+- **A bed pushed into a room corner is acceptable only for a single child's bed (~90cm wide) in a kids' room.** For any adult/shared bed, a corner position blocks access from one side entirely — asymmetric nightstands can partially compensate, but walkway access on BOTH sides remains mandatory.
+- **⚠️ Minimum walkway clearance on both sides of a bed: 600mm (60cm)** — stated explicitly as an ergonomic standard ("стандарт прохода с точки зрения эргономики"), extending this page's existing (thinner, Round 1) bed-clearance note above with a specific figure.
+- **⚠️ Two nightstands are mandatory for a shared adult bedroom; a single nightstand is acceptable only in a kids' room.** Functional reasoning: each person needs their own surface for a book, glasses, a lamp, and a phone charger — a single nightstand forces one partner to climb over the bed from the wrong side. **Cross-reference, not a duplicate**: this is about nightstand COUNT — a separate, same-round Krasnov source (`NO6-2zAJgys`, on [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers and Sinks]]) addresses nightstand FORM (open shelf vs. closed cabinet), a related but distinct axis.
+
+`single-account`, `unverified`.
+
+## Deep Console/Dresser Blocks the Foot-of-Bed Walkway (Игорь Краснов, added 2026-09-01, Round 4)
+
+A specific mistake, applying equally to a living room per the same source: an oversized dresser or console placed under a bedroom TV eats into the walkway between the foot of the bed and the console with no real functional benefit if a proper wardrobe/closet already exists elsewhere. Recommends a shallow console sized to actual need instead. See [[04_Living_and_Dining_Room/analysis/Living_Room_Layout_and_Furniture_Sizing|Living Room Layout and Furniture Sizing]] for the living-room instance of the same rule. `single-account`, `unverified`. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
 ## Source Notes
 
 See [[06_Small_Bedroom/analysis/Source_Notes|Source Notes]] for full

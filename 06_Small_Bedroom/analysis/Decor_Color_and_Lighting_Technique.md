@@ -193,3 +193,11 @@ Two Round 3 videos from the same channel appear to disagree about headboards but
 
 `single-account`, `unverified`.
 
+## Bedside Sconce Dual-Function Rule, and Blackout Curtains as Sleep Science (Игорь Краснов, added 2026-09-01, Round 4)
+
+[source: [[_Sources/YT_mqIWre0VXGU_krasnov_sleep_mistakes|mqIWre0VXGU]]]
+
+- **Bedside sconce dual-function nuance**: extends this vault's existing three-tier layered-lighting principle (general/decorative/functional, cross-reference — not duplicated) with one bedroom-specific point: wall sconces beside the bed should provide BOTH a diffuse/ambient function and a separate directed reading-light function, so one partner can read without disturbing the other.
+- **⚠️ Blackout curtains — sleep-science framing, genuinely new for this page.** Cites the need for genuinely total darkness ("тотальная кромешная тьма") for proper melatonin production and sleep restoration, attributed to "any professional somnologist." Names his own St. Petersburg white-nights problem in summer as a first-hand example of why this matters (no problem in winter). Recommends motorized curtains tied to a smart-home scheduling system (voice-activated via a generic smart-home assistant) specifically to enforce a CONSISTENT sleep/wake schedule — cites the claim that consistent sleep/wake timing matters more for restoration than total sleep duration.
+
+`single-account`, `unverified`.

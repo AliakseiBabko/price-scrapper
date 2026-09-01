@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=NO6-2zAJgys",
+  "video_id": "NO6-2zAJgys",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T19:47:55.581191+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d265763b2ddb4998d032e0e720cc26d8355f610c0aced7ca787cd3bec9a45a2d",
+  "attempts_before_success": []
+}

@@ -14,6 +14,10 @@ Alexey Zemskov / ZEMS says: **Strip cable insulation only with a dedicated wire-
 
 Alexey Zemskov / ZEMS says: **Lighting-circuit wiring is thinner-gauge than socket-circuit wiring and isn't rated for high-draw loads** — improvising a power tap from a light fixture/socket to run a higher-draw tool or appliance risks overheating the lighting circuit's conductors.
 
+## Don't Trust a Developer's Pre-Installed Electrical, Even in a "White Box" (Игорь Краснов, added 2026-09-01, Round 4)
+
+Игорь Краснов / Студия Краснов says: **⚠️ even a well-executed developer "white box" ("вайтбокс") pre-finish electrical layout typically needs to be substantially redone/expanded regardless of which finish tier is chosen afterward** — developer electrical planning is generic and under-provisioned by design (usually only one, or at best two, basic lighting/socket scenarios). Recommends planning to redo electrical work fully rather than relying on the developer's own layout, even where it "looks" competently done at handover. A genuine renovation-budgeting caution distinct from a general "developer work is often poor" complaint — this is specifically about the white-box package, which markets itself as already electrically finished. `single-account`, `unverified`. [source: [[_Sources/YT_HnIsWX96g6o_krasnov_7gross_decorating_mistakes|HnIsWX96g6o]]]
+
 ## Hiring Red Flags
 
 Alexey Zemskov / ZEMS says: **A hired electrician's own tool kit is a usable, checkable vetting signal**: a dust-extraction vacuum attached to the drill during wall-chasing/socket-hole cutting is a mandatory red-flag check — its absence means the crew is spreading masonry dust through the unit's cavities, a later air-quality issue. Round, cleanly drilled socket-box holes (vs. hacked/oversized square holes) indicate a competent installer. Standard on-center spacing for a ganged multi-socket box run is 71 mm.

@@ -268,3 +268,13 @@ Extends this page's existing TV Placement section above rather than duplicating 
 - **When a TV is used, prioritize furniture arrangement for conversation first** (seating that faces itself, room for drinks/feet-up comfort) and treat TV placement as subordinate — names several acceptable placement options (symmetric over a fireplace, on an open shelf, wall-mounted on an articulating bracket in a corner, on a media console) as long as the TV isn't the room's dominant focal point.
 
 `single-account`, `unverified`.
+
+## Round 4 Additions — Coffee-Table Context Rule, Furniture-Set Default Critique, and a Deep-Console Cross-Reference (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
+- **⚠️ Oversized coffee tables in compact living rooms block walkways** — recommends smaller side/accent ("приставные") tables in small spaces; reserves large/cascading coffee-table compositions for genuinely large country houses (living rooms 20m²+ standalone, or 300-500m²+ houses overall) — a specific context-matching rule.
+- **⚠️ Avoid the reflexive "sofa + two armchairs" furniture-set default** regardless of actual room size — leaving genuine open floor area is itself functional ("воздух" — room to breathe), not wasted space.
+- **Deep dressers/consoles under a living-room TV — a specific mistake, applying equally to a bedroom per the same source** (see [[06_Small_Bedroom/analysis/Furniture_and_Storage_for_Tight_Clearances|Furniture and Storage for Tight Clearances]] for the bedroom instance): an oversized console eats into the walkway between seating and the console with no real functional benefit if a proper wardrobe/closet already exists elsewhere. Recommends a shallow console sized to actual need instead.
+
+`single-account`, `unverified`.

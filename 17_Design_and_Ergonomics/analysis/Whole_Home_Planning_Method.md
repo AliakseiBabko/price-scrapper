@@ -258,3 +258,17 @@ Her own lived case, and it cuts both ways. She could not work while her husband 
 - **⚠️ In a one-room flat with three people you can still claim a workspace**: partition off a section of the *table* and state firmly that mugs, books and pies do not go on it and no one eats there.
 - **Psychological anchors substitute for physical separation** — objects carried over from the office (posters behind the monitor, a plant, the dog that used to sit beside you) marking that the working day has begun. **Rituals do the same**: fixed hours, working clothes rather than slippers, and the household raising its questions only afterwards.
 - **⚠️ On the wall behind the desk she contradicts the standard advice from her own negative result**: pinboards and marker boards covered in reminders and keyboard shortcuts **did not help her** — she looked every shortcut up on the computer and never remembered it was written in front of her. **Her alternative is a design principle: you are in a living room, not an office.** Decorate over the desk so it does not read as office, so that getting up for tea returns your attention to the room.
+
+## Round 4 Additions — Timeless Styles, Irregular-Layout Due Diligence, and Scenario Planning Over Corner Guards (Игорь Краснов, added 2026-09-01)
+
+### Named list of "timeless" styles vs. trend-driven ones
+
+His named fading-trend examples: loft, "clutter-core"/babushka style ("клаттеркор"), "dopamine decor" — all critiqued as fully unlivable if followed literally/wholesale rather than selectively, and as requiring a full redo within about a year if combined without one coherent stylistic foundation. **The durable/timeless list: Art Deco, minimalism, neoclassicism, Japandi, Scandinavian** — states these have each remained relevant across decades regardless of trend cycles. Recommends picking ONE base classic style and weaving in only 1-2 trend elements as accents, never the whole trend. [sources: [[_Sources/YT_DT_IjSALrX0_krasnov_5tricks_avoid_regret|DT_IjSALrX0]], [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
+
+### ⚠️ Irregular apartment layout as a real-estate red flag — pre-purchase due diligence
+
+A suspiciously large developer discount on a unit often signals either a bad floor (top/ground) or an irregular room geometry (pentagonal/hexagonal rooms, bay windows/erkers, curved walls — a 2000s architectural fashion). Rectangular/square rooms use floor area most efficiently; angular rooms create dead corners with no real use ("nowhere to put anything but a dirty mop"). Recommends scrutinizing the floor plan itself, not just the price, before purchasing. `single-account`, `unverified`. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
+### ⚠️ A predictably-bumped corner is a planning signal, not a corner-guard problem
+
+If a specific corner in a floor plan will predictably get bumped by foot traffic or kids running past, that's a signal the floor plan or furniture placement itself needs rethinking, not a signal to add a plastic corner guard as a patch — see [[07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance|Tile Installation, Sequencing & Acceptance]] for the companion 45°-mitred-corner tile-quality standard this framing accompanies. `single-account`, `unverified`. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]

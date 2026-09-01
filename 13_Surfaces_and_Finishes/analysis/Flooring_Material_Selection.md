@@ -25,6 +25,15 @@ Split out of `Flooring_Guide.md` on 2026-08-31. **Content was moved verbatim** �
 
 `single-account`, `unverified`.
 
+## Laminate and Floor-Microcement Rejected as a Personal-Opinion Position (Игорь Краснов, added 2026-09-01, Round 4)
+
+Krasnov's own stated personal refusal/opinion, restated across three Round 4 videos — recorded once here, counted once toward yield. [sources: [[_Sources/YT_FIAZhQGKq7g_krasnov_7designer_taboos|FIAZhQGKq7g]], [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]], [[_Sources/YT_DT_IjSALrX0_krasnov_5tricks_avoid_regret|DT_IjSALrX0]]]
+
+- **Laminate flooring — his stated personal opinion/refusal across all three sources**: prefers engineered wood ("инженерная доска") or quartz-vinyl instead. Specifically flags laminate degrading within 1-2 years in a wet zone. Consistent across all three videos, so it isn't a one-off aside — this is a settled personal position for his studio.
+- **⚠️ Microcement specifically on FLOORS (not walls) — a scoped material critique, genuinely new for this page.** A whole-room microcement floor reads as a cold, "cave"-like space in his stated opinion. Microcement on WALLS is explicitly fine/fresh-looking in his own projects (see [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]]) — the critique is floor-specific. Prefers stone, porcelain tile ("керамогранит"), or travertine for floors instead. Converges with this page's existing concrete/microcement-tradeoffs content above (Round 1, `GASrPcGISX0`) — an independent-video restatement from the same channel, not double-counted.
+
+`single-account`, `unverified`.
+
 ## Ten-Material Comparison: Selection Framework and Per-Material Mechanisms (added 2026-08-28)
 
 > [!NOTE]
