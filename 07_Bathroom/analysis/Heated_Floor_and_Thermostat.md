@@ -77,3 +77,14 @@ A debunk of a short-form clip proposing that the heating cable be run up the wal
 > **If you find yourself able to do this, you probably over-ordered the underfloor heating relative to your bathroom's area, and now have to contrive somewhere to put the surplus — because cutting it is not an option.** **"Строители подают это как супер крутой лайфхак, но на самом деле это просто результат их собственного просчёта."**
 
 **⚠️ And a running-cost consequence nobody mentions: once you have finished in the bathroom you no longer need the floor heating, but you do want the towel to keep drying — and the rail and the floor are now ONE device on one circuit. You spend extra electricity to dry a towel.**
+
+## ⚠️ What the Underfloor-Heating Drawing Must Carry (Татьяна Михайловская, added 2026-09-01)
+
+**The plan-side counterpart to this page's existing finding that the cable cannot be cut on site: if the zones are not dimensioned at design stage, the over-order that follows has nowhere to go.** [source: [[_Sources/YT_MkssMwpyVsI_mikhailovskaya_design_project_composition|MkssMwpyVsI]]]
+
+Her project carries **two systems — electric and from a gas boiler — distinguished by colour on the plan.** What the sheet must show:
+
+- **⚠️ The AREA of each specific heating zone, stated explicitly so that purchasing is easier.**
+- **⚠️ Offsets from the walls, drawn.**
+- **⚠️ No heating under furniture. None under appliances.**
+- **⚠️ And agreed with the client** — she names this as a step, not an assumption.

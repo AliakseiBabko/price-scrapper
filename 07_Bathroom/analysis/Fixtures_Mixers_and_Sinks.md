@@ -122,3 +122,45 @@ elsewhere on this vault), not a new mechanism on its own. [source: [[_Sources/YT
 
 **Related cost note**: the labour to install a *concealed* mixer is not much more than for a surface-mounted one, once measured against the cost of running the services — so concealed mixers need not be abandoned on labour grounds, and budget concealed models exist. [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
+## ⚠️ The Basin, and the Chain That Decides Your Layout (Татьяна Михайловская, added 2026-09-01)
+
+[source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+> **⚠️ THE STANDARD: 850 mm from finished floor to the TOP EDGE of the basin.**
+
+**Three types: vessel/countertop («накладная»), inset or undermount («врезная»), and integral solid-surface cast with the worktop.**
+
+### ⚠️ A vessel basin and an under-worktop washing machine are mutually exclusive
+
+**The best item in the source, because it is a constraint people discover after ordering — and it follows arithmetically rather than being asserted.**
+
+- A **vessel basin sits ON the worktop**, so the worktop must sit correspondingly lower.
+- **Working back from 850: with a bowl ~100 high, the worktop lands at ~750.**
+- **⚠️ A washing machine is 860–870 high. It does not go under a 750 worktop.**
+- **⚠️ So: "если в планировке у вас заложено расположение стиральной машины под столешницей, тогда раковина-чаша вам не подходит" — putting a vessel basin over a machine-height worktop puts the rim at 950–960.**
+
+> **Where a washing machine goes under the worktop, the basin must be inset, undermount, or an integral solid-surface top. The basin TYPE is dictated by the plan, not by taste.**
+
+**Her reason for pressing it: "самое главное у нас в интерьере — это эргономика… если ваша раковина на расстоянии метр, а у вас ребёнок — он не помоется."**
+
+### ⚠️ Basin type also decides the worktop material and the drawer layout
+
+- **An undermount basin is GLUED underneath, so the worktop must be genuinely moisture-resistant — not chipboard, and better not timber.** **A vessel basin permits chipboard postforming in very budget cases** — *"нежелательно крайне,"* but acceptable as a temporary answer.
+- **⚠️ And the storage consequence: with an inset basin the bowl's inset portion and the trap occupy the cabinet, so a full-width drawer drawn beneath it CANNOT EXIST.** **A vessel basin leaves only the trap inside, so there is materially more usable storage.** **Plan the drawer positions around the chosen basin.**
+  - She demonstrates this on a real rendering, showing the drawn drawer is impossible and that an exposed trap should be visible and is not.
+
+### Two more basin rules
+
+- **⚠️ Check basin width against the plan.** Her worked case: **860 between washing machine and cupboard means a basin no wider than ~800**, because an inset basin has rim beyond the bowl.
+- **Sharp corners accumulate dirt.**
+
+## ⚠️ Basin Mixers — Choose Them With the Basin, Not After It
+
+**Types: on the basin, on the wall (surface or concealed), on the worktop — plus a basin mixer with an integrated hygienic shower, a combined budget option.**
+
+- **⚠️ Spout length, worked: with a vessel basin and a concealed wall mixer you must know the worktop depth. A shallow basin (350) set 150 off the wall against a 100 spout means the water pours BEHIND the basin.**
+- **⚠️ From the basin's outer edge to the worktop's front edge: 20 mm maximum, ideally flush** — otherwise washing and leaning over are awkward and water runs off.
+- **⚠️ A tall vessel basin needs a tall mixer.** **An angled spout arcs the water inward and is forgiving; where water falls straight down, spout length and mixer position become critical.**
+- **⚠️ Some basins arrive with a tap hole — those cannot then take a wall mixer, because the hole remains.**
+- **⚠️ Therefore: "выбрали раковину, а потом может быть когда-то выберу смеситель — нет, так не работает."** And **the mixer position gets dimensioned on the drawings, so it must be a specific model.**
+- **⚠️ Buy mixers as a set where possible — "хотя бы производителя, хотя бы одного цвета."**

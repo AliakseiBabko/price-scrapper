@@ -242,3 +242,16 @@ The arrangement is common — **tile below, and increasingly wallpaper or paint 
 **⚠️ And her statement of what the drawing stage is for, which is unusually concrete**: *"именно для этого вы нанимаете дизайнера, который может на развёртке, на чертеже перепроверить пропорции"* — mirror size, vanity size, where the boundary runs, and whether the three land together.
 
 **Also**: with tile or wall panels meeting another material, **always resolve the edge («кромка») — how the end of the material is closed.**
+
+## ⚠️ Tile Setting-Out Is the Designer's Obligation, and It Belongs on Two Drawings (Татьяна Михайловская, added 2026-09-01)
+
+**A scope item this vault's tile pages did not carry.** [source: [[_Sources/YT_MkssMwpyVsI_mikhailovskaya_design_project_composition|MkssMwpyVsI]]]
+
+- **On the FLOOR PLAN: mark the starting point of laying and the setting-out dimensions** — her worked example is tile centred on the corridor.
+
+> **"Это входит в обязанности дизайнера — показать, как эту плитку разложить."**
+
+- **⚠️ And it must appear on the ELEVATIONS as well, because that is what the tiler actually works from: "по вашим разверточкам будет плиточник раскладывать вашу плитку, и это нужно уделять внимание этому."**
+- **She also counts the tile on the elevations** — including a separate count for the kitchen backsplash — and the floor covering on the floor plan.
+
+**⚠️ Read as a client-side entitlement: if a design package arrives with no setting-out point, the tiler will decide it on site, and the decision will be made by whoever is holding the trowel.**

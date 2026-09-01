@@ -215,3 +215,60 @@ A debunk of a widely-shared short-form claim that a threshold-free bathroom floo
 **Her charitable reading of what was probably meant, and it is the usable resolution**: where there *is* a height difference between the bathroom floor and the adjoining floor, **you need not form an angular rectangular threshold — you can make a mini-ramp within the door opening, and that is permitted.**
 
 **⚠️ But specify the door lining explicitly. An ordinary door fitter will resist cutting the лобor («добор») at an angle along the ramp and will want to cut it straight — leaving a large gap between the lining and the ramp that is hard to seal.** Decide this before the door fitter arrives, not after.
+
+## ⚠️ Bathroom Planning as Executed — Method, Dimensions and Servicing Access (Татьяна Михайловская, added 2026-09-01)
+
+**The strongest dimensional source routed to this page.** She plans **three real bathrooms live on screen** — two without replanning, one requiring it — **placing blocks, measuring gaps and rejecting arrangements when the numbers fail.** The dimensions below are not a table of minimums; **they are the numbers that killed specific layouts**, which is why they are worth more than a list. [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
+
+**Her framing of the difficulty**: a bathroom concentrates **high functionality and many services into a small area — sanitaryware, electrics, air conditioning** — while also needing storage, lighting, ventilation, materials, style and decor resolved.
+
+### ⚠️ The method
+
+1. **⚠️ Locate the sewer riser first. "Самое важное — это никуда не переместить унитаз. Унитаз первое, что мы располагаем."** The riser eliminates most walls before design begins. **Also fix: undemolishable ventilation channels, the door, pipes and meters.**
+2. **⚠️ Place the key items as plain rectangles and check whether everything fits AT ALL** — WC, shower, basin, washing machine, boiler. *"Сначала мы начинаем с грубых блоков… а потом уже, если видим, что окей, тогда разрабатываем дальше."*
+3. **Where the room takes a bath rather than a shower, start from the BATH** — the largest single object.
+4. **⚠️ And a whole-flat consequence: a bathroom needing replanning is not a local decision. "Планировка должна разрабатываться в комплексе"** — establish how much space the flat can afford to give it by laying out the other rooms, or work the other way from the bathroom.
+
+### ⚠️ The working dimensions
+
+| Element | Dimension |
+| :--- | :--- |
+| **Vanity / worktop depth** | **minimum ~550–600; she uses 600** |
+| **Built-in washing machine** | **600** (cabinet ~600 × 600) |
+| **Free-standing washing/drying machine** | **⚠️ more than 600 — she works at 650–680; needs side clearances and servicing access.** Cabinet ~700 |
+| **Entry into a shower enclosure** | **⚠️ 600 minimum. At 660 she only just passes; 540 is impossible** |
+| **Boiler** | **~400 × 500**, sometimes 350 × 500 |
+| **Shower enclosure** | **⚠️ 900 × 900 minimum — "это прям минимально." Bigger is better; she works at 1000** |
+| **Bath, to bathe adequately** | **⚠️ 1600 minimum** |
+| **Stationary partition** | **~50 plus tile ≈ 100 overall** |
+| **Basin rim above finished floor** | **⚠️ 850 — see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks\|Fixtures, Mixers & Sinks]] for what it forecloses** |
+
+**⚠️ The setting-out trap that killed one of her layouts: when you build a partition, count the adhesive AND the tile.** She needed **650** clear for a built-in washing machine and had **601** after finishes. **Plan partitions in structural dimensions, then subtract the finish.**
+
+### ⚠️ Constraints from the three worked layouts
+
+- **⚠️ A boiler cannot hang on a non-load-bearing wall as-is — it needs a welded steel frame to reinforce that wall, and the reinforcement must be entered into the project.** Not a site decision.
+- **⚠️ A glass panel enclosing a gap between a cupboard and the shower is a maintenance trap: dust and condensate collect there, that glass gets much dirtier, and you cannot wipe it.**
+- **⚠️ A WC directly facing the door is unacceptable to some clients — offer both variants.** Where it must be so, **the installation wall needs a deliberate decorative treatment to carry the attention**; in the alternative the basin becomes the first thing seen.
+- **⚠️ Where the entry is unavoidably tight, that specific fragment must be widened visually** — materials, textures and furniture chosen against that one problem. **A layout compromise generates a materials brief.**
+- **⚠️ Between a shower and free-standing washing/drying machines, build a STATIONARY tiled partition rather than glass** — the machines will get wet otherwise. **But note a glass enclosure reads semi-transparent even when frosted and so consumes less space visually than a solid unit** — *"не так глухо, как шкаф."*
+- **⚠️ Storage must be analysed by object — mop, buckets, basins, washing powder, shampoos** — and where the shower sits tight to the walls, **no built-in niches are possible and surface shelves are the consequence, which is a decision rather than an accident.**
+
+### ⚠️ Access for servicing — a gap this page did not cover
+
+> **"Обязательно думаем, как же мы будем технически обслуживать нашу ванную."** [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+- **⚠️ Provide access to the TRAP** — a concealed hatch, a removable tile, or access through a cabinet. **She pre-empts the objection that modern traps clean from outside: "да, я знаю… но как показывает опыт, случается разное."**
+- **Where a bath abuts a vanity: either a hatch in the tiling, or drop the vanity and access through it.**
+- **⚠️ DRAW THE HATCH ON THE VISUALISATION.** Her reason is expectation management — **a client seeing an unbroken tile face does not realise a hatch means a seam and a visible square. Show it, or the argument happens on site.**
+- **⚠️ A free-standing bath cannot have a hatch at all — access is from behind or outside. Know that before choosing one.**
+- **⚠️ Locate meters and water supply points at survey and hide them deliberately** — in a cupboard or behind the installation. *"Если мы сделаем всё красиво, а счётчики должны быть в ванной, а места нет — это будут изменения, и не очень в хорошую сторону."*
+
+### ⚠️ Shower versus bath — a programme decision, not a preference
+
+> **"Душевая кабина — она не ванная."** [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
+
+- **If a small sit-bath will fit at all, fit a small sit-bath AND a shower.**
+- **⚠️ The case she names: a young couple with no children who prefer showers. "Актуальность непосредственно ванны резко вырастет с появлением детей."** A child can be bathed in a baby bath to about a year, after which it becomes inconvenient — **and even a sit-bath is far more convenient than a shower enclosure.**
+- **If both will not fit, make a bath with a shower over it.**
+- **⚠️ And she treats warning the client as an obligation** — see the warn-and-sign-off rule on [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]].

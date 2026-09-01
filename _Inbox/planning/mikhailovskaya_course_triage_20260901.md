@@ -86,3 +86,32 @@ Real planning method — **start from the sewer riser, because WC position is co
 **Take the shortlist as a single small round (3 confirmed + 1 to verify), not as a channel.** There is no case for treating this as an ongoing source the way Кузина was: the channel is small, the course is software training, and the standalone videos appear to be occasional.
 
 **⚠️ And one structural point worth recording: this is the first source assessed in this vault where the *format* signal that has held across five Кузина rounds does not apply.** Кузина's weakest format is exposition and her strongest is rebuttal. **Here the discriminator is not format but audience: everything addressed to *designers learning a trade* is useless, and everything addressed to *a client making a decision* is useful.** Worth carrying to the next professional-training channel that turns up.
+
+---
+
+## Processed 2026-09-01 — 3 of the 4 shortlisted
+
+**3 videos, 2 h 20 min, 114 facts raw / 105 net of restatement — 38.0 raw / 35.0 net per video.**
+
+**⚠️ That is by a wide margin the highest per-video yield of anything processed into this vault** (Кузина's best round was 26.0), and it vindicates the triage: **the value was concentrated in about 8% of the playlist's runtime.**
+
+| Video | Len | Raw | Net | Note |
+| :--- | ---: | ---: | ---: | :--- |
+| `MkssMwpyVsI` design-project composition | 22 min | 27 | 25 | **The only manually-captioned source in this vault** |
+| `Lqx2GSllqFQ` bathroom pt 1 | 61 min | 42 | 38 | The strongest dimensional source for the bathroom pages |
+| `yqb7N1yA9hg` bathroom pt 2 | 57 min | 45 | 42 | **Highest single-source yield in the vault** |
+
+**`2h0XuwtM_4E` (wallpaper, 26 min) was NOT processed** — it was the unverified fourth item, flagged at triage as lowest confidence. **Still open; verify before spending the time.**
+
+### What these three changed
+
+- **⚠️ A second independent channel on designer scope of service.** Кузина gives the *stages* of a design project; this gives the *deliverables*, sheet by sheet, with five items a client would not know to demand — **tile setting-out as a designer obligation, underfloor-heating zone areas, separate black-and-white electrical elevations, labelling every outlet including unswitched ones, and labelling mechanisms on elevations.**
+- **⚠️ The single best item across all three: a vessel basin and an under-worktop washing machine are mutually exclusive**, and it follows arithmetically — 850 rim standard, ~100 bowl, ~750 worktop, 860–870 machine. **The basin type is dictated by the plan, not by taste.**
+- **⚠️ Access for servicing** — trap hatches, drawing the hatch on the visualisation, free-standing baths having no hatch at all, locating meters at survey. **A genuine gap in this vault, now filled.**
+- **⚠️ A second, independent argument for a bathroom threshold** — from drainage and serviceability, where the vault's existing one comes from leak-sensor shutoff timing. Two unrelated mechanisms, same conclusion.
+- **⚠️ And the documentation control for Кузина Round 5's finished-floor error**: 2,800 → 2,650 carried explicitly from the survey plan to the post-replanning plan. **One channel found the error; the other shows the practice that prevents it.**
+
+### ⚠️ Two notes for whoever returns to this channel
+
+1. **The audience discriminator held perfectly.** Every one of the three is nominally designer-facing, and every one is useful **because a walkthrough of what a designer delivers doubles as a checklist of what a client should demand.** That is a narrow exception and it should not be stretched — it did not rescue the 3ds Max lessons and would not rescue a business-of-design video.
+2. **⚠️ Do not treat this as an ongoing source.** The channel is small (9k subscribers), the course is software training, and the useful standalone videos appear to be occasional. **A periodic re-check for new standalone uploads is worth more than mining what remains.**

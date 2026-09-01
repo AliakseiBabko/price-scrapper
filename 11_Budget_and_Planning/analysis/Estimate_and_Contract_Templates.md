@@ -283,3 +283,51 @@ Complements the designer-engagement contract terms above with the *other* party'
 - **⚠️ The clause the last row implies: a render is not a contract.** Dimensions can shift at the drawing stage; **the concept and colours do not change, furniture or room dimensions may.** Stating this in writing is expectation-setting that costs nothing and prevents a predictable dispute.
 - **⚠️ And the scope boundary itself: a standalone visualisation buys an image, not a realisation.** *"Мы работаем над проектом не с целью нарисовать визуализацию, а с целью его воплотить."* A visualiser takes a brief and returns "task completed" — **no interpretation, no pushback, no iteration.** A client who bought the first and expected the second has a dispute, not a misunderstanding.
 - **The deliverable is legitimately omissible**: projects without 3D exist, and **an experienced designer's collage can substitute.** Worth naming in the contract as an option, with the trade stated — **the nuances a 3D-correction pass would have caught surface on site instead**, which is the most expensive place to find them.
+
+## ⚠️ What a Design Project Actually Delivers, Sheet by Sheet (Татьяна Михайловская, added 2026-09-01)
+
+**A SECOND INDEPENDENT CHANNEL on designer scope of service**, and it supplies what the first one lacked. Кузина's material above establishes what a design project *is* and why a render is not one; **this establishes what arrives, sheet by sheet — which is what lets a client hold a proposal up against something.** [source: [[_Sources/YT_MkssMwpyVsI_mikhailovskaya_design_project_composition|MkssMwpyVsI]]]
+
+> [!NOTE]
+> **Source quality note: this is the only manually-captioned source processed into this vault** — `generated=False`. It is also **designer-facing material**, which this vault normally rejects; **it survives because a walkthrough of what a designer DELIVERS is simultaneously a checklist of what a client should DEMAND.** The same enumeration reads both ways.
+
+### The three tiers
+
+| Tier | What it is | When it is right |
+| :--- | :--- | :--- |
+| **Эскизный** (sketch) | **Visualisation explicitly WITHOUT reference to reality** — no real materials, objects or lighting. A free rendering of the idea | **⚠️ Both cases are about risk, not budget**: the client is not yet sure of you or of the style, so neither side commits; **or the client can select and cost everything alone and needs only the idea.** She notes the second is rare |
+| **Стандартный пакет** | **The minimum set that can actually be built from.** Visualisation now WITH real materials, furniture, lighting, appliances and sanitaryware — **plus obligatory specifications and counts** of fittings, switches and so on | The normal case |
+| **Полный** | Everything above, **plus additional drawings and 3D views of the room, of furniture, and of individual contentious junctions** | A demanding client wanting maximum detail |
+
+**⚠️ What earns a 3D view in the full tier is worth noting, because it is not a sales image**: her examples are **the junction between furniture and a wall, or a special panel** — drawn *"для того чтобы не было допущено мебельщиками или строителями каких-то ошибок."* **A defect-prevention device aimed at the trades.**
+
+### The sheet list
+
+**Title page → contents table → survey plan → survey plan after replanning → demolition/construction → furniture and equipment layout → sanitaryware plan → electrical and heating appliances → sockets and switches → ceiling with light fittings → switch-binding plan → ceiling dimensions and niches (combined with ventilation) → floor plan → underfloor heating → elevation index → electrical elevations → colour elevations → 3D views → specifications.**
+
+Notes on individual sheets:
+
+- **Survey plan is what you measure on the FIRST visit** — no replanning, just what exists: ceiling height per room, window heights, openings, optionally ventilation channels.
+- **⚠️ Sanitaryware plan should name SPECIFIC, buyable models with dimensions** — and a drawing technique: **the plan in a lighter line with the sanitaryware in darker lines, so a glance locates each item.**
+- **Sockets-and-switches plan carries a table counting sockets, frames and outlets**, and **every socket and outlet is labelled with height and size.**
+- **⚠️ Ceiling plan should carry ceiling heights per level and the drop**, plus ceiling colour where an insert is not white. **Her own noted improvement: state the LED strip LENGTH so it reads quickly.**
+- **Specifications: "я указываю необходимый минимум, но не больше, чем этого нужно."**
+
+### ⚠️ Five items a client would not know to ask for
+
+**Each has a stated reason, which is what makes them demandable rather than stylistic.**
+
+1. **⚠️ Tile setting-out is the designer's job.** The floor plan must carry **the starting point of laying and the setting-out dimensions** — *"это входит в обязанности дизайнера — показать, как эту плитку разложить."* **And it must appear on the elevations too, because "по вашим разверточкам будет плиточник раскладывать вашу плитку."**
+2. **⚠️ Underfloor heating: state the AREA of each zone explicitly so purchasing is easier**; show offsets from walls; **none under furniture, none under appliances**; and agree it with the client.
+3. **⚠️ Separate BLACK-AND-WHITE electrical elevations** — see the electrical pages. Her reason: **sockets end up behind furniture and a ceiling outlet is easy to miss on a coloured drawing.**
+4. **⚠️ Label every electrical outlet, including ones no switch controls** — e.g. cabinet lighting switched by the door. **Her reason is self-checking: an unlabelled outlet is ambiguous between "deliberately unswitched" and "you forgot to connect it."**
+5. **⚠️ Elevations should label the MECHANISM, not just the object** — which drawer is push-to-open, where a handle is, *"открывание лифт наверх"*, which board, which mouldings, which finish where.
+
+### ⚠️ And the warn-and-sign-off rule, from the same channel's bathroom pair
+
+**Stated twice, in two different videos, as an obligation rather than a courtesy:**
+
+- On a client who wants only a shower: **warn them that a bath's relevance rises sharply with children — "ваша обязанность как дизайнера — предупредить, для того чтобы потом не было претензий."** [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
+- On a client who brings a reference image with a vessel basin: **warn them about the resulting basin height. "Если его это устроит, он подпишется на это, тогда вы можете смело снимать с себя всю ответственность. Если нет — тогда даже и не думайте."** [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+> **⚠️ Recorded here as a CLIENT-SIDE ENTITLEMENT, not only as the designer's protection: being warned about a foreseeable failure, and signing off on it knowingly, is part of what the fee buys.** A proposal that contains no such warnings is not thereby a smooth project.

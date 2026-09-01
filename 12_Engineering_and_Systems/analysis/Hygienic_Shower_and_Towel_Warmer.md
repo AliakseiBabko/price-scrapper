@@ -58,3 +58,21 @@ Vladimir Amelchenko addresses a common client complaint distinct from the hydron
 - **Inferior fallback, explicitly discouraged**: a furniture-style box (мебельный короб) around exposed pipes is possible but typically looks poor compared to fully recessing the pipe.
 
 [source: [[_Sources/YT_mLyxUEp1a68_sbk_conceal_bathroom_pipes|YT_mLyxUEp1a68]]]
+
+## ⚠️ One-Point vs Two-Point Hygienic Showers — a Planning Decision (Татьяна Михайловская, added 2026-09-01)
+
+**The hygienic shower replaces a bidet and is far more common in contemporary flats and houses.** [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+- **Two configurations: ONE-POINT** (holder, water supply and mixer at a single point) **and TWO-POINT** (mixer and holder in separate places).
+- **⚠️ Which one must be decided at PLANNING stage, because a two-point unit needs materially more wall space.**
+  - **Her worked case: 850 mm available beside the WC where 900 would be preferable, with a hygienic shower needed to the right — "целесообразнее выбрать гигиенический душ на одну точку, так как для его монтажа требуется меньше места."**
+- The mixer can be offset up or down from the holder, **but consider whether that is actually usable** — normally they sit in one line, and offsetting is *"чревато неудобными моментами и неправильным монтажом."*
+- **⚠️ A brief-stage question almost nobody asks: the hose type. Some are corrugated metal tube, some rubber cord. Neither is better — "они просто разные, разная их мягкость и разная эксплуатация." Ask the client which they prefer.**
+- Finishes: chrome, black, gold, coloured; round or square.
+- **A basin mixer with an integrated hygienic shower exists as a combined, lighter, budget option.**
+
+## Towel Rail — Sequence, and Why Electric Widens the Options
+
+**Decide the key zones first — WC, basin, bath, washing machine, boiler — and add the towel rail where it fits.** *"Я советую сначала определиться с ключевыми зонами… а потом уже добавлять полотенцесушитель."* [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
+
+**⚠️ And the consequence: if the rail is ELECTRIC rather than water-heated it can go almost anywhere, and the range of models, forms and sizes is far larger. So where the towel rail is the awkward item, switching to electric is the move.** *(Corroborates this page's existing electric-over-hydronic preference from the planning side rather than the plumbing side.)*

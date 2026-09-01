@@ -386,3 +386,16 @@ Traceability record kept on its own page — [[09_Laundry_Room/analysis/Source_N
 ## Change Log
 
 Editorial history kept on its own page — [[09_Laundry_Room/analysis/Change_Log|Change Log]].
+
+## ⚠️ Washer and Dryer — Cabinet Sizes, the Stacking Kit, and Where the Cupboard Belongs (Татьяна Михайловская, added 2026-09-01)
+
+[source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+- **Placements: under a worktop; in a pencil unit; in a separate cupboard; stacked with a dryer.**
+- **⚠️ Built-in needs a cabinet of roughly 600 × 600. Free-standing needs ventilation gaps and some play — the cabinet must be larger, around 700.** *(Consistent with the 650–680 clear width she works to in [[07_Bathroom/analysis/Planning_and_Layout|Bathroom Planning & Layout]].)*
+- **⚠️ A washer-plus-dryer stack is only available as free-standing units.**
+- **⚠️ THE DETAIL USUALLY DRAWN WRONG: a dryer stacks on a washer via a SPECIAL MOUNTING KIT — not on a chipboard shelf or a worktop between them.** Going through chipboard needs specific routing and fixing. **"В проектировании и визуализации мы понимаем, что вот так вот мы не делаем."**
+- **⚠️ "Красиво но неправильно": a washing machine set high in a tall cabinet — "клиент либо так не сделает, либо проклянёт своего дизайнера, потому что ему высоко."** Worse with small children.
+- **⚠️ A washer/dryer cupboard is deep, and in a small bathroom it must either be recessed into a niche or moved out of the room entirely.** Her current project puts it **in the kitchen beside the fridge**, which the ventilation channels permitted and the client agreed. **Worth considering before forcing it into the bathroom.**
+
+**⚠️ And the ergonomic coupling that may decide this for you**: a washing machine is **860–870 high**, so it will not fit under the ~750 worktop a vessel basin requires — see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers & Sinks]]. **The machine's location and the basin type are one decision.**

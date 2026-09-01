@@ -226,3 +226,15 @@ Unchanged from the split pass, and **the merge debt is now clear** — `Lighting
 **18 pages received Round 5 content and section counts stayed flat**, one top-level heading per page for the whole batch. **`13_Surfaces_and_Finishes/analysis/Material_and_Finish_Tiers.md` more than doubled (47 → 105) and is still well clear of the threshold** — it was the natural host for the practical-versus-good table and had the room.
 
 **Still owed and still untouched across four passes: `03_Kitchen/Kitchen_Furniture.md` (568 lines / 38 sections), the worst page in the vault by section count.**
+
+## Update after the Михайловская mini-round (2026-09-01)
+
+**Flagged count 21 → 22.** `07_Bathroom/analysis/Planning_and_Layout.md` crossed at **274 lines / 19 sections**.
+
+**⚠️ No exception added, and the contrast with the Lighting_Design entry is the point.** That page was excepted at 410 lines / **11** sections — over a flat line threshold with a topic count below the cluster trigger, on a structure that had just been deliberately designed. **This one is at 19 sections, which is a genuine topic count and exactly the signal the checker exists to catch.** An exception here would be using the file to make a number go down.
+
+**It is now a real split candidate**, and the seam is visible: the page carries **(a) approvals and expansion direction, (b) layout method and dimensions, (c) fixture placement and clearances, and (d) access for servicing** — the last of which arrived in this round and is a distinct decision from the rest.
+
+**Priority: below `03_Kitchen/Kitchen_Furniture.md` (568 lines / 38 sections), which remains the worst page in the vault by section count and is now untouched across five passes.**
+
+**Otherwise unchanged.** Twelve pages received content and section counts stayed proportionate; `12_Engineering_and_Systems/analysis/Wall_Hung_Toilet_Installation.md` grew from 21 to 57 lines and is nowhere near the threshold.

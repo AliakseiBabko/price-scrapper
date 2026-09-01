@@ -313,3 +313,15 @@ Her worked example is a restaurant washroom she admired in detail: **plain small
 **Beautiful right up until the latch would not engage its keeper, and she changed cubicle.**
 
 **⚠️ Her point is about acceptance, and it belongs with the snagging stage: at the end of a renovation, do you accept work like that or not — and when something later breaks, do you fix it or decide everything is fine?** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+## ⚠️ The Documentation Control for the Finished-Floor-Level Error (Татьяна Михайловская, added 2026-09-01)
+
+**This page already records the highest-consequence rough-stage error found so far: a miscalculated finished-floor level, which makes fixtures unusable and is invisible until fit-out.** [source: [[_Sources/YT_MkssMwpyVsI_mikhailovskaya_design_project_composition|MkssMwpyVsI]]]
+
+**A second, independent channel supplies the control for it — and it is simply documentation.**
+
+**⚠️ Her worked project goes from a 2,800 mm ceiling height on the survey plan to 2,650 mm on the post-replanning plan, because the floor level rose after levelling — and she shows recording that change as normal practice, carried explicitly from one drawing to the next.**
+
+> **The number that later governs every fixture height is written down rather than assumed.** Two independent channels: **one making the error visible, the other showing the practice that prevents it.**
+
+**⚠️ And a related sequencing fact from the same round: the WC installation frame mounts on the CONCRETE floor, before the screed is poured and before tiling** — see [[12_Engineering_and_Systems/analysis/Wall_Hung_Toilet_Installation|Wall-Hung Toilet Installation]]. **So the WC type is fixed at planning stage, and it is fixed against the same finished-floor number.**

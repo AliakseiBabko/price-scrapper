@@ -178,3 +178,31 @@ Both from a planning lecture, and both are decided at layout stage rather than b
 
 - **⚠️ A bunk bed requires a two-way switch at the door, and she found this out by testing it.** The sconce must be reachable from the bed — but without a second switch by the door, a child who falls asleep with the sconce on in the **top** bunk means a parent climbing the ladder past a sleeping child to turn it off. **"Я кстати пробовала, я реально сама просто на этой лестнице не помещаюсь."**
 - **Where spouses wake at different times, the bedroom wardrobe zone needs its own lighting and its own control**, so one can dress without waking the other. Both belong in the electrical drawing at the same time the bedroom layout is fixed.
+
+## ⚠️ Two Drawing-Stage Practices That Prevent Electrical Errors (Татьяна Михайловская, added 2026-09-01)
+
+**Both come from a designer walking through her own project package, and both are practices this vault had nothing on.** [source: [[_Sources/YT_MkssMwpyVsI_mikhailovskaya_design_project_composition|MkssMwpyVsI]]]
+
+### 1. Separate black-and-white electrical elevations
+
+**Elevations showing ONLY sockets, switches, electro-outlets and cable channel — in black and white, for every wall of every room including bathroom and WC, with dimensions.**
+
+**She notes she has not seen other designers do it, and gives the argument rather than a preference:**
+
+> **"Многие розетки у нас находятся за мебелью, электровывод можно упустить, который там в потолке находится. Если мы делаем отдельно такие развертки, мы этого не упустим."**
+
+**On a coloured elevation carrying furniture an outlet is legible but easy to overlook. On a bare one it is the only thing there.**
+
+*(Her own self-criticism on the drawing, offered as advice: the hatching overlapped the labels — "либо делайте штриховку светлее, либо подписи немножко смещайте… не делайте так, как я.")*
+
+### 2. ⚠️ Label every outlet, including the ones no switch controls
+
+**On the switch-binding plan she labels every electro-outlet — including those not connected to any switch**, for instance one energised by a door opening.
+
+Her worked labels: *"электровывод, высота такая-то, подсветка шкафа, выключается на открывание двери"*; and for a sconce switched on the fitting itself, *"бра выключается на приборе."*
+
+> **⚠️ The reason is self-checking, not documentation: "часто можно сделать ошибки в этих планах, и для того чтобы себя перепроверить, лучше все выводы взять себе за принцип подписывать."**
+>
+> **An unlabelled outlet is ambiguous between "deliberately unswitched" and "you forgot to connect it."** Labelling removes the ambiguity — **and reduces questions back to the designer.**
+
+**Also on the sockets-and-switches plan: a table counting sockets, frames and outlets, with every socket and outlet labelled with height and size.**

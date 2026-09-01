@@ -19,3 +19,39 @@ Two common misconceptions worth correcting before choosing between wall-hung and
 - **Frame depth is a real use-case variable**: standard depth (~15cm) for ordinary in-wall installs against a real wall; slim depth (~8cm) for stud/false-wall builds specifically to save space behind the fixture. **The slim variant's rear/floor connection method is generally only practical in private/detached-house construction** — in a multi-story apartment building, the fixed sewer-stack location typically rules it out.
 - **Rimless toilets are the current standard hygiene recommendation over rimmed toilets** (a rim traps dirt the manufacturer's glaze process can't reach) — but rimless designs can splash water onto the floor on flush if flow isn't tuned to the bowl. **Fix**: interchangeable flow-restrictor rings fitted inside the flush outlet (from the toilet or frame manufacturer) widen or narrow the water column — DIY-installable, no plumber required.
 - A height-adjustable installation ("toilet terminal" style) exists for children's bathrooms — toilet height can be lowered while children are small and raised later without redoing surrounding tile/finish.
+
+## ⚠️ Choosing the Pan and the Frame Together, and Why It Is a Planning-Stage Decision (Татьяна Михайловская, added 2026-09-01)
+
+[source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+### The pan
+
+- **⚠️ Beyond keeping it near the riser: "унитаз не терпит прямых углов" — right angles in the WC's drain run risk poor operation of the drainage system.** A constraint on how the connection runs, not only on distance.
+- **Three installation types**: **floor-standing with visible cistern** (no frame needed; cheapest in simple forms); **floor-standing with concealed cistern** (a frame, but not wall-hung — *"для современного интерьера это тоже очень красиво"*, and a wall-hung pan is not obligatory); **wall-hung concealed.**
+- **⚠️ Floor-standing costs you two things: cleaning around it, and the installation detail — a coloured pan sealed with white silicone "может испортить внешний вид."**
+- **⚠️ Choose rimless («безободковый») — more hygienic.**
+- **⚠️ Square forms photograph well and are often impractical. Unless the brief demands hard-cornered square, choose ergonomic rounded forms — square with rounded corners is fine.**
+- **White is cheapest; colour costs more.**
+
+### ⚠️ The frame
+
+- **⚠️ The frame is chosen TO SUIT the pan — "технические характеристики инсталляции должны соответствовать техническим характеристикам унитаза."** Not any frame under any pan.
+- **Depths vary — 15, 17, 18 cm. ⚠️ 18 cm is standard, and allowing 18 plus tile or panel in the project will be right** even before a model is chosen.
+- **Typical envelope: ~180 deep × ~1100 high × 500–550 wide.**
+- **⚠️ Compatibility is determined by the fixing studs — check the mounting-centre spacing matches the pan.**
+
+> **⚠️ THE SEQUENCING FACT, and it is why this is not a fit-out decision: the frame mounts on the CONCRETE floor, not on tile. It is among the very first things installed — before the screed is poured and before tiling.**
+>
+> **So the WC type and the frame must be settled at PLANNING stage.** A pan chosen late may not fit the frame already built in.
+
+### ⚠️ The flush plate constrains the cladding
+
+**Two kinds: surface-mounted («накладная») and tile-insert («под плитку»).**
+
+- **⚠️ Chromed buttons finger-mark badly and need constant polishing.**
+- **A tile-insert plate is far easier to keep clean — provided the tile or porcelain is non-marking — but "требует хорошего мастерства плиточника" to cut neatly.**
+- **⚠️ AND THE COUPLING: a tile-insert button requires the installation to be FACED IN TILE. If it is clad in MDF, HPL or chipboard panel, you must use a surface-mounted button.** **Button and cladding are one decision.**
+
+### Bidet
+
+**Rarely used in flats because of limited area** — more likely in a house or a large flat with several bathrooms. **Comes as a set with the WC, so match manufacturer and form, and it needs a dedicated bidet mixer.**

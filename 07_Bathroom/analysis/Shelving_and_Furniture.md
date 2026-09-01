@@ -150,3 +150,17 @@ The same page's existing concealed-fixing technique (an acrylic or metal plate c
 - **⚠️ Worktops and vanity units are the recommended application: choose oak, impregnate thoroughly, and wipe water off as soon as it lands.**
 - **⚠️ Barn board («амбарная доска») — a specific caution.** Reclaimed and deliberately barely processed, or it loses its charm — **but often so warped that even a purpose-cut recess for the basin base does not save it.** It crumbles, and carries deep cracks and holes where moisture, dust and dirt collect **and cannot be cleaned out.** Her principle: **"если вы покупаете предмет с историей, то вы покупаете и всё, что к этой истории прилагается."** Two clean alternatives: a flat surface with no patina, or **an imitated aged look**, where the cracks are shallower, freshly coated, and maintainable.
 - **⚠️ Small wooden items tolerate humidity considerably better than large ones.** Mirror frames, ladders, stools, short shelves keep their appearance well. Care is the same as a worktop — wipe them, and **do not let them stand in a puddle.**
+
+## ⚠️ Bathroom Storage — Where It Actually Goes, and What Forecloses It (Татьяна Михайловская, added 2026-09-01)
+
+> **"Можно супер круто расположить сантехнику, офигенно круто выбрать смесители, но не предусмотреть место для хранения — и это всегда будет провально."** [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+- **Use the space under the basin to the maximum, especially in a flat.**
+- **⚠️ But the basin type decides how much of it is real.** With an **inset basin** the bowl's inset portion and the trap occupy the cabinet, **so a full-width drawer drawn beneath it cannot exist.** A **vessel basin** leaves only the trap inside, **so there is materially more usable storage.** **Plan drawer positions around the chosen basin** — she demonstrates the failure on a real rendering.
+- **⚠️ Above the installation: by default always a cupboard, or the boiler — push the installation out to 400 mm to create it.** Washing powder, toilet paper, jars.
+- **⚠️ Storage behind the mirror is mandatory where storage is short.** She concedes a decorative backlit mirror is prettier — *"но если нет других вариантов, обязательно делаем место хранения за зеркалом."*
+- **In showers: built-in niches where the layout permits, otherwise surface-mounted shelves — decided at planning stage, not later.** *(And note from [[07_Bathroom/analysis/Planning_and_Layout|Planning & Layout]]: a shower pushed tight to the walls makes built-in niches impossible, which is a consequence of the layout rather than an accident.)*
+- **⚠️ A reach check she applies out loud: a cupboard running from 800 up to 1600–1700 is beyond a short person's reach** — only something at the very edge is retrievable.
+- **⚠️ Storage must be analysed BY OBJECT** — mop, buckets, basins, washing powder, shampoos — **and where nothing fits, the answer may be a section of a wardrobe elsewhere in the flat.** [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
+
+> **⚠️ Her explicit ranking, which is the point of the section: "пусть мы жертвуем красотой визуализации в Инстаграме, но человек будет доволен, и этот дизайн будет сделан правильно."**
