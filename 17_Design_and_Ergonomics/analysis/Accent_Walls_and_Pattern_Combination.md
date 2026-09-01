@@ -189,3 +189,13 @@ Two interiors, both with bright emerald walls:
 - **⚠️ The boundary with wall painting, as a gradient**: plain walls → a composition involving a picture → stripes appearing → **recognisable forms (mountains, sky, clouds), which is "уже точно не color block, уже точно роспись."** **"Если вы делаете не квадраты, есть риск заиграться формой. Color block — это больше про цвет; формы должны быть простыми и беспредметными."**
 
 *(The source also carries a substantial De Stijl / Bauhaus lineage argument — that the technique reached interiors via Mondrian → Bauhaus rather than via Saint Laurent — plus Malevich, El Lissitzky, Le Corbusier and Perriand. **Deliberately not routed as art history, per this vault's standing deprioritisation.** The one historical item kept: **Alvar Aalto's 1929 hospital, where a yellow rubberised corridor and stair floor was specified to recall the sun and make common areas more humane** — the single case where the technique is tied to a stated purpose.)*
+
+## ⚠️ Unmounted Art Merges Into a Patterned Wall (Татьяна Михайловская, added 2026-09-01)
+
+**A precise, checkable composition constraint, demonstrated rather than asserted.** [source: [[_Sources/YT_2h0XuwtM_4E_mikhailovskaya_wallpaper_selection|2h0XuwtM_4E]]]
+
+Reviewing a picture hung against patterned wallpaper, she notes it works **only because it carries a white mount («паспарту»).** **⚠️ Remove the mount in Photoshop and the picture's own image merges into the wallpaper pattern, and the wall reads badly.**
+
+> **The general rule: against an active-patterned wall, something must separate the artwork from the ground — a mount, or a frame doing the same job.**
+
+*(Complements the accent-wall material above: this page's existing rules govern how much pattern a room can carry; this one governs what can be hung on it once it is there.)*

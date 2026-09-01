@@ -338,3 +338,64 @@ The *selection* method is on [[17_Design_and_Ergonomics/analysis/Color_Selection
 ### ⚠️ Wallpaper meeting paint on the same wall
 
 **Where a wall is divided horizontally between wallpaper above and paint below, separate the two zones with a moulding.** Two practical reasons: **you do not see the wallpaper's cut edge, and it cannot start to peel.** The full two-colour-wall technique, including the proportion and the boundary-collision rules, is on [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]]. [source: [[_Sources/YT_lptrnXyf0as_kuzina_two_colours_one_wall|lptrnXyf0as]]]
+
+## ⚠️ Perspectives — Does Wallpaper Hide Cracks or Accentuate Them? (added 2026-09-01)
+
+**Two practitioners, opposite claims, and unlike most disagreements in this vault this one is a physical, checkable fact rather than a matter of judgment.**
+
+| | **Татьяна Михайловская** | **Мария Шеврина / SMBUREAU** |
+| :--- | :--- | :--- |
+| **Claim** | Wallpaper **"даёт возможность стенам не растрескиваться или не видно трещин"** — cracks do not show through it | **"Wallpaper does not hide cracks — it accentuates them."** A settling building cracks, and wallpaper **draws the eye straight to those places** |
+| **What it is used for** | **The FIRST of her three justifications for specifying wallpaper**: a room prone to cracking, on a budget with no alternative | **A myth to be corrected** — and she is separately dismissive of reinforcing mesh, *"как пластырь на дыру в асфальте"* |
+
+[source: [[_Sources/YT_2h0XuwtM_4E_mikhailovskaya_wallpaper_selection|2h0XuwtM_4E]]] · [source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
+
+> **⚠️ Recorded as unresolved rather than folded into either side.** It matters because **the argument for wallpaper over paint in a new build rests substantially on it.**
+>
+> **Neither supplies evidence.** But the two are not symmetrical: **Шеврина states a mechanism** (the crack telegraphs, and the eye is drawn to it) **and supports the adjacent restorability claim with a worked case from her own flat**; Михайловская states hers in passing, as a premise for a recommendation. **On the evidence available Шеврина's is the better-supported side — but this should be settled by a third source or by direct enquiry, not by weighing two assertions against each other.**
+
+## ⚠️ Wallpaper Must Not Imitate What It Cannot Imitate (Татьяна Михайловская, added 2026-09-01)
+
+**A diagnosis rather than a preference, and it explains the reputation the material has.** [source: [[_Sources/YT_2h0XuwtM_4E_mikhailovskaya_wallpaper_selection|2h0XuwtM_4E]]]
+
+> **"Обои претендуют на имитацию тех материалов, которые они имитировать в принципе не могут."**
+
+**⚠️ The mechanism is tactile, not visual: brick, stone, tile, board and cracked concrete are HARD, RELIEF materials, and you know that by touch. Wallpaper is smooth. "Идёт диссонанс восприятия того, что мы видим, и того, что мы чувствуем, и мы понимаем, что это подделка."**
+
+- **⚠️ CANNOT imitate: brick, stone, tile, board, textured concrete.** *"Не претендуйте обоями на то, что вы сможете сымитировать кирпичную кладку."*
+- **⚠️ CAN handle: light plaster, fabric and silk textures, fine grit or crumb textures** — anything itself smooth or only slightly relieved.
+- **⚠️ THE RENDER TRAP, and it is the reason this gets specified at all: "на визуализации может смотреться хорошо, в интерьере никогда — это будет сразу подделкой пахнуть." The failure mode is invisible in exactly the medium the decision is made in.**
+- **⚠️ Gloss compounds it.** A stone that would be matte and slightly rough in reality, printed glossy and smooth, is *"точно нет, никогда нет."*
+
+### ⚠️ Her test — ask the wallpaper what it claims to be
+
+> **"Что вы хотите мне сказать? Что вы имитируете?" If the answer matches what you actually see and feel, take it. If not, do not.**
+
+| The wallpaper | Its claim | Verdict |
+| :--- | :--- | :--- |
+| Stamped gold on a ground | *"I am paint, stamped"* | **Take** — she checks whether she could reproduce it by hand with a stamp; repeat ~1 m; honest |
+| Board / plank imitation | *"I am assembled from boards"* | **Reject** — *"досточку я вижу, но это будет гладко. Я не верю этим обоям"* |
+| Painted fish panel | *"I am something smooth painted on a wall"* | **Take** — the claim is true. She rates photo-panels highly |
+| Hard woven / plait imitation | *"I am a hard weave"* | **Reject** — *"они не жёсткие, не плетёные, гладкие"* |
+| Stone, especially glossy | *"I am rough quarried stone"* | **"Сто процентов нет"** |
+
+**⚠️ Her framing of the stake, which is stronger than a taste claim: a dishonest imitation "будет обманывать моего зрителя и будет вносить в мой интерьер нечестность."**
+
+## ⚠️ When Wallpaper Is Legitimate — Three Justifications (Татьяна Михайловская, added 2026-09-01)
+
+**Her position is neither advocacy nor refusal: "я использую обои в своих проектах, но очень дозировано и правильно."** And her frame is that wallpaper is defensible **when the reason is NOT visual** — *"когда это обосновано техническими какими-то моментами или бюджетом."* [source: [[_Sources/YT_2h0XuwtM_4E_mikhailovskaya_wallpaper_selection|2h0XuwtM_4E]]]
+
+1. **⚠️ Technical / budget.** Wallpaper is easy to hang and cheap. **Her worked allocation argument: a new build on a modest budget where the money should go into interesting FURNITURE, so you save on wall finishes.** The saving is deliberately moved to where it shows more. *(Her crack argument is the contested one — see the Perspectives block above.)*
+2. **⚠️ Style.** Some styles presume wallpaper and it creates no dissonance: **Art Deco, classic, contemporary classic, Provence.** **Her criterion: where silk or fabric wall coverings are characteristic elements OF the style, wallpaper is the right material rather than a substitute for one** — and it need not be cheap; it can be good wallpaper hung by a good craftsman in a non-budget interior.
+3. **⚠️ Function — the children's-room case, where the material's weakness is the argument for it.** She describes projects painted throughout with the child's room alone wallpapered: **paper wallpaper is ecological and safe; it carries atmosphere in a way paint cannot; and it is easily damaged and easily replaced, which in a child's room is a feature.** **⚠️ The caveat that makes it usable: this applies to PAPER. Non-woven («флизелиновые») is "не совсем про экологию."**
+
+### Paintable wallpaper — a sharper criterion than this page held
+
+**She calls it "супер коварный вид обоев" and uses it very rarely.** **⚠️ If used, the texture must imitate PAINT specifically — not plaster, not wood, not Venetian — meaning the finest possible fraction.** Prefer a wide roll, **and see it in person.**
+
+### ⚠️ Pattern repeat, and the trade against roll width
+
+- **⚠️ The repeat («рапорт») should be as large as possible, so the repetition is as infrequent as possible** — *"чтобы шаблон был либо не виден, либо максимально незаметный."*
+- **⚠️ The checkable version: if the pattern repeats twice within a single roll width, it reads as a template and will be hard to place.** She rejects several samples on exactly that test. **Her worked acceptance is a motif repeating at roughly 80 cm** *(estimated from an image, not measured)*.
+- **⚠️ "Обои лучше брать чем шире, тем лучше" — a wider roll means fewer seams. If only 50 cm is available take it, but then the repeat must be large.** **The two compound: a small repeat on a narrow roll puts the template in front of you twice per drop.**
+- **Named as dated: Soviet-photomural-style florals, and tropical palm-leaf papers with a visibly frequent repeat.**
