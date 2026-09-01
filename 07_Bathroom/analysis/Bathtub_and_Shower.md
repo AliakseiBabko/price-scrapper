@@ -439,3 +439,27 @@ From her "красиво но нереализуемо" gallery. [source: [[_Sou
 - **A free-standing bath with a gap behind it and a wall mixer — "как помыть и вытереть за ней?"**
 - **⚠️ Her fix where one must sit against a wall: there are baths that read as free-standing but have a flat back that abuts it. Use those.**
 - **⚠️ And the podium warning: too little tread beyond the bath edge means you step out onto a narrow ledge with nowhere for a non-slip mat — "можно просто убиться."** Her positive counter-example is deliberately an ugly picture: **a ribbed non-slip podium, the floor mixer standing clear with access all round, and access to the bath.**
+
+## ⚠️ Freestanding Corner Bathtub — Mold-Risk Critique (Игорь Краснов, commenting on designer Jane Hallworth's project, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_uPtvVVYKjnI_krasnov_kirsten_dunst_critique|uPtvVVYKjnI]]] — genuinely new to this vault's bathroom content (existing content above covers shower slope/serviceability and freestanding-bath-behind-wall cleaning; this is specifically about corner placement with no direct access on multiple sides.
+
+**⚠️ A bathtub placed in a room corner with no direct access on multiple sides is "a nightmare to clean" even with professional cleaning help** — the wet, dark, hard-to-reach corner becomes "an excellent breeding ground for mold." **Krasnov's explicit personal rule: he would never place a bathtub in a corner regardless of how it looks.** Converges with, and sharpens, this page's existing free-standing-bath serviceability critique above (Михайловская's "how is it mopped/cleaned behind it" question) into a specific named mechanism — mold risk from a wet, unreachable corner, not just cleaning inconvenience.
+
+`single-account`, `unverified`.
+
+## ⚠️ Raised-Platform Bathtub Integrated Into an Open Bedroom — a Rare Case (Robert Stilin's own Brooklyn loft, Krasnov's commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_haxBpHW8xp8_krasnov_top100_designer_own_apartment|haxBpHW8xp8]]] — **tagged explicitly as an inspirational/rare-case example, not standard practice, and not directly applicable to this project's own more conventional apartment layout.**
+
+The tub sits on a raised platform within an open bedroom itself (not a separate enclosed bathroom), reading as its own defined volume via the height change rather than needing an enclosing wall — privacy/zoning achieved purely through the level change plus rugs and furniture placement rather than a door. **Krasnov's own added framing**: "a rare example" of successfully avoiding the usual technical/legal constraints on bathroom enclosure/placement.
+
+`single-account`, `unverified`.
+
+## Dark Glossy Tile — a Context-Dependent Counter-Case (Krasnov commenting on architect Robert Gar / owner Tracy Underwood's real NYC co-op renovation, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]] — **flagged explicitly as a context-dependent exception, not a contradiction to resolve against this vault's multiple existing anti-gloss critiques elsewhere** (see e.g. `sAxHiPERmmY`'s glossy-stretch-ceiling critique on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection]]).
+
+Dark glossy tile texture used deliberately in a small bathroom for a sense of depth, alongside vertical narrow tile format to visually emphasize wall height — praised as part of a multi-technique bathroom-lighting bundle (see [[07_Bathroom/analysis/Lighting_and_Electrical|Lighting & Electrical]]) that let a genuinely dark palette still read as spacious. Record as a specific, stated exception where gloss was used successfully in combination with layered lighting, not a general endorsement of glossy tile.
+
+`single-account`, `unverified`.

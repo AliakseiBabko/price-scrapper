@@ -164,3 +164,11 @@ The same page's existing concealed-fixing technique (an acrylic or metal plate c
 - **⚠️ Storage must be analysed BY OBJECT** — mop, buckets, basins, washing powder, shampoos — **and where nothing fits, the answer may be a section of a wardrobe elsewhere in the flat.** [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
 
 > **⚠️ Her explicit ranking, which is the point of the section: "пусть мы жертвуем красотой визуализации в Инстаграме, но человек будет доволен, и этот дизайн будет сделан правильно."**
+
+## Storage Relocated Entirely Outside the Bathroom — a Real Small-Bathroom Case (owner Tracy Underwood's real NYC co-op, Krasnov's commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
+
+Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part of the apartment, leaving only functional fixtures plus a few small hidden shelves inside — extends this page's existing "storage must be analysed by object, and where nothing fits the answer may be a section of a wardrobe elsewhere in the flat" principle (Михайловская, above) with a concrete real-project applied case for a genuinely small bathroom.
+
+`single-account`, `unverified`.

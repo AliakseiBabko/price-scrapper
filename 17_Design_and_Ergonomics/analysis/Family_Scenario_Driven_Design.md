@@ -191,4 +191,21 @@ Two Round 5 sources add a genuinely concrete personalization anecdote and a foun
 
 `single-account`, `unverified`.
 
-`single-account`, `unverified`.
+## ⚠️ Frank Lloyd Wright's "Compression and Release" Principle — a Named Architectural Concept (architect Robert Gar, Krasnov's own applied extension, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]] — a real, documented pre-war NYC co-op renovation; the principle is Gar's own, citing Frank Lloyd Wright, not Krasnov's invention.
+
+**⚠️ A genuinely new named architectural concept for this vault**: alternating narrow/constrained transition spaces (e.g. a narrow entry hall) with open/expansive zones (a bright open living room) creates a psychological contrast that makes the open zone feel MORE spacious than its actual square footage. Attribute this specifically to architect Robert Gar citing Frank Lloyd Wright, not to Krasnov.
+
+**Krasnov's own added, concrete application**: for a studio-to-one-bedroom conversion specifically, making the new bedroom slightly MORE enclosed/cozy makes the remaining main living zone feel more spacious BY CONTRAST, not smaller — a specific, actionable small-apartment zoning technique Krasnov derives from Gar's cited principle.
+
+`single-account` for Krasnov's application; the underlying principle is attributed to a named, independent, real architect (Robert Gar), citing a historical architectural authority (Frank Lloyd Wright).
+
+## Buy-In-Person vs. Buy-Online Furniture Philosophy, and "Buy It When You See It" (designer Robert Stilin's own Brooklyn loft, Krasnov's added caveat, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_haxBpHW8xp8_krasnov_top100_designer_own_apartment|haxBpHW8xp8]]]
+
+- **⚠️ Buy-in-person furniture philosophy, attributed to Stilin, with Krasnov's added practical caveat**: never recommend furniture to a client without personally sitting in/testing it first — online furniture often doesn't match its photographed appearance or stated dimensions; recommends physical showroom/gallery visits, even international trips, to personally assess texture/proportion/character before buying or recommending. Krasnov adds his own corroborating anecdote — his own showroom trips, including to China. **Krasnov's own added practical caveat for non-professional viewers**: if you just want a basic comfortable sofa/wardrobe rather than a rare/investment piece, reliable online purchase is fine specifically if the retailer has genuine customer reviews with real photos — a balanced, actionable distinction, not a flat "always buy in person" rule.
+- **⚠️ "Buy it when you see it" collecting philosophy, attributed to Stilin**: if you find something unusual you genuinely love, buy it immediately rather than waiting, because by the time you actually need it later it likely won't still be available. Recommends maintaining a running catalog/inventory of acquired unique pieces so they're findable/usable when eventually needed — a specific, actionable collecting strategy for building a genuinely personalized interior over time.
+
+`single-account` (Krasnov's own commentary); the underlying philosophy is attributed to a named, independent, real practitioner (Robert Stilin).

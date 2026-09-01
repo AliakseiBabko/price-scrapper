@@ -464,3 +464,11 @@ A short cross-reference into this page's colour-temperature section from a paint
 
 - **⚠️ A pendant must be judged in BOTH states, day and evening — it may qualify as a focal point only when off, or only when on.** Daytime: an interesting form, where **the ability to light is merely an addition to the form.** Evening: interesting for its light effects, while switched off it is *"лишь рядовой участник оркестра, а никак не первая скрипка."*
 - **⚠️ A low-hung fitting overlays whatever sits behind it** — her worked case has fittings resembling sea foam on rope like ship's rigging, read against pictures of the sea behind. **Without the pictures the fittings would not read as sea foam at all.** [source: [[_Sources/YT_YaIuW1lX1sU_kuzina_focal_point|YaIuW1lX1sU]]]
+
+## ⚠️ Track/Spot Lighting vs. Cabinet-Door Swing Clearance — a General Design-Coordination Failure (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_QFa98_RyV0M_krasnov_lshaped_kitchen_mistakes|QFa98_RyV0M]]]
+
+**⚠️ A specific design-coordination failure mode, explicitly generalized by the source beyond the kitchen context it was raised in**: a track/spot ceiling fixture protruding ~10cm from the ceiling can be physically struck by an opening upper-cabinet door if the lighting plan was overlaid on the furniture plan without cross-checking door-swing clearance — a real coordination gap between two plans drawn independently (the furniture layout doesn't mark door-swing radii; the lighting layout doesn't check against them). **He explicitly states the same failure mode recurs in entryways/hallways and anywhere there's a ceiling-mounted object near an opening door, not just kitchens** — record as a general design-coordination caution, not a kitchen-specific one.
+
+`single-account`, `unverified`.

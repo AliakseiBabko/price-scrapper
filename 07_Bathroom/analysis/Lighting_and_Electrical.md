@@ -60,3 +60,18 @@ Washer, dryer, hair dryer, electric toothbrush/razor charger, robot vacuum (if u
 - **Recommends hiding the outlet inside a cabinet** for a clean countertop, with a small shelf directly above the outlet for charging small gadgets without cord clutter on the counter — a specific, checkable placement technique.
 
 `single-account`, `unverified`.
+
+## ⚠️ Layered Bathroom Lighting — a Multi-Technique Bundle, a Concrete Real-World Validation (architect Robert Gar / owner Tracy Underwood, Krasnov's synthesis, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]] — a real, documented pre-war NYC co-op bathroom, narrated/critiqued by Krasnov. Techniques attributed to Gar/Underwood; the synthesis point is Krasnov's own.
+
+- Hidden lights placed under a floating stone vanity slab, creating a visual "levitation" effect.
+- Light slits/gaps illuminating end walls specifically to bring out tile texture via light-and-shadow play.
+- Niche lighting in the shower and behind the door illuminating small window openings, used together to create an illusion of expanded space.
+- Cove/perimeter lighting along the ceiling edge creating a "floating ceiling" effect that visually raises perceived ceiling height.
+- A backlit mirror reinforcing the sense of depth.
+- A slatted/grate ceiling structure zoning the upper part of the room WITHOUT visually "eating" volume.
+
+**⚠️ Krasnov's own explicit synthesis, the point worth recording distinctly from the list itself**: light distributed across MULTIPLE levels and zones (not just one source) is specifically what let a genuinely dark bathroom palette still read as spacious rather than cramped — a strong, well-illustrated real-world validation of this page's existing layered-lighting principle; cite as a concrete case example rather than re-logging the principle.
+
+`single-account` (Krasnov's synthesis); the underlying techniques are a real, independently-documented project, not Krasnov's own claim.

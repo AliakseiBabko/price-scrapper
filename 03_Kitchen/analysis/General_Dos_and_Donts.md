@@ -115,3 +115,52 @@ Light addition — echoes this page's existing storage-by-functional-zone conten
 - States plainly that without a planned storage spot, any kitchen devolves into clutter regardless of size — the "clean up immediately after each use" discipline point and "plan storage for every gadget by name" method are the genuinely new parts.
 
 `single-account`, `unverified`.
+
+## ⚠️ L-Shaped Kitchen Mistake Cluster (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_QFa98_RyV0M_krasnov_lshaped_kitchen_mistakes|QFa98_RyV0M]]] — this round's single-topic deep-dive on L-shaped ("угловая") kitchens.
+
+- **⚠️ Corner dishwasher placement — a two-layer failure mode**: a dishwasher tucked into the inside corner of an L-run can fail to open fully because its door strikes the adjacent perpendicular cabinet; a spacer/setback panel fixes the clearance. **The deeper, more commonly missed problem**: the sink and dish-rack must ALSO be planned around the dishwasher's corner position so loading/unloading doesn't require standing in the corner — otherwise this is one of the worst possible dishwasher placements.
+- **⚠️ Conflicting cabinet-door swing radii at an L-junction**: adjacent fronts meeting at a corner can physically collide when opened together — must be resolved at the planning/furniture-design stage (draw door-swing radii on the plan), not discovered after installation.
+- **Corner sink placement critiqued as inherently awkward**: requires reaching further into the corner, and typically conflicts with the sink-stove-fridge work-triangle since a corner position rarely sits efficiently between the other two points.
+- **Dishes stored far from the dishwasher** forces walking back and forth across the kitchen between load point (sink) and unload point (dish rack/cabinet) — extends this page's existing kitchen-ergonomics content to the L-shaped case specifically.
+- **⚠️ Freestanding oven-column horizontal placement — distinct from this vault's existing oven mounting-HEIGHT content (a different axis: horizontal proximity to counter, not vertical height)**: an oven column placed far from the main counter run forces walking extra distance with a hot tray — a real safety issue, not just convenience. Correct placement: an oven column adjacent/flush to the main countertop run so a hot tray can be set down immediately on adjacent open counter. A coffee machine, by contrast, can sit further away since it doesn't carry the same hot-tray urgency.
+- **Work triangle, applied to the L-shaped-kitchen case**: fridge → sink (wash) → prep → stove (cook); scattering the three points far apart across an L-run is both potentially unrealizable given plumbing/structural constraints and simply exhausting daily.
+- **A first-person disclosure**: Krasnov personally prefers linear/straight-run kitchens visually, yet chose an L-shaped kitchen for his own home specifically because it's more functional for his actual cooking habits — a real example of prioritizing functional fit over pure aesthetic preference.
+- **Final framing**: none of these L-shaped-kitchen mistakes are about budget — all are pure planning/ergonomics issues.
+
+`single-account`, `unverified`.
+
+## Open-Plan Kitchen-Living Acoustic, Odor, and Regulatory Constraints (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_yg5ul2oeCuM_krasnov_kitchen_living_combo_mistake|yg5ul2oeCuM]]] — **⚠️ note the unusual statistics-heavy tone of this source; all uncredited percentage claims are excluded here, only the specific checkable figures below are extracted.**
+
+- **⚠️ Kitchen extractor-hood noise**: a hood at high power can produce noise up to **70 dB**, comparable to street-traffic noise — directly relevant to open-plan kitchen-living acoustic planning.
+- **Cooking-odor persistence on textiles** (cited as a research finding, tagged `unverified`): fried onion/fish/spice odor molecules can settle on rugs/upholstery/curtains and remain detectable for up to **48 hours**.
+- **⚠️ Gas-stove building-code constraint — generic, non-jurisdiction-specific**: many countries' building codes prohibit a gas stove in a fully open (partition-free) kitchen-living space — requires a sliding/removable partition to satisfy fire-safety code even within an otherwise "open" plan. Presented generically, not Russia-specific — kept here as general technical content, **not routed to `16_Legal_and_Regulations/`** per that folder's strict Belarus-only scope.
+- **⚠️ Sink-to-sewage-stack drainage distance**: should not exceed **3–4 meters** without pump/lift equipment, for proper gravity-fed drainage.
+- **Walkway/clearance for open-plan zoning**: main circulation walkways minimum 90cm; comfortable bar-counter use requires ≥90cm clearance; **kitchen island width should be at least 80–100cm** — a specific island-sizing figure not clearly logged elsewhere on this page.
+- **Zoning-without-walls summary**: flooring-material transitions (tile/porcelain in the kitchen zone vs. wood/engineered board in the living zone); sliding or glass partitions (thin-framed or frosted/matte glass) to close off the kitchen zone when needed without permanently blocking light.
+- **⚠️ Style-mismatch-in-open-plan reasoning**: an open kitchen-living space requires STRONGER overall stylistic coherence than separated rooms, since a mismatch (his example: ornate classic kitchen fascias next to industrial concrete-panel living-room walls) reads far more jarring with no wall between the zones.
+
+`single-account`, `unverified`.
+
+## Pinterest-Review Kitchen Critiques (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors|sAxHiPERmmY]]]
+
+- Marble countertop flagged as visually inconsistent with an otherwise modern kitchen style — recommends a different stone.
+- Excessive cream/beige monochrome in a kitchen reads flat/boring — restates the general beige critique, tied to kitchen materials specifically.
+- A non-operable/fixed window flagged as a real functional flaw attributable to poor architectural planning, not the interior designer.
+- **⚠️ Glass backsplash — an explicit personal opinion, tagged distinctly as his own preference**: glass is easy to clean, but he is personally against it as a backsplash material because glass is inherently glossy and he generally opposes glossy surfaces in this context.
+- Grey cabinet fronts + black countertop critiqued as reading "too dark" rather than genuinely minimalist — recommends adding natural material texture, OR a dark lower cabinet run paired with a LIGHT upper run for contrast.
+
+`single-account`, `unverified`.
+
+## Dark Kitchen as a Deliberate Accent — Compensation Technique (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_uPtvVVYKjnI_krasnov_kirsten_dunst_critique|uPtvVVYKjnI]]] — commenting on designer Jane Hallworth's dark kitchen for Kirsten Dunst.
+
+- A dark kitchen is not inherently a mistake (Krasnov's own explicit position — "someone likes one color, someone another"), but a FULLY dark kitchen makes the whole space read visually "compressed"/smaller. **His stated OWN studio practice when doing a dark kitchen as a deliberate accent**: keep the SURROUNDING spaces/background colors light, so the dark kitchen functions as a genuine accent against a light backdrop rather than the whole space reading uniformly dark and cramped.
+
+`single-account`, `unverified`.

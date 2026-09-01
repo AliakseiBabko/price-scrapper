@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=HKmpfdo_IBw",
+  "video_id": "HKmpfdo_IBw",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T21:07:42.027067+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "dea09e0034dd1986ea897cb3ec4e1856302ee6819dbeecee0675a820f1137736",
+  "attempts_before_success": []
+}

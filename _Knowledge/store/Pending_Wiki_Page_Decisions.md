@@ -59,6 +59,20 @@
   independent sources on upholstered-furniture construction quality
   accumulate.
 
+- **Staircase Construction Quality (1 source, added 2026-09-01, Krasnov
+  Round 6, below the 3+ threshold)**: `YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors`
+  contributes this vault's first staircase-specific fact — a stair
+  riser («подступенки») 90°-angle-to-tread construction-quality
+  checkpoint for a minimalist floating/open staircase, plus a note on
+  plain wood staircases blending flush with the floor reading
+  "unremarkable" without an accent detail. No existing wiki page
+  anywhere in this vault covers staircase construction (`13_Surfaces_and_Finishes`
+  has none). Held here per the 3+-source threshold rule rather than
+  creating a dedicated page for one data point — recorded in the
+  source note ([[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors]])
+  and here for now. Revisit once 2 more independent staircase-specific
+  sources accumulate.
+
 ## Decisions
 
 None yet.

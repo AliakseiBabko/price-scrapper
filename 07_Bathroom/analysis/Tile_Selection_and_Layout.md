@@ -255,3 +255,23 @@ The arrangement is common — **tile below, and increasingly wallpaper or paint 
 - **She also counts the tile on the elevations** — including a separate count for the kitchen backsplash — and the floor covering on the floor plan.
 
 **⚠️ Read as a client-side entitlement: if a design package arrives with no setting-out point, the tiler will decide it on site, and the decision will be made by whoever is holding the trowel.**
+
+## Crackled/Aged Tile Finish, Historic Maiolica, and an Affordable Substitution (designer Jane Hallworth's real kitchen for Kirsten Dunst, Krasnov's commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_uPtvVVYKjnI_krasnov_kirsten_dunst_critique|uPtvVVYKjnI]]] — kitchen backsplash material, cross-referenced here rather than duplicated on the Kitchen pages since the mechanism is tile-finish-specific.
+
+- **Crackled/aged ceramic tile finish ("craquelure," Krasnov's own word choice, comparing it to old paintings)**: an intentional crackle-glaze surface texture reflects light in a visually appealing, "aged"/characterful way.
+- **⚠️ Historic maiolica tile backsplash (16th-century tile per the video) flagged as real, expensive, genuinely inaccessible to most people** — Krasnov gives a specific, actionable substitution recommendation for a similar "aged" look affordably: simple ceramic tile with an antiqued/aged finish (wide price range, including vintage-style options), or natural/engineered stone (praised for inherently unique natural pattern).
+
+`single-account` (Krasnov's commentary); the underlying material is a real, independently-documented project choice.
+
+## Vertical Narrow Tile Format for Height Emphasis, and Terracotta Flooring — Real Applied Cases (architect Robert Gar / owner Tracy Underwood, Krasnov's commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
+
+- **Vertical narrow tile format used specifically to visually emphasize wall height** in a small bathroom — see also the dark-glossy-tile counter-case on [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower]], the same room.
+- **Terracotta flooring in a bathroom** chosen deliberately by the owner for an "earthy," barefoot-friendly, outdoor-adjacent feel.
+- **Exposed/visible plumbing-pipe routing left intentionally exposed specifically to GAIN ceiling height** in the bathroom (rather than boxing it in with a dropped ceiling) — a real technique tradeoff (visual exposure of infrastructure vs. maximizing headroom); tag as a stylistic choice, not a universal recommendation.
+- **⚠️ Wood ceiling slats in a high-humidity bathroom — a material-durability caution**, Krasnov's own flagged concern despite otherwise praising the room: wood is a demanding material under high humidity; performance depends heavily on ventilation quality and surface treatment; even with good protection, such slats require regular maintenance and can darken or warp over time.
+
+`single-account`, `unverified`.

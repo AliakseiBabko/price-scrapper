@@ -205,3 +205,23 @@ Two Round 3 videos from the same channel appear to disagree about headboards but
 - **⚠️ Blackout curtains — sleep-science framing, genuinely new for this page.** Cites the need for genuinely total darkness ("тотальная кромешная тьма") for proper melatonin production and sleep restoration, attributed to "any professional somnologist." Names his own St. Petersburg white-nights problem in summer as a first-hand example of why this matters (no problem in winter). Recommends motorized curtains tied to a smart-home scheduling system (voice-activated via a generic smart-home assistant) specifically to enforce a CONSISTENT sleep/wake schedule — cites the claim that consistent sleep/wake timing matters more for restoration than total sleep duration.
 
 `single-account`, `unverified`.
+
+## Oversized Pendant Over a Bed — Proportional Fit and a Positive Counter-Example (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors|sAxHiPERmmY]]]
+
+- **A large sculptural pendant hanging low enough to be struck by someone's head is impractical regardless of aesthetic appeal** ("мы не живём в пинтересте, мы живём в реальной жизни," his own phrase). Recommends reserving large dramatic pendants for spaces with genuinely enough headroom/clearance, using something smaller/more restrained (or a wall sconce) when clearance is tight.
+- **A specific positive counter-example**: an off-center/asymmetric bedside lighting composition (a black wall sconce on one side, a smaller/more restrained pendant on the other rather than a matching oversized one) works well as a deliberate asymmetric move rather than needing strict mirror symmetry — extends this vault's existing asymmetry-can-work principle with a bedside-lighting-specific application.
+- **A large central pendant CAN work over a bed without feeling oppressive** specifically when it's genuinely centered/on-axis with the room (not off to one side) and its finish (warm brass/copper in his example) intentionally echoes other decor tones (pillow/bedding) in the room — a specific colour-coordination-plus-placement combination avoiding the "oversized and awkward" failure mode.
+
+`single-account`, `unverified`.
+
+## Bedroom-Entry Fluted-Glass Door — a Reflected-Light Illusion (architect Robert Gar / owner Tracy Underwood's real NYC co-op, Krasnov's commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
+
+**⚠️ A specific, real, nameable lighting-illusion technique, genuinely new**: a bedroom-entry door with full-height fluted/reeded glass panels (floor-to-ceiling), designed for privacy while diffusing light through, PLUS brass/metal trim specifically added to reflect light so the fluted glass channels read as if internally lit — an illusion; there is no actual internal light source, purely reflected ambient light.
+
+Also in the same source: a mirror hung directly opposite a window specifically to reflect that light source and create the illusion of a second window — restates the mirror-opposite-window rule already logged (Round 5, `4ZjCbDRhfNM`, on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection]]) with a real applied case; cross-reference, don't duplicate.
+
+`single-account`, `unverified`.

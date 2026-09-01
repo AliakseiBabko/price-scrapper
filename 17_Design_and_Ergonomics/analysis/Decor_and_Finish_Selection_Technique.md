@@ -478,4 +478,79 @@ A distinct format from this channel's usual generic-advice videos: critiquing re
 - **⚠️ Explicitly calls out "painted arches"** (painting a doorway/wall trim the same colour as an arch-shaped outline to fake the appearance of a real arch) as a specific cheap-looking illusion that reads as "couldn't afford a real arch" rather than a stylistic choice.
 - **A named furniture-brand alternative, flagged per this project's advertising/brand-mention filter — a specific product endorsement, not neutral universal advice**: for anyone who wants an arch-referencing look without the proportional mismatch of a real arch in a low-ceilinged apartment, recommends arch-form furniture instead — names **"Crate & Barrel's Lennon collection"** as an example (transcript renders "Crate and Barrel... lean Ford"; the collection name is `ASR-uncertain`, the brand name is clear). Recorded as a commercial mention, not adopted as a universal recommendation.
 
+## ⚠️ Ceiling Color-Matching, Stretch-Ceiling Gloss vs. Matte, and the Drywall-Ceiling Hierarchy (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors|sAxHiPERmmY]]]
+
+- **⚠️ Ceiling-to-wall color-matching technique — a strong, well-explained mechanism**: paint the ceiling the SAME color as the walls (or one shade darker/lighter) rather than defaulting to white — creates a "cocoon"/enveloping effect that makes a room read taller, more spacious, and more expensive. A white ceiling against colored/textured walls creates a jarring visual "cutoff" that makes the room read SHORTER than its actual height and draws unwanted attention to the ceiling itself as a mismatched plane. Explicitly named as a technique "many designers already use" for exactly this reason.
+- **⚠️ Glossy stretch ceilings critiqued, with an explicit matte exception**: glare/reflection from any light source effectively doubles visually (fixture plus its reflection), creating visual noise; reads as cheap regardless of actual cost, explicitly compared to "cheap stretched plastic film." **He explicitly states he is NOT against matte stretch ceilings** — a perfectly good, non-critiqued solution — the critique is specifically about gloss finish. A white glossy ceiling in an already low-ceilinged room compounds the height-reducing effect above.
+- **⚠️ Ceiling-system hierarchy for premium work**: track and point/recessed downlights are both explicitly defended as perfectly fine, currently-popular choices — he specifically pushes back on the "point lighting = dated 2000s Eurorenovation" stereotype as unfair. For a genuinely premium, long-lasting interior, a drywall/dropped ceiling («гипсокартон») is "unbeatable" — costlier and more labor-intensive, but offers maximum design flexibility (paintable any color, moldable into any custom form). Explicitly ties back to the color-matching technique above (paint the drywall ceiling to match the walls) as "the technique used in premium interiors."
+
+`single-account`, `unverified`.
+
+## ⚠️ Pinterest Scale-Transfer Warning and Mid-Century Modern as a Named Style (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_SDvVF1xkHKQ_krasnov_never_copy_pinterest|SDvVF1xkHKQ]]]
+
+- **⚠️ Scale-transfer warning — a genuinely reusable caution when copying any Pinterest/reference image**: a reference image's proportions depend heavily on its REAL ceiling and window height (his example: ~3.5m ceilings). Copying the same design language into a standard apartment (2.6–3m ceilings) without matching proportions will look "нелепо, безвкусно" because the room's actual scale doesn't support the reference's visual language. **Before copying any specific element from a reference, first assess the reference's implied room scale and compare it honestly to your own space.**
+- **⚠️ Mid-century modern (MCM) — a named stylistic era, new to this vault**: post-WWII origin, an explicit emotional motivation (more emotion/color, less utilitarianism after the war). Signature "warm orange filter" visual quality — abundant reddish/warm wood tones, veneer-panelled accent walls. Polished concrete flooring paired with a rug works well as a calm neutral MCM background. Abundant small decorative objects (statuettes, vases, art objects) add genuine coziness in this style.
+- **Colored/greenish glass praised as an underused material** in modern interiors — a specific, distinct material observation.
+- **Large freestanding statement furniture/coffee-table compositions are appropriate specifically for large country houses (~400–500m² working area)** and should NOT be attempted in a standard apartment — a specific scale-context distinction, extends existing context-scale content.
+
+`single-account`, `unverified`.
+
+## Weathered/Patinated Objects, Personal-Memory Displays, and Full-Room Wallpaper — a Counter-Case (Kirsten Dunst / designer Jane Hallworth, Игорь Краснов's added commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_uPtvVVYKjnI_krasnov_kirsten_dunst_critique|uPtvVVYKjnI]]] — real celebrity-home footage; Dunst/Hallworth's own choices attributed to them, Krasnov's added critique attributed separately.
+
+- **Weathered/patinated vintage objects vs. new/glossy objects (Dunst's stated preference)**: intentionally worn/unrestored antique objects (a vintage 1970s Ingo Maurer ship-model lamp, left deliberately unrestored) add authenticity and read as "alive," whereas the SAME object new/glossy would read as fake/reproduction. **Krasnov's own added nuance**: this works only with a FEW distressed pieces in an otherwise clean, well-kept room — an entire room of distressed pieces would read as genuinely neglected, not characterful.
+- **⚠️ Personal-memory-object placement — a concrete first-person Krasnov studio case**: an early client wanted a smooth, minimalist interior with zero personal artifacts, but it emerged the client's father had been a photographer with a large camera collection and family black-and-white photos. The studio assembled the cameras and photos into a dedicated display vitrine; the client thanked them for pushing him to include it. A real-world argument for actively surfacing a client's dormant family/hobby collections rather than defaulting to a sterile look.
+- **⚠️ Full-room wallpaper coverage — a counter-case against this vault's extensive existing "one accent wall only" content, not a contradiction to resolve**: Dunst chose Lake August wallpaper covering an entire room rather than one accent wall, and Krasnov notes it approvingly. Recorded as "full-room wallpaper CAN work when deliberately chosen, per this designer's real choice" — a counterpoint case alongside the many existing accent-wall-only sources, not a universal recommendation.
+- **A critique of over-accessorizing/competing visual accents**: too many bold/eye-catching pieces in one room creates a "visual argument" where none reads as a clear focal point — suggested fix is to remove one or two competing bold pieces rather than adding more.
+- **A simple painted stick hung on a wall** used as a specific example that genuine personal/sentimental objects don't need to be expensive or conventional to work as wall decor.
+
+`single-account` (Krasnov's commentary layer); Dunst/Hallworth content is a real, independently-sourced third-party design case, not Krasnov's own claim.
+
+## Preserved Historic Fixtures — a Real Applied Case (architect Robert Gar / owner Tracy Underwood's real NYC co-op, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]] — related to, but distinct from, the weathered/patinated-objects and personal-memory-object content above: this is about original BUILDING fixtures, not brought-in objects.
+
+Preserved/restored original historic radiator covers (cleaned and repainted rather than replaced or hidden) praised as a technique for retaining genuine historic building character rather than erasing it — a real applied case of "preserve, don't hide, original character features," related to but distinct from this page's existing personalization-through-found-objects content.
+
+`single-account`; the underlying project is a real, independently-documented renovation.
+
+## ⚠️ Art Placement, Selection, and Collecting-as-Philosophy (Игорь Краснов + Robert Stilin, added 2026-09-01, Round 6)
+
+This round adds substantial art content from three sources: `HKmpfdo_IBw` (Krasnov's own dedicated art-placement deep-dive), `uPtvVVYKjnI` (Frits Henningsen collectible-chair reference, filed under Furniture instead — see that page), and `haxBpHW8xp8` (Robert Stilin's art-as-structural-element philosophy). **Given how much this vault's art-related content has grown across this page's several existing scattered entries (Round 2's artwork-placement cluster, Round 3's wall-art-framing section, Kuzina's "Pictures" critique, and now this round), a dedicated `Art_Selection_and_Placement.md` analysis page may be warranted** — flagged here rather than split unilaterally, per this vault's don't-force-structure-before-content-exists convention; revisit at the next routing pass if more art-specific sources accumulate.
+
+[source: [[_Sources/YT_HKmpfdo_IBw_krasnov_how_art_spoils_interior|HKmpfdo_IBw]]]
+
+- **Trend/name-driven art-object selection critique, with a real named example**: buying a currently-fashionable collectible (names **Be@rbrick**, by Medicom Toy — flagged per the advertising/brand-mention filter) purely because it's popular, without regard to the room's actual color/texture/style — once a genuine collectible, now so ubiquitous it reads as generic/overused. Recommends matching art selection to actual interior style instead (old-master-style paintings/reproductions for classic rooms; minimalist graphic/abstract work or rare unique art objects for modern spaces).
+- **⚠️ Art scale/proportion rule**: a large-format painting overwhelms a small room; a miniature piece on a large wall in a spacious room reads lost/insignificant. Large wall → one large piece or a coordinated pair; limited wall space → miniatures/engravings/small posters. For a multi-piece "gallery wall," measure/plan the exact layout BEFORE hammering any nails — reinforces this vault's existing measured-gallery-wall-layout technique, cross-reference.
+- **Frame size/weight as a distinct lever from the artwork itself**: a substantial/heavy frame can add visual "weight" to a small artwork, but a frame that competes visually with the artwork's own content becomes its own mistake.
+- **Over-accumulation of art critique**: "too much art starts arguing with itself." Designate ONE piece as the room's primary visual anchor with everything else secondary (his own main-character/supporting-cast film analogy); leave genuine empty space around the primary piece; for a deliberate multi-piece home gallery, group by color/style/theme with either clean symmetry or a deliberately organized asymmetric arrangement — the distinguishing factor is VISIBLE INTENTIONALITY, not randomness.
+- **Color-palette mismatch between art and room**: a bright neon poster in an otherwise calm neutral room reads as visually combative. Choose art within the room's existing color family for a supporting role, OR use one boldly-colored piece as an intentional accent SPECIFICALLY when its colors are also echoed in the room's textiles/small accessories. Physically test-hold a piece against the wall before purchase.
+- **⚠️ Art hanging height, refined**: center of the artwork at eye level, **145–150cm** from floor to center — a refined range against this vault's existing flat 150cm figure (Round 2, `4UJIa7eVlYo`), a refinement not a contradiction.
+- **⚠️ Art lighting**: artwork in shadow effectively "disappears," artwork in direct sunlight fades/degrades over time — dedicated accent lighting (directional spotlights or built-in picture lights) makes the artwork visible and adds depth.
+- **Art selection by room function**: a large, dramatic, dark-toned painting can overwhelm a bedroom (where calm is the priority) but works well in a living room or entrance hall; small graphic works/posters suit a bedroom or home office.
+- **⚠️ Overused pop-culture reproduction critique, with real named examples (flag per the advertising/cultural-reference note)**: mass-reproduced icons (Andy Warhol soup cans/Marilyn Monroe, Van Gogh's "Starry Night," Che Guevara, the Mona Lisa) are so ubiquitous that a cheap reproduction signals a LACK of taste rather than genuine appreciation. Recommends a less ubiquitous work by the same artist/movement instead (e.g. a lesser-known Leonardo da Vinci instead of the Mona Lisa), or contemporary digital art from independent artists. Names **Ansel Adams** black-and-white landscape photography, well-framed, as gallery-quality reproduction done well.
+
+`single-account`, `unverified`.
+
+[source: [[_Sources/YT_haxBpHW8xp8_krasnov_top100_designer_own_apartment|haxBpHW8xp8]]] — Robert Stilin's own Brooklyn loft, his own words; Krasnov's synthesis/critique layer kept distinct.
+
+- **⚠️ Relational-composition principle — a distinct mechanism from this page's existing "restraint prevents clutter" content, not a merge**: many collected/mixed objects (vintage, collectible design, art) can coexist in a densely furnished room WITHOUT reading as cluttered specifically when each object relates to its neighbor by height, material, or sightline. Stilin's own example: artwork positioned directly above a headboard visually "pulls" the bed against the wall (anchoring it compositionally); a pair of chairs flanking the bed balances the room's scale. "Clutter is prevented through deliberate relational composition even at high object density" — a distinct principle worth its own entry.
+- **⚠️ Art-as-structural-element philosophy, attributed to Stilin — distinct from the "one accent piece" content above, worth its own entry given how extensively this source develops the idea**: owning 300–400 pieces of art personally selected over decades (explicitly NOT chosen to match a sofa color) fundamentally changes how a room reads — art functions as a genuine STRUCTURAL/atmospheric element, not decoration layered on afterward; different zones deliberately get different "registers" of art (more graphic/bold in public/social zones, softer and more intimate in the bedroom).
+
+`single-account` (Krasnov's own commentary); Stilin's own philosophy is an independent, real, named-practitioner source.
+
+## Pre-Shopping Preparation Methodology — Color-Palette Extraction Tool and Moodboarding (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors|sAxHiPERmmY]]]
+
+- **⚠️ A concrete, directly actionable pre-shopping technique**: before buying anything, take a liked reference image and run it through an online color-palette-extraction tool to get the ACTUAL proportional color breakdown (percentages) rather than eyeballing it. Separately, build a moodboard/collage assembling furniture forms and colors together BEFORE going shopping. His explicit framing: even professional designers with much higher visual literacy still need to visualize/test a composition rather than just imagining it. Genuinely new, reusable technique — not logged elsewhere in this vault.
+- **Color-and-decor coordination principle**: a genuinely colorful/maximalist room can work well when there's a clear underlying color/compositional LOGIC tying elements together — the failure mode isn't boldness itself, it's boldness without an organizing system.
+
+`single-account`, `unverified`.
+
 `single-account`, `unverified`.

@@ -746,3 +746,11 @@ From a separate source, and it is the counterweight to everything above. [source
 - **⚠️ A real, specific client anecdote — marble-bathroom substitution**: a client insisted on natural marble for a bathroom; the studio pushed back citing marble's porosity/moisture absorption/staining/mould risk in a genuinely wet room, and substituted marble-look porcelain tile instead, achieving a visually similar result with meaningfully better practical durability. `single-account`, client anecdote, not independently verified. [source: [[_Sources/YT_u4yj6dD01aE_krasnov_expensive_vs_cheap_renovation|u4yj6dD01aE]]]
 - **⚠️ Studio's stated fixed-budget-with-~10%-tolerance business practice**: the studio locks a renovation budget with a **10% variance ceiling** once the design is finalized — framed as a specific business-process commitment, tag as his own stated business practice/claim, not an industry standard. Worth reading alongside §5e's Кузина design-fee-as-proportion content above — a different practitioner's stated commercial practice on a related but distinct question (budget variance tolerance vs. design-fee sizing). [source: [[_Sources/YT_iI1mI0agsAo_krasnov_7design_myths|iI1mI0agsAo]]]
 - No priced figures cleared this project's comparability bar from either source — both anecdotes are qualitative, and the 10%-tolerance claim is a business-process commitment rather than a priced figure.
+
+## 5g. Load-Bearing-Wall Removal for Open-Plan Kitchen-Living Conversions — a Generic Structural/Permitting Caution (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_yg5ul2oeCuM_krasnov_kitchen_living_combo_mistake|yg5ul2oeCuM]]]
+
+**Load-bearing-wall removal requiring structural engineering analysis and permitting** meaningfully complicates and increases project cost — especially in older housing stock ("старый фонд"). Presented generically in the source, not tied to a specific jurisdiction's code — a real structural-engineering/cost-driver caution worth flagging at the planning stage for any kitchen-living combination, not something to fold into a per-country regulatory claim.
+
+`single-account`, `unverified`.

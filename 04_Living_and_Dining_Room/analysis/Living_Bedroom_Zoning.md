@@ -194,3 +194,13 @@ should weigh directly:
 > [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]'
 > new "Wall-Bed / Murphy-Bed Mechanism Selection and Reliability" section
 > — directly relevant to this room's own Phase 2 plan.
+
+## ⚠️ Double-Sided Built-In Cabinet as a Shared Living-Bedroom Partition — a Real Applied Case, with a Ceiling-Gap Fix (architect Robert Gar / owner Tracy Underwood's real NYC co-op, Krasnov's critique, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]] — directly relevant to this room's own Phase 2 living-bedroom combination plan.
+
+A double-sided built-in cabinet functions as a shared partition wall between two rooms — TV/media storage on the living-room side, storage on the bedroom side — a specific dual-function partition technique. **⚠️ Flagged caveat and Krasnov's suggested fix**: the cabinet doesn't reach the ceiling (likely due to existing structural beams), which visually reads as an "abruptly cut-off" volume and shortens the perceived room height. **Krasnov's specific suggested fix**: add a transitional insert/beam-matching fascia or a decorative element to visually extend the vertical line up to the ceiling, rather than leaving the gap unaddressed.
+
+A related door-integration mechanism from the same source: a hinged bedroom-to-living-room door that, when opened, becomes flush with/disappears into an adjacent cabinet face rather than swinging into visible open space — avoids visually fragmenting the room when the door is open.
+
+`single-account` (Krasnov's own commentary); the underlying project is a real, independently-documented renovation, not Krasnov's own claim.

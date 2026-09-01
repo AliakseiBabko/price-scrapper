@@ -340,3 +340,14 @@ Worked applications:
 - **⚠️ The specific risky move: two focal points on the same wall and in the same plane.**
 - **⚠️ "Глазам нужна пауза, а фокусная точка должна дышать" — there must be enough neutral empty space around them.**
 - **⚠️ Give one priority — whichever is better seen from the entrance, or whichever the layout is wound around. One dominates, the second supports: "лучше не делать их равнозначными."**
+
+## ⚠️ Zoning a Large Open-Plan Space Through Furniture Rather Than Walls (designer Robert Stilin's own Brooklyn loft, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_haxBpHW8xp8_krasnov_top100_designer_own_apartment|haxBpHW8xp8]]] — a real, documented loft, Stilin's own described technique; several distinct sub-elements recorded together as one cluster.
+
+- A kitchen island functioning simultaneously as THREE things — kitchen table, zone-boundary marker, and coffee-service point.
+- Rugs used instead of drywall to define distinct zones — a dining-zone rug near panoramic windows, a separate rug for the lounge/seating zone.
+- Low furniture (poufs, benches) used to subtly demarcate corners without blocking sightlines.
+- **Portable/movable chairs and side tables allowing a dining zone to be reconfigured within minutes from an intimate one-to-two-person setup to hosting a 15-person gathering** — a specific, useful flexible-furniture-for-entertaining technique.
+
+`single-account`; the underlying technique is attributed to a named, independent, real practitioner (Robert Stilin), not Krasnov's own claim.

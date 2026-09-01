@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=JgyOwNGlevc",
+  "video_id": "JgyOwNGlevc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T21:08:18.784680+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "3c177b1e23904be2356d98a9795b16a67a985fbdbcc353da02ce1592f116df1b",
+  "attempts_before_success": []
+}

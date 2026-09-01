@@ -148,6 +148,16 @@ mother's remote-work study)**:
 
 A specific mistake, applying equally to a living room per the same source: an oversized dresser or console placed under a bedroom TV eats into the walkway between the foot of the bed and the console with no real functional benefit if a proper wardrobe/closet already exists elsewhere. Recommends a shallow console sized to actual need instead. See [[04_Living_and_Dining_Room/analysis/Living_Room_Layout_and_Furniture_Sizing|Living Room Layout and Furniture Sizing]] for the living-room instance of the same rule. `single-account`, `unverified`. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
 
+## ⚠️ Bedroom "Buffer Zone" Technique (Robert Stilin's own Brooklyn loft, Krasnov's commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_haxBpHW8xp8_krasnov_top100_designer_own_apartment|haxBpHW8xp8]]]
+
+**⚠️ A specific, well-reasoned technique, genuinely new for this page**: a seating/lounge area positioned between the bedroom's entry door and the bed itself functions as a genuine psychological transition buffer — you don't walk directly from the hallway into the bed, there's an intermediate "landing" zone. Explicitly recommended by Krasnov (commenting on Stilin's layout) as a good technique "especially in open-plan spaces" — a transferable bedroom-zoning principle even for a conventional enclosed bedroom.
+
+A related material technique from the same source: a deep (~60cm/2-foot) built-in wall unit combining wardrobe + shelving + drawers, deliberately finished with a textured/reflective material specifically to visually "read" the wall as deeper/wider than a flat surface would — a specific material-based depth-illusion technique for built-in storage walls. [source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
+
+`single-account`, `unverified`.
+
 ## Source Notes
 
 See [[06_Small_Bedroom/analysis/Source_Notes|Source Notes]] for full

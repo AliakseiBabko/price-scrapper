@@ -50,3 +50,12 @@ Independent architect, own country-house channel, `single-account`, region unres
 ## Push-to-Open ("Tip-Touch") Furniture Fronts — a Real Tradeoff Across a Whole Apartment (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
 **⚠️ Handleless push-to-open ("tip-touch") furniture fronts, used throughout a real apartment (wardrobes, nightstands, cabinetry), open from the slightest touch** — a real, repeated annoyance the household needs to adjust to: brushing past a nightstand or leaning near a wardrobe can pop it open unintentionally. Framed explicitly as a genuine tradeoff, not a defect: the presenter's own stated view is that every handleless option has a downside (a protruding handle catches on clothing/traffic; a cut-out finger-pull handle collects dust/grime) — push-to-open's downside is specifically this accidental-opening sensitivity, and he'd still choose it over the alternatives despite that. `single-account`, `unverified`. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+
+## ⚠️ Transformable/Mechanical Partition Furniture — a "Dead Zone" Risk (architect Robert Gar / owner Tracy Underwood's real NYC co-op, Krasnov's critical caution, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
+
+- **⚠️ Sliding/pivoting wall-panel bedroom partition (Gar's own described technique), with an important caveat, attributed to Krasnov**: such partition walls save space effectively but provide almost NO soundproofing. Krasnov's explicit added caveat: this solution is appropriate only for single-occupant households or those not needing full privacy, not for shared/family living.
+- **⚠️ A critical failure mode Krasnov himself flags watching the footage, genuinely valuable and distinct from any prior wardrobe/partition-mechanism content on this page**: a second rotating/pivoting cabinet-wall element (part of a wardrobe that swings out to become a wall) LOOKS visually clever, but the resulting configured space (a sofa facing a blank cabinet back) appears to go largely unused based on the visual evidence. **Krasnov's explicit caution: flashy transformable/mechanical furniture solutions can look impressive in demonstration but may create a functionally "dead" zone if the resulting space configuration doesn't actually serve a real daily-use purpose.**
+
+`single-account` (Krasnov's own commentary); the underlying techniques are a real, independently-documented project, not Krasnov's own claim.

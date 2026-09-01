@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=SDvVF1xkHKQ",
+  "video_id": "SDvVF1xkHKQ",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T21:05:10.515314+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "84aa823c4597659ee49932d7c85cc6ed1cbc67e634a22318ea73ff2af907995a",
+  "attempts_before_success": []
+}
