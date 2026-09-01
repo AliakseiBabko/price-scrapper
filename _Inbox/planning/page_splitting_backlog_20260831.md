@@ -172,3 +172,32 @@ A verbatim check is impossible here, so three mechanical checks plus a manual pa
 ### What is still owed
 
 Nothing on the *merge* side — this was the only page identified as fragmented. The remaining backlog is all splits, unchanged from the pass above, with `03_Kitchen/Kitchen_Furniture.md` (568 lines / 38 sections) as the clear next target.
+
+## Update after Кузина Round 4 (2026-09-01)
+
+**Flagged count 20 → 21.** `17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules.md` crossed the threshold (185 → **299 lines, 13 sections**) by absorbing the round's colour-theory material. **One page in, none out.**
+
+> [!NOTE]
+> **⚠️ A correction to the Round 4 commit message, which claimed the flagged count was "unchanged at 20." It went to 21.** The count was checked after the commit was written and the discrepancy is recorded here rather than left standing. Nothing else in that message is affected.
+
+**The routing convention held**, which is the thing worth measuring: twelve pages received content and **section counts stayed flat**, because the whole batch went under one top-level heading per page with `###` per source. **No page became more fragmented.** The four pages now in the 299–349 band grew in *depth*, not in topic count.
+
+| Page | Was | Now | Note |
+| :--- | ---: | ---: | :--- |
+| `Color_Harmony_and_Combination_Rules.md` | 185 / 12 | **299 / 13** | **Newly flagged.** One new heading for the whole batch |
+| `Color_Selection_Process_and_Testing.md` | 265 / 16 | **349 / 17** | Already flagged. **Now the vault's main paint-selection procedure** |
+| `Neutrals_and_Earth_Tone_Palettes.md` | 288 / 13 | **348 / 14** | Already flagged |
+| `Wallpaper_and_Paint_Application.md` | 297 / 12 | **340 / 13** | Already flagged |
+
+### Judgement on the four — do not split yet
+
+**All four are coherent single-topic pages that grew because a good round landed on them, which is the case this backlog explicitly says not to atomise.** Specifically:
+
+- **⚠️ `Color_Harmony_and_Combination_Rules.md` should be watched, not split.** At 13 sections it is at the cluster threshold, and its new content is one argument — how much of each colour — spanning a Perspectives block, a replacement model and a flagged error. **Splitting the dispute from the model it produced would make both harder to read.** Revisit if it takes another round's worth.
+- **`Color_Selection_Process_and_Testing.md` at 349/17 is the one to watch hardest.** It is now carrying two distinct things: **a paint-selection procedure** and **a general colour-decision process**. **That is a real seam and a future split should follow it** — but the procedure only just landed and splitting it in the same pass would mix two kinds of change in one commit, which is the mistake this file already warns against.
+
+**No exceptions added.** Same reasoning as the 2026-09-01 split pass: the count is only useful while every entry in it is a real judgement, and none of these four is settled enough to record as fine forever.
+
+### Still owed
+
+Unchanged from the split pass, and **the merge debt is now clear** — `Lighting_Design.md` was merged on 2026-09-01 and no other page has been identified as fragmented. The remaining backlog is all splits, with **`03_Kitchen/Kitchen_Furniture.md` (568 lines / 38 sections) still the worst page in the vault by section count** and still untouched across three passes.
