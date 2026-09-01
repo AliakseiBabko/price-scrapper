@@ -132,3 +132,43 @@ The three worst pages on the list were split, and **for the first time the flagg
 **⚠️ Still owed by hand, still not done:** the `Lighting_Design.md` merge. It is now **390 lines / 31 sections** — it has grown in both dimensions since it was first identified as the fragmented case, because three intake rounds each added content to it. **Merging 31 stub sections means rewriting prose, which is the one operation in this area that can lose a fact**, so it must be done deliberately and checked against the source notes. It is the oldest unpaid debt on this list.
 
 **Convention confirmed again**: the batch-appends-its-own-dated-heading habit is what produces both failure modes. The one-top-level-heading-per-source-with-`###`-subsections rule adopted after Кузина Round 1 held through Rounds 2 and 3 and is why these three pages were *oversized* rather than *fragmented* — which is the tractable problem of the two.
+
+## ⚠️ The Lighting_Design merge — done, 2026-09-01. The oldest debt on this list is paid.
+
+**This was a merge, not a split, and it is the one operation here that can actually lose a fact** — it means rewriting prose rather than moving it. It was identified as owed on 2026-08-31 and deferred three times.
+
+`12_Engineering_and_Systems/analysis/Lighting_Design.md` went from **390 lines / 31 top-level sections** (12 lines apiece — the fragmentation signature) to **385 lines / 9 sections**, organised by *decision* rather than by the batch that happened to produce each fact:
+
+1. Planning the scheme — scenarios, layers, sequence · 2. Colour temperature · 3. Fixture types and buying checks · 4. Chandeliers and pendants · 5. Glare, shadow, and where light must not go · 6. LED strip and linear lighting · 7. Switching and controls · 8. Room by room · 9. (Daylight — moved out, see below)
+
+### How it was verified, given that prose was rewritten
+
+A verbatim check is impossible here, so three mechanical checks plus a manual pass:
+
+- **All 33 wikilinks preserved, one for one — zero lost.** Every source citation still resolves.
+- **All numeric tokens preserved**, with the only diffs being formatting normalisations verified by hand (`12V` → `12 V`, `2700-3500K` → `2700–3500 K`, hyphens to en-dashes).
+- **A Russian-phrase diff** to catch dropped quotations, which is what actually found the omissions below.
+
+**⚠️ The check earned its keep — the first draft of the merge dropped three things, and they were restored before commit:**
+
+1. **The `promotional_ratio: medium` flag on the Реньжин podcast.** He plugs his own studio with a promo code and argues throughout for hiring a lighting designer, which is his business. The merged draft cited him heavily and lost the disclosure. **This is the most serious kind of loss possible in this operation** — the facts survived, the reader's ability to weight them did not. Restored as a warning callout in the page header.
+2. The gloss «коэффициент цветопередачи» on CRI.
+3. The words *"по физиологии"* inside a direct quotation.
+
+**The lesson for the next merge: diff the quotations and the promotional/confidence flags specifically.** A link-count check would have passed all three of those.
+
+### What the merge revealed that fragmentation had hidden
+
+- **A coloured/RGB strip section existed twice, near-verbatim, from the same source** — once under its own heading and once as a trailing paragraph beneath an unrelated track-switching section. Neither knew about the other. Now recorded once.
+- **The equal-pendant-heights rule, the worktop-shadow mechanism and the bedside-reading-light guidance each appeared in three to five places**, cross-referencing each other in circles. Now stated once each, with the genuinely different angles nested underneath.
+- **Two real disagreements were surfaced that the dated-heading layout had kept apart**: Kruglov's "minimum three scenarios" against Реньжин's *"в 45 м² это называется выключатель"*, and the same 60° beam angle treated as a *defect* in the kitchen source and a *virtue* in the bedroom source. Both are now recorded as disagreements rather than as adjacent unrelated entries.
+
+### And a filing correction the merge forced
+
+**Daylight was moved off the page entirely**, to `17_Design_and_Ergonomics/analysis/Daylight_and_Natural_Light.md` (34 lines). It had been routed onto Lighting Design earlier the same day, correctly flagged as "the first content on this page that is not artificial light" — **and that flag was the argument against it.** Daylight involves no circuits, no fixtures and no electrical planning, and the page lives in `12_Engineering_and_Systems`. A pointer section remains.
+
+**Flagged count: 21 → 20.** Neither Lighting Design nor the new daylight page is flagged.
+
+### What is still owed
+
+Nothing on the *merge* side — this was the only page identified as fragmented. The remaining backlog is all splits, unchanged from the pass above, with `03_Kitchen/Kitchen_Furniture.md` (568 lines / 38 sections) as the clear next target.

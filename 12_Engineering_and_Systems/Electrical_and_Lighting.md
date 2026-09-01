@@ -61,7 +61,9 @@ Alexey Zemskov / ZEMS says **a handful of well-placed, well-diffused fixtures us
 
 Alexey Zemskov / ZEMS presents **a detailed, live-demonstrated case against recessed spotlights specifically**: aggregate bulb-failure rate scales with fixture count (40 fixtures = 40× a single fixture's failure rate, not a comparable rate), narrow cones create uneven "bumpy wall" illumination on textured wallpaper, reclined glare is a real nuisance, and total cost (each fixture needs its own run plus a step-down transformer) can exceed a single premium chandelier for worse actual room fill. Worth weighing against the popularity of spotlight-heavy designs before defaulting to them.
 
-→ **[[12_Engineering_and_Systems/analysis/Lighting_Design|Full detail]]** (ceiling light-source type comparison, the full 5-argument case with a real live bulb-failure count)
+→ **[[12_Engineering_and_Systems/analysis/Lighting_Design|Full detail]]** — reorganised by decision on 2026-09-01: planning and scenarios, colour temperature, fixture types and buying checks, chandeliers and pendants, glare and shadow, LED strip construction detail, switching and controls, and room-by-room. Includes the ceiling light-source comparison and the full 5-argument case against recessed spotlights with a real live bulb-failure count.
+
+**Daylight is deliberately not on that page** — see [[17_Design_and_Ergonomics/analysis/Daylight_and_Natural_Light|Daylight & Natural Light]]. It involves no circuits and no fixtures, so it sits with design rather than engineering.
 
 ## Buying, Installation Quality, Hiring Red Flags & Cottage-Specific Content
 

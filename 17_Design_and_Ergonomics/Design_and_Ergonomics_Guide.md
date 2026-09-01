@@ -134,6 +134,12 @@ restraint closing principle via different analogies.
 - **[[17_Design_and_Ergonomics/analysis/Curtain_Fabric_Colour_and_Pattern|Curtain Fabric, Colour & Pattern]]** — what the textile *is*: layering, fibre, translucency, the 60/30/10 formula, pattern matching, handling.
 - **[[17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware|Curtain Sizing, Mounting & Hardware]]** — how it is *hung*: proportion correction, pleat and width arithmetic, length regimes, rods, tracks, motorisation, blinds.
 
+## Daylight & Natural Light
+
+The moves that change how much *natural* light a room delivers — glass partitions and blocks, light-transmitting textile as the antidote to a hospital look, **fewer shadows means a lighter interior** (open-back chairs, furniture on high legs, rounded corners), mirrored reveals, and the balcony as the darkest-room culprit. With the cost reality check the same practitioner gives immediately after recommending glass partitions, including the one most people miss: **you cannot stand furniture along a glass partition**, so it worsens the storage problem it was never meant to touch.
+
+→ **[[17_Design_and_Ergonomics/analysis/Daylight_and_Natural_Light|Full detail]]** — moved here from Lighting Design on 2026-09-01, where it had no circuits to belong to.
+
 ## Whole-Apartment Design Coherence
 
 *No dedicated source yet.* The open question the user raised directly: how should a color scheme, material palette, and design language stay connected across different rooms of the same apartment rather than each room being designed in isolation? This is exactly the kind of cross-cutting question `00_Master/Design_Concept.md`'s existing (currently empty) "Consistency Rules Across Rooms" section was scaffolded for — once general sources on this specific question are processed here, they should inform that file's own eventual content, same relationship as the rest of this folder.
