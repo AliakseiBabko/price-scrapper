@@ -294,3 +294,22 @@ sharper items. `single-account`. [source: [[_Sources/YT_lLuNbjNXjg0_kruglov_all_
 ## Wall-Flatness Defects: a Pre-Kitchen/Cabinetry Check Worth Planning For (added 2026-08-04)
 
 A related, currently page-less topic worth a pointer here even though the full technique doesn't have a clean home: developer-delivered walls with several-centimeter depressions (up to 3–5 cm) are a common defect, not "free extra floor area" — an uneven wall should be checked and corrected before finalizing a kitchen or cabinetry layout, since off-the-shelf cabinet modules are standardized in multiples of 10 cm and won't fit a non-standard recessed segment. Three named failure modes exist for the wrong fix (thick gypsum plaster alone, cement-sand under gypsum finish, drywall-on-metal-stud-frame) versus one correct method (aerated-block infill, glued and mechanically dowel-anchored, leveled with plaster guide rails as one continuous plane with the surrounding wall). `single-account`. See the full technique in the source note — this vault has no general walls/plastering-technique page to hold it in full; check delivered walls for flatness during a pre-purchase or pre-renovation walkthrough, and budget the correction if found (see [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4). [source: `_Archive/processed_sources/20260804_wall_depression_aerated_block_fix_a0b9ff14.txt`]
+
+## ⚠️ A Finished-Floor-Level Error Is a Rough-Stage Mistake That Only Appears at Fit-Out (Надежда Кузина, added 2026-09-01)
+
+**The highest-consequence item routed in Round 5, and this vault had nothing on it.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+- **Stairs are the obvious case**: a poured or turning staircase is a difficult job, and **if the builders are not experienced or not expensive it may need re-pouring several times — because the FIRST and LAST tread must come out at the right height, which requires correctly calculating the finished floor level on each storey.**
+- **⚠️ But the general case applies to a flat with no stairs at all: a miscalculated finished-floor height makes the interior inconvenient to use.**
+- **⚠️ Her worked example is WC height — a pan set so high the user's feet do not comfortably reach the floor. "Ошибка там в 3–4 сантиметра реально делает интерьер адски неудобным."** *(Her illustrative magnitude, not a tolerance.)*
+- **⚠️ And the diagnosis is the half that matters: it is NOT that the builders did not know the correct WC height above the floor. It is that the finished-floor height was calculated wrongly.**
+
+> **An arithmetic error at rough stage, invisible until fit-out, and expensive to correct once the screed is down.** Check finished-floor levels against the fixture heights they will carry — not just against each other.
+
+## ⚠️ Acceptance — a Room Can Be Beautifully Designed and Unusable (Надежда Кузина, added 2026-09-01)
+
+Her worked example is a restaurant washroom she admired in detail: **plain small black tile, all the decor on the doors, frosted-glass inserts printed with samurai, and the glass appearing backlit though it was not — purely from correctly distributed ceiling light.**
+
+**Beautiful right up until the latch would not engage its keeper, and she changed cubicle.**
+
+**⚠️ Her point is about acceptance, and it belongs with the snagging stage: at the end of a renovation, do you accept work like that or not — and when something later breaks, do you fix it or decide everything is fine?** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]

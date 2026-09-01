@@ -331,3 +331,41 @@ She reverse-engineered why Russian design portfolios converge and gave the recip
 - 2026-08-25 — Added furniture-sourcing/placement technique section from Anuta Vlady's living-room makeover case (`YT_GfixqWjsD58`).
 - 2026-08-25 — Added track-lighting/storage/style-mixing technique section from Anuta Vlady's fourth same-channel video (`YT_S3Mn1FvQhKI`, dispatched as Kodolov, corrected via yt-dlp metadata).
 - 2026-08-25 — Added disguise/refinish/material-substitution technique section from Sergey Kodolov + designer Tatiana's real Dubai apartment review (`YT_IoQaozB-DYA`) — first Dubai-market source in this vault, flagged as region-noncomparable for pricing.
+
+## Decorating Mistakes, and Four Things That Improve Almost Any Room (Надежда Кузина, added 2026-09-01, Round 5)
+
+### ⚠️ Everything matched too well — and the constraint on the fix
+
+**Her cooking analogy: a good dish needs sweet, salty, sour and a little pepper, in proportion. Too much sugar cloys; too much pepper is inedible. "Слишком много однородных предметов делают интерьер нежилым, невкусным, без изюминки."** [source: [[_Sources/YT_uRK4OPR4dak_kuzina_decorating_mistakes|uRK4OPR4dak]]]
+
+- **⚠️ The fix, and the constraint is the useful half: add bold accessories or a large artwork differing in STYLE — but it must still relate in another dimension, either the same colour range or a similar form.** That is what stops it reading as alien.
+- Her worked before/after: a dull cream classic given **a chandelier and chairs with rounded forms specifically chosen to agree with the existing pieces**, plus a little ornament.
+- **A second source states the same rule from the other end**: mix styles, colours and textures, because **"чем больше разница между предметами, тем комната становится энергичнее"** — **and adds a second-order benefit: it is easier to make small changes over time if the interior was diverse from the start.** A matched scheme has no slack in it. [source: [[_Sources/YT_NenrhBgNxGI_kuzina_improving_any_interior|NenrhBgNxGI]]]
+
+### ⚠️ Decor quantity, small objects, and collections
+
+- **Two extremes: too little decor reads uninhabited, too much is oppressive — and she notes the second is the more common one *in publications*,** so the reference images people work from are skewed.
+- **The right quantity depends on style** — a boho scheme carries bright cushions, tall branches and many books without excess.
+- **⚠️ If the scheme is laconic and you cannot tell, err toward LESS: two or three objects are enough "для того, чтобы интерьер заиграл." But do not leave shelves completely bare, or many empty surfaces.**
+- **⚠️ "Мелкий декор прячет в себе больше опасности, чем слишком крупный."** One small object is not enough to decorate with; add more and it becomes chaos.
+- **⚠️ Sentimental collections are the specific case** — figurines arranged at random behind glass, *"всё что на полку влезло, там и стоит."* **The argument against it: you cannot make out the detail on any individual piece, which devalues the collection.** **The fix: hide part of it, add a few larger pieces, compose a group — and ROTATE, swapping hidden for displayed, so you rediscover them.**
+- **Two specific voids**: **emptiness under a console** — fill it with a pouffe or decorative baskets; **and the same for a non-working fireplace.**
+- **Artificial plants**: *"не надо декорировать интерьер пластиковыми листочками"* — **but if plants keep dying, buy the more expensive ones that imitate closely.** She prefers real, **and notes self-watering pots exist.**
+
+### ⚠️ Art hung too high, and decorating around a bad purchase
+
+- **⚠️ Do NOT align the top of a frame with a window or door opening. Correct: the centre of the picture at eye level — "причём это уровень глаз не Дяди Стёпы, а уровень глаз хозяев квартиры."** **The qualifier is the load-bearing part: calibrate to the people who live there.**
+- **⚠️ Do not decorate around an object you already know is wrong.** People try to cover a recent bad purchase rather than lose the money — **but a nice rug, more cushions and scented candles will not change it, and "в конечном итоге в комнате вас будет раздражать буквально всё."** **Her exit: "сейчас не так сложно продавать мебель, и не обязательно делать это за полцены."** *(The budget side is on [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §5e.)*
+
+### ⚠️ Four things that improve almost any room
+
+From the basic-elements source, and these are the parts of it that are not already held elsewhere in this vault. [source: [[_Sources/YT_NenrhBgNxGI_kuzina_improving_any_interior|NenrhBgNxGI]]]
+
+- **⚠️ Something old.** *"Бывает так, что смотришь на очень схожие по стилю интерьеры, но один цепляет, а другой как-то не очень — и всё дело в том, что там есть старинные предметы или старинные материалы."* **"Следы времени вселяют душу в новый интерьер."** An old vase, a restored armchair, a small table — **and even slightly shabby changes how the whole is perceived.**
+- **⚠️ Something living, with the explanation of a convention rather than the convention itself.** Interiors are rarely published with people in them, **so to remove the feeling of abandonment plants are added for the shoot** — they behave better on camera than dogs or cats, and fish suffer if the tank is moved. **⚠️ Her point: they look good in the photograph AND in the interior without it. "Этим нужно воспользоваться."** An orchid, **branches brought in from outside (she notes this suits Japandi)**, cones in a vase — **"всё живое, имеющее отношение к миру за пределами интерьера."**
+- **⚠️ Gloss on matte walls.** Plain matte walls plus reflective elements — a mirror, polished metal, a gilded frame, a glass tabletop — **give "красивые блики" and make the room lighter. And the register differs by material: luxury and glamour, or fineness and fragility if it is glass.**
+- **⚠️ Handmade objects, with a conditional: "если вместо живописи вы выбрали постер или фотографию, то добавить таких предметов жизненно необходимо."** A printed image needs handmade objects around it in a way an original does not. Ceramics, macramé.
+
+### An observation about portfolios versus living
+
+**⚠️ Almost all her clients want open shelves in the project, because they decorate beautifully and photograph well — "но никто не хочет" live with them. Everyone wants closed shelves behind doors so the dust need not be wiped.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]

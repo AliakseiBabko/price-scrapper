@@ -201,3 +201,28 @@ Nothing on the *merge* side — this was the only page identified as fragmented.
 ### Still owed
 
 Unchanged from the split pass, and **the merge debt is now clear** — `Lighting_Design.md` was merged on 2026-09-01 and no other page has been identified as fragmented. The remaining backlog is all splits, with **`03_Kitchen/Kitchen_Furniture.md` (568 lines / 38 sections) still the worst page in the vault by section count** and still untouched across three passes.
+
+## Update after Кузина Round 5 (2026-09-01)
+
+**Flagged count 21 → 22, then back to 21 with the first exception in this file's history.**
+
+**⚠️ The page that crossed is `12_Engineering_and_Systems/analysis/Lighting_Design.md` — the one merged earlier the same day.** It went **385 → 410 lines** when Round 5 added three dissents (dimmers as an *interface* rather than as a function; a **third distinct** cove-lighting objection, that the channel is unreachable and never cleaned; and a too-much-light-versus-too-little ranking) plus two pendant items from the focal-point source.
+
+**It is 10 lines over a flat 400-line threshold, with 11 top-level sections — below the 12-section cluster trigger.**
+
+### ⚠️ An exception was added, and this is the first entry in `tools/page_size_exceptions.json`
+
+**The reasoning, recorded because a first precedent sets how the file gets used:**
+
+- **The page's section structure was the deliverable of a deliberate merge** performed section by section hours earlier, taking it from 31 fragmented sections to 9. **Splitting it now would undo work done to fix the opposite failure.**
+- **It cannot shrink without losing content**, and the content added was corrections to material already on the page, which is exactly where it belongs.
+- **`00_Master/wiki_page_format.md` states that line count is the weakest of the available signals.** A 410-line, 11-section page organised by decision is not the problem this checker exists to catch.
+- **⚠️ The exception names the condition for revisiting: if the section count reaches 12, review again — that would mean fragmentation is returning, and for this page that is the signal that matters, not the line count.**
+
+**This does not soften the standing rule.** The four pages left flagged in the Round 4 update remain flagged and un-excepted, because none of them is settled the way this one is. **An exception is for a page whose shape has been deliberately decided and reviewed — not for a page that is merely inconvenient to split.**
+
+### Otherwise unchanged
+
+**18 pages received Round 5 content and section counts stayed flat**, one top-level heading per page for the whole batch. **`13_Surfaces_and_Finishes/analysis/Material_and_Finish_Tiers.md` more than doubled (47 → 105) and is still well clear of the threshold** — it was the natural host for the practical-versus-good table and had the room.
+
+**Still owed and still untouched across four passes: `03_Kitchen/Kitchen_Furniture.md` (568 lines / 38 sections), the worst page in the vault by section count.**

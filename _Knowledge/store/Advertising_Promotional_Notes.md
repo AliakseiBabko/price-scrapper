@@ -420,3 +420,21 @@ Noted rather than itemised: two sources in the 2026-08-30 colour batch close wit
 - **A counter-position is on record and is not resolved here.** Designer Жанна Бадальян argues causation runs the other way: lifestyle comes first, marketing observes what already resonates and exploits it until it causes revulsion and the pendulum swings. **Both agree the pendulum is real; they disagree on which end drives it.**
 - **⚠️ Pantone's colour of the year is dismissed as pure marketing by both** — "маркетинговый ход, но не некий вектор, которым стоит" следовать. **Treat annual colour announcements as a market signal, not as guidance** — relevant because this store carries colour-trend content from several other sources.
 - **Related observation**: interior designers themselves have no slogans (she looked), while developers' billboards have regressed to bare facts — "дом сдан", "квартира за 8 млн" — competing on price with no emotional content at all.
+
+## ⚠️ Кузина/@kuzinadesign — the Channel's Promotional Load Rose Between 2024 and 2026 (recorded 2026-09-01)
+
+**Opened as an observation in Round 4 and confirmed as a pattern in Round 5.** Three data points across three years, all from sources processed in this vault:
+
+| Upload | Source | Promotional shape |
+| :--- | :--- | :--- |
+| **2024-03** | `YaIuW1lX1sU` (focal points) | **Light closing pitch. NO funnel.** |
+| **2026-06** | `vnLZqiYxY1Q` (mass-market palettes) | **Telegram plugged at the start with a QR code AND at the close; materials for the video withheld to it. `promotional_ratio: medium`** |
+| **2026-08** | `IBecn-3_7Ls` (earth palette) | **Telegram plugged twice with a QR code; part of the pigment history explicitly withheld to it. `promotional_ratio: medium`** |
+
+**Both 2026 uploads are also scripted and tightly edited, with formal self-introductions and channel-positioning lines the older material lacks. The ASR quality is correspondingly much better.**
+
+**⚠️ Consequences for future intake from this channel:**
+
+1. **Treat 2025–2026 uploads as `promotional_ratio: medium` by default** and confirm rather than assume.
+2. **⚠️ Record what has been WITHHELD to the funnel, rather than treating it as absent.** In both 2026 sources she names a topic and says the fuller treatment is on Telegram — so the extraction note holds the summary she chose to give away, not her full account. **That distinction matters for judging whether a claim is thin or merely truncated.**
+3. **Content quality is not obviously affected** — the 2026-08 source carries her strongest colour-theory claim of Round 4. **The flag is about weighting and completeness, not about trust.**

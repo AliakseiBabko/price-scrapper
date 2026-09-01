@@ -191,3 +191,27 @@ figures. [source: [[_Sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|Y
 > - **The flat must be not smaller than some minimum area**; **the electrical allocation to the flat must be sufficient**; **the sauna may occupy no more than 2 m²**, and **that area may only be taken from the bathroom or the corridor.**
 > - **Approvals**: housing inspectorate, fire inspectorate, sanitary-epidemiological supervision. **She flags her own uncertainty beyond that** — sources differ on Rospotrebnadzor (*"хотя я не понимаю, почему"*) and on architectural-and-construction supervision for a replanning.
 > - Her joke about the process is recorded because it is a schedule warning: by the time the approvals are through you will badly need a full course of spa procedures.
+
+## ⚠️ The Bathroom Threshold — Regulation, Engineering, and the Buildability of the Alternative (Надежда Кузина, added 2026-09-01)
+
+A debunk of a widely-shared short-form claim that a threshold-free bathroom floor is safe because the floor falls away from the door and a leak sensor will shut the water off. **Three separate objections, and they do not all travel equally.** [source: [[_Sources/YT_UnCjxyDtWG0_kuzina_tiktok_lifehacks_debunked|UnCjxyDtWG0]]]
+
+> [!WARNING]
+> **⚠️ (a) The regulatory objection is RUSSIAN and is recorded here, not in `16_Legal_and_Regulations/`, which is Belarus-only.**
+>
+> **Designers often omit thresholds between a bathroom and adjoining rooms and treat it as the client's choice — but by the norms as she describes them such thresholds are required, and if you later want to approve a replanning you will need one, or you will have to negotiate with the inspectorate.**
+>
+> **Not verified for Belarus, and must not be relied on for this apartment without independent checking.**
+
+**⚠️ (b) The engineering objection, which DOES travel**: a leak sensor detects in about 2 seconds but the valve takes a further 15–40 seconds to close. **A threshold contains the water released during that window; without one it spreads through the flat.** Full figures on [[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak Protection Systems]].
+
+**⚠️ (c) The "invisible slope" is not buildable as described.**
+
+- She would like to see builders accept a brief to lay a bathroom floor with, say, a **2 mm/m** fall running from the door — *her own illustrative figure, not a specification.*
+- **And even if they did: how do you then stand a washing machine or a floor-standing basin on it?** A wall-hung basin is easier — **but then the basin is in true horizontal, the wall tile is in true horizontal, and the floor "напоминает взлётно-посадочную полосу где-нибудь на холме."**
+
+### ⚠️ The mini-ramp alternative, and the detail that will bite
+
+**Her charitable reading of what was probably meant, and it is the usable resolution**: where there *is* a height difference between the bathroom floor and the adjoining floor, **you need not form an angular rectangular threshold — you can make a mini-ramp within the door opening, and that is permitted.**
+
+**⚠️ But specify the door lining explicitly. An ordinary door fitter will resist cutting the лобor («добор») at an angle along the ramp and will want to cut it straight — leaving a large gap between the lining and the ramp that is hard to seal.** Decide this before the door fitter arrives, not after.

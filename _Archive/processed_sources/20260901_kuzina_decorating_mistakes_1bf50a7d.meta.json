@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=uRK4OPR4dak",
+  "video_id": "uRK4OPR4dak",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T11:12:51.980118+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "1bf50a7d1ff8bdc993e0112b6a60e2d431cf942be3a474da5354644b41606061",
+  "attempts_before_success": []
+}

@@ -231,3 +231,18 @@ Her systematisation of why Russian design portfolios converge. Satirical in deli
 - **TV unit: a low elongated rectangle with flat or slatted fronts**, optionally joined to a floor-to-ceiling flat-fronted cabinet. **The TV wall opposite is treated exactly like the sofa wall**, with natural stone or large-format marble-effect porcelain added in more expensive projects.
 - **A bedroom TV zone looks identical**, except the cabinet may be a dressing table instead.
 - **⚠️ The one bright object in the whole scheme is the dining chairs** — emerald, blue, dusty blue or dusty pink; if they are grey or beige instead, **nothing in the room is the bright piece.** Cushions on the sofa pick up the chair colour when both share a space.
+
+## ⚠️ What Goes Above a Sofa — With a Dimension (Надежда Кузина, added 2026-09-01)
+
+From a source on focal points; the general concept is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]. [source: [[_Sources/YT_YaIuW1lX1sU_kuzina_focal_point|YaIuW1lX1sU]]]
+
+- **⚠️ A mirror or picture above a sofa must be not less than HALF the sofa's length — better 2/3.**
+- **⚠️ If the piece is not long enough, make up the distance**: sconces either side of it, or side tables with table lamps beside the sofa.
+- **⚠️ Fill space evenly — put long against long.** A long sofa against long walls, no illogical voids; **horizontal pictures over long furniture.**
+- **⚠️ Leave enough clearance between the sofa back and whatever hangs above, so seated people do not knock it.**
+- **⚠️ If space allows, pull the sofa slightly forward** — it removes the effect of soft furniture crammed in and pressed flat against the wall.
+- **⚠️ If the sofa stands mid-room with nothing hangable above it, supply the vertical component another way: tall houseplants (a restaurant device), or a console behind the sofa carrying table lamps (an American one).**
+
+**Art as a focal point is "палочка-выручалочка" where furniture will not fit or is not wanted** — her worked case is an owner who did not want a TV zone, given a bright picture with a horizontal shelf beneath instead, **and the space reads fully composed.**
+
+**Dining zone: the tabletop is rarely accented because it sits below eye level.** Use **the light fitting, a chest with decor above it, or a display cabinet** — filled with interesting glassware, flanked by chairs in interesting upholstery.
