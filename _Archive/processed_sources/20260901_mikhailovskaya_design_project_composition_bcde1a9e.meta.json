@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=MkssMwpyVsI",
+  "video_id": "MkssMwpyVsI",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T12:14:43.424973+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "bcde1a9e6e0bbcbcdfbf65e00f4bb6d5fab052b991c43eff65f63ed53e0fee34",
+  "attempts_before_success": []
+}

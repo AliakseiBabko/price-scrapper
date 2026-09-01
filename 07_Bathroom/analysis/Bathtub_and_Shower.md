@@ -352,3 +352,70 @@ From a source on programming the bathroom as a spa — the full programme is on 
 - **⚠️ The substitute if the bath is already installed — a multi-mode shower head, and her reasoning is specific: many heads mix water with air, and they do it differently.** She rates **Hansgrohe Raindance** highly on that basis (her opinion, recorded as such). Some have intense massage jets, some move, some change temperature for a contrast shower.
 - **A foot bath** — vibration, hydromassage or built-in rollers; relieves fatigue, stimulates circulation. The cheapest rung of all.
 - Because hearing, smell and touch work together, therapeutic equipment often carries extra options — **aroma-oil compartments in whirlpool baths and steam generators**, sound effects and lighting in smart showers.
+
+## Bath and Shower Selection, With the Constraints That Bind (Татьяна Михайловская, added 2026-09-01)
+
+[source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
+
+### Bath materials
+
+| Material | Cost | Notes |
+| :--- | :--- | :--- |
+| **Steel** | cheapest | |
+| **Acrylic** | mid | **⚠️ Her universal recommendation** |
+| **Cast iron** | dearest as a rule | **Heavy, real effort to carry in, and notably fewer forms available than acrylic** |
+
+> **⚠️ "Самое универсальное — это акриловая ванна… Если вы предпочитаете выбирать сразу из акриловых, это не будет ошибкой."**
+
+**Rectangular is most universal for a flat.** The **drain may be left, right or centre**, and that decides which mixer arrangements remain open.
+
+**⚠️ What to check on a model, in her order: overall dimensions; the corners; the RIM THICKNESS; and capacity if it matters.** Where the bath is built in wall-to-wall, **choose the sharpest outer corners and the MINIMUM rim thickness — a thick rim is harder to clean, water collects on it, and it does not look good.** *(Separately she prefers rounded internal geometry, since sharp corners accumulate dirt — read as: thin rim and crisp wall junction, rounded inside.)*
+
+### ⚠️ Mixer selection — spout length is the governing parameter
+
+> **"Длина излива — это самый главный параметр подбора ванны и смесителя."**
+>
+> **The spout must project beyond the bath rim, or water pours onto the rim instead of into the bath.** Her worked reading off a manufacturer's drawing: **~280 mm to the drain against a rim of roughly 100 mm.** **The bath's and the mixer's parameters must be checked against each other before either is ordered.**
+
+**Four types: wall-mounted concealed; wall-mounted surface; floor-standing; bath-rim mounted.**
+
+- **⚠️ A bath-rim mixer fits an ACRYLIC bath without difficulty; with other bath materials there may be problems. So choosing a rim mixer effectively decides the bath material** — a coupling most people would not anticipate.
+- **⚠️ And a procurement instruction: check the mixer's widest part against the rim. Some manufacturers omit that dimension from their drawings — "нужно или звонить посреднику, или поставщику… или смотреть на других сайтах."**
+- **⚠️ Floor-standing mixers need clear space around them for cleaning, are essentially decorative, and suit a hotel or a special bathroom. "В 90 процентов случаев для людей этот смеситель будет не актуальный"** — water runs off them and they are inconvenient.
+- **Where the bath doubles as the shower, use a shower set with a spout** — and watch spout length again.
+- **⚠️ Where there is only a shower and no bath, still specify a mixer WITH A SPOUT: "по крайней мере набрать ванную для ребёнка или помыть ребёнку ноги."** She always does; it costs a little more; the alternative is a separate tap.
+- **A thermostat prevents temperature swings and costs more.**
+- **⚠️ Square and angular mixers are harder to maintain than round ones** — square reads stylish at first, and then things collect in the corners.
+- **A combined spout-and-overflow («излив-перелив») is a further option.**
+
+### ⚠️ Shower — tray, drain and the flush-floor argument
+
+- **900 × 900 minimum; bigger is better.** With or without door; with or without tray.
+- **⚠️ With a tray you must select a SPECIFIC model, because the design then works from its fixed dimensions.**
+- **Without a tray — a floor drain — is "гораздо проще, гораздо красивее," but then the trap and the floor form become design items.**
+
+> **⚠️ On the flush floor-level shower: "красиво на картинке, но максимально непрактичные в жизни."** The trap can block or break, and the fall must be genuinely good.
+>
+> - **Minimum fall: 2 cm — "это прям минимум минимум."**
+> - **Better: sink the tray into the floor** — feasible if the screed is not yet poured, and mostly achievable in houses rather than flats. The glass then sits at main floor level with no threshold.
+> - **⚠️ In a flat, make a threshold. "Я понимаю, что не совсем это красиво, этот порожек, но это гораздо практичнее."**
+>
+> **A second independent voice for a threshold**, arguing it from drainage and serviceability where the vault's existing argument (from Кузина) comes from leak-sensor shutoff timing. **Two unrelated mechanisms, same conclusion.**
+
+**⚠️ Trap selection: the main parameter is how much water it takes, and more is better. Width matters independently — a wider trap accepts more water even where its rated throughput is lower.** **Chromed cover plates get dirty and need cleaning; a tile-insert trap with a small cover is more practical but costs more — "а если они стоят недорого, то стоит задумываться, почему они стоят недорого."**
+
+### Screens and enclosures
+
+- **Clear glass is much easier to care for than satinated.**
+- **⚠️ A 900 × 900 shower is better with a door**, as is any shower with something wettable adjacent. Where the adjacent space is empty a glass or tiled partition suffices — **but some water barrier is mandatory.**
+- **⚠️ Bath screens — opening, sliding, stationary, folding — each need their characteristics understood.** A solid screen **is beautiful in a visualisation and not always practical**; a folding one **collects water on the folded face and needs somewhere to fold to.**
+- **⚠️ Design the screen WITH the layout: if the brief needs a screen that swings a particular way and the layout puts a pencil unit in its path, the layout is wrong, not the screen.**
+
+### ⚠️ Free-standing baths — the serviceability critique
+
+From her "красиво но нереализуемо" gallery. [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+- **A free-standing bath wedged between walls: how is the water mopped and how is behind it cleaned?**
+- **A free-standing bath with a gap behind it and a wall mixer — "как помыть и вытереть за ней?"**
+- **⚠️ Her fix where one must sit against a wall: there are baths that read as free-standing but have a flat back that abuts it. Use those.**
+- **⚠️ And the podium warning: too little tread beyond the bath edge means you step out onto a narrow ledge with nowhere for a non-slip mat — "можно просто убиться."** Her positive counter-example is deliberately an ugly picture: **a ribbed non-slip podium, the floor mixer standing clear with access all round, and access to the bath.**
