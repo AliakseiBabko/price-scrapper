@@ -696,13 +696,37 @@ def main() -> int:
         added_ids = head_ids - base_ids
 
         for rid in sorted(removed_ids):
-            problems.append({
-                "file": path, "check": "id_drift", "id": rid,
-                "message": (
+            # A page split moves a claim to another file, which this per-file
+            # check cannot distinguish from a deletion. Name the destination
+            # when we can find one - the finding stays a problem (suppressing it
+            # would blunt real truncated/retyped-ID detection, which is what
+            # scripts/verify_batch_selftest.py guards against) but becomes
+            # triageable at a glance instead of requiring a git archaeology
+            # session. Prompted by a false positive on Walls_and_Paint.md after
+            # the c474bef page splits, 2026-09-01.
+            moved_to = [
+                other for other in files
+                if other != path and rid in extract_ids(
+                    (file_bytes_at(args.head, other) or b"").decode("utf-8", errors="replace"),
+                    args.id_pattern,
+                )
+            ]
+            if moved_to:
+                where = ", ".join(moved_to[:3]) + ("..." if len(moved_to) > 3 else "")
+                message = (
+                    f"ID present before but missing now: '{rid}' - but it appears "
+                    f"at HEAD in {where}, so this looks like a MOVE (page split?), "
+                    f"not a lost citation. Confirm the claim travelled intact, then ignore."
+                )
+            else:
+                message = (
                     f"ID present before but missing now: '{rid}' "
-                    f"(if this file's claim about that source was deleted intentionally, ignore; "
+                    f"(not found in any other changed file, so it was not simply moved; "
+                    f"if this file's claim about that source was deleted intentionally, ignore; "
                     f"otherwise this may be a truncated/retyped ID)"
-                ),
+                )
+            problems.append({
+                "file": path, "check": "id_drift", "id": rid, "message": message,
             })
 
         # The fixtures file's fabricated ID is the point of the fixture; see
