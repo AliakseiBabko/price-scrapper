@@ -115,3 +115,33 @@ Real planning method — **start from the sewer riser, because WC position is co
 
 1. **The audience discriminator held perfectly.** Every one of the three is nominally designer-facing, and every one is useful **because a walkthrough of what a designer delivers doubles as a checklist of what a client should demand.** That is a narrow exception and it should not be stretched — it did not rescue the 3ds Max lessons and would not rescue a business-of-design video.
 2. **⚠️ Do not treat this as an ongoing source.** The channel is small (9k subscribers), the course is software training, and the useful standalone videos appear to be occasional. **A periodic re-check for new standalone uploads is worth more than mining what remains.**
+
+## Shortlist closed 2026-09-01 — the fourth item processed
+
+**`2h0XuwtM_4E` (wallpaper, 26 min) — the unverified item — is done. FULL, 21 facts raw / 19 net.**
+
+**⚠️ The triage's low-confidence flag on it was correct, and so was taking it anyway.** At 21/19 it is **half the yield of either bathroom video** and it is, as suspected, one organising idea rather than a dense source. **But the idea is good, and it produced the round's most consequential single finding.**
+
+**Playlist totals: 4 videos processed of 26, 2 h 46 min of 29 h 55 min — 9% of the runtime — for 135 facts raw / 124 net, at 33.8 raw / 31.0 net per video.**
+
+### ⚠️ The finding that justified processing it
+
+**It contradicts a claim this vault already holds, head-on, on a physical fact.**
+
+- **Михайловская**: wallpaper means *"не видно трещин"* — cracks do not show through it. **This is the FIRST of her three justifications for specifying wallpaper at all.**
+- **Шеврина, already on the wallpaper page**: **"wallpaper does not hide cracks — it accentuates them,"** with a mechanism, and with reinforcing mesh dismissed as *"пластырь на дыру в асфальте."*
+
+**Recorded as a Perspectives block rather than folded into either side.** Two reasons it matters more than a typical disagreement here: **it is checkable rather than a matter of judgment**, and **the argument for wallpaper over paint in a new build rests substantially on it.** Шеврина's side is currently better supported — she gives a mechanism and backs the adjacent restorability claim with a worked case — **but it should be settled by a third source, not by weighing two assertions.**
+
+**⚠️ And a process point worth keeping: I only found this because I grepped the destination page for existing coverage before writing the note.** Had I routed on the strength of the transcript alone, a contested claim would have been filed as a plain recommendation. **Check the destination before writing, not only after.**
+
+### The rest of what it gave
+
+- **The organising idea: wallpaper must not imitate what it cannot imitate, and the mechanism is TACTILE** — hard relief materials are known by touch, wallpaper is smooth, and the dissonance is what reads as fake. **Plus the render trap that explains why it keeps being specified: the failure is invisible in exactly the medium the decision is made in.**
+- **Her test — ask the wallpaper what it claims to imitate, and take it only if the answer matches what you see and feel** — worked across five samples.
+- **Three non-visual justifications**, including **the children's-room case where the material's weakness is the argument for it** (easily damaged, easily replaced), **with the caveat that the ecological claim applies to PAPER and not to non-woven.**
+- **A checkable pattern test**: a repeat appearing twice within one roll width reads as a template; and **narrow rolls compound it**, since wider is better for seams but demands a larger repeat.
+
+### ⚠️ The playlist is now closed
+
+**All four shortlisted videos processed; the other 22 remain rejected on the reasoning above and nothing found in the four changes that assessment.** **Do not mine the remainder.** A periodic re-check for new standalone uploads is worth more — the channel posts them occasionally, and they are a different kind of content from the course.

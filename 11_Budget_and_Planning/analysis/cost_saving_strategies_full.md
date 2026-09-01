@@ -58,6 +58,17 @@ When Business-class budgets exceed target allocations, down-tiering specificatio
 To prevent contractor material markups, fraud, or the dumping of expired/salvaged building supplies from previous job sites, clients should pay for all rough building materials directly through certified local distributors (e.g. Postroyka.bel or Mamont in Minsk) [Primary Local Benchmark: Minsk / Belarus 2025] rather than advancing cash to contractors.
 *(Source: [[_Archive/processed_sources/20260727_renovation_guide_mistakes_7_b385361e\|b385361e]])*
 
+## ⚠️ Wallpaper as a Deliberate Allocation, Not a Default (Татьяна Михайловская, added 2026-09-01)
 
+**A reasoned trade rather than a fallback**, and worth recording because the usual framing of wallpaper is simply "cheaper." [source: [[_Sources/YT_2h0XuwtM_4E_mikhailovskaya_wallpaper_selection|2h0XuwtM_4E]]]
 
+**Her worked case: a new build on a modest budget where you want interesting FURNITURE, so you deliberately save on the wall finishes in the living room or bedrooms to fund it.** *"Чтобы много по бюджету пошло на эту мебель, а на отделку стен вы хотите немножко сэкономить."*
 
+**⚠️ The saving is being moved to where it shows more — which is what makes it a decision rather than a compromise.**
+
+**Two conditions attached, both of which this vault holds elsewhere:**
+
+- **⚠️ The material must still pass her honesty test** — wallpaper imitating brick, stone, tile or board reads as fake in the room even where it looked fine on the render. See [[13_Surfaces_and_Finishes/analysis/Wallpaper_and_Paint_Application|Wallpaper & Paint Application]].
+- **⚠️ And the crack justification often offered alongside it is contested** — see the Perspectives block on the same page. **Do not let it carry weight in the decision.**
+
+*(Pairs with the Кузина material in the Budgeting Guide: cheap-improvement moves work on a solid base and do nothing on a bad one. Here the base question is whether the walls are sound enough that the choice is genuinely aesthetic.)*
