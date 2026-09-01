@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=bVmE50y33Ls",
+  "video_id": "bVmE50y33Ls",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T09:16:42.444424+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "dbd59eaf20ac53b78c6a9024b307133c6ebd660b0f8af40d51347ea902260dfc",
+  "attempts_before_success": []
+}

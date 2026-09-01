@@ -265,3 +265,21 @@ This page covers estimates and contracts with builders; **it had nothing on enga
 
 Full detail, including the two kickback schemes, in [[11_Budget_and_Planning/Budgeting_Guide|the Budgeting Guide §5c]]. `single-account`, `unverified`, Russian market. [source: [[_Sources/YT_AFBu0Uv-47U_shevrina_bad_designer_kickbacks|YT_AFBu0Uv-47U]]]
 
+## ⚠️ "Design Project" vs. "Visualisation" — the Scope Ambiguity That Produces Disputes (Надежда Кузина, added 2026-09-01)
+
+Complements the designer-engagement contract terms above with the *other* party's account of where the confusion starts. **Two of her own clients in recent months arrived insisting they wanted a 3D visualisation rather than a design project** — which is the scope ambiguity in its raw form, before any contract exists. [source: [[_Sources/YT_H43m5bn7W8k_kuzina_render_is_not_a_design_project|YT_H43m5bn7W8k]]]
+
+**What a contract should make explicit, derived from her account of the chain** (full treatment on [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §5c):
+
+| Stage | Who can do it, and what breaks if it is skipped |
+| :--- | :--- |
+| **Measurements** | Hireable standalone. **Most clients cannot survey their own space thoroughly** |
+| **Layout** | **A render without a layout is pointless** — the image presupposes where the sofa stands and where guests remove their shoes |
+| **Styling** | Establishes style, colour, **and which finishes fit the budget** |
+| **Visualisation** | Often subcontracted to a 3ds Max specialist. **Practically never usable on the first pass** |
+| **Working drawings** | The actual builder instructions. **Legitimately correct the render's dimensions** |
+
+- **⚠️ The clause the second-to-last row implies: who pays for the correction rounds after the first render?** She says no designer gets it right first pass — so a contract that does not name the number of included revisions is naming zero or infinity, and both sides will read it differently.
+- **⚠️ The clause the last row implies: a render is not a contract.** Dimensions can shift at the drawing stage; **the concept and colours do not change, furniture or room dimensions may.** Stating this in writing is expectation-setting that costs nothing and prevents a predictable dispute.
+- **⚠️ And the scope boundary itself: a standalone visualisation buys an image, not a realisation.** *"Мы работаем над проектом не с целью нарисовать визуализацию, а с целью его воплотить."* A visualiser takes a brief and returns "task completed" — **no interpretation, no pushback, no iteration.** A client who bought the first and expected the second has a dispute, not a misunderstanding.
+- **The deliverable is legitimately omissible**: projects without 3D exist, and **an experienced designer's collage can substitute.** Worth naming in the contract as an option, with the trade stated — **the nuances a 3D-correction pass would have caught surface on site instead**, which is the most expensive place to find them.

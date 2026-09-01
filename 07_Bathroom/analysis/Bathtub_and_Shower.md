@@ -342,3 +342,13 @@ This page already records the concealed profile as the preferred detail. **Here 
 
 [source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]]
 
+## Hydromassage, and the Cheap Substitutes For It (Надежда Кузина, added 2026-09-01)
+
+From a source on programming the bathroom as a spa — the full programme is on [[07_Bathroom/analysis/Planning_and_Layout|Planning & Layout]]. What belongs here is the fittings ladder, which runs from expensive and demanding to nearly free. [source: [[_Sources/YT_dIdcLPKj6is_kuzina_home_spa_bathroom|YT_dIdcLPKj6is]]]
+
+- **Built-in shower jet systems** — cabins with nozzle systems directing water at parts of the body.
+- **⚠️ Whirlpool baths: harder to install and heavier to maintain than ordinary ones, and must be used at least weekly to keep the system working.** She asks viewers who own one how often they actually use it and in what condition the bath is — **clearly sceptical that the answer is "weekly," which is the buying caution.** Adds to this page's existing tub-selection material as an ownership-cost argument rather than an installation one.
+- Indications she cites: nervous-system conditions, oedema, chronic fatigue syndrome, low tone; also improves skin condition.
+- **⚠️ The substitute if the bath is already installed — a multi-mode shower head, and her reasoning is specific: many heads mix water with air, and they do it differently.** She rates **Hansgrohe Raindance** highly on that basis (her opinion, recorded as such). Some have intense massage jets, some move, some change temperature for a contrast shower.
+- **A foot bath** — vibration, hydromassage or built-in rollers; relieves fatigue, stimulates circulation. The cheapest rung of all.
+- Because hearing, smell and touch work together, therapeutic equipment often carries extra options — **aroma-oil compartments in whirlpool baths and steam generators**, sound effects and lighting in smart showers.

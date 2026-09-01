@@ -662,3 +662,35 @@ Zone with furniture **detached from both floor and ceiling**, so the eye slides 
 **Or detach from the floor only.** With a wardrobe this costs storage — **upper shelves are less convenient than lower ones, and long clothes become hard to hang** — but it adds real air to a bedroom that previously had a floor-standing wardrobe in the same position.
 
 **Upholstered furniture: reduce the footprint by omitting armrests** — or, where space allows, no armrests instead yields extra seating on the same piece.
+
+## ⚠️ What "Zoning" Actually Means — a Test This Page's Plans Should Be Audited Against (Надежда Кузина, added 2026-09-01)
+
+The most load-bearing definition to arrive on this page. Prompted by a real consultation: clients wanted a **13 m²** children's room "zoned" into sleeping, changing, play and work areas. Her answer was that it does not fit — **"и так не бывает."** [source: [[_Sources/YT_Oy_eTelj-X0_kuzina_home_workspace|YT_Oy_eTelj-X0]]]
+
+- **⚠️ The operative definition: putting a desk in a bedroom is not a work zone. It is a change of layout.** A zone exists only when the *space* is treated — **a dropped ceiling over the desk, dedicated fittings above it, a fragment of wall screening it, or a different wall material in that area.**
+- **Her second example generalises it**: a wardrobe standing in a bedroom is not a changing zone, it is a wardrobe standing in a bedroom. It becomes a zone given a recess to step into, **its own lighting, its own ceiling colour, or a different floor.**
+- **⚠️ The consequence for anything on this page: a plan that labels zones should be audited against this test.** If nothing but furniture placement changes, the zone is notional and the drawing is overclaiming. That is a cheap check to run against any layout before it is priced.
+
+### When a work zone must be separated, and when it need not
+
+She answers **"no, not always"**, and gives discriminating cases rather than a rule.
+
+**Not needed** when the person has a calm temperament and is not irritated by their surroundings while working; or — **⚠️ the criterion based on the task rather than the room** — when **the work uses different faculties than speech.** Her example is handwork (cooking, knitting, beadwork), during which one can converse without distraction.
+
+**Needed** for: **active Skype or phone negotiation** where background noise must not carry (sliding partitions help, but only with sufficient floor area); **video calls specifically**, because of what is behind you; **work requiring high concentration**, which cannot be done in a through-route; and when **you cannot get into work mode at home** and the day becomes a circuit from computer to fridge to kettle and back.
+
+### ⚠️ Whoever sits in the through-route gets interrupted
+
+Her own lived case, and it cuts both ways. She could not work while her husband passed and pinched or kissed her each time; swapping seats fixed it. **His residual complaint is the other half of the rule: the person passing sees your screen.** Both are placement constraints, not furniture ones. *(The desk-at-window rebuttal that follows from this is on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]] with the daylight content.)*
+
+### Separation methods, and the one that only half works
+
+- **Sliding partitions** — need floor area. See [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]].
+- **⚠️ Open-through shelving units («сквозные стеллажи») do not block insolation**, so the rest of the room keeps its daylight — **but sound is not blocked at all.** They solve the visual problem only. The same trade-off as glass partitions: **light-passing separation is never acoustic separation.**
+
+### Staging, and the one-room case
+
+- **⚠️ Do not try to solve the workspace in one go.** Set up a desk and the minimum needed to work now, **but plan for the storage of files and materials that will be needed later.**
+- **⚠️ In a one-room flat with three people you can still claim a workspace**: partition off a section of the *table* and state firmly that mugs, books and pies do not go on it and no one eats there.
+- **Psychological anchors substitute for physical separation** — objects carried over from the office (posters behind the monitor, a plant, the dog that used to sit beside you) marking that the working day has begun. **Rituals do the same**: fixed hours, working clothes rather than slippers, and the household raising its questions only afterwards.
+- **⚠️ On the wall behind the desk she contradicts the standard advice from her own negative result**: pinboards and marker boards covered in reminders and keyboard shortcuts **did not help her** — she looked every shortcut up on the computer and never remembered it was written in front of her. **Her alternative is a design principle: you are in a living room, not an office.** Decorate over the desk so it does not read as office, so that getting up for tea returns your attention to the room.

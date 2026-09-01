@@ -133,3 +133,61 @@ figures. [source: [[_Sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|Y
 **USD normalization status:** the 25,000–45,000 RUB/m² figure is **not computable** here because this restatement does not carry an independently confirmed publish date; no calendar-year or guessed date conversion is claimed.
 
 **Comfort-class labor-only cost band, restated by Zemskov**: 25,000-45,000 RUB/m², matching a figure this store already has from a different Zemstandart video — same channel repeating its own convention over time, not independent corroboration.
+
+## Programming the Bathroom as a Spa — an All-or-Nothing Checklist (Надежда Кузина, added 2026-09-01)
+
+**⚠️ Her load-bearing claim, and what distinguishes this from generic content: advice on making a bathroom "spa-like" is superficial, and applying one or two items produces no effect at all. Most of the recommendations must be executed together.** A programme, not a list of nice touches. [source: [[_Sources/YT_dIdcLPKj6is_kuzina_home_spa_bathroom|YT_dIdcLPKj6is]]]
+
+**Her three groups, usable as a specification structure: (1) tactile comfort, (2) sound and smell, (3) visual comfort.**
+
+**The historical framing she uses to justify the material emphasis** — Greek baths and Roman thermae, mosaic and marble, with sports halls, libraries and gardens attached. **What survives into modern spas is two things: an emphasis on material, and the assumption that a person spends a long time inside.** The second is the design consequence, and it belongs on this page: **a bathroom programmed for a long stay is a different room from one programmed for a quick one**, and that changes the layout before it changes any fitting.
+
+### ⚠️ Tactile comfort — including the surfaces you never touch
+
+- **⚠️ The disqualifying detail, stated as a hard gate: standing barefoot on porcelain or stone requires a heated floor. Cold floor → "вы не в спа, а просто в санузле"** and you hurry into the shower. **Underfloor heating is a precondition here, not an upgrade** — see [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Heated Floor & Thermostat]].
+- Everything touching the body counts — towels fresh, soft, natural.
+- **Her own material preference, given as preference**: **velvety semi-matte porcelain**, and **composite bath materials with a matte, velvety-to-touch surface.** She explicitly allows the opposite taste — porous or fine-grained floors with a smooth bath.
+- **⚠️ The transferable technique: tactile contrast, including on surfaces nobody touches.** The *perceived* smoothness of the bath comes from the roughness of what surrounds it. Her worked examples — **very rough stone or formwork-marked concrete walls against wood floors and a smooth bath**; a bath appearing cut from a single rock with the roughness left on its outer contour; **pebble surfacing behind the bath rather than on the floor**, which is hard to maintain but far worse underfoot, and **placing it out of contact is precisely what creates the effect.**
+
+### ⚠️ What you look at — and a rebuttal of the standard advice
+
+- **The bath should look clean and tidy but not sterile.**
+- **⚠️ On plants, scrubs and creams on open shelves and beautifully stacked towels: that works in a salon because trained staff spend the whole day re-folding the towels.** *"Если вы согласны тоже так делать — тогда окей."* Otherwise store as in an ordinary bathroom.
+- **⚠️ The storage rule she does give: in the open leave only what is needed every five minutes; everything else goes behind closed doors.** A calm atmosphere cannot survive scattered small objects.
+- **⚠️ Plan decor positions in advance.** Worked example: **decorative candles sit badly on the bath rim — a wider horizontal surface beside the bath is needed, one that does not obstruct getting in.** A layout decision, not a styling one.
+- **If dimensions allow, include things atypical of a bathroom**: an armchair, a small sofa, a small table — **useful when applying body cream or doing a wrap** — plus a picture, vase or sculpture.
+- **⚠️ The point of all of it, as a status change: "вы повышаете статус ванны от обыкновенного санузла до комнаты."** Programming the bathroom as a *room* is the design move; the fittings follow from it.
+
+### Sound — and the cheaper answer she gives instead of soundproofing
+
+- **Radio/MP3 can be built into any sanitaryware and even the mirror** — **⚠️ she is openly dismissive: "хорошо подходит для тех, кто любит успешно решать самостоятельно созданные проблемы."** The traditional approach is ceiling speakers; waterproof portables exist.
+- **⚠️ Her real point, with a construction consequence: the absence of unwanted sound matters more than the presence of music** — the washing machine starting its spin, a TV audible through the door. **She explicitly does not propose soundproofing; she proposes scheduling and agreement with the household.** Recorded as stated, because it is a cheaper answer than the one a designer could bill for. Compare [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]] before spending.
+- **⚠️ Smell caveats, as practical limits**: most scent is processed associatively, so **a pleasant, beneficial scent with negative associations should not be used.** Watch allergies. **Essential oils must be diluted. An aroma bath: no more than 15 minutes, water no hotter than 36 °C.**
+
+## Steam Rooms in a Flat — Humidity, Ventilation, and RUSSIAN Approvals (Надежда Кузина, added 2026-09-01)
+
+[source: [[_Sources/YT_dIdcLPKj6is_kuzina_home_spa_bathroom|YT_dIdcLPKj6is]]]
+
+**Two families: stone (hammam, thermae) and timber (Finnish sauna, Russian banya).** Timber lining suits traditional steam rooms — **aspen (осина), lime (липа), cedar (кедр); ⚠️ cedar is particularly valued because on heating it releases natural essential oils**, and it has a wide colour range. **⚠️ Timber is unsuitable for a hammam because of the humidity** — traditional curved forms are clad in tile or mosaic instead.
+
+| Type | Humidity | Temperature | Ventilation consequence |
+| :--- | :--- | :--- | :--- |
+| **Infrared cabin** | **no steam at all** | **up to 60 °C** | **⚠️ Safest option.** Heats by infrared energy |
+| **Finnish sauna** | **up to 15 %** | **up to 100 °C** | **Natural ventilation may still suffice.** Usually larger than an IR cabin |
+| **Hammam / Turkish** | **up to 100 %** | **optimal 45–65 °C** | **⚠️ Forced ventilation and natural air supply mandatory** |
+
+- **⚠️ The general rule: the higher the humidity, the bigger the ventilation problem — and getting it wrong produces smell, fungus or mould.** See [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh Air Ventilation & Ducting]].
+- **The Turkish steam room has the fewest contraindications** at 45–65 °C — relaxes muscles, deep-cleans pores, good for joints, normalises sleep, reduces stress.
+- **⚠️ Cost and space (directional, not costed): full hammam equipment is expensive and space-hungry in a flat.** Her substitute: **a shower cabin with a hammam function — necessarily closed top and bottom — plus a separately-purchased steam generator**, giving a hammam or a hotter steam bath depending on the unit.
+
+> [!WARNING]
+> ### ⚠️ The approvals below are RUSSIAN — jurisdiction flagged, not transferable
+>
+> **Russian Federation, as described in a 2023-10-26 source. This project is in Belarus.** Recorded here rather than in `16_Legal_and_Regulations/`, which is Belarus-only. **None of it may be relied on for this apartment without independent Belarusian verification**, and she herself says the required set differs by city and is uncertain at the edges.
+>
+> - **Permitted in a flat: hammams, infrared cabins and individual saunas — factory-assembled units only.**
+> - **Prohibited: classic bathhouses and saunas intended for collective use; anything with a wood-fired stove.**
+> - **⚠️ Even the permitted is not permitted to everyone**: only occupants of **brick or monolithic buildings with reinforced-concrete floor slabs.**
+> - **The flat must be not smaller than some minimum area**; **the electrical allocation to the flat must be sufficient**; **the sauna may occupy no more than 2 m²**, and **that area may only be taken from the bathroom or the corridor.**
+> - **Approvals**: housing inspectorate, fire inspectorate, sanitary-epidemiological supervision. **She flags her own uncertainty beyond that** — sources differ on Rospotrebnadzor (*"хотя я не понимаю, почему"*) and on architectural-and-construction supervision for a replanning.
+> - Her joke about the process is recorded because it is a schedule warning: by the time the approvals are through you will badly need a full course of spa procedures.

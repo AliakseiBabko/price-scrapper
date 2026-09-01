@@ -634,3 +634,58 @@ Nobody sets out to mix six metals. Her worked example: buy a **gold pendant** be
 - **Spread the dominant metal evenly around the room.** In her example gold is not a large quantity in total, **but it appears on the central table, on accessories, on cushions and on the visible curtain bracket** — so it is unmistakably the lead.
 - **Distribute by height — a rule she offers while doubting it.** Top to bottom: ceiling fixtures, curtain brackets, sconces, table lamps → door, window and cabinet hardware → side tables and furniture legs. Assign finishes by band; **if using two groups rather than three, assign the middle band arbitrarily.** **She notes most examples she found did not follow this**, so it is a suggestion, not a rule.
 - **⚠️ There must be something in common between objects in different finishes — the most usable of the three.** Two strong devices: **several fixtures of the same form in different sizes and finishes**, which bind further colours in; and **a chandelier that itself contains several finishes** (silver + gold + crystals), after which **gold side tables and silver side tables both work** — the chandelier ties them together.
+
+### Zellige — a Second Authenticity Marker of the Same Shape (added 2026-09-01)
+
+Sits directly alongside the ikat white stripe above, and the logic is identical: **the manufacturing process leaves a signature that imitations cannot carry.** [source: [[_Sources/YT_X3emRuW-PbA_kuzina_tile_types_by_style|YT_X3emRuW-PbA]]]
+
+**Zellige («зелик») tiles are hand-dipped in glaze and fired in a clay kiln where the temperature is deliberately uneven.** The consequence is that **each tile takes a slightly different colour and no two are identical.** That variance *is* the mark of the artisanal process — a uniform, consistently-coloured "zellige" is a serial imitation.
+
+**The general rule worth extracting from both cases**: where a material's value rests on hand-making, look for the irregularity the process necessarily produces, not for the evenness a factory can fake more cheaply.
+
+## ⚠️ Deciding What to Carry Over From the Old Flat — a Three-Question Method (Надежда Кузина, added 2026-09-01)
+
+A budget tactic wearing decor clothing: **every item carried across is furniture not purchased, and every wrong one is a design constraint accepted for free.** Her framing — renovation is expensive, so when the work is done and the furniture is not all bought, the temptation is to move as much as possible. The cost side is on [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]]. [source: [[_Sources/YT_bVmE50y33Ls_kuzina_what_to_bring_from_old_flat|YT_bVmE50y33Ls]]]
+
+**Her first question for any object: *why* do you want to take it?** Three answers, in ascending order of validity:
+
+1. **Emotional attachment** — an inheritance, an armchair from friends, a honeymoon vase. **⚠️ The test, directly usable: put it out of sight. If a week later you have not remembered it, discard it.**
+2. **⚠️ Sunk cost — "it was expensive."** Her live case: two identical Italian pendants that **do not really suit the new flat but were a costly purchase**, so the owners want them. She calls this *"повод для размышлений"* — grounds for thought, **not a reason.**
+3. **⚠️ The only argument she endorses: it genuinely fits the future interior, including by size.** **Pay particular attention to large and medium objects.** Strongest of all is an object that can be staged advantageously and **become the feature the scheme is built around.**
+
+### ⚠️ Rhythm versus noise — why souvenirs fail
+
+- **Souvenirs and gifts are frequently visual clutter** that neither adorns nor pleases; you simply stop noticing them.
+- **⚠️ The de-anchoring test**: imagine seeing the object for the first time, not knowing where it came from or who gave it — **it was not given to you at all.** Then decide.
+- **⚠️ The mechanism, and the general principle: many small disparate objects do not form a rhythm, they form noise.** You believe you will look at them; in practice **you merely resign yourself to their existing where you put them.**
+- **⚠️ Repetition is what rescues it.** Her positive example is five similar unusual pieces used as art in the central position of a living room. **Many homogeneous objects work where scattered ones do not** — the same scale-hierarchy logic as the pattern-combination section above.
+- **The exception she does allow: a conversation piece.** Her worked example is the **Philippe Starck citrus squeezer** — everyone agrees it is a poor way to squeeze an orange; it exists as a trigger for conversation. An African mask with a story that happens to work with the sofa upholstery is **"классный способ сэкономить."**
+- **⚠️ Her sharpest diagnosis, from a negative example** (a display of printed holiday photos and beads): the problem was less the decor than **where it was given pride of place — the most visible wall by the sofa, rather than a corridor near the entrance.** Placement, not object.
+
+### ⚠️ Pictures — the category she calls a disaster
+
+*"Это прямо беда на консультациях."* Her flat assertion: what attracts you to the picture you want to bring is very often not the picture.
+
+**Do not bring it when**: it does not suit the style — possible, **but then commit to eclecticism deliberately from the start**; it suited the *old* scheme and the new one differs — **the picture was good in a context you are demolishing**; or it belongs to **⚠️ the largest category, pictures that suit nothing anywhere.** She is unsparing, and adds that clients disproportionately own exactly this kind and arrive wanting to build the scheme around it. Do not — **and do not store it either**, unless selling the flat. Also avoid **series of canvases meant to hang in a row forming one image**, worse still at staggered heights or in zigzags.
+
+**Do bring, or buy**: **abstract work that does not strongly affect the style**; **⚠️ large work — at least a metre on one side, preferably more**; and **⚠️ work in a good, expensive frame («багет»)** — the picture may be ordinary, but **the frame ties it to the interior and makes it read as more expensive.** A cheap way to raise perceived value, **and a real separate cost line.**
+
+**If you cannot judge art yourself, hire a specialist or trust a gallery.** Her analogy is her own repeated failure buying cosmetics with friends, relatives, mother and sister — **"они выбирают как бы себя."** **⚠️ The general principle: a companion is not a substitute for an expert, because a companion applies their own case to yours.**
+
+### ⚠️ Reproductions, and the proportionality rule
+
+- **Never bring reproductions of famous paintings** — not even one you did not recognise and later discovered was a Matisse. **Her parallel: it is the same phenomenon as the bears-in-the-pine-forest print that used to hang everywhere; only now it is an abstract woman, and it is a Matisse.** Take an unknown author instead.
+- **⚠️ The proportionality rule, and the most transferable line in the source: the constraint an object imposes on the plan should be proportional to its value.** Why adjust the interior — matched by colour, or worse by size, so the picture fits one pier and not another and **therefore the cabinet goes in the other pier** — for a **2,000 RUB (~$30) reproduction? **Being forced to hunt for a place for a thing is the signal that it fails the test.**
+- **What earns its place instead: rare posters, etchings («эстампы»), engravings («офорты»)** — 20th-century archives are findable in Moscow, French exhibition posters, Queen bills. **~10,000 RUB (~$150) plus framing.** **⚠️ The criterion generalises past posters: "эстетическая ценность этого предмета больше, чем его денежная стоимость."**
+- **The effect being bought**: it makes the interior ironic and alive and **gives the home a history — it looks collected rather than decorated in ten minutes**, even if it was. Applies equally to rare books, rare lamps, small tables.
+- **Tableware, bed linen and bathroom accessories must match the style like anything else.** Grandmother's service at a contemporary bar counter is fine **if you will actually use it** — **⚠️ but not if no one will, it does not suit, it takes space, and the porcelain cannot go in the dishwasher.** *"Чтобы что?"* The saving on a new set of mugs does not justify it.
+
+## ⚠️ The Empty-Wall Method of the Typical Project — a Reusable Recipe (Надежда Кузина, added 2026-09-01)
+
+She reverse-engineered why Russian design portfolios converge and gave the recipe away. **Delivered as satire, but she is explicit that it works and produces what designers sell** — which makes it the most directly actionable decor content processed from this channel. Identical for every room; worked through on the wall behind the sofa, which is large, visible, and reads boring in plain cream. [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+- **More classical: rectangles of moulding, trade term «зеркала» ("mirrors").** The layout arithmetic — **a wide one in the centre, narrower ones either side**; on a long wall, a further outboard pair. **A picture hangs in the centre of the wide one; wall lights in the centres of the narrow ones. Wall and moulding are painted the same colour.** At a stretch the central rectangle splits in two with the picture hung across the mouldings — **she flags that this already risks leaving the typical envelope.**
+- **More contemporary: mouldings placed asymmetrically**, or replaced by **slats («рейки») or polyurethane wall panels** running floor to ceiling and **occupying a third or a half of the sofa's width.** Picture, or picture plus wall light, on the remainder. *(Slat panels are covered in more depth in the slat/partition section above.)*
+- **⚠️ Frescoes substitute for a picture** and combine with both mouldings and slats — **but must have no bright colours and no pronounced subject.** Usually something botanical, grey or beige on a light ground.
+- **The TV wall opposite gets exactly the same treatment.** In more expensive projects, **natural stone or large-format marble-effect porcelain** is added there, **veining sparse, grey or golden.**
+- **No wallpaper in the typical project — painted walls only.**

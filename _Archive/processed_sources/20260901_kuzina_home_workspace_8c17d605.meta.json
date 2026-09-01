@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Oy_eTelj-X0",
+  "video_id": "Oy_eTelj-X0",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T09:04:31.098507+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8c17d605be5cb694ffee9452c85bce76680cd4d5e96da78dab1995846d0ce5f4",
+  "attempts_before_success": []
+}

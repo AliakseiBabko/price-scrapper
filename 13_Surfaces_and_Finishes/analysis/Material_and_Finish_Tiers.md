@@ -37,3 +37,11 @@ Stated about wood but applying to any finish selected across more than one shop.
 ### ⚠️ Metal Finish Names Are Not Reliable Between Suppliers (added 2026-09-01)
 
 A purchasing hazard rather than a design rule, and it belongs with the sample-based method above. **Manufacturers use the same words for different finishes.** A maker who stocks brass but not gold **will very likely label the brass "gold,"** because it is the yellow metal in their range — and **brass is frequently sold as "champagne" or "champagne gold."** It depends entirely on the supplier, so **the name on the spec sheet does not identify the finish.** The consequence is the same as for wood: compare physical samples under one light, not names or photographs. [source: [[_Sources/YT_LAuZhM9tJWA_kuzina_combining_metal_finishes|YT_LAuZhM9tJWA]]]
+
+### ⚠️ Two Purchasing Tests for Stone- and Wood-Effect Porcelain (added 2026-09-01)
+
+Both belong with the sample-based selection method and the metal-finish naming hazard above — this is the third instance of the same pattern: **a trade name does not identify what you are buying.** [source: [[_Sources/YT_X3emRuW-PbA_kuzina_tile_types_by_style|YT_X3emRuW-PbA]]]
+
+- **⚠️ Wood-effect porcelain: the test is "много лиц" — many faces. You should not be able to see where the pattern repeats.** A cheap sheet reuses a handful of plank images and the repeat becomes obvious across a floor. Checkable in a showroom in seconds.
+- **⚠️ Marble-effect names are inconsistent between makers.** Tile copies *specific quarried stones* — Statuario (contrasting, sparse veins), Calacatta (more diffuse, more veins, same Carrara quarry), Arabescato (more contrasting, veins enclosing rounded areas), Emperador, Sahara Noir. But a design she rates, **Invisible Grey, is sold as Invisible White, Invisible Pearl and "Invisible-something" depending on the maker** — so match on the figure, not the label. Full taxonomy on [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]].
+- **Cost note, directional not costed**: **large-format wood-effect porcelain is a real alternative to timber wall panelling** — it does not warp, cuts freely, its grain figure is pre-drawn and predictable, and **it is cheaper than real panels**, especially against a species like American walnut.

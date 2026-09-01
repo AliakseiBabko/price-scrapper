@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=gwa1wsTYYLE",
+  "video_id": "gwa1wsTYYLE",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T09:01:03.548963+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "2856c12a7b6ec5115de71d79df1dd54385bc4571fc399317ad8941b80ff42c47",
+  "attempts_before_success": []
+}

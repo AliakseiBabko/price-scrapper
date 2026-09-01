@@ -630,3 +630,63 @@ Her own preferred arrangement, stated to designers: **charge a proper fee, or a 
 - [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration & Scheduling]] — realistic renovation duration, stage-by-stage sequencing dependencies, and named real-world schedule-slip mechanisms from four independent sources.
 - *Planned:* a min/max price distribution case, once a source establishing that range exists (not yet created).
 - RU-language contractor interview (YouTube, secondary reference) — [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|source note]]; budget-tier and labor/material % splits are not directly comparable to the Minsk-primary figures above — see intermediate knowledge store for detail.
+
+## 5b. Design Services — What They Cost, and What Learning To Do It Yourself Costs (Надежда Кузина, added 2026-09-01)
+
+The only design-fee benchmark in this vault so far, and the comparison is more useful than either figure. **Moscow, April 2023**, for a flat **up to 100 m²**. [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+| Route to deciding how the interior looks | Cost (RUB) | USD equiv |
+| :--- | ---: | ---: |
+| Buy everything at a shopping centre | no additional outlay | — |
+| **Hire a designer** | **from 200,000** | **~$3,100** |
+| **Take a design course yourself instead** | **150,000–250,000** *plus a lot of your time* | **~$2,300–$3,800** |
+| Follow her free video recipe | 0 | — |
+
+*USD at the trailing-12-month mean to 2023-04-20, **65.1704 RUB/USD**; rounded to the nearest 100 per the $1,000–$99,999 bucket.*
+
+- **⚠️ The comparison is the durable content: the entry design fee and the cost of learning to do it yourself are the same order of magnitude.** The DIY route is not the cheap one once the course is priced, and it additionally costs time. A real input for the hire-or-not decision.
+- **⚠️ 200,000 RUB is a floor («начинается где-то от»), Moscow-specific, and 2023.** Not a typical price, and not transferable to another city or year without re-resolving — see this guide's standing rule on location-and-year.
+- **A budgeting aside from the same source, worth its own line: on a render, laminate, quartz-vinyl and parquet are near-indistinguishable** — *"внешний вид особо сильно на рендерах не отличается, всё зависит от бюджета."* **The visualisation cannot justify a flooring upgrade.**
+
+## 5c. What a "Design Project" Includes, and Why a Render Is Not One (Надежда Кузина, added 2026-09-01)
+
+Prompted by two of her own clients in recent months insisting they wanted a 3D visualisation specifically, rather than a design project. **The scope ambiguity she is describing is exactly the kind that produces disputes** — see [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]] for the contract side. [source: [[_Sources/YT_H43m5bn7W8k_kuzina_render_is_not_a_design_project|YT_H43m5bn7W8k]]]
+
+**The chain that must precede a render** — and the value here is the chain, which sets what a client should expect to receive and in what order:
+
+1. **Measurements («замеры»).** **⚠️ "Клиентов, которые в состоянии сами снять досконально замеры своей территории, меньшинство."** If skipping the designer, a measurer can be hired for this alone.
+2. **Layout («планировка»).** **⚠️ Approaching a render without a layout is pointless** — to make an image at all you must already know where the sofa stands, **where guests take their shoes off**, what happens in the children's room, the configuration around the cot. Planning decisions, not rendering ones.
+3. **Stylistic direction** — progressively establishing which style, which colours, and **which finishes suit your budget.**
+
+**⚠️ The budget rule, and the load-bearing claim for this page: "мы работаем над проектом не с целью нарисовать визуализацию, а с целью его воплотить."** The consequence — **the cost of implementation must be visible from the very first stages.** From the planning and concept moment the designer must already have a rough figure for furniture, lighting, wallpaper and so on. **A concept developed without that number attached is a concept that may not be buildable.**
+
+**What going direct to a visualiser actually costs you:**
+
+- **You must specify exhaustively yourself** — that sofa, from that company, in that colour, in velvet, its overall dimensions, its height, and its position in the room.
+- **⚠️ And the observation that undercuts the DIY route: even clients certain they can picture their interior change their vision during the process.** Exhaustive up-front specification assumes a stability she says does not hold.
+- **⚠️ Practically no designer gets a usable visualisation on the first pass** — she checked with her own visualiser and with colleagues. Seeing the space in three dimensions surfaces what the planning and concept stages missed. **Going direct, you must make those corrections yourself, and that needs a trained eye. Otherwise the visualiser's first output is also your final one.**
+- **⚠️ Her analogy: a designer is an *interface*, like Windows showing windows and buttons instead of raw binary. A visualiser takes a brief and returns "task completed," and nothing else happens** — no interpretation, no pushback, no iteration unless you drive it. (Many designers do not produce 3D themselves, handing it to 3ds Max specialists.)
+
+**The project does not end at the render:**
+
+- **⚠️ Detailed drawings follow, and they are the actual instructions to builders** — what sequence of actions realises the project. Her worked example: *"вот этот профиль, два слоя гипсокартона по нему, значит вот такая толщина, следовательно вот такой размер."*
+- **⚠️ Drawings sometimes correct the visualisation, and she frames this as normal rather than failure**: dimensions can shift at the drawing stage. **The overall concept and the colours do not change; furniture or room dimensions may.** Useful for setting expectations — **a render is not a contract.**
+
+**⚠️ When a render is genuinely unnecessary — and she argues against her own most saleable deliverable:**
+
+- **Projects without 3D exist**, to save money, or where the client wants specific items from specific shops and visualising is slower and dearer.
+- **⚠️ The honest trade: skip the render and the nuances that would have been polished during the 3D-correction pass surface on site instead.** They do not disappear; **they move to the most expensive place to discover them.**
+- **⚠️ But the legitimate alternative she concedes**: many designers who constantly deliver realisations have a trained enough eye that **a good collage suffices** — flatter and simpler, made and edited by the designer, approved with the client, sent straight to site.
+- Her conclusion: **"сказать, что 3D-визуализация — это непременный атрибут того, что у вас будет происходить на объекте, нельзя."** Pleasant to look at, and **easier to reach agreement with a client on** — but not a precondition for a good outcome on site.
+
+## 5d. Carrying Furniture and Decor Over From the Old Flat — a Budget Tactic With a Design Cost (Надежда Кузина, added 2026-09-01)
+
+Her framing is a budget one: renovation is expensive, so when the work is done and the furniture is not all bought, **the temptation is to move as much as possible from the old flat.** The full decision method is on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]; what belongs here is the money. [source: [[_Sources/YT_bVmE50y33Ls_kuzina_what_to_bring_from_old_flat|YT_bVmE50y33Ls]]]
+
+- **⚠️ Every item carried across is furniture not purchased — and every wrong one is a design constraint accepted for free.** That is the real trade, and it is rarely priced.
+- **⚠️ The named failure mode is sunk cost**: her live case is two identical Italian pendants that **do not suit the new flat but were a costly purchase.** She calls that grounds for thought, **not a reason.** The money is already spent either way; the only live question is what the object costs the new scheme.
+- **⚠️ The proportionality rule, which is the transferable form: the constraint an object imposes on the plan should be proportional to its value.** Her worked example — a **2,000 RUB (~$30)** reproduction driving where a cabinet goes because the picture fits one pier and not another. Against that, **rare posters or etchings at ~10,000 RUB (~$150) plus framing**, where *"эстетическая ценность больше, чем его денежная стоимость."*
+- **⚠️ Framing («багет») is a separate cost line and is worth spending on**: an ordinary picture in a good frame **reads as more expensive and ties to the interior.** One of the cheaper perceived-value levers in this guide.
+- **The false economy she names**: keeping grandmother's porcelain service that no one will use, that does not suit, that takes space and cannot go in the dishwasher — **to save on a new set of mugs.**
+
+*USD at the trailing-12-month mean to 2020-08-21, **67.8098 RUB/USD**; nearest 10 per the sub-$1,000 bucket. Both figures are her illustrative examples, **not quotes or market observations** — the ~5× ratio between them is the durable content, not the amounts. Moscow, August 2020.*

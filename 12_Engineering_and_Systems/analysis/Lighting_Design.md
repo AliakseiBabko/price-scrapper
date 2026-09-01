@@ -338,3 +338,53 @@ This page already carries a **dust-trap** caution against cove/contour lighting 
 - **Ceiling niches with concealed indirect light as a chandelier replacement** cost perhaps 10 cm — a favourable trade, since no chandelier is only 10 cm tall. The refined version throws light sideways from under a lip and reflects it down; **it needs genuinely skilled builders.**
 - **Replacing the chandelier's decorative role**, since technical light alone can read as bare: pendants along the walls (conventionally over bedroom nightstands, but equally over living-room coffee tables); **a full chandelier hung in a corner** rather than centrally, proportioned to what it hangs over; and **large wall fixtures — too big to call sconces — which pair well with ceiling technical light and make a chandelier redundant.**
 - **⚠️ Do not use a chandelier with a downward-facing opaque shade** — it casts a shadow line around the room's perimeter, **adding another horizontal line**, which is the opposite of the goal. **Prefer an upward-facing shade, and sconces throwing light onto the ceiling.**
+
+## Daylight — the First Content on This Page That Is Not Artificial Light (Надежда Кузина, added 2026-09-01)
+
+Everything above concerns fittings. These are the moves that change how much **natural** light a room delivers, from a designer arguing about whether they are worth making. Her caution about whether the whole programme is worth it lives on [[17_Design_and_Ergonomics/analysis/Color_Palette_and_Material_Direction|Colour Palette & Material Direction]]. [source: [[_Sources/YT_gwa1wsTYYLE_kuzina_natural_light_rebuttal|YT_gwa1wsTYYLE]]]
+
+- **Replace parts of walls with glass partitions.** They need **not** run floor to ceiling — **a partial one reads as an internal window**, which she rates in its own right. Swap solid doors for glazed, with frosted or patterned glass where sightlines must be limited.
+- **Glass blocks**, specifically for **hallways and corridors, which most often have no daylight at all.** Relief-textured blocks where living zones need visual isolation.
+- **⚠️ Zone with light-transmitting fabric instead of glass — and the reason is the useful part**: light interiors often read like a hospital, and **textile is what removes that**, adding cosiness and texture while still passing light.
+- **⚠️ The furniture principle, which generalises: fewer shadows means a lighter interior.** Hence **open-back chairs** and **upholstered furniture on high legs**.
+- **⚠️ Round off corners.** Any sharp change of form casts a noticeable shadow; a rounded corner makes the shadow gradual. *(Independently the same detail [[13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels|corner-protection]] content recommends for wear — two unrelated reasons converging on one move.)*
+- **Light floors** reflect and distribute window light better. **Window reveals («откосы») can be mirrored, glossy, or finished in light glossy porcelain.**
+- **Declutter windowsills specifically** — pots and books block the light you are trying to keep.
+- **⚠️ Rooms with a balcony are the darkest**, and she names the Russian aggravating factor: the balcony holds everything that did not fit in the flat. **Remove bulky items blocking the glazing; do not hang laundry where it blocks light.**
+
+### ⚠️ Glass partitions — the cost reality check she gives immediately after recommending them
+
+- **More than one moving part means the mechanism must be chosen very carefully, and those mechanisms are expensive.**
+- **Glass blocks impose a style** — most likely one of the contemporary ones. Not a neutral choice.
+- **Loft-type light-transmitting partitions fit almost any style but read banal** — *"только ленивые ещё их не ставили"*.
+- **⚠️ The one most likely to be missed: in a cramped flat with a storage problem, you cannot stand furniture along a glass partition.** The partition that solves the light problem worsens the storage problem — which was the other of the two problems she opened with.
+
+### Daylight and the desk — a rebuttal of "put the desk at the window"
+
+From a separate source on home working, but it belongs with the daylight content rather than with fittings. [source: [[_Sources/YT_Oy_eTelj-X0_kuzina_home_workspace|YT_Oy_eTelj-X0]]]
+
+- **⚠️ In a very large number of standard plans the window faces the door**, so anyone entering looks at your back and sees your screen.
+- **Sun in your eyes, or on the monitor.**
+- **⚠️ In winter the radiator sits under the window, so you are heated separately from the rest of your body.**
+- **⚠️ Her fix, which keeps the daylight and drops all three: sit side-on to the window.** With decent wall left and right of the opening, **a corner desk** puts you close to the glazing with none of the listed problems.
+
+## Dim-to-Warm, and a Finish Constraint on Coloured Light (Надежда Кузина, added 2026-09-01)
+
+From her home-spa source, but the rules are not bathroom-specific. Sits directly against this page's existing **RGB / Coloured Strip Lighting** and **Color Temperature Rules** sections. [source: [[_Sources/YT_dIdcLPKj6is_kuzina_home_spa_bathroom|YT_dIdcLPKj6is]]]
+
+- **⚠️ Lighting must be planned in advance** — she states this as the precondition for everything else in the room.
+- **Bright, cool light for waking** (imitating sunlight, especially important in the dark season); **soft, warm light for relaxing.** **The conclusion: you must control both brightness *and* colour temperature**, via a dimmer.
+- **⚠️ «Dim to warm» is the specific feature to specify** — available on modern fittings, especially recessed spots and LED strip: **bright output is cool, dimmed output becomes warmer**, so one fitting covers both scenarios above without a second circuit. A directly actionable buying criterion, and the cheapest route to this page's "minimum three scenarios" rule.
+- Alternative: keep the main ceiling light and add **warmer diffuse perimeter lighting.**
+- **On chromotherapy she is openly sceptical** — green relaxes, red stimulates is *"всё очень относительно"* — **but allows that watching one shade fade into another under the shower may simply be pleasant.**
+- **⚠️ The constraint that belongs with this page's RGB section: some finishes look very bad under coloured light. If RGB is planned, specify plain cream walls and grey floors.**
+- A solution she rates: **a stretch ceiling backlit by LED strip through the membrane**, giving an even wash, switchable between colour and white.
+
+## The Typical-Project Lighting Vocabulary, as a Negative Specification (Надежда Кузина, added 2026-09-01)
+
+Delivered deadpan, but it is an accurate description of the mainstream decorative-fitting market and therefore **useful for knowing what to avoid if the flat should not read generic.** [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+- **General light is "technical" light**: recessed or surface-mounted spots. **If the body is visible it is white.** Tracks are always narrow and almost always black; white at a stretch.
+- **Pendants go over the dining table or bar counter**, centre of the living zone, more rarely centre of the bedroom.
+- **⚠️ The permitted pendant forms, in full: balls, sticks, balls-on-sticks, and rings.** Wall lights over the sofa or bed: balls, sticks, sticks-with-balls. Bedside pendants: the same set plus rings.
+- **⚠️ The observation worth keeping: the entire mainstream decorative-lighting vocabulary reduces to two primitives and their combinations.** Fitting geometry is where a generic scheme shows first, and it is one of the cheaper places to break the pattern.

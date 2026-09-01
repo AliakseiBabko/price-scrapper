@@ -334,3 +334,11 @@ apartment. [source: [[_Sources/YT_k9CrEU5RuIE_petrishin_flooring_baseboard_mosbu
 ## Steam-Cleaner Material Compatibility Caution (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
 **⚠️ Steam cleaners are largely incompatible with quartz-vinyl and laminate flooring** — check each specific product's own care instructions before using one, since compatibility varies by manufacturer/finish rather than being safe by default across either material family. Kruglov states his own personal opposition to steam cleaners generally, despite their popularity, precisely because of this material-compatibility risk — framed as a caution to verify before use, not a blanket ban for every flooring type. `single-account`, `unverified`. [source: [[_Sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
+
+## ⚠️ A Render Cannot Justify a Flooring Upgrade (Надежда Кузина, added 2026-09-01)
+
+Short, and it undercuts a common decision path. In the mid and mid-light golden-beige tones that dominate mainstream schemes, **laminate, quartz-vinyl and parquet are near-indistinguishable in a visualisation** — *"внешний вид особо сильно на рендерах не отличается, всё зависит от бюджета."* [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+**The consequence for the buying decision**: if the render is what the upgrade is being sold on, the upgrade is not being sold on anything. **Every argument for the dearer material on this page is a durability, repairability, underfoot, health or heated-floor argument — none of which a render shows.** Decide from the comparison tables above and treat the visualisation as neutral between the three.
+
+Same source notes **dark floors are rare** in these schemes, and that the kitchen is the exception where marble-effect tile displaces wood-effect entirely.
