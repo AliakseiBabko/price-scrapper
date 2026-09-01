@@ -1,5 +1,18 @@
 # Kitchen Furniture & Layout
 
+## ⚠️ Kickplate/Toe-Kick Ergonomics — This Round's Headline Kitchen Finding (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_qwh1x15aM4s_krasnov_kitchen_solutions_disappoint|qwh1x15aM4s]]]
+
+The popular "floating"/no-toe-kick cabinet look (fronts running almost to the floor) sacrifices real ergonomics for a clean visual line. Russian «цоколь» (toe-kick/plinth recess) quoted inline on first use.
+
+- **⚠️ Mechanism 1 — posture/fatigue**: the standard **~80mm (8cm) toe-kick recess** lets a person's feet tuck slightly under the cabinet while standing close to the counter, which keeps the body's centre of gravity stable and reduces lower-back strain during extended standing/food-prep. Losing this recess forces standing further back and leaning forward more, causing fatigue within **5-10 minutes** of cooking.
+- **⚠️ Mechanism 2 — moisture/impact damage**: with no toe-kick, the lower front edge is directly exposed to splashes/moisture/foot impact (staining, swelling, chipping over months) that a recessed cabinet face never encounters.
+- **⚠️ Mechanism 3 — service access**: a toe-kick area commonly hides electrical/plumbing runs (outlets, dishwasher drain hose) and built-in-appliance ventilation clearance — a no-toe-kick design makes these harder to access/service without it.
+- **⚠️ Recommended compromise**: a recessed toe-kick **5-10cm high**, painted to match the floor or cabinet front (for the visual lightness of "floating" while keeping the ergonomic recess), or in premium projects a **flush recessed kickplate set back a few cm from the cabinet face** for the best of both.
+
+`single-account`, `unverified`.
+
 ## Cabinet Modules & Sizing
 
 - **Default every cabinet module to a standard width (40/50/60cm etc.)** — custom-sized modules (e.g. 537mm, 649mm) typically carry a real cost premium and integrate less reliably with built-in appliances sized for standard modules. If a run's total length doesn't divide evenly, make only the *last* module in the run custom-sized so every other module stays a round 5cm/10cm multiple, or use a plain filler/spacer strip instead of resizing a functional cabinet.

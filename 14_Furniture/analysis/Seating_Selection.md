@@ -64,6 +64,17 @@ Directly relevant to this project, where overnight-guest frequency is already re
 
 ---
 
+## Sofa Structural-Quality Checklist and Cushion-Fill Composition (Игорь Краснов, added 2026-09-01, Round 3)
+
+Two genuinely new, distinct furniture-buying heuristics — separate from this page's existing sofa content above (visual weight, horizontals, made-to-order defaults). [source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
+
+- **⚠️ Sofa structural-quality checklist**: check for a CENTRAL support leg/frame reinforcement on any long sofa — four legs at the corners only, on a long sofa, sags/deforms over time without centre support. **States price is NOT a reliable quality proxy** — even expensive branded sofas often lack proper internal support. Recommends physically inspecting the underside before buying (look for a centre reinforcement bar/leg, assess overall frame construction and material) or, for online purchases, specifically requesting underside photos/construction diagrams from the seller. **Best-practice frame**: solid hardwood or metal frame, WITH a centre support leg, well-balanced weight distribution — should not sag, creak, wobble, or bend under normal use.
+- **⚠️ Sofa cushion FILL composition — a distinct, checkable heuristic, separate from the frame point above**: pure/100% feather-filled seat and back cushions (not decorative throw pillows — the actual seating/backrest cushions) feel luxuriously soft at purchase but sag, shift, and lose shape within days, requiring DAILY hand-fluffing to maintain appearance. Recommends instead a **medium-density polyurethane foam CORE wrapped in a feather or synthetic-down OUTER layer** — combines stable shape retention with a soft surface feel, avoiding the daily-fluffing requirement; flags this multi-layer construction as typically found in higher-end/custom/bespoke furniture rather than mass-market pieces. A fully rigid/firm polyurethane-foam-only cushion (no soft outer layer) is a legitimate alternative for someone who prefers a firm seat that holds shape perfectly — a valid personal-preference choice, not inherently worse, as long as it's deliberate.
+
+`single-account`, `unverified`.
+
+---
+
 ## Source Notes
 
 Traceability record kept on its own page — [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]].

@@ -277,6 +277,19 @@ A debunk of a widely-shared short-form claim that a threshold-free bathroom floo
 
 `single-account`, `unverified`.
 
+## Palette Discipline, One Strong Accent, and Deliberate Empty Space (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_3lFeF0MSXh4_krasnov_bathroom_8worst_mistakes|3lFeF0MSXh4]]]
+
+- **A single cohesive style theme before selecting fixtures** — pick minimalism/eco/classic before matching tile/vanity/hardware, so every element "plays for the same team." Restates this vault's existing general single-concept-first principle as a bathroom-specific instruction; cross-reference rather than a new mechanism.
+- **⚠️ Limit palette to 2 base colors + 1 accent** — restates existing palette-simplicity content but as an explicit bathroom-specific numeric rule (2+1), worth its own line.
+- **Pick exactly ONE strong accent element** — a patterned tile, an unusual vanity, or a statement tub — and keep everything else restrained. A bathroom-specific application of a general principle already in this vault.
+- **⚠️ Leave at least one wall/zone visually empty/undecorated for "visual rest"** — a genuinely specific, checkable design instruction distinct from the palette-simplicity content above. New for this page: a bathroom with an accent on every surface leaves the eye nowhere to rest and reads as more cramped, not more finished.
+- **Texture variety even within a limited palette** (matte next to glossy, smooth next to textured) adds depth without adding more colors.
+- **Styling accessories** (matching towels, a soap-dispenser stand on a stylish base) as a cheap, easily-refreshed way to finish a bathroom without renovation.
+
+`single-account`, `unverified`.
+
 ### ⚠️ Shower versus bath — a programme decision, not a preference
 
 > **"Душевая кабина — она не ванная."** [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]

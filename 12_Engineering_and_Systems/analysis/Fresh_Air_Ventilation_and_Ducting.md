@@ -14,6 +14,17 @@ The rest of this page's air-exchange figures are whole-apartment-scale (1×/hour
 
 `single-account`, `unverified`.
 
+### ⚠️ Heated Floor Is Only 50% of the Solution — a Mechanism-Based Elaboration (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_3lFeF0MSXh4_krasnov_bathroom_8worst_mistakes|3lFeF0MSXh4]]]
+
+A personal, first-person anecdote gives the mechanism this entry adds: living in a rental apartment with no heated bathroom floor, water never fully dried after showers and mold appeared in the corners; installing a heated floor in his own subsequent bathroom renovation solved it. Restates/personalizes this page's existing air-exchange content above — cross-reference only, not a duplicate fact. The genuinely new elaboration:
+
+- **⚠️ Explicitly states a heated floor is "only 50% of the solution"** — ventilation is equally necessary. Recommends a powerful extract fan tied to a humidity sensor or timer that vents genuinely outside (not just recirculating air).
+- **⚠️ Named failure mode: a heated-floor bathroom without proper ventilation becomes a small "sauna"** — ambient humidity still condenses on walls/furniture and mold reappears even with a dry floor, because the floor alone doesn't remove the moisture load from the air. This is a genuinely useful mechanism-based nuance on top of this page's existing bare air-exchange-rate figure above — the floor and the extract fan solve two different halves of the same problem (surface dryness vs. air moisture load), not one problem twice.
+
+`single-account`, `unverified`.
+
 ## Disguised Humidifier as a Decorative "Fireplace" — Moscow-Region Winter Dry-Air Recommendation (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 **⚠️ A humidifier built into a decorative fireplace-style housing** (an illuminated-vapor "flame" effect, no real fire, no fuel, no flue/vent requirement) recommended as close to a mandatory device for Moscow/Moscow-region apartments specifically — the source cites the region's severe winter indoor-air dryness from central heating as the reason, one of the few points in this channel's content with an explicit on-camera regional statement ("our climate, Moscow and Moscow region"). Framed as solving a genuine air-quality problem and a decor want at the same time, not a purely cosmetic gimmick. `single-account`, `unverified`, Moscow/Moscow region (level 1, named directly). [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]

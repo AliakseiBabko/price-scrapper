@@ -335,3 +335,14 @@ Her worked negative example runs the identical logic to a positive one: a neutra
 - **⚠️ The more contrasting the colours, the stronger their influence — and the strongest colour contrast comes from the PRIMARIES. Intensity, and therefore contrast, declines as a colour moves away from the centre of the wheel: orange, violet and green give less than red, yellow and blue.**
 - **⚠️ Separating each colour from the others by white or black stripes makes each colour's individual character more pronounced and reduces their mutual influence.** *(Attributed in the source to Itten, but the attribution is ASR-garbled — recorded as probable.)* Her worked instance is **a black outline holding a bright scheme together: "как чёрный держит этот интерьер вместе, как складывает его воедино."**
 - **⚠️ And a composition rule for any bright scheme: dilute bright patches with more neutral ones — "тогда интерьер меньше похож на коробку с карандашами и больше похож на дом."**
+
+## ⚠️ Orange as an Interior Accent Colour — a Specific Usage Caution (Игорь Краснов, added 2026-09-01, Round 3)
+
+A specific, detailed colour-usage caution, distinct from this page's general colour-harmony content above. [source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
+
+- **⚠️ Orange is unusually hard to use well because it visually DOMINATES a composition rather than blending into it as one part of a palette** — even a single orange accent item (a pillow, a vase, a lampshade) tends to become the entire room's visual focal point rather than a supporting accent, actively competing with lighting/texture/other colour choices for attention.
+- **⚠️ Specifically flags this as WORSE under the cold, grey, low-daylight conditions common in Russian cities** — explicitly generalizable beyond Russia to any northern/overcast climate (directly relevant to Belarus, in the same low-sun-day band per this page's existing daylight-availability content elsewhere in this vault) — orange reads as visually "loud"/fatiguing rather than warm in that specific lighting context.
+- **Concedes orange CAN work well in specific style contexts**: **mid-century modern** (paired with warm wood, brass, terracotta walls) and richly patterned **ethnic/global-eclectic interiors** (where an already-saturated palette of rugs/textiles/stone can support it) are named as legitimate exceptions.
+- **⚠️ For anyone wanting orange's warmth without its visual aggression in an ordinary city apartment, recommends muted/adjacent alternatives instead**: terracotta, cinnamon, honey, chestnut, rust-brick, warm caramel — read as "warm/earthy/grounded" without the same dominance problem. Consistent with this vault's existing earth-palette content on [[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Neutrals & Earth-Tone Palettes]] (the "Earth and clay" group there names an overlapping set).
+
+`single-account`, `unverified`.

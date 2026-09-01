@@ -51,3 +51,12 @@ The legacy exhaust-fan archive citation is not itself an extraction note with `c
 ## Outlets to Plan For
 
 Washer, dryer, hair dryer, electric toothbrush/razor charger, robot vacuum (if under a wall-hung vanity), water heater, UPS, leak-protection system, mirror backlight/electric towel warmer, heated floor thermostat (see [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Heated Floor & Thermostat]]), ceiling lighting, separately-switched extractor fan.
+
+### ⚠️ Personal-Care Device Outlet — Genuinely New, Not Previously in This Vault's Bathroom/Plumbing Content (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_3lFeF0MSXh4_krasnov_bathroom_8worst_mistakes|3lFeF0MSXh4]]]
+
+- **⚠️ Recommends an outlet in the bathroom specifically for charging a phone, electric toothbrush, trimmer, or irrigator while showering/brushing** — distinct from the existing "electric toothbrush/razor charger" list entry above in that it names the specific safety and placement mechanism, not just the fixture list. **Explicit safety caveat**: any such outlet must be splash-rated (protective covers, moisture-protected housing equivalent to a GFCI-type installation) and physically positioned where water cannot reach even accidentally.
+- **Recommends hiding the outlet inside a cabinet** for a clean countertop, with a small shelf directly above the outlet for charging small gadgets without cord clutter on the counter — a specific, checkable placement technique.
+
+`single-account`, `unverified`.

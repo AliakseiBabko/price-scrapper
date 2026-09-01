@@ -416,3 +416,40 @@ From the basic-elements source, and these are the parts of it that are not alrea
 - **Scent-placement nuance**: recommends a candle/diffuser scent specifically for the living room and bedroom, but explicitly advises AGAINST one in the kitchen, since cooking smells already dominate that space. Extends [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]'s brief same-round scent mention with this placement caveat.
 
 `single-account`, `unverified`.
+
+## ⚠️ Wall Art Framing, "Floating Frame" Technique, and a Furniture-Brand Arch Alternative (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
+
+- **⚠️ Unframed wall art/prints/kids' drawings/photos taped or pinned directly to a wall** — reads as visually unfinished/"dorm room," even a simple thin metal/MDF/plastic frame elevates the same image significantly by giving it clear visual boundaries and "weight." For a rotating gallery of ephemera (postcards, photos, kids' art, notes), recommends a cork board, a rail-and-clip picture-rail system, or a similar mounted system rather than directly taping to the wall — "controlled visual chaos inside a frame/system" reads intentional, loose taped chaos does not.
+- **Stretched canvas prints specifically**: a canvas print should be properly stretched on a subframe (not hung loose/unstretched like a banner, which reads cheap regardless of print quality).
+- **⚠️ "Floating frame" («парящая рама») technique — a specific, named, transferable finishing technique**: even a properly stretched canvas benefits from adding a thin outer frame around it with a visible shadow-gap between the canvas edge and the frame, creating a sense of depth and a more "gallery/finished" read without heavily framing the image itself.
+
+`single-account`, `unverified`.
+
+## Storage-Bin Labeling and Photo-Identification Technique (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]] — full storage-organization treatment on [[14_Furniture/analysis/Household_Storage_and_Decluttering_Method|Household Storage & Decluttering Method]]; this is the decor/finish-selection half of the same technique.
+
+**⚠️ Clear/transparent plastic storage bins create visual "warehouse" clutter even when the contents are genuinely organized**, because ALL the contents' shape/colour/condition/arrangement remain visible at all times — specifically bad for SHOE storage (shoes visible edge-on, at odd angles, worn-looking, mismatched, immediately reads as messy even if technically organized). Recommends opaque, uniform-format/colour storage boxes with LABELS instead. **For shoes specifically**: photograph each pair and stick a small printed photo (or literally a Polaroid) on the outside of its storage box — a specific, real, actionable labeling method. Semi-opaque/frosted/matte plastic bins named as a middle-ground compromise. Clear bins remain acceptable in genuinely non-living utility spaces (garage, storage room, balcony) as long as some organizational discipline is maintained even there.
+
+`single-account`, `unverified`.
+
+## Flannel and Ruffles — Two Textile Critiques (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
+
+- **⚠️ Flannel bedding/throws/bedspreads — critiqued specifically, distinct from general textile-quality content already on this page**: pills and wears quickly, loses appearance and can fade even with careful use, drapes/folds poorly (doesn't create clean crisp folds, looks "heavy"/shapeless even when freshly made), and can develop a rough/slightly "squeaky" texture over time especially in cheaper versions. Strongly associated stylistically with a rustic/cabin/dacha aesthetic rather than an urban/modern one — reserve flannel for a genuine country-house/cabin context rather than a city apartment, since the fabric TEXTURE itself (not just the colour) signals a particular rustic register.
+- **⚠️ Ruffles/frills («рюши») on curtains, bedspreads, pillows, or tablecloths** — critiqued as reading dated/fussy/"visual noise," especially when used SYSTEMATICALLY across multiple textile items rather than as one isolated vintage detail. Works in narrow specific contexts (a kids' room styled in a Provence aesthetic, or a home with an intentional vintage/doll-house aesthetic) but clashes with a modern/urban/restrained interior — ruffles literally break clean lines/geometry in favor of "shapeless waviness," working against the room's overall architecture. **Recommended structured alternatives**: for curtains, **"Ripple Fold" or French pleat** styles (clean, directional vertical folds — cross-reference `17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware.md`); for bedding, linen/cotton with a crisp defined edge rather than a gathered/ruffled edge; for pillows, piped edges or quilted/stitched detail rather than a gathered ruffle trim.
+
+`single-account`, `unverified`.
+
+## Decorative Arches — Proportion Mismatch in Low-Ceilinged Apartments (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_gbOoH1oV4Hk_krasnov_interiors_age_badly|gbOoH1oV4Hk]]]
+
+- **⚠️ Arches are a genuine ancient architectural element (used for millennia) but are being misapplied in typical modern apartments with LOW ceilings specifically** — an arch under a low ceiling reads visually "squat"/disproportionate rather than grand, because arches were historically designed for tall, monumental spaces. A purely decorative arch with no real architectural/structural purpose (e.g., cut into a hallway wall with no load-bearing or spatial logic) reads as applied-for-trend rather than intentional.
+- **⚠️ Explicitly calls out "painted arches"** (painting a doorway/wall trim the same colour as an arch-shaped outline to fake the appearance of a real arch) as a specific cheap-looking illusion that reads as "couldn't afford a real arch" rather than a stylistic choice.
+- **A named furniture-brand alternative, flagged per this project's advertising/brand-mention filter — a specific product endorsement, not neutral universal advice**: for anyone who wants an arch-referencing look without the proportional mismatch of a real arch in a low-ceilinged apartment, recommends arch-form furniture instead — names **"Crate & Barrel's Lennon collection"** as an example (transcript renders "Crate and Barrel... lean Ford"; the collection name is `ASR-uncertain`, the brand name is clear). Recorded as a commercial mention, not adopted as a universal recommendation.
+
+`single-account`, `unverified`.

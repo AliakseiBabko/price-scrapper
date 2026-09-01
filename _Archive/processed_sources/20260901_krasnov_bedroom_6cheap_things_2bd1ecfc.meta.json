@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ipcVSUPA4w4",
+  "video_id": "ipcVSUPA4w4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T18:40:23.709178+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "2bd1ecfc916fcac2ddc1a1a65cd6058823d81007f42653860bece00e76069744",
+  "attempts_before_success": []
+}

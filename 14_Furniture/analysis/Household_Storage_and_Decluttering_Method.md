@@ -88,3 +88,14 @@ room-specific content rather than duplicating this here:
 ## Round 2 Corroboration Note (Игорь Краснов, added 2026-09-01)
 
 Round 2 of this channel touched storage/decluttering content twice more (`7CIZQ-pxNl4`'s open-shelving-in-moderation caution, `vqDhBjDJAgA`'s declutter-surfaces-to-functional-or-meaningful-objects rule) — both restate this page's existing content (open- vs. closed-storage tradeoff; the categorization/what-to-keep discipline above) without adding a new mechanism or figure. Recorded here as corroboration only, per this round's own restatement-discipline finding; see `_Sources/YT_7CIZQ-pxNl4_krasnov_apartment_looks_small` and `_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips` for the source notes.
+
+## ⚠️ Storage-Bin Labeling and Photo-Identification Technique (Игорь Краснов, added 2026-09-01, Round 3)
+
+A specific, useful, transferable method — genuinely new for this page. The decor/finish-selection framing of the same source lives on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]; this is the storage-method half. [source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
+
+- **⚠️ Clear/transparent plastic storage bins create visual "warehouse" clutter even when the contents are genuinely organized**, because ALL the contents' shape/colour/condition/arrangement remain visible at all times — specifically bad for SHOE storage (shoes visible edge-on, at odd angles, worn-looking, mismatched, reads as messy even if technically organized). Recommends opaque, uniform-format/colour storage boxes with LABELS (a written label, or a printed/adhesive sticker) instead.
+- **⚠️ For shoes specifically: photograph each pair and stick a small printed photo (or literally a Polaroid) on the outside of its storage box** — fast identification and visually clean, a specific real actionable method.
+- **Semi-opaque/frosted/matte plastic bins** are a middle-ground compromise (a rough sense of contents without exposing full visual detail/mess).
+- **Clear bins remain acceptable in genuinely non-living utility spaces** (garage, storage room/kladovka, balcony) as long as some organizational discipline (labeling, sorting by category) is still maintained even there.
+
+`single-account`, `unverified`.

@@ -372,3 +372,22 @@ On the claim *"во всех дорогих отелях нейтральная 
 **⚠️ This makes the dispute resolvable rather than merely two-sided: a neutral palette is the correct answer for an interior assembled INCREMENTALLY BY A NON-EXPERT — which is a different question from whether it is the correct answer aesthetically.** Both her positions are right, about different situations.
 
 **And the corollary she draws: the market's fluorescent accent colours exist because "человек чувствует, что нейтрально — это слишком безлико, но сложную палитру он сам собрать не может," so he takes one element and makes it loud. The impulse is right; the toolkit is what is missing** — mass market offers only two personalisation instruments, an accent colour or decor.
+
+## Kitchen-Specific Application: Greige, Taupe, Dusty Blue, Muted Green (Игорь Краснов, added 2026-09-01, Round 3)
+
+A kitchen-specific application of this page's general neutral/earth-tone framework — genuinely useful kitchen-cabinet-colour guidance, not previously on this page. [source: [[_Sources/YT_DQr8J5rkaPk_krasnov_dont_buy_white_kitchen|DQr8J5rkaPk]]]
+
+- **⚠️ "Greige" (grey-beige, «серо-бежевый»)** as a versatile white-kitchen alternative, specifically recommends versions with a subtle GREEN undertone as the most universally compatible (pairs cleanly with wood, concrete-look tile, natural stone; avoids reading pink, overly yellow, or "dirty" under different lighting). **Explicit warning**: a pure white backsplash paired with a warm beige cabinet front looks visually mismatched (white reads "too bright," beige reads "dirty" by contrast) — keep backsplash and cabinet colour in the same "temperature," or add warm lighting to soften the contrast.
+- **⚠️ Taupe (тауп, warm grey-brown)** — more complex/sophisticated than plain beige, pairs well with stone/quartz countertops and wood tones (oak, walnut, ash); commonly used on LOWER cabinets specifically with a lighter cream/grey/white upper tier for a "grounded" effect. Works especially well with matte textures, wood veneer, and brass/bronze/black hardware, enhanced by directional/accent lighting that creates shadow depth on the cabinet fronts. Consistent with this page's own taupe definition above ("серо-коричневый с элементами какой-то лиловой гаммы," Школа дизайна Маши Черной) — a kitchen-specific application, not a competing definition.
+- **⚠️ Dusty/muted blue-grey (near-graphite, not bright blue)** as a kitchen accent — works especially well on an island or lower cabinets while the rest of the kitchen stays light; needs neutral-to-cool lighting specifically (warm lighting makes it read "dirty" or shift green). Pairs well with warm brass/gold (adds richness) or black hardware (adds graphic contrast).
+- **⚠️ Muted/"dusty" green** (sage/шалфей, olive/оливковый, eucalyptus/эвкалипт — not bright/saturated green) with a grey undertone — pairs with warm wood, brass, rough/textured ceramic; works as a full-height cabinet colour or, sparingly, as an accent on a lower tier/island/tall pantry unit only.
+
+`single-account`, `unverified`.
+
+## Paint-Testing Methodology — Independent Corroboration (Игорь Краснов, added 2026-09-01, Round 3)
+
+**A second, unrelated channel converges on the identical vertical-swatch/multi-time-of-day methodology already recorded on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]] (Кузина)** — genuinely valuable as an independent corroboration, not just a restatement. [source: [[_Sources/YT_DQr8J5rkaPk_krasnov_dont_buy_white_kitchen|DQr8J5rkaPk]]]
+
+Always test a paint sample mounted VERTICALLY in the actual installation position/zone (not lying flat on a table), since a colour's real-world reflected light differs completely between horizontal and vertical orientation. Observe the swatch across morning/afternoon/evening light before deciding, not just once. Bring the swatch physically to a materials showroom to check it directly against countertop/tile/flooring samples in person, rather than trusting a small catalog colour chip. Recommends the largest feasible sample size (at least ~20×20cm on stiff board — LDSP/plywood/cardboard/drywall all work), since small catalog swatches don't give an accurate read of how a colour reads at real scale.
+
+`single-account`, `unverified`.

@@ -259,3 +259,12 @@ From a source on focal points; the general concept is on [[17_Design_and_Ergonom
 **Art as a focal point is "палочка-выручалочка" where furniture will not fit or is not wanted** — her worked case is an owner who did not want a TV zone, given a bright picture with a horizontal shelf beneath instead, **and the space reads fully composed.**
 
 **Dining zone: the tabletop is rarely accented because it sits below eye level.** Use **the light fitting, a chest with decor above it, or a display cabinet** — filled with interesting glassware, flanked by chairs in interesting upholstery.
+
+## ⚠️ TV-Centric Layout Critique (Игорь Краснов, added 2026-09-01, Round 3)
+
+Extends this page's existing TV Placement section above rather than duplicating it — that section addresses viewing distance and mounting height; this addresses whether the TV should be the room's organizing principle at all. [source: [[_Sources/YT_gbOoH1oV4Hk_krasnov_interiors_age_badly|gbOoH1oV4Hk]]]
+
+- **⚠️ Avoid designing a living room entirely around a wall-mounted TV as the primary visual/social focus.** Recommends a projector used deliberately (turned on intentionally for planned viewing, not left running as ambient background) specifically to prioritize face-to-face conversation and reduce eye strain.
+- **When a TV is used, prioritize furniture arrangement for conversation first** (seating that faces itself, room for drinks/feet-up comfort) and treat TV placement as subordinate — names several acceptable placement options (symmetric over a fireplace, on an open shelf, wall-mounted on an articulating bracket in a corner, on a media console) as long as the TV isn't the room's dominant focal point.
+
+`single-account`, `unverified`.

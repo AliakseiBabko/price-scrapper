@@ -186,6 +186,32 @@ A ~47-minute recorded seminar by interior designer Надежда Кузина, 
 - **Pop-up outlets in the worktop**: showroom furniture. Defensible only for something used very rarely; anything permanently plugged in leaves the column standing up — worse-looking than an ordinary backsplash outlet, and unhygienic.
 - **Servo-driven fittings must be in the electrical drawing**: sensor bins and powered upper-cabinet lift-ups each need a stub **and** a hidden home for the driver block. She uses a dedicated bay, the same approach as the neighbouring-element outlet.
 
+## ⚠️ Full Outlet-Count Planning Table (Игорь Краснов, added 2026-09-01, Round 3)
+
+Distinct from Кузина's outlet-*placement*-norms content above (her section answers "where do outlets go and what code actually requires"; this answers "how many outlets does a kitchen need at all," a genuinely different planning question worth its own table rather than merging). [source: [[_Sources/YT_gJfXl9Q3CIw_krasnov_kitchen_14mistakes|gJfXl9Q3CIw]]]
+
+**⚠️ An appliance-by-appliance outlet/stub count for an average kitchen**:
+
+| Appliance/use | Outlets/stubs |
+| :--- | :---: |
+| Fridge | 1 |
+| Oven | 1 |
+| Dishwasher (behind the appliance) | 1 |
+| Microwave | 1 |
+| Kettle (at the work zone) | 1 |
+| Coffee machine (near the kettle) | 1 |
+| Blender + toaster | 2 (SEPARATE outlets — specifically to avoid unplugging one to use the other) |
+| Multicooker/food processor (spare) | 1 |
+| Hood + cabinet lighting | 2 (low-voltage stubs/leads, not standard outlets) |
+| Phone charging (wherever the phone tends to be kept) | 1 |
+
+- **⚠️ Totals**: roughly **10-11 outlets/stubs for an average kitchen**; **12-14 for a large kitchen with an island or bar counter**; **6-8 minimum for a compact kitchen**. States the general **designer/electrician convention is 8-12 outlets** for comfortable, safe kitchen use, and warns that under-provisioning leads to constant extension-cord use and later costly rewiring. **Worth using directly as a planning reference for this project's own kitchen design.**
+- Recommends a voltage-surge-protection relay or a quality surge-protected power strip for kitchen electronics generally, specifically flagging induction-cooktop and microwave control modules as electronically vulnerable to voltage spikes.
+- **⚠️ Dedicated electrical circuits required for high-draw appliances** (cooktop, oven specifically) — cannot share standard household wiring circuits, which will overheat; requires separate dedicated lines run to separate breakers in the panel. Cross-reference `03_Kitchen/analysis/General_Dos_and_Donts.md`'s parallel entry from the same source (not duplicated in full here).
+- **⚠️ Small-appliance outlet clearance and positioning around the cooktop and sink** — a specific safety-distance rule complementing Кузина's own zoning figures above: outlets for small countertop appliances (kettle, toaster, blender) should sit roughly **10-20cm below/away from the cooktop's bottom edge** so cords don't dangle across a hot surface. Never place an outlet directly behind/opposite the cooktop or directly behind the sink — maintain a horizontal offset of roughly **20cm from the sink edge** and **15-20cm from the cooktop**. Broadly consistent with, and a second independent figure alongside, Кузина's ≥60cm sink/hob wet-zone offset above (this is a tighter figure for small-appliance outlets specifically, not a contradiction of her ≥60cm general wet-zone rule).
+
+`single-account`, `unverified`.
+
 ## Source Notes
 
 - **Как правильно сделать электрику и освещение на кухне** (2021-09-26, added 2026-08-31, Кузина Round 1 video 1) — [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|extraction note]]. Heights, lighting and cabinetry content cross-routed to `12_Engineering_and_Systems/` and `Kitchen_Furniture.md`.

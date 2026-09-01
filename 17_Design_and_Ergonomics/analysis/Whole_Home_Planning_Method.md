@@ -217,6 +217,16 @@ A cluster of methodology content from four videos of this channel's Round 2 — 
 
 `single-account`, `unverified` throughout this section. **Cross-check against `11_Budget_and_Planning/Budgeting_Guide.md`** for this same round's price-per-m²-is-misleading caution, which sits better on that page given its direct budgeting framing.
 
+### Round 3 extension — maximalism, monochrome, and two named real-project rescues (added 2026-09-01)
+
+[source: [[_Sources/YT_gbOoH1oV4Hk_krasnov_interiors_age_badly|gbOoH1oV4Hk]]] — extends the trend-cycle-as-fast-fashion thesis above with concrete style examples, not a new mechanism.
+
+- **⚠️ Maximalism/hyper-eclectic style — explicitly flagged as trendy-but-not-durable**: his stated rule of thumb is that design choices should hold up **5-10 years minimum** (uses a "classic Prada bag" analogy for timeless design). If maximalism is used at all, limit it to a single accent wall or a small number of statement pieces rather than saturating the whole space — dense pattern/colour combinations that feel exciting initially tend to become fatiguing to live with after months/years.
+- **⚠️ Monochrome/all-neutral (all-grey, all-white, or all-beige) rooms without ANY texture or personality — flagged as reading dated within roughly 5 years too**, despite neutral colours as a category aging better than saturated trend colours (names Pantone's 2024 colour-of-the-year "peach" as an example of a bright trend colour carrying real regret-risk within a year). **The resolution is texture variation WITHIN a neutral/monochrome scheme, not avoiding neutrals altogether.**
+- **⚠️ Two real, named project examples, worth recording as concrete case data (his own projects, single-account)**: **ЖК Green Park** used geometric wood-grain textures on grey/black kitchen cabinet fronts and wall elements specifically to add depth/dynamism to an otherwise monochrome dark scheme; **ЖК Форум** used a stone-textured kitchen countertop against a neutral base plus a single emerald-green sofa as the one bold accent, keeping the rest of the palette muted. Both used as his own real examples of "texture and controlled accent rescue a monochrome scheme from reading flat."
+
+`single-account`, `unverified`.
+
 ## ⚠️ What "Zoning" Actually Means — a Test This Page's Plans Should Be Audited Against (Надежда Кузина, added 2026-09-01)
 
 The most load-bearing definition to arrive on this page. Prompted by a real consultation: clients wanted a **13 m²** children's room "zoned" into sleeping, changing, play and work areas. Her answer was that it does not fit — **"и так не бывает."** [source: [[_Sources/YT_Oy_eTelj-X0_kuzina_home_workspace|YT_Oy_eTelj-X0]]]

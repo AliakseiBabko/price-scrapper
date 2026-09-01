@@ -226,3 +226,13 @@ The full low-ceiling strategy is on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ce
 [source: [[_Sources/YT_bJJSH84q5fE_kodolov_curtains_selection|bJJSH84q5fE_kodolov_curtains_selection]]]
 
 **Also from Anuta Vlady, and moved with this block's neighbours to [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]**: vertical/venetian blinds are a maintenance burden (dust, hard to clean) against a washable, removable Roman shade, which also reads more cohesive alongside classic-style decor.
+
+## Vertical Blinds — a Dated-Look Critique and Modern Alternatives (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
+
+- **⚠️ Vertical blinds («вертикальные жалюзи») — explicitly named as reading dated/cheap** — strongly associated with old-style offices and early-2000s rental apartments; plastic slats rattle in a draft, break easily, collect dust and static electricity, and visually disrupt the window's composition.
+- **Recommended modern alternatives**: roman blinds (soft, adds texture/depth), Japanese sliding panels (specifically good for panoramic windows and minimalist interiors), or curtains/sheers generally (works at almost any budget if installed with correct length/colour — see this page's own length/proportion rules above).
+- **A practical renters' tip**: vertical blinds can be removed and the original hardware/components kept and reinstalled at move-out to satisfy a lease's original-condition requirement while living with a nicer alternative in the meantime.
+
+`single-account`, `unverified`.
