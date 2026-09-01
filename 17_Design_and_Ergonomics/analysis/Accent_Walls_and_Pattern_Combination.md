@@ -121,3 +121,71 @@ Zoning here means dividing one large space into functional zones. **⚠️ It us
 **⚠️ The worked failure and its diagnosis**: a yellow patch at the back of a space, closable behind curtains — **and you want to close them, because the yellow is supported nowhere else.** It would need a yellow sofa, or yellow accents, or yellow inside a cabinet. **Her verdict, which she flags as surprising herself: "лучше бы он просто был бежевым, чем бежевым с такой жёлтой зоной, которая не поддержана ничем."**
 
 > **⚠️ An unsupported colour zone is worse than no colour at all.** That is the sharpest form of the colour-support principle on these pages, and it applies to any accent, not only a zoning one.
+
+## ⚠️ Colour Block — What It Is, and Where It Stops Being It (Надежда Кузина, added 2026-09-01)
+
+Sits directly beside the two-colours-on-one-wall technique above; **they share one point of contact and are otherwise different moves.** [source: [[_Sources/YT_HENjGv0DGjI_kuzina_colour_block|HENjGv0DGjI]]]
+
+**She rejects the standard definition first.** The usual one — combining complementary colours for optical effect — **"немного странно, потому что сочетать можно любые цвета, не только дополнительные."**
+
+**⚠️ Her definition, and all three must hold:**
+
+1. **Large colour patches are combined.**
+2. **There is contrast BY COLOUR** — the simplest of Itten's seven contrasts: several different pigments the eye reads as plainly different colours.
+3. **⚠️ "Плоскость важнее объёма."**
+
+### ⚠️ The test that distinguishes it from merely bright walls
+
+Two interiors, both with bright emerald walls:
+
+| | **Interior 1** | **Interior 2** |
+| :--- | :--- | :--- |
+| Large colour patches? | Yes | Yes |
+| **Contrast by colour?** | **NO — bright green with bright metal** | **YES — green walls, YELLOW floor, blue chairs** |
+| Plane over volume? | Less so | **Reads flatter; light-and-shade matters less** |
+| **Verdict** | **Bright plain walls** | **Colour block** |
+
+**⚠️ Plain walls can still be colour block if they collide with the colour of the FLOOR.** And **through an opening you can play the colour difference between adjoining rooms deliberately.**
+
+### ⚠️ Strengths, and the three weaknesses
+
+**For**: it easily changes proportions; the result is bold and joyful; it is quick and easy to execute; **and it creates historical references cheaply — the right colours nod to the 1920s, 60s, 70s or 80s.**
+
+**Against**:
+
+- **⚠️ It takes all the attention — "он как бы ослепляет зрителя и отвлекает от любых других приёмов," so it often ends up the only technique the interior rests on.**
+- **⚠️ Such interiors are positive but hard to call refined: there is no place for small detail, because it works in large volumes.**
+- **⚠️ It often fragments an interior — "буквально разрывает его на части."**
+
+### ⚠️ A staged adoption path, and a warning against the obvious cheap test
+
+**"Лучше не экспериментировать сразу со всем имеющимся объёмом, а сначала прислушаться к себе"** — whether you would be content to look at these blocks every day.
+
+- **Order: transit zones (a picture, curtains) → bathrooms → bedrooms. "Если вас не устроит колорблок в коридоре, то вы не будете делать его в жилой комнате."**
+- **⚠️ Do NOT test with small objects.** Buying a couple of bright vases or cushions, liking them, and concluding you are ready is wrong — **"однотонные цвета в больших масштабах производят совершенно другой эффект."** A bathroom curtain works if it is large enough.
+- **⚠️ Do not start with a children's room. "Если он не устраивает вас в гостиной, вряд ли он устроит ваших детей в их комнате."**
+
+### Coloured outlines — the low-commitment version
+
+**"Небольшой, но действенный приём, более интересный, чем однотонные подушки."** Not yet colour blocking, but adjacent: **inside a door opening or along the door contour; coloured skirtings; contrasting picture frames or mounts; coloured window frames.**
+
+### ⚠️ Flat painted shapes: the failure, and four cases where it works
+
+**Painted squares "могут выглядеть по-настоящему убого"** — as if someone was trying colours out but tried hard to make a square, **or ran out of money for a full bucket and bought the shop's leftovers.** What she usually dislikes is **the colour combination and the combination of their scales.**
+
+**The four justified cases:**
+
+1. **A carefully-worked composition — especially good in rooms of unusual shape**, where a roof slope or broken walls participate.
+2. **Complex versions that read as a large abstract picture.**
+3. **⚠️ Where the block is part of the wall's decor and forms one whole with a picture — "картина как бы выплёскивается из рамы и расширяется на всю стену."**
+4. **Dividing a wall in two without forming geometric figures** — see the two-colour technique above. **She likes a thin graphic stripe, with skirtings and architraves chosen to enter the scheme; with a vertical division, asymmetry works well.**
+
+**⚠️ And a specific failure worth quoting: painted rectangles on walls that ALSO carry mouldings read as cheap. "Получается такая стереоскопическая модель: один глаз видит молдинги, другой — цветовые пятна; кое-где они совпадают, кое-где идут параллельно, а кое-где наслаиваются."**
+
+### Placement, and where it stops
+
+- **Colour block is associated with an accent wall but goes anywhere — floor, ceiling, large upholstered furniture, case furniture, curtains.** **A patch can continue onto the ceiling, or from one wall to another, and the same applies to doors and built-in furniture.**
+- **⚠️ Choose ONE dominant colour and use the rest as supplementary.**
+- **⚠️ The boundary with wall painting, as a gradient**: plain walls → a composition involving a picture → stripes appearing → **recognisable forms (mountains, sky, clouds), which is "уже точно не color block, уже точно роспись."** **"Если вы делаете не квадраты, есть риск заиграться формой. Color block — это больше про цвет; формы должны быть простыми и беспредметными."**
+
+*(The source also carries a substantial De Stijl / Bauhaus lineage argument — that the technique reached interiors via Mondrian → Bauhaus rather than via Saint Laurent — plus Malevich, El Lissitzky, Le Corbusier and Perriand. **Deliberately not routed as art history, per this vault's standing deprioritisation.** The one historical item kept: **Alvar Aalto's 1929 hospital, where a yellow rubberised corridor and stair floor was specified to recall the sun and make common areas more humane** — the single case where the technique is tied to a stated purpose.)*

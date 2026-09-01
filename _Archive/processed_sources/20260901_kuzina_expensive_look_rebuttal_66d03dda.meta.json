@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Jj96GbK_35w",
+  "video_id": "Jj96GbK_35w",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T11:13:01.345070+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "66d03ddaeaddd9315853fb77316343f1052d00eced1d90a393c76b3cec311475",
+  "attempts_before_success": []
+}

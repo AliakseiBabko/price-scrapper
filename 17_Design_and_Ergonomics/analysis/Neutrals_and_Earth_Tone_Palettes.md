@@ -346,3 +346,29 @@ Her wood-finishes video (`AafdFwF_Rgs`) is the **primary statement** of the posi
 ### All white paints are tinted
 
 **⚠️ Deciding "the walls will be white" is not a specification — you must choose a shade.** White expands space and suits almost any style, but is not very practical and can read lifeless. **⚠️ A specific trap: reproducing a white seen in a photograph, which is almost always an off-white — a tinted cream or greyish white — and hard to read from an image. Any colour is hard to choose from a screen.** **⚠️ Different whites become obvious only when several sit side by side.** White interiors are ascetic, **the absence of colour makes room for other decorative devices**, and **white is architects' favourite colour.** [source: [[_Sources/YT_yU2zKPpDghM_kuzina_colour_difficulties|yU2zKPpDghM]]]
+
+## ⚠️ The Neutral Default — the Fourth Attack, and the First Steelman (Надежда Кузина, added 2026-09-01, Round 5)
+
+**This page records her position that neutral is not the safe option it is assumed to be. Round 5 supplies both the strongest version of that attack and, from a different source, the best case FOR the default anywhere in this vault.**
+
+### The fourth statement of the attack, with a new argument
+
+On the claim *"во всех дорогих отелях нейтральная гамма"* — maybe the Ritz does. **Does that mean everyone should build a hotel at home?** And **many hotels' designer interiors are colourful boutique hotels built on ornament and colour combination.** [source: [[_Sources/YT_Jj96GbK_35w_kuzina_expensive_look_rebuttal|Jj96GbK]]]
+
+**⚠️ Her symmetry argument, which is the new part: yes, there are interiors where the author failed the colour and it looks cheap — but there are also neutral interiors where the author failed the colour AND the textures AND everything else, "и таких интерьеров очень и очень много."**
+
+**"Не надо думать, что нейтральная гамма — это панацея, что она даёт беспроигрышные дизайнерские решения. Это совсем не так."**
+
+> **Now stated four times from four directions** — after `ubB1GSFtN20` ("плохо сделанных нейтральных интерьеров гораздо больше"), `ocoPRS3d8sA` (beige-to-beige) and `GEBJkzYd874` (neutral-base-plus-one is the most banal result). **A settled and central position of hers.**
+
+### ⚠️ And the steelman, from the same practitioner
+
+**The most valuable passage, because it identifies the variable the argument actually turns on.** [source: [[_Sources/YT_vnLZqiYxY1Q_kuzina_mass_market_palette_economics|vnLZqiYxY1Q]]]
+
+**Someone assembling an interior themselves is primarily REDUCING RISK**, and thinking not only about beauty but about how it will live together later: **will the colour pall? will a new sofa suit? what if the curtains change in five years?**
+
+> **⚠️ "Нейтральная палитра кажется безопасной именно потому, что её сложнее испортить. Она легче собирается по частям и меньше зависит от идеального совпадения оттенков."**
+
+**⚠️ This makes the dispute resolvable rather than merely two-sided: a neutral palette is the correct answer for an interior assembled INCREMENTALLY BY A NON-EXPERT — which is a different question from whether it is the correct answer aesthetically.** Both her positions are right, about different situations.
+
+**And the corollary she draws: the market's fluorescent accent colours exist because "человек чувствует, что нейтрально — это слишком безлико, но сложную палитру он сам собрать не может," so he takes one element and makes it loud. The impulse is right; the toolkit is what is missing** — mass market offers only two personalisation instruments, an accent colour or decor.

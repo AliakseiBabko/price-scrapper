@@ -138,3 +138,30 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 - **No-upper-cabinets design trend, with a storage-relocation requirement** — see [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s 2026-trends section for the full framing (removing upper cabinets requires relocating that storage elsewhere, not dropping it).
 
 `single-account`, `unverified`. [source: [[_Sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]]]
+
+## ⚠️ Facade Colour, Internals, and Worktop Restorability (Надежда Кузина, added 2026-09-01, Round 5)
+
+### The cost of a non-standard colour, and why the showroom does not offer one
+
+**⚠️ "Нестандартный цвет эмали увеличивает стоимость фасада на 10, максимум 20%."** `single-account`, `unverified`, Russian market, 2026. [source: [[_Sources/YT_vnLZqiYxY1Q_kuzina_mass_market_palette_economics|vnLZqiYxY1Q]]]
+
+**Context for why the choice is not offered**: in mass-market segments most standard fronts are white, grey or wood plus a few open accent colours — **and per the kitchen-trend research she cites, white fronts have been the mass buyer's choice for years, at roughly 40–45% in various years, followed by grey and wood.** *(Research house name not recoverable from the ASR; treat as her reported figure.)*
+
+**⚠️ Her structural explanation, which is why demand does not fix it: complex shades are inconvenient to SELL. Hard to show quickly; hard to explain if the floor salesperson is not a colour expert; and they require accounting for colours belonging to other products the company does not sell. "Для них это время и усилия впустую."** The full argument is on [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §5e.
+
+### ⚠️ Internals are a 2× multiplier
+
+**Functional internals let you fit far more into a kitchen of the same size — "если вы оплачиваете вот эту крутую Blum начинку, это действительно очень практично, но это может стоить в два раза дороже, чем та же кухня с более простой начинкой."** `single-account`, `unverified`, 2020. [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+### ⚠️ Worktops — acrylic against quartz, on restorability
+
+| | **Acrylic (Corian-type)** | **Quartz** |
+| :--- | :--- | :--- |
+| **Restoration** | **Easily restored — can be re-polished. Chips are the colour of the body, so they can be filled** | **⚠️ Any chip is visible and CANNOT be restored — only full replacement** |
+| **Hot cookware** | **Some acrylics mark** | Does not |
+
+**Her verdict is deliberately withheld: "что из этого практичнее, я не знаю — но реставрировать можно акриловые камни."** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+### ⚠️ Veneer versus paint in a kitchen specifically
+
+**Veneered fronts behave more capriciously than painted ones — veneer can hold grease stains that a painted front would release easily.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]

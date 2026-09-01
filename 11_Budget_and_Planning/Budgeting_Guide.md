@@ -690,3 +690,48 @@ Her framing is a budget one: renovation is expensive, so when the work is done a
 - **The false economy she names**: keeping grandmother's porcelain service that no one will use, that does not suit, that takes space and cannot go in the dishwasher — **to save on a new set of mugs.**
 
 *USD at the trailing-12-month mean to 2020-08-21, **67.8098 RUB/USD**; nearest 10 per the sub-$1,000 bucket. Both figures are her illustrative examples, **not quotes or market observations** — the ~5× ratio between them is the durable content, not the amounts. Moscow, August 2020.*
+
+## 5e. Design Fees as a Proportion, and What "Make It Look Expensive" Advice Actually Costs (Надежда Кузина, added 2026-09-01, Round 5)
+
+### ⚠️ The second design-fee benchmark, on a different basis from the first
+
+**Her three steps, delivered satirically, with a real number in the third**: understand your budget; be sad and consider where to find more; **then take 10–15% of the total and engage a specialist.**
+
+- **⚠️ And the threshold she names: if 10% comes to 20,000 RUB (~$290) and that is too little to find an expert, use a one-off consultation instead.**
+- **⚠️ The arithmetic behind that is itself a data point: a 10% share of 20,000 RUB implies a total project budget of about 200,000 RUB (~$2,900), and she treats that as the level at which a full design engagement is out of reach.** *(The 200,000 is derived from her example, not stated by her.)*
+
+> **⚠️ Read this against §5b, which carries the absolute floor.** That benchmark — Moscow, April 2023, **from 200,000 RUB for a flat up to 100 m²** — and this proportional rule are on different bases, **which is what makes the pair useful.** At a 200,000 RUB total, 10–15% yields 20,000–30,000 RUB, **far below the Moscow absolute floor for a full project** — which is precisely why she redirects that budget to a consultation. **The two are consistent, and together they bracket where a full design engagement starts being purchasable.**
+
+*USD at the `USD/RUB` trailing-12-month mean before 2022-11-24 (**69.3452 RUB/USD**); nearest 10 below $1,000, nearest 100 above.* [source: [[_Sources/YT_Jj96GbK_35w_kuzina_expensive_look_rebuttal|Jj96GbK]]]
+
+### ⚠️ "How to make an interior look more expensive" is mostly a list of spends
+
+**"Ответ на вопрос, как сделать интерьер визуально дороже, очень простой: нужно вложить больше денег."** Her audit of the standard advice — **engineered-stone sills instead of plastic (dearer); taller non-standard doors (dearer); tubular radiators (significantly dearer); many lighting scenarios instead of one chandelier (dearer).** On expensive handles fitted to cheap furniture: the furniture looks better, **but "есть люди, которые покупают Жигули и потом платят за тюнинг — но от этого девятка не становится Мерседесом."**
+
+- **⚠️ On the large-format-art advice specifically — presented in that genre as trivial (paint it yourself, or buy student work for kopecks): "покупатели, которые платят реальные деньги за антиквариат и искусство" are not fools who have simply not heard of Avito.** Finding large-format art that suits an interior and satisfies a client means **knowing which galleries and what they charge in order to stay in budget, scrolling social media, and finding people at exhibitions.** **Her bound: a large-format oil painting will not cost 10,000 RUB (~$140)** — if it did, either the artist's position was exploited or what was bought is not a painting.
+- **"Истории вроде того, что сделали 10 шагов и получи дорогой интерьер — они не работают, это обман."**
+
+### ⚠️ The conditional that makes every cheap-improvement list in this guide usable
+
+**"Как сделать интерьер дороже" presupposes an interior already exists — and what to do depends entirely on its state. "Это как у врача: какое лекарство назначать, смотря в каком состоянии пациент."**
+
+- **⚠️ With a lot of unsuitable, outdated or low-quality furniture, decorator tricks will not help.** Decanting shampoo into nicer bottles and screwing on new handles **while the kitchen carcass is chipboard delaminating from damp.**
+- **⚠️ With a solid base that can be upgraded, the same tricks genuinely work.** Decanting, adding textile, replacing small furniture — **"и все эти приёмы работают."**
+
+> **The tricks are not wrong. They are conditional on the base, and the genre never states the condition. Apply this as a precondition to any cheap-improvement list.**
+
+### ⚠️ The one upgrade that buys a disproportionate amount — and the market reason it is rare
+
+From a separate source, and it is the counterweight to everything above. [source: [[_Sources/YT_vnLZqiYxY1Q_kuzina_mass_market_palette_economics|vnLZqiYxY1Q]]]
+
+**"Хорошая палитра в интерьере — часто вопрос не вкуса, а бюджета и доступа к индивидуальным решениям."**
+
+- **⚠️ The mass market has no middle: between the safe neutral and the marker-bright accent, "часто отсутствует промежуточный сегмент сложных оттенков"** — no warm smoky greys, olives, garnets, wines. **Because complex shades sell badly in a fast-choice format: they produce no instant effect, they do not reveal themselves in a small sample, and on a stand "они выглядят грязными или какими-то пыльными."** A complex palette only works inside a whole interior.
+- **⚠️ Expensive projects therefore look different — but NOT because of taste: "нет такой логики, что чем больше у человека денег, тем лучше он чувствует цвет. Просто у них есть доступ к другим инструментам."** Non-standard sprayed finishes, **testing samples on the object**, complex enamel shades, repainting vintage furniture, reupholstering.
+- **⚠️ AND THE FIGURE: "нестандартный цвет эмали увеличивает стоимость фасада на 10, максимум 20%."** `single-account`, `unverified`, Russian market, 2026.
+- **⚠️ Her conclusion: "люди думают, что дизайнерский интерьер — это обязательно дорого. Хотя иногда разница начинается с того, что один человек выбирал между шестью готовыми фасадами, а другой — между сотней сложных оттенков."** **A choice-set gap before it is a budget gap.**
+
+### Two further cost items from the same round
+
+- **⚠️ Premium kitchen internals are a 2× multiplier**: functional internals let you fit far more into a kitchen of the same size, **"но это может стоить в два раза дороже, чем та же кухня с более простой начинкой"** (Blum named). `single-account`, `unverified`, 2020. [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+- **⚠️ Declutter before you buy, and do not decorate around a bad purchase.** People buy new things because they have tired of the old — **"если вы устали, сначала расхламитесь; возможно, после этого усталость как рукой снимет, без дополнительных трат."** And where a piece is already known to be wrong, **covering it with a rug, cushions and candles will not work — "в конечном итоге в комнате вас будет раздражать буквально всё." Her exit: "сейчас не так сложно продавать мебель, и не обязательно делать это за полцены."** **This supplies the escape route the sunk-cost material in §5d lacks.** [source: [[_Sources/YT_uRK4OPR4dak_kuzina_decorating_mistakes|uRK4OPR4dak]]]

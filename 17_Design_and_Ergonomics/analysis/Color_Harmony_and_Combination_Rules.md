@@ -297,3 +297,32 @@ Reusable structure for skirting, cornices, mouldings and opening surrounds. **Al
 **The Ильяхов analogy, which generalises past colour and is worth applying to every numeric rule in this vault.** A copywriter invented that every product should have **7.2 advantages**, and now copywriters force every product to 7.2 — **padding one that has three, cutting one that has ten.** [source: [[_Sources/YT_GEBJkzYd874_kuzina_60_30_10_rule_rebuttal|GEBJkzYd874]]]
 
 **"Нужно думать сначала о смысле и только потом о формуле. Формулой можно пользоваться как вспомогательным инструментом"** — but first make the thing good.
+
+## Two Corrections to the Colour-Support Rules on This Page (Надежда Кузина, added 2026-09-01, Round 5)
+
+**Both qualify material routed here in Round 4 rather than adding to it, and both should be read against it.**
+
+### ⚠️ Correction 1 — colour support needs VARIATION, not repetition
+
+This page carries «поддержка цвета» from `yU2zKPpDghM`: support a loud object with accents of the same colour elsewhere. **`uRK4OPR4dak` names the failure mode of doing that badly.** [source: [[_Sources/YT_uRK4OPR4dak_kuzina_decorating_mistakes|uRK4OPR4dak]]]
+
+Her worked negative example runs the identical logic to a positive one: a neutral scheme with yellow elements added, **"но их оттенок везде одинаковый, и он с такой педантичностью, я бы сказала занудством, повторён"** — and the yellow does not rescue the interior. **Better to take several different shades that agree with each other.**
+
+> **⚠️ Supporting an accent with identical instances of itself is a distinct failure from not supporting it at all.** The rule is *distribute in varied shades*, not *repeat*.
+
+**A related item from the same source**: **the personal colour threshold — "почти похож на болевой порог" — and the problem is usually not that a bright colour is present but that there is too much of it, or it repeats in one shade until it dominates.** Her fix: **"вышибить клин клином" — introduce a very bright object of a DIFFERENT colour**, which softens the sense that one colour is bearing down.
+
+### ⚠️ Correction 2 — colour block reverses the distribution rule on purpose
+
+> [!IMPORTANT]
+> **This must be read as a scoped reversal, not as more of the same.** [source: [[_Sources/YT_HENjGv0DGjI_kuzina_colour_block|HENjGv0DGjI]]]
+>
+> **In colour block the rule is: "лучше использовать три ярких пятна, три цвета, чем восемь цветов в мелких элементах." The patch must read easily, and elements of one colour are grouped TOGETHER — "здесь нет задачи размазать или как-то распределить цвета по интерьеру."**
+>
+> **Colour support distributes an accent; colour block consolidates it. They are different techniques with opposite rules, and mixing them yields neither.** The full treatment is on [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]].
+
+**Two further colour-contrast rules from the same source, which do generalise:**
+
+- **⚠️ The more contrasting the colours, the stronger their influence — and the strongest colour contrast comes from the PRIMARIES. Intensity, and therefore contrast, declines as a colour moves away from the centre of the wheel: orange, violet and green give less than red, yellow and blue.**
+- **⚠️ Separating each colour from the others by white or black stripes makes each colour's individual character more pronounced and reduces their mutual influence.** *(Attributed in the source to Itten, but the attribution is ASR-garbled — recorded as probable.)* Her worked instance is **a black outline holding a bright scheme together: "как чёрный держит этот интерьер вместе, как складывает его воедино."**
+- **⚠️ And a composition rule for any bright scheme: dilute bright patches with more neutral ones — "тогда интерьер меньше похож на коробку с карандашами и больше похож на дом."**

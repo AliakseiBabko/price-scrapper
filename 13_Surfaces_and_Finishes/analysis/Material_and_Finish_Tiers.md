@@ -45,3 +45,61 @@ Both belong with the sample-based selection method and the metal-finish naming h
 - **⚠️ Wood-effect porcelain: the test is "много лиц" — many faces. You should not be able to see where the pattern repeats.** A cheap sheet reuses a handful of plank images and the repeat becomes obvious across a floor. Checkable in a showroom in seconds.
 - **⚠️ Marble-effect names are inconsistent between makers.** Tile copies *specific quarried stones* — Statuario (contrasting, sparse veins), Calacatta (more diffuse, more veins, same Carrara quarry), Arabescato (more contrasting, veins enclosing rounded areas), Emperador, Sahara Noir. But a design she rates, **Invisible Grey, is sold as Invisible White, Invisible Pearl and "Invisible-something" depending on the maker** — so match on the figure, not the label. Full taxonomy on [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]].
 - **Cost note, directional not costed**: **large-format wood-effect porcelain is a real alternative to timber wall panelling** — it does not warp, cuts freely, its grain figure is pre-drawn and predictable, and **it is cheaper than real panels**, especially against a species like American walnut.
+
+## ⚠️ A Practical Interior Is Not the Same as a Good One (Надежда Кузина, added 2026-09-01)
+
+**The frame this vault has been missing.** It holds a great deal of best-material guidance with nowhere to record what the practical choice costs aesthetically — and this source is organised entirely around that trade-off. [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+**Her definition of practicality is worth adopting: "часто основной вопрос практичности — это то, к чему приводит взаимодействие человека с материалом."** Not a property of the object; a property of the contact.
+
+> [!NOTE]
+> **A dedicated page was considered and deliberately not created** — `single-account`, one source. Logged in `_Knowledge/store/Pending_Wiki_Page_Decisions.md` per the precedent set for the shadow-gap plinth and irregular-geometry entries.
+
+### The paired comparison, which is the deliverable
+
+| **Practical** | **Good** |
+| :--- | :--- |
+| **Laminate** — unaffected by temperature or humidity change; **better still without a bevel, so nothing enters the groove and it reads like linoleum** | **Parquet** — but oiled parquet that ages beautifully needs its oil renewed periodically |
+| **Leather or eco-leather on a sofa** — **⚠️ though a couple of her clients chose leather for practicality and reported sliding off it and finding it cold** | **Fabric pleasant to sit on** — velvet, better with impregnation; a light plain fabric is beautiful and impractical |
+| **A chair with maximum timber and minimum upholstery** — wipe it and move on; spilled juice does no harm | **Soft upholstery** — comfortable to sit on |
+| **No rug** — many clients refuse one as a dust collector | **A rug** — and **high pile is "адски непрактично"** |
+| **Bare windows** — nothing to take down and dry-clean; fine with a good view and no need for blackout | **Curtains** |
+| **Light wall paint** | **Bright or dark walls** — **⚠️ a scratch reveals the white base under the paint** |
+| **Stretch ceilings** — **contain a flood from above instead of it landing on your head, and wipe clean** | **⚠️ But not beautiful where it reads as film, and such ceilings "не дышат"** |
+| — | **⚠️ Wallpaper in a bathroom: "просто адски непрактично."** Her read: it goes up, a photograph is taken, and afterwards the room is best kept for opening the door to guests |
+
+**⚠️ Her summary of the endpoint, which is why the trade-off has to be made consciously:**
+
+> **"Обычно практично всё то, что выглядит скучно"** — beige that hides dust, smooth, no decor, no panelling, preferably no veneer. **So you arrive, on a small budget, at "интерьер в стиле Ашан" — everything practical and very easy to wash; or, if the budget allows, at "интерьер в стиле павильонов Мис ван дер Роэ" — bare space, no tables, a couple of armchairs uncomfortable to sit in but leather so they wipe down, no curtains, no rugs.**
+
+**Her position: "практичность — это важно, но возможно, какие-то компромиссы в пользу хорошего интерьера."** Not that it should be inconvenient — **but at least bright walls, bright accents, and a rug.**
+
+### ⚠️ Damage that does not show — the material properties that decide it
+
+- **⚠️ Coloured through the body («крашеные в массе») versus surface-coloured.** **Porcelain: some carry a dark surface layer over a light body, so every chip shows a white shard; others are the same colour throughout and a chip does not read.** **Matters most for dark colours.**
+- **Parquet: a natural colour means scratches are the colour of the wood.** Her own contrast — **natural oak under clear lacquer, where a scratch is exactly the parquet's colour, against the white parquet in her own home where every scratch shows, "потому что дерево само по себе не белое, белый только верхний слой."**
+- **⚠️ Sanitaryware: with non-white sanitaryware, establish whether it is coloured through or only on the surface.** On a black WC **poor-quality coating may lift, or a chip leaves a white mark.**
+- **⚠️ Harder material ages less.** **Chipboard against MDF: paint chipboard and within a year it is obvious what it was; paint MDF and it can pass for solid** — subject to paint quality, and MDF quality varies. **Timber hardness, as she orders it approximately: birch soft; beech soft, which is why it is used for carving; oak medium; palisander hardest — "отсюда цена, естественно." The denser the material, the fewer scratches.**
+- **⚠️ Non-natural ages less: synthetics crease and age far less than cotton or silk. Veneered fronts behave more capriciously than painted ones — in a kitchen, veneer holds grease stains a painted front would release easily.**
+- **⚠️ But a third category exists: materials that age *beautifully*. Natural timber on a floor ages well, unlike laminate even at high cost.**
+- **⚠️ And the most elegant point: more practical still are materials that are imperfect to begin with** — rustic timber already distressed, a floor that looks sawn. **Loft, to a degree Provence, and boho presume that imperfection, so in those styles ageing costs nothing.**
+
+### Easy to clean, easy to renew
+
+- **⚠️ Fingerprints are decided by coating, not colour — and this inverts the usual assumption.** Her worked case: two **Geberit Sigma** flush plates. **The BLACK one had an anti-fingerprint coating and showed nothing. The LIGHT one, same model without it, showed far more — one press and it needs a cloth.**
+- **Fewer joints: large-format tile cleans better than small, especially on a kitchen backsplash.**
+- **⚠️ No profiles or projections that collect dust — panelling on door and furniture leaves, and wide relieved skirtings.**
+- **⚠️ Internal corners should not be at 90°.** Her example is a sink: **a crisp 90° contour against the walls is very hard to wash; a smoother transition is materially more practical.** Generalises to any wet-zone internal corner.
+- **⚠️ Built-in furniture floor-to-ceiling leaves no under-gap — "мышкам жить негде." Treat the top the same way: drop the ceiling over the unit, or take it up with only the gap needed to install it.**
+- **⚠️ To clean less often: choose colours close to the colour of dirt; matte needs wiping less often than gloss; and the more small-scale ornament a surface carries, the less visible dirt is.** For corridor tile — **a dust colour, or a bright small ornament.**
+- **⚠️ The worktop comparison, deliberately left open**: **acrylic (Corian-type) can be re-polished and its chips are the colour of the body, so they can be filled; quartz chips are visible and cannot be restored at all, only replaced — but some acrylics mark from hot cookware where quartz does not.** *"Что из этого практичнее, я не знаю — но реставрировать можно акриловые камни."*
+- **⚠️ Parquet joint type decides replaceability: tongue-and-groove, click lock, or a plain square edge — and a plain square edge is easiest to lift out and swap.**
+
+### ⚠️ Where it is genuinely unclear which is more practical
+
+**Recorded as open questions, because she poses them as such** — and because a vault of best-practice rules should say where the rule runs out.
+
+- **Free space versus an extra cupboard**: free space is ergonomic and you do not bang into corners; an extra cupboard means more order.
+- **⚠️ Glossy tile is easier to wash; matte shows dirt less.**
+- **Multifunctional furniture** gives more space but **sleeping nightly on a sofa-bed is "адски неудобно."**
+- **⚠️ Furniture without legs collects no dust beneath; furniture on high legs lets a robot vacuum under. "Это ещё зависит от того, какой образ жизни у вас, какие у вас привычки."**

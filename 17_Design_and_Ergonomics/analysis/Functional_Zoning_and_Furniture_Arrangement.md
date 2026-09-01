@@ -278,3 +278,45 @@ Worked applications:
   corridor-avoidance stance (complements rather than conflicts with the
   existing Zemskov corridor rules on this page), developer free-plan
   deception, and two worst-case "train-car" layout patterns.
+
+## ⚠️ Focal Points — the Concept That Organises Everything Else on This Page (Надежда Кузина, added 2026-09-01)
+
+**A concept this vault had no coverage of, and it is the organising idea behind much of the arrangement guidance already held here.** [source: [[_Sources/YT_YaIuW1lX1sU_kuzina_focal_point|YaIuW1lX1sU]]]
+
+> [!NOTE]
+> **A dedicated `Focal_Points.md` was considered and deliberately not created** — `single-account`, one source, below the 3-source threshold. Logged in `_Knowledge/store/Pending_Wiki_Page_Decisions.md`, following the precedent set for the shadow-gap plinth and irregular-geometry entries.
+
+**The problem it solves**: *"бывает, что пространство выглядит хаотичным и неорганизованным даже при том, что там хорошие формы мебели и удачная цветовая гамма. Дело в фокусной точке, вернее в её отсутствии."*
+
+- **The definition: what catches the eye the moment you enter — the centre of attraction people move toward naturally. ⚠️ NOT necessarily the physical centre of the room.**
+- **It often follows the room's purpose** — a living room's develops around the seating group, an office's around the work zone.
+- **⚠️ It is set by the designer (furniture, fittings, art, a finish) or by the ARCHITECT (a bay window, a niche, a projection, a window, a staircase) — and where the architecture already sets one, the designer's job is not to contradict it but to support it with the means available.** A real constraint on a brief.
+- **Her closing claim, which is a budget one: "тайное знание о фокусных точках может скомпенсировать небольшой бюджет, маленькую площадь, плохую цветовую гамму, недостатки архитектуры."**
+
+### ⚠️ Placement
+
+- **It must sit on the line of sight — easiest attached to a wall, or at the centre of the room.**
+- **⚠️ We look most easily at what is parallel to our face, so a focal point will usually have a vertical component (the Z axis).** This one fact drives most of the rules.
+- **⚠️ But it can sit on the FLOOR — especially for entrance groups: an interesting floor layout, tile, or a rug — and occasionally on the CEILING, which she says suits sleeping zones.** *(Pairs with the ceiling-as-fifth-wall material on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]].)*
+
+### ⚠️ Two ways to make one work
+
+1. **Radically different from everything else — «яркое на фоне нейтрального».**
+2. **⚠️ The better one: the focal point sets the style and everything else is chosen to support it.** Her worked example — focus on a photograph of a girl; **the chandelier echoes the wreath on her head; the chairs' upholstery resembles her dress's edging; and the photograph's implied classicism is picked up by classical ceiling moulding.**
+
+> **"Support" is not colour-matching. It is repeating the focal point's forms and references in unrelated objects.**
+
+### Making a specific object into one
+
+- **⚠️ Highlighting a large object makes it read larger still, so in a small room ask whether you should.** **The workaround: keep a wardrobe neutral and make its interior or backing bright.**
+- **⚠️ A non-vertical object (a sofa) needs help: bright cushions while the sofa recedes, or bright fittings above it so you read a GROUP and it loses its horizontal directionality.**
+- **⚠️ And the layout point: a focal point is set not only by form or colour but by people sitting or lying FACING it, or moving TOWARD it** — which is why a bed headboard and a sofa are the easiest candidates in any room.
+- **Bedroom: ⚠️ if large, accent the whole bed with an interesting bedspread; if small, accent the HEADBOARD and strip the horizontal surface — no voluminous bedspread, not too many cushions.**
+
+### ⚠️ More than one, which is where it fails
+
+- **One per zone is allowed in a large multifunctional space — but since you see them together they must agree in style and in meaning.**
+- **⚠️ "Если фокусных точек слишком много или они плохо подобраны, они теряют значение, и интерьер распадается."**
+- **⚠️ The specific risky move: two focal points on the same wall and in the same plane.**
+- **⚠️ "Глазам нужна пауза, а фокусная точка должна дышать" — there must be enough neutral empty space around them.**
+- **⚠️ Give one priority — whichever is better seen from the entrance, or whichever the layout is wound around. One dominates, the second supports: "лучше не делать их равнозначными."**

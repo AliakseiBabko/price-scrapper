@@ -195,3 +195,31 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
   unified element.
 
 [source: [[_Sources/YT_S3Mn1FvQhKI_anutavlady_two_kitchen_living_no_renovation|YT_S3Mn1FvQhKI]]]
+
+## Proportion, Rugs, and a One-Line Test for a Seating Layout (Надежда Кузина, added 2026-09-01, Round 5)
+
+### ⚠️ Proportion — three failure shapes and two rules
+
+[source: [[_Sources/YT_uRK4OPR4dak_kuzina_decorating_mistakes|uRK4OPR4dak]]]
+
+- **The failures**: too-large objects in a small room; too-small objects in a large room; **or correctly-sized objects in a medium room but too many, so you squeeze between them.**
+- **⚠️ Vary the sizes of adjacent pieces.** With a sofa and armchair together, **let the armrests align in height while the sofa back sits lower and the chair's higher** — or use a compact, lower chair. **Better than two pieces at roughly equal height.**
+- **⚠️ In a medium room, larger pieces often win: "появляется ощущение, что вы более спокойно, вольготно обращаетесь с пространством, и оно от этого кажется больше."**
+- **⚠️ Pieces can be well matched by style and colour and still fail on proportion — "если пропорции нарушены, то это большая проблема."**
+- **⚠️ And the instruction: "всегда ходите с рулеткой."** A large sofa looks good in a big showroom and heavy at home — **measure the pieces you intend to place together and decide from the measurements.**
+
+### ⚠️ Rugs
+
+[source: [[_Sources/YT_NenrhBgNxGI_kuzina_improving_any_interior|NenrhBgNxGI]]]
+
+- **Many clients do not want one. Acceptable in a small bedroom.**
+- **⚠️ In a living room a scheme without a rug looks incomplete — and refusing one means devising some other floor zoning, "и это всегда более сложное в исполнении дизайна, чем просто положить ковёр."** **The refusal has a design-complexity cost, not a money one.**
+- **⚠️ Avoid too-small rugs: they spoil the room's proportions and make it read smaller.**
+- **⚠️ "Правильный размер ковра имеет больше значения для дизайна, чем его цвет и рисунок."**
+- **The counterweight, from the practicality source: many clients refuse a rug as a dust collector, and high pile is "адски непрактично."** See [[13_Surfaces_and_Finishes/analysis/Material_and_Finish_Tiers|Material & Finish Tiers]] for the full practical-versus-good table. [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+### ⚠️ The glass test
+
+**"В дизайне считается хорошим тоном, что рядом с любым местом для сидения есть поверхность, куда можно поставить стакан."** [source: [[_Sources/YT_NenrhBgNxGI_kuzina_improving_any_interior|NenrhBgNxGI]]]
+
+**A single checkable test for any seating layout.** A central coffee table plus side tables improve both design and function. **⚠️ And in a bedroom, where no nightstand fits, provide another surface — for instance behind the headboard.**

@@ -394,3 +394,17 @@ A short cross-reference into this page's colour-temperature section from a paint
 - **Reflexes compound it**: neighbouring surfaces reflect onto the finish too, which matters most for whitish, greyish and light neutrals.
 
 **This complements the finish constraint already on this page** — that some finishes look very bad under coloured light, so cream walls and grey floors should be specified where RGB is planned. **The general rule behind both: a finish and the light it will sit under are one decision, and the finish is normally chosen first.**
+
+## Three Dissents and a Ranking (Надежда Кузина, added 2026-09-01, Round 5)
+
+**All three qualify content already on this page rather than adding to it.**
+
+- **⚠️ A dissent on dimmers, which this page recommends.** *"Я лично думаю, что диммером скорее неудобно пользоваться"* — you must turn or hold it every time, **"стоишь как дурак и три секунды ждёшь, когда люстра дойдёт до нужного уровня освещения."** **Her qualification, which is the usable part: dimmers exist with a separate dimmer control AND a separate switch key, which is materially easier to live with.** And she allows that full control suits some people — dimmed overhead light while watching TV is not a bad thing. **Recorded as a usability objection to the *interface*, not to dimming.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+- **⚠️ A THIRD distinct objection to cove/contour lighting, on grounds unrelated to the two already here.** Kruglov's is dust and insects becoming visible through a stretch membrane; Кузина's recorded objection is that a hollow cornice needs ≥5 cm and so lights the very junction it should hide. **This one is simply that the channel is unreachable: "там никто никогда не убирается — это самое лучшее место для тараканов."** She is candid that she has specified it and clients are happy — *"но с точки зрения практичности как-то не очень."* **Three mechanisms, three separate arguments, one detail.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+- **⚠️ A ranking this page did not have: "когда света слишком много, это портит интерьер гораздо быстрее, чем когда света слишком мало" — though in practice she meets too little more often.** [source: [[_Sources/YT_NenrhBgNxGI_kuzina_improving_any_interior|NenrhBgNxGI]]]
+- **⚠️ And a caution on LED strip as a value signal: "палка о двух концах — она может как разнообразить интерьер, так и прислать пламенный привет из 90-х."** There is no version where installing strip everywhere automatically raises the register. [source: [[_Sources/YT_Jj96GbK_35w_kuzina_expensive_look_rebuttal|Jj96GbK]]]
+
+**Two items from the focal-point source that belong with the pendant material consolidated above:**
+
+- **⚠️ A pendant must be judged in BOTH states, day and evening — it may qualify as a focal point only when off, or only when on.** Daytime: an interesting form, where **the ability to light is merely an addition to the form.** Evening: interesting for its light effects, while switched off it is *"лишь рядовой участник оркестра, а никак не первая скрипка."*
+- **⚠️ A low-hung fitting overlays whatever sits behind it** — her worked case has fittings resembling sea foam on rope like ship's rigging, read against pictures of the sea behind. **Without the pictures the fittings would not read as sea foam at all.** [source: [[_Sources/YT_YaIuW1lX1sU_kuzina_focal_point|YaIuW1lX1sU]]]

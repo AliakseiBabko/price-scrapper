@@ -27,3 +27,18 @@ Reverse-engineered from the convergence in Russian design portfolios and deliver
 - **Handles either recessed or long surface-mounted, most often gold.** The same rule governs wardrobe fronts elsewhere in the flat.
 - **Small kitchens get round tables more often than rectangular**, with a light, thin worktop. **Chairs: metal legs with a visible frame, or wooden legs tapering downward; soft backs wrapping around the sitter.**
 - **Kitchen floor: marble-effect tile, wood-effect tile, or wood-effect laminate.** If marble-effect porcelain, **the same material usually runs onto the backsplash**, always light — near-white with grey or golden-beige veining.
+
+## ⚠️ Gas Appliances and Pipework May Not Be Boxed In (Надежда Кузина, added 2026-09-01)
+
+**This vault has had no gas-safety content at all, which is the kind of gap that only shows up when something goes wrong.** [source: [[_Sources/YT_UnCjxyDtWG0_kuzina_tiktok_lifehacks_debunked|UnCjxyDtWG0]]]
+
+Debunking a short-form clip showing a false panel neatly hiding "ugly pipes" in a kitchen. **She pauses it and identifies what is actually being enclosed**: two flexible hoses with something yellow — **gas pipes**; behind them cold and hot water marked red and blue; and a hatch that appears to be **ventilation for a gas water heater.**
+
+> [!WARNING]
+> **⚠️ Enclosing a gas water heater in a cabinet is PROHIBITED, as is hiding gas pipes behind panels, inside cabinets, or chasing them into walls.**
+>
+> **The consequences she names, in order: "это может привести к пожару или к взрыву газа, или как минимум к долгим и не очень приятным обсуждениям с газовой службой."**
+>
+> **⚠️ Jurisdiction: she is describing Russian practice and names «газовая служба».** The prohibition is near-universal in substance, **but the specific rules and the enforcing body differ — verify against Belarusian norms before relying on this, and do not treat it as settled for this apartment.**
+
+**And the point about the format, which is why it is worth recording**: the clip shows only *"какой крутой лайфхак, как всё аккуратненько и как всё прекрасно сделано."* **The neatness is exactly what makes it persuasive.**

@@ -333,3 +333,111 @@ the actual result when the round closes.
 - **⚠️ Cluster 3 (design-process and methodology, ~14 videos) is now the strongest untouched cluster**, because it is almost entirely rebuttal-and-method formats — the profile that has produced this channel's best work in every round. Named candidates: `Jj96GbK_35w` (making an interior look more expensive, a critique of popular-blogger advice), `UnCjxyDtWG0` (why not to trust TikTok renovation lifehacks), `vnLZqiYxY1Q` (why expensive interiors are colourful and budget ones beige — **which connects directly to this round's beige-to-beige and neutral-is-not-safe material**), `NenrhBgNxGI`, `BLKTn8_KrMc`, `JOBm37_9iDg`, `wTYPfyC2WtY`, `aNrZEUNqfdc`.
 - **Clusters 4–6 remain deprioritised** and nothing in this round changes that.
 - **ASR remains the binding constraint on pre-2022 uploads.** Deliberately not guessed this round: two paint-brand names, one designer name, the authority behind the warmest/coldest-colour claim, and one product-category name — **though that last one was recovered anyway by cross-referencing two sources that garbled it differently («action» and «excel» both for eggshell), which is a technique worth reusing.**
+
+## Round 5 — dispatched 2026-09-01
+
+**Opens Cluster 3 (design process and methodology, ~14 videos), which the Round 4 close-out identified as the strongest untouched cluster** — because it is almost entirely rebuttal-and-method formats, the profile that has produced this channel's best work in all four rounds. **Eight promoted, five deferred.**
+
+**Selection applied the rule four rounds now support: format beats topic, and length is a tiebreaker inside a good format rather than a promotion mechanism.** View counts were pulled alongside durations this round as a weak secondary signal — noted where they influenced a call, ignored where they did not.
+
+| # | Video | Date | Len | Views | Why promoted |
+| :--- | :--- | :--- | ---: | ---: | :--- |
+| 1 | `uRK4OPR4dak` — decorating mistakes | 2022-09 | 13 min | **32.9k** | **Mistakes format, and the most-watched candidate in the cluster by a factor of 1.7.** Round 4's mistakes digest was its second-best source |
+| 2 | `Jj96GbK_35w` — making an interior look more expensive | 2022-11 | 10 min | 10.8k | **An explicit critique of popular-blogger advice** — the rebuttal profile in its purest form |
+| 3 | `UnCjxyDtWG0` — why not to trust TikTok renovation lifehacks | 2022-01 | 14 min | 3.7k | **Rebuttal.** Lowest views in the set and promoted anyway — **views are a popularity signal, not a density one, and this channel's densest sources have not been its most watched** |
+| 4 | `JOBm37_9iDg` — practical versus beautiful | 2020-10 | 28 min | 19.8k | **A genuine tension rather than an exposition, and the decision every line item in this renovation actually faces.** Longest promoted |
+| 5 | `YaIuW1lX1sU` — the focal point | 2024-03 | 15 min | 13.3k | A concrete, nameable concept this vault has no coverage of. **Also the only 2024 upload processed from this channel** — a useful midpoint for the professionalisation observation below |
+| 6 | `NenrhBgNxGI` — improving any interior | 2022-08 | 7 min | 10.5k | Checklist format |
+| 7 | `vnLZqiYxY1Q` — why expensive interiors are colourful and budget ones beige | 2026-06 | 7 min | 1.2k | **Connects directly to Round 4's beige-to-beige caution and her "neutral is not the safe option" claim.** ⚠️ Also a second 2026 upload, which tests whether the professionalisation and promotional-load observation from `IBecn-3_7Ls` is a pattern or a one-off |
+| 8 | `HENjGv0DGjI` — colour block | 2022-05 | 20 min | 6.8k | **Promoted out of Round 4's deferral list.** It had been deferred as a likely overlap with `lptrnXyf0as`; that source turned out to be horizontal two-tone division with dimensions, so the overlap does not exist |
+
+### Deferred, with reasons — five videos
+
+- **`aNrZEUNqfdc`** (choosing the right style for yourself, 33 min) — **2017-11, by six years the oldest video on the channel's shortlist. ASR quality is the binding constraint on pre-2022 uploads and this predates them all**; and style-choosing is an exposition, the format that underperforms here. **Two strikes.** Reconsider only if a round runs short.
+- **`wTYPfyC2WtY`** (imperfection in the interior, 29 min) — a long essay, and **essays are this channel's weakest format**: Round 4's only pure essay returned 14 against a round average of 26. Length does not rescue that.
+- **`BLKTn8_KrMc`** (three rules to start with, 5 min) — short and, from the title, likely beginner-level framing this vault already holds several times over.
+- **`zxbd-jXVfJ4`** (simple decorating fixes, 5 min) — likely a thin subset of `uRK4OPR4dak`, which was promoted instead.
+- **`mwf8WE82ohE`** (gallery wall, 9 min) — narrow, and the vault's decor-technique coverage is already dense after the Round 3 and 4 routing.
+
+### What Round 5 is testing
+
+**Two things, deliberately.**
+
+1. **Whether the format rule generalises off Cluster 2.** Rounds 1–3 were technical (Cluster 1) and Round 4 was colour (Cluster 2), and in both the rebuttal-and-checklist selection outperformed. **Cluster 3 is method content with no room or material attached to it, which is the least concrete material on the channel** — if the rule holds here too it is a property of the speaker, not of the topic.
+2. **Whether the 2026 professionalisation is a pattern.** `IBecn-3_7Ls` carried `promotional_ratio: medium`, the highest from this channel, with content withheld to a Telegram funnel. **`vnLZqiYxY1Q` is a second 2026 upload and `YaIuW1lX1sU` a 2024 midpoint** — three data points across three years will say whether the promotional load is rising steadily, jumped once, or is video-specific.
+
+**⚠️ A risk this round carries that the previous four did not.** Cluster 3 is *method* content, and this vault already holds a great deal of method content from this same practitioner across four rounds. **The realistic failure mode here is not a low fact count but a high count of restatements** — facts that are new to the page they land on but not new to the vault. **Yield alone will not detect that.** Every note in this round should mark restatement explicitly, and the close-out should report a *net* figure alongside the raw one.
+
+## Round 5 — complete, 2026-09-01
+
+**Round 5 yield**: 8 videos processed, all FULL, **195 facts raw, 175 net of restatement — 24.4 raw / 21.9 net per video.** All 8 fetched cleanly in `ru`, zero rate-limit signatures.
+
+| Round | Cluster | Videos | Facts | Yield | Net yield |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| 1 | Cluster 1 | 7 | 137 | 19.6 | — |
+| 2 | Cluster 1 | 8 | 161 | 20.1 | — |
+| 3 | Cluster 1 | 7 | 151 | 21.6 | — |
+| 4 | Cluster 2 (applied) | 8 | 208 | 26.0 | — |
+| **5** | **Cluster 3 (method)** | **8** | **195** | **24.4** | **21.9** |
+
+**Second-best round of the five on raw yield, and the first to report a net figure.**
+
+### ⚠️ The restatement measure — the round's own methodological addition
+
+**The dispatch note predicted the specific risk that Cluster 3 carried: not a low fact count, but a high count of *restatements* — facts new to the page they land on and not new to the vault. Yield alone cannot detect that, so every note in this round marked restatement inline and reported a net figure.**
+
+**The result: 10% overall restatement, which is low — but it is not evenly distributed, and that is the useful part.**
+
+| Source | Raw | Net | Ratio |
+| :--- | ---: | ---: | ---: |
+| `JOBm37_9iDg` practical vs good | 35 | 31 | 89% |
+| `YaIuW1lX1sU` focal point | 30 | 29 | **97%** |
+| `HENjGv0DGjI` colour block | 26 | 25 | 96% |
+| `UnCjxyDtWG0` TikTok debunk | 25 | 24 | 96% |
+| `uRK4OPR4dak` decorating mistakes | 24 | 21 | 88% |
+| `Jj96GbK_35w` expensive-look rebuttal | 20 | 17 | 85% |
+| `vnLZqiYxY1Q` mass-market palettes | 19 | 17 | 89% |
+| **`NenrhBgNxGI` improving any interior** | **16** | **11** | **⚠️ 69%** |
+
+**⚠️ One source carried almost all of it.** `NenrhBgNxGI` is a summary of positions this practitioner has stated at greater length elsewhere, and the vault had already absorbed them. **Two of its restated items were deliberately not routed at all, and that decision is recorded in the note so a later reader does not assume they were missed.** **The measure earned its keep by isolating a weak source that raw yield would have scored as merely small.**
+
+**⚠️ Adopt the net-of-restatement figure as standard for any further round on a channel already processed at depth.** It costs almost nothing to produce and it is the only thing that distinguishes new coverage from re-coverage.
+
+### ⚠️ The format rule generalises off Cluster 2 — a property of the speaker, not the topic
+
+**Round 5's other test.** Rounds 1–3 were technical, Round 4 was colour, and in both the rebuttal-and-checklist selection outperformed. **Cluster 3 is method content with no room or material attached — the least concrete material on the channel — and the rule held again: the three highest-net sources are a trade-off analysis (31), a single-concept explainer (29) and a technique explainer (25); the lowest is the one general summary (11).**
+
+**Five rounds of evidence. Treat it as settled: on this channel, format predicts yield far better than topic does.**
+
+### What Round 5 changed in the vault
+
+- **⚠️ The highest-consequence item of the round, and the vault had nothing on it: a miscalculated FINISHED-FLOOR LEVEL makes an interior unusable.** Her example is a WC set so high the feet do not reach — *"ошибка там в 3–4 сантиметра реально делает интерьер адски неудобным"* — **and the fault is arithmetic at rough stage, invisible until fit-out.** Routed to `Renovation_Sequence.md`.
+- **⚠️ The leak-sensor timing argument, read off the manufacturer's own site on camera: detection takes 2 seconds, but the valve then needs 15–20 more to close (up to 40 with other suppliers).** **A threshold contains the water released in that window; its absence lets it through the flat.** **An engineering argument for a threshold that survives outside Russia, unlike the regulatory one — which was flagged as Russian and routed to the bathroom page rather than to `16_Legal_and_Regulations/`.**
+- **⚠️ Gas safety, a category this vault had no coverage of at all**: gas water heaters may not be enclosed in cabinets, and gas pipework may not be hidden behind panels or chased into walls. **Jurisdiction flagged.**
+- **⚠️ A second design-fee benchmark on a different basis from the first — 10–15% of project total, against Round 3's Moscow absolute floor.** Cross-checked in place: the two are consistent and **together they bracket where a full design engagement becomes purchasable**, which neither does alone.
+- **⚠️ The precondition that makes every cheap-improvement list in this vault usable: "это как у врача — какое лекарство назначать, смотря в каком состоянии пациент." Decorator tricks do nothing on a bad base and genuinely work on a solid one, and the genre never states the condition.**
+- **⚠️ Two corrections to rules this vault already held, both routed as corrections rather than additions.** Colour support **needs varied shades, not identical repetitions** — a distinct failure mode from no support at all. And colour block **reverses the distribution rule on purpose**: support distributes an accent, colour block consolidates it, and mixing the two yields neither.
+- **⚠️ The best steelman of the neutral default anywhere in this vault, from the practitioner who has attacked it four times.** A neutral palette is genuinely safer **for an interior assembled incrementally by a non-expert** — which identifies the variable the dispute turns on and makes it resolvable rather than merely two-sided.
+- **A practical-versus-good comparison table across eight material decisions**, which is a frame the vault has been missing: it holds a great deal of best-material guidance with nowhere to record what the practical choice costs aesthetically.
+- **Two page decisions taken and logged rather than defaulted**: focal points and practicality-versus-design are both genuinely page-worthy on content, **both `single-account`, and both withheld per the precedent set for the shadow-gap plinth and irregular-geometry entries.**
+- **18 wiki pages routed, section counts held flat**, one top-level heading per page for the whole batch.
+
+### ⚠️ The channel-format pattern is confirmed
+
+**Round 4 opened this as an observation from one source. Round 5 supplies the midpoint and the confirmation** — now recorded in `_Knowledge/store/Advertising_Promotional_Notes.md`:
+
+| Upload | Promotional shape |
+| :--- | :--- |
+| **2024-03** `YaIuW1lX1sU` | Light closing pitch. **No funnel.** |
+| **2026-06** `vnLZqiYxY1Q` | **Telegram at start and close, QR code, materials withheld to it.** `medium` |
+| **2026-08** `IBecn-3_7Ls` | **Telegram twice, QR code, pigment history withheld to it.** `medium` |
+
+**⚠️ The operational consequence: treat 2025–2026 uploads as `promotional_ratio: medium` by default, and record what has been WITHHELD to the funnel rather than treating it as absent.** In both 2026 sources she names a topic and says the fuller treatment is elsewhere — so the note holds the summary she chose to give away, not her full account. **That distinction decides whether a claim is thin or merely truncated.**
+
+### Notes for Round 6
+
+- **⚠️ Cluster 3 has six videos left and they are now a weaker prospect than they looked.** `aNrZEUNqfdc` (2017, 33 min, style-choosing) and `wTYPfyC2WtY` (29 min, imperfection) are both long expositions — **the format that produced this round's only weak source.** `BLKTn8_KrMc` and `zxbd-jXVfJ4` are 5-minute pieces likely to restate. **`mwf8WE82ohE` (gallery wall) is the pick of them**, being a concrete technique. **Recommend taking Cluster 3's remainder only as filler, not as a round.**
+- **⚠️ Cluster 2's per-colour videos are the better Round 6 body of work**, and the Round 4 note already recommended a two-video probe: white `QHZZU5MF-8Q`, black `2FPgyQPT5QU`, grey `ZC8DDJY3lM8`/`sPiCm3xCS0w`, beige `bMtEzmP_k84`, pink `NouPlstU1mA`, green `OuJo8l3ux0M`. **She twice named her own pink and black videos as among her best, which is the best available signal.** The three numbered theory videos remain the weakest bet.
+- **⚠️ And a genuinely new consideration: two page decisions are now pending on independent corroboration** — focal points and practicality-versus-design. **Neither will be resolved by more Кузина.** If either topic matters enough to want a page, the next move is a *different channel*, not another round here.
+- **Clusters 4–6 remain deprioritised.**
+- **ASR remains the binding constraint on pre-2022 uploads.** `JOBm37_9iDg` (2020) was the worst transcript of the round. **Deliberately not guessed: three lighting-fitting ranges, two external citations in the mass-market source, one designer name, and two attributions of colour-theory claims to Itten.**

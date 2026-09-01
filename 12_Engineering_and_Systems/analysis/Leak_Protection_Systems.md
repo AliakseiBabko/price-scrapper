@@ -39,3 +39,25 @@ instead. (added 2026-08-24, Round 7) [source: [[_Sources/YT_YxXfsKoyx6M_petrishi
 Konstantin Kruglov / Ontario gives an explicit **sensor-placement priority order** (with the typical 3-sensor kit): **#1, mandatory** — inside the plumbing distribution/collector cabinet itself, since that location is concealed (a leak there wouldn't be noticed quickly) and concentrates the largest number of fitting connections that could fail. **#2, recommended** — under the kitchen sink and under the bathtub (the source recommends both, calling the choice "up to you" if only one sensor is left). **#3, a flexible/portable use, framed as a budget-friendly "vacation mode"**: keep a spare sensor (wired or wireless) to place in the center of the bathroom floor specifically when leaving for a short trip (1-2 days or a vacation), instead of shutting off the whole system — pick it back up on return. **UPS mechanism, stated more precisely than before**: a battery-backed UPS is recommended specifically because the system's electrically-actuated shutoff valves stop working on a power outage; the UPS's role is converting AC to DC so the system keeps running off battery during the outage — refines this page's existing "battery backup in the module, limited time, add a UPS for longer coverage" note rather than contradicting it. `single-account`, `unverified`. [source: [[_Sources/YT_sd2XYBZY-K8_kruglov_bathroom_2026_top10|YT_sd2XYBZY-K8]]]
 
 - Vladimir Amelchenko / ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ (added 2026-08-28, Round 2) independently corroborates the ≈25,000 RUB starting cost above (≈$270 at a comparable trailing-6-month rate) with a **floors-below flood-cost framing**: aggregate damage to 5-12 apartments below in a multi-story building can reach "several million RUB" — a single stated exception for ground-floor units (no apartment below, though the owner's own unit still floods regardless). [source: [[_Sources/YT_Zl_fegEg7yY_sbk_water_supply_manifold_install|YT_Zl_fegEg7yY]]]
+
+## ⚠️ Detection Is Not Shutoff — the Timing Window, and Why a Threshold Still Matters (Надежда Кузина, added 2026-09-01)
+
+**The most consequential single item routed in Round 5, and it corrects a reasoning error that leak sensors invite.** [source: [[_Sources/YT_UnCjxyDtWG0_kuzina_tiktok_lifehacks_debunked|UnCjxyDtWG0]]]
+
+She endorses the devices — *"мы практически в каждый проект ставим датчики от протечек"* — **and then reads the manufacturer's own published figures on camera:**
+
+| Stage | Time (Gidrolock's published figures) |
+| :--- | :--- |
+| **Sensor detects the leak** | **2 seconds** |
+| **Signal reaches the system and the valve actually closes** | **a further 15–20 seconds** |
+| **The same closing stage, other suppliers** | **up to 40 seconds** |
+
+**⚠️ The argument: "за 2 секунды мою квартиру не успеет затопить" is true and beside the point, because the 2 seconds is DETECTION only.**
+
+> **⚠️ With a bathroom threshold, all the water released during the 15–40 second closing window is contained in the bathroom. Without one, it spreads freely through the flat.**
+>
+> **This is an engineering argument for a threshold rather than a regulatory one, so it survives being moved to another jurisdiction** — which the Russian norm on the same subject does not. See [[07_Bathroom/analysis/Planning_and_Layout|Bathroom Planning & Layout]] for the regulatory side, flagged there as Russian.
+
+**⚠️ Verify before relying on it**: the figures are from a 2022 reading of one supplier's site. **Re-check the current specification of whatever unit is actually specified** — the *structure* of the argument (detect, then transmit, then close) holds regardless, but the numbers will have moved.
+
+**A related point from a second source in the same round**: **smart sensors that notify your phone while you are out are "гораздо безопаснее, чем не иметь датчик от протечек или чем иметь обычный датчик."** The notification matters precisely because the shutoff is not instantaneous and the aftermath is not self-managing. [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
