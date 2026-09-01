@@ -23,6 +23,14 @@ Split out of `Flooring_Guide.md` on 2026-08-31. **Content was moved verbatim** �
 - Zemstandart/Alexey Zemskov explains: solid/engineered wood flooring (массив) wears unevenly depending on the direction of foot traffic relative to the grain — per the speaker's account it holds up well when boards run parallel to the main direction of movement, and wears unusually fast laid across that direction. In an L-shaped corridor, this means the two legs of the L often need flooring run in genuinely different directions to match their own traffic pattern, which — without a dividing wall — forces an awkward, long diagonal seam where the two directions meet. The speaker's fix: a dividing wall with a door opening lets each leg have its own grain direction, meeting cleanly at the opening's center.
 - **Zemskov's cork-flooring-vs-large-dog caution (real cited case)**: a client wanted both a soft cork floor and a large dog; Zemskov told them to choose one, since a large dog's claws would (per his account) shred a cork floor within roughly a week of normal use. The client chose the dog and dropped the cork-floor plan; per Zemskov, the client later thanked him after seeing a friend's cork floor (installed alongside a large dog) reduced to confetti-like debris requiring constant vacuuming. **Treat the "within a week" figure as a single vivid account (`single-account`)**, not a benchmarked test result — the underlying claim (cork is soft relative to dog claws) is plausible but not independently verified here.
 
+## ⚠️ Transition-Profile Material Choice — Prefer No Visible Profile at All (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]
+
+- **⚠️ Mixing laminate/tile/quartz-vinyl room-to-room and joining them with wide aluminium thresholds reads as "renovated in pieces,"** even with expensive individual materials — a visual/perception argument complementing this page's existing Zemskov durability/seam-length reasoning above (both converge on minimizing a visible transition, from different angles). **Prefer a single continuous flooring material across the whole flat.** Where a material change is technically unavoidable, prefer thin, unobtrusive transitions in this order of preference: **a profile matching the floor colour**; **brass or stainless-steel strips**, if the design concept calls for a metal accent; or, his own favourite, **no visible profile at all — a cork compensator strip.**
+
+`single-account`, `unverified`.
+
 ## Laying Direction, Row-Offset Pattern, and Continuous-vs-Separated Runs — per Zemskov/Zemstandart (added 2026-08-10)
 
 > [!NOTE]

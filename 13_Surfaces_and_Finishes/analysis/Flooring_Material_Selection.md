@@ -14,6 +14,17 @@ Split out of `Flooring_Guide.md` on 2026-08-31. **Content was moved verbatim** �
 
 ---
 
+## ⚠️ Five Worst Flooring Choices for 2025 — Glossy Tile, Grey, Concrete, Terrazzo (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_GASrPcGISX0_krasnov_worst_flooring|GASrPcGISX0]]]
+
+- **⚠️ Glossy tile / polished marble / glossy porcelain**: shows every scratch, water spot, footprint, and dust mark almost instantly, especially in high-traffic zones with children/pets — ages visibly within roughly **2 years**. Also **slippery when wet**. **Fix**: matte or textured finish — hides minor soiling/wear far better and reads as more current, while still delivering the same premium marble/stone-look aesthetic.
+- **⚠️ Cold grey laminate/vinyl — the "2010s budget-flip" look**: a 2010s-era trend for fast-turnaround new-build/rental/budget renovations, especially cold light-grey tones with a blue/concrete undertone. Now reads as cheap/economy-segment by association **regardless of the material's actual quality**, and reads visually cold, particularly in low-sunlight climates. **⚠️ Named trend-report figure (research house not identifiable from the transcript — `unverified`): 46% of buyers now prefer warm natural wood tones vs. only 10% preferring grey.** **Fix for an existing grey floor**: warm rugs, wood furniture, natural-texture textiles/decor. **For new floors**: light-to-medium warm wood tones — oak, walnut, maple.
+- **⚠️ Concrete / microcement floors (raw screed or decorative polished-concrete finish)**: cold underfoot without underfloor heating, even in summer. **Porous** — water/tea/oil/marker stains sink in and become effectively permanent, or require costly professional restoration. Develops micro-cracks over time; surface dulls, can pit/crumble at edges even when well-sealed. **Requires an extremely flat substrate.** Full process is multi-stage and specialist-dependent (rough + fine grinding, chemical impregnation, micro-crack filling, protective top coat) — genuinely more expensive than it appears, and **needs periodic reapplication of the protective sealant**, an ongoing cost most buyers don't anticipate.
+- **⚠️ Terrazzo (cement/polymer composite with large stone/marble/glass aggregate)**: fine as a small accent — entryway, small bathroom — but at large scale (especially with a bold, high-contrast aggregate pattern) becomes the dominant visual element, forcing every other material/furniture/decor choice to defer to the floor's pattern. **Owners report fatigue with a bold large-scale terrazzo floor within roughly 2–3 years** — and unlike a wall colour, a floor "can't just be repainted." Recommendation: use only as a localised accent, never across a large primary living area.
+
+`single-account`, `unverified`.
+
 ## Ten-Material Comparison: Selection Framework and Per-Material Mechanisms (added 2026-08-28)
 
 > [!NOTE]

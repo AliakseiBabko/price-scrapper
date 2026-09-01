@@ -232,6 +232,19 @@ Her systematisation of why Russian design portfolios converge. Satirical in deli
 - **A bedroom TV zone looks identical**, except the cabinet may be a dressing table instead.
 - **⚠️ The one bright object in the whole scheme is the dining chairs** — emerald, blue, dusty blue or dusty pink; if they are grey or beige instead, **nothing in the room is the bright piece.** Cushions on the sofa pick up the chair colour when both share a space.
 
+## Traffic, Seating Distance, and Furniture Variety (Игорь Краснов, added 2026-09-01, Round 2)
+
+Corroborates and adds real figures to this page's existing wall/circulation-clearance content above. [source: [[_Sources/YT_4UJIa7eVlYo_krasnov_living_room_mistakes|4UJIa7eVlYo]]]
+
+- **⚠️ Minimum walkway width in main traffic zones: 75–90 cm** — a second concrete figure alongside this page's existing 1.0–1.2 m circulation-behind-seating range above; his framing is general room traffic flow rather than specifically behind soft seating, so recorded alongside rather than merged with the existing figure.
+- **⚠️ Conversational seating distance should not exceed 2–3 m between seats** for comfortable conversation without raised voices or awkward turning — a distinct figure from this page's existing 2–3 m "distance between two facing armchairs" clearance entry, independently arriving at the same range from a general-comfort rather than a clearance-math framing.
+- **Combine varied furniture types (sofa + armchairs + poufs) rather than one rigid matching set** — creates a flexible space adaptable across different use-cases (quiet family evening vs. hosting guests), a styling counterpart to this page's five-pattern furniture-arrangement taxonomy above.
+- **⚠️ Coffee/side tables must be reachable without leaning or effort** — size/height should be proportional to the seating height; compact, mobile models let the table be repositioned per guest count.
+- **⚠️ Symmetry is not mandatory.** Strict mirror-image furniture placement reads as predictable/impersonal outside classical/formal styles; **asymmetric pairing** (one sofa + a differently-styled armchair pair/ottoman, rather than a matched sofa pair) reads as more dynamic and individual, provided pieces stay coherent via shared color/material rather than matched form. A styling counterpoint worth reading alongside Ivan Bezrukov/GRADIZ's corner-sofa caution above, though that entry is about small-room airiness specifically, not symmetry as such.
+- **⚠️ Rug-sizing rule: the rug should be large enough that all seating-zone furniture sits on it, or at minimum the FRONT legs of every piece rest on the rug** — a too-small rug makes furniture look scattered/disconnected. Corroborated, near-verbatim, by the same channel's later video in this round ([[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]) — same-channel, `single-account` per this vault's corroboration convention (same channel ≠ independent source), not double-counted.
+
+`single-account`, `unverified`.
+
 ## ⚠️ What Goes Above a Sofa — With a Dimension (Надежда Кузина, added 2026-09-01)
 
 From a source on focal points; the general concept is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]. [source: [[_Sources/YT_YaIuW1lX1sU_kuzina_focal_point|YaIuW1lX1sU]]]

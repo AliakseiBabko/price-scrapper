@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ThgEv7FWNeE",
+  "video_id": "ThgEv7FWNeE",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T13:55:22.638996+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "2cd0f91e769e04b60d0a9ba4ddac2e066aefdd1ff00fdf65c0b01c9e661188ae",
+  "attempts_before_success": []
+}

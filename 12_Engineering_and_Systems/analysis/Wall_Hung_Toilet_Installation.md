@@ -10,6 +10,11 @@ Two common misconceptions worth correcting before choosing between wall-hung and
 - Same source: **tile-to-metal-frame cold-crack risk** — where tile meets the frame's exposed metal maintenance-window edge with no grout gap, differing thermal expansion between metal and tile can crack the tile; keep a proper grout joint at that junction rather than a tight direct fit.
 - Same source: **corner installations are handled via a separate universal corner-mount bracket kit**, not a dedicated corner-frame product — any standard frame converts to corner mounting by swapping its included bracket for the corner kit. [source: [[_Sources/YT_zZ_1iOXL_wA_petrishin_installation_frame_shower_furniture_expo|zZ_1iOXL_wA]]]
 
+## ⚠️ Bowl Height and Frame Lifespan (Игорь Краснов, added 2026-09-01)
+
+- **⚠️ Optimal toilet-bowl height from finished floor: 40–42 cm** — corroborates this vault's existing figure (see [[12_Engineering_and_Systems/analysis/Mounting_Heights_and_Positioning|Mounting Heights & Positioning]] for cross-references) from a second, independent channel. He flags **46 cm and above as too tall**, estimating he encounters over-tall installations in roughly 20% of restaurants/cafés/public venues he visits — a design/planning failure that isn't fixable after tiling without an improvised step or footrest.
+- **A correctly installed installation frame lasts a minimum of ~20 years**, per his own career experience — he reports never hearing of a properly-installed concealed frame failing (falling off the wall, leaking), provided hidden works aren't cost-cut. `single-account`, `unverified`. [source: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]]]
+
 ## Installation-Frame Buying Mistakes — Round 1 (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)
 
 > [!NOTE]

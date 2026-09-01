@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=gGII-GzuDUg",
+  "video_id": "gGII-GzuDUg",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T13:56:10.529569+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "0cc5af33f29249d513f0212977f7d7e2bd78c93ef0f0fa8bae4901510f9ba73a",
+  "attempts_before_success": []
+}

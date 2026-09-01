@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=GpkgVoPesDI",
+  "video_id": "GpkgVoPesDI",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T13:55:49.051142+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "19cd6520aebfdcbd4f329acc72dcdfc234bfdd11e7bdc889aab4096ccea3bb50",
+  "attempts_before_success": []
+}

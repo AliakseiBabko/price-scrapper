@@ -58,6 +58,41 @@ Kruglov's four functional categories, cutting across rooms rather than counting 
 
 **Recessed point fixtures with a good diffusing bulb are commonly sufficient** for even room illumination — the cited example is roughly **4 well-placed fixtures adequately lighting a ~30 m² room**, against installs carrying far more fixtures than the space needs. **Over-specification is a common, avoidable cost driver.** [source: [[_Sources/YT_dJMsXYUyh7A_kruglov_lighting_guide|YT_dJMsXYUyh7A]]]
 
+### ⚠️ Three-Layer Restatement, Illuminance Targets, and CRI (Игорь Краснов, added 2026-09-01)
+
+Corroborates this section's three-scenario rule from a fourth independent channel, and adds the first per-room illuminance-in-lux figures on this page. [source: [[_Sources/YT_GpkgVoPesDI_krasnov_lighting_guide_ruins|GpkgVoPesDI]]]
+
+- **⚠️ Three-layer lighting restated: general/ambient, decorative/accent, functional/task** — a single ceiling source alone is the base mistake, matching this page's existing scenario rule above.
+- **Evening-only living with just accent/task light (no general light on) is presented as normal and desirable**, not a compromise — he states roughly 40% of people he knows live this way in the evening, himself included, and recommends designing for this scenario explicitly.
+- **Spot/downlight-only ceilings fail to substitute for diffuse general light** — an array of point spots leaves the upper part of the room visibly darker; most people find this unsatisfying.
+- **⚠️ Avoid cold-white light entirely in residential spaces** — reserved for offices in his framing; use neutral or warm only, and **never mix multiple colour temperatures within one room.**
+- **⚠️ Illuminance targets by room, three figures — new to this page**: **living room 100–150 lux/m²**; **kitchen 200–300 lux/m²**; **bedroom ~50 lux/m²** (deliberately low, since the room's primary function is sleep).
+- **Larger homes need a proper photometric/lighting calculation at the design stage** — described as less critical for compact flats but increasingly important as floor area grows, since correcting an over/under-lit zone after finishes are complete is very difficult or expensive. Consistent with this page's existing "when to hire a lighting designer" guidance above.
+- **⚠️ CRI should be ≥90** in rooms where people dress, apply makeup, or cook: dressing room/wardrobe, bathroom, kitchen, living room. **A notably lower bar than Реньжин's existing ≥95 figure on this page** — recorded as a mild disagreement on the exact threshold rather than resolved; both agree CRI is an underrated, checkable fixture spec most buyers never look at.
+- **⚠️ Lighting must be planned during design, before renovation begins, not added afterward** — the sequencing rule tying the above together.
+
+`single-account`, `unverified`.
+
+### ⚠️ Evolutionary Framing, Raking Light, Dappled Light, and Fire (Игорь Краснов, added 2026-09-01, Round 2)
+
+[source: [[_Sources/YT_ufKHek_TU30_krasnov_8_comfort_principles|ufKHek_TU30]]]
+
+- **Warm light (2700–3000 K) is associated with sunset/relaxation/safety via an evolutionary framing** — historically, the transition from daylight to warm sunset light meant the end of the active day and the start of rest. **Extends this page's existing 2700–4000 K comfortable-range content above — the Kelvin range overlaps with what this page already records, but the evolutionary-association mechanism is new**, and cites Peter Zumthor's writing on atmosphere as light + material + sound + temperature + scale + duration of stay (fuller material-focused treatment of the same citation on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]).
+- **⚠️ A distinct, nameable technique: raking/directional light across a textured plaster or stone surface creates a visible light-and-shadow relief pattern** that reads as more expensive/handmade — light striking a textured wall at a low angle exaggerates its relief via cast shadow, distinct from this page's general layered-lighting or accent-lighting content. A real, checkable lighting technique worth specifying deliberately when a textured finish (limewash, brushed stone, relief plaster) is already planned.
+- **Dappled/uneven light (forest-canopy-style light through leaves) reads as more "alive"/comfortable than flat, even lighting** — a psychological rationale for *why* layered lighting works, not a new fixture-count rule; attach to this page's existing scenario/layer content as added mechanism.
+- **⚠️ Fire/flame named as the single most psychologically comforting light source** (evolutionary campfire-safety association). Real fireplace groupings recommended in houses, tied to an actual usage scenario (evening reading, family gathering). **In apartments where a full fireplace isn't feasible: grouped candles (ideally wood-wick, for the crackling sound) rather than a single candle**, for a similar effect.
+
+`single-account`, `unverified`.
+
+### Directional Accent and Gallery-Style Lighting (Игорь Краснов, added 2026-09-01, Round 2)
+
+[source: [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]]
+
+- **Directional accent lighting** aimed at specific objects (wall-mounted or track spotlights on a large artwork, an empty wall, open shelving, or uplighting a tall plant/art object from below) as a technique distinct from general ambient layering — creates a "gallery/hotel" quality. Corroborates this page's existing accent-light category (§1's Kruglov taxonomy) with a specific styling application.
+- **Concealed LED strip lighting must be fully hidden** (diffused glow, not a visible light-source line) and colour-temperature-matched to the room's overall light scheme — **largely restates this page's existing concealed-strip content above; the one genuinely new detail is that it should be used only as a subtle addition, never a visual focal point, in classical styles specifically** — recorded as corroboration-plus-one-nuance, not full re-extraction.
+
+`single-account`, `unverified`.
+
 ---
 
 ## 2. Colour Temperature
@@ -210,6 +245,10 @@ From Шеврина, across two videos in the same round and mutually consistent
 
 **Шеврина names staggered-height pendants as the single most frequent mistake she sees** across submitted interiors — *"я не знаю, откуда пошла такая мода: это и не было стильно тогда, и не стильно сейчас."* It applies equally to dining-zone pendants, bedside pendants and wall sconces. **The same error with staggered shelves** reads visually overloaded rather than playful — see [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]. `single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
 
+### ⚠️ Chandelier-to-Room-Area Sizing Rule (Игорь Краснов, added 2026-09-01)
+
+**⚠️ Match the fixture to its manufacturer-rated coverage area — rule of thumb, the room should be roughly ≥4× the fixture's rated area** (his example: a fixture rated for 50 m² is oversized for a 20 m² room). **Also physically measure the fixture's stated height dimension against the room's actual headroom before buying** — a spec-sheet height (his example: 50 cm) occupies real vertical space once installed that isn't intuitive from the listing alone. A concrete, checkable pre-purchase test complementing this page's existing height/diameter formulas above. `single-account`, `unverified`. [source: [[_Sources/YT_GpkgVoPesDI_krasnov_lighting_guide_ruins|GpkgVoPesDI]]]
+
 ### Replacing the chandelier when ceiling height is scarce
 
 The full low-ceiling strategy is on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]]. [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
@@ -326,6 +365,7 @@ The same applies to multiple strips on one switch — **three vertical wall stri
 - **⚠️ Plan the switching for floor and table lamps at the electrical stage.** Table lamps usually have a switch on the body. **Floor lamps usually have an inline switch on the cable some way from the body — so you end up bending down or fishing for it with a foot.** Two fixes: **a socket with its own integral switch**, or **wire the low socket to a wall switch at bedside height** so the wall switch controls that socket. Cheap, and only available if decided early. [source: [[_Sources/YT_nYvqqkNeS4k_shevrina_bedroom_lighting_and_headboard|YT_nYvqqkNeS4k]]]
 - **Presence sensors («датчик присутствия», distinct from motion) dim by up to 80%** and save substantial electricity; paired with daylight sensors they also track temperature and brightness through the day. Expensive up front. [source: [[_Sources/YT_9MsEZVjLH2M_kuzina_renzhin_lighting_design_podcast|YT_9MsEZVjLH2M]]]
 - **Curtain niches and window sills are worth wiring**: a recessed curtain-track niche with a built-in LED channel hides the track hardware and doubles as sleek indirect lighting; outlets built into a sill or reveal give access for laptops or seasonal decorative lighting without a visible extension cord. [source: [[_Sources/YT_dJMsXYUyh7A_kruglov_lighting_guide|YT_dJMsXYUyh7A]]]
+- **⚠️ Switch-zoning balance (Игорь Краснов, added 2026-09-01)**: avoid one single master switch controlling every fixture in a room (loses all scene flexibility) but also avoid over-fragmenting into one switch per individual fixture (unmanageable number of switches). **Group fixtures into a small number of sensible switch zones per room, decided at the design stage alongside the lighting layout itself** — a general balancing principle complementing this section's more specific switching techniques above. `single-account`, `unverified`. [source: [[_Sources/YT_GpkgVoPesDI_krasnov_lighting_guide_ruins|GpkgVoPesDI]]]
 
 ---
 

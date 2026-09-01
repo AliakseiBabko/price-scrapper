@@ -233,6 +233,26 @@ Worked applications:
 
 `single-account`, `unverified`. [source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]]
 
+## ⚠️ Prospect-Refuge Theory — the Headline Finding of This Round (Игорь Краснов, added 2026-09-01, Round 2)
+
+**A genuinely new named mechanism this vault did not previously have, and the single most valuable finding of this channel's Round 2 batch.** [source: [[_Sources/YT_ufKHek_TU30_krasnov_8_comfort_principles|ufKHek_TU30]]]
+
+- **⚠️ "Теория обзора и укрытия" ("prospect-refuge theory"): humans are subconsciously most comfortable in a position with an open view ahead and a solid backing behind/beside them** — a defensive/territorial instinct paralleled to shade under a tree or a niche in rock versus an open field.
+- **⚠️ Concrete application 1 — desk orientation**: a desk should face the room's entrance with a solid wall/cabinet behind the chair, not the reverse. He cites his own office setup and the generic "executive office" convention (desk facing the door, a wall behind the chair). **Sitting with one's back to the door keeps the mind in low-grade subconscious tension** — waiting for someone to enter — a real, usually-unnoticed "microstress" that affects concentration and a felt sense of control, even alone in the room.
+- **⚠️ Concrete application 2 — sofa backing**: a living-room sofa should have a solid backing (a wall, a console, or a deliberate partition/screen when the sofa is used to zone an open-plan kitchen-living space) rather than floating with nothing behind it.
+- **Worked example for an open kitchen-living layout (ЖК Шагал project)**: a rug clearly demarcating the living-zone territory under the sofa, combined with a lighter-lit seating zone against a darker-lit surrounding field — together reading as a sense of protection/defined territory even without a physical partition. A concrete technique pairing this page's existing Colour-as-a-Zoning-Instrument section with a genuinely new lighting-contrast mechanism for the same purpose.
+
+`single-account`, `unverified`. See also [[04_Living_and_Dining_Room/analysis/Living_Room_Layout_and_Furniture_Sizing|Living Room Layout & Furniture Sizing]] and [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]].
+
+## Furniture Clustering and Curves-vs-Angles Styling (Игорь Краснов, added 2026-09-01, Round 2)
+
+[source: [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]]
+
+- **Furniture grouping into functional clusters** — e.g. a reading nook groups armchair + lamp + side table together rather than scattering them around a room, for a "collected/intentional" read.
+- **⚠️ Balance sharp rectilinear forms (squares, right angles) with at least one or two rounded/curved elements** (furniture, an accessory, a piece of art) to avoid an overly static, rigid composition. **Pairs with this page's own prospect-refuge section above (`ufKHek_TU30`), which gives the psychology-mechanism version of the same curves-read-as-calm/angles-read-as-dynamic idea — that entry is mechanism-based (evolutionary, "nature has few straight lines"), this one is a styling-coherence rule. Recorded as related but distinct, not merged into one restatement.**
+
+`single-account`, `unverified`.
+
 ## Change Log
 
 - 2026-08-24 — Page created as part of standing up the `17_Design_and_Ergonomics` folder. No content yet.

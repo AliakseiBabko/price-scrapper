@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=KUvcN-AqdZg",
+  "video_id": "KUvcN-AqdZg",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T14:37:51.835927+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d9ee7bf26ad220c188106ca54d6a9c14da3035cff4c91f58d93ed29f3bc26625",
+  "attempts_before_success": []
+}

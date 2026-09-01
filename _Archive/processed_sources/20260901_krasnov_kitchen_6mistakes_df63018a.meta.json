@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=LU35znr1jVM",
+  "video_id": "LU35znr1jVM",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T13:55:35.469220+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "df63018a0bed82450d5b3e58006e623942401500f746db22b686790f6e093b01",
+  "attempts_before_success": []
+}

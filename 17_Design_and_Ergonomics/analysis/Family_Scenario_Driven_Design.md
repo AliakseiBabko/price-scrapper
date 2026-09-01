@@ -140,6 +140,26 @@ They pair this with a broader position worth recording alongside: **no 100%-prac
 
 [source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
 
+## ⚠️ The Kitchen-Island and Dining-Table Habit Test, and Sentimental Inventory (Игорь Краснов, added 2026-09-01, Round 2)
+
+[source: [[_Sources/YT_cZcJ4ehcVuQ_krasnov_template_design_signs|cZcJ4ehcVuQ]]]
+
+- **⚠️ A kitchen island is only functionally justified if the household genuinely cooks together as a group habit** — otherwise it's a "Pinterest symbol" with no real use, a concrete, checkable instance of this page's core principle (a layout/fixture decision should be driven by how *this specific household* actually uses the space, not a generic default).
+- **A dining table/seating arrangement should reflect actual real gathering habits** (do they entertain? cook together? eat quietly as a couple?) rather than a default catalog placement — the same test applied to a second fixture.
+- **⚠️ "Sentimental inventory" method**: identify 5–7 personally meaningful objects early in the design process (a painting, a family photo, a specific book/vinyl record actually used), then build sightlines/backgrounds/lighting around where and how each will be encountered daily. A genuinely specific, named, transferable methodology step — more concrete than generic "personalize your home" advice, and a real addition to this page's principle beyond the worked room-by-room examples already recorded above.
+- **Personal ≠ everything sentimental** — explicit warning against turning a home into a "memory museum": curate (keep only what "reinforces you today"), hide what doesn't, rather than accumulate everything with an emotional tag.
+
+`single-account`, `unverified`.
+
+## ⚠️ Two Compatible-but-Distinct Hotel-vs-Home Arguments (Игорь Краснов, added 2026-09-01, Round 2)
+
+Both critique uncritically importing a hotel as the design reference for a home, but from different angles — recorded as a matched, cross-referenced pair rather than merged into one fact.
+
+- **Scenario-mismatch argument** ([source: [[_Sources/YT_Z29a16kpLVc_krasnov_interior_wont_work|Z29a16kpLVc]]]): a luxury hotel's design brief (a short-stay relaxation scenario for a guest) is explicitly NOT the same brief as a home's design — a home must support the full range of daily life (work, parenting, recovery, decision-making), not just relaxation. Importing "resort-hotel-inspired" choices without adapting for that broader life-scenario range is a design mismatch.
+- **Personalization/identity argument** ([source: [[_Sources/YT_dHpdI35EWY8_krasnov_5star_hotel_secrets|dHpdI35EWY8]]]): even the most expensive hotels deliberately use neutral, impersonal art (abstracts, generic prints matched to the colour scheme) because a hotel room has no owner-identity to express, whereas a home's art and personal objects are what make a home's atmosphere impossible for even the most expensive hotel to replicate.
+
+`single-account`, `unverified` (both).
+
 ## Change Log
 
 - 2026-08-25 — Added "Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design" section (1 source, `YT_fkoUNvB9LV8`), part of a dedicated 8-video Anuta Vlady batch targeting `06_Small_Bedroom` — this particular video turned out to be a kitchen-living room, not a bedroom, so routed here instead.

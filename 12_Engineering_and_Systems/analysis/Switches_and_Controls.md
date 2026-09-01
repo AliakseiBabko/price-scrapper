@@ -206,3 +206,7 @@ Her worked labels: *"электровывод, высота такая-то, п�
 > **An unlabelled outlet is ambiguous between "deliberately unswitched" and "you forgot to connect it."** Labelling removes the ambiguity — **and reduces questions back to the designer.**
 
 **Also on the sockets-and-switches plan: a table counting sockets, frames and outlets, with every socket and outlet labelled with height and size.**
+
+## ⚠️ Switch/Outlet Plate Colour Should Match the Wall by Default (Игорь Краснов, added 2026-09-01)
+
+**Standard white plastic switches/outlets clash visibly against dark, complex, or saturated wall colours/finishes and read as an unfinished detail.** **Match the plate colour to the wall (or tile) colour** where the palette allows (e.g. dark-grey wall → dark-grey/graphite plate; beige wall → beige/cream plate) so the fixture visually disappears. **Contrasting plates (e.g. black on a light wall) can work as a deliberate accent** — his own studio uses this — but the shade must match the room's palette precisely; even a small mismatch reads as an error rather than a choice, so only use a contrast when confident in the exact tone. `single-account`, `unverified`. [source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]

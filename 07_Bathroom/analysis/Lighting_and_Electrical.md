@@ -22,6 +22,16 @@ Konstantin Kruglov / Ontario supports the two linked extraction-note claims (`YT
 - **⚠️ Never light a shower spot directly above the showerhead itself** — the fixture ends up behind/above the water stream from the user's perspective, and the showerhead's own body casts a shadow onto the user standing beneath it. Position a shower spotlight to the side instead, so light reaches the user from an angle unobstructed by the fixture. `single-account`, `unverified`. [source: [[_Sources/YT_dJMsXYUyh7A_kruglov_lighting_guide|YT_dJMsXYUyh7A]]]
 - **A second, independent source corroborates this page's tub-glare caution above** (see also [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]]'s generalized reclining-glare rule): position any ceiling spot or LED-strip niche lighting near the tub so it doesn't shine directly into your eyes while reclining. `single-account`, `unverified`. [source: [[_Sources/YT_dJMsXYUyh7A_kruglov_lighting_guide|YT_dJMsXYUyh7A]]]
 
+## ⚠️ Vertical-Sconce Mirror Lighting Geometry and Ceiling Illuminance Target (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
+
+- **⚠️ Vertical wall sconces beside the mirror, at eye level roughly 160–170 cm from floor, spaced 90–100 cm apart** — gives even face-lighting without the harsh top-down shadow a ceiling-only spotlight produces (shadows under eyes, emphasised nasolabial folds). **Directly corroborates this page's existing front-facing-mirror-light guidance above** (Kruglov/Ontario) with a concrete mounting-height/spacing figure that page didn't previously have.
+- **If using a wall-sconce fixture at this position: 7–10 W bulb wattage at 3000–4000 K colour temperature** gives natural skin tone — a slightly wider/lower range than this page's existing "mirror light: 4000K specifically" figure from Ontario; both agree 4000K sits inside the acceptable range, this source just widens the floor to 3000K as also workable.
+- **General ceiling illuminance target: 150–200 lux/m²** for a 4–6 m² bathroom — the first illuminance figure recorded for this room on this page.
+
+`single-account`, `unverified`.
+
 ## КУП (Potential-Equalization/Bonding Box)
 
 A bathroom-mandatory grounding circuit for metal fixtures (towel warmer, metal tub/frame, metal shower drain, etc.), distinct from ordinary outlet grounding. See [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighting]] for the general electrical planning content this extends; a full write-up of the КУП box's own bonding list is worth adding there if more electrical-specific sources are processed.

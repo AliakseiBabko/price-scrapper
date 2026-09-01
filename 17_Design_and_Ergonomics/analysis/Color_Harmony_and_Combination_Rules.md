@@ -176,6 +176,15 @@ Worth flagging because this vault's zoning coverage — [[17_Design_and_Ergonomi
 
 ---
 
+## Repeat-Color and Tone/Saturation Variation (Игорь Краснов, added 2026-09-01, Round 2)
+
+Two additions from a self-branded turnkey studio, worth reading against this page's own 60/30/10-hierarchy content above. [source: [[_Sources/YT_4UJIa7eVlYo_krasnov_living_room_mistakes|4UJIa7eVlYo]], [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]]
+
+- **⚠️ Repeat a chosen accent color 2–3+ times across different materials/finishes in the same space** (and ideally echo it across adjoining rooms) for a sense of depth and cohesion, rather than using it once. **Independently converges with Kruglov/Ontario's "accent colour must repeat at least three times across distinct objects" rule already on this page above** — same underlying claim (a single accent instance doesn't read as deliberate), from an unrelated channel; recorded as convergence.
+- **⚠️ Vary tone/saturation of a single chosen color across different elements, rather than one flat repeated shade** — a single static hue used everywhere reads flat/monotonous; play with different tones/saturations of the same base color across cushions, throws, rugs, and art for a "deeper, more professional" result. Consistent with this page's own Perspectives block above on whether monochrome can work — his prescription (vary lightness/saturation within one hue) matches the position of the three sources there who endorse monochrome-done-right over Artcolor.Online's flat rejection.
+
+`single-account`, `unverified`.
+
 ## Source Notes
 
 Traceability record kept on its own page — [[17_Design_and_Ergonomics/analysis/Source_Notes|Source Notes]].

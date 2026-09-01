@@ -72,3 +72,19 @@ room-specific content rather than duplicating this here:
   → closer/more accessible; daily-essential → always within immediate
   reach while staying visually unobtrusive.
 [source: [[_Sources/YT_8PjHJZtblZw_kodolov_storage_methods|8PjHJZtblZw_kodolov_storage_methods]]]
+
+## ⚠️ Storage by Functional Zone, and Custom vs. Stock Volume Utilisation (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_6ttTd82TWPM_krasnov_closets_wasting_space|6ttTd82TWPM]]]
+
+- **⚠️ Storage should be distributed by functional zone, not centralised in one room.** Household mess is rarely caused by laziness — it's caused by not planning storage locations in advance. Named failure pattern: outerwear/coats stored in a bedroom wardrobe while the entryway sits empty (just a console and mirror) purely because the entryway wasn't planned for storage at the outset. **Decide the storage "brief" first** — what actually needs storing, scaled to how the household actually lives (a rarely-visited second home needs far less storage than a full-time family home, which needs deliberately zoned storage).
+- **⚠️ Cross-checked against this vault's existing Кузина "operative definition of zoning"** (`17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method.md`, from `YT_Oy_eTelj-X0`) — **related but not the same claim, not a duplicate.** Кузина's point is architectural: a "zone" only exists once the space itself is physically treated (a dropped ceiling, dedicated lighting, a different floor/wall material) — furniture placement alone doesn't create a zone. Krasnov's point here is behavioural/logistical: store an item near where it is actually used, rather than centralising storage in one room regardless of where items get used. The two answer different questions and neither corroborates nor contradicts the other.
+- **Design storage around actual personal routines/habits, not a textbook layout** — his stated client method: ask directly how the household currently gets dressed/ready, rather than assuming a fixed "correct" storage-zone template (e.g. a vanity/dressing table doesn't have to live in the walk-in closet just because a textbook master-suite diagram puts it there).
+- **⚠️ Avoid coloured plastic storage bins/containers as visible storage** — flagged as a specific "interior killer," even inside a closed walk-in closet the household itself sees regularly. **Prefer woven/natural-fibre baskets** — a more tactile, higher-end-reading material even where the storage itself is fully hidden from guests.
+- **⚠️ Custom/bespoke storage furniture uses genuinely more of the available volume than stock/modular furniture**: stock furniture is built to standard dimensions and wastes vertical/floor-to-ceiling volume and can't be tailored to an irregular room shape; custom storage is built to use every available centimetre including full ceiling height. Costs more upfront but pays off through materially more usable storage volume over the long run — a functional argument, not a luxury-only one.
+
+`single-account`, `unverified`.
+
+## Round 2 Corroboration Note (Игорь Краснов, added 2026-09-01)
+
+Round 2 of this channel touched storage/decluttering content twice more (`7CIZQ-pxNl4`'s open-shelving-in-moderation caution, `vqDhBjDJAgA`'s declutter-surfaces-to-functional-or-meaningful-objects rule) — both restate this page's existing content (open- vs. closed-storage tradeoff; the categorization/what-to-keep discipline above) without adding a new mechanism or figure. Recorded here as corroboration only, per this round's own restatement-discipline finding; see `_Sources/YT_7CIZQ-pxNl4_krasnov_apartment_looks_small` and `_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips` for the source notes.

@@ -16,6 +16,10 @@ specifically, distinct from this vault's existing bedside-reading-light
 placement guidance (which addresses aim/function, not fixture material/
 breakage risk). `single-account`, `unverified`. [source: [[_Sources/YT_0TLDGD8MY1A_kruglov_top_renovation_mistakes_2026|YT_0TLDGD8MY1A]]]
 
+## Pillow Count and Wall-Colour Restatement (Игорь Краснов, added 2026-09-01)
+
+**Specific figure: max 2–3 pillows on the bed**, not a large decorative pile — the one genuinely new number in an otherwise thin, generic source (see the extraction note for the full honesty caveat on this video). **Wall-colour guidance**: avoid acid-bright/saturated colours (stimulating, wrong register for a sleep space) and avoid flat dull grey/beige ("hotel room" flatness) — prefer soft/muted pastel or deep calm tones, optionally with one accent wall. **His position sits closer to the Ontario/Kruglov side of the Perspectives block below** (avoid saturated colour), though he doesn't address the sleep-physiology mechanism directly — doesn't resolve the existing disagreement, just another data point on that side. `single-account`, `unverified`. [source: [[_Sources/YT_gGII-GzuDUg_krasnov_bedroom_7mistakes|gGII-GzuDUg]]]
+
 ## Perspectives on Record — Saturated Color in a Small Bedroom
 
 | Source | Position | Stated reasoning |

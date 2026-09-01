@@ -119,6 +119,17 @@ If a distortion already exists, adding more is not hard: **"как спрята�
 
 **Her overall verdict, worth recording plainly**: working with an irregular interior is difficult, **in most cases it is a disadvantage rather than an advantage, and the disadvantage entails additional expenditure.**
 
+## Why an Apartment Reads Small — Measuring Discipline, Furniture Off the Walls, and Dark-Palette Light Absorption (Игорь Краснов, added 2026-09-01, Round 2)
+
+[source: [[_Sources/YT_7CIZQ-pxNl4_krasnov_apartment_looks_small|7CIZQ-pxNl4]]]
+
+- **⚠️ Named measuring/mock-up technique before buying furniture**: use a tape measure for the room's real dimensions and key clearances (to door, window, radiator), then use **painter's tape to mock up a prospective piece's actual footprint on the floor/wall** before purchase — checks real clearance for walking, opening doors/drawers around the piece. A concrete, transferable, named technique.
+- **⚠️ Pull furniture away from walls/corners rather than pushing it flush into them.** A bed centered with breathing room on both sides (rather than jammed into a corner) reads as a deliberate focal point instead of "boxed in," and improves functional access (shelf reach, walkway) — not just aesthetics. Consistent with, but independently arrived at from, Кузина's furniture-toward-the-centre argument recorded on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]] (Мария Шеврина / SMBUREAU) — that entry's mechanism is about verticals reading ceiling height; this one is framed around the room-reads-boxed-in effect specifically, so recorded as convergent rather than duplicated.
+- **⚠️ Dark/deep-toned walls, ceiling, and large furniture absorb light and visually shrink a room, even under strong lighting** — described as acting like "a black hole for light," rays absorbed rather than reflected/distributed. **Restrict dark palettes to an accent wall or detail rather than full-room coverage**, especially in a compact room, unless the room genuinely has strong natural light. Puts him in agreement with ГК «Авальремонт»'s directional colour rule on [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]] (light enlarges, dark shrinks) and in the same camp as that page's Perspectives dispute against Vittoria Selina on dark rooms — worth reading against that open disagreement rather than treated as settling it.
+- **⚠️ Avoid busy pattern/texture on every surface simultaneously** (walls + furniture + textiles all patterned) — creates visual chaos that reads as smaller/more cramped than it is; use calm/plain surfaces as backdrop for a few chosen accents.
+
+`single-account`, `unverified`.
+
 ## Small Apartments — "Работа с коробкой," and Furniture That Breaks Two Planes (Надежда Кузина, added 2026-09-01)
 
 From a video framed as a rebuttal of the standard small-apartment advice. **The colour half of that rebuttal is a genuine disagreement with Шеврина/SMBUREAU and is recorded as a Perspectives block on [[17_Design_and_Ergonomics/analysis/Color_Palette_and_Material_Direction|Colour Palette & Material Direction]].** [source: [[_Sources/YT_E6nYBdz9NhM_kuzina_small_apartment_rebuttal|YT_E6nYBdz9NhM]]]

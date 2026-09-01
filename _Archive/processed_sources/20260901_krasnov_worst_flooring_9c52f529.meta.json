@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=GASrPcGISX0",
+  "video_id": "GASrPcGISX0",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T13:56:24.532125+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "9c52f5297e2dbcd4e59b45359e1f657aba419e19fe388b0fa95d70d3ab28cfc0",
+  "attempts_before_success": []
+}

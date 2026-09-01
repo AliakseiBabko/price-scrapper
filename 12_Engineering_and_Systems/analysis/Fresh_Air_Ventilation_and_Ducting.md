@@ -4,6 +4,16 @@ Covers breathers vs. full mechanical ventilation, the shared-shaft constraint ki
 
 Prolife Invest's dated Moscow comparison puts a full ducted supply-and-exhaust ventilation system at **1.5–10 million RUB** as of 2026-07-29. Using the trailing six-month USD/RUB average of 76.4100, `1,500,000 ÷ 76.4100 = $19,630.94` and `10,000,000 ÷ 76.4100 = $130,872.92`, or **≈$19,600–≈$131,000** in the nearest-$100 and nearest-$1,000 buckets respectively. The same source gives a breather figure rendered as “1,350” without a confirmed unit; that number is **not computable** and is not converted. [source: [[_Sources/YT_DsdLa87Acz4_prolife_invest_moscow_flipping|extraction note]]]
 
+## ⚠️ Bathroom-Specific Air-Exchange Rate and the Condensation/Odour Mechanism (Игорь Краснов, added 2026-09-01)
+
+The rest of this page's air-exchange figures are whole-apartment-scale (1×/hour baseline, 30 m³/h/person GOST citation); this is the first bathroom-specific figure recorded here. [source: [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
+
+- **⚠️ Normative bathroom air-exchange rate: ~6 volume changes per hour** — full air renewal every 7–10 minutes. **Most apartment exhaust fans deliver roughly 2–3× less than this in practice**, which is why post-shower steam lingers, condenses on tile/grout, and seeds mould/odour rather than dispersing — not solvable by cleaning alone.
+- **⚠️ Condensation mechanism, named explicitly**: condensation forms rapidly once surface (wall/floor) temperature drops below roughly **18 °C** while room air sits at **24–25 °C** — the temperature gap itself, not humidity alone, is what triggers it.
+- **⚠️ Fix, stated as the actual solution rather than masking with scent products**: exhaust capacity of at least **90–100 m³/h** for a standard bathroom, **plus stable heating that keeps surface temperature from dropping into that 18 °C/24-25 °C gap.**
+
+`single-account`, `unverified`.
+
 ## Disguised Humidifier as a Decorative "Fireplace" — Moscow-Region Winter Dry-Air Recommendation (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 **⚠️ A humidifier built into a decorative fireplace-style housing** (an illuminated-vapor "flame" effect, no real fire, no fuel, no flue/vent requirement) recommended as close to a mandatory device for Moscow/Moscow-region apartments specifically — the source cites the region's severe winter indoor-air dryness from central heating as the reason, one of the few points in this channel's content with an explicit on-camera regional statement ("our climate, Moscow and Moscow region"). Framed as solving a genuine air-quality problem and a decor want at the same time, not a purely cosmetic gimmick. `single-account`, `unverified`, Moscow/Moscow region (level 1, named directly). [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]

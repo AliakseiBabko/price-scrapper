@@ -19,6 +19,16 @@ Konstantin Kruglov / Ontario's source note supports the bathtub and shower claim
 
 RemProektMD/Andrei describes a real jobsite practice: **apply canned expanding foam to the exterior underside/back of an installed bathtub** (works for both cheap steel tubs and more expensive acrylic tubs — cited example was an acrylic tub, not just a cheap one) to add thermal and acoustic insulation. Stated effects: water in the tub cools more slowly, and the sound of running/draining water is quieter. Cosmetically invisible in normal use, since a tub is almost always clad behind a tile-covered access panel/screen anyway.
 
+## Combined Bath + Shower, and a Second Bathtub-Material Comparison (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]]]
+
+- **⚠️ Игорь Краснов / Студия Краснов: install both a bathtub and a separate shower enclosure when floor area allows**, rather than treating it as an either/or choice — his own home has this (the household rarely baths but children use the tub's hydromassage function, while a separate shower serves daily washing). If only one fixture fits, a bathtub can substitute for a shower (step in, shower inside it), but a shower cannot substitute for a bath.
+- **Bathtub material tradeoffs, corroborating and extending this page's existing four-material comparison**: **acrylic** — warm, tactile-pleasant, light, but soft and scratches under abrasive cleaning (matches the existing acrylic entry above). **Cast iron** — very quiet (fill noise damped), holds heat well, very heavy, costs more than acrylic (matches the existing cast-iron entry above). **Cast/engineered marble (литьевой мрамор)** — visually striking, very durable, very heavy, most expensive of the three named here — a second, independent restatement of this page's existing cast-marble recommendation from a different channel.
+- **⚠️ Freestanding tub, a floor-area-plus-nearby-shower condition**: worth it as a design centrepiece only where floor area allows (his cited figures: 8, 10, up to 15 m²) **and** a separate shower is available nearby for daily use — otherwise a freestanding tub in a hotel-style room risks being more decorative than actually used day-to-day. Consistent with, and slightly more specific than, this page's existing freestanding-tub cleaning-access and drainage-constraint guidance above.
+
+`single-account`, `unverified`.
+
 ## Bathtub Material Selection
 
 Konstantin Kruglov / Ontario's source note supports the material-selection claims below.
@@ -410,6 +420,16 @@ From a source on programming the bathroom as a spa — the full programme is on 
 - **⚠️ A 900 × 900 shower is better with a door**, as is any shower with something wettable adjacent. Where the adjacent space is empty a glass or tiled partition suffices — **but some water barrier is mandatory.**
 - **⚠️ Bath screens — opening, sliding, stationary, folding — each need their characteristics understood.** A solid screen **is beautiful in a visualisation and not always practical**; a folding one **collects water on the folded face and needs somewhere to fold to.**
 - **⚠️ Design the screen WITH the layout: if the brief needs a screen that swings a particular way and the layout puts a pencil unit in its path, the layout is wrong, not the screen.**
+
+## ⚠️ Shower Floor Slope and Linear-vs-Centre Drain (Игорь Краснов, added 2026-09-01)
+
+Krasnov states this rule twice across two videos in the same round (plumbing-mistakes and bathroom-mistakes) with matching figures — reconciled here as one entry rather than duplicated. [sources: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]], [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
+
+- **⚠️ Recommended shower floor fall: 1.5–2% (1.5–2 cm per running metre)** — too little pools water; too much makes the floor uncomfortable/slippery underfoot. **Consistent with, and more granular than, this page's existing "minimum fall 2 cm" figure from Михайловская above** — read together, roughly 1.5–2 cm/m is the operative range, with 2 cm as the safe floor both sources converge on.
+- **⚠️ Prefer a linear drain along a wall or the shower entry over a centre point-drain.** Mechanism: a wall-adjacent linear drain only needs a single-direction slope, while a centre drain forces a four-sided slope — more geometry errors in practice, and (his plumbing-video framing) forces expensive/difficult cutting into four sloped planes with **large-format porcelain tile** specifically. With **mosaic tile**, drain position matters far less, since the small tile units cut trivially into a multi-directional slope — a centre drain is fine there.
+- **⚠️ Drain/trap position must be planned against the existing fan (фановая) pipe routing and achievable slope, not chosen for looks alone** — placing the drain too far from the shower area forces raising the shower floor/threshold to hit the needed fall. **A 25 cm platform rise is called explicitly too high/impractical.**
+
+`single-account`, `unverified`.
 
 ### ⚠️ Free-standing baths — the serviceability critique
 

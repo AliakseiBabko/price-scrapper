@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=JNInBkbEDHk",
+  "video_id": "JNInBkbEDHk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T13:55:09.962241+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "bb43f0eb29a7c250fc811a8328a574adaafabc18e02dbbca9a43e6b441fe5f25",
+  "attempts_before_success": []
+}

@@ -129,3 +129,23 @@ https://www.youtube.com/@kuzinadesign/videos — 108 videos, requested directly 
 **Round 2 recommended** (awaiting go-ahead; no stop-and-ask trigger fired): the ~12 remaining Cluster 1 videos, prioritising long-format items, including `VBMzas01VRs` so the protruding-corner/irregular-geometry gap logged in `Pending_Wiki_Page_Decisions.md` gets its second source. **Cluster 2, the 19-video «Цвет в интерьере» series, is entirely untouched** but the two already-processed colour videos yielded 6 and 8, below Round 1's average — finish Cluster 1 first.
 
 **⚠️ Region upgrade to an existing Group E entry, from this round**: **500LUX is a Sochi studio** (founder Сергей Реньжин, relocated from Moscow ~2020) — stated by him directly in `9MsEZVjLH2M`, so **level 1**, replacing the provisional/unresolved attribution in the Group E list above.
+
+## Group A addition — Игорь Краснов / @krasnov_design (added and Round 1 complete 2026-09-01)
+
+https://www.youtube.com/@krasnov_design/videos — St. Petersburg turnkey interior design studio ("Студия Краснов," "более 160 реализованных проектов"). Full triage and round detail in `krasnov_design_channel_triage_20260901.md`.
+
+**Classified Group A on arrival, not trialled as Group B** — same pattern as Кузина/@kuzinadesign and Шеврина/SMBUREAU: a designer-presented channel expected to yield technical content, given the precedent those two channels already set.
+
+**Round 1 complete: 8 of 8 dispatched and processed, zero skips. 67 new facts, yield 8.4 facts/video.** Above the 1.0/video floor, no stop-and-ask trigger, but noticeably below Кузина's first-round 19.6 and Шеврина's 9.0 — closer to sbk.remont's ~6.5-8.6 range. All 8 fetched cleanly in `ru` with **zero rate-limit signatures**.
+
+**Densest source: the bathroom-mistakes video (`ThgEv7FWNeE`, 14 facts).** **Weakest: the bedroom-mistakes video (`gGII-GzuDUg`, 5 facts)** — comedic-listicle voice-over format with few hard numbers, honestly flagged as closer to this vault's Group B design-psychology genre than to this round's technical density.
+
+**Round 2 complete: 8 of 8 dispatched and processed, zero skips, zero rate-limit signatures. Raw 71 / net-of-restatement 56 new facts, net yield = 7.0 facts/video** — a real drop from Round 1's 8.4 (though not past the 50%-drop stop-trigger) and Round 2's own raw-vs-net gap (71→56, ~21% discarded to restatement) is the largest measured for this channel so far. **Headline finding: prospect-refuge theory ("теория обзора и укрытия")**, a genuinely new named mechanism this vault did not previously have (`ufKHek_TU30`) — routed prominently to `17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement.md`. Full detail in `krasnov_design_channel_triage_20260901.md`'s Round 2 section.
+
+**Round 3 guidance**: this round's own methodological finding — a "design methodology + premium-styling" listicle cluster restates itself heavily, both within-round and against Round 1 — suggests future rounds should favor room-specific mistake videos (plumbing/bathroom/kitchen/flooring, Round 1's register) over generic "design secrets/premium tips/psychology" listicles (Round 2's register) when selecting the next batch from this channel's ~35+ remaining untouched videos.
+
+**One genuine cross-channel Perspectives disagreement recorded**: black-vs-chrome bathroom-fixture mark visibility, directly opposing the existing Kruglov/Ontario position — see `07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md`.
+
+**No priced figures anywhere in this round** — unusual for this vault's turnkey-studio sources; worth watching whether this channel's monetisation model simply doesn't lean on public pricing the way others do, or whether Round 1 just happened to draw from a low-pricing-content slice of the catalogue.
+
+**Round 2 not yet dispatched.** The channel's "mistakes/secrets/traps" cluster has **~50+ videos still untouched**. Per this vault's own "format beats topic" finding (established on Кузина/Шеврина), check for longer-format content (client consultations, project walkthroughs, podcast-style interviews) before committing to more short listicles — none of Round 1's 8 videos exceeded ~14.5 minutes.

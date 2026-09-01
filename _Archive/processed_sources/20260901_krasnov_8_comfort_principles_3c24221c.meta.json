@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ufKHek_TU30",
+  "video_id": "ufKHek_TU30",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T14:38:10.628209+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "3c24221cd04aacc91688903ca47fd4ebcf53977fd0658644ec50a81e2c7c49bf",
+  "attempts_before_success": []
+}

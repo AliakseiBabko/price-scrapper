@@ -70,6 +70,8 @@ Kruglov/Ontario's mapped source supports the fixture-placement priority below.
 
 A pure design/personal-preference point, included for completeness: some people strongly dislike seeing the toilet immediately upon entering and design the layout (sink or shower up front, toilet tucked away) around hiding it; others (including the Ontario source, personally) don't consider it worth trading entry convenience for. If this matters to you, it's worth deciding deliberately rather than defaulting — the source notes a real case where a client had the door position shifted specifically to avoid a toilet sightline, accepting a less convenient entry angle in exchange.
 
+**⚠️ Игорь Краснов / Студия Краснов states this more strongly than a preference — he calls a toilet visible first from the door one of the most common bathroom-cheapening mistakes he sees**, independent of finish quality: the room instantly reads as cramped/utilitarian. **Fix: rotate the toilet out of the direct sightline, screen it behind a partition, or position it so the sink or tub is what the door swing reveals first.** **Explicit exception, matching the Ontario/genuinely-small-bathroom case above**: in a standard-plan bathroom small enough that sanitaryware is forced opposite the door by minimum footprint, he treats this as unavoidable and normal, not a mistake to fix. `single-account`, `unverified`. [source: [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
+
 ## Wet-Exit-Distance Door Placement & Storage-vs-Hatch Priority (added 2026-08-19, remainder-pool batch)
 
 **⚠️ Place a bathroom/shower-room door opening on the side nearer the towel warmer, not the side that looks more convenient relative to the sink** — so a person exiting the shower doesn't have to walk wet across the entire room to reach a towel. General principle: sequence a wet room's door/fixture placement around minimizing the post-shower wet-exit travel path specifically, not just overall convenience. **Explicit priority order when a storage cabinet's minimum depth conflicts with an access hatch behind it**: shrink the hatch, never the storage depth (documented minimum: 400mm) — the storage minimum is treated as the harder constraint. `single-account`, `unverified`. [source: [[_Sources/YT_HVSZh0lH9hk_craziest_two_room_230|YT_HVSZh0lH9hk]]]
@@ -263,6 +265,17 @@ A debunk of a widely-shared short-form claim that a threshold-free bathroom floo
 - **⚠️ DRAW THE HATCH ON THE VISUALISATION.** Her reason is expectation management — **a client seeing an unbroken tile face does not realise a hatch means a seam and a visible square. Show it, or the argument happens on site.**
 - **⚠️ A free-standing bath cannot have a hatch at all — access is from behind or outside. Know that before choosing one.**
 - **⚠️ Locate meters and water supply points at survey and hide them deliberately** — in a cupboard or behind the installation. *"Если мы сделаем всё красиво, а счётчики должны быть в ванной, а места нет — это будут изменения, и не очень в хорошую сторону."*
+
+## ⚠️ Material Count, Tile Trend-Cycles, and Dark-Tone Area Ratios (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
+
+- **⚠️ Bold/patterned large-format tile trend-cycle timing, quantified**: dramatic tile with a strong pattern/texture across a whole wall or floor visibly dates within roughly **5–7 years** in his studio's project experience, versus **roughly double that (2×)** for calm/neutral finishes. Use dramatic tile only as a point accent — a feature wall, a shower niche, a fragment behind the tub — not across a whole surface.
+- **⚠️ Max 3 materials/finishes per bathroom**: mixing too many finishes/tones (his example: chrome + gold + matte black + wood together) reads "current" in isolation but overloads the room — the eye never settles on a focal point, worse in small bathrooms where it visibly fragments the space. Recommended structure: **one base material** (e.g. stone), **one accent**, **one detail material**.
+- **⚠️ Dark-tone area-ratio limits, three figures**: dark tones work only as **≤20–30% of surface area** (an accent wall or the shower zone) in bathrooms **under ~5 m²**. **A fully dark room with no natural daylight starts breaking proportion and feeling oppressive from ~6–7 m².** **Fully dark schemes only work well from ~10 m²+**, where enough artificial light and light-toned large surfaces can balance the depth of colour.
+- **⚠️ Bathroom floor tile with excessive small-format joints/grout lines collects grime fastest in the bathroom's high-moisture, high-contaminant environment** (water, soap, shampoo residue, pet hair): **white grout discolours within months; dark grout looks visibly "dirty" even freshly cleaned** — not fully solved even by epoxy grout. **Fix: large-format matte tile with minimal joints** — visually expands a small bathroom while genuinely reducing grime-collection area versus small-format/mosaic tile. From his flooring video, added here as bathroom-specific detail. [source: [[_Sources/YT_GASrPcGISX0_krasnov_worst_flooring|GASrPcGISX0]]]
+
+`single-account`, `unverified`.
 
 ### ⚠️ Shower versus bath — a programme decision, not a preference
 

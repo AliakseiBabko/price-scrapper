@@ -187,6 +187,36 @@ From lagom decluttering literature, and she uses it as the analogy for the whole
 - **"In one evening you can only make a very bad layout"** — furniture scattered with no thought given to the occupants' actual needs.
 - **"Layout is not about an изюминка."** Aimed at people hunting a special twist on 10 m²: **don't reinvent the wheel unless you are a strong architect. Layout is the logic and functionality of space; the twist comes from textiles, decor, or interesting furniture shapes.**
 
+## ⚠️ Planning Sequence and Template-Design Context-Sensitivity (Игорь Краснов, added 2026-09-01, Round 2)
+
+A cluster of methodology content from four videos of this channel's Round 2 — mostly process/methodology rather than room-specific, matching this page's own existing scope.
+
+### Context-sensitivity as a template-design test
+
+[source: [[_Sources/YT_cZcJ4ehcVuQ_krasnov_template_design_signs|cZcJ4ehcVuQ]]]
+
+- **⚠️ A city apartment interior should serve a privacy/quiet-refuge scenario; a country house should serve a nature-connection/openness scenario.** Using an identical design language for both regardless of location is a template-design tell. Extends further: **south-facing orientation needs sun/glare protection, north-facing needs warmer textures and more deliberate lighting**; building context (historic building vs. new "club" development vs. countryside cottage) calls for a different architectural language in each case.
+- **⚠️ Engineering/MEP treated as real design work, not background** — HVAC/duct routing, lighting-scenario/switch-group planning, and socket placement should be resolved during working-drawing design, not left generic. Cites unnamed "research" claiming comfort is driven more by acoustics/light/ventilation/stable temperature than by finish materials or floor area — recorded as his claim, `unverified`, no source named.
+- **⚠️ Named the current (as of 2025) "trend uniform" applied formulaically**: warm grey walls + black/white-veined marble (active veining), perimeter track lighting, matte beige kitchen facades with brass hardware, microcement/decorative-concrete-look finish, edge-lighting under every cornice/niche/shelf. His explicit point: these elements aren't individually bad — they become "template" only when stacked together without an underlying concept.
+
+### The trend-cycle-as-fast-fashion thesis, and its illustrative anecdotes
+
+[source: [[_Sources/YT_KUvcN-AqdZg_krasnov_stop_paying_designers|KUvcN-AqdZg]]]
+
+- **⚠️ Trend cycle has accelerated to roughly every 2–3 years** (contrasted with beige interiors of the 2000s or stretch ceilings lasting a decade-plus) — his stated, unverified observation that mainstream interior trends now behave like fast fashion, becoming visible "time-stamp" markers of exactly when a renovation was done.
+- **Wood-slat accent walls ("рейки") named as a trend that peaked ~2018–2020 and now reads visually dated** — a concrete example of the mechanism; **a template element can still work if placed in a genuinely personal context rather than copied wholesale**, though he still advises against reusing slat walls right now given how recently the trend ended.
+- **⚠️ Two secondhand-cited anecdotes, NOT independently verified, NOT his own data**: (1) a 2023 Black Sea wine forum in Sochi, cited from a different YouTube channel ("Такое вино") — a ~200,000 RUB French wine, re-labeled with a fictional generic name, was blind-tasted by experts who rated it 400–1,000 RUB and described it as flat/empty; (2) a Paris Fashion Week story — a blogger distributed plain supermarket jeans that were mistaken for a designer item purely due to context/setting. Both illustrate how visual/branding expectation biases perceived quality independent of actual execution — flag as secondhand/illustrative whenever cited, never attribute to Krasnov as his own research.
+
+### Planning-sequence discipline
+
+[source: [[_Sources/YT_Z29a16kpLVc_krasnov_interior_wont_work|Z29a16kpLVc]]]
+
+- **⚠️ ~95% of key design decisions should be locked before construction begins** — his stated rule of thumb, framed as the alternative to reactive, on-site decision-making that causes budget/schedule overruns. Recorded as his claim/heuristic, not a verified industry statistic.
+- **A moodboard/inspiration board is a "direction," not a build-ready instruction** — a full visualization or scaled technical drawing is necessary before construction starts because material/scale conflicts only surface once ideas are drawn to real dimensions. A genuinely useful planning-sequence point independent of which studio (or none) executes it.
+- **⚠️ A specific real-project cautionary case**: a ~350 m² house near St. Petersburg left one large room without a planned usage scenario ("we'll figure something out later") despite ample storage elsewhere in the house — within a couple of years it became a junk/storage room. Argues every room needs an explicit intended-use scenario at the design stage, not just a floor plan, or it defaults to junk storage regardless of available storage capacity elsewhere. Flagged as single-account/his-own-cited project, not independently verified.
+
+`single-account`, `unverified` throughout this section. **Cross-check against `11_Budget_and_Planning/Budgeting_Guide.md`** for this same round's price-per-m²-is-misleading caution, which sits better on that page given its direct budgeting framing.
+
 ## ⚠️ What "Zoning" Actually Means — a Test This Page's Plans Should Be Audited Against (Надежда Кузина, added 2026-09-01)
 
 The most load-bearing definition to arrive on this page. Prompted by a real consultation: clients wanted a **13 m²** children's room "zoned" into sleeping, changing, play and work areas. Her answer was that it does not fit — **"и так не бывает."** [source: [[_Sources/YT_Oy_eTelj-X0_kuzina_home_workspace|YT_Oy_eTelj-X0]]]

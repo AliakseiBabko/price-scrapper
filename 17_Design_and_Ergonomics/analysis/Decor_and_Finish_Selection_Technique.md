@@ -369,3 +369,50 @@ From the basic-elements source, and these are the parts of it that are not alrea
 ### An observation about portfolios versus living
 
 **⚠️ Almost all her clients want open shelves in the project, because they decorate beautifully and photograph well — "но никто не хочет" live with them. Everyone wants closed shelves behind doors so the dust need not be wiped.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+## ⚠️ Hardware Finish Durability, Faux-Material Tells, and Entryway Pouf Placement (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]
+
+- **⚠️ Hardware finish durability**: matte finishes — brass, bronze, nickel — age well and don't lose their look, versus glossy/"rhinestone"-finish hardware which loses its sheen within a couple of months, scratches, and (for gold-look plastic) visibly reveals itself as fake metal. Applies to door handles, kitchen cabinet handles, bathroom hardware generally. If real gold/brass is wanted, buy the real material rather than a glossy imitation.
+- **⚠️ Faux-material tells, three named — a general material-honesty checklist**: (1) tile imitating stone/wood/marble with a visibly repeating pattern (e.g. only 2–3 unique tile faces) or an unnaturally small format reads as fake immediately; (2) laminate/quartz-vinyl **without a bevel edge** risks reading as linoleum, since there's no surface texture break between planks; (3) an LDSP kitchen countertop imitating stone/marble is exposed by touch — it feels warm, where stone reads cool. His own studio's practice: use substitute materials only in low-visibility or heavy-wear zones, and only genuinely good-quality modern versions — not a blanket ban on synthetic materials.
+- **Entryway pouf-under-console placement**: a Pinterest staple that fails in daily use — pulling the pouf out from under the console every time to sit down is inconvenient enough that it migrates around the room instead of returning to its spot. **Fix: give the pouf its own dedicated spot beside the console, not underneath it**, if it will genuinely be used daily.
+
+`single-account`, `unverified`.
+
+## Round 2 — Declutter Discipline, Theme Restraint, Artwork Placement (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_4UJIa7eVlYo_krasnov_living_room_mistakes|4UJIa7eVlYo]]]
+
+- **Declutter filter**: identify items that have lost function/relevance but are kept anyway; ask directly whether an item is still used or brings joy — a recognizable KonMari-adjacent framing, attributed here as his own stated heuristic, not implied original.
+- **Avoid impulse furniture/decor purchases disconnected from an overall plan** — an appealing piece bought in-store that then clashes at home. **Fix: define palette, materials, and textures FIRST**, then select new pieces to match.
+- **Avoid literal/on-the-nose theme decor** (his example: an all-nautical room with anchors, all-blue palette, beach signage everywhere) — reads overloaded and unsophisticated. **Fix: evoke a theme through palette/texture** rather than literal props; small thematic accents are fine in moderation.
+- **⚠️ Artwork placement cluster**: hang art with the piece's centre at roughly eye level, **≈150 cm from the floor** — named as the most common art-placement mistake when ignored. **Match artwork scale to wall scale** — small art on a large wall reads lost; use large pieces, or a balanced multi-piece composition, on big walls. **Match art style to room style**: abstract/minimalist for modern rooms, traditional framed pieces with recognizable subjects for classical rooms. *(Compare Надежда Кузина's eye-level rule above in the "Art hung too high" section — same principle, independently converging from a second channel; her qualifier that the eye level is the actual occupants', "не Дяди Стёпы," is worth keeping alongside this figure.)*
+
+`single-account`, `unverified`.
+
+## Round 2 — Natural Materials, Texture, and Curves-vs-Angles (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_ufKHek_TU30_krasnov_8_comfort_principles|ufKHek_TU30]], [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]]
+
+- **⚠️ Natural materials (wood, stone/marble/terrazzo, cork, woven natural-fiber baskets/rugs) read as calming via an evolutionary "connection to nature" framing** — subconscious association with forest/mountain/field environments. **Cites Peter Zumthor's writing on atmosphere as an explicit reference**: atmosphere is the interaction of light, material, sound, temperature, scale, and duration of stay — a real, nameable citation worth preserving. Balance warm natural materials against cold materials (metal, glass, mirrors); cold materials alone read "chic" but sterile.
+- **⚠️ Texture variety is necessary even within a minimalist palette** — flat/textureless surfaces read as visually "empty"/fatiguing. Recommends combining wood + stone + glass + metal, and limewash paint ("известковая краска") for a "living," unevenly textured wall finish. *(The raking-light-on-textured-surface lighting technique from the same source is recorded on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]], not duplicated here.)*
+- **⚠️ Soften "cold" materials (glass, MDF, metal) by substituting or layering in soft materials** — a pouf instead of a hard side table, throws/cushions added, mixing smooth/velvet/rough/knit textures together rather than one uniform textile finish.
+- **⚠️ Balance sharp rectilinear forms with at least one or two rounded/curved elements** — a styling-coherence rule. **The psychology-mechanism version of the same idea (curves read as calm/enclosing because nature has few straight lines; angles read as energetic/status but carry a child-safety caveat) is recorded on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]** — cross-reference rather than merge; this entry is the styling-coherence framing, that one is the mechanism.
+- **⚠️ Pillow-insert oversizing technique**: when buying a pillow cover and insert separately, buy an insert slightly LARGER than the cover's stated size so the finished pillow looks fuller/plumper rather than flat — a specific, checkable styling tip.
+- **⚠️ Cable management**: visible cable clutter (behind a TV, at a desk) instantly undercuts a premium look; use cable trays/channels/raceways matched to the room's style, hidden behind furniture or routed inside walls.
+- **Secondhand/vintage sourcing** (flea markets, Avito-equivalent resale platforms) as a legitimate route to a unique statement piece.
+- **⚠️ Custom/handmade/small-studio pieces (ceramics, lighting, textiles, art) create a "premium" read via genuine scarcity/craftsmanship** that mass-produced goods cannot replicate — a real, extractable claim about *why* bespoke/limited-production goods read as higher-status.
+- **One or two deliberate "wow" focal accents** (an oversized statement light fixture, a fireplace, a large art piece) elevate perceived status — pick a small number, not many. **Frame artwork properly** (a substantial mat/frame, not a bare canvas) for a more "finished"/gallery look.
+- **Tall potted plants in room corners add volume/life** — named species tolerating typical indoor conditions well: **ficus lyrata (fiddle-leaf fig), ficus elastica (rubber plant), sansevieria (snake plant), olive tree.** *(Compare Мария Шеврина / SMBUREAU's mid-century plant-species list above — olive tree for strict minimalism, ficus lyrata/monstera for mid-century — a partially overlapping but independently-sourced species list.)*
+
+`single-account`, `unverified`.
+
+## Round 2 — Furniture-Quality Baseline and Scent Placement (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_dHpdI35EWY8_krasnov_5star_hotel_secrets|dHpdI35EWY8]]]
+
+- **⚠️ Furniture-quality-baseline heuristic**: a hotel's supportive high headboard and thick quality mattress-plus-topper is offered as a proxy standard for ALL furniture quality in a home — supportive upholstery, sturdy non-wobbling tables, hardware without play/creak. Distinct from the general "use natural materials" point above — this is about structural/build quality rather than material choice.
+- **Scent-placement nuance**: recommends a candle/diffuser scent specifically for the living room and bedroom, but explicitly advises AGAINST one in the kitchen, since cooking smells already dominate that space. Extends [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]'s brief same-round scent mention with this placement caveat.
+
+`single-account`, `unverified`.

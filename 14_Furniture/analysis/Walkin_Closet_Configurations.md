@@ -39,3 +39,7 @@ Part of [[14_Furniture/Wardrobes_and_Storage|Wardrobes & Storage]].
 ## Island Units for Large Walk-Ins (Konstantin Kruglov / Ontario, added 2026-08-28)
 
 **A freestanding central island (like a kitchen island), used for watches, wallets, belts, and small accessories, is only proposed for walk-ins of ~10m² or more** — Kruglov's own explicit floor: below that size there simply isn't room to add a central fixture without blocking circulation. `single-account`, `unverified`. [source: [[_Sources/YT_2rU14i9NqOk_kruglov_walkin_closet_dream_guide|YT_2rU14i9NqOk]]]
+
+## Master-Suite Bathe-Dress-Exit Flow — an Honest Compromise Admission (Игорь Краснов, added 2026-09-01)
+
+**A proper master-suite flow is the ideal — bathe, then dress in an adjoining walk-in, then exit already dressed — but is often a real compromise even for a design professional's own home.** Krasnov states his own flat, despite its size, lacks a true master-suite adjacency: he must walk the length of the apartment between the shower and the walk-in closet, and says he would design the layout differently if starting from scratch. Recorded as a rare honest admission that even a practitioner's own home reflects a real planning tradeoff, not a showcase of the textbook ideal. `single-account`, `unverified`. [source: [[_Sources/YT_6ttTd82TWPM_krasnov_closets_wasting_space|6ttTd82TWPM]]]

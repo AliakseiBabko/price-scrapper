@@ -5,6 +5,10 @@ clearances — nightstands, wardrobes, and supplementary storage — from
 Anuta Vlady's subscriber-makeover batch (all real cases, 14-43m²
 rooms).
 
+## Bed Clearance on Both Sides (Игорь Краснов, added 2026-09-01)
+
+**Avoid pushing the bed into a corner/against both side walls with no clearance** — leave usable space on both sides for getting in/out and bedside-table access. `single-account`, `unverified`. **This source is honestly thinner and more generic than this round's other seven videos** (comedic-listicle format, few hard numbers) — this is one of only two genuinely new, checkable items it contributes; see the extraction note's Source Metadata section for the full caveat. [source: [[_Sources/YT_gGII-GzuDUg_krasnov_bedroom_7mistakes|gGII-GzuDUg]]]
+
 ## Nightstands
 
 - **⚠️ Bedside-table sizing constraint under real space pressure**: when

@@ -20,6 +20,23 @@ Konstantin Kruglov / Ontario supports the `YT_9dfEdjOewng...` claims; Zemstandar
 - **A recessed/built-in mixer with a thermostat needs the wall cavity to be more than ~100-120mm deep.** If a load-bearing wall sits directly behind the planned mixer location, that wall must be furred out to accommodate this — which can shrink the room by as much as ~12cm, since chasing a load-bearing wall to recess the mixer instead isn't permitted. Confirm what's behind the wall before specifying a recessed thermostatic mixer in a tight room.
 - **Zemskov's mixer-placement rule**: match the client's dominant hand — when washing soap out of your eyes, you find the tap by feel with your dominant hand, so place the mixer on that side. (Corroborates a handedness-based placement pattern seen elsewhere in this store — hygienic shower, wardrobe zones.)
 
+## ⚠️ Perspectives — Black vs. Chrome Fixtures: Which Shows Fewer Marks? (added 2026-09-01)
+
+Two named practitioners give **opposite** answers to the same practical question, each from their own stated experience — genuine disagreement, not resolved here.
+
+| Source | Position | Stated reasoning |
+| :--- | :--- | :--- |
+| Konstantin Kruglov / Ontario (existing content above) | **Chrome shows the fewest marks**; recommends against black outright unless prepared for the maintenance burden | Black shows every water spot and mark; a cheap black coating wears visibly within a short time |
+| Игорь Краснов / Студия Краснов | **Black shows fewer toothpaste/residue marks than chrome**, in his own stated observation — explicitly disagreeing with the common claim that chrome hides marks better | His own practitioner observation, offered as a deliberate contrarian point ("а вообще, друзья... на чёрной сантехнике... следы... видны больше, чем нежели на хромированной... я с этим не согласен") |
+
+**Common Ground.** Both agree cheap/no-name black fixtures degrade fast — Krasnov states an unbranded black finish visibly peels within **1–1.5 years**, closely matching Ontario's existing "cheap black coating wears visibly within a short time" caution. Both also agree coloured/black fixtures cost meaningfully more than chrome or white — Krasnov's figure: **roughly double.**
+
+**Deciding factor neither source resolves**: whether toothpaste/residue marks or water-spot marks are the more relevant nuisance for this household's actual bathroom use — the two practitioners appear to be weighting different mark types (water-spot vs. toothpaste-residue) without saying so explicitly, which may explain the disagreement without either being simply wrong.
+
+**Your Priority: not yet decided.**
+
+[source: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]]]
+
 ## Mixer Shape & a 2024-2025 Trend (added 2026-08-24, Round 2)
 
 Konstantin Kruglov / Ontario says: **mixer shape (round vs. flat) affects visible-mark accumulation independently of color/finish** — a flat-profile mixer shows fingerprints and dried-water marks more readily than a round one of the same finish, since a flat surface presents a larger uninterrupted plane for marks to register on. This nuances (not contradicts) this page's existing chrome-finish guidance above: chrome is the most forgiving finish for *water-spot* marks specifically, but flat/glossy chrome is markedly bad for showing *fingerprints* — different residue types, not a real disagreement. **Satin, specifically an aluminum-toned satin finish, is named as one of the best color/finish choices overall** — hides both fingerprints and dried-water marks better than chrome, black, or white; matte finishes generally show the least residue of any category.
@@ -92,6 +109,25 @@ Use the named extraction-note channel for each source-marked sink block; unlinke
 Konstantin Kruglov / Ontario says: **glossy sink surfaces accumulate visibly more residue than a glossy mixer of the same finish**, purely from the sink's much larger surface area. **A round, dark, low-glare micro-sink paired with a round dark mixer is specifically recommended for a small guest WC** with only a wall-hung toilet, sink, and hygienic shower — minimal flat surface for fingerprints, minimal standing-water pooling. **A white integrated one-piece stone sink+countertop specifically stains/marks badly and may periodically need professional polishing** to restore its factory-new look — beyond this page's existing general colored/textured-finish guidance. **A rounded integrated sink+countertop with a raised lip/edge on both sides creates two hard-to-clean interior corners** unless the raised edge serves a genuine functional purpose. **A deep sink in a small bathroom/WC is impractical**: a deep basin plus its required siphon can add up to roughly 30cm of total under-counter depth.
 
 **Drain-overflow (слив-перелив) mechanism: cleaning access and replacement access are two distinct problems, and solving the first doesn't solve the second.** An externally-accessible cleanout design solves routine cleaning, but **replacing the mechanism entirely still requires disassembling the tub/apron/vanity regardless of cleanout access** — and if the wall behind the tub backs onto a neighboring unit with no access from that side, a failure (which can occur anywhere from a month to 5-10 years after installation, e.g. from a bad gasket) forces tearing out much of the bathroom to reach it. [source: [[_Sources/YT_55zALDsXP2E_kruglov_pinterest_plumbing_review|55zALDsXP2E_kruglov_pinterest_plumbing_review]]]
+
+## Mirror-to-Sink Gap, and Glass Shelf Maintenance (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]
+
+- **⚠️ Leave a 15–20 cm gap between a wall mirror and a sink** — a mirror mounted flush against the sink looks clean in photos but collects water-spot and soap-residue splash from normal handwashing/face-washing within days, needing near-daily wiping. The gap also adds a sense of depth/space. **Notes the flush-mirror "Pinterest" look only really works with daily household cleaning staff** — a legitimate but different life-pattern choice, not a universal fix; his own framing is that no finish choice here is wrong in itself, only wrong for a household without the matching cleaning routine.
+- **Bathroom glass shelves show water spots, soap residue, and handprints almost immediately** — daily cleaning or living with a look of neglect are the only options. **Alternative: shelves in tile matching the wall, or quality-coated metal** — hold a clean appearance longer with less maintenance. Corroborates this page's existing glossy/high-maintenance-surface cautions elsewhere in this vault.
+
+`single-account`, `unverified`.
+
+## ⚠️ Sink Type Default, Faucet Spout Reach, and Mirror Sizing (Игорь Краснов, added 2026-09-01)
+
+[sources: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]], [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
+
+- **⚠️ Default recommendation: an inset sink filling the full width of a wall-hung vanity** — sufficient for handwashing/teeth-cleaning/makeup removal, and the safest choice against sizing mistakes. **Avoid small-diameter round vessel/overmount sinks**: often too small a bowl diameter for comfortable use, and a common installer error is hanging the vanity at the "correct" reference height without accounting for the extra height a raised bowl adds — leaving the user reaching upward to wash hands.
+- **⚠️ Faucet spout reach must match the raised-bowl geometry**: with concealed/in-wall plumbing (fixed wall-mounted spout position), a vessel bowl can end up with the spout almost touching the rim, making hand-washing impractical — a real case cited from an acquaintance's home. **Separately, faucet spout "throw" (вынос) must match basin depth**: depending on how deep/shallow the basin is, the water stream can land centred or too close to one edge, causing splashing over the basin edge — check/adjust so the stream lands centred. Corroborates and restates this page's existing built-in-mixer depth caution above from a sink-specific angle.
+- **⚠️ Mirror sizing rules, three figures (Round `ThgEv7FWNeE`)**: **width ≥ sink width, minus at most 5–10 cm per side** — a mirror narrower than the sink, or hung with a large offset above it, breaks proportion and reads generic. **Bottom edge at roughly 110–120 cm from floor**, giving an average-height user a correctly-framed reflection. **Top edge should reach the tallest household member's eye level, typically 180–200 cm from floor.** A correctly-sized mirror also works architecturally — raises perceived ceiling height, adds depth. Full-height (floor/countertop-to-ceiling) mirrors are a distinct, deliberate design move, not bound by the standard proportions above.
+
+`single-account`, `unverified`.
 
 ## Height-Linked Fixture Sizing & Hygienic-Shower Handedness Mechanism (added 2026-08-19, remainder-pool Round 2)
 

@@ -163,6 +163,17 @@ The full low-ceiling strategy is on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ce
 - **⚠️ Do not use a pelmet («ламбрекен»), and probably not tie-backs («подхваты»).** Emphasise falling fabric with **vertical folds**, which add vertical lines.
 - **In the worked example she closes on**, the curtains and their fixing are both hidden in a niche, so the fabric reads unbroken to the ceiling and its reflection in a glossy ceiling continues upward — one of five stacked techniques making the room read "просто в два раза выше."
 
+## Floor-Length Curtains, Fabric Weight, and Drapery Width (Игорь Краснов, added 2026-09-01, Round 2)
+
+[source: [[_Sources/YT_4UJIa7eVlYo_krasnov_living_room_mistakes|4UJIa7eVlYo]], [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]]
+
+- **Floor-to-ceiling curtains create one continuous vertical line**, reinforcing a sense of height/wholeness; short curtains visually cut the room, making walls read lower than they are. Where short curtains are chosen for a practical reason (pets, small children), **prefer roller/roman/venetian blinds instead.**
+- **Heavy/quality fabric drapes better and holds a fold**; light fabric drapes poorly and won't fall cleanly to the floor.
+- **⚠️ Drapery width specification: fabric width should be roughly 2× the window's own width** to achieve proper deep, even folds — a specific numeric figure toward the lower-middle of this page's existing 1.5–2.5× gather-ratio-coefficient range above (BOROSA GROUP), and independently arriving at 2× for a "premium" full-drape look rather than a coefficient tied to header type.
+- **⚠️ Mount the rod/track near the ceiling, or use a concealed shadow-gap ceiling-recessed track («теневой карниз»)** — corroborates this page's existing Кузина shadow-gap-track content above, from an independent channel.
+
+`single-account`, `unverified`.
+
 ## Curtain Selection and Sizing Rules (added 2026-08-25, Sergey Kodolov)
 
 - **Avoid heavy multi-layer baroque-style drapery** (large rosettes/

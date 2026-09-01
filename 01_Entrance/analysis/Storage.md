@@ -166,6 +166,10 @@ wall space alone:
 
 **Extends the existing robot-vacuum-compatible shoe-podium note above (from `qt5mQQ6W6Z4`) with a concrete height figure and a routine**: raise the shoe shelf roughly **10cm** above the main floor level specifically so a robot vacuum can run underneath without needing shoes moved first. Recommended routine: before a cleaning run, wipe the shelf itself with a cloth so the robot vacuum then clears whatever dust was swept off it onto the floor below, rather than just running around already-parked shoes. [source: [[_Sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
 
+## ⚠️ Heated Floor Under a Floating Shoe Cabinet (Игорь Краснов, added 2026-09-01)
+
+**Hide shoes behind closed cabinet doors** (not an open shelf/rack — described as visually chaotic with mismatched shoe shapes/sizes) **and combine with underfloor heating across the entryway/hallway zone**, including running the heated floor **under a "floating" (wall-bracket-mounted) shoe cabinet** so shoes stored beneath sit on a warm floor rather than a cold one — addresses the specific climate problem of shoes arriving wet/cold/snow-covered for most of the year. Requires detailed coordination with the cabinet manufacturer at design stage (bracket engineering, floor-heating layout) rather than an afterthought. **Complements this page's existing robot-vacuum-compatible raised-shelf note above** (Kruglov, `qt5mQQ6W6Z4`/`iEm_mwCJpfA`) — both raise the shoe storage off the main floor, but for different reasons (robot-vacuum clearance vs. heated-floor warmth) and via different mechanisms (a fixed ~10cm platform vs. a full floating cabinet on brackets). `single-account`, `unverified`. [source: [[_Sources/YT_6ttTd82TWPM_krasnov_closets_wasting_space|6ttTd82TWPM]]]
+
 ## Security / Smart-Home (Kruglov)
 
 - A video door intercom or peephole camera; a door-open sensor integrated
