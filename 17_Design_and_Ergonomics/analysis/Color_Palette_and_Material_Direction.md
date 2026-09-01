@@ -236,3 +236,42 @@ Two practitioners already in this vault, agreeing on the envelope and disagreein
 **⚠️ A separate correction from Кузина that neither the received advice nor the table above captures: a monochrome palette does not have to be light.** "Монохромная палитра не означает чёрно-белое, это просто означает, что цвет должен быть один." Her example is a blue bedroom, tone-on-tone across bedspread, headboard and wall, with small cushion accents differing in both lightness and colour. **This aligns with her separate rejection of "light colours enlarge a room" as a cliché, recorded above.**
 
 **Your Priority: not yet decided.** Both positions are compatible with the envelope decisions this project has already made; the accent question only becomes live once a specific room's furnishings are being chosen. [source: [[_Sources/YT_E6nYBdz9NhM_kuzina_small_apartment_rebuttal|YT_E6nYBdz9NhM]]]
+
+## ⚠️ Maximising Daylight Converges on a Generic Result — the Same Argument, Applied to Light (Надежда Кузина, added 2026-09-01)
+
+Extends the small-flat Perspectives block above rather than opening a new one: this is Кузина's identical move applied to daylight instead of to scale. She delivers the conventional light-maximising advice competently, marks where it ends, and then asks whether following it produces an interior anyone wants. [source: [[_Sources/YT_gwa1wsTYYLE_kuzina_natural_light_rebuttal|YT_gwa1wsTYYLE]]]
+
+**The conventional advice, recorded because it is sound as far as it goes**: lighter walls reflect more light, so **white walls are the best choice for a dark room** — she is candid that all-white interiors are not to her taste but concedes the technique works. **Textured walls and concrete-effect plaster absorb more than they reflect.** **A natural palette is enough; not everything must be white**, and the result reads more homely. Minimise ornament — no wall ornament, no accent wall; **if you want ornament, put it in a more interesting rug instead.**
+
+**⚠️ She pushes back on the "matte walls only" rule** repeated online: if gloss is acceptable on decor, furniture and light fittings, there is no reason it cannot go on a wall. *"Конечно же можно, просто это сложно."* Permitted, but demanding.
+
+**⚠️ Her critique of her own list, which is the load-bearing part.** Follow every recommendation seriously and you most likely get **the interior Russians commonly end up with whether or not they hired a designer**: creamy beige, no decor, no ornament, meagre textile, light floors, mirrors opposite the windows. It will certainly maximise natural light. Her question — *"Стоит ли борьба за естественный свет того, чтобы решать её таким способом?"* — she leaves genuinely open and puts to viewers.
+
+**The part she does commit to**: **"недостаток света — это недостаток, но это не конец света."** Defects should be corrected by design, **but not at the expense of other parameters. Maximising natural light does not by itself produce a good interior.**
+
+### ⚠️ Her way out — texture and form, and the cost asymmetry that comes with it
+
+- **Contemporary meets most of the criteria and still has texture**, which is the secret.
+- **⚠️ The model, stated compactly: the two main design parameters are texture and form.** If light and dark cannot be played with — because everything must stay light — **only texture and form remain**, and the form then has to be sculptural, non-banal, preferably flowing.
+- **⚠️ The cost consequence, rarely admitted this plainly: this route is more expensive, but not uniformly.** *"Синяя краска или белая краска — цена примерно одинаковая, но скульптурный стульчик и обычный стульчик — цена скорее всего будет разная."* **Colour decisions are close to cost-neutral; form decisions are not.**
+- Her own caution on her own recommendation: sculptural furniture is often made so that **it is nicer to look at than to sit on.**
+
+## The Typical-Project Palette, Written Down (Надежда Кузина, added 2026-09-01)
+
+The satirical companion to the block above — she reverse-engineered the recipe that makes Russian design portfolios converge, and it is a usable negative specification: **if you want the flat not to read generic, these are the exact points where it shows.** [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+**⚠️ Her governing claim: "в типовом проекте стиля как такового нет."** There is only *slightly more classical* or *slightly more contemporary*, and **the same treatment applies identically to living room, kitchen and bedroom** (bathrooms excluded). She notes the consequence for anyone taking a design course to learn styles: that knowledge will not be used here.
+
+| Element | The typical specification |
+| :--- | :--- |
+| Kitchen fronts | Matte, plain, enamel or foil — **cream, light grey, light beige** |
+| Sofa / bed upholstery | Velvet, light brown / beige / greyish |
+| **Living-room walls** | **Cream and only cream — coloured walls not permitted** |
+| Bedroom walls | Cream or beige. **Exception: the headboard wall may be dusty blue / green / pink** |
+| Rug | Grey, greyish, beige-ish, light brown. **Plain only — ornament forbidden** |
+| **The one bright object** | **The dining chairs** — emerald, blue, dusty blue, dusty pink |
+| Ceiling | **Always flat and white**; a simple white cornice if classical. **No coloured ceilings, no level changes** |
+
+Cushions on the sofa pick up the chair colour when both share a space. The sofa itself is occasionally coloured — usually pale blue, sometimes a barely-readable dusty pink or green. If a coloured headboard wall is too much, put the colour in part of the bedspread or a throw instead.
+
+**Her closing concession, which keeps this honest**: *"типовой проект не значит плохой"* — the designer producing it is serving the request the majority actually has. She then reopens the question she started with: she said there is no style, but a style *is* a set of shared traits, and these interiors share a great many.

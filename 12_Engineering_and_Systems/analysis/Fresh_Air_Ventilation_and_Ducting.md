@@ -265,3 +265,16 @@ Vladimir Amelchenko, demonstrating with two physical fan units opened on camera:
 
 `single-account`, `unverified`, **Russian jurisdiction**. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
 
+## Steam Rooms in a Flat — Humidity Sets the Ventilation Requirement (Надежда Кузина, added 2026-09-01)
+
+A designer's ranking, and it is internally consistent: the humidity order and the ventilation order are the same, which is what makes it usable as a selection rule. Full bathroom context on [[07_Bathroom/analysis/Planning_and_Layout|Bathroom Planning & Layout]], **including the Russian approval regime, which is flagged there as non-transferable.** [source: [[_Sources/YT_dIdcLPKj6is_kuzina_home_spa_bathroom|YT_dIdcLPKj6is]]]
+
+| Type | Humidity | Temperature | Ventilation consequence |
+| :--- | :--- | :--- | :--- |
+| **Infrared cabin** | **no steam at all** | up to 60 °C | **⚠️ Safest option** — nothing to extract |
+| **Finnish sauna** | **up to 15 %** | up to 100 °C | **Natural ventilation may still suffice** |
+| **Hammam / Turkish** | **up to 100 %** | 45–65 °C | **⚠️ Forced ventilation AND natural air supply mandatory** |
+
+- **⚠️ The rule: the higher the humidity, the bigger the ventilation problem — and the failure mode is named. Get it wrong and you get smell, fungus or mould.** Consistent with this page's existing wet-room duct sizing and bathroom exhaust material.
+- **⚠️ The corollary worth carrying to any wet-room decision, not only saunas: choosing the appliance is choosing the ventilation obligation.** An infrared cabin imposes none; a hammam imposes forced extract plus a designed air supply path — which is a duct route, a shaft-capacity question and a ceiling drop, not an accessory.
+- Practitioner-reported figures, not a citation — see the source note on their confidence.

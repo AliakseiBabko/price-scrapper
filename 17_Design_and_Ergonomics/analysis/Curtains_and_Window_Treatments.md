@@ -365,3 +365,20 @@ The full low-ceiling strategy is on [[13_Surfaces_and_Finishes/Ceilings_Guide|Ce
 - **Better still: a ceiling-mounted track**, so the fabric begins at the ceiling. Usually unattractive — which is why niches exist — but tidier versions can be found, **or hide the track behind the fabric's own folds.** This is the right answer where there is no cornice.
 - **⚠️ Do not use a pelmet («ламбрекен»), and probably not tie-backs («подхваты»).** Emphasise falling fabric with **vertical folds**, which add vertical lines.
 - **In the worked example she closes on**, the curtains and their fixing are both hidden in a niche, so the fabric reads unbroken to the ceiling and its reflection in a glossy ceiling continues upward — one of five stacked techniques making the room read "просто в два раза выше."
+
+## Textile Where Daylight Is the Priority — and an Acknowledged Conflict (Надежда Кузина, added 2026-09-01)
+
+[source: [[_Sources/YT_gwa1wsTYYLE_kuzina_natural_light_rebuttal|YT_gwa1wsTYYLE]]]
+
+- **Minimise textile.** Heavy curtains, especially dark ones, weigh the interior down. Choose lighter fabrics working on translucency, **hung without lining** — with her own qualifier that this does not always look good and **depends on the tailoring and the fabric.**
+- **For morning sun, pair them with roller blinds, blackouts or venetian blinds closed in the evening.** The layered pairing this page already recommends, applied to the daylight case.
+- **Other textile eats light too** — several layers of bedding or throws should come down to one.
+- **⚠️ She flags that this contradicts her own zoning advice and does not paper over it**: *"я знаю, что это противоречит тому, что я говорила о зонировании. Ну вот так получилось. Да, такая я противоречивая."* **Recorded as an acknowledged tension between two of her own rules rather than resolved** — layered textile is a zoning device and a light thief at the same time, and which one wins is a per-room decision.
+
+## ⚠️ Judge Patterned Textile in the Room, Not in the Showroom (Надежда Кузина, added 2026-09-01)
+
+From her source on what to carry over from an old flat, but it is a general selection procedure. [source: [[_Sources/YT_bVmE50y33Ls_kuzina_what_to_bring_from_old_flat|YT_bVmE50y33Ls]]]
+
+- **Plain beige curtains are not worth discussing** — bring them or do not, it changes nothing. **The question only arises for patterned textiles.**
+- **⚠️ Two reasons patterned textile carried from another home usually fails**: (1) if the new scheme was designed without accounting for it, it probably will not fit; (2) **the same textile looks different under different lighting and in rooms of different size.**
+- **⚠️ Her standing practice, stated as how her studio actually works and directly adoptable: samples of cushions and curtains are always tried at the client's, never judged in the salon** — because the salon is not where it will hang. Same failure mode as this page's existing in-store sample cautions.

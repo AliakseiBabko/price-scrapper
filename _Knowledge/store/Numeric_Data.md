@@ -294,3 +294,35 @@ From the studio's own bill of quantities. **Region unresolved at level 1** (RUB 
 
 [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
+## Interior-Design Service Fees — Moscow (Надежда Кузина, 2023, added 2026-09-01)
+
+**⚠️ The only design-fee benchmark in this vault.** Moscow named explicitly; scoped to a flat **up to 100 m²**; spoken clearly in the source and the highest-confidence numbers in it.
+
+| Route to deciding how the interior looks | RUB | USD equivalent |
+|---|---:|---:|
+| Buy everything at a shopping centre | no additional outlay | — |
+| **Hire a designer** | **from 200,000** | **~$3,100** |
+| **Take a design course instead** | **150,000–250,000** *plus a lot of the buyer's time* | **~$2,300–$3,800** |
+| Follow her free video recipe | 0 | — |
+
+- **⚠️ 200,000 RUB is a floor («начинается где-то от»), not a typical price**, Moscow-specific and 2023. Not transferable to another city or year without re-resolving.
+- **⚠️ The comparison is the durable content, not either figure: the entry design fee and the cost of learning to do it yourself are the same order of magnitude.**
+
+*USD equivalents: `USD/RUB` trailing 12-month arithmetic mean before 2023-04-20 (2022-04-20..2023-04-20, 248 samples, **65.1704 RUB/USD**), rounded to the nearest 100 per the $1,000–$99,999 bucket.*
+
+[source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+## Decor Objects — the Proportionality Pair (Надежда Кузина, 2020, added 2026-09-01)
+
+**⚠️ Both figures are the speaker's illustrative examples, not quotes or market observations.** They are recorded because the *ratio* carries a rule: **the constraint an object imposes on the plan should be proportional to its value.** Moscow, August 2020.
+
+| Figure | RUB | USD equivalent |
+|---|---:|---:|
+| Cheap reproduction — **should not be allowed to dictate where a cabinet goes** | 2,000 | **~$30** |
+| Rare poster / etching / engraving, plus framing — **earns its place** | 10,000 | **~$150** |
+
+**~5× between the object that fails the test and the object that passes it.** Her criterion for the second: *"эстетическая ценность этого предмета больше, чем его денежная стоимость."*
+
+*USD equivalents: `USD/RUB` trailing 12-month arithmetic mean before 2020-08-21 (2019-08-21..2020-08-21, 244 samples, **67.8098 RUB/USD**), rounded to the nearest 10 per the sub-$1,000 bucket.*
+
+[source: [[_Sources/YT_bVmE50y33Ls_kuzina_what_to_bring_from_old_flat|YT_bVmE50y33Ls]]]

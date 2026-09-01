@@ -219,3 +219,15 @@ Two additions that sit directly against this page's existing sofa-sizing materia
 
 Full treatment in [[14_Furniture/Seating_and_Tables|Seating & Tables]], a new page created the same day. `single-account`, `unverified`. [source: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]]] [source: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
 
+## Only Two Typical Living-Room Layouts, and One Sofa (Надежда Кузина, added 2026-09-01)
+
+Her systematisation of why Russian design portfolios converge. Satirical in delivery, **accurate as a description of the market**, and therefore useful both as a default and as the thing to deviate from deliberately. [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+- **⚠️ One sofa model appears in every typical project: the Lawson.** High legs, removable seat and back cushions, **and the seat is always divided into several cushions.** **The style axis lives entirely in the arms** — more rectangular or square for contemporary, more rounded for classical. Upholstery is velvet in light brown / beige / greyish.
+- **⚠️ Only two layouts exist**:
+  1. **Sofa against a wall** — the wall behind it then gets the moulding-or-slat treatment (see [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]).
+  2. **Sofa in the middle of the room, because the kitchen is combined with the living room.** Same Lawson with an added chaise, **its back dividing kitchen from living zone, with the dining table or bar counter set along that back.** Compare this page's existing furniture-toward-the-centre material and [[04_Living_and_Dining_Room/analysis/Kitchen_Living_Zoning|Kitchen-Living Zoning]].
+- **Coffee table: usually round**; base gold or brass for classical, black for contemporary.
+- **TV unit: a low elongated rectangle with flat or slatted fronts**, optionally joined to a floor-to-ceiling flat-fronted cabinet. **The TV wall opposite is treated exactly like the sofa wall**, with natural stone or large-format marble-effect porcelain added in more expensive projects.
+- **A bedroom TV zone looks identical**, except the cabinet may be a dressing table instead.
+- **⚠️ The one bright object in the whole scheme is the dining chairs** — emerald, blue, dusty blue or dusty pink; if they are grey or beige instead, **nothing in the room is the bright piece.** Cushions on the sofa pick up the chair colour when both share a space.

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=zrnhNEgk-Sk",
+  "video_id": "zrnhNEgk-Sk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T08:59:07.043131+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "2a9e18fd1f88d3dbd0988d7e6b8638c8cbb9afedb1bba2b9b7ba3faed4120a1b",
+  "attempts_before_success": []
+}
