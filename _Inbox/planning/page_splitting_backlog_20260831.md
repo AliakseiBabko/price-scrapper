@@ -92,3 +92,43 @@ Round 2 added substantial content to three pages already on this backlog, and cr
 - **`Neutrals_and_Earth_Tone_Palettes.md`** and **`Doors_and_Trim.md`** also grew but remain coherent single topics.
 
 **⚠️ Neither round attempted a split.** Splitting is the deliberate, verify-afterwards operation this file already describes, and doing it mid-intake would have mixed two kinds of change in one commit. **Recorded here rather than silently deferred.**
+
+## Split pass 2, 2026-09-01 — the three pages Кузина Rounds 1–3 had pushed over
+
+The three worst pages on the list were split, and **for the first time the flagged count went down as a result of splitting**: **23 → 21**, across 209 → 219 pages. That is the recalibrated thresholds doing exactly what they were recalibrated for — none of the ten pages created here trips the checker.
+
+| Page | Was | Became |
+| :--- | :--- | :--- |
+| `17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md` | 691 lines, 38 sections | Parent (333) + Combining Finishes — Wood, Metal and Gloss (97) + Accent Walls & Pattern Combination (98), with furniture content moved into `14_Furniture/analysis/Loose_Furniture_Selection_Principles.md`, panel content into `13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels.md`, and a full curtain rule set into the curtains page |
+| `17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments.md` | 439 lines, 22 sections *(after receiving the above)* | Parent (118) + Curtain Fabric, Colour & Pattern (117) + Curtain Sizing, Mounting & Hardware (217) |
+| `17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement.md` | 696 lines, 24 sections | Parent (280) + Whole-Home Planning Method (220) + Difficult Room Shapes & Proportion Remedies (143) + `14_Furniture/analysis/Household_Storage_and_Decluttering_Method.md` (74) |
+| `07_Bathroom/analysis/Tile_Selection_and_Layout.md` | 690 lines, 36 sections | Parent (231) + Tile Installation, Sequencing & Acceptance (228) + Tile Cutting, Handling & Special Formats (160) + Tile Grout Selection & Protection (88) |
+
+**Every section moved verbatim, verified mechanically per split: 0 non-empty content lines lost across all four** (532, 376, 560 and 547 original lines respectively, each checked line-by-line against the union of the resulting files). A verbatim split cannot change a fact, a figure or an attribution — the only reviewable question left is whether a section landed on the right page.
+
+### ⚠️ Two filing errors surfaced by the split, both fixed
+
+**1. A full curtain rule set was living on a finishes page.** `Decor_and_Finish_Selection_Technique.md` carried 52 lines of Kodolov's curtain-rod, length, fullness-coefficient and fabric-print rules under its own heading, while `Curtains_and_Window_Treatments.md` existed and did not have them. Moved. **This is the failure mode the splits keep exposing: content is filed where the batch that produced it happened to be working, not where a reader would look for it.**
+
+**2. Four unrelated Anuta Vlady rules had been wedged beneath that curtain heading** since 2026-08-25 — mixing classic and contemporary at the piece level, sourcing upholstery colour from a rug's full palette, a venetian-blind maintenance comparison, and combining two small decor pieces into one frame. They were under a curtain heading, on a finishes page, and none of them is about curtains. Moved to the furniture page with the blind point cross-referenced from the curtains page.
+
+### What is still flagged, and the judgement on each
+
+**Deliberately left flagged rather than excepted:**
+
+- **`Decor_and_Finish_Selection_Technique.md` (333 lines, 21 sections)** — much improved, but 21 sections is still a real topic count. A future pass could carve out the refinishing/disguise material (the Dubai case is 47 lines on its own) and the Petrishin practicality rationale (48). **Not done here because the page is now coherent and the marginal gain is small** — this is the point past which splitting starts producing stubs.
+- **`Functional_Zoning_and_Furniture_Arrangement.md` (280 lines, 12 sections)** — sits exactly on the cluster threshold. Its largest remaining block is the 77-line partition inventory, which overlaps [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]] (591 lines, still #1 on the remaining list). **Those two should be reconciled together, not split apart separately** — that is a merge-and-redistribute job, not a split.
+
+**No exceptions were added to `tools/page_size_exceptions.json`.** The count is only useful while every entry in it is a real judgement, and neither of the two above is settled enough to record as "fine forever."
+
+### Remaining backlog — 21 pages, updated priority
+
+**Split next:**
+
+1. `03_Kitchen/Kitchen_Furniture.md` (568 lines, **38 sections**) — now the worst page in the vault by section count, and a *guide* page carrying detail it should have delegated long ago. It was #1 on the previous pass's list and is still untouched.
+2. `12_Engineering_and_Systems/analysis/Soundproofing.md` (483, 17) and `13_Surfaces_and_Finishes/Ceilings_Guide.md` (486, 21) — the two largest remaining after that.
+3. `17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms.md` (591, 17) — **but see the note above: reconcile with the zoning page's partition inventory rather than splitting in isolation.**
+
+**⚠️ Still owed by hand, still not done:** the `Lighting_Design.md` merge. It is now **390 lines / 31 sections** — it has grown in both dimensions since it was first identified as the fragmented case, because three intake rounds each added content to it. **Merging 31 stub sections means rewriting prose, which is the one operation in this area that can lose a fact**, so it must be done deliberately and checked against the source notes. It is the oldest unpaid debt on this list.
+
+**Convention confirmed again**: the batch-appends-its-own-dated-heading habit is what produces both failure modes. The one-top-level-heading-per-source-with-`###`-subsections rule adopted after Кузина Round 1 held through Rounds 2 and 3 and is why these three pages were *oversized* rather than *fragmented* — which is the tractable problem of the two.

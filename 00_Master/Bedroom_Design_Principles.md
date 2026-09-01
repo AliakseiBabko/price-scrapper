@@ -646,7 +646,7 @@ sources are excluded as branded promotion. [source: [[_Sources/YT_ldTVukHRIR0_ka
 
 ## Bedroom Dimensions and Clearances (source: `Rcd9gkPC6CI`, Надежда Кузина, added 2026-08-31)
 
-From a 78-minute planning lecture with an extended Q&A. The general planning method — the verb list, the Neufert +10/15/20% correction, room shape and axes — is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]] and applies to everything below. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
+From a 78-minute planning lecture with an extended Q&A. The general planning method — the verb list, the Neufert +10/15/20% correction, room shape and axes — is on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]] and applies to everything below. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
 
 ### The dimensional chain
 

@@ -129,3 +129,49 @@ existing "Polyurethane / thermoplastic polymer" material row above).
   targeted Small Bedroom intake batch.
 - 2026-08-24: Page created from the first dedicated source on this sub-topic
   (Kruglov/Ontario Round 5, `qzi1LqwsP5k`).
+
+<!-- Moved verbatim from 17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md on 2026-09-01: panel content belongs on the panels page. -->
+
+## Protective Wall Panels for a Recurring Family Wear Pattern (Петришин-Строй, added 2026-08-24, Round 5)
+
+A dining-area wall at chair-back height showing repeated scratch damage
+(previous occupants had covered it with pictures) is treated as a design
+problem, not a paint problem — repainting alone would show the same
+damage again within 1-2 weeks. Recommended fix: a protective wall-panel
+material (flexible "marble," or slat/rail paneling) sized specifically to
+the at-risk zone — framed as a deliberate life-scenario decision (matches
+this page's family-scenario-driven design principle), not a decorative
+afterthought. `single-account`. [source: [[_Sources/YT_izhaUHRKViw_petrishin_quality_cosmetic_reno|YT_izhaUHRKViw]]]
+
+## Slat/Rail Panels and Partitions, and Soft/Rigid Panel Durability (Kruglov/Ontario, Round 15, added 2026-08-28)
+
+**⚠️ Vertical vs. horizontal slat/rail orientation — a new dust/visual-effect contrast**: vertical slats visually stretch a room (taller-feeling ceiling, larger-feeling volume) — the standard reason to choose them in a small room. **Horizontal slats lose that stretching effect entirely and become a genuine dust collector**, since dust settles on each rail's top face. **New concealment benefit**: slat/rail panels effectively hide plumbing/electrical revision hatches almost seamlessly into the repeating pattern.
+
+**⚠️ Slat/rail room-dividing partitions — a real long-term commitment, distinct from the wall-panel content above**: fixed permanently to both floor and ceiling, so removing or replacing one later isn't simple — Konstantin Kruglov / Ontario's own stated preference is a glass sliding partition instead, since it can later be closed with an actual door in the same style. **Dust mechanism**: dust accumulates between individual vertical rails at floor level, and a robot vacuum physically cannot fit between them to clean it.
+
+**Soft/upholstered decorative wall panels — durability/repairability, distinct from the rigid-panel content above**: cannot be spot-repaired — damage requires replacing the entire affected panel, and even a color-matched replacement can visibly mismatch an aged/faded original. **Headboard-specific wear case**: a full upholstered-panel headboard wall wears/discolors specifically at the head-contact point for anyone who reads or reclines against it regularly. Pets and children substantially accelerate general damage risk.
+
+**Rigid panel calibration and relief-orientation nuances**: some rigid panel products (MDF, gypsum, duropolymer) arrive poorly factory-calibrated, needing extra on-site sanding/fitting labor priced to the painter's actual correction time. **Relief-orientation dust rule**: a vertical relief pattern collects meaningfully less dust than a horizontal "wave" relief, which can visibly re-accumulate dust within about 2 hours of a thorough cleaning.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
+
+## Anuta Vlady — Kitchen-Adjacent Wall Durability and Faux-Panel Art Technique (France, added 2026-08-25)
+
+From the same France kitchen-living-room case as this batch's other
+Anuta Vlady entries:
+
+- **Kitchen-adjacent wall paint durability technique**: a painted wall
+  near a cooktop exposed to grease/splatter should get a matte
+  protective varnish/sealant top-coat over the paint, to make routine
+  cleaning easier.
+- **DIY "faux wall panel" technique using oversized art**: hang two
+  identical large-format art canvases, with one deliberately flipped/
+  inverted so the pattern doesn't read as an obviously mirrored repeat —
+  mimics the vertical-emphasis look of physical wall panelling at a
+  fraction of the cost/effort, sized to match a nearby table's length
+  for proportion. A second, worked example of this same technique
+  appears in this batch's St. Petersburg living-room case below.
+- **Dining-pendant-light diameter proportioned to table size**: a
+  50cm-diameter pendant shade chosen to suit a 2m-long dining table.
+
+`single-account`. [source: [[_Sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]

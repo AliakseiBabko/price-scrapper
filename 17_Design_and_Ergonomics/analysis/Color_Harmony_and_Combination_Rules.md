@@ -120,12 +120,12 @@ Three additions from this batch that the existing entries did not have:
 **Anuta Vlady** gives the fullest rule set in the vault, all three rules demonstrated against real interior photos with her corrected versions:
 
 - **⚠️ An accent wall should be at least somewhat *darker* than the room's other walls.** A lighter one "как будто бы проваливается, вместо того чтобы выглядеть каким-то главным цветовым пятном." Whether it is achieved with patterned wallpaper or plain paint makes no difference. Easiest choice is a darker shade of the same hue; a contrasting colour already present elsewhere in the room also works.
-- **⚠️ One accent wall per room.** With two — her example is a patterned blue wall and a wood wall separated by a stripe of the base colour — "комната как бы разваливается на две равнозначные части" and neither reads as the accent. **This is the same rule already recorded on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]] — but from the *same* channel (her Alaska decor-refinement case, 2026-08-25), so it is a restatement by one practitioner, `single-account`, not independent corroboration.**
+- **⚠️ One accent wall per room.** With two — her example is a patterned blue wall and a wood wall separated by a stripe of the base colour — "комната как бы разваливается на две равнозначные части" and neither reads as the accent. **This is the same rule already recorded on [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]] — but from the *same* channel (her Alaska decor-refinement case, 2026-08-25), so it is a restatement by one practitioner, `single-account`, not independent corroboration.**
 - **⚠️ Placement must be justified by an object.** "Акцентную стену нужно размещать именно там, где есть какой-то объект, который мы хотим дополнительно выделить" — a fireplace, a console, an entrance zone, a furniture composition, artwork. **Named as a большая ошибка: putting an accent wall on an arbitrary wall just to liven the room up.** The accent wall is a tool for reinforcing something, not a decoration in itself.
 
 [source: [[_Sources/YT_PGrxKyLhxp8_anutavlady_typical_color_mistakes|YT_PGrxKyLhxp8]]]
 
-Also on record from Zemstandart/Alexey Zemskov, on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]: never put an accent finish on a long/narrow room's *longest* wall — accent a segment instead.
+Also on record from Zemstandart/Alexey Zemskov, on [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]]: never put an accent finish on a long/narrow room's *longest* wall — accent a segment instead.
 
 ---
 

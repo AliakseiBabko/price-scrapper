@@ -19,3 +19,9 @@ Landing page for furniture/built-in content that spans multiple rooms rather tha
 
 - Kitchen-specific furniture (cabinetry, facades) lives in `03_Kitchen/Kitchen_Furniture.md`, not here — kept with the room it's specific to rather than duplicated in this domain folder.
 - Appliances (a separate domain, not furniture) live in [[15_Appliances/Appliances_Index|Appliances Index]].
+
+## Storage sizing — the input to every layout decision (added 2026-09-01)
+
+**[[14_Furniture/analysis/Household_Storage_and_Decluttering_Method|Household Storage & Decluttering Method]]** — how much storage a household actually needs, and how to find out. Moved here from the zoning page, where it was the largest block on a page about something else. Feeds [[14_Furniture/analysis/Wardrobe_Vocabulary_and_Sizing|Wardrobe Vocabulary & Sizing]] and every plan in `17_Design_and_Ergonomics`.
+
+**[[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]** also gained the furniture-sourcing, vintage-vs-antique, "why a piece reads designed" and decor-pairing material in the same 2026-09-01 pass.
