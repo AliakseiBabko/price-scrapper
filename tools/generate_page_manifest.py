@@ -71,7 +71,12 @@ def build() -> dict:
         text = path.read_text(encoding="utf-8")
         timestamp, provenance = git_timestamp(path)
         rel = path.relative_to(ROOT).as_posix()
-        folder = path.parts[0]
+        # Derive the folder from the REPO-RELATIVE path. `path.parts[0]` reads
+        # the first component of the *absolute* path, which on Windows is the
+        # drive root - every entry came out as "C:\". Found 2026-09-01 by a
+        # CODEX review turn; it corrupted room_domain on all 130 entries and
+        # leaked into the folder_derived tag fallback on 5 pages.
+        folder = rel.split("/")[0]
         rows.append({
             "path": rel,
             "page_kind": kind,
