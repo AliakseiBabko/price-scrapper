@@ -209,3 +209,19 @@ Cross-reference: the raised-wardrobe technique itself is on [[01_Entrance/analys
 
 `single-account`, `unverified`. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
 
+
+## Three-Zone Split, Vertical Storage, and Shadowless Face Lighting at the Mirror (Татьяна Безверхая, added 2026-09-02)
+
+> [!NOTE]
+> Moscow interior designer, 6-minute short-format hallway guide, 2025. `promotional_ratio: medium` — no third-party sponsor or product brands, but bracketed by her own studio pitch at both ends. **Substantially corroborating**: this page already holds hallway zoning and lighting-composition content (Anuta Vlady's proportion-control techniques, the Квартиранты furniture-and-lighting composition zoning), and her three-zone split is consistent with them. **Only the genuinely additive rationales are recorded below.** Region unresolved — no location named, no pricing. [source: [[_Sources/YT_YN2rYpXgJ8w_bezverkhaia_hallway_three_solutions|YN2rYpXgJ8w]]]
+
+- **The three zones she splits a hallway into**: **outerwear**, **footwear**, **everyday accessories** — against the failure mode of "всё свалено в одну кучу."
+- **⚠️ The additive part of the outerwear zone is *why* a hook system rather than hooks: garments, not tidiness.** Not "один какой-то несчастный хилый крючок" but a system — hook panels or rails — so that every family member **and guests** have their own place, **coats do not pile on one another so they ventilate better, and they do not crease.**
+- **⚠️ The footwear zone's scope is the additive part: all the shoes, not only the current season's.** An open low shelf or bench for pairs in rotation, **plus** a closed cabinet, chest or drawered bench for rarely-used pairs — so the floor holds only what is actually being worn.
+- **⚠️ The accessory zone is framed around the morning-panic case rather than around space**: a small shallow shelf in plain sight for keys, wallet, sunglasses, gloves, plus trays or baskets for sorting **and a hook for a bag or backpack** — the stated return is no searching and no "did I take it?" re-checking.
+- **Vertical storage, against small-hallway floor area**: **perforated panels (перфопанели)** taking hooks, shelves and baskets — **her argument for them is reconfigurability**, the layout can be changed indefinitely as needs change; **over-door hanging organisers**, scoped specifically to small accessories, shoe-care products and gloves; and **⚠️ ceiling-height shelves for seasonal items in boxes — where the access frequency is what justifies the height** ("один раз в сезон залезли, поменяли"). **The stated effect is that it frees the floor *visually*, which is a different benefit from adding capacity.**
+- **⚠️ Mirror and lighting are one decision, not two.** The mirror must be **full-length, shoes to head**, and does two jobs — checking appearance **and visually enlarging a usually cramped hallway.**
+- **⚠️ Reject a single central ceiling fixture, and the mechanism is facial**: light from directly overhead **casts deep, unflattering shadows on the face.** Her prescription — **perimeter downlights for even ambient light, plus a wall sconce or fitting beside or above the mirror.**
+- **⚠️ The reference she gives it is the useful shorthand: shadowless face lighting "как у профессиональных гримёров"** — the dressing-room standard, where you see yourself accurately. **Complements this page's existing furniture-and-lighting composition zoning by supplying a specific target for the mirror position's own light.**
+
+**Gaps in this source, worth stating because the format is short**: **no dimensions anywhere** — no hook-panel width, no accessory-shelf depth beyond "маленькая неглубокая," no mirror size, no sconce mounting height — and **no pricing**, so it cannot support the perforated-panel-versus-cabinet cost comparison its own flexibility argument invites.

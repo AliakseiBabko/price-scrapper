@@ -67,3 +67,51 @@ scale). [source: [[_Sources/YT_2rOr5Lwt7kA_bolshaya_stroyka_loggia_storage_close
 See [[10_Balcony/analysis/Glazing_and_Structural_Work|Glazing & Structural Work]]
 for the floor-width-reclamation techniques (relocating a loggia's entry
 door, removing an unnecessary insulation layer) that also bear on layout.
+
+## Function-From-Plan Sequencing, the AC-Unit Box, Finishes and Storage Hardware (Татьяна Безверхая, added 2026-09-02)
+
+> [!NOTE]
+> Moscow interior designer, unsponsored 16-minute balcony/loggia guide, 2024. `promotional_ratio: low`. Adds a planning-sequence rule, a developer-created AC problem this folder had not covered, and named storage hardware to the placeholders below. [source: [[_Sources/YT_jl3OSKoe0YU_bezverkhaia_balcony_seven_solutions|jl3OSKoe0YU]]]
+
+### ⚠️ Decide the balcony's function from the rest of the plan, never in isolation
+
+- **Her sequencing rule: "никогда не смотрите на балкон или лоджию в отрыве от всей остальной планировки."** Do the apartment layout first — partitions, furniture, zoning — and **the balcony's purpose then falls out of whatever the apartment's own perimeter could not fit.** The balcony is "как чистый лист"; the constraint is the rest of the plan, not the balcony.
+- **The candidate functions she enumerates, usable as a checklist**: open summer sitting area (or left deliberately unglazed so it does not block light into the flat); enclosed fully-insulated sitting area; **home office** — the case she calls "очень часто," where someone works from home and there is no room for a real study; extra play area where the kids' room is small; winter garden; home gym; bar; and **storage, which she names last and calls the least preferable use.**
+
+### ⚠️ Daylight: a north-facing balcony with a solid parapet darkens the room behind it
+
+- **The mechanism is a two-stage loss**: light passes through the balcony's glazing, then through the balcony, and **only a small part continues into the room.**
+- So a living room or bedroom facing **north** *and* having a balcony *and* a **solid (глухой) parapet up to waist height** gives "вечный мрак" in the room. **The same configuration on the south side can be an advantage** — less summer overheating.
+- **Apartment-selection consequence: all else equal, prefer units whose balconies and loggias are glazed floor-to-ceiling by default with no solid elements.**
+
+### ⚠️ The AC outdoor unit dumped on the balcony — a developer-created problem
+
+- **She says it spans econ, comfort and even business class**: developers site the outdoor unit on the balcony instead of providing facade baskets or dedicated plant space, and it then heats the balcony in summer.
+- **The fix, with the two constraints that make it work**: box it in, but **size the box so the unit genuinely ventilates and does not heat itself**, and **provide an access hatch (люк)** for servicing.
+- **Then make the box do work**: extend the windowsill across it, build it into shelving, stand plants on it, or top it with an acrylic worktop as a bar counter. **The point she insists on is that this is decided in advance** — otherwise it stays "грустным железным гробиком."
+- Cross-reference: general AC placement and enclosure reasoning lives in [[12_Engineering_and_Systems/analysis/AC_Key_Concepts_and_Placement|AC Key Concepts & Placement]].
+
+### Finishes
+
+- **Floor: tile or porcelain, unambiguously, with underfloor heating beneath** — "керамогранит — лучший материал на пол на балконе," in any neutral pattern matching the interior. **Independently corroborates** the Insulation & Heating page's existing recommendation to use ceramic or porcelain over a heated loggia floor rather than quartz-vinyl, laminate or engineered wood.
+- **Walls: paint — and she recommends facade paint** ("краску я на всякий случай рекомендую фасадную использовать"). Also viable: porcelain, clinker.
+- **A real project of hers**: walls in **вагонка, painted**, with woven floor cushions — matched the owners' brief and read "очень уютно." Complements this page's existing wood-panelling case above.
+- **Windowsill: decide deliberately** whether it stays thin and narrow or takes on a function — bar counter, plant stand.
+
+### Lighting & electrical — her outlet list
+
+- **General light plus local light**: cosy over a lounge spot, or bright over a work position. **Corroborates** this page's existing Zemskov rule that a loggia needs its own dedicated fixture.
+- **⚠️ The genuinely additive part is the outlet inventory, which fills the "Sockets" placeholder above with real use cases**: beyond obvious spares — **an infrared plant lamp, a Christmas-light garland in winter, gadget charging, outlets at the work position, and an outlet for charging a tablet while reading.**
+
+### Ventilation and privacy
+
+- **⚠️ Plan ventilation explicitly.** A south-facing balcony is "просто пекло" in summer; an open window may be unusable because of traffic noise, **in which case a breather (бризер) is the route.** **If the balcony is a full room, it will probably need an air conditioner of its own** — which interacts with the outdoor-unit boxing above.
+- **Privacy from neighbours' sightlines**: roller or Roman blinds, venetian blinds, or simply reflective film.
+
+### Layout & storage — named hardware for the placeholders above
+
+- **⚠️ If storage is genuinely needed, split the balcony into two parts** — storage at one end, something useful at the other, "так хоть не жалко будет." **This is a third account of the partition-off-a-storage-section pattern** already recorded on this page (Большая Стройка's unheated end nook) and on the Glazing page.
+- **Decide what is being stored before choosing the system** — jars behave differently from bicycles.
+- **Named hardware routes**: **ceiling mounts and cable hoists for bicycles** ("велик можно подвесить к потолку и за тросы подтянуть"); a snowboard can become decoration; and for laundry, **electric ceiling-lift dryers, "лиана"-type ceiling-lift racks, and retractable dryers** — explicitly instead of the floor-standing frame that occupies the whole balcony.
+- **If a cabinet is needed: one large cabinet with opaque fronts**, not several — consistent with the tall-weatherproof-cabinet recommendation already in the placeholder above.
+- **⚠️ Style latitude worth keeping**: the balcony should "дружить" with the adjoining room, **but because it is small and not used constantly it can carry more intensity than the rest of the flat** — ethnic, eastern, boho or loft.

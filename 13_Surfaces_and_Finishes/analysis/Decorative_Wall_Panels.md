@@ -175,3 +175,14 @@ Anuta Vlady entries:
   50cm-diameter pendant shade chosen to suit a 2m-long dining table.
 
 `single-account`. [source: [[_Sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
+
+## ⚠️ Wood, Laminate and MDF as a Wall Finish — Accent Only, with a Floor-Tone Rule (Татьяна Безверхая, added 2026-09-02)
+
+> [!NOTE]
+> From a sponsored supplier collaboration (`promotional_ratio: high`), **but this is the one section she presents alone, without the supplier and without any product on screen** — so the guidance below is her own rather than catalogue-shaped. RU, Moscow, 2024. [source: [[_Sources/YT_j-F2HmDkaqY_bezverkhaia_wall_finish_materials|j-F2HmDkaqY]]]
+
+- **⚠️ Board, laminate and anything imitating wood must be an accent, not a wrap.** You cannot line a whole room's perimeter in board — **"если у вас конечно не яхта."** Correct use is **one accent wall**: behind the sofa in a living room, or behind a bed's headboard.
+- **⚠️ The rule that makes it work, and it is the additive item for this page: if you make that accent, the tone on the floor and on the wall should match — and ideally the texture too.** Best of all, use literally the same material. Complements this page's existing «пол на стене» (floor planks run up a wall) note on [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]] by supplying the reason that technique reads as deliberate rather than accidental.
+- **Styles it suits**: eco, Scandinavian — where wall accents and вагонка are native — and loft. **In other styles it reads as less appropriate**, which is where smooth veneered or MDF panels belong instead.
+- **⚠️ A budget route she names explicitly**: in the economy segment or a rental, **a wall can be decorated with laminate** — paint everything a neutral colour and pick out the sofa or headboard wall this way. Worth keeping alongside this page's existing protective-panel and faux-panel-art techniques as the cheapest of the accent options.
+- **MDF panels** are among the oldest classical wall treatments, descended from British solid-oak panelling (now expensive). In classic and modern-classic schemes MDF gives **филёнки** of any shape or carving; in contemporary styles, plain flat panels. Corroborates the milled-panel terminology already recorded on the Decorative & Specialty page.

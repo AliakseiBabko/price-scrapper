@@ -399,3 +399,48 @@ The *selection* method is on [[17_Design_and_Ergonomics/analysis/Color_Selection
 - **⚠️ The checkable version: if the pattern repeats twice within a single roll width, it reads as a template and will be hard to place.** She rejects several samples on exactly that test. **Her worked acceptance is a motif repeating at roughly 80 cm** *(estimated from an image, not measured)*.
 - **⚠️ "Обои лучше брать чем шире, тем лучше" — a wider roll means fewer seams. If only 50 cm is available take it, but then the repeat must be large.** **The two compound: a small repeat on a narrow roll puts the template in front of you twice per drop.**
 - **Named as dated: Soviet-photomural-style florals, and tropical palm-leaf papers with a visibly frequent repeat.**
+
+## Why Cheap Paint Is Usually Not Cheaper — Four Mechanisms, and a Third Gloss Ladder (Татьяна Безверхая + supplier, added 2026-09-02)
+
+> [!WARNING]
+> **`promotional_ratio: high` — sponsored supplier collaboration.** Filmed in a finishing-materials supplier's showroom, co-hosted by that company's managing partner (14 years' trade, since 2010), closing on a 10%-off promo code. **All brand-level verdicts are excluded from this page by the advertising filter** — including the Russian paint brand praised and the chain retailer disparaged, the latter especially, since an outtake left in the transcript shows the supplier stating he could not say on camera what he actually thinks of it. **Only the material-property and selection-criteria layer is recorded below.** No prices anywhere in 28 minutes. RU, Moscow, 2024. [source: [[_Sources/YT_j-F2HmDkaqY_bezverkhaia_wall_finish_materials|j-F2HmDkaqY]]]
+
+### ⚠️ The four mechanisms by which budget paint costs more
+
+This is the most reusable structure in the source, and it extends this page's existing prep-cost and durability arguments with a *coverage* argument they did not hold:
+
+1. **⚠️ Hiding power (укрывная способность) — the mechanism that reverses the saving outright.** Budget paint's real coverage does not match the manufacturer's stated consumption: **"вместо двух вёдер тебе на объект нужно привести четыре ведра."** Paints using expensive dispersions cover materially better, so **"на круг" there is likely no saving at all.** Complements Кузина's **укрывистость** characteristic above by putting a number of buckets on it.
+2. **⚠️ Washability, with the actual mechanism named: open versus closed pore.** Mass-market **matte** paints soil easily because their **pore is open** and they cannot properly be washed. Good mid- and premium-segment paints are wear-resistant **because the pore is closed even in a matte finish**, so they wash fully. **This is the physical explanation behind the washability characteristic this page already lists** — worth keeping because it makes "washable matte" a checkable property rather than a marketing word.
+3. **⚠️ Colour rendition is a property of the base, not only of the formula.** Tinting a complex colour — his example is a classic **«французский серый»** — on a good manufacturer's base yields a deep shade that reads differently under different light. The same formula tinted into cheap raw material gives **«больничный серый»**. Relevant to this vault's separate colour-selection work: **a tested swatch is only valid for the base it was tinted on.**
+4. **Durability in service**, framed as not having to redo the finish months later where children or daily life has marked the wall.
+
+### A third gloss ladder — near-agreement with Кузина's at finer granularity
+
+| This source | Sheen | Their stated use |
+| :--- | :--- | :--- |
+| **Ceiling paint** | maximum matte | **Scatters light and hides minor ceiling-prep defects.** Explicitly **not** wear-resistant, which is acceptable — "мы обычные потолки не драим" |
+| **Velvety matte (бархатисто-матовая)** | **~3%** | **Their default for walls.** Wear-resistant, washable with a sponge and mild solutions |
+| **Velvety matte / eggshell** | **~5%** | **⚠️ Specified for children's rooms** — a child marks the wall, it is wiped, **and the paint film itself is not altered**, so no repainting. She notes on camera that at 5% the sheen is "практически незаметно" |
+| **Satin** | **15–20%** | Strongest in service, **but highlights every defect left by a poor painter** |
+
+- **⚠️ The governing trade-off, stated plainly and consistent across both sources: higher sheen means more durable *and* more exposure of substrate and workmanship errors.** Mid-range velvety matte is their recommended wall compromise.
+- **⚠️ Where this sits against Кузина's ladder above**: the two agree that ~15% is the tougher, more washable step and that gloss reveals defects. **They differ on what ~5% is for** — Кузина treats plain matte ~5% as the ordinary living-room/bedroom default; this source puts the everyday wall default lower at ~3% and reserves ~5% for children's rooms specifically. **Not a contradiction so much as a finer grading; use the reasoning (film integrity under wiping) rather than the number, since neither source cites a standard.**
+
+### ⚠️ Wall prep before paint — a tolerance question, not a technique shortcut
+
+- Her framing of the common fear: three coats of filler, fibreglass mesh (стеклохолст), a final levelling pass, and a genuinely competent painter — all expensive.
+- **His answer**: you *can* simplify, the way you can cook off-recipe — and you get an inedible dish. **"Идеальной красоты вы добьётесь только соблюдая технологии."**
+- **⚠️ The usable middle he concedes, and it is rare to see it stated**: if you accept walls that are not perfectly flat, **you can paint over without levelling, and with a good colour it will still look decent.** **A legitimate low-tolerance route rather than simply wrong** — relevant to this project wherever a wall's finish tier is being traded against prep cost, and a counterweight to this page's existing prep-cost mechanism sections.
+
+### ⚠️ Russian-made paint after import substitution — the selection test
+
+- **Market-structure fact**: after many foreign brands left the Russian market, **many Russian-produced paints appeared under European-sounding names** — Swedish, Swiss, French — easily mistaken for imports. Most are made in the Russian Federation.
+- **⚠️ The transferable test is not country of manufacture but composition: ask the salesperson which components were used, specifically which dispersions, and whether they are imported.** "Если сырьё замещается, краска скорее всего будет так себе; если компоненты европейские, то краска даже родом из России будет хорошей."
+- Her designer-side observation, recorded without the brand name: Russian paints now genuinely offer complex colours with real undertones, which is what designers care about — she does not claim parity in longevity.
+
+### Printed panels and modern wallpaper substrates
+
+- **⚠️ Digitally-printed seamless panels are the supplier's most-requested product**, driven by the accent-wall trend — people decorate **one wall** rather than a room. **The mechanism that differentiates them from roll wallpaper: roll goods show seams if hung badly; a printed panel is produced without joins for that specific wall.** A low-quality source image is not automatically disqualifying — rather than upscaling pixels, their artist redraws the subject digitally for high-detail printing.
+- **⚠️ Substrate options, and one has a genuinely useful property — «папирус»**: printing can go onto standard **non-woven (флизелин)**, a **sand-textured** substrate, or **папирус**, which reads as textile from a distance but is **polyester** — **highly wear-resistant and tolerant of direct water contact**, while still gluing easily because its backing is non-woven.
+- **⚠️ The wet-room boundary they actually draw, which is the practical part**: for **direct water contact** (the shower itself) they still recommend classical tile, **but in a humid room where splashes reach the wall — their example is beside a basin — this material is unaffected.** Splash-adjacent yes, shower enclosure no. **New to this page**, which previously treated wallpaper and wet areas as simply incompatible.
+- **⚠️ Her own designer recommendation, inserted against the supplier's pitch and consistent with this vault's accent-wall guidance: do not wrap a whole apartment in expensive wallcovering.** Paint neutrally, then make **one accent** in something like a premium natural-material covering (bamboo, water-lily, palm leaf, largely handmade) — it reads expensive and is unlikely to be duplicated. **This is a designer declining to upsell inside a sponsored segment, which is why it is worth recording.**
