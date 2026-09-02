@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=OWIBkORaQX4",
+  "video_id": "OWIBkORaQX4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T09:42:38.113006+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "96cb6337d7219c84f20f25e53576ee893ffc5b4113503fa0b4b2334f6c0746db",
+  "attempts_before_success": []
+}

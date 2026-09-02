@@ -58,6 +58,10 @@ Kruglov's four functional categories, cutting across rooms rather than counting 
 
 **Recessed point fixtures with a good diffusing bulb are commonly sufficient** for even room illumination — the cited example is roughly **4 well-placed fixtures adequately lighting a ~30 m² room**, against installs carrying far more fixtures than the space needs. **Over-specification is a common, avoidable cost driver.** [source: [[_Sources/YT_dJMsXYUyh7A_kruglov_lighting_guide|YT_dJMsXYUyh7A]]]
 
+### ⚠️ Archetype-Driven Scene Count — a Client-Psychology Basis for This Page's Existing Scenario Minimum (Игорь Краснов, added 2026-09-02, Round 9)
+
+**Extends this section's existing 3-scenario minimum / 3-4 upper-bound with a client-psychology-based rationale for WHY the count varies, rather than a new number.** Krasnov's "Environment/Sensation" client archetype (full framework on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]) specifically requires a **minimum of 4-5 distinct lighting scenes** (not just one) — main, evening, accent, local, decorative — meaning separate lighting circuit groups and scene-control wiring must be planned at the **electrical design stage**, since retrofitting more lighting circuits later requires opening ceilings/walls. Recorded here as the mechanism behind why some clients need more scenes than this page's existing 3-4 range accommodates, cross-referenced to the archetype page rather than duplicated in full. `single-account`, `unverified`. [source: [[_Sources/YT_au1z3vNxc34_krasnov_archetype_interiors|au1z3vNxc34]]]
+
 ### ⚠️ Three-Layer Restatement, Illuminance Targets, and CRI (Игорь Краснов, added 2026-09-01)
 
 Corroborates this section's three-scenario rule from a fourth independent channel, and adds the first per-room illuminance-in-lux figures on this page. [source: [[_Sources/YT_GpkgVoPesDI_krasnov_lighting_guide_ruins|GpkgVoPesDI]]]
@@ -90,6 +94,28 @@ Corroborates this section's three-scenario rule from a fourth independent channe
 
 - **Directional accent lighting** aimed at specific objects (wall-mounted or track spotlights on a large artwork, an empty wall, open shelving, or uplighting a tall plant/art object from below) as a technique distinct from general ambient layering — creates a "gallery/hotel" quality. Corroborates this page's existing accent-light category (§1's Kruglov taxonomy) with a specific styling application.
 - **Concealed LED strip lighting must be fully hidden** (diffused glow, not a visible light-source line) and colour-temperature-matched to the room's overall light scheme — **largely restates this page's existing concealed-strip content above; the one genuinely new detail is that it should be used only as a subtle addition, never a visual focal point, in classical styles specifically** — recorded as corroboration-plus-one-nuance, not full re-extraction.
+
+`single-account`, `unverified`.
+
+### ⚠️ "Soup of Light" — a Layering Philosophy and a Named External Citation (Игорь Краснов, added 2026-09-02, Round 9)
+
+**Krasnov states the core critique of a single central ceiling fixture as an explicit principle, restating this page's existing scenario/layer content but worth recording as a directly stated version**: *"Слава Богу мы избавились от одного-единственного светильника который светит на нас из центра"* — recommends spot/track lighting distributed across the ceiling instead, calibrated not to create harsh glare. Corroborates §1's existing scenario rule and §3's fixture-taxonomy content. [source: [[_Sources/YT_OWIBkORaQX4_krasnov_lighting_guide_full|OWIBkORaQX4]]]
+
+**⚠️ Named external citation, attributed to the cited designer, not to Krasnov**: Krasnov cites **Rey Sivan** (an *Architectural Digest* home-tour designer, of "FX Studio") using the phrase **"суп из света"** ("soup of light") to describe deliberately layered, richly-detailed lighting design — many considered layers of light combining into one atmosphere. A quotable framing device for this page's existing layered-lighting content; attribute to Sivan, per the advertising/cultural-reference filter for named external practitioners. `single-account`, `unverified`. [source: [[_Sources/YT_OWIBkORaQX4_krasnov_lighting_guide_full|OWIBkORaQX4]]]
+
+### ⚠️ Applied Case — "Дом на Львовской", Track Lighting for a Low (2.75 m) Ceiling (Игорь Краснов, added 2026-09-02, Round 9)
+
+**A real project case with a specific ceiling-height figure, extending this page's existing low-ceiling strategy (§4's "Replacing the chandelier when ceiling height is scarce") with a track-lighting-specific worked example.** In a project called "Дом на Львовской" ("House on Lvovskaya"), clients had a real **2.75 m** ceiling — too low, in Krasnov's framing, for suspended fixtures or a dropped ceiling to carry spot lighting. **The studio used surface-mounted track lighting ("накладные трековые светильники") instead**, which preserved the sense of spaciousness without lowering the ceiling. The same project also layered **multiple lighting scenes for different zones in an open kitchen-living layout** (kitchen task light, accent light over a bar counter doubling as a table) — an applied case of this page's existing scene-lighting content. `single-account`, `unverified`. [source: [[_Sources/YT_OWIBkORaQX4_krasnov_lighting_guide_full|OWIBkORaQX4]]]
+
+### ⚠️ Decorative-Lamp, Exposed-Bulb, and Exposed-LED-Strip Critiques (Игорь Краснов, added 2026-09-02, Round 9)
+
+**A bundle of specific fixture critiques, all converging on one theme — a lamp/fixture chosen as a decorative object first and a light source second is a bad default — extending this page's existing "chandelier is not a lighting device" content (§4) to a wider set of fixture types**, plus concealment guidance for LED strip that reinforces §6's existing mounting-and-concealment content. [source: [[_Sources/YT_OWIBkORaQX4_krasnov_lighting_guide_full|OWIBkORaQX4]]]
+
+- **⚠️ Dome/bowl-shaped translucent glass pendant fixtures** ("лампы с формой напоминающей грудь" in Krasnov's own deliberately blunt description) are critiqued as dated AND functionally bad because insects and dust visibly collect inside the translucent glass shade, requiring constant cleaning — recommends modern equivalent-output alternatives instead.
+- **Exposed-bulb fixtures that merely frame a visible bulb** (e.g., a pendant over a dining table that is just a decorative cage around an exposed bulb) waste the opportunity to actually shape/direct the light — called "a strange choice."
+- **Flame-shaped/candle-shaped decorative bulbs** are critiqued as tacky unless installed in a genuine vintage fixture.
+- **Fake/artificial candles are critiqued as unconvincing** — real candles recommended for a genuine warm ambient glow (with the obvious safety caveats), and **salt lamps recommended as a good decorative warm-light alternative to fake candles**.
+- **⚠️ "Hide the LED strip" as an explicit, concrete rule**: LED strips are designed to be CONCEALED (in a recessed channel/cove) to produce even diffused glow — individual diodes are visible and look cheap when the strip is mounted exposed, as commonly seen in TikTok/Instagram room-decor videos. Also explicitly avoid colored LED modes; use plain white/warm light only. **Reinforces, rather than adds new mechanism to, §6's existing strip-concealment and §2's coloured-strip content** — recorded because the "exposed strip = cheap" framing is stated unusually explicitly here.
 
 `single-account`, `unverified`.
 
@@ -137,6 +163,15 @@ Two further reasons Шеврина gives for neutral as the *main* light: warm l
 ### Colour-temperature-by-function, a Round 5 refinement (Игорь Краснов, added 2026-09-01)
 
 **⚠️ A specific numeric consolidation, largely converging with this page's existing figures above rather than adding a new mechanism**: **2700-3000K** for living/relaxation spaces, **4000K** neutral for work zones (kitchen, home office); explicit warning against **6000K** cold light, described as giving "a hospital-corridor feel." Recorded as corroboration of the existing 2700-4000K comfortable-range rule and the 4000K work-zone figure above — cross-reference, not a new range. `single-account`, `unverified`. [source: [[_Sources/YT_4ZjCbDRhfNM_krasnov_please_buy_these_6things|4ZjCbDRhfNM]]]
+
+### ⚠️ ~3000K residential default, corroborated twice within Round 9 (Игорь Краснов, added 2026-09-02, Round 9)
+
+**Two of this round's own Krasnov sources independently converge on the same ~3000K figure and the same reasoning against colder light for residential rooms — recorded as a same-round, same-channel double corroboration of this section's existing 2700-4000K range, not a new figure.** [sources: [[_Sources/YT_OWIBkORaQX4_krasnov_lighting_guide_full|OWIBkORaQX4]], [[_Sources/YT_Yt3yAPjrLhk_krasnov_5solutions_clients_love|Yt3yAPjrLhk]]]
+
+- `OWIBkORaQX4`: prefers **~3000K** for residential; **below 2000K reads "too orange,"** reserve for special occasions only; **above 4000K reads "too cold/uncomfortable"** for residential use, appropriate only for industrial/warehouse spaces simulating daylight.
+- `Yt3yAPjrLhk`: keeps residential lighting **~3000K** (soft, warm, doesn't distort material colours); reserves **~4000K for WORK zones only**, explicitly warning that using ~4000K light in a bedroom or living room makes colour depth "disappear" and the space feel like it's lost its "air."
+
+`single-account` (channel-internal convergence), `unverified`.
 
 ### ⚠️ Recessed Downlights on a Relief-Moulded Ceiling — a Genuinely New Interaction (Игорь Краснов, added 2026-09-01, Round 5)
 

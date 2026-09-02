@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ddRN-vIf3iI",
+  "video_id": "ddRN-vIf3iI",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T09:43:08.146250+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a2514f5bfeb57b986888dd6ab8be1c273f260f6638d819ae618cd985f9746359",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Mt7Puhphbjo",
+  "video_id": "Mt7Puhphbjo",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T09:43:50.944415+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "6fed11a75b07f89345160bc84ababa66f49ccb5473b82aaab87125d5612eb252",
+  "attempts_before_success": []
+}

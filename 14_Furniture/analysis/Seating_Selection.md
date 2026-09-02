@@ -134,3 +134,19 @@ A dense furniture-buying-guide format. All statistics below are Krasnov's own un
 Krasnov's own studio's real completed project — no third-party attribution needed. [source: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]]]
 
 **⚠️ Gaming-style ergonomic chair recommended over a standard office chair specifically for a home office, genuinely new**: "кресло здесь не офисное, а эргономичное, ближе к геймерскому, у него больше регулировок, боковая поддержка, анатомическая форма" — a specific, concrete furniture-category recommendation citing more adjustment range, lateral support, and anatomical shape than a standard office chair. Explicit stated reasoning: even the most beautiful, ergonomic desk won't help if the chair itself doesn't support correct posture. `single-account`, `unverified`.
+
+## ⚠️ Leg-Based Sofa Silhouette — a Subconscious-Floor-Visibility Principle, With Krasnov's Own Home as the Example (added 2026-09-02, Round 9)
+
+[source: [[_Sources/YT_tLT1ohlm68c_krasnov_dont_buy_these_replacements|tLT1ohlm68c]]]
+
+**⚠️ A specific applied psychology-of-furniture principle, record precisely — extends this page's existing "adding legs at the same overall sitting height" fix (Shevrina, above) with a distinct underlying mechanism.** Furniture raised on visible legs reads as subconsciously "lighter" because the eye/brain registers visible floor space beneath it as open, uncommitted space, while furniture that sits flush to the floor reads as fully "occupying" that footprint even if the object itself is the same size. **States he deliberately chose a LEG-based sofa for his own living room specifically for this reason**, explicitly acknowledging the tradeoff that leg-based sofas typically can't fold out into a sofa-bed, and stating he prioritizes his own everyday living experience over guest-sleepover flexibility. **Complements Shevrina's existing visual-weight content on [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]] with a first-person applied case and an explicit sofa-bed tradeoff acknowledgment.**
+
+`single-account`, `unverified`.
+
+## Glass-Furniture Safety — a Restated (Not New) Anecdote, Confirmed Same Story as Round 7 (added 2026-09-02, Round 9)
+
+[source: [[_Sources/YT_tLT1ohlm68c_krasnov_dont_buy_these_replacements|tLT1ohlm68c]]]
+
+**⚠️ This video restates the identical friend's-child glass-table injury anecdote already logged from Round 7's `PiNvT_jnhbw` above — Krasnov himself explicitly flags this as a repeat**: "я уже рассказывал на этом канале... историю про ребёнка моих знакомых" ("I've already told this story on this channel before, about a friend's kid..."). Same incident (a glass coffee table broken by a child, resulting in stitches), same stated conclusion (personal avoidance of glass furniture as a parent). **Recorded here explicitly as a same-channel, self-acknowledged restatement, not a second independent incident** — do not double-count toward this round's fact yield.
+
+`single-account`, `unverified`. `corroborates_existing: true`.
