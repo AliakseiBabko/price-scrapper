@@ -281,3 +281,66 @@ automatically.
 - **His reframing anecdote, offered against himself: he was irritated at waiting 85 days for a chair, then remembered it is made in China and comes by sea.**
 
 **⚠️ Caveats: the 85 and ~35 working-day figures are his own company's, for premium whole-project work — not a market norm, and he offers no economy-segment equivalent beyond "hardware in 2 days." The competitor's 40 days is second-hand. The sheet-material quotas are undated and unquantified. And whether 85 working days is holiday-adjusted is not addressed.**
+
+## ⚠️ A Three-Scenario Schedule Model for 70 m² Designer-Grade Work — Expectation, Reality, Optimised (FLAT, added 2026-09-02)
+
+**This page holds a headline duration range, a throughput formula, and how to vet an unrealistically short quote. What it did not hold is a model that makes the FURNITURE phase explicit and sequential — which is precisely where client expectations break.** From a furniture manufacturer's own channel (Михаил, owner, 10 years, ~300 projects); `promotional_ratio: medium` — **the conclusion is that a furniture company should be engaged early, which is his pitch.** He pre-empts the objection: *"мы работаем в плотной связке всегда с дизайнерами интерьера, в плотной связке с прорабами. Это одна взаимосвязанная ниша."* RU, 2024. **No prices.** [source: [[_Sources/YT_q2fZjFubeJk_flat_renovation_schedule_model|q2fZjFubeJk]]]
+
+> [!IMPORTANT]
+> **⚠️ SCOPE governs every figure below and he states it explicitly: "мы говорим о достаточно дорогостоящем ремонте по дизайн-проекту… это мы не говорим про ламинат, плинтуса, линолеум и обои из Леруа Мерлен."** **Basis: 70 m², mid to mid-plus level.** **He excludes a rental studio outright — "можно сделать намного быстрее, там нет такого запроса на мебель."**
+
+### 1. What the client expects, and where the expectation comes from
+
+- **Design project: promised "где-то за месяц, где-то за два," so the client plans on ~1.5 months. Construction: a builder promised ~3 months "гарантированно."**
+- **⚠️ And the load-bearing false assumption, which is the finding: "в картине мира большинства клиентов лежит такая установка, что мебельная компания начинает свою работу совместно с выходом бригады на ремонт."** Furniture is assumed to run in parallel.
+- **Total imagined: 4.5–5 months.**
+- **⚠️ He attributes the expectation to marketing rather than to lying tradesmen — a different diagnosis from this page's existing short-quote content: "он зашёл в интернет, увидел рекламный тезис… может быть, их сделали маркетологи, которые конкретно этим не занимаются. Их задача — влечь тебя как клиента, написать тебе то, что ты хочешь услышать."**
+
+### 2. Reality, sequential
+
+| Stage | Duration |
+| :--- | :--- |
+| Design project | **~3–4 months; he takes 4. Can stretch to ~6.** |
+| Construction | **5–6 months; he takes 5.** |
+| Furniture manufacturing, from full approval of specifications and sketches | **~4 months for 70 m².** |
+| **Sequential total** | **⚠️ 13 months** |
+| **Plus contingency** | **⚠️ ~2 months → ~15 months** |
+
+- **⚠️ The design phase is gated as much by the client as by the designer — a delay mechanism this page attributes almost entirely to the trade side: "зависит не только от того, насколько быстро работает дизайнер, но и от того, насколько быстро принимает решение сам клиент — сколько он вносит правок."** His example: *"нам нужно с этой мыслью переспать… мы сейчас в отпуске."* **And revisions compound: "одни чертежи тянут за собой переделку других чертежей."**
+- **⚠️ His 5–6 month construction figure carries four stated conditions, and they are worth keeping as the definition of the optimistic case**: a responsible crew was found; all materials arrived on time; **financing was not stalled by the client**; and the work was done with maximum attention and quality.
+- **⚠️ Only ~5% of their ten-year experience is furniture simple enough to skip final measurements and room readiness — "всё остальное начинается только с момента подготовки помещения." So for built-in work the furniture phase is genuinely sequential, which is exactly the assumption that breaks.**
+- **⚠️ Named supply risks: builders halting for want of tile, and "европейскую сантехнику, которая… по санкциям едет вместо двух месяцев четыре, либо не едет вообще."** **Dated 2024 and region-specific — recorded as such.**
+
+### 3. Their optimised model, and where the compression comes from
+
+| Change | Effect |
+| :--- | :--- |
+| Design project — unchanged at 4 (possibly 5) months | — |
+| **⚠️ The crew overlaps the tail of the design phase** — deliver materials, agree the estimate, begin preparatory work and partition demolition, "потому что как правило это все ремонты с перепланировкой связанные" | **~1 month saved** |
+| **⚠️ Furniture company enters at partition-erection stage**, so approvals and material purchasing sit inside the construction window rather than after it | **fabrication compresses to ~3 months** |
+| **⚠️ Optimised total** | **~10 months** |
+
+- **⚠️ The entry trigger is stated identically to their lead-time source, which makes it standing practice rather than an off-hand remark: "мы выработали идеальную схему захода мебельной компании в этот процесс — это этап возведения перегородок."** Rough works done, partitions up, electrics roughly distributed — **"либо раньше, либо вот в этой точке, но нежелательно позже."**
+- **⚠️ What their технолог does on that visit, and this is the most actionable list in the source: checks the designer's project; enters communication with the foreman; checks wall flatness where the walls must be flat; verifies socket and water-outlet positions; and issues technical briefs for their placement where needed.**
+- **⚠️ The argument for the timing: "на этом этапе устранить какие-либо сложности намного более лояльно по отношению к вам," against the alternative — "когда ремонт полностью завершён, и вы видите, что розетки или выводы под подсветку сделаны не в том месте, эти переделки добавят вам время и сожрут ваши деньги."**
+- **They produce 3D sketches for every item and approve all internals in that window, which lets them buy material against the approved specification and warehouse it** — corroborating the same practice recorded from their lead-time source.
+
+### ⚠️ The reality check he closes on
+
+- **"5–6 месяцев — это розовые мечты."**
+- **⚠️ "От 15 месяцев" where problems appear: incompetent contractors, supply problems, quality problems.**
+- **⚠️ "Когда мы работаем с опытными специалистами, 70 квадратов ну в среднем где-то за год и делается."**
+- **So the usable triple: ~10 months optimised best case, ~12 months typical with good people, 15+ when things go wrong** — for designer-grade work at ~70 m² including built-in furniture.
+
+### ⚠️ Renovating without a design project
+
+- **"Ремонт без проекта удвоит вот эти вот сроки ещё минимум на 50%."** **His phrasing conflates doubling and +50%; the recorded figure is at least +50%.**
+- **⚠️ The mechanism: "строители зашли в голый бетон, у них нету никакой документации. Вы устанете отвечать на их вопросы: где нам делать, что нам делать, сколько, на какой высоте, на какой ширине, какого цвета."** The cost is your time, your money on rework, and your nerves. **"Любые грамотные строители запросят с вас проект."**
+- **Third statement of this position across the channel** (see also the budget and retrospective sources).
+
+### Relation to this page's existing content
+
+- **Corroborates their own lead-time source with a consistent figure**: 85 working days there against "~4 months of manufacturing" here — **the same number expressed two ways, from the same firm, two years apart.**
+- **⚠️ And it sits usefully against this page's existing converging headline range: those sources measure the construction phase. This one measures the whole chain including design and built-in furniture, which is why it lands materially higher — the two are not in conflict and should not be averaged.**
+
+**⚠️ Caveats: every figure is his company's experience on designer-grade work at ~70 m², not a market norm; the "+50% without a project" claim has no derivation; the ~2-month contingency is a rule of thumb; and he explicitly invites viewers to post their own durations "чтобы сверить компас" — i.e. he does not claim the model is validated beyond his own practice.**

@@ -257,3 +257,18 @@ Krasnov's own real completed studio project. [source: [[_Sources/YT_uPNKwSkxtKg_
 - Surface-mount basin in a "swamp green" (болотный зелёный) tone, paired with brass-toned fixtures and a half-rounded mirror top edge echoing arched cabinet-door fronts — a real applied palette case, kids' bathroom.
 
 `single-account`, `unverified`.
+
+## ⚠️ A Four-Year Failure — Solid Oak Vanity Top Cracked at the Mixer Fixing (FLAT, added 2026-09-02)
+
+**A durability finding disclosed against the source's own interest, and this vault has almost no longitudinal evidence of any kind.** From a furniture manufacturer touring **his own flat** four years after renovation (Михаил, owner of FLAT, St Petersburg). **⚠️ Self-selected source — nobody publishes a retrospective on the job that failed — but this is the failure he chose to show.** `promotional_ratio: medium`. RU, occupied since 2019, video 2023-07. [source: [[_Sources/YT_f6HY6UXDpss_flat_owner_flat_four_years_on|f6HY6UXDpss]]]
+
+- **⚠️ The failure: a solid oak (массив дуба) countertop in his guest WC has CRACKED at the mixer fixing. He calls it "единственный косяк" of the entire flat after four years.**
+- **⚠️ Cause undetermined by him, and he says so: "треснула она то ли из-за воды, то ли перетянулись" the tap fastening.** **Both candidate mechanisms are worth carrying — water ingress at a penetration in end-grain-adjacent timber, and over-torqued fixing hardware — because they imply different mitigations (sealing versus assembly control).**
+- **⚠️ His verdict with four years of hindsight, from the maker who specified it: "я на самом деле поставил бы камень лучше — либо кварц, либо керамику, более всё-таки практичный вариант."**
+- **⚠️ Context that makes it a real finding rather than an anecdote: the countertop was chosen deliberately to coordinate with the niche it sits in, in a flat where he otherwise avoided natural materials entirely** (laminate throughout, no parquet, no veneer — see [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]]). **The one place he did use solid timber is the one place that failed.**
+
+### Where this sits against existing content
+
+- **⚠️ It is consistent with, and evidence for, this channel's own material-appropriateness thesis** — *"чем более натуральный у тебя материал, тем больше он требует ухода"* ([[02_Hallway/analysis/Common_Mistakes|Hallway: Common Mistakes]]) **and the case against массив on materials grounds in the facade series** ([[03_Kitchen/analysis/Furniture_Facade_Materials|Kitchen: Facade Materials]]: MDF-with-veneer is dimensionally stable, improperly dried solid wood has a far higher probability of cracking). **Here the argument is borne out in his own bathroom.**
+- **⚠️ And it corroborates a second rule of his own that he admits breaking in the same room: he "замучился искать узкую раковину" narrow enough to fit alongside the mixer — "надо было сразу предусмотреть вариант расположения смесителя."** **This is precisely the mixer-and-basin-as-one-decision rule he states in his kitchen-mistakes source, and here he is the one who got it wrong.** **Read alongside the existing vanity-cabinet stub-out coordination rule and the mixer-position failures already on this page.**
+- **⚠️ Practical reading for this project: for a vanity top in a wet location, prefer quartz agglomerate or ceramic over solid timber — and where timber is used anyway, treat the mixer penetration as the failure point, sealing it properly and controlling fixing torque.** `single-account`, one flat, four years, self-selected.

@@ -34,3 +34,18 @@ For the dated L-shaped hallway case, the dividing wall cost under 2,000 RUB (sou
 ## Wardrobe-Niche Dimensional-Consistency Check (added 2026-08-19, remainder-pool Round 2)
 
 **⚠️ Verify a storage niche's width is uniform from bottom to middle to top *before* choosing a sliding-door or hinged-door wardrobe system.** A real documented case: a ~4cm dimensional inconsistency across a niche's height made neither a sliding-door nor a hinged-door mechanism installable, forcing a downgrade to a simple shower-curtain-on-a-wire improvised solution instead of real doors. Check this dimensional consistency early, before a door system is ordered. `single-account`, `unverified`. [source: [[_Sources/YT_nbrDFET2AXk_90_mistakes_part2_295|YT_nbrDFET2AXk]]]
+
+## ⚠️ Sliding Wardrobes — Four Reasons Against, Consolidated From One Fabricator (FLAT, added 2026-09-02)
+
+A furniture manufacturer's own position, stated across three of his videos and consolidated here. `promotional_ratio: low` to medium; **he builds both types, and states the position as "мы всегда были против этого решения."** RU, St Petersburg. [sources: [[_Sources/YT_eQdA23i9J8A_flat_ideal_hallway_design|eQdA23i9J8A]], [[_Sources/YT_f6HY6UXDpss_flat_owner_flat_four_years_on|f6HY6UXDpss]]]
+
+**"Если есть возможность не ставить шкаф купе — не нужен он вам. Распашные фасады намного лучше."**
+
+1. **⚠️ Access: opening one leaf blocks the other.** Half the wardrobe is unavailable at any moment.
+2. **⚠️ Appearance: the facades sit offset from one another, and the hardware is visible** — "если не компланарная система, смещение фасадов видишь."
+3. **⚠️ Reliability: "это работает тоже не всегда корректно."** **And the cost of solving that: "если ты хочешь скрытую какую-то систему, корректно работающую, ты за это ещё и заплатишь кучу денег."** **So the sliding wardrobe is cheap only in its unsatisfactory form.**
+4. **⚠️ THE FOURTH REASON, and it is the one this page did not hold — a use-case argument about a SHARED wardrobe: "здесь её часть шкафа, вот там моя часть. Представь: утро, ты просыпаешься, тебе нужно там что-то взять, ей нужно что-то взять — и начинается вот бодание дверьми."** **A two-person wardrobe with sliding doors produces a daily morning conflict that hinged fronts do not, because two people cannot reach their own halves simultaneously.** He describes this in his own bedroom.
+
+**⚠️ His recommendation: prefer hinged facades wherever space allows** — and the space question is the only genuine argument for sliding, not cost or appearance.
+
+**Where this sits against this page's existing content**: the page already compares a walk-in against a simple wardrobe on space cost (~2.5× for the same capacity) and holds real cases where two wardrobes beat one walk-in. **⚠️ This adds the door-mechanism layer underneath that comparison — and reason 4 is specifically about households of two, which none of the existing entries address.** **See also [[01_Entrance/analysis/Storage|Entrance: Storage]] for the same source's entrance-specific wardrobe depths and the ~1,200 mm post-free span constraint.**

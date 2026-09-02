@@ -292,3 +292,23 @@ From the 42 m² delivered object, where **every facade and carcass is ЛДСП**
   - **The one case he calls genuinely bad: cheap chipboard with melamine paper, where holding it to the light shows the sawdust through it** — fit only for very economy furniture. **Corroborates the melamine tell recorded from part 1.**
   - **Metal is not bad where it is appropriate and affordable.**
   - **His analogy: "лучший фасад" is like "лучшая машина" — "Audi RS5 классная машина, а если ты в деревне живёшь, не очень."** Rationality, appropriateness, budget.
+
+## ⚠️ Four-Year Field Evidence for the Cheap-Substrate-Never-Cheap-Hardware Rule (FLAT, added 2026-09-02)
+
+**This page states the allocation rule three times from three of this channel's sources. What it lacked was any observation of the rule's outcome over time.** From the manufacturer touring **his own flat** four years after renovation. **⚠️ Self-selected — nobody publishes a retrospective on the job that failed — so this is one interested data point, not evidence about the products generally.** `promotional_ratio: medium`. RU, occupied since 2019, video 2023-07. [source: [[_Sources/YT_f6HY6UXDpss_flat_owner_flat_four_years_on|f6HY6UXDpss]]]
+
+- **⚠️ The observation: "кухня выглядит практически как новая… три года эксплуатации, здесь вообще ничего не делалось — не зазоры не регулировались."** **Three years of use with no gap adjustment.** He frames it as a deliberate test — *"эксперимент, там ставил сам на себе."*
+- **⚠️ And the specification it rests on, which is the whole point: hardware entirely Blum — drawers and hinges — with "фасады в принципе доступные, недорогие."** **The trade is substrate-only.** **Directly supports this page's existing rule from the 42 m² case ("мы используем ламинат для оптимизации бюджета… но на фурнитуре мы никогда не экономим") with a durability observation rather than another assertion of it.**
+- **A second instance in the same flat: kids'-room bottom drawers on reinforced runners, chosen because books are heavy, "тоже три года работает" with a child who "её не жалеет вообще."**
+- **⚠️ Read against this page's own cheap-hardware failure mechanism** (a hinge on self-tappers turning the carcass side to powder over years, so the repair is a side panel not a hinge): **the two together give both ends of the same axis — what good hardware buys, and what cheap hardware costs.**
+
+### Corroborations restated in a lived flat rather than a showroom
+
+- **Two colours maximum on a kitchen: "кухня выглядит классно, когда у неё два цвета максимум; можно делать один — однотонную, сделать акцент на столешнице."** **Third statement across the channel.**
+- **⚠️ Dark contrasting carcasses: "мы пришли к тому, что корпус мы всегда делаем тёмным, контрастным."** **Second statement, and it confirms the "never white" position recorded from the facade series.**
+- **The film-reverse-face objection, demonstrated in the flat: "ты открываешь — обратки всегда одного цвета; в плёнке такого не будет."**
+- **⚠️ The plastic-countertop rule restated with a clothing analogy worth keeping: "если ты на такую кухню кладёшь столешницу пластик — ты просто убиваешь моментально. Здесь каменная столешница."** His analogy: **an inexpensive T-shirt with good shoes reads better than the reverse — "нужен такой грамотный микс. Сделали себе столешку, сэкономили в последний момент — и у них не кухня, непонятно что."**
+- **⚠️ Built-in fridge only, as standing practice: "это всегда нашей позиции была — отдельно стоящие холодильники не используем."**
+- **⚠️ And one genuinely new constructional data point: furniture to the ceiling on virtually all their objects, AND a live demonstration that a minimal gap to a STRETCH ceiling is achievable — "можно; ну вот пример тебе живой у меня дома. Если руки оттуда, откуда надо, растут, можно много чего сделать."** **Relevant to [[13_Surfaces_and_Finishes/Ceilings_Guide|Ceilings Guide]], which treats the stretch-ceiling-plus-tall-cabinet combination as a constraint** — his position is that it is an execution question, not an impossibility. `single-account`, one flat.
+
+**⚠️ The counterweight from the same source, and it belongs beside all of the above: the one place he used solid timber — an oak vanity top in the guest WC — is the one place that failed, cracking at the mixer fixing, with his own hindsight verdict being that stone would have been better. See [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Bathroom: Mixers, Toilet & Sinks]].**
