@@ -261,3 +261,15 @@ Unchanged from the split pass, and **the merge debt is now clear** — `Lighting
 **⚠️ `08_WC/analysis/Dos_and_Donts.md` is the opposite problem and worth noting here for balance**: this round gave that folder its first dimensional content, and the page is still well short of any threshold. **The folder remains the thinnest room folder in the vault** — one analysis page against `07_Bathroom`'s sixteen.
 
 **`03_Kitchen/Kitchen_Furniture.md` (627 lines / 42 sections) remains the worst page in the vault and is now untouched across seven passes.**
+
+## 2026-09-02 third pass — FLAT / @flat_interio Round 1 (6 videos, 5 pages touched)
+
+**Flagged-page count unchanged at 29 — no page crossed a threshold in this round.** Two already-flagged pages grew materially and their seams are now clearer:
+
+- **⚠️ `03_Kitchen/analysis/General_Dos_and_Donts.md` — 290 → 351 lines in one day**, having taken both Безверхая's RUSSIAN kitchen-legality block (Round 2) and FLAT's ten-mistakes block. **It is now carrying three distinct things and the seam is obvious: (a) kitchen legality and planning constraints, (b) working dimensions and specification minima, (c) use-and-taste advice.** **This is the page to split next after the two named below** — it went from "flagged but proportionate" to genuinely mixed in a single session.
+- **`11_Budget_and_Planning/Renovation_Sequence.md` — 351 → 382 lines.** The pre-site/on-site seam recorded in this file earlier today is now more pronounced, because FLAT's furniture-coordination block belongs firmly on the pre-site side.
+- **`11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium.md` — 440 → 472 lines**, but the growth is the page's own Furniture section finally acquiring absolute figures, which is a gap being filled rather than drift.
+
+**⚠️ Worth recording as the opposite of a problem: `14_Furniture/analysis/Furniture_Dispute_Legal_Recourse.md` was 12 lines and is now 47** — the prevention half (contract, specification, verification, prepayment) added upstream of the existing recourse content. **`14_Furniture/` remains thin relative to its importance to this project**, and this round was the first substantial addition to it in some time.
+
+**`03_Kitchen/Kitchen_Furniture.md` (627 lines / 42 sections) remains the worst page in the vault and is now untouched across eight passes** — notably, this round added kitchen-furniture material to two *other* pages rather than to it, which is the right call for now but widens the gap between where the content is and where a reader would look for it.

@@ -438,3 +438,35 @@ USD at the 12-month trailing mean to 2025-07-06, **90.5626 RUB/USD**; comparabil
 
 - **"Даже если у вас очень много денег, всё самое хорошее ≠ самое дорогое."** Find the price/quality balance, decide what is genuinely a priority, **and be deliberate about what merely needs to be done decently and then left alone.** **Two worked examples: a real-wood floor but the simplest kind, paired with a "wow" kitchen; or the whole accent on the living room with wardrobes in LDSP because the client does not care about them.** **Directly reinforces this page's own cross-tier-coherence discussion above.**
 - **⚠️ Full design management is NOT worth buying on a simple, low-budget renovation** — and she derives it from her own five drivers: a simple interior has simpler technical solutions (painted walls, laminate), no complex engineering, no expensive heavy-to-install materials. **But she draws the line precisely: "придумать, сделать дизайн — скорее нет, а вот разобраться с ремонтом такого уровня сможет любая ремонтная бригада." The designer's value at that level is the design and the drawings, not the management.** **What her comfort-segment studio sells instead is a useful description of a minimum viable engagement: a detailed drawing set any builders can work from, plus a guide to self-managing — what to buy when, how to supervise, what to watch for.** Aimed at ~40–80 m² on a small budget. **A second video the same round confirms she now sells unbundled parts — layout only, layout plus collages, individual visualisations, standalone electrical drawings.** [source: [[_Sources/YT_u8-y7QPc48I_bezverkhaia_kids_room_growing_base|u8-y7QPc48I]]]
+
+### ⚠️ A Real Priced Furniture Package — 42 m², All ЛДСП, St Petersburg 2022 (FLAT, added 2026-09-02)
+
+**This page's Furniture section had one source and no absolute figures. This is a delivered object with a full package price and a stated counterfactual.** From a furniture manufacturer's own channel (Михаил, owner of FLAT, St Petersburg); `promotional_ratio: medium` — it is a walkthrough of their own work — **but the thesis is an anti-upsell: "у нас в мебельной истории есть устоявшийся стереотип, что мебель из ЛДСП — это дрова… сегодня мы этот стереотип будем разрушать," and the entire object is built in the cheapest board.** [source: [[_Sources/YT_-wYdhssCHlI_flat_42m2_ldsp_case|-wYdhssCHlI]]]
+
+> [!WARNING]
+> **⚠️ PRICE-DATE TRAP. The video was uploaded 2024-08-06, but he states the furniture "это был двадцать второй год" — the package was supplied in 2022, and the figures are 2022 prices.** Converting at a 2024 rate would overstate the USD equivalent by roughly a third. **A 12-month trailing basis across 2022 is used deliberately because he gives no month.**
+
+**Object**: a 42 m² St Petersburg flat renovated to a design project — bathroom/WC, kitchen-living room, bedroom. **Every facade and every carcass is ЛДСП, paired with premium hardware.**
+
+| Item | RUB (2022) | USD equivalent |
+| :--- | :--- | :--- |
+| **Whole package, including delivery and installation** | **1,250,000** | **≈$18,300** |
+| Same package in enamel | **~1,600,000–1,700,000** | **≈$23,400–$24,900** |
+| — kitchen | ~400,000 | ≈$5,900 |
+| — hallway wardrobe | ~140,000 | ≈$2,000 |
+| — bedroom composition (large wardrobe + wall-hung desk) | ~300,000 | ≈$4,400 |
+
+USD at the **12-month trailing mean to 2022-12-31, 68.3761 RUB/USD**; comparability aids, not quotes.
+
+- **⚠️ The saving is ~350,000–450,000 ₽ on a ~1.25M package, and he states the ratio twice independently: "разница где-то процентов в 30, в 40" and "экономия бюджета порядка 30%." Use the 30–40% ratio, not the absolute, for anything outside 2022 St Petersburg.**
+- **⚠️ What the saving does NOT come from is hardware: "мы используем ламинат для оптимизации бюджета там, где это нужно, но на фурнитуре мы никогда не экономим."** This object has Grass drawers "такие, какие мы ставим в самые дорогие проекты" and Blum hinges throughout. **The tier trade is substrate-only.**
+- **⚠️ And the cost of choosing the cheap substrate is not quality but colour freedom: Egger offers ~46 decors, ~26 of them greys — "тебе нужна синяя кухня — там один всего синий цвет," against ~1,960 RAL shades for enamel.** Full material detail on [[03_Kitchen/analysis/Furniture_Facade_Materials|Kitchen: Facade Materials]].
+- **Visually, enamel items look dearer — "как раз вот на 30% и выглядят."** He is candid that the money buys the appearance.
+
+**⚠️ Their allocation philosophy on larger projects, and it sharpens this page's cross-tier-coherence discussion**: on a ~200 m² project they mix deliberately — **kitchen in natural veneer or enamel, children's rooms budget-optimised.**
+
+**⚠️ And his reasoning on children's rooms is a genuine planning argument, not just a cost one: "иногда ты делаешь ремонт 2 года. Ты запланировал под ребёнка четырёхлетнего — а ему уже кроватка нафиг не упала. Иди продай это всё." Renovation duration itself invalidates age-specific furniture, so age-specific furniture is the wrong thing to spend on.**
+
+**This completes rather than contradicts Безверхая's kids-room method** on [[05_Kids_Room/analysis/Age_Staged_Planning|Kids' Room: Age-Staged Planning]] — she argues for specifying the *unchanging infrastructure* (sockets, lighting positions, a fixed wardrobe footprint) for the oldest future occupant while treating furniture as cheap and swappable; **he supplies the cost half from the maker's side: do not put veneer, enamel and milling into a child's room. Two trades, same conclusion, arrived at independently.**
+
+**⚠️ Caveats: no area breakdown per item and no per-linear-metre rates, so the kitchen's ~400,000 ₽ cannot be normalised against this vault's per-metre kitchen benchmarks. Brand tiering is a manufacturer's stated practice, not an independent comparison. And his "my own laminate kitchen has five years of use with no problems" is a single self-reported and self-flattering durability data point.**

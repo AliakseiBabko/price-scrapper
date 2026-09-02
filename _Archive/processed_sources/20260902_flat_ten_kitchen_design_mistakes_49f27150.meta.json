@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=CEKciia5vh0",
+  "video_id": "CEKciia5vh0",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T14:05:20.784416+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "49f27150b2a688e846c1a69160cd04c11ca0e63bfe13547e21369813e6e4cb80",
+  "attempts_before_success": []
+}

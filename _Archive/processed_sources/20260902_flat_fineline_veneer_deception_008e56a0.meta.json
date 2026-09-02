@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=pEwESJATTaA",
+  "video_id": "pEwESJATTaA",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T13:53:57.759769+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "008e56a004bdd3a4644a2cd64db9930e7538211a17f957d5a8bc7ebb6715627a",
+  "attempts_before_success": []
+}

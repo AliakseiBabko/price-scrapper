@@ -349,3 +349,34 @@ Moscow designer, **uploaded 2026-08-22, the most recent source in this batch**; 
 10. **Bring the crew on site.**
 
 **⚠️ Gap in this source, worth stating: no costs anywhere** — not for the acceptance inspector, the measurers, the engineering project or the documentation, despite all four being recommended purchases. Any budgeting use needs figures from elsewhere on this folder's pages.
+
+## ⚠️ Furniture Is a Rough-Stage Decision — Blocking, Lighting Power, and the Coordination Chain (FLAT, added 2026-09-02)
+
+A furniture manufacturer's own account of what goes wrong when furniture is commissioned late (Михаил, owner of FLAT, St Petersburg). `promotional_ratio: medium` — **the thesis "come to us early" is also the pitch, and he says so openly** — but the two failure mechanisms are physical and specific, and **he draws an honest scope boundary that excludes most of what a client buys.** RU, 2023. [source: [[_Sources/YT_F7bIf3Pv3X8_flat_when_to_commission_furniture|F7bIf3Pv3X8]]]
+
+**⚠️ His governing premise, and it is why this belongs on a sequencing page: "мебель у клиента должна стоять при любых раскладах."** The furniture gets installed regardless of what was prepared — **so a rough-stage omission does not cancel it, it degrades it or forces a compromise.**
+
+### ⚠️ Failure one — missing blocking/backing (закладные), which he calls problem number one
+
+- **The real case: a ~400 m² house with a great deal of wall-hung furniture — including hung TV units where the television stood *on* the unit rather than being wall-mounted, so the unit carried its own weight plus the TV's, plus small children leaning on it. "Нет ни одной закладной, ничего вообще."**
+- **⚠️ The remediation cost is the point: "для того чтобы сделать, тебе надо просто полдома разобрать."** They compromised instead.
+- **⚠️ The mechanism, stated numerically, and this is genuinely new to this vault: a 4 m-long wall-hung unit fixed into 12.5 mm plasterboard — which he calls "мел с бумагой" — with only the profile studs behind it.** That is what the load actually hangs on when no blocking was installed. **Bears on any wall-hung furniture, TV mount or floating vanity decision, not only kitchens.**
+- **His liability framing explains why the maker cares more than anyone in the chain: "мы же понимаем, что мы эту тумбу привезём, повесим, и она просто упадёт на ногу кому-нибудь."**
+
+### ⚠️ Failure two — under-cabinet lighting missed by the whole chain
+
+- A kitchen arrives already manufactured with integrated lighting, the installers fit it, **and there is no provision to power or switch it.**
+- **⚠️ The chain of omission is the finding: the designer missed it first, then the foreman, then the client's instruction was not tracked, then the installers "тоже никуда не смотрят."** He concedes everyone missing it takes real effort — **and reports it happening.** Fixing it afterwards is "очень сложно, больно и дорого."
+- **⚠️ His diagnosis is diffusion of responsibility, stated as an ideal-versus-real gap: "в идеальном мире должен смотреть строитель, дизайнер, директор, авторский надзор… но в реальном мире такие ситуации очень часто, и вы за них отвечаете."** **This is the practical case for why author's supervision and independent technical supervision are separate roles — a distinction this vault already holds from three design-side sources; here it arrives from the trade that inherits the failure.**
+
+### ⚠️ When to commission, with the scope boundary that makes the advice usable
+
+- **His answer: think about the furniture at the very beginning, before the renovation starts.**
+- **⚠️ But he draws the line himself: a chest of drawers or a bed can be bought at any moment — "я купил, привёз, поставил, с ней не может быть никаких глобальных проблем."**
+- **⚠️ Early commissioning matters specifically for: a kitchen, built-in furniture, wall-hung units, and decorative wall panels.** "Чтобы сделать это хорошо, нужна подготовка."
+- **⚠️ The named coordination chain: прораб + технолог + конструктор of the furniture production + дизайнер. The технолог visits site, checks, takes the necessary measurements and issues recommendations on socket positions, service routing and blocking/backing.**
+- **⚠️ And the cost gradient for delay: "на раннем этапе всё можно сделать… чем дольше ты это всё затянул, тем сложнее эту проблему решать," and once the crew is off site "решать эти вопросы не с кем — это решается просто сложнее и дороже для клиентов."**
+
+**⚠️ Corroborates this page's existing pre-site ordering from the opposite side of the table.** Безверхая's ten-step plan puts technical constraints and engineering ahead of finishes, and her kids-room method turns on placing sockets for furniture that does not yet exist. **This source supplies the physical consequence of skipping that — blocking, and lighting power — from the trade that inherits the problem.**
+
+**⚠️ Gap: no specification for the blocking itself** — no material, thickness, size or fixing pattern, only that it must exist. **And no indication of how early "early" is** in weeks or stages. Anything buildable needs a different source.
