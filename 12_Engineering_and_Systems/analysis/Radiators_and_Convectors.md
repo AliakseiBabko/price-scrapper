@@ -306,3 +306,14 @@ appearance doesn't suit the room, rather than one specific model's spec.
 ## Vertical Radiator Height Coordinated With Future Built-In Furniture (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
 **A real-jobsite example: a vertical radiator installed at a deliberately nonstandard height**, not the usual default placement, specifically so a planned built-in furniture piece (a wardrobe/storage unit) fits around it correctly once installed later. A concrete real-project instance of coordinating radiator placement with furniture layout at the rough-plumbing stage, rather than letting furniture design work around wherever the radiator naturally lands. `single-account`, `unverified`. [source: [[_Sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
+
+## ⚠️ Why the New-Build Series Connection Actually Bites, and американка Valves as a Safety Item (Татьяна Безверхая, added 2026-09-02)
+
+Moscow-area designer, 2022, `promotional_ratio: low` (no sponsor). **Corroborates the radial-versus-sequential distribution content already on this page and on [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Rough Plumbing Sequencing]] — her contribution is the *user-facing* consequence, which those accounts state as an installation-quality issue rather than a control one.** [source: [[_Sources/YT_C5c2g6FzAKQ_bezverkhaia_ten_never_economise|C5c2g6FzAKQ]]]
+
+- **⚠️ Russian new-builds are by default plumbed with radiators connected in series (последовательная система) — and the consequence she names is the one that matters day to day: reducing one radiator's output with its thermostat reduces the output of every other radiator too.** So the per-room control a thermostat appears to offer does not exist on the developer's default system.
+- **⚠️ The fix: convert to a radial/manifold connection (лучевое подключение), where each radiator runs separately from a manifold cabinet and can be regulated independently.** **Corroborates the existing Kruglov/Ontario recommendation** (which praises radial distribution as rare good developer practice and recommends it for any self-installed heating) **from the control side rather than the floor-penetration side.**
+- **⚠️ For an older building on a riser (стояк) system, where radial conversion is not available: fit an "американка" union valve at each radiator so it can be isolated at will.** **⚠️ And she frames this as a safety item, not only a convenience one: if the radiator leaks, close the unions, remove it and replace it** — without waiting on the building's system being shut down.
+- **This sits in her wider "never economise on heating" position**, recorded in full on [[11_Budget_and_Planning/analysis/cost_saving_strategies_full|Cost Saving Strategies]].
+
+**⚠️ No prices, no pipe sizes and no manifold specifications** — the recommendation is directional only.

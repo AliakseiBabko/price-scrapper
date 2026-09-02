@@ -152,3 +152,44 @@ Zone with furniture **detached from both floor and ceiling**, so the eye slides 
 **Or detach from the floor only.** With a wardrobe this costs storage — **upper shelves are less convenient than lower ones, and long clothes become hard to hang** — but it adds real air to a bedroom that previously had a floor-standing wardrobe in the same position.
 
 **Upholstered furniture: reduce the footprint by omitting armrests** — or, where space allows, no armrests instead yields extra seating on the same piece.
+
+## ⚠️ Four Problem Geometries With Their Costs — «Вагон» Rooms, Acute Angles, Curved Contours, One-Sided Glazing (Татьяна Безверхая, added 2026-09-02)
+
+Moscow designer, 2025, `promotional_ratio: medium` (no sponsor; heavy own-studio pitch). **Corroborates this page's existing irregular-geometry content (Кузина's *push the defect into the circulation*, Краснов's angular-room red flag) and adds the numbers those accounts lack.** [source: [[_Sources/YT_v4pHJDpGTSM_bezverkhaia_eight_worst_layouts|v4pHJDpGTSM]]]
+
+### «Вагон» rooms — long and narrow with the window at one end
+
+- **The failure without replanning**: part of the room is dark and part light, **and the furniture ends up along one wall**, leaving a passage she puts at **40 cm** — "там даже самая худая задница застрянет."
+- **⚠️ The verdict is conditional on whether replanning is in scope, which is the actionable half.** With replanning they work well: she reports her studio zoning exactly these rooms in Stalinka projects, **splitting off a separate bedroom, a dressing room and a pantry.** Without it, "вагон — это кошмар."
+- She notes the type is currently very common — worth pairing with the long/narrow-room furniture technique already on this page.
+
+### ⚠️ Acute-angled and sector-shaped rooms — she rates these the worst, and gives the squaring-up cost
+
+Four separate mechanisms, three of which this page did not hold:
+
+- **The acute corners cannot be used functionally** — no sofa, bed or cabinet fits. (Corroborates Краснов's "nowhere to put anything but a dirty mop.")
+- **Left empty they still register**: sharp spaces read as uncomfortable or even dangerous rather than restful. `single-account`, asserted without mechanism.
+- **⚠️ Any non-rectangular furniture made to fit them costs substantially more** — a bespoke item needing templates and per-shelf cutting to the angle. **A real cost consequence of the geometry, not an aesthetic one.**
+- **⚠️ Floor and tile runs against an angled wall produce sliver cuts that "выглядят как щепки."**
+- **⚠️ The remedy and its price: plasterboard constructions that straighten the walls consume 5–7% of usable floor area.** Her question back to the reader — "хотите ли вы за это переплачивать?" **This is the number this page's existing "straighten the habitable volumes" technique (Кузина) did not put a figure on.**
+- **Her tolerance threshold**: one odd-angled storeroom is fine and nobody examines the joinery there; **acute-angled living rooms are a reason to walk away from the property.**
+
+### ⚠️ Curved / oval external contour — four consequences, one of them a hard cost ratio
+
+Her example is the Moscow «Дом-дирижабль», and she reports colleagues worn down by its oval windows.
+
+- **Any cut of any floor material along the curve looks bad.**
+- **⚠️ Convectors for semicircular windows cost 1.5–2× more**, and **anything non-standard ("не квадратно-гнездовое") costs materially more generally.** No base price is attached, so this is usable as a ratio only.
+- **⚠️ The panoramic window "сжирает полкомнаты"** — furniture ends up either centred or along only two walls.
+- **⚠️ Her conclusion is a competence threshold rather than a prohibition**: such a layout demands a genuinely professional ergonomics-and-planning workup, and without paying for one, "сами вы, как обычный обыватель, с такой планировкой не справитесь."
+
+### Few windows, or one-sided glazing in a large apartment
+
+- The far half becomes "царство сплошной тьмы" — no direct light even on a sunny day, with only two of six rooms lit in her example. **She frames it climatically**: half the year is effectively twilight by day, so a layout that removes daylight from most rooms compounds an existing deficit. **Many developers do this.**
+- **Pairs with this page's existing daylight content** and with her own positive criterion — **windows on ideally three sides, at least two.**
+
+### ⚠️ Long narrow «балкон-вагон» — a same-channel corroboration of the two-stage daylight loss
+
+- Long but so narrow nothing fits: something can go at each end, **and the ~4 m middle run is unusable purely for lack of depth.**
+- **⚠️ It also darkens the room behind it, and she states the loss in stages: light is lost at the balcony glazing, then at the solid lower parapet block, then at the room's own window — "в жилых комнатах постоянно полумрак."** **This independently repeats the mechanism recorded from her balcony source in Round 1** (see [[10_Balcony/analysis/Materials_Finishes_and_Layout|Balcony: Materials, Finishes & Layout]]) — **same channel, so a same-source-family repeat rather than independent corroboration, but stated in a different video for a different purpose.**
+- **Her buying-side point: you pay for that useless run when you buy the apartment, never use it, and get a darker room as well.**

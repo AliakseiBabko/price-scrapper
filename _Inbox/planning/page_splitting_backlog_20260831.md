@@ -248,3 +248,16 @@ Unchanged from the split pass, and **the merge debt is now clear** — `Lighting
 **Already-listed pages that grew this round and remain listed, unchanged in priority**: `13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection.md` (now carries six multi-material comparisons plus three Perspectives blocks — **the strongest split candidate of the three, and the Perspectives blocks are a natural seam**), `.../Wallpaper_and_Paint_Application.md`, and `12_Engineering_and_Systems/analysis/Lighting_Design.md`.
 
 **`03_Kitchen/Kitchen_Furniture.md` (627 lines / 42 sections) remains the worst page in the vault and is now untouched across six passes.**
+
+## 2026-09-02 second pass — Безверхая Round 2 (8 videos, 16 pages touched)
+
+**Flagged-page count went 28 → 29. One page crossed the threshold in this round, and one already-flagged page was never entered in this file.**
+
+- **⚠️ NEW: `11_Budget_and_Planning/Renovation_Sequence.md` — now 351 lines against the 350-line guide-page threshold**, crossed by this round's nine-steps-before-the-builders block. **It is one line over, so this is a watch item rather than an action item.** **The seam, if it is ever split, is clean and worth recording now while it is obvious: the page holds (a) the pre-site order — acceptance, constraints, layout, storage, engineering, design, documentation, budgeting, procurement — and (b) the on-site build order, rough-stage QC and acceptance checklists.** Those are two different audiences at two different times; the pre-site half arrived whole in this round and did not exist before it.
+- **⚠️ Already flagged by the tool but never listed here: `03_Kitchen/analysis/General_Dos_and_Donts.md` — now 290 lines / 23 sections** (was 266 / 21 before this round). Added this round: the RUSSIAN kitchen-legality block and the cooking-habits specification rule. **Recording it now so the omission does not persist.** Its own seam: kitchen *legality and planning constraints* versus kitchen *use and specification advice*.
+
+**Already-listed pages that grew this round and remain listed, priority unchanged**: `07_Bathroom/analysis/Planning_and_Layout.md` (now 355 lines — **this round added the largest single block on the page, and it is the strongest split candidate of the group; the natural seam is dimensional ergonomics versus approvals versus servicing access**), `07_Bathroom/analysis/Tile_Selection_and_Layout.md` (290), `11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium.md` (440), `12_Engineering_and_Systems/analysis/Soundproofing.md` (493 — **the largest flagged page touched this round**), `12_Engineering_and_Systems/analysis/Radiators_and_Convectors.md` (319).
+
+**⚠️ `08_WC/analysis/Dos_and_Donts.md` is the opposite problem and worth noting here for balance**: this round gave that folder its first dimensional content, and the page is still well short of any threshold. **The folder remains the thinnest room folder in the vault** — one analysis page against `07_Bathroom`'s sixteen.
+
+**`03_Kitchen/Kitchen_Furniture.md` (627 lines / 42 sections) remains the worst page in the vault and is now untouched across seven passes.**

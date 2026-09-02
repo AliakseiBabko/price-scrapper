@@ -113,3 +113,41 @@ Drawn from Tier 1, weighted toward decisions and rooms rather than product categ
 8. `47` / `cmDRTjRXzy0` — what to do with an empty wall, 10 ways (matches the user's own "N options for one problem" criterion exactly)
 
 **Deliberately excluded from the Round 2 shortlist**: `MA69t391HVA` (interior doors), `anSUN2L91jk` (tiles), `lEtbneNMgyI` (chandeliers) and `Jbr6KUANCYE` (sliding wardrobes) — all Tier 1 by subject, but all product-category subjects and therefore high sponsorship risk on this channel's demonstrated pattern. Worth fetching later, with the expectation of a partial extraction.
+
+## Round 2 results and verdict (completed 2026-09-02)
+
+**Round 2 yield**: 8 videos processed, 146 new facts, yield = **18.25 new facts per processed video** — **up 55% on Round 1's 11.8**, and the highest single-round yield recorded for any channel in this vault. All 8 fetched at ~5.7-minute spacing, zero rate-limit signatures.
+
+| # | ID | Topic | Sponsored? | `fact_yield` | `promotional_ratio` | Outcome |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 6 | `T3b-IS4Rb0E` | Ideal WC/bathroom, 10 rules | one ~90s mid-roll | **34** | medium | Partial (mid-roll excluded) |
+| 2 | `JgDzAoWlyJI` | 10 illegal solutions (RU legality) | No | **19** | medium | Full |
+| 7 | `u8-y7QPc48I` | Kids' room that grows | No | **18** | medium | Full |
+| 8 | `cmDRTjRXzy0` | Empty wall, 10 ways | No | **17** | medium | Full |
+| 5 | `eHxsVHIus5Q` | Renovation step-by-step | No | 16 | medium | Full |
+| 1 | `v4pHJDpGTSM` | 8 worst layouts | No | 15 | medium | Full |
+| 4 | `C5c2g6FzAKQ` | 10 things not to economise on | No | 14 | **low** | Full |
+| 3 | `00GSJPGQLOo` | Why renovation is expensive | No (own services) | 13 | **high** | Partial (advertising filter) |
+
+### ⚠️ The Round 1 triage rule was tested and it worked
+
+Round 1 found that on this channel **sponsorship tracks subject matter, not apparent technicality**, and recommended selecting away from purchasable-product subjects. Round 2 did exactly that.
+
+- **Sponsored: 1 of 8, against 3 of 6 in Round 1.**
+- **Yield rose 55%.** Every video except one cleared 13 facts; the Round 1 floor was 6.
+- **The single high-promotional video (`00GSJPGQLOo`) was the lowest-yielding of the eight** — the same relationship Round 1 found, reproduced.
+- **Conclusion: the rule is now load-bearing for this channel, not a hypothesis.** For any Round 3, keep selecting decisions and rooms over products. The four Tier-1 titles deliberately excluded from the Round 2 shortlist on sponsorship risk (`MA69t391HVA` doors, `anSUN2L91jk` tiles, `lEtbneNMgyI` chandeliers, `Jbr6KUANCYE` sliding wardrobes) remain unfetched and should still be expected to need partial extraction.
+
+### What this round actually filled
+
+- **`08_WC/` got its first dimensional set.** That folder had one page and no measurements; it now has WC widths, front clearances, stack-to-installation distances and bowl projections.
+- **`11_Budget_and_Planning/Renovation_Sequence.md` got the pre-site order** it lacked — the page covered the on-site build order thoroughly and said nothing about the nine steps before a builder arrives.
+- **A consolidated Russian replanning-legality block** now sits on the planning page with the jurisdiction flagged, replacing what had been scattered partial statements across several pages.
+- **`05_Kids_Room/` gained the inverted method** — fix the infrastructure for the final stage, change everything cheap around it — as a counterpart to the existing stage-by-stage planning content.
+
+### ⚠️ Verdict — this channel is now vetted, and Round 3 is genuinely optional
+
+- **Two rounds, 14 videos, 217 facts, yields 11.8 then 18.25 — no decay, and the second round higher than the first.** The Group B premise is definitively broken: this is a Group A-style channel presented by a designer, same as Шеврина and Кузина before it.
+- **⚠️ But the honest reading is that the best material has now been mined.** Both rounds drew from the ~30 Tier-1 titles; **roughly 16 of those are now processed.** What remains in Tier 1 is thinner or product-shaped, and Tier 2 is where the near-duplicate "what cheapens an interior" re-cuts live — the channel states that thesis at least four times (`#74`, `#121`, `#17`, `#9`).
+- **Recommended: stop here rather than run a Round 3 into the tail.** A Round 3 drawn from the remaining Tier 1 would probably still clear the 1.0 floor, but well below 18.25, and the marginal facts would increasingly corroborate rather than add. **Better to re-run `preflight_playlist.py` in a few months for new uploads** — the channel is actively publishing (two of this round's eight are from August 2026) and her unsponsored explainer format is the one that pays.
+- **If a Round 3 is wanted anyway**, the strongest remaining candidates are `2WJc8g2hv0c` (8 tips for choosing an apartment wisely — pairs with this round's worst-layouts source), `_ffQ61silcs` (storage mistakes — pairs with the 20–25% margin rule), `115`/`N7_jmK1L8QM` (an interior that is easy to clean — likely to engage her own barefoot-versus-cleanable tension from Round 1's flooring source), and `71`/`gDs0zPW_khQ` (visually enlarging a small apartment). **Expect a materially lower yield and say so up front.**
