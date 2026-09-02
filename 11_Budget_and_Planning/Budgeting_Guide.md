@@ -779,3 +779,63 @@ A dedicated home wellness/recovery wing (cardio room, dry sauna, steam/massage r
 **⚠️ A specific, practical "furnish for imagined life scenarios" principle with a stated economic incentive**: furnishing a rental unit with "life scenario" details (a coffee machine with capsules visible, a cozy reading chair with a throw blanket) causes prospective guests to subconsciously project their own evening routine onto the space ("I'll read here in the evening"). States this measurably increases both booking frequency and achievable nightly rate compared to a purely utilitarian, feature-only listing. Both the booking-frequency and nightly-rate claims are the source's own unattributed assertion — tag `unverified`.
 
 `single-account`, `unverified`.
+
+## ⚠️ A Three-Way Allocation Split and a Flat-Price Ratio (FLAT, added 2026-09-02)
+
+> [!WARNING]
+> **`promotional_ratio: medium`, and the reason is structural rather than tonal: this is a furniture manufacturer arguing that furniture and appliances deserve the largest share of a renovation budget.** His argument for it is real, but the conclusion is the one that benefits him and must be read that way. **Two things offset it: he argues for hiring a designer, which costs the client money before they reach him; and he gives his own trade's version of behaving well by talking a client *out* of veneer and enamel in a children's room.** RU metropolis centre (St Petersburg company), 2026-03. [source: [[_Sources/YT_tfjxUv9g-bI_flat_budget_allocation_formula|tfjxUv9g-bI]]]
+
+USD equivalents below at the 12-month trailing mean to 2026-03-17, **80.0432 RUB/USD**; comparability aids, not quotes.
+
+### ⚠️ The flat-price ratio, and the arithmetic error it prevents
+
+- **⚠️ His rule: a good renovation costs within about 50% of the flat's price** — "хороший ремонт, что потом ничего не развалилось, при этом приносило удовольствие."
+
+| Item | RUB (2026-03) | USD equivalent |
+| :--- | :--- | :--- |
+| Flat, 50 m², metropolis centre | **15,000,000** | **≈$187,000** |
+| Renovation on it | **~7,000,000** | **≈$87,500** |
+| **Total budget that should have been planned** | **~22,000,000** | **≈$275,000** |
+
+- **⚠️ The anti-pattern as arithmetic: "если вы планируете 18 [млн], и 15 из них тратите на квартиру, три на ремонт — вы просто не вывезете."**
+- **⚠️ The failure narrative names the time cost as well as the money cost, which is why it is worth keeping**: you buy the flat, have 2–3M left, expect the result you saw in pictures, and skip the designer because you think you are economising; **the money runs out "у тебя там ещё белых стен даже нету"; and instead of an imagined two to three months, four or five pass, the money is gone, the flat is unfinished, "и ещё на год стройки это всё уходит."**
+- **⚠️ Applicability caveat, and it matters for this project specifically: the 50% rule is a rule of thumb with no derivation, anchored to a metropolis-centre property price. It will not transfer to a market where the property-price-to-construction-cost ratio differs** — which is precisely the case for this project. **Use the split below rather than the ratio.**
+
+### ⚠️ The allocation split — and an inconsistency in the source, recorded not resolved
+
+- **⚠️ His stated percentages: ~30% labour, ~30% finishing and rough materials, 35–40% appliances and furniture.**
+- **⚠️ His simpler governing principle: "у вас есть отделочные строительные материалы, стоимость самих работ, и стоимость мебели и техники — и вот эти данные примерно должны быть равны."** Roughly equal thirds.
+- **⚠️ His own worked example of the 7M does NOT match his stated percentages:**
+
+| Category | RUB (2026-03) | USD equivalent | Share |
+| :--- | :--- | :--- | :--- |
+| Finishing materials | **~2,500,000** | **≈$31,200** | ~36% |
+| Labour | **~2,300,000** | **≈$28,700** | ~33% |
+| Furniture and appliances | **~2,200,000** | **≈$27,500** | ~31% |
+
+- **⚠️ The stated percentages give furniture and appliances the LARGEST share (35–40%); the worked example gives it the SMALLEST (~31%) and finishing materials the largest.** **The "roughly equal thirds" principle is what both versions actually support, and it is the form to use.** **Note that the version favouring furniture is the one that favours his business, and his own numbers do not bear it out.**
+- **⚠️ Read against this guide's existing category structure**: this is a proportional split across three buckets, not a per-m² benchmark, so it complements rather than competes with the live-intake benchmarks above. **Its use is as a sanity check — if one bucket is running at half or double a third of the total, something has drifted.**
+
+### Design project as a line item
+
+- **⚠️ Average design-project price ~5,000 ₽/m² ≈ $60/m² — so ~250,000 ₽ ≈ $3,100 for 50 m².**
+- **His position: "сейчас уже реально не те деньги, которые есть смысл экономить. Просрёшь больше."**
+- **⚠️ Where the saving is lost instead, named specifically**: buying more material than needed; someone erring because they did not understand the task from the outset; **and "миллиард вопросов" — "вас просто задёргает на стройке прораб. Даже когда есть проект, вопросов много, а когда его нет, их вообще нескончаемое количество."**
+- **What the project buys: an estimate, so the budget is knowable in advance, and a designer who "уже скажет изначально, что реально, что нет, на что вы можете рассчитывать в заданный бюджет." The specification table should list materials, fittings, flooring, walls and their preparation.**
+
+### ⚠️ Scope creep by specialists, stage by stage — a mechanism with worked dialogue
+
+- **⚠️ The foreman: "а тебе стены-то какие нужны? Чтобы прямо ровные были?" You say yes, because you want it done well. "Ровное — это вот другая, у нас другие цифры." The budget is up at stage one.**
+- **The furniture supplier: "что у тебя за шкаф такой? Давай нормальный сделаем, запихаем туда всё, что можно."** **The flooring shop: the designer specified laminate, a consultant sells you quartz-vinyl. "Так везде-везде, по всем инстанциям."**
+- **⚠️ His honest distinction, which keeps this from being cynicism: "когда у человека доброе намерение — он просто к своей работе относится хорошо и настаивает, чтобы было сделано так. А когда это просто превращается в высасывание денег."** Both exist and look similar from outside.
+- **⚠️ And his own trade's version of the good behaviour — third statement of this position across the channel: a client brings a project with the kitchen AND the children's room in natural veneer and enamel. "По идее должны сказать: ну ладно, у тебя же в проекте так, давай сделаем так — мы больше денег получим. В нормальном месте тебе скажут: кто тебе сюда поставил шпон натуральный, Феникс? Зачем тебе это надо? Давай сделаем попроще — сэкономишь денег, будет и быстрее, и дешевле, но картинку мы тебе сохраним."**
+- **⚠️ A first-person case quantifying quote inflation on inspection: his own 100 m² flat's plastering was quoted at 100,000 ₽ ≈ $1,200, and "эти 100.000 превратились через 2 дня в 150" ≈ $1,900 — a 50% increase after a site visit.**
+  - **⚠️ His objection is the process, not the price: "у тебя есть проект, есть фотки — почему ты вдруг посмотрел, у тебя стало дороже? Скажи мне заранее: нам надо приехать посмотреть объект, есть нюансы."** He refused and waited for a recommended contractor.
+  - **And the structural point: "у нас сфера вся живёт рекомендациями," with the trouble traced to having gone outside them — "как только я залезаю туда, где я не по своим нашёл кого-то, начинается."**
+
+### ⚠️ "Перекос номер один," and a contrarian point on finishing
+
+- **The imbalance he names: spend a fortune on finishing materials, then cheap furniture and cheap lighting — "всё, ты проиграл."** His alternative: **engineered board instead of expensive parquet, or instead of onyx and marble in a bathroom, and put the money into better furniture.**
+- **⚠️ The contrarian point, and it is the most interesting thing in the source: "есть какой-то у нас культ отделки — насколько там ровная у тебя эта стена. Да какая тебе разница, насколько она ровная, если туда потом поставишь шкаф? Она должна иметь заданную определённую геометрию в определённых местах, и всё. И ты этого не увидишь никогда."**
+  - **⚠️ Recorded as a counterpoint, not a correction — it engages a large body of existing vault content on wall-flatness classes and acceptance tolerances. It is not a refutation (a cabinet run still needs its wall true, and raking light still exposes a bad wall), but it is a real challenge to treating flatness as a universal good regardless of what will stand in front of it.** A companion note is on [[13_Surfaces_and_Finishes/analysis/Wall_Prep_and_Plastering|Wall Prep & Plastering]] against that page's K1–K4 class ladder.
+- **His argument for why furniture earns the money: "в современном интерьере большую часть дизайна составляет мебель — ты на неё каждый день смотришь, ты ей каждый день пользуешься, взаимодействуешь по большей степени с ней."** **⚠️ Self-serving by construction, and recorded as an argument rather than a finding.**

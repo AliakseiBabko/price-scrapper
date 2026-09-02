@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Ss-JlEvrR2w",
+  "video_id": "Ss-JlEvrR2w",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T14:50:06.128780+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "9d9399ac19cf7b9d184b1568995d20e891a21f47d177d6081067d3625761f926",
+  "attempts_before_success": []
+}

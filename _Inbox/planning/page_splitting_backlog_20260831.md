@@ -273,3 +273,14 @@ Unchanged from the split pass, and **the merge debt is now clear** — `Lighting
 **⚠️ Worth recording as the opposite of a problem: `14_Furniture/analysis/Furniture_Dispute_Legal_Recourse.md` was 12 lines and is now 47** — the prevention half (contract, specification, verification, prepayment) added upstream of the existing recourse content. **`14_Furniture/` remains thin relative to its importance to this project**, and this round was the first substantial addition to it in some time.
 
 **`03_Kitchen/Kitchen_Furniture.md` (627 lines / 42 sections) remains the worst page in the vault and is now untouched across eight passes** — notably, this round added kitchen-furniture material to two *other* pages rather than to it, which is the right call for now but widens the gap between where the content is and where a reader would look for it.
+
+## 2026-09-02 fourth pass — FLAT Round 2 (5 videos, 7 pages touched)
+
+**Page-size check after this round: no page crossed a threshold that had not already.** Two notes:
+
+- **⚠️ `03_Kitchen/analysis/Furniture_Facade_Materials.md` has taken two large blocks in one day** (FLAT Round 1's substrate/facing taxonomy and Round 2's part-2 additions) and is now the vault's densest single-topic materials page. **It is still under the detail-page threshold and the content is genuinely one topic, so this is a watch item rather than a split candidate** — but if it takes another facade source it should be split by **substrate / facing / hardware-interaction**, which is how both FLAT videos are themselves organised.
+- **`11_Budget_and_Planning/Budgeting_Guide.md` (already the second-worst page in the vault by line count) took the three-way allocation split.** That page's problem is unchanged in kind — a long tail of appended live-intake benchmarks — and this addition is a framing section rather than another benchmark, so it does not worsen the seam. **The seam remains: framing and categories, versus the benchmark ledger.**
+
+**`03_Kitchen/analysis/General_Dos_and_Donts.md` — flagged in the previous pass as having gone from proportionate to genuinely mixed in a single session — took a third block this round and remains the page to split next after the two named earlier.** It now carries kitchen legality, working dimensions, use-and-taste advice, and hardware/mechanism scepticism.
+
+**`03_Kitchen/Kitchen_Furniture.md` (627 lines / 42 sections) remains the worst page in the vault and is now untouched across nine passes** — and the gap noted last pass has widened: this session added substantial kitchen-furniture material to three other pages while leaving it alone.

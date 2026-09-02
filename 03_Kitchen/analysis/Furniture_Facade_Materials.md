@@ -228,3 +228,67 @@ From the 42 m² delivered object, where **every facade and carcass is ЛДСП**
 - **⚠️ A hardware compatibility trap with a number, and only a fabricator states this: most hardware, especially European, is designed for 18 mm board. With 16 mm laminate the profile protrudes by a couple of millimetres — "за этим надо внимательно смотреть, это касается всей фурнитуры."** **Directly relevant given this page's finding that Russian-plant Egger arrives at 16 mm and Belarusian at 18 mm.**
 - **Aluminium Gola profiles are used identically across laminate, veneer and enamel** — handle-free detailing is not tier-dependent.
 - **⚠️ The hard rule that makes the cheap substrate work: "мы используем ламинат для оптимизации бюджета там, где это нужно, но на фурнитуре мы никогда не экономим."** On that object: Grass drawers "такие, какие мы ставим в самые дорогие проекты," and Blum hinges throughout. **His non-obvious fourth reason for those hinges: the option of a limiter, so a facade set tight against a wall does not strike it when opened.**
+
+## ⚠️ Part 2 of the Fabricator's Facade Series — a Correction, Stone-Facade Engineering, and His Own Allocation (FLAT, added 2026-09-02)
+
+> [!IMPORTANT]
+> **Manufacturer's own channel; advertising filter applies by default.** `promotional_ratio: low` — the only pitch is a Telegram offer to critique viewers' kitchen photos, and **he closes on a thesis that legitimises every tier including the cheapest.** [source: [[_Sources/YT_Ss-JlEvrR2w_flat_facade_materials_part2|Ss-JlEvrR2w]]]
+>
+> **This is part 2 of the pair whose part 1 is recorded above.** Only what part 1 did not cover is set out here, plus **one correction to it and one inconsistency in the source's own figures.**
+
+### ⚠️ Correction to part 1 — laminate CAN be machined, just not decoratively
+
+**Part 1 (recorded above) says flatly that ЛДСП cannot be milled. Part 2 draws the distinction, and this is the accurate form to use:**
+
+- **ЛДСП accepts functional machining — a hinge-cup recess, holes for runner fixings, a cut-out for a Gola profile — "оно с этим живёт, всё окей," and none of it is visible once assembled.**
+- **⚠️ What it cannot take is decorative milling on the visible face** — a pattern, texture, grooves or recesses. **"Сделать ты это можешь только из МДФ."**
+- **This also refines this page's existing economy-tier note** that ЛДСП "cannot be milled/routed into any relief or curved profile and stays perfectly flat" — true of the *face*, not of the fabrication.
+
+### ⚠️ The source's own colour counts are inconsistent — flagged, not reconciled
+
+- **Part 2: "по-моему, 24 декора под дерево и… около тридцати однотонных"** — hedged by him.
+- **The 42 m² case source: ~46 Egger decors, ~26 greys, ~20 colours.**
+- **Enamel: 1,950 "по НЦСу" here; ~2,000 RAL in part 1; ~1,960 RAL in the 42 m² source.** This page's existing Kruglov entry says **2,000+ shades (RAL or NCS)**.
+- **⚠️ The order of magnitude is stable and the argument does not depend on the exact count — a few dozen laminate decors against roughly two thousand paint shades. Do not quote any single figure from this channel as precise.**
+
+### ⚠️ Stone facades — the mounting engineering, entirely new to this page
+
+- **Stone imitation on plastic: used very rarely — "ещё дерево как-то похоже на натуральное; камень совсем не то."** **The one exception he grants: Egger's concrete-look is "неплохо сделан."**
+- **⚠️ Natural marble on a facade must be thinned, because slabs come at 20 or 30 mm and are far too heavy: "если ты вот это повесишь на фасад, у тебя ни одна фурнитура его не выдержит."** Natural stone also absorbs, so a worktop risks spoiling in normal use and facades are delicate. Cost "в космос," to the point he calls it effectively pointless.
+- **⚠️ The practical route is quartz agglomerate — "на 90% камень, на 10% пластик" — at 5 mm on facades, never 20 mm.** Matte or gloss; **matte is the better choice for contemporary interiors.**
+- **⚠️ And the construction, which is the genuinely new part: you cannot bond a drawer box or hinge to stone, and drilling it cracks it — "почти нереальная задача." A substrate is mandatory.** Two he shows:
+  1. **Painted MDF with the 5 mm stone bonded to its face; the drawer box fixes to the MDF.** Only stone is visible.
+  2. **MDF painted on the reverse (any colour, tactilely pleasant) plus an aluminium frame, with the stone bonded on top.**
+- **⚠️ The same aluminium-frame substrate also takes thin veneer or glass** — so it is a general carrier for heavy or fragile facings, which extends part 1's glass-on-a-frame-for-weight finding into a principle.
+
+### Plastics — HPL distinguished, and the one case for AGT
+
+- **⚠️ HPL is a distinct product, not a synonym: "он более толстый, слоистый — у него есть слои, как в фанере."** Everything else is "просто пластик, как ты его не назови."
+- **⚠️ Four objections to the expensive plastics, which is why they avoid them**: much dearer than laminate, with a good plastic "стремится уже к эмали, к шпонам" and sometimes exceeding them; **far fewer colours than enamel — "возьмём Феникс: вот у тебя все цвета, всё, больше нет"**; **fingerprints remain**; **and any plastic still carries edge banding where enamel has none.**
+- **⚠️ The economising trap, specific and easy to walk into: cheap plastic application leaves the reverse white — so opening a door adds a colour to the kitchen. Cladding both faces in expensive plastic is very costly — "готовь бабки."** **Corroborates this page's existing note that a filmed facade's rear is white by default, and extends it to plastics.**
+- **⚠️ The one case where AGT plastic is the rational choice: white gloss.** AGT is relatively cheap against Fenix — **"может, в два раза даже дешевле"** (his own estimate, hedged) — **and gloss in enamel costs substantially more than gloss in plastic.** His caveat: gloss is "для продвинутых пользователей," to be used carefully, and appears less often in contemporary interiors.
+- **⚠️ Matte grades as vocabulary: lacquers come at 10% and 20% matte, and the mattest is "пятёрка" (5%).** Fenix reads slightly more matte owing to a deeper structure, **but enamels can achieve a similar effect.**
+
+### Metal and metal-effect facades
+
+- **Metal-effect via enamel** — brass, copper, oxidised and non-oxidised copper — using polyurethane enamels plus additives for rubberised, metallic, matte or gloss surfaces. **⚠️ This is his stated reason for building around enamel: "эмаль универсальна… любой каприз она может выполнить" — but "с ней нужно уметь работать."**
+- **⚠️ Actual metal facades he scopes out of ordinary residential use — "больше тема коммерции: ресторанных кухонь, больших зон для готовки, загородных домов со специальными техническими кухнями."**
+- **⚠️ The durability objection is the reason, and it is a repairability argument this page can use: "поцарапал ты этот фасад — что ты с ним сделаешь? Ничего, будешь менять. Дорого ли это стоит? Да, дорого."** Copper will also oxidise.
+
+### ⚠️ His own current renovation, as a worked allocation
+
+**Recorded because it is the maker spending his own money, and it is the clearest statement of the channel's position:**
+
+- **Flooring engineered board; kitchen in natural veneer combined with Fenix; and all other furniture in ЛДСП — "я не олигарх, делать всё вокруг в шпоне, в эмали смысла нет. У меня 70% мебели будет сделано в ЛДСП." No milling anywhere, because his design does not call for it.**
+- **⚠️ The demonstration: he holds ЛДСП, veneer and Fenix samples together — "он имеет практически такой же оттенок, один в один. Оба этих цвета сочетаются со шпоном. Разницы визуально практически нет никакой." Conclusion: "зачем тебе в два раза больше денег отдавать, например, за гардеробный шкаф?"**
+- **⚠️ So the operative rule is two-part: choose the colours correctly, then use the materials rationally.**
+- **⚠️ Carcasses: they mostly use contrast — dark carcass with light facades or the reverse — "но не белый. Белый смотрится некрасиво."** **A specific rejection this page's existing carcass-colour ladder (economy white/light-grey, premium matched to facade) did not contain.**
+- Worktop quartz agglomerate; bathrooms in an inexpensive porcelain chosen for a colour that coordinates with everything — **"по факту ты эту плитку в интерьере не видишь, она за закрытыми дверьми, но со всем остальным она всё равно сочетается."**
+
+### ⚠️ The closing thesis, and a coherence argument from a materials supplier
+
+- **"Иногда в квартире ходишь — ты в зале, зашёл в другую комнату, там другая картина, как в другой мир попал… В этом дизайна нету. Дизайн есть тогда, когда у тебя всё между собой концептуально совпадает. И материал в этом случае не так важен."** **Concept coherence rated above material grade, by someone who sells material grade.**
+- **⚠️ And the thesis itself: "нету такого понятия — плохой фасад, хороший фасад. Есть фасад, сделанный плохо."**
+  - **The one case he calls genuinely bad: cheap chipboard with melamine paper, where holding it to the light shows the sawdust through it** — fit only for very economy furniture. **Corroborates the melamine tell recorded from part 1.**
+  - **Metal is not bad where it is appropriate and affordable.**
+  - **His analogy: "лучший фасад" is like "лучшая машина" — "Audi RS5 классная машина, а если ты в деревне живёшь, не очень."** Rationality, appropriateness, budget.

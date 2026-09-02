@@ -66,3 +66,28 @@ than needing to be dragged or lifted. `single-account`, `unverified`.
 **Fourth data point — hanging-rod, drawer, and open-shelf depths named together with a matching-clothing caveat (Konstantin Kruglov / Ontario, added 2026-08-28)**: for a hanging-rod section, ideal depth is **60cm**, with **55cm** an acceptable compromise only after physically test-fitting the household's own actual garments on hangers — a shallower zone risks the door facade catching and creasing clothing on close, "a detail almost nobody thinks about." **Open shelves should be shallower, 35-45cm** — corroborating this page's existing ~35-40cm/40cm shelf-depth-for-retrieval rules above (Kodolov, LA BURO) via a third independent source, with the same reasoning (a 60cm-deep open shelf forces multi-row stacking, burying and losing track of whatever sits in the back row). **Comodo-style pull-out drawers get their own figure, 55-60cm** — deep enough for two rows of folded items facing the user on opening, distinct from the open-shelf figure precisely because a drawer's whole front row slides into view rather than needing to be seen from above. [source: [[_Sources/YT_2rU14i9NqOk_kruglov_walkin_closet_dream_guide|YT_2rU14i9NqOk]]]
 
 **Shelf-height ladder by content type, new granularity within the existing 3-tier vertical layout (Konstantin Kruglov / Ontario, added 2026-08-28)**: within the "bulky/seasonal" shelf band above the 2m clothing-rod line, don't build uniform-height shelves throughout — size each shelf's height to what it holds. **Thin folded items (t-shirts): 18-25cm.** **Bulkier folded items (jeans, sweaters): 25-30cm.** **Bedding/towels: 30-40cm.** Kruglov's stated failure mode for uniform oversized shelves: the bottom ~30% of a too-tall shelf gets used, then items above either topple or crush what's underneath, leaving the rest of the shelf's height permanently wasted. `single-account`, `unverified`. [source: [[_Sources/YT_2rU14i9NqOk_kruglov_walkin_closet_dream_guide|YT_2rU14i9NqOk]]]
+
+## ⚠️ Pantographs — a Price Ladder, and the Case for Not Buying One (FLAT, added 2026-09-02)
+
+A furniture manufacturer reacting to viral Chinese mechanism clips (Михаил, owner of FLAT, St Petersburg). `promotional_ratio: low`. **⚠️ He is judging from video without having handled these products and says so repeatedly — "сложно оценивать по фотографии," "пока она тебе в руки не попала, ты не можешь знать, какие там возможные регулировки." So the verdicts are informed scepticism, not test results; the reasoning is what generalises.** [source: [[_Sources/YT_qaul6W5jioY_flat_chinese_furniture_mechanisms|qaul6W5jioY]]]
+
+The wardrobe lift-down rail («пантограф»), RU, 2026-02:
+
+| Tier | RUB | USD equivalent |
+| :--- | :--- | :--- |
+| Cheap | **~13,000** | **≈$160** |
+| Good — better spring mechanism, more reliable | **~30,000–40,000** | **≈$370–$490** |
+| Servo-driven | **~70,000** (his estimate, "70 точно будет стоить") | **≈$870** |
+
+USD at the 12-month trailing mean to 2026-02-16, **80.8956 RUB/USD**; comparability aids, not quotes.
+
+- **⚠️ The cheap tier is dismissed on usability rather than durability: "адский ад такой штукой пользоваться."**
+- **⚠️ A hidden cost this page's accessory content did not name: the nodes and mountings consume usable wardrobe volume** — "они место в шкафу занимают полезное."
+- **⚠️ His rationality test, and it is the item to carry: "в 90%, 95% случаев… почему ты не можешь просто спустить штангу нормальную, человеческую, вешать всё это на плечики и сэкономить кучу денег?"**
+- **⚠️ The one case he grants as genuinely justified: a wardrobe where clothes hang below AND a second row of hanging clothes is needed above, out of reach.** **This is the test to apply against this page's existing vertical-tiering and zone-depth content — a pantograph is a second-tier-hanging solution, not a general convenience.**
+- On the servo version: it is mains-powered, so **a supply has to be designed in**, and the clip he is shown is a showroom.
+
+### ⚠️ Procurement reality for exotic mechanisms
+
+- **To obtain a mechanism seen in a viral clip you approach the Chinese supplier directly, "и они скажут: берите фуру." Ask for a single unit and the answer is effectively a prohibitive one-off price.**
+- **⚠️ So a mechanism seen online is frequently not procurable as a one-off at sane cost — check availability before designing around one.** (His "один за 2 млн" line is rhetorical exaggeration and is deliberately not recorded as a price.)

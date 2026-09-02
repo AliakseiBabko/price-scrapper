@@ -117,3 +117,40 @@ Fetched serialized at ~5.7-minute spacing, anonymous, `--languages ru,en`.
 **⚠️ And one borderline candidate worth a deliberate decision rather than a default skip**: `f6HY6UXDpss` — «Обзор квартиры собственника мебельной компании FLAT. Как выглядит ремонт спустя 4 года». **A four-year durability retrospective on a real occupied flat is longitudinal evidence this vault has almost none of** — but it is the owner's own flat and therefore maximally flattering, and it is the same flat behind his five-years-no-problems claim. **Worth fetching with the self-selection bias stated plainly in the note, or skipping on principle. Flagging rather than deciding unilaterally.**
 
 **Expected Round 2 yield: lower than 21.0.** Round 1 deliberately took the six strongest Tier-1 titles, and three of the five above are shorter-format or narrower in scope.
+
+## Round 2 results and verdict (completed 2026-09-02)
+
+**Round 2 yield**: 5 videos processed, 98 new facts, yield = **19.6 new facts per processed video** — down slightly from Round 1's 21.0, **which is what was predicted when this round was scoped.** All 5 fetched at ~5.7-minute spacing, zero rate-limit signatures.
+
+| # | ID | Topic | `fact_yield` | `promotional_ratio` | Outcome |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | `Ss-JlEvrR2w` | Facades in hand, part 2 | **28** | low | Full |
+| 3 | `FuUNVfOtRMs` | Why fabrication takes so long | **20** | medium | Full |
+| 5 | `tfjxUv9g-bI` | What a renovation really costs | 18 | medium | Full |
+| 4 | `-jt-HwQWdJA` | Italian versus Russian furniture | 17 | medium | Full |
+| 2 | `qaul6W5jioY` | Chinese furniture mechanisms | 15 | low | Full |
+
+**⚠️ `f6HY6UXDpss` (the four-year durability retrospective on the owner's own flat) was deliberately left unprocessed.** It was flagged at the end of Round 1 as the user's call rather than a default skip, and no decision has been given. **Still open, and still the only source of longitudinal evidence this channel offers.**
+
+### Two rounds, running totals
+
+**11 videos, 224 facts, yields 21.0 then 19.6 — no meaningful decay.** Twelve pages touched across five folders.
+
+### ⚠️ The most valuable outcome was a correction, not an addition
+
+**Round 1 recorded flatly that ЛДСП cannot be milled. Part 2 of the same facade series drew the distinction: functional machining yes — hinge cups, runner holes, Gola cut-outs — decorative milling on the visible face no.** The accurate form is now on the page, and it also refines a pre-existing Kruglov statement there. **This is the second time a same-channel part 2 has been worth processing specifically to check part 1** (the first being Безверхая's two-part balcony/daylight repetition), and it is an argument for finishing a series rather than sampling one episode of it.
+
+**It also produced the round's second useful negative: the channel's own numbers are inconsistent in detail.** Laminate decor counts differ across three of his videos, and enamel shade counts across all three. The order of magnitude is stable; the specific figures are not, and the page now says so.
+
+### ⚠️ What the round confirmed about trusting this channel
+
+Round 1's verdict was "trustworthy on materials it sells, with caveats, on behavioural evidence." **Round 2 held, and added the strongest instance yet: he shows his own designer, on camera, offering to lie to a client about the lead time — and does not cut it.** He also states that his own scale does not make him cheaper, undercuts his own 25–30% price claim by demanding a like-for-like specification, and talks a hypothetical client out of veneer in a children's room for the third time across the channel.
+
+**The one place the bias does show, and it was caught by arithmetic rather than by tone**: in the budget video his stated percentages give furniture and appliances the largest share, while his own worked example gives it the smallest. **That is exactly the shape a self-serving thumb on the scale takes, and it is why the "roughly equal thirds" form was recorded instead of his percentages.**
+
+### ⚠️ Verdict — the channel's furniture core is now mined out; recommend CLOSING it
+
+- **Eleven of the ~22 Tier-1 titles are processed, and crucially all of the fabricator-insider ones are.** Facades (both parts), hardware, lead times, market structure, contracting, coordination, a priced case, kitchen mistakes and budget allocation. **The trade knowledge that justified processing a manufacturer's channel at all has been extracted.**
+- **What remains in Tier 1 is the general-renovation and design cluster** (`SLTml8mznnI`, `YAq6gvJL6Fc`, `Gr_xR6mdz7M`, `cdGOp4o7Xd0`, `PUQD906Sn9Q`, `eQdA23i9J8A`, `kCB4XxkwNag`, `XUrNsdsDwts`, `1GwotkpmbSU`, `q2fZjFubeJk`, `z_GBJo8Czlc`) — **and Round 1's scope finding was that this channel is good for furniture and nothing else.** Round 2 tested that with one cost video and it did clear the bar, **but as a budget-framing source rather than a technical one, and the vault already holds far better-sourced design content from designers.**
+- **⚠️ Recommendation: close the channel here rather than run a Round 3 into the design cluster.** The exception worth making is a **single narrow round of two** if the user wants completeness: `eQdA23i9J8A` (ideal hallway — `02_Hallway` remains an under-served room and this is a furniture maker on built-in hallway storage, which is his trade) and `q2fZjFubeJk` (renovation duration and an "ideal schedule" — pairs directly with the lead-time source just processed). **Both are furniture- or schedule-adjacent, which is where this channel earns its keep. Expect well below 19.6.**
+- **⚠️ And `f6HY6UXDpss` remains the one genuinely distinctive unprocessed item on the channel** — a four-year retrospective on an occupied flat, maximally self-selected but longitudinal. **Still the user's call.**
