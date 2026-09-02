@@ -518,4 +518,11 @@ Real completed studio projects — no third-party attribution needed. [sources: 
 - **⚠️ Scene-based, function-coded office lighting**: white light for concentration/focus, red light as a graphic accent supporting black furniture profiles — a specific "light color as a work-mode signal" technique. [source: XU7YAfZ9xuM]
 - Vertical light strips flanking a bed running up to the ceiling — extends existing vertical-light-line content with a bedroom-specific case. [source: XU7YAfZ9xuM]
 
+## ⚠️ Mirror-for-Dim-Kitchen Reflective Technique and the James Turrell Multi-Scene Lighting Reinforcement (Игорь Краснов, added 2026-09-02, Round 10)
+
+- **⚠️ Mirror-for-dim-kitchen technique**: a mirror panel placed over the dining table or on a free wall specifically to bounce/amplify light and visually enlarge a DIM, small-window kitchen — flagged specifically for the "twilight zone" effect common in Russian-climate kitchens (long winters, small windows, low ceilings). A distinct application context from this vault's general small-space mirror-expansion content — full kitchen-specific entry on [[03_Kitchen/analysis/General_Dos_and_Donts|Kitchen — Do's and Don'ts]]. [source: [[_Sources/YT_zfdo0R0g-PQ_krasnov_kitchen_trends_2025_leaving|zfdo0R0g-PQ]]]
+- **⚠️ James Turrell's "light as architecture" principle, reinforcing (not new) this page's existing multi-scene lighting content**: a design methodology video framing light itself as the material/architecture, citing artist James Turrell by name, translates into designing a SEQUENCE of light states across the day's real-life scenarios (arrival, quiet pause, dinner, contemplation, socializing) rather than a fixed single switch scheme. **This corroborates and extends Round 9's `OWIBkORaQX4` (general/task/accent taxonomy) and the archetype video's Environment/Sensation-archetype 4-5-scene lighting requirement** — the artistic framing (Turrell, cited by name) is the new element; the underlying multi-scene principle is not duplicated in full here. Full artist-principle framework on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor and Finish Selection Technique]]. [source: [[_Sources/YT_6xaRdgCp_U0_krasnov_counterintuitive_principles|6xaRdgCp_U0]]]
+
+`single-account`, `unverified`.
+
 `single-account`, `unverified`.

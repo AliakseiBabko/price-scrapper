@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=zfdo0R0g-PQ",
+  "video_id": "zfdo0R0g-PQ",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T10:08:19.880892+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "3497bcb193350bc879a8378c9769381055f3b81cb413b677123e0a8c3889ef6f",
+  "attempts_before_success": []
+}

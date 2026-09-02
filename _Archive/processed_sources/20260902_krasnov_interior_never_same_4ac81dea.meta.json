@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=Qccoybb9-ok",
+  "video_id": "Qccoybb9-ok",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T10:08:05.501375+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4ac81deafb21f785281048c9d3833515166d798184027ccbf995e7f7732ce74f",
+  "attempts_before_success": []
+}

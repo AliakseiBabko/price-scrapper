@@ -771,3 +771,11 @@ From a celebrity real-estate trivia video otherwise confirmed weak (`fact_yield:
 A dedicated home wellness/recovery wing (cardio room, dry sauna, steam/massage room, cold-plunge pool) described as a real space-planning category in an anonymous ultra-high-end residence, distinct from a standard bathroom. Recorded here only as an aspirational category for awareness — not a recommendation applicable to this project's own standard-apartment scope or budget.
 
 `single-account`, `unverified`.
+
+## 5j. Short-Term-Rental Staging Insight — "Life Scenario" Furnishing (Игорь Краснов, added 2026-09-02, Round 10)
+
+**Brief entry, tagged explicitly as only tangentially relevant to an owner-occupied renovation** — this project's own plan is not a short-term rental, but the mechanism is worth recording for awareness. [source: [[_Sources/YT_a9IZ07lhpeM_krasnov_cozy_home_episode|a9IZ07lhpeM]]]
+
+**⚠️ A specific, practical "furnish for imagined life scenarios" principle with a stated economic incentive**: furnishing a rental unit with "life scenario" details (a coffee machine with capsules visible, a cozy reading chair with a throw blanket) causes prospective guests to subconsciously project their own evening routine onto the space ("I'll read here in the evening"). States this measurably increases both booking frequency and achievable nightly rate compared to a purely utilitarian, feature-only listing. Both the booking-frequency and nightly-rate claims are the source's own unattributed assertion — tag `unverified`.
+
+`single-account`, `unverified`.

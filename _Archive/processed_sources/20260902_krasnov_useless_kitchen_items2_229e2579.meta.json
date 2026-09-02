@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=FsGLnB6llsw",
+  "video_id": "FsGLnB6llsw",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T10:07:07.812167+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "229e2579504715f4ce2d4c68073287f605216a0048658c6459fc836718966c5a",
+  "attempts_before_success": []
+}
