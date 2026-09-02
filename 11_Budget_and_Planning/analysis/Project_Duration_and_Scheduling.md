@@ -238,3 +238,46 @@ automatically.
 - [[_Sources/YT_2weWrKT42aY_forcemontage_20_reasons_schedule_slip|Forcemontage — 20 reasons your timeline will slip]] (2019-06-17).
 - [[_Sources/YT_c3gqyNTvFTc_vitiongroup_real_cost_and_timeframes|VitionGroup — real cost and work timeframes]] (2022-12-03).
 - [[_Sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|Konstantin Kruglov/Ontario — the whole truth about how long renovation takes]] (2024-10-28).
+
+## ⚠️ Custom-Furniture Lead Time — 85 Working Days, Where They Go, and Why Short Quotes Exist (FLAT, added 2026-09-02)
+
+**This page covered construction duration and how to vet an unrealistically short construction quote. It had no furniture-specific equivalent, and — more usefully — no supply-side account of *why* short quotes get given.** From a furniture manufacturer's own channel (Михаил, owner of FLAT, St Petersburg; **300+ projects over 10 years**). `promotional_ratio: medium` — **the video defends his own quoted lead time, so the framing is self-interested and is recorded as such.** RU, 2024. **No prices anywhere.** [source: [[_Sources/YT_FuUNVfOtRMs_flat_furniture_lead_times|FuUNVfOtRMs]]]
+
+### The figure and its breakdown
+
+- **⚠️ Their quoted lead time for a complex whole-project furniture package: 85 working days** (~17 weeks; he calls it "4 месяца" himself).
+- **⚠️ Roughly 35 working days of that is pre-production, before anything is cut**: drawing development, **linear-angular measurements in two or three stages**, preparation of the technical brief for the builders, and client approvals. **"Это вот большой пласт работы."**
+  - **⚠️ And it stretches for a reason outside the maker's control, which is worth recording because this page's delay mechanisms are all trade-side: "иногда срок затягивается по причине того, что сами клиенты не могут с супругом договориться, какая полка будет — зелёная или красная." "Тут не всегда проблема в мебельщике."**
+- **⚠️ The clock is gated by the renovation itself reaching the final-measurement point (чистовой замер)** — this is built-in work with interlocked gaps, wall panels, hidden profiles and doors, not a free-standing item delivered to a room.
+- **⚠️ Then procurement, and the segment split is the actionable part: "когда ты работаешь в эконом-сегменте, у тебя фурнитура доступная в наличии на складе — вот тебе привезут за 2 дня. Работая в премиуме, у нас сложные системы, которые из Италии, из Австрии, из Германии к нам едут — это долго."** **So a premium specification buys a longer schedule, not only a higher price — a trade-off this page's tier content did not connect.**
+  - They report **quotas on sheet material for several years**, and refuse to substitute: "мы не можем клиенту сказать: давайте мы вам барахло поставим, потому что нету."
+  - **⚠️ A single missing component blocks the whole item: "иногда одной системы нет — ты кухню не можешь сделать, всё без неё невозможно."**
+- **⚠️ Only once all material is gathered does it combine with the final measurement**: the технолог enters corrections into the drawings, re-approves with the client, material sits in the workshop's stock, briefs are printed — **"вот только тогда начинается изготовление."**
+- **⚠️ And the counter-intuitive conclusion: fabrication is not the long pole. "Само изготовление на фоне всех вот этих предварительных [этапов] не такое и большое"** — conditional on the shop owning the necessary equipment.
+- **Painting and milling add time** (assembling paint and components, hand sanding), **and he notes the same painted facade can be produced to very different standards — "разные маляры, разные степени подготовки, шлифовки, и разные руки маляра."**
+- **Then assembly, pre-shipment checks of every mechanism, packing, delivery — "тебе приезжает 3 тонны мебели на объект" — unloading and installation without damage.**
+- **⚠️ Late changes add time and they mostly accept them**: "всё уже почти собрано, и там кто-нибудь просыпается." They state a revised date rather than refuse. **Designer-initiated changes are also frequent.**
+- **⚠️ Quotation itself takes time, which is a useful expectation-setter: "у нас расчёт занимает 5 рабочих дней"** — "есть же во всей этой истории очерёдность."
+
+### ⚠️ Why short quotes exist — two named supply-side causes
+
+**This page's existing section on vetting an unrealistically short quote explains how to test one. This explains where they come from.**
+
+1. **⚠️ A company takes a project it cannot scope.** His worked case: a project in natural walnut or oak veneer with painting and milling, taken to a shop that makes chipboard kitchens — **"у них специализация другая, не жди от этого чего-то хорошего."** **He is explicit they may be genuine professionals in their own segment and still mis-estimate: "они профессионалы в своём, и могут сами неадекватно оценить сложность работы."**
+2. **⚠️ Sales staff quote whatever wins the contract, because of a target.** "Есть план от руководства… ему самому, вот конкретному менеджеру, [всё равно] что там будет дальше — в срок это будет, не в срок." **The manager may not see the whole picture; management's instruction is "нам нужны контракты до такого-то числа, делайте что хотите," to solve a current cash problem.** He hesitates before saying it on camera — "можно об этом говорить вообще? Ну по факту это так есть."
+
+### ⚠️ Two stories that quantify the trade-off, including one against his own firm
+
+- **The lost client: they quoted 85 days, a competitor said 40, and the client went elsewhere for the remaining furniture. "У нас кухня-то уже дома стоит" — FLAT's kitchen was installed and in use while that client still waited.** **"Достаточно много клиентов мы потеряли, когда люди слышат срок."**
+- **⚠️ The dishonesty demanded by the buyer, observed live in his own showroom.** A couple who had just been burned elsewhere — serious defects with hidden doors and panels, six months waiting — hear 85 working days and stand to leave. **Their own designer offers: "давайте я вам скажу два, а не 4 месяца — я вам скажу просто об этом, но мы сделаем всё равно."** **And the clients turn back: "слушайте, ну вообще-то да, нам последний раз так и говорили."** **He uses it to show the incentive is two-sided — buyers reward the shorter number, so sellers supply it.**
+- **⚠️ Their stated policy is the inverse and is a reasonable thing to ask a contractor for: "мы скажем дольше, мы лучше тебе раньше привезём."** Quoting to the edge leaves "три вагона обстоятельств, которые могут против тебя сыграть."
+
+### ⚠️ How to compress it — a concrete trigger and their own pre-buying practice
+
+- **⚠️ "Обращаться нужно заранее." Their formula for the right moment: when the partitions have been erected in the flat.** **This gives the "come early" advice on [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] a specific trigger it lacked.**
+- **⚠️ The designer hand-off this enables, and he states the boundary generously: a designer may legitimately say "я не готова нести ответственность" for a complex kitchen's ventilation shafts and appliance engineering — "это реально не ответственность дизайнера" — and at that point comes to the furniture maker to ask where the sockets go.**
+- **⚠️ What it buys besides time: "минимальный шанс на какие-либо ошибки и переделки, что тоже твоё время в конечном итоге экономит."**
+- **⚠️ And their own operational practice, which is the transferable insight: they approve drawings, issue the technical brief and BUY the material before the final measurement — "он либо едет, либо уже у нас на складе. И когда наступает момент чистовых замеров, всё готово для того, чтобы включать пилу."**
+- **His reframing anecdote, offered against himself: he was irritated at waiting 85 days for a chair, then remembered it is made in China and comes by sea.**
+
+**⚠️ Caveats: the 85 and ~35 working-day figures are his own company's, for premium whole-project work — not a market norm, and he offers no economy-segment equivalent beyond "hardware in 2 days." The competitor's 40 days is second-hand. The sheet-material quotas are undated and unquantified. And whether 85 working days is holiday-adjusted is not addressed.**

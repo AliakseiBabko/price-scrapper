@@ -244,3 +244,17 @@ the first time by this company:
   stage cost-benchmark series.
 
 [source: [[_Sources/YT_UhE9cOJ35FY_petrishin_wall_crack_repair|UhE9cOJ35FY]]]
+
+## ⚠️ Perspectives — Is Uniform Wall Flatness Worth Paying For? (FLAT, added 2026-09-02)
+
+**A counterpoint to this page's K1–K4 class ladder and its prices, from a furniture manufacturer rather than a finisher — recorded because it challenges the premise rather than the numbers.** `promotional_ratio: medium`; **he sells furniture, so an argument that money should move from finishes to furniture benefits him, and that is stated plainly on [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] where the full allocation content sits.** RU, 2026-03. [source: [[_Sources/YT_tfjxUv9g-bI_flat_budget_allocation_formula|tfjxUv9g-bI]]]
+
+- **His position: "есть какой-то у нас культ отделки — насколько там ровная у тебя эта стена. Да какая тебе разница, насколько она ровная, если туда потом поставишь шкаф? Она должна иметь заданную определённую геометрию в определённых местах, и всё. И ты этого не увидишь никогда."**
+- **⚠️ And the scope-creep mechanism he attaches to it, which is the practically useful half: the foreman asks "а тебе стены-то какие нужны? Чтобы прямо ровные были?" — you say yes because you want it done well — "ровное — это вот другая, у нас другие цифры," and the budget is up at the first stage.** **This page's own class ladder is exactly the vocabulary that conversation should be had in, rather than in the word "ровные."**
+
+### Where this sits against the page's existing content
+
+- **Common ground**: nobody disputes that a wall behind a full-height cabinet run is never seen. **This page's own K1–K4 ladder already prices flatness by class rather than treating it as binary, and already names the raking-light trigger as the thing that decides whether a higher class is needed.** His complaint is really against buying a *uniform* high class everywhere.
+- **⚠️ Where he is straightforwardly right, and it converts his point into a usable rule: specify wall-prep class per surface, against what will actually stand in front of it and how it will be lit — not one class for the whole flat.** A wall taking a cabinet run needs **geometry** (plumb, square, and true where the carcass lands, which his own trade cares about intensely — see the setting-out traps on [[07_Bathroom/analysis/Planning_and_Layout|Bathroom: Planning & Layout]] and the blocking requirements on [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]]); a raking-lit painted wall in a living room needs **flatness class**. **These are different requirements and they carry different prices.**
+- **⚠️ Where his framing is too loose**: "какая тебе разница" understates two things this page documents — **a wall that is out of geometry costs the furniture maker, and a painted wall's defects appear under raking light months later, when remediation means redoing the finish rather than the prep.** **His own trade's setting-out failures are the best argument against reading him as licence to skip prep.**
+- **Not resolved, and left visible: neither side quantifies where the crossover sits** — how much of a typical flat's wall area is genuinely destined to be hidden. **That is the number that would settle it, and no source in this vault has it.**

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=FuUNVfOtRMs",
+  "video_id": "FuUNVfOtRMs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T15:01:33.447637+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "80b8d45c40f50fe0562496df5d8bd2fe8eed2174fe5dcd4b0f1a5f610ca156bd",
+  "attempts_before_success": []
+}

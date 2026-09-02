@@ -349,3 +349,32 @@ From a separate, unsponsored source (2022, `promotional_ratio: low`). **Her fram
 - **⚠️ And a caution against copying: "не всегда правильная позиция смотреть, что где сделано у других. У каждого человека свой сценарий эксплуатации кухонной мебели."** Consistent with this vault's scenario-driven planning content.
 
 **⚠️ Caveats: the dimensional figures are his studio's working minima, not standards — no code or ergonomics source is cited anywhere. The 30–40% dishwasher premium has no base price attached. And the 7 m island he shows is his own showroom, not a delivered domestic project.**
+
+## ⚠️ Adjustability as a Selection Criterion, and Two Rejected Kitchen Gadgets (FLAT, added 2026-09-02)
+
+Same fabricator, reacting to viral Chinese furniture-mechanism clips (`promotional_ratio: low`). **⚠️ Judged from video without hands-on testing, which he states repeatedly — informed scepticism, not test results.** [source: [[_Sources/YT_qaul6W5jioY_flat_chinese_furniture_mechanisms|qaul6W5jioY]]]
+
+### ⚠️ Two adjustment arguments that generalise well beyond these products
+
+**These are the strongest items in the source and neither is specific to Chinese hardware.**
+
+- **⚠️ A facade bonded directly to a stone carcass has no adjustment.** "На петлях есть регулировка — ты петли можешь двигать влево-вправо, вниз, вверх, по чуть-чуть. Эти ты приклеил. Всё." **If a fitter bonds them slightly off, prising them off an expensive stone carcass and re-bonding true is misery — "ты устанешь это всё монтировать."**
+  - **⚠️ Adjustability is therefore a property to check when choosing a construction, not an afterthought — and it distinguishes this from the legitimate stone technique on [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]], where stone is bonded to an MDF or aluminium-frame substrate and the hardware fixes to the substrate, keeping the adjustment.**
+- **⚠️ Pull-out and lift mechanisms often lack sufficient adjustment range to set gaps properly, and the failure is progressive and permanently visible.** "Зачастую регулировок недостаточно, и выставить зазоры нормально просто невозможно." **His worked scenario: load a tall pull-out column (~150–200 cm) with heavy kitchen items and it sags slightly; a large facade then rubs the adjacent one. "Ты заплатил кучу, идеального результата по итогу не добился. И ты смотришь постоянно на кухню, и у тебя там щели вот такие."**
+  - **⚠️ Complements this page's existing hardware finding** (a cheap hinge on self-tappers destroying the carcass side) **with a different failure path: not degradation over years, but insufficient adjustment range from day one on an expensive mechanism.**
+  - **⚠️ And the client-relations consequence, recorded because it is honest about his own trade: they do warn clients of these nuances, the client waits three or four months, sees the result, and does not remember being warned — "он смотрит в итог, и здесь диссонанс возникает."** **The practical lesson is to get the nuances into the written specification, which is what the specification rule on [[14_Furniture/analysis/Furniture_Dispute_Legal_Recourse|Furniture Dispute & Legal Recourse]] exists for.**
+
+### ⚠️ A pop-up bar counter above an island — rejected on ergonomics, with a dimensional anchor
+
+- **It sits higher than the island, so it needs tall stools. "Рабочая поверхность у тебя 900, стол у тебя там 790" — and the choice of ordinary chairs is far wider than semi-bar stools, and sitting at them is more comfortable in a classical posture.**
+- **⚠️ And the self-defeating part: if you keep it permanently extended, "зачем она тогда тебе?"** **Better to plan a proper low table sized to the household** — consistent with this page's existing "остров ради острова" test.
+- **The 900 mm worktop against a ~790 mm table** is a useful height pair for any seating-at-a-worktop decision.
+
+### The other mechanisms, briefly
+
+- **A pull-out hidden table**: more interesting than the bar counter *if* the mechanism is reliable — **but the sped-up demo hides the reality: "тебе же просто кофе попить, тебе надо стол вытащить, стул приставить."**
+- **Track sockets (movable along a rail)**: sensible where the run covers a whole wall panel; **pointless on a small island — "у тебя любой провод дотянется. Поставь её чуть-чуть сбоку асимметрично, чтобы симпатично было."** He would not fit them. **Read against this page's existing socket-generosity position — this is about placement, not count.**
+- **A steel/metal worktop**: he likes it and accepts water will not harm or swell it, **but scratch resistance is unproven and the clip's fork test is not a real crash test — "у меня нет личного опыта эксплуатации такой столешницы вдолгую."**
+- **A tall pull-out column versus plain shelves behind a hinged door: "по функционалу у тебя просто полки"** — marginally better access, against the adjustment risk above.
+- **A retracting hob** he dismisses outright — "уезжает, чтобы что?"
+- **"Trolleybus-door" parallel/folding hinge systems**: not seen on the Russian market; plausibly good, needs testing, **and certainly "кратно дороже петель."** They experimented with something similar on very large doors and have "вопросики."
