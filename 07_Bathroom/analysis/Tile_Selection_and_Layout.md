@@ -275,3 +275,16 @@ The arrangement is common — **tile below, and increasingly wallpaper or paint 
 - **⚠️ Wood ceiling slats in a high-humidity bathroom — a material-durability caution**, Krasnov's own flagged concern despite otherwise praising the room: wood is a demanding material under high humidity; performance depends heavily on ventilation quality and surface treatment; even with good protection, such slats require regular maintenance and can darken or warp over time.
 
 `single-account`, `unverified`.
+
+## ⚠️ Setting-Out From the Centre and Top-Down, With an Eye-Height Rationale (Татьяна Безверхая, added 2026-09-02)
+
+Moscow-practice designer, 2024. `promotional_ratio: medium` — **this source contains a discrete ~90-second sponsored mid-roll for a porcelain-tile brand, and that brand's claims and recommendation are excluded from this page entirely.** The setting-out guidance below is her own, from the unsponsored remainder. [source: [[_Sources/YT_T3b-IS4Rb0E_bezverkhaia_ideal_wc_ten_rules|T3b-IS4Rb0E]]]
+
+- **⚠️ Tile should not run floor-to-ceiling everywhere — combine it with paint, and she says even with wallpaper.** (Consistent with the splash-adjacent printed-panel finding from her wall-finishes source on [[13_Surfaces_and_Finishes/analysis/Wallpaper_and_Paint_Application|Wallpaper & Paint Application]], which draws the wet-room boundary at direct spray rather than at humidity.)
+- **⚠️ "Главное правило джентльмена": whole tiles always in the visible positions; offcuts and small pieces hidden in the corners.**
+- **⚠️ Set out from the centre, and top-down — and the rationale is the genuinely non-obvious part: on entering you look at your own eye height (~1.70 m), so an offcut up at the ceiling is far more visible than one at the floor.** A reason to prioritise where the cut lands rather than treating setting-out as symmetric.
+- **⚠️ Floor and wall tile should ideally be the same format, or coordinating formats, so the joints align** — otherwise "выглядит люто колхозно."
+- **⚠️ No plastic or metal external corner trims — mitre the tile at 45° on every external corner.** **"Если ваш плиточник говорит, что это сложно, дорого, не нужно, найдите себе другого."** She states this is standard modern practice. **Corroborates the 45°-mitred-corner quality standard already recorded on [[07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance|Tile Installation, Sequencing & Acceptance]], and it is also one of her named markers of premium workmanship on [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]].**
+- **⚠️ Floor tile must be matte and non-slip.**
+- **⚠️ Grout in wet zones must be epoxy only, or it grows mould.** **Corroborates her own Round 1 flooring source (epoxy grout mandatory for floor mosaic) and this vault's existing grout-selection content on [[07_Bathroom/analysis/Tile_Grout_Selection_and_Protection|Tile Grout Selection & Protection]].**
+- **⚠️ Access-hatch coordination is a tile-layout problem, not just a plumbing one: hatch edges must land on tile joints, small-format tile must not be cut mid-module, and the hatch should fully repeat the porcelain module.** She states any good tiler can do this and all her projects are done so. **The full servicing-access block is on [[07_Bathroom/analysis/Planning_and_Layout|Bathroom: Planning & Layout]].**

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=cmDRTjRXzy0",
+  "video_id": "cmDRTjRXzy0",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T13:07:41.570613+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4724b3dc9277c076370f76b29e8ed3bf42e20bf43b077ea3c256736888dc25a9",
+  "attempts_before_success": []
+}

@@ -88,3 +88,14 @@ Her project carries **two systems — electric and from a gas boiler — disting
 - **⚠️ Offsets from the walls, drawn.**
 - **⚠️ No heating under furniture. None under appliances.**
 - **⚠️ And agreed with the client** — she names this as a step, not an assumption.
+
+## ⚠️ Underfloor Heating Mandatory in a Bathroom, and a Recessed Towel Warmer for Small Rooms (Татьяна Безверхая, added 2026-09-02)
+
+Moscow-practice designer, 2024, bathroom guide (`promotional_ratio: medium`, sponsored tile mid-roll excluded). [source: [[_Sources/YT_T3b-IS4Rb0E_bezverkhaia_ideal_wc_ten_rules|T3b-IS4Rb0E]]]
+
+- **⚠️ Underfloor heating is always required in a bathroom — "всегда нужен тёплый пол в санузле."** **In an apartment it can only be electric; in a house, electric or hydronic.** **This is the third and fourth account in this vault of the apartment-electric-only rule** — after Kruglov/Ontario on [[13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection|Flooring Material Selection]] and her own replanning source this round, consolidated on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]]. **Russian jurisdiction on the legality half; still no code cited by any source.**
+- **Good fall in the shower so water does not pool** — a separate requirement from the underfloor heating, though she treats them together as what makes a bathroom comfortable.
+- **⚠️ A towel warmer is required, and in an apartment she prefers electric on a functional argument: a hydronic one is "мало функционален"** — it only works while the building's system is running. In a house, either.
+- **⚠️ The additive item for this page: an electric towel warmer can be recessed into the wall under tile, or under paint, with hooks above the mats so towels dry against the wall.** She offers this specifically as **the answer for small bathrooms with no room for a conventional towel warmer** — a genuinely space-free option this page did not hold.
+
+**⚠️ No prices, no wattages and no coverage figures anywhere in the source** — the recommendation is categorical without any sizing guidance, so pair it with this page's existing sizing content before specifying anything.

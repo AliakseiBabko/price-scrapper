@@ -302,3 +302,54 @@ A debunk of a widely-shared short-form claim that a threshold-free bathroom floo
 - **⚠️ The case she names: a young couple with no children who prefer showers. "Актуальность непосредственно ванны резко вырастет с появлением детей."** A child can be bathed in a baby bath to about a year, after which it becomes inconvenient — **and even a sit-bath is far more convenient than a shower enclosure.**
 - **If both will not fit, make a bath with a shower over it.**
 - **⚠️ And she treats warning the client as an obligation** — see the warn-and-sign-off rule on [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]].
+
+## ⚠️ Bathroom/WC Ergonomic Minima and RUSSIAN Wet-Zone Limits (Татьяна Безверхая, added 2026-09-02)
+
+Moscow-practice designer, 2024, 23 minutes. `promotional_ratio: medium` — **there is a discrete ~90-second sponsored mid-roll for a porcelain-tile brand, whose brand claims are excluded entirely**; the remaining ~21 minutes carry no product placement. **`fact_yield: 34`, the densest single source this channel has produced across both rounds.** [source: [[_Sources/YT_T3b-IS4Rb0E_bezverkhaia_ideal_wc_ten_rules|T3b-IS4Rb0E]]]
+
+### ⚠️ Her working minima, cross-checked against this page's existing figures
+
+| Dimension | Her figure | Against what this page already holds |
+| :--- | :--- | :--- |
+| Soil stack or wall → front plane of the WC installation | **min 250 mm**; **200 mm** for ultra-thin installations, never less | **New to this page** |
+| Wall-hung WC bowl projection | **550 mm**; compact **500 mm** | **New to this page** |
+| Clear space in front of the WC to a wall, door or any element | **min 550 mm** | **Different measurement basis from LA BURO's ≥1200 mm above**, which is back-wall-to-usable-path, not bowl-front-to-obstruction. Not a conflict — **but do not read them as the same number** |
+| Width of a WC containing only a toilet | **min 900 mm** | **Corroborates LA BURO's 850–900 mm toilet-between-two-walls figure** |
+| Same, in a niche between a vanity and a shower partition (more shoulder room) | **800 mm, no less** | Sharper than the existing band, with a stated reason |
+| Bath (the lying area) | **min 1700 × 700 mm**; 1600 acceptable for shorter occupants | **Михайловская above states 1600 minimum. Both are satisfiable — hers is the more generous default with the same 1600 floor for short occupants** |
+| Shower | **min 900 × 900 mm**, or **1000 × 800 mm** | **Third independent account of 900 × 900** (LA BURO, Михайловская, now her). LA BURO's compensation rule — if one side must go below 800, lengthen the other to ≥1200 — remains the more detailed guidance |
+| Vanity/basin unit width | **min 650 mm** (she calls it uncomfortable — nothing can be set down); **min comfortable 800 mm** | **New — this page held vanity *depth* (550–600) but not width** |
+| Twin basins | **only worth it in a bathroom of 10 m² or more** | **Nuances LA BURO's ≥1400 mm vanity-length figure with a whole-room threshold** |
+
+- **⚠️ Twin basins get an explicit reality check that is a useful counter to Pinterest-driven briefs**: beautiful, and her own studio's projects use them, **but "по пальцам одной руки пересчитать, когда даже пара… одновременно чистит зубы."** In a standard bathroom, do not — the space is better used.
+- **⚠️ Sit-in and half-sit baths rejected outright** as "ужасное советское наследие." **Better to fit a shower and use the freed space for storage or the washing machine.**
+- **Free-standing baths: large bathrooms only, better in a house, as a second/third/fourth bathroom, and realistically only where someone else cleans. Semi-recessed (полувстраиваемая) is her compromise.**
+
+### ⚠️ RUSSIAN wet-zone replanning limits — extends this page's *Approvals and Expansion Direction*
+
+> [!IMPORTANT]
+> **Russian norms, jurisdiction flagged, NOT for `16_Legal_and_Regulations/` (Belarus-only).** No code cited; `single-account`, `unverified`. **The fuller set of ten prohibitions, the ground-floor exception and the resale mechanism are consolidated on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]]** — only the bathroom-specific items are repeated here.
+
+- **Cannot expand at the expense of living rooms or the kitchen — "даже на 10 см."** **Can** expand onto a corridor, dressing room, storeroom, or anything designated non-living on the БТИ plan.
+- **⚠️ The ventilation shaft may not be touched at all: not reduced, not notched for niches, not deformed.** Worth checking against any niche assumption elsewhere in this folder.
+- **⚠️ An entrance to the apartment's sole bathroom may now be made from a bedroom *or from the kitchen*** — previously forbidden, relevant to small flats and studios. Undated, uncited; **and a second video on the same channel states the bedroom half, so not independent corroboration.**
+
+### ⚠️ Access for servicing — extends the gap this page flagged under Михайловская
+
+- **Hatch access required to: the water manifold, the bath siphon, the basin siphon, and the shower slot drain.** **Her reasoning for the siphons is that blockage is a certainty, not a risk — "через 5, через 10 лет это неизбежно случится."**
+- **⚠️ The hatch-to-tile rule that separates a good job from a poor one: hatch edges must land on tile joints; small-format tile must not be cut mid-module — the hatch should fully repeat the porcelain module.** She states any good tiler can do this and all her projects are done so.
+- **"Такого вот лючка сантехнику не хватит"** — the hatch must be genuinely large enough to reach everything, not a token opening. Use quality push-open hatches finished for tile or paint.
+- **⚠️ What actually lives behind the manifold hatch, as a space-allocation list**: two large manifold combs, possibly a water heater, mains filters, fine filtration, and the leak-protection system — normally co-located with the risers.
+
+### Storage, laundry and the extract fan
+
+- **⚠️ Forced extract ventilation is mandatory, and the control rule is the additive part: the extract must switch from its own separate key — NOT together with the light, and NOT on a motion sensor**, "иначе она вас дико задолбает."
+- **⚠️ A non-obvious placement lifehack she flags as such: put open shelves holding jars and bottles on the wall that contains the door, not the wall you face on entering** — you see them least that way. Applies equally to children's drawings.
+- **Storage by object, planned early**: one drawer under the basin, better two; shelves planned in the washing zone in advance so wire baskets do not get stuck to the wall afterwards; **household supplies — mop, powders — planned at the point the renovation is only being contemplated.** **Corroborates Михайловская's analyse-storage-by-object rule above.**
+- **⚠️ Provide a place for dirty laundry** — people remember the washing machine and forget the basket, "и потом посреди лаконичного санузла появляется уродливая плетёная корзина."
+- **Washing machine: ideally under the countertop; or a dedicated cabinet or full-height column covering washer, dryer and detergents; failing that, move it to the corridor.** Relevant to [[09_Laundry_Room/analysis/Placement_Comparison_by_Room_Type|Laundry: Placement Comparison]].
+- **A siphon under the basin means the bottom drawer needs a cut-out** — plan it. **If an open siphon is wanted, buy a decorative one deliberately.**
+- **Three closing lifehacks**: a Bluetooth speaker in the ceiling; **face lighting at the mirror** (consistent with the shadowless-face-lighting rule from her hallway source, [[02_Hallway/analysis/Layout_and_Zoning|Hallway: Layout & Zoning]]); and **"как и на кухне, розеток не бывает много — их бывает только слишком мало."**
+- **Choose decor at the end, matched to actual colours** — she notes bathrooms where large sums went on porcelain and sanitaryware get spoiled by mismatched bottles and badly-coloured towels.
+
+**⚠️ Caveats on this whole block: no prices anywhere in 23 minutes, and no code or standard is cited for any dimension — these are her studio's working minima, not norms.** Cross-check any single figure against the LA BURO and Михайловская sets above before adopting it.

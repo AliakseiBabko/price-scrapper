@@ -152,3 +152,12 @@ Krasnov's own studio's real completed project — no third-party attribution nee
 - **⚠️ Explicit stated philosophy, genuinely distinct from the "design for future life stages" (aging-forward) content already logged from Round 4**: "мы не задаём ему [ребёнку] какие-то явные, чёткие сценарии... мы даём пространство для развития" — don't impose a rigid schedule/zone-use script on a child; instead provide a well-equipped SPACE with distinct zone options (play, study, rest) and let the child organize their own use of it over time. This is about designing for PRESENT flexibility of interpretation, not future age-stage planning. Explicit stated claim this "works long-term," since the room stays useful as the child's own activities evolve without needing a redesign.
 
 `single-account`, `unverified`.
+
+## ⚠️ Two Children Sharing — the Sleeping Sightline Rule and a Symmetry Requirement (Татьяна Безверхая, added 2026-09-02)
+
+Moscow designer, 2026, `promotional_ratio: medium`. **Two of the three items below are about sibling relations rather than composition, which is why they are worth recording separately from this page's existing partition-method content.** [source: [[_Sources/YT_u8-y7QPc48I_bezverkhaia_kids_room_growing_base|u8-y7QPc48I]]]
+
+- **⚠️ Each child must have personal space, and her specific sleeping rule: when they are asleep they should not be able to see each other.** Achieved by separating the beds — **curtains or blinds around them, or a bunk bed where the upper and lower berths cannot see each other.** The method is free; **the zoning is not optional.** **This gives a concrete acceptance test for the partition methods already ranked on this page: does it break the sleeping sightline?**
+- **⚠️ Especially for opposite-sex children — and she states opposite-sex children sharing one room is advisable only up to adolescence.**
+- **⚠️ Two work places, and the symmetry requirement is the additive insight: it can be one long countertop under the window, but there must be two shelf units and two chairs, symmetrically.** **"Не должно быть такого, что у одного ребёнка больше полок, вешалок. Это сразу будут обиды и разрушенные взаимоотношения."** **The rule is about sibling equity, not visual balance** — an asymmetric but functionally adequate arrangement fails this test.
+- **For children of different ages, privacy matters more still**, and here she recommends professional planning "вплоть до сантиметра."

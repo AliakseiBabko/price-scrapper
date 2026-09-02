@@ -199,3 +199,41 @@ Reviewing a picture hung against patterned wallpaper, she notes it works **only 
 > **The general rule: against an active-patterned wall, something must separate the artwork from the ground — a mount, or a frame doing the same job.**
 
 *(Complements the accent-wall material above: this page's existing rules govern how much pattern a room can carry; this one governs what can be hung on it once it is there.)*
+
+## ⚠️ An Empty Wall — Ten Options Ordered Large-Gesture First, and Four Cases for Leaving It Alone (Татьяна Безверхая, added 2026-09-02)
+
+Moscow designer, 2025, `promotional_ratio: medium` (no sponsor, no product brands; own-studio pitch at both ends, and two of her own named projects cited as worked examples). **This is the "one problem, many named options" format this project's own value criteria single out, and it delivers the option this format normally omits — doing nothing.** [source: [[_Sources/YT_cmDRTjRXzy0_bezverkhaia_empty_wall_ten_ways|cmDRTjRXzy0]]]
+
+**⚠️ The ordering is itself her argument: "я начинаю с крупных решений. Они обычно намного более выигрышные"** — as against small additions, "а давайте мы на стену наклеим…, а давайте родовое дерево повесим."
+
+1. **⚠️ Colour-block — and her definition is stricter than this page's accent-wall content assumes.** Not painting one wall a saturated colour, **but treating a whole zone as one block of a shade: the wall, part of the adjacent wall, part of the ceiling, plus the sofa and chest standing there**, all in tones of the same colour, with internal variation across rug, sofa, wall and picture. **The target effect: the eye reads one large, voluminous, internally interesting accent rather than a patchwork.** **⚠️ It need not be bright — dark grey or dark chocolate qualifies; what matters is that it is a large block of a different shade.**
+2. **A contrasting material on the most-seen wall** — behind a headboard, or behind or opposite a sofa, "который бы выделялся, но дружил со всеми остальными." Options: patterned, floral, geometric or **texture-only** wallpaper; decorative plaster (sand or clay texture for Japandi); **large-format porcelain, e.g. travertine-effect**; **and a DIY route — relief plaster painted over — offered as a legitimate budget option.**
+3. **⚠️ Texture alone at the same colour — the most restrained option and the one this page did not hold.** All walls one shade, with one accent area **the same colour but textured**, via relief paint or decorative plaster then painted to match. **"Игра фактур" — works in Japandi, Scandi and contemporary non-classical schemes, understated and not showy.**
+4. **Wall painting (роспись), which she works to rehabilitate.** The association is kindergarten murals or a cheap restaurant's crooked Milan; **the real options are contemporary fresco, geometric painting, restrained floral painting and narrative scenes.**
+5. **Mouldings on one wall only** — modern classic and eclectic. **Variations worth keeping: mouldings on one wall rather than all; mirrors set inside them; the mouldings picked out lighter or darker; or mostly plain mouldings with one area given more ornate moulded elements.**
+6. **Plants** — wall-fixed pots and trailing plants, a green wall, arrangements of wall planters. **She defends good artificial plants explicitly** ("у меня ничего дома не выживает"), and acknowledges others disagree.
+7. **⚠️ "Gallery art" — one large piece, and the constraint attached is the important half.** Not marketplace triptychs on canvas but **one work — an affordable contemporary painting, or a poster on paper in a decent frame, geometric, large, acting as the wall's centre** and supporting the room through texture, colour, subject or geometry. **⚠️ The constraint: the wall itself must be a background — "если у вас там обоечки с вензелёчками, а сверху ещё и картина, то это уже будет смотреться как трэш."** Advantage: minimal cost, no change to the finishes.
+8. **⚠️ Many small objects hung as one composition — with a distribution rule.** Scandinavian-style panels of photographs, pressed plants, small artworks, vintage posters, framed records. **⚠️ The rule: do not scatter fifteen small frames one per wall across the flat; make one strong grouping in one place.** Applies equally to children's drawings.
+9. **Three-dimensional walls — gypsum relief panels.** **Why they work: the colour matches the other walls so it stays delicate, and it is a play of light and shadow reading differently in daylight, artificial light and lamplight.** Suits contemporary or classical depending on subject. **Not cheap; no figure given.**
+10. **⚠️ Folding screens (ширмы) — her recommendation for rented homes specifically.** Stands against the wall, **the wall is never touched**, works as a large decorative object drawing attention off the empty wall, **and can be packed and taken along.** She considers them "незаслуженно забытый и недооценённый предмет интерьера."
+
+### What she rejects as dated or cheap-looking
+
+All her own aesthetic judgement, `single-account`:
+
+- **Any imitation material, with one explicit exception — large-format porcelain imitating natural stone, which she accepts.** **Consistent with her Round 1 flooring position and with this vault's faux-marble-substitution content.**
+- **Rough "wild" stone corners and inserts** — "грузинский ресторан в подвале в 2004."
+- **⚠️ Slat/rail panels (рейки) — "были когда-то очень популярные, сейчас устарели."** **Flagged as a dated-trend opinion, not a technical objection — it sits against the slat-panel content on [[13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels|Decorative Wall Panels]] (Kruglov/Ontario), which treats them as a live functional option. Both are recorded; hers is an aesthetic dating call from 2025.**
+- **Photo-wallpaper murals** of Paris, London and similar. **Vinyl wall stickers of any kind**, including family-photo "trees" — **her single tolerated case: a small child, a minimalist bathroom adjoining the child's bedroom, fish stickers removed two years later, "вот только дизайнеру не показывайте."**
+- **Many small motley pictures hung unsystematically**, and over-decoration generally.
+
+### ⚠️ The four cases for leaving a wall empty — the most valuable part of the source
+
+"Не каждую стену нужно чем-то украшать, отделывать, завешивать."
+
+1. **When the style is minimalism or modern classic and the airy laconic quality is part of the design intent.** **⚠️ With a general rule attached: if you have signed off a design project, do what the project says — "любые нововведения мимо дизайнера играют всегда в худшую сторону, а не в лучшую."**
+2. **⚠️ When the space is small and much of the surface is already occupied.** If one or two walls already carry something, **do not decorate the third and fourth. "Пусть у вас будет хоть немножечко воздуха."**
+3. **When you simply prefer airy, light interiors** — helped by light, grey, grey-blue, white and milky walls.
+4. **⚠️ When the property is for rent or sale: minimum extraneous decor.** One contemporary artwork for a premium flip; "128 милых картиночек — строго нет."
+
+**⚠️ Caveat: no prices and no dimensions anywhere** — including for the gypsum relief panel she calls "недёшево" — so these ten options can be effort-ranked but not cost-ranked, and there is no guidance on how large "one large artwork" should be relative to the wall.
