@@ -526,3 +526,43 @@ Real completed studio projects — no third-party attribution needed. [sources: 
 `single-account`, `unverified`.
 
 `single-account`, `unverified`.
+
+## ⚠️ "Light Burns" on Walls, and Fixed-vs-Changeable Colour Temperature as a Planning-Stage Decision (Татьяна Безверхая + Maytoni, added 2026-09-02)
+
+> [!WARNING]
+> **`promotional_ratio: high` — sponsored brand collaboration.** Filmed in the Maytoni showroom (Мосфильмовская 53), co-hosted by a Maytoni Group manager, every point illustrated from that brand's range, closing on "приобретайте свет у проверенных поставщиков, например, у Майтони," plus a segment promoting the brand's switch range and a mid-roll pitch for her own studios. **Product praise and the decorative-fitting material tour are excluded.** RU, Moscow, 2025. [source: [[_Sources/YT_e0MLTGgVm14_bezverkhaia_lighting_planning_mistakes|e0MLTGgVm14]]]
+>
+> **Most of this source corroborates rather than extends this page.** Her room-by-room colour-temperature mapping (warm mandatory in bedrooms and for all evening scenarios; 6000 K = "больничка") restates this section's existing 2700–4000 K range and its 6000 K warning; her material-under-light demonstration restates Кузина's test-the-finish-at-its-real-colour-temperature technique above. **Three items are genuinely new, and one is flagged as unusable.**
+
+### ⚠️ Whether a fitting's colour temperature can be changed at all is a planning-stage decision
+
+- Stated by the brand manager and confirmed by her surprise on camera, which is itself the signal that buyers do not know it: **some fittings cannot change colour temperature at all** — it is whatever was bought — **while others can.**
+- **So at planning stage two things must be decided: whether you want to change temperature later, and by what means — smart home, or a mechanical method.**
+- **This sharpens this page's existing «dim to warm» and tunable-white content into a checklist item at specification stage** rather than at purchase: tunable white being "now baseline" (per Реньжин above) does not mean the fitting in front of you has it.
+
+### ⚠️ 4000 K in a bathroom, on a skin-tone rationale — a nuance against this page's task-areas-only rule
+
+- Her mapping puts **neutral 4000 K in every space used during the day**, and **bathrooms/WCs specifically "чтобы не искажать оттенок кожи"** — plus living room, dining room and kitchen for daytime cooking and cleaning.
+- **⚠️ This does not sit cleanly with this page's existing consensus**, which caps residential light at 4000 K and **reserves 4000 K for pure task areas** (laundry, closets, storage, kitchen worktop), warning that ~4000 K in a living room or bedroom makes colour depth "disappear." **Her living-room and dining-room 4000 K is against that; her bathroom 4000 K adds a rationale the existing content does not address — accurate skin tone at the mirror.**
+- **Reading for this project**: treat the skin-tone argument as a real reason to consider neutral light **at a bathroom mirror specifically** (where this vault already accepts task light), and keep the existing warm default for living and sleeping rooms. **Her broader daytime-4000 K position is a `single-account` design-side outlier against several trade sources and is not adopted here.**
+
+### ⚠️ "Световые ожоги" — light burns on walls, new to this page
+
+- **The defect**: with identical fittings on the same track, one arrangement gives even, soft light and another gives a harsh scallop of light up the wall — "классический ожог на стене."
+- **⚠️ The fix is a positioning rule, not a product choice: do not aim the fitting straight at the wall, and do not place it too close to the wall.** Stated causes are the fitting's rotation toward the wall and its proximity to it.
+- **Complements this page's existing glare and beam-angle material** by naming the visible wall-side symptom, which is what a client actually notices and complains about.
+- The brand manager additionally attributes it partly to lamp choice (energy-saving versus LED); **that part of the explanation is not mechanically complete and is recorded as `unverified`** — beam angle would be the expected variable.
+
+### Trimless (plaster-in) fittings — a corroboration plus one myth answered
+
+- **Corroborates Шеврина's existing recommendation above** to prefer trimless/plaster-in («под отделку») spots. **⚠️ Her addition is where it matters most: in a detail-rich interior a visible flange goes largely unnoticed, but in minimalism or Japandi the eye lands directly on those "коробочки, кружочки и прямоугольнички."**
+- **⚠️ The buyer objection she answers, which this page did not hold: "you can't change the bulbs in those" is false — bulbs are replaced exactly as in ordinary fittings.**
+- **Scope has widened beyond downlights**: plaster-in mounting now covers **track fittings of any configuration** — wide, narrow, thin, curved, radiused — with the track available in any colour, and even large magnetic systems can be set **flush with the ceiling.**
+- Her cost position: do not economise on light **at least in the main rooms**, since the saving is "несколько тысяч или несколько десятков тысяч рублей" for a dated result. **No basis is given (per fitting? per room? whole flat?), so this is not converted to USD and is not usable as a benchmark.**
+
+### ⚠️ A principle worth keeping: correct trend exposure is a function of the interior's intended lifespan
+
+- Her clean articulation: **not using sharply trend-led items is not a mistake in a country house meant to last twenty years, but *is* a mistake in a commercial interior**, where being current is the point. Recorded because this vault applies the same logic in several places without having stated it as a rule.
+
+> [!CAUTION]
+> **One claim from this source is flagged and deliberately not recorded as guidance.** "Качественный неон не меняет цвета и температуры освещения путём диммирования. Если же вы покупаете диммируемый свет, то, скорее всего, он будет не лучшего качества" — i.e. dimmability itself presented as a negative quality signal. **It does not follow from anything else in the source, contradicts the same video's own advice to plan for changeable light, contradicts this page's extensive dimming and tunable-white content, and appears inside a segment showcasing the sponsor's range.** `single-account`, `unverified`, sponsor-shaped.

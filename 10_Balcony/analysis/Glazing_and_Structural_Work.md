@@ -98,3 +98,31 @@ fixing point. [source: [[_Sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggia_insula
 ## Real Case: Client-Driven Balcony Scope (Петришин-Строй, added 2026-08-24, Round 4)
 
 Masonry walls built up and plastered, plus client-driven replacement of the double-glazed window unit, radiator, and sills — corroborates this channel's own existing balcony content (`Qt4uGvGRYT0`, see [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]]) that balcony work on this channel's objects is usually client-driven scope-of-work rather than a fixed package. [source: [[_Sources/YT_qFM8NIDIRro_petrishin_case_study_old_apartment|extraction note]]]
+
+## ⚠️ Cantilever Load Limit, and a Moscow Prohibition on Removing Balcony Glazing (Татьяна Безверхая, added 2026-09-02)
+
+> [!NOTE]
+> Moscow interior designer, unsponsored 16-minute balcony/loggia guide, 2024. `promotional_ratio: low`. **New to this page on both counts** — the existing structural content concerns parapets, frames and anchoring, not the cantilever's own capacity; and the existing legal content concerns radiator relocation, not glazing removal. [source: [[_Sources/YT_jl3OSKoe0YU_bezverkhaia_balcony_seven_solutions|jl3OSKoe0YU]]]
+
+- **⚠️ Балкон and лоджия differ structurally, and that difference decides what glazing is even possible.** A **balcony is a cantilever**, fixed to the wall on one side only with a railing on the other. A **loggia is part of the floor slab itself**, enclosed by three bearing walls, its front face necessarily flush with the facade.
+- **⚠️ The consequence, and the most important structural fact from this source: a cantilever cannot carry much weight.** A heavy double-chamber glazing unit **cannot** simply be installed on a Stalin-era balcony without reinforcement — **"это небезопасно."** She reports her studio has carried out **separate balcony-reinforcement projects in the old fund more than once**, which makes this repeated practice rather than a one-off caution. **On a balcony (as opposed to a loggia), the glazing spec and any structural reinforcement are one coupled decision, and the reinforcement is a real line item to price before the glazing is chosen.**
+- **A loggia, being a slab between three bearing walls, "может вынести хоть слона"** — the load question effectively does not arise, which is consistent with this page's existing loggia-focused parapet and support-masonry content.
+
+### ⚠️ Russian (Moscow) regulation — recorded here, deliberately NOT in `16_Legal_and_Regulations/`
+
+> [!WARNING]
+> **Jurisdiction flag, standing project rule.** The following is **Russian, specifically Moscow municipal**. `16_Legal_and_Regulations/` is Belarus-only; this is kept on the technical page as a Russian data point showing the *shape* of the constraint, and asserts nothing about Belarusian rules.
+
+- **⚠️ Joining a balcony or loggia to the heated apartment is illegal** in her account: "К сожалению, ответ всего один. Это незаконно."
+- **The history matters for reading the second-hand market**: until roughly ten years before the video, combining the warm apartment with the cold balcony **was legal in Russia and was readily approved**, which is why so many resale apartments have joined balconies. **A pre-2017 joined balcony is not evidence the practice is currently permitted.**
+- **⚠️ The change she cites: the updated Moscow city-government decree No. 508 (постановление правительства Москвы № 508), 2017**, which she says prohibits in plain text removing the glazing between a balcony/loggia and the apartment. `single-account`, `unverified` — the number and year are as she stated them and have not been checked against the text.
+- **⚠️ The one legal route to visual joining she names: a "French window"** — a tall window with **sliding leaves** — and **by law a double-chamber glazing unit**, so heat does not escape.
+- **The stated rationale, which is the transferable part**: if everyone along a heating riser removed their glazing, heat would flow outdoors and the building's heat-supply capacity would not cover it.
+- **Her enforcement observation, recorded as observation and not as advice**: she does not recommend breaking the law, while noting clients ask for it directly and it is usually overlooked — an unauthorised opening in a bearing wall makes an apartment hard to sell, a missing balcony door generally does not. **This corroborates, from the client-facing side, the same risk asymmetry behind this page's existing Zemskov radiator-relocation finding.**
+
+### Glazing upgrade paths by building age
+
+- **Old buildings**: replace the cold units with **warm double-chamber (двухкамерные)** ones — consistent with this page's existing 70 mm-profile / ≥40 mm-unit spec floor and the Insulation page's double-chamber requirement.
+- **⚠️ New buildings with unified facade glazing, which this page did not previously cover**: either **add a second pane into the existing unit**, or **install your own warm glazing as a second contour inside the building's overall glazing.**
+- **Either way the glazing has to change** — "в любом случае остекление нужно менять."
+- **⚠️ Windowsill blocks (подоконные блоки): whether they may be removed is specific to the building's construction and series — verify for the actual building.** She declines to generalise, and that refusal is itself the instruction.

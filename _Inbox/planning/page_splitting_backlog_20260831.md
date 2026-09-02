@@ -238,3 +238,13 @@ Unchanged from the split pass, and **the merge debt is now clear** — `Lighting
 **Priority: below `03_Kitchen/Kitchen_Furniture.md` (568 lines / 38 sections), which remains the worst page in the vault by section count and is now untouched across five passes.**
 
 **Otherwise unchanged.** Twelve pages received content and section counts stayed proportionate; `12_Engineering_and_Systems/analysis/Wall_Hung_Toilet_Installation.md` grew from 21 to 57 lines and is nowhere near the threshold.
+
+## 2026-09-02 pass — Безверхая Round 1 (6 videos, 10 pages touched)
+
+**One page crossed the threshold for the first time in this round, and it is a genuine new entry rather than drift:**
+
+- **`13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes.md` — now 292 lines / 21 top-level sections**, newly over the 260-line detail-page threshold. This round added the polyurethane-moulding shrinkage mechanism and the natural-vs-acrylic lime distinction. **The visible seam: the page now mixes (a) decorative plaster and microcement, (b) moulded decor and mouldings, (c) accent-wall and trend critique, and (d) specific wall-material identification.** Moulded decor (лепнина) is the cleanest candidate to lift out — it is a distinct product family with its own materials, failure modes and installation economics, and it is currently split across this page and `Wallpaper_and_Paint_Application.md`'s two-tone painting technique.
+
+**Already-listed pages that grew this round and remain listed, unchanged in priority**: `13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection.md` (now carries six multi-material comparisons plus three Perspectives blocks — **the strongest split candidate of the three, and the Perspectives blocks are a natural seam**), `.../Wallpaper_and_Paint_Application.md`, and `12_Engineering_and_Systems/analysis/Lighting_Design.md`.
+
+**`03_Kitchen/Kitchen_Furniture.md` (627 lines / 42 sections) remains the worst page in the vault and is now untouched across six passes.**

@@ -270,3 +270,23 @@ A materials/decor rebuttal video, genuinely rich with specific durability claims
 - **A lower-cost/lower-risk alternative also offered**: instead of full faux-marble furniture, use small GENUINE marble accessories (trays, small side tables) to get real marble's authentic depth/pattern at low cost and low risk — recorded distinctly from the porcelain-slab application above, a different tactic for the same underlying "faux marble disappoints" problem.
 
 `single-account`, `unverified`. `corroborates_existing: true` for the faux-marble critique itself; the accent-wall application and the genuine-marble-accessories alternative are genuinely new.
+
+## ⚠️ Polyurethane Moulding Shrinks — Buy the Same-Material Joint Adhesive; and Natural Lime vs Acrylic-Added (Татьяна Безверхая + supplier, added 2026-09-02)
+
+> [!WARNING]
+> **`promotional_ratio: high` — sponsored supplier collaboration** (finishing-materials showroom, that company's managing partner co-hosting, closing promo code). **Brand-level verdicts are excluded**; only material behaviour is recorded. Claims about the density and shower-tolerance of "their" profiles are the supplier's own and are marked as such. No prices in the source. RU, Moscow, 2024. [source: [[_Sources/YT_j-F2HmDkaqY_bezverkhaia_wall_finish_materials|j-F2HmDkaqY]]]
+
+### Moulded decor (лепнина) — three material tiers
+
+- **Gypsum is the most expensive material *and* the most expensive to install, because installation is handwork.** The cost sits in two places, not one — worth stating explicitly, since a material-only comparison understates it.
+- **Polyurethane and duropolymer are the budget tiers**, installable by a general-purpose tradesman.
+- **⚠️ The mass-market failure mode, corroborated by her own tenancy**: cheap foam-type moulding looks acceptable at handover, then **dries out and degrades month by month** — her rented flat's mouldings shrank visibly over the tenancy. "Из этого рыхлого пенопласта лучше никогда не покупать."
+- **⚠️ The mechanism and the fix — the most valuable technical item in this source: polyurethane shrinks (усыхает), and that causes splits opening at the joints.** Good producers therefore **make a joining adhesive out of the same material the profile itself is made from**, so the joint moves with the profile instead of tearing open. **Specify the matching same-material joint adhesive rather than generic glue.** This complements the existing moulding two-tone paint technique already on [[13_Surfaces_and_Finishes/analysis/Wallpaper_and_Paint_Application|Wallpaper & Paint Application]] — that one is about finishing mouldings, this one about whether the run stays intact.
+- **Density and durability, supplier's claim about his own range** (`single-account`, sponsor-adjacent): quality polymer profiles can be **comparable in density to oak**, hence hard to damage with furniture legs or a vacuum cleaner — the argument for using them as **baseboards and mouldings in high-traffic locations** — and moisture-resistant enough to use in a shower.
+- **Her studio's stated practice**: gypsum, or duropolymer/polyurethane — never the chain-retailer foam type.
+
+### Decorative plaster — two additions to this page's existing coverage
+
+- **⚠️ Natural lime versus acrylic-added lime, a composition distinction this page did not hold.** Lime is still quarried and imported from Italian quarries; **in Russia it is usually sold with acrylic added.** Natural lime is **plastic to work and maximally ecological**, and produces loft finishes, stone effects (**травертин, марморино**) and the currently popular slightly-uneven clay-like surfaces. Relevant to this page's existing microcement and decorative-plaster selection criteria — **ask which of the two you are being sold.**
+- **Matte suede effect (эффект замши)** is offered as the modern alternative to dated glossy «венецианка» — smooth to the touch, suited to Japandi and contemporary schemes.
+- **⚠️ Skill requirement, and it lands between this page's two existing positions**: application needs **a decorator, not a generalist** — "чтобы он был декоратором и в принципе понимал, что такое кельма и шпатель." Their own materials are formulated to tolerate the all-rounder who paints walls, lays floors and does plumbing, **but a qualification is still required**; someone who has previously worked with decorative plaster will manage lime or suede types, and video instructions and technical documentation exist. **Corroborates the RemProektMD skill-requirement finding above** while being slightly less absolute about it.

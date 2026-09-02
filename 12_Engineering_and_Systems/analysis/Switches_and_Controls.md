@@ -210,3 +210,34 @@ Her worked labels: *"электровывод, высота такая-то, п�
 ## ⚠️ Switch/Outlet Plate Colour Should Match the Wall by Default (Игорь Краснов, added 2026-09-01)
 
 **Standard white plastic switches/outlets clash visibly against dark, complex, or saturated wall colours/finishes and read as an unfinished detail.** **Match the plate colour to the wall (or tile) colour** where the palette allows (e.g. dark-grey wall → dark-grey/graphite plate; beige wall → beige/cream plate) so the fixture visually disappears. **Contrasting plates (e.g. black on a light wall) can work as a deliberate accent** — his own studio uses this — but the shade must match the room's palette precisely; even a small mismatch reads as an error rather than a choice, so only use a contrast when confident in the exact tone. `single-account`, `unverified`. [source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]
+
+## ⚠️ Plate Colour — White Is the Worst Default, and Rooms May Differ (Татьяна Безверхая, added 2026-09-02)
+
+> [!WARNING]
+> **`promotional_ratio: high` — sponsored product review**, structured as an unboxing of a manufacturer's review box, with a verdict, a note that the brand offers special terms to design professionals, and a closing pointer to its authorised partners. **The product verdict, the tactile and colour-range praise, and a claimed 25-year design service life are excluded from this page.** **Brand identity is deliberately not named** — the auto-generated captions render it inconsistently ("НZ" / "КНС" / "CRН" / "КРНс") and, the review being sponsored, its identity is not needed for anything below. Only the brand-independent selection method is recorded. RU, no prices in the source, 2025. [source: [[_Sources/YT_bcHTIHyWiVc_bezverkhaia_socket_switch_selection|bcHTIHyWiVc]]]
+
+### Why the choice is worth making deliberately
+
+- **⚠️ A common mistake among people managing their own renovation: not thinking about electrical accessories at all.** When it comes time to buy, people take the cheapest or the most ordinary thing — **and she means the visible outer parts specifically (клавиши, накладки), not the mechanisms** — so a decent interior ends up with characterless accessories.
+- **Her argument for why it shows**: there are always many of them, in every corner and beside every door, **and they are the part of the interior you physically touch every day, many times a day.**
+
+### ⚠️ Colour — this sharpens the existing match-the-wall rule rather than repeating it
+
+**This page already holds Игорь Краснов's rule that plate colour should match the wall by default, with contrast permitted only as a deliberate, exactly-toned accent. She agrees and adds latitude and edge cases:**
+
+- **⚠️ Her headline is counter-intuitive: the worst colour for electrical accessories is white.** Plain white reads cheap and reads plain **"вне зависимости от дизайна."**
+- **⚠️ The one case where white is right: a genuinely snow-white interior** — her example is a white modern-classic scheme, where white plates on white walls work precisely because it is white-on-white.
+- **⚠️ The failure tolerance is tighter than expected: if the walls have any tint at all** — even slightly milky or slightly greyish, let alone a real colour — **white accessories read "колхозно."**
+- **Black works in any interior that already contains some shade of black**, giving graphic accents; she names minimalism, all contemporary styles, loft and Scandinavian.
+- **⚠️ The most directly actionable addition to Краснов's rule — greys with a stated latitude: from light grey to dark saturated graphite, chosen either to match the wall colour or one to two shades darker than the wall.**
+- **⚠️ Form follows style, which this page did not hold**: **rounded-corner** series suit styles with any classical inflection and eclectic styles (Japandi named); **sharp, pronouncedly rectangular** series suit **only minimalism and ultra-laconic interiors** — not modern classic, not retro, where they read as wrong.
+- **⚠️ Different rooms may legitimately use different colours, and she names the opposite assumption as another frequent self-managed-design error**: "никто не заставляет вас делать одинаковые розетки по всей квартире." Her worked example — lighter or grey in a children's room, black in the entrance zone, white in a white bedroom. **This also nuances Pavel Sidorik's frame-swap lifehack above: swapping only the outer frame while keeping one mechanism type is exactly what makes per-room colour variation cheap.**
+
+### Three brand-independent technical facts
+
+- **⚠️ Back boxes differ by country** — "подрозетники во всех странах тоже разные, как и сами розетки." A range built for the Russian market is designed around the **standard round back box** used there. **Consequence: imported accessories are not automatically compatible with back boxes already installed.**
+- **⚠️ Frames are sold by post count, and a socket count is not a frame count.** Single-post frames are typically included with the device, so it arrives ready to install — **but multi-gang blocks require separately purchased two-, three- or four-post frames.** A buying-list item that is easy to miss when counting devices off a plan; complements the socket/frame/outlet counting table already recorded above from Татьяна Михайловская.
+- **Pass-through / two-way switches (проходные)** — control one fitting or group from several places (on at the start of a corridor, off at the end; on at a bedroom door, off at either side of the bed). She recommends them **"в каждом ролике."**
+
+> [!NOTE]
+> **The pass-through recommendation is a third corroborating account and does not disturb this page's existing position.** This page already carries both the cost justification (≈2,000–4,000 RUB extra per location, Kruglov/Ontario) and the cognitive-load caution against saturating an apartment with them. **Her blanket enthusiasm corroborates the usefulness only — she offers no reasoning that engages with the saturation caution, so it is not a counter-argument to it.**

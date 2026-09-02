@@ -1,0 +1,1633 @@
+{
+  "playlist_url": "https://www.youtube.com/@tatianabezverkhaia/videos",
+  "generated_at": "2026-09-02T10:32:28.181779+00:00",
+  "counts": {
+    "duplicate": 0,
+    "private": 0,
+    "unavailable": 0,
+    "no_captions": 0,
+    "fresh": 163,
+    "rate_limited": 0
+  },
+  "csv_notes_mismatch": {
+    "in_index_no_note": [
+      "-k0oupEu3pM",
+      "-zgPfpGkwBw",
+      "1pLziv7Ri_k",
+      "2m1OOssKl-A",
+      "2mLS8dbqv04",
+      "41AEg9cCxO0",
+      "6lacLnqpJbM",
+      "74c0MGLFGT4",
+      "7Y4YsWPYg4s",
+      "7l0izpXaPx8",
+      "7qxFoOsLAe8",
+      "8MiJ6k5ujBU",
+      "8Y-ErW2D8FE",
+      "8zm_5NjbGNA",
+      "9FSb8Kr55r0",
+      "ANYrUhhlKyw",
+      "AQWuTQfr8w8",
+      "ATRswtIp1OM",
+      "AaPvIn4s1SQ",
+      "B7BHeVD-smk",
+      "BPiw6b-Sm_c",
+      "CQM-pFRJBKY",
+      "CYllCjooMrE",
+      "DPnZjaSPACA",
+      "DsDbKEwR4pY",
+      "Dt8Ec_eTlXg",
+      "EbwgImqhnOQ",
+      "ElHcpT5WlUA",
+      "F6cBEeTw518",
+      "HE4u2vprC88",
+      "I0PUIxd9MQ8",
+      "IHmGfrQFc6Y",
+      "JHP3Fuf2KyA",
+      "Kj71Nk5CqLM",
+      "L_PWNMQC9iE",
+      "Ld-OWPUFlGE",
+      "MIA1tpRglGg",
+      "Nj0li7AdsvM",
+      "O6PNsmWaHYc",
+      "PRifljKyKfU",
+      "PaUWD6q_EAY",
+      "PbE1pgGCliY",
+      "QG3QNM9BESc",
+      "QbV-BBySZeU",
+      "R7Z_mJLwVpc",
+      "R_9_QLAsE-k",
+      "U6vunPg3OGw",
+      "XIDyyxjIwC8",
+      "XWmoyTQK1AQ",
+      "XahTpDGjf9w",
+      "XfEaoo82qnE",
+      "XhRHqDm2H2Y",
+      "XlvilzilV-c",
+      "Y3exSOS2Ob8",
+      "YLKN-UB4XG4",
+      "YQAm9PqK2ec",
+      "YaWcDOWHor4",
+      "Z4gS_W0sfaM",
+      "ZXpWoAcR08U",
+      "ZkdGHHPtfh0",
+      "a98BTmgIoik",
+      "b4ErDSHBY_4",
+      "bLG-v5bLHNs",
+      "c3qpHyJgBQ8",
+      "cqzGSjx7Gvg",
+      "fkt1LmF9D9M",
+      "frU2mqIMrPs",
+      "g3xI4531t_s",
+      "gD8KMGlS9ac",
+      "gbxv92vD36U",
+      "huvdLUEruBM",
+      "hxPXzLu0P3g",
+      "iHu5gijczA4",
+      "iRqMhrVT8pM",
+      "j-6A0DmjB_o",
+      "jObP8pTt7FY",
+      "jOvCg-d45w4",
+      "jhEqPMn3mBA",
+      "jseYAjJkab8",
+      "kBJZkSOp4-Q",
+      "mhE_5qlJ0KU",
+      "n-LzQXs3x9o",
+      "q4r7i8qccB4",
+      "qC5GNBHceJk",
+      "rGc_nGYY4mU",
+      "s1cWUR4l90w",
+      "to_ujRxQUbk",
+      "ty-t8aNelyY",
+      "v8GexdJC8ys",
+      "vCwxplOGtfY",
+      "wUXlaDnHiQw",
+      "wxkTw0YdxdU",
+      "xbq9Jl_yrsU",
+      "ym_Jd2mEL18",
+      "z1G8qqAUQnY",
+      "zAXDi2PvWz4",
+      "zOpmb-CmQI8",
+      "zjO0LugKt8Y"
+    ],
+    "in_notes_no_index": [
+      "-JlpzE6aHiU",
+      "-MJE43WkLP4",
+      "-ROgAlWhXlc",
+      "-XuTH1e-Fc0",
+      "0783KWcK4Co",
+      "09G3Q-LuD_s",
+      "0CoDufobsEY",
+      "0Nnv6VedbVo",
+      "0TLDGD8MY1A",
+      "0hjkfIfzkUw",
+      "0sJPlpi8I2U",
+      "13JpO2bBsqk",
+      "16k0TS363rM",
+      "1NqrFHrIC3k",
+      "1_nKzwNZD6w",
+      "1amhehTMxcg",
+      "1dp7alivsLQ",
+      "1gXYL99mfY4",
+      "1x7srLdq12I",
+      "2BHSu-rE4oU",
+      "2I77xJIeRwM",
+      "2Yjg4dAGJI8",
+      "2ZNSYED46LQ",
+      "2cHetaq1bt0",
+      "2fLCiWU6U-I",
+      "2it-PLHuJoU",
+      "2m1aVlTj4ZU",
+      "2rOr5Lwt7kA",
+      "2rU14i9NqOk",
+      "2weWrKT42aY",
+      "33b61qeO_XY",
+      "3GvLuU2x7wU",
+      "3lFeF0MSXh4",
+      "3rbIBKfZDBY",
+      "3sRfRiQ8XfE",
+      "3vIpdUvgWW0",
+      "47V9BqTYDcU",
+      "4O1UqRqpApw",
+      "4UJIa7eVlYo",
+      "4ZjCbDRhfNM",
+      "4bv7Aa6YLCo",
+      "4gKFfJrbQjk",
+      "4jAQ526Zy2w",
+      "4xZ-9vlXV7Y",
+      "55zALDsXP2E",
+      "5mSvRxFJOgE",
+      "66pn-nIOJkg",
+      "6FbZY6YHrxQ",
+      "6VSQtiwkdcI",
+      "6jC0aA1ZqWs",
+      "6p5VLqlERyw",
+      "6ttTd82TWPM",
+      "6xaRdgCp_U0",
+      "7CIZQ-pxNl4",
+      "7FbmDb6U2Ac",
+      "7LAB25SCQ1Q",
+      "7QuzCGvDG_w",
+      "7bhTD8FnV5Y",
+      "7g73oy1tKTI",
+      "7vjW6SzHeWM",
+      "8-GD_CEX0Bg",
+      "86fmWWVXark",
+      "8B2xnSNEqqs",
+      "8HnZ2m8vkZQ",
+      "8IW762yALfc",
+      "8PjHJZtblZw",
+      "8QBqwydVND8",
+      "8dyPTnmOHKs",
+      "8oZexrWcMUY",
+      "8wo1qImfpDU",
+      "9-NjgDLleOw",
+      "92hhojQNQTw",
+      "96mlkQoczI4",
+      "98EE-fC-4IY",
+      "9f5XxCn2EFM",
+      "9jDv0Iibbfw",
+      "9lFhda_KDHk",
+      "9ndMjQLTF9E",
+      "9tScer1xT_E",
+      "9yi3HTL_Rwc",
+      "9ykrlQ5tpBs",
+      "A16VC0VYjSQ",
+      "A4OmiqS6kYo",
+      "AB76kZYvoaI",
+      "AGqrxEtyrdI",
+      "AI6gdNR_LiE",
+      "AcNu6CHE7Y4",
+      "AcibYG4jtbs",
+      "AnBRspXdtZc",
+      "AofVi5k45ps",
+      "AosCvLCh6WA",
+      "B1tyuT17vrU",
+      "BDudniuyJ4s",
+      "BFbNL-DjDh4",
+      "BLzLOUxdk3Q",
+      "Bb4Hh-GDRdA",
+      "BdztT9OUWVY",
+      "BpqCE2DeN9E",
+      "C-3BcpXDRnk",
+      "C-db6yom-IM",
+      "C0FOWRxqWX4",
+      "CK7eEeYlLj0",
+      "CVTf-a4XIEI",
+      "CVqedVQlZZU",
+      "Cj2U_wVlG-I",
+      "Cr1vew4sA9g",
+      "D-DFsBMjlxQ",
+      "D1REgSDwILU",
+      "DE-4uFYXJQ4",
+      "DO67YHV5uAU",
+      "DOJqxZoXCVw",
+      "DQr8J5rkaPk",
+      "DT_IjSALrX0",
+      "DcWsQMiMcak",
+      "DvQTBiItLpY",
+      "E7M-bWWSmfw",
+      "EQW9y4bNea0",
+      "EUM7kv77VVY",
+      "EWNki2-ZFzQ",
+      "EwI_ZoT3VTQ",
+      "F0ZHsu4k6JY",
+      "FA7paWxy_JE",
+      "FIAZhQGKq7g",
+      "FRRT0ZrhjaI",
+      "FsGLnB6llsw",
+      "Fu-GMSDLg_8",
+      "G03YKmotYP4",
+      "G0vtTswg5Ck",
+      "GASrPcGISX0",
+      "GC2vize3KQ0",
+      "GLU9nJYrtbQ",
+      "GM_m1IJk7Hk",
+      "GfixqWjsD58",
+      "GpkgVoPesDI",
+      "Gs-g7kR_7bI",
+      "Gy68fsIdDLY",
+      "H6atjh_g1jQ",
+      "HGN_3WeL0Jk",
+      "HKmpfdo_IBw",
+      "HnIsWX96g6o",
+      "HpCg-xIrOlg",
+      "HqmQaZ1y1UM",
+      "I-iSW-9NHAs",
+      "I4cUb68iZUg",
+      "I8js5-kLrYI",
+      "IFnZxitFeNk",
+      "IWVPepWlzSs",
+      "IXZItGe0K9M",
+      "IXicju8ul1A",
+      "IcTP1tPP7Bk",
+      "IoQaozB-DYA",
+      "IoQiGtso9Vk",
+      "Is76QlotVFE",
+      "J2UuTr7p01g",
+      "J864eOze5kU",
+      "JIWmxboS-oM",
+      "JLjCveR-ft0",
+      "JNInBkbEDHk",
+      "JTFhwaKEQAY",
+      "JeRGrHsv07U",
+      "JgyOwNGlevc",
+      "JsRvUMfIPwc",
+      "K-OopxgJ8wY",
+      "KNY-XfgbGog",
+      "KUvcN-AqdZg",
+      "KXmidtaUNxI",
+      "KXszjTBmfpQ",
+      "Kg9ee0cotfM",
+      "KgIXLmCShsU",
+      "KlIQxR3vWU8",
+      "KmfwnHCd8Fk",
+      "L0kI_PZKvmQ",
+      "LB2oYxyYL3c",
+      "LEsmpI8bWCY",
+      "LNXBHVnP4gs",
+      "LOw05Uk3rUk",
+      "LPcgC50HCMY",
+      "LRtedmEn8mQ",
+      "LU35znr1jVM",
+      "LvPQ9F_OtCI",
+      "LvppSP_QUrg",
+      "M3HFaYaRC6M",
+      "MOYwhSd8tv4",
+      "Mf2A7cbTq3s",
+      "Mt7Puhphbjo",
+      "N36scNqRwII",
+      "N6UZiZ1-sNI",
+      "N813aS8mI-Y",
+      "NAqGs6ygykU",
+      "NO6-2zAJgys",
+      "NWLckaXH1_U",
+      "NYLmHWw9Exc",
+      "NjOkuREH8lI",
+      "NvHEQ7vnxfI",
+      "NvnA3PI0R7g",
+      "NyIj6h8hZHw",
+      "O4pGx8ESHDU",
+      "OP8ALhLynHE",
+      "OWIBkORaQX4",
+      "OXi2MYOms4c",
+      "O_2Jji7NAHQ",
+      "OcqynathaX8",
+      "OfqkRAZUfe0",
+      "OgIZhrxD4v4",
+      "Oh4hGMZ90mw",
+      "OpTLkQCSZHs",
+      "OperMXnGmXE",
+      "Oxv_w9zejsA",
+      "P8GMYTARyNU",
+      "P8t_d7J9fm4",
+      "PBkZQHkjciE",
+      "PJKk1BwtgVY",
+      "PiNvT_jnhbw",
+      "PmxmmzyUZjg",
+      "Pqc19izKNXI",
+      "Q0sVq_1SIQM",
+      "Q1KSHFhLzJo",
+      "Q6GKMOJuaPc",
+      "Q70kwfR0LGs",
+      "Q7A1e_V0s3c",
+      "QFa98_RyV0M",
+      "QcYJwQgu67g",
+      "Qccoybb9-ok",
+      "QfTqabNW1Lc",
+      "QginFVl00Hw",
+      "QnSnO8bVeNs",
+      "Qt4uGvGRYT0",
+      "QtQBGLzS698",
+      "QyF37JEFpfA",
+      "Qymq81j2wJ0",
+      "RNiSYvLX6Vc",
+      "RfcoPP3dvcQ",
+      "Rm0aHk4flxc",
+      "Rm4XLdyqj3s",
+      "RwyPR2RFZYM",
+      "RyHCyHe1o8I",
+      "S23VRWxzz08",
+      "S3Mn1FvQhKI",
+      "S4fOYedAruE",
+      "SDvVF1xkHKQ",
+      "SERg4hiCWdE",
+      "SG0nbNRdl4c",
+      "SP3NyXmPafI",
+      "SUN8UiXAjf0",
+      "SaMpFOPm_4U",
+      "T-W5qFAVG9o",
+      "TF0XTvwWyYg",
+      "TFu0lu-_rzQ",
+      "TJBcEpXymYk",
+      "TKTKBmTkebg",
+      "ThgEv7FWNeE",
+      "TnYExlfWw9c",
+      "Tp2VuAaqXgE",
+      "Tq2IELynaGs",
+      "Tyl0yPQkO5g",
+      "U95vMOOhKH8",
+      "UEy2UN3N3Aw",
+      "Ubl--73gmTs",
+      "UhE9cOJ35FY",
+      "Uhie5ocQTDo",
+      "UnzHKHcizto",
+      "Up24LIKJ9Iw",
+      "UzVTR2DdYzg",
+      "V8c6mwdvpX0",
+      "VTOiKRlSe6A",
+      "VVxzNTshJCM",
+      "VZUS0kmh7YM",
+      "VZk4615VM6I",
+      "VcrYHkDgb0o",
+      "VqrXg-tDRO8",
+      "W1PKG4tVw_g",
+      "W2KvnHPQdjM",
+      "W2dAmCXg9GE",
+      "WK-KLd2ssYY",
+      "WQhi-AKDPc8",
+      "Wbj_6CEgcGU",
+      "Wj_i-4GhOQk",
+      "WwKrmuDjVkc",
+      "X3YHN5LqQdA",
+      "XU7YAfZ9xuM",
+      "XkQdhTf71ao",
+      "XziSlSDeKM0",
+      "Y08zvnbxdM0",
+      "Y3Xpww54LpU",
+      "Y9PGtPmcMms",
+      "YarbTzTfq6I",
+      "Yt3yAPjrLhk",
+      "YvtdjHJhfpU",
+      "YxXfsKoyx6M",
+      "Z-jk95jveGg",
+      "Z1IuJFudcPY",
+      "Z29a16kpLVc",
+      "Z5D8YuuF7uw",
+      "ZW-dNzbCREI",
+      "Z_NUmsCIwWA",
+      "Zd6yryCjyhM",
+      "Zl_fegEg7yY",
+      "ZlkBfwlhYFU",
+      "ZlvJE-ncrK8",
+      "_6E5wt-PfqQ",
+      "_F7HqN0-HyQ",
+      "_GL2t3cdSi8",
+      "_IpgWsKodXg",
+      "_TGU8C0u010",
+      "_U-FV_62gjM",
+      "_XCBMJmosDk",
+      "_lWp9b4K6uY",
+      "_pOv1fnV6nM",
+      "a-e5f7yQDRY",
+      "a9IZ07lhpeM",
+      "aD0piOY523I",
+      "aO4n2PJPeHk",
+      "aU37rUbfEoc",
+      "aUi7URsuQwU",
+      "aW2j9_5bywE",
+      "a_i8pGVa7-w",
+      "a_vchjD7CHQ",
+      "ah3StuP2TZE",
+      "ar4HNfWjzh4",
+      "au1z3vNxc34",
+      "b0FeObtj2bo",
+      "bF1I2olZSc0",
+      "bJJSH84q5fE",
+      "bZTJv6aZevw",
+      "bjfqQUgsyNs",
+      "bl25vUPfI8o",
+      "c2ifRGBo-q4",
+      "c3gqyNTvFTc",
+      "c4mmaLAsDw4",
+      "cCDk-1hthR4",
+      "cHdQtVoFeuo",
+      "cM0AndkKdVk",
+      "cZcJ4ehcVuQ",
+      "c_mql2Uhl7k",
+      "caDB-roRasI",
+      "ctPLFrzuIqg",
+      "d5a3hti_P8g",
+      "d8WzpxSSX8k",
+      "dBn4nhn8d9c",
+      "dHpdI35EWY8",
+      "dSZpq5Z9CEk",
+      "ddRN-vIf3iI",
+      "dfXZ66EcGQQ",
+      "dsBkqzhX08I",
+      "dvlxMc4X9_0",
+      "e0Tp5apV7Ds",
+      "eInWxbd_UiA",
+      "emfnY0TPyaY",
+      "exm_kOfNtXk",
+      "f--fM_qJLAI",
+      "f3EI72Nwemk",
+      "f8lzn1KEIww",
+      "fIicREPruVs",
+      "faCzY5kVkss",
+      "fkoUNvB9LV8",
+      "frt8tQOrjiM",
+      "g1b6Hxx-HUk",
+      "gCI2qF34Dss",
+      "gEykawbVyYQ",
+      "gGII-GzuDUg",
+      "gJfXl9Q3CIw",
+      "gKBzDEllg4M",
+      "gNN7G7vNyqY",
+      "gREGOOA2OHo",
+      "gU9bFxV1rzo",
+      "gUY1BE4b_eA",
+      "gWAOrislxFY",
+      "gbOoH1oV4Hk",
+      "gnUErjmtHcY",
+      "h9D50zVKxF0",
+      "hCN5Cl7T2Qc",
+      "hHbKJuQth_w",
+      "hN7szX2re2c",
+      "hW1hlDoqDR0",
+      "h_o3RrQ9z40",
+      "haxBpHW8xp8",
+      "hfJa_QNaN6c",
+      "hpU_xEXmdvE",
+      "hrhJ6Y8hhPU",
+      "iEm_mwCJpfA",
+      "iI1mI0agsAo",
+      "ipcVSUPA4w4",
+      "iu-GGC7hEKA",
+      "izhaUHRKViw",
+      "jNGss4BSnLQ",
+      "jfjW3Jf4hEM",
+      "jxx99px88HA",
+      "k9CrEU5RuIE",
+      "kHmUYEX1Lqw",
+      "kXGYTsBTKj8",
+      "kZ4cZs-2Xhc",
+      "kkE25HmFciU",
+      "kkQbz_lXTjU",
+      "kxr8zFvUTj8",
+      "l0aR7nQGh4M",
+      "l4bXbwfOlrU",
+      "lA7RJiDJLkQ",
+      "lFySLwtUKW4",
+      "lLuNbjNXjg0",
+      "lNh8L6NMhnI",
+      "lPmjWTwNVQA",
+      "lTeNBUR1u8g",
+      "lYVb5LwixM0",
+      "lbaZ__wbLWo",
+      "ldTVukHRIR0",
+      "lhNC30_adGc",
+      "lvixGbwo0Ug",
+      "m9AyomKoYho",
+      "mJ0uLdys5cE",
+      "mLyxUEp1a68",
+      "mMr8Xnt95rE",
+      "mONJ1htVKrE",
+      "mRD3GbTOtK8",
+      "mb-2ll0UtTo",
+      "mqIWre0VXGU",
+      "mqT-osK7Dkc",
+      "mrnTQL0eyBc",
+      "mvc_zbjfBWQ",
+      "nT0qOcN_nEQ",
+      "ncOI16-meB4",
+      "nd5WfYyjelg",
+      "nhJI_yGjfRU",
+      "nma3zHRugsM",
+      "o-5X16hq9Fo",
+      "oA6gABulhJk",
+      "oDHSbp6QRRE",
+      "oF62qDhYkuw",
+      "oFGkW7wZsLo",
+      "oPZRWj6Og64",
+      "ohOpaJczckE",
+      "olu1XyJ7q_w",
+      "om5BbhJDaOo",
+      "oom96XXQobY",
+      "ot7qPVf7XVU",
+      "pEZhsdhu6xw",
+      "pFrQLRQ37pY",
+      "pd_HXj0jT9g",
+      "puO8alDwL9w",
+      "pwI058vcXP8",
+      "pxVSMo5e7yc",
+      "pyew_HmvSOE",
+      "pzz1RMZnLIo",
+      "q4SSpq9jc3g",
+      "qFM8NIDIRro",
+      "qHuFie5U65g",
+      "qJWJvHP4uaw",
+      "qPi_0cW7aHI",
+      "qcIz2--60Ts",
+      "qnmVK1R3X0k",
+      "qt5mQQ6W6Z4",
+      "qwh1x15aM4s",
+      "qzi1LqwsP5k",
+      "r1eyXzXNdI0",
+      "rEe5LHWj4fI",
+      "rh6Cj0CW4Bo",
+      "rmYOxoub5y0",
+      "rmfwTnA2tCA",
+      "rsTdXaLenEw",
+      "rt9R26k6dEM",
+      "rxk1uXjnKJo",
+      "rzpkTJYsY0Q",
+      "s27qG_Eg3SY",
+      "sAXC1hn8u9A",
+      "sAxHiPERmmY",
+      "sFE1EyKRHvE",
+      "sd2XYBZY-K8",
+      "shYCuunkPEY",
+      "soshw_203eY",
+      "sqk0Nl8AVYI",
+      "suY0GGTOG9E",
+      "szIzrJJMm4o",
+      "t8k09YlBbtc",
+      "t9XmjCGO1Tw",
+      "tLT1ohlm68c",
+      "tYcH95rlgNw",
+      "tenAKLEOso4",
+      "tviOSTliefY",
+      "txBBcq-D5mI",
+      "u3Tn6Z3OH-0",
+      "u4yj6dD01aE",
+      "uG1p1j9iAZ4",
+      "uJ6l8t5TpwY",
+      "uPNKwSkxtKg",
+      "uPtvVVYKjnI",
+      "uQJlesqDFf4",
+      "uSqIuvBwh8o",
+      "ufKHek_TU30",
+      "uiiggEC7c9M",
+      "ukZBqIlz8e0",
+      "uqv1-7DCKYI",
+      "uvUmZuXgLtU",
+      "uwGxjv9O1kk",
+      "uzUqoUG0-Xs",
+      "v-SdLOVwRS4",
+      "vFd4E6F6Z3Q",
+      "vFmG2Me8P-o",
+      "vKMHNYQYWAI",
+      "vM7inxJZ-6U",
+      "vW9TWijhwfA",
+      "viWTUee1PUY",
+      "vm5u5_3v1_U",
+      "vokGmmhZ9hg",
+      "vqDhBjDJAgA",
+      "w2T9_14Y9KQ",
+      "w6_e7nySEXI",
+      "wf3Eu3Yij68",
+      "wfmIOYsE2Hs",
+      "wowlXrlGrEc",
+      "wsomY_6BRqA",
+      "x7wiBaReFN8",
+      "x8cNF81m7-A",
+      "xHOOBcDcJZU",
+      "xPxusEh-gow",
+      "xb5pUpTVIJU",
+      "xd1xP2FuN40",
+      "xikuzV80GP4",
+      "xkA8v-0jGqg",
+      "xnLiADJF5lw",
+      "xoLGoOIRMlc",
+      "xsU4wp9sR8A",
+      "xt_q5SkINT8",
+      "yg5ul2oeCuM",
+      "yx003QuLH1M",
+      "yyW9WaW3Pls",
+      "yz2cBaVX66A",
+      "zBF3iPJfbaw",
+      "zMu1mAFlVPQ",
+      "zZO7y7Rpbk4",
+      "zZ_1iOXL_wA",
+      "zaW8XagX72U",
+      "ze87vOi2qrQ",
+      "zfdo0R0g-PQ",
+      "ziOsy7OGQ2Q",
+      "zkM_gea0XVE",
+      "zugXvK4CBlM",
+      "zuh3k15-STo",
+      "zxTbtAbuXFs"
+    ]
+  },
+  "entries": [
+    {
+      "video_id": "US0krPyfTlI",
+      "title": "Kitchen mistakes",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "eHxsVHIus5Q",
+      "title": "APARTMENT RENOVATION STEP-BY-STEP GUIDE: WHAT TO DO AND IN WHAT ORDER",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7wZFbfq84h4",
+      "title": "10 ОШИБОК В РЕМОНТЕ, ЗА КОТОРЫЕ ПРИДЕТСЯ ПЛАТИТЬ ДВАЖДЫ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "u8-y7QPc48I",
+      "title": "KIDS' ROOM DESIGN: HOW TO AVOID REDOING THE RENOVATION EVERY 3 YEARS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3Z8no46kuDw",
+      "title": "THE TRUTH ABOUT SHELTERS, PETS, AND PET-FRIENDLY HOMES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JUsdLmavZBY",
+      "title": "5 SIGNS YOUR CONTRACTORS ARE SCAMMING YOU",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7veTI5r6cPE",
+      "title": "APARTMENT DESIGN FOR A LARGE FAMILY",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LhCsh9hfySg",
+      "title": "WHAT THE PERFECT COUNTRY HOUSE SHOULD BE LIKE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MrfDO6AWU4Q",
+      "title": "8 MISTAKES THAT MAKE YOUR APARTMENT LOOK CHEAP",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Tyu-uI-S8eE",
+      "title": "5 REASONS WHY YOUR APARTMENT LOOKS BORING",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "66Lb4z1dQos",
+      "title": "МАША ФЁДОРОВА: МОДА, ТЕЛО И ПРАВО БЫТЬ СОБОЙ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sMvHVxhKms0",
+      "title": "RENTING IN MOSCOW: WHAT TO RENT AND WHAT TO RUN FROM?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ULCpnIrBXR0",
+      "title": "INTERIOR DESIGN MISTAKES EVERYONE MAKES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hwUeDCAYzAA",
+      "title": "3 SIGNS OF AN OUTDATED KITCHEN",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ECnhECl3Oos",
+      "title": "СТИЛЬНЫЙ РЕМОНТ БЕЗ ОГРОМНЫХ ЗАТРАТ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Zws-M9c0hFc",
+      "title": "HOW TO CHOOSE THE PERFECT SOFA: 3 MAIN RULES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qGD9OuJd2SQ",
+      "title": "7 INTERIOR MISTAKES THAT MAKE IT CHEAP",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hksg71KMy24",
+      "title": "10 REPAIR MISTAKES EVERYONE MAKES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "z34pgBaNDQA",
+      "title": "SMALL KITCHEN LAYOUT: MISTAKES THAT MAKE YOUR LIFE HARD",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "u5QaBh006BA",
+      "title": "Don't do THIS in the bathroom EVER.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TNx1zWf90I0",
+      "title": "ДИЗАЙН 90-Х ПРОТИВ СОВРЕМЕННОСТИ. КАК ИЗМЕНИЛСЯ МИР?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wY3mRfIv1ao",
+      "title": "RENOVATING A KHRUSHCHEVKA: 5 MISTAKES EVERYONE MAKES (AND REGRETS LATER)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Vy7OJCgjqoo",
+      "title": "HOW TO AVOID TURNING YOUR HOUSE INTO A SOUVENIR SHOP?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tDmDW41kjyo",
+      "title": "The most common living room design mistakes and how to fix them",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zEjfgekwsFQ",
+      "title": "We've thought of everything in this 55 sq m blogger's apartment! Interior review",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PvLYEEipeoM",
+      "title": "DO NOT REPEAT THIS DESIGN FROM PINTEREST!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fhoprq8QTlo",
+      "title": "5 DECORATION TECHNIQUES THAT WILL MAKE YOUR INTERIOR LOOK LIKE CANDY",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9VqpKdIsuFE",
+      "title": "HOW TO MAKE RUSSIAN CITIES BETTER AND SCALE BUSINESS IN THEM?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SDAcUAYcTkc",
+      "title": "DON'T DO THIS IN 2026! ANTI-TRENDS IN INTERIOR DESIGN",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9s6kJ690PNo",
+      "title": "EVERYONE WILL BE DOING THIS! 2026 INTERIOR DESIGN TRENDS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6D6QbjKLxN8",
+      "title": "HOW TO INTEGRATE CONCRETE INTO YOUR INTERIOR? LIFE HACKS FROM AN INTERIOR DESIGNER",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qSYgI1vw6ps",
+      "title": "Cheryomushkinskaya v2 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nHpHU5_IZ3I",
+      "title": "HOW TO DECORATE A CHRISTMAS TREE IN 2026: DESIGNER TIPS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dXbtJXygSiw",
+      "title": "IDEAL MODERN APARTMENT OF 319 sq. m FOR A LARGE FAMILY",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "x51hbcPPpsI",
+      "title": "GET THIS OUT OF YOUR BEDROOM TO START GETTING A BETTER SLEEP! A podcast with a sleep specialist a...",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DGA5ldBdJc0",
+      "title": "DECOR TRENDS: CHOOSING APARTMENT DECOR",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "e0MLTGgVm14",
+      "title": "HOW TO PLAN INTERIOR LIGHTING WITHOUT MISTAKES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "892t8VbeEFM",
+      "title": "MISTAKES THAT CHEAP YOUR BEDROOM INTERIOR",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bcHTIHyWiVc",
+      "title": "HOW TO CHOOSE SOCKETS AND SWITCHES?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cgNCbQ70Bkk",
+      "title": "5 WAYS TO MAKE YOUR HOME COZY: THE PSYCHOLOGY OF DESIGN",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YN2rYpXgJ8w",
+      "title": "HALLWAY DESIGN: STORAGE, ZONING, LIGHT",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2OGVlxGnYiw",
+      "title": "HOW TO CHOOSE A COLOR FOR YOUR INTERIOR AND HOW COLOR AFFECTS US",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2BGR0mroigc",
+      "title": "LIVING ROOM DESIGN MISTAKES AND HOW TO FIX THEM",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QHdQPoFr6y8",
+      "title": "Leadership Mistakes: How to Assemble Your Dream Team? Podcast #1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Vkwpga-YLJI",
+      "title": "DESIGN PSYCHOLOGY: 5 WAYS TO MAKE YOUR INTERIOR LOOK EXPENSIVE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OcB_ANXEeWY",
+      "title": "THIS KITCHEN INTERIOR WILL BE RELEVANT EVEN IN 10 YEARS!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cmDRTjRXzy0",
+      "title": "WHAT TO DO WITH AN EMPTY WALL? 10 WAYS TO USE A WALL IN THE INTERIOR",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Q6eQYtmuhaw",
+      "title": "3 MISTAKES IN 3 MINUTES: BEDROOM INTERIOR",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "v4pHJDpGTSM",
+      "title": "8 WORST LAYOUTS! Don't take such an apartment even for free",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MA69t391HVA",
+      "title": "HOW TO CHOOSE AN INTERIOR DOOR: 5 TIPS FROM A DESIGNER",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TBcWYlY2iTA",
+      "title": "HOW TO CHOOSE AN ENTRANCE DOOR? 5 TIPS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Q1ggeo9PhY4",
+      "title": "HOW TO GET RID OF THESE HABITS IN THE INTERIOR?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YRhcmkZgt8c",
+      "title": "3 SIMPLE RULES TO MAKE YOUR HOME COZIER",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "eHvgu2M6rRM",
+      "title": "INTERIOR DECISIONS THAT PEOPLE REGRET",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "00GSJPGQLOo",
+      "title": "WHY IS REPAIR SO EXPENSIVE? BUDGET VS PREMIUM",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YnpUcFceb10",
+      "title": "10 ТРЕНДОВ В ДИЗАЙНЕ ИНТЕРЬЕРА ВАННОЙ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KFlqXcObIg0",
+      "title": "ОБЗОР МОСКОВСКОЙ НЕДЕЛИ ИНТЕРЬЕРА И ДИЗАЙНА: ГЛАВНЫЕ ТРЕНДЫ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yXJJ_MIcWpI",
+      "title": "10 Interior Design Rules You Should Never Break",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Q_IYjoZolbU",
+      "title": "MY STORY: HATERS, SELF-ACCEPTANCE, HOBBY, BUSINESS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "A3q763w7NzE",
+      "title": "ХОРОШИЙ ДИЗАЙНЕР НЕ СДЕЛАЕТ ЭТОГО!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3Th1kXmj7iE",
+      "title": "ДИВАНЫ, КОТОРЫЕ ПОРА ВЫБРОСИТЬ! Чем их заменить?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fvPgrGxr5rM",
+      "title": "LIGHT IN THE INTERIOR: 3 RULES IN 3 MINUTES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IJBqDFvDRUs",
+      "title": "ОБЗОР КВАРТИРЫ ДЛЯ МОЛОДОЙ ДЕВУШКИ: ЛАЙФХАКИ ПО РЕМОНТУ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yqgz1SreuG0",
+      "title": "ТИПИЧНЫЕ ОШИБКИ В СОЧЕТАНИИ ЦВЕТОВ: РАЗБИРАЮ РЕАЛЬНЫЕ ПРИМЕРЫ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pRgWvv3kedk",
+      "title": "KITCHEN TRENDS 2025: THE BEST SOLUTIONS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FC25WqVegJI",
+      "title": "10 WAYS TO TRANSFORM A RENTAL APARTMENT",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lkhEo-BXODs",
+      "title": "8 УМНЫХ РЕШЕНИЙ ДЛЯ ВАННОЙ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YCOD2a3sjpA",
+      "title": "ОБЗОР УМНОГО ДОМА 2025: СКОЛЬКО СТОИТ, ЧТО УМЕЕТ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jFraSpn8go4",
+      "title": "7 Smart Solutions for Organizing Your Dream Wardrobe",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Cp0zQgmq-f0",
+      "title": "TIMELESS INTERIOR: TRENDS THAT WILL NEVER GO OUT OF FASHION",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gDs0zPW_khQ",
+      "title": "КАК ВИЗУАЛЬНО УВЕЛИЧИТЬ МАЛЕНЬКУЮ КВАРТИРУ ИЛИ КОМНАТУ? 7 эффективных приемов",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ghh5vZSgVJg",
+      "title": "WORKING LIFE HACKS OF MODERN INTERIOR! Review of a cozy apartment of 59 m2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "g-rFTEytGKU",
+      "title": "ГЛАВНЫЕ ТРЕНДЫ 2025: ЭТО БУДЕТ ВО ВСЕХ ИНТЕРЬЕРАХ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "M2TmAxVa1ag",
+      "title": "7 РЕШЕНИЙ, КОТОРЫЕ ДЕШЕВЯТ ИНТЕРЬЕР",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LtkoQjK7Pu0",
+      "title": "ИНТЕРЬЕР 2025: ТРЕНДЫ В МЕБЕЛИ И ДЕКОРЕ! Обзор галереи интерьеров \"Твинстор\"",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "X6E1hvFvrzg",
+      "title": "What Style Should I Renovate? A Complete Guide to Interior Design Styles",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JgDzAoWlyJI",
+      "title": "10 ILLEGAL INTERIOR DESIGN SOLUTIONS!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gKx17KNhFN4",
+      "title": "ДИЗАЙН ДЛЯ АНДРЕЯ МАЛАХОВА: ОБЗОР НОМЕРНОГО ФОНДА В «ИЗОВЕЛЕ»",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T71SUICVwmI",
+      "title": "НОВЫЙ БИЗНЕС АНДРЕЯ МАЛАХОВА: ОБЗОР СПА-КОМПЛЕКСА В АПАТИТАХ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mFILfHf-mwg",
+      "title": "ЭТИ 10 ВЕЩЕЙ УБЬЮТ ВАШ ИНТЕРЬЕР",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sJB-qqw8WoE",
+      "title": "HOW TO CHOOSE A SOFA? A REVIEW OF THE DIVAN.RU STORE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T8IV89RLbfM",
+      "title": "7 ДОРОГИХ, НО НЕУДАЧНЫХ РЕШЕНИЙ В ИНТЕРЬЕРЕ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ACEeJhksQO4",
+      "title": "БОЛЬШОЙ ЧЕСТНЫЙ ОБЗОР ASKONA HOME: ЦЕНЫ, АЛЬТЕРНАТИВЫ IKEA",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jl3OSKoe0YU",
+      "title": "7 SMART RENOVATION SOLUTIONS FOR BALCONIES AND LOGGIAS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j-F2HmDkaqY",
+      "title": "КРАСКА ИЛИ ОБОИ? ТОП-5 ЛУЧШИХ МАТЕРИАЛОВ ДЛЯ ОТДЕЛКИ СТЕН",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_JNHlYRu610",
+      "title": "7 BEDROOM REMODELING MISTAKES YOU'LL REGRET",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lEtbneNMgyI",
+      "title": "TOP 5 TIPS ON HOW TO CHOOSE A CHANDELIER AND AVOID MISTAKES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JJQFFuPiTgo",
+      "title": "ОБЗОР ШИКАРНОГО ТАУНХАУСА И СОВЕТЫ ПО ФЛИППИНГУ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "anSUN2L91jk",
+      "title": "HOW TO CHOOSE TILES SO YOU DON'T REGRET IT",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "T3b-IS4Rb0E",
+      "title": "IDEAL TOILET RENOVATION AND THE MAIN MISTAKES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9CZABNOYoS4",
+      "title": "THE TACKIEST TILE DESIGNS FOR YOUR INTERIOR",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RukktYL5JJQ",
+      "title": "10 РЕШЕНИЙ В ИНТЕРЬЕРЕ, МЕСТО КОТОРЫМ В АДУ! Часть 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9aKTNmbpglI",
+      "title": "How to Fit Everything into a Small Kitchen: 7 Smart Solutions",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "k-RySSctQG8",
+      "title": "ГАДЖЕТЫ ДЛЯ ДОМА, КОТОРЫЕ УПРОЩАЮТ ЖИЗНЬ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OVfOw-guBPg",
+      "title": "ЧТО НАВОРОТИЛ ГОРЕ-ДИЗАЙНЕР ЗА 250 ТЫС.? КАК НЕ ПОПАСТЬ К ПЛОХОМУ ДИЗАЙНЕРУ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nEUhz-7DzwY",
+      "title": "WORST AND BEST FLOORING: WHICH FLOOR TO CHOOSE?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "58rY1aOpkvI",
+      "title": "7 WAYS TO MAKE YOUR KITCHEN LOOK MORE EXPENSIVE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "B7aDzo22h14",
+      "title": "HALLWAY DESIGN: STORAGE ORGANIZATION, FUNCTIONALITY, STYLE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_ffQ61silcs",
+      "title": "HOW TO ORGANIZE STORAGE IN THE HOME: COMMON MISTAKES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AVYrg2UUT18",
+      "title": "HOW TO SAVE MONEY ON RENOVATIONS? 98% OF PEOPLE OVERPAY FOR THIS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "35JicuSl7qY",
+      "title": "10 ГЛУПЫХ ВОПРОСОВ ДИЗАЙНЕРУ ИНТЕРЬЕРОВ (2 часть)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "X371rPDQEw0",
+      "title": "10 ГЛУПЫХ ВОПРОСОВ ДИЗАЙНЕРУ ИНТЕРЬЕРОВ (1 часть)",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "eRS1JZZbW-s",
+      "title": "DON'T MAKE THESE 7 MISTAKES WHEN HANGING CURTAINS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ACbH7ENAEg0",
+      "title": "BEAUTIFUL BUT UNCOMFORTABLE SOLUTIONS. How to make your interior more cozy",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "k7t2Vh9wNbI",
+      "title": "5 ОШИБОК ПРИ СМЕШЕНИИ СТИЛЕЙ В ИНТЕРЬЕРЕ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ol3rBoenHI0",
+      "title": "АНТИТРЕНДЫ 2024 В ДИЗАЙНЕ ИНТЕРЬЕРОВ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oSN-paRchLQ",
+      "title": "MAIN TRENDS OF 2024 IN INTERIORS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_FjxJO4DiiE",
+      "title": "MISTAKES IN THE INTERIORS OF SMALL APARTMENTS",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KKU_LDeTq9M",
+      "title": "КАК ЖИВУТ БОГАЧКИ НА РУБЛЕВКЕ? РАЗБОР ИНТЕРЬЕРА",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Q581ZkY7bEY",
+      "title": "7 Affordable Yet Beautiful Interior Design Solutions",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "M4lms-vhcIc",
+      "title": "10 OUTDATED INTERIOR DESIGN SOLUTIONS AND HOW TO REPLACE THEM",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "exFiotIUFto",
+      "title": "10 MISTAKES THAT PEOPLE REGRET AFTER RENOVATION, AND HOW TO AVOID THEM",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xUtlcJX5Xgs",
+      "title": "СМОТРИТЕ ШОУ \"СВЕРХНОВАЯ\" С ТАТЬЯНОЙ БЕЗВЕРХОЙ! Кто выиграет 10 000 000?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yDOONT9UDP8",
+      "title": "HOW TO DO REPAIRS YOURSELF AND AVOID FAILURE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "N7_jmK1L8QM",
+      "title": "HOW TO CREATE AN INTERIOR THAT IS EASY TO CLEAN",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YwvHim_GeyQ",
+      "title": "INTERIOR DECISIONS YOU'LL REGRET",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "aif43rv_X94",
+      "title": "КАК СДЕЛАТЬ ИЗ ХРУЩЕВКИ КОНФЕТКУ?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qjK5ommsB8g",
+      "title": "5 ТОПОВЫХ ЛАЙФХАКОВ ПО РЕМОНТУ НА ПРИМЕРЕ ОБЪЕКТА МОЕЙ СТУДИИ ДИЗАЙНА",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nfwEyEGIDDc",
+      "title": "Как спроектировать дома бассейн и сауну?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jAMv6KOQynQ",
+      "title": "ЧЕСТНЫЙ ОБЗОР НА ПОСУДУ ИЗ МАГАЗИНА SWED HOUSE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JONG3NlH3qw",
+      "title": "7 РЕШЕНИЙ, КОТОРЫЕ ДЕШЕВЯТ ИНТЕРЬЕР",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ZNVKFeEu5ZE",
+      "title": "ЧЕСТНЫЙ ОБЗОР МАГАЗИНА SWED HOUSE",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Jbr6KUANCYE",
+      "title": "SLIDING DOOR WARDROBES: PROS, CONS, AND ALTERNATIVES",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "odPiGE_MMTU",
+      "title": "РЕМОНТ ДАЧИ: КАК СДЕЛАТЬ БЮДЖЕТНО, НО КРАСИВО",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gka3-pOJV2k",
+      "title": "КАК СДЕЛАТЬ РЕМОНТ ЛЕТОМ: С ЧЕГО НАЧАТЬ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "52UF4DFIIr8",
+      "title": "DON'T LIVE IN APARTMENTS LIKE THIS! I'm looking at apartments on Avito and Cian.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "d7UVmYk0U2w",
+      "title": "How to plan lighting in an apartment: lighting in the interior",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-dEAMnQDgPw",
+      "title": "ИНТЕРЬЕР ЭТОГО ДОМА ВЛЮБЛЯЕТ || Обзор дома в стиле американская классика. Часть 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "H_62PbqWdVY",
+      "title": "15 Ways to Make Your Apartment Look More Expensive || How to Choose Paint, Bedding, and Furniture",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3l8n3a7TcMs",
+      "title": "TOP 20 FURNITURE FACTORIES IN RUSSIA! || What furniture to furnish your house or apartment with?",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PXSJmSVfSM8",
+      "title": "ОДИН ИЗ КРУПНЕЙШИХ ОБЪЕКТОВ МОЕЙ СТУДИИ! Обзор дома в Лагуна Парк",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gDQUvfdUP-0",
+      "title": "How to Fit Everything You Need into a Small Apartment: 5 Best Techniques from an Interior Designer",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3nGLfSGSSdM",
+      "title": "THE INTERIOR OF THIS HOUSE IS FALLING IN LOVE! Review of the house in the American classic style....",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sEIEjCKlwJY",
+      "title": "THE MOST POPULAR INTERIORS IN THE WORLD IN YOUR HOME! Japandi, American, and Moroccan styles",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lOJPGa0Tx-s",
+      "title": "АНГЛИЙСКИЙ И ФРАНЦУЗСКИЙ СТИЛЬ В ИНТЕРЬЕРЕ: основные черты, и как сделать у себя дома!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6V7usNPvdY8",
+      "title": "НЕ ДЕЛАЙ РЕМОНТ НА КУХНЕ, ПОКА НЕ ПОСМОТРИШЬ ЭТО ВИДЕО! 9 ключевых правил",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gfYy7Yk7c9I",
+      "title": "NEVER DO THIS IN YOUR KITCHEN! The most important tips from the pros.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zPebYgVCU70",
+      "title": "HOW TO CREATE YOUR DREAM BATHROOM? Tips from the pros",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0na0nhYM8n8",
+      "title": "WATCH THIS BEFORE YOUR BATHROOM RENOVATION! Design and Renovation Mistakes, Part 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Rb9dA_EtTFk",
+      "title": "THE WORST DESIGN AND RENOVATION MISTAKES IN BATHROOMS! Part 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O-rith7PqyE",
+      "title": "КАК Я ОТКРЫЛА СВОЮ СТУДИЮ ДИЗАЙНА ИНТЕРЬЕРОВ | Мой тернистый, но интересный путь",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2TYLB60XSA4",
+      "title": "КАК ВЫБРАТЬ СВОЙ СТИЛЬ ИНТЕРЬЕРА? Разбираемся в стилях для загородного дома",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2WJc8g2hv0c",
+      "title": "8 TIPS ON HOW TO CHOOSE AN APARTMENT WISELY!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2NF8uB6eS1A",
+      "title": "MODERN INTERIOR: We're finalizing a new project! Room tour",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pTzwD01r-wQ",
+      "title": "5 BEST INTERIOR DESIGN STYLES FOR APARTMENTS: Features and a Guide on How to Implement Them at Home",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2Vn6Ukd-vtk",
+      "title": "YESTERDAY IT WAS EVERYWHERE! 10 Anti-Trends in Interior Design 2023❌",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2858-UuEw7w",
+      "title": "THE MOST BEAUTIFUL APARTMENTS IN STALINKA AND PRE-REVOLUTIONARY HOUSES! Secrets of renovation",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IKwCIiwrlWQ",
+      "title": "ВИНТАЖ В ИНТЕРЬЕРЕ: КАК ДОБАВИТЬ, ЧТОБЫ БЫЛО СТИЛЬНО? Румтур",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AqyOFthiw3o",
+      "title": "ЭТО БУДУТ ДЕЛАТЬ ВСЕ! 8 трендов в дизайне интерьера 2023",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_1MXVkpkKrw",
+      "title": "NEW YEAR'S DECOR SECRETS FROM AN INTERIOR DESIGNER🎄❄",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ak0xuxlbGIA",
+      "title": "НОВЫЕ ГАДЖЕТЫ ДЛЯ КУХНИ, О КОТОРЫХ ВЫ НЕ СЛЫШАЛИ! Кухня мечты",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3aCiZKGq6Uk",
+      "title": "Two-level apartment with a roof terrace in the center of Moscow!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Srjr4LKEZoQ",
+      "title": "КАК СДАТЬ КВАРТИРУ ДОРОГО: 7 БЮДЖЕТНЫХ РЕШЕНИЙ В ДИЗАЙНЕ ИНТЕРЬЕРА",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WJfH_0v0oj8",
+      "title": "GORGEOUS SUMMER KITCHEN with a hand-painted stove!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qDxX4_xtgN4",
+      "title": "ТОП-5 СОВЕТОВ ПО ИНТЕРЬЕРУ КВАРТИРЫ С ПИТОМЦЕМ",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Hoy0yLHQ3Ww",
+      "title": "SUPER INTERIOR made of natural materials for a family with a child!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SK9BAEvNQfs",
+      "title": "ТОП-9 ПРАВИЛ ИДЕАЛЬНОГО РЕМОНТА СВОИМИ РУКАМИ!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ChsumroLDNk",
+      "title": "ГАВАЙСКИЙ СТИЛЬ В ИНТЕРЬЕРЕ! 3 этаж дома",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_n9auXerkAE",
+      "title": "7 FATAL MISTAKES IN INTERIOR DESIGN! ❌ This will ruin your comfort",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "C5c2g6FzAKQ",
+      "title": "10 ВЕЩЕЙ, НА КОТОРЫХ НЕЛЬЗЯ ЭКОНОМИТЬ В РЕМОНТЕ! Запомни, чтобы не переделывать",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wkCWljbL7nA",
+      "title": "ИНТЕРЬЕР ДЛЯ СЕМЕЙНОЙ ПАРЫ В СТИЛЕ \"СОВРЕМЕННАЯ КЛАССИКА\". 1 этаж дома.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Nyuzc5DOK1E",
+      "title": "ВОТ ПОЧЕМУ СТОИТ ПОСМОТРЕТЬ ВСЕ ВИДЕО НА ЭТОМ КАНАЛЕ!",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "nvIdUDyz12o",
+      "title": "10 HORRIBLE INTERIOR DESIGN MISTAKES THAT BELONG IN HELL!🔥",
+      "status": "fresh",
+      "reason": null
+    }
+  ]
+}

@@ -158,3 +158,18 @@ mounting technique on
 [[10_Balcony/analysis/Glazing_and_Structural_Work|Glazing & Structural Work]].
 `single-account`, ~1 season of use at time of filming plus prior use in a
 garage/sauna context. [source: [[_Sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggia_insulation_revisit|extraction note]]]
+
+## Heated Baseboard as a Thermal Curtain, and an Explicit "Don't Convert It" Option (Татьяна Безверхая, added 2026-09-02)
+
+> [!NOTE]
+> Moscow interior designer, unsponsored balcony/loggia guide, 2024. `promotional_ratio: low`. The electric-only rule below **independently corroborates** this page's existing Петришин-Строй finding and the Glazing page's Zemskov finding with a third, unrelated source — a designer describing what she tells clients rather than an installer describing practice. [source: [[_Sources/YT_jl3OSKoe0YU_bezverkhaia_balcony_seven_solutions|jl3OSKoe0YU]]]
+
+- **⚠️ Never extend heating appliances fed from the building's common riser (общедомовой стояк) onto the balcony** — stated as the single most important prohibition in her heating section. **A balcony may be heated by electricity only: underfloor heating, convectors, heated baseboard — not radiators.** Third independent account of this rule on this vault.
+- **⚠️ New option for this page — heated baseboard (тёплый плинтус), her "крутой и неочевидный" route**: a baseboard with a heating element inside it, which **creates a thermal curtain in front of the balcony's glazing.** The mechanism is what makes it suited to a fully-glazed balcony specifically, where the glazing is both the largest surface and the main loss path.
+- **⚠️ Do not underspend on insulation and heating, and the failure mode is stated concretely**: save **50,000 RUB** (2024-09, Russia) **≈ $550** (USD equivalent, 12-month trailing mean to 2024-09-05, 91.2317 RUB/USD; comparability aid, not a quote) and you either sit in the resulting study under a blanket all winter, or abandon it and end up working at the kitchen table. "Уж если вы задумали… делайте его тёплым на полную катушку." She deliberately does not cover insulation build-ups, only the decision not to underspend — so this adds a spend-discipline argument, not a technique, to this page's existing пеноплекс/пенофол stack detail.
+
+### ⚠️ The null option, stated by a designer — worth keeping precisely because it argues against the whole exercise
+
+- **Three square metres of balcony "могут стать просто золотыми в масштабе вашего ремонта"** on a limited budget. Insulating, replacing the glazing, finishing, running heating, laying underfloor heating and furnishing it is **"не копейки" and "не одна сотня тысяч рублей"** — i.e. several hundred thousand RUB, 2024, stated as a range gesture with no breakdown.
+- **Her stated legitimate outcome is to decide not to convert it at all** and use it twice a year on a summer evening.
+- **Directly relevant to this project's own position**, which is already an unheated, unjoined balcony (see [[10_Balcony/Balcony_Guide|Balcony Guide]]'s Family Needs section): this is the first source in this folder that argues the unconverted balcony is a *deliberate budget choice* rather than merely the option that avoids legal risk. **Compare against this page's existing level-1 Moscow benchmark of 38,000 RUB (≈$460) for insulating a 3.6 m² loggia** — that figure is insulation labour and materials only, and her "several hundred thousand" covers the full conversion including glazing, finishes, heating and furnishing, so the two are not in conflict; hers is the whole-scope number the benchmark sits inside.
