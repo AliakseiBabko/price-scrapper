@@ -158,6 +158,16 @@ A related material technique from the same source: a deep (~60cm/2-foot) built-i
 
 `single-account`, `unverified`.
 
+## A Real Child-Crib Space-Planning Case, Master-Bedroom Palette Case, and Asymmetric Sconces (Игорь Краснов, real Peterhof project, added 2026-09-02, Round 7)
+
+Krasnov's own studio's real completed project. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+
+- **⚠️ Real family-life-stage space-planning case, a specific concrete case distinct from (though related to) Round 4's more general future-life-stage-planning content (`DT_IjSALrX0`)**: the master bedroom's open floor area in front of the bed was deliberately made slightly narrower than it could otherwise be, because in ACTUAL daily use the room needs to accommodate a child's crib in that space — a real, concrete "plan real-world furniture needs into the room's proportions from the start" case.
+- **Master bedroom — an emerald-green bed** as a deliberate Art-Deco-toned statement piece coordinated with the home's dark "noble" palette (restates existing bold-accent-color content but as a specific applied master-bedroom case).
+- **Asymmetric, differently-styled bedside sconces** (restates existing asymmetry content already logged on [[06_Small_Bedroom/analysis/Decor_Color_and_Lighting_Technique|Decor, Colour and Lighting Technique]], cross-reference, don't duplicate).
+
+`single-account`, `unverified`.
+
 ## Source Notes
 
 See [[06_Small_Bedroom/analysis/Source_Notes|Source Notes]] for full

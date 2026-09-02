@@ -59,19 +59,28 @@
   independent sources on upholstered-furniture construction quality
   accumulate.
 
-- **Staircase Construction Quality (1 source, added 2026-09-01, Krasnov
-  Round 6, below the 3+ threshold)**: `YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors`
-  contributes this vault's first staircase-specific fact — a stair
+- **Staircase Construction Quality (now 2 sources, updated 2026-09-02,
+  Krasnov Round 7, still below the 3+ threshold)**: `YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors`
+  (Round 6) contributed this vault's first staircase-specific fact — a stair
   riser («подступенки») 90°-angle-to-tread construction-quality
   checkpoint for a minimalist floating/open staircase, plus a note on
   plain wood staircases blending flush with the floor reading
-  "unremarkable" without an accent detail. No existing wiki page
-  anywhere in this vault covers staircase construction (`13_Surfaces_and_Finishes`
-  has none). Held here per the 3+-source threshold rule rather than
-  creating a dedicated page for one data point — recorded in the
-  source note ([[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors]])
-  and here for now. Revisit once 2 more independent staircase-specific
-  sources accumulate.
+  "unremarkable" without an accent detail. **A second, distinct staircase
+  source now added**: `YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour`
+  (Round 7, Krasnov's own real completed project) contributes a
+  glass-and-metal floating staircase construction detail — metal frame +
+  glass treads/risers for visual lightness, deliberately no visible
+  balusters/railings (a frameless glass panel serves as the guard
+  instead) so each step reads as if "floating." **Explicitly a different
+  staircase technique from the Round 6 source** (frame/material choice for
+  visual lightness here, not riser-angle precision) — both are genuinely
+  distinct facts about staircase construction, not a duplicate. No
+  existing wiki page anywhere in this vault covers staircase construction
+  (`13_Surfaces_and_Finishes` has none). Still below the 3+-source
+  threshold — held here and in both source notes
+  ([[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors]],
+  [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour]]).
+  Revisit once 1 more independent staircase-specific source accumulates.
 
 ## Decisions
 

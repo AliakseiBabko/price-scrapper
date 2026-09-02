@@ -553,4 +553,54 @@ This round adds substantial art content from three sources: `HKmpfdo_IBw` (Krasn
 
 `single-account`, `unverified`.
 
+## ⚠️ Vignette Layering — a Step-by-Step Room-Composition Method (Игорь Краснов, added 2026-09-02, Round 7)
+
+**The standout content of this round, a genuinely valuable, well-developed, actionable methodology — this vault has extensive content on individual mistakes to avoid but comparatively little on a concrete, positive, step-by-step "how to actually compose a room" method. Give this real prominence rather than folding it into a smaller bullet.** [source: [[_Sources/YT_f--fM_qJLAI_krasnov_good_vs_excellent_interior|f--fM_qJLAI]]]
+
+Treat a room not as one single composition but as a collection of smaller self-contained "vignettes" — a dresser-top object grouping; a reading corner with a leather chair and two small paintings; an otherwise-empty transitional corner given a console + poster collection; an otherwise-blank bathroom wall given a picture + towel hook + small accessory table. Krasnov's own stated personal breakthrough as a designer: composing a room becomes far easier once you stop trying to design "the whole room at once" and instead build small layered clusters one at a time — an accent chair gets a side table + lamp + maybe art; a hung painting gets something placed beneath it like a chair or plant; a console gets objects added in layers (lamp, vase, small paintings). **A specific, transferable, step-by-step compositional METHOD, not just a "don't leave things empty" principle.**
+
+`single-account`, `unverified`.
+
+## Style-Consistency Self-Diagnosis, Colour/Material "Rhyme," and a 3-Part Timelessness Framework (Игорь Краснов, added 2026-09-02, Round 7)
+
+[source: [[_Sources/YT_f--fM_qJLAI_krasnov_good_vs_excellent_interior|f--fM_qJLAI]]]
+
+- **Style-consistency self-diagnosis method**: assemble a personal collection of liked reference images (Pinterest or phone photos), then explicitly analyze what colors/forms/materials repeat across them to derive your own "base" style, without needing formal design vocabulary — a specific self-diagnosis technique for non-professionals.
+- **⚠️ Colour/material "rhyme" cohesion technique, distinct from general palette-consistency content already logged**: repeat the same accent color or material at least twice across DIFFERENT zones/rooms even without a strict formal style (his examples: a stainless-steel kitchen detail echoed in a living-room lamp/accessory; a green sofa accent echoed via posters/pillows in other rooms) — this repetition creates a subtle sense of coherence even when mixing pieces from different eras/styles. A specific "echo, don't match exactly" cohesion method.
+- **⚠️ 3-part "timelessness" framework, genuinely reusable even though parts restate existing content**: (1) natural materials (wood, cotton, linen, natural stone) age well vs. plastic/MDF (restates); (2) patterns, if used at all, should be genuinely personal/individual, classic, or exclusive — NOT patterns found in every mass-market retailer, recommends unusual fabrics or vintage finds specifically to avoid a mass-market pattern signature (genuinely new point); (3) trends should be applied only in easily-changeable elements (wall color, small decor, small furniture), never as the base/structural material — explicitly names wood-slat walls as a real example of a trend that read stylish ~5 years ago and now reads as poor taste, and states he'd avoid marble as a full base surface material for the same reason (fine as an accent, not primary finish) — packages this as a generalized "trend-in-swappable-elements-only" structuring rule.
+
+`single-account`, `unverified`.
+
+## Unusual-Object Selection Methods, Scale Contrast as a Deliberate Accent, and Style-Mixing (Игорь Краснов, added 2026-09-02, Round 7)
+
+[source: [[_Sources/YT_f--fM_qJLAI_krasnov_good_vs_excellent_interior|f--fM_qJLAI]]]
+
+- **⚠️ Two named object-selection methods**: (1) an ordinary object/form rendered in an unexpected MATERIAL (a dining table with a massive metal base; a table lamp that looks entirely made of paper) — a "familiar form + unexpected material" technique; (2) an object with an unusual FORM instead (a sculptural armchair, an art-object lamp, an unusual stool) — treating furniture as sculpture. Deliberately "ugly"/odd/borderline-absurd objects are recommended as sources of genuine depth IF integrated thoughtfully, sourced from designer/author pieces, vintage collections, auctions, or flea/antique markets.
+- **Sequencing caveat, his own stated rule**: don't impulse-buy random flea-market/auction pieces hoping they'll work — always plan/visualize placement in the actual room BEFORE acquiring the piece, then execute — "сначала есть проект, потом реализация" (project first, then execution).
+- **⚠️ Contrast-via-scale technique, a deliberate counterpoint/nuance to this vault's existing scale-matching content (e.g. the chandelier-to-room-size rule), NOT a contradiction**: in a small dining room, hang an oversized painting (nearly wall-sized) rather than a small one; conversely, in a spacious room, use a deliberately SMALL/modest art object — the scale MISMATCH is what catches the eye. The same principle works with light fixtures — a large pendant over a compact table, or a minimalist small lamp in a large room, both create deliberate visual "tension" through scale contrast. Flag explicitly as the INVERSE of scale-matching, used as a deliberate accent technique requiring good judgment, not a universal rule.
+- **Style-mixing as a contrast technique**: a painting in a heavy classical/ornate frame above the bed in an otherwise clean/modern bedroom (the era clash itself becomes the individualizing feature), or a vintage writing desk as the sole "anchor" object in an otherwise neutral, near-timeless room. Frames existing personalization-through-vintage content explicitly as a CONTRAST technique, not just "personal items are good." His own stated personal preference for "mixing old and new" as a technique for keeping a space feeling considered rather than dated.
+
+`single-account`, `unverified`.
+
+## A Glass-Table Refinement, Casually-Arranged Decor, and a "Disappearing Table" Material List (Игорь Краснов / Dakota Johnson, added 2026-09-02, Round 7)
+
+Real celebrity-home critique format — Dakota Johnson's own home, her own stated preferences kept distinct from Krasnov's added critique. [source: [[_Sources/YT_lFySLwtUKW4_krasnov_dakota_johnson_home|lFySLwtUKW4]]]
+
+- **⚠️ Glass coffee-table exception — a specific refinement of Krasnov's own repeatedly-stated anti-glass-table position (logged extensively Rounds 4-6), not a new isolated fact**: he restates his general dislike of glass tables but concedes THIS one works specifically because the table's base (bamboo legs) is visually expressive/characterful while the tabletop itself doesn't visually dominate — a specific "expressive base + restrained top" condition for when a glass table can work.
+- **Custom "disappearing" glass dining table with clear/acrylic-look supports**, deliberately designed to visually recede in a small dining room so as not to compete with a rug and window light. Krasnov's restated caveat (consistent with his glass-safety position): recommends acrylic/plexiglass/"orgsteklo" alternatives for the same weightless visual effect without real glass's breakage/injury risk — a specific safer-materials list for the "disappearing table" effect.
+- **Casually-arranged wall composition** (paintings simply leaned against the wall rather than hung, alongside a crystal collection and flower vases) as a specific applied example of personal-feel decor arranged "by feeling" rather than formal rules. Attributed to Johnson's own home; Krasnov's synthesis layered on top.
+- **Velvet/pile-textured vintage upholstery in warm tones** adds tactile depth even to simple furniture forms — Krasnov's own material-mood recommendation, applied to Johnson's restored vintage sofas.
+
+`single-account` (Krasnov's own commentary); Johnson's own stated words/home kept as an independent, real, named layer.
+
+## Mid-Century Modern Vocabulary and Japandi's Natural-Material Contrast (Игорь Краснов, added 2026-09-02, Round 7)
+
+**This round's weakest source, reported honestly — mostly general style-vocabulary description, low-to-moderate novelty. Consolidated with Round 6's brief MCM mention rather than duplicated as a new entry.** [source: [[_Sources/YT_OXi2MYOms4c_krasnov_top5_styles_any_apartment|OXi2MYOms4c]]]
+
+- **Terminology-disambiguation point**: "Mid-Century Modern" is essentially what most people historically call minimalism/mid-century modernism, while "Contemporary" is a separate, distinct, more eclectic-friendly style running parallel to it.
+- **Mid-Century Modern vocabulary**: tapered/angled slim furniture legs giving a "floating" visual lightness; warm wood (walnut, teak, oak) as the centerpiece material; large windows/glass walls as a central stylistic element; geometric textile patterns; bold accent colors (orange, mustard, turquoise) against a neutral base.
+- **Japandi as a specific synthesis**: Japanese wabi-sabi (accepting imperfection, finding beauty in simplicity) plus Scandinavian coziness — low ornament, low-profile furniture (near-floor tables, headboard-less beds), paper lampshades/matte diffusers, natural-material CONTRAST (rough linen vs. smooth ceramic) as the actual source of visual interest despite minimal color variation.
+
+`single-account`, `unverified`.
+
 `single-account`, `unverified`.

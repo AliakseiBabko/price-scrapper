@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=OXi2MYOms4c",
+  "video_id": "OXi2MYOms4c",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T08:38:41.673179+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "efb625e34018fb060bf1c44a855ae66e83dc2189da4578019bb89be7ce165aa1",
+  "attempts_before_success": []
+}

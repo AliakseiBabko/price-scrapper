@@ -172,3 +172,10 @@ The same page's existing concealed-fixing technique (an acrylic or metal plate c
 Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part of the apartment, leaving only functional fixtures plus a few small hidden shelves inside — extends this page's existing "storage must be analysed by object, and where nothing fits the answer may be a section of a wardrobe elsewhere in the flat" principle (Михайловская, above) with a concrete real-project applied case for a genuinely small bathroom.
 
 `single-account`, `unverified`.
+
+## Hidden Toiletry Storage and a "Labels Are Visual Noise" Framing (Игорь Краснов, added 2026-09-02, Round 7)
+
+- **Hidden toiletry storage inside a vanity**, from Krasnov's own real Peterhof project, framed around a real stated household need (keeping personal-care products, "тюбики," out of sight) — restates this page's existing hidden-storage content but as a concrete applied case. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+- **⚠️ "Labels are the visual noise" framing, a specific reinforcement of existing hidden-storage content**: hidden/closed storage for toiletries strongly preferred over open shelving specifically because branded/labeled bottles visible on a shelf disrupt visual composition — a useful "labels are the visual noise" framing for WHY hidden storage matters, not just that it's preferred. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
+
+`single-account`, `unverified`.

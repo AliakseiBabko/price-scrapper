@@ -75,3 +75,10 @@ Washer, dryer, hair dryer, electric toothbrush/razor charger, robot vacuum (if u
 **⚠️ Krasnov's own explicit synthesis, the point worth recording distinctly from the list itself**: light distributed across MULTIPLE levels and zones (not just one source) is specifically what let a genuinely dark bathroom palette still read as spacious rather than cramped — a strong, well-illustrated real-world validation of this page's existing layered-lighting principle; cite as a concrete case example rather than re-logging the principle.
 
 `single-account` (Krasnov's synthesis); the underlying techniques are a real, independently-documented project, not Krasnov's own claim.
+
+## Chandelier-as-Composition-Anchor and Decorative-vs-Functional Mirror Lighting (Игорь Краснов / Dakota Johnson, added 2026-09-02, Round 7)
+
+- **⚠️ Chandelier-as-composition-anchor technique, a specific, nameable "lighting as composition" mechanism, genuinely distinct from lighting-for-illumination content already logged extensively**: a centrally-placed decorative chandelier in a bathroom explicitly praised NOT primarily for light output but for its COMPOSITIONAL function — it visually "gathers" the room's vertical line and stops the ceiling from reading as a blank, unanchored plane ("собирает вертикаль, завершает композицию и не даёт потолку повиснуть"). Attributed to Dakota Johnson's real bathroom; Krasnov's added synthesis. [source: [[_Sources/YT_lFySLwtUKW4_krasnov_dakota_johnson_home|lFySLwtUKW4]]]
+- **⚠️ Decorative vs. functional mirror lighting — a specific, genuinely new practical distinction**: a bathroom mirror with only ambient/decorative backlight (meant for evening mood lighting) provides insufficient direct facial illumination for actual grooming tasks (shaving, makeup application/removal). Explicitly states dedicated, direct facial-task lighting is a genuine NECESSITY, not optional, distinct from decorative accent lighting — decorative and functional bathroom lighting serve different purposes and neither substitutes for the other. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
+
+`single-account`, `unverified`.

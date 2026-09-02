@@ -351,3 +351,11 @@ Worked applications:
 - **Portable/movable chairs and side tables allowing a dining zone to be reconfigured within minutes from an intimate one-to-two-person setup to hosting a 15-person gathering** — a specific, useful flexible-furniture-for-entertaining technique.
 
 `single-account`; the underlying technique is attributed to a named, independent, real practitioner (Robert Stilin), not Krasnov's own claim.
+
+## Zoning Through Furniture Rhythm and Lighting — a Second Real Applied Case (Dakota Johnson's own home, Krasnov's synthesis, added 2026-09-02, Round 7)
+
+[source: [[_Sources/YT_lFySLwtUKW4_krasnov_dakota_johnson_home|lFySLwtUKW4]]] — a real, genuinely un-zoned open living room (a 1940s California-modernist home), Dakota Johnson's own words describing the space, Krasnov's synthesis layered on top.
+
+A genuinely un-zoned open living room still reads functional/inviting because seating clusters centrally and light is well-distributed, not because of formal room division — "зонирование можно делать не перегородками, а ритмом мебели и светом." Krasnov's explicit framing: **recommended specifically for households that entertain often but don't want a formalized layout.** A second, distinct real-project case for zoning without walls (compare against Stilin's furniture-as-boundary-markers technique above — this case has no formal zoning markers at all, relying purely on furniture clustering and light distribution).
+
+`single-account` (Krasnov's synthesis); Johnson's own home/words are an independent, real layer.

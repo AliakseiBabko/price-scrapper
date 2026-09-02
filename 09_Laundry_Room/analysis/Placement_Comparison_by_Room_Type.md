@@ -182,6 +182,15 @@ to assume is automatically disallowed. [source: [[_Sources/YT_JsRvUMfIPwc_inmyro
 
 **A genuinely practical, commonly-overlooked planning point, distinct from this page's existing washer/dryer-appliance placement content above** — this is specifically about where WET laundry gets hung to dry, not where the washing machine itself sits. Decide at the floor-plan stage WHERE laundry will be hung to dry. Common improvised fallback locations named as suboptimal: kids' room, living room, bathroom, balcony/loggia (his image: laundry on a loggia looking like "the flag of a non-existent country"). Recommends either a dedicated laundry/utility room ("постирочная") with a fixed or pull-out drying rack, or a wall-mounted/sliding rack system built into the plan from the start — consistent with this page's existing dedicated-room-vs-closet format content above. `single-account`, `unverified`. [source: [[_Sources/YT_FIAZhQGKq7g_krasnov_7designer_taboos|FIAZhQGKq7g]]]
 
+## Dedicated Floor Drain Requirement, and an Anomalous Large Sink (Игорь Краснов, real Peterhof project, added 2026-09-02, Round 7)
+
+Krasnov's own studio's real completed project — a dedicated «постирочная» (laundry room), not a washer-in-bathroom/kitchen configuration. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+
+- **⚠️ A dedicated laundry room needs its OWN floor drain, genuinely new, distinct from the existing drying-rack-placement content on this page**: "здесь есть собственный слив, что важно" — a specific, concrete plumbing requirement for a standalone laundry room, not previously logged in this vault.
+- A real example of an unusually large (~80cm) laundry-room sink is also noted, described as an anomaly ("аномалия") by Krasnov himself, not a general recommendation — record as a single real data point, not a sizing rule.
+
+`single-account`, `unverified`.
+
 ## Source Notes
 
 Traceability record kept on its own page — [[09_Laundry_Room/analysis/Source_Notes|Source Notes]].

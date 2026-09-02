@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=mqT-osK7Dkc",
+  "video_id": "mqT-osK7Dkc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T08:39:01.464577+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "05067d55b3169d3d98fcd045e5d4b2a3de9abaa5fbf5db03547021cd22fa4a9f",
+  "attempts_before_success": []
+}

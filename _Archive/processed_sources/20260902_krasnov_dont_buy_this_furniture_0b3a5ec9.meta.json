@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=PiNvT_jnhbw",
+  "video_id": "PiNvT_jnhbw",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T08:35:57.498465+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "0b3a5ec9aa24d5133be28b8f50aa7df5dc43d6e7618a15ae87f5e12326fa72b3",
+  "attempts_before_success": []
+}

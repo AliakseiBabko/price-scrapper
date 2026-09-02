@@ -117,3 +117,14 @@ A real 12.5m² mixed-sex kids' room's custom carpentry/joinery estimate
 project — ran **~300,000-400,000 RUB (≈$4,300-$5,700, trailing-6-month
 rate to 2023-04-25)**, a rough designer estimate rather than an itemized
 quote, region unstated. `single-account`. [source: [[_Sources/YT_t8k09YlBbtc_tregubov_room_son_daughter_design_project|YT_t8k09YlBbtc]]]
+
+## Palette-Deviation Principle, Window-Seat Storage, and a Dual-Orientation Bed Panel (Игорь Краснов, real Peterhof project, added 2026-09-02, Round 7)
+
+Krasnov's own studio's real completed project. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+
+- **⚠️ Kids'-room palette-deviation principle, with a real applied detail**: explicitly departs from the home's overall dark/Art-Deco-toned palette specifically for the kids' room — lighter, brighter, more cheerful base colors, including a partially fluted wardrobe front painted a light turquoise. Even the radiator color is changed to beige here instead of the black used elsewhere in the house — a concrete "kids' rooms should break from the house's general dark palette toward brighter/lighter" rule with a real applied detail (the radiator recolor).
+- **Window-seat/banquette with hidden storage**: a deep windowsill seat with cushions doubling as under-seat storage — a specific, reusable technique for a kids'/bedroom window nook.
+- **Dual-orientation bed/media-wall panel**: a wide upholstered wall-panel "headboard" that functions dual-purpose — lying flat for sleep, or the occupant turning 90° to face a TV/gaming setup against the same panel — a real, dual-orientation furniture/upholstery technique.
+- Task lighting for a homework desk done via concentrated ceiling point-lights rather than a desk lamp, deliberately to keep the desk surface itself clear of a lamp footprint.
+
+`single-account`, `unverified`.

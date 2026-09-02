@@ -379,3 +379,15 @@ Her attached warning about why publishing such advice is actively harmful: **"л
 - **⚠️ Ownership/accountability principle**: colour decisions should be made by the project's own original architect/designer, not delegated to a contractor, because genuine understanding of the room's light/orientation/material/functional programme is required to choose well. Cites an explicit **~80% error-risk estimate** when colour is chosen by someone other than the project's original designer — tag as his own unverified estimate, not a cited statistic.
 
 `single-account`, `unverified`.
+
+## An Earlier Sequencing Step, a Personal-Preference Heuristic, and Two Testing-Protocol Extensions (Игорь Краснов, added 2026-09-02, Round 7)
+
+Extends the canonical protocol above (Round 5, `98EE-fC-4IY`) with two genuinely new testing details, and adds a sequencing step even earlier than this page's existing "choose background colour first" content. [source: [[_Sources/YT_mqT-osK7Dkc_krasnov_full_color_guide|mqT-osK7Dkc]]]
+
+- **⚠️ Mood-first sequencing step, genuinely new, earlier in the chain than "background colour first"**: before choosing ANY specific colours, first explicitly define the desired emotional/mood intent for the space (calm vs. energetic, spacious vs. intimate) via structured self-questioning about current vs. desired feeling. The fuller sequencing chain is now: **define mood first → translate to background colour → then accents** — this page's existing "background colour first" content becomes the second step in this chain, not the first.
+- **Clothing-colour inspiration heuristic, genuinely new and concrete**: look at your own favourite CLOTHING colours as a signal for what will feel comfortable in your interior too — a novel personal-preference-discovery heuristic, distinct from the existing nature-as-inspiration content (restated here, cross-reference only).
+- **⚠️ Removable-sticker testing method, a genuinely new alternative to painting directly on the wall**: removable paint-sample stickers/decals allow repositioning across different wall sections without damage — a practical alternative-testing-method detail, worth adding to the canonical protocol above rather than treated as a separate methodology.
+- **⚠️ Multi-day observation, a genuinely new EXTENSION of the canonical protocol's multi-time-of-day testing**: observe a colour swatch for at least a few DAYS before making a final decision, not just at different times within a single day — extends (doesn't replace) the existing morning/day/evening testing window.
+- **Image-color-extraction-tool recommendation — now twice-reinforced, cross-reference not new**: use an online image-color-extraction tool on an inspiration photo to get its actual palette breakdown. This exact method also appeared in Round 6's `sAxHiPERmmY` (recorded on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]) — recorded here as a recurring, now twice-reinforced recommendation rather than logged as brand new.
+
+`single-account`, `unverified`.

@@ -164,3 +164,37 @@ Light addition — echoes this page's existing storage-by-functional-zone conten
 - A dark kitchen is not inherently a mistake (Krasnov's own explicit position — "someone likes one color, someone another"), but a FULLY dark kitchen makes the whole space read visually "compressed"/smaller. **His stated OWN studio practice when doing a dark kitchen as a deliberate accent**: keep the SURROUNDING spaces/background colors light, so the dark kitchen functions as a genuine accent against a light backdrop rather than the whole space reading uniformly dark and cramped.
 
 `single-account`, `unverified`.
+
+## U-Shaped Solo-Use Kitchen, Kitchen-Rug Context, and Glass-Front Cabinet Endorsement (Игорь Краснов / Dakota Johnson, added 2026-09-02, Round 7)
+
+Real celebrity-home critique format — Dakota Johnson's own kitchen, her own words kept distinct from Krasnov's critique. [source: [[_Sources/YT_lFySLwtUKW4_krasnov_dakota_johnson_home|lFySLwtUKW4]]]
+
+- **⚠️ U-shaped compact kitchen — solo-use finding, distinct from this page's L-shaped-kitchen content (`QFa98_RyV0M`)**: works well for one person's own cooking rhythm/routine but becomes genuinely cramped with two people cooking simultaneously — a "U-shaped suits solo use, not shared cooking" finding, attributed to Johnson's own kitchen and Krasnov's synthesis.
+- **A rug on a kitchen floor** — a specific, honest, context-dependent critique: adds warmth/breaks sterility of metal/tile, but only practical for someone who doesn't cook often; explicitly notes this specific example works BECAUSE the rest of the kitchen is otherwise restrained/minimal — if there were more color/texture elsewhere, the rug would visually overload the space.
+- **Glass-front upper cabinets specifically praised as a good choice WHEN the displayed contents are genuinely worth looking at** — a specific conditional endorsement, distinct from this vault's many existing open-shelving critiques (glass-FRONT cabinets specifically, not open shelves).
+- **Final kitchen framing**: functionality + one well-chosen accent color + genuine daily use/life happening in the room reads as more successful than many "designer" kitchens that are never actually used.
+
+`single-account` (Krasnov's own commentary); Johnson's own kitchen/preferences are an independent, real layer.
+
+## Countertop-Height-for-Window Case and Same-Color-Different-Texture Cabinet Fronts (Игорь Краснов, real Peterhof project, added 2026-09-02, Round 7)
+
+Krasnov's own studio's real completed project — no third-party attribution needed. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+
+- **⚠️ Stepped/split countertop-height case, a real concrete architecture-interior coordination detail**: the counter height had to be LOWERED at one specific section specifically so the window directly above it could physically open — a real, concrete "counter height compromise for window operability" example.
+- **⚠️ Same-color-different-texture material-variation technique, genuinely reusable and named**: using the SAME base color across multiple cabinet-front textures (smooth with hidden handles, milled/fluted, glass-fronted) creates visual interest and material variety WITHOUT introducing new colors — Krasnov's own explicit framing: "просто обычные законы дизайна" (just the laws of design).
+- Named real brands mentioned in this project (flag per advertising filter): Cattelan Italia (dining/coffee tables, granite tops), a "лезер"/"leather-look" textured granite countertop finish from Italy, NEFF and Liebherr appliances.
+
+`single-account`, `unverified`.
+
+## Furniture-Leg Mismatch, Corridor-Rhythm Lighting, Single-Color Saturation, No-Upper-Cabinets Fixture Color, Marble Fatigue, and a Kitchen-Island Safety Rule (Игорь Краснов, added 2026-09-02, Round 7)
+
+**Third Pinterest real-image critique episode, goes room-by-room across three separate kitchen images — one of the richest single sources for this page.** [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
+
+- **⚠️ Furniture-leg mismatch — a specific styling detail, genuinely new**: table and chair legs of different THICKNESS but the same black-metal finish create visual "geometric overload"/competing lines rather than cohesion — his own analogy: "like a sentence written in all caps," fatiguing rather than emphatic. Recommends softer/rounder forms or wood-toned legs instead of stark dark metal.
+- **⚠️ Corridor-rhythm lighting in a kitchen, distinct from a fixture-COUNT critique on other pages**: excessive point/spot lighting fixture RHYTHM more suited to a long corridor than a kitchen — this is about spacing/rhythm pattern, not sheer number.
+- **⚠️ Excessive single-color saturation — a specific critique with a memorable analogy**: green across chairs + cabinet fronts + lower island columns simultaneously — "like someone wearing too much jewelry — each piece nice alone, together it's too much." Recommends varying texture/shade within the same color family and using a more restrained quantity of the accent color overall.
+- **⚠️ No-upper-cabinets kitchen — a specific mechanism for why it can read "heavy" rather than "light" despite the intended airiness**: black ceiling track fixtures combined with a bold copper range hood both visually "eat" the room's vertical space — recommends WHITE track fixtures instead of black specifically in a no-upper-cabinet kitchen (where the ceiling needs to read light to compensate for the missing storage volume above), and a white range hood instead of a statement copper one.
+- **⚠️ Marble-look porcelain "fatigue" — a pointed meta-critique about the whole design industry, genuinely new**: an explicit callout that marble-look material has been used SO repeatedly across so many reviewed reference images that Krasnov explicitly asks viewers to consider other stone textures — his own stated fatigue with an over-relied-upon material trend.
+- **⚠️ Kitchen island cooktop placement — a well-reasoned safety/social critique, genuinely valuable, worth prominent entry**: a cooktop positioned on the DINING-facing side of a kitchen island (facing guests seated at the island) puts hot splatter/steam/oil directly within arm's reach of seated guests — real risk of splashing a guest with hot oil, plus general discomfort of being "cooked in front of" even without incident, and specifically flags this as dangerous with children present. Recommended fix: position the cooktop on the FAR side of the island (away from the seating/guest-facing side), keeping the near/guest-facing side for safe seating — a specific, concrete, safety-relevant kitchen-island layout rule.
+
+`single-account`, `unverified`.

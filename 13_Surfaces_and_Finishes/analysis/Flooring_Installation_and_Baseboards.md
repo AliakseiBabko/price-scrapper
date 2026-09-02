@@ -284,3 +284,11 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 `single-account`, `unverified`, but the claim is that it restates the manufacturer's own installation requirement, which is checkable against any laminate technical sheet.
 
 **Related cost note, same practitioner**: glued engineered board is the expensive floor finish (gluing to plywood costs more still), and **laminate or any floating covering is a genuine saving in both goods and labour** — one of the few reductions she rates as real rather than cosmetic. [source: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]] [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+
+## Two-Tier Flooring-by-Privacy-Level Strategy, With a Named Parquet Pattern (Игорь Краснов, real Peterhof project, added 2026-09-02, Round 7)
+
+Krasnov's own studio's real completed project. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+
+- **⚠️ Two-tier flooring-material-by-floor-level/privacy strategy, genuinely reusable**: ground floor (public/high-traffic zone) uses porcelain tile («керамогранит»); upper floor (private/bedroom zone) uses engineered wood specifically laid in an **"English herringbone"** pattern («укладка английская ёлочка») — a specific material-by-privacy-level strategy plus a named parquet-laying pattern, worth recording as a distinct technique from this page's existing French-herringbone cost/QC content above (a different named pattern variant).
+
+`single-account`, `unverified`.
