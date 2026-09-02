@@ -839,3 +839,40 @@ USD equivalents below at the 12-month trailing mean to 2026-03-17, **80.0432 RUB
 - **⚠️ The contrarian point, and it is the most interesting thing in the source: "есть какой-то у нас культ отделки — насколько там ровная у тебя эта стена. Да какая тебе разница, насколько она ровная, если туда потом поставишь шкаф? Она должна иметь заданную определённую геометрию в определённых местах, и всё. И ты этого не увидишь никогда."**
   - **⚠️ Recorded as a counterpoint, not a correction — it engages a large body of existing vault content on wall-flatness classes and acceptance tolerances. It is not a refutation (a cabinet run still needs its wall true, and raking light still exposes a bad wall), but it is a real challenge to treating flatness as a universal good regardless of what will stand in front of it.** A companion note is on [[13_Surfaces_and_Finishes/analysis/Wall_Prep_and_Plastering|Wall Prep & Plastering]] against that page's K1–K4 class ladder.
 - **His argument for why furniture earns the money: "в современном интерьере большую часть дизайна составляет мебель — ты на неё каждый день смотришь, ты ей каждый день пользуешься, взаимодействуешь по большей степени с ней."** **⚠️ Self-serving by construction, and recorded as an argument rather than a finding.**
+
+### ⚠️ Live intake data point — a furniture manufacturer's OWN 56 m² flat, four years on (FLAT, added 2026-09-02)
+
+> [!WARNING]
+> **⚠️ SELF-SELECTED SOURCE. This is a furniture maker touring his own flat, furnished by his own company, presenting his own four-year outcome — nobody publishes a retrospective on the job that failed.** Recorded because **he discloses a real failure, names two solutions he has outgrown, admits a planning error, and gives the figure** — and because **this vault has almost no longitudinal evidence from any source.** `promotional_ratio: medium`. [source: [[_Sources/YT_f6HY6UXDpss_flat_owner_flat_four_years_on|f6HY6UXDpss]]]
+
+**Object**: 56 m², St Petersburg, a dormitory district (Мурино named). **Occupied since 2019; video 2023-07.**
+
+| Basis | RUB | USD equivalent |
+| :--- | :--- | :--- |
+| **Whole renovation** | **~2,700,000** ("под что-то по три почти") | **≈$41,800 at 2019 / ≈$38,500 at 2023** |
+| **Implied per-m²** | **~48,000 ₽/m²** `arithmetic-exact` from his two figures | **≈$750/m² at 2019** |
+
+> [!IMPORTANT]
+> **⚠️ THE YEAR IS INFERRED, NOT STATED — this is the third price-date trap this channel has produced.** He says only "в тот период"; the flat has been occupied since 2019, so ~2019 is the best-supported reading. **Both endpoints of the plausible window (2019 occupancy to 2023 upload) are given because the spread is only ~8% — narrow enough to convert honestly. Treat the RANGE as the finding, not either endpoint.** (Contrast the ~2M ₽ Italian kitchen on [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]], which straddled the 2014–2015 rouble move and was deliberately left unconverted.)
+
+- **⚠️ The brief that produced the figure, and it is what makes the number interpretable: "задача стояла сделать не минимальный бюджет, но не уходящий в космос." No natural materials — laminate throughout, no parquet, no natural veneer.** Furniture relatively inexpensive and quick, "чтобы это всё вид имело." **His own assessment: "это не очень дорого."**
+- **⚠️ A material comparability gap that limits the figure's use: he never states whether the ~2.7M includes the furniture or is exclusive of it.** Given that furniture is his own company's product and the tour is largely about it, either reading is arguable. **Do not compare this per-m² against this guide's other benchmarks without that caveat attached.**
+
+### ⚠️ Why the specification is modest — and why he says that is not a general recommendation
+
+- **His allocation framing, with a car analogy: "под задачу машину ты покупаешь. У нас люди любят купить себе Land Cruiser, а ездить на нём по городу. Должно быть рационально."**
+- **⚠️ And the admission that makes the modest spec coherent rather than defensive: "я допустим понимаю, что это не квартира мечты… и как-то в неё вкидываться, покупать там технику — может быть, и хотелось бы, да, но нет рационального подхода."** **The specification follows from the flat being a stage rather than a destination.**
+- **⚠️ The counterpart, stated plainly: "если делаешь для себя и надолго, и хочешь прям топовую картинку, то ни на чём [не экономишь]… посчитай бюджет — на что ты готов, сколько ты готов вложить."** **So his own frugality is explicitly NOT offered as general advice — which is the opposite of how a promotional retrospective would frame it, and is the strongest reason to trust the figure.**
+- **He explains the modest district and area by reinvestment — "два года мы из компании не вытащили просто ни копейки."** Recorded only because it explains the specification; the surrounding personal narrative was not extracted.
+
+### ⚠️ What survived four years, and the one thing that did not
+
+**Positive claims are the self-selected case — see the warning above — but the specification they rest on is the point:**
+
+- **⚠️ "Кухня выглядит практически как новая… три года эксплуатации, здесь вообще ничего не делалось — не зазоры не регулировались."** He frames it as a deliberate test: *"эксперимент, там ставил сам на себе."*
+- **⚠️ And what that rests on: hardware entirely Blum — drawers and hinges — with "фасады в принципе доступные, недорогие." The tier trade is substrate-only, for the third time across this channel** (see the 42 m² case and the facade series on [[03_Kitchen/analysis/Furniture_Facade_Materials|Kitchen: Facade Materials]]). **This is the single most useful thing the retrospective does for this guide: it puts a durability observation behind an allocation rule the channel states repeatedly.**
+- **Kids'-room bottom drawers on reinforced runners (books are heavy) "тоже три года работает," with a child who "её не жалеет вообще."**
+- **⚠️ THE FAILURE HE DISCLOSES: a solid oak countertop in the guest WC has cracked at the mixer fixing — and his verdict with hindsight is "я поставил бы камень лучше — либо кварц, либо керамику."** **Full detail on [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Bathroom: Mixers, Toilet & Sinks]].**
+- **Two solutions he has outgrown: the entrance shoe area, and the main bathtub arrangement ("не супер актуально, уже отходят").**
+
+**⚠️ And an unexplained inconsistency, recorded rather than smoothed: "три года эксплуатации" for the kitchen against "четыре года" of occupancy.** Possibly the kitchen went in a year after moving in; he does not say.

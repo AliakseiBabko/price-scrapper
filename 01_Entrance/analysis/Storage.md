@@ -263,3 +263,44 @@ Real completed studio projects — no third-party attribution needed. [sources: 
 
 `single-account`, `unverified`.
 
+
+## ⚠️ A Fabricator's Working Dimensions for Entrance Storage, and a Room-Specific Material Inversion (FLAT, added 2026-09-02)
+
+> [!NOTE]
+> **Manufacturer's own channel; advertising filter applies by default.** `promotional_ratio: low` — **built-in entrance storage is squarely his trade, the only pitch is a pointer to their other room videos, and he opens on the observation that justifies the video: "вот в этой комнате они уделяют меньше всего внимания, хотя с этой комнаты начинается всё взаимодействие с квартирой."** RU, St Petersburg, 2026-02. **No prices anywhere.** [source: [[_Sources/YT_eQdA23i9J8A_flat_ideal_hallway_design|eQdA23i9J8A]]]
+
+### The dimensions
+
+- **⚠️ Hall area, from their practice: 4 to 8–10 m².** The more regular its shape, the more logical the furniture arrangement.
+- **⚠️ Built-in clothes wardrobe: 600 mm depth minimum**, so hangers with bulky outerwear fit. **The failure at less is described concretely: either facades do not close fully, or garments hang sideways — and then a jacket sits behind a row of others, so "тебе нужно всё остальное снять," you cannot see the full range, and "это просто дико неудобно."** **Complements this page's existing wardrobe-depth content (Краснов) with the fabricator's own floor.**
+- **⚠️ Opening width: optimally ~1,200 mm with no intermediate post — but the carcass must be engineered for it, because a 1,200 mm span with heavy coats on a rail must not sag. If a post is needed it is not a disaster; you simply lose some internal space.** Not always avoidable, but often it is. **A constructional constraint on this page's existing zoning-and-sizing content that no design-side source states.**
+- **⚠️ Shoe storage does NOT need 600 mm — 350 to 420 mm is his range**, in a separate floor-to-ceiling cabinet with **inclined shelves**, used only for shoes.
+  - **⚠️ Why inclined, and the reasoning is what transfers: a flat shelf holding a standard men's size-42 shoe consumes more depth. Tilting it reduces the cabinet depth AND improves visibility and retrieval — "ты всё под наклоном видишь… и брать их удобнее."**
+- **⚠️ Keep shoes and clothes in separate cabinets where space allows, because shoes are dirtier and can carry odour.** **This is a direct position in this page's existing open-versus-closed shoe-storage disagreement: he is for closed AND separated.**
+
+### What the hall must contain
+
+- **⚠️ A console surface** for what you arrive holding — scarf, hat, gloves, keys. **"Если у тебя будет всё зашито шкафами, естественно, это будет неудобно."**
+- **⚠️ Somewhere to sit to put shoes on — and it must match the design.** His specific criticism: built-in wardrobes ruined by a random green-upholstered pouf off a marketplace. **"Общая концептуальная картина должна при этом сохраняться обязательно."**
+- **⚠️ In his own hall the seating is wall-hung, for two stated reasons: easier cleaning underneath, and guests' shoes go under it without using your own storage.** **Complements this page's existing raised-entrance-wardrobe and floating-shoe-cabinet content with a third floating element.**
+- **⚠️ A «дежурная вешалка» — a duty rail worth keeping as a detail: a metal bar standing off the wall with the hooks on its BACK.** You hang a coat without opening the wardrobe, the function is preserved, **"но при этом это выглядит так, что у тебя нету никаких крючков."**
+
+### ⚠️ A room-specific material inversion
+
+- **⚠️ Avoid painted horizontal surfaces in a hall, because you will throw keys onto them** — scratches, then chips, then restoration or replacement. **Plus enamel is dearer than ЛДСП to begin with.**
+- **⚠️ So his ranking for a hall specifically: ЛДСП is the most rational; veneer if natural material is wanted, though "он тоже всё равно поцарапается" and rates "средним по надёжности"; and the most sensible options overall are ЛДСП or stone.**
+- **⚠️ This inverts the material ladder on [[03_Kitchen/analysis/Furniture_Facade_Materials|Kitchen: Facade Materials]] for this room: in a hall the cheaper material is also the more appropriate one, because the failure mode is abrasion from daily objects rather than appearance.**
+- **Flooring: porcelain is optimal for what he calls an "агрессивная среда." Laminate risks swelling with wet or dirty footwear and frequent wet cleaning; quartz-vinyl is acceptable, being more wear-resistant than laminate.**
+
+### ⚠️ The mirror, with a mechanical argument this page did not hold
+
+- **Mandatory, preferably full-length, with lighting arranged so you can actually see your reflection.** **The common error: no mirror in the hall, or one outside it — so you dress, put outdoor shoes on, and walk through your own flat to look at yourself.**
+- **A mirror mounted ON the wardrobe: "неуместно… в большинстве случаев выглядит стрёмно."**
+- **⚠️ A mirror on the inside of a door leaf is rejected on mechanical grounds: "оно вес имеет. У тебя получается одна створка весит больше, чем все остальные. Рано или поздно это приведёт к тому, что у тебя будут зазоры, у тебя ушатается фурнитура на нём за счёт тяжести."** **An asymmetric-load failure path worth adding beside this page's existing mirrored-door fingerprint note.**
+- **⚠️ Best: a separate mirror, glued to the wall or set in an aluminium profile fixed to the wall. Floor-standing or ceiling-hung mirrors as objects need sufficient area — "они всё равно сжирают место."**
+
+### ⚠️ Sliding wardrobes — three reasons against, plus the cost of doing it properly
+
+- **"Если есть возможность не ставить шкаф купе — не нужен он вам."** **Opening one leaf blocks the other; it looks worse owing to the facade offset and visible hardware; and "это работает тоже не всегда корректно."**
+- **⚠️ And the cost: "если ты хочешь скрытую какую-то систему, корректно работающую, ты за это ещё и заплатишь кучу денег."** Prefer hinged facades wherever space allows.
+- **A fourth reason — the morning conflict in a shared wardrobe — is on [[14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff|Wardrobe vs Walk-In]] from this channel's own retrospective.**

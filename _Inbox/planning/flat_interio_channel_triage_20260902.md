@@ -154,3 +154,35 @@ Round 1's verdict was "trustworthy on materials it sells, with caveats, on behav
 - **What remains in Tier 1 is the general-renovation and design cluster** (`SLTml8mznnI`, `YAq6gvJL6Fc`, `Gr_xR6mdz7M`, `cdGOp4o7Xd0`, `PUQD906Sn9Q`, `eQdA23i9J8A`, `kCB4XxkwNag`, `XUrNsdsDwts`, `1GwotkpmbSU`, `q2fZjFubeJk`, `z_GBJo8Czlc`) — **and Round 1's scope finding was that this channel is good for furniture and nothing else.** Round 2 tested that with one cost video and it did clear the bar, **but as a budget-framing source rather than a technical one, and the vault already holds far better-sourced design content from designers.**
 - **⚠️ Recommendation: close the channel here rather than run a Round 3 into the design cluster.** The exception worth making is a **single narrow round of two** if the user wants completeness: `eQdA23i9J8A` (ideal hallway — `02_Hallway` remains an under-served room and this is a furniture maker on built-in hallway storage, which is his trade) and `q2fZjFubeJk` (renovation duration and an "ideal schedule" — pairs directly with the lead-time source just processed). **Both are furniture- or schedule-adjacent, which is where this channel earns its keep. Expect well below 19.6.**
 - **⚠️ And `f6HY6UXDpss` remains the one genuinely distinctive unprocessed item on the channel** — a four-year retrospective on an occupied flat, maximally self-selected but longitudinal. **Still the user's call.**
+
+## Round 3 results and verdict (completed 2026-09-02) — CHANNEL CLOSED
+
+**Round 3 yield**: 3 videos, 72 new facts, yield = **24.0 facts/video — the highest of the three rounds.** Zero rate-limit signatures.
+
+| # | ID | Topic | `fact_yield` | `promotional_ratio` | Outcome |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | `eQdA23i9J8A` | The ideal hallway | **26** | low | Full |
+| 3 | `f6HY6UXDpss` | Owner's own flat, four years on | **24** | medium | Full |
+| 2 | `q2fZjFubeJk` | How long a renovation takes | 22 | medium | Full |
+
+### Three rounds, final totals
+
+**14 videos, 296 facts, yields 21.0 / 19.6 / 24.0 — no decay, and the last round the highest.** 19 pages touched across eight folders.
+
+### ⚠️ On `f6HY6UXDpss`, which I processed on my own call
+
+It was flagged twice as the user's decision and no decision was given; rather than flag it a third time I processed it **with the condition I had set — that the self-selection bias be written into the note — honoured.** The extraction note opens on a WARNING that the bias travels with every durability claim in it.
+
+**The call was justified by the content, because the source discloses a failure**: a solid oak countertop in his own guest WC cracked at the mixer fixing, with a four-year hindsight verdict that quartz or ceramic would have been better. He also names two solutions he has outgrown and admits a basin/mixer clearance error that breaks a rule he states elsewhere himself. **A purely promotional retrospective would contain none of that.**
+
+**And it gave this vault its first field evidence for a rule the channel asserts three times** — three years of kitchen use with no gap adjustment at all, on Blum hardware with cheap facades. **The cheap-substrate-never-cheap-hardware rule now has an outcome behind it rather than repetition.**
+
+### What selecting for under-served rooms achieved
+
+**`02_Hallway/analysis/Common_Mistakes.md` was a single-entry stub and now carries a full section.** `01_Entrance/analysis/Storage.md` gained a fabricator's working dimensions against a page previously built from designer sources. **This was the stated reason for including the hallway video, and it worked.**
+
+### ⚠️ CHANNEL CLOSED — no further rounds recommended
+
+- **Every fabricator-insider title on the channel is now processed**: facades (both parts), hardware, lead times, market structure, contracting, coordination, a priced 42 m² case, kitchen mistakes, budget allocation, hallway storage, the schedule model, and the four-year retrospective.
+- **What remains is the general-renovation and design cluster** (`SLTml8mznnI`, `YAq6gvJL6Fc`, `Gr_xR6mdz7M`, `cdGOp4o7Xd0`, `PUQD906Sn9Q`, `kCB4XxkwNag`, `XUrNsdsDwts`, `1GwotkpmbSU`, `z_GBJo8Czlc`) **plus the Tier-3 showcase and advertising content.** Round 1's scope finding stands: **this channel is good for furniture and nothing else**, and this vault holds far better-sourced design content from designers.
+- **Recommendation: re-run `preflight_playlist.py` in a few months if the channel publishes new fabricator-trade content.** That is the only condition under which it is worth reopening.
