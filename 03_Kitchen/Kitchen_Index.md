@@ -8,6 +8,14 @@
 
 ---
 
+## 📚 Wiki pages for this room
+
+* **Guide**: [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]] — compact guide, with the Perspectives on Record for this room.
+* **Detail pages** (): [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing & Ergonomics]] · [[03_Kitchen/analysis/Appliance_Integration|Appliance Integration]] · [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops & Backsplash]] · [[03_Kitchen/analysis/Storage_and_Hardware|Storage & Hardware]] · [[03_Kitchen/analysis/Cabinet_Assembly_Technique|Cabinet Assembly Technique]] · [[03_Kitchen/analysis/Kitchen_Lighting|Kitchen Lighting]] · [[03_Kitchen/analysis/Kitchen_Cost_and_Priorities|Cost & Priorities]] · [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]] · [[03_Kitchen/analysis/General_Dos_and_Donts|General Do's and Don'ts]]
+* **Other room pages**: [[03_Kitchen/Kitchen_General|Kitchen General]] (room-level configuration) · [[03_Kitchen/Kitchen_Utilities|Kitchen Utilities]] (appliance/fixture selection)
+
+---
+
 ## 🎨 Materials & Layout
 * **Flooring**: *Placeholder*
 * **Backsplash Tiles**: *Placeholder* (Est. length: `3.2 m` along the workspace wall).

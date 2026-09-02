@@ -295,3 +295,42 @@ Unchanged from the split pass, and **the merge debt is now clear** — `Lighting
 - **`11_Budget_and_Planning/Budgeting_Guide.md` took a second addition today** (the 56 m² priced case, after Round 2's allocation split). **Its seam is unchanged — framing and categories versus the benchmark ledger — and this addition belongs to the ledger half, so it does worsen the imbalance slightly.** Still second-worst in the vault by line count.
 
 **`03_Kitchen/Kitchen_Furniture.md` (627 lines / 42 sections) remains the worst page in the vault and is now untouched across ten passes.** **Three separate sessions today added kitchen-furniture material to other pages while leaving it alone — the content-versus-location gap is now the largest it has been.**
+
+## 2026-09-02 — ⚠️ RESOLVED: `03_Kitchen/Kitchen_Furniture.md`, the vault's worst page, converted to the layered shape
+
+**The page named in this file across ten consecutive passes as "the worst page in the vault, untouched" is done.** Converted at the user's explicit direction after it was flagged to them at the end of the FLAT Round 3 report.
+
+**Before**: 627 lines, 43 top-level sections. **After**: an 80-line guide plus seven detail pages.
+
+| | Lines |
+| :--- | :--- |
+| `Kitchen_Furniture.md` (guide) | **80** (was 627) |
+| `analysis/Layout_Sizing_and_Ergonomics.md` | 173 |
+| `analysis/Storage_and_Hardware.md` | 135 |
+| `analysis/Worktops_and_Backsplash.md` | 98 |
+| `analysis/Appliance_Integration.md` | 70 |
+| `analysis/Cabinet_Assembly_Technique.md` | 66 |
+| `analysis/Kitchen_Cost_and_Priorities.md` | 59 |
+| `analysis/Kitchen_Lighting.md` | 54 |
+| `analysis/Kitchen_Furniture_Source_Notes.md` | 30 |
+| `analysis/Kitchen_Furniture_Change_Log.md` | 12 |
+
+**⚠️ The diagnosis that justified splitting rather than merging.** This file's own 2026-08-31 lesson is that a page can fail by being *fragmented* — many dated headings with little under each — and that splitting such a page makes it worse. **This was the other failure mode.** The tell: **`## Source Notes` sat at line 512 and `## Change Log` at 539, with ten further content sections below them** — every batch had appended beneath the page's own footer, and the 43 headings were genuinely distinct sub-decisions (sizing, appliance integration, assembly technique, storage hardware, worktops, lighting, cost) rather than one decision sliced up.
+
+**⚠️ The split was mechanical, and verified.** All content was moved **by line range, byte-for-byte** — the convention's requirement is "move/reorganize existing prose rather than re-deriving, so no fact gets lost or silently altered," and a line-range extraction guarantees that literally. **A coverage assertion confirmed every source line was assigned to exactly one destination, and an independent check confirmed all 456 non-blank content lines arrived, none duplicated.** Only seven lines were deliberately dropped: the old title, two blanks, one composite heading whose two bullets went to different pages (each given a new heading in its destination), and the now-duplicate `## Source Notes` / `## Change Log` headings on the two footer pages, whose new H1 titles say the same thing. **The only newly-written prose is the guide itself, the per-page headers and the cross-references.**
+
+**⚠️ The checker's own recalibration held up.** This file's 2026-08-31 entry records that three correct splits *raised* the flagged count 31→35, because well-sized results tripped the same threshold their oversized parents had, and that the thresholds were recalibrated as a result. **This split took the count 31→30, and none of the seven new pages is flagged.** First confirmation that the recalibrated thresholds reward a correct split rather than punishing it.
+
+**Inbound links**: 66 files reference the page. **13 live wiki cross-references that named specific moved content were repointed** at the correct detail page — including five that named a section by title ("Budget Kitchen: What to Cut vs. Never Cut", "2026-Trends section"), exactly the fragile pattern this convention warns about. **No `§N` anchors existed, so nothing was silently broken.** **`_Sources/` notes, `processed_sources.csv` `target_docs`, `_Inbox/planning/` files, the knowledge-store Change_Log and two page-level Change Log entries were deliberately left as written** — historical records of what was true when written, per the precedent set by the 2026-08-30 `_supporting` dissolution. `03_Kitchen/Kitchen_Index.md` gained a page list.
+
+**One deviation from the shape presented to the user, stated plainly**: the illustration showed six detail pages; **seven were created**, because the cost/priorities content (three sections, ~50 lines: cost tricks, what-to-cut-vs-never-cut, priced add-ons) is a genuinely distinct sub-decision and folding it into a topical page would have buried it. Per this convention's own test — decompose by sub-decision, not line count — it earns its own page.
+
+### ⚠️ What is now the worst page in the vault
+
+With Kitchen Furniture resolved, the standing list re-orders:
+
+1. **`11_Budget_and_Planning/Budgeting_Guide.md` — 878 lines.** Now the clear worst by line count, and it grew twice on 2026-09-02. **Its seam is different in kind and has been stable across five passes: framing and cost categories versus an indefinitely-growing ledger of live-intake benchmarks.** The benchmarks are the half that should move.
+2. **`03_Kitchen/analysis/General_Dos_and_Donts.md` — 380 lines / 25 sections.** Took three separate blocks on 2026-09-02 and is genuinely mixed (kitchen legality, working dimensions, use-and-taste advice, hardware scepticism). **Now the most mixed page in the vault, and the natural next conversion** — note it already sits in an `analysis/` folder alongside a working layered structure, so it can be split without a guide-page conversion.
+3. **`03_Kitchen/analysis/Furniture_Facade_Materials.md` — 314 lines.** Took three blocks from one channel today. **Seam: substrate / facing / hardware-interaction**, which is how the source videos are themselves organised.
+4. `12_Engineering_and_Systems/analysis/Soundproofing.md` — 493 lines, coherent by topic.
+5. `07_Bathroom/analysis/Planning_and_Layout.md` — 355 lines, seam is dimensional ergonomics versus approvals versus servicing access.
