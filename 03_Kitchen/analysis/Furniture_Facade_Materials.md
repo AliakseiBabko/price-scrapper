@@ -165,3 +165,66 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 ### ⚠️ Veneer versus paint in a kitchen specifically
 
 **Veneered fronts behave more capriciously than painted ones — veneer can hold grease stains that a painted front would release easily.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+## ⚠️ A Fabricator's Own Account — Fine-Line Veneer, Массив Deconstructed, and Batch-Matching (FLAT / Мебельная компания, added 2026-09-02)
+
+> [!IMPORTANT]
+> **Source is a furniture manufacturer's own channel** (Михаил, owner of FLAT, St Petersburg, 11th year, premium segment) — **the standing advertising filter applies by default.** `promotional_ratio: low` on both facade videos, and the reason is worth stating because it governs how much weight to give the rest: **he argues the imitation looks better than the real thing, argues down массив (the material buyers revere), tells viewers the market is less deceptive than 15 years ago, and states that an ЛДСП kitchen with good hardware is "тоже классная кухня."** No prices, no discount, no call to action in either video. **Brand preferences below are recorded as his stated practice, not as neutral verdicts.**
+>
+> **Cross-checked against this page's existing tier ladder (Kruglov, `YT_W2KvnHPQdjM`) before writing.** Several items corroborate it exactly and are marked as such rather than re-recorded; only the genuinely new material is set out at length. [sources: [[_Sources/YT_hAeIKfYMxbw_flat_kitchen_facade_materials|hAeIKfYMxbw]], [[_Sources/YT_pEwESJATTaA_flat_fineline_veneer_deception|pEwESJATTaA]], [[_Sources/YT_-wYdhssCHlI_flat_42m2_ldsp_case|-wYdhssCHlI]]]
+
+**Corroborates this page's existing content, not re-recorded**: Egger as the economy leader; ЛДСП cannot be milled or routed; enamel offering ~2,000 shades; film's rear face being a different colour by default; class E1 as the legal floor; veneer's unique grain as a feature; Blum as the hardware reference; and edge banding always being visible with PUR/polyurethane glue as the durable bond. **⚠️ One corroboration is unusually precise and worth flagging: he states "у нас на российском рынке ламинат весь 16" — which independently confirms this page's country-of-manufacture finding that an Egger board from a Russian plant arrives at 16 mm while the Belarusian plant's is 18 mm.**
+
+### ⚠️ Fine-line veneer («файн») — extends this page's "artificial veneer" entry with the mechanism and the mis-selling
+
+This page already notes artificial veneer as a cheaper fast-growing species "reconstructed to visually replicate a pricier species." **He supplies what that reconstruction actually is, and why it matters commercially:**
+
+- **The process**: fast-growing, quickly-replaced cheap timber (cut in Africa in his telling) is assembled into a large block, the block is sliced, **and a print of an expensive species — ebony, rosewood — is applied.** It is genuinely wood, "только тебе не сказали, какое оно."
+- **⚠️ He is explicit the technology is good, including ecologically** — valuable slow-growing forest is not felled. **His objection is non-disclosure only.**
+- **⚠️ The overpayment he alleges: "в разы, в пять раз, в 10 раз"** — a cheap species at an expensive species' price. Dates the technology to roughly the 1990s (hedged).
+- **⚠️ He blames the retail chain rather than the factories**: a showroom manager may have seen the piece only in a catalogue, Italian makers like inventing names for simple things ("уникальный материал"), and the disclosure exists as a footnote. **"Претензия, которую люди предъявляют к производителям мебели, она отчасти несправедлива."**
+
+#### ⚠️ How to tell natural veneer, fine-line and ЛДСП apart — the checkable core
+
+- **⚠️ On a small sample of the same tone, fine-line and real veneer are "практически невозможно определить даже профессионалу"** — he says so of his own trade. **A small item's material claim cannot be settled by eye; it has to be settled on paper.**
+- **⚠️ On a large area the tells are reliable and all concern uniformity: natural wood shows non-uniformity — uneven tinting, uneven figure, possibly knots. Fine-line is entirely uniform. ЛДСП is entirely uniform too, because a sheet is 2800 × 2070 mm and every sheet carries an identical print.**
+- **The instruction that follows: "ключевое здесь — вам об этом должны рассказать."** Ask, and get it in the specification.
+
+### ⚠️ Массив (solid wood) deconstructed — a material this page did not cover at all
+
+- **⚠️ It is not a plank cut from a tree.** It is a **мебельный щит**: small lamellae, **micro-tenon (микрошип) joints at their ends**, glued together then calibrated and sanded — "вот таких из маленьких склеенных палочек." He notes «массив» is "вообще сакральное слово в мебельном мире."
+- **⚠️ His case against it, from a maker who sells it — five arguments**: finding one made to proper joinery rules is hard; **cost is species-driven not solid-wood-driven** (a solid-pine child's bed at ~20,000 ₽ against a solid-oak kitchen at millions — pine is cheap and can be painted without even sanding, oak must be dried and is hard to work); **solid wood starts around 3× a veneered facade for the same visual result, because you still finish it on top**; **MDF-with-veneer is stable and does not warp or crack, while improperly dried solid wood has a far higher probability of cracking**; and **the ecological argument fails because glue is in the micro-tenons and in veneering regardless.**
+- **⚠️ And the framing point that makes the substrate debate tractable: once a facade is edge-banded and faced, "ты нигде в жизни не определишь, что там внутри — МДФ или ДСП, пока не распилишь."** The real difference between the two substrates is **millability and available thicknesses** (ЛДСП 16/18 mm; МДФ 16/17/19/23 mm), not perceived quality.
+
+### ⚠️ Batch-matching — an ordering rule this page did not hold, and it applies to both finishes
+
+- **⚠️ Natural materials cannot be batch-matched.** Every experienced furniture company's contract carries a clause that natural materials vary in shade by batch and by when they were painted. **The consequence for phased buying: order a wardrobe, later decide you need one more section, and no manufacturer working in natural timber will guarantee that facade matches.**
+- **⚠️ Enamel drifts too, and faster than expected: "заказал партию краски, всё покрасил — окей. Купил через 2 дня такую же эмаль, взял такой же МДФ, покрасил — тон уже отличается." Worst in white.** He calls it "прямо большая боль для многих."
+- **⚠️ Matching a specific RAL between painted glass and a painted wall is also very hard** — same RAL, different result.
+- **⚠️ Therefore: "мы всегда настаиваем на том, что всё должно делаться единовременно."** He acknowledges people order in stages for cash-flow reasons and states the trade-off plainly. **Two different physical causes — timber variation and paint-batch variation — converging on one rule: buy the whole set in one order.**
+
+### ⚠️ Why they refuse PVC film, and the disclosure asymmetry
+
+- **Three stated reasons**: **large roll-over at the edges («завалы»), which makes the gaps between facades look visually wider**; the reverse face being a different colour; and **orange-peel (шагрень) on poor film — which he reports seeing pronounced on the edges even of expensive Italian film kitchens they imported.**
+- **⚠️ The disclosure asymmetry is the quotable finding: top Italian makers use film and so does Leroy Merlin — "в Леруа тебе об этом скажут, а дорогая итальянская фабрика тебе об этом не скажет, у них принцип продажи другой: посмотрите, какой дизайн классный."** Most mass-market facades are film because it is fast and cheap. **Complements this page's existing film-delamination-risk finding with the sales-side behaviour.**
+
+### Plastics, enamel, glass — three additions
+
+- **⚠️ A dear plastic costs about the same as veneer, and his verdict is to take the veneer: "платишь ты столько же, но получаешь натуральный материал."** They do use plastic where it earns its place (Egger), and name Cleaf and Candela as the dear end.
+- **⚠️ A real risk this page did not hold: a plastic decor can be discontinued.** Any facade can be damaged mechanically; **if the decor is out of production, replacement becomes your problem.** **This is his stated reason for preferring enamel**, which is restorable in most cases and interchangeable.
+- **⚠️ Glass facades are bonded to MDF, chipboard, or an aluminium frame — and the reason for the frame is weight: a large glass-on-MDF facade becomes unliftable, whereas the hollow frame is light and practically does not warp.**
+- **A premium composite from his own showroom: an aluminium frame with 5 mm quartz agglomerate bonded on and thin painted MDF as the reverse** — framed as a legitimacy-of-spend question, not a necessity.
+
+### ⚠️ ЛДСП in practice — tiering, the colour-count constraint, and the hardware trap
+
+From the 42 m² delivered object, where **every facade and carcass is ЛДСП**:
+
+- **⚠️ Tiering at both ends, with a falsifiable quality tell**: **Cleaf (Italian) and Kaindl (Austrian)** are very good **but priced close enough to veneer that "целесообразность их использования под вопросом"**; **Egger** (German brand, made in Russia at two plants) is their working choice; **Шексна, Невский ламинат and Lamarty are refused — "более пористый, более рыхлый, при распиле сколы на нём образуются." Chipping at the cut edge is the check.**
+- **⚠️ Plain versus wood-effect decor, and the rule that follows: they rarely use wood-effect laminate on facades "потому что натуральному дереву он сильно проигрывает." Plain laminate is fine — and their recommended combination is plain laminate plus natural veneer, for "оптимальный бюджет и очень классную картинку."**
+- **⚠️ The colour-range constraint, with numbers, and it is the real limitation of choosing laminate: Egger offers ~46 decors, of which ~26 are greys (warm and cold) and ~20 are colours. "Тебе нужна синяя кухня — там один всего синий цвет," against ~1,960 RAL shades for enamel with perhaps ten blues.** **Greys are well covered; a specific non-grey may simply not exist.**
+- **⚠️ The sequencing move that resolves it, and it is genuinely smart: on that object the laminate colour was chosen FIRST and the wall colours were then selected around it — "достаточно грамотный ход." The material with the least colour freedom sets the palette; everything with more freedom follows.**
+- **⚠️ Edge banding for wet zones: polyurethane adhesive is the specified glue, including for wall units sitting above a hob where steam rises** — "никаких проблем с фасадами как правило не возникает." **Corroborates this page's existing PUR-glue finding and extends it to the steam-exposure case.** **And a damaged single laminate facade is easy and cheap to replace** — the inverse of the plastic-discontinuation risk above.
+- **⚠️ Laminate cannot be used at all in two cases: where the project has any milling (the base is chipboard, not MDF), and where the required colour is not in the plain range.**
+- **⚠️ A hardware compatibility trap with a number, and only a fabricator states this: most hardware, especially European, is designed for 18 mm board. With 16 mm laminate the profile protrudes by a couple of millimetres — "за этим надо внимательно смотреть, это касается всей фурнитуры."** **Directly relevant given this page's finding that Russian-plant Egger arrives at 16 mm and Belarusian at 18 mm.**
+- **Aluminium Gola profiles are used identically across laminate, veneer and enamel** — handle-free detailing is not tier-dependent.
+- **⚠️ The hard rule that makes the cheap substrate work: "мы используем ламинат для оптимизации бюджета там, где это нужно, но на фурнитуре мы никогда не экономим."** On that object: Grass drawers "такие, какие мы ставим в самые дорогие проекты," and Blum hinges throughout. **His non-obvious fourth reason for those hinges: the option of a limiter, so a facade set tight against a wall does not strike it when opened.**

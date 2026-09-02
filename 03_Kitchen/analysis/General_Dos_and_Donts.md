@@ -288,3 +288,64 @@ From a separate, unsponsored source (2022, `promotional_ratio: low`). **Her fram
 - **⚠️ Study your own cooking habits before ordering — how much you cook, what you cook, and how.** The appliance options she names each follow from a specific stated habit rather than from a standard set: **a steam-combi oven (пароконвектомат) where there are children; a built-in vacuum sealer if you do a lot of batch preparation (заготовки); a built-in wok/asian panel if you cook asian food; a built-in grill for steaks.**
 - **A second source the same round makes the same point from the premium side**, listing "whether and what the client cooks" as the survey question that drives kitchen composition "не просто там какая-то стандартная плита, духовка, посудомойка" — see [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]]. **Same channel, so a same-source-family repeat rather than independent corroboration.**
 - **"Как и на кухне, розеток не бывает много — их бывает только слишком мало"** — stated in her bathroom source *about* the kitchen, i.e. she treats the kitchen as the reference case for socket generosity.
+
+## ⚠️ Ten Kitchen Design Mistakes From the Fabricator's Side — Dimensions, Plinths, and a Hardware Failure Mechanism (FLAT, added 2026-09-02)
+
+> [!IMPORTANT]
+> **A furniture manufacturer's own channel** (Михаил, owner of FLAT, St Petersburg) — advertising filter applies by default. **`promotional_ratio: low` here, and the pivotal item argues against his own margin** (see the allocation rule below). Closing advice is to have *someone* competent audit your project, not necessarily to buy from him. RU, 2026-01. [source: [[_Sources/YT_CEKciia5vh0_flat_ten_kitchen_design_mistakes|CEKciia5vh0]]]
+
+### ⚠️ Working dimensions, with his own definitions
+
+- **⚠️ Minimum ~1,000 mm of work surface — and he defines the term, which matters because it is used loosely: the distance from the hob to the sink**, or from the hob to a tall unit depending on configuration. Below that it is uncomfortable, especially for people who cook actively.
+- **⚠️ Depth: the trend is away from 600 mm toward 700 or even 750 mm — but there is a ceiling and he gives it: "больше 800 я бы не делал."** Deeper and you cannot reach across, which is its own problem.
+- **⚠️ Sink: for a 600 mm cabinet take the largest bowl the cabinet allows. 400 mm is too small for active cooking; 550 mm is acceptable; larger is better. A drainer wing occupies roughly 250 mm — and that comes straight off the work surface**, so it trades directly against the 1,000 mm minimum. **Under-mounted (подклейка) looks better; surface-mounted — "нет."**
+- **Quartz countertops are generally 20–30 mm; at 30 mm it starts to read heavy. ⚠️ A chamfer on the front edge makes a thick top look thinner while staying structurally thick.**
+
+### ⚠️ Plinth height — three standards, and a real appliance constraint
+
+- **Standards: 100, 120, 150 mm.** **150 mm has no practical purpose in most cases** — the one justification is where the design uses tall skirting and the skirting meets the kitchen, so matching heights avoids cutting it and reads as one line.
+- **Otherwise 100 mm is materially more aesthetic; in some cases they use 50 mm, more aesthetic again — with one catch.**
+- **⚠️ The catch is a specification trap worth planning around: not every built-in dishwasher fits a 50 mm plinth.** Models that do are limited — **Smeg** now, **Siemens** formerly — **and cost around 30–40% more than a standard machine ("не чуть, прилично").** **So a 50 mm plinth is an appliance-budget decision, not a styling one.**
+
+### ⚠️ Under-cabinet lighting — position, not just presence
+
+- **Place the LED profile at roughly the mid-depth of the wall units; for tall units, recess it 100 mm from the front of the carcass.**
+- **⚠️ Putting it in the corner makes it decorative only — it washes the backsplash and leaves the backsplash and countertop unevenly lit.** The lighting has to work as task light while cooking.
+- **⚠️ Power and switching must be agreed at design stage** — and this channel's separate source describes the failure where a kitchen arrives already built with lighting and nothing to power it (see [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]]).
+- **On controls, from their own trials: hand-wave motion sensors are unreliable and need replacing often — use either an ordinary switch on the wall panel or a touch sensor.** **⚠️ A touch sensor with light indication is his recommendation: it glows faintly in the dark so you can find it without being dazzled**, where an unlit one has to be hunted for. **Nuances this vault's existing under-cabinet touch-sensor caution (Kruglov/Ontario) and Кузина's wall-switch-plus-proximity-sensor alternative on [[12_Engineering_and_Systems/analysis/Switches_and_Controls|Switches & Controls]] — three accounts now, all sceptical of gesture control, differing on what replaces it.**
+
+### ⚠️ Hardware — the failure mechanism this vault did not hold
+
+- **What he means by фурнитура: the runners a drawer rides on and the hinges that open a swing door.**
+- **⚠️ Cheap hardware cannot be adjusted** — a facade cannot be set in all planes with correct gaps — **so the aesthetic result is unobtainable regardless of what else was spent.**
+- **⚠️ The mechanism: a cheap hinge with cruciform mounting plates fixed on self-tappers gradually destroys the carcass. Nothing is visible for years, then the door stops working properly and "у тебя уже корпус весь в труху превратился вместе с креплениями петель." The repair is then a side panel, not a hinge — and for a central section, dismantling half the kitchen.** **Complements this page's existing hardware cycle-rating content (Blum 200,000+ cycles, Boyard/Firmax at 10–15 years) by supplying the collateral-damage path rather than a lifespan number.**
+- **⚠️ A concrete instruction for corner mechanisms**: do not buy a cheap corner basket at **5,700–9,000 ₽ (2026-01) ≈ $70–$110** (12-month trailing mean to 2026-01-01, 83.2108 RUB/USD; comparability aid) — the stainless rusts, it works loose on cheap runners, the door hangs crooked. **"Купи нормальную, либо просто поставь полку. Просто полка будет намного лучше, чем вот эта вот дешёвая."** **LeMans is named as the optimal corner solution** if bought at proper quality.
+
+### ⚠️ Cost allocation — stated against his own margin
+
+- **The mistake: good facades with a cheap countertop.** Expensive veneer or enamel under a plastic top "просто убьёшь весь дизайн. Это 100%."
+- **⚠️ The correction, with the conflict flagged by him: "так нам как будто бы, как компании мебельной, в теории выгоднее продать кухню подороже" — but when a client wants to optimise cost they insist on the reverse: simpler facades (ЛДСП, laminate, a plastic) with a well-chosen colour, plus a stone countertop. "Это будет намного лучше."**
+- **Corroborates the "economise on what is replaceable, never on what is buried" principle already on [[11_Budget_and_Planning/analysis/cost_saving_strategies_full|Cost Saving Strategies]]** — here applied *within* one object rather than across a renovation, and by the trade that would profit from the opposite advice.
+
+### Colour, the island, and the backsplash
+
+- **⚠️ A kitchen reads laconic with a maximum of two colours, plus a third as the countertop.** The failure case: base units one colour, tall units a second, wall units a third, countertop a fourth. **⚠️ And an equally useful permission: do not try to match everything — appliances, handles and profiles carry their own shades, and internal hardware and drawers will never be one tone and need not be.** Full monochrome "будет выглядеть как раз скучно."
+- **⚠️ The matching criterion is warmth, not hue: "они должны быть подобраны по теплоте оттенков."** Warm wood needs warm stone; a warmth mismatch produces dissonance.
+- **⚠️ "Остров ради острова" — two tests.** An island needs enough space; forcing one into a small kitchen-living room is wrong and **in most such cases a kitchen plus a kitchen table is the more logical pairing.** **And if the island has neither a hob nor a sink built into it, it is also an island for its own sake.** **A third, constructional check: islands are often designed so you cannot sit at them — no leg room.**
+- **Terminology: «фартук» is the domestic word; the trade term is «стеновая панель».** **Return "ears" (загибы) on it look unprofessional** — without side pieces the wall material simply shows, which is fine.
+- **⚠️ Wall-panel installation order is conditional and there is no universal answer — the sequencing item to carry: closed contour (base units, wall units and two tall units) → install the wall panel BEFORE the kitchen. Open contour (tall units top and bottom only) → wall panel AFTER the kitchen is installed.** **Colour: in ~90% of kitchens the wall panel matches the countertop's colour and material.**
+
+### ⚠️ His own kitchen, as a worked failure — specify mixer and sink together
+
+- He bought an expensive German mixer with a dual outlet and filtered water, then **economised on the sink from a chain retailer at the end of the renovation with budgets overrunning.**
+- **The failure: the stream lands directly on the drain valve and sprays across the whole kitchen.**
+- **⚠️ Why it was never fixed: the sink is bonded into a quartz-agglomerate top and is a non-standard size, so correcting it means dismantling part of the kitchen, lifting the countertop, un-bonding the sink and cutting a new opening. "Дорого, долго, больно." They lived with it five years.**
+- **The rule: mixer and sink geometry are one decision, checked before either is bought — and a bonded sink in a stone top is effectively permanent.**
+
+### The "main mistake," in its usable form
+
+- His headline is that designing the kitchen yourself is the main mistake — a person does it two or three times in a lifetime, and habits are not necessarily good ones.
+- **⚠️ But the form of the advice is what makes it usable rather than a pitch: bring your own project and ask to have it audited.** He contrasts the two answers you may get — "окей, за деньги, давай сделаем, как ты хочешь" versus "у тебя здесь такие-то ошибки, давайте оптимизируем" — **and says to choose the second.** Ask directly whether anything is wrong and what they would recommend.
+- **⚠️ And a caution against copying: "не всегда правильная позиция смотреть, что где сделано у других. У каждого человека свой сценарий эксплуатации кухонной мебели."** Consistent with this vault's scenario-driven planning content.
+
+**⚠️ Caveats: the dimensional figures are his studio's working minima, not standards — no code or ergonomics source is cited anywhere. The 30–40% dishwasher premium has no base price attached. And the 7 m island he shows is his own showroom, not a delivered domestic project.**
