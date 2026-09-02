@@ -86,8 +86,8 @@ dining furniture and its clearances need to be.
   quick-breakfast zone instead. **Bar height = standard kitchen counter
   height (~80-100cm) + 20cm**, producing a stepped island profile (lower
   prep side / raised eating side). Cross-reference:
-  [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s existing island
-  sizing content (clearance, minimum width) for the rest of an island's
+  [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing &
+  Ergonomics]]'s island sizing content (clearance, minimum width) for the rest of an island's
   own dimensions.
 
 ## Open-Plan vs. Enclosed Dining Room: A Floor-Area Tradeoff

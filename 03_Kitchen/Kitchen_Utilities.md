@@ -1,6 +1,6 @@
 # Kitchen — Appliances & Fixtures (Non-Cabinetry)
 
-First content on this page (previously an empty placeholder). Covers appliance/fixture selection distinct from [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s cabinetry/assembly/countertop content.
+First content on this page (previously an empty placeholder). Covers appliance/fixture selection distinct from the cabinetry, assembly and worktop content under [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s detail pages.
 
 ## 2026 Trend Appliances (added 2026-08-28)
 
@@ -80,14 +80,14 @@ First content on this page (previously an empty placeholder). Covers appliance/f
 > drivers, drying types, price/brand tiers) is routed to the dedicated, previously-empty
 > [[15_Appliances/Kitchen_Dishwashers|Kitchen Dishwashers]] category page rather than
 > duplicated here. This store's existing dishwasher *placement/sizing-in-context* content
-> (the 45cm small-kitchen compromise, sink-adjacency rules) stays on `Kitchen_Furniture.md` —
+> (the 45cm small-kitchen compromise, sink-adjacency rules) stays on [[03_Kitchen/analysis/Appliance_Integration|Appliance Integration]] —
 > distinct scope from this buying-guide content. [source: [[_Sources/YT_10sNVkAEATw_kruglov_how_to_choose_dishwasher_2026|YT_10sNVkAEATw]]]
 
 ## Oven Selection Criteria (added 2026-08-28)
 
 > [!NOTE]
 > This channel's first dedicated general oven buying-guide video for this store — cross-checked
-> against this page's and `Kitchen_Furniture.md`'s existing oven/microwave content before
+> against this page's and [[03_Kitchen/analysis/Appliance_Integration|Appliance Integration]]'s existing oven/microwave content before
 > recording. [source: [[_Sources/YT_AOlNxAlI0So_kruglov_how_to_choose_oven_2026|YT_AOlNxAlI0So]]]
 
 - **Exclusions**: gas ovens (worse temperature precision, fewer modes, worse safety); 45cm
@@ -107,7 +107,7 @@ First content on this page (previously an empty placeholder). Covers appliance/f
   the oven at full capacity while the microwave function is active — recommends splitting into
   two separate appliances if you use the oven often, but still endorses a combined unit for a
   small studio/one-bedroom apartment. See the `[!WARNING]` combo-unit disagreement on
-  [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]] for how this relates to this store's
+  [[03_Kitchen/analysis/Appliance_Integration|Appliance Integration]] for how this relates to this store's
   existing two-sided callout on combining oven and microwave.
 - **⚠️ Steam-function three-tier taxonomy**: (1) simple one-time water-pour humidity boost —
   uncontrolled, evaporates almost immediately, explicitly called useless in practice (a named

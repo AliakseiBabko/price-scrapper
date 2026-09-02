@@ -1,6 +1,6 @@
 # Kitchen — Layout & Configuration
 
-General kitchen configuration/layout decisions — distinct from [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]], which covers cabinet/countertop assembly technique. Room-specific requirements/dimensions for this project's own kitchen live on [[03_Kitchen/Kitchen_Index|Kitchen Index]].
+General kitchen configuration/layout decisions — distinct from [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]] and its detail pages, which cover cabinet sizing, assembly technique, storage hardware, worktops and kitchen lighting. Room-specific requirements/dimensions for this project's own kitchen live on [[03_Kitchen/Kitchen_Index|Kitchen Index]].
 
 See [[13_Surfaces_and_Finishes/Flooring_Guide|Flooring Guide]] for a kitchen-specific worst-to-best 8-material flooring ranking (quartz-parquet, engineered/parquet board, porcelain tile, MSPC composite, LVT, SPC, water-resistant laminate) — added 2026-08-28, Konstantin Kruglov/Ontario.
 
@@ -87,7 +87,7 @@ A dedicated small-kitchen guide, distinct from the placement/layout content abov
 > From a real-project walkthrough by a different on-camera presenter (Nikita Kuznetsov) on the same Ontario channel. [source: [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
 
 - **Kitchen-living combined room sizing, a whole-room figure distinct from the kitchen-only range above**: budget roughly **12-17 m²** of combined floor area to fit a sofa, TV, and full kitchen zone into one shared room.
-- **⚠️ Island minimum room size, a real numeric disagreement with this store's existing island-sizing rule**: this source recommends an island **only in rooms ≥30 m²** — considerably larger than the existing rule on [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]] ("An island is only appropriate in kitchens ≥14 m²"). Both figures recorded, attributed to their own source, rather than merged.
+- **⚠️ Island minimum room size, a real numeric disagreement with this store's existing island-sizing rule**: this source recommends an island **only in rooms ≥30 m²** — considerably larger than the existing rule on [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing & Ergonomics]] ("An island is only appropriate in kitchens ≥14 m²"). Both figures recorded, attributed to their own source, rather than merged.
 
 `single-account`, `unverified`. [source: [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
 

@@ -19,7 +19,7 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 ## Budget-Tier Facade Material, Hardware, and Countertop Brands (added 2026-08-28)
 
 > [!NOTE]
-> From this store's first dedicated budget-kitchen cost-cutting video — see [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s "Budget Kitchen: What to Cut vs. Never Cut" section for the full framework this brand content supports. Every named brand below carries the source's own explicit "not an ad, no sponsorship" disclaimer. [source: [[_Sources/YT_2I77xJIeRwM_kruglov_kitchen_10x_cheaper|YT_2I77xJIeRwM]]]
+> From this store's first dedicated budget-kitchen cost-cutting video — see [[03_Kitchen/analysis/Kitchen_Cost_and_Priorities|Cost, Priorities & What to Cut]] for the full framework this brand content supports. Every named brand below carries the source's own explicit "not an ad, no sponsorship" disclaimer. [source: [[_Sources/YT_2I77xJIeRwM_kruglov_kitchen_10x_cheaper|YT_2I77xJIeRwM]]]
 
 - **⚠️ LDSP (laminated particleboard) facade recommended over veneer/solid wood/film/plastic for the best budget price-to-quality ratio** — named leader manufacturer **Egger**, cited for the largest color/texture palette in the category.
 - **Handle-hardware cost-cut**: lower cabinets — integrated/recessed aluminum handle profile (available on general marketplaces); upper cabinets — no handles at all, facade panel sized slightly oversized relative to the box for a bottom finger-pull gap.
@@ -135,7 +135,7 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 > Complements the small-kitchen monochrome-facade formula above with a general (not small-kitchen-specific) 2026 trend statement. [source: [[_Sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]]]
 
 - **⚠️ Monochrome/minimalist facade aesthetic named as the dominant 2026 trend**: integrated or entirely absent handles, calm/muted tones, and matching the countertop and backsplash in the *same material* (not just a coordinating color). For clients who prefer a classical (non-minimalist) facade profile but want calmer tones/textures, "neoclassic milling" (a routed facade profile) is the compromise option.
-- **No-upper-cabinets design trend, with a storage-relocation requirement** — see [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]'s 2026-trends section for the full framing (removing upper cabinets requires relocating that storage elsewhere, not dropping it).
+- **No-upper-cabinets design trend, with a storage-relocation requirement** — see [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops & Backsplash]]'s 2026-trends section for the full framing (removing upper cabinets requires relocating that storage elsewhere, not dropping it).
 
 `single-account`, `unverified`. [source: [[_Sources/YT_SaMpFOPm_4U_kruglov_kitchen_trends_2026|YT_SaMpFOPm_4U]]]
 
