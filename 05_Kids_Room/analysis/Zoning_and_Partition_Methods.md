@@ -143,3 +143,12 @@ Full detail in the
 - **Sports/active-play zones can stay shared/undivided** even when
   sleep/desk zones are split per child — no need to duplicate sports
   equipment. [source: [[_Sources/YT_9ykrlQ5tpBs_archwood_kids_room_project_zoning_outlets|YT_9ykrlQ5tpBs]]]
+
+## Slatted Screen as a Soft Zone Divider, and a "Space, Not Script" Philosophy (Игорь Краснов, real Petergof-dachas project, added 2026-09-02, Round 8)
+
+Krasnov's own studio's real completed project — no third-party attribution needed. [source: [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+
+- **⚠️ Wood-slat partition as a "visual filter" between sleep and study zones, genuinely new, distinct from solid partition walls already logged**: "деревянные рейки... это не перегородка, а визуальный фильтр, создающий приватность без ощущения отсечки" — explicitly NOT a solid partition, providing privacy/zone-separation without a hard visual cutoff. A specific "slatted screen as soft zone divider" technique.
+- **⚠️ Explicit stated philosophy, genuinely distinct from the "design for future life stages" (aging-forward) content already logged from Round 4**: "мы не задаём ему [ребёнку] какие-то явные, чёткие сценарии... мы даём пространство для развития" — don't impose a rigid schedule/zone-use script on a child; instead provide a well-equipped SPACE with distinct zone options (play, study, rest) and let the child organize their own use of it over time. This is about designing for PRESENT flexibility of interpretation, not future age-stage planning. Explicit stated claim this "works long-term," since the room stays useful as the child's own activities evolve without needing a redesign.
+
+`single-account`, `unverified`.

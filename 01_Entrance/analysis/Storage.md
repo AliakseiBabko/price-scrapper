@@ -252,3 +252,14 @@ Third Pinterest real-image critique episode, methodically working through two se
 
 `single-account`, `unverified`.
 
+## Top-Hung Sliding Glass Wardrobe Partition, Entry-Sequence Organization, and Mirror Proportion Rules (Игорь Краснов, real projects, added 2026-09-02, Round 8)
+
+Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
+
+- **⚠️ Top-hung sliding glass wardrobe partition, a specific, real, genuinely new construction detail**: entryway wardrobe hidden behind sliding glass partitions, ~270cm floor-to-ceiling height, graphite-tinted semi-transparent glass (shows garment silhouette without visual clutter). Panels move on a TOP-HUNG track with NO floor rail — keeps the floor completely clean and door movement light/silent, an explicit improvement over a floor-rail track ("который всегда, в общем-то, мешает").
+- **⚠️ Entryway wardrobe interior organized by entry sequence, a specific, concrete layout technique**: immediately behind the door — coat rail for outerwear; next — a shoe compartment with per-shelf lighting; pull-out drawers for accessories; top shelves for seasonal-storage boxes. [source: XU7YAfZ9xuM]
+- **Full-height entryway mirror with integrated perimeter backlighting, a real dimension**: **90×240cm**. [source: XU7YAfZ9xuM]
+- **⚠️ Circular entry mirror sized to align its top edge with the entry door's top edge and its bottom edge just above the baseboard — a specific proportional mirror-sizing rule tied to door geometry, genuinely new for this page**, distinct from the full-height rectangular mirror above. [source: uPNKwSkxtKg]
+
+`single-account`, `unverified`.
+

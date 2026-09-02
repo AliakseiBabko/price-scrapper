@@ -472,3 +472,15 @@ A short cross-reference into this page's colour-temperature section from a paint
 **⚠️ A specific design-coordination failure mode, explicitly generalized by the source beyond the kitchen context it was raised in**: a track/spot ceiling fixture protruding ~10cm from the ceiling can be physically struck by an opening upper-cabinet door if the lighting plan was overlaid on the furniture plan without cross-checking door-swing clearance — a real coordination gap between two plans drawn independently (the furniture layout doesn't mark door-swing radii; the lighting layout doesn't check against them). **He explicitly states the same failure mode recurs in entryways/hallways and anywhere there's a ceiling-mounted object near an opening door, not just kitchens** — record as a general design-coordination caution, not a kitchen-specific one.
 
 `single-account`, `unverified`.
+
+## ⚠️ Light-Projected "Mandala" Shadow Pattern, Raking Light on Textured Plaster, and Scene-Based Color-Coded Office Lighting (Игорь Краснов, real projects, added 2026-09-02, Round 8)
+
+Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+
+- **⚠️ Large decorative "mandala" wall pattern created via LIGHT/shadow-casting fixtures, NOT paint or print — a specific, genuinely new decorative-lighting technique, worth its own entry**: "крупные мандалы... словно тени, буквально нарисованные светом" (large mandalas — like shadows, literally drawn by light). A real technique using light/shadow projection itself as the wall's decorative pattern rather than a printed/painted motif. [source: W2dAmCXg9GE]
+- **Vertical thin light fixtures lining a long hall** specifically to visually stretch the space upward and add architectural rhythm — extends existing vertical-light-line content with a hallway-specific case, turning a plain corridor into "a whole gallery." [source: W2dAmCXg9GE]
+- **⚠️ Textured decorative plaster styled to look like a cut rock face, lit with raking side light so the texture "comes alive" with shadow** — a specific accent-wall lighting technique (raking light across deep-relief texture), extends existing texture-and-light content. [source: XU7YAfZ9xuM]
+- **⚠️ Scene-based, function-coded office lighting**: white light for concentration/focus, red light as a graphic accent supporting black furniture profiles — a specific "light color as a work-mode signal" technique. [source: XU7YAfZ9xuM]
+- Vertical light strips flanking a bed running up to the ceiling — extends existing vertical-light-line content with a bedroom-specific case. [source: XU7YAfZ9xuM]
+
+`single-account`, `unverified`.

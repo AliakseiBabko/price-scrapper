@@ -763,3 +763,11 @@ Real completed project, Krasnov's own studio, not generic advice — both cases 
 - **⚠️ Architecture-interior sequencing lesson, a real concrete case, distinct from generic "collaborate early" advice**: in this project, the architectural shell/structure was commissioned and largely finalized BEFORE the interior design was brought in, which led to real forced furniture-placement compromises after the fact — a sofa placed in a specific spot only because there was nowhere else to put it; a dining table location similarly constrained by the existing structure; a kitchen countertop section that had to be lowered so a window above it could open (see [[03_Kitchen/analysis/General_Dos_and_Donts|Kitchen: General Dos and Don'ts]] for the fuller countertop-height case). Krasnov's explicit stated lesson: architecture and interior design should be commissioned TOGETHER/collaboratively from the start, not sequentially — "надо работать сообщать. То есть сначала делается архитектурный проект, и здесь же делается проект интерьера." A real, concrete validation of standing collaborate-early methodology already in this vault, not just theoretical advice.
 
 `single-account`, `unverified`.
+
+## 5i. A Wellness Wing as an Aspirational Space Category — Brief Mention (Игорь Краснов, added 2026-09-02, Round 8)
+
+From a celebrity real-estate trivia video otherwise confirmed weak (`fact_yield: 3`) — recorded briefly, tagged explicitly as aspirational/high-end content, NOT standard renovation guidance for this project's own budget. [source: [[_Sources/YT_KgIXLmCShsU_krasnov_worlds_richest_homes|KgIXLmCShsU]]]
+
+A dedicated home wellness/recovery wing (cardio room, dry sauna, steam/massage room, cold-plunge pool) described as a real space-planning category in an anonymous ultra-high-end residence, distinct from a standard bathroom. Recorded here only as an aspirational category for awareness — not a recommendation applicable to this project's own standard-apartment scope or budget.
+
+`single-account`, `unverified`.

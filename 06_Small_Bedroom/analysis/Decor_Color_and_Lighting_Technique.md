@@ -234,3 +234,16 @@ Also in the same source: a mirror hung directly opposite a window specifically t
 - **⚠️ Wood accent panel behind a headboard — two critiques bundled**: (1) a wall panel that merely "splits the wall in half" rather than genuinely zoning/framing the bed doesn't actually add spatial definition, it just divides the wall arbitrarily; (2) if the area behind/around such a panel uses plaster-imitation wallpaper, this reads as a poor choice — see [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]] for the emphatic standing rule this generated. The panel's own grain pattern critiqued as too coarse/heavy, reading more like "oversized laminate" than a refined accent — recommends a more delicate wood veneer, or dropping the panel altogether and focusing visual weight on a well-designed headboard instead. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
 
 `single-account`, `unverified`.
+
+## Low-Wide Platform Bed Psychology, a Stone-Headboard "Landscape," and an Emerald/Chocolate/Terracotta Recipe (Игорь Краснов, real projects, added 2026-09-02, Round 8)
+
+Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+
+- **⚠️ Low, wide-based platform bed as a deliberate architectural-psychology principle, genuinely new named principle**: "кровать низкая, массивная, с широким основанием, словно сидит на полу... подчёркивает горизонталь, задаёт спокойный ритм и создаёт ощущение защищённости" — a low bed with a wide base that "sits on the floor" emphasizes horizontality, creates a calmer rhythm, and gives a sense of protection/security. [source: XU7YAfZ9xuM]
+- **Master bedroom stone-clad headboard wall**: natural stone, rough/raw texture, warm-lit, explicitly turning the room into "пейзаж" (a landscape) — a "stone accent wall as bedroom landscape" technique. [source: XU7YAfZ9xuM]
+- Vertical light strips flanking the bed running to the ceiling — extends existing vertical-light-line content with a bedroom-specific case. [source: XU7YAfZ9xuM]
+- Timeless palette recipe, explicitly claimed to hold "10-20 years": beige-taupe walls + warm oak parquet + black-metal accents. [source: XU7YAfZ9xuM]
+- **Emerald velvet-look upholstered headboard, deep "cocoon" shape, paired with warm chocolate-brown bedding and terracotta-toned pillow accents** — a specific color-pairing recipe (emerald + chocolate brown + terracotta), extends existing accent-color content with this concrete recipe. [source: W2dAmCXg9GE]
+- **Backlit mirror opposite the bed (TV zone) described as reading like a "sculptural art object" in evening light** — restates existing mirror-lighting content with this framing. Vanity-pouf color matched to bed upholstery specifically to visually unify the room — an applied case of the existing "repeat color across zones" cohesion technique. [source: W2dAmCXg9GE]
+
+`single-account`, `unverified`.

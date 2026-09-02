@@ -603,4 +603,37 @@ Real celebrity-home critique format — Dakota Johnson's own home, her own state
 
 `single-account`, `unverified`.
 
+## Alpine/Chalet and Mediterranean — Two New Named Style Categories (Игорь Краснов, added 2026-09-02, Round 8)
+
+**Honest yield note**: from a broad five-style overview whose Eco-style, Scandinavian, and Neoclassic sections mostly restate content already extensively logged elsewhere in this vault — NOT re-extracted here. Alpine/Chalet and Mediterranean are the two genuinely new named style categories, added below following this page's existing pattern (single-source style additions to this page rather than a new dedicated page, per the store's 3+-source new-page threshold). [source: [[_Sources/YT_VTOiKRlSe6A_krasnov_top5_styles_private_house|VTOiKRlSe6A]]]
+
+- **⚠️ Alpine/Chalet style, a genuinely new named category, worth its own entry**: massive stone-clad fireplace as the room's central social anchor, explicitly named the style's "main character"; exposed heavy timber ceiling beams; stone-clad walls; natural wood/stone flooring; warm neutral base palette (light wood, cream, grey, white) with terracotta/burgundy accents; heavy emphasis on natural textiles (wool throws, faux-fur rugs, linen pillows) with an explicit "you can't have too many throws in Alpine style" framing; warm lighting only (candles, fire, warm-toned lamps), explicit stated avoidance of cold light entirely, described as "killing the coziness."
+- **⚠️ Mediterranean style, a genuinely new named category, with a functionally-grounded (not just aesthetic) material rationale, worth its own entry**: whitewashed lime/plaster walls specifically chosen for a real thermal-cooling functional effect in hot climates, not just aesthetics; terracotta tile flooring valued specifically for staying cool underfoot in heat; light, unfinished/raw wood tones; sea-blue/turquoise color accents plus sandy/terracotta earth tones; light linen/cotton curtains (explicitly NOT heavy drapery) specifically to let air circulate; simple, durable, clean-lined furniture, wicker/rattan seating; ceramic/hand-painted pottery, woven baskets, dried-flower or olive-branch arrangements as decor.
+- **Limited direct applicability noted explicitly**: both styles' material-and-climate rationale is genuinely functionally-grounded (not purely aesthetic), but Mediterranean's cooling-oriented logic in particular has limited direct relevance to a Belarus climate context (cold winters, not the hot-summer climate this style's functional rationale addresses) — recorded explicitly rather than silently treated as directly actionable for this project's own climate.
+
+`single-account`, `unverified`.
+
+## Hall-as-Destination — a Second Applied Case (Игорь Краснов, real Petergof-dachas project, added 2026-09-02, Round 8)
+
+Krasnov's own studio's real completed project. [source: [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+
+- **A red accent armchair plus a live olive tree used as a hallway "waypoint" destination** — extends the vignette-layering and hall-as-destination content from earlier rounds with this concrete case, making the hall a genuine "part of life" rather than pure circulation: "не просто местом между дверьми... а полноценной частью жизни всего дома, пространством, которое не нужно проходить мимо."
+- **Second-floor hall explicitly NOT treated as wasted circulation space** — extends the "large hall can work in a genuinely large home" nuance from Round 7's Peterhof tour (`uSqIuvBwh8o`) with a SECOND concrete case, same channel, different house.
+
+`single-account`, `unverified`.
+
+## Remaining Real-Project Techniques From the 116m² St. Petersburg Tour (Игорь Краснов, added 2026-09-02, Round 8)
+
+Krasnov's own studio's real completed project — smaller applied techniques from this round's richest source that don't have a more specific single-room wiki home. [source: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]]]
+
+- **⚠️ Milled/textured MDF cabinet-front cost multiplier, source's own approximate figure**: matte-textured MDF fronts cost roughly **2x standard LDSP** ("раза в два") — tag `unverified`/approximate, applies to wardrobe and cabinetry fronts generally, not just kitchen.
+- **Round stone coffee table, a material-vs-form balancing principle**: heavy material (stone) paired with a rounded/sculptural form specifically so the piece doesn't read heavy — "камень даёт вес и статус, но скруглённые формы делают его лёгким и скульптурным."
+- **Satin-finish metal panel cladding paired with a wall-mounted TV** specifically so the screen reads as part of the designed composition rather than "a black rectangle."
+- **Built-in bio-fireplace (bioethanol, no venting required) under a wall-mounted TV** — a specific real fireplace-type example, worth noting as a category distinct from wood-burning options.
+- **"The office screen is also the home theater" dual-use technique**: a wall-mounted screen in a home office serves as a full TV integrated into evening/weekend use (movies, gaming), not just a work monitor.
+- Built-in oak-veneer shelving with lighting chosen over open shelving specifically to avoid dust — an applied case of this vault's existing open-shelf-dust critique.
+- **Explicit stated principle**: never build a cramped "corner desk" as a compromise home office — a dedicated, properly-sized room is worth the space.
+- Electric piano placed in an otherwise minimal home-office/guest-room zone specifically because "music needs air" — a function-specific decluttering principle, distinct from general aesthetic decluttering.
+- Guest room designed as a genuine multi-purpose "multi-room" (13.5m²): daytime office/music room, evening home cinema via a sofa-bed, one deliberately blank wall reserved for a ceiling-mounted projector (BenQ, flag per advertising filter) — "keep one wall blank for projection" technique.
+
 `single-account`, `unverified`.

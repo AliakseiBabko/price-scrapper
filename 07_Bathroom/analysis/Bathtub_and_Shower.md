@@ -473,3 +473,17 @@ Dark glossy tile texture used deliberately in a small bathroom for a sense of de
 - **Private-house-shower-window personal conviction**: Krasnov states his own personal conviction that a private house's shower should always have a window — private houses have more design freedom for window placement than apartments typically do, a specific attributed personal position ("в частном доме должно быть обязательно окно в душе. Я в этом глубоко убеждён"). [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
 
 `single-account`, `unverified`.
+
+## Pebble-Floor Technical-Gap Cover, Satellite Home-Office Shower, and an Oversized Shower-Cabin Rule (Игорь Краснов, real projects, added 2026-09-02, Round 8)
+
+Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+
+- **⚠️ Decorative pebble/gravel flooring at a shower threshold, a specific dual-purpose technique, genuinely new**: "декоративная галька... засыпка покрывает технический зазор... ухаживать за ней легко. Пылесос или душ, и всё снова чисто" — the pebbles disguise/cover a technical expansion gap AND are explicitly easy-clean (vacuum or hose down). [source: XU7YAfZ9xuM]
+- Tempered-glass shower partition with black profile; built-in bench of porcelain tile on a metal frame with underside lighting, creating a "floating platform" effect. [source: XU7YAfZ9xuM]
+- **⚠️ Satellite shower installed adjacent to a home office/study, genuinely new space-planning idea**: for a quick refresh after exercise or long work sessions without using the rest of the home's bathrooms. Within it: a linear floor drain (reinforcing this recurring recommendation); tempered glass engineered to shatter into safe granules rather than sharp shards (a specific real safety-glass detail); full-width backlit mirror; wall-hung toilet with in-wall tank; vessel-style sink with drawers. [source: XU7YAfZ9xuM]
+- Laundry (Bosch washer/dryer, flag per advertising filter) integrated behind cabinet fronts directly within the master bathroom/shower suite — tag as a large-house-specific option, not broadly scalable. [source: XU7YAfZ9xuM]
+- **⚠️ Oversized/wider-than-standard shower cabin specifically to avoid a cramped feel** — "ширина душевой кабины больше стандартной. Здесь не придётся ютиться у стенки" — a "don't just meet the minimum, go wider" shower-sizing recommendation, distinct from and complementary to standard shower-clearance content already logged. [source: W2dAmCXg9GE]
+- **⚠️ Ceiling-mounted rain shower head specifically praised for the "water appears from nowhere" effect** — "душ встроен в потолок. Вода словно появляется из ниоткуда" — a specific fixture-type preference (ceiling-recessed rainfall vs. wall-mounted). [source: W2dAmCXg9GE]
+- Black-veined "marble-look" large-format porcelain tile explicitly chosen over real marble for easier maintenance while keeping the premium look — restates existing marble-substitution content as an applied case. [source: W2dAmCXg9GE]
+
+`single-account`, `unverified`.

@@ -128,3 +128,13 @@ Krasnov's own studio's real completed project. [source: [[_Sources/YT_uSqIuvBwh8
 - Task lighting for a homework desk done via concentrated ceiling point-lights rather than a desk lamp, deliberately to keep the desk surface itself clear of a lamp footprint.
 
 `single-account`, `unverified`.
+
+## A Second Window-Seat Case, and a Reading-Nook "Cocoon" Chair (Игорь Краснов, real Petergof-dachas project, added 2026-09-02, Round 8)
+
+Krasnov's own studio's real completed project — no third-party attribution needed. [source: [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+
+- **Window seat with soft cushions and built-in storage drawers** — a SECOND applied case of the window-seat-with-storage technique already logged from Round 7's Peterhof tour above; cross-reference, don't duplicate.
+- Hanging "cocoon" chair by a window as a reading/relaxation nook — a specific reading-nook furniture piece, restates existing cozy-reading-nook content as a concrete applied case.
+- Bed with high, "capsule"-like soft headboard, described as a place "you want to hide in"; pillowy carpet underfoot; French-herringbone engineered-wood flooring.
+
+`single-account`, `unverified`.

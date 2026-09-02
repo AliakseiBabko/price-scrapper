@@ -264,3 +264,36 @@ Frameless/backless sofas ("бескаркасные диваны") flagged as a 
 - **⚠️ Rug quality-check technique, genuinely new and practical**: part the pile and look at the base fiber color — a genuinely good rug has consistent color all the way down the fiber, while a cheap synthetic rug only has surface-level dye/pigment applied on top. A specific, actionable, in-store quality test. Acknowledges synthetic rugs have a legitimate place for temporary use or frequent style-changing.
 
 `single-account`, `unverified`.
+
+## Acrylic/Plastic Furniture Critique, Mirrored-Surface Durability, and a Faux-Texture Substitution Table (Игорь Краснов, added 2026-09-02, Round 8)
+
+A materials/decor rebuttal video, genuinely rich with specific durability claims and named historical design references. [source: [[_Sources/YT_NAqGs6ygykU_krasnov_7things_wont_do_luxury_designer|NAqGs6ygykU]]]
+
+- **⚠️ Acrylic/plastic furniture critique, with named historical design references — flag per the cultural-reference/advertising filter**: names the **Louis Ghost and La Marie chairs by Philippe Starck**, and the **Panton Chair by Verner Panton**, as culturally iconic examples of the "plastic revolution" that nonetheless behave poorly in real daily use — acrylic clouds/scratches/deforms from load or heat; plastic loses color, becomes brittle, "gives away its composition by touch." Neither ages "nobly" like wood/stone/metal. **Krasnov's stated studio policy: never use acrylic/plastic in active-use zones** — recommends properly-treated glass, solid wood or veneer, or powder-coated metal instead for a similar lightness/transparency effect.
+- **⚠️ Mirrored/glossy furniture-surface durability critique, with concrete timeframes, genuinely new and useful, worth its own entry**: mirrored countertops/cabinet fronts/consoles show first scratches/wear within a few MONTHS of active touch; within **2-3 years** develop a network of micro-defects, cloudy corners, chips — reads as "neglected" rather than luxurious. Recommendation: reserve mirror finish for rare accent use only, never as the primary material for furniture/surfaces subject to regular contact.
+- **⚠️ Faux/imitation-texture furniture-finish critique, a comprehensive rule extending the existing imitation-material critiques (wallpaper-imitating-plaster/brick, Rounds 4/7) to FURNITURE FINISHES specifically, with a concrete substitution table worth recording as a set**: MDF painted to imitate concrete/plastic/stone, deliberately-added sparkle paint, faux rust, or deliberately-distressed "aged" furniture reads as cheap imitation regardless of intent (visible via repeating pattern, visible material seams, or a "plasticky" tactile/paint feel). **Recommended REAL-material substitutes**: instead of paint-imitating-concrete → real mineral plaster or microcement; instead of paint-imitating-metal → real brass or steel that develops genuine chemical-aged patina over time; instead of wood-grain film/vinyl → real veneer or solid wood with brushing/staining techniques; instead of stone-imitation panels → large-format porcelain slab or real stone slab with matched book-matched veining. [Cross-reference: [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]] for the same source's ornate-decor, gold/brass, tile-durability, and murals content, routed there instead as wall/surface-material topics rather than furniture pieces.]
+
+`single-account`, `unverified`.
+
+## Rug Layering, and a Restoration Hardware "Cloud" Sofa Mention (Игорь Краснов, added 2026-09-02, Round 8)
+
+A generic secrets-format video, thin overall (see the source note's honest low-yield assessment) — this is the one genuinely new technique from it. [source: [[_Sources/YT_oPZRWj6Og64_krasnov_6design_secrets_experts|oPZRWj6Og64]]]
+
+- **⚠️ Rug layering — a specific, concrete technique with named material pairings, genuinely useful, distinct from the single-rug-sizing content already logged extensively (existing content is about rug SIZE relative to furniture, this is about LAYERING two rugs of different materials/scale), worth its own entry**: layer a base rug (jute, natural, grounding) topped with a smaller, more decorative rug (Moroccan-patterned, Persian, or silk) to create depth/texture contrast. **Specific style pairings named**: Scandinavian = jute + wool; eclectic = Moroccan pattern over jute for a "travel" feel; classic = thin silk rug over a plush base for a luxe feel. Practical dual-purpose benefit: the base rug protects flooring while the decorative top rug can be swapped easily to refresh the room's look without a renovation.
+- **⚠️ Named brand mention, flag per the advertising filter**: the **Restoration Hardware "Cloud" sofa** named as a specific real example of a timeless, quality-upholstery, easily-lives-in-any-style piece.
+- **Reupholstering an aging-but-structurally-sound sofa as a cost-effective refresh strategy** — a specific, practical "recover, don't replace" tip, mildly new.
+- Live-edge wood table (natural raw edge, unique organic shape) named as a specific "wow moment" accent-furniture example — restates the existing "one bold anchor object" content extensively logged elsewhere, only the specific live-edge-table example is worth a brief mention.
+
+`single-account`, `unverified`.
+
+## Furniture Built to the Owner's Own Body Dimensions — a Brief Mention (Игорь Краснов, added 2026-09-02, Round 8)
+
+From a celebrity real-estate trivia video otherwise confirmed weak (`fact_yield: 3`) — see the source note. Recorded briefly as the one genuinely extractable furniture-personalization concept in it. [source: [[_Sources/YT_KgIXLmCShsU_krasnov_worlds_richest_homes|KgIXLmCShsU]]]
+
+**Furniture built to the specific occupant's own body dimensions**, rather than standard sizing — a real, if extreme, personalization concept ("мебель сделана под его рост"), described in an anonymous high-end residence. `single-account`, `unverified`, brief mention only.
+
+## Nightstand/Desk Height Detail (Игорь Краснов, real Futurist 75m² project, added 2026-09-02, Round 8)
+
+Krasnov's own studio's real completed project. [source: [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
+
+**Nightstand/desk height: 750mm** — a bedroom toilette/work table set to this height explicitly to match standard kitchen-counter/desk ergonomics ("если бы мы с вами сидели на кухне, там тоже те же самые размеры"). `single-account`, `unverified`.

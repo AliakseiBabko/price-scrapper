@@ -48,6 +48,9 @@ Two named practitioners give answers to the same practical question — genuine 
 
 [sources: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]], [[_Sources/YT_3lFeF0MSXh4_krasnov_bathroom_8worst_mistakes|3lFeF0MSXh4]], [[_Sources/YT_Uhie5ocQTDo_krasnov_forces_constant_cleaning|Uhie5ocQTDo]], [[_Sources/YT_NO6-2zAJgys_krasnov_19controversial_items|NO6-2zAJgys]], [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
 
+> [!NOTE]
+> **Round 8 (2026-09-02): black fixtures used again, no claim either way — not added to the tally.** `W2dAmCXg9GE` (Krasnov's own Petergof-dachas 279m² house, "part 2") shows matte black plumbing fixtures used in the main bathroom, but this time with NO explicit grime/maintenance claim attached — Krasnov simply describes the choice without asserting whether it shows marks more or less than an alternative. Per the caller's explicit instruction, this is recorded as a plain usage note only, not as a sixth data point in the tally above (which requires an actual claim, not just usage). [source: [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+
 ## Mixer Shape & a 2024-2025 Trend (added 2026-08-24, Round 2)
 
 Konstantin Kruglov / Ontario says: **mixer shape (round vs. flat) affects visible-mark accumulation independently of color/finish** — a flat-profile mixer shows fingerprints and dried-water marks more readily than a round one of the same finish, since a flat surface presents a larger uninterrupted plane for marks to register on. This nuances (not contradicts) this page's existing chrome-finish guidance above: chrome is the most forgiving finish for *water-spot* marks specifically, but flat/glossy chrome is markedly bad for showing *fingerprints* — different residue types, not a real disagreement. **Satin, specifically an aluminum-toned satin finish, is named as one of the best color/finish choices overall** — hides both fingerprints and dried-water marks better than chrome, black, or white; matte finishes generally show the least residue of any category.
@@ -243,3 +246,14 @@ elsewhere on this vault), not a new mechanism on its own. [source: [[_Sources/YT
 - **⚠️ Second (non-master) bathroom in the Peterhof project — a deliberate light-palette REVERSAL from the master bathroom's dark theme, with a real bicolor sink product detail**: light-colored sanitaryware and a light basin; a specific two-tone sink basin (different color inside vs. outside — a real applied product detail, not a general recommendation). Chrome fixtures explicitly chosen here specifically BECAUSE "здесь нет ничего чёрного" (there's nothing black in this room's overall palette) — reinforcing that fixture-color choice should match the room's overall palette contextually, rather than being a universal either-way rule independent of context. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
 
 `single-account`, `unverified` (bathroom-buying/style-preference framing throughout).
+
+## Round 8 Additions — Black+Brass Bicolor Fixture Accents, a Backlit Gradient Mirror, and a Grout-Matched-to-Tile Technique (Игорь Краснов, real Futurist 75m² project, added 2026-09-02)
+
+Krasnov's own real completed studio project. [source: [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
+
+- **⚠️ Black+brass bicolor fixture-accent combination, genuinely new**: all main fixtures in the master bathroom black (faucet, toilet button, hygienic-shower head, toilet-paper holder), with brass-toned accents on select fittings (nuts/fixings, mixer lever) — a specific bicolor black+brass approach distinct from an all-one-metal-finish rule.
+- **⚠️ Backlit gradient-tile mirror, a specific decorative-lighting effect**: dark porcelain tile combined with under-mirror backlighting creates a light-to-dark gradient shading effect — described as the single most striking element of the two bathrooms in this project.
+- **⚠️ Grout-color-matched-to-tile-tone technique**: grout color matched separately to each of a room's distinct tile tones (mint grout on mint tile, terracotta-toned grout on the terracotta-toned lower tier) rather than one uniform grout color throughout the room.
+- Surface-mount basin in a "swamp green" (болотный зелёный) tone, paired with brass-toned fixtures and a half-rounded mirror top edge echoing arched cabinet-door fronts — a real applied palette case, kids' bathroom.
+
+`single-account`, `unverified`.

@@ -292,3 +292,9 @@ Krasnov's own studio's real completed project. [source: [[_Sources/YT_uSqIuvBwh8
 - **⚠️ Two-tier flooring-material-by-floor-level/privacy strategy, genuinely reusable**: ground floor (public/high-traffic zone) uses porcelain tile («керамогранит»); upper floor (private/bedroom zone) uses engineered wood specifically laid in an **"English herringbone"** pattern («укладка английская ёлочка») — a specific material-by-privacy-level strategy plus a named parquet-laying pattern, worth recording as a distinct technique from this page's existing French-herringbone cost/QC content above (a different named pattern variant).
 
 `single-account`, `unverified`.
+
+## Whole-House Flooring-Continuity Strategy — a Different Goal From the Two-Tier Privacy Strategy Above (Игорь Краснов, real Petergof-dachas project, added 2026-09-02, Round 8)
+
+Krasnov's own studio's real completed project — same channel, a different real house than the Round 7 entry directly above. [source: [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+
+**⚠️ Continuing the SAME wood flooring pattern across floors/zones to unify the whole house into one cohesive composition — flagged explicitly as a DIFFERENT strategy from (not a contradiction of) the two-tier-flooring-by-privacy-level strategy directly above, from the same channel's `uSqIuvBwh8o`, which used DIFFERENT materials by floor for privacy zoning.** Both recorded as context-dependent choices serving different goals (privacy-zoning vs. whole-house-unity), not resolved into a single rule — "пол, тот же рисунок из дерева, который перекликается... с первым этажом. Он объединяет в себе всё пространство в такую цельную, единую композицию." `single-account`, `unverified`.

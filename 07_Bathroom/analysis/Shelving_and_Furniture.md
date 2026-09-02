@@ -179,3 +179,12 @@ Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part 
 - **⚠️ "Labels are the visual noise" framing, a specific reinforcement of existing hidden-storage content**: hidden/closed storage for toiletries strongly preferred over open shelving specifically because branded/labeled bottles visible on a shelf disrupt visual composition — a useful "labels are the visual noise" framing for WHY hidden storage matters, not just that it's preferred. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
 
 `single-account`, `unverified`.
+
+## Planted Niche Conceals Plumbing, and a Floating Vanity's Underside Lighting (Игорь Краснов, real projects, added 2026-09-02, Round 8)
+
+Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
+
+- **⚠️ A tiny (~4m²) guest-room ensuite bathroom made to feel larger via a specific bundle of techniques, worth recording together, genuinely new**: a decorative lit niche (~20cm deep) behind the toilet with stabilized (preserved) plants and a rock-pebble base, explicitly used to CONCEAL technical plumbing elements behind an "art installation" rather than leaving them visible, with a glass cover panel protecting the niche from dust/moisture. An elongated vertical mirror with an intentionally ASYMMETRIC bottom edge, continuing the rhythm of adjacent wall panels, backlit so it appears to glow from within. A floating vanity cabinet with underside lighting reducing visual clutter/heaviness; wall-hung toilet, same floor-lightening logic. [source: XU7YAfZ9xuM]
+- **Hidden/integrated lighting behind a floating vanity in the kids' bathroom** — a second applied case of underside-vanity-lighting, cross-reference. [source: uPNKwSkxtKg]
+
+`single-account`, `unverified`.

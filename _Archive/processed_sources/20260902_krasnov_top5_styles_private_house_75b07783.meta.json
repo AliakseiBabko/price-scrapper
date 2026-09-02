@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=VTOiKRlSe6A",
+  "video_id": "VTOiKRlSe6A",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-02T09:13:54.980168+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "75b07783a77da614fa118ffe4347e2d3a99c39f9cc11c78a300de21f9dbeabac",
+  "attempts_before_success": []
+}
