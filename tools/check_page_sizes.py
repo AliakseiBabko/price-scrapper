@@ -1,39 +1,41 @@
 #!/usr/bin/env python3
 """Guard this vault's wiki pages against growing out of control.
 
-Two jobs, and the difference between them matters:
+The rule this enforces is **approximate size plus structural integrity**, not a
+line count. A page of 310 lines whose structure is logical and whose sections
+belong together is fine. A page of 260 lines that is really twenty dated
+fragments is not. The checker is built around that ordering.
 
-  1. A HARD CEILING of 300 lines. Introduced 2026-09-02 at the owner's
-     instruction, after a vault-wide recalibration took twenty pages down
-     under it. A page at or over the ceiling is a BREACH, not a suggestion,
-     and this tool exits non-zero on one. The advisory exceptions file
-     CANNOT waive it - that is the whole point of a ceiling.
+Three signals, in descending order of how much they should worry you:
 
-  2. An advisory EARLY WARNING below the ceiling, so a page is caught while
-     it is still growing rather than after it has broken the rule. Detail
-     pages warn at 260 lines, or 220 with 12+ top-level (##) sections; guide
-     pages at 280, or 240 clustered. Warnings are advisory, do not affect
-     the exit code, and can be waived in the exceptions file.
+  1. FRAGMENTED - the integrity failure, and the one that actually matters.
+     12+ sections where at least half the headings name a processing batch
+     ("added 2026-08-24, Round 3") rather than a topic, at under 17 lines
+     each. The page is organised by when facts arrived, not by what they are
+     about. The fix is MERGING, never splitting. Advisory, because the fix
+     needs judgment about which sections belong together.
 
-  3. FRAGMENTED, the opposite failure: 12+ sections where at least half the
-     headings name a processing batch ("added 2026-08-24, Round 3") rather
-     than a topic, at under 17 lines each. The fix there is MERGING, not
-     splitting - splitting a fragmented page makes it strictly worse.
-     Advisory.
+  2. OVER BACKSTOP - 400+ lines. Not a style opinion: at this length a page
+     has almost certainly stopped being one topic, and every page this vault
+     has ever found at this size was in fact several. This is the only
+     condition that exits non-zero, and a reviewed exception CAN waive it if
+     the structure genuinely justifies the length.
 
-"12+ top-level sections" is a proxy for "many independent topic/decision
-clusters" - a heuristic, not a claim that heading count equals editorial
-judgment. A warned page still needs a human/agent decision on whether and
-how to split it. A BREACHED page does not: it has to come down.
+  3. OVER SOFT TARGET - past ~300 lines. Purely informational. **Being over
+     the soft target is not a defect.** It is a prompt to look at the page and
+     ask whether it still holds one coherent subject. If it does, leave it.
 
-Why the old thresholds are gone. Until 2026-09-02 this file carried four
-tiers - 400/260 detail, 500/350 guide - recalibrated upward on 2026-08-31
-because the values before them flagged correctly-split result pages. Under a
-300-line ceiling every one of those numbers is unreachable and therefore
-dead code, so they were replaced by the warning band above, which sits
-*below* the ceiling and is deliberately reachable. The 2026-08-31 lesson
-still holds and is why warnings stay advisory: a warning says "this page is
-approaching the ceiling", never "this page is wrong".
+Why it is shaped this way. The 300 figure was briefly a hard gate (2026-09-02,
+first pass) and that was wrong: it made "310 lines and perfectly coherent" fail
+in the same way "878 lines of twenty batches" failed, which tells an author
+nothing useful and pushes toward splitting pages that should not be split. The
+owner corrected it the same day. The number was never the point; the point is
+that nobody notices a page growing until someone looks.
+
+So: the soft target makes you look, the integrity test says whether anything is
+actually wrong, and the backstop catches the runaway case that motivated all of
+this - pages found at 878, 740 and 696 lines, none of which got there by a
+decision.
 
 Positive page selector (matches Workstream C's definition so the two stay
 consistent): only files directly under a numbered folder (NN_Name/) or
@@ -44,8 +46,8 @@ studies, change logs - is out of scope for this checker.
 Usage:
     python tools/check_page_sizes.py [--json] [--exceptions PATH] [--no-fail]
 
-Exit codes: 0 = no ceiling breach (warnings may still be printed),
-            2 = at least one page at or over the 300-line hard ceiling.
+Exit codes: 0 = nothing over the backstop (notes and warnings may still print),
+            2 = at least one page at or over the 400-line backstop.
 """
 from __future__ import annotations
 
@@ -58,15 +60,21 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 NUMBERED_FOLDER_RE = re.compile(r"^(?!00_)\d{2}_")  # excludes 00_Master (project docs, not wiki pages)
 
-# The hard ceiling. Set 2026-09-02 by the vault owner: "keep them under three
-# hundred". It is deliberately a single number for every page kind, because a
-# ceiling that needs a lookup table is not a ceiling. The exceptions file does
-# not apply to it.
-HARD_CEILING_LINES = 300
+# The soft target. Crossing it is INFORMATIONAL - it means "go and look at this
+# page", not "this page is wrong". Set by the vault owner 2026-09-02: pages
+# should be roughly this size, and "if its structure is logical and requires,
+# for example, 310 lines, that's okay - not a problem."
+SOFT_TARGET_LINES = 300
 
-# The advisory warning band, sitting below the ceiling so growth is caught on
-# the way up. A source-attributed prose section in this vault runs 20-60 lines,
-# so 260 gives a detail page roughly one more source before it breaches.
+# The backstop. This one fails the build. It is set far enough above the soft
+# target that reaching it is evidence of a real problem rather than of a page
+# being slightly long: every page this vault has found at 400+ lines turned out
+# to be several topics sharing a file. Unlike the short-lived hard ceiling it
+# replaces, a reviewed exception CAN waive it - see page_size_exceptions.json.
+BACKSTOP_LINES = 400
+
+# Advisory band for pages growing toward the soft target, so growth is visible
+# early. A source-attributed prose section in this vault runs 20-60 lines.
 DETAIL_WARN_LINES = 260
 DETAIL_WARN_LINES_CLUSTERED = 220
 GUIDE_WARN_LINES = 280
@@ -169,26 +177,26 @@ def check_page(entry: dict, exceptions: dict) -> dict | None:
     sections = count_top_level_sections(text)
     clustered = sections >= CLUSTER_THRESHOLD
 
-    # The ceiling is checked BEFORE the exceptions file, on purpose. A reviewed
-    # exception can say "this page does not need splitting yet"; it cannot say
-    # "this page may exceed the ceiling".
-    if line_count >= HARD_CEILING_LINES:
+    # The backstop is checked first, but unlike the hard ceiling it replaces it
+    # is waivable: the exceptions-file lookup below still applies to it.
+    if line_count >= BACKSTOP_LINES and rel_path not in exceptions:
         return {
             "path": rel_path,
             "kind": kind,
-            "severity": "BREACH",
+            "severity": "BACKSTOP",
             "line_count": line_count,
             "top_level_sections": sections,
             "clustered": clustered,
             "fragmented": False,
-            "threshold_used": HARD_CEILING_LINES,
-            "waivable": False,
+            "threshold_used": BACKSTOP_LINES,
+            "waivable": True,
             "reason": (
-                f"CEILING BREACH: {line_count} lines, at or over the "
-                f"{HARD_CEILING_LINES}-line hard ceiling. This is not advisory and "
-                f"cannot be waived in the exceptions file. Split it with "
-                f"`python tools/split_page.py analyse {rel_path}`, or - if the page "
-                f"has many small dated sections - MERGE them first."
+                f"OVER BACKSTOP: {line_count} lines, at or over {BACKSTOP_LINES}. "
+                f"At this length a page has almost certainly stopped being one "
+                f"topic. Run `python tools/split_page.py analyse {rel_path}` - if "
+                f"it reports FRAGMENTED, MERGE first, then extract. If the "
+                f"structure genuinely justifies the length, add a reviewed entry "
+                f"to tools/page_size_exceptions.json saying why."
             ),
         }
 
@@ -210,6 +218,25 @@ def check_page(entry: dict, exceptions: dict) -> dict | None:
     )
 
     if line_count < threshold and not fragmented:
+        if line_count >= SOFT_TARGET_LINES:
+            return {
+                "path": rel_path,
+                "kind": kind,
+                "severity": "NOTE",
+                "line_count": line_count,
+                "top_level_sections": sections,
+                "clustered": clustered,
+                "fragmented": False,
+                "dated_headings": count_dated_headings(text),
+                "threshold_used": SOFT_TARGET_LINES,
+                "waivable": True,
+                "reason": (
+                    f"over the ~{SOFT_TARGET_LINES}-line soft target at {line_count} "
+                    f"lines, across {sections} topic-shaped sections. **This is not a "
+                    f"defect.** Worth a look to confirm the page still holds one "
+                    f"coherent subject; if it does, leave it alone."
+                ),
+            }
         return None
 
     if fragmented:
@@ -225,10 +252,10 @@ def check_page(entry: dict, exceptions: dict) -> dict | None:
         )
     else:
         reason = (
-            f"approaching the {HARD_CEILING_LINES}-line ceiling: {kind} page at "
+            f"approaching the ~{SOFT_TARGET_LINES}-line soft target: {kind} page at "
             f"{line_count} lines >= {threshold}-line warning threshold "
             f"({'clustered: ' + str(sections) + ' top-level sections' if clustered else 'base threshold, no cluster signal'}). "
-            f"Advisory - plan the split now rather than after it breaches."
+            f"Advisory - a good moment to check the page still holds one subject."
         )
 
     return {
@@ -259,7 +286,7 @@ def main() -> int:
     parser.add_argument(
         "--no-fail",
         action="store_true",
-        help="report ceiling breaches but still exit 0 (for read-only inventory runs)",
+        help="report backstop hits but still exit 0 (for read-only inventory runs)",
     )
     args = parser.parse_args()
 
@@ -271,46 +298,66 @@ def main() -> int:
         if (result := check_page(entry, exceptions)) is not None
     ]
 
-    breaches = [r for r in flagged if r["severity"] == "BREACH"]
+    over = [r for r in flagged if r["severity"] == "BACKSTOP"]
     warnings = [r for r in flagged if r["severity"] == "WARN"]
+    notes = [r for r in flagged if r["severity"] == "NOTE"]
+    fragmented = [r for r in warnings if r.get("fragmented")]
 
     if args.json:
         print(json.dumps(
             {
                 "pages_scanned": len(pages),
-                "hard_ceiling_lines": HARD_CEILING_LINES,
+                "soft_target_lines": SOFT_TARGET_LINES,
+                "backstop_lines": BACKSTOP_LINES,
                 "exceptions_applied": len(exceptions),
-                "breach_count": len(breaches),
+                "over_backstop_count": len(over),
+                "fragmented_count": len(fragmented),
                 "warning_count": len(warnings),
-                "flagged_count": len(flagged),
+                "note_count": len(notes),
                 "flagged": flagged,
             },
             indent=2,
             ensure_ascii=False,
         ))
     else:
-        print(f"Scanned {len(pages)} pages against a {HARD_CEILING_LINES}-line hard ceiling "
-              f"({len(exceptions)} advisory exceptions on file).")
-        if breaches:
+        print(f"Scanned {len(pages)} pages: soft target ~{SOFT_TARGET_LINES} lines, "
+              f"backstop {BACKSTOP_LINES} ({len(exceptions)} reviewed exceptions).")
+        if over:
             print("")
-            print(f"{len(breaches)} CEILING BREACH(ES) - these must be split:")
+            print(f"{len(over)} page(s) OVER THE BACKSTOP:")
             print("")
-            for r in breaches:
+            for r in over:
                 print(f"  {r['path']}  ({r['line_count']} lines)")
                 print(f"    {r['reason']}")
-        if warnings:
+        if fragmented:
             print("")
-            print(f"{len(warnings)} advisory warning(s):")
+            print(f"{len(fragmented)} FRAGMENTED page(s) - merge, do not split:")
             print("")
-            for r in warnings:
+            for r in fragmented:
                 print(f"  {r['path']}")
                 print(f"    {r['reason']}")
+        other = [r for r in warnings if not r.get("fragmented")]
+        if other:
+            print("")
+            print(f"{len(other)} page(s) growing toward the soft target:")
+            print("")
+            for r in other:
+                print(f"  {r['path']}  ({r['line_count']} lines)")
+        if notes:
+            print("")
+            print(f"{len(notes)} page(s) over the ~{SOFT_TARGET_LINES}-line soft target "
+                  f"- informational, not defects:")
+            print("")
+            for r in notes:
+                print(f"  {r['path']}  ({r['line_count']} lines, "
+                      f"{r['top_level_sections']} sections)")
         if not flagged:
-            print("No pages flagged.")
-        elif not breaches:
-            print(chr(10) + "No page is over the ceiling.")
+            print("Nothing flagged.")
+        elif not over:
+            print("")
+            print("Nothing over the backstop.")
 
-    if breaches and not args.no_fail:
+    if over and not args.no_fail:
         return 2
     return 0
 
