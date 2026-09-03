@@ -52,7 +52,10 @@ project_relevance: highest_in_vault
 | **Corridor / hall** | **long corridor serving every room** | **прихожая 9.79 m²** |
 | **Balcony** | cold balcony off the living zone, sliding glazing, river view | **лоджия 6.05 m²** (4.24 counted) — **different position** |
 | **Immovable constraints** | **a load-bearing column that could not be removed** | **two вентблоки** (туалет 1140×490, three channels; a second between kitchen and laundry/hall) + **risers in the wet zone** |
-| **Replanning done** | **⚠️⚠️ ONE MOVE ONLY: narrow the corridor to widen the children's room** | *open — the same trade is available: 9.79 m² hall against a 9.36 m² kids' room* |
+| **Replanning done** | **⚠️⚠️ ONE MOVE ONLY: narrow the corridor to widen the children's room** | *⚠️ the figures in this row are the DEVELOPER plan's — see the correction note below* |
+
+> [!WARNING]
+> **⚠️ CORRECTION ADDED 2026-09-04, and the error was mine, not the source's.** This table compares the case against the **developer** plan only. **The owner's own design (`v1-homestyler`) already reassigns the rooms** — the children get the middle room at **15.28 m²**, circulation is already down to **8.32 m²**, and a **1.90 m²** laundry has been taken out of it. **So “the same trade is open” was wrong: it is partly spent, and what `v1` does is swap room FUNCTIONS rather than resize rooms.** The comparison that survives is in `00_Master/Layout_Option_Review.md`. Nothing about the SOURCE's own content changes.
 
 **⚠️ Differences the owner named, and they matter for how the source transfers:** the loggia sits differently; the video's flat has a second full sanitary room where this project has a separate WC; and **its combined kitchen-living is smaller than this project's would be**, so anything he achieves in that zone is achievable here with room to spare.
 

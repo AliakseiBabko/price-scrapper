@@ -21,7 +21,7 @@ Decisions taken about **this apartment and this project**, with dates, plus the 
 - **Tolerance: treat every model dimension as nominal ±25 mm**, and never design a fit needing less than ~30 mm of slack. The building is unfinished and nothing is field-verified; three as-built comparables give wall-to-wall spreads of 0–50 mm, median 20 mm.
 - **Source roles**: the developer detailed plan is the base case (v0). The owner's Homestyler design is a **variant, not the existing state**. Partitions are drawn 75 mm on the developer plan.
 
-Data: `data/canonical/room_schedules.json`, `data/canonical/dimension_tolerance.json`. Narrative: `00_Master/Apartment_Geometry_Sources.md`. **Full detail is in `.agents/skills/apartment-layout-modelling/SKILL.md` — read that before quoting any dimension or proposing a layout; do not re-derive from the plan images.**
+Data: `data/canonical/room_schedules.json`, `data/canonical/dimension_tolerance.json`. Narrative: `00_Master/Apartment_Geometry_Sources.md`. **Option review — what `v1` actually changes against `v0`, what it costs, and the two measurements the layout decision is blocked on: `00_Master/Layout_Option_Review.md`.** **Full detail is in `.agents/skills/apartment-layout-modelling/SKILL.md` — read that before quoting any dimension or proposing a layout; do not re-derive from the plan images.**
 
 ## Scope decisions
 
@@ -73,6 +73,10 @@ Real, scoped work that is **not** done. None of these are trivial.
 | **Numeric Data entries predating the location+year rule.** Many entries don't pair year and location at the individual-entry level. A real audit, not a sweep. | Open since 2026-08-10 |
 | **USD backfill.** 233 of 338 price-bearing units still lack a USD equivalent. | Tracked in `_Knowledge/store/USD_Backfill_Inventory.md` |
 | **Page-splitting backlog.** 20 oversized pages plus one fragmented. | Tracked in `_Inbox/planning/page_splitting_backlog_20260831.md` |
+| **⚠️⚠️ `v0` HAS NO GEOMETRY, so no layout trade can be measured.** Its room schedule and dimensions are known; its partition positions exist only on the plan image. **Cheapest fix, per the layout skill: export the ORIGINAL layout from Homestyler as a second DXF, the way the redesign was exported.** Until then there are two room schedules and no baseline. | **Open, and it BLOCKS layout selection** — raised 2026-09-04 |
+| **⚠️⚠️ The SECOND вентблок is unmeasured.** Recorded only as «между зоной кухни и зоной постирочной/прихожей» on the owner’s account. **It sits where the corridor-to-kids-room trade would go.** Find it on `fllor_plan_detailed.jpeg` by zooming, as the туалет block (1140 × 490, three channels) was found. | **Open, and it BLOCKS the corridor trade** — raised 2026-09-04 |
+| **⚠️ Which layout gets built is not decided, and no option is marked `selected`.** `v0-existing` is `baseline`, `v1-homestyler` is `owner_first_approximation`. The pipeline order names “choose the best layout” as a step; nothing had recorded it as an open decision. **Review and the two blockers: `00_Master/Layout_Option_Review.md`.** | Open since 2026-09-04 |
+| **The bunk-bed and themed-mural questions are informed but not answered.** Both turn on facts now established (15.28 m² permits two separate beds; the shared room ends at Phase 2, ~3–4 years out). **The owner’s position is what closes them** — he has said he rejects some of the case study’s decisions without naming which. | Open since 2026-09-04 |
 
 ## Conventions recorded elsewhere
 

@@ -26,7 +26,7 @@
     "applies_to": {
       "type": "array",
       "items": {
-        "enum": ["corridor", "hallway", "entrance", "door_opening", "wall", "switchboard", "wardrobe", "bathroom", "wc", "kitchen", "bedroom", "kids", "living", "duct", "riser", "acoustics", "storage", "ceiling"]
+        "enum": ["corridor", "hallway", "entrance", "door_opening", "wall", "switchboard", "wardrobe", "bathroom", "wc", "kitchen", "bedroom", "kids", "living", "laundry", "duct", "riser", "acoustics", "storage", "ceiling"]
       }
     },
     "params": {
