@@ -13,112 +13,6 @@ Build the budget from the physical space, not from guesswork:
 6. **Buffer** — add 10–15% to the total.
 7. **Verify and optimize** *before* demolition (e.g. laminate over parquet), not after.
 
-## 2. Main Cost Categories
-
-### 2.0 Turnkey vs. self-managed — know which one a figure describes
-
-Two different delivery models produce genuinely different $/m² prices for
-*comparable underlying work*, and mixing them up makes a turnkey
-company's price look like "the" market rate when it actually bakes in
-overhead a self-managed budget doesn't pay for:
-
-- **Turnkey / full-service** — one company bundles design, project [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
-  management, and construction/furnishing into one price. Higher $/m²
-  by design: you're paying for a manager/professional to run quality
-  control and coordination, on top of the physical work.
-- **Self-managed / itemized** — you hire specialists per trade yourself [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
-  and source materials directly, pricing off average per-work-item
-  market rates. Lower total cost, but the project-management burden
-  (scheduling, QC, coordinating trades) falls on you.
-
-**This project's plan is self-managed.** Both headline Minsk benchmarks [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
-below are **turnkey** figures — useful as an upper-bound/sanity-check
-reference, not as what a self-managed approach should cost. Three more
-directly comparable self-managed references exist: the **labor-only rate
-card** in [[11_Budget_and_Planning/case_studies/price_table_screenshot_case|Price Table Screenshot Case]]
-(explicitly *average market rate*, per work item, materials priced
-separately, no company-management overhead bundled in); a **fuller
-end-to-end real project** in [[11_Budget_and_Planning/case_studies/yana_vrublevskaya_minsk_mir_studio_2023_case|Yana Vrublevskaya Studio Case]]
-(2023, Minsk Mir — region level 2 only, not spoken — self-managed rough
-works *and* full finish/fixture/appliance/furniture spend for one real
-studio, arithmetic-checked; it also overshot its own $10,000 target by
-~30%, worth keeping in mind against this guide's 10–15% buffer figure
-below); and a **real, complete, level-1-confirmed-Belarus DIY project** in
-[[11_Budget_and_Planning/case_studies/sidorik_khrushchevka_finale_31m2_2020_case|Sidorik Khrushchevka Finale Case]]
-(2020, 31.2 m², ≈$492–507/m² `arithmetic-exact` — the only self-managed reference in this
-store with both a directly-spoken Belarus confirmation *and* a computable
-$/m² figure, though its labor cost is the practitioner's own DIY time,
-not a hired-specialist market rate, so it likely understates a
-comparable hired-labor self-managed cost).
-
-- **Rough materials** (~30% of material spend): screed, plaster, wires, pipes, blocks. [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
-- **Finishing materials** (~70%): tiles, parquet, paint, fixtures, furniture. [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
-- **Contractor labor**: typically 30–35% of total end-to-end spend; the remaining 65–70% is materials, doors, ceilings, HVAC, and millwork. [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
-- **Hidden/logistical costs** (commonly 10–15% of the whole budget, often forgotten): garbage removal, delivery/lifting of heavy materials, consumables, and doors/stretch ceilings excluded from base "per m²" labor quotes. [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
-
-Two primary Minsk **turnkey** benchmarks exist: a real $54,000 / $900-per-m² 60 m² project (2025, [[11_Budget_and_Planning/case_studies/minsk_world_60m2_design_cost_case|Minsk World Case Study]]) and a real $70,000 / $1,346-per-m² 52 m² project (2026, [[11_Budget_and_Planning/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya Case Study]]). Both are individually above-typical *turnkey* projects by their own sources' framing — **don't average them into one "Minsk $/m²" figure**, and don't treat either as a self-managed budget target. One Minsk contractor's own stated 2026 market guidance (single-source, not independently verified, also turnkey-framed): ~$1,000/m² typical, $700–800/m² achievable with a simplified/budget approach.
-
-### 2.0a Price-per-m² as a budgeting shorthand (Игорь Краснов, added 2026-09-01)
-
-**⚠️ A turnkey studio owner's own stated caution, worth reading alongside — and as a corroboration of — this guide's §2.1 below**: price-per-square-meter says nothing about what's actually included (finish tier, engineering complexity, furniture, lighting design), so two quotes at the same nominal RUB/m² figure can describe completely different scopes. Recorded as his opinion (and, notably, in his own commercial interest to make, since it argues for a bundled/managed quote over a bare rate comparison rather than for this project's own self-managed itemized approach) — but the underlying caution, that a bare price/m² figure needs its scope specified before it's usable for comparison, is sound and consistent with this guide's own delivery-model distinction above. `single-account`, `unverified`. [source: [[_Sources/YT_Z29a16kpLVc_krasnov_interior_wont_work|Z29a16kpLVc]]]
-
-### 2.1 "$/m² alone is nearly meaningless" — quality tiers exist for a reason
-
-One practitioner's framing, worth internalizing regardless of delivery model: **the same visual result can vary 2–10× in real cost** depending on material/build quality, decision complexity, and specification level — a bare "price per m²" figure without knowing which of those a source assumes tells you very little. Two distinct concepts often get conflated:
-
-- **Durability vs. quality** — a budget and an expensive version of the same material (e.g. tile in a wet zone) can be equally *durable* (both hold up functionally over time), while differing sharply in *quality* (geometry, flatness, dimensional consistency) — and it's quality, not durability, that determines whether the material can even be installed flat and even in the first place. [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
-- **A rough sense of where quality tiers sit** (one RUB-denominated, self-service-scoped, secondary-reference source; not independently verified as market-wide, and far above this project's own self-managed plan — included for calibration, not as a target): mid-tier turnkey realization roughly 200,000+ RUB/m², rising well past 1,000,000+ RUB/m² at the luxury end with no real ceiling. *(secondary reference, single-source — see intermediate store and [[11_Budget_and_Planning/case_studies/buro_segment_pricing_2026_case|companion case study]] for the full category-by-category breakdown)* [source: [[11_Budget_and_Planning/case_studies/buro_segment_pricing_2026_case|buro_segment_pricing_202]]]
-
-### 2.2 What Actually Belongs in the "Rough Materials" Line (Kruglov/Ontario, added 2026-08-28)
-
-A first explicit definition of this category from a source in this
-store, based on the channel's own stated 60-object internal analysis —
-worth checking any competing quote against, since divergent totals
-often reflect a scope-definition difference, not honest price
-competition:
-
-- **"Rough material"** = anything that stays in the apartment but
-  becomes invisible once finish work covers it: electrical cable,
-  water/heating/sewage pipe, manifold nodes, filters, electrical
-  breakers, plus the raw block/plaster/tile-adhesive/primer/putty
-  materials themselves. **"Consumables"** is a separate sub-line:
-  buckets, rollers/trays, spatulas, core drill bits, cutting discs,
-  gloves, trash bags, respirators. **Professional tools are excluded
-  from both** — billing tool cost to the client is a red flag.
-- **Several less-obvious real cost lines belong in this category too**:
-  temporary toilet/lighting/water-supply for a new-build unit (client
-  always pays for the equipment; install labor is sometimes bundled
-  free, sometimes billed separately — ask which); delivery/lifting of
-  materials; debris removal, which scales sharply with floor level and
-  elevator access (worked example: a 5th-floor walk-up secondary
-  apartment can need ~15-20 separate container loads — legally,
-  construction debris needs specialized disposal, though a small
-  residual quantity is commonly handled informally via local building
-  janitors); common-area protection/cleanup during deliveries; and, for
-  secondary-market apartments specifically, management-company plumbing
-  work (riser welding, or a pressure-test/compliance certificate when
-  converting series-connected radiators to a parallel/manifold feed).
-- **⚠️ Headline benchmark, from the source's own 60-object analysis**:
-  rough materials + consumables + all the lines above should be budgeted
-  at **≈50-60% of the labor-only smeta total** (worked examples: a
-  1,000,000 RUB ≈$11,100 labor smeta implies ≈500,000-600,000 RUB
-  ≈$5,600-$6,700 for this category; 2,000,000 RUB ≈$22,200 implies
-  ≈1,000,000-1,200,000 RUB ≈$11,100-$13,300). **A competing quote for
-  "rough materials" at a fraction of this (e.g. 150,000-200,000 RUB
-  ≈$1,700-$2,200) isn't necessarily a bargain or a scam on its own** —
-  first confirm what that company's own definition of "rough material"
-  includes before comparing totals, since the same scope-equalization
-  principle already applies to this guide's per-m² and segment-matching
-  benchmarks above. Converted at the trailing-6-month USD/RUB mean
-  before 2024-10-11 (90.0715 RUB/USD). [source: [[_Sources/YT_hfJa_QNaN6c_kruglov_consumables_25_percent_budget|hfJa_QNaN6c]]]
-- Apartment/renovation insurance is optional and genuinely tricky —
-  confirm what's actually insured and understand that an insurer needs
-  an identifiable at-fault party before paying (e.g. a contractor
-  leaving a valve open doesn't automatically make the insurer pay the
-  client directly; it may instead pay then separately pursue the
-  at-fault party). Preventing damage directly is simpler than relying on
-  a post-hoc insurance claim. [source: [[_Sources/YT_hfJa_QNaN6c_kruglov_consumables_25_percent_budget|hfJa_QNaN6c]]]
-
 ## 3. What Drives Cost
 
 - **Timeline pressure** — compressing the schedule (e.g. "turnkey in 3 months") forces premium/weekend-work pricing. See [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] for the high-level sequencing logic and why order matters, and [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration & Scheduling]] (added 2026-08-25) for a full realistic-duration breakdown — three independent turnkey companies converge on 6-9 months as the real floor for a design-project renovation, with the underlying material-curing-time mechanism explained in detail.
@@ -172,7 +66,7 @@ rate ranges, rough-stage cases, a full itemised bathroom smeta, and the
 budget-as-percent-of-purchase-price heuristic) were accumulating here as subsections. **They now
 live on [[11_Budget_and_Planning/analysis/Cost_Benchmarks_Live_Intake|Cost Benchmarks — Live Intake Ledger]]**,
 where each keeps its own date, currency, region and delivery model. Use them only after settling
-the delivery-model and price-per-m² questions in §2 above.
+the delivery-model and price-per-m² questions on [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories and Delivery Models]].
 ### Tracking Expenses (added 2026-08-19)
 
 **Track expenses through a dedicated running spreadsheet from day one, not retroactively from a pile of receipts.** Five methods exist, ranked worst to best: doing nothing and reconstructing from memory (worst — loses most information); collecting receipts and tallying at the end (misses every cash/no-receipt payment — informal demolition labor, movers, market deliveries — and can't answer "how much so far" mid-project); delegating tracking to the crew/contractor (risky — a direct incentive to pad receipts, and it degrades back into the receipt-pile method at reporting time anyway); a fixed-price rough-materials arrangement with the contractor (creates an incentive for them to buy cheaper materials and pocket the difference — only safe with a highly trusted company backing a long warranty); and a dedicated spreadsheet system, tracked live. **A spreadsheet built around 4 blocks works well**: Primary Expenses (rough/finish materials, electrical, plumbing, windows, doors), Secondary Expenses (appliances, furniture, lighting, accessories — deferrable up to a year post-move-in), Works (contracted total / paid-to-date / remaining), and Balance (cash handed over vs. spent vs. still on hand) — plus a dedicated Payments log where **every payment is tied to a memorable event** ("handed over 200,000 RUB when we came to inspect the tub install") for later dispute-prevention, and an Overrun sheet isolating the exact price delta whenever a planned item gets swapped for a pricier one (e.g. laminate → parquet), so budget overruns are traceable to specific decisions instead of a vague "we're over somewhere" feeling. `single-account`, `unverified` methodology, but a directly actionable practice for this project's own self-managed model. *(secondary reference — see intermediate store)* [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
@@ -216,122 +110,6 @@ Tactical moves for trimming budget without cutting quality (compressed from 13 s
 - **Tiled-niche shower shelving vs. glass shelving, a concrete cost comparison, per Kruglov/Ontario (added 2026-08-28)**: recessed shelf niches lined in tile (cutting/finishing tile edges per opening) cost roughly ≈10,000 RUB (≈$110) per shelf — 5 shelves this way total ≈50,000 RUB (≈$560) — versus a single larger tiled niche fitted with several built-in tempered-glass shelves at a meaningfully lower total (the video's own exact glass-alternative total is ASR-garbled, not extracted precisely). The glass used is tempered/safety glass, comparable to automotive windshield glass — won't cut on breakage. [source: [[_Sources/YT_KNY-XfgbGog_kruglov_top8_save_money_tips|KNY-XfgbGog]]]
 - **⚠️ Three material-procurement rules, per Kruglov/Ontario (added 2026-08-28)**, directly protective of a self-managed budget: (1) approve rough-material volumes/types before purchase — material shouldn't be delivered to site until the client has signed off on the proposed list and quantity; (2) keep material cost as a separate, distinctly-tracked line from the labor contract sum, never bundled into one fixed total — bundling removes the client's ability to independently source or substitute materials, and a pre-quoted bundled quantity (e.g. "100 bags at 400 RUB each") typically carries enough built-in price buffer to protect the seller's margin months later, while still billing the client by actual quantity used; (3) agree on an explicit reference retail-price benchmark up front (e.g. a named big-box chain) — if delivered pricing lands more than ~15-20% above that benchmark, the company isn't honoring the agreement and self-purchasing directly is a reasonable response. [source: [[_Sources/YT_hfJa_QNaN6c_kruglov_consumables_25_percent_budget|hfJa_QNaN6c]]]
 
-## 5a. Where the Money Actually Goes — A Bill-of-Quantities Breakdown (Мария Шеврина / SMBUREAU, added 2026-08-30)
-
-An unusually concrete cost-structure analysis, built from the actual bills of quantities on her studio's own projects rather than from generic saving advice — she describes herself as being "душнилой с цифрами и табличками."
-
-**Case basis**: a **90 m² minimalist apartment, full turnkey** including deliveries, hoisting and installation, deliberately chosen because it is "полный фарш" — engineered board, porcelain, paint, microcement, shadow-gap junctions, plasterboard ceilings with tracks and spots, concealed sanitaryware. She states up front that **a minimalist renovation is the most expensive kind**, which frames everything below.
-
-### The structure
-
-- **⚠️ Contractor labour + rough materials = 24.5% of the total budget** — the largest single slice, and **she states this share repeats from project to project.** The most transferable figure in the source.
-- **⚠️ Shopping for a cheaper crew does not reduce it.** Crew rates barely differ between crews: "стоимость в данной категории уменьшается не за счёт выбора просто другой бригады, а за счёт выбора других работ." **The lever is the scope of work, not the vendor** — which is the organising insight of the whole analysis.
-- **Inside the crew's estimate, descending**: rough finishing → finishing → electrical → plumbing → demolition. **Electrical is not worth attacking** — cable runs, chasing and back-boxes are each individually necessary and the category's weight is modest.
-- **Inside rough works, descending**: walls → ceilings → floors → **reveals, the smallest contributor of all.** Direct consequence: **plastic reveals are a pointless economy.**
-- **⚠️ Plasterboard partitions cost about 2.5× more than foam-block** for essentially equal volume.
-- **⚠️ Preparing walls for painting is a very large line — large enough to invert an intuition.** Wallpaper remains genuinely budget (she notes she dislikes it: short-lived, bad over wall cracks, unrestorable). **And on one real project where they were economising, cladding a wall in 120×60 porcelain to the ceiling came out cheaper in labour than preparing that wall for paint.**
-- **Joinery is the second-largest category overall**, even with ~80% of cabinets costed in chipboard. **She states plainly that it essentially cannot be reduced** if already in the cheapest material — the only levers are deferring purchases, or planning from the outset around ready-made units and building partitions and dropped ceilings to suit them.
-- **Third: finishing materials** — and within it, **the paint brand barely matters** (San Marco vs. Sherwin-Williams), because paint is a small share and labour dominates. If you must cut, switch to wallpaper rather than to cheaper paint.
-- **Large-format ceramic slabs are expensive mainly in labour**: on this project, 1×3 m slabs covered about half the area of the porcelain at roughly double the price, and the same inversion appears in the materials line.
-
-### A worked figure
-
-**Concealed / shadow-gap plinth on the 90 m² project: profiles 44,000 RUB (≈$690) + installation 72,000 RUB (≈$1,100) = ~116,000 RUB (≈$1,800).** She presents it deliberately and leaves the judgement to the viewer, noting it is small relative to the whole estimate.
-
-*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before the 2023-02-20 publish date (2022-08-20..2023-02-18, 125 samples, 63.8687 RUB/USD).* **Year confirmed (2023); location unresolved at level 1** — RUB pricing implies the Russian market but no city is named in the source, so per this project's standing rule the absolute figure is not directly comparable to its Belarus benchmarks. **The proportions above travel much better than this number.**
-
-### ⚠️ Her two lists — and they are the practical output
-
-**Real economy** (moves the budget materially):
-
-- Don't use plasterboard ceilings — **plaster the existing slab** and use surface-mounted fixtures, which she argues is both cheaper and aesthetically preferable.
-- Don't paint walls — wallpaper, or porcelain.
-- Don't use large-format above 120×60.
-- Don't use glued floor coverings — laminate or floating quartz-vinyl saves in both goods and labour.
-- Design caveat: **if the porcelain is a stone imitation, don't drop below ~120×45** — small stone-look formats look bad, so this economy only applies to non-stone designs.
-
-**Useless economy** (doesn't move the budget, but makes the result worse):
-
-- Plastic reveals instead of proper ones.
-- Giving up concealed doors — take them standard-height and paint-ready instead. **Concealed doors no longer cost more than ordinary ones.**
-- Cheap socket and switch finishes — the contribution is negligible, so buy the finish you want. (Her opening example: trading Schneider Merten for Atlas Design saves very little.)
-- Avoiding concealed mixers — **the labour to install one is not much more than surface-mounted**, measured against the cost of running the services, and budget concealed models exist.
-- Avoiding large mirrors — plain floor-to-ceiling mirrors are cheap relative to their effect.
-- Also negligible: **curtain making**, even at fabric category 5 and above.
-
-**On lighting specifically**: cutting spot count or LED strip runs saves very little; **track lighting is the heavy line.** On a plastered ceiling, **surface-mounted non-magnetic tracks** cut the budget substantially while keeping tracks.
-
-`single-account`, `unverified`, 2023 data, one studio, one project, self-reported. **The 24.5% figure is the only one she explicitly generalises across projects**; the rest come from this single case. Relative proportions age better than absolute figures, but even proportions shift as material prices move. [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
-
-## 5b. Two Procurement Traps That Change the Budget (Мария Шеврина / SMBUREAU, added 2026-08-30)
-
-### Large ceramic slabs: the delivery you didn't budget for
-
-**⚠️ A 3 m ceramic slab does not fit in a lift and has to be carried up the stairs by hand — she puts that at 30,000–50,000 RUB (≈$330–$550)**, on top of a delivery that already costs more because the truck and the loading are a different class of job from panels under a metre.
-
-**⚠️ The mitigation is specific and cheap: have the slab cut down at the factory before delivery**, into pieces of about a metre, and **align the cuts to real lines in the design** — where cabinet-front divisions fall, where the mirror begins, where the basin or WC installation ends — so the joints read as deliberate rather than as random seams. You keep the wide-format look and drop both the hand-carry and the oversize delivery.
-
-*(5b: `USD/RUB` trailing 6-month arithmetic mean before the 2024-05-09 publish date, 91.0617 RUB/USD; rounded to the nearest 10. **Region unresolved at level 1** — the standard comparability caveat applies to the figure; the *mechanism*, that lift dimensions force a hand-carry, transfers anywhere.)*
-
-[source: [[_Sources/YT_haM4H-b-bZM_shevrina_bathroom_tile_selection|YT_haM4H-b-bZM]]]
-
-### Your fabricator's capabilities are a design constraint
-
-**⚠️ On a real project this killed a specified material outright.** The client insisted on a particular joinery shop — another city, a personal connection, a large discount, and genuinely good service — that **does not work with ceramic.** Ceramic was consequently dropped from both the island and the cabinet fronts, and the design reworked toward metal or microcement fronts instead.
-
-**Her stated market pattern: finding a ceramic-capable joinery shop is easy in Moscow and hard elsewhere.** She has clients in other cities who canvassed local shops and got refusals.
-
-**Actionable: confirm the fabricator can actually execute the specified material before specifying it** — and treat "the client wants to use their own contractor" as a design input, not just a commercial one.
-
-### Material availability risk scales with how common the decor is
-
-- **Popular decors — concrete-look, microcement-look, marble-look — have many producers.** "Даже если половина производителей уедут из России, у вас всё ещё останется половина." Low substitution risk.
-- **⚠️ A rare decor such as onyx has no substitute.** If it runs out, "пиши пропала, придётся вообще другой дизайн придумывать." **Mitigation for anything rare: track stock levels, and reserve, buy out and warehouse it in advance.**
-- Worked instance: a supplier stopped shipping in early 2022 while they needed bathroom tile immediately; they substituted another manufacturer. One bathroom ended up near-identical to the render, the other didn't.
-
-**⚠️ And the reason this belongs in a budgeting guide rather than a design one: up to about a year and a half can pass between the design project and joinery realisation**, which is long enough for specified materials to sell out or be discontinued. Budget and programme should assume some substitution rather than treating the specification as fixed.
-
-`single-account`, `unverified`, 2023–2024, region unresolved. [source: [[_Sources/YT_KI2GvB0jzHs_shevrina_podcast01_kitchen_material_procurement|YT_KI2GvB0jzHs]]]
-
-## 5c. Two Rules About Where the Money Should Go (Мария Шеврина / SMBUREAU, added 2026-08-31)
-
-### ⚠️ Finishes before furniture — an irreversibility-ranked priority
-
-**"Если у вас нет нескольких десятков миллионов рублей на ремонт, то лучше потратьтесь на отделку… лучше не докупить диванчик, не закупить пока что кровать, а вложиться в качественную отделку."**
-
-**Her reasoning is reversibility, not taste: furniture can be bought at any later date; finishes cannot easily be stripped out and redone.** A clean statement of a heuristic this guide implies in places but has not stated directly.
-
-**A real marker of where she draws the line under budget pressure**: on a small rental flat where they deliberately economised, they used **porcelain at about 1,000 RUB/m² (≈$10/m²)** and laminate — **but still refused both a stretch ceiling and wallpaper**, plastering the structural slab instead. *(5b: `USD/RUB` trailing 6-month mean before 2023-07-09, 77.9178 RUB/USD. **The rounding bucket is coarse at this magnitude — use the raw 1,000 RUB/m².** Region unresolved at level 1.)*
-
-[source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
-
-### ⚠️ How Designers Defraud Clients — and the Questions That Prevent It
-
-The first source in this vault aimed at helping a client evaluate a *designer* rather than at design technique. **Weigh it knowing a designer describing other designers' misconduct has an interest** — though she implicates her own past practice on one point, and the questions she proposes cost nothing to ask.
-
-**Scheme 1 — invoice padding, which she calls fraud.** A product has an open retail price. The designer asks the supplier to **add their own percentage to the invoice issued to the client** — she puts it at **15–20%, with the size depending "лишь от наглости дизайнера."** Supplier and designer issue the inflated invoice together; the client pays; the designer collects the padding. She states such a designer can be sued and refers to recent large Russian court cases. *(Russian legal context — deliberately not routed to `16_Legal_and_Regulations/`.)*
-
-> **⚠️ The client-side defence, and the single most actionable line: never work with a designer on a scheme where you hand them money and they make all purchases and payments through themselves. Payment should go from the client directly to the shop** — "у каждого своя зона ответственности."
-
-**Scheme 2 — concealed discount split, not fraud but concealment.** Designers receive trade discounts. The client sees an invoice below retail and feels well served — **but the discount passed on is 5% or 10% while the designer keeps the rest.** Discovery is the failure mode: another showroom offers 15%, or a manager mentions that "ваш дизайнер забрал 20%, вам оставил 5, а скидка могла быть 25%." **Her point is that the damage is relational** — clients are generally willing to pay a designer properly, and what destroys the relationship is the concealment.
-
-**⚠️ The three questions to ask at the first meetings:**
-
-1. **How will discounts be distributed — who takes how much, and how much reaches me?**
-2. **What exactly is the payment scheme for design services and for procurement (комплектация)?** A competent designer will give a clear answer.
-3. **Is it written into the contract?** — see [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]].
-
-Her own preferred arrangement, stated to designers: **charge a proper fee, or a fixed monthly amount, so the incentive doesn't exist.**
-
-**⚠️ Two competence markers for choosing a designer**, from the same source:
-
-- **A designer who publicly recommends specific paint article numbers as universally good is displaying incompetence** — it means they painted exactly one object that colour and generalised. **She includes her own past self.** See [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]].
-- **A designer should decline a project whose budget they cannot work with**, rather than render unobtainable furniture and substitute downward during realisation — which she calls "плохой тон, если даже не обман." Her remedy for designers who can't yet estimate: **keep a running priced spreadsheet of everything used in the visualisation.**
-
-**She is careful to separate malpractice from legitimate divergence**: a client-chosen fabricator who can't execute the specified material, post-2022 supply disruption, and currency-linked price rises are all named as **not** the designer's fault — and all three corroborate the Round 2 podcast (`KI2GvB0jzHs`).
-
-[source: [[_Sources/YT_AFBu0Uv-47U_shevrina_bad_designer_kickbacks|YT_AFBu0Uv-47U]]]
-
 ## 5d. Design Services, Fees and What a Project Includes — moved to its own page
 
 Design-fee benchmarks, what a design project actually contains (and why a render is not one),
@@ -343,7 +121,7 @@ Cross-references that previously read "§5b"/"§5c"/"§5d"/"§5e" for that mater
 
 - **⚠️ Family-with-kids material-selection-by-lifestyle principle**: a family with young children shouldn't use soft, expensive natural-wood parquet flooring (scratches/stains easily from toys and spills) despite its prestige — recommends durable wood-look porcelain tile or vinyl instead. Uses the explicit analogy "wearing a tuxedo to the supermarket" for an impractical premium material choice in a high-wear household context. [source: [[_Sources/YT_u4yj6dD01aE_krasnov_expensive_vs_cheap_renovation|u4yj6dD01aE]]]
 - **⚠️ A real, specific client anecdote — marble-bathroom substitution**: a client insisted on natural marble for a bathroom; the studio pushed back citing marble's porosity/moisture absorption/staining/mould risk in a genuinely wet room, and substituted marble-look porcelain tile instead, achieving a visually similar result with meaningfully better practical durability. `single-account`, client anecdote, not independently verified. [source: [[_Sources/YT_u4yj6dD01aE_krasnov_expensive_vs_cheap_renovation|u4yj6dD01aE]]]
-- **⚠️ Studio's stated fixed-budget-with-~10%-tolerance business practice**: the studio locks a renovation budget with a **10% variance ceiling** once the design is finalized — framed as a specific business-process commitment, tag as his own stated business practice/claim, not an industry standard. Worth reading alongside §5e's Кузина design-fee-as-proportion content above — a different practitioner's stated commercial practice on a related but distinct question (budget variance tolerance vs. design-fee sizing). [source: [[_Sources/YT_iI1mI0agsAo_krasnov_7design_myths|iI1mI0agsAo]]]
+- **⚠️ Studio's stated fixed-budget-with-~10%-tolerance business practice**: the studio locks a renovation budget with a **10% variance ceiling** once the design is finalized — framed as a specific business-process commitment, tag as his own stated business practice/claim, not an industry standard. Worth reading alongside the Кузина design-fee-as-proportion content now on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services — What They Cost, and What They Include]] — a different practitioner's stated commercial practice on a related but distinct question (budget variance tolerance vs. design-fee sizing). [source: [[_Sources/YT_iI1mI0agsAo_krasnov_7design_myths|iI1mI0agsAo]]]
 - No priced figures cleared this project's comparability bar from either source — both anecdotes are qualitative, and the 10%-tolerance claim is a business-process commitment rather than a priced figure.
 
 ## 5f. Load-Bearing-Wall Removal for Open-Plan Kitchen-Living Conversions — a Generic Structural/Permitting Caution (Игорь Краснов, added 2026-09-01, Round 6)
@@ -379,103 +157,6 @@ A dedicated home wellness/recovery wing (cardio room, dry sauna, steam/massage r
 
 `single-account`, `unverified`.
 
-## 5j. ⚠️ A Three-Way Allocation Split and a Flat-Price Ratio (FLAT, added 2026-09-02)
-
-> [!WARNING]
-> **`promotional_ratio: medium`, and the reason is structural rather than tonal: this is a furniture manufacturer arguing that furniture and appliances deserve the largest share of a renovation budget.** His argument for it is real, but the conclusion is the one that benefits him and must be read that way. **Two things offset it: he argues for hiring a designer, which costs the client money before they reach him; and he gives his own trade's version of behaving well by talking a client *out* of veneer and enamel in a children's room.** RU metropolis centre (St Petersburg company), 2026-03. [source: [[_Sources/YT_tfjxUv9g-bI_flat_budget_allocation_formula|tfjxUv9g-bI]]]
-
-USD equivalents below at the 12-month trailing mean to 2026-03-17, **80.0432 RUB/USD**; comparability aids, not quotes.
-
-### ⚠️ The flat-price ratio, and the arithmetic error it prevents
-
-- **⚠️ His rule: a good renovation costs within about 50% of the flat's price** — "хороший ремонт, что потом ничего не развалилось, при этом приносило удовольствие."
-
-| Item | RUB (2026-03) | USD equivalent |
-| :--- | :--- | :--- |
-| Flat, 50 m², metropolis centre | **15,000,000** | **≈$187,000** |
-| Renovation on it | **~7,000,000** | **≈$87,500** |
-| **Total budget that should have been planned** | **~22,000,000** | **≈$275,000** |
-
-- **⚠️ The anti-pattern as arithmetic: "если вы планируете 18 [млн], и 15 из них тратите на квартиру, три на ремонт — вы просто не вывезете."**
-- **⚠️ The failure narrative names the time cost as well as the money cost, which is why it is worth keeping**: you buy the flat, have 2–3M left, expect the result you saw in pictures, and skip the designer because you think you are economising; **the money runs out "у тебя там ещё белых стен даже нету"; and instead of an imagined two to three months, four or five pass, the money is gone, the flat is unfinished, "и ещё на год стройки это всё уходит."**
-- **⚠️ Applicability caveat, and it matters for this project specifically: the 50% rule is a rule of thumb with no derivation, anchored to a metropolis-centre property price. It will not transfer to a market where the property-price-to-construction-cost ratio differs** — which is precisely the case for this project. **Use the split below rather than the ratio.**
-
-### ⚠️ The allocation split — and an inconsistency in the source, recorded not resolved
-
-- **⚠️ His stated percentages: ~30% labour, ~30% finishing and rough materials, 35–40% appliances and furniture.**
-- **⚠️ His simpler governing principle: "у вас есть отделочные строительные материалы, стоимость самих работ, и стоимость мебели и техники — и вот эти данные примерно должны быть равны."** Roughly equal thirds.
-- **⚠️ His own worked example of the 7M does NOT match his stated percentages:**
-
-| Category | RUB (2026-03) | USD equivalent | Share |
-| :--- | :--- | :--- | :--- |
-| Finishing materials | **~2,500,000** | **≈$31,200** | ~36% |
-| Labour | **~2,300,000** | **≈$28,700** | ~33% |
-| Furniture and appliances | **~2,200,000** | **≈$27,500** | ~31% |
-
-- **⚠️ The stated percentages give furniture and appliances the LARGEST share (35–40%); the worked example gives it the SMALLEST (~31%) and finishing materials the largest.** **The "roughly equal thirds" principle is what both versions actually support, and it is the form to use.** **Note that the version favouring furniture is the one that favours his business, and his own numbers do not bear it out.**
-- **⚠️ Read against this guide's existing category structure**: this is a proportional split across three buckets, not a per-m² benchmark, so it complements rather than competes with the live-intake benchmarks above. **Its use is as a sanity check — if one bucket is running at half or double a third of the total, something has drifted.**
-
-### Design project as a line item
-
-- **⚠️ Average design-project price ~5,000 ₽/m² ≈ $60/m² — so ~250,000 ₽ ≈ $3,100 for 50 m².**
-- **His position: "сейчас уже реально не те деньги, которые есть смысл экономить. Просрёшь больше."**
-- **⚠️ Where the saving is lost instead, named specifically**: buying more material than needed; someone erring because they did not understand the task from the outset; **and "миллиард вопросов" — "вас просто задёргает на стройке прораб. Даже когда есть проект, вопросов много, а когда его нет, их вообще нескончаемое количество."**
-- **What the project buys: an estimate, so the budget is knowable in advance, and a designer who "уже скажет изначально, что реально, что нет, на что вы можете рассчитывать в заданный бюджет." The specification table should list materials, fittings, flooring, walls and their preparation.**
-
-### ⚠️ Scope creep by specialists, stage by stage — a mechanism with worked dialogue
-
-- **⚠️ The foreman: "а тебе стены-то какие нужны? Чтобы прямо ровные были?" You say yes, because you want it done well. "Ровное — это вот другая, у нас другие цифры." The budget is up at stage one.**
-- **The furniture supplier: "что у тебя за шкаф такой? Давай нормальный сделаем, запихаем туда всё, что можно."** **The flooring shop: the designer specified laminate, a consultant sells you quartz-vinyl. "Так везде-везде, по всем инстанциям."**
-- **⚠️ His honest distinction, which keeps this from being cynicism: "когда у человека доброе намерение — он просто к своей работе относится хорошо и настаивает, чтобы было сделано так. А когда это просто превращается в высасывание денег."** Both exist and look similar from outside.
-- **⚠️ And his own trade's version of the good behaviour — third statement of this position across the channel: a client brings a project with the kitchen AND the children's room in natural veneer and enamel. "По идее должны сказать: ну ладно, у тебя же в проекте так, давай сделаем так — мы больше денег получим. В нормальном месте тебе скажут: кто тебе сюда поставил шпон натуральный, Феникс? Зачем тебе это надо? Давай сделаем попроще — сэкономишь денег, будет и быстрее, и дешевле, но картинку мы тебе сохраним."**
-- **⚠️ A first-person case quantifying quote inflation on inspection: his own 100 m² flat's plastering was quoted at 100,000 ₽ ≈ $1,200, and "эти 100.000 превратились через 2 дня в 150" ≈ $1,900 — a 50% increase after a site visit.**
-  - **⚠️ His objection is the process, not the price: "у тебя есть проект, есть фотки — почему ты вдруг посмотрел, у тебя стало дороже? Скажи мне заранее: нам надо приехать посмотреть объект, есть нюансы."** He refused and waited for a recommended contractor.
-  - **And the structural point: "у нас сфера вся живёт рекомендациями," with the trouble traced to having gone outside them — "как только я залезаю туда, где я не по своим нашёл кого-то, начинается."**
-
-### ⚠️ "Перекос номер один," and a contrarian point on finishing
-
-- **The imbalance he names: spend a fortune on finishing materials, then cheap furniture and cheap lighting — "всё, ты проиграл."** His alternative: **engineered board instead of expensive parquet, or instead of onyx and marble in a bathroom, and put the money into better furniture.**
-- **⚠️ The contrarian point, and it is the most interesting thing in the source: "есть какой-то у нас культ отделки — насколько там ровная у тебя эта стена. Да какая тебе разница, насколько она ровная, если туда потом поставишь шкаф? Она должна иметь заданную определённую геометрию в определённых местах, и всё. И ты этого не увидишь никогда."**
-  - **⚠️ Recorded as a counterpoint, not a correction — it engages a large body of existing vault content on wall-flatness classes and acceptance tolerances. It is not a refutation (a cabinet run still needs its wall true, and raking light still exposes a bad wall), but it is a real challenge to treating flatness as a universal good regardless of what will stand in front of it.** A companion note is on [[13_Surfaces_and_Finishes/analysis/Wall_Prep_and_Plastering|Wall Prep & Plastering]] against that page's K1–K4 class ladder.
-- **His argument for why furniture earns the money: "в современном интерьере большую часть дизайна составляет мебель — ты на неё каждый день смотришь, ты ей каждый день пользуешься, взаимодействуешь по большей степени с ней."** **⚠️ Self-serving by construction, and recorded as an argument rather than a finding.**
-
-### ⚠️ Live intake data point — a furniture manufacturer's OWN 56 m² flat, four years on (FLAT, added 2026-09-02)
-
-> [!WARNING]
-> **⚠️ SELF-SELECTED SOURCE. This is a furniture maker touring his own flat, furnished by his own company, presenting his own four-year outcome — nobody publishes a retrospective on the job that failed.** Recorded because **he discloses a real failure, names two solutions he has outgrown, admits a planning error, and gives the figure** — and because **this vault has almost no longitudinal evidence from any source.** `promotional_ratio: medium`. [source: [[_Sources/YT_f6HY6UXDpss_flat_owner_flat_four_years_on|f6HY6UXDpss]]]
-
-**Object**: 56 m², St Petersburg, a dormitory district (Мурино named). **Occupied since 2019; video 2023-07.**
-
-| Basis | RUB | USD equivalent |
-| :--- | :--- | :--- |
-| **Whole renovation** | **~2,700,000** ("под что-то по три почти") | **≈$41,800 at 2019 / ≈$38,500 at 2023** |
-| **Implied per-m²** | **~48,000 ₽/m²** `arithmetic-exact` from his two figures | **≈$750/m² at 2019** |
-
-> [!IMPORTANT]
-> **⚠️ THE YEAR IS INFERRED, NOT STATED — this is the third price-date trap this channel has produced.** He says only "в тот период"; the flat has been occupied since 2019, so ~2019 is the best-supported reading. **Both endpoints of the plausible window (2019 occupancy to 2023 upload) are given because the spread is only ~8% — narrow enough to convert honestly. Treat the RANGE as the finding, not either endpoint.** (Contrast the ~2M ₽ Italian kitchen on [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]], which straddled the 2014–2015 rouble move and was deliberately left unconverted.)
-
-- **⚠️ The brief that produced the figure, and it is what makes the number interpretable: "задача стояла сделать не минимальный бюджет, но не уходящий в космос." No natural materials — laminate throughout, no parquet, no natural veneer.** Furniture relatively inexpensive and quick, "чтобы это всё вид имело." **His own assessment: "это не очень дорого."**
-- **⚠️ A material comparability gap that limits the figure's use: he never states whether the ~2.7M includes the furniture or is exclusive of it.** Given that furniture is his own company's product and the tour is largely about it, either reading is arguable. **Do not compare this per-m² against this guide's other benchmarks without that caveat attached.**
-
-### ⚠️ Why the specification is modest — and why he says that is not a general recommendation
-
-- **His allocation framing, with a car analogy: "под задачу машину ты покупаешь. У нас люди любят купить себе Land Cruiser, а ездить на нём по городу. Должно быть рационально."**
-- **⚠️ And the admission that makes the modest spec coherent rather than defensive: "я допустим понимаю, что это не квартира мечты… и как-то в неё вкидываться, покупать там технику — может быть, и хотелось бы, да, но нет рационального подхода."** **The specification follows from the flat being a stage rather than a destination.**
-- **⚠️ The counterpart, stated plainly: "если делаешь для себя и надолго, и хочешь прям топовую картинку, то ни на чём [не экономишь]… посчитай бюджет — на что ты готов, сколько ты готов вложить."** **So his own frugality is explicitly NOT offered as general advice — which is the opposite of how a promotional retrospective would frame it, and is the strongest reason to trust the figure.**
-- **He explains the modest district and area by reinvestment — "два года мы из компании не вытащили просто ни копейки."** Recorded only because it explains the specification; the surrounding personal narrative was not extracted.
-
-### ⚠️ What survived four years, and the one thing that did not
-
-**Positive claims are the self-selected case — see the warning above — but the specification they rest on is the point:**
-
-- **⚠️ "Кухня выглядит практически как новая… три года эксплуатации, здесь вообще ничего не делалось — не зазоры не регулировались."** He frames it as a deliberate test: *"эксперимент, там ставил сам на себе."*
-- **⚠️ And what that rests on: hardware entirely Blum — drawers and hinges — with "фасады в принципе доступные, недорогие." The tier trade is substrate-only, for the third time across this channel** (see the 42 m² case and the facade series on [[03_Kitchen/analysis/Furniture_Facade_Materials|Kitchen: Facade Materials]]). **This is the single most useful thing the retrospective does for this guide: it puts a durability observation behind an allocation rule the channel states repeatedly.**
-- **Kids'-room bottom drawers on reinforced runners (books are heavy) "тоже три года работает," with a child who "её не жалеет вообще."**
-- **⚠️ THE FAILURE HE DISCLOSES: a solid oak countertop in the guest WC has cracked at the mixer fixing — and his verdict with hindsight is "я поставил бы камень лучше — либо кварц, либо керамику."** **Full detail on [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Bathroom: Mixers, Toilet & Sinks]].**
-- **Two solutions he has outgrown: the entrance shoe area, and the main bathtub arrangement ("не супер актуально, уже отходят").**
-
-**⚠️ And an unexplained inconsistency, recorded rather than smoothed: "три года эксплуатации" for the kitchen against "четыре года" of occupancy.** Possibly the kitchen went in a year after moving in; he does not say.
-
 ## 6. Detailed Case Studies
 
 - [[11_Budget_and_Planning/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).
@@ -493,3 +174,9 @@ USD equivalents below at the 12-month trailing mean to 2026-03-17, **80.0432 RUB
 - [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration & Scheduling]] — realistic renovation duration, stage-by-stage sequencing dependencies, and named real-world schedule-slip mechanisms from four independent sources.
 - *Planned:* a min/max price distribution case, once a source establishing that range exists (not yet created).
 - RU-language contractor interview (YouTube, secondary reference) — [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|source note]]; budget-tier and labor/material % splits are not directly comparable to the Minsk-primary figures above — see intermediate knowledge store for detail.
+
+## Moved to their own pages
+
+- **Cost categories, delivery models and price-per-m²** — [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories and Delivery Models]]
+- **Bill of quantities, procurement traps, and where the money should go** — [[11_Budget_and_Planning/analysis/Bill_of_Quantities_and_Procurement|Bill of Quantities and Procurement Traps]]
+- **Allocation proportions, the flat-price ratio, and a real priced flat** — [[11_Budget_and_Planning/analysis/Budget_Allocation_and_Proportions|Budget Allocation — Proportions and the Flat-Price Ratio]]

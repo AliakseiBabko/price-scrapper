@@ -56,7 +56,7 @@ Covers the specific case of a "two-fixture" bathroom (tub + one of: toilet/sink/
 - **Zemskov's toilet cistern-box height rule**: build full floor-to-ceiling with a 600×900mm access hatch if a shutoff manifold or chemical cabinet sits above; otherwise 1250mm topped with a decorative countertop.
 
 > [!NOTE]
-> **Zemskov's tub-length rule above (170cm typical for a ~178-180cm occupant) contradicts a different practitioner's rule** in [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] §Length Ergonomics ("170cm even for a ~180cm-tall person, don't default to the longest tub that fits"). The two land on similar numbers but via different reasoning (occupant-height-matched vs. "shorter forces better back-bracing") — see that page's own framing for the full contrast.
+> **Zemskov's tub-length rule above (170cm typical for a ~178-180cm occupant) contradicts a different practitioner's rule** in [[07_Bathroom/analysis/Bathtub_Materials_and_Installation|Bathtubs — Materials, Aprons and Installation Technique]], under Length Ergonomics ("170cm even for a ~180cm-tall person, don't default to the longest tub that fits"). The two land on similar numbers but via different reasoning (occupant-height-matched vs. "shorter forces better back-bracing") — see that page's own framing for the full contrast.
 
 ## Two Planning Techniques
 

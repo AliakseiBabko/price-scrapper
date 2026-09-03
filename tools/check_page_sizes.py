@@ -1,27 +1,37 @@
 #!/usr/bin/env python3
-"""Workstream D (PRICE_SCRAPPER_KNOWLEDGE_BASE_SCALABILITY): flag wiki pages
-that have crossed this vault's layered-page-splitting threshold.
+"""Guard this vault's wiki pages against growing out of control.
 
-This is an advisory checker, not an automated editor. It approximates the
-existing "judge by topic decomposition, not a hard line count" convention
-(00_Master/wiki_page_format.md) with a two-tier heuristic:
+Two jobs, and the difference between them matters:
 
-  - Detail pages (under a numbered folder's analysis/): flag at 400 lines,
-    or at 260 lines if the page has 12+ top-level (##) sections.
-  - Guide pages (top-level file directly in a numbered folder, excluding
-    *_Index.md): flag at 500 lines, or at 350 lines if the page has 12+
-    top-level (##) sections.
-  - Any page: flag as FRAGMENTED at 20+ sections averaging under 12 lines
-    each - the opposite problem, where the fix is merging, not splitting.
+  1. A HARD CEILING of 300 lines. Introduced 2026-09-02 at the owner's
+     instruction, after a vault-wide recalibration took twenty pages down
+     under it. A page at or over the ceiling is a BREACH, not a suggestion,
+     and this tool exits non-zero on one. The advisory exceptions file
+     CANNOT waive it - that is the whole point of a ceiling.
+
+  2. An advisory EARLY WARNING below the ceiling, so a page is caught while
+     it is still growing rather than after it has broken the rule. Detail
+     pages warn at 260 lines, or 220 with 12+ top-level (##) sections; guide
+     pages at 280, or 240 clustered. Warnings are advisory, do not affect
+     the exit code, and can be waived in the exceptions file.
+
+  3. FRAGMENTED, the opposite failure: 20+ sections averaging under 12 lines
+     each. The fix there is MERGING, not splitting - splitting a fragmented
+     page makes it strictly worse. Advisory.
 
 "12+ top-level sections" is a proxy for "many independent topic/decision
 clusters" - a heuristic, not a claim that heading count equals editorial
-judgment. A flagged page still needs a human/agent decision on whether and
-how to split it.
+judgment. A warned page still needs a human/agent decision on whether and
+how to split it. A BREACHED page does not: it has to come down.
 
-Thresholds were recalibrated on 2026-08-31 after three real splits showed the
-original values flagged the correctly-split result pages too; see the comment
-block above the constants for the evidence.
+Why the old thresholds are gone. Until 2026-09-02 this file carried four
+tiers - 400/260 detail, 500/350 guide - recalibrated upward on 2026-08-31
+because the values before them flagged correctly-split result pages. Under a
+300-line ceiling every one of those numbers is unreachable and therefore
+dead code, so they were replaced by the warning band above, which sits
+*below* the ceiling and is deliberately reachable. The 2026-08-31 lesson
+still holds and is why warnings stay advisory: a warning says "this page is
+approaching the ceiling", never "this page is wrong".
 
 Positive page selector (matches Workstream C's definition so the two stay
 consistent): only files directly under a numbered folder (NN_Name/) or
@@ -30,7 +40,10 @@ _Sources/**, _Knowledge/**, _Archive/**, _Inbox/**, source notes, case
 studies, change logs - is out of scope for this checker.
 
 Usage:
-    python tools/check_page_sizes.py [--json] [--exceptions PATH]
+    python tools/check_page_sizes.py [--json] [--exceptions PATH] [--no-fail]
+
+Exit codes: 0 = no ceiling breach (warnings may still be printed),
+            2 = at least one page at or over the 300-line hard ceiling.
 """
 from __future__ import annotations
 
@@ -43,31 +56,19 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 NUMBERED_FOLDER_RE = re.compile(r"^(?!00_)\d{2}_")  # excludes 00_Master (project docs, not wiki pages)
 
-# Recalibrated 2026-08-31, on evidence rather than taste. The previous values
-# (300/220 detail, 450/300 guide, cluster at 3 sections) were tested for the
-# first time by actually performing three splits - Walls_and_Paint 921 lines
-# into four pages, Flooring_Guide 865 into three, Waterproofing_and_Plastering
-# 815 into four - and they FAILED the test: the flagged count went UP, from 31
-# to 35, because seven correctly-sized, single-topic result pages (234-336
-# lines) tripped the threshold that their 900-line parent had tripped.
-#
-# A rule that punishes a correct split is worse than no rule: it tells an
-# author their finished work is still wrong, with no achievable target short of
-# atomising every page into stubs.
-#
-# Two changes, both aimed at making the flag mean "too many independent topics"
-# rather than "long":
-#   - The cluster signal now needs 12+ sections, not 3+. At 3 the clustered
-#     threshold applied to essentially every page, so the tool was really a
-#     flat 220-line limit wearing a heuristic's clothes; almost no real detail
-#     page has fewer than three headings.
-#   - Line thresholds raised to match observed reality. A source-attributed
-#     prose section in this vault runs 20-60 lines, so 220 lines capped a
-#     detail page at roughly five sources before it was declared too long.
-DETAIL_FLAG_LINES = 400
-DETAIL_FLAG_LINES_CLUSTERED = 260
-GUIDE_FLAG_LINES = 500
-GUIDE_FLAG_LINES_CLUSTERED = 350
+# The hard ceiling. Set 2026-09-02 by the vault owner: "keep them under three
+# hundred". It is deliberately a single number for every page kind, because a
+# ceiling that needs a lookup table is not a ceiling. The exceptions file does
+# not apply to it.
+HARD_CEILING_LINES = 300
+
+# The advisory warning band, sitting below the ceiling so growth is caught on
+# the way up. A source-attributed prose section in this vault runs 20-60 lines,
+# so 260 gives a detail page roughly one more source before it breaches.
+DETAIL_WARN_LINES = 260
+DETAIL_WARN_LINES_CLUSTERED = 220
+GUIDE_WARN_LINES = 280
+GUIDE_WARN_LINES_CLUSTERED = 240
 CLUSTER_THRESHOLD = 12
 
 # The opposite failure, which the size checker was structurally blind to: a
@@ -125,19 +126,42 @@ def check_page(entry: dict, exceptions: dict) -> dict | None:
     kind = entry["kind"]
     rel_path = path.relative_to(REPO_ROOT).as_posix()
 
-    if rel_path in exceptions:
-        return None
-
     with path.open("r", encoding="utf-8") as f:
         text = f.read()
-    line_count = text.count("\n") + (0 if text.endswith("\n") else 1)
+    line_count = text.count(chr(10)) + (0 if text.endswith(chr(10)) else 1)
     sections = count_top_level_sections(text)
     clustered = sections >= CLUSTER_THRESHOLD
 
+    # The ceiling is checked BEFORE the exceptions file, on purpose. A reviewed
+    # exception can say "this page does not need splitting yet"; it cannot say
+    # "this page may exceed the ceiling".
+    if line_count >= HARD_CEILING_LINES:
+        return {
+            "path": rel_path,
+            "kind": kind,
+            "severity": "BREACH",
+            "line_count": line_count,
+            "top_level_sections": sections,
+            "clustered": clustered,
+            "fragmented": False,
+            "threshold_used": HARD_CEILING_LINES,
+            "waivable": False,
+            "reason": (
+                f"CEILING BREACH: {line_count} lines, at or over the "
+                f"{HARD_CEILING_LINES}-line hard ceiling. This is not advisory and "
+                f"cannot be waived in the exceptions file. Split it with "
+                f"`python tools/split_page.py analyse {rel_path}`, or - if the page "
+                f"has many small dated sections - MERGE them first."
+            ),
+        }
+
+    if rel_path in exceptions:
+        return None
+
     if kind == "detail":
-        threshold = DETAIL_FLAG_LINES_CLUSTERED if clustered else DETAIL_FLAG_LINES
+        threshold = DETAIL_WARN_LINES_CLUSTERED if clustered else DETAIL_WARN_LINES
     else:
-        threshold = GUIDE_FLAG_LINES_CLUSTERED if clustered else GUIDE_FLAG_LINES
+        threshold = GUIDE_WARN_LINES_CLUSTERED if clustered else GUIDE_WARN_LINES
 
     per_section = line_count / sections if sections else line_count
     fragmented = (
@@ -159,18 +183,22 @@ def check_page(entry: dict, exceptions: dict) -> dict | None:
         )
     else:
         reason = (
-            f"{kind} page at {line_count} lines >= {threshold}-line threshold "
-            f"({'clustered: ' + str(sections) + ' top-level sections' if clustered else 'base threshold, no cluster signal'})"
+            f"approaching the {HARD_CEILING_LINES}-line ceiling: {kind} page at "
+            f"{line_count} lines >= {threshold}-line warning threshold "
+            f"({'clustered: ' + str(sections) + ' top-level sections' if clustered else 'base threshold, no cluster signal'}). "
+            f"Advisory - plan the split now rather than after it breaches."
         )
 
     return {
         "path": rel_path,
         "kind": kind,
+        "severity": "WARN",
         "line_count": line_count,
         "top_level_sections": sections,
         "clustered": clustered,
         "fragmented": fragmented,
         "threshold_used": threshold,
+        "waivable": True,
         "reason": reason,
     }
 
@@ -184,6 +212,11 @@ def main() -> int:
         default=DEFAULT_EXCEPTIONS_PATH,
         help="path to a reviewed exceptions JSON file (path -> reason)",
     )
+    parser.add_argument(
+        "--no-fail",
+        action="store_true",
+        help="report ceiling breaches but still exit 0 (for read-only inventory runs)",
+    )
     args = parser.parse_args()
 
     exceptions = load_exceptions(args.exceptions)
@@ -194,11 +227,17 @@ def main() -> int:
         if (result := check_page(entry, exceptions)) is not None
     ]
 
+    breaches = [r for r in flagged if r["severity"] == "BREACH"]
+    warnings = [r for r in flagged if r["severity"] == "WARN"]
+
     if args.json:
         print(json.dumps(
             {
                 "pages_scanned": len(pages),
+                "hard_ceiling_lines": HARD_CEILING_LINES,
                 "exceptions_applied": len(exceptions),
+                "breach_count": len(breaches),
+                "warning_count": len(warnings),
                 "flagged_count": len(flagged),
                 "flagged": flagged,
             },
@@ -206,15 +245,29 @@ def main() -> int:
             ensure_ascii=False,
         ))
     else:
-        print(f"Scanned {len(pages)} pages ({len(exceptions)} exceptions on file).")
-        if not flagged:
-            print("No pages flagged.")
-        else:
-            print(f"{len(flagged)} page(s) flagged for possible layered-page splitting:\n")
-            for r in flagged:
+        print(f"Scanned {len(pages)} pages against a {HARD_CEILING_LINES}-line hard ceiling "
+              f"({len(exceptions)} advisory exceptions on file).")
+        if breaches:
+            print("")
+            print(f"{len(breaches)} CEILING BREACH(ES) - these must be split:")
+            print("")
+            for r in breaches:
+                print(f"  {r['path']}  ({r['line_count']} lines)")
+                print(f"    {r['reason']}")
+        if warnings:
+            print("")
+            print(f"{len(warnings)} advisory warning(s):")
+            print("")
+            for r in warnings:
                 print(f"  {r['path']}")
                 print(f"    {r['reason']}")
+        if not flagged:
+            print("No pages flagged.")
+        elif not breaches:
+            print(chr(10) + "No page is over the ceiling.")
 
+    if breaches and not args.no_fail:
+        return 2
     return 0
 
 

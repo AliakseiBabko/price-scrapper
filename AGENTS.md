@@ -65,7 +65,8 @@ Shared cross-project skills live in `../ai-skills/skills/` and are linked into `
 | :--- | :--- |
 | `tools/verify_batch.py --base <ref>` | **Run before every commit that touches vault content.** Mojibake, BOM, retired patterns, citation-ID drift, USD rounding and rate checks |
 | `scripts/verify_batch_selftest.py` | Guards the above against over-suppression. Run after changing it |
-| `tools/check_page_sizes.py` | Flags pages needing a split — or flagged as FRAGMENTED, which means merge instead |
+| `tools/check_page_sizes.py` | **Enforces the 300-line hard page ceiling — exits non-zero on a breach.** Also warns below it, and flags FRAGMENTED pages, which means merge instead |
+| `tools/split_page.py analyse\|apply\|merge` | Does the split or the merge. Moves sections by line range byte-for-byte, then asserts content-line and citation-ID parity |
 | `tools/build_knowledge_base_index.py` | Rebuilds the numeric-claims index |
 | `tools/youtube/preflight_playlist.py` | Dedup a playlist/channel against `processed_video_ids.txt` before fetching |
 | `tools/youtube/archive_transcripts.py <inbox>` | Archive transcripts and repoint `transcript_file:` frontmatter |
@@ -82,7 +83,8 @@ These are the ones that cause real damage when broken. Everything else is in the
 5. **Value-filter before batch processing.** For any playlist or channel, title-skim and spot-check transcripts first. Do not process everything by default.
 6. **Route to wiki pages in the same turn as extraction** (intake step 5a). Batching it up for later has caught real errors precisely because it was done late — don't rely on that.
 7. **Serialize YouTube fetches**, one at a time with spacing and bounded backoff. A rate-limit can be IP-wide across all channels — pause, don't rotate channels into the same wall.
-8. **Merge to main every time.** After commit and push on a branch: merge `--no-ff` into main, push main, delete the branch locally and remotely. No lingering branches, no PRs.
+8. **No wiki page reaches 300 lines.** `tools/check_page_sizes.py` exits non-zero on a breach and the exceptions file cannot waive it. **Before adding a heading, look for an existing section the fact belongs under** — pages get to 700 lines by twenty batches each appending a little, not by a decision. Fix a breach with `tools/split_page.py`; if it reports FRAGMENTED, **merge first, then extract**. See `00_Master/wiki_page_format.md`.
+9. **Merge to main every time.** After commit and push on a branch: merge `--no-ff` into main, push main, delete the branch locally and remotely. No lingering branches, no PRs.
 
 ## Conventions
 

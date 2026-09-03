@@ -1,6 +1,14 @@
 # Heating — Floor-Standing Radiators & In-Floor Convectors
 
-## Radiator Replacement in a New-Build Apartment — PEX System, Fastening, and Bracket Load (added 2026-08-24, Sidorik Round 4)
+## ⚠️ Safety Incident — Read This First
+
+**A documented real incident, described by its source as an active lawsuit against the manufacturer at time of filming**: an in-floor convector's decorative grille (only ~5mm wide, far narrower than laminate's typical expansion allowance) was jammed solid by laminate expansion. A dropped chain/necklace fell into the jammed grille; a young child attempting to help retrieve it got their fingers wedged and permanently stuck. Multiple household attempts to free the fingers (soaking with water, then vegetable oil) and a neighbor's help all failed; emergency responders were eventually called and had to cut/dismantle the grille in sections — the process took long enough that the child's fingers were lost. `single-account`, not independently verified beyond the source's own account, but stated as a specific, real, still-litigated case, not a hypothetical — treat this as the single most severe safety-relevant fact recorded anywhere in this vault to date, and weigh it heavily against any decision to install an in-floor convector in a home with small children. [source: [[_Sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|d6xjRRXeOnc_infloor_conv]]]
+
+## Replacement and Connection in a New-Build
+
+**Merged 2026-09-02.** This page was FRAGMENTED — many small dated sections, one per processing batch. The sections below were grouped under thematic parents and their original dated headings **demoted from `##` to `###` rather than deleted**, so every attribution and date survives. No prose changed.
+
+### Radiator Replacement in a New-Build Apartment — PEX System, Fastening, and Bracket Load (added 2026-08-24, Sidorik Round 4)
 
 Pavel Sidorik, individual practitioner, self-managed, own new-build apartment: developer-installed heating runs from a shared per-floor distribution cabinet through Ø25mm cross-linked-polyethylene ("сшитый полиэтилен"/PEX, brand Kan) supply/return lines stepping down to Ø18mm then Ø14mm branches per radiator — deliberately narrowed so water is forced through every radiator across all rooms rather than short-circuiting the nearest one.
 
@@ -20,7 +28,7 @@ Pavel Sidorik, individual practitioner, self-managed, own new-build apartment: d
 
 [source: [[_Sources/YT_hCN5Cl7T2Qc_sidorik_radiator_replacement_ep16|hCN5Cl7T2Qc]]] — pricing/materials-cost breakdown for this same job deferred by the source itself to the next episode (#17).
 
-## Radiator Replacement Part 2 — Connection, Quantified Safety Rebuttals, and a Smart Thermostat Head (added 2026-08-24, Sidorik Round 4)
+### Radiator Replacement Part 2 — Connection, Quantified Safety Rebuttals, and a Smart Thermostat Head (added 2026-08-24, Sidorik Round 4)
 
 Pavel Sidorik, direct continuation of the section above: connects the replacement radiators using matched-color installation bushings ("футорки," 4 per radiator, left/right-hand threaded to match), a Maevsky air-bleed valve + blanking plug, and Danfoss thermostatic/shutoff valves sealed via a machined brass cone rather than gaskets. Threaded joints sealed with traditional flax fiber + paste (his own stated preference over anaerobic sealant). **Sequencing rule**: mount the radiator on its brackets *before* fitting/cutting the connecting tubes, never the reverse — fitting tubing first makes it impossible to get the radiator level and the tubing perpendicular to the wall afterward.
 
@@ -34,24 +42,7 @@ Pavel Sidorik, direct continuation of the section above: connects the replacemen
 
 **Quantified follow-up evidence for the hot-glue dowel-fastening technique above (added 2026-08-24, Sidorik Round 4)**: a later video from the same channel restates the technique with a fresh demonstration — full body weight applied directly to a hot-glue-fixed radiator bracket in a hollow/lightweight block, with no movement, versus a plain plastic dowel in the same block material failing under much lighter hand pressure. The practitioner explicitly frames hot-glue-filled dowel holes as **"a kind of substitute for a chemical anchor"** when a real chemical anchor isn't on hand. [source: [[_Sources/YT_zaW8XagX72U_sidorik_hot_glue_lifehacks|zaW8XagX72U]]]
 
-## In-Floor Convector Final Leveling — Don't Finalize Without a Physical Flooring Sample (added 2026-08-24, Round 5)
-
-Pavel Sidorik, same project, episode #27 (self-leveling floor stage): an in-floor heating convector was roughly positioned and leveled at the earlier plumbing stage, then embedded in film and screed poured around it — but its **final** height leveling deliberately waited until the finish-flooring stage, once at least one physical sample piece (a board/strip) of the actual floor covering existed on site. **A genuinely reusable sequencing principle**: don't finalize the leveling of any height-critical, screed-embedded fixture using only a spec'd thickness number — get a physical flooring sample in hand first, especially where mixed-height/multi-material floor transitions are involved, since it's easy to get the flush height wrong from the number alone. Final leveling used floor-panel samples placed on both sides of the convector as a height reference, adjusted via leveling bolts, then locked with side brackets.
-
-**Thermostat control-cable serviceability lesson**: the convector's temperature dial connects via a steel cable to a thermo-head, with two install options — one allowing the thermo-head mechanism to be swapped later, one that doesn't. The speaker initially installed the simpler non-replaceable version, then reconsidered and redid it with a corrugated conduit sleeve specifically so the mechanism could be serviced/replaced later. **Route a control cable/mechanism with a service sleeve even when a simpler direct routing looks fine initially** — a small extra effort at rough-in avoids being unable to service the mechanism later. [source: [[_Sources/YT_kXGYTsBTKj8_sidorik_self_leveling_floor_ep27|kXGYTsBTKj8_sidorik_self_leveling_floor_ep27]]]
-
-## Vertical Riser: Bypass Requirement, Replacement Decision, and Boxing Methods (added 2026-08-24, Round 3)
-
-Konstantin Kruglov / Ontario explains: **⚠️ replacing a radiator on a vertical riser requires the management company to install shutoff valves above and below it, plus a bypass** — a short pipe connecting supply and return around the radiator so the shared riser keeps flowing to floors above while this unit's radiator is isolated. **The bypass itself must never have a valve on it and must always stay open.** If full isolation capability isn't something you actually want to use, there's no need to add shutoff valves at all — keep the developer default as-is. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
-
-**Two concrete methods for boxing in an exposed vertical riser** (extends the boxing-permitted-with-access-hatch rule already on `Rough_Plumbing_Sequencing.md`): [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
-
-1. **L-shaped enclosure box** — consumes essentially zero usable floor area; include a small access hatch at the bottom (finished with matching wallpaper/paint) so a future inspection needs only that hatch opened, not the whole box removed.
-2. **False wall with a radiator niche** (open or covered with a purchased/custom screen) — genuinely new bonus-benefit list: a deeper window reveal/sill (room for an outlet, more usable sill depth), and a clean baseboard-to-corner transition where it meets a stretch ceiling, versus two baseboard runs butting awkwardly into an exposed pipe. Material cost roughly offsets the plastering labor it replaces.
-
-**⚠️ L-shaped box cost figure + a curtain-flexibility argument (Round 15, added 2026-08-28)**: a simple L-shaped drywall box around an exposed riser costs roughly **3,000 RUB** (below this store's $-bucket rounding threshold at this video's 2024-08-23 date). **New argument for boxing it in rather than just curtaining over it**: relying on curtains alone to visually hide an exposed riser locks you into curtains specifically — switching later to roller/roman blinds (mounted flush to the glass, no fabric drape) removes the concealment entirely, since a blind doesn't drape past the window reveal the way a curtain does. `single-account`, `unverified`. [source: [[_Sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
-
-## Sequential Distribution: Refined Connection Count, and Panoramic-Glazing Fix Detail (added 2026-08-24, Round 3)
+### Sequential Distribution: Refined Connection Count, and Panoramic-Glazing Fix Detail (added 2026-08-24, Round 3)
 
 Konstantin Kruglov / Ontario gives a more granular connection count for sequential distribution than the 12-tee figure above: **each tee has 3 physical joints, and 2 tees (supply + return) serve each radiator, so 6 connection points per radiator** — 18 for 3 radiators, 24 for 4. Same underlying risk (any one leaking connection floods the neighbor below and the unit itself) at a finer level of detail, not a contradiction of the tee-count figure. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
 
@@ -59,35 +50,30 @@ For the panoramic-glazing convector warmth-vs-quiet trade-off above: **add a sup
 
 **Named brand**: a popular bimetallic-radiator brand on this market, cited as "Faral"/"Rifar" depending on transcription — `single-account`, `unverified`, brand name uncertain from ASR audio. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
 
-## Leak-Protection Sensor and Thermostatic-Head Opinions (added 2026-08-24, Round 3)
+### ⚠️ Why the New-Build Series Connection Actually Bites, and американка Valves as a Safety Item (Татьяна Безверхая, added 2026-09-02)
 
-Konstantin Kruglov / Ontario: **⚠️ a wireless leak-protection sensor tag suits an in-floor convector (sits undisturbed inside the housing) but is often more nuisance than benefit on an exposed surface-mounted radiator** — a loose tag near a surface radiator gets knocked around by pets or a robot vacuum. Recommendation: skip the leak-protection sensor for ordinary surface radiators if quality fittings were used and the system was properly pressure-tested; reserve it for an in-floor convector installation. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+Moscow-area designer, 2022, `promotional_ratio: low` (no sponsor). **Corroborates the radial-versus-sequential distribution content already on this page and on [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Rough Plumbing Sequencing]] — her contribution is the *user-facing* consequence, which those accounts state as an installation-quality issue rather than a control one.** [source: [[_Sources/YT_C5c2g6FzAKQ_bezverkhaia_ten_never_economise|C5c2g6FzAKQ]]]
 
-**Explicit personal opinion against thermostatic radiator valve heads, flagged as such by the source itself**: debris/grit entering the system can lodge in a thermostatic head's valve and cause persistent whistling; every added regulating mechanism is one more failure point. Preference: on a radial/manifold system, simply close the manifold's own valve for that radiator's line instead of fitting a thermostatic head. The presenter explicitly invites disagreement — tag as opinion, not a settled store-level rule. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+- **⚠️ Russian new-builds are by default plumbed with radiators connected in series (последовательная система) — and the consequence she names is the one that matters day to day: reducing one radiator's output with its thermostat reduces the output of every other radiator too.** So the per-room control a thermostat appears to offer does not exist on the developer's default system.
+- **⚠️ The fix: convert to a radial/manifold connection (лучевое подключение), where each radiator runs separately from a manifold cabinet and can be regulated independently.** **Corroborates the existing Kruglov/Ontario recommendation** (which praises radial distribution as rare good developer practice and recommends it for any self-installed heating) **from the control side rather than the floor-penetration side.**
+- **⚠️ For an older building on a riser (стояк) system, where radial conversion is not available: fit an "американка" union valve at each radiator so it can be isolated at will.** **⚠️ And she frames this as a safety item, not only a convenience one: if the radiator leaks, close the unions, remove it and replace it** — without waiting on the building's system being shut down.
+- **This sits in her wider "never economise on heating" position**, recorded in full on [[11_Budget_and_Planning/analysis/cost_saving_strategies_full|Cost Saving Strategies]].
 
-## Radiator Alignment Check and Supply-Pipe Chase Fixation (Петришин-Строй, added 2026-08-24, Round 2)
+**⚠️ No prices, no pipe sizes and no manifold specifications** — the recommendation is directional only.
 
-Petrishin-Stroy, region level 2 (channel-level Moscow association only):
-check radiators level and square with a bubble level and square tool, not
-by eye — and specifically check alignment against where the future
-window sill will sit once windows go in, not just level to the floor. A
-radiator that passes a basic level check but sits visibly skewed relative
-to the sill above it still reads as a defect to some occupants. Supply
-pipes feeding into/out of the radiator must be anchored in their wall
-chase with plaster mix specifically at the wall entry/exit points, so the
-pipe can't shift against the finished radiator connection. [source: [[_Sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
+## Selection — Type, Material, Sizing and Placement
 
-## Radiator vs. Convector: the Underlying Physics (added 2026-08-24)
+### Radiator vs. Convector: the Underlying Physics (added 2026-08-24)
 
 Konstantin Kruglov / Ontario explains: **⚠️ a convector heats a room almost entirely by convection; a radiator heats by both convection and direct radiant heat — a clear mechanism distinction underlying every other tradeoff between the two fixture types.** A convector's thin water-carrying tube, finned with aluminum or copper to maximize air-contact surface area, warms only the air passing between its fins — cold air enters low, warms, rises, and pulls more cold air in behind it (a self-sustaining convection loop); a fan-assisted convector speeds this cycle but at a real, audible noise cost (a plain convector doesn't disturb sleep, a fan-assisted one is genuinely noticeable at night). A radiator runs the same convection loop *and* radiates heat directly into the furniture, walls, and floor around it. **Bottom line: a radiator heats everything around it including the walls; a convector only heats the air directly above itself.** Radiators are more massive and slower to heat up, but hold warmth significantly longer once hot. [source: [[_Sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
 
 **Designer/architect practice — supplementing an in-floor convector with an additional vertical wall radiator**: at extreme cold (source's example: -30°C), a convector's air-only heating doesn't project far enough into a room — a bed against the far wall from the window may not receive adequate warmth. A slim vertical wall radiator, taking minimal floor space, increases in-room air convection and closes this gap. `single-account`. [source: [[_Sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
 
-## Moscow Developer Default Radiator Materials (added 2026-08-24, level-1 region)
+### Moscow Developer Default Radiator Materials (added 2026-08-24, level-1 region)
 
 Konstantin Kruglov / Ontario reports: **Moscow developers most commonly install sectional aluminum radiators or panel-type steel radiators by default, with bimetallic radiators used more rarely.** All three are reasonably reliable as a developer default — if the appearance is acceptable to the owner, there's no technical need to replace them. [source: [[_Sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
 
-## Radiator Connection Side (added 2026-08-24)
+### Radiator Connection Side (added 2026-08-24)
 
 **⚠️ Bottom-through-the-floor radiator connection (two pipes protruding from the finished floor) is explicitly discouraged**: unattractive, obstructs normal cleaning (neither a robot vacuum nor manual cleaning works properly around protruding pipes), and requires cutting into the finished floor covering for the penetration. **Through-the-wall connection is recommended instead** — doesn't compromise the floor covering and doesn't interfere with cleaning or a robot vacuum. Applies to horizontal/sequential and radial distribution; a vertical-riser system has no such choice (side connection only). [source: [[_Sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
 
@@ -101,7 +87,7 @@ hidden pipe, or having to route the baseboard around a floor-level pipe,
 when the baseboard goes in during the finishing stage. (added 2026-08-24,
 Round 7) [source: [[_Sources/YT_YxXfsKoyx6M_petrishin_flood_prevention_heating|YxXfsKoyx6M]]]
 
-## Radiator Comparison by Construction Material (added 2026-08-24)
+### Radiator Comparison by Construction Material (added 2026-08-24)
 
 | Type | Pros | Cons | Recommended use |
 | :--- | :--- | :--- | :--- |
@@ -112,11 +98,7 @@ Round 7) [source: [[_Sources/YT_YxXfsKoyx6M_petrishin_flood_prevention_heating|Y
 
 **⚠️ Safety rules for installing a stylish steel tubular radiator on a central system anyway**: buy only from verified manufacturers; confirm the model is tested to withstand ≥10 atm; prefer internal anti-corrosion treatment; always install through a ball valve, filter, and automatic air bleed valve; **never on a vertical-riser system — radial distribution only.** [source: [[_Sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
 
-## Presenter's 7-Rule Heating Checklist (added 2026-08-24, Round 3)
-
-Konstantin Kruglov's own quick-reference checklist for apartment heating decisions: (1) secondary-market unit with never-replaced radiators → replace them; (2) vertical riser present → conceal with an L-shaped box (access hatch) or a false wall with radiator niche; (3) sequential/horizontal distribution → convert to radial; (4) a room with only in-floor convectors → reinforce with one additional wall-mounted radiator; (5) enclosing/insulating a loggia/balcony → add underfloor heating *and* a dedicated outlet or pre-installed electric convector for fast air heating (see [[12_Engineering_and_Systems/analysis/Heating_Placement_Rules|Heating Placement Rules]]'s loggia speed-caution nuance); (6) worried about future leaks → install leak protection, but expect it to suit an in-floor-convector configuration much better than exposed surface radiators (see [[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak Protection Systems]]); (7) want a stylish look → steel tubular radiators; want the best price/quality balance → bimetallic radiators. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
-
-## Radiator Construction Type, Spacing, and Sizing Formula (added 2026-08-24)
+### Radiator Construction Type, Spacing, and Sizing Formula (added 2026-08-24)
 
 - **Build type**: sectional (add/remove sections to hit a target output) vs. panel (fixed manufactured output rating); also differ by mounting orientation (vertical vs. horizontal). [source: [[_Sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
 - **Center-to-center ("inter-axial") spacing standard**: 500mm is by far the most common dimension between a radiator's top and bottom connections; less common alternatives at 300mm, 350mm, 600mm, and 800mm. [source: [[_Sources/YT_d5a3hti_P8g_kruglov_heating_truth_developers|d5a3hti_P8g]]]
@@ -127,11 +109,7 @@ Part of [[12_Engineering_and_Systems/Heating|Heating]]. Covers the two "skip the
 > [!NOTE]
 > `single-account`, same channel (Zemstandart/Alexey Zemskov), two companion videos processed together. The in-floor convector source is framed by its own speaker as 10+ years of direct installation/warranty/post-warranty service experience — a stronger evidence basis than a typical single-video opinion, but still one practitioner's account, not independently verified. [sources: [[_Sources/YT_-Kh9JZ34zRc_floor_standing_radiator_risks_043|floor-radiator note]], [[_Sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|in-floor convector note]]]
 
-## ⚠️ Safety Incident — Read This First
-
-**A documented real incident, described by its source as an active lawsuit against the manufacturer at time of filming**: an in-floor convector's decorative grille (only ~5mm wide, far narrower than laminate's typical expansion allowance) was jammed solid by laminate expansion. A dropped chain/necklace fell into the jammed grille; a young child attempting to help retrieve it got their fingers wedged and permanently stuck. Multiple household attempts to free the fingers (soaking with water, then vegetable oil) and a neighbor's help all failed; emergency responders were eventually called and had to cut/dismantle the grille in sections — the process took long enough that the child's fingers were lost. `single-account`, not independently verified beyond the source's own account, but stated as a specific, real, still-litigated case, not a hypothetical — treat this as the single most severe safety-relevant fact recorded anywhere in this vault to date, and weigh it heavily against any decision to install an in-floor convector in a home with small children. [source: [[_Sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|d6xjRRXeOnc_infloor_conv]]]
-
-## Wall-Mounted Radiator False-Wall Depth (added 2026-08-19)
+### Wall-Mounted Radiator False-Wall Depth (added 2026-08-19)
 
 > [!NOTE]
 > A third source, real project. [source: [[_Sources/YT_OUX-lc5Wqog_irregular_apartment_replanning_212|note]]]
@@ -140,20 +118,7 @@ The false-wall depth needed to recess a wall-mounted radiator depends on the wal
 
 **Whether to bother embedding at all, a two-condition decision rule (added 2026-08-19)**: full embedding is only worth doing if *both* conditions hold — (1) the exterior wall is a lightweight/aerated-concrete type needing extra insulation at the radiator location, and (2) there's an old air-heating-system void/cavity behind the wall that needs concealing. **If neither condition applies, skip full embedding** — a shallow ~11-13mm recess is enough, since the remaining protrusion becomes visually negligible once plastered. [source: [[_Sources/YT_1_IcoSaNKP4_multitrade_qc_tour_049|note]]]
 
-## Developer-Installed Window-Sill Convectors (added 2026-08-24, Round 2)
-
-Konstantin Kruglov / Ontario, real Moscow jobsite, gives a detailed multi-part critique of a common developer default — a window-sill-mounted convector, distinct from the in-floor convector type covered below:
-
-1. **Poor heat transfer** — the unit only warms the air immediately around the window, not the room generally.
-2. **Screed-height conflict**: on this specific jobsite, the convector's height forced the screed above the building's normal floor-transition level — the developer reportedly knew this in advance and installed the unit anyway.
-3. **No decorative closing/trim plate** at the finished-floor transition, leaving an unavoidable exposed cut at that joint.
-4. **The floor area directly around/under the unit can't be used for furniture.**
-
-**Real comparison anecdote**: a neighbor on the same project kept the developer's convector (this client's crew removed theirs and installed a radiator instead) and later reported struggling with cold in winter, resorting to portable electric heaters.
-
-**Fix recommendation**: replace with a horizontal radiator where space allows, or a vertical radiator on an adjacent wall if not. [source: [[_Sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
-
-## Floor-Standing Radiators
+### Floor-Standing Radiators
 
 A floor-standing radiator (as opposed to one mounted behind a false wall) has several fixture-specific failure modes:
 
@@ -168,7 +133,32 @@ A floor-standing radiator (as opposed to one mounted behind a false wall) has se
 1. **Windowsill recess / false wall**, where a windowsill ledge exists: recess the radiator into the windowsill depth, or box it behind a false wall. [source: [[_Sources/YT_-Kh9JZ34zRc_floor_standing_radiator_risks_043|-Kh9JZ34zRc_floor_standi]]]
 2. **Raised podium**, where there's no windowsill (floor-to-ceiling glazing with the radiator directly beneath it): build a 10-12cm podium under the window, route supply pipes up through the podium rather than through the finished floor, and set the windowsill on top; close the section under the podium with baseboard. [source: [[_Sources/YT_-Kh9JZ34zRc_floor_standing_radiator_risks_043|-Kh9JZ34zRc_floor_standi]]]
 
-## In-Floor Convectors
+### Vertical Radiator Height Coordinated With Future Built-In Furniture (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**A real-jobsite example: a vertical radiator installed at a deliberately nonstandard height**, not the usual default placement, specifically so a planned built-in furniture piece (a wardrobe/storage unit) fits around it correctly once installed later. A concrete real-project instance of coordinating radiator placement with furniture layout at the rough-plumbing stage, rather than letting furniture design work around wherever the radiator naturally lands. `single-account`, `unverified`. [source: [[_Sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
+
+## Convectors — In-Floor and Window-Sill
+
+### In-Floor Convector Final Leveling — Don't Finalize Without a Physical Flooring Sample (added 2026-08-24, Round 5)
+
+Pavel Sidorik, same project, episode #27 (self-leveling floor stage): an in-floor heating convector was roughly positioned and leveled at the earlier plumbing stage, then embedded in film and screed poured around it — but its **final** height leveling deliberately waited until the finish-flooring stage, once at least one physical sample piece (a board/strip) of the actual floor covering existed on site. **A genuinely reusable sequencing principle**: don't finalize the leveling of any height-critical, screed-embedded fixture using only a spec'd thickness number — get a physical flooring sample in hand first, especially where mixed-height/multi-material floor transitions are involved, since it's easy to get the flush height wrong from the number alone. Final leveling used floor-panel samples placed on both sides of the convector as a height reference, adjusted via leveling bolts, then locked with side brackets.
+
+**Thermostat control-cable serviceability lesson**: the convector's temperature dial connects via a steel cable to a thermo-head, with two install options — one allowing the thermo-head mechanism to be swapped later, one that doesn't. The speaker initially installed the simpler non-replaceable version, then reconsidered and redid it with a corrugated conduit sleeve specifically so the mechanism could be serviced/replaced later. **Route a control cable/mechanism with a service sleeve even when a simpler direct routing looks fine initially** — a small extra effort at rough-in avoids being unable to service the mechanism later. [source: [[_Sources/YT_kXGYTsBTKj8_sidorik_self_leveling_floor_ep27|kXGYTsBTKj8_sidorik_self_leveling_floor_ep27]]]
+
+### Developer-Installed Window-Sill Convectors (added 2026-08-24, Round 2)
+
+Konstantin Kruglov / Ontario, real Moscow jobsite, gives a detailed multi-part critique of a common developer default — a window-sill-mounted convector, distinct from the in-floor convector type covered below:
+
+1. **Poor heat transfer** — the unit only warms the air immediately around the window, not the room generally.
+2. **Screed-height conflict**: on this specific jobsite, the convector's height forced the screed above the building's normal floor-transition level — the developer reportedly knew this in advance and installed the unit anyway.
+3. **No decorative closing/trim plate** at the finished-floor transition, leaving an unavoidable exposed cut at that joint.
+4. **The floor area directly around/under the unit can't be used for furniture.**
+
+**Real comparison anecdote**: a neighbor on the same project kept the developer's convector (this client's crew removed theirs and installed a radiator instead) and later reported struggling with cold in winter, resorting to portable electric heaters.
+
+**Fix recommendation**: replace with a horizontal radiator where space allows, or a vertical radiator on an adjacent wall if not. [source: [[_Sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
+
+### In-Floor Convectors
 
 A more severe version of the floor-standing radiator's problems, plus several unique ones:
 
@@ -185,115 +175,32 @@ A more severe version of the floor-standing radiator's problems, plus several un
 
 **Bottom-line recommendation**: avoid in-floor convectors wherever a normal wall-mounted radiator (concealed behind a false wall if desired) is feasible instead. [source: [[_Sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|d6xjRRXeOnc_infloor_conv]]]
 
-## Real Radiator-Fitting Flood Incident — System Topology and a Liability-Determination Mechanism (Петришин-Строй, real ЖК Рассказово object, added 2026-08-24, Round 10)
+## Risers, Chases and Concealment
 
-Real incident, region level 2 (named development, no city spoken), low
-promotional ratio. **Genuinely distinct mechanism from this vault's other
-flooding incidents** (see [[11_Budget_and_Planning/analysis/Demolition|Demolition]]'s towel-warmer/demolition-accident
-incidents and this channel's Round 9 concealed-ventilation-valve defect)
-— this is a **developer-installed heating-fitting failure during an
-active renovation**, not demolition-crew damage or a years-later
-concealed defect.
+### Vertical Riser: Bypass Requirement, Replacement Decision, and Boxing Methods (added 2026-08-24, Round 3)
 
-- **⚠️ Two-pipe, non-radial ("двухтрубная не лучевая") heating-system
-  design flaw**: on this topology, one radiator's fitting failing forces
-  shutting off the **entire apartment's** heating to stop the leak, not
-  just the failed radiator — a real, checkable system-topology liability
-  worth asking about before choosing/accepting this heating layout.
-- **Failure point and liability mechanism**: a multi-connector
-  ("американка") push-fit fitting's rubber gasket burst at the **lower**
-  (shutoff/pressure-test-valve) connection point, not the **upper**
-  connection point where a radiator is routinely disconnected for
-  renovation work (painting, repositioning). The management company
-  blamed the contractor for "touching the radiator"; the plumbing
-  specialist's rebuttal — only the upper connection was touched, the
-  lower failure point never was — turns on this exact distinction.
-  **A concrete, reusable liability-determination question for any
-  similar dispute: which specific connection point failed, and was that
-  the one anyone actually worked on?**
-- **Material-traceability red flag**: the failed fitting/pipe carried no
-  visible manufacturer branding at all, contrasted with named reputable
-  brands (Uponor, "TC") — an unbranded/unverifiable developer-installed
-  material is a real risk signal independent of the specific failure.
-- **Confirmed pattern, not an isolated incident**: plumbers responding to
-  this leak independently confirmed multiple similar leaks had already
-  occurred elsewhere in the same development the same day.
-- **Structured 4-factor root-cause theory from the responding plumbing
-  specialist**: developer materials often meet code but are of murky,
-  non-durability-focused quality; developer crews are paid for
-  throughput and may physically stress fittings during original
-  installation; too many multi-piece connector joints (vs. continuous
-  runs with minimal connections) raises the total failure-point count;
-  an unverified/unbranded supplier is itself a risk factor.
-- **Preventive recommendations given directly by the crew**: maintain
-  access to entrance-level heating shutoff valves during any work
-  touching the heating system, and never leave a system restarted
-  unattended; request advance notice from the management company before
-  any system restart following an interruption; handle exposed original
-  developer piping gently during renovation (don't step on or pull it);
-  hire an independent handover/acceptance inspector before accepting a
-  new-build/newly-renovated apartment; where possible, let a new-build
-  apartment pass through at least one full heating season before
-  finalizing renovation work; document the developer's existing
-  plumbing/heating layout before pouring a screed that would bury it;
-  and, budget permitting, fully replace all developer-installed
-  materials/equipment rather than reusing them — framed as the single
-  most decisive recommendation of the set.
+Konstantin Kruglov / Ontario explains: **⚠️ replacing a radiator on a vertical riser requires the management company to install shutoff valves above and below it, plus a bypass** — a short pipe connecting supply and return around the radiator so the shared riser keeps flowing to floors above while this unit's radiator is isolated. **The bypass itself must never have a valve on it and must always stay open.** If full isolation capability isn't something you actually want to use, there's no need to add shutoff valves at all — keep the developer default as-is. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
 
-[source: [[_Sources/YT_GLU9nJYrtbQ_petrishin_radiator_flood_rasskazovo|GLU9nJYrtbQ]]]
+**Two concrete methods for boxing in an exposed vertical riser** (extends the boxing-permitted-with-access-hatch rule already on `Rough_Plumbing_Sequencing.md`): [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
 
-## Real Radiator Freeze-Burst Incident — Heating-Interruption + Open-Window Mechanism, and a Positive Case for Radial Piping (Петришин-Строй, added 2026-08-24, Round 12)
+1. **L-shaped enclosure box** — consumes essentially zero usable floor area; include a small access hatch at the bottom (finished with matching wallpaper/paint) so a future inspection needs only that hatch opened, not the whole box removed.
+2. **False wall with a radiator niche** (open or covered with a purchased/custom screen) — genuinely new bonus-benefit list: a deeper window reveal/sill (room for an outlet, more usable sill depth), and a clean baseboard-to-corner transition where it meets a stretch ceiling, versus two baseboard runs butting awkwardly into an exposed pipe. Material cost roughly offsets the plastering labor it replaces.
 
-Real incident, filmed on-site day-of/day-after. Region level 1 (a real
-city named directly, ASR-uncertain exact spelling). Low promotional
-ratio. **Explicitly cross-checked against this channel's three other
-flood/burst incidents — Round 4's demolition-crew towel-warmer damage,
-Round 9's years-later concealed ventilation-valve defect, and Round 10's
-radiator-fitting failure above — confirmed a genuinely distinct, fourth
-mechanism**: this is a **freeze-burst caused by an externally-interrupted
-heating supply combined with a window left open for post-plaster
-drying**, not demolition damage, a concealed defect, or a single fitting
-failure.
+**⚠️ L-shaped box cost figure + a curtain-flexibility argument (Round 15, added 2026-08-28)**: a simple L-shaped drywall box around an exposed riser costs roughly **3,000 RUB** (below this store's $-bucket rounding threshold at this video's 2024-08-23 date). **New argument for boxing it in rather than just curtaining over it**: relying on curtains alone to visually hide an exposed riser locks you into curtains specifically — switching later to roller/roman blinds (mounted flush to the glass, no fabric drape) removes the concealment entirely, since a blind doesn't drape past the window reveal the way a curtain does. `single-account`, `unverified`. [source: [[_Sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
 
-- **Root-cause chain**: an unrelated radiator leak elsewhere in the same
-  new-build development led the management company to cut heating supply
-  to **multiple apartments at once** (including this one) rather than
-  diagnosing which unit was actually affected; this crew had left a
-  window cracked for post-plaster/screed drying, a normally reasonable
-  practice; with heat cut and cold air entering, water remaining in the
-  radiator loop **froze**, and ice expansion tore the rubber gasket at
-  **both the upper and lower** connection points of one radiator
-  simultaneously.
-- **⚠️ Management-company diagnostic-failure pattern**: shutting off
-  heating to several units in response to one unit's leak, without first
-  identifying the actually-affected unit, is itself a real risk factor —
-  it can convert an unrelated building problem into a freeze-burst in an
-  apartment that had no leak of its own.
-- **Real incident scale**: only ~1-1.5 liters of water leaked before the
-  client caught it — no flooding of neighbors, explicitly framed as
-  lucky/minor.
-- **Diagnostic sequence**: unusually low room temperature noticed → the
-  apartment's own heating manifold/collector node checked and found fully
-  open (nothing wrong on this unit's own side) → the floor/landing's
-  shared water-supply shutoff checked and found closed by the developer →
-  reopening it is what revealed the actual leak.
-- **⚠️ Radial ("лучевая") piping — a positive case for Round 10's
-  implied recommendation**: because this apartment's heating was piped
-  radially (each radiator on its own dedicated PEX/"сшитый полиэтилен"
-  supply-return line and valve), the crew could isolate and shut off
-  only the single burst radiator, leaving the other three fully
-  functional during the gasket repair — the same system-topology
-  tradeoff Round 10's non-radial incident flagged as a liability, now
-  confirmed from the opposite (positive) direction, with an explicit
-  practitioner recommendation to choose radial wiring specifically for
-  this isolation capability whenever heating pipes/radiators are being
-  replaced.
-- Named product: Royal Termo radiators (client-purchased, company-
-  installed) — no price stated.
+### Radiator Alignment Check and Supply-Pipe Chase Fixation (Петришин-Строй, added 2026-08-24, Round 2)
 
-[source: [[_Sources/YT_oA6gABulhJk_petrishin_radiator_freeze_burst|YT_oA6gABulhJk]]]
+Petrishin-Stroy, region level 2 (channel-level Moscow association only):
+check radiators level and square with a bubble level and square tool, not
+by eye — and specifically check alignment against where the future
+window sill will sit once windows go in, not just level to the floor. A
+radiator that passes a basic level check but sits visibly skewed relative
+to the sill above it still reads as a defect to some occupants. Supply
+pipes feeding into/out of the radiator must be anchored in their wall
+chase with plaster mix specifically at the wall entry/exit points, so the
+pipe can't shift against the finished radiator connection. [source: [[_Sources/YT_OgIZhrxD4v4_petrishin_plumbing_quality_checklist|OgIZhrxD4v4]]]
 
-## Decorative Radiator Covers (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
+### Decorative Radiator Covers (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
 
 `single-account`, heavily ASR-garbled trade-fair source, region
 unresolved, high promotional ratio. A decorative cover/cabinet product
@@ -303,17 +210,18 @@ market-product category worth knowing about when a radiator's own
 appearance doesn't suit the room, rather than one specific model's spec.
 [source: [[_Sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]
 
-## Vertical Radiator Height Coordinated With Future Built-In Furniture (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+## Controls, Sensors and Checklists
 
-**A real-jobsite example: a vertical radiator installed at a deliberately nonstandard height**, not the usual default placement, specifically so a planned built-in furniture piece (a wardrobe/storage unit) fits around it correctly once installed later. A concrete real-project instance of coordinating radiator placement with furniture layout at the rough-plumbing stage, rather than letting furniture design work around wherever the radiator naturally lands. `single-account`, `unverified`. [source: [[_Sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
+### Leak-Protection Sensor and Thermostatic-Head Opinions (added 2026-08-24, Round 3)
 
-## ⚠️ Why the New-Build Series Connection Actually Bites, and американка Valves as a Safety Item (Татьяна Безверхая, added 2026-09-02)
+Konstantin Kruglov / Ontario: **⚠️ a wireless leak-protection sensor tag suits an in-floor convector (sits undisturbed inside the housing) but is often more nuisance than benefit on an exposed surface-mounted radiator** — a loose tag near a surface radiator gets knocked around by pets or a robot vacuum. Recommendation: skip the leak-protection sensor for ordinary surface radiators if quality fittings were used and the system was properly pressure-tested; reserve it for an in-floor convector installation. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
 
-Moscow-area designer, 2022, `promotional_ratio: low` (no sponsor). **Corroborates the radial-versus-sequential distribution content already on this page and on [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Rough Plumbing Sequencing]] — her contribution is the *user-facing* consequence, which those accounts state as an installation-quality issue rather than a control one.** [source: [[_Sources/YT_C5c2g6FzAKQ_bezverkhaia_ten_never_economise|C5c2g6FzAKQ]]]
+**Explicit personal opinion against thermostatic radiator valve heads, flagged as such by the source itself**: debris/grit entering the system can lodge in a thermostatic head's valve and cause persistent whistling; every added regulating mechanism is one more failure point. Preference: on a radial/manifold system, simply close the manifold's own valve for that radiator's line instead of fitting a thermostatic head. The presenter explicitly invites disagreement — tag as opinion, not a settled store-level rule. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
 
-- **⚠️ Russian new-builds are by default plumbed with radiators connected in series (последовательная система) — and the consequence she names is the one that matters day to day: reducing one radiator's output with its thermostat reduces the output of every other radiator too.** So the per-room control a thermostat appears to offer does not exist on the developer's default system.
-- **⚠️ The fix: convert to a radial/manifold connection (лучевое подключение), where each radiator runs separately from a manifold cabinet and can be regulated independently.** **Corroborates the existing Kruglov/Ontario recommendation** (which praises radial distribution as rare good developer practice and recommends it for any self-installed heating) **from the control side rather than the floor-penetration side.**
-- **⚠️ For an older building on a riser (стояк) system, where radial conversion is not available: fit an "американка" union valve at each radiator so it can be isolated at will.** **⚠️ And she frames this as a safety item, not only a convenience one: if the radiator leaks, close the unions, remove it and replace it** — without waiting on the building's system being shut down.
-- **This sits in her wider "never economise on heating" position**, recorded in full on [[11_Budget_and_Planning/analysis/cost_saving_strategies_full|Cost Saving Strategies]].
+### Presenter's 7-Rule Heating Checklist (added 2026-08-24, Round 3)
 
-**⚠️ No prices, no pipe sizes and no manifold specifications** — the recommendation is directional only.
+Konstantin Kruglov's own quick-reference checklist for apartment heating decisions: (1) secondary-market unit with never-replaced radiators → replace them; (2) vertical riser present → conceal with an L-shaped box (access hatch) or a false wall with radiator niche; (3) sequential/horizontal distribution → convert to radial; (4) a room with only in-floor convectors → reinforce with one additional wall-mounted radiator; (5) enclosing/insulating a loggia/balcony → add underfloor heating *and* a dedicated outlet or pre-installed electric convector for fast air heating (see [[12_Engineering_and_Systems/analysis/Heating_Placement_Rules|Heating Placement Rules]]'s loggia speed-caution nuance); (6) worried about future leaks → install leak protection, but expect it to suit an in-floor-convector configuration much better than exposed surface radiators (see [[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak Protection Systems]]); (7) want a stylish look → steel tubular radiators; want the best price/quality balance → bimetallic radiators. [source: [[_Sources/YT_Q1KSHFhLzJo_kruglov_heating_secrets|Q1KSHFhLzJo]]]
+
+## The two real failure incidents — moved to their own page
+
+See **[[12_Engineering_and_Systems/analysis/Radiator_Failure_Incidents|Radiator Failure Incidents — a Flood and a Freeze-Burst]]**. **They are the evidence behind the safety cautions on this page** — in particular the "Safety Incident — Read This First" section above.
