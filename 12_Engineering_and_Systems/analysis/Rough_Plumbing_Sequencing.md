@@ -54,6 +54,37 @@ Pavel Sidorik gives a **minimum comfortable toilet width when demolishing/rebuil
 
 [source: [[_Sources/YT_Cj2U_wVlG-I_sidorik_plumbing_intro_node_errors|Cj2U_wVlG-I_sidorik_plumbing_intro_node_errors]]]
 
+### ⚠️ Collector (Гребёнка) Distribution, Pipe Insulation as a Screed Compensator, and a Flat Refusal of Sewage Pumps (NSDSGN, 2022–2023)
+
+**Three items from live sites and one from a regrets episode, all on the same channel.**
+
+**⚠️ Collector distribution — stated as the failure it prevents, which is the form worth remembering.** Every fixture gets its **own separate hot and cold line** from the collector. With тройниковая разводка — the single-line arrangement — **«кто-то моется в душе, мы слили воду… и в душе холодная вода пропала», or «в туалете кто-то спустит воду или на кухне откроет — и сразу ошпаривает, потому что пропадает горячая вода»**. A properly assembled collector node removes those swings. [source: [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+
+- **They use FAR гребёнки, chosen for operability: «они очень легко открываются — их может девушка, ребёнок покрутить».**
+- **⚠️ Each valve is labelled, and they later add separate plates WITH PICTURES showing what each one controls — «это очень понятно становится».** A cheap, durable usability decision that survives the occupants forgetting.
+- **Finishing the node's back wall: either a chromed perforated sheet, or simply tile it with the cheapest tile, the only requirement being that it matches the wall colour.**
+- **A framing worth keeping for site QC: «узел коллекторов водоснабжения очень часто является лицом всей стройки»** — the manifold is the visible proxy for the whole job's quality. *(Consistent with the «культура ремонта» criterion this channel gives for judging a site visit.)*
+
+**⚠️ Pipe insulation (шуба) does three jobs, and the third one protects the screed.** [same source]
+
+- **On COLD water it prevents condensation — without it «просто конденсат образовывается, и там протечки, мокрое место, плесень, сырость».**
+- **⚠️ The common defect: the sleeve is fitted but not carried to the end — «в лучшем случае, если её одевают и не доводят до конца». Dedicated end caps (колпачки) exist to close it fully — «чтобы всё было полностью заизолировано».**
+- **On HOT water it is also a heat-loss measure.**
+- **⚠️ AND THE THIRD JOB, which is the one to specify against: where a hot pipe enters the SCREED the pipe expands, so the sleeve acts as a COMPENSATOR — «шуба прессуется и при этом позволяет ей куда-то расширяться, и не трещит стяжка». → A specific, checkable reason never to omit insulation on a hot pipe cast into a screed, independent of the heat-loss argument.**
+
+**⚠️ Sewer stack soundproofing, with the reason stated: they are mid-building, not on the top floor, so «всё, что сверху летит, в принципе бьётся об стенки канализации — это бывает слышно». They add extra soundproofing to the soil pipe «для того чтобы соблюсти в дальнейшем комфорт клиентов».** [same source]
+
+**⚠️ And a flat refusal of sewage pumps (сололифт), with a jurisdictional argument.** The context: clients want an island mid-kitchen, or a WC relocated to the far end of the flat where the stack cannot be reached, so the only drainage is a pump.
+
+- **«Я всегда, вот ВСЕГДА отговариваю заказчиков.»** **⚠️ The argument is a power-supply one and it is specific (RUSSIA — jurisdiction flagged per the standing rule, and it stays on this technical page): «по закону управляющая компания может на одни сутки легко, без каких-либо нарушений, отключать электричество в доме» for maintenance — and for that day, minimum, the fecal pump does not work.**
+- **And the sensory objection: «вспомните, когда вы пошли в туалет в самолёте и спустили воду — вот такой звук у вас будет дома».**
+- **⚠️ His governing principle: «вода из ванны, из унитаза должна своим ходом течь в фановую трубу — что бы ни случилось, она должна сама туда убежать. Все эти навороты и изобретения могут очень сильно не упростить вам жизнь, а наоборот её усложнить.»**
+- **Corroborated by practice on the same channel's live site: they avoided a сололифт by routing the pipe down through the BASEMENT ceiling and coming out where needed** — «у нас не было сололифта». [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]] and [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]
+
+**⚠️ A related bath-height consequence, and the answer is serviceability rather than a fight with the fall.** On the designer's own flat the bath's waste was CENTRAL while the stack sat in the opposite corner: the water had to cross, run along the wall, bend, and reach the stack — **a long run, so «нам пришлось довольно сильно задрать ванну. К сожалению, здесь по-другому было сделать никак.»** **The mitigation they designed in: a concealed hatch that lifts out ENTIRELY, so «даже человек небольшого роста может легко пролезть под ванну и всё там починить». → A centrally-draining bath far from the stack forces bath height; design a full-size access hatch rather than fighting the gradient.** [source: [[_Sources/YT_7zpsZtcTkCM_nsdsgn_own_flat_55m2_retrospective|YT_7zpsZtcTkCM]]]
+
+**And a dust rule before closing up, from the same site: «всегда перед тем как вы закладываете сюда минвату и зашиваете стенки — обязательно нужно пылесосить, обязательно убирать эту пыль везде и отовсюду с перегородок, где розетки, подрозетники, выключатели».**
+
 ## Drain and Soil Pipes — Slope, Bends and Joints
 
 ### Never Dry-Fit a Drain/Sewage Pipe Joint

@@ -26,6 +26,33 @@ The most strongly corroborated procedural content in the batch — **four indepe
 
 ---
 
+## ⚠️ A Second Complete Method, and a Flat Refusal to Name Colours by Code (Александр Сенчугов / NSDSGN, 2025-01-31)
+
+**A worked sequence from a live object, and it independently reaches the same conclusions as the method below.** [source: [[_Sources/YT_2B67955_Z5I_nsdsgn_site_review_finish_details|YT_2B67955_Z5I]]]
+
+### ⚠️ Why "just tell me the RAL code" is refused
+
+**«Очень часто мне пишут в соцсетях: Александр, подскажи цвет — такая классная голубая кухня, такой крутой фасад кирпичного цвета, подскажи по RAL, по NCS, по любой палитре. Я могу сказать, что это полный бред. Не надо, пожалуйста, таких вопросов задавать, потому что это вам никак не поможет.»**
+
+**The reason: «вы думаете, что вот на кадре это классно, и я применю у себя на кухне — но у вас будет вообще по-другому с вероятностью 99,9%».** **→ A colour code transferred from a photograph of someone else's room carries no information about how it will read in yours.** *(The same conclusion this page's existing method reaches from the shop's side; this is it stated from the request's side, which is the form clients actually ask in.)*
+
+### Their sequence, and where it produced changes
+
+1. **Design project with 3D renders**, colours selected from a palette.
+2. **⚠️ SEVERAL выкрасы made — of the chosen colour AND its neighbours on the palette**, not one sample.
+3. **Taken to the actual room, WITH the clients present.**
+4. **⚠️ And the result, which is the argument for the whole exercise: the colours read completely differently there. One was perfect as chosen; one was remade half a tone warmer; one was redone entirely.** «Оказалось, что именно здесь, в этом помещении, цвета смотрятся совершенно по-другому.»
+
+### ⚠️ Two execution details
+
+- **Make the выкрас on a LARGE sheet — A4 or even A3 — «желательно их делать не на вот таком маленьком квадратике».**
+- **View it in daylight AND under artificial light.**
+- **A demonstration worth using on a sceptical client: a wall that reads white on camera is not white — hold a sheet of white paper against it and «вы увидите, что вообще не белый цвет; он имеет тон, теплоту, оттенок».**
+
+### The economic argument, stated as the alternative
+
+**«Представляете, если бы мы закупили всю краску, выкрасили, потратили деньги на работы, на материалы, и потом мы сюда пришли и увидели, что это вообще не подходит. Поэтому проще купить баночку краски, сделать выкрас и потом наслаждаться красотой.»** On a flat over 100 m² the asymmetry between one tin and a full repaint is the entire case.
+
 ## A Complete Working Method for Choosing Paint (Надежда Кузина, added 2026-09-01, Round 4)
 
 **⚠️ The most executable content routed to this page.** Four sources from one round; the paint-selection source is a full procedure rather than a set of principles, and it becomes this page's backbone.

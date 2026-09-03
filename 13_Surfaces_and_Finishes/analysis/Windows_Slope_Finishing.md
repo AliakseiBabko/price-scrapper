@@ -40,6 +40,33 @@ Legitimate specifically because insulation/soundproofing isn't the point at thes
 1. **A temporary/non-structural partition wall** (worked example: a thin ~58mm stud-and-drywall partition splitting one space into two) — no thermal/acoustic slope performance is needed for a wall this light.
 2. **The exterior-facing slope of a balcony/loggia glazing block specifically** — the "quarter" ledge a window frame normally seats against typically leaves only ~2-3cm of frame visible from outside, too little clearance to tuck an insulated sandwich panel behind the frame there — a structural clearance constraint, not a cost-cutting choice.
 
+## ⚠️ Windowsills — Materials, a Corrected Myth, and the Radiator Rule (Руслан via NSDSGN, 2025-01-31)
+
+[source: [[_Sources/YT_2B67955_Z5I_nsdsgn_site_review_finish_details|YT_2B67955_Z5I]]]
+
+### Materials for a sill or a balcony step, with the governing criterion
+
+**Options given: continue in the same PARQUET; porcelain stoneware (they use the floor tile on the balcony step); quartzite; quartz agglomerate.** **⚠️ And the criterion that decides among them: WEAR RESISTANCE, because a step «это такое место проходное» — «главное, чтобы они были износостойкими и не портились, не царапались».** So a sill and a step are not the same specification problem even in the same material family.
+
+### ⚠️ A widespread myth corrected — what the "ears" on a classical sill are for
+
+**The host states the common belief outright — that the проушины exist to mask a crooked wall — and is corrected: «нет, вообще совершенно не для этого».**
+
+**They are the SUPPORTS for the window's framing.** In old interiors a window was always framed with an наличник, **and the проушина is the base the наличник grows from «чтобы он не висел непонятно как» — it is part of the window's surround, not a tolerance device.** **→ In a modern interior with no наличник, «этот элемент по сути как бы не нужен».**
+
+### ⚠️ Projection versus the radiator — a building-physics rule with a threshold
+
+- **A small overhang is made so the sill is wide enough to put things on.**
+- **⚠️ But it must NOT fully cover the radiator. You may extend it to the MIDDLE of the radiator, «чтобы тепло с радиатора попадало на окно».**
+- **⚠️ And if it must be wider than that: «обязательно нужно делать ПЕРФОРАЦИЮ в этом подоконнике, чтобы тепло от радиатора проходило по окну — во избежание точки ро[сы], скопления влаги на окне».**
+- **→ So sill width is capped by the radiator's convection path, and past that cap the sill must be perforated. Condensation on the glass is the failure being designed against.** *(Cross-reference [[12_Engineering_and_Systems/analysis/Heating_Placement_Rules|Heating Placement Rules]].)*
+
+### ⚠️ The minimalist flush sill has a hard prerequisite
+
+**«Если вы всё-таки хотите свой супер-минималистичный интерьер, сделать подоконник заподлицо — то если у вас обычная квартира, ремонт от застройщика, то скорее всего у вас не получится. Просто потому что здесь должна быть идеально прямая стена, иначе будет морковка — будет торчать ваш камень.»**
+
+**→ A flush windowsill is a WALL-FLATNESS purchase before it is an aesthetic one**, and in a developer-finish flat it is probably not available at all. **His generalisation is the transferable part: «минимализм — это про очень грамотную работу строителей, где счёт идёт на миллиметры везде и во всём».** *(The same conclusion this channel's cost roundtable reaches from the budget side — minimalism raises the minimum acceptable trade quality rather than lowering material cost — and the same «морковка» failure its own-flat source reports for non-vertical plasterboard.)*
+
 ## Insulated Sandwich-Panel Slopes — Requirements and Sequence
 
 ### Five Requirements for a Correct Insulated (Sandwich-Panel) Slope

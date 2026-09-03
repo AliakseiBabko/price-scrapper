@@ -61,3 +61,24 @@ She endorses the devices — *"мы практически в каждый пр�
 **⚠️ Verify before relying on it**: the figures are from a 2022 reading of one supplier's site. **Re-check the current specification of whatever unit is actually specified** — the *structure* of the argument (detect, then transmit, then close) holds regardless, but the numbers will have moved.
 
 **A related point from a second source in the same round**: **smart sensors that notify your phone while you are out are "гораздо безопаснее, чем не иметь датчик от протечек или чем иметь обычный датчик."** The notification matters precisely because the shutoff is not instantaneous and the aftermath is not self-managing. [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+## ⚠️ Two First-Hand Accounts — One Save, and False Triggering as the Real Failure Mode (NSDSGN, 2023 and 2022)
+
+**This page has held the case FOR these systems. These two accounts supply a save that actually happened, and the failure mode that makes people disable them.**
+
+### The save — and the mistake that caused the leak
+
+**A designer's own flat, two days before filming.** A washing-machine hose on the kitchen had been badly hand-tightened without a spanner. **He had RAISED the system pressure on a friend's advice because he felt he lacked it.** The hose loosened, began to seep, then let go. **Within a few minutes the sensors shut the water off. He wiped it, the valves reopened, everything resumed.** «Если бы меня не было дома — мою квартиру от затопления. Это прямо крутая штука, я её ощутил прямо в действии.»
+
+**⚠️ The causal chain is the lesson, and he supplies both halves without joining them: raising system pressure to fix a flow complaint transfers stress onto the weakest connection in the flat.** See [[12_Engineering_and_Systems/analysis/Pressure_and_Water_Hammer|Pressure and Water Hammer]] for the 3.5 bar ceiling from the same source. [source: [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+
+From the same practitioner: he has had clients **flood ten floors down**, so the loss being insured against is not the flat's own floor. **Automation can be added so a notification reaches the phone.**
+
+### ⚠️ False triggering — two independent accounts, and the wireless variety is implicated
+
+**This is what the page was missing, and it is the reason a system gets disabled rather than repaired.**
+
+1. **A subscriber's system triggers constantly, somewhere under the WC.** His diagnosis: **«что-то у них неправильно сделано, надо настроить чувствительность»**, or water is reaching it from above. [source: [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+2. **⚠️ And a specific product warning from a second video: several clients bought AliExpress Bluetooth WIRELESS sensors — no wires, just dropped under the bath. They worked, until one began glitching badly and shutting the water off constantly: «чуть-чуть поднялась влажность воздуха, ты принял душ, и датчик это обнаруживает и перекрывает воду. И с ним ничего не сделать — единственный способ отключить было запихнуть его в коробку с рисом, чтобы рис впитал всю влагу.»** «Будьте очень аккуратны со всякими вот этими ноу-хау с AliExpress.» [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+
+**→ Two consequences worth specifying against.** **(a) Sensitivity and placement are commissioning decisions, not install-and-forget** — a sensor sited where bathroom humidity, or water from the flat above, can reach it will cry wolf until somebody disables it, which removes the protection entirely. **(b) The humidity-sensitive wireless sensor is the documented failure case**, while both accounts of a system that actually worked describe wired sensors at defined wet points.

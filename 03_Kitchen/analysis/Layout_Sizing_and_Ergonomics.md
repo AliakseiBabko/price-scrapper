@@ -59,6 +59,20 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 - **Standard kitchen heights available: 2,210 mm, with 2,400 mm the tallest standard. Three-metre standard kitchens do not exist** — so a design not needing that height should stay inside the standard range, which ties directly to the +40% non-standard premium on [[03_Kitchen/analysis/Kitchen_Cost_and_Priorities|Kitchen Cost and Priorities]].
 - **⚠️ Upper cabinets set too high create storage that is never used**, and he reports it from living with антресоли: «реально находил там постоянно какие-то клады из прошлого». **The design target he states is visibility — «главное всё увидеть, достать то, что вам нужно»** — not maximum volume.
 
+### ⚠️ Three Coordination Details From Live Sites — Each One Invisible Until It Is Wrong (Руслан and Александр Сенчугов via NSDSGN, 2023–2025)
+
+**These are not clearances between fixtures but junctions between trades, and each has a specific failure attached.**
+
+1. **⚠️ Underfloor heating under a kitchen: dimension the heated field from the ЦОКОЛЬ (the recessed plinth), NOT from the facade line.**
+   - **Technically the heating must stop 5 cm short of the furniture and any abutment.**
+   - **But «важно давать размеры не от фасадной части, а именно от цоколя» — and the reason is the toe recess: «когда хозяйка подходит к плите и у неё босая нога заходит под кухню, чтобы пальцам не было холодно».**
+   - **→ Dimensioning from the facade leaves exactly the strip your feet occupy unheated.** He states this must be resolved **when producing the drawings**, not on site. [source: [[_Sources/YT_2B67955_Z5I_nsdsgn_site_review_finish_details|YT_2B67955_Z5I]]]
+2. **⚠️ The tile joint can be made to run exactly into the kitchen's edge — but only with active control.** «Это может получиться только если это прямо надо контролировать.» **The failures it avoids: the kitchen overhanging by a few centimetres, or falling short and leaving «такая белая светящаяся полоска».** His stated mechanism for making it happen at all: **«я всегда скидываю ТЗ строителям, информацию о строителе скидываю мебельщикам, чтобы они там все общались»** — the trades coordinate directly rather than through him. [same source]
+3. **⚠️ A built-in extract hood must be dimensioned to the FINISHED BACKSPLASH face, not to the bare wall — and this is a disclosed failure on the designer's own kitchen.** «Мебельщики накосячили: они вытяжку сделали вплотную к стене.» When he came to fit the backsplash he realised a groove would have to be cut into it; **they pulled the hood forward so the backsplash could pass behind, and it now protrudes slightly — «небольшой косячок, она немножко торчит вперёд».**
+   **His rule: «когда делаете вытяжку встроенную, помните: учитывайте, что на стене у вас не плоскость стены, а именно ФАРТУК.»** [source: [[_Sources/YT_7zpsZtcTkCM_nsdsgn_own_flat_55m2_retrospective|YT_7zpsZtcTkCM]]]
+
+**⚠️ And a fourth clearance mechanism from the same channel, recorded on [[03_Kitchen/analysis/Storage_and_Hardware|Storage and Hardware]] but belonging with the figures above: a countertop made 100 mm DEEPER than standard buys standing clearance from hinged 600 mm upper doors**, which otherwise «бьют в голову».
+
 ### ⚠️ The Two-Tier Upper Cabinet — a Dated Detail, Abandoned by Its Own User (same source)
 
 **Worth recording because it is a designer retiring a move he used himself**, which dates the detail rather than just criticising it.

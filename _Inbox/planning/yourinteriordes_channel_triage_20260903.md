@@ -330,8 +330,72 @@ Repaired with `tools/split_page.py merge`: **12 sections grouped under 5 themati
 
 **⚠️ My recommendation: run one final round of the four site-review/own-flat items in (1) plus one probe from (4), then close the channel.** That is where the remaining value is concentrated, and after it the channel is host-solo design content this vault already holds better-sourced elsewhere. **Flagging rather than deciding: `1Dpc8SLJd6M` remains the user's call.**
 
+## Round 3 results and verdict (completed 2026-09-03) — and the closing recommendation is REVISED
+
+**Round 3 yield**: 5 videos, 148 new facts, yield = **29.6 per processed video.** **All five were MANUAL Russian caption tracks. Zero rate-limit signatures across all 16 fetches in three rounds.**
+
+| # | ID | Topic | Len | Uploaded | `fact_yield` | `promotional_ratio` |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | `2vyIWKmrSXM` | **The probe** — 20 post-occupancy regrets | 31 min | 2022-10-25 | **32** | low |
+| 2 | `2B67955_Z5I` | Site review, finish details | 51 min | 2025-01-31 | **32** | medium |
+| 3 | `Z0brwxSe7gQ` | Engineering systems on site | 43 min | 2023-10-11 | **30** | low |
+| 4 | `7zpsZtcTkCM` | His own 55 m² flat, start to finish | 57 min | 2023-06-14 | 29 | low |
+| 5 | `bJz8bG_CFSI` | End of rough stage | 46 min | 2024-05-03 | 25 | medium |
+
+**Three rounds: 16 videos, 465 facts, yields 28.7 / 29.0 / 29.6.** **Sixteen pages updated across seven folders; no new page needed.**
+
+### ⚠️ I predicted decay three times and was wrong three times — the corrected model
+
+Round 1 → predicted below 28.7, got **29.0**. Round 2 → predicted below 29.0, got **29.6**. Round 3 → predicted below 29.0 "but plausibly above 20", got **29.6**.
+
+**Each time I modelled yield as a function of TITLES REMAINING. The actual driver is FORMAT.** On this channel yield tracks whether a video is a guest format, a live site review, an own-object retrospective, or crowd-sourced outcomes — and barely tracks how many have already been taken. Round 3 was composed entirely of those formats, so it held.
+
+**→ The transferable correction, and it applies to every channel in the queue: predict decay from the remaining pool's FORMAT MIX, not from its size. And when a round produces a new discriminator rather than merely consuming its best titles, expect the next round to hold rather than fall.**
+
+### ⚠️ The probe reversed its own premise — and that is why the recommendation changes
+
+**`2vyIWKmrSXM` was sent as a single probe to justify dismissing eight near-identical mistakes-and-regrets titles.** Rounds 1 and 2 both deprioritised the block as a likely repetitive listicle.
+
+**It is not a listicle. It is a follow-up built out of the comment section of the first such video** — «выпуск вызвал огромный резонанс, зрители стали писать о своей боли… и я решил записать новый выпуск, где подробно разберу эти ситуации».
+
+**→ The content is CROWD-SOURCED POST-OCCUPANCY REGRET DATA with a practitioner's remedy attached to each item. This vault has almost none of that, because nearly every source in it describes DECISIONS rather than OUTCOMES** — and this is the only kind of source that can say what people regret after living with a choice. **It also yields frequency information no single practitioner can give**: he identifies dark glossy floor tile as the single most-written-about regret in his comments.
+
+**It returned 32, the joint-highest of the round.**
+
+### ⚠️ Guest-identity check — it caught something it could not resolve
+
+**Three of the five feature a contractor named Руслан. Applying the preflight step adopted after Round 2, the check was run and came back inconclusive**, which is recorded in all three notes rather than resolved by assumption:
+
+- **Supports identification with Round 1's builder**: same first name, same role, same channel, same joint-project relationship — and Round 1's source records having already appeared on this channel twice, including on a joint object.
+- **Does not confirm it**: no старый фонд reference, no 30-plus-years claim, no Петровская коса, and a company name («esus», ASR-garbled) the earlier source did not give. **The one «30 лет» in the transcript is him quoting other people's complacency, not describing himself.**
+- **Treated as probably the same practitioner, with overlapping claims recorded as same-practitioner consistency rather than independent corroboration.** Little turns on it because the content is almost entirely new — **but the honest assessment is that the new step caught a possible duplication it could not settle, which is still an improvement on Round 2, where nothing caught it at all.**
+
+### What Round 3 established that the earlier rounds could not
+
+- **⚠️ A designer regrets self-coordinating his own 55 m² flat, having hired the best specialist in every trade.** «Я очень пожалел о том, что не нанял прораба.» **This recalibrates this channel's own генподряд threshold of ~300 m²: the coordination requirement is driven by the NUMBER OF INDEPENDENT SPECIALISTS to be sequenced, not primarily by area.** **Directly relevant to this project — self-managed, and far below 300 m². Recorded as evidence to weigh, with the actionable form being that the sequencing role must be someone's named job even in a small self-managed flat.**
+- **⚠️ A painted-wall ACCEPTANCE PROTOCOL, which the vault did not have at all: «проявочный свет — не для приёмки, а для выполнения работ»; acceptance is with the normal lighting on at 1 metre from the wall; and daylight is unreliable in both directions.** This settles the otherwise unwinnable dispute of a client walking the walls with a torch.
+- **⚠️ Three tiers of solution to the as-built problem, from one channel, and the cheapest costs a pencil** — photograph the open chases with pencilled dimensions (and the закладные, and the studs); label every box and wire; or keep an unmodelled 3D point cloud. With the measured cost of doing none of it: two days of an electrician's time on 30 m².
+- **⚠️ The tooling asymmetry explaining the plasterboard-versus-block price AND staffing gap at once: 300,000 RUB of tooling against 10,000–30,000.**
+- **⚠️ A rough-stage-only figure (22,000–28,000 RUB/m², May 2024) that NESTS correctly inside this channel's two other ladders.** Three figures, three sources, seven months apart, ordering correctly.
+
+### ⚠️ REVISED RECOMMENDATION — do not close the channel yet
+
+**My Round 2 recommendation was to run this round and then close, on the reasoning that every long-form guest format was exhausted and what remained was host-solo design content. Round 3's probe refuted the premise of that reasoning.**
+
+**What is actually left, with honest expectations:**
+
+1. **⚠️ The mistakes-and-regrets block — SEVEN more titles, now reclassified from "dismiss" to "process".** `CSpXvPWpsgQ` (15 things regretted, 27 min), `CN-Ab_g4CAI` (30 min), `lhikl-7c43c` (34 min, «красивые решения, оказавшиеся ошибкой»), `34D4bv2dNLw`, `WCoqOCofPx4` (10 rules of an indestructible interior), `vvf2wcUYaUE`, `-1hfcmvUGjY`. **Expect real inter-video duplication within the block — that risk was always genuine — but the probe returned 32, so the block deserves a proper round rather than a dismissal. Recommend 3–4 of them, longest first, and stop when the dedup ratio turns.**
+2. **The two remaining storage videos** (`RtRabYtDxNk`, `hllO93k4O7Q`) — the block has returned 33 and 28; these are the shorter, narrower two. **Diminishing but not exhausted.**
+3. **`RxU4L7ce86E`** — 69 min, kids-room design mistakes **with a child psychologist.** ⚠️ A guest format in a category this vault is thin on, and it was never triaged into any round. **On the corrected format model this is the strongest single unprocessed title on the channel.**
+4. **`ZKAcnh4kKfY`'s siblings in the technical cluster** — `AH1INy0i5lU` (34 min, soundproofing), `gTgUJaWKobM` done, `3tgHGhY0gXA` (stretch vs plasterboard), the two flooring reviews, microcement, decorative plaster, the tile pair, the partition pair, `Tj94jGH6fls` (Falconnier glass brick, still zero vault matches). **All still unprocessed, all technical, several with named guests.**
+5. **`1Dpc8SLJd6M`** — the Zrobim Architects (Minsk) podcast. **⚠️ Still the one Belarus-adjacent item on the channel, still flagged for the user's decision rather than a default skip, and now flagged for the third time.** Subject is building a house, not renovating a flat.
+6. **Still recommend against: the host-solo general-design and trend cluster.** That finding has survived all three rounds.
+
+**⚠️ Honest summary: the channel is not exhausted and I was wrong to think it would be. 16 of 220 videos are processed, roughly 45 Tier-1 titles remain, and the formats that produced three non-decaying rounds are still represented in the pool. The decision to continue is now a question of how much of the user's budget this channel deserves relative to the six unpreflighted Group B channels — not a question of whether the yield has run out.**
+
 ## Progress log
 
 - 2026-09-03 — Preflight run (220 videos, 220 fresh, 0 duplicates), Russian title dump obtained after discovering the channel serves auto-translated metadata, full title-skim triage completed, vault-coverage probes run for candidate subjects, 6-video Round 1 trial scoped.
 - 2026-09-03 — **Round 1 complete: 6/6 processed, 172 new facts, yield 28.7 — the highest single-round yield in this vault.** Zero rate-limit signatures. 17 pages across 7 folders; store, CSV and archive updated; `check_page_sizes.py` clean (no FRAGMENTED, nothing over backstop) and `verify_batch.py` 40 files / 0 problems. **Round 2 scoped above, awaiting go-ahead.**
+- 2026-09-03 — **Round 3 complete: 5/5 processed, 148 new facts, yield 29.6 — above Round 2, against my prediction for the third consecutive time.** All five manual Russian caption tracks; zero rate-limit signatures across all 16 fetches. 16 pages across 7 folders; no new page needed; two additions were DISTINCTIONS on pages that already covered the subject (the wall-acceptance light regime, and a designer arguing against the master switch). **⚠️ THE PROBE REFUTED ITS OWN PREMISE: the mistakes-and-regrets block is crowd-sourced POST-OCCUPANCY OUTCOME data, not a listicle, and returned 32 — so my recommendation to close the channel is REVISED to "do not close yet". Corrected yield model recorded: predict decay from the remaining pool's FORMAT MIX, not its size.** `check_page_sizes.py` clean; `verify_batch.py` 0 problems. **`Contract_Practice.md` at 382 lines flagged in Pending Wiki-Page Decisions for a split on the next material addition.**
 - 2026-09-03 — **Round 2 complete: 5/5 processed, 145 new facts, yield 29.0 — slightly ABOVE Round 1, against my own prediction of decay.** Reason recorded above: Round 1's real output was a better selection rule, not just consumption of the best titles. **One page created** (`Technical_Supervision.md`, under the 3+-sources threshold) **and fifteen updated across eight folders.** **One pre-existing FRAGMENTED page repaired** (`AC_Key_Concepts_and_Placement.md`, 12 sections → 5 thematic parents, `RESULT: CLEAN`, every attribution preserved). **Three misses recorded honestly: a date trap that invalidated a pick's rationale, a guest already in the vault, and a test question that got a third answer.** Zero rate-limit signatures across all 11 fetches. **Recommendation: one final round of the four site-review/own-flat items, then close.**

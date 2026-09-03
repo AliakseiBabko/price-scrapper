@@ -227,6 +227,39 @@ household (young children, open-plan living space):
 - **⚠️ Her vanity unit is wrong and she says so: the drawers are both wide and deep. «Для ванной такие делать не надо»** — bathroom contents are small categories and that depth is wasted. Replacement already ordered.
 - **⚠️ She rejects decanting shampoos and shower gels into matching bottles.** Tried it; «это не для меня». A basket is easier and reads as tidier without hiding anything. **Recorded because it contradicts the dominant social-media convention.**
 
+### ⚠️ Decide WHO DECIDES Before the Work Starts — a governance rule with a named remedy (Александр Сенчугов / NSDSGN, 2022-10-25)
+
+**Drawn from his comment section rather than his opinion: a follow-up video working through viewers' own reported regrets. This is the strongest new client-intake content in this vault, because it addresses the household rather than the flat.** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+
+**The rule: clients must decide, before the work starts, WHICH of them makes the final decisions on the design project.**
+
+- **⚠️ The failure mechanism, and it compounds rather than merely delays: one client, six months of design, then «у меня тут жена подключилась — надо полностью всё переделывать», then «у меня ещё дети посмотрели — нужно детские переделывать». «Это наслаивалось друг на друга, шло бесконечно — это просто контрпродуктивно.» And the outcome is not a compromise but a nullity: «по итогу получался не тот проект, который хотел заказчик, а какое-то непонятное болото, не похожее вообще ни на что».**
+- **⚠️ And the designer being recruited as an ally, which he refuses on principle: spouses arguing in front of him — «Саша, пожалуйста, поддержи мою идею» — or one phoning secretly in advance: «мы сейчас с супругой придём, ты должен поддержать мою идею, я тебе подмигну». «Дизайнер не должен этим заниматься — супруги сами должны решить, кто за что отвечает.»**
+- **⚠️ THE REMEDY HE ENDORSES, from real cases, and it is directly usable: SPLIT THE DOMAINS rather than nominating one decider for everything. «Я, супруга, отвечаю за внешний вид, а мой супруг отвечает за функционал, за инженерию, за всё остальное.» «Вот это просто идеальное решение»** — technical and engineering decisions to one person, colour and furniture shape to the other. **It resolves the deadlock without making either party a passenger**, which is why it survives contact with a real household.
+- **And the framing that makes the decision legitimate: «интерьер вы делаете себе, а не вашим родственникам или коллегам на показ — и жить в нём потом вам». Take it at a family council.**
+
+### ⚠️ Designing During Pregnancy — an unusual observation, with a stated remedy (same source)
+
+**Recorded because it is a specific, repeatedly-observed intake risk that nothing else in this vault covers, and because the remedy is concrete.**
+
+- **In his practice and his colleagues', working with a pregnant client consistently produces «какое-то очень эмоциональный, яркий, очень часто даже кричащий, на грани» project — and «спустя год я реально был свидетелем таких событий: заказчики очень жалели об этих решениях».**
+- **One client knew it about herself and said so: «знаете, Александр, вот я серьёзно не знаю, понравится мне завтра эта картинка или нет. Сейчас она мне окей нравится, и я не знаю, что будет завтра»** — fully aware that her emotional state was shifting. Another rang from the registry office to ask which colour to specify, for a boy or a girl.
+- **⚠️ The remedy: with a pregnant client hold to a CLASSICAL style — «здесь будет сложнее всего совершить ошибку» — and the designer's job is simply to account for it: «гормоны во время беременности очень сильно влияют на эмоциональное состояние заказчицы, и с этим ничего не поделаешь; нужно просто принимать это во внимание и делать проект очень аккуратно».**
+- **And the constraint that rules out waiting: «никто не будет ждать 9 месяцев, чтобы начать дизайн-проект — нужно делать сейчас».**
+
+### ⚠️ "Disappointment is unmet expectation" — the frame this whole page needs (same source)
+
+**Offered as the video's closing point, and it is a legitimate answer to the perfectionism that scenario-driven design can feed.**
+
+> **«Разочарование — это несбывшиеся ожидания.»**
+
+**His hardest clients are those who say «это мой последний интерьер», or «я не хочу делать ремонт 20 лет — хочу продумать всё настолько, чтобы вообще ни о чём не жалеть».** Three counter-arguments:
+
+1. **Anything can be corrected if you want to — which is why he always recommends VISITING THE SITE DURING the works, because many decisions arrive in process: «исправить что-то во время ремонта гораздо проще и гораздо дешевле, пока он ещё идёт; когда он закончен, затраты очень сильно вырастают».**
+   **⚠️ This sits in tension with this channel's own contractor, who names mid-project client changes as the premium segment's main pain. Both hold at different scales, and the resolution is worth stating: deciding late is expensive, but DISCOVERING late and then not fixing is worse. Recorded as a scoped tension, not a contradiction.**
+2. **⚠️ «Мы не стоим на месте»: the number of occupants can change and life interests change, so the flat will change with each such change — «и если вы будете жалеть, потому что что-то не предусмотрели заранее, вы каждый раз будете разочаровываться».** **This is the same argument as this page's life-stages principle, arriving from the client's emotional side rather than the planner's.**
+3. **If a mistake cannot be fixed, or is financially unbearable, «не отравляйте себе жизнь — не надо жалеть о ней; это будет хороший повод не совершить её в следующем интерьере».**
+
 ## Named Principles — Hotel-vs-Home, Life Stages, Compression and Release
 
 ### ⚠️ Two Compatible-but-Distinct Hotel-vs-Home Arguments (Игорь Краснов, added 2026-09-01, Round 2)

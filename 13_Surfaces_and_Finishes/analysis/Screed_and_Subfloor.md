@@ -45,6 +45,15 @@ This project's first developer-screed acceptance-testing content — what to act
 - **⚠️ Developer semi-dry screed (полусухая стяжка) is characterized as structurally one-time-use**, per the specialist's repeated hands-on experience: when tile bonded to it is later removed, the screed crumbles away in chunks with the tile, unlike a properly mixed "wet" screed, which stays intact even after tile removal a decade later — real implication for anyone who might change flooring later.
 - **Stated industry-awareness gap**: per the specialist, roughly 90% of builders (not just buyers) don't know this acceptance test exists, how to perform it, or what the consequences of skipping it are.
 
+### Second Independent Practitioner Doing the Same Pull-Off Test, and a Budget Remedy (Руслан via NSDSGN, 2023-10-11)
+
+**Corroboration rather than new method — recorded because the section above notes that per its own specialist «roughly 90% of builders don't know this acceptance test exists», and this is a second, unrelated contractor doing it as routine.** [source: [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+
+- **They tested the DEVELOPER's screed on a live object with a pull-off test («на отрыв») using dedicated equipment — «простреливается» — and concluded «в целом стяжка требует улучшения».** No numbers given, so the thresholds above remain the reference.
+- **⚠️ The remedy they chose, and it is a third branch the section above does not cover: rather than demolish or fully re-level, they patched it to protect the client's budget — a strengthening primer (укрепляющая грунтовка) plus a finishing levelling compound, with the minor cracks opened out and filled.**
+  **⚠️ Read that against the named failure mode above — pouring an overly rigid levelling material onto an already-weak screed tears the weak layer apart. Their sequence puts a CONSOLIDATING primer first, which is the step that makes a light levelling layer defensible. Recorded as their stated approach on one object, not as a general permission to skip the strength test.**
+- **And the client-side dynamic worth knowing: «просто клиенты хотят её иногда оставить — мы рекомендуем от себя» otherwise.** So the pressure to accept a developer screed usually comes from the budget, which is exactly why the test is worth its cost.
+
 ## Screed-First vs. Walls-First Sequencing — per Zemskov/Zemstandart (added 2026-08-19)
 
 > [!NOTE]

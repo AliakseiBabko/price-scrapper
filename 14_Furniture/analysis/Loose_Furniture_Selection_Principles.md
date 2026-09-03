@@ -50,6 +50,19 @@ Related form rule: **don't mix rectangular and round geometry within one piece**
 
 ---
 
+## ⚠️ Comfort Beats Looks, and the Reason Is Repairability — plus a Testing Protocol (NSDSGN, 2022-10-25)
+
+**From a video built out of viewers' own reported regrets, so the complaint is reader-sourced and the reasoning is the practitioner's.** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+
+**The failure: designers «в погоне за чем-то таким креативным, интересным, ярким забывают про эргономику», and a subscriber reported exactly that outcome — a beautiful designer piece he now regrets.** It applies to any interior object you physically interact with, not only seating.
+
+- **⚠️ The testing protocol, for the normal case where the actual item cannot be sat on: «постарайтесь найти хотя бы какой-то похожий аналог, походите с рулеткой, посмотрите на его параметры, и обязательно потрогайте предмет, повзаимодействуйте с ним, посидите на похожем диване».** Measure the analogue and physically use it — the point being that a catalogue photograph and a dimension list are not a substitute for either.
+- **⚠️ AND THE PRIORITY INVERSION, which is the transferable part and rests on repairability rather than on taste: an uncomfortable-but-beautiful piece is WORSE than a comfortable-but-tired one, because the comfortable one can be RE-UPHOLSTERED.** «Гораздо легче его перетянуть, и он в новой краске будет радовать вас в вашем новом интерьере, чем купить какой-то модный новый и потом на нём [мучиться].»
+- **The evidence he offers: clients who have lived with a comfortable sofa five years say «он настолько удобный, я просто растворяюсь в нём» — while it has become «внешне очень сильно уставшим».** That is precisely the case re-upholstery solves. **A piece whose geometry is wrong has no equivalent remedy.**
+- **→ Practical ordering for a loose-furniture decision: ergonomics is the irreversible property and appearance is the reversible one. Buy the geometry, refresh the surface later.**
+
+**⚠️ A related dimensional-tolerance warning from the same channel, because it bites hardest on exactly these purchases: designer furniture ordered into a niche needs the clearance checked repeatedly, and manufacturers' own permitted deviations can be startling — a bed arrived 12 cm longer than declared, against a contractual tolerance of 7 cm.** Full detail on [[11_Budget_and_Planning/analysis/Bill_of_Quantities_and_Procurement|Bill of Quantities and Procurement]].
+
 ## What Makes a Piece Read "Designed"
 
 **Merged 2026-09-02.** This page was FRAGMENTED — many small dated sections, one per processing batch. The sections below were grouped under thematic parents and their original dated headings **demoted from `##` to `###` rather than deleted**, so every attribution and date survives. No prose changed.

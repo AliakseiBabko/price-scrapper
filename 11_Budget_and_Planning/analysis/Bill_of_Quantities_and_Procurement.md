@@ -141,6 +141,37 @@ buying direct from AliExpress removes the supplier's inspection-and-rejection st
 - **⚠️ The constructive resolution, and it is the actionable item: make estimating a separate paid service.** «Выведи это как отдельную услугу: составление сметы — вот столько времени, вот столько денег», under its own contract — **and then the person sits down and does it properly.** This also converts the four days from a risk the contractor absorbs into a deliverable the client owns.
 - **⚠️ And the argument against selecting on price alone, made from the contractor's side: «если ты квалифицированный, твоя смета может быть выше средней. Он возьмёт её, пойдёт проанализирует, у всех будет дешевле — но если ты объективно чего-то стоишь, он вернётся к тебе независимо от цены.»**
 
+## 5a-quater. Two Procurement Traps With Hard Numbers — Dimensional Tolerance, and Getting It Through the Door (NSDSGN, 2022–2025)
+
+### ⚠️ Furniture dimensional tolerance is set by the CONTRACT, and the permitted deviation can be startling
+
+**An incident, a norm and a remedy.** [source: [[_Sources/YT_2B67955_Z5I_nsdsgn_site_review_finish_details|YT_2B67955_Z5I]]]
+
+- **A bed arrived 12 cm LONGER than declared. Per the manufacturer's own norms he was permitted to deviate by up to 7 cm — and the 12 cm became grounds for RETURNING the furniture.**
+- **⚠️ The panel's reaction is the point: 7 cm is itself absurd for exclusive work. «Эксклюзивный ремонт подразумевает размеры в размеры… это не 7 см, это может быть 5 мм.»**
+- **⚠️ THE RULE: «у каждого производителя есть свои нормы… самое важное — это нужно смотреть в договоре: если предусмотрены какие-то отклонения, они должны быть прописаны. Изучаем договор прежде чем подписывать.»** If the contract permits 7 cm, that is what you agreed to, and the arithmetic of your niche has to accommodate it.
+- **⚠️ And the proactive form, which is the actionable half: state your own limit at ORDER time — «у нас нет возможности устанавливать нечто больше чем 2–3 см; если вас их условия не устраивают — не рискуйте, идите в другое место, покупайте там».**
+- **How much clearance to keep, from a second video on the same channel: an Italian sofa on a 4–5 month lead time going into a niche between a column and a wall had only 3 cm of measured clearance — and the finish panels would take another 1.5 cm. «Я сейчас 10 раз промерю… обязательно, если у вас есть дизайнерская мебель, которая будет вставляться в нишу, обязательно 10 раз проверять этот размер — чтобы диван не поехал к вам на дачу.»** On the first object they asked the supplier for the exact size **five times**, he requested re-measurement five times, and **the client came with a tape measure himself** — leaving ~3 cm, which the contractor regards as already generous. [source: [[_Sources/YT_bJz8bG_CFSI_nsdsgn_rough_stage_completion|YT_bJz8bG_CFSI]]]
+- **⚠️ The cost of being wrong is not just the item: «клиент может столкнуться с проблемами в поисках АНАЛОГА, который один в один станет в подготовленную уже смонтированную мебель».** A half-centimetre error can commit you to hunting a substitute that fits joinery already built.
+
+### ⚠️ Logistics — check the route BEFORE ordering, with three worked failures
+
+**This channel produces three separate instances, which is why it is recorded as a rule rather than an anecdote.** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+
+- **⚠️ The washing machine that would not fit, with exact numbers: a large washing machine is a 60 × 60 cm cube. A bathroom door LEAF is also very often 60 cm. Clients reason "the machine is 60, so it will pass." It will not — «полотно 60 закрывается ещё ушами наличников», and the casing ears stop it.** The outcome is tearing off the наличники, breaking up the opening and redoing the works. **Especially relevant because a large washer usually arrives with a large dryer.** **A bath at least can be turned on its side with the feet unscrewed and squeezed through diagonally.**
+- **⚠️ Large one-piece beds and sofas arriving whole from Italy are most often brought in THROUGH THE WINDOW — «представьте, если у вас 15–20 этаж, что вы будете делать?»** *(Independently corroborated on this channel by a partition maker whose single oversize glass pane needed cranes and a removed window, and by the designer carrying an 80 kg table pedestal up five floors with no lift.)*
+- **⚠️ THE PROFESSIONAL PRACTICE WORTH COPYING, from their own natural-stone contractors: «они всегда приезжают на объект заранее, всегда проверяют маршрут, по которому потащат этот большой [слэб], обязательно замеряют ЛИФТ, смотрят черновую лестницу и всё, что связано с логистикой».**
+- **The timing argument for doing it early: the failure surfaces «в самый последний момент, когда вы уже устали от ремонта, когда уже хочется скорее въехать».**
+
+### ⚠️ And where a cheaper смета actually comes from — the specific lines that get dropped
+
+**The builders roundtable above establishes that the same object can be costed three ways. This names the line items.** [source: [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+
+- **«Смета не состоит только из работы — в смете ещё включены материалы. Можно не купить эту ленту — она тоже стоит денег, смета будет меньше. Можно купить профиль другой, фольгированный — он будет подешевле, смета будет меньше. Но результат будет гораздо хуже: непрочные стенки, они будут бухтеть, шумоизоляция будет меньше, больше вибронагрузок, и потом микротрещины — такой ремонт через год [придёт в негодность].»**
+- **The physical basis, demonstrated on camera: economy-class profiles «можно сжать его как в фольгу просто рукой», while the Knauf one cannot be — «у него толщина металла больше, соответственно больше восприимчивость к нагрузкам».**
+- **⚠️ And the same red flag this vault already holds, now quantified as a page count: «у меня смета например на 100 страниц, а у других строителей она просто на формате А4 на листочке: позиция "стены" — 400.000 вместе с материалами. Откуда клиент знает, какие материалы он туда будет [закладывать]?»**
+- **Context for reading any dated rough-materials figure from this period: rough materials had risen «чуть не в два раза» over the preceding year (stated October 2023).**
+
 ## 5b. Two Procurement Traps That Change the Budget (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 ### Large ceramic slabs: the delivery you didn't budget for

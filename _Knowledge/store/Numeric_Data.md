@@ -530,3 +530,81 @@ From the studio's own bill of quantities. **Region unresolved at level 1** (RUB 
 **→ Any material, brand or supplier recommendation sourced from a designer anywhere in this store may carry an undisclosed 2–15% commission.** The transparent alternative they describe — pass the lowest negotiated price through unmarked, charge a percentage of that reduced total, and publish every month's receipts — is on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services & Fees]].
 
 [source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]]]
+
+---
+
+## Rough-Stage-Only Cost, May 2024 — the Missing Middle Term (Руслан via NSDSGN)
+
+**«Черновой этап — это 22–28 000 руб» per m² — ≈$240–$310/m².**
+
+**Scope as stated: engineering work, electrics, plumbing, plastering, wall demolition, erection of partition framing and ceilings, and sheeting** — «всё в зависимости от сложности и насыщенности проекта».
+
+**⚠️ Its value is that it NESTS inside this store's two other NSDSGN ladders rather than competing with them:**
+
+| Figure | Source and date | RUB/m² |
+| :--- | :--- | :--- |
+| Good brigade with a бригадир, construction work only | contractor, Dec 2023 | ~20,000 |
+| **Rough stage only, scope listed above** | **contractor on site, May 2024** | **22,000–28,000** |
+| Works (labour), St Petersburg | three designers, Oct 2023 | 25,000–35,000 |
+
+**Three figures, three sources, seven months apart, and they order correctly — rough work is most of the labour but not all of it. That mutual consistency is worth more than any of them alone.**
+
+**⚠️ Context required to read it: rough materials had risen «чуть не в два раза» over the preceding year (stated Oct 2023), so a rough-stage per-m² figure from this period carries an unusually fast-moving materials component.**
+
+*USD at `USD/RUB` trailing 6-month mean before 2024-05-03 (**91.0928 RUB/USD**), rounded to the nearest 10 below $1,000.*
+
+[sources: [[_Sources/YT_bJz8bG_CFSI_nsdsgn_rough_stage_completion|YT_bJz8bG_CFSI]], [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+
+## ⚠️ The Tooling Asymmetry Behind the Plasterboard-versus-Block Price Gap, January 2025
+
+**The most explanatory pair of figures in this store's partition material content, because it accounts for the price gap AND the staffing gap at once.**
+
+| Trade | Full tool set | USD |
+| :--- | :--- | :--- |
+| **A good plasterboard brigade** | 300,000 RUB and more | ≈$3,100+ |
+| **Masonry** | 10,000 RUB | ≈$100 |
+| **Masonry, including laser levels and a decent level** | up to ~30,000 RUB | ≈$310 |
+
+**→ A 10–30× asymmetry in the capital cost of entry. A trade requiring 300,000 RUB of tooling has fewer practitioners and charges more — which is not a quality judgement about either material.**
+
+**The staffing half, stated directly: «коллеги, которые приезжают из других стран, со Средней Азии в том числе, они умеют делать кладку очень хорошо. С гипсокартоном работать могут не все.»**
+
+**And the summary that goes with it: «газобетон — это быстро; гипсокартон — это долго, сложно, дорого и ТИХО»** — with **200 mm** internal walls being what whole-flat acoustic performance costs, and **two layers of plasterboard ≈ 5 cm against газобетон's minimum 8 cm plus a minimum 1 cm of plaster**, which reverses the space argument for thin partitions.
+
+*USD at trailing 6-month mean before 2025-01-31 (**96.3695 RUB/USD**).*
+
+[source: [[_Sources/YT_2B67955_Z5I_nsdsgn_site_review_finish_details|YT_2B67955_Z5I]]]
+
+## Dimensional Tolerances, Clearances and Working Figures From Round 3
+
+**Furniture and procurement tolerances:**
+
+- **⚠️ A bed arrived 12 cm LONGER than declared, against a manufacturer's permitted deviation of 7 cm — which became grounds for return.** The panel's own verdict on the 7 cm: absurd for exclusive work, «это может быть 5 мм». **Tolerances live in the CONTRACT: «если предусмотрены какие-то отклонения, они должны быть прописаны».** Proactive form: state your own limit at order time — «у нас нет возможности устанавливать нечто больше чем 2–3 см».
+- **An Italian sofa into a niche: 3 cm measured clearance, with the finish panels taking another 1.5 cm.** The contractor regards ~3 cm as already generous; «7 см — это какая-то вообще неведомая запас».
+- **⚠️ A large washing machine is a 60 × 60 cm cube and a bathroom door LEAF is also often 60 cm — and it will NOT pass, because «полотно 60 закрывается ещё ушами наличников».**
+
+**Clearances and tolerances in construction:**
+
+- **⚠️ Concealed (встроенный) skirting must project exactly 1 mm from the wall plane, across the whole flat — «если где-то отклонение больше чем на 1 мм, это уже будет заметно», because the metal carrier is straight and cannot follow a wavy wall.** A shadow skirting can be fudged; a built-in one cannot. **Door casing projection: ~2.5 mm before filling, ~1 mm after.**
+- **⚠️ Underfloor heating must stop 5 cm from furniture and abutments — and the dimension is taken from the ЦОКОЛЬ, not the facade line**, or the toe recess stays cold.
+- **A countertop 100 mm deeper than standard buys standing clearance from hinged 600 mm upper doors.**
+- **⚠️ Waterproof plasterboard in a wet room chosen deliberately THINNER — 12.5 mm rather than 15 mm — with a 150 mm total wall build-up.**
+- **Junction boxes under a stretch ceiling: no more than ~150 mm from the edge, so local demolition can reach them. Штробы must run vertically per ПУЭ.**
+- **A gypsum panel compromise: 2 m + 1 m rather than seven horizontal joints, with the single horizontal joint placed LOW where least light falls** — because horizontal joints show most and vertical ones are masked in the reeding.
+- **⚠️ Windowsill projection: extend to the MIDDLE of the radiator at most; beyond that the sill MUST be perforated, or the dew point produces condensation on the glass.**
+
+**Working pressure and acceptance:**
+
+- **⚠️ Water: normal working pressure up to ~3.5 bar, «выше 3,5 лучше не поднимать», because some sanitary appliances state in their own datasheets that exceeding it destroys them.** **And a first-hand consequence of exceeding it: a hand-tightened washing-machine hose let go, on a system whose owner had just raised the pressure.**
+- **⚠️ Painted-wall acceptance: with the normal room lighting ON, standing 1 METRE from the wall. Raking light («проявочный свет») is a WORKING tool, «не для приёмки работ, а для выполнения работ».**
+- **Small defects settled between cooperating parties: 3,000–5,000 RUB.**
+
+**One trivial figure worth recording because of its leverage:**
+
+- **⚠️ A ~200 RUB (≈$3, at 75.4770 RUB/USD trailing 6 months to 2023-06-14) length of pipe insulation, split along its seam and slipped over an installed concealed-door frame — «и дверь переживёт всю стройку».** Against this vault's recorded concealed-door costs, the highest-leverage spend on the whole detail.
+
+[sources: [[_Sources/YT_2B67955_Z5I_nsdsgn_site_review_finish_details|YT_2B67955_Z5I]], [[_Sources/YT_bJz8bG_CFSI_nsdsgn_rough_stage_completion|YT_bJz8bG_CFSI]], [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]], [[_Sources/YT_7zpsZtcTkCM_nsdsgn_own_flat_55m2_retrospective|YT_7zpsZtcTkCM]], [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+
+## ⚠️ Illuminance and Colour-Temperature Figures for a Child's Room — corroborating entry
+
+Recorded in full earlier in this store from the 500lux source; repeated here only as the cross-check that matters: **a child's room never above 300 lux, 200 lux sufficient, colour temperature never above 2700 K and 3000 K at the outside, play area on a track at 250–300 lux.** **These pair low illuminance with warm temperature exactly as the Kruithof relationship (recorded from an unrelated lighting supplier on the same channel) predicts — the rule and its room-specific application converging from different practitioners.**

@@ -76,6 +76,19 @@ overview.
   install; temperamental (scratches, water-sensitive, needs care);
   temperature/humidity swings can cause localized warping.
 
+### ⚠️ Two Post-Occupancy Regrets About Floor Tile, One of Them the Most-Reported of All (NSDSGN, 2022-10-25)
+
+**Recorded with an unusual provenance note: these come from a video built out of the comment section of an earlier one, so they are reader-reported outcomes rather than a designer's predictions — which for this page makes them frequency data rather than opinion.** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+
+- **⚠️ Dark GLOSSY floor tile — and he identifies it as the single most-written-about regret in his comments: «наверное, это та проблема, о которой написано большинство комментариев».**
+  **The rule: «чем темнее глянцевая поверхность, тем сильнее на ней видно грязь, пыль и царапины.»** He says he states it constantly in his videos «но получается, что до сих пор люди делают эту ошибку и постоянно наступают на эти грабли». **Matt is easier, «но всё очень сильно зависит от материала».**
+  **→ Worth weighting above an ordinary single-account preference: it is the highest-frequency complaint from a channel that solicits complaints.** *(Consistent with this vault's existing dark-and-gloss findings for kitchen facades from the same channel.)*
+- **⚠️ No underfloor heating under floor tile — with a balcony-specific mechanism this page does not otherwise carry.**
+  - **Ceramic tile is a cold material: «не зря его так часто используют в южных странах — она там вообще везде, на стенах, на полу».**
+  - **⚠️ And on an INSULATED BALCONY the effect compounds, because «плита ещё будет примерзать с торца» — the slab freezes at its exposed edge — «и вы постоянно будете получать холодный пол».**
+  - **The feasibility argument: «тёплые полы сейчас маломощные и поедают очень мало электричества», and «они никак не изменят толщину напольного покрытия, потому что будут в слое клея».** So on a tiled floor it is neither a build-up problem nor a running-cost problem.
+  - **⚠️ And the asymmetry that makes it a decision rather than a preference: «если вы решите сэкономить и не будете использовать тёплый пол, то очень большая вероятность, что тот момент, когда вы ощутите холод от плитки своими ногами, будет уже поздно что-то менять».** **→ Anywhere tile is laid and walked on, provide underfloor heating; the balcony is the case where skipping it is most likely to be regretted.**
+
 ### Kitchen-Specific Worst-to-Best 8-Material Flooring Ranking (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
 
 > [!NOTE]

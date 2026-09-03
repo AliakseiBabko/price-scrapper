@@ -856,3 +856,66 @@ Repaired with `tools/split_page.py merge`: **12 sections grouped under 5 themati
 ### ⚠️ The item with the widest consequence for this vault
 
 **A procurement-commission disclosure, volunteered by designers against their own industry's interest**: designers hold agency agreements with suppliers, and the markup is named from the builder side as «закинь там ещё мои 10–15», with others at 2–3%. **→ Any material, brand or supplier recommendation sourced from a designer anywhere in this vault may carry an undisclosed 2–15% commission.** That does not make a recommendation wrong, and this vault's advertising filter already treats such endorsements as commercial mentions — **but this is the first time the size of the interest has been named.** Their stated alternative (pass the lowest negotiated price through unmarked, charge a percentage of that reduced total, publish every month's receipts for verification) is recorded on `Design_Services_and_Fees.md` as the transparent model to ask a designer about.
+
+---
+
+## 2026-09-03 — `@YourInteriorDes` / NSDSGN Round 3 (final scoped round), 5 sources, 148 new facts
+
+**Round 3 yield**: 5 videos, **148 new facts, yield = 29.6 per processed video.** All fetched serialized with `--languages ru`; **all five were MANUAL Russian caption tracks. Zero rate-limit signatures across all 16 fetches in three rounds.** Batch state in `_Inbox/planning/batch_status_20260903_yourinteriordes_round3.json`.
+
+| ID | Topic | `fact_yield` | `promotional_ratio` |
+| :-- | :-- | :-- | :-- |
+| `2vyIWKmrSXM` | 20 post-occupancy regrets (crowd-sourced) | **32** | low |
+| `2B67955_Z5I` | Site review, finish details | **32** | medium |
+| `Z0brwxSe7gQ` | Engineering systems on site | **30** | low |
+| `7zpsZtcTkCM` | His own 55 m² flat, start to finish | 29 | low |
+| `bJz8bG_CFSI` | End of rough stage | 25 | medium |
+
+**Three rounds: 16 videos, 465 facts, yields 28.7 / 29.0 / 29.6.**
+
+### ⚠️ My decay prediction was wrong three times running, and the pattern is now clear enough to name
+
+Round 1 predicted below 28.7 → got 29.0. Round 2 predicted below 29.0 → got 29.6. **Each time I modelled yield as a function of TITLES REMAINING, and each time the actual driver was FORMAT.**
+
+**The corrected model: on this channel yield tracks the format — guest, live site, own object, or crowd-sourced outcomes — and barely tracks how many videos have already been taken.** Round 3 was composed entirely of high-value formats, so it held. **→ For any future channel: predict decay from the remaining pool's FORMAT MIX, not from its size. And when a round produces a new discriminator, expect the next round to hold rather than fall.**
+
+### ⚠️ The probe reversed the assumption it was sent to test — the round's most consequential outcome
+
+**`2vyIWKmrSXM` was sent as a single probe to justify dismissing eight near-identical mistakes-and-regrets titles, which Rounds 1 and 2 had both deprioritised as a likely repetitive listicle.**
+
+**It is not a listicle. It is a follow-up built out of the comment section of the first such video** — «выпуск вызвал огромный резонанс, зрители стали писать о своей боли… и я решил записать новый выпуск, где подробно разберу эти ситуации».
+
+**→ So the content is CROWD-SOURCED POST-OCCUPANCY REGRET DATA with a practitioner's remedy attached to each item. That is a content type this vault has almost none of, because nearly every source in it describes DECISIONS rather than OUTCOMES** — and it is the only kind of source that can tell you what people regret after living with a choice. **It also yields frequency information no single practitioner can give: he identifies dark glossy floor tile as the single most-written-about regret in his comments.**
+
+**The block should be processed, not dismissed. Recommendation revised accordingly in the triage document.**
+
+### Pages touched (step 5a, same session as extraction)
+
+**Sixteen pages updated, across seven folders.** No new page created — every sub-topic had an existing home, and two of the strongest items landed on pages that already covered the subject and needed a distinction rather than an addition.
+
+`11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models.md` (the прораб regret and the threshold recalibration) · `.../Cost_Benchmarks_Live_Intake.md` (rough-stage 22–28k as the missing middle term) · `.../Bill_of_Quantities_and_Procurement.md` (furniture tolerance and the contract rule, the logistics rule, and which lines a cheaper смета drops) · `.../Contract_Practice.md` (the referral-undercutting observation, the chest-beating trigger and his own loss, moving in unfinished, the УК relationship) · `12_Engineering_and_Systems/analysis/Rough_Electrical_Sequencing.md` (the three tiers of as-built recording, and sockets) · `.../Rough_Plumbing_Sequencing.md` (collector distribution, insulation as a screed compensator, sewer soundproofing, the сололифт refusal, the raised bath) · `.../Leak_Protection_Systems.md` (the first-hand save, and false triggering as the real failure mode) · `.../Pressure_and_Water_Hammer.md` (3.5 bar and the leak it caused) · `.../Switches_and_Controls.md` (a designer arguing AGAINST the master switch) · `.../Lighting_Design.md` (night vs navigation light, dimmer as calibration) · `13_Surfaces_and_Finishes/analysis/Partition_Construction_and_Wall_Erection.md` (ГКЛ vs газобетон with the tooling asymmetry) · `.../Windows_Slope_Finishing.md` (sill materials, the «уши» myth, the radiator rule, the flush prerequisite) · `.../Concealed_Door_Considerations.md` (the scheduling trap, two-stage install, the 200-rouble sleeve) · `.../Wall_Prep_and_Plastering.md` (the acceptance-protocol distinction) · `.../Screed_and_Subfloor.md` (a second practitioner doing the pull-off test, and a budget remedy) · `.../Flooring_Material_Selection.md` (two tile regrets) · `17_Design_and_Ergonomics/analysis/Paint_Testing_Protocols.md` (a second complete method, and the RAL refusal) · `.../Family_Scenario_Driven_Design.md` (who decides, pregnancy, and the expectations frame) · `14_Furniture/analysis/Loose_Furniture_Selection_Principles.md` (comfort beats looks, on repairability grounds) · `03_Kitchen/analysis/Layout_Sizing_and_Ergonomics.md` (three trade-junction coordination details).
+
+### ⚠️ Two additions that are distinctions rather than facts, and they were the hardest-won
+
+Both landed on pages that already covered the subject well, where the useful contribution was to separate two things the vault had conflated:
+
+1. **`Wall_Prep_and_Plastering.md` already had the K1–K4 ladder and the finding that raking-light exposure is the K4 trigger. What it lacked was WHICH LIGHT REGIME GOVERNS ACCEPTANCE.** This round supplies it: **«проявочный свет — он НЕ для приёмки работ, а для ВЫПОЛНЕНИЯ работ»**, while acceptance is with the normal lighting on, standing **1 metre** from the wall — and daylight is unreliable in both directions. **This settles a common and otherwise unwinnable dispute: a client walking the walls with a torch is using the working instrument, and will always find marks the agreed class does not treat as defects.**
+2. **`Switches_and_Controls.md` already had a master-switch deep dive with priority groups and costs. This round adds a designer arguing AGAINST it** — you will never switch off the fridge, other appliances resent it, and LED lighting draws too little for a forgotten fitting to matter — **and redirecting to the function that actually prevents a catastrophe: «совсем другое дело — уезжая, перекрыть горячую и холодную воду».** Recorded as a Perspectives entry with a reconciliation, plus a breaker-labelling retrofit for a finished flat.
+
+### ⚠️ Guest-identity handling, applying the step adopted after Round 2
+
+**Three of the five feature a contractor named Руслан, and the Round 2 lesson required checking before treating him as a new voice.** The check was inconclusive and is recorded as such: **same first name, same role, same channel, same joint-project relationship as Round 1's builder — but no старый фонд reference, no 30-plus-years claim, no Петровская коса, and a company name («esus», ASR-garbled) the earlier source did not give. The one «30 лет» in the transcript is him quoting other people's complacency, not describing himself.**
+
+**Treated as PROBABLY the same practitioner, stated as unconfirmed in all three notes, with overlapping claims recorded as same-practitioner consistency rather than independent corroboration.** Little turns on it because the content is almost entirely new — **but the honest position is that the preflight step caught a possible duplication it could not resolve, which is better than Round 2, where it caught nothing.**
+
+### ⚠️ What the round established that no earlier round could
+
+- **⚠️ A designer regrets self-coordinating his own 55 m² flat, having hired the best specialist in every trade.** «Я очень пожалел о том, что не нанял прораба.» **This recalibrates this channel's own генподряд threshold of ~300 m²: the coordination requirement is driven by the NUMBER OF INDEPENDENT SPECIALISTS to be sequenced, not primarily by area.** **Directly relevant to this project, whose plan is self-managed and whose flat is far below 300 m² — recorded as evidence to weigh, with the actionable form being that the sequencing role must be someone's named job even in a small self-managed flat.**
+- **⚠️ Three tiers of solution to the as-built-documentation problem now exist from one channel**, and the cheapest costs a pencil: **photograph the open chases with pencilled dimensions** (and the закладные, and the studs); **label every junction box and wire**; or **keep a 3D point cloud, deliberately unmodelled.** With the measured cost of doing none of it: two days of an electrician's time on 30 m², and «никак не разберёшь» above 200 m².
+- **⚠️ The tooling asymmetry that explains the plasterboard-versus-block price and staffing gap at once: 300,000 RUB of tooling for a plasterboard brigade against 10,000–30,000 for masonry.** A trade with a 10–30× capital cost of entry has fewer practitioners and charges more — which is not a quality judgement about either material.
+- **⚠️ A rough-stage-only per-m² figure (22,000–28,000 RUB, May 2024) that NESTS correctly inside this channel's two other ladders.** Three figures, three sources, seven months apart, consistent — worth more than any of them alone.
+- **⚠️ And a genuine acceptance protocol for painted walls, which this vault did not have at all.**
+
+### One page to watch, flagged not fixed
+
+**`11_Budget_and_Planning/analysis/Contract_Practice.md` is now 382 lines** — under the 400 backstop but close, and it is a coherent single-subject page rather than a fragmented one, so no repair is due. **Recorded in Pending Wiki-Page Decisions: the next source that adds materially to contracting should trigger a split (vetting / estimates / warranty and escalation) rather than another append.** `check_page_sizes.py`: no FRAGMENTED, nothing over the backstop.

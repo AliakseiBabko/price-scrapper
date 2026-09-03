@@ -1,0 +1,17 @@
+{
+  "batch": "yourinteriordes_round3_final",
+  "channel": "ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА (@YourInteriorDes)",
+  "channel_id": "UCoJvM19nhHxfplqcO4wDL4A",
+  "created": "2026-09-03",
+  "triage_doc": "_Inbox/planning/yourinteriordes_channel_triage_20260903.md",
+  "prior_yields": "Round 1: 6 videos, 172 facts, 28.7/video. Round 2: 5 videos, 145 facts, 29.0/video.",
+  "round3_scoping_rationale": "Recommended at the close of Round 2 as the FINAL round. Every long-form guest format on the channel is processed; these four are the only substantial site-review / own-flat formats left, plus one probe of the untested mistakes-and-regrets block (eight near-identical titles) to decide it once rather than batch it. Expect below 29.0.",
+  "fetch_policy": "serialized, ~5-6 min spacing, anonymous, --languages ru ONLY. Per the Round 2 lesson, check any named guest against _Sources/ before treating them as a new voice.",
+  "videos": {
+    "2B67955_Z5I": {"status": "pending", "len_min": 51, "tests": "site review billed as 'секреты ремонта от экспертов' - likely guests, so check names against _Sources/"},
+    "Z0brwxSe7gQ": {"status": "pending", "len_min": 43, "tests": "engineering systems on a live site - the trade content that carried both prior rounds"},
+    "bJz8bG_CFSI": {"status": "pending", "len_min": 46, "tests": "end of rough stage - sequencing and QC at the stage the vault has most to check against"},
+    "7zpsZtcTkCM": {"status": "pending", "len_min": 57, "tests": "his own 55 m2 flat, 'все фишки, тонкости и трудности' - the practitioner's own-object format that returned 24 on the FLAT channel"},
+    "2vyIWKmrSXM": {"status": "pending", "len_min": 31, "tests": "THE ONE PROBE of the mistakes/regrets block - 20 regrets plus how to fix them. Decides eight near-identical titles either way."}
+  }
+}

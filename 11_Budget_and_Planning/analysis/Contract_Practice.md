@@ -320,6 +320,63 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   that until the project album is handed over, everything on site behaves as if
   classified. [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
 
+- **⚠️ «Строители, которые великолепно себя проявили с одними заказчиками, потом валятся с другими» — an
+  observation that undercuts referral-based selection, from a designer who cannot
+  explain it (NSDSGN, 2022-10-25).** Reading the comment section of his own regrets
+  video, the category he found hardest was new owners who **trusted their builders,
+  paid on time, did not check, and got total disappointment** — «прямо чувствовалась
+  боль, огромные письма, где всё подробно расписано». **And his honest note on the
+  mechanism: «строители, которые хорошо, просто великолепно себя проявившие с одними
+  заказчиками, потом валятся с другими — просто земля и небо. Мне очень сложно
+  объяснить, почему так происходит.»** **→ A glowing personal reference is weaker
+  evidence than this page's referral guidance implies, and nobody in this vault has a
+  mechanism for why.** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+- **⚠️ The one selection rule he is certain of, and it names the trigger: chest-beating
+  about a difficult detail.** «Если строители бьют себя пяткой в грудь и говорят: да мы
+  сто раз такое делали, мы асы ремонта, мы эти теневые плинтуса с закрытыми глазами, мы
+  километры этих плинтусов сделали — обязательно посмотрите хотя бы фотографии их
+  работы, а ещё лучше съездить на объект, который они ведут, и посмотреть вживую.»
+  **⚠️ AND HE DISCLOSES LOSING HIS OWN MONEY ON EXACTLY THAT: on his own flat he was
+  told they had done such skirtings a hundred times — «это вообще полная ерунда, мы тебе
+  за копейки сделаем за пять дней» — and it ended in «потерянное колоссальное время,
+  финансовые затраты». To their credit they returned all the money and he found other
+  contractors; «но чаще всего это будут потерянные деньги».**
+  **This is the third independent instance on this channel of shadow/concealed skirting
+  being the detail crews claim to know and cannot execute — and the only one where the
+  designer himself was the victim.** *(The others: this page's competence-test entry
+  above, and the ceiling installer's «многие впервые его делают».)* «Доверяй, но
+  проверяй, и обязательно смотри портфолио. Цена ошибки очень велика.» [same source]
+- **⚠️ Moving into an unfinished renovation — often forced, and the real risk is
+  acclimatisation rather than inconvenience (same source).** He concedes it is frequently
+  unavoidable: his own clients were renting **in the same complex**, the builders badly
+  overran, the landlord had already found new tenants, and **a couple with three children
+  moved into a flat with no doors, with builders continually reappearing.** It was
+  finished within weeks — «в противном случае это могло затянуться на годы».
+  **⚠️ The risk he names: «бывает так, что хозяева приезжают и просто свыкаются с
+  недоделками и остаются жить с ними навсегда» — like temporary furniture you throw out
+  ten years later. And the mechanism: by the end of a six-month-to-a-year build «у вас
+  просто нет моральных сил, хочется скорее переехать и забыть про всё это дело», so the
+  remaining items become «ну и Бог с ними».** **«Надо обязательно найти в себе моральные
+  силы и добить все эти моменты, иначе они останутся с вами до следующего ремонта в
+  следующей квартире.»** A worked case for finishing: a country house where the
+  plasterboard box for the extract was made crooked, redoing it was expensive and
+  time-consuming, the client agonised and then did it — **«и потом говорил, что я с
+  радостью вспоминаю, что решился, потому что сейчас бы меня этот короб постоянно бесил,
+  и переделать уже сейчас было бы просто невозможно».**
+- **⚠️ Build a working relationship with the УПРАВЛЯЮЩАЯ КОМПАНИЯ — a schedule-risk
+  mitigation nothing else in this vault names (Руслан via NSDSGN, 2023-10-11).** «С
+  соседями взаимоотношения хорошие, с управляющей компанией — это даёт кучу плюсов.»
+  **The mechanism: the УК observes how the contracting organisation treats the site and
+  becomes more lenient — «видят человеческий подход, по-человечески сами отвечают,
+  быстрее принимается решение».** **⚠️ And the concrete preferences obtained are all
+  schedule items: the building's own plumber or electrician turning up when something
+  must be shut off; waste removal; and OUT-OF-HOURS deliveries — a finish material
+  arriving from abroad outside working hours, where «сложная логистика» cannot be fitted
+  to a schedule.** «Насколько ты выстроил коммуникацию с управляющей компанией и будешь
+  с ними по-человечески обращаться — тем больше ты получаешь каких-то преференций.» Plus
+  standing in the residents' chat: «в чатике жильцов вас тоже будут уважать — это очень
+  важно». [source: [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+
 ---
 
 Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Guide]].
