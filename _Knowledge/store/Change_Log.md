@@ -1228,3 +1228,34 @@ Two sources five days apart appear to disagree about kitchen wall units: 2021-01
 ### The process note from Round 7, applied
 
 **Round 7 ended with a remedy: before routing any claim that COUNTS practitioners, or CREDITS a synthesis, or HEDGES with "he qualifies this later", name the source files that support it — and if the list is shorter than the claim, weaken the claim.** It was applied three times this round: the tubular-radiator promotion names both sources; the plaster corroboration names which side of the transaction each statement comes from; and **the tile-to-board floor junction that must exist somewhere in this flat is recorded as an OPEN QUESTION rather than as solved, because he neither shows nor discusses it.**
+
+## Case-study round — 2026-09-04 — no intake; the comparable worked against this project's own layout data
+
+**Branch `layout-case-study-round`. No new source. The whole round is `Phk79uKT7rA` turned from prose into something the layout pipeline can use, and checked against `v0` and `v1`.**
+
+### What was produced
+
+- **`data/layout_cases/nsdsgn-70m2-family-two-children.json`** — the case as a dataset, validated against `schemas/layout-case.schema.json`. **The vault is not the system of record for a layout number; this is.** Carries five caveats, including that the transcript was manually supplied and that the source is **undimensioned** — nothing in it may be used as a measurement.
+- **Five new rules in `data/layout_rules/rules.jsonl`**, and **`corridor.is_the_area_donor` upgraded from `single_source` to `corroborated`** — Zemskov and NSDSGN, different cities, different professions, same first donor. That upgrade is the round's most durable output.
+- **`schemas/layout-rule.schema.json`: `laundry` added to the `applies_to` enum.** It was absent and the project has a laundry room; mapping it to `storage` would have lost the meaning.
+- **`00_Master/Layout_Option_Review.md`** — the judgment review, and two new open items in `project_decisions.md`.
+
+### ⚠️⚠️ An error of mine, found by doing the work rather than by a later source
+
+**Round 7b told the owner that the corridor-to-kids'-room trade was “arithmetically available — 9.79 m² прихожая against a 9.36 m² kids' room”. I had compared the case against the DEVELOPER plan and never opened the owner's own variant.**
+
+**In `v1-homestyler` the children already have the middle room at 15.28 m², circulation is already down to 8.32 m², and a 1.90 m² laundry has already been taken out of it.** Corrected on the wiki page, in the extraction note, and in `Numeric_Data.md`.
+
+→ **⚠️⚠️ THE LESSON IS NEW AND SHARPER THAN THE PREVIOUS FOUR: I had FLAGGED that figure as my own inference, and the flag was correct — and the number was still misleading. Labelling a claim as mine is not a substitute for checking it. The check available the whole time was one file: `data/canonical/room_schedules.json` carries BOTH schedules.** Round 7's remedy (name the source files that support a claim) would not have caught this, because I did name a file. The stronger form: **when a claim compares this project to anything, read every variant the project has, not the base case.**
+
+### ⚠️⚠️ What the round found, and what it could not
+
+**Found:** `v1`'s big-looking area deltas are **role reassignments, not resizings** — the three rooms of the row keep their sizes and swap functions, and the one real move is the kitchen expanding into the living room. **`v1` costs 1.39 m² of floor to its 24 added partitions (2.0% of the flat, about a third of the counted loggia).** **Phase 2's combined zone comes to 24.13 m² against the owner's ~24–25 target — and 0.60 m² LESS than `v0`'s two rooms already are**, so `v1` buys the zone *shape* the concept needs, not extra area.
+
+**Could not:** put a number on the remaining corridor trade. **Two cheap measurements block it — `v0` has no geometry at all, and the second вентблок, which stands exactly where the trade would go, is recorded only from the owner's account.** Both are now open items. **A `v2` drawn without them would be a guess wearing a drawing's authority, so none was created.**
+
+### Two Perspectives informed — and the area argument flipped
+
+**The bunk bed:** the block said the deciding variable is AREA and put it at 9.36 m². **At `v1`'s 15.28 m² the psychologist's alternative is comfortably funded, so her objection now applies at full strength and the “no room for two beds” defence falls.** Plus the shared room **ends at Phase 2, ~3–4 years out** — making a built-in bunk a fitting with foreseen obsolescence. **The themed mural:** the children are 3 and 6 and the room changes occupant at Phase 2, so the lifespan finding and the phasing agree — keep a theme in what is cheap to swap.
+
+**Neither is closed. The owner has said he rejects some of the case study's decisions without naming which, and that remains his to state.**

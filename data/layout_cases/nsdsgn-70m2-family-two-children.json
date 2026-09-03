@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.2.0",
+  "case_id": "nsdsgn-70m2-family-two-children",
+  "case_kind": "single_apartment",
+  "epistemic_status": "practitioner_opinion",
+  "provenance": {
+    "source_type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Phk79uKT7rA",
+    "video_id": "Phk79uKT7rA",
+    "upload_date": "2020-11-03",
+    "author": "Александр Синчуков / Сенчугов (NSDSGN)",
+    "author_channel": "https://www.youtube.com/@YourInteriorDes",
+    "language": "ru",
+    "region": "russia_saint_petersburg",
+    "transcript_sha256": "8f9d6b8e8a43737005120f2ce24e9a537bfadcafbae7245342a89f8e44fed668",
+    "dimension_policy": "undimensioned",
+    "caveats": [
+      "NO caption track of any kind exists for this video on YouTube. The transcript was extracted manually by the apartment owner and supplied on 2026-09-03; method: MANUAL_USER_EXTRACTION, supplied_by: user. Not pipeline output.",
+      "The source gives NO dimensions and NO prices. Every area below is either the presenter's own rounded figure or is absent. Nothing here may be used as a measurement.",
+      "The surname is unsettled. This transcript's own self-introduction reads «Сенчугов»; the vault was corrected vault-wide in Round 5 to «Синчуков» on a structural argument about the NSDSGN name. Fourth rendering, second self-introduction, and the first that is not ASR output - so the Round 5 correction is in doubt and both forms are carried here deliberately.",
+      "A completed-portfolio walkthrough, so the frame is promotional. It is unusually self-critical for the genre - four of its own defects are volunteered unprompted - which is why it is carried as evidence of process as well as of detail.",
+      "This is a FINISHED building being renovated, with a load-bearing column that could not be removed. ZK Dubravinskiy is UNBUILT with 75 mm partitions not yet erected. The restraint finding below must not be transferred as a cost argument across that difference - see rules_derived."
+    ]
+  },
+  "apartment": {
+    "area_total_m2": 70,
+    "room_count": 2,
+    "city": "Санкт-Петербург",
+    "constraints": [
+      {
+        "kind": "load_bearing",
+        "statement": "Несущая колонна, которую было нельзя снести; за ней разместили бытовой шкаф со стиральной и сушильной машинами.",
+        "evidence": {
+          "quote": "За этой КОЛОННОЙ НЕСУЩЕЙ, которую было НЕ СНЕСТИ, находится БЫТОВОЙ ШКАФ для бытовых средств. И внизу у нас СТИРАЛЬНАЯ МАШИНА, а НАД НЕЙ СУШИЛЬНАЯ."
+        }
+      },
+      {
+        "kind": "other",
+        "statement": "Стандартная планировка с длинным коридором, из которого попадают во все комнаты; сама архитектура не допускала переигрывания планировки.",
+        "evidence": {
+          "quote": "В квартире СТАНДАРТНАЯ ПЛАНИРОВКА, то есть есть ДЛИННЫЙ КОРИДОР, из которого мы попадаем ВО ВСЕ КОМНАТЫ. Но здесь такая АРХИТЕКТУРА, что ПЕРЕИГРАТЬ это было, ну, по сути, НЕВОЗМОЖНО."
+        }
+      }
+    ]
+  },
+  "household": {
+    "stated": true,
+    "needs": [
+      "Спальня для родителей",
+      "Детская комната для двух мальчиков",
+      "Два санузла",
+      "Кухня-гостиная",
+      "Тихое, уютное 'гнездо' в шумном городе"
+    ],
+    "members": "молодая семья, двое сыновей (младший и старший)"
+  },
+  "zones": [
+    {
+      "id": "corridor",
+      "name_ru": "коридор",
+      "name_en": "corridor",
+      "role": "corridor",
+      "observations": [
+        {
+          "metric": "role",
+          "value": 1,
+          "unit": "count",
+          "state": "before",
+          "note": "Длинный коридор, обслуживающий все комнаты - единственный источник площади, который был использован.",
+          "evidence": {
+            "quote": "мы немножко уменьшили КОРИДОР В ПОЛЬЗУ ДЕТСКОЙ КОМНАТЫ, в принципе, это ВСЕ ИЗМЕНЕНИЯ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "name_ru": "детская комната",
+      "name_en": "kids room",
+      "role": "kids",
+      "observations": [
+        {
+          "metric": "occupancy",
+          "value": 2,
+          "unit": "count",
+          "state": "after",
+          "note": "Двое мальчиков в одной комнате: двухъярусная кровать плюс два ОДИНАКОВЫХ рабочих места.",
+          "evidence": {
+            "quote": "два ОДИНАКОВЫХ рабочих места, чтобы наши пацаны между собой НЕ ССОРИЛИСЬ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "laundry",
+      "name_ru": "бытовой шкаф",
+      "name_en": "laundry cupboard",
+      "role": "laundry",
+      "observations": [
+        {
+          "metric": "placement",
+          "value": 1,
+          "unit": "count",
+          "state": "after",
+          "note": "Постирочная вынесена НЕ в санузел, а в шкаф в коридоре за несущей колонной; стиральная машина внизу, сушильная над ней; дверцы с ЛАМЕЛЯМИ, чтобы шкаф дышал.",
+          "evidence": {
+            "quote": "здесь были такие красивые дверки, НЕ ПЕРФОРИРОВАННЫЕ, а знаете, с такими ЛАМЕЛЬками, ЧТОБЫ ШКАФ ДЫШАЛ"
+          }
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "id": "kids-room-too-small",
+      "statement": "Детская комната для двух мальчиков была слишком мала в исходной планировке.",
+      "zone_ids": [
+        "kids"
+      ],
+      "category": "ergonomics"
+    },
+    {
+      "id": "architecture-not-replannable",
+      "statement": "Стандартная коридорная планировка не допускала перепланировки: несущая колонна и сама архитектура.",
+      "zone_ids": [
+        "corridor"
+      ],
+      "category": "geometry"
+    }
+  ],
+  "moves": [
+    {
+      "id": "m1-corridor-to-kids",
+      "op": "zone.reshape",
+      "target_zone_ids": [
+        "corridor",
+        "kids"
+      ],
+      "solves": [
+        "kids-room-too-small",
+        "architecture-not-replannable"
+      ],
+      "rationale": "Единственное изменение планировки во всей квартире: часть коридора отдана детской комнате, чтобы расширить спальню для двух мальчиков. Всё остальное оставлено как построено застройщиком.",
+      "legal_flag": "routine",
+      "params": {
+        "area_transferred_m2": "not stated - «немножко»; source is undimensioned"
+      },
+      "evidence": {
+        "quote": "Планировку квартиры мы ПРАКТИЧЕСКИ НЕ МЕНЯЛИ, мы немножко уменьшили КОРИДОР В ПОЛЬЗУ ДЕТСКОЙ КОМНАТЫ, в принципе, это ВСЕ ИЗМЕНЕНИЯ."
+      }
+    },
+    {
+      "id": "m2-laundry-into-corridor-cupboard",
+      "op": "storage.add",
+      "target_zone_ids": [
+        "laundry",
+        "corridor"
+      ],
+      "rationale": "Постирочная размещена в шкафу коридора за несущей колонной - непереносимое препятствие использовано как задняя стенка шкафа, а не обойдено. Стиральная машина внизу, отдельная сушильная над ней; дверцы ламельные для вентиляции.",
+      "legal_flag": "routine",
+      "evidence": {
+        "quote": "За этой КОЛОННОЙ НЕСУЩЕЙ, которую было НЕ СНЕСТИ, находится БЫТОВОЙ ШКАФ"
+      }
+    }
+  ],
+  "tradeoffs": [
+    {
+      "id": "t1-restraint-over-replanning",
+      "chosen": "Оставить планировку как есть, сделав одно изменение - коридор в пользу детской.",
+      "rejected_alternative": "Переигрывать планировку целиком, как обычно ожидают от дизайнера при carte blanche.",
+      "why": "Архитектура не допускала: длинный коридор ко всем комнатам плюс несущая колонна. Стилистически дизайнеру дали полную свободу - ограничением была не воля заказчика, а конструктив.",
+      "gains": [
+        "Ни одного лишнего метра, потраченного на новые перегородки",
+        "Ни одного согласования"
+      ],
+      "costs": [
+        "Планировочные недостатки стандартной коридорной схемы сохранены"
+      ],
+      "move_ids": [
+        "m1-corridor-to-kids"
+      ],
+      "evidence": {
+        "quote": "здесь такая АРХИТЕКТУРА, что ПЕРЕИГРАТЬ это было, ну, по сути, НЕВОЗМОЖНО. И мы ОСТАВИЛИ КАК ЕСТЬ."
+      }
+    },
+    {
+      "id": "t2-bunk-bed-for-two-boys",
+      "chosen": "Двухъярусная кровать для двух мальчиков в одной комнате.",
+      "rejected_alternative": "Две отдельные кровати.",
+      "why": "Подана как мечта самих детей, а не как решение по площади. ⚠️ КОНФЛИКТУЕТ с позицией клинического психолога, уже записанной в этом хранилище: двухъярусная кровать не рекомендуется там, где площадь позволяет поставить две отдельные. Решающая переменная - ПЛОЩАДЬ, и источник её не называет.",
+      "gains": [
+        "Освобождённый пол для игры",
+        "Желание детей выполнено"
+      ],
+      "costs": [
+        "Возражения по сну, безопасности и равенству спальных мест не рассмотрены"
+      ],
+      "evidence": {
+        "quote": "детская мечта наших пацанов"
+      }
+    }
+  ],
+  "outcome": {
+    "claims": [
+      "Реализовано с одним изменением планировки; заказчики всю стройку находились в другом городе.",
+      "⚠️ Условие «никаких отклонений от проекта» НЕ СРАБОТАЛО: четыре отклонения в одной квартире. Два выявлены (одно дизайнером на выезде, одно САМИМ ЗАКАЗЧИКОМ) и переделаны; два пропущены и остались навсегда.",
+      "Отклонения предотвратил не пункт договора, а ОБНАРУЖЕНИЕ - тем, кто посмотрел."
+    ],
+    "evidence": {
+      "quote": "То, что НАРИСОВАНО В ПРОЕКТЕ, должно быть ОДИН В ОДИН выполнено в реальности, то есть НИКАКИХ ОТКЛОНЕНИЙ"
+    }
+  },
+  "process": {
+    "brief": "Тихое уютное гнездо для молодой семьи: спальня, детская для двух пацанов, два санузла и кухня-гостиная. По стилистике - carte blanche.",
+    "client_loop": "Полностью дистанционный проект: заказчики жили в Москве и переезжали в Петербург, всё общение онлайн и по телефону. Самым сложным было СОГЛАСОВЫВАТЬ МАТЕРИАЛЫ - цвет и фактуру по телефону.",
+    "excluded_from_scope": [
+      "Перепланировка сверх одного изменения - конструктив не позволил"
+    ],
+    "evidence": {
+      "quote": "САМОЕ СЛОЖНОЕ во всей этой работе было СОГЛАСОВЫВАТЬ МАТЕРИАЛЫ - как согласовать ЦВЕТ или ФАКТУРУ ПО ТЕЛЕФОНУ? Это полный бред."
+    }
+  },
+  "rules_derived": [
+    "corridor.is_the_area_donor",
+    "corridor.reduce_in_favour_of_kids_room",
+    "replanning.restraint_on_a_standard_corridor_plan",
+    "kids.identical_workstations_prevent_conflict",
+    "laundry.ventilated_doors_on_an_enclosed_appliance",
+    "process.no_deviation_clause_needs_detection"
+  ]
+}
