@@ -96,3 +96,24 @@ Frameless/backless sofas ("бескаркасные диваны") flagged as a 
 ---
 
 Part of [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]].
+
+## ⚠️⚠️ Do Not Buy Temporary Furniture — and the Test That Separates a Stopgap From a Substitute
+
+**A designer reporting what clients at 3-10 years' occupancy regret, and the discriminator he supplies at the end is better than the rule itself.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
+- **The rule: «НЕ ПОКУПАЙТЕ ВРЕМЕННУЮ МЕБЕЛЬ. Почти сто процентов, что вам потом будет очень СЛОЖНО ОТ НЕЁ ИЗБАВИТЬСЯ.»** The exact intention he says he hears constantly: **«"я куплю временный диванчик, немножко на нём посплю, потом накоплю денег и куплю сразу хорошую кровать" — ПОЖАЛУЙСТА, НЕ НАДО. У вас этот диван ОСТАНЕТСЯ С ВАМИ ОЧЕНЬ НАДОЛГО, может быть ДО СЛЕДУЮЩЕЙ КВАРТИРЫ.»**
+- **Same for decor: «лучше несколько дорогих — именно ВАМ дорогих, НЕ ОБЯЗАТЕЛЬНО ПО ЦЕНЕ — вещей, чем ГРУДА каких-то временных безделушек, которые ЗАПОЛНЯТ КАК ХЛАМ все ваши полки».** Including fridge magnets from trips: «пусть они и дороги вам, но ПОЖАЛУЙСТА — ну не надо». **He concedes the asymmetry himself: «картину, конечно, ПОМЕНЯТЬ ЛЕГЧЕ, чем диван»** — so the rule bites hardest on large pieces.
+- **⚠️ His preferred stopgap for lighting, which is a useful concrete image: «ОДИНОКО ВИСЯЩАЯ ГРУСТНАЯ ЛАМПОЧКА НА ПРОВОДЕ — это ЛУЧШЕ, чем какая-то временная дешёвая ЛЮСТРА, которая потом останется с вами ДО КОНЦА ЖИЗНИ в этой квартире.»**
+- **⚠️⚠️ THE DISCRIMINATOR, and it is the part to carry rather than the prohibition: «я реально знаю случаи, когда все деньги ушли на основной ремонт, и хозяин квартиры жил там первые полгода НА МАТРАСЕ — на ХОРОШЕМ МАТРАСЕ, КОТОРЫЙ ОН ПОТОМ ПОМЕСТИЛ УЖЕ В СВОЮ ДОРОГУЮ ПРЕКРАСНУЮ КРОВАТЬ. Но он НЕ СТАВИЛ что-то такое временное ужасное, что потом ДАЖЕ ТОПОРОМ НЕ РАЗЛОМАЕШЬ И НЕ ВЫНЕСЕШЬ.»**
+  **→ THE TEST: is the stopgap a COMPONENT of the final solution, or a SUBSTITUTE for it?** A good mattress on the floor is the first — it becomes part of the eventual bed. A cheap sofa is the second, and it is the second that never leaves. **This is a much more usable rule than "don't buy temporary furniture", because it permits the deferral people actually need while excluding the purchase they actually regret** — and it dovetails with the reliable-base-versus-swappable-accent framework recorded above: a component-stopgap buys into the base, a substitute-stopgap occupies the base's slot with an accent.
+- **⚠️ Read alongside this vault's own escape route, which this source lacks:** the same problem is addressed from the other end on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services and Fees]] — «сейчас не так сложно продавать мебель, и не обязательно делать это за полцены». **So the sunk cost is recoverable; the prohibition above is about not creating it.**
+
+### ⚠️ A "Место Притяжения" Can Be One Cheap Second-Hand Piece — Occupancy Evidence Against Comment-Section Critique
+
+**Recorded because it is a designer defending an object in his own flat with usage evidence rather than argument, and because the intended larger piece turned out to be unnecessary.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+- The piece: **a 20-year-old IKEA armchair bought on Avito and reupholstered.** Commenters asked why he needed it at all — «а зачем тебе вообще это кресло, что это за бред».
+- **⚠️ His answer: «ОДНО ДЕЛО ВАШИ ДОМЫСЛЫ, А ДРУГОЕ ДЕЛО ПРАКТИКА: КАЖДЫЙ ГОСТЬ, все, кто находится в этой квартире, ПОСТОЯННО В НЁМ ЗАЛИПАЮТ. Это очень залипательное место — ты здесь лежишь, к тебе приходит кот, ты здесь отдыхаешь, ты здесь общаешься. Это НЕРЕАЛЬНО УДОБНОЕ МЕСТО.»**
+- **⚠️ AND THE PLANNING FINDING: «ИЗНАЧАЛЬНО ЗДЕСЬ ДОЛЖЕН БЫЛ БЫТЬ КАКОЙ-ТО ЛЕЖАК, но я ОГРАНИЧИЛСЯ КРЕСЛОМ — и вот это МЕСТО ПРИТЯЖЕНИЯ, просто поверьте, ОНО ТАК РАБОТАЕТ.»**
+  **→ A point of attraction can be created by one small, cheap, second-hand piece; the daybed the plan called for was not needed to achieve it. Useful against the assumption that a lounge zone requires a large purchase — and a genuine counterweight to the compositional-furniture tension recorded on [[14_Furniture/analysis/Household_Storage_and_Decluttering_Method|Household Storage and Decluttering Method]], since this is the opposite case: a small piece that reads as optional and is used constantly.**
+- **⚠️ A second-hand caveat he mentions in passing and is worth keeping: it «сразу же проткнулась» and had to be reupholstered.** So the Avito price is not the whole price — budget the reupholstery as part of the acquisition.

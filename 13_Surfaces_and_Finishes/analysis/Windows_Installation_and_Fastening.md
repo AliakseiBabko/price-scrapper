@@ -92,3 +92,15 @@ project (window replacement stage), reports:
   without them, the glass is easily chipped/broken, a real safety hazard
   given the size/weight involved.
 - [source: [[_Sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]
+
+## ⚠️⚠️ Foam Is Not an Acoustic Material — a Measured Case Where a Triple-Glazed Unit Made a Room LOUDER
+
+**A subscriber's own instrumented regret, reported on a soundproofing site walkthrough — and it inverts a purchasing decision most people make on the glazing spec alone.** [source: [[_Sources/YT_AH1INy0i5lU_nsdsgn_soundproofing_premium_object|YT_AH1INy0i5lU]]]
+
+**The case.** A сталинка with windows onto a busy road. The original **wooden windows with a DOUBLE FRAME were quiet** — «с этим окном было ТИХО». He replaced them because they draughted badly in winter («это классическая история»), specifying **plastic with TRIPLE GLAZING and a reinforced frame.**
+
+- **⚠️ THE RESULT: «теперь шума в спальне БОЛЬШЕ. СПЕЦИАЛЬНО ЗАМЕРЯЛ ШУМОМЕРОМ. Вообще ПОЖАЛЕЛ, что поменял окно.»**
+- **⚠️ THE DIAGNOSIS, from the general contractor: «причина шума — это использование ПЕНЫ для монтажа пластикового окна. ПЕНА НЕ ЯВЛЯЕТСЯ ЗВУКОИЗОЛИРУЮЩИМ МАТЕРИАЛОМ, поэтому через неё ПРОХОДИТ ЗВУК, который вы слышите. Нужно использовать ДОПОЛНИТЕЛЬНО ШУМОИЗОЛЯЦИОННЫЕ МАТЕРИАЛЫ для окна.»**
+- **→ THE CONSEQUENCE FOR THIS PAGE: the perimeter installation gap is a first-order acoustic variable and the glazing is second-order. Polyurethane foam is specified here for its thermal and sealing properties, and this page's fastening and gap-filling rules are silent on acoustics — but a window installed correctly by every criterion on this page can still be acoustically worse than what it replaced.** If noise is a stated requirement, the perimeter detail needs an acoustic material in addition to the foam, and that has to be specified at order stage.
+- **⚠️ It also qualifies the four quantified window-upgrade levers recorded on [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]]** — thicker panes +3.8 dB, more layers +3-8 dB, wider air gap +5-10 dB, interior blinds +7-13 dB. **Every one of them is defeated by a foam-filled perimeter, which is why a triple-glazed unit could lose to old double-frame joinery.**
+- **⚠️ And it is worth noting what the old window had that the new one did not: two separate frames with a wide air gap between them — which is the +5-10 dB lever, the largest of the four, delivered by construction rather than by specification.** Replacing double-frame joinery with a single frame removes it. `single-account`; the measurement is the subscriber's own with no stated methodology, but it is this vault's only before/after window noise comparison.

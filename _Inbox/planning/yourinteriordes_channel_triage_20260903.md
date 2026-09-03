@@ -395,7 +395,71 @@ Round 1 → predicted below 28.7, got **29.0**. Round 2 → predicted below 29.0
 
 ## Progress log
 
+- 2026-09-03 — **Round 4 complete: 5/5 processed, 180 new facts, yield 36.0 — the BEST of the four rounds, and the first scoped on Round 3's corrected format-based model.** Four rounds: 21 videos, 645 facts, 28.7 / 29.0 / 29.6 / 36.0, no decay in any round and the largest jump last. ~28 pages across 11 folders; no new page needed. **Both dedup verdicts owed from Round 3 are delivered above: the regrets block's stopping rule NEVER FIRED (all three picks beat the channel average), and the soundproofing dedup test PASSED against 200+ existing vault files by contributing the socket-as-acoustic-leak finding that had zero prior mentions anywhere in `12_Engineering_and_Systems`.** Five of the round's best outputs are corrections, upgrades or reconciliations rather than additions; two Perspectives splits opened rather than closed; three integrity notes recorded (a garbled term corrected with the flag, a self-divergent figure kept as a range, and an incident identified as a retelling rather than counted twice). `check_page_sizes.py` clean; four pages flagged for splits and one for a MERGE FIRST; one zero-byte page found and recorded. **`1Dpc8SLJd6M` (Zrobim Architects, Minsk) flagged for the user's decision for the FOURTH time, still undecided.**
 - 2026-09-03 — Preflight run (220 videos, 220 fresh, 0 duplicates), Russian title dump obtained after discovering the channel serves auto-translated metadata, full title-skim triage completed, vault-coverage probes run for candidate subjects, 6-video Round 1 trial scoped.
 - 2026-09-03 — **Round 1 complete: 6/6 processed, 172 new facts, yield 28.7 — the highest single-round yield in this vault.** Zero rate-limit signatures. 17 pages across 7 folders; store, CSV and archive updated; `check_page_sizes.py` clean (no FRAGMENTED, nothing over backstop) and `verify_batch.py` 40 files / 0 problems. **Round 2 scoped above, awaiting go-ahead.**
 - 2026-09-03 — **Round 3 complete: 5/5 processed, 148 new facts, yield 29.6 — above Round 2, against my prediction for the third consecutive time.** All five manual Russian caption tracks; zero rate-limit signatures across all 16 fetches. 16 pages across 7 folders; no new page needed; two additions were DISTINCTIONS on pages that already covered the subject (the wall-acceptance light regime, and a designer arguing against the master switch). **⚠️ THE PROBE REFUTED ITS OWN PREMISE: the mistakes-and-regrets block is crowd-sourced POST-OCCUPANCY OUTCOME data, not a listicle, and returned 32 — so my recommendation to close the channel is REVISED to "do not close yet". Corrected yield model recorded: predict decay from the remaining pool's FORMAT MIX, not its size.** `check_page_sizes.py` clean; `verify_batch.py` 0 problems. **`Contract_Practice.md` at 382 lines flagged in Pending Wiki-Page Decisions for a split on the next material addition.**
 - 2026-09-03 — **Round 2 complete: 5/5 processed, 145 new facts, yield 29.0 — slightly ABOVE Round 1, against my own prediction of decay.** Reason recorded above: Round 1's real output was a better selection rule, not just consumption of the best titles. **One page created** (`Technical_Supervision.md`, under the 3+-sources threshold) **and fifteen updated across eight folders.** **One pre-existing FRAGMENTED page repaired** (`AC_Key_Concepts_and_Placement.md`, 12 sections → 5 thematic parents, `RESULT: CLEAN`, every attribution preserved). **Three misses recorded honestly: a date trap that invalidated a pick's rationale, a guest already in the vault, and a test question that got a third answer.** Zero rate-limit signatures across all 11 fetches. **Recommendation: one final round of the four site-review/own-flat items, then close.**
+
+## ⚠️ ROUND 4 — COMPLETE 2026-09-03. 5/5 processed, 180 facts, yield 36.0 — the best round of the four
+
+**Four rounds: 21 videos, 645 facts, 28.7 / 29.0 / 29.6 / 36.0. No decay in any round, and the largest single jump came LAST.**
+
+**Round 4 was the first round scoped on the corrected yield model from Round 3 — select by FORMAT, not by what remains — and that is why it is the best round rather than the worst.** Three picks from the mistakes-and-regrets block Round 3's probe reclassified (taken longest-first per the stated dedup discipline, including the series' ORIGINAL that the already-processed follow-up was a response to); one guest format never triaged into any round; one deliberate dedup test on the vault's densest subject.
+
+### The dedup verdicts I owed, both stated plainly
+
+1. **⚠️ THE REGRETS BLOCK — THE DEDUP RATIO DID NOT TURN.** Round 3's plan said to take the block longest-first and **stop when the ratio turned.** Three were taken (`CSpXvPWpsgQ` 34, `lhikl-7c43c` 35, `WCoqOCofPx4` 36) and **all three were substantially new, with yields at or above every previous round's average.** The block's premise held: these report OUTCOMES rather than decisions, and this vault is built almost entirely from decisions.
+   - **The one structural dedup risk was checked and did not materialise:** `CSpXvPWpsgQ` is the ORIGINAL whose comment section produced the already-processed `2vyIWKmrSXM`, and the follow-up was billed as «ещё 20» — **so the items are distinct by construction, not by luck.**
+   - **The remaining four titles in the block were left for format reasons, NOT on a dedup finding.** That distinction matters for whoever picks this up: the stopping rule never fired.
+2. **⚠️ THE SOUNDPROOFING DEDUP TEST — PASSED, AND NOT MARGINALLY.** `AH1INy0i5lU` was chosen deliberately against the vault's densest subject (200+ files) to measure whether this channel adds anything where the vault is saturated. **It returned 33 and contributed two things that are structural rather than incremental:**
+   - **The room-in-a-room principle presented as the ANSWER to the commonest client request** («эту стену обязательно шумоизолировать»), with the reason that request cannot work.
+   - **⚠️ SOCKETS AS THE DOMINANT ACOUSTIC LEAK — zero prior mentions anywhere in `12_Engineering_and_Systems`, whose own gap-proportionality note lists door gaps, pipe penetrations and vent shafts but not sockets.** With a design-stage planning constraint attached that cannot be fixed later.
+   - Plus a **measured** window case in which a triple-glazed unit performed worse than the double-frame joinery it replaced.
+   - **→ The lesson for other channels: saturation by FILE COUNT is not saturation by CONTENT. The vault had 200+ soundproofing files and no mention of the electrical layout that defeats them.**
+
+### What Round 4 changed rather than added
+
+**Five of the round's most valuable outputs are corrections, upgrades or reconciliations of material the vault already held.** Consistent with the Round 1 finding that a source which corrects a page is worth more than one that extends it.
+
+- **⚠️ A second-hand claim upgraded to primary, and the primary version is better.** Round 1 held "a child's desk should ideally be white", cited to «подкаст с детским психологом». **That podcast is this round's `RxU4L7ce86E`.** The real requirement is a PLAIN, light surface acting as visual BACKGROUND — figure-ground separation, not colour. **The second-hand version kept the conclusion and lost the reason, which is exactly what made it non-transferable.**
+- **⚠️ A dimension gap the vault had explicitly flagged is closed** — `Age_Staged_Planning.md` carried the note "no desk depth anywhere". **Now closed with a failure case rather than a figure: a 40 × 100 cm desk cannot serve a first-year pupil, and the test is an enumeration of what must fit on it.**
+- **⚠️ Two flatly contradictory storage rules from unrelated channels reconciled, and the mechanism supplied for the one that only stated a conclusion.** The strategy inverts three times across childhood.
+- **⚠️ A four-year-old case on this vault now has its physics.** The 2022 unwashable matte black wall — the 2026 source explains it as burnishing.
+- **⚠️ A contradiction in this channel's OWN advice resolved into one rule.** Cap light groups at two or three (2022) versus many devices under one scene (2024): **the tolerable group count is set by whether a scene can collapse them into one action.**
+- **⚠️ A Round 3 identity question partially resolved, with the amendment recorded in place rather than rewritten.** The soundproofing source is filmed on the Петровская коса object Round 1's Руслан named — **so those two are the same person, confirmed by object.** Round 3's ЖК «Фамилия» reviews move from "probably" to "very likely", still unproven.
+
+### Two Perspectives splits opened rather than closed
+
+Both are recorded as disagreements because both readings are defensible and they lead to different work:
+
+1. **Underfloor heating in a bathroom.** The vault held "always required". **This round has a designer who omitted it in two successive flats and resolved the only resulting complaint — a WET floor — with a heated WALL.** The two duties turn out to be separable, and only drying has a wall-mounted answer. ⚠️ **Note the two sources may be closer than they read, since the "mandatory" designer's own small-bathroom recommendation is a recessed wall-mounted heater.**
+2. **"The child never uses the room we built him."** **The designer redesigns the room to be more attractive; the psychologist rejects the framing, questions the parents' premise, and reduces "constantly" to about one evening hour by arithmetic. Both are on this host's channel.**
+
+### Three integrity notes, recorded because they are the kind of thing that quietly corrupts a vault
+
+- **A garbled technical term corrected rather than propagated or silently fixed.** The fabric abrasion index is given as «мерчендей», hedged with «по-моему». **It is MARTINDALE; the bands quoted are correct.** Recorded with the correction and the flag.
+- **A figure diverging from the same practitioner's own earlier one, recorded as a range rather than picked.** Dubai without AC before mould: **two days (2022) versus a week (2026)**, a 3–5× spread, both hearsay.
+- **An incident that is probably a retelling, not a second data point.** The pressure-raising leak: 2023 places it at a washing-machine hose, 2026 under the basin. Same flat, same cause, same save. **Recorded as one event told imprecisely, not counted as corroboration.** What the later telling adds is that over-pressure VOIDS WARRANTY.
+
+### ⚠️ My prediction record, stated plainly for the fourth time
+
+**I predicted decay before all four rounds and was wrong all four times, and the largest jump came last.** Round 3 diagnosed the root cause — modelling yield against *titles remaining* rather than *format mix* — and **Round 4 confirms the corrected model was right, because it was the first round scoped on it.**
+
+**The residual error worth naming: I also framed Round 3 as "the final round" and Round 4 as a mop-up. On the evidence, format-selected picks from this channel were still improving when the round closed.** That is a different mistake from the yield one and it has the same cause — treating a channel as a finite list rather than as a set of formats.
+
+### ⚠️ WHERE THE CHANNEL STANDS NOW — 21 of 220 processed
+
+**I am not going to predict decay a fifth time.** What is factually left, with formats named rather than counts:
+
+1. **Four more regrets titles** — `CN-Ab_g4CAI` (30 min), `34D4bv2dNLw`, `vvf2wcUYaUE`, `-1hfcmvUGjY`. **Left on format reasoning, not on a dedup finding — the stopping rule never fired.** These are the shorter remainder of a block whose three longest all beat the channel average.
+2. **The large untouched technical cluster** — `3tgHGhY0gXA` (stretch vs plasterboard), two flooring reviews, microcement, decorative plaster, the tile pair, the partition pair, and **`Tj94jGH6fls` (Falconnier glass brick, still zero vault matches — the only genuinely uncovered subject left).**
+3. **The two shorter storage videos** (`RtRabYtDxNk`, `hllO93k4O7Q`). ⚠️ **Round 4 surfaced a lead here: the durability source references his own videos with a professional space organiser redoing the storage in his flat, and the vault already holds two organiser sources from this channel.**
+4. **`1Dpc8SLJd6M`** — the Zrobim Architects (Minsk) podcast. **⚠️ FLAGGED FOR THE USER'S DECISION FOR THE FOURTH TIME, still undecided. It is the one Belarus-adjacent item on a channel that is otherwise entirely Russian-jurisdiction, which is why it has never been defaulted either way. Subject is building a house, not renovating a flat.**
+5. **Still recommend against the host-solo general-design and trend cluster.** That finding has now survived four rounds.
+
+**The decision to continue remains a budget question — this channel against the six unpreflighted Group B channels — and not a question of whether the yield has run out. On four rounds of evidence it has not.**
+
+### Verification
+
+`check_page_sizes.py`: **284 pages scanned, no FRAGMENTED, nothing over the 400 backstop.** **⚠️ Four pages now between 358 and 382 lines, flagged with proposed split seams in Pending Wiki-Page Decisions — and `Lighting_Design.md` is flagged for a MERGE FIRST, because it carries roughly a dozen dated round-labelled headings even though the tool does not flag it.** **⚠️ Also found while routing: `15_Appliances/analysis/Kitchen_Filtration_Systems_Analysis.md` is ZERO BYTES** — recorded in Pending decisions with the decision needed, and this round's filtration content routed to `Pressure_and_Water_Hammer.md` on subject-matter grounds rather than as a workaround.

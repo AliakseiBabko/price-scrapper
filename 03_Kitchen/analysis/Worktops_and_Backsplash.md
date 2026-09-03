@@ -35,6 +35,15 @@ Related: [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]] for
 
 `single-account`, `unverified`. [source: [[_Sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|YT_FdJLbYEpViU]]]
 
+### ⚠️ The Kitchen Is the Harsher Room, Not the Bathroom — and It Reorders the Ladder Above
+
+**An inversion of most people's intuition, from a designer with 20 years' practice, and it is the reason the backsplash spec should not be borrowed from bathroom practice.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+- **«Вообще КУХНЯ считается АГРЕССИВНОЙ СРЕДОЙ, в отличие от той же ВАННОЙ. В ванной требования к поверхностям, к тому же фартуку за мойкой, ГОРАЗДО НИЖЕ, чем на кухне — ТАМ НЕТУ РАСКАЛЁННЫХ СКОВОРОДОК, ТАМ НЕТ КАСТРЮЛЬ, С КОТОРЫХ ЛЕТЯТ ПЯТНА.»** The bathroom's problem is humidity; the kitchen's is heat, grease and abrasion — and abrasion is the one that decides a backsplash, **«потому что вы ПОСТОЯННО БУДЕТЕ ПРОТИРАТЬ»**.
+- **⚠️ His recommendations follow from abrasion resistance rather than water resistance: керамогранит, КВАРЦЕГЛОМЕРАТ — «те материалы, которые МЕНЬШЕ ВСЕГО ПОДВЕРЖЕНЫ ИСТИРАНИЮ». Toughened glass also passes: «на кухне на фартук подойдёт КАЛЁНОЕ СТЕКЛО, с которым тоже ничего не будет.»** ⚠️ **Note this partly dissents from the ladder above, which rates tempered glass as outdated and grease-showing — the disagreement is about appearance and fingerprints, not durability, and both can be true.**
+- **⚠️ THE TWO HE WARNS AGAINST, and the mechanism is absorption rather than wear: «если вы используете МЕЛКУЮ МОЗАИКУ или, например, НАТУРАЛЬНЫЙ КАМЕНЬ, то приготовьтесь к тому, что все эти БРЫЗГИ… вы СТЕЙК ЖАРИТЕ, летят ЖИРНЫЕ ПЯТНА, и всё это может ВПИТЫВАТЬСЯ В КАМЕНЬ — и потом у вас будут очень большие проблемы всё это оттирать.»**
+  **→ This is a direct caution against two options the ladder above treats neutrally: mosaic (listed under tile/porcelain, with grout lines noted only as a visual con) and same-material-as-countertop where that material is natural stone (listed as the premium tier leader). Grease absorption into natural stone, and grout-line count in a mosaic, are kitchen-specific failures the general ladder does not price.** His client-side evidence for stone in a kitchen — white marble and backlit onyx that «превратился во что-то ужасное» despite careful owners — is on [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]].
+
 ## Worktop Overhang: An Experiment Against the Cabinetmakers' Argument (SMBUREAU, added 2026-08-30)
 
 SMBUREAU specify worktops **flush with the cabinet fronts, with no overhang**, and report having to argue it on site each time — "мебельщики просто округляют глаза."
@@ -73,6 +82,25 @@ This page already records her experiment showing that a **2 cm worktop overhang 
 This vault already records her rejection of push-to-open on frequently-used fronts. **The kitchen video supplies the reasoning the earlier note lacked**: a showroom trial of two or three opens misleads, because **in daily use it is two motions, not one — press, then pull — since the self-opening speed is never the speed you want.** A real handle is one motion at your own pace. On a surface opened many times a day the difference compounds.
 
 Integrated groove handles: fingers slip and nails break. **If specifying remotely without a showroom trial, choose fronts with no cut-out at all** and pull on the front edge. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+
+#### ⚠️⚠️ A Designer Fitted Handle-Less Gola Uppers in His Own Kitchen, Lived With Them a Year, and Retrofitted Knobs
+
+**This is the strongest evidence on the question in this vault, because it is an outcome rather than a showroom judgement — and it independently confirms the nail-breaking objection above while adding two failure modes it does not name.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+- **⚠️ FAILURE 1 — the dirt comes from CLOSING, not opening, which is why a showroom trial misses it entirely: «здесь идёт ПРОФИЛЬ ГОЛА, пальцы вот так легко заходят, открывают, и вроде как всё прекрасно. НО КОГДА МЫ ЗАКРЫВАЕМ, МЫ ВСЁ РАВНО КАСАЕМСЯ ПАЛЬЦЕМ, и здесь остаются ГРЯЗНЫЕ СЛЕДЫ. Если вы что-то готовите, у вас там ЖИРНЫЕ ПАЛЬЦЫ, и постоянно это всё нужно оттирать.»**
+- **⚠️ FAILURE 2 — a separate cognitive one that no amount of cleaning addresses: «когда у вас НЕТ РУЧЕК, то ИНТУИТИВНО НЕПОНЯТНО, В КАКУЮ СТОРОНУ ОТКРЫВАТЬ — отсюда открывать или отсюда? К чему-то я быстро привык, ЧТО-ТО МЕНЯ ОЧЕНЬ ДОЛГО РАЗДРАЖАЛО.»** A handle is also a direction indicator.
+- **⚠️ THE RETROFIT, and it worked: inexpensive knobs from a mass-market shop, toned to match the lower units. «Они кстати НЕ ИДЕАЛЬНО СОЧЕТАЮТСЯ, но в массе разницы не видно, довольно эстетично… никаких пятен… теперь я СРАЗУ ЗНАЮ, куда открывать, за что браться.»** **Note this is a cheap and available remedy — which makes handle-less uppers a reversible mistake rather than a permanent one, unlike most of the items on these pages.**
+- **⚠️ HIS VERDICT: «МИНИМАЛИЗМ МИНИМАЛИЗМОМ, НО ВЕРХНИЕ РУЧКИ ВСЁ-ТАКИ Я КОНЕЧНО РЕКОМЕНДУЮ ЧИСТО ИЗ ПРАКТИКИ.»** Note the scope — **uppers specifically**, which is where greasy hands and overhead reaching coincide.
+- **⚠️ And the same practitioner's push-to-open verdict, from the two doors in that kitchen that have it — the only two in the flat, everything else on handles: «я НЕ ЛЮБЛЮ всё-таки пуши, вот эти Tap to Open кнопочки — здесь всё равно ПОСТОЯННО ПОЯВЛЯЕТСЯ КАКАЯ-ТО ГРЯЗЬ, приходится всё время убирать.»** He kept them only because «ручка здесь бы меня, честно говоря, раздражала» on that particular front.
+
+> [!IMPORTANT]
+> **⚠️ THE UNIFYING MECHANISM, which none of the three sources states but all three demonstrate: any surface you must TOUCH in order to open collects dirt. A handle's function is to move that contact off the visible facade.**
+>
+> The same practitioner makes the durability half of the argument explicitly in a later source: surface-mounted handles **«ЗАЩИЩАЮТ фасад от прикосновений — фасады МЕНЬШЕ ПАЧКАЮТСЯ, значит надо МЕНЬШЕ ПРОТИРАТЬ, значит они ПРОЖИВУТ ГОРАЗДО ДОЛЬШЕ»**, whereas a gola profile means **«более минималистичная современная кухня, но при этом ФАСАДЫ БУДУТ ПАЧКАТЬСЯ 100%»**. **His caveat against over-reading it: complex-textured or glossy handles need cleaning themselves, «кухня всё-таки это место, где у вас грязные руки в еде».**
+>
+> **→ So the choice is not gloss-versus-matte or handle-versus-none in the abstract: it is where you would rather do the wiping, on a small replaceable metal part or on the facade itself.** Facade damage arising during cleaning rather than during use is a documented mode — see [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]]. [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+>
+> **⚠️ And the corollary for the facade itself, from the same source: «если вам нужен неубиваемый интерьер, делайте ПРЯМЫЕ ПРОСТЫЕ ФАСАДЫ» — veneered MDF and intricate machining «очень быстро может прийти в негодность». Plus the edge rule: «самая уязвимая зона мебели — это ТОРЦЫ фасадов… 100% вы его зацепите», with rounding the corners in a circulation zone named as the good but «небюджетное» fix.**
 
 ### Island cost technique
 

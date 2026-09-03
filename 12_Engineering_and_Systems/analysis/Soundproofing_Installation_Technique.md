@@ -147,6 +147,56 @@ practitioner's own workaround is propping the door slightly open, or
 relying on the room's AC/mechanical ventilation instead of passive
 under-door airflow. `single-account`, no named product. [source: [[_Sources/YT_U95vMOOhKH8_timremont_39sqm_walkin_office_zoning|U95vMOOhKH8]]]
 
+## A Second Independent Named System — Premium М1, Floor-First Sequence with Services Integration (general contractor Руслан, Петровская коса premium object)
+
+**A second full build to compare against the ASTic/Acusti sequence above, on an unrelated channel and a different manufacturer's system.** Region: St Petersburg, stated. `promotional_ratio: medium` — a named material system throughout and a named product, no discount code or funnel, but the material selection is not independent of the contractor's supply relationship (read alongside the designer procurement-commission range in `Advertising_Promotional_Notes.md`). [source: [[_Sources/YT_AH1INy0i5lU_nsdsgn_soundproofing_premium_object|YT_AH1INy0i5lU]]]
+
+**Named components**: soundproofing system **Premium М1**; layer material described as «специальные ОДЕЯЛА»; a separating **membrane**; partition-decoupling pad **«В100», Техносонус**; дэмпфер perimeter tapes; **acoustic plasterboard** with an acoustic membrane; acoustic sealant; acoustic-grade mineral wool.
+
+### ⚠️ The Floor-First Sequence, and Why It Matters
+
+**This object had NO developer screed — «что РЕДКОСТЬ для Санкт-Петербурга, чаще это бывает в МОСКВЕ»**, a regional note worth keeping. That let the acoustic floor go in before the services, and the ordering is the transferable part:
+
+1. Strip the old services — отопление, ГВС, ХВС
+2. **First layer of soundproofing blankets (Premium М1)**
+3. **A membrane over it**
+4. **A third layer, the same blankets again — BUT WITH A TURN-UP ONTO THE WALL.** Same principle as the Shumanet perimeter turn-up recorded on the companion page, here executed as a full third layer rather than an upstand of the first
+5. **Only then** lay heating pipes to each radiator position and ГВС/ХВС to the collector nodes
+6. Pour **semi-dry screed** «согласно технологиям»
+
+**⚠️ Partition frames are decoupled from the screed by a dedicated pad, not just by tape**: «это В100 называется, оно ТЕХНОСОНУС — специальная прокладка, которая крепится ПОД НАПРАВЛЯЮЩИЙ ПРОФИЛЬ». Result: «со стяжкой [и] с каркасом перегородок — они получаются НЕЗАВИСИМЫЕ, и не передаётся никакой шум из помещения в помещение». **The screed itself is separated from the abutting slabs and monolithic elements, and дэмпфер tapes handle room-to-room transmission.** Compare the ASTic method above, which achieves wall decoupling by pulling the temporary anchors back out — **two different products solving the same problem at the wall/floor junction rather than the wall/slab one.**
+
+**⚠️ A disclosed failure, stated plainly even though the detail was deferred to another video: «мы демонтировали в определённый момент ВСЮ СТЯЖКУ ЗА СВОЙ СЧЁТ [и] заново её перезалили».** They tore out the entire screed at their own expense and re-poured it. Recorded because a contractor disclosing a full redo at his own cost is a credibility signal, and because it indicates the floor build-up above is less forgiving than its description suggests.
+
+### ⚠️ Party-Wall Build-Up — 83.5 mm, Layer by Layer
+
+**«В среднем занимает 83,5 мм»** — usefully thinner than the ≈10 cm ASTic wall assembly above, which is a real planning difference in a flat where every centimetre is contested.
+
+1. **A membrane glued directly to the concrete** — «она разделяет от вибрационных шумов, которые попадают в квартиру»
+2. **ВИБРОПОДВЕСЫ** made with a specific damping material; «подвес не передаёт вибрацию дальше на каркас металлический»
+3. **All profiles taped on the reverse side of the frame**
+4. **ACOUSTIC mineral wool — «она акустическая, она ЗВУКОПОГЛОЩАЮЩАЯ»**, functionally distinct from the barrier layers, which corroborates the companion page's insulate-plus-absorb rule
+5. **An air gap behind. ⚠️ And the general rule, stated as a monotonic relationship: «чем БОЛЬШЕ расстояние воздушное, тем ТИШЕ будет в квартире»** — consistent with the quantified +5-10 dB for a wider window air gap recorded on the companion page
+6. **Facing: first layer acoustic plasterboard with an acoustic membrane; «каждый лист по торцу промазывают герметиком и стыкуется, чтобы не было проникновения шумов»; then a second layer screwed on, again all seams smeared. On the interior partition: THREE layers of зашивка**
+7. Then ordinary decorating: «шумоизоляционная подложка готова, а дальше уже можно делать что угодно… ведём чистовую отделку по стандарту»
+
+**Sockets and шумобоксы within this build-up, plus the back-to-back planning constraint they impose: see [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]].**
+
+### ⚠️⚠️ A DIY Failure Diagnosed — Two Distinct, Checkable Errors
+
+A subscriber soundproofed two party walls and a ceiling with **«плиты из [пено]пласта»**, foamed the joints, and got a modest improvement — but «стены и потолок кривые, и потом были мучения подготавливать поверхность под обои. **Сейчас бы точно такое не подписался.**»
+
+- **⚠️ ERROR 1 — the wrong material CLASS: «ПЕНОПЛАСТ, к сожалению, НЕ ЯВЛЯЕТСЯ ШУМОИЗОЛЯЦИОННЫМ материалом — он скорее всего ТЕПЛОИЗОЛЯЦИОННЫЙ материал. Поэтому у вас и не получилось полноценно сделать шумоизоляцию.»** Thermal insulation substituted for acoustic insulation. This is the single commonest DIY error in the subject and the vault did not have it stated plainly.
+- **⚠️ ERROR 2 — skipping substrate preparation, which is specific to FRAMELESS systems: «перед монтажом БЕСКАРКАСНОЙ шумоизоляции нужно ПОДГОТОВИТЬ ПОВЕРХНОСТЬ стены, то есть ВЫРОВНЯТЬ её; все примыкания делать очень ПЛОТНО друг к другу, а стыки все потом ещё ГЕРМЕТИЗИРОВАТЬ специальным шумоизоляционным материалом.»** Directly relevant to [[12_Engineering_and_Systems/analysis/Soundproofing_Panel_Systems|ZIPS and frameless panel systems]], where an unlevelled substrate defeats the whole assembly — and it also explains his second complaint, the agony of preparing crooked panels for wallpaper afterwards.
+- **⚠️ His rule, and this is the third time this channel states it: «лучше смотреть специальные материалы, ЧИТАТЬ на них ТЕХНОЛОГИЧЕСКУЮ СОСТАВЛЯЮЩУЮ МОНТАЖА и по ней выполнять данные работы».**
+
+### ⚠️ A Specific Answer for a Сталинка Ceiling Under a Stretch Ceiling
+
+A subscriber in a **1956 сталинка**: thick walls, but «из-за приличных отверстий в ШВАХ ПЛИТ ПЕРЕКРЫТИЙ прекрасно слышим шпица сверху» — plus a child's stomping, the adjoining neighbour coughing, even conversations. **They sealed the slab-joint holes and it is still audible.** A stretch ceiling is required for other reasons.
+
+- **⚠️ THE ANSWER, which declines the cheaper options explicitly: «в домах сталинках ОЧЕНЬ НИЗКАЯ звукоизоляция перекрытий, поэтому необходимо использовать КАРКАСНУЮ шумоизоляцию НЕ НИЖЕ ПРЕМИУМ, при этом ОБЯЗАТЕЛЬНАЯ ПРОКЛЕЙКА МЕМБРАНЫ. А всё остальное — вся остальная шумоизоляция — это просто ВЫКИНУТЬ ДЕНЬГИ.»**
+- **→ Framed system, premium grade minimum, bonded membrane. This is a direct contradiction of the Ontario practice recorded on the companion page — rolled soundproofing laid straight onto the slab under a stretch membrane, presented as adequate for most clients. ⚠️ Note the scope difference before treating them as opposed: Ontario's claim is for typical stock; this one is specific to сталинка slabs with open joints, where the companion page's own measured DIY comparison also found rolled materials weakest.** Sealing the joints first was necessary and, on this evidence, not sufficient.
+
 ---
 
 Part of [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]]. Companion page: [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing — Selection & Comparison]] for the taxonomy, decision framework and measured comparisons that decide *which* system to build.

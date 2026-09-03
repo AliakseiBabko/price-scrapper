@@ -234,6 +234,45 @@ recorded as general reference only:
   "trust professionals for this specific system."
 [source: [[_Sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
 
+## ⚠️⚠️ A Designer's Own Flat, One Year In — Four Retrofit Patterns and a Scene That Justifies the Rest
+
+**Unusually good evidence for this page: every item is a device actually in service in the reporter's own Petersburg flat, with the annoyance it was bought to fix and the schedule it runs on. Yandex/Алиса ecosystem, which corroborates the starter-kit section above from an independent practitioner.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+### ⚠️⚠️ The retrofit pattern worth generalising — leave the fixture ON and put the intelligence upstream
+
+**A 20-year-old vintage floor lamp with a foot switch he found genuinely irritating: «он выключается НОГОЙ, там кнопочка такая — каждый раз подходить, уходить, выключать, забыл, подошёл».**
+
+- **⚠️ THE FIX: «я ЗАЖАЛ ВКЛЮЧЕНИЕ и купил УМНУЮ КНОПКУ»** — a smart button at «тысяч там полторы, может две» (**~1,500-2,000 ₽, 2024**). The lamp's own switch is permanently held on; the button upstream does the switching.
+- **Scheduled rather than voice-triggered: «каждый раз, когда я прихожу с работы, ЗА ПОЛЧАСА до моего прихода уже включена лампа, ОНА МЕНЯ ВСТРЕЧАЕТ; и ночью она выключается либо по моей команде, либо сама».** «Дом тебя как будто бы ОБНИМАЕТ и встречает.»
+- **→ THE PATTERN: any dumb fixture with an awkward switch can be automated without rewiring and without replacing the fitting. It is the only route available for vintage, second-hand or designer fittings that will never have smart internals — and it sidesteps the reliability concerns recorded above, because the fitting itself is unmodified and the failure mode is simply "the lamp stays on".** Compare the wired-versus-wireless decision on [[12_Engineering_and_Systems/analysis/Smart_Home_Wired_vs_Wireless|Smart Home: Wired vs Wireless]] — this is the cheapest possible wireless retrofit and it requires no rough-stage decision at all.
+
+### Motorised curtains — the drive was swapped, and the percentage function is the favourite
+
+- **He changed the existing electric curtain DRIVE so that it works with Алиса** — so an already-motorised curtain became controllable, rather than a new curtain being bought. **«Наверное САМОЕ КРУТОЕ РЕШЕНИЕ» of everything he did.**
+- **Morning by voice, evening on a schedule. ⚠️ And one schedule detail that is a genuine use case rather than a novelty: «они также уже В 11:00 ВСЕГДА ОТКРЫТЫ, чтобы я НЕ ПРОСПАЛ, не дай Бог.»**
+- **⚠️ PARTIAL CLOSING, which he singles out: «мне очень нравится функция, когда можно сказать "Алиса, ЗАКРОЙ ШТОРЫ НА 50%", и она закроет шторы не полностью, а только наполовину.»** **→ A percentage-addressable drive is a different product from an open/close one, and it is the difference between a novelty and a daily control.** See [[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Curtains and Window Treatments]].
+- **⚠️ The composed effect he rates highest is a two-device interaction, not a single function: «когда они вечером ЗАКРЫВАЮТСЯ, у меня СРАЗУ ЖЕ ЗАГОРАЕТСЯ СВЕТИЛЬНИК — то есть шторы закрыты, а в комнате СВЕТЛО.»** «Создаёт прямо нереальный УЮТ… я живу с этим несколько месяцев, но меня КАЖДЫЙ РАЗ этот момент радует.»
+
+### ⚠️⚠️ The "goodnight" scene — and it is what makes a large device count tolerable
+
+- **The problem, stated plainly and it is the one this page's device sections tend to create:** a controlled socket with a night-light in the study, a kitchen floor lamp, wall night-lights, a bedside lamp and motorised curtains. **«Чтобы всё это закрыть, нужно КАК ДУРАК ХОДИТЬ ПО ВСЕЙ КВАРТИРЕ, говорить: Алиса, закрой это; Алиса, выключи это.»**
+- **⚠️ «Прописал СЦЕНАРИЙ — когда ты говоришь просто "Алиса, СПОКОЙНОЙ НОЧИ", у тебя выключается ВЕСЬ СВЕТ, который тебе нужно, и ЗАКРЫВАЮТСЯ ШТОРЫ… ОНО ОЧЕНЬ ПРОСТО ДЕЛАЕТСЯ, и я всем его рекомендую.»**
+- **→ This is the load-bearing item, not a nice extra: the same practitioner argued four years earlier that light groups should be capped at two or three because hunting for the right switch becomes intolerable. The scene is what removes that ceiling.** Full reconciliation on [[12_Engineering_and_Systems/analysis/Switches_and_Controls|Switches and Controls]].
+- **⚠️ And his flat rejection of the alternative input method, which is a dissent from common practice: «я НЕНАВИЖУ ДАТЧИКИ ДВИЖЕНИЯ — вот это всё МАХАНИЕ РУКАМИ, чтобы они включились».** Independent of, and compatible with, the motion-sensor reliability caution recorded above — his objection is to the interaction, not the reliability.
+
+### Scheduled appliances — and the schedules encode a noise decision
+
+| Device | Schedule | The reasoning |
+| :--- | :--- | :--- |
+| **Air purifier** | On when he leaves for work, off toward evening | **«Весь день она работает, но при этом мне ШУМ НЕ МЕШАЕТ, когда меня нет дома.»** Filter life ~**1 year** |
+| **Humidifier** (on a smart plug) | Running in the day, **off at night** | **«Ночью я хочу спать в ТИШИНЕ.»** Power level also settable from the phone |
+| **Гирлянда** | Evenings only | **«Я всем конечно рекомендую гирлянды включать именно НА РАСПИСАНИЕ — зачем вам гирлянда днём?»** |
+| **Robot vacuum** | 3× a week at a set hour | Scope stated honestly: **«он НЕ ЗАМЕНЯЕТ вам обычную влажную уборку [и] пылесос — но если вы сделали клининг, то, часто запуская его, вы будете ПОДДЕРЖИВАТЬ довольно хороший порядок»** |
+
+**⚠️ The pattern across all four: the schedule exists to move the device's NOISE into hours when nobody is home. That is a scheduling criterion this page did not have — the starter-kit section above schedules for convenience and energy, and this schedules for acoustics.** It also matters because two of these live in rooms where the noise would otherwise force them off entirely: the purifier moved out of the bedroom for exactly this reason, and the humidifier is silenced at night.
+
+**⚠️ A humidity figure worth keeping, since it is the reason the humidifier exists at all: with the radiators running in a Petersburg winter, «это УЖАСНЫЙ СУХОЙ ВОЗДУХ, у меня начинают ЛОПАТЬСЯ СОСУДЫ… там по 10% ВЛАЖНОСТИ показывает». In summer he does not use it — «воздух в Питере и так довольно влажный».** So the device is heating-season-only, which bears on whether it is worth integrating at all. See the humidification note on [[12_Engineering_and_Systems/analysis/Breathers_vs_Mechanical_Ventilation|Breathers vs Mechanical Ventilation]].
+
 ## Wired vs. wireless architecture — moved to its own page
 
 See **[[12_Engineering_and_Systems/analysis/Smart_Home_Wired_vs_Wireless|Smart Home — Wired vs. Wireless Architecture]]**. **That decision has to be made at the rough stage**, before the walls close; this page keeps pricing, control methods, devices, sensors and the ecosystem starter kit, which can be revisited later.

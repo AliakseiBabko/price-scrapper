@@ -109,6 +109,23 @@ Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part 
 
 `single-account`, `unverified`.
 
+### ⚠️⚠️ A Towel Point Reachable FROM INSIDE the Bath — Still Unsolved After a Year (NSDSGN, 2024-07-04)
+
+**Recorded because it is a requirement distinct from the towel-warmer position, because it is commonly missed, and because a designer living in his own flat had not managed to fix it a year in — which is itself evidence of how hard it is to retrofit.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+- **«Когда я моюсь в ванной, принимаю душ, мне нужно ПОЛОТЕНЦЕ — и мне приходится ВЫСОВЫВАТЬСЯ ИЗ ВАННЫ и тянуться до крючков на ТЁПЛОЙ СТЕНЕ. Здесь нужна какая-то полочка, какие-то крючки, чтобы полотенце висело ИМЕННО ЗДЕСЬ — это было бы гораздо удобнее. Я ещё пока не решил, как именно это сделаю, но это ОБЯЗАТЕЛЬНО НУЖНО СДЕЛАТЬ.»**
+- **→ The towel rail satisfies DRYING; this satisfies REACH while wet, and the two want different positions.** A heated rail is sited where it warms the room and dries a towel through the day; a grab point has to be within arm's length of someone standing in the bath, which usually means the wall the bath abuts rather than the one opposite.
+- **⚠️ It also explains a failure this page's sightline-based shelf placement rule would not catch: the hooks were correctly placed for the room and wrongly placed for the activity.** Add "reachable from inside the enclosure" as an explicit check alongside the reachable-gap rule already recorded above.
+
+### ⚠️ Concealing a Cat Tray Under the Vanity — a Height Decision, Made Too Late
+
+**One of the objects this vault's own "never makes it into the brief" list names** — see the unlisted-objects rule on [[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family Scenario Driven Design]] — and here is the same practitioner discovering it in his own flat. [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+- **He ABANDONED his original plan to put the tray in the kitchen: «меня просто за это СТОЛЬКО ХЕЙТА было — кот на кухне, грязь, как ужасно.»** It moved to the bathroom, **«где есть хорошая ВЕНТИЛЯЦИЯ, где ЗАМКНУТОЕ помещение»** — which are the two real siting criteria and both favour the bathroom.
+- **Two things he did get right: «я повернул его ЛИЦОМ К СТЕНЕ, чтобы если оттуда что-то летело, то летело НА СТЕНУ»**, and it is colour-matched, «он ничего визуально не портит».
+- **⚠️ THE REMAINING WISH, and it is a dimension that had to be set at design stage: «если [бы] он был чуть-чуть ПОНИЖЕ, или МОЙКА была бы ПОВЫШЕ, то он бы ещё идеально СПРЯТАЛСЯ ПОД ТУМБУ УМЫВАЛЬНИКА — это было бы вообще классно.»**
+  **→ A cat tray fits under a vanity if the vanity is raised or the tray is low, and both are decided long before the tray is bought. Add the tray's height to the vanity-height decision, alongside the pull-out column and clearance rules below.** He notes the bathroom is spacious enough that it does not obstruct him — so this is a concealment failure, not a functional one.
+
 ## Vanities, Pull-Out Columns and Clearances
 
 ### Utility Furniture: Pull-Out Columns and Clearance Rules

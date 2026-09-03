@@ -116,3 +116,25 @@ reaches the room instead of being trapped behind the fabric. [source: [[_Sources
   disagreements rather than merged (cornice-width margin, in-floor-
   convector coverage allowance).
 - 2026-08-30 — Composition-first section added from the colour batch (Бюро ARCHWOOD / Марина Измайлова, `AKxOtRhIcJY`): ask whether the room needs a contrasting vertical element at all before asking what colour, note that a contrasting curtain can be lighter than the wall rather than darker, and treat curtains as a member of the already-chosen palette. Cross-linked to Anuta Vlady's attention-direction rule on the new Colour Harmony page, which approaches the same decision from the opposite end.
+
+## ⚠️⚠️ A Roller Blind Alone Fails the Daytime-Privacy Duty — Plan the Second Track Row at the Outset
+
+**A designer's own guest room, diagnosed a year after moving in, and the finding is about OPERATION rather than appearance — which is why it is easy to miss at drawing stage.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+The room doubles as his study and guest room. **His daughter often stays and «ей было ОЧЕНЬ НЕКОМФОРТНО, потому что на окнах были ТОЛЬКО ШТОРЫ и РУЛОННАЯ ШТОРА, которая закрывала окно, и ПОСТОЯННО НУЖНО БЫЛО ЕЁ ОПУСКАТЬ-ПОДНИМАТЬ».**
+
+- **⚠️ It failed for him too, and the trigger is ordinary daily life rather than an edge case: «даже когда я здесь был ОДИН и занимался утром ЗАРЯДКОЙ, или шёл В ВАННУ и дверь была открыта — это было просто НЕУЮТНО, потому что у нас есть ОКНА СОСЕДЕЙ и всё открыто. Каждый раз ЗАКРЫВАТЬ РУЛОН — ну это просто ЗАПАРНО.»**
+- **⚠️ THE FIX: «я добавил ещё ОДИН РЯД КАРНИЗА и повесил ТЮЛЬ. Здесь стало В 100 РАЗ УЮТНЕЕ. НАДО БЫЛО СРАЗУ ЭТО СДЕЛАТЬ.»**
+- **→ THE MECHANISM, and it is the transferable part: a roller blind is BINARY and must be OPERATED. Any privacy it provides costs an action, so in practice it is not used and the room is exposed. A тюль layer provides continuous daytime privacy with NO operation at all.** The two are not alternatives — the blind serves blackout and glare, the тюль serves daytime screening, and a window overlooked by neighbours needs both.
+- **⚠️ The specification consequence: a second curtain track row has to be planned before the ceiling detail is fixed.** Retrofitting a track is cheap in itself, but only where the ceiling, the curtain pocket or the plasterboard bulkhead can still accept one — which is the same coordination the mounting and clearance material below governs. **See [[17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware|Curtain Sizing, Mounting and Hardware]]: the double track is an ordinary product, and the failure here was omitting it, not being unable to fit it.**
+- **⚠️ Note the room type this surfaced in. A guest room, a study or any room whose occupant changes is where the omission bites — because the person who eventually has to undress or exercise in it is not the person who signed off the window treatment.** Compare the multi-occupant reasoning on [[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family Scenario Driven Design]].
+
+### ⚠️ Motorised Curtains — What the Same Practitioner Actually Values About Them
+
+He rates a motorised drive **«наверное САМОЕ КРУТОЕ РЕШЕНИЕ»** of everything he retrofitted, and two of his three reasons are not the obvious one:
+
+- **⚠️ PERCENTAGE CLOSING, which he singles out: «мне очень нравится функция, когда можно сказать "закрой шторы НА 50%", и она закроет шторы не полностью, а только НАПОЛОВИНУ.»** **→ A percentage-addressable drive is a materially different product from an open/close one, and it is what makes the motor a daily light-control device rather than a convenience.**
+- **⚠️ A schedule that serves a purpose other than light: «они также уже В 11:00 ВСЕГДА ОТКРЫТЫ, чтобы я НЕ ПРОСПАЛ.»**
+- **⚠️ And the composed effect he likes most is an interaction with the lighting, not the curtain alone: «когда они вечером закрываются, у меня СРАЗУ ЖЕ ЗАГОРАЕТСЯ СВЕТИЛЬНИК — шторы закрыты, а в комнате СВЕТЛО.»** Full smart-home detail on [[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]].
+
+**⚠️ And one hard constraint on fabric choice from an unrelated part of the same practitioner's work, because it is the mistake a coherent scheme invites: curtain fabric carries NO abrasion rating, and using it for upholstery or a bed «НИ В КОЕМ СЛУЧАЕ нельзя делать, потому что она МОМЕНТАЛЬНО будет испорчена». See [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]].**

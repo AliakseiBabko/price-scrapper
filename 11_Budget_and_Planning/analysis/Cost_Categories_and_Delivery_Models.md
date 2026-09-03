@@ -62,6 +62,25 @@ Two primary Minsk **turnkey** benchmarks exist: a real $54,000 / $900-per-m² 60
 - **⚠️ Relevance to this project, stated plainly because it cuts both ways: this project's plan is self-managed and its flat is far below 300 m². This source says that combination is exactly where he came unstuck.** It is recorded as evidence to weigh, not as an argument that the plan is wrong — **the actionable form is that the sequencing role has to be someone's named job even in a small self-managed flat, whether that is a paid прораб or the owner doing it deliberately rather than incidentally.**
 - **A same-channel corroboration of the mechanism from the designer side: their roundtable records that «дизайнеры и строители должны быть отдельными единицами», while conceding that on a large object «идеально подходит схема работы с генподрядчиком, когда заказчик общается только с одним человеком, который завязывает на себя всех подрядчиков».** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
 
+#### ⚠️⚠️ 2.0c-i The same experiment reported THREE YEARS EARLIER, while it was still running — with a three-type taxonomy and the cost model
+
+**This is the *ex ante* view of the retrospective above, from the same practitioner and the same flat, and it is unusually valuable because he had already predicted the outcome and chose the option anyway.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
+**He names wrong choice of contractor as «то, о чём ЧАЩЕ ВСЕГО ЖАЛЕЮТ», and sets out three delivery models with the trade-offs attached:**
+
+| Model | Cost | Speed | Who coordinates |
+| :--- | :--- | :--- | :--- |
+| **«Мастер на все руки» / «человек-оркестр»** — often sets up his own bed or air mattress on site and does the whole job start to finish | «чаще всего это не так дорого» | **«очень-очень ДОЛГО»** | He does |
+| **A construction company** — all communication through one person who controls his own subcontractors | «значительно ДОРОЖЕ» | «быстрее, чем один человек — швейцарский нож» | They do |
+| **A separate specialist per trade** — «вы можете нанять САМОГО КРУТОГО электрика, самого крутого плиточника» | **«самый БЮДЖЕТНЫЙ способ»** | — | **«Вам нужен человек, который будет координировать этих специалистов, и ЧАЩЕ ВСЕГО ЭТИМ ЧЕЛОВЕКОМ СТАНОВИТЕСЬ ВЫ»** |
+
+- **⚠️ He states the coordination burden BEFORE living through it, in almost the same words he later used in the retrospective: «я НЕ СТРОИТЕЛЬ, во все самые тонкие строительные процессы я просто не могу физически вникать; к тому же постоянно нужно КООРДИНИРОВАТЬ действия разных подрядчиков — знаете, как ТАРАКАНЫ РАЗБЕГАЮТСЯ: берёшь маляра, он куда-то убегает, тут же плиточник приехал, электрик… нужно постоянно всех собирать.»** He closes with «надеюсь, что всё хорошо закончится» — and the section above records how it did.
+- **⚠️⚠️ THE COST MODEL, and it is the genuinely new content on this page: «те деньги, которые СЭКОНОМИЛ за счёт того, что всем платил отдельно — в принципе они КОМПЕНСИРОВАЛИ мне все затраты на какие-то ПЕРЕДЕЛКИ. Потому что все переделки скорее всего лягут именно на ВАС, а не на руководителя строительной фирмы.»**
+  **→ The saving from self-management is roughly cancelled by the rework you then carry. So the real difference between a main contractor and separately-hired trades is NOT COST — it is who bears REWORK RISK and the COORDINATION LOAD. Read that way, model 3 is not "the budget option"; it is the same price paid in a different currency, and one of the two currencies is your time.**
+  **This is the missing economic half of the retrospective above: that one says the coordination is a separate job, and this one says the money saved by not buying it comes back out as rework. Together they close the argument.**
+- **⚠️ And his selection method for any of the three, which costs nothing: «в стройке самое важное — это всё-таки САРАФАН и приехать ПОСМОТРЕТЬ РЕЗУЛЬТАТ ТРУДА строителей. Когда [ты] на объекте, который делали строители, это СНИМАЕТ ВСЕ ВОПРОСЫ.»** Word of mouth plus a site visit to finished work — consistent with the practitioner-selection material on [[11_Budget_and_Planning/analysis/Contract_Practice|Contract Practice]].
+- **⚠️ A related economising warning that belongs with the model choice rather than with materials: «заказчики покупают ДОРОГУЩУЮ квартиру, даже дорогие материалы, но потом СЭКОНОМЯТ НА СТРОИТЕЛЯХ. И это прям боль, потому что любые дорогие материалы КРИВЫЕ РУКИ строителей могут ИСПОРТИТЬ.»**
+
 ### ⚠️ 2.0b Генподряд — the third delivery model, and the area threshold where it starts to matter
 
 **This section has held a two-way turnkey/self-managed distinction. A contractor of 30+ years supplies the middle term and, more usefully, a stated threshold.** [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]

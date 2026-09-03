@@ -90,6 +90,32 @@ Related: the cheap-hinge carcass-destruction mechanism and hardware cycle rating
 
 **Also endorsed on this page's existing terms: two or three containers or baskets on upper shelves holding grains and teas, and she further prefers jars for loose goods and teas.** And **dividers are largely unnecessary in a kitchen specifically** — she reserves them for bags and for the wardrobe. **For the container-sizing rule that governs all of it — match container size to category size — see [[14_Furniture/analysis/Household_Storage_and_Decluttering_Method|Household Storage and Decluttering Method]].**
 
+## ⚠️⚠️ The Plate-Drainer Cabinet Is Obsolete — a Re-Planned Build-Up With Dimensions (Александр Сенчугов, his own kitchen, 2024-07-04)
+
+**A designer re-planning his own upper cabinet a year after moving in, with the tier heights stated explicitly for reuse — and the change was taught to him by clients.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+- **⚠️ The premise: the drainer is now a STORAGE cabinet, not a drying one. «Раньше, как все делали, здесь была такая ДЫРКА: посуду мыли в мойке, кидали наверх, вода стекала, протекала насквозь. СЕЙЧАС ЭТО ПРОСТО НЕ НУЖНО — всю посуду я мою в ПОСУДОМОЕЧНОЙ МАШИНЕ, она там СУШИТСЯ, и уже СУХОЙ я кладу её сюда. То есть это по сути НЕ СУШКА, это просто ХРАНЕНИЕ ПОСУДЫ.»**
+  **→ Which means the drainer's traditional height and the drip tray beneath it are both solving a problem that no longer exists in a kitchen with a dishwasher — and the freed height can be re-allocated.**
+- **⚠️ THE CHANGE, credited to Moscow clients by name: he RAISED the drainer shelf by 15 cm.** Result: **«у меня появилась очень удобная НИША ДЛЯ ЧАШЕК — чашки, стаканы, то, чем ПОСТОЯННО пользуешься, лежит здесь. ДО ЭТОГО Я ЛАЗИЛ НАВЕРХ ЗА НИМИ. И появилась ТРЕТЬЯ ПОЛКА — сюда я реже всего залезаю, там лежат вещи, которые я очень редко использую.»** One 15 mm-scale move converted a two-tier cabinet into three tiers *and* brought the most-used items down to the easiest position.
+- **⚠️ THE TIER HEIGHTS, offered explicitly for reuse — «давайте я сразу вам покажу размеры, чтобы вы ими могли пользоваться дома»:**
+
+| Tier | Height | Holds |
+| :--- | :--- | :--- |
+| **Lowest (new niche)** | **~18-20 cm** | Cups and glasses — constant use, easiest reach |
+| **Middle** | **~25-28 cm** | Plates (the former drainer) |
+| **Top (new)** | **~14-15 cm** | Rarely used items |
+
+  «В принципе это те размеры, которые позволят вам очень удобно пользоваться вашей посудой.» `single-account`, his own installation.
+- **⚠️ THE PRINCIPLE HE STATES BEHIND IT, which he calls one of his base ones: «надо держать ПЕРЕД СОБОЙ то, что ты ПОСТОЯННО ИСПОЛЬЗУЕШЬ, и НАВЕРХУ держать то, что используешь РЕДКО. Это создаст вам отсутствие бардака… это очень банально звучит, но это реально так.»**
+  **→ This is the same frequency-of-use logic as the hardware-spend rule and the space organiser's height logic already on this page, arriving from a third direction — and note it produces a specific, checkable prediction: if the household is reaching UP for its everyday crockery, the tier heights are wrong, not the storage volume.**
+
+### ⚠️ A Designated Mess Niche, and Hooks on Adhesive Tape
+
+- **⚠️ One cabinet is deliberately allocated to the accepted disorder: «здесь у меня ВЕСЬ МОЙ БАРДАК — какой-то бар, какие-то лекарства, салфетки, ВСЁ ТО, ЧТО ДЕЛАЕТ ВАМ БЕСПОРЯДОК НА КУХНЕ. Открыли — сразу же стало беспорядочно; ОДНИМ ДВИЖЕНИЕМ вот так закрыли, и всё, у нас опять ЧИСТАЯ КУХНЯ.»**
+  **→ A more honest strategy than assuming the objects will be rationalised away, and it complements this page's storage catalogue: the catalogue organises what can be organised, and this absorbs what cannot.** Compare the hide-what-irritates-you rule on [[07_Bathroom/analysis/Shelving_and_Furniture|Bathroom: Shelving and Furniture]].
+- **⚠️ Oven gloves — the one in constant use CANNOT be put away, and he says why: «если она где-то будет убрана, то мне придётся постоянно куда-то лазить, это будет раздражать». It hangs in the open. The other three hang on three hooks INSIDE the niche — «они причём НЕ ПРИКРУЧЕНЫ, они просто НА ЛИПКОЙ ЛЕНТЕ», bought very cheaply, on viewer advice.**
+  **→ The generalisable split: frequency of use decides whether an object can be concealed at all, and the ones that can be are worth a two-minute adhesive fixing rather than a joinery item.**
+
 ## Storage Accessories — "50 Storage Ideas" Catalog (added 2026-08-28, Round 13 triage)
 
 > [!NOTE]

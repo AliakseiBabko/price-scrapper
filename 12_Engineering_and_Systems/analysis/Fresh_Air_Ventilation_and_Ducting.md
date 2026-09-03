@@ -299,3 +299,13 @@ Vladimir Amelchenko, demonstrating with two physical fan units opened on camera:
 ## Breathers vs. full mechanical systems — moved to its own page
 
 See **[[12_Engineering_and_Systems/analysis/Breathers_vs_Mechanical_Ventilation|Breathers vs. Full Mechanical Ventilation Systems]]**. This page keeps the airflow-balance methodology, duct sizing and routing, exhaust, and the room-specific requirements — **all of which the equipment choice has to satisfy**.
+
+## ⚠️⚠️ "The Duct Won't Pass Through the Wall" — the Sequencing Failure, and the Rule That Prevents It
+
+**A named, specific collision from a designer with 20 years' practice, and it is the strongest argument in this vault for putting ducted ventilation in the design brief rather than discovering it.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+- **The framing: «ИНЖЕНЕРНЫЕ РЕШЕНИЯ — это ФУНДАМЕНТ, на котором строится любой нормальный интерьер, ОСОБЕННО ЕСЛИ ОН ДОРОГОЙ. Почему-то многие об этом ЗАБЫВАЮТ и вспоминают уже В САМОМ КОНЦЕ РЕМОНТА.»**
+- **⚠️ THE COLLISION, and both halves fail at once: walls are already erected, «и тут заказчик говорит: а я хочу вентиляцию КАНАЛЬНУЮ, чтобы она была спрятана в потолок. Тут появляются вентиляционщики, говорят, что ВЕНТКАНАЛ НЕ ПРОХОДИТ ЧЕРЕЗ СТЕНУ, ДИЗАЙН ПОТОЛКОВ РАССЫПАЕТСЯ.»**
+  **→ Two separate consequences from one late decision: the duct route may be physically impossible through the walls as built, AND the ceiling design that was already agreed has to be redrawn to accommodate whatever route is possible. The second is the one clients do not anticipate, because the ventilation appears to be someone else's trade.** This is the same coupling the bore-size and drainage-slope technique above depends on — the route has to exist before the ceiling is designed around it.
+- **⚠️ THE RULE: «вот это всё нужно СРАЗУ ЖЕ писать в ТЕХНИЧЕСКОМ ЗАДАНИИ на дизайн.»** Not in the drawings, in the **brief** — because by the time drawings exist the ceiling void has already been allocated.
+- **→ The practical form for a client: any wish that consumes ceiling void or crosses a wall — ducted ventilation, ducted AC, a concealed AC unit, a recirculation route for a hood — is a BRIEF item, not a later choice.** Cross-reference the AC concealment and void-budgeting material on [[12_Engineering_and_Systems/analysis/AC_Key_Concepts_and_Placement|AC: Key Concepts and Placement]], where the same void is contested, and [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services and Fees]] for what a design brief is expected to carry.

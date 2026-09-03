@@ -56,6 +56,33 @@ Material count, tile trend-cycles, dark-tone area ratios, palette discipline and
 
 `single-account`, `unverified`.
 
+## ⚠️⚠️ Detail Out the Places Water Can STAND — Three Specific Rules and One Principle (NSDSGN, 2026-04-14)
+
+**The most actionable mould-prevention content in this vault, because it is about geometry rather than materials or ventilation — and every item is a drawing decision.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+**The stake: «любое место, где вода ОСТАНАВЛИВАЕТСЯ и лежит подолгу, впоследствии будет покрываться ПЛЕСЕНЬЮ… если появится чёрная плесень, это не только ударит по вашему ЗДОРОВЬЮ — вы ещё потом НЕ СМОЖЕТЕ ОТ НЕЁ ИЗБАВИТЬСЯ.»**
+
+1. **⚠️ Where tile meets the bath, run it slightly high so water drains INTO the bath: «если к ванной подходит плитка, то сделайте её ЧУТЬ ВЫШЕ, чтобы вода УБЕГАЛА В ВАННУ.»**
+2. **⚠️ Do not run a shelf or niche tight to the wall — leave a drainage slot: «если вы делаете полочку, то НЕ ДОВОДИТЕ её до стены, чтобы там была ТОНКАЯ ЩЕЛЬ, через которую вода будет уходить.»** ⚠️ Note this cuts against the flush-junction instinct — see the concealed shelf fixings and shelf-proportion material on [[07_Bathroom/analysis/Shelving_and_Furniture|Shelving and Furniture]], where the detailing is driven by appearance; **a shelf detailed flush to the wall on both ends is a water trap.**
+3. **⚠️ Fall the shelves themselves: «делайте полочки под небольшим УГЛОМ, чтобы вода СТЕКАЛА ВНИЗ.»**
+
+**⚠️ THE PRINCIPLE, and it is the version to carry: «НЕЛЬЗЯ ДЕЛАТЬ ПЛОСКИЕ ПОВЕРХНОСТИ, В КОТОРЫХ БУДЕТ ЗАСТАИВАТЬСЯ ВОДА. Это ПРЯМОЙ ПУТЬ к появлению плесени.»** Every horizontal surface in a wet room is either falled or a future problem.
+
+**⚠️ And the air half, which names the two levers together: «ещё один фактор — ВЛАЖНЫЙ ВОЗДУХ. Чтобы от него избавиться, надо включить ВЕНТИЛЯЦИЮ, чтобы воздух УХОДИЛ, а также его НАГРЕВАТЬ — и в этом случае поможет ТЁПЛАЯ СТЕНА ИЛИ ТЁПЛЫЙ ПОЛ. Сухой тёплый воздух, вентиляция — и у вас не будет никакой плесени.»** **→ Note that heating and ventilation are stated as jointly necessary, and that a heated WALL is offered as fully equivalent to a heated floor — which is the general principle behind the substitution he made in his own flat; see [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Heated Floor and Thermostat]].**
+
+### ⚠️ Dark and Glossy Sanitaryware — an Unusually Blunt Refusal
+
+- **«У сантехники бывает НЕПРАКТИЧНЫЙ ЦВЕТ. Всё тёмное — так же, как на стенах, на полу — так же и с сантехникой. Если вы берёте ЧЁРНЫЙ УНИТАЗ, то через очень короткое время вы ВСЁ ПРОКЛЯНЁТЕ. Забудьте вообще про ГЛЯНЦЕВЫЕ ТЁМНЫЕ унитазы — это очень плохое решение.»** White or light «гораздо дольше проживут и гораздо дольше будут радовать вас».
+- **→ Read alongside this vault's black-versus-chrome fixture Perspectives on [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers and Sinks]] and the dark-tone area ratios above: the fixture debate is genuinely contested, but nobody in this vault defends a dark glossy CERAMIC surface, and the mechanism is the same one that makes dark glossy floor tile this channel's most-reported regret of all.**
+
+### ⚠️ The Part-Tiled, Part-Painted Bathroom — a Fashion Detail With a Waterproofing Question Attached
+
+**The trend: only the washing zone tiled, the remaining walls painted — «такой лёгкий парижский шик, какой-то классический интерьер».** His caution is not against the look but against what sits behind it:
+
+- **«Обязательно подумайте, какой КРАСКОЙ вы будете покрывать стены [и] насколько качественно сделана ГИДРОИЗОЛЯЦИЯ — потому что ПОД ПЛИТКОЙ В ЛЮБОМ СЛУЧАЕ ДОЛЖНА БЫТЬ ГИДРОИЗОЛЯЦИЯ, но если у вас просто ПОКРАСКА, то через какое-то время могут начаться проблемы.»**
+- **⚠️ «Одно дело красивая КАРТИНКА ИЗ ПИНТЕРЕСТА, а другое дело ваша жизнь — КАЖДОДНЕВНОЕ УМЫВАНИЕ и использование интерьера.»** **→ The same borrowed-image failure mode this round documents three times over; see [[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family Scenario Driven Design]].**
+- Cross-reference the wet-zone extent rules on [[07_Bathroom/analysis/Bathroom_Regulation_and_Wet_Zone_Limits|Bathroom Regulation and Wet-Zone Limits]] — **the practical question this raises is whether the waterproofing membrane is being stopped at the tile line for cost reasons, which is exactly where the painted zone begins.**
+
 ### ⚠️ Shower versus bath — a programme decision, not a preference
 
 > **"Душевая кабина — она не ванная."** [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]

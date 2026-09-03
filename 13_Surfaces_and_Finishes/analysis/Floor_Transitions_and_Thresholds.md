@@ -122,6 +122,16 @@ when a transition strip is actually needed).
 
 **Related cost note, same practitioner**: glued engineered board is the expensive floor finish (gluing to plywood costs more still), and **laminate or any floating covering is a genuine saving in both goods and labour** — one of the few reductions she rates as real rather than cosmetic. [source: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]] [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
+## ⚠️⚠️ "Порожки всегда отлетают" — a Twenty-Year Verdict, and It Includes the Screw-Fixed Ones
+
+**A designer with 20 years' practice states the failure as unconditional, and it is the strongest argument on this page against floating floors — because it treats the threshold strip as an unavoidable consequence of them rather than a detail to get right.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+- **«Если вы используете ПЛАВАЮЩИЕ полы, такие как ламинат, который НЕ КЛЕИТСЯ на пол, а кладётся плавающим способом, то у вас ОБЯЗАТЕЛЬНО появятся ПОРОЖКИ.»** The expansion gap the floating method requires is what forces the strip; it is not a choice.
+- **⚠️ «Порожки — это то, что я НЕНАВИЖУ всё своё время, что работаю дизайнером, потому что они ВСЕГДА ОТЛЕТАЮТ. Даже есть порожки, которые специально ПРИКРУЧИВАЮТСЯ САМОРЕЗАМИ — они всё равно почему-то отлетают. Это прямо ЗЛО. И поэтому я НЕ ЛЮБЛЮ плавающие полы.»**
+  **→ The observation that matters is the second sentence: the screw-fixed variety fails too, so the usual answer to a failing threshold strip — fix it down better — is reported not to work over 20 years of projects. `single-account`, but it is a long observation window and it is stated against his own convenience.**
+- **⚠️ How to read this against the cost note above, which rates a floating covering as one of the few genuine savings in both goods and labour.** Both are true and they price different things: **the floating method saves on the covering and the fitting, and buys a recurring maintenance item at every doorway.** The two positions reconcile into a question rather than a rule — **how many transitions does the layout actually have?** A single-material floor throughout, or a glued covering, removes the item entirely; a floating floor across many small rooms multiplies it.
+- **This also raises the stakes on the swing-direction coupling recorded on [[13_Surfaces_and_Finishes/analysis/Door_Swing_Direction|Door Swing Direction]]**: if the strip is going to detach eventually, a transition hidden under a closed leaf is not merely tidier — it is where a detached strip does least visible harm.
+
 ---
 
 Part of [[13_Surfaces_and_Finishes/analysis/Flooring_Installation_and_Baseboards|Flooring Installation and Baseboards]].

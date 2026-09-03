@@ -70,3 +70,33 @@ often cracks/detaches surrounding plaster, especially in Stalin-era and
 Khrushchev-era buildings — worth tap-testing plaster around every door
 frame before signing a smeta, to catch this cost before it's a surprise.
 `single-account`. [source: [[_Sources/YT_s27qG_Eg3SY_petrishin_cosmetic_reno_mistakes|YT_s27qG_Eg3SY]]]
+
+## ⚠️⚠️ Cladding a Door Leaf Warps It — the Mechanism Is Asymmetric Load, Not Weight (NSDSGN, 2026-04-14)
+
+**A specific, serious and non-obvious failure that this vault did not hold, from a designer with 20 years' practice who names beginners as the ones who cause it.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+**The two cases: gluing a MIRROR to a door leaf, and cladding a wall entirely in порcelain and continuing it onto the door «чтобы вот эта поверхность не прерывалась».** Both are common designer moves and both are made at drawing stage.
+
+- **⚠️ «Начинающие дизайнеры прикрепили и ЗАБЫЛИ. А по факту, когда у вас такое крепление, то дверь ПЕРЕКАШИВАЕТ из-за того, что вес НЕРАВНОМЕРНЫЙ, петли разрушаются, дверь сидит криво, и появляются проблемы ОЧЕНЬ-ОЧЕНЬ СКОРО.»**
+- **⚠️ THE FIX HAS TWO PARTS, and only doing the second is what most people would try: «если вы с одной стороны вешаете керамогранит, то обязательно вешайте его и с ДРУГОЙ стороны, ИЛИ ЧЕМ-ТО УРАВНОВЕСЬТЕ. [И] обязательно сделайте БОЛЬШЕ ПЕТЕЛЬ, чем обычно.»**
+  **→ The distinction that matters: the problem is the leaf being loaded on ONE FACE, not simply being heavy. Adding hinges alone addresses the mass; balancing both faces addresses the moment that actually racks the leaf. Do both.**
+- **Timing: the symptom appears within a year or two and cannot be corrected without rehanging** — which puts it in the same class as the swing clashes on [[13_Surfaces_and_Finishes/analysis/Door_Swing_Direction|Door Swing Direction]]: cheap to prevent on paper, expensive at every later point.
+- **⚠️ The same hinge principle stated generally, and it is counter-intuitive enough to be worth carrying across from the furniture side: «когда появляются СКРИПЫ, основная проблема — это не вес фасада, это не проблемные петли, даже если они не очень дорогие — это ИХ КОЛИЧЕСТВО. Если вы поставите просто БОЛЬШЕ петель, даже если они простые, то вес равномерно распределится и они проживут гораздо дольше. Если петли очень дорогие, очень крутые, то их можно использовать МЕНЬШЕ. Но обязательно РАССЧИТАЙТЕ НАГРУЗКУ.»** **→ Hinge quantity substitutes for hinge quality — cheap hinges in sufficient number outlast expensive hinges in insufficient number.** See [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]].
+
+### ⚠️ The Leaf EDGE Is the Most Vulnerable Part, and an Enamelled Door Is the Worst Case
+
+- **«У полотен дверей самое уязвимое место — это ТОРЦЫ.»**
+- **⚠️ «Мне очень нравятся СКРЫТЫЕ ДВЕРИ в МЕТАЛЛИЧЕСКОМ КОРПУСЕ, потому что этот ТОРЕЦ У НИХ ЗАКРЫТ МЕТАЛЛОМ и с ним НИЧЕГО НЕ ПРОИЗОЙДЁТ.»** **→ A durability argument for the concealed-door type that the cost analysis on [[13_Surfaces_and_Finishes/analysis/Concealed_Door_Considerations|Concealed Door Considerations]] does not include — that page is largely about what concealed doors cost, and this is one thing they buy.**
+- **⚠️ «Если это классическая ЭМАЛИРОВАННАЯ дверь, то очень большая вероятность, что будут проблемы ИМЕННО НА ТОРЦЕ. Обязательно обсудите это с поставщиком дверей.»** Enamel on an edge chips and cannot be touched up invisibly.
+
+### ⚠️ Order the Stops WITH the Doors, and Wrap the Handle During the Build
+
+**This page already compares magnetic against mechanical stops and carries a stopper failure timeline. What it did not have is the argument for having any stop at all, and a site-stage substitute for the gap before they are fitted.**
+
+- **⚠️ The damage argument, and note it is TWO items not one: «если вы со всей силы случайно откроете дверь, то, ВО-ПЕРВЫХ, СТЕНУ разрушите ручкой от двери, а ВО-ВТОРЫХ, может разрушиться ещё и ПОЛОТНО, и сама дверь. Ограничители, даже самые простые, СЭКОНОМЯТ ВАМ ОЧЕНЬ МНОГО ДЕНЕГ.»** The wall is the one people expect; the leaf and its hardware are the one they do not. Order them as part of the door package rather than as an afterthought.
+- **⚠️⚠️ AND THE CHEAPEST PROTECTIVE MEASURE, which closes a real timing gap: «на стадии ремонта не забудьте — это очень простое действие — на РУЧКУ НАМОТАЙТЕ ЧТО-НИБУДЬ МЯГКОЕ, потому что ограничители ставятся В САМОМ КОНЦЕ, когда уже чисто в квартире, когда ремонт уже закончен. А до этого вы можете случайно просто разрушить стену, и вам придётся её переделывать, перекрашивать.»**
+  **→ Doors are hung before the stops go on, and the walls are already finished by then. Wrapping the handle costs nothing and covers exactly that window.** Compare the 200-rouble protective measure already recorded from the same practitioner on [[13_Surfaces_and_Finishes/analysis/Concealed_Door_Considerations|Concealed Door Considerations]] — same instinct, different stage.
+
+### ⚠️ His Own Door Finish: Laminate Over Veneer, on Pet-Durability Grounds
+
+**Recorded because it runs against his own stated preference for natural materials, which is what makes it credible.** He specified a laminate surface in his own flat — «по сути ламинат, называется немножко по-другому модно, но это ПЛАСТИКОВОЕ покрытие» — imitating wood. **The alternative on the table was veneer: «мне сказали, что да, они будут немножко натуральнее выглядеть, но ваш КОТ, любые касания их ОЧЕНЬ БЫСТРО УНИЧТОЖИТ. А ламинат, по сути, это пластик, и он будет ВЕЧЕН.»** **→ A designer choosing plastic over veneer in his own home because of a cat. The general form of the rule — «натуральное убивается быстрее» — and the counter-argument he himself makes to it are on [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioner Material Selection Accounts]].**

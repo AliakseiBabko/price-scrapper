@@ -109,6 +109,78 @@ identity-expression feature. [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_
   transfer to the child. Avoid over-furnishing/over-filling a small room
   with wardrobes and toys — it reads as cramped rather than functional.
   [source: [[_Sources/YT_Cr1vew4sA9g_kodolov_combine_kids_room_boy_girl|YT_Cr1vew4sA9g]]]
+- **⚠️ The open/closed question INVERTS THREE TIMES across childhood, and
+  a clinical psychologist supplies both the schedule and the reasons —
+  which resolves what otherwise reads as two flatly contradictory rules
+  above** (Kodolov's "school-age storage must be closed" and RemPlanner's
+  "open and reachable for young children"). **Both are right, for
+  different ages and different purposes:**
+  - **0-3 — CLOSED, and counter-intuitively FOR CURIOSITY rather than
+    concealment**: «если вы хотите, чтобы ваш ребёнок был
+    ЛЮБОЗНАТЕЛЬНЫМ и чтобы ему было интересно в своей комнате, надо
+    сделать так, чтобы там было МНОГО ЗАКРЫТЫХ ДВЕРЕЦ, ЯЩИЧКОВ — чтобы
+    было ЧТО ОТКРЫВАТЬ и там что-нибудь приятное находить». At this age
+    the child opens cupboards and empties them anyway; the doors are the
+    point of interest, not an obstacle.
+  - **5-7 — OPEN and visible**, because the task at this age is learning
+    independent play: «наша задача, чтобы ребёнок ВИДЕЛ те игрушки,
+    пластилин, краски, знал где это находится и чтобы это было В
+    ДОСТУПЕ».
+  - **7+ (school) — CLOSED again, now for CONCENTRATION**: «все
+    канцелярские товары, все игрушки должны быть СНОВА УБРАНЫ ЗА ДВЕРЦЫ,
+    чтобы он мог спокойно сидеть и заниматься, чтобы его ничего не
+    отвлекало. Когда ему нужно — он достанет, когда нужно — уберёт.»
+    **This is the mechanism behind Kodolov's rule, which states the
+    conclusion without the reason.**
+  - **Adolescence — hands off entirely**: «подросток УЗНАЁТ СЕБЯ, и чем
+    меньше вы влезаете в эту комнату и чем меньше вы влезаете в
+    ХРАНЕНИЕ, тем на самом деле ЛУЧШЕ». See
+    [[05_Kids_Room/analysis/Common_Mistakes|Common Mistakes]] for why
+    enforcing tidiness on a teenager is counterproductive.
+  - **⚠️ One scoped exception, which is why the rest is credible: for a
+    child with developmental delay or autistic tendencies you do the
+    OPPOSITE** — a Montessori-style sensory environment with masses of
+    tactile toys, «там важно вызвать этот интерес у ребёнка, чтобы он
+    захотел потрогать, захотел изучить разное».
+  [source: [[_Sources/YT_RxU4L7ce86E_nsdsgn_child_psychologist_kids_rooms|YT_RxU4L7ce86E]]]
+- **⚠️ The toy-volume limit above gets a mechanism, and it is a stronger
+  argument than tidiness.** The same psychologist: a child needs enough
+  order «чтобы он понимал, где у него что лежит, И ЧТОБЫ ЭТО БЫЛО
+  ОГРАНИЧЕННОГО ОБЪЁМА». Her case — parents send her photos of a
+  container «метр на метр» of small toy cars: **«Как вы думаете, ребёнок
+  в 6 лет может все эти машинки знать? Это СВАЛКА машинок, в которых он
+  не ориентируется. И он относиться к этим вещам будет как к БАРАХЛУ —
+  потому что они лежат в кучке, и половина из них сломанные.»**
+  **→ Quantity beyond what the child can inventory converts possessions
+  into rubbish in the child's own perception.** So the storage cap is not
+  a tidiness measure — it is what makes the objects valued at all. With a
+  limited set, tidying is trivial: «машинки к машинкам, мячики к
+  мячикам».
+  **⚠️ And the Lego version, which the interviewing designer supplies
+  from his own life and she generalises:** he kept his childhood Lego and
+  passed it to his daughter, «и оценил его просто как что-то ЗОЛОТОЕ…
+  потому что оно было уникальным, редким и ценным. **А когда у вас Lego
+  меряется на КИЛОГРАММЫ кубиков, на ВЕС, то это перестаёт быть
+  ценностью и становится РАСХОДНЫМ МАТЕРИАЛОМ.**» Her rule: «если вы
+  хотите, чтобы дети их ЦЕНИЛИ, их должно быть НЕМНОГО и они должны
+  получаться РЕДКО». **And the disposal route matters — one of her child
+  clients wanted a phone and sold his Lego to buy it**, which teaches the
+  discard habit the Kodolov bullet above asks for without requiring the
+  child to simply lose the toys.
+  [source: [[_Sources/YT_RxU4L7ce86E_nsdsgn_child_psychologist_kids_rooms|YT_RxU4L7ce86E]]]
+- **⚠️ A neutral-wall display cord instead of a mural or themed scheme —
+  the practical answer to the theme-lifespan problem** (see
+  [[05_Kids_Room/analysis/Developmental_Age_Bands|Developmental Age
+  Bands]] for the ~one-year lifespan of a character scheme).
+  «Оптимальнее всего — какие-то НЕЙТРАЛЬНЫЕ СВЕТЛЫЕ СТЕНЫ, на которые
+  можно делать ВРЕМЕННЫЕ КОМПОЗИЦИИ»: the child is into pirates now, so
+  hang a cord on the empty wall and peg the pirates to it. **The upgrade
+  that makes it worth doing is that the objects can be
+  autobiographical rather than bought** — «он может их САМ НАРИСОВАТЬ на
+  мастер-классе, или вы купите этого пирата [в поездке] — то есть этот
+  пират будет уже ЭМОЦИОНАЛЬНО ЗАРЯЖЕН, и это будет не просто картинка
+  на стене, а ВОСПОМИНАНИЕ о походе куда-то».
+  [source: [[_Sources/YT_RxU4L7ce86E_nsdsgn_child_psychologist_kids_rooms|YT_RxU4L7ce86E]]]
 
 ## Real Pricing
 
