@@ -83,6 +83,25 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 - **⚠️ The worst execution failure named: a step that terminates showing an exposed end (торец)** — «самая грубая ошибка в плане эстетики». If the step lands into a pencil unit it is acceptable.
 - Saving attached: open shelves instead of facades — **but «не делайте много открытых полок»**, which produces visual clutter.
 
+### ⚠️⚠️ A 70 cm Worktop Over STANDARD 45 cm Drawer Boxes — the Extra Depth Costs Only Worktop (Александр Синчуков, his own kitchen, 2023-11-02)
+
+**This page's cabinet sizing is built on the standard 60 cm worktop depth throughout. In his own kitchen he specified 70 cm — «не стандартные 60 СМ, а 70» — and the construction is what makes it worth recording:**
+
+**«НЕТ, у меня СТАНДАРТНЫЕ ящики на 45. А дальше просто УХОДИТ В СТОЛЕШНИЦУ — там МНОГО СВОБОДНОГО МЕСТА, оно просто ЗАКРЫТО СТОЛЕШНИЦЕЙ, и это очень удобно.»**
+
+- → **⚠️ The extra 10 cm costs ONLY WORKTOP MATERIAL, not carcass. The void behind a 45 cm drawer box is dead space in every kitchen — it is where services run — and a deeper top simply covers more of it and converts it into usable surface.** No deeper boxes, no non-standard hardware, no bespoke carcass.
+- ⚠️ **And it stacks with a benefit this page already records from a different source: greater worktop depth buys door and appliance clearance.** *Same lever, second independent benefit, and neither source mentions the other's.*
+- ⚠️ **The cost caveat, which this page should carry with it: stone is priced by area and FABRICATED by the metre, and fabrication is where the money went in his case.** See [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops and Backsplash]] for the processing-cost finding — a deeper top is a larger slab AND more edge.
+
+### ⚠️ Sizing a Hob by PAN DIAMETER Rather Than Burner Count (same source)
+
+He concedes he **never uses four burners simultaneously** — yet his previous flat's two-burner Domino was not enough, **«потому что ДВЕ БОЛЬШИЕ КАСТРЮЛИ на ней просто НЕ УМЕЩАЮТСЯ»**. The four-burner test case was a housewarming where guests cooked paella: **«поместилась и СКОВОРОДКА, и ДВЕ КАСТРЮЛИ… нас было СЕМЬ ЧЕЛОВЕК, на всех хватило».**
+
+- → **⚠️ The justification for four burners is not four simultaneous pots but TWO LARGE PANS PLUS A FRYING PAN. The binding constraint is PAN DIAMETER, not burner count.** That is a better way to size a hob than counting rings, and it explains precisely why a Domino fails for anyone who cooks for a group.
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
+
 ## Layout Forms — Corner, Linear and the Island
 
 ### Cooking-Zone Definition

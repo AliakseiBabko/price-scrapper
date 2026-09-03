@@ -136,6 +136,29 @@ Two Round 5 sources add a genuinely concrete personalization anecdote and a foun
 
 `single-account`, `unverified`.
 
+### ⚠️⚠️ A Planned Use That Failed on Day One of Occupancy — the Cat Litter Tray Beside the Kitchen (Александр Синчуков, his own flat, 2023-11-02)
+
+**A worked case of a scenario that was designed, drawn, built — and abandoned within weeks, by the designer, in his own flat.**
+
+The kitchen deliberately stops short of the wall, leaving a designed void (лакуна). **Its planned use was the cat's litter tray:**
+
+**«Изначально планировался ТУАЛЕТ ДЛЯ КОТА, но когда я стал здесь ЖИТЬ, Я ПОНЯЛ, ЧТО Я НЕ МОГУ ЖИТЬ В ЭТОМ ЗАПАХЕ. Это было просто ОТВРАТИТЕЛЬНО, и туалет УЕХАЛ В ВАННУ.»**
+
+- → **⚠️ A litter tray cannot sit in or adjacent to a food-preparation space. The constraint is ODOUR, it is not solved by ventilation at that distance, and it was discovered by LIVING with it rather than by drawing it.** The bathroom is where it ended up, and he reports it found a good place there.
+- → **The methodological point for this page: pet provision is a scenario like any other, and it is one of the scenarios most likely to be resolved wrongly on a plan** — because the failure criterion is a smell, which does not appear in any drawing, and because the obvious spare volume in a small flat is usually next to the kitchen.
+- **What the void became instead — and it works for a stated reason: a cat FEEDING zone, around a corner. «Здесь его НЕ ВИДНО; если он что-то там разбросал, тоже также НЕ ВИДНО.»** → **A designed void whose value is that it is out of the sightline — the same containment logic as the mess cupboard, applied to an animal.**
+- **⚠️ A cheap behavioural item worth recording because it never appears in design content: a MOTION-SENSOR WATER FOUNTAIN, a few thousand ₽, after which the cat drinks ONLY from it and «про обычную миску вообще забыл».** Also a dedicated drawer compartment for the cat's food and grooming brush.
+- ⚠️ **And this qualifies a flat statement from the same practitioner two years earlier that PETS ARE CONTRAINDICATED in a low-maintenance interior** — he has one, and accommodating it cost him the planned use of a purpose-designed space. See [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioner Material Selection Accounts]].
+
+### ⚠️ An Unsolved Storage Problem, Recorded Because the Gaps Matter Too (same source)
+
+**Oven gloves have nowhere to go and hang on the cabinet handles.** «Может, вы мне что-то посоветуете. Я просто НЕ ХОЧУ какие-то ПОЛОЧКИ здесь городить, какие-то КРЮЧКИ. Я вот НЕ ЗНАЮ, какое можно решение придумать.»
+
+- → **The one storage question in a very thoroughly solved kitchen that the designer has no answer to** — and the reason is legible: it is a HOT AND DAMP object that cannot go in a closed drawer, and every open solution reintroduces the visual clutter the rest of the kitchen exists to eliminate. **Recorded as an open problem, not as an oversight.**
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
+
 ## Open Questions
 
 - No source yet generalizes these examples into a reusable decision framework (a checklist of "which household variables to ask about before defaulting a layout choice") — each example above is a specific worked case, not yet a synthesized method.

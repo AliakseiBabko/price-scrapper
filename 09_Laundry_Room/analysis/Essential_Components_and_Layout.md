@@ -58,6 +58,21 @@ planning for it from the start. `single-account` (this instructor's client
 base), but the bedding-volume-scales-with-bedrooms reasoning is a plain
 mechanism. [source: [[_Sources/YT_8wo1qImfpDU_diskill_laundry_room_essentials|Diskill]]]
 
+### ⚠️⚠️ A Washer-Dryer Combo Has NO LINT COLLECTOR — an Argument for Separate Machines That Is Not About Capacity (Александр Синчуков, his own flat, 2023-11-02)
+
+**Drying in a combined washer-dryer leaves lint and pet-hair deposits that have to be removed BY HAND, because the machine has nowhere to put them:**
+
+**«Если у вас ОТДЕЛЬНАЯ сушильная машина, там есть СПЕЦИАЛЬНАЯ СЕКЦИЯ для сбора этих катышков — здесь такого НЕТ.»**
+
+- **A colleague with the same machine confirms it at roughly THREE-MONTH intervals**, and there is a further section that clogs and has to be picked out. **«Другого решения, к сожалению, нет»** — other than using the wash cycle only and air-drying.
+- → **⚠️ This page's separate-versus-combined discussion turns on capacity and footprint. This is a different axis entirely and it is a permanent maintenance cost rather than a one-off compromise: a combo cannot capture lint, by construction.**
+- **Drying performance itself is praised** — an hour leaves clothes slightly damp and ready to hang, «ты её вешаешь в шкаф и всё прекрасно». **So the trade is: full drying function in one footprint, paid for in a recurring manual chore.**
+- **Storage detail from the same run: detergents decanted into containers in a single drawer, and TWO pull-out baskets, darks and lights**, feeding straight to the wardrobe. *(He is a single occupant — two baskets is his minimum, not a general figure.)*
+- ⚠️ **A leak sensor sits under the washing machine, and it is one of the four locations in his flat** — see [[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak Protection Systems]], where a discrepancy in his own sensor count is recorded.
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
+
 ## Reserve Non-Mechanical Drying Space, Even With a Dryer
 
 Multiple independent sources agree a laundry room needs planned space for
@@ -90,8 +105,8 @@ Two sources in this batch genuinely disagree, not just differ in detail:
 
 | Source | Position | Stated Reasoning |
 | :--- | :--- | :--- |
-| [[_Sources/YT_8wo1qImfpDU_diskill_laundry_room_essentials\|Diskill/Liza Robizon]] | Raise washer/dryer to **chest height** | A client's own suggestion; avoids bending over, "especially useful for older household members" |
-| [[_Sources/YT_bjfqQUgsyNs_michael_moore_10_mistakes\|Michael Moore Design]] | Washer must sit **directly on the floor on a rigid, level base** — never on a raised plinth/socle | Per the appliance's own instructions: the base must handle spin-cycle vibration load. A real project needed plinth lighting and mounted the washer on a reinforced (rebar-framed) socle to make it work — but the source explicitly says **"I don't recommend doing this yourself"** and floor-mounts on every other project |
+| [[_Sources/YT_8wo1qImfpDU_diskill_laundry_room_essentials|Diskill/Liza Robizon]] | Raise washer/dryer to **chest height** | A client's own suggestion; avoids bending over, "especially useful for older household members" |
+| [[_Sources/YT_bjfqQUgsyNs_michael_moore_10_mistakes|Michael Moore Design]] | Washer must sit **directly on the floor on a rigid, level base** — never on a raised plinth/socle | Per the appliance's own instructions: the base must handle spin-cycle vibration load. A real project needed plinth lighting and mounted the washer on a reinforced (rebar-framed) socle to make it work — but the source explicitly says **"I don't recommend doing this yourself"** and floor-mounts on every other project |
 
 **Common ground**: both sources agree the *dryer* can safely sit elevated —
 Diskill's chest-height point is really about the ergonomic win a stacked

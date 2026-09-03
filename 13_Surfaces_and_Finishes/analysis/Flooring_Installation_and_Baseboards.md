@@ -152,6 +152,17 @@ unresolved.
 - **⚠️ Ease-of-cleaning criterion, exists specifically because of shadow profile/baseboard**: no robot vacuum, ordinary vacuum, or hand can effectively reach into its narrow recessed gap — dust accumulates heavily and is extremely difficult to remove even by hand.
 - **Presenter's own recommendation, extends this project's existing shadow-gap-baseboard skepticism (Concealed_Door_Considerations.md) with an independent critique**: personal top pick is the rigid pre-finished (MDF/duropolymer) family; PVC only for a rental/flip or tight budget; tile baseboard called outdated; aluminum "not needed"; concealed-mount "costs like an airplane wing" and still wears quickly; shadow profile draws the harshest framing of all seven.
 
+### ⚠️ Concealed / Shadow Skirting, Argued on CLEANING Grounds — a Second, Independent Reason (Александр Синчуков, 2021-01-22)
+
+This page holds the shadow/concealed skirting as an aesthetic and detailing choice, with the execution risk recorded at length elsewhere. **A second, independent argument for the same detail: the more relief a skirting profile has, the more dirt it holds, so a concealed skirting is recommended specifically because there is no ledge to clean.**
+
+- Part of a wider dust-trap inventory from the same source, all of it about horizontal ledges: **mouldings, cornices and applied decorative profiles are dust shelves**, and skirting relief is the version of that at floor level.
+- ⚠️ **And the one with a remedy attached — the ЗАКАРНИЗНЫЙ СВЕС (the curtain-pelmet / cove overhang): turn the cove so it faces DOWNWARD rather than presenting an upward-facing trough.** An upward-facing cove is an unreachable dust tray at ceiling height; a downward-facing one lights the same way and collects nothing. *(Route note: this belongs with the ceiling and curtain-pelmet detailing content as well as here.)*
+- ⚠️ **Two years later the same practitioner extends the same shadow line into the FURNITURE** — an inverted grip profile on a cabinet base, deliberately aligned with the wall's shadow skirting, on compositional grounds. **So the detail now has two independent justifications from one practitioner, arrived at separately: cleanability (2021) and continuity (2023).** See [[14_Furniture/analysis/Furniture_Sourcing_and_Placement_Technique|Furniture Sourcing and Placement Technique]].
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## Herringbone and Pattern Work
 
 ### French Herringbone Pattern — Real Cost Premium and QC Standard (Olga Kachanova channel, added 2026-08-25)

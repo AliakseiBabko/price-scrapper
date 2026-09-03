@@ -44,6 +44,18 @@ Related: [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]] for
 - **⚠️ THE TWO HE WARNS AGAINST, and the mechanism is absorption rather than wear: «если вы используете МЕЛКУЮ МОЗАИКУ или, например, НАТУРАЛЬНЫЙ КАМЕНЬ, то приготовьтесь к тому, что все эти БРЫЗГИ… вы СТЕЙК ЖАРИТЕ, летят ЖИРНЫЕ ПЯТНА, и всё это может ВПИТЫВАТЬСЯ В КАМЕНЬ — и потом у вас будут очень большие проблемы всё это оттирать.»**
   **→ This is a direct caution against two options the ladder above treats neutrally: mosaic (listed under tile/porcelain, with grout lines noted only as a visual con) and same-material-as-countertop where that material is natural stone (listed as the premium tier leader). Grease absorption into natural stone, and grout-line count in a mosaic, are kitchen-specific failures the general ladder does not price.** His client-side evidence for stone in a kitchen — white marble and backlit onyx that «превратился во что-то ужасное» despite careful owners — is on [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]].
 
+### ⚠️⚠️ Specify the Splashback at MAXIMUM Format and Have It Cut — the Same Trick, for a Second Reason (Александр Синчуков, 2021-01-22)
+
+**«МЕТР НА 3 — РАЗРЕЖЬТЕ ЕГО ПОПОЛАМ.»** Specify the largest slab available and have it cut down, rather than accepting a run of smaller pieces.
+
+- ⚠️ **The vault already holds this pre-cut trick from [[07_Bathroom/analysis/Tile_Cutting_Handling_and_Special_Formats|Tile Cutting, Handling and Special Formats]], where the motive is HANDLING — a large slab is fragile and awkward, so it is cut before it is carried. Here the motive is entirely different: JOINT ELIMINATION.**
+- → **Same technique, two independent motives, and the second one is the general principle: THE JOINT COUNT IS THE REAL MAINTENANCE VARIABLE.** Every joint is a dirt line that cannot be wiped away, so fewer, larger pieces means less cleaning — which on his cleaning-as-wear reasoning also means less wear. *(This page's tier ladder ranks splashback materials; it does not rank formats. Format may matter more than material for maintenance.)*
+- ⚠️ **The same logic appears as a specific node in his own kitchen two years later: a blank return panel (глухарь) used to terminate the splashback so that no three-way corner is formed at all, sealed with silicone.** See the own-kitchen section below.
+- **On stone, from the same session — a stonemason's anecdote offered as evidence that stone is tougher than clients fear: meat cut DIRECTLY on a marble surface, and shashlik grilled inside a MARBLE FIREPLACE.** ⚠️ **Route as a Perspectives item against the marble hygroscopicity and staining content this vault holds from elsewhere — it is a practitioner's confidence claim relayed second-hand, not a test result, and it does not resolve the disagreement.**
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## Worktop Overhang: An Experiment Against the Cabinetmakers' Argument (SMBUREAU, added 2026-08-30)
 
 SMBUREAU specify worktops **flush with the cabinet fronts, with no overhang**, and report having to argue it on site each time — "мебельщики просто округляют глаза."
@@ -154,6 +166,41 @@ Integrated groove handles: fingers slip and nails break. **If specifying remotel
 **Кузина gives slightly different standard worktop figures in two sources processed in the same round**, and both are recorded rather than one being picked: **815–820 mm** in the kitchen-electrics seminar (`iHViNm3dESU`) and **84–85 cm** in the planning lecture (`Rcd9gkPC6CI`). **The honest reading is a standard range of roughly 81.5–85 cm**, and the substantive claim is identical in both: **it should track occupant height, and go above 90 cm for tall users.** She recently built a pair of very tall clients a worktop over 90 cm, tried it herself, and confirms it is genuinely better. **Her test costs nothing: in the showroom, put your hands on a worktop and see whether you would raise or lower it.**
 
 **⚠️ Split-level worktops (hob lower, sink higher) — she would not get carried away.** On a kitchen up to ~3 m long she would not do it at all, because **the corner where the two levels meet becomes a dead zone** — you cannot work across it, so you lose the run next to the sink. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]] [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
+
+### ⚠️⚠️ The Money Is in the FABRICATION, Not the Slab — and He Only Found Out Too Late to Change It (Александр Синчуков, his own kitchen, 2023-11-02)
+
+He specified quartz agglomerate, copied from a client project he had liked. **The cost surprise was not where anyone looks:**
+
+**«Даже не [из-за] ЦЕНЫ САМОГО КАМНЯ, а именно ЦЕНЫ ОБРАБОТКИ КАМНЯ. Это было прямо ОЧЕНЬ БОЛЬНО.»**
+
+- ⚠️ **AND THE PROCUREMENT-SEQUENCING TRAP INSIDE IT: he discovered the figure at a point where «потом уже было ПОЗДНО СОСКАКИВАТЬ».** Stone fabrication is quoted late — after the design is committed and the cabinets are ordered to suit the top — so the client learns the real number when backing out is no longer available.
+- → **⚠️ The action is concrete and belongs on this page's material trade-off table: PRICE THE CUTTING, EDGING AND CUT-OUTS AT SPECIFICATION TIME, NOT THE SLAB.** Edge profile, sink cut-out, hob cut-out, mitred returns and any curve are each priced operations, and on a deep top (his is 70 cm) there is more of all of them.
+- ⚠️ *Note the phrase «поздно соскакивать» recurs almost verbatim in this same round from a rescue contractor describing a failing build — «нет лучшего времени, когда соскакивать». The same structural trap — sunk cost removing the exit — at two completely different scales.* See [[11_Budget_and_Planning/analysis/Site_Management_and_Dispute_Escalation|Site Management and Dispute Escalation]].
+
+### ⚠️⚠️ Granite — Three Independent Arguments From One Practitioner, Now Including Price. Consolidate Them.
+
+**This vault has been recording granite three separate times without connecting them. From one practitioner, across three sources:**
+
+1. **As the MARBLE ALTERNATIVE, on staining and hygroscopicity** (January 2022). [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+2. **As a member of the LOW-MAINTENANCE stone family**, on the dirt-visibility criterion (January 2021). [source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+3. **⚠️ AND AS THE CHEAPER OPTION THAN QUARTZ AGGLOMERATE (November 2023): «как аналог кварцевого агломерата могу порекомендовать использовать НАТУРАЛЬНЫЙ ГРАНИТ — его бывает много вариантов, это очень ТВЁРДЫЙ материал, натуральный, но при этом он обойдётся ВАМ БЮДЖЕТНЕЕ, чем кварцевый агломерат».** [source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
+- → **⚠️ Granite is this practitioner's default answer on DURABILITY, on MAINTENANCE and on PRICE, arrived at on three separate occasions for three different reasons. That convergence is the finding, and it is stronger than any of the three alone.**
+- ⚠️ **Caveat this page should keep attached: the fabrication-cost warning above applies to granite too — it is a hard stone, and hardness is what makes cutting and edging expensive.** Cheaper slab does not automatically mean cheaper worktop.
+
+### ⚠️ A Second Reason for Handles That Is Not About Fingerprints — a Handleless Front Carries No AFFORDANCE (same source)
+
+This page's handleless/Gola content argues the case on marks. **In his own kitchen he gives a completely different reason, and it is about usability rather than cleanliness:**
+
+**«Когда ручек нет, я постоянно не мог понять — здесь хватать или здесь хватать? Как открывать? Я постоянно ПУТАЛСЯ, это меня БЕСИЛО… а сейчас ОЧЕВИДНО, за что хвататься.»** He adds that the metal handles solved the same problem for door swing direction — «с ними… нет проблемы понять, куда они открываются».
+
+- → **⚠️ A handleless front does not tell you WHERE to grip or WHICH WAY it opens, and he reports getting it wrong repeatedly in his own kitchen over months. That is a usability defect independent of dirt, and this page had only the dirt argument.**
+- ⚠️ **And the marks argument gets sharper too: the fronts are FENIX — a material sold specifically as mark-resistant and easy to clean — and it was still not enough. «ВСЁ РАВНО СЛЕДЫ ОТ ЖИРНЫХ ПАЛЬЦЕВ ОСТАВАЛИСЬ, и я ДОБАВИЛ вот эти маленькие КНОПОЧКИ. Теперь я НЕ КАСАЮСЬ ФАСАДА.»**
+  - → **A mark-resistant material does not solve a GREASE problem in a kitchen. Removing the touch does. Specify the touch point, not just the surface.** This is the dated origin of the knob retrofit recorded above from July 2024.
+- ⚠️ **PUSH-TO-OPEN, with a timeline that tightens this page's existing objection: the marks were «УЖЕ ПОЯВЛЯЮТСЯ» at ONE MONTH, and the same two doors are still being complained about NINE MONTHS LATER.** He asked for them to be minimised from the outset — «их здесь ВСЕГО ДВА, больше нет, всё остальное НА РУЧКАХ». *⚠️ Minor correction to the Round 4 entry above, which framed the two remaining tip-on doors as a retained preference: he says he wanted them minimised from the start.*
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
 
 ## Ultra-Thin Countertop Material as a Height-Conflict Fix (added 2026-08-19)
 

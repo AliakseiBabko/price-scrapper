@@ -155,6 +155,20 @@ Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part 
 - **⚠️ THE REMAINING WISH, and it is a dimension that had to be set at design stage: «если [бы] он был чуть-чуть ПОНИЖЕ, или МОЙКА была бы ПОВЫШЕ, то он бы ещё идеально СПРЯТАЛСЯ ПОД ТУМБУ УМЫВАЛЬНИКА — это было бы вообще классно.»**
   **→ A cat tray fits under a vanity if the vanity is raised or the tray is low, and both are decided long before the tray is bought. Add the tray's height to the vanity-height decision, alongside the pull-out column and clearance rules below.** He notes the bathroom is spacious enough that it does not obstruct him — so this is a concealment failure, not a functional one.
 
+### ⚠️⚠️ The Over-WC Niche Module, Detailed — One Element Resolving Furniture, Ceiling and Electrics (Константин Петухов, works manager, 2023-02-21)
+
+**This vault has the over-WC niche as a storage opportunity. This is how the junction is actually built, from the factory that makes it — and the manufacturer says it is the detail he is asked about most:**
+
+**«Здесь собранный блок для ванной комнаты, он будет устанавливаться В НИШУ НАД УНИТАЗОМ. На эту ЗАКЛАДНУЮ будет крепиться ЧИСТОВОЙ ФАСАД, И НА НЕЁ БУДЕТ КРЕПИТЬСЯ ПРОФИЛЬ ДЛЯ НАТЯЖНОГО ПОТОЛКА С ТЕНЕВЫМ ПРИМЫКАНИЕМ… МЕНЯ ПОСТОЯННО СПРАШИВАЮТ, КАК РАЗРАБОТАТЬ ЭТОТ УЗЕЛ.»**
+
+- → **⚠️⚠️ A CARCASS MODULE USED AS THE FIXING SUBSTRATE (закладная) FOR BOTH THE FINISH FRONT AND THE SHADOW-GAP STRETCH-CEILING PROFILE.** One element resolves the niche, the cabinet and the ceiling perimeter — which is the coordination this vault records as commonly failing between three separate trades.
+- → **The sequencing that follows: the module must exist, and be positioned, before the stretch ceiling is set out.** So the furniture order sits upstream of the ceiling, not alongside it.
+- **Also in the module: hinged doors, shelves for bathroom products, and ⚠️ SOCKET OPENINGS PRE-CUT AT THE FACTORY**, for an irrigator and an electric toothbrush to charge inside.
+  - → **⚠️ Therefore the bathroom ELECTRICAL LAYOUT must be final before furniture production.** *This corroborates from the manufacturing end the Round 5 finding from his own bathroom that charging points belong inside cabinetry — the vault now has the intent and the fabrication.*
+
+[source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
+
+
 ## Vanities, Pull-Out Columns and Clearances
 
 ### Utility Furniture: Pull-Out Columns and Clearance Rules

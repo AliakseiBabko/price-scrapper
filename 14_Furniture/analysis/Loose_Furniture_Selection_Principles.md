@@ -26,6 +26,20 @@ The single most repeated topic across all three sources, and the rule got sharpe
 
 ---
 
+### ⚠️⚠️ The Legs Ranking, and the Detail That Makes It Usable — Leg POSITION, Not Just Height (Александр Синчуков, 2021-01-22)
+
+This page argues for legs on visual-weight grounds. **A second, independent argument on maintenance grounds, with an explicit ranking:**
+
+**WALL-HUNG > HIGH LEGS > LOW LEGS > PLINTH (цоколь).** The criterion is simply whether a vacuum head or a mop can pass underneath.
+
+- ⚠️ **AND THE REFINEMENT THAT IS NEW TO THIS VAULT: it is not only clearance height but HOW FAR IN FROM THE EDGE THE LEG SITS. A leg placed CLOSER TO THE CENTRE leaves the perimeter clear and is far easier to clean around than a leg at the corner.**
+  - → **So "on legs" is under-specified as a requirement. Two pieces with identical clearance can differ substantially in cleanability depending on leg inset** — and leg inset is visible in a product photograph, unlike most of what matters.
+- ⚠️ *This page dates the furniture-on-legs-for-cleaning-access point to a later source; it is here, in January 2021, and with the ranking and the inset detail that the later statement lacks.*
+- **From the same source, on the storage side of the same argument:** closed storage over open; **GLAZED bookcases over open shelving** (books named as a major dust collector); and **open wardrobe systems accepted, but only behind glass** — the look is preserved, the dust is not.
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## Visual Weight — the Lever That Actually Controls Room Size
 
 **⚠️ Contrast of forms is the specific mechanism.** A **thick leg or base under a thin top reads light**; when both are the same thickness the piece reads massive and clutters the room. She works this in both directions across named examples, and notes one table stays visually light *despite* being large purely because of this contrast.

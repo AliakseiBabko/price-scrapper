@@ -306,6 +306,18 @@ The same practitioner, four years later, on the material he rates as the durabil
 - **⚠️ AND IT RESOLVES AN APPARENT CONFLICT WITH THIS PAGE'S OWN POURED-FLOOR CASE, where the client's chosen substitution was large-format WHITE GLOSS porcelain: that was a LIVING AREA. The two positions are compatible once the wet-zone exclusion is stated, and this page previously carried the substitution without it.**
 - **⚠️ The matte alternative has its own cost, with a mitigation: textured matte conveys stone and wood far more convincingly but is «гораздо СЛОЖНЕЕ ОТМЫВАТЬ». His mitigation is the pattern principle again — «если плитка ПРИРОДНОГО ЦВЕТА, то она гораздо МЕНЬШЕ подвержена загрязнению, на ней ХУЖЕ ВИДНА ПЫЛЬ, и она ЗАГРЯЗНЯЕТСЯ ДОЛЬШЕ».** **→ So the full ranking is: glossy reads best and is dangerous when wet; matte is safe and shows its print; TEXTURED matte in a NATURAL colour is the compromise, at the price of harder cleaning. Textured is best kept «в местах, где возможно появление сильного загрязнения».**
 
+### ⚠️⚠️ Bevelled Board Edges (фаски) Are a Permanent, Built-In Dirt Trap — a Purchasing Question This Page Did Not Ask (Александр Синчуков, 2021-01-22)
+
+**The chamfer at every board edge on bevelled laminate and engineered board is a groove that collects dirt, cannot be reached by a mop, and is part of the product rather than of its maintenance.** A bevelled board multiplies the trap by the number of boards in the room.
+
+- ⚠️ **→ A checkable specification question to put to any laminate or engineered board before ordering: is the edge SQUARE or CHAMFERED?** This page compares ten materials on wear, repairability and cost and has nothing on edge profile; the bevel is usually sold as a visual feature (it emphasises the plank) with the maintenance consequence unmentioned.
+- **He also names textured and relief floor finishes as maintenance liabilities** on the same reasoning — texture holds dirt and resists wiping. ⚠️ *This page dates the texture-complicates-maintenance point to a later source; it is here, in January 2021.*
+- **His governing criterion, which is what makes the bevel finding follow rather than being a one-off: choose materials by how VISIBLE dirt is on them, not by how clean they are** — because a surface that shows every mark gets wiped constantly and wears out from the wiping. His teaching analogy is car colour: a black car and a white car get equally dirty but *look* dirty at completely different rates, and that, not the dirt, governs how often they are washed.
+- ⚠️ **On rugs and ковролин he argues against both as dust reservoirs** — relevant to this page's existing carpet Perspectives block. **His supporting anecdote (an office where carpet was blamed for an allergic reaction that hospitalised three people) is second-hand, has no company, date or diagnosis, and is NOT routed as a health finding** — recorded here only so a later session does not rediscover it and treat it as evidence.
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## The laminate and quartz-vinyl deep dives — moved to their own page
 
 See **[[13_Surfaces_and_Finishes/analysis/Laminate_and_Quartz_Vinyl_Deep_Dive|Laminate and Quartz-Vinyl — Composition, Locks and Selection]]**. This page keeps the cross-material comparisons, the buying-sequence and dispute cases, and the designer-level rankings that place those two families against everything else.

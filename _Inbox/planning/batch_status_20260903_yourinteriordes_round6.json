@@ -1,0 +1,113 @@
+{
+  "batch": "nsdsgn_round6",
+  "channel": "@YourInteriorDes / NSDSGN",
+  "date": "2026-09-03",
+  "scoping_rationale": "Scoped OLDEST-FIRST on purpose, to test the Round 5 finding that round-by-round intake mis-dates findings toward the round that first noticed them. The test returned a large positive and is the round's main output.",
+  "videos": 5,
+  "facts": 178,
+  "yield_per_video": 35.6,
+  "yield_history": {
+    "round_4": 180,
+    "round_5": 170,
+    "round_6": 178
+  },
+  "prediction_made": false,
+  "prediction_note": "No decay forecast made this round, having been wrong four times; the corrected format-mix model held.",
+  "rate_limit_signatures": 0,
+  "caption_tracks": {
+    "manual_ru": 4,
+    "asr_ru": 1
+  },
+  "sources": [
+    {
+      "video_id": "Y1lBVJz-ib4",
+      "upload_date": "2021-01-22",
+      "fact_yield": 38,
+      "promotional_ratio": "low",
+      "corroborates_existing": true,
+      "note": "THE ROUND. Origin of the cleaning-as-wear thesis; 12 dating corrections; the tile-over-rim/silicone rule he later failed to enforce in his own flat."
+    },
+    {
+      "video_id": "HbQHuyokSd0",
+      "upload_date": "2026-06-16",
+      "fact_yield": 35,
+      "promotional_ratio": "low",
+      "corroborates_existing": true,
+      "note": "Rescue contractor, new voice (Владимир Калинин). Six costed failures; three named technical-supervision deliverables; the contractor-warranty-horizon mechanism. Forced the Contract_Practice repair."
+    },
+    {
+      "video_id": "AEJlxbTmQJU",
+      "upload_date": "2023-11-02",
+      "fact_yield": 42,
+      "promotional_ratio": "low",
+      "corroborates_existing": true,
+      "note": "Joint highest yield on the channel. Completes a four-point sequence on his own flat; 70cm worktop over 45cm boxes; explains and narrows the Round 4 pull-out mixer finding."
+    },
+    {
+      "video_id": "AMMIMihB-Mc",
+      "upload_date": "2022-04-06",
+      "fact_yield": 32,
+      "promotional_ratio": "high",
+      "corroborates_existing": true,
+      "note": "Nine suppliers, April 2022 shock. MY SELECTION HYPOTHESIS WAS WRONG - percentages and supply, not absolute prices. USD conversion deliberately refused: the trailing mean straddles the currency shock."
+    },
+    {
+      "video_id": "P3O2koqOGp8",
+      "upload_date": "2023-02-21",
+      "fact_yield": 31,
+      "promotional_ratio": "high_but_disclosed",
+      "corroborates_existing": true,
+      "note": "The factory that built his own kitchen, disclosed. White-panel edge-band test; curved corner can cost what the cabinet costs; the white-balance paper trick."
+    }
+  ],
+  "repairs_performed": [
+    {
+      "page": "11_Budget_and_Planning/analysis/Contract_Practice.md",
+      "owed_since": "Round 4",
+      "deferred_rounds": 2,
+      "defect": "STRUCTURELESS - 379 lines of one undifferentiated bullet list, topics interleaved by arrival order. NOT fragmentation; check_page_sizes.py cannot detect this.",
+      "method": "Manual topical restructure into 4 sections (38 bullets reassigned verbatim, verified 0 missing / 18-18 citation ids), then split_page.py apply",
+      "result": "395 -> 158 + Contractor_Vetting_and_Selection.md 132 + Site_Management_and_Dispute_Escalation.md 136, CLEAN"
+    },
+    {
+      "page": "12_Engineering_and_Systems/analysis/Lighting_Design.md",
+      "owed_since": "Round 5",
+      "deferred_rounds": 1,
+      "defect": "FRAGMENTED - nine top-level headings carrying dated round labels",
+      "method": "split_page.py merge FIRST per the standing rule, then apply",
+      "result": "359 -> merged 388 (12->7 sections, 12 headings demoted) -> split 291 + Lighting_Colour_Temperature.md 111, CLEAN"
+    }
+  ],
+  "pages_created": [
+    "11_Budget_and_Planning/analysis/Contractor_Vetting_and_Selection.md",
+    "11_Budget_and_Planning/analysis/Site_Management_and_Dispute_Escalation.md",
+    "12_Engineering_and_Systems/analysis/Lighting_Colour_Temperature.md"
+  ],
+  "pages_populated": [
+    "15_Appliances/Kitchen_Disposers.md (was 0 bytes)"
+  ],
+  "still_empty": [
+    "Kitchen_Filtration_Systems_Analysis.md - no source touched it; left empty rather than padded"
+  ],
+  "my_errors_recorded": [
+    "Round 4's MVHR-is-a-durability-investment chain was the source's own single thought in 2021, not my synthesis. SECOND instance on this channel.",
+    "Selection hypothesis for AMMIMihB-Mc was wrong - inferred absolute prices from a title containing the word 'prices'.",
+    "Door-frame 'order early, install late' reconciliation was superseded by a better account already on the target page."
+  ],
+  "open_questions": [
+    "4000 K task-zone exception vs the same-scene colour-temperature rule - contested, needs a lighting-design source",
+    "The 2021->2022 dark-surface reversal - irreconcilable as stated; my soil-type reconciliation labelled as mine",
+    "Leak-sensor count: 4 locations (2023-11) vs 3 sensors (2024-03), same flat - recorded, not averaged",
+    "Oven gloves - unsolved by the designer in his own kitchen",
+    "Granite fabrication price in Minsk - the consolidated granite finding turns on fabrication cost, which is unpriced"
+  ],
+  "next_round_recommendation": "KEEP SCOPING OLDEST-FIRST until the pre-2023 back catalogue is exhausted. ~189 titles remain; the oldest are most likely to be the ORIGIN of something already held badly dated, and newest-first scoping is what produced the error. Repair Age_Staged_Planning.md (358 lines, flagged twice) before routing more kids'-room content.",
+  "verification": {
+    "check_page_sizes": "288 pages, 0 fragmented, 0 over the 400 backstop",
+    "largest_page": "05_Kids_Room/analysis/Age_Staged_Planning.md at 358 - flagged twice, repair next"
+  },
+  "channel_progress": {
+    "processed": 31,
+    "total": 220
+  }
+}

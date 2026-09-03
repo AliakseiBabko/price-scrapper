@@ -74,3 +74,21 @@ See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproo
 ---
 
 Part of [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers and Sinks]].
+
+### ⚠️ Dating Correction, Plus the Concealed-Cistern Objection Answered in 2021 (Александр Синчуков, 2021-01-22)
+
+**Two findings this page dates to later sources are stated in January 2021, and one of them comes with an argument the vault did not have:**
+
+- **The WALL-HUNG WC IS RECOMMENDED FOR THE CLEANING DIVIDEND** — the open floor under the pan is the whole point. *(Vault dated this later.)*
+- ⚠️ **AND THE CONCEALED-CISTERN OBJECTION IS DEBUNKED, with an appeal to trade experience rather than to argument: «СПРОСИТЕ У САНТЕХНИКОВ.»** The fear that a built-in cistern is a maintenance trap is, on his account, **not held by the people who actually service them.** → A useful form of evidence: the objection is common among clients and absent among the trade, which is itself informative. *(Vault dated this later.)*
+- **Wall-hang the WC accessories too** — brush, holder, anything that would otherwise stand on the floor and become an obstacle to cleaning it.
+
+### ⚠️ The Hose-Down Bathroom — a Method, With Its Own Blocker Stated by the Same Source
+
+**A hygienic shower plus a floor drain turns a bathroom into something that can be hosed down and squeegeed, rather than wiped surface by surface.**
+
+- ⚠️ **And he supplies the feasibility caveat himself, which is why this is worth recording rather than aspiring to: it needs FLOOR BUILD-UP for the drain fall, which is USUALLY IMPOSSIBLE IN A FLAT.**
+- → **Route as a HOUSE method with a stated flat-scale blocker.** *The same physical limit — available floor build-up for a fall to a drain — independently blocks the shower podium in [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]] (Round 5). Two different features, one constraint, and it is the constraint worth checking first in any flat.*
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+

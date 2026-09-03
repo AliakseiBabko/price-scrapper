@@ -708,3 +708,88 @@ Recorded in full earlier in this store from the 500lux source; repeated here onl
 > A Belarusian architecture practice reports that **Belarus has a SEPARATE ELECTRICITY TARIFF for heating, created after the nuclear plant came online, accessed by installing a SECOND METER: «из-за того что построили АТОМНУЮ СТАНЦИЮ, у нас есть ОТДЕЛЬНАЯ ТАРИФИКАЦИЯ на ОТОПЛЕНИЕ ЭЛЕКТРИЧЕСТВОМ — буквально ты можешь ставить ВТОРОЙ СЧЁТЧИК дома.»**
 >
 > **⚠️ NO TARIFF TERMS ARE GIVEN. This is therefore a POINTER TO VERIFY WITH THE SUPPLIER, not a figure to compute with — and it is recorded here precisely so that nobody later treats this store's Russian-sourced electric-heating operating costs as applicable to this project.** Every such figure — the operating-cost formula, the area cap, the "it is low-power, ignore the consumption" dismissal — is a function of a tariff, and this project's jurisdiction may price electric heating quite differently from the sources the figures came from. `single-account`. [source: [[_Sources/YT_1Dpc8SLJd6M_nsdsgn_zrobim_architects_house_building|YT_1Dpc8SLJd6M]]]
+
+## Round 6 — @YourInteriorDes / NSDSGN, 2026-09-03
+
+**⚠️⚠️ FX NOTE FOR THIS ROUND — THREE DIFFERENT BASES, ON PURPOSE, AND ONE DELIBERATE REFUSAL TO CONVERT.**
+
+| Basis | Rate | Used for |
+| :--- | :--- | :--- |
+| Trailing 6-month USD/RUB mean before **2026-06-16** | **76.7092** | the rescue-contractor figures |
+| Trailing 6-month mean before **2023-11-02** | **90.6731** | the own-kitchen consumer purchases |
+| Trailing 6-month mean before **2023-02-21** | **63.9880** | the CNC drilling machine, quoted at filming |
+| Trailing 6-month mean before **2021-12-15** | **72.9562** | **the edge bander, because it was BOUGHT in Dec 2021 — not at filming** |
+| **2022-04-06 (round-table)** | **⚠️ NONE — CONVERSION REFUSED** | see below |
+
+**⚠️⚠️ WHY THE APRIL 2022 SOURCE GETS NO USD EQUIVALENTS AT ALL: a trailing six-month mean before 2022-04-06 STRADDLES THE FEBRUARY–MARCH 2022 CURRENCY SHOCK. It averages two incompatible regimes and produces a figure that describes neither. The suppliers themselves refer repeatedly to the rate having spiked and partly returned. Converting would manufacture false comparability, which is exactly what the vault's price rule exists to prevent — so those figures are held as ROUBLE PERCENTAGES with the date attached, as historical market evidence rather than pricing input.**
+
+**⚠️ And why the two machine prices use different bases: the edge bander is an actual December 2021 purchase, not a figure quoted at filming. Using the filming-date rate would understate its real dollar cost by roughly 14%. A small worked example of dating a PRICE rather than a VIDEO.**
+
+### Rescue-contractor figures — RU elite-segment ~400 m² HOUSE, 2026-06-16
+
+**⚠️ Scale-setting context only. These are not transferable to a Minsk flat and must not anchor any budget figure in this vault.**
+
+| Item | Rouble | USD (rounded) |
+| :--- | :--- | :--- |
+| Total wasted on the failed build | 58,000,000 ₽ | **≈$756,000** |
+| Materials money unaccounted for | 15,000,000 ₽ | **≈$196,000** |
+| Door frames + concealed-door pockets, wrongly installed | 1,500,000 ₽ | **≈$19,600** |
+| Collapsed playroom ceiling, remediation | 500,000 ₽ | **≈$6,500** |
+| KNX panel (the one that caught fire) | ≈4,000,000 ₽ | **≈$52,100** |
+| Rebuilding that panel to the already-paid-for design | 300,000–400,000 ₽ | **≈$3,900–5,200** |
+| Contractor's self-allocated "salary", of a tranche | 3,000,000 of 10,000,000 ₽ | **≈$39,100 of ≈$130,000** |
+
+**Non-currency figures from the same source:** **57 violations** found in the KNX panel by an independent electrical laboratory; plasterboard ceiling load **≈30 kg/m²**, which the hand-pressed clips failed to hold; **four skips** of paid-for waste never removed.
+
+### Factory machine prices — RU SPb, 2023-02-21
+
+| Machine | Rouble | Price date | USD (rounded) |
+| :--- | :--- | :--- | :--- |
+| CNC drilling / insertion centre | 5,500,000 ₽ | 2023-02 (quoted at filming) | **≈$86,000** |
+| CNC edge bander with pre-milling | 3,700,000 ₽ | **≈Dec 2021 (actual purchase)** | **≈$50,700** |
+| CNC beam saw | **⚠️ garbled in the caption track — deliberately NOT guessed** | 2023-02 | — |
+
+**⚠️⚠️ A PRECISION CLAIM RECORDED AND FLAGGED: the beam saw's tolerance is stated as «одна сотая миллиметра» — 0.01 mm. This is almost certainly overstated: chipboard moves more than that with humidity, and industrial panel saws are specified in tenths of a millimetre at best. The DIRECTION of the argument (a better saw is more accurate, and accuracy compounds through the carcass) is sound; the number is marketing. Kept rather than dropped, because it is exactly the sort of figure that gets quoted back in a showroom.**
+
+Other factory figures: **1 mm** removed by фуговка immediately before the band is applied; **~95%** of holes, cut-outs and routing automated, **1–2%** done by hand at installation; **~30–40%** of facades and carcasses already produced in Russia (2022 figure, same manager).
+
+### Own-kitchen dimensions and consumer figures — RU SPb, 2023-11-02
+
+| Item | Figure | Note |
+| :--- | :--- | :--- |
+| **Worktop depth** | **70 cm** | against the 60 cm standard — **over STANDARD 45 cm drawer boxes** |
+| Drawer box depth | **45 cm** | standard; the void behind is closed by the top |
+| Worktop LED coverage | **≈a third of the worktop** | positioned mid-depth, **not at the wall** |
+| Worktop light colour temperature | **4000 K** | against **2700–3000 K** everywhere else in the flat |
+| Dishwasher | **60 cm** | |
+| Cutlery drawer | **60 cm** | against 45 cm in his previous flat |
+| Flat-bottomed sinks on the market | **≈95%** | his estimate — so it is the DEFAULT case |
+| Push-to-open doors retained | **2** | marks visible at **1 month**, still complained about at **9 months** |
+| Leak sensors named | **4 locations** | ⚠️ **against 3 sensors in the Round 5 account — discrepancy recorded, NOT averaged** |
+| Washer-dryer lint removal interval | **≈every 3 months** | colleague's figure, same machine |
+| Knife block | 5,000 ₽ | **≈$60** |
+| Oil decanting jars | 300–500 ₽ each | **⚠️ NO USD given: the vault's nearest-10 rule below $1,000 yields $0–10, which conveys nothing. Recorded in roubles as an incidental purchase of a few dollars.** |
+| Cat water fountain | "a few thousand" ₽ | figure not given precisely by the source |
+
+### 2022 price-shock percentages — RU SPb, 2022-04-06, NINE suppliers
+
+**⚠️ Rouble percentage changes February → April 2022. NO USD. The DISPERSION is the finding: +20% to +150% across one market in one week.**
+
+| Category | Rise |
+| :--- | :--- |
+| Made in Europe | **+25–50%** |
+| **Made in Russia or Belarus** | **~+20%, then HELD STEADY** |
+| **Furniture hardware alone** | **+100–150%** |
+| Kitchen furniture overall (≈half Russian content) | +20–25%, then stalled |
+| Doors and partitions | +30% |
+| Decorative / finishing materials | avg +30%, spread 15–50% |
+| **Tile and sanitaryware** | **+60–100%** |
+| One Spanish factory specifically | +50–60% |
+| One tile supplier | +30–40%, some products +50%, then **−10–15%** in the days before filming |
+| One supplier, blended | "practically 1.5–2×" |
+
+**Supply-side figures:** Blum supply cut **60–70%**; Belgium lead time **3–4 weeks → ≈6 weeks**; **10–15 factories** on a stop-list out of **≈1,500** partners; **2–3 months** of pre-shock stock held by several suppliers; one distributor holding **≈8,000 m²** of tile plus a **≈1,500 m²** Russian-factory contract; import share — kitchens **50–60%**, one tile supplier **≈90%**, facades/carcasses **30–40% domestic**; **ONE** Russian wallpaper producer.
+
+### From the 2021 source
+
+**White hob unacceptable after 2–3 months.** Central vacuum pipework **5–6 cm**. Mural lifespan and other 2021 figures: none other given — **the source contains NO PRICES in 20 minutes**, which is itself worth recording for a materials-selection source.

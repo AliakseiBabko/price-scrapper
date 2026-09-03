@@ -122,3 +122,15 @@ In a service cupboard above the WC, alongside the manifold block:
 
 - **⚠️ «СДЕЛАЙТЕ В ЭТОМ ПОДИУМЕ ОБЯЗАТЕЛЬНО ТРАП, на случай если у вас прольётся вода, чтобы она УШЛА В ТРАП и вы ИЗБЕЖАЛИ ЗАТОПЛЕНИЯ. Это может быть очень важно и СПАСЁТ ВАС ОТ СЕРЬЁЗНЫХ ПРОБЛЕМ.»**
 - **→ A floor drain inside the podium is a passive, unpowered, unfailing version of what the sensors above do actively — it cannot false-trigger and it needs no socket. It only helps where water can reach it, so it complements rather than replaces a sensor, but for a plinth-mounted bath it is close to free at rough stage and impossible afterwards.** See [[07_Bathroom/analysis/Shower_Enclosures_and_Drainage|Shower Enclosures and Drainage]]. [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+### ⚠️⚠️ A Further Save, a THIRD Distinct Failure Mode — and All Three Were Invisible (Александр Синчуков, his own kitchen, 2023-11-02)
+
+**«Одна СУПЕР ВАЖНАЯ вещь — это ДАТЧИК ОТ ПРОТЕЧЕК. Он мне ОДИН РАЗ ПОМОГ: сантехники ПЛОХО ПРИКРУТИЛИ СЛИВ-ПЕРЕЛИВ МОЙКИ, и когда я решил побольше воды набрать [в] мойку и она стала ПЕРЕЛИВАТЬСЯ, она ПОЛИЛАСЬ НА КУХНЮ. Я ЭТОГО НЕ ЗАМЕТИЛ — у меня был ЗАКРЫТ ЯЩИК — но тут же СРАБОТАЛ ДАТЧИК.»**
+
+- ⚠️⚠️ **→ THE COMMONALITY IS THE ARGUMENT, NOT THE INDIVIDUAL CASES. Across this channel's saves the vault now has THREE DISTINCT MECHANISMS — a strainer under a pressure spike, epoxy grout at a flexing bath rim, and a loose waste/overflow fitting — AND ALL THREE WERE INVISIBLE UNTIL THE SENSOR SOUNDED.** Two of the three were behind a closed cabinet door.
+- → **That is a better case for the sensors than any single dramatic flood, and it also identifies where they belong: not "near water", but UNDER EVERY CLOSED ENCLOSURE CONTAINING A JOINT.** The enclosure is what defeats detection by eye.
+- **⚠️ A SENSOR-COUNT DISCREPANCY, RECORDED RATHER THAN AVERAGED.** Here he names **FOUR locations** — under the bath, under the mixer, under the sink, and one **under the washing machine.** The itemised account in the section above (March 2024) gives **2 valve units and 3 sensors.** **Either the system grew between November 2023 and March 2024, or one of the two accounts is loose. Both are recorded with their dates; neither is corrected against the other.**
+- Also in this kitchen: **a two-lever mixer with a separate tap for filtered water, filter under the sink.** *(By July 2024 the whole mixer had been replaced with a pull-out — see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers and Sinks]] for why.)*
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+

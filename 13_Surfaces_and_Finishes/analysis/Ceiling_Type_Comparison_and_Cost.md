@@ -93,6 +93,20 @@ Konstantin Kruglov interviews Andrey Frolov, an independent professional stretch
 
 **Cross-cutting**: a "stretch walls" (натяжные стены) trend — the same PVC/fabric material and technique applied to walls instead of ceilings, for a soft/cushioned child-safe tactile surface, sound absorption, and a perfectly even defect-hiding finish — is genuinely new territory, flagged for [[13_Surfaces_and_Finishes/Walls_and_Paint]] rather than covered here since it's a wall-finish technique.
 
+### ⚠️⚠️ A Plasterboard Ceiling FELL, and the Root Cause Was a Missing Tool — Which Makes It a Client-Checkable Item (Владимир Калинин, 2026-06-16)
+
+**A plasterboard ceiling in a playroom collapsed. Remediation: 500,000 ₽ (≈$6,500).**
+
+**⚠️ THE ROOT CAUSE, AND IT IS EXCELLENT PRECISELY BECAUSE IT IS SO SMALL: there was NO PLASTERBOARD LIFTER (подъёмник) on site, so boards were held up by hand and the clips were PRESSED BY HAND. Hand pressure does not seat the clip, and under a load of about 30 kg/m² they progressively LET GO.**
+
+- → **A ceiling failure caused by the absence of a piece of lifting equipment — not by a material, a design, a span or a calculation. The clip either seats or it does not, and a person holding a board overhead cannot generate the force to seat it.**
+- → **⚠️ THE VALUE HERE IS THAT IT CONVERTS AN INVISIBLE STRUCTURAL RISK INTO A VISIBLE SITE OBSERVATION A NON-EXPERT CAN MAKE: is there a board lifter on site on the day the ceiling goes up?** That is a far more practical check than reading a suspension specification, and it is available to any client who walks in.
+- ⚠️ **It also belongs with this page's shadow-gap and span content as the general lesson: the failure was in FIXING, which is the part of a ceiling that is fully concealed the moment it is finished** — and therefore the part that most needs the concealed-works record that independent supervision exists to produce. See [[11_Budget_and_Planning/analysis/Technical_Supervision|Technical Supervision]].
+- **⚠️ And an access-provision failure from the same build, which is the ceiling's other concealed risk: AC and ventilation access hatches were made ONLY TO THE FILTERS, not to the serviceable equipment behind them.** The previous crew's reasoning: **«ну, если сломается, то сломается, будут ломать потолок».** See the incentive analysis at [[11_Budget_and_Planning/analysis/Site_Management_and_Dispute_Escalation|Site Management and Dispute Escalation]] — it explains this whole class of defect.
+
+[source: [[_Sources/YT_HbQHuyokSd0_nsdsgn_rescue_contractor_58m_dispute|YT_HbQHuyokSd0]]]
+
+
 ## Five-Way Cost, Timeline, and Repairability Comparison (Kruglov/Ontario, Round 5, added 2026-08-28)
 
 Konstantin Kruglov / Ontario gives the first full quantified labor+materials cost ladder across all five ceiling types this page tracks, plus an independent cross-check of this round's own Frolov ceiling-drop figures. [source: [[_Sources/YT_lhNC30_adGc_kruglov_which_ceiling_cost_comparison|YT_lhNC30_adGc]]]

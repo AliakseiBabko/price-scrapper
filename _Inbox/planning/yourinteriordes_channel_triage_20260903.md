@@ -559,3 +559,54 @@ Round 5's earliest source (**2022-01-26**) predates everything else the vault ho
 ### Verification
 
 `check_page_sizes.py`: **285 pages, no FRAGMENTED, nothing over the 400 backstop.** Four pages between 311 and 382 stay flagged with seams in Pending Wiki-Page Decisions — **`Contract_Practice.md` at 382 has now been routed AROUND for two consecutive rounds, which is starting to distort where content lives and should be split next time rather than avoided again.**
+
+---
+
+## Round 6 — complete (2026-09-03). 5 videos, 178 facts, 35.6/video
+
+**⚠️⚠️ THIS ROUND WAS SCOPED OLDEST-FIRST ON PURPOSE, AND THAT DECISION IS THE ROUND'S MAIN RESULT.**
+
+Round 5 established that a vault built round-by-round systematically **mis-dates findings toward the round that first noticed them**, and prescribed processing the oldest titles early. Round 6 tested it. **The test returned twelve dating corrections from a single 2021 source — including the vault's CENTRAL DURABILITY FRAMEWORK, which was dated five years late — plus a second instance of me claiming a synthesis the source had already made.**
+
+| # | Video | Date | Yield | Why picked |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | `Y1lBVJz-ib4` low-maintenance interior | **2021-01-22** | **38** | the oldest-first test |
+| 2 | `HbQHuyokSd0` the 58-million rescue | 2026-06-16 | 35 | to force the `Contract_Practice` repair |
+| 3 | `AEJlxbTmQJU` his own kitchen | 2023-11-02 | **42** | best-performing format (29→35→40) |
+| 4 | `AMMIMihB-Mc` 2022 prices / import substitution | 2022-04-06 | 32 | expected absolute prices — **wrong, see below** |
+| 5 | `P3O2koqOGp8` carcass furniture production | 2023-02-21 | 31 | a MANUFACTURING rather than designer view |
+
+**Yield flat again: 180 (R4) → 170 (R5) → 178 (R6). ⚠️ I made NO decay prediction this round, having been wrong four times, and the corrected FORMAT-mix model held.**
+
+### ⚠️ What the oldest-first scoping actually bought
+
+The 2021 source is the **origin** of the cleaning-as-wear thesis, MVHR-reduces-dust-so-is-a-durability-investment, ultra-matte-as-a-ceiling-product, the wall-hung-WC cleaning dividend, the concealed-cistern debunk, the free-standing-bath access problem, undermounting over vessel basins, joint-count-as-the-real-variable, furniture-on-legs, and more. **All twelve are itemised in the source note and in `Change_Log.md`.**
+
+**⚠️⚠️ AND THE BEST SINGLE CROSS-SOURCE ITEM ON THIS CHANNEL: he published the TILE-OVER-THE-RIM + SILICONE rule in January 2021, and his own builders used EPOXY GROUT at exactly that joint in 2023 and it LEAKED. So the Round 5 leak is a SUPERVISION FAILURE ON HIS OWN PUBLISHED RULE — which is a far more useful finding, and it moves the item from a specification onto an acceptance checklist.**
+
+### ⚠️ Both owed repairs performed — nothing deferred a third time
+
+- **`Contract_Practice.md`** (382 lines, routed around twice). ⚠️ **Its defect turned out to be the OPPOSITE of fragmentation: 379 lines of ONE undifferentiated bullet list with topics interleaved by arrival order.** `split_page.py` could not touch it — one section, non-contiguous topics. **Restructured by hand into four topical sections (38 bullets reassigned, all verbatim, verified with the tool's own invariants: 0 missing, 18/18 citation ids), then split → 158 + `Contractor_Vetting_and_Selection.md` 132 + `Site_Management_and_Dispute_Escalation.md` 136. CLEAN.**
+- **`Lighting_Design.md`** (359 lines, genuinely FRAGMENTED — nine dated round-labelled headings). **MERGED first per the standing rule (12→7 sections, 12 headings demoted, 0 missing, 49/49 ids), then split → 291 + `Lighting_Colour_Temperature.md` 111. CLEAN.**
+
+⚠️ **Process lesson, and it is the counterpart to Round 5's: the line count told me nothing about WHICH tool to use. One page needed merging, the other needed a manual topical pass. Diagnose by reading the headings first — and note that `check_page_sizes.py` cannot see the structureless defect at all.**
+
+### ⚠️ Two things I got wrong, recorded rather than reframed
+
+1. **My selection hypothesis for `AMMIMihB-Mc` was wrong.** I expected absolute prices behind Round 5's "~2×" ratio; there are almost none. It is a percentages-and-supply source — more useful than a 2022 price list would have been, but **the prediction was still wrong, and the pattern is that I inferred content from a title containing «Цены».**
+2. **My door-frame reconciliation was superseded by content already in the vault.** I drafted "order early, install late" as a hypothesis; `Concealed_Door_Considerations.md` already carried a two-stage account computing opening heights from the finished-floor rise. **Both sources locate the failure in the same DATUM.** ⚠️ **The standing "look for an existing section first" rule caught a WRONG SYNTHESIS of mine, not just a fragmentation risk — which is a second reason to keep obeying it.**
+
+### ⚠️ Where the channel stands — 31 of 220 processed
+
+1. **Four regrets titles** remain. ⚠️ **The stopping rule has now failed to fire THREE times.** They stay on format reasoning.
+2. **The technical cluster minus the saturated ones**: `3tgHGhY0gXA` (stretch vs plasterboard), two flooring reviews, the tile pair, the partition pair.
+3. **Two shorter storage videos** (`RtRabYtDxNk`, `hllO93k4O7Q`).
+4. **`NHqf-OoLPBM`** — the feng-shui counter-position. Low expected yield.
+5. **⚠️⚠️ THE RECOMMENDATION FOR ROUND 7, AND IT IS DIFFERENT FROM PREVIOUS ROUNDS: KEEP SCOPING OLDEST-FIRST UNTIL THE PRE-2023 BACK CATALOGUE IS EXHAUSTED.** ~189 titles remain, and the oldest are the ones most likely to be the ORIGIN of something the vault already holds badly dated. **Newest-first scoping is what produced the error in the first place, and Round 6 is the evidence.**
+6. **Still recommend against the host-solo general-design and trend cluster.** Six rounds, finding unchanged.
+
+### Verification
+
+`check_page_sizes.py`: **288 pages, no FRAGMENTED, nothing over the 400 backstop.** ⚠️ **`05_Kids_Room/analysis/Age_Staged_Planning.md` at 358 is now the largest page in the vault and has been flagged TWICE. Repair it next round rather than routing around it — which is exactly what happened to `Contract_Practice.md`, and it took two rounds of distortion to fix.**
+
+`15_Appliances/Kitchen_Disposers.md` **populated** (was 0 bytes). `Kitchen_Filtration_Systems_Analysis.md` **still 0 bytes** — no source touched it; leave it empty rather than pad it.

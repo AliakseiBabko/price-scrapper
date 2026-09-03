@@ -116,6 +116,43 @@ Related: the cheap-hinge carcass-destruction mechanism and hardware cycle rating
 - **⚠️ Oven gloves — the one in constant use CANNOT be put away, and he says why: «если она где-то будет убрана, то мне придётся постоянно куда-то лазить, это будет раздражать». It hangs in the open. The other three hang on three hooks INSIDE the niche — «они причём НЕ ПРИКРУЧЕНЫ, они просто НА ЛИПКОЙ ЛЕНТЕ», bought very cheaply, on viewer advice.**
   **→ The generalisable split: frequency of use decides whether an object can be concealed at all, and the ones that can be are worth a two-minute adhesive fixing rather than a joinery item.**
 
+### ⚠️ Dating Correction and the Earlier Half of the Same Decision — the Drip Aperture Was Omitted AT BUILD, in November 2023
+
+The section above records him raising the drainer shelf 15 cm in July 2024. **Nine months earlier, at build, he had already omitted the traditional drip aperture under the drainer, and stated the reasoning:**
+
+**«Я НЕ ДЕЛАЛ здесь… ОТВЕРСТИЕ под сушилкой, чтобы ВОДА СТЕКАЛА — вот сейчас ЭТО НЕ НУЖНО, потому что посуда помыта в посудомоечной УЖЕ СУХАЯ… она уже таким немножко является АТАВИЗМОМ.»** The wide upper drawer is kept purely as crockery storage — which, he notes, could equally sit low down.
+
+- → **The vault now has BOTH STAGES of one decision: omitted at build (2023-11), then raised (2024-07).** The finding is stronger for having a design intent and a subsequent adjustment rather than only a retrospective verdict.
+
+### ⚠️⚠️ Buy Frequently-Used Utensils in PAIRS, Because a Dishwasher Holds Them Hostage (same source)
+
+**A genuinely non-obvious consequence of owning a dishwasher, and it is a PURCHASING rule rather than a design one:**
+
+**«Когда вы приготовили еду [и] заполнили посудомойку НАПОЛОВИНУ, вы СРАЗУ ЖЕ… НЕ ВКЛЮЧАЕТЕ посудомойку, потому что нужно НАКОПИТЬ ЦЕЛУЮ. И мне постоянно после этого нужны были ДОПОЛНИТЕЛЬНЫЕ ПРИБОРЫ. ПОЭТОМУ У МЕНЯ ВСЁ ИДЁТ ПАРАМИ… ПОКА ОДНА ЖДЁТ СВОЕЙ УЧАСТИ, ВТОРОЙ Я ПОЛЬЗУЮСЬ, потом мою СРАЗУ ДВЕ.»**
+
+- → **The machine is only run when full, and everything inside it is unavailable until then — so a dishwasher creates a DUPLICATION requirement for small, frequently-used items.** Belongs with this page's dishwasher-changes-everything cluster (the obsolete drainer above, minimal sink time).
+- **Scissors named as the one indispensable item; one oven glove suffices.**
+
+### ⚠️ The Decanting Method, With Its Own Limit Stated — and a Counterweight to "Hide Everything" (same source)
+
+- **Oils DECANTED into two jars at 300–500 ₽ each, labelled with a permanent marker**, because the retail bottle «яркая, она сразу РАЗРУШАЕТ мой тёплый минимализм». Result reads «реально РЕСТОРАННО».
+- ⚠️ **AND THE STANDARD OBJECTION IS ANSWERED BY REFILL FREQUENCY: «многие говорят, что вы ЗАПАРИТЕСЬ постоянно всё раскладывать по баночкам — ЭТО НЕ ТОТ СЛУЧАЙ, [потому что] хватает НА ОЧЕНЬ ДОЛГО».**
+- ⚠️ **And he REFUSES to decant the spices — «ВСЁ пересыпать Я НЕ ГОТОВ» — putting them behind a door instead.**
+  - → **⚠️ Together those give a coherent rule the vault can actually use: DECANT SLOW-MOVING ITEMS, LEAVE FAST-MOVING ONES, AND PUT THE FAST-MOVING ONES BEHIND A DOOR.** The objection to decanting holds exactly where refill frequency is high, which is why a blanket decanting recommendation fails.
+- **⚠️ The counterweight to enclosing everything: an Alessi kettle kept ON the worktop, although a socket exists in the cupboard where he considered hiding it** (a coffee machine was dropped — he drinks tea). **«Я считаю [это] ПРОИЗВЕДЕНИЕ ИСКУССТВА… он НИКАК НЕ ЗАСОРЯЕТ кухню, он наоборот делает её ЕЩЁ БОЛЕЕ КРАСИВОЙ.»** → **The rule is about VISUAL NOISE, not about object count: an object of sufficient quality earns worktop space.**
+- **Chopping boards left out deliberately, chosen in a neutral white** — «каждый раз убирать их меня УТОМЛЯЕТ». Same strategy as the jute laundry basket recorded elsewhere: **choose the thing that will not be put away in a colour that lets it live out.**
+- **A knife block in solid timber, ≈5,000 ₽ (≈$60), plus a second smaller box that does not match it — and he does not mind: «по цвету не совпадают, но так как и то и то НАТУРАЛЬНЫЕ, мне это глаз не раздражает».** → **Natural materials tolerate mismatch — the non-uniformity principle this vault holds for WEAR, applied to MATCHING.**
+- **The containment effect, stated generally: «Как только они убраны в эту коробочку, сразу создаётся ОЩУЩЕНИЕ ЧИСТОТЫ.»** → Tidiness is a function of CONTAINER count, not object count.
+
+### ⚠️ Pull-Out Drawers Only, and Two Hardware Data Points (same source)
+
+- **«Только ВЫКАТНЫЕ ящики я рекомендую, потому что если у вас обычные ПОЛКИ, то вы ЗАПАРИТЕСЬ оттуда всё вынимать. ДА, ЭТО ДОРОЖЕ, но пользоваться кухней вам будет В 100 РАЗ ПРИЯТНЕЕ.»** Cost acknowledged rather than elided.
+- **A 60 cm cutlery drawer against 45 cm in his previous flat, with a single unified Blum insert that detaches in one movement — and he had to be TALKED INTO it: «Я ВСЕГДА ХОТЕЛ делать ОТДЕЛЬНЫЙ ящик… но МЕНЯ УГОВОРИЛИ, мне ПОКАЗАЛИ, как это работает.»** → *Second instance in this one source of a prior conviction reversed by a DEMONSTRATION rather than by argument.*
+- ⚠️ **A hardware-tier data point from a client project, and the defect is in the LATCH rather than the runner: with cheaper hardware «заказчик очень жаловался, что мы его НЕ УБЕДИЛИ, что ему нужен БЛЮМ, потому что у него ОЧЕНЬ ПЛОХО ЗАСТЁГИВАЕТСЯ… приходится РУКОЙ что-то подправлять».** *A client who regretted the saving. The competing brand is ASR-garbled and deliberately left unnamed.* ⚠️ **This connects to the April 2022 supplier round-table, where hardware is independently named by several suppliers as the ONE category with no domestic substitute** — see [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories and Delivery Models]].
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
+
 ## Storage Accessories — "50 Storage Ideas" Catalog (added 2026-08-28, Round 13 triage)
 
 > [!NOTE]

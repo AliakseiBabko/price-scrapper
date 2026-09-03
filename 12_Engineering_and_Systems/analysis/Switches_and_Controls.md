@@ -189,6 +189,19 @@ match the walking path, not panel geometry. `single-account`. [source: [[_Source
 - **⚠️ But he states the honest limitation of his own preference in the same breath: «единственное, раздражает, когда много его нужно включать-выключать — и для этого используется СЦЕНАРИЙ.»** So voice control alone does not scale either; it scales only with scenes. See the scene reconciliation below.
 - **→ This lines up with Кузина's distinction above rather than contradicting it: a deliberate gesture at a fitting is acceptable, an ambient detector that has to be coaxed is not.** `single-account`. [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
 
+### ⚠️⚠️ A Third Practitioner, Two Flats' Experience, and He Rejects the Standard Defence — Route as Settled (Александр Синчуков, his own kitchen, 2023-11-02)
+
+**A touch switch was offered for the worktop lighting by the furniture makers and refused, on the strength of the previous flat:**
+
+**«Мебельщики изначально предлагали… СЕНСОРНОЙ кнопочке. В ПРОШЛОЙ КВАРТИРЕ она у меня была, И ОНА МЕНЯ ПРОСТО БЕСИЛА — она ПОСТОЯННО ГЛЮЧИЛА. Хотя кто-то говорил, что у тебя просто плохая — Я НЕ ВЕРЮ в эти все рассказы. Я сделал… просто с ОБЫЧНОЙ КНОПКИ.»**
+
+- ⚠️⚠️ **This is the THIRD independent practitioner against furniture and task touch switches, and it is the strongest of the three because he explicitly refuses the “you just bought a bad one” defence** — the defence that normally keeps this question open.
+- **The other two: the general-purpose impracticality finding recorded above, and the under-cabinet touch-sensor objection recorded from a separate designer.**
+- → **Three sources, no dissent anywhere in the vault. Route as SETTLED: use a mechanical button for cabinet and task lighting.** Note the practical point that he did not lose the convenience — an ordinary button in the same position does the same job.
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
+
 ## ⚠️⚠️ Switch Mechanism Cycle Life — 1,000 vs 20,000 Operations, and a Fire
 
 **The most consequential safety item on this page, and it comes with a diagnostic signature.** Designer Александр Синчуков, 20 years' practice. [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]

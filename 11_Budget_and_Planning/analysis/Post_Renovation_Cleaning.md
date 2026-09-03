@@ -192,6 +192,17 @@ disposable gloves are reported to degrade quickly (tear, partially
 dissolve) under the solvents/acids this work uses. `single-account`.
 [source: [[_Sources/YT_iu-GGC7hEKA_ilyonova_85m2_cleaning_secrets|iu-GGC7hEKA]]]
 
+### ⚠️⚠️ Central Vacuum — Explained in Full, Then Scoped Out for a Flat by the Practitioner Explaining It (Александр Синчуков, 2021-01-22)
+
+**The build-up, so the decision can be checked rather than re-derived: 5–6 cm pipework buried in the structure, inlet sockets in the rooms, and the MOTOR UNIT SITED IN A UTILITY ROOM or plant space** so its noise and its exhaust leave the living area. The benefits follow from that geometry — no dust re-emission into the room being cleaned, no machine to carry, and no noise where you are working.
+
+- ⚠️⚠️ **AND THEN HE RULES IT OUT HIMSELF, WHICH IS WHY THIS IS WORTH KEEPING: houses yes, small flats NO — «используйте РОБОТ».** There is nowhere to put the motor, no depth for the pipe runs, and the travel distances do not justify the installation.
+- → **Route as a CLOSED decision, not an open option: understood, costed in principle, and rejected for a flat by the practitioner who explained it, with a ROBOT VACUUM named as the flat-scale substitute.** Recording it as closed is the point — it is exactly the kind of system that gets reopened every time someone reads about it.
+- ⚠️ **The wider framing this belongs to, and it undercuts the whole low-maintenance programme: «ЧЕМ МЕНЬШЕ КВАРТИРА, ТЕМ МЕНЬШЕ В НЕЙ ПРИДЁТСЯ УБИРАТЬСЯ.»** → **Floor area is the dominant variable in cleaning load and no material choice competes with it.** For a fixed-area flat that is a reason to treat the rest of the low-maintenance material list as second-order optimisation — and he says so himself, alongside **«НЕ ВПАДАЙТЕ В КРАЙНОСТИ»**, since every recommendation on the list trades appearance away.
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## Numeric Data
 
 - Anecdotal per-mosquito-screen labor-value figure: ~250 RUB (well under

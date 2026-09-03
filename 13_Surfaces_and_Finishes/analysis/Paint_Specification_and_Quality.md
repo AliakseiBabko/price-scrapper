@@ -134,3 +134,15 @@ This is the most reusable structure in the source, and it extends this page's ex
 ---
 
 Part of [[13_Surfaces_and_Finishes/analysis/Wallpaper_and_Paint_Application|Wallpaper and Paint Application]].
+
+### ⚠️ Dating Correction — ultra-matte-is-a-ceiling-product is a January 2021 position, and the tension was acknowledged then too
+
+**This page's ultra-matte finding is dated to a 2026 source. Александр Синчуков states it in January 2021: ultra-matte paint is a CEILING product, not a wall product, because it marks and cannot be washed, so it belongs where nothing touches it.**
+
+- ⚠️ **And he acknowledges the internal contradiction explicitly, which the later source does not:** his whole argument that session is *minimise gloss* — gloss shows dust, streaks, fingerprints and every touch, and matte hides all four — and here the most matte product available is the one he rules out for walls. **He states the tension and leaves it unresolved.**
+- **The resolution the vault should carry, LABELLED AS INFERENCE rather than as his: "matte" is about LIGHT BEHAVIOUR and "washable" is about BINDER CONTENT, and ultra-matte trades the second away to get the first.** That is consistent with the physical mechanism this page already sets out above; it is not something he says.
+- **His general recommendation from the same session is DARK plus MATTE**, on the dirt-visibility criterion. ⚠️ **That directly contradicts this page's existing "light paint is more practical than dark" finding AND his own 2022 position that dark facades are the most marking. The reversal is recorded in full at [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioner Material Selection Accounts]] — do not reconcile it here.**
+- ⚠️ **Also from January 2021, and bolder than anything this vault holds: he claims LACQUERED DECORATIVE PLASTER is usable in a SHOWER ZONE and as a KITCHEN SPLASHBACK.** The vault's wet-zone content treats plaster as a dry-zone material, **and he narrows this claim himself in later sources.** Recorded as his 2021 position with the later narrowing noted, and **deliberately NOT promoted to a recommendation.** See [[13_Surfaces_and_Finishes/analysis/Decorative_Plaster_and_Microcement|Decorative Plaster and Microcement]].
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+

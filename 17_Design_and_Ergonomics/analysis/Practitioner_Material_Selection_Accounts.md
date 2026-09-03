@@ -152,3 +152,37 @@ He acknowledges having spent the whole framework saying natural materials degrad
 ---
 
 Part of [[17_Design_and_Ergonomics/analysis/Material_and_Finish_Technique|Material and Finish Technique]].
+
+### ⚠️⚠️ The Cleaning-as-Wear Thesis Is a JANUARY 2021 Position, Not a 2026 One — and the Vault Was Dating It Five Years Late
+
+**The vault's central durability framework — that most of what looks like material wear is actually the CLEANING of the material, so the design objective is to reduce the NUMBER OF CLEANING EVENTS rather than to buy cleanable surfaces — is credited in this vault to a 2026 source. Александр Синчуков states it, fully formed, in January 2021.**
+
+- **His governing criterion follows from it: choose materials by HOW VISIBLE DIRT IS on them, not by how clean they are** — a surface that shows every mark gets wiped constantly and wears out from the wiping, while a surface that hides marks is cleaned on a real schedule. **The teaching analogy is car colour: black and white cars get equally dirty but *look* dirty at completely different rates, and that is what governs how often they are washed.**
+- **Gloss is the amplifier — minimise it — because gloss shows dust, streaks, fingerprints and touch, and matte hides all four.**
+- ⚠️ **This is the SEVENTH finding in this round found to be mis-dated in the same direction, and the cause is structural: a vault built round-by-round mis-dates findings toward the round that first noticed them. The full itemised correction table is in the source note.** Round 6 was scoped OLDEST-FIRST precisely to test that, and this is the result. See [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]].
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+### ⚠️⚠️ Perspectives — the Same Practitioner Reverses Himself on Dark Surfaces, and Nobody Should Smooth It Over
+
+**These two positions are from one practitioner, one year apart, and they are not reconcilable as stated. Both are recorded with their dates; neither is retired.**
+
+**January 2021 — DARK HIDES DIRT.** White shows everything. Dark plus matte is the recommended combination. **The white hob is banned outright: unacceptable after two to three months.** [source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+**January 2022 — DARK FACADES ARE THE MOST MARKING**, regardless of gloss level. [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+- ⚠️ **He never addresses the contradiction, and there is no source in which he acknowledges changing position.** That is why this is a Perspectives block and not a resolution.
+- **⚠️ THE RECONCILIATION BELOW IS MINE, NOT HIS, AND MUST NOT BE PROMOTED TO A FINDING:** the two claims are plausibly about **different soils on different surfaces** — *food, grease and limescale* on a HORIZONTAL cooking surface, which light tones show; versus *fingerprints, dust and skin oils* on a VERTICAL touched surface, which dark tones show. **On that reading the real rule is to match surface tone to the soil each surface will actually receive, PER SURFACE, rather than picking one tone for the whole flat.**
+- → **Practical consequence either way: the vault should not carry a single "light is more practical" or "dark is more practical" rule sourced to this practitioner.** [[13_Surfaces_and_Finishes/analysis/Paint_Specification_and_Quality|Paint Specification and Quality]] currently holds the light-is-more-practical version from a different source; that is a genuine disagreement, not an error, and both stand.
+
+### ⚠️⚠️ Four Prepared-Footage Admissions From One Channel — Which Is Why This Vault Weights Occupancy Sources Over Portfolio Ones
+
+**A pattern worth stating explicitly, because it bears on how every source from this channel should be read:**
+
+1. **2021 — a BLACK GLOSS KITCHEN required a FIFTEEN-MINUTE WIPE-DOWN before it could be photographed.** He is using his own portfolio shoot as evidence against the finish he shot. [source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+2. **2024 — an admission that his own bathroom footage was groomed.** [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]
+3. **2024 — a further prepared-footage admission in the one-year-of-fixes review.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+4. **2023 — and the strongest, because it is a stated production DECISION rather than a confession: he deliberately delayed reviewing his own finished flat, «потому что ОДНО ДЕЛО КРАСИВЫЕ КАРТИНКИ, А ДРУГОЕ ДЕЛО — КАК ЭТО ВСЁ РАБОТАЕТ В ЖИЗНИ».** [source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
+- → **The photogenic version and the working version of an interior are different objects, and this practitioner says so in four separate places.** It is the clearest available justification for the vault's preference for post-occupancy sources, and for treating any render or portfolio image as a claim about appearance only.
+

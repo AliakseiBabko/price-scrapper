@@ -114,6 +114,23 @@ door's simple hinge mechanism. `single-account`, `unverified`, Ontario
 
 **«200 рублей — вы покупаете чехол на вашу коробку, и дверь переживёт всю стройку.»** He says he saw it **on a very expensive site with good builders**, which is the recommendation. **Against this page's recorded concealed-door costs, a 200-rouble sleeve protecting the frame through the remaining months of dusty work is the highest-leverage spend on the whole detail.**
 
+### ⚠️⚠️ A 1.5-Million-Rouble Frame Failure — and It Locates the Risk in Exactly the Datum the Method Above Depends On (Владимир Калинин, 2026-06-16)
+
+**On a failed 400 m² build, 1.5 million ₽ (≈$19,600) was buried in wrongly-installed door frames and concealed-door pockets. His stated rule:**
+
+**«ДВЕРНЫЕ КОРОБКИ СТОИТ УСТАНАВЛИВАТЬ ТОЛЬКО ПОСЛЕ УКЛАДКИ НАПОЛЬНОГО ЧИСТОВОГО ПОКРЫТИЯ.»**
+
+**⚠️ At first reading that contradicts the two-stage method above, which installs concealed frames at rough stage. It does not — and the resolution is more useful than either statement alone, because BOTH SOURCES PUT THE FAILURE IN THE SAME PLACE: THE FINISHED-FLOOR DATUM.**
+
+- **The method above only works because the openings are prepared to the supplier's ТЗ with the height computed from HOW MUCH THE FINISHED FLOOR WILL RISE.** The early install is safe *conditional on that number being right.*
+- **Калинин's failure is what happens when that number is wrong or still provisional — and he names who owns it: «НОЛЬ ДАЮТ СТРОИТЕЛИ.»** The zero datum is issued by the builders, so a frame set to a bad zero is a builder-caused error — **and the cost lands on the client regardless of whose fault it was.**
+- → **⚠️ So the two are not rival rules but two risk controls on one variable: COMPUTE the finished floor level and install early (faster, needs a trustworthy datum), or WAIT for the floor to actually exist and install late (slower, needs no trust).** Калинин is prescribing the second because he was cleaning up a build where the first had been attempted without the competence it requires.
+- → **The actionable version: before frames go in early, get the finished-floor build-up in writing — screed plus adhesive plus covering plus underlay — and check that the opening heights were derived from it.** That single number is worth 1.5m ₽ on a large build and is the same number the 200-rouble sleeve above cannot protect you from getting wrong.
+- ⚠️ *A note on method: I initially recorded this as an unresolved tension and offered "order early, install late" as a hypothesis. The content already on this page is more specific and supersedes that guess — the two-stage account already contains the datum condition. Recorded here rather than silently dropped.*
+
+[source: [[_Sources/YT_HbQHuyokSd0_nsdsgn_rescue_contractor_58m_dispute|YT_HbQHuyokSd0]]]
+
+
 ## A Case Where the Costs Are Worth It
 
 **Concealed doors are specifically justified when a door sits within or adjacent to a room's main TV-viewing sightline** — a real case: the source, whose own default stance is skeptical of concealed doors' cost/benefit, explicitly endorsed the choice here because a visible door casing in that exact sightline would have been a distracting element during TV viewing ("in another renovation I wouldn't understand this choice, but here it's justified"). The same reasoning extended to keeping a visible switch bank (for the concealed rooms) off the TV-facing wall entirely. `single-account`, `unverified`, but a useful concrete exception to weigh against the cost picture above rather than a blanket "never" or "always." [source: [[_Sources/YT_iEpRx5Pe7to_designer_disaster_20m_277|YT_iEpRx5Pe7to]]]

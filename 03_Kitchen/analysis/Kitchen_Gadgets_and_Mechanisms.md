@@ -75,3 +75,17 @@ Same fabricator, reacting to viral Chinese furniture-mechanism clips (`promotion
 ---
 
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Siblings: [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing & Ergonomics]] · [[03_Kitchen/analysis/Storage_and_Hardware|Storage & Hardware]] · [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]].
+
+### ⚠️⚠️ The Origin of That Mess Niche — He Nearly Did Not Build the Single Element That Solved the Whole Kitchen (Александр Синчуков, 2023-11-02)
+
+The section above records a designated mess niche as a working solution. **This is the same cupboard nine months earlier, and the design history is the finding:**
+
+**«Изначально я хотел, чтобы столешница ЗАПОЛЗАЛА туда внутрь, и я ВООБЩЕ НЕ ХОТЕЛ ДЕЛАТЬ ВОТ ЭТУ ДВЕРЦУ. Я думал, что будет просто такой ТЁМНЫЙ УГОЛ. Но когда эта дверца ПОЯВИЛАСЬ, ЭТО ПРОСТО БЫЛО КАК КАКОЕ-ТО ОЗАРЕНИЕ — она решила ВСЕ ВОПРОСЫ С БАРДАКОМ.»**
+
+- → **⚠️ A dead corner PLUS A DOOR beats an open dead corner decisively, and the designer had to be talked into the door.** What it holds: bottles, mineral water, spice jars — «там ВИЗУАЛЬНЫЙ МУСОР, там всё ЯРКОЕ, УЖАСНОЕ» — and **«ОДНИМ ДВИЖЕНИЕМ моя кухня опять превращается в идеальную».**
+- ⚠️ **AND IT NEEDS A SOCKET INSIDE, decided at first fix: «чайник, кофемашину, ЛЮБОЙ ПРИБОР его можно там ВКЛЮЧАТЬ И ДАЖЕ НЕ ВЫНИМАТЬ ЕГО ОТТУДА.»** → **So the cupboard is an appliance bay as well as a mess store, and that only works if the electrical layout anticipated it.**
+- **⚠️ A junction detail worth copying: a blank return panel (глухарь) is used to terminate the splashback, so no three-way corner is formed at all** — «здесь НЕТ никаких ПЕРЕСЕЧЕНИЙ, углов… аккуратно сделано ГЕРМЕТИКОМ». **The joint-count principle applied at a specific node** — see [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops and Backsplash]].
+- ⚠️ **He declines to decant the spices held in there — «ВСЁ пересыпать Я НЕ ГОТОВ» — which is the honest limit on the decanting method and the reason the door exists.** See [[03_Kitchen/analysis/Storage_and_Hardware|Storage and Hardware]].
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+

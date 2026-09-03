@@ -19,6 +19,24 @@ A separate axis from frame material or mount type:
 - Sergey Gusev / ПРО ДВЕРИ says: **Film (PVC/polypropylene/"eco-veneer")** cannot be locally repaired at all — a scratch requires replacing the whole panel or leaf — and cannot be painted over. A manufacturing debris fleck trapped under film stays permanently visible as a raised defect, whereas the same defect under wet enamel can be sanded flush and repainted before the enamel cures. Film-wrapped doors reportedly build up static charge and attract more airborne dust than enamel, especially visible at seams/corners (worse near a busy road with frequently open windows).
 - Day-to-day cleaning performance is **not** reported as a differentiator between the two.
 
+### ⚠️⚠️ The Edge Band Is the Quality Benchmark for Carcass Furniture — and There Is a Free Test a Client Can Run in a Showroom (Константин Петухов, works manager, 2023-02-21)
+
+**«КРОМКА ЯВЛЯЕТСЯ ПРЯМО ВОТ САМОЙ ВАЖНОЙ ВЕЩЬЮ ИМЕННО В КОРПУСНОЙ МЕБЕЛИ — ЭТАЛОН КАЧЕСТВА.»** Corroborated by market behaviour rather than by assertion: in a top-tier German kitchen showroom, **«первое, что они скажут, — это "смотри, какая у нас крутая кромка"»** — the industry itself leads with it.
+
+**⚠️⚠️ THE TEST, AND IT IS THE MOST DIRECTLY USABLE ITEM IN THE SOURCE: INSPECT THE EDGE ON A WHITE PANEL, BECAUSE THE ADHESIVE IS NOT WHITE.**
+
+**«Этот эталон качества можно хорошо просмотреть НА ФОНЕ БЕЛОГО МАТЕРИАЛА… наносится КЛЕЙ, и КЛЕЙ ИМЕЕТ НЕ БЕЛЫЙ ЦВЕТ, и когда кромка нанесена плохо… КЛЕЕВОЙ ШОВ ОН ХОРОШО ЗАМЕТЕН.»**
+
+- → **A visible glue line on a WHITE sample means poor edge banding. On a dark panel the identical defect is invisible — so ask to see the white sample specifically, in the showroom, before ordering.** No tools and no expertise required.
+- **⚠️ WHY A GOOD MACHINE LEAVES NO LINE — ФУГОВКА (pre-milling): the bander mills 1 MM OFF THE PANEL EDGE IMMEDIATELY BEFORE APPLYING THE BAND**, so the sawn edge and any chipping are removed in the same pass. «По итогу СКОЛОВ… КАК ТАКОВЫХ НЕ МОЖЕТ БЫТЬ на любом материале.» **→ A second askable question: does your bander pre-mill?**
+- ⚠️ **He can date the difference because they replaced the machine: the previous bander had no pre-milling and «КЛЕЕВОЙ ШОВ КОНЕЧНО БЫЛ»; afterwards «это конечно НЕБО И ЗЕМЛЯ — в плане качества, в плане эстетики, А САМОЕ ГЛАВНОЕ — И ПРАКТИЧНОСТИ».**
+- **⚠️⚠️ AND THE CONSEQUENCE THAT MAKES THIS MORE THAN COSMETIC, BECAUSE IT CONNECTS TO A FAILURE MODE THIS VAULT ALREADY HOLDS: «ХОРОШО ПРИКЛЕЕННАЯ КРОМКА на любой материал ПРИ ПОПАДАНИИ ВОДЫ намного ДОЛЬШЕ И БОЛЬШЕ ВЫДЕРЖИВАЕТ… ОТ ВСПУХАНИЯ, ЕСЛИ ВОДУ НЕ УБРАТЬ.»**
+  - → **⚠️ THE VISIBLE GLUE LINE IS A PROXY FOR WATER RESISTANCE.** This page's frame/core section records ДСП swelling as the characteristic failure of carcass furniture, and [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]] records ДСП as a single-use frame. **This supplies the mechanism AT THE EDGE and converts it into a purchasing test.**
+  - ⚠️ **He is careful about the limit, and it should be kept: good banding buys TIME, not immunity, and only if the water is eventually wiped up.**
+
+[source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
+
+
 ## Hardware
 
 - Zemstandart/Alexey Zemskov says: **Door hardware (hinges + handle + lock) should not be bought cheap even on an otherwise budget door** — a quality hardware set costs ~5,000–7,000 RUB and is stated to last ~10 years; low-priced hardware is described as unreliable by default.

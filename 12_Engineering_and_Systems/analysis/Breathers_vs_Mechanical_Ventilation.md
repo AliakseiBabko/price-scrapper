@@ -134,3 +134,15 @@ Clients argue for height on feel — «если потолки 4 м, я СВОБ
   > [!NOTE]
   > ⚠️ **He gives the same claim as TWO DAYS in a 2022 source** — «при выключении конди на два дня у вас всё, включая одежду, покрывается плесенью». **Same practitioner, four years apart, both hearsay-grade, and the figures differ by roughly 3-5×. Recorded as a range with the divergence flagged rather than picking one; the direction of the claim is consistent and the magnitude is not established.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
 - **⚠️ The bathroom-specific version, where he treats ventilation and HEATING as jointly necessary rather than alternatives: «если у вас ПЛОХАЯ ВЕНТИЛЯЦИЯ, то у вас на стенах СКОРЕЕ ВСЕГО ПОЯВИТСЯ ГРИБОК… надо включить вентиляцию, чтобы воздух УХОДИЛ, А ТАКЖЕ ЕГО НАГРЕВАТЬ — и в этом случае поможет ТЁПЛАЯ СТЕНА ИЛИ ТЁПЛЫЙ ПОЛ. Сухой тёплый воздух, вентиляция — и у вас не будет никакой плесени.»** See [[07_Bathroom/analysis/Bathroom_Design_and_Palette|Bathroom Design and Palette]] for the standing-water geometry that is the third factor, and [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Heated Floor and Thermostat]] for the wall-versus-floor Perspectives split this creates.
+
+### ⚠️⚠️ Correction — this chain is not a synthesis, and it is not from 2026. It is one thought, stated in January 2021.
+
+**The section above was written in Round 4 as a chain assembled across sources: mechanical ventilation → windows stay shut → less dust → fewer cleaning events → less material wear. I presented the assembly as mine. It is not.**
+
+**Александр Синчуков states the whole chain, mechanism included, as a single continuous argument in a January 2021 monologue** — five years before the source this page credits. Mechanical supply ventilation is presented there as *the* answer to dust, **and the mechanism is given in the same breath: with mechanical ventilation you never open the windows, and not opening the windows is what removes the dust source.**
+
+- **The correction that matters for how this page is read: the durability argument for MVHR is the practitioner's own, first-stated position, not a vault inference.** That makes it stronger evidence, not weaker — but the attribution was wrong and is fixed here rather than quietly reframed.
+- ⚠️ **This is the second time on this channel that I have credited myself with a synthesis the source had already made.** The systematic cause is processing a channel newest-first: a vault built round-by-round mis-dates findings toward the round that first noticed them. Round 6 was deliberately scoped oldest-first, which is what surfaced this.
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
