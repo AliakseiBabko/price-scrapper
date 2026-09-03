@@ -147,7 +147,7 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 
 **Context for why the choice is not offered**: in mass-market segments most standard fronts are white, grey or wood plus a few open accent colours — **and per the kitchen-trend research she cites, white fronts have been the mass buyer's choice for years, at roughly 40–45% in various years, followed by grey and wood.** *(Research house name not recoverable from the ASR; treat as her reported figure.)*
 
-**⚠️ Her structural explanation, which is why demand does not fix it: complex shades are inconvenient to SELL. Hard to show quickly; hard to explain if the floor salesperson is not a colour expert; and they require accounting for colours belonging to other products the company does not sell. "Для них это время и усилия впустую."** The full argument is on [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §5e.
+**⚠️ Her structural explanation, which is why demand does not fix it: complex shades are inconvenient to SELL. Hard to show quickly; hard to explain if the floor salesperson is not a colour expert; and they require accounting for colours belonging to other products the company does not sell. "Для них это время и усилия впустую."** The full argument is on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services — What They Cost, and What They Include]].
 
 ### ⚠️ Internals are a 2× multiplier
 

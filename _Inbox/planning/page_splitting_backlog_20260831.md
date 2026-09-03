@@ -334,3 +334,48 @@ With Kitchen Furniture resolved, the standing list re-orders:
 3. **`03_Kitchen/analysis/Furniture_Facade_Materials.md` — 314 lines.** Took three blocks from one channel today. **Seam: substrate / facing / hardware-interaction**, which is how the source videos are themselves organised.
 4. `12_Engineering_and_Systems/analysis/Soundproofing.md` — 493 lines, coherent by topic.
 5. `07_Bathroom/analysis/Planning_and_Layout.md` — 355 lines, seam is dimensional ergonomics versus approvals versus servicing access.
+
+## 2026-09-02 (second pass, same day) — the rest of the worst-page list
+
+Continuation of the Kitchen Furniture conversion, at the user's direction. **Flagged count 30 → 27; three of the five targets cleared the threshold; no new page is flagged.**
+
+| Page | Before | After | Outcome |
+| :--- | ---: | ---: | :--- |
+| `11_Budget_and_Planning/Budgeting_Guide.md` | 878 | **495** | ⚠️ still flagged — see below |
+| `03_Kitchen/analysis/General_Dos_and_Donts.md` | 380 / 25 sections | **250 / 6** | cleared |
+| `12_Engineering_and_Systems/analysis/Soundproofing.md` | 493 | **216** | cleared |
+| `07_Bathroom/analysis/Planning_and_Layout.md` | 355 | **245** | cleared |
+| `03_Kitchen/analysis/Furniture_Facade_Materials.md` | 314 | **314** | ⚠️ deliberately left — see below |
+
+**New pages**: `Cost_Benchmarks_Live_Intake.md` (311) · `Design_Services_and_Fees.md` (120) · `Kitchen_Materials_and_Finish_Critiques.md` (107) · `Kitchen_Gadgets_and_Mechanisms.md` (64) · `Bathroom_Design_and_Palette.md` (70) · `Bathroom_Regulation_and_Wet_Zone_Limits.md` (62) · `Soundproofing_Installation_Technique.md` (293).
+
+**Every move was verified the same way as the Kitchen Furniture split**: content extracted by line range byte-for-byte, coverage asserted, then an independent content-line and citation-ID parity check per operation. **Zero content lines lost, zero citations lost, across all four operations.**
+
+### ⚠️ Budgeting_Guide — the numbering had collapsed, which was the worse defect
+
+Length was not the main problem. **The page had TWO `## 5b.` sections and TWO `## 5c.` sections, with `## 6` sitting *before* 5b–5j** — precisely the failure `00_Master/wiki_page_format.md` predicts for integer numbering on an open-ended page. Separately, **sixteen `### Live intake benchmark` subsections (294 lines) had accumulated under "4. What to Check Before Estimating," which is not what they are** — they landed under the nearest available heading.
+
+Fixed by extracting the benchmark ledger and the design-services cluster. **The extraction resolved the duplicate numbering by itself** (the second 5b/5c *were* the design cluster), after which 5f–5j were renumbered into the vacated 5d–5i slots and §6 moved to the end. **Sequence is now clean: 1, 2, 3, 4, 5, 5a–5j, 6.**
+
+**⚠️ Still flagged at 495 against the 350-line guide threshold, and that is recorded rather than hidden.** What remains is the guide's own framing content, and `11_Budget_and_Planning` was explicitly declared "out of scope" for the 2026-08-17 layered rollout on the grounds that it already has its own tiered structure. **Taking it further would mean a full layered conversion of the folder's master guide — a larger decision than a defect fix, and one worth taking deliberately rather than as a side effect.** The named next step if it is wanted: extract the §5–5c cost-saving/bill-of-quantities cluster (~150 lines).
+
+### ⚠️ General_Dos_and_Donts was the FRAGMENTATION mode — so it was merged, not split
+
+**18 of its 25 top-level sections were dated per-batch headings from a single channel, 8–17 lines apiece.** That is the pattern this file recorded on 2026-08-31 from `Lighting_Design.md`, where the lesson was that **splitting such a page makes it strictly worse and the fix is merging.**
+
+So the sections were **grouped under five thematic parents with the original dated headings demoted rather than deleted — no prose changed** — and only then were two coherent groups (materials/finish critiques, gadgets/mechanisms) moved to their own pages. **25 top-level sections → 6.** This is the first time this vault has applied that lesson deliberately rather than learning it retrospectively.
+
+### ⚠️ Furniture_Facade_Materials — deliberately NOT split, and the reasoning matters
+
+314 lines across 12 sections, averaging 26 lines each: **substantial sections, not fragments.** Every candidate seam — substrate / facing / hardware — **cuts through individual sourced blocks rather than between them.** The tier ladder covers all three facings in one source's comparison; the "Whole Truth 2026" block covers facade types *and* hardware cycle ratings *and* carcass tiers as one source's account.
+
+**Splitting it would fragment single-source blocks a reader compares side by side, which the convention's "move existing prose, don't re-derive" rule exists to prevent.** It is 54 lines over a threshold the convention itself calls "the weakest of the available signals." **Left as one page on purpose. The condition that would change that: if it takes another facade source, split at substrate / facing / hardware — the way the source videos are themselves organised.**
+
+### The two clean splits
+
+- **Soundproofing (493 → 216)** had a genuine seam on whole sections: **deciding *which* system to build versus *how* to build it.** Selection keeps the noise taxonomy, system types, four-factor framework, worked per-wall case, floor-vs-ceiling asymmetry, measured decibel comparisons and the room-adjacency audit; technique took floor membrane, the frame system, ZIPS, frameless, sewer-riser wrap and the door-sill gasket. **⚠️ Шумопласт was deliberately kept on the selection page — it is a material alternative, not a technique**, and the first draft had it in the wrong place.
+- **Bathroom Planning & Layout (355 → 245)** shed two clusters: design/palette/spa programming, and RUSSIAN regulation (steam rooms, the threshold). **⚠️ Безверхая's wet-zone replanning limits stayed put, because that block also carries her dimensional ergonomics and cutting it would have split one source's account.**
+
+### Cross-reference handling
+
+**Eight `§N` references pointed into Budgeting_Guide.** §2.1, §4 and the first §5c survived the restructure and still resolve. **The §5e reference from `Furniture_Facade_Materials.md` was repointed** at the new design-services page, and **the two internal §5b/§5d references that travelled with the moved cluster were rewritten to name their sections instead of numbering them**, per the convention's preference for names over `§N`. The legacy 5b–5e numbers were stripped from that page's headings, since they are meaningless on a standalone page.

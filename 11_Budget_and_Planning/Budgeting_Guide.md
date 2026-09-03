@@ -164,300 +164,15 @@ competition:
 
 **⚠️ On any construction drawing with a chain of dimensioned wall segments (a reveal, an opening, another reveal, a wall thickness, and so on), specify only the dimensions that are genuinely functionally critical — and deliberately leave one non-critical segment's width unlabeled.** A crew builds outward from whichever reference point is easiest for them (typically a load-bearing wall, once they've decided where the plaster layer will sit); if every segment in the chain is dimensioned, cumulative construction/plastering tolerance error compounds through the whole chain and eats into exactly the *last* dimensioned segment — often the one that most needs to stay firm (a wardrobe's depth, say). **Fix**: dimension only the true anchor points (worked example: "600mm offset from this corner" and "150mm wall thickness" on one sheet; "500mm reveal" and "800mm opening width" on a separate openings sheet) and leave one segment's width deliberately unlabeled — its only implicit requirement is fitting its own minimum function (e.g. a door casing). Since the crew has no target to build that segment to, all real-world tolerance error lands there instead of consuming a dimension you actually need held. **A general, broadly reusable technique for any DIY construction drawing this project produces**, not specific to one room. `single-account`, `unverified` methodology, but directly applicable. *(secondary reference — see intermediate store)* [source: [[_Sources/YT_78FeaeMZHOI_2.5m_thanks_developer_275|78FeaeMZHOI_2.5m_thanks_]]]
 
-### Live intake benchmark — Petrishin-Stroi turnkey market-segment tiers (2025-11-23)
 
-A different kind of Petrishin-Stroi data point than the real-object cases
-below: a **market segment-tier structure**, not one project's total.
-**⚠️ Despite its on-screen title claiming "2026," this video's own spoken
-content says "2025" and its confirmed `yt-dlp` upload date is
-2025-11-23** — treat as a 2025 data point, not a fresh year-over-year
-addition to the real-object benchmark series. Region level 2 (no city
-named). Three turnkey "под ключ" design-renovation tiers: **Economy**
-under 30,000 RUB/m² (**≈$370/m²**) — no real design-led renovation
-realistic at this tier; **Comfort** 30,000-70,000 RUB/m² (**≈$370-
-$870/m²**) — the widest segment, highest fraud risk, quality varies
-company to company; **Premium** 70,000 RUB/m²+ (**≈$870/m²+**) — full
-turnkey delivery with narrow-specialist trades and designer supervision.
-Stated floor for any genuine design-led renovation (rough + finish
-combined): **from 30,000 RUB/m² (≈$370/m²)**. Trailing-six-month USD/RUB
-average (80.3375) ending 2025-11-23. Also carries three named
-contractor-fraud schemes (lowball-bait-and-abandon, "recalculation of
-actual work" area-inflation clause, desperate-crew lowball-then-extort) —
-see the source note for full detail. [source: [[_Sources/YT_LEsmpI8bWCY_petrishin_2025_market_segments|LEsmpI8bWCY_petrishin_2025_market_segments]]]
+### Live intake cost benchmarks — moved to their own page
 
-### Live intake benchmark — Petrishin-Stroi 2024 market-tier pricing, and cross-check against the 2025 tiers above (2024-11-17)
-
-A genuinely 2024-dated companion to the market-tier video above (spoken
-content itself confirms "на 24-й год"). Region level 2 (a Moscow/Moscow-
-region mention is a service-area sales CTA, not the object's location).
-**Rough-work-only floor**: ~20,000 RUB/m² labor (below that isn't
-realistically achievable). **Comfort segment, labor only, explicitly
-excluding design fee and furniture**: 35,000-40,000 RUB/m²; **with
-furniture**: ~100,000 RUB/m²+. Premium-tier big-ticket add-ons named
-concretely: a supply/exhaust ventilation system alone can cost 1-3
-million RUB (e.g. 2,000,000 RUB / 100 m² ≈ 20,000 RUB/m² for that one
-system). **⚠️ Cross-check finding, explicit per this project's own
-year-over-year comparison rule**: this 2024 Comfort-tier labor-only
-figure (35,000-40,000 RUB/m²) numerically overlaps the 2025 video's
-Comfort *full-turnkey* band (30,000-70,000 RUB/m², design+rough+finish
-bundled) above — but the two figures **describe different scopes**
-(2024: labor only, no design/furniture; 2025: design fee + rough +
-finish bundled). Similar raw RUB/m² numbers across a *narrower* 2024
-scope and a *broader* 2025 scope actually point toward a **real price
-increase once scope is equalized**, not price stability — recorded as
-an open cross-source finding, not a resolved inflation percentage, since
-neither video gives a clean same-scope figure for both years. [source:
-[[_Sources/YT_nT0qOcN_nEQ_petrishin_2024_market_tiers|extraction note]]]
-
-### Live intake benchmark — Konstantin Kruglov/Ontario cost list (2026-06-05)
-
-One Moscow/Moscow-region renovation-company source (`yt_P8t_d7J9fm4`) separates a design package (2,500–10,000 RUB/m² → **≈$30–$130/m²**), secondary-apartment replanning (100,000–300,000 RUB → **≈$1,300–$3,900**), wired smart-home engineering (50,000–100,000 RUB → **≈$650–$1,300**), rough materials (12,000–35,000 RUB/m² → **≈$160–$450/m²**), and finish materials (18,000–40,000 RUB/m² → **≈$230–$520/m²**). These are self-reported, single-account Moscow benchmarks, not universal market rates or Minsk equivalents. USD figures use the 76.9848 RUB/USD trailing-six-month arithmetic mean ending 2026-06-05; see [[_Sources/YT_P8t_d7J9fm4_kruglov_renovation_cost_list_2026|source note]].
-
-### Live intake benchmark — Konstantin Kruglov/Ontario, Moscow labor-only rate range and cost-driver worked examples (2024-08-30)
-
-A second Kruglov/Ontario data point (`yt_soshw_203eY`), this one naming
-**Moscow directly** for a labor-only "капитальный ремонт" (full
-renovation labor: demolition, plumbing, electrical, wall/floor/ceiling)
-rate range: **15,000-20,000 to 70,000+ RUB/m² (≈$170-$220 to ≈$780+/m²)**
-— stronger regional evidence than most of this channel's usual level-2
-framing, though still self-reported and materials-excluded. **A genuine
-same-channel design-project-cost figure divergence, recorded rather than
-resolved**: this video states 90% of design agencies price
-500-5,000 RUB/m² (≈$10-$60/m², worked 50 m² example: 75,000-250,000 RUB
-≈$830-$2,800), meaningfully wider/lower than `P8t_d7J9fm4`'s own
-2,500-10,000 RUB/m² basic-package figure — neither video clarifies
-whether the difference is market-wide-range vs. one-company's-package
-scope, so both figures stand. **Two concrete worked cost-driver
-examples**: two neighboring, identically-materialed 50 m² apartments
-subdivided into 4 vs. 6 rooms can differ from 150 m² to 250 m² of total
-wall area on identical floor area; 30 vs. 80 outlets/switches alone can
-account for a 2,000-3,000 RUB/m² (≈$20-$30/m²) difference. **A new
-"спецмонтаж" (special-install) budget category**, distinct from rough/
-finish materials: work where one company both sources/manufactures and
-installs a product under one combined warranty (windows, doors, AC,
-stretch ceilings, wall murals, decorative partitions) — deliberately
-unbudgetable as a single range given real examples spanning ≈20,000 RUB
-(≈$220) for a basic AC unit to 300,000+ RUB (≈$3,300+) for a multi-split
-system, up to ≈500,000 RUB (≈$5,600) for one supply-exhaust
-ventilation fan-coil unit alone. **A related new-build compliance
-constraint**: some specific towers (named example: "Сити Tower")
-mandate a developer-installed supply-exhaust system building-wide,
-removing the choice to use ordinary split AC entirely — check a
-specific building's own ventilation requirements before assuming AC is
-a free choice. Converted at the trailing-6-month USD/RUB mean before
-2024-08-30 (89.9313 RUB/USD). [source: [[_Sources/YT_soshw_203eY_kruglov_how_much_modern_reno_costs|soshw_203eY]]]
-
-### Live intake warning — estimate format (2025-08-01)
-
-The same channel's contractor-model comparison warns against accepting an opaque “whole renovation for 20,000 RUB/m²” quote (≈**$240/m²** at the source-date trailing-six-month rate). The point is not that $240/m² is a valid benchmark; it is that a single floor-area number can hide stage scope, acceptance, defect correction, and payment milestones. Require an itemized estimate tied to defined stages before comparing contractor offers. This is a Moscow/company-level, commercially interested warning, not a universal market or legal rule. [source: [[_Sources/YT_3vIpdUvgWW0_kruglov_contractors_2025|source note]]]
-
-### Live intake benchmark — Petrishin-Stroi rough-stage case (2022-01-27)
-
-A Moscow-associated turnkey company source (`yt_S23VRWxzz08`, channel-level Moscow association only — a named residential complex, "ЖК River Park," is stated directly but the city itself is not spoken, so this stays region level 2) gives a real, itemized **rough-stage-only** total for a 45 m² apartment: **1,424,000 RUB → ≈$19,400 (≈$430/m²)**, trailing-six-month USD/RUB average ending 2022-01-27. Scope: demolition + new gas-block partitions + gypsum plastering (≈200,000 RUB), electrical rough-in (≈170,000 RUB), and plumbing/heating rough-in (remaining balance; on-screen digit groups for this stage's own sub-total were ASR-garbled and not independently re-extracted). **This is a rough-stage total (labor+materials), not comparable to Kruglov/Ontario's rough-*materials*-only 160-450 RUB/m² figure above** — different scope, don't average the two. First Petrishin-Stroi case processed for this store; flagged for a future same-channel year-over-year comparison once this trial's other real-cost-breakdown video (2024) and any later-processed videos from this channel are integrated.
-
-### Live intake benchmark — Petrishin-Stroi rough-stage case, Nakhimovsky Prospekt (2024-07-21)
-
-A second same-channel case (`yt_8IW762yALfc`) — this one **clears level-1 region directly** (a specific Moscow street, "Нахимовский проспект," named in the source, stronger evidence than the 2022 case above). Real itemized rough-stage total: **1,122,000 RUB → ≈$12,400**, trailing-six-month USD/RUB average ending 2024-07-21, split across full-gut demolition + debris removal + welding (≈250,000 + 60,000 + 72,000 RUB), wall-building + plastering (≈250,000 RUB), electrical (140,000 RUB), plumbing (150,000 RUB), and screed (9,000 RUB). **No floor area is stated, so no $/m² figure exists for this case** — do not compare its raw total against the 2022 case's $430/m² figure above; the two projects have different scopes (this one is a full gut-demolition, the 2022 case only a partial one) and no shared area basis. Recorded as a second Petrishin-Stroi data point for a future year-over-year pass once more of this channel's cost-breakdown videos are processed with area figures available. [source: [[_Sources/YT_S23VRWxzz08_petrishin_rough_reno_2022_case|2022 case note]], [[_Sources/YT_8IW762yALfc_petrishin_moscow_rough_reno_2024_case|2024 case note]]]
-
-### Live intake benchmark — Petrishin-Stroi rough-stage case, engineering-systems focus (2025-07-27)
-
-A third same-channel case (`3sRfRiQ8XfE`, region level 2 only — no city spoken directly), this one an itemized breakdown focused specifically on engineering systems. Real per-stage totals: demolition 400,000 RUB ≈ $4,800 (unusually high — full-gut replanning); wall-building (aerated-concrete block) 150,000 RUB ≈ $1,800; hand-applied plastering 300,000 RUB ≈ $3,600; plumbing (PEX/Rehau, wet-zone waterproofing, hydraulic-tested) 330,000 RUB ≈ $3,900; electrical rough-in (72-module panel) 400,000 RUB ≈ $4,800 — **arithmetic-summed total (not source-stated directly) 1,580,000 RUB ≈ $18,800**, trailing-six-month USD/RUB average ending 2025-07-27. **No floor area stated, so no $/m² figure exists for this case either** — don't compare its raw total against the 2022 or 2024 cases above; all three remain separate data points pending a shared area basis. **Cost-basis ambiguity flagged**: the source's own phrasing doesn't explicitly confirm whether these are labor-only or labor+materials figures. This case also states a real three-way partition-material cost-tier ranking (tongue-and-groove gypsum block cheapest, aerated-concrete block mid-tier requiring a skilled mason, drywall partition framing most expensive) — general market-rate information, not this specific object's own choice. [source: [[_Sources/YT_3sRfRiQ8XfE_petrishin_engineering_cost|extraction note]]]
-
-### Live intake benchmark — Petrishin-Stroi labor-only case, premium tier, 120 m² (2026-04-26)
-
-A fourth same-channel case (`8dyPTnmOHKs`, region level 2 only — no city
-spoken directly), a **labor-only** (materials/furniture/appliances
-explicitly excluded) per-stage total for a real 120 m² premium/designer-
-tier apartment: plastering 600,000 RUB ≈$7,600 (336 m² wall area);
-electrical 600,000 RUB ≈$7,600 (70-module panel + separate low-voltage
-panel); plumbing ≈440,000 RUB ≈$5,600 (2 manifold nodes ≈70,000 RUB +
-remainder); flooring install (quartz-parquet, herringbone) 204,000 RUB
-≈$2,600; a custom decorative feature 250,000-300,000 RUB ≈$3,200-$3,800;
-tile work (2 bathrooms) 800,000 RUB ≈$10,200; painting/decor 630,000 RUB
-≈$8,000 — **source-stated total: 6,000,000 RUB ≈$76,400 (≈$640/m²,
-labor-only)**, trailing-six-month USD/RUB average ending 2026-04-26.
-**Not comparable to the three rough-stage-only cases above** — this is a
-full labor-only total through finish stages, a different scope from
-"rough-stage total (labor+materials)"; kept as a separate data point,
-not averaged with the others. A real cost consequence is also recorded:
-a client's off-spec switch/outlet brand substitution turned out physically
-incompatible with the planned mounting orientation, wasting ≈85,000 RUB
-≈$1,100 of installed work — a concrete number behind this guide's
-existing "verify substituted materials against spec" caution. [source:
-[[_Sources/YT_8dyPTnmOHKs_petrishin_6mln_labor_per_stage|extraction note]]]
-
-### Live intake benchmark — Petrishin-Stroi-featured full-scope budget case, 38 m² (2025-05-18)
-
-A fifth Petrishin-Stroi-channel data point, but with an attribution
-nuance: the channel explicitly states this is **not their own crew's
-object** — it features another practitioner's ("Александр") real
-secondary-market renovation. Region level 2 only (unusually weak even
-for that tier, since the object isn't confirmed to be the channel's own
-Moscow-associated work). Full rough-**and**-finish scope (not rough-only)
-for a 38 m² one-room panel-building apartment: **1,300,000 RUB ≈$14,000
-(≈$370/m²)**, trailing-six-month USD/RUB average ending 2025-05-18.
-**Not comparable to the rough-stage-only cases above, or to the
-labor-only case below** — different scope again (full turnkey
-rough+finish, explicitly framed by the source as a "budget renovation is
-possible" proof point) — kept as its own separate data point. [source:
-[[_Sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|extraction note]]]
-
-### Live intake benchmark — Petrishin-Stroi full-turnkey case, 54 m², confirmed 2023 (2023-06-04)
-
-A seventh same-channel data point (`tYcH95rlgNw`), region level 2 only
-(no city/development named). **Real total spoken cost, full turnkey
-scope, confirmed area and confirmed year** ("в 2023 году" spoken
-directly, plus `yt-dlp` upload date 2023-06-04): **5,250,000 RUB for a
-54 m² two-bedroom apartment**, explicitly all-in — rough+finish
-materials, furniture, appliances, chandeliers/lighting, "absolutely
-everything you see." Normalized via the trailing-**12**-month USD/RUB
-average ending on the confirmed publish date (66.7416 RUB/USD; 12
-months chosen over 6 given the project's own ~2-year multi-stage
-timeline): **≈$78,700 total, ≈$1,500/m²** (nearest-$100 bucket).
-**Turnkey/Full-Service delivery model. Not averaged with the rough-
-stage-only 2022/2024/2025 cases or the labor-only 2026 case above** —
-comparable in *kind* (both full-scope RUB totals with confirmed area) to
-the 38 m² full-scope case just above, but kept as its own separate,
-individually-dated/scoped data point per this project's non-blending
-convention. A real ~2-year multi-stage project timeline (design → pause
-→ 3 rough-work stages with pauses between, delayed partly by COVID-19
-and partly by client-side factors) is also recorded as a concrete
-illustration that calendar duration can run far longer than pure
-labor-days. [source: [[_Sources/YT_tYcH95rlgNw_petrishin_5mln_2023_benchmark|extraction note]]]
-
-### Live intake benchmark — Petrishin-Stroi rough-stage case, New Arbat (2025-02-09) — partial, follow-up on Round 4's historic-Arbat case
-
-A sixth same-channel data point, and a direct **follow-up video on the
-same real object as Round 4's `IoQiGtso9Vk`** ("historic Arbat
-apartment" — that note flagged "no total cost or floor-area figure").
-This video supplies the missing scope: **75 m², Stalin-era building,
-secondary market**. **Region: level 1 direct** — "Новый Арбат" named in
-spoken content. **Rough-stage-only scope, comparable in kind to the
-2022/2024 cases** — but **not added as a full data point** to that
-series: two of the video's own stage-cost figures (demolition,
-electrical) are ASR-garbled/missing in the fetched transcript and
-weren't extracted. The five usable line items — walls 76,000 RUB ≈$780;
-plastering 291,000 RUB ≈$3,000; drywall+soundproofing 410,000 RUB
-≈$4,200; plumbing 156,000 RUB ≈$1,600; tile 500,000 RUB ≈$5,200
-(trailing-6-month USD/RUB average ending 2025-02-09) — sum to a
-**partial** ≈1,433,000 RUB ≈$14,800, explicitly a lower bound, not a
-comparable total. [source: [[_Sources/YT_7LAB25SCQ1Q_petrishin_arbat_secondary_stages|extraction note]]]
-
-### Live intake data point — Petrishin-Stroi real flood-damage remediation cost, a distinct category from the rough-work benchmarks above (2023-05-28)
-
-**Not part of the rough-stage/full-scope renovation cost-benchmark series
-above** — this is a damage-remediation cost, a different category of
-spend entirely, kept explicitly separate. A previously-renovated
-apartment (ЖК "Лучи," region level 2, no city named) suffered a slow
-leak from the upstairs neighbor's own developer-original heating pipe.
-Per an independent construction-expertise finding, the total cost to
-correct all resulting damage (ceiling replacement, wall re-priming/
-repainting/anti-mold treatment, custom photo-wallpaper reprint/reinstall)
-came to **more than 300,000 RUB** — normalized via the trailing-6-month
-USD/RUB average ending on the confirmed 2023-05-28 publish date
-(73.6736 RUB/USD) to **≈$4,100** (nearest-$100 bucket; a floor figure,
-since the source states the true total was higher than 300,000 RUB).
-Worth keeping as a concrete illustration of flood-damage cost exposure
-when budgeting for leak-protection hardware (see
-[[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak
-Protection Systems]]) — a leak-protection kit costing a few hundred
-dollars is cheap relative to a single incident like this one. [source: [[_Sources/YT_YxXfsKoyx6M_petrishin_flood_prevention_heating|extraction note]]]
-
-### Live intake data point — Petrishin-Stroi real running project-cost tracking update, "Новая Рига" object (2017-10-01)
-
-**⚠️ Not a completed-project total — a real, currently-updating running
-cost total for one in-progress project, tracked video-to-video by this
-same channel.** Real object on the Novorizhskoye highway corridor,
-Moscow region (region level 1). By this video, cumulative rough/
-finishing-material and organizational spend stood at **680,000 RUB
-(≈$11,700, trailing-6-month USD/RUB average ending on the confirmed
-2017-10-01 upload date) + 61,400 RUB (≈$1,100) in organizational
-expenses**, continuing from an earlier video in the same series (not
-independently verified, since that earlier video hasn't itself been
-processed on this channel). The client separately paid a second
-work-stage installment of **208,000 RUB (≈$3,600)** against signed
-completion certificates — a real, dated itemized-payment data point.
-Kept explicitly separate from this page's completed rough-stage and
-full-scope real-object benchmarks above (different structure: an
-evolving in-progress total, not a finished project's headline figure).
-[source: [[_Sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|extraction note]]]
-
-### Live intake data point — Petrishin-Stroi real running project-cost tracking update, "Часть 4" object (2017-09-18)
-
-**⚠️ Likely an earlier installment of the same evolving project as the
-"Новая Рига" running-cost data point above** (same client name Максим,
-upload date only ~2 weeks earlier, a lower running total consistent with
-being an earlier stage) — not confirmed certain, kept as a separate data
-point since neither video cross-references the other by name. Real ~80m²
-new-build object. By this video, cumulative rough-material spend stood
-at **370,815 RUB (≈$6,400, trailing-6-month USD/RUB average ending on
-the confirmed 2017-09-18 upload date) + 38,400 RUB (≈$700) in
-organizational costs**. A first completion certificate ("акт №1") for
-**267,623 RUB (≈$4,600)** covered demolition, all wall construction, and
-beacon-based plastering of walls and ceilings. The client had paid
-**500,000 RUB (≈$8,600)** total toward rough materials to date, with the
-foreman holding an unspent balance of **90,000 RUB (≈$1,600)**. [source:
-[[_Sources/YT_Tq2IELynaGs_petrishin_nonstandard_electrical_plumbing_pt4|extraction note]]]
-
-### Live intake benchmark — ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ real itemized bathroom smeta, business and economy tiers (2025-02-22)
-
-Vladimir Amelchenko (business/premium-segment turnkey renovation,
-St. Petersburg/Moscow) walks through a real itemized bathroom smeta from
-one of the company's own design projects, explicitly rebutting real
-advertised lowball prices (70,000-200,000 RUB "with materials") as fraud.
-**Business tier, one real bathroom, new-build shell**: plaster ≈26,000
-RUB (≈$270); rough plumbing materials (manifold node, supply pipes,
-sewage) ≈270,000 RUB (≈$2,800); two heated-floor systems (floor + a
-"warm wall" in place of a towel warmer) ≈47,000 RUB (≈$480);
-waterproofing + tile adhesive + miscellaneous ≈45,000 RUB (≈$460);
-finish materials (tile, grout, tub, faucet, sink, miscellaneous)
-≈290,000 RUB (≈$3,000); labor ≈460,000 RUB (≈$4,700). **Total ≈1,138,000
-RUB (≈$11,700)**, rounded by the speaker to ≈1,200,000 RUB (≈$12,300) —
-verified independently against the transcript's own ASR-garbled total via
-a level-4 arithmetic cross-check (the six line items sum exactly to
-1,138,000 RUB). **Genuine economy-tier floor, after de-scoping** (simpler
-rough plumbing, no heated floor, skip waterproofing over cement plaster,
-cheaper finish materials, an optimistic half-price labor assumption):
-**≈600,000 RUB (≈$6,200)** — named directly as the real floor for a
-bare-bones bathroom with materials+labor, below which any advertised
-all-in price is fraud, not a legitimate discount. Converted at the
-trailing-6-month USD/RUB mean before 2025-02-22 (97.1734 RUB/USD).
-`single-account`, one company's own project-based estimate — not an
-independently audited market average, but a real, itemized, internally
-cross-checked figure, distinct in structure from this guide's existing
-per-m² whole-apartment benchmarks. [source: [[_Sources/YT_0CoDufobsEY_sbk_bathroom_lowball_pricing_scam|extraction note]]]
-
-### Live intake heuristic — quick renovation-budget-as-percent-of-purchase-price formula (2021-11-29)
-
-Vladimir Amelchenko (business/premium-segment turnkey renovation, St.
-Petersburg, level 1) offers a fast planning formula, distinct in structure
-from this guide's per-m² and itemized-smeta benchmarks above: for a
-"typical, standard" renovation with **rough/base materials only**, budget
-**≈15% of the apartment's purchase price**; with **finish materials
-included**, budget **≈25%**. **Worked example, cross-checked against a
-per-m² method**: a 1-room, 40m² apartment priced at 5,000,000 RUB
-(≈$68,600) — per-m² method (St. Petersburg 2021 prices: labor ≈10,000
-RUB/m², rough materials averaging ≈10,000 RUB/m² across an 8,000-12,000
-RUB/m² range) gives ≈800,000 RUB (≈$11,000) total; the 15% formula gives
-750,000 RUB (≈$10,300) — within ≈6% of each other, attributed to the
-stated material-price range rather than a contradiction. Stated practical
-floor: a genuinely good-quality 40m² renovation in St. Petersburg at 2021
-prices could not realistically cost less than ≈750,000 RUB (≈$10,300).
-Intended use: apply this formula *at apartment-purchase decision time*
-alongside the purchase price itself, to see the real combined budget
-before committing — if it exceeds available funds, save more first or
-choose a smaller/cheaper apartment rather than discovering the shortfall
-mid-project. Converted at the trailing-6-month USD/RUB mean before
-2021-11-29 (72.8580 RUB/USD). `single-account` heuristic, not an
-independently surveyed market constant. **Also corroborates the
-`0CoDufobsEY` (2025-02-22, above) lowball-pricing warning with a general
-whole-apartment version of the same fraud mechanism**: an unrealistically
-low competing quote (the video's example: ≈200,000 RUB against a real
-≈1,000,000 RUB requirement) typically means roughly half the real
-scope was silently omitted, with the estimate then incrementally revised
-upward mid-project back toward the real market total — worst case, the
-buyer runs out of money before the renovation finishes. [source: [[_Sources/YT_gU9bFxV1rzo_sbk_quick_budget_formula|extraction note]]]
-
+Sixteen dated real-cost benchmarks and worked cases (turnkey market-segment tiers, labour-only
+rate ranges, rough-stage cases, a full itemised bathroom smeta, and the
+budget-as-percent-of-purchase-price heuristic) were accumulating here as subsections. **They now
+live on [[11_Budget_and_Planning/analysis/Cost_Benchmarks_Live_Intake|Cost Benchmarks — Live Intake Ledger]]**,
+where each keeps its own date, currency, region and delivery model. Use them only after settling
+the delivery-model and price-per-m² questions in §2 above.
 ### Tracking Expenses (added 2026-08-19)
 
 **Track expenses through a dedicated running spreadsheet from day one, not retroactively from a pile of receipts.** Five methods exist, ranked worst to best: doing nothing and reconstructing from memory (worst — loses most information); collecting receipts and tallying at the end (misses every cash/no-receipt payment — informal demolition labor, movers, market deliveries — and can't answer "how much so far" mid-project); delegating tracking to the crew/contractor (risky — a direct incentive to pad receipts, and it degrades back into the receipt-pile method at reporting time anyway); a fixed-price rough-materials arrangement with the contractor (creates an incentive for them to buy cheaper materials and pocket the difference — only safe with a highly trusted company backing a long warranty); and a dedicated spreadsheet system, tracked live. **A spreadsheet built around 4 blocks works well**: Primary Expenses (rough/finish materials, electrical, plumbing, windows, doors), Secondary Expenses (appliances, furniture, lighting, accessories — deferrable up to a year post-move-in), Works (contracted total / paid-to-date / remaining), and Balance (cash handed over vs. spent vs. still on hand) — plus a dedicated Payments log where **every payment is tied to a memorable event** ("handed over 200,000 RUB when we came to inspect the tub install") for later dispute-prevention, and an Overrun sheet isolating the exact price delta whenever a planned item gets swapped for a pricier one (e.g. laminate → parquet), so budget overruns are traceable to specific decisions instead of a vague "we're over somewhere" feeling. `single-account`, `unverified` methodology, but a directly actionable practice for this project's own self-managed model. *(secondary reference — see intermediate store)* [source: [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|BMmPLHVmnqw_renovation_b]]]
@@ -617,137 +332,21 @@ Her own preferred arrangement, stated to designers: **charge a proper fee, or a 
 
 [source: [[_Sources/YT_AFBu0Uv-47U_shevrina_bad_designer_kickbacks|YT_AFBu0Uv-47U]]]
 
-## 6. Detailed Case Studies
+## 5d. Design Services, Fees and What a Project Includes — moved to its own page
 
-- [[11_Budget_and_Planning/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).
-- [[11_Budget_and_Planning/case_studies/price_table_screenshot_case|Price Table Screenshot Case]] — **self-managed / labor-only**. Row-level labor смета reconstruction from a real 44 m² Minsk estimate (average market rate per work item), plus a companion rate-card summary.
-- [[11_Budget_and_Planning/case_studies/yana_vrublevskaya_minsk_mir_studio_2023_case|Yana Vrublevskaya Studio Case]] — **self-managed / full end-to-end, the closest structural match to this project's own plan**. A real, itemized self-managed studio renovation (Minsk Mir, region level 2 only, 2023) covering rough works *and* the full finish/fixture/appliance/furniture spend — arithmetic-checked, and a real ~30% overshoot against its own stated budget target.
-- [[11_Budget_and_Planning/case_studies/sidorik_khrushchevka_finale_31m2_2020_case|Sidorik Khrushchevka Finale Case]] — **self-managed / DIY, level-1 Belarus confirmation**. A real, complete, self-executed 31.2 m² renovation (2020) with a directly-spoken "average cost for Belarus" framing and a computable ≈$492–507/m² (`arithmetic-exact`: stated USD totals ÷ stated area) — labor cost is the practitioner's own DIY time valuation, not a hired-specialist rate, so treat as a likely-understated self-managed floor rather than a typical hired-labor self-managed cost.
-- [[11_Budget_and_Planning/case_studies/schedule_analysis_case|Schedule Analysis Case]] — full 24-step turnkey workflow and trade-off tables for sequencing decisions.
-- [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] — companion top-level page for sequencing (general order, and how choices like hidden vs. standard doors change it).
-- [[11_Budget_and_Planning/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya 52 m² Case Study]] — **turnkey**. Full itemized breakdown of a real $70,000 turnkey 52 m² Minsk project (2026, primary Minsk benchmark, second data point alongside Minsk World).
-- [[11_Budget_and_Planning/case_studies/komanda_masterov_7stage_belarus_case|Команда Мастеров 7-Stage Case]] — **turnkey, scoped case study** (generic pricing framework, not one real apartment, but arithmetic-verified). Belarus, 2024, $1,100–$1,749/m² by arithmetic reconstruction.
-- [[11_Budget_and_Planning/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case]] — **turnkey company's own construction-only smeta, scoped case study**. Moscow, 2024, ≈48,375 RUB/m², excludes design + furniture/appliances — not directly comparable to full-realization figures. Strong source of smeta-literacy/anti-upsell methodology.
-- [[11_Budget_and_Planning/case_studies/buro_segment_pricing_2026_case|BURO Segment-Tier Pricing Case]] — **turnkey, highest price tier and broadest category coverage in this store**. St. Petersburg (region level 2 only), 2026, mid/premium/luxury RUB/m² ranges with full category-by-category brand-specification detail (self-promotional — read as this studio's own choices, not neutral market fact). For calibration only, not a target for this project's self-managed plan.
-- **New: [[_Sources/YT_suY0GGTOG9E_kruglov_rough_reno_new_build_case|Kruglov/Ontario Real New-Build Rough-Stage Case (added 2026-08-28)]]** — **turnkey, itemized real object**. A real 59 m² free-plan new-build apartment's rough-stage cost, broken out per category: partitions 92,000 RUB (≈$1,000), plastering 204,000 RUB (≈$2,300), floor soundproofing+screed 83,000 RUB (≈$920), plumbing rough-in 101,000 RUB (≈$1,100), electrical rough-in 183,000 RUB (≈$2,000) — arithmetic-summed total ≈663,000 RUB (≈$7,300, ≈11,240 RUB/m² ≈$120/m²), trailing-6-month USD/RUB mean ending 2024-06-28 (90.6754). This channel's first real-object rough-stage case with both a confirmed area and itemized per-category totals processed in this store (its other cost content is ranges/percentages, not one worked object) — kept separate from the Petrishin-Stroi case series above (different company, different category scope).
-- [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]] — smeta spreadsheet structures (two independent worked templates) and contract-vetting practice, consolidated for the "no template artifact exists" gap.
-- [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration & Scheduling]] — realistic renovation duration, stage-by-stage sequencing dependencies, and named real-world schedule-slip mechanisms from four independent sources.
-- *Planned:* a min/max price distribution case, once a source establishing that range exists (not yet created).
-- RU-language contractor interview (YouTube, secondary reference) — [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|source note]]; budget-tier and labor/material % splits are not directly comparable to the Minsk-primary figures above — see intermediate knowledge store for detail.
+Design-fee benchmarks, what a design project actually contains (and why a render is not one),
+carrying furniture over from an old flat, and design fees as a proportion of budget are now on
+**[[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services — What They Cost, and What They Include]]**.
+Cross-references that previously read "§5b"/"§5c"/"§5d"/"§5e" for that material point there.
 
-## 5b. Design Services — What They Cost, and What Learning To Do It Yourself Costs (Надежда Кузина, added 2026-09-01)
-
-The only design-fee benchmark in this vault so far, and the comparison is more useful than either figure. **Moscow, April 2023**, for a flat **up to 100 m²**. [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
-
-| Route to deciding how the interior looks | Cost (RUB) | USD equiv |
-| :--- | ---: | ---: |
-| Buy everything at a shopping centre | no additional outlay | — |
-| **Hire a designer** | **from 200,000** | **~$3,100** |
-| **Take a design course yourself instead** | **150,000–250,000** *plus a lot of your time* | **~$2,300–$3,800** |
-| Follow her free video recipe | 0 | — |
-
-*USD at the trailing-12-month mean to 2023-04-20, **65.1704 RUB/USD**; rounded to the nearest 100 per the $1,000–$99,999 bucket.*
-
-- **⚠️ The comparison is the durable content: the entry design fee and the cost of learning to do it yourself are the same order of magnitude.** The DIY route is not the cheap one once the course is priced, and it additionally costs time. A real input for the hire-or-not decision.
-- **⚠️ 200,000 RUB is a floor («начинается где-то от»), Moscow-specific, and 2023.** Not a typical price, and not transferable to another city or year without re-resolving — see this guide's standing rule on location-and-year.
-- **A budgeting aside from the same source, worth its own line: on a render, laminate, quartz-vinyl and parquet are near-indistinguishable** — *"внешний вид особо сильно на рендерах не отличается, всё зависит от бюджета."* **The visualisation cannot justify a flooring upgrade.**
-
-## 5c. What a "Design Project" Includes, and Why a Render Is Not One (Надежда Кузина, added 2026-09-01)
-
-Prompted by two of her own clients in recent months insisting they wanted a 3D visualisation specifically, rather than a design project. **The scope ambiguity she is describing is exactly the kind that produces disputes** — see [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]] for the contract side. [source: [[_Sources/YT_H43m5bn7W8k_kuzina_render_is_not_a_design_project|YT_H43m5bn7W8k]]]
-
-**The chain that must precede a render** — and the value here is the chain, which sets what a client should expect to receive and in what order:
-
-1. **Measurements («замеры»).** **⚠️ "Клиентов, которые в состоянии сами снять досконально замеры своей территории, меньшинство."** If skipping the designer, a measurer can be hired for this alone.
-2. **Layout («планировка»).** **⚠️ Approaching a render without a layout is pointless** — to make an image at all you must already know where the sofa stands, **where guests take their shoes off**, what happens in the children's room, the configuration around the cot. Planning decisions, not rendering ones.
-3. **Stylistic direction** — progressively establishing which style, which colours, and **which finishes suit your budget.**
-
-**⚠️ The budget rule, and the load-bearing claim for this page: "мы работаем над проектом не с целью нарисовать визуализацию, а с целью его воплотить."** The consequence — **the cost of implementation must be visible from the very first stages.** From the planning and concept moment the designer must already have a rough figure for furniture, lighting, wallpaper and so on. **A concept developed without that number attached is a concept that may not be buildable.**
-
-**What going direct to a visualiser actually costs you:**
-
-- **You must specify exhaustively yourself** — that sofa, from that company, in that colour, in velvet, its overall dimensions, its height, and its position in the room.
-- **⚠️ And the observation that undercuts the DIY route: even clients certain they can picture their interior change their vision during the process.** Exhaustive up-front specification assumes a stability she says does not hold.
-- **⚠️ Practically no designer gets a usable visualisation on the first pass** — she checked with her own visualiser and with colleagues. Seeing the space in three dimensions surfaces what the planning and concept stages missed. **Going direct, you must make those corrections yourself, and that needs a trained eye. Otherwise the visualiser's first output is also your final one.**
-- **⚠️ Her analogy: a designer is an *interface*, like Windows showing windows and buttons instead of raw binary. A visualiser takes a brief and returns "task completed," and nothing else happens** — no interpretation, no pushback, no iteration unless you drive it. (Many designers do not produce 3D themselves, handing it to 3ds Max specialists.)
-
-**The project does not end at the render:**
-
-- **⚠️ Detailed drawings follow, and they are the actual instructions to builders** — what sequence of actions realises the project. Her worked example: *"вот этот профиль, два слоя гипсокартона по нему, значит вот такая толщина, следовательно вот такой размер."*
-- **⚠️ Drawings sometimes correct the visualisation, and she frames this as normal rather than failure**: dimensions can shift at the drawing stage. **The overall concept and the colours do not change; furniture or room dimensions may.** Useful for setting expectations — **a render is not a contract.**
-
-**⚠️ When a render is genuinely unnecessary — and she argues against her own most saleable deliverable:**
-
-- **Projects without 3D exist**, to save money, or where the client wants specific items from specific shops and visualising is slower and dearer.
-- **⚠️ The honest trade: skip the render and the nuances that would have been polished during the 3D-correction pass surface on site instead.** They do not disappear; **they move to the most expensive place to discover them.**
-- **⚠️ But the legitimate alternative she concedes**: many designers who constantly deliver realisations have a trained enough eye that **a good collage suffices** — flatter and simpler, made and edited by the designer, approved with the client, sent straight to site.
-- Her conclusion: **"сказать, что 3D-визуализация — это непременный атрибут того, что у вас будет происходить на объекте, нельзя."** Pleasant to look at, and **easier to reach agreement with a client on** — but not a precondition for a good outcome on site.
-
-## 5d. Carrying Furniture and Decor Over From the Old Flat — a Budget Tactic With a Design Cost (Надежда Кузина, added 2026-09-01)
-
-Her framing is a budget one: renovation is expensive, so when the work is done and the furniture is not all bought, **the temptation is to move as much as possible from the old flat.** The full decision method is on [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]; what belongs here is the money. [source: [[_Sources/YT_bVmE50y33Ls_kuzina_what_to_bring_from_old_flat|YT_bVmE50y33Ls]]]
-
-- **⚠️ Every item carried across is furniture not purchased — and every wrong one is a design constraint accepted for free.** That is the real trade, and it is rarely priced.
-- **⚠️ The named failure mode is sunk cost**: her live case is two identical Italian pendants that **do not suit the new flat but were a costly purchase.** She calls that grounds for thought, **not a reason.** The money is already spent either way; the only live question is what the object costs the new scheme.
-- **⚠️ The proportionality rule, which is the transferable form: the constraint an object imposes on the plan should be proportional to its value.** Her worked example — a **2,000 RUB (~$30)** reproduction driving where a cabinet goes because the picture fits one pier and not another. Against that, **rare posters or etchings at ~10,000 RUB (~$150) plus framing**, where *"эстетическая ценность больше, чем его денежная стоимость."*
-- **⚠️ Framing («багет») is a separate cost line and is worth spending on**: an ordinary picture in a good frame **reads as more expensive and ties to the interior.** One of the cheaper perceived-value levers in this guide.
-- **The false economy she names**: keeping grandmother's porcelain service that no one will use, that does not suit, that takes space and cannot go in the dishwasher — **to save on a new set of mugs.**
-
-*USD at the trailing-12-month mean to 2020-08-21, **67.8098 RUB/USD**; nearest 10 per the sub-$1,000 bucket. Both figures are her illustrative examples, **not quotes or market observations** — the ~5× ratio between them is the durable content, not the amounts. Moscow, August 2020.*
-
-## 5e. Design Fees as a Proportion, and What "Make It Look Expensive" Advice Actually Costs (Надежда Кузина, added 2026-09-01, Round 5)
-
-### ⚠️ The second design-fee benchmark, on a different basis from the first
-
-**Her three steps, delivered satirically, with a real number in the third**: understand your budget; be sad and consider where to find more; **then take 10–15% of the total and engage a specialist.**
-
-- **⚠️ And the threshold she names: if 10% comes to 20,000 RUB (~$290) and that is too little to find an expert, use a one-off consultation instead.**
-- **⚠️ The arithmetic behind that is itself a data point: a 10% share of 20,000 RUB implies a total project budget of about 200,000 RUB (~$2,900), and she treats that as the level at which a full design engagement is out of reach.** *(The 200,000 is derived from her example, not stated by her.)*
-
-> **⚠️ Read this against §5b, which carries the absolute floor.** That benchmark — Moscow, April 2023, **from 200,000 RUB for a flat up to 100 m²** — and this proportional rule are on different bases, **which is what makes the pair useful.** At a 200,000 RUB total, 10–15% yields 20,000–30,000 RUB, **far below the Moscow absolute floor for a full project** — which is precisely why she redirects that budget to a consultation. **The two are consistent, and together they bracket where a full design engagement starts being purchasable.**
-
-*USD at the `USD/RUB` trailing-12-month mean before 2022-11-24 (**69.3452 RUB/USD**); nearest 10 below $1,000, nearest 100 above.* [source: [[_Sources/YT_Jj96GbK_35w_kuzina_expensive_look_rebuttal|Jj96GbK]]]
-
-### ⚠️ "How to make an interior look more expensive" is mostly a list of spends
-
-**"Ответ на вопрос, как сделать интерьер визуально дороже, очень простой: нужно вложить больше денег."** Her audit of the standard advice — **engineered-stone sills instead of plastic (dearer); taller non-standard doors (dearer); tubular radiators (significantly dearer); many lighting scenarios instead of one chandelier (dearer).** On expensive handles fitted to cheap furniture: the furniture looks better, **but "есть люди, которые покупают Жигули и потом платят за тюнинг — но от этого девятка не становится Мерседесом."**
-
-- **⚠️ On the large-format-art advice specifically — presented in that genre as trivial (paint it yourself, or buy student work for kopecks): "покупатели, которые платят реальные деньги за антиквариат и искусство" are not fools who have simply not heard of Avito.** Finding large-format art that suits an interior and satisfies a client means **knowing which galleries and what they charge in order to stay in budget, scrolling social media, and finding people at exhibitions.** **Her bound: a large-format oil painting will not cost 10,000 RUB (~$140)** — if it did, either the artist's position was exploited or what was bought is not a painting.
-- **"Истории вроде того, что сделали 10 шагов и получи дорогой интерьер — они не работают, это обман."**
-
-### ⚠️ The conditional that makes every cheap-improvement list in this guide usable
-
-**"Как сделать интерьер дороже" presupposes an interior already exists — and what to do depends entirely on its state. "Это как у врача: какое лекарство назначать, смотря в каком состоянии пациент."**
-
-- **⚠️ With a lot of unsuitable, outdated or low-quality furniture, decorator tricks will not help.** Decanting shampoo into nicer bottles and screwing on new handles **while the kitchen carcass is chipboard delaminating from damp.**
-- **⚠️ With a solid base that can be upgraded, the same tricks genuinely work.** Decanting, adding textile, replacing small furniture — **"и все эти приёмы работают."**
-
-> **The tricks are not wrong. They are conditional on the base, and the genre never states the condition. Apply this as a precondition to any cheap-improvement list.**
-
-### ⚠️ The one upgrade that buys a disproportionate amount — and the market reason it is rare
-
-From a separate source, and it is the counterweight to everything above. [source: [[_Sources/YT_vnLZqiYxY1Q_kuzina_mass_market_palette_economics|vnLZqiYxY1Q]]]
-
-**"Хорошая палитра в интерьере — часто вопрос не вкуса, а бюджета и доступа к индивидуальным решениям."**
-
-- **⚠️ The mass market has no middle: between the safe neutral and the marker-bright accent, "часто отсутствует промежуточный сегмент сложных оттенков"** — no warm smoky greys, olives, garnets, wines. **Because complex shades sell badly in a fast-choice format: they produce no instant effect, they do not reveal themselves in a small sample, and on a stand "они выглядят грязными или какими-то пыльными."** A complex palette only works inside a whole interior.
-- **⚠️ Expensive projects therefore look different — but NOT because of taste: "нет такой логики, что чем больше у человека денег, тем лучше он чувствует цвет. Просто у них есть доступ к другим инструментам."** Non-standard sprayed finishes, **testing samples on the object**, complex enamel shades, repainting vintage furniture, reupholstering.
-- **⚠️ AND THE FIGURE: "нестандартный цвет эмали увеличивает стоимость фасада на 10, максимум 20%."** `single-account`, `unverified`, Russian market, 2026.
-- **⚠️ Her conclusion: "люди думают, что дизайнерский интерьер — это обязательно дорого. Хотя иногда разница начинается с того, что один человек выбирал между шестью готовыми фасадами, а другой — между сотней сложных оттенков."** **A choice-set gap before it is a budget gap.**
-
-### Two further cost items from the same round
-
-- **⚠️ Premium kitchen internals are a 2× multiplier**: functional internals let you fit far more into a kitchen of the same size, **"но это может стоить в два раза дороже, чем та же кухня с более простой начинкой"** (Blum named). `single-account`, `unverified`, 2020. [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
-- **⚠️ Declutter before you buy, and do not decorate around a bad purchase.** People buy new things because they have tired of the old — **"если вы устали, сначала расхламитесь; возможно, после этого усталость как рукой снимет, без дополнительных трат."** And where a piece is already known to be wrong, **covering it with a rug, cushions and candles will not work — "в конечном итоге в комнате вас будет раздражать буквально всё." Her exit: "сейчас не так сложно продавать мебель, и не обязательно делать это за полцены."** **This supplies the escape route the sunk-cost material in §5d lacks.** [source: [[_Sources/YT_uRK4OPR4dak_kuzina_decorating_mistakes|uRK4OPR4dak]]]
-
-## 5f. Material Selection by Household Lifestyle, Two Real Client Anecdotes, and a Fixed-Budget Business Practice (Игорь Краснов, added 2026-09-01, Round 5)
+## 5e. Material Selection by Household Lifestyle, Two Real Client Anecdotes, and a Fixed-Budget Business Practice (Игорь Краснов, added 2026-09-01, Round 5)
 
 - **⚠️ Family-with-kids material-selection-by-lifestyle principle**: a family with young children shouldn't use soft, expensive natural-wood parquet flooring (scratches/stains easily from toys and spills) despite its prestige — recommends durable wood-look porcelain tile or vinyl instead. Uses the explicit analogy "wearing a tuxedo to the supermarket" for an impractical premium material choice in a high-wear household context. [source: [[_Sources/YT_u4yj6dD01aE_krasnov_expensive_vs_cheap_renovation|u4yj6dD01aE]]]
 - **⚠️ A real, specific client anecdote — marble-bathroom substitution**: a client insisted on natural marble for a bathroom; the studio pushed back citing marble's porosity/moisture absorption/staining/mould risk in a genuinely wet room, and substituted marble-look porcelain tile instead, achieving a visually similar result with meaningfully better practical durability. `single-account`, client anecdote, not independently verified. [source: [[_Sources/YT_u4yj6dD01aE_krasnov_expensive_vs_cheap_renovation|u4yj6dD01aE]]]
 - **⚠️ Studio's stated fixed-budget-with-~10%-tolerance business practice**: the studio locks a renovation budget with a **10% variance ceiling** once the design is finalized — framed as a specific business-process commitment, tag as his own stated business practice/claim, not an industry standard. Worth reading alongside §5e's Кузина design-fee-as-proportion content above — a different practitioner's stated commercial practice on a related but distinct question (budget variance tolerance vs. design-fee sizing). [source: [[_Sources/YT_iI1mI0agsAo_krasnov_7design_myths|iI1mI0agsAo]]]
 - No priced figures cleared this project's comparability bar from either source — both anecdotes are qualitative, and the 10%-tolerance claim is a business-process commitment rather than a priced figure.
 
-## 5g. Load-Bearing-Wall Removal for Open-Plan Kitchen-Living Conversions — a Generic Structural/Permitting Caution (Игорь Краснов, added 2026-09-01, Round 6)
+## 5f. Load-Bearing-Wall Removal for Open-Plan Kitchen-Living Conversions — a Generic Structural/Permitting Caution (Игорь Краснов, added 2026-09-01, Round 6)
 
 [source: [[_Sources/YT_yg5ul2oeCuM_krasnov_kitchen_living_combo_mistake|yg5ul2oeCuM]]]
 
@@ -755,7 +354,7 @@ From a separate source, and it is the counterweight to everything above. [source
 
 `single-account`, `unverified`.
 
-## 5h. Two Real Cautionary Cases From Krasnov's Own Peterhof Project — Scope-Cutting and Sequencing (Игорь Краснов, added 2026-09-02, Round 7)
+## 5g. Two Real Cautionary Cases From Krasnov's Own Peterhof Project — Scope-Cutting and Sequencing (Игорь Краснов, added 2026-09-02, Round 7)
 
 Real completed project, Krasnov's own studio, not generic advice — both cases below are quoted/paraphrased from the actual client relationship. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
 
@@ -764,7 +363,7 @@ Real completed project, Krasnov's own studio, not generic advice — both cases 
 
 `single-account`, `unverified`.
 
-## 5i. A Wellness Wing as an Aspirational Space Category — Brief Mention (Игорь Краснов, added 2026-09-02, Round 8)
+## 5h. A Wellness Wing as an Aspirational Space Category — Brief Mention (Игорь Краснов, added 2026-09-02, Round 8)
 
 From a celebrity real-estate trivia video otherwise confirmed weak (`fact_yield: 3`) — recorded briefly, tagged explicitly as aspirational/high-end content, NOT standard renovation guidance for this project's own budget. [source: [[_Sources/YT_KgIXLmCShsU_krasnov_worlds_richest_homes|KgIXLmCShsU]]]
 
@@ -772,7 +371,7 @@ A dedicated home wellness/recovery wing (cardio room, dry sauna, steam/massage r
 
 `single-account`, `unverified`.
 
-## 5j. Short-Term-Rental Staging Insight — "Life Scenario" Furnishing (Игорь Краснов, added 2026-09-02, Round 10)
+## 5i. Short-Term-Rental Staging Insight — "Life Scenario" Furnishing (Игорь Краснов, added 2026-09-02, Round 10)
 
 **Brief entry, tagged explicitly as only tangentially relevant to an owner-occupied renovation** — this project's own plan is not a short-term rental, but the mechanism is worth recording for awareness. [source: [[_Sources/YT_a9IZ07lhpeM_krasnov_cozy_home_episode|a9IZ07lhpeM]]]
 
@@ -780,7 +379,7 @@ A dedicated home wellness/recovery wing (cardio room, dry sauna, steam/massage r
 
 `single-account`, `unverified`.
 
-## ⚠️ A Three-Way Allocation Split and a Flat-Price Ratio (FLAT, added 2026-09-02)
+## 5j. ⚠️ A Three-Way Allocation Split and a Flat-Price Ratio (FLAT, added 2026-09-02)
 
 > [!WARNING]
 > **`promotional_ratio: medium`, and the reason is structural rather than tonal: this is a furniture manufacturer arguing that furniture and appliances deserve the largest share of a renovation budget.** His argument for it is real, but the conclusion is the one that benefits him and must be read that way. **Two things offset it: he argues for hiring a designer, which costs the client money before they reach him; and he gives his own trade's version of behaving well by talking a client *out* of veneer and enamel in a children's room.** RU metropolis centre (St Petersburg company), 2026-03. [source: [[_Sources/YT_tfjxUv9g-bI_flat_budget_allocation_formula|tfjxUv9g-bI]]]
@@ -876,3 +475,21 @@ USD equivalents below at the 12-month trailing mean to 2026-03-17, **80.0432 RUB
 - **Two solutions he has outgrown: the entrance shoe area, and the main bathtub arrangement ("не супер актуально, уже отходят").**
 
 **⚠️ And an unexplained inconsistency, recorded rather than smoothed: "три года эксплуатации" for the kitchen against "четыре года" of occupancy.** Possibly the kitchen went in a year after moving in; he does not say.
+
+## 6. Detailed Case Studies
+
+- [[11_Budget_and_Planning/case_studies/minsk_world_60m2_design_cost_case|Minsk World 60 m² Design & Cost Case]] — **turnkey**. Full itemized + category-level breakdown of a real $54,000 turnkey 60 m² project (primary Minsk 2025 benchmark).
+- [[11_Budget_and_Planning/case_studies/price_table_screenshot_case|Price Table Screenshot Case]] — **self-managed / labor-only**. Row-level labor смета reconstruction from a real 44 m² Minsk estimate (average market rate per work item), plus a companion rate-card summary.
+- [[11_Budget_and_Planning/case_studies/yana_vrublevskaya_minsk_mir_studio_2023_case|Yana Vrublevskaya Studio Case]] — **self-managed / full end-to-end, the closest structural match to this project's own plan**. A real, itemized self-managed studio renovation (Minsk Mir, region level 2 only, 2023) covering rough works *and* the full finish/fixture/appliance/furniture spend — arithmetic-checked, and a real ~30% overshoot against its own stated budget target.
+- [[11_Budget_and_Planning/case_studies/sidorik_khrushchevka_finale_31m2_2020_case|Sidorik Khrushchevka Finale Case]] — **self-managed / DIY, level-1 Belarus confirmation**. A real, complete, self-executed 31.2 m² renovation (2020) with a directly-spoken "average cost for Belarus" framing and a computable ≈$492–507/m² (`arithmetic-exact`: stated USD totals ÷ stated area) — labor cost is the practitioner's own DIY time valuation, not a hired-specialist rate, so treat as a likely-understated self-managed floor rather than a typical hired-labor self-managed cost.
+- [[11_Budget_and_Planning/case_studies/schedule_analysis_case|Schedule Analysis Case]] — full 24-step turnkey workflow and trade-off tables for sequencing decisions.
+- [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]] — companion top-level page for sequencing (general order, and how choices like hidden vs. standard doors change it).
+- [[11_Budget_and_Planning/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya 52 m² Case Study]] — **turnkey**. Full itemized breakdown of a real $70,000 turnkey 52 m² Minsk project (2026, primary Minsk benchmark, second data point alongside Minsk World).
+- [[11_Budget_and_Planning/case_studies/komanda_masterov_7stage_belarus_case|Команда Мастеров 7-Stage Case]] — **turnkey, scoped case study** (generic pricing framework, not one real apartment, but arithmetic-verified). Belarus, 2024, $1,100–$1,749/m² by arithmetic reconstruction.
+- [[11_Budget_and_Planning/case_studies/remonthochu_11stage_moscow_smeta_case|РемонтХочу 11-Stage Smeta Case]] — **turnkey company's own construction-only smeta, scoped case study**. Moscow, 2024, ≈48,375 RUB/m², excludes design + furniture/appliances — not directly comparable to full-realization figures. Strong source of smeta-literacy/anti-upsell methodology.
+- [[11_Budget_and_Planning/case_studies/buro_segment_pricing_2026_case|BURO Segment-Tier Pricing Case]] — **turnkey, highest price tier and broadest category coverage in this store**. St. Petersburg (region level 2 only), 2026, mid/premium/luxury RUB/m² ranges with full category-by-category brand-specification detail (self-promotional — read as this studio's own choices, not neutral market fact). For calibration only, not a target for this project's self-managed plan.
+- **New: [[_Sources/YT_suY0GGTOG9E_kruglov_rough_reno_new_build_case|Kruglov/Ontario Real New-Build Rough-Stage Case (added 2026-08-28)]]** — **turnkey, itemized real object**. A real 59 m² free-plan new-build apartment's rough-stage cost, broken out per category: partitions 92,000 RUB (≈$1,000), plastering 204,000 RUB (≈$2,300), floor soundproofing+screed 83,000 RUB (≈$920), plumbing rough-in 101,000 RUB (≈$1,100), electrical rough-in 183,000 RUB (≈$2,000) — arithmetic-summed total ≈663,000 RUB (≈$7,300, ≈11,240 RUB/m² ≈$120/m²), trailing-6-month USD/RUB mean ending 2024-06-28 (90.6754). This channel's first real-object rough-stage case with both a confirmed area and itemized per-category totals processed in this store (its other cost content is ranges/percentages, not one worked object) — kept separate from the Petrishin-Stroi case series above (different company, different category scope).
+- [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]] — smeta spreadsheet structures (two independent worked templates) and contract-vetting practice, consolidated for the "no template artifact exists" gap.
+- [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration & Scheduling]] — realistic renovation duration, stage-by-stage sequencing dependencies, and named real-world schedule-slip mechanisms from four independent sources.
+- *Planned:* a min/max price distribution case, once a source establishing that range exists (not yet created).
+- RU-language contractor interview (YouTube, secondary reference) — [[_Sources/YT_BMmPLHVmnqw_renovation_budgeting_interview|source note]]; budget-tier and labor/material % splits are not directly comparable to the Minsk-primary figures above — see intermediate knowledge store for detail.
