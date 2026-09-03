@@ -2,16 +2,11 @@
 
 Placing and choosing decor: art placement and collecting, vignette layering, mirrors and curtains, plants, scent, and the small-object decisions that compose a room. **Split out on 2026-09-02 under the vault's 300-line page ceiling, verbatim.**
 
-## Mirror Placement and Pendant Glass-Fixture Safety Cautions (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+## How Much Decor, and What Improves Almost Any Room
 
-- **⚠️ Avoid hanging a mirror in a narrow hallway/corridor**: easily struck and broken while carrying furniture, boxes, or other bulky items through — mount the mirror on a door instead (e.g. the entry door) for a placement that avoids this specific carrying-collision risk.
-- **⚠️ Avoid heavy glass-globe pendant light fixtures over a nightstand or bathroom sink specifically**: easily knocked and broken by an arm reaching for a phone at night, and some models are notably heavy — compounding both the breakage risk and the injury risk from a falling fixture.
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
 
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_IXicju8ul1A_kruglov_indestructible_materials|YT_IXicju8ul1A]]]
-
-**⚠️ Never let a full-height mirror panel run through a switch/outlet zone, a real installed mistake (added 2026-08-28, Round 16)**: mounting light switches or outlets directly inside a large mirrored wall panel makes them hard to find by touch at night (no tactile/visual break from the surrounding mirror) and the mirror surface around them smudges with fingerprints noticeably faster than the rest of the panel. **Fix**: stop the mirror short of the switch/outlet zone and cover that section with a plain, matching (non-reflective) panel instead — a small deliberate break in the mirror run, planned before installation rather than accepted as an unavoidable side effect of "mirror everywhere." `single-account`, `unverified`. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
-
-## Fewer Finishes, Less Decor (added 2026-08-31)
+### Fewer Finishes, Less Decor (added 2026-08-31)
 
 - **⚠️ Don't use many finishes** — concrete plus marble plus wood plus slat panels plus backlighting plus fabric wallpaper plus soft panels, all in one small flat. **Settle on two or three materials** (e.g. smooth paint, microcement, wood) and **use рейки as the single decorative device** — which also raises perceived ceiling height — rather than stacking 45°-angled panels, soft oval panels and rattan on top.
 - **⚠️ Drop the compulsion to fill every horizontal surface.** The named pattern: a composition on the low table, more decor on the island, something else on the dining table. **One large fruit bowl on the dining table is enough; a couple of magazines or a tray and one candle on the low table.** Her practical argument: life adds mugs and candles anyway, so buying decor for every surface up front is wasted money.
@@ -23,7 +18,7 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 
 [source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]] [source: [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]]] [source: [[_Sources/YT_A5G04uPvzL0_shevrina_subscriber_critique_midcentury|YT_A5G04uPvzL0]]] [source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]]
 
-## ⚠️ The Empty-Wall Method of the Typical Project — a Reusable Recipe (Надежда Кузина, added 2026-09-01)
+### ⚠️ The Empty-Wall Method of the Typical Project — a Reusable Recipe (Надежда Кузина, added 2026-09-01)
 
 She reverse-engineered why Russian design portfolios converge and gave the recipe away. **Delivered as satire, but she is explicit that it works and produces what designers sell** — which makes it the most directly actionable decor content processed from this channel. Identical for every room; worked through on the wall behind the sofa, which is large, visible, and reads boring in plain cream. [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
 
@@ -33,7 +28,7 @@ She reverse-engineered why Russian design portfolios converge and gave the recip
 - **The TV wall opposite gets exactly the same treatment.** In more expensive projects, **natural stone or large-format marble-effect porcelain** is added there, **veining sparse, grey or golden.**
 - **No wallpaper in the typical project — painted walls only.**
 
-## Decorating Mistakes, and Four Things That Improve Almost Any Room (Надежда Кузина, added 2026-09-01, Round 5)
+### Decorating Mistakes, and Four Things That Improve Almost Any Room (Надежда Кузина, added 2026-09-01, Round 5)
 
 ### ⚠️ Everything matched too well — and the constraint on the fix
 
@@ -71,7 +66,7 @@ From the basic-elements source, and these are the parts of it that are not alrea
 
 **⚠️ Almost all her clients want open shelves in the project, because they decorate beautifully and photograph well — "но никто не хочет" live with them. Everyone wants closed shelves behind doors so the dust need not be wiped.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
 
-## Round 2 — Declutter Discipline, Theme Restraint, Artwork Placement (Игорь Краснов, added 2026-09-01)
+### Round 2 — Declutter Discipline, Theme Restraint, Artwork Placement (Игорь Краснов, added 2026-09-01)
 
 [source: [[_Sources/YT_4UJIa7eVlYo_krasnov_living_room_mistakes|4UJIa7eVlYo]]]
 
@@ -82,26 +77,9 @@ From the basic-elements source, and these are the parts of it that are not alrea
 
 `single-account`, `unverified`.
 
-## Depth-Illusion Art, Plant-Shape-to-Mood Matching, and Acoustic-Softening-as-Cognitive-Load (Игорь Краснов, added 2026-09-02, Round 9)
+## Art, Framing and Collecting
 
-**⚠️ Moderately thin source overall — heavy restatement of already-extensively-logged content (vertical-line psychology, matte-vs-glossy preference, decluttering/visual-breathing-room, personal-history-object authenticity, monochrome-with-accents colour approach — none re-extracted here). Three items are genuinely specific enough to record.** [source: [[_Sources/YT_RyHCyHe1o8I_krasnov_10solutions_home_rest|RyHCyHe1o8I]]]
-
-- **⚠️ Depth-illusion landscape art as a "symbolic window," distinct from and complementary to this page's existing meaning-based art-curation content (Round 9's `Yt3yAPjrLhk`, above — different mechanism: visual depth/perspective illusion here, vs. personal-narrative meaning there)**: art containing strong depth cues (a receding road, open sky, distant horizon) is processed by the brain as an actual spatial extension of the room, not just a flat decorative image. Recommended specifically for rooms lacking real windows/views (a dining room, an interior hallway, a windowless relaxation nook) as a "symbolic window" substitute.
-- **⚠️ Plant-shape-to-mood-zone matching rule, extending this page's existing named-plant-species content above with a shape-based selection principle rather than a species list**: soft, rounded-leaf plants (monstera, ficus) read as calming and are appropriate for bedrooms/rest zones; spiky/architectural plants (cacti, succulents with sharp forms) read as more energetic/"defensive" and should be reserved for active/energetic zones — explicitly states these should NOT be placed in bedrooms or rest zones.
-- **⚠️ Acoustic-softening-as-cognitive-load-reduction framing, distinct from this vault's existing generic "soft materials dampen sound" content**: explicitly frames echo/reverberation as increasing cognitive load (the brain has to reprocess the same reflected sound repeatedly), recommending thick rugs, upholstered furniture, and porous materials specifically to reduce this repeated-processing effect — the cognitive-load framing is the new element; the underlying sound-dampening material choices are already logged elsewhere in this vault.
-
-`single-account`, `unverified`. `corroborates_existing: true` overall — most of this source restates existing content; the three items above are the genuinely mildly-new additions.
-
-## Round 2 — Furniture-Quality Baseline and Scent Placement (Игорь Краснов, added 2026-09-01)
-
-[source: [[_Sources/YT_dHpdI35EWY8_krasnov_5star_hotel_secrets|dHpdI35EWY8]]]
-
-- **⚠️ Furniture-quality-baseline heuristic**: a hotel's supportive high headboard and thick quality mattress-plus-topper is offered as a proxy standard for ALL furniture quality in a home — supportive upholstery, sturdy non-wobbling tables, hardware without play/creak. Distinct from the general "use natural materials" point above — this is about structural/build quality rather than material choice.
-- **Scent-placement nuance**: recommends a candle/diffuser scent specifically for the living room and bedroom, but explicitly advises AGAINST one in the kitchen, since cooking smells already dominate that space. Extends [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]'s brief same-round scent mention with this placement caveat.
-
-`single-account`, `unverified`.
-
-## ⚠️ Wall Art Framing, "Floating Frame" Technique, and a Furniture-Brand Arch Alternative (Игорь Краснов, added 2026-09-01, Round 3)
+### ⚠️ Wall Art Framing, "Floating Frame" Technique, and a Furniture-Brand Arch Alternative (Игорь Краснов, added 2026-09-01, Round 3)
 
 [source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
 
@@ -111,28 +89,7 @@ From the basic-elements source, and these are the parts of it that are not alrea
 
 `single-account`, `unverified`.
 
-## Mirror-Opposite-Window Placement and Curtain Drop-Height Rules (Игорь Краснов, added 2026-09-01, Round 5)
-
-[source: [[_Sources/YT_4ZjCbDRhfNM_krasnov_please_buy_these_6things|4ZjCbDRhfNM]]]
-
-- **⚠️ Mirror-opposite-window placement rule — a specific, new, well-reasoned addition to existing mirror-sizing content**: the single best mirror placement for maximizing perceived space and daylight is directly OPPOSITE a window — doubles the effective daylight reaching the room and visually doubles apparent space; specifically valuable in dark rooms or rooms with persistent dark corners.
-- **⚠️ Curtain drop-height rule, with a style-dependent distinction — extends the puddle-measurement content from Round 3**: minimum curtain drop is **280cm** so fabric falls/drapes properly rather than reading as a short "stump." In CLASSICAL interiors, a small puddle/break on the floor is acceptable/desirable; in MODERN/contemporary styles, curtains should land exactly at floor length with no puddle. Cross-reference [[17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware|Curtain Sizing, Mounting & Hardware]]'s existing ~1-3cm puddle-break figure — this adds the minimum drop height and the classical-vs-modern distinction, not a contradiction.
-
-`single-account`, `unverified`.
-
-## Weathered/Patinated Objects, Personal-Memory Displays, and Full-Room Wallpaper — a Counter-Case (Kirsten Dunst / designer Jane Hallworth, Игорь Краснов's added commentary, added 2026-09-01, Round 6)
-
-[source: [[_Sources/YT_uPtvVVYKjnI_krasnov_kirsten_dunst_critique|uPtvVVYKjnI]]] — real celebrity-home footage; Dunst/Hallworth's own choices attributed to them, Krasnov's added critique attributed separately.
-
-- **Weathered/patinated vintage objects vs. new/glossy objects (Dunst's stated preference)**: intentionally worn/unrestored antique objects (a vintage 1970s Ingo Maurer ship-model lamp, left deliberately unrestored) add authenticity and read as "alive," whereas the SAME object new/glossy would read as fake/reproduction. **Krasnov's own added nuance**: this works only with a FEW distressed pieces in an otherwise clean, well-kept room — an entire room of distressed pieces would read as genuinely neglected, not characterful.
-- **⚠️ Personal-memory-object placement — a concrete first-person Krasnov studio case**: an early client wanted a smooth, minimalist interior with zero personal artifacts, but it emerged the client's father had been a photographer with a large camera collection and family black-and-white photos. The studio assembled the cameras and photos into a dedicated display vitrine; the client thanked them for pushing him to include it. A real-world argument for actively surfacing a client's dormant family/hobby collections rather than defaulting to a sterile look.
-- **⚠️ Full-room wallpaper coverage — a counter-case against this vault's extensive existing "one accent wall only" content, not a contradiction to resolve**: Dunst chose Lake August wallpaper covering an entire room rather than one accent wall, and Krasnov notes it approvingly. Recorded as "full-room wallpaper CAN work when deliberately chosen, per this designer's real choice" — a counterpoint case alongside the many existing accent-wall-only sources, not a universal recommendation.
-- **A critique of over-accessorizing/competing visual accents**: too many bold/eye-catching pieces in one room creates a "visual argument" where none reads as a clear focal point — suggested fix is to remove one or two competing bold pieces rather than adding more.
-- **A simple painted stick hung on a wall** used as a specific example that genuine personal/sentimental objects don't need to be expensive or conventional to work as wall decor.
-
-`single-account` (Krasnov's commentary layer); Dunst/Hallworth content is a real, independently-sourced third-party design case, not Krasnov's own claim.
-
-## ⚠️ Art Placement, Selection, and Collecting-as-Philosophy (Игорь Краснов + Robert Stilin, added 2026-09-01, Round 6)
+### ⚠️ Art Placement, Selection, and Collecting-as-Philosophy (Игорь Краснов + Robert Stilin, added 2026-09-01, Round 6)
 
 This round adds substantial art content from three sources: `HKmpfdo_IBw` (Krasnov's own dedicated art-placement deep-dive), `uPtvVVYKjnI` (Frits Henningsen collectible-chair reference, filed under Furniture instead — see that page), and `haxBpHW8xp8` (Robert Stilin's art-as-structural-element philosophy). **Given how much this vault's art-related content has grown across this page's several existing scattered entries (Round 2's artwork-placement cluster, Round 3's wall-art-framing section, Kuzina's "Pictures" critique, and now this round), a dedicated `Art_Selection_and_Placement.md` analysis page may be warranted** — flagged here rather than split unilaterally, per this vault's don't-force-structure-before-content-exists convention; revisit at the next routing pass if more art-specific sources accumulate.
 
@@ -157,7 +114,41 @@ This round adds substantial art content from three sources: `HKmpfdo_IBw` (Krasn
 
 `single-account` (Krasnov's own commentary); Stilin's own philosophy is an independent, real, named-practitioner source.
 
-## ⚠️ Vignette Layering — a Step-by-Step Room-Composition Method (Игорь Краснов, added 2026-09-02, Round 7)
+## Mirrors, Curtains and Wall Placement
+
+### Mirror Placement and Pendant Glass-Fixture Safety Cautions (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+- **⚠️ Avoid hanging a mirror in a narrow hallway/corridor**: easily struck and broken while carrying furniture, boxes, or other bulky items through — mount the mirror on a door instead (e.g. the entry door) for a placement that avoids this specific carrying-collision risk.
+- **⚠️ Avoid heavy glass-globe pendant light fixtures over a nightstand or bathroom sink specifically**: easily knocked and broken by an arm reaching for a phone at night, and some models are notably heavy — compounding both the breakage risk and the injury risk from a falling fixture.
+
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_IXicju8ul1A_kruglov_indestructible_materials|YT_IXicju8ul1A]]]
+
+**⚠️ Never let a full-height mirror panel run through a switch/outlet zone, a real installed mistake (added 2026-08-28, Round 16)**: mounting light switches or outlets directly inside a large mirrored wall panel makes them hard to find by touch at night (no tactile/visual break from the surrounding mirror) and the mirror surface around them smudges with fingerprints noticeably faster than the rest of the panel. **Fix**: stop the mirror short of the switch/outlet zone and cover that section with a plain, matching (non-reflective) panel instead — a small deliberate break in the mirror run, planned before installation rather than accepted as an unavoidable side effect of "mirror everywhere." `single-account`, `unverified`. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+
+### Mirror-Opposite-Window Placement and Curtain Drop-Height Rules (Игорь Краснов, added 2026-09-01, Round 5)
+
+[source: [[_Sources/YT_4ZjCbDRhfNM_krasnov_please_buy_these_6things|4ZjCbDRhfNM]]]
+
+- **⚠️ Mirror-opposite-window placement rule — a specific, new, well-reasoned addition to existing mirror-sizing content**: the single best mirror placement for maximizing perceived space and daylight is directly OPPOSITE a window — doubles the effective daylight reaching the room and visually doubles apparent space; specifically valuable in dark rooms or rooms with persistent dark corners.
+- **⚠️ Curtain drop-height rule, with a style-dependent distinction — extends the puddle-measurement content from Round 3**: minimum curtain drop is **280cm** so fabric falls/drapes properly rather than reading as a short "stump." In CLASSICAL interiors, a small puddle/break on the floor is acceptable/desirable; in MODERN/contemporary styles, curtains should land exactly at floor length with no puddle. Cross-reference [[17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware|Curtain Sizing, Mounting & Hardware]]'s existing ~1-3cm puddle-break figure — this adds the minimum drop height and the classical-vs-modern distinction, not a contradiction.
+
+`single-account`, `unverified`.
+
+## Objects, Vignettes and Composition Method
+
+### Weathered/Patinated Objects, Personal-Memory Displays, and Full-Room Wallpaper — a Counter-Case (Kirsten Dunst / designer Jane Hallworth, Игорь Краснов's added commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_uPtvVVYKjnI_krasnov_kirsten_dunst_critique|uPtvVVYKjnI]]] — real celebrity-home footage; Dunst/Hallworth's own choices attributed to them, Krasnov's added critique attributed separately.
+
+- **Weathered/patinated vintage objects vs. new/glossy objects (Dunst's stated preference)**: intentionally worn/unrestored antique objects (a vintage 1970s Ingo Maurer ship-model lamp, left deliberately unrestored) add authenticity and read as "alive," whereas the SAME object new/glossy would read as fake/reproduction. **Krasnov's own added nuance**: this works only with a FEW distressed pieces in an otherwise clean, well-kept room — an entire room of distressed pieces would read as genuinely neglected, not characterful.
+- **⚠️ Personal-memory-object placement — a concrete first-person Krasnov studio case**: an early client wanted a smooth, minimalist interior with zero personal artifacts, but it emerged the client's father had been a photographer with a large camera collection and family black-and-white photos. The studio assembled the cameras and photos into a dedicated display vitrine; the client thanked them for pushing him to include it. A real-world argument for actively surfacing a client's dormant family/hobby collections rather than defaulting to a sterile look.
+- **⚠️ Full-room wallpaper coverage — a counter-case against this vault's extensive existing "one accent wall only" content, not a contradiction to resolve**: Dunst chose Lake August wallpaper covering an entire room rather than one accent wall, and Krasnov notes it approvingly. Recorded as "full-room wallpaper CAN work when deliberately chosen, per this designer's real choice" — a counterpoint case alongside the many existing accent-wall-only sources, not a universal recommendation.
+- **A critique of over-accessorizing/competing visual accents**: too many bold/eye-catching pieces in one room creates a "visual argument" where none reads as a clear focal point — suggested fix is to remove one or two competing bold pieces rather than adding more.
+- **A simple painted stick hung on a wall** used as a specific example that genuine personal/sentimental objects don't need to be expensive or conventional to work as wall decor.
+
+`single-account` (Krasnov's commentary layer); Dunst/Hallworth content is a real, independently-sourced third-party design case, not Krasnov's own claim.
+
+### ⚠️ Vignette Layering — a Step-by-Step Room-Composition Method (Игорь Краснов, added 2026-09-02, Round 7)
 
 **The standout content of this round, a genuinely valuable, well-developed, actionable methodology — this vault has extensive content on individual mistakes to avoid but comparatively little on a concrete, positive, step-by-step "how to actually compose a room" method. Give this real prominence rather than folding it into a smaller bullet.** [source: [[_Sources/YT_f--fM_qJLAI_krasnov_good_vs_excellent_interior|f--fM_qJLAI]]]
 
@@ -165,7 +156,7 @@ Treat a room not as one single composition but as a collection of smaller self-c
 
 `single-account`, `unverified`.
 
-## Unusual-Object Selection Methods, Scale Contrast as a Deliberate Accent, and Style-Mixing (Игорь Краснов, added 2026-09-02, Round 7)
+### Unusual-Object Selection Methods, Scale Contrast as a Deliberate Accent, and Style-Mixing (Игорь Краснов, added 2026-09-02, Round 7)
 
 [source: [[_Sources/YT_f--fM_qJLAI_krasnov_good_vs_excellent_interior|f--fM_qJLAI]]]
 
@@ -176,7 +167,7 @@ Treat a room not as one single composition but as a collection of smaller self-c
 
 `single-account`, `unverified`.
 
-## A Glass-Table Refinement, Casually-Arranged Decor, and a "Disappearing Table" Material List (Игорь Краснов / Dakota Johnson, added 2026-09-02, Round 7)
+### A Glass-Table Refinement, Casually-Arranged Decor, and a "Disappearing Table" Material List (Игорь Краснов / Dakota Johnson, added 2026-09-02, Round 7)
 
 Real celebrity-home critique format — Dakota Johnson's own home, her own stated preferences kept distinct from Krasnov's added critique. [source: [[_Sources/YT_lFySLwtUKW4_krasnov_dakota_johnson_home|lFySLwtUKW4]]]
 
@@ -187,7 +178,28 @@ Real celebrity-home critique format — Dakota Johnson's own home, her own state
 
 `single-account` (Krasnov's own commentary); Johnson's own stated words/home kept as an independent, real, named layer.
 
-## ⚠️ Scent/Aroma as a Design Tool — a New Sensory Dimension (Игорь Краснов, added 2026-09-02, Round 10)
+## The Sensory Layer — Plants, Scent and Acoustics
+
+### Depth-Illusion Art, Plant-Shape-to-Mood Matching, and Acoustic-Softening-as-Cognitive-Load (Игорь Краснов, added 2026-09-02, Round 9)
+
+**⚠️ Moderately thin source overall — heavy restatement of already-extensively-logged content (vertical-line psychology, matte-vs-glossy preference, decluttering/visual-breathing-room, personal-history-object authenticity, monochrome-with-accents colour approach — none re-extracted here). Three items are genuinely specific enough to record.** [source: [[_Sources/YT_RyHCyHe1o8I_krasnov_10solutions_home_rest|RyHCyHe1o8I]]]
+
+- **⚠️ Depth-illusion landscape art as a "symbolic window," distinct from and complementary to this page's existing meaning-based art-curation content (Round 9's `Yt3yAPjrLhk`, above — different mechanism: visual depth/perspective illusion here, vs. personal-narrative meaning there)**: art containing strong depth cues (a receding road, open sky, distant horizon) is processed by the brain as an actual spatial extension of the room, not just a flat decorative image. Recommended specifically for rooms lacking real windows/views (a dining room, an interior hallway, a windowless relaxation nook) as a "symbolic window" substitute.
+- **⚠️ Plant-shape-to-mood-zone matching rule, extending this page's existing named-plant-species content above with a shape-based selection principle rather than a species list**: soft, rounded-leaf plants (monstera, ficus) read as calming and are appropriate for bedrooms/rest zones; spiky/architectural plants (cacti, succulents with sharp forms) read as more energetic/"defensive" and should be reserved for active/energetic zones — explicitly states these should NOT be placed in bedrooms or rest zones.
+- **⚠️ Acoustic-softening-as-cognitive-load-reduction framing, distinct from this vault's existing generic "soft materials dampen sound" content**: explicitly frames echo/reverberation as increasing cognitive load (the brain has to reprocess the same reflected sound repeatedly), recommending thick rugs, upholstered furniture, and porous materials specifically to reduce this repeated-processing effect — the cognitive-load framing is the new element; the underlying sound-dampening material choices are already logged elsewhere in this vault.
+
+`single-account`, `unverified`. `corroborates_existing: true` overall — most of this source restates existing content; the three items above are the genuinely mildly-new additions.
+
+### Round 2 — Furniture-Quality Baseline and Scent Placement (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_dHpdI35EWY8_krasnov_5star_hotel_secrets|dHpdI35EWY8]]]
+
+- **⚠️ Furniture-quality-baseline heuristic**: a hotel's supportive high headboard and thick quality mattress-plus-topper is offered as a proxy standard for ALL furniture quality in a home — supportive upholstery, sturdy non-wobbling tables, hardware without play/creak. Distinct from the general "use natural materials" point above — this is about structural/build quality rather than material choice.
+- **Scent-placement nuance**: recommends a candle/diffuser scent specifically for the living room and bedroom, but explicitly advises AGAINST one in the kitchen, since cooking smells already dominate that space. Extends [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]'s brief same-round scent mention with this placement caveat.
+
+`single-account`, `unverified`.
+
+### ⚠️ Scent/Aroma as a Design Tool — a New Sensory Dimension (Игорь Краснов, added 2026-09-02, Round 10)
 
 **Thin-moderate source overall — heavily restates Round 9's `RyHCyHe1o8I` (natural-vs-synthetic materials, organic shapes, nature-inspired color psychology, warm-vs-cool light temperature, texture-adds-life, furniture grouping, light/shadow contrast — not re-extracted here). One genuinely new sensory dimension not covered by any prior source in this vault.** [source: [[_Sources/YT_pzz1RMZnLIo_krasnov_8techniques_cozy_psychology|pzz1RMZnLIo]]]
 

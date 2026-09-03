@@ -2,7 +2,11 @@
 
 Covers open/tiled shelving, utility columns, above-washer storage, cabinetry material, and purely-aesthetic "flourish" upgrades. Part of [[07_Bathroom/Bathroom_Guide|Bathroom Guide]].
 
-## Shelving and Storage
+## Shelving — Material, Fixing and Proportion
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### Shelving and Storage
 
 Konstantin Kruglov / Ontario supports the mapped direct-source claims; legacy archive-only claims lack a confirmed channel.
 
@@ -20,7 +24,7 @@ Konstantin Kruglov / Ontario supports the mapped direct-source claims; legacy ar
 - **⚠️ Exposed floor-standing vanity legs are a real, recurring injury hazard** — repeated finger injuries (including at least one fracture) from stubbing against exposed cabinet legs are cited directly. Favor a wall-hung (floating) vanity cabinet instead — described as handling any realistic real-world load, with the added benefit of being easier to clean around (no legs to clean under/around). Weigh against the siphon-access tradeoff immediately above before deciding. `single-account`, `unverified`. [source: [[_Sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
 - **⚠️ A tiled/mosaic countertop surface accumulates dirt at every grout seam and is effectively impossible to keep clean** — cement-grouted seams in this location can also grow mold over time. General rule: any horizontal tiled surface (countertop included) should minimize the number of seams it has. `single-account`, `unverified`. [source: [[_Sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
 
-## Tiled Shelves vs. Ready-Made Stainless Steel — a Middle Option (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
+### Tiled Shelves vs. Ready-Made Stainless Steel — a Middle Option (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
 
 Complementing this page's existing tiled-shelf-cost and hidden-metal-
 shelf content above: ready-made stainless-steel shelf units, available
@@ -36,7 +40,24 @@ the room is the overrated part. `single-account`, `unverified`. [source: [[_Sour
 
 **⚠️ Genuine stainless steel required for wet-zone use, not just any "metal" shelf unit (Round 14 triage, added 2026-08-28)**: two visually-identical metal shelving product lines are commonly sold on marketplaces — one made of plain steel (cheaper), one of genuine stainless steel (more expensive). In a wet zone specifically, the plain-steel version will rust, especially at welds/joints, **even with a quality powder-coat or primer finish** — the coating doesn't reliably prevent this. Only genuine stainless steel is safe to use in a bathroom's wet zone; either type is fine in a dry storage room or walk-in closet. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_IXicju8ul1A_kruglov_indestructible_materials|YT_IXicju8ul1A]]]
 
-## Small Accessories — "50 Storage Ideas" Catalog (added 2026-08-28, Round 13 triage)
+### Concealed Shelf Fixings and Ceramic-Clad Fronts (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+- **⚠️ Shelves with no visible fixings — and no separate fixings at all.** An acrylic or metal plate whose edges are set into the joints between porcelain courses and clamped there, so it appears to run wall to wall. She reports it carries real load (bottles, shampoos) precisely because it is clamped rather than bracketed. **Stated secondary benefit: more hygienic**, since there are no extra joints or brackets for dirt and mould to collect in. Their studio position is that all fixings in a contemporary renovation should be concealed.
+- **⚠️ Cabinet fronts clad in thin large-format ceramic, so wall and cabinet carry one continuous stone pattern.** The usual workaround where a tiled bathroom also has a cabinet is laminated chipboard or enamelled MDF matched to the tile *colour* — which cannot reproduce the stone *figure*. **Thin large-format ceramic is available down to 6 mm and is light enough for a joinery shop to fix to a front**, whereas ordinary porcelain is too heavy. Her example application is a unit over the WC installation.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
+
+### Shelf Proportion — a Specific Corrective (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**⚠️ For open shelving that reads too wide: add a central vertical divider and make it thick — about 2 cm — to assert the vertical, then reduce the number of horizontal divisions and make them thinner** (metal, for instance) so they recede. Function is unchanged; the piece stops reading as a grid of horizontals.
+
+The same page's existing concealed-fixing technique (an acrylic or metal plate clamped between tile courses) is her preferred execution where a shelf can be built into the tiling rather than added to it.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
+
+## Where Storage Actually Goes, and What Forecloses It
+
+### Small Accessories — "50 Storage Ideas" Catalog (added 2026-08-28, Round 13 triage)
 
 Konstantin Kruglov / Ontario, from a general apartment-wide storage
 catalog (not bathroom-specific), Round 13 triage batch 1: off-the-shelf
@@ -51,48 +72,7 @@ directly to tile, from cheap plastic to pricier styled metal; a
 wall-mounted bracket to hang a mop vertically. `single-account`,
 `unverified`. [source: [[_Sources/YT_qt5mQQ6W6Z4_kruglov_storage_50_ideas|YT_qt5mQQ6W6Z4]]]
 
-## Utility Furniture: Pull-Out Columns and Clearance Rules
-
-- **A pull-out (slide-out drawer-style) furniture column is a better solution than a fixed shelf unit for a deep, narrow utility space** (e.g. leftover alcove space — see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] — or a gap created by a mandatory 3-sided tile-over-tub-rim rule) — it gives comfortable access to the entire depth rather than forcing you to unload items just to reach the back. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
-- **Build a solid back panel into this kind of column — don't leave it open-through.** A kitchen pass-through cabinet is deliberately accessible from both ends, but a bathroom utility column only ever needs access from the room side — the far end sits permanently against a wall. An open-through design just means items get pushed through to the inaccessible far side while reaching in with wet or soapy hands. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
-- **Leave at least 30mm of clearance between a pull-out unit's carcass and the wall/tile plane it sits flush against**, even when a fully flush look is requested. Door and window casings/trim (commonly ~1cm thick) protrude past the wall plane; a cabinetmaker who doesn't account for this produces a drawer or door that physically stops opening partway once a nearby door is installed. Confirm this clearance is specified before cabinetry is built, not after. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
-
-## Above-Washer Storage: Leave a Reachable Gap, Not Just a Deep Cabinet
-
-The space above a washing machine is easy to under-use (often just a couple of towel hooks) or over-build as one uniform deep cabinet. **Split it deliberately**: the deep upper section (commonly ~60cm deep) is really only practical for long-term storage, since reaching its back requires a step stool — but **always leave a separate, easily-reachable open shelf or small gap directly above the machine itself**, sized for items used routinely (detergent, etc.) that would be awkward to fetch from deep inside an enclosed cabinet. Skipping this dedicated reachable gap in favor of one uniform deep cabinet is a common, easily-avoided planning miss.
-
-## Furniture Material
-
-- Cabinetry material/finish, ranked cheapest to priciest: **LDSP (chipboard) → film-wrapped MDF → plastic-faced MDF → enamel-finished MDF**.
-- **Metal-leg/plinth construction preferred over ordinary exposed legs, new mechanism (added 2026-08-28, Round 5)**: a cabinet base built with a metal leg/plinth structure that physically separates the wood-based carcass (MDF/LDSP) from the wet floor zone is meaningfully more durable/long-lived than a cabinet standing on four ordinary exposed legs — the metal element acts as a moisture barrier between the wood body and the floor, not just a stability/support function. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_kxr8zFvUTj8_kruglov_pinterest_bathroom_breakdown|YT_kxr8zFvUTj8]]]
-- Avoid natural wood veneer/solid wood in a wet bathroom environment.
-- **Edge-banding quality is the real failure point** — damage to the banding or its protective coating lets moisture in and causes rapid furniture failure. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair_c4619c2b]]]
-- **Use only laminated/enameled, moisture-resistant panel material for a moisture-adjacent access panel** — never plain particleboard (ЛДСП), which reportedly swells within about a week of moisture exposure. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair_c4619c2b]]]
-
-## "Flourishes" — Explicitly Non-Essential Upgrades
-
-The source itself frames these as aesthetic extras, not functional necessities — included here with that framing intact, not as recommendations:
-- Tile-cut flush-cistern buttons, light-switch covers, pop-out hooks, rounded-corner hatches — custom tile fabrication, expensive labor, purely aesthetic.
-- Tile-fabricated sinks, or even a tile-fabricated tub/faucet — the source calls a tiled tub "impractical" but "the pinnacle of a tile-setter's craft."
-- An exposed/open decorative manifold-node display (with accent lighting, sometimes behind frosted glass) as a design statement — "showing off, but tastefully," per the source's own framing.
-- **⚠️ Over-concealment caution, a related but distinct point (this isn't framed as aesthetic-extra by its own source, but as an actual usability caution) — two examples**: (1) a flush, tile-embedded hook looks sleek but is genuinely harder for a guest to identify/use than an ordinary visible hook that reads clearly as a hook at a glance; (2) a fully concealed access hatch/panel used to store toilet paper is disorienting for a guest unfamiliar with the room's hidden logic. Prefer an open niche or an obviously visible storage solution over hiding routine-use storage behind an unmarked panel. `single-account`, `unverified`. [source: [[_Sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
-
-## Concealed Shelf Fixings and Ceramic-Clad Fronts (Мария Шеврина / SMBUREAU, added 2026-08-30)
-
-- **⚠️ Shelves with no visible fixings — and no separate fixings at all.** An acrylic or metal plate whose edges are set into the joints between porcelain courses and clamped there, so it appears to run wall to wall. She reports it carries real load (bottles, shampoos) precisely because it is clamped rather than bracketed. **Stated secondary benefit: more hygienic**, since there are no extra joints or brackets for dirt and mould to collect in. Their studio position is that all fixings in a contemporary renovation should be concealed.
-- **⚠️ Cabinet fronts clad in thin large-format ceramic, so wall and cabinet carry one continuous stone pattern.** The usual workaround where a tiled bathroom also has a cabinet is laminated chipboard or enamelled MDF matched to the tile *colour* — which cannot reproduce the stone *figure*. **Thin large-format ceramic is available down to 6 mm and is light enough for a joinery shop to fix to a front**, whereas ordinary porcelain is too heavy. Her example application is a unit over the WC installation.
-
-`single-account`, `unverified`. [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
-
-## Shelf Proportion — a Specific Corrective (Мария Шеврина / SMBUREAU, added 2026-08-30)
-
-**⚠️ For open shelving that reads too wide: add a central vertical divider and make it thick — about 2 cm — to assert the vertical, then reduce the number of horizontal divisions and make them thinner** (metal, for instance) so they recede. Function is unchanged; the piece stops reading as a grid of horizontals.
-
-The same page's existing concealed-fixing technique (an acrylic or metal plate clamped between tile courses) is her preferred execution where a shelf can be built into the tiling rather than added to it.
-
-`single-account`, `unverified`. [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
-
-## Hide What Irritates You, and Place Shelves by Sightline (added 2026-08-31)
+### Hide What Irritates You, and Place Shelves by Sightline (added 2026-08-31)
 
 - **⚠️ A narrow vertical niche cabinet with the toilet brush mounted to the inside of the door**; the **paper holder likewise**, with a perforation in the front for the paper end to emerge.
 - **⚠️ To recess a paper holder into the wall you need a genuinely thick wall — and she gives a real method for checking**: go and measure how much depth your paper plus holder actually occupies, and **add that to the wall thickness**, since it must not pass through to the other side.
@@ -100,8 +80,67 @@ The same page's existing concealed-fixing technique (an acrylic or metal plate c
 
 [source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]]
 
+### ⚠️ Bathroom Storage — Where It Actually Goes, and What Forecloses It (Татьяна Михайловская, added 2026-09-01)
 
-## Natural Wood in a Wet Room — Species, Deformation, and Why Oil Beats Lacquer (Надежда Кузина, added 2026-08-31)
+> **"Можно супер круто расположить сантехнику, офигенно круто выбрать смесители, но не предусмотреть место для хранения — и это всегда будет провально."** [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+
+- **Use the space under the basin to the maximum, especially in a flat.**
+- **⚠️ But the basin type decides how much of it is real.** With an **inset basin** the bowl's inset portion and the trap occupy the cabinet, **so a full-width drawer drawn beneath it cannot exist.** A **vessel basin** leaves only the trap inside, **so there is materially more usable storage.** **Plan drawer positions around the chosen basin** — she demonstrates the failure on a real rendering.
+- **⚠️ Above the installation: by default always a cupboard, or the boiler — push the installation out to 400 mm to create it.** Washing powder, toilet paper, jars.
+- **⚠️ Storage behind the mirror is mandatory where storage is short.** She concedes a decorative backlit mirror is prettier — *"но если нет других вариантов, обязательно делаем место хранения за зеркалом."*
+- **In showers: built-in niches where the layout permits, otherwise surface-mounted shelves — decided at planning stage, not later.** *(And note from [[07_Bathroom/analysis/Planning_and_Layout|Planning & Layout]]: a shower pushed tight to the walls makes built-in niches impossible, which is a consequence of the layout rather than an accident.)*
+- **⚠️ A reach check she applies out loud: a cupboard running from 800 up to 1600–1700 is beyond a short person's reach** — only something at the very edge is retrievable.
+- **⚠️ Storage must be analysed BY OBJECT** — mop, buckets, basins, washing powder, shampoos — **and where nothing fits, the answer may be a section of a wardrobe elsewhere in the flat.** [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
+
+> **⚠️ Her explicit ranking, which is the point of the section: "пусть мы жертвуем красотой визуализации в Инстаграме, но человек будет доволен, и этот дизайн будет сделан правильно."**
+
+### Storage Relocated Entirely Outside the Bathroom — a Real Small-Bathroom Case (owner Tracy Underwood's real NYC co-op, Krasnov's commentary, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
+
+Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part of the apartment, leaving only functional fixtures plus a few small hidden shelves inside — extends this page's existing "storage must be analysed by object, and where nothing fits the answer may be a section of a wardrobe elsewhere in the flat" principle (Михайловская, above) with a concrete real-project applied case for a genuinely small bathroom.
+
+`single-account`, `unverified`.
+
+### Hidden Toiletry Storage and a "Labels Are Visual Noise" Framing (Игорь Краснов, added 2026-09-02, Round 7)
+
+- **Hidden toiletry storage inside a vanity**, from Krasnov's own real Peterhof project, framed around a real stated household need (keeping personal-care products, "тюбики," out of sight) — restates this page's existing hidden-storage content but as a concrete applied case. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+- **⚠️ "Labels are the visual noise" framing, a specific reinforcement of existing hidden-storage content**: hidden/closed storage for toiletries strongly preferred over open shelving specifically because branded/labeled bottles visible on a shelf disrupt visual composition — a useful "labels are the visual noise" framing for WHY hidden storage matters, not just that it's preferred. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
+
+`single-account`, `unverified`.
+
+## Vanities, Pull-Out Columns and Clearances
+
+### Utility Furniture: Pull-Out Columns and Clearance Rules
+
+- **A pull-out (slide-out drawer-style) furniture column is a better solution than a fixed shelf unit for a deep, narrow utility space** (e.g. leftover alcove space — see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] — or a gap created by a mandatory 3-sided tile-over-tub-rim rule) — it gives comfortable access to the entire depth rather than forcing you to unload items just to reach the back. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
+- **Build a solid back panel into this kind of column — don't leave it open-through.** A kitchen pass-through cabinet is deliberately accessible from both ends, but a bathroom utility column only ever needs access from the room side — the far end sits permanently against a wall. An open-through design just means items get pushed through to the inaccessible far side while reaching in with wet or soapy hands. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
+- **Leave at least 30mm of clearance between a pull-out unit's carcass and the wall/tile plane it sits flush against**, even when a fully flush look is requested. Door and window casings/trim (commonly ~1cm thick) protrude past the wall plane; a cabinetmaker who doesn't account for this produces a drawer or door that physically stops opening partway once a nearby door is installed. Confirm this clearance is specified before cabinetry is built, not after. [source: [[_Archive/processed_sources/20260731_zems_b160_lifehacks_6b617f42.txt|zems_b160_lifehacks_6b617f42]]]
+
+### Above-Washer Storage: Leave a Reachable Gap, Not Just a Deep Cabinet
+
+The space above a washing machine is easy to under-use (often just a couple of towel hooks) or over-build as one uniform deep cabinet. **Split it deliberately**: the deep upper section (commonly ~60cm deep) is really only practical for long-term storage, since reaching its back requires a step stool — but **always leave a separate, easily-reachable open shelf or small gap directly above the machine itself**, sized for items used routinely (detergent, etc.) that would be awkward to fetch from deep inside an enclosed cabinet. Skipping this dedicated reachable gap in favor of one uniform deep cabinet is a common, easily-avoided planning miss.
+
+### Planted Niche Conceals Plumbing, and a Floating Vanity's Underside Lighting (Игорь Краснов, real projects, added 2026-09-02, Round 8)
+
+Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
+
+- **⚠️ A tiny (~4m²) guest-room ensuite bathroom made to feel larger via a specific bundle of techniques, worth recording together, genuinely new**: a decorative lit niche (~20cm deep) behind the toilet with stabilized (preserved) plants and a rock-pebble base, explicitly used to CONCEAL technical plumbing elements behind an "art installation" rather than leaving them visible, with a glass cover panel protecting the niche from dust/moisture. An elongated vertical mirror with an intentionally ASYMMETRIC bottom edge, continuing the rhythm of adjacent wall panels, backlit so it appears to glow from within. A floating vanity cabinet with underside lighting reducing visual clutter/heaviness; wall-hung toilet, same floor-lightening logic. [source: XU7YAfZ9xuM]
+- **Hidden/integrated lighting behind a floating vanity in the kids' bathroom** — a second applied case of underside-vanity-lighting, cross-reference. [source: uPNKwSkxtKg]
+
+`single-account`, `unverified`.
+
+## Furniture Material — and Natural Wood in a Wet Room
+
+### Furniture Material
+
+- Cabinetry material/finish, ranked cheapest to priciest: **LDSP (chipboard) → film-wrapped MDF → plastic-faced MDF → enamel-finished MDF**.
+- **Metal-leg/plinth construction preferred over ordinary exposed legs, new mechanism (added 2026-08-28, Round 5)**: a cabinet base built with a metal leg/plinth structure that physically separates the wood-based carcass (MDF/LDSP) from the wet floor zone is meaningfully more durable/long-lived than a cabinet standing on four ordinary exposed legs — the metal element acts as a moisture barrier between the wood body and the floor, not just a stability/support function. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_kxr8zFvUTj8_kruglov_pinterest_bathroom_breakdown|YT_kxr8zFvUTj8]]]
+- Avoid natural wood veneer/solid wood in a wet bathroom environment.
+- **Edge-banding quality is the real failure point** — damage to the banding or its protective coating lets moisture in and causes rapid furniture failure. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair_c4619c2b]]]
+- **Use only laminated/enameled, moisture-resistant panel material for a moisture-adjacent access panel** — never plain particleboard (ЛДСП), which reportedly swells within about a week of moisture exposure. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair_c4619c2b]]]
+
+### Natural Wood in a Wet Room — Species, Deformation, and Why Oil Beats Lacquer (Надежда Кузина, added 2026-08-31)
 
 **This vault's first source on wood in a bathroom.** A 12.5-minute material explainer framed sceptically rather than aspirationally — "всегда есть страх, что всё это очень быстро сгниёт... давайте разбираться, что из этого просто красивая картинка, а что имеет связь с реальностью." She rejects several popular applications outright. [source: [[_Sources/YT_B7G_oKHEjkc_kuzina_natural_wood_in_bathroom|YT_B7G_oKHEjkc]]]
 
@@ -151,40 +190,12 @@ The same page's existing concealed-fixing technique (an acrylic or metal plate c
 - **⚠️ Barn board («амбарная доска») — a specific caution.** Reclaimed and deliberately barely processed, or it loses its charm — **but often so warped that even a purpose-cut recess for the basin base does not save it.** It crumbles, and carries deep cracks and holes where moisture, dust and dirt collect **and cannot be cleaned out.** Her principle: **"если вы покупаете предмет с историей, то вы покупаете и всё, что к этой истории прилагается."** Two clean alternatives: a flat surface with no patina, or **an imitated aged look**, where the cracks are shallower, freshly coated, and maintainable.
 - **⚠️ Small wooden items tolerate humidity considerably better than large ones.** Mirror frames, ladders, stools, short shelves keep their appearance well. Care is the same as a worktop — wipe them, and **do not let them stand in a puddle.**
 
-## ⚠️ Bathroom Storage — Where It Actually Goes, and What Forecloses It (Татьяна Михайловская, added 2026-09-01)
+## Non-Essential Flourishes
 
-> **"Можно супер круто расположить сантехнику, офигенно круто выбрать смесители, но не предусмотреть место для хранения — и это всегда будет провально."** [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
+### "Flourishes" — Explicitly Non-Essential Upgrades
 
-- **Use the space under the basin to the maximum, especially in a flat.**
-- **⚠️ But the basin type decides how much of it is real.** With an **inset basin** the bowl's inset portion and the trap occupy the cabinet, **so a full-width drawer drawn beneath it cannot exist.** A **vessel basin** leaves only the trap inside, **so there is materially more usable storage.** **Plan drawer positions around the chosen basin** — she demonstrates the failure on a real rendering.
-- **⚠️ Above the installation: by default always a cupboard, or the boiler — push the installation out to 400 mm to create it.** Washing powder, toilet paper, jars.
-- **⚠️ Storage behind the mirror is mandatory where storage is short.** She concedes a decorative backlit mirror is prettier — *"но если нет других вариантов, обязательно делаем место хранения за зеркалом."*
-- **In showers: built-in niches where the layout permits, otherwise surface-mounted shelves — decided at planning stage, not later.** *(And note from [[07_Bathroom/analysis/Planning_and_Layout|Planning & Layout]]: a shower pushed tight to the walls makes built-in niches impossible, which is a consequence of the layout rather than an accident.)*
-- **⚠️ A reach check she applies out loud: a cupboard running from 800 up to 1600–1700 is beyond a short person's reach** — only something at the very edge is retrievable.
-- **⚠️ Storage must be analysed BY OBJECT** — mop, buckets, basins, washing powder, shampoos — **and where nothing fits, the answer may be a section of a wardrobe elsewhere in the flat.** [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
-
-> **⚠️ Her explicit ranking, which is the point of the section: "пусть мы жертвуем красотой визуализации в Инстаграме, но человек будет доволен, и этот дизайн будет сделан правильно."**
-
-## Storage Relocated Entirely Outside the Bathroom — a Real Small-Bathroom Case (owner Tracy Underwood's real NYC co-op, Krasnov's commentary, added 2026-09-01, Round 6)
-
-[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
-
-Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part of the apartment, leaving only functional fixtures plus a few small hidden shelves inside — extends this page's existing "storage must be analysed by object, and where nothing fits the answer may be a section of a wardrobe elsewhere in the flat" principle (Михайловская, above) with a concrete real-project applied case for a genuinely small bathroom.
-
-`single-account`, `unverified`.
-
-## Hidden Toiletry Storage and a "Labels Are Visual Noise" Framing (Игорь Краснов, added 2026-09-02, Round 7)
-
-- **Hidden toiletry storage inside a vanity**, from Krasnov's own real Peterhof project, framed around a real stated household need (keeping personal-care products, "тюбики," out of sight) — restates this page's existing hidden-storage content but as a concrete applied case. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
-- **⚠️ "Labels are the visual noise" framing, a specific reinforcement of existing hidden-storage content**: hidden/closed storage for toiletries strongly preferred over open shelving specifically because branded/labeled bottles visible on a shelf disrupt visual composition — a useful "labels are the visual noise" framing for WHY hidden storage matters, not just that it's preferred. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
-
-`single-account`, `unverified`.
-
-## Planted Niche Conceals Plumbing, and a Floating Vanity's Underside Lighting (Игорь Краснов, real projects, added 2026-09-02, Round 8)
-
-Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
-
-- **⚠️ A tiny (~4m²) guest-room ensuite bathroom made to feel larger via a specific bundle of techniques, worth recording together, genuinely new**: a decorative lit niche (~20cm deep) behind the toilet with stabilized (preserved) plants and a rock-pebble base, explicitly used to CONCEAL technical plumbing elements behind an "art installation" rather than leaving them visible, with a glass cover panel protecting the niche from dust/moisture. An elongated vertical mirror with an intentionally ASYMMETRIC bottom edge, continuing the rhythm of adjacent wall panels, backlit so it appears to glow from within. A floating vanity cabinet with underside lighting reducing visual clutter/heaviness; wall-hung toilet, same floor-lightening logic. [source: XU7YAfZ9xuM]
-- **Hidden/integrated lighting behind a floating vanity in the kids' bathroom** — a second applied case of underside-vanity-lighting, cross-reference. [source: uPNKwSkxtKg]
-
-`single-account`, `unverified`.
+The source itself frames these as aesthetic extras, not functional necessities — included here with that framing intact, not as recommendations:
+- Tile-cut flush-cistern buttons, light-switch covers, pop-out hooks, rounded-corner hatches — custom tile fabrication, expensive labor, purely aesthetic.
+- Tile-fabricated sinks, or even a tile-fabricated tub/faucet — the source calls a tiled tub "impractical" but "the pinnacle of a tile-setter's craft."
+- An exposed/open decorative manifold-node display (with accent lighting, sometimes behind frosted glass) as a design statement — "showing off, but tastefully," per the source's own framing.
+- **⚠️ Over-concealment caution, a related but distinct point (this isn't framed as aesthetic-extra by its own source, but as an actual usability caution) — two examples**: (1) a flush, tile-embedded hook looks sleek but is genuinely harder for a guest to identify/use than an ordinary visible hook that reads clearly as a hook at a glance; (2) a fully concealed access hatch/panel used to store toilet paper is disorienting for a guest unfamiliar with the room's hidden logic. Prefer an open niche or an obviously visible storage solution over hiding routine-use storage behind an unmarked panel. `single-account`, `unverified`. [source: [[_Sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]

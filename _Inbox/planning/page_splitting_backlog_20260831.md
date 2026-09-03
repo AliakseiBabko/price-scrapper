@@ -493,3 +493,81 @@ instruction. `tools/check_page_sizes.py` exits 0: **no breaches, 31 advisory war
 early-warning band working as designed rather than a backlog. One of the 31 is `Lighting_Design.md`
 itself at 268 lines — it warns now only because its exception was retired, which is the honest
 outcome rather than a regression.
+
+## 2026-09-02 (fourth pass) — the other direction: 29 fragmented pages merged
+
+The owner's instruction: *"let's merge in when it's needed and split in when it's needed… a well
+balanced repository with articles per topic. It should work both ways."* The 300-line ceiling was
+only half the shape rule. **This pass did the other half: 29 pages were organised by intake date
+rather than by topic, and all 29 were merged. Zero fragmented pages remain, and zero breaches.**
+
+### ⚠️ The detector was wrong, and it was wrong in a way that mattered
+
+The old test was "20+ top-level sections averaging under 12 lines". Run across all 273 pages it
+fired on **two** — and both only *after* a split had removed the large sections masking their
+average. Fragmentation had been accumulating for weeks, invisible.
+
+**Two faults, and the second is the important one:**
+
+1. **Average section length also describes the target shape.** `03_Kitchen/Kitchen_Furniture.md` —
+   the compact guide built two days earlier as the reference example — is 11 thematic sections in
+   80 lines, 7.3 lines each. **The old detector would have condemned exactly the structure
+   `wiki_page_format.md` asks authors to produce.** A rule that cannot tell the target from the
+   defect is worse than no rule.
+2. **It measured arithmetic when the defect is written in the text.** A heading reading
+   *"⚠️ Wall Art Framing… (Игорь Краснов, added 2026-09-01, Round 3)"* records **when a fact
+   arrived instead of what it is about**. That *is* the fragmentation, stated outright.
+
+**The test is now the proportion of headings that name a processing batch** — 12+ sections, at
+least half dated, under 17 lines each. Same vault, same day: **29 pages, against the old rule's
+two.**
+
+### What was done
+
+**29 merges, in six batches.** Section counts collapsed hard, which is the measure that matters:
+
+| Page | Sections before → after |
+| :--- | :--- |
+| `Decorative_and_Specialty_Wall_Finishes.md` | 21 → 6 |
+| `Fixtures_Mixers_and_Sinks.md` | 20 → 5 |
+| `Planning_and_Layout.md` (bathroom) | 19 → 6 |
+| `Tile_Selection_and_Layout.md`, `Bathtub_and_Shower.md`, `Decor_Color_and_Lighting_Technique.md`, `Rough_Plumbing_Sequencing.md`, `Ceilings_Guide.md` | 18 → 5–10 |
+| `Material_and_Finish_Technique.md`, `Functional_Zoning…`, `Living_Room_Layout…`, `Water_Inlet_Node_Components.md`, `Family_Scenario_Driven_Design.md` | 17 → 5–9 |
+| …and 16 more, all 12–16 sections → 4–9 |
+
+**Nine splits alongside them**, because size and shape are independent problems and several pages
+had both.
+
+**Every one of the 38 operations reported RESULT: CLEAN.** `verify_batch.py --base main` returned a
+clean PASS with **no citation drift at all** — not even a move to confirm by hand. The knowledge-base
+index rebuilt to **16,107 numeric claims, identical to before the pass**: content conserved exactly,
+only its arrangement changed.
+
+### ⚠️ Merging is not deleting, and the tool enforces that
+
+`tools/split_page.py merge` groups sections under a thematic parent and **demotes the original dated
+heading from `##` to `###` rather than removing it**. Every practitioner name, attribution and date
+survives one level down. **The parity check treats that single demotion as the only permitted change
+and requires every other line to match byte for byte** — which is why 38 operations could run without
+a manual read of each result.
+
+### ⚠️ Order matters, and it looks alarming halfway through
+
+**Merge first, then extract.** Splitting a fragmented page distributes the fragments across two pages
+and leaves two fragmented pages.
+
+Four pages were both fragmented *and* near the ceiling. Merging them pushed three **over** the
+ceiling — 293 → 304, 291 → 302 — because **a merge adds group headings and therefore lines, typically
+10–30 of them.** The follow-up split then brought them back under. That sequence is correct and
+expected; the intermediate breach is not a mistake. This is now written into the convention, because
+an agent seeing a merge increase a line count would otherwise reasonably conclude it had done the
+wrong thing.
+
+### Final state
+
+**279 pages. 0 breaches. 0 fragmented. 19 advisory near-ceiling warnings**, all between 223 and 280
+lines with topic-shaped headings — sizeable, not defective. The four pages within fifteen lines of
+the ceiling were split for headroom so the next intake batch cannot breach them.
+
+Recorded in `00_Master/wiki_page_format.md` (a new "Both directions" section with the
+read-the-headings diagnosis table) and `AGENTS.md` (standing rule 8 rewritten to cover both modes).

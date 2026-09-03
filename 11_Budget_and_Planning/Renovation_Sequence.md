@@ -2,7 +2,11 @@
 
 Airplane-view guide to renovation sequencing. For trade-off tables and the full 24-step turnkey workflow, see [[11_Budget_and_Planning/case_studies/schedule_analysis_case|Schedule Analysis Case Study]].
 
-## General Order of Events
+## The Order of Events, and What Changes It
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### General Order of Events
 
 1. **Design and Layout Ideation** — floor plans, 2D plumbing/electrical/HVAC layouts, initial Bill of Materials.
 2. **Demolition and Preparation** — dismantling old walls/floors/finishes, garbage removal.
@@ -16,7 +20,7 @@ Airplane-view guide to renovation sequencing. For trade-off tables and the full 
 > [!CAUTION]
 > **Don't rush the timeline.** Demanding an artificially fast schedule (e.g. "turnkey in 3 months" for a large project) forces contractors to charge premiums for weekend work and accelerated curing compounds. Let the sequence flow naturally.
 
-## Sequence Depends on What You Choose
+### Sequence Depends on What You Choose
 
 The order above is a default, not a fixed rule — several material and design choices change *when* specific steps must happen, sometimes irreversibly:
 
@@ -27,39 +31,11 @@ The order above is a default, not a fixed rule — several material and design c
 
 Each of these trade-offs, with sources and full option tables, is documented in the [[11_Budget_and_Planning/case_studies/schedule_analysis_case|Schedule Analysis Case Study]] — decide on these choices *before* the relevant rough-works stage, not after.
 
-## A Concrete Stated Build Order Within "Rough Works & Structural Changes" (added 2026-08-04)
+### A Concrete Stated Build Order Within "Rough Works & Structural Changes" (added 2026-08-04)
 
 One practitioner's own standing sequence for step 3-4 above, in more granular detail (`single-account`, corroborated across 3 videos from the same channel — see [[12_Engineering_and_Systems/analysis/Waterproofing_and_Plastering|Plumbing: Waterproofing & Plastering]] for the underlying waterproofing/screed technique): **plaster walls → clean off plaster drips → floor waterproofing (single continuous contour) → underfloor heating loop, if not central heating → re-verify room geometry → screed → only then rough electrical.** The stated reasoning: geometry errors are still cheap to fix before screed, but expensive once screed and electrical points are set against uncorrected reference points — and most electrical point heights are referenced to the finished screed surface (the "zero mark"), so wiring before screed risks the crew missing it (see [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Electrical: Cable, Circuits & Panel Design]]). A related safety-sequencing note from the same batch: before any floor demo/prep near developer-installed temporary heating, close the shared riser shutoff valve first, then open radiator bleed valves to confirm no residual pressure, and only then cut the heating loop — cutting pipes before confirming depressurization is flagged as a common, dangerous shortcut. [source: `_Archive/processed_sources/20260804_pre_screed_waterproofing_acceptance_5b57e2e4.txt`, `_Archive/processed_sources/20260804_floor_soundwaterproofing_technique_3021c8d1.txt`]
 
-## Debris Volume — a Planning Sanity Check (added 2026-08-04)
-
-**Rule of thumb: roughly 300 debris bags and 18–20 removal trips for a 100 m² apartment**, from demolition through rough-in — a useful sanity check when reviewing a contractor's debris-removal line item or planning dumpster/removal logistics. Debris pileup on-site is tolerated during demo/rough-in but should not still be accumulating once finishing work starts. `single-account`, `unverified`. [source: `_Archive/processed_sources/20260804_construction_debris_removal_volume_a83a6846.txt`]
-
-## Flooring-Transition Planning: a Recurring Gap, Consolidated Here (added 2026-08-04)
-
-This theme recurred independently across **4 of the 27 videos** in a single "general renovation tips" playlist batch — every source note that touched it flagged the same thing: this vault has no dedicated Flooring page, so the theme has nowhere clean to live. It's genuinely infrastructure (screed height is a whole-apartment planning constraint, not a per-room styling choice), so it's consolidated here as an interim home rather than left scattered across per-room source notes — **flagging explicitly that a dedicated Flooring page remains an open structural question**, not something decided unilaterally in this pass.
-
-`single-account` throughout — one channel, several videos, not independent corroboration, though the repeated emphasis across otherwise-unrelated videos suggests the practitioner considers it a common, costly mistake worth repeating.
-
-- **Multi-floor-covering screed-height planning must happen at project/design stage, not during construction or procurement.** Quartz-vinyl, engineered board, and porcelain tile all have different thicknesses (engineered board, in particular, is thicker than quartz-vinyl) — a technologist must calculate and document the required screed-height offsets in the project *before* work starts. Discovering the mismatch mid-renovation forces redone screed work. The same principle applies even within one material: e.g. porcelain tile over an underfloor-heating mat needs a different screed height than porcelain tile with no mat plus a tile-adhesive layer — both must be leveled to match, planned in advance. [sources: `_Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt`, `_Archive/processed_sources/20260804_business_class_five_attributes_19385e7a.txt`, `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
-- **Door-opening and outlet heights must be recalculated whenever screed height is deliberately varied** to compensate for flooring-thickness differences — flagged as a corollary commonly missed even by teams that get the screed differential itself right. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
-- **Do not patch a screed differential with self-leveling compound after the fact** — differences between porcelain tile and engineered board (with plywood underlayment) can reach 3–5 cm; self-leveling compound poured that thick will crack, is expensive at that thickness, and raises the finished floor enough to interfere with door clearances. Plan the differential into the screed itself, before flooring is chosen and ordered. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
-- **Plywood underlay for engineered board must never be glued onto self-leveling compound** — only onto sub-screed; a reputable installer will refuse or void warranty otherwise. **Engineered board must acclimate on-site** (temperature/humidity) before installation, longer than laminate needs — installing it fresh off a delivery truck is a defect risk. [source: `_Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt`]
-- **Even where a full self-leveling-compound patch isn't the plan, deliberately plan a minimum ~1.5 cm screed-height differential between adjacent quartz-vinyl and tile zones**, even when not strictly required by material thickness — preserves flexibility to change the flooring plan later, since removing only 1–1.5 cm of cured screed isn't practical (the alternative, a flush level, forces full demolition of the tiled-zone screed if the plan changes). A shallow (~1 cm) threshold strip is a worse alternative to a deliberate differential: height differences under ~5 cm aren't reliably perceived visually, so a small lip becomes a stubbed-toe/trip hazard rather than a visible, expected step. [source: `_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt`]
-- **Minimize visible cut/trimmed pieces when one flooring material runs through irregularly-shaped connected rooms** — plan cuts to land inside closets or other hidden areas rather than visible traffic areas. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
-
-## Pre-Finish Stage Acceptance Checklist (added 2026-08-04)
-
-A dedicated QC milestone between rough-in and finish work — walls plastered+sanded, tile laid, rough electrical wired and terminated, ready for wallpaper. `single-account`, `confirmed` as the speaker's stated practice, from a source describing ~250 renovation objects/year. [source: `_Archive/processed_sources/20260804_prefinish_stage_acceptance_d34c8e90.txt`]
-
-- **Tile before wallpaper, not after** — tiling is one of the messiest trades, and tiling after wallpaper risks ruining the paper with tile-dust spray. If a skilled tiler isn't available in time and wallpaper must go up first, protect it with plastic film during tiling.
-- **Wall-flatness inspection standard, Q1–Q4 tiers**: Q2 finish is sufficient for heavy vinyl or fleece (флизелин) wallpaper; Q3 is generally adequate for most finishes; Q4 (near-mirror flatness) is needed only for glossy paint, Venetian plaster, or silk-screen finishes, and costs meaningfully more (business/premium-segment pricing). Demanding Q4 for standard wallpaper is flagged as unnecessary over-spec — match the tier to the actual finish, not to a blanket "as flat as possible" instinct. *(A second source in the same batch corroborates Q3/Q4 as the business-class-typical range, framed from the contract/spec-verification side rather than the technical-tier side — see [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4.)*
-- **Grout timing is flexible**: grouting tile joints doesn't have to happen immediately after laying tile — recommended to do together with joint silicone sealing as one combined step, any time later. White grout left ungrouted for a while during ongoing renovation can discolor/darken in the meantime.
-- **Wet-room electric points get one more check specifically at pre-finish**: confirm the tiler cut tile openings correctly for already-placed points (towel warmer cable, mirror-light cable, sink outlets, washer/dryer outlets) — the tiler has a diamond core bit and the homeowner typically doesn't, making this the one point-related check still worth doing this late (contrast with [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Electrical: Cable, Circuits & Panel Design]]'s rule that point coordinates should otherwise be verified right after rough wiring, not deferred to pre-finish).
-- **Kitchen tile backsplash prep**: if a wall will be tiled for a backsplash, leave that area un-primed (plastered only) — tile adhesive won't bond properly to a primed surface. Mark the area "don't prime" directly on the wall (sometimes twice) to prevent the mistake reaching the painting crew.
-- **Self-leveling floor (наливной пол) check**: verify flatness with a straightedge across multiple planes before finish flooring goes down. An undetected defect surfaces later as unmatched seams or a creaking floor, requiring the finish flooring to be pulled up and redone.
-
-## Replanning Approval, Pre-Demolition Packing, and Two Late-Stage Sequencing Rules (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)
+### Replanning Approval, Pre-Demolition Packing, and Two Late-Stage Sequencing Rules (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28)
 
 Vladimir Amelchenko's own 17-stage sequence checklist, low promotional
 ratio. [source: [[_Sources/YT_dSZpq5Z9CEk_sbk_full_renovation_sequence_az|YT_dSZpq5Z9CEk]]]
@@ -71,42 +47,13 @@ ratio. [source: [[_Sources/YT_dSZpq5Z9CEk_sbk_full_renovation_sequence_az|YT_dSZ
 - **Corroborates this page's existing debris-volume note**: debris removal is explicitly named as an overlooked stage — real cost/time components include protective floor/elevator covering before hauling, the haul itself, and (without elevator access) manually carrying every load down plus cleaning the entire stairwell top to bottom.
 - **Corroborates this page's existing partition-material-dependent build-order note, restated from the plastering-sequence angle**: drywall partitions get perimeter-plastered first, then built; aerated-block (газобетон) partitions are built first, then the entire perimeter plus new partitions are plastered together as one pass.
 
-## Wall-Flatness Defects: a Pre-Kitchen/Cabinetry Check Worth Planning For (added 2026-08-04)
+## Before the Builders Arrive
 
-A related, currently page-less topic worth a pointer here even though the full technique doesn't have a clean home: developer-delivered walls with several-centimeter depressions (up to 3–5 cm) are a common defect, not "free extra floor area" — an uneven wall should be checked and corrected before finalizing a kitchen or cabinetry layout, since off-the-shelf cabinet modules are standardized in multiples of 10 cm and won't fit a non-standard recessed segment. Three named failure modes exist for the wrong fix (thick gypsum plaster alone, cement-sand under gypsum finish, drywall-on-metal-stud-frame) versus one correct method (aerated-block infill, glued and mechanically dowel-anchored, leveled with plaster guide rails as one continuous plane with the surrounding wall). `single-account`. See the full technique in the source note — this vault has no general walls/plastering-technique page to hold it in full; check delivered walls for flatness during a pre-purchase or pre-renovation walkthrough, and budget the correction if found (see [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4). [source: `_Archive/processed_sources/20260804_wall_depression_aerated_block_fix_a0b9ff14.txt`]
+### Debris Volume — a Planning Sanity Check (added 2026-08-04)
 
-## ⚠️ A Finished-Floor-Level Error Is a Rough-Stage Mistake That Only Appears at Fit-Out (Надежда Кузина, added 2026-09-01)
+**Rule of thumb: roughly 300 debris bags and 18–20 removal trips for a 100 m² apartment**, from demolition through rough-in — a useful sanity check when reviewing a contractor's debris-removal line item or planning dumpster/removal logistics. Debris pileup on-site is tolerated during demo/rough-in but should not still be accumulating once finishing work starts. `single-account`, `unverified`. [source: `_Archive/processed_sources/20260804_construction_debris_removal_volume_a83a6846.txt`]
 
-**The highest-consequence item routed in Round 5, and this vault had nothing on it.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
-
-- **Stairs are the obvious case**: a poured or turning staircase is a difficult job, and **if the builders are not experienced or not expensive it may need re-pouring several times — because the FIRST and LAST tread must come out at the right height, which requires correctly calculating the finished floor level on each storey.**
-- **⚠️ But the general case applies to a flat with no stairs at all: a miscalculated finished-floor height makes the interior inconvenient to use.**
-- **⚠️ Her worked example is WC height — a pan set so high the user's feet do not comfortably reach the floor. "Ошибка там в 3–4 сантиметра реально делает интерьер адски неудобным."** *(Her illustrative magnitude, not a tolerance.)*
-- **⚠️ And the diagnosis is the half that matters: it is NOT that the builders did not know the correct WC height above the floor. It is that the finished-floor height was calculated wrongly.**
-
-> **An arithmetic error at rough stage, invisible until fit-out, and expensive to correct once the screed is down.** Check finished-floor levels against the fixture heights they will carry — not just against each other.
-
-## ⚠️ Acceptance — a Room Can Be Beautifully Designed and Unusable (Надежда Кузина, added 2026-09-01)
-
-Her worked example is a restaurant washroom she admired in detail: **plain small black tile, all the decor on the doors, frosted-glass inserts printed with samurai, and the glass appearing backlit though it was not — purely from correctly distributed ceiling light.**
-
-**Beautiful right up until the latch would not engage its keeper, and she changed cubicle.**
-
-**⚠️ Her point is about acceptance, and it belongs with the snagging stage: at the end of a renovation, do you accept work like that or not — and when something later breaks, do you fix it or decide everything is fine?** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
-
-## ⚠️ The Documentation Control for the Finished-Floor-Level Error (Татьяна Михайловская, added 2026-09-01)
-
-**This page already records the highest-consequence rough-stage error found so far: a miscalculated finished-floor level, which makes fixtures unusable and is invisible until fit-out.** [source: [[_Sources/YT_MkssMwpyVsI_mikhailovskaya_design_project_composition|MkssMwpyVsI]]]
-
-**A second, independent channel supplies the control for it — and it is simply documentation.**
-
-**⚠️ Her worked project goes from a 2,800 mm ceiling height on the survey plan to 2,650 mm on the post-replanning plan, because the floor level rose after levelling — and she shows recording that change as normal practice, carried explicitly from one drawing to the next.**
-
-> **The number that later governs every fixture height is written down rather than assumed.** Two independent channels: **one making the error visible, the other showing the practice that prevents it.**
-
-**⚠️ And a related sequencing fact from the same round: the WC installation frame mounts on the CONCRETE floor, before the screed is poured and before tiling** — see [[12_Engineering_and_Systems/analysis/Wall_Hung_Toilet_Installation|Wall-Hung Toilet Installation]]. **So the WC type is fixed at planning stage, and it is fixed against the same finished-floor number.**
-
-## ⚠️ Nine Steps Before the Builders Arrive — an Ordered Start-Up Plan (Татьяна Безверхая, added 2026-09-02)
+### ⚠️ Nine Steps Before the Builders Arrive — an Ordered Start-Up Plan (Татьяна Безверхая, added 2026-09-02)
 
 Moscow designer, **uploaded 2026-08-22, the most recent source in this batch**; 11 years in the field, team credited with 200+ projects. `promotional_ratio: medium` — three own-studio insertions, but **she opens with an explicit disclaimer that the video is aimed at self-managers as much as at clients**, and most steps are given in both a DIY and a hire-it-out form. **This page already covers the on-site build order thoroughly; what it did not hold is the pre-site order.** [source: [[_Sources/YT_eHxsVHIus5Q_bezverkhaia_ten_step_sequence|eHxsVHIus5Q]]]
 
@@ -130,7 +77,49 @@ Moscow designer, **uploaded 2026-08-22, the most recent source in this batch**; 
 
 **⚠️ Gap in this source, worth stating: no costs anywhere** — not for the acceptance inspector, the measurers, the engineering project or the documentation, despite all four being recommended purchases. Any budgeting use needs figures from elsewhere on this folder's pages.
 
-## ⚠️ Furniture Is a Rough-Stage Decision — Blocking, Lighting Power, and the Coordination Chain (FLAT, added 2026-09-02)
+## Rough-Stage Decisions That Only Surface Later
+
+### Flooring-Transition Planning: a Recurring Gap, Consolidated Here (added 2026-08-04)
+
+This theme recurred independently across **4 of the 27 videos** in a single "general renovation tips" playlist batch — every source note that touched it flagged the same thing: this vault has no dedicated Flooring page, so the theme has nowhere clean to live. It's genuinely infrastructure (screed height is a whole-apartment planning constraint, not a per-room styling choice), so it's consolidated here as an interim home rather than left scattered across per-room source notes — **flagging explicitly that a dedicated Flooring page remains an open structural question**, not something decided unilaterally in this pass.
+
+`single-account` throughout — one channel, several videos, not independent corroboration, though the repeated emphasis across otherwise-unrelated videos suggests the practitioner considers it a common, costly mistake worth repeating.
+
+- **Multi-floor-covering screed-height planning must happen at project/design stage, not during construction or procurement.** Quartz-vinyl, engineered board, and porcelain tile all have different thicknesses (engineered board, in particular, is thicker than quartz-vinyl) — a technologist must calculate and document the required screed-height offsets in the project *before* work starts. Discovering the mismatch mid-renovation forces redone screed work. The same principle applies even within one material: e.g. porcelain tile over an underfloor-heating mat needs a different screed height than porcelain tile with no mat plus a tile-adhesive layer — both must be leveled to match, planned in advance. [sources: `_Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt`, `_Archive/processed_sources/20260804_business_class_five_attributes_19385e7a.txt`, `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
+- **Door-opening and outlet heights must be recalculated whenever screed height is deliberately varied** to compensate for flooring-thickness differences — flagged as a corollary commonly missed even by teams that get the screed differential itself right. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
+- **Do not patch a screed differential with self-leveling compound after the fact** — differences between porcelain tile and engineered board (with plywood underlayment) can reach 3–5 cm; self-leveling compound poured that thick will crack, is expensive at that thickness, and raises the finished floor enough to interfere with door clearances. Plan the differential into the screed itself, before flooring is chosen and ordered. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
+- **Plywood underlay for engineered board must never be glued onto self-leveling compound** — only onto sub-screed; a reputable installer will refuse or void warranty otherwise. **Engineered board must acclimate on-site** (temperature/humidity) before installation, longer than laminate needs — installing it fresh off a delivery truck is a defect risk. [source: `_Archive/processed_sources/20260804_zemskov_premium_class_tips_71691249.txt`]
+- **Even where a full self-leveling-compound patch isn't the plan, deliberately plan a minimum ~1.5 cm screed-height differential between adjacent quartz-vinyl and tile zones**, even when not strictly required by material thickness — preserves flexibility to change the flooring plan later, since removing only 1–1.5 cm of cured screed isn't practical (the alternative, a flush level, forces full demolition of the tiled-zone screed if the plan changes). A shallow (~1 cm) threshold strip is a worse alternative to a deliberate differential: height differences under ~5 cm aren't reliably perceived visually, so a small lip becomes a stubbed-toe/trip hazard rather than a visible, expected step. [source: `_Archive/processed_sources/20260804_never_take_this_from_masters_70m2_4b3c72b6.txt`]
+- **Minimize visible cut/trimmed pieces when one flooring material runs through irregularly-shaped connected rooms** — plan cuts to land inside closets or other hidden areas rather than visible traffic areas. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
+
+### Wall-Flatness Defects: a Pre-Kitchen/Cabinetry Check Worth Planning For (added 2026-08-04)
+
+A related, currently page-less topic worth a pointer here even though the full technique doesn't have a clean home: developer-delivered walls with several-centimeter depressions (up to 3–5 cm) are a common defect, not "free extra floor area" — an uneven wall should be checked and corrected before finalizing a kitchen or cabinetry layout, since off-the-shelf cabinet modules are standardized in multiples of 10 cm and won't fit a non-standard recessed segment. Three named failure modes exist for the wrong fix (thick gypsum plaster alone, cement-sand under gypsum finish, drywall-on-metal-stud-frame) versus one correct method (aerated-block infill, glued and mechanically dowel-anchored, leveled with plaster guide rails as one continuous plane with the surrounding wall). `single-account`. See the full technique in the source note — this vault has no general walls/plastering-technique page to hold it in full; check delivered walls for flatness during a pre-purchase or pre-renovation walkthrough, and budget the correction if found (see [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4). [source: `_Archive/processed_sources/20260804_wall_depression_aerated_block_fix_a0b9ff14.txt`]
+
+### ⚠️ A Finished-Floor-Level Error Is a Rough-Stage Mistake That Only Appears at Fit-Out (Надежда Кузина, added 2026-09-01)
+
+**The highest-consequence item routed in Round 5, and this vault had nothing on it.** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
+
+- **Stairs are the obvious case**: a poured or turning staircase is a difficult job, and **if the builders are not experienced or not expensive it may need re-pouring several times — because the FIRST and LAST tread must come out at the right height, which requires correctly calculating the finished floor level on each storey.**
+- **⚠️ But the general case applies to a flat with no stairs at all: a miscalculated finished-floor height makes the interior inconvenient to use.**
+- **⚠️ Her worked example is WC height — a pan set so high the user's feet do not comfortably reach the floor. "Ошибка там в 3–4 сантиметра реально делает интерьер адски неудобным."** *(Her illustrative magnitude, not a tolerance.)*
+- **⚠️ And the diagnosis is the half that matters: it is NOT that the builders did not know the correct WC height above the floor. It is that the finished-floor height was calculated wrongly.**
+
+> **An arithmetic error at rough stage, invisible until fit-out, and expensive to correct once the screed is down.** Check finished-floor levels against the fixture heights they will carry — not just against each other.
+
+### ⚠️ The Documentation Control for the Finished-Floor-Level Error (Татьяна Михайловская, added 2026-09-01)
+
+**This page already records the highest-consequence rough-stage error found so far: a miscalculated finished-floor level, which makes fixtures unusable and is invisible until fit-out.** [source: [[_Sources/YT_MkssMwpyVsI_mikhailovskaya_design_project_composition|MkssMwpyVsI]]]
+
+**A second, independent channel supplies the control for it — and it is simply documentation.**
+
+**⚠️ Her worked project goes from a 2,800 mm ceiling height on the survey plan to 2,650 mm on the post-replanning plan, because the floor level rose after levelling — and she shows recording that change as normal practice, carried explicitly from one drawing to the next.**
+
+> **The number that later governs every fixture height is written down rather than assumed.** Two independent channels: **one making the error visible, the other showing the practice that prevents it.**
+
+**⚠️ And a related sequencing fact from the same round: the WC installation frame mounts on the CONCRETE floor, before the screed is poured and before tiling** — see [[12_Engineering_and_Systems/analysis/Wall_Hung_Toilet_Installation|Wall-Hung Toilet Installation]]. **So the WC type is fixed at planning stage, and it is fixed against the same finished-floor number.**
+
+### ⚠️ Furniture Is a Rough-Stage Decision — Blocking, Lighting Power, and the Coordination Chain (FLAT, added 2026-09-02)
 
 A furniture manufacturer's own account of what goes wrong when furniture is commissioned late (Михаил, owner of FLAT, St Petersburg). `promotional_ratio: medium` — **the thesis "come to us early" is also the pitch, and he says so openly** — but the two failure mechanisms are physical and specific, and **he draws an honest scope boundary that excludes most of what a client buys.** RU, 2023. [source: [[_Sources/YT_F7bIf3Pv3X8_flat_when_to_commission_furniture|F7bIf3Pv3X8]]]
 
@@ -160,6 +149,27 @@ A furniture manufacturer's own account of what goes wrong when furniture is comm
 **⚠️ Corroborates this page's existing pre-site ordering from the opposite side of the table.** Безверхая's ten-step plan puts technical constraints and engineering ahead of finishes, and her kids-room method turns on placing sockets for furniture that does not yet exist. **This source supplies the physical consequence of skipping that — blocking, and lighting power — from the trade that inherits the problem.**
 
 **⚠️ Gap: no specification for the blocking itself** — no material, thickness, size or fixing pattern, only that it must exist. **And no indication of how early "early" is** in weeks or stages. Anything buildable needs a different source.
+
+## Acceptance Checkpoints
+
+### Pre-Finish Stage Acceptance Checklist (added 2026-08-04)
+
+A dedicated QC milestone between rough-in and finish work — walls plastered+sanded, tile laid, rough electrical wired and terminated, ready for wallpaper. `single-account`, `confirmed` as the speaker's stated practice, from a source describing ~250 renovation objects/year. [source: `_Archive/processed_sources/20260804_prefinish_stage_acceptance_d34c8e90.txt`]
+
+- **Tile before wallpaper, not after** — tiling is one of the messiest trades, and tiling after wallpaper risks ruining the paper with tile-dust spray. If a skilled tiler isn't available in time and wallpaper must go up first, protect it with plastic film during tiling.
+- **Wall-flatness inspection standard, Q1–Q4 tiers**: Q2 finish is sufficient for heavy vinyl or fleece (флизелин) wallpaper; Q3 is generally adequate for most finishes; Q4 (near-mirror flatness) is needed only for glossy paint, Venetian plaster, or silk-screen finishes, and costs meaningfully more (business/premium-segment pricing). Demanding Q4 for standard wallpaper is flagged as unnecessary over-spec — match the tier to the actual finish, not to a blanket "as flat as possible" instinct. *(A second source in the same batch corroborates Q3/Q4 as the business-class-typical range, framed from the contract/spec-verification side rather than the technical-tier side — see [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4.)*
+- **Grout timing is flexible**: grouting tile joints doesn't have to happen immediately after laying tile — recommended to do together with joint silicone sealing as one combined step, any time later. White grout left ungrouted for a while during ongoing renovation can discolor/darken in the meantime.
+- **Wet-room electric points get one more check specifically at pre-finish**: confirm the tiler cut tile openings correctly for already-placed points (towel warmer cable, mirror-light cable, sink outlets, washer/dryer outlets) — the tiler has a diamond core bit and the homeowner typically doesn't, making this the one point-related check still worth doing this late (contrast with [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Electrical: Cable, Circuits & Panel Design]]'s rule that point coordinates should otherwise be verified right after rough wiring, not deferred to pre-finish).
+- **Kitchen tile backsplash prep**: if a wall will be tiled for a backsplash, leave that area un-primed (plastered only) — tile adhesive won't bond properly to a primed surface. Mark the area "don't prime" directly on the wall (sometimes twice) to prevent the mistake reaching the painting crew.
+- **Self-leveling floor (наливной пол) check**: verify flatness with a straightedge across multiple planes before finish flooring goes down. An undetected defect surfaces later as unmatched seams or a creaking floor, requiring the finish flooring to be pulled up and redone.
+
+### ⚠️ Acceptance — a Room Can Be Beautifully Designed and Unusable (Надежда Кузина, added 2026-09-01)
+
+Her worked example is a restaurant washroom she admired in detail: **plain small black tile, all the decor on the doors, frosted-glass inserts printed with samurai, and the glass appearing backlit though it was not — purely from correctly distributed ceiling light.**
+
+**Beautiful right up until the latch would not engage its keeper, and she changed cubicle.**
+
+**⚠️ Her point is about acceptance, and it belongs with the snagging stage: at the end of a renovation, do you accept work like that or not — and when something later breaks, do you fix it or decide everything is fine?** [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
 
 ## Rough-stage technique and QC checklists — moved to their own page
 

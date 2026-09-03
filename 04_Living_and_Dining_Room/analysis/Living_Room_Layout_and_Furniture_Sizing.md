@@ -33,7 +33,11 @@ positions won't move with the furniture later.
 
 [source: [[_Sources/YT_gEykawbVyYQ_500lux_zvereva_top10_living_room_layout|YT_gEykawbVyYQ]]]
 
-## Dual-Function Default and Adjacency (Architect Vitaly Zlobin, added 2026-08-25)
+## Room Size, Proportion and Functional Zoning
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### Dual-Function Default and Adjacency (Architect Vitaly Zlobin, added 2026-08-25)
 
 - **⚠️ A living room almost always serves both guest reception and
   household relaxation in the same room** — separating these into two
@@ -49,7 +53,7 @@ positions won't move with the furniture later.
   central soft-seating zone) over a traditional "dead-end" living room —
   the modern trend favors the pass-through model even in compact homes.
 
-## Room-Size Minimums and Proportion Rules
+### Room-Size Minimums and Proportion Rules
 
 - **Living room area: ≥25-30m² for a smaller private house, ≥40-50m² for
   a larger one.** Ceiling height **≥3m minimum**; for a larger
@@ -69,7 +73,7 @@ positions won't move with the furniture later.
   **1.5-1.6m**; for a genuinely large living room, **skip doors entirely
   and use a 1.5-2m arch** instead for better spatial flow.
 
-## Seven-Zone Functional Taxonomy
+### Seven-Zone Functional Taxonomy
 
 Plan for as many of these as apply, not necessarily all: (1) soft-seating
 zone, (2) media/AV zone, (3) fireplace zone (see below), (4) library zone
@@ -88,7 +92,78 @@ risks turning a genuinely small living room into a claustrophobic
 "well" — apply cautiously and check proportions first. Tall second-light
 windows facing south or west create a real summer overheating risk.
 
-## Furniture-Arrangement Patterns and Real Sizing
+## Sofa Selection, Scale, and What Goes Above It
+
+### Corner-Sofa Caution and Deliberate Airiness (Ivan Bezrukov / GRADIZ INTERIOR, added 2026-08-25)
+
+A counter-position worth weighing against this page's own "L-shaped
+(corner)" arrangement pattern above (pattern 3 in the five-pattern
+taxonomy) — that pattern isn't wrong, but this source argues against
+defaulting to it in a genuinely small room specifically:
+
+- **No corner sofas in a small living space** — stated flatly: a corner
+  sofa "eats all the air and openness" of a compact room.
+- **⚠️ Deliberate airiness technique, "leave some space unused"**: use
+  visually light furniture (no bulky legs/solid bases) so sightlines
+  pass under/around pieces, and pull the sofa away from the wall to
+  leave a gap behind it. Explicitly recommends *not* filling that gap
+  with more storage — instead placing plants, a leaning picture frame,
+  or a small shelf, or leaving it genuinely empty — a deliberate
+  rule-break against the instinct to maximize every corner, in service
+  of a felt sense of spaciousness over maximum storage yield.
+
+`single-account`. [source: [[_Sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
+
+### Sofa Visual Weight and Table Co-Scale (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+Two additions that sit directly against this page's existing sofa-sizing material:
+
+- **⚠️ A compact sofa can make a small room read *smaller*, not larger** — the counter-intuitive one. People buy short-but-bulky precisely because the room is small. Her stated mechanism: **high seat height plus disharmonious side-proportions**; her fix: **add legs at the same overall sitting height**, which lowers the cushion mass relative to the floor and lightens the piece without costing seat height. She notes the same model can read elegant in its larger configuration and wrong in the compact one.
+- **⚠️ Scale the low/side table to the sofa**: a small-diameter side table suits a sofa of roughly **180–190 cm**; against a **2,400–2,500 mm** sofa the same table reads out of scale.
+
+Full treatment in [[14_Furniture/Seating_and_Tables|Seating & Tables]], a new page created the same day. `single-account`, `unverified`. [source: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]]] [source: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
+
+### Only Two Typical Living-Room Layouts, and One Sofa (Надежда Кузина, added 2026-09-01)
+
+Her systematisation of why Russian design portfolios converge. Satirical in delivery, **accurate as a description of the market**, and therefore useful both as a default and as the thing to deviate from deliberately. [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+- **⚠️ One sofa model appears in every typical project: the Lawson.** High legs, removable seat and back cushions, **and the seat is always divided into several cushions.** **The style axis lives entirely in the arms** — more rectangular or square for contemporary, more rounded for classical. Upholstery is velvet in light brown / beige / greyish.
+- **⚠️ Only two layouts exist**:
+  1. **Sofa against a wall** — the wall behind it then gets the moulding-or-slat treatment (see [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]).
+  2. **Sofa in the middle of the room, because the kitchen is combined with the living room.** Same Lawson with an added chaise, **its back dividing kitchen from living zone, with the dining table or bar counter set along that back.** Compare this page's existing furniture-toward-the-centre material and [[04_Living_and_Dining_Room/analysis/Kitchen_Living_Zoning|Kitchen-Living Zoning]].
+- **Coffee table: usually round**; base gold or brass for classical, black for contemporary.
+- **TV unit: a low elongated rectangle with flat or slatted fronts**, optionally joined to a floor-to-ceiling flat-fronted cabinet. **The TV wall opposite is treated exactly like the sofa wall**, with natural stone or large-format marble-effect porcelain added in more expensive projects.
+- **A bedroom TV zone looks identical**, except the cabinet may be a dressing table instead.
+- **⚠️ The one bright object in the whole scheme is the dining chairs** — emerald, blue, dusty blue or dusty pink; if they are grey or beige instead, **nothing in the room is the bright piece.** Cushions on the sofa pick up the chair colour when both share a space.
+
+### ⚠️ What Goes Above a Sofa — With a Dimension (Надежда Кузина, added 2026-09-01)
+
+From a source on focal points; the general concept is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]. [source: [[_Sources/YT_YaIuW1lX1sU_kuzina_focal_point|YaIuW1lX1sU]]]
+
+- **⚠️ A mirror or picture above a sofa must be not less than HALF the sofa's length — better 2/3.**
+- **⚠️ If the piece is not long enough, make up the distance**: sconces either side of it, or side tables with table lamps beside the sofa.
+- **⚠️ Fill space evenly — put long against long.** A long sofa against long walls, no illogical voids; **horizontal pictures over long furniture.**
+- **⚠️ Leave enough clearance between the sofa back and whatever hangs above, so seated people do not knock it.**
+- **⚠️ If space allows, pull the sofa slightly forward** — it removes the effect of soft furniture crammed in and pressed flat against the wall.
+- **⚠️ If the sofa stands mid-room with nothing hangable above it, supply the vertical component another way: tall houseplants (a restaurant device), or a console behind the sofa carrying table lamps (an American one).**
+
+**Art as a focal point is "палочка-выручалочка" where furniture will not fit or is not wanted** — her worked case is an owner who did not want a TV zone, given a bright picture with a horizontal shelf beneath instead, **and the space reads fully composed.**
+
+**Dining zone: the tabletop is rarely accented because it sits below eye level.** Use **the light fitting, a chest with decor above it, or a display cabinet** — filled with interesting glassware, flanked by chairs in interesting upholstery.
+
+### Round 4 Additions — Coffee-Table Context Rule, Furniture-Set Default Critique, and a Deep-Console Cross-Reference (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
+- **⚠️ Oversized coffee tables in compact living rooms block walkways** — recommends smaller side/accent ("приставные") tables in small spaces; reserves large/cascading coffee-table compositions for genuinely large country houses (living rooms 20m²+ standalone, or 300-500m²+ houses overall) — a specific context-matching rule.
+- **⚠️ Avoid the reflexive "sofa + two armchairs" furniture-set default** regardless of actual room size — leaving genuine open floor area is itself functional ("воздух" — room to breathe), not wasted space.
+- **Deep dressers/consoles under a living-room TV — a specific mistake, applying equally to a bedroom per the same source** (see [[06_Small_Bedroom/analysis/Furniture_and_Storage_for_Tight_Clearances|Furniture and Storage for Tight Clearances]] for the bedroom instance): an oversized console eats into the walkway between seating and the console with no real functional benefit if a proper wardrobe/closet already exists elsewhere. Recommends a shallow console sized to actual need instead.
+
+`single-account`, `unverified`.
+
+## Furniture Arrangement, Traffic and Seating Distance
+
+### Furniture-Arrangement Patterns and Real Sizing
 
 **⚠️ Five named patterns around a central attraction point** (fireplace
 or media zone): (1) **one-sided** — single sofa facing the point; (2)
@@ -116,78 +191,7 @@ back against a window wall: **minimum 20cm** clearance (radiator +
 curtains); against a windowless wall: **at least 10cm** (baseboard
 clearance).
 
-## TV Placement
-
-- **⚠️ Viewing-distance rule of thumb: 4× the screen's own diagonal** —
-  preferred over a fixed-meter figure (some sources cite 3-3.5m flat)
-  since it self-scales to whatever screen size is chosen. **A third
-  independent flat-figure data point (LA BURO, added 2026-08-25): 2.5m
-  to 4m** from the eye-level point on the sofa back to the screen —
-  another practitioner favoring a flat range over the self-scaling rule.
-  [source: [[_Sources/YT_LvppSP_QUrg_laburo_ideal_layout_key_dimensions|YT_LvppSP_QUrg]]]
-- **⚠️ Mounting-height caution**: don't wall-mount a large TV
-  unnecessarily high to "save floor space" — forces the viewer to crane
-  their neck; keep it at eye level on a low console/stand instead.
-  Corroborated by LA BURO (same source above).
-- **Curtain-line allowance**: budget 20-25cm of wall depth for curtain
-  hardware/fabric thickness in front of any window — don't position a
-  sofa or other furniture flush against a window wall without this
-  allowance. Applies beyond the living room (bedrooms too, same source).
-
-## Fireplace Zone
-
-- **⚠️ Two independent, mechanism-explained reasons large wood-burning
-  fireplaces are increasingly rare in modern living rooms**: (1) a
-  genuinely dirty zone within ~1-1.5m radius rules out nearby rugs/soft
-  furniture; (2) intense localized heat conflicts with good central
-  heating, making the area uncomfortably hot when both run together.
-- **Relocating the fireplace to an adjoining glazed veranda** (house-
-  specific mechanism, not directly applicable to an apartment) keeps
-  mess/heat out of the main room, extends the veranda's usable season,
-  and adds sound isolation via a closable door. **The transferable
-  underlying principle: isolate a genuinely mess-generating, loud, or
-  hot activity zone into a semi-enclosed adjunct space with its own
-  closable door**, rather than forcing it into the main shared living
-  space — relevant to any renovation weighing a similarly disruptive
-  zone, even without a literal veranda.
-
-## Glazing and Heating Interaction (Cross-Reference)
-
-**⚠️ Floor-to-ceiling glazing** raises the natural-light coefficient and
-reads as a strong modern facade feature, but (1) the window must be
-carried nearly to the ceiling (not stopped at a conventional ~1.8-2m
-height, which looks visibly wrong against a ≥3m ceiling) — leave a
-~40-50cm gap at the top for ceiling finish/curtain hardware/ducting; and
-(2) it carries severe heat loss with no sill-wall space for a standard
-radiator — plan underfloor heating or in-screed convectors as the actual
-heat source instead. Corroborates this vault's existing panoramic-
-glazing/bidirectional-radiator content on
-[[12_Engineering_and_Systems/analysis/Radiators_and_Convectors|Radiators and Convectors]]
-from an independent source and angle.
-
-[source: [[_Sources/YT_gnUErjmtHcY_zlobin_living_room_theory_pt1|gnUErjmtHcY]]]
-
-## Corner-Sofa Caution and Deliberate Airiness (Ivan Bezrukov / GRADIZ INTERIOR, added 2026-08-25)
-
-A counter-position worth weighing against this page's own "L-shaped
-(corner)" arrangement pattern above (pattern 3 in the five-pattern
-taxonomy) — that pattern isn't wrong, but this source argues against
-defaulting to it in a genuinely small room specifically:
-
-- **No corner sofas in a small living space** — stated flatly: a corner
-  sofa "eats all the air and openness" of a compact room.
-- **⚠️ Deliberate airiness technique, "leave some space unused"**: use
-  visually light furniture (no bulky legs/solid bases) so sightlines
-  pass under/around pieces, and pull the sofa away from the wall to
-  leave a gap behind it. Explicitly recommends *not* filling that gap
-  with more storage — instead placing plants, a leaning picture frame,
-  or a small shelf, or leaving it genuinely empty — a deliberate
-  rule-break against the instinct to maximize every corner, in service
-  of a felt sense of spaciousness over maximum storage yield.
-
-`single-account`. [source: [[_Sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
-
-## Real-Project Critique: Oversized Sofa, TV Cable-Concealment Niche, Hands-Free Smart Controls (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+### Real-Project Critique: Oversized Sofa, TV Cable-Concealment Niche, Hands-Free Smart Controls (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
 **⚠️ A real, client-approved sofa consumed ~60% of the entire living room's floor area** — the presenter's own retrospective critique, sitting in the finished room, is that he would have chosen a smaller sofa and skipped the matching nightstand/console entirely, since a large sofa plus a large TV is genuinely all the room needs functionally. **A concrete, related planning miss on the same sofa**: no outlet was placed anywhere near/behind it, so charging a phone while seated isn't possible without an extension cord — worth checking outlet placement against the actual seating layout, not just wall perimeter convention.
 
@@ -196,6 +200,19 @@ defaulting to it in a genuinely small room specifically:
 **Voice-controlled hands-free lighting/curtains for a kitchen-adjacent living space, a concrete cooking-scenario use case**: basic smart-home voice control (the presenter's example: "Alice, close the kitchen curtains") lets someone with flour- or dough-covered hands adjust curtains/lighting without touching a physical switch — a specific, relatable justification for voice control beyond generic "convenience," worth citing directly when justifying the added smart-home cost to a client.
 
 `single-account`, `unverified`. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
+
+### Traffic, Seating Distance, and Furniture Variety (Игорь Краснов, added 2026-09-01, Round 2)
+
+Corroborates and adds real figures to this page's existing wall/circulation-clearance content above. [source: [[_Sources/YT_4UJIa7eVlYo_krasnov_living_room_mistakes|4UJIa7eVlYo]]]
+
+- **⚠️ Minimum walkway width in main traffic zones: 75–90 cm** — a second concrete figure alongside this page's existing 1.0–1.2 m circulation-behind-seating range above; his framing is general room traffic flow rather than specifically behind soft seating, so recorded alongside rather than merged with the existing figure.
+- **⚠️ Conversational seating distance should not exceed 2–3 m between seats** for comfortable conversation without raised voices or awkward turning — a distinct figure from this page's existing 2–3 m "distance between two facing armchairs" clearance entry, independently arriving at the same range from a general-comfort rather than a clearance-math framing.
+- **Combine varied furniture types (sofa + armchairs + poufs) rather than one rigid matching set** — creates a flexible space adaptable across different use-cases (quiet family evening vs. hosting guests), a styling counterpart to this page's five-pattern furniture-arrangement taxonomy above.
+- **⚠️ Coffee/side tables must be reachable without leaning or effort** — size/height should be proportional to the seating height; compact, mobile models let the table be repositioned per guest count.
+- **⚠️ Symmetry is not mandatory.** Strict mirror-image furniture placement reads as predictable/impersonal outside classical/formal styles; **asymmetric pairing** (one sofa + a differently-styled armchair pair/ottoman, rather than a matched sofa pair) reads as more dynamic and individual, provided pieces stay coherent via shared color/material rather than matched form. A styling counterpoint worth reading alongside Ivan Bezrukov/GRADIZ's corner-sofa caution above, though that entry is about small-room airiness specifically, not symmetry as such.
+- **⚠️ Rug-sizing rule: the rug should be large enough that all seating-zone furniture sits on it, or at minimum the FRONT legs of every piece rest on the rug** — a too-small rug makes furniture look scattered/disconnected. Corroborated, near-verbatim, by the same channel's later video in this round ([[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]) — same-channel, `single-account` per this vault's corroboration convention (same channel ≠ independent source), not double-counted.
+
+`single-account`, `unverified`.
 
 ## Change Log
 
@@ -210,71 +227,6 @@ defaulting to it in a genuinely small room specifically:
   replaced with a summary + link per this project's layered-page
   convention.
 
-## Sofa Visual Weight and Table Co-Scale (Мария Шеврина / SMBUREAU, added 2026-08-30)
+## TV, fireplace, glazing and heating — moved to their own page
 
-Two additions that sit directly against this page's existing sofa-sizing material:
-
-- **⚠️ A compact sofa can make a small room read *smaller*, not larger** — the counter-intuitive one. People buy short-but-bulky precisely because the room is small. Her stated mechanism: **high seat height plus disharmonious side-proportions**; her fix: **add legs at the same overall sitting height**, which lowers the cushion mass relative to the floor and lightens the piece without costing seat height. She notes the same model can read elegant in its larger configuration and wrong in the compact one.
-- **⚠️ Scale the low/side table to the sofa**: a small-diameter side table suits a sofa of roughly **180–190 cm**; against a **2,400–2,500 mm** sofa the same table reads out of scale.
-
-Full treatment in [[14_Furniture/Seating_and_Tables|Seating & Tables]], a new page created the same day. `single-account`, `unverified`. [source: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]]] [source: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
-
-## Only Two Typical Living-Room Layouts, and One Sofa (Надежда Кузина, added 2026-09-01)
-
-Her systematisation of why Russian design portfolios converge. Satirical in delivery, **accurate as a description of the market**, and therefore useful both as a default and as the thing to deviate from deliberately. [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
-
-- **⚠️ One sofa model appears in every typical project: the Lawson.** High legs, removable seat and back cushions, **and the seat is always divided into several cushions.** **The style axis lives entirely in the arms** — more rectangular or square for contemporary, more rounded for classical. Upholstery is velvet in light brown / beige / greyish.
-- **⚠️ Only two layouts exist**:
-  1. **Sofa against a wall** — the wall behind it then gets the moulding-or-slat treatment (see [[17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique|Decor & Finish Selection Technique]]).
-  2. **Sofa in the middle of the room, because the kitchen is combined with the living room.** Same Lawson with an added chaise, **its back dividing kitchen from living zone, with the dining table or bar counter set along that back.** Compare this page's existing furniture-toward-the-centre material and [[04_Living_and_Dining_Room/analysis/Kitchen_Living_Zoning|Kitchen-Living Zoning]].
-- **Coffee table: usually round**; base gold or brass for classical, black for contemporary.
-- **TV unit: a low elongated rectangle with flat or slatted fronts**, optionally joined to a floor-to-ceiling flat-fronted cabinet. **The TV wall opposite is treated exactly like the sofa wall**, with natural stone or large-format marble-effect porcelain added in more expensive projects.
-- **A bedroom TV zone looks identical**, except the cabinet may be a dressing table instead.
-- **⚠️ The one bright object in the whole scheme is the dining chairs** — emerald, blue, dusty blue or dusty pink; if they are grey or beige instead, **nothing in the room is the bright piece.** Cushions on the sofa pick up the chair colour when both share a space.
-
-## Traffic, Seating Distance, and Furniture Variety (Игорь Краснов, added 2026-09-01, Round 2)
-
-Corroborates and adds real figures to this page's existing wall/circulation-clearance content above. [source: [[_Sources/YT_4UJIa7eVlYo_krasnov_living_room_mistakes|4UJIa7eVlYo]]]
-
-- **⚠️ Minimum walkway width in main traffic zones: 75–90 cm** — a second concrete figure alongside this page's existing 1.0–1.2 m circulation-behind-seating range above; his framing is general room traffic flow rather than specifically behind soft seating, so recorded alongside rather than merged with the existing figure.
-- **⚠️ Conversational seating distance should not exceed 2–3 m between seats** for comfortable conversation without raised voices or awkward turning — a distinct figure from this page's existing 2–3 m "distance between two facing armchairs" clearance entry, independently arriving at the same range from a general-comfort rather than a clearance-math framing.
-- **Combine varied furniture types (sofa + armchairs + poufs) rather than one rigid matching set** — creates a flexible space adaptable across different use-cases (quiet family evening vs. hosting guests), a styling counterpart to this page's five-pattern furniture-arrangement taxonomy above.
-- **⚠️ Coffee/side tables must be reachable without leaning or effort** — size/height should be proportional to the seating height; compact, mobile models let the table be repositioned per guest count.
-- **⚠️ Symmetry is not mandatory.** Strict mirror-image furniture placement reads as predictable/impersonal outside classical/formal styles; **asymmetric pairing** (one sofa + a differently-styled armchair pair/ottoman, rather than a matched sofa pair) reads as more dynamic and individual, provided pieces stay coherent via shared color/material rather than matched form. A styling counterpoint worth reading alongside Ivan Bezrukov/GRADIZ's corner-sofa caution above, though that entry is about small-room airiness specifically, not symmetry as such.
-- **⚠️ Rug-sizing rule: the rug should be large enough that all seating-zone furniture sits on it, or at minimum the FRONT legs of every piece rest on the rug** — a too-small rug makes furniture look scattered/disconnected. Corroborated, near-verbatim, by the same channel's later video in this round ([[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]) — same-channel, `single-account` per this vault's corroboration convention (same channel ≠ independent source), not double-counted.
-
-`single-account`, `unverified`.
-
-## ⚠️ What Goes Above a Sofa — With a Dimension (Надежда Кузина, added 2026-09-01)
-
-From a source on focal points; the general concept is on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]. [source: [[_Sources/YT_YaIuW1lX1sU_kuzina_focal_point|YaIuW1lX1sU]]]
-
-- **⚠️ A mirror or picture above a sofa must be not less than HALF the sofa's length — better 2/3.**
-- **⚠️ If the piece is not long enough, make up the distance**: sconces either side of it, or side tables with table lamps beside the sofa.
-- **⚠️ Fill space evenly — put long against long.** A long sofa against long walls, no illogical voids; **horizontal pictures over long furniture.**
-- **⚠️ Leave enough clearance between the sofa back and whatever hangs above, so seated people do not knock it.**
-- **⚠️ If space allows, pull the sofa slightly forward** — it removes the effect of soft furniture crammed in and pressed flat against the wall.
-- **⚠️ If the sofa stands mid-room with nothing hangable above it, supply the vertical component another way: tall houseplants (a restaurant device), or a console behind the sofa carrying table lamps (an American one).**
-
-**Art as a focal point is "палочка-выручалочка" where furniture will not fit or is not wanted** — her worked case is an owner who did not want a TV zone, given a bright picture with a horizontal shelf beneath instead, **and the space reads fully composed.**
-
-**Dining zone: the tabletop is rarely accented because it sits below eye level.** Use **the light fitting, a chest with decor above it, or a display cabinet** — filled with interesting glassware, flanked by chairs in interesting upholstery.
-
-## ⚠️ TV-Centric Layout Critique (Игорь Краснов, added 2026-09-01, Round 3)
-
-Extends this page's existing TV Placement section above rather than duplicating it — that section addresses viewing distance and mounting height; this addresses whether the TV should be the room's organizing principle at all. [source: [[_Sources/YT_gbOoH1oV4Hk_krasnov_interiors_age_badly|gbOoH1oV4Hk]]]
-
-- **⚠️ Avoid designing a living room entirely around a wall-mounted TV as the primary visual/social focus.** Recommends a projector used deliberately (turned on intentionally for planned viewing, not left running as ambient background) specifically to prioritize face-to-face conversation and reduce eye strain.
-- **When a TV is used, prioritize furniture arrangement for conversation first** (seating that faces itself, room for drinks/feet-up comfort) and treat TV placement as subordinate — names several acceptable placement options (symmetric over a fireplace, on an open shelf, wall-mounted on an articulating bracket in a corner, on a media console) as long as the TV isn't the room's dominant focal point.
-
-`single-account`, `unverified`.
-
-## Round 4 Additions — Coffee-Table Context Rule, Furniture-Set Default Critique, and a Deep-Console Cross-Reference (Игорь Краснов, added 2026-09-01)
-
-[source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
-
-- **⚠️ Oversized coffee tables in compact living rooms block walkways** — recommends smaller side/accent ("приставные") tables in small spaces; reserves large/cascading coffee-table compositions for genuinely large country houses (living rooms 20m²+ standalone, or 300-500m²+ houses overall) — a specific context-matching rule.
-- **⚠️ Avoid the reflexive "sofa + two armchairs" furniture-set default** regardless of actual room size — leaving genuine open floor area is itself functional ("воздух" — room to breathe), not wasted space.
-- **Deep dressers/consoles under a living-room TV — a specific mistake, applying equally to a bedroom per the same source** (see [[06_Small_Bedroom/analysis/Furniture_and_Storage_for_Tight_Clearances|Furniture and Storage for Tight Clearances]] for the bedroom instance): an oversized console eats into the walkway between seating and the console with no real functional benefit if a proper wardrobe/closet already exists elsewhere. Recommends a shallow console sized to actual need instead.
-
-`single-account`, `unverified`.
+See **[[04_Living_and_Dining_Room/analysis/TV_Fireplace_and_Glazing|TV, Fireplace, Glazing and Heating in a Living Room]]**. This page keeps room proportion, sofa selection, and furniture arrangement.

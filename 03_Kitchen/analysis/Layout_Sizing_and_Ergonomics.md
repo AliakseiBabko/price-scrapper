@@ -4,7 +4,11 @@ Where a kitchen's modules, runs, island and working heights are decided, and the
 
 Siblings: [[03_Kitchen/analysis/Appliance_Integration|Appliance Integration]] · [[03_Kitchen/analysis/Cabinet_Assembly_Technique|Cabinet Assembly Technique]] · [[03_Kitchen/analysis/Storage_and_Hardware|Storage & Hardware]] · [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops & Backsplash]] · [[03_Kitchen/analysis/Kitchen_Lighting|Kitchen Lighting]] · [[03_Kitchen/analysis/Kitchen_Cost_and_Priorities|Cost & Priorities]]
 
-## ⚠️ Kickplate/Toe-Kick Ergonomics — This Round's Headline Kitchen Finding (Игорь Краснов, added 2026-09-01, Round 3)
+## Cabinet Modules, Dimensions and Toe-Kick Ergonomics
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### ⚠️ Kickplate/Toe-Kick Ergonomics — This Round's Headline Kitchen Finding (Игорь Краснов, added 2026-09-01, Round 3)
 
 [source: [[_Sources/YT_qwh1x15aM4s_krasnov_kitchen_solutions_disappoint|qwh1x15aM4s]]]
 
@@ -17,17 +21,13 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 
 `single-account`, `unverified`.
 
-## Cabinet Modules & Sizing
+### Cabinet Modules & Sizing
 
 - **Default every cabinet module to a standard width (40/50/60cm etc.)** — custom-sized modules (e.g. 537mm, 649mm) typically carry a real cost premium and integrate less reliably with built-in appliances sized for standard modules. If a run's total length doesn't divide evenly, make only the *last* module in the run custom-sized so every other module stays a round 5cm/10cm multiple, or use a plain filler/spacer strip instead of resizing a functional cabinet.
 - **Filler-strip technique, two concrete uses**: (1) between the fridge and an adjacent wall/window, sized so the fridge door swings a full 90-95° without hitting a nearby window-sill overhang — also eliminates a dead, unreachable gap behind the fridge that otherwise becomes an accumulation point for stray plastic bags; (2) a narrow pull-out filler strip beside the cooktop for oil/small-item storage, doubling as a buffer between the cooktop and an adjacent module (some cabinet manufacturers require a minimum cooktop-to-module gap, so including this strip by default keeps a layout compatible with more manufacturers).
 - **Route plumbing/electrical for a kitchen wall run through a furring/false wall, never by chasing a load-bearing wall directly** — never disturb the load-bearing wall's internal rebar; build the furring wall out from it instead (worked example: a 50mm furring wall carrying sink/dishwasher/washing-machine plumbing).
 
-## Cooking-Zone Definition
-
-- **Primary cooking zone = the counter run between the sink and the cooktop** — where most hands-on food prep happens; maximize this span when laying out a kitchen. **Secondary zones** (outside that span) are the right place for "parking spot" storage of occasionally-used small appliances (e.g. a meat grinder stored in a drawer) or a permanently-plugged-in appliance kept out (e.g. a coffee machine on a dedicated countertop spot).
-
-## Cabinet Dimensioning Standards (added 2026-08-25)
+### Cabinet Dimensioning Standards (added 2026-08-25)
 
 > [!NOTE]
 > First dedicated dimensioning-standards source on this page — complements the Cabinet Modules & Sizing section above (which covers module-width discipline) with the actual height/depth figures those modules should follow. [source: [[_Sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|note]]]
@@ -41,7 +41,13 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 
 `single-account`, `unverified`. [source: [[_Sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|YT_Ubl--73gmTs]]]
 
-## Corner-Kitchen Critique and a Linear-Plus-Dresser Alternative (Ivan Bezrukov / GRADIZ INTERIOR, added 2026-08-25)
+## Layout Forms — Corner, Linear and the Island
+
+### Cooking-Zone Definition
+
+- **Primary cooking zone = the counter run between the sink and the cooktop** — where most hands-on food prep happens; maximize this span when laying out a kitchen. **Secondary zones** (outside that span) are the right place for "parking spot" storage of occasionally-used small appliances (e.g. a meat grinder stored in a drawer) or a permanently-plugged-in appliance kept out (e.g. a coffee machine on a dedicated countertop spot).
+
+### Corner-Kitchen Critique and a Linear-Plus-Dresser Alternative (Ivan Bezrukov / GRADIZ INTERIOR, added 2026-08-25)
 
 > [!NOTE]
 > Real client project, Yekaterinburg market. `single-account`, opinionated stance against corner kitchens — presented here as a counter-position, not settled consensus (this vault's own existing corner-kitchen technique above, from a different practitioner, treats a corner layout as a workable default when handled with a technical column). [source: [[_Sources/YT_7FbmDb6U2Ac_gradiz_arkhitekton_yekaterinburg_layout|YT_7FbmDb6U2Ac]]]
@@ -71,7 +77,7 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
   developer default of placing the kitchen at the darkest, window-
   furthest end (forcing near-constant artificial light).
 
-## Kitchen Island Sizing (added 2026-08-18)
+### Kitchen Island Sizing (added 2026-08-18)
 
 - **An island is only appropriate in kitchens ≥14 m²** — smaller kitchens lack adequate passage clearance for one.
 - **Clearance: minimum 80cm on every side except one facing a sofa/dining area** — anything less doesn't let two people pass comfortably, and if the tight side faces a window, curtains will catch on the island.
@@ -80,7 +86,16 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 - **Island height should match its actual intended use, not a universal standard**: cooking-zone height should match the main counter's chosen height (fix that first via showroom trials); bar/eating-surface height should be chosen by trying several stool heights — no single correct height exists for either use case.
 - **Avoid countertop-embedded pop-up/retractable outlets on an island** — food/liquid residue reportedly jams the extend mechanism over time; prefer a flush, statically-lidded (non-extending) outlet housing instead.
 
-## Pinterest-Review Critique: Mezzanine Depth, Microwave Height, Storage/Island Tricks (added 2026-08-28)
+### Island Plumbing Feasibility and Seating, Nikita Kuznetsov (Ontario, added 2026-08-28, Round 16)
+
+- **⚠️ A sink/dishwasher/washer built into a kitchen island depends on the sewer stack's real proximity, not just layout preference**: the presenter's own explicit caution is that he "wouldn't normally do this," but it worked on this real project specifically because the sewer stack and supply lines happened to sit close to the planned island location — avoiding the screed elevation that a longer drain run would otherwise need for proper fall/slope. Check the real distance to the stack before committing to island plumbing, rather than assuming it always works.
+- **A second island-seating solution, distinct from this page's existing ~30cm counter-overhang approach**: a separate, free-standing table-height surface butted against the island at matching height — visually reads as one continuous structure, but can be moved/repositioned later since it isn't physically fixed to the island. An alternative worth naming alongside the fixed-overhang approach, not a replacement for it.
+
+[source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
+
+## Real-Project Cases and Critiques
+
+### Pinterest-Review Critique: Mezzanine Depth, Microwave Height, Storage/Island Tricks (added 2026-08-28)
 
 > [!NOTE]
 > A ~25-photo Pinterest kitchen review — cross-checked against this page's existing mezzanine-lighting caution, appliance-placement, and island-sizing content before recording anything below as new. [source: [[_Sources/YT_N6UZiZ1-sNI_kruglov_pinterest_kitchens|YT_N6UZiZ1-sNI]]]
@@ -96,7 +111,7 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 
 `single-account`, `unverified`. [source: [[_Sources/YT_N6UZiZ1-sNI_kruglov_pinterest_kitchens|YT_N6UZiZ1-sNI]]]
 
-## Real-Project Worked Case: No-Upper-Cabinets Storage Relocation, Sequencing, and Sizing Cautions (added 2026-08-28)
+### Real-Project Worked Case: No-Upper-Cabinets Storage Relocation, Sequencing, and Sizing Cautions (added 2026-08-28)
 
 > [!NOTE]
 > A real single-project walkthrough (praise and critique of the same completed kitchen) — cross-checked against Round 8's 2026-trends content and this round's own videos 1-2 first; most named brands/mechanisms in this video were already recorded and are not repeated here. [source: [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
@@ -107,18 +122,7 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 - **Backsplash-tile-after-countertop installation sequencing rule**: install and level the countertop first, then fit the tile backsplash down onto it — a cleaner, less-staining, longer-lasting, and more repairable joint at the seam than tiling first.
 - **Compact extending/transforming table recommended over a large fixed table for a small, low-occupancy household** — a heavy (~50kg) fixed table base is functionally immovable day-to-day and risks scratching a porcelain-tile floor if dragged rather than lifted.
 
-## Kitchen Layout Trends — Bar Counter Height and an "Invisible Kitchen" Critique (Round 14 triage, added 2026-08-28)
-
-- **⚠️ Bar counter lowered to standard dining-table height, new trend, no prior coverage on this page**: rather than a traditional elevated bar counter (uncomfortable for extended seating, especially with young children), this trend keeps the counter at normal dining-table height while retaining the visual "bar" composition as part of the kitchen cabinetry — the source calls it one of the best kitchen layout trends of the last 1.5-2 years, since it resolves the comfort-vs-bar-aesthetic tension directly rather than trading one for the other.
-- **"Invisible/hidden kitchen" trend — a design-marketing critique**: fully concealing the entire cooking zone (including the sink) behind cabinetry so the space reads as having no kitchen when closed. The source's own position: suits summer kitchens/terraces in private houses or office pantries, but **not apartments** — he considers washing dishes immediately after use "not stressful enough to justify" the added cost/complexity, despite seeing it increasingly marketed specifically for apartment kitchens on social media.
-
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
-- **Voice-controlled curtains via smart home, alongside voice-controlled lighting** — extends this page's existing voice-control lighting content (above) with curtain control in the same hands-free, cooking-with-dirty-hands use case.
-- **Door-mounted trash-bin retrofit claim**: this page's existing door-mounted bin-attachment kit is confirmed retrofit-compatible — installable onto an existing kitchen cabinet door even a decade after that kitchen's original installation, without a full kitchen replacement.
-
-`single-account`, `unverified`. [source: [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
-
-## Real-Project Mistakes: Island Detail, Ceiling Integration, Appliance-Placement Rules (added 2026-08-28)
+### Real-Project Mistakes: Island Detail, Ceiling Integration, Appliance-Placement Rules (added 2026-08-28)
 
 > [!NOTE]
 > A real-project walkthrough by a different on-camera presenter (Nikita Kuznetsov) on the same Ontario channel — cross-checked against this round's own `A1mvvVObK5M` (the other "top 10 mistakes" video) and this page's existing content first; overlap between the two "mistakes" videos turned out low, contrary to the round's own dispatch expectation — only one item overlapped directly (food-waste disposer concept) and it isn't re-recorded. **One further genuine disagreement found, on combining oven and microwave — see callout below.** [source: [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
@@ -142,21 +146,14 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 
 `single-account`, `unverified`. [source: [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|YT_-1HBQkULK4Y]]]
 
-## Island Plumbing Feasibility and Seating, Nikita Kuznetsov (Ontario, added 2026-08-28, Round 16)
-
-- **⚠️ A sink/dishwasher/washer built into a kitchen island depends on the sewer stack's real proximity, not just layout preference**: the presenter's own explicit caution is that he "wouldn't normally do this," but it worked on this real project specifically because the sewer stack and supply lines happened to sit close to the planned island location — avoiding the screed elevation that a longer drain run would otherwise need for proper fall/slope. Check the real distance to the stack before committing to island plumbing, rather than assuming it always works.
-- **A second island-seating solution, distinct from this page's existing ~30cm counter-overhang approach**: a separate, free-standing table-height surface butted against the island at matching height — visually reads as one continuous structure, but can be moved/repositioned later since it isn't physically fixed to the island. An alternative worth naming alongside the fixed-overhang approach, not a replacement for it.
-
-[source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
-
-## Real-Project Critique: Prep-Zone Clearance, Heated-Floor Thermostat Placement (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+### Real-Project Critique: Prep-Zone Clearance, Heated-Floor Thermostat Placement (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
 - **⚠️ Insufficient counter clearance for food prep in a compact one-wall kitchen, a real defect example**: the gap between the sink and cooktop, and separately between the cooktop and a built-in coffee machine, was too narrow for comfortable food preparation. The presenter's own diagnosis: the design called for a 4-burner cooktop in a footprint that couldn't really support the counter space a household that cooks often would need — acceptable in this specific case only because the clients (a young couple) don't cook much and rely on Moscow's fast food-delivery market instead. **Planning takeaway**: if food prep matters to your household, verify actual counter clearance on both sides of the cooktop against your own cooking habits before finalizing a compact one-wall layout, rather than assuming any cooktop size fits.
 - **⚠️ Heated-floor thermostat placed on the backsplash — a real placement mistake, new to this store's heated-floor content**: mounting the floor-heating control panel on the kitchen backsplash competes for scarce outlet/socket space in the exact zone with this store's highest outlet demand (multiple small appliances). **Compounding reason it's the wrong location**: heated floors have a 2-3 hour lag before warmth is actually felt, so a backsplash-mounted manual toggle invites impulsive on/off use that doesn't match the system's real response time. **Recommended fix**: mount the thermostat on a wall away from the backsplash, and use a smart/programmable thermostat capable of a **fixed twice-daily schedule** (e.g. warm before waking, warm again in the evening) rather than manual toggling.
 
 [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
 
-## Real-Project Case Notes (Игорь Краснов, narrating third-party footage, added 2026-09-01, Round 6)
+### Real-Project Case Notes (Игорь Краснов, narrating third-party footage, added 2026-09-01, Round 6)
 
 Two real, independently-documented projects narrated/critiqued by Krasnov — not his own studio's work. Cabinet-mechanism/configuration content only; see each source note for the full two-layer attribution.
 
@@ -171,3 +168,16 @@ Integrated/panel-matched fridge plus a large decorative range-hood shelf painted
 ---
 
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Sources for every claim on this page: [[03_Kitchen/analysis/Kitchen_Furniture_Source_Notes|Kitchen Furniture — Source Notes]]. Edit history: [[03_Kitchen/analysis/Kitchen_Furniture_Change_Log|Kitchen Furniture — Change Log]].
+
+## Layout Trends
+
+### Kitchen Layout Trends — Bar Counter Height and an "Invisible Kitchen" Critique (Round 14 triage, added 2026-08-28)
+
+- **⚠️ Bar counter lowered to standard dining-table height, new trend, no prior coverage on this page**: rather than a traditional elevated bar counter (uncomfortable for extended seating, especially with young children), this trend keeps the counter at normal dining-table height while retaining the visual "bar" composition as part of the kitchen cabinetry — the source calls it one of the best kitchen layout trends of the last 1.5-2 years, since it resolves the comfort-vs-bar-aesthetic tension directly rather than trading one for the other.
+- **"Invisible/hidden kitchen" trend — a design-marketing critique**: fully concealing the entire cooking zone (including the sink) behind cabinetry so the space reads as having no kitchen when closed. The source's own position: suits summer kitchens/terraces in private houses or office pantries, but **not apartments** — he considers washing dishes immediately after use "not stressful enough to justify" the added cost/complexity, despite seeing it increasingly marketed specifically for apartment kitchens on social media.
+
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
+- **Voice-controlled curtains via smart home, alongside voice-controlled lighting** — extends this page's existing voice-control lighting content (above) with curtain control in the same hands-free, cooking-with-dirty-hands use case.
+- **Door-mounted trash-bin retrofit claim**: this page's existing door-mounted bin-attachment kit is confirmed retrofit-compatible — installable onto an existing kitchen cabinet door even a decade after that kitchen's original installation, without a full kitchen replacement.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]

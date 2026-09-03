@@ -10,20 +10,18 @@ Covers tile size taxonomy, laying sequence, grout selection, corner treatment, p
 - [[07_Bathroom/analysis/Tile_Cutting_Handling_and_Special_Formats|Tile Cutting, Handling & Special Formats]] — *the awkward cases*: small-format custom slopes, very large slabs, rectified joints, glass mosaic, hexagons, curved walls.
 - [[07_Bathroom/analysis/Tile_Grout_Selection_and_Protection|Tile Grout Selection & Protection]] — *the joints*: grout type comparison, colour selection, cost, repair and impregnation.
 
-## Size Taxonomy
+## Buying, Cost and Quality Parameters
 
-Archive-only size claims lack a confirmed channel; named extraction-note blocks below retain their own source mapping.
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
 
-A useful reference vocabulary: classic 20–60 cm; "narrow"/plank tile (short:long ratio ≥1:3, wood-look); "medium large-format" 80–140 cm; "large-format" 150–240 cm; "very large format" >240 cm; small-format mosaic/"кабанчик" (subway-style), on mesh sheets or loose.
-
-## Skip Trim/Border Strips ("Фризы"/Бордюры) for Budget Work (RemProektMD, added 2026-08-24)
+### Skip Trim/Border Strips ("Фризы"/Бордюры) for Budget Work (RemProektMD, added 2026-08-24)
 
 > [!NOTE]
 > Chișinău/Moldova channel, region level 2 only. `single-account`, no absolute prices for this specific claim. [source: [[_Sources/YT_OP8ALhLynHE_remproektmd_12_money_saving_tips|OP8ALhLynHE]]]
 
 RemProektMD/Andrei recommends **skipping decorative tile trim/border strips** ("фризы," "бордюры," typically run in a single or double row around the room perimeter) for budget bathroom work: unlike field tile (priced per m²), these are priced **per piece or per linear meter**, and their installation labor is also billed per linear meter/piece rather than folded into the general tiling rate — both add real, avoidable cost. Also notes a general stylistic trend away from border strips toward a solid-color, full-field tile look, though this specific observation is opinion, not a checkable fact.
 
-## Tile and Adhesive Buying Practice (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, Round 1, added 2026-08-28)
+### Tile and Adhesive Buying Practice (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, Round 1, added 2026-08-28)
 
 > [!NOTE]
 > Vladimir Amelchenko, `Zd6yryCjyhM`. Low promotional ratio, `single-account`. [source: [[_Sources/YT_Zd6yryCjyhM_sbk_10_bathroom_mistakes|YT_Zd6yryCjyhM]]]
@@ -31,7 +29,7 @@ RemProektMD/Andrei recommends **skipping decorative tile trim/border strips** ("
 - **⚠️ Never buy clearance/close-out tile from limited remaining stock, and never buy the exact piece count a store's layout diagram shows**: tile develops internal stress during cutting, and a normal fraction cracks during installation regardless of installer skill — this is expected process loss, not a sign of poor workmanship, and it requires spare stock. Buying a discontinued or near-sold-out line at exactly the calculated quantity leaves no margin for this: matching replacement tile may be unobtainable at any price if the collection is truly gone, or may require expensive small-quantity shipping from another city's stock.
 - **⚠️ Select tile adhesive by its class letter/number code (S1/S2/C1/C2, etc.), not by price**: these codes denote formulations for different tile weights, formats, substrates, and room types. A materially cheaper bag carrying the same generic "tile adhesive" label can be a genuine substrate/tile mismatch, not just a lower-quality version of the same product.
 
-## General Tile Buying Guide: Scam Warning, Diagonal-Layout Life-Hack, and Wall-Tile Cost Comparison (Konstantin Kruglov / Ontario, added 2026-08-28, Round 7)
+### General Tile Buying Guide: Scam Warning, Diagonal-Layout Life-Hack, and Wall-Tile Cost Comparison (Konstantin Kruglov / Ontario, added 2026-08-28, Round 7)
 
 > [!NOTE]
 > Cross-checked against this page's existing size taxonomy, porcelain-tile-dominance figure, and grout comparison table — those largely corroborate and aren't re-recorded; only genuinely new items below. Also checked against this channel's own existing tiling-technique video (`MOYwhSd8tv4`) — no direct overlap. Region level 2 only. Low promotional ratio. [source: [[_Sources/YT_YvtdjHJhfpU_kruglov_choosing_tile|YT_YvtdjHJhfpU]]]
@@ -42,7 +40,7 @@ RemProektMD/Andrei recommends **skipping decorative tile trim/border strips** ("
 - **Sharper floor-tile-material-dominance figure**: this source states **99%** of floor tile sold today is porcelain rather than ceramic — a slightly stronger, floor-specific version of this page's existing ~90% displacement figure, not merged with it.
 - **Epoxy-grout bond-strength illustration**: epoxy (two-component) grout bonds so strongly that prying a single tile off an epoxy-grouted installation breaks the tile itself before the grout joint gives way — a vivid mechanism illustrating this page's existing epoxy-durability comparison.
 
-## Porcelain Tile Selection — Type, Format, Quality Parameters, and Pricing
+### Porcelain Tile Selection — Type, Format, Quality Parameters, and Pricing
 
 Zemstandart / Zemproekt supports the named tile-selection extraction notes; any legacy archive-only price claim lacks a confirmed channel.
 
@@ -62,7 +60,7 @@ From a tile-industry wholesaler guest-source. **Flag pricing and country-of-orig
 - **Three practical buying tips (general technique, not commercial)**: (1) avoid "discontinued"/clearance tile even at a good price — often assembled from mismatched warehouse batches with calibre/color inconsistencies across the lot; (2) avoid pre-ordering foreign tile that doesn't physically exist yet (made-to-order) — quoted lead times reportedly stretch to 6-12 months in practice fairly often; (3) buy tile 1-2 months ahead of installation, and if storage on-site isn't practical, pay the retailer to hold it rather than risk the specific batch selling out or being discontinued.
 - **Level, flush bathroom flooring (no threshold) needs genuinely water-immune flooring — per Zemskov's caution**: he calls a flush-with-the-apartment-floor look often non-compliant with regulations he doesn't name or cite (`unverified` claim) and a real leak-exposure risk — even with a leak sensor at every fixture, some water reaches the floor before the sensor trips. Only pair this look with genuinely water-immune flooring (he names a material transcribed as "скворцинил," almost certainly a mis-transcription of "кварцвинил"/quartz-vinyl — `ASR-uncertain` on the exact name).
 
-## Tile vs. Porcelain Stoneware — Material, Format, and Quality-Factor Primer (Петришин-Строй, added 2026-08-24, Round 4)
+### Tile vs. Porcelain Stoneware — Material, Format, and Quality-Factor Primer (Петришин-Строй, added 2026-08-24, Round 4)
 
 > [!NOTE]
 > Region level 2 only (channel branding, no city spoken this video). Low promotional ratio. [source: [[_Sources/YT_rt9R26k6dEM_petrishin_tile_vs_porcelain|rt9R26k6dEM]]]
@@ -76,34 +74,23 @@ From a tile-industry wholesaler guest-source. **Flag pricing and country-of-orig
 - **⚠️ Coloring-method durability rule, floor-specific**: surface-colored tile wears through visibly over time on a floor — use through-body-colored tile for floors; walls can use either coloring method.
 - **Two buying-scam cautions**: avoid a discontinued production line even at a good price (remaining stock may mismatch caliber/color across warehouses/batches); avoid pre-ordering foreign tile not yet manufactured against prepayment (source: ~90% of promised ~2-month lead times stretch to 6 months-1 year).
 
-## Patterned/Printed Tile Print-Quality Risk (added 2026-08-19, remainder-pool batch)
+### Patterned/Printed Tile Print-Quality Risk (added 2026-08-19, remainder-pool batch)
 
 **Printed/patterned large-format porcelain tile (imitation stone/marble-look) can show visible print-quality inconsistency across pieces once installed at scale** — the same printed pattern rendered inconsistently (uneven tinting, and on some cut pieces the print missing entirely, showing bare clear glaze underneath). **Practical guidance**: keep tile selection simple/plain rather than heavily patterned in a room that already has other visual-interest elements (e.g. a rain-shower fixture) — simplicity reduces exposure to this print-defect risk and still reads as intentional. `single-account`, `unverified`. [source: [[_Sources/YT_f1KpZOQSZgQ_client_workflow_interview_60m2_513|YT_f1KpZOQSZgQ]]]
 
-## Large-Format + Small-Format Tile Combination — a 2025-2026 Trend (added 2026-08-24)
+## Format, Undertone and Relief
+
+### Size Taxonomy
+
+Archive-only size claims lack a confirmed channel; named extraction-note blocks below retain their own source mapping.
+
+A useful reference vocabulary: classic 20–60 cm; "narrow"/plank tile (short:long ratio ≥1:3, wood-look); "medium large-format" 80–140 cm; "large-format" 150–240 cm; "very large format" >240 cm; small-format mosaic/"кабанчик" (subway-style), on mesh sheets or loose.
+
+### Large-Format + Small-Format Tile Combination — a 2025-2026 Trend (added 2026-08-24)
 
 Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 80×120cm) with a small-format tile or mosaic (e.g. "кабанчик"/subway-style) in the same room — a deliberate large-vs-small contrast, not a matched, uniform surface. **Cited designer rationale**: adds volume/dynamism to the room ("the interior lives") and creates a visual zoning effect even though a bathroom is a small space to begin with. **No stated downside** beyond the ordinary subjective-taste caveat — the source explicitly says the only thing that matters is whether the client likes the designer's specific combination, not a technical drawback. `single-account`, `unverified`. [source: [[_Sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
 
-## Mosaic vs. Rigid Tile — Curved/Organic-Shape Capability, and a Luxury Reference Price Point (Петришин-Строй, added 2026-08-24, Round 8)
-
-- **Curved/organic-shape capability distinction between mosaic and rigid
-  tile**: a client-requested custom shower stall in a deliberate curved
-  "teardrop" shape was executed in mosaic specifically because rigid
-  tile can't follow a smooth curved surface without either shrinking to
-  an impractically small format or leaving visibly ugly cut edges at the
-  curve — a genuine material-capability distinction for organic/curved
-  bathroom geometry.
-- **⚠️ Luxury reference data point, out of this project's own budget
-  scope**: a real 24-karat-gold-leaf mosaic (gold leaf between two glass
-  layers, certificate card per box stating gold karat) installed at
-  **€5,500/m²** for a private home pool project; a separate bathroom in
-  the same project used a silver-leaf mosaic. Recorded per this
-  project's price-comparability convention, explicitly flagged as a
-  luxury/pool-specific tier, not comparable to an apartment-renovation
-  budget.
-- [source: [[_Sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
-
-## Format and Colour Rules for Stone-Look Tile (Мария Шеврина / SMBUREAU, added 2026-08-30)
+### Format and Colour Rules for Stone-Look Tile (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 - **⚠️ With a marble or marble-look decor there is no workable middle format.** Named as unacceptable: **20×40 and 30×60.** Go either genuinely small, or **larger than 120×60** — she names 150×80, or wide-format ceramic at roughly 3 m × 1.5 m with a proper stone figure running floor to ceiling. Her stated reason is that at mid formats the repeat becomes obtrusive and stops reading as stone.
 - **⚠️ The same threshold appears in her cost analysis from the opposite direction**: if the porcelain is a natural-stone imitation, **do not drop below ~120×45** when economising — small stone-look formats look bad, so shrinking the format is only a sensible economy in *non-stone* designs.
@@ -114,7 +101,7 @@ Konstantin Kruglov / Ontario: combining a large/medium-large-format tile (e.g. 8
 
 `single-account`, `unverified`. [source: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]] [source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]] [source: [[_Sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]] [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]] [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
-## Format, Undertone and Relief — a Deeper Pass (Мария Шеврина / SMBUREAU, added 2026-08-30)
+### Format, Undertone and Relief — a Deeper Pass (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 This page already carries her Round 1 format rules. A dedicated tile video adds the causes, a showroom test, and a hard cost consequence.
 
@@ -160,7 +147,7 @@ Plus a fourth, physical cause: **many such tiles are printed with darkened edges
 
 [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
 
-## Rectangular Over Square on Walls, and Grout (added 2026-08-31)
+### Rectangular Over Square on Walls, and Grout (added 2026-08-31)
 
 - **⚠️ Prefer rectangular tile formats over square on walls.** Her stated mechanism: **people find elongated/horizontal forms more agreeable than squares** — she points to screens, phones and televisions all being rectangular. **Square porcelain is fine on floors**, because you see it in perspective rather than face-on, and because you look at walls far more than at floors. Orientation of the rectangles is free choice. *(This is one of three distinct applications of the same asserted perceptual preference across her catalogue — tile format, pillow shape, and device screens — so treat it as one consistent position rather than three findings.)*
 - **⚠️ Cement grout cracks over a heated floor or a heated wall** — a failure mode she says people routinely miss. The cracks then admit water and dirt and cannot be cleaned out. Separately, cement grout grows mould in a bathroom with poor extraction. **Workers prefer cement because it is easier to work than epoxy** — "рабочий сделал и ушёл, не ему там жить" — so designers have to argue for epoxy. **Relevant to this project's heated-wall discussion** (see the microcement/heated-wall material on `13_Surfaces_and_Finishes/Walls_and_Paint.md`), though not to underfloor heating, which this project has ruled out.
@@ -168,69 +155,41 @@ Plus a fourth, physical cause: **many such tiles are printed with darkened edges
 
 [source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]] [source: [[_Sources/YT_TUVsZ1Xx1aQ_shevrina_bad_renovation_decisions|YT_TUVsZ1Xx1aQ]]]
 
-## Tile and Porcelain by Style Group — and the Named Marbles Behind the Patterns (Надежда Кузина, added 2026-09-01)
+### Vertical Narrow Tile Format for Height Emphasis, and Terracotta Flooring — Real Applied Cases (architect Robert Gar / owner Tracy Underwood, Krasnov's commentary, added 2026-09-01, Round 6)
 
-Explicitly about **appearance, not technical characteristics**; "плитка" covers both ceramic and porcelain throughout. The whole-home coherence rule this closes on is on [[17_Design_and_Ergonomics/analysis/Whole_Apartment_Coherence|Whole-Apartment Coherence]]. [source: [[_Sources/YT_X3emRuW-PbA_kuzina_tile_types_by_style|YT_X3emRuW-PbA]]]
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
 
-### ⚠️ Tile copies *specific named* marbles, not "marble" generically
+- **Vertical narrow tile format used specifically to visually emphasize wall height** in a small bathroom — see also the dark-glossy-tile counter-case on [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower]], the same room.
+- **Terracotta flooring in a bathroom** chosen deliberately by the owner for an "earthy," barefoot-friendly, outdoor-adjacent feel.
+- **Exposed/visible plumbing-pipe routing left intentionally exposed specifically to GAIN ceiling height** in the bathroom (rather than boxing it in with a dropped ceiling) — a real technique tradeoff (visual exposure of infrastructure vs. maximizing headroom); tag as a stylistic choice, not a universal recommendation.
+- **⚠️ Wood ceiling slats in a high-humidity bathroom — a material-durability caution**, Krasnov's own flagged concern despite otherwise praising the room: wood is a demanding material under high humidity; performance depends heavily on ventilation quality and surface treatment; even with good protection, such slats require regular maintenance and can darken or warp over time.
 
-She flags this as something she had not consciously registered despite specifying tile constantly — the design traces a real quarried stone, mostly from Italy, Brazil and Turkey.
+`single-account`, `unverified`.
 
-| Stone | Figure |
-| :--- | :--- |
-| **Statuario** | The most expensive white marble in Italy. **Contrasting and sparse** veining |
-| **Calacatta** | **More diffuse, more veins.** Same Carrara quarry as Statuario. The default expectation in a classical bathroom |
-| **Arabescato** | **More contrasting than Calacatta**, and structurally different — veins enclose rounded areas, "like looking down on a grey ocean with rounded islands floating in it" |
-| **Emperador**, **Sahara Noir** | Other common imitations |
-| **Invisible Grey** | Her own preference — chaotic, graphic, a strong design |
+## Mosaic and Curved Surfaces
 
-**⚠️ Naming hazard, same shape as the metal-finish one above**: Invisible Grey is labelled inconsistently between makers — Invisible White, Invisible Pearl, "Invisible-something" — **so the trade name does not identify the stone.** Compare samples, not names.
+### Mosaic vs. Rigid Tile — Curved/Organic-Shape Capability, and a Luxury Reference Price Point (Петришин-Строй, added 2026-08-24, Round 8)
 
-### Group 1 — strict neoclassic
+- **Curved/organic-shape capability distinction between mosaic and rigid
+  tile**: a client-requested custom shower stall in a deliberate curved
+  "teardrop" shape was executed in mosaic specifically because rigid
+  tile can't follow a smooth curved surface without either shrinking to
+  an impractically small format or leaving visibly ugly cut edges at the
+  curve — a genuine material-capability distinction for organic/curved
+  bathroom geometry.
+- **⚠️ Luxury reference data point, out of this project's own budget
+  scope**: a real 24-karat-gold-leaf mosaic (gold leaf between two glass
+  layers, certificate card per box stating gold karat) installed at
+  **€5,500/m²** for a private home pool project; a separate bathroom in
+  the same project used a silver-leaf mosaic. Recorded per this
+  project's price-comparability convention, explicitly flagged as a
+  luxury/pool-specific tier, not comparable to an apartment-renovation
+  budget.
+- [source: [[_Sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
 
-Placed by: high ceilings, strict forms, a limited palette, mouldings, mirrors, candelabra pendants. Scoped to *strict* neoclassic, not coloured neoclassic or neoclassic drifting into eclecticism.
+## Setting-Out and Where a Boundary Lands
 
-- **Default is marble-effect, typically Calacatta.**
-- **⚠️ Never two marbles together**, especially at the same pattern scale — exception being a deliberate artistic panel or geometric layout.
-- **⚠️ Never marble-effect with semi-precious stone effects (onyx, agate).** Worst case kitsch; **best case a saturated luxury that reads Art Deco rather than neoclassic** — i.e. you land in a different style than the one you specified.
-- **Wood-effect porcelain is the standard partner** — light marble walls over a wood-effect floor.
-  - **⚠️ The purchasing test for wood-effect porcelain: "много лиц" — many faces. You should not be able to see where the pattern repeats.**
-  - **Dark and mid tones only.** Avoid bleached, over-light, or unnatural colours (green, blue): "a man in a dinner jacket with green hair" — that is eclecticism, not restrained classic.
-- **Chequerboard** from two stone effects, often diagonal — **its success is the ratio of chequer size to room scale**, not the tiles.
-- **Octagon** (square with cut corners) — an **English** attribute, popular in 19th-century Victorian England; **inserts need not be black.**
-- **⚠️ Herringbone, chevron, hexagon: the interest comes from the laying pattern, not the tile's own pattern** — a way to get character out of a plain tile.
-- **⚠️ Floor borders are a supporting element and easy to overdo: not too wide, and not too close to a panel's centre, or it reads Art Deco.**
-
-### Group 2 — country, farmhouse, Provence, shabby chic
-
-**Her distinctions are finer than the usual lumping**: *country* — frank roughness, barn doors, chests; *farmhouse* (American) — more laconic, often with contemporary elements; *Provence* (French) — classical forms with painted furniture; *shabby chic* — barely different from Provence, but the name is literal, "шикарное обшарпэ." All classical-leaning; **farmhouse is the one that can go either way.**
-
-**⚠️ What separates the group from neoclassic: a love of texture and ornament, with less tonal contrast and less gloss.** Wear and matte are supposed to lower the pomp — with her honest qualifier that **the pomp is not absent, merely of a different kind.**
-
-Same repertoire as neoclassic but **less polished, more alive**:
-
-- **Wood-effect: simpler species (oak), no exotics, and floor only — do not run it up the walls.**
-- **Stone-effect: not marble.** Granite, sandstone, quartzite — stone, but not *noble* stone.
-- **Deliberately aged tile** — new, manufactured to look old, worn edges or worn pattern.
-- **⚠️ Factory tile made to look handmade** — an irregular edge, which **deliberately widens the grout joints**, or an uneven face. **Reads best on small plain tiles.**
-- **Terracotta** — rectangular, square or hexagonal. **Demanding to maintain, though not impossibly so; an imitation exists if the upkeep is unwelcome.**
-- **Ornament is welcome here, including floral**, especially small formats on floors and backsplashes.
-- **⚠️ Zellige, and the mechanism is the identifier**: small pieces are **hand-dipped in glaze then fired in a kiln with deliberately uneven heat**, so **each tile takes a different colour and no two match.** That variance is what separates genuine zellige from uniform serial imitations.
-
-### Group 3 — contemporary and modernism
-
-Laconic, much empty space, flat fronts, integrated handles, minimal decor. Historical styles rejected but 20th-century objects permitted; neutral palette, natural materials, accents via accessories.
-
-- **⚠️ They favour large monolithic surfaces — which is *why* plaster and paint beat wallpaper here.** A causal link, not a preference.
-- **Large-format porcelain** so the pattern does not break.
-  - **⚠️ Large-format wood-effect is a genuine alternative to timber wall panels**: it does not warp, cuts freely, **its grain figure is pre-drawn and predictable**, and **it costs less than real panelling** — especially against something like American walnut.
-- **Metro tile** — from the **New York subway, early 20th century**: cheap, easy to clean, and its format could clad curved surfaces; adopted by Paris and London, then factories, then homes. "Like brushstrokes on a painting" — even one type adds movement.
-  - **⚠️ The distinction people get wrong: metro tile *with a bevel* («фацет») is «кабанчик», and bevelled tile suits only classic or retro. For contemporary, specify bevel-free.**
-- **Terrazzo** — poured concrete with marble, stone and glass chips; ancient Greece → Venice → USSR. **⚠️ Practical trick: take one of the chip colours as the room's paint colour or companion tile** — a ready-made palette source.
-- **⚠️ Concrete-effect reads rough — pair it with refined materials (gloss, glass, thin edges). Add anything further that is rough and you land in Loft.**
-- Ornament possible but **graphic and geometric, so the rhythm reads easily.**
-
-## ⚠️ Where a Tile-to-Paint Horizontal Boundary Should Land (Надежда Кузина, added 2026-09-01)
+### ⚠️ Where a Tile-to-Paint Horizontal Boundary Should Land (Надежда Кузина, added 2026-09-01)
 
 The general two-colour-wall technique is on [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]]; **the bathroom case carries dimensions and is a layout constraint rather than a colour decision.** [source: [[_Sources/YT_lptrnXyf0as_kuzina_two_colours_one_wall|lptrnXyf0as]]]
 
@@ -243,7 +202,7 @@ The arrangement is common — **tile below, and increasingly wallpaper or paint 
 
 **Also**: with tile or wall panels meeting another material, **always resolve the edge («кромка») — how the end of the material is closed.**
 
-## ⚠️ Tile Setting-Out Is the Designer's Obligation, and It Belongs on Two Drawings (Татьяна Михайловская, added 2026-09-01)
+### ⚠️ Tile Setting-Out Is the Designer's Obligation, and It Belongs on Two Drawings (Татьяна Михайловская, added 2026-09-01)
 
 **A scope item this vault's tile pages did not carry.** [source: [[_Sources/YT_MkssMwpyVsI_mikhailovskaya_design_project_composition|MkssMwpyVsI]]]
 
@@ -256,27 +215,7 @@ The arrangement is common — **tile below, and increasingly wallpaper or paint 
 
 **⚠️ Read as a client-side entitlement: if a design package arrives with no setting-out point, the tiler will decide it on site, and the decision will be made by whoever is holding the trowel.**
 
-## Crackled/Aged Tile Finish, Historic Maiolica, and an Affordable Substitution (designer Jane Hallworth's real kitchen for Kirsten Dunst, Krasnov's commentary, added 2026-09-01, Round 6)
-
-[source: [[_Sources/YT_uPtvVVYKjnI_krasnov_kirsten_dunst_critique|uPtvVVYKjnI]]] — kitchen backsplash material, cross-referenced here rather than duplicated on the Kitchen pages since the mechanism is tile-finish-specific.
-
-- **Crackled/aged ceramic tile finish ("craquelure," Krasnov's own word choice, comparing it to old paintings)**: an intentional crackle-glaze surface texture reflects light in a visually appealing, "aged"/characterful way.
-- **⚠️ Historic maiolica tile backsplash (16th-century tile per the video) flagged as real, expensive, genuinely inaccessible to most people** — Krasnov gives a specific, actionable substitution recommendation for a similar "aged" look affordably: simple ceramic tile with an antiqued/aged finish (wide price range, including vintage-style options), or natural/engineered stone (praised for inherently unique natural pattern).
-
-`single-account` (Krasnov's commentary); the underlying material is a real, independently-documented project choice.
-
-## Vertical Narrow Tile Format for Height Emphasis, and Terracotta Flooring — Real Applied Cases (architect Robert Gar / owner Tracy Underwood, Krasnov's commentary, added 2026-09-01, Round 6)
-
-[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]]
-
-- **Vertical narrow tile format used specifically to visually emphasize wall height** in a small bathroom — see also the dark-glossy-tile counter-case on [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower]], the same room.
-- **Terracotta flooring in a bathroom** chosen deliberately by the owner for an "earthy," barefoot-friendly, outdoor-adjacent feel.
-- **Exposed/visible plumbing-pipe routing left intentionally exposed specifically to GAIN ceiling height** in the bathroom (rather than boxing it in with a dropped ceiling) — a real technique tradeoff (visual exposure of infrastructure vs. maximizing headroom); tag as a stylistic choice, not a universal recommendation.
-- **⚠️ Wood ceiling slats in a high-humidity bathroom — a material-durability caution**, Krasnov's own flagged concern despite otherwise praising the room: wood is a demanding material under high humidity; performance depends heavily on ventilation quality and surface treatment; even with good protection, such slats require regular maintenance and can darken or warp over time.
-
-`single-account`, `unverified`.
-
-## ⚠️ Setting-Out From the Centre and Top-Down, With an Eye-Height Rationale (Татьяна Безверхая, added 2026-09-02)
+### ⚠️ Setting-Out From the Centre and Top-Down, With an Eye-Height Rationale (Татьяна Безверхая, added 2026-09-02)
 
 Moscow-practice designer, 2024. `promotional_ratio: medium` — **this source contains a discrete ~90-second sponsored mid-roll for a porcelain-tile brand, and that brand's claims and recommendation are excluded from this page entirely.** The setting-out guidance below is her own, from the unsponsored remainder. [source: [[_Sources/YT_T3b-IS4Rb0E_bezverkhaia_ideal_wc_ten_rules|T3b-IS4Rb0E]]]
 
@@ -288,3 +227,7 @@ Moscow-practice designer, 2024. `promotional_ratio: medium` — **this source co
 - **⚠️ Floor tile must be matte and non-slip.**
 - **⚠️ Grout in wet zones must be epoxy only, or it grows mould.** **Corroborates her own Round 1 flooring source (epoxy grout mandatory for floor mosaic) and this vault's existing grout-selection content on [[07_Bathroom/analysis/Tile_Grout_Selection_and_Protection|Tile Grout Selection & Protection]].**
 - **⚠️ Access-hatch coordination is a tile-layout problem, not just a plumbing one: hatch edges must land on tile joints, small-format tile must not be cut mid-module, and the hatch should fully repeat the porcelain module.** She states any good tiler can do this and all her projects are done so. **The full servicing-access block is on [[07_Bathroom/analysis/Planning_and_Layout|Bathroom: Planning & Layout]].**
+
+## Style groups and named marbles — moved to their own page
+
+See **[[07_Bathroom/analysis/Tile_Style_Groups_and_Marbles|Tile by Style Group, Named Marbles and Historic Finishes]]**. This page keeps buying and quality parameters, format and undertone, mosaic, and setting-out.

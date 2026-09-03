@@ -4,7 +4,11 @@ Covers shower/sink mixer types and add-ons, toilet configuration and selection, 
 
 > **USD normalization for the quality rain-shower assembly estimate below:** ≈$520–$630 for 50,000–60,000 RUB using the 2025-04-04 source date and trailing 6-month USD/RUB average of 95.97. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w]]]
 
-## Shower and Sink Mixers
+## Mixers and Taps
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### Shower and Sink Mixers
 
 Konstantin Kruglov / Ontario supports the `YT_9dfEdjOewng...` claims; Zemstandart / Zemproekt supports the other named extraction-note blocks. Blended prose remains explicitly unconfirmed.
 
@@ -20,7 +24,7 @@ Konstantin Kruglov / Ontario supports the `YT_9dfEdjOewng...` claims; Zemstandar
 - **A recessed/built-in mixer with a thermostat needs the wall cavity to be more than ~100-120mm deep.** If a load-bearing wall sits directly behind the planned mixer location, that wall must be furred out to accommodate this — which can shrink the room by as much as ~12cm, since chasing a load-bearing wall to recess the mixer instead isn't permitted. Confirm what's behind the wall before specifying a recessed thermostatic mixer in a tight room.
 - **Zemskov's mixer-placement rule**: match the client's dominant hand — when washing soap out of your eyes, you find the tap by feel with your dominant hand, so place the mixer on that side. (Corroborates a handedness-based placement pattern seen elsewhere in this store — hygienic shower, wardrobe zones.)
 
-## ⚠️ Perspectives — Black vs. Chrome Fixtures: Which Shows Fewer Marks? (updated 2026-09-01, Round 3)
+### ⚠️ Perspectives — Black vs. Chrome Fixtures: Which Shows Fewer Marks? (updated 2026-09-01, Round 3)
 
 > [!IMPORTANT]
 > **Update, Round 7 (2026-09-02): the tally is no longer a one-sided drift — it is now a genuinely split, sustained internal inconsistency across seven months of the same channel's own output.** `uSqIuvBwh8o` (Krasnov's own Peterhof 400m² house project tour, his own real completed project, not a listicle) has him explicitly stating black bathroom fixtures do **not** get dirty easily — "чёрная сантехника, она на самом деле не сильно грязнится, и вы не сильно обращаете внимание на то, что остаются какие-то там следы, подтёки." This is a **SECOND pro-black statement**, matching Round 1's `JNInBkbEDHk` position and reversing the reversal recorded in Rounds 3-4. **The running tally is now 2 pro-black Krasnov statements (Round 1, Round 7) vs. 3 anti-black Krasnov statements (Round 3 ×2, Round 4)** — still net-anti, but genuinely split rather than a clean one-directional drift. Per this vault's corroboration convention, none of these six statements (5 Krasnov + 1 Ontario) are independent of each other within the Krasnov side — but the pattern itself is the finding: **this is not a single practitioner's position drifting and settling, it is the same channel contradicting itself in both directions across nearly a year of its own output**, worth stating plainly as a source-reliability finding rather than being resolved either way. Note also that the two pro-black statements come from different formats (a bathroom-buying-tips listicle in Round 1, a real-project tour in Round 7) and the three anti-black statements likewise span formats (two bathroom/cleaning-mistake listicles, one "controversial decisions" roundup) — format is not what predicts which side a given Krasnov video lands on.
@@ -51,55 +55,30 @@ Two named practitioners give answers to the same practical question — genuine 
 > [!NOTE]
 > **Round 8 (2026-09-02): black fixtures used again, no claim either way — not added to the tally.** `W2dAmCXg9GE` (Krasnov's own Petergof-dachas 279m² house, "part 2") shows matte black plumbing fixtures used in the main bathroom, but this time with NO explicit grime/maintenance claim attached — Krasnov simply describes the choice without asserting whether it shows marks more or less than an alternative. Per the caller's explicit instruction, this is recorded as a plain usage note only, not as a sixth data point in the tally above (which requires an actual claim, not just usage). [source: [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
 
-## Mixer Shape & a 2024-2025 Trend (added 2026-08-24, Round 2)
+### Mixer Shape & a 2024-2025 Trend (added 2026-08-24, Round 2)
 
 Konstantin Kruglov / Ontario says: **mixer shape (round vs. flat) affects visible-mark accumulation independently of color/finish** — a flat-profile mixer shows fingerprints and dried-water marks more readily than a round one of the same finish, since a flat surface presents a larger uninterrupted plane for marks to register on. This nuances (not contradicts) this page's existing chrome-finish guidance above: chrome is the most forgiving finish for *water-spot* marks specifically, but flat/glossy chrome is markedly bad for showing *fingerprints* — different residue types, not a real disagreement. **Satin, specifically an aluminum-toned satin finish, is named as one of the best color/finish choices overall** — hides both fingerprints and dried-water marks better than chrome, black, or white; matte finishes generally show the least residue of any category.
 
 **A specific 2024-2025 trending kitchen-mixer type, praised as inspiration-worthy**: a pull-out mixer with a silicone (not metal-braid) hose that shows no water-mark residue at all and functions as a hand-held sprayer when pulled from its docking bracket, paired with a separate dedicated small tap for filtered drinking water fed from an under-sink filtration system. [source: [[_Sources/YT_55zALDsXP2E_kruglov_pinterest_plumbing_review|55zALDsXP2E_kruglov_pinterest_plumbing_review]]]
 
-## Rain-Shower Riser Sizing, and a Vanity-Cabinet Stub-Out Coordination Rule (added 2026-08-28, Round 5)
+### Rain-Shower Riser Sizing, and a Vanity-Cabinet Stub-Out Coordination Rule (added 2026-08-28, Round 5)
 
 Konstantin Kruglov / Ontario: **tropical/rain-shower riser upsizing, new specific figure**: if the rest of the bathroom's supply distribution runs in ~16mm pipe, the branch specifically feeding a tropical/rain-shower head should step up to ~20mm, since a rain head draws meaningfully more flow volume than a standard shower/mixer outlet. **Vanity-cabinet stub-out coordination rule**: before finalizing a sink's water-supply and drain stub-out positions, confirm where the vanity cabinet's own mounting hardware (anchors/brackets/legs) will land, so a stub-out or embedded wire doesn't end up directly behind a point that later needs drilling to hang the cabinet. `single-account`, `unverified`. [source: [[_Sources/YT_BDudniuyJ4s_kruglov_bathroom_mistakes_every|YT_BDudniuyJ4s]]]
 
-## Toilet Selection
+### ⚠️ Basin Mixers — Choose Them With the Basin, Not After It
 
-Legacy archive-only toilet claims lack a decisive extraction-note `channel:` field. The page's [Bathroom Source Notes](Source_Notes.md) maps the related toilet-selection material to the Ontario plumbing archive; the specific legacy rows have no more-specific extraction-note link.
+**Types: on the basin, on the wall (surface or concealed), on the worktop — plus a basin mixer with an integrated hygienic shower, a combined budget option.**
 
-- **Two mainstream configurations**: **wall-hung (подвесной)** on an in-wall frame/cistern (see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the frame's own installation requirements) and **floor-standing (напольный)**. A hybrid — a floor-standing bowl plumbed to an in-wall frame — exists but is described as rarely worth choosing.
-- **⚠️ Wall-hung toilet space-savings are conditional on reusing an existing plumbing chase, not automatic (Round 14 triage, added 2026-08-28)**: an installation frame only actually saves space when it's built into a santekhkorob that already exists for other reasons (water distribution, meters, a tankless heater) — no additional wall build-out is needed and the space savings versus a floor-standing toilet are real. But if a new chase/box has to be built specifically to house the frame, that build-out consumes floor space of its own — potentially erasing the space advantage a wall-hung toilet is usually assumed to provide. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_EwI_ZoT3VTQ_kruglov_top11_small_apartment|YT_EwI_ZoT3VTQ]]]
-- **Size must be tried in person, not chosen from an online listing alone** — a toilet that looks fine on a marketplace listing can turn out uncomfortably small or large once actually sat on; worth a physical showroom visit specifically to sit on it before buying.
-- **An emerging, inconsistent code-enforcement risk worth watching (not yet a settled rule)**: hiding a wall-hung toilet's in-wall frame/cistern inside a "santekhkorob" that also houses water distribution, meters, and a tankless heater has been standard practice for years, but the source reports isolated recent cases of BTI (technical inventory bureau) inspectors objecting to this at final acceptance. `single-account`, Russia-specific (BTI is a Russian institution) — flagged for awareness, not applicable as written to a Belarus project.
-- **Toilet clearance**: plan for the average adult's body width (~80 cm), not just the fixture's own footprint, when setting how close a toilet sits to an adjacent wall or fixture.
-- **Color**: white is used in ~95% of installs with no real downside; colored options (black most common besides white) work fine but should be chosen deliberately to match the room's overall design concept. **⚠️ Mild refinement, Round 13 triage (added 2026-08-28)**: Konstantin Kruglov / Ontario adds a concrete downside to a colored (non-white, non-black) toilet not captured by "no real downside" above — if a component part (most often the seat/lid) later breaks, sourcing a color-matched replacement can be genuinely difficult, since white parts are near-universally available and colored ones aren't. Prefers plain white with a white lid for this reason; a deliberate all-black set is called an acceptable alternative. `single-account`, `unverified`. [source: [[_Sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
-- **Two add-on functions worth defaulting to**: a **rimless flush design** (no internal rim ledge to trap water/limescale/bacteria — easier to clean and typically more water-efficient) and an **anti-splash bowl geometry**.
-- **⚠️ A specific bad-placement case, new for this store (added 2026-08-28, Round 5)**: an electric towel warmer mounted directly above a wall-hung toilet's installation frame to save floor space causes two concrete problems — (1) a towel/robe hanging from it brushes against a seated user's head; (2) anything wet hung there (e.g. swim shorts) drips directly onto/around the toilet below. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_kxr8zFvUTj8_kruglov_pinterest_bathroom_breakdown|YT_kxr8zFvUTj8]]]
-- **⚠️ Avoid the cheapest available toilet specifically because of ceramic-glaze quality (added 2026-08-28, Round 5)**: a bargain-tier toilet's ceramic surface stains and loses its glossy finish faster than a mid/premium unit — a distinct quality axis from size/fit and the smart-toilet feature tiers above. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT__XCBMJmosDk_kruglov_ideal_bathroom_10_rules|YT__XCBMJmosDk]]]
-- **"Smart" toilet tiers, cheapest to most expensive**: a **quick-release seat/lid** (low-cost, broadly-recommendable regardless of anything else) → a **bidet-function seat/lid retrofit** (cold water + dedicated 220V circuit) → a **toilet with bidet function built in** from the factory → a **full Japanese-style smart toilet** (heated seat, integrated dryer, remote control, auto open/close) at the top of the range. **If you already use (or plan to use) a hygienic shower, a built-in bidet function is redundant** — pick one or the other. **⚠️ A distinct point, Round 13 triage (added 2026-08-28)**: this is about the toilet's own bidet *function*; a fully **separate, standalone bidet fixture** (its own basin, supply/drain plumbing, and floor footprint) is a different, larger commitment — Konstantin Kruglov / Ontario calls it an irrational use of a small bathroom's limited area on space/plumbing-cost grounds alone, regardless of the function-redundancy argument above, though notes someone already accustomed to a standalone bidet may reasonably want to keep one. `single-account`, `unverified`. [source: [[_Sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
+- **⚠️ Spout length, worked: with a vessel basin and a concealed wall mixer you must know the worktop depth. A shallow basin (350) set 150 off the wall against a 100 spout means the water pours BEHIND the basin.**
+- **⚠️ From the basin's outer edge to the worktop's front edge: 20 mm maximum, ideally flush** — otherwise washing and leaning over are awkward and water runs off.
+- **⚠️ A tall vessel basin needs a tall mixer.** **An angled spout arcs the water inward and is forgiving; where water falls straight down, spout length and mixer position become critical.**
+- **⚠️ Some basins arrive with a tap hole — those cannot then take a wall mixer, because the hole remains.**
+- **⚠️ Therefore: "выбрали раковину, а потом может быть когда-то выберу смеситель — нет, так не работает."** And **the mixer position gets dimensioned on the drawings, so it must be a specific model.**
+- **⚠️ Buy mixers as a set where possible — "хотя бы производителя, хотя бы одного цвета."**
 
-### Mixer/Faucet Finish (Round 13 triage, added 2026-08-28)
+## Sinks and Basins
 
-Konstantin Kruglov / Ontario: avoid black, plain chrome, or white mixer
-finishes — all three show water spots and fingerprints readily, and
-plain chrome specifically can show surface corrosion over time in the
-source's stated experience. **Prefer a blackened/gunmetal-type steel
-finish, or "matte chrome"** (a distinct finish category despite the
-seemingly contradictory name) — both resist showing marks far better,
-though even blackened steel isn't fully immune on some models.
-`single-account`, `unverified`. [source: [[_Sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
-- **⚠️ A toilet-paper holder must be reachable with both hands simultaneously from a seated position — a specific, well-reasoned ergonomic rule beyond simple "reachability."** Tearing off paper genuinely requires one hand holding/steadying while the other pulls/tears; a holder mounted too low or too far forces an awkward one-handed reach-and-return motion instead. `single-account`, `unverified`. [source: [[_Sources/YT_hvPddB5Lc1s_hotel_room_mistakes_tour_103|YT_hvPddB5Lc1s]]]
-- **⚠️ Avoid concealed/push-to-reveal toilet-brush-and-paper holders (Round 14 triage, added 2026-08-28)**: a distinct problem from the reach-distance rule above — even a resident who learns the mechanism still has to press, pull, or reach into a recess for daily use, and a guest unfamiliar with that specific mechanism generally can't figure it out at all, creating a real guest-discomfort problem the "no visual clutter" design intent doesn't account for. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
-
-## Hygienic Shower / Bidet Spray
-
-This legacy hygienic-shower section does not expose a decisive extraction-note `channel:` field. [Bathroom Source Notes](Source_Notes.md) maps the underlying hygienic-shower safety material to the Ontario plumbing archive; no more-specific extraction-note link is available for these legacy bullets.
-
-See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the core safety mechanism and fix (the "vent-type"/anti-forgetfulness valve design). Points worth adding here:
-- **Always pair a hygienic shower with both a check valve on the manifold and a full leak-protection system** — a near-mandatory pairing, given how routinely hygienic-shower hoses are left pressurized by accident.
-- **Built-in (recessed) hygienic-shower valves are more common now than external units** — tell your contractor/plumber explicitly which type you're planning during rough-in pricing, since a quote based on the wrong type can turn into an expensive change order once the correct type is actually installed.
-- **A hygienic shower should be mounted on the toilet's left side, not the right, for the majority (right-handed) user population** — a specific, handedness-based ergonomic placement rule. `single-account`, `unverified`. [source: [[_Sources/YT_hvPddB5Lc1s_hotel_room_mistakes_tour_103|YT_hvPddB5Lc1s]]]
-- **Valve-controlled (вентильное управление) hygienic shower — a distinct sub-type from a "standard" unit, with the mechanism reason it's safer**: on a standard hygienic-shower unit, water supply is controlled by the main mixer, and it's common for a user not to bother closing the mixer before re-hanging the spray head — the frequent cause of floods this page's existing check-valve/leak-protection pairing guidance is defending against. A valve-controlled unit physically can't have its spray head returned to its holster/dock until the user closes the valve — removing the forgetfulness failure mode at the device level, rather than just mitigating its consequences at the system level. Complementary to (not a replacement for) the existing check-valve + leak-protection pairing. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_sd2XYBZY-K8_kruglov_bathroom_2026_top10|YT_sd2XYBZY-K8]]] **A second, independent instance of this same channel adds the concrete mechanical detail**: the shutoff valve *is* the wall-mounted holder bracket itself — rotating the bracket 180° both frees the sprayer for use and opens water flow; returning the sprayer to its resting position requires rotating the bracket back 180°, which closes supply as a direct mechanical side effect of re-hanging it (not a separately-operated valve near the holster). Konstantin Kruglov / Ontario predicts other hygienic-shower manufacturers will adopt this specific bracket-as-valve design. `single-account`, `unverified`. [source: [[_Sources/YT_1x7srLdq12I_kruglov_perfect_sanuzel_secrets|YT_1x7srLdq12I]]]
-
-## Sinks
+### Sinks
 
 Use the named extraction-note channel for each source-marked sink block; unlinked synthesis has no confirmed channel.
 
@@ -118,22 +97,13 @@ Use the named extraction-note channel for each source-marked sink block; unlinke
 - **⚠️ Rounded-bottom nuance on the same rule, Round 15 (added 2026-08-28)**: even a top-mounted sink with a full 90° angle can still fail the same cleaning test if the sink's own lower profile is **very rounded** — the failure mode isn't only about the angle measurement, it's also about the sink's own edge geometry. Same channel, `single-account`, `unverified`. [source: [[_Sources/YT__pOv1fnV6nM_kruglov_20_cleaning_mistakes|YT__pOv1fnV6nM]]]
 - **⚠️ Cleaning-driven sink-type default, Round 16 (added 2026-08-28)**: rather than reasoning solely from the top-mount angle/roundness rules above, Kruglov's own blanket recommendation (from a whole-apartment "easy to clean" video, applying to kitchen sinks too, not just bathroom) is to skip top-mount/rimmed/vessel sinks entirely — default to either an **undermount sink glued from below the countertop** or a **sink fully integrated into the countertop material itself** (seamless, no rim or lip anywhere). Frames the angle/roundness rules above as damage-control for a sink type he'd rather avoid outright. Same channel, `single-account`, `unverified`. [source: [[_Sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
 
-## Sink & Drain-Overflow Cleanability Notes (added 2026-08-24, Round 2)
+### Sink & Drain-Overflow Cleanability Notes (added 2026-08-24, Round 2)
 
 Konstantin Kruglov / Ontario says: **glossy sink surfaces accumulate visibly more residue than a glossy mixer of the same finish**, purely from the sink's much larger surface area. **A round, dark, low-glare micro-sink paired with a round dark mixer is specifically recommended for a small guest WC** with only a wall-hung toilet, sink, and hygienic shower — minimal flat surface for fingerprints, minimal standing-water pooling. **A white integrated one-piece stone sink+countertop specifically stains/marks badly and may periodically need professional polishing** to restore its factory-new look — beyond this page's existing general colored/textured-finish guidance. **A rounded integrated sink+countertop with a raised lip/edge on both sides creates two hard-to-clean interior corners** unless the raised edge serves a genuine functional purpose. **A deep sink in a small bathroom/WC is impractical**: a deep basin plus its required siphon can add up to roughly 30cm of total under-counter depth.
 
 **Drain-overflow (слив-перелив) mechanism: cleaning access and replacement access are two distinct problems, and solving the first doesn't solve the second.** An externally-accessible cleanout design solves routine cleaning, but **replacing the mechanism entirely still requires disassembling the tub/apron/vanity regardless of cleanout access** — and if the wall behind the tub backs onto a neighboring unit with no access from that side, a failure (which can occur anywhere from a month to 5-10 years after installation, e.g. from a bad gasket) forces tearing out much of the bathroom to reach it. [source: [[_Sources/YT_55zALDsXP2E_kruglov_pinterest_plumbing_review|55zALDsXP2E_kruglov_pinterest_plumbing_review]]]
 
-## Mirror-to-Sink Gap, and Glass Shelf Maintenance (Игорь Краснов, added 2026-09-01)
-
-[source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]
-
-- **⚠️ Leave a 15–20 cm gap between a wall mirror and a sink** — a mirror mounted flush against the sink looks clean in photos but collects water-spot and soap-residue splash from normal handwashing/face-washing within days, needing near-daily wiping. The gap also adds a sense of depth/space. **Notes the flush-mirror "Pinterest" look only really works with daily household cleaning staff** — a legitimate but different life-pattern choice, not a universal fix; his own framing is that no finish choice here is wrong in itself, only wrong for a household without the matching cleaning routine.
-- **Bathroom glass shelves show water spots, soap residue, and handprints almost immediately** — daily cleaning or living with a look of neglect are the only options. **Alternative: shelves in tile matching the wall, or quality-coated metal** — hold a clean appearance longer with less maintenance. Corroborates this page's existing glossy/high-maintenance-surface cautions elsewhere in this vault.
-
-`single-account`, `unverified`.
-
-## ⚠️ Sink Type Default, Faucet Spout Reach, and Mirror Sizing (Игорь Краснов, added 2026-09-01)
+### ⚠️ Sink Type Default, Faucet Spout Reach, and Mirror Sizing (Игорь Краснов, added 2026-09-01)
 
 [sources: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]], [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
 
@@ -143,47 +113,7 @@ Konstantin Kruglov / Ontario says: **glossy sink surfaces accumulate visibly mor
 
 `single-account`, `unverified`.
 
-## Mirror-Width Refinement, Storage Retrofit, and Open-Shelving Humidity Critique (Игорь Краснов, added 2026-09-01, Round 3)
-
-[source: [[_Sources/YT_3lFeF0MSXh4_krasnov_bathroom_8worst_mistakes|3lFeF0MSXh4]]]
-
-- **Mirror-width rule, refining this page's existing Round 1 mirror-sizing content above**: mirror should be at least as wide as the vanity/basin for visual harmony — a slightly wider mirror than the basin reads better than a narrower one. Adds only the width-vs-vanity relationship to the existing bottom-edge/top-edge figures above; not a duplicate entry.
-- **Mirrored cabinet as a budget move** that's simultaneously a mirror AND hidden storage — corroborates this page's existing mirrored-cabinet content.
-- **⚠️ Open shelving critiqued specifically for bathroom humidity/dust accumulation** — echoes the general open-shelving critique already on this vault, but with bathroom-specific reasoning (humidity is the aggravating factor, not just dust). Mirrored cabinet or a vanity-with-drawers preferred over open shelves.
-- **⚠️ A specific budget-friendly retrofit, genuinely new**: a cabinet that mounts directly onto an existing pedestal-sink column without replacing the whole vanity, adding hidden storage without full renovation.
-
-`single-account`, `unverified`.
-
-## Height-Linked Fixture Sizing & Hygienic-Shower Handedness Mechanism (added 2026-08-19, remainder-pool Round 2)
-
-**⚠️ Bathtub/shower sizing explicitly tied to occupant height**: a 1700×700mm bathtub is specifically sized for an "average height" client (the length figure is height-derived, not a flat universal default); a shower stall needs a minimum 1500mm length (ideal 1600-1700mm) and minimum 900mm width. **Independently corroborates Zemskov's existing washing-machine-under-countertop caution above** — a second source flags the same elevated-sink-height problem when a washing machine sits under a bathroom sink, explicitly noting the resulting height isn't suitable for every client and should be checked against the actual occupant's height before committing. `single-account` each, `unverified`. [sources: [[_Sources/YT_pNhM-kKBy6A_knowledge_base_reveal_294|YT_pNhM-kKBy6A]]]
-
-**⚠️ Hygienic-shower/bidet-spray handedness, mechanism explained**: for a right-handed person, the toilet-paper holder stays on the dominant (right) side as usual, but the hygienic-shower spray should go on the *opposite* (left) side — the dominant hand does the washing while the non-dominant hand holds/aims the spray wand. A more mechanism-explicit refinement of this page's existing hygienic-shower-handedness guidance. `single-account`, `unverified`. [source: [[_Sources/YT_eezwcNG-1qI_designer_project_walkthrough_269|YT_eezwcNG-1qI]]]
-
-**Narrow "nano-sink" sub-type caution**: a nano-basin sink isn't automatically the right choice for every tight WC — a narrower-but-longer basin variant of the same category can fit a cramped footprint better than the wider nano-sink variant. Verify the specific sub-type/proportions against the room's real footprint, not just the "nano" category label. `single-account`, `unverified`. [source: [[_Sources/YT_eezwcNG-1qI_designer_project_walkthrough_269|YT_eezwcNG-1qI]]]
-
-## Heated Anti-Fog Mirror, and a Concealed-Valve Depth Caution (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
-
-`single-account`, heavily ASR-garbled trade-fair source, region
-unresolved, high promotional ratio. **Heated anti-fog mirrors with an
-integrated timer** were a common product category at this trade fair —
-a heating element prevents post-shower fogging, with a timer limiting how
-long the heater stays on. Separately: **before choosing any
-concealed/recessed-mount mixer or shower valve, confirm the wall/niche
-depth actually fits that specific model's rough-in body** — a light
-corroboration of this channel's recurring precision-recess-mounting theme
-(previously seen for LED transformers and other concealed fittings
-elsewhere on this vault), not a new mechanism on its own. [source: [[_Sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]
-
-## Filling a Bath Through the Slot Overflow (Мария Шеврина / SMBUREAU, added 2026-08-30)
-
-**⚠️ Fill the bath through the slot overflow ("излив через слив-перелив") instead of fitting a spout.** SMBUREAU apply this in nearly every project and describe it as base practice rather than a flourish. Two stated reasons: a wall spout **protrudes and is a genuine injury hazard** (she rates it as more dangerous than the short-spout mistake she names elsewhere), and removing it leaves only a single mixer on the wall.
-
-`single-account`, `unverified`. [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
-
-**Related cost note**: the labour to install a *concealed* mixer is not much more than for a surface-mounted one, once measured against the cost of running the services — so concealed mixers need not be abandoned on labour grounds, and budget concealed models exist. [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
-
-## ⚠️ The Basin, and the Chain That Decides Your Layout (Татьяна Михайловская, added 2026-09-01)
+### ⚠️ The Basin, and the Chain That Decides Your Layout (Татьяна Михайловская, added 2026-09-01)
 
 [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
 
@@ -215,18 +145,69 @@ elsewhere on this vault), not a new mechanism on its own. [source: [[_Sources/YT
 - **⚠️ Check basin width against the plan.** Her worked case: **860 between washing machine and cupboard means a basin no wider than ~800**, because an inset basin has rim beyond the bowl.
 - **Sharp corners accumulate dirt.**
 
-## ⚠️ Basin Mixers — Choose Them With the Basin, Not After It
+## Mirrors and Above-Basin Storage
 
-**Types: on the basin, on the wall (surface or concealed), on the worktop — plus a basin mixer with an integrated hygienic shower, a combined budget option.**
+### Mirror-to-Sink Gap, and Glass Shelf Maintenance (Игорь Краснов, added 2026-09-01)
 
-- **⚠️ Spout length, worked: with a vessel basin and a concealed wall mixer you must know the worktop depth. A shallow basin (350) set 150 off the wall against a 100 spout means the water pours BEHIND the basin.**
-- **⚠️ From the basin's outer edge to the worktop's front edge: 20 mm maximum, ideally flush** — otherwise washing and leaning over are awkward and water runs off.
-- **⚠️ A tall vessel basin needs a tall mixer.** **An angled spout arcs the water inward and is forgiving; where water falls straight down, spout length and mixer position become critical.**
-- **⚠️ Some basins arrive with a tap hole — those cannot then take a wall mixer, because the hole remains.**
-- **⚠️ Therefore: "выбрали раковину, а потом может быть когда-то выберу смеситель — нет, так не работает."** And **the mixer position gets dimensioned on the drawings, so it must be a specific model.**
-- **⚠️ Buy mixers as a set where possible — "хотя бы производителя, хотя бы одного цвета."**
+[source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]
 
-## Round 4 Additions — Curbless Shower Risk, Towel Warmer, Shower Curtain vs. Glass, Wall-Hung Sink, and a Nightstand-Form Cross-Reference (Игорь Краснов, added 2026-09-01)
+- **⚠️ Leave a 15–20 cm gap between a wall mirror and a sink** — a mirror mounted flush against the sink looks clean in photos but collects water-spot and soap-residue splash from normal handwashing/face-washing within days, needing near-daily wiping. The gap also adds a sense of depth/space. **Notes the flush-mirror "Pinterest" look only really works with daily household cleaning staff** — a legitimate but different life-pattern choice, not a universal fix; his own framing is that no finish choice here is wrong in itself, only wrong for a household without the matching cleaning routine.
+- **Bathroom glass shelves show water spots, soap residue, and handprints almost immediately** — daily cleaning or living with a look of neglect are the only options. **Alternative: shelves in tile matching the wall, or quality-coated metal** — hold a clean appearance longer with less maintenance. Corroborates this page's existing glossy/high-maintenance-surface cautions elsewhere in this vault.
+
+`single-account`, `unverified`.
+
+### Mirror-Width Refinement, Storage Retrofit, and Open-Shelving Humidity Critique (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_3lFeF0MSXh4_krasnov_bathroom_8worst_mistakes|3lFeF0MSXh4]]]
+
+- **Mirror-width rule, refining this page's existing Round 1 mirror-sizing content above**: mirror should be at least as wide as the vanity/basin for visual harmony — a slightly wider mirror than the basin reads better than a narrower one. Adds only the width-vs-vanity relationship to the existing bottom-edge/top-edge figures above; not a duplicate entry.
+- **Mirrored cabinet as a budget move** that's simultaneously a mirror AND hidden storage — corroborates this page's existing mirrored-cabinet content.
+- **⚠️ Open shelving critiqued specifically for bathroom humidity/dust accumulation** — echoes the general open-shelving critique already on this vault, but with bathroom-specific reasoning (humidity is the aggravating factor, not just dust). Mirrored cabinet or a vanity-with-drawers preferred over open shelves.
+- **⚠️ A specific budget-friendly retrofit, genuinely new**: a cabinet that mounts directly onto an existing pedestal-sink column without replacing the whole vanity, adding hidden storage without full renovation.
+
+`single-account`, `unverified`.
+
+### Heated Anti-Fog Mirror, and a Concealed-Valve Depth Caution (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
+
+`single-account`, heavily ASR-garbled trade-fair source, region
+unresolved, high promotional ratio. **Heated anti-fog mirrors with an
+integrated timer** were a common product category at this trade fair —
+a heating element prevents post-shower fogging, with a timer limiting how
+long the heater stays on. Separately: **before choosing any
+concealed/recessed-mount mixer or shower valve, confirm the wall/niche
+depth actually fits that specific model's rough-in body** — a light
+corroboration of this channel's recurring precision-recess-mounting theme
+(previously seen for LED transformers and other concealed fittings
+elsewhere on this vault), not a new mechanism on its own. [source: [[_Sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]
+
+### Round 7 Additions — Mirror Splash-Protection Mechanism, Style-vs-Function Tradeoff, Small-Sink Critique, and a Second-Bathroom Palette Reversal (Игорь Краснов, added 2026-09-02)
+
+- **⚠️ Mirror-above-sink height rule, restated with an explicit mechanism — a useful ADDITION to this page's existing mirror-height content, not a duplicate**: the mirror must sit higher than both the faucet and the sink specifically so water splashes don't reach and dirty the mirror surface ("зеркало должно быть выше... смесителя и всегда выше раковины, чтобы брызги не летели"). The existing mirror-sizing content on this page is mostly proportion/sightline-based; this adds a splash-protection rationale as a second, distinct reason for the same rule. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+- **⚠️ Honest style-vs-function tradeoff acknowledgment, a genuine nuance against this vault's usual ergonomics-first framing**: a stylish but slightly low-mounted vanity countertop (forced low by an unusually tall vessel-style basin) makes hand/face-washing require more forward-lean than ideal, and the basin itself is somewhat undersized causing more splash. Krasnov's own explicit concession: if the composition looks good enough and you're willing to tolerate the inconvenience for the aesthetic, that's a legitimate choice — "дизайн - это всегда баланс между визуальным эффектом и комфортом." Recorded as a real qualification of this page's usual ergonomics-first stance, not silently resolved either way. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
+- **⚠️ Small sink in a FULL bathroom — an "unforced error" critique, distinct from general sink-sizing content on this page**: a small, hotel-bathroom-style sink installed in a full bathroom (with a shower, not a pure powder room) is impractical for real daily use (brushing teeth, washing a garment, oral hygiene). The distinguishing point: there was no structural/technical constraint forcing the small size here — it reads as an arbitrary aesthetic-only choice, not a genuine space-driven tradeoff like the low-vanity case above. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
+- **⚠️ Second (non-master) bathroom in the Peterhof project — a deliberate light-palette REVERSAL from the master bathroom's dark theme, with a real bicolor sink product detail**: light-colored sanitaryware and a light basin; a specific two-tone sink basin (different color inside vs. outside — a real applied product detail, not a general recommendation). Chrome fixtures explicitly chosen here specifically BECAUSE "здесь нет ничего чёрного" (there's nothing black in this room's overall palette) — reinforcing that fixture-color choice should match the room's overall palette contextually, rather than being a universal either-way rule independent of context. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
+
+`single-account`, `unverified` (bathroom-buying/style-preference framing throughout).
+
+## Further Round Additions, and a Field Failure
+
+### Height-Linked Fixture Sizing & Hygienic-Shower Handedness Mechanism (added 2026-08-19, remainder-pool Round 2)
+
+**⚠️ Bathtub/shower sizing explicitly tied to occupant height**: a 1700×700mm bathtub is specifically sized for an "average height" client (the length figure is height-derived, not a flat universal default); a shower stall needs a minimum 1500mm length (ideal 1600-1700mm) and minimum 900mm width. **Independently corroborates Zemskov's existing washing-machine-under-countertop caution above** — a second source flags the same elevated-sink-height problem when a washing machine sits under a bathroom sink, explicitly noting the resulting height isn't suitable for every client and should be checked against the actual occupant's height before committing. `single-account` each, `unverified`. [sources: [[_Sources/YT_pNhM-kKBy6A_knowledge_base_reveal_294|YT_pNhM-kKBy6A]]]
+
+**⚠️ Hygienic-shower/bidet-spray handedness, mechanism explained**: for a right-handed person, the toilet-paper holder stays on the dominant (right) side as usual, but the hygienic-shower spray should go on the *opposite* (left) side — the dominant hand does the washing while the non-dominant hand holds/aims the spray wand. A more mechanism-explicit refinement of this page's existing hygienic-shower-handedness guidance. `single-account`, `unverified`. [source: [[_Sources/YT_eezwcNG-1qI_designer_project_walkthrough_269|YT_eezwcNG-1qI]]]
+
+**Narrow "nano-sink" sub-type caution**: a nano-basin sink isn't automatically the right choice for every tight WC — a narrower-but-longer basin variant of the same category can fit a cramped footprint better than the wider nano-sink variant. Verify the specific sub-type/proportions against the room's real footprint, not just the "nano" category label. `single-account`, `unverified`. [source: [[_Sources/YT_eezwcNG-1qI_designer_project_walkthrough_269|YT_eezwcNG-1qI]]]
+
+### Filling a Bath Through the Slot Overflow (Мария Шеврина / SMBUREAU, added 2026-08-30)
+
+**⚠️ Fill the bath through the slot overflow ("излив через слив-перелив") instead of fitting a spout.** SMBUREAU apply this in nearly every project and describe it as base practice rather than a flourish. Two stated reasons: a wall spout **protrudes and is a genuine injury hazard** (she rates it as more dangerous than the short-spout mistake she names elsewhere), and removing it leaves only a single mixer on the wall.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
+
+**Related cost note**: the labour to install a *concealed* mixer is not much more than for a surface-mounted one, once measured against the cost of running the services — so concealed mixers need not be abandoned on labour grounds, and budget concealed models exist. [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
+
+### Round 4 Additions — Curbless Shower Risk, Towel Warmer, Shower Curtain vs. Glass, Wall-Hung Sink, and a Nightstand-Form Cross-Reference (Игорь Краснов, added 2026-09-01)
 
 [source: [[_Sources/YT_NO6-2zAJgys_krasnov_19controversial_items|NO6-2zAJgys]]]
 
@@ -238,16 +219,7 @@ elsewhere on this vault), not a new mechanism on its own. [source: [[_Sources/YT
 
 `single-account`, `unverified`.
 
-## Round 7 Additions — Mirror Splash-Protection Mechanism, Style-vs-Function Tradeoff, Small-Sink Critique, and a Second-Bathroom Palette Reversal (Игорь Краснов, added 2026-09-02)
-
-- **⚠️ Mirror-above-sink height rule, restated with an explicit mechanism — a useful ADDITION to this page's existing mirror-height content, not a duplicate**: the mirror must sit higher than both the faucet and the sink specifically so water splashes don't reach and dirty the mirror surface ("зеркало должно быть выше... смесителя и всегда выше раковины, чтобы брызги не летели"). The existing mirror-sizing content on this page is mostly proportion/sightline-based; this adds a splash-protection rationale as a second, distinct reason for the same rule. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
-- **⚠️ Honest style-vs-function tradeoff acknowledgment, a genuine nuance against this vault's usual ergonomics-first framing**: a stylish but slightly low-mounted vanity countertop (forced low by an unusually tall vessel-style basin) makes hand/face-washing require more forward-lean than ideal, and the basin itself is somewhat undersized causing more splash. Krasnov's own explicit concession: if the composition looks good enough and you're willing to tolerate the inconvenience for the aesthetic, that's a legitimate choice — "дизайн - это всегда баланс между визуальным эффектом и комфортом." Recorded as a real qualification of this page's usual ergonomics-first stance, not silently resolved either way. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
-- **⚠️ Small sink in a FULL bathroom — an "unforced error" critique, distinct from general sink-sizing content on this page**: a small, hotel-bathroom-style sink installed in a full bathroom (with a shower, not a pure powder room) is impractical for real daily use (brushing teeth, washing a garment, oral hygiene). The distinguishing point: there was no structural/technical constraint forcing the small size here — it reads as an arbitrary aesthetic-only choice, not a genuine space-driven tradeoff like the low-vanity case above. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
-- **⚠️ Second (non-master) bathroom in the Peterhof project — a deliberate light-palette REVERSAL from the master bathroom's dark theme, with a real bicolor sink product detail**: light-colored sanitaryware and a light basin; a specific two-tone sink basin (different color inside vs. outside — a real applied product detail, not a general recommendation). Chrome fixtures explicitly chosen here specifically BECAUSE "здесь нет ничего чёрного" (there's nothing black in this room's overall palette) — reinforcing that fixture-color choice should match the room's overall palette contextually, rather than being a universal either-way rule independent of context. [source: [[_Sources/YT_uSqIuvBwh8o_krasnov_peterhof_400m2_project_tour|uSqIuvBwh8o]]]
-
-`single-account`, `unverified` (bathroom-buying/style-preference framing throughout).
-
-## Round 8 Additions — Black+Brass Bicolor Fixture Accents, a Backlit Gradient Mirror, and a Grout-Matched-to-Tile Technique (Игорь Краснов, real Futurist 75m² project, added 2026-09-02)
+### Round 8 Additions — Black+Brass Bicolor Fixture Accents, a Backlit Gradient Mirror, and a Grout-Matched-to-Tile Technique (Игорь Краснов, real Futurist 75m² project, added 2026-09-02)
 
 Krasnov's own real completed studio project. [source: [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
 
@@ -258,7 +230,7 @@ Krasnov's own real completed studio project. [source: [[_Sources/YT_uPNKwSkxtKg_
 
 `single-account`, `unverified`.
 
-## ⚠️ A Four-Year Failure — Solid Oak Vanity Top Cracked at the Mixer Fixing (FLAT, added 2026-09-02)
+### ⚠️ A Four-Year Failure — Solid Oak Vanity Top Cracked at the Mixer Fixing (FLAT, added 2026-09-02)
 
 **A durability finding disclosed against the source's own interest, and this vault has almost no longitudinal evidence of any kind.** From a furniture manufacturer touring **his own flat** four years after renovation (Михаил, owner of FLAT, St Petersburg). **⚠️ Self-selected source — nobody publishes a retrospective on the job that failed — but this is the failure he chose to show.** `promotional_ratio: medium`. RU, occupied since 2019, video 2023-07. [source: [[_Sources/YT_f6HY6UXDpss_flat_owner_flat_four_years_on|f6HY6UXDpss]]]
 
@@ -272,3 +244,7 @@ Krasnov's own real completed studio project. [source: [[_Sources/YT_uPNKwSkxtKg_
 - **⚠️ It is consistent with, and evidence for, this channel's own material-appropriateness thesis** — *"чем более натуральный у тебя материал, тем больше он требует ухода"* ([[02_Hallway/analysis/Common_Mistakes|Hallway: Common Mistakes]]) **and the case against массив on materials grounds in the facade series** ([[03_Kitchen/analysis/Furniture_Facade_Materials|Kitchen: Facade Materials]]: MDF-with-veneer is dimensionally stable, improperly dried solid wood has a far higher probability of cracking). **Here the argument is borne out in his own bathroom.**
 - **⚠️ And it corroborates a second rule of his own that he admits breaking in the same room: he "замучился искать узкую раковину" narrow enough to fit alongside the mixer — "надо было сразу предусмотреть вариант расположения смесителя."** **This is precisely the mixer-and-basin-as-one-decision rule he states in his kitchen-mistakes source, and here he is the one who got it wrong.** **Read alongside the existing vanity-cabinet stub-out coordination rule and the mixer-position failures already on this page.**
 - **⚠️ Practical reading for this project: for a vanity top in a wet location, prefer quartz agglomerate or ceramic over solid timber — and where timber is used anyway, treat the mixer penetration as the failure point, sealing it properly and controlling fixing torque.** `single-account`, one flat, four years, self-selected.
+
+## Toilets and the hygienic shower — moved to their own page
+
+See **[[07_Bathroom/analysis/Toilets_and_Hygienic_Shower|Toilets and the Hygienic Shower]]**. This page keeps mixers, basins, mirrors and above-basin storage.

@@ -15,54 +15,18 @@ Split out of `Walls_and_Paint.md` on 2026-08-31, when that page reached 921 line
 
 ---
 
-## "Stretch Walls" (Натяжные Стены) — an Emerging Trend, New Topic for This Page (Round 5, added 2026-08-28)
+## Emerging and Named Trends
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### "Stretch Walls" (Натяжные Стены) — an Emerging Trend, New Topic for This Page (Round 5, added 2026-08-28)
 
 > [!NOTE]
 > Flagged from a stretch-ceiling deep-dive interview (Andrey Frolov, independent professional installer, no commercial tie to Ontario) — see [[13_Surfaces_and_Finishes/Ceilings_Guide]] for the full ceiling-specific material/pricing/technique detail from the same source. `single-account`, low promotional ratio. [source: [[_Sources/YT_W1PKG4tVw_g_kruglov_stretch_ceiling_truth_frolov|YT_W1PKG4tVw_g]]]
 
 The same PVC-film/fabric stretch material and tensioning technique used for ceilings is starting to be applied to walls instead — genuinely new territory for this page. Cited benefits: **a soft/cushioned tactile wall surface** (firmness adjustable via the backing material chosen behind the membrane) — safer for a child bumping into it than a hard wall, and described by the installer as a pleasant tactile surprise rather than an unsettling "give" underfoot/underhand; **meaningful sound absorption/echo reduction** in the room; and **a perfectly even, defect-hiding finish** that replaces the need for flawless paint/wallpaper prep, with clean pre-built corner/reveal solutions at junctions. The installer (an independent stretch-ceiling professional) states he personally believes in the technique's staying power and plans to install it in his own home; Kruglov (the interviewer, a renovation-company owner) states he's skeptical the trend will stick, citing less mature supporting hardware/accessory infrastructure than stretch ceilings currently have. Recorded here as a real, current trend worth tracking — not yet a settled recommendation either way.
 
-## Round 4 Krasnov Additions — Dated Trends, Proportionality, and a "Random" Print-Wallpaper Critique (added 2026-09-01)
-
-Four points from three Round 4 sources, kept under one heading so this page does not fragment.
-
-- **Decorative wood-slat accent walls ("рейки") — explicitly named as a dated 2019-2020 trend** his studio has moved away from in newer projects. **Same rejected-trend category as this vault's existing arch critique (Round 3, `gbOoH1oV4Hk`, on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole Home Planning Method]])** — cross-referenced as the same "dated-trend" pattern, not a new mechanism. [source: [[_Sources/YT_FIAZhQGKq7g_krasnov_7designer_taboos|FIAZhQGKq7g]]]
-- **Mirrored ceilings — flagged as a dated, "tacky" 2000s cliché**; if you want a mirror's space-enlarging effect, use it on a WALL, never the ceiling. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
-- **⚠️ Decorative moulding/ornament ("лепнина") — a specific proportionality caution.** Appropriate for genuinely tall-ceilinged, larger rooms (his contrast: a 30m² apartment with 2.6m ceilings vs. a 150m² apartment with 3.2m ceilings, where moulding plus decorative ceiling rosettes read organically together) — otherwise should be used in a strictly limited/"dosed" quantity, decided at the planning/visualization stage rather than added arbitrarily. Explicit that his own studio uses moulding regularly and is not against it in principle — the caution is about fit-to-context, not the technique itself. **Cross-check against this page's own trim/moulding Perspectives block** (see [[13_Surfaces_and_Finishes/analysis/Doors_Trim_Cost_and_Buying|Doors & Trim — Cost & Buying]]'s "Are Trims and Mouldings Worth Having At All?" section) — Krasnov's position (moulding is fine, scoped by room size/ceiling height) sits closer to Кузина's "not always babushka style" defence than to Шеврина's "remove where no other classical elements exist" rejection, though he frames it as a proportion question rather than a style-coherence one. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
-- **⚠️ "Random" print-imitation wallpaper — a specific critique, genuinely new.** Literal photo-print wallpaper imitating another material (fake brick/marble/wood-grain prints) or reproducing famous art (his example: a Van Gogh print) reads as cheap/tacky — compared explicitly to a fake designer-logo knockoff bag. If you want a real material's look (e.g. loft-style exposed brick), use the genuine material or a real thin veneer (clinker brick tile) instead of a printed imitation. **Plain paintable wallpaper (used to level/hide wall imperfections before painting) is explicitly fine and even more budget-friendly than skim-coating** — a legitimate, distinct use case from decorative print wallpaper, worth keeping as its own point on [[13_Surfaces_and_Finishes/analysis/Wallpaper_and_Paint_Application|Wallpaper & Paint Application]] as well. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
-
-`single-account`, `unverified`.
-
-## ⚠️ Painted Accent Walls as "Architectural Poverty" — a Notable Professional Opinion (Игорь Краснов, added 2026-09-01, Round 4)
-
-**Judgment call, per the extraction note: this rises to a flagged professional-opinion note rather than a full Perspectives disagreement block, since this vault's numerous other sources on painted accent walls treat the technique neutrally-to-positively without directly addressing the "architectural poverty" framing — worth surfacing prominently, not (yet) a resolved multi-source dispute.** [source: [[_Sources/YT_NO6-2zAJgys_krasnov_19controversial_items|NO6-2zAJgys]]]
-
-Explicitly states that among professional designers, a painted accent wall is increasingly seen as a sign of "architectural poverty" ("архитектурная бедность") — often used to mask a lack of genuine spatial/planning interest or the absence of real architectural detail. States that in genuinely high-end interiors, visual accents are created through material choice, volume/form, or a lighting-and-texture synergy rather than flat paint colour alone. Recommends complex textures, panelling, or decorative techniques instead of a simple painted wall for genuine visual distinction.
-
-`single-account`, `unverified`.
-
-## Decorative Plaster — Pet-Durability Case, Skill Requirement, and Substrate Tolerance (RemProektMD, added 2026-08-24, Round 2)
-
-> [!NOTE]
-> Chișinău/Moldova channel, region level 2 only. Real object: the practitioner's own home, a panel-house entryway. `single-account`, medium promotional ratio (closes with a direct service pitch). [source: [[_Sources/YT_mONJ1htVKrE_remproektmd_decorative_plaster_masterclass|mONJ1htVKrE]]]
-
-**Real motivating case for decorative plaster over wallpaper**: a household cat repeatedly tore/scratched entryway wallpaper regardless of replacement; tile was considered but rejected as atypical for an entryway. Decorative plaster chosen specifically for durability against pet claws and washability/water exposure — a practical pet-owner rationale, not purely aesthetic.
-
-**Prep and application**: strip to bare wall, prime with the primer bundled in the specific decorative-plaster kit (not a generic primer), then apply in multiple layers. **⚠️ Real skill/experience requirement, stated candidly**: buying the material alone doesn't let a first-timer reproduce the correct texture — pattern is created via a specific trowel movement, and the installer must judge by experience how long each section needs to partially dry before working the adjoining section ("fragment by fragment," not the whole wall at once). **Color changes meaningfully between wet application (looks like dark blotches) and final cured state (noticeably lighter/more muted)** — don't judge final color from the wet appearance mid-job.
-
-**⚠️ Real substrate-tolerance case**: this specific panel-house entryway's walls were "not prepared at all" — bare panel, only patchy skim-coat filler in some spots, not everywhere. The finished decorative-plaster coating fully concealed the previously visible small surface defects/voids — a real practical advantage over a flatter, more defect-revealing finish on a rough substrate. Finished coating described as durable and washable, more resistant than wallpaper to both water and pet claws.
-
-## Budget DIY Decorative Plaster from Ordinary Starter Putty (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
-
-A cheaper alternative to the professional decorative-plaster compound above, with an explicit durability tradeoff stated honestly rather than glossed over:
-
-- **⚠️ Technique**: rather than a purpose-made decorative-plaster compound, apply the same decorative texturing technique (sponge, trowel, brush, or circular hand motion, applied and then smoothed once it begins to set) using **plain starter putty** over a properly primed and plastered wall.
-- **⚠️ Two variants, one recommended over the other**: (1) applying decorative texture directly over existing plaster with no further prep — the source recommends this only for low-traffic zones (balconies, storage, walk-in closets), not main living spaces. (2) The source's actual recommendation for main rooms: plaster the wall, prime, apply 1-2 coats of starter putty with inter-coat sanding, prime again, then apply the same putty in the chosen decorative texture.
-- **⚠️ Explicit durability tradeoff, stated honestly rather than hidden**: a genuine professional decorative-plaster compound (like the RemProektMD case above) is meaningfully more wear-resistant, more repairable, and harder to chip than this putty technique — but the putty method costs a small fraction of the professional compound while remaining visually indistinguishable to anyone not specifically trained to spot the difference.
-
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
-
-## Textured-Finish Lighting Interaction, Diagonal-Tile Justification & Duct-Box Fill-vs-Finish — per Zemskov/Zemstandart (added 2026-08-19, remainder-pool Round 2)
+### Textured-Finish Lighting Interaction, Diagonal-Tile Justification & Duct-Box Fill-vs-Finish — per Zemskov/Zemstandart (added 2026-08-19, remainder-pool Round 2)
 
 > [!NOTE]
 > `single-account`, two "90 mistakes" designer-critique videos, parts 2 and 3 of the same series about one apartment. [sources: [[_Sources/YT_OnKreLhmLYY_90_mistakes_part3_299|note 1]], [[_Sources/YT_nbrDFET2AXk_90_mistakes_part2_295|note 2]]]
@@ -72,7 +36,9 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 - **⚠️ "Butt-first design" anti-pattern, explicitly named**: building a symmetric/decorative wall composition *before* confirming where functionally-necessary furniture will actually go — once the furniture lands where it's actually needed, it can wreck the intended symmetry entirely (documented case: a wardrobe placed after a decorative accent-stripe-and-lighting composition was finished ended up blocking/covering the whole composition). **General planning-order principle: confirm and place functionally-necessary furniture first, decorative/symmetric wall compositions second — never the reverse.** [source: [[_Sources/YT_OnKreLhmLYY_90_mistakes_part3_299|OnKreLhmLYY_90_mistakes_]]]
 - **⚠️ Duct-box/niche "fill vs. finish" decision heuristic**: a developer-delivered structural niche/recess that isn't functionally needed can either be expensively finished with fully rounded, carefully detailed corners, or — usually the more rational choice — simply filled in with lightweight masonry (aerated concrete block, ~10cm) to produce one flat wall. Filling avoids the finishing cost/complexity *and* means kitchen-module electrical points can land directly in the filled niche without chasing into an adjacent load-bearing wall. [source: [[_Sources/YT_nbrDFET2AXk_90_mistakes_part2_295|nbrDFET2AXk_90_mistakes_]]]
 
-## Ten-Material Wall-Finish Comparison: Prep/Install/Material Cost Ladder by Material Group (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
+## Cross-Material Comparisons and Cost Ladders
+
+### Ten-Material Wall-Finish Comparison: Prep/Install/Material Cost Ladder by Material Group (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
 
 > [!NOTE]
 > Structured 5-criteria comparison (popularity, prep cost, install cost, material cost, wet-room suitability) across ~10 material categories — the round's structural anchor; two later Round 6 videos on the same topic (`6FbZY6YHrxQ`, `emfnY0TPyaY`) are cross-checked against this note before recording anything as new from them. Region level 2 only. Low promotional ratio. [source: [[_Sources/YT_2it-PLHuJoU_kruglov_paint_or_wallpaper_best_material|YT_2it-PLHuJoU]]]
@@ -88,7 +54,7 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 - **⚠️ Behind-furniture area cost-skip rule, worked example**: wall area permanently hidden behind built-in furniture (kitchen units, wardrobes) needs no finish beyond putty+primer — refutes the "I might replace my kitchen later" objection (a furniture swap always triggers a full cosmetic refresh anyway). 50m² apartment (≈150m² total wall area, ≈30m²/1-fifth behind furniture): skipping decorative finish there saves ≈60,000 RUB (≈$660) labor + ≈20,000 RUB (≈$220) material = ≈80,000 RUB (≈$880) total, worth roughly a week off schedule.
 - **Selection heuristic and zoning rule**: judge a candidate material by tactile feel underfoot/underhand, not photos alone; reserve a more damage-resistant material (e.g. decorative plaster) for heavy-traffic zones (entryway/hallway) even if the rest of the apartment uses a cheaper material.
 
-## Real-Object Wall-Finish Walkthrough — Clinker, Porcelain-Tile Sizing, DIY Concrete-Look Plaster, and Spot-Repairability (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
+### Real-Object Wall-Finish Walkthrough — Clinker, Porcelain-Tile Sizing, DIY Concrete-Look Plaster, and Spot-Repairability (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
 
 > [!NOTE]
 > A completed-apartment site walkthrough (presenter Nikita, not Kruglov), distinct format from this round's own structured comparison video (`2it-PLHuJoU`, above) — cross-checked against it, only genuinely new items recorded. Region level 2 only. Low promotional ratio. [source: [[_Sources/YT_6FbZY6YHrxQ_kruglov_best_wall_finish_options|YT_6FbZY6YHrxQ]]]
@@ -103,76 +69,28 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 - **Mirror-wall substrate varies by mounting method**: a glued mirror needs only flat plaster; hardware-mounted needs a puttied finish instead.
 - **Adjustable-opacity light-transmitting partition**: selectively darkened/obscured, letting a room alternate between an open, distant-sightline feel and a fully enclosed, intimate one — changes the room's perceived dimensions with the partition's state.
 
-## Painting-Substrate Cost-Inversion, Tile-Heating Pairing, and the Rotband Decorative-Plaster Hack (Konstantin Kruglov / Ontario, added 2026-08-28, Round 6)
+## Accent Walls, Feature Walls and Headboards
 
-> [!NOTE]
-> Final video of this round's own 5-video wall-finish cluster, presented as an explicit personal ranking across the same material families this round already covered — heavy internal overlap confirmed as anticipated at round dispatch. Cross-checked against all four earlier Round 6 wall-finish videos above; only genuinely new items recorded. Region level 2 only. Low promotional ratio. [source: [[_Sources/YT_emfnY0TPyaY_kruglov_how_not_to_err_wall_finish|YT_emfnY0TPyaY]]]
+### Round 4 Krasnov Additions — Dated Trends, Proportionality, and a "Random" Print-Wallpaper Critique (added 2026-09-01)
 
-- **⚠️ Three-way painting-substrate cost-inversion**: painting plain prepared bare wall vs. paintable wallpaper vs. paintable non-woven lining paper ("малярный флизелин") — **painting flizelin/paintable wallpaper actually costs *more* than painting a plain prepared wall**, since prep is identical either way and the flizelin/wallpaper material cost is added on top, with invisible seams very hard to achieve when painting over flizelin.
-- **Micro-crack-visibility myth debunked**: flizelin/paintable wallpaper doesn't hide new-build settlement micro-cracks — a crack forming behind either material doesn't tear it, but the crack still becomes visible through it.
-- **Small-format tile (<10cm) flagged as a third genuinely on-trend porcelain-tile size**, alongside the 60-120cm sweet spot — distinct from old standard 20-40cm (out of trend) and oversized >80cm-tall slabs (expensive, installer risk premium).
-- **⚠️ Porcelain-tile-flooring pairing rule**: whenever porcelain tile is used as flooring, pair it with electric underfloor heating — inexpensive relative to the comfort gain, framed as close to mandatory.
-- **Kitchen porcelain-tile application detail**: a full accent wall *without* upper cabinets in front of it, not just a splashback strip.
-- **Decorative plaster's inherent uniqueness**: hand-applied by an individual craftsman, so no two decorative-plaster walls — even the same product — look truly identical; framed as a selling point (exclusivity).
-- **⚠️ Named company cost-hack: ordinary Rotband gypsum plaster used directly as a decorative-plaster substitute**, hand-troweled to achieve a decorative look at dramatically lower material cost — used on multiple real company projects. Distinct from this round's own guide-profile relief technique above (`6FbZY6YHrxQ`) — this is plain Rotband hand-troweled directly, no profile.
-- **Panel taxonomy extension**: soft/upholstered panels as a bedroom headboard substitute (coziness + acoustic damping); veneered panels, formerly commercial-only, now increasingly residential.
-- **Baguettes/moldings flagged as a declining trend with a resale-value caution** — the presenter would skip them if planning to sell within 10 years.
-- **Fresco explicitly predicted to decline despite currently being at peak popularity.**
+Four points from three Round 4 sources, kept under one heading so this page does not fragment.
 
-## Reveals, Flush Junctions and Microcement (Мария Шеврина / SMBUREAU, added 2026-08-30)
+- **Decorative wood-slat accent walls ("рейки") — explicitly named as a dated 2019-2020 trend** his studio has moved away from in newer projects. **Same rejected-trend category as this vault's existing arch critique (Round 3, `gbOoH1oV4Hk`, on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole Home Planning Method]])** — cross-referenced as the same "dated-trend" pattern, not a new mechanism. [source: [[_Sources/YT_FIAZhQGKq7g_krasnov_7designer_taboos|FIAZhQGKq7g]]]
+- **Mirrored ceilings — flagged as a dated, "tacky" 2000s cliché**; if you want a mirror's space-enlarging effect, use it on a WALL, never the ceiling. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
+- **⚠️ Decorative moulding/ornament ("лепнина") — a specific proportionality caution.** Appropriate for genuinely tall-ceilinged, larger rooms (his contrast: a 30m² apartment with 2.6m ceilings vs. a 150m² apartment with 3.2m ceilings, where moulding plus decorative ceiling rosettes read organically together) — otherwise should be used in a strictly limited/"dosed" quantity, decided at the planning/visualization stage rather than added arbitrarily. Explicit that his own studio uses moulding regularly and is not against it in principle — the caution is about fit-to-context, not the technique itself. **Cross-check against this page's own trim/moulding Perspectives block** (see [[13_Surfaces_and_Finishes/analysis/Doors_Trim_Cost_and_Buying|Doors & Trim — Cost & Buying]]'s "Are Trims and Mouldings Worth Having At All?" section) — Krasnov's position (moulding is fine, scoped by room size/ceiling height) sits closer to Кузина's "not always babushka style" defence than to Шеврина's "remove where no other classical elements exist" rejection, though he frames it as a proportion question rather than a style-coherence one. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
+- **⚠️ "Random" print-imitation wallpaper — a specific critique, genuinely new.** Literal photo-print wallpaper imitating another material (fake brick/marble/wood-grain prints) or reproducing famous art (his example: a Van Gogh print) reads as cheap/tacky — compared explicitly to a fake designer-logo knockoff bag. If you want a real material's look (e.g. loft-style exposed brick), use the genuine material or a real thin veneer (clinker brick tile) instead of a printed imitation. **Plain paintable wallpaper (used to level/hide wall imperfections before painting) is explicitly fine and even more budget-friendly than skim-coating** — a legitimate, distinct use case from decorative print wallpaper, worth keeping as its own point on [[13_Surfaces_and_Finishes/analysis/Wallpaper_and_Paint_Application|Wallpaper & Paint Application]] as well. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
 
-### Window and entrance-door reveals: paint them
+`single-account`, `unverified`.
 
-**⚠️ A reveal is not a traffic zone**, so ordinary paint is adequate — pick a **higher wash-durability class** if the window is often open and there is no supply ventilation. Plastic overlays are argued to be both ugly and largely useless.
+### ⚠️ Painted Accent Walls as "Architectural Poverty" — a Notable Professional Opinion (Игорь Краснов, added 2026-09-01, Round 4)
 
-**⚠️ For entrance-door reveals the argument is asymmetric repair: damaged MDF has to be replaced; damaged paint is touched up.** Again a higher wear class of paint. If a client insists on something tougher:
+**Judgment call, per the extraction note: this rises to a flagged professional-opinion note rather than a full Perspectives disagreement block, since this vault's numerous other sources on painted accent walls treat the technique neutrally-to-positively without directly addressing the "architectural poverty" framing — worth surfacing prominently, not (yet) a resolved multi-source dispute.** [source: [[_Sources/YT_NO6-2zAJgys_krasnov_19controversial_items|NO6-2zAJgys]]]
 
-- **Microcement — and specifically the coarse-fraction kind.** They report trying to trim a slight excess at a corner with a knife on site and failing, because it sets that hard. (Fine-fraction microcement is the paint-like one, used where the wall should read as painted.)
-- **Slaked lime with marble chip** — a newer material she names as behaving similarly and performing well in traffic zones.
-- **If MDF is genuinely wanted, use a thin frame** around the reveal rather than wrapping the whole corner, optionally standing a couple of millimetres proud, in the wall colour or in veneer or stone.
+Explicitly states that among professional designers, a painted accent wall is increasingly seen as a sign of "architectural poverty" ("архитектурная бедность") — often used to mask a lack of genuine spatial/planning interest or the absence of real architectural detail. States that in genuinely high-end interiors, visual accents are created through material choice, volume/form, or a lighting-and-texture synergy rather than flat paint colour alone. Recommends complex textures, panelling, or decorative techniques instead of a simple painted wall for genuine visual distinction.
 
-[source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+`single-account`, `unverified`.
 
-### Don't glue tile on top of an existing finish — leave the recess in advance
-
-**⚠️ Gluing porcelain over a finished wall leaves an exposed edge, and neither a metal edge profile nor plastering over it is a fix.** The correct approach is to **leave a recess in the plaster in advance**, so the tile sits **flush with the adjacent finish**, the two meeting in one plane through a П-profile. **The same applies to mirrors.**
-
-The consequence she draws is a scheduling one: this has to be raised with the builder **at the rough-plastering stage**, not later. Her attached framing is worth quoting, because it is the argument for caring about this class of detail at all — a designer interior is not one with red accents, a yellow sofa or a designer pendant, but "интерьер, который… продуман до мелочей."
-
-[source: [[_Sources/YT_avRNMkNdOBs_shevrina_top7_renovation_mistakes|YT_avRNMkNdOBs]]]
-
-### Microcement over a heated wall — an application outside the bathroom
-
-Microcement is usually thought of as a bathroom material. **Her case is an entrance hall or utility block needing open storage** — hooks for a wet umbrella or a snow-covered coat — where the owner does not want a visually distinct material such as porcelain or panelling, but wants the wall to read as painted.
-
-- **Applied smooth, non-mottled and non-textured, microcement reads like paint and can be colour-matched to the wall paint**, while being genuinely water-resistant.
-- **A floor-heating mat can be laid beneath it to create a heated drying wall** — they did exactly this in a utility block, with hooks and rails for drying cloths.
-- Substrate preparation differs between floor and wall and must be discussed with the applicator specifically; with that done, microcement is argued to be fine in wet rooms and even public spaces.
-
-**Project note**: this project has decided against underfloor heating, but a heated *wall* in a utility or entrance zone is a different application and is not covered by that decision — flagged here, not assumed either way.
-
-[source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]] [source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
-
-### Selection criterion for microcement and decorative plaster
-
-**⚠️ The criterion is texture, not the material.** Smooth, calm, non-mottled, low-contrast, visually light textures stay current; **visually heavy, mottled, obtrusive textures start to irritate over time.** A usable selection rule rather than a verdict on the material as such.
-
-[source: [[_Sources/YT_QES02ExtmAg_shevrina_false_antitrends|YT_QES02ExtmAg]]]
-
-## Microcement on Cabinet Fronts — Two Execution Routes (Мария Шеврина / SMBUREAU, added 2026-08-30)
-
-Microcement can be applied to cabinet fronts, and **the choice of who applies it is forced by context rather than preference**:
-
-- **Route A — the joinery shop applies it at their factory** and delivers finished fronts.
-- **Route B — order raw MDF fronts "подготовленные под микроцемент"** and have the **same applicator who coats your walls** finish the fronts on site.
-
-**⚠️ Route B is required whenever a wall in the same room is also in microcement.** You cannot send a wall to a factory, so factory-finished fronts would be a different batch, applied in a different manner, in a different composition — and would not match the wall. She describes the raw fronts arriving as "немного сырые заготовочки" for the wall applicator to finish.
-
-Practical consequence for scheduling: on Route B the joinery delivery and the microcement applicator's visit have to be sequenced together, which is a coordination step that doesn't exist on Route A.
-
-`single-account`, `unverified`. [source: [[_Sources/YT_KI2GvB0jzHs_shevrina_podcast01_kitchen_material_procurement|YT_KI2GvB0jzHs]]]
-
-## "Пол на стене" — Floor Planks Run Up a Wall (added 2026-08-30)
+### "Пол на стене" — Floor Planks Run Up a Wall (added 2026-08-30)
 
 Dated, per the same practitioner. Her account of why it happened: people wanted wood where water hits, wide-format wood-look ceramic didn't exist yet, and the only options were small floor-format planks or expensive wide slabs. **Replacement: wide-format wood-look ceramic.** For the cost objection to wide-format, see the slab-logistics note in [[11_Budget_and_Planning/Budgeting_Guide|the Budgeting Guide]].
 
@@ -180,17 +98,7 @@ Dated, per the same practitioner. Her account of why it happened: people wanted 
 
 [source: [[_Sources/YT_haM4H-b-bZM_shevrina_bathroom_tile_selection|YT_haM4H-b-bZM]]] [source: [[_Sources/YT_dSm7M6oGFis_shevrina_subscriber_interior_critiques|YT_dSm7M6oGFis]]]
 
-## Microcement in Wet Areas — a Composition-Based Defence (added 2026-08-31)
-
-Addressing the fear of using microcement in a shower: **microcement is not paint.** Its composition is **cement + polymers + quartz sand in various fractions**, and quartz is highly wear-resistant — she analogises to quartz being the most durable worktop material. **It is used in public high-traffic spaces on both walls and floors.**
-
-Her conclusion: reliable in a bathroom's dry, damp **and wettest** zones — **and it can be applied to the ceiling**, which is what delivers a single-finish "box" effect where porcelain cannot (porcelain is too heavy for a ceiling). **The finish is controllable**: different application methods and aggregate fractions give either a mottled look or something reading as plain paint.
-
-Complements the coarse-vs-fine fraction material already on this page, and the microcement-over-a-heated-wall technique.
-
-[source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]]
-
-## Headboard and Feature Wall Materials — What Each Look Actually Is (added 2026-08-31)
+### Headboard and Feature Wall Materials — What Each Look Actually Is (added 2026-08-31)
 
 A reverse-engineering taxonomy, useful when working from reference photographs:
 
@@ -207,7 +115,19 @@ A reverse-engineering taxonomy, useful when working from reference photographs:
 
 [source: [[_Sources/YT_nYvqqkNeS4k_shevrina_bedroom_lighting_and_headboard|YT_nYvqqkNeS4k]]]
 
-## Protecting a Protruding Internal Corner — Seven Cladding Options, Ranked (Надежда Кузина, added 2026-08-31)
+### ⚠️ Large-Format Porcelain Slab as a Living-Room Accent Wall — Extending Round 8's Faux-Marble Substitution Table (Игорь Краснов, added 2026-09-02, Round 9)
+
+**Corroborates the Round 8 (`NAqGs6ygykU`) faux-material critique almost exactly (fading, scratching, "gives itself away up close") — recorded as a corroborating cross-round data point, not a new critique — but adds a genuinely new application beyond that table's existing countertop/flooring uses.** [source: [[_Sources/YT_tLT1ohlm68c_krasnov_dont_buy_these_replacements|tLT1ohlm68c]]]
+
+- **Faux-marble laminate/veneer furniture and surfaces** — corroborates this page's and [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]'s existing faux-material critique: plastic/laminate marble-look surfaces fade, scratch, and "give themselves away up close," losing the intended luxury effect over time.
+- **⚠️ Large-format porcelain slab (керамогранит, quoted inline) explicitly recommended as capable of imitating not just marble but ANY natural stone** — a genuinely new specific application, extending Round 8's substitution table into a new use-case: using large-format porcelain slab as an **accent-wall feature in a living room**, not just as a countertop or flooring material as this page's existing content already covers (see the Round 6 kitchen-porcelain-accent-wall entry above).
+- **A lower-cost/lower-risk alternative also offered**: instead of full faux-marble furniture, use small GENUINE marble accessories (trays, small side tables) to get real marble's authentic depth/pattern at low cost and low risk — recorded distinctly from the porcelain-slab application above, a different tactic for the same underlying "faux marble disappoints" problem.
+
+`single-account`, `unverified`. `corroborates_existing: true` for the faux-marble critique itself; the accent-wall application and the genuine-marble-accessories alternative are genuinely new.
+
+## Ornament, Mouldings and Corner Protection
+
+### Protecting a Protruding Internal Corner — Seven Cladding Options, Ranked (Надежда Кузина, added 2026-08-31)
 
 An irregular room (Г-shaped, "пистолетиком") or a Г/S/Z-shaped corridor leaves an **inward-pointing corner**, which Кузина classifies as a defect to be fought rather than a feature: "это ошибка архитектуры, с которой нужно бороться." **The driver is wear, not looks** — clothing and elbows abrade it and it dirties. The geometry-changing answers are on [[17_Design_and_Ergonomics/analysis/Difficult_Room_Shapes_and_Proportion_Remedies|Difficult Room Shapes & Proportion Remedies]]; the cladding answers are here. [source: [[_Sources/YT_fSBAMSIgnBs_kuzina_protruding_corner_protection|YT_fSBAMSIgnBs]]]
 
@@ -223,7 +143,7 @@ An irregular room (Г-shaped, "пистолетиком") or a Г/S/Z-shaped cor
 
 **Closing caveat she volunteers**: something in an interior always ends up shabby, so she reckons on renovation every 5–7 years — adding wryly that this "очень помогает жить нам, дизайнерам," and that it means anyone who has just finished is already planning the next one. She explicitly invites disagreement.
 
-## Ornament Families — How Each Behaves on a Wall or Fabric (Надежда Кузина, added 2026-09-01)
+### Ornament Families — How Each Behaves on a Wall or Fabric (Надежда Кузина, added 2026-09-01)
 
 From the same 92-minute seminar; the combination rules are on [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]]. `promotional_ratio: medium` — hosted in the LeDimore / de Mora showroom, which supplied the examples. [source: [[_Sources/YT_7Kk_TTxoq4g_kuzina_ornament_seminar|YT_7Kk_TTxoq4g]]]
 
@@ -239,18 +159,7 @@ From the same 92-minute seminar; the combination rules are on [[17_Design_and_Er
 - **Ornament respects the plane; a picture does not.** Her working distinction: ornament **fills the surface with no figure/ground separation and no attempt at depth**, where a picture leaves unfilled space reading as air behind the subject. **The deliberate refusal of the third dimension is what makes something ornament.**
 - **Two functions**: bordering and ordering a surface (dividing one scene from another — frescoed church walls where floral bands separate religious scenes and carry no symbolism themselves), and **filling a plane entirely** in styles that will not tolerate empty surface.
 
-## Milled-Panel Terminology, an Emphatic Plaster-Imitation-Wallpaper Rule, and a Textured Concrete Wall's Dated-Trend Critique (Игорь Краснов, added 2026-09-02, Round 7)
-
-Third Pinterest real-image critique episode. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
-
-- **⚠️ Milled/fluted panel terminology clarification, genuinely new for this page**: fluted panel texture («фрезеровка», explicitly distinguished from wood-slat wall panels «рейки», which look superficially similar) collects dust/dirt in the grooves — a specific material-maintenance note that also usefully clarifies milled-panel vs. slat-wall terminology (this page's existing slat-wall dated-trend content, Round 4, is about «рейки» specifically — this is the related-but-distinct milled/fluted category).
-- **⚠️ Plaster-imitation-wallpaper — an emphatic standing rule, a stronger restatement of Round 4's `w2T9_14Y9KQ` imitation-wallpaper content, cross-reference not duplicate**: "never use plaster-imitation wallpaper — always either real decorative plaster, or plain paintable wallpaper, never a printed plaster/concrete/stone-imitation wallpaper" ("никогда не используйте обои с имитацией штукатурки... всегда либо настоящая декоративная штукатурка, либо просто обои под покраску, но никогда обои под что бы то ни было — под бетон, под камень"). Worth quoting distinctly since this is more emphatic/categorical than the earlier entry.
-- **⚠️ Textured "architectural concrete" accent wall — a nuanced critique of a once-trendy material**: acknowledges the material genuinely adds depth/texture, but flags it as a now-dated trend (popular a few years ago, now reading as a dated attempt at freshness). Also flags a practical maintenance concern — such textured surfaces collect dust and require careful lighting planning since the light-and-shadow pattern across an irregular textured surface can be unpredictable. Recommends a more understated decorative plaster finish instead (reads as a "noble," non-dating background), or a large statement artwork as an easier-to-update alternative.
-- **Wood accent panel behind a headboard — a coarse-grain critique**: the panel's own grain pattern is too coarse/heavy, reading more like "oversized laminate" than a refined accent — recommends a more delicate wood veneer, or dropping the panel altogether and focusing visual weight on a well-designed headboard instead. Cross-reference [[06_Small_Bedroom/analysis/Decor_Color_and_Lighting_Technique|Decor, Colour and Lighting Technique]] for the full bedroom-specific critique of this same wall (including the "splits the wall in half" zoning failure).
-
-`single-account`, `unverified`.
-
-## Trendy-Tile Lifespan Critique, Ornate-Decor and Gold/Brass Overuse, and Murals as an Open Question (Игорь Краснов, added 2026-09-02, Round 8)
+### Trendy-Tile Lifespan Critique, Ornate-Decor and Gold/Brass Overuse, and Murals as an Open Question (Игорь Краснов, added 2026-09-02, Round 8)
 
 A materials/decor rebuttal video, genuinely rich with specific durability claims, quantified timeframes, and named historical design references — see [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]] for the same source's furniture-specific content (acrylic/plastic, mirrored surfaces, faux-texture substitution table), routed there instead. [source: [[_Sources/YT_NAqGs6ygykU_krasnov_7things_wont_do_luxury_designer|NAqGs6ygykU]]]
 
@@ -261,17 +170,7 @@ A materials/decor rebuttal video, genuinely rich with specific durability claims
 
 `single-account`, `unverified`.
 
-## ⚠️ Large-Format Porcelain Slab as a Living-Room Accent Wall — Extending Round 8's Faux-Marble Substitution Table (Игорь Краснов, added 2026-09-02, Round 9)
-
-**Corroborates the Round 8 (`NAqGs6ygykU`) faux-material critique almost exactly (fading, scratching, "gives itself away up close") — recorded as a corroborating cross-round data point, not a new critique — but adds a genuinely new application beyond that table's existing countertop/flooring uses.** [source: [[_Sources/YT_tLT1ohlm68c_krasnov_dont_buy_these_replacements|tLT1ohlm68c]]]
-
-- **Faux-marble laminate/veneer furniture and surfaces** — corroborates this page's and [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]'s existing faux-material critique: plastic/laminate marble-look surfaces fade, scratch, and "give themselves away up close," losing the intended luxury effect over time.
-- **⚠️ Large-format porcelain slab (керамогранит, quoted inline) explicitly recommended as capable of imitating not just marble but ANY natural stone** — a genuinely new specific application, extending Round 8's substitution table into a new use-case: using large-format porcelain slab as an **accent-wall feature in a living room**, not just as a countertop or flooring material as this page's existing content already covers (see the Round 6 kitchen-porcelain-accent-wall entry above).
-- **A lower-cost/lower-risk alternative also offered**: instead of full faux-marble furniture, use small GENUINE marble accessories (trays, small side tables) to get real marble's authentic depth/pattern at low cost and low risk — recorded distinctly from the porcelain-slab application above, a different tactic for the same underlying "faux marble disappoints" problem.
-
-`single-account`, `unverified`. `corroborates_existing: true` for the faux-marble critique itself; the accent-wall application and the genuine-marble-accessories alternative are genuinely new.
-
-## ⚠️ Polyurethane Moulding Shrinks — Buy the Same-Material Joint Adhesive; and Natural Lime vs Acrylic-Added (Татьяна Безверхая + supplier, added 2026-09-02)
+### ⚠️ Polyurethane Moulding Shrinks — Buy the Same-Material Joint Adhesive; and Natural Lime vs Acrylic-Added (Татьяна Безверхая + supplier, added 2026-09-02)
 
 > [!WARNING]
 > **`promotional_ratio: high` — sponsored supplier collaboration** (finishing-materials showroom, that company's managing partner co-hosting, closing promo code). **Brand-level verdicts are excluded**; only material behaviour is recorded. Claims about the density and shower-tolerance of "their" profiles are the supplier's own and are marked as such. No prices in the source. RU, Moscow, 2024. [source: [[_Sources/YT_j-F2HmDkaqY_bezverkhaia_wall_finish_materials|j-F2HmDkaqY]]]
@@ -290,3 +189,7 @@ A materials/decor rebuttal video, genuinely rich with specific durability claims
 - **⚠️ Natural lime versus acrylic-added lime, a composition distinction this page did not hold.** Lime is still quarried and imported from Italian quarries; **in Russia it is usually sold with acrylic added.** Natural lime is **plastic to work and maximally ecological**, and produces loft finishes, stone effects (**травертин, марморино**) and the currently popular slightly-uneven clay-like surfaces. Relevant to this page's existing microcement and decorative-plaster selection criteria — **ask which of the two you are being sold.**
 - **Matte suede effect (эффект замши)** is offered as the modern alternative to dated glossy «венецианка» — smooth to the touch, suited to Japandi and contemporary schemes.
 - **⚠️ Skill requirement, and it lands between this page's two existing positions**: application needs **a decorator, not a generalist** — "чтобы он был декоратором и в принципе понимал, что такое кельма и шпатель." Their own materials are formulated to tolerate the all-rounder who paints walls, lays floors and does plumbing, **but a qualification is still required**; someone who has previously worked with decorative plaster will manage lime or suede types, and video instructions and technical documentation exist. **Corroborates the RemProektMD skill-requirement finding above** while being slightly less absolute about it.
+
+## Decorative plaster and microcement — moved to their own page
+
+See **[[13_Surfaces_and_Finishes/analysis/Decorative_Plaster_and_Microcement|Decorative Plaster and Microcement]]** — the largest single subject on this page, and the one with the most independent sources. This page keeps the trends, the cross-material comparisons, feature walls and ornament.

@@ -117,6 +117,32 @@ The convention above is about pages that get **too big**. A batch of real splits
 
 **Precedent from the 2026-09-02 recalibration, when twenty pages were brought under the ceiling in one pass:** every operation reported CLEAN — zero content lines lost, zero citations lost — and two pages (`Radiators_and_Convectors.md`, `Loose_Furniture_Selection_Principles.md`) turned out to be *fragmented underneath*, visible only once their large sections were moved out. **Splitting can expose fragmentation. Re-run the checker after a split rather than assuming the job is finished.**
 
+### Both directions, and how to tell which one you need (added 2026-09-02, second pass)
+
+**The ceiling is only half the shape rule.** A page is balanced when its sections are organised by *topic*. It fails in two directions, and the fixes are opposites — applying the wrong one makes the page worse, not better.
+
+**Read the headings. That is the whole diagnosis.**
+
+| What the headings say | The page is | Do |
+| :--- | :--- | :--- |
+| Topics — "Mixers and Taps", "Toilets and the Hygienic Shower" | Well-formed | Nothing. Size alone is not a defect |
+| Ingestion log — "… (Игорь Краснов, added 2026-09-01, Round 4)" | **FRAGMENTED** | **MERGE** under thematic parents |
+| Topics, but one is enormous and independent | **OVERSIZED** | **SPLIT** on the section seam |
+
+**The detector was rewritten on this evidence.** It had been "20+ sections averaging under 12 lines", and it fired on two pages in 273 — both only *after* a split removed the large sections masking their average. Two faults:
+
+1. **Average section length is the wrong primary signal, because it also describes the target shape.** A compact guide — `03_Kitchen/Kitchen_Furniture.md`, 11 thematic sections in 80 lines — is indistinguishable from a fragmented page by that measure. **The old rule would have condemned exactly the structure this document asks for.**
+2. It measured arithmetic when **the defect is visible in the text**. A heading that reads "(added 2026-08-24, Round 3)" records *when a fact arrived* instead of *what it is about*. That is the fragmentation itself, stated outright.
+
+So the test is now the **proportion of headings that name a processing batch** (12+ sections, at least half dated, under 17 lines each). It found **29 fragmented pages** on the same vault where the old rule found two.
+
+**Merging is not deleting.** `tools/split_page.py merge` groups sections under a thematic parent and **demotes the original dated heading from `##` to `###`**. Every attribution, practitioner name and date survives, one level down, and the parity check treats that single demotion as the only permitted change.
+
+**Order matters when a page is both.** Merge first, then extract a coherent group. Splitting a fragmented page distributes the fragments across two pages and leaves you with two fragmented pages. Four pages in the 2026-09-02 second pass were both at once, and merging pushed three of them *over* the ceiling before the follow-up split brought them back — that sequence is correct and expected, not a mistake.
+
+**A merge does not shrink a page.** It adds the group headings, typically 10–30 lines. Budget for that.
+
+
 ## Not done yet
 
 All three pages (`HVAC_and_Ventilation.md`, `Electrical_and_Lighting.md`, `Plumbing_and_Waterproofing.md`) are now converted to this shape (last one finished 2026-07-31). No known remaining flat-table placeholders in this folder — if a new system topic is added later (e.g. a dedicated Waterproofing-only or Smart-Home page), use any of the three as the reference example.
