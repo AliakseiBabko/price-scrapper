@@ -214,6 +214,25 @@ Corroborates and adds real figures to this page's existing wall/circulation-clea
 
 `single-account`, `unverified`.
 
+### Dining Table Beside or Behind a Sofa — an Ergonomic Critique (Игорь Краснов, added 2026-09-02)
+
+- **⚠️ A dining table placed directly beside or behind a sofa in a compact room is criticised on three
+  specific grounds**, per Краснов reviewing a third-party layout: **crumbs and spills from the table
+  land directly on the sofa**; sitting on the sofa with your back to the dining area creates a
+  subconscious *"something behind me"* discomfort; and **hot drinks or spills from the dining side can
+  reach the sofa occupant.** His recommended fixes are either **a taller, more structured sofa back**
+  so it acts as a genuine physical barrier, or **increasing the table-to-sofa distance.** This is his
+  opinion as a practising designer, argued from ergonomics rather than measured. `single-account`,
+  `unverified`. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|YT_o-5X16hq9Fo]]]
+
+- **⚠️ Overly "matchy" identical furniture reads like a showroom rather than a lived-in home** (Краснов,
+  same source) — **matching sofas, matching poufs and identical texture** are named as the failure
+  mode. He recommends **deliberate eclecticism**: one armchair of different form or material (a wood
+  or metal texture) to break the uniformity and add depth. **Worth reading against the
+  symmetry-favouring content elsewhere in this vault** — these are two defensible positions, not a
+  correction of one by the other. `single-account`, `unverified`.
+  [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|YT_o-5X16hq9Fo]]]
+
 ## Change Log
 
 - 2026-08-25 — Page created, migrating the existing single-source

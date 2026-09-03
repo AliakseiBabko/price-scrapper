@@ -86,7 +86,7 @@ corroborates_existing: false
 
 - **`01_Entrance/analysis/Storage.md`** — open-shelf-becomes-a-dump critique; toe-level-lighting-highlights-dirt critique; ~8cm kickplate figure; hardware-finish-mismatch example; ceiling-fixture-dominance critique.
 - **`13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes.md`** — milled-panel-vs-slat-wall terminology; plaster-imitation-wallpaper emphatic rule; textured-architectural-concrete-wall dated-trend-plus-maintenance critique.
-- **`04_Living_and_Dining_Room/analysis/`** — dining-table-beside-sofa critique; overly-matchy-furniture critique.
+- **`04_Living_and_Dining_Room/analysis/Living_Room_Layout_and_Furniture_Sizing.md`** — dining-table-beside-sofa critique; overly-matchy-furniture critique. *(Filename was missing from this line and from the ledger row, and the routing was never completed; both facts were routed 2026-09-02 during a residue cleanup.)*
 - **`12_Engineering_and_Systems/analysis/Lighting_Design.md`** — track-lighting-count critique with fixture-to-ceiling color-matching fix.
 - **`07_Bathroom/analysis/{Fixtures_Mixers_and_Sinks,Lighting_and_Electrical,Shelving_and_Furniture}.md`** — low-mounted-vanity style-vs-function tradeoff; decorative-vs-functional mirror-lighting distinction; labels-are-visual-noise hidden-storage framing; small-sink-in-full-bathroom critique.
 - **`03_Kitchen/analysis/General_Dos_and_Donts.md`** — furniture-leg-mismatch critique; corridor-rhythm-lighting critique; single-color-oversaturation critique; no-upper-cabinets black-vs-white-fixture mechanism; marble-fatigue meta-observation; kitchen-island cooktop-placement safety rule.
