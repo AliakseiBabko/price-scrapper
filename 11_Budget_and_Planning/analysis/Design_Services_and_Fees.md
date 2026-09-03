@@ -62,6 +62,34 @@ Prompted by two of her own clients in recent months insisting they wanted a 3D v
 - **⚠️ But the legitimate alternative she concedes**: many designers who constantly deliver realisations have a trained enough eye that **a good collage suffices** — flatter and simpler, made and edited by the designer, approved with the client, sent straight to site.
 - Her conclusion: **"сказать, что 3D-визуализация — это непременный атрибут того, что у вас будет происходить на объекте, нельзя."** Pleasant to look at, and **easier to reach agreement with a client on** — but not a precondition for a good outcome on site.
 
+## ⚠️ The Procurement-Commission Disclosure — How Designer Комплектация Fees Actually Work (three-designer roundtable via NSDSGN, 2023-10-03)
+
+**The most consequential item on this page for reading any designer-sourced material recommendation anywhere in this vault, and it is volunteered by designers against their own industry's interest.** [source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]]]
+
+### The mechanism they disclose
+
+- **The «дизайнеры всех обманывают» accusation is really about комплектация — procurement and specification, not about fees.** It is «не секрет» that **designers hold agency agreements with suppliers — an agency or wholesale discount.** Their own analogy: buying a flat through an agency where the developer pays the agent 3%, and buyers sometimes demand that 3% back.
+- **⚠️ The markup named explicitly, and from the builder side too: «сколько там смета на электрику? Ну закинь там ещё мои 10–15» — some add 2%, some 3%, some 10–15%.**
+- **⚠️ And the exposure that makes it a trust problem rather than a pricing one: after the project is delivered, the client can work out that they could have saved that amount on each line** — «заказчик может выяснить, что вот здесь я мог сэкономить вот столько, а вот здесь вот столько».
+- **They confirm the accusation is founded: «реально есть такие люди. Ну конечно есть.»**
+
+### ⚠️ Their stated alternative, and it is the part worth carrying
+
+- **They take the lowest price the supplier will give — «ещё даже отжимаем» — pass that price through to the client unmarked, and then charge the client a percentage of that reduced total as their own fee.** So the client «по сути получает услугу комплектации бесплатно», because the fee is offset by the discount secured.
+- **⚠️ With a transparency mechanism attached: every month they send the client everything purchased with all receipts on a shared drive, so the client can verify — and pays the percentage against that verified sum.** «Максимально прозрачно, и тут нету никаких вариантов кого-то обманывать.» He says he is waiting for the market to adopt it: «рынок сразу очистится».
+- **A scope note worth keeping when judging what the fee is for: комплектация is described as MORE work by volume than the design project itself** — «это работа, которая больше по объёму, чем дизайн-проект».
+
+### → The consequence for using this vault
+
+**Any material, brand or supplier recommendation sourced from a designer may carry an undisclosed 2–15% commission.** That does not make the recommendation wrong — this vault's advertising filter already treats brand endorsements from commercially interested sources as commercial mentions rather than neutral fact — **but it names the size of the interest for the first time.** **Two questions this makes worth asking a designer: which model do you use, and will I see the receipts?**
+
+## Design fee and segment matching (same source and channel)
+
+- **⚠️ Their design project: 14,000 RUB/m² (≈$160/m²**, at 90.0251 RUB/USD trailing 6 months before 2024-08-15**)**, with renovation contractors in their segment at **50,000–60,000 RUB/m² (≈$560–$670/m²)**. [source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]]]
+- **⚠️ Match the designer to your BUDGET and STYLE, not only to your taste — because cost-optimisation is a distinct skill, not a lesser version of the same skill.** «Если ты придёшь к Диме и скажешь: давайте мне за 120 тысяч — Дима просто не сможет, потому что он не умеет это делать. Он не ездит по Леруа Мерлен и не ищет вместо гипса какой-то полиуретан.» Some designers are specifically good at «из говна и палок сделать максимально круто» and are «супер в этом»; others cannot work below a certain specification at all. **Their fuller version of the rule adds similar values, cultural level and outlook — «тогда всё будет по маслу».** [source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]]]
+- **⚠️ A market phenomenon that is a direct reason to distrust a headline per-m² figure: at a construction/renovation forum near St Petersburg, builders were being coached to «просто продавайте за 60» — «вы никогда не сможете продавать за 60, пока не начнёте себе говорить, что вы продаёте за 60».** Price positioning taught independent of capability. **The concrete differentiator they name for firms genuinely operating at that level: two people arrive — «первый делает работу, второй смотрит, как он делает работу».** [source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]]]
+- **Should the designer contract the builders directly? Asked and answered no, on pricing grounds.** One panellist ran renovations as a design studio for years and stopped: inside your own project the прораб blames the designer and the designer blames the прораб, sometimes the cause is a third party, and **«чем больше ответственность, чем больше риски, тем больше денег» — it would require a super-price and clients would refuse.** «Стройка — это совершенно другие деньги, совершенно другая ответственность, и нормы прибыли другие.» **He agrees it would be excellent for the client — one accountable party delivering a finished object in two years to the drawing, with an operation manual — provided the client understands it costs more.** Market observation: construction firms often have a design department; **he has never seen a design studio with a construction department, nor interesting design out of those construction-firm design departments.**
+
 ## ⚠️ Авторский Надзор — What It Is Actually For, and Its Own Failure Mode (Руслан, 30+ years, via NSDSGN, 2023-12-15)
 
 **A contractor's account of design supervision, which matters because the usual case for it comes from the party billing for it.** [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]

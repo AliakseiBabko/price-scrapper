@@ -21,6 +21,16 @@ outdoor unit to a facade can make it resonate with the building's own wall panel
 audible in-apartment hum whose cause isn't obvious unless the installer specifically checks for
 missing vibration mounts. `single-account`, `unverified`. [source: [[_Sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
 
+## ⚠️ A One-Second Acceptance Test, and the Natural-Ventilation Failures People Cause Themselves (Александр Сенчугов / NSDSGN, 2023-10-17)
+
+[source: [[_Sources/YT_xA0pFTLCt5M_nsdsgn_ventilation_and_ac_costs|YT_xA0pFTLCt5M]]]
+
+- **⚠️ The acceptance test, and it costs nothing: when accepting a new flat, hold a sheet of paper against the ventilation grille. «Если прилип — то вентиляция отличная.»** Worth doing at handover, before any finish work makes a defect expensive to trace.
+- **⚠️ In many buildings it is FORBIDDEN to connect a cooker hood into the passive ventilation channels — and many neighbours ignore the ban, «и это всё кончается тем, что вы чувствуете запах их пищи или, ещё хуже, никотина».** **A defect no amount of work inside your own flat can fix**, and worth checking as a building characteristic rather than a flat characteristic. *(Complements this vault's shared-shaft capacity findings in [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh Air Ventilation and Ducting]] — that is about airflow, this is about odour transfer from a prohibited connection.)*
+- **⚠️ The self-inflicted failure that follows from natural ventilation working as designed: air entering through КИВ arrives at street temperature and street contamination, so «я много раз видел, что клапаны или кивы просто замуровывают, чтобы оттуда не сквозило».** People brick up the supply and then have an extract-only flat. **The supply side is what makes natural ventilation unpleasant — street noise, dust and winter cold — and it is genuinely a problem for allergy sufferers and anyone who wants quiet, which is the honest case for mechanising it rather than defeating it.**
+- **The balance rule that makes the bricking-up self-defeating: the volume entering through КИВ equals the volume leaving through the channels**, and control is purely mechanical — open or closed.
+- **If the on-demand extract fan works badly or not at all: raised humidity, raised contamination, and «чаще всего это кончается плесенью».**
+
 ## Buying Guidance
 
 FLATART reports: **seasonal timing**: AC units are reported cheapest to buy in winter, when demand (and prices) are lowest.

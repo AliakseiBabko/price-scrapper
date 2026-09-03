@@ -415,3 +415,118 @@ From the studio's own bill of quantities. **Region unresolved at level 1** (RUB 
 - **A good Blum push-open (tip-on) mechanism: one door in constant daily use at 18 months with no problems**, against cheap tip-ons in the same person's previous flat that «постоянно ломались, вылетали, отскакивали». [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
 - **Economy-tier wall finishing: microcracks appear within a year or sooner**, attributed specifically to skipping technological drying intervals between primer, filler and finish. [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
 - **⚠️ A material-price volatility shape rather than a price: one OSB sheet observed at 800 → 1,600 → 2,400 → 3,600 RUB over roughly fifteen days.** **The year is not stated in the source, so this is deliberately left unconverted** and recorded only as evidence against pricing a long contract at signing-day rates. [same source]
+
+---
+
+## St Petersburg and Moscow Cost Ladder From the Buying Side, October 2023 (three designers via NSDSGN)
+
+> [!WARNING]
+> **⚠️ The source video is titled «Стоимость ремонта в 2024?» and its confirmed upload date is 2023-10-03.** The content forecasts 2024; it is not 2024 data. **Second title-year/upload-year mismatch recorded in this store.**
+
+**⚠️ Read the scope before comparing with the December 2023 contractor ladder in this store: that one is CONSTRUCTION WORK ONLY, explicitly excluding decorative plaster, ventilation and balcony insulation. This one is ALL-IN for a design-led project including materials, furnishing and the designer. The gap between them is scope, not disagreement.**
+
+| Tier — all-in, design-led | RUB/m² | USD/m² |
+| :--- | :--- | :--- |
+| Basic, still done to a design | ~120,000 | ≈$1,400 |
+| Middle / good / business | ~180,000–220,000 | ≈$2,000–$2,500 |
+| Above this — «более эстетские, более дорогие штуки» | 250,000+ | ≈$2,800+ |
+| One panellist's own comparable work | above 200,000 | above ≈$2,300 |
+
+**Labour-only decomposition — the figures that actually bridge the two ladders:**
+
+| Component | RUB/m² | USD/m² |
+| :--- | :--- | :--- |
+| **Works (labour), St Petersburg** | ~25,000; range 25,000–35,000 | ≈$280; ≈$280–$400 |
+| **Works (labour), Moscow** | ~35,000; 35,000–45,000; up to ~55,000 | ≈$400; ≈$400–$510; up to ≈$620 |
+| **Rough materials (черновые), additional** | 15,000–20,000 by level | ≈$170–$230 |
+| **Complex or exclusive work** | **+20%** «в лучшем случае», as contingency | — |
+
+**⚠️ The cross-check that matters: their ~25,000 RUB/m² St Petersburg labour figure sits against the contractor's ~20,000 RUB/m² for a good brigade with a бригадир recorded ten weeks LATER on the same channel. Same city, ~25% apart, and the direction is the one to expect — the buyers' view of the going rate above the seller's floor. Two sources, two roles, mutual corroboration.**
+
+**Provenance caveat from the panel itself: «они считают просто от балды… это ориентир».** One panellist declines a range entirely — «у меня слишком индивидуальные проекты» — and often never sees the смета because the client uses their own builders.
+
+**Other figures from the same source:**
+
+- **A small panel-building bathroom plus separate WC, complete renovation of the bathroom alone: ~500,000 RUB (≈$5,700)**, with the designer ordering materials. **The first absolute wet-room total from this channel, and useful because panel-building bathrooms are a standard size.**
+- **1,000,000 RUB/m² named as an absurd upper bound for interior design.**
+- **⚠️ A cost-optimised worked case DELIBERATELY LEFT UNCONVERTED: ~120,000–125,000 RUB/m² for a minimalist modern flat where the client sourced everything himself across Russia — but he states it was «3 года назад», i.e. ~2020, and the month is unknown.** The panel's own escalation estimate to 2023 is «процентов на 40» with an immediate «сильно больше», attributed to materials, logistics, tools and labour rising and **specialists leaving, shrinking the market.** **Their line worth keeping: «всё дорожает, кроме дизайн-проекта».**
+- **⚠️ A minimalist project at 250,000–270,000 RUB/m² (≈$2,800–$3,100/m²), 135–140 m², microcement on floor and walls, bare treated concrete ceiling, no doors at all — and the reason it costs that is mechanical, not aesthetic: «минималистичные интерьеры тебя не прощают недорогих подходов… когда у тебя пустой интерьер, все косяки мебели, плохие стыковки нескольких материалов в одной точке — это всё заметно». Minimalism removes the visual noise that hides poor execution, so it raises the minimum acceptable trade quality rather than lowering the material cost.**
+
+*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before 2023-10-03 (2023-04-04..2023-10-03, 127 samples, **88.1418 RUB/USD**), rounded to the nearest 10 below $1,000 and the nearest 100 above.*
+
+[source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]]]
+
+## Ventilation and Air-Conditioning System Costs, October 2023 (Александр Сенчугов / NSDSGN)
+
+**The first itemised ventilation and AC system costs in this store, and the decomposition is the useful part.**
+
+| System | RUB | USD |
+| :--- | :--- | :--- |
+| **Ventilation design project, 100 m²** | ~50,000 | ≈$560 |
+| **Бризер ventilation** | from 60,000 — three units at 20,000 each | from ≈$670 (≈$220 each) |
+| **Wall-mounted AC** | from 150,000 — three units at 30,000, install with consumables 20,000 | from ≈$1,700 (≈$330 each) |
+| **Ducted AC** | from 600,000 — two ducted units at 150,000 each, ducts/copper/consumables from 100,000, install and commissioning from 200,000 | from ≈$6,700 |
+| **Ducted ventilation** | from 500,000 — machine 250,000, ducts 70,000, install and commissioning from 150,000 | from ≈$5,600 |
+
+- **⚠️ Ducted AC is ~25% equipment against ~33% installation and commissioning — so a quote that looks equipment-heavy or install-light is checkable against this breakdown.**
+- **⚠️ Cross-checks consistently against this store's existing Goncharov breather tiers once dated: 20,000 RUB per бризер (Oct 2023) below his ~30,000 for a single unit recorded later (the direction inflation predicts), and 500,000 for ducted supply-and-extract above his ~300,000 for a supply-only central system (the direction scope predicts).**
+- The project fee is stated as depending on the project's composition, the space's volume and the designer's qualification — **50,000 is an orientation for 100 m², not a rate.**
+
+*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before 2023-10-17 (2023-04-18..2023-10-17, 127 samples, **89.5803 RUB/USD**), rounded to the nearest 10 below $1,000 and the nearest 100 above.*
+
+[source: [[_Sources/YT_xA0pFTLCt5M_nsdsgn_ventilation_and_ac_costs|YT_xA0pFTLCt5M]]]
+
+## Design Fee, Contractor Rate and a Per-Joint Cost, August 2024 (three designers via NSDSGN)
+
+- **Their design project: 14,000 RUB/m² (≈$160/m²).**
+- **Renovation contractors in their segment: 50,000–60,000 RUB/m² (≈$560–$670/m²)**, described as above average.
+- **⚠️ A per-joint electrical figure, recorded because it explains a piece of supervision "advice": putting a connection on a Wago clamp versus making a скрутка costs 500 RUB versus 1,000 RUB per joint (≈$6 versus ≈$10).** A client-appointed технадзор demanded all the electrics be redone on скрутка; **the technical rebuttal is that under a thermal imager a скрутка has MORE contact area and therefore more heating.** Across a whole flat the per-joint difference is large enough to explain the recommendation. See [[11_Budget_and_Planning/analysis/Technical_Supervision|Technical Supervision]].
+- **Small defects settled day-to-day between cooperating parties: 3,000–5,000 RUB (≈$30–$60).**
+- **⚠️ A market phenomenon that is a direct reason to distrust any headline per-m² figure: at a construction/renovation forum near St Petersburg, builders were being coached to «просто продавайте за 60» — «вы никогда не сможете продавать за 60, пока не начнёте себе говорить, что вы продаёте за 60». Price positioning taught independent of capability.** The concrete differentiator they name for firms genuinely at that level: **two people arrive, «первый делает работу, второй смотрит, как он делает работу».**
+- **A flipping case study total: ~5,000,000 RUB (≈$56,000) paid including materials, effectively ahead of the work, on a ~200 m² old-fund flat — unrecoverable, because the contractors have no money and the client will not pay twice.**
+
+*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before 2024-08-15 (2024-02-15..2024-08-15, 124 samples, **90.0251 RUB/USD**), rounded to the nearest 10 below $1,000 and the nearest 100 above.*
+
+[source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]]]
+
+## Illuminance and Colour-Temperature Targets in Lux, June 2022 (Сергей Реньжин / 500lux via NSDSGN)
+
+**⚠️ This practitioner was already a source in this store via Кузина's channel (2022-08-25); this appearance is ten weeks earlier, so it is the same voice on a second channel rather than an independent one.**
+
+**The first illuminance figures in this store.**
+
+| Context | Target |
+| :--- | :--- |
+| **Comfortable general level for the eye** | ~500 lux — «но так ярко не надо», and a uniform 500-lux flood is «безопасно, но не комфортно» |
+| **Functional light in a track scheme** | **200 lux — «этого достаточно, больше не надо»** |
+| **Children's room, general** | **never above 300 lux; 200 lux and «не надо ярче»** |
+| **Children's room, play area on a track** | 250–300 lux |
+| **Children's room, colour temperature** | **never above 2700 K; 3000 K at the outside** |
+| **Emotional-layer Edison lamp** | ~1900 K, «приблизительно в паттерне солнца» |
+| **Mirror make-up strip CRI** | **above 90%** *(narrower claim than this store's existing CRI>95 for fittings generally, from the same practitioner)* |
+| **Lens beam angles that produce wall "burns" near a surface** | 120° optics placed close to a wall |
+
+- **⚠️ «Уровень освещённости в 300 люкс — это не равно дизайн. Это значит, что просто уровень освещённости будет такой.»** An illuminance calculator gives the fixture count to within two or three fittings but does not solve the aesthetics.
+- **⚠️ The functional layer is used «примерно в 5 процентах вашей жизни»** — bedroom downlights «включаются примерно никогда».
+- **⚠️ And a coherence check across unrelated practitioners worth recording: Round 1's lighting supplier gave the Kruithof rule (brighter → cooler, dimmer → warmer); these children's-room figures pair low illuminance with warm temperature independently. The rule and its application arrive at consistent numbers from different people.**
+- **A real fixture-count failure: a client read that one point per square metre was required and ended up with 70 points in one living room.**
+- **Three scenarios minimum, and «это вообще никак не влияет на стоимость — что так, что сяк, стоит одинаково».**
+
+[source: [[_Sources/YT_7DnlE-pl0y4_nsdsgn_renzhin_lighting_mistakes|YT_7DnlE-pl0y4]]]
+
+## Working Dimensions and Intervals From Round 2 (no conversion applicable)
+
+- **⚠️ Ventilation ceiling void: ducts take 150–200 mm; two ducts crossing give a DOUBLE drop; ventilation machines take a minimum of 300 mm; and duct cross-section GROWS with run length and increases nearer the machine.** Ducts are installed first, so the void remaining below them is what the lighting must fit into. [source: [[_Sources/YT_xA0pFTLCt5M_nsdsgn_ventilation_and_ac_costs|YT_xA0pFTLCt5M]]]
+- **Junction boxes under a stretch ceiling should sit no more than ~150 mm from the edge**, so local demolition can reach them; **штробы must run vertically per ПУЭ** — both offered as a free substitute for as-built documentation. [source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]]]
+- **⚠️ Wardrobe: a 150–180 mm plinth below the lower rail of a two-tier short-hanging arrangement is what puts the UPPER rail out of reach at average height. Every millimetre spent below the lower rail comes off the reachability of the upper one.** [source: [[_Sources/YT_cudO-SSdrn0_nsdsgn_storage_organiser_audits_designer|YT_cudO-SSdrn0]]]
+- **A 100 mm deeper-than-standard kitchen countertop buys standing clearance from hinged 600 mm upper doors**, which otherwise «бьют в голову». **A 45 cm wheeled container is the organiser's universal module — two fit a standard kitchen drawer.** [same source]
+- **СНиП flatness tolerance cited as 5 mm per metre — loose enough that «по СНиПу можно сдать любой объект, самые кривые», and developers hand over on exactly that. "We comply with СНиП" is therefore not a quality claim.** [source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]]]
+- **Warranty intervals: ~3 years normal; ~2 years the stated minimum, and below 2 years is a red flag; some contracts written at 1 year.** **Contractor capacity: 3–4 concurrent objects per one panellist's estimate against «не больше пятнадцати» claimed by some builders — an unresolved divergence, and informative either way.** **Технадзор replacement lag: 2–3 months, during which the object stands still.** [same source]
+
+## ⚠️ A Commission Range That Governs How to Read Material Recommendations (October 2023)
+
+**Recorded here because it is a numeric range with a store-wide consequence.** Designers hold agency agreements with suppliers, and the markup added to a trade's estimate is named from the builder side as **«закинь там ещё мои 10–15»**, with others at **2% or 3%**.
+
+**→ Any material, brand or supplier recommendation sourced from a designer anywhere in this store may carry an undisclosed 2–15% commission.** The transparent alternative they describe — pass the lowest negotiated price through unmarked, charge a percentage of that reduced total, and publish every month's receipts — is on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services & Fees]].
+
+[source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]]]

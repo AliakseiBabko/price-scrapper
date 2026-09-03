@@ -206,6 +206,58 @@ A real-listing critique supplies a specific mechanism this page did not previous
 
 ---
 
+## ⚠️ Illuminance Targets in Lux — the Quantitative Layer This Page Was Missing (Сергей Реньжин / 500lux, via NSDSGN, 2022-06-09)
+
+> [!IMPORTANT]
+> **This practitioner is already a source on this page** via [[_Sources/YT_9MsEZVjLH2M_kuzina_renzhin_lighting_design_podcast|Кузина's podcast]] (2022-08-25). **This NSDSGN appearance is ten weeks EARLIER**, so it is the same voice on a different channel rather than an independent one — **corroboration where they agree, and a consistency check where the framing differs.** Marked accordingly below. [source: [[_Sources/YT_7DnlE-pl0y4_nsdsgn_renzhin_lighting_mistakes|YT_7DnlE-pl0y4]]]
+
+**This page has carried scenario counts, layers and colour temperatures but almost no illuminance figures. These are his.**
+
+- **~400–500 lux is where they are recording, and «500 люкс — это комфортный уровень освещённости для глаза» — but «так ярко не надо».** (His studio is named 500 Lux.)
+- **⚠️ The core claim, and it is an argument against the instinct this page's fixture-count section already warns about: a uniform 500-lux flood is SAFE but not COMFORTABLE.** «Нам конечно безопасно, но нам же не комфортно. На фига мы создаём дизайн интерьера — чтобы операцию делать?» **What you actually want is accents onto the walls plus a decent horizontal illuminance over the table — «нам этого базового достаточно, нам уютно».**
+- **⚠️ For a track-based scheme he gives 200 lux as sufficient functional light — «люкс 200 этого достаточно, больше не надо»** — plus accents onto a picture, sofa, bar or island.
+- **⚠️ And the separation that makes an illuminance calculator safe to use: «уровень освещённости в 300 люкс — это не равно дизайн. Это значит, что просто уровень освещённости будет такой.»** A **калькулятор освещённости** gives the fixture count to within two or three fittings **but «это не решит вопрос эстетики светодизайна»**.
+- **⚠️ The functional layer is used «примерно в 5 процентах вашей жизни».** His concrete case: in a bedroom people fit four or six recessed downlights pointing down and **«они включаются примерно никогда, потому что всегда работает лампа»**. **A direct argument for spending the budget on the other layers.**
+- **These figures make this page's Kruithof rule operational**: 200–300 lux is the domestic end of that curve, where warm temperature belongs, and 500 lux the upper end.
+
+### ⚠️ Children's room — illuminance and colour-temperature ceilings, and this is new
+
+**The parental instinct is more, better, brighter, and he is categorical: «вот это ни в коем случае нельзя».** His reasoning is that children's rhythm is already accelerated and light acts on the nervous system, so the room's job is to protect psychological health.
+
+- **⚠️ «В детской не делать яркое освещение никогда. Яркое — это выше 300 люкс. 200 люкс — не надо ярче.»**
+- **⚠️ «Не применяйте цветовую температуру выше 2700 K, в крайнем случае 3000 K.»**
+- **⚠️ The room should contain exactly ONE bright place: the child's work station.** «Для ребёнка очень важна стабильность.»
+- **Play area on the floor: a track aimed there at 250–300 lux, so you can see.**
+- **⚠️ And the control requirement, which has to be specified at rough stage: toward evening the brightness must be dimmed down — «обязательно нужно с помощью диммирования стравливать поменьше» — except on the work surface.**
+- **⚠️ Note how cleanly this obeys the Kruithof relationship recorded above from an unrelated lighting practitioner: low illuminance (200–300 lux) paired with warm colour temperature (2700–3000 K).** One source giving the rule, another giving its application to a specific room, arriving at consistent numbers. **The strongest internal coherence check this page holds, and it raises confidence in both.**
+- **A desk-specific corollary from the same source: light onto a work surface must come from the LEFT and RIGHT, never from behind** — otherwise the child leans forward to write and shadows their own page. *(Same rule he gives for a dining table; see [[12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings|Lighting Fixtures and Fittings]].)*
+
+### ⚠️ Световые ожоги — a named failure mechanism, and the reason accents are not optional
+
+A fixture with **120° optics placed close to a wall** does not harm your eye **but «обожжёт стену» — producing a visible zebra of scallops.** And the second-order effect is worse: **«ни фига не видим, что находится в этой квартире, потому что глаз начинает аккомодировать — мы смотрим на лампу, и у нас автоматически затемняется всё пространство».**
+
+- **The rule: «источник света не должен быть в прямой видимости.»** He frames it as good manners and as psychological-health safety.
+- **The same error in landscape lighting**: a hardware-store lamp put into a tree, after which you see nothing but the lamp.
+- **⚠️ And the two design mistakes he says non-designers make most, which are the positive form of the same point: forgetting VERTICAL surfaces and using only horizontal light — «используя свет только горизонтальный, мы визуально уничтожаем пространство» — and forgetting wall accents entirely.** Downlights of any kind pointing down «выравнивает весь дизайн, ничего хорошего нет», with the consequence that **you discuss a million details with the client and then none of it is visible once the light comes on. «Дизайн и акценты — знак равно.»**
+- **⚠️ A real fixture-count case: a client read that you need one point per square metre and ended up with 70 points in his living room.** And designers «лютуют по количеству» — they look at the plan, see a rectangle and lay fittings out in a rectangle: «ну типа 8 их поставим. Почему восемь?» **His test for the whole discipline: «светодизайн — это когда мы можем ответить себе на вопрос, зачем конкретно этот светильник находится здесь и почему именно так он светит».** *(Corroborates this page's existing scenario-and-purpose framing; the 70-point case is the concrete failure it prevents.)*
+- **⚠️ The surface condition that governs whether accenting works at all: the surface must NOT be reflective. «Свету, чтобы существовать, нужно тёплое, желательно текстурное и желательно светлое.»**
+
+### ⚠️ The emotional layer, a navigation case, and the retrofit path
+
+- **A third layer he names alongside functional and accent: слой эмоционального освещения** — light that produces emotion rather than illuminance. Colour, floating beds, tectonic wall features, wooden slice cuts. «Это то, что не даёт освещённость, но даёт эмоцию.» **With a figure: an Edison lamp in their studio illuminates almost nothing but «работает приблизительно в паттерне солнца — где-то там 1900 K».**
+- **⚠️ A concrete, directly usable case: a button lighting three small navigation fittings that throw light softly down onto the floor — «ты психологически не проснёшься, но при этом ты дойдёшь, сделаешь свои дела, вернёшься и прекрасно выспишься».**
+- **He restates this page's three-scenario minimum, and adds a cost claim: «это вообще никак не влияет на стоимость — что так, что сяк, стоит одинаково».**
+- **⚠️ AND THE RETROFIT PATH, which is the most actionable single item because everything else on this page reads as a design-stage decision.** If the project is done, the cable runs are pulled and the fixtures are bought, **it is not lost: «просто дайте команду вашему прорабу, чтобы он добавил выключатель с возможностью управлять яркостью этими светильниками».**
+  - **«Все светильники управляемые — их просто продают подороже» (DALI, DMX) — but «любой светильник управляется, есть куча протоколов».**
+  - **The last-resort fallback once everything is closed up: «можно попросить сделать не два выключателя, а три — просто чтобы группами гасить свет».**
+  - **The specification consequence sits on [[12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings|Lighting Fixtures and Fittings]]: dimming must be designed for, because retrofitting it onto a driver not chosen for it produces flicker.**
+
+### Colour-temperature discipline — the same-scene rule, and an attribution detail worth recording
+
+**He gives this page's existing same-scene rule: having chosen warm white 2700 K, use ONLY that temperature within a single scenario.** «Нельзя одновременно в рамках одного сценария использовать и теплые и холодные, потому что структуру объёма она разбивает.» Worked negative: 4000 K somewhere, 6000 K somewhere, 2700 K elsewhere, Edison lamps in the hall chandelier — **«какой бы ты ни сделал дизайн, как бы ты ни выкрутил все паттерны обоев, это всё погибнет, потому что мы увидим холодные оттенки».** Hold one temperature from the corridor into the living room.
+
+**⚠️ The attribution detail: this page currently credits Реньжин with the PHYSIOLOGY mechanism for that rule («фокус внимания раздваивается»), from the Кузина podcast of 2022-08-25. Here, ten weeks earlier, he gives the same rule with a DIFFERENT mechanism — «структуру объёма разбивает».** Neither contradicts the other, and **the physiology framing appears to be his later refinement.** Recorded so the page does not read as two independent confirmations of one mechanism when it is one practitioner developing his own explanation.
+
 ## 7. Switching and Controls
 
 - **⚠️ Switches with an indicator lamp make ceiling spots glow dimly at night, or switch on spontaneously** — current accumulates until it is enough to trigger the driver. **Fix: a shunt resistor in the circuit, possibly more than one.** [source: [[_Sources/YT_NfHyCfo1J4w_shevrina_lighting_mistakes|YT_NfHyCfo1J4w]]]

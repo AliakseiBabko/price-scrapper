@@ -117,6 +117,30 @@ buying direct from AliExpress removes the supplier's inspection-and-rejection st
   re-buying. **That claim-handling is part of what the procurement percentage buys**,
   and is invisible until something arrives damaged.
 
+## 5a-ter. Comparing Estimates Across Contractors — the Method, and the Friction It Causes (three-designer roundtable via NSDSGN, 2024-08-15)
+
+**The sections above cover what one estimate should contain. This is how to compare several, from designers who do it for clients as a service.** [source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]]]
+
+### ⚠️ Send the PROJECT, not your estimate — and the reason is commensurability
+
+- **Send the same design project to every brigade and ask each to produce its own смета.** Better than circulating one смета for comment.
+- **The stated reason is that quotes are otherwise not comparable at all**: where the project does not specify, «кто-то посчитал одну штукатурку, кто-то другую, кто-то одни перегородки, кто-то третьи». **You are not comparing prices, you are comparing different scopes wearing the same name.** Then collect them and analyse.
+- **⚠️ The same object can be legitimately costed three ways — economy, dearer, or luxe — and the same builder can produce all three.** The variation lives in **painting technology, cable-routing detail and engineering assembly**: «можно сделать по-простому, можно сделать по-сложному». **So a price gap between two quotes is a scope hypothesis before it is a value judgement.**
+- **⚠️ And a mechanism to watch for that runs the other way: a company that genuinely does good work may deliberately UNDERSTATE the estimate** so the client forms pleasant expectations — «они вроде делают хороший ремонт, и вот смета занижена».
+- **The named failure the method defends against: «есть прорабы, которые просто берут сумму, которая им комфортна, и размазывают её на смету».**
+- **How a competent contractor actually builds it, from a second source on the same channel: he takes the project, reads the item list, and discusses with you HOW he will solve each task — «желательно у тебя на квартире, а не по фотографии».** Weaker ones cost «от балды». [source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]]]
+
+### ⚠️ The friction: shopping many quotes can lose you the good contractors
+
+**A real and non-obvious market constraint, reported by the designers who arrange it.**
+
+- **Прорабы are increasingly unwilling to estimate at all, even for labour only.** Reason given: **the client wants to survey the market, and the прораб knows he will spend three or four days estimating and then hear «мы другую выбрали».**
+- One of them costed a смета with two прорабы for a client **who took both and disappeared.**
+- **Contractors resent having estimated and lost — and resent being one of five simultaneous quotes considerably more.**
+- **The client-side rebuttal is fair and is recorded too: «эти подрядчики не встают на место клиента»** — spending your own money obliges you to check you are not being overcharged, and his own salespeople produce hundreds of unsuccessful quotes as ordinary process.
+- **⚠️ The constructive resolution, and it is the actionable item: make estimating a separate paid service.** «Выведи это как отдельную услугу: составление сметы — вот столько времени, вот столько денег», under its own contract — **and then the person sits down and does it properly.** This also converts the four days from a risk the contractor absorbs into a deliverable the client owns.
+- **⚠️ And the argument against selecting on price alone, made from the contractor's side: «если ты квалифицированный, твоя смета может быть выше средней. Он возьмёт её, пойдёт проанализирует, у всех будет дешевле — но если ты объективно чего-то стоишь, он вернётся к тебе независимо от цены.»**
+
 ## 5b. Two Procurement Traps That Change the Budget (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 ### Large ceramic slabs: the delivery you didn't budget for

@@ -50,6 +50,46 @@ Related: the cheap-hinge carcass-destruction mechanism and hardware cycle rating
 - **Corner sections get "buried" between two abutting runs** — wall, wall, and a глухарь between. Use a mechanism or **карусели** to retrieve the contents in one movement.
 - **His own cheaper alternative, which he uses at home and which is honest about why it works**: a plain shelf running deep into the corner holding rarely-used items — dishwasher salt and rinse aid — **and it works only because he remembers what is there.** Not transferable to a household where more than one person needs to find things.
 
+## ⚠️ A Space Organiser Audits a Designer's Kitchen — the Corner Fix, the Height Logic, and One Real Disagreement (Ксения, via NSDSGN, 2026-02-03)
+
+[source: [[_Sources/YT_cudO-SSdrn0_nsdsgn_storage_organiser_audits_designer|YT_cudO-SSdrn0]]]
+
+### The height logic, with the failure the trade commonly introduces
+
+- **Confirmed: what is used often goes LOW, less-used higher, rarest at the top.**
+- **⚠️ And the specific inversion to check for: «обычно мебельщики, кухонщики меняют эту логику, и за чашками приходится прыгать» — especially for children.** **Cups are used constantly, including by children, so cups belong LOW and plates can go higher.** She praises exactly that arrangement. **Worth naming because the default cabinetry layout does the opposite.**
+
+### ⚠️ The dark corner base cabinet — the principle, then three fixes
+
+**«Это проблема неудобной мебели», and she says everyone has one.** The governing principle: **«нам нужно максимально постараться, чтобы эта полка стала похожа на ящик».**
+
+1. **Pull-out shelves that fix with double-sided tape** — sold ready-made in wood or metal, and they genuinely slide.
+2. **⚠️ Her own solution, established by experiment: two 45 cm wheeled containers pushed into the corner and two more in front.** Then reaching the corner means **pulling out two containers rather than removing dozens of small items.**
+3. **His own cheapest alternative, already on this page: a plain shelf running deep into the corner for rarely-used items** — which works only because one person remembers what is there.
+
+### Under the sink, and a dishwasher tip
+
+- A square bin with straight corners is praised; **bags go into a smaller wheeled container, stackable.**
+- **⚠️ Her favourite tip: glue a small container inside the door beside the dishwasher for the tablets** — scrape food into the sink, take a tablet, load. Removes one trip.
+- *(For what else now competes for under-sink volume — waste disposal, filters, osmosis tanks — see [[03_Kitchen/analysis/Appliance_Integration|Appliance Integration]].)*
+
+### ⚠️ A clearance mechanism this vault did not have: countertop depth buys door clearance
+
+**She normally does NOT recommend hinged (распашные) facades on 600 mm kitchen uppers «потому что они бьют в голову» — they strike you in the head.** It does not happen in the audited kitchen **because he made the countertop 100 mm DEEPER than standard**, so you stand 100 mm further back.
+
+**→ Extra countertop depth is a purchasable remedy for upper-door head clearance**, and it sits alongside the other two clearance rules on [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout Sizing and Ergonomics]] — 300 mm hob-to-fridge and 500–600 mm countertop-to-uppers. **Three independent clearance mechanisms in one kitchen.**
+
+### ⚠️ THE DISAGREEMENT — hidden internal drawers, recorded as a Perspectives case
+
+**Neither party concedes, and both positions are reasoned.**
+
+- **Him**: he bought **Blum's own internal fitting** — a wooden tray behind a single facade on a «поводок» — deliberately, as the native solution, and is «в целом очень доволен ей».
+- **Her, on the tray itself**: beautiful, and functionally **«почти нет мёртвых зон» — no complaints.**
+- **Her, on the type**: **«я очень сильно не люблю и не рекомендую скрытые ящики».** Opening one facade reveals the tray, **but «добраться до второго ящика — это у нас большой труд».** Her rule: **«на кухнях я за удобство… рекомендую ящики делать обычными настоящими ящиками, каждый со своим фасадом».** Two grounds: **the extra body movements are a real daily cost if you cook often**, and **«а если оно сломалось?»**
+- **→ The trade-off is façade continuity and a premium mechanism against movements-per-use and repairability.** **The same trade-off appears again in the entrance hall**, where she recommends bringing drawers out from behind the façade and notes «я знаю, что дизайнеры против» — see [[01_Entrance/analysis/Storage|Entrance Storage]].
+
+**Also endorsed on this page's existing terms: two or three containers or baskets on upper shelves holding grains and teas, and she further prefers jars for loose goods and teas.** And **dividers are largely unnecessary in a kitchen specifically** — she reserves them for bags and for the wardrobe. **For the container-sizing rule that governs all of it — match container size to category size — see [[14_Furniture/analysis/Household_Storage_and_Decluttering_Method|Household Storage and Decluttering Method]].**
+
 ## Storage Accessories — "50 Storage Ideas" Catalog (added 2026-08-28, Round 13 triage)
 
 > [!NOTE]

@@ -438,3 +438,46 @@ Noted rather than itemised: two sources in the 2026-08-30 colour batch close wit
 1. **Treat 2025–2026 uploads as `promotional_ratio: medium` by default** and confirm rather than assume.
 2. **⚠️ Record what has been WITHHELD to the funnel, rather than treating it as absent.** In both 2026 sources she names a topic and says the fuller treatment is on Telegram — so the extraction note holds the summary she chose to give away, not her full account. **That distinction matters for judging whether a claim is thin or merely truncated.**
 3. **Content quality is not obviously affected** — the 2026-08 source carries her strongest colour-theory claim of Round 4. **The flag is about weighting and completeness, not about trust.**
+
+---
+
+## ⚠️ NSDSGN / ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА — a designer-side commission range, and it governs how to read material recommendations vault-wide (2026-09-03)
+
+**This is the most consequential entry on this page, because it is the first time the SIZE of a designer's commercial interest in a material recommendation has been named — and it is named by designers, on camera, against their own industry's interest.** [source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]], 2023-10-03]
+
+### The mechanism they disclose
+
+- **The «дизайнеры всех обманывают» accusation is about комплектация — procurement and specification — not about design fees.** It is «не секрет» that **designers hold agency agreements with suppliers, i.e. an agency or wholesale discount.** Their own analogy: buying a flat through an agency where the developer pays the agent 3%, and buyers sometimes demand that 3% back.
+- **⚠️ The markup is named from the builder side as well: «сколько там смета на электрику? Ну закинь там ещё мои 10–15» — with others adding 2% or 3%.**
+- **The exposure that makes it a trust problem rather than a pricing one: after delivery the client can work out that they could have saved that amount on each line.**
+- **They confirm the accusation is founded: «реально есть такие люди. Ну конечно есть.»**
+- **A scope note worth keeping when judging what any procurement fee is for: комплектация is described as MORE work by volume than the design project itself.**
+
+### → The standing consequence for this vault
+
+**Any material, brand or supplier recommendation sourced from a designer — on any page in this vault — may carry an undisclosed 2–15% commission.**
+
+**This does not make a recommendation wrong, and it does not change this page's existing filter**, which already treats brand and supplier endorsements from commercially interested sources as commercial mentions rather than neutral technical fact. **What it changes is that the interest now has a magnitude.** Read alongside the tier-steering distinction: general market-rate information from a designer remains usable, while a specific product or supplier steer now has a quantified reason to be discounted.
+
+**Two questions this makes worth asking any designer, and they are the practical output:** which procurement model do you use, and **will I see the receipts?**
+
+### The transparent model they describe, recorded because it is the thing to ask for
+
+They take the lowest price the supplier will give — «ещё даже отжимаем» — **pass that price through to the client unmarked, and charge the client a percentage of that reduced total as their fee**, so the client «по сути получает услугу комплектации бесплатно» because the fee is offset by the discount secured. **With verification attached: every month they send everything purchased with all receipts on a shared drive, and the client pays the percentage against that verified sum.** «Максимально прозрачно, и тут нету никаких вариантов кого-то обманывать.» He says he is waiting for the market to adopt it — «рынок сразу очистится». Full detail on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services & Fees]].
+
+## ⚠️ NSDSGN — a second, adjacent disclosure: price positioning taught independent of capability (2026-09-03)
+
+**Not a commission, but the same class of problem — a reason to distrust a headline per-m² figure.** [source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]], 2024-08-15]
+
+At a construction and renovation forum near St Petersburg, **builders were being coached to «просто продавайте за 60» — «вы никогда не сможете продавать за 60, пока не начнёте себе говорить, что вы продаёте за 60».** The host reports being shocked by it.
+
+**→ A contractor's stated per-m² tier may be a positioning decision rather than a description of what they deliver.** **The concrete differentiator the panel names for firms genuinely operating at that level is checkable and worth asking about: two people arrive on site — «первый делает работу, второй смотрит, как он делает работу».**
+
+## NSDSGN — Round 2 promotional ratings, and why they are low
+
+All five Round 2 sources are `promotional_ratio: low`, which is unusual for a design-*build* studio's own channel and deserves the reason stated:
+
+- **Three of the five are guest formats in which the guest, not the studio, carries the content** — a contractor of 30+ years, two other design studios, and a lighting studio founder.
+- **The commission disclosure above and the «продавайте за 60» observation both cut against the studio's own industry.**
+- **The ventilation explainer names no brand at all** and routes contractor selection to recommendation rather than to the studio.
+- **⚠️ The position that must still be flagged as interested**: all three roundtable panellists sell design services and two explicitly sell contractor selection, so **the recurring conclusion «доверяйте вашему дизайнеру» is not disinterested** — and it is recorded on [[11_Budget_and_Planning/analysis/Contract_Practice|Contract Practice]] with the counter-arguments the panel itself raises against designers, including that a designer who «где-то кончил какие-нибудь курсы» and has no working documentation will and should be treated accordingly by builders.

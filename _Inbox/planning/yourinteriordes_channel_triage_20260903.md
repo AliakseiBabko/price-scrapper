@@ -265,7 +265,73 @@ Add to that: the builder podcast opens with an explicit disclaimer of any commer
 
 **Deprioritised on the round's own evidence, not on title-skim:** the general-design and trend cluster (`SLTml8mznnI`, `YAq6gvJL6Fc`, `Gr_xR6mdz7M`, `mxrm9eau7ZY`, `kXdbbiBI84A`, and the six trend-of-the-year videos). **The host solo on design is this channel's weakest configuration, and the vault holds far better-sourced design content from designers who specialise in it.** The mistakes/regrets block (eight near-identical titles) remains untested and should be sampled **once**, not batched.
 
+## Round 2 results and verdict (completed 2026-09-03)
+
+**Round 2 yield**: 5 videos processed, 145 new facts, yield = **29.0 new facts per processed video.** All 5 fetched serialized with `--languages ru` forced. **Zero rate-limit signatures across both rounds — 11 transcript fetches and 11 metadata calls, none blocked.** Batch state in `batch_status_20260903_yourinteriordes_round2.json`.
+
+| # | ID | Topic | Len | Uploaded | `fact_yield` | `promotional_ratio` |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | `SEdNCGA0Ttg` | Choosing builders — roundtable, ex-прораб on the panel | 70 min | 2024-08-15 | **33** | low |
+| 2 | `yaeQr8Q0tCQ` | Renovation cost roundtable | 63 min | **2023-10-03** ⚠️ | **30** | low |
+| 3 | `xA0pFTLCt5M` | Ventilation and AC — types, costs, mistakes | 19 min | 2023-10-17 | **30** | low |
+| 4 | `cudO-SSdrn0` | Space organiser audits the designer's flat | 33 min | 2026-02-03 | 28 | low |
+| 5 | `7DnlE-pl0y4` | Lighting mistakes — 500lux | 26 min | 2022-06-09 | 24 | low |
+
+**Two rounds: 11 videos, 317 facts, yields 28.7 then 29.0.** **One page created and fifteen updated**, across eight folders.
+
+### ⚠️ My Round 1 prediction was wrong, and the reason is the useful part
+
+**Round 1 predicted "expect below 28.7 — somewhere in the high teens to low twenties." Round 2 came in at 29.0.**
+
+**The prediction rested on the assumption that Round 1 had taken the channel's strongest titles. That was the wrong model of what Round 1 produced.** Round 1's real output was **a better selection rule** — that this channel's value sits in its guest formats and its trades — and Round 2 was composed entirely on that rule. **The channel is simply deeper in guest content than the decay assumption allowed for.**
+
+**→ The transferable lesson: a decay prediction should be conditioned on whether the previous round changed the selection METHOD, not only on what it consumed.** Where a round produces a new discriminator, the next round can plausibly hold or improve.
+
+### One page created, under the 3+-sources threshold
+
+**`11_Budget_and_Planning/analysis/Technical_Supervision.md`.** Технадзор had accumulated passing mentions on four pages — Budget Tiers, Project Duration, Wall Prep, Contract Practice — with no home of its own, and `SEdNCGA0Ttg` then delivered a dense dedicated treatment that both advocates the role and dismantles it. **The page keeps авторский надзор and технадзор explicitly distinct**, which the passing mentions had begun to blur.
+
+### ⚠️ A fragmented page was repaired as part of this round
+
+**`AC_Key_Concepts_and_Placement.md` tripped the FRAGMENTED check after this round's addition** — 10 of 12 top-level headings named a processing batch rather than a topic. **The condition was largely pre-existing; this round's addition took it over the detection threshold, which makes it this round's to fix.**
+
+Repaired with `tools/split_page.py merge`: **12 sections grouped under 5 thematic parents, with all 12 original dated headings demoted to `###` so every attribution and date survives.** `RESULT: CLEAN` — 75 content lines with 0 missing, 11 citation IDs before and after. **Not split, per the standing rule that splitting a fragmented page yields two fragmented pages.**
+
+### ⚠️ Three things this round got wrong, and what they cost
+
+**Recorded because the misses were more instructive than the hits.**
+
+1. **A DATE TRAP that invalidated the pick's stated rationale.** `yaeQr8Q0tCQ` is titled «Стоимость ремонта в **2024**?» and I selected it on the reasoning that 2024 filled the gap between Round 1's Dec-2023 ladder and the vault's 2025 tiers. **Its confirmed upload date is 2023-10-03 — ten weeks BEFORE Round 1's ladder, not after.** Second title-year/upload-year mismatch in this vault. **It turned out more useful than intended**: it became a near-simultaneous cross-check of the same market from the buying side rather than the selling side — **and the cross-check passed**, their ~25,000 RUB/m² SPb labour figure sitting ~25% above Round 1's contractor at ~20,000, in the direction you would predict. **But that was luck, not method.**
+2. **⚠️ A SOURCE-IDENTITY MISS: `7DnlE-pl0y4`'s guest was already a vault source.** Сергей Реньжин of 500lux is recorded via Кузина's channel (`9MsEZVjLH2M`, 2022-08-25), and this appearance is **ten weeks earlier**. I selected the video for "a different lighting guest" and got the same one. **Handled by discounting the yield, marking the affected lighting-page claims as one practitioner on two channels rather than independent confirmations, and correcting an attribution — the vault credited Реньжин with the physiology mechanism for the same-scene rule, and here he gives that rule with a different mechanism, so the physiology framing is his later refinement.** **→ A preflight step worth adopting: check a guest's name against `_Sources/` before selecting a video for its guest.**
+3. **The test question that source was chosen to answer got a third answer.** I asked whether Round 1's photometric thinness was the podcast format or the channel. **It was neither — it was the guest.** A 26-minute video with a lighting **designer** carries more usable illuminance and colour-temperature figures than Round 1's 81-minute podcast with a lighting **supplier**. **That refines the round's own selection rule: prefer the guest's discipline over the format's length.**
+
+### What the round produced that matters most
+
+- **⚠️ The densest contracting material in this vault**, from a panel containing an ex-прораб: four **green** flags (the vault was rich in red ones), two proposed signals recorded as **contested** because the panel rejects them among themselves, and **an inverted vetting test derived from consent practice rather than workmanship** — a builder who walks anyone onto any site without asking the owner will do the same with yours.
+- **⚠️ "We comply with СНиП" is not a quality claim.** СНиП tolerances run to 5 mm per metre and developers hand over on exactly that — so acceptance criteria have to be tighter than СНиП and written down.
+- **⚠️ A procurement-commission range with a vault-wide consequence: 2–15%**, volunteered by designers against their own industry. **Any designer-sourced material or supplier recommendation anywhere in this vault may carry one.** Routed to `Advertising_Promotional_Notes.md` as a standing reading rule, with their transparent alternative recorded as the thing to ask for.
+- **⚠️ Round 1's ceiling loop closed from the other end.** Round 1's installer said ventilation gates the ceiling; this round's ventilation source supplies the arithmetic that makes it non-negotiable — **ducts take 150–200 mm, machines 300 mm minimum, section grows nearer the machine, and ducts go in first while the lighting arrives after the ceilings.** Plus independent confirmation of the combined ventilation-plus-track slot, from the designer's side.
+- **⚠️ A coherence check across unrelated practitioners: Round 1's supplier gave the Kruithof rule; Round 2's designer independently gives 200–300 lux with 2700–3000 K for a children's room.** The rule and its application converging from different people is the strongest internal consistency signal either round produced.
+- **A counter-intuitive cost mechanism: a minimalist interior costs MORE, not less**, because it removes the visual noise that hides poor execution — so it raises the minimum acceptable trade quality rather than lowering material cost.
+
+### Recommended Round 3 — and the honest recommendation is to pause, not continue
+
+**Two rounds have not decayed, so there is no yield argument for stopping. There is a different argument.**
+
+**⚠️ The remaining Tier-1 pool no longer matches what made these two rounds work.** Eleven videos are processed and **every long-form guest format on the channel is now done** — both cost roundtables, the builders roundtable, both storage visits, both lighting sources, the ceiling specialist, the ventilation explainer. **What is left in Tier 1 is predominantly the host solo**, which Round 1 identified as this channel's weakest configuration and which Round 2 did nothing to rehabilitate.
+
+**Specifically remaining, with an honest expectation attached:**
+
+1. **`M0Wv4SOSUhs`'s remaining siblings and the site-review cluster** — `2B67955_Z5I` (51 min, «Секреты ремонта от экспертов, обзор стройки»), `Z0brwxSe7gQ` (43 min, engineering systems on site), `bJz8bG_CFSI` (46 min, end of rough stage), `7zpsZtcTkCM` (57 min, all the tricks of his own 55 m² renovation). **These are the only substantial guest-or-site formats left, and they are the strongest remaining candidates.** Expect below 29.0 but plausibly above 20.
+2. **The two remaining storage videos** (`RtRabYtDxNk`, `hllO93k4O7Q`) — the block has now returned 33 and 28, but these are the shorter and narrower two, and the method is thoroughly documented. **Diminishing.**
+3. **`1Dpc8SLJd6M`** — the Zrobim Architects (Minsk) podcast, **still the one Belarus-adjacent item on the channel and still flagged for a deliberate decision rather than a default skip.** Subject is building a house, not renovating a flat.
+4. **The mistakes/regrets block** (eight near-identical titles) — **still untested, and should be sampled ONCE rather than batched.**
+5. **The host-solo design and trend cluster — recommend against.** Round 1's scope finding stands and Round 2 reinforced it.
+
+**⚠️ My recommendation: run one final round of the four site-review/own-flat items in (1) plus one probe from (4), then close the channel.** That is where the remaining value is concentrated, and after it the channel is host-solo design content this vault already holds better-sourced elsewhere. **Flagging rather than deciding: `1Dpc8SLJd6M` remains the user's call.**
+
 ## Progress log
 
 - 2026-09-03 — Preflight run (220 videos, 220 fresh, 0 duplicates), Russian title dump obtained after discovering the channel serves auto-translated metadata, full title-skim triage completed, vault-coverage probes run for candidate subjects, 6-video Round 1 trial scoped.
 - 2026-09-03 — **Round 1 complete: 6/6 processed, 172 new facts, yield 28.7 — the highest single-round yield in this vault.** Zero rate-limit signatures. 17 pages across 7 folders; store, CSV and archive updated; `check_page_sizes.py` clean (no FRAGMENTED, nothing over backstop) and `verify_batch.py` 40 files / 0 problems. **Round 2 scoped above, awaiting go-ahead.**
+- 2026-09-03 — **Round 2 complete: 5/5 processed, 145 new facts, yield 29.0 — slightly ABOVE Round 1, against my own prediction of decay.** Reason recorded above: Round 1's real output was a better selection rule, not just consumption of the best titles. **One page created** (`Technical_Supervision.md`, under the 3+-sources threshold) **and fifteen updated across eight folders.** **One pre-existing FRAGMENTED page repaired** (`AC_Key_Concepts_and_Placement.md`, 12 sections → 5 thematic parents, `RESULT: CLEAN`, every attribution preserved). **Three misses recorded honestly: a date trap that invalidated a pick's rationale, a guest already in the vault, and a test question that got a third answer.** Zero rate-limit signatures across all 11 fetches. **Recommendation: one final round of the four site-review/own-flat items, then close.**
