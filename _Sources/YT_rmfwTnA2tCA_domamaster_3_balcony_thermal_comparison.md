@@ -119,4 +119,4 @@ entirely a walkthrough of measured readings.
   entirely measured-data narration, no pricing/upsell framing.
 - Overall promotional ratio: **low**.
 
-[source: [[_Archive/processed_sources/20260825_balcony_3_options_insulation_rmfwTnA2tCA_4d3ad90f.txt|20260825_balcony_3_options_insulation]]]
+[source: [[_Archive/processed_sources/20260825_domamaster_3_balcony_thermal_comparison_4d3ad90f.txt|20260825_balcony_3_options_insulation]]]

@@ -98,4 +98,4 @@ $/m² figure is computable for any line below.
 - Overall promotional ratio: **medium** (two distinct channel/community
   CTAs, though the cost-breakdown content itself stays dense/specific).
 
-[source: [[_Archive/processed_sources/20260824_petrishin_engineering_cost_3sRfRiQ8XfE_f0c188b7.txt|transcript]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_engineering_cost_f0c188b7.txt|transcript]]]

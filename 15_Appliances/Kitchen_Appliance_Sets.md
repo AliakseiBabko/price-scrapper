@@ -202,11 +202,11 @@ Below is a side-by-side visualization of the hood and cooktop (with the hood mou
 * **Usability Focus**: 28 cm circular burner for large family pans.
 * **Cleaning Focus**: Full Pyrolysis (500°C) burning all grease.
 * **Details**: Read the individual logs for details:
-  - [[Bosch_HBG7764B1_Oven]]
-  - [[Bosch_BFL7221B1_Microwave]]
-  - [[Bosch_PIF63KHC1E_Cooktop]]
-  - [[Bosch_SMV8YCX02E_Dishwasher]]
-  - [[Bosch_DHL555BL_Hood]]
+  - [[15_Appliances/models/Kitchen_Bosch_HBG7764B1_Oven]]
+  - [[15_Appliances/models/Kitchen_Bosch_BFL7221B1_Microwave]]
+  - [[15_Appliances/models/Kitchen_Bosch_PIF63KHC1E_Cooktop]]
+  - [[15_Appliances/models/Kitchen_Bosch_SMV8YCX02E_Dishwasher]]
+  - [[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood]]
 
 ---
 

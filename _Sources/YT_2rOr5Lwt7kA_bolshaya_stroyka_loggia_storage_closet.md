@@ -122,4 +122,4 @@ channel (a real market-rate data point exists but isn't captured here).
   narration.
 - Overall promotional ratio: **medium**.
 
-[source: [[_Archive/processed_sources/20260825_loggia_storage_closet_cheap_glazing_2rOr5Lwt7kA_c5f6d094.txt|20260825_loggia_storage_closet_cheap_glazing]]]
+[source: [[_Archive/processed_sources/20260825_bolshaya_stroyka_loggia_storage_closet_c5f6d094.txt|20260825_loggia_storage_closet_cheap_glazing]]]

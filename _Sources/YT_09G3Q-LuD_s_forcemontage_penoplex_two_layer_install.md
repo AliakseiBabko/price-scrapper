@@ -107,4 +107,4 @@ materials list, tool list, and layer-by-layer sequence for a two-layer
 - Overall promotional ratio: **low** — this is essentially a pure
   technique walkthrough.
 
-[source: [[_Archive/processed_sources/20260825_penoplex_loggia_serdtse_stolitsy_09G3Q-LuD_s_12992475.txt|20260825_penoplex_loggia_serdtse_stolitsy]]]
+[source: [[_Archive/processed_sources/20260825_forcemontage_penoplex_two_layer_install_12992475.txt|20260825_penoplex_loggia_serdtse_stolitsy]]]

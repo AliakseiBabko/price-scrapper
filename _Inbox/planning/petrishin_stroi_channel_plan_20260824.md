@@ -30,7 +30,7 @@ parallel with that cooldown.
   cluster of videos explicitly framed as **"Ремонт по проекту Алексея
   Земскова"** (renovation to a design by Alexey Zemskov) — this is the
   same Zemskov already fully triaged as a source channel in this project
-  (see [[project_zemskov_channel_triage_complete_20260819]]) — these
+  (see [[_Inbox/planning/zemskov_full_channel_triage|Zemskov Channel Triage]]) — these
   videos are a different contractor's (Petrishin's) execution of a
   Zemskov-designed project, a genuine cross-source corroboration
   opportunity, not a duplicate. (e) equipment/tool reviews and a "Виноградный"

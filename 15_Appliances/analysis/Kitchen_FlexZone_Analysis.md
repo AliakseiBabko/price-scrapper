@@ -97,7 +97,7 @@ Look for a hob with this zone layout:
 ### Reference Models to Investigate
 - **Bosch PXV675DC1E** — has a dedicated large round zone alongside a Flex zone
 - **Siemens equivalents** — same platform, sometimes better zone layout options
-- **Currently selected**: [[Bosch_PIF63KHC1E_Cooktop]] — confirm zone layout against these criteria
+- **Currently selected**: [[15_Appliances/models/Kitchen_Bosch_PIF63KHC1E_Cooktop]] — confirm zone layout against these criteria
 
 ---
 

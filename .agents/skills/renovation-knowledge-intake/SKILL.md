@@ -65,6 +65,19 @@ on a multi-video batch:
   is suspected. See
   [`references/lessons.md`](references/lessons.md#background-agent-dispatch).
 
+## Page-shape tooling (added 2026-09-02)
+
+Two repo-local tools govern the shape of anything this pipeline writes into a
+wiki page. **They are not optional extras at the end - step 5a's no-dated-heading
+rule and step 5b's check are part of the pipeline.**
+
+| Tool | Use |
+| :--- | :--- |
+| `tools/check_page_sizes.py` | Run once per batch. Reports FRAGMENTED (merge it), OVER BACKSTOP at 400 (fails; split it), and over the ~300 soft target (informational, not a defect) |
+| `tools/split_page.py analyse\|apply\|merge` | `analyse` diagnoses a page; `merge` fixes fragmentation by grouping sections and demoting dated headings to `###`; `apply` extracts whole sections. Both verify content-line and citation-ID parity and print `RESULT: CLEAN` |
+
+**Order when a page is both fragmented and too long: merge first, then extract.**
+
 ## Shared skills this wrapper uses
 
 - `youtube-transcript-fetch` - fetches a YouTube transcript to a file.
@@ -713,6 +726,64 @@ For one source at a time:
    decomposition genuinely calls for splitting, per that file's own
    "Default going forward" section - don't split preemptively on a
    guess.
+
+   **⚠️ Do not add a dated heading for your batch. This is the single
+   rule that matters most in this step (added 2026-09-02, after 29
+   pages had to be repaired).** The natural move when routing a fact is
+   to append `## <Topic> (<Practitioner>, added <date>, Round N)` and
+   put the fact under it. **Twenty-nine pages in this vault reached the
+   state where half or more of their headings were of that form** - the
+   page had become an ingestion log, organised by *when* a fact arrived
+   rather than by what it is about, and repairing them was a
+   multi-hour, whole-vault job.
+
+   **Instead: read the existing `##` headings first and put the fact
+   under the one it belongs to.** Sub-heading it as `###` inside that
+   section, with the practitioner and date, is fine and is exactly what
+   the repaired pages now look like. A new `##` is justified only when
+   the fact genuinely opens a subject the page does not yet cover - and
+   then **name the subject, not the batch**: `## Mixers and Taps`, never
+   `## Round 7 Additions`.
+
+   The cost asymmetry is the reason to care: adding to the right section
+   costs one extra read of the page's headings. Not doing it cost a
+   vault-wide repair pass.
+
+5b. **Check page shape at the end of a batch, not per source:**
+
+   ```
+   .venv\Scripts\python.exe tools\check_page_sizes.py
+   ```
+
+   The rule it enforces is **approximate size plus structural
+   integrity, not a line count** - see
+   `00_Master/wiki_page_format.md`. Read its output as:
+
+   - **FRAGMENTED** → the real defect, and almost always something this
+     batch caused. Fix with
+     `tools\split_page.py merge --spec <spec.json>`, which groups
+     sections under thematic parents and **demotes the original dated
+     headings to `###` rather than deleting them**, so every
+     attribution survives. **Never split a fragmented page** - that
+     yields two fragmented pages.
+   - **OVER BACKSTOP (400+)** → the only failing condition. Run
+     `tools\split_page.py analyse <page>` first; if it also reports
+     FRAGMENTED, **merge before extracting**.
+   - **over the ~300-line soft target** → informational. **Not a
+     defect.** A coherent page is allowed to sit above it. Look at it,
+     confirm it still holds one subject, move on.
+
+   `tools/split_page.py` moves sections **by line range, byte for
+   byte**, then asserts content-line and citation-ID parity and prints
+   `RESULT: CLEAN`. That is what makes the convention's "move existing
+   prose, don't re-derive it" checkable rather than aspirational -
+   trust `CLEAN`, and stop and read the diff if you get `PROBLEM`.
+
+   **A merge makes a page longer, not shorter** (it adds the group
+   headings, typically 10-30 lines). If a page is both fragmented and
+   near the backstop, merging it first may push it *over* temporarily,
+   and the follow-up extract brings it back. That sequence is correct;
+   don't reverse it because the number moved the wrong way.
 
    **This step is routine, not deferrable (confirmed the hard way,
    2026-08-18).** A real multi-session batch (Category 5 trial + all of

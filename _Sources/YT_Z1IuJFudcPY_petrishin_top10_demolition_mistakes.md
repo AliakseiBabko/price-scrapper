@@ -137,4 +137,4 @@ techniques not previously recorded, itemized below.
 - Overall promotional ratio: **low** — the sales CTA is confined to the
   closing seconds; the body of the video stays dense and specific.
 
-[source: [[_Archive/processed_sources/20260824_petrishin_top10_demolition_mistakes_Z1IuJFudcPY_2b5ddb4d.txt|transcript]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_top10_demolition_mistakes_2b5ddb4d.txt|transcript]]]

@@ -27,17 +27,17 @@
 
 ## 👨‍👩‍👧‍👦 Family Needs & Daily Use Scenarios
 * **Cookware Geometry**: We only use **round pots and pans** (thick-bottomed aluminum and cast iron). Rectangular pans are not used, and duck pan cooking is rare.
-* **Coils over Flex Zones**: The benefits of Flex Zones are not obvious for our use cases. A standard layout with **4-5 circular induction coils** is preferred. See the detailed research note: **[[FlexZone_Analysis]]**.
+* **Coils over Flex Zones**: The benefits of Flex Zones are not obvious for our use cases. A standard layout with **4-5 circular induction coils** is preferred. See the detailed research note: **[[15_Appliances/analysis/Kitchen_FlexZone_Analysis]]**.
 * **Reference**: See the master requirements log in **[[Family_Requirements]]**.
 
 ## 🔌 Appliances (Selection Complete)
 * **Primary Set Status**: Approved (`13,883 BYN` budget).
 * **Details**: Review the options and individual specifications in **[[Kitchen_Appliance_Sets]]**:
-  - **Oven**: [[Bosch_HBG7764B1_Oven]]
-  - **Microwave**: [[Bosch_BFL7221B1_Microwave]]
-  - **Cooktop**: [[Bosch_PIF63KHC1E_Cooktop]]
-  - **Dishwasher**: [[Bosch_SMV8YCX02E_Dishwasher]]
-  - **Hood**: [[Bosch_DHL555BL_Hood]]
+  - **Oven**: [[15_Appliances/models/Kitchen_Bosch_HBG7764B1_Oven]]
+  - **Microwave**: [[15_Appliances/models/Kitchen_Bosch_BFL7221B1_Microwave]]
+  - **Cooktop**: [[15_Appliances/models/Kitchen_Bosch_PIF63KHC1E_Cooktop]]
+  - **Dishwasher**: [[15_Appliances/models/Kitchen_Bosch_SMV8YCX02E_Dishwasher]]
+  - **Hood**: [[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood]]
 * **Full Category Comparisons**: [[Kitchen_Hoods]] (all researched hood candidates), [[Kitchen_Water_Filtering]] (under-sink RO systems, no selection made yet).
 * **Appliance domain home**: [[15_Appliances/Appliances_Index|Appliances Index]] (all kitchen + laundry appliance content now lives under `15_Appliances/`).
 

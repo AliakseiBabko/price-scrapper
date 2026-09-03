@@ -98,4 +98,4 @@ steps).
 - Overall promotional ratio: **medium** — genuine technique narration
   throughout, but framed around securing more of the same business.
 
-[source: [[_Archive/processed_sources/20260825_moscow_loggia_glazing_wood_paneling_AI6gdNR_LiE_dffd599f.txt|20260825_moscow_loggia_glazing_wood_paneling]]]
+[source: [[_Archive/processed_sources/20260825_moskovskie_balkony_wood_paneling_case_dffd599f.txt|20260825_moscow_loggia_glazing_wood_paneling]]]

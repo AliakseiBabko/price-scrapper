@@ -154,4 +154,4 @@ placement; standard channel plug at the end).
    Standard like/subscribe/channel-continuity close.
    Overall promotional ratio: **low**.
 
-[source: [[_Archive/processed_sources/20260825_loggia_insulation_finishing_best_way_kZ4cZs-2Xhc_17b0c696.txt|20260825_loggia_insulation_finishing_best_way]]]
+[source: [[_Archive/processed_sources/20260825_stroim_dlya_sebya_loggia_insulation_revisit_17b0c696.txt|20260825_loggia_insulation_finishing_best_way]]]

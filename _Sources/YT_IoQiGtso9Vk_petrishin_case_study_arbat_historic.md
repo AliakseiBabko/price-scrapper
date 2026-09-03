@@ -130,4 +130,4 @@ cost/m² data point, so no price-normalization step applies.
 - No direct sales CTA/pricing pitch.
 - Overall promotional ratio: **low**.
 
-[source: [[_Archive/processed_sources/20260824_petrishin_case_study_arbat_historic_IoQiGtso9Vk_a3ce7a8a.txt|transcript]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_case_study_arbat_historic_a3ce7a8a.txt|transcript]]]

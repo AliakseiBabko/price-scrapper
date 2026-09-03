@@ -29,7 +29,7 @@ Category 5 further-pool batch (chunk 1 of 4), video 4 of 7. **Uploaded just 2 we
 
 ## Advertising / Promotional Content Notes
 
-**Near-total duplication with `3Otf-oBcMqg`** (same chunk, uploaded 2 weeks later): the "Zems Pro knowledge base" self-promotional pitch and the Karen Karapetyan legal-dispute solicitation are both word-for-word repeats. This is a direct, confirmed instance of this project's standing script/campaign-reuse caution (two videos close in time producing near-zero independent marginal value from their shared promotional content) — see [[feedback_value_filter_pass_before_batch_video_processing]] guidance on checking close-together uploads against each other. The unique case-study content (this project's specific floor plan and furniture list) does not by itself justify full extraction treatment given how thin the genuinely new technique content is.
+**Near-total duplication with `3Otf-oBcMqg`** (same chunk, uploaded 2 weeks later): the "Zems Pro knowledge base" self-promotional pitch and the Karen Karapetyan legal-dispute solicitation are both word-for-word repeats. This is a direct, confirmed instance of this project's standing script/campaign-reuse caution (two videos close in time producing near-zero independent marginal value from their shared promotional content) — see [[.agents/skills/renovation-knowledge-intake/SKILL|Intake skill — value filter]] guidance on checking close-together uploads against each other. The unique case-study content (this project's specific floor plan and furniture list) does not by itself justify full extraction treatment given how thin the genuinely new technique content is.
 
 ## Excluded Content — Named-Individual Legal Dispute
 
