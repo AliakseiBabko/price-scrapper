@@ -73,6 +73,61 @@ room-specific content rather than duplicating this here:
   reach while staying visually unobtrusive.
 [source: [[_Sources/YT_8PjHJZtblZw_kodolov_storage_methods|8PjHJZtblZw_kodolov_storage_methods]]]
 
+## ⚠️ A Professional Space Organiser's Method — Product Verdicts, and Two Rules That Reassign the Problem (Ксения, 6+ years, via NSDSGN)
+
+**Two videos on the same channel, seven weeks apart, in which a professional организатор пространства and a designer audit each other's flats.** [sources: [[_Sources/YT_cudO-SSdrn0_nsdsgn_storage_organiser_audits_designer|YT_cudO-SSdrn0]] (2026-02-03, she audits his), [[_Sources/YT_9ZwqMKiMgvc_nsdsgn_storage_organiser_family_flat|YT_9ZwqMKiMgvc]] (2026-03-25, he tours hers)]
+
+### ⚠️ Three causes of disorder — and the first relocates the fix to the specification stage
+
+1. **«Самая первая причина беспорядка — это не вы, а ваша неудобная мебель.»** Especially ready-made furniture, which is usually simply inconvenient: **«на этих полках никому непонятно, как соблюдать порядок. Поэтому получается хаос.»** **→ Mess is a furniture-design failure before it is a discipline failure**, which is why this belongs on a furniture page and not only in a habits list.
+2. **The quantity of things, plus the absence of time to work out what is needed** — «на это действительно нужно много времени и сил».
+3. **⚠️ Marketplace "storage lifehack" content, and she expects to be attacked for saying it: «это обзорщики ВБ… На самом деле это всё не работает, ребята. Чем проще, тем лучше.»** *(Consistent with her rejection of decanting shampoos and gels into matching bottles in the other video — «первое время я тоже этим занималась, но это не для меня».)*
+
+### ⚠️ The container-sizing rule — the most transferable principle
+
+**«В нижнем ящике яркий пример, когда у нас мелкие категории, но большие контейнеры — и всё равно бардак.»**
+
+**→ Match container size to CATEGORY size. Where categories are small — desk drawers, bathrooms — use small containers.** Buying "storage" without sizing it to the contents changes nothing. **This page's existing labelling and photo-identification technique depends on it: a label is only useful once the cell contains one category.**
+
+### Product verdicts — she rates each one, which is what makes the format worth processing
+
+**Endorsed:**
+
+- **⚠️ Her most-used single product, with a dimension: a container 45 cm deep, on wheels, with a handle and repositionable dividers.** «Супер универсальный, супербазовый» — any room, any shelf, and **two fit exactly into a kitchen drawer. «Я всегда в свои проекты просто десятками закупаю эти контейнеры.»**
+- **⚠️ Her second: a spring-loaded expanding divider on a tension strut**, dividing categories inside a drawer so they stop mixing. **She says it works in every zone** — underwear, socks, bras, t-shirts, shorts, children's toys, cloths stored upright.
+- **Modular trays (модульные лотки) for bathroom drawers — «самое лучшее решение»**, sold in sets or singly in several sizes **so you assemble a mosaic to your actual needs.** Transparent ones read as weightless and often fit better around drawer locks. **«Совершенно бюджетная история.»**
+- **Rotating stands — but with a placement distinction: on a countertop the rotation is «не очень обязательно»; INSIDE a cabinet, to reach the back row, it is «очень хорошая рабочая история»**, cheap and effective. Uses named: perfumes, cosmetics, spices, oils.
+- **Adhesive holders: one for a mop or any tube-shaped item («она висит у тебя, а не на полу лежит»), and one inside a cabinet for drying wet cloths** — her answer to a recurring question.
+- **Containers, кофры or baskets on an open shelf read far tidier than loose items**, and wider кофры lose little volume while looking much better.
+
+**Rejected, with reasons:**
+
+- **Hanging baskets («подвесные корзинки») — «это плохая история».**
+- **Multi-level pyramids — «это уже колхоз».** A plain tray achieves the point.
+- **⚠️ The interlocking / notched marketplace dividers that assemble into any shape — rejected on FUNCTION, not looks: «они не держатся, они разбалтываются, и свою функцию вообще никаким образом не выполняют».**
+- **⚠️ A lid organiser: «штука хорошая, но можно лучше» — and the mechanism is the point: lids differ in size and doming while that stand's compartments are identical.** The better version has **sliding, repositionable dividers**, and the same sliding stands **also hold pans, baking forms and boards vertically.**
+- **Dividers are largely unnecessary in a kitchen** — she recommends them for **bags** (so they do not fall over) and in the wardrobe.
+
+### ⚠️ Her professional tool case — because it reveals that decluttering needs procedures, not willpower
+
+Double-sided and ordinary tape, stationery elastics, **velcro cable ties for coiling wires**, **blank tags for labelling baskets that will not take an adhesive**, the adhesive mop holder, **two label printers** (one autonomous printing a narrow strip, one Bluetooth-app-driven printing larger labels) — **and a battery tester, «проверяем, какие годные, какие негодные, чтобы избавляться от хламья».**
+
+**The battery tester is the telling item: the hard part of decluttering is deciding, so she carries an instrument that decides.** And the label printers make the labelled-front recommendation operationally cheap.
+
+### ⚠️ Vertical / file storage — with the scope limit only both videos together reveal
+
+- **Организаторы пространства recommend drawers over shelves, especially for underwear.** Inside a chest the method is **вертикальное хранение — «складывание вещей по типу картотеки»**: fold each item into an envelope or roll it and stand it upright, **so opening the drawer gives a full immediate view and you take one item without disturbing the stack.**
+- **The failure it fixes, illustrated comically: men take the top pair of pants, wash them, return them to the top, and never reach the bottom of the stack.**
+- **⚠️ AND THE SCOPE LIMIT: the other video records this same household ABANDONING vertical storage for the husband's t-shirts** — because t-shirts were his most-worn daily item and hanging them all visible worked better. **So file storage is the general recommendation, and her own household documented one case where it lost to hanging, for the highest-frequency item. Record it as scoped, not universal.**
+- **⚠️ And an argument against fixing the divisions permanently, from the same source: she advises AGAINST built-in fixed dividers, which some organisers and furniture makers propose, because «жизнь меняется» and the composition of what you own changes.** Removable, repositionable dividers let the layout follow the household. **A direct counterweight to specifying bespoke drawer inserts at fit-out.**
+
+### The household protocols, which are the part that does not cost anything
+
+- **A reserves shelf with a family rule attached: unopened stock lives here, and «если где-то что-то закончилось, нужно посмотреть здесь. Если здесь нет — значит нужно заказать».** The rule, not the shelf, is what works.
+- **⚠️ «Ящик позора» — one drawer designated for everything ugly**, so the cabinets opened constantly stay presentable. **An explicit concession that total order is not the goal.**
+- **Dirty laundry sorted at the point of undressing into four containers — dark, light, underwear, and one for items needing special attention.** Compliance is easy where one household member wears mostly dark and another mostly light, **and you can soak directly in the drawers.** Recorded in both videos.
+- **Placement follows the action sequence** (pots nearest the water, because filling comes first) and **storage height follows who uses it and changes over time** (plates moved down when a child started serving herself).
+
 ## ⚠️ Storage by Functional Zone, and Custom vs. Stock Volume Utilisation (Игорь Краснов, added 2026-09-01)
 
 [source: [[_Sources/YT_6ttTd82TWPM_krasnov_closets_wasting_space|6ttTd82TWPM]]]

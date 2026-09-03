@@ -16,6 +16,40 @@ Companion pages: [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Pr
 (per-system tier ladders) · [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]] ·
 the fully worked cases under `11_Budget_and_Planning/case_studies/`.
 
+## Live intake benchmark — three designers on the same St Petersburg market, ten weeks earlier (2023-10-03)
+
+**⚠️ A near-simultaneous cross-check of the ladder below, from the buying side rather than the selling side.** Same channel; three designers in roundtable, one an ex-прораб, versus the contractor recorded below. **Region level 1** — both cities named and contrasted.
+
+> [!WARNING]
+> **⚠️ DATE TRAP: the video is titled «Стоимость ремонта в 2024?» and the confirmed `yt-dlp` upload date is 2023-10-03.** The content forecasts 2024; it is not 2024 data. **This is the second title-year/upload-year mismatch in this vault** (the first being Petrishin's "2026"-titled 2025 upload recorded below). **Confirm the year from metadata, never the title.** USD at **88.1418 RUB/USD** (trailing 6 months to 2023-10-03).
+
+**Full-renovation tier ladder — all-in per m², design-led:** **basic but still designed ~120,000 RUB/m² (≈$1,400/m²)**; **middle/good/business ~180,000–220,000 (≈$2,000–$2,500)**; **from 250,000 up (≈$2,800+)** for «более эстетские, более дорогие штуки». One panellist puts his own comparable work **above 200,000 RUB/m²**. *(A following sentence in the transcript is ASR-mangled and self-contradictory; recorded `ASR-uncertain`, no reading inferred.)* **1,000,000 RUB/m² is named as an absurd upper bound.** The property-price-to-renovation-price ratio heuristic is raised **and treated sceptically**, with the counter-case of a flat itself priced at 1M RUB/m².
+
+**⚠️ Read the scope before comparing this with the contractor ladder below.** That one is **construction work only**, explicitly excluding decorative plaster, ventilation and balcony insulation. **This one is all-in for a design-led project including materials, furnishing and the designer.** The ~10× gap between them is scope, not disagreement — **and the figures that actually bridge them are the labour-only decomposition:**
+
+| Component | RUB/m² | USD/m² |
+| :--- | :--- | :--- |
+| **Works (labour), St Petersburg average** | ~25,000, range 25,000–35,000 | ≈$280, ≈$280–$400 |
+| **Works (labour), Moscow** | ~35,000; 35,000–45,000; up to ~55,000 | ≈$400; ≈$400–$510; up to ≈$620 |
+| **Rough materials (черновые), on top** | 15,000–20,000 by level | ≈$170–$230 |
+| **Complex or exclusive work** | **+20%**, «в лучшем случае», as contingency | — |
+
+**⚠️ The cross-check is the point: their ~25,000 RUB/m² St Petersburg labour figure sits against the contractor's ~20,000 RUB/m² for a good brigade with a бригадир below, recorded ten weeks later on the same channel.** Same city, ~25% apart, **and the direction is the one you would predict — the buyers' view of the going rate sits above the seller's floor.** Recorded as mutual corroboration, not a contradiction.
+
+**And an honest caveat on provenance from the panel itself: «они считают просто от балды… это ориентир».** One panellist declines a range altogether — **«у меня слишком индивидуальные проекты, чтобы вообще говорить о какой-то средней вилке»** — and notes he often never sees the смета because the client uses their own builders.
+
+**⚠️ A dated cost-optimised worked case, deliberately left unconverted.** A client rejected their specification and suppliers and **sourced everything himself across Russia** — «максимально запарился с точки зрения экономии» — reaching **~120,000–125,000 RUB/m² for a minimalist modern flat. But he states this was «3 года назад», i.e. ~2020, and the month is unknown, so no conversion is offered.** The panel's own escalation estimate to 2023 is **«процентов на 40»** with an immediate «сильно больше», attributed to materials, logistics, tools and labour all rising and **specialists leaving, shrinking the market.** **The line worth keeping: «всё дорожает, кроме дизайн-проекта».**
+
+**⚠️ And the insight that reframes a headline per-m² figure — why a MINIMALIST interior costs more, not less.** A real project at **~135–140 m² and 250,000–270,000 RUB/m² (≈$2,800–$3,100/m²)**: microcement on floor and walls, bare treated concrete ceiling, **no doors at all**, effectively one material. The reason:
+
+> «Когда ты делаешь минималистичные интерьеры, они тебя не прощают недорогих подходов. Недорогие решения будет видно — они будут на виду. Когда у тебя пустой минималистичный интерьер, все косяки мебели, плохие стыковки нескольких материалов в одной точке — это всё заметно.»
+
+**→ Minimalism removes the visual noise that hides poor execution, so it raises the minimum acceptable trade quality rather than lowering the material cost.** «Тогда лучше вообще не делать, чем вот так делать, потому что вся концепция испортится.» **The mirror failure to watch for: chasing luxe in a detail-heavy style while economising along the way yields «некая пародия настоящего дорогого проекта» — practically the same result as simply having a small budget**, because there «одна малярка, один гипс может составлять приличные суммы». They name **«стоимость стиля»** as its own variable: two projects that look comparable in a photograph are not comparably priced.
+
+**One absolute small-room total: parents' bathroom plus separate WC in a panel building — ~500,000 RUB (≈$5,700) for the complete renovation of the small bathroom alone**, with the designer ordering materials. **The first absolute wet-room total from this channel, and useful because panel-building bathrooms are a standard size.**
+
+**Never-economise, independently corroborating the contractor below:** all the engineering as good as the budget allows, and **«экономить на том, что сложно заменить»**. **The worked negative is the memorable form: cheapest plumbing pipes but the most expensive radiator «потому что его видно» — and six months later everything leaked and destroyed the mouldings and the gilt chandelier beneath. «Скелет должен быть хорошим.»** *(Same rule, same visible-versus-concealed logic, different practitioners, ten weeks apart.)* [source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]]]
+
 ## Live intake benchmark — St Petersburg tier ladder and Moscow premium floor, from a contractor of 30+ years (2023-12-15)
 
 **The first St Petersburg tier ladder on this page**, and the first with an explicit Moscow-versus-Petersburg gap from one speaker in one sitting. Source is a 72-minute podcast on the NSDSGN channel; **the figures come from the guest, Руслан — a contractor with 30+ years in construction, ~20 in business-plus/premium отделка and old-fund reconstruction — not from the channel owner**, and the host opens by disclaiming any commercial tie («мы не занимаемся рекламой»). **Region level 1**: both cities named in spoken content and their price levels contrasted directly.

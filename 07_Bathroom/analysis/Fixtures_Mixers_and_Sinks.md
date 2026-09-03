@@ -61,6 +61,15 @@ Konstantin Kruglov / Ontario says: **mixer shape (round vs. flat) affects visibl
 
 **A specific 2024-2025 trending kitchen-mixer type, praised as inspiration-worthy**: a pull-out mixer with a silicone (not metal-braid) hose that shows no water-mark residue at all and functions as a hand-held sprayer when pulled from its docking bracket, paired with a separate dedicated small tap for filtered drinking water fed from an under-sink filtration system. [source: [[_Sources/YT_55zALDsXP2E_kruglov_pinterest_plumbing_review|55zALDsXP2E_kruglov_pinterest_plumbing_review]]]
 
+### ⚠️ Specify a FLAT Siphon to Preserve Vanity Drawer Volume (Александр Сенчугов / NSDSGN, 2026-02-03)
+
+**A small specification item with a disproportionate storage consequence, and it belongs beside this page's stub-out coordination rule below.** [source: [[_Sources/YT_cudO-SSdrn0_nsdsgn_storage_organiser_audits_designer|YT_cudO-SSdrn0]]]
+
+- **With a FLAT siphon the cut-out in the drawer for the trap can be minimal. «Мебельщики любят вот такой вырез» — a generous one — and then «там потом вообще ничего не поместится».**
+- **→ The siphon choice determines how much of the vanity drawer survives, so it is a storage decision as much as a plumbing one — and it must be told to the furniture maker, who will otherwise cut for his own convenience.** He states telling them as his standing practice.
+- **Related, from the space organiser auditing the same bathroom: the vanity drawers themselves should not be wide AND deep.** «Для ванной такие делать не надо» — **what is stored there is small categories, and the depth is wasted.** She had already ordered a replacement for her own on that ground. **The remedy inside an existing drawer is modular trays sized to the categories** — see [[14_Furniture/analysis/Household_Storage_and_Decluttering_Method|Household Storage and Decluttering Method]].
+- **And her addition to the basin area, which removes the clutter fixture choices often get blamed for: a shallow door-fronted cabinet beside the basin.** The ground is behavioural — brushes and products needed immediately to hand are awkward to fetch from a drawer **«потому что ты стоишь тут мокрый»** — and it clears **«весь визуальный шум, который хранится на раковине»**.
+
 ### Rain-Shower Riser Sizing, and a Vanity-Cabinet Stub-Out Coordination Rule (added 2026-08-28, Round 5)
 
 Konstantin Kruglov / Ontario: **tropical/rain-shower riser upsizing, new specific figure**: if the rest of the bathroom's supply distribution runs in ~16mm pipe, the branch specifically feeding a tropical/rain-shower head should step up to ~20mm, since a rain head draws meaningfully more flow volume than a standard shower/mixer outlet. **Vanity-cabinet stub-out coordination rule**: before finalizing a sink's water-supply and drain stub-out positions, confirm where the vanity cabinet's own mounting hardware (anchors/brackets/legs) will land, so a stub-out or embedded wire doesn't end up directly behind a point that later needs drilling to hang the cabinet. `single-account`, `unverified`. [source: [[_Sources/YT_BDudniuyJ4s_kruglov_bathroom_mistakes_every|YT_BDudniuyJ4s]]]

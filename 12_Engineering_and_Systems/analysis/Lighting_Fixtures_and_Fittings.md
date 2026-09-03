@@ -75,6 +75,16 @@ Per designer Nikita Kuznetsov (Kruglov/Ontario), trend-focused framing. [source:
 
 ## 4. Chandeliers and Pendants
 
+### ⚠️ The same chandelier position from the same practitioner, ten weeks earlier — and the cheap alternative he names
+
+**Worth recording precisely because it affects how much independent weight this page's chandelier position carries.** Реньжин states it here (2022-06-09) as well as in the Кузина podcast (2022-08-25): **«люстра — это не источник света, в первую очередь это декоративный элемент»**, and beautiful chandeliers exist but **«не надо на неё рассчитывать как на основной источник света»**. He is pleased that people increasingly refuse chandeliers in bedrooms.
+
+- **The mechanism he gives here: «она светит, под ней происходит жизнь, она выравнивает весь интерьер» — the space reads flat and untextured.** Historically, in a сталинка, there was no interior design, so it did not matter.
+- **⚠️ The alternative, and it is deliberately cheap: an ordinary three-phase track system — «не обязательно дорогую магнитную» — with a couple of thin linear modules giving ~200 lux of functional light, plus accents onto a picture, sofa, bar or island.** **This is the concrete substitute the section below argues for without pricing; the point is that the replacement is not a premium product.**
+- He distinguishes **«источник света» (the lamp) from «прибор освещения» (the fitting)**, and calls **a track system the most universal way to combine several sources.** Vintage chandeliers he likes, as decoration.
+
+**⚠️ Attribution note: this is the SAME voice as one of the two speakers credited below, on a different channel — so the two-speakers-two-disciplines framing that follows should be read as one lighting designer plus one other, not as three independent confirmations.** [source: [[_Sources/YT_7DnlE-pl0y4_nsdsgn_renzhin_lighting_mistakes|YT_7DnlE-pl0y4]]]
+
 ### ⚠️ "Люстра — не прибор освещения" — two speakers, two disciplines, one conclusion
 
 **A convergence worth flagging because the two arrive from opposite premises.** Кузина, a designer, says she considers it legitimate to buy a chandelier that does not really light, because it is interior decoration [source: [[_Sources/YT_Dd_pUAvzqew_kuzina_dining_pendant_size_and_height|YT_Dd_pUAvzqew]]]. She then puts that to Реньжин, a lighting engineer — and he confirms it is not merely acceptable but correct.
@@ -85,6 +95,36 @@ Per designer Nikita Kuznetsov (Kruglov/Ontario), trend-focused framing. [source:
 - **Formality register as a selection lever** (Кузина): crystal or glossy metal reads **more formal**; wood, woven elements or an exposed bulb lower the *"градус пафоса."*
 
 [source: [[_Sources/YT_9MsEZVjLH2M_kuzina_renzhin_lighting_design_podcast|YT_9MsEZVjLH2M]]]
+
+### ⚠️ You cannot buy functional light from a photograph — and the showroom makes it worse
+
+**A clean two-way split from Сергей Реньжин (500lux), and the practical answer to "why do I need a lighting project at all".** **⚠️ Note this practitioner is already a source on this page via Кузина's channel (2022-08-25); this NSDSGN appearance is ten weeks earlier, so it is the same voice on a second channel.** [source: [[_Sources/YT_7DnlE-pl0y4_nsdsgn_renzhin_lighting_mistakes|YT_7DnlE-pl0y4]]]
+
+- **Emotional / decorative light — table lamps, sconces, bedside lamps — CAN be bought from a picture: «вы покупаете не свет, вы покупаете форм-фактор».**
+- **⚠️ Functional light CANNOT: not a track system, not recessed fittings — «невозможно купить ни на АлиЭкспрессе, ни в каталоге, ни в магазине».** *(This is the same conclusion this page reaches from the parameter list above — beam angle, CRI, flux, driver, heatsink — none of which a photograph carries.)*
+- **⚠️ And the showroom dynamic, stated sharply: «человек приходит в шоу-рум светильников — даже хороший шоу-рум — ему становится хуже ещё до того, как он туда пришёл. Он думал прийти разобраться с освещением, приходит-уходит, и у него ещё больше вопросов.»** **The reason is structural: showroom staff are confined to the assortment of that particular shop, so «есть эксперты, но очень мало».** *(Corroborates the same-page finding that a supplier's default recommendation follows stock, not need.)*
+- **The route he recommends: a lighting project — bought from a lighting studio, or from a good designer who «ему не стыдно прийти к нам» and ask for the calculation** («я хочу вот эти светильники, они по форм-фактору — сколько мне их надо?»), then check with the manufacturer. **Failing that, at minimum be clear whose manufacture the fitting is.**
+- **⚠️ And the framing that recurs across three independent practitioners in this vault: «дизайнер выступает в роли режиссёра — он подбирает исполнителей, каждый специалист в своём деле. Нельзя быть специалистом во всём.»**
+
+### ⚠️ Two fitting types worth knowing, and one worth refusing
+
+[source: [[_Sources/YT_7DnlE-pl0y4_nsdsgn_renzhin_lighting_mistakes|YT_7DnlE-pl0y4]]]
+
+- **⚠️ A framing projector — a fitting that gives a picture a SHAPE, throwing a square, rectangle or triangle.** Mounts in a track, aimed at a picture or a shelf; kill the rest of the light and the object reads as an art object. **The surface must not be reflective — see the surface condition on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]].**
+- **⚠️ The fitting he names as his personal enemy, and the mechanism is the light-burn one: the "architectural" pendant on a black cord** — geometrically clean shapes that «очень круто выглядит днём», with a ~20 W LED lamp inside that blasts light so **«вечером ничего не видим — это прям проблема»**. **Fix: buy the same geometric form but closed with a shade, and hang it over a table.**
+- **⚠️ On spherical pendants, which are everywhere: keep them, but «в шаре не должна быть лампа вкручена, потому что лампа освещает воздух». Use disc / «шайба» modules that throw light straight down — «тогда шары работают хорошо».** A specific, cheap correction to a very common fitting.
+
+### ⚠️ Kitchen worktop LED — and the failure is the furniture maker's, not the designer's
+
+**Three rules from the same source, and the third corroborates this page's thermal-profile rule from a third channel.** [source: [[_Sources/YT_7DnlE-pl0y4_nsdsgn_renzhin_lighting_mistakes|YT_7DnlE-pl0y4]]]
+
+1. **«Не бывает много света над рабочими поверхностями»** — the working surface being where you actually cut and cook.
+2. **⚠️ «Девять из десяти» furniture makers get it wrong: they fit a thin strip in the corner by the cornice, which «работает примерно никак» because it does not reach and has no optics.** **What to demand: a high-CRI strip; failing that at least two or three lines; and positioned directly OVER the working surface, not in the corner.** «Это вообще любой мебельщик себе сделает — надо просто ему об этом сказать.»
+3. **The strip only works glued into an aluminium profile that sheds heat — otherwise it dumps heat into the furniture, which warps, and the diode degrades.** «Конечно же ваши подрядчики по мебели так не делают.» **Third independent channel for the thermal rule; the new part is attributing the failure specifically to kitchen fabricators.** *(Routes with the kitchen-side version on [[03_Kitchen/analysis/Kitchen_Lighting|Kitchen Lighting]].)*
+
+**And the dining-table rules from the same source: always a separate source, always a PENDANT rather than a recessed fitting, positioned just above eye level so the source is not visible, and closed with a shade or fitted with a real diffuser.** **The banal failure he illustrates from his own restaurant experience: the fitting placed directly over your head, so your own head shadows the plate. Light must come from the left and right, never from behind.**
+
+**On lighting a face: solved primarily by a good mirror with a warm, high-CRI perimeter strip — «у хорошего производителя зеркал всегда написан индекс цветопередачи, он должен быть выше 90%».** *(Note this page's existing Реньжин-attributed figure is CRI above 95 for fittings generally; >90 here is a narrower claim about mirror strips, recorded as such rather than as a contradiction.)* **Direct light is required — reflected light shows the oval of the face but not the detail, because it does not deliver enough vertical illuminance.**
 
 ### ⚠️ Integrated-LED chandeliers are disposable — the mechanism, with a service case
 

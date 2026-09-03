@@ -17,6 +17,34 @@ The most practical configuration is **3-tier**: bottom 50cm (shoes), a hanging r
 - **2-tier shoe+clothes** (rod at ~2m, nothing above 210cm): specifically suits rooms with a ducted-ventilation-unit bulkhead eating ceiling height above 210cm — common in larger/premium apartments, and the reason some rooms have an unusually low usable ceiling in that specific zone. [source: [[_Sources/YT_VgsPDOcPV7c_sliding_door_wardrobe_sizing|VgsPDOcPV7c_sliding_door]]]
 - **4-tier** (small shoe tier + two clothing rows + a shelf): looks impressive in showroom displays, but is bad in practice — awkward shoe access (buried under hanging clothes), a same-length-garment constraint, and a top rod at 240-250cm. [source: [[_Sources/YT_VgsPDOcPV7c_sliding_door_wardrobe_sizing|VgsPDOcPV7c_sliding_door]]]
 
+## ⚠️ Rail-Height Arithmetic — Why a Two-Tier Short-Hanging Wardrobe Becomes Unreachable (Ксения, space organiser, via NSDSGN, 2026-02-03)
+
+**This page's Vertical Tiering section gives the tiers. This is the failure that makes a correct tiering unusable, diagnosed on a real wardrobe.** [source: [[_Sources/YT_cudO-SSdrn0_nsdsgn_storage_organiser_audits_designer|YT_cudO-SSdrn0]]]
+
+The arrangement audited — **two rows of short hanging plus one row of long** — is endorsed: **«два ряда коротких штанг — хорошая рабочая история, практически для всех ростов доступна».** And yet **the upper rail was already out of comfortable reach for her at average height.**
+
+- **⚠️ The cause is at the BOTTOM, not the top: a 150–180 mm set-back / plinth below the lower rail. All of that height was spent low down, and it came off the top.** «Мне уже как раз вот этих 15–18 см до верхней штанги не хватает.»
+- **→ The rule: in a two-tier short-hanging arrangement, every millimetre spent below the lower rail comes off the reachability of the upper one.** Reachability is a budget, and the bottom of the carcass competes with the top for it.
+- **And the space was spent for nothing in this case**: the bottom shelves collect dust heavily and he stores nothing there.
+- **⚠️ A second, separate finding about a shelf ABOVE the rail: «вот эта полка на самом деле функционально не очень нужна», and she reports her colleagues consistently agree. The mechanism is sightline — a taller person must bend down to see along the row they want, «она обзор перекрывает», whereas without it there is a clean view down from standing height.** His counter-use, recorded because it is legitimate: he lays laundry on it before hanging.
+
+### Hangers — a three-year durability report, and the thin-wood option
+
+- **Velvet / flocked hangers: the advantage is real — nothing slips off.**
+- **⚠️ The cost, after three years in a household with a long-haired cat: «это прямо вот ужасно» — everything gets covered, and with age the cheaper ones «начинают сыпаться» onto the shelves, which then need wiping.** **Verdict: recommended with the caveat stated, not without it.**
+- **Alternatives: plastic; and «самые лучшие плечики — просто простые деревянные», which take more space where you are economising — with a newer range of THIN wooden hangers now available** (a Leroy Merlin line; **the brand string is ASR-garbled and recorded `uncertain`**).
+- **⚠️ Trousers: she «строго-настрого» recommends getting rid of the multi-tier trouser hanger, and the objection is mechanical rather than aesthetic — «вытянуть можно, но как ты запихиваешь это обратно?».** **Correct solutions: fold into drawers, or hang each pair on its own hanger** — «самое хорошее решение — вешать джинсы, брюки на плечики». **Plus a named product with its mechanism: специальные брючные плечики, where only the protruding bar carries the garment, so «ты можешь просто перекинуть, даже не снимая со штанги».**
+
+### Shoes and accessories in a deep carcass
+
+- **⚠️ Shoes stored two rows deep in a standard deep carcass: stagger them — one set back, one set forward and offset — «и тогда при первом взгляде на шкаф мы сразу видим все пары».** Solves losing shoes in the depth without shallower furniture. [source: [[_Sources/YT_9ZwqMKiMgvc_nsdsgn_storage_organiser_family_flat|YT_9ZwqMKiMgvc]]]
+- **Movable shoe shelves are endorsed, «особенно если вы хотите использовать глубину»** — with a mosaic approach fitting more pairs than the nominal capacity.
+- **⚠️ A width check worth doing before ordering: «не бывают странных размеров — измерьте свои кроссовки, просто и посмотрите».** The rack she praised takes exactly three pairs comfortably.
+- **Jewellery in a shallow pull-out with inserts, giving a top-down view of everything at once — she explicitly rejects multi-drawer jewellery boxes with latches and hooks.**
+- **Glasses: her preference is a drawer rather than visible cases — «во-первых, они не пылятся», and a pull-out shows everything at once.** Recorded as a mild disagreement: the designer prefers wall-mounted transparent cases so he can see them, conceding the visual clutter.
+- **A transparent glass shelf works in a walk-in for displaying accessories — but in the audited hallway it produced an unattractive view, with visibly too little room for hats, gloves, caps and bags.**
+- **Criticised: an open gap at the bottom of the unit, where «в глубине неизвестно что — скорее всего, просто очень много пыли».**
+
 ## Zone Depth
 
 **Clothing zone: 60cm. Shoe zone: 35-40cm, max 45cm — never 60cm.** A 60cm-deep shoe zone invites two-row storage that blocks front-row access, forcing a search through the full depth every time; shoes should sit perpendicular to the wall in a single row instead. Corroborated across two sources. [source: [[_Sources/YT_RyHzFDGgqKA_wardrobe_closet_layout_zones|RyHzFDGgqKA_wardrobe_clo]]]

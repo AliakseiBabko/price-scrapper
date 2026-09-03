@@ -212,6 +212,103 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   concrete: arrive at the end of a stage — all the malyarka, say — and list every
   defect at once.** (b) He extends the same subordination point to the contractor's own
   side: a firm's director should not disrupt the прораб's plan mid-stream either.
+- **⚠️ Green flags — four signals a builder is competent, and the useful one is behavioural
+  (three-designer roundtable via NSDSGN, 2024-08-15, one panellist an ex-прораб).**
+  This page is rich in red flags and had almost nothing on the positive side.
+  (a) **He does not agree to anything straight off the bat and does not sell himself
+  hard.** (b) **He is always booked** — their plumber, phoned three months ahead, offers
+  winter and «не факт», because «мне на моих объектах даже неустойку платят». «Любой
+  хороший специалист — у него всегда очередь, 100%.» (c) **⚠️ He asks to see the object:
+  «если ваш строитель даже не спрашивает "можно мне объект посмотреть" — это уже очень
+  странно».** (d) **⚠️ He estimates slowly and asks questions BACK** — «он берёт паузу,
+  считает и задаёт тебе вопросы: а что вот это? а вот здесь этого не хватает? этой
+  информации в проекте нету — как же мне составить смету?» **The returning questions are
+  the diagnostic, not the estimate.** [source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]]]
+- **⚠️ Two proposed signals the same panel rejects among themselves — recorded as
+  contested so a later session does not adopt them as rules.** **Social-media absence**:
+  one designer calls it a 100% red flag; **the other two reject it outright** — one of
+  their best and most engaged прорабы is unimaginable online. **The builder's car** (an
+  expensive one proving he earned it, or a working van proving he works): raised, and
+  **flagged as odd in the same breath by the panel itself** — «меня пугают заказчики,
+  которые судят дизайнера по его машине». **Age** (a claim that 55–60+ builders cannot
+  keep up with technology) is likewise pushed back on — «всё очень индивидуально», and
+  there are designers doing the same thing for twenty years too.
+- **⚠️ Site visits can be staged — and the best test is inverted (same source).** A shown
+  object may be a showcase object, tidied for your visit, staffed with a crew assembled
+  for the meeting, **or somebody else's object entirely.** **The inverted test: one
+  designer notes he has NEVER had a brigade refuse to walk him onto a live object —
+  while his own clients frequently refuse to let him show their flat to a prospect, and
+  he respects that and shows photographs instead. Conclusion: a builder who walks anyone
+  onto any site without asking the owner will do the same with yours.** «Если ты вот
+  здесь так поступаешь — значит, ты и со мной так же поступишь.» **A red flag derived
+  from consent practice rather than from workmanship.** **Which stage to view: all of
+  them.** Demolition is not uninformative — it shows demolition quality and the
+  «культура ремонта».
+- **⚠️ A capacity question worth asking, with an unresolved divergence (same source):
+  how many objects is this person running concurrently?** Several builders answered the
+  host **«не больше пятнадцати»**; one panellist's own figure is **three or four
+  maximum.** The panel qualifies it by object size and procurement load, so fifteen may
+  not be a lie for simple work — **but the spread is large enough that the answer is
+  informative either way.**
+- **⚠️ Warranty: figures, a red-flag threshold, and a two-category split this page did
+  not have (same source).** **Normal is around 3 years; a stated norm of ~2 years
+  minimum, and «если меньше 2 лет — сразу до свидания, красный флаг»** (some builders
+  write «договор актуален 1 год»). **The split that prevents most disputes: (1) a general
+  ~2-year warranty on ENGINEERING — electrics, plumbing; (2) wear of materials from
+  ordinary living, which is not a warranty matter but local restoration** — a brush
+  touch-up, small patches, floor restoration. **Clients routinely conflate the two, and
+  the modern-material example is matt paint: «салфеточка, и она уже блестит».** Beyond
+  the term, a good прораб still sends someone years later even for an operation error —
+  «кто виноват, тот и платит». **A builder-side incentive worth knowing: he wants his own
+  supervision precisely because he carries the warranty — «если у тебя загорится скрутка,
+  ты будешь в этом виноват».**
+- **⚠️ Escalation when the damage is real, and the first rule is who NOT to use (same
+  source).** For a large defect **stop arguing about blame and bring in qualified
+  experts — and it must not be the designer.** Either the технадзор, or **an inspection
+  company holding the appropriate attestations, which issues a written заключение naming
+  the specific violations.** Then two paths: **negotiate, in which case the contractor
+  also pays for the inspections; or, if he starts evading, go to court with the
+  заключение.** Small defects (3,000–5,000 RUB, ≈$30–$60 at 90.0251 RUB/USD trailing
+  6 months before 2024-08-15) get settled day to day where people cooperate. **Large
+  problems are usually resolved inside the designer–builder link without telling the
+  client — «наоборот, только всё испортишь».**
+- **⚠️ A worked failure case, and the transferable lesson is that the FIRST stage was
+  already diagnostic (same source).** Old fund, city centre, ~200 m², bought to flip. The
+  client used a brigade **because it was a school friend.** Two years in, **~5,000,000 RUB
+  (≈$56,000) paid including materials, effectively ahead of the work** — closed out by
+  stages but paid forward. Work bad throughout. **The trap: the contractors have no money,
+  there is no way to recover it, and the client will not pay twice — so he can neither
+  move in nor sell.** And he will not expel them because they are friends. **The lesson:
+  «стяжку залили через одно место… по сути по заливке стяжки можно было понять, что
+  ребята не квалифицированы, и не допускать их дальше». The screed pour is the first
+  competence gate.** A designer was involved but **in another city**, said something was
+  wrong, and «тянулось, тянулось, терпелось».
+- **⚠️ The dynamic that case illustrates, which is the situation to design against:
+  «все собираются на объекте и все друг на друга показывают» — furniture makers,
+  builders, designer — with the client in the middle.** The panel's position is that a
+  client who has reached that point had the process go wrong much earlier.
+- **⚠️ Client involvement is a decision to make explicitly, not a default (same source).**
+  He asks each client outright: shall we send you the supervision reports, or just the
+  прораб's report once the defects are already fixed? **His view: many clients want
+  immersion and only make it worse for themselves — «трепать нервы, а при этом ничего не
+  меняется»** — while others genuinely gain from it. *(Complements the same channel's
+  stage-end defect-listing rule above.)*
+- **⚠️ The root cause of builder–client conflict, and it is the best structural insight in
+  the source: «чаще всего это возникает из-за того, что у него происходит несоответствие
+  той сметы его ожиданиям».** The antagonism originates in the estimate not matching the
+  прораб's own expectation of the work — **so it is an estimating failure presenting as a
+  personality failure.** «Всё проговаривать на берегу.» He adds that **прорабы have
+  started valuing themselves properly**, and that a client planning to keep one «в хвост
+  и в гриву» daily will simply find that **a прораб who values himself walks.**
+- **Two conduct rules the panel states about itself, worth holding a contractor to:**
+  «если это мой косяк, открыто об этом говоришь; если это чужой — ты не берёшь на себя
+  ответственность за другого человека и тоже даёшь это явно понять», and the limit of any
+  referral — **«мы не в ответе за каких-то других взрослых людей»: a recommendation is
+  not a guarantee.** They also prefer a contractor already worked with, while noting that
+  a fully interlinked chain loses the **противовесы** that independent parties provide.
+- **A further red flag from the same panel: being asked for a large sum in advance.** And
+  **потребительский терроризм** is named both as the reason one panellist left the
+  construction side and as a red flag when a client arrives already in that mode.
 - **⚠️ The cost asymmetry of a late question, with a measured example (Константин
   Цепелев / Матвей Борисов, via NSDSGN, 2024-01-09).** A coordination question was
   raised only **after the countertop had been installed. Fitting the countertop took

@@ -1,0 +1,17 @@
+{
+  "batch": "yourinteriordes_round2",
+  "channel": "ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА (@YourInteriorDes)",
+  "channel_id": "UCoJvM19nhHxfplqcO4wDL4A",
+  "created": "2026-09-03",
+  "triage_doc": "_Inbox/planning/yourinteriordes_channel_triage_20260903.md",
+  "round1_yield": "6 videos, 172 facts, 28.7 facts/video",
+  "round2_scoping_rationale": "Weighted entirely to GUEST formats and to the trades, because Round 1 established that this channel's content is carried by its guests and not by the host. Expect below 28.7.",
+  "fetch_policy": "serialized, ~5-6 min spacing, anonymous, --languages ru ONLY (channel serves auto-translated metadata; ru-only fails loudly rather than silently grabbing a translated track)",
+  "videos": {
+    "SEdNCGA0Ttg": {"status": "pending", "len_min": 70, "tests": "direct sibling of Round 1's best source; contracting, where the vault's pages just gained most"},
+    "yaeQr8Q0tCQ": {"status": "pending", "len_min": 63, "tests": "second dated cost benchmark; 2024 sits in the gap between R1's Dec-2023 ladder and the vault's 2025 tiers"},
+    "xA0pFTLCt5M": {"status": "pending", "len_min": 19, "tests": "the ventilation half of the sequencing dependency R1's ceiling source established"},
+    "cudO-SSdrn0": {"status": "pending", "len_min": 33, "tests": "second of the 4-video storage block, whose head returned 33 - does the block sustain?"},
+    "7DnlE-pl0y4": {"status": "pending", "len_min": 26, "tests": "different lighting guest, shorter format - was the photometric thinness the podcast format or the channel?"}
+  }
+}
