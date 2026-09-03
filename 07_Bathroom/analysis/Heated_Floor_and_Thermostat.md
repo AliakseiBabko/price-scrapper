@@ -99,3 +99,24 @@ Moscow-practice designer, 2024, bathroom guide (`promotional_ratio: medium`, spo
 - **⚠️ The additive item for this page: an electric towel warmer can be recessed into the wall under tile, or under paint, with hooks above the mats so towels dry against the wall.** She offers this specifically as **the answer for small bathrooms with no room for a conventional towel warmer** — a genuinely space-free option this page did not hold.
 
 **⚠️ No prices, no wattages and no coverage figures anywhere in the source** — the recommendation is categorical without any sizing guidance, so pair it with this page's existing sizing content before specifying anything.
+
+## ⚠️⚠️ Perspectives — A Designer Who Deliberately Omitted It, Twice, and Leaves the Question Open
+
+> [!IMPORTANT]
+> **This is a direct dissent from the "always required" position above, from a designer reporting on his own two flats rather than on client work — and he declines to settle it, which is why it is recorded as a Perspectives split.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+**Александр Сенчугов, a year into his own Petersburg flat: «в ванной есть СПОРНЫЙ момент, который я ДО СИХ ПОР НЕ РЕШИЛ, правильно я сделал или неправильно: я в ванной НЕ СДЕЛАЛ ТЁПЛЫЙ ПОЛ.»**
+
+- **His evidence for the omission: «я жил в предыдущей квартире 5 ЛЕТ без тёплого пола и НИ РАЗУ об этом не жалел.»** So two flats, one of them for five years.
+- **His evidence against: «пару раз было, когда у меня было очень мокро на полу, и я думал — если бы я сделал, было бы прикольно, было бы теплее.»** Note the complaint is a **wet** floor, not a cold one.
+- **⚠️⚠️ AND THE MITIGATION THAT RESOLVED IT IN PRACTICE, which is the transferable finding: «я это решал просто ВКЛЮЧИВ ТЁПЛУЮ СТЕНУ, и всё МОМЕНТАЛЬНО ВЫСЫХАЛО.»**
+- He puts the question to viewers rather than answering it, so **it stays open in this vault too.**
+
+**Common ground.** Both practitioners are solving the same two duties — **comfort underfoot** and **drying the room** — and both treat a heated surface as necessary for the second. Neither disputes that a cold, damp bathroom floor is a defect. **The same practitioner elsewhere states the general principle explicitly: mould needs standing water and humid air, and the cure is ventilation plus HEATING the air, «и в этом случае поможет ТЁПЛАЯ СТЕНА ИЛИ ТЁПЛЫЙ ПОЛ»** — either satisfies it. See [[07_Bathroom/analysis/Bathroom_Design_and_Palette|Bathroom Design and Palette]].
+
+**Where they actually differ: which surface carries the heat.** Безверхая treats the floor as mandatory and the towel warmer as an additional requirement; **he finds a heated wall alone sufficient for the drying duty and lives without the floor.**
+
+> [!NOTE]
+> **⚠️ These two positions may be closer than they read, because Безверхая's own recessed-towel-warmer recommendation immediately above IS a heated wall** — «электрический полотенцесушитель можно ЗАМУРОВАТЬ В СТЕНУ под плитку, или под покраску, с крючками выше мата». **She offers it as the answer for a bathroom with no room for a conventional rail; he is using the same device as a substitute for the floor.**
+>
+> **→ Your priority: if the complaint you are designing against is a WET floor, a heated wall is evidenced to solve it and is the cheaper item. If the complaint is a COLD floor underfoot — a tiled floor over an unheated slab, or an insulated balcony where «плита примерзает с торца» — nothing on the wall reaches it, and this vault's other sources are unanimous.** The two duties are separable, and only the first has a wall-mounted answer. Cost and scheduling for both are in the sections above.

@@ -59,6 +59,19 @@ Same fabricator, reacting to viral Chinese furniture-mechanism clips (`promotion
 - **A retracting hob** he dismisses outright — "уезжает, чтобы что?"
 - **"Trolleybus-door" parallel/folding hinge systems**: not seen on the Russian market; plausibly good, needs testing, **and certainly "кратно дороже петель."** They experimented with something similar on very large doors and have "вопросики."
 
+## ⚠️⚠️ Three Cheap Objects That Rescued a Too-Compact Kitchen — and the Compromise That Made It Too Compact (Александр Сенчугов, his own kitchen, 2024-07-04)
+
+**Unusually good evidence: a designer naming the aesthetic compromise he chose knowingly, the ergonomic cost it produced, and the three inexpensive objects he now uses to live with it.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+**⚠️ THE COMPROMISE, admitted outright — equal module widths beat prep space: «правильнее конечно ВАРКУ ДЕЛАТЬ НЕМНОГО ДАЛЬШЕ, но мне хотелось СОБЛЮСТИ КРАСОТУ, чтобы все секции были ИДЕАЛЬНЫЕ, вот эти ПО 60 СМ. И вот это расстояние в готовке конечно МАЛОВАТО.»** So the hob sits too close to the sink because a run of identical 60 cm sections looked better than an uneven one. **This is the cleanest example in this vault of a named aesthetic rule (module regularity) overriding a named ergonomic one (the sink-to-hob prep zone), by a professional, in his own home — worth reading against the prep-zone dimensions on [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing & Ergonomics]].**
+
+1. **⚠️ A PULL-OUT SPRAY MIXER, and he rates it the single best change: the original was a good IKEA satin brushed-steel unit with a separate filtered-water tap, «но он вот так двигается только так и НЕ ВЫНИМАЕТСЯ — вода идёт ТОЛЬКО ВНИЗ». Replaced with the same brand and the same satin metal so «по стилю ничего не изменилось» — even the white hose suited his scheme. «Самый крутой плюс: он вот так ВЫНИМАЕТСЯ, и можно ЗАМЫВАТЬ ЛЮБОЙ УГОЛ МОЙКИ. Мойку можно ЦЕЛИКОМ мыть.» «НАДО БЫЛО КОНЕЧНО СРАЗУ ЕГО БРАТЬ.»**
+   **→ Recommended to everyone, and note the reason is cleaning the SINK rather than filling pots — which is the use case a showroom demonstration never covers, and which connects to the cleaning-effort thesis on [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]].**
+2. **A NATIVE CHOPPING-BOARD OVERLAY that seats INTO the sink, extending the worktop** — «из очень классного материала, такого тёплого, минималистичного». Useful, but the second item displaced it in daily use.
+3. **⚠️ A STAINLESS-STEEL ROLL-UP MAT (ролета) over half the sink — the one he actually reaches for, and the cheapest of the three: «когда вы моете какие-то овощи — вот они здесь кладутся, моются, нарезаются, чистятся. Так ты получаешь ПОЛ МОЙКИ: здесь что-то лежит, здесь моется… и всё СТЕКАЕТ, нет воды, всё смывается.» Dishwasher-safe, «стоит там совсем недорого». «Настолько утилитарные вещи — я реально ПОСТОЯННО ими пользуюсь, я вот вообще не вру.»**
+
+**→ The pattern worth extracting, and it is a useful counterweight to this page's gadget critiques: the two objects that worked are both PASSIVE, cheap, dishwasher-safe and removable — no mechanism, no fixing, no maintenance. The adjustability criterion recorded above is about built-in mechanisms; this is the case for solving a layout deficiency with loose equipment instead, where the deficiency is already built.**
+
 ---
 
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Siblings: [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing & Ergonomics]] · [[03_Kitchen/analysis/Storage_and_Hardware|Storage & Hardware]] · [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]].

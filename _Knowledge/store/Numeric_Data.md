@@ -608,3 +608,46 @@ From the studio's own bill of quantities. **Region unresolved at level 1** (RUB 
 ## ⚠️ Illuminance and Colour-Temperature Figures for a Child's Room — corroborating entry
 
 Recorded in full earlier in this store from the 500lux source; repeated here only as the cross-check that matters: **a child's room never above 300 lux, 200 lux sufficient, colour temperature never above 2700 K and 3000 K at the outside, play area on a track at 250–300 lux.** **These pair low illuminance with warm temperature exactly as the Kruithof relationship (recorded from an unrelated lighting supplier on the same channel) predicts — the rule and its room-specific application converging from different practitioners.**
+
+## ⚠️ Round 4 — NSDSGN figures (2026-09-03)
+
+**Only one price appears across all five sources.** The round is overwhelmingly dimensional and specification data, which is recorded here because those figures are the reusable part.
+
+### The single price
+
+| Item | Figure | USD | Basis |
+| :--- | :--- | :--- | :--- |
+| Smart button (умная кнопка), retail | **~1,500–2,000 ₽** | **≈$20** | Trailing 6-month USD/RUB mean before the confirmed upload date 2024-07-04: **90.5638 ₽/$**, span 2024-01-10..2024-07-04, 120 samples. **Both ends of the rouble range round to the same $20** at nearest-10-below-$1,000, so the range collapses to a single figure. ⚠️ Stated as a recollection — «не помню сколько она стоит, там тысяч полторы, может две» — so treat as an order of magnitude, not a quote |
+
+### ⚠️ Dimensions and specifications, which is where this round's value is
+
+| Figure | What it is | Source |
+| :--- | :--- | :--- |
+| **40 × 100 cm** | **A desk that CANNOT serve a first-year pupil.** The test is an enumeration of what must fit (тетрадь, рабочая тетрадь, учебник, планшет, ручки, пенал, phone) and the specific failure is the TILTED exercise book: «даже вот так сделать просто не получится ФИЗИЧЕСКИ». Closes a dimension gap this vault had explicitly flagged | `RxU4L7ce86E` |
+| **~2 m² each, ~4 m² total plus a small passage** | Personal-space area budget for two children with SEPARATE beds and workspaces, offered as the alternative to a bunk bed — «реально даже для совсем маленькой комнаты» | `RxU4L7ce86E` |
+| **~18–20 / 25–28 / 14–15 cm** | **Upper-cabinet tier heights, offered explicitly for reuse** («давайте я сразу вам покажу размеры, чтобы вы ими могли пользоваться дома»). Bottom niche for cups and glasses, middle for plates, top for rarely-used items — the result of raising the old drainer shelf **15 cm** | `lhikl-7c43c` |
+| **15 cm** | The amount the plate-drainer shelf was raised, which converted a two-tier cabinet into three tiers *and* brought everyday crockery down to the easiest reach | `lhikl-7c43c` |
+| **1 m 10 cm** | Entrance console-shelf mounting height, **set by the bench beneath it rather than by a standing reach** — «садясь на банкетку, ты не бьёшься головой» | `lhikl-7c43c` |
+| **60 cm** | The module width he kept uniform at the cost of the sink-to-hob prep zone — «мне хотелось СОБЛЮСТИ КРАСОТУ, чтобы все секции были идеальные, вот эти ПО 60 СМ» | `lhikl-7c43c` |
+| **1% to 100%** | The dimming range that made a night light usable, **with 1% being the level actually used and the only one that suited.** Weakest lamps, shades and tinting are all named as failed substitutes | `lhikl-7c43c` |
+| **19:00–23:00 / ~19:00–07:00** | **Two night-light schedules with opposite requirements** — bedroom ambience must GO OFF, corridor wayfinding must STAY ON | `lhikl-7c43c` |
+| **~10% RH** | Indoor humidity reading with radiators running, Petersburg winter — the reason a humidifier is in service at all, and why it is a heating-season-only device | `lhikl-7c43c` |
+| **~1 year** | Air-purifier filter life (his had ~150 days left at filming) | `lhikl-7c43c` |
+| **3× a week** | Robot-vacuum schedule, with the scope stated honestly: it maintains between cleans, it does not replace wet cleaning or a vacuum | `lhikl-7c43c` |
+| **83.5 mm** | **Party-wall acoustic build-up depth, Premium М1 system** — usefully thinner than this vault's ≈10 cm ASTic wall assembly, which is a real planning difference in a flat | `AH1INy0i5lU` |
+| **~100 or more freeze-thaw cycles** | Porcelain stoneware's stated tolerance, **against ordinary ceramic tile which «несколько раз замёрзнув и разморозившись, просто ТРЕСНЕТ»** in northern latitudes. `single-account`, `unverified` figure; the porcelain-versus-ceramic frost distinction itself is standard and checkable on any datasheet | `WCoqOCofPx4` |
+| **1,000 vs 20,000 operations** | **Cheapest switch mechanism versus a merely decent one — a 20× difference, and the purchasing criterion is the MECHANISM, not the faceplate material.** «Не самый дорогой, не из мрамора, а из пластика, но с качественным механизмом» | `WCoqOCofPx4` |
+| **10,000 / 20,000 / 100,000 cycles** | **Fabric abrasion bands. ⚠️ He names the index «мерчендей» and hedges it («по-моему»); the ASR garbles it further. It is MARTINDALE — the concept and the bands are right, the name is a recall or transcription error. Recorded with the correction and the flag rather than propagating the garble or silently substituting.** With the rule that CURTAIN fabric carries no such rating at all | `WCoqOCofPx4` |
+| **~6 months** | **The horizon at which a ДСП bed frame is expected to fail** — «ДСП, по сути, это ОДНОРАЗОВЫЙ материал… уже через полгода вам придётся эту кровать выкинуть». Reliable frames: фанера, МДФ, металл | `WCoqOCofPx4` |
+| **~6 months** | Also the interval at which a NEW-BUILD water strainer visibly rusts — offered as a check anyone can run rather than a claim to accept | `WCoqOCofPx4` |
+| **~2 months** | How long clear glass lamp shades took to become fully dust-covered, with a **measurable output loss** once he removed them: «света тоже стало гораздо больше, потому что эти пыльные плафоны очень сильно изолировали свет» | `WCoqOCofPx4` |
+| **~1 year** | **The useful life of a character-specific mural or scheme in a 6-year-old's room, with SCHOOL ENTRY as the break point** — «в 7 он пойдёт в школу, и у него ПОМЕНЯЕТСЯ МЫШЛЕНИЕ» | `RxU4L7ce86E` |
+| **Every ~6 months (age 1–3); at least every 2 years (schoolchild)** | **Children's-furniture replacement cadence, and the strongest argument in this vault against expensive built-in nursery joinery** | `RxU4L7ce86E` |
+| **20 minutes** | Sleep-onset norm, cited against character and vehicle beds | `RxU4L7ce86E` |
+| **~2 days vs ~1 week** | **⚠️ DIVERGENT, RECORDED AS A RANGE.** How long an air conditioner can be off in Dubai before mould covers the flat — two days in the 2022 source, a week in the 2026 one. Same practitioner, both hearsay from builders there, a 3–5× spread. Direction consistent, magnitude not established | `CSpXvPWpsgQ`, `WCoqOCofPx4` |
+| **up to ~3.5 bar** | Working water pressure ceiling — **already in this store from the 2023 source; repeated here only because the 2026 retelling adds that exceeding it is a WARRANTY-VOIDING condition, not merely a failure risk** | `WCoqOCofPx4` |
+
+[sources: [[_Sources/YT_RxU4L7ce86E_nsdsgn_child_psychologist_kids_rooms|YT_RxU4L7ce86E]], [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]], [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]], [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]], [[_Sources/YT_AH1INy0i5lU_nsdsgn_soundproofing_premium_object|YT_AH1INy0i5lU]]]
+
+> [!NOTE]
+> **⚠️ Conversion basis note.** Only one figure in this round required conversion, and it is a recollection rather than a quote. **No historical figure in this round was converted at a spot rate**, per the standing rule. The 2026-04-14 source contains no prices at all, which is worth recording because it is a 33-minute systematic framework video — **the absence is a property of the format, not an oversight in extraction.**

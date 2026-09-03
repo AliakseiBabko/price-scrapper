@@ -260,6 +260,52 @@ household (young children, open-plan living space):
 2. **⚠️ «Мы не стоим на месте»: the number of occupants can change and life interests change, so the flat will change with each such change — «и если вы будете жалеть, потому что что-то не предусмотрели заранее, вы каждый раз будете разочаровываться».** **This is the same argument as this page's life-stages principle, arriving from the client's emotional side rather than the planner's.**
 3. **If a mistake cannot be fixed, or is financially unbearable, «не отравляйте себе жизнь — не надо жалеть о ней; это будет хороший повод не совершить её в следующем интерьере».**
 
+### ⚠️⚠️ Where the Unmet Expectation Comes From — a Brief Built From Images, and a Test That Fixes It
+
+**The section above frames disappointment as unmet expectation. This names where the expectation is manufactured, and it is the single most reusable finding of this intake round — because three separate failures on this vault turn out to share one cause.** Clinical psychologist Наталья Степанова, interviewed by Александр Сенчугов. [source: [[_Sources/YT_RxU4L7ce86E_nsdsgn_child_psychologist_kids_rooms|YT_RxU4L7ce86E]]]
+
+**The mechanism: «люди иногда думают, что им это ПОНРАВИТСЯ. Например, они побывали на ОТДЫХЕ, и там всё было в средиземноморском стиле, и потом думают: о, класс, надо бы дома такое же. Они АССОЦИИРОВАЛИ… галька морская, камни разложены. НО КОГДА ОНИ ПРИЕЗЖАЮТ ДОМОЙ, ИХ БЫТ ЭТОМУ НЕ СООТВЕТСТВУЕТ. Или они посмотрели в сериале, или на YouTube у какого-то БЛОГЕРА — вот он живёт вот так — и им кажется, что им тоже это понравится.»**
+
+**⚠️ Her conclusion: «очень часто люди хотят что-то НЕ ПОТОМУ, ЧТО ОНИ В ЭТОМ ПРОЖИЛИ, ПОПРОБОВАЛИ и им это нравится, а потому что ПОДУМАЛИ, что должно быть хорошо — есть ОБРАЗ, который они где-то СЛУЧАЙНО ЗАМЕТИЛИ. И очень часто он НЕ СОВПАДАЕТ С ПОСЛЕДУЮЩЕЙ ЖИЗНЬЮ, и потом всё это просто ПУСТУЕТ, ПРОСТАИВАЕТ.»**
+
+> [!IMPORTANT]
+> **⚠️ THIS IS THE ROOT CAUSE OF THREE SEPARATELY-RECORDED FAILURES, ALL FROM THE SAME CHANNEL:**
+>
+> 1. **The gym and the home cinema nobody uses** — «заказчики очень часто ВЫДАЮТ СВОЁ ВИДЕНИЕ ИДЕАЛЬНОЙ ЖИЗНИ В КВАРТИРЕ ЗА РЕАЛЬНОСТЬ и потом просто не пользуются этой функцией» (see the "one room short" item below).
+> 2. **The white gloss poured floor taken from an interior magazine** — whose own author later told him it looked good for exactly one week, the week it was photographed. On [[13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection|Flooring Material Selection]].
+> 3. **The part-tiled painted bathroom taken from Pinterest** — «одно дело красивая картинка из Пинтереста, а другое дело ваша жизнь: каждодневное умывание». On [[07_Bathroom/analysis/Bathroom_Design_and_Palette|Bathroom Design and Palette]].
+>
+> **One cause: a requirement adopted from an image rather than from lived experience. And note the vault's render-cannot-justify-an-upgrade rule and its "a photograph cannot tell you about functional light" rule are the same finding arrived at from the materials and lighting sides.**
+
+**⚠️⚠️ THE ANTIDOTE SHE OFFERS, and it is concrete enough to run as a briefing exercise — the hotel-room test: «я когда номера в отеле смотрю, я ЗНАЮ, что вот этот номер — мне в нём будет хорошо, ПОТОМУ ЧТО В НЁМ ЕСТЬ вот это, вот это и вот это; и около отеля есть вот это; А ВОТ ЭТО МНЕ НЕ ПОДОЙДЁТ, я плохо проведу время.»**
+
+- **→ Ask the client to enumerate, from stays they have actually had, what made a room work and what made one fail. The output is a list of attributes drawn from experience rather than from imagery — which is exactly the input the storage-briefing method above needs, and it works for someone who has never lived in the flat being designed.**
+- **⚠️ Her framing of why most people cannot do this unprompted: it is the developmental task of adolescence and not everyone completes it. «Подросток зачем экспериментирует? Он пробует — а что мне вообще подходит: чёрная, зелёная, красная, фиолетовая, КАКОЙ Я ВООБЩЕ. И хорошим выходом из подросткового возраста должно быть ПОНИМАНИЕ, КАКОЙ Я: я знаю, что мне подходит, что мне удобно, и я знаю, что мне НЕУДОБНО.»**
+
+#### ⚠️ "I moved in and my taste had already changed" — and the design conclusion is a portfolio one
+
+A viewer question the same source answers: the renovation took a year or eighteen months, you move in, and you are already sad in the flat.
+
+- **Her first answer reframes it as growth rather than error: «относиться к этому как к ЛИЧНОСТНОМУ РОСТУ… если людям как 20 лет назад нравилось это, и сейчас нравится это, то это о том, что человек ОСТАНОВИЛСЯ В РАЗВИТИИ».** Her own illustration: «раньше мне нравился ДЖАЗ, сейчас — ФОЛК. Это не о том, что джаз лучше, а о том, что я РАЗВИВАЮСЬ.»
+- **⚠️⚠️ THE DESIGN CONCLUSION, and it is a decision rule rather than a preference: «любые РАДИКАЛЬНЫЕ решения в дизайне — это как у подростков, у них всё такое радикальное, И ПОЭТОМУ ИМ БЫСТРО ЭТО НАДОЕДАЕТ. Если ты делаешь АВАНГАРДНЫЙ дизайн, то будь готов: если у тебя НЕ ОДНА квартира, ты можешь так делать и менять абсолютно; ЕСЛИ У ТЕБЯ ОДНА КВАРТИРА, то всё-таки надо делать более timeless дизайн, который будет МЕДЛЕННЕЕ УСТАРЕВАТЬ.»**
+  **→ Radical design is a portfolio decision, not a taste one: defensible across several properties, not with one. And the adolescent analogy supplies the mechanism the vault's various timeless-design recommendations assert without explaining — radical choices sate quickly, which is a property of the viewer rather than of the fashion cycle.**
+  **⚠️ This also reinforces the same channel's reversibility rule from the designer side: «все КАПИТАЛЬНЫЕ КОНСТРУКЦИИ лучше делать только если СТО ПРОЦЕНТОВ в этом уверены» — a bed podium level with the windowsill, a princess's castle, plasterboard shapes and butterflies on the ceiling all require destroying the room to undo.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
+#### ⚠️ "One Room Short", and Its Mirror Image
+
+- **⚠️ The observation, stated as invariant across his whole career: «СКОЛЬКО Я РАБОТАЮ, СТОЛЬКО СУЩЕСТВУЕТ ЭТА ПРОБЛЕМА: если заказчики купили ДВУХкомнатную квартиру, им обязательно не хватит ТРЕТЬЕЙ; даже если у них ДЕСЯТИкомнатная квартира, им не будет хватать ОДИННАДЦАТОЙ.»** **→ Treat "we need one more room" as a constant rather than as information: it does not indicate the flat is too small, and satisfying it does not remove it.**
+- **Consequence: one room will carry double duty** — кухня-гостиная, кабинет-гостевая, or a nursery that later becomes two.
+- **⚠️ AND THE MIRROR-IMAGE REGRET, which is the same error inverted: «заказчики ЖАЛЕЮТ о том, что СОЗДАЛИ комнату, которая НИКАК НЕ ИСПОЛЬЗУЕТСЯ — это может быть СПОРТЗАЛ или КИНОТЕАТР.»** «Фантазии прекрасной жизни в будущей квартире — это классно, но постарайтесь немножко ПРИЗЕМЛИТЬСЯ и думать материальными категориями и функциями, которые вы РЕАЛЬНО будете использовать.» **Root cause per the mechanism above.**
+- **⚠️ A related failure worth keeping because the remedy is unusual: a room can also fail for lacking ATTRACTION rather than function. After ten years in a townhouse, clients asked him to redesign the nursery because the child was always in the ground-floor living room — «мы ПОВЫСИЛИ ПРИВЛЕКАТЕЛЬНОСТЬ детской, сделали там крутой дизайн, чтобы ребёнку было интересно тусоваться именно у себя».** ⚠️ **The psychologist in the same round, asked about an almost identical case, rejects this reading — see the Perspectives split on [[05_Kids_Room/analysis/Common_Mistakes|Kids Room: Common Mistakes]] before applying it.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
+#### ⚠️ The Objects That Never Reach the Brief — a Named List
+
+**The concrete form of the storage-briefing problem above, and the list is the useful part because it is short and checkable.** «Некоторые предметы, которые НЕ ОБСУЖДАЛИ во время дизайн-проекта, ПРОЯВЛЯЮТ СЕБЯ УЖЕ ТОЛЬКО ВО ВРЕМЯ ЖИЗНИ в квартире»: **сушилка, робот-пылесос, туалет для кота, поилочка, гладильная доска, кофе-машина, чайник.**
+
+- **The reported case: clients complained the bathroom laundry basket had never been planned and ended up «НА САМОМ ВИДНОМ МЕСТЕ».**
+- **⚠️ His remedy is the right shape and generalises: «если вещь НЕ СПРЯТАТЬ — давайте делать НА НЕЙ АКЦЕНТ.»** A deliberately handsome coarse-jute basket becomes an accent instead of a defect. **→ Three outcomes for an unlisted object, not two: conceal it, promote it deliberately, or leave it as a visible defect. Only the third is a failure.**
+- **⚠️ THE RULE: «ВСПОМНИТЕ И ЗАПИШИТЕ предметы, которыми вы ПОСТОЯННО ПОЛЬЗУЕТЕСЬ, и подумайте о их МЕСТОПОЛОЖЕНИИ во время дизайн-проекта.»** Two of the listed objects have documented siting consequences elsewhere in this vault — the cat tray under a vanity on [[07_Bathroom/analysis/Shelving_and_Furniture|Bathroom: Shelving and Furniture]], and the robot vacuum's dock on [[12_Engineering_and_Systems/analysis/Electrical_Key_Concepts_and_Planning|Electrical: Key Concepts and Planning]]. [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
 ## Named Principles — Hotel-vs-Home, Life Stages, Compression and Release
 
 ### ⚠️ Two Compatible-but-Distinct Hotel-vs-Home Arguments (Игорь Краснов, added 2026-09-01, Round 2)

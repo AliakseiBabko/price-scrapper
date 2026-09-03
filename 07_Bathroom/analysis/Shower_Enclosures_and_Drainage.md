@@ -93,6 +93,18 @@ From her "красиво но нереализуемо" gallery. [source: [[_Sou
 - **⚠️ Her fix where one must sit against a wall: there are baths that read as free-standing but have a flat back that abuts it. Use those.**
 - **⚠️ And the podium warning: too little tread beyond the bath edge means you step out onto a narrow ledge with nowhere for a non-slip mat — "можно просто убиться."** Her positive counter-example is deliberately an ugly picture: **a ribbed non-slip podium, the floor mixer standing clear with access all round, and access to the bath.**
 
+## ⚠️⚠️ Two Post-Occupancy Failures — Corner Doors, and a Podium Built Too Low (NSDSGN, 2022-09-20)
+
+**Reported by clients living in his interiors at 3-10 years, so these are outcomes rather than predictions.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
+- **⚠️ TWO DOORS MEETING AT THE CORNER is named the worst of all enclosure configurations, and the mechanism is continuous rather than occasional: «самые неудобные из них — это ДВЕ ДВЕРИ НА УГЛУ душевого ограждения. Заказчики жалуются, что когда вы их ЗАКРЫВАЕТЕ, то по ним постоянно ТЕЧЁТ ВОДА; когда вы ОТКРЫВАЕТЕ — у вас постоянно ЛУЖА, и это супер неудобно.»**
+  - **«Не используйте угловые двери в душевой, если это возможно»** — with the honest caveat that an enclosure «это каждый раз какая-то отдельная история, и каждый раз к этому нужно подходить индивидуально».
+  - **→ This is a distinct failure from the bottom-seal omission recorded above: the seal problem is water escaping *while* showering; this is water shed off the leaves *after*, every time, by design. No seal fixes it.** It compounds with the shower-stall clearance sensitivity noted above, since corner doors are usually chosen precisely where clearance is tight.
+- **⚠️ A BATH OR SHOWER PODIUM BUILT TOO LOW, so the water does not leave: «я часто слышу об этой проблеме, когда ванну или душевой подиум недостаточно высоко делают, и вода просто НЕ УХОДИТ. Бывает так, что она просто ОСТАЁТСЯ НА ДНЕ ВАННОЙ.»** He confirms meeting it in real projects.
+  - **⚠️ His remedy names supervision explicitly, which is unusual and useful: «если вы НЕ ДОВЕРЯЕТЕ вашему сантехнику, то найдите того, кто реально это умеет — ну или найдите того, кто будет СЛЕДИТЬ за вашим сантехником и ПРОВЕРИТ ВСЕ УКЛОНЫ И ПЕРЕПАДЫ».** See [[11_Budget_and_Planning/analysis/Technical_Supervision|Technical Supervision]].
+  - **⚠️ AND THE COST ASYMMETRY THAT MAKES IT WORTH SUPERVISING, which is the argument to give a client: «в противном случае, когда ремонт уже закончен, ПЕРЕДЕЛЫВАТЬ ИНЖЕНЕРИЮ — это просто АД: вам придётся сломать ВСЮ ВАШУ ВАННУ, ВСЕ СТЕНЫ и делать всё заново.»**
+  - **⚠️ The trade-off he names as the cause is the important part, because it identifies the decision that produces the fault: «НЕ ГОНИТЕСЬ ЗА НИЗКОЙ ванной или душевым подиумом, ПРЕНЕБРЕГАЯ ИНЖЕНЕРИЕЙ.»** The low threshold is an accessibility and appearance goal that competes directly with the fall the drain needs — read against the slope figures and linear-drain comparison above, which is where the height budget actually comes from.
+
 ## Pebble-Floor Technical-Gap Cover, Satellite Home-Office Shower, and an Oversized Shower-Cabin Rule (Игорь Краснов, real projects, added 2026-09-02, Round 8)
 
 Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]

@@ -100,6 +100,61 @@ partition-scoped topic rather than an age-staging one, kept off this
 page to avoid duplicating content across both pages. Full detail in the
 [[_Sources/YT_AofVi5k45ps_zlobin_kids_room_theory_age_stages|source extraction note]].
 
+## A Clinical Psychologist's Four-Interval Replacement Schedule (Наталья Степанова)
+
+**The first source on this page from a clinician rather than a designer
+or architect** — Наталья Степанова, clinical psychologist, 20 years in
+child and adult psychotherapy, director of a psychological centre,
+interviewed at length by designer Александр Сенчугов. Her framework is
+not organised around what a child can reach but around **what changes in
+the child's mode of activity**, and it is the only one here that names an
+interval as *mandatory* to change:
+
+- **~1 to 5 years** — one interior throughout. «Полочки нужно закрывать,
+  но это не так принципиально.»
+- **⚠️ 5 → 7 must change**, and she gives the reason: «там ДРУГАЯ СИСТЕМА
+  ИГР у ребёнка — принципиально ему нужно другое пространство: больше
+  места, больше самостоятельной игры, больше места для творчества».
+- **7 → adolescence** — «принципиально другой интерьер, потому что он в
+  школу пошёл, ему другое рабочее место надо».
+- **Adolescence** — different again.
+
+**⚠️ She states a separate furniture-replacement cadence, which is faster
+than any figure elsewhere on this page**: for a child of 1-3 years,
+furniture «должна меняться чуть ли не каждые ПОЛГОДА»; for a
+schoolchild, «хотя бы раз в 2 ГОДА она всё равно должна немножко
+меняться в зависимости от его потребностей».
+
+> [!IMPORTANT]
+> **⚠️ This is in genuine tension with the "design for ~10 years"
+> infrastructure rule on [[05_Kids_Room/analysis/Age_Staged_Planning|Age-Staged
+> Planning]], and the tension is productive rather than a contradiction.**
+>
+> The designers on that page argue for specifying an unchanging base for
+> the oldest future occupant. The psychologist argues the *contents*
+> change on a much shorter cycle than that base. **Both hold if the split
+> is made explicit: infrastructure (sockets, lighting positions, wardrobe
+> carcass, floor) to a ~10-year horizon; furniture and surface treatment
+> to the 5 / 7 / adolescence breakpoints.**
+>
+> **→ The practical consequence is an argument against expensive built-in
+> joinery in a nursery**, which no other source on this page makes.
+
+**⚠️ The mural-lifespan finding, which puts a number on a decision
+designers make constantly.** Asked about a large painted robot character
+in a 6-year-old's room, she declined the psychiatric objection another
+psychologist had raised (see
+[[05_Kids_Room/analysis/Common_Mistakes|Common Mistakes]]) and raised a
+lifespan objection instead: **that scheme is «примерно на ГОД», because
+«в 7 он пойдёт в школу, и у него ПОМЕНЯЕТСЯ МЫШЛЕНИЕ… он будет считать,
+что он из него вырос, и будет или расстраиваться, или СТЕСНЯТЬСЯ
+ПРИГЛАШАТЬ ТУДА ДРУЗЕЙ».** Her illustration is a good test to apply to
+any character-specific scheme: a 6-year-old given a ticket to «Красная
+шапочка» is delighted; a 7-year-old «вас не сильно поблагодарит — и
+будет в общем-то прав». **School entry is the break point.**
+
+[source: [[_Sources/YT_RxU4L7ce86E_nsdsgn_child_psychologist_kids_rooms|YT_RxU4L7ce86E]]]
+
 ---
 
 Part of [[05_Kids_Room/analysis/Age_Staged_Planning|Age-Staged Planning]].

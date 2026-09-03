@@ -107,6 +107,27 @@ Full treatment, with the furniture-specific consequences, on [[14_Furniture/anal
 
 ---
 
+### ⚠️⚠️ Fabric Abrasion Rating — and Curtain Fabric Has None (Александр Сенчугов, 2026-04-14)
+
+**The quantitative layer this section was missing, plus one rule that forbids a substitution a designer would plausibly make for the sake of a matching scheme.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+- **The index and its bands: «есть такой показатель… это СТЕПЕНЬ ИЗНОСОСТОЙКОСТИ ткани, то есть сколько раз можно на неё, грубо говоря, ПРИСЕСТЬ, сколько она выдержит. Есть показатель 10.000, 20.000, 100.000.»**
+  > [!NOTE]
+  > **⚠️ He hedges the name («по-моему») and the transcript garbles it as «мерчендей». The index he describes is the MARTINDALE test (циклы Мартиндейла), and 10,000 / 20,000 / 100,000 cycles are its standard bands — so the concept and the figures are right and the name is a recall or transcription error. Recorded with the correction and the flag rather than propagating the garbled term or silently substituting the right one.**
+- **⚠️⚠️ THE RULE: «этого показателя НЕТУ, например, у ШТОР. Ткань для КРЕСЕЛ, для ДИВАНОВ, для КРОВАТЕЙ отличается именно по износостойкости от штор. И ткань от штор, если она просто вам понравилась, очень красивая, и вы хотите использовать её и на КРОВАТИ, и на ДИВАНЕ — так НИ В КОЕМ СЛУЧАЕ нельзя делать, потому что она МОМЕНТАЛЬНО будет ИСПОРЧЕНА.»**
+  **→ Curtain fabric carries no abrasion rating because it is never sat on. Matching upholstery to curtains by using the same cloth is the specific error, and it is an attractive one precisely because it produces a coherent scheme.** Cross-reference [[17_Design_and_Ergonomics/analysis/Curtain_Fabric_Colour_and_Pattern|Curtain Fabric, Colour and Pattern]].
+- **⚠️ Anti-vandal fabrics, and where he says they are actually standard: «для интерьера ПОД СДАЧУ, или если у вас есть домашние животные с огромными когтями — надо использовать АНТИВАНДАЛЬНЫЕ ткани. В ЛЮБОМ ОТЕЛЕ, в любой квартире под сдачу используются именно антивандальные ткани.»** His own case against optimism: «я НИКОГДА НЕ ПРОЩУ своему КОТУ дорогие итальянские ШТОРЫ, которые через несколько НЕДЕЛЬ уже были немножко зацарапаны и покоцаны».
+- **⚠️ Natural fabrics behave like natural stone and wood: «все натуральные ткани гораздо быстрее СТАРЕЮТ, ВЫЦВЕТАЮТ и теряют внешний вид. Но когда они новые, они выглядят совершенно по-другому.»** Which is exactly this section's own point that fabric can lift or cheapen a frame — **stated as a time-dependent property rather than a fixed one.** The full natural-versus-artificial argument, including the counter-case for letting materials age, is on [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]].
+- **⚠️ And a candid non-answer worth keeping, because it marks the limit of the advice: a client's dog ATE the rug they had spent months choosing. «Я, честно говоря, НЕ ЗНАЮ, КАК ЭТОГО ИЗБЕЖАТЬ, но, наверное, тоже покупать самые практичные ковры.»**
+
+#### ⚠️ Frame material — ДСП is a single-use frame, with a named failure horizon
+
+- **«Очень часто в погоне за дешёвыми материалами — "я же всё равно эту квартиру буду СДАВАТЬ" — вы покупаете самую дешёвую кровать, у которой каркас сделан из ДСП. ДСП, по сути, это ОДНОРАЗОВЫЙ материал. Уже через ПОЛГОДА вам придётся эту кровать ВЫКИНУТЬ и купить новую, потому что ДСП просто РАЗВАЛИТСЯ.»**
+- **⚠️ «Самые надёжные каркасы — из ФАНЕРЫ, из МДФ, из МЕТАЛЛА. Обязательно обсудите это с МЕНЕДЖЕРАМИ при покупке мягкой мебели.»** A concrete question to ask at the point of sale, where the frame is invisible and the fabric is what is being shown. **This is the same "comfort beats looks because of repairability" logic already recorded on this page, pushed one layer further in: a frame that disintegrates cannot be reupholstered at all.**
+- **⚠️ Hinges, for any cased piece: «когда появляются СКРИПЫ, основная проблема — это НЕ ВЕС фасада, это не проблемные петли, даже если они не очень дорогие — это ИХ КОЛИЧЕСТВО. Если вы поставите просто БОЛЬШЕ петель, даже если они простые, то вес РАВНОМЕРНО РАСПРЕДЕЛИТСЯ и они проживут гораздо дольше. Если петли очень дорогие, очень крутые, то их можно использовать МЕНЬШЕ. Но обязательно РАССЧИТАЙТЕ НАГРУЗКУ.»** **→ Hinge quantity substitutes for hinge quality, which is a genuinely useful budget lever — the money is better spent on count than on brand.**
+
+---
+
 ### "Детскость" — the Disqualifier She Names Most Often
 
 **A childish note in a piece disqualifies it from an adult living or dining zone** — fine in a kids' room, wrong in a restrained interior. She raises this as a characteristic weakness of the Russian furniture market specifically, in both the sofa and chair videos: a shortage of "обычных брендов для взрослых серьёзных людей."

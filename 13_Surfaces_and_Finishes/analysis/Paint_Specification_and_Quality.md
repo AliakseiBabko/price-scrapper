@@ -90,6 +90,36 @@ This is the most reusable structure in the source, and it extends this page's ex
 - **⚠️ The wet-room boundary they actually draw, which is the practical part**: for **direct water contact** (the shower itself) they still recommend classical tile, **but in a humid room where splashes reach the wall — their example is beside a basin — this material is unaffected.** Splash-adjacent yes, shower enclosure no. **New to this page**, which previously treated wallpaper and wet areas as simply incompatible.
 - **⚠️ Her own designer recommendation, inserted against the supplier's pitch and consistent with this vault's accent-wall guidance: do not wrap a whole apartment in expensive wallcovering.** Paint neutrally, then make **one accent** in something like a premium natural-material covering (bamboo, water-lily, palm leaf, largely handmade) — it reads expensive and is unlikely to be duplicated. **This is a designer declining to upsell inside a sponsored segment, which is why it is worth recording.**
 
+## ⚠️⚠️ Why Matte Paint Cannot Be Washed — the Physical Mechanism, and Two Occupancy Cases
+
+**This page's gloss ladders say which sheen resists washing better. It did not say what actually happens when you wash a matte wall, and the mechanism is the reason the ladder matters.** Designer Александр Сенчугов, 20 years' practice, states it as physics and it is correct — it is burnishing:
+
+- **⚠️ «Матовая краска МОМЕНТАЛЬНО ПРЕВРАЩАЕТСЯ В ГЛЯНЦЕВУЮ там, где вы её протёрли. Ну так устроены физические процессы: матовая краска, если смотреть под микроскопом, имеет небольшую ШЕРОХОВАТОСТЬ. Каждый раз, когда вы её протираете, эта шероховатость уходит, и поверхность становится глянцевой. Поэтому на матовых покрытиях те места, которые вы моете тряпками, становятся такими ГЛЯНЦЕВЫМИ ПЯТНАМИ. Это очень некрасиво смотрится.»**
+  **→ So the failure of a washable matte is not that the dirt stays — it is that the WASHING leaves a permanent mark of its own. That makes it unfixable by better cleaning, and it explains why the damage accumulates exactly at the spots that get touched.**
+- **⚠️ THE RULE THAT FOLLOWS, and it sets a boundary the ladders above do not: «постарайтесь НЕ использовать УЛЬТРАМАТОВУЮ краску. Её обычно используют только для ПОТОЛКОВ — вот как часто вы моете потолок? А стены всё-таки приходится иногда вытирать.»** Ultra-matte is a ceiling product, and the test is wash frequency rather than appearance.
+- **⚠️ And it is one instance of a broader thesis from the same source that reframes the whole practicality question: «между уборкой, практичностью и долговечностью есть ПРЯМАЯ СВЯЗЬ. Чем ЧАЩЕ вы убираетесь, тем БЫСТРЕЕ вы РАЗРУШАЕТЕ интерьер.»** Cleaning is itself a wear mechanism, so the objective is a surface that **needs** less washing rather than one that tolerates it. See [[13_Surfaces_and_Finishes/analysis/Material_and_Finish_Technique|Material and Finish Technique]].
+
+[source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+### Two reported outcomes from clients living in his interiors, four years earlier
+
+**These are the cases the mechanism above explains, and they arrived first — from clients at 3-10 years' occupancy, so they are outcomes rather than predictions.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
+1. **⚠️ Very marking WHITE walls — and the client explicitly ruled out the colour as the cause: «вопрос даже не в белом цвете стены, вопрос именно в КРАСКЕ — она была недорогая, они сэкономили на краске, и каждое касание было на них видно, но при этом ОТМЫТЬ это было НЕВОЗМОЖНО».** **This is the four-mechanisms argument above arriving as a lived outcome rather than a prediction.**
+   **⚠️ How it was resolved, and the remedy is worth keeping because it is achievable after the fact: «они просто ЗАКАТАЛИ ВСЕ СТЕНЫ ДЕКОРАТИВНОЙ ШТУКАТУРКОЙ, и проблемы просто ИСЧЕЗЛИ.»** The same practitioner recommends decorative plaster as a wear layer over paint generally — see [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative and Specialty Wall Finishes]].
+2. **⚠️ A BLACK wall: «любое касание — вы слегка задели стену, и сразу же остаётся СВЕТЛАЯ ПОЛОСКА, причём отмыть это было уже невозможно: появлялось какое-то белое МЫЛЬНОЕ ПЯТНО». Cause, named at the time without the mechanism: «всё дело было именно в МАТОВОЙ КРАСКЕ, которую невозможно было отмыть».** **The "white soapy patch" is precisely the burnished gloss patch described above** — the vault now holds the case and the physics from the same practitioner four years apart.
+
+> [!IMPORTANT]
+> **⚠️ This QUALIFIES this page's existing "light paint is more practical than dark" rule rather than contradicting it — because the two directions fail by DIFFERENT mechanisms, and both fail.**
+>
+> «**Тёмные стены либо светлые стены — это очень маркий момент**, и к нему нужно подходить очень деликатно.» **Dark walls show abrasion as LIGHT streaks (material removed or burnished); light walls show dirt TRANSFER (material added).** The structural argument on this page for light paint concerns how a scuff reads against the substrate colour, and it still holds — but it should not be read as "white is safe". **The variable that decides both cases is the sheen and the paint's quality, not the lightness.**
+>
+> **⚠️ And a third failure this page did not have, on the same wall plane: «ОТКОС ОТКРЫТОЙ ДВЕРИ — если коснуться уголка, то появляются СКОЛЫ, а под ними БЕЛАЯ ГРУНТОВКА, и отделаться от этого было просто невозможно.»** A chipped arris exposing white primer is unrepairable by touch-up because the substrate colour shows through the damage — which is the argument for protecting external corners physically rather than specifying a better paint. See [[13_Surfaces_and_Finishes/analysis/Decorative_Wall_Panels|Decorative Wall Panels]].
+
+**⚠️ THE SPECIFICATION HE GIVES: «правильный выбор краски — она должна быть ПОЛУГЛЯНЦЕВАЯ или даже ГЛЯНЦЕВАЯ, она должна легко мыться.»** Stronger than the ladders above, which put eggshell (~15%) at the practical end — **worth recording as a dissent toward more sheen rather than treating it as agreement.**
+
+**⚠️ And a procedural recommendation this page did not have: «я бы посоветовал ОБСУДИТЬ [выбор краски] с вашим МАЛЯРОМ, потому что ему впоследствии ОТВЕЧАТЬ за эту стену и делать какой-то ремонт — если, конечно, у вас нормальный маляр и он несёт ГАРАНТИЮ за ваш ремонт.»** **→ The person carrying the warranty on the wall has a direct interest in the paint's washability, which makes him a free and well-motivated reviewer of the specification.** Also plan the cleaning agents at the same time: «хороший дорогой ремонт можно очень быстро испортить какими-то — не то что плохими, а просто НЕПОДХОДЯЩИМИ под ваши материалы — средствами».
+
 ---
 
 Part of [[13_Surfaces_and_Finishes/analysis/Wallpaper_and_Paint_Application|Wallpaper and Paint Application]].

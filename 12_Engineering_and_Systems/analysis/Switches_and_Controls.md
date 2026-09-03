@@ -181,6 +181,36 @@ match the walking path, not panel geometry. `single-account`. [source: [[_Source
 
 **Related placement rule from the same source**: don't scatter the worktop-light switch across the backsplash separately from the outlets — put it in the same frame, on the same line ("не мельтешить по всему фартуку").
 
+### ⚠️ A Designer's Flat Rejection of Motion Sensors, and What He Uses Instead (Александр Сенчугов)
+
+**Recorded as a dissent, because motion sensors are usually recommended for exactly the locations he refuses them in** — corridors and bathrooms — and because the Ontario reliability caution already on [[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]] is about false triggering, whereas this objection is about the interaction itself:
+
+- **«Я НЕНАВИЖУ ДАТЧИКИ ДВИЖЕНИЯ — вот это всё МАХАНИЕ РУКАМИ, чтобы они включились. А управление голосом очень удобное.»**
+- **⚠️ But he states the honest limitation of his own preference in the same breath: «единственное, раздражает, когда много его нужно включать-выключать — и для этого используется СЦЕНАРИЙ.»** So voice control alone does not scale either; it scales only with scenes. See the scene reconciliation below.
+- **→ This lines up with Кузина's distinction above rather than contradicting it: a deliberate gesture at a fitting is acceptable, an ambient detector that has to be coaxed is not.** `single-account`. [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+## ⚠️⚠️ Switch Mechanism Cycle Life — 1,000 vs 20,000 Operations, and a Fire
+
+**The most consequential safety item on this page, and it comes with a diagnostic signature.** Designer Александр Сенчугов, 20 years' practice. [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+- **⚠️ THE FIGURES, and the purchasing criterion they imply: «самый дешёвый выключатель выдержит у вас там 1.000 НАЖАТИЙ, а если вы покупаете просто качественный — не самый дорогой, не из мрамора, а из ПЛАСТИКА, но с КАЧЕСТВЕННЫМ МЕХАНИЗМОМ — выдержит 20.000 НАЖАТИЙ и прослужит гораздо дольше.»** A 20× difference.
+  **→ The criterion is the MECHANISM, not the faceplate material — which is a genuinely useful separation, because the visible half is what price is usually judged on. This page's plate-colour sections above are about the visible half; this is about the half that fails.** `single-account`, `unverified` figures.
+- **⚠️ Where economising IS acceptable, stated precisely: «можно экономить на механизмах, которые находятся ЗА ТЕЛЕВИЗОРОМ, которые не видно — можно купить попроще. Но НЕ надо покупать самые дешёвые.»** So the trade is by operation count and visibility, not a blanket rule.
+- **⚠️⚠️ THE FIRE, and the precursor is the part worth memorising: «на прошлой квартире я лежу дома, СПЛЮ, и тут у меня ВКЛЮЧАЕТСЯ СВЕТ. Я такой: что происходит? Через, наверное, 5 СЕКУНД из выключателя начинает идти ЧЁРНЫЙ ДЫМ. Он просто ЗАГОРЕЛСЯ. Много раз, несколько лет на него нажимали, в итоге механизм вышел из строя, там что-то замкнуло и пошёл огонь. То есть СВЕТ ВКЛЮЧИЛСЯ. Это было жутко страшно. Хорошо, что это случилось НОЧЬЮ, когда я был дома — если бы меня не было, чем бы всё это могло закончиться?»**
+  **→ A worn switch mechanism failing to a short and igniting, announcing itself by switching the light on unbidden. A light that comes on by itself is therefore not merely a fault to schedule — it is a reason to kill that circuit immediately.** This vault holds no other account of this failure mode.
+- **On the protective side he is unambiguous and brief: «то, на чём точно не надо экономить — это АВТОМАТЫ… экономия на одном автомате может спасти вас от такой вещи, как ПОЖАР.»** Consistent with [[12_Engineering_and_Systems/analysis/Electrical_Panel_Design_and_Assembly|Electrical Panel Design and Assembly]].
+
+## ⚠️⚠️ How Many Light Groups? — the Same Practitioner Answers Twice, Four Years Apart, and the Two Answers Reconcile
+
+> [!IMPORTANT]
+> **This page and [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]] both carry a scenario-count debate. Александр Сенчугов supplies both sides of it himself, and the reconciliation is a single rule rather than two competing recommendations.**
+
+**2022 — cap the count.** «Изначально все просят: я хочу много световых групп, я хочу разные сценарии. **Но по факту, во время жизни, всё сводится к ДВУМ, максимум ТРЁМ сценариям. Больше световых групп уже просто начинает РАЗДРАЖАТЬ, когда ты стоишь и ИЩЕШЬ выключатель, который тебе нужен.**» His own case, filming in a large house: about a minute standing there selecting the right light. He allows that a permanent resident may memorise it, «но скорее всего вы будете включать просто ОДНИМ ДВИЖЕНИЕМ». **This is the same cognitive-load argument as the "piano of switches" caution above, arrived at independently.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
+**2024 — many devices, one command.** In his own flat he now has a controlled socket with a night-light in the study, a kitchen floor lamp, wall night-lights, a bedside lamp and motorised curtains, and reports exactly the predicted problem: **«чтобы всё это закрыть, нужно КАК ДУРАК ХОДИТЬ ПО ВСЕЙ КВАРТИРЕ, говорить: Алиса, закрой это; Алиса, выключи это.»** The fix: **«прописал СЦЕНАРИЙ — когда ты говоришь просто "Алиса, спокойной ночи", у тебя выключается весь свет, который тебе нужно, и ЗАКРЫВАЮТСЯ ШТОРЫ… оно очень просто делается, и я всем его рекомендую».** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+**→ THE RULE, stated once instead of twice: the tolerable number of light groups is set by whether a SCENE can collapse them into one action. Without scenes, cap at two or three — the 2022 advice stands and the search cost is real. With scenes, the count stops mattering, because the household never enumerates the groups.** The corollary is a specification one: **if a project is being drawn with many groups, the scene layer is not an optional upgrade — it is what makes the group count usable**, and the master-switch dissent above is the same argument in a cruder form (one action beats many).
+
 ## Named Product Line and a Frame-Swap Lifehack (added 2026-08-24, Round 2)
 
 Pavel Sidorik names **EKF-brand outlets/switches, "Valencia" series**, with a direct price/quality assessment: "хороший вариант по соотношению цена и качество" (good price-to-quality ratio). Devices planned for one project: two-gang switch, two-gang pass-through (3-way/traveler) switch, one-gang switch, grounded outlets, outlets with integrated USB charging ports, network/ethernet outlets — a TV antenna outlet was considered and explicitly excluded. **Cosmetic lifehack: swap only the switch/outlet's outer frame (рамка) to a different color while keeping the same white mechanism/base** — frames are sold separately from the mechanism, making this a cheaper way to get a color accent than buying an entirely different product line. `single-account`, region unresolved for this episode (series-level Belarus attribution established elsewhere in this channel's other episodes). [source: [[_Sources/YT_9-NjgDLleOw_sidorik_electrical_ep6|9-NjgDLleOw_sidorik_electrical_ep6]]]

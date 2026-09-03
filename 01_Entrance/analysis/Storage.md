@@ -229,3 +229,33 @@ Real completed studio projects — no third-party attribution needed. [sources: 
 ## The entrance wardrobe — moved to its own page
 
 See **[[01_Entrance/analysis/Entrance_Wardrobe_Design|Entrance Wardrobe — Zoning, Dimensions and Construction]]**. This page keeps the open-vs-closed shoe-storage disagreement, the sizing and consolidation techniques, accessory-level detail, and the door, security and critique material.
+
+## ⚠️⚠️ A Designer's Own Entrance, One Year In — the Shelf He Was Missing and the Bench That Is Only Beautiful
+
+**A designer reporting on his own Petersburg hall a year after moving in. The bench item is the clearest "beautiful but wrong" verdict in this vault, and it lands squarely on this page's open-versus-closed shoe storage disagreement.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+### The console shelf — what he lacked most, with a height and a deliberate serviceability decision
+
+- **The gap he found on moving in: «когда ты ЗАХОДИШЬ, СНИМАЕШЬ СУМКУ — тебе нужно куда-то её положить».** Now the bag, documents, keys and spare house keys all live there — **«всё хранится здесь, НИКОГДА ЕЁ НЕ ЗАБУДЕШЬ»** — which is the drop-zone function this page's sizing section treats as a wardrobe problem rather than a surface one.
+- **⚠️ It has a raised lip (бортик) «чтобы ничего не вывалилось, ничего не упало». And the generalised version for anyone who already has a shelf: «если у вас ПЛОСКАЯ полка, то поставьте на неё какую-то ТАРЕЛКУ или ПОДНОС, чтобы не было бардака.»** A tray converts a flat surface into a bounded one, which is the whole mechanism.
+- **⚠️ Mounted at 1 m 10 cm, and the height was calculated against the bench rather than against the user: «садясь на банкетку, ты НЕ БЬЁШЬСЯ ГОЛОВОЙ, там спиной не сильно задеваешь».** `single-account`, his own installation — **but note the coupling is the transferable part: a hall shelf's height is set by whatever you sit on beneath it, not by a standing reach.**
+- **⚠️ FIXED ON DOUBLE-SIDED TAPE, DELIBERATELY: «если бы она не была закреплена, она бы БОЛТАЛАСЬ, могла УПАСТЬ вам на голову или на ногу. А так она закреплена, но в случае необходимости её можно с этого скотча ОТОРВАТЬ, ПОЧИСТИТЬ, ПОМЫТЬ — то есть ОБСЛУЖИВАТЬ.»** Solid oak, japandi. **→ A considered middle position between loose and screwed, chosen for cleaning access — consistent with the serviceability principle this practitioner argues generally («всё можно легко обслужить, заменить и починить»).**
+- **⚠️ AN OUTSTANDING PROBLEM HE NAMES BUT HAS NOT FIXED, and it is a specification lesson: «эта стена в ШТУКАТУРКЕ, но она ВСЁ РАВНО ПАЧКАЕТСЯ… если бы здесь была ПАНЕЛЬ — либо мягкая, либо МДФ — то эта стена конечно бы НЕ ПАЧКАЛАСЬ ВООБЩЕ; мы полностью избавились бы от этой заботы.»**
+  **→ Entrance walls want a panel, not paint or plaster. Independently reached as a general rule by the same practitioner elsewhere, where the прихожая is named the heaviest-load room in the flat and porcelain or panels are prescribed for BOTH floor and walls — see [[17_Design_and_Ergonomics/analysis/Material_and_Finish_Technique|Material and Finish Technique]]. This page's own flooring content covers the floor half; the wall half is the one that gets specified as ordinary decoration.**
+
+### ⚠️⚠️ The bench — a named designer piece, and his verdict is that it should have been functional
+
+A Moustache (Paris) bench, **the original rather than one of the many Chinese replicas** — and he lists three faults after a year:
+
+1. **«К ней очень сильно ПРИЛИПАЕТ ПЫЛЬ — её нужно ОЧЕНЬ-ОЧЕНЬ ХОРОШО ПРОТИРАТЬ. Она оттирается легко, НО ЭТИМ НУЖНО ПОСТОЯННО ЗАНИМАТЬСЯ.»** A recurring obligation rather than a defect — the same distinction the durability material draws between damage and maintenance load.
+2. **The cat clawed it several times; he stopped that at the root but small snags remain.** It could be reupholstered «но я конечно же НЕ БУДУ ЭТИМ ЗАНИМАТЬСЯ».
+3. **⚠️ WHAT HE ACTUALLY LACKS IS SHOE STORAGE UNDERNEATH: «если бы здесь было ДВЕ ПОЛКИ ОБУВИ, ДАЖЕ ОТКРЫТЫХ, это было бы ГОРАЗДО УДОБНЕЕ. Сейчас обувь просто стоит на МРАМОРНОМ ПОЛУ, остальную обувь я убираю в шкаф. Было бы гораздо практичнее, если бы было ДВА РЯДА обуви — НЕ НУЖНО БЫЛО БЫ ВСЁ УБИРАТЬ В ШКАФ ПОСТОЯННО.»** Whether to enclose it he leaves open: «закрывать не закрывать — это уже другой вопрос».
+
+**⚠️ HIS VERDICT, which is the thesis of the whole source applied to an object he still owns and still likes: «банкетка КРУТАЯ, она ЗАДАЁТ СТИЛЬ, она реально очень стильная — но в плане именно ПРАКТИКИ… мне кажется, банкетка ДОЛЖНА БЫЛА БЫТЬ БОЛЕЕ ФУНКЦИОНАЛЬНОЙ. СЕЙЧАС ОНА ЧИСТО ПРО ЭСТЕТИКУ.»**
+
+> [!IMPORTANT]
+> **⚠️ HOW THIS BEARS ON THIS PAGE'S OPEN-VS-CLOSED DISAGREEMENT — it does not settle it, but it adds a third position that neither camp argues.**
+>
+> The designers on this page favour closed shoe storage; the space organiser comes down on the open side. **This source is a designer who chose NEITHER — a purely decorative bench with no shoe provision at all — and after a year concludes the mistake was not open-versus-closed but having no everyday tier whatsoever.** His own preference, stated as the remedy, is **two rows, and he is explicitly indifferent to whether they are enclosed.**
+>
+> **→ The operative distinction is therefore between an EVERYDAY tier and a STORED tier, not between open and closed.** Both camps agree the everyday pairs must be reachable without opening a wardrobe; the open/closed argument is only about what that tier looks like. **A hall with a beautiful bench and no shoe tier fails a test both camps would apply.**

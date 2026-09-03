@@ -284,6 +284,15 @@ A fixture with **120° optics placed close to a wall** does not harm your eye **
 - **⚠️ And the cost of refusing it, from real cases: clients who declined a dimmer on principle, after which he had to return with an electrician «колдовать, припаивать какие-то понижающие истории, придумывать какой-то диммер — чтобы решить проблему, которая решалась вот так на стадии проектирования».**
 - **→ Read alongside the retrofit path already on [[12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings|Lighting Fixtures and Fittings]]: that says retrofit dimming is possible; this says you should expect to need it, because the design-stage lux calculation does not tell you how a real LED fitting will feel in the room.**
 
+**⚠️ The same practitioner, two years later and living with his own installation, splits these two duties by SCHEDULE — and their requirements are opposite, which is the operational half this section was missing.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+| Duty | Where | Schedule | Requirement |
+| :--- | :--- | :--- | :--- |
+| **Evening ambience** (ночной свет) | Bedroom wall recess | **19:00–23:00** | **Must GO OFF.** «Позже он мне не нужен. **НОЧЬЮ ОН МЕНЯ РАЗДРАЖАЕТ — я хочу ПОЛНУЮ ТЕМНОТУ в спальне.**» |
+| **Wayfinding** (навигационный свет) | Corridor recesses by the bathroom | **all night, ~19:00–07:00** | **Must STAY ON**, «чтобы я мог ночью пойти и дойти до ванной» |
+
+**→ One fitting type, one recess detail, two schedules that contradict each other. A scheme that treats "night light" as a single circuit satisfies one duty and defeats the other.** The calibration point above is therefore per-duty, not per-fitting — and the brightness floor that makes it possible (a driver that genuinely reaches 1%) is on [[12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings|Lighting Fixtures and Fittings]].
+
 ## 9. Daylight — moved
 
 **Moved to [[17_Design_and_Ergonomics/analysis/Daylight_and_Natural_Light|Daylight & Natural Light]] on 2026-09-01.** It was routed onto this page earlier the same day, correctly noting it was the first non-artificial-light content here — **and the merge pass showed that was the wrong home.** Daylight involves no circuits, no fixtures and no electrical planning, and this page lives in `12_Engineering_and_Systems`. The material is unchanged; only its address is.

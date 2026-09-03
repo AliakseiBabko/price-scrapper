@@ -173,3 +173,21 @@ garage/sauna context. [source: [[_Sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggi
 - **Three square metres of balcony "могут стать просто золотыми в масштабе вашего ремонта"** on a limited budget. Insulating, replacing the glazing, finishing, running heating, laying underfloor heating and furnishing it is **"не копейки" and "не одна сотня тысяч рублей"** — i.e. several hundred thousand RUB, 2024, stated as a range gesture with no breakdown.
 - **Her stated legitimate outcome is to decide not to convert it at all** and use it twice a year on a summer evening.
 - **Directly relevant to this project's own position**, which is already an unheated, unjoined balcony (see [[10_Balcony/Balcony_Guide|Balcony Guide]]'s Family Needs section): this is the first source in this folder that argues the unconverted balcony is a *deliberate budget choice* rather than merely the option that avoids legal risk. **Compare against this page's existing level-1 Moscow benchmark of 38,000 RUB (≈$460) for insulating a 3.6 m² loggia** — that figure is insulation labour and materials only, and her "several hundred thousand" covers the full conversion including glazing, finishes, heating and furnishing, so the two are not in conflict; hers is the whole-scope number the benchmark sits inside.
+
+## ⚠️ A Post-Occupancy Regret for NOT Doing It — and It Is Decided at Rough Stage or Not at All
+
+**The mirror image of the null option recorded above: this page holds a designer arguing against converting a balcony at all, and here is the same-channel account of clients who did not convert and regret it.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
+
+- **The reported outcome: clients neither insulated the balcony nor fitted AC. «В итоге они сейчас живут — они ЗИМОЙ ВООБЩЕ НЕ ВЫХОДЯТ на балкон, а ЛЕТОМ у них ДИКАЯ ЖАРА, и они КАЖДЫЙ РАЗ ВСПОМИНАЮТ о том, что они [не] сделали кондиционер.»** He is now building them a second flat with both corrected.
+- **⚠️ THE TIMING RULE, which is the actionable output: «подумайте, нужен ли вам кондиционер [и] тёплый балкон, и СДЕЛАЙТЕ ЭТО НА ЧЕРНОВОЙ СТАДИИ — потом сделать это будет уже ОЧЕНЬ СЛОЖНО, ПРАКТИЧЕСКИ НЕВОЗМОЖНО.»**
+- **⚠️ AND HE CAVEATS IT PROPERLY RATHER THAN GENERALISING, which is what makes it usable alongside the null option above: «обратите внимание, что КОНДИЦИОНЕР НЕ ВСЕГДА И ВЕЗДЕ МОЖНО СДЕЛАТЬ, а УТЕПЛИТЬ БАЛКОН ТОЖЕ НЕ ВСЕГДА ВОЗМОЖНО… мы все живём в разных климатах, в разных городах, и кондиционеры или теплые балконы нужны НЕ ВЕЗДЕ — а где-то НАОБОРОТ НУЖЕН ХОЛОДНЫЙ БАЛКОН, чтобы выходить на него и радоваться.»**
+  **→ So the two positions on this page are compatible: the null option is a legitimate choice, and the failure mode is making it BY DEFAULT at finishing stage rather than DELIBERATELY at rough stage. The decision is cheap; the deferral is what costs.**
+
+> [!WARNING]
+> **⚠️ REGULATORY CLAIM FROM A RUSSIAN SOURCE — flagged in place per this vault's standing rule, and it does NOT go to `16_Legal_and_Regulations/`, which is Belarus-only.**
+>
+> **«Обязательно всегда делайте это НА ЗАКОННОМ ОСНОВАНИИ — любые ПЕРЕПЛАНИРОВКИ, ПРИСОЕДИНЕНИЯ, УТЕПЛЕНИЯ, конечно же, нужно СОГЛАСОВЫВАТЬ [с] ЖИЛИЩНЫМИ ОРГАНАМИ.»**
+>
+> **Russian jurisdiction, no code or article cited, and it names three different actions with different approval regimes as one category.** Treat it as a practitioner's general warning that balcony conversion is a consented activity — not as a statement of what Belarusian law requires for this project. **This vault's Belarus position on balcony joining and glazing consent is the authority for this apartment.** See [[10_Balcony/analysis/Glazing_and_Structural_Work|Glazing and Structural Work]].
+
+**⚠️ A porcelain-vs-ceramic point that bears directly on a converted balcony floor**, from the same practitioner: porcelain stoneware withstands «порядка 100 или гораздо больше ЗАМЕРЗАНИЙ И РАЗМОРАЖИВАНИЙ», whereas ordinary ceramic tile in northern latitudes «несколько раз замёрзнув и разморозившись, она просто ТРЕСНЕТ». **→ Relevant to any balcony left unheated or heated intermittently, and to the cold-balcony option above.** Full note on [[13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection|Flooring Material Selection]]. [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]

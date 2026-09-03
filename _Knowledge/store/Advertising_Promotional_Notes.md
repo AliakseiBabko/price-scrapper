@@ -481,3 +481,31 @@ All five Round 2 sources are `promotional_ratio: low`, which is unusual for a de
 - **The commission disclosure above and the «продавайте за 60» observation both cut against the studio's own industry.**
 - **The ventilation explainer names no brand at all** and routes contractor selection to recommendation rather than to the studio.
 - **⚠️ The position that must still be flagged as interested**: all three roundtable panellists sell design services and two explicitly sell contractor selection, so **the recurring conclusion «доверяйте вашему дизайнеру» is not disinterested** — and it is recorded on [[11_Budget_and_Planning/analysis/Contract_Practice|Contract Practice]] with the counter-arguments the panel itself raises against designers, including that a designer who «где-то кончил какие-нибудь курсы» and has no working documentation will and should be treated accordingly by builders.
+
+## 2026-09-03 — Round 4, NSDSGN: four low, one MEDIUM, and the medium one matters
+
+Four of the five sources are `promotional_ratio: low`. **The one that is not is the soundproofing site walkthrough (`AH1INy0i5lU`), and the flag changes how its technical content should be read.**
+
+### ⚠️ The medium case, and what specifically to discount
+
+- **`AH1INy0i5lU` — `promotional_ratio: medium`.** A **named material system carried throughout** (Premium М1) and a **named product** (Техносонус В100). **No discount code, no funnel, no Telegram bot, and the technical content is specific enough to be checkable against any manufacturer's datasheet** — which is why it was processed rather than discounted.
+- **⚠️ What to discount is narrower than "the whole source": the MATERIAL SELECTION is not independent of the contractor's supply relationship.** He states himself that the manufacturer's engineers and technologists are «постоянно у нас на поддержке, на связи» and that they co-design non-standard junctions with him. **That is simultaneously a genuine competence signal and a commercial tie.** Both are recorded on the wiki pages.
+- **⚠️ Read alongside the 2–15% designer procurement-commission range already in this store** — the mechanism disclosed by the three-designer roundtable on this same channel. **A system specified by the party who installs it and is supported by its maker is the exact configuration that range was recorded to make readable.**
+- **What survives the discount intact**, because it is not brand-dependent: the room-in-a-room principle, the socket-as-acoustic-leak finding and its back-to-back planning constraint, the window-foam diagnosis, the пенопласт-is-thermal-not-acoustic correction, the substrate-levelling requirement for frameless systems, and the "laboratory certification of a material is not verification of the installed system" gap. **None of these depends on which manufacturer was chosen.**
+
+### The four low cases, and why that is unusual enough to state
+
+**This is a design studio's own channel, and four of five sources carry no meaningful funnel.** The reasons are structural rather than virtuous:
+
+- **Two are post-occupancy regret formats built from the studio's own failures**, including his own money lost, his own flat's mistakes, and clients' complaints about his own work. **`CSpXvPWpsgQ` closes by asking for more comments to build a further episode — which is exactly what produced the already-processed follow-up.**
+- **`RxU4L7ce86E` is a guest format in which a clinical psychologist carries the content**, and she twice contradicts the interviewing designer's own published positions on his own channel. **Only her socials are promoted at the close.**
+- **`WCoqOCofPx4` closes with a studio pitch** («в Москве, Петербурге или в любой точке мира») and a socials ask, with no product placement or supplier funnel across 33 minutes. **Recorded as a pitch, not a funnel.**
+- **`lhikl-7c43c` repeatedly solicits viewer suggestions and reports acting on several of them** — the oven-glove hooks came from a commenter, and the raised drainer shelf from clients he names. **That is a content model with a real incentive to publish faults.**
+
+### ⚠️ One thing to hold against the channel as a whole, restated
+
+**The studio sells design services, so any recurring conclusion of the form "trust your designer" or "you need a design project" is not disinterested** — already recorded in this store from Round 2. **Round 4 supplies the one piece of evidence that partly escapes that objection: builders have twice commissioned and PAID FOR a design project themselves**, because a fixed documented scope converts client-driven changes into chargeable доп работы. **That is confirmation from the party with no stake in selling design services, and it is the strongest form the claim has taken on this vault.** It is recorded on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services and Fees]] together with the consequence for the client — the same document that protects them from execution errors also removes their ability to claim a change was always intended.
+
+### ⚠️ A named-product note that is not promotional but should be traceable
+
+**`lhikl-7c43c` names retail products he bought and lives with** — Xiaomi night-light units (chosen for reaching 1% brightness), a Samsung Frame television, a Moustache bench described as the original rather than a replica, an IKEA kitchen mixer replaced by another from the same brand, and «тепло концепт» bedside furniture. **None is presented as a recommendation with a link or code, and two are named specifically to explain a FAULT (the bench) or a REPLACEMENT (the mixer).** Recorded so the brand mentions are visible on audit rather than mistaken later for placement.

@@ -172,3 +172,21 @@ Krasnov's own studio's real completed project. [source: [[_Sources/YT_uSqIuvBwh8
 
 See [[06_Small_Bedroom/analysis/Source_Notes|Source Notes]] for full
 citations.
+
+## ⚠️⚠️ "Somewhere for Tonight's Clothes" — a Real Brief Item, and the Options Ranked by Clearance
+
+**A designer naming the thing he most missed in his own bedroom a year after moving in — and it is a requirement that appears in no standard bedroom brief.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
+
+- **The gap: «когда ложишься спать, надо куда-то ПОЛОЖИТЬ ВЕРХНЮЮ ОДЕЖДУ. Можно конечно каждый раз сходить в ГАРДЕРОБНУЮ убирать её, но по привычке на старой квартире у меня было КРЕСЛО, и это было СУПЕР УДОБНО — НЕ НАДО ТАМ УСТРАИВАТЬ КАКОЙ-ТО СКЛАД, но вот НА НОЧЬ положить футболку или джинсы.»**
+  **→ Note the distinction he draws, which is what makes it specifiable: this is not storage. It is a one-night surface for clothes that will be worn again, and the failure mode of getting it wrong is either a nightly trip to the wardrobe or a permanent heap on a chair.**
+- **⚠️ HIS SOLUTION AND THE ALTERNATIVES, which sort neatly by the clearance available — directly relevant to this page's scope:**
+
+| Option | Footprint | Notes |
+| :--- | :--- | :--- |
+| **A пуф** — what he chose | Smallest | **«Просто НЕЗАМЕНИМАЯ вещь… классный, мягкий, ОЧЕНЬ ЛЁГКИЙ, и НА НЁМ МОЖНО СИДЕТЬ»** — light enough to move out of a circulation route, and it earns a second function |
+| **A small valet stand (вешало)** | Near-zero floor area | **«Есть такие специальные МАЛЕНЬКИЕ ВЕШАЛА — тоже очень удобно, ЭСТЕТИЧНО»** — hangs the garment rather than folding it, so better for items that crease |
+| **A bench at the FOOT of the bed** | Largest | **Only for a large bedroom — he could not fit one: «у меня ПРОХОД И ТАК ОЧЕНЬ УЗКИЙ, поэтому здесь её разместить НЕ БЫЛО ВОЗМОЖНОСТИ»** |
+
+  **→ For the tight-clearance case this page is about, the ranking is unambiguous: the foot-of-bed bench is the first thing to lose, and the valet stand is the option that survives the narrowest passage.** Read against this page's own passage-width minima before assuming the bench fits.
+- **⚠️ A second small-bedroom finding from the same source, on the bedside table: his is a multi-function niche type «которую можно использовать совершенно по-разному — большие книги, вещи, что угодно», and what actually occupies it is the HUMIDIFIER.** **→ In a tight bedroom the bedside niche is the only uncommitted volume at hand, and appliances will claim it. Worth anticipating rather than filling with a designed use.**
+- **⚠️ And the reason the humidifier is there at all, which is a heating-season figure: with the radiators running in a Petersburg winter «это УЖАСНЫЙ СУХОЙ ВОЗДУХ, у меня начинают ЛОПАТЬСЯ СОСУДЫ… там по 10% ВЛАЖНОСТИ показывает». In summer he does not use it.** **⚠️ It runs on a schedule with a specifically acoustic constraint — off at night, «ночью я хочу спать в ТИШИНЕ» — which is the argument for a socket and a smart plug at the bedside rather than a permanent installation.** See [[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]].
