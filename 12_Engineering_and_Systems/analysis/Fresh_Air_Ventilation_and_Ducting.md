@@ -4,41 +4,11 @@ Covers breathers vs. full mechanical ventilation, the shared-shaft constraint ki
 
 Prolife Invest's dated Moscow comparison puts a full ducted supply-and-exhaust ventilation system at **1.5–10 million RUB** as of 2026-07-29. Using the trailing six-month USD/RUB average of 76.4100, `1,500,000 ÷ 76.4100 = $19,630.94` and `10,000,000 ÷ 76.4100 = $130,872.92`, or **≈$19,600–≈$131,000** in the nearest-$100 and nearest-$1,000 buckets respectively. The same source gives a breather figure rendered as “1,350” without a confirmed unit; that number is **not computable** and is not converted. [source: [[_Sources/YT_DsdLa87Acz4_prolife_invest_moscow_flipping|extraction note]]]
 
-## ⚠️ Bathroom-Specific Air-Exchange Rate and the Condensation/Odour Mechanism (Игорь Краснов, added 2026-09-01)
+## Whole-Apartment Airflow Balance
 
-The rest of this page's air-exchange figures are whole-apartment-scale (1×/hour baseline, 30 m³/h/person GOST citation); this is the first bathroom-specific figure recorded here. [source: [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
 
-- **⚠️ Normative bathroom air-exchange rate: ~6 volume changes per hour** — full air renewal every 7–10 minutes. **Most apartment exhaust fans deliver roughly 2–3× less than this in practice**, which is why post-shower steam lingers, condenses on tile/grout, and seeds mould/odour rather than dispersing — not solvable by cleaning alone.
-- **⚠️ Condensation mechanism, named explicitly**: condensation forms rapidly once surface (wall/floor) temperature drops below roughly **18 °C** while room air sits at **24–25 °C** — the temperature gap itself, not humidity alone, is what triggers it.
-- **⚠️ Fix, stated as the actual solution rather than masking with scent products**: exhaust capacity of at least **90–100 m³/h** for a standard bathroom, **plus stable heating that keeps surface temperature from dropping into that 18 °C/24-25 °C gap.**
-
-`single-account`, `unverified`.
-
-### ⚠️ Heated Floor Is Only 50% of the Solution — a Mechanism-Based Elaboration (Игорь Краснов, added 2026-09-01, Round 3)
-
-[source: [[_Sources/YT_3lFeF0MSXh4_krasnov_bathroom_8worst_mistakes|3lFeF0MSXh4]]]
-
-A personal, first-person anecdote gives the mechanism this entry adds: living in a rental apartment with no heated bathroom floor, water never fully dried after showers and mold appeared in the corners; installing a heated floor in his own subsequent bathroom renovation solved it. Restates/personalizes this page's existing air-exchange content above — cross-reference only, not a duplicate fact. The genuinely new elaboration:
-
-- **⚠️ Explicitly states a heated floor is "only 50% of the solution"** — ventilation is equally necessary. Recommends a powerful extract fan tied to a humidity sensor or timer that vents genuinely outside (not just recirculating air).
-- **⚠️ Named failure mode: a heated-floor bathroom without proper ventilation becomes a small "sauna"** — ambient humidity still condenses on walls/furniture and mold reappears even with a dry floor, because the floor alone doesn't remove the moisture load from the air. This is a genuinely useful mechanism-based nuance on top of this page's existing bare air-exchange-rate figure above — the floor and the extract fan solve two different halves of the same problem (surface dryness vs. air moisture load), not one problem twice.
-
-`single-account`, `unverified`.
-
-## Bedroom-Specific Dedicated Ventilation, Planned at the Layout Stage (Игорь Краснов, added 2026-09-01, Round 4)
-
-[source: [[_Sources/YT_mqIWre0VXGU_krasnov_sleep_mistakes|mqIWre0VXGU]]]
-
-- Recommends a dedicated supply-and-exhaust ("приточно-вытяжная") ventilation system over just an open window for a bedroom specifically, citing better air quality and quieter operation than an open window.
-- **⚠️ Frames bedroom ventilation planning as a "boring but foundational" item that should be decided at the layout stage, before aesthetic/rendering choices, alongside the room's overall MEP planning** — his studio explicitly plans ventilation type (приточно-вытяжная / natural / общедымовая) at the planning-solution stage, tied to the household's own life scenarios/patterns, rather than an afterthought once the "Pinterest" visual direction is set. Genuinely new for this page's bedroom-specific coverage — extends rather than duplicates the page's existing whole-apartment and bathroom-specific ventilation content.
-
-`single-account`, `unverified`.
-
-## Disguised Humidifier as a Decorative "Fireplace" — Moscow-Region Winter Dry-Air Recommendation (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
-
-**⚠️ A humidifier built into a decorative fireplace-style housing** (an illuminated-vapor "flame" effect, no real fire, no fuel, no flue/vent requirement) recommended as close to a mandatory device for Moscow/Moscow-region apartments specifically — the source cites the region's severe winter indoor-air dryness from central heating as the reason, one of the few points in this channel's content with an explicit on-camera regional statement ("our climate, Moscow and Moscow region"). Framed as solving a genuine air-quality problem and a decor want at the same time, not a purely cosmetic gimmick. `single-account`, `unverified`, Moscow/Moscow region (level 1, named directly). [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
-
-## Whole-Apartment Airflow-Balance Design Methodology (added 2026-08-25)
+### Whole-Apartment Airflow-Balance Design Methodology (added 2026-08-25)
 
 ADS-vent.ru (ventilation-design/installation company, worked teaching example, region unresolved — general engineering methodology, not jurisdiction-specific) walks through a complete supply+exhaust design sequence, genuinely different from the rest of this page's per-device/per-fixture content — this is the *coordination* methodology across an entire unit, not a single fixture's technique:
 
@@ -94,7 +64,7 @@ Dmitry_HVAC (individual HVAC specialist, Russia level 1 for general practice —
 
 [source: [[_Sources/YT_EUM7kv77VVY_dmitry_hvac_top4_comparison|EUM7kv77VVY]]]
 
-## Separate-Zone Exhaust Ventilation for Two Rooms Sharing One Building Channel (added 2026-08-24, Sidorik Round 4)
+### Separate-Zone Exhaust Ventilation for Two Rooms Sharing One Building Channel (added 2026-08-24, Sidorik Round 4)
 
 Pavel Sidorik, individual practitioner, own apartment, Belarus (level 1, via a spoken 75-BYN price): a common new-build configuration is **one shared exhaust-ventilation channel physically located in only one of two adjoining wet rooms** (his case: the toilet room has the channel, the bathroom doesn't). The developer's own default fix — a flat duct with holes cut mid-run so both rooms feed into the same channel — **does not work at all**: when the room fan nearer the channel is off, air reverses through the mid-run holes and pushes the other room's humid/odorous air back into the room instead of extracting it.
 
@@ -104,26 +74,7 @@ Pavel Sidorik, individual practitioner, own apartment, Belarus (level 1, via a s
 
 **Clarification from a later video in the same series**: the custom 90°-turn duct fitting shown for this build connects to the practitioner's own private "booster"/"accelerator" vent channel serving only his own toilet room, which then joins the shared building vent channel downstream — not a direct modification of the shared channel itself, addressing viewer criticism that the build blocked neighbors' ventilation. The fitting itself was fabricated by fusing flat plastic duct sections together with a hot-melt glue gun (used here as a plastic-welding technique, not just an adhesive). [source: [[_Sources/YT_zaW8XagX72U_sidorik_hot_glue_lifehacks|zaW8XagX72U]]]
 
-## Masonry Vent-Duct Sizing for a Wet Room (added 2026-08-25)
-
-Architect Vitaliy Zlobin (independent country-house architect, `single-account`, region unresolved) gives a concrete masonry vent-shaft sizing rule for a bathroom/WC/shower room, distinct from this page's mostly apartment-scale mechanical-system content above:
-
-- **A 140×140mm brick vent-duct opening is sufficient for a wet room up to 10m²** — sized to brick-coursing modularity rather than an arbitrary round number, so it's buildable within a standard masonry wall without odd partial courses.
-- **Duct air-intake height convention for a 3m ceiling: ~270cm** — set below the dropped-ceiling void specifically to leave room above for recessed downlights and other services; can be raised, but only if the intake's own path through the ceiling void to the duct opening is separately worked out.
-- **The duct must always terminate at the roof, never mid-building**, specifically for reliable odor removal — applies whether the shaft itself is masonry or, in a non-masonry building, a fabricated panel duct.
-- **An electric booster fan mounted in the duct is explicitly odor-removal assistance only, not a substitute for real forced ventilation** — the source states it "probably can" function as forced ventilation but will be underpowered for that job; don't rely on a duct-mounted booster alone where genuine mechanical exhaust capacity is actually needed. [source: [[_Sources/YT_DcWsQMiMcak_zlobin_wc_bath_theory_pt1|DcWsQMiMcak]]]
-
-## Kitchen Extraction Hoods Share the Same Shaft-Capacity Ceiling
-
-The same shared-shaft constraint that governs fresh-air ventilation applies just as strongly to a kitchen range hood set to extraction mode ("отвод") — a mechanism worth stating explicitly since it's easy to assume a hood's own motor rating determines its real performance. **This is corroborated across 5 independent sources** — full multi-source breakdown, including a direct conflict this raises with the kitchen's already-selected hood model, lives in [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]]. Summary:
-
-Roman Che TV, Мебель — это просто, ЛенРемонт, and Argus report: **a hood vented into a shared apartment-building ventilation shaft cannot move air faster than the shaft/duct itself allows**, regardless of the hood's own rated m³/h — the shaft, not the hood, is the actual bottleneck.
-Roman Che TV, Мебель — это просто, ЛенРемонт, and Argus report: **an oversized hood on an undersized duct doesn't yield more airflow — it causes more noise and can force draft reversal**, potentially pushing air backward into a neighboring apartment's line.
-Roman Che TV, Мебель — это просто, ЛенРемонт, and Argus report: **no hood works without makeup air ("приток")** — if a kitchen has no dedicated fresh-air supply, a window needs cracking for real extraction to occur at all.
-Roman Che TV, Мебель — это просто, ЛенРемонт, and Argus report: **the practical alternative in a constrained-venting apartment is recirculation mode** (carbon-filtered, air returned to the room) — functionally reliable regardless of shaft capacity, though it doesn't remove humidity and needs a periodic filter.
-Zemstandart/Alexey Zemskov advises: **a tee-fitting-plus-check-valve setup can preserve natural kitchen ventilation alongside a ducted hood**, independently described by three unrelated sources — see [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]] for the DIY detail and the unresolved Russia-specific regulatory question this area also touches.
-
-## Supply Ventilation Design & Ducting
+### Supply Ventilation Design & Ducting
 
 `single-account`, one practitioner's stated standing rule.
 
@@ -133,11 +84,32 @@ Zemstandart/Alexey Zemskov reports: **round-section ducts are preferred over fla
 
 Zemstandart/Alexey Zemskov reports: **a breather can be vented through a window reveal/embrasure instead of an exterior wall**, as a workaround where facade penetrations are banned by the building — the intake/exhaust opening is cut into the window's reveal rather than the wall itself. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
 
-## Exhaust-Duct Concealment in a Hallway
+## Duct Sizing, Routing and Concealment
+
+### Masonry Vent-Duct Sizing for a Wet Room (added 2026-08-25)
+
+Architect Vitaliy Zlobin (independent country-house architect, `single-account`, region unresolved) gives a concrete masonry vent-shaft sizing rule for a bathroom/WC/shower room, distinct from this page's mostly apartment-scale mechanical-system content above:
+
+- **A 140×140mm brick vent-duct opening is sufficient for a wet room up to 10m²** — sized to brick-coursing modularity rather than an arbitrary round number, so it's buildable within a standard masonry wall without odd partial courses.
+- **Duct air-intake height convention for a 3m ceiling: ~270cm** — set below the dropped-ceiling void specifically to leave room above for recessed downlights and other services; can be raised, but only if the intake's own path through the ceiling void to the duct opening is separately worked out.
+- **The duct must always terminate at the roof, never mid-building**, specifically for reliable odor removal — applies whether the shaft itself is masonry or, in a non-masonry building, a fabricated panel duct.
+- **An electric booster fan mounted in the duct is explicitly odor-removal assistance only, not a substitute for real forced ventilation** — the source states it "probably can" function as forced ventilation but will be underpowered for that job; don't rely on a duct-mounted booster alone where genuine mechanical exhaust capacity is actually needed. [source: [[_Sources/YT_DcWsQMiMcak_zlobin_wc_bath_theory_pt1|DcWsQMiMcak]]]
+
+### Kitchen Extraction Hoods Share the Same Shaft-Capacity Ceiling
+
+The same shared-shaft constraint that governs fresh-air ventilation applies just as strongly to a kitchen range hood set to extraction mode ("отвод") — a mechanism worth stating explicitly since it's easy to assume a hood's own motor rating determines its real performance. **This is corroborated across 5 independent sources** — full multi-source breakdown, including a direct conflict this raises with the kitchen's already-selected hood model, lives in [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]]. Summary:
+
+Roman Che TV, Мебель — это просто, ЛенРемонт, and Argus report: **a hood vented into a shared apartment-building ventilation shaft cannot move air faster than the shaft/duct itself allows**, regardless of the hood's own rated m³/h — the shaft, not the hood, is the actual bottleneck.
+Roman Che TV, Мебель — это просто, ЛенРемонт, and Argus report: **an oversized hood on an undersized duct doesn't yield more airflow — it causes more noise and can force draft reversal**, potentially pushing air backward into a neighboring apartment's line.
+Roman Che TV, Мебель — это просто, ЛенРемонт, and Argus report: **no hood works without makeup air ("приток")** — if a kitchen has no dedicated fresh-air supply, a window needs cracking for real extraction to occur at all.
+Roman Che TV, Мебель — это просто, ЛенРемонт, and Argus report: **the practical alternative in a constrained-venting apartment is recirculation mode** (carbon-filtered, air returned to the room) — functionally reliable regardless of shaft capacity, though it doesn't remove humidity and needs a periodic filter.
+Zemstandart/Alexey Zemskov advises: **a tee-fitting-plus-check-valve setup can preserve natural kitchen ventilation alongside a ducted hood**, independently described by three unrelated sources — see [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]] for the DIY detail and the unresolved Russia-specific regulatory question this area also touches.
+
+### Exhaust-Duct Concealment in a Hallway
 
 Zemstandart / Alexey Zemskov reports `single-account`, `ASR-uncertain` — this source's transcript is unusually garbled even though flagged as manually-captioned; treat the specific numbers below with more caution than this page's other figures. A bulky developer-installed exhaust-duct box can be replaced with a smaller-cross-section duct — bathroom/toilet exhaust routed via a forced/booster fan through a round-to-flat adapter into the hallway and building shaft, junction pulled tight to the ceiling for noise, all concealed behind a stretch ceiling. Reported total ceiling-height loss ~10 cm, of which roughly 6 cm is attributed to the developer's own pre-existing duct routing (not this technique) and ~4 cm to the technique itself — the specific cm split is uncertain, but the qualitative point (net added loss is small, most hallways tolerate it well) is better supported. [source: [[_Sources/YT_HX2pDdILM7U_hidden_exhaust_duct_concealment|extraction note]]]
 
-## Kitchen Exhaust Duct Sizing, Ceiling Drop & Soundproofing
+### Kitchen Exhaust Duct Sizing, Ceiling Drop & Soundproofing
 
 `single-account`, cleanly-transcribed (unlike the exhaust-concealment entry above).
 
@@ -149,7 +121,70 @@ Zemstandart / Zemproekt recommends **always adding self-adhesive duct soundproof
 
 Zemstandart / Zemproekt (technical content presented by Sergey Saratov) says **a design project should document every ventilation exhaust point (forced and natural)** explicitly, so the client can verify contractors' work against the plan during the renovation. This is also the source of the tee-fitting-plus-check-valve technique's independent corroboration cited above (Zemstandart, 2026-08-10). [source: [[_Sources/YT_ZqfaeREBEYQ_kitchen_ventilation_mistakes|extraction note]]]
 
-## Real Long-Term Failure Case: Tiling Over a Ventilation-Valve Access Point (added 2026-08-24, Petrishin-Stroi Round 9)
+### Recirculating Hoods — a Russian Regulatory Change, and Why the Technical Argument Travels (added 2026-08-30)
+
+> [!WARNING]
+> **This is a claim about Russian law and is recorded here, not in `16_Legal_and_Regulations/`.** That folder is strictly Belarus-scoped, and this project's own rule is explicit that a Russian-sourced regulatory claim is a different country's law rather than weaker evidence — it must not be written there even with a hedge. **Whether any equivalent Belarus rule exists is an open question this source cannot answer.**
+
+**Мария Шеврина / SMBUREAU** states that venting a cooker hood into the apartment's ventilation shaft is **now illegal in Russia** — including the partial variant that blocks only half the vent opening to preserve natural ventilation — and that this now applies to **all** apartments rather than only gas ones. Her stated exception: apartments with their own individual ventilation ducts. Her prescribed alternative is a **recirculating (filter) hood**, which she says are now widely available and inexpensive; filter for "рециркуляция" when buying.
+
+**⚠️ The transferable part is the technical argument, which stands regardless of jurisdiction.** She adds a personal view that the change is correct anyway: shaft-vented hoods degrade the building's natural ventilation for everyone on the riser, which is a physical claim about shared infrastructure, not a legal one. That reasoning is directly relevant to any apartment on a shared ventilation shaft, and this page's existing material on shaft behaviour is the right place to weigh it.
+
+`single-account`, `unverified`, **Russian jurisdiction**. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
+
+## Room-Specific Requirements
+
+### ⚠️ Bathroom-Specific Air-Exchange Rate and the Condensation/Odour Mechanism (Игорь Краснов, added 2026-09-01)
+
+The rest of this page's air-exchange figures are whole-apartment-scale (1×/hour baseline, 30 m³/h/person GOST citation); this is the first bathroom-specific figure recorded here. [source: [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
+
+- **⚠️ Normative bathroom air-exchange rate: ~6 volume changes per hour** — full air renewal every 7–10 minutes. **Most apartment exhaust fans deliver roughly 2–3× less than this in practice**, which is why post-shower steam lingers, condenses on tile/grout, and seeds mould/odour rather than dispersing — not solvable by cleaning alone.
+- **⚠️ Condensation mechanism, named explicitly**: condensation forms rapidly once surface (wall/floor) temperature drops below roughly **18 °C** while room air sits at **24–25 °C** — the temperature gap itself, not humidity alone, is what triggers it.
+- **⚠️ Fix, stated as the actual solution rather than masking with scent products**: exhaust capacity of at least **90–100 m³/h** for a standard bathroom, **plus stable heating that keeps surface temperature from dropping into that 18 °C/24-25 °C gap.**
+
+`single-account`, `unverified`.
+
+### ⚠️ Heated Floor Is Only 50% of the Solution — a Mechanism-Based Elaboration (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_3lFeF0MSXh4_krasnov_bathroom_8worst_mistakes|3lFeF0MSXh4]]]
+
+A personal, first-person anecdote gives the mechanism this entry adds: living in a rental apartment with no heated bathroom floor, water never fully dried after showers and mold appeared in the corners; installing a heated floor in his own subsequent bathroom renovation solved it. Restates/personalizes this page's existing air-exchange content above — cross-reference only, not a duplicate fact. The genuinely new elaboration:
+
+- **⚠️ Explicitly states a heated floor is "only 50% of the solution"** — ventilation is equally necessary. Recommends a powerful extract fan tied to a humidity sensor or timer that vents genuinely outside (not just recirculating air).
+- **⚠️ Named failure mode: a heated-floor bathroom without proper ventilation becomes a small "sauna"** — ambient humidity still condenses on walls/furniture and mold reappears even with a dry floor, because the floor alone doesn't remove the moisture load from the air. This is a genuinely useful mechanism-based nuance on top of this page's existing bare air-exchange-rate figure above — the floor and the extract fan solve two different halves of the same problem (surface dryness vs. air moisture load), not one problem twice.
+
+`single-account`, `unverified`.
+
+### Bedroom-Specific Dedicated Ventilation, Planned at the Layout Stage (Игорь Краснов, added 2026-09-01, Round 4)
+
+[source: [[_Sources/YT_mqIWre0VXGU_krasnov_sleep_mistakes|mqIWre0VXGU]]]
+
+- Recommends a dedicated supply-and-exhaust ("приточно-вытяжная") ventilation system over just an open window for a bedroom specifically, citing better air quality and quieter operation than an open window.
+- **⚠️ Frames bedroom ventilation planning as a "boring but foundational" item that should be decided at the layout stage, before aesthetic/rendering choices, alongside the room's overall MEP planning** — his studio explicitly plans ventilation type (приточно-вытяжная / natural / общедымовая) at the planning-solution stage, tied to the household's own life scenarios/patterns, rather than an afterthought once the "Pinterest" visual direction is set. Genuinely new for this page's bedroom-specific coverage — extends rather than duplicates the page's existing whole-apartment and bathroom-specific ventilation content.
+
+`single-account`, `unverified`.
+
+### Disguised Humidifier as a Decorative "Fireplace" — Moscow-Region Winter Dry-Air Recommendation (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+**⚠️ A humidifier built into a decorative fireplace-style housing** (an illuminated-vapor "flame" effect, no real fire, no fuel, no flue/vent requirement) recommended as close to a mandatory device for Moscow/Moscow-region apartments specifically — the source cites the region's severe winter indoor-air dryness from central heating as the reason, one of the few points in this channel's content with an explicit on-camera regional statement ("our climate, Moscow and Moscow region"). Framed as solving a genuine air-quality problem and a decor want at the same time, not a purely cosmetic gimmick. `single-account`, `unverified`, Moscow/Moscow region (level 1, named directly). [source: [[_Sources/YT_Rm4XLdyqj3s_kruglov_interior_trends_2025|YT_Rm4XLdyqj3s]]]
+
+### Steam Rooms in a Flat — Humidity Sets the Ventilation Requirement (Надежда Кузина, added 2026-09-01)
+
+A designer's ranking, and it is internally consistent: the humidity order and the ventilation order are the same, which is what makes it usable as a selection rule. Full bathroom context on [[07_Bathroom/analysis/Planning_and_Layout|Bathroom Planning & Layout]], **including the Russian approval regime, which is flagged there as non-transferable.** [source: [[_Sources/YT_dIdcLPKj6is_kuzina_home_spa_bathroom|YT_dIdcLPKj6is]]]
+
+| Type | Humidity | Temperature | Ventilation consequence |
+| :--- | :--- | :--- | :--- |
+| **Infrared cabin** | **no steam at all** | up to 60 °C | **⚠️ Safest option** — nothing to extract |
+| **Finnish sauna** | **up to 15 %** | up to 100 °C | **Natural ventilation may still suffice** |
+| **Hammam / Turkish** | **up to 100 %** | 45–65 °C | **⚠️ Forced ventilation AND natural air supply mandatory** |
+
+- **⚠️ The rule: the higher the humidity, the bigger the ventilation problem — and the failure mode is named. Get it wrong and you get smell, fungus or mould.** Consistent with this page's existing wet-room duct sizing and bathroom exhaust material.
+- **⚠️ The corollary worth carrying to any wet-room decision, not only saunas: choosing the appliance is choosing the ventilation obligation.** An infrared cabin imposes none; a hammam imposes forced extract plus a designed air supply path — which is a duct route, a shaft-capacity question and a ceiling drop, not an accessory.
+- Practitioner-reported figures, not a citation — see the source note on their confidence.
+
+## Exhaust Fans, Access and a Real Long-Term Failure
+
+### Real Long-Term Failure Case: Tiling Over a Ventilation-Valve Access Point (added 2026-08-24, Petrishin-Stroi Round 9)
 
 Sergey Petrishin's company gives a genuinely rare **6-years-later revisit
 case study** — returning to a client's own apartment to fix a defect
@@ -189,7 +224,7 @@ promotional ratio.
 
 [source: [[_Sources/YT_pwI058vcXP8_sbk_seamless_flooring_screed_prep|YT_pwI058vcXP8]]]
 
-## Bathroom Exhaust Fan: Control Modes and a Late-Stage Wiring Trap (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 7)
+### Bathroom Exhaust Fan: Control Modes and a Late-Stage Wiring Trap (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 7)
 
 Vladimir Amelchenko, demonstrating with two physical fan units opened on camera:
 
@@ -200,31 +235,6 @@ Vladimir Amelchenko, demonstrating with two physical fan units opened on camera:
 - **Mitigation**: decide the specific fan type before ceiling/tile finishing begins, not as a final-stage purchase decision.
 
 [source: [[_Sources/YT_Z-jk95jveGg_sbk_turbo_timer_exhaust_fan|YT_Z-jk95jveGg]]]
-
-## Recirculating Hoods — a Russian Regulatory Change, and Why the Technical Argument Travels (added 2026-08-30)
-
-> [!WARNING]
-> **This is a claim about Russian law and is recorded here, not in `16_Legal_and_Regulations/`.** That folder is strictly Belarus-scoped, and this project's own rule is explicit that a Russian-sourced regulatory claim is a different country's law rather than weaker evidence — it must not be written there even with a hedge. **Whether any equivalent Belarus rule exists is an open question this source cannot answer.**
-
-**Мария Шеврина / SMBUREAU** states that venting a cooker hood into the apartment's ventilation shaft is **now illegal in Russia** — including the partial variant that blocks only half the vent opening to preserve natural ventilation — and that this now applies to **all** apartments rather than only gas ones. Her stated exception: apartments with their own individual ventilation ducts. Her prescribed alternative is a **recirculating (filter) hood**, which she says are now widely available and inexpensive; filter for "рециркуляция" when buying.
-
-**⚠️ The transferable part is the technical argument, which stands regardless of jurisdiction.** She adds a personal view that the change is correct anyway: shaft-vented hoods degrade the building's natural ventilation for everyone on the riser, which is a physical claim about shared infrastructure, not a legal one. That reasoning is directly relevant to any apartment on a shared ventilation shaft, and this page's existing material on shaft behaviour is the right place to weigh it.
-
-`single-account`, `unverified`, **Russian jurisdiction**. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
-
-## Steam Rooms in a Flat — Humidity Sets the Ventilation Requirement (Надежда Кузина, added 2026-09-01)
-
-A designer's ranking, and it is internally consistent: the humidity order and the ventilation order are the same, which is what makes it usable as a selection rule. Full bathroom context on [[07_Bathroom/analysis/Planning_and_Layout|Bathroom Planning & Layout]], **including the Russian approval regime, which is flagged there as non-transferable.** [source: [[_Sources/YT_dIdcLPKj6is_kuzina_home_spa_bathroom|YT_dIdcLPKj6is]]]
-
-| Type | Humidity | Temperature | Ventilation consequence |
-| :--- | :--- | :--- | :--- |
-| **Infrared cabin** | **no steam at all** | up to 60 °C | **⚠️ Safest option** — nothing to extract |
-| **Finnish sauna** | **up to 15 %** | up to 100 °C | **Natural ventilation may still suffice** |
-| **Hammam / Turkish** | **up to 100 %** | 45–65 °C | **⚠️ Forced ventilation AND natural air supply mandatory** |
-
-- **⚠️ The rule: the higher the humidity, the bigger the ventilation problem — and the failure mode is named. Get it wrong and you get smell, fungus or mould.** Consistent with this page's existing wet-room duct sizing and bathroom exhaust material.
-- **⚠️ The corollary worth carrying to any wet-room decision, not only saunas: choosing the appliance is choosing the ventilation obligation.** An infrared cabin imposes none; a hammam imposes forced extract plus a designed air supply path — which is a duct route, a shaft-capacity question and a ceiling drop, not an accessory.
-- Practitioner-reported figures, not a citation — see the source note on their confidence.
 
 ## Breathers vs. full mechanical systems — moved to its own page
 

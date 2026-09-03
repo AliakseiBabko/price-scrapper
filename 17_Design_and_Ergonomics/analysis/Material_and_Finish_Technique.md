@@ -5,7 +5,11 @@ Material and finish choices and the technique behind them: texture and relief as
 > [!NOTE]
 > **This page was carved out of a 740-line, 53-section parent whose sections averaged 14 lines each — the fragmentation pattern. Sections were moved whole and regrouped by subject; no prose changed.**
 
-## Rounded/Curved Walls — a Rising Trend, Bathroom-Adjacent (added 2026-08-24)
+## Texture, Relief and Curved Form
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### Rounded/Curved Walls — a Rising Trend, Bathroom-Adjacent (added 2026-08-24)
 
 Konstantin Kruglov / Ontario: rounded/curved (non-rectilinear) walls, mostly seen in living rooms/kitchens/bedrooms but relevant here because a bathroom sharing a wall with such a room can end up with a curved section too. **Poor fit for small bathrooms**; gaining real popularity in large bathrooms in private houses and free-plan large apartments. **Pros**: reads as strongly "designer"/modern; where a bathroom has a corner-facing entry, a curved wall removes the harsh corner and gives a more comfortable, cozy feel. **Cons**: meaningfully harder to build (plastering, painting, and finishing all get more complex); **tile can no longer be used at all on a curved wall — only mosaic, or a roller/brush-applied finish (e.g. paint, microcement — see below)** works on a curved surface. `single-account`, `unverified`. [source: [[_Sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
 
@@ -13,75 +17,7 @@ Konstantin Kruglov / Ontario: rounded/curved (non-rectilinear) walls, mostly see
 
 **Real-project execution example, a named material (added 2026-08-28, Round 16)**: on a real 130m² secondary-market apartment, the designer specified rounded external corners at nearly every external corner in the apartment, plastered using **Волма (Volma)** brand mortar at the rough-plastering stage — a concrete, named-product real-project instance of the general rounded-corner/curved-wall trend already documented above, corroborating rather than adding a new mechanism. `single-account`, `unverified`. [source: [[_Sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
 
-## Microcement (микроцемент) as a Wall/Floor Finish — a 2025-2026 Trend (added 2026-08-24)
-
-Konstantin Kruglov / Ontario: microcement is a thin-applied, highly wear-resistant finish coating for both walls and floors — relevant to a bathroom both as a floor/wall finish in its own right and as one of the few materials that actually works on the curved walls described above. **Pros**: fully monolithic/seamless — no grout lines or joints anywhere across the whole floor+wall area, unlike tile; water-resistant, though this specifically depends on applying the correct topcoat/sealant ("лак") — water-resistance is a property of the finished system, not the raw material alone; reads as minimalist/aesthetic; available in a large range of textures and colors. **Cons**: requires a highly skilled, specialized installer — an incorrectly applied base coat *or* an incorrectly applied protective topcoat both mean the material won't deliver its claimed look, durability, or water-resistance; genuinely expensive, in both material and labor cost, not a budget option; less impact-resistant than porcelain tile (керамогранит) — more prone to mechanical damage. `single-account`, `unverified`. [source: [[_Sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
-
-## Petrishin-Stroi (design lead "Клара") — Practicality Rationale Behind Criticized Design Choices (added 2026-08-24)
-
-- **A concealed/flush-mount door still needs a baseboard** — the
-  baseboard is a technical joint (compensates wall/floor unevenness,
-  hides gaps/cables, allows material movement), not purely decorative;
-  a fully baseboard-free "floating wall" junction is possible but needs
-  perfectly flat walls/floor, a special profile, and 3-5x a standard
-  baseboard's budget.
-- **Baseboard 45° miter-seam visibility depends on material**: a
-  painted-film/laminated baseboard shows the miter seam; a duropolymer
-  baseboard primed and painted after installation hides it. **Material
-  tradeoff**: solid wood (premium, durable, repeatedly repaintable) vs.
-  MDF (budget, fine on flat walls, weak against prolonged water contact)
-  vs. plastic (most practical, genuinely moisture-resistant).
-- **Overhead glass display shelving in a kitchen is impractical** —
-  items placed above reach become effectively permanent display, not
-  real storage; prefer closed storage above reach. For a
-  handleless-upper-cabinet kitchen with no upper cabinets at all, open
-  shelving only works for a household that keeps genuinely minimal,
-  ordered clutter — otherwise it reads as visual noise. A small,
-  reachable glass display column for frequently-used dishware near an
-  upper cabinet is the suggested middle ground over full open-shelf
-  storage.
-- **Night-lighting options ranked by reversibility**: a pre-made
-  illuminated baseboard (motion-sensor or button) and a wall niche chased
-  above the baseboard with built-in fixtures are both permanent/custom;
-  battery-powered plug-and-place lights (e.g. "Xiaomi"-branded corner
-  units) are a reversible way to trial placement/preference before
-  committing to either permanent option.
-- **A soft/cushioned windowsill seat's practicality depends mainly on
-  street pollution level, not the feature itself** — doesn't need a
-  cushion pad to be usable, and the radiator typically below it keeps it
-  warm in winter; doesn't require a large room.
-- **Jacuzzi/whirlpool tub — a maintenance-burden tradeoff, not a flat
-  rejection**: costs more than a standard tub and needs frequent filter
-  cleaning/rinsing; framed as a valid choice only for a household
-  genuinely willing to maintain it.
-- **Plywood ("фанера") kitchen-cabinetry cost claim disputed**: in
-  response to a viewer citing plywood's ~90% prevalence in Israeli
-  kitchens as evidence of practicality/cheapness, the source states
-  plywood cabinetry actually costs *more* than enamel-finish cabinetry in
-  this market. `unverified` — the source's own disputed counter-claim,
-  not independently confirmed by this project.
-
-`single-account`, this practitioner's stated rationale, defending real
-design choices against real viewer criticism (comment-response Q&A
-format). [source: [[_Sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xnSNEqqs]]]
-
-## Petrishin-Stroi — Material Selection & Decor Technique from a Real 65m² Project (added 2026-08-24, Round 6)
-
-- **Humid-zone furniture facade rule**: bathroom furniture facades should use enamel (`эмаль`) finish, not laminate/foil, specifically because bathrooms are a high-humidity environment — decorative wood-look laminate inserts (`Egger`-type) are reserved for surfaces outside the wet-splash zone. `single-account`.
-- **Entry "dirty zone" flooring should repeat an already-selected durable/wet-tolerant material rather than extend the main flooring run** — this project's entry-hallway floor tile was matched to the kitchen backsplash tile specifically because the apartment's main flooring (engineered/parquet board) isn't moisture/dirt-resistant enough for a shoes-on entry zone; repeating an existing tile selection avoids introducing a third flooring material. `single-account`.
-- **Reversible kids'-room wall decor for a growing child**: paint the walls plainly and apply printed decals over the paint instead of real wallpaper — the decals are removable once the child outgrows the theme, leaving a plain paintable surface ready for a future teen redecoration without a repaint or wallpaper strip-out. `single-account`.
-- **Resolving a lighting-preference conflict between two occupants without a forced compromise**: in a shared bedroom where one occupant wanted a hanging pendant light and the other did not want one at all, the fix was an accent wall (stone-texture `скала` + wood panel) with integrated LED backlighting on one side and the requested pendant on the other — each side of the bed gets its own preferred lighting type rather than dropping either preference. `single-account`.
-
-[source: [[_Sources/YT_g1b6Hxx-HUk_petrishin_designer_secrets_65m2|YT_g1b6Hxx-HUk]]]
-
-## Petrishin-Stroi — Kitchen Material/Design Technique from a Real Chelomei St. Object (added 2026-08-24, Round 6)
-
-- **Same-material countertop-and-backsplash rationale**: a tile backsplash will always look at least slightly different from a stone/composite countertop, however carefully matched — making both from the same material gives a visually more coherent result than pairing a countertop with a tile backsplash. `single-account`.
-- **Deliberately non-built-in refrigerator as a visible design element**: this kitchen keeps an ordinary refrigerator with its own visible door rather than a fully integrated panel front, contrasted against a fully built-in range hood in the same run — an explicit choice, not an oversight, worth weighing against the more common all-built-in kitchen convention. `single-account`.
-
-[source: [[_Sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
-
-## Texture, Fаktura, and Relief — Three Distinct, Separately-Tunable Design Levers (ARCHWOOD, added 2026-08-25)
+### Texture, Fаktura, and Relief — Three Distinct, Separately-Tunable Design Levers (ARCHWOOD, added 2026-08-25)
 
 ARCHWOOD/Marina Izmailova (design-course episode 6) defines three
 concepts often conflated as "texture": **текстура** (a material's own
@@ -122,15 +58,34 @@ atmosphere despite looking similar in photos.
 
 [source: [[_Sources/YT_shYCuunkPEY_archwood_texture_pattern_relief|YT_shYCuunkPEY]]]
 
-## Clinker Tile Grout Lines — a Perceptual-Clutter Nuance, Distinct From the Dust Mechanism (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+### Round 2 — Natural Materials, Texture, and Curves-vs-Angles (Игорь Краснов, added 2026-09-01)
 
-**A new, distinct nuance from this page's existing dust-accumulation content**: Kruglov flags clinker tile's dense grout-joint pattern as visually reading like "a bit of a mess" — a perceptual/visual-noise effect from the joint lines themselves, separate from any dust or cleaning-difficulty mechanism. Explicitly not a flat rejection: he notes clinker fits some styles well and the caution is about overdoing it, not avoiding the material outright. `single-account`, `unverified`. [source: [[_Sources/YT_zugXvK4CBlM_kruglov_visual_noise_and_order|YT_zugXvK4CBlM]]]
+[source: [[_Sources/YT_ufKHek_TU30_krasnov_8_comfort_principles|ufKHek_TU30]], [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]]
 
-## Budget Faux-Concrete/Decorative-Plaster Backsplash Technique (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
+- **⚠️ Natural materials (wood, stone/marble/terrazzo, cork, woven natural-fiber baskets/rugs) read as calming via an evolutionary "connection to nature" framing** — subconscious association with forest/mountain/field environments. **Cites Peter Zumthor's writing on atmosphere as an explicit reference**: atmosphere is the interaction of light, material, sound, temperature, scale, and duration of stay — a real, nameable citation worth preserving. Balance warm natural materials against cold materials (metal, glass, mirrors); cold materials alone read "chic" but sterile.
+- **⚠️ Texture variety is necessary even within a minimalist palette** — flat/textureless surfaces read as visually "empty"/fatiguing. Recommends combining wood + stone + glass + metal, and limewash paint ("известковая краска") for a "living," unevenly textured wall finish. *(The raking-light-on-textured-surface lighting technique from the same source is recorded on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]], not duplicated here.)*
+- **⚠️ Soften "cold" materials (glass, MDF, metal) by substituting or layering in soft materials** — a pouf instead of a hard side table, throws/cushions added, mixing smooth/velvet/rough/knit textures together rather than one uniform textile finish.
+- **⚠️ Balance sharp rectilinear forms with at least one or two rounded/curved elements** — a styling-coherence rule. **The psychology-mechanism version of the same idea (curves read as calm/enclosing because nature has few straight lines; angles read as energetic/status but carry a child-safety caveat) is recorded on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]** — cross-reference rather than merge; this entry is the styling-coherence framing, that one is the mechanism.
+- **⚠️ Pillow-insert oversizing technique**: when buying a pillow cover and insert separately, buy an insert slightly LARGER than the cover's stated size so the finished pillow looks fuller/plumper rather than flat — a specific, checkable styling tip.
+- **⚠️ Cable management**: visible cable clutter (behind a TV, at a desk) instantly undercuts a premium look; use cable trays/channels/raceways matched to the room's style, hidden behind furniture or routed inside walls.
+- **Secondhand/vintage sourcing** (flea markets, Avito-equivalent resale platforms) as a legitimate route to a unique statement piece.
+- **⚠️ Custom/handmade/small-studio pieces (ceramics, lighting, textiles, art) create a "premium" read via genuine scarcity/craftsmanship** that mass-produced goods cannot replicate — a real, extractable claim about *why* bespoke/limited-production goods read as higher-status.
+- **One or two deliberate "wow" focal accents** (an oversized statement light fixture, a fireplace, a large art piece) elevate perceived status — pick a small number, not many. **Frame artwork properly** (a substantial mat/frame, not a bare canvas) for a more "finished"/gallery look.
+- **Tall potted plants in room corners add volume/life** — named species tolerating typical indoor conditions well: **ficus lyrata (fiddle-leaf fig), ficus elastica (rubber plant), sansevieria (snake plant), olive tree.** *(Compare Мария Шеврина / SMBUREAU's mid-century plant-species list above — olive tree for strict minimalism, ficus lyrata/monstera for mid-century — a partially overlapping but independently-sourced species list.)*
+
+`single-account`, `unverified`.
+
+## Plaster, Microcement and Material Substitution
+
+### Microcement (микроцемент) as a Wall/Floor Finish — a 2025-2026 Trend (added 2026-08-24)
+
+Konstantin Kruglov / Ontario: microcement is a thin-applied, highly wear-resistant finish coating for both walls and floors — relevant to a bathroom both as a floor/wall finish in its own right and as one of the few materials that actually works on the curved walls described above. **Pros**: fully monolithic/seamless — no grout lines or joints anywhere across the whole floor+wall area, unlike tile; water-resistant, though this specifically depends on applying the correct topcoat/sealant ("лак") — water-resistance is a property of the finished system, not the raw material alone; reads as minimalist/aesthetic; available in a large range of textures and colors. **Cons**: requires a highly skilled, specialized installer — an incorrectly applied base coat *or* an incorrectly applied protective topcoat both mean the material won't deliver its claimed look, durability, or water-resistance; genuinely expensive, in both material and labor cost, not a budget option; less impact-resistant than porcelain tile (керамогранит) — more prone to mechanical damage. `single-account`, `unverified`. [source: [[_Sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
+
+### Budget Faux-Concrete/Decorative-Plaster Backsplash Technique (Nikita Kuznetsov, Ontario, added 2026-08-28, Round 16)
 
 **⚠️ A real, checkable technique for a "decorative plaster" or "raw concrete" look at a fraction of the real material's cost**: rather than a specialty decorative-plaster product, box out the target area with plain gypsum-board panels ("закладные"), skim it with standard, inexpensive plaster (Ротбанд/Rotband or equivalent), hand-work the surface texture while wet, then paint and finish with a protective varnish/lacquer topcoat. On a real kitchen backsplash-adjacent wall, this read as visually indistinguishable from large-format tile, poured concrete, or genuine decorative plaster to a casual viewer, at a fraction of any of those materials' real cost — the presenter states this technique is now used repeatedly across projects specifically because clients respond well to it. A genuinely new budget-tier technique for this store's decorative-finish content. `single-account`, `unverified`. [source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
 
-## Disguise, Refinish, and Material-Substitution Technique From a Real Dubai Apartment (Sergey Kodolov + designer Tatiana, added 2026-08-25)
+### Disguise, Refinish, and Material-Substitution Technique From a Real Dubai Apartment (Sergey Kodolov + designer Tatiana, added 2026-08-25)
 
 **⚠️ Region note**: this real completed apartment is in Dubai, UAE, not
 Russia/Belarus — the technique/reasoning below is market-agnostic and
@@ -177,7 +132,9 @@ project's own market.
 
 [source: [[_Sources/YT_IoQaozB-DYA_kodolov_dubai_cheap_expensive_looking_apartment|YT_IoQaozB-DYA]]]
 
-## ⚠️ Why the Flush-Junction Rule Matters — the Near-Miss Mechanism (added 2026-08-31)
+## Junctions, Trims and Mouldings
+
+### ⚠️ Why the Flush-Junction Rule Matters — the Near-Miss Mechanism (added 2026-08-31)
 
 This studio has asserted "don't glue a finish onto an already-finished wall" across five separate videos now, on several pages of this vault. **A subscriber critique finally supplies the perceptual mechanism, and it generalises far beyond tiling:**
 
@@ -194,7 +151,7 @@ Two related rules from the same source:
 
 [source: [[_Sources/YT_p5lXLETWI5s_shevrina_subscriber_critique_minimalism|YT_p5lXLETWI5s]]]
 
-## Trims, Skirting and Mouldings — the Case Against, Now With Evidence (added 2026-08-31)
+### Trims, Skirting and Mouldings — the Case Against, Now With Evidence (added 2026-08-31)
 
 This vault already records this studio rejecting tile corner trims three times. **The minimalism video adds evidence rather than repetition:** she notes that **abroad, and even in Russian developers' own common-area finishes, everything is done flush**, and that she has repeatedly executed flush details on her own projects and found them **durable** — "живучие решения." **This directly counters the usual objection that flush junctions are fragile**, which is the main argument for keeping trims.
 
@@ -204,53 +161,7 @@ This vault already records this studio rejecting tile corner trims three times. 
 
 [source: [[_Sources/YT_Bnuim5NjgCU_shevrina_worst_minimalism_decisions|YT_Bnuim5NjgCU]]] [source: [[_Sources/YT_A5G04uPvzL0_shevrina_subscriber_critique_midcentury|YT_A5G04uPvzL0]]]
 
-## ⚠️ Hardware Finish Durability, Faux-Material Tells, and Entryway Pouf Placement (Игорь Краснов, added 2026-09-01)
-
-[source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]
-
-- **⚠️ Hardware finish durability**: matte finishes — brass, bronze, nickel — age well and don't lose their look, versus glossy/"rhinestone"-finish hardware which loses its sheen within a couple of months, scratches, and (for gold-look plastic) visibly reveals itself as fake metal. Applies to door handles, kitchen cabinet handles, bathroom hardware generally. If real gold/brass is wanted, buy the real material rather than a glossy imitation.
-- **⚠️ Faux-material tells, three named — a general material-honesty checklist**: (1) tile imitating stone/wood/marble with a visibly repeating pattern (e.g. only 2–3 unique tile faces) or an unnaturally small format reads as fake immediately; (2) laminate/quartz-vinyl **without a bevel edge** risks reading as linoleum, since there's no surface texture break between planks; (3) an LDSP kitchen countertop imitating stone/marble is exposed by touch — it feels warm, where stone reads cool. His own studio's practice: use substitute materials only in low-visibility or heavy-wear zones, and only genuinely good-quality modern versions — not a blanket ban on synthetic materials.
-- **Entryway pouf-under-console placement**: a Pinterest staple that fails in daily use — pulling the pouf out from under the console every time to sit down is inconvenient enough that it migrates around the room instead of returning to its spot. **Fix: give the pouf its own dedicated spot beside the console, not underneath it**, if it will genuinely be used daily.
-
-`single-account`, `unverified`.
-
-## Round 2 — Natural Materials, Texture, and Curves-vs-Angles (Игорь Краснов, added 2026-09-01)
-
-[source: [[_Sources/YT_ufKHek_TU30_krasnov_8_comfort_principles|ufKHek_TU30]], [[_Sources/YT_vqDhBjDJAgA_krasnov_premium_interior_11tips|vqDhBjDJAgA]]]
-
-- **⚠️ Natural materials (wood, stone/marble/terrazzo, cork, woven natural-fiber baskets/rugs) read as calming via an evolutionary "connection to nature" framing** — subconscious association with forest/mountain/field environments. **Cites Peter Zumthor's writing on atmosphere as an explicit reference**: atmosphere is the interaction of light, material, sound, temperature, scale, and duration of stay — a real, nameable citation worth preserving. Balance warm natural materials against cold materials (metal, glass, mirrors); cold materials alone read "chic" but sterile.
-- **⚠️ Texture variety is necessary even within a minimalist palette** — flat/textureless surfaces read as visually "empty"/fatiguing. Recommends combining wood + stone + glass + metal, and limewash paint ("известковая краска") for a "living," unevenly textured wall finish. *(The raking-light-on-textured-surface lighting technique from the same source is recorded on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]], not duplicated here.)*
-- **⚠️ Soften "cold" materials (glass, MDF, metal) by substituting or layering in soft materials** — a pouf instead of a hard side table, throws/cushions added, mixing smooth/velvet/rough/knit textures together rather than one uniform textile finish.
-- **⚠️ Balance sharp rectilinear forms with at least one or two rounded/curved elements** — a styling-coherence rule. **The psychology-mechanism version of the same idea (curves read as calm/enclosing because nature has few straight lines; angles read as energetic/status but carry a child-safety caveat) is recorded on [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning & Furniture Arrangement]]** — cross-reference rather than merge; this entry is the styling-coherence framing, that one is the mechanism.
-- **⚠️ Pillow-insert oversizing technique**: when buying a pillow cover and insert separately, buy an insert slightly LARGER than the cover's stated size so the finished pillow looks fuller/plumper rather than flat — a specific, checkable styling tip.
-- **⚠️ Cable management**: visible cable clutter (behind a TV, at a desk) instantly undercuts a premium look; use cable trays/channels/raceways matched to the room's style, hidden behind furniture or routed inside walls.
-- **Secondhand/vintage sourcing** (flea markets, Avito-equivalent resale platforms) as a legitimate route to a unique statement piece.
-- **⚠️ Custom/handmade/small-studio pieces (ceramics, lighting, textiles, art) create a "premium" read via genuine scarcity/craftsmanship** that mass-produced goods cannot replicate — a real, extractable claim about *why* bespoke/limited-production goods read as higher-status.
-- **One or two deliberate "wow" focal accents** (an oversized statement light fixture, a fireplace, a large art piece) elevate perceived status — pick a small number, not many. **Frame artwork properly** (a substantial mat/frame, not a bare canvas) for a more "finished"/gallery look.
-- **Tall potted plants in room corners add volume/life** — named species tolerating typical indoor conditions well: **ficus lyrata (fiddle-leaf fig), ficus elastica (rubber plant), sansevieria (snake plant), olive tree.** *(Compare Мария Шеврина / SMBUREAU's mid-century plant-species list above — olive tree for strict minimalism, ficus lyrata/monstera for mid-century — a partially overlapping but independently-sourced species list.)*
-
-`single-account`, `unverified`.
-
-## Flannel and Ruffles — Two Textile Critiques (Игорь Краснов, added 2026-09-01, Round 3)
-
-[source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
-
-- **⚠️ Flannel bedding/throws/bedspreads — critiqued specifically, distinct from general textile-quality content already on this page**: pills and wears quickly, loses appearance and can fade even with careful use, drapes/folds poorly (doesn't create clean crisp folds, looks "heavy"/shapeless even when freshly made), and can develop a rough/slightly "squeaky" texture over time especially in cheaper versions. Strongly associated stylistically with a rustic/cabin/dacha aesthetic rather than an urban/modern one — reserve flannel for a genuine country-house/cabin context rather than a city apartment, since the fabric TEXTURE itself (not just the colour) signals a particular rustic register.
-- **⚠️ Ruffles/frills («рюши») on curtains, bedspreads, pillows, or tablecloths** — critiqued as reading dated/fussy/"visual noise," especially when used SYSTEMATICALLY across multiple textile items rather than as one isolated vintage detail. Works in narrow specific contexts (a kids' room styled in a Provence aesthetic, or a home with an intentional vintage/doll-house aesthetic) but clashes with a modern/urban/restrained interior — ruffles literally break clean lines/geometry in favor of "shapeless waviness," working against the room's overall architecture. **Recommended structured alternatives**: for curtains, **"Ripple Fold" or French pleat** styles (clean, directional vertical folds — cross-reference `17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware.md`); for bedding, linen/cotton with a crisp defined edge rather than a gathered/ruffled edge; for pillows, piped edges or quilted/stitched detail rather than a gathered ruffle trim.
-
-`single-account`, `unverified`.
-
-## ⚠️ Ceiling Color-Matching, Stretch-Ceiling Gloss vs. Matte, and the Drywall-Ceiling Hierarchy (Игорь Краснов, added 2026-09-01, Round 6)
-
-[source: [[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors|sAxHiPERmmY]]]
-
-- **⚠️ Ceiling-to-wall color-matching technique — a strong, well-explained mechanism**: paint the ceiling the SAME color as the walls (or one shade darker/lighter) rather than defaulting to white — creates a "cocoon"/enveloping effect that makes a room read taller, more spacious, and more expensive. A white ceiling against colored/textured walls creates a jarring visual "cutoff" that makes the room read SHORTER than its actual height and draws unwanted attention to the ceiling itself as a mismatched plane. Explicitly named as a technique "many designers already use" for exactly this reason.
-- **⚠️ Glossy stretch ceilings critiqued, with an explicit matte exception**: glare/reflection from any light source effectively doubles visually (fixture plus its reflection), creating visual noise; reads as cheap regardless of actual cost, explicitly compared to "cheap stretched plastic film." **He explicitly states he is NOT against matte stretch ceilings** — a perfectly good, non-critiqued solution — the critique is specifically about gloss finish. A white glossy ceiling in an already low-ceilinged room compounds the height-reducing effect above.
-- **⚠️ Ceiling-system hierarchy for premium work**: track and point/recessed downlights are both explicitly defended as perfectly fine, currently-popular choices — he specifically pushes back on the "point lighting = dated 2000s Eurorenovation" stereotype as unfair. For a genuinely premium, long-lasting interior, a drywall/dropped ceiling («гипсокартон») is "unbeatable" — costlier and more labor-intensive, but offers maximum design flexibility (paintable any color, moldable into any custom form). Explicitly ties back to the color-matching technique above (paint the drywall ceiling to match the walls) as "the technique used in premium interiors."
-
-`single-account`, `unverified`.
-
-## ⚠️ Moldings-as-Architecture, a Real Applied Case, and Named Art-Sourcing Venues (Игорь Краснов, added 2026-09-02, Round 9)
+### ⚠️ Moldings-as-Architecture, a Real Applied Case, and Named Art-Sourcing Venues (Игорь Краснов, added 2026-09-02, Round 9)
 
 [source: [[_Sources/YT_Yt3yAPjrLhk_krasnov_5solutions_clients_love|Yt3yAPjrLhk]]]
 
@@ -266,7 +177,42 @@ This vault already records this studio rejecting tile corner trims three times. 
 
 `single-account`, `unverified`.
 
-## Beige-Undertone-vs-Lighting-Temperature Interaction (Игорь Краснов, added 2026-09-02, Round 9)
+## Finish Interactions — Colour, Light and Durability
+
+### Clinker Tile Grout Lines — a Perceptual-Clutter Nuance, Distinct From the Dust Mechanism (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**A new, distinct nuance from this page's existing dust-accumulation content**: Kruglov flags clinker tile's dense grout-joint pattern as visually reading like "a bit of a mess" — a perceptual/visual-noise effect from the joint lines themselves, separate from any dust or cleaning-difficulty mechanism. Explicitly not a flat rejection: he notes clinker fits some styles well and the caution is about overdoing it, not avoiding the material outright. `single-account`, `unverified`. [source: [[_Sources/YT_zugXvK4CBlM_kruglov_visual_noise_and_order|YT_zugXvK4CBlM]]]
+
+### ⚠️ Hardware Finish Durability, Faux-Material Tells, and Entryway Pouf Placement (Игорь Краснов, added 2026-09-01)
+
+[source: [[_Sources/YT_NvHEQ7vnxfI_krasnov_8things_cheap_apartment|NvHEQ7vnxfI]]]
+
+- **⚠️ Hardware finish durability**: matte finishes — brass, bronze, nickel — age well and don't lose their look, versus glossy/"rhinestone"-finish hardware which loses its sheen within a couple of months, scratches, and (for gold-look plastic) visibly reveals itself as fake metal. Applies to door handles, kitchen cabinet handles, bathroom hardware generally. If real gold/brass is wanted, buy the real material rather than a glossy imitation.
+- **⚠️ Faux-material tells, three named — a general material-honesty checklist**: (1) tile imitating stone/wood/marble with a visibly repeating pattern (e.g. only 2–3 unique tile faces) or an unnaturally small format reads as fake immediately; (2) laminate/quartz-vinyl **without a bevel edge** risks reading as linoleum, since there's no surface texture break between planks; (3) an LDSP kitchen countertop imitating stone/marble is exposed by touch — it feels warm, where stone reads cool. His own studio's practice: use substitute materials only in low-visibility or heavy-wear zones, and only genuinely good-quality modern versions — not a blanket ban on synthetic materials.
+- **Entryway pouf-under-console placement**: a Pinterest staple that fails in daily use — pulling the pouf out from under the console every time to sit down is inconvenient enough that it migrates around the room instead of returning to its spot. **Fix: give the pouf its own dedicated spot beside the console, not underneath it**, if it will genuinely be used daily.
+
+`single-account`, `unverified`.
+
+### Flannel and Ruffles — Two Textile Critiques (Игорь Краснов, added 2026-09-01, Round 3)
+
+[source: [[_Sources/YT_zZO7y7Rpbk4_krasnov_9worst_mistakes_home|zZO7y7Rpbk4]]]
+
+- **⚠️ Flannel bedding/throws/bedspreads — critiqued specifically, distinct from general textile-quality content already on this page**: pills and wears quickly, loses appearance and can fade even with careful use, drapes/folds poorly (doesn't create clean crisp folds, looks "heavy"/shapeless even when freshly made), and can develop a rough/slightly "squeaky" texture over time especially in cheaper versions. Strongly associated stylistically with a rustic/cabin/dacha aesthetic rather than an urban/modern one — reserve flannel for a genuine country-house/cabin context rather than a city apartment, since the fabric TEXTURE itself (not just the colour) signals a particular rustic register.
+- **⚠️ Ruffles/frills («рюши») on curtains, bedspreads, pillows, or tablecloths** — critiqued as reading dated/fussy/"visual noise," especially when used SYSTEMATICALLY across multiple textile items rather than as one isolated vintage detail. Works in narrow specific contexts (a kids' room styled in a Provence aesthetic, or a home with an intentional vintage/doll-house aesthetic) but clashes with a modern/urban/restrained interior — ruffles literally break clean lines/geometry in favor of "shapeless waviness," working against the room's overall architecture. **Recommended structured alternatives**: for curtains, **"Ripple Fold" or French pleat** styles (clean, directional vertical folds — cross-reference `17_Design_and_Ergonomics/analysis/Curtain_Sizing_Mounting_and_Hardware.md`); for bedding, linen/cotton with a crisp defined edge rather than a gathered/ruffled edge; for pillows, piped edges or quilted/stitched detail rather than a gathered ruffle trim.
+
+`single-account`, `unverified`.
+
+### ⚠️ Ceiling Color-Matching, Stretch-Ceiling Gloss vs. Matte, and the Drywall-Ceiling Hierarchy (Игорь Краснов, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_sAxHiPERmmY_krasnov_horrible_pinterest_interiors|sAxHiPERmmY]]]
+
+- **⚠️ Ceiling-to-wall color-matching technique — a strong, well-explained mechanism**: paint the ceiling the SAME color as the walls (or one shade darker/lighter) rather than defaulting to white — creates a "cocoon"/enveloping effect that makes a room read taller, more spacious, and more expensive. A white ceiling against colored/textured walls creates a jarring visual "cutoff" that makes the room read SHORTER than its actual height and draws unwanted attention to the ceiling itself as a mismatched plane. Explicitly named as a technique "many designers already use" for exactly this reason.
+- **⚠️ Glossy stretch ceilings critiqued, with an explicit matte exception**: glare/reflection from any light source effectively doubles visually (fixture plus its reflection), creating visual noise; reads as cheap regardless of actual cost, explicitly compared to "cheap stretched plastic film." **He explicitly states he is NOT against matte stretch ceilings** — a perfectly good, non-critiqued solution — the critique is specifically about gloss finish. A white glossy ceiling in an already low-ceilinged room compounds the height-reducing effect above.
+- **⚠️ Ceiling-system hierarchy for premium work**: track and point/recessed downlights are both explicitly defended as perfectly fine, currently-popular choices — he specifically pushes back on the "point lighting = dated 2000s Eurorenovation" stereotype as unfair. For a genuinely premium, long-lasting interior, a drywall/dropped ceiling («гипсокартон») is "unbeatable" — costlier and more labor-intensive, but offers maximum design flexibility (paintable any color, moldable into any custom form). Explicitly ties back to the color-matching technique above (paint the drywall ceiling to match the walls) as "the technique used in premium interiors."
+
+`single-account`, `unverified`.
+
+### Beige-Undertone-vs-Lighting-Temperature Interaction (Игорь Краснов, added 2026-09-02, Round 9)
 
 **⚠️ CONFIRMED THIN SOURCE — heavily restates the 60/30/10 rule, colour psychology, and timeless-palette content already logged extensively across many rounds (especially Round 5's `vM7inxJZ-6U` and Round 7's `mqT-osK7Dkc` on the 60/30/10 endorsement). Reported honestly, one genuinely mildly-new addition only.** [source: [[_Sources/YT_Mt7Puhphbjo_krasnov_stop_beige|Mt7Puhphbjo]]]
 
@@ -276,3 +222,7 @@ This vault already records this studio rejecting tile corner trims three times. 
 ---
 
 Part of [[17_Design_and_Ergonomics/Design_and_Ergonomics_Guide|Design & Ergonomics]].
+
+## Practitioners' own material-selection accounts — moved to their own page
+
+See **[[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]]**. This page keeps the technique and the rules those accounts are read against.

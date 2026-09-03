@@ -6,7 +6,11 @@ See also [[02_Hallway/analysis/Layout_and_Zoning|Hallway — Layout & Zoning]]
 for Olga Kachanova's real case on sequencing an entry storage/closet zone
 *before* a kitchen or other prep-function zone, not after.
 
-## The Open-vs-Closed Shoe Storage Disagreement
+## Shoe Storage — the Open-vs-Closed Disagreement
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### The Open-vs-Closed Shoe Storage Disagreement
 
 Konstantin Kruglov (Ontario) recommends **closed storage over open
 shelving/hooks by default** for entryway shoe/coat storage, despite the
@@ -33,7 +37,19 @@ and the idealized-vs-real-shoe-condition mechanism, vs. a specific
 daily-use display case) — weigh which matters more for your own household
 rather than treating either as settled.
 
-## Storage Sizing & Consolidation Techniques
+### Three-Tier Doormat Dust Defense, and a Shoe-Podium Figure (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
+
+**⚠️ A single doormat isn't enough — Kruglov's own recommended system is three sequential defense layers**: (1) tap/scrape shoes outside the building entrance itself before entering (the outermost layer); (2) a stiff-bristle mat immediately outside the apartment's own front door; (3) a second mat just inside the apartment door. **All three won't be fully effective without regular cleaning of at least the two apartment-adjacent mats** — the system reduces, not eliminates, tracked-in dust and dirt. New to this store — existing entry-mat content (Alla Krol, above) covers planning/sizing a doormat at design stage, not this specific 3-tier layered structure. `single-account`, `unverified`.
+
+**Extends the existing robot-vacuum-compatible shoe-podium note above (from `qt5mQQ6W6Z4`) with a concrete height figure and a routine**: raise the shoe shelf roughly **10cm** above the main floor level specifically so a robot vacuum can run underneath without needing shoes moved first. Recommended routine: before a cleaning run, wipe the shelf itself with a cloth so the robot vacuum then clears whatever dust was swept off it onto the floor below, rather than just running around already-parked shoes. [source: [[_Sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
+
+### ⚠️ Heated Floor Under a Floating Shoe Cabinet (Игорь Краснов, added 2026-09-01)
+
+**Hide shoes behind closed cabinet doors** (not an open shelf/rack — described as visually chaotic with mismatched shoe shapes/sizes) **and combine with underfloor heating across the entryway/hallway zone**, including running the heated floor **under a "floating" (wall-bracket-mounted) shoe cabinet** so shoes stored beneath sit on a warm floor rather than a cold one — addresses the specific climate problem of shoes arriving wet/cold/snow-covered for most of the year. Requires detailed coordination with the cabinet manufacturer at design stage (bracket engineering, floor-heating layout) rather than an afterthought. **Complements this page's existing robot-vacuum-compatible raised-shelf note above** (Kruglov, `qt5mQQ6W6Z4`/`iEm_mwCJpfA`) — both raise the shoe storage off the main floor, but for different reasons (robot-vacuum clearance vs. heated-floor warmth) and via different mechanisms (a fixed ~10cm platform vs. a full floating cabinet on brackets). `single-account`, `unverified`. [source: [[_Sources/YT_6ttTd82TWPM_krasnov_closets_wasting_space|6ttTd82TWPM]]]
+
+## Sizing, Consolidation and Accessory-Level Technique
+
+### Storage Sizing & Consolidation Techniques
 
 - **Shallow (15cm) bathroom-department wall cabinets repurposed as slim
   kitchen/entry wall storage** for small items, where a standard-depth
@@ -88,7 +104,7 @@ rather than treating either as settled.
   sitting to put on shoes and setting down keys/gloves/a bag on arrival,
   called a near-mandatory entry element for that reason.
 
-## Accessory-Level Techniques (Kruglov, "50 Storage Ideas," added 2026-08-28, Round 13 triage)
+### Accessory-Level Techniques (Kruglov, "50 Storage Ideas," added 2026-08-28, Round 13 triage)
 
 Konstantin Kruglov / Ontario, from a general apartment-wide storage
 catalog: **robot-vacuum-compatible open shoe storage** — if the
@@ -108,17 +124,7 @@ sponge instead, and add a raised edge to any open catch-all surface that
 is used, or loose items slide off it. `single-account`, `unverified`.
 [source: [[_Sources/YT_qt5mQQ6W6Z4_kruglov_storage_50_ideas|YT_qt5mQQ6W6Z4]]]
 
-## Three-Tier Doormat Dust Defense, and a Shoe-Podium Figure (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
-
-**⚠️ A single doormat isn't enough — Kruglov's own recommended system is three sequential defense layers**: (1) tap/scrape shoes outside the building entrance itself before entering (the outermost layer); (2) a stiff-bristle mat immediately outside the apartment's own front door; (3) a second mat just inside the apartment door. **All three won't be fully effective without regular cleaning of at least the two apartment-adjacent mats** — the system reduces, not eliminates, tracked-in dust and dirt. New to this store — existing entry-mat content (Alla Krol, above) covers planning/sizing a doormat at design stage, not this specific 3-tier layered structure. `single-account`, `unverified`.
-
-**Extends the existing robot-vacuum-compatible shoe-podium note above (from `qt5mQQ6W6Z4`) with a concrete height figure and a routine**: raise the shoe shelf roughly **10cm** above the main floor level specifically so a robot vacuum can run underneath without needing shoes moved first. Recommended routine: before a cleaning run, wipe the shelf itself with a cloth so the robot vacuum then clears whatever dust was swept off it onto the floor below, rather than just running around already-parked shoes. [source: [[_Sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]
-
-## ⚠️ Heated Floor Under a Floating Shoe Cabinet (Игорь Краснов, added 2026-09-01)
-
-**Hide shoes behind closed cabinet doors** (not an open shelf/rack — described as visually chaotic with mismatched shoe shapes/sizes) **and combine with underfloor heating across the entryway/hallway zone**, including running the heated floor **under a "floating" (wall-bracket-mounted) shoe cabinet** so shoes stored beneath sit on a warm floor rather than a cold one — addresses the specific climate problem of shoes arriving wet/cold/snow-covered for most of the year. Requires detailed coordination with the cabinet manufacturer at design stage (bracket engineering, floor-heating layout) rather than an afterthought. **Complements this page's existing robot-vacuum-compatible raised-shelf note above** (Kruglov, `qt5mQQ6W6Z4`/`iEm_mwCJpfA`) — both raise the shoe storage off the main floor, but for different reasons (robot-vacuum clearance vs. heated-floor warmth) and via different mechanisms (a fixed ~10cm platform vs. a full floating cabinet on brackets). `single-account`, `unverified`. [source: [[_Sources/YT_6ttTd82TWPM_krasnov_closets_wasting_space|6ttTd82TWPM]]]
-
-## Switch Placement, Wardrobe Depth, Mirrored-Door Fingerprints, and Flooring (Игорь Краснов, added 2026-09-01, Round 5)
+### Switch Placement, Wardrobe Depth, Mirrored-Door Fingerprints, and Flooring (Игорь Краснов, added 2026-09-01, Round 5)
 
 A comparative-methodology format applied to a real project photo, with genuinely new entryway-specific content this vault likely under-covers. [source: [[_Sources/YT_u4yj6dD01aE_krasnov_expensive_vs_cheap_renovation|u4yj6dD01aE]]]
 
@@ -126,6 +132,59 @@ A comparative-methodology format applied to a real project photo, with genuinely
 - **⚠️ Mirrored sliding-closet-door fingerprint issue**: if a sliding closet door has no visible pull handle and must be opened by pressing directly on its mirrored surface, fingerprints/smudges accumulate constantly on the mirror — a real functional flaw distinct from pure aesthetics, worth weighing when specifying a handleless mirrored-door wardrobe (compare the existing flush/handleless entry-storage doors already on this page from GRADIZ INTERIOR above, which don't carry a mirror surface and so don't have this specific problem).
 - **⚠️ Entryway wardrobe minimum depth — a specific, new numeric standard**: minimum **60cm depth**; a narrower 50cm depth forces bulky winter clothing to be crammed/stuffed rather than hung properly. Compare against this page's existing GRADIZ figures above (35cm for a shoe cabinet, 60cm for a separate outerwear closet) — this independently converges on the same 60cm figure for hanging outerwear storage specifically.
 - **Entryway/hallway flooring material reinforcement**: porcelain tile or stone-look tile remains the best choice over wood specifically for entryways, because even the hardest wood species is more susceptible to mechanical wear than stone in a high-traffic entry zone, and any material's joints/grout lines accumulate dirt regardless — reinforces existing material-durability logic, applied specifically to entryways.
+
+`single-account`, `unverified`.
+
+## The Entrance Door and Its Reveals
+
+### Lightening the Entrance Door — Three Levels (added 2026-08-30)
+
+Her framing: an entrance door is structurally busy and carries far more visible hardware than an interior door — handle, thumbturn, keyholes, spyhole. Three escalating solutions:
+
+1. **Simplest.** A plain flat MDF overlay panel — **no filenki, no wood texture** — frame painted to match, and **ideally the whole assembly in the wall colour**. Then match the hardware finish to whatever the interior doors will use.
+2. **⚠️ A contrasting finish, but only if it runs to the ceiling.** If the entrance door gets a different finish (wood, say), **carry the same material above the door up to the ceiling** — otherwise it reads as "какой-то заплаткой на стене," a patch. **Either the whole wall takes one finish, or the finish is door-width but full-height.** She notes other designers use the same "плаcтырь/заплатка" language for this failure.
+3. **⚠️ A second, concealed *interior* door as a second contour inside the entrance door.** Her argument against relying on a concealed entrance door alone: **"у них скрыты лишь петли"** — handles, thumbturns and spyholes remain, and the hardware range for entrance doors is neither as large nor as attractive as for interior doors.
+
+The second-contour door is already on record in this vault from the same channel (see `z4G-ocStu9o`), with the same psychological rationale — the entrance is often visible from a seating position, and an interior door reads as another room rather than a front door. **Same channel, so this is a restatement rather than corroboration**, but it adds the hardware argument and the hidden-hinges point. She says they now do this "объект за объектом" and can barely remember the last ordinary entrance door they installed.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
+
+### ⚠️ She Pushes Back on the Reveal-Protection Premise (added 2026-08-30)
+
+Asked how to protect entrance-door reveals from being knocked, **she questions whether the problem is real** rather than answering — asking under what circumstances people actually damage them, noting that during construction they are unfinished and then protected, and that neither she nor her clients have found a reason. She allows it may be genuine for a household carrying bikes, prams or bulky items regularly.
+
+Her conclusion generalises well past this topic and is worth recording verbatim as a posture: **"не берите на веру любые советы из интернета — даже мои. Обязательно примеряйте на себя, задавайте дополнительные вопросы."**
+
+Consistent with her position elsewhere that reveals should simply be painted in a higher wear class — see [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]]. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
+
+## Critiques and Real Project Cases
+
+### ⚠️ Zigzag-Wall Entryway Wardrobe — a Real Project Case (Игорь Краснов, added 2026-09-01, Round 4)
+
+A specific, real, technique-level layout solution from his own studio's practice. In a cramped 60m² apartment, the entry nook was reconfigured by **recessing part of the corridor wall by 600mm** to create a flush, built-in three-section wardrobe (1800mm wide) directly opposite the entrance door, while keeping a separate open zone to the side for a mirror and a pouf/bench for putting on shoes. States the same approach works at both small (60m²) and large (250m²) scale — the technique is about creating a flush recess for the wardrobe rather than letting it protrude into the entry, keeping the sightline on entry uncluttered. `single-account`, `unverified`. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
+
+### Entryway Critique Cluster — Open-Shelf Clutter, Toe-Kick Figure, Hardware Mismatch, and Ceiling-Fixture Dominance (Игорь Краснов, added 2026-09-02, Round 7)
+
+Third Pinterest real-image critique episode, methodically working through two separate entryway reference images. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
+
+- **⚠️ Open/lit display shelving near an entryway becomes a clutter dump — a specific, genuinely new critique**: attractive lit display shelving near the entrance inevitably becomes a dump for keys/receipts/coins/chargers in real daily use rather than staying purely decorative — the shelf's own accent lighting then highlights this clutter rather than a styled vignette. Recommends closed storage instead for anything genuinely needing catch-all storage, reserving open/lit shelving only for deliberate display.
+- **⚠️ Toe-level/under-cabinet lighting in an entryway specifically critiqued for highlighting dirt/moisture tracked in from shoes** — a "don't backlight the dirtiest zone" critique, genuinely new for this page.
+- **⚠️ Entryway/wardrobe cabinet toe-kick, extends existing kitchen-specific kickplate content (Round 3) to entryway/wardrobe cabinets: ~8cm as "standard"** — explicitly warns a missing kickplate risks the cabinet door catching/scraping on an uneven floor.
+- **Style-mismatch example**: black hooks against otherwise-neoclassical wood paneling — a specific critique of small hardware finish clashing with a room's dominant style. Suggested fix: match hook finish to the cabinet hardware's tone (matte brass or warm nickel) instead of stark black; also critiques the wood panel's own grain/rhythm as visually competing with the cabinet fascia's geometry, recommending a calmer, more repetitive texture rhythm (thin vertical lines or light inserts).
+- **Oversized black ceiling fixtures in an entryway drawing attention away from the actual furniture centerpiece** — a specific "wrong element is drawing focus" critique.
+- Glass cabinet fronts get fingerprinted within days of active daily use (restates existing content with a specific "days, not months" timeframe). Push-to-open entryway cabinet mechanisms critiqued again (dirty outdoor hands) — recommends integrated or visible discreet handles instead (restates, cross-reference).
+- **⚠️ Milled/fluted panel terminology clarification, genuinely new**: fluted panel texture («фрезеровка», explicitly distinguished from wood-slat wall panels «рейки», which look superficially similar) collects dust/dirt in the grooves — a specific material-maintenance note that also clarifies milled-panel vs. slat-wall terminology; cross-reference [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]] for the fuller wall-finish version.
+
+`single-account`, `unverified`.
+
+### Top-Hung Sliding Glass Wardrobe Partition, Entry-Sequence Organization, and Mirror Proportion Rules (Игорь Краснов, real projects, added 2026-09-02, Round 8)
+
+Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
+
+- **⚠️ Top-hung sliding glass wardrobe partition, a specific, real, genuinely new construction detail**: entryway wardrobe hidden behind sliding glass partitions, ~270cm floor-to-ceiling height, graphite-tinted semi-transparent glass (shows garment silhouette without visual clutter). Panels move on a TOP-HUNG track with NO floor rail — keeps the floor completely clean and door movement light/silent, an explicit improvement over a floor-rail track ("который всегда, в общем-то, мешает").
+- **⚠️ Entryway wardrobe interior organized by entry sequence, a specific, concrete layout technique**: immediately behind the door — coat rail for outerwear; next — a shoe compartment with per-shelf lighting; pull-out drawers for accessories; top shelves for seasonal-storage boxes. [source: XU7YAfZ9xuM]
+- **Full-height entryway mirror with integrated perimeter backlighting, a real dimension**: **90×240cm**. [source: XU7YAfZ9xuM]
+- **⚠️ Circular entry mirror sized to align its top edge with the entry door's top edge and its bottom edge just above the baseboard — a specific proportional mirror-sizing rule tied to door geometry, genuinely new for this page**, distinct from the full-height rectangular mirror above. [source: uPNKwSkxtKg]
 
 `single-account`, `unverified`.
 
@@ -144,55 +203,6 @@ A comparative-methodology format applied to a real project photo, with genuinely
 - **⚠️ Concrete worked scenario illustrating the confusion above (added 2026-08-28, Round 16)**: a bedroom/walk-in/bathroom zone has both its own local "zone master switch" (kills lights in those 3 rooms together) and the apartment's own whole-apartment exit switch. Real case: partner A turns off the zone master switch at bedtime; partner B wakes first, leaves without turning any bedroom light on, and hits the whole-apartment exit switch on the way out — which turns *on* every light in the apartment except that already-off bedroom zone (since it wasn't "on" for the exit switch to toggle off). Partner A, woken by the sudden light elsewhere, has to work out this exact sequence before realizing the bedroom zone needs its own switch pressed twice (off-then-on) to restore normal lighting — a genuinely confusing multi-switch interaction, not solvable by a quick label. **Practical fix stated directly**: standardize on one single, consistent lighting-control philosophy across the whole apartment (either one master switch full-stop, or none at all) rather than layering a zone master switch on top of a whole-apartment one. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
 
 [source: [[_Sources/YT_cM0AndkKdVk_kruglov_top_entryway_solutions|YT_cM0AndkKdVk]]]
-
-## Lightening the Entrance Door — Three Levels (added 2026-08-30)
-
-Her framing: an entrance door is structurally busy and carries far more visible hardware than an interior door — handle, thumbturn, keyholes, spyhole. Three escalating solutions:
-
-1. **Simplest.** A plain flat MDF overlay panel — **no filenki, no wood texture** — frame painted to match, and **ideally the whole assembly in the wall colour**. Then match the hardware finish to whatever the interior doors will use.
-2. **⚠️ A contrasting finish, but only if it runs to the ceiling.** If the entrance door gets a different finish (wood, say), **carry the same material above the door up to the ceiling** — otherwise it reads as "какой-то заплаткой на стене," a patch. **Either the whole wall takes one finish, or the finish is door-width but full-height.** She notes other designers use the same "плаcтырь/заплатка" language for this failure.
-3. **⚠️ A second, concealed *interior* door as a second contour inside the entrance door.** Her argument against relying on a concealed entrance door alone: **"у них скрыты лишь петли"** — handles, thumbturns and spyholes remain, and the hardware range for entrance doors is neither as large nor as attractive as for interior doors.
-
-The second-contour door is already on record in this vault from the same channel (see `z4G-ocStu9o`), with the same psychological rationale — the entrance is often visible from a seating position, and an interior door reads as another room rather than a front door. **Same channel, so this is a restatement rather than corroboration**, but it adds the hardware argument and the hidden-hinges point. She says they now do this "объект за объектом" and can barely remember the last ordinary entrance door they installed.
-
-`single-account`, `unverified`. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
-
-## ⚠️ She Pushes Back on the Reveal-Protection Premise (added 2026-08-30)
-
-Asked how to protect entrance-door reveals from being knocked, **she questions whether the problem is real** rather than answering — asking under what circumstances people actually damage them, noting that during construction they are unfinished and then protected, and that neither she nor her clients have found a reason. She allows it may be genuine for a household carrying bikes, prams or bulky items regularly.
-
-Her conclusion generalises well past this topic and is worth recording verbatim as a posture: **"не берите на веру любые советы из интернета — даже мои. Обязательно примеряйте на себя, задавайте дополнительные вопросы."**
-
-Consistent with her position elsewhere that reveals should simply be painted in a higher wear class — see [[13_Surfaces_and_Finishes/Walls_and_Paint|Walls & Paint]]. [source: [[_Sources/YT_MOXm91CE-QQ_shevrina_minimalist_hallway_design|YT_MOXm91CE-QQ]]]
-
-## ⚠️ Zigzag-Wall Entryway Wardrobe — a Real Project Case (Игорь Краснов, added 2026-09-01, Round 4)
-
-A specific, real, technique-level layout solution from his own studio's practice. In a cramped 60m² apartment, the entry nook was reconfigured by **recessing part of the corridor wall by 600mm** to create a flush, built-in three-section wardrobe (1800mm wide) directly opposite the entrance door, while keeping a separate open zone to the side for a mirror and a pouf/bench for putting on shoes. States the same approach works at both small (60m²) and large (250m²) scale — the technique is about creating a flush recess for the wardrobe rather than letting it protrude into the entry, keeping the sightline on entry uncluttered. `single-account`, `unverified`. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
-
-## Entryway Critique Cluster — Open-Shelf Clutter, Toe-Kick Figure, Hardware Mismatch, and Ceiling-Fixture Dominance (Игорь Краснов, added 2026-09-02, Round 7)
-
-Third Pinterest real-image critique episode, methodically working through two separate entryway reference images. [source: [[_Sources/YT_o-5X16hq9Fo_krasnov_pinterest_review_3|o-5X16hq9Fo]]]
-
-- **⚠️ Open/lit display shelving near an entryway becomes a clutter dump — a specific, genuinely new critique**: attractive lit display shelving near the entrance inevitably becomes a dump for keys/receipts/coins/chargers in real daily use rather than staying purely decorative — the shelf's own accent lighting then highlights this clutter rather than a styled vignette. Recommends closed storage instead for anything genuinely needing catch-all storage, reserving open/lit shelving only for deliberate display.
-- **⚠️ Toe-level/under-cabinet lighting in an entryway specifically critiqued for highlighting dirt/moisture tracked in from shoes** — a "don't backlight the dirtiest zone" critique, genuinely new for this page.
-- **⚠️ Entryway/wardrobe cabinet toe-kick, extends existing kitchen-specific kickplate content (Round 3) to entryway/wardrobe cabinets: ~8cm as "standard"** — explicitly warns a missing kickplate risks the cabinet door catching/scraping on an uneven floor.
-- **Style-mismatch example**: black hooks against otherwise-neoclassical wood paneling — a specific critique of small hardware finish clashing with a room's dominant style. Suggested fix: match hook finish to the cabinet hardware's tone (matte brass or warm nickel) instead of stark black; also critiques the wood panel's own grain/rhythm as visually competing with the cabinet fascia's geometry, recommending a calmer, more repetitive texture rhythm (thin vertical lines or light inserts).
-- **Oversized black ceiling fixtures in an entryway drawing attention away from the actual furniture centerpiece** — a specific "wrong element is drawing focus" critique.
-- Glass cabinet fronts get fingerprinted within days of active daily use (restates existing content with a specific "days, not months" timeframe). Push-to-open entryway cabinet mechanisms critiqued again (dirty outdoor hands) — recommends integrated or visible discreet handles instead (restates, cross-reference).
-- **⚠️ Milled/fluted panel terminology clarification, genuinely new**: fluted panel texture («фрезеровка», explicitly distinguished from wood-slat wall panels «рейки», which look superficially similar) collects dust/dirt in the grooves — a specific material-maintenance note that also clarifies milled-panel vs. slat-wall terminology; cross-reference [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]] for the fuller wall-finish version.
-
-`single-account`, `unverified`.
-
-## Top-Hung Sliding Glass Wardrobe Partition, Entry-Sequence Organization, and Mirror Proportion Rules (Игорь Краснов, real projects, added 2026-09-02, Round 8)
-
-Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
-
-- **⚠️ Top-hung sliding glass wardrobe partition, a specific, real, genuinely new construction detail**: entryway wardrobe hidden behind sliding glass partitions, ~270cm floor-to-ceiling height, graphite-tinted semi-transparent glass (shows garment silhouette without visual clutter). Panels move on a TOP-HUNG track with NO floor rail — keeps the floor completely clean and door movement light/silent, an explicit improvement over a floor-rail track ("который всегда, в общем-то, мешает").
-- **⚠️ Entryway wardrobe interior organized by entry sequence, a specific, concrete layout technique**: immediately behind the door — coat rail for outerwear; next — a shoe compartment with per-shelf lighting; pull-out drawers for accessories; top shelves for seasonal-storage boxes. [source: XU7YAfZ9xuM]
-- **Full-height entryway mirror with integrated perimeter backlighting, a real dimension**: **90×240cm**. [source: XU7YAfZ9xuM]
-- **⚠️ Circular entry mirror sized to align its top edge with the entry door's top edge and its bottom edge just above the baseboard — a specific proportional mirror-sizing rule tied to door geometry, genuinely new for this page**, distinct from the full-height rectangular mirror above. [source: uPNKwSkxtKg]
-
-`single-account`, `unverified`.
 
 ## The entrance wardrobe — moved to its own page
 

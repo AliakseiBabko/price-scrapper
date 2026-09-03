@@ -10,7 +10,11 @@
 
 All four pages are general knowledge and technique, **not** this project's own chosen palette — see `00_Master/Design_Concept.md` for that (currently unfilled).
 
-## Color and Surface Technique for a Low-Natural-Light Room
+## Light, Dark, and the Low-Natural-Light Room
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### Color and Surface Technique for a Low-Natural-Light Room
 
 First real source for this page: ARCHWOOD/Marina Izmailova's direct
 5-technique explainer for a room with genuine but weak/indirect daylight
@@ -67,37 +71,7 @@ just asserted preference.
 
 [source: [[_Sources/YT_0Nnv6VedbVo_archwood_dark_north_room_top5|YT_0Nnv6VedbVo]]]
 
-## A Second Condition on the Mirror Rule (added 2026-08-30)
-
-The low-light section above gives one condition for placing a mirror: **only where real light already reaches**, since a mirror in the darkest corner only reflects darkness back (ARCHWOOD / Марина Измайлова).
-
-**Мария Шеврина / SMBUREAU** adds a second, independent condition: **a mirror enlarges a room only when what it reflects is itself visually light.** "Даже зеркало не всегда работает на увеличение и расширение помещения, потому что зависит от того, что отражается в этом зеркале." Her worked case: a mirror facing a hallway full of shoes and clutter doubles the clutter rather than the space.
-
-She applies the identical argument to **gloss**, and in doing so dismantles two common beliefs at once:
-
-- **Fingerprints show *more* on gloss, not less** — matte hides them, and coatings such as Fenix or soft-touch hide them entirely. She notes people believe the opposite.
-- **Gloss does not enlarge a room.** A glossy front reflects the whole room back at you, so **you get visual clutter, not expansion** — the same mechanism as the cluttered mirror. Her recommendation is matte throughout: matte fronts, matte porcelain on floors and in bathrooms, matte ceilings.
-
-Taken together with ARCHWOOD's rule, the reflective-surface test has two parts: **is there real light here, and is what would be reflected worth doubling?**
-
-[source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
-
-## Mirrors — the Consolidated Rule Set (updated 2026-08-31)
-
-This page has accumulated mirror guidance from two sources across three rounds. Collected here, because the conditions are cumulative and a mirror has to satisfy all of them:
-
-1. **Only place a mirror where real light already reaches** — a mirrored wardrobe door facing away from the window, in the darkest corner, only reflects darkness back. *(ARCHWOOD / Марина Измайлова — see the low-light section above.)*
-2. **A mirror enlarges only if what it reflects is itself visually light.** A mirror facing a hallway full of shoes and clutter doubles the clutter. *(Мария Шеврина, `XGI6FS2ZdCc`.)*
-3. **⚠️ Size and shape decide whether it works as an optical device at all.** A **small mirror does not enlarge**; **several small mirrors in a composition actively clutter** and make the room read smaller; and **oval or framed mirrors read as decor rather than as an optical device.** What a small room needs is something that "ломает пространство" — decor doesn't. **Only floor-to-ceiling mirrors, in the right places, achieve it.**
-4. **⚠️ Placement: don't centre a mirror on a wall.** Set it into an **internal corner so one edge butts the perpendicular wall**, or place it **at a window**. Pushed to the edge of the room it reads as a continuation of space rather than as an object hung on a wall.
-
-*(3 and 4: Мария Шеврина, `9h2tAnm6rqA`.)*
-
-**And the same practitioner's related point about gloss** (already on this page): gloss doesn't enlarge either, for the same reason — it reflects the whole cluttered room back at you.
-
-[source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]]
-
-## Perspectives on Record — Should a Dark Room Be Painted Light or Dark? (added 2026-08-30)
+### Perspectives on Record — Should a Dark Room Be Painted Light or Dark? (added 2026-08-30)
 
 A real, unresolved disagreement between three named practitioners, surfaced by the 2026-08-30 colour batch. It matters here because it bears directly on any north-facing or light-obstructed room in this project's own apartment.
 
@@ -117,21 +91,7 @@ Vittoria Selina is also explicit that the choice is the occupant's: if the room 
 
 Distinct from, but adjacent to, the window-orientation table on [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]] — that one is about *colour distortion* by orientation, this one is about *how dark to go* when daylight is genuinely scarce.
 
-## Colour Proportion and Contrast Rules — moved (2026-08-30)
-
-The Kruglov/Ontario 60-30-10 proportion rule, the three-repetitions accent rule, the three-criterion accent-contrast rule and the named warm/cool base pairings have moved to **[[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules#Proportion and Hierarchy|Colour Harmony & Combination Rules → Proportion and Hierarchy]]**, where they now sit alongside five further independent statements of the same 60/30/10 rule and an explicit note on why Kruglov's three-repetitions rule and Anuta Vlady's large-block accent-dilution rule are *not* the same claim.
-
-## Related content elsewhere in this vault (not merged here)
-
-- One general color-pairing rule ("warm-accent/neutral-main color-pairing") is currently recorded in `12_Engineering_and_Systems/analysis/Lighting_Design.md`, since it came from a lighting-focused source discussing color temperature alongside fixture placement — cross-reference rather than duplicate once this page has enough content to warrant a synthesis pass.
-
-## Change Log
-
-- 2026-08-24 — Page created as part of standing up the `17_Design_and_Ergonomics` folder. No content yet.
-- 2026-08-25 — First real source added: ARCHWOOD/Marina Izmailova's 5-technique dark-room color/surface/curtain/furniture explainer (`YT_0Nnv6VedbVo`). Page is no longer an empty placeholder, though still single-source.
-- 2026-08-30 — **Page re-scoped and the colour topic split three ways**, following a 16-video batch dispatched specifically on combining colours (14 processed, 1 skipped, 1 already in the vault). This page kept low-light-room technique and colour psychology; three new `analysis/` pages were created for the rest — [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]], [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]], and [[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Neutrals & Earth-Tone Palettes]]. Two Perspectives blocks added here: dark rooms (ARCHWOOD vs. Vittoria Selina vs. ГК «Авальремонт» — the first two agree on the diagnosis and split on the remedy) and whether per-hue colour psychology is usable at all (Kodolov vs. Надежда Кузина, who turns out to differ mainly on which tier leads). The Kruglov/Ontario colour-proportion and accent-contrast section moved out to the new harmony page, with a pointer left in its place.
-
-## ⚠️ "Light Colours Enlarge a Room" — Pushed Back On (Надежда Кузина, added 2026-08-31)
+### ⚠️ "Light Colours Enlarge a Room" — Pushed Back On (Надежда Кузина, added 2026-08-31)
 
 Asked directly in a lecture Q&A for colour combinations that make a small flat feel larger, she **declines the premise**: "светлая комната всегда выглядит более просторной" is **"скорее клише"** and depends entirely on what is put in the room. [source: [[_Sources/YT_Rcd9gkPC6CI_kuzina_apartment_ergonomics_bedroom_kids_hallway|YT_Rcd9gkPC6CI]]]
 
@@ -142,33 +102,7 @@ Asked directly in a lecture Q&A for colour combinations that make a small flat f
 - **⚠️ Buy paints with complex pigments** — good European, American or English brands rather than the cheapest. Their property is that the same paint reads differently under different light, cooler by day and warmer in the evening. **Her analogy: alexandrite.**
 - **If enlarging is genuinely the goal: mirrors.** And if a dark scheme palls, change the textiles for lighter patches rather than repainting — **art also reads very well on a dark ground.**
 
-## ⚠️ Gradient as a Room-Proportion Tool — Direction Is Prescriptive (Надежда Кузина, added 2026-09-01)
-
-A gradient («градиент») on a wall reads like faintly coloured light — a coloured shadow — and so changes perceived proportions rather than just colour. [source: [[_Sources/YT_7Kk_TTxoq4g_kuzina_ornament_seminar|YT_7Kk_TTxoq4g]]]
-
-- **Darker at the bottom, lighter at the top raises the ceiling and makes the floor read more grounded and stable.**
-- **⚠️ "Если у вас потолки до трёх метров, то лучше делать именно так и не отступать от этого правила."** Below 3 m the direction is not a preference.
-- **Only above 3 m** does she allow the alternatives — three tones, or inverting it with the dark at the top.
-- She notes the effect works best when soft enough to read as gentle volume rather than as a graphic device — a linen-like transition where the surface almost reads plain, with the gradient registering only as an interesting shadow.
-
-## ⚠️ Perspectives — Should a Small Flat Be Kept Calm, or Given Something to Catch the Eye? (added 2026-09-01)
-
-Two practitioners already in this vault, agreeing on the envelope and disagreeing on the accents.
-
-| Source | Position | Stated reasoning |
-| :--- | :--- | :--- |
-| **Мария Шеврина / SMBUREAU** (`9h2tAnm6rqA`) | **Fewer tones; avoid active textures; less decor; for a very small flat, one colour in one tone.** Two or three materials maximum | Visual quiet is what makes a small flat read larger; active surfaces and clutter shrink it |
-| **Надежда Кузина** (`E6nYBdz9NhM`) | **"Я с этим не согласна."** Use accent objects and accent colours, sited toward the **centre** of the room | An eye gliding with nothing to catch on is **"как скакать на лошади, отпустив поводья"** — the horse goes where it likes. **"Глазом и умом зрителя нужно управлять."** An accent at the centre pulls attention off a low ceiling or a small floor |
-
-**Common ground, and it is substantial.** Both want a restrained, low-contrast **envelope** — Кузина's own prescription is walls and ceiling in one colour, floors as low-contrast as possible, **no accent wall**, no mouldings differing from the wall plane, and rugs that more or less merge into the floor. **The disagreement is not about the shell; it is about whether anything should stand out inside it.**
-
-**⚠️ Кузина's reconciling move, which may narrow the gap rather than close it: the accent need not be large or bright.** It can be proportional to the room, even small — **"историю можно рассказать и маленьким предметом, главное чтобы на него было интересно смотреть."** A contrasting headboard, or a picture above it, will do. Read that way, her position may be compatible with Шеврина's "less decor" as long as the little that remains is deliberate and central.
-
-**⚠️ A separate correction from Кузина that neither the received advice nor the table above captures: a monochrome palette does not have to be light.** "Монохромная палитра не означает чёрно-белое, это просто означает, что цвет должен быть один." Her example is a blue bedroom, tone-on-tone across bedspread, headboard and wall, with small cushion accents differing in both lightness and colour. **This aligns with her separate rejection of "light colours enlarge a room" as a cliché, recorded above.**
-
-**Your Priority: not yet decided.** Both positions are compatible with the envelope decisions this project has already made; the accent question only becomes live once a specific room's furnishings are being chosen. [source: [[_Sources/YT_E6nYBdz9NhM_kuzina_small_apartment_rebuttal|YT_E6nYBdz9NhM]]]
-
-## ⚠️ Maximising Daylight Converges on a Generic Result — the Same Argument, Applied to Light (Надежда Кузина, added 2026-09-01)
+### ⚠️ Maximising Daylight Converges on a Generic Result — the Same Argument, Applied to Light (Надежда Кузина, added 2026-09-01)
 
 Extends the small-flat Perspectives block above rather than opening a new one: this is Кузина's identical move applied to daylight instead of to scale. She delivers the conventional light-maximising advice competently, marks where it ends, and then asks whether following it produces an interior anyone wants. [source: [[_Sources/YT_gwa1wsTYYLE_kuzina_natural_light_rebuttal|YT_gwa1wsTYYLE]]]
 
@@ -187,27 +121,7 @@ Extends the small-flat Perspectives block above rather than opening a new one: t
 - **⚠️ The cost consequence, rarely admitted this plainly: this route is more expensive, but not uniformly.** *"Синяя краска или белая краска — цена примерно одинаковая, но скульптурный стульчик и обычный стульчик — цена скорее всего будет разная."* **Colour decisions are close to cost-neutral; form decisions are not.**
 - Her own caution on her own recommendation: sculptural furniture is often made so that **it is nicer to look at than to sit on.**
 
-## The Typical-Project Palette, Written Down (Надежда Кузина, added 2026-09-01)
-
-The satirical companion to the block above — she reverse-engineered the recipe that makes Russian design portfolios converge, and it is a usable negative specification: **if you want the flat not to read generic, these are the exact points where it shows.** [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
-
-**⚠️ Her governing claim: "в типовом проекте стиля как такового нет."** There is only *slightly more classical* or *slightly more contemporary*, and **the same treatment applies identically to living room, kitchen and bedroom** (bathrooms excluded). She notes the consequence for anyone taking a design course to learn styles: that knowledge will not be used here.
-
-| Element | The typical specification |
-| :--- | :--- |
-| Kitchen fronts | Matte, plain, enamel or foil — **cream, light grey, light beige** |
-| Sofa / bed upholstery | Velvet, light brown / beige / greyish |
-| **Living-room walls** | **Cream and only cream — coloured walls not permitted** |
-| Bedroom walls | Cream or beige. **Exception: the headboard wall may be dusty blue / green / pink** |
-| Rug | Grey, greyish, beige-ish, light brown. **Plain only — ornament forbidden** |
-| **The one bright object** | **The dining chairs** — emerald, blue, dusty blue, dusty pink |
-| Ceiling | **Always flat and white**; a simple white cornice if classical. **No coloured ceilings, no level changes** |
-
-Cushions on the sofa pick up the chair colour when both share a space. The sofa itself is occasionally coloured — usually pale blue, sometimes a barely-readable dusty pink or green. If a coloured headboard wall is too much, put the colour in part of the bedspread or a throw instead.
-
-**Her closing concession, which keeps this honest**: *"типовой проект не значит плохой"* — the designer producing it is serving the request the majority actually has. She then reopens the question she started with: she said there is no style, but a style *is* a set of shared traits, and these interiors share a great many.
-
-## Single-Colour Interiors, Dark Colours, and a Settled Position on Generic Results (Надежда Кузина, added 2026-09-01, Round 4)
+### Single-Colour Interiors, Dark Colours, and a Settled Position on Generic Results (Надежда Кузина, added 2026-09-01, Round 4)
 
 ### ⚠️ Building an interior on shades of one colour
 
@@ -239,6 +153,100 @@ Articles argue both ways with equal zeal; she gives both sides. [source: [[_Sour
 - **⚠️ Where makeup is applied, over-bright colours throw colour reflexes onto the face.**
 - **⚠️ Where people concentrate, work or read, bright colours distract and throw reflexes onto light surfaces.**
 
+## Mirrors — the Consolidated Rule Set
+
+### A Second Condition on the Mirror Rule (added 2026-08-30)
+
+The low-light section above gives one condition for placing a mirror: **only where real light already reaches**, since a mirror in the darkest corner only reflects darkness back (ARCHWOOD / Марина Измайлова).
+
+**Мария Шеврина / SMBUREAU** adds a second, independent condition: **a mirror enlarges a room only when what it reflects is itself visually light.** "Даже зеркало не всегда работает на увеличение и расширение помещения, потому что зависит от того, что отражается в этом зеркале." Her worked case: a mirror facing a hallway full of shoes and clutter doubles the clutter rather than the space.
+
+She applies the identical argument to **gloss**, and in doing so dismantles two common beliefs at once:
+
+- **Fingerprints show *more* on gloss, not less** — matte hides them, and coatings such as Fenix or soft-touch hide them entirely. She notes people believe the opposite.
+- **Gloss does not enlarge a room.** A glossy front reflects the whole room back at you, so **you get visual clutter, not expansion** — the same mechanism as the cluttered mirror. Her recommendation is matte throughout: matte fronts, matte porcelain on floors and in bathrooms, matte ceilings.
+
+Taken together with ARCHWOOD's rule, the reflective-surface test has two parts: **is there real light here, and is what would be reflected worth doubling?**
+
+[source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
+
+### Mirrors — the Consolidated Rule Set (updated 2026-08-31)
+
+This page has accumulated mirror guidance from two sources across three rounds. Collected here, because the conditions are cumulative and a mirror has to satisfy all of them:
+
+1. **Only place a mirror where real light already reaches** — a mirrored wardrobe door facing away from the window, in the darkest corner, only reflects darkness back. *(ARCHWOOD / Марина Измайлова — see the low-light section above.)*
+2. **A mirror enlarges only if what it reflects is itself visually light.** A mirror facing a hallway full of shoes and clutter doubles the clutter. *(Мария Шеврина, `XGI6FS2ZdCc`.)*
+3. **⚠️ Size and shape decide whether it works as an optical device at all.** A **small mirror does not enlarge**; **several small mirrors in a composition actively clutter** and make the room read smaller; and **oval or framed mirrors read as decor rather than as an optical device.** What a small room needs is something that "ломает пространство" — decor doesn't. **Only floor-to-ceiling mirrors, in the right places, achieve it.**
+4. **⚠️ Placement: don't centre a mirror on a wall.** Set it into an **internal corner so one edge butts the perpendicular wall**, or place it **at a window**. Pushed to the edge of the room it reads as a continuation of space rather than as an object hung on a wall.
+
+*(3 and 4: Мария Шеврина, `9h2tAnm6rqA`.)*
+
+**And the same practitioner's related point about gloss** (already on this page): gloss doesn't enlarge either, for the same reason — it reflects the whole cluttered room back at you.
+
+[source: [[_Sources/YT_9h2tAnm6rqA_shevrina_small_apartment_techniques|YT_9h2tAnm6rqA]]]
+
+## Proportion, Gradient and the Working Palette
+
+### ⚠️ Gradient as a Room-Proportion Tool — Direction Is Prescriptive (Надежда Кузина, added 2026-09-01)
+
+A gradient («градиент») on a wall reads like faintly coloured light — a coloured shadow — and so changes perceived proportions rather than just colour. [source: [[_Sources/YT_7Kk_TTxoq4g_kuzina_ornament_seminar|YT_7Kk_TTxoq4g]]]
+
+- **Darker at the bottom, lighter at the top raises the ceiling and makes the floor read more grounded and stable.**
+- **⚠️ "Если у вас потолки до трёх метров, то лучше делать именно так и не отступать от этого правила."** Below 3 m the direction is not a preference.
+- **Only above 3 m** does she allow the alternatives — three tones, or inverting it with the dark at the top.
+- She notes the effect works best when soft enough to read as gentle volume rather than as a graphic device — a linen-like transition where the surface almost reads plain, with the gradient registering only as an interesting shadow.
+
+### ⚠️ Perspectives — Should a Small Flat Be Kept Calm, or Given Something to Catch the Eye? (added 2026-09-01)
+
+Two practitioners already in this vault, agreeing on the envelope and disagreeing on the accents.
+
+| Source | Position | Stated reasoning |
+| :--- | :--- | :--- |
+| **Мария Шеврина / SMBUREAU** (`9h2tAnm6rqA`) | **Fewer tones; avoid active textures; less decor; for a very small flat, one colour in one tone.** Two or three materials maximum | Visual quiet is what makes a small flat read larger; active surfaces and clutter shrink it |
+| **Надежда Кузина** (`E6nYBdz9NhM`) | **"Я с этим не согласна."** Use accent objects and accent colours, sited toward the **centre** of the room | An eye gliding with nothing to catch on is **"как скакать на лошади, отпустив поводья"** — the horse goes where it likes. **"Глазом и умом зрителя нужно управлять."** An accent at the centre pulls attention off a low ceiling or a small floor |
+
+**Common ground, and it is substantial.** Both want a restrained, low-contrast **envelope** — Кузина's own prescription is walls and ceiling in one colour, floors as low-contrast as possible, **no accent wall**, no mouldings differing from the wall plane, and rugs that more or less merge into the floor. **The disagreement is not about the shell; it is about whether anything should stand out inside it.**
+
+**⚠️ Кузина's reconciling move, which may narrow the gap rather than close it: the accent need not be large or bright.** It can be proportional to the room, even small — **"историю можно рассказать и маленьким предметом, главное чтобы на него было интересно смотреть."** A contrasting headboard, or a picture above it, will do. Read that way, her position may be compatible with Шеврина's "less decor" as long as the little that remains is deliberate and central.
+
+**⚠️ A separate correction from Кузина that neither the received advice nor the table above captures: a monochrome palette does not have to be light.** "Монохромная палитра не означает чёрно-белое, это просто означает, что цвет должен быть один." Her example is a blue bedroom, tone-on-tone across bedspread, headboard and wall, with small cushion accents differing in both lightness and colour. **This aligns with her separate rejection of "light colours enlarge a room" as a cliché, recorded above.**
+
+**Your Priority: not yet decided.** Both positions are compatible with the envelope decisions this project has already made; the accent question only becomes live once a specific room's furnishings are being chosen. [source: [[_Sources/YT_E6nYBdz9NhM_kuzina_small_apartment_rebuttal|YT_E6nYBdz9NhM]]]
+
+### The Typical-Project Palette, Written Down (Надежда Кузина, added 2026-09-01)
+
+The satirical companion to the block above — she reverse-engineered the recipe that makes Russian design portfolios converge, and it is a usable negative specification: **if you want the flat not to read generic, these are the exact points where it shows.** [source: [[_Sources/YT_zrnhNEgk-Sk_kuzina_typical_project_recipe|YT_zrnhNEgk-Sk]]]
+
+**⚠️ Her governing claim: "в типовом проекте стиля как такового нет."** There is only *slightly more classical* or *slightly more contemporary*, and **the same treatment applies identically to living room, kitchen and bedroom** (bathrooms excluded). She notes the consequence for anyone taking a design course to learn styles: that knowledge will not be used here.
+
+| Element | The typical specification |
+| :--- | :--- |
+| Kitchen fronts | Matte, plain, enamel or foil — **cream, light grey, light beige** |
+| Sofa / bed upholstery | Velvet, light brown / beige / greyish |
+| **Living-room walls** | **Cream and only cream — coloured walls not permitted** |
+| Bedroom walls | Cream or beige. **Exception: the headboard wall may be dusty blue / green / pink** |
+| Rug | Grey, greyish, beige-ish, light brown. **Plain only — ornament forbidden** |
+| **The one bright object** | **The dining chairs** — emerald, blue, dusty blue, dusty pink |
+| Ceiling | **Always flat and white**; a simple white cornice if classical. **No coloured ceilings, no level changes** |
+
+Cushions on the sofa pick up the chair colour when both share a space. The sofa itself is occasionally coloured — usually pale blue, sometimes a barely-readable dusty pink or green. If a coloured headboard wall is too much, put the colour in part of the bedspread or a throw instead.
+
+**Her closing concession, which keeps this honest**: *"типовой проект не значит плохой"* — the designer producing it is serving the request the majority actually has. She then reopens the question she started with: she said there is no style, but a style *is* a set of shared traits, and these interiors share a great many.
+
+## Colour Proportion and Contrast Rules — moved (2026-08-30)
+
+The Kruglov/Ontario 60-30-10 proportion rule, the three-repetitions accent rule, the three-criterion accent-contrast rule and the named warm/cool base pairings have moved to **[[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules#Proportion and Hierarchy|Colour Harmony & Combination Rules → Proportion and Hierarchy]]**, where they now sit alongside five further independent statements of the same 60/30/10 rule and an explicit note on why Kruglov's three-repetitions rule and Anuta Vlady's large-block accent-dilution rule are *not* the same claim.
+
+## Related content elsewhere in this vault (not merged here)
+
+- One general color-pairing rule ("warm-accent/neutral-main color-pairing") is currently recorded in `12_Engineering_and_Systems/analysis/Lighting_Design.md`, since it came from a lighting-focused source discussing color temperature alongside fixture placement — cross-reference rather than duplicate once this page has enough content to warrant a synthesis pass.
+
 ## Colour psychology — moved to its own page
 
 See **[[17_Design_and_Ergonomics/analysis/Colour_Psychology_and_Its_Limits|Colour Psychology — a Decision Framework, and Whether It Is Usable at All]]**. **The framework and the objection to it travelled together**, so the objection cannot be read past. This page keeps the low-light room technique, the mirror rule set, and the light-versus-dark disagreements.
+
+## Change Log
+
+- 2026-08-24 — Page created as part of standing up the `17_Design_and_Ergonomics` folder. No content yet.
+- 2026-08-25 — First real source added: ARCHWOOD/Marina Izmailova's 5-technique dark-room color/surface/curtain/furniture explainer (`YT_0Nnv6VedbVo`). Page is no longer an empty placeholder, though still single-source.
+- 2026-08-30 — **Page re-scoped and the colour topic split three ways**, following a 16-video batch dispatched specifically on combining colours (14 processed, 1 skipped, 1 already in the vault). This page kept low-light-room technique and colour psychology; three new `analysis/` pages were created for the rest — [[17_Design_and_Ergonomics/analysis/Color_Harmony_and_Combination_Rules|Colour Harmony & Combination Rules]], [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process & Testing]], and [[17_Design_and_Ergonomics/analysis/Neutrals_and_Earth_Tone_Palettes|Neutrals & Earth-Tone Palettes]]. Two Perspectives blocks added here: dark rooms (ARCHWOOD vs. Vittoria Selina vs. ГК «Авальремонт» — the first two agree on the diagnosis and split on the remedy) and whether per-hue colour psychology is usable at all (Kodolov vs. Надежда Кузина, who turns out to differ mainly on which tier leads). The Kruglov/Ontario colour-proportion and accent-contrast section moved out to the new harmony page, with a pointer left in its place.

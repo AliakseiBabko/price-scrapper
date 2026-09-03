@@ -21,7 +21,60 @@ A layout/fixture/storage decision should be driven by how *this specific househo
 
 All items: `confirmed` as the source's own stated framing/decisions, single-account (one designer's five case walkthroughs).
 
-## Anuta Vlady — Respecting an Irrational Client Fear Without Abandoning Good Judgment (added 2026-08-25)
+## Client Intake — Instruments and Questions
+
+**Merged 2026-09-02.** These sections arrived in separate processing batches and each appended its own dated heading, so the page was organised by *when* a fact was recorded rather than by what it is about. They are grouped here by subject; the original dated headings are **demoted to `###`, not deleted**, so every attribution and date survives. No prose changed.
+
+### An Intake Instrument: Scoring Aesthetics Against Practicality (SMBUREAU, added 2026-08-30)
+
+This page is built on the principle that a decision should follow how a specific household actually uses a space. **SMBUREAU (Мария Шеврина and Алёна Ключникова) supply an actual instrument for eliciting that**, which the page previously lacked — worked examples but no method for getting the input.
+
+Their client questionnaire does two things:
+
+1. **Every family member individually rates themselves on an aesthetics-versus-practicality scale (1 to 10)** — separately, because household members differ and the differences are the point.
+2. **The client lists the zones in descending priority for practicality, and separately in descending priority for aesthetics.** Their worked example: "the kitchen must be maximally hard-wearing," while in the bedroom a stone headboard or hard bed edges are acceptable because "главное, чтобы было красивенько."
+
+**⚠️ The finding that motivates it: roughly half their clients, or more, are *not* practicality-maximalists.** (Explicitly her impression from running the questionnaire, not a counted statistic.) Their stated conclusion — "мы никогда не полагаем в своей работе практичность как истину в последней инстанции" — is aimed at a habit they say designers have acquired from social media, of treating practicality as self-evidently the right answer.
+
+**What it changes downstream, in their own worked examples**: for a practicality-leaning client's study, fit everything needed into the cabinet and don't labour over an elegant front division; for an aesthetics-leaning client's make-up area, choose the beautiful chair over the softer one — **knowingly**, because the questionnaire already established that trade and the client has already agreed to it. The value is less in the scores than in having the conversation before the choice arrives rather than during it.
+
+They pair this with a broader position worth recording alongside: **no 100%-practical material exists, and a designer should not pretend otherwise** — "не нужно обманывать заказчиков, что существуют такие идеальные материалы… единороги." Every material ages; walls scuff, parquet dents under heavy furniture, laminate moves. They also observe that **people over-weight low-probability events and buy permanent ugliness to insure against them** — their examples are a stretch ceiling fitted against a hypothetical flood, and MDF cladding on entrance-door reveals against a hypothetical neighbour carrying a piano through — with the result that you look at the mitigation every day and the event never comes.
+
+`single-account`, `unverified`. **Directly relevant to this project**, whose `00_Master/Family_Requirements.md` and `Design_Concept.md` are both unfilled and which has two adults and two young children whose priorities will differ. Recorded as general technique — the wrapper does not write to those two files.
+
+[source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
+
+### ⚠️ The Kitchen-Island and Dining-Table Habit Test, and Sentimental Inventory (Игорь Краснов, added 2026-09-01, Round 2)
+
+[source: [[_Sources/YT_cZcJ4ehcVuQ_krasnov_template_design_signs|cZcJ4ehcVuQ]]]
+
+- **⚠️ A kitchen island is only functionally justified if the household genuinely cooks together as a group habit** — otherwise it's a "Pinterest symbol" with no real use, a concrete, checkable instance of this page's core principle (a layout/fixture decision should be driven by how *this specific household* actually uses the space, not a generic default).
+- **A dining table/seating arrangement should reflect actual real gathering habits** (do they entertain? cook together? eat quietly as a couple?) rather than a default catalog placement — the same test applied to a second fixture.
+- **⚠️ "Sentimental inventory" method**: identify 5–7 personally meaningful objects early in the design process (a painting, a family photo, a specific book/vinyl record actually used), then build sightlines/backgrounds/lighting around where and how each will be encountered daily. A genuinely specific, named, transferable methodology step — more concrete than generic "personalize your home" advice, and a real addition to this page's principle beyond the worked room-by-room examples already recorded above.
+- **Personal ≠ everything sentimental** — explicit warning against turning a home into a "memory museum": curate (keep only what "reinforces you today"), hide what doesn't, rather than accumulate everything with an emotional tag.
+
+`single-account`, `unverified`.
+
+### ⚠️ Client Intake — Ask About Lifestyle, Not Worldview (added 2026-09-01)
+
+Asked on a podcast what advice to give someone trying to make an interior match their inner world, Надежда Кузина **declines the premise**: **"я бы советовала не копать слишком глубоко, потому что если начнёшь задумываться о том, что конкретно соответствует моему сложному внутреннему миру, то можно остаться без ремонта."** [source: [[_Sources/YT_xeJWHR77QlE_kuzina_lemanapro_philosophy_podcast|YT_xeJWHR77QlE]]]
+
+**The practice both designers present describe instead**: the first question is about **образ жизни — lifestyle — not worldview**, and the interior is built around that. Worldview gets used only if the client volunteers it, once there is enough rapport. **"Дизайнер всё-таки более прикладная функция, поэтому в философию мы без запроса не вникаем."**
+
+**This independently reinforces the verb-list method** on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]] — list what you actually *do* in a room, then filter it against what you want to stop and start doing. She reaches the same place from a completely different direction, in front of two other professionals who agree.
+
+### Buy-In-Person vs. Buy-Online Furniture Philosophy, and "Buy It When You See It" (designer Robert Stilin's own Brooklyn loft, Krasnov's added caveat, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_haxBpHW8xp8_krasnov_top100_designer_own_apartment|haxBpHW8xp8]]]
+
+- **⚠️ Buy-in-person furniture philosophy, attributed to Stilin, with Krasnov's added practical caveat**: never recommend furniture to a client without personally sitting in/testing it first — online furniture often doesn't match its photographed appearance or stated dimensions; recommends physical showroom/gallery visits, even international trips, to personally assess texture/proportion/character before buying or recommending. Krasnov adds his own corroborating anecdote — his own showroom trips, including to China. **Krasnov's own added practical caveat for non-professional viewers**: if you just want a basic comfortable sofa/wardrobe rather than a rare/investment piece, reliable online purchase is fine specifically if the retailer has genuine customer reviews with real photos — a balanced, actionable distinction, not a flat "always buy in person" rule.
+- **⚠️ "Buy it when you see it" collecting philosophy, attributed to Stilin**: if you find something unusual you genuinely love, buy it immediately rather than waiting, because by the time you actually need it later it likely won't still be available. Recommends maintaining a running catalog/inventory of acquired unique pieces so they're findable/usable when eventually needed — a specific, actionable collecting strategy for building a genuinely personalized interior over time.
+
+`single-account` (Krasnov's own commentary); the underlying philosophy is attributed to a named, independent, real practitioner (Robert Stilin).
+
+## Worked Practitioner Cases
+
+### Anuta Vlady — Respecting an Irrational Client Fear Without Abandoning Good Judgment (added 2026-08-25)
 
 From a real living-room makeover case: a client feared a heavy antique
 mirror falling above the sofa. Rather than arguing the fear away (the
@@ -37,7 +90,7 @@ discouraged product regardless of the fear-management question — the
 "respect the fear" principle applies to the underlying need, not to
 whichever specific fix is proposed for it. [source: [[_Sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
 
-## Petrishin-Stroi (design lead "Клара") — Routine-Walkthrough Technique (added 2026-08-24)
+### Petrishin-Stroi (design lead "Клара") — Routine-Walkthrough Technique (added 2026-08-24)
 
 - **Mentally walk through each planned room simulating actual daily
   actions before finalizing socket/outlet placement** — worked example:
@@ -60,7 +113,7 @@ whichever specific fix is proposed for it. [source: [[_Sources/YT_GfixqWjsD58_an
 
 `single-account`, this practitioner's stated method. [source: [[_Sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xnSNEqqs]]]
 
-## Petrishin-Stroi-Featured Case — Pet-Ownership-Driven Design Decisions (added 2026-08-24, Round 6)
+### Petrishin-Stroi-Featured Case — Pet-Ownership-Driven Design Decisions (added 2026-08-24, Round 6)
 
 From a 38 m² secondary-market renovation featured (not executed) by
 Петришин-Строй, foreman "Александр":
@@ -76,7 +129,7 @@ From a 38 m² secondary-market renovation featured (not executed) by
 
 `single-account`. [source: [[_Sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 
-## Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design (added 2026-08-25)
+### Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design (added 2026-08-25)
 
 From a real kitchen-living-room decor case, France (level 1) — dispatched
 as a "gray bedroom" video but actually a combined kitchen-living room for
@@ -116,42 +169,9 @@ household (young children, open-plan living space):
 
 `single-account`. [source: [[_Sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
 
-## Open Questions
+## Named Principles — Hotel-vs-Home, Life Stages, Compression and Release
 
-- No source yet generalizes these examples into a reusable decision framework (a checklist of "which household variables to ask about before defaulting a layout choice") — each example above is a specific worked case, not yet a synthesized method.
-- No source yet addresses this project's own actual family scenario directly — see `00_Master/Family_Requirements.md` for this project's own stated requirements, and treat these examples as illustrative technique, not a prescription for this apartment specifically.
-
-## An Intake Instrument: Scoring Aesthetics Against Practicality (SMBUREAU, added 2026-08-30)
-
-This page is built on the principle that a decision should follow how a specific household actually uses a space. **SMBUREAU (Мария Шеврина and Алёна Ключникова) supply an actual instrument for eliciting that**, which the page previously lacked — worked examples but no method for getting the input.
-
-Their client questionnaire does two things:
-
-1. **Every family member individually rates themselves on an aesthetics-versus-practicality scale (1 to 10)** — separately, because household members differ and the differences are the point.
-2. **The client lists the zones in descending priority for practicality, and separately in descending priority for aesthetics.** Their worked example: "the kitchen must be maximally hard-wearing," while in the bedroom a stone headboard or hard bed edges are acceptable because "главное, чтобы было красивенько."
-
-**⚠️ The finding that motivates it: roughly half their clients, or more, are *not* practicality-maximalists.** (Explicitly her impression from running the questionnaire, not a counted statistic.) Their stated conclusion — "мы никогда не полагаем в своей работе практичность как истину в последней инстанции" — is aimed at a habit they say designers have acquired from social media, of treating practicality as self-evidently the right answer.
-
-**What it changes downstream, in their own worked examples**: for a practicality-leaning client's study, fit everything needed into the cabinet and don't labour over an elegant front division; for an aesthetics-leaning client's make-up area, choose the beautiful chair over the softer one — **knowingly**, because the questionnaire already established that trade and the client has already agreed to it. The value is less in the scores than in having the conversation before the choice arrives rather than during it.
-
-They pair this with a broader position worth recording alongside: **no 100%-practical material exists, and a designer should not pretend otherwise** — "не нужно обманывать заказчиков, что существуют такие идеальные материалы… единороги." Every material ages; walls scuff, parquet dents under heavy furniture, laminate moves. They also observe that **people over-weight low-probability events and buy permanent ugliness to insure against them** — their examples are a stretch ceiling fitted against a hypothetical flood, and MDF cladding on entrance-door reveals against a hypothetical neighbour carrying a piano through — with the result that you look at the mitigation every day and the event never comes.
-
-`single-account`, `unverified`. **Directly relevant to this project**, whose `00_Master/Family_Requirements.md` and `Design_Concept.md` are both unfilled and which has two adults and two young children whose priorities will differ. Recorded as general technique — the wrapper does not write to those two files.
-
-[source: [[_Sources/YT_0WXiKNXPD_0_shevrina_aesthetic_vs_practical|YT_0WXiKNXPD_0]]]
-
-## ⚠️ The Kitchen-Island and Dining-Table Habit Test, and Sentimental Inventory (Игорь Краснов, added 2026-09-01, Round 2)
-
-[source: [[_Sources/YT_cZcJ4ehcVuQ_krasnov_template_design_signs|cZcJ4ehcVuQ]]]
-
-- **⚠️ A kitchen island is only functionally justified if the household genuinely cooks together as a group habit** — otherwise it's a "Pinterest symbol" with no real use, a concrete, checkable instance of this page's core principle (a layout/fixture decision should be driven by how *this specific household* actually uses the space, not a generic default).
-- **A dining table/seating arrangement should reflect actual real gathering habits** (do they entertain? cook together? eat quietly as a couple?) rather than a default catalog placement — the same test applied to a second fixture.
-- **⚠️ "Sentimental inventory" method**: identify 5–7 personally meaningful objects early in the design process (a painting, a family photo, a specific book/vinyl record actually used), then build sightlines/backgrounds/lighting around where and how each will be encountered daily. A genuinely specific, named, transferable methodology step — more concrete than generic "personalize your home" advice, and a real addition to this page's principle beyond the worked room-by-room examples already recorded above.
-- **Personal ≠ everything sentimental** — explicit warning against turning a home into a "memory museum": curate (keep only what "reinforces you today"), hide what doesn't, rather than accumulate everything with an emotional tag.
-
-`single-account`, `unverified`.
-
-## ⚠️ Two Compatible-but-Distinct Hotel-vs-Home Arguments (Игорь Краснов, added 2026-09-01, Round 2)
+### ⚠️ Two Compatible-but-Distinct Hotel-vs-Home Arguments (Игорь Краснов, added 2026-09-01, Round 2)
 
 Both critique uncritically importing a hotel as the design reference for a home, but from different angles — recorded as a matched, cross-referenced pair rather than merged into one fact.
 
@@ -160,27 +180,26 @@ Both critique uncritically importing a hotel as the design reference for a home,
 
 `single-account`, `unverified` (both).
 
-## Change Log
-
-- 2026-08-25 — Added "Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design" section (1 source, `YT_fkoUNvB9LV8`), part of a dedicated 8-video Anuta Vlady batch targeting `06_Small_Bedroom` — this particular video turned out to be a kitchen-living room, not a bedroom, so routed here instead.
-- 2026-08-24 — Page created, migrating this content verbatim from `Durable_Facts.md`'s Design Concept bucket, as part of standing up the new `17_Design_and_Ergonomics` folder per explicit user request.
-
-## ⚠️ Client Intake — Ask About Lifestyle, Not Worldview (added 2026-09-01)
-
-Asked on a podcast what advice to give someone trying to make an interior match their inner world, Надежда Кузина **declines the premise**: **"я бы советовала не копать слишком глубоко, потому что если начнёшь задумываться о том, что конкретно соответствует моему сложному внутреннему миру, то можно остаться без ремонта."** [source: [[_Sources/YT_xeJWHR77QlE_kuzina_lemanapro_philosophy_podcast|YT_xeJWHR77QlE]]]
-
-**The practice both designers present describe instead**: the first question is about **образ жизни — lifestyle — not worldview**, and the interior is built around that. Worldview gets used only if the client volunteers it, once there is enough rapport. **"Дизайнер всё-таки более прикладная функция, поэтому в философию мы без запроса не вникаем."**
-
-**This independently reinforces the verb-list method** on [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]] — list what you actually *do* in a room, then filter it against what you want to stop and start doing. She reaches the same place from a completely different direction, in front of two other professionals who agree.
-
-## ⚠️ "Design for Future Life Stages" — a Planning Principle With a Real Case (Игорь Краснов, added 2026-09-01, Round 4)
+### ⚠️ "Design for Future Life Stages" — a Planning Principle With a Real Case (Игорь Краснов, added 2026-09-01, Round 4)
 
 A genuinely valuable planning principle with a real case example, worth its own entry alongside this page's existing scenario-driven worked examples above. [source: [[_Sources/YT_DT_IjSALrX0_krasnov_5tricks_avoid_regret|DT_IjSALrX0]]]
 
 - Recommends designing a room (specifically a kids' room) with multiple deliberate FUTURE configurations in mind from the start (infant stage, preschool stage, school-age stage), not just the immediate need — three distinct variants of the same room planned up front.
 - **⚠️ Real project example — Moscow, Paveletskaya district, ~100m² apartment for a young couple.** Region note: this specific case is explicitly Moscow, not St. Petersburg — flagged as a distinct Russian city from the channel's own base. Initially designed with a home office/study for the husband (plus master bedroom, large kitchen-living room, walk-in closets, two bathrooms, full MEP/ventilation/AC/flooring planning), changed mid-construction — **AFTER partition walls were already up and MEP rough-in had started** — to a nursery/kids' room because the wife became pregnant during the design process. Used as a real, single-account cautionary case for why forward-scenario planning at the EARLIEST stage (before walls/MEP commitments) matters, since a late-stage room-purpose change is costly once construction has progressed past framing.
 
-## ⚠️ Found-Object Personalization, a Kitchen-Storage Anecdote, and Plant/Herb Techniques (Игорь Краснов, added 2026-09-01, Round 5)
+### ⚠️ Frank Lloyd Wright's "Compression and Release" Principle — a Named Architectural Concept (architect Robert Gar, Krasnov's own applied extension, added 2026-09-01, Round 6)
+
+[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]] — a real, documented pre-war NYC co-op renovation; the principle is Gar's own, citing Frank Lloyd Wright, not Krasnov's invention.
+
+**⚠️ A genuinely new named architectural concept for this vault**: alternating narrow/constrained transition spaces (e.g. a narrow entry hall) with open/expansive zones (a bright open living room) creates a psychological contrast that makes the open zone feel MORE spacious than its actual square footage. Attribute this specifically to architect Robert Gar citing Frank Lloyd Wright, not to Krasnov.
+
+**Krasnov's own added, concrete application**: for a studio-to-one-bedroom conversion specifically, making the new bedroom slightly MORE enclosed/cozy makes the remaining main living zone feel more spacious BY CONTRAST, not smaller — a specific, actionable small-apartment zoning technique Krasnov derives from Gar's cited principle.
+
+`single-account` for Krasnov's application; the underlying principle is attributed to a named, independent, real architect (Robert Gar), citing a historical architectural authority (Frank Lloyd Wright).
+
+## Personalisation and Sentiment
+
+### ⚠️ Found-Object Personalization, a Kitchen-Storage Anecdote, and Plant/Herb Techniques (Игорь Краснов, added 2026-09-01, Round 5)
 
 Two Round 5 sources add a genuinely concrete personalization anecdote and a found-object technique cluster, plus a smaller plant/herb-garden addition — worth reading alongside this page's existing sentimental-inventory method and hotel-vs-home personalization argument above.
 
@@ -191,21 +210,12 @@ Two Round 5 sources add a genuinely concrete personalization anecdote and a foun
 
 `single-account`, `unverified`.
 
-## ⚠️ Frank Lloyd Wright's "Compression and Release" Principle — a Named Architectural Concept (architect Robert Gar, Krasnov's own applied extension, added 2026-09-01, Round 6)
+## Open Questions
 
-[source: [[_Sources/YT_JgyOwNGlevc_krasnov_37sqm_small_apartment_tour|JgyOwNGlevc]]] — a real, documented pre-war NYC co-op renovation; the principle is Gar's own, citing Frank Lloyd Wright, not Krasnov's invention.
+- No source yet generalizes these examples into a reusable decision framework (a checklist of "which household variables to ask about before defaulting a layout choice") — each example above is a specific worked case, not yet a synthesized method.
+- No source yet addresses this project's own actual family scenario directly — see `00_Master/Family_Requirements.md` for this project's own stated requirements, and treat these examples as illustrative technique, not a prescription for this apartment specifically.
 
-**⚠️ A genuinely new named architectural concept for this vault**: alternating narrow/constrained transition spaces (e.g. a narrow entry hall) with open/expansive zones (a bright open living room) creates a psychological contrast that makes the open zone feel MORE spacious than its actual square footage. Attribute this specifically to architect Robert Gar citing Frank Lloyd Wright, not to Krasnov.
+## Change Log
 
-**Krasnov's own added, concrete application**: for a studio-to-one-bedroom conversion specifically, making the new bedroom slightly MORE enclosed/cozy makes the remaining main living zone feel more spacious BY CONTRAST, not smaller — a specific, actionable small-apartment zoning technique Krasnov derives from Gar's cited principle.
-
-`single-account` for Krasnov's application; the underlying principle is attributed to a named, independent, real architect (Robert Gar), citing a historical architectural authority (Frank Lloyd Wright).
-
-## Buy-In-Person vs. Buy-Online Furniture Philosophy, and "Buy It When You See It" (designer Robert Stilin's own Brooklyn loft, Krasnov's added caveat, added 2026-09-01, Round 6)
-
-[source: [[_Sources/YT_haxBpHW8xp8_krasnov_top100_designer_own_apartment|haxBpHW8xp8]]]
-
-- **⚠️ Buy-in-person furniture philosophy, attributed to Stilin, with Krasnov's added practical caveat**: never recommend furniture to a client without personally sitting in/testing it first — online furniture often doesn't match its photographed appearance or stated dimensions; recommends physical showroom/gallery visits, even international trips, to personally assess texture/proportion/character before buying or recommending. Krasnov adds his own corroborating anecdote — his own showroom trips, including to China. **Krasnov's own added practical caveat for non-professional viewers**: if you just want a basic comfortable sofa/wardrobe rather than a rare/investment piece, reliable online purchase is fine specifically if the retailer has genuine customer reviews with real photos — a balanced, actionable distinction, not a flat "always buy in person" rule.
-- **⚠️ "Buy it when you see it" collecting philosophy, attributed to Stilin**: if you find something unusual you genuinely love, buy it immediately rather than waiting, because by the time you actually need it later it likely won't still be available. Recommends maintaining a running catalog/inventory of acquired unique pieces so they're findable/usable when eventually needed — a specific, actionable collecting strategy for building a genuinely personalized interior over time.
-
-`single-account` (Krasnov's own commentary); the underlying philosophy is attributed to a named, independent, real practitioner (Robert Stilin).
+- 2026-08-25 — Added "Anuta Vlady — Family-With-Young-Child Living-Room Play-Zone Design" section (1 source, `YT_fkoUNvB9LV8`), part of a dedicated 8-video Anuta Vlady batch targeting `06_Small_Bedroom` — this particular video turned out to be a kitchen-living room, not a bedroom, so routed here instead.
+- 2026-08-24 — Page created, migrating this content verbatim from `Durable_Facts.md`'s Design Concept bucket, as part of standing up the new `17_Design_and_Ergonomics` folder per explicit user request.
