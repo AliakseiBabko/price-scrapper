@@ -793,3 +793,60 @@ Other factory figures: **1 mm** removed by фуговка immediately before the
 ### From the 2021 source
 
 **White hob unacceptable after 2–3 months.** Central vacuum pipework **5–6 cm**. Mural lifespan and other 2021 figures: none other given — **the source contains NO PRICES in 20 minutes**, which is itself worth recording for a materials-selection source.
+
+## Round 7 — @YourInteriorDes / NSDSGN, 2026-09-03
+
+**⚠️ FX bases used, one per source date. All windows are ordinary; ⚠️ note the October 2022 window (2022-04-04 → 2022-10-04) sits ENTIRELY POST-SHOCK, so unlike the April 2022 source in Round 6 the mean is methodologically clean and conversion is appropriate.**
+
+| Basis | Rate | Used for |
+| :--- | :--- | :--- |
+| Trailing 6-month USD/RUB mean before **2020-12-03** | **74.1855** | the 45 m² project |
+| Trailing 6-month mean before **2021-02-02** | **75.4946** | the 25 m² studio kitchen |
+| Trailing 6-month mean before **2022-10-04** | **62.4003** | the 20-tips build source |
+
+### Prices
+
+| Item | Rouble | USD (rounded) | Note |
+| :--- | :--- | :--- | :--- |
+| Fake-mass bar counter in mitred compact laminate | 20,000 ₽ (2020-12) | **≈$270** | against a hand-waved «не знаю 300000» (≈$4,000) — ⚠️ **the 300,000 is RHETORICAL, not a quotation; he flags his own uncertainty in the sentence** |
+| Kitchen furniture, 25 m² studio | ~120,000 ₽ (2021-02) | **≈$1,600** | deliberately cheap — «квартира временная, не больше двух-трёх лет» |
+| **Flat insurance, per year** | 5,000 ₽ (2022-10) | **≈$80** | ⚠️ presented as the rational substitute for premium plumbing; the vault had NO insurance content |
+| Ready-made curtain, each | ~5,000 ₽ (2022-10) | **≈$80** | Leroy Merlin, standard for a 2.8 m ceiling, hemmed — «где-то по полу, где-то не хватает» |
+| Domestic porcelain tile for a windowsill | 1,500–2,000 ₽/m (2022-10) | **≈$20–30** | mitred at 45°, painted up to underneath |
+| Upcycling an old bedside cabinet | "the cost of ONE spray can" | — | no figure given; recorded as stated |
+
+### ⚠️ Ratios and multipliers (no conversion needed)
+
+| Claim | Figure | Source date |
+| :--- | :--- | :--- |
+| **⚠️⚠️ Soundproofing beyond a reasonable build-up** | **≈+20% quieter for ≈10× the cost** | 2022-10 |
+| **Epoxy grout vs cement grout** | **material ×3–4, LABOUR ×2** (labour premium because mistakes are unrecoverable) | 2022-10 |
+| **Decorative finish on a CEILING vs a wall** | **material ×1, LABOUR ×2** — with a stated ≈**4-hour** daily limit on overhead work | 2023-05 |
+| Purpose-made shallow built-in microwave vs an ordinary one | **⚠️ ×2–3 (2021-01-27) and ×3–4 (2021-02-02)** — two figures from one practitioner five days apart, **recorded as a range with both dates rather than picked** | 2021-01/02 |
+| Technical-architect-only drawings vs full design service | (already in vault) | — |
+| Built-in fridge without plinth/top ventilation | **service life shorter by ≈1–2 YEARS** | 2021-01 |
+| Venetian plaster's share of current work | **«ушла на 95 процентов»** | 2023-05 |
+
+### ⚠️ Dimensions
+
+| Item | Figure | Note |
+| :--- | :--- | :--- |
+| **Shadow-gap skirting reveal** | **10–15 mm** | ⚠️ a WINDOW with a failure at each end: more reads as «штаны задрались», less makes the finish material physically impossible to insert |
+| Interior door leaf, his own flat | **2.4 m** | ⚠️ makes the standard **2 m** entrance door «довольно смешно смотрится» beside it |
+| Heavy-texture plaster relief, flat-scale limit | **≈2 cm, «не больше»** | «СКАЛА» is the most-requested and the dearest finish |
+| Wall cabinet depth vs microwave depth | **30–35 cm vs 40–45 cm** | the clash that forces a support bracket |
+| Wall cabinets in his own studio | **60 cm — same as the bases** | which is what made the top tier a warehouse |
+| Studio flat / dining surface height | **25 m² / 75 cm** | 75 cm confirms the DINING rung of the three-height stool rule |
+| Dishwasher, studio | **45 cm** | ⚠️ viable «главное иметь ДВА КОМПЛЕКТА ПОСУДЫ» — so the duplication requirement scales INVERSELY with machine size |
+| Glass wall to a wardrobe | **buys ≈10 cm** | and costs far more than a 10 cm plasterboard or aerated-concrete wall — «НО ЭТО ЖЕ ДИЗАЙНЕРСКИЙ РЕМОНТ» |
+| Plasterboard partition, acoustic build-up | **2 layers each side**, cavity in mineral wool, plywood закладная | «самый акустически правильный вариант» |
+| Concealed mixer lead time, his own flat | **⚠️⚠️ 8 MONTHS — and it stopped the whole build** | because the rough-in body gates the rough stage |
+| Access-hatch use frequency that defeats concealment | **≈monthly** | at that frequency the hatch is simply left ajar |
+| Flat-bottomed sinks on the market | **≈95%** | his estimate (Round 6), quoted here for the sink-selection context |
+
+### ⚠️ Figures deliberately NOT recorded as numbers
+
+- **The 300,000 ₽ bar-counter comparison** — rhetorical, flagged in his own sentence.
+- **The side-by-side fridge alternative's module width** — ASR-garbled («160 и модуль»); 60 cm is the plausible reading and is **not resolved by guessing.**
+- **The quartz-vinyl acoustic "ring" claim** — ASR-affected; the DIRECTION is recorded, the claim is flagged `uncertain` and is not routed as a performance figure.
+- **Any conversion for the December 2020 windowsill passage**, where the ASR inverts the sentence — the MECHANISM is recorded, not the claim about what was built.

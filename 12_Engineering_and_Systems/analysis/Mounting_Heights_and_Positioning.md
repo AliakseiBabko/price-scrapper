@@ -45,3 +45,32 @@ Two named practitioners give different default heights for a kitchen worktop out
 - **Why exactly 1000mm**: makes reference-system arithmetic trivial for any tradesperson (e.g. "25cm above zero" = "75cm below working reference," no calculator needed) — an explicit error-reduction design choice, not an arbitrary convenient height. [source: [[_Sources/YT_VHfUDBr0p4Q_door_height_zero_reference_109|VHfUDBr0p4Q_door_height_]]]
 - **Practical marking procedure**: set a laser's horizontal beam to 99cm above the corridor's *finished* floor (99cm, not 100cm, because the corridor's own ~1cm finish layer is already down — the beam ends up exactly 1m above the rough screed beneath it); transfer that plane around the apartment by marker; every height figure elsewhere in this vault (switch heights, stub-out coordinates, door-opening heights) is derived by measuring down from that mark, not up from an as-yet-unpoured screed. [source: [[_Sources/YT_VHfUDBr0p4Q_door_height_zero_reference_109|VHfUDBr0p4Q_door_height_]]]
 - **When the corridor floor isn't finished yet**: do not use the developer-installed entrance door's bottom edge as a zero proxy (installers set that position with no regard for future corridor floor level). **Correct substitute: the building elevator's own threshold height** — deliberately set by developers so a stroller/wheeled cart crosses without a bump. [source: [[_Sources/YT_VHfUDBr0p4Q_door_height_zero_reference_109|VHfUDBr0p4Q_door_height_]]]
+
+## ⚠️⚠️ Never a Socket Where the Appliance Itself Blocks Access to It — One Principle, Three Instances (Александр Синчуков, 2021-01-27)
+
+**Three hard first-fix consequences, all invisible until it is too late:**
+
+1. **⚠️⚠️ A DISHWASHER REACHES THE BACK WALL: «это такой ГЛУБОКИЙ предмет, который прям ВПРИТИРКУ с задней стеной проходит, и за ней ПРАКТИЧЕСКИ НЕВОЗМОЖНО НИЧЕГО ПРОТЯНУТЬ. Если у вас например МОНОЛИТНАЯ СТЕНА, то вы НЕ СМОЖЕТЕ за ней протянуть ВОДУ — это нужно учитывать ПРИ ПРОЕКТИРОВАНИИ.»**
+2. **⚠️ NEVER A SOCKET BEHIND THE DISHWASHER: «ни в коем случае нельзя проектировать розетку, потому что вы просто НЕ СМОЖЕТЕ ВОТКНУТЬ ТУДА ПРОВОД.»**
+3. **⚠️ NOR BEHIND THE FRIDGE, for the de-energising reason: «если вам нужно будет его ОБЕСТОЧИТЬ, вам придётся его ВЫНИМАТЬ — если отдельностоящий, его нужно ВЫДЁРГИВАТЬ ИЗ НИШИ; если встроенный, это вообще ЦЕЛАЯ ИСТОРИЯ.»**
+   - **⚠️ AND THE PRACTICAL FIX IS NAMED: «просто в СОСЕДНЕЙ СЕКЦИИ сделайте розетку… нужно — просто СКИНЕТЕ ЦОКОЛЬ и вынете розеточку.»**
+
+- → **⚠️⚠️ ONE PRINCIPLE BEHIND ALL THREE: NEVER PLACE A SOCKET OR A SERVICE RUN WHERE THE APPLIANCE ITSELF BLOCKS ACCESS TO IT. Put it in the NEIGHBOURING cabinet, reachable by removing the PLINTH.** *(The single-principle reading is mine; he gives the three cases.)*
+- → **It interacts directly with Round 6's factory finding that in-cabinet socket cut-outs are pre-cut at the works — so this decision has to be right before furniture production, not before first fix.**
+
+## ⚠️⚠️ Perspectives — A Designer Attacks the 30/90 Socket-Height Orthodoxy, With Its Provenance
+
+**«Существуют СТАНДАРТНЫЕ ВЫСОТЫ розеток — это идёт ещё с 90-х годов, когда существовал этот "ЕВРОРЕМОНТ", который я просто НЕНАВИЖУ: все розетки на высоте 30 САНТИМЕТРОВ, все выключатели на 90. Но эти размеры идут из СОВЕТСКИХ СНИПОВ и обусловлены теми законами, которые были ещё в 40-е, 50-е и 60-е годы. Сейчас совсем другое время, совсем другая эстетика… Поэтому ставьте розетки на РАЗУМНОЙ высоте — это НЕ БУДЕТ влиять на БЕЗОПАСНОСТЬ, потому что всё равно расстояние будет.»** He particularly objects to sockets high on the splashback: **«смотрится совершенно отвратительно… смотрят на вас прямо из центра фартука».**
+
+- **⚠️ AND HIS SOLUTION: sockets recessed into the UNDERSIDE of the wall cabinets — «розетка вставляется в НИЗ ВЕРХНЕГО ЯЩИКА, и вы их ВООБЩЕ НЕ БУДЕТЕ ВИДЕТЬ, но будете просто втыкать [что нужно] ВВЕРХ.»**
+- → **⚠️⚠️ ROUTED AS PERSPECTIVES, WITH THE SAFETY ASSERTION FLAGGED. This is a DESIGNER arguing against a convention this page holds as standard, on AESTHETIC grounds, while asserting that safety is unaffected — and that assertion is an opinion, not a safety analysis. The PROVENANCE argument (the heights are inherited from mid-century norms rather than derived from current practice) is legitimate and worth having; the safety conclusion is not evidence.**
+- → **⚠️⚠️ JURISDICTION: this is a RUSSIAN practitioner discussing SOVIET СНиПы. Per the standing rule it is recorded here, on a technical page, with the jurisdiction flagged — NOT in `16_Legal_and_Regulations/`, which is Belarus-only. It is a design-practice argument, not a regulatory statement, and nothing here establishes what any Belarusian norm requires.**
+
+## ⚠️⚠️ Socket Positions Must Be Reconciled With the Kitchen Maker's ТЗ — the Designer's Side of a Round 6 Finding
+
+**«Это очень частый вопрос, который всплывает ИМЕННО НА СТРОЙКЕ, во время АВТОРСКОГО НАДЗОРА: дизайнерские ПРИВЯЗКИ РОЗЕТОК обязательно нужно УТОЧНЯТЬ В СООТВЕТСТВИИ С ТЕХНИЧЕСКИМ ЗАДАНИЕМ ОТ ПОСТАВЩИКА КУХОНЬ — потому что когда дизайн-проект попадает [на] производство, у них там СВОИ МОДУЛИ, своё оборудование, СВОИ ТИПОВЫЕ РАЗМЕРЫ, и привязки могут… ДАЖЕ СИЛЬНО ПОЕХАТЬ.»**
+
+- → **⚠️⚠️ Round 6's factory source established that the first-fix electrical plan and the furniture order are effectively ONE DEADLINE, because socket cut-outs and lighting grooves are CNC operations. THIS IS THE SAME FINDING FROM THE DESIGNER'S SIDE, two years earlier — and it names WHERE the problem surfaces (авторский надзор, on site) and WHY (the factory's MODULE GRID overrides the designer's dimensions). Two sources, two sides, one deadline.**
+
+[source: [[_Sources/YT_wvlr2aGDMCc_nsdsgn_five_kitchen_mistakes|YT_wvlr2aGDMCc]]]
+

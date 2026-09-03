@@ -282,3 +282,18 @@ A viewer question the same source answers: the renovation took a year or eightee
 ---
 
 Part of [[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family Scenario Driven Design]]. Read the framework there first; these are the cases it was derived from.
+
+## ⚠️ Ask What the Household Will NOT Have in the House — Decor Can Violate a Belief (Александр Синчуков, 2022-10-04)
+
+**Offered as a caveat to a free-decor trick (foraged branches in a vase): «Постарайтесь, чтобы декор НЕ ШЁЛ ВРАЗРЕЗ С ПРЕДМЕТАМИ, В КОТОРЫЕ ВЫ ВЕРИТЕ. У меня друг рассказывал, что он маленький принёс домой КАМЫШИ, поставил в вазу — это было очень красиво, но потом пришла БАБУШКА и сказала, что ты [это] К СМЕРТИ, и НАФИГ ВЫКИНУЛА.»**
+
+- → **⚠️ A concrete brief-elicitation question this page does not have: WHAT WILL THIS HOUSEHOLD NOT HAVE IN THE HOUSE? Reeds read as a death omen in Russian folk tradition; the object was beautiful, correctly chosen on design grounds, and thrown out on arrival.**
+- → **The general form: a decor decision can be VETOED by a belief nobody thought to mention, and the veto arrives after the money is spent. It sits alongside this page's compass case — both are requirements that no amount of design skill can satisfy or predict, and both are cheap to ask about in advance.**
+- ⚠️ *Adjacent, and still unprocessed: this channel has a feng-shui specialist interview (`NHqf-OoLPBM`, 2019) which remains the only counter-position to a view the vault holds solely from sceptics. Flagged in the round's planning notes.*
+
+## ⚠️⚠️ Two Small-Flat Brief Decisions: DROP the Requirement, and Decide the Curtains Early
+
+- **⚠️⚠️ HE DECLINES THE ENTERTAINING REQUIREMENT rather than compressing it, in his own 25 m² studio: «все говорят, что это очень мало места, как же встречать гостей — Я НЕ ВСТРЕЧАЮ ЗДЕСЬ ГОСТЕЙ.»**
+  - → **In a very small flat, DROPPING a requirement is a legitimate brief outcome — and stating it explicitly stops the plan being judged against a brief nobody actually has.** He then makes the trade visible: he considered demolishing a wall to get «полноценная крутая большая кухня» and instead gave the space to WORK DESKS. [source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+- **⚠️⚠️ AND A SEQUENCING CONSEQUENCE WORTH ADDING TO ANY INTAKE: THE WINDOW TREATMENT DECIDES WHETHER THE RADIATOR AND THE WINDOWSILL ARE VISIBLE ELEMENTS AT ALL — and therefore whether they are worth spending on. He applies the test to both in one section: cheap plastic sills and wall-colour-painted radiators BECAUSE there will be тюль. Window treatments are normally chosen last, which makes them a PREREQUISITE for two earlier budget decisions.** *(The sequencing point is mine; the two applications are his.)* [source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+

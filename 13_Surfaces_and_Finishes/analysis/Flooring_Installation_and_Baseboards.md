@@ -162,6 +162,21 @@ This page holds the shadow/concealed skirting as an aesthetic and detailing choi
 
 [source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
 
+### ⚠️⚠️ Shadow Skirting — a 10–15 mm Window, No Standard Technology, and the PAINTER Must Specify the Install (Александр Синчуков, his own flat mid-build, 2022-10-04)
+
+**The most detailed account of this detail the vault holds, and it is a warning. He was talked OUT of fully concealed skirtings — «сказали, что это РЕДКОСТНЫЙ ГЕМОРРОЙ, что нужны ИДЕАЛЬНЫЕ СТЕНЫ, и лучше с ними НЕ СВЯЗЫВАТЬСЯ» — and found the shadow type barely easier:**
+
+- **⚠️⚠️ «НЕТ ЕДИНОЙ ТЕХНОЛОГИИ по установке теневых плинтусов. Во-первых, САМИХ ПЛИНТУСОВ ОЧЕНЬ МНОГО. Во-вторых, КАЖДЫЙ СТРОИТЕЛЬ РАССКАЗЫВАЕТ СВОИ БАЙКИ, и нужно просто ПОВЕРИТЬ ИМ, что они сделают всё правильно.»**
+- **⚠️⚠️ THE DIMENSION WINDOW, WITH A FAILURE AT EACH END: «мне больше всего нравится, когда теневой шов МИНИМАЛЬНЫЙ — САНТИМЕТР либо ПОЛТОРА. БОЛЬШЕ уже НЕКРАСИВО, это смотрится, как будто у вас ШТАНЫ ЗАДРАЛИСЬ [и видны] НОСКИ. МЕНЬШЕ — будет уже НЕРЕАЛЬНО туда положить ЧИСТОВОЙ МАТЕРИАЛ, и это будет уже ближе к СКРЫТОМУ плинтусу — тогда КАКОЙ ВООБЩЕ В НЁМ СМЫСЛ?»**
+  - → **A 10–15 mm reveal: above it the gap reads as a mistake, below it the finish material physically cannot be got in.**
+- **⚠️⚠️ AND THE COORDINATION FINDING, WHICH IS THE BEST PART: «САМОЕ ПРАВИЛЬНОЕ — ПООБЩАТЬСЯ С ВАШИМ МАЛЯРОМ, потому что именно ОН будет делать ПРИМЫКАНИЕ покрытия к теневому плинтусу. НИКТО ЛУЧШЕ МАЛЯРА вам не скажет, как правильно делать. Потому что если установку выдадите СТРОИТЕЛЯМ, они сделают ПОД СЕБЯ и скажут: "да пусть маляр потом разбирается" — а потом придёт маляр и скажет: ЭТО НЕВОЗМОЖНО ЗАМАЛЯРИТЬ, СЮДА НЕВОЗМОЖНО ПОДОЙТИ. И ЧАЩЕ ВСЕГО ТЕНЕВЫЕ ПЛИНТУСА УСТАНАВЛИВАЮТ ИМЕННО МАЛЯРА.»**
+  - → **⚠️⚠️ THE TRADE THAT OWNS THE JUNCTION SHOULD SPECIFY ITS INSTALLATION — and the default (handing it to the general builders) produces an UNPAINTABLE detail. A general coordination principle with a named, concrete instance.**
+  - → **⚠️⚠️ AND THIS IS THE FOURTH INSTANCE ON THIS CHANNEL of shadow/concealed skirting being the detail crews claim to know and cannot execute — the vault already records the competence test, a ceiling installer's «многие впервые его делают», and his own lost money on his own flat. THIS ONE SUPPLIES THE MECHANISM: there is no single technology, so every crew improvises, and the improvisation is optimised for whoever INSTALLS rather than whoever FINISHES.**
+- **The escape: «с КЛАССИЧЕСКИМ плинтусом таких проблем НЕ БУДЕТ — вы сильно СЭКОНОМИТЕ и избавите себя и своих строителей от головной боли.»**
+- ⚠️ **He names shadow skirtings and concealed doors together as the two details that make economising impossible — see [[17_Design_and_Ergonomics/analysis/Material_and_Finish_Technique|Material and Finish Technique]].**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
 
 ## Herringbone and Pattern Work
 

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=wvlr2aGDMCc",
+  "video_id": "wvlr2aGDMCc",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-03T18:00:40.409740+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "90b5d9c169ae0ac2ed7006613158137a35d2b0cc5fafc3f363ca52ca42b1dc2e",
+  "attempts_before_success": []
+}

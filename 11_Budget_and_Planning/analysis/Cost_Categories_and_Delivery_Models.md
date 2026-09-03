@@ -178,6 +178,29 @@ competition:
 
 Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Guide]]. Siblings: [[11_Budget_and_Planning/analysis/Cost_Benchmarks_Live_Intake|Cost Benchmarks — Live Intake Ledger]] · [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]] · [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services & Fees]] · [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]].
 
+## ⚠️⚠️ A Designer Hired SEPARATE TRADES for His Own Flat — and Reports the Cost He Could Not Offset (Александр Синчуков, 2022-10-04)
+
+**«Я брал НЕ СТРОИТЕЛЬНУЮ КОМПАНИЮ, а специалистов ОТДЕЛЬНО. Это получилось ЗНАЧИТЕЛЬНО ДЕШЕВЛЕ, но при этом у меня ПОСТОЯННО БОЛЕЛА ГОЛОВА от того, что мне приходилось БЫТЬ ПРОРАБОМ, МЕНЕДЖЕРОМ ОБЪЕКТА и постоянно КОНТРОЛИРОВАТЬ всех этих СМЕЖНИКОВ, чтобы они между собой правильно сотрудничали. Большая разница [в цене] КОМПЕНСИРОВАЛА все мои расходы — но, к сожалению, МОЮ ГОЛОВНУЮ БОЛЬ НИЧТО НЕ КОМПЕНСИРУЕТ.»**
+
+**⚠️ And the scoping rule: «если квартира небольшая, работать немного, это небольшая проблема. НО если реально БОЛЬШОЙ проект, большая квартира, МНОГО СМЕЖНИКОВ, то МИНИМУМ что нужно иметь — это ДИЗАЙН-ПРОЕКТ, без этого у вас точно ВЗОРВЁТСЯ ГОЛОВА.»**
+
+- → **⚠️⚠️ A first-person, costed comparison of the two delivery models on this page, from a PROFESSIONAL who chose the cheaper one for his own flat and reports the non-financial cost honestly rather than selling either model.**
+- → **⚠️⚠️ AND IT DIRECTLY QUALIFIES THE ROUND 6 GENERAL-CONTRACTING ARGUMENT recorded elsewhere in this folder — a contractor of 30+ years holds that only a general contractor or a long-horizon reference actually works, because a specialist's quality cannot be judged at the time of work. TWO PRACTITIONERS, OPPOSITE CHOICES, BOTH WITH REASONS.**
+- → **The reconciliation is SCALE, and both state it: separate trades work when the coordination load is small enough for one amateur project manager. Route as Perspectives with that as the axis, rather than picking a winner.**
+- ⚠️ **Note what he says the design project is FOR in this framing: not a specification but a COORDINATION INSTRUMENT for the client acting as their own прораб. That is a fourth distinct function for the same document, alongside specification, evidentiary artefact (Round 4) and idea-in-escrow (Round 6).**
+
+## ⚠️⚠️ "It Is Not Possible to Do Minimalism Cheaply" — the General Principle Behind Several Findings in This Vault (same source)
+
+**«В случае с ТЕНЕВЫМИ ПЛИНТУСАМИ и СКРЫТЫМИ ДВЕРЯМИ на стенах СЭКОНОМИТЬ ТОЧНО НЕ ПОЛУЧИТСЯ — нужны ИДЕАЛЬНО РОВНЫЕ СТЕНЫ. В противном случае вы получите дешёвый кривой ремонт, похожий больше на ДЕШЁВЫЙ ОФИС. И как многие считают, что можно сделать дёшево минимализм — НО ДЁШЕВО МИНИМАЛИЗМ СДЕЛАТЬ НЕ ПОЛУЧИТСЯ, ПОВЕРЬТЕ.»**
+
+- → **⚠️⚠️ EVERY CONCEALED DETAIL REMOVES THE TOLERANCE THAT CHEAP WORK DEPENDS ON. Choosing minimalism commits you to SUBSTRATE ACCURACY, and substrate accuracy is LABOUR. That is the general principle behind Round 5's render-vetting heuristic, Round 6's curved-corner cost, and three tolerance-absorbing details from this same practitioner — the kitchen worktop overhang, the wall-unit filler batten, and the projecting windowsill.**
+- → **⚠️ So a minimalist specification is a BUDGET decision disguised as a style decision, and the honest way to present it to a client is as a substrate-accuracy purchase.** *(That framing is mine; the claim is his.)*
+- **⚠️ AND THE SELF-EXEMPTION AT THE END OF THE SAME VIDEO, which is the honest frame for the whole source: «хороший интересный красивый ремонт можно сделать НЕДОРОГО — ЕСЛИ ВЫ КОНЕЧНО НЕ СУМАСШЕДШИЙ ДИЗАЙНЕР, ПОВЁРНУТЫЙ НА СВОЕЙ РАБОТЕ.» He is describing what HE spent and telling you not to copy it.**
+- **⚠️ And the candid version of the same point on a specific line item: a GLASS wall to the wardrobe bought purely to gain 10 cm — «эти  10 сантиметров обойдутся довольно дорого, и ЗНАЧИТЕЛЬНО ДОРОЖЕ, чем выстроить стену толщиной 10 см из гипсокартона или даже из газобетона. НО ЭТО ЖЕ ДИЗАЙНЕРСКИЙ РЕМОНТ» — plus «НЕ БЫВАЕТ ШТУЧНЫХ ВЕЩЕЙ ПО НИЗКОЙ ЦЕНЕ.»**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## ⚠️⚠️ Procurement Under Price Instability — Nine Suppliers, April 2022, and Three Techniques That Outlive the Crisis
 
 **A round-table assembled from separate interviews with NINE St Petersburg suppliers six weeks after the February 2022 shock. ⚠️ High promotional ratio — every participant names their company and closes with a pitch — but the nine accounts are mutually checkable, which is what makes the figures usable.** [source: [[_Sources/YT_AMMIMihB-Mc_nsdsgn_supplier_roundtable_2022_price_shock|YT_AMMIMihB-Mc]]]

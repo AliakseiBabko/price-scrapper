@@ -177,6 +177,40 @@ This vault already records this studio rejecting tile corner trims three times. 
 
 `single-account`, `unverified`.
 
+### ⚠️⚠️⚠️ THE JOINT-COUNT PRINCIPLE — Five Instances Across Two Rounds, and It Deserves One Home
+
+**Across Rounds 6–7 one practitioner returns to the same idea five times, in five different trades, and in December 2020 he states it as a general test of design quality:**
+
+**«ВСЕГДА нужно в дизайне продумывать СТЫКИ — все стыки материалов должны быть ПРИКРЫТЫ, должны быть КРАСИВЫМИ, и ЭТО ВЫДАЁТ ХОРОШИЙ ДИЗАЙН.»** [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+| Instance | Trade | Motive | Date |
+| :--- | :--- | :--- | :--- |
+| **"All material junctions must be covered — this is what betrays good design"** | general | the stated principle | **2020-12** |
+| A plasterboard layer packing the wall FLUSH to the splashback face, so there is no arris and no dust ledge | tiling / drylining | no dust ledge | 2020-12 |
+| Specify the splashback at MAXIMUM format and cut it — «метр на 3, разрежьте его пополам» | tiling | JOINT ELIMINATION | 2021-01 |
+| A blank return panel (глухарь) terminating the splashback so no three-way corner forms | joinery | no corner | 2023-11 |
+| Large-format tile chosen for «всего два вертикальных шва» | tiling | fewest joints | 2022-10 |
+| **⚠️ Decorative plaster's SEAMLESSNESS as the material's entire selling point** | decorative finishes | «в этом СУТЬ вообще декоративной штукатурки — что она НЕ ИМЕЕТ СТЫКОВ» | **2023-05** |
+
+- → **⚠️⚠️ So the joint count is not a maintenance detail he mentions occasionally — it is the organising idea of his material practice, and it explains choices that look unrelated (format selection, panel terminations, a plaster preference).**
+- **⚠️ The specialist's version adds the negative case: PANELS CANNOT BE MADE SEAMLESS. «Есть панели, которые имитируют скалу, но у них НИКОГДА НЕ СДЕЛАТЬ КРАСИВЫЙ СТЫК… ЭТО НЕВОЗМОЖНО, [он] БУДЕТ ВИДЕН.»** [source: [[_Sources/YT_cl0LIAVZUjI_nsdsgn_decorative_plaster_workshop|YT_cl0LIAVZUjI]]]
+- **⚠️⚠️ AND IT CUTS AGAINST HIS OWN CHEAP HACK, WHICH IS WORTH RECORDING AS A TENSION: in December 2020 he built a "3D panel for pennies" from vertical POLYURETHANE MOULDINGS applied in varying widths and painted with the wall — explicitly to avoid the joint-filling pain of real gypsum 3D panels. ⚠️ MY READING, FLAGGED: linear mouldings work BECAUSE the joint is a deliberate LINE; sheet panels fail because the joint is ARBITRARY. Neither source says this, and it reconciles the two.**
+
+### ⚠️⚠️⚠️ "It Is Not Possible to Do Minimalism Cheaply" — the Principle Behind the Render-Vetting Heuristic and the Curved-Corner Cost
+
+**«Как многие считают, что можно сделать дёшево минимализм — НО ДЁШЕВО МИНИМАЛИЗМ СДЕЛАТЬ НЕ ПОЛУЧИТСЯ, ПОВЕРЬТЕ.»** The two details he names as making economy impossible are **ТЕНЕВЫЕ ПЛИНТУСА and СКРЫТЫЕ ДВЕРИ**, because both demand «ИДЕАЛЬНО РОВНЫЕ СТЕНЫ»; otherwise «вы получите дешёвый кривой ремонт, похожий больше на ДЕШЁВЫЙ ОФИС».
+
+- → **⚠️⚠️ EVERY CONCEALED DETAIL REMOVES THE TOLERANCE THAT CHEAP WORK DEPENDS ON. That is the general principle behind Round 5's render-vetting heuristic and Round 6's finding that a curved cabinet corner can cost what the cabinet costs.**
+- **⚠️⚠️ AND THE POSITIVE SIDE OF THE SAME COIN IS THREE TOLERANCE-ABSORBING DETAILS FROM THE SAME PRACTITIONER, all of which the minimalist version deletes:**
+  - **the KITCHEN WORKTOP OVERHANG — which exists to hide millimetre front misalignment, not to manage water (he explicitly debunks the water argument);**
+  - **the FILLER BATTEN between wall units and an unlevelled developer slab;**
+  - **the PROJECTING WINDOWSILL, which masks wall curvature.**
+- → **⚠️ So a minimalist specification is a BUDGET decision disguised as a style decision, and the honest way to present it is as a SUBSTRATE-ACCURACY PURCHASE.** *(That framing is mine; the claim and the three details are his.)*
+- ⚠️ **His own self-exemption is the honest frame: «хороший ремонт можно сделать НЕДОРОГО — ЕСЛИ ВЫ КОНЕЧНО НЕ СУМАСШЕДШИЙ ДИЗАЙНЕР, ПОВЁРНУТЫЙ НА СВОЕЙ РАБОТЕ.»**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Finish Interactions — Colour, Light and Durability
 
 ### Clinker Tile Grout Lines — a Perceptual-Clutter Nuance, Distinct From the Dust Mechanism (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)

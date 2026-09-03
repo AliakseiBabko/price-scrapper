@@ -1121,3 +1121,72 @@ The rescue contractor states «дверные коробки стоит уста
 - **`15_Appliances/Kitchen_Disposers.md` POPULATED** — it had been 0 bytes. Round 6 supplied its first substantive source (disposer scope, the under-sink bin conflict, and the corner-offset waste outlet that resolves it). Flagged as a single-source page.
 - **`Kitchen_Filtration_Systems_Analysis.md` remains 0 bytes** — no source this round touched it. Carried forward to `Pending_Wiki_Page_Decisions.md`.
 - **Two Perspectives blocks opened rather than resolved:** the 2021→2022 dark-surface reversal (`Practitioner_Material_Selection_Accounts.md`), and the 4000 K task-zone exception against the same-scene rule (`Lighting_Colour_Temperature.md`). **In both cases the reconciliation offered is explicitly labelled as MINE and not the practitioner's.**
+
+## 2026-09-03 — Round 7, @YourInteriorDes / NSDSGN (5 sources)
+
+### ⚠️⚠️ A measured limit on my own Round 6 recommendation — caption availability bounds oldest-first scoping
+
+Round 6 ended by recommending: *keep scoping this channel OLDEST-FIRST until the pre-2023 back catalogue is exhausted.* **Round 7 followed it and immediately hit a wall that should have been measured first.**
+
+**Probing 17 candidates with `yt-dlp` (metadata only, no downloads, serialized) found a clean boundary:**
+
+| Era | Russian captions |
+| :--- | :--- |
+| 2017-09 → 2019-09 | **AUTO only** |
+| 2019-09 → 2021-07 | **⚠️ PER-VIDEO: auto, or NOTHING — 4 of 8 probed have NO Russian track at all** |
+| **2021-08-10 onward** | **MANUAL Russian, plus manual en/es/de — uniformly** |
+
+**⚠️ Two of my five original picks were therefore unprocessable: `Phk79uKT7rA` (2020-11-03, a 70 m² flat for a family with two children — the most project-shaped title on the channel) and `3y-gA7A6QJ4` (2021-04-02, the ideal bathroom). Rule 1 forbids substituting auto-translated English captions, so both are recorded as UNFETCHABLE rather than as skipped or deferred.**
+
+→ **The recommendation is amended rather than withdrawn: oldest-first still pays, but the reachable origin layer for this channel is 2020-11 → 2021-07 and it is PATCHY. Probe caption availability BEFORE building a round's scope, not after. The probe cost about a minute per video and would have saved two fetch attempts and a re-scope.**
+
+⚠️ **A second limit, recorded because the temptation was real: the channel goes back to 2017-09, but the 2017–2019 layer is CAREER-PATH INTERVIEWS. OLDEST-FIRST DOES NOT OVERRIDE THE VALUE FILTER — an old source pays off when it may be the ORIGIN of a technical finding, and "who is a designer" cannot be. Being oldest is not itself value.**
+
+### ⚠️⚠️⚠️ CORRECTION 1 — the touch-switch source count was inflated, and I had already written the rule that prevents it
+
+**Round 6 routed the furniture touch-switch objection onto `Switches_and_Controls.md` as "the THIRD independent practitioner… Three sources, no dissent: route as SETTLED."**
+
+**Round 7 processed the flat that the Round 6 source calls «в прошлой квартире» — and the same complaint is already there, in February 2021. So TWO OF THE THREE INSTANCES ARE THE SAME PERSON, reporting the same failure in two different flats 2.7 years apart. The vault has TWO independent practitioners, not three.**
+
+- **The FINDING survives and is arguably stronger — a repeat failure across two installations, with the "you just bought a bad one" defence explicitly refused in 2023 — but the COUNT was wrong and "settled" was overstated.**
+- ⚠️⚠️ **AND THIS IS A VIOLATION OF A LESSON I RECORDED MYSELF ONE ROUND EARLIER. Round 5 established: *an established form is only evidence if its instances are INDEPENDENT — count SOURCES, not OCCURRENCES.* I wrote that down and then broke it in Round 6, on the same channel, by counting one practitioner's two flats as two practitioners. Recording it plainly because the pattern (recording a lesson without operationalising it into a check) has now happened twice — Round 6 found the same shape in the synthesis-crediting error.**
+- Corrected in place on `12_Engineering_and_Systems/analysis/Switches_and_Controls.md`.
+
+### ⚠️⚠️ CORRECTION 2 — I asserted a "later narrowing" I had no source for
+
+**Round 6 recorded the January 2021 claim that lacquered decorative plaster is usable in a shower zone and as a splashback, and I added: *"and he narrows this claim himself in later sources."* I HAD NO SOURCE FOR THAT. I inferred it because the claim seemed too bold, and wrote the inference as though it were established.**
+
+**Round 7 selected `cl0LIAVZUjI` specifically to find that later source. It does the OPPOSITE — a coatings specialist CONFIRMS and SPECIFIES the capability: with a POLYURETHANE top lacquer the finish is rated for a HIGH-HUMIDITY ROOM and can be pressure-washed, the worked example being a rest zone ADJACENT TO A HAMMAM.**
+
+→ **The honest position, narrower than either of my formulations: UPHELD for humid rooms with a polyurethane finish, UNEVIDENCED for direct spray. And the mechanism reframes the question — the performance comes from the FINISH COAT, not the plaster, so "is it washable" is the wrong question and "which finish coat is specified" is the right one.** Corrected on `13_Surfaces_and_Finishes/analysis/Decorative_Plaster_and_Microcement.md`.
+
+⚠️ **The general lesson, which is the one worth keeping: I flagged something as "narrowed later" to make a bold claim safer to hold. That is a plausible-sounding hedge with no evidence behind it, and it is worse than either recording the bold claim with a flag or leaving the question open.**
+
+### ⚠️⚠️ CORRECTION 3 — a vault page was built from his METHOD and omitted his VERDICT
+
+**`Concealed_Door_Considerations.md` holds his two-stage installation method and his 200-rouble protective-sleeve tip. It did not hold his own conclusion, stated in October 2022: «ПРОЩЕ КУПИТЬ ДВЕРИ С КЛАССИЧЕСКИМ НАЛИЧНИКОМ, и они ЗА МЕНЬШУЮ ЦЕНУ будут смотреться ЛУЧШЕ.»** The page read as though he recommended what he had done.
+
+→ **Added, with his reasons (no architrave means no tolerance; the finished-floor datum and the paint thickness must both be predicted; «шанс промахнуться очень велик»; only a few factories make them so choice is thin).** ⚠️ **AND IT CONFIRMS THE ROUND 6 RESOLUTION of the datum question for the third time — that reading was right.**
+
+### ⚠️⚠️ A tension I nearly recorded as unresolved, RESOLVED BY THE SOURCE
+
+Two sources five days apart appear to disagree about kitchen wall units: 2021-01-22 says build TO THE CEILING (no greasy dust ledge); 2021-01-27 says the top tier is a forgotten warehouse and you might skip uppers entirely. **`hEZntyMcP-A` (2021-02-02) states BOTH HALVES and gives the condition — the forgotten tier is still worth having «когда у вас МАЛЕНЬКАЯ КВАРТИРА и вам нужно ЭКСТРА ХРАНЕНИЕ».**
+
+→ **Recorded as RESOLVED BY THE SOURCE, not as my inference and not as an open Perspectives split — which is what I would have written had I read only the first two. A third source in the same layer settled it.**
+
+### ⚠️⚠️ An inference of mine, now SOURCED
+
+**Round 6 flagged as MY OWN inference that "the access route and lift dimensions matter, because block-delivered kitchen units arrive as large rigid blocks."** October 2022 states it as the practitioner's explicit rule — **«ВСЕГДА ДУМАЙТЕ О ПОДЪЁМЕ, О ЗАНОСЕ»** — with two cases, including one where the programme must be INVERTED (steel fabricators telling clients not to replace their windows yet, because the steel comes in through the window). **Upgraded from inference to sourced, and said so on the page rather than silently promoting it.**
+
+### Structural changes and page repairs
+
+- **✅ `05_Kids_Room/analysis/Age_Staged_Planning.md` REPAIRED — the third owed repair, and it was flagged twice.** ⚠️ **Diagnosis mattered: it was NOT harmfully fragmented (only two headings carried dated labels, and both were topical too). The defect was that ONE SECTION HELD 154 OF 359 LINES — 43% of the page — and it was a different topic: desks, beds and shared-room ergonomics. So the fix was a SPLIT, not a merge.** `split_page.py apply`: **359 → 208 + a new `Desks_Beds_and_Shared_Rooms.md` at 167 lines, 0 content lines missing, 16/16 citation ids, RESULT: CLEAN.**
+- **No page in the vault is now flagged twice.** After routing: 289 pages, 0 fragmented, 0 over the 400 backstop; the largest is `03_Kitchen/analysis/Storage_and_Hardware.md` at 325, which is topically coherent.
+- **`Kitchen_Filtration_Systems_Analysis.md` remains 0 bytes** — no Round 7 source touched it. Still the only empty page.
+
+### Perspectives opened, not resolved
+
+1. **RUGS — dust versus acoustic comfort.** Same practitioner, opposite recommendations 21 months apart (Jan 2021 against, Oct 2022 for), with allergy appearing on BOTH sides. Recorded as a genuine trade on `Flooring_Material_Selection.md`.
+2. **DELIVERY MODEL — separate trades versus a general contractor.** A designer chose separate trades for his own flat and reports the unoffsettable coordination cost; a 30-year contractor (Round 6) holds that only a GC or a long-horizon reference works. Both have reasons; the axis is SCALE.
+3. **SOCKET HEIGHTS — the 30/90 orthodoxy attacked on aesthetic grounds, with a Soviet-СНиП provenance argument.** ⚠️ Routed to a TECHNICAL page with the jurisdiction flagged — NOT to `16_Legal_and_Regulations/`, which is Belarus-only — and with his safety assertion flagged as an opinion rather than an analysis.
+4. **UNDERFLOOR HEATING — natural wood as the pairing that defeats it**, which is the reverse of how the vault's existing Perspectives block frames the question.

@@ -150,6 +150,24 @@ A furniture manufacturer's own account of what goes wrong when furniture is comm
 
 **⚠️ Gap: no specification for the blocking itself** — no material, thickness, size or fixing pattern, only that it must exist. **And no indication of how early "early" is** in weeks or stages. Anything buildable needs a different source.
 
+### ⚠️⚠️⚠️ A NAMED CLASS: Purchases That LOOK Like Finish Items but Are Actually ROUGH-STAGE DEPENDENCIES
+
+**This section collects rough-stage decisions individually. Rounds 6 and 7 have now produced THREE instances of one structural class, and naming the class is more useful than the instances, because the remedy is identical in all three: IDENTIFY EVERY ROUGH-STAGE-DEPENDENT PURCHASE AT DESIGN STAGE AND ORDER IT FIRST.**
+
+| Purchase | Why it gates the rough stage | Evidence |
+| :--- | :--- | :--- |
+| **Concealed-door pockets and frames** | The pocket is a partition carcass; the frame must be set to the finished-floor datum before plastering | Round 6 + Round 7 |
+| **⚠️⚠️ Concealed (in-wall) MIXERS** | **The rough-in body must be built into the wall and boarded over — you cannot finish and hang the visible part later** | **⚠️ 8-MONTH schedule stop on his own flat** |
+| **Kitchen appliances, sockets and lighting grooves** | The modules are built TO the chosen appliance; socket cut-outs and LED grooves are CNC operations, and the maker's module grid overrides the designer's dimensions | Round 6 (factory side) + Round 7 (designer side) |
+
+**⚠️⚠️ THE MIXER CASE, IN HIS OWN WORDS, AND IT COST HIM EIGHT MONTHS: «ИНЖЕНЕРИЯ — это то, на чём НЕЛЬЗЯ ЭКОНОМИТЬ, но в РАЗУМНЫХ пределах. Разумные — это когда вы заказываете смесители из ИТАЛИИ и потом ждёте их ВОСЕМЬ МЕСЯЦЕВ, и у вас из-за этого ВСТАЁТ ПОЛНОСТЬЮ СТРОЙКА. НО ЭТО МОЙ СЛУЧАЙ… Когда смесители ВСТРОЕННЫЕ В СТЕНУ, то ВНУТРЕННИЕ ЧАСТИ вам нужны НА ЧЕРНОВОМ ЭТАПЕ. Вы НЕ МОЖЕТЕ закончить ремонт, сделать выводы, а потом пришедшие смесители просто НАВЕСИТЬ — вам ОБЯЗАТЕЛЬНО нужна внутренняя их часть. И вот именно её я и ждал; когда дождался, мы сразу же установили её в стены [и] зашили гипсокартоном — ДО ЭТОГО ЭТО ДЕЛАТЬ БЫЛО ПРОСТО НЕВОЗМОЖНО.»**
+
+- → **⚠️ A concealed mixer's lead time becomes THE PROJECT'S CRITICAL PATH, and it did so on a designer's own flat. Concealed mixers also cost more than exposed ones — so the concealment is paid for twice, in money and in schedule risk.**
+- → **⚠️⚠️ THE ACTIONABLE TEST FOR ANY SPECIFICATION: for every item, ask WHETHER ANY PART OF IT IS BURIED. If yes, its lead time is a rough-stage constraint and it must be ordered before the walls close, regardless of how "finish" it looks in the drawing.** *(The class and the test are mine; the three instances are the sources'.)*
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Acceptance Checkpoints
 
 ### Pre-Finish Stage Acceptance Checklist (added 2026-08-04)

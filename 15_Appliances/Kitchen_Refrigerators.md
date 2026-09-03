@@ -117,6 +117,32 @@ personal selection.
 auto-generated Russian captions and are flagged individually — treat those specific names as
 approximate pending verification against a cleaner source. [source: [[_Sources/YT_FmGVmt2RH1c_kruglov_which_refrigerator_2026|YT_FmGVmt2RH1c]]]
 
+## ⚠️⚠️ Three Fridge Findings From One Practitioner in Five Days — Including Both Sides of the Built-In Trade-Off (Александр Синчуков, 2021-01-27 and 2021-02-02)
+
+### ⚠️⚠️ Side-by-side fridges are a myth — a strong contrarian claim
+
+**«Меня постоянно заказчики просят поставить им огромный холодильник САЙД-БАЙ-САЙД… поверьте мне, это САМОЕ ГЛУБОКОЕ ЗАБЛУЖДЕНИЕ — в этих холодильниках НИЧЕГО НЕ ВЛЕЗАЕТ… посмотреть вживую, они ОЧЕНЬ МАЛЕНЬКИЕ и ОЧЕНЬ КОМПАКТНЫЕ, и туда МАЛО ЧТО ВЛЕЗАЕТ. Кроме того они ещё и стоят СИЛЬНО ДОРОЖЕ.»**
+
+His alternative: **TWO SEPARATE COLUMNS — one refrigeration module and one freezer module — «вот тогда у вас точно всё влезет».** ⚠️ *The module width is ASR-garbled and is not resolved by guessing; 60 cm is the plausible reading.*
+
+- → **Route as a Perspectives counter-claim against this page's buying-guide content, with the dimension flagged. It is checkable in any showroom, which is exactly what he recommends: «посмотреть вживую».**
+
+### ⚠️⚠️ Built-in versus freestanding — both sides from one practitioner within a week, plus his own resolution
+
+- **2021-01-27, the CAPACITY side: «встроенный холодильник ЗНАЧИТЕЛЬНО МЕНЬШЕ отдельностоящего… встройка — это другая эстетика, но она всё равно ЗНАЧИТЕЛЬНО МЕНЬШЕ. ЭТО ФАКТ.»** (with the American-sitcom chrome fridge as the cultural contrast). [source: [[_Sources/YT_wvlr2aGDMCc_nsdsgn_five_kitchen_mistakes|YT_wvlr2aGDMCc]]]
+- **⚠️⚠️ 2021-02-02, the CLEANING side, and he decides AGAINST capacity: «В СЛЕДУЮЩЕЙ моей квартире НЕ БУДЕТ отдельностоящего холодильника, потому что вот это всё В ГРЯЗИ — когда я жарю СТЕЙК, здесь ЛЕТИТ ЖИР, это очень тяжело отмывается. Могу сказать, что это ХУЖЕ ОТМЫВАЕТСЯ, ДАЖЕ ЧЕМ ЧЁРНОЕ СТЕКЛО. Также есть вот такие ЩЕЛИ, куда что-то может УПАСТЬ, ЗАВАЛИТЬСЯ, и чтобы это отмыть, надо ХОЛОДИЛЬНИК ВЫНИМАТЬ — я конечно НЕ БУДУ это делать каждый раз. Я ЛУЧШЕ ПОСТАВЛЮ ВСТРОЕННЫЙ, в который влезет МЕНЬШЕ ПРОДУКТОВ — это важный момент — но при этом это будет ОЧЕНЬ ПРОСТО В УБОРКЕ. Потому что этот холодильник — огромный ПЫЛЕСБОРНИК, особенно СВЕРХУ… рано или поздно мне придётся туда залезть и всё вычищать, и я С ОТВРАЩЕНИЕМ ЖДУ ЭТОГО МОМЕНТА.»**
+  - → **⚠️⚠️ A DATED TRADE-OFF, KNOWINGLY DECIDED: LESS CAPACITY IN EXCHANGE FOR CLEANABILITY — and he had stated the capacity cost himself five days earlier. The vault gets both sides and his own resolution.**
+  - → **⚠️ The top of a freestanding fridge is a GREASE-AND-DUST LEDGE — the same argument that drives building kitchens to the ceiling, applied to an appliance. And the calibration is memorable: fridge-side grease is HARDER to clean than black gloss glass.**
+
+### ⚠️⚠️ Ventilation for a built-in fridge — a one-to-two-year service-life penalty, cheap to prevent
+
+**«ОБЯЗАТЕЛЬНО делайте В ЦОКОЛЕ вентиляцию, также НАД холодильником РЕШЁТОЧКУ для вентиляции — потому что если холодильник будет сильно ЗАЖАТ в нише снизу и сверху, там НЕ БУДЕТ ЦИРКУЛЯЦИИ ВОЗДУХА, и он ПРОСЛУЖИТ НА ГОД, НА ДВА МЕНЬШЕ. Это ОЧЕНЬ ЛЕГКО УСТРАНЯЕТСЯ, но сэкономит вам очень много денег и времени.»**
+
+- → **A plinth vent plus a top grille. Invisible once built, and the penalty is a named fraction of the appliance's life — which makes it a checkable item on a furniture drawing.**
+
+[source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+
 ## This Project's Own Selection (pre-existing, BYN)
 
 See [[Appliance_Preferences]] for the currently-recorded Liebherr side-by-side candidates

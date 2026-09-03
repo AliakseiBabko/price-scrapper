@@ -106,6 +106,20 @@ Direct continuation of the DIY screed build above (episode #18) — this covers 
 
 [source: [[_Sources/YT_kXGYTsBTKj8_sidorik_self_leveling_floor_ep27|kXGYTsBTKj8_sidorik_self_leveling_floor_ep27]]]
 
+### ⚠️⚠️ Skipping the Levelling Compound — a Corner That CAN Be Cut, With the Exact Three Defects (Александр Синчуков, 2022-10-04)
+
+**This page has the technique. What it has not had is "what happens if you skip it" — and here it is, first-person, with informed consent:**
+
+**«Когда я делал первый ремонт в своей ПЕРВОЙ КВАРТИРЕ, я вообще НЕ ИСПОЛЬЗОВАЛ РОВНИТЕЛЬ — на существующую стяжку просто положил ЛАМИНАТ. Конечно же у меня получились ВОЛНЫ, получились ТЕНИ ПОД ПЛИНТУСАМИ, в одном месте вообще ЯМА получилась. Но я очень сильно экономил, Я ЗНАЛ, НА ЧТО ИДУ, и меня это устраивало. НО ПОД ПЛИТКУ нам всё равно пришлось ЗАЛИВАТЬ ровнитель.»**
+
+**⚠️ His rule: «если у вас СУПЕР БЮДЖЕТНЫЙ ремонт, то на ровнителе ПОД ЛАМИНАТОМ вы можете сэкономить. Если [покрытие] более требующее ровного, например ПАРКЕТ, то ровнитель всё-таки ПРИДЁТСЯ ЗАЛИТЬ.»**
+
+- → **⚠️ Three named defects (WAVES underfoot, SHADOW GAPS under the skirtings, one HOLLOW), two materials that forbid skipping (TILE and PARQUET), and one that tolerates it (LAMINATE). That is exactly the graded, consequence-first form this page's technique content needs to be read against.**
+- ⚠️ **And note the honest framing: he was not misled, he chose it — which is the difference between a defect and a decision, and worth preserving when the vault presents "what you can cut".**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Semi-Dry Mechanized Screed: a Real Conversion Story and Quality-Ingredient Checklist (Петришин-Строй, added 2026-08-24, Round 5)
 
 A real practitioner reversal, not a first-time endorsement: the source

@@ -37,6 +37,29 @@ Three distinct noise types, each with a different transmission path and counterm
 
 [source: [[_Sources/YT_2cHetaq1bt0_ontario_soundproofing_types|2cHetaq1bt0]]]
 
+### ⚠️⚠️ A STOPPING RULE — About +20% Quieter for About 10× the Cost (Александр Синчуков, his own flat mid-build, 2022-10-04)
+
+**This page has build-ups, taxonomies and techniques. What it has not had is any judgment about WHERE TO STOP.**
+
+**«В погоне за шумоизоляцией можно дойти до КРАЙНОСТИ. Я ЭТИМ НЕ ЗАНИМАЛСЯ. Но если вы хотите прямо НАСТОЯЩУЮ шумоизоляцию, вам нужно делать АКУСТИЧЕСКИЙ РАСЧЁТ, использовать СПЕЦИАЛЬНЫЕ БЛОКИ для СВЕТИЛЬНИКОВ, для РОЗЕТОК, специальные материалы — но вы получите ПРОЦЕНТОВ НА 20 более тихую атмосферу, и при этом ЗАПЛАТИТЕ РАЗ В 10 БОЛЬШЕ.»**
+
+- → **⚠️⚠️ A stated diminishing-returns estimate from a practitioner who chose NOT to go there in his own flat. Treat the numbers as his order-of-magnitude judgment rather than a measurement — but the SHAPE is the useful part, and this page needed it.**
+- → **⚠️ AND IT INDEPENDENTLY CORROBORATES THE SOCKETS-AS-DOMINANT-LEAK FINDING BELOW: he names «специальные блоки для светильников, для розеток» as part of the extreme package — i.e. the penetrations are exactly what the serious version addresses.**
+
+**⚠️ What he DID do, and it is counter-intuitive: he DEMOLISHED the aerated-concrete partitions and REBUILT them in plasterboard, for acoustics. «Сломал все газобетонные стены… и возвёл стены ЗАНОВО из гипсокартона. Причём это был ЦЕЛЫЙ ПИРОГ: СТОЙКА, потом ФАНЕРА как ПОДЛОЖКА [и] ЗАКЛАДНАЯ, потом АКУСТИЧЕСКИЙ гипсокартон», cavity filled with MINERAL WOOL. «Гипсокартоновые стены в ДВА СЛОЯ С КАЖДОЙ СТОРОНЫ — это самый акустически правильный вариант.» Second motive: «гипсокартоновые стены позволяют очень легко МЕЖДУ СЛОЯМИ проложить ВСЕ ПРОВОДА», since he was rewiring completely.**
+
+- ⚠️ **He replaced MASS with a DECOUPLED lightweight build-up for acoustic reasons. Recorded as his reasoning, not as a verified acoustic result.**
+- **⚠️ THE COST LADDER, with his own confidence rating on each rung: (a) minimise plywood — LOCAL закладные only, «здесь у меня будет РАДИАТОР — здесь будет закладная; здесь ПОЛОЧКА — закладная»; (b) swap plywood for cheaper OSB — «и OSB плиты используют даже в самых дорогих [проектах]»; (c) a SINGLE layer of board — «я часто такое вижу, но по мне это очень ХЛИПКАЯ конструкция, [она] НЕ ВНУШАЕТ ДОВЕРИЯ»; and if single-layer, ⚠️ fix the plywood закладная BETWEEN THE STUDS rather than as a first layer under the board.**
+
+### ⚠️ Skipping the Soil-Stack Lagging Is Audible Every Time a Neighbour Uses the WC (same source)
+
+**Part of his "maximum economy" anti-recipe: «можно купить самые дешёвые китайские смесители, отказаться от ШУМОИЗОЛЯЦИИ ФАНОВОЙ [трубы], не ставить никакие ФИЛЬТРЫ — и потом спустя пару лет эти смесители ЗАСОРЯТСЯ РЖАВОЙ ВОДОЙ; у вас постоянно будет ЗВУЧАТЬ ФАНОВАЯ, когда ваши СОСЕДИ будут ходить в туалет — и вы будете всем этим НАСЛАЖДАТЬСЯ КАЖДЫЙ ДЕНЬ.»**
+
+- → **Three savings compounding into a specific daily experience — and the soil-stack half is the one that belongs on this page, because it is a NEIGHBOUR-generated noise you cannot mitigate later without opening the boxing.**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Worked Case — One-Bedroom New-Build, Per-Wall Walkthrough
 
 - **Bedroom wall shared with a neighbor, nothing hung on it**: free choice of soundproofing type; a rolled membrane still needs a rigid finish layer over it.

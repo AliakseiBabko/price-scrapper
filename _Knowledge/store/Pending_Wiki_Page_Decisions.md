@@ -292,3 +292,47 @@ None yet.
 → **Recommendation: keep scoping this channel oldest-first until the pre-2023 back catalogue is exhausted.** The remaining unprocessed pool is ~189 titles; **the oldest ones are the ones most likely to be the ORIGIN of something the vault already holds badly dated**, and newest-first scoping is what produced the error in the first place.
 
 → **And a second-order caution I should apply to myself: I have now twice claimed a synthesis that the source had already made, both times on this channel. The check is cheap — before crediting a chain to the reading, search the channel's own back catalogue for it.** Round 5 recorded this lesson; Round 6 found a second instance of the same error committed in Round 4. **The lesson was recorded but not yet operationalised into a step, and it should be.**
+
+## Round 7 — @YourInteriorDes / NSDSGN, 2026-09-03
+
+### ✅ The third owed repair is done, and NO page in the vault is now flagged twice
+
+- **`05_Kids_Room/analysis/Age_Staged_Planning.md`** — flagged in Rounds 5 and 6, repaired here. ⚠️ **Diagnosis first, per the standing rule, and it changed the tool: the page was NOT harmfully fragmented (only two headings carried dated labels and both were topical). The defect was that ONE SECTION HELD 154 OF 359 LINES on a different subject — desks, beds and shared-room ergonomics. So the fix was a SPLIT: 359 → 208 + `Desks_Beds_and_Shared_Rooms.md` at 167, 0 missing, 16/16 ids, CLEAN.**
+- **Three rounds, three repairs, three DIFFERENT defects and three different fixes — fragmentation (merge then split), structurelessness (manual topical pass then split), and one oversized off-topic section (split only). ⚠️ The line count identified all three and diagnosed none of them. Read the headings, and read the section sizes.**
+
+### ⚠️ Watch list — nothing urgent, and nothing twice-flagged
+
+- **`03_Kitchen/analysis/Storage_and_Hardware.md` (325)** is now the largest page. It is topically coherent (drawer-vs-door, hardware tiers, storage accessories, the ЛДСП/handle chain) and well under the 400 backstop. **If it grows again, the natural seam is HARDWARE AND MECHANISMS versus WHAT GOES IN THE CABINETS.**
+- **`07_Bathroom/analysis/Planning_and_Layout.md` (310)**, **`03_Kitchen/analysis/Layout_Sizing_and_Ergonomics.md` (302)**, **`Brief_Elicitation_Practitioner_Cases.md` (299)** — all just over the soft target, none fragmented, all leave headroom.
+
+### ⚠️ Still zero bytes — and still the right call
+
+- **`Kitchen_Filtration_Systems_Analysis.md`** remains empty. Round 7 touched water filters twice (a retrofit forcing a second tap; filters named in the maximum-economy anti-recipe) but neither is a filtration ANALYSIS. **Leave it empty. Round 6 populated `Kitchen_Disposers.md` the moment a real source arrived, which is the pattern to trust.**
+
+### ⚠️⚠️ Open questions left open
+
+1. **The 4000 K task-zone exception** (carried from Round 6) — still needs a lighting-design source rather than another designer's preference.
+2. **The 2021→2022 dark-surface reversal** (carried from Round 6) — ⚠️ **Round 7 supplies a THIRD data point that partly DISSOLVES it: in February 2021 he says black gloss and white show marks EQUALLY («на белый точно также всё видно»), and praises a WHITE quartz dining top as easy to clean. So his Feb 2021 position sits closer to the 2022 claim than to the Jan 2021 one, and the "reversal" may be a single inconsistent month rather than a change of mind. Recorded; still not resolved.**
+3. **RUGS — dust versus acoustic comfort.** New this round, and genuinely two-sided from one practitioner.
+4. **DELIVERY MODEL — separate trades versus a general contractor.** New this round; the axis is scale, and both practitioners state it.
+5. **UNDERFLOOR HEATING under natural wood.** A designer asserts wood defeats it by insulating; the vault's existing block asks the opposite question. **Needs a heating source.**
+6. **The pool-grout claim** (pools use cement grout with additives, not epoxy) is his assertion and is unverified. **It is load-bearing for the epoxy-is-unnecessary argument, so it is worth checking against a waterproofing source.**
+7. **The quartz-vinyl acoustic "ring" claim** — ASR-affected, direction recorded, needs a second source before it can be used.
+
+### ⚠️⚠️ Scoping guidance for Round 8 — amended, with a measured constraint
+
+**⚠️⚠️ MY ROUND 6 RECOMMENDATION ("keep scoping oldest-first until the pre-2023 back catalogue is exhausted") IS AMENDED, BECAUSE ROUND 7 MEASURED THE LIMIT: manual Russian captions exist uniformly only from 2021-08-10; before that it is per-video, and 4 of 8 probed titles in the 2019-09 → 2021-07 window have NO Russian track at all. Two of my five picks were unprocessable.**
+
+→ **The reachable origin layer is 2020-11 → 2021-07 and it is nearly exhausted: `ffP5bdHlh_E`, `wvlr2aGDMCc`, `hEZntyMcP-A` and (Round 6) `Y1lBVJz-ib4` are done; `Phk79uKT7rA`, `3y-gA7A6QJ4` and `KPRcI_CPpAs` have no captions; `NHqf-OoLPBM` (2019, feng shui) is auto-only.**
+
+→ **⚠️⚠️ SO ROUND 8 SHOULD STOP SCOPING BY AGE AND GO BACK TO SCOPING BY FORMAT, within the 2021-08 onward manual-caption era. And the standing procedural change is: PROBE CAPTION AVAILABILITY BEFORE BUILDING A ROUND'S SCOPE. It costs about a minute per title with `yt-dlp` metadata and it would have saved two failed fetches and a re-scope here.**
+
+→ **Named candidates that remain, all with manual tracks: `3tgHGhY0gXA` (stretch vs plasterboard ceilings, 2022-02 — on the shortlist for four rounds now); `M7NXBh0hIo8` (glass/aluminium/steel partitions, 2023-01); `i9n1YI4iaiw` (why not to start without a design project, 2023-01 — expect a sales frame); `3_76xEfI01k` (why a house is not a flat, 2023-04); the four remaining regrets titles; and `RtRabYtDxNk`/`hllO93k4O7Q` on storage.**
+
+→ **⚠️ AND ONE ITEM HE HIMSELF INVITES: in October 2022 he says he made a separate video about his intended palette «сравните, что я хотел и от чего я в итоге отказался». That is an explicit INTENT-VERSUS-OUTCOME comparison on a colour scheme, on an object the vault now holds at six points. It is the single highest-value remaining title on this channel and should be found and dated.**
+
+### ⚠️⚠️ A process note about my own errors, because the pattern is now three deep
+
+**Round 5 recorded the lesson "count SOURCES, not OCCURRENCES". Round 6 broke it (the touch-switch count) and separately found that I had credited myself with a synthesis the source had already made. Round 7 found both of those AND a third kind: I had written "he narrows this claim later" with no source, as a hedge to make a bold claim safer to hold.**
+
+→ **All three share one shape: I RECORDED A LESSON WITHOUT TURNING IT INTO A STEP. The remedy is small and specific, and should be added to the intake routine: before routing any claim that counts practitioners, or credits a synthesis, or hedges with "he qualifies this later" — name the SOURCE FILES that support it. If the list is shorter than the claim, weaken the claim.**

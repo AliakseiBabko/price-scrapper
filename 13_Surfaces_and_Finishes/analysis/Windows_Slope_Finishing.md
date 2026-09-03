@@ -171,6 +171,26 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 
 **A deepened, extended wood windowsill built out into a bench/daybed nook** — wide enough to sit or recline on, doubling as informal extra seating for guests, real installed example. **⚠️ Real technical requirement if the sill sits over a radiator**: cut convection slots/openings into the sill itself so warm air can still rise past it into the room — citing a GOST requirement that **a radiator should be covered no more than half its height/depth** by anything above it (a windowsill, cover, or shelf). Skipping the cutouts blocks normal radiator convection and reduces effective heat output into the room, regardless of how deep or attractive the sill bench looks. `single-account`, `unverified` (GOST citation not independently verified by this project). [source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
 
+### ⚠️⚠️ A Mitred PORCELAIN Windowsill as the Budget Stone Substitute — and Spend Only If It Will Be SEEN (Александр Синчуков, his own flat mid-build, 2022-10-04)
+
+**«Я НЕ БУДУ покупать дорогой подоконник из натурального камня, из мрамора, из кварцевого агломерата. Я поставлю просто КЕРАМОГРАНИТ — очень недорогой отечественный, он стоит ПОЛТОРЫ-ДВЕ ТЫСЯЧИ ЗА МЕТР. Мы сделаем ЗАПИЛ ПОД 45 ГРАДУСОВ и снизу аккуратно подойдём МАЛЯРКОЙ. Таким образом у меня будет РОВНАЯ СТЕНА, НИЧЕГО НЕ БУДЕТ ТОРЧАТЬ, но плоскость подоконника будет из керамогранита.»**
+
+**1,500–2,000 ₽/m ≈ $20–30** (trailing six-month USD/RUB mean before 2022-10-04, 62.4003 RUB/USD; the window is entirely post-shock, so the mean is clean).
+
+- **⚠️ The performance reason is a cat: «любой ЦВЕТОК ставьте, ПРОЛИВАЙТЕ, делайте что хотите — с керамогранитом НИЧЕГО НЕ БУДЕТ. Керамогранит НИЧЕГО НЕ ВПИТАЕТ — потому что мой КОТ постоянно сидит на подоконнике, у него постоянно ГРЯЗНЫЕ МОКРЫЕ ЛАПЫ.»**
+- **⚠️⚠️ AND THE CONDITIONAL THAT MAKES THE WHOLE DECISION RATIONAL: «подоконник — это тот элемент, который ИНОГДА НЕ ВИДНО. Я сейчас живу в квартире, и у меня ЗА ШТОРАМИ спрятаны подоконники — они ДЕШЁВЫЕ ПЛАСТИКОВЫЕ, но я вообще их НЕ ВИЖУ. Если у вас ОТКРЫТАЯ стена с окном, НЕТ ШТОР, [есть] деревянные жалюзи — тогда подоконник БУДЕТ ВИДЕН, особенно если это дешёвый подоконник с ОТЛЕТАЮЩИМИ БОКОВУШКАМИ, которые любят ставить нам ЗАСТРОЙЩИКИ.»**
+  - → **⚠️ Three findings in one: the mitred-porcelain substitute with a price; the developer's plastic sill with DETACHING END CAPS as the named defect; and the conditional — SPEND ON THE SILL ONLY IF YOUR WINDOW TREATMENT WILL LEAVE IT VISIBLE.** He applies the identical test to radiators in the same breath.
+
+### ⚠️ A Flush Sill Exposes Wall Curvature That a Projecting One Hides (December 2020)
+
+**On an earlier project: acrylic sills fitted WITHOUT a forward projection, with the mechanism given — «ВЫНОС делается из-за того, что стены невозможно сделать идеальные — в 90% случаев стены немножко КРИВЫЕ, и ЗА СЧЁТ ВЫНОСА СКРАДЫВАЕТСЯ ЭТА КРИВИЗНА СТЕНЫ».**
+
+- → **⚠️ A projecting sill MASKS wall curvature; a flush one EXPOSES it and therefore demands a genuinely flat wall. The THIRD tolerance-absorbing detail in this practitioner's vocabulary, alongside the kitchen worktop overhang and the wall-unit filler batten — and all three are what a minimalist detail removes.**
+- ⚠️ **The ASR around this passage is imperfect and the direction of his sentence is ambiguous; the MECHANISM is recorded rather than the claim about what they built.** [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Reveals — Colour, Cracking and Electrical Routing
 
 ### Routing Electrical Points Into a Widened Windowsill

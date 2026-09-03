@@ -157,6 +157,17 @@ A comparative-methodology format applied to a real project photo, with genuinely
 
 `single-account`, `unverified`.
 
+### ⚠️ Washable Plaster in a Hallway, and the Panel Hidden in a Cabinet (Александр Синчуков / Ксения, 2020-12-03)
+
+- **⚠️ WASHABLE PLASTER on the hallway walls, with the reasoning stated: «когда ЗИМА, ГРЯЗЬ и ГРЯЗНЫЕ БОТИНКИ, если у вас СОБАКА [и] брызжет грязью — это всё моется, легко протирается тряпочкой, и всё как новенькое.»**
+  - → **⚠️⚠️ CORROBORATED IN DETAIL, AND WITH A MECHANISM, BY A DECORATIVE-COATINGS SPECIALIST IN THIS SAME ROUND: they specify textured plaster IN CORRIDORS precisely for large dogs — «вот эти ЛАПКИ НА СТЕНАХ, здесь ВЫДЕРЖИВАЕТ… с ВОДОЙ будет всё хорошо, и ГРЯЗЬ всю можно ОТМЫТЬ» — and that a cat CANNOT GET PURCHASE on the texture and therefore loses interest in the wall entirely. Two sources, and the later one explains why it works.** See [[13_Surfaces_and_Finishes/analysis/Decorative_Plaster_and_Microcement|Decorative Plaster and Microcement]]. [source: [[_Sources/YT_cl0LIAVZUjI_nsdsgn_decorative_plaster_workshop|YT_cl0LIAVZUjI]]]
+- **⚠️ THE ELECTRICAL PANEL HIDDEN INSIDE A HALLWAY CABINET behind a removable face panel: «обычно он всегда висит НА ВИДУ, это некрасиво… здесь мы закрыли панелью, с лица ничего не видно, и есть ВСЕГДА УДОБНЫЙ ДОСТУП для проверки.»**
+  - → **⚠️⚠️ AND NOTE THAT THIS IS THE SAME ANSWER HE ARRIVES AT AGAIN TWO YEARS LATER FOR THE BATHROOM SERVICES — a FURNITURE DOOR rather than a flush hatch, because the access is frequent. He reached it here in 2020, forgot it for his own bathroom, discovered the tile hatch stays permanently ajar, and returned to it. See [[07_Bathroom/analysis/Planning_and_Layout|Planning and Layout]].**
+- **A seat, dedicated shoe storage («место хранения для всех ваших грязных кроссовок» — «это ВСЕГДА ПРОБЛЕМА во всех прихожих, вечно болтаются, валяются»), coat hanging, and a tall unit.**
+
+[source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+
 ## The Entrance Door and Its Reveals
 
 ### Lightening the Entrance Door — Three Levels (added 2026-08-30)

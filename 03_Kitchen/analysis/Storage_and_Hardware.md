@@ -50,6 +50,65 @@ Related: the cheap-hinge carcass-destruction mechanism and hardware cycle rating
 - **Corner sections get "buried" between two abutting runs** — wall, wall, and a глухарь between. Use a mechanism or **карусели** to retrieve the contents in one movement.
 - **His own cheaper alternative, which he uses at home and which is honest about why it works**: a plain shelf running deep into the corner holding rarely-used items — dishwasher salt and rinse aid — **and it works only because he remembers what is there.** Not transferable to a household where more than one person needs to find things.
 
+### ⚠️⚠️⚠️ The ЛДСП Regret — the ORIGIN of the Handleless-Front Grease Problem, and a Three-Point Chain in Which Aesthetics Beat a Known Conclusion
+
+**In his own PREVIOUS flat (February 2021, 18 months into occupancy) the lower units were MDF with a wood-look film and the UPPERS were ЛДСП:**
+
+**«Это самый дешёвый материал, причём это РУССКАЯ ЛДСП, и я ОЧЕНЬ СИЛЬНО ОБ ЭТОМ ПОЖАЛЕЛ, потому что ТЕРЕТЬ ЕГО ПРАКТИЧЕСКИ НЕВОЗМОЖНО… если у вас КАКИЕ-ТО ЖИРНЫЕ ПАЛЬЦЫ после готовки, это всё остаётся… мне посоветовали разные средства, но они НЕ ОСОБО ПОМОГАЮТ, всё равно какие-то РАЗВОДЫ остаются. Это МОЯ БОЛЬ, и следующую кухню я НИКОГДА не сделаю [из] ЛДСП — ЛУЧШЕ ПЕРЕПЛАЧУ.»**
+
+**⚠️ And the mechanism is the OPENING METHOD: the upper fronts overhang for a finger pull, so you must TOUCH the front to close it — «чтобы ЗАКРЫТЬ, всё равно нужно вот так ПРИКОСНУТЬСЯ». Within the same kitchen the MDF lowers with a Gola below show nothing: «здесь уже НЕТ НИКАКИХ СЛЕДОВ, в отличие от ЛДСП — МДФ дороже, но РЕЗУЛЬТАТ НАЛИЦО» — a controlled comparison under the same touching behaviour.**
+
+- → **⚠️⚠️ THIS IS THE ORIGIN OF THE FINDING THE VAULT RECORDS FROM HIS 2023 KITCHEN — Fenix fronts, sold as mark-resistant, which still showed grease and had knobs retrofitted. In February 2021 he already had the problem, on a cheaper material, and had already concluded he would never repeat it.**
+- → **⚠️⚠️ SO THE 2023 OUTCOME IS HIM HAVING UPGRADED THE MATERIAL AND HIT THE SAME DEFECT — WHICH IS THE STRONGEST FORM OF THAT CONCLUSION: THE MATERIAL IS NOT THE VARIABLE, THE TOUCH IS.**
+- → **⚠️⚠️ AND HE NAMES THE CORRECT FIX IN 2021: «конечно же я рекомендую в таком случае РУЧКИ, но это может быть НЕ ТАКОЕ МОДНОЕ РЕШЕНИЕ.»**
+  - → **⚠️⚠️ THE THREE-POINT CHAIN, WHICH IS UNCOMFORTABLE AND VERY INSTRUCTIVE: 2021 — he knows handles are the answer and says so publicly; 2023 — he builds handleless anyway, in a better material; 2024 — he retrofits knobs. AESTHETICS BEAT A KNOWN ERGONOMIC CONCLUSION, IN THE SAME PERSON, TWICE. This is the clearest case in the vault of why "I know better" does not prevent the outcome, and it should be read whenever a handleless front is being specified.**
+- **⚠️ The Gola profile named and placed in the cost hierarchy: «этот профиль называется ГОЛА… все производители отечественных кухонь его используют, он может быть чёрный, может быть из нержавейки» — and it is CHEAPER than an integrated routed pull painted with the front, which is «более дорогой случай».**
+- **⚠️⚠️ AND A MATERIAL LIMIT ON THE INTEGRATED PULL, FROM DECEMBER 2020, WHICH INDEPENDENTLY CORROBORATES A CORRECTION THE VAULT ALREADY HOLDS: «такую интегрированную ручку возможно сделать ТОЛЬКО В МДФ фасадах — фасады ЛДСП НЕ ПОЗВОЛЯЮТ такого решения выполнить. Это ручка, она КРАШЕНАЯ ВМЕСТЕ С ФАСАДОМ, это ВЫБОРКА, ФРЕЗЕРОВАННАЯ.»**
+  - → **The FLAT/Interio channel's Round 2 correction established that ЛДСП permits FUNCTIONAL machining (hinge cups, runner holes, Gola cut-outs) but NOT decorative milling on the visible face. Here is a second, independent practitioner stating the same limit from the DESIGN side, in December 2020 — six years earlier. Two independent sources, same limit.** [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+[source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+### ⚠️⚠️ Push-to-Open — the Placement Rule, Which Predates Every Version the Vault Holds
+
+**«Супер неудобно, могу сказать ПО ОПЫТУ — как только вы чуть-чуть касаетесь НОГОЙ, БЕДРОМ — дверь тут же открывается. Это будет вас раздражать, они будут ПОСТОЯННО ОТЩЁЛКИВАТЬСЯ. Поэтому всем своим заказчикам я рекомендую эту систему использовать ТОЛЬКО НА САМЫХ ВЕРХНИХ ШКАФАХ. ВНИЗУ это просто будет [мучение].»**
+
+- → **⚠️⚠️ The vault holds push-to-open's four MECHANICAL constraints at 2022-01 and the fingerprint objection at 2023-11 and 2024-07. THIS IS EARLIER AND IT IS THE ONLY VERSION WITH A PLACEMENT RULE: uppers only, never lowers, because of accidental KNEE AND HIP contact.**
+- **⚠️ AND HE FOLLOWED HIS OWN RULE — in his 2023 kitchen he kept exactly TWO push-to-open doors and they were UPPERS. Worth recording as the case where a published rule DID survive delegation, in contrast to the bath-rim silicone rule which did not.**
+- **⚠️ A terminology trap he flags himself: «часто называют это ПУШ-АП — это НЕ push-up, это немножко другое.»** The vault uses both names loosely.
+
+[source: [[_Sources/YT_wvlr2aGDMCc_nsdsgn_five_kitchen_mistakes|YT_wvlr2aGDMCc]]]
+
+### ⚠️⚠️ "Hide the Chemical, Display Only the Beautiful" — the ORIGIN of the Whole Visual-Noise Cluster, Stated as One Principle
+
+**February 2021: «Очень большая проблема всех кухонь: вы делаете себе дизайнерскую стильную кухню, а потом покупаете на неё такой ЗЕЛЁНЫЙ ХИМОЗНЫЙ ЁРШИК — и весь ваш дизайн КУДА-ТО УТЕКАЕТ.» Oils decanted into jars; soap into a proper dispenser rather than a мыльница. And the rule in one sentence: «всё вот это ХИМОЗНОЕ должно храниться где-то В СКРЫТЫХ [местах], а НА ПОКАЗ мы покажем ТОЛЬКО КРАСИВЫЕ ВЕЩИ.»**
+
+- → **⚠️⚠️ This is the ORIGIN of the entire Round 6 cluster — the Alessi kettle that earns its place, the decanted oils, the mess cupboard, the chopping boards chosen in a neutral colour. Stated as ONE PRINCIPLE in February 2021, and the 2021 statement is the clearest form.**
+- **⚠️ THE KNIFE BLOCK IS THE SAME OBJECT AS THE ONE IN THE 2023 KITCHEN — Zara Home, natural glued timber with bristles — and here the trigger is stated: «сюда НЕ ВЛЕЗАЛИ НОЖИ, это меня ПРЯМО БЕСИЛО, они там сваливались, смешались, и я купил это Zara Home.»**
+  - → **An object bought in the old flat to solve a specific irritation and CARRIED INTO THE NEW ONE — the strongest endorsement available, and the vault should record it as tested across two homes.**
+
+### ⚠️⚠️ "Two Sets of Crockery" — the Origin of the Buy-in-Pairs Finding, and It Scales Inversely With Machine Size
+
+**On choosing a 45 cm dishwasher for a studio: «для одного-двух человек это более чем достаточно, ГЛАВНОЕ ИМЕТЬ ДВА КОМПЛЕКТА ПОСУДЫ. Но если семья побольше… то 45 вам точно не хватит.»**
+
+- → **⚠️ The Round 6 "buy small utensils in PAIRS because the dishwasher holds them hostage" is stated here 2 years 9 months earlier — and as a PRECONDITION for choosing the smaller machine. So the duplication requirement scales INVERSELY WITH MACHINE SIZE, which sharpens the finding into a purchasing calculation rather than a habit.**
+
+### ⚠️⚠️ An Under-Sink Drip Tray — the Passive Counterpart to the Vault's Leak Sensors
+
+**«Меня МЕБЕЛЬЩИК УГОВОРИЛ эту штуку поставить — это ПОДДОН, он такой [из] тонкой фольги, но вся грязь попадает на него, и так бы у меня просто УБИЛАСЬ БЫ МЕБЕЛЬ. Это как в машине РЕЗИНОВЫЙ КОВРИК — его потом можно протереть, вымыть, и будет опять всё как новенькое.»**
+
+- → **⚠️ A cheap passive tray in the sink cabinet that saves the CARCASS from the everyday spills that destroy it. The vault has extensive leak-SENSOR content and nothing on the tray — and the two answer DIFFERENT failures: the sensor catches the flood, the tray catches the drip.**
+- **⚠️ Second instance of "the furniture maker persuaded me", after the Blum cutlery insert in 2023 — and in both cases the mechanism that changed his mind was a DEMONSTRATION, not an argument.**
+
+### ⚠️⚠️ A Running List for the Next Flat — the Practical Form of This Vault's Whole Thesis
+
+**«У меня есть СПИСОК В ТЕЛЕФОНЕ для моей БУДУЩЕЙ КВАРТИРЫ — туда я записываю ВСЕ ХОТЕЛКИ, ВСЕ ИДЕИ. И ВАМ СОВЕТУЮ ТАКЖЕ ДЕЛАТЬ, потому что потом это всё ЗАБЫВАЕТСЯ.»**
+
+- **⚠️ And what is FIRST on it: «на ПЕРВОМ МЕСТЕ — ИЗМЕЛЬЧИТЕЛЬ. Это просто МОЯ МЕЧТА, я сплю и вижу.»** → **A closed loop: Feb 2021 the disposer is #1 on the list; Nov 2023 he has one and calls it «прямо вообще идеально». See [[15_Appliances/Kitchen_Disposers|Kitchen Disposers]].**
+- → **⚠️⚠️ AND THE METHOD IS ITSELF THE FINDING: keeping a running list of irritations in the flat you currently occupy is the practical form of this vault's entire post-occupancy thesis. It is free, needs no expertise, and it is the only mechanism that reliably carries a LIVED defect into the NEXT specification.**
+
+[source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+
 ## ⚠️ A Space Organiser Audits a Designer's Kitchen — the Corner Fix, the Height Logic, and One Real Disagreement (Ксения, via NSDSGN, 2026-02-03)
 
 [source: [[_Sources/YT_cudO-SSdrn0_nsdsgn_storage_organiser_audits_designer|YT_cudO-SSdrn0]]]

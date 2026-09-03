@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=hEZntyMcP-A",
+  "video_id": "hEZntyMcP-A",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-03T18:00:48.208336+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "badaf9f5af637e65ce321dc4924cc3bca6d89c5e05608b86b0bb501b33339d1a",
+  "attempts_before_success": []
+}

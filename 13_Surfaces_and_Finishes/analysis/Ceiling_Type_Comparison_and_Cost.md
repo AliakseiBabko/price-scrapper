@@ -131,6 +131,24 @@ Konstantin Kruglov / Ontario gives the first full quantified labor+materials cos
 
 **⚠️ A material-science detail behind the non-yellowing/hypoallergenic claim (same channel, added 2026-08-28)**: the stretch-ceiling membrane is made from **primary (virgin) plastic pellets, melted directly** — this is why it doesn't darken/yellow over time, unlike **recycled plastic**. The source's own comparison: PVC window-frame profiles themselves don't yellow (primary plastic), but plastic insert strips sometimes fitted to windowsills do yellow (recycled plastic) — the same underlying material distinction applies to the ceiling membrane. This video's own cost totals otherwise restate the cost ladder above almost exactly (same channel, same order of magnitude) and are not re-recorded as a separate data point. [source: [[_Sources/YT_KNY-XfgbGog_kruglov_top8_save_money_tips|YT_KNY-XfgbGog]]]
 
+### ⚠️⚠️ A Three-Rung Ladder for HIDING CEILING WIRING, and a Bare-Concrete Strategy With Its Enabling Condition (Александр Синчуков, his own flat mid-build, 2022-10-04)
+
+1. **CHEAPEST — a PVC stretch ceiling on a cheap plastic profile closed with a MASKING TAPE (маскирующая лента). ⚠️ His verdict on seeing it in a developer-finished Moscow flat: «это конечно же смотрится УЖАСНО. Я БЫ ПОТРАТИЛСЯ на более дорогое решение.»**
+2. **BETTER — a SHADOW PROFILE: «когда у вас НЕТ этой пластиковой ужасной ленты, а СТЕНА КАК БЫ ЗАХОДИТ ЗА ПОТОЛОК В ТЕНЬ. Это по сути как теневой плинтус снизу, так и ТЕНЕВОЕ ПРИМЫКАНИЕ на потолке.»**
+3. **HIS OWN CHOICE IS TWO DIFFERENT CEILINGS IN ONE FLAT** — a FABRIC (тканевый) stretch ceiling with a shadow junction in the corridor, kitchen and bathroom where the wiring runs («у него ГОРАЗДО ВЫШЕ ХАРАКТЕРИСТИКИ» than the cheapest PVC), and **BARE CONCRETE in the living spaces.**
+
+**⚠️⚠️ THE BARE-CONCRETE STRATEGY, AND ITS ENABLING CONDITION IS THE PART THAT MATTERS: «я просто ПОКРОЮ бетонный потолок МАТОВЫМ ЛАКОМ, чтобы он НЕ ПЫЛИЛ, чтобы сверху НЕ СЫПАЛАСЬ ПЫЛЬ. При этом МИНИМАЛЬНО буду использовать РАЗВОДКУ ЭЛЕКТРИКИ ПО ПОТОЛКУ — все выводы будут ИЗ СТЕН, вместо светильников будут ШИНЫ.»** He calls it **«наверное САМОЕ ДЕШЁВОЕ РЕШЕНИЕ ИЗ ВСЕХ ВОЗМОЖНЫХ, но нужно ОЧЕНЬ АККУРАТНО к нему подходить, потому что ОЧЕНЬ ЛЕГКО ИСПОРТИТЬ ЭТУ ЭСТЕТИКУ».**
+
+- → **⚠️⚠️ A lacquered bare slab is the cheapest ceiling available — BUT ONLY IF YOU KEEP THE WIRING OFF THE CEILING. Wall outlets and TRACK lighting instead. That is a coherent cheap strategy this page does not hold, and it explains the track-lighting choice the vault records from the same flat.**
+- ⚠️ **He also discloses that his own DAUGHTER disliked it and he overrode her: «она сказала, что это какая-то ерунда… Но ИЗВИНИ, Я ДИЗАЙНЕР, ЭТО МОЁ ВИДЕНИЕ.»** Recorded because it is a household-consent moment stated on camera, not because it is advice.
+- **⚠️⚠️ AND SEVEN MONTHS LATER HE QUALIFIES HIS OWN DECISION, WHICH IS WHY BOTH BELONG HERE: «у себя в спальне я ОСТАВИЛ БЕТОН ОТ ЗАСТРОЙЩИКА, но МНЕ ПРОСТО ПОВЕЗЛО, что он такой БОЛЕЕ-МЕНЕЕ КРАСИВЫЙ. НЕ ВСЕГДА бывает — очень НЕКРАСИВЫЕ ПОДТЁКИ, РЖАВЧИНА, это будет смотреться УЖАСНО. Поэтому бетон ЛУЧШЕ НАРИСОВАТЬ такой, как вам нужен.»** And the client objection he answers: «зачем? у нас и так плита» → «у вас под потолком будут КИЛОМЕТРЫ ПРОВОДОВ, мы это всё подошьём». [source: [[_Sources/YT_cl0LIAVZUjI_nsdsgn_decorative_plaster_workshop|YT_cl0LIAVZUjI]]]
+  - → **⚠️⚠️ SO: BARE SLAB IS THE CHEAPEST CEILING ONLY IF THE SLAB HAPPENS TO BE PRESENTABLE — AND THAT IS LUCK, NOT A PLAN. The dependable version is a decorative IMITATION concrete on plasterboard, which costs more and also hides the wiring. Two sources seven months apart, and the later one is the caveat on the earlier.**
+- **⚠️⚠️ AND A HARD ESTIMATING FACT FOR ANY DECORATIVE FINISH ON A CEILING: material cost is the SAME as on walls, LABOUR IS ×2 — «просто НЕРЕАЛЬНО больше ЧЕТЫРЁХ ЧАСОВ работать на потолке», plus «материал СЫПЛЕТСЯ СВЕРХУ НА ТЕБЯ». It generalises to any overhead finishing operation.**
+- **⚠️ The exclusion: «если у вас классический ремонт с ЛЕПНИНОЙ, с ГИПСОМ, то натяжной потолок в принципе НЕ ПОДХОДИТ — здесь подойдёт ТОЛЬКО ГИПСОКАРТОН… Но ПРО ЭКОНОМИЮ можете сразу ЗАБЫТЬ.»**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Shadow-Gap Perimeter Detailing — Drop, Spans, Sag and Clearances (Алексей Морозов / СС Групп, via NSDSGN)
 
 Ceiling installer Алексей Морозов, interviewed in the profile manufacturer's showroom, supplies the perimeter-detail and dimensional layer this page did not have. **`теневое примыкание` had zero matches across this vault before this source, and `shadow gap` only ten — against 150 files mentioning stretch ceilings.** The general subject was well covered; the detail was not.

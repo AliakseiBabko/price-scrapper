@@ -73,3 +73,16 @@ Built-in 60cm-class range hoods researched for the kitchen (catalog.onliner.by, 
 
 [source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
 
+### ⚠️⚠️ QUALIFICATION — the Same Practitioner Had a Concealed Extract in His PREVIOUS Flat With NO Condensation Complaint
+
+**Round 7 processed his previous flat (February 2021), and the concealed extract is there too, with the same client question and one operational quirk the later account does not mention:**
+
+**«Довольно распространённый приём, когда в верхние шкафы вставляется вытяжка. Заказчики часто спрашивают: ГДЕ ВЫТЯЖКА, почему мне не нарисовал? Она встроена в шкаф… а за ФАЛЬШ-СТЕНКОЙ вверх уходит ГОФРА. Чтобы её АКТИВИРОВАТЬ, ВОТ ТАК ОТКРЫВАЕМ [шкафчик] и включаем — и в принципе ДОВОЛЬНО ХОРОШО РАБОТАЕТ.»**
+
+- → **⚠️⚠️ SO HE ACCEPTED THIS ARRANGEMENT TWICE, AND THE STEAM-ON-THE-DOOR DEFECT APPEARS ONLY IN THE 2023 FLAT. That means the defect may be specific to the newer installation, its cabinet, or a change in cooking habits — IT IS NOT DEMONSTRABLY INTRINSIC TO THE TYPE. The 2023 finding stands as reported; this qualifies its generality.**
+- **⚠️ AND AN OPERATING QUIRK THE 2023 ACCOUNT OMITS: the cabinet door has to be OPENED to switch the extract on. That is a real usability cost of concealment, and it interacts with the 2023 finding that the unit must be run continuously — a door you must open every time you boil water.**
+- **⚠️ Round 6's factory source shows the same cabinet being BUILT, with the duct penetration cut ON SITE. The vault now has the construction, the operation, and the defect, across three sources and three years.**
+
+[source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+

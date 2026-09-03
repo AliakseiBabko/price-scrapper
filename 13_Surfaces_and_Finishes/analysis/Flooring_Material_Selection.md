@@ -172,6 +172,40 @@ overview.
 
 **Flagged `unverified` from this source**: engineered board "даже потоп легко выдержит… экспериментально проверено" (no test described); epoxy-grouted porcelain "не бьётся, не ломается" (almost certainly about joint integrity, not tile strength); and **infrared-only** underfloor heating under engineered board, stated without reasoning and uncorroborated by any other source on this page.
 
+### ⚠️⚠️ The Other Side of This Question — NATURAL WOOD Is the Pairing That Defeats Underfloor Heating (Александр Синчуков, 2022-10-04)
+
+**This Perspectives block is about whether UFH under LAMINATE is acceptable. A designer states the opposite pairing as the real limit:**
+
+**«Кварц-винил либо ламинат МОЖНО ПОДОГРЕВАТЬ с помощью тёплого пола. С НАТУРАЛЬНЫМ ДЕРЕВОМ ЭТО НЕ ПОЛУЧИТСЯ, потому что дерево НЕ ПРОВОДИТ ТЕПЛО, и пол будет РАБОТАТЬ ВПУСТУЮ.»**
+
+- → **⚠️ Route into this block as a substantive dated position: on his account laminate and quartz-vinyl are the UFH-COMPATIBLE choices and solid/engineered timber is the one that INSULATES the heating and wastes it. That is the reverse of how the question is usually framed here.**
+- ⚠️ **He is a designer, not a heating engineer, and this is an assertion rather than a measurement — but it is a clear, dated, checkable claim and it names a mechanism.**
+
+### ⚠️⚠️ Quartz-Vinyl on a SWIMMING-POOL CEILING — the Strongest Humidity Evidence the Vault Will Have (same source)
+
+**«Кварц-винил — как в одном из наших проектов — можно даже ПРИКРЕПИТЬ НА ПОТОЛОК БАССЕЙНА. Бассейн — это какой-то ЭТАЛОН ИЗНОСОСТОЙКОСТИ: при огромной ВЛАЖНОСТИ, при ИСПАРЕНИИ, с кварц-винилом на потолке НИЧЕГО НЕ БУДЕТ. Если НАТУРАЛЬНОЕ ДЕРЕВО приклеите на потолок в бассейне, то очень скоро всё это дерево ПОЙДЁТ ВОЛНАМИ, СКРУТИТСЯ и скорее всего ПОЙДЁТ ВАМ НА ГОЛОВУ.»**
+
+- → **A striking, checkable claim from one of their own projects — and it is the same wood-versus-synthetic axis as the UFH point above. Both reduce to: engineered timber is the better-looking, less stable material.**
+- **His flooring ladder from the same source: engineered board is «самое оптимальное по цене и качеству… из-за своей МНОГОСЛОЙНОСТИ она САМАЯ СТАБИЛЬНАЯ» but dear and «любое НЕАККУРАТНОЕ ДВИЖЕНИЕ будет оставлять ВМЯТИНУ»; laminate and quartz-vinyl are now convincing, with one honest difference — «он на ощупь НЕ ТЁПЛЫЙ, а ХОЛОДНЫЙ», though «это НЕ ЛЕДЯНАЯ ПЛИТКА».**
+
+### ⚠️⚠️ Perspectives — RUGS: the Same Practitioner Argues Both Sides, 21 Months Apart
+
+**This page's carpet Perspectives block holds his January 2021 argument AGAINST rugs and ковролин as dust reservoirs (with a hearsay allergy anecdote that Round 6 flagged as unverified and not routable).**
+
+**⚠️ In October 2022 he RECOMMENDS them: «ОБЯЗАТЕЛЬНО ДОБАВЬТЕ КОВРЫ — ковры добавят АКУСТИЧЕСКОГО КОМФОРТА вашей квартире. Единственный момент — у вас НЕ ДОЛЖНО БЫТЬ АЛЛЕРГИИ.»**
+
+- → **⚠️⚠️ SAME PRACTITIONER, OPPOSITE RECOMMENDATION, AND ALLERGY APPEARS ON BOTH SIDES. Record it as a genuine trade rather than a reversal to be resolved: RUGS TRADE DUST FOR ACOUSTIC COMFORT, and he has argued each side once. Anyone choosing needs to know which of the two costs they care about — and in a hard-floor open-plan flat the acoustic side is the one that bites.**
+- ⚠️ *And note the acoustic argument gains support from an unexpected direction in this same round: a quartz-vinyl floor laid over a large area is reported to RING («получается ЗВОН»), which mattered because the tenant was a musician. That claim is ASR-affected and flagged `uncertain` — but if it holds, hard floor plus no rugs is exactly the combination that produces it.* [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+### ⚠️ Cheap Porcelain, Chosen Well, Reads Expensive — a Selection Heuristic (same source)
+
+**Porcelain on kitchen and hallway floors as a rule. Budget route: domestic porcelain — «они все неплохого качества, если не брать САМОЕ ДНО». ⚠️ And the heuristic: «если вы возьмёте что-то НЕ ЯРКОЕ, НЕ СИЛЬНО ДИЗАЙНЕРСКИ ВЫРАЖЕННОЕ, то скорее всего этот керамогранит прослужит долго и очень долго НЕ ПОТЕРЯЕТ АКТУАЛЬНОСТИ и будет смотреться РЕАЛЬНО ДОРОГО. Берите плитку СПОКОЙНОЙ ПРИРОДНОЙ цветовой гаммы.»**
+
+- → **A quiet natural palette ages better AND reads dearer than a "designed" cheap tile — so the cheap-tile failure mode is DISTINCTIVENESS, not price. Connects to the vault's neutrals content.**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Parquet — Preserve or Replace
 
 ### Parquet-Gap Sealant as a Budget Alternative to Full Refinishing (Петришин-Строй, added 2026-08-24, Round 5)

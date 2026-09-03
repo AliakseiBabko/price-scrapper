@@ -201,6 +201,57 @@ This page's handleless/Gola content argues the case on marks. **In his own kitch
 
 [source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
 
+### ⚠️⚠️ The Four-Material Worktop Verdict — the ORIGIN of the Quartz-Agglomerate Preference, and the Ordering Is Counter-Intuitive (Александр Синчуков, 2021-01-27 and 2022-10-04)
+
+**The vault records his quartz-agglomerate choice from his own 2023 kitchen, where the story is the FABRICATION COST. Here is the REASONING, two and a half years earlier, with the rejected alternatives:**
+
+| Material | Verdict, January 2021 |
+| :--- | :--- |
+| **ACRYLIC solid surface** | **⚠️ ARGUED AGAINST. «Довольно дорого стоит… но выглядит ОЧЕНЬ ДЕШЕВО. У меня были истории, когда заказчики покупали камень и им ХОТЕЛОСЬ ПЛАКАТЬ. И кроме того он очень МЯГКИЙ — любая ЦАРАПИНА НОЖОМ будет оставаться.»** |
+| **WOOD (solid or MDF)** | «Очень быстро придёт в негодность… будет такая ДЕШЁВАЯ И ЦАРАПАНАЯ столешница.» |
+| **STAINLESS STEEL** | Premium, «на очень специфический вкус». Arrives mirror-polished, then scratches. ⚠️ **He personally likes it once fully worn: «когда она полностью ЗАШЛИФОВАНА, такая РАБОЧЕГО ВИДА — на ней можно РЕЗАТЬ МЯСО»** — but will not recommend it broadly: «люди не поймут». |
+| **⚠️ QUARTZ AGGLOMERATE** | **His answer, for BOTH worktop AND splashback. «Очень твёрдый материал, кристаллы кварца на очень большой процент… выглядит как натуральный камень.»** Caveat: cheap Chinese ones can scratch. |
+
+**⚠️ AND OCTOBER 2022 ADDS THE BOTTOM OF THE LADDER, WITH THE UPGRADE THAT MAKES IT ACCEPTABLE: «можете купить ПВХ столешницу — сейчас уже НЕПЛОХОЙ ПВХ. И НЕ ПОКУПАЙТЕ эти ДУРАЦКИЕ ЗАТЫЧКИ, а сделайте ЕВРОЗАПИЛ — смотрится более-менее, и прослужит довольно долго, потому что ПЛАСТИК — ЧТО С НИМ БУДЕТ? Только если вы на него РАСКАЛЁННЫЙ ЧАЙНИК поставите.»** And a repeated warning against the obvious mid-price substitute: **«ПОЖАЛУЙСТА НЕ МЕНЯЙТЕ её на столешницу из ИСКУССТВЕННОГО КАМНЯ — она будет стоить ТАКЖЕ ДОРОГО, чуть-чуть дешевле, а смотреться крайне НЕЭСТЕТИЧНО.»** Real terrazzo is dearer than quartz agglomerate.
+
+- → **⚠️⚠️ THE ORDERING IS THE FINDING, AND IT IS SURPRISING: QUARTZ > GRANITE > PVC-WITH-A-MITRE > … > ACRYLIC LAST. He rejects the MID-PRICE material and accepts the CHEAP one — because the cheap one is honest and the mid one pretends to be stone. Consistent across January 2021 and October 2022, and the 2023 fabrication-cost story is the third statement.**
+- **⚠️ Sequencing, from October 2022: the stone is templated AFTER the cabinets are fitted — «после установки кухни камешки будут делать замеры».**
+
+[source: [[_Sources/YT_wvlr2aGDMCc_nsdsgn_five_kitchen_mistakes|YT_wvlr2aGDMCc]]]
+
+### ⚠️⚠️ The Overhang Is a TOLERANCE Device — a Third, Earlier Voice, and He Debunks the Water Argument
+
+This page records an overhang experiment "against the cabinetmakers' argument", described as settled twice over. **A third and much earlier voice reframes what the overhang is FOR:**
+
+**«Сейчас МОДНАЯ ТЕМА делать столешницу ЗАПОДЛИЦО с фасадом. Но напоминаю, что это НЕ немецкая кухня, не итальянская, не американская — это наша отечественная кухня, и она НЕ ИДЕАЛЬНАЯ, поэтому [у] фасада есть МИЛЛИМЕТРОВЫЕ ОТКЛОНЕНИЯ. Если бы мы столешницу сделали заподлицо, то сразу бы ВЫДАЛО все эти ИСКРИВЛЕНИЯ. Поэтому есть НЕБОЛЬШОЙ СВЕС, и он ПРИКРЫВАЕТ эти огрехи. Многие говорят, что если сделать заподлицо, будет ВОДА ТЕЧЬ ПО ФАСАДАМ — это, честно, ВСЁ ЕРУНДА.»**
+
+- → **⚠️⚠️ THE OVERHANG EXISTS TO ABSORB FRONT MISALIGNMENT, AND THE WATER ARGUMENT IS EXPLICITLY DISMISSED. So the flush look is not a style choice available to everyone — it is available only if your fronts are accurate enough, which is a property of the MAKER, not of the design.**
+- → **⚠️ It is one of THREE tolerance-absorbing details in this practitioner's vocabulary: this overhang, the filler batten between wall units and an unlevelled slab (see [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Sizing and Ergonomics]]), and a projecting windowsill. All three are what minimalism removes — which is the mechanism behind «дёшево минимализм сделать не получится».**
+
+[source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+### ⚠️⚠️ Sinks — the STAMPED-VERSUS-WELDED Mechanism Behind a Property This Page Records
+
+**Against composite / artificial-stone bowls: «я такую "красоту" видел ТОЛЬКО НА РОССИЙСКОМ суровом беспощадном рынке — НИ В ОДНОЙ крутой немецкой [или] американской кухне вы НИКОГДА не увидите мойку из искусственного камня.»**
+
+**⚠️⚠️ AND THE RATTLE HAS A MANUFACTURING CAUSE: «дешёвые мойки ШТАМПУЮТСЯ на заводе из ТОНКОГО ЛИСТА — чтобы из неё штамповать мойку, [сталь] должна быть очень тонкая, [и] она ПОД ВОДОЙ НАЧИНАЕТ ДРЕБЕЗЖАТЬ [как] советские мойки. Настоящие дорогие хорошие мойки делают из ТОЛСТОГО ЛИСТА стали — ЕЁ НЕВОЗМОЖНО ШТАМПОВАТЬ, поэтому она делается ПО ЛЕКАЛАМ И СВАРИВАЕТСЯ.»**
+
+- → **⚠️⚠️ THIS IS THE MECHANISM BEHIND THE "thick dense metal so it doesn't rattle" PROPERTY RECORDED ABOVE. Thin steel is not a cost-cutting choice — it is a REQUIREMENT of the stamping process, so "STAMPED" and "RATTLES" ARE THE SAME FACT. And it converts the finding into a purchasing test: ASK WHETHER THE BOWL IS PRESSED OR WELDED.**
+- **Two reasons for undermounting, from the two 2021 sources: you can sweep debris straight off the worktop into the bowl; and ⚠️ the RIM of a top-mounted bowl is the dirt trap — «есть такая КОРОБОЧКА [бортик], в которой ВСЕГДА какая-то грязь, ВОЛОСЫ, [что-то] ужасное».**
+- **⚠️⚠️ AND A FABRICATION VETO THAT OVERRODE AN APPLIANCE PURCHASE: he bought a square black Spanish steel bowl, and «КАМЕНЩИКИ СКАЗАЛИ, что если мы сделаем в лабрадорите такое большое ПРЯМОУГОЛЬНОЕ ОТВЕРСТИЕ, то он может В ТОНКИХ ЧАСТЯХ просто ЛОПНУТЬ — он НЕ ВЫДЕРЖИТ НАГРУЗКИ». He had to SELL the sink and buy a small round one.**
+  - → **A large rectangular cut-out in natural stone can be VETOED by the fabricator on structural grounds, forcing an appliance change.**
+  - → **⚠️ AND A PROCUREMENT HABIT WORTH ADOPTING, learned the hard way: «мне пришлось эту мойку ПРОДАТЬ на Авито — потому что я ВЫКИНУЛ КОРОБКУ. НИКОГДА НЕ ВЫКИДЫВАЙТЕ РАНЬШЕ ВРЕМЕНИ КОРОБКИ.»**
+  - **The round bowl's honest limit: «ПРОТИВЕНЬ сюда НЕ ЗАСУНУТЬ — я мою [его] в ванной».**
+
+### ⚠️⚠️ No Coving Strip at the Worktop-Wall Joint — Run the Splashback Down Instead
+
+**«У нас стык стены и столешницы не идеальный, там образуется ТОНКАЯ ЩЕЛЬ… и массовый продукт кухонь предлагает нам ПЛИНТУС из того же акрила или вообще ПЛАСТМАССОВЫЙ плинтус — и выглядит это просто СУПЕР ОТВРАТИТЕЛЬНО. Нужно закрывать НЕ ПЛИНТУСОМ, а просто ПОДВОДИТЬ ФАРТУКОМ сверху и закрывать эту щель — тогда это будет эстетично, красиво и ЦЕЛЬНО.»**
+
+- → A cheap, specific detail decision, and another instance of the joint principle.
+- **⚠️⚠️ AND A THIRD FUNCTION FOR THE EDGE BAND, FROM DECEMBER 2020: white fronts and white shelves DELIBERATELY EDGED IN BLACK — «подчеркнули ЧЁРНЫМИ ТОРЦАМИ, что добавляет ЛИНЕЙНОСТИ в фасады и делает БЮДЖЕТНУЮ кухню УНИКАЛЬНОЙ». So the vault now has the edge band as (1) the quality benchmark, (2) a water-resistance proxy — both from Round 6's factory source — and (3) a deliberate graphic device on a cheap kitchen. Three functions for the cheapest component on a cabinet.** [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+- **⚠️ And from the same December 2020 project, a way to terminate a large-format splashback with NO exposed arris and NO dust ledge: «над керамогранитом наклеен СЛОЙ ГИПСОКАРТОНА, который ВЫРОВНЯЛ ВСЮ СТЕНУ В ОДНУ ЛИНИЮ — здесь НЕТ ПЕРЕПАДА, НЕТ ТОРЦА, в котором СКАПЛИВАЛАСЬ БЫ ПЫЛЬ» — with the general rule attached: «ВСЕГДА нужно в дизайне продумывать СТЫКИ — все стыки материалов должны быть ПРИКРЫТЫ… и ЭТО ВЫДАЁТ ХОРОШИЙ ДИЗАЙН».**
+- **⚠️ A budget FAKE-MASS BAR COUNTER: compact laminate glued with THIN MITRED JOINTS at the external corners to build a hollow box reading as solid — «визуально стоит там не знаю 300000, а сделать за 20» — 20,000 ₽ ≈$270 against a hand-waved ≈$4,000. ⚠️ The 300,000 is rhetorical, not a quotation; the brand rendering is ASR-uncertain.**
+
 
 ## Ultra-Thin Countertop Material as a Height-Conflict Fix (added 2026-08-19)
 
