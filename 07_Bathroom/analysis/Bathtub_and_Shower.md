@@ -29,125 +29,9 @@ RemProektMD/Andrei describes a real jobsite practice: **apply canned expanding f
 
 `single-account`, `unverified`.
 
-## Bathtub Material Selection
-
-Konstantin Kruglov / Ontario's source note supports the material-selection claims below.
-
-- **Steel** — rings/resonates when tapped, feels stiff and unpleasantly cold to the touch until the water warms it. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w_8a6aadd3]]]
-- **Cast iron** — the most rigid construction of the four; heats up and cools down slowly, so even after filling it with hot water the tub's own body can still feel unpleasantly cold against your back; also cold to the touch when dry. Repairing chipped enamel is described as very difficult — re-glazing rarely matches the original factory finish. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w_8a6aadd3]]]
-- **Acrylic** — huge price range depending on wall thickness/reinforcement; the cheapest versions flex/give underfoot. **Easiest of the four to repair** (a cracked or punctured acrylic tub can be patched relatively easily); an anti-slip coating, if damaged, generally can't be restored to its original grip once worn away. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w_8a6aadd3]]]
-- **Cast/engineered marble (литьевой мрамор)** — the source's own recommendation: warm to the touch like acrylic, retains heat and feels as solid/durable as cast iron, and repairs are straightforward. Priced comparably to a *good* acrylic or *good* cast-iron tub in the same tier — a cheap acrylic tub (~15,000–20,000 RUB) is not a fair comparison, since a comparably solid acrylic or cast-iron tub runs similarly to marble (~40,000–50,000 RUB) once quality is held constant. `single-account`, explicitly the source's own opinion — but restated with more direct material-by-material reasoning across two of this channel's videos, not just asserted once.
-
-### Length Ergonomics
-
-**Don't default to the longest tub that fits**: a 170 cm tub is recommended even for a person ~180 cm tall (not just shorter users) — a longer tub means less to brace against, so you tend to slide down against the back wall; 170 cm gives enough length to keep your head above water while still bracing your feet against the far end comfortably. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w_8a6aadd3]]]
-
-> [!NOTE]
-> **This lands close to, but reasons differently from, Zemskov's length rule** in [[07_Bathroom/analysis/Planning_and_Layout|Planning & Layout]]'s sizing formula (length ≈ occupant height, up to 10cm less — 1700mm typical for a ~178cm person). Both end up recommending roughly 170cm for a similar-height occupant, but Ontario's reasoning is "shorter forces better back-bracing regardless of height," while Zemskov's is "matched to height, or a too-long tub risks sliding under and choking." Worth knowing they agree on the number even though the underlying logic differs — not a contradiction requiring a decision, just two paths to the same practical answer.
->
-> **A third source (added 2026-08-18) largely converges but adds a nuance not silently merged**: presented as three standard recess-width tiers — 1.60m (too small/uncomfortable), **1.70m (this source's own stated optimum**, matching the two figures above), 1.80m (for taller occupants) — plus a mechanism explanation shared with the tub-length rule above: a too-long tub leaves a shorter occupant without foot purchase against the far end, sliding toward the drain while reclining. The nuance: this source ties 1.80m specifically to "taller occupants" rather than defaulting even tall users to 1.70m the way the two sources above do — a genuine (mild) disagreement on tall-occupant sizing, not resolved here. [source: [[_Sources/YT_scOLgA4HPqM_7_key_lifehacks_099|extraction note]]]
-
-### Freestanding vs. Built-In
-
-A real plumbing constraint, not just an aesthetic choice — see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]] for the full drain/slope implication and the concrete mitigation options (raising the floor, a lift pump, routing via the floor below in a private house, or negotiating connection depth with the management company). A freestanding tub generally needs its own floor drain and may force one of those choices, unless the sewage branch is already close and deep enough (roughly within 5-6 m of the stack, per one source's rule of thumb). Decide the tub type *before* finalizing floor-buildup plans, not after. **Also budget cleaning access around a freestanding tub** — if it's pushed flush against a wall on one side, that side becomes impossible to clean properly; leave a real gap if any side is against a wall.
-
-**⚠️ The specific bad combination isn't a freestanding tub itself, but using one as the household's *only* bathing/shower method while enclosed on three sides.** Ordinary bathing splash wets the surrounding floor regardless of tub type; a 3-sided enclosure additionally blocks the reach needed to clean properly behind/beside the tub, compounding the drainage constraint above (already forcing a podium or floor build-up in many cases). A freestanding tub used alongside a separate shower, or with open access on more than one side, doesn't carry the same combined problem. `single-account`, `unverified`. [source: [[_Sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
-
-## Bathtub Apron / Screen (Экран)
-
-Zemstandart / Alexey Zemskov's mapped source supports the apron, access, and tile-junction claims below; the toe-kick disagreement names both practitioners.
-
-**Most popular current method**: a framed structure (block or drywall/profile) with a revision hatch, tiled over. [source: [[_Archive/processed_sources/20260731_zems_b065_screen_ac9e5552.txt|zems_b065_screen_ac9e5552]]]
-
-### Toe-Kick Niche — Practitioners Disagree
-
-**The question**: should the apron include a full-length foot-clearance recess at floor level (a "toe-kick niche"), or none at all?
-
-**Perspectives:**
-
-| Source | Position | Reasoning |
-|---|---|---|
-| Ontario (Konstantin Kruglov, Moscow) | Build a full-length tiled niche running the entire tub length — the only currently "valid" option | Three alternatives (angled tile skirt, small narrow niche, plain leg-clearance gap) are all worse — the plain gap in particular collects dust/debris and can't actually be reached by hand for servicing despite appearing to allow it. A third, independent source reinforces this from the lighting angle: any light placed to illuminate the gap makes accumulated dust/hair/lint *more* visible, not less. |
-| Земстандарт / Zemskov (Moscow) | Skip the foot-clearance gap entirely — no niche at all | Calls it a legacy feature from the era of hand-washing laundry in a floor basin (kneeling at the tub, needing to tuck your feet under it), now obsolete since everyone has a washing machine — pure dirt trap with no remaining function. |
-
-**Common ground**: both are experienced renovation-company practitioners stating a genuine design position, not a factual claim one side is simply wrong about — this is a judgment call, not a dispute to resolve by finding more sources.
-
-**Your priority**: *— not yet decided.* Both sources point to the same deciding question: **do you ever kneel at the tub for anything** (bathing a child, hand-washing something), or not? If yes, Ontario's niche has a real function; if no, Zemskov's case for skipping it holds.
-
-### Everything Else About the Apron
-
-- **Never cut a full through-hole/vent opening in the apron** (distinct from a toe-kick niche — an actual round or rectangular opening straight through the panel) — one source warns this lets water seep in and causes a persistent damp smell that's very hard to fix afterward, and separately recounts two cases of small animals (a hedgehog, a cat) getting into such an opening and becoming trapped permanently. A clear, low-ambiguity "don't." [source: [[_Archive/processed_sources/20260731_zems_b065_screen_ac9e5552.txt|zems_b065_screen_ac9e5552]]]
-- **Always include emergency access to the drain/overflow assembly — but distinguish emergency access from routine/revision access, since they call for different solutions**: **revision access** (opened regularly — water meters, coarse/fine filters you service routinely) needs a proper hatch. **Emergency access** (essentially never opened — modern siphons, corrugated hoses, and plastic pipe are all rated for multi-decade service life) doesn't need a full hatch at all, per one source. [source: [[_Archive/processed_sources/20260731_zems_b065_screen_ac9e5552.txt|zems_b065_screen_ac9e5552]]]
-- **A concrete technique for hidden emergency-only access, avoiding a visible hatch altogether**: plan the apron's tile layout so a small rectangle (roughly 2 tiles) near the drain zone can be removed without disturbing neighboring tiles — the surrounding whole tiles should overlap the access rectangle's edges by a couple of centimeters. Before installing just those 1-2 tiles, wrap their backs in stretch/cling film so the adhesive can't actually bond them to the substrate; grout the rest of the apron normally, but seal only the perimeter of these tiles with flexible sealant instead of grout. When emergency access is genuinely needed years later: cut the sealant line, pop the film-backed tiles out with a suction cup, do the repair, reinstall the same tiles, and reseal. `single-account`, but a clever, concrete, and genuinely reusable technique. [source: [[_Archive/processed_sources/20260731_zems_b065_screen_ac9e5552.txt|zems_b065_screen_ac9e5552]]]
-- **Reinforce the apron's frame before tiling, so it doesn't flex underfoot** — especially important for acrylic tubs, which flex noticeably when stepped into if the surrounding structure isn't rigid. [source: [[_Archive/processed_sources/20260731_zems_b065_screen_ac9e5552.txt|zems_b065_screen_ac9e5552]]]
-- **Build the frame from masonry block, not a metal-stud/drywall frame** — faster and cheaper, and because a metal-stud frame is hard to anchor properly to the tub's own rounded top rim; anchoring it only on three sides (left/right/bottom, skipping the top) produces a worse structural result at similar-or-higher cost than block. [source: [[_Archive/processed_sources/20260731_zems_b065_screen_ac9e5552.txt|zems_b065_screen_ac9e5552]]]
-- **Apron tile layout must align exactly with the surrounding wall tile layout** — as if a section of the wall tile pattern were cut out and placed in front of the tub: vertical joints should line up with the grout lines on the wall above the tub, horizontal joints should line up with the side walls' horizontal joints. [source: [[_Archive/processed_sources/20260731_zems_b054_tiles_64563b4e.txt|zems_b054_tiles_64563b4e]]]
-- **A cheaper/faster newer trend**: XPS foam (extruded polystyrene) glued together as the apron's frame core, glued directly to the tub edges, then tiled over — functionally equivalent to a framed structure at lower cost/time. [source: [[_Archive/processed_sources/20260731_zems_b065_screen_ac9e5552.txt|zems_b065_screen_ac9e5552]]]
-- Off-the-shelf universal aprons with access doors (Hoff, Leroy Merlin, Lemana Pro-type retail products) are flagged as largely obsolete in current renovation practice — a second source adds a mechanistic reason beyond "obsolete": most tub manufacturers only sell the tub itself, not a matching factory screen, developer-installed tub height varies (~55-65 cm) against a fixed factory-panel height (forcing trimming or leaving a visible gap), and a factory panel doesn't seal the bottom joint against water ingress the way a tiled apron does.
-- **Tub-to-tile junction sequencing**: ideally the tub is sized/positioned against already-plastered walls, with tile then coming down onto the tub's rim (not the reverse). Occasionally a tub is chased slightly into the wall plaster, or even trimmed, to make this junction work. **The rim should never sit proud of the tile surface — flush is acceptable, but slightly recessed is better**: most tub rims are rounded on the underside as well as the top, so a flush straight tile edge creates a wedge-shaped grout gap along the rim, and flexing under load can squeeze grout out of that gap over time. [source: [[_Archive/processed_sources/20260731_zems_b028_door_bdc70cee.txt|zems_b028_door_bdc70cee]]]
-- **Keep the apron strictly vertical/plumb — never build it raked or angled** — both for appearance and because any acute-angle corner traps dirt a standard cleaning brush can't reach. [source: [[_Archive/processed_sources/20260731_zems_b065_screen_ac9e5552.txt|zems_b065_screen_ac9e5552]]]
-
-## Bathtub Revision-Hatch Sealing & Spare-Materials Storage — per Zemskov/Zemstandart
-
-Zemstandart / Alexey Zemskov says the following, verified against `YT_3EBbFbhdj6g_bathtub_revision_hatch_spare_materials.md` (`channel:` frontmatter).
-
-> [!NOTE]
-> This subsection is Zemskov/Zemstandart's own stated practice and reasoning, `single-account`, no cost figures given. [source: `_Archive/processed_sources/20260810_bathtub_revision_hatch_spare_materials_c26c1a59.txt`]
-
-- **Zemskov's rule: never make a bathtub siphon revision-access hatch quick-release/magnetic — always tile it in and seal the perimeter with silicone.** His stated reasoning: a magnetic hatch isn't watertight, splashed bathwater seeps into the unsealed gap and — with no airflow under the tub — rots, producing a persistent odor with no obvious source; separately, tile adhesive is hygroscopic and water reaching it via the gap causes it to swell and drop tiles.
-- **Zemskov's correct-construction sequence**: position the tile precisely, then seal the full perimeter with silicone in one step (secures + waterproofs together).
-- **Zemskov ties this to the leak-protection system**: a sensor at the potential-leak point under the tub means emergency access is needed rarely, which is why he considers a permanently sealed (non-quick-access) hatch acceptable rather than risky.
-- **Zemskov's spare-materials habit**: store spare tile *inside* the same sealed hatch space, not in a separate storage area — his stated real-world observation is that tile stored elsewhere "consistently doesn't survive" until needed. Tile lines get discontinued, and even same-collection replacement tile from a different batch visibly differs in color, so keeping the original leftover is the only reliable match. If both dark and light tile were used, he stores spares of both, plus spare grout (hard to match later, especially two-component) and a sealed, never-opened tube of silicone (an already-opened one dries out before it's needed).
-- **Zemskov's own comparative framing**: cutting a silicone seal to retrieve stored spares is trivial next to the alternative it protects against — a cracked tile requiring jackhammer demolition and full retiling.
-
-## Tub-Before-Tile Sequencing: a Durable Rim-Joint Technique
-
-**Install the bathtub before tiling, with the tile extending slightly over the tub's rim edge — not butted against it with a thick sealant fill.** The alternative (tile installed first, then a thick sealant bead fills the resulting gap to the tub) is a real failure mode: the thick sealant joint degrades over time and eventually leaks, while a properly sequenced tile-over-rim joint needs only a thin sealant film and is both more durable and better-looking. `single-account`, `unverified`. [source: [[_Sources/YT_hvPddB5Lc1s_hotel_room_mistakes_tour_103|YT_hvPddB5Lc1s]]]
-
-> [!NOTE]
-> **Third independent corroboration (Round 1, added 2026-08-28)**: Vladimir Amelchenko / ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ describes the same tub-before-tile, tile-over-rim sequencing on a real 3-wall-recessed tub installation, and separately notes the tub-installer's channel runs a dedicated companion video on the exact bathtub-to-wall/tile joint (`XkQdhTf71ao` — processed as this same round's video 7, see [[_Sources/YT_XkQdhTf71ao_sbk_bathtub_wall_seal_technique|extraction note]]). This source additionally names a distinct crack-prevention mechanism worth tracking alongside the rim-joint one: epoxy grout plus a dedicated sealant pass on every internal tile corner, specifically to keep those corners from cracking later — not previously recorded in this store as its own technique. [source: [[_Sources/YT_u3Tn6Z3OH-0_sbk_64m2_bathroom_walkthrough|YT_u3Tn6Z3OH-0]]]
->
-> **The companion video itself (Round 1, video 7, added 2026-08-28)**: gives an explicit two-method comparison. **Method A (tub pushed flush against finished tile)** — DIY-installable, tub freely replaceable (good for rentals), but the necessarily large perimeter sealant gap yellows and eventually molds, needing periodic recleaning/resealing; rounded tub edges also rule out a tiled apron. **Method B (tile laid over the tub rim, this speaker's exclusive practice)** — flush aesthetic with only a **1-2mm** vertical gap (a genuinely new precise number for this store), too narrow for water to pool, so it never molds or needs resealing — but the tub can't be replaced without demolishing the surrounding tile, and if that tile is discontinued (a real risk this same round's video 6 covers directly), full retiling may be needed just to swap the tub. [source: [[_Sources/YT_XkQdhTf71ao_sbk_bathtub_wall_seal_technique|YT_XkQdhTf71ao]]]
-
-## Curtain vs. Glass Splash Guard
-
-Zemstandart / Alexey Zemskov's mapped source supplies the curtain-versus-glass evidence below.
-
-**For a bathtub specifically, default to a curtain, not a glass panel** — a conclusion drawn from a renovation company's own multi-year warranty/aftercare data (they track client contact for years after project completion, not just at handover), not a bare style preference. **This section is about a bathtub — it does not apply to a genuine shower cabin/stall**, where glass is the only real option (see Shower Cabins below). [source: [[_Archive/processed_sources/20260731_zems_b128_neverput_810584eb.txt|zems_b128_neverput_810584eb]]]
-
-- **Glass only looks better for the first few hours after installation.** After that, it needs wiping after every single use — fingerprints, soap-scum residue, water spots — and hard water makes this dramatically worse. [source: [[_Archive/processed_sources/20260731_zems_b128_neverput_810584eb.txt|zems_b128_neverput_810584eb]]]
-- **Partial-height glass (about a third of the tub's length) is purely decorative** — it doesn't meaningfully block splashes, and the floor ends up with standing puddles regardless. [source: [[_Archive/processed_sources/20260731_zems_b128_neverput_810584eb.txt|zems_b128_neverput_810584eb]]]
-- **Glass to half the tub's length or more does block splashes reasonably**, but makes actually cleaning the tub itself awkward — you generally need to remove shoes, hike up clothing, and climb partway in to reach around the panel. [source: [[_Archive/processed_sources/20260731_zems_b128_neverput_810584eb.txt|zems_b128_neverput_810584eb]]]
-- **A sliding glass panel accumulates buildup in its bottom track over time** and eventually stops sliding smoothly regardless of hardware quality — at which point it typically gets left in a fixed position, reverting to the same problems as a fixed partial-length panel. [source: [[_Archive/processed_sources/20260731_zems_b128_neverput_810584eb.txt|zems_b128_neverput_810584eb]]]
-- **A hinged (swinging, non-sliding) panel is awkward regardless of which way it swings** — it's in the way of something no matter the direction, and can pop out of its mount or break under a careless bump or load. [source: [[_Archive/processed_sources/20260731_zems_b128_neverput_810584eb.txt|zems_b128_neverput_810584eb]]]
-- **A folding/"accordion" bi-fold panel is rated the worst option of all**, per repeated independent client feedback: its folded edge protrudes either outward into the room or inward into the tub. Outward usually isn't physically possible (a sink or washing machine commonly occupies that space), so it ends up protruding inward — producing repeated, genuinely painful knee/shin impacts. [source: [[_Archive/processed_sources/20260731_zems_b128_neverput_810584eb.txt|zems_b128_neverput_810584eb]]]
-- **Injury and damage data, from the same source's long-term warranty tracking**: zero clients have ever been injured by a curtain, including cases of slipping in the tub; several dozen clients have been injured by glass in comparable situations over the years. Zero clients have damaged their renovation by reflexively grabbing a curtain while falling (worst case: the curtain tears off its rings, buy a replacement); roughly 150 cases of glass causing real damage when grabbed during a fall or slip. Separately, roughly 50 clients who initially chose glass later asked to have it removed and replaced with a curtain — against zero clients who chose a curtain and later asked to switch to glass. [source: [[_Archive/processed_sources/20260731_zems_b128_neverput_810584eb.txt|zems_b128_neverput_810584eb]]]
- - **A second, independent source states the black-fixture maintenance downside even more emphatically** (see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers & Sinks]]) — a related pattern of one source's warranty-tracking data pushing harder against a popular trend than a bare preference would. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair]]]
- - **A reinforcing support brace is a real, cheap safety component frequently omitted by installers who claim it's "not included" with a shower glass kit** — universal braces that fit nearly any shower glass design are now widely available. Without it, a person leaning on the glass panel risks shattering it into fragments or tearing the mounting clips out of the wall. Confirm a brace is included whenever installing shower glass. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair]]]
- - **A small custom-fabricated rubber gasket/strip at floor level behind a fixed shower glass panel, specifically where the floor lacks proper slope, prevents water running down the glass from pooling at that one untreated spot.** Typically hand-made by the installer, not a stock part — ask for it specifically rather than assuming it's included. [source: [[_Archive/processed_sources/20260731_zems_b197_wildrepair_c4619c2b.txt|zems_b197_wildrepair]]]
- - **⚠️ Tempered vs. laminated ("triplex") safety glass — a distinct glass-type safety comparison, complementing the reinforcing-brace content above (Kruglov/Ontario, Round 14 triage, added 2026-08-28)**: tempered glass shatters into small, relatively blunt fragments when it breaks but can still cause injury; **laminated/triplex glass** (two glass panes bonded around a protective interlayer film, the same construction as automotive windshield glass) shatters *within* the film layer without dispersing fragments at all — the safer option. Recommends triplex over plain tempered for shower-enclosure glass, glass partitions, and glass railings/guards wherever the glass is in a genuinely high-contact or fall-risk location, acknowledging the real cost premium as worth it. `single-account`, `unverified`. [source: [[_Sources/YT_IXicju8ul1A_kruglov_indestructible_materials|YT_IXicju8ul1A]]]
- - **A distinct failure mode for the most popular current sliding-glass partition type, plus a first duration-based sizing threshold (added 2026-08-28, Round 5)**: the most common sliding tub/shower partition (a fixed ~60cm panel that extends a further ~30-40cm to close) can be pressed inward hard enough at its lower guide track to let water spill over the tub's outer edge at that point — a distinct mechanism from the track-buildup failure already documented above. Separately, a narrow, non-extending decorative/frosted glass partition (used instead of a full block-wall shower enclosure specifically to avoid claustrophobia in a tight space) is explicitly called insufficient to contain splash once a shower runs **longer than ~5 minutes** — this store's first concrete duration threshold for partition sizing. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_kxr8zFvUTj8_kruglov_pinterest_bathroom_breakdown|YT_kxr8zFvUTj8]]]
-
 ## Floor-Standing Mixer Fragility for a Freestanding Tub (Kruglov/Ontario, Round 15, added 2026-08-28)
 
 **⚠️ New to this store's freestanding-tub content**: a floor-mounted mixer for a freestanding tub is typically **~80cm tall** and anchored only at the floor — its long lever arm can be snapped off by a single hard lean or bump, especially with children or large pets in the household. **Fix**: build a sturdy TC-profile-framed box around the mixer's base and internal plumbing — fully solves the fragility problem, but is an added construction step worth planning for in advance. `single-account`, `unverified`. [source: [[_Sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
-
-## Glass Partition vs. Curtain — a Cleaning-Burden Comparison (Round 15, added 2026-08-28)
-
-Konstantin Kruglov / Ontario: a glass shower/tub partition accumulates
-both water spots and fingerprints on the glass itself, and its
-**mounting metal profile is described as the primary, hard-to-keep-clean
-dirt source** — not the glass panel. Framed as harder to maintain
-day-to-day than a fabric curtain, which only needs periodic washing
-(roughly quarterly) or outright replacement (roughly every 6 months). A
-genuine tradeoff, not an absolute "never use glass" rule — complements
-rather than contradicts this page's existing injury/warranty-tracking
-data above (which already favors curtains for unrelated safety reasons).
-`single-account`, `unverified`. [source: [[_Sources/YT__pOv1fnV6nM_kruglov_20_cleaning_mistakes|YT__pOv1fnV6nM]]]
-
-## Concealed Curtain Mount in a Stretch Ceiling — a 2024-2026 Trend (added 2026-08-24)
-
-Konstantin Kruglov / Ontario: a growing trend hides the curtain rod/track inside a **specially-built recessed niche in the stretch ceiling** directly above the tub, so the mounting hardware (hooks/track) is invisible from below. **Pro**: a cleaner, more modern-looking junction where the curtain meets the ceiling, since the visible hooks of a conventional curtain rod are eliminated. **The source's own opinion, stated directly, is that this trend is a visual downgrade**: he doesn't personally like it and says it looks distinctly worse than a glass shower partition. Framed here as a real, rising trend worth knowing about, not a recommendation — weigh against this page's existing curtain-vs-glass injury/maintenance data above, which favors curtains overall for reasons unrelated to this specific mounting style. `single-account`, `unverified`. [source: [[_Sources/YT_IFnZxitFeNk_kruglov_bathroom_trends_2026|YT_IFnZxitFeNk]]]
 
 ## Towel Warmer: Electric Preferred Over Hydronic
 
@@ -165,46 +49,6 @@ Konstantin Kruglov / Ontario: a growing trend hides the curtain rod/track inside
 
 **A rain/tropical showerhead's actual water delivery depends on nozzle density relative to head diameter, not just the head's overall size — a real buying-guidance mechanism.** A documented defect: a shower head's *diameter* was stretched larger for a more dramatic look, but its *nozzle count* stayed the same as a smaller head — diluting water delivery per unit area so severely that washing long hair took an impractically long time. **Verify nozzle density (not just diameter) before buying a rain/tropical head — a wide head with sparse nozzles functions as a water-saving fixture, not a genuine high-volume tropical-shower experience**, and pair it with a normal handheld head as a practical backup. `single-account`, `unverified`. [source: [[_Sources/YT_ob9iEwc3GWc_35m_170m2_scammed_263|YT_ob9iEwc3GWc]]]
 
-## Shower Cabins (Built, Not Prefab)
-
-Excluding prefab plastic shower-cabin units (discouraged elsewhere — see [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproofing]]), a built shower cabin is tile/glass walls over a pan/base — the base material choice is the main decision:
-- **If the base is tiled, always grout it with epoxy, never cement** — epoxy is indifferent to sustained water contact; cement grout isn't, and a shower floor sees more water exposure than almost any other tiled surface in the home. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w_8a6aadd3]]]
-- **Base material options**: a ready-made pan in steel, cast/engineered stone, natural stone, or acrylic, or a fully tiled base. Steel is ranked least pleasant (cold, "less nice" underfoot); stone/marble is the most premium-feeling (cold initially, but reads as luxury); acrylic and tile are solid middle options. **The cost delta between a basic steel pan and a stone/marble one is cited as only ~20,000 RUB** — framed as a one-time cost for a fixture used for the life of the renovation, worth the upgrade. `single-account`, and the same cost-vs-longevity argument the source also makes for bathtub material. [source: [[_Archive/processed_sources/20260731_video_s1cWUR4l90w_8a6aadd3.txt|video_s1cWUR4l90w_8a6aadd3]]]
-- **⚠️ Minimum built shower-cabin size: 80×90cm.** Below this, only comfortable for a child/adolescent, not an average adult — no stated upper limit, but this is the floor below which the source says not to go regardless of available space. `single-account`, `unverified`. [source: [[_Sources/YT_9dfEdjOewng_kruglov_bathroom_mistakes|YT_9dfEdjOewng]]]
-
-For shower podium/curb height, valve height, and tile-matching technique on a shower base, see [[07_Bathroom/analysis/Tile_Selection_and_Layout|Tile Selection & Layout]].
-
-### Linear Shower Drain Channel — a Three-Tier Product Ladder (Петришин-Строй, added 2026-08-24, Round 10)
-
-A premium bathroom-brand rep describes a **three-tier product taxonomy for
-linear (channel-style) shower drains**, introduced specifically in
-response to installer/tiler complaints that an all-plastic channel is
-hard to get a clean tile fit against: **budget tier** — plastic body and
-grate (cheapest, e.g. the popular "apz 8910" reference model); **mid
-tier** — plastic channel body with a combined trap plus a stainless-steel
-grate (priced between the other two, introduced to answer the tiler
-complaint above); **premium tier** — full stainless-steel channel body
-and grate (most expensive, e.g. the "Z1" line). 15-year warranty on the
-channel body across the range. `single-account`, brand-specific naming/
-pricing — recorded as a general plastic → hybrid → stainless
-product-category pattern worth checking for when shopping any brand's
-linear drain lineup, not this specific brand's SKUs. Region unresolved.
-[source: [[_Sources/YT_zZ_1iOXL_wA_petrishin_installation_frame_shower_furniture_expo|zZ_1iOXL_wA]]]
-
-### Pre-Sloped Factory Shower-Pan Product Category, and a Foldable Shower Seat (Петришин-Строй/Mosbuild expo, added 2026-08-24, Round 10)
-
-`single-account`, heavily ASR-garbled trade-fair source, region
-unresolved, high promotional ratio (multi-brand booth tour). A
-**factory-made shower base with the drainage slope already built in**
-avoids on-site tile-cutting/extra grout seams needed to create fall
-toward the drain — but the exact model/size must be confirmed as a fit
-for the space before purchase, since the slope geometry isn't
-field-adjustable the way a tiled-in-place slope is. Also seen: a
-**foldable wall-mounted shower seat**, a space-saving alternative to a
-full bench/stool in a compact shower, folding flat when not in use.
-`ASR-uncertain` price reference ≈13,000–15,000 RUB (year not confirmed,
-not converted). [source: [[_Sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]
-
 ## Recovering Leftover Space When a Tub Alcove Is Longer Than the Tub
 
 A concrete problem worth planning for explicitly: fixed elements (a load-bearing wall, a utility box, a stack) sometimes force a tub alcove to be longer than the ideal tub length for the people using it — leaving genuine leftover space at one end. **Two tempting but wrong solutions, and the correct one**:
@@ -213,107 +57,15 @@ A concrete problem worth planning for explicitly: fixed elements (a load-bearing
 - **Correct: build a proper tiled utility column with its access opening facing the hallway/corridor side, never the tub side.** A tub-side opening gets water intrusion, makes the lower portion unusable, and leaves the upper portion unreachable. Access from the corridor instead avoids all three problems and gives a large, genuinely useful, floor-to-ceiling storage column. [source: [[_Archive/processed_sources/20260731_plumbing_video_3_e759e2c7.txt|plumbing_video_3_e759e2c7]]]
 - **Construction detail**: tile the tub's own apron/screen with the same tile as the surrounding wall, so the junction between the apron and the new utility column reads as one continuous surface meeting at a clean 45°-mitered corner. [source: [[_Archive/processed_sources/20260731_plumbing_video_3_e759e2c7.txt|plumbing_video_3_e759e2c7]]]
 
-## Shower-Enclosure Bottom-Seal Omission Caution (added 2026-08-20, remainder-pool Round 2)
-
-**⚠️ Don't assume a premium-priced shower enclosure includes a genuine bottom threshold/door-sweep seal — verify it directly.** A documented "elite" shower enclosure was installed without one (a feature present even on budget balcony enclosures), inevitably letting shower water pool on the floor outside the enclosure; a site-applied silicone bead was used as a stopgap, explicitly described as temporary and likely to eventually fail and need redoing. `single-account`, `unverified`. [source: [[_Sources/YT_GtOQ7h1p5qc_pure_design_madness_70sqm_303|YT_GtOQ7h1p5qc]]]
-
-## Bathtub-Then-Tile Sequencing (added 2026-08-19, remainder-pool Round 2)
-
-**⚠️ Install the bathtub first, flush against three walls, then tile *over* the tub's own edge/rim** — never tile the walls first and push the tub up against an already-finished tile perimeter, which forces an ugly trim/edge detail around the tub that doesn't even prevent water intrusion any better. Stated definitively as the correct order of operations, extending this page's existing tile-over-tub-apron technique with an explicit sequencing rule. `single-account`, `unverified`. [source: [[_Sources/YT_nbrDFET2AXk_90_mistakes_part2_295|YT_nbrDFET2AXk]]]
-
-## Silicone-Joint Width, Acrylic-Tub Load-Testing, and Shower-Pan Material Spec (Петришин-Строй, added 2026-08-24, Round 5)
-
-Extends the sequencing rule above with two further mechanisms:
-
-- **After sealing the tub to the wall and tiling over it, finish with
-  only a thin (~2mm) silicone joint at the tub-tile line** — a thin joint
-  gives mold far less silicone surface area to grow on and blackens much
-  more slowly (per the source, weeks longer) than the common shortcut of
-  leaning tile against an unsealed tub with a fat silicone bead.
-- **⚠️ An acrylic tub must be load-tested before the seal is finished, not
-  just sealed and left as-installed**: after sealing the tub to the wall
-  but before finishing the tile-tub joint, load the tub to roughly its
-  real in-use weight (fill with water, or weight it with roughly 8 bags
-  of tile adhesive as a stand-in) — an unloaded acrylic tub can sag once
-  actually filled with water plus a person's weight later, breaking the
-  silicone seal at the tile line even if the original installation looked
-  perfect. Load first, finish the seal, then remove the load.
-- **⚠️ Acrylic tub mechanical-damage protection during tile work, a distinct concern from the load-test above (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)**: acrylic is flagged as the most mechanically damage-prone tub material during the surrounding room's own tile installation, so beyond the factory-applied protective film, real jobsite practice layers **two sheets of plywood over a foam-board (пенопласт) underlayment** directly on top of the tub — solid enough that installers can stand on it safely while tiling nearby, without denting or scratching the tub surface underneath. `single-account`, `unverified`. [source: [[_Sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
-- **⚠️ Corner-drain vs. center-drain preference, new to this page (added 2026-08-28, Round 16)**: the presenter states a personal dislike for a tub whose drain-overflow assembly sits at the center of the tub rather than at a corner/end. On a real project, a center-drain tub was chosen anyway because the mixer and drain-overflow system had already been planned/plumbed for a center position — framed as a real, occasionally forced tradeoff (plumbing rough-in commitment vs. drain-position preference) rather than a hard rule; plan the tub's drain-position preference *before* the rough-in plumbing is committed if it matters to you. `single-account`, `unverified`. [source: [[_Sources/YT_kHmUYEX1Lqw_kruglov_stylish_2room_apartment_review|YT_kHmUYEX1Lqw]]]
-- **Under-tub accent lighting switched from inside the tub itself, a real installed detail (Nikita Kuznetsov, added 2026-08-28, Round 16)**: rather than a wall switch, the LED strip lighting running along the tub's own base is switched on by a control mounted inside the tub basin — meaning it's only realistically triggered once someone is actually in/using the tub (e.g. after filling it and settling in), functioning as a deliberate "ambience for this specific moment" control rather than a general room light. `single-account`, `unverified`. [source: [[_Sources/YT_xkA8v-0jGqg_kruglov_modern_3room_apartment_review|YT_xkA8v-0jGqg]]]
-- **Shower-pan/base structural spec, framed as this company's single
-  largest warranty/reclamation cost source**: build the pan from masonry
-  (brick/cement, monolithic), never framed from drywall or foam block,
-  with careful perimeter waterproofing (tape plus compatible materials).
-  A prefabricated cast shower-pan unit with a built-in siphon opening is
-  offered as a lower-risk alternative, paired with proper perimeter
-  sealing, to reduce flood risk to the unit below. Verify by visiting
-  during the pan-construction stage or requesting photo/video
-  documentation of the waterproofing layers. `single-account`. [source:
-  [[_Sources/YT_vKMHNYQYWAI_petrishin_top13_expensive_mistakes|YT_vKMHNYQYWAI]]]
-
 ## Combined Wall-Thickening Technique: Tub Ledge Removal + Mixer Reach (added 2026-08-19, remainder-pool Round 2)
 
 **⚠️ Thickening a wall by ~10cm to shift a bathtub's outer edge forward can solve two unrelated problems at once**: it eliminates an awkward horizontal ledge/shelf next to the tub (a hard-to-clean, bacteria-collecting surface that otherwise forms when the tub sits recessed from the wall face) *and* it makes a wall-mounted mixer noticeably easier to reach from within the tub. A single ~10cm wall adjustment addressing both issues together. `single-account`, `unverified`. [source: [[_Sources/YT_MWDcYHqe-iQ_designer_apartment_walkthrough_288|YT_MWDcYHqe-iQ]]]
-
-## Shower-Stall Clearance Sensitivity to Small Dimensional Changes (added 2026-08-19, remainder-pool batch)
-
-**A shower stall's usable clear space is highly sensitive to small dimensional changes near the minimum threshold.** Documented real case: moving one bounding wall just 10cm was the specific difference between "usable, if snug — can pour water and move elbows without hitting the partition" and "too tight to use without hitting the fixtures with your elbows." Treat 10cm increments near a shower-clearance minimum as consequential, not negligible, when planning a tight layout. `single-account`, `unverified`. [source: [[_Sources/YT_v7UXJ5fJ0H0_worst_apartment_2019_replan_520|YT_v7UXJ5fJ0H0]]]
 
 ## Tub-Integrated Water Control (iBox-Type System) & Hose-Drying Technique (added 2026-08-24, Round 2)
 
 **⚠️ Critique of a popular "fake freestanding" tub trend**: a tub styled/marketed as freestanding but actually pushed flush against a wall on one side (reading visually as a single gap on the far side) is functionally impossible to clean or service behind, unlike a genuinely semi-freestanding tub with real access from 3 sides. Noted as an Italian design trend now widely and more cheaply copied by Chinese manufacturers (material speculated as a resin/epoxy composite, not confirmed) — a real design-vs-maintainability tradeoff worth knowing before choosing this style for its looks alone. `single-account`, `unverified`. [source: [[_Sources/YT_55zALDsXP2E_kruglov_pinterest_plumbing_review|55zALDsXP2E_kruglov_pinterest_plumbing_review]]]
 
 **⚠️ A real, unusual finished-bathroom design shown on a jobsite**: a tub-integrated water-supply-zone control system ("iBox"); a hand-held shower head stored in/pulled from the tub's own rim/ledge rather than a fixed wall mount; the tub fills through its own overflow opening rather than a separate spout/faucet (the presenter states this is a first-time observation for them, not a previously-familiar product); a tropical rain shower is also present in the same room. **Electric underfloor heating placed specifically under/near the tub to dry the shower hose after use** (the hose rests on the floor once tucked back into the rim) — framed explicitly as mold prevention, not just comfort. `single-account`, `unverified` (presenter's own stated unfamiliarity with the product). [source: [[_Sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
-
-## Masonry-Built Shower Base and Leak-Protection System (Петришин-Строй, added 2026-08-24, Round 11)
-
-Real object, "Новая Рига" (Novorizhskoye highway corridor, Moscow region
-— region level 1). 2017-vintage source. Low promotional ratio.
-
-- **Custom-built shower base ("подиум") construction**: foam-block
-  ("газосиликат") platform, floor filled with concrete, with a floor
-  drain ("трап") installed inside the platform before tiling — a full
-  masonry-plus-concrete shower-pan build rather than a factory pre-formed
-  pan.
-- **Client-driven flush-floor design decision**: at the client's request,
-  the hallway floor level was built to match the adjoining bathroom floor
-  level exactly, rather than the more typical stepped-down wet-room
-  floor.
-- **Leak-protection system, named product and component list**:
-  "Нептун" (Neptun) system with 2 electromechanical shutoff valves that
-  automatically close the water supply on a leak event, co-located with
-  a check valve, a fine-particle filter with backwash capability, a
-  water-pressure regulator, a second filter, a distribution manifold
-  box, an instantaneous water heater (named brand: Electrolux), and the
-  heating-system manifolds — a real named-product utility-cabinet
-  component list.
-[source: [[_Sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|YT_gREGOOA2OHo]]]
-
-## Bathtub Podium — a Distance-to-Drain Rationale, and a Site-Protection Practice (Петришин-Строй, added 2026-08-24, Round 11)
-
-Real object, город Видное (region level 1, full address named). Low
-promotional ratio.
-
-- **Podium rationale, a real distance-driven design reason**: the tub
-  sits on a raised podium specifically because its own drain sits an
-  unusually long distance from the sewage stack ("фановая труба") — the
-  podium's slope ensures water drains cleanly across that distance
-  rather than pooling. Finished in the same mosaic as an adjacent curved
-  wall on the same object.
-- **Site-protection practice**: the finished mosaic-clad podium was
-  covered with hardboard ("оргалит") to prevent scuffing/damage during
-  the remainder of the ongoing work.
-[source: [[_Sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
-
-## Concealed Curtain Track and Concealed Glass Profile (Мария Шеврина / SMBUREAU, added 2026-08-30)
-
-Two alternatives to the standard shower enclosure detail, both from a studio that applies them across projects:
-
-- **⚠️ A concealed (recessed) track for a bath or shower curtain** — the same recessed-niche track normally used for window curtains, used where a curtain is preferred to a glass screen. She specifies a custom curtain in treated fabric. **On the recurring "how do you take it down to wash it" objection: there is an end cap on the track — pop the cap and the runners slide out, or simply unhook the curtain from the hooks.**
-- **⚠️ Shower glass set in a concealed profile rather than a surface-mounted aluminium one.** Three stated advantages: **more watertight**; **more hygienic**, with fewer corners collecting dirt and mould, and easier to clean; and visually the glass appears to emerge directly from wall and floor, which she notes matters most in small bathrooms. Sourced from shower-partition manufacturers rather than from a general contractor.
-
-`single-account`, `unverified`. [source: [[_Sources/YT_z4G-ocStu9o_shevrina_ten_studio_detail_solutions|YT_z4G-ocStu9o]]]
 
 ## Fitting a Bath Into an Over-Wide Alcove (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
@@ -340,17 +92,6 @@ Her worked example — a bath with a glass screen, in a household with a child o
 - **She then raises the counter-argument against her own suggestion**: adjusting temperature while already standing under the overhead means bending and reaching. So the answer depends on which discomfort you would rather have — which is the point.
 
 **Her practice: split the components across walls** — mixers often on the long wall, overhead and head on the short wall, sometimes the hand shower with the mixers.
-
-## ⚠️ Concealed-Profile Glass Screens — Procurement and Timing (added 2026-08-31)
-
-This page already records the concealed profile as the preferred detail. **Here is how to actually get one:**
-
-- **If a glass-partition showroom says they can't do a concealed profile, leave and go elsewhere** — it means they have no experience of it and no profiles for it.
-- **It is not the builders' job.** "Не мучайте их, не пытайтесь сами там что-то колхозить."
-- **⚠️ Raise it BEFORE the tiling goes on.** Installation may be two-stage — **the profile fitted at rough stage onto the screed, and the glass only after finishing works.** Get this wrong and the detail is no longer available.
-- **⚠️ On a bath**: nobody cuts a niche into the tub. **The glass sits on the rim through a sealing tape** (or, less well, sealant) — **never bare glass onto the tub.**
-
-[source: [[_Sources/YT_HImsHPnSh-c_shevrina_minimalist_bathroom_solutions|YT_HImsHPnSh-c]]]
 
 ## Hydromassage, and the Cheap Substitutes For It (Надежда Кузина, added 2026-09-01)
 
@@ -421,25 +162,6 @@ From a source on programming the bathroom as a spa — the full programme is on 
 - **⚠️ Bath screens — opening, sliding, stationary, folding — each need their characteristics understood.** A solid screen **is beautiful in a visualisation and not always practical**; a folding one **collects water on the folded face and needs somewhere to fold to.**
 - **⚠️ Design the screen WITH the layout: if the brief needs a screen that swings a particular way and the layout puts a pencil unit in its path, the layout is wrong, not the screen.**
 
-## ⚠️ Shower Floor Slope and Linear-vs-Centre Drain (Игорь Краснов, added 2026-09-01)
-
-Krasnov states this rule twice across two videos in the same round (plumbing-mistakes and bathroom-mistakes) with matching figures — reconciled here as one entry rather than duplicated. [sources: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]], [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]
-
-- **⚠️ Recommended shower floor fall: 1.5–2% (1.5–2 cm per running metre)** — too little pools water; too much makes the floor uncomfortable/slippery underfoot. **Consistent with, and more granular than, this page's existing "minimum fall 2 cm" figure from Михайловская above** — read together, roughly 1.5–2 cm/m is the operative range, with 2 cm as the safe floor both sources converge on.
-- **⚠️ Prefer a linear drain along a wall or the shower entry over a centre point-drain.** Mechanism: a wall-adjacent linear drain only needs a single-direction slope, while a centre drain forces a four-sided slope — more geometry errors in practice, and (his plumbing-video framing) forces expensive/difficult cutting into four sloped planes with **large-format porcelain tile** specifically. With **mosaic tile**, drain position matters far less, since the small tile units cut trivially into a multi-directional slope — a centre drain is fine there.
-- **⚠️ Drain/trap position must be planned against the existing fan (фановая) pipe routing and achievable slope, not chosen for looks alone** — placing the drain too far from the shower area forces raising the shower floor/threshold to hit the needed fall. **A 25 cm platform rise is called explicitly too high/impractical.**
-
-`single-account`, `unverified`.
-
-### ⚠️ Free-standing baths — the serviceability critique
-
-From her "красиво но нереализуемо" gallery. [source: [[_Sources/YT_yqb7N1yA9hg_mikhailovskaya_wc_basin_mixers_storage|yqb7N1yA9hg]]]
-
-- **A free-standing bath wedged between walls: how is the water mopped and how is behind it cleaned?**
-- **A free-standing bath with a gap behind it and a wall mixer — "как помыть и вытереть за ней?"**
-- **⚠️ Her fix where one must sit against a wall: there are baths that read as free-standing but have a flat back that abuts it. Use those.**
-- **⚠️ And the podium warning: too little tread beyond the bath edge means you step out onto a narrow ledge with nowhere for a non-slip mat — "можно просто убиться."** Her positive counter-example is deliberately an ugly picture: **a ribbed non-slip podium, the floor mixer standing clear with access all round, and access to the bath.**
-
 ## ⚠️ Freestanding Corner Bathtub — Mold-Risk Critique (Игорь Краснов, commenting on designer Jane Hallworth's project, added 2026-09-01, Round 6)
 
 [source: [[_Sources/YT_uPtvVVYKjnI_krasnov_kirsten_dunst_critique|uPtvVVYKjnI]]] — genuinely new to this vault's bathroom content (existing content above covers shower slope/serviceability and freestanding-bath-behind-wall cleaning; this is specifically about corner placement with no direct access on multiple sides.
@@ -474,16 +196,12 @@ Dark glossy tile texture used deliberately in a small bathroom for a sense of de
 
 `single-account`, `unverified`.
 
-## Pebble-Floor Technical-Gap Cover, Satellite Home-Office Shower, and an Oversized Shower-Cabin Rule (Игорь Краснов, real projects, added 2026-09-02, Round 8)
+## Moved to their own pages
 
-Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]
+This page had reached **490 lines across 35 sections averaging 14 lines each**. Sections were **moved whole on 2026-09-02; no prose changed.**
 
-- **⚠️ Decorative pebble/gravel flooring at a shower threshold, a specific dual-purpose technique, genuinely new**: "декоративная галька... засыпка покрывает технический зазор... ухаживать за ней легко. Пылесос или душ, и всё снова чисто" — the pebbles disguise/cover a technical expansion gap AND are explicitly easy-clean (vacuum or hose down). [source: XU7YAfZ9xuM]
-- Tempered-glass shower partition with black profile; built-in bench of porcelain tile on a metal frame with underside lighting, creating a "floating platform" effect. [source: XU7YAfZ9xuM]
-- **⚠️ Satellite shower installed adjacent to a home office/study, genuinely new space-planning idea**: for a quick refresh after exercise or long work sessions without using the rest of the home's bathrooms. Within it: a linear floor drain (reinforcing this recurring recommendation); tempered glass engineered to shatter into safe granules rather than sharp shards (a specific real safety-glass detail); full-width backlit mirror; wall-hung toilet with in-wall tank; vessel-style sink with drawers. [source: XU7YAfZ9xuM]
-- Laundry (Bosch washer/dryer, flag per advertising filter) integrated behind cabinet fronts directly within the master bathroom/shower suite — tag as a large-house-specific option, not broadly scalable. [source: XU7YAfZ9xuM]
-- **⚠️ Oversized/wider-than-standard shower cabin specifically to avoid a cramped feel** — "ширина душевой кабины больше стандартной. Здесь не придётся ютиться у стенки" — a "don't just meet the minimum, go wider" shower-sizing recommendation, distinct from and complementary to standard shower-clearance content already logged. [source: W2dAmCXg9GE]
-- **⚠️ Ceiling-mounted rain shower head specifically praised for the "water appears from nowhere" effect** — "душ встроен в потолок. Вода словно появляется из ниоткуда" — a specific fixture-type preference (ceiling-recessed rainfall vs. wall-mounted). [source: W2dAmCXg9GE]
-- Black-veined "marble-look" large-format porcelain tile explicitly chosen over real marble for easier maintenance while keeping the premium look — restates existing marble-substitution content as an applied case. [source: W2dAmCXg9GE]
+- **Tub materials, aprons and installation technique** — [[07_Bathroom/analysis/Bathtub_Materials_and_Installation|Bathtubs — Materials, Aprons and Installation Technique]]
+- **Built shower enclosures, bases and drainage** — [[07_Bathroom/analysis/Shower_Enclosures_and_Drainage|Showers — Built Enclosures, Bases and Drainage]]
+- **Glass screens, curtains and concealed tracks** — [[07_Bathroom/analysis/Splash_Guards_Screens_and_Curtains|Splash Guards — Glass Screens, Curtains and Concealed Tracks]]
 
-`single-account`, `unverified`.
+**This page keeps the bathtub-versus-shower decision itself and the multi-source selection comparisons the three detail pages are read against.**

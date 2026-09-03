@@ -356,3 +356,117 @@ Follow-on from the Kitchen Furniture conversion, at the user's direction. **Flag
 - **⚠️ `03_Kitchen/analysis/Furniture_Facade_Materials.md` was deliberately NOT split.** 314 lines across 12 substantial sections (~26 lines each) — not fragments. **Every candidate seam cuts through individual sourced blocks rather than between them**, so splitting would fragment single-source content a reader compares side by side. Left as one page on purpose, 54 lines over a threshold the convention itself calls "the weakest of the available signals." **The condition that would change that is recorded.**
 - **Verification, identical to the Kitchen Furniture split**: every move was a byte-for-byte line-range extraction with coverage asserted, followed by an independent content-line and citation-ID parity check per operation. **Zero content lines and zero citations lost across all four operations.**
 - **Cross-references**: of eight `§N` references into Budgeting_Guide, §2.1, §4 and the first §5c survived and still resolve; the §5e reference was repointed; and the two internal references that travelled with the moved cluster were **rewritten to name their sections rather than number them**, per the convention's preference. Legacy 5b–5e numbers were stripped from the standalone page's headings.
+
+## 2026-09-02 (third pass) — a 300-line hard ceiling, and the whole vault brought under it
+
+The owner's instruction was to stop wiki pages growing out of control, restructure the dependent
+pages rather than only the two named ones, verify the structure, and **keep pages under 300 lines**.
+All four parts are done. **Every page in the vault is now under 300 lines**, and the rule is enforced
+by a tool rather than by remembering.
+
+### The rule, and where it lives
+
+**No wiki page may reach 300 lines.** `tools/check_page_sizes.py` now **exits non-zero** on a breach,
+and the advisory exceptions file **cannot waive it** — the ceiling is checked before that file is
+consulted. Below the ceiling the checker warns (detail pages at 260 lines, or 220 with 12+ sections;
+guide pages at 280, or 240 clustered), so a page is caught while it is still growing.
+
+The four old thresholds (400/260 detail, 500/350 guide) were **deleted, not kept alongside**: under a
+300-line ceiling none of them is reachable, so leaving them in would have been dead code pretending
+to be policy.
+
+⚠️ **This does not overturn the 2026-08-31 finding that line count is the weakest signal, and the
+convention now says so explicitly.** Line count still tells you nothing about *how* to fix a page.
+What a ceiling adds is a moment at which action is forced — the pages that reached 500, 700 and 878
+lines got there by twenty batches each appending a little, never by a decision.
+
+Recorded in `00_Master/wiki_page_format.md` (new section), `AGENTS.md` (new standing rule 8), and the
+tool's own constants block.
+
+### The tooling that did the work
+
+`tools/split_page.py` gained a **`merge`** subcommand alongside `analyse` and `apply`, because
+fragmentation had now been fixed by hand three times. It groups sections under thematic parents and
+**demotes the original dated headings from `##` to `###` rather than deleting them**, so every
+attribution and date survives; its parity check normalises that one permitted change and requires
+everything else to match byte for byte.
+
+### What was restructured
+
+**Twenty pages were over the ceiling. All twenty are under it.** No page was rewritten — sections
+were moved whole, by line range, byte for byte.
+
+| Page | Before | After |
+| :--- | ---: | ---: |
+| `17_.../Decor_and_Finish_Selection_Technique.md` | 739 / 53 sections | **185** |
+| `00_Master/Bedroom_Design_Principles.md` | 695 | **255** |
+| `17_.../Sliding_Partition_Mechanisms.md` | 591 | **179** |
+| `12_.../Lighting_Design.md` | 568 | **268** |
+| `13_.../Ceilings_Guide.md` | 503 | **259** |
+| `07_.../Bathtub_and_Shower.md` | 489 / 35 sections | **207** |
+| `13_.../Wallpaper_and_Paint_Application.md` | 446 | **287** |
+| `13_.../Flooring_Material_Selection.md` | 415 | **253** |
+| `17_.../Color_Harmony_and_Combination_Rules.md` | 407 | **227** |
+| `09_.../Essential_Components_and_Layout.md` | 401 | **223** |
+| `17_.../Neutrals_and_Earth_Tone_Palettes.md` | 393 | **270** |
+| `17_.../Color_Selection_Process_and_Testing.md` | 393 | **247** |
+| `17_.../Functional_Zoning_and_Furniture_Arrangement.md` | 361 | **288** |
+| `12_.../Smart_Home_Systems.md` | 329 | **239** |
+| `12_.../Radiators_and_Convectors.md` | 319 | **227** |
+| `14_.../Loose_Furniture_Selection_Principles.md` | 312 | **236** |
+| `12_.../Fresh_Air_Ventilation_and_Ducting.md` | 310 | **231** |
+| `17_.../Color_Palette_and_Material_Direction.md` | 309 | **244** |
+| `17_.../Whole_Home_Planning_Method.md` | 306 | **232** |
+| `01_Entrance/analysis/Storage.md` | 306 | **199** |
+| `13_.../Flooring_Installation_and_Baseboards.md` | 300 | **184** |
+
+Plus the two pages the owner named first, done earlier the same day: `Budgeting_Guide.md` 495 → 182
+and `Furniture_Facade_Materials.md` 314 → 171.
+
+*(Line counts are `wc -l`; `check_page_sizes.py` reports one more for a file whose last line lacks a trailing newline.)*
+
+**Every operation reported RESULT: CLEAN — zero content lines lost, zero citation IDs lost, across
+all thirty-two split and merge operations in this commit.**
+
+### ⚠️ Two findings worth keeping
+
+**1. `Flooring_Installation_and_Baseboards.md` sat at exactly 300 and a manual sweep missed it.**
+The sweep used `> 300`; the rule is `>= 300`. **The tool found it; the hand-written check did not.**
+This is the case for having the ceiling in a tool at all.
+
+**2. Splitting can EXPOSE fragmentation that was hidden underneath.** `Radiators_and_Convectors.md`
+(22 sections in 215 lines) and `Loose_Furniture_Selection_Principles.md` (21 in 225) were not
+flagged as fragmented before this pass — their large sections were masking the average. Moving those
+sections out revealed the underlying shape, and both then needed **merging**, not further splitting.
+Radiators went 22 sections → 7, Loose Furniture 21 → 12. **Re-run the checker after a split rather
+than assuming the job is finished** — this is now written into the convention.
+
+### Cross-references
+
+**Twelve `§N` references were broken by the moves and all twelve were repointed to page names**, per the
+convention's preference for names over section numbers:
+
+- `Lighting_Design.md` — three internal refs (§3, §4, §8) whose targets left the page.
+- The two new lighting pages — three refs: one to §5 (glare) and two to §2 (colour temperature, which stayed behind on the parent).
+- `Planning_and_Layout.md` — the Bathtub "§Length Ergonomics" ref, now on the materials page.
+- `Budgeting_Guide.md` — a §2 ref, and **a §5e ref that had silently become wrong**: 5e is now
+  Krasnov material-selection content, not the Кузина design-fee material it claimed to cite.
+- `Estimate_and_Contract_Templates.md` (two §5c refs) and `Decor_Art_and_Composition.md` (one §5e).
+
+### The exceptions file
+
+The single entry — `Lighting_Design.md`, added 2026-09-01 — **was retired**. Its own stated review
+condition was "REVIEW AGAIN if the section count reaches 12"; after this pass the page is 268 lines
+across 10 sections, below both the ceiling and the cluster trigger. **The reasoning it carried was
+kept in the file as a retired-entry note rather than silently deleted**, because the point it made
+(that a split can undo a deliberate merge) is still worth knowing.
+
+### Verification
+
+`tools/verify_batch.py --base main` reported **two citation-ID drifts, both self-identified by the
+tool as moves** into `Cost_Benchmarks_Real_Object_Cases.md`. Both were confirmed by hand — one
+occurrence before, one after, in the page the tool named — and proceeded with per the tool's own
+instruction. `tools/check_page_sizes.py` exits 0: **no breaches, 31 advisory warnings**, which is the
+early-warning band working as designed rather than a backlog. One of the 31 is `Lighting_Design.md`
+itself at 268 lines — it warns now only because its exception was retired, which is the honest
+outcome rather than a regression.

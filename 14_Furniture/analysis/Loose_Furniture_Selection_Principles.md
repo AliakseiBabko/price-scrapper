@@ -26,20 +26,6 @@ The single most repeated topic across all three sources, and the rule got sharpe
 
 ---
 
-## Why a Piece Reads "Designed"
-
-**⚠️ Her strongest general claim: an attractive piece is never accidental** — "он не может быть красивым ни с того ни с сего." She names the causes, and they are checkable against anything in a showroom:
-
-- **Соосность — coaxial alignment** of elements to each other.
-- **Repetition of one form at several scales.** Her worked positive example is a modular sofa whose seat, arms and back are visibly the *same* element at different sizes, with identical radii and identical forms throughout.
-- **Deliberate scale relationships between details** — or a deliberate *contrast* instead. Either is a decision; neither being present is the failure.
-- **⚠️ Equal corner radii at every junction of the piece.** Unequal radii within a single item is her named marker of unconsidered design.
-- **Junction quality (узлы сопряжения деталей)** as the practical tell: visible glue lines, an unresolved corner where an armrest turns into a leg, an unshaped seat.
-
-[sources: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]], [[_Sources/YT_ccZBjb5qIQA_shevrina_choosing_dining_chairs|YT_ccZBjb5qIQA]], [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]]]
-
----
-
 ## Visual Weight — the Lever That Actually Controls Room Size
 
 **⚠️ Contrast of forms is the specific mechanism.** A **thick leg or base under a thin top reads light**; when both are the same thickness the piece reads massive and clutters the room. She works this in both directions across named examples, and notes one table stays visually light *despite* being large purely because of this contrast.
@@ -64,98 +50,25 @@ Related form rule: **don't mix rectangular and round geometry within one piece**
 
 ---
 
-## Finish and Fabric
+## What Makes a Piece Read "Designed"
 
-- **The same frame can be cheapened or lifted by its fabric.** Prefer a textured weave with a visible stitch (рогожка) or a velour with slight tonal variation over a flat monotone.
-- **⚠️ But for a piece meant to stay current indefinitely, avoid decorative topstitching along the seams** — it adds period specificity to an otherwise neutral form.
-- **A cheap light-wood piece betrays itself through construction**: to hit the price the seat is glued up from many small offcuts, which reads untidy in light timber. **The same model in a dark finish hides it** and becomes specifiable.
-- **A top surface finished in a different shade from its base** reads "наигранно, искусственно и не архитектурно — как будто просто какой-то пластик наклеили."
-- **⚠️ Saturated colours lower the perceived status of an interior.** Consistent with the same practitioner's position on bright accents in [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]].
+**Merged 2026-09-02.** This page was FRAGMENTED — many small dated sections, one per processing batch. The sections below were grouped under thematic parents and their original dated headings **demoted from `##` to `###` rather than deleted**, so every attribution and date survives. No prose changed.
 
-[sources: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]], [[_Sources/YT_ccZBjb5qIQA_shevrina_choosing_dining_chairs|YT_ccZBjb5qIQA]], [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
+### Why a Piece Reads "Designed"
 
----
+**⚠️ Her strongest general claim: an attractive piece is never accidental** — "он не может быть красивым ни с того ни с сего." She names the causes, and they are checkable against anything in a showroom:
 
-## "Детскость" — the Disqualifier She Names Most Often
+- **Соосность — coaxial alignment** of elements to each other.
+- **Repetition of one form at several scales.** Her worked positive example is a modular sofa whose seat, arms and back are visibly the *same* element at different sizes, with identical radii and identical forms throughout.
+- **Deliberate scale relationships between details** — or a deliberate *contrast* instead. Either is a decision; neither being present is the failure.
+- **⚠️ Equal corner radii at every junction of the piece.** Unequal radii within a single item is her named marker of unconsidered design.
+- **Junction quality (узлы сопряжения деталей)** as the practical tell: visible glue lines, an unresolved corner where an armrest turns into a leg, an unshaped seat.
 
-**A childish note in a piece disqualifies it from an adult living or dining zone** — fine in a kids' room, wrong in a restrained interior. She raises this as a characteristic weakness of the Russian furniture market specifically, in both the sofa and chair videos: a shortage of "обычных брендов для взрослых серьёзных людей."
-
-Useful as a naming of something buyers often feel but can't articulate about a piece that is otherwise fine on paper.
-
-[sources: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]], [[_Sources/YT_ccZBjb5qIQA_shevrina_choosing_dining_chairs|YT_ccZBjb5qIQA]]]
+[sources: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]], [[_Sources/YT_ccZBjb5qIQA_shevrina_choosing_dining_chairs|YT_ccZBjb5qIQA]], [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]]]
 
 ---
 
-## Mixing In Something Older
-
-Her stated position on adding one non-minimalist element to a restrained interior: **make it mid-century / Bauhaus.** Argument — those pieces have not dated across decades of her own observation (~15 years personally). Named archetypes rather than SKUs: the Wassily chair, Pierre Jeanneret's chair and its interpretations, the CH series. *(Names came through poor ASR and should be verified before sourcing anything.)*
-
-**⚠️ Attached caution: a period chair alone does not deliver the look.** It needs supporting elements from the same period — period lighting, matching low tables, and **more glass with chromed metal**. A single vintage piece in an otherwise plain room reads as an orphan.
-
-[source: [[_Sources/YT_ccZBjb5qIQA_shevrina_choosing_dining_chairs|YT_ccZBjb5qIQA]]]
-
----
-
-## Source Notes
-
-Traceability record kept on its own page — [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]].
-
-## Change Log
-
-Editorial history kept on its own page — [[14_Furniture/analysis/Seating_and_Tables_Change_Log|Change Log]].
-
-<!-- Moved verbatim from 17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md on 2026-09-01: furniture sourcing and object selection belong with the furniture principles, not on a finishes page. -->
-
-## Furniture-Sourcing and Placement Technique (Anuta Vlady, added 2026-08-25)
-
-From a real living-room makeover case (existing furniture to keep/
-reposition, no full renovation):
-
-- **Reverse-image-search technique to recover real furniture dimensions
-  from a client's own photos**: crop/upload the photographed piece into
-  Google Images (or Yandex/Pinterest image search) to find the exact
-  product listing and its real dimensions — used to reconstruct an
-  accurate scale floor plan from photographs alone, without needing the
-  client to measure everything themselves.
-- **Paint a ceiling cornice/molding the same color as the walls, not
-  white/neutral by default** — a contrasting-color cornice visually
-  shortens/cuts off the wall height; a wall-matched cornice preserves
-  perceived height.
-- **Pendant/hanging light fixtures should always be positioned over a
-  supporting surface (table/console), never left floating over open
-  floor space with nothing below them.**
-- **⚠️ Furniture placed along a room's long walls exaggerates an
-  already narrow/elongated room shape** — deliberately break the strict
-  long-wall placement and/or the room's central symmetry axis to make a
-  long narrow room read more balanced/square.
-
-[source: [[_Sources/YT_GfixqWjsD58_anutavlady_living_room_and_small_bedroom_makeover|YT_GfixqWjsD58]]]
-
-## More Furniture-Sourcing/Storage Technique (Anuta Vlady, added 2026-08-25, fourth same-channel video)
-
-- **Surface-mounted track-light retrofit for an off-center ceiling
-  light, no wall/ceiling work required**: a track rail (3m, or joined
-  shorter segments) lets multiple fixture types be mounted wherever
-  light is actually needed — a real no-renovation fix for a light
-  source positioned off to one side instead of centered.
-- **Choose a sofa with a fully finished back on both sides specifically
-  so it can face a functional work zone** — lets a desk read as
-  visually "tucked away" behind the sofa without a physical partition.
-- **Custom shallow (60cm) built storage for utility items (drying rack,
-  vacuum) behind a curtain, hemmed shorter than floor length so a robot
-  vacuum can pass underneath** — a low-cost, made-to-order fix for
-  keeping utilitarian items out of sight without a full closet build.
-- **Buy furniture as individual pieces from different collections, not
-  matched sets** — reads as more current than a uniform bedroom/sofa/
-  dining set.
-
-## Vintage vs. Antique Furniture — a Concrete Age-Based Distinction (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
-
-**⚠️ Vintage (roughly 20-50 years old) is recommended over antique (50+ years) as an accent-furniture sourcing category**, since antiques carry more restoration/authentication risk the source advises against experimenting with — vintage pieces (mirrors, dressers, nightstands, restored or as-is) are more accessibly sourced (e.g. via Avito) and lower-risk. **Vintage rugs** are named as a further accessible accent in the same category. Explicit caution: overdone vintage decor is just as easy to ruin a room with as underdone — moderation matters as much as the sourcing choice itself.
-
-Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
-
-## Why a Piece of Furniture Reads "Designed" (added 2026-08-30, Round 2)
+### Why a Piece of Furniture Reads "Designed" (added 2026-08-30, Round 2)
 
 Stated about furniture but general enough to belong here: **an attractive object is never accidental** — "он не может быть красивым ни с того ни с сего." The causes she names are checkable against anything:
 
@@ -167,7 +80,72 @@ Stated about furniture but general enough to belong here: **an attractive object
 
 Full treatment, with the furniture-specific consequences, on [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]]. [source: [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
 
-## Rug Sizing, Interior Scent, a Four-Layer Decor Framework, and Composition Rules (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+## Finish, Fabric, Materials — and the Disqualifiers
+
+### Finish and Fabric
+
+- **The same frame can be cheapened or lifted by its fabric.** Prefer a textured weave with a visible stitch (рогожка) or a velour with slight tonal variation over a flat monotone.
+- **⚠️ But for a piece meant to stay current indefinitely, avoid decorative topstitching along the seams** — it adds period specificity to an otherwise neutral form.
+- **A cheap light-wood piece betrays itself through construction**: to hit the price the seat is glued up from many small offcuts, which reads untidy in light timber. **The same model in a dark finish hides it** and becomes specifiable.
+- **A top surface finished in a different shade from its base** reads "наигранно, искусственно и не архитектурно — как будто просто какой-то пластик наклеили."
+- **⚠️ Saturated colours lower the perceived status of an interior.** Consistent with the same practitioner's position on bright accents in [[17_Design_and_Ergonomics/analysis/Accent_Walls_and_Pattern_Combination|Accent Walls & Pattern Combination]].
+
+[sources: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]], [[_Sources/YT_ccZBjb5qIQA_shevrina_choosing_dining_chairs|YT_ccZBjb5qIQA]], [[_Sources/YT_rRQ05JAoLtk_shevrina_choosing_dining_and_coffee_tables|YT_rRQ05JAoLtk]]]
+
+---
+
+### "Детскость" — the Disqualifier She Names Most Often
+
+**A childish note in a piece disqualifies it from an adult living or dining zone** — fine in a kids' room, wrong in a restrained interior. She raises this as a characteristic weakness of the Russian furniture market specifically, in both the sofa and chair videos: a shortage of "обычных брендов для взрослых серьёзных людей."
+
+Useful as a naming of something buyers often feel but can't articulate about a piece that is otherwise fine on paper.
+
+[sources: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|YT_GcTaKRQ3QC0]], [[_Sources/YT_ccZBjb5qIQA_shevrina_choosing_dining_chairs|YT_ccZBjb5qIQA]]]
+
+---
+
+### Colored/Retro Appliances, Textured Upholstery, and Synthetic Rugs — a Buying-Guide Bundle (Игорь Краснов, added 2026-09-02, Round 7)
+
+[source: [[_Sources/YT_PiNvT_jnhbw_krasnov_dont_buy_this_furniture|PiNvT_jnhbw]]]
+
+- **⚠️ Colored/retro appliances (names Smeg specifically) — a full critique bundle, flag brand per advertising filter**: replacement/repair difficulty — manufacturers update color palettes over time, so finding a matching replacement color (or matching parts/accessories) years later can be effectively impossible, especially for limited-edition color runs. Color-trend fatigue — a currently-fashionable saturated color (mint, pastel pink) may read as dated once broader interior trends shift, becoming a liability rather than an asset as the surrounding interior evolves. Cost structure — most of a branded colorful appliance's price premium reportedly pays for brand/design rather than functional upgrades (comparable core function exists in cheaper models), and replacement/repair cost is correspondingly high if it breaks. Krasnov's own personal admission — he genuinely loves Smeg aesthetically, but recommends neutral-toned appliances instead for anyone who can't casually absorb replacement cost or wants flexibility as the surrounding interior evolves.
+- **⚠️ Upholstery textured-fabric critique — bouclé and ribbed/textured velvet specifically, genuinely new**: bouclé's knotted/looped surface is prone to snagging on sharp objects or pet claws over time, degrading appearance; ribbed-texture velvet tends to accumulate dust, crumbs, and pet hair, and can retain odors especially in poorly-ventilated rooms. Recommends smooth-surfaced upholstery fabrics instead (linen, cotton, and a smooth-finish velvet explicitly distinguished as an acceptable alternative to the ribbed/textured kind) for durability and easier maintenance.
+- **⚠️ Cheap synthetic rugs — a detailed material-science critique bundle, genuinely new and useful**: viscose and polyester rug fibers have low mechanical durability — visible wear paths/flattened pile/faded pattern appear within about a year in high-traffic zones. Synthetic fibers don't "recover"/spring back after crushing the way natural fibers do. Poor moisture response — can lose shape when wet and stains can become permanently set. Poor UV/light resistance — can visibly fade within a single season under direct sunlight. Recommends natural-fiber rugs instead (wool, cotton, blends with linen or silk) — wool praised for natural elasticity/pile recovery plus natural oils providing inherent stain resistance; cotton/linen praised as easier-care, moisture-tolerant, suitable for households with kids or allergy sufferers.
+- **⚠️ Rug quality-check technique, genuinely new and practical**: part the pile and look at the base fiber color — a genuinely good rug has consistent color all the way down the fiber, while a cheap synthetic rug only has surface-level dye/pigment applied on top. A specific, actionable, in-store quality test. Acknowledges synthetic rugs have a legitimate place for temporary use or frequent style-changing.
+
+`single-account`, `unverified`.
+
+### Acrylic/Plastic Furniture Critique, Mirrored-Surface Durability, and a Faux-Texture Substitution Table (Игорь Краснов, added 2026-09-02, Round 8)
+
+A materials/decor rebuttal video, genuinely rich with specific durability claims and named historical design references. [source: [[_Sources/YT_NAqGs6ygykU_krasnov_7things_wont_do_luxury_designer|NAqGs6ygykU]]]
+
+- **⚠️ Acrylic/plastic furniture critique, with named historical design references — flag per the cultural-reference/advertising filter**: names the **Louis Ghost and La Marie chairs by Philippe Starck**, and the **Panton Chair by Verner Panton**, as culturally iconic examples of the "plastic revolution" that nonetheless behave poorly in real daily use — acrylic clouds/scratches/deforms from load or heat; plastic loses color, becomes brittle, "gives away its composition by touch." Neither ages "nobly" like wood/stone/metal. **Krasnov's stated studio policy: never use acrylic/plastic in active-use zones** — recommends properly-treated glass, solid wood or veneer, or powder-coated metal instead for a similar lightness/transparency effect.
+- **⚠️ Mirrored/glossy furniture-surface durability critique, with concrete timeframes, genuinely new and useful, worth its own entry**: mirrored countertops/cabinet fronts/consoles show first scratches/wear within a few MONTHS of active touch; within **2-3 years** develop a network of micro-defects, cloudy corners, chips — reads as "neglected" rather than luxurious. Recommendation: reserve mirror finish for rare accent use only, never as the primary material for furniture/surfaces subject to regular contact.
+- **⚠️ Faux/imitation-texture furniture-finish critique, a comprehensive rule extending the existing imitation-material critiques (wallpaper-imitating-plaster/brick, Rounds 4/7) to FURNITURE FINISHES specifically, with a concrete substitution table worth recording as a set**: MDF painted to imitate concrete/plastic/stone, deliberately-added sparkle paint, faux rust, or deliberately-distressed "aged" furniture reads as cheap imitation regardless of intent (visible via repeating pattern, visible material seams, or a "plasticky" tactile/paint feel). **Recommended REAL-material substitutes**: instead of paint-imitating-concrete → real mineral plaster or microcement; instead of paint-imitating-metal → real brass or steel that develops genuine chemical-aged patina over time; instead of wood-grain film/vinyl → real veneer or solid wood with brushing/staining techniques; instead of stone-imitation panels → large-format porcelain slab or real stone slab with matched book-matched veining. [Cross-reference: [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]] for the same source's ornate-decor, gold/brass, tile-durability, and murals content, routed there instead as wall/surface-material topics rather than furniture pieces.]
+
+`single-account`, `unverified`.
+
+## Age, Vintage and Mixing Eras
+
+### Mixing In Something Older
+
+Her stated position on adding one non-minimalist element to a restrained interior: **make it mid-century / Bauhaus.** Argument — those pieces have not dated across decades of her own observation (~15 years personally). Named archetypes rather than SKUs: the Wassily chair, Pierre Jeanneret's chair and its interpretations, the CH series. *(Names came through poor ASR and should be verified before sourcing anything.)*
+
+**⚠️ Attached caution: a period chair alone does not deliver the look.** It needs supporting elements from the same period — period lighting, matching low tables, and **more glass with chromed metal**. A single vintage piece in an otherwise plain room reads as an orphan.
+
+[source: [[_Sources/YT_ccZBjb5qIQA_shevrina_choosing_dining_chairs|YT_ccZBjb5qIQA]]]
+
+---
+
+### Vintage vs. Antique Furniture — a Concrete Age-Based Distinction (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
+
+**⚠️ Vintage (roughly 20-50 years old) is recommended over antique (50+ years) as an accent-furniture sourcing category**, since antiques carry more restoration/authentication risk the source advises against experimenting with — vintage pieces (mirrors, dressers, nightstands, restored or as-is) are more accessibly sourced (e.g. via Avito) and lower-risk. **Vintage rugs** are named as a further accessible accent in the same category. Explicit caution: overdone vintage decor is just as easy to ruin a room with as underdone — moderation matters as much as the sourcing choice itself.
+
+Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_V8c6mwdvpX0_kruglov_13_budget_solutions_expensive|YT_V8c6mwdvpX0]]]
+
+## Rugs, Proportion and Composition
+
+### Rug Sizing, Interior Scent, a Four-Layer Decor Framework, and Composition Rules (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 - **⚠️ Rug-sizing rule tied to furniture placement, plus a bedroom-specific variant**: every major piece in a furniture grouping (sofa, armchair, coffee table) should have at least its two front legs resting on the rug, so the rug visually binds the grouping into one composition. **Bedroom version**: the rug should be large enough that stepping out of bed lands on it and the walk to the door stays on it — a rug so small only part of a footstep lands on it is worse than no rug at all, since it highlights the mismatch.
 - **Interior scent as a deliberate decor layer, with a strong "don't do it badly" caution**: a deliberately chosen ambient scent (tabletop diffuser, scented candle, or a track-mounted automatic dispenser for a larger budget) is a real, distinct layer of an "expensive" interior — but an ill-matched or overpowering scent can make a whole apartment read as a public restroom; better to skip the layer entirely than execute it carelessly.
@@ -177,26 +155,7 @@ Full treatment, with the furniture-specific consequences, on [[14_Furniture/anal
 
 Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_qPi_0cW7aHI_kruglov_expensive_interior_10_rules|YT_qPi_0cW7aHI]]]
 
-
-## Mixing Classic and Contemporary at the Piece Level, and Three Decor-Pairing Rules (Anuta Vlady, moved here 2026-09-01)
-
-*These four rules had been wedged beneath an unrelated curtain heading on the decor page since 2026-08-25 — a filing error, corrected in the 2026-09-01 split. Moved verbatim. The venetian-blind maintenance point is cross-referenced from [[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Curtains & Window Treatments]].*
-- **When mixing classic and contemporary styles, blend at the
-  individual-piece level, not the whole-zone level** — pair a classic
-  table with contemporary chairs (or vice versa) rather than placing an
-  untouched modern zone beside an untouched classic zone.
-- **Use an existing rug's full color palette (not just its dominant
-  tone) as the source for new upholstery/chair color choices.**
-- **Vertical/venetian blinds are a maintenance burden (dust, hard to
-  clean) vs. a washable, removable Roman shade**, which also reads more
-  cohesive alongside classic-style decor.
-- **Combine two small matching decor pieces into one shared mat/frame**
-  rather than framing separately — reduces visual clutter, reads as one
-  unified element.
-
-[source: [[_Sources/YT_S3Mn1FvQhKI_anutavlady_two_kitchen_living_no_renovation|YT_S3Mn1FvQhKI]]]
-
-## Proportion, Rugs, and a One-Line Test for a Seating Layout (Надежда Кузина, added 2026-09-01, Round 5)
+### Proportion, Rugs, and a One-Line Test for a Seating Layout (Надежда Кузина, added 2026-09-01, Round 5)
 
 ### ⚠️ Proportion — three failure shapes and two rules
 
@@ -224,58 +183,7 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 
 **A single checkable test for any seating layout.** A central coffee table plus side tables improve both design and function. **⚠️ And in a bedroom, where no nightstand fits, provide another surface — for instance behind the headboard.**
 
-## Round 4 Additions — Verification Method, Storage-vs-Aesthetics Tradeoffs, Custom-vs-Stock, and a Base/Accent Framework (Игорь Краснов, added 2026-09-01)
-
-Several distinct additions from three Round 4 sources, kept under one heading so this page does not fragment.
-
-### ⚠️ Furniture-purchase verification method
-
-**Extends this vault's existing tape-measure/painter's-tape mock-up content (Round 2, `7CIZQ-pxNl4`).** Never buy furniture from a photo alone — always plot the piece to-scale on the ACTUAL floor plan first and verify real walkways, door-swing clearance, and ergonomic access before purchasing. Concrete, quotable framing: **"one evening spent on planning saves a month of redoing."** Furniture should never visually block window/door sightlines or interrupt a room's "light axes" — keep clear sightlines to windows/doors when placing large furniture. `single-account`, `unverified`. [source: [[_Sources/YT_HnIsWX96g6o_krasnov_7gross_decorating_mistakes|HnIsWX96g6o]]]
-
-### ⚠️ Clothing rails/garment racks
-
-Appropriate only for short-term/temporary living situations (moving, just-moved-in, very young/indifferent occupant); otherwise waste vertical storage volume (same footprint as a full wardrobe, but doesn't use the space above) and create visual clutter (displayed clothes rarely colour-coordinated). [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
-
-### ⚠️ Custom vs. stock furniture — a specific mechanism
-
-A niche/alcove of, say, 500mm gets an EXACT custom-built cabinet, whereas stock cabinets typically only come in 450mm or 600mm increments, forcing either a wasted gap or an overhang. Custom costs more upfront but **"you pay twice" with stock furniture** due to wasted usable space. A rental-budget alternative: custom-built in cheap LDSP (particleboard) with basic hardware can match stock furniture's price while using space far better — hardware/fitting cost, not carcass material, is the adjustable lever. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
-
-### ⚠️ Furniture without built-in storage — a deliberate aesthetics-vs-function tradeoff, not a universal mistake
-
-Leggy/airy furniture (no built-in storage) reads more spacious because visible floor space under it registers as "free" to the eye — but this trades off against real storage capacity (storage ottomans, drawer-base sofas/beds, lift-mechanism beds). Frame this explicitly as a household priority decision, not a mistake either way. [source: [[_Sources/YT_Gs-g7kR_7bI_krasnov_10things_steal_space|Gs-g7kR_7bI]]]
-
-### ⚠️ "Reliable base vs. swappable accent" — a genuinely reusable planning framework
-
-**Its own section, per this vault's own assessment that it's a genuinely valuable, reusable planning principle.** Distinguish BASE elements (built-in wardrobe, kitchen cabinetry, large furniture) that are expensive/disruptive to change later, from ACCENT elements (bedspread, curtains, pillows, textiles — his phrase, "swappable batteries") that are cheap and easy to change seasonally or for mood. Recommends building base furniture as neutral, durable, and — specifically for a wardrobe — **floor-to-ceiling and flush with the wall** ("до потолка... заподлицо") — a wardrobe that doesn't reach the ceiling forces a costly full redo later if you want to change it — while treating textiles as the flexible layer you actually rotate. [source: [[_Sources/YT_DT_IjSALrX0_krasnov_5tricks_avoid_regret|DT_IjSALrX0]]]
-
-### ⚠️ Timeless furniture design pedigree (flag per the advertising/brand-mention filter)
-
-Frameless/backless sofas ("бескаркасные диваны") flagged as a fad likely to be "yesterday's news" within a year or two — recommends choosing furniture with genuine design pedigree instead. **Names two specific real, historically significant design pieces: the Eames chair (produced since the late 1940s) and the Barcelona chair by Ludwig Mies van der Rohe (~100 years old)** — both cited as proof that well-designed furniture remains desirable across generations regardless of trend cycles. **Flagged per this vault's advertising/brand-mention filter**: these are real design-history references, not his own invention or a specific vendor plug — but the recommendation to seek them out specifically is his own advice, so the mention is tagged even though it's a generic "classic design" reference rather than a self-interested product endorsement. [source: [[_Sources/YT_DT_IjSALrX0_krasnov_5tricks_avoid_regret|DT_IjSALrX0]]]
-
-`single-account`, `unverified`.
-
-## Colored/Retro Appliances, Textured Upholstery, and Synthetic Rugs — a Buying-Guide Bundle (Игорь Краснов, added 2026-09-02, Round 7)
-
-[source: [[_Sources/YT_PiNvT_jnhbw_krasnov_dont_buy_this_furniture|PiNvT_jnhbw]]]
-
-- **⚠️ Colored/retro appliances (names Smeg specifically) — a full critique bundle, flag brand per advertising filter**: replacement/repair difficulty — manufacturers update color palettes over time, so finding a matching replacement color (or matching parts/accessories) years later can be effectively impossible, especially for limited-edition color runs. Color-trend fatigue — a currently-fashionable saturated color (mint, pastel pink) may read as dated once broader interior trends shift, becoming a liability rather than an asset as the surrounding interior evolves. Cost structure — most of a branded colorful appliance's price premium reportedly pays for brand/design rather than functional upgrades (comparable core function exists in cheaper models), and replacement/repair cost is correspondingly high if it breaks. Krasnov's own personal admission — he genuinely loves Smeg aesthetically, but recommends neutral-toned appliances instead for anyone who can't casually absorb replacement cost or wants flexibility as the surrounding interior evolves.
-- **⚠️ Upholstery textured-fabric critique — bouclé and ribbed/textured velvet specifically, genuinely new**: bouclé's knotted/looped surface is prone to snagging on sharp objects or pet claws over time, degrading appearance; ribbed-texture velvet tends to accumulate dust, crumbs, and pet hair, and can retain odors especially in poorly-ventilated rooms. Recommends smooth-surfaced upholstery fabrics instead (linen, cotton, and a smooth-finish velvet explicitly distinguished as an acceptable alternative to the ribbed/textured kind) for durability and easier maintenance.
-- **⚠️ Cheap synthetic rugs — a detailed material-science critique bundle, genuinely new and useful**: viscose and polyester rug fibers have low mechanical durability — visible wear paths/flattened pile/faded pattern appear within about a year in high-traffic zones. Synthetic fibers don't "recover"/spring back after crushing the way natural fibers do. Poor moisture response — can lose shape when wet and stains can become permanently set. Poor UV/light resistance — can visibly fade within a single season under direct sunlight. Recommends natural-fiber rugs instead (wool, cotton, blends with linen or silk) — wool praised for natural elasticity/pile recovery plus natural oils providing inherent stain resistance; cotton/linen praised as easier-care, moisture-tolerant, suitable for households with kids or allergy sufferers.
-- **⚠️ Rug quality-check technique, genuinely new and practical**: part the pile and look at the base fiber color — a genuinely good rug has consistent color all the way down the fiber, while a cheap synthetic rug only has surface-level dye/pigment applied on top. A specific, actionable, in-store quality test. Acknowledges synthetic rugs have a legitimate place for temporary use or frequent style-changing.
-
-`single-account`, `unverified`.
-
-## Acrylic/Plastic Furniture Critique, Mirrored-Surface Durability, and a Faux-Texture Substitution Table (Игорь Краснов, added 2026-09-02, Round 8)
-
-A materials/decor rebuttal video, genuinely rich with specific durability claims and named historical design references. [source: [[_Sources/YT_NAqGs6ygykU_krasnov_7things_wont_do_luxury_designer|NAqGs6ygykU]]]
-
-- **⚠️ Acrylic/plastic furniture critique, with named historical design references — flag per the cultural-reference/advertising filter**: names the **Louis Ghost and La Marie chairs by Philippe Starck**, and the **Panton Chair by Verner Panton**, as culturally iconic examples of the "plastic revolution" that nonetheless behave poorly in real daily use — acrylic clouds/scratches/deforms from load or heat; plastic loses color, becomes brittle, "gives away its composition by touch." Neither ages "nobly" like wood/stone/metal. **Krasnov's stated studio policy: never use acrylic/plastic in active-use zones** — recommends properly-treated glass, solid wood or veneer, or powder-coated metal instead for a similar lightness/transparency effect.
-- **⚠️ Mirrored/glossy furniture-surface durability critique, with concrete timeframes, genuinely new and useful, worth its own entry**: mirrored countertops/cabinet fronts/consoles show first scratches/wear within a few MONTHS of active touch; within **2-3 years** develop a network of micro-defects, cloudy corners, chips — reads as "neglected" rather than luxurious. Recommendation: reserve mirror finish for rare accent use only, never as the primary material for furniture/surfaces subject to regular contact.
-- **⚠️ Faux/imitation-texture furniture-finish critique, a comprehensive rule extending the existing imitation-material critiques (wallpaper-imitating-plaster/brick, Rounds 4/7) to FURNITURE FINISHES specifically, with a concrete substitution table worth recording as a set**: MDF painted to imitate concrete/plastic/stone, deliberately-added sparkle paint, faux rust, or deliberately-distressed "aged" furniture reads as cheap imitation regardless of intent (visible via repeating pattern, visible material seams, or a "plasticky" tactile/paint feel). **Recommended REAL-material substitutes**: instead of paint-imitating-concrete → real mineral plaster or microcement; instead of paint-imitating-metal → real brass or steel that develops genuine chemical-aged patina over time; instead of wood-grain film/vinyl → real veneer or solid wood with brushing/staining techniques; instead of stone-imitation panels → large-format porcelain slab or real stone slab with matched book-matched veining. [Cross-reference: [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative & Specialty Wall Finishes]] for the same source's ornate-decor, gold/brass, tile-durability, and murals content, routed there instead as wall/surface-material topics rather than furniture pieces.]
-
-`single-account`, `unverified`.
-
-## Rug Layering, and a Restoration Hardware "Cloud" Sofa Mention (Игорь Краснов, added 2026-09-02, Round 8)
+### Rug Layering, and a Restoration Hardware "Cloud" Sofa Mention (Игорь Краснов, added 2026-09-02, Round 8)
 
 A generic secrets-format video, thin overall (see the source note's honest low-yield assessment) — this is the one genuinely new technique from it. [source: [[_Sources/YT_oPZRWj6Og64_krasnov_6design_secrets_experts|oPZRWj6Og64]]]
 
@@ -286,19 +194,7 @@ A generic secrets-format video, thin overall (see the source note's honest low-y
 
 `single-account`, `unverified`.
 
-## Furniture Built to the Owner's Own Body Dimensions — a Brief Mention (Игорь Краснов, added 2026-09-02, Round 8)
-
-From a celebrity real-estate trivia video otherwise confirmed weak (`fact_yield: 3`) — see the source note. Recorded briefly as the one genuinely extractable furniture-personalization concept in it. [source: [[_Sources/YT_KgIXLmCShsU_krasnov_worlds_richest_homes|KgIXLmCShsU]]]
-
-**Furniture built to the specific occupant's own body dimensions**, rather than standard sizing — a real, if extreme, personalization concept ("мебель сделана под его рост"), described in an anonymous high-end residence. `single-account`, `unverified`, brief mention only.
-
-## Nightstand/Desk Height Detail (Игорь Краснов, real Futurist 75m² project, added 2026-09-02, Round 8)
-
-Krasnov's own studio's real completed project. [source: [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
-
-**Nightstand/desk height: 750mm** — a bedroom toilette/work table set to this height explicitly to match standard kitchen-counter/desk ergonomics ("если бы мы с вами сидели на кухне, там тоже те же самые размеры"). `single-account`, `unverified`.
-
-## ⚠️ Rug Investment Rules, Glass/Acrylic "Eye Needs Anchors," Decor Books, and Named Low-Maintenance Plants (Игорь Краснов, added 2026-09-02, Round 9)
+### ⚠️ Rug Investment Rules, Glass/Acrylic "Eye Needs Anchors," Decor Books, and Named Low-Maintenance Plants (Игорь Краснов, added 2026-09-02, Round 9)
 
 **Genuinely rich, corroborates several Round 8 findings while adding new specific items.** [source: [[_Sources/YT_tLT1ohlm68c_krasnov_dont_buy_these_replacements|tLT1ohlm68c]]]
 
@@ -310,3 +206,31 @@ Krasnov's own studio's real completed project. [source: [[_Sources/YT_uPNKwSkxtK
 - **⚠️ Excessive metallic/reflective surfaces — corroborates the Round 8 gold/brass-overuse critique closely (near-verbatim reasoning: visual noise, no place for the eye to rest, recommends metal as a limited accent — e.g. a pair of brass lamps — paired with matte/soft-textured materials)** — recorded as a corroborating cross-round data point, not a new finding.
 
 `single-account`, `unverified`. `corroborates_existing: true` for the acrylic-furniture wear-and-tear reference and the metallic-overuse critique (both restate Round 8's `NAqGs6ygykU`); the rug rules, decor-books critique, and named plants are genuinely new.
+
+## Furniture Sized to the Body
+
+### Furniture Built to the Owner's Own Body Dimensions — a Brief Mention (Игорь Краснов, added 2026-09-02, Round 8)
+
+From a celebrity real-estate trivia video otherwise confirmed weak (`fact_yield: 3`) — see the source note. Recorded briefly as the one genuinely extractable furniture-personalization concept in it. [source: [[_Sources/YT_KgIXLmCShsU_krasnov_worlds_richest_homes|KgIXLmCShsU]]]
+
+**Furniture built to the specific occupant's own body dimensions**, rather than standard sizing — a real, if extreme, personalization concept ("мебель сделана под его рост"), described in an anonymous high-end residence. `single-account`, `unverified`, brief mention only.
+
+### Nightstand/Desk Height Detail (Игорь Краснов, real Futurist 75m² project, added 2026-09-02, Round 8)
+
+Krasnov's own studio's real completed project. [source: [[_Sources/YT_uPNKwSkxtKg_krasnov_futurist_75m2_tour|uPNKwSkxtKg]]]
+
+**Nightstand/desk height: 750mm** — a bedroom toilette/work table set to this height explicitly to match standard kitchen-counter/desk ergonomics ("если бы мы с вами сидели на кухне, там тоже те же самые размеры"). `single-account`, `unverified`.
+
+## Sourcing and placement technique — moved to its own page
+
+See **[[14_Furniture/analysis/Furniture_Sourcing_and_Placement_Technique|Furniture Sourcing and Placement Technique]]**. This page keeps the selection *principles* — legs, visual weight, what makes a piece read "designed", finish and fabric, and the disqualifiers.
+
+## Source Notes
+
+Traceability record kept on its own page — [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]].
+
+## Change Log
+
+Editorial history kept on its own page — [[14_Furniture/analysis/Seating_and_Tables_Change_Log|Change Log]].
+
+<!-- Moved verbatim from 17_Design_and_Ergonomics/analysis/Decor_and_Finish_Selection_Technique.md on 2026-09-01: furniture sourcing and object selection belong with the furniture principles, not on a finishes page. -->
