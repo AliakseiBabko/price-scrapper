@@ -91,6 +91,20 @@ column) allow quick troubleshooting access** — if something electrical goes
 wrong, a drawer can be pulled to reach the outlet rather than needing to
 move the appliance. [source: [[_Sources/YT_JsRvUMfIPwc_inmyroom_22_secrets_washer_placement|INMYROOM TV]]]
 
+## ⚠️ Drying Is Omitted From the Brief and Then Cannot Be Retrofitted (Ксения, space organiser, and Александр Сенчугов, via NSDSGN)
+
+**This page's Electrical section already says to count outlets per planned appliance. This is the failure that happens when drying never reaches the brief at all — and it is recorded from inside a professional space organiser's own flat, which is what makes it worth keeping.** [source: [[_Sources/YT_9ZwqMKiMgvc_nsdsgn_storage_organiser_family_flat|YT_9ZwqMKiMgvc]]]
+
+**The case:** she has **no dryer. They did not allow for one during the renovation, and technical constraints now prevent adding one** — «сейчас уже есть технические особенности, которые нам не позволяют это сделать». A drying rack therefore stands **permanently in the bedroom**, which she calls «арт-объект», drying **bedding and all clothing, not only linen**. «Некуда поставить больше. Это жизнь.»
+
+**⚠️ The generalisation is the designer's, and it names the sequence precisely**: clients complete a design project, **order an ordinary washing machine, never consider drying at all**, and remember only after moving in — at which point the rack appears «в самом неожиданном месте».
+
+**→ The rule: state the laundry equipment explicitly in the ТЗ — washer, dryer, drying cabinet, or washer-dryer. If there is deliberately none, then plan where the rack lives.** Not planning it does not remove the drying; it relocates it to whichever room has floor space, permanently. He adds that clients frequently also ask for an **ironing board**, which likewise needs an allocated place.
+
+**A second, related retrofit failure in the same flat**: the treadmill. The host's standing view is that treadmills become clothes racks; here she genuinely uses it — trainers and a tablet stand beside it — **but because it was never planned it stands on a mat over a radiator and looks poor.** **The pattern is the same: an unbriefed appliance still arrives, and then occupies the least appropriate spot.**
+
+**⚠️ And the knock-on effect on the bathroom, which she calls «вторая проблемная точка после прихожей»**: because the washing machine lives there, **all the sportswear and sports bags settle there too**, and sports clothing is being dried there continuously — the radiator is not sufficient. She added a separate plastic chest of drawers purely for sportswear. **So an unplanned drying strategy does not stay a laundry problem; it becomes a bathroom storage problem.** Cross-reference [[09_Laundry_Room/analysis/Placement_Comparison_by_Room_Type|Placement Comparison by Room Type]] and the intake discussion in [[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family Scenario Driven Design]], which records the same host building a dedicated laundry-and-shower санузел for one family's hockey kit once the scenario *was* briefed.
+
 ## Dryer Lint Is Normal, Not a Damage Signal (Konstantin Kruglov / Ontario, added 2026-08-28, Round 16)
 
 **A visible buildup of lint/fabric fuzz after each drying cycle does not by itself mean the dryer is damaging clothing.** Kruglov's own framing: that lint and fuzz shed from clothing/textiles over time regardless of whether a tumble dryer is used at all — a dryer's lint trap simply collects and concentrates it in one visible place rather than letting it disperse invisibly through the apartment. **A genuine, distinct caveat**: a good-quality dryer is gentler on fabric than a poor one, so drum/cycle quality does still affect *how much* extra wear the clothing takes — but the mere presence of trapped lint after a cycle isn't itself evidence of that. `single-account`, `unverified`. [source: [[_Sources/YT_iEm_mwCJpfA_kruglov_dust_free_interior_guide|YT_iEm_mwCJpfA]]]

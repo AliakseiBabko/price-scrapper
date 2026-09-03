@@ -50,6 +50,38 @@ comparable hired-labor self-managed cost).
 
 Two primary Minsk **turnkey** benchmarks exist: a real $54,000 / $900-per-m² 60 m² project (2025, [[11_Budget_and_Planning/case_studies/minsk_world_60m2_design_cost_case|Minsk World Case Study]]) and a real $70,000 / $1,346-per-m² 52 m² project (2026, [[11_Budget_and_Planning/case_studies/7komnat_novaya_borovaya_52m2_case|7komnat.by Novaya Borovaya Case Study]]). Both are individually above-typical *turnkey* projects by their own sources' framing — **don't average them into one "Minsk $/m²" figure**, and don't treat either as a self-managed budget target. One Minsk contractor's own stated 2026 market guidance (single-source, not independently verified, also turnkey-framed): ~$1,000/m² typical, $700–800/m² achievable with a simplified/budget approach.
 
+### ⚠️ 2.0b Генподряд — the third delivery model, and the area threshold where it starts to matter
+
+**This section has held a two-way turnkey/self-managed distinction. A contractor of 30+ years supplies the middle term and, more usefully, a stated threshold.** [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
+
+- **Definition he gives**: one legal entity holds the whole scope; **every смежник on
+  the project is contractually under it**; it accepts their work, sequences who comes
+  when — «как дирижёр оркестра» — bears responsibility for the result, and **takes a
+  percentage for that control.** So it is neither the bundled design-through-furnishing
+  turnkey product above, nor self-management: **the coordination is bought, the design
+  is not necessarily.**
+- **⚠️ Threshold: around 300 m², or a two-storey flat.** Below that — his example is
+  «однушка в Кудрово» — it is pointless. **At that scale he says separate brigades and
+  independently-hired subcontractors «работают очень плохо»**, and this is the first
+  area figure this vault has for when coordination overhead stops being optional.
+  **Directly relevant as a negative: this project is far below that threshold, so the
+  self-managed plan is not being argued against here.**
+- **What the percentage actually buys, mechanically**: an established team passes
+  information along the chain, **resolves breakage internally instead of blame-shifting
+  across a client standing between two trades**, and knows who is capable of what.
+  Without it, «никто ни за что не отвечает, каждый сам за себя».
+- **The sequencing point is the part that generalises below the threshold**: somebody
+  must own the order of trades, because a crew will rush ahead when it should pause for
+  electrics and then ventilation. **In a self-managed project that owner is the client**
+  — which is the cost of the model, stated from the other side. Cross-reference
+  [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]].
+- **⚠️ Tier-steering flag, stated openly by him**: he sells this scheme and says «я
+  стараюсь на все большие объекты проталкивать именно такую схему». **The mechanism is
+  recorded; the recommendation is not treated as neutral.** His stated client-side
+  benefit — one point of contact, roughly monthly discussions, one accountable person,
+  and «все переделки, все проблемы вы никогда об этом не узнаете» — is simultaneously
+  the genuine value proposition and the pitch.
+
 ### 2.0a Price-per-m² as a budgeting shorthand (Игорь Краснов, added 2026-09-01)
 
 **⚠️ A turnkey studio owner's own stated caution, worth reading alongside — and as a corroboration of — this guide's §2.1 below**: price-per-square-meter says nothing about what's actually included (finish tier, engineering complexity, furniture, lighting design), so two quotes at the same nominal RUB/m² figure can describe completely different scopes. Recorded as his opinion (and, notably, in his own commercial interest to make, since it argues for a bundled/managed quote over a bare rate comparison rather than for this project's own self-managed itemized approach) — but the underlying caution, that a bare price/m² figure needs its scope specified before it's usable for comparison, is sound and consistent with this guide's own delivery-model distinction above. `single-account`, `unverified`. [source: [[_Sources/YT_Z29a16kpLVc_krasnov_interior_wont_work|Z29a16kpLVc]]]

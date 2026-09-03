@@ -766,3 +766,45 @@ legitimate.
 and the old relative `store/_index.md`. **These are historically correct: that is where the content
 went, under the name the page had at the time.** Rewriting them would falsify the record to make a
 checker happy. Left as-is, per the standing practice on historical records.
+
+---
+
+## 2026-09-03 — `@YourInteriorDes` / NSDSGN Round 1 trial (Group B entry #4), 6 sources, 172 new facts
+
+**Channel preflighted for the first time: 220 videos, 220 fresh, 0 duplicates.** Triage, trial design and verdict in `_Inbox/planning/yourinteriordes_channel_triage_20260903.md`; batch state in `_Inbox/planning/batch_status_20260903_yourinteriordes_round1.json`.
+
+**Round 1 yield**: 6 videos processed, **172 new facts, yield = 28.7 new facts per processed video** — the highest single-round yield recorded for any channel in this vault. All 6 fetched serialized, `--languages ru` forced, zero rate-limit signatures.
+
+| ID | Topic | `fact_yield` | `promotional_ratio` | Outcome |
+| :-- | :-- | :-- | :-- | :-- |
+| `M0Wv4SOSUhs` | Builder Q&A — cost tiers, смета, генподряд | **34** | low | Full |
+| `9ZwqMKiMgvc` | Space organiser's own flat — storage | **33** | low | Full |
+| `gTgUJaWKobM` | Stretch ceilings, теневое примыкание | **31** | medium | Full |
+| `-6QKr4HerCQ` | 25 kitchen ordering mistakes | 28 | medium | Full |
+| `ZKAcnh4kKfY` | Lighting podcast — colour temperature, gear | 27 | low | Full |
+| `pR1t7zlT2Qk` | Glass partitions, 10 myths | 19 | **high** | Full |
+
+### Pages touched (step 5a, same session as extraction)
+
+`12_Engineering_and_Systems/analysis/Lighting_Design.md` (Kruithof curve under the existing Colour Temperature section) · `12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings.md` (driver failure rates, dimming, secondary optics, replicas, integrated-LED chandelier disposability) · `13_Surfaces_and_Finishes/analysis/Ceiling_Type_Comparison_and_Cost.md` (shadow-gap detailing, the 27 mm correction, Jan-2023 price set, sag, spans, clearances) · `11_Budget_and_Planning/analysis/Cost_Benchmarks_Live_Intake.md` (the SPb/Moscow tier ladder) · `11_Budget_and_Planning/analysis/Bill_of_Quantities_and_Procurement.md` (смета granularity, door exclusion, 10% drift, material volatility) · `11_Budget_and_Planning/analysis/Contract_Practice.md` (vetting, advance mechanics, cheap-quote abandonment, escrow-as-gap, client-supplied subcontractors, supplier stability, client site presence, late-question cost) · `11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models.md` (генподряд as the third delivery model, ~300 m² threshold) · `11_Budget_and_Planning/analysis/Design_Services_and_Fees.md` (авторский надзор and its failure mode) · `11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling.md` (fourth duration figure, supply-not-curing bottleneck, ceiling lead time) · `11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium.md` (never-economise stated as a trade-off) · `03_Kitchen/analysis/Layout_Sizing_and_Ergonomics.md` (working clearances, two-tier upper retired) · `03_Kitchen/analysis/Kitchen_Cost_and_Priorities.md` (the costing-ratio set) · `03_Kitchen/analysis/Storage_and_Hardware.md` (spend-by-frequency, production-drawing check, pull-outs and the corner) · `03_Kitchen/analysis/Appliance_Integration.md` (top-clearance divergence, perforation mechanism, appliances-first, under-sink contention) · `17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design.md` (the organiser's scope-limit claim and the current-home intake method) · `17_Design_and_Ergonomics/analysis/Room_Zoning_Partition_Methods.md` (glazed-divider acoustics, spans, cost structure) · `09_Laundry_Room/analysis/Common_Mistakes.md` (drying omitted from the brief and then unretrofittable).
+
+**Seventeen pages across seven folders.** No new pages created — every sub-topic had an existing home, and nothing crossed the 3+-source page-creation threshold.
+
+### ⚠️ Two traps found during triage, both generalisable beyond this channel
+
+1. **A channel can serve auto-translated metadata, and this one does.** `yt-dlp` returned English titles by default («ПОЧЕМУ ДОМАШНИЕ КИНОТЕАТРЫ — ЭТО КОЛХОЗ» came back as "WHY HOME THEATERS ARE A COLLECTIVE FARM") until `--extractor-args youtube:lang=ru` was forced. **This is the first *observed* instance of the standing-rule-1 trap in this vault rather than a guarded-against one, and it argues for making the Russian-title check a standard preflight step.** All six fetches used `--languages ru` and were confirmed genuinely Russian: 2 manual caption tracks, 4 Russian ASR, none translated.
+2. **View counts were pure noise on this channel** — an 81-minute expert Q&A at 14 views against a 4-minute Ferrari vlog at 659 — so ranking by them would have systematically buried the only content worth processing. Format and subject were the only usable signals.
+
+### ⚠️ Corrections and divergences this round produced, which matter more than the additions
+
+- **`Ceiling_Type_Comparison_and_Cost.md` carried "does not yellow" on a virgin-pellet material argument. This source concedes yellowing from smoke over time.** The two are reconcilable — material ageing versus soiling — but the page should not carry the claim unqualified, and now says so.
+- **The 27 mm stretch-ceiling drop is measured from the lowest existing obstruction, not from the slab.** The host extracted that correction on camera against a pushback about junction boxes. **Recorded explicitly because the page's existing ceiling-drop ranking is slab-referenced, and the two quantities must not be compared.**
+- **A real divergence on fridge top clearance, left unreconciled: 300–500 mm here against Кузина's 200 mm** already on `Appliance_Integration.md`. Neither source states how the figure was derived, so both are recorded with a note to take the larger where the cabinetry allows.
+- **A dB claim corrected inline**: the partition manufacturer glosses 50 dB as «в половину». Decibels are logarithmic; only his interpretation is flagged, the ratings themselves are ordinary product specifications.
+- **A genuine counter-data-point on ЛДСП and moisture**, recorded with its informality stated: a self-built shoe rack in the cheapest board with edges entirely unsealed, wet winter shoes, no swelling. One uninstrumented household observation, not a durability test — but direct field evidence against the blanket «ЛДСП всё» claim.
+
+### ⚠️ The verdict on the round's real question
+
+**Group B's premise is that a design/room-tour channel may yield nothing transcript-extractable. This channel breaks it the same way Шеврина/SMBUREAU did — but for a different and more specific reason: the content is carried by named guests, not by the host.** Four of six are guest formats, and the two highest-yield sources are a contractor and two lighting specialists. **Twice in six videos the host publishes expert testimony that limits his own professional authority** — a space organiser stating a designer «вряд ли мог» have foreseen storage, and two lighting specialists describing the designer as a generalist who must refer out, which he endorses on camera. **That is behavioural evidence about the channel's trustworthiness, not a judgement about tone.**
+
+**The caveat that must travel with it: this is a premium design-*build* studio, so it sells the whole renovation and the description names the steering risk itself («премиум класса»).** The one clean failure is `pR1t7zlT2Qk`, which promises to answer «дорого или нет?» about glass partitions and never states a price — the highest promotional ratio of the round, and the sharpest test the trial was designed to run.

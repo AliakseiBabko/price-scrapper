@@ -142,6 +142,21 @@ The rule above arrived as an assertion. **Реньжин supplies the physiology
 
 Two further reasons Шеврина gives for neutral as the *main* light: warm light is strongly relaxing and sleep-inducing, which is wrong if you want to work in the evening; and **neutral light does not distort the flat's colours**, so it will not push already-warm walls further yellow when the main light comes on. [source: [[_Sources/YT_NfHyCfo1J4w_shevrina_lighting_mistakes|YT_NfHyCfo1J4w]]]
 
+### ⚠️ The Kruithof curve — the coupling rule that explains most of this section
+
+**This page's separate figures — warm for dim living rooms, 4000 K for a bright worktop, "if 4000 K feels too bright take 4000 K with fewer lumens" — are all consequences of one relationship, and lighting supplier Константин Цепелев (practising since 2006) and lighting designer Матвей Борисов name it: the Kruithof curve**, relating luminous flux to colour temperature. (The ASR transcript renders it «кривая Крит хофа»; the referent is unambiguous.)
+
+**The rule: the brighter the light, the cooler it should be. The more dimmed the light, the warmer it should be.** Stated by them against illuminance: at office norms of **500, 600, 700 up to 1000 lux** the colour temperature must rise; drop the illuminance to **200, 300, 150, 100 lux** and the colour temperature must fall.
+
+**Why this is worth having as a rule rather than as a table**: it makes the worktop figure derivable instead of conventional. A cooking zone is light-*intensive*, so **4000 K is the comfortable choice there because of the brightness, not because it is a kitchen** — and domestic lighting elsewhere is mostly not bright, which is why the rest of the home is warm. It also sharpens this page's own "do not confuse warm with soft" correction above: taking 4000 K with fewer lumens is moving *against* the curve, so it works only within limits.
+
+**Two further refinements from the same source:**
+
+- **A height rule: the higher the luminaire, the cooler it may be; the closer to the eyes, the warmer it should be.** Recorded as their «гистограмма» framing, `single-account`.
+- **A latitude argument for the warm residential default this page already holds.** At this latitude the dominant daylight coming off the sky is bluer, so warmer artificial light suits people here. They contrast Dubai and Thailand, where «уют достигается наоборот холодом» — and the host reports finding those interiors actively uncomfortable. **Recorded as a rationale for the existing default, not a new figure**, `unverified`.
+
+Their own residential figures — **3000 K, sometimes 3500 K, and 2700–3000 K in some cases, with 4000 K over the worktop** — are straightforward corroboration of this section's existing range from a fourth independent channel. [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
+
 ### Per-room refinements
 
 | Zone | Temperature | Note |

@@ -41,6 +41,34 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 
 `single-account`, `unverified`. [source: [[_Sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|YT_Ubl--73gmTs]]]
 
+### ⚠️ Working Clearances, Each With Its Failure Mode (Александр Сенчугов / NSDSGN, 2025-07-22)
+
+**This section has held module and height standards; these are the in-use gaps between fixtures.** Every figure below is offered with the specific thing that goes wrong without it, which is what makes them checkable rather than conventional. [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
+
+| Clearance | Figure | Failure mode without it |
+| :--- | :--- | :--- |
+| **Hob to adjacent furniture or fridge** | **minimum 300 mm** | Too cramped to cook, **and you permanently soil the fridge side or the cabinet housing it with food and steam** |
+| **Sink to hob** | **600 mm absolute minimum (his own home); 1,000 mm ideal** | No room to lay out food, set a board, cut, or put down plates and pans — you cook in a squeeze or annex another surface |
+| Countertop to upper cabinets | **500–600 mm, no less** | Corroborates this page's existing ~550 mm figure from an independent channel |
+| Standard lower-cabinet depth | minimum 450 mm | Context for the pull-out argument on [[03_Kitchen/analysis/Storage_and_Hardware|Storage and Hardware]] |
+
+- **On the 600/1,000 mm sink-to-hob pair, his fallback where the run is genuinely tight is concrete**: **put the dishwasher between them** — there is worktop above it anyway — plus a pull-out drawer or **карго** for glasses. So the metre is recovered as usable surface even in a short run.
+- **⚠️ Corner sink: never put the bowl in the corner.** You may intrude into the corner with the drainer «ухо» — the metal draining wing — **but not the bowl itself**, or it is awkward to stand at and to wash up in. *(A more permissive rule than this page's existing corner-kitchen critique, and specific to the sink rather than the layout.)*
+- **Work triangle fridge → sink → hob, with the fridge nearest the kitchen entrance — and the ordering is derived from the task, not asserted**: unload shopping straight into the fridge, take food out to the sink to wash, prep in the run between sink and hob, then cook. **Corroborating; recorded for the derivation.**
+- **⚠️ Sink in front of a window: check the casement's opening arc against the mixer tap.** Named as the classic error of beginner designers and of clients building a house without one — the window opens into the tap and cannot be used, so you end up washing that window from outside. **Fixes, cheapest first**: a tap that simply swivels aside; offsetting the tap left or to the side at design stage; or a mixer that **retracts into the sink on a double press** (he has seen Italian ones), which he flags as explicitly not the budget answer.
+- **Standard kitchen heights available: 2,210 mm, with 2,400 mm the tallest standard. Three-metre standard kitchens do not exist** — so a design not needing that height should stay inside the standard range, which ties directly to the +40% non-standard premium on [[03_Kitchen/analysis/Kitchen_Cost_and_Priorities|Kitchen Cost and Priorities]].
+- **⚠️ Upper cabinets set too high create storage that is never used**, and he reports it from living with антресоли: «реально находил там постоянно какие-то клады из прошлого». **The design target he states is visibility — «главное всё увидеть, достать то, что вам нужно»** — not maximum volume.
+
+### ⚠️ The Two-Tier Upper Cabinet — a Dated Detail, Abandoned by Its Own User (same source)
+
+**Worth recording because it is a designer retiring a move he used himself**, which dates the detail rather than just criticising it.
+
+- The arrangement: first tier **300 mm** deep, second tier overhanging it to pencil-cabinet depth. **Fashionable around 2020.**
+- **It works only in one case: a symmetrical П-shaped kitchen in a single colour and style** — e.g. two pencil units left, two right, capped by the overhanging tier.
+- **His reasons for now making uppers one single depth**: it stretches the perceived ceiling height; **deep upper boxes bury their contents**; and **an upper box can never be a pull-out drawer**, so depth there is always dead storage.
+- **⚠️ The worst execution failure named: a step that terminates showing an exposed end (торец)** — «самая грубая ошибка в плане эстетики». If the step lands into a pencil unit it is acceptable.
+- Saving attached: open shelves instead of facades — **but «не делайте много открытых полок»**, which produces visual clutter.
+
 ## Layout Forms — Corner, Linear and the Island
 
 ### Cooking-Zone Definition

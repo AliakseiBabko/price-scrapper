@@ -205,6 +205,67 @@ Not merely "did it clear the bar," but, per Group B's genuinely-open framing:
 - **Unrelated pre-existing issue surfaced by this preflight run, flagged not fixed**: the tool warned that **565 source notes have no matching flat-index ID** and 98 indexed IDs have no source note. That is index drift affecting the whole vault, not this channel, and it predates today. Worth a `tools/build_knowledge_base_index.py` rebuild as separate work.
 - **Tooling note**: `preflight_playlist.py` fails under the repo's active `.venv-ifc314` interpreter (no `yt_dlp` module). It runs under `py -3`. Use `py -3 tools/youtube/preflight_playlist.py …` on this machine.
 
+## Round 1 results and verdict (completed 2026-09-03)
+
+**Round 1 yield**: 6 videos processed, 172 new facts, yield = **28.7 new facts per processed video** — **the highest single-round yield recorded for any channel in this vault** (previous high: FLAT Round 3 at 24.0). All 6 fetched serialized with `--languages ru` forced, zero rate-limit signatures. **6/6 clear the value bar; none was skipped or partially processed.** Batch state in `batch_status_20260903_yourinteriordes_round1.json`.
+
+| # | ID | Topic | Len | Uploaded | `fact_yield` | `promotional_ratio` | Outcome |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 1 | `M0Wv4SOSUhs` | Builder Q&A — cost tiers, смета, генподряд | 72 min | 2023-12-15 | **34** | low | Full |
+| 3 | `9ZwqMKiMgvc` | Space organiser's own flat — storage | 35 min | 2026-03-25 | **33** | low | Full |
+| 5 | `gTgUJaWKobM` | Stretch ceilings, теневое примыкание | 27 min | 2023-01-25 | **31** | medium | Full |
+| 4 | `-6QKr4HerCQ` | 25 kitchen ordering mistakes | 32 min | 2025-07-22 | 28 | medium | Full |
+| 2 | `ZKAcnh4kKfY` | Lighting podcast — colour temperature, gear | 81 min | 2024-01-09 | 27 | low | Full |
+| 6 | `pR1t7zlT2Qk` | Glass partitions, 10 myths | 19 min | 2026-07-14 | 19 | **high** | Full |
+
+**Seventeen pages touched across seven folders**, all in the same session as extraction per standing rule 6. No new pages created — every sub-topic had an existing home. Caption availability was never a problem: **2 manual Russian tracks, 4 Russian ASR, none translated.**
+
+### ⚠️ The verdict on the round's stated question
+
+**Yes — this channel breaks the Group B premise, and it does so for a more specific reason than Шеврина did.** Шеврина turned out to be a designer producing technical content herself. **Here the content is carried by the guests, not the host.** Four of the six are guest formats, and the two highest-yield sources are a contractor of 30+ years and two lighting specialists. **That distinction is the single most important planning output of this round**, because it says which of the ~54 remaining Tier-1 titles are worth anything.
+
+**On whether a premium design-*build* studio can be trusted:** yes, with the caveats below, and the evidence is behavioural rather than tonal. **Twice in six videos the host publishes expert testimony that limits his own professional authority:**
+
+- A space organiser stating that a designer **«вряд ли мог»** have foreseen storage — *could not have*, not merely did not — with her own designer-drawn wardrobe rebuilt afterwards as the example.
+- Two lighting specialists describing the designer as **«ключ от всех дверей, но с очень ограниченным функционалом… решение финальное не за ним»**, which he endorses on camera and extends with a medical analogy.
+
+Add to that: the builder podcast opens with an explicit disclaimer of any commercial tie; the ceiling installer **endorses the 250–300 RUB/m² mass-market tier for a rental flat**, steering out of his own segment; the kitchen video's cost-down advice repeatedly steers away from spend, **including away from work a designer would bill for**; and the partition maker **concedes two of his own ten "myths" as true** (monthly dusting, and that painting metal well is genuinely hard).
+
+**The caveats that must stay attached:**
+
+1. **⚠️ `pR1t7zlT2Qk` is a clean failure and the round was designed to catch exactly this.** The title asks «дорого или нет?» and the video **never states a single price** — not for a partition, a door, or a square metre. The expense question is answered entirely with a cost-*structure* argument that justifies the price. **Highest promotional ratio of the round, and the pattern to watch for on the rest of the channel: a partner-showroom episode whose title promises a number.**
+2. **Brand preferences from supplier guests are stated practice, not independent comparison** — the ceiling profile line, Blum, Egger-style hardware verdicts, the "phone our supplier for installer recommendations" close.
+3. **Only three of six sources carry absolute prices** (Dec 2023, Jan 2023, Jan 2024). Two carry none at all, and the kitchen video is **deliberately all ratios** — which is a strength, not a gap.
+4. **The 81-minute lighting podcast is much thinner on hard photometrics than its runtime implies** — no CRI figure, no lumens, no wattage, no pulsation coefficient across 81 minutes. **It is a relationship podcast containing four excellent technical passages.** That is a format warning for the channel's other long-form titles, not a complaint about this one.
+
+### ⚠️ The round's most valuable outputs were two corrections and a divergence, not additions
+
+- **`Ceiling_Type_Comparison_and_Cost.md` carried "does not yellow" on a virgin-pellet material argument. The installer concedes yellowing from smoke over time.** Reconcilable as material ageing versus soiling — but the page can no longer carry the claim unqualified, and now says so.
+- **The 27 mm stretch-ceiling drop is measured from the lowest existing obstruction, not from the slab** — extracted on camera by the host pushing back about junction boxes. **The page's existing ceiling-drop ranking is slab-referenced, so the two figures must never be compared.** This is the clearest instance in the vault of a claim arriving *with* its own correction because an interviewer did the work.
+- **An unreconciled divergence on fridge top clearance: 300–500 mm here against Кузина's 200 mm** already on the page. Neither source states a derivation, so both stand with a note to take the larger where the cabinetry allows.
+- Two smaller ones: **a dB claim corrected inline** (50 dB glossed as "half"; decibels are logarithmic), and **a genuine counter-data-point on ЛДСП and moisture** — a self-built shoe rack in the cheapest board with edges entirely unsealed, wet winter shoes, no swelling — recorded with its informality stated.
+
+### What the trial design got right and wrong
+
+**Right:** picking by format rather than by expected yield. The three formats that produced the highest yields — expert-guest long-form, a practitioner's own home, and a narrow named-technique breakdown — are all guest formats, and that is the finding that scopes the rest of the channel. **Selecting for vault thinness also worked**: `теневое примыкание` and `colour temperature` both returned zero prior matches and both produced page-level additions.
+
+**Wrong, or at least less useful than expected:** the dedup-pressure pick (`-6QKr4HerCQ`) was chosen expecting it to be thin against a well-covered subject, and it came back at 28 — **because it turns out the vault's kitchen coverage is dense in dimensions and thin in costing ratios.** Useful, but it measured something other than what it was aimed at.
+
+### Recommended Round 2 — 5 videos, awaiting go-ahead
+
+**Weighted entirely to guest formats and to the trades, which is where all the yield came from:**
+
+1. `M0Wv4SOSUhs`'s sibling: `SEdNCGA0Ttg` (**70 min**, «Как выбрать строителей и не пожалеть?») — **the direct continuation of the round's best source, on the subject the vault's contracting pages just gained the most from.**
+2. `yaeQr8Q0tCQ` (**63 min**, «Стоимость ремонта в 2024? Бюджет стройки») — a second dated cost benchmark from the same podcast format, and 2024 sits in the gap between this round's Dec-2023 ladder and the vault's 2025 tiers.
+3. `xA0pFTLCt5M` («Вентиляция и кондиционирование — типы, стоимость, ошибки») — **the ceiling source established that ventilation gates the ceiling; this is the ventilation half, and `12_Engineering_and_Systems/HVAC_and_Ventilation.md` exists.**
+4. `cudO-SSdrn0` (**33 min**, «Вы неправильно храните вещи») — **the second of the four-video storage block, whose head returned 33.** Tests whether the block sustains or whether Ксения's own-flat visit was the whole of it.
+5. `7DnlE-pl0y4` («Ошибки в освещении — 9 советов профессионального светодизайнера») — **a different lighting guest and a shorter format, to test whether the photometric thinness was the podcast format or the channel.**
+
+**⚠️ Expect below 28.7.** Round 1 deliberately took the strongest guest formats, and the honest expectation is somewhere in the high teens to low twenties — still well above this vault's stop-and-ask floor.
+
+**Deprioritised on the round's own evidence, not on title-skim:** the general-design and trend cluster (`SLTml8mznnI`, `YAq6gvJL6Fc`, `Gr_xR6mdz7M`, `mxrm9eau7ZY`, `kXdbbiBI84A`, and the six trend-of-the-year videos). **The host solo on design is this channel's weakest configuration, and the vault holds far better-sourced design content from designers who specialise in it.** The mistakes/regrets block (eight near-identical titles) remains untested and should be sampled **once**, not batched.
+
 ## Progress log
 
-- 2026-09-03 — Preflight run (220 videos, 220 fresh, 0 duplicates), Russian title dump obtained after discovering the channel serves auto-translated metadata, full title-skim triage completed, vault-coverage probes run for candidate subjects, 6-video Round 1 trial scoped. **Nothing fetched. Awaiting go-ahead.**
+- 2026-09-03 — Preflight run (220 videos, 220 fresh, 0 duplicates), Russian title dump obtained after discovering the channel serves auto-translated metadata, full title-skim triage completed, vault-coverage probes run for candidate subjects, 6-video Round 1 trial scoped.
+- 2026-09-03 — **Round 1 complete: 6/6 processed, 172 new facts, yield 28.7 — the highest single-round yield in this vault.** Zero rate-limit signatures. 17 pages across 7 folders; store, CSV and archive updated; `check_page_sizes.py` clean (no FRAGMENTED, nothing over backstop) and `verify_batch.py` 40 files / 0 problems. **Round 2 scoped above, awaiting go-ahead.**

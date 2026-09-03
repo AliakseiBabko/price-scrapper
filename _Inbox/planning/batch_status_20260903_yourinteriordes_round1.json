@@ -1,0 +1,59 @@
+{
+  "batch": "yourinteriordes_round1_trial",
+  "channel": "ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА (@YourInteriorDes)",
+  "channel_id": "UCoJvM19nhHxfplqcO4wDL4A",
+  "created": "2026-09-03",
+  "triage_doc": "_Inbox/planning/yourinteriordes_channel_triage_20260903.md",
+  "fetch_policy": "serialized, ~5-6 min spacing, anonymous, --languages ru ONLY (channel serves auto-translated metadata; ru-only fails loudly rather than silently grabbing a translated track)",
+  "videos": {
+    "M0Wv4SOSUhs": {
+      "status": "fetched",
+      "len_min": 72,
+      "tests": "expert-guest long-form; builder's voice",
+      "upload_date": "2023-12-15",
+      "transcript": "20260903_M0Wv4SOSUhs_cf09ccf3",
+      "captions": "auto-generated ru (ASR)"
+    },
+    "ZKAcnh4kKfY": {
+      "status": "fetched",
+      "len_min": 81,
+      "tests": "thinnest vault subject (colour temperature=0 matches)",
+      "upload_date": "2024-01-09",
+      "transcript": "20260903_ZKAcnh4kKfY_6f83bde6",
+      "captions": "manual ru track"
+    },
+    "9ZwqMKiMgvc": {
+      "status": "fetched",
+      "len_min": 35,
+      "tests": "Group B reusability criterion; head of 4-video storage block",
+      "upload_date": "2026-03-25",
+      "transcript": "20260903_9ZwqMKiMgvc_930a36f4",
+      "captions": "auto-generated ru (ASR)"
+    },
+    "-6QKr4HerCQ": {
+      "status": "fetched",
+      "len_min": 32,
+      "tests": "doubted N-mistakes format vs a dense vault subject; dedup pressure",
+      "upload_date": "2025-07-22",
+      "transcript": "20260903_-6QKr4HerCQ_0568c129",
+      "captions": "auto-generated ru (ASR)"
+    },
+    "gTgUJaWKobM": {
+      "status": "fetched",
+      "len_min": 27,
+      "tests": "narrow named-technique; теневое примыкание=0 matches",
+      "upload_date": "2023-01-25",
+      "transcript": "20260903_gTgUJaWKobM_b5c78c3f",
+      "captions": "manual ru track"
+    },
+    "pR1t7zlT2Qk": {
+      "status": "fetched",
+      "len_min": 19,
+      "tests": "myth-busting w/ price, from a премиум studio; tier-steering",
+      "upload_date": "2026-07-14",
+      "transcript": "20260903_pR1t7zlT2Qk_fc42ee7d",
+      "captions": "auto-generated ru (ASR)"
+    }
+  },
+  "fetch_result": "6/6 fetched cleanly 2026-09-03, zero rate-limit signatures, all language=ru confirmed. 2 manual ru tracks, 4 auto-generated ru (ASR) - none translated."
+}

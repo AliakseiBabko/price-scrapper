@@ -141,6 +141,88 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   fact, and doing so is described as expensive and unlikely to
   succeed. [source: [[_Sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|YT_9lFhda_KDHk]]]
 
+- **⚠️ Why the cheapest quote is the one most likely to be abandoned mid-job — the
+  arithmetic, from a contractor of 30+ years (Руслан, via NSDSGN).** This page already
+  records lowball-bait-and-abandon as a named scheme; **this is the same outcome
+  arriving without any bad faith, which makes it the more useful version.** A client
+  wants 10,000 RUB/m² on 50 m² = 500,000 RUB. The worker takes ~200,000 as an advance,
+  spends it, and finds three weeks of work still ahead with nothing left to draw
+  against. A neighbour offers 15,000 RUB/m². He leaves — «ключи в почтовом ящике» —
+  and in the better case he returns the keys. **The pricing itself guarantees the
+  abandonment; no fraud is required.** Related failure observed via a management
+  company: an agency-supplied master **sold the client's materials to her neighbours,
+  slept in her flat and moonlighted on other jobs**, stretching her schedule. He notes
+  the counter-view that on those rates survival is genuinely hard, which is why
+  people improvise. [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
+- **⚠️ Vetting signals, and the one that actually matters (same source).** Checkable
+  signals: how long the social accounts have existed, whether the comments read as
+  genuine or fabricated, visiting two or more live objects, asking for a past client's
+  phone number, and meeting in person. **Crew churn is visible on site and is a real
+  signal** — «приходишь на объект, там посмотришь, они друг друга и не знают толком».
+  **But the load-bearing point is a limitation: a specialist's quality cannot be
+  assessed at the time of work.** «Это будет понятно через полгода, когда этот человек
+  уже куда-то уедет, и у тебя что-то прорвёт.» **His conclusion is therefore that only
+  two things work — a long-horizon reference («я живу несколько лет в этом интерьере»),
+  or somebody contractually answerable for the subcontractor.** That is an argument for
+  the general-contracting structure recorded in
+  [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories and Delivery Models]],
+  not merely for diligence.
+- **⚠️ The competence test that costs nothing: name a difficult detail and see whether
+  the crew proposes to substitute it away (same source).** Brigades at the ~20,000
+  RUB/m² level «говорят, что знают» about a теневой профиль or a дверь скрытого
+  монтажа, then say «а нафиг вам надо, а давайте поменяем». **The substitution proposal
+  is the diagnostic, not the claim of knowledge.** Independently corroborated by a
+  ceiling installer on the same channel, who says of shadow-gap profiles «многие
+  впервые его делают» — see
+  [[13_Surfaces_and_Finishes/analysis/Ceiling_Type_Comparison_and_Cost|Ceiling Type Comparison and Cost]].
+- **What an advance actually is, stated plainly (same source)**: money belonging to the
+  client, held by the contractor, which becomes the contractor's **only as акты are
+  signed against completed work.** Offered as the answer to first-time clients alarmed
+  by a large advance to someone they do not know. **Complements this page's existing
+  payment-staging practice** rather than replacing it.
+- **⚠️ Escrow for renovation is anticipated but does not yet exist — record it as a
+  gap, not an option (same source).** He describes a bank-plus-app pilot where the
+  client sees funds held in an electronic cell and release happens against an
+  electronically signed акт, and deliberately names no bank or company. **Recorded so
+  that a future session does not mistake this for an available instrument**; it is the
+  mechanism this page's whole advance-risk discussion would be solved by, and as of
+  Dec 2023 it was not on the market.
+- **⚠️ Client-supplied subcontractors are a distinct risk category, and the failure is
+  competence-in-context rather than competence (same source).** Industrial ventilation
+  fitters who are the client's acquaintances may genuinely be able to build complex
+  ventilation but **have never worked in a finished, delicate environment.** Observed
+  directly on his own site: they were **cutting a ventilation duct on the kitchen
+  island** at final-finish stage. «Люди по профилю могут хорошо делать свою работу, но
+  не умеют её делать в определённых условиях.» **The vetting question is therefore not
+  "can they do this work" but "have they done it in an occupied or finished space".**
+- **⚠️ Supplier stability beats supplier price, with a worked reason to fire a good
+  supplier (same source).** He dropped a mirror supplier who **won tenders on price and
+  then redid the work at their own cost every single time** — «я не понимаю, на что они
+  жили вообще». They were competent and always finished; the defect was reliability of
+  schedule. **His rule: constantly changing people is worse than supporting a known
+  weakness**, because a new supplier will surprise you in a situation you have not met
+  yet. In premium work he now offers quality suppliers and **declines responsibility
+  for client-sourced cheap alternatives** — «если хотите дешевле, сами ищите дешевле и
+  сами потом это всё разгребать».
+- **⚠️ Two rules about the client's own presence on site, and both are cost rules
+  (same source).** (a) **Anxious daily attendance extends the schedule for the same end
+  result.** Processes have a duration, and intervening mid-way makes a normal
+  intermediate state look like failure; meanwhile **masters begin optimising for the
+  client's reaction rather than for correctness.** **The stated alternative is
+  concrete: arrive at the end of a stage — all the malyarka, say — and list every
+  defect at once.** (b) He extends the same subordination point to the contractor's own
+  side: a firm's director should not disrupt the прораб's plan mid-stream either.
+- **⚠️ The cost asymmetry of a late question, with a measured example (Константин
+  Цепелев / Матвей Борисов, via NSDSGN, 2024-01-09).** A coordination question was
+  raised only **after the countertop had been installed. Fitting the countertop took
+  seconds; the rework took a month**, with a serious dispute. **Their process fix is
+  addressed at designers**: pass everything on to the client *and* to adjacent trades,
+  **bring the client to meetings, and keep one shared chat containing every participant
+  including whoever actually decides** — because when a specialist speaks only to the
+  designer, whether and how it reaches the client is unknowable. Their complaint is
+  that until the project album is handed over, everything on site behaves as if
+  classified. [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
+
 ---
 
 Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Guide]].

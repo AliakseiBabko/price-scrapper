@@ -147,6 +147,23 @@ worth reconciling if a future reader spots a direct contradiction.
   instance of the user's own cross-system-dependency caveat arriving from
   a taste decision rather than a technical one.
 
+## ⚠️ Where Not to Economise — Stated as a Trade-Off Rather Than a List (Руслан, 30+ years, via NSDSGN, 2023-12-15)
+
+**Every source on this page produces a never-cut list. This one is worth recording because it is expressed as an exchange between two lines of the same budget, which is what makes it usable when the money genuinely runs out.** [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
+
+**The rule: «Лучше не купить шкаф, чем сэкономить на тех же автоматах в электрощите и проводке.»** Drop a visible, replaceable item rather than downgrade concealed engineering. He scopes it himself — «если мы не берём премиум-ремонт, наверное там о таком речи не заходит; средние ремонты или менее средние» — so it is advice for a constrained budget, which is exactly where a never-cut list normally fails.
+
+**His never-cut set:**
+
+- **The builders themselves**, and fundamentals generally.
+- **Engineering**: good taps and **all** shut-off valves («запорная арматура»), good pipes, and **never a loose/рыхлая стяжка**.
+- **The electrical panel — автоматы — and the wiring.**
+- **⚠️ Old fund specifically: never economise on the survey (обследование).** A superficial inspection is «бомба замедленного действия» that «может произойти когда угодно». This is a category the rest of this page does not cover, because the other sources are new-build oriented — see [[11_Budget_and_Planning/analysis/Old_Fund_Apartment_Renovation|Old Fund Apartment Renovation]].
+
+**⚠️ And the reasoning that generalises past his particular list: price is not the only parameter of a material — durability is the other, and the two must be multiplied.** «Если помножить стоимость на долговечность, не всегда дешёвый материал по итогу окажется реально дешевле.» His worked case: «поменяешь пять раз кран текущий каждые полгода — потратишь те же деньги, может даже больше.» **Recorded as the mechanism behind this page's cross-tier coherence argument above** — a cheap item in a high-cycle position is not a cheaper tier, it is a deferred purchase.
+
+He also insists **rationality runs in both directions**: a super-renovation inside cheap property is as irrational as an economy renovation inside expensive walls — «всё должно быть соответственно». **He explicitly resists the host's «ремонт с мебелью должен стоить столько, сколько стоит квартира» heuristic as too crude to survive a market comparison**, which is worth noting because that ratio circulates widely.
+
 ## ⚠️ Five Drivers of Premium Cost, With Moscow Whole-Project Tier Figures (Татьяна Безверхая, added 2026-09-02)
 
 > [!WARNING]

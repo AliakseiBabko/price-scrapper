@@ -49,6 +49,74 @@ An unusually concrete cost-structure analysis, built from the actual bills of qu
 
 `single-account`, `unverified`, 2023 data, one studio, one project, self-reported. **The 24.5% figure is the only one she explicitly generalises across projects**; the rest come from this single case. Relative proportions age better than absolute figures, but even proportions shift as material prices move. [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
+## 5a-bis. What a Good Смета Looks Like, From the Contractor's Side (Руслан, 30+ years, via NSDSGN)
+
+The section above describes a bill of quantities from the designer's side. **This is the same document from the party who writes and then has to defend it**, and the two agree on granularity while adding different reasons. [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
+
+### ⚠️ The four-line смета is the red flag, and the test is a plumbing line
+
+- **A смета reading «сантехника столько-то тысяч, электрика столько-то» guarantees допы
+  and «а мы вам это не считали» arguments.**
+- **His example of the granularity actually required is specific enough to copy**: a
+  **коллекторный узел** can be specified with or without **leak sensors (датчики от
+  протечек)**, with or without filters; and the разводка can be **тройниковая** or
+  **лучевая**. Each of those is a real price difference hiding inside the word
+  «сантехника». **If it is written down, the contractor cannot later claim it was not
+  quoted.** *(This vault already holds the тройниковая-versus-лучевая distinction as a
+  plumbing decision — see [[12_Engineering_and_Systems/analysis/Pipe_Material_Selection|Pipe Material Selection]]
+  — but not as a смета line item whose omission is a budget risk.)*
+- **State explicitly what is NOT included.** He names one exclusion as a positive
+  recommendation, below.
+- **Waste removal (вынос/вывоз мусора) belongs in the смета as an approximate range**
+  rather than a figure, because the exact quantity is never calculable in advance.
+- **A detailed смета is also what lets scope move painlessly**: lines drop out of акты
+  and new work enters via допсоглашения, transparently, instead of being renegotiated.
+
+### ⚠️ Leave door installation to the door manufacturer's own fitters
+
+**A concrete exclusion with a warranty mechanism behind it, not a preference.** If the
+manufacturer's fitters unpack the doors, **they find a chip and resolve it themselves,
+fast, with responsibility and warranty staying on the maker.** If the builder unpacks
+them and there is a chip, the manufacturer's answer is «вы там их пока открывали,
+наверное, вы и поцарапали» — and the client owns a dispute instead of a replacement.
+**The generalisable rule is that unpacking transfers the burden of proof**, which is why
+who opens the crate belongs in the смета. *(The same argument appears independently for
+lighting in [[12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings|Lighting Fixtures and Fittings]]:
+buying direct from AliExpress removes the supplier's inspection-and-rejection step.)*
+
+### ⚠️ The 10% drift rule, with the reason the drift happens
+
+- **With a concrete design project and a смета written against it, the total should
+  neither grow nor shrink.** Normal drift is **~10%**; he advises holding a
+  **10–15% buffer**.
+- **The stated cause is physical and specific: design-project measurements are taken at
+  rough stage, and walls lose thickness once plastered, so areas move.** That is worth
+  knowing because it means the drift is not evidence of a bad estimate.
+- **He argues against chasing more precision**: spending extra days to recover 3–4% is
+  «не то что невозможно, а просто зачем».
+- Separately, and not to be confused with the above: **«аппетит приходит во время
+  стройки»** — clients state a budget and then knowingly raise it mid-project. He treats
+  this as normal and expected, not as estimate failure. **Keep the two apart when
+  reconciling a final figure against a смета.**
+
+### ⚠️ Never price a long contract at signing-day material prices
+
+- **Observed series on a single OSB sheet: 800 → 1,600 → 2,400 → 3,600 RUB — roughly
+  4× in about fifteen days**, screenshotted day by day by a colleague. **The year is
+  not stated in the source, so this is deliberately left unconverted** and recorded as
+  a volatility shape rather than a price.
+- **Their response is the transferable part, and it is a substitution rather than a
+  hedge**: they had been lining old-fund ceilings with OSB *because it was the cheap
+  option* (to stop dust falling from the flats above); once OSB passed plasterboard in
+  price they switched to plasterboard. **The requirement was the function, not the
+  material** — worth writing specifications that way where possible.
+- **Their procurement method**: take an advance for materials, **refresh the working
+  price list every 3–6 months**, buy at the day's price, report by receipts, and charge
+  a stated percentage for the service. They also **handle рекламация** themselves —
+  damp plasterboard, transport damage — filing the return, recovering the money and
+  re-buying. **That claim-handling is part of what the procurement percentage buys**,
+  and is invisible until something arrives damaged.
+
 ## 5b. Two Procurement Traps That Change the Budget (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 ### Large ceramic slabs: the delivery you didn't budget for
