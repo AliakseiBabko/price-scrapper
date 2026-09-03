@@ -84,7 +84,7 @@ Zemstandart/Alexey Zemskov reports: **round-section ducts are preferred over fla
 
 Zemstandart/Alexey Zemskov reports: **a breather can be vented through a window reveal/embrasure instead of an exterior wall**, as a workaround where facade penetrations are banned by the building — the intake/exhaust opening is cut into the window's reveal rather than the wall itself. [source: `_Archive/processed_sources/20260804_what_is_this_60m2_contractor_control_f7ab173e.txt`]
 
-## ⚠️ Itemised System Costs, and the Ceiling Void Each Type Consumes (Александр Сенчугов / NSDSGN, 2023-10-17)
+## ⚠️ Itemised System Costs, and the Ceiling Void Each Type Consumes (Александр Синчуков / NSDSGN, 2023-10-17)
 
 **A designer's systematic explainer, and it supplies the two things this page's system comparisons lacked: itemised prices per system type, and general ceiling-void figures.** Manual Russian caption track. **October 2023, converted at 89.5803 RUB/USD** (trailing 6 months to 2023-10-17). [source: [[_Sources/YT_xA0pFTLCt5M_nsdsgn_ventilation_and_ac_costs|YT_xA0pFTLCt5M]]]
 

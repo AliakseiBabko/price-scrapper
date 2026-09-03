@@ -1,6 +1,6 @@
 ---
 video_id: 2B67955_Z5I
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), with Руслан — генподрядчик on the object
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), with Руслан — генподрядчик on the object
 source_type: youtube
 source_title: "СЕКРЕТЫ РЕМОНТА ОТ ЭКСПЕРТОВ | Обзор стройки | Румтур"
 source_url: https://www.youtube.com/watch?v=2B67955_Z5I

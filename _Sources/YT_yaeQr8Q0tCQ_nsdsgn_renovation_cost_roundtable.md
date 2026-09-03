@@ -1,6 +1,6 @@
 ---
 video_id: yaeQr8Q0tCQ
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), with Сергей Аскорбин (design studio, ex-прораб) and Дима Курилов (Курилов Дизайн)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), with Сергей Аскорбин (design studio, ex-прораб) and Дима Курилов (Курилов Дизайн)
 source_type: youtube
 source_title: "Стоимость ремонта в 2024? Бюджет стройки. Подкаст с дизайнерами интерьера."
 source_url: https://www.youtube.com/watch?v=yaeQr8Q0tCQ

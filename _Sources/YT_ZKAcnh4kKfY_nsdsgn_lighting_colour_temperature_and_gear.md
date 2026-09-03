@@ -1,6 +1,6 @@
 ---
 video_id: ZKAcnh4kKfY
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), guests Константин Цепелев (lighting supplier, practising since 2006, blogger «Главный по свету») and Матвей Борисов (lighting studio co-founder)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), guests Константин Цепелев (lighting supplier, practising since 2006, blogger «Главный по свету») and Матвей Борисов (lighting studio co-founder)
 source_type: youtube
 source_title: "10 вопросов о СВЕТЕ В ИНТЕРЬЕРЕ | китайский свет, дизайнерские фейлы, теплота и интенсивность света"
 source_url: https://www.youtube.com/watch?v=ZKAcnh4kKfY

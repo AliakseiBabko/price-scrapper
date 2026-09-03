@@ -1,6 +1,6 @@
 ---
 video_id: pR1t7zlT2Qk
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), guest Руслан — Декус (partition and furniture manufacturer)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), guest Руслан — Декус (partition and furniture manufacturer)
 source_type: youtube
 source_title: "Стеклянные перегородки: дорого или нет? 10 мифов, которые стоит знать"
 source_url: https://www.youtube.com/watch?v=pR1t7zlT2Qk

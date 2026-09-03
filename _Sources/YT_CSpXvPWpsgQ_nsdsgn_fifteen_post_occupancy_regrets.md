@@ -1,6 +1,6 @@
 ---
 video_id: CSpXvPWpsgQ
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков)
 source_type: youtube
 source_title: "15 вещей, о которых жалеют после ремонта"
 source_url: https://www.youtube.com/watch?v=CSpXvPWpsgQ

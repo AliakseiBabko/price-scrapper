@@ -1,6 +1,6 @@
 ---
 video_id: gTgUJaWKobM
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), guest Алексей Морозов — head of СС Групп (installer)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), guest Алексей Морозов — head of СС Групп (installer)
 source_type: youtube
 source_title: "Что такое современный натяжной потолок? Теневое примыкание. Разбор от специалиста"
 source_url: https://www.youtube.com/watch?v=gTgUJaWKobM

@@ -1,6 +1,6 @@
 ---
 video_id: xA0pFTLCt5M
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков)
 source_type: youtube
 source_title: "ВЕНТИЛЯЦИЯ и КОНДИЦИОНИРОВАНИЕ В КВАРТИРЕ | типы, стоимость, основные ошибки и вопросы"
 source_url: https://www.youtube.com/watch?v=xA0pFTLCt5M

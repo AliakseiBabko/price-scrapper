@@ -1,6 +1,6 @@
 ---
 video_id: Z0brwxSe7gQ
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), with Руслан — contractor
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), with Руслан — contractor
 source_type: youtube
 source_title: "Таким должен быть ремонт в 2024 году | Инженерные системы квартиры | Обзор стройки"
 source_url: https://www.youtube.com/watch?v=Z0brwxSe7gQ

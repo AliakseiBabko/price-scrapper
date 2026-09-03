@@ -158,7 +158,7 @@ From a separate source, and it is the counterweight to everything above. [source
 - **⚠️ Premium kitchen internals are a 2× multiplier**: functional internals let you fit far more into a kitchen of the same size, **"но это может стоить в два раза дороже, чем та же кухня с более простой начинкой"** (Blum named). `single-account`, `unverified`, 2020. [source: [[_Sources/YT_JOBm37_9iDg_kuzina_practical_vs_good_interior|JOBm37]]]
 - **⚠️ Declutter before you buy, and do not decorate around a bad purchase.** People buy new things because they have tired of the old — **"если вы устали, сначала расхламитесь; возможно, после этого усталость как рукой снимет, без дополнительных трат."** And where a piece is already known to be wrong, **covering it with a rug, cushions and candles will not work — "в конечном итоге в комнате вас будет раздражать буквально всё." Her exit: "сейчас не так сложно продавать мебель, и не обязательно делать это за полцены."** **This supplies the escape route the sunk-cost material in the carrying-furniture-over section above lacks.** [source: [[_Sources/YT_uRK4OPR4dak_kuzina_decorating_mistakes|uRK4OPR4dak]]]
 
-## ⚠️⚠️ A Design Project Is Also an Evidentiary Artefact — and Builders Sometimes Buy One Themselves (Александр Сенчугов / NSDSGN, 2022-09-20)
+## ⚠️⚠️ A Design Project Is Also an Evidentiary Artefact — and Builders Sometimes Buy One Themselves (Александр Синчуков / NSDSGN, 2022-09-20)
 
 **The section above establishes what a design project contains and the order it is produced in. This establishes a reason to have one that has nothing to do with design — and it is the reason a builder would pay for it.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
 
@@ -170,6 +170,42 @@ From a separate source, and it is the counterweight to everything above. [source
 - **⚠️⚠️ AND THE STRIKING DATUM, which is contract economics rather than design: «у меня даже пару раз дизайн-проект заказывали СТРОИТЕЛИ — ОНИ ПЛАТИЛИ САМИ за дизайн-проект, потому что это ЭКОНОМИЛО ИХ ВРЕМЯ И НЕРВЫ: все работы были указаны в дизайн-проекте, и любые ПЕРЕДЕЛКИ уже шли ЗА СЧЁТ ЗАКАЗЧИКА. То есть невозможно было подсунуть "я же вам говорил, что я хотел там розетку" — ВСЁ ЗАФИКСИРОВАНО, и мы сделали чётко как вы сказали; дальше все отношения идут как ДОП РАБОТЫ.»**
   **→ A fixed, documented scope converts client-driven changes from arguments into chargeable extras — which is worth enough to a contractor that he will fund the document himself. Two consequences: (a) it is independent confirmation that the design project's real function is scope definition, from the party with no stake in selling design services; (b) a client should understand that the same document which protects them from execution errors also removes their ability to claim a change was always intended.** Read against the доп-работы and change-order material on [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate and Contract Templates]] and [[11_Budget_and_Planning/analysis/Contract_Practice|Contract Practice]].
 - His summary: «те, кто уже делал ремонт ПО дизайн-проекту, НИКОГДА не будут делать [ремонт] БЕЗ него — это просто ДОКАЗАННЫЙ ОПЫТ.» Promotional in form, but the builder-funded case above is the substantive version of it.
+
+## ⚠️⚠️ The Fee Is Roughly SEGMENT-INDEPENDENT While the Build Scales — Which Inverts How a Percentage Fee Reads
+
+**From an estate-agency head with no design services to sell, and it bears directly on this page's fee-as-a-proportion figures.** [source: [[_Sources/YT_vTgY6vioNik_nsdsgn_realtor_vs_designers_podcast|YT_vTgY6vioNik]]]
+
+- **«Если это ДВУШКА-ЕВРОДВУШКА В МУРИНО [budget suburb] и СУПЕР-КВАРТИРА НА ПЕТРОГРАДКЕ [prime central] — САМА ВОТ ЭТА ПАПОЧКА [the design project] будет ПРИМЕРНО ОДИНАКОВАЯ. В ДИЗАЙН-ПРОЕКТЕ РАЗНИЦЫ НЕ БУДЕТ, и заплатит человек ПРИМЕРНО ОДИНАКОВО именно ЗА РАБОТУ ДИЗАЙНЕРА.»**
+- **«А ДОРОГОЙ РЕМОНТ от ДЕШЁВОГО будет отличаться МАТЕРИАЛАМИ. В дорогом ремонте материалы будут НАТУРАЛЬНЫМИ — чем более натуральный материал, ПРИРОДНЫЙ, БЕЗ ХИМИИ, тем он стоит ДОРОЖЕ.»**
+- **→ ⚠️ THE CONSEQUENCE NEITHER SPEAKER DRAWS: if the deliverable's cost is roughly flat across segments and the build cost scales with segment, then the fee's PROPORTION of total spend FALLS SHARPLY as the segment rises. A percentage-of-budget fee therefore charges a budget client the most in real terms and a premium client the least — the opposite of how percentage pricing is usually justified.**
+  **This is worth holding against the proportion figures already on this page: a proportion is a useful sanity check only within one segment, and comparing proportions across segments compares two different things.**
+- ⚠️ A figure «дизайнеры, которые берут условно 23.000 за квадрат» appears in the same passage but is ambiguous in the transcript — 23,000 ₽/m² is a BUILD rate, not a design fee. **Not recorded as a price.**
+
+### ⚠️ Why Some Designers Cost More — and the second reason is what the procurement commission actually buys
+
+1. **A queue: «если у тебя стоит ОЧЕРЕДЬ ИЗ ЗАКАЗЧИКОВ, наверное ты не будешь работать ЗА БЕСПЛАТНО.»**
+2. **⚠️⚠️ SERVICE, framed as the client's own opportunity cost: «заказчики высокого уровня САМИ НЕ ПОЙДУТ В МАГАЗИН что-то выбирать, ВЫКРАИВАТЬ, эту всю СУЕТУ разводить, а потом ещё ПРИЕЗЖАТЬ И ПРОВЕРЯТЬ… УСЛУГА ОДНОГО ОКНА: человек ОБРАТИЛСЯ и ПОЛУЧИЛ ГОТОВЫЙ ПРОДУКТ. Заказчик потратит больше — он МЕНЬШЕ ЗАРАБОТАЕТ, пока ЕДЕТ В МАГАЗИН; у него ВРЕМЯ ОЧЕНЬ ДОРОГОЕ, ему это вообще не нужно. ЭКОНОМИЯ ВРЕМЕНИ — ЭТО ТОЖЕ СЕРВИС.»**
+   **→ This is the missing test for the 2-15% procurement-commission range recorded above: the commission buys the client's time back, so whether it is a rational purchase depends entirely on what an hour of the client's time is worth. For a client whose time is cheap it is a pure cost; for one whose time is expensive it can be the best-value line in the project. The vault records the mechanism and the range; this supplies the decision rule.**
+3. A pleasant experience through the process.
+
+### ⚠️⚠️ Abandonment After the Procurement Phase — a Failure Mode the Commission Structure Causes
+
+**Recorded because it is not a character flaw but a predictable consequence of how the fee is shaped, and because it yields a specific vetting question.**
+
+- **«Ко мне часто приходят заказчики просто ПЕРЕПУГАННЫЕ — приходится их, как КОТИКА, над которым ИЗДЕВАЛИСЬ, ЗАНОВО УЧИТЬ ДОВЕРЯТЬ ЛЮДЯМ.»**
+- **⚠️ The named case: a very expensive house past Vyborg. «ДИЗАЙНЕРЫ ВСЁ ПРОДАЛИ, ВСЁ САМОЕ ДОРОГОЕ, а нужно же ещё МЕБЕЛЬ, нужно ещё НЕМНОЖКО ДОДЕЛАТЬ, там что-то ещё осталось — им просто СТАЛО НЕИНТЕРЕСНО, ОНИ ПРОСТО ИСЧЕЗЛИ. ОНИ ЗАРАБОТАЛИ КАКОЕ-ТО КОЛИЧЕСТВО ДЕНЕГ, И ПОСЛЕ ЭТОГО ИМ СТАЛО НЕИНТЕРЕСНО.»** The host went out and finished it himself.
+- **→ ⚠️ THE STRUCTURAL CAUSE IS ON THIS PAGE ALREADY: the procurement commission front-loads the designer's income into the BUYING phase, so the incentive to continue is weakest exactly when the remaining work is fiddliest, least visible and least remunerative — snagging, furniture placement, the last decisions. Nobody has to behave badly for this to happen; the money simply runs out before the work does.**
+  **The vetting question that follows is specific and answerable: HOW IS THE POST-PROCUREMENT STAGE PAID FOR, and is it a separate fee, a retainer, or nothing? A commission-only arrangement has no answer to it.** Read with the авторский надзор section above, which is one way of buying that stage explicitly.
+- **⚠️ A second market observation, offered as an explanation rather than an excuse: in Moscow «дизайнеры реально ХАМЯТ: "ну у вас дом ВСЕГО 200 м, о чём с вами говорить"» — because «огромный рынок, нереально огромный, а дизайнеров всё равно НЕ ХВАТАЕТ НА ВСЕХ, и им просто даже НЕИНТЕРЕСНО».** Clients told him he was **«ПЕРВЫЕ, кому мы вообще были ИНТЕРЕСНЫ в Москве»**, simply for being polite. **→ In an under-supplied market, ordinary courtesy and finishing the job both become differentiators — which means neither can be assumed, and both are worth checking references for.**
+
+### ⚠️⚠️ Renders Instead of Photographs — a Vetting Heuristic, and It Is Self-Implicating
+
+**A studio's own portfolio format tells you something about the budgets its work was built at.** Александр Синчуков, 2022-01. [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+- **On minimalism specifically: «БОЛЬШИНСТВО, видя красивые 3D-КАРТИНКИ, даже НЕ ДОГАДЫВАЮТСЯ, насколько ДОРОГОЙ это будет ремонт. Это касается НЕ ТОЛЬКО ЧИСТОВЫХ материалов, а также ИНЖЕНЕРИИ, ЧЕРНОВЫХ материалов и конечно ВЫСОКОКВАЛИФИЦИРОВАННЫХ РАБОТНИКОВ.»** «Выбирая минимализм, помните, что это ОДИН ИЗ САМЫХ ДОРОГИХ И СЛОЖНЫХ В РЕАЛИЗАЦИИ стилей.»
+- **⚠️⚠️ AND THE TELL: «ДИЗАЙН-СТУДИИ ОЧЕНЬ РЕДКО ПОКАЗЫВАЮТ ФОТОГРАФИИ РЕАЛИЗОВАННЫХ ПРОЕКТОВ — в основном это 3D-КАРТИНКИ — ПОТОМУ ЧТО МИНИМАЛИСТИЧНЫЙ ИНТЕРЬЕР, РЕАЛИЗОВАННЫЙ ЗА НИЗКИЙ БЮДЖЕТ, ВЫГЛЯДИТ КАК КАКОЙ-ТО ДЕШЁВЫЙ ОФИС ИЗ ГИПСОКАРТОНА.»**
+- **→ A checkable, pre-engagement heuristic: ask for PHOTOGRAPHS of completed work in the style you want, and treat a portfolio of renders as evidence about execution budget rather than about design ability. It converges from a third direction with this page's own "a render is not a design project" section and with the render-cannot-justify-an-upgrade rule on [[13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection|Flooring Material Selection]] — and unusually, it is a designer describing his own industry's presentation practice against interest.**
+- **⚠️ Note the interaction with minimalism specifically: minimalism is the style in which execution quality is most exposed (nothing distracts from a bad junction) AND the one most flattered by rendering (a render has no bad junctions). That is why the tell is strongest precisely where the risk is.**
 
 ### ⚠️ A Client-Qualification Signal — "This Is My Last Flat, Make It Perfect"
 

@@ -91,7 +91,7 @@ column) allow quick troubleshooting access** — if something electrical goes
 wrong, a drawer can be pulled to reach the outlet rather than needing to
 move the appliance. [source: [[_Sources/YT_JsRvUMfIPwc_inmyroom_22_secrets_washer_placement|INMYROOM TV]]]
 
-## ⚠️ Drying Is Omitted From the Brief and Then Cannot Be Retrofitted (Ксения, space organiser, and Александр Сенчугов, via NSDSGN)
+## ⚠️ Drying Is Omitted From the Brief and Then Cannot Be Retrofitted (Ксения, space organiser, and Александр Синчуков, via NSDSGN)
 
 **This page's Electrical section already says to count outlets per planned appliance. This is the failure that happens when drying never reaches the brief at all — and it is recorded from inside a professional space organiser's own flat, which is what makes it worth keeping.** [source: [[_Sources/YT_9ZwqMKiMgvc_nsdsgn_storage_organiser_family_flat|YT_9ZwqMKiMgvc]]]
 

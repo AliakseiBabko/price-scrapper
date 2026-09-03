@@ -105,6 +105,40 @@ From her "красиво но нереализуемо" gallery. [source: [[_Sou
   - **⚠️ AND THE COST ASYMMETRY THAT MAKES IT WORTH SUPERVISING, which is the argument to give a client: «в противном случае, когда ремонт уже закончен, ПЕРЕДЕЛЫВАТЬ ИНЖЕНЕРИЮ — это просто АД: вам придётся сломать ВСЮ ВАШУ ВАННУ, ВСЕ СТЕНЫ и делать всё заново.»**
   - **⚠️ The trade-off he names as the cause is the important part, because it identifies the decision that produces the fault: «НЕ ГОНИТЕСЬ ЗА НИЗКОЙ ванной или душевым подиумом, ПРЕНЕБРЕГАЯ ИНЖЕНЕРИЕЙ.»** The low threshold is an accessibility and appearance goal that competes directly with the fall the drain needs — read against the slope figures and linear-drain comparison above, which is where the height budget actually comes from.
 
+> [!IMPORTANT]
+> **⚠️⚠️ AND THE SAME PRACTITIONER, TWO YEARS EARLIER, ON THE CURBLESS SHOWER — WHICH LOOKS LIKE A CONTRADICTION AND IS ACTUALLY THE OTHER HALF OF THE SAME VARIABLE.**
+>
+> **«ДУШ БЕЗ ПОРОЖКА — это конечно очень красиво, очень модно, но ЧТО БЫ НИ ГОВОРИЛИ МОДНЫЙ БЛОГЕР ИЗ ЮТЮБА, просто ПОВЕРЬТЕ МОЕМУ ОПЫТУ: у вас ВСЕГДА будет уходить вода, всё равно ВСЕГДА БУДЕТ УБЕГАТЬ. Поэтому ЖЕЛАТЕЛЬНО ИМЕТЬ ХОТЯ БЫ НЕБОЛЬШОЙ, НЕЗАМЕТНЫЙ ГЛАЗУ ПЕРЕПАД — это убережёт вас от вечно МОКРОГО ПОЛОТЕНЦА перед душем.»**
+>
+> **→ THE RECONCILIATION, which neither statement makes and which this page should carry: these are TWO DIFFERENT DIMENSIONS, not one.**
+>
+> | Dimension | What it does | Failure if too small |
+> | :--- | :--- | :--- |
+> | **The FALL inside the zone** | Moves water to the drain | Water STANDS in the tray — the podium-too-low case above |
+> | **The LIP at the zone's edge** | Stops water leaving the zone | Water ESCAPES onto the bathroom floor — the curbless case |
+>
+> **A curbless shower can have a perfect internal fall and still wet the floor, and a well-lipped one can still pond. You need both, and "how high is the step" conflates them.** The linear-drain and pre-sloped-pan products compared above are solutions to the first dimension only; **the second is a threshold detail, and his recommendation is a lip small enough to be visually imperceptible rather than none at all.** [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+>
+> **⚠️ Note who he is contradicting — «модные блогеры из ютюба» — and that this vault's own free-standing-bath and curbless content largely comes from the same trend-facing sources. A 20-year practitioner staking his experience against the trend is worth recording as a dissent even where the trend is well represented here.**
+
+### ⚠️ A Floor Drain Inside a Free-Standing Bath's Podium — Cheap at Rough Stage, Impossible Later
+
+**From the same 2022 source, and this vault did not hold it.** A free-standing bath will usually stand on a podium so water can be shed away from it —
+
+- **⚠️ «СДЕЛАЙТЕ В ЭТОМ ПОДИУМЕ ОБЯЗАТЕЛЬНО ТРАП, на случай если у вас прольётся вода, чтобы она УШЛА В ТРАП и вы ИЗБЕЖАЛИ ЗАТОПЛЕНИЯ. Это может быть очень важно и СПАСЁТ ВАС ОТ СЕРЬЁЗНЫХ ПРОБЛЕМ.»** *(Excluding a detached house, where the consequence of a spill is different.)*
+- **→ A passive, unpowered version of a leak sensor: it cannot false-trigger and needs no socket. It complements rather than replaces a sensor, since it only helps where water can reach it — but for a plinth-mounted bath it is near-free at rough stage.** See [[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak Protection Systems]].
+- **⚠️ He also states the free-standing bath's other requirements here, two years before the version this vault holds from the October 2022 follow-up: access behind it is mandatory («если у вас упал шампунь, полотенце, либо вода туда заливается»), and the half-attached bath — «отдельностоящие ванны, которые ОДНИМ БОКОМ ПРИЛЕПЛЕНЫ К СТЕНЕ» — «избавляет сразу от всех переливов и [от] западания туда моющих средств». So the remedy this vault credits to Oct 2022 was already published in Jan 2022.** His verdict on the type: **«я вижу ЕДИНСТВЕННЫЙ СМЫСЛ ставить отдельно стоящую ванну — это делать в неё ФОТОСЕССИИ.»**
+
+## ⚠️ A Glass Screen Width, and Why It Needs a Top Brace (his own 4 m² bathroom)
+
+**A dimension offered as an answer to a question he says he is asked constantly, with the honest caveat attached.** [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]
+
+- **⚠️ «Стекло у нас выходит на 60 СМ. Часто СПРАШИВАЮТ, сколько должно быть — мне ХВАТАЕТ. Иногда НЕМНОЖКО ВОДЫ ПОПАДАЕТ. КТО КАК МОЕТСЯ: кому-то и 50 хватит, кому-то и МЕТРА не хватит. Мне 60 за глаза хватает.»**
+  **→ 60 cm as a working figure for a bath screen, with the variance named as behavioural rather than dimensional. He accepts a small amount of escaping water at that width, which is consistent with the curbless finding above — the screen is a mitigation, not a seal.**
+- **⚠️ A TOP BRACE IS STRUCTURALLY REQUIRED, not decorative: «сверху есть КРОНШТЕЙН — БЕЗ НЕГО НИКАК, потому что стекло всё-таки имеет какой-то ЛЮФТ, и этот кронштейн помогает ему ДЕРЖАТЬ ЖЁСТКОСТЬ.»**
+  **⚠️ And he pre-empts the aesthetic objection with a finish argument that recurs across his whole flat: the brace is matched to every other fitting in satin brushed steel, and «на ней НЕ ТАК ВИДНЫ СЛЕДЫ, как на ПОЛИРОВАННОМ металле», so «этот кронштейн здесь РАСТВОРЯЕТСЯ». → Fourth instance of the satin-over-polished-or-black position in this vault; see [[07_Bathroom/analysis/Toilets_and_Hygienic_Shower|Toilets and Hygienic Shower]].**
+- **⚠️ He chose glass over a concealed-cornice fabric curtain at the last moment, and reports the maintenance honestly rather than defending the choice: he wiped the glass before filming, marks DO remain, «и то НЕ УДАЛОСЬ ВСЁ УБРАТЬ ДО ИДЕАЛА».** See the note on prepared interior footage on [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]].
+
 ## Pebble-Floor Technical-Gap Cover, Satellite Home-Office Shower, and an Oversized Shower-Cabin Rule (Игорь Краснов, real projects, added 2026-09-02, Round 8)
 
 Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]

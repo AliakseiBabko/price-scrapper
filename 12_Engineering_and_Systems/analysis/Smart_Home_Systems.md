@@ -273,6 +273,27 @@ recorded as general reference only:
 
 **⚠️ A humidity figure worth keeping, since it is the reason the humidifier exists at all: with the radiators running in a Petersburg winter, «это УЖАСНЫЙ СУХОЙ ВОЗДУХ, у меня начинают ЛОПАТЬСЯ СОСУДЫ… там по 10% ВЛАЖНОСТИ показывает». In summer he does not use it — «воздух в Питере и так довольно влажный».** So the device is heating-season-only, which bears on whether it is worth integrating at all. See the humidification note on [[12_Engineering_and_Systems/analysis/Breathers_vs_Mechanical_Ventilation|Breathers vs Mechanical Ventilation]].
 
+## ⚠️⚠️ Only Three Functions Survive Daily Use — a 2022 Prediction the Same Practitioner Validated on Himself in 2024
+
+**This is the most useful single item on this page, because it is a prediction about RETENTION rather than a list of capabilities — and the vault happens to hold the same person's own installation two and a half years later.**
+
+**January 2022, reporting from clients rather than from his own practice** (`CN-Ab_g4CAI`):
+
+- **«Со слов моих заказчиков и их друзей я ОЧЕНЬ ЧАСТО СЛЫШУ, что умный дом НЕ УЛУЧШАЕТ жизнь, А НАОБОРОТ УСЛОЖНЯЕТ. Часто все функции умного дома включают ТОЛЬКО В ОДНОЙ СИТУАЦИИ — когда к вам пришли ГОСТИ и вам нужно ПОКАЗАТЬ ИМ, какой у вас крутой умный дом.»**
+- **⚠️ «В повседневной жизни вы просто НЕ ПОЛЬЗУЕТЕСЬ этой автоматикой — вы пользуетесь ТОЛЬКО НЕСКОЛЬКИМИ ФУНКЦИЯМИ: управление ГРУППАМИ СВЕТА, СЦЕНАРИЯМИ и управление ШТОРАМИ. ВСЁ ОСТАЛЬНОЕ НАГРОМОЖДЕНИЕ ТОЛЬКО УСЛОЖНЯЕТ ВАМ ЖИЗНЬ и мешает.»**
+- **«Если вы хотите систему умного дома, то очень хорошо ПРОДУМАЙТЕ ВСЕ ПРОЦЕССЫ и оставьте ТОЛЬКО ТЕ, КОТОРЫЕ УЛУЧШАТ вашу жизнь.»**
+
+> [!IMPORTANT]
+> **⚠️⚠️ AND HERE IS THE VALIDATION, WHICH IS UNUSUALLY CLEAN.**
+>
+> In **July 2024**, reporting a year of living in his own flat (`lhikl-7c43c`, recorded in the section above), the smart-home functions he actually runs are: **light groups**, an **«Алиса, спокойной ночи» SCENE**, and **motorised CURTAINS.**
+>
+> **He named the three survivors in 2022 and then independently converged on exactly those three.** The additional devices in his flat are all *scheduled appliances* — purifier, humidifier, robot vacuum, garland — which are set once and never interacted with, i.e. they are not "smart home use" in the sense the prediction was about.
+>
+> **→ Two consequences for how this page should be read. (1) The scene layer is not a convenient extra: it is one of only three functions a household keeps, which is why Round 4's goodnight-scene finding and the light-group cap on [[12_Engineering_and_Systems/analysis/Switches_and_Controls|Switches and Controls]] are the same finding. (2) This page's device sections and the ecosystem starter kit should be read as a MENU RANKED BY EXPECTED RETENTION, not by capability — and everything outside those three plus set-and-forget scheduling should carry the "will be shown to guests and then ignored" prior until a source says otherwise.**
+>
+> **⚠️ It also converges with the Ontario motion-sensor reliability caution and with his own flat rejection of motion sensors: the functions that survive are the ones with a DELIBERATE, ADDRESSABLE trigger — a switch, a spoken scene, a schedule — and the ones that die are the ones that try to guess.** [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
 ## Wired vs. wireless architecture — moved to its own page
 
 See **[[12_Engineering_and_Systems/analysis/Smart_Home_Wired_vs_Wireless|Smart Home — Wired vs. Wireless Architecture]]**. **That decision has to be made at the rough stage**, before the walls close; this page keeps pricing, control methods, devices, sensors and the ecosystem starter kit, which can be revisited later.

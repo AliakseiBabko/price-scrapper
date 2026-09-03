@@ -181,7 +181,7 @@ match the walking path, not panel geometry. `single-account`. [source: [[_Source
 
 **Related placement rule from the same source**: don't scatter the worktop-light switch across the backsplash separately from the outlets — put it in the same frame, on the same line ("не мельтешить по всему фартуку").
 
-### ⚠️ A Designer's Flat Rejection of Motion Sensors, and What He Uses Instead (Александр Сенчугов)
+### ⚠️ A Designer's Flat Rejection of Motion Sensors, and What He Uses Instead (Александр Синчуков)
 
 **Recorded as a dissent, because motion sensors are usually recommended for exactly the locations he refuses them in** — corridors and bathrooms — and because the Ontario reliability caution already on [[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]] is about false triggering, whereas this objection is about the interaction itself:
 
@@ -191,7 +191,7 @@ match the walking path, not panel geometry. `single-account`. [source: [[_Source
 
 ## ⚠️⚠️ Switch Mechanism Cycle Life — 1,000 vs 20,000 Operations, and a Fire
 
-**The most consequential safety item on this page, and it comes with a diagnostic signature.** Designer Александр Сенчугов, 20 years' practice. [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+**The most consequential safety item on this page, and it comes with a diagnostic signature.** Designer Александр Синчуков, 20 years' practice. [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
 
 - **⚠️ THE FIGURES, and the purchasing criterion they imply: «самый дешёвый выключатель выдержит у вас там 1.000 НАЖАТИЙ, а если вы покупаете просто качественный — не самый дорогой, не из мрамора, а из ПЛАСТИКА, но с КАЧЕСТВЕННЫМ МЕХАНИЗМОМ — выдержит 20.000 НАЖАТИЙ и прослужит гораздо дольше.»** A 20× difference.
   **→ The criterion is the MECHANISM, not the faceplate material — which is a genuinely useful separation, because the visible half is what price is usually judged on. This page's plate-colour sections above are about the visible half; this is about the half that fails.** `single-account`, `unverified` figures.
@@ -203,13 +203,26 @@ match the walking path, not panel geometry. `single-account`. [source: [[_Source
 ## ⚠️⚠️ How Many Light Groups? — the Same Practitioner Answers Twice, Four Years Apart, and the Two Answers Reconcile
 
 > [!IMPORTANT]
-> **This page and [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]] both carry a scenario-count debate. Александр Сенчугов supplies both sides of it himself, and the reconciliation is a single rule rather than two competing recommendations.**
+> **This page and [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]] both carry a scenario-count debate. Александр Синчуков supplies both sides of it himself, and the reconciliation is a single rule rather than two competing recommendations.**
 
 **2022 — cap the count.** «Изначально все просят: я хочу много световых групп, я хочу разные сценарии. **Но по факту, во время жизни, всё сводится к ДВУМ, максимум ТРЁМ сценариям. Больше световых групп уже просто начинает РАЗДРАЖАТЬ, когда ты стоишь и ИЩЕШЬ выключатель, который тебе нужен.**» His own case, filming in a large house: about a minute standing there selecting the right light. He allows that a permanent resident may memorise it, «но скорее всего вы будете включать просто ОДНИМ ДВИЖЕНИЕМ». **This is the same cognitive-load argument as the "piano of switches" caution above, arrived at independently.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
 
 **2024 — many devices, one command.** In his own flat he now has a controlled socket with a night-light in the study, a kitchen floor lamp, wall night-lights, a bedside lamp and motorised curtains, and reports exactly the predicted problem: **«чтобы всё это закрыть, нужно КАК ДУРАК ХОДИТЬ ПО ВСЕЙ КВАРТИРЕ, говорить: Алиса, закрой это; Алиса, выключи это.»** The fix: **«прописал СЦЕНАРИЙ — когда ты говоришь просто "Алиса, спокойной ночи", у тебя выключается весь свет, который тебе нужно, и ЗАКРЫВАЮТСЯ ШТОРЫ… оно очень просто делается, и я всем его рекомендую».** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
 
 **→ THE RULE, stated once instead of twice: the tolerable number of light groups is set by whether a SCENE can collapse them into one action. Without scenes, cap at two or three — the 2022 advice stands and the search cost is real. With scenes, the count stops mattering, because the household never enumerates the groups.** The corollary is a specification one: **if a project is being drawn with many groups, the scene layer is not an optional upgrade — it is what makes the group count usable**, and the master-switch dissent above is the same argument in a cruder form (one action beats many).
+
+> [!WARNING]
+> **⚠️⚠️ CORRECTION, 2026-09-03 — THE RULE ABOVE IS NOT MY SYNTHESIS. HE STATED IT HIMSELF, IN JANUARY 2022, BEFORE EITHER SOURCE THE SECTION ABOVE IS BUILT FROM.**
+>
+> An earlier video from the same channel (`CN-Ab_g4CAI`, **2022-01-26**) carries the cap AND its resolution in one sentence: **«когда групп света слишком много, это очень сильно УСЛОЖНЯЕТ вашу жизнь. В ИДЕАЛЕ, ЕСЛИ ВЫ ХОТИТЕ БОЛЬШЕ ТРЁХ ГРУПП ОСВЕЩЕНИЯ, ТО ХОРОШО ЭТИ ГРУППЫ ОБЪЕДИНИТЬ [В] УМНЫЙ ДОМ. В противном случае, если при входе в комнату у вас будет ПИАНИНО ИЗ ВЫКЛЮЧАТЕЛЕЙ, 10 цветовых групп, это будет каждый раз превращаться в ИГРУ "НАЙДИ ВЫКЛЮЧАТЕЛЬ".»**
+>
+> **I presented the reconciliation above as something I had constructed from a 2022 cap and a 2024 practice. It is the source's own rule, and the vault must credit it as such.** The 2024 own-flat account remains valuable as *evidence that he then followed his own rule*, but it is corroboration, not the other half of a contradiction.
+>
+> **⚠️ Note also that «ПИАНИНО ИЗ ВЫКЛЮЧАТЕЛЕЙ» is the same image as the "piano of switches" caution recorded on this page from Kruglov/Ontario — and this instance is earlier. Convergent phrasing, possibly a common trade idiom; recorded as convergence rather than as one source citing another.**
+>
+> **→ The lesson for this vault, which is the same one as the surname correction logged the same day: before crediting a synthesis to the reading, check whether an earlier source in the same channel already made it. A channel's back catalogue can contain the resolution to what looks like its own contradiction.** [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+**⚠️ And the three combinations he says a household actually needs, from the same January 2022 source — which is where this channel's "the bright fitting is a CLEANING light" framing originates:** **«яркий свет для УБОРКИ или если вы просто любите яркое освещение; СПОКОЙНЫЙ свет для повседневной жизни; и НОЧНОЙ НАВИГАЦИОННЫЙ свет, он помогает перемещаться в тёмное время суток.»** All fittings on **one colour temperature**. **→ That framing was later found in three separate rooms of his own flat (Rounds 4-5), so the vault has the rule and three instances of him living by it.** See [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]] and [[07_Bathroom/analysis/Lighting_and_Electrical|Bathroom: Lighting and Electrical]].
 
 ## Named Product Line and a Frame-Swap Lifehack (added 2026-08-24, Round 2)
 

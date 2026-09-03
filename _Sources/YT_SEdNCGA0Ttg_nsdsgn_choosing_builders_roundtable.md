@@ -1,6 +1,6 @@
 ---
 video_id: SEdNCGA0Ttg
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), with Сергей Аскорбин (design studio, ex-прораб) and Дима Курилов (Курилов Дизайн, very expensive segment)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), with Сергей Аскорбин (design studio, ex-прораб) and Дима Курилов (Курилов Дизайн, very expensive segment)
 source_type: youtube
 source_title: "КАК ВЫБРАТЬ СТРОИТЕЛЕЙ И НЕ ПОЖАЛЕТЬ? | Подкаст с дизайнерами интерьера"
 source_url: https://www.youtube.com/watch?v=SEdNCGA0Ttg

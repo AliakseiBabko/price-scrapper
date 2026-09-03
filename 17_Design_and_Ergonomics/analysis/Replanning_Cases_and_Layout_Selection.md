@@ -83,6 +83,51 @@ Moscow designer, 2025, `promotional_ratio: medium` (no sponsor; heavy own-studio
 - **Almost all walls load-bearing (typical panel houses)**: room and corridor boundaries are fixed. **The one common exception she names: an opening between kitchen and living room in П-series houses (П44 and similar) — and even that needs separate approval.**
 - **⚠️ Her positive criteria for a good layout, as a compact pre-purchase checklist**: overall form close to square; **if rectangular, all corners 90° or at minimum all but one**; **windows on as many sides as possible — ideally three, at least two**; not many load-bearing walls; an adequate original layout needing only minor correction. **Her resale framing: such housing stays liveable, worth an investment-grade renovation, and resellable at a margin.**
 
+## ⚠️⚠️ Recovered Corridor Area — an Estate Agent Quantifies the Gain, and a Designer Names Where It Destroys a Room
+
+**Two sources from one intake round, arguing opposite sides of the same move. Neither is wrong, and together they define the boundary — which is more useful than either alone.**
+
+### The gain, from the party who sells the flats
+
+**Игорь Михайлов, head of a St Petersburg agency (~400 flats sold last year), on what he rates as the designer's most quantifiable contribution:** [source: [[_Sources/YT_vTgY6vioNik_nsdsgn_realtor_vs_designers_podcast|YT_vTgY6vioNik]]]
+
+- **«Дизайнеры очень круто влияют на то, СКОЛЬКО МЕТРОВ в квартире. Можно купить квартиру 100 м², где будет ПОЛЕЗНОЙ ПЛОЩАДИ дай Бог 50-60 — потому что у ЗАСТРОЙЩИКА СВОИ ЦЕЛИ, они в каждой планировке НЕ КОПАЮТСЯ. Это [решается], когда КОНЕЧНЫЙ ПОТРЕБИТЕЛЬ покупает [и делает] КАЧЕСТВЕННУЮ ПЕРЕПЛАНИРОВКУ, которую может посоветовать ДИЗАЙНЕР.»**
+- **⚠️ «Заплатив ОДИН РАЗ дизайнеру… на выходе получишь из стометровой квартиры НЕ 60 квадратных метров полезной площади, А 70, 72 В ИДЕАЛЕ.»** The host confirms he offers **five or six replanning variants** per flat.
+- **→ A claimed ~10-12 percentage-point gain in usable area, i.e. ~10-12 m² recovered on a 100 m² flat, asserted by someone who sells the flats rather than the replanning. `single-account`, `unverified`, and the figures are round.** ⚠️ The transcript garbles the arithmetic at this point and emits a stray "180"; **that is transcription noise, not part of the claim.**
+- **⚠️ Note what makes this worth recording despite being round numbers: it is a COMMERCIALLY ADVERSE witness. An agent has no stake in a buyer spending money on a designer, and if anything benefits from flats being seen as adequate as built.**
+
+### ⚠️ And the specific way it goes wrong, from the designer
+
+**Александр Синчуков, 2022-01 — and he is unusually blunt about it:** [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+- **He grants the premise: the corridor is «САМОЕ БЕСПОЛЕЗНОЕ в плане расходования пространства помещение — там мы проводим МЕНЬШЕ ВСЕГО ВРЕМЕНИ», so «очень часто возникает ЖЕЛАНИЕ ИЗБАВИТЬСЯ от него и ПРИСОЕДИНИТЬ к жилой комнате, таким образом РАСШИРИВ её».**
+- **⚠️⚠️ THEN THE FAILURE: «очень часто в ходе перепланировки и присоединения коридора комната ПРЕВРАЩАЕТСЯ В ПРОХОДНУЮ, А ЖИТЬ В ТАКОЙ КОМНАТЕ ПРОСТО УЖАСНО. КТО НЕ ЖИЛ — ПРОСТО ПОВЕРЬТЕ МНЕ, ТАМ НЕВОЗМОЖНО НОЧЕВАТЬ: ВСЕГДА КТО-ТО МИМО ВАС БУДЕТ ХОДИТЬ В ТУАЛЕТ ИЛИ НА КУХНЮ.»**
+- **⚠️ THE MITIGATION IF YOU DO IT ANYWAY: «если вы объединяете коридор с КУХНЕЙ, то ОБЯЗАТЕЛЬНО сделайте ЗОНИРОВАНИЕ с помощью РЕЕК, каких-то СТЕЛЛАЖЕЙ и ШКАФОВ, чтобы пространство коридора хоть как-то ЗОНАЛЬНО ОТДЕЛЯЛОСЬ. При этом перегородка может быть СВЕТОПРОХОДЯЩЕЙ, и пространство комнаты ВСЁ РАВНО БУДЕТ БОЛЕЕ ОБЪЁМНЫМ, чем с ГЛУХОЙ СТЕНОЙ.»** See [[17_Design_and_Ergonomics/analysis/Room_Zoning_Partition_Methods|Room Zoning and Partition Methods]].
+- **⚠️ AND THE SCOPE LIMIT, which is the operative sentence: «объединять коридор С КОМНАТОЙ я бы рекомендовал ТОЛЬКО В ОДНОМ СЛУЧАЕ — ЕСЛИ ЭТА КОМНАТА ЯВЛЯЕТСЯ ГОСТИНОЙ.»**
+
+> [!IMPORTANT]
+> **⚠️⚠️ THE BOUNDARY THE TWO SOURCES DEFINE TOGETHER: "USABLE AREA" IS NOT A SCALAR.**
+>
+> **Recovered circulation area is a genuine gain in a LIVING ROOM — which is already a room people walk through — and a functional LOSS in a BEDROOM, because it converts the room into a thoroughfare and destroys the one thing a bedroom is for.**
+>
+> **→ So the agent's ~10-12 m² figure is achievable, but only some of it is achievable WITHOUT COST. Before accepting a usable-area gain as a benefit, ask which room absorbed the corridor and whether anybody sleeps in it.** A replanning that recovers 12 m² by routing traffic through a bedroom has not made the flat bigger; it has made it worse in a way that shows up in occupancy rather than on the plan.
+>
+> **⚠️ This also qualifies the "developers don't optimise layouts" claim: a developer's stock plan spends area on circulation partly BECAUSE circulation has to go somewhere. The recoverable share is real but smaller than a plan comparison suggests.**
+
+## ⚠️ Moving a Bathroom or Kitchen — the Constraint That Is Forgotten, and Its Technical Consequence
+
+**Legitimate reasons to replan are named** — a better view from the bedroom than the living room, wall configuration that suits the appliances better, wanting the bathroom nearer the bedroom «чтобы не ходить через всю квартиру мыться». **Then:**
+
+- **⚠️ «ОДНА ОЧЕНЬ ВАЖНАЯ ОШИБКА, о которой ПОСТОЯННО ПОЧЕМУ-ТО ЗАБЫВАЮТ — это ИНЖЕНЕРИЯ. Если вы хотите ПЕРЕНЕСТИ ванную либо кухню в другую часть квартиры, то ОБЯЗАТЕЛЬНО нужно ОБЕСПЕЧИТЬ К НЕЙ ДОСТУП ВОДЫ — и это очень часто ЗАКАНЧИВАЕТСЯ ПОДЪЁМОМ ПОЛОВ, организацией НАСОСОВ и другими моментами, которые просто ПОРТЯТ ВАМ ПЛАНИРОВКУ И ДИЗАЙН.»**
+- **→ The point is the recursion: the engineering needed to realise a better plan degrades that plan. A raised floor eats the ceiling height the replan was partly meant to showcase, and a pump introduces the noise and reliability problems recorded against macerators on [[07_Bathroom/analysis/Planning_and_Layout|Bathroom: Planning and Layout]]. So the drainage route should be checked BEFORE a layout variant is presented, not after it is chosen.**
+
+> [!WARNING]
+> **⚠️ REGULATORY CLAIMS, RUSSIAN SOURCE — flagged in place, NOT routed to `16_Legal_and_Regulations/`, which is Belarus-only. This page's existing ten-prohibitions section is also Russian and carries the same caveat.**
+>
+> **«Вы НАРУШИЛИ СТРОИТЕЛЬНЫЕ НОРМЫ, и если СОСЕДИ УЗНАЮТ, что над их СПАЛЬНЕЙ появилась ВАННА, МОКРАЯ ЗОНА, то это может кончиться ОЧЕНЬ БОЛЬШИМ ШТРАФОМ и ПРЕДПИСАНИЕМ ВОССТАНОВИТЬ ВСЁ в первоначальное состояние.»** And an exception: **«НОРМЫ ПЕРЕПЛАНИРОВКИ НЕ РАСПРОСТРАНЯЮТСЯ НА АПАРТАМЕНТЫ, и единственное ограничение для апартаментов — это конечно же ИНЖЕНЕРИЯ.»**
+>
+> **No code or article is cited. What transfers regardless of jurisdiction is the TECHNICAL trigger and the ENFORCEMENT ROUTE: the specific breach is a wet zone over a habitable room below, and the thing that surfaces it is A NEIGHBOUR NOTICING — which matches this page's existing finding that the consequence that actually bites is resale rather than the fine, since both depend on the breach becoming known rather than being detected.**
+
 ---
 
 Part of [[17_Design_and_Ergonomics/analysis/Whole_Home_Planning_Method|Whole-Home Planning Method]].

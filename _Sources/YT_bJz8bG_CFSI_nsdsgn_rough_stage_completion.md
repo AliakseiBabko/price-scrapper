@@ -1,6 +1,6 @@
 ---
 video_id: bJz8bG_CFSI
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), with Руслан — contractor
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), with Руслан — contractor
 source_type: youtube
 source_title: "Как выглядит серьезный ремонт в 2024 году | Окончание чернового этапа | Обзор стройки"
 source_url: https://www.youtube.com/watch?v=bJz8bG_CFSI

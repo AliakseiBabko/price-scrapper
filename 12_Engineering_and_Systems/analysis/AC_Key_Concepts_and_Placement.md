@@ -103,7 +103,7 @@ a Moscow-City-area development, name transcribed uncertainly as "ЖК Nivers в 
 
 Forcemontage (turnkey renovation company, real project, region unresolved) extends this page's existing outdoor-unit-placement taxonomy with two real-case items: **balcony placement is technically workable but makes the balcony unusably hot while the AC runs** — a real usability tradeoff distinct from the building-restriction/serviceability rationales already above. A real solved case for a facade with no pre-designed basket and a ban on standard facade mounting: the outdoor unit was **recessed into a ventilated-facade cavity**, mounted on brackets fixed to the building's own monolithic structural slab, saving the boxing space a standard surface mount would need, with a dedicated serviceable access hatch planned separately for maintenance. `single-account`. [source: [[_Sources/YT_7vjW6SzHeWM_forcemontage_ventilation_types_cost|7vjW6SzHeWM]]]
 
-### ⚠️ Two Outdoor-Unit Constraints With Real Costs Attached (Александр Сенчугов / NSDSGN, 2023-10-17)
+### ⚠️ Two Outdoor-Unit Constraints With Real Costs Attached (Александр Синчуков / NSDSGN, 2023-10-17)
 
 **This page's outdoor-unit taxonomy already covers where a unit may go. These are two constraints that turn placement into a cost or a prohibition.** [source: [[_Sources/YT_xA0pFTLCt5M_nsdsgn_ventilation_and_ac_costs|YT_xA0pFTLCt5M]]]
 

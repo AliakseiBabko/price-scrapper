@@ -380,7 +380,7 @@ From the studio's own bill of quantities. **Region unresolved at level 1** (RUB 
 
 [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
 
-## Kitchen Costing Ratios With No Absolute Prices, July 2025 (Александр Сенчугов / NSDSGN)
+## Kitchen Costing Ratios With No Absolute Prices, July 2025 (Александр Синчуков / NSDSGN)
 
 **⚠️ Recorded as a set because none of it decays.** Every figure is a ratio, so it stays usable against a quote in any later year and needs no conversion.
 
@@ -456,7 +456,7 @@ From the studio's own bill of quantities. **Region unresolved at level 1** (RUB 
 
 [source: [[_Sources/YT_yaeQr8Q0tCQ_nsdsgn_renovation_cost_roundtable|YT_yaeQr8Q0tCQ]]]
 
-## Ventilation and Air-Conditioning System Costs, October 2023 (Александр Сенчугов / NSDSGN)
+## Ventilation and Air-Conditioning System Costs, October 2023 (Александр Синчуков / NSDSGN)
 
 **The first itemised ventilation and AC system costs in this store, and the decomposition is the useful part.**
 
@@ -651,3 +651,60 @@ Recorded in full earlier in this store from the 500lux source; repeated here onl
 
 > [!NOTE]
 > **⚠️ Conversion basis note.** Only one figure in this round required conversion, and it is a recollection rather than a quote. **No historical figure in this round was converted at a spot rate**, per the standing rule. The 2026-04-14 source contains no prices at all, which is worth recording because it is a 33-minute systematic framework video — **the absence is a property of the format, not an oversight in extraction.**
+
+## ⚠️ Round 5 — NSDSGN figures (2026-09-03)
+
+**Three prices, one of them already in USD by the practitioner's own choice, and a large body of dimensional and ratio data. Conversion basis for the Russian figures: trailing 6-month USD/RUB mean before the confirmed `yt-dlp` upload date, per standing policy.**
+
+### ⚠️⚠️ The Belarus-inclusive benchmark, which needs no conversion at all
+
+| Item | Figure | Basis |
+| :--- | :--- | :--- |
+| **A good individual HOUSE, build cost** | **from ~$1,500 / m²** | **⚠️ Stated in USD BY THE PRACTITIONER, on purpose: «говорю в долларах, потому что так немножко будет более УНИВЕРСАЛЬНО». Explicitly covers «европейскую часть России [и] БЕЛАРУСЬ». Upload 2025-01-21. `single-account`.** **⚠️ RARE AND VALUABLE FOR THIS VAULT because it carries NO FX-basis risk and needs no conversion — and it is the only Belarus-inclusive build benchmark here. ⚠️ It is a HOUSE figure and must NOT be read across to an apartment renovation.** «Дальше безусловно ПРЕДЕЛА НЕТ» |
+
+### Russian prices, converted
+
+**Conversion rate for both: 89.8520 ₽/$, trailing 6-month mean, span 2024-03-19..2024-09-17, 126 samples.**
+
+| Item | Figure | USD | Note |
+| :--- | :--- | :--- | :--- |
+| Title insurance, 3 years, on a secondary-market flat | **~15,700 ₽** | **≈$170** | ⚠️ The figure is a QUOTE in his worked example, not a tariff. **Its value is as a due-diligence technique rather than a price — the insurer's underwriting checks the property before quoting, so the quote itself is the clean-title signal and you need not buy the policy.** Russian instrument (титульное страхование); does not transfer to Belarus |
+| Average purchase ticket, his agency | **~12m ₽** | **≈$134,000** | Segment marker only, for weighting his other statements |
+| Average purchase ticket, St Petersburg overall | **~7.8m ₽** | **≈$86,800** | His figure. They transact from 5m to 30-50m ₽ |
+
+### ⚠️ Ratios, percentages and counts
+
+| Figure | What it is | Source |
+| :--- | :--- | :--- |
+| **3-4%, falling to 1%** | **⚠️ Estate agents' commission FROM DEVELOPERS — market rate, against 1% offered on end-of-stock inventory. With the disclosure that gives it teeth: «ЧЕМ ХУЖЕ ЗАСТРОЙЩИК, ТЕМ ОН БОЛЬШЕ ПЛАТИТ — так устроен рынок.» Read as a bias-reading rule alongside this store's 2-15% designer procurement-commission range** | `vTgY6vioNik` |
+| **~50-60% → 70-72%** | **⚠️ Usable area («полезная площадь») on a developer's 100 m² plan, before and after a designer's replanning — i.e. a claimed ~10-12 m² recovered. Asserted by an ESTATE AGENT, a commercially adverse witness. `single-account`, `unverified`, round numbers.** ⚠️ The transcript garbles the arithmetic here and emits a stray "180", which is noise. **⚠️ And it is not a free gain — see the corridor-absorption counterweight from the same round** | `vTgY6vioNik` |
+| **~2×** | **⚠️ Rise in premium imported sanitaryware prices, 2022 → early 2024: «сейчас цены выросли ПРАКТИЧЕСКИ В ДВА РАЗА — я сейчас бы конечно НЕ СМОГ СЕБЕ ПОЗВОЛИТЬ это.» Corroborates this store's existing "rough materials rose nearly 2×" note from `Z0brwxSe7gQ`. ⚠️ He bought at a large disclosed TRADE DISCOUNT, so his own purchase price is not a market price — a caveat that applies to every product in every "designer's own flat" source on this channel** | `_nDCLhRUojE` |
+| **90%** | **⚠️ Of cases in which a wall bar, pull-up bar or treadmill «используются только по ОДНОМУ назначению — чтобы ВЕШАТЬ НА НИХ ОДЕЖДУ». The quantified version of the never-used-equipment finding, and the EARLIEST statement of it in this vault (2022-01)** | `CN-Ab_g4CAI` |
+| **up to 95%** | **⚠️ Of cases in which a heating appliance sits under the window — so a sink-under-window layout triggers heating relocation with near-certainty, which makes the cost predictable before it is designed** | `CN-Ab_g4CAI` |
+| **3 (of many)** | **⚠️ Smart-home functions that survive daily use, per client reports: light GROUPS, SCENES, and CURTAINS. Everything else «включают только когда пришли ГОСТИ». ⚠️ Predicted in 2022-01 and validated on his own flat in 2024-07, where those are exactly the three running** | `CN-Ab_g4CAI` |
+| **>3 groups** | **⚠️ The threshold above which light groups must be consolidated into a smart home rather than switched individually — «иначе ПИАНИНО ИЗ ВЫКЛЮЧАТЕЛЕЙ… ИГРА "НАЙДИ ВЫКЛЮЧАТЕЛЬ"». ⚠️ Corrects this vault's dating and attribution of that rule** | `CN-Ab_g4CAI` |
+| **2-3 fitters** | **⚠️ Crew size required to lay large-format porcelain — «часто крупный формат НЕВОЗМОЖНО УЛОЖИТЬ В ОДИНОЧКУ». A scheduling and pricing fact, and a reason to question a single tiler's quote for the format** | `CN-Ab_g4CAI` |
+| **3-4 storeys** | **⚠️ Height reached by historic glass-brick walls, laid on plain cement mortar with NO internal reinforcement — «самые высокие, известные мне, достигали трёх-четырёх этажей». Establishes the material as a real divider rather than a delicate accent** | `Tj94jGH6fls` |
+| **~10 models** | Falconnier brick models reconstructed from originals. ⚠️ ASR-garbled count, recorded `uncertain` | `Tj94jGH6fls` |
+
+### ⚠️⚠️ Dimensions — where most of this round's reusable value sits
+
+| Figure | What it is | Source |
+| :--- | :--- | :--- |
+| **~15 cm → ~1 m²** | **⚠️⚠️ Moving a bathroom partition into the CORRIDOR: «подвинули эти стены в коридор буквально на САНТИМЕТРОВ 15, но это уже дало нам, по сути, КВАДРАТНЫЙ МЕТР.» ⚠️ AND THE SECOND, INVISIBLE DIVIDEND: the thickened wall is what made CONCEALED MIXERS possible, plus a shampoo niche and a bath-filler podium. Only the floor area appears on a plan, so the move is systematically undervalued** | `_nDCLhRUojE` |
+| **25 cm** | **⚠️ Wall build-up required to house a WC installation and hang the pan. With the cleaning dividend: «когда унитаз не достаёт до пола, туда удобно заходит тряпка, пылесос». ⚠️ In a 3 m² room this and the 15 cm above compete for the same scarce dimension, and both were spent only because the corridor absorbed the difference** | `_nDCLhRUojE` |
+| **3 m² + 1 m²** | The starting composition — bathroom plus separate WC — which he calls **«САМАЯ КЛАССИЧЕСКАЯ ПЛАНИРОВКА для небольших ДВУХКОМНАТНЫХ квартир»**, i.e. the base case this project is likely to face | `_nDCLhRUojE` |
+| **60 cm** | **⚠️ Bath glass screen width, offered as an answer to a frequently asked question — with the variance named as BEHAVIOURAL rather than dimensional: «кому-то и 50 хватит, кому-то и МЕТРА не хватит». He accepts a little escaping water at that width** | `_nDCLhRUojE` |
+| **120 × 60 cm** | Wall tile format used in the 4 m² bathroom. **⚠️ Pre-cut AT THE SUPPLIER because at full format «он бы просто В ЛИФТ НЕ ВЛЕЗ», with the single resulting joint aligned to the smaller tile's joint line — a workaround cheaper than the crane or per-floor hand-carry options this vault already held** | `_nDCLhRUojE` |
+| **40 × 100 cm** | *(Round 4, repeated here as the cross-check)* The desk that cannot serve a first-year pupil. **Round 5 adds nothing to it, but note the pattern: this channel's most useful dimensional findings are FAILURE cases with a test attached, not recommended figures** | `RxU4L7ce86E` |
+| **a few mm** | **⚠️ Deliberate drainage gap left between a bathroom shelf and the far wall, so washing water runs down the wall and into the bath — sized for CLEANING water, not splash. Round 4's abstract rule, here as an executed detail** | `_nDCLhRUojE` |
+| **«незаметный глазу перепад»** | **⚠️ The lip he prescribes at a shower zone's edge instead of a fully curbless threshold. Unquantified, and deliberately so. ⚠️ Note it is a DIFFERENT dimension from the fall inside the zone — the vault previously conflated the two under "step height"** | `CN-Ab_g4CAI` |
+
+[sources: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]], [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]], [[_Sources/YT_vTgY6vioNik_nsdsgn_realtor_vs_designers_podcast|YT_vTgY6vioNik]], [[_Sources/YT_1Dpc8SLJd6M_nsdsgn_zrobim_architects_house_building|YT_1Dpc8SLJd6M]], [[_Sources/YT_Tj94jGH6fls_nsdsgn_falconnier_glass_brick|YT_Tj94jGH6fls]]]
+
+> [!IMPORTANT]
+> **⚠️⚠️ A JURISDICTIONAL POINTER THAT AFFECTS EVERY ELECTRIC-HEATING FIGURE IN THIS STORE, AND IT HAS NO NUMBER ATTACHED.**
+>
+> A Belarusian architecture practice reports that **Belarus has a SEPARATE ELECTRICITY TARIFF for heating, created after the nuclear plant came online, accessed by installing a SECOND METER: «из-за того что построили АТОМНУЮ СТАНЦИЮ, у нас есть ОТДЕЛЬНАЯ ТАРИФИКАЦИЯ на ОТОПЛЕНИЕ ЭЛЕКТРИЧЕСТВОМ — буквально ты можешь ставить ВТОРОЙ СЧЁТЧИК дома.»**
+>
+> **⚠️ NO TARIFF TERMS ARE GIVEN. This is therefore a POINTER TO VERIFY WITH THE SUPPLIER, not a figure to compute with — and it is recorded here precisely so that nobody later treats this store's Russian-sourced electric-heating operating costs as applicable to this project.** Every such figure — the operating-cost formula, the area cap, the "it is low-power, ignore the consumption" dismissal — is a function of a tariff, and this project's jurisdiction may price electric heating quite differently from the sources the figures came from. `single-account`. [source: [[_Sources/YT_1Dpc8SLJd6M_nsdsgn_zrobim_architects_house_building|YT_1Dpc8SLJd6M]]]

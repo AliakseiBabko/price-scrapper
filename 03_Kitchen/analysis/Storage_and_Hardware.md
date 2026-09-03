@@ -22,7 +22,7 @@ Related: the cheap-hinge carcass-destruction mechanism and hardware cycle rating
 
 `single-account`, `unverified`.
 
-## ⚠️ Spend on Hardware by Frequency of Use, Not Uniformly (Александр Сенчугов / NSDSGN, 2025-07-22)
+## ⚠️ Spend on Hardware by Frequency of Use, Not Uniformly (Александр Синчуков / NSDSGN, 2025-07-22)
 
 **The clearest budgeting heuristic for hardware in this vault, and he supports it with his own reversal rather than asserting it.** [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
 
@@ -90,7 +90,7 @@ Related: the cheap-hinge carcass-destruction mechanism and hardware cycle rating
 
 **Also endorsed on this page's existing terms: two or three containers or baskets on upper shelves holding grains and teas, and she further prefers jars for loose goods and teas.** And **dividers are largely unnecessary in a kitchen specifically** — she reserves them for bags and for the wardrobe. **For the container-sizing rule that governs all of it — match container size to category size — see [[14_Furniture/analysis/Household_Storage_and_Decluttering_Method|Household Storage and Decluttering Method]].**
 
-## ⚠️⚠️ The Plate-Drainer Cabinet Is Obsolete — a Re-Planned Build-Up With Dimensions (Александр Сенчугов, his own kitchen, 2024-07-04)
+## ⚠️⚠️ The Plate-Drainer Cabinet Is Obsolete — a Re-Planned Build-Up With Dimensions (Александр Синчуков, his own kitchen, 2024-07-04)
 
 **A designer re-planning his own upper cabinet a year after moving in, with the tier heights stated explicitly for reuse — and the change was taught to him by clients.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
 

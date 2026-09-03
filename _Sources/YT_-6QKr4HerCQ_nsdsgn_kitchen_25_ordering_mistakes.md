@@ -1,6 +1,6 @@
 ---
 video_id: -6QKr4HerCQ
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков)
 source_type: youtube
 source_title: "Как заказать идеальную кухню? 25 ошибок | Советы дизайнера интерьера"
 source_url: https://www.youtube.com/watch?v=-6QKr4HerCQ
@@ -17,7 +17,7 @@ region: RU_level2_channel_SPb_no_city_spoken
 
 **Solo, the host alone, 32 minutes.** He names himself in the opening (ASR renders it
 «Синчаков Александр»; the channel's own Instagram handle is `senchugov`, so
-**Александр Сенчугов**, recorded with the ASR variant noted).
+**Александр Синчуков**, recorded with the ASR variant noted).
 
 **⚠️ The format is the finding, and it is the reason this source earns its place on a
 subject the vault already covers heavily.** Every one of the 25 items carries three

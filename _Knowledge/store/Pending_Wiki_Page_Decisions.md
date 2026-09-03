@@ -222,3 +222,41 @@ None yet.
 ### Not a pending decision, but recorded so it is not re-litigated
 
 **The mistakes-and-regrets block on this channel is now fully processed as far as it is worth processing.** Round 3 probed it once and reversed the dismissal; Round 4 took three more longest-first per the stated dedup discipline, **and the discipline said to stop when the dedup ratio turned. It did not turn — all three were substantially new, and the round's yield rose.** The remaining titles in that block were nonetheless left, on the format-mix reasoning recorded in the channel queue, not on a dedup finding. **If the channel is reopened, that block is the first place to look and the premise to test is format, not novelty.**
+
+## 2026-09-03 — Round 5: one flagged split DONE, four pages still watched, and two new open questions
+
+### ✅ RESOLVED — the Round 4 split flag on `Family_Scenario_Driven_Design.md`
+
+**Done, and the trigger was exactly the one recorded: "the next material addition should trigger a split rather than another append", and Round 5's brief-elicitation content arrived.**
+
+- **`split_page.py apply`: 358 → 128 lines on the parent, 243 on the new page. 0 content lines missing, 30/30 citation IDs preserved, `RESULT: CLEAN`.** New page: **`17_Design_and_Ergonomics/analysis/Brief_Elicitation_Practitioner_Cases.md`** (now 284 lines after Round 5's additions).
+- **⚠️ WORTH RECORDING FOR THE NEXT SPLIT: the seam I proposed on paper in Round 4 (principles versus elicitation) was NOT the best one. `split_page.py analyse` showed the actual mass — one section carrying 234 of 359 lines — and the right seam was FRAMEWORK versus CASES. → Run `analyse` before committing to a seam, rather than reasoning about the page from memory.**
+
+### ⚠️ Four pages still between 311 and 382 lines — flagged, not fixed
+
+**None FRAGMENTED, none over the 400 backstop (`check_page_sizes.py`: 285 pages scanned), so no repair is due. Proposed seams carried forward:**
+
+1. **`11_Budget_and_Planning/analysis/Contract_Practice.md` — 382 lines.** Untouched for a second consecutive round by design: Round 4 and Round 5 content was routed to `Design_Services_and_Fees.md` and `Cost_Categories_and_Delivery_Models.md` specifically to avoid it. **Seams from the 2026-09-02 entry still hold. ⚠️ It is now the vault's largest page and has been deferred twice; the next contracting source should split it rather than route around it again, because routing around it is starting to distort where content lives.**
+2. **`12_Engineering_and_Systems/analysis/Lighting_Design.md` — 359 lines.** **⚠️ STILL THE REAL CONCERN. Round 5 added nothing (the light-group correction went to `Switches_and_Controls.md`, where the rule lives). It carries roughly a dozen dated round-labelled headings and reads as organised by intake date in places. MERGE FIRST via `split_page.py merge`, THEN consider extracting. Do not split before merging.**
+3. **`05_Kids_Room/analysis/Age_Staged_Planning.md` — 358 lines.** Unchanged this round. Seam from Round 4 still holds: extract the dimensional and two-child material, which is not age-staging.
+4. **`13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection.md` — 311 lines**, and **`12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md` — 311 lines.** Both newly over 300 and both coherent. **No seam proposed yet; watch rather than plan.**
+
+### ⚠️ Still open from Round 4 — the zero-byte page
+
+**`15_Appliances/analysis/Kitchen_Filtration_Systems_Analysis.md` remains ZERO BYTES.** Unchanged this round; Round 5 produced no filtration content to route there. **Decision still needed: check git history for lost content, or delete and repoint inbound links. Do not populate it from a single source without deciding the seam against `12_Engineering_and_Systems`.**
+
+### ⚠️ Two new open questions from Round 5
+
+1. **⚠️⚠️ THE BELARUSIAN ELECTRIC-HEATING TARIFF — the most project-relevant unresolved item this vault has acquired in five rounds.** A Belarusian practice reports a **separate tariff for electric heating, post-nuclear-plant, accessed via a second meter** — but gives **no terms, no rate and no eligibility conditions.**
+   **⚠️ Why it matters more than it looks: every electric-heating cost figure in this vault is Russian-sourced, and all of them are functions of a tariff. If Belarus prices heating electricity separately and lower, the vault's operating-cost formula, its area cap and its "low-power, ignore the consumption" dismissals may all be conservative in this jurisdiction — or the reverse.**
+   **What would resolve it: the supplier's own published tariff schedule, not another practitioner. This is a documents question, not a sources question, and it is arguably worth doing outside the YouTube pipeline entirely.** Recorded on [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Heated Floor and Thermostat]] and in `Numeric_Data.md`.
+2. **⚠️ THE GLASS-BRICK ACOUSTIC CLAIM — a good hypothesis with no measurement.** A producer claims «КОЛОССАЛЬНАЯ ЗВУКОИЗОЛЯЦИЯ… НЕ СЛЫШНО ВООБЩЕ» for a mortar-bedded hand-blown glass-brick panel, with no dB figure anywhere.
+   **⚠️ It is worth testing rather than dismissing, for a specific reason: a hollow blown brick has a sealed air cavity, and such a panel has NO SOCKETS AND NO PENETRATIONS OF ANY KIND — which is exactly what Round 4's soundproofing source identifies as the thing that defeats a correctly built acoustic wall. So the panel may perform well BECAUSE it cannot be perforated.**
+   **What would resolve it: any measured figure for a glass-block partition, from a manufacturer's datasheet or an acoustic consultant. Ordinary serial glass block is a mass-market product and should have published data.**
+
+### Not a pending decision, but recorded so it is not re-litigated
+
+**Two Round 5 candidates were dropped on genuine saturation and the reason should stand: `unfPu3A7MxM` (microcement) and `cl0LIAVZUjI` (decorative plaster).** Preflight found **34 mentions across 10 files PLUS a dedicated `Decorative_Plaster_and_Microcement.md` page.**
+**⚠️ That is a deliberate contrast with Round 4's soundproofing dedup test, which PASSED against 200+ files: there the saturation was by FILE COUNT and the gap was an adjacent trade (sockets). Here the saturation is by SUBJECT DEPTH on a narrow material, and a "what's wrong with it" critique of a material the vault already treats sceptically is unlikely to move anything.** The realtor source incidentally confirms the microcement video is promotional-adjacent — he cites a comment on it accusing him of pushing an expensive material.
+
+**The four remaining regrets titles (`34D4bv2dNLw`, `vvf2wcUYaUE`, `-1hfcmvUGjY`, and the block's shorter remainder) are still unprocessed and were still left on FORMAT reasoning, not on a dedup finding. The stopping rule has now failed to fire twice.**

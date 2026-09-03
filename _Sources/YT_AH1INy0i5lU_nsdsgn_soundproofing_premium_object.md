@@ -1,6 +1,6 @@
 ---
 video_id: AH1INy0i5lU
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков)
 source_type: youtube
 source_title: "Шумоизоляция квартиры — максимальная, на флагманском объекте"
 source_url: https://www.youtube.com/watch?v=AH1INy0i5lU

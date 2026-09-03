@@ -59,7 +59,7 @@ Same fabricator, reacting to viral Chinese furniture-mechanism clips (`promotion
 - **A retracting hob** he dismisses outright — "уезжает, чтобы что?"
 - **"Trolleybus-door" parallel/folding hinge systems**: not seen on the Russian market; plausibly good, needs testing, **and certainly "кратно дороже петель."** They experimented with something similar on very large doors and have "вопросики."
 
-## ⚠️⚠️ Three Cheap Objects That Rescued a Too-Compact Kitchen — and the Compromise That Made It Too Compact (Александр Сенчугов, his own kitchen, 2024-07-04)
+## ⚠️⚠️ Three Cheap Objects That Rescued a Too-Compact Kitchen — and the Compromise That Made It Too Compact (Александр Синчуков, his own kitchen, 2024-07-04)
 
 **Unusually good evidence: a designer naming the aesthetic compromise he chose knowingly, the ergonomic cost it produced, and the three inexpensive objects he now uses to live with it.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
 

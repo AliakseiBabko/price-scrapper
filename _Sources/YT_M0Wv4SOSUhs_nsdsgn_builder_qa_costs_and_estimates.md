@@ -1,6 +1,6 @@
 ---
 video_id: M0Wv4SOSUhs
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), guest Руслан — builder, 30+ years
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), guest Руслан — builder, 30+ years
 source_type: youtube
 source_title: "15 важных вопросов о ремонте и дизайне. Ответы опытного строителя"
 source_url: https://www.youtube.com/watch?v=M0Wv4SOSUhs

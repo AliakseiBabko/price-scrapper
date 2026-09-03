@@ -21,7 +21,7 @@ outdoor unit to a facade can make it resonate with the building's own wall panel
 audible in-apartment hum whose cause isn't obvious unless the installer specifically checks for
 missing vibration mounts. `single-account`, `unverified`. [source: [[_Sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
 
-## ⚠️ A One-Second Acceptance Test, and the Natural-Ventilation Failures People Cause Themselves (Александр Сенчугов / NSDSGN, 2023-10-17)
+## ⚠️ A One-Second Acceptance Test, and the Natural-Ventilation Failures People Cause Themselves (Александр Синчуков / NSDSGN, 2023-10-17)
 
 [source: [[_Sources/YT_xA0pFTLCt5M_nsdsgn_ventilation_and_ac_costs|YT_xA0pFTLCt5M]]]
 

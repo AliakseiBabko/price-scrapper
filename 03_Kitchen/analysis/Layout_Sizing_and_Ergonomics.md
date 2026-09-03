@@ -41,7 +41,7 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 
 `single-account`, `unverified`. [source: [[_Sources/YT_Ubl--73gmTs_zlobin_kitchen_theory_pt1|YT_Ubl--73gmTs]]]
 
-### ⚠️ Working Clearances, Each With Its Failure Mode (Александр Сенчугов / NSDSGN, 2025-07-22)
+### ⚠️ Working Clearances, Each With Its Failure Mode (Александр Синчуков / NSDSGN, 2025-07-22)
 
 **This section has held module and height standards; these are the in-use gaps between fixtures.** Every figure below is offered with the specific thing that goes wrong without it, which is what makes them checkable rather than conventional. [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
 
@@ -59,7 +59,7 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 - **Standard kitchen heights available: 2,210 mm, with 2,400 mm the tallest standard. Three-metre standard kitchens do not exist** — so a design not needing that height should stay inside the standard range, which ties directly to the +40% non-standard premium on [[03_Kitchen/analysis/Kitchen_Cost_and_Priorities|Kitchen Cost and Priorities]].
 - **⚠️ Upper cabinets set too high create storage that is never used**, and he reports it from living with антресоли: «реально находил там постоянно какие-то клады из прошлого». **The design target he states is visibility — «главное всё увидеть, достать то, что вам нужно»** — not maximum volume.
 
-### ⚠️ Three Coordination Details From Live Sites — Each One Invisible Until It Is Wrong (Руслан and Александр Сенчугов via NSDSGN, 2023–2025)
+### ⚠️ Three Coordination Details From Live Sites — Each One Invisible Until It Is Wrong (Руслан and Александр Синчуков via NSDSGN, 2023–2025)
 
 **These are not clearances between fixtures but junctions between trades, and each has a specific failure attached.**
 
@@ -127,6 +127,15 @@ The popular "floating"/no-toe-kick cabinet look (fronts running almost to the fl
 - **Never split a 1m-wide island into two back-to-back storage zones accessed from opposite sides** — this eliminates all usable knee space, leaving the island functional only as storage, not as a seating/eating surface. For comfortable seated use, leave a **minimum 35cm (ideally 40cm) knee recess**.
 - **Island height should match its actual intended use, not a universal standard**: cooking-zone height should match the main counter's chosen height (fix that first via showroom trials); bar/eating-surface height should be chosen by trying several stool heights — no single correct height exists for either use case.
 - **Avoid countertop-embedded pop-up/retractable outlets on an island** — food/liquid residue reportedly jams the extend mechanism over time; prefer a flush, statically-lidded (non-extending) outlet housing instead.
+
+#### ⚠️ The One Working Island Variant in a Small Kitchen — Replace the Dining Table With It
+
+**This page's ≥14 m² threshold and 80 cm clearances rule an island out of a small kitchen. Here is the exception, with its consequences named.** Александр Синчуков, 2022-01. [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+- **His default is the same as this page's: «если у вас МАЛЕНЬКАЯ КУХНЯ, то я всегда говорю — ОСТАВЬТЕ МЕЧТУ ОБ ОСТРОВЕ ДЛЯ ВАШЕГО БУДУЩЕГО ПРОЕКТА ЗАГОРОДНОГО ДОМА, иначе вы ОБРЕКАЕТЕ СЕБЯ НА ТЕСНОТУ [и] НЕУДОБСТВА.»** He reports it as «заветная мечта» for many clients.
+- **⚠️ THE EXCEPTION: «для острова на маленькой кухне есть, наверное, ОДИН РАБОЧИЙ ВАРИАНТ — ЭТО ЗАМЕНИТЬ ОБЕДЕННЫЙ СТОЛ НА ОСТРОВ.»** The island does not compete with the dining table for floor area; it **is** the dining table.
+- **⚠️ The two consequences he attaches, and the second is his own dissent from his own exception: «в таком случае обратите внимание, что у вас ВМЕСТО ОБЫЧНЫХ ОБЕДЕННЫХ СТУЛЬЕВ будут БОЛЕЕ ВЫСОКИЕ ПОЛУБАРНЫЕ» — a seating change, not just a table change — and «вы получите ДОПОЛНИТЕЛЬНУЮ РАБОЧУЮ ПОВЕРХНОСТЬ. НО ПО МОЕМУ МНЕНИЮ, за обычным обеденным столом ГОРАЗДО ПРИЯТНЕЕ УЖИНАТЬ с друзьями и родственниками.»**
+- **→ So the trade is explicit: you buy work surface and lose the dining experience. Read with this page's island-height finding above — an island doing both jobs cannot be at two heights, and the semi-bar height it ends up at is the compromise that makes dinner worse.** «Кухонный остров подходит только для больших помещений, но решать всё-таки вам.»
 
 ### Island Plumbing Feasibility and Seating, Nikita Kuznetsov (Ontario, added 2026-08-28, Round 16)
 

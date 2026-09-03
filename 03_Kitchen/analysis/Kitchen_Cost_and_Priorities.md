@@ -11,7 +11,7 @@ Related: [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Bu
 - **Upper cabinets are frequently never actually used functionally in practice, per one practitioner's stated real-world observation across many projects** — a legitimate cost-saving measure is making them decorative-only (blank door fronts, no functional hinges/opening hardware, no interior fitting cost) with no visual downside. `single-account`. (added 2026-08-18)
 - **Corner-kitchen-without-a-corner-module technique**: when the true corner is unusable for a full corner cabinet (a utility riser or adjacent bathroom wall intrudes into it), build a dedicated **60×60cm technical column** at that corner instead of defaulting to one cramped straight run — the two straight cabinet runs on either side dock cleanly against the column (their countertops don't need to form one continuous surface). (added 2026-08-18)
 
-## ⚠️ Costing Ratios With No Absolute Prices — the Most Portable Set on This Page (Александр Сенчугов / NSDSGN, 2025-07-22)
+## ⚠️ Costing Ratios With No Absolute Prices — the Most Portable Set on This Page (Александр Синчуков / NSDSGN, 2025-07-22)
 
 **Every figure here is a ratio or a percentage, not a currency amount.** That is unusual and it is the reason this set is worth having: **it does not decay with inflation or the exchange rate**, so it stays usable against a 2026 quote. Source is a 25-mistake checklist video in which each item carries an explicit «на чём можно сэкономить» cost-down option. [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
 
