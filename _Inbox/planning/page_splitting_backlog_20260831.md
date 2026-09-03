@@ -571,3 +571,69 @@ the ceiling were split for headroom so the next intake batch cannot breach them.
 
 Recorded in `00_Master/wiki_page_format.md` (a new "Both directions" section with the
 read-the-headings diagnosis table) and `AGENTS.md` (standing rule 8 rewritten to cover both modes).
+
+## 2026-09-02 (fifth pass) — ⚠️ correcting the hard ceiling: it was the wrong rule
+
+**The two entries above describe a hard 300-line ceiling. That rule was wrong and lasted a few
+hours.** It is corrected here rather than edited out of them, per this vault's standing practice of
+not rewriting its own records.
+
+### What the owner actually asked for
+
+> *"I don't want a strict three hundred lines rule. The question is not the exact number of lines.
+> The question is the approximate size and the integrity. If its structure is logical and requires,
+> for example, three hundred and ten lines, that's okay. Not a problem."*
+
+### Why the hard ceiling was wrong
+
+**It made "310 lines and perfectly coherent" fail in exactly the same way "878 lines of twenty
+appended batches" failed.** Those are not the same defect and should not produce the same signal. A
+gate that cannot tell them apart tells an author nothing useful, and its only available remedy —
+split something — is actively harmful applied to a page that is coherent.
+
+**This is the same mistake the 2026-08-31 recalibration had already caught once**, recorded a few
+paragraphs up this same file: *"a rule that punishes a correct split gives an author no achievable
+target short of atomising every page into stubs."* Making 300 a hard gate reintroduced it in a new
+form. Worth noticing that the failure recurred despite being written down — **the written lesson was
+about thresholds being too low, and it did not transfer to a threshold being too rigid.**
+
+### What replaced it
+
+| Signal | Lines | Effect |
+| :--- | :--- | :--- |
+| **Soft target** | ~300 | **Informational. Not a defect.** A prompt to look at the page and ask whether it still holds one subject |
+| **Backstop** | 400 | The only failing condition. **Waivable by a reviewed exception** |
+| **FRAGMENTED** | any | The defect that actually matters — merge, never split |
+
+**The order of questions is now: are the headings topics or dates? → does the page hold one coherent
+subject? → and only then, how long is it.** Length is a prompt for the first two questions, not a
+finding on its own.
+
+**The exceptions file can waive things again.** During the hard-ceiling hours it could waive nothing,
+which was the point of a ceiling and is not the point of a soft target.
+
+### ⚠️ What the hard ceiling nevertheless got right
+
+**Nobody noticed the 878-, 740- and 696-line pages until someone looked.** None of them got there by
+a decision. **The soft target survives because making someone look is its entire job** — the looking,
+not the enforcing. Removing the number altogether would restore the original failure mode.
+
+### ⚠️ Two things done under the wrong rule, disclosed
+
+1. **Four pages were split purely for headroom** — `Age_Staged_Planning`, `Soundproofing_Installation_Technique`,
+   `Wallpaper_and_Paint_Application`, `Cable_Circuits_and_Panel_Design`, all within fifteen lines of
+   the ceiling at the time. **They were defensible splits on topic grounds** (developmental age
+   bands, ZIPS/frameless as alternative systems, paint spec versus paint application, the panel as
+   its own object) **but none was needed for size.** They have been left in place because the
+   resulting pages are coherent, not because the reason for making them was sound.
+2. **`Cable_Circuits_and_Panel_Design.md` was split without being merged first**, which is the exact
+   ordering error the convention warns about. Splitting it dropped it from 16 sections to 12 and
+   pushed its dated-heading ratio to 75%, so **the relaxed checker immediately flagged it as
+   fragmented on its first run.** Now merged, 12 sections → 6. **The tool caught its author's own
+   mistake within minutes of the rule being loosened**, which is a better argument for the
+   integrity test than anything asserted about it above.
+
+### Final state
+
+**283 pages. 0 over the backstop, 0 fragmented, 15 growing toward the soft target** (223–280 lines,
+all topic-shaped, all fine). `verify_batch.py` PASS.

@@ -101,25 +101,28 @@ The convention above is about pages that get **too big**. A batch of real splits
 
 **So the two failure modes generate each other**, and the guidance has to hold both at once: split when a page carries several genuinely independent decisions, merge when it carries one decision cut into twenty dated slices, and treat any line-count number as the weakest of the available signals.
 
-### The 300-line hard ceiling (added 2026-09-02)
+### Page size: a soft target, and what actually matters (added 2026-09-02, revised the same day)
 
-**No wiki page may reach 300 lines.** This is a limit set by the vault owner, and `tools/check_page_sizes.py` now **exits non-zero** on a page that reaches it. The advisory exceptions file cannot waive it.
+**The rule is approximate size plus structural integrity. It is not a line count.**
 
-**This does not overturn the paragraph above, and it is worth being clear about the tension.** Line count is still the weakest signal for *how* to fix a page — the ceiling tells you a page has to come down, never how to cut it. That decision is still topic decomposition, and on a fragmented page the correct response to a ceiling breach is **merging first, then extracting a coherent group** — never slicing at 300 lines. `tools/split_page.py analyse` prints a FRAGMENTED signal precisely so this is not guessed at.
+- **~300 lines is a soft target.** Crossing it is a prompt to look at the page, not a defect. **A page at 310 lines whose structure is logical is fine — leave it alone.**
+- **400 lines is a backstop**, and the only thing that fails a check. Every page this vault has found at that length turned out to be several topics sharing a file. **A reviewed exception can waive it** if the structure genuinely justifies the length.
+- **The integrity test is the one that matters**, and it is in the next section: is the page organised by *topic*, or by *when facts arrived*?
 
-**What the ceiling is actually for is prevention.** The pages that reached 500, 700 and 878 lines did not get there by a decision; they got there by twenty batches each appending a little. A judgement-based rule gives an author nothing to hit and no moment at which action is forced. A ceiling does, and the checker now also warns in a band *below* it (detail pages at 260 lines, or 220 with 12+ sections; guide pages at 280, or 240 clustered) so a page is caught while it is still growing.
+> [!WARNING]
+> **A brief hard 300-line ceiling was tried on 2026-09-02 and was wrong.** It made "310 lines and perfectly coherent" fail in exactly the way "878 lines of twenty appended batches" failed, which tells an author nothing and pushes toward splitting pages that should stay whole. **The owner corrected it the same day: "the question is not the exact number of lines. The question is the approximate size and the integrity."** Two of the splits made under it — four pages taken apart purely for headroom — were defensible on topic grounds but were not needed for size. **Do not split a coherent page because a number says so.**
 
-**The two tools that do the work:**
+**What the ceiling episode did get right, and why the soft target survives:** the pages that reached 878, 740 and 696 lines got there by twenty batches each appending a little, and **nobody noticed until someone looked**. A soft target is what makes someone look. That is its whole job — the looking, not the enforcing.
 
-- `python tools/split_page.py analyse <page>` — section structure and sizes, plus the fragmented-or-oversized signal.
-- `python tools/split_page.py apply --spec <spec.json>` — moves whole sections into new pages **by line range, byte for byte**, then asserts content-line and citation-ID parity. This is what makes "move existing prose, don't re-derive it" checkable rather than aspirational.
-- `python tools/split_page.py merge --spec <spec.json>` — the fragmentation fix: groups sections under thematic parents and **demotes the original dated headings from `##` to `###` rather than deleting them**, so every attribution and date survives. Same parity checks.
+**So the order of questions for any page is:**
 
-**Precedent from the 2026-09-02 recalibration, when twenty pages were brought under the ceiling in one pass:** every operation reported CLEAN — zero content lines lost, zero citations lost — and two pages (`Radiators_and_Convectors.md`, `Loose_Furniture_Selection_Principles.md`) turned out to be *fragmented underneath*, visible only once their large sections were moved out. **Splitting can expose fragmentation. Re-run the checker after a split rather than assuming the job is finished.**
+1. **Are the headings topics or dates?** Dates → merge. This is the real defect.
+2. **Does the page still hold one coherent subject?** No → split on the seam between subjects.
+3. **How long is it?** Only now, and only as a prompt for questions 1 and 2. **Length on its own is not a finding.**
 
 ### Both directions, and how to tell which one you need (added 2026-09-02, second pass)
 
-**The ceiling is only half the shape rule.** A page is balanced when its sections are organised by *topic*. It fails in two directions, and the fixes are opposites — applying the wrong one makes the page worse, not better.
+**Integrity is the half that matters.** A page is balanced when its sections are organised by *topic*. It fails in two directions, and the fixes are opposites — applying the wrong one makes the page worse, not better.
 
 **Read the headings. That is the whole diagnosis.**
 
@@ -138,7 +141,7 @@ So the test is now the **proportion of headings that name a processing batch** (
 
 **Merging is not deleting.** `tools/split_page.py merge` groups sections under a thematic parent and **demotes the original dated heading from `##` to `###`**. Every attribution, practitioner name and date survives, one level down, and the parity check treats that single demotion as the only permitted change.
 
-**Order matters when a page is both.** Merge first, then extract a coherent group. Splitting a fragmented page distributes the fragments across two pages and leaves you with two fragmented pages. Four pages in the 2026-09-02 second pass were both at once, and merging pushed three of them *over* the ceiling before the follow-up split brought them back — that sequence is correct and expected, not a mistake.
+**Order matters when a page is both.** Merge first, then extract a coherent group. Splitting a fragmented page distributes the fragments across two pages and leaves you with two fragmented pages. Four pages in the 2026-09-02 second pass were both at once, and merging pushed three of them well past the soft target before the follow-up split brought them back — that sequence is correct and expected, not a mistake.
 
 **A merge does not shrink a page.** It adds the group headings, typically 10–30 lines. Budget for that.
 
