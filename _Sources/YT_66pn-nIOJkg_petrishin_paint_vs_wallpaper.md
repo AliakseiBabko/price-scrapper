@@ -115,4 +115,4 @@ flexibility, imperfection-masking, and the coziness of texture.
   texture types, brands, and pricing).
 - Overall promotional ratio: **low**.
 
-[source: [[_Archive/processed_sources/20260824_petrishin_paint_vs_wallpaper_66pn-nIOJkg_727e53e4.txt|transcript]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_paint_vs_wallpaper_727e53e4.txt|transcript]]]

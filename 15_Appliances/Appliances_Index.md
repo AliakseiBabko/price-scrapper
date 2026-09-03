@@ -19,13 +19,13 @@ Central home for all appliance-domain content: cross-room preferences/rules, cat
 - **[[Kitchen_Refrigerators]]** — general buying-guide research (types, cooling systems, compressor economics, price/brand tiers) added 2026-08-28 from Konstantin Kruglov/Ontario's channel intake, alongside this project's own pre-existing Liebherr selection.
 - **[[Kitchen_Dishwashers]]** — general buying-guide research (width standards, wash-quality drivers, drying types, price/brand tiers) added 2026-08-28 from Konstantin Kruglov/Ontario's channel intake, alongside this project's own pre-existing Bosch selection.
 - **[[Kitchen_Disposers]]** — category page, not yet filled.
-- **Analysis**: [[Hood_Analysis]] (multi-source shaft-capacity/extraction research), [[FlexZone_Analysis]] (induction cooktop zone comparison), [[Filtration_Systems_Analysis]] (not yet filled).
-- **Selected models**: [[Bosch_HBG7764B1_Oven]], [[Bosch_BFL7221B1_Microwave]], [[Bosch_PIF63KHC1E_Cooktop]], [[Bosch_SMV8YCX02E_Dishwasher]], [[Bosch_DHL555BL_Hood]].
+- **Analysis**: [[15_Appliances/analysis/Kitchen_Hood_Analysis]] (multi-source shaft-capacity/extraction research), [[15_Appliances/analysis/Kitchen_FlexZone_Analysis]] (induction cooktop zone comparison), [[15_Appliances/analysis/Kitchen_Filtration_Systems_Analysis]] (not yet filled).
+- **Selected models**: [[15_Appliances/models/Kitchen_Bosch_HBG7764B1_Oven]], [[15_Appliances/models/Kitchen_Bosch_BFL7221B1_Microwave]], [[15_Appliances/models/Kitchen_Bosch_PIF63KHC1E_Cooktop]], [[15_Appliances/models/Kitchen_Bosch_SMV8YCX02E_Dishwasher]], [[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood]].
 
 ## 🧺 Laundry
 
 - **[[Laundry_Appliance_Sets]]** — washer/dryer pairing comparison.
-- **Selected models**: [[LG_F4V9LA2W_Washing_Machine]], [[LG_DC10V9V9E_Dryer]] (approved pair) — plus researched alternatives: [[Bosch_WGB244040_Washing_Machine]], [[Bosch_WGB244A40_Washing_Machine]], [[Bosch_WQB245B0ME_Dryer]], [[Bosch_WQB245B40_Dryer]], [[Samsung_WW11CB944CGHLP_Washing_Machine]], [[Samsung_DV90BB9445GHLP_Dryer]].
+- **Selected models**: [[15_Appliances/models/Laundry_LG_F4V9LA2W_Washing_Machine]], [[15_Appliances/models/Laundry_LG_DC10V9V9E_Dryer]] (approved pair) — plus researched alternatives: [[15_Appliances/models/Laundry_Bosch_WGB244040_Washing_Machine]], [[15_Appliances/models/Laundry_Bosch_WGB244A40_Washing_Machine]], [[15_Appliances/models/Laundry_Bosch_WQB245B0ME_Dryer]], [[15_Appliances/models/Laundry_Bosch_WQB245B40_Dryer]], [[15_Appliances/models/Laundry_Samsung_WW11CB944CGHLP_Washing_Machine]], [[15_Appliances/models/Laundry_Samsung_DV90BB9445GHLP_Dryer]].
 
 ---
 

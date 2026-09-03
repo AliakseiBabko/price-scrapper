@@ -137,4 +137,4 @@ independent, more elaborate real-object detail:
 - Overall promotional ratio: **medium** — several CTAs, but the on-site
   technical interview itself stays dense and specific throughout.
 
-[source: [[_Archive/processed_sources/20260824_petrishin_tile_format_2e0006c9.txt|20260824_petrishin_tile_format]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_tile_format_comparison_2e0006c9.txt|20260824_petrishin_tile_format]]]

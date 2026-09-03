@@ -5,7 +5,7 @@ video_id: ChXZrzgDrgs
 transcript_file: _Archive/processed_sources/20260810_electrical_point_notation_bed_center_exception_8259a335.txt
 fetched: user-supplied 2026-08-10 (originally attempted via youtube-transcript-fetch 2026-08-04, logged `skipped` — no caption track via either method — see `00_Master/processed_sources.csv` run_20260804_102, now superseded)
 upload_date: 2022-12-20 (confirmed via yt-dlp metadata, 2026-08-10)
-channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based, multi-region since 2018 (see [[project_zemskov_zemstandart_region_moscow_rub]])
+channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based, multi-region since 2018 (see [[00_Master/exchange_rates_reference|Exchange Rates Reference]])
 source_metadata_location: Moscow (channel convention); explicitly states "мы делаем ремонты только по Москве и области и по Питеру и области" (renovation execution limited to Moscow+region and St. Petersburg+region; design-only service offered nationwide/internationally) — a direct, level-1 statement of service-area scope
 language: ru
 extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)

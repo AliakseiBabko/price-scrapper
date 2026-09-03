@@ -22,7 +22,7 @@
 3. **Child Safety (Cool Door & High Placement)**:
    - **Reasoning**: Placing the oven in a chest-level column keeps controls out of reach of a 3-year-old. Because it features pyrolysis, the door has **4 layers of glass** by default. Even when the oven operates at high temperatures, the outer glass surface remains safe to touch (below 30-40°C), protecting children from burns.
 4. **Column Aesthetics**:
-   - **Reasoning**: Designed to visually align with the [[Bosch_BFL7221B1_Microwave]]. The matching black glass front, TFT control panel, and digital control ring create a premium, cohesive kitchen design.
+   - **Reasoning**: Designed to visually align with the [[15_Appliances/models/Kitchen_Bosch_BFL7221B1_Microwave]]. The matching black glass front, TFT control panel, and digital control ring create a premium, cohesive kitchen design.
 
 ---
 

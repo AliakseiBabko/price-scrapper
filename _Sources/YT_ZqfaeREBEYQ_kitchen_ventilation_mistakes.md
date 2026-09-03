@@ -5,7 +5,7 @@ video_id: ZqfaeREBEYQ
 transcript_file: _Archive/processed_sources/20260810_kitchen_ventilation_mistakes_80d8c9ef.txt
 fetched: 2026-08-10 (anonymous youtube-transcript-api, zero prior failed attempts this run — confirms the 429/IP-block seen 2026-08-05 had fully cleared by this date)
 upload_date: 2022-07-17 (confirmed via yt-dlp metadata, 2026-08-10 — video is ~4 years old as of processing)
-channel: Zemstandart / Zemsproekt (Alexey Zemskov, technical content presented by Сергей Саратов, "design and renovation" lead) — Moscow-based per user-confirmed channel identity (see [[project_zemskov_zemstandart_region_moscow_rub]] memory)
+channel: Zemstandart / Zemsproekt (Alexey Zemskov, technical content presented by Сергей Саратов, "design and renovation" lead) — Moscow-based per user-confirmed channel identity (see [[00_Master/exchange_rates_reference|Exchange Rates Reference]] memory)
 source_metadata_location: Moscow — per prior explicit user statement, and since independently confirmed (2026-08-10) via the company's own website (`zems.pro/about/` — Moscow and Podolsk office addresses, founding history from 2003, expanded beyond Moscow only from 2018+)
 language: ru
 extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)

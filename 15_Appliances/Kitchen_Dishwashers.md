@@ -115,6 +115,6 @@ pending verification. [source: [[_Sources/YT_10sNVkAEATw_kruglov_how_to_choose_d
 ## This Project's Own Selection (pre-existing)
 
 See [[Appliance_Preferences]] for this project's own size/floor-indicator requirements (fully
-integrated 60cm, InfoLight/TimeBeam) and the selected [[Bosch_SMV8YCX02E_Dishwasher]] model —
+integrated 60cm, InfoLight/TimeBeam) and the selected [[15_Appliances/models/Kitchen_Bosch_SMV8YCX02E_Dishwasher]] model —
 no dedicated comparison table exists on this page yet for that personal selection; this
 section is a pointer, not a duplicate.

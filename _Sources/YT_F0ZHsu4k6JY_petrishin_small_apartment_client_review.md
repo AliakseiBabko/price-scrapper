@@ -63,4 +63,4 @@ sentiment with no concrete technical/numeric substance" guidance.
   fast turnaround praise).
 - Overall promotional ratio: **high**.
 
-[source: [[_Archive/processed_sources/20260824_petrishin_small_apartment_rules_F0ZHsu4k6JY_0586e312.txt|transcript]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_small_apartment_client_review_0586e312.txt|transcript]]]

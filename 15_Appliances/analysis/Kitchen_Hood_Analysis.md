@@ -60,7 +60,7 @@ A genuinely new, independently actionable heuristic from source 3, not present i
 - **On budget hoods (≤5,000–6,000 RUB, 2019 pricing), don't bother comparing noise specs at all** — the source states these are commonly faked or simply omitted by manufacturers at this price tier.
 - **A dirty/clogged grease filter degrades noise and is a real fire hazard, not just a performance issue.** Sources 2 and 6 corroborate independently: grease buildup near an open gas flame is a stated ignition risk (source 6), and running a hood with no filter at all is described as "categorically forbidden" since it destroys the fan motor quickly (source 2).
 
-**Cross-check against the already-selected [[Bosch_DHL555BL_Hood]]**: its own catalog-scraped spec range is 38–56 dB (min–max). Its **38 dB minimum-speed figure is actually better than source 3's own "genuinely good hood" benchmark of 44–45 dB** — a positive data point for the existing selection on the metric this page argues actually matters, independent of the shaft-capacity question in §5.
+**Cross-check against the already-selected [[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood]]**: its own catalog-scraped spec range is 38–56 dB (min–max). Its **38 dB minimum-speed figure is actually better than source 3's own "genuinely good hood" benchmark of 44–45 dB** — a positive data point for the existing selection on the metric this page argues actually matters, independent of the shaft-capacity question in §5.
 
 ## 4. A Widely-Repeated Sizing Formula Is Debunked (source 3)
 
@@ -72,7 +72,7 @@ Source 3 explicitly and mechanistically debunks a formula the source attributes 
 
 Demonstrated with a smoke test: smoke near floor level clears, but smoke at ceiling height is essentially unaffected even after a simulated full "10x/hour" cycle — a hood barely captures air above its own installation height. Applying the debunked formula to a 30 m² / 3m-ceiling kitchen implies needing ~1,700 m³/h — "already an industrial-grade hood," illustrating how far off the formula runs. **Actionable conclusion: size a hood to the duct/shaft capacity (§2.1), not to room volume.**
 
-## 5. ⚠️ Conflict / Cross-Check With the Already-Selected [[Bosch_DHL555BL_Hood]]
+## 5. ⚠️ Conflict / Cross-Check With the Already-Selected [[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood]]
 
 The DHL555BL's own model page cites its selling point as **dual-motor extraction up to 618 m³/h**, achieved via a wide smooth-walled duct into the ventilation shaft. Cross-referencing against everything above:
 
@@ -164,5 +164,5 @@ Source 6 (ЛенРемонт's own owner) discloses running **no hood at all in 
 ## 15. See Also
 
 - [[Kitchen_Hoods]] — the full researched candidate comparison table (price/spec) this analysis complements.
-- [[Bosch_DHL555BL_Hood]] — the currently-selected model; see its own "Ducting Requirement" concern, which §5 above directly extends.
+- [[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood]] — the currently-selected model; see its own "Ducting Requirement" concern, which §5 above directly extends.
 - [[12_Engineering_and_Systems/HVAC_and_Ventilation|HVAC & Ventilation]] — general ventilation-shaft rules (the "venshakhta" — never structurally modify it) this hood-specific mechanism builds on.

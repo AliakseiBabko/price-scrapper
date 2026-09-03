@@ -16,7 +16,7 @@
 ## 🎯 Why It Was Selected
 
 1. **Aesthetic Column Unity**:
-   - **Reasoning**: The primary driver for selecting this model is visual alignment with the [[Bosch_HBG7764B1_Oven]]. Placed directly above the oven in a vertical column, they share identical black glass finishes, height proportions, and the central digital control ring, creating a premium "built-in" look.
+   - **Reasoning**: The primary driver for selecting this model is visual alignment with the [[15_Appliances/models/Kitchen_Bosch_HBG7764B1_Oven]]. Placed directly above the oven in a vertical column, they share identical black glass finishes, height proportions, and the central digital control ring, creating a premium "built-in" look.
 2. **Built-in Chest Level Installation**:
    - **Reasoning**: Installing the microwave at chest level keeps it out of reach of younger children (aged 3 and 6), preventing them from playing with the buttons or attempting to heat unsuitable items.
 3. **Inverter Technology**:

@@ -34,8 +34,8 @@
 ## 🔌 Appliances (Selection Complete)
 * **Status**: LG V9 Flagship Pair Approved (`7,242 BYN` budget).
 * **Details**: Review the options and individual specifications in **[[Laundry_Appliance_Sets]]**:
-  - **Dryer**: [[LG_DC10V9V9E_Dryer]] (stacked on top)
-  - **Washing Machine**: [[LG_F4V9LA2W_Washing_Machine]] (on bottom)
+  - **Dryer**: [[15_Appliances/models/Laundry_LG_DC10V9V9E_Dryer]] (stacked on top)
+  - **Washing Machine**: [[15_Appliances/models/Laundry_LG_F4V9LA2W_Washing_Machine]] (on bottom)
   - **Stacking Kit**: LG KSTK1 Connection Kit
 * **Appliance domain home**: [[15_Appliances/Appliances_Index|Appliances Index]] (all kitchen + laundry appliance content now lives under `15_Appliances/`).
 

@@ -183,4 +183,4 @@ Object: a secondary-market ("вторичка") apartment in an old building.
   `zxTbtAbuXFs`) — same-channel restatement, not independent
   corroboration, correctly not double-counted.
 
-[source: [[_Archive/processed_sources/20260824_petrishin_case_study_old_apartment_police_cracks_qFM8NIDIRro_fbcc16fb.txt|transcript]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_case_study_old_apartment_fbcc16fb.txt|transcript]]]

@@ -149,7 +149,7 @@ under-door airflow. `single-account`, no named product. [source: [[_Sources/YT_U
 
 ---
 
-Part of [[12_Engineering_and_Systems/Engineering_and_Systems_Index|Engineering & Systems]]. Companion page: [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing — Selection & Comparison]] for the taxonomy, decision framework and measured comparisons that decide *which* system to build.
+Part of [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]]. Companion page: [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing — Selection & Comparison]] for the taxonomy, decision framework and measured comparisons that decide *which* system to build.
 
 ## ZIPS and frameless panel systems — moved to their own page
 

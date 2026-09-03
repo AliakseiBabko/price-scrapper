@@ -5,7 +5,7 @@ video_id: RyHzFDGgqKA
 transcript_file: _Archive/processed_sources/20260810_wardrobe_closet_layout_zones_c9a53804.txt
 fetched: 2026-08-10
 upload_date: not independently confirmed by metadata
-channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based, confirmed via zems.pro/about/ (see [[project_zemskov_zemstandart_region_moscow_rub]])
+channel: Zemstandart/Zemsproekt (Alexey Zemskov) — Moscow-based, confirmed via zems.pro/about/ (see [[00_Master/exchange_rates_reference|Exchange Rates Reference]])
 source_metadata_location: Moscow (channel convention)
 language: ru
 extraction_taxonomy: custom (this project's renovation-budgeting taxonomy, caller-defined mode)

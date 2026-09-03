@@ -614,3 +614,73 @@ not the enforcing. Removing the number altogether would restore the original fai
 
 **283 pages. 0 over the backstop, 0 fragmented, 15 growing toward the soft target** (223–280 lines,
 all topic-shaped, all fine). `verify_batch.py` PASS.
+
+## 2026-09-02 (sixth pass) — housekeeping audit: link integrity and the regression guard
+
+Asked whether other housekeeping was due, and specifically whether the skill set, page structure and
+YouTube/transcript/triage process needed revising. **Audited rather than guessed. One finding was
+important, several were small, and two of my own alarms turned out to be false.**
+
+### ⚠️ The important one: the intake skill did not know about any of the page-shape work
+
+`renovation-knowledge-intake/SKILL.md` is 1038 lines and well maintained on fetching, language,
+pacing, taxonomy and price comparability. But it contained **zero mentions** of `split_page.py`,
+`check_page_sizes.py`, FRAGMENTED, the soft target, or dated headings.
+
+**That is the regression guard, missing.** Step 5a said "route to wiki pages, follow the page-shape
+convention" — and the specific mechanism by which all 29 pages fragmented is *appending*
+`## <Topic> (<Practitioner>, added <date>, Round N)`, which the skill neither forbade nor mentioned.
+**Left alone, the next few intake batches would have rebuilt exactly what three passes had just
+removed.**
+
+Patched: step 5a now carries the no-dated-heading rule with the cost asymmetry stated plainly (one
+extra read of the page's headings, versus a vault-wide repair), a new **step 5b** for the end-of-batch
+`check_page_sizes.py` run with how to read each of its three signals, and a tooling table near the top
+so the two tools are discoverable without reading to line 700. **Including the counter-intuitive
+part: a merge makes a page longer, so don't reverse the merge-then-extract order because the number
+moved the wrong way.**
+
+### Link integrity — 66 of 69 broken links repaired
+
+An audit of every wiki link across 1342 files found 69 unresolvable instances. Repaired:
+
+- **35 appliance links missing their filename prefix** — a link to `Bosch_DHL555BL_Hood` where the
+  file is `15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood.md`; same for the oven, cooktop,
+  microwave, dishwasher, four washers, four dryers, and the `Hood` / `FlexZone` /
+  `Filtration_Systems` analysis pages. **These were dead links on three index pages** — the main
+  navigation into the appliance model pages.
+- **8 archive transcript links** citing a path built from the note's own slug plus the video id,
+  which is not how `archive_transcripts.py` named the file. **Repaired by matching the 8-hex content
+  hash**, which is the stable key. The frozen archive was not touched.
+- **9 links into the machine-local memory store**, dangling since it was drained into the repo on
+  2026-08-31. Repointed at the durable locations that replaced them.
+- **1 link to `12_Engineering_and_Systems/Engineering_and_Systems_Index`**, a page that does not
+  exist — that folder has no index.
+
+**The 3 remaining are correct as written**: ellipsis placeholders inside example prose in
+`wiki_page_format.md`, plus one genuinely unfinished pointer in a source note, left alone because
+`_Sources/` is raw evidence.
+
+### ⚠️ Two false alarms of my own, recorded because the checks were worth having
+
+1. **"359 broken links."** My first checker only indexed `.md`, so every `_Archive/**.txt` provenance
+   link looked broken, and it also mis-parsed escaped pipes inside markdown tables. **Real number:
+   69.** A link checker that does not understand the repo's own file types and table escaping will
+   manufacture a crisis.
+2. **"125 broken transcript pointers."** Those notes read
+   `transcript_file: not separately archived — fetched inline via youtube_transcript_api (sha256 …)`.
+   **That is a deliberate, hash-bearing provenance record, and my check was treating prose as a
+   filename.** Provenance is intact.
+
+### Reported, not changed — needs a decision
+
+- **16 `processed_sources.csv` rows carry unexpanded shell brace notation** in `target_docs`, e.g.
+  `07_Bathroom/analysis/{Bathtub_and_Shower,Fixtures_Mixers_and_Sinks}.md`. Human-readable, but not
+  machine-resolvable, so tooling cannot verify those rows. **Left alone: standing practice names CSV
+  `target_docs` as never rewritten.** Expanding them is lossless and would make the ledger checkable
+  — worth doing only as a deliberate decision.
+- **12 source notes appear uncited by any wiki page** (of 961) — extracted but seemingly never routed,
+  the residue of the step-5a-deferral failure recorded on 2026-08-18. Needs a per-note look: some may
+  be deliberate (a rejected source), others a real routing gap.
+- **`_Inbox/planning/` has 24 files and no index**, two of them over 1500 lines. Working documents,
+  out of scope for the page rules, but there is no way to tell which channel queues are still live.

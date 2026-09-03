@@ -177,4 +177,4 @@ category. Conversions via `tools/pricing/currency_converter.py
   disclosed candidly (including the positional-block quality caution
   against the company's own cost-ranking), not concealed.
 
-[source: [[_Archive/processed_sources/20260824_petrishin_save_money_tips_PBkZQHkjciE_f25fca04.txt|transcript]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_save_money_tips_f25fca04.txt|transcript]]]

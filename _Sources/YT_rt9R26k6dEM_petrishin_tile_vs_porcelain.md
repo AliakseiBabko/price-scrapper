@@ -140,4 +140,4 @@ comparison).
   was shown but not spoken — not extractable, not recorded.
 - Overall promotional ratio: **low**.
 
-[source: [[_Archive/processed_sources/20260824_petrishin_tile_vs_porcelain_rt9R26k6dEM_0fa81390.txt|transcript]]]
+[source: [[_Archive/processed_sources/20260824_petrishin_tile_vs_porcelain_0fa81390.txt|transcript]]]
