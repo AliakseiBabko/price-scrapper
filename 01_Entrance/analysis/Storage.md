@@ -167,6 +167,20 @@ A comparative-methodology format applied to a real project photo, with genuinely
 
 [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
 
+### ⚠️ An Entrance Storage Set, Itemised — Including the Shelf for Putting the Bag Down (Александр Синчуков, 2020-11-03)
+
+From a 70 m² family flat with a long corridor. Four elements, each with a stated job:
+
+1. **⚠️ A LOWER cabinet immediately at the door — «чтобы при входе положить ПАКЕТ [и] СУМКУ. Это очень удобно получается.»** → **A surface to PUT THINGS DOWN ON, at the moment of arrival, before anything else happens. New to this page.**
+2. **⚠️ A rail with HOOKS for the frequently-worn layer — «здесь можно часто используемые вещи сюда вешать. Вошёл, повесил, снял, пошёл. А уже ОСТАЛЬНЫЕ вещи будем хранить В ШКАФУ.»** → **An explicit two-tier split: hooks for the daily coat, the wardrobe for everything else. This page's open-versus-closed disagreement is partly dissolved by doing both, for different garments.**
+3. **A mirror, and ⚠️ an АНТРЕСОЛЬ above it — «чтобы место не пропадало».**
+4. **A full-height mirror further along, plus a sliding wardrobe run along the wall — sliding «потому что здесь довольно УЗКО».**
+
+- ⚠️ **AND THE WALL FINISH IS THE DECISION THAT MATTERS MOST IN A FAMILY FLAT: textured plaster imitating concrete, chosen because dirt thrown at an entrance wall washes off, and «БЕТОН — это СУПЕР РЕШЕНИЕ для тех, у кого есть КОТЫ, [и] у кого ДЕТИ ЦАРАПАЮТ СТЕНЫ».** Full detail, and the independent supplier corroboration, at [[13_Surfaces_and_Finishes/analysis/Decorative_Plaster_and_Microcement|Decorative Plaster and Microcement]].
+- ⚠️ **Floor: TILE, not wood, after long deliberation — «здесь мы ходим В САПОГАХ до шкафа… ПЛИТКЕ ВООБЩЕ ВСЁ РАВНО.»** → The boots-to-the-wardrobe reasoning is the sharpest form of this page's dirt-zone argument.
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
 
 ## The Entrance Door and Its Reveals
 

@@ -143,6 +143,19 @@ Offered by the same rescue contractor as the pattern that makes a client vulnera
 
 [source: [[_Sources/YT_HbQHuyokSd0_nsdsgn_rescue_contractor_58m_dispute|YT_HbQHuyokSd0]]]
 
+### ⚠️⚠️⚠️ A Recommendation Rejected Because It Was Not Made CONFIDENTLY Enough — a Failure Mode BEFORE Selection (Александр Синчуков, 2020-11-03)
+
+**This page is about how to judge a contractor. This is about how a good recommendation gets thrown away, and nothing else in the vault names it:**
+
+**«Мебельщики здесь ОЧЕНЬ ЖЁСТКО НАКОСЯЧИЛИ ПО СРОКАМ… И Я ПРЕДЛАГАЛ ХОРОШИХ ПРОВЕРЕННЫХ МЕБЕЛЬЩИКОВ, но заказчики, КАК МНЕ ОБЪЯСНИЛИ, [сказали, что] "Я НЕДОСТАТОЧНО УВЕРЕННО СКАЗАЛ, ЧТО ОНИ КРУТЫЕ". И заказчики САМИ НАШЛИ В ИНТЕРНЕТЕ каких-то мебельщиков. По качеству всё ещё более-менее нормально, но СО СРОКАМИ ПОЛНЫЙ ПИПЕЦ.»**
+
+- → **⚠️⚠️⚠️ AN INSUFFICIENTLY EMPHATIC ENDORSEMENT READS AS INDIFFERENCE, and the client substitutes their own internet search — here followed by a schedule failure. The vetting literature on this page is all about evaluating a candidate; this is about the channel the candidate arrives through, and it fails silently.**
+- → **The practical consequence cuts both ways: a client should ask a designer to RANK and to say plainly whether they would use a supplier themselves; and a designer who hedges a recommendation has effectively withdrawn it.** *(That framing is mine; the mechanism is his.)*
+- → **It also connects to the referral-weakness finding recorded on this page — that a glowing personal reference is weaker evidence than it looks. This is the mirror image: a WEAKLY-STATED good reference is discarded entirely.**
+- **⚠️ A CONDUCT DATUM, OBSERVED RATHER THAN ASSERTED: the clients ASKED him to name the failing firm on camera and he DECLINED — «Заказчики очень просили сказать про фирму. Ладно, я НЕ БУДУ НАЗЫВАТЬ ФИРМУ.» And he absorbs it without excuse: «блин, работаем с тем, что работаем.»** → The same standard the three-designer panel states about itself — «мы не в ответе за каких-то других взрослых людей» — here observed in practice under direct client pressure to do otherwise.
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
 
 ## Related
 

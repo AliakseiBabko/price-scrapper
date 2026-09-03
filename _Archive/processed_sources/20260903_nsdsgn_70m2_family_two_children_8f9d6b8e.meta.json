@@ -1,0 +1,15 @@
+{
+ "url": "Phk79uKT7rA",
+ "video_id": "Phk79uKT7rA",
+ "language": "ru",
+ "is_generated_captions": null,
+ "method": "MANUAL_USER_EXTRACTION",
+ "provenance_note": "NOT fetched by tools/youtube or youtube-transcript-fetch. This video has NO Russian caption track on YouTube (probed 2026-09-03, Round 7, recorded as unfetchable). The user extracted the transcript manually and supplied it at C:/Users/User/Downloads/Phk79uKT7rA.txt on 2026-09-03. Text is Russian, well punctuated and capitalised - cleaner than the channel's ASR tracks - so it has been human-corrected to some degree. Original-language rule satisfied: the text is Russian, not an auto-translation.",
+ "supplied_by": "user",
+ "timestamp": "2026-09-03T00:00:00+00:00",
+ "source_tool": "manual",
+ "sha256": "8f9d6b8e8a43737005120f2ce24e9a537bfadcafbae7245342a89f8e44fed668",
+ "attempts_before_success": [
+  "Round 7 fetch attempt via youtube-transcript-api and yt-dlp: no ru subtitle tracks found"
+ ]
+}

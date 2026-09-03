@@ -108,3 +108,19 @@ years, as motivation for taking lighting seriously up front. [source: [[_Sources
   a room dominated by rectangular furniture (bed, desks) benefits from
   at least one round element (a round rug, a round pouf) as a
   deliberate shape-variety choice, not incidental decor. [source: [[_Sources/YT_lbaZ__wbLWo_atmosfera_svoboda_two_children_room_design|YT_lbaZ__wbLWo]]]
+
+## ⚠️⚠️ A Fully Themed Room for Two Boys — Executed, and Two Things Went Wrong (Александр Синчуков, 2020-11-03)
+
+**A Batman/Gotham room for two brothers, one older and one younger, in a 70 m² family flat — «самая яркая комната в этой квартире». The theme was carried by photo-wallpaper of the city, a ceiling painting, a light beam running upward, and a BATMOBILE painted across the whole wardrobe on site by the same artist.**
+
+- **⚠️⚠️ THE PHOTO-WALLPAPER FAILED AT THE SEAMS: «обои оказались НЕ ОЧЕНЬ ХОРОШЕГО КАЧЕСТВА. Заказчики немножко РАССТРОИЛИСЬ. Но у нас очень хороший ХУДОЖНИК… и вот эти ШВЫ, которые были прямо БЕЛЫМИ, ГРЯЗНЫМИ, он аккуратненько ЗАКРАСИЛ. И сейчас это вообще НЕ БРОСАЕТСЯ В ГЛАЗА.»**
+  - → **⚠️ Photo-wallpaper seams showed white and dirty and had to be rescued by hand-painting. That is the negative case for the panel-and-sheet approach that a coatings specialist states as a principle elsewhere in this vault — «у панелей никогда не сделать красивый стык» — and here it happened, on wallpaper, and cost an artist's time.** See [[13_Surfaces_and_Finishes/analysis/Decorative_Plaster_and_Microcement|Decorative Plaster and Microcement]].
+- **⚠️⚠️ AND A TENSION WITH THIS VAULT'S OWN LIFESPAN FINDING, recorded for the owner to weigh rather than resolved: the Round 4 clinical psychologist gives a themed children's mural a practical life of about ONE YEAR before the child outgrows it. A room carried by photo-wallpaper, ceiling art and a hand-painted wardrobe is a large, hard-to-reverse investment against that horizon — and the older boy's enthusiasm is what specified it.**
+  - → **The mitigation the case itself suggests is not stated by him but follows: the REVERSIBLE parts (wallpaper, textiles, accessories) can carry the theme and the EXPENSIVE parts (wardrobe, ceiling) can stay neutral. He did the opposite.** *(My inference, flagged.)*
+
+## ⚠️ Per-Child Night Lights, Switched Locally (same source)
+
+**Each boy has his own night light on a local switch, so a child in the upper bunk does not have to climb down — «дочитал книжку, выключил свет и ложишься спать». Full detail, including the first-fix consequence, at [[05_Kids_Room/analysis/Desks_Beds_and_Shared_Rooms|Desks, Beds and Shared Rooms]].**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+

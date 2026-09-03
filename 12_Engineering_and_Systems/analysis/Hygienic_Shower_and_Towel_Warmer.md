@@ -76,3 +76,17 @@ Vladimir Amelchenko addresses a common client complaint distinct from the hydron
 **Decide the key zones first — WC, basin, bath, washing machine, boiler — and add the towel rail where it fits.** *"Я советую сначала определиться с ключевыми зонами… а потом уже добавлять полотенцесушитель."* [source: [[_Sources/YT_Lqx2GSllqFQ_mikhailovskaya_bathroom_planning_bath_shower|Lqx2GSllqFQ]]]
 
 **⚠️ And the consequence: if the rail is ELECTRIC rather than water-heated it can go almost anywhere, and the range of models, forms and sizes is far larger. So where the towel rail is the awkward item, switching to electric is the move.** *(Corroborates this page's existing electric-over-hydronic preference from the planning side rather than the plumbing side.)*
+
+### ⚠️⚠️ CUTTING AN ELECTRIC TOWEL RAIL'S FLEX TO SHORTEN IT VOIDS THE WARRANTY — So the SOCKET Position Is the Decision (Александр Синчуков, 2020-11-03)
+
+**An electric rail in a built 70 m² family flat, with the constraint stated as a rule:**
+
+**«Полотенцесушитель у нас ЭЛЕКТРИЧЕСКИЙ, и подключается он вот в такую РОЗЕТКУ. И ОЧЕНЬ ВАЖНО ПОНИМАТЬ, что когда вы выбираете полотенцесушитель, нужно смотреть НА ДЛИНУ ПРОВОДА — потому что его НЕЛЬЗЯ НАРАЩИВАТЬ и НЕЛЬЗЯ ОБРЕЗАТЬ, так как вы СНИМАЕТЕ ГАРАНТИЮ.»**
+
+- → **⚠️⚠️ THE SECTION ABOVE ARGUES ELECTRIC WIDENS THE OPTIONS BECAUSE IT IS FREE OF THE RISER. THIS IS THE PRICE OF THAT FREEDOM, AND THE VAULT DID NOT HAVE IT: the flex is a FIXED LENGTH, and neither extending nor shortening it is permitted — both void the warranty. So the rail's flex length is a SELECTION CRITERION, checked before ordering, exactly like a fridge's cable.**
+- → **⚠️⚠️ AND IT MOVES THE DECISION INTO FIRST FIX, WHICH IS WHERE IT IS EXPENSIVE TO GET WRONG. The socket has to be positioned within reach of a flex whose length you know, at a height and offset that suit a rail you have already chosen — which means the rail must be selected BEFORE the electrics are chased in, not after the tiling. That contradicts the natural order (buy the visible thing last) and is the reason this fails.**
+- → **⚠️ A concealed socket behind the rail is the usual answer, and it must be an IP-rated point in a bathroom — so the constraint compounds: a specific length, a specific height, and a zone-compliant socket, all fixed at first fix.**
+- → **Corroborates by mechanism the vault's broader rule that appliance CABLE LENGTH governs socket position rather than the reverse; here the warranty makes it absolute rather than merely inconvenient.**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+

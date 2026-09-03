@@ -114,6 +114,38 @@ Moscow designer, 2025, `promotional_ratio: medium` (no sponsor; heavy own-studio
 >
 > **⚠️ This also qualifies the "developers don't optimise layouts" claim: a developer's stock plan spends area on circulation partly BECAUSE circulation has to go somewhere. The recoverable share is real but smaller than a plan comparison suggests.**
 
+### ⚠️⚠️⚠️ THE CLOSEST COMPARABLE TO THIS PROJECT IN THE VAULT — a 70 m² Flat, a Family With Two Children, and ONE Replanning Move (Александр Синчуков, 2020-11-03)
+
+**The owner flagged this source himself as very close to this project's own situation. It is, and the section above — on recovered corridor area — is exactly the question it answers.**
+
+| | **The source (2020-11)** | **This project — ZK Dubravinskiy, 3Б/3+** |
+| :--- | :--- | :--- |
+| Total area | **~70 m²** | **69.09 m²** — near-identical |
+| Household | young family, **two boys** | family with children |
+| Rooms | 2 rooms + кухня-гостиная | **3 жилые: 19.49 / 16.64 / 9.36** |
+| Kitchen + living | **combined, and SMALLER than this project's** | кухня 5.24 + жилая 19.49 (**≈ 24.7 combined**) |
+| Sanitary | **two** (master + guest) | **ванная 3.09 + туалет 1.24** |
+| Hall / corridor | **long corridor serving every room** | **прихожая 9.79 m²** |
+| Balcony | cold balcony off the living zone | **лоджия 6.05 m²** — **different position** |
+| Immovable | **a load-bearing column that could not be removed** | **two вентблоки + wet-zone risers** |
+
+**⚠️⚠️ AND THE VERDICT, FROM A DESIGNER WHO HAD CARTE BLANCHE: «В квартире СТАНДАРТНАЯ ПЛАНИРОВКА, то есть есть ДЛИННЫЙ КОРИДОР, из которого мы попадаем ВО ВСЕ КОМНАТЫ. Но здесь такая АРХИТЕКТУРА, что ПЕРЕИГРАТЬ это было, ну, по сути, НЕВОЗМОЖНО. И мы ОСТАВИЛИ КАК ЕСТЬ. Только немножко его УМЕНЬШИЛИ, чтобы РАСШИРИТЬ СПАЛЬНЮ ДЛЯ ДВУХ ПАРНЕЙ.»** And earlier: **«Планировку мы ПРАКТИЧЕСКИ НЕ МЕНЯЛИ, мы немножко уменьшили КОРИДОР В ПОЛЬЗУ ДЕТСКОЙ КОМНАТЫ, в принципе, это ВСЕ ИЗМЕНЕНИЯ.»**
+
+- → **⚠️⚠️⚠️ ONE MOVE: take area from the corridor, give it to the children's room. On a 70 m² flat for a family of four, with style carte blanche, that was the whole replan.**
+- → **⚠️ For this project the same trade is arithmetically available — a 9.79 m² прихожая against a 9.36 m² kids' room — and this is the vault's only worked precedent for it at this exact scale and household.**
+- → **⚠️⚠️ BUT READ IT WITH THE SECTION ABOVE, WHICH IS THE COUNTERWEIGHT: an estate agent quantifies the gain from recovered corridor area, and a designer names where taking it DESTROYS a room. This case sits between them — he took SOME corridor, not all of it, and only because there was a room that needed it.**
+- ⚠️ **What does NOT transfer: his constraint was a load-bearing column and a single-loaded corridor; this project's are two immovable вентблоки and wet-zone risers. The transferable part is the SHAPE of the conclusion — find the one or two moves that buy real area, and do not assume a good designer will re-cut the whole flat, because a good designer with a free hand did not.**
+- ⚠️ *The owner has also noted he disagrees with some decisions in this project; the two where the vault already holds contrary evidence are marked as live splits on [[05_Kids_Room/analysis/Desks_Beds_and_Shared_Rooms|Desks, Beds and Shared Rooms]].*
+
+### ⚠️⚠️ And a Second Immovable Element Turned Into Storage (same source)
+
+**«За этой КОЛОННОЙ НЕСУЩЕЙ, которую было НЕ СНЕСТИ, находится БЫТОВОЙ ШКАФ для бытовых средств. И внизу у нас СТИРАЛЬНАЯ МАШИНА, а НАД НЕЙ СУШИЛЬНАЯ.»**
+
+- → **An immovable structural element used as the enclosure for the thing that most needed hiding. Directly relevant here, where the developer plan puts a second вентблок between the kitchen zone and the laundry/hall zone — the same "unmovable lump next to where the laundry wants to be" situation.** See [[09_Laundry_Room/analysis/Essential_Components_and_Layout|Essential Components and Layout]].
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## ⚠️ Moving a Bathroom or Kitchen — the Constraint That Is Forgotten, and Its Technical Consequence
 
 **Legitimate reasons to replan are named** — a better view from the bedroom than the living room, wall configuration that suits the appliances better, wanting the bathroom nearer the bedroom «чтобы не ходить через всю квартиру мыться». **Then:**

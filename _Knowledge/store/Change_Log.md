@@ -1138,6 +1138,9 @@ Round 6 ended by recommending: *keep scoping this channel OLDEST-FIRST until the
 
 **⚠️ Two of my five original picks were therefore unprocessable: `Phk79uKT7rA` (2020-11-03, a 70 m² flat for a family with two children — the most project-shaped title on the channel) and `3y-gA7A6QJ4` (2021-04-02, the ideal bathroom). Rule 1 forbids substituting auto-translated English captions, so both are recorded as UNFETCHABLE rather than as skipped or deferred.**
 
+> [!NOTE]
+> **⚠️⚠️ `Phk79uKT7rA` WAS SUBSEQUENTLY PROCESSED, THE SAME DAY — see Round 7b below.** Not by a fetch: **the user extracted the transcript manually and supplied it.** The caption finding above is unchanged and still true of YouTube. **It is left standing rather than edited away, because the reason the video was unreachable is itself the finding — and because the caption boundary was quietly filtering the vault’s scope by RELEVANCE, not only by date.** `3y-gA7A6QJ4` remains unfetched.
+
 → **The recommendation is amended rather than withdrawn: oldest-first still pays, but the reachable origin layer for this channel is 2020-11 → 2021-07 and it is PATCHY. Probe caption availability BEFORE building a round's scope, not after. The probe cost about a minute per video and would have saved two fetch attempts and a re-scope.**
 
 ⚠️ **A second limit, recorded because the temptation was real: the channel goes back to 2017-09, but the 2017–2019 layer is CAREER-PATH INTERVIEWS. OLDEST-FIRST DOES NOT OVERRIDE THE VALUE FILTER — an old source pays off when it may be the ORIGIN of a technical finding, and "who is a designer" cannot be. Being oldest is not itself value.**
@@ -1190,3 +1193,38 @@ Two sources five days apart appear to disagree about kitchen wall units: 2021-01
 2. **DELIVERY MODEL — separate trades versus a general contractor.** A designer chose separate trades for his own flat and reports the unoffsettable coordination cost; a 30-year contractor (Round 6) holds that only a GC or a long-horizon reference works. Both have reasons; the axis is SCALE.
 3. **SOCKET HEIGHTS — the 30/90 orthodoxy attacked on aesthetic grounds, with a Soviet-СНиП provenance argument.** ⚠️ Routed to a TECHNICAL page with the jurisdiction flagged — NOT to `16_Legal_and_Regulations/`, which is Belarus-only — and with his safety assertion flagged as an opinion rather than an analysis.
 4. **UNDERFLOOR HEATING — natural wood as the pairing that defeats it**, which is the reverse of how the vault's existing Perspectives block frames the question.
+
+## Round 7b — 2026-09-03 — one manually-supplied source, 17 pages
+
+**Branch `nsdsgn-round7b`. One source, `Phk79uKT7rA`, fact_yield 47, routed to 17 pages in the same session as extraction (rule 6).**
+
+### ⚠️⚠️ A RECORD CORRECTED, NOT REWRITTEN
+
+**Round 7 recorded `Phk79uKT7rA` as UNFETCHABLE. That was accurate and remains accurate about YouTube: the video has no Russian caption track, manual or auto.** The user then extracted the transcript by other means and supplied it. **Both facts are now in the record — the original finding is left standing where it was written, with a superseding note, and the `# UNFETCHABLE` line in `processed_video_ids.txt` has been replaced by the real id so a later round does not re-attempt a fetch that will fail nor re-process a source already in the vault.** The staged transcript's `.meta.json` carries `method: MANUAL_USER_EXTRACTION`, `supplied_by: user`, and the failed attempts, **because provenance that launders itself into looking like pipeline output is the failure mode worth spending a paragraph to avoid.**
+
+### ⚠️⚠️ What makes this source different from every other one in the vault
+
+**It is the closest comparable to this project the vault holds, and the USER identified the correspondence, not me:** ~70 m², a family with children, a row of rooms with a middle room. **He also named the differences — loggia position, a second bathroom there, a smaller combined kitchen-living there — and said explicitly that he DOES NOT LIKE some of the decisions but wants the case kept as an example.** So it is filed as a worked case study, and the decisions he may reject are recorded as OPEN rather than as recommendations.
+
+### Findings that changed something the vault already held
+
+1. **⚠️⚠️ INSET FURNITURE LEGS NOW HAVE TWO INDEPENDENT REASONS.** Round 6 gave cleaning; this gives LOAD — a sofa foot punches through an in-floor convector grille, and he calls it a FREQUENT problem. **Two reasons converging on one detail is what turns a preference into a specification**, and the check is concrete: overlay the furniture plan on the heating plan.
+2. **⚠️⚠️ THE PLASTER/PETS FINDING IS NO LONGER A SUPPLIER TALKING ABOUT HER OWN PRODUCT.** Round 7 had it from a coatings supplier in May 2023. This is the DESIGNER, in November 2020, as built practice — and he adds CHILDREN SCRATCHING WALLS and names the selection rule (ПРОХОДНАЯ ЗОНА: entrance and kitchen).
+3. **⚠️⚠️ THE FINISH-JUDGING SET IS COMPLETE AT THREE.** Colour temperature; a plain-white-paper anchor; and now ORIENTATION — the same tile reads differently on the floor and on the wall. All three cost nothing to apply and the third was entirely missing.
+4. **⚠️ TUBULAR RADIATORS PROMOTED FROM ADVICE TO PRACTICE.** He recommends them in January 2021; this project, filmed ten weeks earlier, already had them throughout.
+5. **⚠️ THE TWO-DESK RULE CORROBORATED FROM A DIFFERENT DIRECTION, AND MORE STRONGLY.** The vault's clinical source argues for separate desk tops; he built two IDENTICAL workstations to stop the brothers fighting — identical, not merely separate.
+6. **⚠️ THE WASHER-PLUS-SEPARATE-DRYER CONFIGURATION, five years before the vault's lint-collector argument for it**, and in a corridor cupboard with LOUVRED doors so the appliances get air.
+7. **⚠️ THE ELECTRIC TOWEL RAIL'S HIDDEN COST.** The vault holds that electric widens the options because it is free of the riser. The price is a FIXED flex that may be neither cut nor extended without voiding the warranty — which drags the rail's selection back into first fix.
+
+### ⚠️ Perspectives opened and LEFT OPEN for the user
+
+1. **BUNK BED.** He built one and frames it as the children's dream; the vault's Round 4 clinical psychologist argues against bunk beds where area permits separate beds. **AREA is the deciding variable, and this project's kids' room is 9.36 m² — which is why the answer is the user's, not mine.**
+2. **THEMED MURAL.** Built here; the vault holds that a themed children's scheme lasts about a year. Recorded as a trade, with the lifespan finding cited.
+
+### ⚠️⚠️ A CORRECTION I DID NOT MAKE, AND WHY
+
+**This transcript's self-introduction reads «Я СЕНЧУГОВ Александр» — the exact form Round 5 corrected away from vault-wide, to «Синчуков», on a structural argument about the NSDSGN name. This is the FOURTH rendering and the SECOND self-introduction, and unlike the renderings the Round 5 argument was built on, it is NOT ASR output.** So the correction is **in doubt**. **I have not run a second vault-wide rename on the strength of one transcript** — that would be reversing a considered decision using weaker reasoning than made it, and it is exactly the class of move the process note below warns about. **Flagged for the user to settle.**
+
+### The process note from Round 7, applied
+
+**Round 7 ended with a remedy: before routing any claim that COUNTS practitioners, or CREDITS a synthesis, or HEDGES with "he qualifies this later", name the source files that support it — and if the list is shorter than the claim, weaken the claim.** It was applied three times this round: the tubular-radiator promotion names both sources; the plaster corroboration names which side of the transaction each statement comes from; and **the tile-to-board floor junction that must exist somewhere in this flat is recorded as an OPEN QUESTION rather than as solved, because he neither shows nor discusses it.**

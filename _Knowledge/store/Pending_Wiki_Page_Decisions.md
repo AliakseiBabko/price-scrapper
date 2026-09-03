@@ -323,7 +323,7 @@ None yet.
 
 **⚠️⚠️ MY ROUND 6 RECOMMENDATION ("keep scoping oldest-first until the pre-2023 back catalogue is exhausted") IS AMENDED, BECAUSE ROUND 7 MEASURED THE LIMIT: manual Russian captions exist uniformly only from 2021-08-10; before that it is per-video, and 4 of 8 probed titles in the 2019-09 → 2021-07 window have NO Russian track at all. Two of my five picks were unprocessable.**
 
-→ **The reachable origin layer is 2020-11 → 2021-07 and it is nearly exhausted: `ffP5bdHlh_E`, `wvlr2aGDMCc`, `hEZntyMcP-A` and (Round 6) `Y1lBVJz-ib4` are done; `Phk79uKT7rA`, `3y-gA7A6QJ4` and `KPRcI_CPpAs` have no captions; `NHqf-OoLPBM` (2019, feng shui) is auto-only.**
+→ **The reachable origin layer is 2020-11 → 2021-07 and it is nearly exhausted: `ffP5bdHlh_E`, `wvlr2aGDMCc`, `hEZntyMcP-A` and (Round 6) `Y1lBVJz-ib4` are done; `Phk79uKT7rA` has no captions **but was processed in Round 7b from a manually supplied transcript**, `3y-gA7A6QJ4` and `KPRcI_CPpAs` have no captions; `NHqf-OoLPBM` (2019, feng shui) is auto-only.**
 
 → **⚠️⚠️ SO ROUND 8 SHOULD STOP SCOPING BY AGE AND GO BACK TO SCOPING BY FORMAT, within the 2021-08 onward manual-caption era. And the standing procedural change is: PROBE CAPTION AVAILABILITY BEFORE BUILDING A ROUND'S SCOPE. It costs about a minute per title with `yt-dlp` metadata and it would have saved two failed fetches and a re-scope here.**
 
@@ -336,3 +336,18 @@ None yet.
 **Round 5 recorded the lesson "count SOURCES, not OCCURRENCES". Round 6 broke it (the touch-switch count) and separately found that I had credited myself with a synthesis the source had already made. Round 7 found both of those AND a third kind: I had written "he narrows this claim later" with no source, as a hedge to make a bold claim safer to hold.**
 
 → **All three share one shape: I RECORDED A LESSON WITHOUT TURNING IT INTO A STEP. The remedy is small and specific, and should be added to the intake routine: before routing any claim that counts practitioners, or credits a synthesis, or hedges with "he qualifies this later" — name the SOURCE FILES that support it. If the list is shorter than the claim, weaken the claim.**
+
+## Round 7b — open items from `Phk79uKT7rA` (2026-09-03)
+
+### ⚠️⚠️ Two questions for the user, which only he can answer
+
+1. **WHICH DECISIONS IN THIS CASE STUDY DOES HE REJECT?** He said he does not like some of them. **Two are already recorded on pages as unresolved splits and would be closed by his position: the BUNK BED (against the vault's clinical source, with AREA as the deciding variable and this kids' room at 9.36 m²) and the THEMED MURAL (against the ~1-year-lifespan finding).** Others may exist that I did not flag because they read as neutral.
+2. **THE SURNAME.** «Сенчугов» in this manual self-introduction against the vault's Round 5 correction to «Синчуков». **Fourth rendering, second self-introduction, and the first that is not ASR. Settleable in a minute from the channel's about page; not settleable by more transcripts.**
+
+### ⚠️ An open technical question this source raises and does not answer
+
+**The rooms are engineered board and the corridor and kitchen are tile, so a TILE-TO-BOARD junction must exist somewhere — and he neither shows nor discusses it.** Recorded on `Floor_Transitions_and_Thresholds.md` as an open question rather than assumed solved, **because it is precisely the junction that page exists for, and because this project faces the same one.**
+
+### ⚠️⚠️ A scoping consequence that survives Round 7's "stop scoping by age"
+
+**Round 7 concluded that the reachable origin layer was exhausted and Round 8 should scope by FORMAT within the 2021-08-onward manual-caption era. That still holds for anything fetched by the pipeline.** But this round demonstrates a second axis: **`Phk79uKT7rA` was the most PROJECT-SHAPED title on the channel and it was unreachable by the pipeline, which means the caption boundary was silently filtering the vault's scope by RELEVANCE, not just by date.** → **So the standing recommendation gains a clause: when a title is unusually close to this project's own constraints, it is worth telling the user it exists and is unfetchable, rather than only logging it. That is what produced this round.**

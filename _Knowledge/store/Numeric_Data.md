@@ -850,3 +850,20 @@ Other factory figures: **1 mm** removed by фуговка immediately before the
 - **The side-by-side fridge alternative's module width** — ASR-garbled («160 и модуль»); 60 cm is the plausible reading and is **not resolved by guessing.**
 - **The quartz-vinyl acoustic "ring" claim** — ASR-affected; the DIRECTION is recorded, the claim is flagged `uncertain` and is not routed as a performance figure.
 - **Any conversion for the December 2020 windowsill passage**, where the ASR inverts the sentence — the MECHANISM is recorded, not the claim about what was built.
+
+## Round 7b — `yt_Phk79uKT7rA` (2020-11-03)
+
+| Item | Figure | Note |
+| :--- | :--- | :--- |
+| Flat area, the case-study flat | **~70 m²**, family of four | ⚠️ **the user's own flat is 69.09 m² — the closest comparable in the vault** |
+| Replanning moves made, with style carte blanche | **⚠️⚠️ ONE** — corridor reduced in favour of the kids' room | «в принципе, это ВСЕ ИЗМЕНЕНИЯ» |
+| Documented departures from the project, one flat | **⚠️⚠️ FOUR**, despite a no-deviation clause | detection caught them, not the clause |
+| Plank-tile laying offset | **⚠️⚠️ ~20%**, NOT 50/50 | half-bond stacks the firing warp into repeating lippage |
+| Engineered-board lengths in one delivery | **7–8 different lengths** | «ПРОРАБ СЛОМАЛ СЕБЕ ГОЛОВУ» — a real labour cost |
+| Decorative-to-field tile ratio | **drawn set-out before ordering** | «НЕ МНОГО И НЕ МАЛО» — not correctable on site |
+| Night lights in the kids' room | **one per child, locally switched, at two bed heights** | a first-fix requirement, not an accessory |
+
+### ⚠️ Not recorded as numbers
+
+- **No prices of any kind appear in this source**, so there is **no USD conversion for this round** and no conversion basis to state. The one area figure («около 70 кв.м») is the title's rounding, not a measured net area, and is not treated as comparable to a БТИ or developer figure.
+- **The corridor-to-kids'-room area transfer is never quantified** — he says «немножко». ⚠️ **The arithmetic availability of the same trade in THIS flat (9.79 vs 9.36 m²) is MY observation from `room_schedules.json`, not his claim, and is flagged as such on the page.**

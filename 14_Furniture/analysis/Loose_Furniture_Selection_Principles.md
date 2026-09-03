@@ -39,6 +39,19 @@ This page argues for legs on visual-weight grounds. **A second, independent argu
 
 [source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
 
+### ⚠️⚠️ A SECOND, HARDER REASON TO SET LEGS IN FROM THE CORNERS — LOAD, Not Cleaning (Александр Синчуков, 2020-11-03)
+
+**The section above prefers inset legs because a robot or a mop can pass under and around them. Here is the same geometry chosen for a reason that is not a preference at all. A low windowsill and a balcony door forced an IN-FLOOR CONVECTOR under the living-room window, and the sofa stands in front of it:**
+
+**«Ножки у дивана специально СОБРАНЫ БЛИЖЕ К ЦЕНТРУ, чтобы диван НЕ СТОЯЛ НА КОНВЕКТОРЕ. Это на самом деле ЧАСТАЯ ПРОБЛЕМА, и НИ В КОЕМ СЛУЧАЕ нельзя ставить ножку дивана НА РЕШЁТКУ КОНВЕКТОРА. Она просто её ПРОЛОМИТ, ПРОДАВИТ, испортит.»**
+
+- → **⚠️⚠️ TWO INDEPENDENT REASONS NOW CONVERGE ON THE SAME DETAIL, which is what makes it worth specifying rather than merely preferring: inset legs clean better, AND they keep a point load off anything fragile in the floor. A convector grille takes foot traffic but not a concentrated furniture load.**
+- → **⚠️ IT IS A COORDINATION FAILURE, NOT A FURNITURE FAULT. He calls it a FREQUENT problem — because the heating layout and the furniture layout are usually drawn by different people at different times, and nobody overlays them. The check is: put the furniture plan over the heating plan and look for a leg on a grille.**
+- → **The leg position was specified when the sofa was ORDERED, not adjusted afterwards — so this belongs on the selection checklist, not the snagging list. Once the sofa arrives with legs at the corners, the only remaining options are moving the sofa off the window or living with a broken grille.**
+- ⚠️ *Applies equally to any in-floor service: a floor socket, a floor-recessed vent, a hatch cover. Same failure, same fix.* See [[12_Engineering_and_Systems/analysis/Radiators_and_Convectors|Radiators and Convectors]].
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
 
 ## Visual Weight — the Lever That Actually Controls Room Size
 

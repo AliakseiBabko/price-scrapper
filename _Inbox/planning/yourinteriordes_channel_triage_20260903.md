@@ -629,6 +629,11 @@ Probing 17 candidates with `yt-dlp` metadata only (no downloads, serialized with
 
 **⚠️ TWO OF MY FIVE ORIGINAL PICKS WERE UNPROCESSABLE: `Phk79uKT7rA` (2020-11-03, a 70 m² flat for a family with two children — the most project-shaped title on the channel) and `3y-gA7A6QJ4` (2021-04-02, "how to make the perfect bathroom"). Rule 1 forbids substituting auto-translated English, so both are recorded as UNFETCHABLE, not skipped.** Both are now full-line comments in `processed_video_ids.txt` so a later round does not re-attempt them blind. ⚠️ *They were entered as trailing comments first, which the preflight parser's anchored regex would have silently ignored — corrected to whole-line `#` comments, which it explicitly skips.*
 
+> [!IMPORTANT]
+> **⚠️⚠️ ROUND 7b, SAME DAY: `Phk79uKT7rA` IS NOW PROCESSED IN FULL.** Not by a fetch — **the user extracted the transcript manually and supplied it**, and it turned out to be **the closest comparable to this project the vault holds** (~70 m², family with children, a row of rooms with a middle room; fact_yield 47, 17 pages). **Its entry in `processed_video_ids.txt` is now a real id, not a comment.** `3y-gA7A6QJ4` remains unfetched.
+>
+> **The finding above is left standing, because the reason it was unreachable is the point: the caption boundary was filtering the vault’s scope by RELEVANCE, not only by date — it removed the single most project-shaped title on the channel. → When that happens again, TELL THE USER the title exists and is unfetchable, rather than only logging it.**
+
 **⚠️ AND A SECOND LIMIT, recorded because the temptation was real: the channel goes back to 2017-09, but the 2017–2019 layer is CAREER-PATH INTERVIEWS ("who is a designer", "how to become a designer", "architecture from the inside"). OLDEST-FIRST DOES NOT OVERRIDE THE VALUE FILTER — an old source pays off when it may be the ORIGIN of a technical finding, and a career interview cannot be. Being oldest is not itself value.**
 
 | # | Video | Date | Yield | Why picked |
@@ -665,7 +670,7 @@ Probing 17 candidates with `yt-dlp` metadata only (no downloads, serialized with
 
 ### ⚠️ Where the channel stands — 36 of 220 processed
 
-**⚠️⚠️ THE OLDEST-FIRST PHASE IS OVER, because the reachable origin layer is nearly exhausted:** `ffP5bdHlh_E`, `wvlr2aGDMCc`, `hEZntyMcP-A` and (R6) `Y1lBVJz-ib4` are done; `Phk79uKT7rA`, `3y-gA7A6QJ4` and `KPRcI_CPpAs` have no Russian captions; `NHqf-OoLPBM` (2019, feng shui) is auto-only.
+**⚠️⚠️ THE OLDEST-FIRST PHASE IS OVER, because the reachable origin layer is nearly exhausted:** `ffP5bdHlh_E`, `wvlr2aGDMCc`, `hEZntyMcP-A` and (R6) `Y1lBVJz-ib4` are done; `Phk79uKT7rA` has no Russian captions **but was processed in Round 7b from a manually supplied transcript**, `3y-gA7A6QJ4` and `KPRcI_CPpAs` have no Russian captions; `NHqf-OoLPBM` (2019, feng shui) is auto-only.
 
 → **RECOMMENDATION FOR ROUND 8: go back to scoping BY FORMAT, within the 2021-08-onward manual-caption era. And adopt a standing procedural step — PROBE CAPTION AVAILABILITY BEFORE BUILDING THE SCOPE. It costs about a minute per title and would have saved two failed fetches and a re-scope here.**
 

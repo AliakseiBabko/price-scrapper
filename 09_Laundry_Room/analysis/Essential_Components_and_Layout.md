@@ -157,6 +157,20 @@ source's position.
   a lower collection basket) is a real, if niche, solution for multi-story
   homes with the laundry room in the basement. [sources: [[_Sources/YT_bjfqQUgsyNs_michael_moore_10_mistakes|Michael Moore]], corroborated independently by [[_Sources/YT_GM_m1IJk7Hk_shelnat_ideal_laundry_room|Shelnat]]]
 
+### ⚠️⚠️ A Laundry Cupboard in the CORRIDOR, Behind an Immovable Column — With Ventilated Doors (Александр Синчуков, 2020-11-03)
+
+**«За этой КОЛОННОЙ НЕСУЩЕЙ, которую было НЕ СНЕСТИ, находится БЫТОВОЙ ШКАФ для бытовых средств. И внизу у нас СТИРАЛЬНАЯ МАШИНА, а НАД НЕЙ СУШИЛЬНАЯ.»**
+
+**Three findings:**
+
+1. **⚠️⚠️ THE LAUNDRY IS OUTSIDE THE BATHROOM, in a corridor cupboard.** → **Directly relevant to this project, whose developer plan already has a laundry/hall zone with the second immovable вентблок beside it — the same "unmovable lump next to where the laundry wants to be" situation, resolved by putting the cupboard behind it.**
+2. **⚠️ A WASHER WITH A SEPARATE DRYER STACKED ABOVE — not a combo.** → **This is the configuration the vault argues for on the ground that a washer-dryer combo has NO LINT COLLECTOR by construction. Here it is specified in a real project, in a corridor cupboard, five years before that finding was recorded.**
+3. **⚠️⚠️ THE DOORS MUST BE VENTILATED: «здесь были такие красивые дверки, НЕ ПЕРФОРИРОВАННЫЕ, а знаете, с такими ЛАМЕЛЬКами, ЧТОБЫ ШКАФ ДЫШАЛ.»** → **A SLATTED (louvred) door, deliberately not a perforated one. An enclosed laundry appliance needs air, and this page's cupboard content does not say so. It is the same principle as the built-in fridge's plinth vent and top grille recorded elsewhere in the vault — an appliance in a box needs a path for air.**
+   - ⚠️ *And they arrived warped and were being remade at the time of filming, which is a manufacturing-quality datum on slatted doors specifically.*
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## Work Surfaces and Transfer Points
 
 - **A clean-laundry folding/staging zone** — a clear surface for laying out
