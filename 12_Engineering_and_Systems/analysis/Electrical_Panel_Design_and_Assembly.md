@@ -49,6 +49,26 @@ sound-absorbing-rated boxes for that wall. [source: [[_Sources/YT_Q6GKMOJuaPc_pe
 
 **Visual electrician-quality checklist at rough-stage handover (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 5)** — distinct from the acceptance checks above, this is a pre-hire/site-visit lens for telling a professional electrician from a gig-style ("электро шабаш монтаж") one: site swept clean at handover so the next trade can start immediately; every back-box (подрозетник) capped before plastering/painting starts, so putty/dust can't enter the box mechanism and degrade switch/socket contacts later; a **chase (штроба) fill-flush spatula test** — hold a wide spatula flat against a filled chase, no gap means it was filled level and painters won't need to redo it; neat, straight conduit/cable routing even in permanently-hidden areas (above a future drop ceiling) as a care indicator; a **trunking channel ("кабель-канал") consolidating multiple incoming conduits before they enter a panel** whose own cable-entry width is narrower than the bundled conduit run, avoiding loose hanging cable ends; a **hidden conduit stub-out ("закладная") for a not-yet-installed device** (e.g. a video intercom) so later installation is a simple pull-and-mount, not new construction; panel-face labeling for safety/usability (with an explicit caution that children shouldn't operate breakers even if the labeling makes it easy for them to); **panel internal cleanliness as a named fire-risk mechanism** — dust/dirt inside a panel progressively degrades breaker mechanisms and shortens their working life; and **junction-box labeling plus photo-documentation at handover** so a future occupant can consult the photo album years later and open only the specific stretch-ceiling section over the relevant junction box, rather than removing the whole ceiling to search for it. [source: [[_Sources/YT_NYLmHWw9Exc_sbk_choosing_a_good_electrician|YT_NYLmHWw9Exc]]]
 
+### ⚠️⚠️ A 4-Million-Rouble KNX Panel With 57 Violations That CAUGHT FIRE Under an EV-Charger Load Test (Владимир Калинин, 2026-06-16)
+
+**The strongest argument in this vault for the acceptance procedure above, because it is the case where none was carried out.**
+
+- **A KNX installation with a panel costing about 4 million ₽ (≈$52,100).**
+- **⚠️ His own electrical laboratory found 57 VIOLATIONS in it.**
+- **⚠️⚠️ AND IT CAUGHT FIRE WHEN AN EV CHARGER WAS LOAD-TESTED** — i.e. it failed at the first realistic sustained load, which is precisely the load a modern dwelling adds.
+- **Rebuilding it to the design the client had ALREADY PAID FOR: a further 300,000–400,000 ₽ (≈$3,900–5,200).**
+
+**⚠️ Three transferable points, all of which strengthen this page's existing acceptance content:**
+
+1. **An expensive bill of materials is NOT an installation-quality signal.** The components were premium; the workmanship was not. **Panel cost and panel safety are independent variables** — and a large spend can actively mask the problem by implying diligence.
+2. **⚠️ A DISTRIBUTION BOARD IS THE ONE ELEMENT WHERE INDEPENDENT THIRD-PARTY TESTING IS BOTH CHEAP AND DECISIVE, AND AN ELECTRICAL LABORATORY IS A PURCHASABLE SERVICE.** This page's acceptance section lists what to check; this names who can check it when the client cannot. **Against a 4m ₽ panel, a laboratory report is a rounding error.**
+3. **⚠️ LOAD-TEST WITH THE ACTUAL WORST-CASE LOAD.** A panel that passes at idle or at light load tells you nothing; the fault surfaced only under a sustained high-current draw. **For a flat the equivalent worst case is every high-draw circuit together — oven, hob, kettle, washer-dryer, AC — not a walk-round with a screwdriver.**
+
+- ⚠️ *This is also the vault's main counterweight to its otherwise positive smart-home content — see [[12_Engineering_and_Systems/analysis/Smart_Home_Systems|Smart Home Systems]]. The failure was not in the KNX concept but in the panel that carried it, which is the part every smart-home quotation treats as a line item.*
+
+[source: [[_Sources/YT_HbQHuyokSd0_nsdsgn_rescue_contractor_58m_dispute|YT_HbQHuyokSd0]]]
+
+
 ## Panel Module-Count Sizing Rule by Apartment Size (Kruglov/Ontario, Round 14 triage, added 2026-08-28)
 
 **⚠️ A concrete minimum module-count rule, budget-tier framing**: studio

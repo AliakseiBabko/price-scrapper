@@ -12,7 +12,7 @@ Built-in 60cm-class range hoods researched for the kitchen (catalog.onliner.by, 
 
 | Model | Price | Max Capacity | Noise (min–max) | Energy | Width | Motors |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood\|Bosch DHL555BL]]** ⭐ | 1,431 BYN | 360 m³/h (618 m³/h per model page, likely boost mode — see note below) | 38–56 dB | C | 53 cm | 2 |
+| **[[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood|Bosch DHL555BL]]** ⭐ | 1,431 BYN | 360 m³/h (618 m³/h per model page, likely boost mode — see note below) | 38–56 dB | C | 53 cm | 2 |
 
 > [!WARNING]
 > **Figure mismatch, not resolved here.** The scraped catalog spec (360 m³/h max, 56 dB max noise) differs from the already-written [[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood]] model page (618 m³/h, 68 dB at max speed). This could be a standard-vs-boost-mode distinction the model page captured from elsewhere (e.g. product manual) that the catalog listing doesn't show, or the two simply reflect different measurement conditions. Not corrected here — the model page's numbers are left as-is since they came with sourced reasoning; this table shows the raw catalog scrape as its own record.
@@ -57,5 +57,19 @@ Built-in 60cm-class range hoods researched for the kitchen (catalog.onliner.by, 
 ## Reading Notes
 
 - **"—"** means the field wasn't populated in the source listing, not that the spec is zero.
-- Capacity is the manufacturer-stated max airflow at a given duct/setting; real-world performance depends heavily on duct diameter and routing (see [[Renovation_Sequence]] for sequencing implications of duct choice).
+- Capacity is the manufacturer-stated max airflow at a given duct/setting; real-world performance depends heavily on duct diameter and routing (see [[11_Budget_and_Planning/Renovation_Sequence]] for sequencing implications of duct choice).
 - Cheapest-per-brand does not necessarily mean lowest quality — several sub-500 BYN Gorenje models (e.g. TH60E7XB at 750 m³/h) outperform pricier Bosch entries on raw capacity, but trade off noise, motor count, or smart features. The already-selected DHL555BL was chosen for dual-motor reliability and manual controls over these, per [[15_Appliances/models/Kitchen_Bosch_DHL555BL_Hood]]'s reasoning.
+
+## ⚠️⚠️ A Concealed Extract Condenses Steam Onto the Door Above It — a Disclosed Defect, Accepted for Appearance (Александр Синчуков, his own kitchen, 2023-11-02)
+
+**An extract built into the cabinet above the hob, occupying that drawer. Extraction performance itself is fine — «тянет она неплохо, даже когда активная готовка, очень много пара — она с этим справляется». The defect is elsewhere:**
+
+**«Если КИПЯТИШЬ ВОДУ, то испарения начинают просто ЗАСТИЛАТЬ вот здесь ДВЕРЦУ — это прямо НЕКРАСИВО. Поэтому вытяжку приходится ВКЛЮЧАТЬ ВСЁ ВРЕМЯ. Если бы вытяжка была ОТДЕЛЬНАЯ, наверное, этой проблемы бы НЕ БЫЛО.»**
+
+- → **⚠️ A concealed extract must be RUN CONTINUOUSLY even for boiling water, or steam condenses on the cabinet door above. That is an operating cost, not a performance one, and it does not appear in any specification.**
+- **His reason for keeping it is stated and is purely aesthetic: «чисто ЭСТЕТИЧЕСКИ мне нравится решение с ОТДЕЛЬНОЙ вытяжкой МЕНЬШЕ, именно в таком современном стиле».** → **Record as a knowing trade-off with both sides named, which is how he presents it. Not a mistake — a priced choice.**
+- ⚠️ **And the vault now holds the other half of it, from the factory that built the cabinet: the niche is formed at the works, the duct spigot is planned, and the penetration is CUT ON SITE — «по месту вырежем отверстие».** The manufacturer notes he is constantly asked where the extract went: «Она просто СКРЫТА вот в этих верхних шкафах.» [source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
+  - **→ The construction and the consequence, from two sources, nine months apart, on the same cabinet.**
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+

@@ -33,6 +33,16 @@ This document captures your specific physical preferences, sizing details, color
 
 ---
 
+### ⚠️ Finish as a Selection Criterion — and a Time-Bounded Verdict on the White Hob (Александр Синчуков, 2021-01-22)
+
+- **MATTE appliance finishes over gloss and polished stainless**, on the fingerprint criterion. Relevant to the all-black-glass and full-touch sets recorded in [[15_Appliances/Kitchen_Appliance_Sets|Kitchen Appliance Sets]], which are gloss by construction.
+- ⚠️⚠️ **THE WHITE HOB IS BANNED OUTRIGHT, FROM EXPERIENCE, WITH A TIME BOUND: a white hob «выглядит неприемлемо» after TWO TO THREE MONTHS.** A specific verdict on a specific product with a stated horizon, which is rare enough to keep verbatim.
+  - ⚠️ **BUT DO NOT GENERALISE IT TO "LIGHT IS WORSE" — the same practitioner says the OPPOSITE about vertical fronts a year later, and the reversal is unresolved.** See [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioner Material Selection Accounts]] for both positions with their dates.
+- **Gloss furniture fronts criticised in the same session, with a client case: an ANTIQUED (patinated) MIRROR that PROFESSIONAL CLEANERS COULD NOT FULLY CLEAN.** → A finish whose texture is *designed* to read as dirty, so real dirt within it is unremovable. **A distinct failure category from marking: unverifiable cleanliness.**
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## 🧺 2. Laundry Appliance Preferences
 
 ### 🧼 Washer & Dryer

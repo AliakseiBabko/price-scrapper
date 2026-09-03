@@ -547,3 +547,44 @@ Four of the five sources are `promotional_ratio: low`. **The one that is not is 
 **the design-project argument is made at length by the ESTATE AGENT — who sells no design services, concedes the client's taste rather than flattering the designer's («не быть ДАЛЬТОНИКОМ — это не что-то выдающееся; ДВА ЦВЕТА СОПОСТАВИТЬ НЕ СЛОЖНО»), and locates the value in CONCEPT and SCOPE DOCUMENTATION rather than in taste.**
 
 **⚠️ Note the offsetting bias, though: the two are on each other's podcast and each endorses the other's profession. The agent's praise of designers is not independent of the mutual endorsement, even if it is independent of design fees.** Recorded on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services and Fees]].
+
+## Round 6 — @YourInteriorDes / NSDSGN, 2026-09-03
+
+**⚠️⚠️ THIS ROUND CONTAINS THE TWO MOST PROMOTIONAL SOURCES PROCESSED FROM THIS CHANNEL, AND BOTH WERE STILL WORTH TAKING. The reason is stated per source: in one, nine competing suppliers make mutually checkable claims; in the other, the technical tests transfer to ANY factory. Neither is usable on its conclusions.**
+
+### `yt_AMMIMihB-Mc` (2022-04-06) — **HIGH. The highest of any NSDSGN source.**
+
+- **Nine suppliers, each introducing themselves by company name**; several name showroom addresses (one gives «Выборгское шоссе 15»); **each closes with a direct invitation to visit.** The host closes with a **Telegram channel plug**.
+- **→ Structurally an INDUSTRY SHOWCASE.** It is usable because the nine accounts are on the same questions and can be checked against each other — and where they diverge (price rises from +20% to +150%) **the divergence is itself the finding.**
+- **⚠️⚠️ ONE CLAIM IS A STRAIGHT SALES PITCH FOR THE HOST'S OWN SERVICE AND IS ROUTED WITH THE FLAG ATTACHED: «цены на материал выросли, [а] цены на дизайн-проект по-прежнему остаются ещё январскими… дальше будет дороже».** Routed anyway because the structural half (design fees reprice more slowly than materials, so a fee is sticky in TIME as well as in SEGMENT) is real and independently interesting — **but the page carries the flag above the finding, and I added the caution the pitch omits: a fee fixed in January against a build now 20–150% dearer is simultaneously an argument that the BUILD may no longer be affordable.**
+- **⚠️ AND A SUBTLER CONFLICT WORTH NAMING: the near-unanimous «без паники, спешить смысла нету» comes from nine suppliers sitting on warehouses of PRE-SHOCK STOCK. "No need to rush, come and choose" is advice that also happens to suit them.** It is nevertheless the position the subsequent price fall vindicated — **so the flag is recorded and the finding is kept.**
+
+### `yt_P3O2koqOGp8` (2023-02-21) — **HIGH, but DISCLOSED, which changes how it is handled.**
+
+- A **single-supplier factory visit**, brand named throughout.
+- **⚠️ The host DISCLOSES that he is a customer: «кухню в свою квартиру я делаю [у] ребят… я выбрал их среди многих»**, with sections of his own kitchen visible on the assembly floor.
+- **⚠️ He also flags one of his OWN remarks as advertising in the moment — «даже получилась маленькая реклама» — and closes by directing viewers to a Boosty page because «монетизация сейчас не работает».**
+- **→ THE HANDLING RULE APPLIED: the CHECKABLE items are routed as usable — the white-panel edge test, the pre-milling question, control assembly, barcode traceability — because a client can verify them at ANY factory. The POSITIONS are routed as position: «дизайнерская мебель… просто не может быть поточной» is a real answer to the video's title question AND the argument that justifies his price.**
+- **⚠️ And one number is flagged as marketing outright: the 0.01 mm beam-saw tolerance.** See `Numeric_Data.md`.
+- ⚠️ **A genuine tension in the source, recorded rather than resolved: the man stating the supplier-selection criterion (judge a supplier by whether he admits and fixes defects) is the supplier being judged by it, and the host is his customer. The criterion survives because it is falsifiable and because this round's own failure case independently confirms the mechanism** — but it should never be cited as a disinterested finding.
+
+### `yt_Y1lBVJz-ib4` (2021-01-22) — LOW
+
+No sponsor, no brand pushed, one product category (tubular steel radiators) discussed generically, two client anecdotes, one subscribe request. **No prices in 20 minutes.**
+
+### `yt_HbQHuyokSd0` (2026-06-16) — LOW, and unusually so for a service provider
+
+**The guest is selling remedial contracting and technical supervision, and he does not name his company or direct viewers to it — he tells them to search the GENERIC term «независимая техническая экспертиза».** ⚠️ **And he volunteers that his own entry survey did not find everything — an admission against interest, and the single strongest reason to trust the rest of his account.**
+
+### `yt_AEJlxbTmQJU` (2023-11-02) — LOW
+
+Products named as **his own purchases with prices** rather than as placements; one brand comparison explicitly marked **«это не реклама»**; no sponsor and no discount code. **⚠️ He also discloses the occupancy duration himself («больше месяца»), which is the honest caveat on his own minimalism-is-liveable claim, and he pre-empts the "you tidied it for the camera" objection by naming it.**
+
+### ⚠️⚠️ Round 6 completes a FOUR-INSTANCE prepared-footage pattern on this channel — which is a finding about the SOURCE, not the subject
+
+1. **2021** — a black gloss kitchen needed a **15-minute wipe-down before it could be photographed**, told against the finish he was shooting.
+2. **2024** — the bathroom footage was groomed (Round 5).
+3. **2024** — a further admission in the one-year-of-fixes review (Round 4).
+4. **2023** — and the strongest, because it is a production DECISION rather than a confession: he **deliberately delayed** reviewing his own finished flat, «потому что ОДНО ДЕЛО КРАСИВЫЕ КАРТИНКИ, А ДРУГОЕ ДЕЛО — КАК ЭТО ВСЁ РАБОТАЕТ В ЖИЗНИ».
+
+→ **The photogenic version and the working version of an interior are different objects, and this practitioner says so in four separate places. That is the clearest available justification for the vault's standing preference for POST-OCCUPANCY sources over decision-stage ones, and for treating every render or portfolio image as a claim about appearance only.** Routed to `Practitioner_Material_Selection_Accounts.md`.

@@ -1066,3 +1066,58 @@ Both landed on pages that already covered the subject well, where the useful con
 
 - **⚠️ `Family_Scenario_Driven_Design.md` was split, resolving an item flagged in Pending Wiki-Page Decisions after Round 4.** It had reached 358 lines with one section carrying 234 of them. **`split_page.py apply`: 0 content lines missing, 30/30 citation IDs preserved, `RESULT: CLEAN`.** New page: `Brief_Elicitation_Practitioner_Cases.md`. **The seam the tool's own analysis suggested (framework versus cases) turned out better than the one I had proposed in Round 4 (principles versus elicitation) — worth noting that `analyse` should be run before a seam is committed to on paper.**
 - **`check_page_sizes.py`: 285 pages, no FRAGMENTED, nothing over the 400 backstop.** Four pages remain between 311 and 382 and stay flagged.
+
+## 2026-09-03 — Round 6, @YourInteriorDes / NSDSGN (5 sources)
+
+### ⚠️⚠️ The round's largest output: TWELVE dating corrections, all in the same direction, from one 2021 source
+
+**Round 5 established that a vault built round-by-round systematically MIS-DATES FINDINGS TOWARD THE ROUND THAT FIRST NOTICED THEM, and prescribed processing oldest titles early. Round 6 was scoped oldest-first to test that. The test returned a positive, and it is large.**
+
+`yt_Y1lBVJz-ib4` (2021-01-22) is the origin of the following, every one of which the vault attributed to a later source:
+
+| Finding | Vault had | Actually first stated |
+| :--- | :--- | :--- |
+| **The cleaning-as-wear thesis itself** — the vault's central durability framework | 2026 | **2021-01-22** |
+| **MVHR reduces dust → is a DURABILITY investment (the full chain)** | **Round 4, as MY synthesis** | **2021-01-22, as one thought** |
+| Texture and relief complicate maintenance | later | **2021-01-22** |
+| Ultra-matte is a ceiling product, not a wall product | 2026 | **2021-01-22, tension included** |
+| Upward-facing shades collect dust | later | **2021-01-22** |
+| Wall-hung WC cleaning dividend | later | **2021-01-22** |
+| Concealed cistern is not a maintenance trap | later | **2021-01-22, «спросите у сантехников»** |
+| Free-standing bath fails on cleaning access | later | **2021-01-22** |
+| Undermounted over vessel basins | later | **2021-01-22** |
+| Joint count is the real maintenance variable | later | **2021-01-22, via the splashback pre-cut** |
+| Marble is more robust than clients assume | later | **2021-01-22, as a stonemason's anecdote** |
+| Furniture on legs / wall-hung for cleaning access | later | **2021-01-22, WITH the ranking and the leg-inset detail** |
+
+**⚠️⚠️ AND THE ONE THAT IS MY OWN ERROR, NOT A DATING SLIP: in Round 4 I presented "MVHR is not just an air-quality purchase, it is a durability investment, because less dust means less cleaning means less wear" as a synthesis I had assembled across sources. It is a single continuous argument in this 2021 monologue, mechanism included. That is the SECOND time on this channel I have credited myself with a synthesis the source had already made — the first was the Round 4 light-group reconciliation, corrected in Round 5.** Corrected in place on `Breathers_vs_Mechanical_Ventilation.md` with a visible correction block rather than a silent reframe.
+
+**Corrections applied on:** `Breathers_vs_Mechanical_Ventilation.md`, `Flooring_Material_Selection.md`, `Paint_Specification_and_Quality.md`, `Lighting_Fixtures_and_Fittings.md`, `Toilets_and_Hygienic_Shower.md`, `Bathtub_Materials_and_Installation.md`, `Fixtures_Mixers_and_Sinks.md`, `Loose_Furniture_Selection_Principles.md`, `Worktops_and_Backsplash.md`, `Practitioner_Material_Selection_Accounts.md`, `Storage_and_Hardware.md`.
+
+### ⚠️ A third ASR spelling of the host's surname — which strengthens the Round 5 correction
+
+The Round 5 entry recorded that «Сенчугов» was wrong in 61 places across 48 files, that the correct form is **Александр СИНЧУКОВ**, and that my reasoning error was retaining the vault's established form against contrary evidence on the ground that seventeen prior instances outweighed one clear self-introduction.
+
+**⚠️ `yt_AMMIMihB-Mc` renders his own self-introduction as «Александр СЕНЧАГОВ» — a THIRD distinct spelling.**
+
+→ **Three transcripts, three spellings of one man's surname. This is direct evidence that caption tracks are specifically unreliable on PROPER NOUNS, and it retrospectively confirms that the Round 5 fix was made on the right basis: the clearest self-introduction, NOT a majority vote across transcripts — which would have produced the wrong answer, and did, for five rounds.** No further name changes made; recorded so a later session encountering «Сенчагов» does not treat it as a new correction.
+
+### ⚠️⚠️ Two page repairs, both owed for two consecutive rounds, both performed
+
+**1. `Lighting_Design.md` — 359 lines and FRAGMENTED.** Diagnosed by reading the headings, per the standing rule: nine top-level headings carried dated round labels («added 2026-09-01, Round 5», «Round 9», «Round 10»), i.e. the page was organised by WHEN FACTS ARRIVED. **Merged first (`split_page.py merge`): 12 sections → 7 topical ones, 12 headings demoted `##` → `###`, 0 content lines missing, 49/49 citation ids retained, RESULT: CLEAN.** Then, because Round 6 adds colour-temperature content, **split (`apply`): 388 → 291 + a new `Lighting_Colour_Temperature.md` at 111 lines, 0 missing, 49/49 ids, CLEAN.**
+
+**2. `Contract_Practice.md` — 382 lines, and the defect was the OPPOSITE of fragmentation: 379 lines of ONE UNDIFFERENTIATED BULLET LIST under a single `## Contract Practice` heading, with topics interleaved by arrival order.** `split_page.py` moves whole sections by line range and so could not fix this — there was only one section, and the topics were not contiguous. **So the page was restructured by hand into four topical `##` sections (38 bullets reassigned, every bullet preserved verbatim), verified with the same invariants the tool asserts — 0 content lines missing, 18/18 citation ids — and then split with the tool: 395 → `Contract_Practice.md` 158 + `Contractor_Vetting_and_Selection.md` 132 + `Site_Management_and_Dispute_Escalation.md` 136, 0 missing, 22/22 ids, CLEAN.**
+
+⚠️ **Recording the method because it is a case the tooling does not cover: a page can fail by being STRUCTURELESS as well as by being FRAGMENTED, and the structureless case needs a manual topical pass before the tool can help. `check_page_sizes.py` cannot see this defect — it counts lines and flags dated headings, and this page had neither problem visibly.**
+
+### ⚠️ A hypothesis of mine superseded by content already in the vault
+
+The rescue contractor states «дверные коробки стоит устанавливать только ПОСЛЕ укладки напольного чистового покрытия», which appears to contradict the vault's rough-stage concealed-door finding. **I drafted "ORDER early, INSTALL late" as a reconciliation hypothesis. On checking the target page before writing — which the standing rule requires — `Concealed_Door_Considerations.md` already carried a two-stage install account that is more specific and supersedes my guess: the openings are prepared to the supplier's ТЗ with the height computed from how much the FINISHED FLOOR WILL RISE.**
+
+→ **So both sources locate the failure in the same place — THE FINISHED-FLOOR DATUM — and they are not rival rules but two risk controls on one variable: compute the datum and install early, or wait for the floor and install late.** Recorded on the page with a note that my hypothesis was superseded rather than dropped silently. **The lesson is that the "look for an existing section before adding a heading" rule also catches WRONG SYNTHESES, not just fragmentation.**
+
+### Other structural changes
+
+- **`15_Appliances/Kitchen_Disposers.md` POPULATED** — it had been 0 bytes. Round 6 supplied its first substantive source (disposer scope, the under-sink bin conflict, and the corner-offset waste outlet that resolves it). Flagged as a single-source page.
+- **`Kitchen_Filtration_Systems_Analysis.md` remains 0 bytes** — no source this round touched it. Carried forward to `Pending_Wiki_Page_Decisions.md`.
+- **Two Perspectives blocks opened rather than resolved:** the 2021→2022 dark-surface reversal (`Practitioner_Material_Selection_Accounts.md`), and the 4000 K task-zone exception against the same-scene rule (`Lighting_Colour_Temperature.md`). **In both cases the reconciliation offered is explicitly labelled as MINE and not the practitioner's.**

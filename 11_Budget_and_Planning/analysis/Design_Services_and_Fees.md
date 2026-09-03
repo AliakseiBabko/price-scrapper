@@ -214,3 +214,21 @@ From a separate source, and it is the counterweight to everything above. [source
 - **«Я ОЧЕНЬ РЕДКО расставался с заказчиками, я всегда старался ДОВОДИТЬ ДО КОНЦА. Был случай — пришла заказчица, уже в сильном возрасте: "Александр, это моя ПОСЛЕДНЯЯ КВАРТИРА, Я В НЕЙ УМРУ. Сделайте, пожалуйста, чтобы она была ИДЕАЛЬНАЯ." И Я ПОНИМАЮ, ЧТО С ЭТИМ ЗАКАЗЧИКОМ СКОРЕЕ ВСЕГО НИЧЕГО НЕ ПОЛУЧИТСЯ — потому что вот тот самый ПЕРФЕКЦИОНИЗМ.»**
 - **⚠️ The clinical reading of the same trait, from the psychologist he was interviewing, is what makes this more than an anecdote: perfectionism converts a joint decision into a contest — «когда у людей в голове есть идея, что есть какой-то ОДИН идеально правильный вариант, И ЭТО МОЙ ВАРИАНТ… наша задача получается НЕ в том, чтобы ДОГОВОРИТЬСЯ, а в том, как мне ПРОДАВИТЬ свою идею».** She reports **two client couples divorcing during renovations** and calls it «классика».
 - **→ For a designer, this is a scoping signal rather than a reason to decline: a brief framed as "make it perfect" carries no acceptance criteria, so nothing can ever be signed off. The tractable version is to convert it into enumerable requirements early** — which is exactly the chain the section above sets out, and which the hotel-room test on [[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family Scenario Driven Design]] operationalises for a client who does not yet know their own requirements.
+
+### ⚠️⚠️ The Fee Is STICKY IN TIME As Well As IN SEGMENT — and This One Is a Sales Pitch, Flagged
+
+**⚠️⚠️ READ THE FLAG FIRST: the following is a design studio's argument for buying a design project from that studio, made during a price shock. It is routed because there is a real structural point inside it, not because the conclusion is disinterested.** [source: [[_Sources/YT_AMMIMihB-Mc_nsdsgn_supplier_roundtable_2022_price_shock|YT_AMMIMihB-Mc]]]
+
+**April 2022: «ЦЕНЫ НА МАТЕРИАЛ ВЫРОСЛИ, [а] ЦЕНЫ НА ДИЗАЙН-ПРОЕКТ ПО-ПРЕЖНЕМУ ОСТАЮТСЯ ЕЩЁ ЯНВАРСКИМИ, и сейчас есть возможность сделать дизайн-проект ПО СТАРЫМ ЦЕНАМ — дальше будет дороже.»**
+
+- **The structural point, which stands independently of the pitch: DESIGN FEES REPRICE MORE SLOWLY THAN MATERIALS.** A fee is a labour price set per project and renegotiated periodically; materials reprice on the currency, continuously.
+- → **⚠️ Combined with the section above, a design fee is STICKY IN BOTH DIMENSIONS — across segment AND across time. So its SHARE of a project budget falls whenever material costs move, which is the opposite of how a percentage fee is usually feared to behave.** *That synthesis is mine; the two halves come from two different sources on this channel.*
+- ⚠️ **Practical caution the pitch omits: a fee fixed in January against materials bought in April means the DESIGN was cheap relative to a build that is now 20–150% more expensive. That is an argument for the fee being good value — and simultaneously an argument that the BUILD may no longer be affordable at all.** The source does not address the second.
+
+### ⚠️ A Third Distinct Function for the Design Project — It Decouples Deciding From Buying (same source)
+
+**«Сейчас вы можете ЗАФИКСИРОВАТЬ СВОЮ ИДЕЮ и ПО МЕРЕ ПОСТУПЛЕНИЯ ФИНАНСОВ, по мере поступления материалов, РЕАЛИЗОВЫВАТЬ ЕЁ В БУДУЩЕМ.»**
+
+- → **Design and procurement can be separated in time, and under uncertainty that is an advantage: the CHEAP, DURABLE part of a project (the decisions) can be completed while the EXPENSIVE, VOLATILE part (the goods) waits.**
+- → **This page now records three distinct functions for one document: a specification, an evidentiary artefact (Round 4, above), and an idea held in escrow against better conditions.** ⚠️ **Note the tension with the same practitioner's single-window procurement policy from the same source: he argues procurement must collapse into a few days AND that design can wait indefinitely. Both are consistent only because they concern different halves of the project — which is precisely the point.**
+

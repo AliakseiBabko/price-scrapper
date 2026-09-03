@@ -214,6 +214,19 @@ Distinct from the Kruglov/Ontario wired-vs-wireless architecture comparison abov
 
 `single-account`, `unverified`.
 
+### ⚠️⚠️ The Hardest Counterweight This Page Has — a 4m ₽ KNX Panel, 57 Violations, and a Fire (Владимир Калинин, 2026-06-16)
+
+The cautions above are about reliability and usability. **This one is about safety, and it is a costed real case rather than a concern.**
+
+**A KNX system whose panel cost about 4 million ₽ (≈$52,100) was found by an independent electrical laboratory to contain 57 violations, and it CAUGHT FIRE when an EV charger was load-tested. Rebuilding it to the already-paid-for design cost a further 300,000–400,000 ₽.** Full detail at [[12_Engineering_and_Systems/analysis/Electrical_Panel_Design_and_Assembly|Electrical Panel Design and Assembly]].
+
+- → **⚠️ The lesson is NOT that KNX is bad — it is that a smart-home system concentrates the whole dwelling's control and load into ONE ASSEMBLY BUILT BY ONE CREW, so the installation becomes a single point of failure in a way that conventional wiring is not.** The more the system does, the more the panel matters.
+- → **The mitigation is specific and cheap relative to these sums: buy an independent electrical laboratory inspection of the panel, and insist on a load test at realistic worst case before handover.**
+- ⚠️ **Read alongside this page's house/villa scope note: this was a 400 m² house with an EV charger, which is not this project's apartment scope. The transferable part is the CONTROL (independent panel testing), not the failure statistics.**
+
+[source: [[_Sources/YT_HbQHuyokSd0_nsdsgn_rescue_contractor_58m_dispute|YT_HbQHuyokSd0]]]
+
+
 ## House/Villa-Specific Additions (⚠️ Not This Project's Apartment Scope)
 
 Flagged as outside this project's own apartment-renovation context —

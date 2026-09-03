@@ -82,6 +82,23 @@ Zemstandart / Alexey Zemskov says the following, verified against `YT_3EBbFbhdj6
 >
 > **The companion video itself (Round 1, video 7, added 2026-08-28)**: gives an explicit two-method comparison. **Method A (tub pushed flush against finished tile)** — DIY-installable, tub freely replaceable (good for rentals), but the necessarily large perimeter sealant gap yellows and eventually molds, needing periodic recleaning/resealing; rounded tub edges also rule out a tiled apron. **Method B (tile laid over the tub rim, this speaker's exclusive practice)** — flush aesthetic with only a **1-2mm** vertical gap (a genuinely new precise number for this store), too narrow for water to pool, so it never molds or needs resealing — but the tub can't be replaced without demolishing the surrounding tile, and if that tile is discontinued (a real risk this same round's video 6 covers directly), full retiling may be needed just to swap the tub. [source: [[_Sources/YT_XkQdhTf71ao_sbk_bathtub_wall_seal_technique|YT_XkQdhTf71ao]]]
 
+### ⚠️⚠️ He Published This Exact Rule in January 2021. His Own Builders Broke It in 2023, and It Leaked.
+
+**This is the strongest cross-source item the vault holds on this channel, and it changes what the Round 5 leak means.**
+
+**January 2021 — Александр Синчуков publishes the rule this section already records: TILE OVER THE BATH RIM WITH A MINIMAL GAP, AND SILICONE THE JOINT.** Same practitioner, same detail, stated as a general recommendation to his audience.
+
+**March 2024 — in his OWN completed flat, the builders used EPOXY GROUT at exactly that joint, on an acrylic bath, and it LEAKED.** Recorded from [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]] in Round 5.
+
+- ⚠️⚠️ **→ SO THE ROUND 5 LEAK WAS NOT A KNOWLEDGE GAP. IT WAS A SUPERVISION FAILURE ON HIS OWN PUBLISHED RULE, THREE YEARS AFTER HE PUBLISHED IT.**
+- **The transferable lesson, and it is uncomfortable: knowing the detail does not get it built.** The person who had published the correct method, who was the client, and who was a professional designer, still got a rigid grout at a flexing joint in his own bathroom. **The joint is a hand-over-hand decision made by a tiler at the moment of tiling, and it is invisible once it is wrong.**
+- → **The actionable consequence is an inspection item, not a specification item: this joint must be named at the point of tiling and looked at, because specifying it correctly demonstrably does not suffice.** It belongs on the acceptance checklist rather than only in the drawings.
+- ⚠️ **Note the mechanism the two sources jointly establish: an acrylic bath deflects under load, and a rigid cementitious or epoxy joint at the rim cannot accommodate that movement. The silicone is not a finish, it is the movement joint.** This page's silicone-joint-width content and its acrylic-tub load-testing content are the two halves of the same requirement.
+- **From the same 2021 session, and consistent with this page's existing position: the FREE-STANDING BATH IS REFUSED ON ACCESS GROUNDS** — you have to clean all the way round it and behind it, in a space that is by definition too tight. *(The vault dates this to a later source; it is here, in January 2021.)*
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## Bathtub-Then-Tile Sequencing (added 2026-08-19, remainder-pool Round 2)
 
 **⚠️ Install the bathtub first, flush against three walls, then tile *over* the tub's own edge/rim** — never tile the walls first and push the tub up against an already-finished tile perimeter, which forces an ugly trim/edge detail around the tub that doesn't even prevent water intrusion any better. Stated definitively as the correct order of operations, extending this page's existing tile-over-tub-apron technique with an explicit sequencing rule. `single-account`, `unverified`. [source: [[_Sources/YT_nbrDFET2AXk_90_mistakes_part2_295|YT_nbrDFET2AXk]]]

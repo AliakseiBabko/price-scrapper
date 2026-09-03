@@ -220,6 +220,21 @@ Her stated action plan: pick one room (the one you spend most time in, not the w
 
 **ГК «Авальремонт»** makes the same point about scale-blind copying more vividly: copying a Pinterest interior without accounting for your own lighting and floor area means "то, что круто смотрится в 200 м², в твоих сорока превращается в грустный подвал." [source: [[_Sources/YT_2__5Y0sLAxo_avalremont_10_color_lifehacks|YT_2__5Y0sLAxo]]]
 
+
+## ⚠️⚠️ Judge a Near-White Against a Sheet of PLAIN WHITE PAPER — a Free Acceptance Test, and It Caught the Designer Himself (Александр Синчуков, 2023-02-21)
+
+**He walked into the assembly shop, saw his own fronts, and «просто ПЕРЕКОСИЛСЯ ОТ УЖАСА — МНЕ ПОКАЗАЛОСЬ, ЧТО ОНИ БЕЛЫЕ»**, which was not the colour he had specified.
+
+**The resolution: the unpainted BACK of the panel is plain white, and they held a SHEET OF WHITE A4 PAPER against the painted face — «СРАЗУ ЖЕ ПРОИЗОШЁЛ БАЛАНС БЕЛОГО, и сразу же стало видно, что они ТЁПЛОГО БЕЛОГО ЦВЕТА. Я УСПОКОИЛСЯ.»**
+
+- → **⚠️⚠️ WITHOUT A TRUE-WHITE REFERENCE THE EYE HAS NO ANCHOR AND READS ANY OFF-WHITE AS WHITE. A sheet of paper restores the anchor instantly.**
+- → **⚠️ This happened to a professional designer, about his own specified colour, in good light, on a factory floor — which is the strongest possible argument that the test is needed rather than merely available.**
+- → **It is free, repeatable, and applies to every off-white in a project: paint, cabinet fronts, tile, stone, stretch ceiling.** This page already records that photographs and memory both fail when choosing a finish; **this adds the case where a PHYSICAL SAMPLE IN THE HAND still fails, and names the fix.**
+- → **⚠️ It also explains a whole class of "the colour came out wrong" complaints: the sample was judged without a reference, so the client approved a warm white believing it was neutral, or rejected a correct batch believing it was wrong.**
+- ⚠️ *Pair with the same channel's rule to test a finish at the colour temperature it will actually be lit at — see [[12_Engineering_and_Systems/analysis/Lighting_Colour_Temperature|Lighting Colour Temperature]]. Two independent reference problems: the light you judge under, and the white you judge against.*
+
+[source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
+
 ---
 
 ## Source Notes

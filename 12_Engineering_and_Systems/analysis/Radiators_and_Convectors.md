@@ -137,6 +137,18 @@ A floor-standing radiator (as opposed to one mounted behind a false wall) has se
 
 **A real-jobsite example: a vertical radiator installed at a deliberately nonstandard height**, not the usual default placement, specifically so a planned built-in furniture piece (a wardrobe/storage unit) fits around it correctly once installed later. A concrete real-project instance of coordinating radiator placement with furniture layout at the rough-plumbing stage, rather than letting furniture design work around wherever the radiator naturally lands. `single-account`, `unverified`. [source: [[_Sources/YT_A16VC0VYjSQ_kruglov_5_site_tour|YT_A16VC0VYjSQ]]]
 
+### ⚠️ Cleanability and Static Attraction as Selection Criteria — a Three-Generation Argument for Tubular Steel (Александр Синчуков, 2021-01-22)
+
+This page selects radiators on output, material, connection and placement. **A criterion it does not carry at all: whether the radiator can actually be cleaned, and whether it attracts dust electrostatically.**
+
+- **His three-generation reading: cast iron → panel and convector types → TUBULAR STEEL, which he recommends as ANTISTATIC and genuinely wipeable.**
+- ⚠️ **The argument against convector-type radiators is specific and matches this page's own physics section: the fins are an ENCLOSED DUST VOLUME that cannot be cleaned at all.** The same geometry that gives a convector its surface area makes it unreachable.
+- → **A trade-off to state alongside the sizing formula above: fin density buys output and costs cleanability.** For a low-maintenance interior he resolves it toward the tubular type; for a heat-output-limited window position this page's existing content resolves it the other way. **Both are live; the criterion is what was missing.**
+- ⚠️ *Related, from the same source: in-floor convectors are the extreme case of this problem, being both an enclosed fin volume and a floor-level opening. Not addressed by him directly — flagged as an open question against this page's in-floor convector sections.*
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## Convectors — In-Floor and Window-Sill
 
 ### In-Floor Convector Final Leveling — Don't Finalize Without a Physical Flooring Sample (added 2026-08-24, Round 5)

@@ -21,6 +21,28 @@ What the role actually evaluates, per the same source: **paint category, how the
 - **⚠️ Self-supervision is not the same product: «если строитель контролирует сам себя, ты должен очень сильно доверять этому строителю».** Serious construction companies hire a separate supervisor for themselves as an internal audit — which is the tell that it is a real function.
 - **⚠️ And an internal supervisor decays, with a stated mechanism and a timescale.** One panellist ran his own in-house технадзор while he was still doing renovations, and **it stopped working after roughly the first six months: «потом они с парами уже там друзья туда-сюда».** The supervisors and the crews became friendly. **A concrete organisational finding, and an argument that independence has to be structural rather than contractual.**
 
+### ⚠️⚠️ Three NAMED Deliverables — the First Itemised Version of This Role in the Vault (Владимир Калинин, 2026-06-16)
+
+**A rescue contractor who takes over failed builds, asked what would have prevented the one he was standing in. His answer is to engage independent technical supervision FOR THE WHOLE BUILD — «ДАЖЕ ЕСЛИ ПОДРЯДЧИК — ДРУГ» — and, unusually, he itemises what it buys:**
+
+1. **Checking the ESTIMATE DOCUMENT (смета)** — before signature, as a document, against the works described.
+2. **Checking EXECUTED WORKS** against what has been billed.
+3. **⚠️ RECORDING OF CONCEALED WORKS (фиксация скрытых работ)** — the documentary record of everything about to be buried.
+
+- **A practical route to finding one: search «НЕЗАВИСИМАЯ ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА».**
+- **⚠️ Deliverable (3) is the one that answers this page's failure-modes section, and this round supplies two cases that turn on nothing else: a ceiling whose CLIPS were pressed by hand, and CCTV outlets that did not exist despite paid-for as-built documentation** — with the foreman's explanation **«Я ТАК РЕШИЛ»**. → **As-built documentation is worth exactly what its verification was worth, and a drawing produced by the party being checked is not a check.** That is why recording concealed works has to be somebody else's job.
+- **⚠️ AND THE TIMING ARGUMENT, which explains why this is bought at the start or not at all: «НЕТ ЛУЧШЕГО ВРЕМЕНИ, КОГДА СОСКАКИВАТЬ.»** There is no good moment to walk away from a failing contractor — every such decision is made under sunk cost — **so the control has to be in place before it is needed rather than deployed as a rescue.**
+
+### ⚠️⚠️ And the Honest Limit, From the Man Selling the Service — Record This Wherever Supervision Is Recommended
+
+**His entry survey — the incoming expertise he performed himself before taking the job — DID NOT FIND EVERYTHING.**
+
+- → **⚠️ A survey REDUCES exposure; it does not BOUND it.** Supervision is a probability purchase, like the garage rescue on the same build that he closed with **«а дальше уже как повезёт»**.
+- → **A source with a commercial interest in supervision volunteering that his own inspection was incomplete is the strongest single reason to trust the rest of his account — and it is what stops this page overselling supervision as a guarantee.**
+
+[source: [[_Sources/YT_HbQHuyokSd0_nsdsgn_rescue_contractor_58m_dispute|YT_HbQHuyokSd0]]]
+
+
 ## ⚠️ The failure modes — this is the half that is usually missing
 
 **1. The market selects for adversarialism rather than measurement.**

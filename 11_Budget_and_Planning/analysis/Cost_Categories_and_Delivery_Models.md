@@ -177,3 +177,65 @@ competition:
 ---
 
 Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Guide]]. Siblings: [[11_Budget_and_Planning/analysis/Cost_Benchmarks_Live_Intake|Cost Benchmarks — Live Intake Ledger]] · [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers]] · [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services & Fees]] · [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]].
+
+## ⚠️⚠️ Procurement Under Price Instability — Nine Suppliers, April 2022, and Three Techniques That Outlive the Crisis
+
+**A round-table assembled from separate interviews with NINE St Petersburg suppliers six weeks after the February 2022 shock. ⚠️ High promotional ratio — every participant names their company and closes with a pitch — but the nine accounts are mutually checkable, which is what makes the figures usable.** [source: [[_Sources/YT_AMMIMihB-Mc_nsdsgn_supplier_roundtable_2022_price_shock|YT_AMMIMihB-Mc]]]
+
+### ⚠️⚠️ The dispersion is the finding, not any single number
+
+| Category | Reported rise, Feb → Apr 2022 |
+| :--- | :--- |
+| Goods made in **Europe** | **+25–50%** |
+| Goods made in **Russia or Belarus** | **~+20%**, and then HELD |
+| **Furniture hardware alone** | **⚠️ +100–150%** |
+| Kitchen furniture overall (≈half Russian content) | **+20–25%**, then stalled |
+| Doors and partitions | **+30%** |
+| Decorative/finishing materials | **avg +30%**, spread **15–50%** |
+| **Tile and sanitaryware** | **⚠️ +60–100%** |
+| One Spanish factory specifically | **+50–60%** |
+| One supplier, blended | **"practically 1.5–2×"** |
+
+- → **⚠️ THE RANGE RUNS FROM +20% TO +150% ACROSS ONE MARKET IN ONE WEEK. A headline "materials went up X%" is therefore meaningless: the rise tracked IMPORT SHARE AND CURRENCY EXPOSURE, category by category.** That is a durable analytical result even though the 2022 numbers are not.
+- **⚠️ Hardware rose most BECAUSE IT IS THE ONE CATEGORY WITH NO DOMESTIC SUBSTITUTE**, said independently by several suppliers. **Blum cut supplies by 60–70%.** *Corroborated from the demand side in this same round by a client who regretted saving on hardware — see [[03_Kitchen/analysis/Storage_and_Hardware|Storage and Hardware]].*
+- **⚠️ Domestic content buys price STABILITY, not just price level** — Russian-made goods rose ~20% and then held steady while imports «капитально варьировались и прыгали» with the rate. **A different and more useful proposition than "buy local, it's cheaper".**
+- ⚠️ **A Belarus data point, with the jurisdiction flagged: Belarusian-made goods are grouped WITH Russian-made in the ~+20% band by the supplier who mentions them.** *This is a market/price observation, not a regulatory one, and is therefore recorded here rather than in `16_Legal_and_Regulations/`.*
+
+### ⚠️ No USD equivalents here, and the reason is the vault's own comparability rule
+
+**A trailing six-month USD/RUB mean before 2022-04-06 STRADDLES the February–March 2022 currency shock, averaging two incompatible regimes into a number that describes neither.** The suppliers themselves refer repeatedly to the rate having spiked and partly returned. **Converting these figures would manufacture false comparability, so they are held as rouble percentages with the date attached and treated as HISTORICAL MARKET EVIDENCE rather than as pricing input.**
+
+### ⚠️ Substitution holds for the STRUCTURE and fails for the FINISH
+
+- **Replaceable:** carcasses and facades (~30–40% already made in Russia), doors, parquet, basic tile.
+- **⚠️ NOT replaceable:** furniture hardware (no analogues); **decorative lighting** — «в нашей стране ПРАКТИЧЕСКИ НЕ РАЗВИТ»; textiles; wallpaper (one Russian producer, though improving).
+- **⚠️ And the qualitative limit, from a supplier who is otherwise optimistic: «ЕВРОПА ОТЛИЧАЕТСЯ БОЛЕЕ ИНТЕРЕСНЫМИ ОТДЕЛКАМИ, КАКИМИ-ТО ЭФФЕКТАМИ, И В РОССИИ ПОКА НИКТО ПОВТОРИТЬ ИХ НЕ МОЖЕТ.»**
+- → **⚠️ That distinction is the most transferable idea in the source and it is not time-limited: the closer a product gets to a SURFACE EFFECT, the less substitutable it is.** *A middle path also named: Russian mechanisms made to Italian drawings and certificates, some of which «показали себя с очень хорошей стороны».*
+
+### ⚠️ Logistics, not production, was the binding constraint
+
+**The host's own summary: «БОЛЬШИНСТВО ЕВРОПЕЙСКИХ ФАБРИК ПРОДОЛЖАЮТ ПРОИЗВОДИТЬ свою продукцию и готовы нам её предоставлять, но главный вопрос — ТО, КАК ЕЁ ПРИВЕЗТИ.»** Sea freight closed; road haulage possible but expensive; Belgium lead times 3–4 weeks → ~6 weeks; a Portuguese container simply not arriving while Italy kept shipping; **10–15 factories on a stop-list out of ~1,500 partners.**
+
+- → **⚠️ The distinction matters because it predicts the correct response: a LOGISTICS shock lengthens lead times and raises landed cost but does not remove the product, so the answer is SCHEDULE SLACK, not substitution.** *(That inference is mine; the suppliers give the facts and the host gives the diagnosis.)*
+
+### ⚠️⚠️ Panic buying locked in the worst price of the whole period — with the outcome, not just the caution
+
+**One supplier's sequence: hardware jumped; «КТО-ТО БЫСТРО ПОБЕЖАЛ В ПАНИКЕ [и] ЗАКУПАТЬ УЖЕ ПО НОВЫМ ЦЕНАМ»; then prices came back down; «И ЛЮДИ УЖЕ НЕМНОЖКО РАССТРАИВАЮТСЯ, ЧТО КУПИЛИ ДОРОЖЕ.»**
+
+- → **⚠️ A documented outcome rather than advice, and the second-order cost is named too: panic buying produces the WRONG materials, not merely expensive ones — «у вас потом будут какие-то материалы, которые вам потом будет НЕКУДА ДЕВАТЬ».** Specification error plus dead stock, on top of the price.
+- ⚠️ **Read the near-unanimous «без паники» with the promotional flag in view: nine suppliers holding pre-shock stock all saying "no need to rush" is advice that also suits them.** It is nevertheless the position the subsequent price fall vindicated.
+
+### ⚠️⚠️ Three procurement techniques — the durable half of the source
+
+1. **⚠️ THE MOVE-IN-HORIZON TEST, and it survives the 2022 context entirely: «если вы планируете ЗАСЕЛЯТЬСЯ ЧЕРЕЗ ТРИ-ЧЕТЫРЕ МЕСЯЦА, то СЕЙЧАС САМОЕ ВРЕМЯ приобретать. Если… ГОДА ЧЕРЕЗ ДВА — ТОРОПИТЬСЯ АБСОЛЮТНО НЕ ИМЕЕТ СМЫСЛА.»** → **Buy when your INSTALLATION DATE is inside the lead time, not when the price news is bad.** The vault had nothing equivalent.
+2. **⚠️ PRICE-FIXING BY EARLY PURCHASE WITH FREE STORAGE: «многие фабрики ХРАНЯТ МАТЕРИАЛ БЕСПЛАТНО… то есть ЗАФИКСИРОВАТЬ ЦЕНУ.»** → **Free factory storage turns an early purchase into a price hedge without creating a site-storage problem — and site storage is normally the reason not to buy early.** An askable question at order time: *do you store it, for how long, at what cost?*
+   - ⚠️⚠️ **PAIR THIS WITH THE CUSTODY WARNING FROM THIS SAME ROUND, because neither source states both halves: fix the price early, IN THE CLIENT'S OWN NAME, stored at the factory.** Material bought through a contractor becomes leverage in a dispute — see [[11_Budget_and_Planning/analysis/Site_Management_and_Dispute_Escalation|Site Management and Dispute Escalation]].
+3. **⚠️ COLLAPSING PROCUREMENT INTO A SINGLE WINDOW — his studio's own policy change: «есть ТОЛЬКО ОДИН СПОСОБ комплектовать проекты — в ДАННЫЙ МОМЕНТ, НА ДАННУЮ СЕКУНДУ… У вас есть НЕСКОЛЬКО ДНЕЙ… РЕАЛЬНУЮ ЦЕНУ МОЖНО ИМЕТЬ ТОЛЬКО В МОМЕНТЕ.»** → **Under currency instability a specification's prices are valid for DAYS, so the whole purchase must collapse into one window at the start of the build — which inverts the normal advice to procure progressively.**
+   - ⚠️ **And a precondition he does not draw: a single-window procurement requires the ENTIRE specification complete and the ENTIRE budget liquid ON THE SAME DAY. That is a much harder precondition than staged buying, and it is why this is a crisis measure rather than a default.** *(My inference, flagged.)*
+
+### ⚠️ He declines to answer the title question, then answers it conditionally — preserve the shape
+
+**«НАЧИНАТЬ ИЛИ [НЕ НАЧИНАТЬ] РЕМОНТ СЕЙЧАС — здесь НЕЛЬЗЯ дать какой-то конкретный совет. Здесь КАЖДЫЙ ДОЛЖЕН РЕШАТЬ ДЛЯ СЕБЯ, выстраивать ЦЕПОЧКУ ПРИОРИТЕТОВ… совет вам НЕ МОГУ ДАТЬ.»** He then adds that if the money is available now, spending it on materials preserves its value, **«потому что ДЕШЕВЛЕ УЖЕ ВРЯД ЛИ ЧТО-ТО БУДЕТ»**, with old stock possibly still at pre-shock prices.
+
+- → **⚠️ Record the refusal alongside the advice. A source that declines a universal answer and then gives a conditional one is behaving correctly, and flattening that into a recommendation would misrepresent it.**
+

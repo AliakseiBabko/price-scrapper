@@ -73,6 +73,18 @@ Per designer Nikita Kuznetsov (Kruglov/Ontario), trend-focused framing. [source:
 
 ---
 
+### ⚠️ Two Maintenance Criteria for Choosing a Fitting — Shade Orientation and Diffuser Material (Александр Синчуков, 2021-01-22)
+
+This page's what-to-check-before-buying list covers output, driver quality, serviceability and glare. **Two criteria to add, both about dust:**
+
+1. **⚠️ SHADE ORIENTATION: a shade or bowl that faces UPWARD is a dust bowl.** It collects everything, it is at height, and **the dust is visible through the diffuser once it is there.** Prefer downward-facing or fully enclosed shades. *(This page dates the upward-facing-shade point to a later source; it is here, in January 2021.)*
+2. **⚠️ DIFFUSER AND SHADE MATERIAL: metal, not plastic.** Plastic attracts and holds dust electrostatically; metal does not to the same degree. **New to this page entirely** — and it cuts against a good deal of inexpensive fittings, where the diffuser is the cheapest component.
+
+- → Both belong in the buying checklist above rather than as a separate philosophy: they are questions you ask of a specific fitting in a specific showroom, and neither is visible in a photograph.
+
+[source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
+
+
 ## 4. Chandeliers and Pendants
 
 ### ⚠️ The same chandelier position from the same practitioner, ten weeks earlier — and the cheap alternative he names
@@ -264,3 +276,16 @@ The same applies to multiple strips on one switch — **three vertical wall stri
 ---
 
 Part of [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]].
+
+### ⚠️⚠️ Recessed Into a Routed Groove, and Positioned at MID-DEPTH — Two Details, Both Decided at the Factory (Александр Синчуков, his own kitchen, 2023-11-02)
+
+1. **Recessed, not surface-mounted: «она НЕ НАКЛАДНАЯ, она УТОПЛЕНА ВО ФРЕЗУ, то есть её НЕ ВИДНО С ТОРЦА, она НЕ РАЗДРАЖАЕТ ГЛАЗ.»**
+2. **⚠️ AND THE LATERAL POSITION IS DELIBERATE AND IS NOT AT THE WALL: «она НЕ У СТЕНЫ — она светит примерно в ТРЕТЬ СТОЛЕШНИЦЫ.»** Mid-depth under the cabinet, lighting the working third rather than the back wall.
+   - → **This page's worktop-LED content covers mounting and driver quality but nothing on LATERAL POSITION, and it matters more the deeper the worktop is — his is 70 cm.** A strip at the wall on a deep top lights the splashback and leaves the working zone in the shadow of the wall units.
+
+⚠️⚠️ **AND THE SEQUENCING CONSEQUENCE, WHICH IS THE PART THAT CANNOT BE RECOVERED LATER: the groove is a FACTORY OPERATION.** The manufacturer's own account of the production line lists it explicitly — «здесь делаются все отверстия, все фрезеровки под ПОДСВЕТКУ, под профиль гола» — cut by CNC before the carcass is assembled. [source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
+
+- → **A recessed strip cannot be retrofitted. The lighting layout, the strip type and its position must be final BEFORE furniture production starts, alongside the handle strategy and the socket positions cut in the same pass.** See [[03_Kitchen/analysis/Cabinet_Assembly_Technique|Cabinet Assembly Technique]].
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+

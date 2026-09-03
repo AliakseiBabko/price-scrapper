@@ -260,3 +260,35 @@ None yet.
 **⚠️ That is a deliberate contrast with Round 4's soundproofing dedup test, which PASSED against 200+ files: there the saturation was by FILE COUNT and the gap was an adjacent trade (sockets). Here the saturation is by SUBJECT DEPTH on a narrow material, and a "what's wrong with it" critique of a material the vault already treats sceptically is unlikely to move anything.** The realtor source incidentally confirms the microcement video is promotional-adjacent — he cites a comment on it accusing him of pushing an expensive material.
 
 **The four remaining regrets titles (`34D4bv2dNLw`, `vvf2wcUYaUE`, `-1hfcmvUGjY`, and the block's shorter remainder) are still unprocessed and were still left on FORMAT reasoning, not on a dedup finding. The stopping rule has now failed to fire twice.**
+
+## Round 6 — @YourInteriorDes / NSDSGN, 2026-09-03
+
+### ✅ Both repairs owed from Rounds 4–5 are DONE — nothing deferred a third time
+
+- **`Contract_Practice.md`** — routed AROUND for two consecutive rounds at 382 lines. **Restructured into four topical sections and split into three pages (158 / 132 / 136), CLEAN.** ⚠️ **Its defect turned out NOT to be fragmentation but STRUCTURELESSNESS — one 379-line bullet list with topics interleaved by arrival order, which `split_page.py` could not touch and `check_page_sizes.py` cannot detect.** Method recorded in `Change_Log.md`.
+- **`Lighting_Design.md`** — 359 lines and genuinely FRAGMENTED (nine dated round-labelled headings). **MERGED first per the standing rule, then split: 291 + a new `Lighting_Colour_Temperature.md` at 111. Both CLEAN.**
+
+### ⚠️ The next repair, and it has now been flagged twice — do not route around it again
+
+- **`05_Kids_Room/analysis/Age_Staged_Planning.md` at 358 lines is now the largest page in the vault** and was flagged in Round 5 as well. **Diagnose by reading the headings BEFORE choosing a tool** — Round 6 is a worked lesson in that: one page needed merging, the other needed a manual topical pass, and the line count told me nothing about which. **If the next round touches kids'-room content at all, repair this first.**
+- **`12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md` (311)**, **`Smart_Home_Systems.md` (312)**, **`Switches_and_Controls.md` (312)** and **`13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection.md` (323)** are all over the soft target and all grew this round. **None is fragmented on inspection and none is near the 400 backstop — leave them.**
+
+### ⚠️ Still zero bytes, and now the only one
+
+- **`Kitchen_Filtration_Systems_Analysis.md` remains 0 bytes.** No Round 6 source touched it. **`Kitchen_Disposers.md`, which was the other empty page, was POPULATED this round from its first substantive source** — so the pattern is that these pages fill when a source finally addresses them, and the right action is to leave them empty rather than pad them.
+
+### ⚠️ Open questions left open on purpose
+
+1. **The 4000 K task-zone exception vs the same-scene colour-temperature rule.** A practitioner breaches the rule knowingly for a working surface and **cannot explain why**. Recorded as CONTESTED on `Lighting_Colour_Temperature.md` with my proposed reconciliation (surfaces you LOOK at vs surfaces you WORK at) explicitly labelled as inference. **Needs a lighting-design source, not another designer's preference.**
+2. **The 2021→2022 dark-surface reversal.** Same practitioner, one year apart, irreconcilable as stated, and he never acknowledges changing position. **My soil-type reconciliation is labelled as mine.** Do not retire either claim.
+3. **The leak-sensor count discrepancy** — four locations (2023-11) vs three sensors (2024-03) in the same flat. Either the system grew or one account is loose. **Both recorded with dates; deliberately not averaged.**
+4. **The oven-glove problem** — unsolved by the designer in his own kitchen, and he asks the audience. Recorded as an open gap because it is a hot-and-damp object that defeats closed storage, and the vault should hold the gaps as well as the answers.
+5. **Granite** now has three independent arguments from one practitioner (staining, maintenance, price) and they have been consolidated on `Worktops_and_Backsplash.md`. **What is still missing is a PRICE for granite fabrication in Minsk**, which is where the whole finding actually bites — the cost warning is that fabrication, not slab, is the expense.
+
+### ⚠️⚠️ A method note that should govern the next round's scoping
+
+**Round 6 tested the Round 5 dating lesson by scoping OLDEST-FIRST, and the test returned twelve corrections plus one mis-credited synthesis of mine. That is the highest-value structural output of any round on this channel.**
+
+→ **Recommendation: keep scoping this channel oldest-first until the pre-2023 back catalogue is exhausted.** The remaining unprocessed pool is ~189 titles; **the oldest ones are the ones most likely to be the ORIGIN of something the vault already holds badly dated**, and newest-first scoping is what produced the error in the first place.
+
+→ **And a second-order caution I should apply to myself: I have now twice claimed a synthesis that the source had already made, both times on this channel. The check is cheap — before crediting a chain to the reading, search the channel's own back catalogue for it.** Round 5 recorded this lesson; Round 6 found a second instance of the same error committed in Round 4. **The lesson was recorded but not yet operationalised into a step, and it should be.**

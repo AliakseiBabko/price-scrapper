@@ -2,7 +2,9 @@
 
 What a renovation or furniture contract must make explicit, the clauses to test it against, and the practice that prevents a dispute rather than winning one. **Split out on 2026-09-02 under the vault's 300-line page ceiling, verbatim.**
 
-## Contract Practice
+## The Contract Document — Scope, Payment, Smeta and Warranty
+
+What the document must make explicit, the clauses to test it against, and the named traps built into estimates, discounts and timelines.
 
 - **A written scope-of-work, duplicated in a messenger thread even without
   a full design project**, settles later disputes over what was actually
@@ -11,18 +13,6 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   Management section for the fuller version of this practice (originally
   surfaced there, directly relevant to contract scope generally, not just
   demolition).
-- **Five contractor-scam red flags** (refusal to sign a written contract,
-  refusal to produce an itemized smeta, an implausible "universal"
-  all-trades crew, refusal to show completed past projects, an
-  unrealistically short quoted timeline) and **three contractor-fraud
-  schemes specific to smeta manipulation** (lowball-then-front-load,
-  "recalculation of actual work" area-inflation clauses, desperate-crew
-  lowball-then-extort) already live in
-  [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] §4 — the
-  itemized-smeta template structures on this page are a direct, practical
-  defense against several of them (an opaque "whole renovation for X
-  RUB/m²" quote is exactly the pattern a properly itemized, auto-totaling
-  smeta makes impossible to hide behind).
 - **A real two-tier contractor warranty benchmark** (5 years on
   engineering/utility systems, 2 years on general construction, per
   Petrishin-Stroi) is also already recorded in
@@ -83,7 +73,6 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   illustration of how wide the price range can be for the same visual
   result, useful context when sanity-checking a smeta's own tile line
   item. [source: [[_Sources/YT_mvc_zbjfBWQ_novikov_design_project_structure|YT_mvc_zbjfBWQ]]]
-
 - **⚠️ Two named smeta/contract psychological traps, per Kruglov/Ontario
   (added 2026-08-28)**: (1) a fake "with-discount" price presented
   alongside a "without-discount" price where the "discounted" figure is
@@ -100,7 +89,6 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   items before trusting a stated "with discount" total, and read a
   discount clause's payment-timing structure, not just its headline
   percentage. [source: [[_Sources/YT_rzpkTJYsY0Q_kruglov_smeta_top_mistakes|YT_rzpkTJYsY0Q]]]
-
 - **⚠️ Three further contract/vetting mechanisms, per Kruglov/Ontario
   (added 2026-08-28)**: (1) verify a contracting organization's legal
   registration (OOO or IP) directly online — registration date, tax
@@ -119,7 +107,6 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   120×60cm tile gets billed against this separate appendix list, not
   the smeta's own more favorable rate) — read any contract appendix
   price list as closely as the smeta itself. [source: [[_Sources/YT_lPmjWTwNVQA_kruglov_contractor_scams|YT_lPmjWTwNVQA]]]
-
 - **⚠️ Two named timeline-specific scam mechanisms, per Kruglov/Ontario
   (added 2026-08-28)**, distinct from this guide's existing
   smeta-*wording* fraud catalog: (1) a "sunk-cost illusion of choice"
@@ -140,41 +127,6 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   considered a qualified expert able to dispute the figure after the
   fact, and doing so is described as expensive and unlikely to
   succeed. [source: [[_Sources/YT_9lFhda_KDHk_kruglov_renovation_timeline_truth|YT_9lFhda_KDHk]]]
-
-- **⚠️ Why the cheapest quote is the one most likely to be abandoned mid-job — the
-  arithmetic, from a contractor of 30+ years (Руслан, via NSDSGN).** This page already
-  records lowball-bait-and-abandon as a named scheme; **this is the same outcome
-  arriving without any bad faith, which makes it the more useful version.** A client
-  wants 10,000 RUB/m² on 50 m² = 500,000 RUB. The worker takes ~200,000 as an advance,
-  spends it, and finds three weeks of work still ahead with nothing left to draw
-  against. A neighbour offers 15,000 RUB/m². He leaves — «ключи в почтовом ящике» —
-  and in the better case he returns the keys. **The pricing itself guarantees the
-  abandonment; no fraud is required.** Related failure observed via a management
-  company: an agency-supplied master **sold the client's materials to her neighbours,
-  slept in her flat and moonlighted on other jobs**, stretching her schedule. He notes
-  the counter-view that on those rates survival is genuinely hard, which is why
-  people improvise. [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
-- **⚠️ Vetting signals, and the one that actually matters (same source).** Checkable
-  signals: how long the social accounts have existed, whether the comments read as
-  genuine or fabricated, visiting two or more live objects, asking for a past client's
-  phone number, and meeting in person. **Crew churn is visible on site and is a real
-  signal** — «приходишь на объект, там посмотришь, они друг друга и не знают толком».
-  **But the load-bearing point is a limitation: a specialist's quality cannot be
-  assessed at the time of work.** «Это будет понятно через полгода, когда этот человек
-  уже куда-то уедет, и у тебя что-то прорвёт.» **His conclusion is therefore that only
-  two things work — a long-horizon reference («я живу несколько лет в этом интерьере»),
-  or somebody contractually answerable for the subcontractor.** That is an argument for
-  the general-contracting structure recorded in
-  [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories and Delivery Models]],
-  not merely for diligence.
-- **⚠️ The competence test that costs nothing: name a difficult detail and see whether
-  the crew proposes to substitute it away (same source).** Brigades at the ~20,000
-  RUB/m² level «говорят, что знают» about a теневой профиль or a дверь скрытого
-  монтажа, then say «а нафиг вам надо, а давайте поменяем». **The substitution proposal
-  is the diagnostic, not the claim of knowledge.** Independently corroborated by a
-  ceiling installer on the same channel, who says of shadow-gap profiles «многие
-  впервые его делают» — see
-  [[13_Surfaces_and_Finishes/analysis/Ceiling_Type_Comparison_and_Cost|Ceiling Type Comparison and Cost]].
 - **What an advance actually is, stated plainly (same source)**: money belonging to the
   client, held by the contractor, which becomes the contractor's **only as акты are
   signed against completed work.** Offered as the answer to first-time clients alarmed
@@ -187,69 +139,6 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   that a future session does not mistake this for an available instrument**; it is the
   mechanism this page's whole advance-risk discussion would be solved by, and as of
   Dec 2023 it was not on the market.
-- **⚠️ Client-supplied subcontractors are a distinct risk category, and the failure is
-  competence-in-context rather than competence (same source).** Industrial ventilation
-  fitters who are the client's acquaintances may genuinely be able to build complex
-  ventilation but **have never worked in a finished, delicate environment.** Observed
-  directly on his own site: they were **cutting a ventilation duct on the kitchen
-  island** at final-finish stage. «Люди по профилю могут хорошо делать свою работу, но
-  не умеют её делать в определённых условиях.» **The vetting question is therefore not
-  "can they do this work" but "have they done it in an occupied or finished space".**
-- **⚠️ Supplier stability beats supplier price, with a worked reason to fire a good
-  supplier (same source).** He dropped a mirror supplier who **won tenders on price and
-  then redid the work at their own cost every single time** — «я не понимаю, на что они
-  жили вообще». They were competent and always finished; the defect was reliability of
-  schedule. **His rule: constantly changing people is worse than supporting a known
-  weakness**, because a new supplier will surprise you in a situation you have not met
-  yet. In premium work he now offers quality suppliers and **declines responsibility
-  for client-sourced cheap alternatives** — «если хотите дешевле, сами ищите дешевле и
-  сами потом это всё разгребать».
-- **⚠️ Two rules about the client's own presence on site, and both are cost rules
-  (same source).** (a) **Anxious daily attendance extends the schedule for the same end
-  result.** Processes have a duration, and intervening mid-way makes a normal
-  intermediate state look like failure; meanwhile **masters begin optimising for the
-  client's reaction rather than for correctness.** **The stated alternative is
-  concrete: arrive at the end of a stage — all the malyarka, say — and list every
-  defect at once.** (b) He extends the same subordination point to the contractor's own
-  side: a firm's director should not disrupt the прораб's plan mid-stream either.
-- **⚠️ Green flags — four signals a builder is competent, and the useful one is behavioural
-  (three-designer roundtable via NSDSGN, 2024-08-15, one panellist an ex-прораб).**
-  This page is rich in red flags and had almost nothing on the positive side.
-  (a) **He does not agree to anything straight off the bat and does not sell himself
-  hard.** (b) **He is always booked** — their plumber, phoned three months ahead, offers
-  winter and «не факт», because «мне на моих объектах даже неустойку платят». «Любой
-  хороший специалист — у него всегда очередь, 100%.» (c) **⚠️ He asks to see the object:
-  «если ваш строитель даже не спрашивает "можно мне объект посмотреть" — это уже очень
-  странно».** (d) **⚠️ He estimates slowly and asks questions BACK** — «он берёт паузу,
-  считает и задаёт тебе вопросы: а что вот это? а вот здесь этого не хватает? этой
-  информации в проекте нету — как же мне составить смету?» **The returning questions are
-  the diagnostic, not the estimate.** [source: [[_Sources/YT_SEdNCGA0Ttg_nsdsgn_choosing_builders_roundtable|YT_SEdNCGA0Ttg]]]
-- **⚠️ Two proposed signals the same panel rejects among themselves — recorded as
-  contested so a later session does not adopt them as rules.** **Social-media absence**:
-  one designer calls it a 100% red flag; **the other two reject it outright** — one of
-  their best and most engaged прорабы is unimaginable online. **The builder's car** (an
-  expensive one proving he earned it, or a working van proving he works): raised, and
-  **flagged as odd in the same breath by the panel itself** — «меня пугают заказчики,
-  которые судят дизайнера по его машине». **Age** (a claim that 55–60+ builders cannot
-  keep up with technology) is likewise pushed back on — «всё очень индивидуально», and
-  there are designers doing the same thing for twenty years too.
-- **⚠️ Site visits can be staged — and the best test is inverted (same source).** A shown
-  object may be a showcase object, tidied for your visit, staffed with a crew assembled
-  for the meeting, **or somebody else's object entirely.** **The inverted test: one
-  designer notes he has NEVER had a brigade refuse to walk him onto a live object —
-  while his own clients frequently refuse to let him show their flat to a prospect, and
-  he respects that and shows photographs instead. Conclusion: a builder who walks anyone
-  onto any site without asking the owner will do the same with yours.** «Если ты вот
-  здесь так поступаешь — значит, ты и со мной так же поступишь.» **A red flag derived
-  from consent practice rather than from workmanship.** **Which stage to view: all of
-  them.** Demolition is not uninformative — it shows demolition quality and the
-  «культура ремонта».
-- **⚠️ A capacity question worth asking, with an unresolved divergence (same source):
-  how many objects is this person running concurrently?** Several builders answered the
-  host **«не больше пятнадцати»**; one panellist's own figure is **three or four
-  maximum.** The panel qualifies it by object size and procurement load, so fifteen may
-  not be a lie for simple work — **but the spread is large enough that the answer is
-  informative either way.**
 - **⚠️ Warranty: figures, a red-flag threshold, and a two-category split this page did
   not have (same source).** **Normal is around 3 years; a stated norm of ~2 years
   minimum, and «если меньше 2 лет — сразу до свидания, красный флаг»** (some builders
@@ -262,121 +151,8 @@ What a renovation or furniture contract must make explicit, the clauses to test 
   «кто виноват, тот и платит». **A builder-side incentive worth knowing: he wants his own
   supervision precisely because he carries the warranty — «если у тебя загорится скрутка,
   ты будешь в этом виноват».**
-- **⚠️ Escalation when the damage is real, and the first rule is who NOT to use (same
-  source).** For a large defect **stop arguing about blame and bring in qualified
-  experts — and it must not be the designer.** Either the технадзор, or **an inspection
-  company holding the appropriate attestations, which issues a written заключение naming
-  the specific violations.** Then two paths: **negotiate, in which case the contractor
-  also pays for the inspections; or, if he starts evading, go to court with the
-  заключение.** Small defects (3,000–5,000 RUB, ≈$30–$60 at 90.0251 RUB/USD trailing
-  6 months before 2024-08-15) get settled day to day where people cooperate. **Large
-  problems are usually resolved inside the designer–builder link without telling the
-  client — «наоборот, только всё испортишь».**
-- **⚠️ A worked failure case, and the transferable lesson is that the FIRST stage was
-  already diagnostic (same source).** Old fund, city centre, ~200 m², bought to flip. The
-  client used a brigade **because it was a school friend.** Two years in, **~5,000,000 RUB
-  (≈$56,000) paid including materials, effectively ahead of the work** — closed out by
-  stages but paid forward. Work bad throughout. **The trap: the contractors have no money,
-  there is no way to recover it, and the client will not pay twice — so he can neither
-  move in nor sell.** And he will not expel them because they are friends. **The lesson:
-  «стяжку залили через одно место… по сути по заливке стяжки можно было понять, что
-  ребята не квалифицированы, и не допускать их дальше». The screed pour is the first
-  competence gate.** A designer was involved but **in another city**, said something was
-  wrong, and «тянулось, тянулось, терпелось».
-- **⚠️ The dynamic that case illustrates, which is the situation to design against:
-  «все собираются на объекте и все друг на друга показывают» — furniture makers,
-  builders, designer — with the client in the middle.** The panel's position is that a
-  client who has reached that point had the process go wrong much earlier.
-- **⚠️ Client involvement is a decision to make explicitly, not a default (same source).**
-  He asks each client outright: shall we send you the supervision reports, or just the
-  прораб's report once the defects are already fixed? **His view: many clients want
-  immersion and only make it worse for themselves — «трепать нервы, а при этом ничего не
-  меняется»** — while others genuinely gain from it. *(Complements the same channel's
-  stage-end defect-listing rule above.)*
-- **⚠️ The root cause of builder–client conflict, and it is the best structural insight in
-  the source: «чаще всего это возникает из-за того, что у него происходит несоответствие
-  той сметы его ожиданиям».** The antagonism originates in the estimate not matching the
-  прораб's own expectation of the work — **so it is an estimating failure presenting as a
-  personality failure.** «Всё проговаривать на берегу.» He adds that **прорабы have
-  started valuing themselves properly**, and that a client planning to keep one «в хвост
-  и в гриву» daily will simply find that **a прораб who values himself walks.**
-- **Two conduct rules the panel states about itself, worth holding a contractor to:**
-  «если это мой косяк, открыто об этом говоришь; если это чужой — ты не берёшь на себя
-  ответственность за другого человека и тоже даёшь это явно понять», and the limit of any
-  referral — **«мы не в ответе за каких-то других взрослых людей»: a recommendation is
-  not a guarantee.** They also prefer a contractor already worked with, while noting that
-  a fully interlinked chain loses the **противовесы** that independent parties provide.
-- **A further red flag from the same panel: being asked for a large sum in advance.** And
-  **потребительский терроризм** is named both as the reason one panellist left the
-  construction side and as a red flag when a client arrives already in that mode.
-- **⚠️ The cost asymmetry of a late question, with a measured example (Константин
-  Цепелев / Матвей Борисов, via NSDSGN, 2024-01-09).** A coordination question was
-  raised only **after the countertop had been installed. Fitting the countertop took
-  seconds; the rework took a month**, with a serious dispute. **Their process fix is
-  addressed at designers**: pass everything on to the client *and* to adjacent trades,
-  **bring the client to meetings, and keep one shared chat containing every participant
-  including whoever actually decides** — because when a specialist speaks only to the
-  designer, whether and how it reaches the client is unknowable. Their complaint is
-  that until the project album is handed over, everything on site behaves as if
-  classified. [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
 
-- **⚠️ «Строители, которые великолепно себя проявили с одними заказчиками, потом валятся с другими» — an
-  observation that undercuts referral-based selection, from a designer who cannot
-  explain it (NSDSGN, 2022-10-25).** Reading the comment section of his own regrets
-  video, the category he found hardest was new owners who **trusted their builders,
-  paid on time, did not check, and got total disappointment** — «прямо чувствовалась
-  боль, огромные письма, где всё подробно расписано». **And his honest note on the
-  mechanism: «строители, которые хорошо, просто великолепно себя проявившие с одними
-  заказчиками, потом валятся с другими — просто земля и небо. Мне очень сложно
-  объяснить, почему так происходит.»** **→ A glowing personal reference is weaker
-  evidence than this page's referral guidance implies, and nobody in this vault has a
-  mechanism for why.** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
-- **⚠️ The one selection rule he is certain of, and it names the trigger: chest-beating
-  about a difficult detail.** «Если строители бьют себя пяткой в грудь и говорят: да мы
-  сто раз такое делали, мы асы ремонта, мы эти теневые плинтуса с закрытыми глазами, мы
-  километры этих плинтусов сделали — обязательно посмотрите хотя бы фотографии их
-  работы, а ещё лучше съездить на объект, который они ведут, и посмотреть вживую.»
-  **⚠️ AND HE DISCLOSES LOSING HIS OWN MONEY ON EXACTLY THAT: on his own flat he was
-  told they had done such skirtings a hundred times — «это вообще полная ерунда, мы тебе
-  за копейки сделаем за пять дней» — and it ended in «потерянное колоссальное время,
-  финансовые затраты». To their credit they returned all the money and he found other
-  contractors; «но чаще всего это будут потерянные деньги».**
-  **This is the third independent instance on this channel of shadow/concealed skirting
-  being the detail crews claim to know and cannot execute — and the only one where the
-  designer himself was the victim.** *(The others: this page's competence-test entry
-  above, and the ceiling installer's «многие впервые его делают».)* «Доверяй, но
-  проверяй, и обязательно смотри портфолио. Цена ошибки очень велика.» [same source]
-- **⚠️ Moving into an unfinished renovation — often forced, and the real risk is
-  acclimatisation rather than inconvenience (same source).** He concedes it is frequently
-  unavoidable: his own clients were renting **in the same complex**, the builders badly
-  overran, the landlord had already found new tenants, and **a couple with three children
-  moved into a flat with no doors, with builders continually reappearing.** It was
-  finished within weeks — «в противном случае это могло затянуться на годы».
-  **⚠️ The risk he names: «бывает так, что хозяева приезжают и просто свыкаются с
-  недоделками и остаются жить с ними навсегда» — like temporary furniture you throw out
-  ten years later. And the mechanism: by the end of a six-month-to-a-year build «у вас
-  просто нет моральных сил, хочется скорее переехать и забыть про всё это дело», so the
-  remaining items become «ну и Бог с ними».** **«Надо обязательно найти в себе моральные
-  силы и добить все эти моменты, иначе они останутся с вами до следующего ремонта в
-  следующей квартире.»** A worked case for finishing: a country house where the
-  plasterboard box for the extract was made crooked, redoing it was expensive and
-  time-consuming, the client agonised and then did it — **«и потом говорил, что я с
-  радостью вспоминаю, что решился, потому что сейчас бы меня этот короб постоянно бесил,
-  и переделать уже сейчас было бы просто невозможно».**
-- **⚠️ Build a working relationship with the УПРАВЛЯЮЩАЯ КОМПАНИЯ — a schedule-risk
-  mitigation nothing else in this vault names (Руслан via NSDSGN, 2023-10-11).** «С
-  соседями взаимоотношения хорошие, с управляющей компанией — это даёт кучу плюсов.»
-  **The mechanism: the УК observes how the contracting organisation treats the site and
-  becomes more lenient — «видят человеческий подход, по-человечески сами отвечают,
-  быстрее принимается решение».** **⚠️ And the concrete preferences obtained are all
-  schedule items: the building's own plumber or electrician turning up when something
-  must be shut off; waste removal; and OUT-OF-HOURS deliveries — a finish material
-  arriving from abroad outside working hours, where «сложная логистика» cannot be fitted
-  to a schedule.** «Насколько ты выстроил коммуникацию с управляющей компанией и будешь
-  с ними по-человечески обращаться — тем больше ты получаешь каких-то преференций.» Plus
-  standing in the residents' chat: «в чатике жильцов вас тоже будут уважать — это очень
-  важно». [source: [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+## Moved to their own pages
 
----
-
-Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Guide]].
+- **Vetting and selecting a contractor** — red flags, behavioural green flags, site visits, capacity and the signals the practitioners reject — is now [[11_Budget_and_Planning/analysis/Contractor_Vetting_and_Selection|Contractor Vetting and Selection]].
+- **Running the job and escalating a dispute** — client presence, adjacent trades, the управляющая компания, expert заключения, courts and the worked failure cases — is now [[11_Budget_and_Planning/analysis/Site_Management_and_Dispute_Escalation|Site Management and Dispute Escalation]].

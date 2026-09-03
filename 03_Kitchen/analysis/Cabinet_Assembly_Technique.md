@@ -61,6 +61,63 @@ Two DIY masterclasses (companion sources, same channel) contribute a fully seque
 - **⚠️ A grease-specific reason to close that gap, Round 15 (added 2026-08-28)**: beyond dust, a 10-15cm gap between an upper-cabinet run (or wardrobe) and the ceiling collects airborne kitchen grease and sticky residue — described as considerably harder to remove than dust alone. Reinforces (with a new mechanism, not a contradiction) the existing "build to the ceiling where possible" recommendation. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT__pOv1fnV6nM_kruglov_20_cleaning_mistakes|YT__pOv1fnV6nM]]]
 - **⚠️ A built-in refrigerator's door-panel type must be checked against the cabinetry's own swing/clearance design before installation — now a two-source corroborated finding.** Both documented defects had a fridge door colliding with an adjacent counter/cabinet on opening because the panel type didn't match the design; both were "fixed" by pulling the fridge forward out of flush alignment, and in one case, ordering a costly custom-matched replacement cabinet panel that still visibly "stepped" relative to its neighbors. **Rule: confirm a built-in fridge's actual door-panel/hinge clearance against the cabinetry's planned depth and swing path before committing to a flush-integration design**, not after the appliance is delivered. [sources: notes 2, 3]
 
+
+## ⚠️⚠️ Inside the Factory That Built This Channel's Own Kitchen — Why Precision Is Structural, and Four Checkable Practices (Константин Петухов, works manager, 2023-02-21)
+
+**⚠️ Provenance worth stating, because it anchors several other findings: this is the works that made Александр Синчуков's own kitchen — disclosed on camera, «кухню в свою квартиру я делаю [у] ребят… я выбрал их среди многих» — with pre-assembled sections of it visible. So this source and [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|the own-kitchen review]] are the same object nine months apart. The same manager also appears as one of nine suppliers in [[_Sources/YT_AMMIMihB-Mc_nsdsgn_supplier_roundtable_2022_price_shock|the April 2022 price round-table]].**
+
+**⚠️ Promotional ratio HIGH — a single-supplier factory visit, brand named throughout, host is a customer, and he flags one of his own remarks as advertising in the moment. Routed because the machine capabilities and the tests below are checkable against ANY factory, not just this one.**
+
+### The production chain, in order
+
+design → **shop/constructive drawings** → **CNC beam saw** → **CNC drilling and routing** → **edge bander** → assembly tables → **control assembly** → site.
+
+### ⚠️⚠️ Why drilling accuracy is a STRUCTURAL specification, not a cosmetic one
+
+**«Если сверление отверстия сделано вручную или [на] недорогом станке, ТОЧНОСТЬ ПРИСАДКИ ИМЕЕТ ПОГРЕШНОСТЬ, и эта погрешность потом [встречается] НА СБОРКЕ КОРПУСА… когда сборка корпуса СТЯНУТА НЕ ОЧЕНЬ ПЛОТНО, детали под углом 90 градусов, горизонт и вертикаль — ЭТО ВСЁ ВЛИЯЕТ НА ПРОЧНОСТЬ ВСЕЙ КОНСТРУКЦИИ шкафа [или] кухни.»**
+
+- → **⚠️ Hole-position error ACCUMULATES, and a carcass that does not pull up tight is WEAKER — the joint relies on face-to-face contact and squareness. That is the honest answer to "why is this twice the price", and it is a better answer than surface quality.**
+- **Human factor engineered out: «процентов на 95 все детали сверлятся, присаживаются, фрезеруются — всё автоматизировано»**, with 1–2% of holes and cuts done by hand, at installation.
+
+### ⚠️⚠️ A precision claim to record AND to flag
+
+**He states the beam saw's tolerance as «ПОГРЕШНОСТЬ ЗДЕСЬ ОДНА СОТАЯ МИЛЛИМЕТРА» — 0.01 mm.**
+
+- → **⚠️ RECORDED AS CLAIMED AND FLAGGED AS ALMOST CERTAINLY OVERSTATED. Panel sawing of chipboard at 0.01 mm is not physically meaningful — the material moves more than that with humidity, and industrial panel saws are specified in tenths of a millimetre at best.** The *direction* of his argument (a better saw is more accurate, and accuracy compounds) is sound; the number is marketing.
+- → **Kept rather than dropped because this is exactly the sort of figure that gets quoted back in a showroom.**
+
+### ⚠️ Machine prices, on TWO DIFFERENT FX BASES — do not add them
+
+| Machine | Rouble price | Price date | USD |
+| :--- | :--- | :--- | :--- |
+| CNC drilling / insertion | **5,500,000 ₽** | quoted at filming, **2023-02** | **≈$86,000** |
+| **CNC edge bander** | **3,700,000 ₽** | ⚠️ bought **≈December 2021** | **≈$50,700** |
+| CNC beam saw | ⚠️ **garbled in the caption track — deliberately left blank** | 2023-02 | — |
+
+- ⚠️ **The bander is a December 2021 purchase and is converted at the trailing six-month mean before 2021-12-15 (72.9562 RUB/USD) — i.e. BEFORE the February 2022 shock. Using the filming-date rate (63.9880) would understate its real dollar cost by roughly 14%.** *A small worked example of why the vault dates a price rather than a video.*
+
+### ⚠️⚠️ Four practices a client can actually ask about
+
+1. **CONTROL ASSEMBLY at the works: for a kitchen, modules are assembled, fronts hung, checked by УТК, packed, and only then delivered.** → *Is the kitchen trial-assembled before it ships?*
+2. **EVERY PART BARCODE-LABELLED** — the drilling machine reads the barcode and knows every hole; and when «привозят… БОЛЬШУЮ ГРУДУ ДЕТАЛЕЙ» the fitter «ТОЧНО ЗНАЕТ, КУДА КАКАЯ». → Traceability as ERROR REDUCTION, not logistics.
+3. **PRE-MILLING on the edge bander** (see [[13_Surfaces_and_Finishes/analysis/Material_and_Finish_Tiers|Material and Finish Tiers]] for the white-panel test this enables).
+4. **DELIVERY IN LARGE PRE-ASSEMBLED BLOCKS**, not flat-packed parts — «вот эти КУБИКИ LEGO… ТАКИМИ БОЛЬШИМИ БЛОКАМИ их уже повезут на квартиру». ⚠️ **Consequence for a flat, which he does not raise: THE ACCESS ROUTE AND LIFT DIMENSIONS MATTER, because units arrive as large rigid blocks.** *(My inference, flagged.)*
+
+### ⚠️⚠️ The sequencing consequence that ties this page to the electrical plan
+
+**Routing for INTEGRATED LIGHTING, for the GOLA PROFILE and for SOCKET CUT-OUTS is all done at the CNC stage, before assembly** — «здесь делаются все отверстия, все фрезеровки под подсветку, под профиль гола», and on the bathroom module «здесь уже ЗАРАНЕЕ ПРОПИЛЕНЫ ОТВЕРСТИЯ ДЛЯ РОЗЕТОК».
+
+- → **⚠️⚠️ THEREFORE THE FIRST-FIX ELECTRICAL PLAN AND THE FURNITURE ORDER ARE EFFECTIVELY THE SAME DEADLINE.** Recessed strip position, handle strategy and every in-cabinet socket are cut in one pass and cannot be retrofitted. **That is a schedule finding, and it is the kind that is only discovered by missing it.**
+- **⚠️ A small component that is invisible until missing: cabinet lighting on a TWO-DOOR cabinet needs a LOGIC BLOCK so that opening EITHER door lights BOTH** — «чтобы можно было ПО ОДНОЙ ДВЕРИ открывать [и] ОНИ ДВЕ ОДНОВРЕМЕННО ЗАГОРЕЛИСЬ», plus miniature drivers. → **Without it you get half the light.**
+
+### ⚠️ The closing claim, and its limit
+
+**«Дизайнерская мебель — ОНА ВСЕГДА ИНДИВИДУАЛЬНАЯ, она всегда ПОДГОНЯЕТСЯ ДО МИЛЛИМЕТРА под ваши размеры, ОНА ПРОСТО НЕ МОЖЕТ БЫТЬ ПОТОЧНОЙ И МАССОВОЙ.»**
+
+- → ⚠️ **A real answer to the video's own title question — and also the argument that justifies his price, made by him. Hold the CHECKABLE items (the white-panel edge test, control assembly, pre-milling, barcode traceability) as usable, and the rest as position.**
+
+[source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
+
 ---
 
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Sources for every claim on this page: [[03_Kitchen/analysis/Kitchen_Furniture_Source_Notes|Kitchen Furniture — Source Notes]]. Edit history: [[03_Kitchen/analysis/Kitchen_Furniture_Change_Log|Kitchen Furniture — Change Log]].

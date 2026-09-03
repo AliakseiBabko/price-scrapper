@@ -166,6 +166,32 @@ Konstantin Kruglov / Ontario says: **glossy sink surfaces accumulate visibly mor
 - **⚠️ Check basin width against the plan.** Her worked case: **860 between washing machine and cupboard means a basin no wider than ~800**, because an inset basin has rim beyond the bowl.
 - **Sharp corners accumulate dirt.**
 
+### ⚠️ Dating Correction — undermounted-over-vessel is a January 2021 position, stated three times across the channel (Александр Синчуков)
+
+**UNDERMOUNTED basins over vessel / countertop basins**, because a vessel basin has an exposed junction all the way round at splash height. *(This page dates the preference to a later source; it is here, in January 2021.)*
+
+- ⚠️ **And it is consistent across three sources and thirty-four months, which is unusual enough to record: the 2021 position on BASINS, and then an UNDERMOUNTED SINK in his own kitchen in 2023 — «снизу подклеенная», thick dense metal chosen so it does not rattle.** See [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops and Backsplash]]. **Route as settled for this practitioner.**
+- **From the same session: CONCEALED (in-wall) MIXERS reduce cleaning** — no base to collect limescale and no gap behind the spout. Consistent with this page's existing concealed-mixer content, which argues it on appearance and space.
+
+### ⚠️⚠️ The Flat-Bottomed Basin Warning, and the Chain It Turns Out to Begin
+
+**January 2022 he warns against FLAT-BOTTOMED BASINS on insufficient-fall grounds — a finding this vault already holds from [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]].**
+
+**Round 6 shows what happened next, and it is a three-point chain on one object:**
+
+| Date | What he says |
+| :--- | :--- |
+| 2022-01 | **Warns against flat-bottomed basins** — insufficient fall |
+| **2023-11** | **Has a flat-bottomed kitchen SINK in his own flat and reports the identical defect** — «есть уголки, куда не достаёт вода от смесителя», and has to dig the corners out by hand with a sponge |
+| 2024-07 | **Has REPLACED the mixer with a PULL-OUT, rates it the best single change he made, «надо было конечно сразу его брать»** |
+
+- ⚠️⚠️ **→ THE VAULT'S PULL-OUT-MIXER RECOMMENDATION NOW HAS ITS CAUSE, AND IT SHOULD BE NARROWED ACCORDINGLY: THE PULL-OUT IS SPECIFICALLY THE REMEDY FOR A FLAT-BOTTOMED BOWL.** With a properly falled bowl it is a convenience; with a flat one it is the fix for a daily irritation. The vault recorded it as a general recommendation, which under-specifies it.
+- ⚠️ **And he notes «95% современных моек» are flat-bottomed — so this is the DEFAULT case, not an unlucky purchase.** Which means the pull-out is the right default too, for a different reason than usually given.
+- **He had published the underlying warning 22 months before buying the bowl with that exact fault.** *Second instance in one round of him not applying his own published rule to his own flat — see the tile-over-rim chain at [[07_Bathroom/analysis/Bathtub_Materials_and_Installation|Bathtub Materials and Installation]].*
+
+[source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
+
+
 ## Mirrors and Above-Basin Storage
 
 ### Mirror-to-Sink Gap, and Glass Shelf Maintenance (Игорь Краснов, added 2026-09-01)

@@ -93,6 +93,42 @@ Frameless/backless sofas ("бескаркасные диваны") flagged as a 
 
 `single-account`, `unverified`.
 
+
+## ⚠️⚠️ A Curved Cabinet Corner Can Cost What the Whole Cabinet Costs — With the Manufacturing Reason (Константин Петухов, works manager, 2023-02-21)
+
+**A manufacturer's warning about designers, and it is quantified, which is what makes it usable:**
+
+**«НАЧИНАЮЩИЕ ДИЗАЙНЕРЫ РИСУЮТ НЕРЕАЛИЗУЕМЫЕ ВЕЩИ — не то, что их невозможно построить, а то, что они будут стоить НЕПОДЪЁМНЫХ ДЕНЕГ. Сейчас в моде ТЁПЛЫЙ МИНИМАЛИЗМ, СКРУГЛЁННЫЕ, такие ПРИРОДНЫЕ ФОРМЫ, и я ЧАСТО ВИЖУ 3D, в которых ШКАФ ЗАКРУГЛЁН, ещё и с ФРЕЗЕРОВКОЙ.»**
+
+**⚠️⚠️ AND THE COST: «когда этот шкаф начинают считать, то СТОИМОСТЬ ЭТОГО УГЛА МОЖЕТ БЫТЬ СОПОСТАВИМА СО СТОИМОСТЬЮ САМОГО ШКАФА.»** One curved corner ≈ the price of the entire cabinet.
+
+**⚠️ The manufacturing reason, which is why there is no cheaper route:**
+
+- You **cannot** take solid timber and rout a curve — **«потом погнёт»**, it will warp. MDF will not take the trick as a single piece either.
+- **Instead: THIN ROUTED MDF STRIPS are cut, stacked and threaded together, CLAMPED WITH PURPOSE-MADE METAL PARTS and GLUED UP** — and those laminated sub-assemblies are then combined into the full corner. He shows one small glued-up piece and points out how many are needed for one corner.
+- → **A curved cabinet corner is a LAMINATED BUILT-UP ASSEMBLY, not a machined one.** «И конечно же это ДОРОГОЕ ИЗДЕЛИЕ. И НЕ НАДО ЭТОМУ УДИВЛЯТЬСЯ.»
+
+- → **⚠️⚠️ THIS UPGRADES THE ROUND 5 RENDER-VETTING HEURISTIC FROM A CAUTION TO A PRICED TEST: a curved or radiused element in a render is a COST QUESTION TO ASK BEFORE APPROVING THE DRAWING, and the order of magnitude is "the corner can cost what the cabinet costs".** Nothing else in this vault addresses curved-element buildability.
+- ⚠️ **Note whose interest this serves and why it is still credible: he is the man who would be paid to build it, and he is telling you not to draw it.**
+
+## ⚠️ Solid-Timber Fronts — the Gaps Are Deliberate, and That Is the Principle (same source)
+
+The solid-timber shop is largely hand work — small parts, glue-ups, joint filling, sanding, then enamel. **«По сути ОЧЕНЬ ДОРОГАЯ, ПОТОМУ ЧТО РУЧНАЯ РАБОТА.»**
+
+**⚠️⚠️ And the design response to wood movement: «вот эти ЩЕЛИ, ОНИ ВСЁ РАВНО ПОТОМ БУДУТ. ОНИ ПО СУТИ ЯВЛЯЮТСЯ ЭЛЕМЕНТОМ ДЕКОРА, ПОТОМУ ЧТО МАССИВ ГУЛЯЕТ В ЛЮБОМ СЛУЧАЕ… ПОЭТОМУ ИХ НЕ МАСКИРУЮТ — ИХ ДЕЛАЮТ КАК БЫ ЭЛЕМЕНТОМ ДЕКОРА.»**
+
+- → **Solid timber moves, so panel joints WILL open. Good practice EXPRESSES the joint rather than concealing it — because a CONCEALED joint that opens reads as a DEFECT, while an EXPRESSED one reads as a DETAIL.**
+- → **⚠️ This is the same principle as the vault's «благородное старение» content and as expansion-gap logic generally — DESIGN FOR THE MOVEMENT YOU CANNOT PREVENT — and it is the clearest statement of it the vault holds.** It is also the honest counter to anyone specifying a seamless painted solid-timber front.
+
+## ⚠️ An Inverted Grip Profile Continuing the Wall's Shadow Skirting (same source)
+
+**«Снизу у нас ПЕРЕВЁРНУТЫЙ вот такой ПРОФИЛЬ ДЛЯ ЗАХВАТА, мы его используем как ПРОДОЛЖЕНИЕ ТЕНЕВОГО ПЛИНТУСА на стене.»**
+
+- → **A handleless grip detail borrowing an architectural line, so the furniture reads as continuous with the wall.**
+- ⚠️ **And it closes a loop inside Round 6: the 2021 source recommends concealed/shadow skirting on CLEANING grounds; here the same shadow line is extended into the furniture on COMPOSITIONAL grounds. Two independent reasons for one detail, arrived at two years apart by the same studio.** See [[13_Surfaces_and_Finishes/analysis/Flooring_Installation_and_Baseboards|Flooring Installation and Baseboards]].
+
+[source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
+
 ---
 
 Part of [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]].
