@@ -269,6 +269,21 @@ A fixture with **120° optics placed close to a wall** does not harm your eye **
 
 ---
 
+## ⚠️ Night and Navigation Light Defined, and Why a Dimmer Is a CALIBRATION Device (NSDSGN, 2022-10-25)
+
+**From a regrets video built out of viewer comments, so these are reported outcomes.** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+
+**The failure: «просто ужасно зайти в ванну ночью, включить свет и ослепнуть от яркого света».** Two distinct answers, which this page has referenced but not separated:
+
+- **Ночной свет: sources hidden behind a cornice or in a niche, giving no direct line to the eye — «такой мягкий рассеянный приятный цвет».**
+- **Навигационный свет: fittings built into the wall or the SKIRTING, throwing light at the floor, also out of the line of sight — «с их помощью очень удобно передвигаться в темноте».**
+
+**⚠️ And a reason for a dimmer that is distinct from every other reason on this page: LED brightness cannot be predicted on paper.** «Современное диодное освещение очень яркое, и с ним есть большая проблема — очень тяжело заранее предусмотреть его яркость.» He visited clients who switched on the light and **«все слепли от этого света, хотя лампочки вроде небольшие»**.
+
+- **The fix is a dimmer used as a CALIBRATION device rather than a mood control: «настройте его один раз и оставьте — потом просто выключатель, и у вас будет комфортный свет, который очень сложно заранее просчитать».**
+- **⚠️ And the cost of refusing it, from real cases: clients who declined a dimmer on principle, after which he had to return with an electrician «колдовать, припаивать какие-то понижающие истории, придумывать какой-то диммер — чтобы решить проблему, которая решалась вот так на стадии проектирования».**
+- **→ Read alongside the retrofit path already on [[12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings|Lighting Fixtures and Fittings]]: that says retrofit dimming is possible; this says you should expect to need it, because the design-stage lux calculation does not tell you how a real LED fitting will feel in the room.**
+
 ## 9. Daylight — moved
 
 **Moved to [[17_Design_and_Ergonomics/analysis/Daylight_and_Natural_Light|Daylight & Natural Light]] on 2026-09-01.** It was routed onto this page earlier the same day, correctly noting it was the first non-artificial-light content here — **and the merge pass showed that was the wrong home.** Daylight involves no circuits, no fixtures and no electrical planning, and this page lives in `12_Engineering_and_Systems`. The material is unchanged; only its address is.

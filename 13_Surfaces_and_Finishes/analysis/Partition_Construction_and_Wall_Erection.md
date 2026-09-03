@@ -167,6 +167,42 @@ settling into a genuine technique-and-acceptance format).
 - **Perimeter damper/compression tape under the guide rails** prevents drywall cracking at the wall junction and gives a tighter wall-to-frame connection.
 - **Two-layer drywall should be staggered (checkerboard) relative to the first layer's seams**, not seam-aligned, for structural strength.
 
+## ⚠️ Plasterboard versus Aerated Block — a Full Comparison, and the Tooling Figures Explain Both the Price and the Staffing (Руслан via NSDSGN, 2025-01-31)
+
+**Prompted by a hostile viewer comment — that they use plasterboard everywhere, that empty GKL walls are «уровень Шутов», that GKL ceilings are «это вообще СССР», and that газобетон is used only to economise. The answer is the most complete partition-material comparison in this vault, and it defends neither option.** [source: [[_Sources/YT_2B67955_Z5I_nsdsgn_site_review_finish_details|YT_2B67955_Z5I]]]
+
+### The decisive reason plasterboard gets specified
+
+**⚠️ Soundproofing — and the space it costs is the point, not a side effect: «если мы делаем шумоизоляцию во всей квартире, стены могут достигать 200 мм толщиной. Профессиональная шумоизоляция требует таких потерь помещения» — «к сожалению, для этого люди покупают квартиры большего объёма именно свободной планировки».** A 200 mm internal wall is what acoustic performance costs, and the free-plan flat is bought in order to pay for it.
+
+**His summary of the whole trade-off: «газобетон — это быстро; гипсокартон — это долго, сложно, дорого и ТИХО.»**
+
+### ⚠️ Thickness — which reverses the space argument for thin partitions
+
+- **Two layers of plasterboard as a lining ≈ 5 cm.**
+- **Газобетон is a minimum of 8 cm, PLUS plaster, another minimum 1 cm.**
+- **→ For a thin partition or a service lining, plasterboard is the thinner option** — and he notes plasterboard has **thin profiles** available for exactly that.
+
+### ⚠️ Cost, speed, and the staffing argument that is easy to miss
+
+- **«Дороже и дольше делать стены из гипсокартона; газобетонные блоки делать гораздо быстрее».**
+- **⚠️ Masonry is simply easier to STAFF: «коллеги, которые приезжают из других стран, со Средней Азии в том числе, они умеют делать кладку очень хорошо. С гипсокартоном работать могут не все.»** So the material choice is partly a question of who can actually be hired.
+- **⚠️ AND THE TOOLING FIGURES, which explain the price gap and the staffing gap at once: a good plasterboard brigade's full tool set can reach 300,000 RUB (≈$3,100) and more. Masonry tooling can be bought for 10,000 RUB (≈$100) — or up to ~30,000 (≈$310) including laser levels and a decent level. A 10–30× asymmetry in the capital cost of entry.** *(USD at 96.3695 RUB/USD, trailing 6 months to 2025-01-31.)*
+  **This is the mechanism behind all of the above: a trade requiring 300,000 RUB of tooling has fewer practitioners and charges more — which is not a quality judgement about either material.**
+
+### Where each is used, and the fuller field
+
+- **Газобетон is used where only a small demolition is done and the existing walls are ALREADY газобетон — they then extend in the same material.** Combined solutions are normal: block where the object already has it, plus thin plasterboard partitions to save space.
+- **⚠️ He widens the field rather than defending two options: acoustic boards (which are not plasterboard), brick and its several varieties, пазогребень, and silicate blocks. «Материалов для возведения перегородок достаточно большое [количество].»**
+- **⚠️ An open question left explicitly open, and worth carrying as such: the host raises that silicate blocks are said to suit wet rooms better because they take up moisture differently, while газобетон is «не особо рекомендуют использовать» there. The contractor declines to resolve it — «у всех разные мнения, технологии, это всё нужно изучать; это не такой простой вопрос».** **Recorded as unresolved; it wants a third source.**
+- Client-preference anecdotes run both ways: one client claimed an allergy specifically to «гипрок» but not to gypsum; another insisted on plasterboard only.
+
+### Two related consequences from the same channel
+
+**⚠️ Plasterboard verticality is what makes the modern finish details possible.** On his own flat the furniture fabricators praised the plasterboard walls for being perfectly vertical — «в противном случае здесь появилась бы какая-то морковка, какая-то тень». **The same «морковка» failure appears in this channel's account of a flush windowsill against a wavy wall** — see [[13_Surfaces_and_Finishes/analysis/Windows_Slope_Finishing|Windows Slope Finishing]]. [source: [[_Sources/YT_7zpsZtcTkCM_nsdsgn_own_flat_55m2_retrospective|YT_7zpsZtcTkCM]]]
+
+**And a wet-room specification: waterproof plasterboard chosen deliberately THINNER — 12.5 mm rather than 15 mm — «чтобы он не набирал воду и сохранял свои свойства», with the total wall build-up at 150 mm.** [same source]
+
 ## Structural Openings and Regulatory Workarounds
 
 ### Load-Bearing Wall Opening: Cutting & Reinforcement Technique — per Zemsproekt/Zemstandart (added 2026-08-17)

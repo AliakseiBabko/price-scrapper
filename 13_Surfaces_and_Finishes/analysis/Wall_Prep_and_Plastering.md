@@ -88,6 +88,18 @@ promotional ratio (two CTAs).
 - **Timeline**: painters alone, 85m² fully K4-prepped, take roughly **4-5 months**.
 - **Regulatory affordability contrast**: a Swiss client paying ≈100 EUR/m² for K4-equivalent prep is normal there; quoting a Russian client ≈10,000 RUB (≈$110/m²) for the same prep reliably causes the client to walk away — same technical requirement, much lower Russian price ceiling.
 
+### ⚠️ Raking Light Is a WORKING Tool, Not the Acceptance Protocol — the Distinction That Settles the Argument (Руслан via NSDSGN, 2024-05-03)
+
+**The K-class ladder above establishes WHICH class requires raking-light inspection. This source supplies something different and equally practical: which light regime governs ACCEPTANCE — and it is not the same one.** [source: [[_Sources/YT_bJz8bG_CFSI_nsdsgn_rough_stage_completion|YT_bJz8bG_CFSI]]]
+
+- **«Проявочный свет» in use: a lamp aimed along the wall from close range. The painters work under it** — they tape cardboard over the windows (which also keeps the room warm), work with machine sanders and fillers, and the raking light lets them see what they are doing. **Its mechanism is magnification: «освещение подчёркивает как линза, как под лупой — маленькая царапина она становится как кратер Луны».**
+- **⚠️ THE DISTINCTION, stated outright: «проявочный свет — он НЕ для приёмки работ, а для ВЫПОЛНЕНИЯ работ.»**
+- **⚠️ ACCEPTANCE is done with the normal room lighting ON, standing 1 METRE from the wall: «принимаются малярные работы при включённом освещении, метр от стены — мы смотрим, насколько качественно это сделано».**
+- **⚠️ And why daylight is unreliable in BOTH directions: «дневной свет он как бы скрывает все неровности, ничего не видно» — but «не всегда дневной свет может быть как проявочный: солнце как-нибудь остро светит, и оно выявляет».** So daylight sometimes conceals and sometimes reveals, depending on the sun's angle at the moment of inspection.
+- **The painter's own working rule, quoted: quality can only be checked at night or with the windows covered, and «обязательно с фонарём нужно ходить смотреть».**
+
+**→ The practical consequence, and it prevents a common and unwinnable dispute: a client walking the walls with a torch is using the WORKING instrument, and it will always find marks that the agreed class does not treat as defects. Agree which regime and which distance the acceptance uses BEFORE the inspection — and note that this page's K-class ladder already says K3 and K4 are indistinguishable under plain daylight, so "it looks fine" and "it looks terrible" can both be honest reports of the same wall.**
+
 ## Wall-Prep-for-Paint Staged Sequence, Timeline, and Cure-Discipline (Петришин-Строй, added 2026-08-24, Round 3)
 
 On-site interview with a subcontracted painter ("маляр"), not a company

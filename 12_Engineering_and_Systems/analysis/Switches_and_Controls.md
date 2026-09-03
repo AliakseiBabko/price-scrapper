@@ -139,6 +139,19 @@ page (line 5 above, and the physical-differentiation rule below):
 
 **⚠️ Router and security-camera system named explicitly in a fourth independent source's exclusion list (Round 14 triage, added 2026-08-28)**: Konstantin Kruglov / Ontario restates the same master-switch inconvenience case and "vacation mode" scoped-switch alternative already covered above, but names the **Wi-Fi router and a security/surveillance camera system** directly as always-excluded devices, alongside the refrigerator and leak-protection system already on this page's priority-group list. The existing "weak-current panel" category would implicitly cover the router, but this source calls it out by name — a minor but real specificity addition, not a new mechanism. `single-account`, `unverified`. [source: [[_Sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
 
+## ⚠️ Perspectives — A Designer Argues AGAINST the Master Switch, and Says the Function Worth Buying Is Water (NSDSGN, 2022-10-25)
+
+**Recorded as a dissent from the two master-switch sections above, and worth its space because it is a designer talking a client OUT of a specifiable extra.** [source: [[_Sources/YT_2vyIWKmrSXM_nsdsgn_twenty_post_occupancy_regrets|YT_2vyIWKmrSXM]]]
+
+**The context is a regrets video built from viewer comments, and his observation is that «о мастер-выключателе вспоминают в самый последний момент, когда ремонт уже закончен».** His analysis:
+
+- **«Вещь конечно полезная, но если задуматься — для выключения бытовых приборов большой нужды нет.»** Two reasons: **you will never switch off the fridge («он просто тупо разморозится»), and other appliances «перегрузятся, вам заново придётся настраивать».**
+- **And on the lighting side: «световые приборы сейчас очень маломощные, почти все на диодных лентах, и они потребляют очень мало энергии — если даже вы забыли выключить одну лампочку, то большой счёт за ваше отсутствие вам не придёт».**
+- **⚠️ THE REDIRECTION, which is the useful part: «совсем другое дело — уезжая, перекрыть горячую и холодную воду: тут хватит и пары часов отсутствия, чтобы произошло что-то очень страшное.» → The master function actually worth buying is WATER, not electricity.** *(Which is what this vault's [[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak Protection Systems]] page provides, including a first-hand save from the same channel.)*
+- **⚠️ AND THE RETROFIT, for a finished flat with no master switch: «если у вас не один автомат в электрощите, то просто ПОДПИШИТЕ ваши автоматы, и уезжая просто вырубите все, кроме холодильника и другой бытовой техники, которую вырубать не надо».** He is candid that «каждый раз, конечно же, вы этим пользоваться не будете» — **but «если вы уезжаете на неделю или даже на месяц, этот лайфхак вам очень поможет, и вы не увидите под холодильником огромную лужу воды».**
+
+**→ How to read this against the sections above: they establish that a master switch can be implemented in priority groups at a stated cost, and this establishes that the domestic benefit is small once lighting is LED and appliances resent being cut. The two are reconcilable — the electrical master switch is a convenience whose value has fallen with the load, while the water shutoff is the one that prevents a catastrophe. If only one is specified, this source says specify the water.**
+
 ## Multi-Gang Switch Sequencing Should Match Walking Direction (added 2026-08-25, Квартиранты)
 
 A real household's own hallway rewiring: a 3-button switch panel by the

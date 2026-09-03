@@ -16,6 +16,18 @@ Companion pages: [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Pr
 (per-system tier ladders) · [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]] ·
 the fully worked cases under `11_Budget_and_Planning/case_studies/`.
 
+## Live intake benchmark — rough-stage-only per-m², the missing middle term (2024-05-03)
+
+**A single clean figure with its scope stated, from the contractor on a live site at the point the rough works finished.** [source: [[_Sources/YT_bJz8bG_CFSI_nsdsgn_rough_stage_completion|YT_bJz8bG_CFSI]]]
+
+**«Черновой этап — это 22–28 000 руб» per m² — ≈$240–$310/m²**, at **91.0928 RUB/USD** (trailing 6 months to 2024-05-03).
+
+**⚠️ Scope, as stated: engineering work, electrics, plumbing, plastering, wall demolition, erection of partition framing and ceilings, and sheeting** — «всё в зависимости от сложности и насыщенности проекта». «Подготовка объекта к чистовой стоит 22–28.»
+
+**⚠️ Why this figure is useful beyond itself: it is the missing middle term between the two ladders below.** The designers' labour-only St Petersburg range is **25,000–35,000 RUB/m²** (Oct 2023) and the contractor's good-brigade rate is **~20,000 RUB/m²** (Dec 2023). **Rough stage at 22,000–28,000 sits inside that band — which is the relationship to expect, since rough work is most of the labour but not all of it.** Three figures, three sources, one channel, seven months apart, and they nest correctly. **That mutual consistency is worth more than any of them alone.**
+
+**A materials-side warning that governs how to read it, from the same object seven months earlier: rough materials had risen «чуть не в два раза» over the preceding year** (stated Oct 2023). So a rough-stage per-m² figure from this period carries an unusually fast-moving materials component. [source: [[_Sources/YT_Z0brwxSe7gQ_nsdsgn_engineering_systems_site_review|YT_Z0brwxSe7gQ]]]
+
 ## Live intake benchmark — three designers on the same St Petersburg market, ten weeks earlier (2023-10-03)
 
 **⚠️ A near-simultaneous cross-check of the ladder below, from the buying side rather than the selling side.** Same channel; three designers in roundtable, one an ex-прораб, versus the contractor recorded below. **Region level 1** — both cities named and contrasted.
