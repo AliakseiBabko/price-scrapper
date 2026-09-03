@@ -19,6 +19,17 @@ Where two floors meet: transition-profile choice and the case for no visible pro
 
 `single-account`, `unverified`.
 
+### ⚠️⚠️ The Strongest Version of "Prefer No Profile" — Choose ONE MATERIAL and the Transition Becomes a GROUT LINE (Александр Синчуков, 2020-11-03)
+
+**«Обратите внимание, что у нас на полу ПЛИТКА, плитка ИМИТИРУЮЩАЯ ДЕРЕВО. Если бы у нас был СТЫК ПАРКЕТА И КЕРАМИЧЕСКОЙ ПЛИТКИ, то здесь появился бы некрасивый ПРОБКОВЫЙ КОМПЕНСАТОР либо какой-то ПОРОЖЕК — даже я представлять не хочу. Здесь же у нас получился ТОНКИЙ ЭЛЕГАНТНЫЙ ШОВ С ЗАТИРКОЙ.»**
+
+- → **⚠️⚠️ This page argues for avoiding a visible profile and records that «порожки всегда отлетают» and that cork or sealant at a floating floor fails. THIS IS THE VERSION THAT REMOVES THE PROBLEM INSTEAD OF DETAILING IT: use wood-look TILE rather than parquet in the kitchen zone, and the junction with the decorative octagon tile becomes TILE-TO-TILE — a grout line, laid at the same time by the same trade, with no expansion gap to bridge and nothing to come loose.**
+- **⚠️ The corridor got the same treatment, after deliberation, for a different reason: «долго-долго думали, делать здесь НАТУРАЛЬНОЕ ДЕРЕВО или переиграть на ПЛИТКУ. В итоге оставили ПЛИТКУ… потому что коридор — это ПРИХОЖАЯ ЧАСТЬ квартиры, здесь есть ГРЯЗЬ, здесь мы ходим В САПОГАХ до шкафа, и ДЕРЕВУ было бы НЕ ОСОБО ПРИЯТНО всё это на себе терпеть. ПЛИТКЕ ВООБЩЕ ВСЁ РАВНО.»** Corroborates the vault's porcelain-in-the-entrance rule, with the boots-to-the-wardrobe reasoning.
+- ⚠️ **AN OPEN GAP HE NEVER ADDRESSES: the rooms are engineered board, so a TILE-TO-BOARD junction must exist somewhere between the corridor and the rooms, and he neither shows nor discusses it. Recorded as an open question rather than assumed solved — because it is precisely the junction this page exists for.**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## Floating-Floor Threshold Sealing — Why Cork/Sealant Fails (Kruglov/Ontario, Round 15, added 2026-08-28)
 
 **⚠️ A distinct cracking mechanism from this store's existing shadow-gap-

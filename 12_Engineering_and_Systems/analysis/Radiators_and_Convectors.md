@@ -187,6 +187,26 @@ A more severe version of the floor-standing radiator's problems, plus several un
 
 **Bottom-line recommendation**: avoid in-floor convectors wherever a normal wall-mounted radiator (concealed behind a false wall if desired) is feasible instead. [source: [[_Sources/YT_d6xjRRXeOnc_infloor_convector_risks_safety_041|d6xjRRXeOnc_infloor_conv]]]
 
+### ⚠️⚠️ NEVER STAND A FURNITURE LEG ON AN IN-FLOOR CONVECTOR GRILLE — and It Completes a Round 6 Finding (Александр Синчуков, 2020-11-03)
+
+**A low windowsill plus a balcony door forced an in-floor convector under the window, and the sofa in front of it was built around that:**
+
+**«Ножки у дивана специально СОБРАНЫ БЛИЖЕ К ЦЕНТРУ, чтобы диван НЕ СТОЯЛ НА КОНВЕКТОРЕ. Это на самом деле ЧАСТАЯ ПРОБЛЕМА, и НИ В КОЕМ СЛУЧАЕ нельзя ставить ножку дивана НА РЕШЁТКУ КОНВЕКТОРА. Она просто её ПРОЛОМИТ, ПРОДАВИТ, испортит.»**
+
+- → **⚠️⚠️ A grille is a walking surface, not a load-bearing one, and a point load from a furniture foot will punch through it. He calls it a FREQUENT problem, which means it is a coordination failure between the heating layout and the furniture layout — two drawings that are usually produced separately.**
+- → **⚠️⚠️ AND IT COMPLETES A FINDING THE VAULT ALREADY HOLDS FROM A DIFFERENT ANGLE. Round 6 records that a furniture leg set CLOSER TO THE CENTRE is easier to CLEAN around. Here the identical geometry solves a LOAD problem instead — so there are now TWO independent reasons to prefer inset legs, and this one is not a preference but a constraint.** See [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]].
+- **⚠️ The grille was colour-matched to the floor tile by physically offering samples up against it — «мы их ПРИКЛАДЫВАЛИ, и получилось ОДИН В ОДИН».** → The grille is a visible finish, not a service component, and it can be matched — but only by comparing physical samples, which is the same lesson as the vault's three finish-judging rules.
+
+### ✅ TUBULAR Radiators Throughout — Corroboration of PRACTICE, Not Just Advice (same source)
+
+**«В квартире все радиаторы ТРУБЧАТЫЕ от компании Zehnder, немецкой. Они простого белого цвета, но очень удачно садятся в цветовую гамму.»**
+
+- → **⚠️⚠️ The section above records his January 2021 recommendation of TUBULAR STEEL radiators as the cleanable, antistatic generation, argued against enclosed convector fins. This project — filmed TEN WEEKS EARLIER — already had tubular radiators throughout. So the recommendation is backed by his own specifying practice rather than being advice he gives and does not follow, and the vault can record it as PRACTISED.**
+- **Acrylic windowsills above them, chosen as neutral — the same choice as his December 2020 project. Two projects, one preference.**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## Risers, Chases and Concealment
 
 ### Vertical Riser: Bypass Requirement, Replacement Decision, and Boxing Methods (added 2026-08-24, Round 3)

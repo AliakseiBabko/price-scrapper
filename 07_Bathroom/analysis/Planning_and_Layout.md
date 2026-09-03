@@ -227,6 +227,43 @@ A pure design/personal-preference point, included for completeness: some people 
 
 [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
 
+### ⚠️⚠️⚠️ THE RULE THE TWO SOURCES TOGETHER GIVE: HATCH TYPE FOLLOWS ACCESS FREQUENCY
+
+**The section above is his own flat, where a concealed tile hatch over the monthly-read meters is «ВСЕГДА ПРИОТКРЫТ». A 2020 project of his shows the other half of the picture — and the SAME configuration that later failed.**
+
+- **⚠️ LOW frequency, concealed hatch, and it works: a ONE-TILE hatch under the bath for the tap connections. «Вот видите, ТЁМНЫЙ ШОВ. Это функциональный ЛЮК РАЗМЕРОМ В ОДНУ ПЛИТКУ. Он открывается, мы можем там КРАНЫ раскрутить, закрутить, если что-то вдруг начнёт течь. Такое ПРАКТИЧЕСКИ НЕВОЗМОЖНО, но если произойдёт, у нас ВСЕГДА БУДЕТ ДОСТУП.»** Sized to the tile module, so the GROUT LINE IS the hatch line.
+- **⚠️⚠️ HIGH frequency, concealed hatch, and this is the configuration that later failed: a push-open hatch over the WC giving access to «всем ФИЛЬТРАМ и КОЛЛЕКТОРНОЙ ГРУППЕ» — and in the guest WC, и К СЧЁТЧИКАМ. The clients «ОЧЕНЬ ПЕРЕЖИВАЛИ, что БУДЕТ ВИДНО ЛЮК», and his honest answer is: «его КОНЕЧНО ЖЕ ВИДНО, но если присматриваться — ну, люк-люк, ТЁМНАЯ ПОЛОСА.»**
+
+- → **⚠️⚠️⚠️ SO THE DECISION RULE IS: A "PRACTICALLY NEVER" ACCESS CAN BE FULLY CONCEALED. A MONTHLY ACCESS CANNOT — it will be left ajar, and the vault has his own flat as the outcome. In 2020 he put a concealed push-hatch over exactly the monthly item (the meters); by 2022 he had lived with the result and specified a FURNITURE DOOR instead.**
+- → **The practical form: put the meters behind a cabinet door or a curtain, and the buried pipework behind a tile hatch. Two access classes, two closure types, in the same wall.** *(The rule is my synthesis of the two sources; each states only its own half.)*
+- **⚠️ AND A HONEST EXPECTATION TO SET WITH A CLIENT: a concealed tile hatch IS visible — a dark line. It is not invisible, and promising otherwise creates the disappointment the clients here anticipated.**
+- **⚠️ Small detail worth keeping: the extract fan is switched from OUTSIDE the room on a separate switch, and the ventilation-shaft niche is clad in wood-look tile rather than left plain.** ⚠️ *Directly relevant to this project, whose туалет contains an immovable 1140 × 490 three-channel вентблок and whose risers sit in the wet zone — the shaft has to be clad, and the meters have to be reachable.*
+
+### ⚠️⚠️ In a Small Bathroom the CLOSURE TYPE Is Set by Clearance, Not by Preference (same source)
+
+**Three instances in one flat, and every one of them was a second choice:**
+
+1. **OPEN shelves beside the WC, because a door cannot open: «рядом с унитазом вот эти ЯЩИКИ ОТКРЫТЫЕ. Для чего это сделано, как вы думаете? Конечно же, если бы здесь была ДВЕРЬ, она бы БИЛАСЬ В УНИТАЗ, её было бы НЕ ОТКРЫТЬ.»**
+2. **A SLIDING wardrobe in the bedroom, disliked but forced: «Я НЕ ОЧЕНЬ ЛЮБЛЮ шкафы купе, но здесь это ВЫНУЖДЕННАЯ СИТУАЦИЯ… если бы здесь были РАСПАШНЫЕ шкафы, то ТУМБОЧКА [и] КРОВАТЬ НЕ ДАЛИ БЫ ЕЙ ПРОСТО ОТКРЫТЬСЯ.»**
+3. **A SLIDING wardrobe in the corridor, «потому что здесь довольно УЗКО».**
+
+- → **⚠️⚠️ THE PATTERN IS THE FINDING: in a tight flat, whether a thing gets a hinged door, a sliding door, an open shelf or a curtain is decided by CLEARANCE, and the designer's preference loses every time. That reframes the vault's wardrobe-versus-sliding disagreement as a geometry question rather than a taste one — and it gives a clean rule for a tight bedroom: the bed and nightstand block a hinged door's swing, so sliding is forced.**
+
+### ⚠️⚠️ PERSPECTIVES — A Glass Screen Over a Bath Versus a Curtain, and He Lost the Argument (same source)
+
+**«Я ПРЕДЛАГАЛ сделать СТЕКЛЯННУЮ ШИРМУ, но заказчики ОТКАЗАЛИСЬ, потому что НЕУДОБНО было бы ЗАЛЕЗАТЬ вот здесь вот так В ОБХОД. И мы сделали НЕЛЮБИМЫЕ МНОЙ обычные ШТОРКИ НА ШТАНГЕ… СТЕКЛО ФУНКЦИОНАЛЬНЕЕ, НО С НИМ БОЛЬШЕ ПРОБЛЕМ.»**
+
+- → **A real trade the vault should hold: over a bath in a tight room a glass screen is more functional and creates an ACCESS DETOUR you must walk around; a curtain on a rail looks worse and is easier to get into. His own one-line summary is the honest form of it.**
+- ⚠️ **Fourth disclosed dislike accepted for a stated reason in one video, with the two sliding wardrobes and the sliding balcony glazing. Worth naming as a property of this source: he records his overrides and says who won — which is what makes the case usable as evidence rather than as a portfolio piece.**
+
+### ⚠️ Recessed Lit Shelves — Achieved by BUILDING THE WALL OUT (same source)
+
+**«Стена НАРОЩЕНА, и УТОПЛЕНЫ ДВЕ ПОЛОЧКИ С ПОДСВЕТКОЙ»** — a profile system with an LED strip and a diffuser. He says he advises these to everyone. **The guest WC uses the same move for the concealed mixer bodies: the wall is built out so only the spout and the lever show.**
+
+- → **The depth for a recess is bought by thickening the wall, not found in it — which is an area cost to declare at planning, and it is the same move that makes a concealed mixer possible.** Standard 1700 × 750 bath; touch-activated lighting; a large mirror cabinet with storage; a countertop basin; «каждый метр у этой ванны используется по назначению».
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
 
 ## Real Cases and an Executed Planning Method
 

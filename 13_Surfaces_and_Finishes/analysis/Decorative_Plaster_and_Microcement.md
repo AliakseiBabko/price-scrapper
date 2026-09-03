@@ -169,6 +169,20 @@ Part of [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finish
 - → **⚠️⚠️ AND IT ANSWERS A FAILURE RECORDED IN THIS SAME ROUND: in his previous flat the cat shredded the PAINTED ventilation shaft in the kitchen, and his own proposed answer was porcelain cladding. Together they QUALIFY the January 2021 line that pets are contraindicated in a low-maintenance interior — PETS ARE A MATERIAL-SELECTION PROBLEM, NOT A DISQUALIFIER.** See [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioner Material Selection Accounts]]. [source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
 - ⚠️ The claim is the supplier's, about her own product.
 
+### ⚠️⚠️⚠️ REAL-PROJECT CORROBORATION, TWO AND A HALF YEARS EARLIER — and This Time It Is the DESIGNER, Not the Supplier
+
+**The section above is a coatings SUPPLIER claiming her own product survives cats and dogs. Here is the same claim as SPECIFIED PRACTICE in a built project, in November 2020, from the designer — and he names CHILDREN as well as cats:**
+
+**«Вся стена декорирована ФАКТУРНОЙ ШТУКАТУРКОЙ. Она имитирует такой ЛЁГКИЙ БЕТОНЧИК с такими вот КАВЕРНАМИ. И это СУПЕР ПРАКТИЧНЫЙ МАТЕРИАЛ. Если какая-то ГРЯЗЬ попадает при входе, всё это очень легко потом СМЫВАЕТСЯ. И также мы декорировали стены НА КУХНЕ, потому что там тоже ПРОХОДНАЯ ЗОНА. И БЕТОН — это СУПЕР РЕШЕНИЕ для тех, у кого есть КОТЫ, [и] у кого ДЕТИ ЦАРАПАЮТ СТЕНЫ. Ну и вообще в прихожей, где может ЛЕТЕТЬ, ПОПАДАТЬ ГРЯЗЬ, это СУПЕР ПРАКТИЧНОЕ решение.»**
+
+- → **⚠️⚠️⚠️ THIS UPGRADES THE FINDING FROM A SUPPLIER'S CLAIM ABOUT HER OWN PRODUCT TO A CORROBORATED PRACTICE. Two independent statements, two and a half years apart, from opposite sides of the transaction — and the designer's version names the two agents that matter in a family flat: CATS and CHILDREN SCRATCHING WALLS.**
+- → **⚠️ AND IT NAMES THE PLACES: the ENTRANCE and the KITCHEN, both because they are ПРОХОДНАЯ ЗОНА — circulation zones where dirt is thrown at the wall rather than settling on it. That is a sharper selection rule than "durable finish in wet areas".**
+- → **For a household with two children this is arguably the single most useful material decision in the case study, and it is cheap relative to what it protects.**
+- ⚠️ *The concrete-effect look is also what the supplier above calls the accent-of-choice, and the trend note there — away from cold grey toward warm variants — applies to the same product.*
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## ⚠️⚠️ Seamlessness Is the Material's Whole Point — and the Fourth Instance of the Joint Principle
 
 **«Есть ПАНЕЛИ, которые ИМИТИРУЮТ СКАЛУ, но у них НИКОГДА НЕ СДЕЛАТЬ КРАСИВЫЙ СТЫК… [те], кто занимается монтажом этих штук, совершенно НЕ ПОНИМАЮТ, КАК СДЕЛАТЬ СТЫК НЕВИДИМЫМ. ЭТО НЕВОЗМОЖНО — [он] БУДЕТ ВИДЕН. В данном случае мы можем сделать совершенно БЕССТЫКОВОЕ [покрытие] НА ЛЮБОЙ СТЕНЕ ЛЮБОГО РАЗМЕРА… В ЭТОМ СУТЬ вообще декоративной штукатурки — ЧТО ОНА НЕ ИМЕЕТ СТЫКОВ, НЕ КАК ОБОИ, НЕ КАК ПАНЕЛИ. Она делается ЕДИНЫМ ПОЛОТНОМ и создаёт ОЩУЩЕНИЕ ЦЕЛЬНОСТИ.»**

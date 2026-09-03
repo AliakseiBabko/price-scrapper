@@ -144,6 +144,25 @@ Real completed studio projects — no third-party attribution needed. [sources: 
 
 `single-account`, `unverified`.
 
+### ⚠️⚠️ TRACK LIGHTING AS INSURANCE AGAINST AN UNKNOWN REQUIREMENT — a Third Argument for It (Александр Синчуков, 2020-11-03)
+
+**The kitchen's general light is spotlights on a ceiling track, and the argument he makes for it is neither ceiling height nor aim:**
+
+**«Их можно ДОБАВЛЯТЬ, УБАВЛЯТЬ, КРУТИТЬ, то есть это такое очень ФУНКЦИОНАЛЬНОЕ решение, и очень АДАПТИВНОЕ к вашей кухне. То есть если вы НЕ ЗНАЕТЕ, ХВАТИТ ВАМ СВЕТА или НЕ ХВАТИТ, вы можете их ДОБАВИТЬ И УБАВИТЬ.»** Plus a dimmer for intensity — «нужен вечерний аккуратный свет — убавили; нужно ярко, например для УБОРКИ — прибавили».
+
+- → **⚠️⚠️ TRACK LIGHTING LETS YOU CHANGE THE FITTING COUNT AFTER YOU HAVE LIVED THERE. The vault argues for track on ceiling height (a low ceiling cannot take pendants) and on flexibility of aim; this is a third and different argument, and it is the one that matters for anyone who cannot yet know their lighting requirement — which is everyone before they move in.**
+- → **⚠️ It is also the enabling condition for the bare-lacquered-concrete ceiling strategy recorded elsewhere in the vault: that only works if the wiring stays OFF the ceiling, which means wall outlets and a track. The two findings are halves of one strategy.**
+- **⚠️ AND THE CLEANING SCENE IS A NEW SCENARIO: he names УБОРКА as a case for maximum brightness. This page's scenario taxonomy has evening, task and navigation scenes; a deliberate full-brightness CLEANING scene is a fourth, and it is the one that justifies keeping the total installed output high even in a room usually run dim.**
+
+### ⚠️ A Decorative Panel Lit From Above, Doubling as Night Navigation (same source)
+
+**Behind the bed, a wall panno lit by an LED strip: «если нужно создать вечерний приятный свет, который НЕ БЬЁТ В ГЛАЗА… ночью хотите пойти в ванну, в туалет — включили аккуратно подсветочку и пошли.»** Several scenarios; the main light is also switchable from the bed, and the bedside lamps switch themselves.
+
+- → **THIRD instance of a decorative cove or panel strip doing double duty as non-dazzling night light — consistent enough across his projects to treat as his standard practice rather than a one-off.**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## Quantitative Targets — Illuminance and CRI
 
 The numbers behind the scheme: lux targets by room and task, colour rendering, and the failure mechanisms that follow from getting them wrong.

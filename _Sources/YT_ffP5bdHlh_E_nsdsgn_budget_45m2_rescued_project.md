@@ -22,6 +22,8 @@ region: RU_SPb
 > [!IMPORTANT]
 > **⚠️ THIS IS THE OLDEST FETCHABLE TECHNICAL SOURCE ON THE CHANNEL, and it sits at the start of the 2020-11 → 2021-04 "origin layer" this round was scoped to reach.** Two older picks (`Phk79uKT7rA`, 2020-11-03, and `3y-gA7A6QJ4`, 2021-04-02) **have no Russian caption track of any kind and could not be processed** — see the caption-availability finding in the round's planning notes.
 >
+> ⚠️ **CORRECTION ADDED 2026-09-03 (Round 7b), which does NOT change the note above: `Phk79uKT7rA` WAS subsequently processed, from a transcript the user extracted and supplied manually. It has no YouTube caption track either way, so this file’s claim to be the oldest FETCHABLE technical source on the channel still holds — but it is no longer the oldest PROCESSED one.** See [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]].
+>
 > **⚠️ It is also a RESCUE-OF-A-DESIGN case, which makes it the design-side counterpart to Round 6's rescue-contractor source.** The clients came to NSDSGN because **the previous designer had made «непоправимые серьёзные ошибки»**, some walls had already been built, and those walls were demolished.
 
 **Promotional ratio LOW.** One studio project, no sponsor, no product placement, one named tile manufacturer mentioned neutrally.

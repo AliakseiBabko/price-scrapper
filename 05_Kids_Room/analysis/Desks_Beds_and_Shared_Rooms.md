@@ -158,6 +158,48 @@ specification item.
 
 [source: [[_Sources/YT_RxU4L7ce86E_nsdsgn_child_psychologist_kids_rooms|YT_RxU4L7ce86E]]]
 
+## ⚠️⚠️⚠️ PERSPECTIVES — Bunk Beds: the Same Channel Argues Both Sides, and the Deciding Variable Is AREA
+
+**This page records a clinical psychologist arguing AGAINST bunk beds, with an area budget for the alternative. A designer on the same channel BUILT ONE, in a 70 m² flat for two boys, and presents it as the children's own wish fulfilled.**
+
+**«Для многих детей очень серьёзная МЕЧТА, я ЧАСТО ЭТО СЛЫШУ — это иметь ДВУХЭТАЖНУЮ КРОВАТЬ. Здесь она ПОЛНОСТЬЮ РЕАЛИЗОВАНА.»** With **hand-grips for climbing** — «удобные ЗАХВАТЫ ДЛЯ РУК. По ним мы поднимаемся наверх».
+
+- → **⚠️⚠️ NEITHER SIDE IS A THROWAWAY, AND THIS IS RECORDED UNRESOLVED. The psychologist's objection is developmental and ergonomic and comes with an area budget; the designer's answer satisfies a brief the psychologist does not address — the children asked for it — in a flat whose floor area cannot fund the alternative.**
+- → **THE DECIDING VARIABLE IS AREA. In a room of about 9 m² already holding two desks, shelving and a shared wardrobe, the psychologist's alternative does not fit. State what each side buys: developmental caution, or floor area plus a fulfilled request.**
+- ⚠️ **This project's kids' room is 9.36 m² for two children, so the split is live rather than academic, and the owner has indicated he does not agree with everything in this case study. Do not present either side as settled.**
+
+## ✅ Two IDENTICAL Workstations — Independent Corroboration, With a Different Reason
+
+**The section above records the psychologist's rule that two children need TWO SEPARATE DESK TOPS, never one shared worktop, argued developmentally. A designer reaches the same conclusion from CONFLICT AVOIDANCE, and adds a requirement she does not:**
+
+**«Чтобы наши пацаны между собой НЕ ССОРИЛИСЬ, у них СОВЕРШЕННО ОДИНАКОВЫЕ РАБОЧИЕ МЕСТА — стол со стульчиком и СТЕЛЛАЖИ для их крутых игрушек.»**
+
+- → **⚠️⚠️ TWO SOURCES, TWO INDEPENDENT REASONS, ONE CONCLUSION — and the designer's version is STRONGER: not merely separate but IDENTICAL, because difference itself is the thing that generates the dispute. That upgrades the finding from an ergonomic preference to a household-peace requirement.**
+- ⚠️ **Capacity demonstration worth keeping: a room of roughly 9 m² held a bunk bed, TWO desks with chairs, shelving for each boy, and one shared wardrobe. For a 9.36 m² room with two children that is the relevant existence proof — it fits, at the cost of the bunk.**
+
+## ⚠️⚠️ Each Child Needs His Own LOCALLY-SWITCHED Night Light — a First-Fix Requirement
+
+**«У КАЖДОГО мальчика есть СВОЙ НОЧНОЙ СВЕТ. Он включается МЕСТНО вот здесь. То есть НЕ НАДО НИКУДА ЛАЗИТЬ. Дочитал книжку, выключил свет и ложишься спать.»**
+
+- → **⚠️⚠️ Per-occupant local switching in a shared room, and the reason is specific to a bunk: a child in the upper bed must not have to CLIMB DOWN to turn a light off. This is the shared-room version of the vault's per-side reading-light finding.**
+- → **⚠️ AND IT IS A ROUGH-STAGE ELECTRICAL REQUIREMENT: two switched positions at TWO DIFFERENT BED HEIGHTS. That cannot be retrofitted neatly, and it has to be on the first-fix drawing before the bed design is even final.**
+
+## ⚠️ A Cable Hatch Let Into the Desktop, With Brushes
+
+**«На рабочем столе сделан такой клёвый ЛЮЧОК. Он открывается, туда просунуты ПРОВОДА в РОЗЕТОЧКУ. Здесь аккуратные ЩЁТОЧКИ и он ЗАКРЫВАЕТСЯ… НЕТ каких-то ПРОВОДОВ ТОРЧАЩИХ. ВРЕЗАЙТЕ ТАКИЕ ЛЮЧКИ и используйте в своих столах.»**
+
+- → **A cheap brush-grommet hatch, recommended without reservation. It is the desk-mounted counterpart to the RECESSED BEDSIDE NICHE carrying the electrics from his December 2020 project — same problem (visible cabling at a surface people use), two different answers.** See [[06_Small_Bedroom/analysis/Furniture_and_Storage_for_Tight_Clearances|Furniture and Storage for Tight Clearances]].
+
+## ⚠️ One SHARED Wardrobe for Two Children — a Decision, Not a Default
+
+**«У детей ОДИН ОБЩИЙ ШКАФ. Полностью большой, функциональный. С АНТРЕСОЛЯМИ НА ПУШАХ. Сюда помещаются все детские вещи.»**
+
+- ⚠️ **Note the tension with the identical-workstations logic directly above: the desks were made identical precisely so the boys would not quarrel, and the wardrobe is SHARED. He does not address it. Recorded as an inconsistency in the case rather than as a rule.** *(That observation is mine.)*
+- **⚠️ AND NOTE THE PUSH-TO-OPEN PLACEMENT: on the ANTRESOL — the TOP boxes — only. That is exactly his own January 2021 rule that push-to-open belongs on uppers and never on lowers, because of accidental knee and hip contact. A third case of him following his own published rule.**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## Related
 
 - [[05_Kids_Room/analysis/Age_Staged_Planning|Age-Staged Planning]] — what changes with the child's age, and the infrastructure that must not

@@ -121,5 +121,13 @@
   "channel_progress": {
     "processed": 36,
     "total": 220
+  },
+  "round_7b_supersedes": {
+    "video_id": "Phk79uKT7rA",
+    "was": "listed unfetchable - no ru caption track on YouTube (still true)",
+    "now": "PROCESSED in Round 7b from a transcript the user extracted and supplied manually",
+    "fact_yield": 47,
+    "pages_routed": 17,
+    "note": "closest comparable to this project in the vault: ~70 m2, family with children, row of rooms with a middle room. Two Perspectives left OPEN for the user (bunk bed; themed mural). Surname reads Senchugov in this manual self-introduction vs the vault-wide Round 5 correction to Sinchukov - flagged for the user, NOT re-corrected on one transcript."
   }
 }

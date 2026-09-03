@@ -92,6 +92,27 @@ named).
   gap development over time.
 [source: [[_Sources/YT_4O1UqRqpApw_petrishin_cork_flooring|YT_4O1UqRqpApw]]]
 
+### ⚠️⚠️ PLANK-FORMAT TILE MUST BE LAID WITH ONLY ~20% OFFSET, NOT HALF-BOND — With the Firing-Warp Mechanism (Александр Синчуков, 2020-11-03)
+
+**«Вытянутые плитки В ПЕЧАХ НЕМНОЖКО ИЗГИБАЮТ, и она получается такой вот ВОЛНОЙ. И если положить плитки со сдвигом 50 НА 50, то у нас вот в этой части получается ПЕРЕПАД, и получается очень НЕРОВНЫЙ НЕКРАСИВЫЙ ПОЛ. Поэтому плитку под дерево, узкую, вытянутую, нужно класть с НЕБОЛЬШИМ СДВИГОМ, порядка 20%.»**
+
+- → **⚠️⚠️ THE MECHANISM IS THE VALUABLE PART: a long thin tile is WARPED ALONG ITS LENGTH BY FIRING, so it leaves the kiln slightly bowed. A HALF-BOND then puts the CROWN of one plank against the END of its neighbour, and the lippage repeats down the whole run. A small offset — about 20% — keeps crown against crown.**
+- → **This page holds large-format lippage content and stress-relief drilling for sharp corners; this is the PLANK version and it names a number. Applies to wood-look porcelain generally, which is the format most often used in an entrance or kitchen.**
+- **⚠️⚠️ AND IT WAS BUILT WRONG: «я НЕ УСЛЕДИЛ, приехал сюда, и здесь СТРОИТЕЛИ ВЫЛОЖИЛИ ВСЁ НЕ ПО ПРОЕКТУ, просто вот так ПРЯМЫМИ СТЫКАМИ. И нам пришлось ВСЮ ЭТУ ПЛИТКУ НАФИГ СДИРАТЬ, ЗАНОВО КЛАСТЬ.»** → **A crew will default to half-bond because that is what plank flooring looks like, so the offset has to be stated on the drawing AND checked on the day. He refers to a separate video on the subject.**
+
+### ⚠️⚠️⚠️ Engineered Board ARRIVES MULTI-COLOURED — an Acceptance Expectation the Vault Was Missing (same source)
+
+**«Когда он приехал в квартиру, то ПРОРАБ И ЗАКАЗЧИКИ БЫЛИ НЕМНОЖКО ШОКИРОВАНЫ, потому что ВСЯ ДОСКА БЫЛА РАЗНОГО ЦВЕТА. И на самом деле ЭТО ОБЫЧНАЯ ИСТОРИЯ. ДОСКА НИКОГДА НЕ ПРИХОДИТ ОДНОЦВЕТНОЙ — есть более тёмные досочки, более светлые. И В МАССЕ, когда они перемешиваются, они становятся РАЗНОЦВЕТНЫМ ИНТЕРЕСНЫМ ПАННО.»**
+
+**Three findings in one, and this page has none of them:**
+
+1. **⚠️⚠️ AN ACCEPTANCE EXPECTATION: the delivery WILL look wrong, and that is NOT a defect. Both the foreman and the clients were shocked. This is exactly the kind of thing that makes a client reject a correct delivery, and it costs nothing to warn about in advance.**
+2. **⚠️ A LABOUR COST: there were **7–8 different LENGTHS** — short, long, medium — and «ПРОРАБ СЛОМАЛ СЕБЕ ГОЛОВУ». Sorting and setting out a mixed-length pack is real work that a per-m² laying rate may not anticipate.**
+3. **⚠️ A TECHNIQUE: «были ещё ОЧЕНЬ ТЁМНЫЕ доски. И мы их РАЗОГНАЛИ ПОД КРОВАТЬ [и] В ШКАФ, чтобы они СИЛЬНО НЕ ОТТЕНЯЛИ нам паркет.» Bury the colour outliers where furniture will stand on them — under the bed and inside the wardrobe — rather than rejecting them or spreading them through the field.**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## Baseboards and Shadow Profiles
 
 ### Floor-Level Shadow Profile — Dust Trap and Staging-Sequence Violation (Kruglov/Ontario, Round 15, added 2026-08-28)

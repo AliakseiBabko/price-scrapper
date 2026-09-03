@@ -139,6 +139,25 @@ From her "красиво но нереализуемо" gallery. [source: [[_Sou
   **⚠️ And he pre-empts the aesthetic objection with a finish argument that recurs across his whole flat: the brace is matched to every other fitting in satin brushed steel, and «на ней НЕ ТАК ВИДНЫ СЛЕДЫ, как на ПОЛИРОВАННОМ металле», so «этот кронштейн здесь РАСТВОРЯЕТСЯ». → Fourth instance of the satin-over-polished-or-black position in this vault; see [[07_Bathroom/analysis/Toilets_and_Hygienic_Shower|Toilets and Hygienic Shower]].**
 - **⚠️ He chose glass over a concealed-cornice fabric curtain at the last moment, and reports the maintenance honestly rather than defending the choice: he wiped the glass before filming, marks DO remain, «и то НЕ УДАЛОСЬ ВСЁ УБРАТЬ ДО ИДЕАЛА».** See the note on prepared interior footage on [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]].
 
+### ⚠️⚠️ Independent Corroboration — Counter-Bracing Is MANDATORY, With Two Acceptable Geometries and the Failure Mode (Александр Синчуков, 2020-11-03)
+
+**The section above records a mandatory top brace on his own 60 cm screen. Here is the same requirement stated independently two years earlier, on a client project, with the geometries named and the consequence spelled out:**
+
+**«Здесь у нас СТЕКЛЯННОЕ ОГРАЖДЕНИЕ. ОБЯЗАТЕЛЬНО должны быть вот такие КОНТРКРЕПЛЕНИЯ, которые НЕ ДАЮТ ОГРАЖДЕНИЮ БОЛТАТЬСЯ. Оно может быть либо НАИСКОСОК В СТЕНУ, либо ПРЯМОЕ В ПРОТИВОПОЛОЖНУЮ СТЕНУ. БЕЗ НЕГО ВСЯ КОНСТРУКЦИЯ МОЖЕТ ПРОСТО УПАСТЬ. Вы на неё ОБОПРЁТЕСЬ НЕУДАЧНО и ВСЁ ГРОХНЕТСЯ.»**
+
+- → **⚠️⚠️ TWO SOURCES, SO TREAT IT AS A HARD REQUIREMENT RATHER THAN A RECOMMENDATION. The two acceptable geometries are a DIAGONAL stay back to the same wall or a STRAIGHT bar across to the opposite wall, and the failure mode is a person leaning on the glass — which in a bathroom is exactly what happens when someone slips.**
+- → **It is also a first-fix item in the sense that matters: the stay lands on a wall that must be able to take it, so the fixing substrate has to exist before the glass is ordered.** *(That consequence is mine.)*
+
+### ⚠️ A Corner Floor Drain, Concealed and Serviceable (same source)
+
+**«Внизу очень красивый ТРАП. Мы ЗАГНАЛИ его прямо в САМЫЙ-САМЫЙ УГОЛ. За ним НЕТ НИКАКОЙ ПЛИТОЧКИ. Он очень аккуратно здесь спрятан. Вот эту историю можно ПОДНЯТЬ И ВЫТАЩИТЬ, если там какие-то ВОЛОСЫ или какая-то грязь.»** The shower zone sits on a podium.
+
+- → **A drain driven into the corner is out of the sightline, needs no tile cut around it, and lifts out for hair — which is the everyday maintenance the section above's linear-versus-centre discussion does not cover.**
+- ⚠️ **He also refers to a SEPARATE VIDEO on what determines podium height and whether a step can be avoided entirely.** → **That addresses the drain-fall constraint this vault has now hit FOUR times across Rounds 5–7. Flagged as a named candidate in the round's planning notes.**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## Pebble-Floor Technical-Gap Cover, Satellite Home-Office Shower, and an Oversized Shower-Cabin Rule (Игорь Краснов, real projects, added 2026-09-02, Round 8)
 
 Real completed studio projects — no third-party attribution needed. [sources: [[_Sources/YT_XU7YAfZ9xuM_krasnov_116m2_spb_project_tour|XU7YAfZ9xuM]], [[_Sources/YT_W2dAmCXg9GE_krasnov_279m2_petergof_house_tour|W2dAmCXg9GE]]]

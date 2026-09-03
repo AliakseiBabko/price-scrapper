@@ -107,6 +107,31 @@ A garage converted to a habitable room, found with **the wrong-size window frame
 
 [source: [[_Sources/YT_HbQHuyokSd0_nsdsgn_rescue_contractor_58m_dispute|YT_HbQHuyokSd0]]]
 
+### ⚠️⚠️⚠️ A CONTRACTUAL "NO DEVIATIONS" CLAUSE PREVENTED NOTHING — Four Departures in One Flat, and What Actually Caught Them (Александр Синчуков, 2020-11-03)
+
+**The clients imposed one hard condition on the whole project: «То, что НАРИСОВАНО В ПРОЕКТЕ, должно быть ОДИН В ОДИН выполнено в реальности, то есть НИКАКИХ ОТКЛОНЕНИЙ, просто как нарисовали, так и делаем.» Four departures happened anyway, and the pattern in how they resolved is the finding:**
+
+| # | Departure | Who caught it | Outcome |
+| :--- | :--- | :--- | :--- |
+| 1 | Balcony plank tile laid with straight 50/50 joints instead of the specified ~20% offset | **the designer, on a site visit** | **stripped and fully relaid** |
+| 2 | A socket back-box set off-line beside the door | nobody in time | **⚠️ PERMANENT — «ВЫВОДЫ УЖЕ СДЕЛАНЫ»** |
+| 3 | Skirtings fitted BEFORE the wall battens, killing the detail | too late | **⚠️ design abandoned — removal meant tearing off the wallpaper** |
+| 4 | A bathroom wall boxed in solid, omitting the specified niches | **⚠️⚠️ THE CLIENT** | **redone to the drawings** |
+
+- → **⚠️⚠️⚠️ THE CLAUSE PREVENTED NOTHING. DETECTION DID — and detection came from whoever happened to look. Two were caught and fixed; two were missed and are permanent. A contractual promise of fidelity to the drawings is not a control; a person on site is.**
+- → **⚠️ AND IT SHARPENS THE VICTIM PROFILE RECORDED ELSEWHERE ON THIS PAGE, whose operative attribute was ABSENT: these clients were in ANOTHER CITY for the entire build, all communication by phone and WhatsApp — and the single error THE CLIENT personally caught is the one that was redone properly.**
+- → **The two irreversible ones share a mechanism worth naming: both became permanent because a LATER trade had already committed. The socket position was cast in; the skirtings were glued over wallpaper. ⚠️ So the window for catching a first-fix error closes when the next trade starts, not when the stage is signed off.** *(That reading is mine.)*
+- ⚠️ **He is candid about his own share: «я НЕ УСЛЕДИЛ» on the tile, and on the socket «это КОСЯК ПРОРАБА, за которым мы просто НЕ УСПЕЛИ УГНАТЬСЯ». He calls the visible result «АД ПЕРФЕКЦИОНИСТА».**
+- **⚠️ A distinction the case makes cleanly: the two he classes as «НЕЗНАЧИТЕЛЬНЫЕ ОТКЛОНЕНИЯ» are CLIENT-INITIATED — a vanity/makeup desk designed into the bedroom and then dropped because «заказчик сказал, в принципе, мне это НЕ НУЖНО», replaced with plain storage. A no-deviation clause cannot survive the client's own change of mind, and should not: this one caught a never-used item BEFORE it was built, which is the good outcome of the mechanism the vault records as the never-used vanity table.**
+
+### ⚠️ A Fully Remote Engagement — What Actually Breaks Is MATERIAL APPROVAL (same source)
+
+**The owners lived in Moscow throughout: «всё общение велось ОНЛАЙН, по телефону либо по ватсапу. И САМОЕ СЛОЖНОЕ во всей этой работе было СОГЛАСОВЫВАТЬ МАТЕРИАЛЫ — вы представляете, как согласовать ЦВЕТ или ФАКТУРУ ПО ТЕЛЕФОНУ? Это полный бред.»**
+
+- → **⚠️ Not layout, not budget, not scheduling — MATERIAL APPROVAL is what a remote engagement breaks. Worth knowing before agreeing to one, and it is why the vault's three finish-judging rules matter: test at the working colour temperature, judge a near-white against plain white paper, and (new, below) allow for the PLANE the sample sits on.** See [[17_Design_and_Ergonomics/analysis/Color_Selection_Process_and_Testing|Colour Selection Process and Testing]].
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
 
 ## When It Goes Wrong — Escalation, Experts and Worked Failures
 

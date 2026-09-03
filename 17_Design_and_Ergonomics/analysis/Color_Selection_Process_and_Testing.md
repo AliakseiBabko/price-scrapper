@@ -237,6 +237,26 @@ Her stated action plan: pick one room (the one you spend most time in, not the w
 
 ---
 
+## ⚠️⚠️ A THIRD Reference Problem — the Same Material Reads Differently on the FLOOR and on the WALL (Александр Синчуков, 2020-11-03)
+
+**Octagon tile runs across a kitchen floor and up onto the splashback — the SAME tile from the SAME batch:**
+
+**«Обратите внимание, насколько ОТЛИЧАЕТСЯ СВЕТ на полу и свет на ВЕРТИКАЛЬНОЙ ПОВЕРХНОСТИ. На самом деле ЭТО ОДНА И ТА ЖЕ ПЛИТКА, и смотрятся они СОВЕРШЕННО ПО-РАЗНОМУ. Часто заказчики про это ЗАБЫВАЮТ, и надо понимать, что НА РАЗНЫХ ПЛОСКОСТЯХ ЦВЕТ У МАТЕРИАЛА ТОЖЕ ОЧЕНЬ СИЛЬНО МЕНЯЕТСЯ.»**
+
+- → **⚠️⚠️ ORIENTATION IS THE THIRD REFERENCE PROBLEM, AND THE VAULT DID NOT HAVE IT. A sample approved lying FLAT on a table will not look the same standing on a WALL, because the light reaching a horizontal and a vertical plane differs — and it is the same physical tile.**
+- → **⚠️⚠️ SO THE SET IS NOW COMPLETE, AND ALL THREE ARE FREE TO APPLY: (1) test a finish at the COLOUR TEMPERATURE it will actually be lit at; (2) judge a near-white against a sheet of PLAIN WHITE PAPER, because the eye has no anchor otherwise; and (3) HOLD THE SAMPLE IN THE PLANE IT WILL OCCUPY — flat on the floor for a floor, upright against the wall for a wall.**
+- → **⚠️ And it bears hardest on the case where a material is used on BOTH planes, which is common (a tile that runs from floor to splashback, a stone that runs from worktop to upstand): it will not match itself, and that is not a batch fault.**
+- ⚠️ **A remote engagement makes all three acute. In this project the clients were in another city and «САМОЕ СЛОЖНОЕ во всей этой работе было СОГЛАСОВЫВАТЬ МАТЕРИАЛЫ — как согласовать ЦВЕТ или ФАКТУРУ ПО ТЕЛЕФОНУ? Это полный бред.»**
+
+## ⚠️ A Mixed Decorative Tile Needs a QUANTITY RATIO Decided at Design Stage (same source)
+
+**Two batches arrived — plain field octagons and decorative ones — and «нам нужно было РАССЧИТАТЬ ИХ КОЛИЧЕСТВО, чтобы они СОЧЕТАЛИСЬ, чтобы их было НЕ МНОГО И НЕ МАЛО. Я рисовал прям РАСКЛАДКУ вот этой плитки.»**
+
+- → **The decorative-to-field RATIO is a design decision with a quantity consequence, and it needs a drawn setting-out before ordering — you cannot correct it on site, because the two batches are ordered separately. Adjacent to the vault's finding that counting tile as equal to the surface area is fundamentally wrong.**
+
+[source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
+
+
 ## Source Notes
 
 Traceability record kept on its own page — [[17_Design_and_Ergonomics/analysis/Source_Notes|Source Notes]].
