@@ -1,6 +1,6 @@
 ---
 video_id: 7DnlE-pl0y4
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), guest Сергей Реньжин — founder, 500lux lighting studio
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), guest Сергей Реньжин — founder, 500lux lighting studio
 source_type: youtube
 source_title: "Ошибки в освещении интерьера. 9 советов профессионального светодизайнера."
 source_url: https://www.youtube.com/watch?v=7DnlE-pl0y4

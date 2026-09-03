@@ -89,6 +89,38 @@ Pavel Sidorik, individual practitioner, own apartment, installing 3 reused/new T
 
 Part of [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh-Air Ventilation and Ducting]].
 
+## ⚠️⚠️ Generous Ceiling Height WAS a Ventilation Technology — Which Reframes a Preference This Vault Treats as Given
+
+**From a Belarusian architect, and the host — a designer of 20 years — calls it a revelation. It supplies an argument this vault does not have anywhere: a RUNNING-COST case against volume, and a historical explanation for why high ceilings feel luxurious.** [source: [[_Sources/YT_1Dpc8SLJd6M_nsdsgn_zrobim_architects_house_building|YT_1Dpc8SLJd6M]]]
+
+Clients argue for height on feel — «если потолки 4 м, я СВОБОДНО МОГУ ДЫШАТЬ» — and he answers on four factors:
+
+1. **⚠️ RUNNING COST: «это в свою очередь ЭКОНОМИЯ НА ЭКСПЛУАТАЦИИ. ЛИШНИЙ МЕТР ВЫСОТЫ ПОМЕЩЕНИЯ, УМНОЖЕННЫЙ НА ПЛОЩАДЬ, — это КУБАТУРА, КОТОРУЮ ТЕБЕ НАДО ТОПИТЬ. А ТЁПЛЫЙ ВОЗДУХ, как известно, ИДЁТ ВВЕРХ — то есть САМОЕ ЭФФЕКТИВНОЕ с точки зрения ТЕПЛОТЕХНИКИ ПРОСТРАНСТВО [оказывается] ПОД ПОТОЛКОМ.»** i.e. you heat the volume and the heat then collects where nobody is.
+2. **РАСХОД МАТЕРИАЛОВ.**
+3. **ВИЗУАЛЬНЫЙ ОБЛИК.**
+4. **ЧУВСТВО ПРОПОРЦИИ.**
+
+> [!IMPORTANT]
+> **⚠️⚠️ AND THE HISTORICAL EXPLANATION, WHICH IS THE PART THAT BELONGS ON THIS PAGE SPECIFICALLY.**
+>
+> The host, in Milan station, asked an architect why the vaulted ceilings there are so vast: **«Володя, а зачем вы такие ОГРОМНЫЕ ПОТОЛКИ СВОДЧАТЫЕ у вокзала, зачем СТОЛЬКО ОБЪЁМА? Он говорит: САШ, ПРОСТО ТОГДА ВЕНТИЛЯЦИИ НЕ БЫЛО. И ОГРОМНОЕ КОЛИЧЕСТВО ВОЗДУХА — ПРОСТО ОНО ЗАМЕЩАЕТСЯ.»** The host's reaction: **«для меня это было ОТКРЫТИЕ как для дизайнера.»**
+>
+> **⚠️ And applied to exactly the housing stock this vault deals with: «несмотря на то, что в ПЕТЕРБУРГЕ много квартир с ВЫСОКИМИ ПОТОЛКАМИ, и их такими ТЕСНЫМИ сделала ДРУГАЯ ЭПОХА.»**
+>
+> **→ Ceiling volume was AIR VOLUME — a passive ventilation strategy for a period with no mechanical option, which is why the buildings that feel most generous are the ones built before ventilation existed. Mechanical ventilation is the modern substitute for the same function, at a fraction of the heated volume.**
+>
+> **Two consequences. (1) This page's whole subject can be argued as the thing that MADE low ceilings habitable, rather than as a comfort upgrade — which is a stronger case than the price ladders below make. (2) The vault's low-ceiling content treats height purely as a constraint to mitigate visually; this says the functional half of what height used to provide is now purchasable, and the aesthetic preference is a legacy of a solved problem.** `single-account` for the Milan attribution, but the mechanism is standard building history.
+
+## ⚠️ A Specification Ladder, and Where This Practitioner Puts the Modern Baseline
+
+**Offered via a car analogy — «PORSCHE это очень красиво и технологично, а более бюджетные марки… попроще и МЕНЕЕ ТЕХНОЛОГИЧНЫЕ. ТАК ЖЕ И С ДОМОМ — насколько ты его НАФАРШИРУЕШЬ»** — and the ladder itself is a useful ordering for this page's tiers:
+
+- **ВЫТЯЖНАЯ ventilation → ПРИНУДИТЕЛЬНАЯ (forced supply) → and onto that, «свои НАДСТРОЙКИ: УВЛАЖНЕНИЕ, РЕКУПЕРАЦИЯ, ОХЛАЖДЕНИЕ, ФИЛЬТРАЦИЯ ВОЗДУХА» → «туда же АВТОМАТИЗАЦИЯ, умный дом какой-нибудь».**
+- **⚠️ AND WHERE HE PUTS THE BAR: «это уже НЕ КАКОЙ-ТО ROCKET SCIENCE в современном мире, А ПО СУТИ ДАННОСТЬ.»**
+  **→ A practitioner in the premium segment treating forced supply with recovery and filtration as a baseline rather than an upgrade. Recorded as a segment-conditioned statement — his objects are premium houses, and this page's price ladders are what decide whether the same baseline is affordable in an apartment renovation. But it is a useful marker of where professional expectation now sits, and it should be read alongside the humidification note below, which the ladder places at the same level.**
+- **⚠️ AND THE LIMIT OF THE WHOLE APPROACH, worth keeping because it is a boundary rather than a feature: «КАКАЯ БЫ НИ БЫЛА КРУТАЯ ВЕНТИЛЯЦИЯ, ВСЁ РАВНО НЕМНОЖКО ПОДТЯГИВАЮТСЯ ВЫХЛОПНЫЕ ГАЗЫ»** (of a garage attached to a house). **→ A ventilation system cannot fully isolate an attached pollutant source; the answer to a contaminated adjacency is SEPARATION, not more air handling. House-specific in origin, but it generalises to anything vented into or abutting a dwelling — a shared stairwell, a restaurant below, a smoking neighbour's shaft.**
+- **⚠️ An eco-marketing debunk from the same passage: «ЭКОЛОГИЯ — ЭТО НЕ ПРО КЛЕЙ, который есть или нету его в деревянном доме… то что ЭТИ ВАШИ ДЕРЕВЯННЫЕ ДОМА — ОНИ И ТАК ВСЕ ПРОКЛЕЕНЫ.»**
+
 ## ⚠️⚠️ Mechanical Ventilation Is a DURABILITY Investment, Not Only a Comfort One
 
 **A new argument for this page's whole subject, from a designer with 20 years' practice — and it is an argument the vault's ventilation content does not make anywhere.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]

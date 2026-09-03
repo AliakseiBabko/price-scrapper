@@ -56,7 +56,7 @@ Part of [[05_Kids_Room/Kids_Room_Guide|Kids Room Guide]].
 ## A Clinical Psychologist's Objections (Наталья Степанова)
 
 Наталья Степанова — clinical psychologist, 20 years in child and adult
-psychotherapy — asked directly by designer Александр Сенчугов what
+psychotherapy — asked directly by designer Александр Синчуков what
 designers should stop doing. **She named two things, and the second
 mechanism is one no designer source on this page gives.**
 
@@ -173,7 +173,7 @@ protects a designer from a client demand founded on a misapplied marker:
 time in the room built for him, hangs out in the living room, and
 disturbs the parents.
 
-**Perspective 1 — the designer (Александр Сенчугов).** A townhouse
+**Perspective 1 — the designer (Александр Синчуков).** A townhouse
 client, ten years on, asked him to redesign the nursery «потому что их
 ребёнок постоянно тусуется на первом этаже в гостиной — ему просто не
 интересно подниматься в свою детскую». **His answer: «мы повысили

@@ -34,7 +34,7 @@ Interior designer Надежда Кузина reaches the section above's proble
 - **Cost ladder she gives for the same capacity** (Q&A, 2021): built-in appliances are **not** inherently more expensive. **Side-by-side costs substantially more than two built-in fridges of the same combined capacity** — the unit itself perhaps **+15%**, but "очень дорогое удовольствие" once the cabinetry consequences are counted. A single freestanding fridge is the cheapest option outright, but then the kitchen must be built around its clearances. `single-account`, `unverified`.
 - **Built-in is also the easiest electrically** — it sits on a shelf, clear of the floor, so the outlet can go in the same base or the plinth.
 
-### ⚠️ Third Channel: a Higher Top-Clearance Figure, and the Perforation Mechanism the Section Was Missing (Александр Сенчугов / NSDSGN, 2025-07-22)
+### ⚠️ Third Channel: a Higher Top-Clearance Figure, and the Perforation Mechanism the Section Was Missing (Александр Синчуков / NSDSGN, 2025-07-22)
 
 **A genuine divergence on the number, and a new mechanism that explains why the number matters.** [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
 

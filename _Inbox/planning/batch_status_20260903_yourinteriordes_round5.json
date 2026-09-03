@@ -1,0 +1,74 @@
+{
+  "batch": "yourinteriordes_round5",
+  "channel": "ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА (@YourInteriorDes) — NSDSGN, studio Нечаев Синчуков",
+  "channel_id": "UCoJvM19nhHxfplqcO4wDL4A",
+  "created": "2026-09-03",
+  "completed": "2026-09-03",
+  "triage_doc": "_Inbox/planning/yourinteriordes_channel_triage_20260903.md",
+  "prior_yields": "R1: 6 videos, 172 facts, 28.7. R2: 5, 145, 29.0. R3: 5, 148, 29.6. R4: 5, 180, 36.0.",
+  "round5_scoping_rationale": "Scoped by FORMAT per the corrected model, deliberately avoiding the host-solo trend cluster argued against for four rounds. Deliberate spread: a NEW-DISCIPLINE guest (estate agent), a NEW-JURISDICTION guest (Belarusian architects), the last confirmed ZERO-COVERAGE subject (Falconnier glass brick), an OWN-OBJECT room deep-dive (his own 4 m2 bathroom), and the longest remaining title from the proven regrets block.",
+  "fetch_policy": "serialized, spaced, anonymous, --languages ru ONLY. All five returned MANUAL Russian caption tracks (generated=False). Zero rate-limit signatures. Upload dates confirmed from yt-dlp metadata, not titles.",
+  "result": {
+    "status": "COMPLETE",
+    "videos": "5/5",
+    "facts": 170,
+    "yield_per_video": 34.0,
+    "comparison": "Slightly below Round 4's 36.0 and well above Rounds 1-3. Five rounds: 26 videos, 815 facts, 28.7 / 29.0 / 29.6 / 36.0 / 34.0.",
+    "prediction_note": "I did NOT predict decay this round, having been wrong four times, and the yield came in roughly flat - which is what the corrected format-based model implies. Recording the non-prediction as the outcome, because a model that stops generating wrong predictions is the point of having corrected it.",
+    "wiki_pages_touched": 20,
+    "pages_split": 1,
+    "new_pages_created": 1,
+    "check_page_sizes": "285 pages, no FRAGMENTED, nothing over the 400 backstop",
+    "verify_batch": "69 files, 0 problems, PASS on the first run",
+    "link_check": "all wiki links in changed and new files resolve; TWO wrong-folder links found and fixed, one of them introduced in ROUND 4 and undetected then because no link check was run"
+  },
+  "vault_wide_correction": {
+    "what": "The host's surname was wrong in 61 occurrences across 48 files. The correct name is Александр СИНЧУКОВ; the studio is НЕЧАЕВ СИНЧУКОВ, which is what the channel handle NSDSGN stands for; and he is a CO-principal rather than the sole one, which the vault had implicitly assumed away.",
+    "evidence": "He introduces himself in a MANUAL caption track: 'меня зовут СИНЧУКОВ Александр, соруководитель студии НЕЧАЕВ СИНЧУКОВ'. Four of five transcripts say 'Син-'; ZERO say 'Сенчугов'. The studio name provides independent structural corroboration of the handle.",
+    "why_it_is_logged_rather_than_silently_fixed": "The form originated in my own Round 1 extraction. In ROUND 4 a source rendered it correctly, I NOTICED, and I OVERRODE it - writing that 'the vault's established form from 17 prior instances is retained'. Those 17 instances were 17 COPIES OF ONE DECISION OF MINE, not 17 independent attestations. I treated the vault's internal consistency as evidence about the outside world when the consistency was entirely downstream of a single unverified choice.",
+    "generalisable_rule": "An 'established form' is only evidence if its instances are INDEPENDENT. Count sources, not occurrences. Where a vault-wide convention traces to one intake decision, a single contrary primary observation outweighs any number of internal repetitions.",
+    "honesty_note": "ONE transcript - the 2022 auto track, all-lowercase and unpunctuated - does render 'Сенчуков', and is almost certainly where my error came from. So the fix rests on weight of evidence, not unanimity, and that is recorded rather than glossed."
+  },
+  "second_correction": {
+    "what": "In Round 4 I recorded the light-group reconciliation ('the tolerable number of groups is set by whether a scene can collapse them into one action') as a synthesis I had constructed from a 2022 cap and a 2024 practice.",
+    "actually": "He stated both halves himself in January 2022: 'если вы хотите БОЛЬШЕ ТРЁХ ГРУПП освещения, то хорошо эти группы ОБЪЕДИНИТЬ [в] УМНЫЙ ДОМ... иначе ПИАНИНО ИЗ ВЫКЛЮЧАТЕЛЕЙ'.",
+    "generalisable_rule": "Before crediting a synthesis to the reading, check whether an earlier source in the same channel already made it. A channel's back catalogue can contain the resolution to what looks like its own contradiction, and a multi-round intake is exactly the process that hides it."
+  },
+  "dating_corrections": {
+    "count": 4,
+    "detail": "Round 5's earliest source (2022-01-26) predates everything else the vault holds from this channel and moved four findings backwards: the matte-paint burnishing MECHANISM (vault had 2026-04), the light-group cap AND its resolution, push-to-open rejected with four MECHANICAL reasons (vault had 2024-07 on dirt grounds), and the never-used exercise equipment (now with a 90% figure).",
+    "systematic_bias_revealed": "A vault built round by round will systematically MIS-DATE findings toward the round that first noticed them. Processing order is not chronology. For any channel where dating matters - trend claims, price claims, 'he changed his mind' claims - process the OLDEST titles EARLY rather than leaving them as the dregs."
+  },
+  "preflight_catches": [
+    "A NEAR-MISS ON A NEW VOICE: a first pass on 'Михайлов' returned 49 vault hits and looked like an existing guest; all 49 are 'МихайловСКАЯ', a designer already in the vault and a different person. The Round 2 identity lesson cuts BOTH ways - substring matching on a surname can wrongly flag a NEW voice as known, not only wrongly treat a known voice as new.",
+    "TWO CANDIDATES DROPPED ON GENUINE SATURATION: microcement and decorative plaster both have 34 vault mentions across 10 files PLUS a dedicated page. The contrast with Round 4 is the point - that soundproofing dedup test PASSED against 200+ files because the saturation was by FILE COUNT and the gap was an ADJACENT TRADE (sockets); here it is depth on a narrow material with no such gap. Saturation has two shapes and only one means skip it."
+  ],
+  "four_times_deferred_flag_resolved": {
+    "item": "1Dpc8SLJd6M - Zrobim Architects, Minsk. Flagged for the user's decision in Rounds 2, 3 and 4 without ever being decided.",
+    "decision": "Processed rather than deferred a fifth time, on the reasoning that continued deferral is itself a choice with a cost.",
+    "verdict": "MY CAUTION WAS HALF RIGHT, and both halves are recorded. Worth it because it is the ONLY Belarus-jurisdiction source on a 220-video channel and this project is a Minsk apartment - it yielded the single most project-relevant fact of five rounds (Belarus has a SEPARATE ELECTRICITY TARIFF for heating, post-nuclear-plant, accessed via a second meter) plus a Belarus-inclusive build benchmark of from $1,500/m2 stated in USD by the practitioner himself for portability. The caution was right because the subject is individual HOUSES, land plots and master-planning, 'согласование' returns ZERO hits so the Belarusian permitting content I had hoped for is entirely absent, and the practice works mostly OUTSIDE Belarus. Routed narrowly, with the missed expectation stated rather than glossed.",
+    "consequence": "No pending user decision now blocks this channel."
+  },
+  "videos": {
+    "CN-Ab_g4CAI": {"status": "processed", "len_min": 30, "upload_date": "2022-01-26", "hash": "ebce00eb", "fact_yield": 40, "promotional_ratio": "low-medium", "track": "ru auto (all-lowercase, unpunctuated)", "tests": "longest remaining title from the regrets block, which Round 3's probe reclassified and whose stopping rule never fired", "outcome": "THE EARLIEST NSDSGN SOURCE IN THE VAULT, and its largest contribution is chronological - it corrected the dating of four findings including one I had credited to my own synthesis. Also supplies: a floor drain inside a free-standing bath's podium as a passive analogue of a leak sensor; FIVE failure mechanisms for a hydronic towel rail; the corridor-absorption warning that counterweights the estate agent's usable-area claim in the same round; glossy-versus-matte porcelain resolved by the slip coefficient; and GRANITE as the option missing from a tension Round 4 recorded as open. Two Russian regulatory claims flagged in place. It is also the only transcript rendering 'Сен-' and is the likely origin of my name error."},
+    "_nDCLhRUojE": {"status": "processed", "len_min": 26, "upload_date": "2024-03-12", "hash": "39aa4350", "fact_yield": 40, "promotional_ratio": "low", "track": "manual ru", "tests": "OWN-OBJECT room deep-dive, the best-performing format on this channel (29, 35, then 40)", "outcome": "Completes a THREE-POINT SEQUENCE on one object - build (Round 3), specification (this), outcome (Round 4) - so the vault now holds intention, specification and outcome for the same 4 square metres. Two Round 4 findings originate here: the HEATED WALL that grounds the underfloor-heating dissent, and the UNREACHABLE TOWEL, named four months earlier WITH the electrical-proximity constraint that blocks the obvious fix. Carries the round's best defect: EPOXY GROUT on an acrylic bath, which leaked and was caught by a sensor, extending rather than repeating the vault's load-testing rule because a load test protects against a seal broken ONCE and this joint fails on EVERY fill. Plus 15 cm into the corridor buying both a square metre AND the wall depth for concealed valves."},
+    "vTgY6vioNik": {"status": "processed", "len_min": 62, "upload_date": "2024-09-17", "hash": "6f22b9be", "fact_yield": 34, "promotional_ratio": "medium", "track": "manual ru", "tests": "NEW-DISCIPLINE guest format, which produced the best source of Round 4 (a clinical psychologist, 42)", "outcome": "MY SELECTION HYPOTHESIS WAS WRONG and is recorded: I expected a realtor's resale-value data and 'ликвидность' returns ZERO hits - that content turned up in the architecture podcast instead. A new discipline predicts a new PERSPECTIVE, not a specific SUBJECT. What is actually here is more valuable: a commission-bias disclosure against his own interest ('the worse the developer, the more he pays', 3-4% market and 1% on end-of-stock), the design fee being roughly segment-independent while the build scales, ABANDONMENT AFTER PROCUREMENT as a failure the commission structure causes, and УЮТ defined with a mechanism that makes it un-specifiable at handover."},
+    "1Dpc8SLJd6M": {"status": "processed", "len_min": 47, "upload_date": "2025-01-21", "hash": "e132119a", "fact_yield": 30, "promotional_ratio": "medium", "track": "manual ru", "tests": "the four-times-deferred Belarus item - the only Belarus-jurisdiction source on the channel", "outcome": "See four_times_deferred_flag_resolved above. Also supplies the best reasoning in the round: GENEROUS CEILING HEIGHT WAS A VENTILATION TECHNOLOGY, with a running-cost argument against volume and a Milan-station explanation the host calls a revelation - which reframes a preference the vault treats as given and lets mechanical ventilation be argued as what made low ceilings habitable. Plus LIQUIDITY redefined to include inheritability. AND IT CONTAINS THE AUTHORITATIVE NAME INSTANCE that triggered the vault-wide correction."},
+    "Tj94jGH6fls": {"status": "processed", "len_min": 28, "upload_date": "2024-12-10", "hash": "c12df0e5", "fact_yield": 26, "promotional_ratio": "medium", "track": "manual ru", "tests": "the LAST confirmed zero-coverage subject on the channel", "outcome": "corroborates_existing FALSE - the only such source in Rounds 4-5. Its best contribution is that it ANSWERS the vault's existing glass-block rejection: the 'dated 1980s industrial material' objection is aimed at the PRESSED SERIAL block, a different product. The transferable half is technical and applies to cheap serial block too: plain cement mortar, no reinforcement, arrises covered by mortar, three-to-four-storey unreinforced height, and FOUR historic functions of which two together are DAYTIME PRIVACY WITH LIGHT REQUIRING NO OPERATION - which is exactly the roller-blind failure the vault documents twice. An acoustic claim is recorded WITH its weakness (no dB figure) but flagged as testable, since a mortar-bedded panel has NO PENETRATIONS. Honest scope verdict: awareness, not a live option for a Minsk flat - no price anywhere in 28 minutes."}
+  },
+  "housekeeping_done": {
+    "split": "Family_Scenario_Driven_Design.md, resolving the flag raised in Pending Wiki-Page Decisions after Round 4 whose stated trigger ('the next material addition') had arrived. 358 -> 128 + 243 lines. split_page.py apply: 0 content lines missing, 30/30 citation IDs preserved, RESULT: CLEAN. New page: Brief_Elicitation_Practitioner_Cases.md.",
+    "process_lesson": "The seam I had proposed ON PAPER in Round 4 (principles versus elicitation) was NOT the best one. split_page.py analyse showed one section carrying 234 of 359 lines, and the right seam was FRAMEWORK versus CASES. Run analyse before committing to a seam rather than reasoning about the page from memory."
+  },
+  "flagged_not_fixed": [
+    "Contract_Practice.md at 382 lines has now been routed AROUND for two consecutive rounds, which is starting to distort where content lives. It should be split next time rather than avoided again.",
+    "Lighting_Design.md at 359 lines remains the real concern: roughly a dozen dated round-labelled headings, reading as organised by intake date in places even though the tool does not flag it. MERGE FIRST, then consider extracting.",
+    "Age_Staged_Planning.md at 358 lines; seam from Round 4 still holds (extract the dimensional and two-child material, which is not age-staging).",
+    "Flooring_Material_Selection.md and Fresh_Air_Ventilation_and_Ducting.md both newly at 311 lines and both coherent - watch rather than plan.",
+    "15_Appliances/analysis/Kitchen_Filtration_Systems_Analysis.md is still ZERO BYTES, unchanged from Round 4. Decision still needed."
+  ],
+  "new_open_questions": [
+    "THE BELARUSIAN ELECTRIC-HEATING TARIFF - the most project-relevant unresolved item acquired in five rounds. Terms, rate and eligibility all unstated. Every electric-heating cost figure in this vault is Russian-sourced and is a function of a tariff. What would resolve it is the supplier's own published schedule, which is a documents question rather than a sources question and is arguably worth doing outside the YouTube pipeline entirely.",
+    "THE GLASS-BRICK ACOUSTIC CLAIM - a good hypothesis with no measurement. Worth testing rather than dismissing, because a mortar-bedded panel has no sockets and no penetrations, which is exactly what Round 4 identified as defeating a correctly built acoustic wall. Ordinary serial glass block is a mass-market product and should have published data."
+  ]
+}

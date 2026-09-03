@@ -1,6 +1,6 @@
 ---
 video_id: 2vyIWKmrSXM
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков)
 source_type: youtube
 source_title: "20 ошибок, о которых жалеют после ремонта и как их исправить"
 source_url: https://www.youtube.com/watch?v=2vyIWKmrSXM

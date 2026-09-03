@@ -136,6 +136,34 @@ He dates the type to argue it will not go out of style: Japanese sliding rice-pa
 
 **⚠️ The transferable part is the distinction, not the history: «мода скоротечная… а металл, дерево, мрамор — это уже стиль. Это то, что действительно никогда не надоест.»** And the market driver he names for the whole category is structural rather than aesthetic: **living space is shrinking while its price rises**, so partitions earn their place by combining rooms and extending perceived space.
 
+## ⚠️⚠️ Glass Brick — a Direct Answer to the "Dated 1980s Material" Objection Above, and Four Functions Worth Knowing
+
+**The glass-block note above rejects the material as a fading trend tied to a dated industrial product. A St Petersburg production visit engages that objection precisely, and the answer is that the objection is aimed at a DIFFERENT PRODUCT.** [source: [[_Sources/YT_Tj94jGH6fls_nsdsgn_falconnier_glass_brick|YT_Tj94jGH6fls]]]
+
+- **The host names the same objection the note above makes: «очень часто слышу, что стеклянные блоки — это что-то УЖАСНОЕ, НЕКРАСИВОЕ, что это какие-то ОТСЫЛКИ К СОВЕТСКОМУ БАССЕЙНУ или там СТОЛОВОЙ.»**
+- **⚠️ AND THE DISTINCTION: what people are rejecting is the PRESSED SERIAL block, which displaced the hand-blown one. «Такой кирпич ХУДОЖЕСТВЕННЫЙ, я бы так его назвал, ОН СМЕНИЛСЯ именно таким СЕРИЙНЫМ кирпичом… это происходило чуть ли не с СЕРЕДИНЫ 00-х ГОДОВ, когда появились ПЕРВЫЕ УСТАНОВКИ ДЛЯ ПРЕССОВАНИЯ строительного стекла.»** The original type is a **hand-blown half-brick**, a 19th-century Swiss invention (Gustave Falconnier), reconstructed in St Petersburg by a firm whose day job is **building furnaces for glass-blowing workshops.**
+- **⚠️ Every brick differs by construction: «НЕТ НИ ОДНОГО ОДИНАКОВОГО КИРПИЧА, 100% — они все ЖИВЫЕ, каждый делается ВРУЧНУЮ и имеет свои НЮАНСЫ: ПУЗЫРЬКИ, РАЗНУЮ ТОЛЩИНУ СТЕКЛА. На СЕРИЙНОМ производстве такого бы НИКОГДА НЕ БЫЛО.»** **→ Which is the non-uniformity-hides-wear principle recorded on [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]], here present at manufacture rather than acquired in service — and it is the property the serial product removed.**
+
+> [!IMPORTANT]
+> **⚠️⚠️ THE FOUR HISTORIC FUNCTIONS — AND ONE OF THEM ANSWERS A PROBLEM THIS VAULT DOCUMENTS REPEATEDLY.**
+>
+> Historically used as EXTERNAL windows, to: **(1) «ЗАЩИТИТЬ ОТ ВОЗДЕЙСТВИЙ ВНЕШНЕЙ СРЕДЫ»; (2) «ПРИГЛУШИТЬ СВЕТ НА СОЛНЕЧНОЙ СТОРОНЕ»; (3) сделать окно «НЕПРОНИЦАЕМЫМ ДЛЯ ЗВУКОВ [И] ЗАПАХОВ»; (4) «ЧТОБЫ ЧЕРЕЗ НЕГО НЕЛЬЗЯ БЫЛО НИЧЕГО УВИДЕТЬ».**
+>
+> **⚠️ Functions (2) and (4) together are DAYTIME PRIVACY WITH LIGHT, REQUIRING NO OPERATION AT ALL — which is exactly the failure this vault records twice for a roller blind: it is BINARY and must be OPERATED, so in practice it is not used and the room stays exposed.** See the тюль finding on [[17_Design_and_Ergonomics/analysis/Curtains_and_Window_Treatments|Curtains and Window Treatments]], where a fabric layer solves the same problem. **A glass-brick panel is the built version of that answer, and unlike тюль it also does (3).**
+>
+> **→ So the material's strongest case is not decorative at all: it is a permanent, zero-maintenance privacy screen for an overlooked window or an internal opening — which is a functional brief, not a trend. That materially weakens the "will you redo it in 5-7 years" objection above, because a household does not tire of a window it can undress in front of.**
+
+### ⚠️ Construction facts, which apply to ORDINARY serial glass block too — and that is what makes them useful
+
+- **⚠️ Laid on plain cement mortar with NO reinforcement: «кирпичи КРЕПЯТСЯ ПРОСТО НА ЦЕМЕНТНЫЙ РАСТВОР… исторически это был ПОРТЛАНД-ЦЕМЕНТ, НИКАКОГО ДОПОЛНИТЕЛЬНОГО АРМИРОВАНИЯ внутри НЕ ШЛО.»**
+- **⚠️ The durability detail: «ВСЁ, ЧТО НЕЖНОЕ — ВСЕ УГЛЫ — ДОЛЖНЫ БЫТЬ ЗАКРЫТЫ РАСТВОРОМ.»** The fragility is at the exposed arris, and mortar covering it is what makes the panel robust — after which hail «куриное яйцо» is survivable.
+- **⚠️ Height capability, unreinforced: «такие стенки могут быть достаточно ВЫСОКИМИ — самые высокие, известные мне, достигали ТРЁХ-ЧЕТЫРЁХ ЭТАЖЕЙ.»** **→ A glass-brick partition is not a delicate element, which removes a common objection to using it as a real divider rather than an accent panel.**
+- **⚠️ AN UNQUANTIFIED ACOUSTIC CLAIM, recorded with its weakness: «КОЛОССАЛЬНАЯ совершенно ЗВУКОИЗОЛЯЦИЯ, ТЕПЛОИЗОЛЯЦИЯ… СТЕКЛО [проницаемости] никакой [не даёт], НЕ СЛЫШНО ВООБЩЕ.» No dB figure appears anywhere in 28 minutes, and «не слышно вообще» is enthusiasm rather than measurement.**
+  **⚠️ It is nonetheless physically plausible for a specific reason worth testing: a hollow blown brick has a sealed air cavity, and a mortar-bedded panel has NO SOCKETS, NO SWITCHES AND NO PENETRATIONS OF ANY KIND — which is precisely what this vault's soundproofing content identifies as the thing that defeats a correctly built acoustic wall. The hypothesis that a glass-brick panel performs well BECAUSE it cannot be perforated is a good one and should be checked against a real figure rather than adopted.** See [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]].
+- **From the client, only two inputs are required: «по сути от заказчика требуется ТОЛЬКО РАЗМЕР И ЦВЕТОВАЯ СХЕМА.»** Applications named: internal partitions, external windows, windows between rooms.
+
+**⚠️ AVAILABILITY CAVEAT, and it is the reason this is recorded as awareness rather than as a specifiable option: hand production in St Petersburg, recycled-glass feedstock, NO PRICE GIVEN anywhere in the source, and a supplier who states a preference for conservation work over renovation — «мы хотим помогать тем, кто занимается РЕСТАВРАЦИЕЙ… кто хочет СОХРАНИТЬ, а не готов БЫСТРО-БЫСТРО что-то переделать».** For this project the technical facts above are the transferable part, since they hold for cheap serial block as well.
+
 ---
 
 Part of [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangement|Functional Zoning and Furniture Arrangement]].

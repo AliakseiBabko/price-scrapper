@@ -77,6 +77,23 @@ This page already records her experiment showing that a **2 cm worktop overhang 
 
 **⚠️ Avoid acrylic sinks. Stainless steel is what designers actually specify** — undermounted: hygienic, wear-resistant, and tolerant of chemicals, heat and staining agents. She notes the common assumption that designers choose a stone sink matching the worktop, and says the opposite is true in her practice. [source: [[_Sources/YT_6y3UiXx9NQI_shevrina_kitchen_design_mistakes|YT_6y3UiXx9NQI]]]
 
+**⚠️ Independent agreement on UNDERMOUNTING, with the functional reason and one naive worry dismissed** (Александр Синчуков, 2022-01): **«моя ЛЮБИМАЯ КОНФИГУРАЦИЯ кухонной мойки — когда она ПОДКЛЕЕНА СНИЗУ к столешнице: тогда удобно СМАХИВАТЬ крошки, грязь и воду.»** On whether it can debond: **«заказчики постоянно задают довольно НАИВНЫЙ вопрос — а не ОТКЛЕИТСЯ ли она снизу? НЕТ, ЭТО НЕВОЗМОЖНО: сейчас используется такой клей, что её ПРОЩЕ БУДЕТ ОТПИЛИТЬ ОТ СТОЛЕШНИЦЫ.»**
+
+- **⚠️⚠️ BUT HE REDIRECTS THE WORRY TO WHERE IT BELONGS, AND THIS IS A STRUCTURAL ITEM THIS PAGE DID NOT HAVE: «а вот ЗА СТОЛЕШНИЦУ СТОИТ ПОБЕСПОКОИТЬСЯ. Если у вас есть ПРОЛЁТ — например ПОЛУБАРНАЯ СТОЙКА — и ПОД СТОЛЕШНИЦЕЙ НЕТ ЗАКЛАДНОЙ, нет КОНСТРУКТИВНОГО ЭЛЕМЕНТА, то рано или поздно она может ЛЕГКО СЛОМАТЬСЯ.»**
+  **→ A closer/stiffener under any unsupported worktop span. Read directly against this page's overhang experiments above, which establish how far a top can project: those measure the MATERIAL's capability, and this is about whether anything is carrying it in the first place. A semi-bar counter is the common case, and the failure is a break rather than a sag.** [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+#### ⚠️ Sink Placement — the Corner (refused) and Under the Window (three obstacles)
+
+**Same source. Both are things clients ask for and both have consequences that arrive after the kitchen is built.**
+
+- **⚠️ CORNER SINK, refused, with the upsell named: «мойка в углу кухни — ОДНА ИЗ САМЫХ ЧАСТЫХ ОШИБОК. Когда мойка в углу, ПОДОЙТИ И ПОЛЬЗОВАТЬСЯ ОЧЕНЬ НЕУДОБНО. Конечно же, МЕНЕДЖЕР ИЗ МАГАЗИНА КУХОНЬ предложит вам сделать УГЛОВОЙ ЭЛЕМЕНТ, ВЫТАЩИТЬ ЕЁ ВПЕРЁД — но такой дизайн СРАЗУ ЖЕ ПРЕВРАТИТ ВАШУ КУХНЮ В АРТ-ОБЪЕКТ ИЗ 90-Х. Пожалуйста, ПОСТАРАЙТЕСЬ ИЗБЕЖАТЬ УГЛОВОЙ МОЙКИ.»** **→ Note the shape of it: the retailer's fix for the ergonomic problem creates an aesthetic one, and it is offered at the point of sale rather than at design stage.** Read with the corner-kitchen critique on [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing and Ergonomics]].
+- **⚠️ SINK UNDER THE WINDOW — three obstacles, and the middle one is a real cost:**
+  1. **«КРАН умывальника может МЕШАТЬ ОТКРЫВАНИЮ ОКНА.»**
+  2. **⚠️ «ПОД ОКНОМ ЧАЩЕ ВСЕГО, ДО 95% СЛУЧАЕВ, находится ОТОПИТЕЛЬНЫЙ ПРИБОР. Если вы ставите кухню под окном, то отопительный прибор нужно КУДА-ТО ПЕРЕНЕСТИ.»** Options he names: **конвектор, настенный отопительный прибор.** **→ A ~95% prior that this move triggers heating work is what makes it predictable enough to price before it is designed.**
+  3. **⚠️ The payoff is smaller than clients think, AND it forecloses the best storage position: «сейчас почти в каждой квартире есть ПОСУДОМОЕЧНАЯ МАШИНА, и время, проведённое [у] мойки, МИНИМАЛЬНО. И если вы хотите СУШКУ или просто ПОЛКУ для хранения посуды установить НАД МОЙКОЙ — что в принципе САМОЕ УДОБНОЕ РАСПОЛОЖЕНИЕ — то конечно же ОКНО НЕ ПОЗВОЛИТ вам этого сделать.»**
+     **→ ⚠️ This is the same dishwasher-changes-everything reasoning behind the obsolete-drainer finding recorded on [[03_Kitchen/analysis/Storage_and_Hardware|Storage and Hardware]] — but pointed the other way. There, the dishwasher frees the over-sink cabinet from drying duty and it becomes prime STORAGE. Here, that is exactly why a window over the sink now costs more than it used to: it takes the best storage wall, and the romantic benefit it buys ("not facing a wall while washing up") has been shrunk by the same appliance.**
+     «Мойка под окном создаёт МНОГО ОГРАНИЧЕНИЙ.»
+
 ### Handles — the mechanism behind the push-to-open objection
 
 This vault already records her rejection of push-to-open on frequently-used fronts. **The kitchen video supplies the reasoning the earlier note lacked**: a showroom trial of two or three opens misleads, because **in daily use it is two motions, not one — press, then pull — since the self-opening speed is never the speed you want.** A real handle is one motion at your own pace. On a surface opened many times a day the difference compounds.
@@ -101,6 +118,27 @@ Integrated groove handles: fingers slip and nails break. **If specifying remotel
 > **→ So the choice is not gloss-versus-matte or handle-versus-none in the abstract: it is where you would rather do the wiping, on a small replaceable metal part or on the facade itself.** Facade damage arising during cleaning rather than during use is a documented mode — see [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]]. [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
 >
 > **⚠️ And the corollary for the facade itself, from the same source: «если вам нужен неубиваемый интерьер, делайте ПРЯМЫЕ ПРОСТЫЕ ФАСАДЫ» — veneered MDF and intricate machining «очень быстро может прийти в негодность». Plus the edge rule: «самая уязвимая зона мебели — это ТОРЦЫ фасадов… 100% вы его зацепите», with rounding the corners in a circulation zone named as the good but «небюджетное» fix.**
+
+#### ⚠️⚠️ Push-to-Open — Four MECHANICAL Constraints, Stated 2.5 Years Before He Fitted It Himself
+
+**This page has the showroom-trial objection (two motions, not one) and the dirt objection. These are the mechanical ones, and two of them are hard product constraints rather than preferences.** Александр Синчуков, 2022-01. [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+1. **⚠️ THEY OPEN BY ACCIDENT: «эти системы ОЧЕНЬ ЧУТКИЕ и открываются ОТ ЛЮБОГО ПРИКОСНОВЕНИЯ, поэтому их лучше использовать НА ВЕРХНИХ ФАСАДАХ и в других ТРУДНОДОСТУПНЫХ местах, которые вы НЕ БУДЕТЕ СЛУЧАЙНО ЗАДЕВАТЬ.»**
+   **→ ⚠️ Note this points the OPPOSITE way from the handle-versus-gola finding above, which concludes that UPPER fronts are exactly where handles are most needed (greasy hands, overhead reach). So the two rules collide on the same cabinets: push-to-open belongs high because it must not be brushed, and handles belong high because closing dirties the front. There is no configuration that satisfies both, which is worth stating rather than leaving a reader to discover.**
+2. **⚠️ A GEOMETRY LIMIT ON NARROW UNITS: «tip-on ОЧЕНЬ ПЛОХО ПОДХОДИТ ДЛЯ УЗКИХ ВЫТЯНУТЫХ ШКАФОВ, потому что [механизм] находится ПО УГЛАМ, и открывать их можно ТОЛЬКО НАЖИМАЯ В ЦЕНТР. ЕСЛИ ВЫ НАЖМЁТЕ В КРАЙ, ТО КРАЙ ФАСАДА ОТСКОЧИТ И ЯЩИК ПЕРЕКОСИТ.»**
+   **→ A tall narrow pull-out — the commonest place a handle-free look is wanted — is the worst case for the mechanism, and the failure is progressive misalignment rather than a one-off annoyance.**
+3. **⚠️ AN APPLIANCE CONSTRAINT THAT LIMITS A WHOLE RUN: «иногда заказчики хотят, чтобы ВЕСЬ НИЖНИЙ РЯД кухни открывался [push-to-open], но там находится ПОСУДОМОЕЧНАЯ МАШИНА — в таком случае вам подойдёт ТОЛЬКО ОДИН ТИП открывания посудомойки, КОТОРЫЙ ОТКРЫВАЕТСЯ ОТ НАЖАТИЯ.»**
+   **→ So "the whole lower run, handle-free" silently narrows the dishwasher choice to one opening type. That is an appliance-selection consequence of a joinery decision, and it belongs in the buy-the-appliances-first rule recorded on [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing and Ergonomics]].**
+4. **⚠️ AND THE FLAT VERDICT: «КТО БЫ ЧТО НИ ГОВОРИЛ, PUSH TO OPEN — ЭТО НЕ САМАЯ УДОБНАЯ СИСТЕМА ОТКРЫВАНИЯ. НЕТ НИЧЕГО ЛУЧШЕ КЛАССИЧЕСКИХ РУЧЕК.»**
+
+> [!NOTE]
+> **⚠️ THE CHAIN IS WORTH RECORDING IN FULL, BECAUSE IT MEASURES HOW STRONG THE AESTHETIC PULL IS.**
+>
+> **January 2022** — he publishes the verdict above, with four mechanical reasons.
+> **2023** — he fits **handle-less gola uppers AND push-to-open doors in his own flat.**
+> **July 2024** — he **retrofits knobs** and reports the push-open doors as the only two he dislikes.
+>
+> **→ A practitioner who had published a clear argument against a detail then specified it in his own home and reverted. That is not hypocrisy worth scoring — it is evidence that the minimalist look is persuasive enough to override a designer's own documented reasoning, which is exactly the pressure a client will be under. Worth quoting to a client who wants it: the person who warned against it did it anyway and changed it back.**
 
 ### Island cost technique
 

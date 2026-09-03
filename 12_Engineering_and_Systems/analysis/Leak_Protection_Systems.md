@@ -96,6 +96,29 @@ From the same practitioner: he has had clients **flood ten floors down**, so the
 > [!IMPORTANT]
 > **⚠️ And the ranking he attaches to it elsewhere in the same source, which is the strongest argument on this page: «надо помнить, что самые РАЗРУШИТЕЛЬНЫЕ последствия для интерьера происходят НЕ из-за животных, о которых постоянно говорят, НЕ из-за детей, которые рисуют на стенах, — а из-за АВАРИЙ. Особенно если эта авария происходит, когда вы находитесь далеко где-нибудь в отпуске или в командировке.»**
 >
-> **He says this at the end of a ten-rule durability framework in which most of the rules are about wear from pets, children and cleaning — and then ranks a plumbing incident above all of them.** That is a budget-priority statement, not just a recommendation: **the leak system is the first durability purchase, ahead of any material upgrade.** Full framework on [[13_Surfaces_and_Finishes/analysis/Material_and_Finish_Technique|Material and Finish Technique]] and [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioner Material Selection Accounts]].
+> **He says this at the end of a ten-rule durability framework in which most of the rules are about wear from pets, children and cleaning — and then ranks a plumbing incident above all of them.** That is a budget-priority statement, not just a recommendation: **the leak system is the first durability purchase, ahead of any material upgrade.** Full framework on [[17_Design_and_Ergonomics/analysis/Material_and_Finish_Technique|Material and Finish Technique]] and [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioner Material Selection Accounts]].
 >
 > It also converges with this page's own master-switch dissent, recorded on [[12_Engineering_and_Systems/analysis/Switches_and_Controls|Switches and Controls]]: asked which master function is worth buying, the same practitioner said **water, not electricity** — «тут хватит и пары часов отсутствия, чтобы произошло что-то очень страшное».
+
+## ⚠️⚠️ The Installation That Produced Those Saves — Itemised, With a Sensor Count
+
+**Round 5 found the source that specifies the system behind the four-save tally above and the fifth save below. This page had principles, false-triggering accounts and a personal count; this is the actual hardware layout.** [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]
+
+In a service cupboard above the WC, alongside the manifold block:
+
+- **⚠️ «Здесь ДВА НЕПТУНА на ХОЛОДНУЮ [и] ГОРЯЧУЮ воду, от которых расходятся ДАТЧИКИ по квартире: ДВА НА КУХНЕ и ОДИН ПОД ВАННОЙ. Как только что-то происходит, они СРАЗУ ПЕРЕКРЫВАЮТ ВОДУ, и протечка тут же заканчивается.»** Plus a controller — **«мозг, который втыкается в розетку»**.
+- **→ Named brand (Neptun), TWO valve units (one per supply, hot and cold, rather than one unit on a common feed), THREE sensors, and one mains-powered controller — so the socket is a rough-stage requirement, which this vault's socket checklists do already carry.**
+- **⚠️ The sensor placement is worth noting against the four incidents this system caught: two of the three sensors are in the KITCHEN, and the one that caught the epoxy-grout leak below is the single sensor UNDER THE BATH. A 3 m² bathroom with a boxed-in bath got one sensor and it was enough — but only because the box it was in was the place the water went.**
+- **⚠️ It also demonstrates the two-unit configuration is what makes the "коэффициент" arguments moot: with a valve on each supply, either line can be isolated independently — relevant to the false-triggering problem above, where a spurious trip on one line need not cut all water.** `single-account`.
+
+### ⚠️ The fifth save — and it is the only one caused by a defect in the specification rather than a component failure
+
+- **The tile-to-bath joint in that bathroom was grouted with EPOXY GROUT instead of sealant. An acrylic bath flexes when filled, the rigid grout tore away, and water began seeping into the under-bath box during showers.** He deferred it. **«В итоге однажды у меня СРАБОТАЛ ДАТЧИК ПРОТЕЧЕК. Я залез под ванну и увидел там ЛУЖУ ВОДЫ, которая перелила через ванну.»**
+- **→ Note what class of failure this is. The other four saves are a component letting go — a strainer under a pressure spike, a hose loosening. This one is a BUILD ERROR that produced a slow, sub-threshold leak into a concealed void, exactly the profile that goes undetected for months. It is the strongest case on this page for a sensor inside every enclosed wet void, and not only at the obvious fixtures.** Full mechanism on [[07_Bathroom/analysis/Bathtub_Materials_and_Installation|Bathtub Materials and Installation]].
+
+### ⚠️ And the passive equivalent of a sensor, for a free-standing bath
+
+**A cheap detail this vault did not hold, from the same practitioner in 2022** (`CN-Ab_g4CAI`): a free-standing bath will usually sit on a podium to shed water, and —
+
+- **⚠️ «СДЕЛАЙТЕ В ЭТОМ ПОДИУМЕ ОБЯЗАТЕЛЬНО ТРАП, на случай если у вас прольётся вода, чтобы она УШЛА В ТРАП и вы ИЗБЕЖАЛИ ЗАТОПЛЕНИЯ. Это может быть очень важно и СПАСЁТ ВАС ОТ СЕРЬЁЗНЫХ ПРОБЛЕМ.»**
+- **→ A floor drain inside the podium is a passive, unpowered, unfailing version of what the sensors above do actively — it cannot false-trigger and it needs no socket. It only helps where water can reach it, so it complements rather than replaces a sensor, but for a plinth-mounted bath it is close to free at rough stage and impossible afterwards.** See [[07_Bathroom/analysis/Shower_Enclosures_and_Drainage|Shower Enclosures and Drainage]]. [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]

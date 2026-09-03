@@ -463,3 +463,99 @@ Both are recorded as disagreements because both readings are defensible and they
 ### Verification
 
 `check_page_sizes.py`: **284 pages scanned, no FRAGMENTED, nothing over the 400 backstop.** **⚠️ Four pages now between 358 and 382 lines, flagged with proposed split seams in Pending Wiki-Page Decisions — and `Lighting_Design.md` is flagged for a MERGE FIRST, because it carries roughly a dozen dated round-labelled headings even though the tool does not flag it.** **⚠️ Also found while routing: `15_Appliances/analysis/Kitchen_Filtration_Systems_Analysis.md` is ZERO BYTES** — recorded in Pending decisions with the decision needed, and this round's filtration content routed to `Pressure_and_Water_Hammer.md` on subject-matter grounds rather than as a workaround.
+
+## ⚠️ ROUND 5 — COMPLETE 2026-09-03. 5/5 processed, 170 facts, yield 34.0
+
+**Five rounds: 26 videos, 815 facts, 28.7 / 29.0 / 29.6 / 36.0 / 34.0.** Round 5 is slightly below Round 4 and well above Rounds 1-3.
+
+**⚠️ I did NOT predict decay this time, having been wrong four times, and the yield came in roughly flat — which is what the corrected format-based model implies. Recording the non-prediction as the outcome, because a model that stops generating wrong predictions is the point of correcting it.**
+
+**Scoped by FORMAT, deliberately avoiding the host-solo trend cluster this channel has been argued against for four rounds.** Two candidates were dropped on genuine saturation and two on preflight findings — see below.
+
+### ⚠️⚠️ THE ROUND'S LARGEST OUTPUT IS A CORRECTION TO MY OWN WORK, IN TWO PLACES
+
+**1. The host's surname was wrong in 61 places across 48 files, and the reasoning that kept it there was mine.**
+
+The name is **Александр СИНЧУКОВ**. He introduces himself in a manual caption track as **«СИНЧУКОВ Александр… СОРУКОВОДИТЕЛЬ студии НЕЧАЕВ СИНЧУКОВ»** — which also explains the channel handle (**NSDSGN = Нечаев Синчуков Design**) and reveals he is a **co-principal, not the sole one**, which this vault had implicitly assumed away.
+
+**⚠️ What makes it worth a full entry rather than a silent fix is what I did in Round 4.** The 2026 source's ASR rendered the name «Синчуков», I noticed it, and I *overrode* it — writing that "the vault's established form from 17 prior instances is retained". **Those 17 instances were 17 copies of one decision of mine, not 17 attestations. I treated the vault's internal consistency as evidence about the world.**
+
+**→ The rule: an "established form" is only evidence if its instances are INDEPENDENT. Count sources, not occurrences.** ⚠️ **Recorded honestly: one transcript (the 2022 auto track) does render «Сенчуков», which is almost certainly where my error came from — so the fix rests on weight of evidence (4 of 5, including the only self-introduction plus the structural corroboration from the studio name), not on unanimity.**
+
+**2. A synthesis I credited to myself was the source's own rule.**
+
+Round 4 recorded the light-group reconciliation — "the tolerable number of groups is set by whether a scene can collapse them" — as something I had constructed from a 2022 cap and a 2024 practice. **He stated both halves himself in January 2022: «если вы хотите БОЛЬШЕ ТРЁХ ГРУПП освещения, то хорошо эти группы ОБЪЕДИНИТЬ [в] УМНЫЙ ДОМ… иначе ПИАНИНО ИЗ ВЫКЛЮЧАТЕЛЕЙ».** Corrected in place with the reasoning visible.
+
+**→ The generalisation, and it is the same one: before crediting a synthesis to the reading, check whether an earlier source in the same channel already made it. A channel's back catalogue can contain the resolution to what looks like its own contradiction.**
+
+### ⚠️ Four datings corrected — and this is a systematic bias, not four accidents
+
+Round 5's earliest source (**2022-01-26**) predates everything else the vault holds from this channel, and it moves four findings backwards:
+
+| Finding | Vault had | Actually |
+| :--- | :--- | :--- |
+| Matte-paint burnishing MECHANISM | 2026-04 | **2022-01** |
+| Light-group cap **and its resolution** | cap 2022-09; resolution credited to me | **2022-01, both halves** |
+| Push-to-open rejected | 2024-07, on dirt | **2022-01, four MECHANICAL reasons** |
+| Never-used exercise equipment | 2022-09 | **2022-01, with a 90% figure** |
+
+**⚠️ THE BIAS THIS REVEALS IS WORTH MORE THAN THE FOUR FIXES: a vault built round by round will systematically mis-date findings toward the round that first noticed them.** Processing order is not chronology, and on a channel processed newest-first-ish the earliest sources arrive last and reset the record. **For any channel where dating matters — trend claims, price claims, "he changed his mind" claims — the oldest titles should be processed EARLY rather than left as the dregs.**
+
+### Two preflight catches, in opposite directions
+
+- **⚠️ A NEAR-MISS ON A NEW VOICE: a first pass on «Михайлов» returned 49 vault hits, which looked like an existing guest. All 49 are «МихайловСКАЯ» — a designer already in the vault, a different person.** Precise search confirmed Игорь Михайлов is new, and no estate agent appears anywhere in the store. **→ The Round 2 identity lesson works in BOTH directions: substring matching on a surname can wrongly flag a new voice as known, not only the reverse.**
+- **⚠️ TWO CANDIDATES DROPPED ON GENUINE SATURATION, and the contrast with Round 4 is the point.** `unfPu3A7MxM` (microcement) and `cl0LIAVZUjI` (decorative plaster) both have **34 vault mentions across 10 files PLUS a dedicated page.** **Round 4's soundproofing dedup test PASSED against 200+ files because that saturation was by FILE COUNT and the gap was an ADJACENT TRADE (sockets). Here the saturation is by SUBJECT DEPTH on a narrow material, and a "what's wrong with it" critique of something the vault already treats sceptically was unlikely to move anything.** The realtor source incidentally confirms the microcement video is promotional-adjacent.
+
+### ⚠️⚠️ THE FOUR-TIMES-DEFERRED BELARUS FLAG IS RESOLVED, AND MY CAUTION WAS HALF RIGHT
+
+`1Dpc8SLJd6M` (Zrobim Architects, Minsk) had been flagged for the user's decision in Rounds 2, 3 and 4 without ever being decided. **Continuing to defer it a fifth time was itself a choice with a cost, so it was processed.**
+
+- **Why it was worth it: it is the ONLY Belarus-jurisdiction source on a 220-video channel, and it yielded the single most project-relevant fact of five rounds — BELARUS HAS A SEPARATE ELECTRICITY TARIFF FOR HEATING, created after the nuclear plant, accessed via a second meter.** Every electric-heating cost figure in this vault is Russian-sourced and is a function of a tariff. **Terms not given, so it is now an open question rather than a datum.** Plus **a build benchmark of from $1,500/m² explicitly covering Belarus, stated in USD by the practitioner for portability** — no conversion, no FX-basis risk.
+- **Why the caution was right: the subject is individual HOUSES, land plots and master-planning. «Согласование» returns ZERO hits — the Belarusian permitting content I might have hoped for is entirely absent — and the practice works «в основном НЕ В БЕЛАРУСИ».**
+- **→ The honest verdict is "process it, route narrowly, and state that the regulatory value did not materialise". Recorded that way rather than as a success.**
+
+### The most consequential genuinely new content
+
+- **⚠️⚠️ EPOXY GROUT ON AN ACRYLIC BATH — a rigid grout at a cyclically flexing junction, which leaked and was caught by a sensor.** It extends rather than repeats the vault's acrylic-tub load-testing rule: **a load test protects against a seal broken ONCE at first fill; this joint fails on EVERY fill.** Generalises: a rigid grout cannot bridge a junction between materials that move relative to each other.
+- **⚠️⚠️ 15 CM INTO THE CORRIDOR BUYS ~1 m² AND ALSO BUYS THE WALL DEPTH FOR CONCEALED VALVES.** Only the floor area shows on a plan.
+- **⚠️⚠️ GENEROUS CEILING HEIGHT WAS A VENTILATION TECHNOLOGY** — with a running-cost argument against volume and the Milan-station explanation. Reframes a preference the vault treated as given.
+- **⚠️⚠️ AN ESTATE AGENT'S COMMISSION-BIAS DISCLOSURE, against interest: «ЧЕМ ХУЖЕ ЗАСТРОЙЩИК, ТЕМ ОН БОЛЬШЕ ПЛАТИТ.»** 3-4% market, 1% on end-of-stock. **Structurally identical to the designer procurement commission, but INVERSELY correlated with quality rather than proportional to spend.**
+- **⚠️ ABANDONMENT AFTER PROCUREMENT — a market failure the commission structure CAUSES, since the money is front-loaded into buying.** Yields a vetting question: how is the post-procurement stage paid for?
+- **⚠️ THE DESIGN FEE IS ROUGHLY SEGMENT-INDEPENDENT WHILE THE BUILD SCALES**, which inverts how a percentage fee reads.
+- **⚠️ RENDERS INSTEAD OF PHOTOGRAPHS as a self-implicating vetting heuristic.**
+- **⚠️ THE CASSETTE OF A SLIDING DOOR gates the rough stage AND is an uncleanable dust reservoir** — the second instance of "any door with a buried component gates the rough stage".
+- **⚠️ FIVE FAILURE MECHANISMS for a hydronic towel rail**, three ending in a leak.
+- **⚠️ GLOSSY vs MATTE STONE-EFFECT PORCELAIN with the slip coefficient as the resolving datum.**
+- **⚠️ GRANITE as the resolution to the marble tension Round 4 recorded as open** — and the sharpening of that principle from "natural materials hide wear" to **PATTERN hides wear**, now recorded across five materials.
+- **⚠️ THE SMART-HOME THREE-FUNCTION PREDICTION, validated on its own author two and a half years later.**
+- **⚠️ УЮТ WITH A MECHANISM: cosiness is accumulated TRACES, so it cannot be specified at handover, only provided for.**
+
+### Perspectives opened rather than closed
+
+- **REFERENCE IMAGES: the designer asks for them; the psychologist identifies borrowed images as the cause of unused rooms. Resolved as "valid evidence of TASTE, invalid evidence of NEED".**
+- **RECOVERED CORRIDOR AREA: the agent quantifies the gain, the designer names where it destroys a room. Together: usable area is not a scalar.**
+- **PUSH-TO-OPEN PLACEMENT: belongs high to avoid accidental brushing, and handles belong high because closing dirties the front. No configuration satisfies both.**
+- **VENEERED FRONTS: against on durability (R4), for in touch zones on dirt-visibility (R5).**
+
+### Housekeeping done rather than deferred
+
+**⚠️ The Round 4 split flag on `Family_Scenario_Driven_Design.md` was ACTIONED, because its own trigger condition arrived.** 358 → 128 + 243 lines; **`split_page.py apply`: 0 content lines missing, 30/30 citation IDs preserved, `RESULT: CLEAN`.** New page: `Brief_Elicitation_Practitioner_Cases.md`.
+
+**⚠️ And a process lesson: the seam I had proposed ON PAPER in Round 4 was not the best one. `split_page.py analyse` showed one section carrying 234 of 359 lines, and the right seam was FRAMEWORK versus CASES. → Run `analyse` before committing to a seam.**
+
+### ⚠️ Where the channel stands — 26 of 220 processed
+
+**I am not going to forecast the next round's yield.** What is factually left:
+
+1. **Four regrets titles** (`34D4bv2dNLw`, `vvf2wcUYaUE`, `-1hfcmvUGjY`, and the block's shorter remainder). **⚠️ The stopping rule has now failed to fire TWICE — they remain left on format reasoning, not on a dedup finding.**
+2. **The technical cluster minus the two saturated ones**: `3tgHGhY0gXA` (stretch vs plasterboard), two flooring reviews, the tile pair, the partition pair. **⚠️ `Tj94jGH6fls` was the last confirmed zero-coverage subject and is now done — nothing else on the channel is uncovered.**
+3. **Two shorter storage videos** (`RtRabYtDxNk`, `hllO93k4O7Q`), with the space-organiser lead Round 4 surfaced.
+4. **His own kitchen (`AEJlxbTmQJU`) and further own-object material** — the own-object format has now returned 29, 35 and 40, and is the best-performing on the channel. ⚠️ Overlap risk with `lhikl-7c43c`'s kitchen segment is real but the Round 5 bathroom precedent suggests a dedicated room deep-dive goes materially deeper.
+5. **`NHqf-OoLPBM`** — the feng-shui specialist interview, now cross-referenced by the compass case. **Low expected yield, but it is the counter-position to a view this vault has only from a sceptic.**
+6. **Still recommend against the host-solo general-design and trend cluster.** Five rounds, finding unchanged.
+
+**⚠️ The four-times-deferred Belarus item is now closed, so there is no longer any pending user decision blocking this channel.** Continuing remains a budget question against the six unpreflighted Group B channels.
+
+### Verification
+
+`check_page_sizes.py`: **285 pages, no FRAGMENTED, nothing over the 400 backstop.** Four pages between 311 and 382 stay flagged with seams in Pending Wiki-Page Decisions — **`Contract_Practice.md` at 382 has now been routed AROUND for two consecutive rounds, which is starting to distort where content lives and should be split next time rather than avoided again.**

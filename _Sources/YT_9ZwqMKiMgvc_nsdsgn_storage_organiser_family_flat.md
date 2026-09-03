@@ -1,6 +1,6 @@
 ---
 video_id: 9ZwqMKiMgvc
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), guest Ксения — professional организатор пространства, filmed in her own flat
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), guest Ксения — professional организатор пространства, filmed in her own flat
 source_type: youtube
 source_title: "Как хранить вещи в МАЛЕНЬКОЙ квартире с БОЛЬШОЙ семьей"
 source_url: https://www.youtube.com/watch?v=9ZwqMKiMgvc

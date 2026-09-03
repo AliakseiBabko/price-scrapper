@@ -71,7 +71,7 @@ format). [source: [[_Sources/YT_8B2xnSNEqqs_petrishin_design_project_qa|YT_8B2xn
 
 [source: [[_Sources/YT_Q0sVq_1SIQM_petrishin_finishing_works|YT_Q0sVq_1SIQM]]]
 
-### ⚠️⚠️ Александр Сенчугов — a Whole Durability Framework, and He Argues Against Himself at the End
+### ⚠️⚠️ Александр Синчуков — a Whole Durability Framework, and He Argues Against Himself at the End
 
 **A 20-year designer's systematic account of why interiors fail early, and it is the most structured material-philosophy source in this vault. Two of its ideas are original enough to lead with, and the second reverses the first.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
 
@@ -114,6 +114,24 @@ He acknowledges having spent the whole framework saying natural materials degrad
 > Earlier in the same source the **прихожая** is named the heaviest-load room and prescribed porcelain, and **marble is said to absorb dirt and be «моментально убито»**. **His own hall floor is natural marble, deliberately allowed to craze.**
 >
 > He resolves it by the noble-ageing argument without acknowledging the contradiction. **Both positions are defensible, and the reconciliation is that "killed" and "acquires patina" are the SAME PHYSICAL PROCESS under two different aesthetic contracts.** The decision is therefore not a material-performance question at all — it is whether the owner has signed the second contract. **A client who will be upset by the first crack should not be sold the marble, however much they like it in the showroom.**
+
+> [!IMPORTANT]
+> **⚠️⚠️ UPDATE, 2026-09-03 — THE TENSION ABOVE HAS A THIRD OPTION, AND HE HAD PUBLISHED IT TWO YEARS EARLIER.**
+>
+> The tension was recorded as a binary: porcelain for durability, or marble with the patina contract signed. **An earlier source from the same channel (`CN-Ab_g4CAI`, 2022-01) names a natural stone that needs neither compromise:**
+>
+> **«МРАМОР очень ГИГРОСКОПИЧНЫЙ материал, он МОМЕНТАЛЬНО ВПИТЫВАЕТ любые жидкости, загрязняющие его и портящие внешний вид. Этого можно избежать, если использовать СПЕЦИАЛЬНЫЕ ПОКРЫТИЯ, которые защитят мрамор, но в любом случае пользоваться им надо будет ОЧЕНЬ АККУРАТНО И БЕРЕЖНО. ⚠️ ЕСЛИ У ВАС НЕТ ВРЕМЕНИ УХАЖИВАТЬ ЗА КАМНЕМ ИЛИ ПОСТОЯННО БОЯТЬСЯ ЕГО ИСПОРТИТЬ, ТО ИСПОЛЬЗУЙТЕ ДРУГИЕ ВИДЫ НАТУРАЛЬНОГО КАМНЯ — НАПРИМЕР ГРАНИТ, С НИМ ПРАКТИЧЕСКИ НИЧЕГО НЕ ПРОИЗОЙДЁТ.»**
+>
+> **→ Granite keeps the "natural material" goal, keeps the natural non-uniformity that the noble-ageing principle turns out to actually depend on, and drops the maintenance tax. So the choice is not two-way but three-way, and the marble decision narrows to: do you specifically want MARBLE, or do you want natural stone?** Sealing is available for marble but does not remove the care requirement — it only slows the absorption. [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+> [!NOTE]
+> **⚠️ AND THE UNDERLYING PRINCIPLE IS SHARPER THAN "NATURAL MATERIALS HIDE WEAR" — the operative property is PATTERN, not naturalness.**
+>
+> Round 5 found him applying the same reasoning to an **ARTIFICIAL** material, and to **water spots rather than wear.** Specifying the terrazzo-like acrylic worktop in his own bathroom over plain white acrylic (`_nDCLhRUojE`, 2024-03): **«во-первых, на нём ГРЯЗЬ НЕ ТАК СИЛЬНО ВИДНА… одно дело, когда у вас постоянно перед лицом какие-то КАПЛИ, а другое дело, когда вы убираете планомерно РАЗ В НЕДЕЛЮ. Если у вас будут постоянно видны капли, они будут вас РАЗДРАЖАТЬ.»**
+>
+> And to tile, in 2022: **«если плитка ПРИРОДНОГО ЦВЕТА, то она гораздо МЕНЬШЕ подвержена загрязнению, на ней ХУЖЕ ВИДНА ПЫЛЬ.»**
+>
+> **→ This vault now records the same principle in FIVE materials: marble, old parquet, terrazzo-effect acrylic, natural-coloured tile, and hand-blown glass brick (`Tj94jGH6fls`, where every brick differs by design). Because the property is PATTERN, it can be bought in ANY price bracket and any material family — which makes it far more useful than the natural-versus-artificial framing it was first recorded under. The selection test is one question: how legible is a scratch, a chip or a water spot against this surface's own figure?**
 
 **Closing: «чем больше у вас натуральных материалов, тем ДОРОЖЕ это всё выйдет и в закупке, и в ЭКСПЛУАТАЦИИ — но тем интереснее он будет СТАРЕТЬ и тем больше ЦЕННОСТИ будет у этого интерьера.»**
 

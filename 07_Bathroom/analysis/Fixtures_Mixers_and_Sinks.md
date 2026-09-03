@@ -61,7 +61,7 @@ Konstantin Kruglov / Ontario says: **mixer shape (round vs. flat) affects visibl
 
 **A specific 2024-2025 trending kitchen-mixer type, praised as inspiration-worthy**: a pull-out mixer with a silicone (not metal-braid) hose that shows no water-mark residue at all and functions as a hand-held sprayer when pulled from its docking bracket, paired with a separate dedicated small tap for filtered drinking water fed from an under-sink filtration system. [source: [[_Sources/YT_55zALDsXP2E_kruglov_pinterest_plumbing_review|55zALDsXP2E_kruglov_pinterest_plumbing_review]]]
 
-### ⚠️ Specify a FLAT Siphon to Preserve Vanity Drawer Volume (Александр Сенчугов / NSDSGN, 2026-02-03)
+### ⚠️ Specify a FLAT Siphon to Preserve Vanity Drawer Volume (Александр Синчуков / NSDSGN, 2026-02-03)
 
 **A small specification item with a disproportionate storage consequence, and it belongs beside this page's stub-out coordination rule below.** [source: [[_Sources/YT_cudO-SSdrn0_nsdsgn_storage_organiser_audits_designer|YT_cudO-SSdrn0]]]
 
@@ -70,7 +70,7 @@ Konstantin Kruglov / Ontario says: **mixer shape (round vs. flat) affects visibl
 - **Related, from the space organiser auditing the same bathroom: the vanity drawers themselves should not be wide AND deep.** «Для ванной такие делать не надо» — **what is stored there is small categories, and the depth is wasted.** She had already ordered a replacement for her own on that ground. **The remedy inside an existing drawer is modular trays sized to the categories** — see [[14_Furniture/analysis/Household_Storage_and_Decluttering_Method|Household Storage and Decluttering Method]].
 - **And her addition to the basin area, which removes the clutter fixture choices often get blamed for: a shallow door-fronted cabinet beside the basin.** The ground is behavioural — brushes and products needed immediately to hand are awkward to fetch from a drawer **«потому что ты стоишь тут мокрый»** — and it clears **«весь визуальный шум, который хранится на раковине»**.
 
-### ⚠️⚠️ A Pull-Out Shower in the Bath Rim — a Hidden Leak That Ended in Demolition (Александр Сенчугов / NSDSGN, 2022-09-20)
+### ⚠️⚠️ A Pull-Out Shower in the Bath Rim — a Hidden Leak That Ended in Demolition (Александр Синчуков / NSDSGN, 2022-09-20)
 
 **A named product type this practitioner now refuses outright, on the strength of one client outcome — and the reason is worth recording in full because both compounding factors generalise.** [source: [[_Sources/YT_CSpXvPWpsgQ_nsdsgn_fifteen_post_occupancy_regrets|YT_CSpXvPWpsgQ]]]
 

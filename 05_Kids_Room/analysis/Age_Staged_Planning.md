@@ -202,7 +202,7 @@ Moscow designer, uploaded 2026-08-08, described as an authored methodology devel
 ## ⚠️⚠️ Desk Dimensions and Two-Child Desk Layout — a Clinical Psychologist Fills the Dimension Gap Flagged Above
 
 Наталья Степанова, clinical psychologist (20 years, child and adult
-psychotherapy), interviewed by Александр Сенчугов. **This closes the
+psychotherapy), interviewed by Александр Синчуков. **This closes the
 "no desk depth anywhere" gap stated at the end of the section above, and
 it does so with a failure case rather than a recommended figure —
 which is more useful, because it comes with the test.**

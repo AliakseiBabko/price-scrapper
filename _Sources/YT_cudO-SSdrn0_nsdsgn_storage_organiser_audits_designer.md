@@ -1,6 +1,6 @@
 ---
 video_id: cudO-SSdrn0
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов), guest Ксения — организатор пространства, 6+ years
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков), guest Ксения — организатор пространства, 6+ years
 source_type: youtube
 source_title: "Вы неправильно храните вещи! Полезные приемы от дизайнера"
 source_url: https://www.youtube.com/watch?v=cudO-SSdrn0

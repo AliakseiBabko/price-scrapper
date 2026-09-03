@@ -105,7 +105,7 @@ Moscow-practice designer, 2024, bathroom guide (`promotional_ratio: medium`, spo
 > [!IMPORTANT]
 > **This is a direct dissent from the "always required" position above, from a designer reporting on his own two flats rather than on client work — and he declines to settle it, which is why it is recorded as a Perspectives split.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
 
-**Александр Сенчугов, a year into his own Petersburg flat: «в ванной есть СПОРНЫЙ момент, который я ДО СИХ ПОР НЕ РЕШИЛ, правильно я сделал или неправильно: я в ванной НЕ СДЕЛАЛ ТЁПЛЫЙ ПОЛ.»**
+**Александр Синчуков, a year into his own Petersburg flat: «в ванной есть СПОРНЫЙ момент, который я ДО СИХ ПОР НЕ РЕШИЛ, правильно я сделал или неправильно: я в ванной НЕ СДЕЛАЛ ТЁПЛЫЙ ПОЛ.»**
 
 - **His evidence for the omission: «я жил в предыдущей квартире 5 ЛЕТ без тёплого пола и НИ РАЗУ об этом не жалел.»** So two flats, one of them for five years.
 - **His evidence against: «пару раз было, когда у меня было очень мокро на полу, и я думал — если бы я сделал, было бы прикольно, было бы теплее.»** Note the complaint is a **wet** floor, not a cold one.
@@ -120,3 +120,45 @@ Moscow-practice designer, 2024, bathroom guide (`promotional_ratio: medium`, spo
 > **⚠️ These two positions may be closer than they read, because Безверхая's own recessed-towel-warmer recommendation immediately above IS a heated wall** — «электрический полотенцесушитель можно ЗАМУРОВАТЬ В СТЕНУ под плитку, или под покраску, с крючками выше мата». **She offers it as the answer for a bathroom with no room for a conventional rail; he is using the same device as a substitute for the floor.**
 >
 > **→ Your priority: if the complaint you are designing against is a WET floor, a heated wall is evidenced to solve it and is the cheaper item. If the complaint is a COLD floor underfoot — a tiled floor over an unheated slab, or an insulated balcony where «плита примерзает с торца» — nothing on the wall reaches it, and this vault's other sources are unanimous.** The two duties are separable, and only the first has a wall-mounted answer. Cost and scheduling for both are in the sections above.
+
+### ⚠️⚠️ The Heated Wall As Actually Built — and it replaces the towel rail, not just the floor
+
+**Round 5 found the source that specifies it, four months before the one-year retrospective above. The dissent is stronger than "he skipped the underfloor heating": he eliminated the towel rail as well.** [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]
+
+- **«ВМЕСТО КЛАССИЧЕСКОГО ПОЛОТЕНЦЕСУШИТЕЛЯ сделана ТЁПЛАЯ СТЕНА. Многие СПОРЯТ, что это плохо или хорошо. Я считаю, что это ИДЕАЛЬНЫЙ ВАРИАНТ ДЛЯ МИНИМАЛИСТИЧНОЙ ВАННОЙ.»**
+- **Implementation is minimal: «сверху ЗАКРУЧЕНЫ ПРОСТО ЧЕТЫРЕ ВЕШАЛКИ»**, hotter lower down. He turned it up to dry the glass screen — «здесь прямо ГОРЯЧО».
+- **⚠️ Performance on BOTH duties, which is why the floor is not missed: «если надо, полотенце МОМЕНТАЛЬНО ВЫСЫХАЕТ. ВОЗДУХ в ванной ТОЖЕ очень сильно ВЫСЫХАЕТ.»**
+- **→ So the comparison is not "heated wall versus heated floor" but "heated wall versus heated floor PLUS a towel rail". Against that, four hooks on a warm wall is a genuinely economical answer for a small minimalist bathroom, and it also removes the rail's footprint from a 3-4 m² room.**
+- **⚠️ AND IT SHARPENS THE PERSPECTIVES SPLIT ABOVE IN HIS FAVOUR ON ONE POINT: Безверхая's own recommendation for a small bathroom is a RECESSED electric rail under tile or paint with hooks above it — which is a heated wall. The disagreement is therefore narrower than it looked: both prescribe a heated wall surface for small rooms, and differ only on whether the FLOOR is additionally mandatory.**
+
+> [!WARNING]
+> **⚠️⚠️ AND THE CONSTRAINT THAT LIMITS THE WHOLE APPROACH — recorded because it explains an unsolved problem elsewhere in this vault.**
+>
+> The one thing he could not fix in that bathroom is a **towel reachable from inside the bath** (recorded on [[07_Bathroom/analysis/Shelving_and_Furniture|Shelving and Furniture]]). The obvious remedy is to extend the heated wall to within arm's reach — **and he rules it out on safety grounds: «я НЕ ХОТЕЛ БЫ здесь делать тёплую стену, ЗАВОДИТЬ СЮДА ЭЛЕКТРИЧЕСТВО ПРЯМО РЯДОМ С ВОДОЙ — мне кажется, это СТРАШНО звучит.»**
+>
+> **→ A heated wall is a heated ELECTRICAL wall, so its placement is bounded by proximity to the bath and shower — which is precisely the zone where a warm towel is most wanted. That is a real limit on the strategy and it is why a designer with his own budget and his own flat had not solved it four months later.** Zone requirements for electrical work in wet rooms therefore constrain this option in a way they do not constrain a hydronic rail — a point neither side of the Perspectives split above raises.
+
+## ⚠️⚠️ Electric versus Hydronic Towel Rail — He Refuses to Debate It, and Gives Five Failure Mechanisms
+
+**This page and the Perspectives split above already record a preference for electric, on the ground that a hydronic rail only works while the building's system runs. This adds the reasons — and it explains how he ended up eliminating the rail entirely.** Александр Синчуков, 2022-01. [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+**«Последнее время я просто ПЕРЕСТАЛ ДИСКУТИРОВАТЬ с заказчиками на тему электрического [или] водяного полотенцесушителя. Я ВСЕМ ГОВОРЮ: ТОЛЬКО ЭЛЕКТРИЧЕСКОЕ. Ну или потом не надо мне задавать никаких вопросов.»**
+
+| # | Failure mechanism of a hydronic (water) rail |
+| :--- | :--- |
+| 1 | **⚠️ NO TEMPERATURE CONTROL IS PERMISSIBLE: «сантехники КАТЕГОРИЧЕСКИ не рекомендуют использовать на нём ЭЛЕМЕНТЫ УПРАВЛЕНИЯ ТЕМПЕРАТУРОЙ — контур должен быть СКВОЗНОЙ, НИЧТО не должно ЗАПИРАТЬ ВОДУ, потому что рано или поздно это закончится ПРОТЕЧКОЙ.»** |
+| 2 | **Therefore it runs flat out: «обычно сушитель ШПАРИТ так, что ванная превращается просто в САУНУ.»** A direct consequence of (1), not a separate defect |
+| 3 | **Seasonal outage: «ежегодное ОТКЛЮЧЕНИЕ ВОДЫ ЛЕТОМ может оставить вас на долгое время БЕЗ полотенцесушителя.»** |
+| 4 | **Air ingress: «в контур может попасть ВОЗДУХ, а это НЕИЗБЕЖНО приведёт к КОРРОЗИИ и дальнейшей ПРОТЕЧКЕ.»** |
+| 5 | **Thermal cycling: «изменение температуры в отопительном контуре приводит к РАСШИРЕНИЮ и СУЖЕНИЮ металла, и это ТАКЖЕ может привести к ПРОТЕЧКЕ.»** |
+
+- **The only argument the other way, and he dismisses it: electricity costs money — «но сейчас такие МАЛОМОЩНЫЕ, что этим можно ПРЕНЕБРЕЧЬ; зато она будет ВСЕГДА НАДЁЖНО и В НУЖНОЕ ВРЕМЯ работать».**
+- **⚠️ Note that THREE of the five mechanisms end in a leak, and (1) is the reason the vault's leak-protection content matters here at all: a hydronic rail is a permanently pressurised circuit you are forbidden to valve.** See [[12_Engineering_and_Systems/analysis/Leak_Protection_Systems|Leak Protection Systems]].
+- **→ AND THE TRAJECTORY IS THE INTERESTING PART: in 2022 he argues electric over hydronic; by 2024, in his own flat, he has removed the rail as an object and put the heat in the wall. The vault now has the argument and its endpoint.**
+
+> [!NOTE]
+> **⚠️ AND A JURISDICTION-SPECIFIC FACT THAT CHANGES THE RUNNING-COST HALF OF THIS ENTIRE PAGE FOR THIS PROJECT.**
+>
+> Every electric-heating argument on this page — the operating-cost formula, the area cap, and the "it's low-power, ignore the consumption" dismissal above — depends on the electricity tariff. **A Belarusian architecture practice reports that Belarus has a SEPARATE TARIFF for electric heating, created after the nuclear plant came online, accessed via a SECOND METER: «как в Беларуси сейчас, из-за того что построили АТОМНУЮ СТАНЦИЮ, у нас есть ОТДЕЛЬНАЯ ТАРИФИКАЦИЯ на ОТОПЛЕНИЕ ЭЛЕКТРИЧЕСТВОМ — то есть буквально ты можешь ставить ВТОРОЙ СЧЁТЧИК дома.»**
+>
+> **⚠️ The tariff terms themselves are NOT given, so this is a pointer to verify with the supplier, not a figure to compute with. `single-account`.** But it is the only Belarus-specific energy fact in this vault, and it bears directly on whether electric underfloor heating, an electric rail or a heated wall are cheap or expensive to run **in this project's jurisdiction** — where the Russian-sourced cost figures on this page do not apply. [source: [[_Sources/YT_1Dpc8SLJd6M_nsdsgn_zrobim_architects_house_building|YT_1Dpc8SLJd6M]]]

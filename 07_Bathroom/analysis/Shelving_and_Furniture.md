@@ -109,6 +109,24 @@ Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part 
 
 `single-account`, `unverified`.
 
+### ⚠️⚠️ Quartz Shelves on Rails, With a Drainage Gap — the Standing-Water Rule As an Executed Detail
+
+**This vault holds the rule in the abstract on [[07_Bathroom/analysis/Bathroom_Design_and_Palette|Bathroom Design and Palette]] — "don't take a shelf to the wall, leave a thin slot so water drains". Here is the same practitioner having BUILT it two years earlier, with the fixing method that makes a heavy stone shelf work without a wall-to-wall bearing.** [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]
+
+- **⚠️ THE FIXING: «полочки сделаны из КВАРЦЕВОГО АГЛОМЕРАТА, и он НЕ ПРОСТО ПРИКЛЕЕН к стенам — вдоль стены есть ДВЕ МЕТАЛЛИЧЕСКИЕ НАПРАВЛЯЮЩИЕ, в кварцевом агломерате есть ПРОПИЛЫ, и он как бы НАДЕВАЕТСЯ НА ЭТИ РЕЛЬСЫ и приклеивается уже НА НИХ.»**
+  **→ Kerfed stone dropped onto twin rails, bonded to the rails rather than to the wall. That is what allows the shelf to stop short of the far wall — a glued-to-wall shelf needs its full perimeter for adhesion, a railed one does not. The concealed-fixing content already on this page covers appearance; this covers how to carry the load while leaving a deliberate gap.**
+- **⚠️ AND THE GAP, WITH ITS PURPOSE: «НЕ ДОХОДЯ ДО ДАЛЬНЕЙ СТЕНКИ там есть НЕСКОЛЬКО МИЛЛИМЕТРОВ ЗАЗОРА. И если мы будем МЫТЬ эти полки, то вода будет СТЕКАТЬ ПО СТЕНЕ и УХОДИТЬ В ВАННУ — то есть там НЕ БУДЕТ СКАПЛИВАТЬСЯ ВЛАГА и НЕ БУДЕТ НИКАКОЙ ЧЁРНОЙ ПЛЕСЕНИ.»**
+  **→ ⚠️ Note the gap is sized for CLEANING water, not for splash: the case he designs against is washing the shelf itself, which is when a closed-off shelf traps standing water behind whatever is on it. That is why a few millimetres is enough, and it is why the shelf must discharge INTO the bath rather than onto the floor.**
+- **⚠️ This cuts against the flush-junction instinct that the shelf-proportion and concealed-fixing material above is driven by: a shelf detailed tight to the wall at both ends is a water trap, and the detail that reads best is the one that fails.** The reconciliation is that the visible ends can be tight and the CONCEALED end — against the far wall, behind the fittings — is the one to hold off.
+
+### ⚠️ Shaving in the Shower — a Cheap Specification Item This Vault Has Nothing On
+
+**Same source, and it is the kind of thing that costs nothing at design stage and cannot be added later without a chase.**
+
+- **A STAINLESS-STEEL mirror sits on the third shelf: «я купил вот такое ЗЕРКАЛО ИЗ НЕРЖАВЕЙКИ — то есть с ним НИЧЕГО НЕ БУДЕТ, оно НЕ БУДЕТ РЖАВЕТЬ.»**
+- **⚠️ «Самое удобное место для БРИТЬЯ, для ТРИММЕРА, для любой бритвы — это конечно же ДУШ. Здесь все ВОЛОСЫ можно легко СМЫТЬ, быстро промыть РУЧНЫМ ДУШЕМ, всё уйдёт, и у вас НЕ БУДЕТ НИЧЕГО СКАПЛИВАТЬСЯ. Потому что БРИТЬСЯ НА РАКОВИНЕ — это просто ОТВРАТИТЕЛЬНО: у вас постоянно где-то ВАЛЯЮТСЯ ЭТИ ВОЛОСКИ от бороды.»**
+- **→ Three cheap requirements that must coincide: a shelf or niche at standing eye height inside the wet zone, a CORROSION-PROOF mirror on it, and a hand shower. Only the third is normally specified.** It also relocates a recurring cleaning nuisance from the basin — which on this channel is a durability argument as much as a tidiness one.
+
 ### ⚠️⚠️ A Towel Point Reachable FROM INSIDE the Bath — Still Unsolved After a Year (NSDSGN, 2024-07-04)
 
 **Recorded because it is a requirement distinct from the towel-warmer position, because it is commonly missed, and because a designer living in his own flat had not managed to fix it a year in — which is itself evidence of how hard it is to retrofit.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]
@@ -116,6 +134,17 @@ Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part 
 - **«Когда я моюсь в ванной, принимаю душ, мне нужно ПОЛОТЕНЦЕ — и мне приходится ВЫСОВЫВАТЬСЯ ИЗ ВАННЫ и тянуться до крючков на ТЁПЛОЙ СТЕНЕ. Здесь нужна какая-то полочка, какие-то крючки, чтобы полотенце висело ИМЕННО ЗДЕСЬ — это было бы гораздо удобнее. Я ещё пока не решил, как именно это сделаю, но это ОБЯЗАТЕЛЬНО НУЖНО СДЕЛАТЬ.»**
 - **→ The towel rail satisfies DRYING; this satisfies REACH while wet, and the two want different positions.** A heated rail is sited where it warms the room and dries a towel through the day; a grab point has to be within arm's length of someone standing in the bath, which usually means the wall the bath abuts rather than the one opposite.
 - **⚠️ It also explains a failure this page's sightline-based shelf placement rule would not catch: the hooks were correctly placed for the room and wrongly placed for the activity.** Add "reachable from inside the enclosure" as an explicit check alongside the reachable-gap rule already recorded above.
+
+> [!IMPORTANT]
+> **⚠️⚠️ ROUND 5 FOUND WHY THIS IS UNSOLVED, AND IT IS A HARD CONSTRAINT RATHER THAN AN OVERSIGHT.**
+>
+> The earlier source specifying that bathroom (`_nDCLhRUojE`, **2024-03**, four months before the retrospective above) names the same problem as the room's one unresolved item — **and rules out the obvious remedy on safety grounds.** The towels hang on a HEATED WALL, so extending the warm surface to within reach of the bath is the natural fix:
+>
+> **«Я НЕ ХОТЕЛ БЫ здесь делать тёплую стену, ЗАВОДИТЬ СЮДА ЭЛЕКТРИЧЕСТВО ПРЯМО РЯДОМ С ВОДОЙ — мне кажется, это СТРАШНО звучит.»**
+>
+> **His interim workaround: «я просто ЗАРАНЕЕ кладу полотенце на УМЫВАЛЬНИК» — with the honest failure mode attached: «если ты ЗАБЫЛ про это, это прямо ОПАСНО выглядит, очень жёстко».** The options he floats instead are a high shelf or plain hooks; he asks viewers for suggestions.
+>
+> **→ So the requirement and its blocker are both known: a heated towel surface wants to be near the bath, and electrical work wants to be away from it. Anything within reach of the enclosure has to be an UNHEATED shelf or hook, which solves reach and not warmth.** That is why the vault should record this as a genuine unsolved conflict rather than as something a careful designer would simply have got right — **a designer with his own budget, his own flat and four months did not.** See [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Heated Floor and Thermostat]] for the heated wall itself and the same constraint stated there. [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]
 
 ### ⚠️ Concealing a Cat Tray Under the Vanity — a Height Decision, Made Too Late
 

@@ -107,7 +107,7 @@ Full treatment, with the furniture-specific consequences, on [[14_Furniture/anal
 
 ---
 
-### ⚠️⚠️ Fabric Abrasion Rating — and Curtain Fabric Has None (Александр Сенчугов, 2026-04-14)
+### ⚠️⚠️ Fabric Abrasion Rating — and Curtain Fabric Has None (Александр Синчуков, 2026-04-14)
 
 **The quantitative layer this section was missing, plus one rule that forbids a substitution a designer would plausibly make for the sake of a matching scheme.** [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
 

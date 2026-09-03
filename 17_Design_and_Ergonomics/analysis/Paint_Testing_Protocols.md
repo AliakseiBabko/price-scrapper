@@ -26,7 +26,7 @@ The most strongly corroborated procedural content in the batch — **four indepe
 
 ---
 
-## ⚠️ A Second Complete Method, and a Flat Refusal to Name Colours by Code (Александр Сенчугов / NSDSGN, 2025-01-31)
+## ⚠️ A Second Complete Method, and a Flat Refusal to Name Colours by Code (Александр Синчуков / NSDSGN, 2025-01-31)
 
 **A worked sequence from a live object, and it independently reaches the same conclusions as the method below.** [source: [[_Sources/YT_2B67955_Z5I_nsdsgn_site_review_finish_details|YT_2B67955_Z5I]]]
 

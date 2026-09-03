@@ -1,6 +1,6 @@
 ---
 video_id: 7zpsZtcTkCM
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов) — his own 55 m² flat
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков) — his own 55 m² flat
 source_type: youtube
 source_title: "Все фишки, тонкости и трудности ремонта, о которых вы не знали | Ремонт квартиры дизайнера 55 м2"
 source_url: https://www.youtube.com/watch?v=7zpsZtcTkCM

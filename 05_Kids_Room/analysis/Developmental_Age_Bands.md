@@ -105,7 +105,7 @@ page to avoid duplicating content across both pages. Full detail in the
 **The first source on this page from a clinician rather than a designer
 or architect** — Наталья Степанова, clinical psychologist, 20 years in
 child and adult psychotherapy, director of a psychological centre,
-interviewed at length by designer Александр Сенчугов. Her framework is
+interviewed at length by designer Александр Синчуков. Her framework is
 not organised around what a child can reach but around **what changes in
 the child's mode of activity**, and it is the only one here that names an
 interval as *mandatory* to change:

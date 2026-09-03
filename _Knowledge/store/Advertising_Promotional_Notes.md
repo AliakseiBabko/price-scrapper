@@ -509,3 +509,41 @@ Four of the five sources are `promotional_ratio: low`. **The one that is not is 
 ### ⚠️ A named-product note that is not promotional but should be traceable
 
 **`lhikl-7c43c` names retail products he bought and lives with** — Xiaomi night-light units (chosen for reaching 1% brightness), a Samsung Frame television, a Moustache bench described as the original rather than a replica, an IKEA kitchen mixer replaced by another from the same brand, and «тепло концепт» bedside furniture. **None is presented as a recommendation with a link or code, and two are named specifically to explain a FAULT (the bench) or a REPLACEMENT (the mixer).** Recorded so the brand mentions are visible on audit rather than mistaken later for placement.
+
+## 2026-09-03 — Round 5, NSDSGN: a SECOND commission structure disclosed, and it is the same shape as the first
+
+### ⚠️⚠️ Estate agents' commission — 3-4% from developers, and worse developers pay MORE
+
+**This store already carries the 2-15% designer procurement-commission range, disclosed by a three-designer roundtable on this same channel. Round 5 adds the equivalent structure on the ESTATE-AGENCY side, disclosed by a practising agency head against his own interest, and it is worth recording because the two are structurally identical.**
+
+**The host asks the hostile question directly — «вы вообще ничего не делаете по сути, просто берёте проценты, причём огромные» — and the answer includes, unprompted:**
+
+- **⚠️⚠️ «ЧЕМ ХУЖЕ ЗАСТРОЙЩИК, ТЕМ ОН БОЛЬШЕ ПЛАТИТ — ТАК УСТРОЕН РЫНОК.»**
+- **⚠️ The mechanism, with figures: «есть застройщики, которые весь объём продали, остался один дом, небольшие остатки — они говорят: ребята, если ПО РЫНКУ мы получаем 3-4%, [то здесь] 1% мы вам платим. И что можно делать в такой ситуации? Можно НАТЯГИВАТЬ СОВУ НА ГЛОБУС — создавать истории, в которых человек ХОЧЕТ этот дом, он ему МАКСИМАЛЬНО ПОДХОДИТ, идеально. А порой риэлторы позволяют себе ГАДОСТИ ГОВОРИТЬ в адрес застройщика [и] в адрес домов, и УВОДИТЬ НА ТЕ ОБЪЕКТЫ, КТО ПЛАТИТ БОЛЬШЕ.»**
+- **His counter-position, which is a reputational argument rather than an ethical one: «мы можем ОДИН РАЗ сыграть за какую-то бешеную комиссию, и всё — к нам больше НИКОГДА не обратятся. Клиент должен быть СЧАСТЛИВ, должен нас РЕКОМЕНДОВАТЬ, и должен САМ ПОКУПАТЬ.»** Scale for weighting: **~1,200 agencies in St Petersburg, his around 6th-7th by volume, ~400 flats and ~4bn ₽ last year.**
+
+> [!IMPORTANT]
+> **⚠️ THE READING RULE, and it is the same one this store already applies to designer procurement.**
+>
+> **The adviser is paid by the party whose product is being recommended, and here the payment is INVERSELY CORRELATED WITH THE PRODUCT'S QUALITY.** That is a sharper distortion than the designer case, where the commission is roughly proportional to spend rather than inverse to quality.
+>
+> **The actionable form is a question, not a suspicion: ask what the agency is paid on THIS SPECIFIC building, and treat enthusiasm for end-of-stock inventory as a prompt to verify independently.** Recorded on [[17_Design_and_Ergonomics/analysis/Replanning_Cases_and_Layout_Selection|Replanning Cases and Layout Selection]] alongside his usable-area claim, because that claim comes from the same mouth and should be read with this attached.
+
+### ⚠️ Why the usable-area claim survives the discount anyway
+
+**His most quantified claim — that a designer lifts usable area on a 100 m² flat from ~50-60% to «70, 72 в идеале» — is made by a COMMERCIALLY ADVERSE witness.** An estate agent has no stake in a buyer spending money on a designer, and if anything benefits from flats being seen as adequate as built. **That is what makes the figure worth recording despite being round; it is the opposite of a self-serving claim.** ⚠️ It remains `single-account` and `unverified`, and the corridor-absorption counterweight from the same round shows the gain is not free.
+
+### The other four Round 5 sources
+
+- **`_nDCLhRUojE` — `low`.** Named products appear because he bought and lives with them, and **two are named to explain a FAULT (a Duravit waste valve whose coating peeled) or a REPLACEMENT.** No funnel. **⚠️ BUT ONE DISCLOSURE MATTERS FOR EVERY PRICE ON THIS CHANNEL: he bought premium Italian mixers «на очень большую СКИДКУ» in 2022. His own purchase prices are trade-discounted and are NOT market prices — a caveat that applies to every product in every "designer's own flat" source here, of which this vault now holds three.**
+- **`CN-Ab_g4CAI` — `low-medium`.** An Instagram plug at the close and several "we have a separate video on this" cross-references. **⚠️ Against that, it is the most anti-upsell source on this channel: it refuses push-to-open, corner sinks, macerators, hydronic towel rails, blocked-up windows and over-decoration, and it names the retailer's corner-element upsell and the "designer justifying his fee" tell explicitly. A source that talks a client out of that many paid extras earns a low rating even with a plug attached.**
+- **`1Dpc8SLJd6M` — `medium`.** A mutual-endorsement podcast between two practices; the guest bureau is presented at length. **No product funnel, and several positions cut against selling more work — «дом НЕ ДОЛЖЕН БЫТЬ БОЛЬШИМ», «УКРАШАТЕЛЬСТВА — ЭТО ЗЛО», and «можно сделать классный интерьер с БОЛЕЕ ПРОСТЫМИ СРЕДСТВАМИ… мебель из ИКЕИ».** ⚠️ **Read the «$1,500/m² and up» benchmark with the medium rating attached: it is a premium practice quoting its own floor.**
+- **`Tj94jGH6fls` — `medium`.** A single-supplier production visit with the brand named throughout; the host discloses he sought them out after seeing their work at an exhibition. **No discount code, and the participants describe declining conventional commissions («мы НЕ ВЫПОЛНЯЛИ ЗАКАЗ… это НЕ ПРО КЛАССИЧЕСКИЙ ЗАКАЗ»).** **⚠️ NO PRICE ANYWHERE IN 28 MINUTES — recorded as a GAP rather than a failure since the title promises none, but noting the pattern: Round 1's `pR1t7zlT2Qk` was a partition episode that PROMISED a price and gave none, and this is a specialist-material episode that gives none either. Partition and specialist-material episodes on this channel do not produce prices, and that is now a two-instance pattern worth expecting.**
+
+### ⚠️ And one thing this round adds to the standing caveat about this channel
+
+**This store already flags that the channel's recurring pro-designer conclusions are not disinterested, because the studio sells design services. Round 4 supplied the one piece of evidence that partly escapes it (builders paying for a design project themselves). Round 5 supplies a second and stronger one:**
+
+**the design-project argument is made at length by the ESTATE AGENT — who sells no design services, concedes the client's taste rather than flattering the designer's («не быть ДАЛЬТОНИКОМ — это не что-то выдающееся; ДВА ЦВЕТА СОПОСТАВИТЬ НЕ СЛОЖНО»), and locates the value in CONCEPT and SCOPE DOCUMENTATION rather than in taste.**
+
+**⚠️ Note the offsetting bias, though: the two are on each other's podcast and each endorses the other's profession. The agent's praise of designers is not independent of the mutual endorsement, even if it is independent of design fees.** Recorded on [[11_Budget_and_Planning/analysis/Design_Services_and_Fees|Design Services and Fees]].

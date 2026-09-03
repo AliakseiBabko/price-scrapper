@@ -1,6 +1,6 @@
 ---
 video_id: RxU4L7ce86E
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков)
 source_type: youtube
 source_title: "Детская комната глазами психолога"
 source_url: https://www.youtube.com/watch?v=RxU4L7ce86E

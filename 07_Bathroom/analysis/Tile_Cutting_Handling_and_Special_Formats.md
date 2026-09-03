@@ -78,6 +78,36 @@ but with a few genuinely reusable buying/design heuristics:
 
 **⚠️ Concrete per-unit cost for the elevator-access caution above (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 2, 2021 St. Petersburg prices)**: when a large-format slab (1.2×2.4m or 1.2×3m) doesn't fit the building's passenger elevator, specially trained movers must hand-carry it up the stairwell floor by floor — **≈10,000 RUB (≈$130) per slab, per floor**, the first concrete price recorded for a risk previously only flagged qualitatively. Real worked example: a standard bathroom (1.7×1.5m) + toilet (0.9×1.5m) needs 14 sheets — at 2021 St. Petersburg prices (tile from ≈30,000 RUB/sheet ≈$400, installation labor from ≈5,000 RUB/m² ≈$70/m²), the tile alone plus lift cost can consume most of a modest whole-apartment renovation budget, a real case the source cites of a 100 m² full-gut renovation quoted at ≈850,000 RUB (≈$11,300) total. [source: [[_Sources/YT_XuTH1e-Fc0_sbk_large_format_tile_real_cost|YT_-XuTH1e-Fc0]]]
 
+> [!IMPORTANT]
+> **⚠️⚠️ AND THE CHEAP SOLUTION THIS PAGE WAS MISSING: HAVE IT CUT AT THE SUPPLIER.**
+>
+> The two workarounds recorded above are a **crane through a window** and **hand-carrying at ~10,000 ₽ per slab per floor.** A third option costs nothing and is what a designer actually did in his own 4 m² bathroom: **the slab was PRE-CUT AT THE SUPPLIER before delivery, because at full format «он бы просто В ЛИФТ НЕ ВЛЕЗ».**
+>
+> **⚠️ And the detail that makes it acceptable aesthetically rather than a compromise: the cut was placed so the resulting joint lines up with the joint pattern of the smaller tile it meets. «У нас в итоге получился ТОЛЬКО ОДИН ШОВ, который ПЛАВНО ПЕРЕТЕКАЕТ В ШОВ уже плитки поменьше.»**
+>
+> **→ So the access problem has a design answer, not only a logistics one: accept ONE planned joint, positioned deliberately, instead of paying to move an uncut slab. That is strictly cheaper than both existing workarounds and it should be the first question asked — it needs to be settled at ORDER stage, since the supplier does the cutting.** [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]
+
+### ⚠️ Large Format in a SMALL Room — the Cut-Waste Consequence, and the Grout Decision That Makes It Work
+
+**This page already advises that small-format tile suits a small bathroom. Here is what happens when large format is used there anyway — from the same 4 m² bathroom, which was tiled in 120 × 60 cm.**
+
+- **⚠️ ALMOST NOTHING IS A WHOLE TILE, and it caused trade friction: «СТРОИТЕЛЬ ОЧЕНЬ СИЛЬНО РУГАЛСЯ [на] ПЛИТОЧНИКА за то, что здесь КОНЕЧНО БОЛЬШЕ БЫЛО ПОДРЕЗОВ, чем крупной плитки — здесь ПРАКТИЧЕСКИ НЕТ НИ ОДНОЙ плитки, которая была бы ЦЕЛИКОМ, здесь ВСЁ ПОРЕЗАНО.»**
+  **→ In a room this size the wall runs are shorter than the tile, so the format's own advantage — few joints — is delivered by cutting rather than by coverage, and the labour and wastage move accordingly. Worth pricing as cutting time rather than as m², and worth agreeing with the tiler before the order rather than after.**
+- **⚠️ WHAT MADE IT WORTH IT, and it is a grout decision: «мы очень ХОРОШО ПОПАЛИ В ЦВЕТ ЗАТИРКИ, вот этой ЭПОКСИДНОЙ, и здесь ВИЗУАЛЬНО НЕТУ вот этих КОНТРАСТНЫХ ШВОВ — то есть всё получилось как-то БЕСШОВНО, и получилась такая КАМЕННАЯ ПЕЩЕРА, серая, в которой очень уютно находиться.»**
+  **→ ⚠️ Note this is the exact inverse of the contrast-grout lever recorded above for geometric tile: there a contrasting grout is used to MAKE the pattern read; here a matched grout is used to make the joints DISAPPEAR. Same variable, opposite intent — so grout colour should be decided from what you want the joint to do, and in a small room tiled in large format the answer is almost always "vanish", because the joints are numerous and arbitrary rather than patterned.**
+- **⚠️ AND ONE MATERIAL WARNING THAT APPLIES TO THE SAME EPOXY GROUT: it must NOT be carried across onto the joint with an acrylic bath, where it tore away and caused a leak. Epoxy on tile-to-tile, sealant on tile-to-bath — see [[07_Bathroom/analysis/Bathtub_Materials_and_Installation|Bathtub Materials and Installation]]. The same room supplies both the success and the failure, which is why they are easy to conflate.**
+
+### ⚠️ The Full Hidden-Cost List for Large Format, From the Designer Side
+
+**A designer's enumeration of what surprises clients AFTER purchase, which complements the installer-side content above.** [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
+
+**«Крупный формат просто ПРЕКРАСЕН, за ним БУДУЩЕЕ, я его очень люблю. НО для многих заказчиков очень часто УЖЕ ПОСЛЕ ПОКУПКИ является СЮРПРИЗОМ стоимость ДОСТАВКИ, ПОДЪЁМА, УКЛАДКИ.»**
+
+- **Delivery costs more than for standard porcelain**, and hoisting may be impossible: «УЗКИЕ КОРИДОРЫ [и] ЛЕСТНИЦЫ ещё никто не отменял, и часто его ПРОПИХИВАЮТ просто между [перилами] — смотрится страшно, это очень РИСКОВАЯ операция».
+- **⚠️ Laying needs skill AND numbers: «укладка крупноформатного керамогранита требует определённых НАВЫКОВ, особенно что касается укладки НА ПОЛ — он должен быть ИДЕАЛЬНО ПОДГОТОВЛЕН. Часто крупный формат НЕВОЗМОЖНО УЛОЖИТЬ В ОДИНОЧКУ — нужно ДВА ИЛИ ТРИ СПЕЦИАЛИСТА.»**
+  **→ A crew-size requirement, not just a skill one — which is a scheduling and pricing fact, and it is why a single tiler's quote for large format should be questioned.**
+- **⚠️ AND THE CONSEQUENCE OF GETTING THE CREW WRONG: «выбирая ПЛОХИХ МОНТАЖНИКОВ, вы просто ГУБИТЕ свой ДОРОГУЩИЙ МАТЕРИАЛ — они его портят, и [он] просто исчезает. Очень часто видел такие примеры.»** The material cost and the breakage risk compound: the most expensive tile is the one most easily destroyed in handling. **«Выбирая крупный формат, учитывайте ВСЕ ОСОБЕННОСТИ, чтобы ФИНАЛЬНАЯ СТОИМОСТЬ [и] РЕЗУЛЬТАТ вас не огорчили.»**
+
 ## Stress-Relief Drilling at Sharp Cut-Corners on Large-Format Tile (RemProektMD, added 2026-08-24, Round 2)
 
 > [!NOTE]

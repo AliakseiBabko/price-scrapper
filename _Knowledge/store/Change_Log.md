@@ -965,3 +965,104 @@ Both landed on pages that already covered the subject well, where the useful con
 ### Pages to watch, flagged not fixed
 
 **Four pages are now between 358 and 382 lines** — under the 400 backstop, none FRAGMENTED, so no repair is due, but the next material addition to any of them should trigger a split rather than another append. Recorded in Pending Wiki-Page Decisions with proposed seams. **`check_page_sizes.py`: no FRAGMENTED, nothing over the backstop, 284 pages scanned.**
+
+## ⚠️⚠️ 2026-09-03 — VAULT-WIDE CORRECTION: the NSDSGN host's surname was wrong in 61 places, and the reasoning that kept it there was the real error
+
+**The name is Александр СИНЧУКОВ, not Сенчугов. Corrected across 48 files / 61 occurrences.** `_Archive/processed_sources/` is deliberately untouched — it is frozen and hashed for provenance.
+
+### The evidence
+
+- **He introduces himself in a MANUAL (human-authored) caption track: «А меня зовут СИНЧУКОВ Александр, я дизайнер интерьера, соруководитель студии НЕЧАЕВ СИНЧУКОВ»** (`1Dpc8SLJd6M`, Round 5).
+- **The studio name explains the channel handle, which nothing in this vault had connected before: NSDSGN = НЕЧАЕВ СИНЧУКОВ Design.** That is independent structural corroboration — «Сенчугов» does not produce those initials in that pairing.
+- **Every transcript in this vault that names him at all says Синчуков — three instances across three separate videos, two of them manual tracks. ZERO transcripts say Сенчугов.**
+- **No support for Сенчугов in the channel metadata or the preflight data either.** It appears nowhere outside my own writing.
+
+### ⚠️ Where it came from, and why this is worth a Change_Log entry rather than a silent fix
+
+**The form originated in my own Round 1 extraction and was then propagated by me 21 times across four rounds.** That alone would be an ordinary typo.
+
+**What makes it worth recording is what I did in Round 4.** The 2026 source's ASR rendered the name «Синчуков», and I noted it and *overrode* it, writing: *"the vault's established form from 17 prior instances is Сенчугов and is retained."*
+
+**That reasoning was the actual mistake. Those 17 instances were 17 COPIES OF ONE DECISION OF MINE, not 17 independent attestations.** I treated the vault's internal consistency as evidence about the outside world, when the vault's consistency was entirely downstream of a single unverified choice. The contrary evidence was a real observation and I discarded it because it disagreed with my own accumulated output.
+
+**→ The generalisable rule, and it is close to the warning AGENTS.md already makes about agents' self-reports: an "established form" is only evidence if its instances are INDEPENDENT. Count sources, not occurrences. Where a vault-wide convention traces to one intake decision, a single contrary primary observation outweighs any number of internal repetitions.**
+
+### What else the correction surfaced
+
+- **The studio is «Нечаев Синчуков», i.e. a TWO-PARTNER practice**, and the host is a **со-руководитель** (co-head) rather than the sole principal — which the vault had implicitly assumed. Worth knowing when weighing "his own flat" and "his own studio's object" sources: there is a second principal whose decisions may be in them.
+- His self-description in the same breath: **«интерьеры Премиум уровня для квартир и домов в Петербурге, в Москве и по всему миру»** — consistent with the region tagging already used for this channel (`RU_level2_channel_SPb_no_city_spoken`), and it confirms the premium-segment scope caveat that should be read against every price on this channel.
+
+**No claim, figure, attribution or conclusion changes as a result of this correction — only the spelling of the practitioner's name and the note explaining it.** `verify_batch.py` re-run clean afterwards.
+
+## 2026-09-03 — Round 5, NSDSGN (@YourInteriorDes): 5 sources, 170 facts, ~20 wiki pages, one page split, one vault-wide correction
+
+**Five rounds: 26 videos, 815 facts, 28.7 / 29.0 / 29.6 / 36.0 / 34.0. ⚠️ I did NOT predict decay this round, having been wrong four times, and the yield came in roughly flat — which is what the corrected format-based model implies.**
+
+### ⚠️⚠️ The round's largest single output is a correction, not an addition
+
+**The host's surname was wrong in 61 places across 48 files, and the reasoning that kept it there was mine.** Logged in full as its own entry above. **The name is Александр СИНЧУКОВ; the studio is НЕЧАЕВ СИНЧУКОВ, which is what NSDSGN stands for; and he is a CO-principal rather than the sole one — a fact the vault had implicitly assumed away.**
+
+**The generalisable rule, and it recurs below: an "established form" is only evidence if its instances are INDEPENDENT. Count sources, not occurrences.**
+
+### ⚠️⚠️ Four datings corrected, and one of them was a claim I had credited to myself
+
+**Round 5's earliest source (2022-01-26) predates everything else this vault holds from the channel, and it moves four findings backwards:**
+
+| Finding | Vault had | Actually |
+| :--- | :--- | :--- |
+| Matte-paint burnishing MECHANISM | 2026-04 | **2022-01** |
+| Light-group cap **and its smart-home resolution** | cap 2022-09; resolution presented as MY synthesis | **2022-01, both halves, from him** |
+| Push-to-open rejected | 2024-07, on dirt grounds | **2022-01, with four MECHANICAL reasons** |
+| Never-used exercise equipment | 2022-09 | **2022-01, with a 90% figure** |
+
+**⚠️ The second row is the one that matters. In Round 4 I wrote that the light-group rule was "stated once instead of twice" as a synthesis I had constructed from a 2022 cap and a 2024 practice. He had already stated it himself: «если вы хотите БОЛЬШЕ ТРЁХ ГРУПП освещения, то хорошо эти группы ОБЪЕДИНИТЬ [в] УМНЫЙ ДОМ… иначе ПИАНИНО ИЗ ВЫКЛЮЧАТЕЛЕЙ».** Corrected in place on `Switches_and_Controls.md` with the reasoning visible.
+
+**→ Two lessons, and they are the same lesson: (1) before crediting a synthesis to the reading, check whether an earlier source in the same channel already made it — a channel's back catalogue can contain the resolution to what looks like its own contradiction; (2) chronology is not the same as processing order, and a vault built round by round will systematically mis-date findings toward the round that first noticed them.**
+
+### ⚠️ A prediction validated on its own author, which is unusual enough to record
+
+**January 2022, from client reports: only THREE smart-home functions survive daily use — light groups, scenes, and curtains — and «всё остальное нагромождение только УСЛОЖНЯЕТ вам жизнь», switched on «когда пришли ГОСТИ».**
+
+**July 2024, reporting a year in his own flat: the functions he actually runs are light groups, a goodnight SCENE, and motorised CURTAINS.** Everything else in that flat is set-and-forget scheduling, which is not smart-home interaction in the sense the prediction was about.
+
+**→ Recorded on `Smart_Home_Systems.md` with the consequence: that page's device sections should be read as a menu ranked by EXPECTED RETENTION, not by capability, and Round 4's goodnight-scene finding is not a nice extra but one of only three survivors. The functions that live are the ones with a deliberate, addressable trigger; the ones that die are the ones that try to guess.**
+
+### ⚠️ A tension recorded as open in Round 4 turns out to have had a published answer
+
+**Round 4 recorded an unresolved tension in his own practice: the прихожая is the heaviest-load room and marble is «моментально убито», yet his own hall floor is crazed natural marble. The vault framed the choice as porcelain versus marble-with-the-patina-contract-signed.**
+
+**⚠️ GRANITE is the third option, and he had published it in 2022: «если у вас нет времени УХАЖИВАТЬ за камнем… используйте другие виды натурального камня — например ГРАНИТ, с ним практически ничего не произойдёт.»** Natural, non-uniform, low-maintenance. The tension narrows to: do you want marble specifically, or natural stone?
+
+**⚠️ And the underlying principle is sharper than the vault had it. Round 4 recorded «натуральные материалы с естественной НЕОДНОРОДНОСТЬЮ лучше СКРЫВАЮТ ИЗНОС». Round 5 finds him applying the same reasoning to an ARTIFICIAL material and to WATER SPOTS rather than wear — the terrazzo-effect acrylic worktop chosen over plain white because «если постоянно видны КАПЛИ, они будут вас РАЗДРАЖАТЬ». So the operative property is PATTERN, not naturalness, which means it can be bought in any material family and any price bracket. The vault now records it across five materials: marble, old parquet, terrazzo-effect acrylic, natural-coloured tile, and hand-blown glass brick.**
+
+### The most consequential genuinely new content
+
+- **⚠️⚠️ EPOXY GROUT ON AN ACRYLIC BATH — a rigid grout at a cyclically flexing junction, which leaked and was caught by a sensor.** The vault already held the mechanism (an acrylic tub sags when filled) and a load-testing rule; **this is the case where the JOINT MATERIAL was wrong rather than the installation, and the two are independent requirements — a load test protects against a seal broken ONCE, and this joint fails on every fill.** The generalisation is wider than baths: **a rigid grout cannot bridge a junction between materials that move relative to each other.**
+- **⚠️⚠️ 15 CM INTO THE CORRIDOR BUYS ~1 m² AND ALSO BUYS THE WALL DEPTH FOR CONCEALED VALVES.** Only the floor area shows on a plan, so the move is systematically undervalued. Paired with **25 cm for a wall-hung WC installation** — and in a 3 m² room the two compete for the same dimension.
+- **⚠️⚠️ A SEPARATE BELARUSIAN ELECTRICITY TARIFF FOR HEATING, via a second meter, created after the nuclear plant.** The only Belarus-specific energy fact in this vault, and every electric-heating cost argument here depends on a tariff this vault had no jurisdictional context for. **Terms not given — a pointer to verify, not a figure to compute with.**
+- **⚠️⚠️ GENEROUS CEILING HEIGHT WAS A VENTILATION TECHNOLOGY.** A running-cost argument against volume, plus a historical explanation (Milan station: «просто ТОГДА ВЕНТИЛЯЦИИ НЕ БЫЛО») that reframes a preference this vault treated as given, and lets mechanical ventilation be argued as what made low ceilings habitable.
+- **⚠️⚠️ AN ESTATE AGENT'S COMMISSION-BIAS DISCLOSURE, against his own interest: «ЧЕМ ХУЖЕ ЗАСТРОЙЩИК, ТЕМ ОН БОЛЬШЕ ПЛАТИТ.»** 3-4% market, 1% on end-of-stock, with an explicit account of how the incentive distorts advice. **Structurally identical to this store's designer procurement-commission range, and it now has a matching reading rule.**
+- **⚠️⚠️ ABANDONMENT AFTER PROCUREMENT — a designer-market failure the commission structure CAUSES**, since the money is front-loaded into buying and the incentive is weakest when the remaining work is fiddliest. **Yields a specific vetting question: how is the post-procurement stage paid for?**
+- **⚠️ THE DESIGN FEE IS ROUGHLY SEGMENT-INDEPENDENT WHILE THE BUILD SCALES** — so a percentage-of-budget fee charges a budget client the most in real terms, which inverts how percentage pricing is justified.
+- **⚠️ RENDERS INSTEAD OF PHOTOGRAPHS as a vetting heuristic, self-implicating:** studios show renders because «минимализм за низкий бюджет выглядит как ДЕШЁВЫЙ ОФИС ИЗ ГИПСОКАРТОНА». Ask for photographs of completed work in the style you want.
+- **⚠️ SLIDING DOORS: the cassette gates the rough stage, and it is an UNCLEANABLE dust reservoir.** The first yields a general rule — **any door type with a buried component gates the rough stage** — which the vault already had one instance of (concealed doors) and now has two.
+- **⚠️ GLOSSY vs MATTE STONE-EFFECT PORCELAIN, with the slip coefficient as the resolving datum**, and the wet-zone exclusion that reconciles it with the vault's poured-floor substitution.
+- **⚠️ FIVE FAILURE MECHANISMS for a hydronic towel rail**, three of which end in a leak, including that the circuit must be СКВОЗНОЙ and may carry no temperature control.
+- **⚠️ A NAMED UPSELL REFUSED with the correct diagnosis:** a heated contour behind the mirror to stop fogging — «сделайте НОРМАЛЬНУЮ ВЕНТИЛЯЦИЮ».
+- **⚠️ THE LEAK SYSTEM ITEMISED** — Neptun, two valve units, three sensors, one mains controller — i.e. the actual hardware behind this channel's five saves. Plus **a floor drain inside a free-standing bath's podium** as the passive, unfailing analogue of a sensor.
+- **⚠️ A CONCEALED BATHROOM CHARGING BAY, three sockets**, which this vault's socket checklists miss entirely.
+- **⚠️ LARGE-FORMAT TILE PRE-CUT AT THE SUPPLIER** because it will not fit the lift — cheaper than the crane and hand-carry workarounds the vault already held, and it needs deciding at order stage.
+- **⚠️ УЮТ WITH A MECHANISM: cosiness is a function of ACCUMULATED TRACES, so it cannot be specified at handover, only provided for.** A newly finished flat is necessarily hotel-like, and that is a stage rather than a failure.
+- **⚠️ LIQUIDITY INCLUDES INHERITABILITY**, which makes it a legitimate criterion for an owner who will never sell.
+
+### Perspectives opened rather than resolved
+
+- **⚠️ REFERENCE IMAGES: the designer asks for them and rejects multi-variant working; the psychologist identifies borrowed images as the root cause of unused rooms. Both are right, and the resolution neither states is that references are valid evidence of TASTE and invalid evidence of NEED.** A brief needs images for the aesthetic direction and lived experience for the functional programme; confusing them is how the unused gym gets built.
+- **⚠️ RECOVERED CORRIDOR AREA: an estate agent quantifies the gain (~50-60% → 70-72% usable on 100 m²); the designer names where it destroys a room («комната ПРЕВРАЩАЕТСЯ В ПРОХОДНУЮ… там НЕВОЗМОЖНО НОЧЕВАТЬ») and recommends it in one case only. Together: "usable area" is not a scalar.**
+- **⚠️ PUSH-TO-OPEN placement: it belongs HIGH because it must not be brushed accidentally, and handles belong HIGH because closing dirties the front. No configuration satisfies both, and the vault now says so.**
+- **⚠️ VENEERED FRONTS: prescribed AGAINST on durability grounds (Round 4) and FOR in touch zones on dirt-visibility grounds (Round 5). Both hold; they answer different questions.**
+
+### Housekeeping done rather than deferred
+
+- **⚠️ `Family_Scenario_Driven_Design.md` was split, resolving an item flagged in Pending Wiki-Page Decisions after Round 4.** It had reached 358 lines with one section carrying 234 of them. **`split_page.py apply`: 0 content lines missing, 30/30 citation IDs preserved, `RESULT: CLEAN`.** New page: `Brief_Elicitation_Practitioner_Cases.md`. **The seam the tool's own analysis suggested (framework versus cases) turned out better than the one I had proposed in Round 4 (principles versus elicitation) — worth noting that `analyse` should be run before a seam is committed to on paper.**
+- **`check_page_sizes.py`: 285 pages, no FRAGMENTED, nothing over the 400 backstop.** Four pages remain between 311 and 382 and stay flagged.

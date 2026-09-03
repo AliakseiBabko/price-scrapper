@@ -13,6 +13,28 @@ This approvals section uses archive-only citations without a decisive extraction
 - **Order an ЕГРН extract with its graphic (floor-plan) section before starting any layout planning**, per the Russian process described (via Госуслуги/state services) — every organization you'd ask "can this be approved" will require this document first, alongside your own proposed plan (hand-drawn or software-made, either is fine). `single-account`, **Russia-specific process — not confirmed to apply to Belarus**; treat as a prompt to find the equivalent Belarus document/process, not as this project's own procedure. *(This project's stricter-bar regulations store is at `_Knowledge/renovation_regulations_belarus_knowledge_store.md` — this source doesn't meet that store's Belarus-location bar and isn't added there.)*
 - **If expanding the bathroom's footprint, you can only expand into non-residential space** (typically a hallway/corridor or a storage closet) — expanding into a living room or bedroom is described as essentially never approvable, for any apartment above the ground floor. An apartment on the ground floor above a basement or commercial unit reportedly follows different (looser) rules. `single-account`, same Russia-specific caveat.
 
+> [!IMPORTANT]
+> **⚠️⚠️ A QUANTIFIED WORKED EXAMPLE OF EXACTLY THAT PERMITTED DIRECTION — AND IT BOUGHT TWO THINGS, ONLY ONE OF WHICH IS OBVIOUS.**
+>
+> Александр Синчуков's own flat: a **3 m² bathroom plus a 1 m² separate WC**, which he calls **«САМАЯ КЛАССИЧЕСКАЯ ПЛАНИРОВКА для небольших ДВУХКОМНАТНЫХ квартир»** — i.e. the base case this project is likely to face.
+>
+> **⚠️ «Я УВЕЛИЧИЛ пространство ванной ЗА СЧЁТ КОРИДОРА… мы просто ПОДВИНУЛИ эти стены в коридор БУКВАЛЬНО НА САНТИМЕТРОВ 15 — но это уже дало нам, ПО СУТИ, КВАДРАТНЫЙ МЕТР.»**
+>
+> **⚠️ AND THE SECOND DIVIDEND, which nobody plans for: the thickened wall is what made concealed plumbing possible. «За счёт того, что увеличили стены в сторону коридора, у нас ПОЯВИЛАСЬ ВОЗМОЖНОСТЬ сделать АРХИТЕКТУРУ СТЕН для ВСТРОЕННЫХ СМЕСИТЕЛЕЙ.»** Also from the same build-up: a built-in shower and overhead, **a shampoo NICHE created by deliberately NOT carrying the build-up to full depth**, and a low **podium housing the bath-filler mixer**.
+>
+> **→ A ~15 cm partition move is one of the highest-leverage changes available in a small bathroom: roughly 1 m² of floor AND the wall depth that concealed valves require. Both are decided in the same moment and only the floor area is visible on a plan — so a client evaluating whether the move is "worth it" for 1 m² is undervaluing it.**
+>
+> **⚠️ REGULATORY CLAIM, RUSSIAN SOURCE, flagged in place and NOT routed to `16_Legal_and_Regulations/`:** «Это СОВЕРШЕННО ЗАКОННО, мы никак не УХУДШАЕМ УСЛОВИЯ жильцов НИЖЕ ЭТАЖОМ [и] ВЫШЕ ЭТАЖОМ — всё в рамках закона.» **His paraphrase of a test, not a cited norm** — but note it is consistent with the expansion-direction rule above, and the underlying logic (into circulation space, not into habitable rooms) is what the Belarus equivalent will also turn on. [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]
+
+> [!NOTE]
+> **⚠️ AND THE OTHER WALL FIGURE FROM THE SAME BATHROOM, WITH A CLEANING DIVIDEND: «Эта стена увеличена на 25 СМ, чтобы в ней поместить ИНСТАЛЛЯЦИЮ, чтобы ПОДВЕСИТЬ УНИТАЗ.»**
+>
+> **25 cm of wall build-up is the price of a wall-hung WC** — a concrete planning number for [[12_Engineering_and_Systems/analysis/Wall_Hung_Toilet_Installation|Wall-Hung Toilet Installation]] and for the sizing minima below.
+>
+> **What it buys beyond appearance: «Это СУПЕР ПРАКТИЧНО — когда унитаз НЕ ДОСТАЁТ ДО ПОЛА, туда очень удобно заходит ТРЯПКА, ПЫЛЕСОС, всё что угодно; убираться просто ВОЛШЕБНО.»** → **The cleaning-effort argument, which on this channel is a durability argument: less cleaning labour means less wear. See [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioners' Own Material-Selection Accounts]].**
+>
+> **⚠️ In a 3 m² room, 15 cm gained from the corridor and 25 cm given to the WC wall are competing for the same scarce dimension, and this source spends both — which is only possible because the corridor absorbed the difference. Worth stating explicitly, because the two figures are usually read separately.**
+
 ### Combined vs. Separate Bathroom/WC
 
 Kruglov/Ontario's mapped source supports the combined-versus-separate recommendation below.

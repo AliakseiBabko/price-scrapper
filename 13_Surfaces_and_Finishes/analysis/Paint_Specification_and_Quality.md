@@ -92,14 +92,25 @@ This is the most reusable structure in the source, and it extends this page's ex
 
 ## ⚠️⚠️ Why Matte Paint Cannot Be Washed — the Physical Mechanism, and Two Occupancy Cases
 
-**This page's gloss ladders say which sheen resists washing better. It did not say what actually happens when you wash a matte wall, and the mechanism is the reason the ladder matters.** Designer Александр Сенчугов, 20 years' practice, states it as physics and it is correct — it is burnishing:
+**This page's gloss ladders say which sheen resists washing better. It did not say what actually happens when you wash a matte wall, and the mechanism is the reason the ladder matters.** Designer Александр Синчуков, 20 years' practice, states it as physics and it is correct — it is burnishing:
 
 - **⚠️ «Матовая краска МОМЕНТАЛЬНО ПРЕВРАЩАЕТСЯ В ГЛЯНЦЕВУЮ там, где вы её протёрли. Ну так устроены физические процессы: матовая краска, если смотреть под микроскопом, имеет небольшую ШЕРОХОВАТОСТЬ. Каждый раз, когда вы её протираете, эта шероховатость уходит, и поверхность становится глянцевой. Поэтому на матовых покрытиях те места, которые вы моете тряпками, становятся такими ГЛЯНЦЕВЫМИ ПЯТНАМИ. Это очень некрасиво смотрится.»**
   **→ So the failure of a washable matte is not that the dirt stays — it is that the WASHING leaves a permanent mark of its own. That makes it unfixable by better cleaning, and it explains why the damage accumulates exactly at the spots that get touched.**
 - **⚠️ THE RULE THAT FOLLOWS, and it sets a boundary the ladders above do not: «постарайтесь НЕ использовать УЛЬТРАМАТОВУЮ краску. Её обычно используют только для ПОТОЛКОВ — вот как часто вы моете потолок? А стены всё-таки приходится иногда вытирать.»** Ultra-matte is a ceiling product, and the test is wash frequency rather than appearance.
-- **⚠️ And it is one instance of a broader thesis from the same source that reframes the whole practicality question: «между уборкой, практичностью и долговечностью есть ПРЯМАЯ СВЯЗЬ. Чем ЧАЩЕ вы убираетесь, тем БЫСТРЕЕ вы РАЗРУШАЕТЕ интерьер.»** Cleaning is itself a wear mechanism, so the objective is a surface that **needs** less washing rather than one that tolerates it. See [[13_Surfaces_and_Finishes/analysis/Material_and_Finish_Technique|Material and Finish Technique]].
+- **⚠️ And it is one instance of a broader thesis from the same source that reframes the whole practicality question: «между уборкой, практичностью и долговечностью есть ПРЯМАЯ СВЯЗЬ. Чем ЧАЩЕ вы убираетесь, тем БЫСТРЕЕ вы РАЗРУШАЕТЕ интерьер.»** Cleaning is itself a wear mechanism, so the objective is a surface that **needs** less washing rather than one that tolerates it. See [[17_Design_and_Ergonomics/analysis/Material_and_Finish_Technique|Material and Finish Technique]].
 
 [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+> [!WARNING]
+> **⚠️⚠️ DATING CORRECTION, 2026-09-03 — THE MECHANISM IS FOUR YEARS OLDER THAN THIS SECTION SAYS, AND THE EARLIER STATEMENT CARRIES A SPECIFICATION THE 2026 ONE DOES NOT.**
+>
+> **He stated the burnishing mechanism in JANUARY 2022** (`CN-Ab_g4CAI`), not 2026: **«матовая стена она более ШЕРОХОВАТАЯ, чем глянцевая, и любое КАСАНИЕ будет СТИРАТЬ эту шероховатость, будет появляться ГЛЯНЦЕВЫЕ ПОЛОСКИ, которые назад восстановить НЕВОЗМОЖНО.»**
+>
+> **⚠️ AND THE PART THE 2026 RESTATEMENT LOSES — the colour-specific specification: «ОСОБЕННО ЭТО ВИДНО НА ТЁМНОЙ КРАСКЕ, на контрастных ярких цветах. Поэтому если вы хотите модный сейчас ТЁМНЫЙ интерьер, то НИ В КОЕМ СЛУЧАЕ не используйте МАТОВУЮ или ГЛУБОКО-МАТОВУЮ краску — используйте САТИНОВУЮ или ГЛЯНЦЕВУЮ, потому что иначе ваши стены будут просто ОДНОРАЗОВЫМИ: любое касание, и вы НИКОГДА не сможете его восстановить.»**
+>
+> **→ «ОДНОРАЗОВЫЕ СТЕНЫ» is the phrase to carry. And note what the corrected chronology means: he published this warning EIGHT MONTHS BEFORE the client with the unwashable matte black wall reported it. So the sequence on this vault is now MECHANISM (2022-01) → WARNING → CLIENT OUTCOME (2022-09) → MECHANISM RESTATED (2026-04) — a practitioner predicting a failure, then documenting it happening to a client who did it anyway.**
+>
+> **⚠️ It also SHARPENS this page's ladders in a specific direction: for a dark or saturated wall, satin is the FLOOR, not the practical optimum. The eggshell (~15%) position recorded above is for light colours; dark colours need more sheen than that.** [source: [[_Sources/YT_CN-Ab_g4CAI_nsdsgn_thirtyfive_beautiful_but_impractical|YT_CN-Ab_g4CAI]]]
 
 ### Two reported outcomes from clients living in his interiors, four years earlier
 

@@ -86,7 +86,7 @@ opening-cycle lifespan with real maintenance needs, unlike a hinged
 door's simple hinge mechanism. `single-account`, `unverified`, Ontario
 (Nikita Kuznetsov presenting). [source: [[_Sources/YT_x8cNF81m7-A_kruglov_impractical_solutions|YT_x8cNF81m7-A]]]
 
-## ⚠️ The Scheduling Trap, the Two-Stage Install, and a 200-Rouble Save (Александр Сенчугов, his own flat, 2023-06-14)
+## ⚠️ The Scheduling Trap, the Two-Stage Install, and a 200-Rouble Save (Александр Синчуков, his own flat, 2023-06-14)
 
 **This page covers what concealed doors cost. This is what they do to the programme, from a designer describing his own flat — «если честно, мы очень сильно с ними намучились».** [source: [[_Sources/YT_7zpsZtcTkCM_nsdsgn_own_flat_55m2_retrospective|YT_7zpsZtcTkCM]]]
 

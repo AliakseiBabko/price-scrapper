@@ -1,6 +1,6 @@
 ---
 video_id: WCoqOCofPx4
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков)
 source_type: youtube
 source_title: "Почему ремонт быстро умирает — 10 правил неубиваемого интерьера"
 source_url: https://www.youtube.com/watch?v=WCoqOCofPx4
@@ -17,7 +17,7 @@ region: RU_level2_channel_SPb_no_city_spoken
 
 **33 minutes, solo, ASR Russian track (well punctuated).** Opens with «за 20 лет работы».
 
-⚠️ **The ASR renders the host's surname as «Синчуков»; the vault's established form from 17 prior instances is Сенчугов and is retained.**
+⚠️ **The ASR renders the host's surname «Синчуков», which turned out to be CORRECT — see the correction note below.** When this source was first processed I recorded that "the vault's established form from 17 prior instances is Сенчугов and is retained". **That was wrong, and the reasoning was the actual error: those 17 instances were 17 copies of my own Round 1 decision, not 17 independent attestations.** Corrected vault-wide on 2026-09-03 — see `_Knowledge/store/Change_Log.md`.
 
 > [!IMPORTANT]
 > **⚠️ THIS IS THE MOST SYSTEMATICALLY STRUCTURED SOURCE ON THIS CHANNEL, AND ITS CENTRAL THESIS IS AN ORIGINAL ONE THE VAULT DOES NOT HOLD.**

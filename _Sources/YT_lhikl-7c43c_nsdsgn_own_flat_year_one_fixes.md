@@ -1,6 +1,6 @@
 ---
 video_id: lhikl-7c43c
-channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Сенчугов)
+channel: ВАШ ДИЗАЙНЕР ИНТЕРЬЕРА / NSDSGN (Александр Синчуков)
 source_type: youtube
 source_title: "Красивые решения, которые оказались ошибкой — год в моей квартире"
 source_url: https://www.youtube.com/watch?v=lhikl-7c43c
