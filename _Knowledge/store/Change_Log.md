@@ -684,3 +684,85 @@ An audit of every wiki link across 1342 files found 69 unresolvable instances. R
   be deliberate (a rejected source), others a real routing gap.
 - **`_Inbox/planning/` has 24 files and no index**, two of them over 1500 lines. Working documents,
   out of scope for the page rules, but there is no way to tell which channel queues are still live.
+
+## 2026-09-02 (seventh pass) — residue cleanup: the three open items, and a stale channel record
+
+All three items left open by the sixth pass were fixed at the owner's direction. **Two of the three
+turned out to be different problems than reported, and a fourth was found that mattered more than any
+of them.**
+
+### ⚠️ The real find: a fully-processed channel the queue described as untouched
+
+`@sbk.remont` («ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ», Vladimir Amelchenko) has **58 source notes and 7 rounds of
+batch-status artifacts.** `youtube_channel_queue.md` described it as *"3-video trial complete —
+awaiting user go-ahead before Round 1."*
+
+**It was the only worked channel in this vault with no plan file, so nothing ever updated it.** A
+future session reading the queue would have concluded the channel was untouched. `preflight_playlist.py`
+dedups against `processed_video_ids.txt` and would have caught the duplicate fetches — but only after
+the triage and planning work had been redone.
+
+Fixed by **reconstructing `sbk_remont_channel_plan_20260828.md` from evidence** — the seven
+`batch_status_*.json` files, the 58 source notes, and the CSV — and correcting the queue entry.
+Recorded yields **6.875 → 5.875 → 6.5, no decay at close.**
+
+⚠️ **Rounds 1–4 have no recoverable yield figures**, and the file says so rather than inventing them.
+The cause is schema drift in the batch-status convention itself: `round_yield` is **absent** in rounds
+1–4, **free text** in 5–6, and **structured** in 7. Anything parsing those artifacts must handle all
+three shapes. **That drift is now documented in the new `_Inbox/planning/README.md`.**
+
+### The three reported items
+
+**1. CSV brace notation — fixed, and it was worse than brace notation.** 20 brace expressions across
+16 rows expanded to explicit `;`-separated paths. But the braces were a *symptom*: **7 rows had
+unquoted commas that split one field into two and shifted every later column by one**, so
+`status` read `_Knowledge/store/_index.md` and `notes` read `archived`. One of those shifts was what
+produced the "unclosed brace" — the field had been cut at its comma. All 7 realigned by re-quoting;
+**no field value changed**, which keeps it a format repair rather than a rewrite of the ledger.
+**Result: 1100 rows, 15 columns each, 0 braces, 0 misaligned** — the ledger is machine-verifiable for
+the first time. Diff is exactly 23 lines, no collateral.
+
+Two entries were unresolvable from the CSV alone and were **recovered from evidence, not guessed**:
+one from the source note's own "Recommended Downstream Routing" list, the other by completing the
+routing below.
+
+**2. The 12 "uncited" source notes were a false positive — the third of this audit.** Every one has a
+ledger row explicitly recording it as deliberately unrouted: `status=archived` or `skipped`, with
+`target_docs` reading *"n/a — not routed, topic mismatch"*, *"none — low-value-pass"*, or the store
+index only. **There was no routing gap. The ledger already documented all twelve.**
+
+⚠️ **But checking them surfaced a real one.** `YT_o-5X16hq9Fo` routed to six destinations and a
+seventh — `04_Living_and_Dining_Room/analysis/` — **had no filename, in both the note and the ledger,
+and no page in that folder cited the source.** Two extracted facts had never landed: the
+dining-table-beside-a-sofa ergonomic critique and the overly-matchy-furniture critique. **Both routed
+2026-09-02**, into the existing *Furniture Arrangement, Traffic and Seating Distance* section as
+`###` sub-entries — **the first use of the no-dated-heading rule written into the intake skill hours
+earlier.**
+
+**3. `_Inbox/planning/README.md` created.** Deliberately **a map, not a status board**: it says what
+each of the 20 files is and *where that file's live state is recorded*, and **does not copy round
+counts or open/closed status into itself.** A second copy of that state would drift from the first —
+which is precisely what caused the memory store to be drained into this repo on 2026-08-31, one of its
+notes already citing a path that had stopped existing the day before. It names
+`youtube_channel_queue.md` as the authoritative channel state, groups the four Zemskov files into
+their reading order, explains the batch-status and preflight artifacts, and records this folder's own
+conventions.
+
+**Also corrected: one stale heading** — the queue's FLAT section still read "Round 2 complete,
+recommend CLOSED" although its Progress Log recorded Round 3 and the closure. The heading now states
+the final position, with the Round 2 assessment kept intact beneath it.
+
+### Residue check
+
+**Nothing stray from this session's own tooling** — no `spec_tmp.json`, `split_page_missing.txt` or
+scratch scripts in the tree. The gitignored working files under `_Inbox/` and `scratch/` are
+legitimate.
+
+### ⚠️ Not changed, deliberately
+
+**6 `target_docs` paths point at pages that no longer exist** — `13_Surfaces_and_Finishes/analysis/Soundproofing.md`,
+`09_Laundry_Room/analysis/Dos_and_Donts.md`, `01_Entrance/analysis/Layout_and_Zoning.md`,
+`01_Entrance/analysis/Wall_Finish_Technique.md`, `13_Surfaces_and_Finishes/Wardrobes_and_Storage.md`,
+and the old relative `store/_index.md`. **These are historically correct: that is where the content
+went, under the name the page had at the time.** Rewriting them would falsify the record to make a
+checker happy. Left as-is, per the standing practice on historical records.
