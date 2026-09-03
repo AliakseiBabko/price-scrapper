@@ -610,3 +610,71 @@ The 2021 source is the **origin** of the cleaning-as-wear thesis, MVHR-reduces-d
 `check_page_sizes.py`: **288 pages, no FRAGMENTED, nothing over the 400 backstop.** ⚠️ **`05_Kids_Room/analysis/Age_Staged_Planning.md` at 358 is now the largest page in the vault and has been flagged TWICE. Repair it next round rather than routing around it — which is exactly what happened to `Contract_Practice.md`, and it took two rounds of distortion to fix.**
 
 `15_Appliances/Kitchen_Disposers.md` **populated** (was 0 bytes). `Kitchen_Filtration_Systems_Analysis.md` **still 0 bytes** — no source touched it; leave it empty rather than pad it.
+
+---
+
+## Round 7 — complete (2026-09-03). 5 videos, 209 facts, 41.8/video — the highest of any round on this channel
+
+**⚠️⚠️ ROUND 7 FOLLOWED MY OWN ROUND 6 RECOMMENDATION TO KEEP SCOPING OLDEST-FIRST, AND THE FIRST THING IT PRODUCED WAS A MEASURED LIMIT ON THAT RECOMMENDATION.**
+
+### ⚠️⚠️ The caption-availability boundary — measured, not guessed, and it bounds the strategy
+
+Probing 17 candidates with `yt-dlp` metadata only (no downloads, serialized with spacing):
+
+| Era | Russian captions |
+| :--- | :--- |
+| 2017-09 → 2019-09 | **AUTO only** |
+| 2019-09 → 2021-07 | **⚠️ PER-VIDEO: auto, or NOTHING — 4 of 8 probed have NO Russian track at all** |
+| **2021-08-10 onward** | **MANUAL Russian, plus manual en/es/de — uniformly** |
+
+**⚠️ TWO OF MY FIVE ORIGINAL PICKS WERE UNPROCESSABLE: `Phk79uKT7rA` (2020-11-03, a 70 m² flat for a family with two children — the most project-shaped title on the channel) and `3y-gA7A6QJ4` (2021-04-02, "how to make the perfect bathroom"). Rule 1 forbids substituting auto-translated English, so both are recorded as UNFETCHABLE, not skipped.** Both are now full-line comments in `processed_video_ids.txt` so a later round does not re-attempt them blind. ⚠️ *They were entered as trailing comments first, which the preflight parser's anchored regex would have silently ignored — corrected to whole-line `#` comments, which it explicitly skips.*
+
+**⚠️ AND A SECOND LIMIT, recorded because the temptation was real: the channel goes back to 2017-09, but the 2017–2019 layer is CAREER-PATH INTERVIEWS ("who is a designer", "how to become a designer", "architecture from the inside"). OLDEST-FIRST DOES NOT OVERRIDE THE VALUE FILTER — an old source pays off when it may be the ORIGIN of a technical finding, and a career interview cannot be. Being oldest is not itself value.**
+
+| # | Video | Date | Yield | Why picked |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | `ffP5bdHlh_E` budget 45 m², rescued project | **2020-12-03** | 38 | oldest fetchable technical source |
+| 2 | `wvlr2aGDMCc` 5 kitchen mistakes | 2021-01-27 | 44 | origin layer, five days after the R6 source |
+| 3 | `hEZntyMcP-A` 5 m² kitchen | 2021-02-02 | **46** | hard constraint, zero coverage — **turned out to be HIS OWN PREVIOUS FLAT** |
+| 4 | `K2pg-8iGP4s` 20 ways to economise | 2022-10-04 | **48** | replacement pick; highest expected yield |
+| 5 | `cl0LIAVZUjI` decorative plaster workshop | 2023-05-16 | 33 | replacement pick — **to CHECK an assertion of mine from R6** |
+
+**Yield: 180 (R4) → 170 (R5) → 178 (R6) → 209 (R7). The jump is structural, not luck: the origin layer is dense with FIRST STATEMENTS of things the vault already holds, so one source corrects many pages.**
+
+### ⚠️⚠️ The round's biggest find was an accident of selection
+
+**I picked `hEZntyMcP-A` as a 5 m²-kitchen constraint source. It is HIS OWN PREVIOUS FLAT, 18 months into occupancy — the flat that Round 6's own-kitchen source keeps citing as «в прошлой квартире». With `K2pg-8iGP4s` (the new flat MID-BUILD), the channel record is now a SIX-POINT series across TWO of his own homes:**
+
+**previous flat 2021-02 → new flat DECISIONS 2022-10 → build 2023-06 → kitchen 2023-11 → bathroom 2024-03 → year-one fixes 2024-07**
+
+→ **That is DECISION → EXECUTION → OCCUPANCY → REVISION on one object, with the decisions stated before the outcomes were known. It is the strongest evidentiary structure the vault holds from any source, because stated intent can be checked against reported result — and doing so produced two confirmations and one correction of mine this round.**
+
+### ⚠️⚠️ Three corrections to earlier rounds, two of them errors of mine
+
+1. **⚠️⚠️ The touch-switch count was inflated.** Round 6 routed it as "the THIRD independent practitioner… route as SETTLED". Two of the three instances are **the same person in two different flats.** Two practitioners, not three. **And I broke a rule I had recorded MYSELF one round earlier — Round 5's "count SOURCES, not OCCURRENCES".**
+2. **⚠️⚠️ I asserted a "later narrowing" I had no source for.** Round 6 said he "narrows the lacquered-plaster wet-zone claim in later sources". I inferred that because the claim seemed bold. `cl0LIAVZUjI` does the opposite — it CONFIRMS and SPECIFIES it (polyurethane top lacquer, humid room, pressure-washable, example = a rest zone beside a hammam, NOT direct spray). **The lesson: I hedged a bold claim with a plausible-sounding, unevidenced qualifier, which is worse than either flagging it or leaving it open.**
+3. **A vault page was built from his METHOD and omitted his VERDICT.** `Concealed_Door_Considerations.md` held his two-stage install and the 200-rouble sleeve tip, but not his own conclusion that most people should buy architraved doors instead. **Added — and it CONFIRMS the Round 6 finished-floor-datum resolution for a third time.**
+
+**⚠️ Also: an inference I had flagged as MINE in Round 6 (access route matters for block-delivered units) is now SOURCED as the practitioner's explicit rule, with two cases including one where the programme must be INVERTED. Upgraded on the page rather than silently promoted.**
+
+### ✅ The third owed repair is done — and it needed a third different fix
+
+- **`05_Kids_Room/analysis/Age_Staged_Planning.md`**, flagged in Rounds 5 and 6. ⚠️ **Diagnosis changed the tool: it was NOT harmfully fragmented — the defect was that ONE SECTION HELD 154 OF 359 LINES on a different topic. So a SPLIT, not a merge: 359 → 208 + `Desks_Beds_and_Shared_Rooms.md` at 167, 0 missing, 16/16 ids, CLEAN.**
+- **⚠️ Three rounds, three repairs, THREE DIFFERENT DEFECTS and three different fixes — fragmentation (merge then split), structurelessness (manual topical pass then split), one oversized off-topic section (split only). The LINE COUNT found all three and DIAGNOSED NONE. Read the headings AND the section sizes.**
+- **No page in the vault is now flagged twice.**
+
+### ⚠️ Where the channel stands — 36 of 220 processed
+
+**⚠️⚠️ THE OLDEST-FIRST PHASE IS OVER, because the reachable origin layer is nearly exhausted:** `ffP5bdHlh_E`, `wvlr2aGDMCc`, `hEZntyMcP-A` and (R6) `Y1lBVJz-ib4` are done; `Phk79uKT7rA`, `3y-gA7A6QJ4` and `KPRcI_CPpAs` have no Russian captions; `NHqf-OoLPBM` (2019, feng shui) is auto-only.
+
+→ **RECOMMENDATION FOR ROUND 8: go back to scoping BY FORMAT, within the 2021-08-onward manual-caption era. And adopt a standing procedural step — PROBE CAPTION AVAILABILITY BEFORE BUILDING THE SCOPE. It costs about a minute per title and would have saved two failed fetches and a re-scope here.**
+
+→ **Named candidates, all with manual tracks:** `3tgHGhY0gXA` (stretch vs plasterboard ceilings, 2022-02 — **on the shortlist for FOUR rounds now**); `M7NXBh0hIo8` (glass/aluminium/steel partitions, 2023-01); `i9n1YI4iaiw` (why not to start without a design project, 2023-01 — expect a sales frame); `3_76xEfI01k` (why a house is not a flat, 2023-04); the four remaining regrets titles; `RtRabYtDxNk` / `hllO93k4O7Q` on storage.
+
+→ **⚠️⚠️ AND THE HIGHEST-VALUE REMAINING TITLE IS ONE HE NAMES HIMSELF: in October 2022 he refers to a separate video about his intended palette — «сравните, что я хотел и от чего я в итоге отказался». That is an explicit INTENT-VERSUS-OUTCOME comparison on a colour scheme, on the object the vault now holds at six points. Find it and date it.**
+
+→ **Still recommend against the host-solo trend cluster. Seven rounds, finding unchanged.**
+
+### Verification
+
+`check_page_sizes.py`: **289 pages, 0 FRAGMENTED, 0 over the 400 backstop.** Largest is `03_Kitchen/analysis/Storage_and_Hardware.md` at 325 — topically coherent, with a natural seam noted in Pending if it grows.

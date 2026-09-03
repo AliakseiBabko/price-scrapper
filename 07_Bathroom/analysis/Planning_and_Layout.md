@@ -197,6 +197,37 @@ A pure design/personal-preference point, included for completeness: some people 
 
 Архитектор Виталий Злобин (independent architect, own channel, real-project walkthrough, `single-account`, region unresolved) describes a layout technique for a large combined (not pre-split into WC + bathroom) ensuite bathroom: **build a dedicated partition around the toilet within the room, rather than leaving it fully open alongside the sink/shower/tub**, with two stated reasons — (1) hygiene: keeps the toilet as far as practical from the fixtures used for washing the face/body; (2) it lets **two people use the ensuite simultaneously** (one at the toilet, one at the sink or shower), explicitly framed around a double/king-size bed serving two occupants. Worth weighing for any combined-bathroom layout, not just a house-scale master suite. If the partition is translucent to admit light to the screened-off toilet area, **that only makes sense when the room itself has a window** — a translucent partition around a windowless toilet nook just adds cost without the intended lighting benefit. [source: [[_Sources/YT_uG1p1j9iAZ4_zlobin_wc_bath_practice_pt2|uG1p1j9iAZ4]]]
 
+### ⚠️⚠️⚠️ A "Concealed" Access Hatch You Need MONTHLY Will Simply Be Left Open — and the Fix Is a Furniture Door (Александр Синчуков, 2022-10-04)
+
+**«Над унитазом у меня находится УЗЕЛ КОЛЛЕКТОРОВ, ФИЛЬТРЫ, СИСТЕМЫ ОТ ПРОТЕЧЕК… и чтобы её закрыть, чаще всего используется СКРЫТЫЙ ЛЮК В ПЛИТКЕ. Но ПО ОПЫТУ могу сказать, что у меня в квартире ЭТОТ ЛЮК ВСЕГДА ОТКРЫТ — вроде как он скрытый, но РАЗ В МЕСЯЦ мне всё равно нужен доступ к счётчикам, [и] каждый раз нажимать [и защёлкивать] меня РАЗДРАЖАЕТ, [так что] он ВСЕГДА ПРИОТКРЫТ. МЕНЯ СТРОИТЕЛЬ УБЕЖДАЛ, [что так и] БУДЕТ — Я ЕМУ НЕ ПОВЕРИЛ. ЭТО РЕАЛЬНО ТАК. Ещё когда вы его плотно закрываете, у вас может СКОЛОТЬСЯ КУСОЧЕК ПЛИТКИ. Это решение честно говоря ТАК СЕБЕ.»**
+
+**His replacement in the new flat: «вместо скрытого люка из плитки я сделаю ПО МОИМ РАЗМЕРАМ ВСТРОЕННЫЙ ШКАФ со сплошными дверями… ДОСТУП будет очень легкий, ОДНИМ ДВИЖЕНИЕМ, ничего не надо защёлкивать, ничего не будет откалываться. И Я ГОТОВ ЗА ЭТО ЗАПЛАТИТЬ.»**
+
+- → **⚠️⚠️ THE FINDING IS THAT ACCESS FREQUENCY DECIDES THE DETAIL. A concealed tile hatch is a fiction wherever you need monthly access, because it will be left ajar — so the design question is not "how do I hide it" but "how often will this be opened".**
+- → **⚠️⚠️ AND IT CORROBORATES THE ROUND 6 ACCESS-HATCH FINDING FROM THE OPPOSITE DIRECTION. Round 6 had the CONTRACTOR-side explanation for why hatches are under-provided (his planning horizon ends at his warranty). This is the USER-side failure of a hatch that WAS provided. Both point at the same remedy.**
+- → **⚠️⚠️ AND THE LOOP CLOSES ACROSS TWO ROUNDS: Round 6's furniture factory shows exactly such a module being built — an over-WC cabinet acting as the fixing substrate for both the finish front AND the shadow-gap stretch-ceiling profile. That is this problem's solution, from the maker's side.** See [[07_Bathroom/analysis/Shelving_and_Furniture|Shelving and Furniture]].
+- **⚠️ THREE BUDGET ALTERNATIVES NAMED: (a) «самое дешёвое — купить БЕЛЫЙ ПЛАСТИКОВЫЙ ЛЮЧОК. Ну не знаю, ПОВЕСЬТЕ НА НЕГО КАРТИНУ, чтобы хоть как-то смотрелось»; (b) a metal ROLLER SHUTTER; (c) ⚠️ «тупо повесить ШТОРУ — тканевая занавеска, вы открываете, получаете доступ и закрываете».**
+- ⚠️ **He also DISBELIEVED his own builder's prediction about how the detail would be USED, and confirms the builder was right. Worth recording: on questions of USE rather than construction, the trade's prediction beat the designer's.**
+
+### ⚠️⚠️ A Washing-Machine Podium Argued From ACCESS — Solving Three Things at Once (December 2020)
+
+**On the 45 m² rescue project, the previous designer's layout left nowhere for the machine and «НЕ ПОДОБРАТЬСЯ». The fix: «поставить стиральную машину НА НЕБОЛЬШОЙ ПОДИУМ, для того чтобы было УДОБНЕЕ К НЕЙ ПОДХОДИТЬ, [чтобы] ей НЕ МЕШАЛ УНИТАЗ, [чтобы] можно было свободно открывать и закрывать. Также ИНСТАЛЛЯЦИЯ [и] ТРУБЫ проходят В ЭТОМ ПОДИУМЕ, а НА СТИРАЛЬНОЙ МАШИНЕ расположился БОЙЛЕР.»**
+
+- → **⚠️⚠️ ONE PODIUM SOLVING THREE PROBLEMS: door-swing clearance past the WC, concealment of the concealed-cistern pipework, and a mounting plane for the water heater. The vault holds an OPEN Perspectives question — should a washer ever be elevated off the floor? — and this is a concrete, reasoned case FOR it, where the driver is ACCESS rather than levels.**
+- ⚠️ **Note the contrast with the drain-fall constraint recorded three times across Rounds 5–7: a podium for a DRAIN needs fall and is usually impossible in a flat; a podium for ACCESS AND PIPEWORK needs neither and is available anywhere. Same word, two different feasibilities.** *(That distinction is mine.)*
+- Also from the same bathroom: **niches beside the bath placed deliberately OUT OF THE SIGHTLINE — «мы сделали это СЗАДИ, чтобы, когда ты заходишь в ванну, ПЕРЕД ЛИЦОМ у тебя не было бардака»; an ELECTRIC towel rail with CONCEALED wiring; and ⚠️ ONE WALL LEFT IN PLASTER, not tiled, deliberately — «одну стену просто оштукатурили, для того чтобы потом ПОВЕСИТЬ НА НЕЁ КАРТИНУ» — the mild, dry-wall form of the plaster-in-wet-rooms thread. See [[13_Surfaces_and_Finishes/analysis/Decorative_Plaster_and_Microcement|Decorative Plaster and Microcement]].** [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+### ⚠️⚠️ Developer Sales-Brochure Layouts Are Unbuildable — and the Reason Is the DRAIN FALL, for the Third Time in Three Rounds
+
+**A worked client case: a man bought two flats for his children, and the children took the DEVELOPER'S OWN published furniture layouts from the sales website as their brief. «Они были просто ИДЕАЛЬНЫ — там были выпущены все мечты будущего жильца: и ВАННА В СПАЛЬНЕ, и КУХНЯ В ПРИХОЖЕЙ… фантастическая картинка. Но когда мы опытным взглядом посмотрели, мы поняли, что ЭТО НЕВОЗМОЖНО ВОПЛОТИТЬ — чтобы это сделать, нужно РЕАЛЬНО ВСЮ КВАРТИРУ ПОДНЯТЬ САНТИМЕТРОВ НА 20 [и] ПОСТАВИТЬ НАСОС, который будет ШУМЕТЬ И РАЗДРАЖАТЬ вас… сделать то, что просто ИСПОРТИТ ВАШУ БУДУЩУЮ ЖИЗНЬ. Поэтому НЕ ВЕДИТЕСЬ НА КРАСИВЫЕ КАРТИНКИ.»**
+
+- → **⚠️⚠️ THE SAME CONSTRAINT FOR THE THIRD TIME IN THREE ROUNDS — available floor build-up for a fall to the drain. Round 5 hit it on a shower podium; Round 6 hit it on the hose-down bathroom (a house method, blocked in flats); here it is why a DEVELOPER'S OWN MARKETING PLAN IS FICTION. That is enough repetition to promote it from a per-feature caveat to a FIRST-ORDER PLANNING CHECK: before believing any wet-room relocation, establish the available build-up and the existing drain invert.** *(The promotion is my judgment; the three instances are the sources'.)*
+- **⚠️ AND THE SAME FAILURE ON THE FLAT HE WAS RESCUING, with the cost mechanism the vault's design-project content lacks: the previous project placed bathroom furniture where it physically could not go — «если бы заказчик УЖЕ КУПИЛ по этому проекту какую-то САНТЕХНИКУ, то она сюда бы просто НЕ ВСТАЛА, и всю пришлось бы либо ВЕЗТИ НА ДАЧУ, либо просто тупо ВЫКИДЫВАТЬ». Some walls had already been built and were demolished.**
+  - → **A DESIGN error costs you the SANITARYWARE, not just the drawing — because procurement follows the drawing. Pairs with Round 6's materials-custody finding: what you have already bought is what a change order destroys.**
+
+[source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+
 ## Real Cases and an Executed Planning Method
 
 ### Large Bathroom Windows — a Real Non-Standard Case and Its Privacy Fixes (Петришин-Строй, added 2026-08-24, Round 11)
@@ -234,7 +265,7 @@ blocking light entirely. `single-account`. [source: [[_Sources/YT_QginFVl00Hw_pe
 | **Shower enclosure** | **⚠️ 900 × 900 minimum — "это прям минимально." Bigger is better; she works at 1000** |
 | **Bath, to bathe adequately** | **⚠️ 1600 minimum** |
 | **Stationary partition** | **~50 plus tile ≈ 100 overall** |
-| **Basin rim above finished floor** | **⚠️ 850 — see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks\|Fixtures, Mixers & Sinks]] for what it forecloses** |
+| **Basin rim above finished floor** | **⚠️ 850 — see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers & Sinks]] for what it forecloses** |
 
 **⚠️ The setting-out trap that killed one of her layouts: when you build a partition, count the adhesive AND the tile.** She needed **650** clear for a built-in washing machine and had **601** after finishes. **Plan partitions in structural dimensions, then subtract the finish.**
 

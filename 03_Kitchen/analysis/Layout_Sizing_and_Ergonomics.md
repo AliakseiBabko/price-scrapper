@@ -101,6 +101,55 @@ He concedes he **never uses four burners simultaneously** — yet his previous f
 
 [source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
 
+### ⚠️⚠️ Build to the Ceiling — the Tension Between Two January 2021 Sources, RESOLVED BY A THIRD (Александр Синчуков)
+
+**Three sources within eleven days, and read together they settle a question the first two open:**
+
+- **2021-01-22 (Round 6): build wall units TO THE CEILING**, because any gap becomes a greasy dust ledge at head height — remembered from Soviet kitchens where «был такой СЛОЙ ГРЯЗИ СВЕРХУ».
+- **2021-01-27: the top tier becomes a forgotten warehouse** — «у меня у самого есть такой шкаф, и я не могу вспомнить, что там лежит… если вы не хотите устраивать СКЛАДЫ непонятно чего, то ОТ ВЕРХНИХ ШКАФОВ МОЖНО ОТКАЗАТЬСЯ». [source: [[_Sources/YT_wvlr2aGDMCc_nsdsgn_five_kitchen_mistakes|YT_wvlr2aGDMCc]]]
+- **⚠️⚠️ 2021-02-02 — HE STATES BOTH HALVES AND GIVES THE CONDITION: the top tier IS a black hole («если вы убрали вещи на верхний ящик, вы про них НАВСЕГДА ЗАБУДЕТЕ») — BUT «это решение ХОРОШО, когда у вас МАЛЕНЬКАЯ КВАРТИРА и вам нужно ЭКСТРА ХРАНЕНИЕ для вещей, которых НЕКУДА БОЛЬШЕ ДЕВАТЬ».**
+
+- → **⚠️⚠️ SO: BUILD TO THE CEILING (no ledge), AND EXPECT THE TOP TIER TO BE DEAD STORAGE — which is acceptable in a small flat and wasteful in a large one. RESOLVED BY THE SOURCE, not by inference. In his own studio the wall units were a full 60 cm deep, same as the bases, which is what made them a warehouse.**
+
+### ⚠️⚠️ The Filler Batten That Makes Build-to-Ceiling Possible — the Vault Recommends the Detail in Two Places and Has Nothing on the Junction
+
+**«Потолок у меня от застройщика — это просто БЕТОННАЯ ПЛИТА, и бетонные плиты у нас КРИВЫЕ, это ТЕХНОЛОГИЧЕСКИЙ МОМЕНТ… чтобы фасад кухни подходил к потолку, там делается вот такая ДЕКОРАТИВНАЯ ПЛАНОЧКА, и за счёт неё идёт ВЫРАВНИВАНИЕ. Тонкий момент, но БЕЗ НЕГО, если сделать просто ровные шкафы до потолка, там было бы СИЛЬНО КРИВО.»**
+
+- → **A ФАЛЬШ-ПЛАНКА between the wall units and an unlevelled developer slab, absorbing the slab's deviation. Without it, build-to-ceiling is visibly wrong — so the two findings are a package.**
+- → **⚠️ The second of THREE tolerance-absorbing details in one practitioner's vocabulary (with the worktop overhang and the projecting windowsill), and all three are what minimalism removes.**
+
+### ⚠️⚠️ The ГЛУХАРЬ's PRIMARY Function Is Door Clearance — Round 6 Recorded Only Its Secondary One
+
+**«Самый распространённый косяк — это дверь, которая находится ВПЛОТНУЮ К СТЕНЕ… сделали кухню, [а] дверь просто тупо НЕ ОТКРЫВАЕТСЯ. Первое решение — СПЕЦИАЛЬНЫЕ ПЕТЛИ, которые позволят открывать дверь ПАРАЛЛЕЛЬНО СТЕНЕ. Второе — ЗАГЛУШКА, [когда] делается ГЛУХАРЬ до стены, и он позволяет следующей двери СВОБОДНО ОТКРЫВАТЬСЯ.»**
+
+- → **Round 6 records the глухарь from his 2023 kitchen as a SPLASHBACK-TERMINATION device. That is its secondary use; this is the structural one, and it is two years earlier.**
+- **⚠️ A third instance in his own studio names the obstruction and the cost: «если дверка была [бы] от стены, то она просто УДАРИЛАСЬ [бы] В РАДИАТОР [и] не открылась. В таком случае всё открывается, но МЫ ТЕРЯЕМ немножко ПОЛЕЗНОЙ ПЛОЩАДИ.»** → **The radiator is the real obstruction in a small kitchen, and the filler costs usable area — so it is a trade, not a free fix.** [source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+### ⚠️⚠️ Three Appliance Dimension Clashes That Are Invisible in a Spec Sheet
+
+1. **⚠️⚠️ THE MICROWAVE IN A WALL CABINET: wall units are «порядка 30–35 см в глубину», a microwave is «в районе 40–45», so it PROTRUDES and sits on a visible support bracket («МОСТИК») — «от этого НИКАК НЕ ИЗБАВИТЬСЯ». Three routes: accept it; buy a purpose-made shallow built-in unit (⚠️ **«в два-три раза» dearer per the 2021-01-27 source, «в 3–4 раза» per the 2021-02-02 one — two figures from one practitioner five days apart, recorded as a range with both dates rather than picking**); or put it in a TALL COLUMN with the oven, where a full-size 60 cm unit fits and «уже не будет стоить таких безумных денег — выбор гораздо шире», but «для этого вам нужна БОЛЬШАЯ КУХНЯ».
+2. **⚠️⚠️ AND THE COLUMN'S OWN TRAP, WITH A SAFETY CONSEQUENCE: the oven goes high to avoid stooping — «не нужно нагибаться с противнем, не надо горбатиться» — but it is usually paired with the microwave, and «в погоне за высотой духовки МИКРОВОЛНОВКА ОЧЕНЬ ЧАСТО ЗАБИРАЕТСЯ ОЧЕНЬ ВЫСОКО. Если микроволновка будет сильно высоко, просто будет НЕУДОБНО ДОСТАВАТЬ разогретое блюдо, РАЗОГРЕТЫЙ БОРЩ какой-нибудь — И ЭТО МОЖЕТ ОЧЕНЬ ПЛОХО КОНЧИТЬСЯ.»**
+   - → **Raising the oven for back comfort raises the microwave into a SCALDING HAZARD. A real ergonomic trade-off between comfort and safety, and it belongs with the vault's mounting-heights content.**
+3. **⚠️ INDUCTION HOBS ENCROACH DOWNWARD: «индукционная занимает ГОРАЗДО БОЛЬШЕ МЕСТА ПО ГЛУБИНЕ, чем обычная варочная поверхность — например ЯЩИКИ ВНИЗУ будут уже НЕ ДО КОНЦА… или если [столешница] из камня, то она будет ЗНАЧИТЕЛЬНО ТОЛЩЕ, чтобы индукция поместилась.» ⚠️ And the 2021-02-02 source adds the other half: the body needs a VENTILATION GAP beneath it as well — «под ним должна быть ещё ВЕНТИЛЯЦИЯ, поэтому вся эта конструкция займёт довольно много места». So the encroachment is BODY DEPTH PLUS AIR GAP, and «что-то может просто НЕ ВЛЕЗТЬ».**
+4. **A DISHWASHER'S DOOR SWING can foul a corner or peninsula front and block the passage.**
+
+### ⚠️⚠️ Two Small-Flat Trades, Stated Explicitly, With the Requirement DROPPED Rather Than Compressed
+
+- **⚠️ He declines the entertaining requirement instead of designing for it: «все говорят, что это очень мало места, как же встречать гостей — Я НЕ ВСТРЕЧАЮ ЗДЕСЬ ГОСТЕЙ. Для полноценного завтрака, обеда, ужина для двоих… более чем хватает.»** → **In a very small flat, DROP the requirement rather than compress it — and say so, so the plan is not judged against a brief nobody has.**
+- **⚠️⚠️ AND THE TRADE HE MADE: «у меня была мысль СНЕСТИ эту газобетонную стену [и] ПРОДЛИТЬ туда кухню — получилась бы полноценная крутая большая кухня. Но квартира-малютка, и мне нужно было где-то иметь РАБОЧИЕ МЕСТА, и я ОТДАЛ это пространство бывшего балкона ПОД РАБОЧИЙ СТОЛ.»** The eating surface is **75 cm high** — «полноценный обеденный стол, к нему подходит ОБЫЧНЫЙ ОБЕДЕННЫЙ СТУЛ».
+  - → **A proper kitchen versus a workspace, resolved toward work — and it is the origin of the same arrangement in his 2023 flat. The balcony was annexed to make the workspace.**
+- **⚠️ A SIGHTLINE-DRIVEN APPLIANCE MOVE, off the developer's layout: «изначально по планировке от застройщика здесь был холодильник, но я НЕ ХОТЕЛ ЛЕЖА НА КРОВАТИ СМОТРЕТЬ НА ХОЛОДИЛЬНИК постоянно… поэтому я СПРЯТАЛ ЕГО за эту стену.»** → In a studio the fridge sits in the bed's sightline unless deliberately moved.
+
+### ⚠️ Three Stool Heights — With a Self-Disclosed Failure Caused by a Discount
+
+**«У меня самого была такая ошибка»: his own flat had an island at WORKTOP height; a friend in the furniture trade offered discounted «классные, модные, супер выгодные» stools; he bought them, and «когда я их поставил к полубарному острову, я просто СМЕЯЛСЯ НАД СОБОЙ, потому что я выглядел каким-то МАЛЕНЬКИМ ГНОМИКОМ, который сидит за огромным столом».**
+
+**⚠️ THE RULE: THREE DISTINCT HEIGHTS — ОБЕДЕННЫЙ (dining, ≈75 cm), ПОЛУБАРНЫЙ (counter), БАРНЫЙ (bar). «Если у вас полубарный остров ВЫСОТОЙ С РАБОЧУЮ ПОВЕРХНОСТЬ, то к ней ОБЯЗАТЕЛЬНО должны быть ПОЛУБАРНЫЕ стулья.»**
+
+- → **⚠️ The failure was caused by a DISCOUNT, not by ignorance — he knew the rule and bought the wrong height because the price was good. Route to the seating pages with that framing, because it is the mechanism that actually produces this mistake.**
+
+[source: [[_Sources/YT_wvlr2aGDMCc_nsdsgn_five_kitchen_mistakes|YT_wvlr2aGDMCc]]]
+
 
 ## Layout Forms — Corner, Linear and the Island
 

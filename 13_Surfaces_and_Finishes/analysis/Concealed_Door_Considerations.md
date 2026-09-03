@@ -139,6 +139,22 @@ door's simple hinge mechanism. `single-account`, `unverified`, Ontario
 
 Worth flagging lightly rather than overclaiming: the concealed-door regret/hidden-cost content above is real and comes from businesses with real jobsite experience — but those same businesses also sell the alternative (classic doors), so the "avoid concealed doors" framing itself carries a mild structural interest, the same way a competing retailer's security-spec claims do in [[13_Surfaces_and_Finishes/analysis/Entrance_Doors|Entrance Doors]]. This doesn't discredit the specific mechanisms described above (wall-prep prerequisite, fabrication tolerance, schedule impact are all concrete and checkable, not vague warnings) — but it's a reason to read the framing as "concealed doors have real, documented costs that are often undersold at the design stage," not as "concealed doors are a mistake," which is a stronger claim than the evidence supports.
 
+### ⚠️⚠️⚠️ The Practitioner Whose Method This Page Is Built From RECOMMENDS AGAINST Them for Most People (Александр Синчуков, his own flat mid-build, 2022-10-04)
+
+**This page holds his two-stage installation METHOD and his 200-rouble protective-sleeve tip. It has been missing his own VERDICT, and the verdict is negative.**
+
+**«Двери скрытого монтажа — это вообще ОТДЕЛЬНАЯ ГОЛОВНАЯ БОЛЬ. Я ОЧЕНЬ ЛЮБЛЮ эстетику минимализма… НО ЕСТЬ ПРОБЛЕМА: у них НЕТ НАЛИЧНИКОВ, поэтому все работы нужно сделать ИДЕАЛЬНО, причём НА ЧЕРНОВОЙ СТАДИИ, выставить ДО МИЛЛИМЕТРА — при этом нужно УЧИТЫВАТЬ, КАКАЯ БУДЕТ ФИНАЛЬНАЯ НУЛЕВАЯ ОТМЕТКА ЧИСТОГО ПОЛА, СКОЛЬКО МИЛЛИМЕТРОВ СЪЕСТ МАЛЯРКА, какая будет высота перемычки… столько всяких параметров, [и] будет ясно, что вы всё правильно сделали, ТОЛЬКО В САМОМ КОНЦЕ РЕМОНТА. ШАНС ПРОМАХНУТЬСЯ ОЧЕНЬ ВЕЛИК.»**
+
+**⚠️⚠️ HIS RECOMMENDATION: «наверное ПРОЩЕ КУПИТЬ ДВЕРИ С КЛАССИЧЕСКИМ НАЛИЧНИКОМ, и они ЗА МЕНЬШУЮ ЦЕНУ будут смотреться ЛУЧШЕ.»**
+
+- **His reasons: openings still need preparing to the maker's ТЗ, but «шанс избежать ошибок гораздо [выше]… ВАРИАНТ ДЛЯ МАНЁВРА РАСШИРЯЕТСЯ»; and supply is thin — «скрытых дверей всего лишь НЕСКОЛЬКО ФАБРИК и ВЫБОР ОЧЕНЬ МАЛЕНЬКИЙ», while architraved doors span a far wider price and choice range. Cheap concealed doors «выглядят какая-то ДЕШЁВАЯ КАРТОНКА»; good ones start high.**
+- → **⚠️⚠️ A SUBSTANTIAL CORRECTION OF EMPHASIS ON THIS PAGE. The method above is real and he used it — but he does not recommend that most people attempt it, and the page previously read as though he did.**
+- → **⚠️⚠️ AND IT CONFIRMS THE ROUND 6 RESOLUTION OF THE FINISHED-FLOOR-DATUM QUESTION, ABOVE. There I reconciled a rescue contractor's «устанавливать только после чистового пола» against the two-stage rough-stage method, concluding they were two risk controls on ONE VARIABLE — the datum. Here the same practitioner names EXACTLY that datum as the reason the whole detail is a bad bet, and adds that you only find out whether you got it right AT THE VERY END. Third independent statement of where the risk sits.**
+- ⚠️ **The general principle it belongs to is at [[17_Design_and_Ergonomics/analysis/Material_and_Finish_Technique|Material and Finish Technique]]: «ДЁШЕВО МИНИМАЛИЗМ СДЕЛАТЬ НЕ ПОЛУЧИТСЯ» — every concealed detail removes the tolerance that cheap work depends on, and he names shadow skirtings and concealed doors as the two that make economising impossible.**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Recessed Door Frame ("Утопленный короб") — With One Critical Constraint (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 **⚠️ The detail**: the frame is set into the wall so that the small return wall (простенок) which a normally-mounted frame creates disappears, and the wall reads as continuous, with the finish flowing from one room into the next.

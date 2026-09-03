@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=K2pg-8iGP4s",
+  "video_id": "K2pg-8iGP4s",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-03T18:03:53.053125+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "fc578743af57e7382abd14f65c8bc46da84c02a74c7f0e42bb58a57bc7ad8807",
+  "attempts_before_success": []
+}

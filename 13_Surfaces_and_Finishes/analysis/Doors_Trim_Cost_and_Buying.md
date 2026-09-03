@@ -117,6 +117,27 @@ Glass constructions (shower enclosures, sliding loggia partitions) contribute le
 
 `single-account`, `unverified`, 2023 data, **region unresolved at level 1** (RUB pricing implies the Russian market; no city named in the source). Percentages travel better than absolute figures, but both should be read as one studio's cost experience. [source: [[_Sources/YT_UDrpyZE_V38_shevrina_renovation_cost_structure|YT_UDrpyZE_V38]]]
 
+### ⚠️⚠️ Laminated OVER Veneered, on DURABILITY — Plus Tall Leaves and the Lift (Александр Синчуков, his own flat mid-build, 2022-10-04)
+
+**«ШПОНИРОВАННОЕ полотно смотрится эффектнее, это натуральный слой дерева, но стоит значительно дороже. Я, чтобы сэкономить, взял ЛАМИНИРОВАННОЕ — оно дешевле, это ИСКУССТВЕННЫЙ материал. НО ЕСТЬ ОДИН ВАЖНЫЙ ПЛЮС: искусственный материал ПРОСЛУЖИТ ВАМ ГОРАЗДО ДОЛЬШЕ, потому что ЛЮБОЕ КАСАНИЕ натурального шпона МОЖЕТ ЕГО ИСПОРТИТЬ — такой дверью нужно быть очень аккуратным.»**
+
+- → **⚠️ The vault holds a Perspectives block on veneered fronts (durability versus dirt visibility). THIS IS A THIRD POSITION AND THE STRONGEST FORM OF THE DURABILITY ARGUMENT: a designer choosing the SYNTHETIC option for his OWN flat, explicitly on longevity rather than on price.**
+
+**⚠️ TALL LEAVES — 2.4 m: «Мне очень нравятся высокие двери, как они ВИЗУАЛЬНО УВЕЛИЧИВАЮТ ВЫСОТУ ПОТОЛКА.» Costs: «со всем стандартным приходится ПЕРЕПЛАЧИВАТЬ… если захотите ещё выше, выбор ещё сильнее УМЕНЬШИТСЯ, а цена очень сильно ВЫРАСТЕТ.»**
+
+- **⚠️⚠️ AND THE COORDINATION TRAP NOBODY MENTIONS: «ВХОДНАЯ ДВЕРЬ ДВУХМЕТРОВАЯ СТАНДАРТНАЯ довольно СМЕШНО СМОТРИТСЯ рядом с ними.»** → **A tall interior door makes the standard 2 m entrance door look absurd — and the entrance door is usually NOT in the same order, so the mismatch is discovered late. Second, independent instance of the interior-versus-entry height problem this page records, and this one is from the person who did it.**
+
+### ⚠️⚠️ The Access Route Is a DESIGN AND SEQUENCING Constraint — Two Worked Cases, One of Which Inverts the Programme (same source)
+
+- **«Если бы моя дверь была чуть-чуть ШИРЕ или чуть ДЛИННЕЕ… она бы НЕ ВЛЕЗЛА В ЛИФТ, и мне пришлось бы платить за ПОДЪЁМ ПО ЧЕРНОВОЙ ЛЕСТНИЦЕ — это стоило бы значительно дороже.»**
+- **⚠️⚠️ A SECOND CASE THAT REVERSES A SEQUENCE ENTIRELY: clients with a high-ceilinged old-fund flat want a partial steel mezzanine, and «МЕТАЛЛИСТЫ СКАЗАЛИ: ребят, вы пока можете ОКНА НЕ МЕНЯТЬ, потому что мы всё будем ЗАНОСИТЬ ЧЕРЕЗ ОКНО и скорее всего мы вам ваши окна РАЗОБЬЁМ. Поэтому ПОКА ИХ НЕ МЕНЯЙТЕ, оставьте старые деревянные.»**
+- **His rule: «ВСЕГДА ДУМАЙТЕ О ПОДЪЁМЕ, О ЗАНОСЕ — потому что чем НЕСТАНДАРТНЕЕ, чем СЛОЖНЕЕ ДОСТАВКА, тем она ДОРОЖЕ.»**
+- → **⚠️⚠️ In Round 6 I flagged "the access route matters for block-delivered kitchens" as MY OWN inference from a factory visit. It is now SOURCED, as this practitioner's explicit rule, with two cases — and one of them shows the programme itself may have to be re-ordered around the delivery. Recorded so the earlier inference is upgraded rather than left as mine.**
+- ⚠️ *And the same trick solves it for tile: a large-format slab that will not fit the lift is CUT TO THE INSTALLED DIMENSION AT THE FACTORY — see [[07_Bathroom/analysis/Tile_Cutting_Handling_and_Special_Formats|Tile Cutting, Handling and Special Formats]].*
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## ⚠️ Reverse-Swing Premium — Two Conflicting Figures From the Same Practitioner (added 2026-08-31)
 
 The section above records a **+20%** premium for reverse-swing doors, from her bill-of-quantities video. **A second video from the same studio gives "процентов на 30" for the same thing.**

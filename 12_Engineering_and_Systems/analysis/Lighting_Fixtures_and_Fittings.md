@@ -289,3 +289,34 @@ Part of [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]].
 
 [source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
 
+### ⚠️⚠️ The Mid-Depth Strip Position Is a JANUARY 2021 GENERAL RULE, Not a 2023 Discovery — With the Market Contrast
+
+**The Round 6 entry above records the mid-depth worktop strip from his own 2023 kitchen and calls the lateral position new to the vault. It is a stated general rule two years and ten months earlier, and the earlier version carries the more useful half:**
+
+**«БОЛЬШИНСТВО КУХОННЫХ МАГАЗИНОВ по-прежнему предлагают делать стандартные светильники ВДОЛЬ ФАРТУКА, то есть В САМОЙ ГЛУБИНЕ кухни. Но на всех крутых немецких, европейских, американских кухнях подсветка идёт ЛИБО В ЦЕНТРЕ верхних ящиков, ЛИБО вообще ВЫНЕСЕНА БЛИЖЕ К ВАМ, ближе к центру столешницы — свет РАСПРЕДЕЛЯЕТСЯ РАВНОМЕРНО и вы всё видите. Если же свет будет вдоль фартука, [он] будет светить куда-то ТУДА, в дальний конец.»**
+
+- → **⚠️ The MARKET-PRACTICE CONTRAST is what makes this actionable: THE DEFAULT YOU WILL BE OFFERED IS WRONG. A kitchen supplier's standard drawing puts the strip at the splashback, and you have to ask for it to be moved forward.**
+- The safety framing: «резать огурцы и лук конечно же лучше ПРИ СВЕТЕ, чтобы НЕ ОТРЕЗАТЬ СЕБЕ ПАЛЕЦ.»
+
+[source: [[_Sources/YT_wvlr2aGDMCc_nsdsgn_five_kitchen_mistakes|YT_wvlr2aGDMCc]]]
+
+### ⚠️⚠️ Whole-Room Light From ONE Existing Ceiling Outlet — the Spider Pendant, for a Flat Where the Ceiling Is Not Being Redone (Александр Синчуков, his own previous flat, 2021-02-02)
+
+**«В этой квартире НЕ БЫЛО глобального полноценного ремонта, и ПОТОЛКИ НЕ ПРИШИВАЛИСЬ, поэтому встал вопрос, как организовать свет. Мне понравились вот такие ЛЮСТРЫ-ПАУКИ, потому что их можно БЕЗБОЛЕЗНЕННО раскинуть и развесить ПО ВСЕМУ ПОТОЛКУ. Вывод в бетонной плите УЖЕ СДЕЛАН, и чтобы его ПЕРЕНЕСТИ, нужно ПРОБИТЬ ПОТОЛОК, переделывать, замазывать — это целая история. Поэтому я повесил просто ПАУК рядом и РАВНОУДАЛЁННО развесил светильники на РАЗНОЙ ВЫСОТЕ, на разном расстоянии.»**
+
+- → **⚠️⚠️ A multi-cord "spider" pendant distributes light across a whole room FROM THE SINGLE EXISTING CEILING OUTLET — no chasing, no ceiling build-up, no lost height, no rewiring. This vault's lighting content assumes a chased or suspended ceiling throughout, and this is the strategy for a flat where neither is happening.**
+- **⚠️ THE COORDINATION DETAIL: «здесь пришлось ЗАПАРИТЬСЯ, чтобы не происходило вот таких ситуаций, знаете, когда ДВЕРКА БЬЁТСЯ [в светильник] — здесь всё продумано ДО МИЛЛИМЕТРА.»** → Pendant cords hang in the cabinet door swing path — the same clash this vault records for track lighting, here earlier and harder to solve, because a cord is not adjustable after installation.
+- **⚠️⚠️ AND THE DEFECT, WITH A SECOND-HAND FAILURE: «на ней ЖЁСТКО ОСЕДАЕТ ПЫЛЬ, и отмыть её — это целая история. МНЕ НЕ УДАЛОСЬ ОТМЫТЬ. Я спросил у поставщика света, можно ли ЗАСУНУТЬ светильники В ПОСУДОМОЙКУ — она ЗАКРИЧАЛА: "НЕТ, НИ В КОЕМ СЛУЧАЕ" — у меня так одна ЗАКАЗЧИЦА сделала, и все эти ПЛАФОНЫ НАФИГ РАЗБИЛИСЬ. Поэтому для тех, кто не любит убираться, ПЛАФОНЫ — это такая вещь СОМНИТЕЛЬНАЯ.»**
+  - → **⚠️ Glass shades cannot be dishwashered — a supplier's client destroyed a set — and he could not clean them by hand either. With the Round 6 findings that upward-facing shades are dust bowls and that metal beats plastic, the vault now has a coherent shade-maintenance cluster with a named failure at each end.**
+
+### ⚠️⚠️ The LED Driver Is a CONSUMABLE — Put It on a Plug in an Accessible Cabinet (same source, and a $30m counter-example)
+
+**«Трансформатор от этой подсветки находится вот здесь, В ВЕРХНЕМ ЯЩИКЕ, он там ВКЛЮЧАЕТСЯ В РОЗЕТКУ — потому что трансформатор, как вы знаете, это РАСХОДНЫЙ МАТЕРИАЛ, он ЧАСТО ГОРИТ. У меня два года он пока ещё не сгорел, ну всякое бывает — его потом просто МЕНЯЕМ, и лента будет опять работать.»**
+
+- → **⚠️⚠️ A serviceability decision taken AT DESIGN TIME by a designer in his own flat: the driver goes on a PLUG, inside an ACCESSIBLE cabinet, because it WILL fail. That is the countermeasure to this page's integrated-LED-fittings-are-disposable finding, and it is the client-side answer to Round 6's contractor-warranty-horizon problem — the client can provide serviceability where the contractor's horizon does not reach.**
+- **⚠️⚠️ AND THE COUNTER-EXAMPLE IS SPECTACULAR, from the same practitioner in October 2022: «мы недавно были в Дубае на вилле за 30 МИЛЛИОНОВ ДОЛЛАРОВ, и когда мы ехали В ЛИФТЕ, наверху была ЗАКАРНИЗНАЯ ПОДСВЕТКА — и Я ВИДЕЛ ТРАНСФОРМАТОР. Вот это я вижу в роскошном дорогом особняке: НА САМОМ ВИДУ, в нише ТОРЧИТ блин трансформатор.»** → **BUDGET DOES NOT BUY COORDINATION — and this pairs exactly with Round 6's KNX case, where premium components met failed workmanship.**
+- **⚠️ His own answer at scale: a separate LOW-VOLTAGE PANEL (щит слаботочки) for all the drivers; and if you will not build one, «трансформаторы можно располагать рядом со светильником… рядом с ближайшим шкафом… спрятать в тумбу. Единственное, что нужно — всё ПРОРАБОТАТЬ ЗАРАНЕЕ, потому что когда всё уже сделано, очень часто возникают проблемы — КУДА ЭТОТ ТРАНСФОРМАТОР СПРЯТАТЬ.»** [source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+[source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+

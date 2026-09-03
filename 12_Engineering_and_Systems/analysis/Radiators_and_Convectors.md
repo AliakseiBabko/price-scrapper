@@ -222,6 +222,25 @@ market-product category worth knowing about when a radiator's own
 appearance doesn't suit the room, rather than one specific model's spec.
 [source: [[_Sources/YT_fIicREPruVs_petrishin_mosbuild_faucets_expo|fIicREPruVs]]]
 
+### ⚠️⚠️ Floor-Mounted Tails Versus Wall-Mounted — a Compound Mechanism, and He Paid to Change It (Александр Синчуков, his own flat mid-build, 2022-10-04)
+
+**This page has connection side, bracket loads and false-wall depth. It has nothing on FLOOR versus WALL tails, and here is a first-person, paid-for decision with a three-part reason:**
+
+**«ПОДВОДКА К РАДИАТОРУ ИЗ ПОЛА — это постоянно МЕШАЕТ УБИРАТЬ: ШВАБРА, ПЫЛЕСОС — подводка будет мешать. Потом вывод шёл бы ИЗ ИНЖЕНЕРНОЙ ДОСКИ, [а] в течение года доска РАСШИРЯЕТСЯ, то СУЖАЕТСЯ, там будут появляться ЩЕЛИ — тем более ОТОПЛЕНИЕ у нас тоже меняется, то ГОРЯЧЕЕ, то ХОЛОДНОЕ — и эти щели будут ЗАБИВАТЬСЯ ВСЯКОЙ ГРЯЗЬЮ. Сверху нужно прикрывать, [а] ЭСТЕТИЧНЫХ ПРИКРЫВАШЕК ПРОСТО НЕ СУЩЕСТВУЕТ — они обычно дешёвые пластмассовые либо металлические, КРАСИВОГО ТАМ НИЧЕГО НЕТ. Поэтому я поступил очень просто: ПЕРЕНЁС ЭТОТ ВЫВОД В СТЕНУ, и у меня радиаторы ЗАПИТАНЫ ПРОСТО ИЗ СТЕНЫ. Это стоило определённых денег, но я ПОЛНОСТЬЮ ИЗБАВИЛСЯ от проблем.»**
+
+- → **⚠️⚠️ THREE FAILURES IN ONE DETAIL: (1) the tails obstruct a mop and vacuum head permanently; (2) an engineered-board floor MOVES SEASONALLY around the penetration, AMPLIFIED by the heating cycle, opening gaps that fill with dirt; (3) no acceptable cover plate exists on the market. Therefore WALL-MOUNTED TAILS, decided at rough stage and impossible afterwards.**
+- ⚠️ **The seasonal-movement half is the non-obvious one, and it is specific to a timber floor — on tile the same penetration is stable.** *(That distinction is mine; he names the engineered board.)*
+
+### ⚠️ Spend on the Visible, Economise on the Concealed — and the WINDOW TREATMENT Decides Which Is Which (same source)
+
+**He does NOT buy designer radiators: «радиаторы стоят ощутимо… ДИЗАЙНЕРСКИЕ радиаторы стоят довольно дорого. НО у меня на стенах, где радиаторы, БУДЕТ ТЮЛЬ, поэтому его будет НЕ ОСОБО ВИДНО, и я решил радиатор просто ПОКРАСИТЬ В ЦВЕТ СТЕН. На этом я очень сильно СЭКОНОМЛЮ.»**
+
+- → **⚠️⚠️ He applies the SAME conditional to the windowsill in the same section — cheap plastic where curtains hide it, mitred porcelain where they do not. SO THE RULE IS: THE WINDOW TREATMENT DETERMINES WHETHER THE RADIATOR AND THE SILL ARE VISIBLE ELEMENTS AT ALL, and therefore whether they are worth spending on. Decide the curtains before pricing either.**
+- ⚠️ **That is a genuine sequencing consequence: window treatments are usually chosen LAST and this makes them a prerequisite for two earlier budget decisions.** *(My inference, flagged.)*
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Controls, Sensors and Checklists
 
 ### Leak-Protection Sensor and Thermostatic-Head Opinions (added 2026-08-24, Round 3)

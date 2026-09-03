@@ -15,6 +15,19 @@ Whether to fit one, what it is actually for, and the under-sink conflict it crea
 - → **A disposer handles FINE SCRAPS left on plates and in the bowl. Peelings and bulk vegetable waste go to the bin.** Used within that scope he reports no drainage problems; used outside it, the objection stands.
 - → **So the disposer does not replace the bin — which is what makes the conflict below matter.**
 
+### ⚠️⚠️ He Recommended a BROADER Scope in 2021 and Narrowed It After Owning One — the Direction of Travel Tells You Which Claim to Trust
+
+**January 2021, BEFORE he owned one: «ЛЮБОЙ МУСОР — вы можете КАРТОШКУ ПРЯМО ЧИСТИТЬ [в] мойку, включать, и вся грязь, все ШКУРКИ, всё это будет измельчаться и удаляться вместе с водой.»** He also answers the bacteria objection: «они точно так же могут разводиться в вашем СИФОНЕ, поэтому я вообще не вижу в этом проблемы.» [source: [[_Sources/YT_wvlr2aGDMCc_nsdsgn_five_kitchen_mistakes|YT_wvlr2aGDMCc]]]
+
+**November 2023, AFTER owning one (recorded above): «КОНЕЧНО ЖЕ Я ЭТОГО НЕ ДЕЛАЮ — я чищу картошку в мусорное ведро», restricting it to fine scraps.**
+
+- → **⚠️⚠️ A CLEAN, DATED POSITION CHANGE DRIVEN BY OWNERSHIP. Both are recorded, and the DIRECTION OF TRAVEL is what makes the 2023 version the one to trust — it is the experienced claim, and the 2021 one is the enthusiast's.**
+- **⚠️ AND THE THIRD POINT IN THE CHAIN, from February 2021: the disposer was NUMBER ONE on his written wish list for the next flat — «это просто МОЯ МЕЧТА, я сплю и вижу, потому что в мойке постоянно скапливаются остатки еды… это всё приходится ВЫНИМАТЬ, ВЫТРЯХИВАТЬ».**
+  - → **So the vault now holds the WANT (Feb 2021), the PUBLIC RECOMMENDATION (Jan 2021), the ACQUISITION (2023) and the REVISED SCOPE (2023) — a complete arc on one appliance, which is unusual and makes the narrowed scope well evidenced rather than merely cautious.**
+
+[source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+
 ## ⚠️⚠️ The Conflict Nobody Mentions: the Disposer Eats the Bin's Volume — and There Is a Specific Fix
 
 **«Мусорное ведро вот такого размера — это МАКСИМАЛЬНОЕ, что сюда влезает, ПОТОМУ ЧТО У МЕНЯ ЕСТЬ ИЗМЕЛЬЧИТЕЛЬ.»** The disposer body hangs directly below the waste outlet and occupies the centre of the under-sink cabinet — which is exactly where a full-size pull-out bin would go.

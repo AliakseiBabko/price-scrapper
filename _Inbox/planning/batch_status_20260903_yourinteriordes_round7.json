@@ -1,0 +1,125 @@
+{
+  "batch": "nsdsgn_round7",
+  "channel": "@YourInteriorDes / NSDSGN",
+  "date": "2026-09-03",
+  "scoping_rationale": "Continued the oldest-first scoping recommended at the end of Round 6, and measured a hard limit on it: caption availability. Two of five original picks had no Russian caption track at all and were replaced. The oldest-first phase is now over.",
+  "videos": 5,
+  "facts": 209,
+  "yield_per_video": 41.8,
+  "yield_history": {
+    "round_4": 180,
+    "round_5": 170,
+    "round_6": 178,
+    "round_7": 209
+  },
+  "why_yield_rose": "Structural, not luck: the origin layer is dense with FIRST STATEMENTS of findings the vault already holds, so a single source corrects many pages.",
+  "rate_limit_signatures": 0,
+  "caption_tracks": {
+    "manual_ru": 3,
+    "asr_ru": 2,
+    "no_ru_track_unprocessable": 2
+  },
+  "caption_availability_finding": {
+    "probed": 17,
+    "boundary": "2021-08-10",
+    "from_boundary": "manual ru uniformly, plus manual en/es/de",
+    "before_boundary": "per-video: auto or nothing; 4 of 8 probed in 2019-09..2021-07 have NO ru track",
+    "consequence": "oldest-first scoping is bounded by availability; probe before scoping",
+    "unfetchable": [
+      "Phk79uKT7rA (2020-11-03)",
+      "3y-gA7A6QJ4 (2021-04-02)",
+      "KPRcI_CPpAs (2021-07-27)",
+      "VQpfwvwNss4 (2019-09-16)"
+    ]
+  },
+  "sources": [
+    {
+      "video_id": "ffP5bdHlh_E",
+      "upload_date": "2020-12-03",
+      "fact_yield": 38,
+      "promotional_ratio": "low",
+      "caption": "asr",
+      "note": "Oldest fetchable technical source. A rescue-of-a-DESIGN case. Desk/windowsill convection gap; drain-fall constraint for the third time via unbuildable developer brochure layouts; raking-light dating correction; LDSP integrated-pull limit corroborating another channel."
+    },
+    {
+      "video_id": "wvlr2aGDMCc",
+      "upload_date": "2021-01-27",
+      "fact_yield": 44,
+      "promotional_ratio": "low",
+      "caption": "manual",
+      "note": "The origin document for the vault's NSDSGN kitchen content - EIGHT re-datings, several with the mechanism the later statements lack (stamped-vs-welded sinks; glukhar door clearance; push-to-open placement rule; under-cabinet light position with the market contrast)."
+    },
+    {
+      "video_id": "hEZntyMcP-A",
+      "upload_date": "2021-02-02",
+      "fact_yield": 46,
+      "promotional_ratio": "low",
+      "caption": "asr",
+      "note": "HIS OWN PREVIOUS FLAT - discovered, not selected. Completes a six-point record across two homes. The LDSP regret as the origin of the handleless-front grease problem, and the three-point chain where aesthetics beat a known conclusion. Corrected my Round 6 touch-switch count."
+    },
+    {
+      "video_id": "K2pg-8iGP4s",
+      "upload_date": "2022-10-04",
+      "fact_yield": 48,
+      "promotional_ratio": "low",
+      "caption": "manual",
+      "note": "HIGHEST YIELD ON THE CHANNEL. His new flat MID-BUILD, so decisions before outcomes. The minimalism-is-not-cheap thesis; recommends AGAINST concealed doors; soundproofing stopping rule; 8-month schedule stop from a concealed mixer establishing a named class."
+    },
+    {
+      "video_id": "cl0LIAVZUjI",
+      "upload_date": "2023-05-16",
+      "fact_yield": 33,
+      "promotional_ratio": "high_but_disclosed",
+      "caption": "manual",
+      "note": "Selected to CHECK a Round 6 assertion of mine - and the assertion was wrong. Confirms and specifies the plaster wet-zone capability instead. Sample-versus-area problem; prep by finish type; x2 ceiling labour; the vetting question asked three times and never answered."
+    }
+  ],
+  "repairs_performed": [
+    {
+      "page": "05_Kids_Room/analysis/Age_Staged_Planning.md",
+      "owed_since": "Round 5",
+      "flagged_rounds": 2,
+      "defect": "NOT fragmentation - one section held 154 of 359 lines on a different topic (desks, beds, shared rooms)",
+      "method": "split_page.py apply (split only; no merge needed)",
+      "result": "359 -> 208 + Desks_Beds_and_Shared_Rooms.md 167, 0 missing, 16/16 ids, CLEAN"
+    }
+  ],
+  "repair_pattern_note": "Three rounds, three repairs, THREE DIFFERENT DEFECTS and three different fixes: fragmentation (merge then split), structurelessness (manual topical pass then split), one oversized off-topic section (split only). The line count identified all three and diagnosed none.",
+  "pages_created": [
+    "05_Kids_Room/analysis/Desks_Beds_and_Shared_Rooms.md"
+  ],
+  "my_errors_corrected_this_round": [
+    "Round 6 touch-switch routing said 'THIRD independent practitioner... route as SETTLED'; two of the three are the same person in two flats. Two practitioners, not three - and it breaks Round 5's own 'count SOURCES not OCCURRENCES' rule.",
+    "Round 6 asserted 'he narrows this claim himself in later sources' about lacquered plaster in wet zones, with NO source. The later source confirms and specifies it instead.",
+    "Concealed_Door_Considerations.md was built from his METHOD and omitted his VERDICT (buy architraved doors instead)."
+  ],
+  "my_inference_now_sourced": [
+    "Round 6's 'access route matters for block-delivered kitchen units' was flagged as my inference; October 2022 states it as the practitioner's explicit rule with two cases, one of which inverts the programme."
+  ],
+  "resolved_by_the_source_not_by_me": [
+    "The build-to-ceiling vs skip-the-uppers tension between two January 2021 sources: a third source in the same layer states both halves and gives the condition (flat size)."
+  ],
+  "perspectives_opened": [
+    "RUGS - dust vs acoustic comfort; same practitioner both sides 21 months apart, allergy on both sides",
+    "DELIVERY MODEL - separate trades vs a general contractor; two practitioners, opposite choices, axis is scale",
+    "SOCKET HEIGHTS - the 30/90 orthodoxy attacked with a Soviet-SNiP provenance argument; routed to a TECHNICAL page with jurisdiction flagged, NOT to 16_Legal_and_Regulations, safety assertion flagged as opinion",
+    "UNDERFLOOR HEATING - natural wood as the pairing that defeats it, the reverse of the vault's existing framing"
+  ],
+  "open_questions_carried": [
+    "4000 K task-zone exception (from R6) - needs a lighting-design source",
+    "The 2021->2022 dark-surface reversal - R7 adds a third data point that partly DISSOLVES it (Feb 2021: black gloss and white show marks equally)",
+    "The pool-grout claim (pools use cement grout with additives) - his assertion, unverified, and load-bearing for the epoxy-is-unnecessary argument",
+    "The quartz-vinyl acoustic 'ring' claim - ASR-affected, direction only"
+  ],
+  "next_round_recommendation": "THE OLDEST-FIRST PHASE IS OVER - the reachable origin layer is exhausted. Scope BY FORMAT within the 2021-08-onward manual-caption era. Adopt a standing step: PROBE CAPTION AVAILABILITY BEFORE BUILDING SCOPE. Highest-value remaining title is one he names himself - a separate video on his intended palette, inviting an intent-versus-outcome comparison on the object the vault now holds at six points.",
+  "process_note": "Three of my errors across R6-R7 share one shape: a lesson was RECORDED without being turned into a STEP. Remedy added to Pending: before routing any claim that counts practitioners, credits a synthesis, or hedges with 'he qualifies this later', name the SOURCE FILES that support it; if the list is shorter than the claim, weaken the claim.",
+  "verification": {
+    "check_page_sizes": "289 pages, 0 fragmented, 0 over the 400 backstop",
+    "largest_page": "03_Kitchen/analysis/Storage_and_Hardware.md at 325 - coherent, seam noted if it grows",
+    "no_page_flagged_twice": true
+  },
+  "channel_progress": {
+    "processed": 36,
+    "total": 220
+  }
+}

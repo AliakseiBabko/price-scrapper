@@ -31,6 +31,25 @@ rooms).
   coordinated set, while a compact lamp base still leaves usable surface
   space beside it. `uwGxjv9O1kk`.
 
+### ⚠️⚠️ Replace the Nightstand With a RECESSED NICHE Carrying the Electrics (Ксения / NSDSGN, 45 m² project, 2020-12-03)
+
+**«Вместо тумбочек — УГЛУБЛЕНИЯ. Благодаря этому нет ЗАХЛАМЛЕНИЯ около кровати… ты заходишь в комнату — у тебя красивые пеналы, и ВСЕ ВЫКЛЮЧАТЕЛИ, ВСЕ РОЗЕТКИ, ВСЕ ТЕЛЕФОНЫ, которые постоянно около кровати, И ПРОВОДА — они СПРЯТАНЫ.»**
+
+- → **⚠️ A wall recess at bed height carrying the switches, sockets and charging clutter, replacing the bedside table entirely — zero floor footprint, which is the whole point in a tight room. The cheapest possible answer to bedside cable mess, and this page's nightstand content has nothing equivalent.**
+- → **⚠️ AND IT IS A ROUGH-STAGE DECISION, because it is a wall recess with first-fix electrics in it. Decided with the partition, not with the furniture — which puts it in the class recorded at [[11_Budget_and_Planning/Renovation_Sequence|Renovation Sequence]].**
+
+### ⚠️⚠️ And the Failure It Replaced — a Centred Bed That Made the Room Untraversable (same project)
+
+**The flat came to NSDSGN because a PREVIOUS DESIGNER «допустил НЕПОПРАВИМЫЕ СЕРЬЁЗНЫЕ ОШИБКИ», and the central one was a layout error: the bed was placed IN THE MIDDLE of the room with storage arranged around it, so «свободно перемещаться по спальне было НЕВОЗМОЖНО — нужно было либо ПЕРЕЛЕЗАТЬ ЧЕРЕЗ КРОВАТЬ, либо обходить».**
+
+**The fix: push the bed to the wall and put the storage at the SIDES and OVER THE HEADBOARD — «мы выиграли драгоценные сантиметры, и образовался ПРОХОД».**
+
+- → **⚠️⚠️ A small-flat circulation failure produced ON PAPER BY A DESIGNER, and visible only once built. This page's clearance content gives minima for both sides of a bed; this is the case where a designer bought two-sided access at the cost of ALL circulation. THE TEST IS WHETHER EVERY ROOM CAN BE TRAVERSED — and a centred bed in a small bedroom fails it even when the side clearances are nominally satisfied.**
+- ⚠️ **Route as a Perspectives-adjacent caution against applying the both-sides-clearance rule mechanically in a room too small to support it.** *(That reading is mine.)*
+
+[source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+
 ## Wardrobes and Closets
 
 - **⚠️ Wardrobe depth vs. hanging-clothes function**: a **40cm-deep**

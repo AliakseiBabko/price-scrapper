@@ -118,3 +118,76 @@ Third Pinterest real-image critique episode. [source: [[_Sources/YT_o-5X16hq9Fo_
 ---
 
 Part of [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative and Specialty Wall Finishes]].
+
+## ⚠️⚠️ Wet Zones — the Claim Specified, and a CORRECTION to What This Vault Said About It
+
+**Round 6 recorded a January 2021 claim that lacquered decorative plaster is usable in a shower zone and as a kitchen splashback, and added: *"and he narrows this claim himself in later sources."* ⚠️ I HAD NO SOURCE FOR THAT NARROWING. I inferred it because the claim seemed too bold, and wrote the inference as though it were established. Round 7 went looking for the later source, and it does the opposite.**
+
+**A decorative-coatings specialist, May 2023: «мы покрыли специальным ПОЛИУРЕТАНОВЫМ ЛАКОМ — он совершенно НЕУБИВАЕМЫЙ. ОН ПОДХОДИТ ДЛЯ ВЛАЖНЫХ ПОМЕЩЕНИЙ, потому что вот этот образец конкретно [пошёл] в ЗОНУ ОТДЫХА РЯДОМ С ХАМАМОМ — там СМЕНА ВЛАЖНОСТИ происходит, температура непостоянна — и протирать можно, МЫТЬ можно ХОТЬ ПОД ДАВЛЕНИЕМ, ХОТЬ ИЗ ШЛАНГА.»**
+
+**→ ⚠️ THE HONEST POSITION, NARROWER THAN EITHER OF MY EARLIER FORMULATIONS: with a POLYURETHANE top lacquer, decorative plaster is rated by its maker for a HIGH-HUMIDITY ROOM and can be pressure-washed. The worked example is a rest zone ADJACENT to a hammam — NOT a direct shower-spray zone. So the wet-zone capability is UPHELD for humid rooms and REMAINS UNEVIDENCED for direct spray.**
+
+- **⚠️ AND THE MECHANISM REFRAMES THE WHOLE QUESTION: the performance comes from the FINISH COAT, not from the plaster. The same specialist attributes an on-camera coffee-stain test to «СПЕЦИАЛЬНОМУ ФИНИШУ, который нанесён на декоративную штукатурку».** → **"Is decorative plaster washable?" is the wrong question. The right one is WHICH FINISH COAT IS SPECIFIED — and it belongs in the specification, not in the conversation.**
+- ⚠️ **Both claims are the SUPPLIER'S, about her own product, in a long-standing commercial relationship with the interviewer, and the stain test was run by her own staff on her own sample. Recorded with the flag; the mechanism is the transferable part, not the demonstration.**
+
+## ⚠️⚠️ Venetian Plaster Is Retired — With Exactly One Surviving Use
+
+**«ВЕНЕЦИАНКА УЖЕ ОСТАЛАСЬ В ДЕВЯНОСТЫХ»**, and per the specialist **«если говорить о современном дизайне, то она УШЛА НА 95 ПРОЦЕНТОВ»** — they hold not one sample of it for general use, keeping it only for museum-type work in the old fund.
+
+**⚠️ The one surviving application: HAND-PAINTED MARBLE (and timber) IMITATION. «Мы можем с визуализацией взять ЛЮБОЙ ВИД МРАМОРА… и создаём это ВРУЧНУЮ — работает ХУДОЖНИК — в НЕСКОЛЬКО СЛОЁВ, рисунок ЧИТАЕТСЯ ВГЛУБЬ, и всё это покрывается ВЕНЕЦИАНСКИМ ВОСКОМ… мы её используем ТОЛЬКО ДЛЯ ИМИТАЦИИ МРАМОРА, больше практически НИКОГДА.»**
+
+- → **⚠️ A THIRD OPTION IN THE MARBLE-VERSUS-GRANITE THREAD running through Rounds 5–7: the vault holds marble rejected on staining and hygroscopicity, with granite as the substitute. This is the LOOK of marble with none of the substrate — and it is a labour purchase (an artist, several layers) rather than a material one.**
+- **⚠️ A FREE COMPETENCE-TEST SIGNAL, and the most immediately usable line in the source: «многие маляры говорят: "а так это же ВЕНЕЦИАНОЧКА, это я СТО ЛЕТ УЖЕ ДЕЛАЮ".» → If a painter calls your specified finish «венецианка», he is offering a 1990s technique — the trade defaults to the name it knows.**
+
+## ⚠️⚠️ The Sample-Versus-Area Problem — Why a Sample Proves Nothing About Your Painter
+
+**On the suede finish: «он достаточно сложный ИМЕННО В ОБЪЁМЕ. МАЛЕНЬКИЙ ОБРАЗЕЦ МОЖЕТ СДЕЛАТЬ КАЖДЫЙ ЧЕЛОВЕК, по идее. А вот В ОБЪЁМЕ он достаточно сложно, потому что это материал НОВОГО ПОКОЛЕНИЯ, [с] ПОЛИМЕРНЫМИ ЧАСТИЦАМИ, которые нужно правильно нанести. ОН ВЫСВЕТЛЯЕТСЯ — чтобы НЕ БЫЛО ЭФФЕКТОВ ПЯТЕН, НУЖЕН БОЛЬШОЙ ОПЫТ.»**
+
+- → **⚠️⚠️ A FINISH THAT ANYONE CAN EXECUTE ON A SAMPLE BOARD CAN BE BEYOND A NON-SPECIALIST AT ROOM SCALE, because the failure mode — blotching from uneven lightening — ONLY APPEARS OVER AREA.**
+- → **⚠️⚠️ THEREFORE A SAMPLE IS NOT EVIDENCE THAT YOUR PAINTER CAN DO IT.** This is the materials-side version of the competence problem the vault records four times for shadow skirtings: a crew claims to know the detail, and the failure surfaces only at full scale.
+- ⚠️ **And the vetting question has no answer from the trade. The interviewer asks THREE TIMES how an ordinary client can tell a good decorator, and gets «обратиться к профессионалам своего дела», «работать с правильными мастерами» and «прямые руки». The only concrete action offered is to visit a workshop and handle samples — which is precisely what does not predict room-scale execution.**
+  - → **⚠️ So the practical conclusion is uncomfortable but honest: BUY THE APPLICATION AND THE MATERIAL FROM THE SAME ACCOUNTABLE PARTY, rather than specifying a finish and letting a general painter attempt it.** *(My conclusion, flagged.)*
+  - ⚠️ **The contrast with Round 6 is sharp: asked essentially the same question, a furniture works manager gave a free, concrete, client-runnable test — inspect the edge band on a WHITE panel, because the adhesive is not white. Two suppliers, one question, one test.**
+
+## ⚠️ Prep, Labour and the Five Current Techniques
+
+**⚠️⚠️ PREP DEPENDS ENTIRELY ON WHICH FINISH: «если она имеет ВЫРАЖЕННЫЙ ФАКТУРНЫЙ СЛОЙ, нужна подготовка КАК ПОД ОБОИ… НА ЭТОМ МОЖНО ОСТАНОВИТЬСЯ. Если тОНКОСЛОЙНОЕ покрытие — шёлк, замша — то подготовка КАК ПОД ПОКРАСКУ: финишная мелкозернистая штукатурка, ИДЕАЛЬНО БЕЛАЯ, БЕЗ ЧЕРКАШЕЙ [и] ПОЛОСОК — [иначе] БУДУТ ВИДНЫ НЕДОСТАТКИ. А ФАКТУРНАЯ штукатурка ОНА СКРЫВАЕТ НЕДОСТАТКИ.»**
+
+- → **⚠️⚠️ THE COMPLETE ECONOMICS, WHICH NEITHER SOURCE GIVES ALONE: textured plaster SAVES the full paint-prep stack (it needs only wallpaper-grade prep, because the texture forgives defects) and PAYS FOR IT IN APPLICATION LABOUR — «наносится ИСКЛЮЧИТЕЛЬНО КЕЛЬМОЙ… ЭТО НАМНОГО СЛОЖНЕЕ и по времени». Whether it beats paint depends on your wall area against your labour rate.** The other half of this — the seven-step paint-prep stack it replaces, and heavy non-woven wallpaper as the alternative levelling layer — is at [[13_Surfaces_and_Finishes/analysis/Wall_Prep_and_Plastering|Wall Prep and Plastering]]. [source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+- **⚠️ A CHECKABLE ACCEPTANCE CRITERION for a thin finish: the skim must be IDEALLY WHITE and free of pencil marks and streaks, because the finish is translucent enough to show them.** Give the plasterer that instruction explicitly.
+- **⚠️⚠️ DECORATIVE FINISH ON A CEILING: MATERIAL THE SAME, LABOUR ×2. «Есть КОЭФФИЦИЕНТ ПОВЫШАЮЩИЙ РОВНО В ДВА РАЗА больше по работе. Материал будет стоить ОДИНАКОВО на стены или на потолок, но по работе В ДВА РАЗА БОЛЬШЕ — потому что РУКИ ВВЕРХ: просто НЕРЕАЛЬНО больше ЧЕТЫРЁХ ЧАСОВ работать на потолке, и МАТЕРИАЛ СЫПЛЕТСЯ СВЕРХУ НА ТЕБЯ.»**
+  - → **A hard estimating fact with a physiological cause, and it GENERALISES to any overhead finishing operation.**
+- **The five current techniques: SILK (pearlescent, easiest to apply, the versatile base); SUEDE (fully matte, «камерная», hard at scale); CONCRETE EFFECT as the accent — one wall or one volume (a fireplace, a TV block), and ⚠️ the trend is AWAY from cold grey toward «ТЁПЛЫЕ варианты»; HEAVY TEXTURE / «СКАЛА» — the most-requested and the DEAREST of all, with ⚠️ a flat-scale limit of about ДВА САНТИМЕТРА of relief; and «ПОПКОРН», their own new matte texture.**
+  - **⚠️ A MIXING RULE worth keeping: a fully matte texture can share a room with painted walls, because there is NO SHEEN MISMATCH — «она НЕ БЛЕСТИТ, абсолютно матовая, и благодаря этому можно её СМЕЛО ИСПОЛЬЗОВАТЬ И В КРАШЕНЫХ ИНТЕРЬЕРАХ».**
+  - **⚠️ A THIRD ARGUMENT FOR MATTE, and it is about COLOUR FIDELITY rather than cleanliness or light: «за счёт того, что [нет] ОТРАЖАТЕЛЬНОГО ЭФФЕКТА, он очень ПОСТОЯННЫЙ — И ЦВЕТ ОН НИКАК НЕ ИЗМЕНЯЕТСЯ.» A matte surface reads the same colour from every angle, which matters when a client has approved a sample.**
+
+## ⚠️⚠️ Textured Plaster Survives Pets — With a Behavioural Mechanism, Not Just a Hardness Claim
+
+**«Животные очень любят своими огромными когтями СЦЕПЛЯТЬ допустим ОБОИ или какую-то ТКАНЕВУЮ ОБИВКУ — они любят ЗНАЧИТЕЛЬНО БОЛЬШЕ. Здесь они ТЕРЯЮТ ИНТЕРЕС просто к стенам, потому что им НЕТ УДОВОЛЬСТВИЯ — такое твёрдое износостойкое покрытие, которое очень сложно повредить. У ЖИВОТНОГО НЕТ УДОВОЛЬСТВИЯ — ПОЭТОМУ НЕТ ЖЕЛАНИЯ.»** And for dogs: they specify it **in corridors**, where «вот эти ЛАПКИ НА СТЕНАХ, здесь ВЫДЕРЖИВАЕТ… и ГРЯЗЬ всю можно ОТМЫТЬ».
+
+- → **⚠️ A cat cannot get PURCHASE on textured plaster and therefore loses interest — a behavioural mechanism rather than a durability assertion.**
+- → **⚠️⚠️ AND IT ANSWERS A FAILURE RECORDED IN THIS SAME ROUND: in his previous flat the cat shredded the PAINTED ventilation shaft in the kitchen, and his own proposed answer was porcelain cladding. Together they QUALIFY the January 2021 line that pets are contraindicated in a low-maintenance interior — PETS ARE A MATERIAL-SELECTION PROBLEM, NOT A DISQUALIFIER.** See [[17_Design_and_Ergonomics/analysis/Practitioner_Material_Selection_Accounts|Practitioner Material Selection Accounts]]. [source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+- ⚠️ The claim is the supplier's, about her own product.
+
+## ⚠️⚠️ Seamlessness Is the Material's Whole Point — and the Fourth Instance of the Joint Principle
+
+**«Есть ПАНЕЛИ, которые ИМИТИРУЮТ СКАЛУ, но у них НИКОГДА НЕ СДЕЛАТЬ КРАСИВЫЙ СТЫК… [те], кто занимается монтажом этих штук, совершенно НЕ ПОНИМАЮТ, КАК СДЕЛАТЬ СТЫК НЕВИДИМЫМ. ЭТО НЕВОЗМОЖНО — [он] БУДЕТ ВИДЕН. В данном случае мы можем сделать совершенно БЕССТЫКОВОЕ [покрытие] НА ЛЮБОЙ СТЕНЕ ЛЮБОГО РАЗМЕРА… В ЭТОМ СУТЬ вообще декоративной штукатурки — ЧТО ОНА НЕ ИМЕЕТ СТЫКОВ, НЕ КАК ОБОИ, НЕ КАК ПАНЕЛИ. Она делается ЕДИНЫМ ПОЛОТНОМ и создаёт ОЩУЩЕНИЕ ЦЕЛЬНОСТИ.»**
+
+- → **⚠️⚠️ The joint-count principle, which runs through five sources across Rounds 6–7, here becomes a material's entire selling point. See [[17_Design_and_Ergonomics/analysis/Material_and_Finish_Technique|Material and Finish Technique]], where the principle is consolidated.**
+- ⚠️ **AND IT CUTS AGAINST HIS OWN DECEMBER 2020 HACK — a "3D panel for pennies" built from vertical polyurethane mouldings painted with the wall. ⚠️ My reading, flagged: LINEAR mouldings work BECAUSE the joint is a deliberate LINE; SHEET panels fail because the joint is ARBITRARY. Neither source says this.**
+
+## ⚠️ The Stencil Technique, Fully Documented
+
+The most-asked-about wall on the channel («банановые листья»), step by step:
+
+1. **Day 1 — skim the whole wall with the plaster; a full day; dry completely.**
+2. **The stencil is DIGITISED FROM ANY IMAGE and cut ON A PLOTTER, then hand-cleaned.**
+3. **Day 2 — transfer it onto the plaster USING MOUNTING FILM and leave it in place.**
+4. **Apply ONE MORE LAYER of plaster over the stencil; let it dry slightly; REMOVE the stencil.**
+5. **⚠️ Hand-work EVERY element — «все вот эти УГЛЫ, ФАСОЧКИ проработаны… ЭТО ПРЯМ ОЧЕНЬ ТРУДОЁМКАЯ РАБОТА МАСТЕРА, потому что ИНАЧЕ было бы НЕКРАСИВО И НЕАККУРАТНО».**
+6. **A clear decorative lacquer once fully dry.**
+
+- **Scalable to any wall and any image.** → **⚠️ The labour is concentrated in step 5, which is also where a cheap execution will show — so that is the step to look at on a sample wall.**
+
+[source: [[_Sources/YT_cl0LIAVZUjI_nsdsgn_decorative_plaster_workshop|YT_cl0LIAVZUjI]]]
+

@@ -201,6 +201,16 @@ match the walking path, not panel geometry. `single-account`. [source: [[_Source
 
 [source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
 
+### ⚠️⚠️ CORRECTION to the entry above — it is TWO independent practitioners, not three, and the error was mine
+
+**The Round 6 entry above says "the THIRD independent practitioner against furniture and task touch switches… Three sources, no dissent: route as SETTLED." That count is WRONG.**
+
+**Round 7 processed the flat that the Round 6 source calls «в прошлой квартире» — and the touch-switch complaint is already there, in February 2021: «Меня БЕСИТ вот этот СЕНСОР, потому что с ним ВСЁ ВРЕМЯ ПРОБЛЕМЫ… поэтому я рекомендовал бы включать просто с ОБЫЧНОГО ВЫКЛЮЧАТЕЛЯ.»** [source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+- → **So two of the three instances are THE SAME PERSON, reporting the same failure in TWO DIFFERENT FLATS 2.7 years apart. The vault has TWO independent practitioners against these switches, plus one practitioner twice.**
+- → **⚠️ The FINDING survives and is arguably stronger — a repeat failure across two installations, with the "you just bought a bad one" defence explicitly refused in 2023 — but the COUNT was inflated and "settled" was overstated. Two sources is good evidence, not a closed question.**
+- ⚠️⚠️ **AND THE PROCESS ERROR IS WORTH RECORDING BECAUSE I HAD ALREADY WRITTEN THE RULE THAT PREVENTS IT. Round 5 established: *an established form is only evidence if its instances are INDEPENDENT — count SOURCES, not OCCURRENCES.* I recorded that lesson and then broke it one round later, on the same channel, by counting one practitioner's two flats as two practitioners.**
+
 
 ## ⚠️⚠️ Switch Mechanism Cycle Life — 1,000 vs 20,000 Operations, and a Fire
 

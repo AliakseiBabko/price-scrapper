@@ -100,6 +100,28 @@ From the same practitioner: he has had clients **flood ten floors down**, so the
 >
 > It also converges with this page's own master-switch dissent, recorded on [[12_Engineering_and_Systems/analysis/Switches_and_Controls|Switches and Controls]]: asked which master function is worth buying, the same practitioner said **water, not electricity** — «тут хватит и пары часов отсутствия, чтобы произошло что-то очень страшное».
 
+### ⚠️⚠️ A THIRD Dated Account of the Same Installation — Which Largely Resolves the Discrepancy Flagged in Round 6
+
+**Round 6 recorded a conflict between two accounts of his own leak-protection installation and deliberately did not average them: FOUR locations named in November 2023, versus an itemised 2 valve units and 3 sensors in March 2024.**
+
+**Round 7 adds an EARLIER account, from October 2022, mid-build: sensors «под стиральной машиной, [на коллекторах], на кухне, под ванной», and «можно сделать ПОД УНИТАЗОМ».**
+
+- → **⚠️⚠️ THREE DATED ACCOUNTS ACROSS 18 MONTHS MAKE **GROWTH OVER TIME** THE MORE LIKELY READING, AND THE DISCREPANCY IS LARGELY RESOLVED IN THAT DIRECTION.** The Round 6 decision not to average was right, and the resolution came from a third data point rather than from reasoning about the two.
+- ⚠️ **Note it also shows the system was PLANNED at rough stage, not retrofitted — which is what makes the manifold and under-WC positions available at all.**
+
+### ⚠️⚠️ Flat Insurance at ≈$80/Year — Presented as the Rational Substitute for Premium Plumbing
+
+**«Если вы ЭКСТРЕМАЛЫ [и] покупаете самую дешёвую инженерию, то я дам вам ОЧЕНЬ ХОРОШИЙ СОВЕТ: ОБЯЗАТЕЛЬНО ЗАСТРАХУЙТЕ КВАРТИРУ. На самом деле стоит 5000 РУБЛЕЙ В ГОД — это НИЧЕГО НЕ СТОИТ — но это УБЕРЕЖЁТ ВАС И ВАШИХ СОСЕДЕЙ от дальнейших проблем.»**
+
+**5,000 ₽/year ≈ $80** (trailing six-month USD/RUB mean before 2022-10-04, 62.4003 RUB/USD; ⚠️ this window sits entirely POST-shock, so the mean is methodologically clean).
+
+- → **⚠️⚠️ THIS PAGE IS ENTIRELY ABOUT HARDWARE AND HAS NOTHING ON INSURANCE. Against the cost of the sensor-and-valve kits it documents, ≈$80/year is trivial — and it covers the failure the hardware cannot: the DAMAGE TO THE NEIGHBOUR BELOW, which is the part that actually bankrupts people.**
+- → **He frames it as the ALTERNATIVE to spending on plumbing quality, which is worth recording as his framing — though the two are obviously complementary rather than exclusive.** *(That observation is mine.)*
+- ⚠️ **A Russian consumer price for a Russian product; treat the figure as an order of magnitude for a Minsk equivalent, not as a quotation.**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## ⚠️⚠️ The Installation That Produced Those Saves — Itemised, With a Sensor Count
 
 **Round 5 found the source that specifies the system behind the four-save tally above and the fifth save below. This page had principles, false-triggering accounts and a personal count; this is the actual hardware layout.** [source: [[_Sources/YT__nDCLhRUojE_nsdsgn_own_bathroom_4m2|YT__nDCLhRUojE]]]

@@ -100,6 +100,22 @@ promotional ratio (two CTAs).
 
 **→ The practical consequence, and it prevents a common and unwinnable dispute: a client walking the walls with a torch is using the WORKING instrument, and it will always find marks that the agreed class does not treat as defects. Agree which regime and which distance the acceptance uses BEFORE the inspection — and note that this page's K-class ladder already says K3 and K4 are indistinguishable under plain daylight, so "it looks fine" and "it looks terrible" can both be honest reports of the same wall.**
 
+### ⚠️⚠️ The Seven-Step Prep Stack Behind "Just Paint It One Colour" — and Two Costed Escapes (Александр Синчуков, his own flat mid-build, 2022-10-04)
+
+**«Сейчас очень модно красить стены в ОДИН ЦВЕТ, но чтобы ПРАВИЛЬНО покрасить стену, вам нужно хорошо её ПОДГОТОВИТЬ. Если она из гипсокартона, это ЦЕЛЫЙ РЯД РАБОТ: (1) положить гипсокартон, (2) РАСШИРИТЬ ШВЫ, (3) ЗАШПАТЛЕВАТЬ их, (4) наклеить СТЕКЛОХОЛСТ, (5) ДВА СЛОЯ ШПАКЛЁВКИ, (6) ВЫШКУРИТЬ, и только после этого (7) ГРУНТОВКА и ПОКРАСКА. Представляете, СКОЛЬКО СТОИТ такая работа? В противном случае краска СРАЗУ ВЫЯВИТ любые неровности.»**
+
+**⚠️⚠️ TWO NAMED SUBSTITUTES, and the first is a technique this page does not hold at all:**
+
+1. **HEAVY PAINTABLE NON-WOVEN WALLPAPER AS A LEVELLING LAYER: «проще всего использовать ШИРОКИЕ ФЛИЗЕЛИНОВЫЕ ОБОИ — чем они ТОЛЩЕ, тем они качественнее СТЯНУТ СТЕНЫ и УБЕРУТ НЕРОВНОСТИ. После этого надо их просто ЗАГРУНТОВАТЬ И ПОКРАСИТЬ.»**
+2. **TEXTURED PLASTER INSTEAD OF PAINT: «очень бюджетное решение… если ещё сделать на неё НАПРАВЛЕННЫЙ СВЕТ, то она ещё и ЗАИГРАЕТ ФАКТУРОЙ и СКРОЕТ ВСЕ ВАШИ НЕРОВНОСТИ.»** Caveat: «если у вас ВСЯ КОМНАТА будет в такой фактурной штукатурке, это будет немножко БЕЗУМНО.»
+
+- → **⚠️⚠️ AND A DECORATIVE-COATINGS SPECIALIST CONFIRMS THE SECOND FROM THE TRADE SIDE, SEVEN MONTHS LATER, WITH THE DISTINCTION NEITHER SOURCE GIVES ALONE: TEXTURED plaster needs only WALLPAPER-GRADE prep because «она СКРЫВАЕТ НЕДОСТАТКИ», while THIN finishes (silk, suede) need PAINT-GRADE prep — and for those the skim must be «ИДЕАЛЬНО БЕЛАЯ, БЕЗ ЧЕРКАШЕЙ [и] ПОЛОСОК» because the finish is translucent enough to show them.** [source: [[_Sources/YT_cl0LIAVZUjI_nsdsgn_decorative_plaster_workshop|YT_cl0LIAVZUjI]]]
+  - → **⚠️⚠️ SO THE COMPLETE ECONOMICS ARE: textured plaster SAVES the seven-step stack and PAYS FOR IT IN TROWEL LABOUR. Whether it beats paint depends on your wall area against your labour rate — and this page's K1–K4 ladder above is the paint side of exactly that comparison.** Full detail at [[13_Surfaces_and_Finishes/analysis/Decorative_Plaster_and_Microcement|Decorative Plaster and Microcement]].
+- **⚠️⚠️ AND THE RAKING-LIGHT RULE IS OLDER THAN THIS PAGE RECORDS. The K1–K4 ladder above dates the raking-light trigger to 2026-08-28. The same practitioner states it in DECEMBER 2020 («чтобы декоративная штукатурка более выигрышно смотрелась, должен падать свет НЕ ПРЯМОЙ»), again here in October 2022 as a way to HIDE defects, and a third time in May 2023. ⚠️ Note the two uses are opposite in intent: raking light REVEALS defects on a flat painted wall and CONCEALS them on a textured one. Both are true and the difference is the surface.** [source: [[_Sources/YT_ffP5bdHlh_E_nsdsgn_budget_45m2_rescued_project|YT_ffP5bdHlh_E]]]
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Wall-Prep-for-Paint Staged Sequence, Timeline, and Cure-Discipline (Петришин-Строй, added 2026-08-24, Round 3)
 
 On-site interview with a subcontracted painter ("маляр"), not a company

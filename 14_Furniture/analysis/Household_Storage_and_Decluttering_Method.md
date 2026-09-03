@@ -128,6 +128,34 @@ Double-sided and ordinary tape, stationery elastics, **velcro cable ties for coi
 - **Dirty laundry sorted at the point of undressing into four containers — dark, light, underwear, and one for items needing special attention.** Compliance is easy where one household member wears mostly dark and another mostly light, **and you can soak directly in the drawers.** Recorded in both videos.
 - **Placement follows the action sequence** (pots nearest the water, because filling comes first) and **storage height follows who uses it and changes over time** (plates moved down when a child started serving herself).
 
+### ⚠️ A NAME-COLLISION NOTE, recorded so a later session does not merge two people
+
+**The «Ксения» in the section above is a PROFESSIONAL SPACE ORGANISER with 6+ years' experience, interviewed via NSDSGN in 2026. Round 7 processed a December 2020 NSDSGN project presented by a «Ксения» who is the STUDIO'S OWN LEAD DESIGNER on that job. ⚠️ They are almost certainly different people and the vault does not merge them.** Same class of near-miss as Round 5's «Михайлов»/«Михайловская» and Round 7's «Кузнецов», where a surname match on this channel would have looked like a known voice.
+
+### ⚠️⚠️ A CURTAIN Instead of a Door — One Cheap Technique, Three Applications, Used in His Own First Flat (Александр Синчуков, 2022-10-04)
+
+**The same move appears three times in one source, and he has lived with it:**
+
+1. **Instead of a bathroom ACCESS HATCH: «тупо повесить штору — тканевая занавеска, вы открываете, получаете доступ и закрываете.»**
+2. **Instead of WARDROBE DOORS: «поставьте одну стену, а вместо дверей сделайте ШТОРУ — это будет супер бюджетно; а внутри просто сделайте из ДСП ОТКРЫТЫЕ ПОЛОЧКИ и ШТАНГИ.»**
+3. **To hide a WASHING MACHINE where a door will not fit: «дверь не влезает в маленькую постирочную, а вам нужно спрятать стиральную машину — можете повесить штору, и она будет эстетично закрывать.»**
+
+**And he used it: «я так делал НА ПЕРВОЙ КВАРТИРЕ, когда нужно было МАКСИМАЛЬНО СЭКОНОМИТЬ. В принципе становится НЕПЛОХО.»**
+
+- → **⚠️ A cheap, REVERSIBLE, zero-clearance closure with three distinct uses — and the vault has nothing on it. Its real advantages over a door are that it needs NO SWING SPACE and NO ACCURATE OPENING, which is exactly what a tight or out-of-square recess cannot provide.** *(The clearance advantage is my observation; the three uses are his.)*
+
+### ⚠️ Bespoke Furniture — Economise INSIDE, Never on a Touched Surface (two sources, one rule)
+
+- **October 2022: «если вы делаете мебель на заказ, то можете использовать БОЛЕЕ ПРОСТЫЕ МАТЕРИАЛЫ, особенно во ВНУТРЕННИХ ЧАСТЯХ мебели, которые НЕ ВИДНЫ ГЛАЗУ — это СУЩЕСТВЕННО СЭКОНОМИТ бюджет. То же касается и МЯГКОЙ мебели.»** [source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+- **⚠️⚠️ AND HIS OWN 2021 REGRET IS THE EXACT INVERSE, WHICH COMPLETES THE RULE: in his previous flat the CHEAP material (ЛДСП) was on the VISIBLE, TOUCHED upper fronts, and it was the single thing he says he most regretted — «следующую кухню я НИКОГДА не сделаю [из] ЛДСП». ⚠️ MY SYNTHESIS, FLAGGED: CHEAP INSIDE, NEVER ON A SURFACE THAT IS TOUCHED. Neither source states both halves.** [source: [[_Sources/YT_hEZntyMcP-A_nsdsgn_own_previous_flat_studio_kitchen|YT_hEZntyMcP-A]]]
+
+### ⚠️⚠️ Upcycling, Costed: One Spray Can (same source)
+
+**Old Hungarian bedside cabinets that had sat half-wrecked in his parents' shed: «я на даче устроил ЭКСПЕРИМЕНТ: взял СЕРЕБРЯНУЮ КРАСКУ, БАЛЛОНЧИК, закрасил их — и они стали РЕАЛЬНО АРТ-ОБЪЕКТАМИ. Выкинул золотые ручки, прикрутил [новые] — и поставил их в НОВУЮ КВАРТИРУ, они ОБРЕЛИ НОВУЮ ЖИЗНЬ… И СТОИЛО КАКИЕ-ТО КОПЕЙКИ — стоимость ОДНОГО БАЛЛОНЧИКА КРАСКИ.»**
+
+- → **A costed, first-person upcycling case that ended up in a designed flat — and note what he changed: the FINISH and the HANDLES, nothing structural. Flea-market sourcing is framed as fashionable rather than shameful: «сейчас это вообще НЕ ЗАЗОРНО, это СУПЕР МОДНО.»** Buy plants and «не СТАРУЮ мебель, а ВИНТАЖНУЮ» on Avito; **decor minimum «буквально 2–3 БОЛЬШИХ цветка».**
+
+
 ## ⚠️ Storage by Functional Zone, and Custom vs. Stock Volume Utilisation (Игорь Краснов, added 2026-09-01)
 
 [source: [[_Sources/YT_6ttTd82TWPM_krasnov_closets_wasting_space|6ttTd82TWPM]]]

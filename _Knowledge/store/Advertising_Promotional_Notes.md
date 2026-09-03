@@ -588,3 +588,36 @@ Products named as **his own purchases with prices** rather than as placements; o
 4. **2023** — and the strongest, because it is a production DECISION rather than a confession: he **deliberately delayed** reviewing his own finished flat, «потому что ОДНО ДЕЛО КРАСИВЫЕ КАРТИНКИ, А ДРУГОЕ ДЕЛО — КАК ЭТО ВСЁ РАБОТАЕТ В ЖИЗНИ».
 
 → **The photogenic version and the working version of an interior are different objects, and this practitioner says so in four separate places. That is the clearest available justification for the vault's standing preference for POST-OCCUPANCY sources over decision-stage ones, and for treating every render or portfolio image as a claim about appearance only.** Routed to `Practitioner_Material_Selection_Accounts.md`.
+
+## Round 7 — @YourInteriorDes / NSDSGN, 2026-09-03
+
+**Four of five sources are LOW promotional ratio — the lowest average of any round on this channel — because the origin layer is mostly single-presenter advice and own-flat walk-throughs rather than partner visits.**
+
+### `yt_ffP5bdHlh_E` (2020-12-03) — LOW
+One studio project, no sponsor, no placement, one tile manufacturer named neutrally (Italon). ⚠️ **The closing line is a soft pitch — «грань между крутым минимализмом и жуткой ОБЩАГОЙ очень тонкая, поэтому ремонт желательно делать вместе с дизайнерами» — and is routed WITH that flag.** ⚠️ **The previous designer's errors are reported by the party that replaced them, and are held as one side of that account.**
+
+### `yt_wvlr2aGDMCc` (2021-01-27) — LOW
+No sponsor. Blum-class hardware discussed generically. **Two admissions against himself (the bar stools bought on a discount; a cabinet in his own flat whose contents he cannot remember).** ⚠️ **His German/European/American kitchen comparisons are assertions and are not independently verified — they function as an appeal to authority and are recorded as such.**
+
+### `yt_hEZntyMcP-A` (2021-02-02) — LOW
+His own flat, his own purchases, no sponsor, no codes. **Named products are named as things he bought and regretted or kept.** ⚠️ **He states the occupancy duration himself (≈ 18 months), which is the caveat on the whole source — and it is a LONG occupancy by this channel's standards, which makes it better evidence than the one-month 2023 kitchen review.**
+
+**⚠️⚠️ AND THE FIFTH PREPARED-FOOTAGE ADMISSION ON THIS CHANNEL IS HERE, AND IT IDENTIFIES AN EARLIER ANECDOTE: «для этой СЪЁМКИ я довольно долго его ПРОТИРАЛ, вытирал, намазывал специальным средством. Короче, это такая ГЕМОРРОЙНАЯ ШТУКА, если честно, но смотрится очень стильно.»** The Round 6 source, five days earlier, cited "a black gloss kitchen" that needed a 15-minute wipe-down before photography WITHOUT SAYING WHOSE IT WAS. **It was almost certainly his own.** → **That matters for how the channel is read: an anecdote presented as a client observation was a self-observation, and he did not conceal it — he simply told it in the other video.**
+
+### `yt_K2pg-8iGP4s` (2022-10-04) — LOW, and unusually so for a 37-minute advice video
+No sponsor; two links to his own earlier videos and a Boosty page at the end. **⚠️ Notable that he repeatedly recommends AGAINST things he himself bought — concealed doors, shadow skirtings, a glass wardrobe wall for 10 cm, Italian mixers with an 8-month lead time — and closes by exempting himself from his own advice: «если вы конечно не СУМАСШЕДШИЙ ДИЗАЙНЕР, повёрнутый на своей работе». That is the opposite of an upsell and it is the reason this source can be used at face value.**
+
+⚠️ **A SIXTH prepared-footage-adjacent admission: filming a colleague's country house that had little decor, «чтобы сделать красивую КАРТИНКУ… мы просто пошли… дошли до леса, СРЕЗАЛИ ТРИ ВЕТКИ и просто положили их на стол».** Recorded as an admission, and it doubles as the cheapest decor tip in the vault.
+
+### `yt_cl0LIAVZUjI` (2023-05-16) — **HIGH, but DISCLOSED — and the handling rule from Round 6 applies**
+- **A single-supplier workshop visit**, brand named, **a long-standing commercial relationship disclosed on camera** («мы знаем уже очень давно, мы уже много объектов делали вместе»), a contact link, and a Boosty plug because «сейчас не работает монетизация».
+- **⚠️⚠️ THE WASHABILITY TEST IS THEIR OWN PRODUCT, THEIR OWN SAMPLE, RUN BY THEIR OWN PROJECT MANAGER.** Coffee poured on a light textured sample, left a while, wiped off with a sponge and plain water. **Routed with the flag; the MECHANISM is the transferable part — the performance comes from the FINISH COAT, not the plaster — not the demonstration.**
+- **The polyurethane wet-zone rating and the animal-durability claim are likewise the supplier's, about her own product, and are flagged on the page.**
+- **→ The handling rule applied (as in Round 6's factory visit): CHECKABLE items are routed as usable — the prep-by-finish-type distinction, the ×2 ceiling labour coefficient, the sample-versus-area problem, the stencil process — because a client can verify them against ANY supplier. POSITIONS are routed as positions.**
+- **⚠️⚠️ AND THE MOST INFORMATIVE THING IN THE SOURCE IS A NON-ANSWER: the host asks THREE TIMES how an ordinary client can tell a good decorator, and gets «обратиться к профессионалам», «работать с правильными мастерами» and «прямые руки». The only concrete action offered is to visit and handle samples — which the SAME source has just explained does not predict room-scale execution. THE CONTRAST WITH ROUND 6's FURNITURE WORKS MANAGER IS SHARP: asked essentially the same question, he gave a free, concrete, client-runnable test (inspect the edge band on a WHITE panel, because the adhesive is not white). Two suppliers, one question, one test — and that difference is itself information about the two trades.**
+
+### ⚠️⚠️ Running tally: SIX prepared-footage or dressed-set admissions on this channel
+
+2021-01 (a black gloss kitchen needing a 15-minute wipe-down — now identified as his own), **2021-02 (the same kitchen, from the inside: «для этой съёмки я довольно долго его протирал»)**, **2022-10 (three branches cut from a wood to dress a colleague's table)**, 2023-11 (the deliberate delay before reviewing his own flat, on the ground that pictures and life differ), 2024-03 and 2024-07 (grooming admissions).
+
+→ **The pattern is now well enough evidenced to state as a property of the channel rather than a curiosity: this presenter routinely discloses that the footage is dressed, and does so in the video where it is relevant rather than in the one being dressed. That is the strongest available justification for the vault's preference for POST-OCCUPANCY sources, and for reading any render or portfolio image as a claim about appearance only.**

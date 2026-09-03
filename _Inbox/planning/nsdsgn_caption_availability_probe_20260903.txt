@@ -1,0 +1,29 @@
+# NSDSGN caption-availability probe, 2026-09-03 (Round 7)
+#
+# yt-dlp metadata only, no downloads, serialized with 3s spacing.
+# Boundary: from 2021-08-10 every video has a MANUAL ru track plus manual en/es/de.
+# Before that it is per-video - auto or nothing - and 4 of 8 probed in the
+# 2019-09..2021-07 window have NO ru track at all, so they cannot be processed
+# without violating the original-language rule.
+#
+video_id     date       secs ru_man  ru_auto other_manual   title
+eSOS17Lb3C8  20170926   1470 .       YES     -              Интервью / Архитектура. Взгляд изнутри / архитектор Владимир
+AExPf1LRrkI  20171228   1668 .       YES     -              Интервью / Кто такой дизайнер? / дизайнер Арина Волкова / ча
+GchKE5JcZXY  20180109   1152 .       YES     -              Интервью / Кто такой дизайнер? / дизайнер Арина Волкова / ча
+NHqf-OoLPBM  20190416   1377 .       YES     live_chat      Интервью / Зоя Ти / Разрушаем мифы, Интерьер по Феншуй
+VQpfwvwNss4  20190916   1903 .       .       -              Как стать дизайнером интерьера / Реальный опыт / Интервью
+5JSTwDyHNrY  20190930   1188 .       YES     -              Обзор ремонта / Дом 250 м2 / Современный интерьер
+Phk79uKT7rA  20201103   1407 .       .       -              Идеальный современный ремонт двушки 70 кв.м для семьи с двум
+3y-gA7A6QJ4  20210402    922 .       .       -              Как сделать идеальную ванную
+KPRcI_CPpAs  20210727    942 .       .       -              Как выбрать ДИВАН и не прогадать?  Главные советы за 15 мину
+TnlYg4tP6WY  20210810   1008 YES     .       en,es          Самая стильная квартира на ютюбе! Современная классика. 110 
+x4Qyfii6Tew  20210817   1092 YES     .       en,es          Как сделать уютный интерьер в современном стиле. Квартира 11
+3tgHGhY0gXA  20220208   1193 YES     YES     de,en,es       Натяжные потолки или гипсокартон? Сравниваем что лучше, не п
+K2pg-8iGP4s  20221004   2234 YES     .       de,en,es       Не дорогой, но стильный интерьер. 20 советов как сэкономить 
+i9n1YI4iaiw  20230110   1295 YES     .       de,en,es       Почему нельзя начинать ремонт без дизайн проекта? Что в него
+M7NXBh0hIo8  20230131   1685 YES     YES     de,en,es       Дизайнерская трансформация интерьера. Перегородки из стекла,
+3_76xEfI01k  20230418   1123 YES     YES     de,en,es       Почему ДОМ это НЕ КВАРТИРА? Различия в дизайне интерьера
+cl0LIAVZUjI  20230516   1388 YES     YES     de,en,es       5 трендов оформления стен. Декоративная штукатурка. Советы п
+
+Russian captions available: 13 of 17 probed
+NO russian track at all: 4 -> VQpfwvwNss4 (20190916), Phk79uKT7rA (20201103), 3y-gA7A6QJ4 (20210402), KPRcI_CPpAs (20210727)

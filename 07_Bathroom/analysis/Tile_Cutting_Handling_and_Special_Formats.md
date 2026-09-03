@@ -108,6 +108,27 @@ but with a few genuinely reusable buying/design heuristics:
   **→ A crew-size requirement, not just a skill one — which is a scheduling and pricing fact, and it is why a single tiler's quote for large format should be questioned.**
 - **⚠️ AND THE CONSEQUENCE OF GETTING THE CREW WRONG: «выбирая ПЛОХИХ МОНТАЖНИКОВ, вы просто ГУБИТЕ свой ДОРОГУЩИЙ МАТЕРИАЛ — они его портят, и [он] просто исчезает. Очень часто видел такие примеры.»** The material cost and the breakage risk compound: the most expensive tile is the one most easily destroyed in handling. **«Выбирая крупный формат, учитывайте ВСЕ ОСОБЕННОСТИ, чтобы ФИНАЛЬНАЯ СТОИМОСТЬ [и] РЕЗУЛЬТАТ вас не огорчили.»**
 
+### ⚠️⚠️ A THIRD Motive for Specify-Large-and-Cut — LIFT ACCESS, With the Dimension Derived From the INSTALLED Height (Александр Синчуков, 2022-10-04)
+
+**His own bathroom: standard 120×60 throughout, with the wall behind the bath in a large-format Spanish tile chosen so that «всего ДВА ВЕРТИКАЛЬНЫХ ШВА за счёт большого размера».**
+
+**«Кроме СТОИМОСТИ плитки, которая я считаю просто НЕАДЕКВАТНАЯ — чтобы эту плитку ЗАТАЩИТЬ мне в квартиру, она просто НЕ ВЛЕЗЕТ В ЛИФТ, её как-то придётся тащить по черновой лестнице. Но мы С ПРОРАБОМ НАШЛИ ВЫХОД: этот крупный формат идёт НЕ ОТ ПОЛА, он идёт ОТ ПОДИУМА, поэтому размер будет НЕ ВО ВСЮ ЕГО ДЛИНУ — мы ЗАМЕРИМ эти размеры ДО МИЛЛИМЕТРА, нам их ПОРЕЖУТ НА ПРОИЗВОДСТВЕ, и вот этот размер уже ПОДХОДИТ ПОД ЛИФТ… таким образом я сильно уменьшу СТОИМОСТЬ ДОСТАВКИ.»**
+
+- → **⚠️⚠️ THE VAULT NOW HAS THIS TECHNIQUE WITH THREE INDEPENDENT MOTIVES: HANDLING (recorded above), JOINT ELIMINATION (Round 6, January 2021 — «метр на 3, разрежьте его пополам»), and LIFT ACCESS / DELIVERY COST (here).**
+- → **⚠️ AND THE REFINEMENT THAT MAKES IT WORK: THE CUT DIMENSION IS DERIVED FROM THE ACTUAL INSTALLED HEIGHT — from the podium, not from the floor — AND MEASURED TO THE MILLIMETRE BEFORE ORDERING. So the sequence is: set out the podium, measure, then order the tile pre-cut. Get that order wrong and you are back to carrying a slab up the stairs.**
+- ⚠️ **It is also the tile case of the general access-route rule he states in the same source — see [[13_Surfaces_and_Finishes/analysis/Doors_Trim_Cost_and_Buying|Doors, Trim: Cost and Buying]], where a steel mezzanine forced the client NOT to replace their windows yet.**
+
+### ⚠️⚠️ Epoxy Grout — He Argues AGAINST It, and This Strengthens the Bath-Rim Leak Chain (same source)
+
+**«Эпоксидная затирка — это ВЕЧНЫЙ материал… Но она стоит РАЗА В 3–4 ДОРОЖЕ чем обычная цементная, и РАБОТЫ по ней стоят тоже РАЗА В ДВА дороже, потому что ЦЕНА ОШИБКИ ОЧЕНЬ ВЕЛИКА — если случайно что-то не так сделали, то ОТТЕРЕТЬ И ВЫКОВЫРЯТЬ будет очень сложно, она СХВАТЫВАЕТСЯ НАМЕРТВО. И например БАССЕЙНЫ — в них же НЕ ЭПОКСИДНАЯ затирка, у них ОБЫЧНАЯ ЦЕМЕНТНАЯ со специальными ДОБАВКАМИ-ЗАКРЕПИТЕЛЯМИ, и она ДЕРЖИТ ВОДУ. Поэтому можете сильно не заморачиваться на эпоксидку и СЭКОНОМИТЬ. Лучше ПОСОВЕТОВАТЬСЯ С ПЛИТОЧНИКОМ, потому что в итоге ЕМУ ОТВЕЧАТЬ. Эпоксидка — точно НЕ ПРО БЮДЖЕТНЫЙ ремонт, а ВИЗУАЛЬНО БОЛЬШОЙ РАЗНИЦЫ НЕ БУДЕТ.»**
+
+- → **⚠️⚠️⚠️ A MAJOR ADDITION TO THE BATH-RIM LEAK CHAIN THE VAULT HOLDS FROM ROUNDS 5–6. He published «тиле овер тхе рим анд силицоне ит» in January 2021 AND, here in October 2022, a general scepticism about epoxy grout — and in 2023 HIS OWN BUILDERS USED EPOXY GROUT AT EXACTLY THAT RIM AND IT LEAKED. So he had published both the correct joint treatment and a reason not to reach for epoxy at all, and it still went in at the worst possible place. The Round 6 supervision-failure reading is now considerably stronger.** See [[07_Bathroom/analysis/Bathtub_Materials_and_Installation|Bathtub Materials and Installation]].
+- ⚠️ **The swimming-pool claim (pools use cement grout with additives, not epoxy) is HIS ASSERTION and is recorded as such, not verified. If it holds it is a good argument; either way, his procedural advice — ask the tiler, because the tiler carries the warranty — is sound independently of it.**
+- **⚠️ Useful multipliers regardless: epoxy grout is ×3–4 the material cost and ×2 the labour cost of cement grout, and the labour premium exists because MISTAKES ARE UNRECOVERABLE.**
+
+[source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
+
+
 ## Stress-Relief Drilling at Sharp Cut-Corners on Large-Format Tile (RemProektMD, added 2026-08-24, Round 2)
 
 > [!NOTE]
