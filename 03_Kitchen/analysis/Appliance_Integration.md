@@ -34,6 +34,32 @@ Interior designer Надежда Кузина reaches the section above's proble
 - **Cost ladder she gives for the same capacity** (Q&A, 2021): built-in appliances are **not** inherently more expensive. **Side-by-side costs substantially more than two built-in fridges of the same combined capacity** — the unit itself perhaps **+15%**, but "очень дорогое удовольствие" once the cabinetry consequences are counted. A single freestanding fridge is the cheapest option outright, but then the kitchen must be built around its clearances. `single-account`, `unverified`.
 - **Built-in is also the easiest electrically** — it sits on a shelf, clear of the floor, so the outlet can go in the same base or the plinth.
 
+### ⚠️ Third Channel: a Higher Top-Clearance Figure, and the Perforation Mechanism the Section Was Missing (Александр Сенчугов / NSDSGN, 2025-07-22)
+
+**A genuine divergence on the number, and a new mechanism that explains why the number matters.** [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
+
+- **His figure for a free-standing fridge fitted into a furniture niche: minimum 300 mm, «а то и 500 мм» of free air above it**, closed with a **perforated grille**. **That is materially more than Кузина's 200 mm above** — recorded as a divergence rather than reconciled, since neither source states how the figure was derived. **Take the larger figure if the cabinetry allows it**; the consequence of being wrong is stated below.
+- **⚠️ The mechanism, which neither existing account gives: convection needs an inlet as well as an outlet.** Below a **built-in** fridge there must be **perforation so air can enter and convect**; perforation above as well «точно лишним не будет». Above a niche-fitted free-standing unit, the 300–500 mm gap *is* the outlet. **Stated consequence of omitting it: «очень большая вероятность, что ваш холодильник прослужит гораздо меньше»** — a service-life cost, not a performance one.
+- **The same concern extends to ovens**, which draw air low and vent steam forward.
+- **His procedural advice is the reusable part: consult the appliance supplier on how to build the furniture around each unit**, rather than treating clearance as a cabinetmaker's question. **This is the same "ask the specialist, not the generalist" pattern recorded across this round** — see [[12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings|Lighting Fixtures and Fittings]].
+
+### ⚠️ Start the Kitchen Design From the Appliances — Two Reasons, One of Them New (same source)
+
+- **The kitchen is fabricated to the specific appliances and adjusted to them**, so an appliance that arrives and does not fit is a serious problem. **Buy or at least definitively select the appliances first, and check the models will not be discontinued before delivery.**
+- **⚠️ The second reason is a budget-sequencing one: appliances now often cost more than the kitchen itself**, so leaving them last risks the budget running out — «потом у вас может просто не остаться на неё бюджета, и это может подпортить вам очень сильно планы». **«Бытовая техника — первое, о чём надо подумать.»**
+- **His own honest caveat against over-reading his advice: «стоимость не всегда гарантия долгожительства вашей бытовой техники.»** The recommended approach is to prioritise deliberately — a better dishwasher that will not damage crockery and lasts longer, economising on the freezer or the hob.
+
+### ⚠️ Under-Sink Volume Is Now Contested and Must Be Planned as a Whole (same source)
+
+The bin is no longer the only occupant, and this is a planning list rather than a rule:
+
+- The **bin** itself.
+- A **измельчитель** (waste-disposal unit) — bulky and normally central. **One manufacturer offsets the sink's drain valve to the corner specifically so the disposal can be pushed into the corner and free the space**, which is worth asking about when selecting a sink.
+- **Drinking-water filters** feeding the mixer.
+- **With reverse osmosis and its tanks there is effectively no room left for a bin at all.**
+
+**→ Decide the full under-sink inventory before ordering the sink cabinet**, or the bin ends up somewhere else or too small to be useful.
+
 ## Appliance Fit, Powered Hardware, and Concealing Outlets in Cabinetry (Надежда Кузина, added 2026-08-31)
 
 Cabinetry-side consequences of the same seminar; the electrics themselves are on [[03_Kitchen/Kitchen_Utilities|Kitchen Utilities]]. [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]

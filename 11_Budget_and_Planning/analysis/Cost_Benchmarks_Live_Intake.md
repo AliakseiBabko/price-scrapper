@@ -16,6 +16,30 @@ Companion pages: [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Pr
 (per-system tier ladders) · [[11_Budget_and_Planning/analysis/Estimate_and_Contract_Templates|Estimate & Contract Templates]] ·
 the fully worked cases under `11_Budget_and_Planning/case_studies/`.
 
+## Live intake benchmark — St Petersburg tier ladder and Moscow premium floor, from a contractor of 30+ years (2023-12-15)
+
+**The first St Petersburg tier ladder on this page**, and the first with an explicit Moscow-versus-Petersburg gap from one speaker in one sitting. Source is a 72-minute podcast on the NSDSGN channel; **the figures come from the guest, Руслан — a contractor with 30+ years in construction, ~20 in business-plus/premium отделка and old-fund reconstruction — not from the channel owner**, and the host opens by disclaiming any commercial tie («мы не занимаемся рекламой»). **Region level 1**: both cities named in spoken content and their price levels contrasted directly.
+
+**USD normalization**: upload 2023-12-15, trailing 6-month USD/RUB mean **92.8875**. **Delivery model: Mixed** — he quotes brigade and individual-hire rates he does not sell alongside his own turnkey segment, and flags his own figures as approximate and **explicitly not an offer** («не надо это воспринимать как оферту»).
+
+**⚠️ Scope of the ladder, stated by him**: construction work only, built to a design project, and **excluding** classical-style work, decorative plaster, ventilation, and balcony insulation. That exclusion list is why these numbers sit below this page's turnkey tiers rather than contradicting them.
+
+| Tier, St Petersburg, Dec 2023 | RUB/m² | USD | What it buys |
+| :--- | :--- | :--- | :--- |
+| **Floor — «below this is impossible»** | ~10,000 | ≈$110 | Low-qualified отделка by one or two individuals hired hourly. No brigade, no прораб. «Муж на час» / Профи.ру territory |
+| **A good brigade with a бригадир** | ~20,000 | ≈$220 | See the competence test below |
+| **His stated minimum average level** | 20,000–25,000–30,000 | ≈$220–$270–$320 | Modern renovation to a design project |
+| **Premium** | ~70,000 | ≈$750 | Quoted against the 20,000 figure as the 3.5× question clients actually ask |
+| **Moscow** | 90,000 / 100,000 / 150,000 | ≈$970 / ≈$1,100 / ≈$1,600 | A structurally higher floor, not a different product |
+
+**⚠️ The 20,000 RUB/m² tier comes with a competence test, and it is more useful than the number.** Brigades at that level **do not know what a теневой профиль or a дверь скрытого монтажа is** — «они говорят, что знают. Нет. Они могут сказать: а нафиг вам надо, а давайте поменяем». **A crew proposing to substitute away from a detail is the diagnostic.** Genuinely good brigades working at 20,000+ have **three-year waiting lists**. *(Independently corroborated on the same channel by a ceiling installer, who names теневой профиль as the detail crews are least able to build — see [[13_Surfaces_and_Finishes/analysis/Ceiling_Type_Comparison_and_Cost|Ceiling Type Comparison and Cost]].)*
+
+**Why the 3.5× gap exists — mechanism, not assertion.** Economy work counts square metres per day and **skips technological waiting times**: primer, putty applied immediately, fast sanding, wallpaper — producing **microcracks within a year or sooner**. Premium buys a different малярка «пирог» — reinforcement, **расшивка** of plasterboard seams, extra painter's tapes, more layers, mechanical application — plus somebody paid to come and inspect. He also insists rationality runs both ways: a super-renovation in cheap property is as odd as an economy renovation inside expensive walls.
+
+**On the Moscow premium he separates two causes**, which is worth keeping: genuine service certainty, and openly **пафос** — status signalling about what the renovation cost. Quoted from a client with flats in both cities: «в Москве деньгами никого не удивишь».
+
+**⚠️ And the single most useful item: a mechanism for why cheap anecdotal per-m² figures circulate and are sincerely reported.** A beginner contractor **has no price list**, so copies a смета off some company's website of unknown age. Being decent, he finishes at zero margin or a loss, and then reports honestly: «я сделал себе ремонт за 7.000» (≈$80/m²). **That figure is true for him and false as a market rate.** A real price is cost of organising the work + markup + expenses + taxes. **Treat any per-m² figure sourced from a private individual's own completed job as this category until shown otherwise.** [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
+
 ## Live intake benchmark — Petrishin-Stroi turnkey market-segment tiers (2025-11-23)
 
 A different kind of Petrishin-Stroi data point than the real-object cases

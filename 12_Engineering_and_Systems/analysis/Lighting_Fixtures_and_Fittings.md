@@ -29,6 +29,17 @@ What to check before buying a fitting, chandeliers and pendants, and the constru
 
 **⚠️ A named product type to be wary of: the GX53 puck-style recessed downlight.** Popular roughly 7–10 years ago and still widely used, but called out for **low CRI** (even bright output looks dull and washed out) and **poor integrated optics**, producing flat uninteresting light. Its one advantage is low cost. Concretises the general "check CRI" guidance with a specific fixture to avoid. `single-account`, `unverified`. [source: [[_Sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
 
+**⚠️ Secondary optics — the beam angle must be a written specification, and cheap optics cost you the CRI you paid for.** Цепелев and Борисов give this page's existing "secondary optics" parameter its content: it is what forms the beam — diffusers at one extreme, and **lenses focusing to 10°, 20°, 30°, 60°** at the other. Two consequences:
+
+- **The beam angle must be written on the luminaire, in the commercial offer, and in the project.** They name it as a figure buyers should demand and check, not infer.
+- **Cheap optics smear and distort the beam, produce aberrations, and materially degrade colour rendering.** So optics quality is not only about beam control — **a cheap lens throws away the CRI the fixture was specified for**, which connects this page's separate CRI and optics parameters into one purchase decision. [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
+
+**⚠️ Replicas: one photograph, a ~12× price ladder, and the inspection step you lose buying direct.**
+
+- **The image you see online is, in 99% of cases, the original manufacturer's own photograph**, scraped and reused identically across listings. The same apparent model then lists at **180,000 → 70,000 → 60,000 → 50,000 → 40,000 → 30,000 → 20,000 → 15,000 RUB (≈$1,900 down to ≈$160**, trailing-6-month USD/RUB mean before 2024-01-09, 93.6417 RUB/USD**)**. Do not treat a photograph as evidence of anything.
+- Their three honest paths: **save and buy the same picture cheaply, and then do not complain** about shade, tint or paint quality; **find something inside budget in a different form factor**; or **consult someone experienced first** — some items are «ведро с гайками» and entirely acceptable at 3 m height where nobody will inspect them.
+- **⚠️ The procurement point is the one worth keeping: buying direct removes the rejection step.** «AliExpress пришёл, ты его принял на объекте — ты с этим уже ничего не сделаешь.» A supplier or bureau opens each item, checks it and **rejects (отбраковка)** what misses a quality standard. That is a service being bought, not a markup — and it is invisible until something arrives damaged. **Cross-reference: the same argument appears independently for doors in [[11_Budget_and_Planning/analysis/Bill_of_Quantities_and_Procurement|Bill of Quantities and Procurement]].** [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
+
 **⚠️ Two dimensional traps that decide the ceiling before the fixture does:**
 
 - **Add 1 cm to a recessed fixture's stated depth when calculating the ceiling drop.** A 6 cm fixture needs a **7 cm** drop; a 10 cm fixture forces an **11 cm** drop. Шеврина's named failure is buying an attractive showroom spot on light quality and colour temperature alone and only then discovering the ceiling must come down 11 cm. [source: [[_Sources/YT_NfHyCfo1J4w_shevrina_lighting_mistakes|YT_NfHyCfo1J4w]]]
@@ -74,6 +85,20 @@ Per designer Nikita Kuznetsov (Kruglov/Ontario), trend-focused framing. [source:
 - **Formality register as a selection lever** (Кузина): crystal or glossy metal reads **more formal**; wood, woven elements or an exposed bulb lower the *"градус пафоса."*
 
 [source: [[_Sources/YT_9MsEZVjLH2M_kuzina_renzhin_lighting_design_podcast|YT_9MsEZVjLH2M]]]
+
+### ⚠️ Integrated-LED chandeliers are disposable — the mechanism, with a service case
+
+**The distinction comes first, and it is what makes this actionable rather than snobbery.** Цепелев is emphatic that **технический свет — spots, projectors, linear and profile systems — is LED and is *better* than lamp-based equipment**, precisely because it is assembled from replaceable parts: typical chips, replaceable drivers, standard components. It can be repaired.
+
+**Integrated-LED chandeliers are the opposite case**, and the failure is structural, not a quality lottery:
+
+- «Чем она проще, тем скорее выйдет из строя», and they are **not amenable to repair at all.**
+- **The service case that supplies the mechanism**: a client's chandelier bought about two years earlier — «хороший срок для супер-эконома» — burnt out. Opened in their own service department, the driver proved to be a **bespoke L-shaped unit shaped to fit that chandelier's own niche**, made by nobody in the world except that chandelier's manufacturer. The manufacturer replied that **the model and its driver had both been discontinued as unsuccessful.** Nothing could be done; the chandelier was thrown away.
+- **⚠️ The case worth designing against: a chandelier that fits the design perfectly, or worse, was architecturally fitted into specific dimensions or a niche.** Then the failure takes the composite solution with it, and «путь реанимации этого решения может быть очень болезненный».
+- **Rule: for a chandelier, buy either genuinely high-grade equipment, or a fixture with replaceable lamps and replaceable elements.** Replaceability is the specification, not brand.
+- Also named as a product to avoid: **the LED chandelier that cycles cold → neutral → warm on successive flicks of the wall switch** — which corroborates this page's existing warning about cheap multi-colour-temperature "smart" fixtures from an unrelated channel.
+
+**This is a durability argument for the "люстра — не прибор освещения" position above, arriving from the supply side rather than the design side.** [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
 
 ### Dining pendant — a diameter formula and a corroborated height
 
@@ -140,6 +165,23 @@ The same applies to multiple strips on one switch — **three vertical wall stri
 ### Transformers and drivers
 
 **⚠️ Centralise LED-strip transformers in one location rather than mounting each near its own run** (a niche, behind a shelf, under a cornice — the common practice). Consolidate every 12 V transformer for the apartment into one spot — a closet, walk-in wardrobe, or the low-voltage panel — ideally somewhere with extra passive cooling. **Stated reason transformers fail: overheating** — so centralising them somewhere deliberately cooled is framed as directly extending service life, not just easier troubleshooting. `single-account`, `unverified`. [source: [[_Sources/YT_kkE25HmFciU_kruglov_worst_solutions|YT_kkE25HmFciU]]]
+
+**⚠️ A third channel supplies the failure rates and the physical distinguisher, which this page did not have.** Lighting supplier Константин Цепелев recommends **sealed, IP-rated metal driver units**, and identifies the ones to refuse by their appearance: **the perforated/mesh-cased units, and above all anything with a fan**. His figures:
+
+- **Cheap mesh/fanned units fail reliably within roughly a year to eighteen months.** Their warranty is typically **one year** — and they die at about a year to two, i.e. just outside it. «Замена, трата нервов, трата денег, трата сил.»
+- **For the sealed metal units his verifiable claim is his own installation: one running in his home for 10 years with no failure.** *(The transcript also has him say «35 лет», which is implausible for a driver and is recorded as ASR-`uncertain`; the 10-year in-service observation is the usable figure.)*
+- **This corroborates the overheating mechanism above from an independent channel** — a fan-cooled plastic-cased driver is the same failure mode the centralisation rule is designed around, sold as a feature.
+
+**He offers it as a decomposition method rather than a fact**: any element of a lighting system can be taken apart the same way. His worked example of a quote that comes back "twice as cheap" for kitchen-backsplash LED — **low-CRI tape instead of high-CRI, and no aluminium profile** — which is exactly the two items this page already insists on, arriving as the two things a cheap quote silently drops. [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
+
+### ⚠️ Dimming is the largest single failure point — and it must be decided before purchase
+
+**«Всё самое больное со светом всегда было связано с диммированием.»** Цепелев names dimming as the biggest source of trouble in his practice, and the mechanism is a retrofit trap:
+
+- **Buy a strip and an ordinary driver, later decide to dim it, and you get strong visible flicker (мерцание).** Whether it flickers depends on the quality of **both the driver and the dimmer** — not the strip.
+- **Operational rule: the moment anything in the scheme must be dimmable, treat that as a warning flag and specify the driver for it from the start.** Retrofitting dimming onto a driver not chosen for it is the failure.
+
+**This is the specification consequence of the dim-to-warm and tunable-white options recommended on [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]]** — that page's route out of the colour-temperature argument depends on dimming, and dimming depends on gear chosen for it. [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
 
 **A second channel makes a weaker version of the same rule.** Кузина's point is only that the driver («блок питания») must have a decided location and a decided cover **at design time**, discovered at the drawing stage rather than at installation — she treats a dedicated hidden bay as correct, the same approach she uses for servo-drive power blocks in cabinetry. **She does not make the centralisation or the cooling argument.** Records as independent support for "plan where the driver lives," not for "put them all in one place." [source: [[_Sources/YT_iHViNm3dESU_kuzina_kitchen_electrics_and_lighting|YT_iHViNm3dESU]]]
 

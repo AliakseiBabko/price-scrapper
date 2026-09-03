@@ -11,6 +11,33 @@ Related: [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Bu
 - **Upper cabinets are frequently never actually used functionally in practice, per one practitioner's stated real-world observation across many projects** — a legitimate cost-saving measure is making them decorative-only (blank door fronts, no functional hinges/opening hardware, no interior fitting cost) with no visual downside. `single-account`. (added 2026-08-18)
 - **Corner-kitchen-without-a-corner-module technique**: when the true corner is unusable for a full corner cabinet (a utility riser or adjacent bathroom wall intrudes into it), build a dedicated **60×60cm technical column** at that corner instead of defaulting to one cramped straight run — the two straight cabinet runs on either side dock cleanly against the column (their countertops don't need to form one continuous surface). (added 2026-08-18)
 
+## ⚠️ Costing Ratios With No Absolute Prices — the Most Portable Set on This Page (Александр Сенчугов / NSDSGN, 2025-07-22)
+
+**Every figure here is a ratio or a percentage, not a currency amount.** That is unusual and it is the reason this set is worth having: **it does not decay with inflation or the exchange rate**, so it stays usable against a 2026 quote. Source is a 25-mistake checklist video in which each item carries an explicit «на чём можно сэкономить» cost-down option. [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
+
+| Ratio | Figure |
+| :--- | :--- |
+| **Installation as a share of the kitchen's cost** | **~10%** |
+| **Non-standard versus standard items** | **at least +40%** |
+| Built-in microwave versus free-standing on a shelf | **2–3×** |
+| Dark ДСП or PVC facades versus matte enamel or deep-matte Fenix | **2–3× cheaper** |
+| European versus Chinese hardware | **up to ~10×** |
+| Gloss versus matte paint on MDF | **about the same** — so choosing matte is free |
+| Ready-made cabinet versus made-to-order | ready is **«на порядок дешевле»** |
+| One large item versus several small ones | **one large is cheaper** |
+
+- **⚠️ The 10% installation figure comes with the scam it exists to prevent, and that is the actionable half.** Unscrupulous kitchen firms appear on site **after** the client has spent everything on appliances and furniture, sometimes on credit, and present a bill well above 10% plus «допы». **→ Agree the assembly budget before ordering, not on delivery.** He adds that **assembly can ruin or improve the kitchen** — «можно так собрать, что потом кухня не будет похожа на кухню» — so it is not a line to buy blind on price. **Available saving, with the risk stated: buy the kitchen in one place and hire the fitters elsewhere** — «это может работать в обе стороны», and the risk allocation is the buyer's choice.
+- **The +40% non-standard premium is the reason the standard-module discipline elsewhere on this page pays.** Standard hanging cabinets, standard low cabinets and standard pencil units save «порядка 40%», because **everything non-standard costs at least 40% more.** Cross-reference the **2,210 / 2,400 mm standard heights** on [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout Sizing and Ergonomics]].
+- **«Одно большое изделие дешевле, чем несколько маленьких»** — a single tall pencil unit beats several wall cabinets for the same storage volume. Offered as the saving on the "nowhere to put the small appliances" problem.
+- **Facades and worktops, the cost-down options as stated:**
+  - **Dark kitchens look best in matte enamel or deep-matte Fenix; dark ДСП or PVC is 2–3× cheaper «но смотреться будет, конечно же, тоже дешевле».** Stated plainly rather than sold either way.
+  - **Gloss and matte cost the same on MDF, so the saving is switching MDF to ДСП** — not switching finish.
+  - **Cheapest practical worktop-plus-backsplash: ДСП or компакт-плита for both** — «это сэкономит вам море денег, при этом это ещё практичный материал, который будет жить вечно». Set against his warning that **oak, solid timber or white/black marble on a working kitchen absorbs everything and restoring it is «и дорого, и ненадолго, и бессмысленно».**
+  - **⚠️ A backsplash saving that removes a trade entirely: glue glass** instead of buying porcelain stoneware and hiring a tiler — withstands any dirt and cleans easily.
+- **Handles: ask the supplier to cost ordinary, integrated and profile variants side by side** so the budget is comparable. **A milled finger-pull in solid timber is the most expensive option; a metal profile integrated into ДСП is much cheaper.** For a loft kitchen, flea-market vintage handles cost almost nothing.
+- **Where he says you cannot economise at all: газлифты, sockets, and worktop LED lighting.** *(The sockets and LED positions corroborate [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]] and this page's existing never-cut list.)*
+- **The closing rule, which is the frame for all of the above: «Хорошо спроектированная кухня — это экономия на переделках. Сначала сделайте план и только потом приступайте к покупке.»**
+
 ## Budget Kitchen: What to Cut vs. Never Cut (added 2026-08-28)
 
 > [!NOTE]

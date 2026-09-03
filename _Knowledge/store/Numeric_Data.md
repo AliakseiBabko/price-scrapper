@@ -326,3 +326,92 @@ From the studio's own bill of quantities. **Region unresolved at level 1** (RUB 
 *USD equivalents: `USD/RUB` trailing 12-month arithmetic mean before 2020-08-21 (2019-08-21..2020-08-21, 244 samples, **67.8098 RUB/USD**), rounded to the nearest 10 per the sub-$1,000 bucket.*
 
 [source: [[_Sources/YT_bVmE50y33Ls_kuzina_what_to_bring_from_old_flat|YT_bVmE50y33Ls]]]
+
+---
+
+## St Petersburg and Moscow Renovation Tier Ladder, December 2023 (Руслан, 30+ years, via NSDSGN)
+
+**⚠️ Scope, stated by the source and required for any comparison: construction work only, built to a design project, EXCLUDING classical-style work, decorative plaster, ventilation and balcony insulation.** He also flags the whole set as approximate and explicitly not an offer — «не надо это воспринимать как оферту». **Delivery model: Mixed** — brigade and individual-hire rates he does not sell, alongside his own turnkey segment.
+
+| Tier | RUB/m² | USD/m² |
+| :--- | :--- | :--- |
+| Floor — «below this is impossible»; one or two individuals hired hourly, no brigade, no прораб | ~10,000 | ≈$110 |
+| A good brigade with a бригадир | ~20,000 | ≈$220 |
+| His stated minimum average level, modern renovation to a design project | 20,000 / 25,000 / 30,000 | ≈$220 / ≈$270 / ≈$320 |
+| Premium | ~70,000 | ≈$750 |
+| **Moscow** | 90,000 / 100,000 / 150,000 | ≈$970 / ≈$1,100 / ≈$1,600 |
+| Beginner's own-job anecdotal figure — see the warning below | ~7,000 | ≈$80 |
+
+**⚠️ The 7,000 RUB/m² row is recorded as a data-quality warning, not as a market rate.** A beginner contractor has no price list, copies a смета off a company website of unknown age, finishes at zero margin or a loss, and then reports honestly that he did a renovation for that figure. **It is true for him and false as a market rate.** Treat any per-m² figure sourced from a private individual's own completed job the same way until shown otherwise.
+
+*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before 2023-12-15 (2023-06-15..2023-12-15, 131 samples, **92.8875 RUB/USD**), rounded to the nearest 10 below $1,000 and the nearest 100 above.*
+
+[source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
+
+## Ceiling Finish Price Set by Type and Perimeter Detail, January 2023 (Алексей Морозов / СС Групп, via NSDSGN)
+
+**All-in figures per variant** — unlike this store's Kruglov ceiling ladder, which splits labour from materials, so the two sets are complementary rather than competing.
+
+| Item | RUB/m² | USD/m² |
+| :--- | :--- | :--- |
+| Mass-market stretch ceiling (lift leaflets, «третий потолок в подарок») | 250–300 | ≈$4–$5 |
+| PVC membrane alone | ~1,000 | ≈$20 |
+| **PVC on теневое примыкание** | ~2,500 | ≈$40 |
+| Textile (polyester) membrane alone | ~2,500 | ≈$40 |
+| **Textile on теневое примыкание** | ~4,000–4,500 | ≈$60–$70 |
+| Plasterboard, turnkey with malyarka and paint, two board layers, proper profiles | 5,000–6,000, up to 7,000 top-end | ≈$80–$100, up to ≈$110 |
+
+- **The plasterboard figure is sourced by survey rather than asserted** — he polls partner прорабы — with the quality condition built into the question: «сделать как по уму, чтобы это не потрескалось через полгода».
+- **⚠️ The share figure that reframes repair cost: the membrane is only 10–20% of a ceiling project's total.** Worked example: a **~1,000,000 RUB (≈$16,100)** ceiling project including slot ventilation diffusers, inspection hatches and track systems carried **~100,000 RUB (≈$1,600)** of membrane.
+- **New information relative to this store's existing ladder: PVC and textile carry materially different prices on the same profile system**, which the existing ladder does not separate.
+
+*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before 2023-01-25 (2022-07-26..2023-01-25, 126 samples, **62.2457 RUB/USD**), rounded to the nearest 10 below $1,000 and the nearest 100 above.*
+
+[source: [[_Sources/YT_gTgUJaWKobM_nsdsgn_stretch_ceiling_shadow_gap|YT_gTgUJaWKobM]]]
+
+## Lighting — a Replica Price Ladder and One Bundled Project Figure, January 2024 (Константин Цепелев / Матвей Борисов, via NSDSGN)
+
+- **⚠️ The replica ladder, behind a single scraped photograph.** The image in a listing is, in 99% of cases, the original manufacturer's own photograph, reused identically everywhere. The same apparent model then lists at **180,000 → 70,000 → 60,000 → 50,000 → 40,000 → 30,000 → 20,000 → 15,000 RUB** — **≈$1,900 down to ≈$160, a ~12× spread.** Recorded as a warning about using a photograph as evidence, not as a price for anything.
+- **Chandeliers «от 10.000 руб (≈$110) до бесконечности».**
+- **⚠️ One project figure, and its scope disqualifies it as a lighting benchmark: a евродвушка/евротрёшка done in a "super-economy" variant for ~350,000 RUB (≈$3,700) total — covering light AND electrics together.** He frames it as roughly the floor. **Do not compare it with a lighting-only budget.**
+- **⚠️ Recorded as an open question rather than a figure: asked directly what lighting costs for a 100–120 m² three-room flat, and whether there is a percentage of the construction budget, both specialists say they do not have that data** — clients, designers and architects never disclose the construction budget to them. An honest refusal to invent a number, and a gap this store cannot fill from this source.
+
+*USD equivalents: `USD/RUB` trailing 6-month arithmetic mean before 2024-01-09 (2023-07-11..2023-12-30, 124 samples, **93.6417 RUB/USD**), rounded to the nearest 10 below $1,000 and the nearest 100 above.*
+
+[source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
+
+## Kitchen Costing Ratios With No Absolute Prices, July 2025 (Александр Сенчугов / NSDSGN)
+
+**⚠️ Recorded as a set because none of it decays.** Every figure is a ratio, so it stays usable against a quote in any later year and needs no conversion.
+
+| Ratio | Figure |
+| :--- | :--- |
+| Installation as a share of the kitchen's cost | **~10%** |
+| Non-standard versus standard items | **at least +40%** |
+| Built-in microwave versus free-standing on a shelf | **2–3×** |
+| Dark ДСП or PVC facades versus matte enamel or deep-matte Fenix | **2–3× cheaper** |
+| European versus Chinese hardware | **up to ~10×** |
+| Gloss versus matte paint on MDF | about the same — so choosing matte is free |
+| Ready-made cabinet versus made-to-order | ready is «на порядок дешевле» |
+| One large item versus several small ones | one large is cheaper |
+
+**The 10% installation figure comes with the scam it prevents**: firms that appear on site after the client has spent everything and present a bill well above 10% plus «допы». **Agree the assembly budget before ordering.**
+
+[source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
+
+## Working Dimensions From the Same Round (no conversion applicable)
+
+- **Kitchen: hob to adjacent furniture or fridge 300 mm minimum; sink to hob 600 mm absolute minimum and 1,000 mm ideal; countertop to upper cabinets 500–600 mm; 300–500 mm free air above a niche-fitted free-standing fridge (⚠️ against 200 mm from Кузина already in this vault — divergence recorded, not reconciled); standard kitchen heights 2,210 mm and 2,400 mm, with no three-metre standard.** [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
+- **Stretch ceilings: minimum drop 20–27 mm with the Slim 27 profile line and 40–60 mm with standard systems — ⚠️ both measured FROM THE LOWEST EXISTING OBSTRUCTION, not from the slab; natural sag ≈1% of the room diagonal for PVC and a few millimetres for textile; 30 mm minimum between a hinged wardrobe door and the membrane; PVC web maximum 5.5 m and textile 4.90 m usable; lead time 10–15 working days for made-to-order integration items.** [source: [[_Sources/YT_gTgUJaWKobM_nsdsgn_stretch_ceiling_shadow_gap|YT_gTgUJaWKobM]]]
+- **Glazed partitions: 8 mm single glazing ≈ an average interior door acoustically; two 4 mm panes as триплекс ≈40 dB; triplex with an acoustic interlayer up to 50 dB; aluminium unstable above a ~4 m span on a thin profile, steel built at 6 m and 12 m.** [source: [[_Sources/YT_pR1t7zlT2Qk_nsdsgn_glass_partitions_10_myths|YT_pR1t7zlT2Qk]]]
+- **Lighting: beam angles specified at 10° / 20° / 30° / 60°; residential colour temperature 2700–3500 K with 4000 K over a worktop; office illuminance norms cited at 500–1000 lux against 100–300 lux domestic, as the two ends of the Kruithof relationship.** [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
+- **Wardrobe carcass depth 750 mm per side, as built in a space organiser's own flat.** [source: [[_Sources/YT_9ZwqMKiMgvc_nsdsgn_storage_organiser_family_flat|YT_9ZwqMKiMgvc]]]
+
+## Service-Life and Failure-Interval Figures From the Same Round
+
+- **Cheap perforated/mesh or fan-cooled LED drivers: fail reliably within ~1 to 1.5 years, against a typical 1-year warranty.** Sealed IP-rated metal units: one in the speaker's own home at **10 years** with no failure. *(A transcript figure of «35 лет» is implausible for a driver and is recorded `ASR-uncertain`.)* [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
+- **An integrated-LED chandelier at ~2 years to failure, described as «хороший срок для супер-эконома»** — and unrepairable, because the driver was bespoke to that model's niche and discontinued. [same source]
+- **Cheap soft rollers in a sliding partition: go oval and the partition starts jumping within about 2 months.** Door closers outside Italian and German manufacture: few last **5 years** without failure. [source: [[_Sources/YT_pR1t7zlT2Qk_nsdsgn_glass_partitions_10_myths|YT_pR1t7zlT2Qk]]]
+- **A good Blum push-open (tip-on) mechanism: one door in constant daily use at 18 months with no problems**, against cheap tip-ons in the same person's previous flat that «постоянно ломались, вылетали, отскакивали». [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
+- **Economy-tier wall finishing: microcracks appear within a year or sooner**, attributed specifically to skipping technological drying intervals between primer, filler and finish. [source: [[_Sources/YT_M0Wv4SOSUhs_nsdsgn_builder_qa_costs_and_estimates|YT_M0Wv4SOSUhs]]]
+- **⚠️ A material-price volatility shape rather than a price: one OSB sheet observed at 800 → 1,600 → 2,400 → 3,600 RUB over roughly fifteen days.** **The year is not stated in the source, so this is deliberately left unconverted** and recorded only as evidence against pricing a long contract at signing-day rates. [same source]

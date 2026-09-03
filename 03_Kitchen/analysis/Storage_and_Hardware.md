@@ -22,6 +22,34 @@ Related: the cheap-hinge carcass-destruction mechanism and hardware cycle rating
 
 `single-account`, `unverified`.
 
+## ⚠️ Spend on Hardware by Frequency of Use, Not Uniformly (Александр Сенчугов / NSDSGN, 2025-07-22)
+
+**The clearest budgeting heuristic for hardware in this vault, and he supports it with his own reversal rather than asserting it.** [source: [[_Sources/YT_-6QKr4HerCQ_nsdsgn_kitchen_25_ordering_mistakes|YT_-6QKr4HerCQ]]]
+
+- **The rule: buy good hardware where you use it daily — the fridge, the dishwasher. Economise on a drawer you open once a year and nothing will go wrong.** Cheap hardware — «фольга», in the trade's own word — fails fast, but only fails where it is cycled. **This replaces a blanket "never cheap out on hardware" with something a budget can actually act on.**
+- **⚠️ The push-open evidence, and it is a designer publicly reversing himself.** He hated tip-on / **типон** mechanisms and says so; his furniture makers persuaded him to try **a good Blum tip-on. Result: one door, eighteen months, in constant use, no problems.** In his previous flat cheap tip-ons «постоянно ломались, вылетали, отскакивали». **→ The mechanism type was never the defect; the grade was.** *(Corroborates this vault's existing cheap-substrate-never-cheap-hardware finding from the FLAT channel, and adds a named brand plus a service interval.)*
+- **Where he says you cannot economise at all: газлифты.** Directly relevant to the reachability problem below.
+- **⚠️ Lift-up (лифты) fittings on high upper cabinets are a specific ergonomic trap, and the affected person is not who you would guess**: it bites people of **standard** height with a **tall** kitchen — the flap opens upward out of reach and you need a stool to bring it back down. **Use conventional hinged opening, or gas struts including the remote- and button-operated versions.** *(Complements this page's existing upper-cabinet-reachability material by naming the mechanism that causes it.)*
+
+### ⚠️ Check the Production Drawing Before the Facades Are Cut — the One Timed Check on This Page (same source)
+
+**A named artefact, a named window, and a named notation.** This is the check that prevents the whole class of clash faults:
+
+- **Before the facades go for cutting, the supplier must send you the production drawing of your kitchen** — the one they will actually cut from. **You are entitled to it, and it is the last moment anything is free to change.**
+- **On that drawing, opening directions are marked with small triangles.** Verify, on the plan:
+  - **Doors do not clash with each other.**
+  - **There is clearance for handle depth.** A surface-mounted handle has depth, and that depth can foul the adjacent facade as the door swings — «вот эта глубина может помешать вам открыть дверь». Not an issue with an integrated finger-pull channel.
+- **Corner facade junctions often need small filler pieces — доборные глухари — purely so the hinges can work.** Worth confirming they are on the drawing.
+- Failure modes this catches, all named: a drawer that strikes another drawer, **a handle that hits and scratches the facade**, and a lift-up flap you cannot close.
+- **The same rule generalises past kitchens**: a space organiser records exactly this failure in her own hallway — the cupboard door swings into the entrance door — and reaches the same conclusion, «нужно очень продумывать детально мебель, направление открывания фасадов». See [[17_Design_and_Ergonomics/analysis/Family_Scenario_Driven_Design|Family Scenario Driven Design]].
+
+### Pull-Outs and the Corner, With the Cost Honestly Attached (same source)
+
+- **Pull-out drawers everywhere they are possible in lower cabinets.** At the standard **450 mm** depth a fixed shelf buries its contents — «там лежат какие-то новогодние украшения, и потом о них вспоминают, или вообще никогда не вспоминают». A pull-out shows everything in one movement.
+- **⚠️ He flags honestly that this is the one recommendation in his whole checklist with no saving attached** — pull-out hardware significantly raises the price and **a plain shelf is always cheaper.** Recorded because it is the counter-case to the frequency rule above: here the ergonomic gain simply costs money.
+- **Corner sections get "buried" between two abutting runs** — wall, wall, and a глухарь between. Use a mechanism or **карусели** to retrieve the contents in one movement.
+- **His own cheaper alternative, which he uses at home and which is honest about why it works**: a plain shelf running deep into the corner holding rarely-used items — dishwasher salt and rinse aid — **and it works only because he remembers what is there.** Not transferable to a household where more than one person needs to find things.
+
 ## Storage Accessories — "50 Storage Ideas" Catalog (added 2026-08-28, Round 13 triage)
 
 > [!NOTE]

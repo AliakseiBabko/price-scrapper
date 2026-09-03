@@ -117,6 +117,80 @@ Konstantin Kruglov / Ontario gives the first full quantified labor+materials cos
 
 **⚠️ A material-science detail behind the non-yellowing/hypoallergenic claim (same channel, added 2026-08-28)**: the stretch-ceiling membrane is made from **primary (virgin) plastic pellets, melted directly** — this is why it doesn't darken/yellow over time, unlike **recycled plastic**. The source's own comparison: PVC window-frame profiles themselves don't yellow (primary plastic), but plastic insert strips sometimes fitted to windowsills do yellow (recycled plastic) — the same underlying material distinction applies to the ceiling membrane. This video's own cost totals otherwise restate the cost ladder above almost exactly (same channel, same order of magnitude) and are not re-recorded as a separate data point. [source: [[_Sources/YT_KNY-XfgbGog_kruglov_top8_save_money_tips|YT_KNY-XfgbGog]]]
 
+## Shadow-Gap Perimeter Detailing — Drop, Spans, Sag and Clearances (Алексей Морозов / СС Групп, via NSDSGN)
+
+Ceiling installer Алексей Морозов, interviewed in the profile manufacturer's showroom, supplies the perimeter-detail and dimensional layer this page did not have. **`теневое примыкание` had zero matches across this vault before this source, and `shadow gap` only ten — against 150 files mentioning stretch ceilings.** The general subject was well covered; the detail was not.
+
+**⚠️ Brand caveat**: the manufacturer's name is ASR-garbled throughout as "crap Systems" / "crop Systems" / "krab Systems" — almost certainly **Krab Systems (Краб Системс)**, recorded `uncertain`. Profile-line names and all dimensions below are stated numerically and unaffected. **Promotional context**: one supplier's catalogue is the whole subject, and the closing advice is to phone that supplier — the technique generalises, the brand preference does not. [source: [[_Sources/YT_gTgUJaWKobM_nsdsgn_stretch_ceiling_shadow_gap|YT_gTgUJaWKobM]]]
+
+### What the shadow gap replaces, and when it appeared
+
+- **The component it eliminates is the маскировочная лента** (perimeter masking strip). Named failure modes: visually heavy, **yellows over time, and sometimes falls out** — «весь ваш дорогой ремонт сразу же превращается непонятно во что».
+- **The detail is recent, not established: developed roughly two to three years before January 2023**, i.e. ~2020. Worth knowing when judging how many crews have actually built one.
+- Main profile line at the time: **Слот 140 / 160 / 180**, differing only in height.
+- **The host's own caution is worth keeping against over-specifying it**: for many designers «современный дизайн — это теневое примыкание потолка и теневые плинтуса, и на этом дизайн заканчивается». He treats it as a baseline minimalist attribute, not as a design decision.
+
+### ⚠️ The 27 mm drop claim — and its own on-camera correction
+
+**This is the most useful passage, because the host pushes back and the qualification survives on tape.**
+
+- Claim: a dedicated **Slim 27** profile line minimises the drop to **27 mm**, «в идеальных условиях, когда соблюдены все факторы».
+- Host's objection: slabs are never ideal, and **a распределительная коробка is typically ~60 mm high** — so how can it be 27 mm?
+- **Correction accepted: the drop is measured from the lowest existing obstruction, not from the slab.** From that lowest point, **standard systems drop 40–60 mm; the Slim 27 line drops 20–27 mm maximum.**
+- **→ So 27 mm is not a slab-to-membrane figure.** Whether the finished ceiling lands 27 mm below the slab depends entirely on how tightly the builders route everything above it — «это уже вопрос к вашим строителям, чтобы они максимально всё прижали». **Read alongside this page's existing ceiling-drop ranking, which measures from the slab; the two are not the same quantity and must not be compared directly.**
+- Comparison basis he gives for plasterboard: wire, then profile, then **two board layers** — «складывается очень серьёзный пирог».
+
+### Prices, January 2023 — and the fabric-share figure that reframes repairs
+
+**USD normalization**: upload 2023-01-25, trailing 6-month USD/RUB mean **62.2457**.
+
+| Item | RUB/m² | USD |
+| :--- | :--- | :--- |
+| Mass-market stretch (lift leaflets, «третий потолок в подарок») | 250–300 | ≈$4–$5 |
+| PVC fabric alone | ~1,000 | ≈$20 |
+| **PVC on shadow gap** | ~2,500 | ≈$40 |
+| Textile fabric alone | ~2,500 | ≈$40 |
+| **Textile on shadow gap** | ~4,000–4,500 | ≈$60–$70 |
+| Plasterboard, turnkey with malyarka and paint, two layers, proper profiles | 5,000–6,000, up to 7,000 top-end | ≈$80–$100, up to ≈$110 |
+
+- **⚠️ These are all-in figures per variant, whereas this page's Kruglov ladder splits labour from materials — so the two sets are complementary, not competing.** Cross-checking the overlapping line: Kruglov's shadow-gap stretch at 2,000 labour + ~2,500 materials ≈ 4,500 RUB/m² (Nov 2024) sits between this source's PVC-on-shadow-gap (~2,500, Jan 2023) and textile-on-shadow-gap (~4,000–4,500, Jan 2023), across a ~22-month gap. **Consistent in order of magnitude; the new information is that PVC and textile carry materially different prices on the same profile**, which the existing ladder does not separate.
+- **His plasterboard figure is sourced by survey rather than asserted** — «у нас много партнёров-строителей, прорабов, и мы очень часто мучаем вопросами» — with the quality condition built into the question: «сделать как по уму, чтобы это не потрескалось через полгода».
+- **⚠️ Fabric is only 10–20% of a ceiling project's total cost.** Worked example: a **~1,000,000 RUB (≈$16,100)** ceiling project including slot ventilation diffusers, hatches and track systems carried **~100,000 RUB (≈$1,600)** of fabric. **This is what makes the repair rule below tolerable rather than alarming.**
+- **A supplier steering a viewer out of his own segment, recorded as counter-tier-steering**: mass-market at 250–300 RUB/m² is explicitly endorsed for the right case — «если у вас простой потолок квартиры под сдачу и вы не заморачиваетесь по поводу качества, то любая из этих компаний вам подойдёт».
+
+### Sag, durability and repair
+
+- **Natural sag (естественный провис) ≈1% of the room's diagonal for PVC.** Worked example: 3 m diagonal → 20–30 mm, visually undetectable.
+- **⚠️ They do not sag further over time, and growing sag is a diagnostic, not ageing.** «Со временем они не провисают… этот провис останется таким, как сделал изначально.» If it grows, the normal cause is a **non-airtight over-ceiling space**: air gets behind the membrane and inflates it.
+- **This is the third independent source on this page for the same billowing mechanism** (after Frolov and Kruglov) — **and the first to name a product response**: a profile called **Aircraft** that leaves a deliberate gap at the wall junction so trapped air escapes. Kruglov's fix was vent grilles in two opposite corners; this is the same physics solved in the perimeter profile instead.
+- **Textile has higher tension and density, so its sag is a few millimetres** — always less than PVC.
+- **Yellowing: conceded, not denied** — from smoke over time, «как любой потолок». They have not tried cleaning it; replacing the fabric is easier. **⚠️ This sits against the same-page Kruglov claim that virgin-pellet membrane does not yellow.** The two are reconcilable — that claim is about material ageing, this one about soiling from smoke — but **the page should not carry "does not yellow" unqualified.**
+- **Repair rule: damage within 50–100 mm of a wall can usually be re-cut and repaired in place; damage nearer the centre generally means replacing the whole membrane** — which is affordable precisely because of the 10–20% fabric share above.
+- Odour absorption: PVC is a solid material and cannot absorb; textile has structure and can retain odours, though he redirects this to being a ventilation question about the room where you cook.
+- **Champagne cork does not pierce a stretch ceiling — they tested it.**
+
+### ⚠️ Dimensional constraints, and the wardrobe-door clearance
+
+**The clearance figure is the single most directly usable item in this source.**
+
+- **A hinged wardrobe door needs a minimum 30 mm between the door top and the ceiling membrane**, or the door touches the fabric as it swings. Stated for a 600 mm hinged door.
+- **If a smaller gap is unavoidable (10 mm, even 5 mm), run a linear system along the wardrobe** — a light line or a track — because it locally supports the membrane and suppresses sag there. **Cross-reference: [[12_Engineering_and_Systems/analysis/Lighting_Design|Lighting Design]] already records a track-versus-cabinet-door-swing clearance failure; this is the same coordination problem solved in the other direction, with the light line as the fix rather than the obstacle.**
+- **Width limits: PVC maximum 5.5 m** (some stretch to 6 m — «мы не сторонники такой практики»). **Textile web is 5 m wide with a usable limit of 4.90 m** because of installation specifics.
+- **Beyond those widths there is a seam, and the handling is a design decision, not a welding decision**: a **теневой разделитель**, a light line, a track system, or a **level change**. If a splice is unavoidable, ask the installers where it will be invisible.
+- **⚠️ Free-standing columns need a dedicated profile.** Membrane cannot be welded on site — it is prefabricated — so going around a column requires a profile closing the fabric from two sides, leaving a **visible dark seam**. He met this for the first time on a ~60 m² living room with a single column and says he had never considered it before. **Worth checking against any plan with a column, pier or boxed riser in the middle of a room.**
+- Shower-curtain track detail: they **stop the system ~10 mm short of the wall** and cut a **ПАЗ** through which the hooks thread, closed with a trim.
+
+### Integration and sequencing — call them before the crew arrives
+
+- **Claim: stretch ceilings now integrate more than plasterboard does**, specifically low-voltage track systems, projectors, roman-blind mountings and multi-level forms. The profile line includes backlit profiles, track profiles, backlit lines, and single- and double-row curtain-track mounts.
+- **Checkable evidence offered for that claim**: they built a **1.5 × 1.5 m inspection hatch (ревизионный люк)** into a stretch ceiling for access to concealed services; the plasterboard crew said a hatch that size was not possible in board — too heavy to lift.
+- **A combined slot carrying a ventilation diffuser and a track system together**, with aerodynamic and acoustic testing claimed (his claim, `unverified`). The designer's standing complaint is the ventilation trade's default «огромные страшные решётки»; his ask is a single- or double-slot grille.
+- **Lead time for the made-to-order integration items: 10–15 working days.**
+- **⚠️ Sequencing rule, stated twice: «настройка начинается всегда с вентиляции.»** Ventilation design first, then the ceiling integration is drawn against it.
+- **Call the ceiling installers as early as possible — ideally at design stage**; if construction has begun, at the very start. Walk the flat and check where drivers sit, how electrics and ventilation route, and whether systems will collide.
+- **⚠️ The generalised warning, which applies well beyond this product**: minimalist profile details look trivial — «просто там тёмная линия» — and are not. Discuss them with builders and fitters **before they arrive on site**; afterwards it is rework. **This is independently corroborated by the builder in [[11_Budget_and_Planning/analysis/Contract_Practice|Contract Practice]], who names теневой профиль as the specific detail crews claim to know and have never built.**
+- **Luminaires: buy them anywhere, but agree the specific model with the fitters first.** A frameless modern fixture is installable but costs more in labour; a simple budget fixture does not change the labour price.
+
 ## Drywall Ceiling — a Same-Channel Cost Divergence, Ventilation Exception, and Cove-Lighting Caution (Kruglov/Ontario, Round 13 triage, added 2026-08-28)
 
 > [!NOTE]

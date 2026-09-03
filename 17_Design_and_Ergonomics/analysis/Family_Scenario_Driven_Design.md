@@ -169,6 +169,64 @@ household (young children, open-plan living space):
 
 `single-account`. [source: [[_Sources/YT_fkoUNvB9LV8_anutavlady_france_gray_family_kitchen_living|YT_fkoUNvB9LV8]]]
 
+### ⚠️ Ксения, space organiser — "A Designer Could Not Have Foreseen This", and How to Brief Storage Before You Live Somewhere (via NSDSGN, 2026-03-25)
+
+**A 35-minute walkthrough of a professional организатор пространства's own flat** — herself, husband, an 8-year-old daughter, a dog — filmed on a designer's channel specifically to test whether one-person order survives a family. Renovation ~8 years earlier **with a design project**; she rebuilt most of the storage afterwards. [source: [[_Sources/YT_9ZwqMKiMgvc_nsdsgn_storage_organiser_family_flat|YT_9ZwqMKiMgvc]]]
+
+**⚠️ The claim that matters most, published unchallenged on a designer's own channel:**
+
+> «У нас тоже был проект, но многие вещи, касаемые хранения, я уже переделала потом… И, к сожалению, **дизайнер этого не предусмотрел и вряд ли мог**. Это не говорит о том, что плохой дизайнер. Просто специфика другая. Мы по-другому думаем, организаторы пространства.»
+
+**«И вряд ли мог» is the load-bearing part** — not "our designer was poor" but "a designer could not have." Her own walk-in wardrobe was drawn by the designer and rebuilt by her. **This is a scope limit on the design project as a deliverable, and it belongs in this section because the fix is an intake question, not a drawing.** *(The same round produced a second, independent statement of the designer-as-generalist limit from two lighting specialists, endorsed by this same host — see [[12_Engineering_and_Systems/analysis/Lighting_Fixtures_and_Fittings|Lighting Fixtures and Fittings]].)*
+
+**⚠️ Her answer to this page's hardest intake problem — how to brief storage for a flat nobody has lived in yet:**
+
+- **Analyse the current home**: what is inconvenient, what is convenient, and **where the biggest mess actually accumulates.**
+- **The transferable heuristic: notice where you habitually throw a charger or a t-shirt, and legitimise storage at that spot** — «подумайте, как организовать законно эту вещь в этом месте». **Design for the observed behaviour rather than against it.** This is a sharper instrument than asking a client what they need, because it surveys evidence they have already produced.
+- **The governing principle: «Порядок зависит от того, удобно ли размещены вещи.»** Order is a function of placement, not of household size.
+
+**The verdict on the video's own question, which is the useful conclusion:** the host finds the storage essentially identical to his single-occupant flat. **Her more precise version: with more people you account for each member's needs and there are simply more things — but the base principles hold. «Сценарии те же самые, просто их много, и они ещё и пересекаются. Нужно учитывать эти пересечения.»** → **Family-scenario design is not a different method for larger households; it is the same method applied to overlapping scenarios.**
+
+**Placement rules that follow the scenario rather than the plan:**
+
+- **Placement follows the action sequence**: pots in the lower drawer **nearest the water source**, because filling with water is the first step when boiling.
+- **Storage height follows who uses it, and it changes**: everyday plates moved down from an upper cabinet **because the daughter grew and began serving herself**. A low drawer holds snacks she is allowed to pack for school herself — **placed low deliberately to enable a child's autonomy.**
+- **A whole kitchen drawer sacrificed to laptops, chargers and headphones** because she works at the kitchen table and has no desk — so nothing stays out on the table. Offered as the principle: organisation adapts to actual habits even when the result is unconventional.
+- **A household protocol, not a shelf: a pull-out bottom shelf holds unopened stock, and the whole family knows the rule — if something runs out, look here; if it is not here, order it.**
+- **«Ящик позора» — a designated shame drawer.** To keep the cabinets you open constantly presentable, allocate one drawer to everything ugly. **An explicit concession that total order is not the goal.**
+- **⚠️ She discloses her own unresolved compromise**: oil and spices stored above the hob, which she says is undesirable — «есть риск, я уже один раз разбила плиту» — but she sees no alternative in this kitchen.
+
+**⚠️ A real project precedent from the host's own practice, and it is this page's cleanest scenario-to-room example**: for a large family they built **a separate санузел for the hockey-playing husband, with the brief "throw his kit here"** — shower directly over the laundry zone and a dedicated washing machine. **His stated standing practice: when reviewing a design project he always asks about the жизненные сценарии.**
+
+**Her own stated priority reverses the usual hierarchy**: she would rather have a **separate хозяйственная комната** with laundry and sports kit **than a walk-in wardrobe**, and would accept a wardrobe cupboard instead. Worth putting to a client as a live trade-off rather than assuming the wardrobe wins.
+
+**Children — three rules with an incident behind the second:**
+
+- **From age 2–3, involve the child. Space organisers never touch someone else's things, even a child's: always ask, or leave the items in one part of the room and wait until the child is back from school to discuss. Never throw anything away.** Stated in explicit contrast to the common parental «пока ребёнок не видит, я это выкину».
+- **⚠️ The child must do the decluttering themselves.** The host's 15-year-old came home to find her grandmother had tidied her room while she was out; she could not find anything, and it ended in tears and a family row. «Если бы она сама всё это убирала, никакого скандала бы не было.»
+- **But on design specifically, do not simply follow the child** — otherwise «чёрная комната с фиолетовым потолком». **A clean boundary: the child owns their possessions, the adults own the scheme.**
+- **⚠️ And a sizing regret worth recording against this page's life-stages principle: their daughter's room is 9 m² and they call it their own mistake** — «детские комнаты должны быть больше по площади». Reasons: many possessions, many hobbies, a шведская стенка, a period of tents. **The host names the opposing pattern he sees in clients — the older the child, the less parents invest in the room** («она всё равно съедет через год, поэтому по остаточному принципу») — and both reject it, because while children are small they genuinely need the floor area to play and to host friends.
+
+**Dividers — and an argument against fixing them in place:**
+
+- **The more cells you create, the easier order is to maintain, because things stop mixing.**
+- **⚠️ She argues against built-in fixed dividers, which some organisers and furniture makers propose. Reason: life changes and the composition of what you own changes** — «мы эту комнату раз переделывали». **Use removable, repositionable dividers so the layout can follow the household instead of freezing it.** *(A direct counterweight to specifying bespoke drawer inserts at fit-out.)*
+
+**⚠️ The furniture-opening error she volunteers about her own hallway**: the drawer should have been separate and the cupboard door should have opened the other way — as built it swings toward the entrance door. Her conclusion: **«нужно очень продумывать детально мебель, направление открывания фасадов».** **The kitchen-specific version of this check, including the artefact and the timing, is on [[03_Kitchen/analysis/Storage_and_Hardware|Storage and Hardware]].**
+
+**Remedies for a fit-out that is already wrong** — recorded because most of this page assumes design-stage influence:
+
+- **Not enough drawers: add a plastic chest of drawers and allocate one drawer per family member.** «Если вам не хватает ящиков, всегда можно поставить пластиковый комод.»
+- **Ready-made wardrobes can be modernised** — she removed a rail here, a shelf there.
+- **The inside face of a door is storage** — hooks for robes and home clothes, hidden while the door stands open. «Не забываем про вертикальные поверхности.»
+- **Shoes two rows deep in a standard deep carcass: stagger them, one set back and one set forward and offset, so every pair is visible at a glance.**
+- **Jewellery in a shallow pull-out with inserts, giving a top-down view of everything at once** — she explicitly rejects multi-drawer jewellery boxes with latches and hooks.
+- **⚠️ A revision that reverses standard organiser advice**: her husband's t-shirts were filed **vertically in a drawer** — the usual recommendation — and they concluded it was wrong **because t-shirts are his most-worn daily item**, switching to hanging them all visible. She does not iron: dries carefully, hangs immediately.
+- **Dirty laundry sorted at the point of undressing into four containers: dark, light, underwear, and one for items needing special attention.** Compliance is easy because the husband's clothes are mostly dark and the daughter's mostly light. **You can soak directly in the drawers.**
+- **Store underwear in the bathroom, not the wardrobe** — out of the shower, dress, leave. **Only two sets of towels**, one in use and one spare.
+- **⚠️ Her vanity unit is wrong and she says so: the drawers are both wide and deep. «Для ванной такие делать не надо»** — bathroom contents are small categories and that depth is wasted. Replacement already ordered.
+- **⚠️ She rejects decanting shampoos and shower gels into matching bottles.** Tried it; «это не для меня». A basket is easier and reads as tidier without hiding anything. **Recorded because it contradicts the dominant social-media convention.**
+
 ## Named Principles — Hotel-vs-Home, Life Stages, Compression and Release
 
 ### ⚠️ Two Compatible-but-Distinct Hotel-vs-Home Arguments (Игорь Краснов, added 2026-09-01, Round 2)
