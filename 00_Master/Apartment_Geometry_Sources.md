@@ -25,7 +25,21 @@ two illustrative drafts.
 | Three as-built comparables | `_Inbox/_Visual_Drop/floor plan_1..3.jpg` | **How much the built flat will differ** |
 
 > [!CAUTION]
-> **⚠️⚠️ THE BASIC PLAN OMITS AT LEAST ONE WALL THAT THE DETAILED PLAN DRAWS. Established 2026-09-04.**
+> **⚠️⚠️ RETRACTED THE SAME DAY — THIS WAS WRONG. The basic plan does NOT omit a wall.**
+> **Tested properly:** the basic plan was registered onto the detailed plan on thick-ink extent alone
+> (x·0.7764 + 25, y·0.7751 + 5; aspect mismatch 0.16%, all four corners exact), and every region where
+> the detailed plan has ink and the basic does not was enumerated. **There are six, and every one is a
+> DIMENSION STRING.** No wall-sized difference exists anywhere on the drawing.
+>
+> **What is true is simpler, and the repo already said it: the detailed plan is the only DIMENSIONED
+> source.** The basic plan draws the same walls without the numbers — so it cannot show where one block
+> ends and the next begins. That is why `G1` read as one wall from the basic plan and as **two blocks,
+> 250 + 120**, to the owner reading the detailed one.
+>
+> → **The action is to USE the detailed plan, not to hunt for missing walls.** The original text is kept
+> below so the error is auditable.
+>
+> ~~**THE BASIC PLAN OMITS AT LEAST ONE WALL THAT THE DETAILED PLAN DRAWS.**~~
 > A **250 mm aerated-block section east of the туалет corner**, part of the common-corridor wall carrying
 > the entrance door, is drawn on `fllor_plan_detailed.jpeg` and **absent from `floor_plan_basic.jpg`.**
 >
