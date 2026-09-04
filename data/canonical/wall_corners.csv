@@ -1,0 +1,11 @@
+corner_id,kind,wall_a,wall_b,owner,owner_gains_mm,note
+C_G3_R2,L,G3,R2,G3,250,G3 runs through to R2's far face; R2 stops on G3's near face
+C_G4a_G4b,L,G4a,G4b,G4a,120,G4a runs through to G4b's far face; G4b stops on G4a's near face
+C_G4d_G8,L,G4d,G8,G4d,75,G4d runs through to G8's far face; G8 stops on G4d's near face
+C_MA_R8,L,MA,R8,MA,250,MA runs through to R8's far face; R8 stops on MA's near face
+C_MB_R8,L,MB,R8,MB,250,MB runs through to R8's far face; R8 stops on MB's near face
+C_MB_R9,L,MB,R9,MB,250,MB runs through to R9's far face; R9 stops on MB's near face
+C_R1a_R1b,L,R1a,R1b,R1a,250,R1a runs through to R1b's far face; R1b stops on R1a's near face
+C_G4b_R1b,L,G4b,R1b,R1b,120,R1b runs through to G4b's far face; G4b stops on R1b's near face
+C_G6_R4,L,G6,R4,R4,75,R4 runs through to G6's far face; G6 stops on R4's near face
+C_G6_R5,L,G6,R5,R5,75,R5 runs through to G6's far face; G6 stops on R5's near face

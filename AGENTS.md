@@ -67,7 +67,8 @@ Shared cross-project skills live in `../ai-skills/skills/` and are linked into `
 | `scripts/verify_batch_selftest.py` | Guards the above against over-suppression. Run after changing it |
 | `tools/check_page_sizes.py` | **Enforces the 300-line hard page ceiling — exits non-zero on a breach.** Also warns below it, and flags FRAGMENTED pages, which means merge instead |
 | `tools/split_page.py analyse\|apply\|merge` | Does the split or the merge. Moves sections by line range byte-for-byte, then asserts content-line and citation-ID parity |
-| `tools/layout/check_wall_crossings.py` | **Run after any change to the flat's wall geometry.** Fails if two wall runs cross, which would double-count a junction. Reads `data/canonical/wall_runs.csv` |
+| `tools/layout/check_wall_junctions.py` | **Run after any change to the flat's wall geometry.** Fails on an overlap, a gap, or an L-corner void that nothing owns. A corner is a solid: counted twice or zero times are both wrong |
+| `tools/layout/build_wall_corners.py [--write]` | Builds and checks `wall_corners.csv`, the corner ledger that decides which wall owns each L-corner (thicker, then longer). `solid_mm = clear_mm + the corners a wall owns` |
 | `tools/build_knowledge_base_index.py` | Rebuilds the numeric-claims index |
 | `tools/youtube/preflight_playlist.py` | Dedup a playlist/channel against `processed_video_ids.txt` before fetching |
 | `tools/youtube/archive_transcripts.py <inbox>` | Archive transcripts and repoint `transcript_file:` frontmatter |
