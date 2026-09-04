@@ -611,5 +611,25 @@
     "but_it_cannot_be_this_occurrence": "⚠ Every segment of the top edge - R1a, G2, R3, G3 - is 250 mm thick. There is no 75 mm element anywhere along that run for a 250/75 step to occur in. A thickness step also runs perpendicular to the wall it separates, so it cannot enter a length measured along the top edge.",
     "where_it_actually_was": "In R1a, and it is not a conflict between printed numbers at all. Two estimates, BOTH from my own pixel endpoints: 1429 (west inner face to G2’s west face) and 1241 (top-edge closure). Spread 188 mm. No printed dimension conflicts with any other printed dimension. So nothing in the model needed undoing - the residual was in my raster registration, and R1a was already the weakest figure in it.",
     "what_would_close_it": "One printed dimension from the west wall to the entrance door, if the plan has one. Otherwise R1a waits for the tape measure, and it is the only wall in the flat without a figure."
+  },
+  "RETRACTION_OF_A_RETRACTION_the_1795_2026_09_04": {
+    "status": "!! I over-retracted, and the owner caught it the same day.",
+    "what_I_did": "In v17 I retracted R1a = 1416 on the grounds that the printed 1795 belongs to the 9.36 room and not the ванная, calling it the third instance of a mis-assigned dimension.",
+    "why_that_was_wrong": "The 1795 is BOTH rooms’. The 9.36 room’s chain along G4d reads 1795 | 120 | 910 = 2825, and that middle 120 IS G4C - so the 1795 runs from the west inner face to G4C’s west face. The ванная is bounded by those SAME two verticals, so the figure is its internal width too. I found a conflict where there was none.",
+    "the_lesson": "!! Over-correcting is a failure in its own right, and this one destroyed a good figure. Having been wrong three times in the same way, I retracted on a pattern match instead of on the geometry - the check I had just written down (identify BOTH elements a dimension terminates on) would have SAVED the figure, and I used it to kill it instead.",
+    "restored": "G4b = 1915 and R1a = 1416, both un-retracted, and now confirmed rather than derived - see rectangle_equality_1915."
+  },
+  "rectangle_equality_1915_2026_09_04": {
+    "owner_statement": "\"G4b should be equal to 1795 plus the thickness of the wall, 120. And G4b is equal to G4d and is equal to R1a plus this section of G2 between R1a and the door opening.\"",
+    "tested": "G4d’s solid part = 1795 + 120 = 1915. G4b = 1795 + 120 = 1915. R1a + G2’s left jamb = 1416 + 499 = 1915. All three agree exactly, and G4d closes end to end: 1915 solid + 910 opening = 2825.",
+    "result": "G4b = 1915 and R1a = 1416, both CONFIRMED by closure rather than merely derived. ALL 25 WALLS NOW CARRY A FIGURE (R3 and G3 as a 5830 pair)."
+  },
+  "junction_convention_2026_09_04": {
+    "rule": "!! Every wall length is the CLEAR INTERNAL run, face to face between its neighbours. No wall’s length includes any part of a wall it touches, and no two wall solids may overlap.",
+    "owner_wording": "\"R1a and R1b are crossing at the corner, that shouldn’t be so - the walls cannot overlap. When we calculate the length of a wall section we should take a look at the thickness of the one it is adjacent to, because we shouldn’t double count the thickness of the walls.\"",
+    "the_other_half_of_it": "Nothing is double-counted, which was his point - but nothing may be silently UNDER-counted either. Corner and T-junction volumes belong to no wall under this convention, so they are carried as a separate junction allowance rather than quietly lost from the quantities.",
+    "why_it_is_also_the_practical_choice": "It matches how the flat will actually be measured in three months: a tape held inside a room reads the clear run.",
+    "enforced_by": "tools/layout/check_wall_crossings.py, over data/canonical/wall_runs.csv. Run it after any change to the geometry.",
+    "what_the_sweep_found": "!! The owner spotted R1a x R1b (147 mm overlap). Sweeping all 25 runs found a SECOND instance he had not spotted: G2 x G4C (166 mm), where G4C was drawn running through the top wall. Both fixed. That is precisely why this became a script rather than a habit - one crossing was visible and the other was not, and the difference between them was luck."
   }
 }
