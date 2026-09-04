@@ -183,6 +183,11 @@ A designer with **carte blanche on style** made **exactly one replanning move** 
 > («установлены межкомнатные перегородки» — excluding 1-room flats only; this is a 3-room).
 > **So replanning here demolishes brand-new partitions and rebuilds — and `v1` adds 24 partitions on top.**
 >
+> **⚠️⚠️ AND ADDED 2026-09-04, A COST NOT PRICED ABOVE: kitchen water runs UNDER THE FLOOR from P1, and the
+> screed is already laid with the heating pipes in it. So MOVING A WET POINT MEANS BREAKING THE EXISTING
+> SCREED.** The flat has exactly **two** wet points — P1 in the туалет and P2 between R3 and V2 — and any
+> layout’s wet fittings must attach to one of them. `data/canonical/plumbing_anchors.csv`.
+>
 > **It destroys more than walls.** Plaster, floor screed, electrical distribution, fitted sockets and switches,
 > the WC pan and the лоджия glazing are all in place at handover and priced into the flat. **Moving a wet
 > room or a socket wall throws away work already paid for** — the vault's own version, from this same channel:
