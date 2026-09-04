@@ -558,7 +558,7 @@
     "still_unknown": "R3 has no length at all. The printed \"≥2 115\" at the top gives 250 + 2115 = 2365 against a pixel run of 2682, and the ≥ sign means it is a clearance, not a wall run. G4b’s length stays RETRACTED - the 1140 was the туалет’s width, not the wall’s.",
     "the_one_measurement_that_would_close_the_most": "!! The туалет’s INTERNAL WIDTH. Its depth is now 1200 from the G4C chain; at the printed 1140 the gross area is 1.368 m², LESS than the 1.42 CLEAR the plan prints, which is impossible. Hypothesis: the 1140 is the ВЕНТБЛОК’s width and the room is ~1390. That single number closes R1a, G4b, V1 and the 1.24-vs-1.42 question together.",
     "on_splitting_O4a_from_O4b": "The owner asked whether the split is worth keeping when only the pair is measured. Kept in the data, dropped from the drawing: one of the two is a door (full height, no sill band) and one a window (sill band below, head band above), and Level-3 finish area is DERIVED from that distinction - merging them would lose it. But both widths stay blank until measured, so nothing can depend on a split that was mine rather than his.",
-    "drawing": "_assets/wall_model_v16.png",
+    "drawing": "_assets/wall_model_v17.png",
     "R3_three_estimates": "SUPERSEDED 2026-09-04 by the owner’s top-edge chain - see top_edge_chain_2026_09_04. R3 is no longer estimated alone; it is recorded as the pair R3+G3 = 5830."
   },
   "length_convention_2026_09_04": {
@@ -591,5 +591,25 @@
     "owner_wording": "\"This split point will be buried under the layers of finishing materials, so it is not so important. Like, for example, the split between R1a and G2 - it is somewhere in between, but we are mostly interested in the internal dimensions.\"",
     "instances": "R3|G3 (combined 5830) and R1a|G2 (R1a 1416 derived, flagged).",
     "the_exception": "!! It is only free when the two segments are the same MATERIAL as well as the same thickness. R3 is concrete and G3 is block; the split is immaterial for area but decides where fixings can go. Flag those, do not silently merge them."
+  },
+  "west_block_crop_findings_2026_09_04": {
+    "source": "_assets/west_block_crop.png - the west block of the DETAILED plan cropped at full resolution, covering туалет, ванная and the 9.36 room together so the printed strings can be seen attaching to elements.",
+    "G4C_chain_verified": "The vertical chain against G4C reads, top-down: 490 | 710 | [120 G4b] | 600 | 710 | 490. That is identical to the owner’s chain read the other way. His reading is now verified against the drawing, not merely accepted.",
+    "RETRACTION_the_1795_is_not_the_vannayas": "!! The printed 1795 belongs to the 9.36 ROOM, not the ванная - and it proves it itself: 1795 + 120 + 910 = 2825 = G4d exactly. So R1a = 1416 is RETRACTED; I had built it as 1795 + 120 (G4C) - 499 (G2’s left jamb) with the 1795 belonging to a different room. This is the THIRD instance of the same error class in two days: G3 = 3315, G4b = 1140, R1a = 1416. In each case a printed number was attached to the wrong element and then used as if independent.",
+    "the_rule_this_earns": "!! Before using a printed dimension, identify BOTH of the elements its extension lines terminate on. A number that merely sits near a room is not that room’s. Every one of the three retractions would have been caught by that check, and all three were caught instead by the owner or by a late crop.",
+    "ventblock_V1_resolved": "V1 spans the туалет’s FULL 1140 width and is 490 deep = 0.559 m2 - not the ~0.24 m2 I had been carrying. Its footprint is no longer flagged."
+  },
+  "RETRACTION_the_impossible_tualet_2026_09_04": {
+    "what_was_claimed": "That the туалет was geometrically impossible: at 1140 wide and 1200 deep its gross area is 1.368 m2, less than the 1.42 m2 CLEAR that the basic plan prints. I proposed the 1140 was the вентблок’s width and the room ~1390, and named it the single most valuable measurement outstanding across four rounds.",
+    "why_it_is_withdrawn": "!! Because the contradiction only exists if a printed AREA is treated as evidence, and the owner’s standing rule of 2026-09-04 forbids exactly that: \"Do not use area. Areas look like a product of recalculation. Take the linear dimensions.\" I made the rule the model’s foundation and then spent two rounds violating it, treating 1.42 as a hard constraint.",
+    "what_the_linear_evidence_actually_says": "Width 1140, printed. Depth by two printed routes: 1200 = 490 solid + 710 door O7, from the G4C chain; and 1290 = 490 вентблок + 800 clear below it. Neither gross figure (1.368 or 1.471), nor either less the 0.559 m2 block, comes to 1.24. The areas simply do not reconcile, which is the reason the rule exists.",
+    "what_remains_open": "Only the 90 mm between the two LINEAR depth routes. That is a small, well-posed question, unlike the area contradiction it replaces."
+  },
+  "the_175_is_not_this_175_2026_09_04": {
+    "owner_guess": "That the 175 mm top-edge residual is the same 175 as the plan’s printed 250 - 75 step, which appears next to R4, R5 and R9 where a 75 partition meets a 250 concrete column.",
+    "the_step_is_real": "It is, and this repo already relies on it: frame_thickness_derived uses the printed 175 to derive the 250 frame and the 75 partition from the plan itself.",
+    "but_it_cannot_be_this_occurrence": "⚠ Every segment of the top edge - R1a, G2, R3, G3 - is 250 mm thick. There is no 75 mm element anywhere along that run for a 250/75 step to occur in. A thickness step also runs perpendicular to the wall it separates, so it cannot enter a length measured along the top edge.",
+    "where_it_actually_was": "In R1a, and it is not a conflict between printed numbers at all. Two estimates, BOTH from my own pixel endpoints: 1429 (west inner face to G2’s west face) and 1241 (top-edge closure). Spread 188 mm. No printed dimension conflicts with any other printed dimension. So nothing in the model needed undoing - the residual was in my raster registration, and R1a was already the weakest figure in it.",
+    "what_would_close_it": "One printed dimension from the west wall to the entrance door, if the plan has one. Otherwise R1a waits for the tape measure, and it is the only wall in the flat without a figure."
   }
 }
