@@ -55,7 +55,10 @@ import os
 import sys
 
 MM_PER_PX = 9.789          # mm per pixel of the BASIC plan; see wall_materials.json
-TOL_MM = 25.0              # AGENTS.md: dimensions are nominal +/-25 mm
+TOL_MM = 25.0              # RASTER tolerance: how precisely an edge can be read
+                           # off the plan JPEG. NOT the build tolerance, which is
+                           # +/-50 mm - see 00_Master/Geometry_Variance_Study.md.
+                           # The two happened to share a number and do not any more.
 NEAR_MM = 150.0            # beyond this the two runs are simply not meeting
 
 HERE = os.path.dirname(os.path.abspath(__file__))
