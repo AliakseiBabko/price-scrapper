@@ -255,6 +255,34 @@ section — and the two findings do not conflict.**
 - **And the open question that matters most: is anything I have labelled NOT a wall?** The insulation is
   already excluded by the owner's own instruction, but a короб or a fixture outline could have been caught.
 
+## ✅ THE THICKNESS SHEET — `_assets/wall_thickness_sheet.png`
+
+**The owner's instruction: agree the thicknesses with him rather than reading them blindly off a raster.**
+So every wall is labelled with the thickness currently held, colour-coded by where it came from:
+**green = he confirmed it, amber = MY inference, red = unknown.** Nine questions, Q1–Q9.
+
+⚠️ **Building the sheet exposed a gap nobody had noticed: THE CONCRETE FRAME HAS NO THICKNESS RECORDED AT
+ALL.** Nine walls and two columns, and the question was never asked — which is the sharpest possible argument
+for his instruction, because the frame is precisely the thing that cannot be moved.
+
+| Q | walls | state | question |
+| :--- | :--- | :--- | :--- |
+| **Q1** | **R1–R9** | ■ **unknown** | **The frame. Nothing held. The plan prints 250 for “party wall or structure” — is the frame 250? And are the COLUMNS R4/R5 the same as the wall runs, or thicker?** |
+| **Q2** | G2 | ■ unknown | Wall to the **common corridor** — 250 like G4a? |
+| **Q3** | G3 | ■ unknown | Wall to the **flat above (2Г/2)** — 250? |
+| **Q4** | **G5** | ■ **unknown** | **His leaf of the BLOCK JOINT. He has said 200 and 250 at different times.** Total with the next block ≈400 including the seam |
+| **Q5** | M2 | ■ unknown | Лоджия-to-лоджия. He said *“thinner”*. Cold-to-cold, so no insulation duty |
+| Q6 | G6, G7, G8 | □ inferred **75** | From the plan's printed 75 partition |
+| Q7 | G1 | □ inferred **120** | From the plan's printed 120 in the wet block |
+| Q8 | M3, M4, M5 | □ inferred **300+70** | From his own uniform warm-perimeter rule — all façade |
+| Q9 | M6b | □ provisional **200** | He revised 120 → 200 and is checking another plan |
+
+**Settled, no action: G4a 250 · G4b 120 · G4c 120 · G4d 120 · M1 300+70 · M6a 300+70 · M7 300+70.**
+
+→ **Q1 and Q4 matter most.** Q1 because the frame is what cannot be moved, so its section sets what any
+layout has to work around. **Q4 because G5 is the living room's own wall line, and 200 versus 250 moves it by
+50 mm** — twice the ±25 mm tolerance band, on the wall the Phase-2 combined zone is measured to.
+
 ## ⚠️ What still needs the owner, before promotion to a constraint
 
 1. **Is the green perimeter a PARTY WALL rather than an external one?** R2/**G5**/R7 on the right, G2/R3/**G3**
