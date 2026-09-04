@@ -210,6 +210,43 @@ already draws **insulation cross-hatch on R8's лоджия face**, which corrob
 → **That is where the frost-free-without-heating calculation actually bites**, not at the лоджия's own
 enclosure. See `00_Master/Family_Requirements.md` §10.
 
+### ✅ OWNER REVIEW ROUND 2 — J15 settled, G9 reclassified, G4 split, and the 250/200 conflict CLOSED
+
+**Key: `_assets/wall_reading_key_v4.png`.**
+
+- **✅ ◇ 15 = R7 | M4, confirmed** — *“between R7, the concrete block, and M4, which is external wall.”* My
+  reading of his earlier “R7 | M2” as a slip was right.
+- **✅ ◇ 19 position confirmed** — the visual placement of the short pier was correct.
+- **⚠️⚠️ G9 → M7, RECLASSIFIED AS EXTERNAL.** *“It's a part of external wall, big external wall with the same
+  thickness, just a very short segment.”* → **So it carries the 300 mm block + 70 mm wool build-up, not a
+  partition thickness.**
+- **⚠️⚠️ AND THAT HAS A CONSEQUENCE HE MAY NOT HAVE INTENDED: M7 sits on the flat/лоджия boundary beside
+  M1 — so M1 is presumably that same big external wall, making the flat/лоджия wall a full 300 mm external
+  wall rather than a thin partition. That sits against M6a at ~100 mm on the same outer line. FLAGGED, not
+  assumed.** It also matters because that wall is the real thermal boundary to the unheated лоджия.
+
+### ✅ G4 split into four, on his instruction
+
+| id | wall | thickness | source |
+| :--- | :--- | ---: | :--- |
+| **G4a** | party wall to the neighbouring flat | **250 mm** | **owner** |
+| **G4b** | туалет \| ванная | 120 mm | ⚠️ *my reading, from the plan's printed 120* |
+| **G4c** | ванная \| прихожая | 120 mm | ⚠️ *my reading* |
+| **G4d** | ванная \| 9.36 room | **120 mm** | **owner** |
+
+**New junctions ◇ 20 and ◇ 21 mark where the 250 meets the 120.**
+
+### ✅⚠️⚠️ THE 250-vs-200 CONFLICT IS CLOSED — in favour of the plan
+
+**The owner now gives the inter-apartment wall as 250** — *“which is two hundred and fifty, as you said”* —
+agreeing with the detailed plan's printed `party_wall_or_structure = 250`, **and dropping his earlier estimate
+of “up to 200 between the apartments”.**
+
+⚠️ **Worth noting the direction, because it looks like a reversal and is not one:** on **linear dimensions**
+the plan reads about **1.5% LARGE** against the measured comparables, while on this **wall thickness** the plan
+is the figure being trusted. **Those are different quantities — a room's wall-to-wall run versus a wall's
+section — and the two findings do not conflict.**
+
 ### ⚠️ Where I am least sure, stated on the image itself
 
 - **R1 and G4 came out L-shaped in the detection**, so **◇ 5 and ◇ 6 may be misplaced.**
