@@ -31,7 +31,20 @@
     "this_flat": 2500,
     "status": "!! NOT RECORDED ANYWHERE IN THIS REPO BEFORE 2026-09-04, and it changes answers.",
     "conflicts_with_rule": "ceiling.min_height_2800mm",
-    "conflict_note": "The vault's own rule (Zemskov) states the minimum COMFORTABLE ceiling height is 2.8 m. This flat has 2.5 m - 300 mm below it. That is not a contradiction to resolve; it is a constraint to design within, and it invalidates or qualifies anything in the vault that assumed a void."
+    "conflict_note": "The vault's own rule (Zemskov) states the minimum COMFORTABLE ceiling height is 2.8 m. This flat has 2.5 m - 300 mm below it. That is not a contradiction to resolve; it is a constraint to design within, and it invalidates or qualifies anything in the vault that assumed a void.",
+    "datum_settled_2026_09_04": {
+      "answer": "THE 2500 IS SCREED TO CEILING - i.e. it is the CLEAR height, not slab to slab.",
+      "owner_words": "\"let's assume it's from screed to ceiling. From slab to slab, it would be plus five or something centimeters on top of that.\"",
+      "slab_to_slab_mm": 2550,
+      "status": "The owner's reading rather than a quoted document - but a sound one: a developer advertising «2,5 метра» means clear height, and slab-to-slab would make the advertised figure misleading. Recorded as the working assumption.",
+      "why_it_is_the_FAVOURABLE_answer": "!! It means the 2500 is USABLE height. The earlier caution - that if it were slab-to-slab every surface area on the schedule would be 2-4% high - does not apply.",
+      "the_one_deduction_that_remains": "⚠ THE FLOOR COVERING SITS ON TOP OF THE SCREED, so the FINISHED clear height is slightly under 2500: porcelain tile + adhesive ~18 mm, engineered board + underlay ~17, quartz-vinyl ~8. So ~2482-2492 finished, call it 2480-2490.",
+      "TWO_HEIGHTS_ARE_NEEDED_FOR_QUANTITIES": "!! Not one. PLASTER / RENDER area uses 2500, because it runs down to the screed and is applied before the floor. PAINTED / VISIBLE area uses ~2480, finished floor to ceiling, less the skirting. A surface-area model that uses a single height will be wrong for one of the two trades.",
+      "knock_on_figures": {
+        "duct_route_finished_clear_mm": "2282-2332 (2500 less 150-200 of duct, less the floor covering)",
+        "door_head_band_mm": "430 from the screed above a 2070 opening; ~412 finished"
+      }
+    }
   },
   "external_walls": {
     "load_bearing": false,
