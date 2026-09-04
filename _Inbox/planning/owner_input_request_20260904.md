@@ -72,6 +72,38 @@ of everything else.**
 ⚠️ **The mirroring caveat applies to photos too.** A photo of another flat of this layout may be the mirror,
 so item 2 should come with or before item 3, or the photos will be read backwards.
 
+### ✅⚠️ MARK THE CAMERA — offered by the owner 2026-09-04, and it is what makes a photo usable at all
+
+**Not a nice extra. Without it a photo of another flat is close to unreadable**, because of the mirroring
+above: if a frame shows the вентблок on the right-hand wall, there is no way to tell whether that flat is
+handed like this one or is its mirror — so **every left/right observation taken from it is a coin flip.**
+
+**A marked camera position plus view direction removes that:** the arrow says what *should* be on the left,
+the photo says what *is*, and the discrepancy settles handedness **for the whole set**.
+
+Three further things it buys:
+
+1. **It attaches an observation to a NAMED wall.** *"The wall on the right of this frame is aerated block"*
+   becomes *"wall E4–E9 is aerated block"* — so it lands on a specific wall in the model instead of floating.
+2. **It makes openings checkable.** A frame looking down the прихожая gives a door sequence that can be
+   compared against the drawing directly.
+3. **It needs no new convention.** `schemas/layout-case.schema.json` already has `evidence.frame`, and cases
+   carry a `frames_dir` — `zemskov-odintsovo-69m2` uses both. Marked frames slot straight in.
+
+**The convention, kept deliberately rough:**
+
+- [ ] **A dot for the camera, a line for the view direction, labelled to match the filename** — `P1`, `P2`, …
+- [ ] **Or skip the drawing and just type it against the grid:** *"P1: camera at F5, looking toward A5"*.
+      Two cells — from and toward — is equally unambiguous.
+- [ ] **±1 cell does not matter. Which way it faces does.**
+- [ ] **⚠️ One line for the whole set is worth more than any single arrow:** *"this flat is the same
+      handedness as my plan"* or *"it is mirrored"*. The per-frame arrows then only refine it.
+- [ ] Drop them in `_Inbox/_Visual_Drop/` as usual, named `P1…Pn`; they get organised and registered here.
+
+→ **This is a MULTIPLIER on item 3, not a promotion of it.** It moves photos from "possibly misleading" to
+"usable evidence", which is a real jump — but items 1 and 2 still come first, and **the wall-material map needs
+no photos and no camera marks at all: the grid plan alone carries it.**
+
 ---
 
 ## What this does NOT unblock
