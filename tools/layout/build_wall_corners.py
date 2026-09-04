@@ -52,7 +52,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from check_wall_junctions import (MM_PER_PX, RUNS, TOL_MM,  # noqa: E402
-                                  NEAR_MM, load, orient)
+                                  NEAR_MM, load, orient,
+                                  successor_groups, is_dominant_pair)
 
 LEDGER = os.path.join(os.path.dirname(RUNS), 'wall_corners.csv')
 FIELDS = ['corner_id', 'kind', 'wall_a', 'wall_b', 'owner',
@@ -63,8 +64,14 @@ def run_len_mm(w):
     return (abs(w['b'][0] - w['a'][0]) + abs(w['b'][1] - w['a'][1])) * MM_PER_PX
 
 
+FRAME = 'concrete'      # the monolithic RC frame; everything else is infill
+
+
 def pick_owner(w1, w2):
     """(owner, other) by the deterministic rule."""
+    f1, f2 = w1['cls'] == FRAME, w2['cls'] == FRAME
+    if f1 != f2:
+        return (w1, w2) if f1 else (w2, w1)
     if w1['t'] != w2['t']:
         return (w1, w2) if w1['t'] > w2['t'] else (w2, w1)
     if abs(run_len_mm(w1) - run_len_mm(w2)) > 1.0:
@@ -75,6 +82,8 @@ def pick_owner(w1, w2):
 def classify(walls):
     """-> (list of L corners, list of T junctions)"""
     tol, near = TOL_MM / MM_PER_PX, NEAR_MM / MM_PER_PX
+    byid = dict((w['id'], w) for w in walls)
+    groups = successor_groups(walls)
     Ls, Ts = [], []
     for i in range(len(walls)):
         for j in range(i + 1, len(walls)):
@@ -88,6 +97,8 @@ def classify(walls):
                 oh, fh, lh, hh, ov, fv, lv, hv = ov, fv, lv, hv, oh, fh, lh, hh
             if not (lh - near <= fv <= hh + near and lv - near <= fh <= hv + near):
                 continue
+            if not is_dominant_pair(h, v, groups, byid, near):
+                continue          # this junction belongs to a successor sibling
             ah, av = h['t'] / 2.0 / MM_PER_PX, v['t'] / 2.0 / MM_PER_PX
             h_int = (fv - lh > av + tol) and (hh - fv > av + tol)
             v_int = (fh - lv > ah + tol) and (hv - fh > ah + tol)

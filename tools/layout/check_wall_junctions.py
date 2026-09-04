@@ -78,11 +78,81 @@ def load(path):
         for r in csv.DictReader(f):
             out.append({
                 'id': r['wall_id'],
+                'cls': r.get('class', ''),
                 't': float(r['thickness_mm']),
                 'a': (float(r['ax_basic_px']), float(r['ay_basic_px'])),
                 'b': (float(r['bx_basic_px']), float(r['by_basic_px'])),
             })
     return out
+
+
+SUCC_GAP_MM = 200.0    # ends this close - or overlapping this much - count as
+                       # one line. Generous on purpose: a 250 column and the 75
+                       # partition continuing it are only ~100 mm apart on the
+                       # raster, and whether they read as a gap or an overlap is
+                       # registration noise, not geometry.
+
+
+def successor_groups(walls):
+    """Group runs that are the SAME wall line split at a thickness change.
+
+    The owner's printed 175 is exactly this relation: a 250 concrete column
+    continuing as a 75 partition, the column projecting 175 past it. Treating
+    the two as independent walls invents junctions that do not exist - a wall
+    meeting that line meets it ONCE, at the dominant member.
+    """
+    parent = dict((w['id'], w['id']) for w in walls)
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    for i in range(len(walls)):
+        for j in range(i + 1, len(walls)):
+            a, b = walls[i], walls[j]
+            oa, fa, la, ha = orient(a)
+            ob, fb, lb, hb = orient(b)
+            if oa is None or oa != ob:
+                continue
+            if abs(fa - fb) * MM_PER_PX > max(a['t'], b['t']) / 2.0:
+                continue
+            if min(abs(la - hb), abs(lb - ha)) * MM_PER_PX > SUCC_GAP_MM:
+                continue
+            parent[find(a['id'])] = find(b['id'])
+    groups = {}
+    for w in walls:
+        groups.setdefault(find(w['id']), []).append(w['id'])
+    return dict((w['id'], sorted(groups[find(w['id'])])) for w in walls)
+
+
+def dominant(ids, byid):
+    """the member of a successor group that a crossing wall actually meets:
+    the frame first, then the thickest, then the longest."""
+    def key(i):
+        w = byid[i]
+        return (0 if w['cls'] == 'concrete' else 1, -w['t'],
+                -(abs(w['b'][0] - w['a'][0]) + abs(w['b'][1] - w['a'][1])), i)
+    return sorted(ids, key=key)[0]
+
+
+def is_dominant_pair(h, v, groups, byid, near):
+    """False when either wall has a successor sibling that also meets the other
+    and outranks it - that junction belongs to the sibling, not to this run."""
+    for x, y in ((h, v), (v, h)):
+        sibs = [i for i in groups[x['id']] if i != x['id']]
+        if not sibs:
+            continue
+        oy, fy, ly, hy = orient(y)
+        cand = [x['id']]
+        for i in sibs:
+            o2, f2, l2, h2 = orient(byid[i])
+            if ly - near <= f2 <= hy + near and l2 - near <= fy <= h2 + near:
+                cand.append(i)
+        if len(cand) > 1 and dominant(cand, byid) != x['id']:
+            return False
+    return True
 
 
 def orient(w):
@@ -96,6 +166,8 @@ def orient(w):
 
 def junctions(walls):
     ledger = owned_corners()
+    byid = dict((w['id'], w) for w in walls)
+    groups = successor_groups(walls)
     tol = TOL_MM / MM_PER_PX
     near = NEAR_MM / MM_PER_PX
     rows = []
@@ -112,11 +184,14 @@ def junctions(walls):
             # do these two runs come anywhere near meeting?
             if not (lh - near <= fv <= hh + near and lv - near <= fh <= hv + near):
                 continue
-            half_h = h['t'] / 2.0 / MM_PER_PX      # half thickness of the horizontal
+            # a wall meets a LINE once, at its dominant member
+            if not is_dominant_pair(h, v, groups, byid, near):
+                continue
+            half_h = h['t'] / 2.0 / MM_PER_PX      # half thickness of horizontal
             half_v = v['t'] / 2.0 / MM_PER_PX      # half thickness of the vertical
             # does the horizontal run span the vertical's full thickness?
-            h_through = (lh <= fv - half_v + tol) and (hh >= fv + half_v - tol)
-            v_through = (lv <= fh - half_h + tol) and (hv >= fh + half_h - tol)
+            h_through = (lh <= fv - half_v - tol) and (hh >= fv + half_v + tol)
+            v_through = (lv <= fh - half_h - tol) and (hv >= fh + half_h + tol)
             # is the joint at an END of each run, or interior to one of them?
             h_interior = (fv - lh > half_v + tol) and (hh - fv > half_v + tol)
             v_interior = (fh - lv > half_h + tol) and (hv - fh > half_h + tol)
