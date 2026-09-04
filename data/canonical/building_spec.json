@@ -78,5 +78,44 @@
     ".agents/skills/apartment-layout-modelling/SKILL.md - flat-in-one-paragraph and the answer-changing facts",
     "12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md - the 2500 mm void arithmetic",
     "00_Master/Layout_Option_Review.md - what replanning actually destroys"
-  ]
+  ],
+  "flat_in_building": {
+    "source": "_Inbox/_Visual_Drop/building_floor_plan_appartment_highlighted.jpg - the block floor plan with this flat outlined in red by the owner, 2026-09-04. Read in the same orientation as the individual flat plans.",
+    "position": "THE END FLAT at the right-hand end of the block. Type 3Б/2+ on this drawing.",
+    "building_composition": "The building is TWO similar blocks. The block to the right is a MIRROR of this one. !! THAT IS THE MECHANISM BEHIND THE LEFT/RIGHT HANDEDNESS PROBLEM already recorded: two mirrored blocks means flats of the same layout exist in both handednesses, which is why a measured comparable may be flipped.",
+    "walls_by_context": {
+      "bottom": "THE ONLY EXTERNAL WALL. Carries the windows of all three rooms plus the лоджия. This is where the 300 mm block + 70 mm external mineral wool build-up applies - and nowhere else.",
+      "right": "THE BLOCK END -> the future party wall between the two blocks. Owner: his leaf is 200-250 mm (he trusts the drawing over his recollection), the adjacent block adds another 200 mm, with a special seam between them, for roughly 400 mm total.",
+      "left": "Party wall to the neighbouring flat within this block.",
+      "top": "Changes neighbour along its length: the common corridor at the entrance end, the flat above (2Г/2) further along. !! This explains the owner G2 | R3 | G3 marking - one wall, three segments, because it has more than one neighbour."
+    },
+    "party_wall_confirmation": "!! THIS SETTLES THE OPEN QUESTION about the green perimeter runs. Three of the flat four sides are PARTY walls - to a neighbour flat, to the common corridor, or to the adjacent block. None of them is external. So the green marking is consistent throughout, and \"up to ~200 between the apartments\" refers to exactly these.",
+    "inter_block_wall": {
+      "total_mm": 400,
+      "composition": "this flat leaf 200-250 + expansion/settlement seam + adjacent block leaf 200",
+      "affects": "the living room (19.49) and the кухня (5.24)",
+      "acoustics": "!! A GENUINE DECOUPLED DOUBLE WALL, acquired for nothing. The vault records a soundproofing stopping rule - about +20% quieter for about 10x the cost - and the best performing wall in this flat needs no spend at all. Any soundproofing budget belongs on the OTHER walls: the in-block party wall on the left, and the corridor wall.",
+      "constraint": "Nothing may be chased into or fixed through the seam, and any niche or recess must stay within this flat own 200-250 mm leaf."
+    },
+    "daylight_and_aspect": {
+      "aspect": "SINGLE-ASPECT. All glazing is on the bottom façade, plus the лоджия off the 9.36 m² room.",
+      "rooms_with_a_window": [
+        "9.36 (small room)",
+        "16.63 (middle room)",
+        "19.49 (living room)"
+      ],
+      "rooms_with_NO_window": [
+        "кухня 5.24",
+        "прихожая 9.97"
+      ],
+      "kitchen_note": "!! THE DEVELOPER KITCHEN IS WINDOWLESS - confirmed from the block plan: its top wall borders the flat above and its right wall is the block end, so it has no external wall at all.",
+      "cross_ventilation": "NONE POSSIBLE. A single-aspect flat cannot be cross-ventilated, which makes mechanical fresh air a requirement rather than an upgrade - and that collides with the 2500 mm ceiling. See the ducting page."
+    },
+    "orientation": {
+      "status": "!! UNCONFIRMED - the owner says he will recheck. DO NOT rely on it.",
+      "owner_statement": "A red arrow on the drawing points to the LOWER-LEFT of the plan and the owner states that is south, \"probably southeast - I am not sure, frankly. I will recheck it.\"",
+      "if_lower_left_is_south": "then the façade faces roughly SOUTH-EAST, the block-end wall faces north-east, and the лоджия - at the bottom-left - is the most southerly element in the flat, i.e. it gets the best sun. That would materially help the owner stated goal of keeping it frost-free through winter without heating. ALL OF THAT IS CONTINGENT on the orientation being confirmed."
+    },
+    "access": "The lift core and stairs are in the centre of the block; this flat is at the far end of the corridor from them. A carry distance for materials and for anything the goods lift delivers."
+  }
 }
