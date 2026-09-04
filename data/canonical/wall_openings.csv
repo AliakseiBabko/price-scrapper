@@ -1,12 +1,12 @@
 opening_id,type,in_wall_or_divider,width_mm,sill_height_mm,head_height_mm,notes
-O1,door,G4C,,,,ванная door
+O1,door,G4C,710,,,ванная door
 O2,window,MB,1800,,,middle-room window - owner calls it STANDARD
 O3,window,MC,1800,,,living-room window - SILL LOWER and OPENING TALLER than O2
-O4a,window,MA,,,,"лоджия window portion, with a sill"
-O4b,door,MA,,,,лоджия glass door
+O4a,window,MA,,,,"лоджия window portion, with a sill. !! WIDTH UNMEASURED. Only the PAIR is known: O4a+O4b = 1380, printed in MA's chain 1120+1380+150+175=2825. Owner has no individual figure. Split RETAINED because only one of the two has a sill band, and finish area is derived from that - but nothing may depend on an invented split."
+O4b,door,MA,,,,"лоджия glass door. WIDTH UNMEASURED - see O4a; O4a+O4b = 1380 as a pair."
 O5,door,G6,910,,,middle-room door
 O6,door,G4d,910,,,9.36-room door
-O7,door,G4C,,,,туалет door
+O7,door,G4C,710,,,туалет door
 O8,door,G2,1010,,,entrance door
-O9,glazing,M2 → M6b,,,,"лоджия glazing, full height AND full length"
+O9,glazing,M2 → M6b,2939,,,"лоджия glazing, full height AND full length. WIDTH 2939 DERIVED 2026-09-04, and it explains why the plan draws this line DIAGONAL: the лоджия is NOT rectangular. West side M2 = 1850; east side M6b 1170 + R8 1490 = 2660; so it splays 810 mm over MA's 2825. hypot(2825,810) = 2939. My pixel run of the diagonal gives 3130, agreeing to 192. So the due-south glass is ~2.94 m wide, not MA's 2.83 - and this is the single most thermally important element in the flat."
 O10,passway,DIVIDER: V2 → R5,1410,,,"!! THE PASSWAY from the прихожая into the кухня/living zone. CORRECTED 2026-09-04 from ~958 to ~1410: V2 is 455 mm shorter on the 4th floor than on the detailed plan. NOT dimensioned on either plan. Both flanks IMMOVABLE (V2 shaft, R5 column) so it cannot be widened, but at ~1410 it is comfortably over the vault's 1100 corridor minimum."
