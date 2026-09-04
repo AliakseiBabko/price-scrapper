@@ -1,26 +1,28 @@
-wall_id,class,thickness_mm,insulation_mm,developer_plan_length_mm,length_min_mm,length_max_mm,source_of_min_max,notes
-R1a,concrete,250,,1140,,,,north run above the туалет
-R1b,concrete,250,,,,,,west run beside the туалет
-R2,concrete,250,,,,,,right wall by the кухня
-R3,concrete,250,,,,,,top wall above the прихожая
-R4,concrete,250,,1050,,,,"COLUMN, middle room, left — G4d’s east end"
-R5,concrete,250,,1050,,,,"COLUMN, middle room, right"
-R6,concrete,250,,,,,,left wall by the 9.36 room
-R7,concrete,250,,,,,,right wall by the living room
-R8,concrete,250,150,1490,,,,flat | лоджия — AT a façade step
-R9,concrete,250,150,1490,,,,AT the other façade step
-G2,aerated_block,250,,,,,,"✅ EXTENDED WEST on the owner’s note — the COMMON-CORRIDOR wall, 250, carrying O8 the entrance door"
-G3,aerated_block,250,,3315,,,,top wall to the FLAT ABOVE
-G4a,aerated_block,250,,,,,,party wall to the neighbouring flat — G4d’s west end
-G4b,aerated_block,120,,1140,,,,туалет | ванная
-G4C,aerated_block,120,,,,,,"✅✅ NOW ALSO ABSORBS G1 — ONE continuous 120 surface down the wet block’s east side, carrying TWO door openings: O7 to the туалет and O1 to the ванная"
-G4d,aerated_block,120,,,,,,"runs G4a → R4, carrying O6"
-G5,aerated_block,250,,,,,,the BLOCK-JOINT leaf
-G6,aerated_block,75,,1915,,,,middle-room recess back wall
-G7,aerated_block,75,,3250,,,,"middle room, right partition"
-G8,aerated_block,75,,3250,,,,"middle room, left partition"
-MA,external,300,70,,,,,"M1 + M7, one wall, carrying O4a and O4b"
-M2,loggia_enclosure,200,0,,,,,лоджия | neighbour’s лоджия — NO insulation
-MB,external,300,70,,,,,"M6a + M5, one plane, carrying O2"
-MC,external,300,70,,,,,"M3 + M4, one plane, carrying O3"
-M6b,loggia_enclosure,200,70,,,,,лоджия run — 200 confirmed
+wall_id,class,thickness_mm,insulation_mm,run_from_basic_px,run_to_basic_px,developer_plan_length_mm,length_min_mm,length_max_mm,source_of_min_max,notes
+R1a,concrete,250,,"22,57","226,57",1140,,,,top wall above the туалет
+R1b,concrete,250,,"37,40","37,172",,,,,west run beside the туалет
+R2,concrete,250,,"1023,41","1023,237",,,,,right wall by the кухня
+R3,concrete,250,,"421,57","695,57",,,,,top wall above the прихожая
+R4,concrete,250,,"350,305","350,414",1050,,,,"COLUMN, middle room, left"
+R5,concrete,250,,"662,306","662,414",1050,,,,"COLUMN, middle room, right"
+R6,concrete,250,,"38,566","38,739",,,,,left wall by the 9.36 room
+R7,concrete,250,,"1023,650","1023,822",,,,,right wall by the living room
+R8,concrete,250,150,"333,741","333,921",1490,,,,flat | лоджия — at a façade step
+R9,concrete,250,150,"660,744","660,923",1490,,,,at the other façade step
+G2,aerated_block,250,,"226,57","420,57",,,,,"COMMON-CORRIDOR wall, carries O8"
+G3,aerated_block,250,,"697,56","1011,56",3315,,,,wall to the FLAT ABOVE
+G4a,aerated_block,250,,"38,173","38,565",,,,,party wall to the neighbour
+G4b,aerated_block,120,,"46,197","249,197",1140,,,,туалет | ванная
+G4C,aerated_block,120,,"243,40","243,400",,,,,ONE continuous surface down the wet block’s east side — carries O7 AND O1
+G4d,aerated_block,120,,"30,397","335,397",,,,,"G4a → R4, carries O6"
+G5,aerated_block,250,,"1022,238","1022,649",,,,,the BLOCK-JOINT leaf
+G6,aerated_block,75,,"350,311","662,311",1915,,,,"✅ EXTENDED R4 → R5 on the owner’s note — now HOSTS O5, the middle-room door, same logic as G4d/O6"
+G7,aerated_block,75,,"652,410","652,743",3250,,,,"middle room, right partition"
+G8,aerated_block,75,,"340,411","340,743",3250,,,,"middle room, left partition"
+MA,external,300,70,"21,757","319,757",,,,,carries O4a and O4b
+M2,loggia_enclosure,200,0,"32,778","32,982",,,,,лоджия | neighbour’s лоджия
+MB,external,300,70,"345,908","650,908",,,,,carries O2
+MC,external,300,70,"674,840","1039,840",,,,,carries O3
+M6b,loggia_enclosure,200,70,"340,925","340,1068",,,,,лоджия run
+V1,ventilation_shaft,,,"67,70","179,108",,,,,"1140 × 490, THREE channels, in the туалет. Immovable common property"
+V2,ventilation_shaft,,,"635,70","679,205",,,,,"400 × 1140, MEASURED. Between R3 and R5, at the прихожая/кухня boundary"

@@ -10,7 +10,7 @@
     "narrative": "_Inbox/planning/concrete_wall_marking_20260904.md",
     "building_spec": "data/canonical/building_spec.json"
   },
-  "status": "WALL MODEL CLOSED: 26 walls, 9 openings, thicknesses and insulation complete. Open: the two window sill/head heights, and the lengths. ⚠ And a pass over the DETAILED plan for walls the basic plan omits.",
+  "status": "Wall model complete: 25 walls + 2 shafts, 10 openings all hosted, thicknesses and insulation complete, runs drawn and verifiable at _assets/wall_segments_drawn.png. Open: LENGTHS (10 of 25 already printed) and the sill/head heights for O2 and O3.",
   "the_warm_perimeter": {
     "owner_concept": "The owner's own framing, and it is the organising idea: there is a WARM PERIMETER - the thermal envelope of the heated flat - and it is UNIFORM in construction all the way round.",
     "owner_words": "«[M1] is external wall, and it is uniform, the same thickness across all the warm perimeter. M1 is the external wall with all the insulation, because [the лоджия] was envisioned as a cold area. It's not heated, it's outside of this external wall perimeter.»",
@@ -345,7 +345,7 @@
       "level_2_opening": "lives ON a wall; width plus sill and head heights. data/canonical/wall_openings.csv",
       "level_3_finish_area": "DERIVED, never typed: wall length x height, minus openings, plus the reveal, sill and head bands. !! This is the point of the two-level split - the bands are CALCULATED once the sill and head heights are known, so the ~120 finish segments never have to be hand-listed."
     },
-    "counts": "25 walls, 10 openings. 9 of 10 hosted; only O5 correctly has none.",
+    "counts": "25 walls + 2 ventilation shafts, 10 openings, ALL TEN HOSTED.",
     "open": [
       "O6, the 9.36-room door, still has no wall - and that wall is the other candidate for what the owner called G4e.",
       "Sill and head heights for O2 and O3 - two numbers that unlock every window band.",
@@ -414,6 +414,21 @@
       "O3": "the living-room window - HIGHER than O2: its SILL IS LOWER (closer to the floor) and the OPENING IS TALLER.",
       "why_that_is_still_useful": "!! It is real information without a number: the living room has MORE GLASS than the middle room on the same SE façade, so more morning solar gain AND more heat loss. That bears on both the cooling case (no cross-ventilation) and any heat-loss estimate, and it is recorded as a RELATION rather than invented as a figure.",
       "next": "Estimate from the photos against the known 2500 mm ceiling once they arrive."
-    }
+    },
+    "G6_extended_O5_hosted": "Owner: same logic as G4d and O6. G6 now runs R4 → R5 and the middle-room door O5 sits in it. !! ALL TEN OPENINGS ARE NOW HOSTED - O5 was the last one."
+  },
+  "ventilation_shafts_as_a_class": {
+    "owner_words": "\"we need to include the ventilation shaft, which is next between R3 and R5. This is not a wall, but it is a structural element [that] will surface a wall, actually.\"",
+    "why_its_own_class": "They are NOT walls, but they carry FINISHABLE SURFACES, so a surface-area model must include them and a wall model must not call them walls.",
+    "items": {
+      "V1": "1140 × 490, THREE channels, standing IN the туалет. Verified on the plan.",
+      "V2": "400 × 1140, MEASURED 2026-09-04, between R3 and R5 at the прихожая/кухня boundary. Long axis PERPENDICULAR to the façade."
+    },
+    "three_ways_they_behave_unlike_walls": [
+      "1. IMMOVABLE - common property serving the whole riser. No layout variant may touch them.",
+      "2. They add surface INSIDE a room rather than bounding it. V1 stands in the туалет, so it has three finishable faces plus a top, and it REDUCES floor area while ADDING wall area - the opposite of how a wall behaves. !! That is exactly why the туалет has ~1.24 m² of usable floor rather than 1.8.",
+      "3. They cannot be chased or drilled, unlike the aerated block around them - so no service may cross them."
+    ],
+    "consequence_for_quantities": "A finish-area calculation that iterates walls only will UNDER-count. The shafts must be added as surface and subtracted as floor."
   }
 }
