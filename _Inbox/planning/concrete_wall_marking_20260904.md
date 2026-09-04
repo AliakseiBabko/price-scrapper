@@ -158,6 +158,58 @@ answer precisely. That is it.** Built on his own three-colour markup so his colo
 | 9 | middle room, right wall | R5 → G7 |
 | 10 | middle room, right wall | G7 → R9 |
 
+### ✅ OWNER REVIEW, 2026-09-04 — classes confirmed, NINE junctions added, one segment missed
+
+**Confirmed:** *"your reading is correct. Red is concrete."* Orientation (south) confirmed too.
+
+**Nine junctions I had missed:**
+
+| ◇ | junction | note |
+| :--- | :--- | :--- |
+| 11 | **G1 \| R1** | near the entrance |
+| 12 | **R6 \| M1** | left wall meets the лоджия top wall |
+| 13 | **G3 \| R2** | top-right corner |
+| 14 | **G6 \| R5** | the recess top wall meets the column |
+| 15 | **R7 \| M4** | bottom-right corner. ⚠️ *He said “R7 \| M2”; M2 is the лоджия wall at the opposite end of the flat, so this is read as **M4** — flagged, not silently corrected* |
+| 16 | **M3 \| R9** | |
+| 17 | **R9 \| M5** | |
+| 18 | **R8 \| M6a** | the R8-side equivalent — *“and so with R8 as well”* |
+| 19 | **G9 \| R8** | see the new segment below |
+
+### ⚠️⚠️⚠️ A MISSED SEGMENT — and it answers the exhaustiveness question the wrong way
+
+**`G9`: a short aerated-block pier between the лоджия door/window unit and R8.** Owner: *“I forgot the
+small piece between R8 and the entrance to the лоджия… It's very, very short, but it's actually there.”*
+
+- **Why no detector could have found it: IT IS UNCOLOURED on the markup** — and it is also below the 120 px
+  area threshold. **Located visually instead, at approximately x 303–319, y 743–781. Position needs confirming.**
+- → **⚠️⚠️ AND THIS IS THE ANSWER TO “IS THE MARKING EXHAUSTIVE?” — it is NOT the answer that was given.**
+  He said *“I marked all the walls”*, in good faith, **and one pier was missed.** → **An owner markup is
+  EVIDENCE, not a complete inventory, and “unmarked” must keep meaning UNKNOWN rather than ABSENT.** That
+  distinction was recorded earlier as a precaution; **it has now been vindicated by a real case, so it stays.**
+
+### Segment changes on his instruction
+
+- **`M6` → `M6a` + `M6b`.** **M6a = the apartment's own wall, ~100 mm; M6b = the лоджия wall, ~100–150 mm.**
+  ⚠️ *Which is which is MY reading from the geometry — horizontal = apartment, vertical = лоджия — not his
+  statement.* ⚠️ **Both are far thinner than the spec's 300 mm for external walls, which makes sense only if
+  they are returns and лоджия enclosure rather than main external walls** — the лоджия is outside the heated
+  envelope, so its walls carry no insulation duty.
+- **`M2` RECLASSIFIED — not external.** It is **the party wall between this лоджия and the neighbour's**, and
+  thinner. → **So it separates two COLD spaces: no insulation duty, and it is an acoustic and privacy element
+  rather than a thermal one.**
+- **`R1` confirmed as ONE MONOLITHIC piece** — *“it's a monolith, and there's a corner part which actually
+  represents two walls for the water closet.”* **The L-shape is correct and must not be split.** → That also
+  resolves my own flagged doubt about junctions 5 and 6: R1 is right, so those two stand.
+
+### ✅⚠️ A consequence that falls out: where the thermal boundary actually is
+
+**Because the лоджия is unheated and its own walls are thin, the real thermal boundary on that side is the
+wall and door BETWEEN the flat and the лоджия — `M1` to the 9.36 room and `R8` to the middle room.** The plan
+already draws **insulation cross-hatch on R8's лоджия face**, which corroborates it independently.
+→ **That is where the frost-free-without-heating calculation actually bites**, not at the лоджия's own
+enclosure. See `00_Master/Family_Requirements.md` §10.
+
 ### ⚠️ Where I am least sure, stated on the image itself
 
 - **R1 and G4 came out L-shaped in the detection**, so **◇ 5 and ◇ 6 may be misplaced.**
