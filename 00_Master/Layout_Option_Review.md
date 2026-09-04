@@ -127,7 +127,26 @@ The case is now a dataset: `data/layout_cases/nsdsgn-70m2-family-two-children.js
 
 A designer with **carte blanche on style** made **exactly one replanning move** — «мы немножко уменьшили КОРИДОР В ПОЛЬЗУ ДЕТСКОЙ КОМНАТЫ, в принципе, это ВСЕ ИЗМЕНЕНИЯ» — because «такая АРХИТЕКТУРА, что ПЕРЕИГРАТЬ это было… НЕВОЗМОЖНО».
 
-- ⚠️⚠️ **That is not a cost argument here, and treating it as one would be wrong.** His was a **finished building with a load-bearing column**. **This flat is unbuilt — `status: design_intent_building_not_finished`, partitions drawn 75 mm and not yet erected.** Moving a wall that does not exist yet costs a drawing revision; moving one that does costs demolition, waste removal, and an approval. **The restraint finding is recorded in the ruleset with that caveat attached** (`replanning.restraint_on_a_standard_corridor_plan`).
+> [!CAUTION]
+> **⚠️⚠️ THE PARAGRAPH BELOW IS WRONG, AND THE CORRECTION REVERSES IT. Added 2026-09-04.**
+> I argued that the restraint finding does not transfer as a cost argument because this flat is unbuilt.
+> **The developer's own building description says the internal partitions are INSTALLED before handover**
+> («установлены межкомнатные перегородки» — excluding 1-room flats only; this is a 3-room).
+> **So replanning here demolishes brand-new partitions and rebuilds — and `v1` adds 24 partitions on top.**
+>
+> **It destroys more than walls.** Plaster, floor screed, electrical distribution, fitted sockets and switches,
+> the WC pan and the лоджия glazing are all in place at handover and priced into the flat. **Moving a wet
+> room or a socket wall throws away work already paid for** — the vault's own version, from this same channel:
+> *a design error costs you the SANITARYWARE, not just the drawing.*
+>
+> → **The restraint finding therefore transfers with FULL force, not none.** It does not say do nothing — the
+> comparable made one move deliberately. **It means every partition in `v1` must be able to justify demolishing
+> a new wall in order to build it.** That is a materially higher bar than the one this page originally applied,
+> and it is a third independent reason to get `v0` geometry: without it, nobody can say which of `v1`'s walls
+> coincide with partitions the developer will already have built.
+> **Spec: `data/canonical/building_spec.json`.**
+
+- ⚠️⚠️ **~~That is not a cost argument here, and treating it as one would be wrong.~~** His was a **finished building with a load-bearing column**. **This flat is unbuilt — `status: design_intent_building_not_finished`, partitions drawn 75 mm and not yet erected.** Moving a wall that does not exist yet costs a drawing revision; moving one that does costs demolition, waste removal, and an approval. **The restraint finding is recorded in the ruleset with that caveat attached** (`replanning.restraint_on_a_standard_corridor_plan`).
 - ✅ **What DOES transfer is the direction of the donor.** He took the area from the **corridor**, and that independently corroborates a rule the vault already held from Zemskov — `corridor.is_the_area_donor` is now **`corroborated`** rather than `single_source`: two practitioners, different cities, different professions, same first donor.
 - ✅ **And the specific move — corridor into the children's room — is now its own rule** (`corridor.reduce_in_favour_of_kids_room`), because it is exactly the trade this plan type offers.
 

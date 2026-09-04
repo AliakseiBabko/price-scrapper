@@ -15,6 +15,29 @@ Decisions taken about **this apartment and this project**, with dates, plus the 
 
 **ZK Dubravinskiy, type 3Б/3+, 69.09 m², 4th floor.** Established 2026-08-26.
 
+### ⚠️⚠️ The building, from the developer's own description — added 2026-09-04, and NONE of it was recorded before
+
+Verbatim source and parsed fields: **`data/canonical/building_spec.json`**.
+
+- **⚠️⚠️ CEILING HEIGHT IS 2500 mm** (3000 only on the 21st floor). **This was recorded NOWHERE, and it changes answers.** ⚠️ **It is 300 mm BELOW the vault's own `ceiling.min_height_2800mm` rule** — Zemskov's stated minimum *comfortable* height. Not a contradiction to resolve: a constraint to design inside. **See the void arithmetic on [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh Air Ventilation and Ducting]] — it is the sharpest consequence.**
+- **Structure: монолитный железобетонный каркас — a monolithic reinforced-concrete FRAME**, 21 storeys, каркасно-блочный. → **This confirms the reading of the owner's red marking: the red is the FRAME.** Concrete at wall ends and in discrete runs, aerated block filling between.
+- **⚠️⚠️ THE EXTERNAL WALLS ARE NOT LOAD-BEARING** — «наружными стенами (не несущие)». **300 mm aerated concrete block**, insulated with **70 mm mineral wool on the OUTSIDE**, rendered and painted. → **So the only truly immovable structure is the frame itself, plus the common-property shafts and risers.**
+- **✅ That settles the insulation question: it is EXTERNAL. It does not eat internal clear dimensions** — it grows the envelope outward. Total external build-up ≈ **300 + 70 + render ≈ 375–380 mm**.
+- **✅ And it settles the purple walls: same material as the green ones (ячеистый бетон), just external and thicker at 300 with the wool layer added.** The owner's guess was right.
+- **⚠️⚠️ HANDOVER IS «под чистовую отделку» AND THE INTERNAL PARTITIONS ARE ALREADY BUILT** («установлены межкомнатные перегородки — кроме 1-комнатных; this is a 3-room, so they apply). Also already done: **plaster, floor screed, electrics + fibre, sockets and switches, radiators, the WC pan, лоджия glazing, PVC windows, and horizontal heating distribution with HEAT METERS.**
+- **⚠️ No height can be recovered from the floor** — the screed is laid and the heating pipes run horizontally, most likely within it. With only 2500 mm to start, that matters.
+- **✅ Two goods/passenger lifts per entrance** (plus one passenger). → **Relaxes a Round 7 constraint**: the specify-large-and-cut technique's third motive is lift access. Confirm the goods lift's internal dimensions before relying on it.
+- **⚠️ Basement storage rooms exist.** UNKNOWN whether one belongs to this flat — worth establishing, because it changes what the лоджия has to absorb.
+
+> [!CAUTION]
+> **⚠️⚠️ A CORRECTION TO MY OWN REASONING, AND IT CUTS AGAINST THE CURRENT DESIGN.** Two rounds earlier I argued that the comparable's replanning-restraint finding *"is not a cost argument here"* because *"this flat is unbuilt — moving a wall that does not exist yet costs a drawing revision; moving one that does costs demolition, waste removal, and an approval."*
+>
+> **That was wrong. The developer installs the internal partitions before handover.** So replanning here means **demolishing brand-new partitions** and rebuilding — and `v1` adds 24 partitions on top of that.
+>
+> **And it destroys more than the walls.** The plaster, the screed, the electrical distribution, the fitted sockets and switches, and the WC pan are all in place and priced into the flat. **Any move of a wet room or a socket wall throws away work already paid for.** The vault's own version of this, from the same channel: *a design error costs you the SANITARYWARE, not just the drawing.*
+>
+> → **The restraint finding therefore transfers with FULL force, not none.** It does not say do nothing — the comparable made one move deliberately — but it does mean every partition in `v1` should be able to justify demolishing a new wall to build it. Recorded in `00_Master/Layout_Option_Review.md`.
+
 - **⚠️⚠️ AREAS ARE NOT EVIDENCE — LINEAR DIMENSIONS ONLY. Owner’s standing instruction, 2026-09-04.** Do not trust any area figure, **including the developer’s own on either drawing**: his own attempt to reconstruct the total from the two plans did not play out, the areas look like a CAD recalculation, and many walls are of complex shape rather than a straight run. **Tested and confirmed: the one plain rectangle on the plan closes to 0.2% (туалет, 1140×1090 = 1.243 vs 1.24), while both rooms with shape complexity are out by 2.6% and 4.4%.** → **Build geometry from linear chains; NEVER validate a reconstruction against a printed area** — when `v0` is built, its computed areas will not sum to 69.09 and **that is expected, not a bug**. Use **chain closure** as the validator (the small room’s two parallel chains both give 2825 exactly). Areas keep their published roles only. Detail: `data/canonical/dimension_tolerance.json`.
 - **Two area conventions, never compared across.** Developer plans publish **clear** floor area with service boxing deducted; БТИ-style measured plans publish **gross** area to the wall faces, counting the короб as floor. Verified on the туалет: 1140 × 1090 = 1.24 m² clear, plus a 1140 × 490 riser recess = 0.56 m², giving the 1.80 m² gross that two of three measured comparables print. **Where a developer area and a measured area differ by about a короб footprint, that is the explanation before any construction difference is.**
 - **Usable floor in the туалет is ~1.24 m², not 1.8.** The 1140 × 490 block is the **вентблок** (three channels, drawn in section), not a plumbing короб — corrected after zooming the plan. Common property, immovable. A second вентблок sits between the kitchen zone and the laundry/hallway zone; plumbing стояки are also in the wet zone.
