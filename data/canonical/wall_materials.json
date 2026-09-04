@@ -17,39 +17,228 @@
     "build_up": "300 mm autoclaved aerated concrete block + 70 mm mineral wool on the OUTSIDE + render and paint (developer spec).",
     "load_bearing": false,
     "note": "Non-load-bearing: the monolithic RC frame carries everything. That does not make them alterable in practice - they are the façade.",
-    "critical_consequence": "!! THE ЛОДЖИЯ IS OUTSIDE THE WARM PERIMETER, AND THE WALL BETWEEN THE FLAT AND THE ЛОДЖИЯ IS PART OF IT - fully insulated, 300 + 70. See loggia_thermal_consequence below; it changes the frost-free calculation."
+    "critical_consequence": "!! THE ЛОДЖИЯ IS OUTSIDE THE WARM PERIMETER, AND THE WALL BETWEEN THE FLAT AND THE ЛОДЖИЯ IS PART OF IT - fully insulated, 300 + 70. See loggia_thermal_consequence below; it changes the frost-free calculation.",
+    "insulation_note": "!! NOT UNIFORM after all - 70 mm on the aerated-block walls but 150 mm where CONCRETE is exposed (R8, R9). See insulation_is_NOT_uniform_2026_09_04."
   },
   "walls": [
-    {"id": "R1", "class": "concrete", "element": "monolithic RC frame", "where": "outer corner at the туалет; its corner forms TWO walls of the туалет", "confirmed_by": "owner", "note": "ONE monolithic piece - must NOT be split."},
-    {"id": "R2", "class": "concrete", "element": "monolithic RC frame", "where": "right wall alongside the кухня (block-joint side)", "confirmed_by": "owner"},
-    {"id": "R3", "class": "concrete", "element": "monolithic RC frame", "where": "a ~3 m run of the top wall above the прихожая", "confirmed_by": "owner"},
-    {"id": "R4", "class": "concrete", "element": "COLUMN", "where": "middle room, прихожая end, left", "confirmed_by": "owner", "note": "One of the two columns the owner named as being 'in the middle next to the entrance area'."},
-    {"id": "R5", "class": "concrete", "element": "COLUMN", "where": "middle room, прихожая end, right", "confirmed_by": "owner", "note": "The second of the two named columns."},
-    {"id": "R6", "class": "concrete", "element": "monolithic RC frame", "where": "left wall beside the 9.36 room", "confirmed_by": "owner"},
-    {"id": "R7", "class": "concrete", "element": "monolithic RC frame", "where": "right wall beside the living room (block-joint side)", "confirmed_by": "owner"},
-    {"id": "R8", "class": "concrete", "element": "monolithic RC frame", "where": "middle room left wall, лоджия end - the flat/лоджия boundary", "confirmed_by": "owner", "note": "!! The plan draws INSULATION cross-hatch on its лоджия face - so it is part of the warm perimeter even though it is a frame element."},
-    {"id": "R9", "class": "concrete", "element": "monolithic RC frame", "where": "middle room right wall, window end", "confirmed_by": "owner"},
-
-    {"id": "G1", "class": "aerated_block", "thickness_mm": 120, "where": "short wall between туалет and прихожая", "thickness_source": "inferred - the plan prints 120 in the wet block"},
-    {"id": "G2", "class": "aerated_block", "where": "top wall, left of R3 - faces the COMMON CORRIDOR", "thickness_mm": null, "thickness_source": "unknown - party/corridor wall, probably 250 like G4a but not stated"},
-    {"id": "G3", "class": "aerated_block", "where": "top wall above the кухня, right of R3 - faces the FLAT ABOVE (2Г/2)", "thickness_mm": null, "thickness_source": "unknown - probably 250, not stated"},
-    {"id": "G4a", "class": "aerated_block", "thickness_mm": 250, "where": "party wall to the neighbouring flat in this block", "thickness_source": "OWNER STATED, and it agrees with the plan's printed party_wall_or_structure = 250"},
-    {"id": "G4b", "class": "aerated_block", "thickness_mm": 120, "where": "туалет | ванная", "thickness_source": "OWNER CONFIRMED"},
-    {"id": "G4c", "class": "aerated_block", "thickness_mm": 120, "where": "ванная | прихожая", "thickness_source": "OWNER CONFIRMED"},
-    {"id": "G4d", "class": "aerated_block", "thickness_mm": 120, "where": "ванная | 9.36 room (the small bedroom)", "thickness_source": "OWNER STATED"},
-    {"id": "G5", "class": "aerated_block", "thickness_mm": null, "where": "right wall between R2 and R7 - THE BLOCK-JOINT LEAF", "thickness_source": "owner: 200-250 for this flat's leaf; the adjacent block adds another 200 with a seam between, ~400 mm total", "note": "!! A decoupled double wall. Best-performing wall in the flat, acquired for nothing."},
-    {"id": "G6", "class": "aerated_block", "thickness_mm": 75, "where": "top wall of the middle room's 1915 x 1050 recess", "thickness_source": "inferred - the plan prints 75 for partitions"},
-    {"id": "G7", "class": "aerated_block", "thickness_mm": 75, "where": "middle room right side wall, main span", "thickness_source": "inferred - the plan prints 75"},
-    {"id": "G8", "class": "aerated_block", "thickness_mm": 75, "where": "middle room left side wall, main span", "thickness_source": "inferred - the plan prints 75"},
-
-    {"id": "M1", "class": "external_warm_perimeter", "thickness_mm": 300, "insulation_mm": 70, "where": "between the 9.36 room and the ЛОДЖИЯ", "thickness_source": "OWNER STATED - 'external wall with all the insulation'", "note": "!! Carries the лоджия door/window unit. This is the thermal boundary, not the лоджия's own glazing."},
-    {"id": "M2", "class": "loggia_enclosure", "thickness_mm": null, "where": "between THIS лоджия and the NEIGHBOUR'S лоджия", "thickness_source": "owner: 'thinner'", "note": "!! COLD-TO-COLD: both loggias are unheated, so this wall has NO insulation duty. It is an acoustic and privacy element only."},
-    {"id": "M3", "class": "external_warm_perimeter", "thickness_mm": 300, "insulation_mm": 70, "where": "living room bottom wall, left of the window", "thickness_source": "inferred from the uniform warm-perimeter rule"},
-    {"id": "M4", "class": "external_warm_perimeter", "thickness_mm": 300, "insulation_mm": 70, "where": "living room bottom wall, right of the window", "thickness_source": "inferred from the uniform warm-perimeter rule"},
-    {"id": "M5", "class": "external_warm_perimeter", "thickness_mm": 300, "insulation_mm": 70, "where": "bottom wall beside the middle room's window", "thickness_source": "inferred from the uniform warm-perimeter rule"},
-    {"id": "M6a", "class": "external_warm_perimeter", "thickness_mm": 300, "insulation_mm": 70, "where": "the apartment's own bottom wall segment, left of the middle room's window", "thickness_source": "OWNER STATED - 'M6a is external wall, means full thickness of 300 millimeters'", "note": "!! CORRECTS his earlier estimate of ~100 mm for this segment."},
-    {"id": "M6b", "class": "loggia_enclosure", "thickness_mm": 200, "where": "the ЛОДЖИЯ's own wall, running down its right side", "thickness_source": "PROVISIONAL - owner first said 120, then revised: 'actually it looks thicker. It looks like 200 millimeters. I have another plan, I will show you later.'", "note": "Outside the warm perimeter - no insulation duty."},
-    {"id": "M7", "class": "external_warm_perimeter", "thickness_mm": 300, "insulation_mm": 70, "where": "short pier between the лоджия door unit and R8", "thickness_source": "OWNER STATED - 'part of external wall, big external wall with the same thickness, just a very short segment'", "note": "!! Was initially read as internal block (G9) and reclassified. It is UNCOLOURED on the owner's markup, which is why colour detection missed it entirely."}
+    {
+      "id": "R1",
+      "class": "concrete",
+      "element": "monolithic RC frame",
+      "where": "outer corner at the туалет; its corner forms TWO walls of the туалет",
+      "confirmed_by": "owner",
+      "note": "ONE monolithic piece - must NOT be split."
+    },
+    {
+      "id": "R2",
+      "class": "concrete",
+      "element": "monolithic RC frame",
+      "where": "right wall alongside the кухня (block-joint side)",
+      "confirmed_by": "owner"
+    },
+    {
+      "id": "R3",
+      "class": "concrete",
+      "element": "monolithic RC frame",
+      "where": "a ~3 m run of the top wall above the прихожая",
+      "confirmed_by": "owner"
+    },
+    {
+      "id": "R4",
+      "class": "concrete",
+      "element": "COLUMN",
+      "where": "middle room, прихожая end, left",
+      "confirmed_by": "owner",
+      "note": "One of the two columns the owner named as being 'in the middle next to the entrance area'."
+    },
+    {
+      "id": "R5",
+      "class": "concrete",
+      "element": "COLUMN",
+      "where": "middle room, прихожая end, right",
+      "confirmed_by": "owner",
+      "note": "The second of the two named columns."
+    },
+    {
+      "id": "R6",
+      "class": "concrete",
+      "element": "monolithic RC frame",
+      "where": "left wall beside the 9.36 room",
+      "confirmed_by": "owner"
+    },
+    {
+      "id": "R7",
+      "class": "concrete",
+      "element": "monolithic RC frame",
+      "where": "right wall beside the living room (block-joint side)",
+      "confirmed_by": "owner"
+    },
+    {
+      "id": "R8",
+      "class": "concrete",
+      "element": "monolithic RC frame",
+      "where": "middle room left wall, лоджия end - the flat/лоджия boundary",
+      "confirmed_by": "owner",
+      "note": "!! The plan draws INSULATION cross-hatch on its лоджия face - so it is part of the warm perimeter even though it is a frame element.",
+      "insulation_mm": 150,
+      "insulation_source": "OWNER marked RED 2026-09-04 - thermal-bridge treatment on exposed concrete"
+    },
+    {
+      "id": "R9",
+      "class": "concrete",
+      "element": "monolithic RC frame",
+      "where": "middle room right wall, window end",
+      "confirmed_by": "owner",
+      "insulation_mm": 150,
+      "insulation_source": "OWNER marked RED 2026-09-04 - thermal-bridge treatment on exposed concrete"
+    },
+    {
+      "id": "G1",
+      "class": "aerated_block",
+      "thickness_mm": 120,
+      "where": "short wall between туалет and прихожая",
+      "thickness_source": "inferred - the plan prints 120 in the wet block"
+    },
+    {
+      "id": "G2",
+      "class": "aerated_block",
+      "where": "top wall, left of R3 - faces the COMMON CORRIDOR",
+      "thickness_mm": null,
+      "thickness_source": "unknown - party/corridor wall, probably 250 like G4a but not stated"
+    },
+    {
+      "id": "G3",
+      "class": "aerated_block",
+      "where": "top wall above the кухня, right of R3 - faces the FLAT ABOVE (2Г/2)",
+      "thickness_mm": null,
+      "thickness_source": "unknown - probably 250, not stated"
+    },
+    {
+      "id": "G4a",
+      "class": "aerated_block",
+      "thickness_mm": 250,
+      "where": "party wall to the neighbouring flat in this block",
+      "thickness_source": "OWNER STATED, and it agrees with the plan's printed party_wall_or_structure = 250"
+    },
+    {
+      "id": "G4b",
+      "class": "aerated_block",
+      "thickness_mm": 120,
+      "where": "туалет | ванная",
+      "thickness_source": "OWNER CONFIRMED"
+    },
+    {
+      "id": "G4c",
+      "class": "aerated_block",
+      "thickness_mm": 120,
+      "where": "ванная | прихожая",
+      "thickness_source": "OWNER CONFIRMED"
+    },
+    {
+      "id": "G4d",
+      "class": "aerated_block",
+      "thickness_mm": 120,
+      "where": "ванная | 9.36 room (the small bedroom)",
+      "thickness_source": "OWNER STATED"
+    },
+    {
+      "id": "G5",
+      "class": "aerated_block",
+      "thickness_mm": null,
+      "where": "right wall between R2 and R7 - THE BLOCK-JOINT LEAF",
+      "thickness_source": "owner: 200-250 for this flat's leaf; the adjacent block adds another 200 with a seam between, ~400 mm total",
+      "note": "!! A decoupled double wall. Best-performing wall in the flat, acquired for nothing."
+    },
+    {
+      "id": "G6",
+      "class": "aerated_block",
+      "thickness_mm": 75,
+      "where": "top wall of the middle room's 1915 x 1050 recess",
+      "thickness_source": "inferred - the plan prints 75 for partitions"
+    },
+    {
+      "id": "G7",
+      "class": "aerated_block",
+      "thickness_mm": 75,
+      "where": "middle room right side wall, main span",
+      "thickness_source": "inferred - the plan prints 75"
+    },
+    {
+      "id": "G8",
+      "class": "aerated_block",
+      "thickness_mm": 75,
+      "where": "middle room left side wall, main span",
+      "thickness_source": "inferred - the plan prints 75"
+    },
+    {
+      "id": "M1",
+      "class": "external_warm_perimeter",
+      "thickness_mm": 300,
+      "insulation_mm": 70,
+      "where": "between the 9.36 room and the ЛОДЖИЯ",
+      "thickness_source": "OWNER STATED - 'external wall with all the insulation'",
+      "note": "!! Carries the лоджия door/window unit. This is the thermal boundary, not the лоджия's own glazing."
+    },
+    {
+      "id": "M2",
+      "class": "loggia_enclosure",
+      "thickness_mm": null,
+      "where": "between THIS лоджия and the NEIGHBOUR'S лоджия",
+      "thickness_source": "owner: 'thinner'",
+      "note": "!! COLD-TO-COLD: both loggias are unheated, so this wall has NO insulation duty. It is an acoustic and privacy element only."
+    },
+    {
+      "id": "M3",
+      "class": "external_warm_perimeter",
+      "thickness_mm": 300,
+      "insulation_mm": 70,
+      "where": "living room bottom wall, left of the window",
+      "thickness_source": "inferred from the uniform warm-perimeter rule"
+    },
+    {
+      "id": "M4",
+      "class": "external_warm_perimeter",
+      "thickness_mm": 300,
+      "insulation_mm": 70,
+      "where": "living room bottom wall, right of the window",
+      "thickness_source": "inferred from the uniform warm-perimeter rule"
+    },
+    {
+      "id": "M5",
+      "class": "external_warm_perimeter",
+      "thickness_mm": 300,
+      "insulation_mm": 70,
+      "where": "bottom wall beside the middle room's window",
+      "thickness_source": "inferred from the uniform warm-perimeter rule"
+    },
+    {
+      "id": "M6a",
+      "class": "external_warm_perimeter",
+      "thickness_mm": 300,
+      "insulation_mm": 70,
+      "where": "the apartment's own bottom wall segment, left of the middle room's window",
+      "thickness_source": "OWNER STATED - 'M6a is external wall, means full thickness of 300 millimeters'",
+      "note": "!! CORRECTS his earlier estimate of ~100 mm for this segment."
+    },
+    {
+      "id": "M6b",
+      "class": "loggia_enclosure",
+      "thickness_mm": 200,
+      "where": "the ЛОДЖИЯ's own wall, running down its right side",
+      "thickness_source": "PROVISIONAL - owner first said 120, then revised: 'actually it looks thicker. It looks like 200 millimeters. I have another plan, I will show you later.'",
+      "note": "Outside the warm perimeter - no insulation duty.",
+      "insulation_mm": 70,
+      "insulation_source": "OWNER marked BLUE 2026-09-04"
+    },
+    {
+      "id": "M7",
+      "class": "external_warm_perimeter",
+      "thickness_mm": 300,
+      "insulation_mm": 70,
+      "where": "short pier between the лоджия door unit and R8",
+      "thickness_source": "OWNER STATED - 'part of external wall, big external wall with the same thickness, just a very short segment'",
+      "note": "!! Was initially read as internal block (G9) and reclassified. It is UNCOLOURED on the owner's markup, which is why colour detection missed it entirely."
+    }
   ],
   "loggia_thermal_consequence": {
     "finding": "!! THE ЛОДЖИЯ IS THERMALLY DECOUPLED FROM THE FLAT, AND THAT CUTS AGAINST THE OWNER'S OWN GOAL.",
@@ -79,5 +268,37 @@
     "G5 thickness - this flat's leaf of the block joint, 200-250; the total with the adjacent block is ~400 including the seam.",
     "G1, G6, G7, G8 thicknesses are INFERRED from the plan's printed 120 (wet block) and 75 (partitions), not stated by the owner."
   ],
-  "what_this_cannot_do_yet": "These ids are regions on a raster markup, not named walls in the model. Mapping them onto data/canonical/current_apartment_shell.json requires v0 geometry, which does not exist yet - so make_variant.py cannot enforce any of this today. Building v0 from the plan's printed linear chains is the blocking task."
+  "what_this_cannot_do_yet": "These ids are regions on a raster markup, not named walls in the model. Mapping them onto data/canonical/current_apartment_shell.json requires v0 geometry, which does not exist yet - so make_variant.py cannot enforce any of this today. Building v0 from the plan's printed linear chains is the blocking task.",
+  "insulation_is_NOT_uniform_2026_09_04": {
+    "source": "Owner marked it on _assets/outer_insulation.png (his annotation of my own face map). Isolated by pixel-diffing his image against my original, so the regions are exactly what he drew, not my reading of them.",
+    "correction": "!! THIS CORRECTS THE DEVELOPER SPEC, which states «утепленными минераловатными плитами толщиной 70мм» without qualification. The insulation is NOT uniform.",
+    "thick_150mm": {
+      "blocks": [
+        "R8",
+        "R9"
+      ],
+      "owner_marked": "RED",
+      "note": "Exactly two regions, and BOTH are on CONCRETE frame elements."
+    },
+    "thin_70mm": {
+      "blocks": [
+        "M1",
+        "M3",
+        "M4",
+        "M5",
+        "M6b"
+      ],
+      "owner_marked": "BLUE",
+      "note": "Seven regions, all on the aerated-block external walls."
+    },
+    "why_it_explains_itself": "!! CONCRETE CONDUCTS HEAT FAR BETTER THAN AERATED BLOCK, so an exposed frame element is a THERMAL BRIDGE and needs more insulation to compensate. 150 on concrete, 70 on block is exactly the pattern he marked - so the marking is internally coherent and does not need to be taken on trust.",
+    "consequence_for_the_loggia": "!! R8 IS THE FLAT/ЛОДЖИЯ WALL AND IT CARRIES THE THICKER 150. So even less heat reaches the лоджия than the earlier finding assumed - the frost-free-without-heating target rests on solar gain and the лоджия own enclosure, and essentially nothing else. This strengthens that finding rather than changing it.",
+    "consequence_for_heat_loss": "Any heat-loss calculation must use 150 mm over R8/R9 and 70 mm over the M-series, not a single figure. The thermal-bridge treatment is already designed in, which is a point in the building favour."
+  },
+  "frame_thickness_derived": {
+    "value_mm": 250,
+    "partition_value_mm": 75,
+    "how": "!! DERIVED FROM THE PLAN ITSELF, not asked: the plan prints 175 at each place a column meets a partition, and 250 - 75 = 175. The printed step only works arithmetically if the frame is 250 AND the partitions are 75, so it corroborates both at once - a stronger check than either figure alone.",
+    "answers": "Q1 and Q6 of the thickness sheet."
+  }
 }
