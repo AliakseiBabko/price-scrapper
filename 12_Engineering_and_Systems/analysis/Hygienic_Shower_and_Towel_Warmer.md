@@ -90,3 +90,27 @@ Vladimir Amelchenko addresses a common client complaint distinct from the hydron
 
 [source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
 
+### ⚠️⚠️ THIS PROJECT: THE TAILS ARE IN, THE RAIL IS NOT — and that fixes its position (2026-09-04)
+
+**Established with the owner. At ZK Dubravinskiy the towel rail's FLOW AND RETURN are already run and capped,
+from the wet riser group in the туалет (`P1`) through the 120 mm wall into the ванная, where the rail will
+sit. The rail itself is NOT installed.** (`data/canonical/plumbing_anchors.csv`.)
+
+- → **✅ IT IS HYDRONIC, WHICH SETTLES WHICH FINDING ON THIS PAGE APPLIES.** The section above records that
+  **cutting or extending an ELECTRIC rail's flex voids the warranty** — **that does not apply here.** The
+  **riser-recessing** content does instead.
+- → **⚠️⚠️ AND THE TAILS FIX WHERE THE RAIL CAN GO, because both ways of moving them are bad in this flat:**
+  chasing into a **120 mm aerated-block wall between two wet rooms**, or running in the floor — where **the
+  screed is already laid with the heating pipes in it.**
+  **→ So design the ванная layout AROUND the tails rather than expecting to move them, and establish their
+  exact position BEFORE tiling.** This is the same class as the vault's concealed-mixer finding, where a
+  rough-in body that looks like a finish item gated the whole rough stage.
+- → **✅ The rail not being fitted is an advantage.** The owner chooses it rather than inheriting the
+  developer's — so this page's **sustained-run acceptance test** and the **hydronic-versus-electric** comparison
+  are both still live decisions rather than moot ones.
+- ⚠️ **A known penetration is now on record**: `T1`, the tails crossing `G4b`. Worth having before anyone
+  chases anything else into a 120 mm wall that already carries pipes.
+
+[source: `data/canonical/plumbing_anchors.csv` and `wall_materials.json` — owner, 2026-09-04]
+
+

@@ -1,3 +1,4 @@
 anchor_id,type,location,width_mm,depth_mm,notes
-P1,wet_riser_group,"туалет, beside V1",343,803,"HOT + COLD water (the flat's ONLY water source), the MAIN SEWER stack, and the TOWEL HEATER. Immovable."
+P1,wet_riser_group,"туалет, beside V1",343,803,"HOT + COLD water (the flat's ONLY water source), the MAIN SEWER stack, and the TOWEL-RAIL TAILS. ⚠ The RAIL ITSELF IS NOT INSTALLED and will sit in the ВАННАЯ - only the pipes and connectors are in, capped and ready. Immovable."
 P2,sewer_only,between R3 and V2,450,225,The SECOND SEWER. Serves the kitchen now and potentially a future laundry. NO water at this point - kitchen water arrives from P1 under the floor. Immovable.
+T1,capped_tails,from P1 through G4b into the ванная,,,"TOWEL-RAIL FLOW AND RETURN, capped, awaiting a rail. ⚠ THEY CROSS G4b - a KNOWN PENETRATION of the 120 mm wall between туалет and ванная. Their emergence point FIXES where the rail can go."
