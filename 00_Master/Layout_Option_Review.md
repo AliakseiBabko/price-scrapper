@@ -108,6 +108,28 @@ Everything in §1–§3 is *what* `v1` does. This is *why*, and it had not been 
 - → **And it answers the case-study round's open question: THIS is the decision in the comparable that the owner rejects.**
 - ⚠️ **The divider is RETRACTABLE, not a sliding door** (owner's correction, same date). That changes the parking width and the head detail, and it has to be sized against 24.13 m², not the developer plan's 24.73.
 
+### ✅⚠️ TWO FURTHER ARGUMENTS FOR THE SAME MOVE, NEITHER OF THEM THE OWNER'S — added 2026-09-04
+
+The block floor plan establishes that **this is the block's END flat, single-aspect: three of its four sides are
+party walls, and every window is on the one bottom façade.** Two consequences bear directly on the kitchen move,
+and **both are independent of the separability thesis above:**
+
+1. **⚠️⚠️ THE DEVELOPER'S 5.24 m² КУХНЯ HAS NO WINDOW.** Its top wall borders the flat above and its right wall
+   is the block end — it has no external wall at all. **Merging it into the living room is the only way that
+   zone gets daylight.** In a flat where the household's dining table lives in the kitchen zone, that is not a
+   refinement.
+2. **⚠️⚠️ AND IT IS THE ONLY WAY THAT ZONE GETS FRESH AIR WITHOUT DUCTING.** Single-aspect means no
+   cross-ventilation, so mechanical supply is a requirement; the 2500 mm ceiling makes a ducted route barely
+   viable; the zero-void alternative is a through-wall unit — **and a through-wall unit needs an external wall,
+   which the developer's kitchen does not have.** Extract is fine (the 400 × 1140 вентблок is right at that
+   boundary); **supply is what has no route.** Full chain on
+   [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh Air Ventilation and Ducting]].
+
+→ **⚠️⚠️ SO THE BIGGEST MOVE IN `v1` NOW RESTS ON THREE INDEPENDENT ARGUMENTS — separability, daylight and
+ventilation — where this page previously had only the owner's own.** That is worth stating plainly because
+the correction above raised the bar for every partition in `v1`: **this particular move clears the higher bar
+comfortably. Others still have to be argued one at a time.**
+
 ### Two structural differences from the comparable, and one of them kills a transfer
 
 | | comparable | this project |

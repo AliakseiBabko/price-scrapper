@@ -182,6 +182,37 @@ figure had not been recorded anywhere in this repo before that date.**
   here at all, or whether this flat is a case for decentralised through-wall units** — which consume no ceiling
   void. This page carries both options; the height figure now weighs the choice.
 
+#### ⚠️⚠️⚠️ AND THE FLAT IS SINGLE-ASPECT, WHICH REMOVES THE FALLBACK — the full chain (2026-09-04)
+
+**From the block floor plan: this is the block's END flat, and three of its four sides are PARTY walls.
+Only the bottom is external. All glazing is on that one façade. Кухня 5.24 and прихожая 9.97 have NO
+external wall at all.** (`data/canonical/building_spec.json`.)
+
+**Follow it through, because each step removes an option:**
+
+1. **Single-aspect → NO CROSS-VENTILATION.** Opening windows on opposite sides is not available at any time of
+   year. **So mechanical fresh air stops being an upgrade and becomes a requirement.**
+2. **2500 mm ceiling → a ducted route through the flat is barely viable**, per the arithmetic above: 150–200 mm
+   of duct leaves 2300–2350 mm before any fitting, and no height can be recovered from the floor.
+3. **→ So the decentralised through-wall units this page also documents become the leading option, because
+   they consume ZERO ceiling void.**
+4. **⚠️ BUT A THROUGH-WALL UNIT NEEDS AN EXTERNAL WALL, AND ONLY THREE ROOMS HAVE ONE** — 9.36, 16.63 and
+   19.49. **Neither the кухня nor the прихожая can take one in the developer's layout.**
+5. **Extract is fine** — the second вентблок (400 × 1140, measured) sits exactly at the прихожая/кухня
+   boundary, so the kitchen's extract has a shaft to reach. **It is SUPPLY to the kitchen zone that has no route.**
+
+→ **⚠️⚠️ THE CONCLUSION IS A DESIGN ONE, NOT A PLANT ONE: in the developer's layout the kitchen cannot be
+given fresh air without ducting it through a 2500 mm ceiling. MERGING THE KITCHEN INTO THE LIVING ROOM —
+which the owner's own `v1` already does — gives that zone a façade wall, and therefore both daylight and a
+supply route, without any duct run at all.** That is an argument for the move which is entirely independent
+of the owner's own reason for making it. Recorded at `00_Master/Layout_Option_Review.md` §3a.
+
+→ **✅ It also decides where soundproofing money goes.** The right-hand wall is the **block end** — a decoupled
+double wall (≈200–250 + seam + 200 ≈ 400 mm) acquired for nothing. **The walls worth spending on are the
+in-block party wall and the corridor wall**, not that one.
+
+[source: `data/canonical/building_spec.json` — developer's building description and the block floor plan, supplied by the owner 2026-09-04]
+
 [source: `data/canonical/building_spec.json` — developer's published building description, supplied by the owner 2026-09-04]
 
 
