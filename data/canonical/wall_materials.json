@@ -10,7 +10,7 @@
     "narrative": "_Inbox/planning/concrete_wall_marking_20260904.md",
     "building_spec": "data/canonical/building_spec.json"
   },
-  "status": "Classification COMPLETE and owner-confirmed. Two thicknesses provisional (see provisional[]). NOT yet mapped onto shell wall names - that needs v0 geometry, which does not exist yet.",
+  "status": "Classification COMPLETE and owner-confirmed. THICKNESSES COMPLETE for all 30 runs (G1 and M6b the only two not directly from the owner). LENGTHS are the open work. Still not mapped onto shell wall names - that needs v0 geometry.",
   "the_warm_perimeter": {
     "owner_concept": "The owner's own framing, and it is the organising idea: there is a WARM PERIMETER - the thermal envelope of the heated flat - and it is UNIFORM in construction all the way round.",
     "owner_words": "«[M1] is external wall, and it is uniform, the same thickness across all the warm perimeter. M1 is the external wall with all the insulation, because [the лоджия] was envisioned as a cold area. It's not heated, it's outside of this external wall perimeter.»",
@@ -103,15 +103,15 @@
       "id": "G2",
       "class": "aerated_block",
       "where": "top wall, left of R3 - faces the COMMON CORRIDOR",
-      "thickness_mm": null,
-      "thickness_source": "unknown - party/corridor wall, probably 250 like G4a but not stated"
+      "thickness_mm": 250,
+      "thickness_source": "OWNER general rule 1"
     },
     {
       "id": "G3",
       "class": "aerated_block",
       "where": "top wall above the кухня, right of R3 - faces the FLAT ABOVE (2Г/2)",
-      "thickness_mm": null,
-      "thickness_source": "unknown - probably 250, not stated"
+      "thickness_mm": 250,
+      "thickness_source": "OWNER general rule 1"
     },
     {
       "id": "G4a",
@@ -144,9 +144,9 @@
     {
       "id": "G5",
       "class": "aerated_block",
-      "thickness_mm": null,
+      "thickness_mm": 250,
       "where": "right wall between R2 and R7 - THE BLOCK-JOINT LEAF",
-      "thickness_source": "owner: 200-250 for this flat's leaf; the adjacent block adds another 200 with a seam between, ~400 mm total",
+      "thickness_source": "OWNER general rule 1 - resolves 200 vs 250",
       "note": "!! A decoupled double wall. Best-performing wall in the flat, acquired for nothing."
     },
     {
@@ -182,10 +182,12 @@
     {
       "id": "M2",
       "class": "loggia_enclosure",
-      "thickness_mm": null,
+      "thickness_mm": 200,
       "where": "between THIS лоджия and the NEIGHBOUR'S лоджия",
-      "thickness_source": "owner: 'thinner'",
-      "note": "!! COLD-TO-COLD: both loggias are unheated, so this wall has NO insulation duty. It is an acoustic and privacy element only."
+      "thickness_source": "OWNER - 200 aerated block, NO insulation",
+      "note": "!! COLD-TO-COLD: both loggias are unheated, so this wall has NO insulation duty. It is an acoustic and privacy element only.",
+      "insulation_mm": 0,
+      "insulation_source": "OWNER - explicitly none; faces another unheated лоджия"
     },
     {
       "id": "M3",
@@ -238,6 +240,14 @@
       "where": "short pier between the лоджия door unit and R8",
       "thickness_source": "OWNER STATED - 'part of external wall, big external wall with the same thickness, just a very short segment'",
       "note": "!! Was initially read as internal block (G9) and reclassified. It is UNCOLOURED on the owner's markup, which is why colour detection missed it entirely."
+    },
+    {
+      "id": "G4e",
+      "class": "aerated_block",
+      "thickness_mm": 120,
+      "thickness_source": "OWNER",
+      "where": "the LOWER run of the same plane as G4c, below the ванная door, meeting G4d at the corner; corridor-facing",
+      "note": "!! ADDED on the owner's instruction - he spotted it missing. ⚠ MY READING of which piece he meant; the other candidate is the прихожая|9.36 wall carrying the bedroom door, which is also unnamed and also adjoins G4d. Flagged for confirmation."
     }
   ],
   "loggia_thermal_consequence": {
@@ -300,5 +310,21 @@
     "partition_value_mm": 75,
     "how": "!! DERIVED FROM THE PLAN ITSELF, not asked: the plan prints 175 at each place a column meets a partition, and 250 - 75 = 175. The printed step only works arithmetically if the frame is 250 AND the partitions are 75, so it corroborates both at once - a stronger check than either figure alone.",
     "answers": "Q1 and Q6 of the thickness sheet."
+  },
+  "general_thickness_rules_2026_09_04": {
+    "source": "Owner, stated as general rules rather than wall by wall.",
+    "rules": [
+      "1. Every INTERNAL wall on the flat's outer perimeter - to an adjacent flat, or to another area inside the building such as the common corridor - is 250 mm. Applies to G2, G3, G5, G4a.",
+      "2. All OUTER walls are 300 mm plus 70 mm insulation. Applies to M1, M3, M4, M5, M6a, M7.",
+      "3. CONCRETE walls are 250 mm, and where exposed they carry 150 mm insulation. Applies to R1a-R9, with the 150 on R8 and R9.",
+      "4. M2 is 200 mm aerated block with NO insulation - the divider to the adjacent лоджия."
+    ],
+    "resolves": "!! G5 = 250 by rule 1, which CLOSES the 200-or-250 question. That was the last figure able to move the living room wall line, and therefore the Phase-2 combined zone.",
+    "state": "THE THICKNESS MODEL IS NOW COMPLETE for all 30 block runs. Only two figures are not directly from the owner: G1 at 120 (inferred from the plan) and M6b at 200 (his own provisional revision, pending another plan)."
+  },
+  "insulation_follows_the_facade_not_the_envelope": {
+    "finding": "!! M6b IS insulated at 70 even though the лоджия is unheated, while M2 is explicitly NOT insulated. The difference is not thermal.",
+    "explanation": "M6b is ON THE VISIBLE, RENDERED FAÇADE; M2 faces another лоджия and is never seen from outside. So the insulation follows the RENDERED FAÇADE PLANE, not the thermal envelope.",
+    "why_it_matters": "!! An insulated лоджия wall does NOT mean the лоджия is inside the warm perimeter. It is not. Reading it the other way round would wrongly credit the лоджия with a thermal boundary it does not have, and the frost-free-without-heating target would look easier than it is."
   }
 }

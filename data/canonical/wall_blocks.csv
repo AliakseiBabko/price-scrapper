@@ -1,30 +1,31 @@
 block_id,class,thickness_mm,thickness_source,insulation_mm,insulation_source,developer_plan_length_mm,length_min_mm,length_max_mm,source_of_min_max,notes
-R1a,concrete,250,derived: the printed 175 step = 250 - 75,,,1140,,,,"⚠ SPLIT FROM R1 — the NORTH run, above the туалет. R1 is ONE monolithic pour but it TURNS, so it is two runs."
-R1b,concrete,250,derived from the 175 step,,,,,,,"⚠ SPLIT FROM R1 — the WEST run, beside the туалет. Its length is the туалет depth, which is the RETRACTED 1090."
-R2,concrete,250,derived,,,,,,,right wall by the кухня — block-joint side
-R3,concrete,250,derived,,,,,,,~3 m run of the top wall above the прихожая
-R4,concrete,250,derived,,,1050,,,,"COLUMN, middle room прихожая end, left"
-R5,concrete,250,derived,,,1050,,,,"COLUMN, middle room прихожая end, right"
-R6,concrete,250,derived,,,,,,,left wall by the 9.36 room
-R7,concrete,250,derived,,,,,,,right wall by the living room
-R8,concrete,250,derived,150,OWNER marked RED,1490,,,,⚠⚠ flat | лоджия. GETS 150 mm INSULATION — one of the two thick ones
-R9,concrete,250,derived,150,OWNER marked RED,1490,,,,⚠⚠ at the façade STEP by the middle-room window. GETS 150 mm — the second thick one
-G1,aerated_block,120,inferred from the plan,,,,,,,туалет | прихожая
-G2,aerated_block,,,,,,,,,⚠ top wall to the COMMON CORRIDOR — thickness unknown
-G3,aerated_block,,,,,3315,,,,⚠ top wall to the FLAT ABOVE — thickness unknown
-G4a,aerated_block,250,OWNER,,,,,,,party wall to the neighbouring flat
-G4b,aerated_block,120,OWNER,,,1140,,,,туалет | ванная
-G4c,aerated_block,120,OWNER,,,,,,,"⚠ ванная | прихожая — BROKEN BY THE DOOR, so two runs"
-G4d,aerated_block,120,OWNER,,,,,,,ванная | 9.36 room
-G5,aerated_block,,,,,,,,,⚠ THE BLOCK-JOINT LEAF. 200 or 250? Total with the next block ≈400 incl. the seam
-G6,aerated_block,75,derived from the 175 step,,,1915,,,,middle-room recess back wall
-G7,aerated_block,75,derived from the 175 step,,,3250,,,,middle room right partition
-G8,aerated_block,75,derived from the 175 step,,,3250,,,,middle room left partition
-M1,external,300,OWNER,70,OWNER marked BLUE,,,,,⚠ flat | лоджия — warm perimeter. CARRIES THE ЛОДЖИЯ DOOR + a window block that stops short of the floor
-M2,loggia_enclosure,,,,,,,,,"⚠ лоджия | NEIGHBOUR лоджия. Cold-to-cold — NO insulation marked, consistent with no duty"
-M3,external,300,inferred: uniform warm perimeter,70,OWNER marked BLUE,,,,,"living room bottom wall, left of the window"
-M4,external,300,inferred,70,OWNER marked BLUE,,,,,"living room bottom wall, right of the window"
-M5,external,300,inferred,70,OWNER marked BLUE,,,,,bottom wall by the middle-room window
-M6a,external,300,OWNER,,,,,,,⚠ SPLIT FROM M6 — the apartment run. No insulation mark landed on it; confirm
-M6b,loggia_enclosure,200,PROVISIONAL — owner revising,70,OWNER marked BLUE,,,,,⚠ SPLIT FROM M6 — the лоджия run. ⚠ MAY ITSELF TURN at the angled glazing — split again?
-M7,external,300,OWNER,,,,,,,short pier between the лоджия door and R8
+R1a,concrete,250,derived from the plan: the printed 175 step = 250 − 75,,,1140,,,,"SPLIT FROM R1 — NORTH run above the туалет. One monolithic pour, treated as two sections"
+R1b,concrete,250,derived from the plan: the printed 175 step = 250 − 75,,,,,,,"SPLIT FROM R1 — WEST run beside the туалет. ⚠ its length is the туалет depth, which is the RETRACTED 1090"
+R2,concrete,250,"OWNER 2026-09-04 — general rule: concrete walls are 250, and where exposed they carry 150 insulation",,,,,,,right wall by the кухня — block-joint side
+R3,concrete,250,"OWNER 2026-09-04 — general rule: concrete walls are 250, and where exposed they carry 150 insulation",,,,,,,~3 m run of the top wall above the прихожая
+R4,concrete,250,derived from the plan: the printed 175 step = 250 − 75,,,1050,,,,"COLUMN, middle room, прихожая end, left"
+R5,concrete,250,derived from the plan: the printed 175 step = 250 − 75,,,1050,,,,"COLUMN, middle room, прихожая end, right"
+R6,concrete,250,"OWNER 2026-09-04 — general rule: concrete walls are 250, and where exposed they carry 150 insulation",,,,,,,left wall by the 9.36 room
+R7,concrete,250,"OWNER 2026-09-04 — general rule: concrete walls are 250, and where exposed they carry 150 insulation",,,,,,,right wall by the living room
+R8,concrete,250,"OWNER 2026-09-04 — general rule: concrete walls are 250, and where exposed they carry 150 insulation",150,OWNER 2026-09-04 — marked RED; exposed concrete = thermal bridge,1490,,,,"⚠⚠ flat | лоджия, and it carries the THICKER 150"
+R9,concrete,250,"OWNER 2026-09-04 — general rule: concrete walls are 250, and where exposed they carry 150 insulation",150,OWNER 2026-09-04 — marked RED,1490,,,,⚠⚠ at the façade STEP by the middle-room window
+G1,aerated_block,120,⚠ INFERRED from the plan’s printed 120 — the last unconfirmed thickness,,,,,,,туалет | прихожая
+G2,aerated_block,250,OWNER 2026-09-04 — general rule: every internal wall on the flat’s outer perimeter (to an adjacent flat or another area inside the building) is 250,,,,,,,top wall to the COMMON CORRIDOR
+G3,aerated_block,250,OWNER 2026-09-04 — general rule: every internal wall on the flat’s outer perimeter (to an adjacent flat or another area inside the building) is 250,,,3315,,,,top wall to the FLAT ABOVE (2Г/2)
+G4a,aerated_block,250,OWNER 2026-09-04,,,,,,,party wall to the neighbouring flat
+G4b,aerated_block,120,OWNER 2026-09-04,,,1140,,,,туалет | ванная
+G4c,aerated_block,120,OWNER 2026-09-04,,,,,,,"ванная | прихожая — UPPER run, above the ванная door"
+G4d,aerated_block,120,OWNER 2026-09-04,,,,,,,ванная | 9.36 room
+G4e,aerated_block,120,OWNER 2026-09-04,,,,,,,"⚠ ADDED on the owner’s instruction — the LOWER run of the same plane as G4c, below the ванная door, meeting G4d at the corner. Corridor-facing"
+G5,aerated_block,250,OWNER 2026-09-04 — general rule: every internal wall on the flat’s outer perimeter (to an adjacent flat or another area inside the building) is 250,,,,,,,"✅ THE BLOCK-JOINT LEAF = 250, which RESOLVES the 200-or-250 question. Total with the next block ≈ 250 + seam + 200"
+G6,aerated_block,75,derived from the plan: the printed 175 step = 250 − 75,,,1915,,,,middle-room recess back wall
+G7,aerated_block,75,derived from the plan: the printed 175 step = 250 − 75,,,3250,,,,"middle room, right partition"
+G8,aerated_block,75,derived from the plan: the printed 175 step = 250 − 75,,,3250,,,,"middle room, left partition"
+M1,external,300,OWNER 2026-09-04 — general rule: all outer walls are 300 + 70 insulation,70,OWNER 2026-09-04 — marked BLUE,,,,,"⚠ flat | лоджия, warm perimeter. Carries the лоджия DOOR plus a window block that stops short of the floor"
+M2,loggia_enclosure,200,OWNER 2026-09-04,0,OWNER 2026-09-04 — explicitly NO insulation,,,,,"✅ 200 mm aerated block, NO insulation. Divider to the ADJACENT лоджия — outside the heat perimeter but inside the лоджия area"
+M3,external,300,OWNER 2026-09-04 — general rule: all outer walls are 300 + 70 insulation,70,OWNER 2026-09-04 — marked BLUE,,,,,"living room bottom wall, left of the window"
+M4,external,300,OWNER 2026-09-04 — general rule: all outer walls are 300 + 70 insulation,70,OWNER 2026-09-04 — marked BLUE,,,,,"living room bottom wall, right of the window"
+M5,external,300,OWNER 2026-09-04 — general rule: all outer walls are 300 + 70 insulation,70,OWNER 2026-09-04 — marked BLUE,,,,,bottom wall by the middle-room window
+M6a,external,300,OWNER 2026-09-04 — general rule: all outer walls are 300 + 70 insulation,70,⚠ by the general rule; no blue mark landed on it,,,,,SPLIT FROM M6 — the apartment run
+M6b,loggia_enclosure,200,"⚠ PROVISIONAL — owner revised 120 → 200, checking another plan",70,OWNER 2026-09-04 — marked BLUE,,,,,"⚠ SPLIT FROM M6 — the лоджия run. INSULATED even though the лоджия is unheated, because it is on the VISIBLE FAÇADE. ⚠ may turn again at the angled glazing"
+M7,external,300,OWNER 2026-09-04 — general rule: all outer walls are 300 + 70 insulation,70,⚠ by the general rule,,,,,short pier between the лоджия door and R8
