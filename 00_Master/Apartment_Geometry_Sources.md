@@ -31,8 +31,51 @@ Schedules extracted into
 
 Developer plan, type 3Б/3+ — rooms sum to 64.85 m², plus the loggia counted at
 its coefficient (6.05 → 4.24) gives **69.09 m², the printed total.** The
-arithmetic closing to the centimetre is good evidence the areas were read
+arithmetic closing to the centimetre is good evidence the areas were **read**
 correctly.
+
+> [!CAUTION]
+> **⚠️⚠️ AND THAT IS ALL IT IS EVIDENCE OF. It proves the transcription, not the building.**
+> **Owner's standing instruction, 2026-09-04: do not trust area figures — including the developer's
+> own, on either drawing. Use ONLY linear dimensions as the source of truth for geometry.** He
+> tried to reconstruct the total from the detailed and the general plan and the numbers did not
+> play out; the areas look like a CAD recalculation; and many walls are of complex shape rather
+> than a straight run, which is where the error gets in.
+>
+> **Tested against the plan's own printed chains, and his account is confirmed with a clean pattern:**
+>
+> | room | shape | printed chain | product | printed area | Δ |
+> | :--- | :--- | :--- | ---: | ---: | ---: |
+> | туалет | **plain rectangle** | 1140 × 1090 | 1.243 | 1.24 | **+0.2% — closes** |
+> | жилая (малая) | door alcove + 175/150 offsets | 2825 × 3400 | 9.605 | 9.36 | **+2.6%** |
+> | жилая (средняя) | recess + door alcove | 5790 × 3000 | 17.370 | 16.64 | **+4.4%** |
+>
+> **The one plain rectangle closes. Both rooms with any shape complexity do not.** So a printed area
+> cannot be reproduced from the printed geometry of the same room except in the trivial case.
+>
+> **Three rules follow, and the second one matters most:**
+> 1. **Build geometry from linear dimensions only.** Never infer or adjust a wall position from an area.
+> 2. **⚠️⚠️ Never validate a reconstruction against a printed area. When `v0` is built from the
+>    chains its computed areas WILL differ from the printed ones and will NOT sum to 69.09 — that is
+>    EXPECTED, not a bug. Do not "fix" the geometry to hit the published figure.**
+> 3. **Use chain closure instead.** Where a room prints two parallel chains they must agree — the small
+>    room's top (1795+120+910) and bottom (1120+1380+150+175) both give **2825, exactly.** That is a
+>    real check on the reading, and it is the one to use.
+>
+> Areas keep their existing roles — the 69.09 total, the sale paperwork, the clear-vs-gross comparison
+> with the БТИ plans. They are what the developer **publishes**.
+
+### ✅ This also settles yesterday's open tension — in favour of the linear evidence
+
+The ⚠️ box above in *How much the real flat will differ* recorded a unanimous linear signal
+(developer reads ~1.5% larger) against a contradicting **area** signal, and declined to promote it
+because the two disagreed. **The contradicting side is now the known-unreliable one — and the middle
+room, the very room whose area caused the tension, is one of the two that fails to close.**
+
+**And the finding gained a third instance from the same test: small room width, developer 2825
+against measured 2780–2790 — +35 to +45 mm (+1.25% to +1.62%), the same direction and magnitude.
+Twelve comparisons across three dimensions now, every one the same way.** Still not a field
+measurement, but the counter-evidence is explained rather than outstanding.
 
 | Room | m² |
 |---|---|
