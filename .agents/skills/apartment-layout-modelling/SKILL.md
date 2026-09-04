@@ -45,6 +45,24 @@ Extracted, so nobody re-reads the images:
 
 ## Four facts that change answers
 
+> [!CAUTION]
+> **0. ⚠️⚠️ AREAS ARE NOT EVIDENCE. LINEAR DIMENSIONS ONLY.** Owner's standing
+> instruction, 2026-09-04, and it overrides the instinct to sanity-check a
+> model by its room schedule. Do not trust any area figure, **including the
+> developer's own**: the plan's areas look like a CAD recalculation, the two
+> developer drawings do not reconcile, and many walls are of complex shape.
+> **Tested:** the one plain rectangle closes (туалет 1140 × 1090 = 1.243 vs a
+> printed 1.24, +0.2%); the small room is +2.6% and the middle room +4.4%.
+> - **Build geometry from the printed linear chains, never from an area.**
+> - **⚠️ NEVER validate a reconstruction against a printed area.** `v0`'s computed
+>   areas will differ from the printed ones and will **not** sum to 69.09.
+>   **That is expected. Do not "fix" the geometry to hit the published figure.**
+> - **Validate by CHAIN CLOSURE instead** — parallel chains must agree. Worked:
+>   the small room's top (1795+120+910) and bottom (1120+1380+150+175) both
+>   give **2825**, exactly.
+> - Areas keep their published roles — the 69.09 total, the sale paperwork, the
+>   clear-vs-gross БТИ comparison. That is all.
+
 1. **Clear vs gross areas — never compare across them.** The developer publishes
    *clear* floor with service blocks deducted; the БТИ-style measured plans
    publish *gross* to the wall faces. Worked example: туалет 1140 × 1090 =

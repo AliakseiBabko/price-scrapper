@@ -5,6 +5,35 @@
 > [!IMPORTANT]
 > **Read `.agents/skills/apartment-layout-modelling/SKILL.md` before acting on anything here.** In particular: every dimension is nominal **±25 mm**, nothing is field-verified, **room outlines in `data/cad/room_polygons.json` are approximate** (7 of 10 rooms are flagged, the worst at −23.6%), and **Homestyler's own label areas are the authoritative figures** — the grown polygons are for placing things, never for measuring them.
 
+> [!CAUTION]
+> **⚠️⚠️ READ THIS BEFORE ANY NUMBER BELOW. ADDED 2026-09-04, AND IT PARTLY UNDERCUTS THIS PAGE.**
+>
+> **The owner's standing instruction: areas are not evidence — including the developer's own — and only
+> linear dimensions are a source of truth.** Tested and confirmed: the plan's one plain rectangle closes
+> to 0.2%, while the small room is out 2.6% and the middle room 4.4%. See `project_decisions.md` and
+> `data/canonical/dimension_tolerance.json`.
+>
+> **Most of §1–§3 was written from areas, so its numbers are not all of equal standing. Which is which:**
+>
+> | number | basis | standing |
+> | :--- | :--- | :--- |
+> | `v1` room areas — 15.28, 13.57, 10.56, 8.32, 1.90 | **Homestyler's own computation of the owner's drawn geometry** (`data/cad/room_labels.json`) | ✅ **Reliable** — a CAD area of a known polygon, and the skill already treats these as authoritative for quantities |
+> | `v0` room areas — 19.49, 16.64, 9.36, 9.79, 5.24, 64.85 | **the developer's published figures** | ⚠️ **Not evidence.** Published, not measured |
+> | **every Δ in §1**, and the pools table | **mixes the two bases** | ⚠️⚠️ **Unreliable — do not quote the magnitudes** |
+> | **the 1.39 m² "lost to partitions"** (§2) | 64.85 developer − 63.46 Homestyler | ⚠️⚠️ **Mixed basis. Withdrawn as a measurement** — the *direction* (new partitions consume floor) is certain, the figure is not |
+> | **24.13 m² combined zone** (§3) | 13.57 + 10.56, **both Homestyler** | ✅ **Reliable**, and it is the number the retractable divider must be sized against |
+> | **"0.60 m² smaller than v0's 24.73"** (§3) | Homestyler vs developer | ⚠️ **Withdrawn.** No conclusion about `v1` being smaller than `v0` survives |
+> | **which room serves which function** (§1) | **label seed coordinates plus the owner's own statements**, not areas | ✅ **Survives intact** — the role-swap reading does not depend on any area |
+> | **15.28 m² in the bunk-bed argument** (§6) | Homestyler | ✅ **Survives** — the area argument there still holds |
+> | **the вентблок 400 × 1140** (§5) | **printed linear dimensions** | ✅ **Reliable** |
+>
+> → **What this page still establishes, unchanged: the role swap, the separability requirement (§3a),
+> the 24.13 m² the Phase 2 concept has to work inside, the вентблок result, and both blockers.**
+> → **What it no longer establishes: any Δ between `v0` and `v1`, and the 1.39 m² partition cost.**
+> **Those become answerable — properly, on one consistent basis — once `v0` has geometry built from the
+> printed chains.** That is the same task §5 already names as the remaining blocker, and this is a second,
+> independent reason to do it.
+
 ---
 
 ## 1. What v1 actually does — and the role swap that the area diff hides

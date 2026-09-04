@@ -117,7 +117,8 @@
       "measured_max_m2": 6.0,
       "measured_spread_m2": 2.5,
       "developer_vs_measured_mean_m2": -0.92
-    }
+    },
+    "_STATUS_2026_09_04": "DEMOTED TO CORROBORATION ONLY. Per the owner's instruction, no figure in this block may drive a geometric decision or validate a reconstruction. It stays because the clear-vs-gross resolution of the туалет is sound and useful, and because these are the published figures - not because the areas describe the built flat. See AREAS_ARE_NOT_EVIDENCE_2026_09_04."
   },
   "dimensions_mm": [
     {
@@ -400,11 +401,82 @@
           1.69,
           1.01
         ]
+      },
+      {
+        "what": "small room, width",
+        "developer_mm": 2825,
+        "developer_chain": "top 1795 + 120 + 910 = 2825; bottom 1120 + 1380 + 150 + 175 = 2825 (chains agree exactly)",
+        "measured_mm": [
+          2780,
+          2790
+        ],
+        "developer_larger_by_mm": [
+          45,
+          35
+        ],
+        "developer_larger_by_pct": [
+          1.62,
+          1.25
+        ],
+        "added": "2026-09-04, third dimension"
       }
     ],
-    "result": "DIRECTION IS UNANIMOUS across all 9 comparisons: the developer plan reads LARGER. Magnitude +30 to +110 mm, i.e. +1.0% to +1.9%, mean +1.5%. This supports the owner's recollection, and it is a comparison nobody had made - the tolerance_summary above measures flat-to-FLAT scatter (0-50 mm), not developer-versus-built.",
-    "unresolved_tension": "!! DO NOT PROMOTE THIS TO A SETTLED FACT. It does NOT reconcile with the area table for the middle room, and that room has no короб, so the clear-vs-gross convention cannot explain it away: developer 16.64 m2 against a measured 16.7-16.8, i.e. the measured AREA is slightly LARGER while the measured LINEAR dimensions are ~1.5% smaller. A ~1.5% linear shrink in both directions would give roughly 16.1. The likely cause is that the developer's printed 16.64 is not the product of its own printed chain - 5790 x 3000 = 17.37 - because the top 1050 band carries a recess and a door alcove that the area figure treats differently. If so, the developer chain and the measured figure may not span the same thing, and the linear comparison is comparing two different lengths.",
+    "result": "DIRECTION IS UNANIMOUS across all 9 comparisons: the developer plan reads LARGER. Magnitude +30 to +110 mm, i.e. +1.0% to +1.9%, mean +1.5%. This supports the owner's recollection, and it is a comparison nobody had made - the tolerance_summary above measures flat-to-FLAT scatter (0-50 mm), not developer-versus-built. !! EXTENDED 2026-09-04 to 12 comparisons across THREE dimensions (middle room length, middle room bottom width, small room width), every one in the same direction, +1.0% to +1.9%.",
+    "unresolved_tension": "!! RESOLVED SAME DAY - see AREAS_ARE_NOT_EVIDENCE_2026_09_04. The tension was between a unanimous linear signal and a contradicting AREA signal. Areas are now known not to be reproducible from the printed geometry except for a plain rectangle, and the middle room - the source of the tension - is one of the rooms that fails to close (17.37 computed against 16.64 printed, +4.4%). The area counter-signal is therefore accounted for, and the linear finding stands. Text kept as written so the reasoning is auditable.",
     "what_would_settle_it": "A field measurement of this flat, available only once the building completes. Failing that, one dimension of a measured plan whose own chain is fully printed and unambiguously spans the same wall-to-wall run as a printed developer chain.",
     "design_consequence_which_holds_either_way": "!! The +/-25 mm SYMMETRIC band understates the downside. Under either reading, size nothing tight from the drawing: assume a room-scale run may come out up to about 100 mm SHORTER than drawn, and never up to 100 mm longer. Practically: no full-wall built-in without a scribe (already the rule), and for a fitted run specify to a site measurement taken after plastering rather than to the plan."
+  },
+  "AREAS_ARE_NOT_EVIDENCE_2026_09_04": {
+    "instruction": "OWNER'S STANDING INSTRUCTION, 2026-09-04: do NOT trust area figures - including the developer's own, on either drawing. Use ONLY linear dimensions as the source of truth for geometry. His reasons: he tried to reconstruct the total from the detailed and the general plan and the numbers did not play out; the areas look like a product of recalculation in CAD; and many walls are of complex shape rather than a straight run, which is where the error gets in.",
+    "test_run_against_the_printed_chains": {
+      "method": "For every room where BOTH the area and enough of the linear chain are printed on the detailed plan, compare the printed area with the product of the printed dimensions.",
+      "results": [
+        {
+          "room": "туалет",
+          "shape": "plain rectangle",
+          "chain_mm": [
+            1140,
+            1090
+          ],
+          "product_m2": 1.243,
+          "printed_m2": 1.24,
+          "delta_pct": 0.2,
+          "closes": true
+        },
+        {
+          "room": "жилая (малая)",
+          "shape": "door alcove plus 175/150 offsets",
+          "chain_mm": [
+            2825,
+            3400
+          ],
+          "product_m2": 9.605,
+          "printed_m2": 9.36,
+          "delta_pct": 2.6,
+          "closes": false
+        },
+        {
+          "room": "жилая (средняя)",
+          "shape": "recess plus door alcove",
+          "chain_mm": [
+            5790,
+            3000
+          ],
+          "product_m2": 17.37,
+          "printed_m2": 16.64,
+          "delta_pct": 4.4,
+          "closes": false
+        }
+      ],
+      "finding": "THE OWNER'S ACCOUNT IS CONFIRMED, AND THE PATTERN IS EXACTLY HIS EXPLANATION: the ONE plain rectangle closes to 0.2%; both rooms with any shape complexity are out by 2.6% and 4.4%. So a printed area cannot be reproduced from the printed geometry of the same room except in the trivial case."
+    },
+    "rules": [
+      "GEOMETRY IS BUILT FROM LINEAR DIMENSIONS ONLY. Never derive, infer or adjust a wall position from an area.",
+      "NEVER VALIDATE A RECONSTRUCTION AGAINST A PRINTED AREA. When v0 geometry is built from the chains, its computed room areas WILL differ from the printed ones, and will not sum to 69.09. THAT IS EXPECTED, NOT A BUG - do not 'fix' the geometry to hit the published figure.",
+      "USE CHAIN CLOSURE AS THE VALIDATOR INSTEAD. Where a room prints two parallel chains they must agree. Demonstrated on the small room: top 1795+120+910 = 2825 and bottom 1120+1380+150+175 = 2825, exact. That is a real check on the reading, and it is the one to use.",
+      "AREAS REMAIN THE PUBLISHED/NOMINAL FIGURES and keep their existing roles - the 69.09 total, the sale documentation, the clear-vs-gross comparison with the БТИ-style plans. They are what the developer PUBLISHES, not a description of the building. Keep them; do not let them drive anything geometric."
+    ],
+    "consequence_for_the_open_tension": "!! THIS SETTLES developer_vs_measured_linear_2026_09_04, WHICH WAS LEFT OPEN THE DAY BEFORE. That entry recorded a unanimous linear signal (developer reads +1.0% to +1.9% larger, 9 of 9) against a contradicting AREA signal (measured areas read slightly larger), and declined to promote the finding because the two disagreed. The contradicting side is now known to be the unreliable one, and the middle room - the very room whose area caused the tension - is one of the two that fails to close. So the linear bias stands on the linear evidence, and it gains a THIRD independent instance: small room width, developer 2825 against measured 2780-2790, i.e. +35 to +45 mm (+1.25% to +1.62%), the same magnitude and direction as the other two. Twelve comparisons across three dimensions, all one way.",
+    "confidence": "Still not a field measurement of this flat, and none is possible until the building completes (~2026-11 to 2026-12). But the counter-evidence is explained rather than outstanding, so this moves from 'unresolved tension, do not promote' to 'supported by 12 of 12 linear comparisons, with the area counter-signal accounted for'."
   }
 }
