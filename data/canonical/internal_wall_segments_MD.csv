@@ -1,0 +1,25 @@
+segment_id,room_code,kind,developer_plan_mm,height,length_min_mm,length_max_mm,source_of_min_max,notes
+MD-01,MD,wall,1050,full,,,,R4 COLUMN face (250 thick) — NW corner to the step
+MD-02,MD,return,175,full,,,,⚠ THE STEP 250→75. The plan PRINTS 175 right here — that is this return face
+MD-03,MD,wall,3250,full,,,,G8 partition face (75 thick) — the main span
+MD-04,MD,return,175,full,,,,"⚠ the step back out, 75→250"
+MD-05,MD,wall,1490,full,,,,R8 face — to the SW corner
+MD-06,MD,wall,600,full,,,,SW corner to the window jamb
+MD-07,MD,reveal,,full,,,,"window jamb, WEST — depth = wall thickness"
+MD-08,MD,sill,1800,⚠ sill height?,,,,"BAND BELOW THE WINDOW — full width, height = sill height"
+MD-09,MD,head,1800,⚠ head height?,,,,"BAND ABOVE THE WINDOW — full width, height = 2500 − head level"
+MD-10,MD,reveal,,full,,,,"window jamb, EAST"
+MD-11,MD,wall,600,full,,,,window jamb to the SE corner
+MD-12,MD,wall,1490,full,,,,R9 face — SE corner to the step
+MD-13,MD,return,175,full,,,,step 250→75
+MD-14,MD,wall,3250,full,,,,G7 partition face — the main span
+MD-15,MD,return,175,full,,,,step 75→250
+MD-16,MD,wall,1050,full,,,,R5 COLUMN face — to the NE corner
+MD-17,MD,reveal,,full,,,,"RECESS, east jamb"
+MD-18,MD,wall,1915,full,,,,RECESS back face (G6) — ⚠ is 1915 the opening or the back? they differ by 2 jamb depths
+MD-19,MD,reveal,,full,,,,"RECESS, west jamb"
+MD-20,MD,head,1915,⚠ recess head height?,,,,"RECESS head band, if the recess is not full height"
+MD-21,MD,wall,,full,,,,⚠ PIER between the recess and the door — is there one? not readable at this resolution
+MD-22,MD,reveal,,full,,,,"DOOR, east jamb"
+MD-23,MD,head,910,⚠ 2500 − 2070 = 430?,,,,DOOR head band. The vault holds a 2070 opening height rule
+MD-24,MD,reveal,,full,,,,"DOOR, west jamb — to the NW corner"

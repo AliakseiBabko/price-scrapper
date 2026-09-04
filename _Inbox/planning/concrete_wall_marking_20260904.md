@@ -283,6 +283,59 @@ for his instruction, because the frame is precisely the thing that cannot be mov
 layout has to work around. **Q4 because G5 is the living room's own wall line, and 200 versus 250 moves it by
 50 mm** — twice the ±25 mm tolerance band, on the wall the Phase-2 combined zone is measured to.
 
+## ✅ SEGMENTATION RULES — the owner's, and one of them decodes the plan
+
+**He redirected the priority: INTERNAL CLEAR DIMENSIONS are the deliverable and thickness is only a
+consequence, because what he needs is internal SURFACE AREA for the BIM model. And the SEGMENTATION is to be
+agreed before any length is entered**, with **min/max per segment** drawn from his four sources (the developer
+plan plus three as-built comparables) so the variation is captured rather than a single number guessed.
+
+**The rules, as stated:**
+
+1. **Split at every CORNER** — where a wall turns, the segment ends.
+2. **Split at every THICKNESS CHANGE, and record the STEP as its own face.** His worked example: a 250 mm
+   concrete column meeting a 75 mm partition gives *“two corners — thinner wall, thicker wall, and a segment
+   between them”.
+3. **A WINDOW IS A CAVITY, so it yields FOUR segments, not one gap:** wall left, wall right, **the band ABOVE**,
+   and **the band BELOW**. *“We need measurements from the left to the right, above and below the window block.”*
+4. **A near-full-height DOOR** yields left, right and a head band — no band below. **The лоджия opening is a
+   door almost floor-to-ceiling PLUS an adjacent window block that is not to the floor** — so it is both cases
+   at once.
+5. **Both faces of an internal wall are separate segments** and differ in length.
+
+### ✅✅ RULE 2 DECODES A FIGURE ALREADY PRINTED ON THE PLAN
+
+**The columns are 250 and the partitions 75. 250 − 75 = 175 — and the plan PRINTS `175` at exactly the four
+places where a column meets a partition.** So **the step faces were already dimensioned and nobody had read
+them as such.**
+
+→ **✅ AND IT ANSWERS TWO OF THE THICKNESS QUESTIONS FROM THE PLAN ITSELF, without needing the owner: the
+frame is 250 (Q1) and the middle-room partitions are 75 (Q6).** The printed 175 only works arithmetically if
+both are true, which is a stronger check than either figure alone.
+
+### The worked example, to agree before the rest is generated
+
+**`_assets/middle_room_segments.png` and `data/canonical/internal_wall_segments_MD.csv` — the middle room
+under these rules: 24 segments.** It was chosen because it exercises every rule: four corners, four thickness
+steps, a door, a recess and a window. **Once the method is agreed, the same treatment goes to all 8 rooms —
+on this basis the flat will run to roughly 120–150 segments.**
+
+Segment kinds now carried: `wall`, `return` (a thickness step), `reveal` (an opening jamb), `sill`, `head`.
+
+### ⚠️ What the middle room still needs
+
+| | |
+| :--- | :--- |
+| **a** | **SILL and HEAD heights of the window.** Without them segments 08 and 09 have no area |
+| **b** | **DOOR head band** — the vault holds a 2070 mm opening rule, so 2500 − 2070 = **430**? |
+| **c** | **Is the recess full height?** If not it has a head band too |
+| **d** | **Is 1915 the recess OPENING or its BACK face?** They differ by two jamb depths |
+| **e** | **Is there a pier between the recess and the door?** Not readable at 879 px |
+| **f** | Reveal depths = the wall thickness at each opening — falls out of the thickness sheet |
+
+→ **(a) is the one that generalises: every window in the flat needs a sill and head height, and they are
+probably the same throughout. Two numbers unlock every window band in the schedule.**
+
 ## ⚠️ What still needs the owner, before promotion to a constraint
 
 1. **Is the green perimeter a PARTY WALL rather than an external one?** R2/**G5**/R7 on the right, G2/R3/**G3**
