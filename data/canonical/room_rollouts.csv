@@ -1,0 +1,14 @@
+room_id,seq,face_id,element,kind,direction,length_mm,height_mm,contains_opening,source,notes
+KL,1,KL-01,G3 (+ a little of R3),wall_face,E,3445,2500,,pixel read of the basic plan,"UNCERTAIN. The R3|G3 split is undimensioned, so this face crosses it. See the east-west residual in the closure note."
+KL,2,KL-02,R2,wall_face,S,1675,2500,,printed on the detailed plan,
+KL,3,KL-03,G5,wall_face,S,4035,2500,,printed on the detailed plan,
+KL,4,KL-04,R7,wall_face,S,1750,2500,,printed on the detailed plan,"KL-02 + KL-03 + KL-04 = 7460, the longest single run in the flat. Confirmed by floor plan_1 at 7460 exactly and floor plan_3 at 7450."
+KL,5,KL-05,MC,wall_face,W,3315,2500,O3,"printed, = 1800 + 855 + 660",the window wall. O3 1800 wide sits in it.
+KL,6,KL-06,R9,wall_face,N,820,2500,,"printed, owner 2026-09-04",
+KL,7,KL-07,R9 -> G7,step,W,175,2500,,"DERIVED, 250 - 75","the concrete column projecting past the 75 partition that continues its line. A real strip of wall to finish, not a notional corner."
+KL,8,KL-08,G7,wall_face,N,3250,2500,,printed on the detailed plan,the divider between this space and the middle room.
+KL,9,KL-09,G7 -> R5,step,W,175,2500,,"DERIVED, 250 - 75",
+KL,10,KL-10,R5,wall_face,N,1050,2500,,printed on the detailed plan,
+KL,11,KL-11,O10,opening,N,1455,2500,O10,DERIVED from the owner’s printed 2340 divider chain,"the passway from the прихожая. Full height, so it removes this strip from the elevation entirely."
+KL,12,KL-12,V2,shaft_face,N,685,2500,,"measured, 400 wide standard",a finishable face that is NOT a wall.
+KL,13,KL-13,P2,plumbing_face,N,200,2500,,"owner 2026-09-04, 400 x 200","the plumbing block face. Also not a wall, and it must stay accessible."
