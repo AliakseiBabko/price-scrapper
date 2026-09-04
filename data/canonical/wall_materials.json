@@ -10,7 +10,7 @@
     "narrative": "_Inbox/planning/concrete_wall_marking_20260904.md",
     "building_spec": "data/canonical/building_spec.json"
   },
-  "status": "Two-level model: 27 WALLS carrying 9 OPENINGS. Thicknesses complete except the G1a/G1b extents. Open: sill/head heights for O2/O3, the G1 redraw, M6b at 200, then LENGTHS.",
+  "status": "WALL MODEL CLOSED: 26 walls, 9 openings, thicknesses and insulation complete. Open: the two window sill/head heights, and the lengths. ⚠ And a pass over the DETAILED plan for walls the basic plan omits.",
   "the_warm_perimeter": {
     "owner_concept": "The owner's own framing, and it is the organising idea: there is a WARM PERIMETER - the thermal envelope of the heated flat - and it is UNIFORM in construction all the way round.",
     "owner_words": "«[M1] is external wall, and it is uniform, the same thickness across all the warm perimeter. M1 is the external wall with all the insulation, because [the лоджия] was envisioned as a cold area. It's not heated, it's outside of this external wall perimeter.»",
@@ -345,7 +345,7 @@
       "level_2_opening": "lives ON a wall; width plus sill and head heights. data/canonical/wall_openings.csv",
       "level_3_finish_area": "DERIVED, never typed: wall length x height, minus openings, plus the reveal, sill and head bands. !! This is the point of the two-level split - the bands are CALCULATED once the sill and head heights are known, so the ~120 finish segments never have to be hand-listed."
     },
-    "counts": "27 walls, 9 openings. 7 of 9 openings have a host wall; O5 and O8 correctly have none.",
+    "counts": "26 walls, 9 openings. 8 of 9 openings hosted; only O5 correctly has none.",
     "open": [
       "O6, the 9.36-room door, still has no wall - and that wall is the other candidate for what the owner called G4e.",
       "Sill and head heights for O2 and O3 - two numbers that unlock every window band.",
@@ -374,6 +374,26 @@
       "provisional": "!! THE POSITIONS AND EXTENTS ARE NOT SETTLED - he is re-reading the detailed drawing and will redraw. O7, the туалет door, is provisionally hosted in G1b and may move."
     },
     "G4d_confirmed": "Runs G4a to R4 with O6 in it. (The owner said \"between R2 and G4a\"; read as R4, since R2 is at the far end of the flat by the кухня. Flagged rather than silently corrected.)",
-    "span_line_presentation": "The owner approved drawing a wall as a LINE running THROUGH its opening, since it shows the wall is one piece joined above the opening. Applied to MA, G4d, MB and MC. O9 is drawn DASHED instead, to say there is no wall there at all."
+    "span_line_presentation": "The owner approved drawing a wall as a LINE running THROUGH its opening, since it shows the wall is one piece joined above the opening. Applied to MA, G4d, MB and MC. O9 is drawn DASHED instead, to say there is no wall there at all.",
+    "final_answers_2026_09_04": {
+      "M6b": "200 mm CONFIRMED - no longer provisional.",
+      "G1": "120 mm - the туалет|прихожая wall, which is the SECOND of the two blocks the owner outlined in red on _Inbox/_Visual_Drop/fllor_plan_detailed_additional_section.jpg.",
+      "G1a_absorbed": "The 250 block east of the туалет corner is a CONTINUATION OF G2. So the common-corridor wall is ONE 250 mm wall running R1a to R3, and the ENTRANCE DOOR O8 SITS IN IT. What I had called G1a is gone.",
+      "result": "O8 finally has a host. Only O5 is hostless now, and correctly so."
+    },
+    "CAUTION_the_basic_plan_omits_a_wall": {
+      "finding": "!!! The 250 mm block east of the туалет corner is DRAWN ON THE DETAILED PLAN AND MISSING FROM THE BASIC PLAN.",
+      "why_it_matters": "!! EVERY colour markup - and therefore this entire wall model - was built on the BASIC plan, because that is the plan the owner marked. We now know the basic plan can OMIT A WALL ENTIRELY. So it is NOT a complete wall inventory, and the DETAILED plan is authoritative for a wall's EXISTENCE, not only for its dimensions.",
+      "it_also_explains": "Why the owner said G1 \"looks a bit different on the detailed drawing... it looks like a section is missing here\". It was genuinely two blocks and the basic plan showed only one.",
+      "action": "!! ONE PASS OVER THE DETAILED PLAN FOR OTHER OMISSIONS, BEFORE ANY LENGTH IS TRUSTED. Both plans agree on layout, so a missing wall is the failure mode to look for, not a moved one."
+    },
+    "state": {
+      "thicknesses": "COMPLETE. Every one is either stated by the owner or derived from the printed 175 step. None is left as my own inference.",
+      "insulation": "COMPLETE. 70 on aerated block, 150 on exposed concrete, none on M2.",
+      "open": [
+        "SILL and HEAD heights for O2 and O3 - two numbers, after which every band computes.",
+        "LENGTHS - 10 of 26 walls already carry a printed figure."
+      ]
+    }
   }
 }
