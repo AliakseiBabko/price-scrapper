@@ -558,6 +558,21 @@
     "still_unknown": "R3 has no length at all. The printed \"≥2 115\" at the top gives 250 + 2115 = 2365 against a pixel run of 2682, and the ≥ sign means it is a clearance, not a wall run. G4b’s length stays RETRACTED - the 1140 was the туалет’s width, not the wall’s.",
     "the_one_measurement_that_would_close_the_most": "!! The туалет’s INTERNAL WIDTH. Its depth is now 1200 from the G4C chain; at the printed 1140 the gross area is 1.368 m², LESS than the 1.42 CLEAR the plan prints, which is impossible. Hypothesis: the 1140 is the ВЕНТБЛОК’s width and the room is ~1390. That single number closes R1a, G4b, V1 and the 1.24-vs-1.42 question together.",
     "on_splitting_O4a_from_O4b": "The owner asked whether the split is worth keeping when only the pair is measured. Kept in the data, dropped from the drawing: one of the two is a door (full height, no sill band) and one a window (sill band below, head band above), and Level-3 finish area is DERIVED from that distinction - merging them would lose it. But both widths stay blank until measured, so nothing can depend on a split that was mine rather than his.",
-    "drawing": "_assets/wall_model_v14.png"
+    "drawing": "_assets/wall_model_v15.png",
+    "R3_three_estimates": "R3 is the only wall with no length. Three estimates disagree: the printed ≥2115 gives 250 + 2115 = 2365, but the ≥ makes it a clearance and therefore a MINIMUM; my pixel run gives 2682; top-edge closure R1a + G2 + R3 + G3 = 9799 gives 2849. Spread ~480 mm. One reading settles it."
+  },
+  "length_convention_2026_09_04": {
+    "rule": "!! A wall segment’s length_mm is the length of ITS OWN SOLID, face to face where it lands on its neighbours. NEVER an internal clear dimension with an adjoining wall’s thickness added on.",
+    "why_it_is_written_down": "Owner correction, 2026-09-04. I had recorded R2 = 1675 + the 250 top wall = 1925, treating the printed internal figure as if it needed the neighbour added. His words: \"there is a difference when we are talking about external dimensions and internal dimensions, because we have the thickness of the wall. For R2 you put 1925 while the internal dimension will be 1675.\" Corrected to R2 = 1675.",
+    "it_was_not_an_isolated_slip": "!! The same error was in G4a, and it explains a discrepancy I had been carrying as an unexplained junction. I had drawn G4a starting inside the туалет rather than at G4b, giving a drawn extent of 3837 against a derived 3570 - a 267 mm gap I had blamed on an undimensioned junction, the same excuse I used for R1a|G2. It was my own convention error twice over.",
+    "what_the_correction_bought": "Fixing it closed the WEST EDGE end to end: R1b 1200 (= the туалет’s depth) + G4b’s 120 thickness + G4a 3570 + R6 1750 = 6640, against a pixel run of the whole west edge of 6676 - agreeing to 36 mm. So R1b, G4a and R6 now corroborate one another, and G4a stops being flagged. A single owner correction converted a flagged derivation into a confirmed one.",
+    "lesson": "When a derived figure disagrees with the drawing by a round-ish amount close to a wall thickness, suspect the CONVENTION before inventing a junction defect. I reached for \"the junction is undimensioned\" twice; once it was true (R1a|G2), once it was my own arithmetic."
+  },
+  "rc_columns_are_not_flush_with_the_facade_2026_09_04": {
+    "status": "owner assertion, reconciling his own two figures",
+    "finding": "R6, R7, R8 and R9 are all 1750 mm long - the owner’s belief, explicitly not a direct measurement. R6 and R7 are printed at 1750. R8 and R9 are printed as 1490, which is the free end to MB’s INNER face; 1490 + 300 (MB) = 1790, the figure he remembered.",
+    "the_40_mm": "The 40 mm between 1750 and 1790 is the RC column NOT finishing flush with the block façade - it stops ~2 cm short of MB’s outer face, and the gap is taken up under the 70 mm insulation layer. This is his own explanation, offered before I raised the discrepancy. My drawn extents (R8 1762, R9 1752) favour 1750 but cannot resolve 40 mm.",
+    "why_it_matters": "!! It is a 40 mm step on the one element class that already needs 150 mm of insulation as a thermal-bridge treatment. Insulation continuity across that step is a detail to specify, not assume - and it is the kind of thing that is invisible once the façade is rendered.",
+    "R2_is_not_in_this_family": "R2 = 1675, printed, 75 mm shorter than the others. Not grouped with them."
   }
 }
