@@ -24,6 +24,20 @@ two illustrative drafts.
 | Homestyler CAD export | `data/cad/dxf/20260727-ZK Dubravinskiy.dxf` | **Wall geometry of the redesign** at millimetre precision |
 | Three as-built comparables | `_Inbox/_Visual_Drop/floor plan_1..3.jpg` | **How much the built flat will differ** |
 
+> [!CAUTION]
+> **⚠️⚠️ THE BASIC PLAN OMITS AT LEAST ONE WALL THAT THE DETAILED PLAN DRAWS. Established 2026-09-04.**
+> A **250 mm aerated-block section east of the туалет corner**, part of the common-corridor wall carrying
+> the entrance door, is drawn on `fllor_plan_detailed.jpeg` and **absent from `floor_plan_basic.jpg`.**
+>
+> **This matters more than one wall.** The owner’s colour markups — and therefore the whole wall model in
+> `data/canonical/wall_materials.json` — were built on the **basic** plan, because that is the one he marked.
+> → **So the basic plan is NOT a complete wall inventory. The DETAILED plan is authoritative for whether a
+> wall EXISTS, not merely for its dimensions.** The two agree on layout, so **a missing wall is the failure
+> mode to look for — not a moved one.**
+>
+> It also explains why the owner found `G1` puzzling: it is genuinely **two blocks, 250 and 120**, and the
+> basic plan showed only one of them.
+
 Schedules extracted into
 [`data/canonical/room_schedules.json`](../data/canonical/room_schedules.json).
 

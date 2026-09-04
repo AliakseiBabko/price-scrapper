@@ -9,20 +9,19 @@ R6,concrete,250,,,,,,left wall by the 9.36 room
 R7,concrete,250,,,,,,right wall by the living room
 R8,concrete,250,150,1490,,,,flat | лоджия — AT a façade step
 R9,concrete,250,150,1490,,,,AT the other façade step
-G1a,aerated_block,250,,,,,,⚠ SPLIT FROM G1 on the owner’s note — one section is 250. POSITIONS PROVISIONAL: he is re-reading the detailed drawing and will redraw
-G1b,aerated_block,120,,,,,,⚠ SPLIT FROM G1 — the other section is 120. POSITIONS PROVISIONAL. Carries O7
-G2,aerated_block,250,,,,,,top wall to the COMMON CORRIDOR
+G1,aerated_block,120,,,,,,"✅ туалет | прихожая, 120 — the SECOND red block on the detailed plan. Carries O7"
+G2,aerated_block,250,,,,,,"✅✅ EXTENDED — the COMMON-CORRIDOR wall, 250, running R1a → R3 and CARRYING O8, the entrance door. Absorbs what I had called G1a. ⚠ its eastern 250 block is drawn on the DETAILED plan and OMITTED from the basic one"
 G3,aerated_block,250,,3315,,,,top wall to the FLAT ABOVE
 G4a,aerated_block,250,,,,,,party wall to the neighbouring flat — G4d’s west end
 G4b,aerated_block,120,,1140,,,,туалет | ванная
 G4C,aerated_block,120,,,,,,"MERGED G4c + G4e, one plane. Carries O1"
-G4d,aerated_block,120,,,,,,"✅ runs G4a → R4, with opening O6 in it (owner: “situated between R4 and G4a with the opening O6”)"
+G4d,aerated_block,120,,,,,,"runs G4a → R4, carrying O6"
 G5,aerated_block,250,,,,,,the BLOCK-JOINT leaf
 G6,aerated_block,75,,1915,,,,middle-room recess back wall
 G7,aerated_block,75,,3250,,,,"middle room, right partition"
 G8,aerated_block,75,,3250,,,,"middle room, left partition"
-MA,external,300,70,,,,,"M1 + M7, one wall x 21 → 319. Carries O4"
+MA,external,300,70,,,,,"M1 + M7, one wall x 21 → 319, carrying O4"
 M2,loggia_enclosure,200,0,,,,,лоджия | neighbour’s лоджия — NO insulation. O9’s west end
-MB,external,300,70,,,,,"M6a + M5, one plane y 890–925. Carries O2"
-MC,external,300,70,,,,,"M3 + M4, one plane y 822–858. Carries O3"
-M6b,loggia_enclosure,200,70,,,,,лоджия run ⚠ 200 provisional. O9’s east end
+MB,external,300,70,,,,,"M6a + M5, one plane, carrying O2"
+MC,external,300,70,,,,,"M3 + M4, one plane, carrying O3"
+M6b,loggia_enclosure,200,70,,,,,✅ 200 CONFIRMED — no longer provisional. O9’s east end

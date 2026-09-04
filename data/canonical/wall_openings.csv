@@ -3,8 +3,8 @@ O1,door,G4C,,,,ванная door
 O2,window,MB,1800,,,middle-room window ⚠ needs SILL + HEAD heights
 O3,window,MC,1800,,,living-room window ⚠ needs SILL + HEAD heights
 O4,door+window,MA,,,,лоджия door + adjacent window block
-O5,door,⚠ spans R4 → G6,910,,,middle-room door — no single host
+O5,door,⚠ spans R4 → G6,910,,,middle-room door — correctly hostless
 O6,door,G4d,910,,,9.36-room door
-O7,door,G1b,,,,туалет door ⚠ host provisional pending the G1 redraw
-O8,door,⚠ spans R1a → G2,1010,,,ENTRANCE door — no single host
-O9,glazing,M2 → M6b,,,,"✅✅ ADDED — the ЛОДЖИЯ GLAZING the owner had not yet named. FULL HEIGHT and FULL LENGTH, floor to ceiling, no cladding, spanning M2 to M6b. ⚠ THE ONLY OPENING IN THE FLAT WITH NO WALL ABOVE OR BELOW IT — so no head band and no sill band. Faces DUE SOUTH"
+O7,door,G1,,,,✅ туалет door — host settled
+O8,door,G2,1010,,,"✅✅ ENTRANCE door, 1010 — HOST FOUND: it sits IN G2"
+O9,glazing,M2 → M6b,,,,"лоджия glazing — full height AND full length, no wall above or below"
