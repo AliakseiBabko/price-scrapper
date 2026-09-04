@@ -275,7 +275,7 @@
     "dimension_spread_min_mm": 0,
     "dimension_spread_max_mm": 50,
     "dimension_spread_median_mm": 20,
-    "guidance": "Wall-to-wall dimensions of the same nominal wall differ by 0-50 mm between flats (median 20 mm). Treat any dimension in the model as nominal +/- 25 mm, and never design a fit that depends on less than about 30 mm of slack.",
+    "guidance": "Wall-to-wall dimensions of the same nominal wall differ by 0-50 mm between flats (median 20 mm). Treat any dimension in the model as nominal +/- 25 mm, and never design a fit that depends on less than about 30 mm of slack. !! QUALIFIED 2026-09-04: that band is flat-to-flat SCATTER and is symmetric. Separately, the developer plan reads LARGER than all three measured flats on both dimensions testable from printed chains (+1.0% to +1.9%, 9 of 9 comparisons) - so the risk is asymmetric. Size for a room up to ~100 mm SHORTER than drawn. See developer_vs_measured_linear_2026_09_04, including its unresolved tension with the area table.",
     "area_guidance": "Room areas agree within 0.1-0.3 m2 across the comparables; the totals differ by up to 2.4 m2 (68.3 to 70.7) and that is dominated by how the loggia is counted, not by the rooms.",
     "biggest_outlier": "RESOLVED. The туалет difference is a clear-vs-gross convention (developer deducts the вентблок, measured plans do not): 1140 x 1090 clear + 1140 x 490 вентблок = 1.80 m2, which two of three measured flats print. kv109's smaller 1.6 m2 is a floor effect - flats above the 10th floor carry a second ventilation section. This flat is on the 4th floor, so the single-section geometry and the larger areas apply.",
     "use_which_comparables": "kv53 and Минина 6 for this flat. kv109 is a different sub-type; keep it as evidence of the floor effect, not as a sample of the expected size."
@@ -340,5 +340,71 @@
       "note": "Worse fit, but the residual is a thin fringe along every wall - a scale/offset error, not a geometric difference. The basic plan is a smaller, simpler drawing and registers less precisely."
     },
     "use": "Register against the DETAILED plan even though the BASIC plan was the tracing base in Homestyler: it is the more accurate target and the two describe the same flat."
+  },
+  "source_provenance_2026_09_04": {
+    "statement": "Owner, 2026-09-04: these five images are ALL the geometry that exists. fllor_plan_detailed.jpeg and floor_plan_basic.jpg are the DEVELOPER's plans - what is supposed to be built. 'floor plan_1/2/3.jpg' are MEASURED plans of real, completed flats of a similar configuration in the same series.",
+    "no_further_data_until": "the building is completed - owner's estimate 2-3 months from 2026-09-04, i.e. roughly 2026-11 to 2026-12. Until then NOTHING can be field-verified and every layout decision rests on design intent.",
+    "mirroring": "!! A COMPARABLE MAY BE MIRRORED. The series is built in left- and right-handed variants, so a measured plan can be the horizontal flip of this flat. The LAYOUT is the same; the HANDEDNESS may not be. Consequence: a comparable's dimension may be compared with the same NAMED dimension of this flat, but a comparable's POSITION must never be mapped onto this flat without first establishing handedness. Not previously recorded anywhere.",
+    "precision_limit": "Owner: the measured plans are good to about a CENTIMETRE, not a millimetre. Consistent with the +/-25 mm band already derived here, and a reason not to read significance into any single 10 mm difference.",
+    "method_the_owner_endorses": "Take the developer's detailed plan as the starting point, and use the three measured plans to bound the likely error on any dimension by comparing the same named dimension across them."
+  },
+  "developer_vs_measured_linear_2026_09_04": {
+    "question": "The owner states the real flats come out slightly SMALLER than the developer's plan. The rooms_m2 table above appears to say the opposite - measured AREAS read larger. Both were tested.",
+    "method": "Two developer dimensions whose chains are fully PRINTED on the detailed plan, compared with the same named dimension in all three measured plans. 9 comparisons.",
+    "comparisons": [
+      {
+        "what": "middle room, internal length",
+        "developer_mm": 5790,
+        "developer_chain": "1050 + 3250 + 1490 (all printed)",
+        "measured_mm": [
+          5700,
+          5730,
+          5690,
+          5680,
+          5710,
+          5680
+        ],
+        "developer_larger_by_mm": [
+          90,
+          60,
+          100,
+          110,
+          80,
+          110
+        ],
+        "developer_larger_by_pct": [
+          1.58,
+          1.05,
+          1.76,
+          1.94,
+          1.4,
+          1.94
+        ]
+      },
+      {
+        "what": "middle room, bottom width",
+        "developer_mm": 3000,
+        "developer_chain": "600 + 1800 + 600 (all printed)",
+        "measured_mm": [
+          2970,
+          2950,
+          2970
+        ],
+        "developer_larger_by_mm": [
+          30,
+          50,
+          30
+        ],
+        "developer_larger_by_pct": [
+          1.01,
+          1.69,
+          1.01
+        ]
+      }
+    ],
+    "result": "DIRECTION IS UNANIMOUS across all 9 comparisons: the developer plan reads LARGER. Magnitude +30 to +110 mm, i.e. +1.0% to +1.9%, mean +1.5%. This supports the owner's recollection, and it is a comparison nobody had made - the tolerance_summary above measures flat-to-FLAT scatter (0-50 mm), not developer-versus-built.",
+    "unresolved_tension": "!! DO NOT PROMOTE THIS TO A SETTLED FACT. It does NOT reconcile with the area table for the middle room, and that room has no короб, so the clear-vs-gross convention cannot explain it away: developer 16.64 m2 against a measured 16.7-16.8, i.e. the measured AREA is slightly LARGER while the measured LINEAR dimensions are ~1.5% smaller. A ~1.5% linear shrink in both directions would give roughly 16.1. The likely cause is that the developer's printed 16.64 is not the product of its own printed chain - 5790 x 3000 = 17.37 - because the top 1050 band carries a recess and a door alcove that the area figure treats differently. If so, the developer chain and the measured figure may not span the same thing, and the linear comparison is comparing two different lengths.",
+    "what_would_settle_it": "A field measurement of this flat, available only once the building completes. Failing that, one dimension of a measured plan whose own chain is fully printed and unambiguously spans the same wall-to-wall run as a printed developer chain.",
+    "design_consequence_which_holds_either_way": "!! The +/-25 mm SYMMETRIC band understates the downside. Under either reading, size nothing tight from the drawing: assume a room-scale run may come out up to about 100 mm SHORTER than drawn, and never up to 100 mm longer. Practically: no full-wall built-in without a scribe (already the rule), and for a fitted run specify to a site measurement taken after plastering rather than to the plan."
   }
 }

@@ -58,10 +58,21 @@ Extracted, so nobody re-reads the images:
 2. **Usable floor in the туалет is ~1.2–1.4 m², not 1.8.** Anything sized against
    the bigger number will not fit.
 
-3. **±25 mm.** Wall-to-wall dimensions of the same nominal wall differ by
-   0–50 mm (median 20) across three as-built comparables. Treat every dimension
-   as nominal ±25 mm and **never design a fit needing less than ~30 mm of
-   slack** — no full-wall built-in without a scribe.
+3. **±25 mm, but the risk is ASYMMETRIC.** Wall-to-wall dimensions of the same
+   nominal wall differ by 0–50 mm (median 20) across three as-built
+   comparables — that is flat-to-flat **scatter**. Separately, **the developer
+   plan reads LARGER than all three of them on both dimensions testable from
+   printed chains: +1.0% to +1.9%, 9 of 9 comparisons, mean +1.5%** (measured
+   2026-09-04). So: treat every dimension as nominal ±25 mm, **never design a
+   fit needing less than ~30 mm of slack** — no full-wall built-in without a
+   scribe — and **size for a room up to ~100 mm SHORTER than drawn, never
+   longer.** ⚠️ The bias is not settled: it conflicts with the measured AREAS
+   for the same room. See `developer_vs_measured_linear_2026_09_04` in
+   `data/canonical/dimension_tolerance.json`.
+   ⚠️ **The comparables may be MIRRORED** — left/right variants of the series.
+   Compare a NAMED dimension freely; never map a comparable’s POSITION onto
+   this flat without establishing handedness. And no new geometry exists until
+   the building completes (owner: ~2026-11 to 2026-12).
 
 4. **Ventilation depends on the floor; plumbing does not.** Above the 10th floor
    a flat carries two ventilation sections instead of one, taking extra area.

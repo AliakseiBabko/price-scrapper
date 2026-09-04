@@ -65,6 +65,54 @@ So: **treat every dimension in the model as nominal ±25 mm, and never design a
 fit that depends on less than about 30 mm of slack.** That rules out, for
 example, a built-in that spans a whole wall with no scribe.
 
+> [!WARNING]
+> **⚠️⚠️ QUALIFIED 2026-09-04 — THAT BAND IS SYMMETRIC AND THE REAL RISK IS NOT.**
+> The 0–50 mm above is scatter **between the three measured flats**. Nobody had compared the
+> **developer's** plan against **any** of them linearly. Done now, on the only two developer
+> dimensions whose chains are **fully printed**:
+>
+> | dimension | developer | measured (3 flats) | developer larger by |
+> | :--- | ---: | ---: | ---: |
+> | middle room, internal length | **5790** (1050+3250+1490) | 5680–5730 | **+60 to +110 mm** (+1.0–1.9%) |
+> | middle room, bottom width | **3000** (600+1800+600) | 2950–2970 | **+30 to +50 mm** (+1.0–1.7%) |
+>
+> **The direction is unanimous — 9 of 9 comparisons — mean +1.5%, and it confirms the owner's
+> own recollection that the built flats come out a little smaller than the drawing.**
+>
+> ⚠️ **It is NOT a settled fact, and the reason is recorded rather than smoothed: it does not
+> reconcile with the area table for that same room, which has no короб, so the clear-vs-gross
+> convention cannot explain it.** Measured *area* reads slightly larger (16.7–16.8 against 16.64)
+> while measured *linear* reads ~1.5% smaller. The likely cause is that the developer's 16.64 is
+> not the product of its own printed chain — 5790 × 3000 = 17.37 — because the top 1050 band
+> carries a recess and a door alcove counted differently, in which case the two figures may not
+> span the same run. **Settling it needs a field measurement, which is not available until the
+> building completes.**
+>
+> ✅ **The design consequence holds under either reading, and it is the part to act on: size for
+> a room up to ~100 mm SHORTER than drawn, never longer.** For any fitted run, specify to a site
+> measurement taken after plastering — not to the plan.
+
+## ⚠️⚠️ The comparables may be MIRRORED — left- and right-handed variants
+
+**Owner, 2026-09-04, and this was recorded nowhere:** the series is built in **left and right
+variants**, so a measured plan may be the **horizontal flip** of this flat. The *layout* is the
+same; the *handedness* may not be.
+
+- ✅ **Comparing a comparable's dimension with the same NAMED dimension of this flat is fine** —
+  which is exactly what the table above and `dimension_tolerance.json` do.
+- ⚠️ **Mapping a comparable's POSITION onto this flat is not**, until handedness is established.
+  Anything that reads a comparable spatially — "the risers are on this side", "the вентблок sits
+  left of the door" — must resolve the flip first, or it will be confidently backwards.
+- **The measured plans are good to about a centimetre, not a millimetre** (owner) — so no single
+  10 mm difference between them carries meaning.
+
+## ⚠️ No further geometry until the building completes
+
+**These five images are all the geometry that exists.** The owner expects field-measurable access
+**2–3 months from 2026-09-04 — roughly 2026-11 to 2026-12.** Until then nothing can be verified,
+the `NOT FOR CONSTRUCTION` stamp stays, and **every layout decision is made on design intent.**
+That is not a blocker for choosing a layout; it is a blocker for cutting joinery.
+
 Room areas are tighter — 0.1–0.3 m² apart:
 
 | Room | Developer | Measured range | Δ |
