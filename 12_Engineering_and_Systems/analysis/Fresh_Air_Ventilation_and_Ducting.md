@@ -144,6 +144,47 @@ Zemstandart/Alexey Zemskov reports: **a breather can be vented through a window 
 - **⚠️ Failure mode 2, the most concrete and the most expensive: they installed the air conditioning and forgot to connect the indoor unit's condensate drain into the sewer, then left. By the time they returned everything was closed up and tiled, and the drain is «где-то там, никто не знает где» — so everything must be broken open and redone.** *(This vault has a dedicated [[12_Engineering_and_Systems/analysis/AC_Condensate_Drainage|AC Condensate Drainage]] page; this is the project-management version of the same risk — the drain being forgotten rather than wrongly detailed.)*
 - **Find them by recommendation from builders, designers, or friends with positive experience.**
 
+### ⚠️⚠️⚠️ THIS PROJECT HAS A 2500 mm CEILING — the void arithmetic on this page, applied (2026-09-04)
+
+**Established from the developer's building description (`data/canonical/building_spec.json`): ZK Dubravinskiy has
+«высота потолков в квартирах 2,5 метра» — 3 m only on the 21st floor. This flat is on the 4th. The
+figure had not been recorded anywhere in this repo before that date.**
+
+**Run this page's own numbers against it:**
+
+| | |
+| :--- | ---: |
+| slab-to-slab | **2500 mm** |
+| less ventilation duct void, this page's general figure of **150–200 mm** | **→ 2350–2300 mm** |
+| ⚠️ and this page states the void requirement **is not uniform** — duct section grows with run length and is worst **beside the plant** | worse than that locally |
+| ⚠️ **no recovery from the floor:** the screed is already laid with the heating pipes distributed horizontally in it | **0 mm available** |
+
+- → **⚠️⚠️ AND THIS PAGE ALREADY NAMES THE FAILURE THAT FOLLOWS. Its sequencing trap: ducts are installed FIRST,
+  and «очень часто этого пространства не хватает для установки лампочек или треков» — there is often not
+  enough left below the duct for the lighting. At a 2500 mm start that is not a risk, it is the expected outcome
+  of a full-flat ducted route.**
+- → **⚠️ The page's duct-intake convention is quoted for a 3 m ceiling (~270 cm). It does not transfer. Nothing
+  height-related on this page may be applied to this project without re-deriving it from 2500.**
+- → **✅ THE LOCALISED TECHNIQUES ON THIS PAGE STOP BEING OPTIMISATIONS AND BECOME THE ONLY VIABLE ROUTE**, and this
+  page already holds both: **route the supply duct above the kitchen cabinets and box it behind a floor-to-ceiling
+  kitchen facade rather than dropping the whole room — worth ≈12–15 cm of ceiling height** — and **flat-section
+  ducts specifically to minimise the drop**, accepting the noise penalty this page records against them.
+- → **✅ It also promotes a finding the vault held as merely the cheap option: a BARE LACQUERED CONCRETE ceiling
+  costs ZERO height.** At 2500 mm that stops being a budget choice and becomes a height strategy. Its enabling
+  condition is already recorded — keep the wiring OFF the ceiling, which means wall outlets and a track — and
+  the same source's argument for **track lighting at a low ceiling** (a low ceiling cannot take pendants) now
+  applies to this project by measurement rather than by taste.
+- ⚠️ **And it puts the vault's own comfort rule in conflict with the flat: `ceiling.min_height_2800mm` states
+  2.8 m as the minimum comfortable height. This flat is 300 mm under it.** Recorded as a constraint to design
+  inside, not a contradiction to resolve — but it means any advice premised on a normal void must be re-checked
+  before use, not adopted.
+- ⚠️ **Open, and it should be settled before a ventilation system is chosen: whether a ducted MVHR is viable
+  here at all, or whether this flat is a case for decentralised through-wall units** — which consume no ceiling
+  void. This page carries both options; the height figure now weighs the choice.
+
+[source: `data/canonical/building_spec.json` — developer's published building description, supplied by the owner 2026-09-04]
+
+
 ## Duct Sizing, Routing and Concealment
 
 ### Masonry Vent-Duct Sizing for a Wet Room (added 2026-08-25)

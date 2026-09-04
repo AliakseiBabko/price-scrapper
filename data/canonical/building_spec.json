@@ -1,0 +1,82 @@
+{
+  "schema_version": "0.1.0",
+  "id": "zk-dubravinskiy-building-spec",
+  "purpose": "The developer's own published description of the building and of the handover ('под чистовую отделку') condition. Authoritative for structure, ceiling height, external wall build-up and what is already installed at handover - none of which was recorded anywhere before 2026-09-04.",
+  "provenance": {
+    "source": "developer's published building description, supplied verbatim by the owner 2026-09-04",
+    "language": "ru",
+    "status": "authoritative for the BUILDING; not a field measurement of this flat",
+    "verbatim": "Дом каркасно-блочный многоквартирный 21-этажный  с 1-2-3-4-комнатными квартирами. Характеристики и особенности домов жилого комплекса: монолитный железобетонный каркас с наружными стенами (не несущие) из блоков ячеистого бетона толщиной 300мм, утепленными минераловатными плитами толщиной 70мм с дальнейшим их оштукатуриванием и покраской, высота потолков в квартирах 2,5 метра (21-й этаж 3 метра), в каждом подъезде 3 лифта (пассажирский и два грузопассажирских), кладовые помещения в подвальном этаже, входы в подъезды расположены с внутренней стороны домов. Внутренняя отделка квартир: квартиры подготовлены под «чистовую» отделку: установлены межкомнатные перегородки (кроме 1-комнатных квартир), выполнено выравнивание и штукатурка стен, стяжка пола, разводка электрики и подводка оптоволокна, установлены розетки и выключатели, радиаторы отопления, унитаз, выполнено остекление лоджий, окна — 2-камерные стеклопакеты ПВХ; выполнена горизонтальная разводка труб отопления с установкой счетчиков тепла."
+  },
+  "building": {
+    "type_ru": "каркасно-блочный",
+    "type_en": "frame-and-block",
+    "structure_ru": "монолитный железобетонный каркас",
+    "structure_en": "monolithic reinforced-concrete frame",
+    "storeys": 21,
+    "flat_mix": "1-2-3-4 room",
+    "lifts_per_entrance": {
+      "total": 3,
+      "passenger": 1,
+      "goods_passenger": 2,
+      "why_it_matters": "!! Directly answers a Round 7 finding: the specify-large-and-cut technique's third motive is LIFT ACCESS, and the cut dimension derives from the INSTALLED height. Two goods/passenger lifts means large panels and full-height joinery can be brought up - so that constraint is relaxed here. Confirm the goods lift's internal dimensions before relying on it."
+    },
+    "basement_storage_ru": "кладовые помещения в подвальном этаже",
+    "basement_storage_note": "Storage rooms exist in the basement. UNKNOWN whether one belongs to this flat - worth establishing, because it changes what the лоджия has to absorb (the owner's brief makes the лоджия a DIY/hobby store).",
+    "entrances_note": "Entrances are on the inner side of the buildings."
+  },
+  "ceiling_height_mm": {
+    "value": 2500,
+    "exception": "3000 on the 21st floor only",
+    "this_flat": 2500,
+    "status": "!! NOT RECORDED ANYWHERE IN THIS REPO BEFORE 2026-09-04, and it changes answers.",
+    "conflicts_with_rule": "ceiling.min_height_2800mm",
+    "conflict_note": "The vault's own rule (Zemskov) states the minimum COMFORTABLE ceiling height is 2.8 m. This flat has 2.5 m - 300 mm below it. That is not a contradiction to resolve; it is a constraint to design within, and it invalidates or qualifies anything in the vault that assumed a void."
+  },
+  "external_walls": {
+    "load_bearing": false,
+    "load_bearing_note": "!! The developer states the external walls are NOT load-bearing - the monolithic frame carries everything. So the only truly immovable structure is the frame itself (plus the common-property shafts and risers).",
+    "material_ru": "блоки ячеистого бетона",
+    "material_en": "autoclaved aerated concrete block",
+    "block_thickness_mm": 300,
+    "insulation": {
+      "material_ru": "минераловатные плиты",
+      "material_en": "mineral wool boards",
+      "thickness_mm": 70,
+      "position": "EXTERNAL - «с дальнейшим их оштукатуриванием и покраской», i.e. rendered and painted over on the outside",
+      "consequence": "!! ANSWERS AN OPEN QUESTION: the insulation is OUTSIDE. It does NOT eat internal clear dimensions - it grows the envelope outward. The owner's recollection of '70 to another 100+ mm' matches: 70 mm of wool plus render."
+    },
+    "total_buildup_mm": "300 block + 70 mineral wool + render ~= 375-380",
+    "model_rule": "Insulation is a LAYER on the wall, never a wall in its own right. Adding it as a wall would corrupt the shell and everything derived from it."
+  },
+  "windows": {
+    "spec_ru": "2-камерные стеклопакеты ПВХ",
+    "spec_en": "PVC frames with double-chamber (three-pane) sealed units",
+    "installed_at_handover": true
+  },
+  "handover_condition": {
+    "ru": "под «чистовую» отделку",
+    "en": "prepared for finish-stage work",
+    "already_installed": [
+      "межкомнатные перегородки (кроме 1-комнатных квартир) - INTERNAL PARTITIONS ARE BUILT; this flat is a 3-room so they apply",
+      "выравнивание и штукатурка стен - walls levelled and plastered",
+      "стяжка пола - floor screed",
+      "разводка электрики и подводка оптоволокна - electrical distribution and fibre",
+      "розетки и выключатели - sockets and switches fitted",
+      "радиаторы отопления - radiators fitted",
+      "унитаз - WC pan fitted",
+      "остекление лоджий - лоджия glazing done",
+      "окна - PVC windows",
+      "горизонтальная разводка труб отопления с установкой счетчиков тепла - horizontal heating distribution with HEAT METERS"
+    ],
+    "heat_meters_note": "!! Heat meters need periodic reading, and the vault holds a finding from its closest comparable that a CONCEALED hatch over monthly-read meters is the exact configuration that fails - at that frequency the hatch is simply left ajar. Whatever encloses these meters must be openable without ceremony.",
+    "loggia_glazing_note": "The developer glazes the лоджия. The owner's own brief is to REPLACE that glazing with proper insulated units to reach a frost-free-without-heating target - so this is a rip-out-and-replace item, not an absence to fill.",
+    "screed_note": "The screed is already laid and the heating pipes are distributed horizontally, most likely within it. So there is NO height to recover from the floor - which matters because there is only 2500 mm to begin with."
+  },
+  "consequences_recorded_elsewhere": [
+    "00_Master/project_decisions.md - the apartment facts and the replanning-cost correction",
+    ".agents/skills/apartment-layout-modelling/SKILL.md - flat-in-one-paragraph and the answer-changing facts",
+    "12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md - the 2500 mm void arithmetic",
+    "00_Master/Layout_Option_Review.md - what replanning actually destroys"
+  ]
+}

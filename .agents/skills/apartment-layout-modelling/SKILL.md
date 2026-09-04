@@ -11,8 +11,15 @@ owner; re-deriving them costs hours and has already produced two wrong answers.
 
 ## The flat in one paragraph
 
-**69.1–69.4 m²** total, **4th floor**, building not finished, nothing
-field-verified. Rooms as sold: жилая 19.49 / 16.6 / 9.36, прихожая 9.8–10.0,
+**69.1–69.4 m²** total, **4th floor** of 21, building not finished, nothing
+field-verified. **Ceiling 2500 mm.** **Monolithic reinforced-concrete FRAME**
+(каркасно-блочный): external walls are **NOT load-bearing** — 300 mm aerated
+block plus 70 mm mineral wool **outside** — so the only immovable structure is
+the frame itself plus the common shafts and risers. **Handover is «под чистовую
+отделку» with the internal partitions ALREADY BUILT**, plus plaster, screed,
+electrics, sockets, radiators, the WC pan and лоджия glazing — so replanning
+demolishes new work, it does not just redraw it. Full spec:
+`data/canonical/building_spec.json`. Rooms as sold: жилая 19.49 / 16.6 / 9.36, прихожая 9.8–10.0,
 кухня 5.24, ванная 3.09, туалет 1.2–1.4, лоджия 6.05 (counted 4.24). Partitions
 are drawn **75 mm**. The owner has redesigned it in Homestyler; that redesign is
 a *variant*, not the existing state.
@@ -92,7 +99,16 @@ Extracted, so nobody re-reads the images:
    this flat without establishing handedness. And no new geometry exists until
    the building completes (owner: ~2026-11 to 2026-12).
 
-4. **Ventilation depends on the floor; plumbing does not.** Above the 10th floor
+4. **⚠️⚠️ 2500 mm CEILING, and it is the constraint most likely to break a
+   plan silently.** It is **300 mm below the vault's own
+   `ceiling.min_height_2800mm`** rule. The vault records that ventilation ducts
+   usually take **150–200 mm of ceiling void** and that **ducts go in FIRST**,
+   with lighting after — so a ducted route through a room leaves **2300–2350 mm**
+   before any fitting. **And no height can be recovered from the floor: the
+   screed is already laid with the heating pipes in it.** Check any ceiling,
+   duct or tall-joinery decision against 2500, never against a generic 2.7–3.0 m.
+
+5. **Ventilation depends on the floor; plumbing does not.** Above the 10th floor
    a flat carries two ventilation sections instead of one, taking extra area.
    This flat is on the 4th — single section, larger areas. So `kv109`
    (туалет 1.6, total 68.3) is a **higher-floor sub-type: do not average it in.**
