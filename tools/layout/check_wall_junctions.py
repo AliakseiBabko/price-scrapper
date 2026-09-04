@@ -86,6 +86,14 @@ def load(path):
     return out
 
 
+PARTITION_MAX_MM = 120.0   # a partition this thin BUTTS a frame member; it never
+                           # forms a corner with it. Owner, 2026-09-04, on R4/R5:
+                           # "the length is clear, it is 1050, and that's it -
+                           # there is no hidden section, so no solid part."
+                           # A 75 or 120 partition lands on a column's face; the
+                           # column does not wrap around it, so its length is
+                           # unaffected. Removes R4, R5 and R1b as corner owners
+                           # and leaves R1a, R2, R8, R9 - exactly the set he named.
 SUCC_GAP_MM = 200.0    # ends this close - or overlapping this much - count as
                        # one line. Generous on purpose: a 250 column and the 75
                        # partition continuing it are only ~100 mm apart on the
@@ -135,6 +143,14 @@ def dominant(ids, byid):
         return (0 if w['cls'] == 'concrete' else 1, -w['t'],
                 -(abs(w['b'][0] - w['a'][0]) + abs(w['b'][1] - w['a'][1])), i)
     return sorted(ids, key=key)[0]
+
+
+def butts_not_corners(w1, w2):
+    """True when this pair can only be a butt: a thin partition against frame."""
+    for a, b in ((w1, w2), (w2, w1)):
+        if a['cls'] == 'concrete' and b['cls'] != 'concrete'                 and b['t'] <= PARTITION_MAX_MM:
+            return True
+    return False
 
 
 def is_dominant_pair(h, v, groups, byid, near):
@@ -187,6 +203,8 @@ def junctions(walls):
             # a wall meets a LINE once, at its dominant member
             if not is_dominant_pair(h, v, groups, byid, near):
                 continue
+            if butts_not_corners(h, v):
+                continue          # a partition on a frame face: nothing to own
             half_h = h['t'] / 2.0 / MM_PER_PX      # half thickness of horizontal
             half_v = v['t'] / 2.0 / MM_PER_PX      # half thickness of the vertical
             # does the horizontal run span the vertical's full thickness?
