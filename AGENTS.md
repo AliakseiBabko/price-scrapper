@@ -93,7 +93,7 @@ These are the ones that cause real damage when broken. Everything else is in the
 - Page shape: see `00_Master/wiki_page_format.md`. Compact guide page + `analysis/` detail pages, with Perspectives / Common Ground / Your Priority blocks for genuine source disagreements.
 - Pages fail in **two** directions: too long, and **fragmented** (many stub sections from each batch appending its own dated heading). The fix for the second is merging. Look for an existing section before adding a heading.
 - USD equivalents are rounded comparability aids: nearest 10 below $1,000, nearest 100 to $99,999, nearest 1,000 above. Never show cents. A figure that is exact by construction is tagged `arithmetic-exact` and keeps its precision.
-- Areas: developer plans are clear/net, БТИ are gross. Dimensions nominal ±25 mm.
+- Areas: developer plans are clear/net, БТИ are gross. **Areas are not evidence** — see the standing rule in `data/canonical/wall_materials.json`. **Dimensions nominal ±50 mm**, measured not assumed: see `00_Master/Geometry_Variance_Study.md`, which compares the developer plan against three surveyed flats of the same layout and finds deltas from −45 to +30 mm. The old ±25 had no evidence behind it. This is the BUILD tolerance, not the raster tolerance in `tools/layout/check_wall_junctions.py`.
 
 ## Cross-repo
 

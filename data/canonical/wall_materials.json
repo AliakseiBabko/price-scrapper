@@ -680,5 +680,13 @@
     "the_division_of_labour_this_settles": "!! The DETAILED plan is the DIMENSION source - it is the only dimensioned drawing. The BASIC plan is the GEOMETRY source - it is the only one showing what actually exists on the 4th floor. Printed numbers from one; what exists from the other. Every shaft error in this model came from taking geometry off the dimensioned plan.",
     "the_cost": "⚠ The basic plan prints almost no dimensions, so the printed strings can no longer be read off the underlay to check a label against. The labels carry the numbers and their provenance instead.",
     "drawing": "_assets/wall_model_v24.png"
+  },
+  "variance_against_real_flats_2026_09_04": {
+    "source": "00_Master/Geometry_Variance_Study.md - the owner’s readings of floor plan_1/_2/_3, surveys of REAL completed flats of this layout, against the developer’s drawing. The first time this model has been tested against anything built.",
+    "the_big_room_closes_three_ways": "!! R2 1675 + G5 4035 + R7 1750 = 7460, and floor plan_1 measures 7460 EXACTLY while floor plan_3 measures 7450. The developer’s printed chain, one real survey and a second real survey all agree. The big room’s east side is settled.",
+    "RETIRED_the_real_is_usually_bigger_assumption": "!! The owner said early on that \"usually it is a little bit bigger, the real dimension\". This data does not support it. The divider comes out BIGGER in reality (+20, +30), both room widths come out SMALLER (−15 to −45), and the long axis is dead on (0, −10). Deviation is roughly symmetric and depends on which dimension, not on a direction of bias - so nothing can be pre-compensated, and anything cut to a dimension must be measured on site.",
+    "the_middle_room_window_wall": "!! MB: the developer chain is 1800 + 600 + 600 = 3000, every term round; both real flats measure 2970. Two independent surveys landing on the SAME 30 mm shortfall is not noise - 3000 reads as a nominal chain and 2970 as the built result. MB carries O2, so MEASURE MB BEFORE ORDERING ANYTHING FOR THAT WINDOW.",
+    "tolerance_now_measured": "The repo carried \"dimensions nominal ±25 mm\" with no evidence. Observed spread reaches 45 mm, so it is now ±50 mm and measured rather than assumed. That is the BUILD tolerance; the raster tolerance in tools/layout/check_wall_junctions.py stays 25 mm and is a different quantity.",
+    "what_the_real_plans_may_NOT_be_used_for": "⚠ They are DIFFERENT flats, possibly mirrored. They BOUND the error; they do not refine a number. Never average a developer figure with a measured one, and never use a survey of another flat to settle a dimension this flat’s drawing leaves open - R1a, the R3|G3 split."
   }
 }
