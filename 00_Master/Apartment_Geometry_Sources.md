@@ -93,7 +93,22 @@ the стояки land.
 The developer's plan draws the туалет as 1140 × 1090 mm of clear floor, with a
 1140 × 490 mm block at the wall opposite the entrance. Zoomed in, that block is
 a **вентблок** — a grey section with three rounded channels, the shaft plus its
-satellite ducts — not the water risers I first took it for. The arithmetic is
+satellite ducts — not the water risers I first took it for.
+
+> [!IMPORTANT]
+> **⚠️⚠️ THE SECOND ВЕНТБЛОК IS ON THE SAME DRAWING, AND IT IS NOW MEASURED (2026-09-04).**
+> It had been carried for weeks as the owner's account only. **The graphic convention found
+> above is what identifies it: a shaded box with rounded channel outlines** — one large channel,
+> two small side by side, one large — and the second block is drawn exactly that way, at the
+> прихожая/кухня boundary, roughly above the partition between the middle and right-hand rooms.
+>
+> **`400 × 1140 mm = 0.456 m²`. Both figures are PRINTED on the plan — nothing is derived from scale.**
+> ⚠️ **Its long axis runs PERPENDICULAR to the façade wall, whereas the туалет block lies ALONG
+> its wall. Do not carry the orientation across from one to the other.**
+>
+> Evidence crop: `_assets/ventblok_kitchen_detail.jpg` (5× enlargement of the same JPEG).
+> ⚠️ **Still not certain: the datum of the adjacent `200` dimension**, so the block's offset from
+> the wall needs confirming at field measurement. The 400 and 1140 do not. The arithmetic is
 unchanged; the service responsible is different:
 
 ```

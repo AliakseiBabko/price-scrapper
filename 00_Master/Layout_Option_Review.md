@@ -66,6 +66,28 @@ The owner's plan is explicitly phased (`Family_Requirements.md`, clarified 2026-
 - ✅ **v1's zone split matches the owner's stated intent**: the bigger zone (13.57) is the living/bedroom zone, the smaller (10.56) is the kitchen zone with the dining table — and the seeds confirm the kitchen sits *behind* the living room (x = 7856, y = 7944 against x = 7779, y = 4230), i.e. away from the row's façade and toward the entrance, which is where the owner said he wanted it.
 - ⚠️ **But v1's combined space is 0.60 m² SMALLER than v0's two rooms already are**, and combining v0's kitchen and living would *add* the removed wall's footprint on top of 24.73. **So v1 buys the zone *shape* the Phase 2 concept needs, not extra area — it pays 0.60 m²+ for it.** Worth knowing when the Murphy bed and the sliding partition are sized: the partition's parking width and the bed's swing come out of 24.13, not 24.7.
 
+## 3a. ⚠️⚠️ The thesis behind all of it, stated by the owner 2026-09-04 — ONE bathroom, to fund a real living room
+
+Everything in §1–§3 is *what* `v1` does. This is *why*, and it had not been written down until the owner said it.
+
+**The comparable spent area on a SECOND full sanitary room and got a brief satisfied on paper.** The owner's reading of what that cost them: their combined kitchen-living came out too small to be a living room at all — *"just a small sofa and a screen, a monitor on the wall … that's not a real living room. There is no place of living room."*
+
+**So this project keeps two wet rooms (the single bathing room plus the separate туалет, both near the entrance) and spends the third one's area on the kitchen-living zone.** *"Instead we have bigger area which can be separated into a real isolated room if needed. That was a main idea."*
+
+- → **⚠️⚠️ THAT REFRAMES §3's 24.13 m² FROM A NUMBER INTO A REQUIREMENT.** The zone is not just bigger; it must stay **separable into a genuinely isolated room**, because that is what makes Phase 2 possible. **Any later move that trims that zone spends the thing the whole layout was built to buy** — which is the strongest argument in this document for looking to circulation for area instead (§5).
+- → **⚠️ It is a knowing departure from a vault rule, not an oversight.** Zemskov's ideal is three wet rooms (`wc.bathroom_count_minimum_3`); his own area-constrained fallback is two (`wc.budget_fallback_2_wet_rooms`). **This project takes the fallback deliberately, for a reason the rule does not weigh: what the third wet room costs the living zone.** Recorded in `project_decisions.md`.
+- → **And it answers the case-study round's open question: THIS is the decision in the comparable that the owner rejects.**
+- ⚠️ **The divider is RETRACTABLE, not a sliding door** (owner's correction, same date). That changes the parking width and the head detail, and it has to be sized against 24.13 m², not the developer plan's 24.73.
+
+### Two structural differences from the comparable, and one of them kills a transfer
+
+| | comparable | this project |
+| :--- | :--- | :--- |
+| **Лоджия attaches to** | the kitchen-living zone | **the 9.36 m² small bedroom** — confirmed on the detailed plan |
+| **Sanitary rooms** | master bathroom **+ second full one** | one bathing room + separate туалет |
+
+→ **⚠️ The comparable's balcony-off-the-living-zone content does not transfer.** Here the лоджия is coupled to whoever occupies that room — adults in Phase 1, **the boy** afterwards — which is also why the standing лоджия decision (keep it closed and separate, glazing and insulation only) belongs to that room's brief and not to the living zone's.
+
 ## 4. What the comparable case contributes — and what it does not
 
 The case is now a dataset: `data/layout_cases/nsdsgn-70m2-family-two-children.json`, with five rules in `data/layout_rules/rules.jsonl`.
@@ -89,7 +111,11 @@ A designer with **carte blanche on style** made **exactly one replanning move** 
 **Two hard limits bound the answer, and one of them is a blocker:**
 
 1. **`corridor.min_clear_width` = 1100 mm in the rough state** (Zemskov). That is the floor under any corridor narrowing, and it is measured *before plaster*. It is also the quantitative content of NSDSGN's «немножко», which he never numbers.
-2. **⚠️⚠️ THE SECOND ВЕНТБЛОК IS UNMEASURED, AND `v0` HAS NO GEOMETRY.** `room_schedules.json` records it only as *"между зоной кухни и зоной постирочной/прихожей"*, on the owner's account, **not measured on the detailed plan**. In v1 the laundry sits at x = 5078 and the kitchen at x = 7856, so it falls somewhere in the hallway band between them — **precisely the area the corridor trade would consume.** Until it is located, any number I put on the trade would be invented.
+2. **✅ THE SECOND ВЕНТБЛОК IS NOW MEASURED — 400 × 1140 mm = 0.456 m²**, read from the **printed** dimension strings on `fllor_plan_detailed.jpeg` (2026-09-04), and drawn to the same shaded-box-with-rounded-channels convention as the confirmed туалет block. **⚠️ Its long axis runs PERPENDICULAR to the façade wall — the туалет block lies *along* its wall, so the orientation must not be assumed from that one.** It stands at the прихожая/кухня boundary, roughly above the partition between the middle and right-hand rooms.
+   - → **⚠️⚠️ AND THE RESULT IS BETTER THAN EXPECTED: it does NOT stand in the way of the corridor-to-kids trade.** That trade takes depth from the прихожая along the **middle** room's north wall, where the plan prints a **1050 mm** band (a 1915 × 1050 recess beside a 910 door opening). The block sits at the **kitchen end** of the прихожая, not that end — and at 1140 mm deep it is deeper than that 1050 band, which is consistent with it belonging to the kitchen boundary rather than to the corridor.
+   - → **What it DOES constrain is the кухня/постирочная corner — which is exactly where `v1` puts its 1.90 m² laundry.** That is the adjacency to check next, and it is the same situation the comparable resolved by **building the laundry cupboard against its immovable column rather than around it** (`laundry.ventilated_doors_on_an_enclosed_appliance`, and the case's `m2` move). **The precedent is directly usable.**
+   - ⚠️ **Still open on this: the datum of the adjacent `200` dimension is not certain from the raster, so the block's offset from the wall needs field confirmation.** 400 × 1140 are printed figures; the offset is not.
+3. **⚠️⚠️ SO ONE BLOCKER REMAINS, AND IT IS THE BIGGER ONE: `v0` HAS NO GEOMETRY.** ⚠️ **The route has changed** — the owner states the plan images are the only source of truth, so a Homestyler export of the *original* layout is probably not available; only the redesign was ever traced. **The remaining route is the skill's fallback: reconstruct v0's partitions from the printed dimension strings on the detailed plan, against the registered raster.** Hand work, and it is now the single task standing between this project and a measured layout comparison.
 
 > [!IMPORTANT]
 > **⚠️⚠️ THIS IS THE ROUND'S REAL FINDING: the layout-selection decision is blocked on two cheap measurement tasks, not on more analysis or more sources.**

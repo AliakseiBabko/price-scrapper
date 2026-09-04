@@ -341,6 +341,9 @@ None yet.
 
 ### ⚠️⚠️ Two questions for the user, which only he can answer
 
+> [!NOTE]
+> **✅ ANSWERED 2026-09-04, and the answer was more useful than the question.** **The decision the owner rejects is the SECOND BATHROOM**, and he gave the argument: in the comparable it took so much area that the kitchen-living stopped being a living room — *"just a small sofa and a screen, a monitor on the wall … that's not a real living room."* **This project keeps two wet rooms and spends the third's area on a kitchen-living zone sized to be SEPARABLE into an isolated room.** That is the thesis the whole `v1` layout rests on, and it is now recorded in `00_Master/project_decisions.md` and `00_Master/Layout_Option_Review.md` §3a. **The bunk bed and the themed mural are still open.**
+
 1. **WHICH DECISIONS IN THIS CASE STUDY DOES HE REJECT?** He said he does not like some of them. **Two are already recorded on pages as unresolved splits and would be closed by his position: the BUNK BED (against the vault's clinical source, with AREA as the deciding variable and this kids' room at 9.36 m²) and the THEMED MURAL (against the ~1-year-lifespan finding).** Others may exist that I did not flag because they read as neutral.
 2. **THE SURNAME.** «Сенчугов» in this manual self-introduction against the vault's Round 5 correction to «Синчуков». **Fourth rendering, second self-introduction, and the first that is not ASR. Settleable in a minute from the channel's about page; not settleable by more transcripts.**
 

@@ -76,7 +76,12 @@ build, so `make_variant.py` refuses it.
 
 - **Вентблок in the туалет**, 1140 × 490, three channels — verified on the plan.
 - **Second вентблок** between the kitchen zone and the laundry/hallway zone —
-  owner's account, not yet measured.
+  **measured 2026-09-04: 400 × 1140 mm = 0.456 m², long axis PERPENDICULAR to the
+  façade wall** (the туалет block lies *along* its wall — do not assume the same
+  orientation). Both figures are printed on the detailed plan and drawn to the
+  same shaded-box-with-channels convention as the confirmed туалет block.
+  ⚠️ The datum of the adjacent `200` dimension is not certain from the raster,
+  so the block's **offset from the wall** still needs field confirmation.
 - **Стояки** водоснабжения и канализации in the wet zone — identical on every
   floor.
 

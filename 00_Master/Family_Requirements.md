@@ -20,7 +20,7 @@ This document captures the overall context of the family's needs, preferences, a
   - Focus on **drum capacity** (e.g., 10–13 kg) to wash double bedding sets and heavy children's laundry in single runs.
   - Prioritize **self-cleaning features** (like self-cleaning condensers in dryers) to handle high volumes of lint.
   - Black or standard white gloss finishes are fully accepted.
-  - Backlink: [[Laundry_Index]] / [[Laundry_Appliance_Sets]]
+  - Backlink: [[09_Laundry_Room/Laundry_Index|Laundry Index]] / [[15_Appliances/Laundry_Appliance_Sets|Laundry Appliance Sets]]
 
 ### 2. 🍳 Kitchen
 * **User Context**: 
@@ -32,29 +32,31 @@ This document captures the overall context of the family's needs, preferences, a
   - **Expandable Circular Burners**: A large circular burner (e.g., 28 cm) is highly beneficial for thick-bottomed cast iron/aluminum pans and rare pilaf cooking.
   - **No Microwave Grill**: The family does not use microwave grill features. Standard solo (microwaves-only) models are preferred if they offer better visual, series, or color matching over grill-equipped models.
   - **Dining table lives in the kitchen (clarified 2026-08-20)**: the household's everyday dining table is placed inside the kitchen area itself, not in `04_Living_and_Dining_Room` — see that room's own entry below for why (it's becoming a living-room-only space with an occasional/special-event extended table, not routine daily dining).
-  - Backlink: [[Kitchen_Index]] / [[Kitchen_Appliance_Sets]]
+  - Backlink: [[03_Kitchen/Kitchen_Index|Kitchen Index]] / [[15_Appliances/Kitchen_Appliance_Sets|Kitchen Appliance Sets]]
 
 ### 3. 🚪 Entrance (Foyer)
 * **Daily Use Scenario**: Entry point for 4 people, including two young children returning from outdoors.
 * **Key Guidelines**:
   - Extremely wear-resistant and easy-to-clean flooring (porcelain stoneware).
   - Plentiful, low-level shoe storage for children's shoes, plus tall storage for adults.
-  - Backlink: [[Entrance_Index]]
+  - Backlink: [[01_Entrance/Entrance_Index|Entrance Index]]
 
 ### 4. 🕳️ Hallway
 * **Daily Use Scenario**: Connecting thoroughfare between bedrooms, bathrooms, and living areas.
 * **Key Guidelines**:
   - Highly washable wall finishes to withstand children's hands.
-  - Backlink: [[Hallway_Index]]
+  - Backlink: [[02_Hallway/Hallway_Index|Hallway Index]]
 
 ### 5. 🛋️ Living & Dining Room
 * **Daily Use Scenario**: Shared family leisure, dining, playing, and movie watching — **but see the Phase 2 clarification below: this room has no separate, fixed identity as "the living/dining room."**
 * **Explicit clarification, added 2026-08-20 (verbal), corrected same day after an initial mis-scoping**: this project has **no fixed master-bedroom room**. The adults' sleeping arrangement is planned in two phases (§7 below covers Phase 1). **Phase 2 (later, once children are old enough for school)**: *"The glass-partition kitchen-living-bedroom zone should be placed instead of the current Living & Dining Room. We're not going to have a separate living room and dining room — there'll be only one common space. At night it's divided by a glass door into a kitchen area and a bedroom area. During the day, the bed is a transformer that hides away in a wall or wardrobe, freeing the space to be used as a living room by the whole family."* This room's own footprint plus the adjoining [[03_Kitchen/Kitchen_Index|Kitchen]] together form the ~24-25 m² combined space referenced here — **not** a separate fixed living room next to a separate fixed dining room, and not a separate fixed kitchen next to a separate fixed bedroom either. One combined open-plan space, whose identity changes by time of day (day: shared family living/dining/kitchen space; night: kitchen zone + bedroom zone, split by a glass sliding partition) and whose bed is specifically a fold-away wall-bed/Murphy-bed unit, not a bed that occupies fixed floor space day and night.
-* **Practical consequence**: this room's own planning page ([[Living_and_Dining_Index]]) still describes a conventional fixed living/dining zoning plan and hasn't yet been redesigned around the transformer-bed unit or the glass-partition wall's actual position — both are still undecided. When this phase is actually designed, it needs: (1) a wall-bed/Murphy-bed unit sized and placed per [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]' fold-away-bed technique (already recorded in this store from an independent source, `yt_JwB6L-tYd7I`, before this project's own plan was known — a genuine corroboration, not a coincidence engineered to match), and (2) a glass-partition wall/door positioned to cleanly separate a kitchen zone from a bedroom zone at night while opening fully (or being removed from the daytime sightline) for the shared daytime use. No dedicated planning page exists yet for this combined kitchen+living+bedroom concept — a future session should decide whether it needs its own page (likely spanning both `03_Kitchen` and `04_Living_and_Dining_Room`) once the actual partition/transformer-bed design is worked out.
+* **Practical consequence**: this room's own planning page ([[04_Living_and_Dining_Room/Living_and_Dining_Index|Living and Dining Index]]) still describes a conventional fixed living/dining zoning plan and hasn't yet been redesigned around the transformer-bed unit or the glass-partition wall's actual position — both are still undecided. When this phase is actually designed, it needs: (1) a wall-bed/Murphy-bed unit sized and placed per [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]' fold-away-bed technique (already recorded in this store from an independent source, `yt_JwB6L-tYd7I`, before this project's own plan was known — a genuine corroboration, not a coincidence engineered to match), and (2) a glass-partition wall/door positioned to cleanly separate a kitchen zone from a bedroom zone at night while opening fully (or being removed from the daytime sightline) for the shared daytime use. No dedicated planning page exists yet for this combined kitchen+living+bedroom concept — a future session should decide whether it needs its own page (likely spanning both `03_Kitchen` and `04_Living_and_Dining_Room`) once the actual partition/transformer-bed design is worked out.
 * **Further refined, 2026-08-20 (verbal, same day)**: *"During the daytime it's gonna be living, probably not dining because I plan to put the table into the kitchen inside the kitchen area. And probably for some specific special events, like, to have extended table and use this area of the living room. The other, nighttime, it's gonna be [the adults'] bedroom" (transcription unclear on the exact wording here — interpreted as "the adults' bedroom," consistent with the rest of this plan; not a home-office requirement) "— again, that's phase two, for phase one when small bedroom we used for adult bedroom, there will be only living room. Potentially I have to envision these and plan beforehand, and probably install all the Murphy beds beforehand, because we're gonna be ready for this change in room usage in several years, probably three, four years from now."* This adds three concrete corrections/decisions on top of the Phase 2 description above:
   - **Dining table moves to the kitchen, not this room** — see [[03_Kitchen/Kitchen_Index|Kitchen]] and §2 above. This room (day identity) is **living-room-only** on a routine basis; an extended/expandable table is set up here only for special events, not daily dining.
   - **Phase 1 (now)**: this room has **no bedroom function at all** — it's purely a living room while the adults use [[06_Small_Bedroom/Small_Bedroom_Index|the Small Bedroom]] (§7). The night/bedroom identity described above only starts at Phase 2.
   - **Install the Murphy bed(s) now, during the current renovation build — activate in ~3-4 years**: the user explicitly wants the wall-bed/Murphy-bed unit (and its supporting infrastructure — wall reinforcement, wardrobe/wall cavity, any wiring/lighting it needs) physically installed as part of the **current** Phase 1 renovation, even though the room won't actually be used as a bedroom until Phase 2 (estimated ~3-4 years out, once the kids are older/in school). This is the same **future-flexible planning** technique already recorded in this store from an independent source — see [[_Knowledge/renovation_budgeting_knowledge_store|the knowledge store]]'s "Future-Flexible Planning & Regulatory Workarounds" section (`13_Surfaces_and_Finishes/Walls_and_Paint.md`): pre-installing infrastructure for a known future life-stage change so it can be activated later without demolishing or redoing surrounding finishes. Whoever designs this room's build-out needs to size and place the Murphy-bed unit (and its wall/wardrobe cavity) now, even though it stays inactive through all of Phase 1.
+  - **⚠️⚠️ CORRECTION 2026-09-04 — a RETRACTABLE divider, not a sliding door.** The owner: *"which can be separated by the … glass divider, not a door's divider, which can be retractable divider."* Everything above describing a *sliding glass door* should be read as a **retractable glass divider**. **This is not a hardware detail — it changes the parking width, the head/track detail and the floor condition**, and it has to be sized against the **24.13 m²** the combined zone actually has in `v1`, not the developer plan's 24.73. See `00_Master/Layout_Option_Review.md` §3 and `00_Master/project_decisions.md`.
+  - **⚠️ AND THE REASON THE ZONE IS THIS BIG IS NOW ON RECORD: the area was bought by NOT building a second bathroom** — the trade the closest comparable in the vault made the other way, at the cost of having no real living room. The zone is sized to be **separable into a genuinely isolated room**, which is what makes Phase 2 possible. Full statement: `project_decisions.md`.
   - **Naming uncertainty (not yet decided)**: the user is unsure whether to rename this room from "Living and Dining Room" to something like "Living Room" now that dining is moving to the kitchen. Not renamed yet — flagged here for a future explicit decision, since it would touch the folder name and every backlink to it.
 * **Zone-division layout within the combined space, added 2026-08-20 (verbal, further clarification — confirms "head office bedroom" above was a voice-recognition misfire for "adults' bedroom")**: *"I decided to divide it: leave the bigger part for the living-slash-bedroom zone, and the slightly smaller area — which is on the opposite side from the window, near the entrance to this room — for the living-slash-kitchen zone. I plan to put a table inside this kitchen zone so I can actually close the sliding glass doors, which I plan to park near one of the walls — the external wall of this room — and leave the opposite wall completely open. Sliding the door in the evening will separate the kitchen zone and the bedroom-or-living-room zone. I plan to put the dining table down in the kitchen zone specifically so it comfortably stays clear of the two zones when needed — otherwise, if the table were placed between the zones or occupied significant area there, it would prevent the sliding door from fully extending and creating a proper temporary zone division."* This adds concrete layout detail on top of the "combined ~24-25 m² space" description above (exact wording on which wall the door "parks" against is unclear from transcription — recorded as best-effort, needs confirming against the actual floor plan when this phase is designed):
   - **Bigger zone (window side)** = the living/bedroom zone (night: bedroom; day: living room).
@@ -63,7 +65,7 @@ This document captures the overall context of the family's needs, preferences, a
   - **Sliding door parks (retracts) against one wall** (described as "the external wall of this room" — likely the window-side wall, unconfirmed) **when open**, leaving the opposite wall (near the entrance) fully clear for daytime passage/openness between zones.
 * **Key Guidelines**:
   - Clear floor area for kids to play.
-  - Backlink: [[Living_and_Dining_Index]]
+  - Backlink: [[04_Living_and_Dining_Room/Living_and_Dining_Index|Living and Dining Index]]
 
 ### 6. 🧸 Kids Room
 * **Daily Use Scenario**: Shared bedroom, play, and study area for two kids (ages 3 and 6) — **but see the Phase 2 clarification below: this stops being a shared room once Phase 2 begins.**
@@ -74,7 +76,7 @@ This document captures the overall context of the family's needs, preferences, a
 * **Key Guidelines**:
   - Space-saving bed configurations (twin beds or safe bunk beds) — Phase 1 only; see the Phase 2 note above.
   - Accessible toy drawers/shelves so children can clean up after themselves.
-  - Backlink: [[Kids_Room_Index]]
+  - Backlink: [[05_Kids_Room/Kids_Room_Index|Kids Room Index]]
 
 ### 7. 💻 Small Bedroom (Study)
 * **Daily Use Scenario**: Home office, reading room, or quiet space — **but see the Phase 1 clarification below: this room currently functions as the adults' bedroom, not its long-term intended use.**
@@ -82,20 +84,20 @@ This document captures the overall context of the family's needs, preferences, a
 * **Practical consequence**: this room's bedroom furnishing (bed, nightstands, wardrobe, etc.) should be planned as a temporary configuration using this room's own footprint, not a permanent build-out. Its long-term intended use, once the adults move out to the Phase 2 arrangement (~3-4 years out per §6's clarification), is **specifically "Kids Room #2," mostly for the boy** — not a generic study/guest room as originally assumed. Finishes/infrastructure decided now should be able to survive that transition (e.g. don't over-commit built-in bedroom-specific joinery that would need to be torn out to become a child's room later; consider whether any wardrobe/storage built now could double for a kid's room later). See [[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]] for the formulas to apply to this room's Phase 1 bedroom layout.
 * **Key Guidelines**:
   - Minimalist layout for focus, possibly convertible for guests.
-  - Backlink: [[Small_Bedroom_Index]]
+  - Backlink: [[06_Small_Bedroom/Small_Bedroom_Index|Small Bedroom Index]]
 
 ### 8. 🛀 Bathroom (Main)
 * **Daily Use Scenario**: Daily bathing and teeth brushing for kids and adults.
 * **Key Guidelines**:
   - Slip-resistant tiles and safety grab bars/low steps.
   - Durable, moisture-proof vanity materials.
-  - Backlink: [[Bathroom_Index]]
+  - Backlink: [[07_Bathroom/Bathroom_Index|Bathroom Index]]
 
 ### 9. 🚽 WC (Guest Toilet)
 * **Daily Use Scenario**: Quick guest access and backup restroom.
 * **Key Guidelines**:
   - Hygiene shower installation is critical.
-  - Backlink: [[WC_Index]]
+  - Backlink: [[08_WC/WC_Index|WC Index]]
 
 ### 10. 🌅 Balcony
 * **User Context**: *"The purpose of this space is storage for hobby/DIY use (fixing things, home projects), relaxation, and occasional light physical exercise. The purpose is NOT to convert it into a real heated room. The plan is to replace the windows and add insulation to extend the usable warm period — make it cold only in the coldest winter months, without dedicated heating. A temporary/portable electric heater can be used occasionally, but underfloor heating or any permanent heating system is not the option. The goal is a closed, well-ventilated, warmer space usable for an extended part of the year — spring, summer, and autumn — in Belarus's subcontinental climate, not the coldest winter period."*
@@ -108,4 +110,4 @@ This document captures the overall context of the family's needs, preferences, a
   - No permanent heating system (no underfloor heating, no hydronic radiator relocation) — a portable/temporary electric heater for occasional use is acceptable, but the space should function passively (well-sealed, well-insulated, well-ventilated) rather than depend on active heating, including staying frost-free through an ordinary winter on passive insulation alone.
   - Durable floor finish to withstand temperature swings — the space is still unheated through winter, even though it should no longer freeze.
   - **Known content gap (2026-08-05), still open**: no source yet directly covers a three-season glazing/insulation upgrade sized specifically to keep an unjoined loggia frost-free through an ordinary winter without heating — the large Zemstandart batch processed 2026-08-10 (see [[10_Balcony/analysis/Source_Notes|Balcony Source Notes]]) covers glazing/subfloor/insulation technique in general depth, but not a specific thermal-performance target or calculation matching this household's actual frost-free-without-heating goal. Worth flagging if a source specifically addressing this thermal target is found.
-  - Backlink: [[Balcony_Index]]
+  - Backlink: [[10_Balcony/Balcony_Index|Balcony Index]]

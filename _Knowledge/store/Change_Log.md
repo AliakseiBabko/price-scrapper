@@ -1259,3 +1259,30 @@ Two sources five days apart appear to disagree about kitchen wall units: 2021-01
 **The bunk bed:** the block said the deciding variable is AREA and put it at 9.36 m². **At `v1`'s 15.28 m² the psychologist's alternative is comfortably funded, so her objection now applies at full strength and the “no room for two beds” defence falls.** Plus the shared room **ends at Phase 2, ~3–4 years out** — making a built-in bunk a fitting with foreseen obsolescence. **The themed mural:** the children are 3 and 6 and the room changes occupant at Phase 2, so the lifespan finding and the phasing agree — keep a theme in what is cheap to swap.
 
 **Neither is closed. The owner has said he rejects some of the case study's decisions without naming which, and that remains his to state.**
+
+## Owner rationale + the second вентблок measured — 2026-09-04
+
+**No source processed. Two things landed: the owner stated the reasoning behind his layout, and one of the two blockers from the case-study round was closed by reading the plan.**
+
+### ✅ The question the case-study round left open is answered — the SECOND BATHROOM
+
+**The owner rejects the comparable's second full sanitary room, and named its cost: their kitchen-living stopped being a living room** — *"just a small sofa and a screen, a monitor on the wall … that's not a real living room. There is no place of living room."* **This project keeps two wet rooms and spends the third's area on the kitchen-living zone, sized to be SEPARABLE into a genuinely isolated room.** *"That was a main idea."*
+
+→ **⚠️⚠️ THAT TURNS §3's 24.13 m² FROM A MEASUREMENT INTO A REQUIREMENT, and it is the strongest argument yet for looking to CIRCULATION for any further area rather than to the living zone — trimming that zone spends the thing the layout was built to buy.**
+
+→ **⚠️ It is a KNOWING departure from `wc.bathroom_count_minimum_3` (Zemskov's three-wet-room ideal) while satisfying his own `wc.budget_fallback_2_wet_rooms`, for a reason the rule does not weigh: what the third wet room costs the living zone.** Recorded as a departure with its argument, not as a conflict to resolve. **Two corrections also landed: the divider is RETRACTABLE, not a sliding door; and the лоджия attaches to the SMALL BEDROOM here, not to the kitchen as in the comparable — which kills that transfer.**
+
+### ✅ The second вентблок: 400 × 1140 mm = 0.456 m², measured
+
+**Carried for weeks as «со слов владельца; на детальном плане не измерен». It was on the drawing the whole time.**
+
+**What made it findable was a convention established earlier for a different purpose:** the confirmed туалет block is drawn as a **shaded box with rounded channel outlines** — one large, two small side by side, one large. **The second block is drawn identically.** Both its dimensions are **printed** on the plan, so nothing is derived from scale.
+
+- ⚠️ **Its long axis is PERPENDICULAR to the façade wall; the туалет block lies ALONG its wall.** Recorded explicitly in the skill, because carrying the orientation across would be the natural mistake.
+- ✅ **⚠️⚠️ AND THE RESULT IS BETTER THAN THE ROUND EXPECTED: it does NOT obstruct the corridor-to-kids trade.** That trade takes depth from the прихожая along the MIDDLE room's north wall, where the plan prints a **1050 mm** band (a 1915 × 1050 recess beside a 910 opening). The block stands at the **kitchen** end, and at 1140 deep is deeper than that band. **What it does constrain is the кухня/постирочная corner — exactly where `v1` puts its 1.90 m² laundry**, and the comparable's own solution (build the cupboard AGAINST the immovable, not around it) is directly usable there.
+- ⚠️ **What is still not known: the datum of the adjacent `200` dimension, so the block's offset from the wall needs field confirmation.** Flagged in three places rather than smoothed, because 400 × 1140 being printed does not make the position printed.
+- Evidence kept as `_assets/ventblok_kitchen_detail.jpg` so the reading is checkable without re-cropping.
+
+### ⚠️ One blocker remains, and its route changed
+
+**`v0` still has no geometry.** ⚠️ **The owner states the plan images are the only source of truth — so the Homestyler-export route the skill suggests is probably unavailable, because only the REDESIGN was ever traced.** The remaining route is the skill's own fallback: **reconstruct v0's partitions from the printed dimension strings against the registered raster.** Hand work, and now the single task standing between this project and a measured layout comparison.
