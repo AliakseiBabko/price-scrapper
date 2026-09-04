@@ -226,5 +226,39 @@
     },
     "thermal_boundary_note": "!! Falls out of the above: because the лоджия is unheated and its own walls are thin, THE REAL THERMAL BOUNDARY on that side is the wall and door BETWEEN the flat and the лоджия - M1 (to the 9.36 room) and R8 (to the middle room). The plan already draws insulation cross-hatch on R8 лоджия face, which corroborates this. That is where the frost-free-without-heating calculation actually bites.",
     "numbered_reading": "_assets/wall_reading_key.png (v3 - blue 1-10 confirmed, orange 11-19 added)"
+  },
+  "owner_review_round2_2026_09_04": {
+    "numbered_reading": "_assets/wall_reading_key_v4.png",
+    "settled": {
+      "J15": "CONFIRMED as R7 | M4 - \"between R7, the concrete block, and M4, which is external wall.\"",
+      "J19_position": "CONFIRMED - my visual placement of the short pier was right."
+    },
+    "reclassified": {
+      "G9_to_M7": {
+        "was": "read as aerated internal block",
+        "is": "EXTERNAL. Owner: \"you can make it in a light purple as well. It is a part of external wall, big external wall with the same thickness, just a very short segment.\"",
+        "consequence": "So it carries the 300 mm block + 70 mm external mineral wool build-up, not a partition thickness. !! And because it sits on the flat/лоджия boundary beside M1, it implies M1 is that same big external wall - which would make the flat/лоджия wall a full 300 mm external wall rather than a thin partition. FLAGGED: that sits against M6a at ~100 mm on the same outer line."
+      }
+    },
+    "G4_split": {
+      "instruction": "Owner: \"I would split G4 with the bathroom, because we have a wall between the two adjacent apartments, which is 250 as you said, [and] the wall between the bathroom and the small bedroom, which should be 120 mm thick. So I believe you should split this into at least two parts.\"",
+      "split_into_four": {
+        "G4a": "party wall to the neighbouring flat - 250 mm - OWNER STATED",
+        "G4b": "туалет | ванная - 120 mm - MY reading from the plan printed 120",
+        "G4c": "ванная | прихожая - 120 mm - MY reading from the plan printed 120",
+        "G4d": "ванная | 9.36 room - 120 mm - OWNER STATED"
+      },
+      "new_junctions": {
+        "20": "G4a | G4b - where 250 meets 120",
+        "21": "G4a | G4d - where 250 meets 120"
+      }
+    },
+    "RESOLVED_250_vs_200": "!! The owner now gives the inter-apartment wall as 250 - \"which is 250, as you said\" - agreeing with the detailed plan printed party_wall_or_structure = 250, and dropping his earlier estimate of \"up to 200 between the apartments\". THE CONFLICT RECORDED ON 2026-09-04 IS CLOSED IN FAVOUR OF THE PLAN. Note the direction: on LINEAR dimensions the plan reads ~1.5% LARGE, but on this wall THICKNESS the plan is the one being trusted - the two findings are about different quantities and do not conflict.",
+    "still_open": [
+      "G4b and G4c at 120 mm are my reading, not his statement.",
+      "Is M1 the full 300 mm external wall, given M7 is \"part of the big external wall\"? It sits against M6a at ~100 mm on the same line.",
+      "Which of M6a / M6b is which - I read horizontal = apartment, vertical = лоджия.",
+      "Is anything labelled here NOT a wall?"
+    ]
   }
 }
