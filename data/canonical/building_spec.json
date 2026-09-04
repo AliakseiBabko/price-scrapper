@@ -117,5 +117,32 @@
       "if_lower_left_is_south": "then the façade faces roughly SOUTH-EAST, the block-end wall faces north-east, and the лоджия - at the bottom-left - is the most southerly element in the flat, i.e. it gets the best sun. That would materially help the owner stated goal of keeping it frost-free through winter without heating. ALL OF THAT IS CONTINGENT on the orientation being confirmed."
     },
     "access": "The lift core and stairs are in the centre of the block; this flat is at the far end of the corridor from them. A carry distance for materials and for anything the goods lift delivers."
+  },
+  "neighbours_and_adjacency": {
+    "source": "Owner assembled the two blocks and mirrored the second, 2026-09-04, and supplied the screenshot; adjacency read off the block floor plan.",
+    "across_the_block_joint_right": {
+      "neighbour": "AN IDENTICAL 3Б/2+, MIRRORED - the same flat type as this one, reflected.",
+      "consequence": "Because a mirror maps the joint-adjacent side to the joint-adjacent side, the rooms pair with their own counterparts: LIVING ROOM faces LIVING ROOM and КУХНЯ faces КУХНЯ across the joint.",
+      "wet_rooms_at_the_joint": "NONE, on either side. Both flats carry their wet block at the end AWAY from the joint, so no bathroom and no riser stands against this wall.",
+      "verdict": "!! THE BEST POSSIBLE ADJACENCY, across the best wall in the flat: habitable-to-habitable, no services, over a ~400 mm decoupled double wall with a seam. Needs no spend."
+    },
+    "in_block_neighbour_left": {
+      "neighbour": "A different flat type (rooms 14.64 / 18.74 on the block plan).",
+      "upper_portion": "WET-TO-WET, which is the correct pairing: their 4.43 m² combined bathroom - WC pan, basin and bath - sits directly across the wall from this flat's туалет 1.42 and the top of ванная 3.09. Their bath is against the wall.",
+      "lower_portion": "!! THE ONE UNFAVOURABLE ADJACENCY IN THE FLAT: their habitable room 14.64 sits directly across the party wall from THIS FLAT'S 9.36 m² ROOM - which is the adults' bedroom in Phase 1 and the boy's room in Phase 2. A habitable room against a bedroom is the classic bad pairing, and if 14.64 is their living room it is the worst case. THEIR ROOM'S FUNCTION IS UNKNOWN from the plan."
+    },
+    "top_wall": "The common corridor at the entrance end, then the flat above (2Г/2) further along. The lift core is down that corridor and this flat is at its far end, so corridor traffic passes.",
+    "soundproofing_priority": [
+      "1. HIGHEST - the left party wall's LOWER portion, where the 9.36 room meets the neighbour's 14.64 habitable room. This is a bedroom in both project phases.",
+      "2. The top wall at the corridor end - passing traffic to and from the lifts.",
+      "3. The slabs above and below - impact noise, a different problem and not a wall.",
+      "4. NOT the block-joint wall - it is already a decoupled double wall and is the best-performing element in the flat.",
+      "5. NOT the wet-to-wet upper portion of the left wall - that is the correct pairing already, and water noise against a туалет/ванная is where it belongs."
+    ],
+    "quietest_room_by_position": {
+      "room": "the middle room, 16.63 / 16.64",
+      "why": "!! IT HAS NO PARTY WALLS AT ALL. Both its side walls are internal to this flat (to the 9.36 room and to the living room), its top is the прихожая, and its bottom is the façade with a window. So it is the acoustically most protected habitable room in the flat, and it is glazed.",
+      "consequence": "This satisfies the vault's own rule kids.quietest_brightest_room - the kids' room should be the quietest and brightest - and v1 already puts the children there. A fourth independent argument for a choice the owner made on other grounds."
+    }
   }
 }
