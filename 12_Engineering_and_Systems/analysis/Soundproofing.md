@@ -284,3 +284,32 @@ method, the sewer-riser wrap and the door-sill gasket) is now on
 This page keeps what decides *which* system to build: the noise taxonomy, system types, the
 four-factor decision framework, the worked per-wall case, the floor-vs-ceiling cost asymmetry, the
 measured decibel comparisons, and the room-adjacency audit.
+
+
+## ⚠⚠ THIS PROJECT: WHERE THE SOUNDPROOFING BUDGET ACTUALLY BELONGS — settled by adjacency, 2026-09-04
+
+**This page holds a stopping rule from the same channel — roughly +20% quieter for about 10× the cost — which
+makes it worth knowing WHICH walls deserve the spend. For ZK Dubravinskiy the block floor plan settles it, and
+the answer is narrower than expected.** (`data/canonical/building_spec.json`.)
+
+**The flat is the block's END flat: three of its four sides are party walls, only the bottom is external.**
+
+| wall | what is on the other side | verdict |
+| :--- | :--- | :--- |
+| **right — the block joint** | **an IDENTICAL 3Б/2+, MIRRORED** → living room faces living room, кухня faces кухня, **no wet rooms or risers on either side** | ✅ **Spend NOTHING.** It is a **decoupled double wall** — ≈200–250 mm + a seam + 200 mm — already the best-performing element in the flat |
+| **left, upper** | the neighbour's **4.43 m² combined bathroom**, their bath against the wall, facing this flat's **туалет and ванная** | ✅ **Wet-to-wet — the correct pairing.** Water noise is where it belongs |
+| **⚠️ left, lower** | the neighbour's **habitable room 14.64** facing this flat's **9.36 m² room** | ⚠⚠ **THE ONE UNFAVOURABLE ADJACENCY. Spend here first** |
+| **top** | the **common corridor** at the entrance end, then the flat above | ⚠️ Second priority — the lift core is down that corridor and this flat is at its far end, so traffic passes |
+
+- → **⚠⚠ THE PRIORITY IS ONE WALL: the lower part of the left party wall.** That is where a **bedroom in BOTH
+  project phases** — the adults' room now, the boy's room after — backs onto a neighbour's habitable room.
+  **A habitable room against a bedroom is the classic bad pairing, and if their 14.64 is a living room it is
+  the worst case. Their room's function is not readable from the plan and is worth asking about.**
+- → **✅ AND THE MOST PROTECTED ROOM IN THE FLAT IS THE MIDDLE ROOM (16.63), because it has NO PARTY WALLS AT
+  ALL** — both side walls internal, прихожая above, façade with a window below. **That satisfies the vault's own
+  `kids.quietest_brightest_room` rule, and the owner's `v1` already puts the children there** — a reason for
+  that choice which nobody had articulated.
+- ⚠️ **The slabs above and below are a separate problem** — impact noise, not a wall — and this page's
+  structural-noise content applies to them rather than the party-wall content.
+
+[source: `data/canonical/building_spec.json` — developer's building description and block floor plan, supplied by the owner 2026-09-04]

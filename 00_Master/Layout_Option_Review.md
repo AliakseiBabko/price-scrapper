@@ -125,6 +125,18 @@ and **both are independent of the separability thesis above:**
    boundary); **supply is what has no route.** Full chain on
    [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh Air Ventilation and Ducting]].
 
+### ✅ A fourth argument, for a different `v1` decision — the children in the middle room
+
+**The middle room has NO PARTY WALLS AT ALL:** both side walls are internal to this flat, the прихожая is above
+it, and below is the façade with a window. **So it is the acoustically most protected habitable room in the
+flat, and it is glazed.** → **That satisfies the vault's own `kids.quietest_brightest_room` rule — the kids'
+room should be the quietest and brightest — and `v1` already puts the children there.**
+
+⚠️ **By contrast the 9.36 m² room — the adults' bedroom in Phase 1 and the boy's room in Phase 2 — backs onto
+the neighbour's habitable room 14.64 across the in-block party wall. That is the one unfavourable adjacency in
+the flat, and it is the only wall where soundproofing spend is clearly justified.** Priority list on
+[[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]].
+
 → **⚠️⚠️ SO THE BIGGEST MOVE IN `v1` NOW RESTS ON THREE INDEPENDENT ARGUMENTS — separability, daylight and
 ventilation — where this page previously had only the owner's own.** That is worth stating plainly because
 the correction above raised the bar for every partition in `v1`: **this particular move clears the higher bar
