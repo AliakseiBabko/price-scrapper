@@ -345,7 +345,7 @@
       "level_2_opening": "lives ON a wall; width plus sill and head heights. data/canonical/wall_openings.csv",
       "level_3_finish_area": "DERIVED, never typed: wall length x height, minus openings, plus the reveal, sill and head bands. !! This is the point of the two-level split - the bands are CALCULATED once the sill and head heights are known, so the ~120 finish segments never have to be hand-listed."
     },
-    "counts": "26 walls, 9 openings. 8 of 9 openings hosted; only O5 correctly has none.",
+    "counts": "25 walls, 10 openings. 9 of 10 hosted; only O5 correctly has none.",
     "open": [
       "O6, the 9.36-room door, still has no wall - and that wall is the other candidate for what the owner called G4e.",
       "Sill and head heights for O2 and O3 - two numbers that unlock every window band.",
@@ -394,6 +394,26 @@
         "SILL and HEAD heights for O2 and O3 - two numbers, after which every band computes.",
         "LENGTHS - 10 of 26 walls already carry a printed figure."
       ]
+    },
+    "RETRACTION_basic_plan_does_not_omit_a_wall": {
+      "what_I_recorded": "Last round I recorded that the BASIC plan OMITS A WALL that the detailed plan draws, and wrote a caution into Apartment_Geometry_Sources telling future sessions to hunt for missing walls.",
+      "the_test": "Registered the basic plan onto the detailed plan using THICK-INK extent only, so labels and dimension strings could not bias it: x*0.7764+25, y*0.7751+5. Aspect mismatch 0.16% and all four corners land exactly. Then found every blob >=260 px where the detailed plan has ink and the registered basic plan does not, forgiving 4 px of slop.",
+      "the_result": "SIX blobs, and EVERY ONE IS A DIMENSION STRING - not a wall. The largest is the 710/250/2115/9.79 chain; the second is the 1050/3250/1490 vertical chain. There is NO wall-sized difference anywhere on the plan.",
+      "so_the_truth_is": "!! THE WALLS ARE THE SAME ON BOTH PLANS. What the basic plan lacks is the DIMENSIONS that let a reader see where one block ends and the next begins. That is why G1 read as ONE wall to me and as TWO blocks (250 + 120) to the owner - he was reading the dimensioned plan and I was reading the undimensioned one.",
+      "lesson": "!! The owner's instruction was right and my explanation of WHY was wrong. And the repo already said the thing that mattered - the detailed plan is \"the only dimensioned source\" - so the correct action was to USE it, not to invent a new failure mode. I generalised from one disagreement to a structural claim about the drawings, without testing it. The test took one script."
+    },
+    "owner_corrections_round3": {
+      "G2": "extended WEST.",
+      "G1_and_G4C_merged": "ONE continuous 120 mm surface down the wet block's east side, carrying TWO door openings - O7 to the туалет and O1 to the ванная. Owner: \"it will be one surface, continuous surface, with two door openings.\"",
+      "O4_split": "O4a - the лоджия WINDOW portion, WITH a sill; O4b - the glass balcony DOOR immediately beside it.",
+      "background": "All drawings now built on the DETAILED plan, per his instruction."
+    },
+    "window_heights_as_a_relation": {
+      "status": "NO MEASUREMENTS EXIST. The owner has only photos, which he will supply.",
+      "O2": "the middle-room window - he calls it STANDARD.",
+      "O3": "the living-room window - HIGHER than O2: its SILL IS LOWER (closer to the floor) and the OPENING IS TALLER.",
+      "why_that_is_still_useful": "!! It is real information without a number: the living room has MORE GLASS than the middle room on the same SE façade, so more morning solar gain AND more heat loss. That bears on both the cooling case (no cross-ventilation) and any heat-loss estimate, and it is recorded as a RELATION rather than invented as a figure.",
+      "next": "Estimate from the photos against the known 2500 mm ceiling once they arrive."
     }
   }
 }

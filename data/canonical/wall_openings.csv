@@ -1,10 +1,11 @@
 opening_id,type,in_wall,width_mm,sill_height_mm,head_height_mm,notes
 O1,door,G4C,,,,ванная door
-O2,window,MB,1800,,,middle-room window ⚠ needs SILL + HEAD heights
-O3,window,MC,1800,,,living-room window ⚠ needs SILL + HEAD heights
-O4,door+window,MA,,,,лоджия door + adjacent window block
+O2,window,MB,1800,,,⚠ middle-room window — the owner calls this one STANDARD
+O3,window,MC,1800,,,⚠⚠ living-room window — the owner: HIGHER than O2. Its SILL IS LOWER (closer to the floor) and the opening HEIGHT IS GREATER. No measurements yet; photos to come
+O4a,window,MA,,,,"✅ SPLIT FROM O4 — the лоджия WINDOW portion, WITH a sill"
+O4b,door,MA,,,,"✅ SPLIT FROM O4 — the лоджия glass DOOR, immediately beside it"
 O5,door,⚠ spans R4 → G6,910,,,middle-room door — correctly hostless
 O6,door,G4d,910,,,9.36-room door
-O7,door,G1,,,,✅ туалет door — host settled
-O8,door,G2,1010,,,"✅✅ ENTRANCE door, 1010 — HOST FOUND: it sits IN G2"
-O9,glazing,M2 → M6b,,,,"лоджия glazing — full height AND full length, no wall above or below"
+O7,door,G4C,,,,"✅ туалет door — now in the merged G4C, the same surface as O1"
+O8,door,G2,1010,,,"ENTRANCE door, 1010"
+O9,glazing,M2 → M6b,,,,лоджия glazing — full height AND full length
