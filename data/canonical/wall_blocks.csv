@@ -1,28 +1,28 @@
-wall_id,class,thickness_mm,insulation_mm,run_from_basic_px,run_to_basic_px,developer_plan_length_mm,length_min_mm,length_max_mm,source_of_min_max,notes
-R1a,concrete,250,,"22,57","226,57",1140,,,,top wall above the туалет
-R1b,concrete,250,,"37,40","37,172",,,,,west run beside the туалет
-R2,concrete,250,,"1023,41","1023,237",,,,,right wall by the кухня
-R3,concrete,250,,"421,57","695,57",,,,,top wall above the прихожая
-R4,concrete,250,,"350,305","350,414",1050,,,,"COLUMN, middle room, left"
-R5,concrete,250,,"662,306","662,414",1050,,,,"COLUMN, middle room, right"
-R6,concrete,250,,"38,566","38,739",,,,,left wall by the 9.36 room
-R7,concrete,250,,"1023,650","1023,822",,,,,right wall by the living room
-R8,concrete,250,150,"333,741","333,921",1490,,,,flat | лоджия — at a façade step
-R9,concrete,250,150,"660,744","660,923",1490,,,,at the other façade step
-G2,aerated_block,250,,"226,57","420,57",,,,,"COMMON-CORRIDOR wall, carries O8"
-G3,aerated_block,250,,"697,56","1011,56",3315,,,,wall to the FLAT ABOVE
-G4a,aerated_block,250,,"38,173","38,565",,,,,party wall to the neighbour
-G4b,aerated_block,120,,"46,197","249,197",1140,,,,туалет | ванная
-G4C,aerated_block,120,,"243,40","243,400",,,,,ONE continuous surface down the wet block’s east side — carries O7 AND O1
-G4d,aerated_block,120,,"30,397","335,397",,,,,"G4a → R4, carries O6"
-G5,aerated_block,250,,"1022,238","1022,649",,,,,the BLOCK-JOINT leaf
-G6,aerated_block,75,,"350,311","662,311",1915,,,,"✅ EXTENDED R4 → R5 on the owner’s note — now HOSTS O5, the middle-room door, same logic as G4d/O6"
-G7,aerated_block,75,,"652,410","652,743",3250,,,,"middle room, right partition"
-G8,aerated_block,75,,"340,411","340,743",3250,,,,"middle room, left partition"
-MA,external,300,70,"21,757","319,757",,,,,carries O4a and O4b
-M2,loggia_enclosure,200,0,"32,778","32,982",,,,,лоджия | neighbour’s лоджия
-MB,external,300,70,"345,908","650,908",,,,,carries O2
-MC,external,300,70,"674,840","1039,840",,,,,carries O3
-M6b,loggia_enclosure,200,70,"340,925","340,1068",,,,,лоджия run
-V1,ventilation_shaft,,,"67,70","179,108",,,,,"1140 × 490, THREE channels, in the туалет. Immovable common property"
-V2,ventilation_shaft,,,"635,70","679,205",,,,,"400 × 1140, MEASURED. Between R3 and R5, at the прихожая/кухня boundary"
+wall_id,class,thickness_mm,insulation_mm,run_span_basic_px,run_span_mm_computed,opening_px,material_mm_computed,length_min_mm,length_max_mm,notes
+R1a,concrete,250,,174,1703,0,1703,,,✅ EAST END CORRECTED 226 → 196 on the owner’s marking — it was 294 mm too far east
+R1b,concrete,250,,132,1292,0,1292,,,west run beside the туалет
+R2,concrete,250,,196,1919,0,1919,,,right wall by the кухня
+R3,concrete,250,,274,2682,0,2682,,,top wall above the прихожая
+R4,concrete,250,,109,1067,0,1067,,,"COLUMN, middle room, left"
+R5,concrete,250,,108,1057,0,1057,,,"COLUMN, middle room, right"
+R6,concrete,250,,173,1693,0,1693,,,left wall by the 9.36 room
+R7,concrete,250,,172,1684,0,1684,,,right wall by the living room
+R8,concrete,250,150,180,1762,0,1762,,,flat | лоджия
+R9,concrete,250,150,179,1752,0,1752,,,at the façade step
+G2,aerated_block,250,,225,2203,99,1233,,,"✅ AS YOU DREW IT — LEFT block ≈499 mm, then O8 the entrance door ≈969 (printed 1010), then RIGHT block ≈734 (printed 710). Both computed figures land within 4% of the printed chain"
+G3,aerated_block,250,,314,3074,0,3074,,,wall to the FLAT ABOVE
+G4a,aerated_block,250,,392,3837,0,3837,,,party wall to the neighbour
+G4b,aerated_block,120,,203,1987,0,1987,,,туалет | ванная
+G4C,aerated_block,120,,360,3524,136,2193,,,"one surface, TWO openings: O7 to the туалет and O1 to the ванная. ⚠ opening positions derived from the detected block gaps, not printed"
+G4d,aerated_block,120,,305,2986,86,2144,,,"G4a → R4, with O6 occupying its east end"
+G5,aerated_block,250,,411,4023,0,4023,,,the BLOCK-JOINT leaf
+G6,aerated_block,75,,312,3054,93,2144,,,"R4 → R5, with O5 occupying its WEST end (printed 910), then the 1915 recess"
+G7,aerated_block,75,,333,3260,0,3260,,,"middle room, right partition"
+G8,aerated_block,75,,332,3250,0,3250,,,"middle room, left partition"
+MA,external,300,70,298,2917,136,1586,,,O4a the window portion then O4b the balcony door
+M2,loggia_enclosure,200,0,204,1997,0,1997,,,лоджия | neighbour’s лоджия
+MB,external,300,70,305,2986,165,1370,,,"O2, the middle-room window"
+MC,external,300,70,365,3573,178,1831,,,"O3, the living-room window"
+M6b,loggia_enclosure,200,70,143,1400,0,1400,,,лоджия run
+V1,ventilation_shaft,,,,,,,,,V1 1140x490 three channels in the туалет; V2 400x1140 measured
+V2,ventilation_shaft,,,,,,,,,V1 1140x490 three channels in the туалет; V2 400x1140 measured

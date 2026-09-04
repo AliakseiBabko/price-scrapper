@@ -430,5 +430,22 @@
       "3. They cannot be chased or drilled, unlike the aerated block around them - so no service may cross them."
     ],
     "consequence_for_quantities": "A finish-area calculation that iterates walls only will UNDER-count. The shafts must be added as surface and subtracted as floor."
+  },
+  "junction_correction_2026_09_04": {
+    "what": "The owner marked G2 as TWO BLOCKS with the entrance door between them, and said my junction with R1a was misplaced. He was right.",
+    "my_error": "I had the R1a|G2 junction at basic x=226. His left block starts at ~196, so the junction sat 30 px - about 294 mm - TOO FAR EAST, which ate most of G2's left block and lengthened R1a by the same amount.",
+    "his_marking_verified_independently": {
+      "method": "Scale taken from G8's printed 3250 mm over its 332 basic px = 9.789 mm/px.",
+      "G2_left_block_mm": 499,
+      "O8_opening_mm_computed": 969,
+      "O8_printed": 1010,
+      "O8_error_pct": 4.0,
+      "G2_right_block_mm_computed": 734,
+      "right_block_printed": 710,
+      "right_block_error_pct": 3.4,
+      "conclusion": "Both computable figures land within 4% of the plan's own printed chain, so the marking is confirmed by the drawing and not just accepted on his word."
+    },
+    "WHY_IT_SLIPPED_and_the_rule": "!! I placed that junction from the DETECTED red/green blob edges on his colour markup. A marker stroke is roughly 5 px wide at that scale, so a blob edge is good to about 50 mm - not to 5 mm. => BLOB EDGES LOCATE A WALL; THEY MUST NOT FIX A JUNCTION. Only a printed dimension may do that. Every junction placed the same way carries the same slop, so they are flagged for checking: G4C's two openings (derived from gaps, not printed at all), MA's O4a/O4b boundary, whether G6's O5 really starts AT R4, and where G4d's O6 begins.",
+    "representation_added": "Every wall is now drawn SOLID where material exists and DASHED across its openings, so both facts show at once: the wall is ONE piece, and the material stops at the opening. The dashed span over O8 lands on the printed 1 010 and the solid block beside it on the printed 710, which is a visual check anyone can repeat."
   }
 }
