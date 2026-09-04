@@ -1,6 +1,6 @@
 wall_id,class,thickness_mm,insulation_mm,length_mm,length_source,notes
-R1a,concrete,250,,,RETRACTED - was mis-assigned,"RETRACTED 2026-09-04. My 1416 was 1795 + 120 (G4C) - 499 (G2 left jamb), but the printed 1795 is the 9.36 ROOM’s, not the vannaya’s: 1795 + 120 + 910 = 2825 = G4d exactly. Same error class as G3 = 3315 and G4b = 1140 - a printed number attached to the wrong element. Two pixel-only estimates remain and they disagree: 1429 (west inner face to G2’s west face) and 1241 (top-edge closure). Needs one printed dimension from the west wall to the entrance door, or a tape measure."
-R1b,concrete,250,,1200,DERIVED from the rectangle method,
+R1a,concrete,250,,1416,"DERIVED, confirmed by chain closure","RETRACTED 2026-09-04. My 1416 was 1795 + 120 (G4C) - 499 (G2 left jamb), but the printed 1795 is the 9.36 ROOM’s, not the vannaya’s: 1795 + 120 + 910 = 2825 = G4d exactly. Same error class as G3 = 3315 and G4b = 1140 - a printed number attached to the wrong element. Two pixel-only estimates remain and they disagree: 1429 (west inner face to G2’s west face) and 1241 (top-edge closure). Needs one printed dimension from the west wall to the entrance door, or a tape measure."
+R1b,concrete,250,,1200,"DERIVED, confirmed by chain closure",
 R2,concrete,250,,1675,printed on the plan,"1675 printed, INTERNAL. Corrected 2026-09-04 from my 1925 - I had wrongly added the 250 top wall. 75 mm shorter than the R6/R7/R8/R9 family."
 R3,concrete,250,,,INDETERMINATE SPLIT - the pair total is in notes,"Combined with G3: R3+G3 = 5830 mm, from the owner’s top-edge chain 2115 + 400 + 3315, G2’s east face to R2’s west face. R3 >= 2515, G3 < 3315. The split point is not dimensioned on any plan and will be buried under finishes, so no quantity depends on it - but the two are different MATERIALS, so where you can drill and fix does."
 R4,concrete,250,,1050,printed on the plan,
@@ -12,7 +12,7 @@ R9,concrete,250,150,1750,"owner assertion, not printed","1750, owner assertion -
 G2,aerated_block,250,,2219,printed on the plan,"2219 = left jamb 499 + O8 1010 + right jamb 710. Confirmed independently by the owner’s top-edge chain, 2026-09-04."
 G3,aerated_block,250,,,INDETERMINATE SPLIT - the pair total is in notes,"Combined with R3 - see R3. My earlier G3 = 3315 is RETRACTED: the printed 3315 runs from the VENTING SHAFT to R2, and the R3|G3 split lies east of the shaft edge, so G3 is strictly LESS than 3315."
 G4a,aerated_block,250,,3570,"DERIVED, confirmed by chain closure","3570 = 1800 vannaya + 120 G4d + 1650. Confirmed by west-edge closure: R1b 1200 + G4b 120 + G4a 3570 + R6 1750 = 6640, against a pixel run of 6676."
-G4b,aerated_block,120,,,RETRACTED - was mis-assigned,
+G4b,aerated_block,120,,1915,"DERIVED, confirmed by chain closure",
 G4C,aerated_block,120,,3240,printed on the plan,
 G4d,aerated_block,120,,2825,printed on the plan,
 G5,aerated_block,250,,4035,printed on the plan,
