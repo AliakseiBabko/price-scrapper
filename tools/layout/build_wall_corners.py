@@ -53,7 +53,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from check_wall_junctions import (MM_PER_PX, RUNS, TOL_MM,  # noqa: E402
                                   NEAR_MM, load, orient,
-                                  successor_groups, is_dominant_pair)
+                                  successor_groups, is_dominant_pair,
+                                  butts_not_corners)
 
 LEDGER = os.path.join(os.path.dirname(RUNS), 'wall_corners.csv')
 FIELDS = ['corner_id', 'kind', 'wall_a', 'wall_b', 'owner',
@@ -99,6 +100,8 @@ def classify(walls):
                 continue
             if not is_dominant_pair(h, v, groups, byid, near):
                 continue          # this junction belongs to a successor sibling
+            if butts_not_corners(h, v):
+                continue          # a thin partition on a frame face: a butt
             ah, av = h['t'] / 2.0 / MM_PER_PX, v['t'] / 2.0 / MM_PER_PX
             h_int = (fv - lh > av + tol) and (hh - fv > av + tol)
             v_int = (fh - lv > ah + tol) and (hv - fh > ah + tol)
