@@ -1,3 +1,0 @@
-void_id,in_room,length_mm,depth_mm,between,source,notes
-Z1,туалет,200,400,R1b and V1,"owner, 2026-09-04, ""close to twenty centimeters as we have in the case of P2""","THE RISER ZONE. V1 touches R1a but stands clear of R1b. P1 sits in this strip, so it carries the hot, cold, sewer and towel-rail tails. A boxed-out riser to build, tile around and lose floor area to - not background."
-Z2,туалет,255,400,V1 and the туалет east wall,DERIVED as the residual of 1140 - 200 - 685,!! DOES NOT CLOSE. If V1 is instead flush to the east wall it is 940 long and Z2 does not exist. Carried explicitly rather than absorbed into V1. One photo settles it.

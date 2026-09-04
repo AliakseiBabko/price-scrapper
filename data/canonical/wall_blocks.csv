@@ -7,8 +7,8 @@ R4,concrete,250,,1050,,1050,printed on the plan,
 R5,concrete,250,,1050,,1050,printed on the plan,
 R6,concrete,250,,1750,,1750,printed on the plan,
 R7,concrete,250,,1750,,1750,printed on the plan,
-R8,concrete,250,150,1490,600,1790,printed on the plan,"1750, owner assertion, not printed. The printed 1490 is the free end to MB’s INNER face; 1490 + 300 = 1790. The 40 mm difference is the RC column not finishing flush with the block facade, taken up under the 70 mm insulation."
-R9,concrete,250,150,1490,300,1790,printed on the plan,"1750, owner assertion - see R8."
+R8,concrete,250,150,1490,600,1790,printed on the plan,"clear 1490 printed (the MA-to-MB spacing). SOLID 1790: the frame owns both its corners, +300 each. The owner measured 1750 - the 40 mm short of the geometric 1790 is his own explanation, the column not finishing flush with the block facade and the offset taken up under the 70 mm insulation."
+R9,concrete,250,150,1490,300,1790,printed on the plan,"clear 1490 printed, SOLID 1790 - see R8."
 G2,aerated_block,250,,2219,,2219,printed on the plan,"2219 = left jamb 499 + O8 1010 + right jamb 710. Confirmed independently by the owner’s top-edge chain, 2026-09-04."
 G3,aerated_block,250,,,,,INDETERMINATE SPLIT - the pair total is in notes,"Combined with R3 - see R3. My earlier G3 = 3315 is RETRACTED: the printed 3315 runs from the VENTING SHAFT to R2, and the R3|G3 split lies east of the shaft edge, so G3 is strictly LESS than 3315. CORNER: G3 owns the L-corner with R2 and gains its 250, so the pair’s SOLID run is 5830 + 250 = 6080 - which is exactly what the owner’s own top-edge chain does when it appends R2’s thickness after the 3315."
 G4a,aerated_block,250,,3570,,3570,"DERIVED, confirmed by chain closure","3570 = 1800 vannaya + 120 G4d + 1650. Confirmed by west-edge closure: R1b 1200 + G4b 120 + G4a 3570 + R6 1750 = 6640, against a pixel run of 6676."
