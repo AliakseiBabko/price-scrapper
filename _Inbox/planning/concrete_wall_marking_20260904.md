@@ -129,6 +129,43 @@ external** — which would explain both the colour choice and his *"up to 200 be
   (`00_Master/Family_Requirements.md`, §10). **If the лоджия walls already carry 70–100 mm, that changes the
   starting point of that calculation.**
 
+## ✅ The wall-reading key — `_assets/wall_reading_key.png`
+
+**The owner asked for an image showing my naming and my current understanding of the wall placement, so he can
+answer precisely. That is it.** Built on his own three-colour markup so his colours show through, with:
+
+- **my segment IDs** R1–9, G1–8, M1–6 as circles;
+- **◇ 1–10 — the MATERIAL JUNCTIONS**, drawn as diamonds so they never read as segments. Each marks where I
+  believe the material changes **along one continuous wall**, which is the thing that cannot be read from the
+  drawing and therefore the thing worth confirming;
+- **what is on the other side of each wall** — neighbour flat, block joint, corridor, façade;
+- **the confirmed orientation**, with the лоджия's due-south glazing called out.
+
+### The ten junctions, and the question at each
+
+**For each: is there a real joint there, and is my position about right?**
+
+| ◇ | wall | my reading |
+| :--- | :--- | :--- |
+| 1 | top | G2 → R3 |
+| 2 | top | R3 → G3 |
+| 3 | right (block joint) | R2 → G5 |
+| 4 | right (block joint) | G5 → R7 |
+| 5 | left (in-block party) | R1 → G4 |
+| 6 | left (in-block party) | G4 → R6 |
+| 7 | middle room, left wall | R4 → G8 |
+| 8 | middle room, left wall | G8 → R8 |
+| 9 | middle room, right wall | R5 → G7 |
+| 10 | middle room, right wall | G7 → R9 |
+
+### ⚠️ Where I am least sure, stated on the image itself
+
+- **R1 and G4 came out L-shaped in the detection**, so **◇ 5 and ◇ 6 may be misplaced.**
+- **G4 covers the whole ванная/туалет block as ONE region.** If those walls differ from each other — and the
+  plan prints 120 mm there against 75 mm elsewhere — that single region is hiding the difference.
+- **And the open question that matters most: is anything I have labelled NOT a wall?** The insulation is
+  already excluded by the owner's own instruction, but a короб or a fixture outline could have been caught.
+
 ## ⚠️ What still needs the owner, before promotion to a constraint
 
 1. **Is the green perimeter a PARTY WALL rather than an external one?** R2/**G5**/R7 on the right, G2/R3/**G3**

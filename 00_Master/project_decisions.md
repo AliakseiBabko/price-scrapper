@@ -36,8 +36,21 @@ Verbatim source and parsed fields: **`data/canonical/building_spec.json`**.
 - **⚠️⚠️ AND THAT LOCATES THE ONE WALL THAT DOES.** On the in-block (left) party wall the upper part is **wet-to-wet** — the neighbour's 4.43 m² bathroom, bath against the wall, facing this flat's туалет and ванная, which is the correct pairing. **But the lower part puts the neighbour's habitable room 14.64 directly against this flat's 9.36 m² room — the adults' bedroom in Phase 1 and the boy's room in Phase 2.** A habitable room against a bedroom is the classic bad pairing. → **This is where soundproofing money belongs.** ⚠️ *Their room's function is not readable from the plan — worth asking, because if it is their living room it is the worst case.* Priority list: [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]].
 - **✅ The MIDDLE ROOM has NO PARTY WALLS AT ALL** — both side walls internal to this flat, прихожая above, façade with a window below. **So it is the acoustically most protected habitable room in the flat, and it is glazed — which satisfies the vault's own `kids.quietest_brightest_room` rule, and `v1` already puts the children there.** A fourth independent reason for a choice made on other grounds.
 - **✅ And the two mirrored blocks are the MECHANISM behind the left/right handedness problem** already recorded — flats of the same layout exist in both handednesses, which is why a measured comparable may be flipped.
-- **⚠️ ORIENTATION IS NOT YET CONFIRMED and must not be relied on.** A red arrow points to the plan's lower-left, which the owner states is south — *“probably southeast… I will recheck it.”* **If lower-left is south, the façade faces roughly SE and the лоджия is the most southerly element** — which would materially help the frost-free-without-heating target. Contingent.
-- **⚠️ Basement storage rooms exist.** UNKNOWN whether one belongs to this flat — worth establishing, because it changes what the лоджия has to absorb.
+- **✅⚠️ ORIENTATION CONFIRMED 2026-09-04: the arrow to the plan's lower-left is SOUTH.** Derived from that single datum:
+
+  | surface | faces |
+  | :--- | :--- |
+  | **лоджия main angled glazing** | **DUE SOUTH (180°)** |
+  | façade — all three room windows | **SE (135°)** |
+  | right wall — block joint (party, blind) | NE (45°) |
+  | left wall — in-block party | SW (225°) |
+  | top wall — corridor / flat above | NW (315°) |
+
+- **✅⚠️⚠️ THE ЛОДЖИЯ FACES DUE SOUTH — the most solar-exposed element in the flat.** That is the **best possible result for the standing target of keeping it frost-free through a Belarusian winter with no heating on passive insulation alone**, and it belongs *in* that calculation rather than as a footnote. See `00_Master/Family_Requirements.md` §10.
+- **The three rooms face SE**: morning to early-afternoon sun, **no west-facing evening overheating**. Solar shading here is a morning problem, not an evening one.
+- **⚠️ But SE glazing plus NO cross-ventilation means summer heat cannot be purged by a cross-draught.** That strengthens the case for cooling — and it is why the concrete/block map matters, since **an AC chase cannot pass through the frame.**
+- **Only the SE façade and the S лоджия are external.** With three party walls and a warm orientation the flat is **thermally very well placed** — a reason not to import heat-loss assumptions from a source about a corner flat with two cold façades.
+- **⚠️⚠️ NO BASEMENT STORE — confirmed 2026-09-04.** → **The лоджия must absorb the whole DIY/hobby storage brief on its own**, and its 6.05 m² (4.24 counted) is the household's only non-room storage volume. That raises the stakes on the лоджия fit-out and on the vault's own warning against treating a лоджия as a dumping ground (`balcony.functional_use_beyond_storage`).
 
 > [!CAUTION]
 > **⚠️⚠️ A CORRECTION TO MY OWN REASONING, AND IT CUTS AGAINST THE CURRENT DESIGN.** Two rounds earlier I argued that the comparable's replanning-restraint finding *"is not a cost argument here"* because *"this flat is unbuilt — moving a wall that does not exist yet costs a drawing revision; moving one that does costs demolition, waste removal, and an approval."*

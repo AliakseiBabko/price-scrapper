@@ -22,7 +22,7 @@
       "why_it_matters": "!! Directly answers a Round 7 finding: the specify-large-and-cut technique's third motive is LIFT ACCESS, and the cut dimension derives from the INSTALLED height. Two goods/passenger lifts means large panels and full-height joinery can be brought up - so that constraint is relaxed here. Confirm the goods lift's internal dimensions before relying on it."
     },
     "basement_storage_ru": "кладовые помещения в подвальном этаже",
-    "basement_storage_note": "Storage rooms exist in the basement. UNKNOWN whether one belongs to this flat - worth establishing, because it changes what the лоджия has to absorb (the owner's brief makes the лоджия a DIY/hobby store).",
+    "basement_storage_note": "CONFIRMED 2026-09-04: this flat does NOT get a basement store. !! So the лоджия must absorb the whole DIY/hobby storage brief on its own, and its 6.05 m² (4.24 counted) is the only non-room storage volume the household has.",
     "entrances_note": "Entrances are on the inner side of the buildings."
   },
   "ceiling_height_mm": {
@@ -112,9 +112,37 @@
       "cross_ventilation": "NONE POSSIBLE. A single-aspect flat cannot be cross-ventilated, which makes mechanical fresh air a requirement rather than an upgrade - and that collides with the 2500 mm ceiling. See the ducting page."
     },
     "orientation": {
-      "status": "!! UNCONFIRMED - the owner says he will recheck. DO NOT rely on it.",
-      "owner_statement": "A red arrow on the drawing points to the LOWER-LEFT of the plan and the owner states that is south, \"probably southeast - I am not sure, frankly. I will recheck it.\"",
-      "if_lower_left_is_south": "then the façade faces roughly SOUTH-EAST, the block-end wall faces north-east, and the лоджия - at the bottom-left - is the most southerly element in the flat, i.e. it gets the best sun. That would materially help the owner stated goal of keeping it frost-free through winter without heating. ALL OF THAT IS CONTINGENT on the orientation being confirmed."
+      "status": "CONFIRMED by the owner 2026-09-04.",
+      "datum": "The red arrow on the block floor plan points to the plan's LOWER-LEFT, and that is SOUTH.",
+      "derivation": "bearing = (45 - math_angle) mod 360, fixed by that one datum.",
+      "surfaces": {
+        "facade_bottom_all_three_room_windows": {
+          "bearing_deg": 135,
+          "faces": "SE"
+        },
+        "loggia_main_angled_glazing": {
+          "bearing_deg": 180,
+          "faces": "DUE SOUTH"
+        },
+        "right_wall_block_joint_party_no_windows": {
+          "bearing_deg": 45,
+          "faces": "NE"
+        },
+        "left_wall_in_block_party": {
+          "bearing_deg": 225,
+          "faces": "SW"
+        },
+        "top_wall_corridor_and_flat_above": {
+          "bearing_deg": 315,
+          "faces": "NW"
+        }
+      },
+      "consequences": [
+        "!! THE ЛОДЖИЯ GLAZING FACES DUE SOUTH - the most solar-exposed element in the flat. That is the best possible result for the owner stated target of keeping it frost-free through a Belarusian winter with no heating, on passive insulation alone, and it should be an input to that calculation rather than an afterthought.",
+        "The three rooms face SE: morning to early-afternoon sun, and NO west-facing late-afternoon overheating. Solar shading is a morning problem here, not an evening one.",
+        "!! But SE glazing plus NO cross-ventilation (single-aspect) means summer heat cannot be purged by a cross-draught. That strengthens the case for cooling, and the owner has already raised routing an AC line - which is why the concrete/block map matters, since a chase cannot pass through the frame.",
+        "Only the SE façade and the S лоджия are external; the other three sides are party walls. Combined with a warm orientation, the flat is thermally very well placed - relevant to sizing anything, and a reason not to copy heat-loss assumptions from a source about a corner flat with two cold façades."
+      ]
     },
     "access": "The lift core and stairs are in the centre of the block; this flat is at the far end of the corridor from them. A carry distance for materials and for anything the goods lift delivers."
   },
