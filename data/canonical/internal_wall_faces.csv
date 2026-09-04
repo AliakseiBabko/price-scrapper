@@ -1,0 +1,34 @@
+segment_id,room_code,room_ru,face,belongs_to_wall,developer_plan_mm,length_min_mm,length_max_mm,source_of_min_max,needs_splitting,notes
+WC-N,WC,туалет,N,R1,1140,,,,,printed on the plan
+WC-E,WC,туалет,E,G1,,,,,,"⚠ the vault holds 1090, but 1.24/1.14 = 1088 — so 1090 may have been DERIVED FROM THE AREA. Needs a printed source."
+WC-S,WC,туалет,S,G4b,1140,,,,,printed
+WC-W,WC,туалет,W,R1 (left leg),,,,,,same doubt as WC-E
+WC-VB,WC,туалет,VB,вентблок,,,,,,⚠ THE ВЕНТБЛОК ADDS THREE MORE INTERNAL FACES inside this room: 1140 wide × 490 deep. They are surface area too.
+BA-N,BA,ванная,N,G4b,,,,,,
+BA-E,BA,ванная,E,G4c,1800,,,,,printed chain 600 + 710 + 490
+BA-S,BA,ванная,S,G4d,,,,,,
+BA-W,BA,ванная,W,G4a,1800,,,,,"printed chain, opposite face"
+SM-N,SM,жилая 9.36,N,G4d + door,2825,,,,,"printed chain 1795 + 120 + 910 — ⚠ the 910 is a DOOR OPENING, so this face is at least 2 segments"
+SM-E,SM,жилая 9.36,E,G8 / partition,,,,,,
+SM-S,SM,жилая 9.36,S,M1 + лоджия door,2825,,,,YES,printed chain 1120 + 1380 + 150 + 175 — ⚠ contains the лоджия door/window unit and the M7 pier
+SM-W,SM,жилая 9.36,W,G4a / R6,,,,,,⚠ printed 1650 + 1750 = 3400 is the LEFT chain — confirm whether it is this face
+MD-N,MD,жилая 16.63,N,G6 + door,,,,,YES,"printed 250 + 910 + 1915 + 250 — ⚠ the 910 is a door and the 1915 a RECESS, so this face is several segments plus a niche"
+MD-E,MD,жилая 16.63,E,R5 / G7 / R9,5790,,,,,printed chain 1050 + 3250 + 1490
+MD-S,MD,жилая 16.63,S,M5 / M6a + window,3000,,,,,printed 600 + 1800 + 600 — ⚠ the 1800 is the WINDOW
+MD-W,MD,жилая 16.63,W,R4 / G8 / R8,5790,,,,,"printed chain, opposite face"
+LV-N,LV,жилая 19.49,N,кухня boundary,,,,,,⚠ in v0 this is the кухня/living division; in v1 it is removed
+LV-E,LV,жилая 19.49,E,R2 / G5 / R7,,,,,,⚠ printed 4035 + 1750 nearby — needs reading. THE BLOCK-JOINT WALL
+LV-S,LV,жилая 19.49,S,M3 / M4 + window,,,,,,⚠ printed 855 / 1800 / 660 / 5820 nearby — needs reading. Contains the WINDOW
+LV-W,LV,жилая 19.49,W,G7 / R9,,,,,,
+KI-N,KI,кухня 5.24,N,G3,3315,,,,,printed — ⚠ verify it is this face
+KI-E,KI,кухня 5.24,E,R2,1675,,,,,printed — ⚠ verify
+KI-S,KI,кухня 5.24,S,living boundary,,,,,,
+KI-W,KI,кухня 5.24,W,вентблок 400×1140,,,,,,"⚠ the second вентблок stands here — 400 × 1140, MEASURED. Adds faces."
+HA-N,HA,прихожая 9.97,N,G2 / R3,,,,,YES,⚠ printed 1010 (entrance door) + 710 + 250 + 2115 — needs reading
+HA-E,HA,прихожая 9.97,E,вентблок / кухня,,,,,,
+HA-S,HA,прихожая 9.97,S,G6 / MD north,,,,,,
+HA-W,HA,прихожая 9.97,W,G4c / G1,,,,,YES,⚠ L-SHAPED ROOM — this face is interrupted; probably needs splitting
+LO-N,LO,лоджия,N,M1,,,,,,⚠ outside the warm perimeter — surfaces still needed for the fit-out
+LO-E,LO,лоджия,E,M6b / R8,,,,,,
+LO-S,LO,лоджия,S,glazing,,,,,YES,⚠ ANGLED — the glazed face is not orthogonal. Faces DUE SOUTH.
+LO-W,LO,лоджия,W,M2,,,,,,party wall to the neighbour’s лоджия
