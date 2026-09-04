@@ -429,7 +429,21 @@
       "2. They add surface INSIDE a room rather than bounding it. V1 stands in the туалет, so it has three finishable faces plus a top, and it REDUCES floor area while ADDING wall area - the opposite of how a wall behaves. !! That is exactly why the туалет has ~1.24 m² of usable floor rather than 1.8.",
       "3. They cannot be chased or drilled, unlike the aerated block around them - so no service may cross them."
     ],
-    "consequence_for_quantities": "A finish-area calculation that iterates walls only will UNDER-count. The shafts must be added as surface and subtracted as floor."
+    "consequence_for_quantities": "A finish-area calculation that iterates walls only will UNDER-count. The shafts must be added as surface and subtracted as floor.",
+    "CORRECTION_floor_band_2026_09_04": {
+      "what_was_wrong": "V1 and V2 were measured off the DETAILED plan, which is the floors-10-and-up variant with DOUBLED vent sections. Those footprints are not this flat's.",
+      "V2_corrected": {
+        "this_flat_4th_floor_mm": [
+          421,
+          685
+        ],
+        "area_m2": 0.288,
+        "channels": 3,
+        "was_recorded_as": "400 × 1140 = 0.456 m² (the 10+ variant, printed on the detailed plan)",
+        "confidence": "HIGH - the 0.168 m² difference matches the 0.18 predicted independently from the two plans' area deltas, and the offset and x extent agree."
+      },
+      "V1_flagged": "⚠ NOT corrected. My basic-plan reading gives ~675 × 362 = 0.244 m², but that implies a 0.315 m² difference against the recorded 1140 × 490, where 0.18 is expected. The reading does not reconcile, so V1 NEEDS A CAREFUL RE-MEASUREMENT on the basic plan. The recorded 1140 × 490 is meanwhile known to be the WRONG SUB-TYPE, so it should not be relied on either."
+    }
   },
   "junction_correction_2026_09_04": {
     "what": "The owner marked G2 as TWO BLOCKS with the entrance door between them, and said my junction with R1a was misplaced. He was right.",
@@ -457,7 +471,13 @@
       "printed": false,
       "how_measured": "Off the raster at 12.61 mm per detailed px. !! That scale is confirmed TWO INDEPENDENT WAYS: from G8's printed 3250 over 332 basic px, and separately from V2's printed 1140, which measures back to 1135 (0.4% error). The printed 200 offset measures back to 214 (7%). So call the passway 950-1000 mm.",
       "flanks": "V2 (common-property ventilation shaft) on one side, R5 (monolithic RC frame column) on the other.",
-      "HARD_CONSTRAINT": "!!! BOTH FLANKS ARE IMMOVABLE, SO THE PASSWAY CANNOT BE WIDENED - not by any layout, in any variant, at any budget. And it is the ONLY route from the прихожая into the кухня/living zone, so every person and every piece of furniture passes through ~958 mm."
+      "HARD_CONSTRAINT": "!!! BOTH FLANKS ARE IMMOVABLE, SO THE PASSWAY CANNOT BE WIDENED - not by any layout, in any variant, at any budget. And it is the ONLY route from the прихожая into the кухня/living zone, so every person and every piece of furniture passes through ~958 mm.",
+      "CORRECTED_2026_09_04": {
+        "was": "~958 mm",
+        "now": "~1410 mm",
+        "why": "The passway is the gap between V2's end and R5. V2 is 455 mm SHORTER on the 4th floor than on the detailed plan I measured from, so the gap is that much wider.",
+        "consequence": "!! THE \"NARROWER THAN THE VAULT'S 1100 mm MINIMUM\" FLAG IS WITHDRAWN. At ~1410 mm the passway is 310 mm OVER that rule, not 140 under it. The hard-constraint point still stands - both flanks are immovable, so it cannot be widened - but it is a comfortable width rather than a tight one, and the furniture-access worry is much reduced."
+      }
     },
     "consequences": [
       "The vault's corridor.min_clear_width rule is 1100 mm. This is ~958 - UNDER by about 140. That rule concerns CORRIDOR width rather than a zone-to-zone passway, so it is a FLAG and not a breach - but this is the narrowest point on the flat's main internal route and it is permanent.",

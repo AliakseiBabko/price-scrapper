@@ -9,4 +9,4 @@ O6,door,G4d,910,,,9.36-room door
 O7,door,G4C,,,,туалет door
 O8,door,G2,1010,,,entrance door
 O9,glazing,M2 → M6b,,,,"лоджия glazing, full height AND full length"
-O10,passway,DIVIDER: V2 → R5,958,,,"!! THE PASSWAY from the прихожая into the кухня/living zone. NOT dimensioned on the plan; ~958 mm measured off the raster at a scale confirmed two ways, so ±80. BOTH FLANKS IMMOVABLE - V2 is a common-property shaft and R5 is an RC frame column - SO IT CANNOT BE WIDENED. It is the only route into that zone, and the narrowest point on the flat's main internal route."
+O10,passway,DIVIDER: V2 → R5,1410,,,"!! THE PASSWAY from the прихожая into the кухня/living zone. CORRECTED 2026-09-04 from ~958 to ~1410: V2 is 455 mm shorter on the 4th floor than on the detailed plan. NOT dimensioned on either plan. Both flanks IMMOVABLE (V2 shaft, R5 column) so it cannot be widened, but at ~1410 it is comfortably over the vault's 1100 corridor minimum."

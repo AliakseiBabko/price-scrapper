@@ -141,7 +141,14 @@
         "жилая средняя": -0.01,
         "total": 0.35
       },
-      "unresolved": "Which revision the built flat will follow. The 0.35 m2 spread sits inside the +/-25 mm dimensional band, so it does not change any layout decision, but it does mean no single area figure here is exact."
+      "unresolved": "RESOLVED 2026-09-04 - see RESOLVED_2026_09_04. It was a floor band, not a revision. The ±25 mm note still stands for everything else.",
+      "RESOLVED_2026_09_04": {
+        "answer": "!!! IT IS NOT A REVISION DIFFERENCE. IT IS A FLOOR-BAND DIFFERENCE, and the BASIC plan (3Б/2+, 69.44) is the one that matches THIS FLAT on the 4th floor.",
+        "owner_evidence": "The owner: the DETAILED plan draws TWO ventilation shafts together, which is specific to floors 10 and up. His flat is on the 4th, so it has ONE section in each place.",
+        "arithmetic_that_closes_it": "The repo already recorded that the doubled section appears in BOTH places - the туалет and between the kitchen zone and the laundry/hallway zone. туалет +0.18 and прихожая +0.18 = 0.36, against a total delta of 0.35. So the 0.35 m² IS the two second vent sections at ~0.18 m² each.",
+        "independently_confirmed": "Measured on the plans themselves: V2 is 400 × 1140 = 0.456 m² on the detailed plan and 421 × 685 = 0.288 m² on the basic one - a difference of 0.168 m², which lands on the 0.18 predicted from the area deltas. The 200 mm offset from the top wall and the x extent agree on both plans, so registration is not the cause; the shaft is genuinely shorter.",
+        "which_plan_for_what": "USE THE BASIC PLAN for the vent shafts, the туалет and прихожая areas, and the total - it is this flat. USE THE DETAILED PLAN for every dimension, because it is still the ONLY dimensioned source. ⚠ But treat its vent-shaft footprints and its туалет/прихожая areas as the WRONG SUB-TYPE."
+      }
     },
     "rooms_note": "Areas below are from the DETAILED plan (69.09 total). The basic plan prints туалет 1.42, прихожая 9.97, жилая 16.63 and totals 69.44."
   },
