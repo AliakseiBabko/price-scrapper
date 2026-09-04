@@ -541,5 +541,23 @@
       "THE_CONSTRAINT_THAT_BITES": "!!! THE TAILS ARE ALREADY POSITIONED, SO THEY FIX WHERE THE RAIL CAN GO. Moving it means extending pipework, and both routes are poor here: chasing into a 120 mm aerated-block wall between two wet rooms, or running in the floor - where THE SCREED IS ALREADY LAID with the heating pipes in it. => A 120 mm wall plus an already-laid screed leaves very little room to relocate the rail. Decide the ванная layout AROUND the tails rather than expecting to move them, and find their exact position BEFORE tiling.",
       "and_it_is_an_advantage_too": "The rail not being installed is good news: the owner picks it, rather than inheriting the developer's. The vault's towel-rail content - the sustained-run acceptance test, and hydronic versus electric - is therefore still live and usable rather than moot."
     }
+  },
+  "the_loggia_is_not_rectangular_2026_09_04": {
+    "status": "DERIVED from the owner’s own readings, 2026-09-04",
+    "finding": "The лоджия is a TRAPEZOID, not a rectangle. Its west side (M2) is 1850 mm; its east side is M6b 1170 + R8 1490 = 2660 mm. Over MA’s 2825 mm width it therefore splays 810 mm.",
+    "how_it_was_found": "The owner gave M6b = 1170 and then said \"if you continue this line you get 1490 to the external wall plus MA’s insulation\". That continuing segment is R8, which the plan had already printed as 1490 - so his reading confirmed R8 from the far end. But summing his own two figures against M2 gave 2660 versus 1850, and the two cannot both be right in a rectangle.",
+    "what_it_explains": "!! Why the plan draws the O9 glazing line DIAGONAL. I had rendered that diagonal in every version since v8 and never explained it; the splay is the reason. This is a case of the drawing having told me something for six versions that I only read once the owner’s numbers forced the arithmetic.",
+    "consequence": "O9 glazing run = hypot(2825, 810) = 2939 mm, not MA’s 2825. My pixel run of the diagonal gives 3130, agreeing to 192 mm. Since the entire south face is floor-to-ceiling glass facing due south, and the frost-free-without-heating target rests almost entirely on the glazing specification, this ~4% underestimate matters for the glazing quote and for the heat-loss sum.",
+    "still_open": "The лоджия’s printed 6.05(4.24) is an AREA and so is not evidence under the owner’s standing rule. It is not used here and must not be used to check the splay."
+  },
+  "length_round_2026_09_04": {
+    "status": "23 of 25 wall lengths now carry a figure",
+    "from_the_owner_printed": "R6 1750 · M2 1850 · M6b 1170 · MA 2825 · MB 3000 (=1800+600+600) · MC 3315 (=1800+855+660) · O2 = O3 = 1800 · O4a+O4b = 1380 as a PAIR only",
+    "MA_closed_twice_over": "The owner argued from the rectangle rule that MA must equal G4d, the opposite side of the 9.36 room, = 2825. The plan’s own printed chain then reads 1120 + [1380 O4a+b] + 150 + 175 = 2825 - and the 1380 in that chain IS his opening pair. So MA = 2825 with 1380 of opening and 1445 of solid, and G4d’s 2825 stops being an uncertain assignment: CONFIRMED.",
+    "derived": "R2 ≈ 1925 = the кухня’s printed depth 1675 + the 250 top wall (pixel run 1919, agreeing to 6 mm). G4a ≈ 3570 = 1800 ванная + 120 G4d + 1650, but the pixel run is 3837 - the 267 mm gap sits at the TOP where G4a meets R1b/G4b, the same undimensioned junction as R1a|G2, so G4a is flagged not settled. G3 3315 gains a second support: MC is also 3315, so if the east block is a rectangle the two match.",
+    "still_unknown": "R3 has no length at all. The printed \"≥2 115\" at the top gives 250 + 2115 = 2365 against a pixel run of 2682, and the ≥ sign means it is a clearance, not a wall run. G4b’s length stays RETRACTED - the 1140 was the туалет’s width, not the wall’s.",
+    "the_one_measurement_that_would_close_the_most": "!! The туалет’s INTERNAL WIDTH. Its depth is now 1200 from the G4C chain; at the printed 1140 the gross area is 1.368 m², LESS than the 1.42 CLEAR the plan prints, which is impossible. Hypothesis: the 1140 is the ВЕНТБЛОК’s width and the room is ~1390. That single number closes R1a, G4b, V1 and the 1.24-vs-1.42 question together.",
+    "on_splitting_O4a_from_O4b": "The owner asked whether the split is worth keeping when only the pair is measured. Kept in the data, dropped from the drawing: one of the two is a door (full height, no sill band) and one a window (sill band below, head band above), and Level-3 finish area is DERIVED from that distinction - merging them would lose it. But both widths stay blank until measured, so nothing can depend on a split that was mine rather than his.",
+    "drawing": "_assets/wall_model_v14.png"
   }
 }
