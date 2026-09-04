@@ -158,6 +158,8 @@ figure had not been recorded anywhere in this repo before that date.**
 | less ventilation duct void, this page's general figure of **150–200 mm** | **→ 2350–2300 mm** |
 | ⚠️ and this page states the void requirement **is not uniform** — duct section grows with run length and is worst **beside the plant** | worse than that locally |
 | ⚠️ **no recovery from the floor:** the screed is already laid with the heating pipes distributed horizontally in it | **0 mm available** |
+| ✅ **datum settled 2026-09-04:** the 2500 is **screed to ceiling**, so it is the CLEAR height — not slab to slab (~2550) | *the 2500 above is usable, not gross* |
+| ⚠️ less the **floor covering** on top of the screed (tile+adhesive ≈18 mm, board+underlay ≈17) | **→ 2282–2332 mm finished under a duct** |
 
 - → **⚠️⚠️ AND THIS PAGE ALREADY NAMES THE FAILURE THAT FOLLOWS. Its sequencing trap: ducts are installed FIRST,
   and «очень часто этого пространства не хватает для установки лампочек или треков» — there is often not
