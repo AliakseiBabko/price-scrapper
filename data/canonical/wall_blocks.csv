@@ -1,28 +1,27 @@
 wall_id,class,thickness_mm,insulation_mm,developer_plan_length_mm,length_min_mm,length_max_mm,source_of_min_max,notes
 R1a,concrete,250,,1140,,,,north run above the туалет
-R1b,concrete,250,,,,,,"west run beside the туалет — turns from R1a, one monolithic pour"
+R1b,concrete,250,,,,,,west run beside the туалет — turns from R1a
 R2,concrete,250,,,,,,right wall by the кухня
 R3,concrete,250,,,,,,top wall above the прихожая
 R4,concrete,250,,1050,,,,"COLUMN, middle room, left"
 R5,concrete,250,,1050,,,,"COLUMN, middle room, right"
 R6,concrete,250,,,,,,left wall by the 9.36 room
 R7,concrete,250,,,,,,right wall by the living room
-R8,concrete,250,150,1490,,,,"flat | лоджия — AT a façade step, hence 150"
-R9,concrete,250,150,1490,,,,"AT the other façade step, hence 150"
-G1,aerated_block,120,,,,,,туалет | прихожая ⚠ thickness inferred
+R8,concrete,250,150,1490,,,,flat | лоджия — AT a façade step
+R9,concrete,250,150,1490,,,,AT the other façade step
+G1,aerated_block,120,,,,,,туалет | прихожая. Carries O7. ⚠ thickness inferred
 G2,aerated_block,250,,,,,,top wall to the COMMON CORRIDOR
 G3,aerated_block,250,,3315,,,,top wall to the FLAT ABOVE
 G4a,aerated_block,250,,,,,,party wall to the neighbouring flat
 G4b,aerated_block,120,,1140,,,,туалет | ванная
-G4C,aerated_block,120,,,,,,"✅ MERGED G4c + G4e — ONE wall in one plane (x 231–249), joined above the ванная door. Carries opening O1"
-G4d,aerated_block,120,,,,,,ванная | 9.36 room
+G4C,aerated_block,120,,,,,,"MERGED G4c + G4e — one plane x 231–249, joined above the ванная door. Carries O1"
+G4d,aerated_block,120,,,,,,"✅ EXTENDED EAST TO R4 on the owner’s correction. One wall from the left wall to R4, and its eastern portion IS the opening O6. Previously drawn short, with O6 hostless"
 G5,aerated_block,250,,,,,,the BLOCK-JOINT leaf
 G6,aerated_block,75,,1915,,,,middle-room recess back wall
 G7,aerated_block,75,,3250,,,,"middle room, right partition"
 G8,aerated_block,75,,3250,,,,"middle room, left partition"
-M1,external,300,70,,,,,⚠ flat | лоджия plane (y 740–775). Carries opening O4. NOT merged with M7 — see note
+MA,external,300,70,,,,,"✅ MERGED M1 + M7 — ONE wall, same horizontal band y 740–781, running x 21 → 319 where it meets R8. Carries O4 between them. ⚠ MY EARLIER SPLIT WAS AN ERROR"
 M2,loggia_enclosure,200,0,,,,,лоджия | neighbour’s лоджия — NO insulation
-MB,external,300,70,,,,,"✅ MERGED M6a + M5 — ONE wall in one plane (y 890–925), joined above the middle-room window. Carries O2"
-MC,external,300,70,,,,,"✅ MERGED M3 + M4 — ONE wall in one plane (y 822–858), joined above the living-room window. Carries O3"
+MB,external,300,70,,,,,MERGED M6a + M5 — one plane y 890–925. Carries O2
+MC,external,300,70,,,,,MERGED M3 + M4 — one plane y 822–858. Carries O3
 M6b,loggia_enclosure,200,70,,,,,лоджия run ⚠ 200 provisional; may turn at the angled glazing
-M7,external,300,70,,,,,"⚠⚠ NOT merged with M1: M7 is VERTICAL (x 303–319) and M1 is HORIZONTAL. It is a RETURN, not a continuation"

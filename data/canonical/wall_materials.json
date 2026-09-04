@@ -10,7 +10,7 @@
     "narrative": "_Inbox/planning/concrete_wall_marking_20260904.md",
     "building_spec": "data/canonical/building_spec.json"
   },
-  "status": "Two-level model: 27 WALLS carrying 8 OPENINGS. Thicknesses complete. Lengths and opening heights are the open work. Finish areas are DERIVED, not enumerated. Still not mapped onto shell wall names - that needs v0 geometry.",
+  "status": "Two-level model: 26 WALLS carrying 8 OPENINGS. Thicknesses complete. Open: sill/head heights for the two windows, G1 and M6b confirmation, then LENGTHS. Finish areas are DERIVED. Not yet mapped onto shell wall names - needs v0 geometry.",
   "the_warm_perimeter": {
     "owner_concept": "The owner's own framing, and it is the organising idea: there is a WARM PERIMETER - the thermal envelope of the heated flat - and it is UNIFORM in construction all the way round.",
     "owner_words": "«[M1] is external wall, and it is uniform, the same thickness across all the warm perimeter. M1 is the external wall with all the insulation, because [the лоджия] was envisioned as a cold area. It's not heated, it's outside of this external wall perimeter.»",
@@ -333,10 +333,11 @@
     "merges_applied": {
       "G4C": "G4c + G4e - one plane, x 231-249, joined above the ванная door",
       "MB": "M6a + M5 - one plane, y 890-925, joined above the middle-room window",
-      "MC": "M3 + M4 - one plane, y 822-858, joined above the living-room window"
+      "MC": "M3 + M4 - one plane, y 822-858, joined above the living-room window",
+      "MA": "M1 + M7 - ONE wall, same horizontal band y 740-781, running x 21 to 319 where it meets R8, with opening O4 between the two parts.",
+      "G4d_extended": "G4d runs from the left wall EAST TO R4, and its eastern portion IS opening O6. Owner: \"extend it and it could have gone until R4, and this continuation is exactly occupied by O6.\""
     },
     "merge_NOT_applied": {
-      "M1_and_M7": "!! THE OWNER LISTED M7 AMONG THE CONTINUOUS OUTER WALLS, BUT THE GEOMETRY SAYS NO: M7 is VERTICAL (x 303-319) and M1 is HORIZONTAL (y 740-775). M7 is a RETURN, not a continuation, so his own corner rule keeps them separate. Flagged rather than merged.",
       "the_three_facade_planes": "The façade STEPS: the planes sit at y 740-781, 822-858 and 890-925 - about 700 and 1550 mm apart, which are real corners. So the façade is THREE walls, not one and not six. !! And R8 / R9 sit AT those steps, which is exactly why they are the two elements carrying 150 mm insulation - the step exposes concrete."
     },
     "levels": {
@@ -344,11 +345,23 @@
       "level_2_opening": "lives ON a wall; width plus sill and head heights. data/canonical/wall_openings.csv",
       "level_3_finish_area": "DERIVED, never typed: wall length x height, minus openings, plus the reveal, sill and head bands. !! This is the point of the two-level split - the bands are CALCULATED once the sill and head heights are known, so the ~120 finish segments never have to be hand-listed."
     },
-    "counts": "27 walls, 8 openings.",
+    "counts": "26 walls, 8 openings. 6 of 8 openings now have a host wall.",
     "open": [
       "O6, the 9.36-room door, still has no wall - and that wall is the other candidate for what the owner called G4e.",
       "Sill and head heights for O2 and O3 - two numbers that unlock every window band.",
       "G1 thickness (120 inferred) and M6b (200 provisional)."
-    ]
+    ],
+    "MY_ERROR_CORRECTED": {
+      "what": "I split M1 from M7 and told the owner his own list was wrong. HE WAS RIGHT AND I WAS WRONG.",
+      "why_I_got_it_wrong": "I tested orientation by BOUNDING-BOX ASPECT RATIO. M7's box is 16 px wide by 38 tall, so it read as 'vertical'. A 16 px stub cannot express its own direction - the test was invalid for short pieces, and I applied it anyway and drew a confident conclusion from it.",
+      "the_right_test": "Whether two pieces share a BAND along the run axis. M1 y 740-775 and M7 y 743-781 share 32 px of band, so they are the same horizontal wall line. The 136 px gap between them is ~1480 mm - the лоджия door plus window unit, exactly as he said.",
+      "lesson": "!! A GEOMETRIC HEURISTIC MUST BE CHECKED AGAINST THE SIZE OF THE THING IT IS APPLIED TO. Aspect ratio is meaningless below a few times the wall thickness. And the owner knows his own flat - when his account and my raster measurement disagree, the measurement needs re-examining first, not his account."
+    },
+    "openings_without_a_host": {
+      "O5": "middle-room door, printed 910 - spans between the R4 column and the G6 recess.",
+      "O8": "entrance door, printed 1010 - spans between R1a and G2.",
+      "why_that_is_correct": "Both sit with CONCRETE on one side and BLOCK on the other, so no single wall runs through them. Under the split-at-a-material-change rule that is the right answer, not a gap in the model.",
+      "but_worth_knowing": "!! Each still needs a LINTEL spanning two different materials, with different movement and fixing behaviour on each side. Worth establishing before first fix rather than discovering on site."
+    }
   }
 }
