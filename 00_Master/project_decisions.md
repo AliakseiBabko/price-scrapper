@@ -23,6 +23,29 @@ Decisions taken about **this apartment and this project**, with dates, plus the 
 
 Data: `data/canonical/room_schedules.json`, `data/canonical/dimension_tolerance.json`. Narrative: `00_Master/Apartment_Geometry_Sources.md`. **Option review — what `v1` actually changes against `v0`, what it costs, and the two measurements the layout decision is blocked on: `00_Master/Layout_Option_Review.md`.** **Full detail is in `.agents/skills/apartment-layout-modelling/SKILL.md` — read that before quoting any dimension or proposing a layout; do not re-derive from the plan images.**
 
+## ⚠️⚠️ The layout thesis — ONE bathroom, bought to fund a real living room
+
+**Owner's decision and reasoning, stated 2026-09-04, in response to the closest comparable in the vault.** This is the argument the whole `v1` layout rests on, and it had not been written down.
+
+**The comparable (`Phk79uKT7rA`, ~70 m², family of four) spent area on a SECOND full sanitary room. The owner rejects that trade, and names its cost in that flat:** their combined kitchen-living came out too small to be a living room at all — *"just a small sofa and a screen, a monitor on the wall … that's not a real living room. There is no place of living room."*
+
+**The decision here:** keep the developer's **single bathing room plus the separate туалет** (two wet rooms, near the entrance), and spend the area that a second bathroom would have taken on the **kitchen + living zone instead** — *"instead we have bigger area which can be separated into a real isolated room if needed. That was a main idea."*
+
+- → **The operative word is SEPARABLE.** The zone is not merely bigger; it is sized so that a part of it can be closed off as a genuinely isolated room. That is what makes the Phase 2 arrangement possible at all, and it is why area in that zone is worth more here than a second shower.
+- → **⚠️ This is a deliberate departure from a rule the vault holds, and it should not be read as an oversight.** Zemskov's ideal is **three** wet rooms (`wc.bathroom_count_minimum_3`); his own stated fallback for an area-constrained project is **two** — a separate туалет plus a combined bathroom (`wc.budget_fallback_2_wet_rooms`). **This project takes the fallback knowingly, and for a reason the rule does not consider: what the third wet room would cost the living zone.**
+- → **It also answers the question left open by the case-study round: this is the decision in that case study the owner rejects.** The bunk bed and the themed mural remain his to state.
+
+### The retractable glass divider — a correction to how it had been recorded
+
+**Not doors.** *"which can be separated by the … glass divider, not a door's divider, which can be retractable divider."* Earlier notes in `Family_Requirements.md` describe a *sliding glass door*; the owner's intent is a **retractable divider** — which changes the parking-width and head-detail problem, not just the ironmongery. **Size it against the 24.13 m² the zone actually has** (see `00_Master/Layout_Option_Review.md`), not against the developer plan's 24.73.
+
+### Two structural differences from the comparable, stated by the owner
+
+1. **⚠️ The лоджия connects to the SMALL BEDROOM here, not to the kitchen.** In the comparable the balcony is off the kitchen-living zone. **Confirmed on the detailed plan: the лоджия hangs off the 9.36 m² room.** So the comparable's balcony-off-the-living-zone content does not transfer, and the лоджия decision (keep it closed and separate) stays coupled to whichever person occupies that room — adults in Phase 1, the boy afterwards.
+2. **Room tenure is phased and already assigned:** лоджия-side 9.36 m² room → adults now, **the boy** later; the middle room (15.28 m² in `v1`) → both children now, **the girl** later; adults move into the separable part of the kitchen-living zone.
+
+**Overall the owner's assessment of the comparable stands: “the general layout is very similar, as the area is very similar”** — which is why the case is kept as a worked example and why the one trade it made differently is worth this much text.
+
 ## Scope decisions
 
 **No underfloor heating** — user decision, 2026-08-26. Recorded as `our_scope: out_of_scope` in `data/deliverable_templates/price-scrapper-target-set.json`, which drops the target album from 16 sheets to **11**.
@@ -73,8 +96,8 @@ Real, scoped work that is **not** done. None of these are trivial.
 | **Numeric Data entries predating the location+year rule.** Many entries don't pair year and location at the individual-entry level. A real audit, not a sweep. | Open since 2026-08-10 |
 | **USD backfill.** 233 of 338 price-bearing units still lack a USD equivalent. | Tracked in `_Knowledge/store/USD_Backfill_Inventory.md` |
 | **Page-splitting backlog.** 20 oversized pages plus one fragmented. | Tracked in `_Inbox/planning/page_splitting_backlog_20260831.md` |
-| **⚠️⚠️ `v0` HAS NO GEOMETRY, so no layout trade can be measured.** Its room schedule and dimensions are known; its partition positions exist only on the plan image. **Cheapest fix, per the layout skill: export the ORIGINAL layout from Homestyler as a second DXF, the way the redesign was exported.** Until then there are two room schedules and no baseline. | **Open, and it BLOCKS layout selection** — raised 2026-09-04 |
-| **⚠️⚠️ The SECOND вентблок is unmeasured.** Recorded only as «между зоной кухни и зоной постирочной/прихожей» on the owner’s account. **It sits where the corridor-to-kids-room trade would go.** Find it on `fllor_plan_detailed.jpeg` by zooming, as the туалет block (1140 × 490, three channels) was found. | **Open, and it BLOCKS the corridor trade** — raised 2026-09-04 |
+| **⚠️⚠️ `v0` HAS NO GEOMETRY, so no layout trade can be measured.** Its room schedule and dimensions are known; its partition positions exist only on the plan image. ⚠️ **ROUTE CHANGED 2026-09-04: the owner states the plan images are the only source of truth, so a Homestyler export of the ORIGINAL layout is probably not available — only the redesign was ever traced. The remaining route is the skill’s fallback: reconstruct the partitions from the PRINTED dimension strings on `fllor_plan_detailed.jpeg`, using the registered raster.** That is now the actual task, and it is hand work. | **Open, and it BLOCKS layout selection** — raised 2026-09-04 |
+| **✅ The SECOND вентблок is MEASURED. 400 × 1140 mm = 0.456 m²**, at the прихожая/кухня boundary, **long axis PERPENDICULAR to the façade wall** — unlike the туалет block, which lies along it. Drawn to the same shaded-box-with-channels convention as the confirmed one; both figures are **printed on the plan**, not derived from scale. ⚠️ **The datum of the adjacent `200` dimension is not certain from the raster — confirm the block’s offset from the wall at field measurement.** In `data/canonical/room_schedules.json`. | **Closed 2026-09-04**, with the offset flagged |
 | **⚠️ Which layout gets built is not decided, and no option is marked `selected`.** `v0-existing` is `baseline`, `v1-homestyler` is `owner_first_approximation`. The pipeline order names “choose the best layout” as a step; nothing had recorded it as an open decision. **Review and the two blockers: `00_Master/Layout_Option_Review.md`.** | Open since 2026-09-04 |
 | **The bunk-bed and themed-mural questions are informed but not answered.** Both turn on facts now established (15.28 m² permits two separate beds; the shared room ends at Phase 2, ~3–4 years out). **The owner’s position is what closes them** — he has said he rejects some of the case study’s decisions without naming which. | Open since 2026-09-04 |
 
