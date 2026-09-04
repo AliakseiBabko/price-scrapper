@@ -69,6 +69,7 @@ Shared cross-project skills live in `../ai-skills/skills/` and are linked into `
 | `tools/split_page.py analyse\|apply\|merge` | Does the split or the merge. Moves sections by line range byte-for-byte, then asserts content-line and citation-ID parity |
 | `tools/layout/check_wall_junctions.py` | **Run after any change to the flat's wall geometry.** Fails on an overlap, a gap, or an L-corner void that nothing owns. A corner is a solid: counted twice or zero times are both wrong |
 | `tools/layout/build_wall_corners.py [--write]` | Builds and checks `wall_corners.csv`, the corner ledger that decides which wall owns each L-corner (thicker, then longer). `solid_mm = clear_mm + the corners a wall owns` |
+| `tools/layout/check_room_rollout.py` | Checks each room's INTERNAL rollout (развёртка) in `room_rollouts.csv`: the loop must close on both axes, and it reports finishable face area. A face is not a wall — see the header |
 | `tools/build_knowledge_base_index.py` | Rebuilds the numeric-claims index |
 | `tools/youtube/preflight_playlist.py` | Dedup a playlist/channel against `processed_video_ids.txt` before fetching |
 | `tools/youtube/archive_transcripts.py <inbox>` | Archive transcripts and repoint `transcript_file:` frontmatter |
