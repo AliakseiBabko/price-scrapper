@@ -1,9 +1,10 @@
 opening_id,type,in_wall,width_mm,sill_height_mm,head_height_mm,notes
-O1,door,G4C,,,,ванная door — width not verified
-O2,window,MB,1800,,,middle-room window. ⚠ needs SILL and HEAD heights
-O3,window,MC,1800,,,living-room window. ⚠ needs SILL and HEAD heights
-O4,door+window,MA,,,,✅ лоджия: near-full-height DOOR plus an adjacent WINDOW BLOCK that stops short of the floor. Sits BETWEEN the two parts of MA — the gap is ~136 px ≈ 1480 mm
-O5,door,⚠ spans R4 → G6,910,,,"middle-room door, printed 910. NO single host: it spans between the R4 column and the recess, which are different materials — so under the rules it is an opening between two walls, not in one"
-O6,door,G4d,910,,,"✅ 9.36-room door — HOST FOUND. The owner: G4d extended east would reach R4, and that continuation is exactly what this opening occupies"
-O7,door,G1,,,,туалет door
-O8,door,⚠ spans R1a → G2,1010,,,"ENTRANCE door, printed 1010. Same situation as O5 — concrete one side, block the other"
+O1,door,G4C,,,,ванная door
+O2,window,MB,1800,,,middle-room window ⚠ needs SILL + HEAD heights
+O3,window,MC,1800,,,living-room window ⚠ needs SILL + HEAD heights
+O4,door+window,MA,,,,лоджия door + adjacent window block
+O5,door,⚠ spans R4 → G6,910,,,middle-room door — no single host
+O6,door,G4d,910,,,9.36-room door
+O7,door,G1b,,,,туалет door ⚠ host provisional pending the G1 redraw
+O8,door,⚠ spans R1a → G2,1010,,,ENTRANCE door — no single host
+O9,glazing,M2 → M6b,,,,"✅✅ ADDED — the ЛОДЖИЯ GLAZING the owner had not yet named. FULL HEIGHT and FULL LENGTH, floor to ceiling, no cladding, spanning M2 to M6b. ⚠ THE ONLY OPENING IN THE FLAT WITH NO WALL ABOVE OR BELOW IT — so no head band and no sill band. Faces DUE SOUTH"
