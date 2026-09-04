@@ -558,8 +558,8 @@
     "still_unknown": "R3 has no length at all. The printed \"≥2 115\" at the top gives 250 + 2115 = 2365 against a pixel run of 2682, and the ≥ sign means it is a clearance, not a wall run. G4b’s length stays RETRACTED - the 1140 was the туалет’s width, not the wall’s.",
     "the_one_measurement_that_would_close_the_most": "!! The туалет’s INTERNAL WIDTH. Its depth is now 1200 from the G4C chain; at the printed 1140 the gross area is 1.368 m², LESS than the 1.42 CLEAR the plan prints, which is impossible. Hypothesis: the 1140 is the ВЕНТБЛОК’s width and the room is ~1390. That single number closes R1a, G4b, V1 and the 1.24-vs-1.42 question together.",
     "on_splitting_O4a_from_O4b": "The owner asked whether the split is worth keeping when only the pair is measured. Kept in the data, dropped from the drawing: one of the two is a door (full height, no sill band) and one a window (sill band below, head band above), and Level-3 finish area is DERIVED from that distinction - merging them would lose it. But both widths stay blank until measured, so nothing can depend on a split that was mine rather than his.",
-    "drawing": "_assets/wall_model_v15.png",
-    "R3_three_estimates": "R3 is the only wall with no length. Three estimates disagree: the printed ≥2115 gives 250 + 2115 = 2365, but the ≥ makes it a clearance and therefore a MINIMUM; my pixel run gives 2682; top-edge closure R1a + G2 + R3 + G3 = 9799 gives 2849. Spread ~480 mm. One reading settles it."
+    "drawing": "_assets/wall_model_v16.png",
+    "R3_three_estimates": "SUPERSEDED 2026-09-04 by the owner’s top-edge chain - see top_edge_chain_2026_09_04. R3 is no longer estimated alone; it is recorded as the pair R3+G3 = 5830."
   },
   "length_convention_2026_09_04": {
     "rule": "!! A wall segment’s length_mm is the length of ITS OWN SOLID, face to face where it lands on its neighbours. NEVER an internal clear dimension with an adjoining wall’s thickness added on.",
@@ -574,5 +574,22 @@
     "the_40_mm": "The 40 mm between 1750 and 1790 is the RC column NOT finishing flush with the block façade - it stops ~2 cm short of MB’s outer face, and the gap is taken up under the 70 mm insulation layer. This is his own explanation, offered before I raised the discrepancy. My drawn extents (R8 1762, R9 1752) favour 1750 but cannot resolve 40 mm.",
     "why_it_matters": "!! It is a 40 mm step on the one element class that already needs 150 mm of insulation as a thermal-bridge treatment. Insulation continuity across that step is a detail to specify, not assume - and it is the kind of thing that is invisible once the façade is rendered.",
     "R2_is_not_in_this_family": "R2 = 1675, printed, 75 mm shorter than the others. Not grouped with them."
+  },
+  "top_edge_chain_2026_09_04": {
+    "status": "owner reading, 2026-09-04. R3 has no direct dimension anywhere; this chain is the only route to it.",
+    "chain": "East from the entrance door: O8 1010 + 710 (to R3, = G2’s right jamb) + 2115 (to the venting shaft) + 400 (shaft width) + 3315 (to R2) = 7550, ending at R2’s west face.",
+    "it_confirms_G2": "G2 = left jamb 499 + O8 1010 + right jamb 710 = 2219, which is what I already had. Independent confirmation.",
+    "it_confirms_V2": "The printed 400 shaft width matches my measured V2 footprint of 421 mm to 21 mm - so the 4th-floor V2 correction holds.",
+    "R3_and_G3_are_a_PAIR": "2115 + 400 + 3315 = 5830, from G2’s east face to R2’s west face; my pixel run of that span is 5776, agreeing to 54 mm. So R3 + G3 = 5830 with R3 ≥ 2515 and G3 < 3315. The R3|G3 split point is NOT dimensioned on any plan, and per the owner it will be buried under finishing layers, so no quantity depends on it. Recorded as one run with a nominal split.",
+    "but_the_split_is_not_free": "!! R3 is concrete and G3 is aerated block. The split is immaterial for AREA - both are 250 thick - but it decides where you can drill and fix, and how the wall behaves acoustically. The same caveat applies to the R1a|G2 split, which the owner also called indeterminate.",
+    "RETRACTION_G3_is_not_3315": "!! My v14 figure of G3 = 3315 is WRONG and is retracted. The printed 3315 runs from the VENTING SHAFT to R2, not from the R3|G3 split to R2 - and the owner says the split lies east of the shaft edge, so G3 is strictly LESS than 3315. This also kills the corroboration I claimed in v14, that \"G3 = MC = 3315 by the rectangle rule\": it was a coincidence of the wrong span.",
+    "what_the_coincidence_does_mean": "MC = 1800 + 855 + 660 = 3315 AND the shaft-to-R2 top run = 3315. So the east block IS a true rectangle between the shaft line and R2 - a real closure, just not the one I claimed.",
+    "open_residual": "⚠ Top edge end to end: 1915 (ванная 1795 + G4C 120) + 7550 = 9465, against a pixel run from the west inner face to R2’s west face of 9290. Residual 175 mm over 9.5 m, 1.8%. This is now the LARGEST unexplained residual in the model and it is NOT being treated as noise: the west edge closed to 36 mm and G4C to 34 mm, so 175 is an order out. It may be the same unknown as the туалет’s width."
+  },
+  "indeterminate_splits_principle_2026_09_04": {
+    "rule": "Where two adjoining segments have the same thickness and the split between them is not dimensioned on any plan, record the COMBINED run and mark the split as nominal. Do not invent a split point to make each segment carry a number.",
+    "owner_wording": "\"This split point will be buried under the layers of finishing materials, so it is not so important. Like, for example, the split between R1a and G2 - it is somewhere in between, but we are mostly interested in the internal dimensions.\"",
+    "instances": "R3|G3 (combined 5830) and R1a|G2 (R1a 1416 derived, flagged).",
+    "the_exception": "!! It is only free when the two segments are the same MATERIAL as well as the same thickness. R3 is concrete and G3 is block; the split is immaterial for area but decides where fixings can go. Flag those, do not silently merge them."
   }
 }
