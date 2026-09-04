@@ -1,0 +1,3 @@
+anchor_id,type,location,width_mm,depth_mm,notes
+P1,wet_riser_group,"туалет, beside V1",343,803,"HOT + COLD water (the flat's ONLY water source), the MAIN SEWER stack, and the TOWEL HEATER. Immovable."
+P2,sewer_only,between R3 and V2,450,225,The SECOND SEWER. Serves the kitchen now and potentially a future laundry. NO water at this point - kitchen water arrives from P1 under the floor. Immovable.

@@ -478,5 +478,41 @@
     "result": "All eight room boundaries CLOSE once the кухня/living space is treated as one. No unaccounted gaps: every boundary segment is a wall, a shaft or a named opening.",
     "connectivity": "!! THE FLAT IS A TREE, NOT A LOOP. Every room hangs off the прихожая and there is no second route between any two rooms, so the hall is a single point of failure for circulation and every inter-room trip passes through it. O10 is the ONLY edge into the largest space and is ~958 mm and unwidenable. And the лоджия is a LEAF BEHIND A LEAF, reached only through the 9.36 room - so from Phase 2 onward the household's only bulk storage sits behind a child's bedroom.",
     "verdict": "Wall-segment stage COMPLETE structurally. Open dimensionally: lengths (10 of 25 printed), sill/head heights for O2 and O3, four blob-derived junctions, and the 2500 height datum."
+  },
+  "plumbing_anchors": {
+    "source": "Owner marked them on _assets/wall_segments_v9_plumbing.png; isolated by pixel-diff against my own v9.",
+    "data": "data/canonical/plumbing_anchors.csv",
+    "drawing": "_assets/wall_model_v10_plumbing.png",
+    "P1": {
+      "where": "туалет, beside V1",
+      "size_mm": [
+        343,
+        803
+      ],
+      "contains": [
+        "hot water",
+        "cold water",
+        "the MAIN SEWER stack",
+        "the TOWEL HEATER"
+      ],
+      "note": "!! THE FLAT'S ONLY WATER SOURCE. Immovable."
+    },
+    "P2": {
+      "where": "between R3 and V2",
+      "size_mm": [
+        450,
+        225
+      ],
+      "contains": [
+        "the SECOND SEWER"
+      ],
+      "serves": "the kitchen now, and potentially a future laundry",
+      "note": "!! NO WATER at this point - kitchen water arrives from P1 UNDER THE FLOOR. Immovable."
+    },
+    "the_shape_of_it": "TWO SEWERS but only ONE water source, and the kitchen water runs under the floor. So there are exactly TWO wet points in the flat, and any layout's wet fittings must attach to one of them.",
+    "what_the_second_sewer_buys": "!! The kitchen does NOT have to drain back to the туалет. That is genuine planning freedom and it is why a kitchen at that end of the flat works at all. ⚠ But DRAIN FALL caps how far a sink can sit from P2 - and the vault records drain fall as a first-order check that appeared in three consecutive rounds, including a developer layout that needed a 20 cm floor lift and a macerator.",
+    "validates_v1_laundry": "✅ The owner said P2 could serve a future laundry. Checked against v1: its laundry label sits about 900 mm WEST of P2, so it is within reach. His remark and his own drawing agree.",
+    "THE_COST_NOBODY_HAD_PRICED": "!!! Kitchen water runs UNDER THE FLOOR, and the screed is ALREADY LAID with the heating pipes distributed in it. So MOVING A WET POINT MEANS BREAKING THE EXISTING SCREED, not just redrawing a plan. That belongs in the layout cost alongside demolishing the developer's partitions - and it is the same class as the vault's finding that a design error costs you the sanitaryware, not just the drawing.",
+    "to_confirm": "⚠ The TOWEL HEATER is at P1, which is in the туалет - not in the ванная where towels are actually used. Worth confirming. If it is on the riser it is HYDRONIC, in which case the vault's electric-towel-rail flex-warranty finding does NOT apply here and the riser-recessing finding does instead."
   }
 }
