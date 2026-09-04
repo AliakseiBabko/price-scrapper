@@ -137,7 +137,22 @@ the neighbour's habitable room 14.64 across the in-block party wall. That is the
 the flat, and it is the only wall where soundproofing spend is clearly justified.** Priority list on
 [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]].
 
-→ **⚠️⚠️ SO THE BIGGEST MOVE IN `v1` NOW RESTS ON THREE INDEPENDENT ARGUMENTS — separability, daylight and
+> [!CAUTION]
+> **⚠️⚠️ TWO OF THESE ARGUMENTS ARE WITHDRAWN — 2026-09-04.** A closure check on the wall model found
+> **there is NO WALL between the кухня and the living room** — only a dashed zone boundary and a grid axis.
+> **So in `v0` the кухня is not a room; it is a nominal ZONE inside one undivided 24.73 m² space.**
+>
+> → **The DAYLIGHT argument fails:** the zone already borrows the living room's window. It is badly lit, being
+> at the far end from the glazing, but *“no daylight”* was wrong.
+> → **The VENTILATION argument fails:** a through-wall unit in the living room serves the whole open space.
+>
+> **⚠️ Both failed the same way — I checked whether the kitchen had an EXTERNAL WALL and never checked
+> whether it was an ENCLOSED ROOM.** Full working: `00_Master/Wall_Model_Closure_Check.md`.
+>
+> **What stands: the owner's separability thesis — which was always the primary reason and depends on none of
+> this — and the acoustics point, which is about a different room.**
+
+→ **⚠️⚠️ ~~SO THE BIGGEST MOVE IN `v1` NOW RESTS ON THREE INDEPENDENT ARGUMENTS~~ — separability, daylight and
 ventilation — where this page previously had only the owner's own.** That is worth stating plainly because
 the correction above raised the bar for every partition in `v1`: **this particular move clears the higher bar
 comfortably. Others still have to be argued one at a time.**

@@ -464,5 +464,19 @@
       "!! Phase 2 puts the adults' bedroom BEYOND this passway. A Murphy bed, a sofa and a retractable glass divider all have to pass through ~958 mm. Worth checking each product's PACKED size before ordering, not after - and it connects to the vault's specify-large-and-cut finding, whose third motive is exactly access.",
       "It also explains the прихожая's shape and its 9.79 m²: the hall is bounded on that side by a shaft plus a column rather than by a wall."
     ]
+  },
+  "kuhnya_is_a_zone_not_a_room": {
+    "finding": "!!! THERE IS NO WALL between the кухня (5.24) and the living room (19.49). Verified on the detailed plan at 5x: the only things on that line are a DASHED zone boundary and a DASH-DOT grid axis. No hatching, no thickness, no jambs.",
+    "consequence": "In v0 the кухня is NOT A ROOM. It is a nominal ZONE inside one undivided 24.73 m² space, and the 5.24 / 19.49 split is the developer's AREA ACCOUNTING rather than a partition.",
+    "what_it_invalidates": "!! Two of the four arguments recorded earlier for v1's kitchen move are WITHDRAWN. The DAYLIGHT argument (\"merging it into the living room is the only way that zone gets daylight\") fails because they are already one space, so the zone already borrows the living room's window - badly, being at the far end from the glazing, but \"no daylight\" was wrong. The VENTILATION argument (\"supply has no route without ducting\") fails because a through-wall unit in the living room serves the whole open space.",
+    "how_both_failed_the_same_way": "!! I checked whether the KITCHEN had an external wall and never checked whether it was an ENCLOSED ROOM. A zone label on a plan is not a room, and I treated it as one for four rounds.",
+    "what_survives": "The owner's SEPARABILITY thesis, which was always the primary reason and depends on none of this; and the acoustics point about the middle room, which concerns a different room. But the review's claim of \"three independent arguments\" is now one.",
+    "the_rule": "!!! A LABEL ON A PLAN IS NOT A ROOM. The кухня had an area, a name, a printed dimension chain and fixtures drawn in it - everything a room has except walls. Before treating any labelled space as enclosed, CHECK ITS BOUNDARY FOR HATCHING."
+  },
+  "closure_check": {
+    "document": "00_Master/Wall_Model_Closure_Check.md",
+    "result": "All eight room boundaries CLOSE once the кухня/living space is treated as one. No unaccounted gaps: every boundary segment is a wall, a shaft or a named opening.",
+    "connectivity": "!! THE FLAT IS A TREE, NOT A LOOP. Every room hangs off the прихожая and there is no second route between any two rooms, so the hall is a single point of failure for circulation and every inter-room trip passes through it. O10 is the ONLY edge into the largest space and is ~958 mm and unwidenable. And the лоджия is a LEAF BEHIND A LEAF, reached only through the 9.36 room - so from Phase 2 onward the household's only bulk storage sits behind a child's bedroom.",
+    "verdict": "Wall-segment stage COMPLETE structurally. Open dimensionally: lengths (10 of 25 printed), sill/head heights for O2 and O3, four blob-derived junctions, and the 2500 height datum."
   }
 }
