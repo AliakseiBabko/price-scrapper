@@ -447,5 +447,22 @@
     },
     "WHY_IT_SLIPPED_and_the_rule": "!! I placed that junction from the DETECTED red/green blob edges on his colour markup. A marker stroke is roughly 5 px wide at that scale, so a blob edge is good to about 50 mm - not to 5 mm. => BLOB EDGES LOCATE A WALL; THEY MUST NOT FIX A JUNCTION. Only a printed dimension may do that. Every junction placed the same way carries the same slop, so they are flagged for checking: G4C's two openings (derived from gaps, not printed at all), MA's O4a/O4b boundary, whether G6's O5 really starts AT R4, and where G4d's O6 begins.",
     "representation_added": "Every wall is now drawn SOLID where material exists and DASHED across its openings, so both facts show at once: the wall is ONE piece, and the material stops at the opening. The dashed span over O8 lands on the printed 1 010 and the solid block beside it on the printed 710, which is a visual check anyone can repeat."
+  },
+  "the_prihozhaya_kuhnya_divider": {
+    "owner_insight": "\"We need to draw another line along V2 and up to R5, because it is a barrier... it is creating a structural divider. We have a ventilation shaft, we have a passway to the bigger room. So let's mark this space between V2 and R5 as another opening.\"",
+    "what_it_is": "!! A DIVIDER PLANE THAT IS NOT A WALL. At basic x~658 it is composed of three different things in line: a 200 mm offset from the top wall (printed), the V2 ventilation shaft (1140 printed), the O10 passway (~958, NOT printed), and the R5 column (1050). No material spans it, so it is neither a wall nor a simple opening - it is a composed divider, and it is what separates the прихожая from the кухня/living zone.",
+    "O10_passway": {
+      "width_mm": 958,
+      "uncertainty_mm": 80,
+      "printed": false,
+      "how_measured": "Off the raster at 12.61 mm per detailed px. !! That scale is confirmed TWO INDEPENDENT WAYS: from G8's printed 3250 over 332 basic px, and separately from V2's printed 1140, which measures back to 1135 (0.4% error). The printed 200 offset measures back to 214 (7%). So call the passway 950-1000 mm.",
+      "flanks": "V2 (common-property ventilation shaft) on one side, R5 (monolithic RC frame column) on the other.",
+      "HARD_CONSTRAINT": "!!! BOTH FLANKS ARE IMMOVABLE, SO THE PASSWAY CANNOT BE WIDENED - not by any layout, in any variant, at any budget. And it is the ONLY route from the прихожая into the кухня/living zone, so every person and every piece of furniture passes through ~958 mm."
+    },
+    "consequences": [
+      "The vault's corridor.min_clear_width rule is 1100 mm. This is ~958 - UNDER by about 140. That rule concerns CORRIDOR width rather than a zone-to-zone passway, so it is a FLAG and not a breach - but this is the narrowest point on the flat's main internal route and it is permanent.",
+      "!! Phase 2 puts the adults' bedroom BEYOND this passway. A Murphy bed, a sofa and a retractable glass divider all have to pass through ~958 mm. Worth checking each product's PACKED size before ordering, not after - and it connects to the vault's specify-large-and-cut finding, whose third motive is exactly access.",
+      "It also explains the прихожая's shape and its 9.79 m²: the hall is bounded on that side by a shaft plus a column rather than by a wall."
+    ]
   }
 }

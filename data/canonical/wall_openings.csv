@@ -1,11 +1,12 @@
-opening_id,type,in_wall,width_mm,sill_height_mm,head_height_mm,notes
+opening_id,type,in_wall_or_divider,width_mm,sill_height_mm,head_height_mm,notes
 O1,door,G4C,,,,ванная door
-O2,window,MB,1800,,,⚠ middle-room window — the owner calls this one STANDARD
-O3,window,MC,1800,,,⚠⚠ living-room window — the owner: HIGHER than O2. Its SILL IS LOWER (closer to the floor) and the opening HEIGHT IS GREATER. No measurements yet; photos to come
-O4a,window,MA,,,,"✅ SPLIT FROM O4 — the лоджия WINDOW portion, WITH a sill"
-O4b,door,MA,,,,"✅ SPLIT FROM O4 — the лоджия glass DOOR, immediately beside it"
-O5,door,⚠ spans R4 → G6,910,,,middle-room door — correctly hostless
+O2,window,MB,1800,,,middle-room window - owner calls it STANDARD
+O3,window,MC,1800,,,living-room window - SILL LOWER and OPENING TALLER than O2
+O4a,window,MA,,,,"лоджия window portion, with a sill"
+O4b,door,MA,,,,лоджия glass door
+O5,door,G6,910,,,middle-room door
 O6,door,G4d,910,,,9.36-room door
-O7,door,G4C,,,,"✅ туалет door — now in the merged G4C, the same surface as O1"
-O8,door,G2,1010,,,"ENTRANCE door, 1010"
-O9,glazing,M2 → M6b,,,,лоджия glazing — full height AND full length
+O7,door,G4C,,,,туалет door
+O8,door,G2,1010,,,entrance door
+O9,glazing,M2 → M6b,,,,"лоджия glazing, full height AND full length"
+O10,passway,DIVIDER: V2 → R5,958,,,"!! THE PASSWAY from the прихожая into the кухня/living zone. NOT dimensioned on the plan; ~958 mm measured off the raster at a scale confirmed two ways, so ±80. BOTH FLANKS IMMOVABLE - V2 is a common-property shaft and R5 is an RC frame column - SO IT CANNOT BE WIDENED. It is the only route into that zone, and the narrowest point on the flat's main internal route."
