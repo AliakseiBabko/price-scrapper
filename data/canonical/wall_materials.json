@@ -813,5 +813,19 @@
     "what_is_still_open_and_why_none_of_it_blocks_planning": "The R3|G3 split (nominal, buried under finishes, matters only for where you can drill). The туалет’s 90 mm between two depth routes. The KL rollout’s 220 mm east-west residual, which needs the two steps the owner’s walk did not reach. O8’s head. Which O4 leaf is the wider one. The лоджия transom height. Every one of these is a detail to settle against the real flat, not an obstacle to choosing a layout.",
     "granularity": "The model stores millimetres because chains have to close arithmetically, but its ACCURACY is ±50 mm. So for planning, centimetres are the honest working unit and chasing millimetres is false precision. The exception is anything cut or ordered to size - glazing, doors, worktops - and those must be measured on site anyway, whatever the model says.",
     "what_the_owner_already_gave_that_is_banked": "The G4C segment chain he offered again is already in the model and verified against the drawing: 120 · 490 · [710 O1] · 600 · 120 · [710 O7] · 490 = 3240. No need to re-supply it."
+  },
+  "R3_G3_split_CLOSED_AS_UNKNOWABLE_2026_09_07": {
+    "status": "CLOSED. Not \"open\", not \"to be measured later\" - unknowable by inspection.",
+    "owner": "\"As for the R3|G3 split it is impossible to say. We just can’t. Why? Because it is covered with the finishing - we just don’t see this line, it is not distinguishable. I checked the existing photos.\"",
+    "so_the_treatment_stands": "The pair stays recorded as one 5830 run with a nominal split, which is how it has been carried since 2026-09-04. No quantity depends on it - both segments are 250 - and the only thing it decides is where a fixing lands in concrete rather than block. That is a drilling question to be answered with a detector on the day, not a dimension to chase.",
+    "the_general_rule_it_earns": "!! An item can be CLOSED without being ANSWERED. Leaving it \"open\" implies someone should keep looking; the honest state here is that looking will not help, and saying so stops it consuming attention at every review."
+  },
+  "soundproofing_applied_analysis_2026_09_07": {
+    "question": "The owner: \"probably the only room which really needs soundproofing is the smaller bedroom - but to make sure, we can analyse this one more time.\"",
+    "answer": "His instinct is half right, and the wrong half matters more. The small bedroom does carry the flat’s one bad NEIGHBOUR adjacency, but the wall involved is 250 mm reinforced concrete - the best kind this flat has. The genuinely weak walls are the internal 75 mm partitions, which no norm forces up and which separate our own bedrooms from each other.",
+    "the_worst_wall_is_G8": "!! G8, 75 mm aerated block, between the 9.36 bedroom (the adults in Phase 1) and the middle room (the children). A third of the party wall’s thickness and a fraction of its mass, and the only wall in the flat where the noise is nightly and bidirectional. In Phase 2, when the boy takes the 9.36 room, G7 takes over the same role against the living zone.",
+    "and_the_vaults_own_sources_decide_the_ORDER": "!! The repo already carries practitioner guidance that treating one wall against a NEIGHBOUR under-delivers, because that noise arrives through the перекрытие - \"грамотная шумоизоляция - это ПОМЕЩЕНИЕ В ПОМЕЩЕНИИ\". But between our OWN rooms both sides sit on the same slab and the dominant path through a 75 mm partition is direct airborne - so a single-wall treatment does most of the work there. Treat the walls whose noise is airborne and ours; do not treat the wall whose noise is structural and someone else’s.",
+    "page": "00_Master/Soundproofing_Where_It_Is_Worth_It.md - full ranking of every boundary, and what it suggests doing.",
+    "the_one_fact_that_would_change_the_ranking": "⚠ Whether the neighbour’s 14.64 is a living room with a television against that wall. Recorded as unknown in building_spec.json and worth finding out."
   }
 }
