@@ -127,8 +127,8 @@ work removes new work. Same pattern as the partitions, which the developer also 
 | ⚠️ **the insulation on MA, M6b and R8 must STAY** | it is tempting to think a warm лоджия makes the 300+70 and the R8/R9 150 redundant. It does not. A buffer is not a heated space, and the envelope stays on the flat side of that wall |
 | ⚠️ **the frames almost certainly go too, not just the glass** | a single-glazed cold aluminium profile cannot accept a 36–44 mm triple unit. Budget a full strip-out and refit, not a glass swap |
 | **≈7.4 m² of glazing** | our O9 run is ~2939 mm on the derived splay × 2500 clear height. Their 2.5 m² лоджия is not a guide to our quantity |
-| ⚠️ **weight** | a triple unit is roughly 2–3× a single. On a full-height glazed face with no parapet the frame carries to the slab. Worth confirming fixing and slab capacity before ordering |
-| ⚠️ **permissions unchecked** | changing façade glazing may need approval in Belarus. **Not asserted** — flagged to check, and it belongs in `16_Legal_and_Regulations/` only once sourced |
+| ✅ **weight is not a problem** | owner, 2026-09-06 — there is a concrete slab underneath and it will carry it |
+| ⚠️⚠️ **the DESIGN must be repeated** | the contract with the developer allows replacing the glazing **provided the initial design is reproduced**: **four bays across × two rows = eight panes, dark frames**. So the division is a *specification*, not a preference. Our own basic plan draws three intermediate mullions between two end posts — **four bays confirmed from our own drawing**, at ~705 mm each over ~2.9 m |
 
 **Sequence it before any лоджия finish.** Floor, ceiling and wall finishes there are downstream of a
 job that removes and refits the entire face.
