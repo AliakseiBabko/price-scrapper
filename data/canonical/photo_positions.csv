@@ -1,0 +1,13 @@
+photo_id,apartment,room_on_that_plan,our_equivalent_room,view_direction,file_exists,notes
+add8,"1 (109, MIRRORED)",109-6 big room 25.1,кухня+living 24.73,"SE, across the room to the far corner",yes,
+a89d,1,"109-6, at the west wall",кухня+living,"NE, across to the corridor door",yes,
+9902,1,"109-6, facing the window wall",кухня+living,"S, square-on at the window",yes,!! SQUARE-ON. The best geometry in the set - and it contradicts the O3 numbers committed 2026-09-05. See the aspect-ratio flag.
+a82a,1,109-1 коридор 10.0,прихожая 9.79,"E, along the corridor to the bathrooms",yes,
+a89c,1,"109-1 коридор, north end",прихожая,"SW, back down the corridor",yes,
+b83a,1,corridor at the туалет door,прихожая → туалет,"E, into the туалет",yes,"should show V1, P1 and the pipe stubs"
+9fd1,1,109-3 ванная 3.2,ванная 3.09,NE,yes,
+b0aa,1,"109-5 16.7, north end",middle room 16.63,"SW, down the room",yes,
+9f84,1,"109-5, facing the window",middle room,"S, at the window",yes,
+9cf9,1,!! TWO DOTS SHARE THIS ID,—,"one SE in 109-5, one NE in 109-4",yes,⚠ AMBIGUOUS - see below
+bc18,1,"109-4 9.2, north end",small bedroom 9.36,SE,yes,
+9711,1,109-7 лоджия 2.5,лоджия 6.05(4.24),"SE, into the лоджия",yes,⚠ that лоджия is 2.5 m² against our 6.05 - NOT the same лоджия
