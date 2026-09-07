@@ -1042,6 +1042,12 @@
     "the_real_failure": "not the geometry — the ABSENCE of a check. I placed a line by eye over a plan whose blocks were already in the code as rectangles, and nothing could object. Identical to the wall-junction check that silently passed a socket inside a wall.",
     "the_check_added": "sheet_lib.route_block_conflicts(route, blocks, clear_mm=60, connects=(...)) — samples each segment against every shaft/plumbing footprint inflated by the clearance, so grazing a corner fails too. Negative-tested against the exact route he circled: it reports “segment 1 hits V2”. P1 is exempted BY NAME because the route takes off from it — not by loosening the tolerance until the check stops complaining.",
     "drawing_convention": "pipe runs are now drawn with filleted corners (r≈260 mm) as one polyline with joint=’curve’, because a pipe bends on a radius. A sharp right angle in a pipe run is a drawing convention, not a pipe — and drawing the arc as separate segments left a notch at every joint.",
-    "rule": "ANY routed service line must be checked against the solid objects already in the model before it is drawn. If the model knows a rectangle is concrete, the drawing has no excuse for crossing it."
+    "rule": "ANY routed service line must be checked against the solid objects already in the model before it is drawn. If the model knows a rectangle is concrete, the drawing has no excuse for crossing it.",
+    "round_2_the_owner_again": {
+      "the_extra_turn": "Having moved the turn east of V2 I then ran north at x=700 and turned EAST again to reach the take-offs. The owner: “they should approach the wall, the outlet directly — right ahead, not making an additional turn. You made it turn left and then right.”",
+      "why_it_happened": "I routed the PAIR as one polyline with a sideways offset, so the pair had to arrive somewhere and then jog to each fitting. Routing each pipe to its OWN fitting removes the jog entirely — both take-offs (x=714.2 ГВС, x=720.5 ХВС) already sit east of V2’s east face at 677, so ONE turn suffices for each.",
+      "lesson": "a service pair is two runs, not one run drawn twice. Modelling it as one line created a geometric problem that does not exist in the flat — the same class of error as treating a face as a wall.",
+      "the_horizontal_run_moved_south": "y 172 → 180 (ГВС) / 186 (ХВС), on his black arrow: hugging G4b, the туалет’s south wall (north face 192.87, so 67 mm clear), and 675 mm off V1 instead of 597. It now passes between the WC pan and that wall, which is where a pipe under the screed would actually go."
+    }
   }
 }
