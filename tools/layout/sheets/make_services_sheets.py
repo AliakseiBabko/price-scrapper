@@ -256,8 +256,8 @@ for bid, (x0, y0, x1, y1), col in (('V1', (67, 70, 139, 111), OR), ('V2', (636, 
 #
 # So these are two independent routes, each ending on its own take-off, not one
 # line drawn twice.
-ROUTES = [(u'ГВС', R, [(90, 180), (714.22765, 180), (714.22765, 69.9953)]),
-          (u'ХВС', B, [(90, 186), (720.49225, 186), (720.49225, 69.9953)])]
+ROUTES = [(u'ГВС', R, [(90, 180), (720.49225, 180), (720.49225, 69.9953)]),
+          (u'ХВС', B, [(90, 186), (730.70995, 186), (730.70995, 69.9953)])]
 
 # no routed segment may cross a shaft or a plumbing block. The junction check
 # taught this — a check that cannot fail is not a check.
@@ -277,19 +277,50 @@ print(u'  route/block clearance: %d routes, all clear of %d blocks, 1 turn each'
 s3.callout(*(list(s3.P((380, 183))) + [[u'ГВС + ХВС под полом — трасса ВЛАДЕЛЬЦА',
                                         u'трафареты «ВОДОСНАБЖЕНИЕ» на стяжке'], B]))
 
-PIPES = [('P-H', 'G3', 0.055, +1, R, 'water', 61, u'горячая, из пола', '930d'),
-         ('P-C', 'G3', 0.075, +1, B, 'water', 61, u'холодная, из пола', '930d'),
-         ('P-S', 'G3', 0.115, +1, MG, 'sewer', 6, u'канализация DN50', '930d')]
+# ORDER CORRECTED 2026-09-07 by the owner: in 930d the sewer socket is CLOSER
+# TO THE VENTILATION SHAFT than either water outlet. I had it as the eastmost
+# of the three, i.e. furthest from the shaft — exactly inverted.
+#
+# Note the FORM of his statement: “closer to the venting shaft” is a relation to
+# a named object, and 930d is apartment 53, which is MIRRORED. Had he said “on
+# the left” I would have had to invert it and would probably have got it wrong
+# again. A relation to an identified object survives mirroring; left/right does
+# not. This is the third time wall-handedness has bitten this sheet.
+#
+# What is EVIDENCE here is the ORDER only. The spacings are the canonical
+# figures, not measured off this photo: the water pair 100 mm apart per
+# SW-K in service_outlets.csv (“~92-111 apart”), the sewer 130 mm west of the
+# hot one. Distances from the wall’s west end (x=697): 100 / 230 / 330 mm.
+PIPES = [('P-S', 'G3', 0.0326, +1, MG, 'sewer', 6, u'канализация DN50 — ближе всего к шахте', '930d'),
+         ('P-H', 'G3', 0.0750, +1, R, 'water', 61, u'горячая, из пола', '930d'),
+         ('P-C', 'G3', 0.1076, +1, B, 'water', 61, u'холодная, из пола', '930d')]
+# The three take-offs sit 100 mm apart, which at this scale is 30 sheet px —
+# and each of my per-item labels is ~200 px wide. Six boxes around three
+# symbols could not do anything but cover them (the owner had already flagged
+# labels overlaying their icons once). So this cluster gets ONE grouped
+# callout, with the symbols left clean and a single leader to the group. Which
+# is also just how a real sheet annotates a group of adjacent fittings.
+CLUSTER = []
 for iid, wid, t, side, col, kind, h, nt, src in PIPES:
     x, y, nx, ny = on_wall(wid, t, side)
     px, py = s3.P((x, y))
     s3.sym_pipe(px, py, nx, ny, col, kind)
-    s3.htag(px, py, u'H=%d' % h, col, nx, ny)
-    tagsrc(s3, px, py, iid, src, col)
+    CLUSTER.append((px, py, iid, col, h, nt, src))
     REVIEW.append({'item_id': iid, 'kind': 'plumbing outlet', 'wall': wid, 'gang': '-',
                    'height_cm': h, 'source_photos': src, 'photo_shows': nt,
-                   'position_basis': 'photo of another flat, horizontal position indicative',
+                   'position_basis': 'ORDER from 930d (sewer nearest the shaft, owner); '
+                                     'spacings from service_outlets.csv, indicative',
                    'owner_verdict': '', 'owner_correction': ''})
+# leader from the middle of the row, callout below it in open kitchen floor
+mx = sum(c[0] for c in CLUSTER) / float(len(CLUSTER))
+my = max(c[1] for c in CLUSTER)
+# anchored EAST into open kitchen floor, not south onto its own pipes
+s3.callout(mx + 620, my + 150, [u'ВЫВОДЫ НА СЕВЕРНОЙ СТЕНЕ КУХНИ (930d)',
+                    u'P-S  канализация DN50   H=6 см — на полу',
+                    u'P-H  ГВС (горячая)      H=61 см',
+                    u'P-C  ХВС (холодная)     H=61 см',
+                    u'канализация — БЛИЖЕ ВСЕГО К ШАХТЕ (владелец)',
+                    u'шаг 100/100 мм — справочный'], B)
 for iid, bx, by, nt, src in (('V-1', 103, 92, u'решётка вытяжки H=218', '930d + 9e9b'),
                              ('V-2', 656, 128, u'решётка вытяжки H=218', '9e9b')):
     px, py = s3.P((bx, by))
