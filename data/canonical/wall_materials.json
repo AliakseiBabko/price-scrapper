@@ -970,5 +970,13 @@
     "what_was_kept": "wall_model_v24 → _Drawings/review/wall_model.png; the three album sheets → _Drawings/sheets/; west_block_crop → _Drawings/evidence/, because two findings cite it. Everything else removed from the tree.",
     "references_repointed": "24 references across 8 files. Entries that pointed at a specific iteration now point at review/wall_model.png and say which iteration they were written against, so the record stays readable without the file existing.",
     "and_the_generator_follows": "tools/layout/sheets/sheet_lib.py now writes to _Drawings/sheets/, so the convention is enforced by the tool rather than by memory."
+  },
+  "switches_were_inside_door_openings_2026_09_07": {
+    "owner": "\"I see misplacement of electric switches - for example on the wall of the bathroom it is somewhere in the middle of a door opening, which is not true. Again for the middle room, it is somewhere in the door opening. That does not make sense.\"",
+    "he_found_one_and_there_were_THREE": "!! I had placed switches at arbitrary fractions along their walls with no reference to the openings. Checking all six: G4C t=0.62 landed at y=269 inside O1 (the ванная door, 268-336) - the one he saw; G6 t=0.10 landed at x=368 inside O5 (350-443); G4d t=0.80 landed at x=280 inside O6 (249-335). Half of them were in doorways.",
+    "the_fix_is_a_CONSTRAINT_not_a_nudge": "Switches are now placed by beside_opening(wall, opening, jamb, clearance=170) - next to the door they serve, at a stated clearance from its jamb - rather than by a fraction. And check_openings() runs over every placed item on every sheet and RAISES if one falls inside an opening. It reported \"20 items, all clear\" on this build; had I only nudged the three he could see, the next sheet would have reintroduced the fault.",
+    "the_rule_the_checker_encodes": "!! An item inside an opening is only wrong if it sits ABOVE that opening’s SILL. A switch at H=90 in a door opening (sill 0) is impossible; a socket at H=30 below a window whose sill is 266 is perfectly normal and common. So the check compares the item’s height against the opening’s sill rather than banning the overlap outright - which is why the MC socket at H=30 under O3 passes and stays where it is.",
+    "and_the_switches_now_say_what_they_do": "Each carries a callout naming the room it serves. Both wet rooms switch from OUTSIDE, in the прихожая, which is local practice - and that is a placement decision the drawing now states rather than leaves to inference.",
+    "new_data": "data/canonical/wall_opening_spans.csv - the opening spans along each wall, 8 openings on 7 walls, with each opening’s sill height. Previously these lived only inside a drawing script."
   }
 }

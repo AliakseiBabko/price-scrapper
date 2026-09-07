@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from sheet_lib import Sheet, on_wall
+from sheet_lib import Sheet, on_wall, beside_opening
 
 G, B, R, MG, GY, OR = ((0, 150, 60), (0, 110, 220), (210, 30, 40),
                        (190, 60, 190), (110, 110, 110), (225, 130, 0))
@@ -41,13 +41,27 @@ for wid, t, side, gang, h, nt in SOCK:
     if nt:
         s.callout(px, py, [nt])
 
-SW = [('G4C', 0.62, +1, 2, 90), ('G2', 0.80, +1, 1, 90), ('G6', 0.10, -1, 1, 90),
-      ('G4d', 0.80, -1, 1, 90), ('G8', 0.05, +1, 1, 90), ('G7', 0.05, -1, 1, 90)]
-for wid, t, side, gang, h in SW:
+# switches by the DOOR they serve, not by a fraction along the wall.
+# wet rooms switch from OUTSIDE, in the corridor - local practice.
+# wall, opening, jamb, face, gang, H
+SWDEF = [('G4C', 'O1', 'hi', +1, 1, 90, u'ванная, из прихожей'),
+         ('G4C', 'O7', 'lo', +1, 1, 90, u'туалет, из прихожей'),
+         ('G2',  'O8', 'hi', +1, 2, 90, u'прихожая'),
+         ('G6',  'O5', 'hi', -1, 1, 90, u'средняя комната'),
+         ('G4d', 'O6', 'hi', -1, 1, 90, u'комната 9.36'),
+         ('G7',  None, None, -1, 2, 90, u'кухня-гостиная')]
+SW = []
+for wid, oid, jamb, side, gang, h, nt in SWDEF:
+    t = beside_opening(wid, oid, jamb) if oid else 0.06
+    SW.append((wid, t, side, gang, h, nt))
+for wid, t, side, gang, h, nt in SW:
     x, y, nx, ny = on_wall(wid, t, side)
     px, py = s.P((x, y))
     s.sym_switch(px, py, nx, ny, GY, gang)
     s.htag(px + nx * 62, py + ny * 62, u'H=%d' % h, GY)
+    s.callout(px, py, [nt], (90, 90, 90))
+s.check_openings([(w, t, h, u'выкл. ' + nt) for w, t, _sd, _g, h, nt in SW]
+                 + [(w, t, h, u'розетка') for w, t, _sd, _g, h, _n in SOCK])
 x, y, nx, ny = on_wall('G4C', 0.30, +1)
 px, py = s.P((x, y))
 s.callout(px, py, [u'2 круглые коробки H=210', u'⚠ назначение не определено'], (180, 100, 0))
@@ -77,7 +91,7 @@ for bx, by, nt, pend in LIGHT:
     s.sym_ceiling(px, py, G, False, pend)
     s.callout(px, py, [nt] if pend else [nt, u'⚠ не подтверждён'],
               (40, 40, 40) if pend else (180, 100, 0))
-for wid, t, side, gang, h in SW:
+for wid, t, side, gang, h, nt in SW:
     x, y, nx, ny = on_wall(wid, t, side)
     px, py = s.P((x, y))
     s.sym_switch(px, py, nx, ny, GY, gang)

@@ -1,0 +1,9 @@
+wall_id,opening_id,span_lo_basic_px,span_hi_basic_px,sill_height_mm
+G2,O8,247,346,0
+G4C,O7,122,190,0
+G4C,O1,268,336,0
+G4d,O6,249,335,0
+G6,O5,350,443,0
+MA,O4,167,303,735
+MB,O2,411,576,900
+MC,O3,765,943,266
