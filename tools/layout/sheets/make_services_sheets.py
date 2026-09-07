@@ -21,29 +21,34 @@ NOPH = u'НЕТ ФОТО'
 
 # id, wall, t, face, gang, H cm, source photo ids, what the photo shows
 SOCK = [
- # КУХНЯ-ГОСТИНАЯ. The north-wall row is confirmed twice: 930d shows three at
- # H=100 above the worktop, a89d shows the same three at mid height on the far
- # wall. The third of them is the HOB line - see POWER below.
+ # ============ КУХНЯ-ГОСТИНАЯ ============
+ # The north-wall row is the only placement in this room with two independent
+ # photos agreeing: 930d (close to frontal, H=100 above the worktop) and a89d
+ # (the same three boxes at mid height on the far wall).
  ('S1', 'G3', 0.16, +1, 2, 100, '930d + a89d', u'ряд из 3 розеток над столешницей, H=100'),
  ('S2', 'G3', 0.42, +1, 2, 100, '930d + a89d', u'то же, средняя в ряду'),
- # the EAST long wall - three low boxes in a89d plus one in add8 (their WEST wall)
- ('S4', 'R2', 0.55, +1, 1, 30, 'a89d', u'низкая розетка на длинной стене (зеркальная кв.)'),
- ('S5', 'G5', 0.28, +1, 1, 30, 'a89d + add8', u'то же, вторая'),
- ('S14', 'G5', 0.68, +1, 1, 30, 'a89d', u'то же, третья'),
- ('S15', 'R7', 0.45, +1, 1, 30, 'add8', u'низкая розетка ближе к окну'),
- ('S16', 'MC', 0.06, -1, 1, 30, 'add8', u'розетка у откоса окна, вне зоны радиатора'),
- # СРЕДНЯЯ КОМНАТА
- ('S6', 'G8', 0.30, -1, 1, 30, 'b6f0', u'2 низкие розетки в средней комнате; СТЕНА не определена'),
+ # G7 - the wall to the middle room. TWO outlets, no switches, per the owner
+ # 2026-09-07. I had left it empty; before that I had put a switch on it.
+ ('S17', 'G7', 0.30, +1, 1, 30, u'владелец', u'ВЛАДЕЛЕЦ: на G7 две розетки, выключателей нет'),
+ ('S18', 'G7', 0.68, +1, 1, 30, u'владелец', u'то же, вторая'),
+ # the east party run - REDUCED from 4 to 2. The owner: "too many outlets on the
+ # bigger wall neighbouring the other apartment."
+ ('S4', 'R2', 0.55, +1, 1, 30, 'a89d + add8', u'низкая розетка на длинной стене (СЧЁТ уточняется)'),
+ ('S5', 'G5', 0.45, +1, 1, 30, 'a89d + add8', u'то же, вторая (СЧЁТ уточняется)'),
+ # MC, the window wall - NONE. Owner: "there are no outlets on the wall with the
+ # window, not a trace of it." S16 removed.
+ # ============ СРЕДНЯЯ КОМНАТА ============
+ ('S6', 'G8', 0.30, -1, 1, 30, 'b6f0', u'2 низкие розетки; СТЕНА не подтверждена'),
  ('S7', 'G8', 0.72, -1, 1, 30, 'b6f0', u'то же'),
  ('S12', 'MB', 0.08, -1, 1, 30, NOPH, u'—'),
- # КОМНАТА 9.36
- ('S8', 'G4a', 0.34, -1, 1, 30, '9db4 + bc18', u'розетки на боковых стенах комнаты 9.36'),
+ # ============ КОМНАТА 9.36 ============
+ ('S8', 'G4a', 0.34, -1, 1, 30, '9db4 + bc18', u'розетки на боковых стенах; СТЕНА не подтверждена'),
  ('S9', 'R6', 0.50, -1, 1, 30, '9db4', u'то же, вторая стена'),
  ('S13', 'MA', 0.42, -1, 1, 30, NOPH, u'—'),
 ]
 
 # СИЛОВАЯ розетка - its own list and its own symbol
-POWER = [('S3', 'G3', 0.70, +1, 100, '930d + a89d',
+POWER = [('S3', 'G3', 0.70, +1, 100, u'930d + a89d + владелец',
           u'третья в ряду, у электроплиты — владелец: НЕ 220 В, вероятно 380 В')]
 
 # id, wall, opening, jamb, face, gang, H, sources, what the photo shows
@@ -101,8 +106,12 @@ s.note([u'H = высота от чистого пола, см.', u'',
         u'Под каждым символом: ЕГО НОМЕР и ID ФОТО,',
         u'по которому он поставлен. Оранжевая рамка',
         u'и «НЕТ ФОТО» — положение НЕ подтверждено',
-        u'ничем, выбрано мной. Таких 5 из 13 розеток',
-        u'и 3 из 6 выключателей.', u'',
+        u'ничем, выбрано мной.',
+        u'', u'⚠⚠ ПРИВЯЗКА К СТЕНАМ ПЕРЕСМАТРИВАЕТСЯ.',
+        u'   Направление взгляда на фото инвертирует',
+        u'   лево/право, и я применил это непоследовательно.',
+        u'   Таблица для правки:',
+        u'   data/canonical/photo_wall_mapping.csv', u'',
         u'⚠ Ни одно горизонтальное положение НЕ',
         u'   измерено в НАШЕЙ квартире. Все фото —',
         u'   соседние квартиры, две из трёх зеркальные.',
