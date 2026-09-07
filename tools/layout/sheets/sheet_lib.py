@@ -17,12 +17,11 @@ HERE = os.path.join(REPO, '_Drawings', 'sheets')
 MMPX = 9.789
 JAMB_CLEAR_MM = 100.0  # a symbol this close to a jamb is not buildable -
                        # the MB socket read 'clear' at 59 mm from O2
-STANDOFF_MM = 95.0   # the symbol's flat side sits this far off the modelled
-                     # face, bridged by its stem - the reference album draws
-                     # symbols clearly OUTSIDE the wall with a short stem to
-                     # it. At 30 mm they still read as embedded, because a
-                     # socket symbol is ~140 mm deep at this scale and the
-                     # plan's own line weight is not the modelled thickness
+STANDOFF_MM = 12.0   # the symbol's flat side sits this far off the modelled
+                     # face. It must be SMALL: at 95 mm the symbols read as
+                     # floating off the wall, which the owner flagged. The
+                     # symbol's own body extends outward from here, so the
+                     # base touching the face is what "attached" looks like.
 S = 3
 PAD_L, PAD_T, PAD_R, PAD_B = 660, 200, 90, 150
 
@@ -79,6 +78,45 @@ def beside_opening(wid, oid, jamb, clear_mm=170):
                 'other one.' % (wid, oid, jamb, t, clear_mm))
         return t
     raise KeyError('%s has no opening %s' % (wid, oid))
+
+
+JUNCTION_CLEAR_MM = 120.0   # an item this close to where another wall lands
+                            # reads as being inside the corner. The socket on
+                            # G4a at t=0.55 sat 40 mm from G4d - the owner saw
+                            # it as "inside the wall between the bathroom and
+                            # the small bedroom". 120 rather than 200 because a
+                            # switch beside a door is INHERENTLY near a corner:
+                            # 200 flagged three legitimate placements. 120 is
+                            # about the minimum for an 80 mm faceplate to sit
+                            # flat with a margin.
+
+
+def junction_conflict(wid, t, side=None):
+    """the wall whose landing this point sits on top of, or None.
+
+    Uses proper point-to-SEGMENT distance, and tests the point where the symbol
+    is actually drawn (the face, not the centreline). The first version tested
+    the centreline and required the point to lie within the other wall's span -
+    which skipped exactly the case that matters: G4d BUTTS on G4a, so it starts
+    at x=51 while G4a's centreline is x=38, and the test never looked at it.
+    That is why it passed the socket the owner could plainly see was in the wall.
+    """
+    if side is None:
+        ax, ay, bx, by, th = RUNS[wid]
+        px, py = ax + (bx - ax) * t, ay + (by - ay) * t
+    else:
+        px, py, _nx, _ny = on_wall(wid, t, side)
+    for o, (ox, oy, obx, oby, oth) in RUNS.items():
+        if o == wid:
+            continue
+        vx, vy = obx - ox, oby - oy
+        L2 = vx * vx + vy * vy
+        u = 0.0 if L2 == 0 else max(0.0, min(1.0, ((px - ox) * vx + (py - oy) * vy) / L2))
+        qx, qy = ox + vx * u, oy + vy * u
+        d = (((px - qx) ** 2 + (py - qy) ** 2) ** 0.5) * MMPX - oth / 2.0
+        if d < JUNCTION_CLEAR_MM:
+            return '%s (%.0f mm from where %s lands)' % (o, max(d, 0.0), o)
+    return None
 
 
 def opening_conflict(wid, t, height_mm):
@@ -214,9 +252,10 @@ class Sheet(object):
         else:
             self.d.ellipse([cx - r + 4, cy - r + 4, cx + r - 4, cy + r - 4], fill=col)
 
-    def htag(self, x, y, txt, col):
+    def htag(self, x, y, txt, col, nx=0, ny=0):
         w = len(txt) * 15 + 20
-        tx, ty = self.spot(x, y, w, 40)
+        # start the search PAST the symbol body, not on top of it
+        tx, ty = self.spot(x + nx * 70, y + ny * 70 - 46, w, 40)
         self.d.line([(x, y), (tx, ty)], fill=col + (170,), width=2)
         self.d.rectangle([tx - w / 2, ty - 20, tx + w / 2, ty + 20],
                          fill=(255, 255, 255, 245), outline=col, width=3)
@@ -244,13 +283,17 @@ class Sheet(object):
             self.d.text((70, self.ly), t, fill=(110, 110, 110), font=f_note, anchor='lm')
             self.ly += 32
 
-    def check_openings(self, items):
+    def check_openings(self, items, sides=None):
         """items = [(wall_id, t, height_mm, label)]. Raises on any clash."""
+        sides = sides or {}
         bad = []
         for wid, t, h, lbl in items:
             o = opening_conflict(wid, t, h)
             if o:
                 bad.append('%s at H=%d on %s falls inside opening %s' % (lbl, h, wid, o))
+            j = junction_conflict(wid, t, sides.get((wid, t)))
+            if j:
+                bad.append('%s on %s sits at a junction: %s' % (lbl, wid, j))
         if bad:
             raise AssertionError('items inside openings: ' + '; '.join(bad))
         print('  opening check: %d items, all clear' % len(items))
