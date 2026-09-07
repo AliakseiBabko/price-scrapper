@@ -219,6 +219,8 @@ s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'water'), u'Вывод
 s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'sewer'), u'Вывод канализации DN50', MG)
 s3.legend(lambda x, y, c: s3.d.line([(x - 26, y), (x + 26, y)], fill=MG, width=9),
           u'Лежак канализации DN50 по низу стены', MG)
+s3.legend(lambda x, y, c: s3.d.line([(x - 26, y), (x + 26, y)], fill=GY, width=5),
+          u'— в ванной: ТОПОЛОГИЯ по b83a, не разметка', GY)
 s3.legend(lambda x, y, c: s3.sym_riser(x - 20, y, c, dn=True),
           u'Стояк канализации DN110 — транзит (их ДВА)', MG)
 s3.legend(lambda x, y, c: s3.sym_valve(x - 20, y, c), u'Запорный вентиль', R)
@@ -292,9 +294,33 @@ SEWER = [(707.22765, 69.9953), (672, 69.9953)]
 # whether the evidence REQUIRED it. Consequence: the 125 mm screed-fall warning
 # and the G4C penetration were both consequences of an element that is not there.
 
+# ============ ВЫВОДЫ В ВАННУЮ — топология из b83a ============
+# b83a (the owner’s annotated photo of a туалет in a comparable flat) shows the
+# arrangement he wants applied: the ГВС / ХВС / канализация risers stand in the
+# niche at the far end, the two water meters sit at mid height on the risers,
+# and all three services then drop and leave the туалет AT LOW LEVEL — his
+# label on the photo reads “to the bathroom”.
+#
+# My sheet had NOTHING in the ванная. A bath and a basin were on the plan the
+# whole time and I had drawn no water and no drain to either. Third omission of
+# the same kind in one day, and the biggest.
+#
+# On our plan this is a very short route, which is itself a check on the
+# reading: P1 (x 52..87, y 110..192) sits directly NORTH of the bath’s head
+# (bath x 52..123, y 202..378) with only G4b between them, and the basin is on
+# G4b just east of it (x 125..185). So “to the bathroom” is a metre of pipe.
+#
+# ⚠ TOPOLOGY, NOT A SETTING-OUT. His words: “the specific layout could be
+# different … but the general approach is the same”, and more examples are
+# coming. Positions within the ванная are indicative and the sheet says so.
+BATH_W = [(70, 190), (70, 212), (152, 212)]          # ГВС+ХВС: P1 -> ванна -> раковина
+BATH_S = [(150, 220), (78, 220), (78, 191)]          # DN50: раковина/ванна -> стояк SS-B
+
 ROUTES = [(u'ГВС', R, [(90, 180), (720.49225, 180), (720.49225, 69.9953)]),
           (u'ХВС', B, [(90, 186), (730.70995, 186), (730.70995, 69.9953)]),
-          (u'DN50', MG, SEWER)]
+          (u'DN50', MG, SEWER),
+          (u'ГВС-в', R, BATH_W), (u'ХВС-в', B, [(p[0], p[1] + 5) for p in BATH_W]),
+          (u'DN50-в', MG, BATH_S)]
 
 # no routed segment may cross a shaft or a plumbing block. The junction check
 # taught this — a check that cannot fail is not a check.
@@ -305,12 +331,14 @@ for lbl, col, route in ROUTES:
     # not by loosening the tolerance until the check stops complaining.
     # each route is exempted only from the block it TAKES OFF FROM or RUNS
     # INTO - by name, not by loosening the tolerance until the check goes quiet.
-    conn = ('P2',) if col is MG else ('P1',)
+    # every route here either takes off from a block or runs into one;
+    # exempt only that block, by name.
+    conn = ('P2',) if route is SEWER else ('P1',)
     bad = route_block_conflicts(route, BLOCKS, clear_mm=60.0, connects=conn)
     if bad:
         raise SystemExit(u'%s route crosses a service block: %s' % (lbl, u'; '.join(bad)))
     s3.polyline_rounded(route, col, width=9, offset=0.0, r_mm=260.0)
-    if col is not MG:   # the sewer run is short; its label would sit on the block
+    if col is not MG and route is not BATH_W:   # short runs: label would sit on a block
         m = s3.P(((route[0][0] + route[1][0]) / 2.0, route[0][1] + (-5 if col is R else 9)))
         s3.d.text(m, lbl, fill=col, font=s3.f_src, anchor='mm')
 print(u'  route/block clearance: %d routes, all clear of %d blocks, 1 turn each'
@@ -411,6 +439,13 @@ for iid, bx, by, col, kind, nt, src in P1SVC:
                    'position_basis': 'inside P1 per service_outlets.csv; '
                                      'arrangement WITHIN the block indicative',
                    'owner_verdict': '', 'owner_correction': ''})
+s3.callout(*(list(s3.P((120, 214))) + [[u'ВАННАЯ — ОБЩИЙ ПОДХОД по b83a',
+                                        u'ГВС + ХВС из узла P1 по низу — на ванну,',
+                                        u'далее на раковину на G4b',
+                                        u'DN50 от раковины и ванны — в стояк SS-B',
+                                        u'проход через G4b (блок 120 мм)',
+                                        u'⚠ ТОПОЛОГИЯ, НЕ РАЗМЕТКА — владелец:',
+                                        u'   «раскладка может отличаться, подход тот же»'], B, (280, 520)]))
 s3.callout(*(list(s3.P((87, 150))) + [[u'P1 — САНТЕХБЛОК (ade6)',
                                        u'SS-B  стояк канализации DN110 — транзит',
                                        u'      сверху донизу дома; примерно по середине',
@@ -420,7 +455,8 @@ s3.callout(*(list(s3.P((87, 150))) + [[u'P1 — САНТЕХБЛОК (ade6)',
                                        u'SH-B  стояк в изоляции — не подтверждён',
                                        u'      как отопление',
                                        u'УЗЕЛ ЗАПОРНЫХ ВЕНТИЛЕЙ — ТОЛЬКО ОДИН,',
-                                       u'здесь, в туалете (владелец)'], B, (170, 560)]))
+                                       u'здесь, в туалете (владелец)',
+                                       u'счётчики — по середине высоты стояков (b83a)'], B, (170, 560)]))
 
 
 
