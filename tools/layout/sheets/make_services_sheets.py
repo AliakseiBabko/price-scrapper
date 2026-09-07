@@ -217,6 +217,8 @@ s3.f_src = __import__('sheet_lib').F(21)
 s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'water'), u'Вывод холодной воды', B)
 s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'water'), u'Вывод горячей воды', R)
 s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'sewer'), u'Вывод канализации DN50', MG)
+s3.legend(lambda x, y, c: s3.d.line([(x - 26, y), (x + 26, y)], fill=MG, width=9),
+          u'Лежак канализации DN50 по низу стены', MG)
 s3.legend(lambda x, y, c: s3.d.rectangle([x - 22, y - 16, x + 22, y + 16], outline=c, width=6),
           u'Стояк / сантехблок', B)
 s3.legend(lambda x, y, c: s3.d.rectangle([x - 22, y - 16, x + 22, y + 16], outline=c, width=6),
@@ -256,8 +258,23 @@ for bid, (x0, y0, x1, y1), col in (('V1', (67, 70, 139, 111), OR), ('V2', (636, 
 #
 # So these are two independent routes, each ending on its own take-off, not one
 # line drawn twice.
+# The SEWER RUN, added 2026-09-07 on the owner: I had drawn the DN50 socket
+# and never drawn the pipe it connects to. 930d shows it plainly — a grey PVC
+# pipe running HORIZONTALLY along the wall base from the socket and continuing
+# into a chase behind the shaft. So it is drawn as observed: west along G3’s
+# base from the socket, disappearing behind the V2/P2 block.
+#
+# It stops there ON PURPOSE. The only sewer stack in the record is SS-B, DN110,
+# in P1 in the туалет — about 6 m away — and no photo shows how this DN50
+# reaches it, or whether P2 holds a second riser instead. The photo shows the
+# pipe entering the chase and nothing beyond, so that is where the line ends
+# and the callout says so. Drawing a 6 m branch across the flat would be
+# inventing an element, which is the rule the З1/З2 voids broke.
+SEWER = [(707.22765, 69.9953), (672, 69.9953)]
+
 ROUTES = [(u'ГВС', R, [(90, 180), (720.49225, 180), (720.49225, 69.9953)]),
-          (u'ХВС', B, [(90, 186), (730.70995, 186), (730.70995, 69.9953)])]
+          (u'ХВС', B, [(90, 186), (730.70995, 186), (730.70995, 69.9953)]),
+          (u'DN50', MG, SEWER)]
 
 # no routed segment may cross a shaft or a plumbing block. The junction check
 # taught this — a check that cannot fail is not a check.
@@ -266,16 +283,25 @@ BLOCKS = {'V1': (67, 70, 139, 111), 'V2': (636, 92, 677, 162),
 for lbl, col, route in ROUTES:
     # P1 is the riser each route takes off FROM, so it is excluded by name,
     # not by loosening the tolerance until the check stops complaining.
-    bad = route_block_conflicts(route, BLOCKS, clear_mm=60.0, connects=('P1',))
+    # each route is exempted only from the block it TAKES OFF FROM or RUNS
+    # INTO - by name, not by loosening the tolerance until the check goes quiet.
+    conn = ('P2',) if col is MG else ('P1',)
+    bad = route_block_conflicts(route, BLOCKS, clear_mm=60.0, connects=conn)
     if bad:
         raise SystemExit(u'%s route crosses a service block: %s' % (lbl, u'; '.join(bad)))
     s3.polyline_rounded(route, col, width=9, offset=0.0, r_mm=260.0)
-    m = s3.P(((route[0][0] + route[1][0]) / 2.0, route[0][1] + (-5 if col is R else 9)))
-    s3.d.text(m, lbl, fill=col, font=s3.f_src, anchor='mm')
+    if col is not MG:   # the sewer run is short; its label would sit on the block
+        m = s3.P(((route[0][0] + route[1][0]) / 2.0, route[0][1] + (-5 if col is R else 9)))
+        s3.d.text(m, lbl, fill=col, font=s3.f_src, anchor='mm')
 print(u'  route/block clearance: %d routes, all clear of %d blocks, 1 turn each'
       % (len(ROUTES), len(BLOCKS)))
 s3.callout(*(list(s3.P((380, 183))) + [[u'ГВС + ХВС под полом — трасса ВЛАДЕЛЬЦА',
                                         u'трафареты «ВОДОСНАБЖЕНИЕ» на стяжке'], B]))
+s3.callout(*(list(s3.P((684, 70))) + [[u'Лежак DN50 уходит за шахту — 930d',
+                                        u'продолжение НЕ ЗАФИКСИРОВАНО:',
+                                        u'стояк SS-B (DN110) — в P1, в туалете,',
+                                        u'около 6 м; есть ли второй стояк в P2 —',
+                                        u'ни на одном фото не видно'], MG, (-380, 640)]))
 
 # ORDER CORRECTED 2026-09-07 by the owner: in 930d the sewer socket is CLOSER
 # TO THE VENTILATION SHAFT than either water outlet. I had it as the eastmost

@@ -395,10 +395,15 @@ class Sheet(object):
                          fill=(255, 255, 255, 245), outline=col, width=3)
         self.d.text((tx, ty), txt, fill=col, font=f_tag, anchor='mm')
 
-    def callout(self, x, y, lines, col=(40, 40, 40)):
+    def callout(self, x, y, lines, col=(40, 40, 40), seek=(0, 0)):
         w = max(len(t) for t in lines) * 15 + 26
         h = 14 + 30 * len(lines)
-        tx, ty = self.spot(x, y, w, h)
+        # the LEADER stays on (x, y) - the thing being annotated - while `seek`
+        # moves where the box hunts for space. Without it spot() spirals out
+        # from the anchor and can only land on the neighbours of the very thing
+        # the note is about, which is how the sewer note ended up covering the
+        # two shafts it describes.
+        tx, ty = self.spot(x + seek[0], y + seek[1], w, h)
         self.d.line([(x, y), (tx, ty)], fill=(90, 90, 90, 190), width=2)
         self.d.rectangle([tx - w / 2, ty - h / 2, tx + w / 2, ty + h / 2],
                          fill=(255, 255, 255, 248), outline=(90, 90, 90), width=3)
