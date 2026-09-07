@@ -1034,5 +1034,14 @@
     "and_it_is_now_SOLID": "The dashed style meant \"only the ends are known\". It is his line now, so it is solid, and the legend says НАНЕСЕНА ВЛАДЕЛЬЦЕМ rather than describing a guess.",
     "the_consequence_worth_naming": "⚠ The run crosses the прихожая floor and passes under G4C. So any floor work in the прихожая - levelling, a chase for anything else, fixings into the screed - has to respect it, and it is the one service route that runs through a circulation space rather than along a wall. Worth marking on site before the screed is covered, which is also why the ВОДОСНАБЖЕНИЕ stencils exist.",
     "what_is_still_missing": "✕ The HEATING route. Now the only unrecorded service, and the one I had twice believed was recorded because I misread these very stencils."
+  },
+  "A_PIPE_CANNOT_CROSS_CONCRETE_2026_09_07": {
+    "what_was_wrong": "My first rendering of the owner’s hand-drawn ГВС/ХВС route turned north at basic x=648 and ran diagonally to (690, 96) — straight through V2, the concrete ventilation shaft (basic 636..677 × 92..162), and clipping P2 above it.",
+    "who_found_it": "the owner, who circled the crossing in red on sheet 3.",
+    "the_route_now": "[(90,172), (700,172), (700,78), (722,78)] — the turn happens EAST of the block: 98 mm south of V2’s south face, 225 mm east of its east face.",
+    "the_real_failure": "not the geometry — the ABSENCE of a check. I placed a line by eye over a plan whose blocks were already in the code as rectangles, and nothing could object. Identical to the wall-junction check that silently passed a socket inside a wall.",
+    "the_check_added": "sheet_lib.route_block_conflicts(route, blocks, clear_mm=60, connects=(...)) — samples each segment against every shaft/plumbing footprint inflated by the clearance, so grazing a corner fails too. Negative-tested against the exact route he circled: it reports “segment 1 hits V2”. P1 is exempted BY NAME because the route takes off from it — not by loosening the tolerance until the check stops complaining.",
+    "drawing_convention": "pipe runs are now drawn with filleted corners (r≈260 mm) as one polyline with joint=’curve’, because a pipe bends on a radius. A sharp right angle in a pipe run is a drawing convention, not a pipe — and drawing the arc as separate segments left a notch at every joint.",
+    "rule": "ANY routed service line must be checked against the solid objects already in the model before it is drawn. If the model knows a rectangle is concrete, the drawing has no excuse for crossing it."
   }
 }
