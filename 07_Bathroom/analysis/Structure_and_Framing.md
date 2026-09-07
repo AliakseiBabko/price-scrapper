@@ -19,6 +19,12 @@ See [[12_Engineering_and_Systems/Plumbing_and_Waterproofing|Plumbing & Waterproo
 - **The gap between a prefab cabin and the real structural wall is commonly ~15–20 cm** — space that's simply wasted while the cabin stands, reclaimed entirely on demolition (in addition to the ceiling-height gain).
 - **A code/inspection tradeoff worth planning for**: formally registering the cabin's removal may require either (a) full brush-on waterproofing membrane across the *entire* apartment floor, not just the bathroom, or (b) building a raised threshold/curb (порожек) at the bathroom doorway — which one applies depends on the inspecting authority. `single-account`, Russia-specific process — treat the *tradeoff itself* as the transferable insight, not the Russian registration process.
 
+### A Second Trade Says the Same Thing, and Says It Without Argument (Vasily_Sanuzel, 2024-05-10)
+
+Василий (Vasily_Sanuzel), a bathroom specialist arriving at a ПИК new-build after the cabin was already gone: «эти кабины необходимо полностью сносить, чтобы сделать нормальный ремонт».
+
+**⚠️ Recorded as corroboration of the position, not of the reasoning.** He offers no mechanism, no material distinction and no cost — one line in passing. The substance on this decision remains Kruglov's above; this adds only that a second, independent, plumbing-side practitioner treats full demolition as the default rather than a judgement call. [source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
+
 ## Framing / Cladding Box Systems and Partition Material
 
 For non-structural boxing (concealing pipes, framing a niche):
@@ -31,6 +37,18 @@ For non-structural boxing (concealing pipes, framing a niche):
 - **Silicate tongue-and-groove board (ПСП — distinct from the brittle gypsum tongue-and-groove board ПГП, which this source explicitly avoids using anywhere)**, ~8 cm — doesn't strictly need plastering, but the source plasters it anyway to guarantee a flat plane for tiling. [source: [[_Archive/processed_sources/20260731_plumbing_video_3_e759e2c7.txt|plumbing_video_3_e759e2c7]]]
 - All three, at these thicknesses, are described as meeting typical soundproofing needs adequately.
 - **A fourth, heavier partition material — a tongue-and-groove ("пазогребневый"), moisture-resistant, high-density silicate BLOCK** (distinct from the thinner ~8cm ПСП tongue-and-groove *board* above): 497mm(L) × 248mm(H) × 100mm(W), 22.5 kg/block, interlocks tongue-into-groove on top/bottom and end faces (like Lego). High compressive load capacity and good fastener-holding (rated for a heavy wall-mounted item like a kitchen cabinet). **Viable in a monolithic-frame building or private house; explicitly too heavy for an older khrushchevka-type panel building** (floor-load concern). Chosen over brick specifically because brick's small unit size makes equivalent wall area far slower to build. Belarus, Minsk, 2020, real factory-direct pallet price ≈1.14 BYN/block (≈$0.46) vs. ≈2× that at retail. [source: [[_Sources/YT_ZW-dNzbCREI_sidorik_bathroom_block_partitions_ep4|ZW-dNzbCREI_sidorik_bathroom_block_partitions_ep4]]]
+
+### ⚠️ Structural Aluminium Profile Instead of Drywall Profile, and Bracketing the WC Frame Into It (Vasily_Sanuzel, 2024-05-10)
+
+A **fourth framing option** for the false wall, distinct from the three above — and the one that resolves the load problem this page already flags with Knauf-based boxing.
+
+- **Structural aluminium construction profile (Russian-made)** used for both the false wall and the new partition between bath and WC. He builds a partition out of it on camera and loads it against ordinary drywall profile to show the difference — «как видно, вещь достойная, надёжная» — then sheathes it in board exactly as a standard frame would be. **Cut with an angle grinder or a metal saw.**
+- **⚠️ The wall-hung WC installation frame is bracketed into the profile through a drilling template**, using dedicated brackets. Two consequences he states: it **holds the frame in the same plane as the carcass**, and it **multiplies the frame's fixing points** — after which **the frame's own supplied fasteners can be left out entirely**. Compare the anchoring rules under [[07_Bathroom/analysis/Structure_and_Framing|Wall-Hung Toilet Installation Frame]] below, which assume the frame's own footing.
+- **Access-hatch leaves fabricated from the same profile** with dedicated inserts — **two hatches on this job: one to service the water-preparation node, one for storage.** See [[07_Bathroom/analysis/Structure_and_Framing|Access Hatches]] below.
+- **Sheathing: acoustic gypsum board** (Knauf Sapphire — dense, heavy, fire- and moisture-resistant), **cut with a circular saw rather than a knife** for a straighter, more accurate edge, service holes cut with a hole saw.
+- **⚠️ Two layers of board, and the stated trigger is tile format, not acoustics**: «зашивать буду на два слоя, так рекомендуется делать, если планируется плитка больших размеров» — the tile here is **1200 × 600 mm**. That gives this page's existing two-layer drywall figures a *reason* attached to a specific tile size rather than a default.
+
+[source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
 
 ### Silicate-Block Bathroom Partition Build Technique (added 2026-08-24, Round 2)
 
@@ -189,6 +207,10 @@ Konstantin Kruglov / Ontario: **installation-frame load ratings**: base/standard
 **Bathtub wall-opening (niche) precise sizing rule (added 2026-08-28, Round 5)**: for a 170cm tub set into a three-wall alcove with no interior tile finish, the rough opening should be exactly 170cm (walls chased/recessed directly to the tub, no buildup); if the niche's interior faces will be tiled, widen the opening to 172cm instead, since tile + adhesive together add roughly 0.5cm per side. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT_BDudniuyJ4s_kruglov_bathroom_mistakes_every|YT_BDudniuyJ4s]]]
 
 **Sewage-adapter routing from the frame is a "puzzle" with no single fixed answer**: the frame's own sewage outlet is 90mm while the common riser/branch pipe is 110mm — depending on the specific install, either step down from 110mm to 90mm directly, or run 110mm pipe to the frame and use a reducer there; the constraint that must be preserved either way is correct drain slope and a correct branch-off to both the sink/toilet drain and the bathroom drain line. `single-account`. [source: [[_Sources/YT_N36scNqRwII_sidorik_water_heater_installation_errors|N36scNqRwII_sidorik_water_heater_installation_errors]]]
+
+**⚠️ A fastener manufacturer sizes the frame fixing by the USER, not the fixture (via Vasily_Sanuzel, 2024-06-03)**: asked what to fix a wall-hung frame with, the first question back is **who will use it**. «Большой крупный мужчина 150 кг веса» → **two fixing points, upper and lower**; an ordinary household → the classic single arrangement, because **the dynamic load of someone sitting down stays under about 200 kg**. That is a usefully different framing from the rated-capacity numbers above: **the rating is a property of the frame, the fixing is a property of the household.** Same source on substrates: with a **chemical anchor**, «можно закрепить что угодно к чему угодно», and **in good, dry D500 aerated concrete they claim up to 200 kg** — a boiler or a storage heater. `vendor claim`, but with the substrate quality stated as a condition; their own framing is that what matters is **not what you are fixing but what it weighs**. [source: [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|YT_LDeNqQL7TLQ]]]
+
+**⚠️ And on what the structural profile above can carry**: the profile maker's claim is that with the system's **inserts corner-jointed into the profile rib and backed by glued plywood**, a partition built from it will take **a bath grab rail, or a pull-up bar** — «на Кнауф не повесишь». `vendor claim`, but specific and testable, and it names exactly the load case that Knauf-based boxing is recorded as failing on this page. Note the profile maker also confirms **any manufacturer's installation frame can be bracketed to it**, and that the brackets fix to any plane, not only to a frame. [source: [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|YT_LDeNqQL7TLQ]]]
 
 ## Partition Rebuild Freeing Real Space While Adding Soundproofing (Петришин-Строй, added 2026-08-24, Round 11)
 

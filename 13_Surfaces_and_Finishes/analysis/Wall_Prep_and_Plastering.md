@@ -29,6 +29,18 @@ Split out of `Walls_and_Paint.md` on 2026-08-31, when that page reached 921 line
 - **⚠️ When a kitchen module run can't get enough depth within its own room, check whether reclaiming depth from an adjacent non-kitchen room can supply it — a genuinely creative space-finding technique.** A documented case extended a kitchen wall backward into an adjoining pantry by the needed depth (300mm), then separately redesigned the pantry (shifting its door opening, lengthening the room) to end up with *more* usable storage than the original layout, despite the kitchen having taken a bite out of it. **A depth shortfall in one room doesn't have to be solved entirely within that room's own footprint.** `single-account`, `unverified`. [source: [[_Sources/YT_HHIUvRywQ6k_kitchen_depth_steal_lifehack_226|YT_HHIUvRywQ6k]]]
 - **A non-structural decorative column/post can be built specifically to route TV/media cabling through an open-plan zone**, avoiding the need to run cable through a wall or floor for a floating TV placement not backed by a solid wall. `single-account`, `unverified`. [source: [[_Sources/YT_ahC-OK0dp4_convenient_newbuild_1yr_508|YT_ahC-OK0dp4]]]
 
+## ⚠️ Plastering Aerated Block: Why Gypsum, and Why the Primer Is a Different Product (Vasily_Sanuzel, 2024-05-10)
+
+Василий (Vasily_Sanuzel), plastering new aerated-block bathroom walls, gives a **materials-compatibility argument rather than a preference**, and it is the mechanism this page's substrate-compatibility section did not carry for this pairing:
+
+- **Gypsum plaster is the correct choice on aerated block because its grade strength does not exceed the strength of the blocks** — «поэтому сцепление материалов максимальное». Matching the plaster *down* to the substrate, not up.
+- **⚠️ The primer is a distinct product, not ordinary primer applied twice.** A dedicated aerated-block primer differs by **a higher polymer content**, for strongly absorbent substrates. Its colour is only an added pigment for coverage control. **Stated purpose: stop the plaster losing its water too fast into the block**, which «приведёт к порче материала и всей работе». Walls are vacuumed before it goes on.
+- **⚠️ And the consequence that matters if tile is coming: gypsum plaster under tile must afterwards be treated with acrylic waterproofing.** Stated flatly, in a wet room, as a non-optional follow-on — so the cheap-and-compatible plaster choice carries a mandatory extra coat with it, and a quote that omits it is not comparing like with like.
+- **Door openings are cut to their design size after plastering**, not before — «мне так удобнее и позиционирование точнее».
+- **Top-floor detail**: with only the roof above, the vent duct was temporarily dismantled to plaster behind it and **a ventilation valve fitted in the meantime**, so the stack ventilation was neither interrupted nor filled with debris. On any other floor he would simply have added an extra plaster beacon and worked around it.
+
+[source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
+
 ## Reveal-Plastering Guide Profile, First-Course Thickness Mechanism, and Whole-Apartment Pre-Wall Squaring (Петришин-Строй, added 2026-08-24, Round 3)
 
 A second, independent company's practice on a real ~96m² object — region

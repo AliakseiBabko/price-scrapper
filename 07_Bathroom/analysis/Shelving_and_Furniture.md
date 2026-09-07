@@ -127,6 +127,18 @@ Bathroom storage relocated entirely OUTSIDE the bathroom itself to another part 
 - **⚠️ «Самое удобное место для БРИТЬЯ, для ТРИММЕРА, для любой бритвы — это конечно же ДУШ. Здесь все ВОЛОСЫ можно легко СМЫТЬ, быстро промыть РУЧНЫМ ДУШЕМ, всё уйдёт, и у вас НЕ БУДЕТ НИЧЕГО СКАПЛИВАТЬСЯ. Потому что БРИТЬСЯ НА РАКОВИНЕ — это просто ОТВРАТИТЕЛЬНО: у вас постоянно где-то ВАЛЯЮТСЯ ЭТИ ВОЛОСКИ от бороды.»**
 - **→ Three cheap requirements that must coincide: a shelf or niche at standing eye height inside the wet zone, a CORROSION-PROOF mirror on it, and a hand shower. Only the third is normally specified.** It also relocates a recurring cleaning nuisance from the basin — which on this channel is a durability argument as much as a tidiness one.
 
+### ⚠️⚠️ Storage Was Planned, Built, and Still Not Enough — a Second One-Year Verdict (Vasily_Sanuzel, Moscow, 2022-01-23)
+
+A fitter revisiting his own finished bathroom after a year. The room has **a large vanity, seasonal storage, a niche inside the shower, and a small unit the owners added into a corner afterwards** — and the owners still report **it is not enough**: «недостаточно, хотелось бы дополнительные места». The shower niche is already full of bottles.
+
+**His retrospective fix, given on camera**: **run the false wall higher and form more niches in it, the way the shower niche was done** — or add a furniture unit now, which is still possible.
+
+> **⚠️ And note the shape of his own closing advice, because it is not "plan storage better":** «не стоит бояться делать фальш-стены, чтобы разместить в них скрытые полочки для хранения — это действительно помогает». **The man who has just been told the storage is insufficient recommends building more of the same thing, not something different.** Read that as evidence that concealed-niche storage works and was simply under-provided, which is the same direction as the "where storage actually goes" material above.
+
+**A second post-occupancy complaint from the same visit, and it is an ergonomic one**: **the basin sits too high and is slightly uncomfortable to use.** He attributes it to fixture selection — «вопрос о выборе» — not to the vanity as installed. Together with the pan that flushes badly ([[07_Bathroom/analysis/Toilets_and_Hygienic_Shower|Toilets & Hygienic Shower]]), **two of the year's five defects were purchases**, which is his own stated conclusion: pay attention to a fixture's size and how convenient it will be to use, not only its appearance.
+
+[source: [[_Sources/YT_h7JYk20m9mQ_sanuzel_bathroom_one_year_later|YT_h7JYk20m9mQ]]]
+
 ### ⚠️⚠️ A Towel Point Reachable FROM INSIDE the Bath — Still Unsolved After a Year (NSDSGN, 2024-07-04)
 
 **Recorded because it is a requirement distinct from the towel-warmer position, because it is commonly missed, and because a designer living in his own flat had not managed to fix it a year in — which is itself evidence of how hard it is to retrofit.** [source: [[_Sources/YT_lhikl-7c43c_nsdsgn_own_flat_year_one_fixes|YT_lhikl-7c43c]]]

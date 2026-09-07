@@ -23,6 +23,16 @@ Per Kruglov/Ontario: **the heating mat itself rarely fails when installed and us
 
 **Sensor lifespan and repairability**: a correctly installed sensor from a quality thermostat can last **20-30 years**; if it does fail, replacement is normally a simple swap with no need to open the tile — **except** when the original installer embedded the sensor's conduit incorrectly (e.g. concreted over with no accessible sleeve to pull a new sensor through), in which case a **sensorless thermostat** (available from Thermo and other manufacturers) is a real fallback: these units make heating decisions from internal logic/ambient air temperature instead of a floor-embedded sensor, avoiding any future need to access the embedded sensor at all. `single-account`, `unverified`. [source: [[_Sources/YT_1x7srLdq12I_kruglov_perfect_sanuzel_secrets|YT_1x7srLdq12I]]]
 
+## ⚠️ Three Thermostat Failures in One Year, While the Cable Was Fine (Vasily_Sanuzel, Moscow, 2022-01-23)
+
+A post-occupancy revisit to his own completed bathroom, one year on. **The heating cable works perfectly. The thermostat failed three times.**
+
+**And the purchasing detail is the transferable part**: every replacement was bought **from the same shop as the original**, which he himself raises as the likely explanation — «возможно, из той же партии». **Replacing a failed component from the same source risks drawing the same batch**, and three failures in a year is more consistent with a bad batch than with three independent faults.
+
+**Read alongside this page's existing failure-mode and sensor-lifespan material**: it reinforces the same split from real service data — **the buried, unserviceable part (cable, sensor) survived; the accessible, replaceable part (thermostat) is what failed** — which is an argument for the accessible part being cheap to change, not for it being expensive to buy.
+
+[source: [[_Sources/YT_h7JYk20m9mQ_sanuzel_bathroom_one_year_later|YT_h7JYk20m9mQ]]]
+
 ## Operating-Cost Formula and a Second, Distinct Area-Cap Mechanism (ДЕЛАТЬ НЕ ПЕРЕДЕЛАТЬ, added 2026-08-28, Round 4)
 
 Low promotional ratio, general explainer (no active project). [source: [[_Sources/YT_9ndMjQLTF9E_sbk_heated_floor_downsides|YT_9ndMjQLTF9E]]]

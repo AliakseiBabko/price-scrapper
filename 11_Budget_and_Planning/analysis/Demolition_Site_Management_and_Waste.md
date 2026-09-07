@@ -52,6 +52,18 @@ Running a demolition on a live site: neighbour relations, access and protection,
   practitioner to cover the gap personally).
   [source: [[_Sources/YT_zxTbtAbuXFs_petrishin_demolition_quality_checklist|zxTbtAbuXFs]], [[_Sources/YT_H6atjh_g1jQ_sidorik_new_building_demolition_ep3|H6atjh_g1jQ]]]
 
+### ⚠️ Which Tape You Mask a Finished Door With Is a Real Decision (Vasily_Sanuzel, 2024-05-10)
+
+The entrance door had already been replaced before Василий (Vasily_Sanuzel) started dusty work in the flat: «брать на себя ответственность за её порчу я не хочу», so he masked it — **with PVC tape, explicitly not paper masking tape.**
+
+**His four stated criteria for the tape**: it holds for a long time, it **comes off without problems**, it is unbothered by damp, and **mortar does not stick to it**. He says he spent a long time finding one that does all four.
+
+> «Если кто-то из вас защищал двери и окна бумажным скотчем — в конце ремонта сталкивались с неприятным сюрпризом. Имейте в виду: скотч имеет значение.» — Василий
+
+**⚠️ The failure this prevents is end-of-job and unrecoverable**: paper tape left on a finished surface through weeks of damp and dust bonds to it, and the damage shows up at handover on the one element that was already paid for and installed. **Directly applicable to this project**, whose handover already includes the entrance door, the windows, the radiators and the WC pan — every one of them a finished item that has to survive the rest of the work. See [[00_Master/project_decisions|Project Decisions]].
+
+[source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
+
 ## Cost & Waste-Volume Planning
 
 - **⚠️ Waste-volume miscalculation is one of the most common demolition

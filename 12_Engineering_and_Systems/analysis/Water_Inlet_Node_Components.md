@@ -37,6 +37,18 @@ Konstantin Kruglov / Ontario, real Moscow jobsite, says: **riser soundproofing w
 
 Konstantin Kruglov / Ontario says: **an optional solenoid (electromagnetic) valve, distinct from a leak-protection system's automatic valve, can be wired to a simple switch for a one-button seasonal water-path switchover** — e.g. switching to a storage water heater during a scheduled hot-water outage, instead of manually operating multiple valves or a bypass. [source for this subsection: [[_Sources/YT_4jAQ526Zy2w_kruglov_perfect_manifold_unit|4jAQ526Zy2w_kruglov_perfect_manifold_unit]]]
 
+### ⚠️ A Manufacturer on What a Manifold Prevents, and on Brass vs Bronze (Elson rep via Vasily_Sanuzel, 2024-06-03)
+
+`vendor context` — answers given by a manufacturer's representative at a trade meet-up, in response to subscriber questions collected by Василий (Vasily_Sanuzel).
+
+**The manifold's purpose, given as a specific failure the user would recognise** rather than as "correct hydraulics": **the dishwasher starts and takes cold water, the cold flow to the shower head drops, and the shower goes hot.** Corroborates this page's existing pressure-isolation rationale from Kruglov — same principle, and now with the scenario attached.
+
+**⚠️ Brass versus bronze, and a third option this page did not carry.** **Bronze fittings hold a hygiene certificate** and are suited to potable water — «но у бронзовых фитингов очень высокая цена». This manufacturer's answer is **tin-plated fittings and modular manifolds**: protection against internal *and* external corrosion, hygiene certificate held, at lower cost. `vendor claim` on the equivalence («не уступает бронзе по своим характеристикам»).
+
+**The reusable part is the decision axis, not the product**: at the node the choice between brass, bronze and plated brass is a **potable-water hygiene-certification** question, not only a corrosion or price question. Note that Василий independently specified **bronze** union halves on his own node — see above — for a durability reason rather than a hygiene one, so the two arguments for bronze are separate and stack.
+
+[source: [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|YT_LDeNqQL7TLQ]]]
+
 ### Sequencing Rule Between Filters and the Water Meter, Plus a Metering-Bypass Warning
 
 - **Correct code-referenced sequence**: a coarse/angled strainer *with a tamper-seal lug* installed before the meter, then a fine flush filter after the meter — matching the two-tier logic above, with the added detail that the pre-meter component should carry a tamper seal. [source: [[_Archive/processed_sources/20260731_plumbing_video_5_1992d0a4.txt|20260731_plumbing_video_]]]
@@ -65,6 +77,25 @@ A second, later video from this same channel on the same general topic — real 
 - **Purple low-tack painter's tape used as temporary layout marking directly on an aluminum manifold-cabinet panel during assembly**, to avoid marking the aluminum with pencil (which would need cleaning off afterward) — a minor real site-practice detail.
 
 [source: [[_Sources/YT__U-FV_62gjM_sbk_water_supply_manifold_2|YT__U-FV_62gjM]]]
+
+### ⚠️ Modelling the Node Before Ordering It, and a Reducer This Fitter Calls Mandatory (Vasily_Sanuzel, 2023-10-07)
+
+**Василий (Vasily_Sanuzel), a one-man bathroom/plumbing contractor, builds a full-scale 3D model of the node before ordering a single component.** Stated purposes, in his order: establish exactly which parts are needed so the job doesn't turn into repeat trips to the merchant, and fix the dimensions so the assembly fits the envelope it has to live in. He publishes the model so viewers can rotate it in a browser.
+
+> «Без предварительных расчётов я бы наверное не стал рисковать собирать подобные системы, так как велик риск просто не попасть в определённые габариты.» — Василий
+
+**The model also fed dimensions to the welder** who set the riser stub-outs, which is what let the finished node land inside the boxed-in envelope («короб») designed around it. **This is the only source on this page that treats the node as a dimensioned design object rather than a component sequence**, and it is the answer to the mounting-clash failures recorded on [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Rough Plumbing Sequencing]].
+
+**⚠️ He puts the pressure reducer in the mandatory group, where this page's other sources put it in the "optional but recommended" tier.** His cold-side order is: electrically-actuated shutoff valve (leak-protection system) → coarse strainer → pressure reducer → meter → check valve → 100-micron fine filter → gauge → magistral filter → tee to water heater and second gauge → manifold. He names four of these as «обязательно… это просто ну запрещено» while gesturing at what reads as five components — **the count and the list cannot be reconciled from the transcript, so the membership is recorded as unresolved rather than guessed.** The divergence that survives regardless: a working fitter treats the reducer as non-negotiable, and this page's existing split does not.
+
+- **Prefer a membrane-type reducer** («мембранного типа») on two stated grounds: longer service life, and **more correct pressure distribution when several consumers draw at once**. He also chooses reducers that come apart, so the membrane is a replaceable part rather than the whole unit being a consumable.
+- **Pressure figures from the job**: risers as found at **~5 atm**, against a normal in-flat working pressure he puts at **3 atm, «максимум 3 с половиной»**. Consistent with, and more specific than, the 6–10 atm "sliced stream" figure already on this page from Kruglov.
+- **Two gauges, before and after the filter**, so the filter's condition reads directly as a pressure drop rather than as a flow complaint.
+- **Buy the part that stays, not the part that gets replaced**: he kept the existing meters but fitted **bronze union halves** — «американки остаются, а счётчики могут меняться, пусть они будут хорошими». A clean spend-where-it-is-permanent heuristic that generalises past this node.
+- **He argues the 100-micron fine filter into the mandatory minimum** «для современной сантехники», by mechanism rather than assertion: aerator mesh clogs and kills flow, and any grit reaching a single-lever mixer's ceramic cartridge **scores a pit in it, after which the mixer stops shutting off and drips**. His filter carries a removable **neodymium magnet** for metallic particles specifically. Corroborates this page's existing two-tier filtration rationale from a second, independent trade.
+- Coarse strainer stated as **~300 micron**, immediately self-corrected to «может быть 600, 500, не помню» — **carried as a range, not a figure**, and consistent with the unreconciled mesh-size spread this page already records.
+
+[source: [[_Sources/YT_M8EyOCrm0tw_sanuzel_water_inlet_unit_assembly|YT_M8EyOCrm0tw]]]
 
 ## Utility-Cabinet Rough-In and Waterproofing
 
@@ -177,6 +208,22 @@ Genuinely new brand-specific and mechanism detail:
   the hygienic-shower outlet fixture.
 
 [source: [[_Sources/YT_l4bXbwfOlrU_petrishin_vinogradny_ep7_plumbing|YT_l4bXbwfOlrU]]]
+
+### Assembling the Node: Thread Sealing, Filter Orientation and Serviceable Joints (Vasily_Sanuzel, 2023-10-07)
+
+A bench-then-wall assembly of a whole node, filmed by the fitter doing it. **This is the first source on this page that covers how the joints are actually made**, as opposed to which components go in what order.
+
+- **⚠️ A coarse strainer is directional, and getting it wrong is a silent failure.** Its sump must hang **downward relative to gravity**, and it must never be installed with flow running upward. Василий's stated failure modes: inverted, the collected debris drops back into the main bore and blocks it; rotated the other way, it falls back into the joint upstream. On a vertical pipe the orientation is hard to get wrong — **it is horizontal runs where it goes wrong.**
+- **Cut notches into smooth threads before winding flax** («насечки», with a hand tool — he notes a purpose-made tool exists and he doesn't use one). Mechanism: the flax **grips the notches and travels into the thread** as the fitting turns, where on a smooth thread it simply rolls off. His own check that it worked is visual — you can see the flax rotating with the fitting as it goes in.
+- **Preserve the flax with a sealing paste** so it does not rot in service.
+- **Anything protruding after tightening is rubbish, not sealing** — «всё, что нужно для уплотнения, осталось внутри резьбы; всё, что снаружи — просто мусор». He trims it flush with a knife, and treats a clean joint as evidence the seal was made correctly rather than as cosmetics.
+- **A silicone sealing tape** (Italian, fabric-like, explicitly not FUM tape) trialled on the **conical manifold threads**, which run very tight — reported cleaner and more convenient there than flax. First trial, so treat as a report, not a verdict.
+- **Stainless-steel tube for the interconnections**, press-fitted onto an O-ring inside the fitting and crimped with a matched die. Stated grounds: **a larger internal bore for a given outside diameter**, longevity, and appearance. See [[12_Engineering_and_Systems/analysis/Pipe_Material_Selection|Pipe Material Selection]].
+- **Demountable unions at both ends of every filter**, so a filter can be pulled, cleaned or swapped without cutting anything — the same serviceability argument this page already makes for the manifold, applied to filtration.
+- **Each element bracketed to the wall independently of its neighbours**, on bendable mounting strip formed to shape, and **a laser level used to hold the whole assembly in one plane** so the built node matches the modelled one.
+- **⚠️ He publishes his own leak.** One joint weeped on first pressurisation — «одно соединение у меня всё-таки запотело» — and he films himself stripping and re-sealing it rather than cutting the shot. Worth recording because it is the behavioural evidence behind treating this source's technique claims as candid rather than promotional.
+
+[source: [[_Sources/YT_M8EyOCrm0tw_sanuzel_water_inlet_unit_assembly|YT_M8EyOCrm0tw]]]
 
 ## Metering, Compliance and QC Red Flags
 

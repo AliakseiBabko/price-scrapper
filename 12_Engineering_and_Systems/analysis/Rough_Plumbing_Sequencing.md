@@ -103,6 +103,48 @@ Konstantin Kruglov / Ontario, real Moscow jobsite, praises **radial ("лучев
 
 Konstantin Kruglov / Ontario gives a **specific drain-slope figure**: for 50mm drain pipe, maintain roughly 3cm of slope per linear meter. Corroborates this page's existing two-45°s-not-a-single-90° corner rule, with the same vertical-to-horizontal-drop exception. [source: [[_Sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
 
+### ⚠️ Why You Tape a Sewer Socket Before Casting It In — and When Not To (Ostendorf technical rep via Vasily_Sanuzel, 2024-06-03)
+
+**A manufacturer's technical specialist correcting the reason people do this step**, answering a subscriber question at a plumbers' trade meet-up:
+
+> **For tightness, nothing extra is needed at all — the factory seal is the seal.** The reason to tape a socket joint before it is cast in is **to keep cement laitance («цементное молочко») out of the socket, where it damages the sealing ring**. Any tape will do. **And it only applies to cement-based mixes — «если гипсом, то всё нормально».** — Максим, Ostendorf technical specialist
+
+**⚠️ Two consequences worth carrying**: taping a socket does not make a doubtful joint sound, so it is not a remedy for one; and the step is **skippable where the encasing material is gypsum rather than screed or cement mortar.**
+
+⚠️ `vendor context` — the speaker represents a pipe manufacturer. This particular answer is mechanism-level and argues *against* selling anything, which is why it is recorded; the same source's service-life and quality figures are held at arm's length in the source note.
+
+### ⚠️ The Component That Lets You Drop a Stack Socket Without the Neighbour's Access (Ostendorf technical rep via Vasily_Sanuzel, 2024-06-03)
+
+The **socket restorer («насадная муфта»)** rebuilds a socket on a plain cut length of pipe. Its two stated uses: a broken or chipped socket, and — **the one that matters for tray height** — **lowering the system when there is no access to the flat above.** Compare the 5 cm gained by this same practitioner in [[07_Bathroom/analysis/Shower_Enclosures_and_Drainage|the worked tray-height case]].
+
+Against the more familiar **insert coupling («вставная муфта»)**:
+
+| | Socket restorer (насадная) | Insert coupling (вставная) |
+| :--- | :--- | :--- |
+| Internal bore | **not reduced** | reduced |
+| Diameters available | **DN50 – DN200** | **DN110 only** |
+| Installation height needed | **twice as tall** | lower |
+
+Rated to **2 atm** — «учитывая, что система проточная безнапорная, этого достаточно». Also restores sockets on horizontal runs, and can be set deeper by breaking out screed.
+
+**⚠️ The rep declined the easy answer, which is why this is worth citing.** Василий offered that a reduced bore causes noise; the specialist said the real concern is **throughput**, that a **DN110 main riser should stay DN110** because norms and tolerances apply to it, and that **these are repair parts used «когда нет другого выбора»** — not a routine fitting.
+
+[source: [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|YT_LDeNqQL7TLQ]]]
+
+### ⚠️ Drain Fall Is What Sets How Low the Shower Tray Can Sit (Vasily_Sanuzel, 2023-10-07)
+
+Василий (Vasily_Sanuzel), rebuilding a П-44Т bathroom on camera, gives the **same 3 cm per linear metre** as Kruglov above — **independent corroboration from a different trade and a different housing series** — and states the tolerance in both directions: «больше не надо, меньше тоже не надо».
+
+**The consequence he draws from it is the part this page did not carry, and it is a design-stage constraint, not a plumbing one:**
+
+> The drain must climb continuously away from the lowest tee at the stack. So **the lower the connection into the stack, the lower the shower tray — and every other fixture — can sit.** Василий lowered that bottom tee in the first episode of the series specifically to buy this headroom, and here had to chase it lower still to keep the fall over the run to the tray. — Василий, Vasily_Sanuzel
+
+**⚠️ Read that as a sequencing dependency**: the stack connection height is decided before the screed, and it silently caps how flush a walk-in tray or a трап can be set afterwards. A tray height "problem" discovered at tiling is usually a tee height decision made weeks earlier. See [[07_Bathroom/analysis/Shower_Enclosures_and_Drainage|Shower Enclosures & Drainage]].
+
+He also set a **concealed in-wall siphon box** («закладная для скрытого сифона») sized for a washing machine and a dishwasher standing side by side, run off the same works — trimmed flush and given its internal mechanism only after the finishes were complete. See [[09_Laundry_Room/analysis/Essential_Components_and_Layout|Laundry — Essential Components & Layout]].
+
+[source: [[_Sources/YT_M8EyOCrm0tw_sanuzel_water_inlet_unit_assembly|YT_M8EyOCrm0tw]]]
+
 ### ⚠️ Bend Count, Soil-Pipe Concealment, and Why a Monolithic Wall Cannot Be Chased (Татьяна Безверхая, added 2026-09-02)
 
 Moscow-practice designer, 2024, bathroom-design source (`promotional_ratio: medium`, one sponsored tile mid-roll excluded). **Cross-checked against this page's existing bend and slope rules before writing — two of her figures interact with them and one looks like a conflation, flagged below.** [source: [[_Sources/YT_T3b-IS4Rb0E_bezverkhaia_ideal_wc_ten_rules|T3b-IS4Rb0E]]]

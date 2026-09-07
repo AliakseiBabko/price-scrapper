@@ -1,6 +1,6 @@
 # Vasily_Sanuzel «Ремонт Санузлов» (@VasilySanuzel) — channel triage
 
-**Created 2026-09-08.** Requested directly by the user ("triage videos of this youtube channel"). Triage only — **nothing fetched, nothing processed.**
+**Created 2026-09-08.** Requested directly by the user ("triage videos of this youtube channel"), then **Round 1 ran the same day on the user's go-ahead — see the round verdict at the foot of this file.** The triage sections below are kept as written, with two corrections marked inline that the round itself forced.
 
 - Channel: https://www.youtube.com/@VasilySanuzel/videos
 - Preflight manifest: `_Inbox/planning/preflight_20260907T220550Z.json` (light mode, UTC stamp) — **46 videos, 46 fresh, 0 duplicates.** Nothing from this channel has ever been touched.
@@ -14,7 +14,9 @@
 1. **The channel serves auto-translated English metadata by default.** The preflight manifest came back with titles like *"I Took the Bathroom Apart and Saw What's Hiding Inside"* — the same trap as `@YourInteriorDes` (see `yourinteriordes_channel_triage_20260903.md`). The Russian titles in the dump above were obtained only by forcing yt-dlp's `extractor_args` youtube `lang=ru`. **Standing rule 1: force `--languages ru` on every transcript fetch and spot-check each transcript for translated text.**
 2. **No upload dates are available yet.** Flat playlist extraction returns `timestamp: None` for every entry, and per-video probing was deliberately not run (rate-limit protocol, standing rule 7). The list order is reverse-chronological and `WsoF9sW1S4Q` self-dates to 2021, so the tail of the table is roughly 2021 and the head is recent — **but that is inference, not metadata. Confirm each date from `yt-dlp` at fetch time**, and in particular before touching the one price-bearing title (`ahHspdChZZc`, «Ремонт однокомнатной квартиры за 250 тысяч»), where standing rule 2 applies: a figure is meaningless without city and year, and RUB 250k in 2021 Moscow is a different claim from RUB 250k today.
 
-**View counts are noise here and must not be used to rank.** The whole channel runs 3–299 views. That cuts both ways: there is no audience to perform for, so the promotional risk is close to zero and the "here is what it actually cost me" honesty is likely high — but there is also no production discipline forcing structure, so thinness risk sits in the short обзор format rather than in the channel as a whole.
+3. **⚠️⚠️ CORRECTED 2026-09-08, same day, after the trial — I MISREAD THE VIEW COUNTS BY A FACTOR OF ~1,000.** This section originally said the channel runs **3–299 views** and reasoned from it that there is "no audience to perform for". **The flat-playlist figures are not raw view counts.** A per-video `yt-dlp` call on the first trial pick returned **77,883 views** where the flat listing said `77`; the toilet-replacement video listed at `299` is on the order of **300,000**. **This is a channel with a real audience of tens to hundreds of thousands per video, not a hobbyist posting to nobody.**
+   - **The reasoning that rested on it is withdrawn**: promotional risk cannot be dismissed on the grounds of having no audience. **It happens to survive on other evidence** — three of the four trial videos publish the presenter's own failures on camera — but that is behaviour, not absence of incentive.
+   - **The operational rule stands and is now better founded: do not rank by the flat listing's view numbers.** They are not what they look like. If view counts are wanted for ranking, pull them per video, and accept the extra network calls that costs.
 
 ## Why this channel is worth a trial even though the bathroom is the vault's most-covered room
 
@@ -22,9 +24,15 @@
 
 This channel is that adjacent trade. Everything the vault holds on bathrooms comes from **designers and general contractors making decisions**; this is a **sanitary specialist executing them**, and the gap check bears it out:
 
+> [!WARNING]
+> **⚠️⚠️ THE FIRST ROW OF THIS TABLE IS WRONG AND WAS CAUGHT BY THE TRIAL IT JUSTIFIED (corrected 2026-09-08).**
+> «узел ввода» returned **0** files because I grepped **the Russian term in `_Sources/`** and **"water inlet" in the wiki**. The vault's page for it is called **`Water_Inlet_Node_Components.md`** and already held **~250 lines from five channels**, including its own mandatory-vs-optional component split. **The subject was covered.**
+>
+> **The round still earned its place, but on a different argument**: what was missing was the **execution layer** — how the joints are actually made, and modelling the node full-scale before ordering it — not the component list. **Rule for the next gap check: grep the Russian term AND the English page phrasing, and list the target folder's filenames, before calling a subject empty.**
+
 | Subject | `_Sources/` files | Wiki files | Verdict |
 | :--- | :--- | :--- | :--- |
-| «узел ввода» / apartment water inlet unit, shut-offs, filters | **0** | **1** (English, incidental) | **A real hole.** One whole episode is the assembly of it |
+| ~~«узел ввода» / apartment water inlet unit~~ | ~~**0**~~ | ~~**1**~~ | ⚠️ **WRONG — see the warning above.** Covered at ~250 lines; the gap was execution detail, not the subject |
 | гидроизоляция as a *rationale* («зачем нужна») | 3 (RU term) | 65 (EN term) | Covered as a rule, thin as a *why*; a specialist's failure reasoning is new |
 | трап / linear drain, поддон «за 3 дня» | 5 | 3 | Thin, and this is a whole episode |
 | Quantity take-off for a bathroom («как посчитать материал и не ошибиться») | — | — | **Nothing in the vault does this at the material-list level** |
@@ -44,7 +52,7 @@ The single strongest asset on the channel: a complete sequenced build by one spe
 | :-- | :--- | :-- | :--- | :--- |
 | 22 | `6x_rmCEyxTE` | 22:55 | Серия 1. Подготовка объекта. Замена труб. Возведение стен | `07_Bathroom/analysis/Structure_and_Framing.md`, `12_Engineering_and_Systems` |
 | 21 | `4SZG3yJqtQk` | 23:54 | Серия 2. Выравнивание стен и пола. Штукатурка. Стяжка | `13_Surfaces_and_Finishes`, `07_Bathroom/analysis/Planning_and_Layout.md` |
-| 20 | `M8EyOCrm0tw` | 29:20 | Серия 3. Сантехнические работы. **Сборка узла ввода водоснабжения** | `12_Engineering_and_Systems` — **the 0-coverage subject** |
+| 20 | `M8EyOCrm0tw` | 29:20 | Серия 3. Сантехнические работы. **Сборка узла ввода водоснабжения** | `12_Engineering_and_Systems` — ⚠️ **PROCESSED in Round 1;** the "0-coverage" label was wrong, see the warning above |
 | 19 | `0nJt_VkOxDo` | 25:26 | Серия 4. Монтаж трубопровода. Встроенные смесители. Каркас. Инсталляция | `07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md`, `Structure_and_Framing.md` |
 | 18 | `slpRtjzBN4c` | 21:45 | Серия 5. Монтаж трапа. Душевой поддон за 3 дня. **Зачем нужна гидроизоляция** | `07_Bathroom/analysis/Shower_Enclosures_and_Drainage.md` |
 | 17 | `d9MQq-SgH1U` | 34:05 | Серия 6. Укладываю керамогранит. Эпоксидная затирка. **«Попал на деньги»** | `07_Bathroom/analysis/Tile_*`, `Tile_Grout_Selection_and_Protection.md` |
@@ -109,3 +117,51 @@ Per the corrected yield model confirmed at `@YourInteriorDes` Round 4: **scope a
 1. **Budget question, stated plainly:** this is a narrow single-trade channel against the vault's densest room. Worth the four-video trial? The gap table above is the case for yes; the ~28 thin обзоры are the case for keeping it to one round regardless of outcome.
 2. **`ahHspdChZZc` («за 250 тысяч») is the only price-bearing title** and needs its year confirmed before any figure from it is comparable. It is deliberately **not** in the trial batch.
 3. Group classification: **provisionally Group A** (construction/renovation technique), not Group B — this is execution content, not design. Queue entry added accordingly.
+
+---
+
+# ✅ ROUND 1 COMPLETE — 2026-09-08, 4/4 processed, 78 new facts, yield 19.5 facts/video
+
+All four picks cleared. **All four fetches clean, zero rate-limit signatures.** Routed to **13 pages across 4 folders**; no new page needed, no page pushed over the 400-line backstop, `check_page_sizes.py` reports no fragmentation. Store, `processed_sources.csv`, `processed_video_ids.txt` and `Change_Log.md` all updated.
+
+| Pick | Format tested | Result |
+| :-- | :--- | :--- |
+| `M8EyOCrm0tw` (29:20) | serialized execution | **21 facts, low** |
+| `z0hcMY5PYoc` (30:30) | on-site decision | **26 facts, low** — densest of the round |
+| `LDeNqQL7TLQ` (43:38) | guest / expert Q&A | **18 facts, MEDIUM** — see below |
+| `h7JYk20m9mQ` (9:02) | post-occupancy outcome | **13 facts, low** — highest density per minute |
+
+**The stop rule did not fire.** It said: if picks 1 and 2 come back thin, close the channel. They came back at 21 and 26.
+
+## ⚠️⚠️ The finding worth more than the facts: a format rule did not travel
+
+**Pick 3 was chosen because the guest/expert format has been the highest-yield format in every channel this vault has processed.** On this channel it is **four vendors answering about their own products at a trade stand** — claims-with-attribution, not demonstrated practice. It returned the round's **only `promotional_ratio: medium`**, and every figure in it had to be flagged `vendor claim` where it was routed.
+
+> **→ "Guest" is not one format. An independent practitioner and a manufacturer's rep are opposites. Re-test who a channel's guests actually are before importing a format rule from another channel.**
+>
+> **→ On THIS channel the value is the host doing the work.** All three site videos rate `low`. That is the exact inverse of the `@YourInteriorDes` finding, and it should be applied to the remaining Tier 1 list: **prefer the site videos, discount the trade-show and manufacturer content.**
+
+Three answers in pick 3 survived the discount because they are mechanism-level, and one of them turned out to explain a technique from pick 2 — the **socket restorer** is the component behind the 5 cm stack drop. **Cross-format corroboration inside a single round is itself a reason to keep mixing formats even when one of them rates lower.**
+
+## What the round actually produced
+
+- **⚠️ The tray-height arithmetic, and it closes**: 12 cm socket + 9 cm fall over 3 m = «больше 21 см», minus 5 cm at the compensator → **16 cm, «ниже уже некуда»**. `arithmetic-exact`. **Every metre the shower sits from the stack costs 3 cm of tray height** — this vault had the rules and had never had the sum.
+- **⚠️ A third position in the masonry tie-in argument**: stud pins, **no adhesive at the wall**, foam in the gap as a movement damper — reached independently in exactly the light material where a rigid tie is already recorded here as a cracking cause.
+- **⚠️ A working fitter puts the pressure reducer in the MANDATORY group** where every other vault source has it optional-but-recommended, **and his own count doesn't reconcile** (four named, five gestured at) — held UNRESOLVED rather than guessed.
+- **⚠️ Five post-occupancy defects after a year, none of them workmanship** — two purchases, one component, one under-provisioning, and **a lamp-lit mirror bought after handover that silently disabled a hygienic shower wired to the main lighting circuit.**
+- **⚠️ Why you tape a sewer socket**: to keep **cement laitance** off the seal, not for tightness — **and not at all under gypsum.**
+- **Three self-published failures across four videos** — a weeping joint, two leaks only a 10-atm test found, and formwork spreading under fast-setting screed.
+
+## ⚠️ Verdict on the channel, and what a Round 2 would be
+
+**Confirmed Group A. The trial answered the question it was set.** The one caution from the triage that survives is the one about *what* to take, not *whether*: **the short after-the-fact обзоры remain the weak tier, and the trade-show content is now a second weak tier.**
+
+**If a Round 2 is authorised, the format-based scope is:**
+
+1. **The П-44 six-part series, in order** — `6x_rmCEyxTE`, `4SZG3yJqtQk`, `0nJt_VkOxDo`, `slpRtjzBN4c`, `d9MQq-SgH1U` (episode 3 is done). **2h 20m remaining. The serialized-execution format returned 21 facts on its first test, and the sequencing between episodes is itself the content** — episode 3 repeatedly refers back to a decision made in episode 1 that bought 5 cm of tray height.
+2. **`VaWyCaaFXqk` — «Технический проект санузла. Как посчитать материал и не ошибиться»** (15:39). **Promoted to the top of the standalones by the trial**: both site videos turn on a technical project drawn before ordering, and neither shows how it is built. **Nothing in this vault does wet-room material take-off.**
+3. **`h7JYk20m9mQ`'s format is the one to hunt for more of** — but there appears to be only one post-occupancy revisit on the channel. `3P8Zz0Irzh4` («Как менялся санузел в ЖК Дивное») may be a second, despite being a vertical video, and is worth one probe on that basis alone.
+
+**Recommend against**: the trade-show/manufacturer content (now tested), and the short обзоры (untested but consistent with the original triage).
+
+**⚠️ Budget note, unchanged and still the user's call**: this is one trade in one room against the vault's densest folder. Round 1 returned 19.5 facts/video, which is solid but below the `@YourInteriorDes` band of 28.7–36.0 — and that channel still has ~45 Tier-1 titles left. **If the two compete for the same budget, the comparison is real and this channel does not obviously win it.**
