@@ -1,6 +1,12 @@
-item_id,kind,room,count,height_mm,notes
-E-K-SOC,socket outlets,"кухня zone, on the wall shared with the corridor",3,915-1105,"THREE in a row at one height, roughly evenly spaced. Two read as VERTICAL DOUBLES, the right-hand one as a single. 915-1105 is ABOVE-WORKTOP height on either candidate scale, which is the robust conclusion regardless of the 20% scale question. From 930d.jpg, apartment 53. FOR REFERENCE ONLY - the owner is rewiring completely."
-E-K-LIGHT,ceiling light point,кухня zone,1,ceiling,"A cable with a lamp holder hanging from the slab, roughly a third of the way across the wall rather than at the room centre - consistent with lighting the ZONE, not the whole 25 m2 space. From 930d."
-E-C-LIGHT,ceiling light point,прихожая,1,ceiling,"A pendant point in the corridor, seen in a82a (flat 109) and 9e9b (flat 2). Present in every flat photographed."
-E-C-SOC,socket and switch boxes,прихожая,several,various,"Boxes set into the corridor walls in a82a, both beside the doorways and along the run. Positions NOT measured - first-fix presence recorded, not geometry."
-E-R-SOC,socket outlets,middle room and 9.36 room,2 seen,low,Low-level sockets visible in kids_room_window.jpg (two on one wall) and bc18.jpg (one). Heights NOT measured - those photos are oblique and no independent scale is in the wall plane.
+item_id,kind,room,count,height_mm,source,notes
+E-KL-LIGHT,ceiling light points,кухня+living 24.73,2,ceiling,add8 (109),"!! TWO points in the one 25 m2 room - a lamp holder on a cable near the window end and a second cable further in. The developer already wires this space as TWO ZONES, which independently supports the ""жилая с кухонным оборудованием"" label and the kухня-is-a-zone finding."
+E-KL-SOC-W,socket outlets,"кухня+living, window end",2-3,low + one mid,add8 (109),Low-level sockets on the long wall plus one higher near the window. Heights not measured - the shot is oblique with no independent scale in the wall plane.
+E-KL-SOC-K,socket outlets,"кухня zone, corridor wall",3,915-1105,930d (53),"THREE in a row at one height, roughly evenly spaced; two read as VERTICAL DOUBLES, the right-hand one as a single. ABOVE-WORKTOP height on either candidate scale - the robust conclusion. See the scale caveat in service_outlets.csv."
+E-C-LIGHT,ceiling light point,прихожая,1,ceiling,"a82a, a89c (109), 9e9b (2)","A pendant point, present in every corridor photographed across three flats."
+E-C-SWITCH,switch boxes,прихожая,2 (a pair),~880,a89c (109),"!! A PAIR of square boxes side by side on the pier beside a doorway, at ~880 mm - switch height, and a pair means two circuits ganged at one point. ±100: derived from floor-to-ceiling on that pier."
+E-C-HIGH,"round boxes, high level",прихожая,2,~2100,a89c (109),"⚠ TWO circular boxes side by side at ~2.1 m. Too high for a socket and too high for a switch. Most likely junction boxes on the lighting circuit, possibly for wall lights. NOT identified - recorded because they exist and would otherwise be plastered over unremarked."
+E-MR-SOC,socket outlets,middle room 16.63,2,low,kids_room_window (109),"Two low-level sockets on the wall opposite the window, plus a ceiling cable at the window end."
+E-MR-LIGHT,ceiling light point,middle room 16.63,1,ceiling,kids_room_window (109),
+E-SB-SOC,socket outlets,small bedroom 9.36,2,low,"small_bedroom_window, bc18","One on each side wall, low level."
+E-SB-LIGHT,ceiling light point,small bedroom 9.36,1,ceiling,bc18 (109),
+E-WC-BOX,"box, unidentified",туалет,1,~1440,ade6 (53),"⚠ A white square box on the riser wall at ~1.4 m. Could be electrical or the water meters’ pulse output. NOT identified. Height derived from the WC pan rim as the only scale in frame, ±150."
