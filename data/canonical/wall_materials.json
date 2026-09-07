@@ -5,12 +5,12 @@
   "sources": {
     "owner_markup_concrete_only": "_Inbox/_Visual_Drop/floor_plan_basic_concrete_walls.jpg",
     "owner_markup_all_walls": "_Inbox/_Visual_Drop/floor_plan_basic_all_walls.jpg",
-    "numbered_reading": "_assets/wall_reading_key_v4.png",
+    "numbered_reading": "_Drawings/review/wall_model.png (конкретная итерация wall_reading_key_v4.png удалена 2026-09-07; в истории git)",
     "detected_regions": "_Inbox/planning/wall_material_regions.json",
     "narrative": "_Inbox/planning/concrete_wall_marking_20260904.md",
     "building_spec": "data/canonical/building_spec.json"
   },
-  "status": "Wall model complete: 25 walls + 2 shafts, 10 openings all hosted, thicknesses and insulation complete, runs drawn and verifiable at _assets/wall_segments_drawn.png. Open: LENGTHS (10 of 25 already printed) and the sill/head heights for O2 and O3.",
+  "status": "Wall model complete: 25 walls + 2 shafts, 10 openings all hosted, thicknesses and insulation complete, runs drawn and verifiable at _Drawings/review/wall_model.png (конкретная итерация wall_segments_drawn.png удалена 2026-09-07; в истории git). Open: LENGTHS (10 of 25 already printed) and the sill/head heights for O2 and O3.",
   "the_warm_perimeter": {
     "owner_concept": "The owner's own framing, and it is the organising idea: there is a WARM PERIMETER - the thermal envelope of the heated flat - and it is UNIFORM in construction all the way round.",
     "owner_words": "«[M1] is external wall, and it is uniform, the same thickness across all the warm perimeter. M1 is the external wall with all the insulation, because [the лоджия] was envisioned as a cold area. It's not heated, it's outside of this external wall perimeter.»",
@@ -500,9 +500,9 @@
     "verdict": "Wall-segment stage COMPLETE structurally. Open dimensionally: lengths (10 of 25 printed), sill/head heights for O2 and O3, four blob-derived junctions, and the 2500 height datum."
   },
   "plumbing_anchors": {
-    "source": "Owner marked them on _assets/wall_segments_v9_plumbing.png; isolated by pixel-diff against my own v9.",
+    "source": "Owner marked them on _Drawings/review/wall_model.png (конкретная итерация wall_segments_v9_plumbing.png удалена 2026-09-07; в истории git); isolated by pixel-diff against my own v9.",
     "data": "data/canonical/plumbing_anchors.csv",
-    "drawing": "_assets/wall_model_v10_plumbing.png",
+    "drawing": "_Drawings/review/wall_model.png (конкретная итерация wall_model_v10_plumbing.png удалена 2026-09-07; в истории git)",
     "P1": {
       "where": "туалет, beside V1",
       "size_mm": [
@@ -558,7 +558,7 @@
     "still_unknown": "R3 has no length at all. The printed \"≥2 115\" at the top gives 250 + 2115 = 2365 against a pixel run of 2682, and the ≥ sign means it is a clearance, not a wall run. G4b’s length stays RETRACTED - the 1140 was the туалет’s width, not the wall’s.",
     "the_one_measurement_that_would_close_the_most": "!! The туалет’s INTERNAL WIDTH. Its depth is now 1200 from the G4C chain; at the printed 1140 the gross area is 1.368 m², LESS than the 1.42 CLEAR the plan prints, which is impossible. Hypothesis: the 1140 is the ВЕНТБЛОК’s width and the room is ~1390. That single number closes R1a, G4b, V1 and the 1.24-vs-1.42 question together.",
     "on_splitting_O4a_from_O4b": "The owner asked whether the split is worth keeping when only the pair is measured. Kept in the data, dropped from the drawing: one of the two is a door (full height, no sill band) and one a window (sill band below, head band above), and Level-3 finish area is DERIVED from that distinction - merging them would lose it. But both widths stay blank until measured, so nothing can depend on a split that was mine rather than his.",
-    "drawing": "_assets/wall_model_v17.png",
+    "drawing": "_Drawings/review/wall_model.png (конкретная итерация wall_model_v17.png удалена 2026-09-07; в истории git)",
     "R3_three_estimates": "SUPERSEDED 2026-09-04 by the owner’s top-edge chain - see top_edge_chain_2026_09_04. R3 is no longer estimated alone; it is recorded as the pair R3+G3 = 5830."
   },
   "length_convention_2026_09_04": {
@@ -593,7 +593,7 @@
     "the_exception": "!! It is only free when the two segments are the same MATERIAL as well as the same thickness. R3 is concrete and G3 is block; the split is immaterial for area but decides where fixings can go. Flag those, do not silently merge them."
   },
   "west_block_crop_findings_2026_09_04": {
-    "source": "_assets/west_block_crop.png - the west block of the DETAILED plan cropped at full resolution, covering туалет, ванная and the 9.36 room together so the printed strings can be seen attaching to elements.",
+    "source": "_Drawings/evidence/west_block_crop.png - the west block of the DETAILED plan cropped at full resolution, covering туалет, ванная and the 9.36 room together so the printed strings can be seen attaching to elements.",
     "G4C_chain_verified": "The vertical chain against G4C reads, top-down: 490 | 710 | [120 G4b] | 600 | 710 | 490. That is identical to the owner’s chain read the other way. His reading is now verified against the drawing, not merely accepted.",
     "RETRACTION_the_1795_is_not_the_vannayas": "!! The printed 1795 belongs to the 9.36 ROOM, not the ванная - and it proves it itself: 1795 + 120 + 910 = 2825 = G4d exactly. So R1a = 1416 is RETRACTED; I had built it as 1795 + 120 (G4C) - 499 (G2’s left jamb) with the 1795 belonging to a different room. This is the THIRD instance of the same error class in two days: G3 = 3315, G4b = 1140, R1a = 1416. In each case a printed number was attached to the wrong element and then used as if independent.",
     "the_rule_this_earns": "!! Before using a printed dimension, identify BOTH of the elements its extension lines terminate on. A number that merely sits near a room is not that room’s. Every one of the three retractions would have been caught by that check, and all three were caught instead by the owner or by a late crop.",
@@ -642,7 +642,7 @@
     "MY_FIRST_ATTEMPT_WAS_THE_WRONG_INSTRUMENT": "!! I first wrote a resolver that snapped the drawn pixel runs until every corner closed. It moved R2 by 27 mm, G8 by 77 and G4d by 58 - figures that come from printed dimensions and the owner’s own chains - in order to satisfy a raster registration only good to ~50 mm. Deleted. The drawing LOCATES walls; the printed dimensions DEFINE them. The corner decision belongs in the lengths, not in the picture. This is the same lesson as junction_correction_2026_09_04 (blob edges locate, printed dimensions fix) arriving in a new disguise, and I did not recognise it until the diff showed his numbers moving.",
     "what_the_sweep_found_beyond_what_he_named": "He named R1a×R1b and G3×R2. Checking all 25 runs found 8 voids and 3 bad T-junctions, including G4C drawn CROSSING G4d and G4d ending 203 mm short of G4a’s face. All fixed.",
     "enforced_by": "data/canonical/wall_corners.csv, built and checked by tools/layout/build_wall_corners.py; and tools/layout/check_wall_junctions.py, which fails on any overlap, gap, or L-corner void that the ledger does not own. tools/layout/check_wall_crossings.py was folded into the latter and removed.",
-    "drawing": "_assets/wall_model_v22.png",
+    "drawing": "_Drawings/review/wall_model.png (конкретная итерация wall_model_v22.png удалена 2026-09-07; в истории git)",
     "RULE_CORRECTED_the_frame_owns_the_corner": "!! Rule 1 was \"the thicker wall owns the corner\". WRONG, and the owner’s own arithmetic falsified it within the hour. The rule is THE CONCRETE FRAME OWNS THE CORNER: the developer’s description, already in building_spec.json, reads \"монолитный железобетонный каркас с наружными стенами (не несущие) из блоков\" - the frame is cast first and the blocks are non-load-bearing infill built against it. So a 250 concrete column owns its corner even where a 300+70 block wall meets it. Order is now: frame, then thicker, then longer, then alphabetical.",
     "why_the_correction_is_certain": "It reproduces every figure the owner had computed independently, where \"thicker wins\" reproduced none: R2 = 1675 clear + 250 = 1925 (his arithmetic, verbatim); R8 = 1490 + 300 = 1790 and R9 the same (the figure he \"remembered\"). His numbers chose the rule.",
     "and_it_settles_the_1925_argument": "!! R2 = 1925 is the exact number the owner corrected me on two rounds earlier. Both of us were right: 1675 is the CLEAR run and 1925 is the SOLID. They are different quantities and the model now carries both, so neither has to win. My error was never the 1925 - it was calling it the internal dimension.",
@@ -679,7 +679,7 @@
     "it_removes_the_registration_transform": "The model’s coordinates were always BASIC-plan pixels; the x·0.7764+25 / y·0.7751+5 mapping existed only to reach the detailed raster. It is now the identity, and its 0.16% aspect mismatch goes with it.",
     "the_division_of_labour_this_settles": "!! The DETAILED plan is the DIMENSION source - it is the only dimensioned drawing. The BASIC plan is the GEOMETRY source - it is the only one showing what actually exists on the 4th floor. Printed numbers from one; what exists from the other. Every shaft error in this model came from taking geometry off the dimensioned plan.",
     "the_cost": "⚠ The basic plan prints almost no dimensions, so the printed strings can no longer be read off the underlay to check a label against. The labels carry the numbers and their provenance instead.",
-    "drawing": "_assets/wall_model_v24.png"
+    "drawing": "_Drawings/review/wall_model.png (конкретная итерация wall_model_v24.png удалена 2026-09-07; в истории git)"
   },
   "variance_against_real_flats_2026_09_04": {
     "source": "00_Master/Geometry_Variance_Study.md - the owner’s readings of floor plan_1/_2/_3, surveys of REAL completed flats of this layout, against the developer’s drawing. The first time this model has been tested against anything built.",
@@ -902,7 +902,7 @@
     "the_one_photo_that_would_settle_it": "A SQUARE-ON shot of a window wall including the ceiling. 9902 is square-on but crops the ceiling out; living_room_window includes the ceiling but is oblique. One frame with both, and the tape-measured 1985 opening height gives the ceiling to ±20 mm."
   },
   "services_plan_v1_2026_09_07": {
-    "drawing": "_assets/services_plan_v1.png - everything known about electrics, plumbing and ventilation, on OUR floor’s plan, for the owner to add the under-floor pipe tracing.",
+    "drawing": "_Drawings/review/wall_model.png (конкретная итерация services_plan_v1.png удалена 2026-09-07; в истории git) - everything known about electrics, plumbing and ventilation, on OUR floor’s plan, for the owner to add the under-floor pipe tracing.",
     "CONFIDENCE_IS_DRAWN_not_just_written": "!! Three symbols, because the difference matters more here than anywhere else in the model. A SOLID dot means located on our own plan - V1, V2, P1, P2. A DASHED ring means the ARRANGEMENT is known from another flat but the position in ours is indicative - every socket, switch, ceiling point, and the kitchen sewer and water stubs. A CROSS means not known at all - the heating route. Anyone reading the sheet can see at a glance which marks they may build from.",
     "why_that_distinction_is_load_bearing_here": "The wall model could be checked by chain closure. A services position cannot: there is no arithmetic that says a socket is in the right place. So the only honest control is provenance, and it has to be visible on the drawing rather than buried in a CSV.",
     "the_blue_dashed_line": "ВОДОСНАБЖЕНИЕ - the water run from the wet block to the kitchen, under the floor, stencilled on the screed in three flats. ⚠ ONLY ITS TWO ENDS ARE KNOWN: P1 in the туалет and SW-K at the kitchen. The path drawn is a GUESS at the shortest route and is the single line on the sheet most in need of correction.",
@@ -932,7 +932,7 @@
     "the_criticism": "The owner: \"I do not like the aesthetics of what you presented... you did not show the positioning of electric outlets and switches. They are not on the wall, they are somewhere in the middle of a room. This should be attached to the walls at least.\" Both parts were right.",
     "the_reference": "He supplied a complete 32-sheet album (Проект №5443509, Вероника Романова) as the target for what the planning process should PRODUCE. Its conventions: title top-left, Условные обозначения beneath it with the real symbol drawn beside each name, a light grey plan so services read on top, coloured standard symbols ON the walls, an H= tag in CENTIMETRES beside each item, white callout boxes on leader lines, a footer, and a vertical Лист tab.",
     "and_it_reframes_the_deliverable": "!! That album carries развёртки стен - nine sheets of them. The repo’s deliverable spec, taken from Dolgushev, says the target album is \"deliberately without renders, ведомости or развёртки\". His new reference includes them, and he has already asked for room rollouts once. Worth resolving before the deliverable set is fixed.",
-    "what_was_built": "_assets/sheet_01_sockets.png, sheet_02_lighting.png, sheet_03_plumbing.png - three sheets in that style, generated by tools/layout/sheets/make_services_sheets.py against data/canonical/wall_runs.csv.",
+    "what_was_built": "_Drawings/sheets/sheet_01_sockets.png, sheet_02_lighting.png, sheet_03_plumbing.png - three sheets in that style, generated by tools/layout/sheets/make_services_sheets.py against data/canonical/wall_runs.csv.",
     "THE_FIX_HE_ASKED_FOR": "!! Every wall-mounted item is now placed by on_wall(wall_id, t, side): a named wall, a fraction along it, and which FACE - so the symbol sits on the wall with its stem pointing into the room, and nothing floats mid-room. The first attempt at this got five of them on the wrong face, which the plan showed instantly - the geometry makes the error visible in a way a coordinate list does not.",
     "what_is_honest_about_them": "The horizontal positions are still indicative and the sheets say so in the legend note: taken from photographs of neighbouring flats, ±150 mm, and the wiring is to be replaced entirely. Heights are the measured ones - kitchen sockets H=100 above the worktop, switches H=90, extract grilles H=218, water take-offs H=61, the DN50 sewer H=6.",
     "and_one_sheet_deliberately_omits_something": "✕ Отопление is NOT drawn on the plumbing sheet, and the legend says why: the route is nowhere recorded, and the screed stencils read ВОДОСНАБЖЕНИЕ rather than ОТОПЛЕНИЕ. An empty sheet section that states its own absence is better than a plausible line."
@@ -961,5 +961,14 @@
     "what_was_added": "Three source extraction notes in the repo’s existing format, with provenance frontmatter, evidence levels, what each source settled, its uncertainties, and its downstream pointers: _Sources/SURVEY_apt109_photo_set_mirrored.md, SURVEY_apt2_photo_set_same_hand.md, SURVEY_apt53_photo_set_mirrored.md.",
     "and_writing_them_surfaced_something": "!! Laid out per source, the pattern is visible in a way the interleaved JSON hid: apartment 109 gave the labels and the door heads, apartment 2 gave the best dimensional agreement AND caused the worst error, apartment 53 gave every service position. Each note also names the one thing about its own flat that must NOT transfer - 109’s лоджия, 2’s unexplained −110, 53’s mirroring.",
     "tier_mapping_for_this_repo": "artifact = _Survey/ (+ manifest.csv for identity, since the bytes are gitignored); extraction note = _Sources/SURVEY_*.md; intermediate store = data/canonical/*.csv plus wall_materials.json; master page = 00_Master/*.md. Recorded so the next source follows it rather than skipping to the store again."
+  },
+  "drawings_moved_out_of_assets_2026_09_07": {
+    "owner": "\"The assets folder is a mess. We have real assets for appliances, images, and also you saved wall model version one through version twenty-four. It is difficult to navigate. Clean up all the intermediate, not necessary ones, and put a separate place where you will put the images you want me to check.\"",
+    "what_was_wrong": "!! _assets/ held 122 genuine appliance and fixture images alongside 43 drawings of mine - and 38 of those were SUPERSEDED ITERATIONS OF THE SAME PLAN: wall_model_v3 through v24, wall_segments_v8, v9, wall_reading_key, wall_blocks, and so on. 72 of the folder’s 80 MB was one drawing, twenty-two times.",
+    "the_rule_now": "_assets/ is for REFERENCED ASSETS. _Drawings/ is for anything I draw. Three subfolders: sheets/ for album sheets (the deliverable, regenerated in place), review/ for the current working drawing (OVERWRITTEN, no version suffix), evidence/ for crops a finding cites.",
+    "AND_THE_VERSION_SUFFIXES_WERE_THE_REAL_MISTAKE": "!! Keeping wall_model_v17.png alongside v18 and v19 was wrong twice over. git already versions them - every one was committed, and git show <rev>:<path> recovers any past state. And it INVERTED THE POINT: a file named v17 invites \"which one is current?\", when that should be structural rather than a matter of reading numbers. review/wall_model.png is now overwritten, and a past state is cited by COMMIT rather than by filename.",
+    "what_was_kept": "wall_model_v24 → _Drawings/review/wall_model.png; the three album sheets → _Drawings/sheets/; west_block_crop → _Drawings/evidence/, because two findings cite it. Everything else removed from the tree.",
+    "references_repointed": "24 references across 8 files. Entries that pointed at a specific iteration now point at review/wall_model.png and say which iteration they were written against, so the record stays readable without the file existing.",
+    "and_the_generator_follows": "tools/layout/sheets/sheet_lib.py now writes to _Drawings/sheets/, so the convention is enforced by the tool rather than by memory."
   }
 }

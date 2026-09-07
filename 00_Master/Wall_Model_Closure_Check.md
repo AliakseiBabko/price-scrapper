@@ -4,7 +4,7 @@
 The short answer is **yes for the structure, no for one correction the check itself found.**
 
 Model under test: `data/canonical/wall_materials.json`, `wall_blocks.csv`, `wall_openings.csv`.
-Drawing: `_assets/wall_segments_v9.png`.
+Drawing: `_Drawings/review/wall_model.png (конкретная итерация wall_segments_v9.png удалена 2026-09-07; в истории git)`.
 
 ---
 

@@ -10,7 +10,7 @@ constraints and a wrong entry would either block a valid design or license remov
 | :--- | :--- |
 | `_Inbox/_Visual_Drop/floor_plan_basic_concrete_walls.jpg` | first pass — **concrete only**, in red |
 | `_Inbox/_Visual_Drop/floor_plan_basic_all_walls.jpg` | **complete pass — all walls**, three colours |
-| `_assets/wall_material_regions.png` | **the numbered reading** (R1–9, G1–8, M1–6) |
+| `_Drawings/review/wall_model.png (конкретная итерация wall_material_regions.png удалена 2026-09-07; в истории git)` | **the numbered reading** (R1–9, G1–8, M1–6) |
 | `_Inbox/planning/wall_material_regions.json` | the detected bounding boxes |
 
 ✅ **Consistency check passed: the red regions in the two independent markups agree to within 2 px.**
@@ -129,7 +129,7 @@ external** — which would explain both the colour choice and his *"up to 200 be
   (`00_Master/Family_Requirements.md`, §10). **If the лоджия walls already carry 70–100 mm, that changes the
   starting point of that calculation.**
 
-## ✅ The wall-reading key — `_assets/wall_reading_key.png`
+## ✅ The wall-reading key — `_Drawings/review/wall_model.png (конкретная итерация wall_reading_key.png удалена 2026-09-07; в истории git)`
 
 **The owner asked for an image showing my naming and my current understanding of the wall placement, so he can
 answer precisely. That is it.** Built on his own three-colour markup so his colours show through, with:
@@ -212,7 +212,7 @@ enclosure. See `00_Master/Family_Requirements.md` §10.
 
 ### ✅ OWNER REVIEW ROUND 2 — J15 settled, G9 reclassified, G4 split, and the 250/200 conflict CLOSED
 
-**Key: `_assets/wall_reading_key_v4.png`.**
+**Key: `_Drawings/review/wall_model.png (конкретная итерация wall_reading_key_v4.png удалена 2026-09-07; в истории git)`.**
 
 - **✅ ◇ 15 = R7 | M4, confirmed** — *“between R7, the concrete block, and M4, which is external wall.”* My
   reading of his earlier “R7 | M2” as a slip was right.
@@ -255,7 +255,7 @@ section — and the two findings do not conflict.**
 - **And the open question that matters most: is anything I have labelled NOT a wall?** The insulation is
   already excluded by the owner's own instruction, but a короб or a fixture outline could have been caught.
 
-## ✅ THE THICKNESS SHEET — `_assets/wall_thickness_sheet.png`
+## ✅ THE THICKNESS SHEET — `_Drawings/review/wall_model.png (конкретная итерация wall_thickness_sheet.png удалена 2026-09-07; в истории git)`
 
 **The owner's instruction: agree the thicknesses with him rather than reading them blindly off a raster.**
 So every wall is labelled with the thickness currently held, colour-coded by where it came from:
@@ -359,6 +359,6 @@ probably the same throughout. Two numbers unlock every window band in the schedu
   bottom-left off the 9.36 room, кухня top-right). **No mirroring correction applies.**
 - **Which plan:** the markup is on the **basic** plan (3Б/2+), not the dimensioned **detailed** one. They agree
   on layout; their printed areas differ, and **per the standing instruction those areas are not evidence
-  anyway.** ⚠️ **But the grid key (`_assets/wall_key_plan.png`) was built on the DETAILED plan, so its
+  anyway.** ⚠️ **But the grid key (`_Drawings/review/wall_model.png (конкретная итерация wall_key_plan.png удалена 2026-09-07; в истории git)`) was built on the DETAILED plan, so its
   A–L × 1–12 references do not transfer to these images.** Positions here are px plus words.
 - **Per the 2026-09-04 instruction, no area figure from any source is evidence.** Nothing above uses one.

@@ -89,7 +89,7 @@
       "title_ru": "Розетки",
       "our_scope": "in_scope",
       "capability": "prototype",
-      "note": "Прототип готов: _assets/sheet_01_sockets.png"
+      "note": "Прототип готов: _Drawings/sheets/sheet_01_sockets.png"
     },
     {
       "number": "11",
@@ -103,7 +103,7 @@
       "title_ru": "Освещение",
       "our_scope": "in_scope",
       "capability": "prototype",
-      "note": "Прототип готов: _assets/sheet_02_lighting.png. В кухне-гостиной ДВА вывода застройщика."
+      "note": "Прототип готов: _Drawings/sheets/sheet_02_lighting.png. В кухне-гостиной ДВА вывода застройщика."
     },
     {
       "number": "13",

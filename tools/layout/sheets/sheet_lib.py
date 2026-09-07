@@ -13,7 +13,7 @@ from PIL import Image, ImageDraw, ImageFont
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.abspath(__file__)))))
 os.chdir(REPO)
-HERE = os.path.join(REPO, '_assets')
+HERE = os.path.join(REPO, '_Drawings', 'sheets')
 MMPX = 9.789
 S = 3
 PAD_L, PAD_T, PAD_R, PAD_B = 660, 200, 90, 150
@@ -177,7 +177,7 @@ class Sheet(object):
     def save(self, name):
         tmp = os.path.join(HERE, '_' + name)
         self.im.save(tmp)
-        shutil.copyfile(tmp, '_assets/' + name)
-        print('wrote _assets/%s %s' % (name, self.im.size))
+        shutil.copyfile(tmp, '_Drawings/sheets/' + name)
+        print('wrote _Drawings/sheets/%s %s' % (name, self.im.size))
         self.im.resize((self.im.width // 2, self.im.height // 2), Image.LANCZOS).save(
             os.path.join(HERE, name.replace('.png', '_preview.png')))
