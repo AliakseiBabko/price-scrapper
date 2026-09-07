@@ -221,24 +221,41 @@ s3.legend(lambda x, y, c: s3.d.rectangle([x - 22, y - 16, x + 22, y + 16], outli
           u'Стояк / сантехблок', B)
 s3.legend(lambda x, y, c: s3.d.rectangle([x - 22, y - 16, x + 22, y + 16], outline=c, width=6),
           u'Вентиляционный короб', OR)
+s3.legend(lambda x, y, c: [s3.d.line([(x - 26, y - 5), (x + 26, y - 5)], fill=R, width=8),
+                           s3.d.line([(x - 26, y + 6), (x + 26, y + 6)], fill=B, width=8)],
+          u'ГВС / ХВС под полом (трасса владельца)', B)
 s3.note([u'✅ Сплошной контур — положение определено',
          u'   по НАШЕМУ плану.',
-         u'⚠ Пунктир — известны только КОНЦЫ трассы.', u'',
+         u'✅ Трасса ГВС/ХВС — НАНЕСЕНА ВЛАДЕЛЬЦЕМ,',
+         u'   больше не предположение. Две линии —',
+         u'   две трубы, видны на 930d.', u'',
          u'✕ ОТОПЛЕНИЕ не показано — трасса нигде не',
          u'   зафиксирована.'])
 for bid, (x0, y0, x1, y1), col in (('V1', (67, 70, 139, 111), OR), ('V2', (636, 92, 677, 162), OR),
                                    ('P1', (52, 110, 87, 192), B), ('P2', (636, 71, 677, 91), B)):
     p0, p1 = s3.P((x0, y0)), s3.P((x1, y1))
     s3.d.rectangle([p0[0], p0[1], p1[0], p1[1]], fill=col + (48,), outline=col, width=6)
-ROUTE = [(70, 178), (200, 252), (455, 252), (622, 120), (688, 86)]
-for i in range(len(ROUTE) - 1):
-    a, b = s3.P(ROUTE[i]), s3.P(ROUTE[i + 1])
-    n = max(2, int((abs(b[0] - a[0]) + abs(b[1] - a[1])) / 30))
-    for k in range(0, n, 2):
-        t0, t1 = k / float(n), min(1.0, (k + 1) / float(n))
-        s3.d.line([(a[0] + (b[0] - a[0]) * t0, a[1] + (b[1] - a[1]) * t0),
-                   (a[0] + (b[0] - a[0]) * t1, a[1] + (b[1] - a[1]) * t1)],
-                  fill=B + (235,), width=12)
+# ВОДОСНАБЖЕНИЕ under the floor, drawn by the OWNER on sheet 3 and
+# replacing my dashed guess. His line: out of P1, straight EAST across the
+# прихожая at a constant level, then ONE turn north up to the kitchen
+# take-offs. My guess dog-legged south first and then back up - longer, and
+# wrong. Two parallel lines because 930d shows TWO pipes rising from the floor,
+# red hot and blue cold.
+ROUTE = [(90, 172), (648, 172), (690, 96)]
+for off, col, lbl in ((-3.0, R, u'ГВС'), (3.0, B, u'ХВС')):
+    for i in range(len(ROUTE) - 1):
+        (x0, y0), (x1, y1) = ROUTE[i], ROUTE[i + 1]
+        dx, dy = x1 - x0, y1 - y0
+        L = (dx * dx + dy * dy) ** 0.5
+        px_, py_ = -dy / L * off, dx / L * off
+        a = s3.P((x0 + px_, y0 + py_))
+        b = s3.P((x1 + px_, y1 + py_))
+        s3.d.line([a, b], fill=col + (240,), width=9)
+    m = s3.P(((ROUTE[0][0] + ROUTE[1][0]) / 2.0, ROUTE[0][1] + off * 4))
+    s3.d.text(m, lbl, fill=col, font=s3.f_src, anchor='mm')
+s3.callout(*(list(s3.P((380, 172))) + [[u'ГВС + ХВС под полом — трасса ВЛАДЕЛЬЦА',
+                                        u'трафареты «ВОДОСНАБЖЕНИЕ» на стяжке'], B]))
+
 PIPES = [('P-H', 'G3', 0.055, +1, R, 'water', 61, u'горячая, из пола', '930d'),
          ('P-C', 'G3', 0.075, +1, B, 'water', 61, u'холодная, из пола', '930d'),
          ('P-S', 'G3', 0.115, +1, MG, 'sewer', 6, u'канализация DN50', '930d')]
