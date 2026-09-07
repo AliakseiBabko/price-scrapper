@@ -35,6 +35,7 @@ The renovation vault is the primary work. The scraper feeds appliance pricing in
 | `00_Master/` | Project-level docs. **Start with `project_decisions.md`** — decisions taken about this apartment, and the open items. Also the deliverable roadmap, `processed_sources.csv`, `exchange_rates_reference.md`, `wiki_page_format.md` |
 | `01_`–`17_` | Room and topic wiki folders. Each has a compact guide page plus `analysis/` detail pages |
 | `_Archive/processed_sources/` | Archived transcripts. **Frozen — hashed for provenance; never edit, not even to fix a BOM** |
+| `_Survey/` | **The photo survey of three comparable flats** — positioning plans plus 30 photos, indexed by `data/canonical/photo_positions.csv`. Third-party watermarked listing photos, so the **bytes are gitignored and identity is kept via sha256 in `_Survey/manifest.csv`** — same treatment as the album PDFs. See `_Survey/README.md` |
 | `_Inbox/planning/` | Channel triage plans, backlogs, work-in-progress notes |
 | `src/`, `data/`, `dist/` | The legacy price scraper (Node/TS/Playwright/SQLite) |
 | `tools/` | Python tooling — see below |

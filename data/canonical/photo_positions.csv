@@ -1,28 +1,28 @@
-photo_id,apartment,room_on_that_plan,our_equivalent_room,view_direction,notes
-add8,109 (MIRRORED),109-6 big room 25.1,кухня+living 24.73,SE across the room,
-a89d,109 (MIRRORED),"109-6, at the west wall",кухня+living,NE to the corridor door,
-9902,109 (MIRRORED),"109-6, facing the window wall",кухня+living,"S, SQUARE-ON at the window",!! the only planar geometry in the set. Falsifies the O3 sill/head committed 2026-09-05 - see FLAG_O3_window_proportions_do_not_fit.
-9be4,109 (MIRRORED),"109-5 16.7, south end",middle room 16.63,SE,was mislabelled 9cf9 on the first map; the owner corrected it 2026-09-06.
-a82a,109 (MIRRORED),109-1 коридор 10.0,прихожая 9.79,E along the corridor,
-a89c,109 (MIRRORED),"109-1 коридор, north end",прихожая,SW back down the corridor,
-b83a,109 (MIRRORED),corridor at the туалет door,прихожая → туалет,E into the туалет,"should show V1, P1 and the pipe stubs"
-9fd1,109 (MIRRORED),109-3 ванная 3.2,ванная 3.09,NE,
-b0aa,109 (MIRRORED),"109-5, north end",middle room,SW down the room,
-9f84,109 (MIRRORED),"109-5, facing the window",middle room,S at the window,
-9cf9,109 (MIRRORED),109-4 at the лоджия door,small bedroom 9.36,NE into the room,
-bc18,109 (MIRRORED),"109-4 9.2, north end",small bedroom,SE,
-9711,109 (MIRRORED),109-7 лоджия 2.5,лоджия 6.05(4.24),SE into the лоджия,!! ANSWERS THE O9 GLAZING QUESTION. Size does NOT transfer (2.5 vs 6.05 m2); the glazing PATTERN does.
-868c,2 (SAME handedness),коридор 10.1,прихожая 9.79,"W, toward the c/y and ванная",
-8d93,2 (SAME handedness),коридор,прихожая,W,
-9946,2 (SAME handedness),коридор at the divider,прихожая,NW,
-bce3,2 (SAME handedness),Китчен/living 25,кухня+living 24.73,NW toward the corridor,
-9e9b,2 (SAME handedness),Жилая с кухонным оборудованием 25,кухня+living 24.73,SE across the room,!! CARRIES THE KITCHEN SERVICES: the extract grille high on V2 and the 110 sewer socket low on P2. See service_outlets.csv.
-8be8,2 (SAME handedness),"Жилая с кухонным 25, south end",кухня+living,NE across the room,
-bdc7,53 (MIRRORED),53-6 big room 25.2,кухня+living 24.73,N toward the corridor,
-930d,53,"53-6 big room, at the kitchen wall",кухня+living,"N, close to FRONTAL at the wall","!! THE DEFINITIVE SERVICES SHOT: sewer socket, both water take-offs, the vent grille, three sockets and the ceiling light point, all in one frontal view. See service_outlets.csv and electrical_existing.csv."
-8441,53,53-1 коридор 10.2,прихожая 9.79,E along the corridor,⚠ the map label reads 8431 but the file is 8441.jpg - one of the two is a misread. Assumed the file.
-b6f0,53,53-5 16.8,middle room 16.63,SW down the room,
-ade6,53,53-2 туалет 1.9,туалет 1.42,E into the туалет,"should show V1, the main sewer and the water/towel-rail tails - the P1 zone."
-875f,53,53-3 ванная 3.2,ванная 3.09,NE,
-9db4,53,53-4 9.3,small bedroom 9.36,SE toward the лоджия door,
-ac6c,53,53-7 лоджия 4.1(5.9),лоджия 6.05(4.24),SE into the лоджия,"лоджия 5.9 full against our 6.05 - close, unlike flat 109’s 2.5."
+photo_id,path,apartment,room_on_that_plan,our_equivalent_room,view_direction,notes
+add8,_Survey/apartment_109_mirrored/add8.jpg,109 (MIRRORED),109-6 big room 25.1,кухня+living 24.73,SE across the room,
+a89d,_Survey/apartment_109_mirrored/a89d.jpg,109 (MIRRORED),"109-6, at the west wall",кухня+living,NE to the corridor door,
+9902,_Survey/apartment_109_mirrored/9902.jpg,109 (MIRRORED),"109-6, facing the window wall",кухня+living,"S, SQUARE-ON at the window",!! the only planar geometry in the set. Falsifies the O3 sill/head committed 2026-09-05 - see FLAG_O3_window_proportions_do_not_fit.
+9be4,_Survey/apartment_109_mirrored/9be4.jpg,109 (MIRRORED),"109-5 16.7, south end",middle room 16.63,SE,was mislabelled 9cf9 on the first map; the owner corrected it 2026-09-06.
+a82a,_Survey/apartment_109_mirrored/a82a.jpg,109 (MIRRORED),109-1 коридор 10.0,прихожая 9.79,E along the corridor,
+a89c,_Survey/apartment_109_mirrored/a89c.jpg,109 (MIRRORED),"109-1 коридор, north end",прихожая,SW back down the corridor,
+b83a,_Survey/apartment_109_mirrored/b83a.jpg,109 (MIRRORED),corridor at the туалет door,прихожая → туалет,E into the туалет,"should show V1, P1 and the pipe stubs"
+9fd1,_Survey/apartment_109_mirrored/9fd1.jpg,109 (MIRRORED),109-3 ванная 3.2,ванная 3.09,NE,
+b0aa,_Survey/apartment_109_mirrored/b0aa.jpg,109 (MIRRORED),"109-5, north end",middle room,SW down the room,
+9f84,_Survey/apartment_109_mirrored/9f84.jpg,109 (MIRRORED),"109-5, facing the window",middle room,S at the window,
+9cf9,_Survey/apartment_109_mirrored/9cf9.jpg,109 (MIRRORED),109-4 at the лоджия door,small bedroom 9.36,NE into the room,
+bc18,_Survey/apartment_109_mirrored/bc18.jpg,109 (MIRRORED),"109-4 9.2, north end",small bedroom,SE,
+9711,_Survey/apartment_109_mirrored/9711.jpg,109 (MIRRORED),109-7 лоджия 2.5,лоджия 6.05(4.24),SE into the лоджия,!! ANSWERS THE O9 GLAZING QUESTION. Size does NOT transfer (2.5 vs 6.05 m2); the glazing PATTERN does.
+868c,_Survey/apartment_2_same_handedness_as_ours/868c.jpg,2 (SAME handedness),коридор 10.1,прихожая 9.79,"W, toward the c/y and ванная",
+8d93,_Survey/apartment_2_same_handedness_as_ours/8d93.jpg,2 (SAME handedness),коридор,прихожая,W,
+9946,_Survey/apartment_2_same_handedness_as_ours/9946.jpg,2 (SAME handedness),коридор at the divider,прихожая,NW,
+bce3,_Survey/apartment_2_same_handedness_as_ours/bce3.jpg,2 (SAME handedness),Китчен/living 25,кухня+living 24.73,NW toward the corridor,
+9e9b,_Survey/apartment_2_same_handedness_as_ours/9e9b.jpg,2 (SAME handedness),Жилая с кухонным оборудованием 25,кухня+living 24.73,SE across the room,!! CARRIES THE KITCHEN SERVICES: the extract grille high on V2 and the 110 sewer socket low on P2. See service_outlets.csv.
+8be8,_Survey/apartment_2_same_handedness_as_ours/8be8.jpg,2 (SAME handedness),"Жилая с кухонным 25, south end",кухня+living,NE across the room,
+bdc7,_Survey/apartment_53_mirrored/bdc7.jpg,53 (MIRRORED),53-6 big room 25.2,кухня+living 24.73,SW across the room toward the window wall," !! Byte-identical to living_room_window.jpg, one of the three window close-ups supplied first and treated as flat-unknown until the sha256 manifest matched them on 2026-09-07. So those earliest measurements came from apartment 53 - MIRRORED."
+930d,_Survey/apartment_53_mirrored/930d.jpg,53,"53-6 big room, at the kitchen wall",кухня+living,"N, close to FRONTAL at the wall","!! THE DEFINITIVE SERVICES SHOT: sewer socket, both water take-offs, the vent grille, three sockets and the ceiling light point, all in one frontal view. See service_outlets.csv and electrical_existing.csv."
+8441,_Survey/apartment_53_mirrored/8441.jpg,53,53-1 коридор 10.2,прихожая 9.79,E along the corridor,⚠ the map label reads 8431 but the file is 8441.jpg - one of the two is a misread. Assumed the file.
+b6f0,_Survey/apartment_53_mirrored/b6f0.jpg,53,53-5 16.8,middle room 16.63,SW down the room," !! Byte-identical to kids_room_window.jpg, one of the three window close-ups supplied first and treated as flat-unknown until the sha256 manifest matched them on 2026-09-07. So those earliest measurements came from apartment 53 - MIRRORED."
+ade6,_Survey/apartment_53_mirrored/ade6.jpg,53,53-2 туалет 1.9,туалет 1.42,E into the туалет,"should show V1, the main sewer and the water/towel-rail tails - the P1 zone."
+875f,_Survey/apartment_53_mirrored/875f.jpg,53,53-3 ванная 3.2,ванная 3.09,NE,
+9db4,_Survey/apartment_53_mirrored/9db4.jpg,53,53-4 9.3,small bedroom 9.36,SE toward the лоджия door," !! Byte-identical to small_bedroom_window.jpg, one of the three window close-ups supplied first and treated as flat-unknown until the sha256 manifest matched them on 2026-09-07. So those earliest measurements came from apartment 53 - MIRRORED."
+ac6c,_Survey/apartment_53_mirrored/ac6c.jpg,53,53-7 лоджия 4.1(5.9),лоджия 6.05(4.24),SE into the лоджия,"лоджия 5.9 full against our 6.05 - close, unlike flat 109’s 2.5."
