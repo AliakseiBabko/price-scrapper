@@ -33,3 +33,11 @@ _Inbox/pdf_pages/
 # Third-party albums stay local: large, watermarked, and someone else's client documents.
 # Identity is preserved by the sha256 recorded in data/layout_cases/*.json.
 00_Master/*.pdf
+
+# _Survey/ holds the photo survey of three comparable flats - Realt.by and
+# Kvadratny Metr listing photos, i.e. third-party watermarked material. Same
+# treatment as the album PDFs in 00_Master: the BYTES stay out of git, and
+# identity is kept in git via sha256 in _Survey/manifest.csv.
+_Survey/**/*.jpg
+_Survey/**/*.jpeg
+_Survey/**/*.png
