@@ -1,5 +1,5 @@
 room_id,seq,face_id,element,kind,direction,length_mm,height_mm,contains_opening,source,notes
-KL,1,KL-01,G3 (+ a little of R3),wall_face,E,3445,2500,,pixel read of the basic plan,"UNCERTAIN. The R3|G3 split is undimensioned, so this face crosses it. See the east-west residual in the closure note."
+KL,1,KL-01,G3 (+ a little of R3),wall_face,E,3661,2500,,DERIVED: R2 west face to P2 west face,"!! CORRECTED 2026-09-07 from 3445. The 3445 ran from the DIVIDER LINE at x=658; the north wall actually runs to P2’s WEST FACE at x=636, giving 3661. That closes the east-west axis against MC 3315 + two 175 steps = 3665, to 4 mm. So the 220 mm residual was NOT two missing step faces as I had recorded - it was this face measured to a centreline instead of a face, the same error class as adding a neighbour’s thickness to a clear run. Nothing needs walking. It still crosses the undimensioned R3|G3 split, so the SPLIT stays nominal, but the face LENGTH is now sound."
 KL,2,KL-02,R2,wall_face,S,1675,2500,,printed on the detailed plan,
 KL,3,KL-03,G5,wall_face,S,4035,2500,,printed on the detailed plan,
 KL,4,KL-04,R7,wall_face,S,1750,2500,,printed on the detailed plan,"KL-02 + KL-03 + KL-04 = 7460, the longest single run in the flat. Confirmed by floor plan_1 at 7460 exactly and floor plan_3 at 7450."
