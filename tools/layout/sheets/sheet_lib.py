@@ -237,8 +237,21 @@ class Sheet(object):
                     self.placed.append(b); return x, y
         self.placed.append((cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2)); return cx, cy
 
+    def reserve(self, cx, cy, r=30):
+        """Claim a symbol’s own footprint so spot() routes labels AROUND it.
+
+        Until 2026-09-07 only labels registered themselves in self.placed, so a
+        label could be placed straight over a symbol and repeatedly was — the
+        owner flagged it once as “you overlay the icon itself”, and again when a
+        six-line callout landed on the three kitchen take-offs. spot() was
+        working correctly; it simply had not been told the symbols existed.
+        Every sym_* now calls this.
+        """
+        self.placed.append((cx - r, cy - r, cx + r, cy + r))
+
     # ---------------------------------------------------------------- symbols
     def sym_socket(self, x, y, nx, ny, col, gang=1, ip=False):
+        self.reserve(x + nx * 21, y + ny * 21, 34)
         """semicircle on the wall with a stem, the standard socket symbol"""
         r = 21
         cx, cy = x + nx * r, y + ny * r
@@ -255,6 +268,7 @@ class Sheet(object):
             self.d.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=col)
 
     def sym_power(self, x, y, nx, ny, col):
+        self.reserve(x + nx * 21, y + ny * 21, 34)
         """силовая розетка - a socket symbol with THREE bars, for a 380 V /
         high-current line. The reference album distinguishes it, and it must be
         distinguished here: a hob line is not a 220 V socket and cannot be
@@ -273,12 +287,14 @@ class Sheet(object):
                          (cx + px * o + nx * 17, cy + py * o + ny * 17)], fill=col, width=6)
 
     def sym_detector(self, x, y, col):
+        self.reserve(x, y, 30)
         """пожарный извещатель - a circle with a dot, distinct from a luminaire"""
         r = 21
         self.d.ellipse([x - r, y - r, x + r, y + r], outline=col, width=7)
         self.d.ellipse([x - 7, y - 7, x + 7, y + 7], fill=col)
 
     def sym_switch(self, x, y, nx, ny, col, gang=1):
+        self.reserve(x + nx * 21, y + ny * 21, 32)
         r = 13
         cx, cy = x + nx * (r + 6), y + ny * (r + 6)
         self.d.line([(x, y), (cx, cy)], fill=col, width=6)
@@ -291,6 +307,7 @@ class Sheet(object):
                         fill=col, width=5)
 
     def sym_ceiling(self, x, y, col, double=False, pendant=False):
+        self.reserve(x, y, 34)
         r = 24
         self.d.ellipse([x - r, y - r, x + r, y + r], outline=col, width=6)
         if double:
@@ -305,6 +322,7 @@ class Sheet(object):
                 self.d.ellipse([ax - 8, ay - 8, ax + 8, ay + 8], outline=col, width=4)
 
     def sym_pipe(self, x, y, nx, ny, col, kind):
+        self.reserve(x + nx * 21, y + ny * 21, 30)
         r = 17
         cx, cy = x + nx * (r + 4), y + ny * (r + 4)
         self.d.line([(x, y), (cx, cy)], fill=col, width=7)
@@ -360,11 +378,18 @@ class Sheet(object):
             L = max(1e-9, (nx_ ** 2 + ny_ ** 2) ** 0.5)
             pts.append(self.P((p[0] + nx_ / L * offset, p[1] + ny_ / L * offset)))
         self.d.line(pts, fill=col + (240,), width=width, joint='curve')
+        # and claim the run, so a label cannot be dropped on top of a pipe -
+        # same reason the sym_* methods reserve. Sampled coarsely: a corridor
+        # roughly a label’s height wide is what we actually want to keep clear.
+        for i in range(0, len(pts), 3):
+            self.reserve(pts[i][0], pts[i][1], 22)
 
-    def htag(self, x, y, txt, col, nx=0, ny=0):
+    def htag(self, x, y, txt, col, nx=0, ny=0, push=1.0):
         w = len(txt) * 15 + 20
-        # start the search PAST the symbol body, not on top of it
-        tx, ty = self.spot(x + nx * 70, y + ny * 70 - 46, w, 40)
+        # start the search PAST the symbol body, not on top of it. `push` moves
+        # the START of the search further out, for a row of symbols close
+        # together whose tags would otherwise all compete for the same slot.
+        tx, ty = self.spot(x + nx * 70 * push, y + ny * 70 * push - 46, w, 40)
         self.d.line([(x, y), (tx, ty)], fill=col + (170,), width=2)
         self.d.rectangle([tx - w / 2, ty - 20, tx + w / 2, ty + 20],
                          fill=(255, 255, 255, 245), outline=col, width=3)
