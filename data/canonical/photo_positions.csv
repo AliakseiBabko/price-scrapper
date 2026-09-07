@@ -12,3 +12,9 @@ b0aa,1,"109-5, north end",middle room,SW down the room,
 9cf9,1,109-4 at the лоджия door,small bedroom 9.36,NE into the room,
 bc18,1,"109-4 9.2, north end",small bedroom,SE,
 9711,1,109-7 лоджия 2.5,лоджия 6.05(4.24),SE into the лоджия,!! ANSWERS THE O9 GLAZING QUESTION. Size does NOT transfer (2.5 vs 6.05 m2); the glazing PATTERN does.
+868c,2 (SAME handedness),коридор 10.1,прихожая 9.79,"W, toward the c/y and ванная",
+8d93,2,коридор,прихожая,W,
+9946,2,коридор at the divider,прихожая,NW,
+bce3,2,Китчен/living 25,кухня+living 24.73,NW toward the corridor,
+9e9b,2,Жилая с кухонным оборудованием 25,кухня+living 24.73,SE across the room,!! CARRIES THE KITCHEN SERVICES: the extract grille high on V2 and the 110 sewer socket low on P2. See service_outlets.csv.
+8be8,2,"Жилая с кухонным 25, south end",кухня+living,NE across the room,

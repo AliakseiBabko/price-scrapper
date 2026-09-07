@@ -1,0 +1,7 @@
+outlet_id,kind,room,on_element,centre_height_mm,size_mm,source,notes
+SV-K,ventilation extract grille,кухня zone,V2 assembly,2177,~200 x 315 apparent,"9e9b.jpg, apartment 2","!! MEASURED 2026-09-07. Top 2334 above the floor, bottom 2020, so ~166 below the ceiling. The apparent 200 x 315 is foreshortened - the face is oblique - so a 300 x 300 grille is the likely product. HIGH LEVEL: any kitchen extract must rise to ~2.2 m, so a hood duct runs up and across, and a wall unit or bulkhead in that corner has to accommodate it."
+SS-K,sewer connection,кухня zone,P2,153,110 dia,"9e9b.jpg, apartment 2","!! MEASURED 2026-09-07. Centre 153 above the floor, invert ~97, and its own diameter reads 113 - a standard 110 mm PVC socket, which is the check that the scale is right rather than merely plausible. Confirms P2 as the kitchen/laundry plumbing block, which the model has said since 2026-09-04. LOW and horizontal, so fall to it is easy and a washing machine or dishwasher can discharge without a pump."
+SS-B,"sewer connection, main",туалет,P1,,110 dia,not yet measured,The main sewer riser in the P1 zone. Height UNMEASURED - b83a.jpg looks into the туалет and may show it.
+SW-B,hot and cold water tails,туалет,P1,,,not yet measured,"Hot, cold and the towel-rail tails, all in the P1 zone per the owner. Heights UNMEASURED."
+SV-T,ventilation extract grille,туалет,V1,,,not yet measured,"UNMEASURED. If SV-K is the standard, expect ~2.2 m."
+SV-V,ventilation extract grille,ванная,V1,,,not yet measured,UNMEASURED. 9fd1.jpg is in the ванная and may show it.
