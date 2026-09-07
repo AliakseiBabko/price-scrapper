@@ -857,3 +857,32 @@ Other best items: **⚠️⚠️ a NO-DEVIATION CLAUSE THAT PREVENTED NOTHING �
 **⚠️ TWO ITEMS LEFT OPEN FOR THE USER, both recorded on the pages rather than resolved by me:** the **bunk bed** (he built one and framed it as the children's dream; the vault's Round 4 clinical psychologist argues against bunk beds when area allows separate beds — AREA is the deciding variable and this project's kids' room is 9.36 m²), and the **themed mural** (against the vault's finding that a themed children's scheme has roughly a one-year lifespan).
 
 **⚠️⚠️ A FOURTH RENDERING OF THE SURNAME, AND THE SECOND SELF-INTRODUCTION.** This transcript opens «Я СЕНЧУГОВ Александр» — the form **Round 5 deliberately corrected away from**, vault-wide, to «Синчуков», on the argument that NSDSGN = Нечаев + Синчуков. **A manual (non-ASR) self-introduction is stronger evidence than the ASR renderings that argument was built on, so the Round 5 correction is now IN DOUBT rather than settled. I have NOT re-corrected the vault on one transcript — that would be the second mass rename in three rounds. Flagged for the user, who can settle it from the channel's own about page or invoices.**
+
+## Photo survey of three comparable flats — 3 sources, 2026-09-06/07
+
+**A different source TYPE from everything above**: not practitioner opinion but *evidence about this
+specific building*. Listing photographs of three units of the same layout, each with the owner’s own
+annotated positioning plan (camera dot, view arrow, 4-hex id per photo).
+
+| note | flat | handedness | photos | what it is for |
+| :--- | :--- | :--- | ---: | :--- |
+| [[SURVEY_apt109_photo_set_mirrored]] | 109 | **mirrored** | 13 | room labels, internal door heads, the лоджия glazing pattern, first-fix electrics, the ceiling-height derivation |
+| [[SURVEY_apt2_photo_set_same_hand]] | 2 | **same as ours** | 6 | the best dimensional comparable — and the source of the retracted 110 mm sewer |
+| [[SURVEY_apt53_photo_set_mirrored]] | 53 | **mirrored** | 8 | every services position: the kitchen sewer and water, the P1 risers, the extract grilles |
+
+**Artifacts**: `_Survey/`, one folder per flat. Third-party watermarked listing photographs, so the
+bytes are gitignored and identity is kept via sha256 in `_Survey/manifest.csv` — the same treatment as
+the album PDFs. **That manifest is not bookkeeping**: hashing caught three duplicate files and, with
+them, the fact that the earliest window measurements came from a mirrored flat.
+
+**Store**: unusually for this repo these three feed `data/canonical/*.csv` and
+`data/canonical/wall_materials.json` rather than the Markdown store here — the facts are geometric and
+machine-checked (`tools/layout/check_*.py`), not attributable opinion. **Master pages**:
+`00_Master/Geometry_Variance_Study.md`, `Soundproofing_Where_It_Is_Worth_It.md`,
+`Photo_Evidence_Request.md`, `Evidence_Reading_Discipline.md`.
+
+> [!IMPORTANT]
+> **Tier 2 was skipped for two days and added retrospectively on 2026-09-07.** Findings went straight
+> from the photographs into the canonical store, so there was no per-source record of what each flat
+> contributed or what was doubtful about it. Writing the notes made the shape visible — and each one now
+> names the single thing about its own flat that must NOT be carried across.

@@ -945,5 +945,21 @@
     "and_one_sheet_the_reference_does_not_have": "Остекление лоджии (замена). Added because the replacement is contractually constrained to reproduce the original pattern - 4 bays × 2 rows, dark profile - which is a drawing requirement, not a preference.",
     "the_only_exclusion": "Тёплые полы. Owner decision 2026-08-26, unchanged.",
     "consequence_flagged_not_hidden": "⚠ This roughly TRIPLES the drawing work, and 00_Master/Sheet_Production_Roadmap.md is now sized for the wrong target. Flagged in project_decisions.md rather than silently left stale."
+  },
+  "ROLLOUT_RESIDUAL_CLOSED_2026_09_07": {
+    "owner_question": "\"How can we and should we fix it? What do I need to do to close this uncertainty?\"",
+    "answer": "!! NOTHING. My diagnosis was wrong. I had recorded the 220 mm east-west residual as two missing STEP faces at the G3|R2 and MC|R7 ends, needing the owner to walk the rest of the room. It was not that at all.",
+    "what_it_actually_was": "KL-01, the north face, was measured from the DIVIDER LINE at x=658. The north wall of the space actually runs to P2’s WEST FACE at x=636. (1010-636) × 9.789 = 3661, against MC 3315 + two 175 steps = 3665 - it closes to 4 mm.",
+    "the_error_class": "!! Measuring to a CENTRELINE instead of a FACE - exactly the same error as adding a neighbour’s thickness to a clear run, which the owner caught on R2 three days earlier. The discipline page names it as check 1: what two things does the dimension terminate on? A divider line is not a face.",
+    "and_the_wrong_diagnosis_was_the_costlier_part": "⚠ The residual itself was 220 mm on one face. Telling the owner it needed a site walk would have sent him to measure something that was already determined. A misdiagnosed gap is worse than an admitted one, because it spends someone else’s time.",
+    "state": "check_room_rollout now PASSES on both axes: E 3661 vs W 3665, N 7460 vs S 7460 exactly. Finishable face area 51.98 m². The R3|G3 SPLIT remains nominal - that is a different and genuinely unknowable question - but the face LENGTH is sound."
+  },
+  "tiered_approach_applied_to_the_survey_2026_09_07": {
+    "owner_request": "\"I want you to apply the tiered approach we implemented in the ai-skills repository. Check ai-skills and apply the relevant changes to correspond to that template.\"",
+    "the_template": "../ai-skills/skills/tiered-knowledge-base: SOURCE ARTIFACT → SOURCE EXTRACTION NOTE (one per source) → INTERMEDIATE STORE → MASTER WIKI PAGE.",
+    "THE_GAP_IT_EXPOSED": "!! This repo implements all four tiers for its YouTube sources - _Sources/ → _Knowledge/store/ → the 01_-17_ wiki - but the photo survey SKIPPED TIER 2 ENTIRELY. Artifacts went into _Survey/, findings went straight into data/canonical/*.csv and wall_materials.json, and master pages were written in 00_Master/. There was no per-source record of what each apartment contributed, or of its own uncertainties. Roughly 25 findings from three sources were interleaved in one JSON file with no way to ask \"what did apartment 2 actually give us, and what is doubtful about it\".",
+    "what_was_added": "Three source extraction notes in the repo’s existing format, with provenance frontmatter, evidence levels, what each source settled, its uncertainties, and its downstream pointers: _Sources/SURVEY_apt109_photo_set_mirrored.md, SURVEY_apt2_photo_set_same_hand.md, SURVEY_apt53_photo_set_mirrored.md.",
+    "and_writing_them_surfaced_something": "!! Laid out per source, the pattern is visible in a way the interleaved JSON hid: apartment 109 gave the labels and the door heads, apartment 2 gave the best dimensional agreement AND caused the worst error, apartment 53 gave every service position. Each note also names the one thing about its own flat that must NOT transfer - 109’s лоджия, 2’s unexplained −110, 53’s mirroring.",
+    "tier_mapping_for_this_repo": "artifact = _Survey/ (+ manifest.csv for identity, since the bytes are gitignored); extraction note = _Sources/SURVEY_*.md; intermediate store = data/canonical/*.csv plus wall_materials.json; master page = 00_Master/*.md. Recorded so the next source follows it rather than skipping to the store again."
   }
 }
