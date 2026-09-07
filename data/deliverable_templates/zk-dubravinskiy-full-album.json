@@ -53,8 +53,8 @@
       "number": "5",
       "title_ru": "Отопление",
       "our_scope": "in_scope",
-      "capability": "not_started",
-      "note": "Радиаторы под каждым окном подтверждены фото; ТРАССА нигде не зафиксирована. Лист нельзя выпускать до обмера."
+      "capability": "partially_derivable",
+      "note": "СИСТЕМА ИЗВЕСТНА: застройщик сдаёт радиаторы уже установленными и горизонтальную разводку со счётṭчиком тепла (building_spec.json). ПОЗИЦИИ РАДИАТОРОВ ВЫВОДЯТСЯ: по одному под каждым окном — MA/O4, MB/O2, MC/O3 из wall_opening_spans.csv; лоджия не отапливается. НЕ ЗАФИКСИРОВАНО: трасса труб в стяжке — единственная служба без каких-либо следов. Гипотеза: SH-B — это стояк отопления (см. canonical)."
     },
     {
       "number": "6",
@@ -252,5 +252,6 @@
       "capability": "not_started",
       "note": "Из прежнего набора по Долгушеву: серый 3D massing, намеренно без рендеров."
     }
-  ]
+  ],
+  "convention": "ONE SERVICE PER SHEET, as in the reference album: 5 Отопление, 8 Водоснабжение, 9 Канализация, 15 Вентиляция. NOTE the prototype _Drawings/sheets/sheet_03_plumbing.png currently MERGES water + sewer + ventilation onto one sheet. That was an iteration shortcut while the owner corrected placements, not the target: it must be split into 8 / 9 / 15 before the album is issued."
 }
