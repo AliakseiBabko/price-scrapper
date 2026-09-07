@@ -460,6 +460,42 @@ s3.callout(*(list(s3.P((87, 150))) + [[u'P1 — САНТЕХБЛОК (ade6)',
 
 
 
+# ============ ВЕНТИЛЯЦИЯ: ВАННАЯ ДЫШИТ ЧЕРЕЗ ТУАЛЕТ ============
+# Owner on the two circles in b83a: “they are two venting openings — first, we
+# connect the venting shaft with the water closet, and another connects water
+# closet with the bathroom.”
+#
+# So the extract path is ВАННАЯ → ТУАЛЕТ → V1. The ванная has NO duct of its
+# own: it has a high-level transfer opening through G4b, and the туалет alone
+# is grilled into the shaft.
+#
+# My service_outlets.csv had SV-V as “ventilation extract grille, ванная, on
+# V1”, which is geometrically IMPOSSIBLE and our own wall model said so before
+# any of this: V1 ends at y=111 and the ванная begins at G4b’s south face,
+# y=205.1 — 921 mm of туалет floor in between. The block never touches the
+# ванная. That is independent corroboration in the way the retracted лежак’s
+# midpoints were NOT: the model was built from linear dimensions with no
+# knowledge of ventilation, so it had no way to agree by construction.
+#
+# ⚠ The POSITION along G4b is indicative — b83a is a different flat with a
+# deeper туалет, and left/right in it says nothing about ours. What transfers
+# is the topology. Placed east of the basin (which ends at x=185) so it is
+# clear of both the basin and P1.
+px, py = s3.P((200, 199))
+s3.sym_transfer(px, py, OR, 0, -1)
+s3.callout(px, py, [u'ПЕРЕТОЧНОЕ ОТВЕРСТИЕ у потолка (b83a)',
+                    u'ванная → туалет → шахта V1',
+                    u'у ванной НЕТ своего канала — вытяжка',
+                    u'только через туалет. Не закрывать при отделке',
+                    u'⚠ положение по G4b — справочное, уточнить'], OR, (330, 300))
+s3.legend(lambda x, y, c: s3.sym_transfer(x - 20, y, c, 1, 0),
+          u'Переточное отверстие у потолка', OR)
+REVIEW.append({'item_id': 'SV-VT', 'kind': 'transfer opening, high level',
+               'wall': 'G4b', 'gang': '-', 'height_cm': u'у потолка',
+               'source_photos': 'b83a', 'photo_shows': u'ванная → туалет, второе — туалет → V1',
+               'position_basis': u'TOPOLOGY from the owner; position along G4b indicative',
+               'owner_verdict': '', 'owner_correction': ''})
+
 for iid, bx, by, nt, src in (('V-1', 103, 92, u'решётка вытяжки H=218', '930d + 9e9b'),
                              ('V-2', 656, 128, u'решётка вытяжки H=218', '9e9b')):
     px, py = s3.P((bx, by))

@@ -334,6 +334,24 @@ class Sheet(object):
         else:
             self.d.ellipse([cx - r + 4, cy - r + 4, cx + r - 4, cy + r - 4], fill=col)
 
+    def sym_transfer(self, x, y, col, dx=0, dy=-1):
+        """a high-level TRANSFER opening through a wall, with the airflow arrow.
+
+        Not a grille on a duct - a hole between two rooms, which is why it gets
+        its own symbol: it says the room on one side has no extract of its own.
+        (dx, dy) is the direction the air travels.
+        """
+        self.reserve(x, y, 40)
+        w, h = (30, 15) if dy else (15, 30)
+        self.d.rectangle([x - w, y - h, x + w, y + h], outline=col, width=6)
+        # the arrow, drawn clear of the opening on the downstream side
+        ax, ay = x + dx * 52, y + dy * 52
+        self.d.line([(x + dx * 20, y + dy * 20), (ax, ay)], fill=col, width=6)
+        px_, py_ = -dy, dx
+        self.d.polygon([(ax + dx * 16, ay + dy * 16),
+                        (ax + px_ * 11, ay + py_ * 11),
+                        (ax - px_ * 11, ay - py_ * 11)], fill=col)
+
     def sym_valve(self, x, y, col):
         """a shut-off valve - the standard bow-tie, on a riser or a tail."""
         self.reserve(x, y, 24)
