@@ -192,5 +192,6 @@
       "unlocked_by": [],
       "scope_note": "Решение пользователя 2026-08-26: тёплый пол не устанавливается. Лист исключён из комплекта; при отказе от решения вернуть его в план полов как отдельный слой."
     }
-  ]
+  ],
+  "SUPERSEDED": "!! SUPERSEDED 2026-09-07 by zk-dubravinskiy-full-album.json. The owner adopted the 32-sheet Romanova album as the model for the final package and put развёртки стен back in scope, which this set excluded. Kept for provenance: it records what was excluded and why, and its capability / unlocked_by analysis is still the right way to sequence production."
 }
