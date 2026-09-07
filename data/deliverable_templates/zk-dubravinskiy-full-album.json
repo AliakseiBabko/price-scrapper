@@ -1,0 +1,256 @@
+{
+  "schema_version": "2",
+  "template_id": "zk-dubravinskiy-full-album",
+  "name": "Полный альбом чертежей — ЖК Дубравинский, 3Б/2+",
+  "tier": "full_album",
+  "derived_from": "romanova-5443509-album",
+  "supersedes": "price-scrapper-target-set (tier planning_project, 11 sheets, after Dolgushev)",
+  "decision": "Owner, 2026-09-07: the full 32-sheet album (Проект №5443509, Вероника Романова) is the model for the final package. \"Развёртки нужны обязательно... this is a full set of documents which will be in the final portfolio.\" The Dolgushev album was \"just an example and probably not full\".",
+  "what_changed_from_the_previous_set": [
+    "РАЗВЁРТКИ СТЕН back in scope - 9 sheets instead of an exclusion. The largest change, and the most consequential: развёртки are where socket and switch HEIGHTS are specified rather than merely noted.",
+    "КОНДИЦИОНИРОВАНИЕ back in scope - the owner raised AC routes on 2026-09-04 and the concrete cannot be cut.",
+    "КАНАЛИЗАЦИЯ split out of водоснабжение - two independent stacks warrant it.",
+    "ВЫКЛЮЧАТЕЛИ split out of розетки, as the reference does.",
+    "ADDED a лоджия glazing sheet, which the reference does not have: the replacement is contractually constrained to reproduce the original pattern.",
+    "ТЁПЛЫЙ ПОЛ remains the single excluded sheet."
+  ],
+  "count": {
+    "in_scope": 31,
+    "optional": 1,
+    "out_of_scope": 1,
+    "was_previously_in_scope": 11
+  },
+  "sheets": [
+    {
+      "number": "1",
+      "title_ru": "Исходный план",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "note": "Обмерный план от застройщика. Модель готова: 25 стен с clear/solid, 11 проёмов, шахты и сантехблоки."
+    },
+    {
+      "number": "2",
+      "title_ru": "Демонтаж",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "!! Нужен именно у нас: застройщик ставит межкомнатные перегородки ДО передачи, поэтому перепланировка ломает новую работу. Сюда же демонтаж холодного остекления лоджии."
+    },
+    {
+      "number": "3",
+      "title_ru": "Возводимые перегородки",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "С материалом и толщиной. Модель различает бетон и газоблок 250/120/75."
+    },
+    {
+      "number": "4",
+      "title_ru": "Помещения (экспликация)",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Площади ВЫВОДИТЬ из линейных размеров, никогда не переносить печатные — правило \"areas are not evidence\"."
+    },
+    {
+      "number": "5",
+      "title_ru": "Отопление",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Радиаторы под каждым окном подтверждены фото; ТРАССА нигде не зафиксирована. Лист нельзя выпускать до обмера."
+    },
+    {
+      "number": "6",
+      "title_ru": "Мебель",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "7",
+      "title_ru": "Сантехника",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Учесть: унитаз ставит застройщик (подтверждено ade6)."
+    },
+    {
+      "number": "8",
+      "title_ru": "Водоснабжение",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "note": "Стояки ГВС/ХВС со счётчиками в P1; выводы на кухню из пола H=61. Трасса под полом — по трафаретам ВОДОСНАБЖЕНИЕ."
+    },
+    {
+      "number": "9",
+      "title_ru": "Канализация",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "note": "Два стояка: DN110 в P1 и кухонный DN50 у P2 на стяжке, H=6."
+    },
+    {
+      "number": "10",
+      "title_ru": "Розетки",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "note": "Прототип готов: _assets/sheet_01_sockets.png"
+    },
+    {
+      "number": "11",
+      "title_ru": "Выключатели",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "note": "В прототипе объединено с розетками; в референсе отдельный лист. Разделить."
+    },
+    {
+      "number": "12",
+      "title_ru": "Освещение",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "note": "Прототип готов: _assets/sheet_02_lighting.png. В кухне-гостиной ДВА вывода застройщика."
+    },
+    {
+      "number": "13",
+      "title_ru": "Электропроводка",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Трассы и сечения кабелей, отдельно от розеток. Учесть щит в общем коридоре, 5–7 м от квартиры."
+    },
+    {
+      "number": "14",
+      "title_ru": "Кондиционеры",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "!! Возвращён в состав: владелец поднимал трассы кондиционирования 2026-09-04, а бетон резать нельзя. В прежнем наборе был исключён."
+    },
+    {
+      "number": "15",
+      "title_ru": "Вентиляция",
+      "our_scope": "in_scope",
+      "capability": "prototype",
+      "note": "Решётки вытяжки H=218 на V1 и V2. Вытяжка кухни на 2,2 м — воздуховод от зонта идёт ВВЕРХ и ВДОЛЬ."
+    },
+    {
+      "number": "16",
+      "title_ru": "Безопасность (датчики протечки)",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Два независимых стояка канализации и мокрый узел у стены соседа — датчики протечки не роскошь."
+    },
+    {
+      "number": "17",
+      "title_ru": "Напольные покрытия",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "18",
+      "title_ru": "Отделка стен",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "19",
+      "title_ru": "Потолки",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Высота: 2500 по застройщику, ~2540 по двум независимым расчётам. Подвесной потолок у кухни ограничен вытяжкой на 2,2 м."
+    },
+    {
+      "number": "20",
+      "title_ru": "Гидроизоляция",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Мокрые зоны."
+    },
+    {
+      "number": "21",
+      "title_ru": "Штукатурка",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "22",
+      "title_ru": "Стяжка",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "Уже выполнена застройщиком — лист про доработку, не про устройство."
+    },
+    {
+      "number": "23",
+      "title_ru": "Остекление лоджии (замена)",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "!! Своего листа в референсе нет, а нам нужен: замена холодного остекления на трёхкамерное с ОБЯЗАТЕЛЬНЫМ повторением исходного рисунка — 4 секции x 2 ряда, тёмный профиль. Ширина 2939 (наша) / 2930 (обмер кв. 53)."
+    },
+    {
+      "number": "24",
+      "title_ru": "Развёртки стен — сводный лист",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "!! ВОЗВРАЩЕНЫ В СОСТАВ решением владельца 2026-09-07. В прежнем наборе были исключены."
+    },
+    {
+      "number": "25-26",
+      "title_ru": "Развёртки: кухня-гостиная",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": "24.73 м², самое длинное помещение (7460) — двумя листами не обойтись."
+    },
+    {
+      "number": "27",
+      "title_ru": "Развёртки: средняя комната 16.63",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "28",
+      "title_ru": "Развёртки: комната 9.36",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "29",
+      "title_ru": "Развёртки: прихожая 9.79",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "30",
+      "title_ru": "Развёртки: туалет 1.42",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "31",
+      "title_ru": "Развёртки: ванная 3.09",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "32",
+      "title_ru": "Развёртки: лоджия",
+      "our_scope": "in_scope",
+      "capability": "not_started",
+      "note": ""
+    },
+    {
+      "number": "-",
+      "title_ru": "Тёплые полы",
+      "our_scope": "out_of_scope",
+      "capability": "not_started",
+      "note": "Решение владельца 2026-08-26: система не устанавливается. Единственный лист референса, который нам не нужен."
+    },
+    {
+      "number": "прил.",
+      "title_ru": "3D-макет (серый, без визуализаций)",
+      "our_scope": "optional",
+      "capability": "not_started",
+      "note": "Из прежнего набора по Долгушеву: серый 3D massing, намеренно без рендеров."
+    }
+  ]
+}
