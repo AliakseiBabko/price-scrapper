@@ -235,36 +235,46 @@ for bid, (x0, y0, x1, y1), col in (('V1', (67, 70, 139, 111), OR), ('V2', (636, 
                                    ('P1', (52, 110, 87, 192), B), ('P2', (636, 71, 677, 91), B)):
     p0, p1 = s3.P((x0, y0)), s3.P((x1, y1))
     s3.d.rectangle([p0[0], p0[1], p1[0], p1[1]], fill=col + (48,), outline=col, width=6)
-# ВОДОСНАБЖЕНИЕ under the floor, drawn by the OWNER on sheet 3 and
-# replacing my dashed guess. His line: out of P1, straight EAST across the
-# прихожая at a constant level, then north up to the kitchen take-offs.
+# ВОДОСНАБЖЕНИЕ under the floor — the OWNER’s route, corrected twice by him.
 #
-# CORRECTED 2026-09-07, owner: my first rendering of his route turned north at
-# x=648 and ran DIAGONALLY to (690, 96) - straight through V2 (636..677 x
-# 92..162), a concrete ventilation shaft, and clipping P2 above it. A pipe
-# cannot cross concrete. The turn now happens EAST of the block instead:
-#   south of V2's south face (y=162) by 10 px = 98 mm,
-#   east  of V2's east  face (x=677) by 23 px = 225 mm.
-# Drawn with FILLETED corners, because a pipe bends on a radius; a sharp right
-# angle is a drawing convention, not a pipe.
-ROUTE = [(90, 172), (700, 172), (700, 78), (722, 78)]
-for off, col, lbl in ((-3.0, R, u'ГВС'), (3.0, B, u'ХВС')):
-    s3.polyline_rounded(ROUTE, col, width=9, offset=off, r_mm=260.0)
-    m = s3.P(((ROUTE[0][0] + ROUTE[1][0]) / 2.0, ROUTE[0][1] + off * 4))
-    s3.d.text(m, lbl, fill=col, font=s3.f_src, anchor='mm')
+# Round 1 (2026-09-07): my rendering of his line turned north at x=648 and ran
+# diagonally to (690, 96) — straight through V2, a concrete ventilation shaft.
+#
+# Round 2 (2026-09-07, same day, the black and blue arrows on his screenshot):
+#   (a) the horizontal run sat mid-туалет. It belongs LOWER — further from V1,
+#       the туалет’s own vent shaft, and hugging G4b, the туалет’s south wall.
+#       Now y=180/186 against G4b’s north face at 192.87: 67 mm clear, and
+#       675 mm off V1 instead of 597.
+#   (b) I had added a turn that isn’t there: north at x=700, then EAST again to
+#       reach the take-offs. He: “they should approach the wall, the outlet
+#       directly — right ahead, not making an additional turn. You made it turn
+#       left and then right.” He is right, and the reason is that BOTH outlets
+#       already sit east of V2’s east face (714.2 and 720.5 against 677), so
+#       each pipe needs exactly ONE turn: east along the floor, then straight
+#       north into its own outlet. My dogleg existed only because I routed the
+#       PAIR as one offset line instead of routing each pipe to its own fitting.
+#
+# So these are two independent routes, each ending on its own take-off, not one
+# line drawn twice.
+ROUTES = [(u'ГВС', R, [(90, 180), (714.22765, 180), (714.22765, 69.9953)]),
+          (u'ХВС', B, [(90, 186), (720.49225, 186), (720.49225, 69.9953)])]
 
-# and the check: no routed segment may cross a shaft or a plumbing block.
-# The junction check taught this - a check that cannot fail is not a check.
+# no routed segment may cross a shaft or a plumbing block. The junction check
+# taught this — a check that cannot fail is not a check.
 BLOCKS = {'V1': (67, 70, 139, 111), 'V2': (636, 92, 677, 162),
           'P1': (52, 110, 87, 192), 'P2': (636, 71, 677, 91)}
-# P1 is the riser the route takes off FROM, so it is excluded by name,
-# not by loosening the tolerance until the check stops complaining.
-bad = route_block_conflicts(ROUTE, BLOCKS, clear_mm=60.0, connects=('P1',))
-if bad:
-    raise SystemExit(u'ROUTE crosses a service block: %s' % u'; '.join(bad))
-print(u'  route/block clearance: %d segments, all clear of %d blocks'
-      % (len(ROUTE) - 1, len(BLOCKS)))
-s3.callout(*(list(s3.P((380, 172))) + [[u'ГВС + ХВС под полом — трасса ВЛАДЕЛЬЦА',
+for lbl, col, route in ROUTES:
+    # P1 is the riser each route takes off FROM, so it is excluded by name,
+    # not by loosening the tolerance until the check stops complaining.
+    bad = route_block_conflicts(route, BLOCKS, clear_mm=60.0, connects=('P1',))
+    if bad:
+        raise SystemExit(u'%s route crosses a service block: %s' % (lbl, u'; '.join(bad)))
+    s3.polyline_rounded(route, col, width=9, offset=0.0, r_mm=260.0)
+    m = s3.P(((route[0][0] + route[1][0]) / 2.0, route[0][1] + (-5 if col is R else 9)))
+    s3.d.text(m, lbl, fill=col, font=s3.f_src, anchor='mm')
+print(u'  route/block clearance: %d routes, all clear of %d blocks, 1 turn each'
+      % (len(ROUTES), len(BLOCKS)))
+s3.callout(*(list(s3.P((380, 183))) + [[u'ГВС + ХВС под полом — трасса ВЛАДЕЛЬЦА',
                                         u'трафареты «ВОДОСНАБЖЕНИЕ» на стяжке'], B]))
 
 PIPES = [('P-H', 'G3', 0.055, +1, R, 'water', 61, u'горячая, из пола', '930d'),
