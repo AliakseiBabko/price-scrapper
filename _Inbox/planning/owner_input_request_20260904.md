@@ -3,7 +3,7 @@
 The owner offered three additional sources. **This is the worksheet, in priority order.** Answer in whatever
 form is easiest — talking it through is fine, the structure below is so nothing gets lost, not a form to fill in.
 
-**Use `_assets/wall_key_plan.png`** — the developer's detailed plan at 3×, with an **A–L × 1–12 grid**. Every
+**Use `_Drawings/review/wall_model.png (конкретная итерация wall_key_plan.png удалена 2026-09-07; в истории git)`** — the developer's detailed plan at 3×, with an **A–L × 1–12 grid**. Every
 cell is labelled in place, so a wall can be named without ambiguity: *"the wall from **E4** down to **E9**"*,
 *"the column at about **H2**"*. That removes the "on the right" problem, where the answer depends on where the
 speaker is standing.

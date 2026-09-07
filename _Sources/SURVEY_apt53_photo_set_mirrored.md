@@ -65,7 +65,7 @@ another matching number.
 
 - Store: `data/canonical/service_outlets.csv`, `electrical_existing.csv`, `wall_openings.csv`,
   `photo_positions.csv`
-- Sheets: `_assets/sheet_01_sockets.png`, `sheet_02_lighting.png`, `sheet_03_plumbing.png`
+- Sheets: `_Drawings/sheets/sheet_01_sockets.png`, `sheet_02_lighting.png`, `sheet_03_plumbing.png`
 - Canonical record: `kitchen_services_LOCATED_2026_09_07`,
   `P1_zone_LOCATED_and_sanitaryware_ANSWERED_2026_09_07`,
   `O9_glazing_width_CONFIRMED_by_measurement_2026_09_07`

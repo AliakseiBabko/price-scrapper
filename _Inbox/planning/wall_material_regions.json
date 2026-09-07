@@ -1,7 +1,7 @@
 {
   "schema_note": "Bounding boxes of the owner colour markings, detected from _Inbox/_Visual_Drop/floor_plan_basic_all_walls.jpg (1061x1112). Format: [x0,y0,x1,y1,pixel_count] in SOURCE IMAGE PIXELS. Not millimetres - the marker stroke inflates each box and no scale factor for this image has been derived. For identification only. See _Inbox/planning/concrete_wall_marking_20260904.md.",
   "source_image": "_Inbox/_Visual_Drop/floor_plan_basic_all_walls.jpg",
-  "numbered_reading": "_assets/wall_material_regions.png",
+  "numbered_reading": "_Drawings/review/wall_model.png (конкретная итерация wall_material_regions.png удалена 2026-09-07; в истории git)",
   "status": "PENDING owner confirmation - not promoted to data/canonical/current_apartment_shell.json",
   "classes": {
     "red_concrete": "concrete - structural walls and columns",
@@ -225,10 +225,10 @@
       "R1_CONFIRMED_MONOLITHIC": "Owner: \"R1 is one piece. That probably makes sense because it is a monolith, and there is a corner part which actually represents two walls for the water closet.\" So the L-shape is correct and must NOT be split - it is a single monolithic frame element forming the туалет corner."
     },
     "thermal_boundary_note": "!! Falls out of the above: because the лоджия is unheated and its own walls are thin, THE REAL THERMAL BOUNDARY on that side is the wall and door BETWEEN the flat and the лоджия - M1 (to the 9.36 room) and R8 (to the middle room). The plan already draws insulation cross-hatch on R8 лоджия face, which corroborates this. That is where the frost-free-without-heating calculation actually bites.",
-    "numbered_reading": "_assets/wall_reading_key.png (v3 - blue 1-10 confirmed, orange 11-19 added)"
+    "numbered_reading": "_Drawings/review/wall_model.png (конкретная итерация wall_reading_key.png удалена 2026-09-07; в истории git) (v3 - blue 1-10 confirmed, orange 11-19 added)"
   },
   "owner_review_round2_2026_09_04": {
-    "numbered_reading": "_assets/wall_reading_key_v4.png",
+    "numbered_reading": "_Drawings/review/wall_model.png (конкретная итерация wall_reading_key_v4.png удалена 2026-09-07; в истории git)",
     "settled": {
       "J15": "CONFIRMED as R7 | M4 - \"between R7, the concrete block, and M4, which is external wall.\"",
       "J19_position": "CONFIRMED - my visual placement of the short pier was right."
