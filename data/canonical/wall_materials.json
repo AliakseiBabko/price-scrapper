@@ -852,5 +852,20 @@
     "what_the_object_actually_is": "⚠ UNRESOLVED, and recorded as SP-K rather than named. Candidates: a 50 mm sewer branch; the hot and cold water emerging from under the floor, which the owner has said is how water reaches the kitchen; or the heating run, since the ОТОПЛЕНИЕ stencil is on the screed a metre away. The two nubs read as branch take-offs, which fits water or heating better than sewer.",
     "so_the_kitchen_sewer_is_NOT_located": "The base of the V2/P2 box is CLEAN in this photo - no stub. SS-K goes back to open, with DN50 as the size expected on function rather than measured.",
     "what_survives": "The vent grille SV-K. Re-run with the corrected floor line it gives top 2330 and bottom 2008 against the original 2334 and 2020 - essentially unchanged. Its measurement did not depend on identifying the object, only on locating two plaster edges against a floor and a ceiling."
+  },
+  "RETRACTION_the_floor_stencil_is_VODOSNABZHENIE_2026_09_07": {
+    "what_I_claimed": "Three times, across 9902, bc18 and 9e9b, that the red stencil on the screed reads \"ОТОПЛЕНИЕ\" and marks the heating pipe route.",
+    "owner": "\"What you saw was not ОТОПЛЕНИЕ but ВОДОСНАБЖЕНИЕ, and this is the positioning of the line from the WC to the kitchen area under the floor.\"",
+    "accepted": "A 6× crop is too degraded for me to read either word, so this rests on his reading - but his is the better fit: ВОДОСНАБЖЕНИЕ is 13 characters against ОТОПЛЕНИЕ’s 9, and the marks are long. And 930d settles it independently: the water pipes rise OUT OF THE FLOOR right where the stencil ends.",
+    "the_failure_mode": "!! I read a partly-legible stencil as the word I EXPECTED - the building spec mentions horizontal heating distribution, so I saw heating. That is the third instance this week of expectation-driven reading: the 110 socket, the O3 sill edge, and now this. The common thread is that in each case I had a hypothesis before I had the pixels.",
+    "what_it_changes": "The stencils mark the WATER route from the wet block to the kitchen, under the floor. So the heating distribution route is NOT recorded anywhere and remains unknown - I had believed it was, three times over."
+  },
+  "kitchen_services_LOCATED_2026_09_07": {
+    "source": "930d.jpg, apartment 53 - close to frontal at the kitchen wall, and the single most informative photo in the whole set.",
+    "sewer_SS_K": "A grey PVC pipe running HORIZONTALLY along the wall base with a SOCKET facing into the room, continuing right into a chase. Derived body 55-66 and socket 65-78, so DN50 - which confirms the owner’s correction against my retracted 110. Sits on the screed at ~50-60.",
+    "water_SW_K": "TWO pipes rising OUT OF THE FLOOR - red hot, blue cold, insulated, clamped to the wall, terminating in brass valves at 500-610 above the screed, about 92-111 apart. Exactly what the owner meant by water reaching the kitchen under the floor, and where the ВОДОСНАБЖЕНИЕ stencil leads.",
+    "vent_SV_K": "The same white louvre grille high on the boxed column, corroborating the 9e9b measurement in a third flat. Two flats now agree on the arrangement.",
+    "THE_SCALE_PROBLEM_STATED_RATHER_THAN_HIDDEN": "!! Two candidate scales in this photo disagree by 20%. Taking the visible wall top as the 2500 ceiling gives 3.005 mm/px; taking the socket faceplate as a standard 81 mm gives 2.492. Under the first, every derived size lands ~20% high and fits no standard - sewer 66, socket 78. Under the second they land near standards - sewer 55, socket 65 - which favours it, and would imply a ~430 mm downstand above that wall rather than open ceiling. I cannot separate the two and have NOT picked one. Ranges are given.",
+    "why_it_does_not_matter_much_here": "The conclusions that drive decisions survive the 20%: the sockets are at ABOVE-WORKTOP height either way (915-1105), the water valves at UNDER-SINK height either way (500-610), the sewer is at floor level either way, and the sewer is DN50 either way. Stating the range costs nothing; picking a scale to look precise would have been the same mistake as the 110."
   }
 }

@@ -1,0 +1,6 @@
+item_id,kind,room,count,height_mm,notes
+E-K-SOC,socket outlets,"кухня zone, on the wall shared with the corridor",3,915-1105,"THREE in a row at one height, roughly evenly spaced. Two read as VERTICAL DOUBLES, the right-hand one as a single. 915-1105 is ABOVE-WORKTOP height on either candidate scale, which is the robust conclusion regardless of the 20% scale question. From 930d.jpg, apartment 53. FOR REFERENCE ONLY - the owner is rewiring completely."
+E-K-LIGHT,ceiling light point,кухня zone,1,ceiling,"A cable with a lamp holder hanging from the slab, roughly a third of the way across the wall rather than at the room centre - consistent with lighting the ZONE, not the whole 25 m2 space. From 930d."
+E-C-LIGHT,ceiling light point,прихожая,1,ceiling,"A pendant point in the corridor, seen in a82a (flat 109) and 9e9b (flat 2). Present in every flat photographed."
+E-C-SOC,socket and switch boxes,прихожая,several,various,"Boxes set into the corridor walls in a82a, both beside the doorways and along the run. Positions NOT measured - first-fix presence recorded, not geometry."
+E-R-SOC,socket outlets,middle room and 9.36 room,2 seen,low,Low-level sockets visible in kids_room_window.jpg (two on one wall) and bc18.jpg (one). Heights NOT measured - those photos are oblique and no independent scale is in the wall plane.
