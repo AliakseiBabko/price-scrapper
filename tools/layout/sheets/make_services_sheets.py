@@ -219,9 +219,8 @@ s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'water'), u'Вывод
 s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'sewer'), u'Вывод канализации DN50', MG)
 s3.legend(lambda x, y, c: s3.d.line([(x - 26, y), (x + 26, y)], fill=MG, width=9),
           u'Лежак канализации DN50 по низу стены', MG)
-s3.legend(lambda x, y, c: s3.d.line([(x - 26, y), (x + 26, y)], fill=MG, width=14),
-          u'Лежак канализации DN110 (магистраль)', MG)
-s3.legend(lambda x, y, c: s3.sym_riser(x - 20, y, c, dn=True), u'Стояк (пол–потолок)', MG)
+s3.legend(lambda x, y, c: s3.sym_riser(x - 20, y, c, dn=True),
+          u'Стояк канализации DN110 — транзит (их ДВА)', MG)
 s3.legend(lambda x, y, c: s3.sym_valve(x - 20, y, c), u'Запорный вентиль', R)
 s3.legend(lambda x, y, c: s3.d.rectangle([x - 22, y - 16, x + 22, y + 16], outline=c, width=6),
           u'Стояк / сантехблок', B)
@@ -276,28 +275,26 @@ for bid, (x0, y0, x1, y1), col in (('V1', (67, 70, 139, 111), OR), ('V2', (636, 
 # inventing an element, which is the rule the З1/З2 voids broke.
 SEWER = [(707.22765, 69.9953), (672, 69.9953)]
 
-# THE MAIN DN110 ЛЕЖАК, added 2026-09-07 on the owner. This ANSWERS the question
-# the previous sheet had to leave open — the kitchen DN50 does reach the P1
-# stack, and he described the corridor: “behind the V2 venting shaft, and then
-# behind the water closet, somewhere in the middle between the side of venting
-# shaft one and the wall of the water closet.”
+# RETRACTED 2026-09-07, same day it was drawn. I built a 6.3 m DN110 лежак from
+# P2 to P1 out of the owner’s words “behind the V2 venting shaft, AND THEN behind
+# the water closet”. He was naming TWO PLACES, not describing a route. His
+# correction: “two sewage pipes — one behind the water closet and another one
+# behind the second vent shaft, next to the kitchen … the transit from the top of
+# the building to the bottom.” They are two STACKS, both DN110, each running the
+# full height of the building. There is no horizontal main across this flat.
 #
-# That one sentence pins BOTH legs, and I checked before drawing rather than
-# after:
-#   midway between V1’s EAST side (x=139) and G4C’s west face (236.9) = 187.9
-#   midway between V1’s SOUTH side (y=111) and G4b’s north face (192.87) = 151.9
-# so x=188 / y=152, 401 mm clear each way on the second leg. And y=152 lands
-# INSIDE P1’s y-span (110..192), i.e. the corridor he describes arrives at the
-# stack on its own — which is the corroboration, not my arithmetic.
-#
-# It starts in the P2 band (y 71..91), directly north of V2 — “behind the V2
-# venting shaft” — so P2 is where the kitchen branch and the main run meet.
-MAIN = [(656, 81), (188, 81), (188, 152), (87, 152)]
+# What I did wrong is not the reading — it is that the reading FIT TOO WELL. Two
+# midpoints from one sentence both landed on my route, and y=152 landed inside
+# P1’s span, and I called that corroboration. It was not: a 250 mm-wide corridor
+# between two fixed obstacles has a midline whatever runs along it, and P1 spans
+# 80 px so almost any y hits it. I checked BEFORE drawing and still fooled
+# myself, because I tested whether the geometry ALLOWED my route instead of
+# whether the evidence REQUIRED it. Consequence: the 125 mm screed-fall warning
+# and the G4C penetration were both consequences of an element that is not there.
 
 ROUTES = [(u'ГВС', R, [(90, 180), (720.49225, 180), (720.49225, 69.9953)]),
           (u'ХВС', B, [(90, 186), (730.70995, 186), (730.70995, 69.9953)]),
-          (u'DN50', MG, SEWER),
-          (u'DN110', MG, MAIN)]
+          (u'DN50', MG, SEWER)]
 
 # no routed segment may cross a shaft or a plumbing block. The junction check
 # taught this — a check that cannot fail is not a check.
@@ -308,12 +305,11 @@ for lbl, col, route in ROUTES:
     # not by loosening the tolerance until the check stops complaining.
     # each route is exempted only from the block it TAKES OFF FROM or RUNS
     # INTO - by name, not by loosening the tolerance until the check goes quiet.
-    conn = ('P1', 'P2') if route is MAIN else ('P2',) if col is MG else ('P1',)
+    conn = ('P2',) if col is MG else ('P1',)
     bad = route_block_conflicts(route, BLOCKS, clear_mm=60.0, connects=conn)
     if bad:
         raise SystemExit(u'%s route crosses a service block: %s' % (lbl, u'; '.join(bad)))
-    s3.polyline_rounded(route, col, width=14 if route is MAIN else 9,
-                        offset=0.0, r_mm=260.0)
+    s3.polyline_rounded(route, col, width=9, offset=0.0, r_mm=260.0)
     if col is not MG:   # the sewer run is short; its label would sit on the block
         m = s3.P(((route[0][0] + route[1][0]) / 2.0, route[0][1] + (-5 if col is R else 9)))
         s3.d.text(m, lbl, fill=col, font=s3.f_src, anchor='mm')
@@ -324,9 +320,9 @@ s3.callout(*(list(s3.P((380, 183))) + [[u'ГВС + ХВС под полом — 
 # was “продолжение НЕ ЗАФИКСИРОВАНО” — the owner has now answered it, so the
 # open question is closed and the note says what it connects to instead.
 s3.callout(*(list(s3.P((684, 70))) + [[u'Лежак DN50 уходит за шахту — 930d',
-                                       u'врезка в магистраль DN110 — зона P2,',
-                                       u'точка НЕ ЗАФИКСИРОВАНА',
-                                       u'трасса DN110 — СО СЛОВ ВЛАДЕЛЬЦА'], MG, (-380, 640)]))
+                                       u'врезка в стояк SS-K2 за шахтой V2 —',
+                                       u'второй транзитный стояк (владелец)',
+                                       u'горизонтальной магистрали по квартире НЕТ'], MG, (-380, 640)]))
 
 # ORDER CORRECTED 2026-09-07 by the owner: in 930d the sewer socket is CLOSER
 # TO THE VENTILATION SHAFT than either water outlet. I had it as the eastmost
@@ -372,37 +368,11 @@ s3.callout(mx + 620, my + 150, [u'ВЫВОДЫ НА СЕВЕРНОЙ СТЕНЕ 
                     u'P-C  ХВС (холодная)     H=61 см',
                     u'канализация — БЛИЖЕ ВСЕГО К ШАХТЕ (владелец)',
                     u'шаг 100/100 мм — справочный'], B)
-# ============ ТОЧКИ ЗАПОРНЫХ ВЕНТИЛЕЙ — ИХ ДВЕ ============
-# Owner, 2026-09-07: “we have one input for water, hot and cold, but we have TWO
-# switch points — one is [the] water closet, another one behind venting shaft
-# number two, which is closer to the kitchen zone. There are two separate
-# tubes.”
-#
-# So: ONE water entry, TWO shut-off nodes, and ГВС/ХВС are two separate pipes
-# throughout — the nodes are not interconnected. I had drawn only the туалет
-# node, which made it look like the single point of isolation for the flat.
-#
-# ⚠ “BEHIND shaft V2” is placed on its WEST side, i.e. the side hidden from the
-# kitchen, which is the reading that fits “closer to the kitchen zone” for a
-# node you reach from the прихожая. If he meant north of it, inside the wall
-# line, this moves — the SIDE is flagged, not asserted.
-VALVE2 = [('SW-K-V-H', 620, 77, R, u'ГВС — второй запорный вентиль'),
-          ('SW-K-V-C', 620, 90, B, u'ХВС — второй запорный вентиль')]
-for iid, bx, by, col, nt in VALVE2:
-    px, py = s3.P((bx, by))
-    s3.sym_valve(px, py, col)
-    REVIEW.append({'item_id': iid, 'kind': 'shut-off valve, kitchen-side node',
-                   'wall': 'at V2/P2', 'gang': '-', 'height_cm': '',
-                   'source_photos': u'владелец', 'photo_shows': nt,
-                   'position_basis': u'OWNER stated the node exists behind V2; '
-                                     u'WHICH SIDE of the shaft is my reading, to confirm',
-                   'owner_verdict': '', 'owner_correction': ''})
-s3.callout(*(list(s3.P((620, 84))) + [[u'ВТОРОЙ УЗЕЛ ЗАПОРНЫХ ВЕНТИЛЕЙ',
-                                       u'за шахтой V2, ближе к кухне — владелец',
-                                       u'ввод ВОДЫ ОДИН, а узлов отключения ДВА:',
-                                       u'второй — в туалете (P1). Узлы между собой',
-                                       u'НЕ связаны: ГВС и ХВС — две отдельные трубы',
-                                       u'⚠ СТОРОНА шахты — моё чтение, уточнить'], R, (-260, 700)]))
+# The SECOND VALVE NODE is RETRACTED too, drawn and withdrawn the same day.
+# I heard “two switch points” as two valve groups. Owner: “only ONE valve node,
+# [in] the water closet” — the two things behind V2 and behind the туалет are the
+# two SEWER STACKS, which is what he had been telling me all along. “Switch
+# point” was my word, and I built a fitting out of it.
 
 # ============ P1, САНТЕХБЛОК В ТУАЛЕТЕ ============
 # The owner: “you can directly draw another outlet for both hot and cold water
@@ -415,14 +385,24 @@ s3.callout(*(list(s3.P((620, 84))) + [[u'ВТОРОЙ УЗЕЛ ЗАПОРНЫХ 
 #
 # Heights are the CSV’s: SW-B meters ~1380, valves ~1630, the two sewers and
 # the insulated riser floor to ceiling.
-P1SVC = [('SS-B', 70, 119, MG, 'riser', u'стояк канализации DN110', 'ade6'),
-         ('SW-B-H', 70, 134, R, 'valve', u'ГВС: стояк, счётчик H=138, вентиль H=163', 'ade6'),
-         ('SW-B-C', 70, 146, B, 'valve', u'ХВС: стояк, счётчик H=138, вентиль H=163', 'ade6'),
-         ('SH-B', 70, 172, GY, 'riser', u'стояк в изоляции — НАЗНАЧЕНИЕ НЕ ПОДТВЕРЖДЕНО', 'ade6')]
+# ARRANGEMENT per the owner 2026-09-07: “the sewage pipe is in the middle
+# approximately between the walls, and the valve node is kind of closer to the
+# venting shaft.” V1 sits directly north of P1, so the valves go north (nearest
+# V1) and the stack sits near the mid-line between R1a’s south face (69.8) and
+# G4b’s north face (192.87), i.e. y ≈ 131. SH-B keeps the south end.
+P1SVC = [('SW-B-H', 70, 114, R, 'valve', u'ГВС: стояк, счётчик H=138, вентиль H=163', 'ade6'),
+         ('SW-B-C', 70, 122, B, 'valve', u'ХВС: стояк, счётчик H=138, вентиль H=163', 'ade6'),
+         ('SS-B', 70, 133, MG, 'riser', u'стояк канализации DN110 — транзит по всей высоте дома', 'ade6'),
+         ('SH-B', 70, 165, GY, 'riser', u'стояк в изоляции — НАЗНАЧЕНИЕ НЕ ПОДТВЕРЖДЕНО', 'ade6'),
+         # the SECOND sewer stack — behind V2, on the kitchen side. Owner: “two
+         # sewage pipes … the transit from the top of the building to the bottom.”
+         # This is what the kitchen DN50 лежак runs into, and it is why no
+         # horizontal main across the flat was ever needed.
+         ('SS-K2', 656, 81, MG, 'riser', u'стояк канализации DN110 за шахтой V2 — второй транзитный стояк', u'владелец')]
 for iid, bx, by, col, kind, nt, src in P1SVC:
     px, py = s3.P((bx, by))
     if kind == 'riser':
-        s3.sym_riser(px, py, col, dn=(iid == 'SS-B'))
+        s3.sym_riser(px, py, col, dn=iid.startswith('SS-'))
     else:
         s3.sym_valve(px, py, col)
     REVIEW.append({'item_id': iid, 'kind': 'service riser / valve, P1', 'wall': 'P1',
@@ -432,21 +412,17 @@ for iid, bx, by, col, kind, nt, src in P1SVC:
                                      'arrangement WITHIN the block indicative',
                    'owner_verdict': '', 'owner_correction': ''})
 s3.callout(*(list(s3.P((87, 150))) + [[u'P1 — САНТЕХБЛОК (ade6)',
-                                       u'SS-B  стояк канализации DN110',
+                                       u'SS-B  стояк канализации DN110 — транзит',
+                                       u'      сверху донизу дома; примерно по середине',
+                                       u'      между стенами; вентили — ближе к шахте V1',
                                        u'SW-B  ГВС + ХВС: счётчики H=138,',
                                        u'      вентили H=163',
                                        u'SH-B  стояк в изоляции — не подтверждён',
                                        u'      как отопление',
-                                       u'взаимное расположение внутри блока —',
-                                       u'справочное'], B, (170, 560)]))
+                                       u'УЗЕЛ ЗАПОРНЫХ ВЕНТИЛЕЙ — ТОЛЬКО ОДИН,',
+                                       u'здесь, в туалете (владелец)'], B, (170, 560)]))
 
-# the DN110 must pass through G4C (120 mm block, x=243) to get from the kitchen
-# side into the туалет. That is ordinary for a лежак but it is a real
-# penetration and belongs on the sheet, not in my head.
-s3.callout(*(list(s3.P((243, 81))) + [[u'ПРОХОД DN110 через G4C (блок 120 мм)',
-                                       u'гильза / штраба — учесть в работах',
-                                       u'длина лежака ≈ 6.3 м; при уклоне 2%',
-                                       u'перепад ≈ 125 мм — ВЛИЯЕТ НА СТЯЖКУ'], MG, (0, 470)]))
+
 
 for iid, bx, by, nt, src in (('V-1', 103, 92, u'решётка вытяжки H=218', '930d + 9e9b'),
                              ('V-2', 656, 128, u'решётка вытяжки H=218', '9e9b')):
