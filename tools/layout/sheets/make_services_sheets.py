@@ -21,20 +21,30 @@ NOPH = u'НЕТ ФОТО'
 
 # id, wall, t, face, gang, H cm, source photo ids, what the photo shows
 SOCK = [
- ('S1', 'G3', 0.18, +1, 2, 100, '930d', u'ряд из 3 розеток над столешницей, H=100'),
- ('S2', 'G3', 0.46, +1, 2, 100, '930d', u'то же, средняя в ряду'),
- ('S3', 'G3', 0.74, +1, 1, 100, '930d', u'то же, одиночная справа'),
- ('S4', 'G5', 0.30, +1, 1, 30, 'bdc7', u'одна розетка на длинной стене (зеркальная кв.)'),
- ('S5', 'MC', 0.06, -1, 1, 30, 'add8', u'розетка у оконного конца (зеркальная кв.)'),
+ # КУХНЯ-ГОСТИНАЯ. The north-wall row is confirmed twice: 930d shows three at
+ # H=100 above the worktop, a89d shows the same three at mid height on the far
+ # wall. The third of them is the HOB line - see POWER below.
+ ('S1', 'G3', 0.16, +1, 2, 100, '930d + a89d', u'ряд из 3 розеток над столешницей, H=100'),
+ ('S2', 'G3', 0.42, +1, 2, 100, '930d + a89d', u'то же, средняя в ряду'),
+ # the EAST long wall - three low boxes in a89d plus one in add8 (their WEST wall)
+ ('S4', 'R2', 0.55, +1, 1, 30, 'a89d', u'низкая розетка на длинной стене (зеркальная кв.)'),
+ ('S5', 'G5', 0.28, +1, 1, 30, 'a89d + add8', u'то же, вторая'),
+ ('S14', 'G5', 0.68, +1, 1, 30, 'a89d', u'то же, третья'),
+ ('S15', 'R7', 0.45, +1, 1, 30, 'add8', u'низкая розетка ближе к окну'),
+ ('S16', 'MC', 0.06, -1, 1, 30, 'add8', u'розетка у откоса окна, вне зоны радиатора'),
+ # СРЕДНЯЯ КОМНАТА
  ('S6', 'G8', 0.30, -1, 1, 30, 'b6f0', u'2 низкие розетки в средней комнате; СТЕНА не определена'),
  ('S7', 'G8', 0.72, -1, 1, 30, 'b6f0', u'то же'),
+ ('S12', 'MB', 0.08, -1, 1, 30, NOPH, u'—'),
+ # КОМНАТА 9.36
  ('S8', 'G4a', 0.34, -1, 1, 30, '9db4 + bc18', u'розетки на боковых стенах комнаты 9.36'),
  ('S9', 'R6', 0.50, -1, 1, 30, '9db4', u'то же, вторая стена'),
- ('S10', 'R2', 0.55, +1, 1, 30, NOPH, u'—'),
- ('S11', 'G7', 0.35, +1, 1, 30, NOPH, u'—'),
- ('S12', 'MB', 0.08, -1, 1, 30, NOPH, u'—'),
  ('S13', 'MA', 0.42, -1, 1, 30, NOPH, u'—'),
 ]
+
+# СИЛОВАЯ розетка - its own list and its own symbol
+POWER = [('S3', 'G3', 0.70, +1, 100, '930d + a89d',
+          u'третья в ряду, у электроплиты — владелец: НЕ 220 В, вероятно 380 В')]
 
 # id, wall, opening, jamb, face, gang, H, sources, what the photo shows
 SWDEF = [
@@ -46,7 +56,11 @@ SWDEF = [
  # there, and beyond the far jamb G4d ends 20 mm later. The switch goes on
  # G8 instead - immediately inside the room, past R4's column.
  ('W5', 'G8', None, 0.14, +1, 1, 90, NOPH, u'— (на G8: у G4d нет места у проёма)'),
- ('W6', 'G7', None, None, -1, 2, 90, NOPH, u'—'),
+ # НЕ на G7: владелец - на стене между средней комнатой и гостиной
+ # нет ни выключателей, ни розеток. Выключатель гостиной - у проёма
+ # O10, единственного входа в помещение.
+ ('W6', 'R5', None, 0.30, +1, 2, 90, u'вывод — у проёма O10',
+  u'— (выведено логикой: O10 — единственный вход)'),
 ]
 
 LIGHT = [
@@ -80,6 +94,7 @@ s = Sheet(u'Розетки и выключатели', 1)
 s.f_src = s.d and __import__('sheet_lib').F(21)
 s.legend(lambda x, y, c: s.sym_socket(x - 20, y, 1, 0, c, 1), u'Розетка стандартная', G)
 s.legend(lambda x, y, c: s.sym_socket(x - 20, y, 1, 0, c, 2), u'Розетка двойная', G)
+s.legend(lambda x, y, c: s.sym_power(x - 20, y, 1, 0, c), u'СИЛОВАЯ розетка (плита, 380 В?)', R)
 s.legend(lambda x, y, c: s.sym_switch(x - 20, y, 1, 0, c, 1), u'Выключатель 1-клавишный', GY)
 s.legend(lambda x, y, c: s.sym_switch(x - 20, y, 1, 0, c, 2), u'Выключатель 2-клавишный', GY)
 s.note([u'H = высота от чистого пола, см.', u'',
@@ -112,6 +127,19 @@ for iid, wid, t, side, gang, h, src, shows in SOCK:
                    else 'photo of another flat, horizontal position indicative',
                    'owner_verdict': '', 'owner_correction': ''})
 
+for iid, wid, t, side, h, src, shows in POWER:
+    x, y, nx, ny = on_wall(wid, t, side)
+    px, py = s.P((x, y))
+    s.sym_power(px, py, nx, ny, R)
+    s.htag(px, py, u'H=%d' % h, R, nx, ny)
+    tagsrc(s, px, py, iid, src, R)
+    s.callout(px, py, [u'СИЛОВАЯ — под электроплиту', u'НЕ 220 В, уточнить 380 В'], R)
+    REVIEW.append({'item_id': iid, 'kind': 'POWER socket (380 V?)', 'wall': wid,
+                   'gang': '-', 'height_cm': h, 'source_photos': src,
+                   'photo_shows': shows,
+                   'position_basis': 'photo of another flat; VOLTAGE from the owner, to confirm',
+                   'owner_verdict': '', 'owner_correction': ''})
+
 for iid, wid, t, side, gang, h, src, shows in SW:
     x, y, nx, ny = on_wall(wid, t, side)
     px, py = s.P((x, y))
@@ -125,8 +153,10 @@ for iid, wid, t, side, gang, h, src, shows in SW:
                    'owner_verdict': '', 'owner_correction': ''})
 
 SIDES = dict(((w, t), sd) for _i, w, t, sd, _g, _h, _sr, _sh in SOCK)
+SIDES.update(dict(((w, t), sd) for _i, w, t, sd, _h, _sr, _sh in POWER))
 SIDES.update(dict(((w, t), sd) for _i, w, t, sd, _g, _h, _sr, _sh in SW))
 s.check_openings([(w, t, h, u'розетка ' + i) for i, w, t, _s, _g, h, _sr, _sh in SOCK]
+                 + [(w, t, h, u'силовая ' + i) for i, w, t, _s, h, _sr, _sh in POWER]
                  + [(w, t, h, u'выкл. ' + i) for i, w, t, _s, _g, h, _sr, _sh in SW],
                  SIDES)
 s.save('sheet_01_sockets.png')
@@ -154,6 +184,18 @@ for iid, bx, by, nt, pend, src, shows in LIGHT:
                    'position_basis': 'NONE - chosen by me' if src == NOPH
                    else 'photo of another flat, position within the room indicative',
                    'owner_verdict': '', 'owner_correction': ''})
+px, py = s2.P((860, 330))
+s2.sym_detector(px, py, R)
+s2.callout(px, py, [u'ПОЖАРНЫЙ ИЗВЕЩАТЕЛЬ на потолке',
+                    u'переносится на лист «Безопасность»'], R)
+tagsrc(s2, px, py, 'F1', 'a89d + add8', R)
+REVIEW.append({'item_id': 'F1', 'kind': 'fire detector, ceiling', 'wall': '-',
+               'gang': '-', 'height_cm': 'ceiling', 'source_photos': 'a89d + add8',
+               'photo_shows': u'белый цилиндр на потолке, отличается от патрона',
+               'position_basis': 'photo of another flat; position within the room indicative',
+               'owner_verdict': '', 'owner_correction': ''})
+s2.legend(lambda x, y, c: s2.sym_detector(x, y, c), u'Пожарный извещатель', R)
+
 for iid, wid, t, side, gang, h, src, shows in SW:
     x, y, nx, ny = on_wall(wid, t, side)
     px, py = s2.P((x, y))

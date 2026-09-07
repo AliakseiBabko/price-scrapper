@@ -214,6 +214,30 @@ class Sheet(object):
         if ip:
             self.d.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=col)
 
+    def sym_power(self, x, y, nx, ny, col):
+        """силовая розетка - a socket symbol with THREE bars, for a 380 V /
+        high-current line. The reference album distinguishes it, and it must be
+        distinguished here: a hob line is not a 220 V socket and cannot be
+        substituted for one."""
+        r = 23
+        cx, cy = x + nx * r, y + ny * r
+        a = __import__('math').degrees(__import__('math').atan2(ny, nx))
+        self.d.arc([cx - r, cy - r, cx + r, cy + r], a - 90, a + 90, fill=col, width=7)
+        px, py = -ny, nx
+        self.d.line([(cx - px * r, cy - py * r), (cx + px * r, cy + py * r)],
+                    fill=col, width=7)
+        self.d.line([(x, y), (cx, cy)], fill=col, width=7)
+        for k in (-1, 0, 1):
+            o = k * 12
+            self.d.line([(cx + px * o, cy + py * o),
+                         (cx + px * o + nx * 17, cy + py * o + ny * 17)], fill=col, width=6)
+
+    def sym_detector(self, x, y, col):
+        """пожарный извещатель - a circle with a dot, distinct from a luminaire"""
+        r = 21
+        self.d.ellipse([x - r, y - r, x + r, y + r], outline=col, width=7)
+        self.d.ellipse([x - 7, y - 7, x + 7, y + 7], fill=col)
+
     def sym_switch(self, x, y, nx, ny, col, gang=1):
         r = 13
         cx, cy = x + nx * (r + 6), y + ny * (r + 6)
