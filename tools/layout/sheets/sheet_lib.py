@@ -38,6 +38,50 @@ f_ttl, f_leg, f_leghd, f_tag, f_ft, f_tab, f_note = (F(78), F(30), F(30), F(23, 
                                                      F(34), F(40), F(26))
 
 
+SPANS = {}
+for _r in csv.DictReader(io.open('data/canonical/wall_opening_spans.csv', encoding='utf-8')):
+    SPANS.setdefault(_r['wall_id'], []).append(
+        (_r['opening_id'], float(_r['span_lo_basic_px']),
+         float(_r['span_hi_basic_px']), float(_r['sill_height_mm'])))
+
+
+def _axis(wid):
+    """(varying-axis value at a, at b) for the wall's own run direction"""
+    ax, ay, bx, by, th = RUNS[wid]
+    return (ax, bx) if abs(bx - ax) >= abs(by - ay) else (ay, by)
+
+
+def beside_opening(wid, oid, jamb, clear_mm=170):
+    """t for a point `clear_mm` clear of one jamb of a named opening.
+
+    jamb is 'lo' or 'hi'. This is how a switch gets placed: next to the door,
+    not at an arbitrary fraction along the wall.
+    """
+    a, b = _axis(wid)
+    for o, lo, hi, sill in SPANS.get(wid, []):
+        if o != oid:
+            continue
+        d = clear_mm / MMPX
+        v = (lo - d) if jamb == 'lo' else (hi + d)
+        return (v - a) / (b - a)
+    raise KeyError('%s has no opening %s' % (wid, oid))
+
+
+def opening_conflict(wid, t, height_mm):
+    """the opening this point falls inside and must not, or None.
+
+    An item inside an opening is only wrong if it sits ABOVE that opening's
+    sill - a socket at H=30 below a 266 window sill is legitimate; a switch at
+    H=90 in a door opening is not.
+    """
+    a, b = _axis(wid)
+    v = a + (b - a) * t
+    for o, lo, hi, sill in SPANS.get(wid, []):
+        if lo <= v <= hi and height_mm > sill:
+            return o
+    return None
+
+
 def on_wall(wid, t, side):
     """point on a wall face + the outward normal. t is 0..1 along the run,
     side is +1 / -1 for which face."""
@@ -173,6 +217,17 @@ class Sheet(object):
         for t in lines:
             self.d.text((70, self.ly), t, fill=(110, 110, 110), font=f_note, anchor='lm')
             self.ly += 32
+
+    def check_openings(self, items):
+        """items = [(wall_id, t, height_mm, label)]. Raises on any clash."""
+        bad = []
+        for wid, t, h, lbl in items:
+            o = opening_conflict(wid, t, h)
+            if o:
+                bad.append('%s at H=%d on %s falls inside opening %s' % (lbl, h, wid, o))
+        if bad:
+            raise AssertionError('items inside openings: ' + '; '.join(bad))
+        print('  opening check: %d items, all clear' % len(items))
 
     def save(self, name):
         tmp = os.path.join(HERE, '_' + name)
