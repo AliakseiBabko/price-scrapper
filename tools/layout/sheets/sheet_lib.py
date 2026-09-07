@@ -334,6 +334,21 @@ class Sheet(object):
         else:
             self.d.ellipse([cx - r + 4, cy - r + 4, cx + r - 4, cy + r - 4], fill=col)
 
+    def sym_valve(self, x, y, col):
+        """a shut-off valve - the standard bow-tie, on a riser or a tail."""
+        self.reserve(x, y, 24)
+        k = 15
+        self.d.polygon([(x - k, y - k), (x, y), (x - k, y + k)], outline=col, width=5)
+        self.d.polygon([(x + k, y - k), (x, y), (x + k, y + k)], outline=col, width=5)
+        self.d.line([(x, y - k - 6), (x, y + k + 6)], fill=col, width=4)
+
+    def sym_riser(self, x, y, col, dn=False):
+        """a riser passing floor to ceiling - a circle with a vertical bar."""
+        r = 19 if dn else 15
+        self.reserve(x, y, r + 10)
+        self.d.ellipse([x - r, y - r, x + r, y + r], outline=col, width=7)
+        self.d.line([(x, y - r - 9), (x, y + r + 9)], fill=col, width=5)
+
     def polyline_rounded(self, pts, col, width=9, offset=0.0, r_mm=260.0):
         """a polyline with FILLETED corners, offset sideways by `offset` basic px.
 
