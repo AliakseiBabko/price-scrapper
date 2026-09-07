@@ -41,6 +41,18 @@ Zemstandart/Alexey Zemskov advises: **air-based pressure testing** exists as a f
 
 Zemstandart / Alexey Zemskov says **demand this test be performed in front of you before accepting rough plumbing** — otherwise a leak surfaces later as water in your own screed or the downstairs neighbor's ceiling, not as a caught defect.
 
+## ⚠️ A Filmed Test That Actually Found Leaks, and the Line That Justifies the Whole Procedure (Vasily_Sanuzel, 2024-05-10)
+
+Василий (Vasily_Sanuzel) opens the water, bleeds the air and checks for weeps at working pressure — **and then says that is not the test**:
+
+> «Конечно, при рабочем давлении это не проверка.» He then raises the system to **10 atm with a test pump** — matching this page's existing 10 atm figure exactly, from an independent trade. — Василий
+
+**The test found two leaks that working pressure had not: one at a plug and one at a threaded joint.** He stripped and rebuilt that section, **replaced the plug**, and **re-ran the whole procedure from the start** — which is the behaviour this page's rule above prescribes («the entire pressure test must be redone, not just re-checked at that one spot»), performed on camera rather than recommended.
+
+**⚠️ Worth citing precisely because it is a demonstration and not advice.** It is the second video in a row from this source in which he publishes his own failed joints; the other is the inlet-node build recorded on [[12_Engineering_and_Systems/analysis/Water_Inlet_Node_Components|Water-Inlet Node]]. **The transferable point for anyone deciding whether to bother with a pump: at working pressure this system looked fine.**
+
+[source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
+
 ## A Distinct Protocol Variant (added 2026-08-24, Round 2)
 
 Konstantin Kruglov/Ontario, real Moscow jobsite, describes a **different pressure-testing protocol** from the same broad practice: pressurize the water-supply system to **8 atm specifically** (not 10, because the manometer gauge itself may not reliably tolerate 10) and hold **30 minutes**, checking for drop or dampness; pressurize the heating system separately to **10 atm**, same 30-minute hold. This differs from the Zemstandart-sourced protocol above in both the water-side ceiling (8 vs. 10 atm) and hold duration (30 vs. 10 min) — recorded as a distinct practitioner's own variant, not merged into the numbers above, per this store's non-blending convention for numeric figures. [source: [[_Sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]

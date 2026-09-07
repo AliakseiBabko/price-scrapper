@@ -10,9 +10,42 @@ Covers PEX vs. polypropylene vs. metal-plastic, manifold-node material, the rise
 - Konstantin Kruglov/Ontario recommends: **Match the manifold node's own internal plumbing material to the downstream distribution material**: use polypropylene internally only if the whole downstream run is polypropylene; PEX internally only if downstream is PEX. **Stainless steel is the more robust choice specifically for the manifold node itself** (where many device-to-device joints exist, unlike an open PEX run's two joints total) — its cost premium over PEX is described as "not large," and it tolerates high temperature and pressure spikes well. The stated system-design principle: **the whole system is only as strong as its weakest joint** — running stainless steel throughout the entire apartment is considered unjustified overkill (expensive, and stainless joints buried in walls are undesirable when continuous PEX can avoid joints entirely). `single-account`, but internally well-reasoned.
 - Konstantin Kruglov/Ontario advises: **After a stainless-steel manifold-node installation, do a visual leak check daily for the first 2–3 weeks** — stainless fittings can loosen slightly from vibration early on; after that settling period, rely on the leak-detection system's own sensor under the manifold instead.
 
+## ⚠️ Independent Corroboration of the Stainless-Node / PEX-Distribution Split, With Sizes (Vasily_Sanuzel, 2023-10-07 and 2024-05-10)
+
+Василий (Vasily_Sanuzel) builds exactly the division Kruglov argues for above, on two separate jobs, without referencing anyone: **stainless-steel press-fit tube for the node's device-to-device connections, PEX for the runs out to the fixtures.** Two independent practitioners arriving at the same split is stronger than either account alone.
+
+- **His stated reason for stainless at the node** adds one Kruglov does not give: **a larger internal bore for a given outside diameter** than the alternatives — plus longevity and appearance. Press-fitted onto an O-ring inside the fitting and crimped with a matched die.
+- **Distribution in PEX with a sliding sleeve** («сшитый полиэтилен, надвижная гильза»), **16 mm as standard and 20 mm for the shower system** — a concrete sizing rule this page did not carry.
+- **⚠️ A clash detail worth knowing before assembly: the filter bowls had to be taken off to get the press tool in**, then refitted. Crimping needs swing room the drawn layout will not show.
+
+[source: [[_Sources/YT_M8EyOCrm0tw_sanuzel_water_inlet_unit_assembly|YT_M8EyOCrm0tw]], [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
+
 ## PEX Insulation vs. Conduit Rule (added 2026-08-24, Round 2)
 
 Konstantin Kruglov / Ontario, real Moscow jobsite, says: **if routing PEX pipe without a manufacturer-approved corrugated conduit, use at least 4mm-thick thermal insulation instead.** A developer-installed heating pipe on this jobsite used corrugated conduit without insulation — noted as possibly acceptable under that specific pipe manufacturer's own approval, and more damage-resistant, but **not a general recommendation for self-installed PEX: if you install the pipe yourself, use insulation; using conduit instead is specifically a developer choice, not a rule to copy.** [source: [[_Sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
+
+## ⚠️ Manufacturers' Own Answers — Low-Noise Soil Pipe, Axial PEX, and Why Pipes Burst Now (four exhibitors via Vasily_Sanuzel, 2024-06-03)
+
+**⚠️ Every claim in this section comes from a vendor's own representative about that vendor's own product**, collected by Василий (Vasily_Sanuzel) at a plumbers' trade meet-up from subscriber questions. Read with the tier-steering filter on. Two answers are mechanism-level and are marked as such; the figures are `vendor claim`.
+
+**Why low-noise ("white") soil pipe is quieter — the mechanism, not the marketing.** Ostendorf's technical specialist: «никаких нанотехнологий». It is **wall thickness plus density**:
+
+- **Wall thickness comparable to SML cast iron — 5.3 mm on DN110 — and the fittings carry the same thickness as the barrel**, not just the pipe.
+- **Mineralised, higher-density polypropylene**: mineral additives raise stiffness and density, so an identical nominal wall is heavier and stiffer than a lookalike. **Stiffness class SN16**, which he says exceeds even the external KG2000 system, specified for indoor use precisely to guarantee the acoustic result.
+
+**⚠️ Cast iron to plastic without adapters**: the SN system **matches SML's outside diameter**, so a jointless («безраструбный») cast-iron stack is converted by cutting, butting the plastic against the iron, and closing it with **the wide CV clamp already sold in the cast-iron range**. He calls it «одна-единственная альтернатива» to SML — `vendor claim` on exclusivity, but the dimensional compatibility is checkable.
+
+**⚠️ Axial PEX: the bend left by the coil does not matter, under stated conditions.** Elson's representative, on the observation that a pressed axial joint sits slightly off-axis: **provided the cut is square (90°) and clean, with no burrs or nicks, and the sleeve is drawn correctly, the residual bend «не влияет на соединение никак»** — «если вы сделали опрессовку, это навсегда». A checkable condition rather than reassurance.
+
+**⚠️ Euroconus across manufacturers — and the real reason for the mono-brand rule.** Mixing «теоретически… в умелых руках, скорее всего, будет работать». The recommendation to stay single-brand is then justified **by the warranty: they warrant the joint for 5 years, and only on their own complete assembly.** Recording it as **a liability boundary rather than a physical incompatibility** is what makes it usable — it tells you what you are actually giving up.
+
+**PP versus PEX, from a manufacturer's mouth** — corroborates this page's existing case: PP comes in sticks up to 4 m so **every turn is another welded fitting**, against PEX's **two connection points** manifold-to-fixture; cross-linking gives memory and better tolerance of temperature and pressure loading; **both need fixing, PP more of it.** Василий draws the conclusion aloud — more joints, more chances to get one wrong — and it is not contradicted.
+
+**⚠️ Why pipes burst now, and it reframes the risk.** Two causes given: **operating parameters exceeded** — PEX takes **18–20 bar** short-term, essentially unreachable domestically, and «если системы собраны правильно, это должно быть исключено» by the safety fittings — or, far more commonly, **mechanical damage by another trade after the pipes are laid**: «заходят бригады, там плиточники или ещё кто-то, и кто-то нечаянно уронил молоток, просверлил или порез сделал». Василий's own framing, offered and not contradicted: a burst pipe is «мнение из прошлого», from **steel corroding at the cut thread where the wall is thinnest**. → **The modern risk is a trade sequencing and protection problem, not a material problem.**
+
+**Flash/seam («облой») as an acceptance criterion**: it arises on **injection-moulded fittings**, and the manufacturer's own position is that **it is a defect they must control**, because a professional installer should not be spending time trimming it. Keep the criterion, discount the percentage.
+
+[source: [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|YT_LDeNqQL7TLQ]]]
 
 ## Polypropylene's Joint-Narrowing Defect, With a Real Demonstration (added 2026-08-19)
 

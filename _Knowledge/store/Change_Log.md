@@ -1286,3 +1286,34 @@ Two sources five days apart appear to disagree about kitchen wall units: 2021-01
 ### ⚠️ One blocker remains, and its route changed
 
 **`v0` still has no geometry.** ⚠️ **The owner states the plan images are the only source of truth — so the Homestyler-export route the skill suggests is probably unavailable, because only the REDESIGN was ever traced.** The remaining route is the skill's own fallback: **reconstruct v0's partitions from the printed dimension strings against the registered raster.** Hand work, and now the single task standing between this project and a measured layout comparison.
+
+## 2026-09-08 — Vasily_Sanuzel (@VasilySanuzel) Round 1: a single-trade channel against the vault's densest room
+
+**A new channel, triaged and trialled the same day at the user's request.** 46 videos, all fresh. A one-man bathroom/plumbing contractor in Moscow working П-44 / П-44Т / П-3 panel stock and ПИК new builds — **one trade, one room type, nothing sold.** Round scoped by format: four picks, four different formats. **4 videos, 78 new facts, yield 19.5 facts/video, 13 pages across 4 folders.** All fetches clean.
+
+### ⚠️ The finding that generalises: a format rule did not travel between channels
+
+The guest/expert pick was chosen because that format has been the **highest**-yield format in every channel this vault has processed (the @YourInteriorDes rounds turned on it). Here it came back **lowest on trustworthiness and the round's only `promotional_ratio: medium`** — because on this channel the "guests" are **four vendors answering about their own products at a trade stand**, which is claims-with-attribution, not demonstrated practice.
+
+**→ Re-test who a channel's guests actually are before importing a format rule. "Guest" is not one format; an independent practitioner and a manufacturer's rep are opposites.** On this channel the value is the **host doing the work**, and the three site videos all rate `low`.
+
+### ⚠️ A gap claim that was half wrong, and the check that would have caught it
+
+The round was partly justified on «узел ввода» being a **zero-coverage** subject. That was true of the **Russian term in `_Sources/`** and false of the vault: `12_Engineering_and_Systems/analysis/Water_Inlet_Node_Components.md` already carried ~250 lines from five channels.
+
+**→ Grep the Russian term AND the English wiki phrasing before calling a subject empty.** The round still stands, but on a different argument than the one that scoped it: what was missing was **the execution layer** — how the joints are made, what the node is modelled as before it is ordered — not the component list. The corrected claim is recorded in the source note and in the triage file.
+
+### Findings worth naming
+
+- **⚠️ The tray-height arithmetic, and it closes.** 12 cm socket above the slab + 9 cm of fall over a 3 m run = «больше 21 см»; 5 cm bought by pressing the stack down at the per-floor compensator → **16 cm achieved, «ниже уже некуда»**. `arithmetic-exact`. **The trade is now explicit: every metre the shower sits from the stack costs 3 cm of tray height** — and the component that buys the drop (the socket restorer, no bore reduction, DN50–200) was independently explained by a manufacturer in the same round.
+- **⚠️ A third position in this vault's rigid-versus-soft masonry tie argument**: stud pins into the concrete wall, **no adhesive at the junction at all**, and a deliberate gap filled with foam that bonds while remaining a movement damper. Reached independently, in exactly the light aerated material where a rigid tie is already recorded here as a cracking cause.
+- **⚠️ A working fitter puts the pressure reducer in the MANDATORY group** where every other source in this vault has it optional-but-recommended. Recorded as a live divergence rather than smoothed. **And his own count does not reconcile — «четыре вещи» against five components — so the membership is held UNRESOLVED rather than guessed.**
+- **⚠️ The post-occupancy revisit produced five defects after a year of daily use and not one is workmanship.** Two purchases, one component, one under-provisioning, and **one interlock: a lamp-lit mirror bought AFTER handover silently disabled a hygienic shower that had been wired to switch with the main lighting.** That is the round's most transferable failure mode — two sound decisions, months apart, by different people.
+- **⚠️ Why you tape a sewer socket before casting it in** — to keep **cement laitance** off the seal, **not** for tightness, and **not at all under gypsum**. A step widely done for the wrong reason, corrected by the pipe manufacturer's own technical specialist.
+- **Three self-published failures across four videos** — a weeping joint, two leaks that only a 10-atm test found, and formwork spreading under fast-setting screed. Recorded because they are the behavioural evidence behind the `low` promotional ratings, and because the fast-set formwork near-miss is the flip side of the method's own selling point.
+
+### Not carried
+
+- The **ПИК sanitary-cabin verdict** was routed as corroboration of the **position** only, explicitly flagged as unargued — one line, no mechanism.
+- **Every vendor figure** from the trade-stand video is flagged `vendor claim` where it is routed. None was checked on camera.
+- One ASR-garbled room dimension was **discarded rather than reconstructed**, and **no brand name was taken** from the 2022 source.

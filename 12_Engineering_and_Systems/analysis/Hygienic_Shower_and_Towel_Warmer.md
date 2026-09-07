@@ -10,6 +10,24 @@ Covers a specific, preventable hygienic-shower failure mode, and the case for el
 - Konstantin Kruglov/Ontario states: **Correct usage sequence, stated explicitly by the source**: open the shutoff valve → spray → release the trigger → close the shutoff valve → also bleed/release the residual pressure trapped in the hose.
 - Konstantin Kruglov/Ontario recommends: **A "vent-type" (anti-forgetfulness) hygienic-shower valve design is recommended as the practical fix for apartments**: it's physically impossible to hang the spray nozzle back on its wall holder unless the water-supply valve has been closed first, forcing the correct shutoff sequence through the fixture's own mechanical design rather than relying on the user remembering.
 
+## ⚠️⚠️ A Hygienic Shower Wired to the Light Switch — the Practice, and the Post-Occupancy Failure It Caused (Vasily_Sanuzel, Moscow, 2022-01-23)
+
+**The practice first, because this vault did not carry it**: Василий (Vasily_Sanuzel) says that as a matter of routine he **energises the hygienic shower's water supply through the main room lighting** — «обычно я подключаю включение воды на [гигиенический душ] через основное освещение» — so the valve is only live while the room light is on.
+
+**⚠️ Then, a year later, on the same job, it failed — and no part of the work was defective.** The owners chose, **after the renovation was finished**, a mirror with many built-in lamps, and now use it as the room's soft evening lighting. **With only the mirror lit, the hygienic shower does not operate.** «Не учли тот момент, что будет подобное зеркало.»
+
+> **The generalisable failure: an item bought after handover can silently disable an interlock decided at rough stage.** Two sound decisions, made months apart by different people, produce one broken fixture. — Василий, revisiting his own project
+
+**Consequences worth carrying into a specification:**
+
+- If the supply is interlocked with lighting, **the interlock must be tied to the circuit that is actually on when the fixture is used**, and a decorative or secondary light source is exactly what breaks that assumption.
+- **Ask what lighting the room will end up with, not what lighting is being installed** — mirrors, cabinet lights and plug-in sources arrive late and are nobody's rough-stage responsibility.
+- Compare the one-point-vs-two-point planning decision below: **this is a third decision on the same fixture, and it is electrical rather than plumbing.**
+
+**Same revisit, on the electric towel rail after a year**: it works, and the owners report **no noticeable electricity cost** — «никаких излишних платежей за электричество здесь не возникает, потребление достаточно мало» — which he offers as grounds not to fear electric rails. ⚠️ **Owner testimony, not a measurement**, and no figure was given; its value is that it is a year of use rather than a prediction. Read it alongside this page's own electric-vs-hydronic material below rather than as settling it.
+
+[source: [[_Sources/YT_h7JYk20m9mQ_sanuzel_bathroom_one_year_later|YT_h7JYk20m9mQ]]]
+
 ## Towel-Warmer Sustained-Run Acceptance Test (Петришин-Строй, added 2026-08-24, Round 2)
 
 Region level 2 (channel-level Moscow association only, no city named this

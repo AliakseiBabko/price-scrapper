@@ -19,6 +19,16 @@ Legacy archive-only toilet claims lack a decisive extraction-note `channel:` fie
 - **⚠️ Avoid the cheapest available toilet specifically because of ceramic-glaze quality (added 2026-08-28, Round 5)**: a bargain-tier toilet's ceramic surface stains and loses its glossy finish faster than a mid/premium unit — a distinct quality axis from size/fit and the smart-toilet feature tiers above. Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Sources/YT__XCBMJmosDk_kruglov_ideal_bathroom_10_rules|YT__XCBMJmosDk]]]
 - **"Smart" toilet tiers, cheapest to most expensive**: a **quick-release seat/lid** (low-cost, broadly-recommendable regardless of anything else) → a **bidet-function seat/lid retrofit** (cold water + dedicated 220V circuit) → a **toilet with bidet function built in** from the factory → a **full Japanese-style smart toilet** (heated seat, integrated dryer, remote control, auto open/close) at the top of the range. **If you already use (or plan to use) a hygienic shower, a built-in bidet function is redundant** — pick one or the other. **⚠️ A distinct point, Round 13 triage (added 2026-08-28)**: this is about the toilet's own bidet *function*; a fully **separate, standalone bidet fixture** (its own basin, supply/drain plumbing, and floor footprint) is a different, larger commitment — Konstantin Kruglov / Ontario calls it an irrational use of a small bathroom's limited area on space/plumbing-cost grounds alone, regardless of the function-redundancy argument above, though notes someone already accustomed to a standalone bidet may reasonably want to keep one. `single-account`, `unverified`. [source: [[_Sources/YT_JIWmxboS-oM_kruglov_16_things_never_designers_home|YT_JIWmxboS-oM]]]
 
+### ⚠️⚠️ A Pan That Flushes Badly, Found a Year After Handover — and It Was a Purchase, Not an Install (Vasily_Sanuzel, Moscow, 2022-01-23)
+
+**Post-occupancy, from the fitter revisiting his own finished bathroom after a year of daily use.** The WC pan looks right and the water runs, «но по факту плохо смывается» — **the bowl retains solids, because of its bowl form and casting.** Nothing about the installation is at fault.
+
+**The consequence is in the household's behaviour, which is what makes it evidence**: they now keep **a bin for used toilet paper** in the room — which he considers wrong in a flat, because «канализационная сеть справляется со всем», and which smells.
+
+> **His resulting rule, which he says he now gives every client: before buying a pan, watch video reviews of it or look at one in the flesh — specifically at how the bowl and its chute actually work, not at how it looks.** — Василий, Vasily_Sanuzel
+
+**⚠️ Why this belongs in front of the selection material above**: everything else on this page helps choose between good pans. This is the case where the shape you cannot see from a showroom photograph makes an otherwise perfect renovation unpleasant to live in, and it is **unfixable without replacing the fixture.** [source: [[_Sources/YT_h7JYk20m9mQ_sanuzel_bathroom_one_year_later|YT_h7JYk20m9mQ]]]
+
 ### Mixer/Faucet Finish (Round 13 triage, added 2026-08-28)
 
 Konstantin Kruglov / Ontario: avoid black, plain chrome, or white mixer

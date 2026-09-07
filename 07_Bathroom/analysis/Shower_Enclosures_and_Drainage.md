@@ -74,6 +74,49 @@ Real object, "Новая Рига" (Novorizhskoye highway corridor, Moscow regio
   component list.
 [source: [[_Sources/YT_gREGOOA2OHo_petrishin_screed_evenness_check|YT_gREGOOA2OHo]]]
 
+### ⚠️⚠️ What a Shower Tray Costs in Height — the Arithmetic, Worked (Vasily_Sanuzel, 2024-05-10)
+
+**This vault has plenty of rules about tray height and this is the first source that shows the sum.** Василий (Vasily_Sanuzel), building a tray in a ПИК new-build where «каждый сантиметр на счету»:
+
+| Step | Figure |
+| :--- | :--- |
+| Top of the existing drain socket above the floor slab, as found | **just over 12 cm** |
+| Distance from the stack to the shower | **3 m** |
+| Fall required over that run, at 3 cm/m | **9 cm** |
+| **→ Tray height if nothing is done** | **"больше 21 см" — and he calls it многовато** |
+| Gained by dropping the stack socket (below) | **5 cm** |
+| **Tray height actually achieved** | **"чуть больше 16 см"** |
+
+`arithmetic-exact`: 12 + 9 = 21, 21 − 5 = 16. **The stated figures close**, which is what makes this a worked example rather than an anecdote — and it makes the trade explicit: **every metre the shower sits away from the stack costs 3 cm of tray height.** A tray "problem" found at tiling is usually a stack decision made weeks earlier; see [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Rough Plumbing Sequencing]].
+
+**The technique that bought the 5 cm**: every floor's stack carries a compensator, and he **pressed down on the pipe to drop the socket below its as-found height**, then reworked the second stack the same way until its tee came out at the height a **wall-hung WC** needs. **⚠️ And he states the limit honestly — «ниже уже некуда».** 16 cm is what a tray cost in this flat; it is not a claim that a flush tray was available.
+
+**His standard tray build-up, «поддоны я почти всегда делаю именно таким подходом»:**
+
+1. Bulk the height out in **block or brick**.
+2. A **fast-setting screed** to level.
+3. The finishing screed carrying the **fall («разуклонка»)** — perimeter held one level **above** the drain, with a sloped "envelope" («конверт») inside it. Done in **one day** here with a fast-setting Litokol product.
+
+**Stated reason for the fast-setting materials**: waterproofing and tile can follow **within about a day**, compressing the wet-work critical path.
+
+- **Formwork from plasterboard wrapped in tape so nothing sticks**, propped with brick, struck after 2 days.
+- **⚠️ The formwork began to spread under the weight of the screed, on camera.** «Я не сразу увидел… чуть не встрял на полную переделку, ведь состав реально быстро схватывается» — he had to add props in a hurry. **The speed that makes the method attractive is exactly what makes a formwork failure unrecoverable**, and he shows it in one shot: where he had just finished, the mix was still workable; where he started, it was already stone. **Over-prop fast-setting formwork.**
+- **Beacons set on screw heads with clamps («клеймеры»)** — screws driven to height, the clamp bent round the beacon and pushed onto the screw head to pull the two together; sets beacons fast enough to pour immediately.
+- **The drain is built into the wall** on this job. He calls it an interesting solution and expects it to look good — **no performance claim made**, so treat it as a placement he used, not one he validated.
+
+[source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
+
+### ⚠️ A 90 × 90 Shower and a Cast-Marble Tray, Inspected After a Year of Daily Use (Vasily_Sanuzel, Moscow, 2022-01-23)
+
+The same practitioner, revisiting a different finished bathroom **one year after handover** — the rare case where an enclosure claim comes with service data attached.
+
+- **90 × 90 cm shower, with a niche formed inside it.** Owner feedback after a year: **slightly tight**, and the niche is already full of bottles. **His judgement: 90 × 90 is the minimum size that is comfortable to use**, and the niche is what makes that size workable at all. A concrete floor under this page's existing clearance-sensitivity material.
+- **Cast-marble («литьевой мрамор») tray, used daily for a year: «как новое».** Specifically — **it has not sagged or settled, and the sealant has not lifted.** He describes the material as warm to the touch, strong, and true in its geometry.
+- **The glass enclosure still slides easily and is easy to keep clean** — directly against the fear he names at the start, that shower enclosures degrade in use: «многие люди боятся душевые…».
+- **The wall-mounted mixer with an integral shelf is genuinely used as a shelf while showering** — small, but validated by use rather than proposed.
+
+[source: [[_Sources/YT_h7JYk20m9mQ_sanuzel_bathroom_one_year_later|YT_h7JYk20m9mQ]]]
+
 ## ⚠️ Shower Floor Slope and Linear-vs-Centre Drain (Игорь Краснов, added 2026-09-01)
 
 Krasnov states this rule twice across two videos in the same round (plumbing-mistakes and bathroom-mistakes) with matching figures — reconciled here as one entry rather than duplicated. [sources: [[_Sources/YT_JNInBkbEDHk_krasnov_plumbing_mistakes|JNInBkbEDHk]], [[_Sources/YT_ThgEv7FWNeE_krasnov_bathroom_cheap_9things|ThgEv7FWNeE]]]

@@ -106,6 +106,16 @@ Direct continuation of the DIY screed build above (episode #18) — this covers 
 
 [source: [[_Sources/YT_kXGYTsBTKj8_sidorik_self_leveling_floor_ep27|kXGYTsBTKj8_sidorik_self_leveling_floor_ep27]]]
 
+### Datum Markers Instead of Beacons for a Thin Levelling Pour (Vasily_Sanuzel, 2024-05-10)
+
+Василий (Vasily_Sanuzel) pours a **thin self-levelling layer over an underfloor-heating cable** in a panel building, and uses **datum markers («реперные маячки») rather than screed beacons** to control it: each marker is **set by laser and cut off at the required height**, so **the top of the marker shows the level to pour to — and, read afterwards, shows where the pour went over or under.** «Использую их постоянно.»
+
+**The context that makes them worth it**: «как часто бывает в панельном строительстве, перепады высот могут быть существенные» — significant level differences are normal in panel construction, which is what forces a levelling layer in the first place. **Directly relevant to this project's own building.**
+
+Same job: the heating cable was **bought as mats and then separated from its mesh**, bonded down with **thermal adhesive**, because laying the mesh is awkward.
+
+[source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
+
 ### ⚠️⚠️ Skipping the Levelling Compound — a Corner That CAN Be Cut, With the Exact Three Defects (Александр Синчуков, 2022-10-04)
 
 **This page has the technique. What it has not had is "what happens if you skip it" — and here it is, first-person, with informed consent:**

@@ -504,3 +504,7 @@ cl0LIAVZUjI
 # The id below is therefore a REAL processed entry. Do NOT attempt a pipeline fetch - it will still fail.
 Phk79uKT7rA
 # UNFETCHABLE 3y-gA7A6QJ4 - no Russian caption track (manual or auto) probed 2026-09-03; NOT processed, see _Inbox/planning/yourinteriordes_channel_triage_20260903.md
+M8EyOCrm0tw
+z0hcMY5PYoc
+LDeNqQL7TLQ
+h7JYk20m9mQ

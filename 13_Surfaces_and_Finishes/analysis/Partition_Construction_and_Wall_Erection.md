@@ -59,6 +59,26 @@ Split out of `Walls_and_Paint.md` on 2026-08-31, when that page reached 921 line
 - **Wall-tie/hanger spacing to an adjoining structural wall: every second course, using flexible ties, never rigid angle brackets** — flexible ties absorb minor building settlement without cracking the partition; rigid brackets don't. [source: [[_Sources/YT_Qs_FxXdsq40_masonry_glue_foam_technique_260|Qs_FxXdsq40_masonry_glue]]]
 - **Top-of-wall-to-ceiling gap treatment**: ≤2.5cm, foam directly with standard mounting foam (explicitly distinct from block-glue-foam — don't confuse the two products); larger gaps get blocks cut down first, then foamed. [source: [[_Sources/YT_Qs_FxXdsq40_masonry_glue_foam_technique_260|Qs_FxXdsq40_masonry_glue]]]
 
+### ⚠️ A Third Tie-In Method: Stud Pins Plus a Deliberate Foam Movement Gap (Vasily_Sanuzel, 2024-05-10)
+
+Василий (Vasily_Sanuzel) ties aerated block to a concrete wall **without any adhesive at the junction at all**:
+
+- **Every course is pinned to the concrete wall** with a length of **stud («шпилька») set into a pre-drilled hole** and bedded into the block joint.
+- **No adhesive is applied between the wall and the blocks.** A gap is deliberately left, and **filled afterwards with foam**, around the whole perimeter of the masonry.
+
+> The mechanism, as he states it: the foam **bonds the masonry to the wall while remaining a damper layer** for movement, because the two materials expand differently with temperature. — Василий
+
+**⚠️ This is a third position in the tie-in argument this vault already carries**, and it is worth reading against the other two: [[07_Bathroom/analysis/Structure_and_Framing|Structure & Framing]] records rigid metal-angle ties as correct for dense silicate block but a named cracking cause in lighter aerated/foam concrete, where a *soft* flexible hanger is prescribed instead. **Василий is working in exactly that lighter material and arrives at the same principle by a different route** — a pin that locates without clamping, plus a compressible joint. The three accounts agree that the tie must not be rigid in aerated block; they differ only in hardware.
+
+**He extends the same logic to the plaster coat**, separating it from the walls with a damper around the perimeter «по аналогии с пенным швом» — «ничего не будет давить ни на стены, ни на штукатурку, соответственно и трещины не появятся». ⚠️ He explicitly hedges this one as his own reasoning («мне кажется, это логичной операцией»), so carry it as a practitioner's rationale rather than a rule.
+
+**Two preparation rules from the same build**, both about what the blocks sit on:
+
+- **Cut back excess plaster and screed before laying**, so the blocks bear **directly on the structural wall and the floor slab** rather than on a finish layer.
+- **A fast-setting compound for the first course only**, so the wall can be carried on the same day instead of waiting on the bed to gain strength — the first course «задаёт всё направление» and is set to a laser plane.
+
+[source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
+
 ## Layout Marking, Squareness and Wall-Plane Alignment
 
 ### Layout Marking & Hard/Flexible-Dimension Erection Methodology — per Zemskov/Zemstandart (added 2026-08-19)

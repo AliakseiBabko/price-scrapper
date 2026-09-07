@@ -68,6 +68,14 @@ trip. [source: [[_Sources/YT_NjOkuREH8lI_petrishin_grout_selection_personal|NjOk
   design lever, not just a match-or-clash binary choice.
 - [source: [[_Sources/YT_Rm0aHk4flxc_petrishin_finishing_materials_shopping|Rm0aHk4flxc]]]
 
+## Silicone in the Internal Corners — With a One-Year Outcome Attached (Vasily_Sanuzel, Moscow, 2022-01-23)
+
+**The technique is not new; the verification is.** Revisiting his own bathroom after a year of daily use, Василий points at the wall tile — nothing cracked anywhere — and attributes the internal corners specifically to having used **silicone grout in them** «как раз для того, чтобы она не потрескалась и выглядела [аккуратно]».
+
+**⚠️ Worth citing for the check rather than the rule**: this vault holds several accounts of what to put in a movement corner, and this is the one that comes back a year later and reports the corner intact. The same visit found the room's other failures were **purchases, not workmanship** — see [[07_Bathroom/analysis/Toilets_and_Hygienic_Shower|Toilets & Hygienic Shower]].
+
+[source: [[_Sources/YT_h7JYk20m9mQ_sanuzel_bathroom_one_year_later|YT_h7JYk20m9mQ]]]
+
 ## Grout-Joint Water/Mold Protection ("Impregnation") Technique (Петришин-Строй, added 2026-08-24, Round 12)
 
 Short TV-style tip clip (confirmed uploaded by the Petrishin-Stroi channel
