@@ -15,6 +15,14 @@ REPO = os.path.dirname(os.path.dirname(os.path.dirname(
 os.chdir(REPO)
 HERE = os.path.join(REPO, '_Drawings', 'sheets')
 MMPX = 9.789
+JAMB_CLEAR_MM = 100.0  # a symbol this close to a jamb is not buildable -
+                       # the MB socket read 'clear' at 59 mm from O2
+STANDOFF_MM = 95.0   # the symbol's flat side sits this far off the modelled
+                     # face, bridged by its stem - the reference album draws
+                     # symbols clearly OUTSIDE the wall with a short stem to
+                     # it. At 30 mm they still read as embedded, because a
+                     # socket symbol is ~140 mm deep at this scale and the
+                     # plan's own line weight is not the modelled thickness
 S = 3
 PAD_L, PAD_T, PAD_R, PAD_B = 660, 200, 90, 150
 
@@ -63,22 +71,40 @@ def beside_opening(wid, oid, jamb, clear_mm=170):
             continue
         d = clear_mm / MMPX
         v = (lo - d) if jamb == 'lo' else (hi + d)
-        return (v - a) / (b - a)
+        t = (v - a) / (b - a)
+        if not (0.0 <= t <= 1.0):
+            raise AssertionError(
+                'beside_opening(%s, %s, %s) gives t=%.3f - OFF THE END OF THE '
+                'WALL. There is not %.0f mm of wall beyond that jamb; use the '
+                'other one.' % (wid, oid, jamb, t, clear_mm))
+        return t
     raise KeyError('%s has no opening %s' % (wid, oid))
 
 
 def opening_conflict(wid, t, height_mm):
-    """the opening this point falls inside and must not, or None.
+    """the opening this point clashes with, or None.
 
-    An item inside an opening is only wrong if it sits ABOVE that opening's
-    sill - a socket at H=30 below a 266 window sill is legitimate; a switch at
-    H=90 in a door opening is not.
+    Two ways to clash, and the second one cost a round of corrections:
+
+    - ABOVE the sill, the opening itself is in the way. A switch at H=90 in a
+      door opening (sill 0) is impossible.
+    - BELOW a WINDOW sill the space is not free either, because every window
+      in this flat has a RADIATOR under it - confirmed in every photograph.
+      So a socket at H=30 under a 266 sill is blocked too, even though the
+      generic rule would allow it. The owner caught exactly this on MC.
     """
     a, b = _axis(wid)
     v = a + (b - a) * t
     for o, lo, hi, sill in SPANS.get(wid, []):
-        if lo <= v <= hi and height_mm > sill:
-            return o
+        if lo <= v <= hi:
+            if height_mm > sill:
+                return o                      # in the opening itself
+            if sill > 0:
+                return o + ' (radiator below the sill)'
+        else:
+            d = min(abs(v - lo), abs(v - hi)) * MMPX
+            if d < JAMB_CLEAR_MM:
+                return '%s (only %.0f mm from its jamb)' % (o, d)
     return None
 
 
@@ -90,7 +116,7 @@ def on_wall(wid, t, side):
     L = math.hypot(bx - ax, by - ay)
     ux, uy = (bx - ax) / L, (by - ay) / L
     nx, ny = -uy * side, ux * side
-    off = th / 2.0 / MMPX
+    off = (th / 2.0 + STANDOFF_MM) / MMPX
     return x + nx * off, y + ny * off, nx, ny
 
 

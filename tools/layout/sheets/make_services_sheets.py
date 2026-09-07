@@ -24,14 +24,14 @@ SOCK = [  # wall, t, side, gang, H cm, note
     ('R2', 0.55, +1, 1, 30, None),
     ('G5', 0.30, +1, 1, 30, None),
     ('G5', 0.72, +1, 1, 30, None),
-    ('MC', 0.30, -1, 1, 30, None),
+    ('MC', 0.06, -1, 1, 30, u'у угла, вне зоны радиатора'),
     ('G7', 0.35, +1, 1, 30, None),
     ('G8', 0.30, -1, 1, 30, None),
     ('G8', 0.72, -1, 1, 30, None),
-    ('MB', 0.20, -1, 1, 30, None),
+    ('MB', 0.08, -1, 1, 30, u'у угла, вне зоны радиатора'),
     ('G4a', 0.55, -1, 1, 30, None),
     ('R6', 0.50, -1, 1, 30, None),
-    ('MA', 0.30, -1, 1, 30, None),
+    ('MA', 0.12, -1, 1, 30, u'у угла, вне зоны радиатора'),
 ]
 for wid, t, side, gang, h, nt in SOCK:
     x, y, nx, ny = on_wall(wid, t, side)
@@ -44,11 +44,11 @@ for wid, t, side, gang, h, nt in SOCK:
 # switches by the DOOR they serve, not by a fraction along the wall.
 # wet rooms switch from OUTSIDE, in the corridor - local practice.
 # wall, opening, jamb, face, gang, H
-SWDEF = [('G4C', 'O1', 'hi', +1, 1, 90, u'ванная, из прихожей'),
-         ('G4C', 'O7', 'lo', +1, 1, 90, u'туалет, из прихожей'),
+SWDEF = [('G4C', 'O1', 'hi', -1, 1, 90, u'ванная, из прихожей'),
+         ('G4C', 'O7', 'lo', -1, 1, 90, u'туалет, из прихожей'),
          ('G2',  'O8', 'hi', +1, 2, 90, u'прихожая'),
-         ('G6',  'O5', 'hi', -1, 1, 90, u'средняя комната'),
-         ('G4d', 'O6', 'hi', -1, 1, 90, u'комната 9.36'),
+         ('G6',  'O5', 'hi', +1, 1, 90, u'средняя комната'),
+         ('G4d', 'O6', 'lo', +1, 1, 90, u'комната 9.36'),
          ('G7',  None, None, -1, 2, 90, u'кухня-гостиная')]
 SW = []
 for wid, oid, jamb, side, gang, h, nt in SWDEF:
