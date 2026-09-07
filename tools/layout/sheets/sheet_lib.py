@@ -334,6 +334,35 @@ class Sheet(object):
         else:
             self.d.ellipse([cx - r + 4, cy - r + 4, cx + r - 4, cy + r - 4], fill=col)
 
+    def sym_radiator(self, x0, y0, x1, y1, col, fins=9):
+        """a radiator: the standard finned rectangle, drawn ON a wall face.
+
+        Takes the two corners in SHEET px because a radiator has real length -
+        it is not a point symbol, and drawing it as one would lose the very
+        thing that matters, which is how much of the wall under a window it
+        occupies.
+        """
+        self.d.rectangle([x0, y0, x1, y1], fill=col + (40,), outline=col, width=6)
+        horiz = abs(x1 - x0) >= abs(y1 - y0)
+        for i in range(1, fins):
+            t = float(i) / fins
+            if horiz:
+                fx = x0 + (x1 - x0) * t
+                self.d.line([(fx, y0 + 5), (fx, y1 - 5)], fill=col + (170,), width=3)
+            else:
+                fy = y0 + (y1 - y0) * t
+                self.d.line([(x0 + 5, fy), (x1 - 5, fy)], fill=col + (170,), width=3)
+        cx, cy = (x0 + x1) / 2.0, (y0 + y1) / 2.0
+        self.reserve(cx, cy, 34)
+
+    def sym_meter(self, x, y, col, label=u'?'):
+        """a meter: circle with a stem, and a character inside it."""
+        self.reserve(x, y, 40)
+        r = 22
+        self.d.ellipse([x - r, y - r, x + r, y + r], fill=(255, 255, 255, 235),
+                       outline=col, width=6)
+        self.d.text((x, y + 1), label, fill=col, font=f_tag, anchor='mm')
+
     def sym_transfer(self, x, y, col, dx=0, dy=-1):
         """a high-level TRANSFER opening through a wall, with the airflow arrow.
 
