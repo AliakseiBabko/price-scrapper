@@ -48,6 +48,7 @@ That is why the seeded rows below have **`qty` empty and `qty_source = unmeasure
 | `rate_expected_source` | ⚠️ **where the anchor came from, and how much to trust it** |
 | `stage` | `1`–`5` — demolition/partitions, rough MEP, screed/plaster, tiling, finishes. Do not commit stage 4 rates in stage 1 |
 | `lead_time_days` | **nullable and deliberately unpopulated** — out of scope 2026-09-08, «varies significantly per provider and vendor» |
+| `applies_to` | **IFC rows only** — semicolon-separated trade codes the interface binds, e.g. `WAT;TIL`. ⚠️ **At least two, and the gate enforces it: an interface naming nobody binds nobody, which is the failure it exists to prevent.** An earlier version inferred this by matching the trade's name against the interface text and silently missed «tiler» while looking for «tiling» |
 | `notes` | free text |
 
 **Trade codes**: `DEM` demolition · `MAS` masonry · `PLA` plastering · `SCR` screed and levelling · `WAT` waterproofing · `TIL` tiling · `PLU` plumbing · `ELE` electrical · `VEN` ventilation · `PNT` painting and decorating · `DOR` doors and trim · `FUR` furniture and fit-out · `IFC` **a trade interface, not a purchase**
@@ -65,3 +66,16 @@ That is why the seeded rows below have **`qty` empty and `qty_source = unmeasure
 ```
 
 Checks key format and uniqueness, trade and enum values, that every `quotes.bom_key` resolves, that `nested` waste appears only where it is justified, and that a populated `qty` carries a real `qty_source`. **It also reports expired quotes and lines with no quote at all** — which is the actual working view.
+
+## The two things that read this
+
+```
+.venv\Scripts\python.exe tools\procurement	rade_pack.py --all
+.venv\Scripts\python.exe tools\procurement\cost_rollup.py [--detail TIL]
+```
+
+**`trade_pack.py` — the document you send to get a quote.** One per trade, joining the BOM lines, the requirements from `trade_requirements.json`, the interfaces that bind that trade, the questions to ask and the acceptance basis. **Every requirement prints the vault page it came from**, so a contractor who disagrees can be answered — or can correct us.
+
+**`cost_rollup.py` — the negotiation view.** Trade level primary, `--detail TRADE` for the line level. **Three rules it will not break**: never a single total when the inputs are ranges; never silently use a quote past its `valid_until`; and never hide a scope difference behind a cheaper number — competing quotes print *with* their scope notes, and anything more than 1.5× apart is flagged to be asked about.
+
+**Order of operations**: pack → send → record what comes back in `quotes.csv` → roll up. **Quantities are not on that path** — they arrive later from the model and simply make the extended totals real.
