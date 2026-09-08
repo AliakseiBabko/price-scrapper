@@ -53,6 +53,19 @@ Everything in this folder is scoped to **Republic of Belarus law, procedure, and
 
 → **[[16_Legal_and_Regulations/analysis/Facade_AC_and_Glazing_Approvals|Full detail]]** — the approving body and refusal grounds (including lawful street- and building-level bans), the continuing duty to maintain or dismantle, the dismantle-for-facade-repairs obligation, and the drying-rack exemption that only applies inside the balcony
 
+## Wet-Zone Placement & Minimum Room Dimensions
+
+**⚠️ Added 2026-09-08 from the norm itself.** **СН 3.02.01-2019 «Жилые здания» §4.9** — note the designation is **-2019**, published 2020, which is how secondary sources get it wrong:
+
+- **Sanitary units may not sit directly over living rooms or kitchens.** The only exception is a **multi-level flat, over a kitchen, both in the same flat.**
+- **⚠️ But up to 25 % of ONE sanitary room may overhang a living room** if enhanced waterproofing **and** sound insulation of that floor construction are carried out — the one real planning lever, and it adds a work requiring согласование under № 164 §3.
+- **⚠️ Minimum plan dimensions «с учётом отделки» (after finishes)**: ванная **1.5 × 1.7 m**, combined санузел **1.5 × 2.5 m**, both fitting a bath ≥ 1.7 m; **туалет 0.8 × 1.5 m without a washbasin, 1.4 × 1.5 m with one.**
+- **⚠️ §4.7 — door ventilation is mandatory**: grille ≥ 0.02 m², bottom edge ≤ 0.03 m above the floor, on kitchen, bathroom, WC and combined-unit doors.
+
+**⚠️ Two consequences for this flat.** A **washbasin in the 1.24 m² туалет cannot comply** (with-basin minimum implies 2.10 m²). And **on the figures the vault holds, no dimension of that туалет reaches the norm's 1.5 m minimum** — recorded as a discrepancy to resolve, not as a finding of non-compliance.
+
+→ **[[16_Legal_and_Regulations/analysis/Wet_Zones_and_Minimum_Room_Dimensions|Full detail]]** — the verbatim clause, the four errors it corrects in a secondary summary, how it interacts with the practitioner method already in `08_WC`, and the amendment caveat
+
 ## Property Registration
 
 **Half filled.** № 164 §21 establishes that **the technical passport and the state registration of the change are performed by the state real-estate registration organisations**, not the исполком — and that the procedure is set by the registration legislation, which has not been read. Also: the **1 January 2023 technical-passport cut-off**, and the **ведомость технических характеристик** ordered and paid for by the initiator.
@@ -71,8 +84,8 @@ Intended scope: what to check at the developer's handover walkthrough, how to do
 
 ## What to read next, in priority order
 
-1. **Указ Президента № 200 of 26.04.2010**, п.1.1.21 / 1.1.211 / 1.1.212 / 1.15.1 / 1.15.3 — **the citizen document lists that № 164 defers to.** Nothing about the actual application can be stated without them.
-2. **СН 3.02.01-2020** (residential buildings) — for the **wet-zone placement rule** that is widely repeated and **is not in № 164**.
+1. **Указ Президента № 200 of 26.04.2010** — **partially verified 2026-09-08.** ✅ **1.1.21** (согласование): исполком, **free of charge, 1 month, indefinite validity.** ✅ **1.1.21″** (approving the acceptance act): **free, 1 month, valid until the technical passport is drawn up and the change registered** — documents are application, passport and **ведомость технических характеристик, «with exceptions for certain gas, heating and insulation work only».** ✅ **1.15.1** = **согласование for installing antennas and other constructions on roofs and facades, including самовольную** — i.e. the AC-unit procedure. **⚠️ Still unverified: 1.1.21′ (retro-approval of самовольная) and 1.15.3 (project approval).**
+2. ~~**СН 3.02.01-2020**~~ ✅ **DONE — it is СН 3.02.01-2019, and §4.9 is now on its own page above.** ⚠️ **Remaining task: Изменения №1 и №2**, which the read copy does not include.
 3. **The registration legislation** referenced by §21.
 4. **«Правила пользования жилыми помещениями»** — for the noise regime governing work that is *not* перепланировка.
 5. **СН 2.02.05-2020** — fire-resistance requirements for new partitions.

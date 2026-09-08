@@ -21,6 +21,13 @@ Kruglov/Ontario recommends the following planning approach:
 
 For a tight "two-fixture" bathroom (tub + one other fixture), Zemskov offers a full arithmetic sizing formula — width/length built up from door clearance, wall thickness, and tub dimensions, landing on a 1715×1700mm or 1815×1800mm standard footprint. Treat it as a self-consistent starting point to weigh against your own numbers, not a code requirement.
 
+> [!IMPORTANT]
+> **⚠️ There IS a code requirement, and it is close to Zemskov's figure (added 2026-09-08, primary source).** **СН 3.02.01-2019 «Жилые здания» §4.9**: **ванная комната not less than 1.5 × 1.7 m**, combined санузел **1.5 × 2.5 m**, both to accommodate **a bath ≥ 1.7 m** — **and the dimensions are «с учётом отделки», i.e. after finishes.**
+>
+> **So the finish-thickness warning above is not just a comfort matter — it is inside the compliance figure.** Zemskov's 1715 × 1700 mm lands almost exactly on the norm's 1.5 × 1.7 m with a little width to spare, which is a useful independent convergence; **but his is a raw footprint and the norm's is finished, so the two are not measuring the same thing.**
+>
+> **For this project's 3.09 m² ванная the binding test is the 1.5 m minimum WIDTH after tiling, not the area** — consistent with this vault's standing rule that areas are not evidence. **The rule in full, the sanitary-unit-over-living-room prohibition with its 25 % allowance, and the mandatory door ventilation grille (§4.7, ≥0.02 m², bottom ≤0.03 m above the floor) are on [[16_Legal_and_Regulations/analysis/Wet_Zones_and_Minimum_Room_Dimensions|Wet Zones & Minimum Room Dimensions]].** ⚠️ Its caveats apply: the copy read is a preview without Изменения №1 и №2.
+
 Two cheap planning habits worth adopting regardless of source: **write an explicit list of every fixture/light/storage item before laying anything out** (catches "doesn't fit" on paper, not during construction), and **check fixture clearance against the door opening's actual position**, not just gross wall dimensions — a real documented case had only 7cm of passage clearance because nobody checked the door position against the space toilet+sink+tub actually needed.
 
 **Fixture placement priority: toilet first** (widest drain, needs the shortest/straightest run to the stack), **shower drain second** (lowest point in the room) — place everything else around these two anchors, not the reverse. [source: [[_Archive/processed_sources/20260731_video_6lacLnqpJbM_4b68d812.txt|video_6lacLnqpJbM_4b68d812]]]

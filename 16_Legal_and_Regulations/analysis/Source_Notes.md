@@ -40,3 +40,20 @@ Extraction notes: [[_Sources/YT__hYkf4UkCqw_doma_minska_severny_bereg_ep1|Ep. 1]
 
 - **Registration of ownership** (as opposed to registration of a replanning change).
 - **New-build handover, acceptance inspection and defect reporting from the developer** — beyond the single developer-screed rule.
+
+## Second primary-source pass — 2026-09-08
+
+| Source | What it settled | Verdict |
+|---|---|---|
+| **СН 3.02.01-2019 «Жилые здания»** — read from the norm PDF ([note](../../_Sources/DOC_SN_3_02_01_2019_zhilye_zdaniya.md), archived `20260908_SN_3.02.01-2019_zhilye_zdaniya_normy_by_preview.pdf`, sha256 `13c1f1cd…`) | **§4.9** wet-zone prohibition, the **25 % partial-placement allowance**, the **minimum plan dimensions**, and **§4.7** door ventilation | **Level 1 — feeds [[16_Legal_and_Regulations/analysis/Wet_Zones_and_Minimum_Room_Dimensions|Wet Zones & Minimum Room Dimensions]].** ⚠️ **Preview copy, Изменения №1 и №2 NOT included** |
+| **Указ № 200** — verified against `pravo.by` and two official исполком «одно окно» pages (Ленинский район Могилёва; Могилёвский горисполком) | **1.1.21**, **1.1.21″** and **1.15.1** confirmed: bodies, fees, timeframes, validity, and the ВТХ exception wording | **Level 1 for what was checked. ⚠️ 1.1.21′ and 1.15.3 remain unverified** |
+
+**⚠️⚠️ The 1.1.21″ page also resolved an ambiguity three of this folder's pages had flagged as needing the исполком.** It describes the ВТХ exception as applying to **«certain gas, heating and insulation work only»** — which is the reading in which **абзац первый is the introductory phrase**, so the exempt items are (1) gas/central heating and (2) hydro/vapour/sound insulation.
+
+> **→ Partition changes are NOT exempt. This project needs a ведомость технических характеристик.** Settled by an official government description of the procedure, not by inference.
+
+### ⚠️ Rejected again: the Gemini Deep Research report
+
+Its legal section was checked claim by claim against № 164 and then against these two sources. **Verified errors**: it misstated two of the three items in § 3 while reasoning about them; **its Указ № 200 subparagraph map is wrong in three places** (1.15.1 is not an ЕГРНИ extract, 1.15.3 is not title registration, and its "1.1.21²  = facade equipment" is the acceptance act); it cited **СН 3.02.01-2020 §4.11** where the norm is **-2019 §4.9**; it **fabricated a top-floor exception** for sanitary units by conflating §4.9 with §4.8; and it **omitted the 25 % allowance and the minimum dimensions entirely.** Full record: [`_Inbox/planning/deep_research_review_20260908.md`](../../_Inbox/planning/deep_research_review_20260908.md).
+
+**Its one legal conclusion that survived — that partition changes are not ВТХ-exempt — is now independently confirmed above, by a source it did not cite.**
