@@ -14,6 +14,7 @@ data/canonical/electrical_placement_review.csv for him to mark up.
 import csv, io, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from sheet_lib import Sheet, on_wall, beside_opening, route_block_conflicts
+from make_segment_key_sheet import label_segments
 
 G, B, R, MG, GY, OR = ((0, 150, 60), (0, 110, 220), (210, 30, 40),
                        (190, 60, 190), (110, 110, 110), (225, 130, 0))
@@ -168,6 +169,8 @@ s.check_openings([(w, t, h, u'розетка ' + i) for i, w, t, _s, _g, h, _sr,
                  + [(w, t, h, u'силовая ' + i) for i, w, t, _s, h, _sr, _sh in POWER]
                  + [(w, t, h, u'выкл. ' + i) for i, w, t, _s, _g, h, _sr, _sh in SW],
                  SIDES)
+# Wall codes last, so spot() routes them around the symbols above.
+print('  s segment labels: %d' % label_segments(s, tiny=True))
 s.save('sheet_01_sockets.png')
 
 # ========================================================== Лист 2 ОСВЕЩЕНИЕ
@@ -209,6 +212,8 @@ for iid, wid, t, side, gang, h, src, shows in SW:
     x, y, nx, ny = on_wall(wid, t, side)
     px, py = s2.P((x, y))
     s2.sym_switch(px, py, nx, ny, GY, gang)
+# Wall codes last, so spot() routes them around the symbols above.
+print('  s2 segment labels: %d' % label_segments(s2, tiny=True))
 s2.save('sheet_02_lighting.png')
 
 # ============================================ Лист 3 ВОДОСНАБЖЕНИЕ И КАНАЛИЗАЦИЯ
@@ -502,6 +507,8 @@ for iid, bx, by, nt, src in (('V-1', 103, 92, u'решётка вытяжки H=
     s3.d.ellipse([px - 16, py - 16, px + 16, py + 16], outline=OR, width=6)
     s3.callout(px, py, [nt], OR)
     tagsrc(s3, px, py, iid, src, OR)
+# Wall codes last, so spot() routes them around the symbols above.
+print('  s3 segment labels: %d' % label_segments(s3, tiny=True))
 s3.save('sheet_03_plumbing.png')
 
 FN = ['item_id', 'kind', 'wall', 'gang', 'height_cm', 'source_photos', 'photo_shows',

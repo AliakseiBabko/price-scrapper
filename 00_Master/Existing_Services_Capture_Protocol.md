@@ -44,6 +44,28 @@ It was not a capability failure. **The information is not in the image.**
 
 ## 2. What you actually need to say — the dictation template
 
+> [!IMPORTANT]
+> **⚠️ WHERE TO FIND THE WALL CODES — added 2026-09-08, because the first version of this document
+> asked you to name a wall and never said where to look it up.**
+>
+> **`_Drawings/sheets/sheet_00_segment_key.png` — ЛИСТ 00, КЛЮЧ СЕГМЕНТОВ СТЕН.** A clean plan with all
+> **25** wall codes tagged and no device symbols in the way, colour-coded by construction class: **R\*
+> red = monolithic frame, do not touch · G\* green = block partition · M\* purple/orange = external wall
+> and лоджия enclosure.** So the code tells you what the wall *is*, not just where it is.
+>
+> **The same codes are now also tagged on sheets 01 sockets, 02 lighting, 03 plumbing and 05 heating**, so
+> you can dictate straight off whichever sheet you are reviewing.
+>
+> **`_Drawings/sheets/sheet_00_segment_key.md`** is the room → walls table in text — copy the room string
+> from there, since the gate compares it character by character.
+>
+> Regenerate any of it with:
+> ```bash
+> .venv-ifc314/Scripts/python.exe tools/layout/sheets/make_segment_key_sheet.py
+> .venv-ifc314/Scripts/python.exe tools/layout/sheets/make_services_sheets.py
+> ```
+> ⚠️ **Note the venv: these sheets need `.venv-ifc314` for PIL, not `.venv`.**
+
 **Per wall, one line. This is the whole protocol.**
 
 ```
@@ -67,8 +89,21 @@ Real examples in exactly the form that works:
 1. **The room string, copied exactly** from `device_counts_per_wall.csv` (e.g. `кухня-гостиная 24.73`).
    The validator rejects anything else, and prints the valid wall codes for that room when you get one
    wrong — so a mistake is self-correcting rather than silent.
-2. **The wall code** — `G3`, `R2`, `M6b`, or `ПОТОЛОК` for ceiling and `ПОЛ` for floor. These are your
-   own colour-marking codes, already the key in `device_counts_per_wall.csv`.
+2. **The wall code** — `G3`, `R2`, `M6b`, or `ПОТОЛОК` for ceiling. These are your own
+   colour-marking codes, already the key in `device_counts_per_wall.csv`. **What each room has:**
+
+   | room | walls |
+   | :--- | :--- |
+   | `туалет 1.42` | G4C, G4b, R1a, R1b |
+   | `ванная 3.09` | G4C, G4a, G4b, G4d |
+   | `прихожая 9.79` | G2, G4C, G4d, G6, R1a, R3 · *+ P2, V2* |
+   | `кухня-гостиная 24.73` | G3, G5, G7, MC, R2, R3, R5, R7, R9 · *+ P2, V2* |
+   | `средняя комната 16.63` | G6, G7, G8, MB, R4, R5, R8, R9 |
+   | `комната 9.36` | G4a, G4d, G8, MA, R6 |
+   | `лоджия 6.05` | M2, M6b, MA |
+
+   Every room also has `ПОТОЛОК (выводы света)`. **`P2` and `V2` have no geometry** — they are the riser
+   zone and the вентблок face — so they carry no tag on the plan but are valid to dictate into.
 3. **Which photo you are looking at**, if any — its `photo_id` from `photo_positions.csv` (`add8`, `930d`,
    …). If you are stating it from memory or from the developer's spec rather than a photo, say so and it
    is recorded as `owner_statement`. **Both are legitimate; conflating them is not.**
