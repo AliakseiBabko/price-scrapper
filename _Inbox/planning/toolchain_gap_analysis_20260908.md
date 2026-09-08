@@ -64,6 +64,23 @@ The roadmap already says it: *«the gap is not "we have no drawing engine". It i
 
 **What has to be built**: the resource catalogue keyed to that taxonomy, unit rates in BYN normalised through the existing converter, the cascade rules, and the diff. **Nothing about it depends on the drawings.**
 
+> [!IMPORTANT]
+> **⚠️⚠️ REQUIREMENT CORRECTION 2026-09-08, from the owner — and it re-orders the whole design.**
+>
+> The section above was written around **geometric** deltas: a wall moves, quantities change, re-price. **The owner's objection is that in a real renovation the changes that actually happen are not geometric:** a material is discontinued, a contractor drops out, a price moves — **and those dominate a couple of centimetres by a wide margin.** He is right, and the vault's own ±25 mm tolerance plus the −45/+30 mm as-built spread say so.
+>
+> **→ So the cost engine's primary axis is SUBSTITUTION AND RE-QUOTING. The geometric delta is the secondary axis, not the first.** That changes what has to be built:
+>
+> | Requirement | Why it follows |
+> | :--- | :--- |
+> | **Separate a resource's ROLE from its identity** — "the floor tile in room 04" must be re-pointable at a different product without touching the model or the quantities | The commonest real change. A discontinued tile should be a one-line swap that re-prices, not a re-modelling exercise |
+> | **Per-quote provenance: source, date, and validity window** | The FX converter already normalises by date; what is missing is *when this rate was quoted and when it expires*. The research gives a **30–45 day** firm-quote norm |
+> | **Rate source keyed per TRADE, not per line** | So losing a contractor re-prices that whole trade at once instead of line by line |
+> | **Re-quote triggers as data** | The research names three: **quantity drift > 5 %**, latent substrate defects found on opening up, and **owner-caused delay > 14 days** |
+> | **Staged commitment** | Price by trade stage (demolition/partitions → rough MEP → screed/plaster → tiling → finishes) and **do not commit Stage 4 rates during Stage 1** |
+>
+> **⚠️ And this reframes what the model is FOR.** Its job is not to be dimensionally exact — it is to hold **quantities stable enough that a substitution re-prices correctly**. That is a much weaker precision requirement than the earlier framing implied, and it is met by the existing ±25 mm nominal model.
+
 ### Kind 3 — capability we already own and do not use: **Bonsai**
 
 **This is the direct answer to "do we need additional parts of Bonsai/Blender?" — no, we need to start using the parts we have.**
@@ -92,11 +109,26 @@ Today Blender is used for **viewing** and for one **EEVEE demonstrator render**.
 | **A project `.ids` ruleset** | Not a tool — a file. Blocks a commit if an `IfcWall` lacks e.g. `Pset_CostData.TradeCode` | free |
 | **CC0 PBR textures** (Poly Haven, AmbientCG) | Only if presentable renders are wanted at all | free |
 
-### Buy (hardware, not software)
+### ⚠️⚠️ Buy — RETRACTED 2026-09-08, on the owner's challenge
 
-| Buy | Why |
-| :--- | :--- |
-| **⚠️ A Bluetooth laser distance meter (~$60–120)** | The report's answer to reality capture: **photogrammetry and 3DGS give appearance, not measurable geometry** — featureless white walls defeat feature matching, and unscaled reconstruction drifts **20–80 mm over 10 m**. A calibrated laser on an orthogonal baseline is the only reliable survey. **And this is the input that unblocks `cap0`, closes `v0`, and produces the обмерочный чертёж sheet that our 16-sheet set needs and the report also lists as its Sheet 02** |
+> [!CAUTION]
+> **The laser-distance-meter recommendation was wrong, and two of my three stated justifications were false.** Withdrawn.
+>
+> **The decisive fact, which I had in the repo and did not apply**: `tools/cad/PROVISIONAL_MODEL_POLICY.md` opens with **«The apartment is not built yet, so the current model is a planning baseline, not an as-built survey.»** **There is nothing to measure.** I transferred a recommendation Gemini framed for surveying an *existing* flat onto a building that does not exist yet.
+>
+> **Checking each claim I made for it:**
+>
+> | Claim | Verdict |
+> | :--- | :--- |
+> | «unblocks `cap0`, the control dimension» | ❌ **False.** `cap0` is about whether the **Homestyler DXF's scale** agrees with the **printed dimension strings** — a desk check against the detailed plan. The policy file even orders the sources that way, and puts «future millimetre field measurements» as a **later supersession step, not the gate** |
+> | «closes `v0`» | ❌ **False.** `v0` exists only as a **dimensioned image**. The fix is reading its printed dimension strings, or a second Homestyler export. **No field measurement is involved at all** |
+> | «produces the обмерочный чертёж sheet» | ✅ **True, but not now.** That sheet genuinely needs measurement — **after handover.** It is a $60 decision deferrable to the day the keys exist |
+>
+> **And the owner's substantive point is stronger than the recommendation was**: at planning stage, centimetres are dominated by decision churn. **This vault already says so formally** — every model dimension is **nominal ±25 mm** (`project_decisions.md`), and `00_Master/Geometry_Variance_Study.md` measured three as-built comparables of the same layout at **−45 to +30 mm** against the developer plan. **So the building's own variance exceeds what a laser would resolve at this stage.** Precision here buys nothing a tolerance band does not already provide.
+>
+> **Where centimetres genuinely do bite, every case is a desk check against printed dimensions, not a survey** — the norm's 1.5 m bathroom width «с учётом отделки», an 1800 mm bath fitting a 3.09 m² room, a concealed mixer's 50–70 mm depth *including tile*, and tile module setting-out. **All of that argues the owner's way, not mine.**
+>
+> **Revised position: buy nothing now. Revisit a laser meter at handover, when it becomes an acceptance-inspection and обмерочный-чертёж tool rather than a planning one.**
 
 ### Outsource, one-off, only if wanted
 
@@ -118,7 +150,9 @@ Today Blender is used for **viewing** and for one **EEVEE demonstrator render**.
 1. **The cost track needs no drawings.** Taxonomy → resource catalogue → unit rates through the FX converter → cascade rules → `CostDeltaReport`. It consumes `calculate_wall_finishes.py` output plus Bonsai/IfcOpenShell space quantities. **Start here if a budget number early is the goal** — and the report's calendar-driven build order puts exactly this work inside the one-month permit review window.
 2. **The documentation track is blocked on data, then on annotation.** `cap0` (control dimension, needs the laser) → `cap2` (phase, highest leverage) → `cap3`/`cap5`/`cap4` → Bonsai for the annotated sheets.
 
-**The laser meter is on the critical path of track 2 and costs $60–120.** That is the cheapest unblock available.
+**⚠️ Corrected**: an earlier version of this section put a laser meter on track 2's critical path. **It is not on any critical path — the flat is not built.** Track 2's real gate is `cap0`, and `cap0` is a **desk check of the DXF's scale against the detailed plan's printed dimension strings.** That costs an afternoon and no money.
+
+**⚠️ And on the owner's reframing, track 1 is the higher priority of the two**, because the changes that actually arrive during a renovation are substitutions and re-quotes rather than geometry — so the engine that absorbs them is worth more than the drawings that describe a layout which is already decided.
 
 ---
 
