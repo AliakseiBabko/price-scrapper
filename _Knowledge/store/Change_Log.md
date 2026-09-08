@@ -1289,7 +1289,7 @@ Two sources five days apart appear to disagree about kitchen wall units: 2021-01
 
 ## 2026-09-08 — Vasily_Sanuzel (@VasilySanuzel) Round 1: a single-trade channel against the vault's densest room
 
-**A new channel, triaged and trialled the same day at the user's request.** 46 videos, all fresh. A one-man bathroom/plumbing contractor in Moscow working П-44 / П-44Т / П-3 panel stock and ПИК new builds — **one trade, one room type, nothing sold.** Round scoped by format: four picks, four different formats. **4 videos, 78 new facts, yield 19.5 facts/video, 13 pages across 4 folders.** All fetches clean.
+**A new channel, triaged and trialled the same day at the user's request.** 46 videos, all fresh. A one-man bathroom/plumbing contractor in Moscow working П-44 / П-44Т / П-3 panel stock and ПИК new builds — **one trade, one room type, nothing sold.** Round scoped by format: four picks, four different formats. **4 videos, 78 new facts, yield 19.5 facts/video, 15 pages across 4 folders.** All fetches clean.
 
 ### ⚠️ The finding that generalises: a format rule did not travel between channels
 

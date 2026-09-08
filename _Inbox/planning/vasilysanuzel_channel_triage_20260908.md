@@ -122,7 +122,7 @@ Per the corrected yield model confirmed at `@YourInteriorDes` Round 4: **scope a
 
 # ✅ ROUND 1 COMPLETE — 2026-09-08, 4/4 processed, 78 new facts, yield 19.5 facts/video
 
-All four picks cleared. **All four fetches clean, zero rate-limit signatures.** Routed to **13 pages across 4 folders**; no new page needed, no page pushed over the 400-line backstop, `check_page_sizes.py` reports no fragmentation. Store, `processed_sources.csv`, `processed_video_ids.txt` and `Change_Log.md` all updated.
+All four picks cleared. **All four fetches clean, zero rate-limit signatures.** Routed to **15 pages across 4 folders**; no new page needed, no page pushed over the 400-line backstop, `check_page_sizes.py` reports no fragmentation. Store, `processed_sources.csv`, `processed_video_ids.txt` and `Change_Log.md` all updated.
 
 | Pick | Format tested | Result |
 | :-- | :--- | :--- |
