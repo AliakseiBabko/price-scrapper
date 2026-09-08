@@ -1,0 +1,334 @@
+{
+  "_about": "Per-trade requirements, questions and acceptance criteria, used by tools/procurement/trade_pack.py to generate the scope document sent to a contractor to solicit a quote. Every requirement carries the vault page it came from, so the pack is traceable back to evidence rather than being assertion. Rules that apply to EVERY trade live in _universal.",
+  "_universal": {
+    "title": "Applies to every trade on this job",
+    "requirements": [
+      {
+        "text": "Noisy or vibrating work is permitted ONLY on working days, 09:00-19:00. Weekends and public holidays are prohibited outright. Please price and programme against that window.",
+        "source": "16_Legal_and_Regulations/analysis/Works_Conduct_and_Waste.md"
+      },
+      {
+        "text": "Corridors, stair flights and landings, passages and emergency exits must be kept both clear AND clean. Tracked-in dust is a breach, not only a stack of bags.",
+        "source": "16_Legal_and_Regulations/analysis/Works_Conduct_and_Waste.md"
+      },
+      {
+        "text": "Passenger lifts may not carry materials or waste UNPACKAGED. Packaging is a cost item - please say whether yours is included.",
+        "source": "16_Legal_and_Regulations/analysis/Works_Conduct_and_Waste.md"
+      },
+      {
+        "text": "Waste storage and removal follow the procedure written into this flat's own permit. Confirm whether your price includes removal, and to where.",
+        "source": "16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals.md"
+      },
+      {
+        "text": "If engineering systems are damaged, or cracks or deformations appear in load-bearing or enclosing structures, work stops immediately and the building management is informed. Remediation is at the cost of whoever caused it. Because this job is let as several small contracts, liability for a shared interface must be agreed before you start - see the interface items in this pack.",
+        "source": "16_Legal_and_Regulations/analysis/Works_Conduct_and_Waste.md"
+      },
+      {
+        "text": "The flat's handover already includes plaster, screed, electrics, sockets and switches, radiators, the WC pan, loggia glazing and PVC windows. Protecting finished work is part of the job: PVC tape rather than paper on finished joinery, and 3 mm hardboard rather than cardboard on finished floors, laid with a gap to the walls.",
+        "source": "11_Budget_and_Planning/analysis/Demolition_Site_Management_and_Waste.md"
+      }
+    ],
+    "questions": [
+      "What is your rate, and what unit is it per? Please quote a RATE even if quantities are still being confirmed.",
+      "How long is that price firm for? (30-45 days is the norm we are working to.)",
+      "What is explicitly NOT included?",
+      "Who supplies the materials - you or us? We intend to buy primary materials directly.",
+      "What do you need from us before you can start, and what would stop you?"
+    ],
+    "acceptance": [
+      "Work is accepted against the scope in this pack, not against a verbal variation.",
+      "Any change of quantity greater than 5% is re-measured against the agreed unit rate rather than re-negotiated as a lump sum.",
+      "Latent conditions found on opening up are inspected jointly before extra work begins."
+    ]
+  },
+  "PLA": {
+    "title": "Plastering",
+    "requirements": [
+      {
+        "text": "GYPSUM plaster, not cement. Part of the room enclosure is the building's ventilation shaft, which is a gypsum material - cement compositions must never be applied to it. Aerated block is also not strong enough to hold cement plaster.",
+        "source": "12_Engineering_and_Systems/analysis/Plastering_Substrate_Prep_and_Priming.md"
+      },
+      {
+        "text": "The plaster's grade strength must not exceed the substrate's - each successive layer weaker than the one beneath.",
+        "source": "12_Engineering_and_Systems/analysis/Plastering_Substrate_Prep_and_Priming.md"
+      },
+      {
+        "text": "Aerated block takes a DEDICATED primer with elevated polymer content, not ordinary primer. Substrate vacuumed before priming. At least 6 hours before plastering.",
+        "source": "12_Engineering_and_Systems/analysis/Plastering_Substrate_Prep_and_Priming.md"
+      },
+      {
+        "text": "A separator tape approximately 3 mm thick is run round the floor and ceiling perimeter as a movement damper before beacons go in, and cut off after plastering.",
+        "source": "12_Engineering_and_Systems/analysis/Plastering_Substrate_Prep_and_Priming.md"
+      },
+      {
+        "text": "Beacons are PULLED before the plaster hardens and the wall cut back floor-to-ceiling, then the beacon grooves filled deliberately proud and cut back once set. Beacons left in are not accepted.",
+        "source": "12_Engineering_and_Systems/analysis/Plastering_Beacons_and_Geometry.md"
+      },
+      {
+        "text": "Wall plane checked with a straightedge on the diagonal, and corners checked against 90 degrees.",
+        "source": "12_Engineering_and_Systems/analysis/Plastering_Beacons_and_Geometry.md"
+      },
+      {
+        "text": "Gypsum plaster that will be tiled must afterwards be coated with acrylic polymer waterproofing - gypsum plaster and cement tile adhesive do not bond. Confirm whether that coat is in your scope or the waterproofing contractor's.",
+        "source": "12_Engineering_and_Systems/analysis/Waterproofing_Application_and_QC.md"
+      }
+    ],
+    "questions": [
+      "Do you pull beacons as standard, and is the groove fill included?",
+      "Whose scope is the acrylic waterproofing coat over gypsum plaster under tile?"
+    ],
+    "acceptance": [
+      "Maximum deviation under a 2 m straightedge: 2 mm.",
+      "No beacons left in the wall; groove fills flush and in plane.",
+      "Perimeter damper tape cut back, movement joint left open."
+    ]
+  },
+  "WAT": {
+    "title": "Waterproofing",
+    "requirements": [
+      {
+        "text": "Thickness is the specification and it is INVISIBLE once applied: target 0.5-0.8 mm. Colour proves nothing. We will verify by counting empty containers against the datasheet coverage rate, so please plan consumption accordingly and leave the empties on site.",
+        "source": "12_Engineering_and_Systems/analysis/Waterproofing_Application_and_QC.md"
+      },
+      {
+        "text": "Internal corners and penetration collars first, then the full planes. Tape overlaps onto membrane already applied; at a corner the tape is cut and folded over itself.",
+        "source": "12_Engineering_and_Systems/analysis/Waterproofing_Application_and_QC.md"
+      },
+      {
+        "text": "Collars at the concealed mixer and the water outlets are required even when not supplied in the box - they are bought separately or cut from sheet, with the hole made undersize so it stretches over the box.",
+        "source": "12_Engineering_and_Systems/analysis/Waterproofing_Application_and_QC.md"
+      },
+      {
+        "text": "Second coat after 2-3 hours, both to cover misses and to reach total thickness. Tileable after approximately 16 hours.",
+        "source": "12_Engineering_and_Systems/analysis/Waterproofing_Application_and_QC.md"
+      },
+      {
+        "text": "The deliberate movement gaps left at block-to-wall, block-to-ceiling and plaster-to-structure junctions are the water entry vector. The membrane is what makes those gaps survivable, so junction detailing is the point of the job, not a trim.",
+        "source": "12_Engineering_and_Systems/analysis/Waterproofing_Application_and_QC.md"
+      },
+      {
+        "text": "Substrate must be cleaned and dedusted before application. Membrane failing in sheets is caused by poor preparation or under-thickness, not by the product.",
+        "source": "12_Engineering_and_Systems/analysis/Waterproofing_Application_and_QC.md"
+      },
+      {
+        "text": "Because the walls are plastered in gypsum, the membrane also acts as the bonding layer between gypsum plaster and cement tile adhesive - so coverage is floor to ceiling on tiled walls, not the wet zone only.",
+        "source": "12_Engineering_and_Systems/analysis/Waterproofing_Application_and_QC.md"
+      }
+    ],
+    "questions": [
+      "What product, and what is its stated coverage per mm of thickness?",
+      "Are collars and corner tapes included in your price or charged separately?",
+      "Will you sign an act of concealed works with a photo log showing a tape measure over the applied membrane?"
+    ],
+    "acceptance": [
+      "Consumption reconciled against the datasheet coverage rate - this is the acceptance test, not visual inspection.",
+      "Photographic log of collars and internal corners before the second coat.",
+      "An act of concealed works signed before anything is tiled over."
+    ]
+  },
+  "TIL": {
+    "title": "Tiling",
+    "requirements": [
+      {
+        "text": "Adhesive class C2 as a minimum for any format from 45x45 upward, with S1 deformability. The driver is the tile's own invisible bow, which grows with format - so the cured adhesive must be able to deform. C0 is not acceptable anywhere on this job.",
+        "source": "07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance.md"
+      },
+      {
+        "text": "Large formats are double-buttered: combed on the substrate AND a thin skim on the back of the tile, filling the tile's own ribbed pattern.",
+        "source": "07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance.md"
+      },
+      {
+        "text": "Levelling clips are required on large format. Note they deliver a common PLANE, not a level - the level comes from the setting-out.",
+        "source": "07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance.md"
+      },
+      {
+        "text": "External corners are MITRED at 45 degrees per tile, not covered with a plastic trim - and the tile's factory chamfer is preserved, because it exists to prevent chipping. Mitres are priced per linear metre, so please quote that rate separately.",
+        "source": "07_Bathroom/analysis/Tile_Cutting_Handling_and_Special_Formats.md"
+      },
+      {
+        "text": "Epoxy grout in the field. Internal corners and the bath rim take SILICONE, not epoxy - that placement rule is not negotiable, and it is where a leak on a comparable job originated.",
+        "source": "07_Bathroom/analysis/Tile_Grout_Selection_and_Protection.md"
+      },
+      {
+        "text": "Setting-out to be agreed before the first tile: layout datum axis, position of cut pieces, and joint width. No cut strip narrower than half a tile.",
+        "source": "07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance.md"
+      },
+      {
+        "text": "Where bathroom and corridor tiles differ, the joint sits under the future door leaf, carried into the wet room, so neither room shows a seam.",
+        "source": "13_Surfaces_and_Finishes/analysis/Floor_Transitions_and_Thresholds.md"
+      },
+      {
+        "text": "Joints cleaned as the work proceeds, not after.",
+        "source": "07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance.md"
+      }
+    ],
+    "questions": [
+      "Rate per m2 for walls, rate per m2 for floors, and rate per linear metre for 45-degree mitres - three separate numbers please.",
+      "Do you work with epoxy grout? (If the answer is a reason not to, we would like to hear it.)",
+      "Who prepares the substrate to tolerance, and what tolerance do you require before you will start?",
+      "Is cutting waste priced into your rate, or charged on material?"
+    ],
+    "acceptance": [
+      "Substrate accepted at maximum 2 mm deviation under a 2 m straightedge before tiling begins.",
+      "No lippage; external corners mitred with the factory chamfer intact.",
+      "Silicone, not epoxy, at every internal corner and at the bath rim.",
+      "Setting-out as agreed in writing before the first tile."
+    ]
+  },
+  "PLU": {
+    "title": "Plumbing",
+    "requirements": [
+      {
+        "text": "Drain fall 3 cm per running metre - and note the consequence: the lower the connection into the stack, the lower a shower tray can sit. Stack tee height is decided before the screed and silently caps the tray afterwards.",
+        "source": "12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing.md"
+      },
+      {
+        "text": "Drain outlet height is set from the ACTUAL basin and siphon that will be fitted, marked on the wall - not from a standard height.",
+        "source": "07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md"
+      },
+      {
+        "text": "A purpose-made short siphon elbow is preferred over a 90-degree bend where the partition is thin, because it allows a shallower chase.",
+        "source": "07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md"
+      },
+      {
+        "text": "Concealed mixer installation depth from the manufacturer's instructions ALREADY INCLUDES the finish covering. Measure to the tile face, not the substrate.",
+        "source": "07_Bathroom/analysis/Fixtures_Mixers_and_Sinks.md"
+      },
+      {
+        "text": "Pressure test at 10 atm with a test pump - working pressure is not a test. Hold 30 minutes, top back up to 10 atm, hold 5 minutes more. Chases are filled only after it passes.",
+        "source": "12_Engineering_and_Systems/analysis/Pressure_Testing.md"
+      },
+      {
+        "text": "Bleed valves fitted so air can be driven out before testing: air compresses, water does not.",
+        "source": "12_Engineering_and_Systems/analysis/Pressure_Testing.md"
+      },
+      {
+        "text": "All pipework insulated. Internal corners turned with a pipe bender to the minimum radius, with no joint in the corner.",
+        "source": "12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing.md"
+      },
+      {
+        "text": "NO washbasin is to be installed in the separate WC. At 1.24 m2 the room cannot meet the minimum plan dimensions the building norm sets for a WC with a washbasin.",
+        "source": "16_Legal_and_Regulations/analysis/Wet_Zones_and_Minimum_Room_Dimensions.md"
+      }
+    ],
+    "questions": [
+      "Rate per point for supply and drainage, and what counts as a point in your pricing?",
+      "Is the pressure test included, and will you provide the result in writing?",
+      "Will you sign an act of concealed works before chases are filled?",
+      "Do you supply the manifold and node components, or do we?"
+    ],
+    "acceptance": [
+      "Pressure test passed at 10 atm with the re-pressurise step, recorded in writing, BEFORE any chase is filled.",
+      "Fall verified at 3 cm per metre over each run.",
+      "Concealed mixer depth verified against the tile face, not the substrate."
+    ]
+  },
+  "VEN": {
+    "title": "Ventilation",
+    "requirements": [
+      {
+        "text": "MANDATORY under the building norm: kitchen, bathroom, WC and combined-unit door leaves must carry a ventilation grille or equivalent of at least 0.02 m2, positioned so its bottom edge is no more than 0.03 m above the floor. This is a door specification requirement, not an accessory.",
+        "source": "16_Legal_and_Regulations/analysis/Wet_Zones_and_Minimum_Room_Dimensions.md"
+      },
+      {
+        "text": "Where an extract fan is fitted, bring the duct out of the WALL rather than the ceiling, so the fan's backdraught flaps cannot clatter.",
+        "source": "12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting.md"
+      },
+      {
+        "text": "The building's ventilation and smoke shafts and channels may not be altered. This is a prohibition in the governing decree, not a preference.",
+        "source": "16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals.md"
+      }
+    ],
+    "questions": [
+      "Can you supply door leaves already prepared with a compliant grille, or is that the joinery contractor's scope?"
+    ],
+    "acceptance": [
+      "Grille free area at least 0.02 m2, bottom edge no more than 0.03 m above the finished floor, measured after flooring is laid."
+    ]
+  },
+  "SCR": {
+    "title": "Screed and levelling",
+    "requirements": [
+      {
+        "text": "The datum is the adjoining room's finished floor, and the screed top sits below it by exactly the tile plus adhesive build-up. Set the laser so the target is a whole number and every reading is a subtraction.",
+        "source": "13_Surfaces_and_Finishes/analysis/Screed_and_Subfloor.md"
+      },
+      {
+        "text": "Datum markers set by laser and trimmed to height, rather than screed beacons, for a thin levelling layer. Panel construction has significant level differences, so set many.",
+        "source": "13_Surfaces_and_Finishes/analysis/Screed_and_Subfloor.md"
+      },
+      {
+        "text": "Grinding before pouring serves two purposes: removing spatter AND opening the concrete's pores for adhesion. Vacuum, then prime to cut absorbency.",
+        "source": "13_Surfaces_and_Finishes/analysis/Screed_and_Subfloor.md"
+      },
+      {
+        "text": "Damper tape around the full perimeter before pouring.",
+        "source": "13_Surfaces_and_Finishes/analysis/Screed_and_Subfloor.md"
+      },
+      {
+        "text": "The developer's screed is part of the handover. Replacing it is chargeable rework and must be priced as such, not treated as a variation.",
+        "source": "16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals.md"
+      }
+    ],
+    "questions": [
+      "What product, and what thickness range does it cover? Our range across the flat is roughly 10-40 mm.",
+      "Is grinding and priming included, or extra?"
+    ],
+    "acceptance": [
+      "One plane under a 3 m straightedge, level verified throughout; small deviations accepted, systematic slope not.",
+      "Finished level lands on the agreed datum, i.e. finished-floor level minus the tile build-up."
+    ]
+  },
+  "ELE": {
+    "title": "Electrical",
+    "requirements": [
+      {
+        "text": "Sockets, switches and the distribution are part of the flat's handover, so this scope is MODIFICATION of an existing installation, not first fit. Price accordingly.",
+        "source": "00_Master/project_decisions.md"
+      },
+      {
+        "text": "Adding central-heating, hot-water or electrical equipment that would exceed the premises' design calculated loads is prohibited. Confirm the design load before specifying anything heavy such as electric underfloor heating.",
+        "source": "16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals.md"
+      },
+      {
+        "text": "Run the towel-rail supply cable deliberately OFF the rail's mounting axis, so it cannot be drilled through when the rail is fixed.",
+        "source": "12_Engineering_and_Systems/analysis/Hygienic_Shower_and_Towel_Warmer.md"
+      },
+      {
+        "text": "Fit a socket box even where no socket will go, purely to give the cable travel and slack behind the finish.",
+        "source": "12_Engineering_and_Systems/analysis/Hygienic_Shower_and_Towel_Warmer.md"
+      },
+      {
+        "text": "Leave cable ends long with slack where another trade will route them to final position.",
+        "source": "12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing.md"
+      },
+      {
+        "text": "If a hygienic shower's supply is interlocked with the room lighting, the interlock must be tied to the circuit that is actually on when the fixture is used - a mirror light or a decorative source will otherwise disable it.",
+        "source": "12_Engineering_and_Systems/analysis/Hygienic_Shower_and_Towel_Warmer.md"
+      }
+    ],
+    "questions": [
+      "Rate per point, and does a point include the chase and making good?",
+      "What do you need decided before you start - we can supply a lighting and socket layout with scenarios."
+    ],
+    "acceptance": [
+      "Every cable position photographed against a tape measure before it is covered.",
+      "Cable positions clear of fixture mounting axes."
+    ]
+  },
+  "IFC": {
+    "title": "Trade interfaces - to be assigned, not purchased",
+    "requirements": [
+      {
+        "text": "Because this job is let as several small contracts, the joins between them belong to nobody by default. The governing decree puts damage liability on whoever caused the damage and says nothing about how you prove which trade that was. Each interface below must be written into BOTH adjoining contracts before either trade starts.",
+        "source": "16_Legal_and_Regulations/analysis/Works_Conduct_and_Waste.md"
+      }
+    ],
+    "questions": [
+      "For each interface: who performs it, who inspects it, and who signs it off before the next trade arrives?"
+    ],
+    "acceptance": [
+      "No trade starts on a surface another trade prepared without a signed hand-over of that surface."
+    ]
+  }
+}

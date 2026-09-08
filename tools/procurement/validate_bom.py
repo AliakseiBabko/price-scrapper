@@ -130,6 +130,20 @@ def main() -> int:
         # Interfaces are arguments, not purchases.
         if row["trade"] == "IFC" and (row["rate_expected"].strip() or row["product_id"].strip()):
             problems.append(f"{where}: IFC rows are trade interfaces, not purchases - no rate or product")
+        # An interface that names no trades binds nobody, which is the failure it exists
+        # to prevent. Two or more, and every one a real trade code.
+        applies = [t.strip() for t in row.get("applies_to", "").split(";") if t.strip()]
+        if row["trade"] == "IFC":
+            if len(applies) < 2:
+                problems.append(
+                    f"{where}: an interface must name at least TWO trades in applies_to - "
+                    "one that names nobody binds nobody"
+                )
+            for code in applies:
+                if code not in TRADES:
+                    problems.append(f"{where}: applies_to has unknown trade {code!r}")
+        elif applies:
+            problems.append(f"{where}: applies_to is only for IFC rows")
 
     keys = {row["key"] for row in bom}
     for i, row in enumerate(quotes, start=2):
