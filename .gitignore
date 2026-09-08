@@ -47,10 +47,12 @@ _Survey/**/*.jpg
 _Survey/**/*.jpeg
 _Survey/**/*.png
 
-# _Precedents/ holds third-party DESIGN precedent for this apartment type - a
-# designer's furnished variant plans from Instagram and realt.by-watermarked
-# renderings. Same treatment as _Survey/: the bytes stay out of git, identity is
-# kept via sha256 in _Precedents/**/manifest.csv.
+# _Precedents/ holds third-party DESIGN precedent - other people's designs for this
+# apartment type, organised per author and per project under design_projects/, plus
+# market_listings/ for listing imagery. Same treatment as _Survey/: the bytes stay
+# out of git, identity is kept via sha256 in _Precedents/**/manifest.csv, and the
+# index in _Precedents/roster.csv. Gate: tools/precedents/validate_precedents.py
+# rehashes every file, so a manifest that drifts from disk fails the build.
 _Precedents/**/*.jpg
 _Precedents/**/*.jpeg
 _Precedents/**/*.png

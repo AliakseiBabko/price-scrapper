@@ -105,7 +105,7 @@ An unidentified interior designer's four furnished variant plans for **our own a
 
 > **→ Practice resolves the norm-versus-ergonomics conflict in favour of ergonomics, silently.** The vault records both sides ([[08_WC/WC_Guide|WC Guide]] §1a). Nothing here changes what the norm says; it changes what we should expect to have to argue for.
 
-**Full analysis and the three reading traps in this material: `data/layout_cases/dubravinsky-euro3-designer-variants.json` and `_Precedents/dubravinsky_same_type/README.md`.** ⚠️ **No dimension may be taken from those plans** — there is not one dimension string on any of the six sheets.
+**Full analysis and the three reading traps in this material: `data/layout_cases/dubravinsky-euro3-designer-variants.json` and `_Precedents/design_projects/unattributed-instagram__euro3-four-variants/README.md`.** ⚠️ **No dimension may be taken from those plans** — there is not one dimension string on any of the six sheets.
 
 
 ## Other clauses worth carrying
