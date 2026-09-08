@@ -68,3 +68,21 @@ None yet.
 - 2026-07-31 — Store created. Seeded with 3 Durable Facts, 1 Numeric Data entry (a known gap, not a figure), 2 Rules/Heuristics, 1 Assumptions entry, 3 Risks/Gaps entries, 4 Open Questions — all from `yt__hYkf4UkCqw`, the only source processed so far that meets this store's location-attribution bar. One candidate item (`yt_H61xa8n2nTk`'s facade AC-unit restriction anecdote) was deliberately excluded for insufficient location attribution, per the user's explicit instruction that this store only admit facts with clear attribution to a specific location.
 - 2026-07-31 — Added `yt_QHl1YEHMfgE` (same series, Episode 2) to the Source Index as a continuity pointer only — its own transcript doesn't independently name Minsk/Belarus, so it doesn't qualify as a new admitting source on its own merits, consistent with this store's stated bar. No new Durable Facts added from it; its content stays in the main budgeting store's Rules/Heuristics instead.
 - 2026-08-24 — Content mirrored into new `16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals.md` wiki page, per explicit user direction to give this topic its own strictly-Belarus-scoped top-level section. This store continues as the intake staging area; route new qualifying sources here first, then mirror into the wiki page.
+
+---
+
+## ⚠️⚠️ 2026-09-08 — the staging store is now BEHIND the wiki on this topic
+
+**A primary-source pass has happened.** **Постановление Совета Министров РБ от 03.04.2026 № 164** was read in full (15 pp., archived PDF, sha256 `a875d168…`) and routed directly into `16_Legal_and_Regulations/`, which now has **five populated pages** rather than one page plus placeholders.
+
+**Do not treat this store as the current state of the topic.** Everything above pre-dates the act and rests on practitioner accounts. Go to the wiki:
+
+- [[16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals|Permits & Approvals]] — the closed §3 definition, the §4 prohibitions, the two approval tracks, self-performance
+- [[16_Legal_and_Regulations/analysis/Works_Conduct_and_Waste|Works Conduct & Waste]] — noise hours, common parts, lifts, the permit-sets-the-waste-rule point, the damage protocol
+- [[16_Legal_and_Regulations/analysis/Works_Acceptance_Procedure|Works Acceptance]] — the 30-day commission lead time, documents, and the план-схема as the acceptance standard
+- [[16_Legal_and_Regulations/analysis/Facade_AC_and_Glazing_Approvals|Facade, AC & Glazing]] — **AC outdoor units need architecture-subdivision согласование**, and glazing follows approved variants
+- [[16_Legal_and_Regulations/analysis/Property_Registration|Property Registration]] — the replanning-change side only; ownership registration still unsourced
+
+**⚠️ And the correction that matters most for anything staged here in future: № 164 REPEALS постановление № 384 of 2013 in full.** Any new source that cites № 384 is describing superseded law and should be flagged on intake rather than accumulated here.
+
+**Source note with the full claim-verification table**: [[_Sources/DOC_postanovlenie_164_2026_pereustroystvo_pereplanirovka|DOC_postanovlenie_164]].
