@@ -59,6 +59,33 @@ this episode to extract):
   fully hardened, to prevent sagging under later straightedge pressure.
   [source: [[_Sources/YT_bF1I2olZSc0_sidorik_beacons_ep12|YT_bF1I2olZSc0]]]
 
+## ⚠️⚠️ Beacons Pulled Back Out Before the Plaster Sets — the Step That Decides the Final Plane (Vasily_Sanuzel, П-44Т серия 2, 2023-09-17)
+
+**Independent corroboration of the offset-mark method above, from an unrelated practitioner in a different country — and then a step this page did not have.**
+
+**His layout, structurally identical to Sidorik's with different numbers**: marks on the straightedge highlighted with masking tape — one **exactly at its edge** (used later to press the beacon home) and a second **~7 mm beyond it, being a 6 mm beacon plus ~1 mm of tolerance.** Hold the straightedge to the wall where a beacon will sit, aim the beam at the mark, watch how the deviation runs up the wall, settle on the tighter end, mark beside the straightedge; repeat at the far end; **then join the two marks with the beam** — giving a true vertical plane offset from the wall by exactly straightedge + beacon.
+
+- **⚠️ Record the plane before you lose it**: mark where the beam falls **on the walls and additionally on the floor**.
+- **Perpendicular by machine rather than by measurement**: «уровень сам строит чёткий перпендикуляр под 90° по осям» — put one axis on the mark already made and the second shows where 90° lands. On this job it needed shifting **3 mm** toward the wall, then verified by the beam touching the end marks at both ends.
+- **He built the walls square and still plasters to the angle and re-checks it**: «стены я возводил под прямым углом, но тем не менее штукатурить всё равно придётся, и будем проверять угол с помощью уровня».
+- **Three beacons on the wall with the door opening — check they are coplanar by laying a long straightedge diagonally across all three; it must touch at all three points.**
+
+### ⚠️ The beacons come out, and that is the point
+
+**After roughly 1.5–2 hours — when the plaster no longer sticks to the hand but still dents under pressure — he removes the metal beacons and cuts the wall back floor-to-ceiling with a long trapezoidal rule.**
+
+> **The stated reason is specific: to take off the bumps that form around the beacons, because the beacon itself may be slightly out of true.** The beacon is a temporary reference, not a part of the finished wall. — Василий
+
+- **Technique: draw the rule slightly diagonally so it does not drop into the groove** the beacon left.
+- **⚠️ Fill the beacon grooves immediately, while the plaster is still damp, and leave the fill standing deliberately proud** — then cut that back once it has set. **«Иначе может немножко усесть и будет ямка.»** A named counter-step for the exact defect the repair would otherwise create.
+- **Colour change is his cure indicator**, pointed out on camera between first-applied and just-filled areas.
+
+**⚠️ Read this against the rust-bleed mechanism in the section below**: pulling the beacons removes that failure mode entirely rather than mitigating it, which makes the two accounts complementary — one prevents the defect, the other manages it when the beacon stays in.
+
+**QC**: straightedge on the diagonal, level, **and the corners checked against 90° from the outside as well.** **⚠️ Plus a deliberate extra worth copying: the corner where the kitchen units will stand was kept square even though that wall was not being plastered** — «я не знаю, будет ли она выравниваться впоследствии, но угол также сохранён, выведен». **Squareness preserved for cabinetry someone else will fit later.**
+
+[source: [[_Sources/YT_4SZG3yJqtQk_sanuzel_p44_ep2_plaster_and_screed|YT_4SZG3yJqtQk]]]
+
 ## Beacon Rust-Bleed Mechanism, Corner Scoping, and Two New QC Field Tests (Петришин-Строй, added 2026-08-24, Round 2)
 
 Same channel as the plastering-basics video above (`YT_D1REgSDwILU`) —

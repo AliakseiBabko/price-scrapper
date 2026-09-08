@@ -165,3 +165,66 @@ Three answers in pick 3 survived the discount because they are mechanism-level, 
 **Recommend against**: the trade-show/manufacturer content (now tested), and the short обзоры (untested but consistent with the original triage).
 
 **⚠️ Budget note, unchanged and still the user's call**: this is one trade in one room against the vault's densest folder. Round 1 returned 19.5 facts/video, which is solid but below the `@YourInteriorDes` band of 28.7–36.0 — and that channel still has ~45 Tier-1 titles left. **If the two compete for the same budget, the comparison is real and this channel does not obviously win it.**
+
+---
+
+# ✅ ROUND 2 COMPLETE — 2026-09-08, 6/6 processed, 163 new facts, yield 27.2 facts/video
+
+**Up 39% on Round 1's 19.5, and the round was scoped on Round 1's own format finding rather than on what titles were left** — which is the third consecutive confirmation across this vault that **format-based scoping beats titles-remaining scoping.** All six fetches clean, zero rate-limit signatures. **18 pages across 4 folders, 533 lines of prose.** Nothing over the backstop, no fragmentation.
+
+| Video | Format | Result |
+| :--- | :--- | :--- |
+| `6x_rmCEyxTE` серия 1 | riser replacement + blockwork | **24 facts, MEDIUM** — factory tour |
+| `4SZG3yJqtQk` серия 2 | plaster + screed | **27 facts, low** |
+| `0nJt_VkOxDo` серия 4 | pipework + frame + installation | **28 facts, low** |
+| `slpRtjzBN4c` серия 5 | trap + tray + waterproofing | **30 facts, low** — joint-densest |
+| `d9MQq-SgH1U` серия 6 | tiling + adhesive + epoxy | **30 facts, low** — joint-densest, first price |
+| `VaWyCaaFXqk` | technical project / take-off | **24 facts, low** — best for `11_Budget` |
+
+## ⚠️⚠️ The methodological finding: process a serialized build IN ORDER
+
+**Three claims changed epistemic status without their content changing**, because a later episode executed or explained what an earlier one asserted:
+
+- **The perimeter damper** — hedged as his own reasoning in the ПИК video, **executed as a named 3 mm product** in episode 2.
+- **«Gypsum plaster under tile needs acrylic waterproofing»** — a flat statement in the ПИК video, **given its full mechanism and a scope consequence** in episode 5.
+- **The silicone sealing tape** — a first trial in episode 3, **its verdict** seven months later.
+
+> **→ A claim's status moves across a series even when its wording does not. Batching episodes out of order loses that, because you cannot tell which statement was the author's untested reasoning at the time he made it.**
+
+**⚠️ And one loop closed across five episodes**: every episode left deliberate movement gaps, and **episode 5 says what they mean for water — they are the entry vector, and the membrane is what makes them survivable. The gaps and the waterproofing are one design, not two steps.**
+
+## ⚠️⚠️ And it revised Round 1's own assessment
+
+Episode 1 tours the **Ostendorf** factory; episode 4 installs **Elson** pipe and builds from **профиль ТЦ**. **Three of the four stands in the «Производитель ответит!» video are his own suppliers** — that source is a **supplier round-up**, not an independent interview.
+
+- **Unchanged**: its three mechanism-level answers, which stand on their own logic.
+- **Changed**: every unfalsifiable figure in it is **marketing carried by a customer.**
+- **⚠️ Rule for intake: check a source's own product catalogue before rating the independence of its manufacturer interviews.** Nothing in that video disclosed the relationship; two later episodes did.
+
+**And it turns out the round's most valuable price finding explains that video's weakest moment**: his evasive «покупайте больше» answer from the profile maker's director was **the reply to a question he asked as a customer choosing between a 366,000 RUB and a 265,000 RUB system.** The evasiveness stands; the question was serious.
+
+## Best of the facts
+
+- **⚠️ A sacrificial bonded skin over a wall you may not chase** — the direct answer to a blocker this vault already records, and **the bonding is the technique**, because the chase cuts almost through.
+- **⚠️ The beacons come out before the plaster hardens** — the beacon is a temporary reference whose own error would otherwise be built into the wall.
+- **⚠️⚠️ Waterproofing thickness is the spec, it is invisible, and colour proves nothing — so count the empties against the datasheet.** The one QC test in this whole round that a homeowner can run unaided.
+- **⚠️ A take-off that returns a cutting plan: 86 cm of total waste on 114 m ordered.**
+- **⚠️ A ~28% delta between two "full analogue" systems on an identical BOQ**, visible only because the take-off existed first.
+- **⚠️ A costed personal error he paid for himself — 12,000 RUB ≈ $130 — and the corrective: on a single-unit order, the offcut is the rehearsal.**
+- **Two Perspectives splits opened** (frame footing vs load-bearing carcass; epoxy grout), **the second of which resolves into a placement rule** — epoxy in the field, silicone at internal corners and the rim.
+
+## ⚠️ Where the channel now stands, and my recommendation
+
+**The П-44Т series is complete — all six episodes processed.** With Round 1 that is **10 of 46 videos**, and **every long-form format on the channel has now been tested**: serialized execution, on-site decision, manufacturer Q&A, post-occupancy, and technical project.
+
+**⚠️ I recommend stopping here rather than opening a Round 3, and the reason is not yield.** What remains in Tier 1 is largely **a second full build series (П-3, five items, 2h20)** plus **the standalones**. On the format model those should yield well — but the П-3 set is *the same practitioner doing the same trade with the same methods in a different panel series*, and **this round already produced the diminishing signal to watch for: episodes 1, 2 and 4 spent a large share of their value corroborating and explaining the ПИК job rather than adding new subjects.** A second full series would likely be **mostly corroboration of a voice this vault now has ten sources from.**
+
+**If it is picked up anyway, take these three and stop:**
+
+1. **`VaWyCaaFXqk` is done, so the natural next single item is `9aKNikb29FI`** («Маленькая ванная — не повод для расстройств», 22:04, detailed small-bathroom project in SketchUp) — **the design-side counterpart to the take-off video, at this project's own 3 m² scale.**
+2. **`2wxwztd6IGU`** (45:04, the longest П-3 item) **as a single probe of the second series** rather than the whole set — if it comes back mostly corroborating, the series is closed on evidence.
+3. **`UJn-cA7ZmRU`** (унитаз replacement, 20:07) — **directly actionable for this project, whose WC pan is already fitted and is a likely replacement.**
+
+**Still recommend against**: the ~28 short обзоры, and the trade-show/manufacturer content (tested twice now — once for yield, once for independence).
+
+**⚠️ And the budget comparison from Round 1 is now sharper, not softer.** Two rounds at 19.5 and 27.2 facts/video, against `@YourInteriorDes` at 28.7–36.0 with ~45 Tier-1 titles left. **This channel has delivered its best material — a complete build, a take-off method, and a waterproofing argument the vault had nowhere else. The next marginal video from it is worth less than the next marginal video from the six unpreflighted Group B channels.**

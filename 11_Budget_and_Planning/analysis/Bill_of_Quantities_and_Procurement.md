@@ -172,6 +172,82 @@ buying direct from AliExpress removes the supplier's inspection-and-rejection st
 - **⚠️ And the same red flag this vault already holds, now quantified as a page count: «у меня смета например на 100 страниц, а у других строителей она просто на формате А4 на листочке: позиция "стены" — 400.000 вместе с материалами. Откуда клиент знает, какие материалы он туда будет [закладывать]?»**
 - **Context for reading any dated rough-materials figure from this period: rough materials had risen «чуть не в два раза» over the preceding year (stated October 2023).**
 
+## 5a-quinquies. ⚠️⚠️ A Take-Off Done From a 3D Model, With the Cutting Plan and Sub-1% Waste (Vasily_Sanuzel, 2024-03-27)
+
+**Every смета on this page is written by someone who quotes for a living. This is the
+other direction: a one-man fitter deriving quantities for himself, from a model,
+before he orders anything** — and it is the only account here that produces a
+**cutting plan** rather than a total.
+
+**⚠️ He limits his own authority first**, which is worth quoting because it frames the
+whole method as optional rather than professional practice:
+
+> «**Технический проект и вообще проектирование — это не работа для строителя, это всё-таки вещь для проектировщика.** Но поскольку я работаю один, то эти обязанности я беру на себя. **Хотя конечно же это также не обязательно.**» — Василий, Vasily_Sanuzel
+
+**Both of his stated reasons are about quantities, not drawings**: it is «очень
+сложно посчитать необходимое количество материала» once connectors, board and
+backings all have to coexist, and **«объём действительно не маленький, и всё это
+вручную посчитать можно либо долго, либо с большой погрешностью»**. Clash detection
+is the secondary benefit in his own ordering, not the primary one.
+
+### The workflow
+
+1. **Measure the room exactly after the walls are built and plastered** — here **180 cm deep × 178.5 cm wide** — and **model adjacent rooms at approximate "conditional" sizes purely for orientation.** Exact where it matters, conditional where it does not.
+2. **Mark the existing services first**, then design against them.
+3. **Run the program's report — quantity, article number and name for everything modelled: «почти 100 позиций»**, and that excludes the profiles.
+4. **Export to Excel and edit**: he uses a different sewer system than the model library's, **so those article numbers have to be swapped by hand.** «Тем не менее это реально ускоряет процесс.»
+5. **⚠️⚠️ A separate spreadsheet for the profiles takes each required piece's length and count and returns both the number of stock lengths to order AND how to cut each one.**
+
+| Figure | Value |
+| :--- | :--- |
+| Stock lengths ordered (3 m) | **38** |
+| Total ordered | **114 m** |
+| Consumed | **~113 m** (spoken imprecisely) |
+| **Total offcut waste for the whole job** | **86 cm** |
+
+`arithmetic-consistent`: 38 × 3 = 114 m, and 114 − 0.86 = 113.14 m — so the "113" is
+a rounded 113.14. **Under 1 % waste on a large framing package, obtained by nesting
+the cuts rather than by ordering generously.** This is the concrete answer to the
+waste-allowance question that every material line on this page otherwise handles with
+a percentage.
+
+### ⚠️ The scoping discipline is half the method
+
+**What he deliberately does not model**: the pipes themselves («без надобности»), the
+hatch hinges, and a third riser behind an existing boxing whose position he does not
+know and does not intend to touch. **⚠️ But fixings are now included, and he names it
+as a change in his own practice — «раньше я этого не делал, теперь стараюсь
+закладывать сразу в проект».** Modelling everything is what makes this unaffordable;
+modelling what needs coordinating is what makes it pay.
+
+### ⚠️⚠️ Two retail quotes for the same assembly, and a 28% delta between equivalents
+
+| System | Retail total | USD equivalent |
+| :--- | :--- | :--- |
+| **Профиль ТЦ** (steel), as modelled | **366,000 RUB** | **≈ $4,000** |
+| **Aluminium equivalent** (Русteplopol), described as «полный его аналог» | **265,000 RUB** | **≈ $2,900** |
+| **Difference** | **101,000 RUB** | **≈ $1,100** |
+
+*USD/RUB trailing 6-month mean to 2024-03-27 = 91.9817. $3,979 / $2,881 / $1,098,
+rounded to the nearest 100 in the $1,000–$99,999 band. **Region: Moscow area, level 2
+— channel association only, no city spoken. Delivery model: self-managed, itemised,
+purchased by the fitter himself.***
+
+**⚠️ Both are stated as retail list prices and he expects to beat them** — «там о
+какой-то скидке договоримся с поставщиками» — **so read them as ceilings, not as paid
+prices.** The transferable point is not the totals but that **a "full analogue" in a
+different metal came in ~28 % lower on an identical bill of quantities**, which is
+only visible because the take-off existed first.
+
+**⚠️ And it re-reads a passage in another source on this page's subject.** In the 2024
+trade-meet Q&A he asks that same manufacturer's director **what a metre of profile
+costs to make and what would make it three or four times cheaper**, and gets «покупайте
+больше». **The evasiveness stands as the finding — but the question was a customer
+standing on a six-figure decision between two systems, not a channel filling
+airtime.** See [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|that note]].
+
+[source: [[_Sources/YT_VaWyCaaFXqk_sanuzel_technical_project_material_takeoff|YT_VaWyCaaFXqk]]]
+
 ## 5b. Two Procurement Traps That Change the Budget (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 ### Large ceramic slabs: the delivery you didn't budget for

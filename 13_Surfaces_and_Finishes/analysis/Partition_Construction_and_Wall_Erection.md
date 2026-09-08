@@ -79,6 +79,32 @@ Split out of `Walls_and_Paint.md` on 2026-08-31, when that page reached 921 line
 
 [source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
 
+### ⚠️ The Same Method Filmed in Full — Bed, Bond, Lintel and the Foam Joint's Mechanics (Vasily_Sanuzel, П-44Т серия 1, 2023-09-12)
+
+The build the section above summarises, shown step by step on a different job. **Everything here either explains or extends the ПИК account rather than repeating it.**
+
+- **First course on a fast-setting compound (Litokol Plan Rapid) — «буквально через полчаса она уже встаёт камнем».** The slab has level differences and **the first course must be dead level, so its bed thickness varies** (~15 mm here). He rejects the common alternative explicitly: «кто-то делает подушку из стяжки… мне это неудобно, я буду укладывать сразу на раствор». The first course «задаёт всё направление» and is set to a laser plane.
+- **Grind and prime the floor and the abutment lines before laying** — not the whole floor, just where the wall lands.
+- **Subsequent courses on block adhesive with a notched trowel, joint ~2–3 mm.**
+- **⚠️ Mix the adhesive wetter than the bag says** — «ближе к жидкому» — **because aerated block draws water so strongly that a semi-liquid mix stiffens to the right consistency once it is on the block.** A deliberate deviation with a stated mechanism; and because the joint is thin, the blocks grab fast enough to run a wall to ceiling in a day after the first course.
+- **Stagger the blocks («перевязывать»)**: a whole block must cover the joint below. **Half-lap ideally, one-third/two-thirds acceptable.**
+- **⚠️ Check the level from ONE face only, chosen in advance** — «блоки играют по толщине, немного разные, поэтому показания уровня могут отличаться». **Checking both faces yields contradictory readings from the blocks' own thickness variation, not from bad work.** A genuinely non-obvious rule that this page's existing plane-alignment material does not state.
+- **⚠️ Vertical beats horizontal**: a horizontal error is fixable with adhesive and «вообще не критично»; **a vertical error is paid for later in plaster thickness.**
+- **Lay the door opening oversize and cut it to size after plastering** (see [[13_Surfaces_and_Finishes/analysis/Wall_Prep_and_Plastering|Wall Prep & Plastering]]) — stated across three of his videos.
+
+**⚠️ The lintel, which this page had nothing on:** two blocks glued face to face with **adhesive foam** («за час-два этого хватает»), **a chase cut along its length**, adhesive laid into the chase, and **two metal studs bedded in as reinforcement** — explicitly to prevent **diagonal cracking from the opening's corners**. «Армировать всегда надо. Все это делают по-разному — кто-то снизу, кто-то сверху; я делаю вот так.» **The lintel is placed while laying, and only then is the opening cut.**
+
+**⚠️ And the foam joint gets its mechanics, which explain the dimension:**
+
+- **The 1–2 cm gap is not a tolerance — it is the clearance a foam gun's nozzle needs to reach deep into the joint.** And **foam from both faces**, because full depth is not reachable from one side.
+- **The gap is left at the ceiling as well as the walls** — «газоблок и бетон по-разному расширяются, по-разному двигаются; они должны жить независимо друг от друга».
+- **⚠️ Dampen the gap with plain water first** — and not soaking: «прямо на мокрый наносить не надо», let it draw in slightly.
+- **⚠️ Start at the ceiling**, because the can's liquid settles downward and runs out — so the least accessible run is done while there is still propellant.
+- Trimmed once cured. The foam **expands into a wedge («встаёт в распор»)** so the partition is rigid — «в жизни не упадёт» — **while the damper layer survives**, so «внешнее давление не будет передаваться друг на друга».
+- **QC: a 3 m straightedge laid diagonally, corner to corner**, on what he is careful to call **черновая кладка** still to be plastered.
+
+[source: [[_Sources/YT_6x_rmCEyxTE_sanuzel_p44_ep1_risers_and_blockwork|YT_6x_rmCEyxTE]]]
+
 ## Layout Marking, Squareness and Wall-Plane Alignment
 
 ### Layout Marking & Hard/Flexible-Dimension Erection Methodology — per Zemskov/Zemstandart (added 2026-08-19)
@@ -224,6 +250,21 @@ settling into a genuine technique-and-acceptance format).
 **And a wet-room specification: waterproof plasterboard chosen deliberately THINNER — 12.5 mm rather than 15 mm — «чтобы он не набирал воду и сохранял свои свойства», with the total wall build-up at 150 mm.** [same source]
 
 ## Structural Openings and Regulatory Workarounds
+
+### ⚠️⚠️ A Sacrificial Bonded Skin — How to Chase Services Into a Wall You Are Not Allowed to Cut (Vasily_Sanuzel, 2023-09-12)
+
+**The problem this vault already records as a hard blocker** — a load-bearing or monolithic wall that cannot be chased (see [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Rough Plumbing Sequencing]]) — **and a fitter's answer to it that is not "route around it".**
+
+His statement of the constraint: «по всем СНиПам и нормам строительным данную стену несущую запрещено как-либо повреждать, то есть резать» — and the wall in question is the one the services have to run in. So he **thickens it with aerated block bonded to its face and chases the services into the added skin.**
+
+> **⚠️ The bonding is the whole technique, and he says why: «важно не просто возвести рядом отдельную стену — важно именно приклеить к этой стене сам блок.»** At the very bottom, cutting the chase for the sewer means cutting **almost all the way through** the added skin — **an unbonded skin would collapse at that point.** — Василий
+
+- **Notched trowel stepped up to 10 mm**, and adhesive applied **to the wall as well as to the block**.
+- **Substrate prep first**: a white surface deposit («я не знаю, что это было») ground off with a **diamond cup wheel**, then primed — «чтобы он сильно не впитывался и адгезия… произошла максимальная».
+- **⚠️ Note what is deliberately NOT done: no plumb or level chasing.** «В данном случае нет никакой необходимости — мы просто повторяем плоскость вот этой стены, только уже более лёгким материалом, который разрешено будет резать.» **The skin's job is to be cuttable, not flat** — so it costs only its own thickness, not a plastering exercise.
+- ⚠️ **Jurisdiction**: the СНиП appeal is his, in passing, with no code cited — and this is a Russian source. Treat the *technique* as transferable and **verify the prohibition against Belarus rules before relying on it here.**
+
+[source: [[_Sources/YT_6x_rmCEyxTE_sanuzel_p44_ep1_risers_and_blockwork|YT_6x_rmCEyxTE]]]
 
 ### Load-Bearing Wall Opening: Cutting & Reinforcement Technique — per Zemsproekt/Zemstandart (added 2026-08-17)
 

@@ -1317,3 +1317,50 @@ The round was partly justified on «узел ввода» being a **zero-coverag
 - The **ПИК sanitary-cabin verdict** was routed as corroboration of the **position** only, explicitly flagged as unargued — one line, no mechanism.
 - **Every vendor figure** from the trade-stand video is flagged `vendor claim` where it is routed. None was checked on camera.
 - One ASR-garbled room dimension was **discarded rather than reconstructed**, and **no brand name was taken** from the 2022 source.
+
+## 2026-09-08 — Vasily_Sanuzel Round 2: a serialized build processed in order, and it revised Round 1
+
+**6 videos, 163 new facts, yield 27.2 facts/video — up 39% on Round 1's 19.5.** Five П-44Т episodes in series order plus the material-take-off video the series kept pointing at. **18 pages across 4 folders, 533 lines. All fetches clean.** Two Perspectives splits opened; nothing over the backstop; no fragmentation.
+
+### ⚠️⚠️ The methodological finding: process a serialized build IN ORDER, and watch for status changes
+
+**Three claims changed epistemic status because a later episode executed or explained what an earlier one had merely asserted** — and none of the content changed:
+
+| Claim | Was | Became |
+| :--- | :--- | :--- |
+| Perimeter damper under plaster | **hedged reasoning** — «мне кажется, это логичной операцией» | **a named product at 3 mm, executed and cut off afterwards** (ep 2) |
+| «Gypsum plaster under tile needs acrylic waterproofing» | **a flat statement**, referred out | **full mechanism plus a scope consequence** (ep 5) |
+| Silicone sealing tape | **a first trial** (ep 3) | **its verdict, seven months later** |
+
+**→ A claim's status moves across a series even when its wording does not. Batch-processing episodes out of order loses that, because you cannot see which statement was the author's own untested reasoning at the time.**
+
+**⚠️ And one loop closed across five episodes.** Every episode left deliberate movement gaps — block-to-wall, block-to-ceiling, plaster-to-structure, board cut-outs. **Episode 5 says what they mean for water: they are the entry vector, and the membrane is what makes them survivable. The gaps and the waterproofing are one design decision, not two steps.**
+
+### ⚠️⚠️ The integrity finding, and it revises Round 1's assessment
+
+Episode 1 tours the **Ostendorf** factory with an unsupported superlative attached; episode 4 installs **Elson** pipe and builds the carcass from **профиль ТЦ**.
+
+**→ Three of the four stands in Round 1's «Производитель ответит!» video are his own working suppliers.** That source is **a supplier round-up, not an independent interview**, and its «выяснить всю правду» framing oversells it.
+
+- **Unchanged**: the three mechanism-level answers, which stand on their own logic. The cement-laitance rule argues *against* selling anything; the socket-restorer geometry is checkable.
+- **Changed**: every unfalsifiable claim in it — 50–100-year service lives, "3–5% flash", "the only alternative to SML", tin-plating equal to bronze — **is now marketing carried by a customer.** The `vendor claim` flags were right; this is a second, independent reason for them.
+- **⚠️ Generalises to intake: when a source interviews manufacturers, check the source's own product catalogue before rating the interview's independence.** Nothing in that video disclosed the relationship; two later episodes did.
+
+### The findings worth naming
+
+- **⚠️ A sacrificial bonded skin over a wall you may not chase** — aerated block **glued** to a load-bearing wall's face, services chased into the skin, **and the bonding is the technique**: at the bottom the sewer chase cuts almost through, so an unbonded skin would collapse. **No plumb or level chasing — the skin's job is to be cuttable, not flat.** The direct answer to the monolithic-wall blocker this vault already records.
+- **⚠️ The beacons come out before the plaster hardens**, and that is where the final plane is decided — the beacon is a temporary reference whose own error would otherwise be built in. **Fill its groove proud, then cut back.** It removes the rust-bleed failure mode this vault holds from another channel rather than mitigating it.
+- **⚠️⚠️ Waterproofing thickness is the specification, it is invisible, and colour proves nothing** — his own client said «всё синее — значит, загидроизолировано». **The test a homeowner can actually run: count the empty containers against the datasheet's coverage rate** (~18 kg for this room). **Too thin is why membranes come away in sheets.**
+- **⚠️ A plaster chosen for an unrelated reason expanded the waterproofing scope to the whole room** — gypsum plaster was forced by the gypsum ventilation shaft, and gypsum does not bond with cement tile adhesive, so the membrane became the bonding intermediary on every wall floor to ceiling.
+- **⚠️ A take-off that returns a CUTTING PLAN**: 38 three-metre sticks, 114 m ordered, 113.14 m consumed, **86 cm of total waste — under 1% by nesting.** The concrete answer to a question `11_Budget` otherwise handles with a percentage.
+- **⚠️ Two retail quotes for an identical bill of quantities: 366,000 RUB steel against 265,000 RUB for an aluminium "full analogue" — ~28% apart, ≈$4,000 vs ≈$2,900, visible only because the take-off existed first.**
+- **⚠️ A costed personal error, paid by him: 12,000 RUB (≈$130) for a slab he cut wrong** — and the corrective is filmed: **on a single-unit order, the offcut is the rehearsal.**
+- **Two Perspectives splits opened rather than smoothed**: whether a wall-hung WC frame must bear on the floor slab (a load-bearing carcass versus a footing — **a different structural concept, not the same one done badly**), and **whether epoxy grout is worth it — which resolves into a placement rule: epoxy in the field, silicone at internal corners and the rim**, exactly the rule broken in the bath-rim leak case that hardens the opposing view.
+- **A divergence recorded on adhesive class limits**: C1 stops at 30 × 30 here, at a 60 cm long side in Kruglov's account. **Take the tighter limit near the boundary.**
+
+### Not carried
+
+- **The factory-tour content** and the «самая лучшая канализация» superlative — nothing routed.
+- **Three ASR-garbled figures discarded rather than reconstructed**: a socket-depth pair (198 / 6 cm), a разуклонка fall dimension, and a cement-board thickness of «3 мм» that is not a real product thickness.
+- **Two Russian normative assertions** («по ГОСТам» for pipe insulation, «разрешено скрывать» for soldered joints) — techniques carried, jurisdiction flagged, **nothing to `16_Legal_and_Regulations/`.**
+- **One step he says he is not sure mattered** (mesh-and-C2 at the board joints on a small panel) — recorded as his own hedge, not as a rule.

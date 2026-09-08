@@ -68,6 +68,38 @@ trip. [source: [[_Sources/YT_NjOkuREH8lI_petrishin_grout_selection_personal|NjOk
   design lever, not just a match-or-clash binary choice.
 - [source: [[_Sources/YT_Rm0aHk4flxc_petrishin_finishing_materials_shopping|Rm0aHk4flxc]]]
 
+## ⚠️⚠️ Perspectives — Is Epoxy Grout Worth It? A Designer Says No, a Tiler Says the Objection Is a Competence Signal (opened 2026-09-08)
+
+**Two named practitioners, a year apart, taking opposite positions on the same product — and the disagreement resolves into a placement rule rather than a winner.**
+
+### The case against — Александр Синчуков (NSDSGN, design-build owner, 2022-10-04)
+
+Recorded in full on [[07_Bathroom/analysis/Tile_Cutting_Handling_and_Special_Formats|Tile Cutting & Special Formats]]. In summary: epoxy is «вечный материал» **but ×3–4 the material cost and ×2 the labour cost**, and the labour premium exists **because «цена ошибки очень велика» — a mistake cannot be scrubbed or dug out, «она схватывается намертво».** His clinching argument is by analogy: **swimming pools use cement grout with fixative additives, not epoxy, and it holds water.** Conclusion: don't bother, save the money, «визуально большой разницы не будет» — **and ask your tiler, because the tiler carries the warranty.**
+
+### The case for — Василий (Vasily_Sanuzel, working tiler, 2023-11-14)
+
+> «Многие люди почему-то боятся использовать эпоксидную затирку… мастера аргументируют: зачем это вам надо, она дорогая. **Любые аргументы, которые мастер говорит против эпоксидной затирки, означают лишь одно: либо он не умеет с ней работать, либо он работал с ней давным-давно, у него ничего не получилось, и с тех пор прошло много времени** — производители прислушиваются к мастерам и адаптируют свой продукт.» — Василий
+
+**He then does the thing the objection says is hard**, on camera, and names the removal sequence — **fibre sponge with soapy water (which also forms the joint), then a wrung cellulose sponge, then a wrung microfibre pad, and then the film must be dried off deliberately: «главное — не оставить вот этот влажный слой на высыхание, его нужно полностью высушить сразу».** Small batches, **~400 g**, joints clean before filling. **⚠️ And the barb that carries the argument: «все эти шаги описаны в инструкции, которые прикладывают к каждой упаковке. Ну почему-то её не хотят читать.»**
+
+### ⚠️ Common ground, which is larger than it first appears
+
+- **Both agree epoxy costs more in material AND in labour.** Василий concedes it directly: «она действительно дорогая, дороже обычной, **и работать с ней тоже дороже**». So the cost premium is not in dispute — only what it buys.
+- **Both point the client at the tiler.** Синчуков says ask him because he carries the warranty; Василий says his answer tells you whether to hire him. **Same question, opposite use — and together they make a usable vetting move: ask, and listen to whether the objection is about method or about price.**
+- **The disagreement is really about whether the labour premium is inherent difficulty or stale experience.** Синчуков's «оттереть и выковырять будет очень сложно» is answered, not contradicted, by a four-stage removal routine that says the film is manageable if you follow the datasheet.
+
+### ⚠️⚠️ And they reconcile into a placement rule, which is the actionable output
+
+**Василий does not use epoxy everywhere: internal corners get SILICONE, not epoxy.** External corners get a distinct treatment — masked with tape, filled generously, tape pulled immediately, then left 1.5–2 hours until the grout is «похожа на пластилин» and smoothed again.
+
+> **⚠️ That rule would have prevented the failure that hardens Синчуков's own position.** The leak chain this vault holds from his channel has **his builders using epoxy grout at the bath rim** — an internal movement junction — where it leaked. **Both sources therefore agree, from opposite directions, that epoxy does not belong in a moving junction.** Epoxy in the field, silicone at the internal corners and the rim. **See [[07_Bathroom/analysis/Bathtub_Materials_and_Installation|Bathtub Materials & Installation]].**
+
+**⚠️ Independent support from within this vault**: the same tiler's **one-year post-occupancy revisit** found the silicone internal corners intact and uncracked — see the section below. **The placement rule has an outcome attached to it, which neither the price argument nor the competence argument does.**
+
+**Still open**: the swimming-pool claim (unverified either way), and whether epoxy's «вечный» durability is worth its premium in a private bathroom — **on which neither source offers service data.**
+
+[source: [[_Sources/YT_d9MQq-SgH1U_sanuzel_p44_ep6_tiling_adhesive_epoxy|YT_d9MQq-SgH1U]]]
+
 ## Silicone in the Internal Corners — With a One-Year Outcome Attached (Vasily_Sanuzel, Moscow, 2022-01-23)
 
 **The technique is not new; the verification is.** Revisiting his own bathroom after a year of daily use, Василий points at the wall tile — nothing cracked anywhere — and attributes the internal corners specifically to having used **silicone grout in them** «как раз для того, чтобы она не потрескалась и выглядела [аккуратно]».

@@ -53,6 +53,22 @@ Zemstandart / Alexey Zemskov says **demand this test be performed in front of yo
 
 [source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
 
+## ⚠️ A Fourth Protocol Variant — Re-Pressurise and Re-Hold, With the Physics Stated (Vasily_Sanuzel, 2023-10-14)
+
+Same practitioner as the section above, on an earlier job, and **this account adds a step the protocol at the top of this page does not have.**
+
+- **Water run through, every tap opened, then the riser valves closed and the test pump connected.**
+- **⚠️ The reason bleeding matters, stated as physics rather than as a step**: «важно помнить, что **воздух сжимается, а вода — несжимаемая жидкость**, поэтому воздух из труб нужно согнать». **He fits Mayevsky (bleed) valves throughout for this** — they hold pressure while releasing air, which is a cleaner solution than the uncap-and-recap sequence described above.
+- **Hot and cold bridged with a jumper so both circuits are tested in one pressurisation** — **independent corroboration of Zemskov's "lifehack" already recorded above**, from a practitioner who does not cite him.
+- **Working pressure on this job: 3 atm. Test pressure: 10 atm** — matching this page's figure for the third time.
+- **⚠️⚠️ The added step: hold ~30 minutes, then top back up to 10 atm — «за это время… может, где-то ещё воздух остался» — and hold ~5 minutes more.** Only then is it a pass.
+  > **Why it matters against this page's existing rule.** The rule above says a drop of up to 0.5 atm is normal because of residual air and pipe expansion. **This protocol removes the ambiguity instead of tolerating it**: re-pressurise once the air has worked out, and the second hold is a clean test with nothing to excuse. **The two are compatible — the 0.5 atm allowance covers the first hold, the re-hold is what confirms it.**
+- **⚠️ Instrument caution worth knowing before trusting a reading**: his own gauge's scale ends at **6 atm**, so at 10 atm the needle is «на второй круг пошёл» — a full lap round the dial.
+- **Only after it passed did he fill the chases** — «могу быть уверен, что передаю заказчику полностью исправную и рабочую систему». **The test gates the closing-up, which is the whole point of doing it at rough stage.**
+- On the same job it doubles as the answer to whether a concealed mixer can be trusted — see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers & Sinks]].
+
+[source: [[_Sources/YT_0nJt_VkOxDo_sanuzel_p44_ep4_pipework_frame_installation|YT_0nJt_VkOxDo]]]
+
 ## A Distinct Protocol Variant (added 2026-08-24, Round 2)
 
 Konstantin Kruglov/Ontario, real Moscow jobsite, describes a **different pressure-testing protocol** from the same broad practice: pressurize the water-supply system to **8 atm specifically** (not 10, because the manometer gauge itself may not reliably tolerate 10) and hold **30 minutes**, checking for drop or dampness; pressurize the heating system separately to **10 atm**, same 30-minute hold. This differs from the Zemstandart-sourced protocol above in both the water-side ceiling (8 vs. 10 atm) and hold duration (30 vs. 10 min) — recorded as a distinct practitioner's own variant, not merged into the numbers above, per this store's non-blending convention for numeric figures. [source: [[_Sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]

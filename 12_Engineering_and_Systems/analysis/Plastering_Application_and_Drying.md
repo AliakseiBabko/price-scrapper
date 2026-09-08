@@ -100,6 +100,23 @@ beacon cost, priced separately in ep.12's estimate):
   and get good results the traditional way.
   [source: [[_Sources/YT_Q70kwfR0LGs_sidorik_plaster_tricks_ep13|YT_Q70kwfR0LGs]]]
 
+## ⚠️ Two Straightedge Types That Do Different Jobs, and a Mixing Rule (Vasily_Sanuzel, П-44Т серия 2, 2023-09-17)
+
+**A tool distinction this page did not carry, and it explains why a plasterer owns two rules:**
+
+| Rule type | Purpose |
+| :--- | :--- |
+| **H-profile («H-образное»)** | **Applying and levelling** — «выступает в роли кельмы, только намного длиннее», so it spreads, transfers and moves material |
+| **Trapezoidal («трапециевидное»)** | **Cutting back** plaster already applied — and the same type is used to press beacons into their bed |
+
+**Mixing, with the counter-intuitive instruction stated as such**: the whole bag at once, **17 L of water as printed**, measured in a graduated bucket. **⚠️ «Кажется, будто бы густая и хочется добавить воды. Но на самом деле этого делать не надо — надо дальше продолжать мешать.»** Then **let it stand ~5 minutes and re-mix.** He washes the mixer after every batch — «этому уже несколько лет».
+
+**Application**: he shows three ways to get material on the wall (throwing it; loading the trowel and rubbing it in; large random dabs then smoothing with a float), then works it with the H-rule. **⚠️ Then the finishing pass — draw the rule from top to bottom, shaving the surface: «чем толще слой, тем больше будет штукатурки срезаться».** So a thick layer is not merely more material, it is also more waste and more work at this step.
+
+**The beacons then come out before the plaster hardens** — see [[12_Engineering_and_Systems/analysis/Plastering_Beacons_and_Geometry|Plastering — Beacons & Geometry]] for that step, which is where this job's final plane is actually decided.
+
+[source: [[_Sources/YT_4SZG3yJqtQk_sanuzel_p44_ep2_plaster_and_screed|YT_4SZG3yJqtQk]]]
+
 ## Thick-Layer Ceiling Plaster Without Full Metal Mesh (added 2026-08-24, Round 3, ep.14)
 
 Pavel Sidorik, same project, 4th of 5 consecutive plastering episodes —

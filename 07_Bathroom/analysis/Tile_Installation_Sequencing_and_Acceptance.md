@@ -14,6 +14,36 @@ Konstantin Kruglov / Ontario, a dense, non-promotional "7 rules" technical video
 - **⚠️ Heated-floor cure-time rule, with a specific named failure mode**: never turn on a heated floor until the tile adhesive has fully cured — **minimum 28 calendar days after tiling**. The most common mistake in this category is switching on the heated floor early specifically to speed up adhesive drying — this deforms the adhesive and causes the tile to detach. Do not let installers do this even if asked to "test" the heated floor early.
 - **⚠️ A jobsite construction sink prevents a distinct detachment mechanism this list doesn't otherwise cover**: without a convenient sink, a tiler wet-cutting tile on a saw rarely bothers to rinse the dirty cutting slurry off the cut face before installing — the dried slurry becomes an invisible dust layer, and adhesive applied over it bonds to that residue rather than to the wall, producing a later hollow-sounding tile. **Installers who then blame "a bad batch of adhesive" are often actually experiencing this residue-bonding failure instead.** See [[11_Budget_and_Planning/analysis/Demolition|Demolition]] for the construction-sink build instructions this mechanism is drawn from. [source: [[_Sources/YT_RNiSYvLX6Vc_petrishin_construction_sink_howto|RNiSYvLX6Vc]]]
 
+### ⚠️⚠️ The Adhesive Letters (T, E, S1) and the Bow That Explains All of Them — Plus Divide-the-Notch-by-Four (Vasily_Sanuzel, П-44Т серия 6, 2023-11-14)
+
+**A working tiler's version of the same buying vocabulary as above, and it supplies the mechanism the C1/C2 split leaves implicit.**
+
+> **The driver: a long or large tile carries a bow («дуга») you cannot see** — it sits either bowed out or «лодочкой». **The bigger the tile, the bigger the deformation, so the adhesive must be able to deform too.** — Василий
+
+| Code | What it means, as he explains it |
+| :--- | :--- |
+| **C0** | Cheapest — sand, cement, a few additives. **«Использовать я его не рекомендую нигде.»** |
+| **C1** | Acceptable, **up to about 30 × 30** (and 20 × 30) |
+| **C2** | **Bond > 1.5 MPa.** Minimum from **45 × 45 / 60 × 60 / 120 × 60 upward** |
+| **T** | **Thixotropic** — holds its combed shape; on floors it stiffens fast enough to move on the tile a little while laying |
+| **E** | **Extended open time** — critical on large formats, where a big area must be covered on both faces before the adhesive skins |
+| **S1** | **Deformability, and he separates it from plasticity: plasticity is the wet mix's workability; elasticity is the CURED adhesive's ability to deform without failing**, which is what absorbs the tile's bow. **S2 exists for very large formats** |
+
+**⚠️ Note a divergence from Kruglov above, and it is not trivial: Kruglov puts C1's ceiling at a 60 cm long side; Василий puts it at about 30 × 30.** Both agree C2 is the practical default and that C0 has no place. **Take the tighter of the two limits when the tile is anywhere near the boundary** — the asymmetry of the risk is why: C2 under small tile merely costs a little more, while **C0/C1 under 120 × 60 «может привести к печальным последствиям в виде отслоения, быстрого разрушения»**.
+
+**⚠️ Notched-trowel arithmetic, which this vault had in no form: a 12 mm notch gives about 3 mm of adhesive under the tile — divide the notch by four.** His derivation: combing at 45° leaves roughly half the notch height (~6 mm), and bedding the tile halves it again.
+
+- **Double buttering on large formats — combed on the wall AND a thin skim on the tile's back, deliberately filling the tile's own ribbed pattern.** Corroborates the >30 cm wall / >60 cm floor thresholds already on this page.
+- **Comb in one direction only**; excess off immediately; **clean the joint as you go.**
+- **⚠️ Levelling clips (СВП) are mandatory for large tile — and he is precise about what they do NOT do: «она стягивает между собой — она не делает уровень, она делает плоскость общую». Clips deliver a PLANE; the LEVEL comes from the laser and the setting-out.** He also shows the residual bow on camera and says he cannot fix it — a stated tolerance of the material rather than a perfection claim.
+- **A product property worth knowing**: the adhesive he chose **has no sand — marble dust as filler, like a putty — so a sand grain cannot end up sitting in a joint.**
+
+**⚠️ And he breaks the classic laying order on purpose.** The convention is far wall first, then side walls to cover the joint. He refuses it because **the shower zone was built so the tile is exactly 120 cm + 4 mm of corner joints and the linear drain's insert is also exactly 120 cm** — «чтобы всё везде сошлось, у меня и был изначальный расчёт под это всё». The resulting joint is treated, invisible, and hidden behind the shower enclosure. **The room was built to the tile-and-insert module, so the module beats the convention.**
+
+**⚠️ His own verdict on where the work actually is: «самая сложная часть — это, конечно же, разметка и вырезы… сама укладка уже намного проще и быстрее».**
+
+[source: [[_Sources/YT_d9MQq-SgH1U_sanuzel_p44_ep6_tiling_adhesive_epoxy|YT_d9MQq-SgH1U]]]
+
 ## ⚠️ External Corners Must Be Mitred at 45°, Not Plastic-Capped (Игорь Краснов, added 2026-09-01, Round 4)
 
 **A real, specific, checkable tile-installation quality standard, genuinely new to this vault.** For wet-room tile/porcelain work, an external corner should always be cut and mitred at 45° rather than covered with a plastic corner-trim cap. For 90° internal corners where wallpaper meets tile, similarly avoid plastic corner guards — instead reinforce the corner itself structurally so it doesn't chip/crumble even under repeated contact. **Ties into a scenario-planning point**: if a specific corner in a floor plan will predictably get bumped by foot traffic or kids running past, that's a signal the floor plan or furniture placement itself needs rethinking, not a signal to add a corner guard as a patch. `single-account`, `unverified`. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
@@ -111,6 +141,18 @@ re-extracted.
 ## Sequencing
 
 Lay and grout the floor tile **first**, including under the tub's footprint — set the tub *after* floor tiling, not before (see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower Selection]] for how the tub-to-wall-tile junction itself sequences).
+
+### ⚠️ Tile the Adjoining Rooms FIRST — a Logistics Reason, Not an Aesthetic One (Vasily_Sanuzel, П-44Т серия 5, 2023-10-28)
+
+He starts the tiling with **the corridor and kitchen floors rather than the bathroom**, and the reason is working space:
+
+> **He needs clear floor area to handle the large-format tiles going into the санузел.** So those rooms are tiled, grouted, **then covered for protection**, and only then do the tools move into the bathroom. — Василий, Vasily_Sanuzel
+
+**⚠️ A sequencing constraint that only appears once the tile format is large**, and one that cuts against the instinct to finish the wet room first. Pairs with the floor-protection method he uses to make it possible (see [[11_Budget_and_Planning/analysis/Demolition_Site_Management_and_Waste|Site Management]]).
+
+**⚠️ And the format sets the adhesive method**: the wood-look plank tile here **requires double buttering — notched trowel on the substrate AND a thin skim on the back of the tile applied with the flat side.** Grouted in **epoxy, colour matched to the tile at the client's request.** ⚠️ The plank dimensions are ASR-garbled and not carried.
+
+[source: [[_Sources/YT_slpRtjzBN4c_sanuzel_p44_ep5_trap_tray_waterproofing|YT_slpRtjzBN4c]]]
 
 ## Bathroom Tile-Laying Stage Sequence, and a Tile-Width-Dependent Refinement to the Classic-Layout Rule (Петришин-Строй, added 2026-08-24, Round 9)
 
