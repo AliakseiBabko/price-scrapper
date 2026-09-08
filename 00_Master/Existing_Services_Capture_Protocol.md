@@ -53,6 +53,13 @@ It was not a capability failure. **The information is not in the image.**
 > red = monolithic frame, do not touch · G\* green = block partition · M\* purple/orange = external wall
 > and лоджия enclosure.** So the code tells you what the wall *is*, not just where it is.
 >
+> **⚠️ Each segment is drawn with its real BOUNDARY, not just a tag in the middle** — a translucent band
+> over the wall's true footprint (centreline swept by its own thickness), an outline, and
+> **perpendicular ticks at both ENDS.** The ticks are the part that matters: collinear neighbours of the
+> same class merge into one continuous band without them, and the top wall is four segments in a row —
+> **R1a │ G2 │ R3 │ G3.** So you can see where one segment stops and the next begins instead of guessing
+> from the underlying plan.
+>
 > **The same codes are now also tagged on sheets 01 sockets, 02 lighting, 03 plumbing and 05 heating**, so
 > you can dictate straight off whichever sheet you are reviewing.
 >

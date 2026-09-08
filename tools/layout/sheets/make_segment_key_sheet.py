@@ -32,7 +32,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from sheet_lib import RUNS, Sheet  # noqa: E402
+from sheet_lib import MMPX, RUNS, Sheet  # noqa: E402
 
 # One colour per construction class, because the class is half of what the code
 # means: R* is the monolithic frame and cannot be touched, G* is block infill and
@@ -44,9 +44,9 @@ CLASS_COL = {
     'loggia_enclosure': (225, 130, 0),
 }
 CLASS_RU = {
-    'concrete': u'R* - монолитный каркас (не трогать)',
+    'concrete': u'R* - каркас (не трогать)',
     'aerated_block': u'G* - блочная перегородка',
-    'external': u'M* - наружная стена, 300 + 70 утеплителя',
+    'external': u'M* - наружная стена 300+70',
     'loggia_enclosure': u'M* - ограждение лоджии',
 }
 
@@ -82,6 +82,64 @@ def _centroid():
     return (sum(p[0] for p in pts) / len(pts), sum(p[1] for p in pts) / len(pts))
 
 
+def _footprint(wid):
+    """The wall's actual four corners, in basic px.
+
+    wall_runs.csv stores the CENTRELINE plus a thickness - on_wall() offsets by
+    th/2 from it, which is what fixes the convention. So the footprint is the
+    centreline swept perpendicular by half the thickness.
+    """
+    ax, ay, bx, by, th = RUNS[wid]
+    dx, dy = bx - ax, by - ay
+    length = (dx * dx + dy * dy) ** 0.5
+    ux, uy = dx / length, dy / length
+    px, py = -uy, ux
+    half = (th / MMPX) / 2.0
+    corners = [
+        (ax + px * half, ay + py * half),
+        (bx + px * half, by + py * half),
+        (bx - px * half, by - py * half),
+        (ax - px * half, ay - py * half),
+    ]
+    return corners, (ux, uy), (px, py), half
+
+
+def outline_segments(sh, only=None, fill_alpha=34):
+    """Draw each wall segment's real boundary, not just a label in its middle.
+
+    The owner, 2026-09-08: "you're putting label in the middle, and I need to
+    rely on the underlying image to see the boundaries. If you'd add clear
+    boundaries, like a border in specific color, it would help me a lot."
+
+    Three marks per segment, and the third is the one that does the work:
+      * a translucent band over the wall's footprint - shows WHICH wall;
+      * an outline around it - shows its extent;
+      * PERPENDICULAR END TICKS overshooting the thickness at both ends - shows
+        where one segment STOPS and the next begins. Without these, collinear
+        neighbours of the same class (R1a | G2 | R3 | G3 all run along the top
+        wall) merge into one continuous band, which is exactly the ambiguity
+        being complained about.
+    """
+    n = 0
+    for wid in sorted(RUNS):
+        if only is not None and wid not in only:
+            continue
+        corners, (ux, uy), (px, py), half = _footprint(wid)
+        col = CLASS_COL.get(CLASSES.get(wid, ''), (90, 90, 90))
+        poly = [sh.P(c) for c in corners]
+        sh.d.polygon(poly, fill=col + (fill_alpha,))
+        sh.d.line(poly + [poly[0]], fill=col + (215,), width=4)
+
+        ax, ay, bx, by, _ = RUNS[wid]
+        over = half + 11.0
+        for (ex, ey) in ((ax, ay), (bx, by)):
+            p0 = sh.P((ex + px * over, ey + py * over))
+            p1 = sh.P((ex - px * over, ey - py * over))
+            sh.d.line([p0, p1], fill=col, width=7)
+        n += 1
+    return n
+
+
 def label_segments(sh, only=None, tiny=False):
     """Tag every wall run with its code. Call this from any sheet.
 
@@ -94,10 +152,19 @@ def label_segments(sh, only=None, tiny=False):
     margin; and the tag is clamped inside the image, because spot() will happily
     walk one out of frame.
     """
-    from sheet_lib import f_tag
+    from sheet_lib import F
 
+    f_seg = F(50, True) if not tiny else F(40, True)
     cx0, cy0 = _centroid()
     W, H = sh.im.size
+
+    # Reserve the whole title/legend/notes column and the footer strip. Sheet 00
+    # did this in its own main() and the services sheets did not, so R1b landed
+    # on a legend row of the plumbing sheet. Doing it here fixes it for every
+    # caller, present and future - sh.ly is the running bottom of that column.
+    sh.placed.append((0, 0, 1000, max(sh.ly + 30, 320)))
+    sh.placed.append((0, H - 190, W, H))
+
     n = 0
     for wid, (ax, ay, bx, by, th) in sorted(RUNS.items()):
         if only is not None and wid not in only:
@@ -110,17 +177,20 @@ def label_segments(sh, only=None, tiny=False):
         else:
             nx, ny = (-1 if midx <= cx0 else 1), 0
         col = CLASS_COL.get(CLASSES.get(wid, ''), (90, 90, 90))
-        w, h = (58, 34) if tiny else (74, 42)
+        # sized for the bigger type the owner asked for on 2026-09-08
+        pad = 30 if not tiny else 24
+        w = len(wid) * (26 if not tiny else 21) + pad
+        h = 66 if not tiny else 54
         # Clamp the SEED, then let spot() search from there. Clamping the result
         # instead would silently undo spot()'s collision avoidance - it did, and
         # put G5 on top of a socket's photo-id label on sheet 01.
-        sx = min(max(mx + nx * 52, w / 2 + 34), W - w / 2 - 34)
-        sy = min(max(my + ny * 52, h / 2 + 34), H - h / 2 - 34)
+        sx = min(max(mx + nx * 64, w / 2 + 34), W - w / 2 - 34)
+        sy = min(max(my + ny * 64, h / 2 + 34), H - h / 2 - 34)
         tx, ty = sh.spot(sx, sy, w, h)
-        sh.d.line([(mx, my), (tx, ty)], fill=col, width=3)
+        sh.d.line([(mx, my), (tx, ty)], fill=col, width=4)
         sh.d.rectangle([tx - w / 2, ty - h / 2, tx + w / 2, ty + h / 2],
-                       fill=(255, 255, 255), outline=col, width=3)
-        sh.d.text((tx, ty), wid, fill=col, font=f_tag, anchor='mm')
+                       fill=(255, 255, 255, 250), outline=col, width=4)
+        sh.d.text((tx, ty), wid, fill=col, font=f_seg, anchor='mm')
         n += 1
     return n
 
@@ -130,9 +200,15 @@ def main():
 
     sh = Sheet(u'ЛИСТ 00 · КЛЮЧ СЕГМЕНТОВ СТЕН', 0)
 
-    # The legend and notes are drawn FIRST and their footprint reserved, because
-    # in the first render the R1b tag landed squarely on top of the note text.
-    # spot() was working; it had simply never been told the text was there.
+    # ORDER MATTERS, and both orderings here were wrong once:
+    #   1. the segment bands go down first, so the text sits ON them rather than
+    #      under a translucent wash;
+    #   2. then the legend and notes;
+    #   3. then their footprint is reserved, so no tag lands on the text - which
+    #      is what happened to R1b before the reserve existed;
+    #   4. then the tags, last, so spot() routes them around everything above.
+    print('  outlined %d segments' % outline_segments(sh))
+
     for cls in ('concrete', 'aerated_block', 'external', 'loggia_enclosure'):
         col = CLASS_COL[cls]
 
@@ -142,14 +218,22 @@ def main():
         sh.legend(swatch, CLASS_RU[cls], col)
 
     sh.note([
-        u"%d сегментов с геометрией. Код = имя стены в data/canonical/wall_runs.csv." % len(RUNS),
+        u'%d сегментов с геометрией.' % len(RUNS),
+        u'Границы показаны полосой и засечками',
+        u'на КОНЦАХ сегмента.',
         u'',
-        u'БЕЗ ГЕОМЕТРИИ, но диктовать в них можно:',
-    ] + [u'   %s - %s' % (c, d) for c, d in NON_GEOMETRIC] + [
+        u'БЕЗ ГЕОМЕТРИИ, но диктовать можно:',
+        u'   ПОТОЛОК — выводы света,',
+        u'      в каждом помещении',
+        u'   V2 — вентблок, лицевая сторона',
+        u'   P2 — зона стояков',
         u'',
-        u'Как диктовать: «<помещение>, <код>: N розеток, low».',
-        u'Протокол: 00_Master/Existing_Services_Capture_Protocol.md',
-        u'Проверка: tools/canonical/validate_services_observed.py',
+        u'Диктовать так:',
+        u'   «<помещение>, <код>: 2 розетки, low»',
+        u'',
+        u'Протокол:',
+        u'   00_Master/',
+        u'   Existing_Services_Capture_Protocol.md',
     ])
     # Block the whole title/legend/notes column so no tag can land on the text.
     sh.placed.append((0, 0, 1000, sh.ly + 30))
