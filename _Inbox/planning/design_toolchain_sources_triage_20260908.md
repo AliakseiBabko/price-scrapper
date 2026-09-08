@@ -183,3 +183,71 @@ Two are worth recording because they are repo facts, not source facts:
 - **Whether an A/C plan sheet is in scope** (§6.1) — an owner decision, not a research one.
 - **Whether the `1/2` centred-fixture notation can be expressed in our DXF/SVG pipeline at all**, or whether it needs Bonsai's annotation subsystem. Testable, and it interacts with the open Bonsai-headless question in the gap analysis.
 - **Nothing here addresses the owner's re-quoting/substitution axis.** This whole list is geometry-and-documentation. The cost engine's primary axis gains nothing from it except the Quantifier Pro schema thinking.
+
+---
+
+# ✅ Round 1 complete — 2026-09-08, same day
+
+**Round 1 yield**: 6 videos, 105 new facts (excluding duplicate/corroborating-only outcomes), yield = **17.5**.
+
+Processed: `DI5GAV64mnU` (24) · `F0rXrbPDPf4` (31) · `YEpfNcwwGoU` (18) · `FRKr9X3AFfY` (16) · `TJVXUCKQ1UU` (9) · `OTBw7bCrv-o` (7, partial — conventions only). **All six fetches clean, no rate-limit signature.**
+
+**Outputs**: new wiki page [`00_Master/Drawing_Conventions_From_Practice.md`](../../00_Master/Drawing_Conventions_From_Practice.md) · a second independent sheet set added to `Planning_Project_Deliverable_Set.md` · 6 source notes · 1 layout case · 7 rules in `rules.jsonl` · store, CSV and archive updated. `verify_batch.py` 27 files / 0 problems; `check_page_sizes.py` nothing over the backstop; `validate_layout_data.py` clean on all new files.
+
+## ⚠️ On the yield number — it understates this source class, and the honest measure is different
+
+**17.5 is roughly half the vault's best channels** (`@YourInteriorDes` peaked at 36.0). **The prediction made in §7 above held**: fewer facts per video, but structurally heavier ones. A Group A source adds a paragraph to a page; most of what this round produced **changes a field, a datum, a sheet or a rule.** The `1/2` proportional-dimension notation counts as one fact and retires a whole class of site argument.
+
+**→ For this group, record how many open `cap` items moved alongside the fact count.** What Round 1 actually moved:
+
+| Open item | Moved to |
+| :--- | :--- |
+| **`cap3` dimensioning convention** | Datum rule found and recorded (to element centre, with the builder's reason); the `1/2` proportional notation found. **Two open questions remain — see below** |
+| **Electrical element taxonomy** | **«Вывод провода» established as an element distinct from a socket**, corroborated by both the tool and two flats' practice. Needs its own `resource_role`; cannot share `ELE-01`'s line |
+| **`cap6` → `cap8`** | A full worked example of both — points derived from named appliances and routines, switch grouping with the reason for each split, and a distinct navigation-light fixture class |
+| **`cap5` finish schedule** | The practitioner states the finish-scheme → costing link directly, which strengthens the case for that sheet |
+| **Deliverable set** | Second independent instance; **exposed a missing A/C sheet** |
+| **3D output style** | A third answer to grey-vs-photoreal: disclaimed conventional colour at concept stage |
+
+## ⚠️⚠️ Two findings about our own tooling, both of which need a decision
+
+### 1. The layout-case schema cannot express an undimensioned case, and six good rules were dropped rather than faked
+
+`schemas/layout-case.schema.json` requires **`area_total_m2` on every `single_apartment` case**, and `layout-rule.schema.json` requires **`supported_by` to be non-empty**.
+
+The designer's **Кожуховская** flat is described as двухкомнатная and **its area is stated nowhere in any of its three videos** — checked by regex across all four transcripts, not assumed. So the case could not be written without inventing the figure, and its rules had no case to cite.
+
+**Six rules were therefore removed from `rules.jsonl` and live only in the source notes and the new wiki page** — including **the best rule of the round**, door-casing width constraining partition position:
+
+`door.casing_width_constrains_partition_position` · `layout.freeze_requires_furniture_and_services_placed` · `window.deep_sill_sets_flanking_storage_depth` · `kitchen.filler_panel_clears_projecting_sill` · `wetroom.combine_two_small_units_when_footprint_is_binding` · `door.reversible_saves_passage_space_at_a_handling_cost`
+
+> [!WARNING]
+> **⚠️ This cuts against the vault's own rule that areas are not evidence.** The schema currently makes an area **mandatory** for exactly the class of source that has none — an undimensioned concept walkthrough. Two candidate fixes, **neither chosen, because both touch a gate**: allow an unknown area on a case whose `dimension_policy` is `undimensioned`; or allow an empty `supported_by` so a rule can cite a source note instead of a case.
+>
+> **The practical cost today is zero** — the gap analysis established that *nothing currently consumes `rules.jsonl`* — but it will not stay zero once the rule checker (its cheapest unbuilt tool) exists.
+
+### 2. `validate_layout_data.py` had been silently skipping ALL structural validation
+
+It printed *«note: jsonschema not installed - structural validation skipped»* **and passed.** `jsonschema` was installed today so this round's own files could be checked properly.
+
+**That immediately surfaced 69 pre-existing errors** — 68 in `data/deliverable_templates/zk-dubravinskiy-full-album.json` (the gap analysis recorded 39, so the real figure is higher) and 1 in `price-scrapper-target-set.json` (an unexpected `SUPERSEDED` key).
+
+⚠️ **All pre-existing; none from this round; this round's own files validate clean. But the gate now fails where it used to pass**, so those errors want clearing — and note that installing the dependency changed the gate's behaviour for the whole repo, which is a side effect worth knowing about.
+
+## What Round 1 confirmed about scoping
+
+- **⚠️ The format hypothesis was tested deliberately and passed.** Two «технический дизайн-проект» walkthroughs were chosen specifically to find out whether the format repeats. **The 18-minute one is denser on the sheet set than the 33-minute one — 18 tabs enumerated against 9.** The corrected yield model from `@YourInteriorDes` Round 3 holds on a channel of a completely different kind.
+- **⚠️ Process a project's videos TOGETHER, not scattered across rounds.** Cross-reading two videos of the same project caught an ASR error that neither would have revealed alone («грибной» → «гребной», a rowing machine). Three of the five designer videos are one project, and reading them together is what produced the case's variants and tradeoffs.
+- **The «обоснование» bet paid off** — a title promising *reasoning* out-yielded ones promising a *result*, which is worth applying to the remaining 322 titles.
+
+## Recommended Round 2, not started
+
+Per §7's order, and unchanged by Round 1's results:
+
+1. **RemPlanner lessons 7 (развёртки стен), 5 (чистовая отделка), 8 (инженерные системы), 2, 12** — as specification. Lesson 4 is done and set the expectation: ~70% discardable, ~30% structurally valuable.
+2. **RemPlanner's two «12 золотых правил»** (kitchen, санузлы) — normal pipeline, **hard dedup first**, applying the two-shapes-of-saturation test and grepping the Russian term *and* the English page phrasing *and* the folder filenames.
+3. **`@k_dmitry` Round 2** — `kD1dFGQh4EU`, `35sYbsrip14` (more technical walkthroughs), `_iN973Mjqm4` (three staircase variants), `25HQWSd3SU4` (D5 Render vs Планоплан), and ⚠️ `z-yMrBi1oKY` (**a model built from laser-scan data** — worth reading against the retracted laser-meter recommendation, and against the fact that this flat is not built).
+
+**Before any of it**: `tools/build_knowledge_base_index.py` wants a rebuild — the drift is now **581** unindexed source notes and this round added 6 more.
+
+**And still unresolved from §5/§6, both owner decisions rather than research**: whether an A/C sheet joins the target set, and whether grey massing gives way to disclaimed conventional colour.
