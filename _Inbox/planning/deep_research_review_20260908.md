@@ -126,3 +126,44 @@ Six phases, ~125 days, with the two insights that matter: **the 5D cost work and
 ## Standing note for the next research round
 
 **The report's failure pattern is worth remembering: it was strongest exactly where it had no legal citation to make, and weakest where it cited.** Every one of its errors is a misattributed or misquoted legal reference; none is in the engineering reasoning. **→ For the remaining primary sources, use Deep Research to find and summarise, and verify every citation against the act itself before it enters the vault.**
+
+---
+
+## ✅ Verification round, same day — outcomes
+
+**Two of the three follow-ups the review named have been done.** Both found errors in the report.
+
+### Указ № 200 — partially verified, and the report's map is wrong in three places
+
+Checked against `pravo.by` and two official исполком «одно окно» pages (Ленинский район Могилёва, Могилёвский горисполком):
+
+| Subparagraph | Report said | **Verified** |
+| :--- | :--- | :--- |
+| **1.1.21** | approval, free, 1 month, 15 days if applicant supplies documents | ✅ **исполком, free of charge, 1 month, validity indefinite.** ⚠️ The 15-day reduction was **not** visible in what was read |
+| **1.1.21″** | facade-mounted equipment, 15 days | ❌ **Approving the acceptance act.** Free, 1 month, **valid until the technical passport is drawn up and the change registered.** Documents: application, passport, **ведомость технических характеристик** |
+| **1.15.1** | ЕГРНИ extract, 0.1–0.2 БВ | ❌ **Согласование for installing antennas and other constructions on roofs and facades, including самовольную** — i.e. the AC-unit procedure, exactly as № 164 Положение 2 §4 says |
+| **1.15.3** | title registration, 0.5 БВ + 0.1 + 0.3 acceleration, 7 days | ⚠️ **Unverified.** № 164 §13 cites it for **project approval** |
+| **1.1.21′** | — | ⚠️ **Unverified** (retro-approval of самовольная per № 164 §24) |
+
+**⚠️⚠️ And the 1.1.21″ page settled the абзац ambiguity that three pages had flagged for a phone call.** It describes the ВТХ exception as applying to **«certain gas, heating and insulation work only»** — the reading in which абзац первый is the introductory phrase. **→ Partition changes are NOT exempt; this project needs a ведомость технических характеристик.** The report's *conclusion* was right; its reasoning and its list descriptions were not.
+
+### СН 3.02.01 — the quote was wrong in four ways, and it omitted the useful half
+
+Fetched the norm and read §4.9 directly ([source note](../../_Sources/DOC_SN_3_02_01_2019_zhilye_zdaniya.md)):
+
+1. **Designation is -2019**, not -2020 (published 2020 — the likely origin of the error).
+2. **Clause is 4.9**, not 4.11.
+3. **There is no top-floor exception for sanitary units.** The report invented one by conflating §4.9 with **§4.8**, which is about a living room over a **gas-stove kitchen** — a different rule about a different pairing.
+4. **It omitted the 25 % partial-placement allowance and the minimum plan dimensions entirely** — the two most useful provisions in the clause.
+
+**⚠️ And the omitted half produced the round's most consequential project finding**: the minimum for a **туалет with a washbasin is 1.4 × 1.5 m**, so **a washbasin in this flat's 1.24 m² туалет cannot comply.** Plus an unresolved discrepancy: on the ventblock dimension the vault holds, **no dimension of that room reaches the norm's 1.5 m minimum at all.**
+
+### What this changes about how to use the report
+
+**The pattern named in the standing note held exactly.** Every error found in two rounds of checking is a **misattributed or misquoted citation**; not one is in the engineering reasoning.
+
+> **→ Treat the report's engineering content as usable on ordinary evidence rules, and every legal citation in it as a lead requiring the act.** Two of its legal claims have now been checked; **both were wrong in detail, and one was wrong in a way that would have put a fabricated exception into the vault.**
+
+**Still open**: 1.1.21′ and 1.15.3; **Изменения №1 и №2 to СН 3.02.01-2019** (which bear directly on the туалет discrepancy); КоАП Article 22.12's numbering and amounts; постановление № 399 and the non-перепланировка noise window; and ТКП 45-1.03-85-2007's actual subject.
+
+**Not yet started**: routing the report's non-legal content into the roadmap — the cascading cost-delta design, the bare-structural-corner datum rule, the classification verdict, the nesting thresholds, and the negative verdicts on 3DGS, diffusion and raster vectorisation.
