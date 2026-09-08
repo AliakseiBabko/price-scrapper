@@ -6,6 +6,11 @@ data/*
 !data/deliverable_templates/
 !data/canonical/
 !data/variants/
+# Authored source data, not generated output - belongs in git so decisions are
+# reviewable in a diff. NOTE: quotes.csv will accumulate named contractors and
+# their rates; that is the owner's own commercial data and assumes this remote
+# stays private.
+!data/procurement/
 __pycache__/
 *.pyc
 .env
