@@ -9,7 +9,7 @@
     "author_channel": "Instagram, media ids 18423775762184885-18423775801184885; supplied by the owner 2026-09-08",
     "language": "ru",
     "region": "belarus_minsk",
-    "frames_dir": "_Precedents/dubravinsky_same_type/designer_variants",
+    "frames_dir": "_Precedents/design_projects/unattributed-instagram__euro3-four-variants",
     "dimension_policy": "undimensioned",
     "caveats": [
       "NOT ONE DIMENSION STRING APPEARS ON ANY SHEET. Under 00_Master/Evidence_Reading_Discipline.md no dimension may be read off these plans and no scale may be derived from them. This case records MOVES, ZONING and OPTION STRUCTURE only. Every measurement in it comes from our own developer schedule, never from these images.",
@@ -23,37 +23,37 @@
     "companion_documents": [
       {
         "id": "cover_3d",
-        "source_file": "_Precedents/dubravinsky_same_type/designer_variants/631615996_18423775762184885_4793067867199760176_n.jpg",
+        "source_file": "_Precedents/design_projects/unattributed-instagram__euro3-four-variants/renderings/631615996_18423775762184885_4793067867199760176_n.jpg",
         "source_sha256": "27651fd038481315a1e0c81b96e819aab4c360be8dd289b52d4cdc6a9ac313fb",
         "role": "other"
       },
       {
         "id": "variant_a",
-        "source_file": "_Precedents/dubravinsky_same_type/designer_variants/IMG_20260610_091242_382.jpg",
+        "source_file": "_Precedents/design_projects/unattributed-instagram__euro3-four-variants/plans/IMG_20260610_091242_382.jpg",
         "source_sha256": "70f68a61b086d206db31ea7182d9f8314ac435f37fea0f512b73ff9ea9503859",
         "role": "variant_set"
       },
       {
         "id": "variant_b",
-        "source_file": "_Precedents/dubravinsky_same_type/designer_variants/631867090_18423775801184885_3373315614328994501_n.jpg",
+        "source_file": "_Precedents/design_projects/unattributed-instagram__euro3-four-variants/plans/631867090_18423775801184885_3373315614328994501_n.jpg",
         "source_sha256": "119f728218c18cbb198b0fe11e2187306bbbd864419d120c4648f567281fc26a",
         "role": "variant_set"
       },
       {
         "id": "variant_c",
-        "source_file": "_Precedents/dubravinsky_same_type/designer_variants/632197311_18423775783184885_6007429850512569887_n.jpg",
+        "source_file": "_Precedents/design_projects/unattributed-instagram__euro3-four-variants/plans/632197311_18423775783184885_6007429850512569887_n.jpg",
         "source_sha256": "aa15c21cfb309b1583703066c1f29eebe5cb34cb9488cd3cefa676d1cce4b925",
         "role": "variant_set"
       },
       {
         "id": "variant_d",
-        "source_file": "_Precedents/dubravinsky_same_type/designer_variants/631647771_18423775792184885_2563412354648488122_n.jpg",
+        "source_file": "_Precedents/design_projects/unattributed-instagram__euro3-four-variants/plans/631647771_18423775792184885_2563412354648488122_n.jpg",
         "source_sha256": "b9e8e01ba8cdae5dfaf498ceacaa1ac88471f7c62dd94dc9a695ff10f63d26ec",
         "role": "variant_set"
       },
       {
         "id": "structural_scheme_after",
-        "source_file": "_Precedents/dubravinsky_same_type/designer_variants/632035567_18423775774184885_1908648215442957075_n.jpg",
+        "source_file": "_Precedents/design_projects/unattributed-instagram__euro3-four-variants/plans/632035567_18423775774184885_1908648215442957075_n.jpg",
         "source_sha256": "b97c4c269041f5e71c215ec8b8f328d01a39a9fc706c95d3a4b18b3f02506575",
         "role": "working_drawings"
       }
