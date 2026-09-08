@@ -40,6 +40,7 @@ should say which drawing it came from.
 
 | Source | Authoritative for |
 |---|---|
+| `_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf` | **v0 GEOMETRY.** The same drawing as the row below, as CAD vectors — wall positions, chains, scale exactly 1:75. Read with `tools/layout/parse_vector_plan.py` |
 | `_Inbox/_Visual_Drop/fllor_plan_detailed.jpeg` | **The base case (v0).** Room areas, dimension strings, opening widths |
 | `_assets/floor_plan_initial.jpg`, `_Inbox/_Visual_Drop/floor_plan_basic.jpg` | Cross-check of the same layout |
 | `_assets/floor_plan_modified.png` | **Room names and areas of the owner's redesign** |
@@ -199,8 +200,18 @@ Two things that buys:
    forming the Kids Room. Read red as "look here", not as a measurement; it also
    picks up jitter along hatched edges.
 
-That registration is also how **v0 gets geometry**: the developer's own
-partitions can be traced off the raster in millimetres rather than guessed.
+> [!IMPORTANT]
+> **⚠️ SUPERSEDED 2026-09-08 for v0 geometry. Do NOT trace v0 off the raster.**
+> A **vector (ArchiCAD) edition of the developer's detailed plan** now exists —
+> `_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf` — and it has been tested to be **the
+> same drawing as the base case, in the same handedness**. Partition positions
+> are coordinates in the file, so the registration no longer sits between a wall
+> and its position. **Read it with `tools/layout/parse_vector_plan.py`**, and see
+> `00_Master/Vector_Plan_Identity_Test.md` for the test and its limits.
+>
+> The registration keeps its **other** job below — validating the Homestyler CAD
+> extraction against the developer's plan, and showing where the redesign adds
+> partitions. That is unaffected.
 
 ## Carrying several options at once
 
@@ -306,11 +317,16 @@ Full detail: `00_Master/How_To_View_Outputs.md`.
 
 ## Known-open items
 
-- **v0, the developer's own layout, has no geometry yet.** Its room schedule and
-  dimensions are known, but its partition positions are not — they exist only on
-  the plan image. Cheapest fix by far: export the *original* layout from
-  Homestyler as a second DXF, the way the redesign was exported. Failing that,
-  reconstruct the partitions from the dimension strings by hand.
+- **v0, the developer's own layout, has no geometry yet — but the route changed
+  on 2026-09-08 and both routes named here before are now wrong.** ⚠️ The
+  Homestyler-DXF-of-the-original route is **dead**: only the redesign was ever
+  traced, so no such export exists. ⚠️ The hand-reconstruction-from-dimension-
+  strings fallback is **no longer necessary**. ✅ **A vector edition of the
+  developer's detailed plan exists** — `_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf`,
+  tested and confirmed to be the same drawing in the same handedness — so v0 is
+  an **extraction** job, not a tracing job. Read it with
+  `tools/layout/parse_vector_plan.py`; the test and its limits are in
+  `00_Master/Vector_Plan_Identity_Test.md`.
 - **Room areas and perimeters are solved.** Homestyler writes them into the DWG
   on layer `P-Comment Text` as `Kids Room S:15.28m² C:18.43m`. Extract with
   `tools/cad/extract_room_labels.py` — 10 rooms, 69.48 m². Those numbers are
