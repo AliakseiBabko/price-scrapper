@@ -1,0 +1,469 @@
+{
+ "id": "zk-dubravinskiy-v0-wall-runs-extracted",
+ "status": "DRAFT - EXTRACTED, NOT REVIEWED. Not canonical geometry.",
+ "what": "v0 wall runs read from the developer's vector plan. Positions and thicknesses are the drawing's own, to ~0.1 mm. Walls are NOT named, corners are NOT resolved, and the run list is NOT complete - see 00_Master/V0_Geometry_Status.md for what is missing.",
+ "source_pdf": "3Б_3+ МН5_287.pdf",
+ "scale": "1:75, derived in 00_Master/Vector_Plan_Identity_Test.md",
+ "units": "mm; axis EW means the run extends along x, NS along y",
+ "coordinates": "PDF user space scaled to mm, origin at the sheet, NOT a flat-local datum. Differences between runs are meaningful; absolute values are not.",
+ "dimensions_are": "the developer's PROJECT dimensions. As-built measures +1.0% to +1.9% SMALLER - see dimension_tolerance.json.",
+ "generated_by": "tools/layout/extract_v0_walls.py",
+ "runs": [
+  {
+   "axis": "NS",
+   "thickness_mm": 250.1,
+   "face_lo_mm": 12695.9,
+   "face_hi_mm": 12946.0,
+   "from_mm": 8530.6,
+   "to_mm": 17840.3,
+   "length_mm": 9309.7,
+   "hatch_cover": 0.71,
+   "hatch_angle": 45,
+   "candidate_openings": [
+    {
+     "from_mm": 16180.6,
+     "to_mm": 17980.6,
+     "approx_width_mm": 1800.0
+    }
+   ]
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 297.6,
+   "face_lo_mm": 12695.9,
+   "face_hi_mm": 12993.5,
+   "from_mm": 8530.6,
+   "to_mm": 16261.6,
+   "length_mm": 7730.9,
+   "hatch_cover": 0.85,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 249.9,
+   "face_lo_mm": 15990.2,
+   "face_hi_mm": 16240.1,
+   "from_mm": 6155.9,
+   "to_mm": 12946.0,
+   "length_mm": 6790.0,
+   "hatch_cover": 0.87,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 250.1,
+   "face_lo_mm": 2980.8,
+   "face_hi_mm": 3230.9,
+   "from_mm": 9360.6,
+   "to_mm": 15990.3,
+   "length_mm": 6629.7,
+   "hatch_cover": 0.87,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 75.0,
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9206.0,
+   "from_mm": 8530.6,
+   "to_mm": 12600.3,
+   "length_mm": 4069.7,
+   "hatch_cover": 0.82,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 120.0,
+   "face_lo_mm": 8160.6,
+   "face_hi_mm": 8280.6,
+   "from_mm": 9380.9,
+   "to_mm": 12946.0,
+   "length_mm": 3565.1,
+   "hatch_cover": 0.54,
+   "hatch_angle": 135,
+   "candidate_openings": [
+    {
+     "from_mm": 10280.9,
+     "to_mm": 11930.9,
+     "approx_width_mm": 1650.0
+    }
+   ]
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 300.0,
+   "face_lo_mm": 8230.6,
+   "face_hi_mm": 8530.6,
+   "from_mm": 9380.9,
+   "to_mm": 12946.0,
+   "length_mm": 3565.1,
+   "hatch_cover": 0.42,
+   "hatch_angle": 50,
+   "candidate_openings": [
+    {
+     "from_mm": 10280.9,
+     "to_mm": 11930.9,
+     "approx_width_mm": 1650.0
+    }
+   ]
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 120.2,
+   "face_lo_mm": 7490.4,
+   "face_hi_mm": 7610.6,
+   "from_mm": 5881.0,
+   "to_mm": 9380.9,
+   "length_mm": 3500.0,
+   "hatch_cover": 0.54,
+   "hatch_angle": 135,
+   "candidate_openings": [
+    {
+     "from_mm": 6781.0,
+     "to_mm": 8431.0,
+     "approx_width_mm": 1650.0
+    }
+   ]
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 75.0,
+   "face_lo_mm": 6056.0,
+   "face_hi_mm": 6131.0,
+   "from_mm": 9350.6,
+   "to_mm": 12600.3,
+   "length_mm": 3249.7,
+   "hatch_cover": 0.82,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 120.0,
+   "face_lo_mm": 12750.3,
+   "face_hi_mm": 12870.3,
+   "from_mm": 2991.7,
+   "to_mm": 5146.0,
+   "length_mm": 2154.3,
+   "hatch_cover": 0.73,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 120.0,
+   "face_lo_mm": 14670.3,
+   "face_hi_mm": 14790.3,
+   "from_mm": 2991.7,
+   "to_mm": 5026.0,
+   "length_mm": 2034.3,
+   "hatch_cover": 0.71,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 75.0,
+   "face_lo_mm": 13575.3,
+   "face_hi_mm": 13650.3,
+   "from_mm": 7216.0,
+   "to_mm": 9131.0,
+   "length_mm": 1915.0,
+   "hatch_cover": 0.77,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 249.9,
+   "face_lo_mm": 15990.2,
+   "face_hi_mm": 16240.1,
+   "from_mm": 3230.9,
+   "to_mm": 5146.0,
+   "length_mm": 1915.0,
+   "hatch_cover": 0.85,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 250.0,
+   "face_lo_mm": 5881.0,
+   "face_hi_mm": 6131.0,
+   "from_mm": 7610.6,
+   "to_mm": 9350.6,
+   "length_mm": 1740.0,
+   "hatch_cover": 1.0,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 249.9,
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9,
+   "from_mm": 7610.6,
+   "to_mm": 9350.6,
+   "length_mm": 1740.0,
+   "hatch_cover": 1.0,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 400.0,
+   "face_lo_mm": 5731.0,
+   "face_hi_mm": 6131.0,
+   "from_mm": 7490.6,
+   "to_mm": 8980.6,
+   "length_mm": 1490.0,
+   "hatch_cover": 1.0,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 100.0,
+   "face_lo_mm": 6181.0,
+   "face_hi_mm": 6281.0,
+   "from_mm": 6106.3,
+   "to_mm": 7490.6,
+   "length_mm": 1384.3,
+   "hatch_cover": 1.0,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 150.0,
+   "face_lo_mm": 6131.0,
+   "face_hi_mm": 6281.0,
+   "from_mm": 6120.6,
+   "to_mm": 7490.6,
+   "length_mm": 1370.0,
+   "hatch_cover": 1.0,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 200.0,
+   "face_lo_mm": 2930.9,
+   "face_hi_mm": 3130.9,
+   "from_mm": 7640.6,
+   "to_mm": 8980.6,
+   "length_mm": 1340.0,
+   "hatch_cover": 1.0,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 249.9,
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9,
+   "from_mm": 12600.3,
+   "to_mm": 13929.1,
+   "length_mm": 1328.9,
+   "hatch_cover": 0.78,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 300.0,
+   "face_lo_mm": 5981.0,
+   "face_hi_mm": 6281.0,
+   "from_mm": 6163.5,
+   "to_mm": 7490.6,
+   "length_mm": 1327.1,
+   "hatch_cover": 1.0,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 249.9,
+   "face_lo_mm": 6056.0,
+   "face_hi_mm": 6305.9,
+   "from_mm": 12600.3,
+   "to_mm": 13650.3,
+   "length_mm": 1050.0,
+   "hatch_cover": 0.88,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 296.2,
+   "face_lo_mm": 15965.4,
+   "face_hi_mm": 16261.6,
+   "from_mm": 10638.5,
+   "to_mm": 11438.5,
+   "length_mm": 800.0,
+   "hatch_cover": 0.5,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 120.0,
+   "face_lo_mm": 5026.0,
+   "face_hi_mm": 5146.0,
+   "from_mm": 14070.3,
+   "to_mm": 14790.3,
+   "length_mm": 720.0,
+   "hatch_cover": 0.8,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 396.2,
+   "face_lo_mm": 15865.4,
+   "face_hi_mm": 16261.6,
+   "from_mm": 10688.5,
+   "to_mm": 11388.5,
+   "length_mm": 700.1,
+   "hatch_cover": 0.6,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 399.9,
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9530.9,
+   "from_mm": 7560.6,
+   "to_mm": 8160.6,
+   "length_mm": 600.0,
+   "hatch_cover": 0.8,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 171.3,
+   "face_lo_mm": 12151.0,
+   "face_hi_mm": 12322.3,
+   "from_mm": 14705.6,
+   "to_mm": 15285.6,
+   "length_mm": 580.0,
+   "hatch_cover": 1.0,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 250.0,
+   "face_lo_mm": 6256.0,
+   "face_hi_mm": 6506.0,
+   "from_mm": 16240.3,
+   "to_mm": 16790.4,
+   "length_mm": 550.1,
+   "hatch_cover": 1.0,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 120.0,
+   "face_lo_mm": 5026.0,
+   "face_hi_mm": 5146.0,
+   "from_mm": 15500.3,
+   "to_mm": 15990.3,
+   "length_mm": 490.1,
+   "hatch_cover": 0.5,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 120.0,
+   "face_lo_mm": 5026.0,
+   "face_hi_mm": 5146.0,
+   "from_mm": 12870.3,
+   "to_mm": 13360.3,
+   "length_mm": 490.0,
+   "hatch_cover": 0.5,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 150.1,
+   "face_lo_mm": 2980.8,
+   "face_hi_mm": 3130.9,
+   "from_mm": 7020.6,
+   "to_mm": 7490.6,
+   "length_mm": 470.0,
+   "hatch_cover": 0.75,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 200.0,
+   "face_lo_mm": 2930.9,
+   "face_hi_mm": 3130.9,
+   "from_mm": 7034.9,
+   "to_mm": 7490.4,
+   "length_mm": 455.5,
+   "hatch_cover": 0.75,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 300.0,
+   "face_lo_mm": 2830.9,
+   "face_hi_mm": 3130.9,
+   "from_mm": 7063.5,
+   "to_mm": 7490.4,
+   "length_mm": 426.9,
+   "hatch_cover": 0.67,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 400.0,
+   "face_lo_mm": 15090.3,
+   "face_hi_mm": 15490.3,
+   "from_mm": 8980.8,
+   "to_mm": 9380.9,
+   "length_mm": 400.1,
+   "hatch_cover": 1.0,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 397.2,
+   "face_lo_mm": 2980.8,
+   "face_hi_mm": 3378.0,
+   "from_mm": 15590.3,
+   "to_mm": 15990.3,
+   "length_mm": 400.0,
+   "hatch_cover": 1.0,
+   "hatch_angle": 135,
+   "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 147.1,
+   "face_lo_mm": 4370.9,
+   "face_hi_mm": 4518.0,
+   "from_mm": 15590.3,
+   "to_mm": 15990.3,
+   "length_mm": 400.0,
+   "hatch_cover": 0.67,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  }
+ ]
+}
