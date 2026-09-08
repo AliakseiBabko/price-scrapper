@@ -13,6 +13,18 @@ Material count, tile trend-cycles, dark-tone area ratios, palette discipline and
 ### ⚠️ Tactile comfort — including the surfaces you never touch
 
 - **⚠️ The disqualifying detail, stated as a hard gate: standing barefoot on porcelain or stone requires a heated floor. Cold floor → "вы не в спа, а просто в санузле"** and you hurry into the shower. **Underfloor heating is a precondition here, not an upgrade** — see [[07_Bathroom/analysis/Heated_Floor_and_Thermostat|Heated Floor & Thermostat]].
+  > [!WARNING]
+  > **⚠️⚠️ AND THIS PROJECT HAS DECIDED AGAINST THE PRECONDITION. Owner's scope decision of 2026-08-26, restated 2026-09-08: NO UNDERFLOOR HEATING ANYWHERE.**
+  >
+  > So the gate above is not satisfied and will not be. **That leaves three honest options, and the choice is a live one rather than settled:**
+  >
+  > 1. **Accept a cold floor** and treat the spa framing on this page as inapplicable to the ванная — the room is programmed for a quick stay, not a long one. Costs nothing; concedes what this source says is the whole effect.
+  > 2. **Change the floor material** to something warmer underfoot — the source herself allows «porous or fine-grained floors», and wood-effect or cork-backed options read warmer than porcelain. **This is the option the decision actually points at**, and it belongs in the floor-material selection rather than being discovered after tiling.
+  > 3. **Substitute a heated wall or a towel rail.** ⚠️ **But the vault already records that a warm wall is capped near ~27 °C and cannot dry a towel** — see [[07_Bathroom/analysis/Bathtub_and_Shower|Bathtub & Shower]]. A heated wall would warm the room, not the floor, so it does **not** satisfy a barefoot gate.
+  >
+  > **⚠️ And note the second, separate loss: the mould argument on this page names heating and ventilation as JOINTLY necessary** («надо включить ВЕНТИЛЯЦИЮ… а также его НАГРЕВАТЬ»). With no heated floor, **the drying duty falls entirely on ventilation plus an electric towel warmer** — which raises the stakes on the extract design in a flat that already has no cross-ventilation. See [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Ventilation & Ducting]].
+  >
+  > **→ Recorded as a consequence to decide, not a contradiction to resolve.** The source is not wrong; the project has chosen differently, and the cost of choosing differently is what this box is for.
 - Everything touching the body counts — towels fresh, soft, natural.
 - **Her own material preference, given as preference**: **velvety semi-matte porcelain**, and **composite bath materials with a matte, velvety-to-touch surface.** She explicitly allows the opposite taste — porous or fine-grained floors with a smooth bath.
 - **⚠️ The transferable technique: tactile contrast, including on surfaces nobody touches.** The *perceived* smoothness of the bath comes from the roughness of what surrounds it. Her worked examples — **very rough stone or formwork-marked concrete walls against wood floors and a smooth bath**; a bath appearing cut from a single rock with the roughness left on its outer contour; **pebble surfacing behind the bath rather than on the floor**, which is hard to maintain but far worse underfoot, and **placing it out of contact is precisely what creates the effect.**
