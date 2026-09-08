@@ -196,6 +196,28 @@ Detail: `00_Master/Model_and_Views.md`, `00_Master/Finishes_and_Furniture_Data_M
 
 *(`zemstandart.pro` and `земстандарт.рф` are JS-heavy SPAs that yield nothing to a plain fetch; `zems.pro` is the one that works.)*
 
+## ⚠️⚠️ Delivery and procurement model — decided 2026-09-08
+
+Three owner decisions, given in answer to research questions, and they settle the design of everything on the money-and-people side.
+
+**1. No смета in a recognised form is needed.** «They don't expect смета in a recognised form; the estimations are **for us**, for **price negotiations and verification**.»
+
+> **→ The bill of materials is a NEGOTIATION AND VERIFICATION instrument, not a compliance export.** It never has to render as С-29 / КБ-2в. What it must instead do is hold **our own expected quantity and expected rate** next to **each quote received**, so a contractor's number can be checked and argued with. That is a different and simpler target than a formal смета, and it removes the schema question that was open.
+
+**2. There will be no single contract — small contracts per type of work.** «There will be no one contract. There will be small contracts per each type of work.»
+
+> **→ The unit of engagement is the WORK TYPE.** Consequences, and they reorder the build:
+> - **Each trade slice must be a self-contained scope** — its quantities, the drawings and details that trade needs, and its acceptance criteria — because that packet *is* the contract's subject matter.
+> - **So the per-trade pack is a first-class output of the BOM, not a later nicety.**
+> - **Rates are sourced per trade**, so losing one contractor re-prices one trade.
+> - ⚠️ **And the interfaces between trades become the main risk.** Nobody owns the joins by default: who waterproofs before the tiler arrives, who chases for the electrician, who protects finished work. **№ 164 §16 allocates damage liability to «лиц, допустивших такие повреждения» — whoever caused it — and says nothing about how you prove which trade that was.** With per-trade contracts that has to be written into each small contract **before** anyone starts. See [[16_Legal_and_Regulations/analysis/Works_Conduct_and_Waste|Works Conduct & Waste]] and the coordination accounts on [[12_Engineering_and_Systems/analysis/Rough_Plumbing_Sequencing|Rough Plumbing Sequencing]].
+
+**3. Material lead times are out of scope for now.** «We don't need this now. This varies significantly per provider and vendor.»
+
+> **→ Dropped from the schedule scope.** The BOM keeps a nullable lead-time field so it can be populated per line when a specific vendor is actually chosen, but nothing is gathered or modelled now.
+
+**⚠️ Net effect: no further external research is needed on the money-and-people side.** All three questions that were open are closed by owner decision, and what remains is building.
+
 ## ⚠️ Open items
 
 Real, scoped work that is **not** done. None of these are trivial.

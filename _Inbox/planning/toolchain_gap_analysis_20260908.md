@@ -213,7 +213,7 @@ stage          1..5                           # no committing stage 4 rates in s
 
 ### Build order
 
-1. **BOM as data** *(the spine — do this first)*
+1. ✅ **BOM as data — BUILT 2026-09-08.** `data/procurement/bom.csv` (21 lines: 18 purchasable + 3 trade interfaces, wet rooms only), `quotes.csv`, `README.md` stating the contract, and `tools/procurement/validate_bom.py` as a gate in the repo's existing pattern. **Quantities are deliberately empty with `qty_source: unmeasured`** — rate discovery does not wait for them, and the areas-are-not-evidence rule forbids deriving them from the developer's figures. Failure paths self-tested: bad key reference, bad enum, bad date, and stale-quote detection all fire.
 2. **Cost rollup + delta** on top of it: join rates, apply the cascade rules, emit `CostDeltaReport`
 3. **Quote intake** — parse contractor PDF/XLSX into lines keyed to the same taxonomy; the research rates agents as reliable at exactly this and unreliable at guessing quantities
 4. **Schedule as data** — tasks, dependencies, the statutory milestones (1-month permit review, 30-day commission notice) and the **Mon–Fri 09:00–19:00** noise window, which is a hard calendar constraint
