@@ -1,0 +1,2667 @@
+{
+  "playlist_url": "https://www.youtube.com/@k_dmitry/videos",
+  "generated_at": "2026-09-08T15:10:46.376201+00:00",
+  "counts": {
+    "duplicate": 0,
+    "private": 0,
+    "unavailable": 0,
+    "no_captions": 0,
+    "fresh": 328,
+    "rate_limited": 0
+  },
+  "csv_notes_mismatch": {
+    "in_index_no_note": [
+      "-k0oupEu3pM",
+      "-zgPfpGkwBw",
+      "1pLziv7Ri_k",
+      "2m1OOssKl-A",
+      "2mLS8dbqv04",
+      "41AEg9cCxO0",
+      "6lacLnqpJbM",
+      "74c0MGLFGT4",
+      "7Y4YsWPYg4s",
+      "7l0izpXaPx8",
+      "7qxFoOsLAe8",
+      "8MiJ6k5ujBU",
+      "8Y-ErW2D8FE",
+      "8zm_5NjbGNA",
+      "9FSb8Kr55r0",
+      "ANYrUhhlKyw",
+      "AQWuTQfr8w8",
+      "ATRswtIp1OM",
+      "AaPvIn4s1SQ",
+      "B7BHeVD-smk",
+      "BPiw6b-Sm_c",
+      "CQM-pFRJBKY",
+      "CYllCjooMrE",
+      "DPnZjaSPACA",
+      "DsDbKEwR4pY",
+      "Dt8Ec_eTlXg",
+      "EbwgImqhnOQ",
+      "ElHcpT5WlUA",
+      "F6cBEeTw518",
+      "HE4u2vprC88",
+      "I0PUIxd9MQ8",
+      "IHmGfrQFc6Y",
+      "JHP3Fuf2KyA",
+      "Kj71Nk5CqLM",
+      "L_PWNMQC9iE",
+      "Ld-OWPUFlGE",
+      "MIA1tpRglGg",
+      "Nj0li7AdsvM",
+      "O6PNsmWaHYc",
+      "PRifljKyKfU",
+      "PaUWD6q_EAY",
+      "PbE1pgGCliY",
+      "QG3QNM9BESc",
+      "QbV-BBySZeU",
+      "R7Z_mJLwVpc",
+      "R_9_QLAsE-k",
+      "U6vunPg3OGw",
+      "XIDyyxjIwC8",
+      "XWmoyTQK1AQ",
+      "XahTpDGjf9w",
+      "XfEaoo82qnE",
+      "XhRHqDm2H2Y",
+      "XlvilzilV-c",
+      "Y3exSOS2Ob8",
+      "YLKN-UB4XG4",
+      "YQAm9PqK2ec",
+      "YaWcDOWHor4",
+      "Z4gS_W0sfaM",
+      "ZXpWoAcR08U",
+      "ZkdGHHPtfh0",
+      "a98BTmgIoik",
+      "b4ErDSHBY_4",
+      "bLG-v5bLHNs",
+      "c3qpHyJgBQ8",
+      "cqzGSjx7Gvg",
+      "fkt1LmF9D9M",
+      "frU2mqIMrPs",
+      "g3xI4531t_s",
+      "gD8KMGlS9ac",
+      "gbxv92vD36U",
+      "huvdLUEruBM",
+      "hxPXzLu0P3g",
+      "iHu5gijczA4",
+      "iRqMhrVT8pM",
+      "j-6A0DmjB_o",
+      "jObP8pTt7FY",
+      "jOvCg-d45w4",
+      "jhEqPMn3mBA",
+      "jseYAjJkab8",
+      "kBJZkSOp4-Q",
+      "mhE_5qlJ0KU",
+      "n-LzQXs3x9o",
+      "q4r7i8qccB4",
+      "qC5GNBHceJk",
+      "rGc_nGYY4mU",
+      "s1cWUR4l90w",
+      "to_ujRxQUbk",
+      "ty-t8aNelyY",
+      "v8GexdJC8ys",
+      "vCwxplOGtfY",
+      "wUXlaDnHiQw",
+      "wxkTw0YdxdU",
+      "xbq9Jl_yrsU",
+      "ym_Jd2mEL18",
+      "z1G8qqAUQnY",
+      "zAXDi2PvWz4",
+      "zOpmb-CmQI8",
+      "zjO0LugKt8Y"
+    ],
+    "in_notes_no_index": [
+      "-6QKr4HerCQ",
+      "-JlpzE6aHiU",
+      "-MJE43WkLP4",
+      "-ROgAlWhXlc",
+      "-XuTH1e-Fc0",
+      "-jt-HwQWdJA",
+      "-wYdhssCHlI",
+      "00GSJPGQLOo",
+      "0783KWcK4Co",
+      "09G3Q-LuD_s",
+      "0CoDufobsEY",
+      "0Nnv6VedbVo",
+      "0TLDGD8MY1A",
+      "0hjkfIfzkUw",
+      "0sJPlpi8I2U",
+      "13JpO2bBsqk",
+      "16k0TS363rM",
+      "1NqrFHrIC3k",
+      "1_nKzwNZD6w",
+      "1amhehTMxcg",
+      "1dp7alivsLQ",
+      "1gXYL99mfY4",
+      "1x7srLdq12I",
+      "2B67955_Z5I",
+      "2BHSu-rE4oU",
+      "2I77xJIeRwM",
+      "2Yjg4dAGJI8",
+      "2ZNSYED46LQ",
+      "2cHetaq1bt0",
+      "2fLCiWU6U-I",
+      "2it-PLHuJoU",
+      "2m1aVlTj4ZU",
+      "2rOr5Lwt7kA",
+      "2rU14i9NqOk",
+      "2vyIWKmrSXM",
+      "2weWrKT42aY",
+      "33b61qeO_XY",
+      "3GvLuU2x7wU",
+      "3lFeF0MSXh4",
+      "3rbIBKfZDBY",
+      "3sRfRiQ8XfE",
+      "3vIpdUvgWW0",
+      "47V9BqTYDcU",
+      "4O1UqRqpApw",
+      "4UJIa7eVlYo",
+      "4ZjCbDRhfNM",
+      "4bv7Aa6YLCo",
+      "4gKFfJrbQjk",
+      "4jAQ526Zy2w",
+      "4xZ-9vlXV7Y",
+      "55zALDsXP2E",
+      "5mSvRxFJOgE",
+      "66pn-nIOJkg",
+      "6FbZY6YHrxQ",
+      "6VSQtiwkdcI",
+      "6jC0aA1ZqWs",
+      "6p5VLqlERyw",
+      "6ttTd82TWPM",
+      "6xaRdgCp_U0",
+      "7CIZQ-pxNl4",
+      "7DnlE-pl0y4",
+      "7FbmDb6U2Ac",
+      "7LAB25SCQ1Q",
+      "7QuzCGvDG_w",
+      "7bhTD8FnV5Y",
+      "7g73oy1tKTI",
+      "7vjW6SzHeWM",
+      "7zpsZtcTkCM",
+      "8-GD_CEX0Bg",
+      "86fmWWVXark",
+      "8B2xnSNEqqs",
+      "8HnZ2m8vkZQ",
+      "8IW762yALfc",
+      "8PjHJZtblZw",
+      "8QBqwydVND8",
+      "8dyPTnmOHKs",
+      "8oZexrWcMUY",
+      "8wo1qImfpDU",
+      "9-NjgDLleOw",
+      "92hhojQNQTw",
+      "96mlkQoczI4",
+      "98EE-fC-4IY",
+      "9ZwqMKiMgvc",
+      "9f5XxCn2EFM",
+      "9jDv0Iibbfw",
+      "9lFhda_KDHk",
+      "9ndMjQLTF9E",
+      "9tScer1xT_E",
+      "9yi3HTL_Rwc",
+      "9ykrlQ5tpBs",
+      "A16VC0VYjSQ",
+      "A4OmiqS6kYo",
+      "AB76kZYvoaI",
+      "AGqrxEtyrdI",
+      "AI6gdNR_LiE",
+      "AcNu6CHE7Y4",
+      "AcibYG4jtbs",
+      "AnBRspXdtZc",
+      "AofVi5k45ps",
+      "AosCvLCh6WA",
+      "B1tyuT17vrU",
+      "BDudniuyJ4s",
+      "BFbNL-DjDh4",
+      "BLzLOUxdk3Q",
+      "Bb4Hh-GDRdA",
+      "BdztT9OUWVY",
+      "BpqCE2DeN9E",
+      "C-3BcpXDRnk",
+      "C-db6yom-IM",
+      "C0FOWRxqWX4",
+      "C5c2g6FzAKQ",
+      "CEKciia5vh0",
+      "CK7eEeYlLj0",
+      "CVTf-a4XIEI",
+      "CVqedVQlZZU",
+      "Cj2U_wVlG-I",
+      "Cr1vew4sA9g",
+      "D-DFsBMjlxQ",
+      "D1REgSDwILU",
+      "DE-4uFYXJQ4",
+      "DO67YHV5uAU",
+      "DOJqxZoXCVw",
+      "DQr8J5rkaPk",
+      "DT_IjSALrX0",
+      "DcWsQMiMcak",
+      "DvQTBiItLpY",
+      "E7M-bWWSmfw",
+      "EQW9y4bNea0",
+      "EUM7kv77VVY",
+      "EWNki2-ZFzQ",
+      "EwI_ZoT3VTQ",
+      "F0ZHsu4k6JY",
+      "F7bIf3Pv3X8",
+      "FA7paWxy_JE",
+      "FIAZhQGKq7g",
+      "FRRT0ZrhjaI",
+      "FsGLnB6llsw",
+      "Fu-GMSDLg_8",
+      "FuUNVfOtRMs",
+      "G03YKmotYP4",
+      "G0vtTswg5Ck",
+      "GASrPcGISX0",
+      "GC2vize3KQ0",
+      "GLU9nJYrtbQ",
+      "GM_m1IJk7Hk",
+      "GfixqWjsD58",
+      "GpkgVoPesDI",
+      "Gs-g7kR_7bI",
+      "Gy68fsIdDLY",
+      "H6atjh_g1jQ",
+      "HGN_3WeL0Jk",
+      "HKmpfdo_IBw",
+      "HnIsWX96g6o",
+      "HpCg-xIrOlg",
+      "HqmQaZ1y1UM",
+      "I-iSW-9NHAs",
+      "I4cUb68iZUg",
+      "I8js5-kLrYI",
+      "IFnZxitFeNk",
+      "IWVPepWlzSs",
+      "IXZItGe0K9M",
+      "IXicju8ul1A",
+      "IcTP1tPP7Bk",
+      "IoQaozB-DYA",
+      "IoQiGtso9Vk",
+      "Is76QlotVFE",
+      "J2UuTr7p01g",
+      "J864eOze5kU",
+      "JIWmxboS-oM",
+      "JLjCveR-ft0",
+      "JNInBkbEDHk",
+      "JTFhwaKEQAY",
+      "JeRGrHsv07U",
+      "JgDzAoWlyJI",
+      "JgyOwNGlevc",
+      "JsRvUMfIPwc",
+      "K-OopxgJ8wY",
+      "KNY-XfgbGog",
+      "KUvcN-AqdZg",
+      "KXmidtaUNxI",
+      "KXszjTBmfpQ",
+      "Kg9ee0cotfM",
+      "KgIXLmCShsU",
+      "KlIQxR3vWU8",
+      "KmfwnHCd8Fk",
+      "L0kI_PZKvmQ",
+      "LB2oYxyYL3c",
+      "LEsmpI8bWCY",
+      "LNXBHVnP4gs",
+      "LOw05Uk3rUk",
+      "LPcgC50HCMY",
+      "LRtedmEn8mQ",
+      "LU35znr1jVM",
+      "LvPQ9F_OtCI",
+      "LvppSP_QUrg",
+      "M0Wv4SOSUhs",
+      "M3HFaYaRC6M",
+      "MOYwhSd8tv4",
+      "Mf2A7cbTq3s",
+      "Mt7Puhphbjo",
+      "N36scNqRwII",
+      "N6UZiZ1-sNI",
+      "N813aS8mI-Y",
+      "NAqGs6ygykU",
+      "NO6-2zAJgys",
+      "NWLckaXH1_U",
+      "NYLmHWw9Exc",
+      "NjOkuREH8lI",
+      "NvHEQ7vnxfI",
+      "NvnA3PI0R7g",
+      "NyIj6h8hZHw",
+      "O4pGx8ESHDU",
+      "OP8ALhLynHE",
+      "OWIBkORaQX4",
+      "OXi2MYOms4c",
+      "O_2Jji7NAHQ",
+      "OcqynathaX8",
+      "OfqkRAZUfe0",
+      "OgIZhrxD4v4",
+      "Oh4hGMZ90mw",
+      "OpTLkQCSZHs",
+      "OperMXnGmXE",
+      "Oxv_w9zejsA",
+      "P8GMYTARyNU",
+      "P8t_d7J9fm4",
+      "PBkZQHkjciE",
+      "PJKk1BwtgVY",
+      "PiNvT_jnhbw",
+      "PmxmmzyUZjg",
+      "Pqc19izKNXI",
+      "Q0sVq_1SIQM",
+      "Q1KSHFhLzJo",
+      "Q6GKMOJuaPc",
+      "Q70kwfR0LGs",
+      "Q7A1e_V0s3c",
+      "QFa98_RyV0M",
+      "QcYJwQgu67g",
+      "Qccoybb9-ok",
+      "QfTqabNW1Lc",
+      "QginFVl00Hw",
+      "QnSnO8bVeNs",
+      "Qt4uGvGRYT0",
+      "QtQBGLzS698",
+      "QyF37JEFpfA",
+      "Qymq81j2wJ0",
+      "RNiSYvLX6Vc",
+      "RfcoPP3dvcQ",
+      "Rm0aHk4flxc",
+      "Rm4XLdyqj3s",
+      "RwyPR2RFZYM",
+      "RyHCyHe1o8I",
+      "S23VRWxzz08",
+      "S3Mn1FvQhKI",
+      "S4fOYedAruE",
+      "SDvVF1xkHKQ",
+      "SERg4hiCWdE",
+      "SEdNCGA0Ttg",
+      "SG0nbNRdl4c",
+      "SP3NyXmPafI",
+      "SUN8UiXAjf0",
+      "SaMpFOPm_4U",
+      "Ss-JlEvrR2w",
+      "T-W5qFAVG9o",
+      "T3b-IS4Rb0E",
+      "TF0XTvwWyYg",
+      "TFu0lu-_rzQ",
+      "TJBcEpXymYk",
+      "TKTKBmTkebg",
+      "TNMzWzhAqqI",
+      "ThgEv7FWNeE",
+      "TnYExlfWw9c",
+      "Tp2VuAaqXgE",
+      "Tq2IELynaGs",
+      "Tyl0yPQkO5g",
+      "U95vMOOhKH8",
+      "UEy2UN3N3Aw",
+      "Ubl--73gmTs",
+      "UhE9cOJ35FY",
+      "Uhie5ocQTDo",
+      "UnzHKHcizto",
+      "Up24LIKJ9Iw",
+      "UzVTR2DdYzg",
+      "V8c6mwdvpX0",
+      "VTOiKRlSe6A",
+      "VVxzNTshJCM",
+      "VZUS0kmh7YM",
+      "VZk4615VM6I",
+      "VcrYHkDgb0o",
+      "VqrXg-tDRO8",
+      "W1PKG4tVw_g",
+      "W2KvnHPQdjM",
+      "W2dAmCXg9GE",
+      "WK-KLd2ssYY",
+      "WQhi-AKDPc8",
+      "Wbj_6CEgcGU",
+      "Wj_i-4GhOQk",
+      "WwKrmuDjVkc",
+      "X3YHN5LqQdA",
+      "XU7YAfZ9xuM",
+      "XkQdhTf71ao",
+      "XziSlSDeKM0",
+      "Y08zvnbxdM0",
+      "Y3Xpww54LpU",
+      "Y9PGtPmcMms",
+      "YN2rYpXgJ8w",
+      "YarbTzTfq6I",
+      "Yt3yAPjrLhk",
+      "YvtdjHJhfpU",
+      "YxXfsKoyx6M",
+      "Z-jk95jveGg",
+      "Z0brwxSe7gQ",
+      "Z1IuJFudcPY",
+      "Z29a16kpLVc",
+      "Z5D8YuuF7uw",
+      "ZKAcnh4kKfY",
+      "ZW-dNzbCREI",
+      "Z_NUmsCIwWA",
+      "Zd6yryCjyhM",
+      "Zl_fegEg7yY",
+      "ZlkBfwlhYFU",
+      "ZlvJE-ncrK8",
+      "_6E5wt-PfqQ",
+      "_F7HqN0-HyQ",
+      "_GL2t3cdSi8",
+      "_IpgWsKodXg",
+      "_TGU8C0u010",
+      "_U-FV_62gjM",
+      "_XCBMJmosDk",
+      "_lWp9b4K6uY",
+      "_pOv1fnV6nM",
+      "a-e5f7yQDRY",
+      "a9IZ07lhpeM",
+      "aD0piOY523I",
+      "aO4n2PJPeHk",
+      "aU37rUbfEoc",
+      "aUi7URsuQwU",
+      "aW2j9_5bywE",
+      "a_i8pGVa7-w",
+      "a_vchjD7CHQ",
+      "ah3StuP2TZE",
+      "ar4HNfWjzh4",
+      "au1z3vNxc34",
+      "b0FeObtj2bo",
+      "bF1I2olZSc0",
+      "bJJSH84q5fE",
+      "bJz8bG_CFSI",
+      "bZTJv6aZevw",
+      "bcHTIHyWiVc",
+      "bjfqQUgsyNs",
+      "bl25vUPfI8o",
+      "c2ifRGBo-q4",
+      "c3gqyNTvFTc",
+      "c4mmaLAsDw4",
+      "cCDk-1hthR4",
+      "cHdQtVoFeuo",
+      "cM0AndkKdVk",
+      "cZcJ4ehcVuQ",
+      "c_mql2Uhl7k",
+      "caDB-roRasI",
+      "cmDRTjRXzy0",
+      "ctPLFrzuIqg",
+      "cudO-SSdrn0",
+      "d5a3hti_P8g",
+      "d8WzpxSSX8k",
+      "dBn4nhn8d9c",
+      "dHpdI35EWY8",
+      "dSZpq5Z9CEk",
+      "ddRN-vIf3iI",
+      "dfXZ66EcGQQ",
+      "dsBkqzhX08I",
+      "dvlxMc4X9_0",
+      "e0MLTGgVm14",
+      "e0Tp5apV7Ds",
+      "eHxsVHIus5Q",
+      "eInWxbd_UiA",
+      "eQdA23i9J8A",
+      "emfnY0TPyaY",
+      "exm_kOfNtXk",
+      "f--fM_qJLAI",
+      "f3EI72Nwemk",
+      "f6HY6UXDpss",
+      "f8lzn1KEIww",
+      "fIicREPruVs",
+      "faCzY5kVkss",
+      "fkoUNvB9LV8",
+      "frt8tQOrjiM",
+      "g1b6Hxx-HUk",
+      "gCI2qF34Dss",
+      "gEykawbVyYQ",
+      "gGII-GzuDUg",
+      "gJfXl9Q3CIw",
+      "gKBzDEllg4M",
+      "gNN7G7vNyqY",
+      "gREGOOA2OHo",
+      "gTgUJaWKobM",
+      "gU9bFxV1rzo",
+      "gUY1BE4b_eA",
+      "gWAOrislxFY",
+      "gbOoH1oV4Hk",
+      "gnUErjmtHcY",
+      "h9D50zVKxF0",
+      "hAeIKfYMxbw",
+      "hCN5Cl7T2Qc",
+      "hHbKJuQth_w",
+      "hN7szX2re2c",
+      "hW1hlDoqDR0",
+      "h_o3RrQ9z40",
+      "haxBpHW8xp8",
+      "hfJa_QNaN6c",
+      "hpU_xEXmdvE",
+      "hrhJ6Y8hhPU",
+      "iEm_mwCJpfA",
+      "iI1mI0agsAo",
+      "ipcVSUPA4w4",
+      "iu-GGC7hEKA",
+      "izhaUHRKViw",
+      "j-F2HmDkaqY",
+      "jNGss4BSnLQ",
+      "jfjW3Jf4hEM",
+      "jl3OSKoe0YU",
+      "jxx99px88HA",
+      "k9CrEU5RuIE",
+      "kHmUYEX1Lqw",
+      "kXGYTsBTKj8",
+      "kZ4cZs-2Xhc",
+      "kkE25HmFciU",
+      "kkQbz_lXTjU",
+      "kxr8zFvUTj8",
+      "l0aR7nQGh4M",
+      "l4bXbwfOlrU",
+      "lA7RJiDJLkQ",
+      "lFySLwtUKW4",
+      "lLuNbjNXjg0",
+      "lNh8L6NMhnI",
+      "lPmjWTwNVQA",
+      "lTeNBUR1u8g",
+      "lYVb5LwixM0",
+      "lbaZ__wbLWo",
+      "ldTVukHRIR0",
+      "lhNC30_adGc",
+      "lvixGbwo0Ug",
+      "m9AyomKoYho",
+      "mJ0uLdys5cE",
+      "mLyxUEp1a68",
+      "mMr8Xnt95rE",
+      "mONJ1htVKrE",
+      "mRD3GbTOtK8",
+      "mb-2ll0UtTo",
+      "mqIWre0VXGU",
+      "mqT-osK7Dkc",
+      "mrnTQL0eyBc",
+      "mvc_zbjfBWQ",
+      "nEUhz-7DzwY",
+      "nT0qOcN_nEQ",
+      "ncOI16-meB4",
+      "nd5WfYyjelg",
+      "nhJI_yGjfRU",
+      "nma3zHRugsM",
+      "o-5X16hq9Fo",
+      "oA6gABulhJk",
+      "oDHSbp6QRRE",
+      "oF62qDhYkuw",
+      "oFGkW7wZsLo",
+      "oPZRWj6Og64",
+      "ohOpaJczckE",
+      "olu1XyJ7q_w",
+      "om5BbhJDaOo",
+      "oom96XXQobY",
+      "ot7qPVf7XVU",
+      "pEZhsdhu6xw",
+      "pEwESJATTaA",
+      "pFrQLRQ37pY",
+      "pR1t7zlT2Qk",
+      "pd_HXj0jT9g",
+      "puO8alDwL9w",
+      "pwI058vcXP8",
+      "pxVSMo5e7yc",
+      "pyew_HmvSOE",
+      "pzz1RMZnLIo",
+      "q2fZjFubeJk",
+      "q4SSpq9jc3g",
+      "qFM8NIDIRro",
+      "qHuFie5U65g",
+      "qJWJvHP4uaw",
+      "qPi_0cW7aHI",
+      "qaul6W5jioY",
+      "qcIz2--60Ts",
+      "qnmVK1R3X0k",
+      "qt5mQQ6W6Z4",
+      "qwh1x15aM4s",
+      "qzi1LqwsP5k",
+      "r1eyXzXNdI0",
+      "rEe5LHWj4fI",
+      "rh6Cj0CW4Bo",
+      "rmYOxoub5y0",
+      "rmfwTnA2tCA",
+      "rsTdXaLenEw",
+      "rt9R26k6dEM",
+      "rxk1uXjnKJo",
+      "rzpkTJYsY0Q",
+      "s27qG_Eg3SY",
+      "sAXC1hn8u9A",
+      "sAxHiPERmmY",
+      "sFE1EyKRHvE",
+      "sd2XYBZY-K8",
+      "shYCuunkPEY",
+      "soshw_203eY",
+      "sqk0Nl8AVYI",
+      "suY0GGTOG9E",
+      "szIzrJJMm4o",
+      "t8k09YlBbtc",
+      "t9XmjCGO1Tw",
+      "tLT1ohlm68c",
+      "tYcH95rlgNw",
+      "tenAKLEOso4",
+      "tfjxUv9g-bI",
+      "tviOSTliefY",
+      "txBBcq-D5mI",
+      "u3Tn6Z3OH-0",
+      "u4yj6dD01aE",
+      "u8-y7QPc48I",
+      "uG1p1j9iAZ4",
+      "uJ6l8t5TpwY",
+      "uPNKwSkxtKg",
+      "uPtvVVYKjnI",
+      "uQJlesqDFf4",
+      "uSqIuvBwh8o",
+      "ufKHek_TU30",
+      "uiiggEC7c9M",
+      "ukZBqIlz8e0",
+      "uqv1-7DCKYI",
+      "uvUmZuXgLtU",
+      "uwGxjv9O1kk",
+      "uzUqoUG0-Xs",
+      "v-SdLOVwRS4",
+      "v4pHJDpGTSM",
+      "vFd4E6F6Z3Q",
+      "vFmG2Me8P-o",
+      "vKMHNYQYWAI",
+      "vM7inxJZ-6U",
+      "vW9TWijhwfA",
+      "viWTUee1PUY",
+      "vm5u5_3v1_U",
+      "vokGmmhZ9hg",
+      "vqDhBjDJAgA",
+      "w2T9_14Y9KQ",
+      "w6_e7nySEXI",
+      "wf3Eu3Yij68",
+      "wfmIOYsE2Hs",
+      "wowlXrlGrEc",
+      "wsomY_6BRqA",
+      "x7wiBaReFN8",
+      "x8cNF81m7-A",
+      "xA0pFTLCt5M",
+      "xHOOBcDcJZU",
+      "xPxusEh-gow",
+      "xb5pUpTVIJU",
+      "xd1xP2FuN40",
+      "xikuzV80GP4",
+      "xkA8v-0jGqg",
+      "xnLiADJF5lw",
+      "xoLGoOIRMlc",
+      "xsU4wp9sR8A",
+      "xt_q5SkINT8",
+      "yaeQr8Q0tCQ",
+      "yg5ul2oeCuM",
+      "yx003QuLH1M",
+      "yyW9WaW3Pls",
+      "yz2cBaVX66A",
+      "zBF3iPJfbaw",
+      "zMu1mAFlVPQ",
+      "zZO7y7Rpbk4",
+      "zZ_1iOXL_wA",
+      "zaW8XagX72U",
+      "ze87vOi2qrQ",
+      "zfdo0R0g-PQ",
+      "ziOsy7OGQ2Q",
+      "zkM_gea0XVE",
+      "zugXvK4CBlM",
+      "zuh3k15-STo",
+      "zxTbtAbuXFs"
+    ]
+  },
+  "entries": [
+    {
+      "video_id": "0iCxGsQFaD8",
+      "title": "Перенос ванной на 1 этаже: начало работы над планировкой квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "w8THXjSWXL0",
+      "title": "Планировка четырехкомнатной квартиры в новостройке: вариант в Remplanner",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uQ2LyXV0XPM",
+      "title": "Кухня 5.5 кв м. в классическом стиле: визуализация в D5 Render",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NK5XmIIeyhc",
+      "title": "Кухня и коридор в неоклассическом стиле: дизайн в Планоплане, SketchUp, D5 Render и нейросетях",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "D0GRHWgAFIU",
+      "title": "Гостиная в стиле ардеко в квартире: визуализация в SketchUp+Планоплан+Nanobanano2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JmGkZDAsz0A",
+      "title": "Кухня в таунхаусе в неоклассическом стиле: переделка с дизайна 2012 г, SketchUp+Nano Banana 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YEpfNcwwGoU",
+      "title": "Концепция двухкомнатной квартиры в Планоплане: обоснование планировочного решения.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FRKr9X3AFfY",
+      "title": "Как начать планировать небольшую квартиру: выбор дверей и перегородок: SketchUp и Планоплан",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kD1dFGQh4EU",
+      "title": "Технический дизайн двухуровневой квартиры в Remplanner: что предлагает программа для заказчика.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dWljzWVC_o0",
+      "title": "3D-модель для утверждения финальной планировки двухуровневой квартиры с террасой.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TJVXUCKQ1UU",
+      "title": "Как использовать Планоплан и SketchUp вместе для дизайна квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vO69U9C1VtE",
+      "title": "Квартира на Большой Марфинской: дизайнерский ремонт для сдачи в аренду.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fFu9eFWq8CM",
+      "title": "Лестница и план двухуровневой квартиры с террасой. Финальный вариант.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4_WpYDRqOeg",
+      "title": "Ванная комната, облицованная глянцевой зеленой плиткой: видео в нейросети VEO 3.1 по визуализациям.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_iN973Mjqm4",
+      "title": "Три варианта лестницы в двухуровневой квартире с террасой",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dRl_S7fIdd8",
+      "title": "Дизайн ванной комнаты: оживление визуализации с помощью нейросетей.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sy_KbLXrsZE",
+      "title": "Трехмерная модель двухуровневой квартиры с террасой – первый шаг в создании дизайн-проекта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Cc649rVhGPM",
+      "title": "Концепция санузлов с использованием синей и белой вертикальной плитки.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "22_KJ2CD3Uc",
+      "title": "Началась работа над дизайном санузлов. Используем 3D в SketchUp и Планоплан. Подбираем референсы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2yvuIDA_Ihg",
+      "title": "Дизайн ванной и душевой в доме в Раменском с визуализацией в Планоплан.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "35sYbsrip14",
+      "title": "Техническая часть дизайн-проекта квартиры в Remplanner: ключевые решения на текущем этапе работы.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "F1CVaJRslvU",
+      "title": "Дизайн кабинет в квартире, новостройка. Визуализация в SketchUp + D5 Render.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "25HQWSd3SU4",
+      "title": "Дизайн кухни-гостиной в частном доме. Два подхода и сравнение D5 Render и Планоплан.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "J1EiPO56N7I",
+      "title": "Комната девушки-подростка на Мелитопольской улице. Визуализации и 3D-панорама в Планоплан.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "eczXZ4idUV0",
+      "title": "Кухня-гостиная в квартире-новостройке на Алтуфьевском шоссе: визуализации и панорамы в Планоплан.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_0G3plZkSjg",
+      "title": "Кухня-гостиная в частном доме: проработка  дизайна и световых сценариев в Sketchup и Планоплан",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dHXLWFurjHU",
+      "title": "Два варианта детской комнаты для девочки и дизайн гостиной в Планоплане с использованием нейросетей.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DzRQtx9vSiY",
+      "title": "Интерьер проходной комнаты с уединенным рабочим местом для девушки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cTxp44BxyTw",
+      "title": "Концепция дизайна дома в Раменском: 3D-обзор в Планоплане, панорамы комнат и нейросетевые варианты.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2CUMAhbo9X4",
+      "title": "Комната с реечной перегородкой, отделяющей рабочую зону, и смежная кухня. 3D модель в SketchUp",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DI5GAV64mnU",
+      "title": "Технический дизайн-проект квартиры на Фестивальной в Remplanner: подробный обзор.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "A8F9AhqWyTw",
+      "title": "Обзор планировки и дизайн-концепции интерьеров частного дома в Раменском",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lhVr5V8dTRU",
+      "title": "Дизайн интерьера комнаты для девушки подростка и кухни - VR-тур в Планоплане и варианты в нейросетях",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wJjZHmNMHyo",
+      "title": "Обзор планировки квартиры 100 кв. м на Фестивальной улице в Москве.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7wZpIUEUluQ",
+      "title": "Показ исходной 3D-модели интерьеров частного дома в Раменском.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "z-yMrBi1oKY",
+      "title": "Исходная модель четырехкомнатной квартиры в Планоплане, созданная по данным лазерного сканирования",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vx5OitQZ3M4",
+      "title": "Обзор доработанной планировки комнат для девочек-подростков в квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MSVoLHapqEU",
+      "title": "Обзор трехмерных вариантов планировки трехкомнатной квартиры для семьи с двумя детьми - Планоплан",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IvJj93D3_LE",
+      "title": "Обзор 3D-планировки трехкомнатной квартиры для семьи с двумя девушками-подростками в Планоплане",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pe5RvyU84gA",
+      "title": "Дизайн санузлов в квартире в \"ЖК Симфония 34\"",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "h4K73k5O6RQ",
+      "title": "Санузлы: отдельная душевая рядом с мастер-спальней и гостевой туалет с душем для собаки и прачечной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SJ4J0ouUAUM",
+      "title": "Планировочные решения квартиры под сдачу в Марфино - демонстрация в Планоплане",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "xSaTL7EN14M",
+      "title": "Концепция однокомнатной квартиры для аренды в формате 3D: Планоплан",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5X7LS8Ugis4",
+      "title": "Обзор кухни-гостиной и прихожей в 3D: SketchUp 2025",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4K6zAvyzvqc",
+      "title": "Видео-визуализация D5 Render кухни-гостиной и прихожей в квартире ЖК Симфония 34",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hwEjuGhPWdM",
+      "title": "3D-обзор квартиры в ЖК \"Баланс\" в Москве с показом мастер-спальни и ванной.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RXSTPPMsMeA",
+      "title": "Визуализация кухни, гостиной, прихожей и спальни в квартире в ЖК Зеленый Квартет: SketchUp D5 Render",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "S5cSNlsG9Jw",
+      "title": "Визуализация кухни-гостиной и прихожей в D5 Render и при помощи нейросетей",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "F0rXrbPDPf4",
+      "title": "Технический дизайн проект квартиры в Remplanner - обзор с комментариями",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j7kzUspCLl0",
+      "title": "Дизайн трехкомнатной квартиры: 3D-визуализация в новейшем SketchUp 2025",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lO4C7u9CAmc",
+      "title": "Создание визуализации кухни-гостиной, прихожей и ванной в D5 Render и просмотр 3D в SketchUp 2025",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "iyZhOwzK1Uk",
+      "title": "Визуализация кухни и прихожей в SketchUp 2025, D5 Render и нейросети Promeai",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "p-XNIv6xs-8",
+      "title": "Доработка кухни и спальни в 3D-планировке квартиры, выполнено в Планоплане",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DNJ-zhHliRg",
+      "title": "Обзор трехмерной планировки двухкомнатной квартиры под аренду, выполненной в Планоплане",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Im6xNepO4eY",
+      "title": "Исходная модель в Планоплане двухкомнатной квартиры в доме серии П-3 в Алтуфьево: обзор",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-NkmcjvHZ_8",
+      "title": "Сотрудничество с заказчиком в Remplanner и обновление 3D-модели SketchUp квартиры на Федоскинской",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QhDJM-0ZRt4",
+      "title": "Квартира в жилом комплексе \"Михалковский\": 3D-модель в SketchUp и планировка в Remplanner",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kupa3kfp7SM",
+      "title": "Просмотр окончательной планировки квартиры в ЖК \"Баланс\" в 3D: SketchUp и Планоплан",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TxiloxmMWFg",
+      "title": "Показ 3D-модели квартиры в ЖК \"Симфония 34\", выполненной в SketchUp: подготовка к визуализации",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JVZ3KCQsOq8",
+      "title": "Проходная параллельная кухня, гостевой санузел со стиральной машиной: идеи для планировки квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PgjFzpkO5fI",
+      "title": "План квартиры с гостевой уборной, ванной и душем во второй ванной комнате",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mmIiyupU2tM",
+      "title": "Три варианта планировки в трёхкомнатной квартире в сравнении с решением от застройщика",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4kY5RsKQciw",
+      "title": "Проект дизайна санузла с душем для квартиры в панельном доме",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "anBMedoS7U8",
+      "title": "Собираем дизайн-проект в Планоплане - финальное, двадцать-второе, видео из серии видео-уроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8sod2E5yyc8",
+      "title": "Исходный план и трехмерная модель квартиры с вариантом изменения планировки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yXJE7KM_A9M",
+      "title": "Визуализируем интерьер с внутренних ракурсов в Планоплан – урок 21 из серии видео-уроков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NM2OAjkS9pc",
+      "title": "Мастер-спальня в двухкомнатной квартире соединена с ванной комнатой через большой шкаф",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JuvTHl3NIT4",
+      "title": "Создаем план квартиры в Планоплане - урок 20 из серии видеоуроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AArQcBDpZxw",
+      "title": "План и 3D модель трехксмнатной квартиры   стартовый этап работы над проектом",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "m3z-XjudFVs",
+      "title": "Делаем обзорные визуализации квартиры с дополнительных ракурсов в Планоплане: урок 19",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "akKcdEKa_lA",
+      "title": "Планировка двухкомнатной квартиры с мастер-спальней и гостевым санузлом, кабинетом и кухней-гостиной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8VaDvfvpLdA",
+      "title": "Оцениваем превью-рендеры и делаем финальную визуализацию квартиры в Планоплане: урок 18",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5qDeXmsk8dE",
+      "title": "Настраиваем визуализацию обзорного ракурса квартиры в Планоплане: урок 17",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "padKdV_4cgw",
+      "title": "Создаем раскладки плитки и материалов на стенах и полу в Планоплане ролик 16 из серии видеоуроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "V3S4LfffpJk",
+      "title": "Видео-обзор трехкомнатной квартиры в Новой Москве для семейной пары с двумя детьми",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5fX6Ya41fbA",
+      "title": "Настраиваем материалы кухонного гарнитура в Планоплане - ролик 15 из серии видеоуроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1Cf5R-n2kfQ",
+      "title": "Настройка цвета материалов в Планоплане - ролик 14 из серии видеоуроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TDsgxUmEYpg",
+      "title": "Кухня, гостиная и прихожая: темные глубокие и зеленые тона и теплое дерево в интерьере квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hdV0t2T5vwY",
+      "title": "Материалы в Планоплане - ролик 13 из серии видеоуроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5LMZ0HTjYW4",
+      "title": "Двухкомнатная квартира на контрасте синего и белого с черными деталями и добавлением теплой гаммы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "b7VmLS3RfiQ",
+      "title": "Работаем с текстурами в Планоплан - ролик 12 из серии видеоуроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Q2NQm-42-X4",
+      "title": "Вариант планировки с Г-образным гостевым санузлом в двухкомнатной квартире в ЖК \"Симфония 34\"",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Tyn_QJVubNs",
+      "title": "Варианты планировки в двухкомнатной квартире с кабинетом и мастер-спальней - продолжение работы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "lgP-lQh5n3s",
+      "title": "Обзор готовой модели в Планоплане с техникой, декором и другими элементами: ролик 11 из серии уроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wT770Uk8w1o",
+      "title": "Варианты перепланировки в квартире в ЖК Симфония 34",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XRmwutH7arA",
+      "title": "Строим кухню в Планоплан: ролик 10 из серии видео-уроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "JoKntNZVDAA",
+      "title": "Обзор в 3D с авторскими комментариями концепции дизайна кухни, гостиной и прихожей в квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "H2ttCih2Zs0",
+      "title": "Наполняем интерьер мебелью в Планоплан - ролик 9 из серии видео-уроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0YXuImQFJwY",
+      "title": "Добавляем окна и двери в модель, используя новый интерфейс каталога Планоплан: ролик 8",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "G-UW4sGpgPw",
+      "title": "Добавляем окна в модель из классического каталога Планоплан: ролик 7",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KwfPtpyWNH0",
+      "title": "Показ варианта перепланировки квартиры в Планоплан в 3D",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0XfeK7MqfEg",
+      "title": "Строим перегородки инструментом \"стена по центру\" в Планоплан: ролик 6",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mjlt5Xgr7Mw",
+      "title": "Строим внешние стены инструментом \"cтена по контуру\" в Планоплан: ролик 5.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SdAmRItOl4Q",
+      "title": "Как перемещаться в рабочем окне и переключать режимы 2D и 3D в Планоплан: ролик 4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "atd4ux5HqfM",
+      "title": "Как загрузить план квартиры в качестве подложки в Планоплан: третий ролик из серии видео-уроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "1tC_tHm2QOI",
+      "title": "Разбираем интерфейс Планоплан: второй ролик из серии видео-уроков",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jEZQ8ksQg70",
+      "title": "Как загрузить и установить Планоплан. Первый ролик из серии видео-уроков.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CFjot9ZTcSQ",
+      "title": "Квартира в ЖК Скандинавия в Москве для супружеской пары.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Y6omKoOFPBg",
+      "title": "Гостиная для молодого человека в московской квартире: два варианта в разных стилях.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KE_UBnGgb9c",
+      "title": "Дизайн-проект квартиры в американском стиле",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "obedfyHL254",
+      "title": "Санузлы в классическом стиле",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vgR01RS3Wkg",
+      "title": "квартира в Раменках",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "tLKMwGUCR0I",
+      "title": "квартира ЖК _Гринада2_ролик1_старт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bOii9Vil11E",
+      "title": "квартира ЖК Гринада2_ролик 3_планировки 2-3",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ly4pcxAgBms",
+      "title": "Квартира ЖК Гринада 2_ролик 5_вариант 5",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bhTexVThfXM",
+      "title": "Дизайн-проект ЖК Гринада 2_ролик 8_вариант кухни-гостиной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XNdUMqqwVjo",
+      "title": "Ушакова 60 кв м гостиная предложение ролик 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pbiVCe-mbdM",
+      "title": "Жулебино 62 кв гостиная ролик 5",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gjYwHf010YQ",
+      "title": "Планировка_Реутов_Ленина_15",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "s-LBSqvraxA",
+      "title": "Спасский_холл-кухня_лофт_проработка 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mcT4QB7hY2Y",
+      "title": "Планировка_Реутов_Ленина_в17",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HGveLPnLSSE",
+      "title": "Спасский_холл-кухня_лофт_проработка 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BD4WRAgU9qY",
+      "title": "Студия 27 кв м Опалиха, стартовая модель",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8qxEM_ew_jQ",
+      "title": "Детализация Реутов Ленина 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7-VJJTgZ9qw",
+      "title": "Опалиха2_Никита_2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2m4P-qBzgeg",
+      "title": "Спасский_кухня и студия_лофт_2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wRFyPg17Hck",
+      "title": "Опалиха_концепция_2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HYESFePtpyg",
+      "title": "Реутов_фартук Мун",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "a-9zwQDXOds",
+      "title": "Реутов, фартук Травертин",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vsH41F7iFiM",
+      "title": "Реутов, Ленина, стеллаж на кухне",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rbLpdR679mE",
+      "title": "Спасский_светильники",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "t_y0Sgt4C4k",
+      "title": "Электросталь_балкон_1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bRDURHq6SdY",
+      "title": "Опалиха_мансарда_старт_1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LW_2ABuxJkk",
+      "title": "Опалиха2_комната Никиты_1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Utc9JedkyBs",
+      "title": "Пушкино_Анна_1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8FWvXf4meGY",
+      "title": "Бианки, гостиная и кабинет для девушки, стартовая модель",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Pw04XqU2rsw",
+      "title": "Бианки, гостиная и кабинет для девушки, стартовая модель 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "B9L-NOSqS_Y",
+      "title": "Пушкино_санузел_1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z2ELbRVyI7A",
+      "title": "Пушкино_санузел_видео 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FuQIhuNDjbU",
+      "title": "Комната для братьев_стартовая модель_1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Iyt0qw0g380",
+      "title": "Гостиная для девушки, Бианки, вариант 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "e01NJYCWvJw",
+      "title": "Комната девушки, вариант с фреской",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fg1aUs0NrD4",
+      "title": "Комната девушки, вариант с фреской 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qmSodp08ZSw",
+      "title": "Комната братьев, Свиблово, варианты планировки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "EAC55GTFBrc",
+      "title": "Комната братьев, планировка 4, Свиблово",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gTq3eEEO14A",
+      "title": "Комната братьев, Свиблово, концепция 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "CnsJyOeP-gw",
+      "title": "Детская в мансарде, новая планировка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "l0QMzmMKJTI",
+      "title": "Комната братьев, вариант 5 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "je6ECZ9OVnU",
+      "title": "Комната братьев, планировки 6 и 7",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0PkQhIeZNXI",
+      "title": "Дом Назарьево 1 этаж стартовый обзор",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uykJGOhJuIc",
+      "title": "Обзор дома в Назарьево   стартовая модель",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "sgt7lCN17n0",
+      "title": "Дом: планировка 1 этажа",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cFraIwrEssc",
+      "title": "Комната братьев   стилевая проработка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wFpA6YcNcC0",
+      "title": "Дом в Назарьево планировка 2 этажа спальни",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_Va28mqmYqY",
+      "title": "Дом в Назарьево планировка 2 этажа спальни 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "A34CxgzKjmI",
+      "title": "Комната братьев стилевая проработка 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gE_Etx5J0mw",
+      "title": "Юлия улица Нарвская стартовая модель",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7lHHn2ZoKfs",
+      "title": "Юлия улица Нарвская концепция 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PK7Q3rDmJXI",
+      "title": "Диана_Соколо_Мещерская улица_старт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "bFYho7cme7s",
+      "title": "Юлия улица Нарвская концепция 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hrECwMuj5K8",
+      "title": "Диана_Соколо_Мещерская улица_план_1_1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OkfLS_h7tWQ",
+      "title": "Диана Соколо Мещерская улица план 1 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "o4UvocGDWUM",
+      "title": "Квартира Новогиреево Напольный проезд старт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "OeN3BHI-O5A",
+      "title": "Квартира Новогиреево Напольный проезд планировка 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dx8214Vwz3A",
+      "title": "Дом в Назарьево 1 эт эскиз душевой 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MfxC3UkigDg",
+      "title": "Юлия улица Нарвская концепция 4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LIGD1EbPNKI",
+      "title": "Юлия улица Нарвская концепция 4 м",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6voxD9ceGqs",
+      "title": "Дом в Назарьево 2 эт эскиз ванной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Oas0ur1mbr0",
+      "title": "Вересковая ванная 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SsLbpS9weLY",
+      "title": "Садовая Триумфальная старт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cGzFXx7twIs",
+      "title": "Квартира Новогиреево Напольный проезд планировка 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "79216PnHric",
+      "title": "Кухня-гостиная и прихожая в квартире под сдачу в ЖК \"Зеленый квартет\"",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_46k1Og55VI",
+      "title": "Квартира в ЖК Скандинавия: прихожая, кухня-гостиная, санузел с душевой, спальня.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NU-zX6Huu50",
+      "title": "Гостиная, кухня, прихожая в квартире на Полярной. Современный уютный минималистичный дизайн.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wOyfuys7GL8",
+      "title": "Полный обзор смежных квартир под сдачу в ЖК Кристалл",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YD1cNbmhAsE",
+      "title": "Квартира в Зиларт:  гостиная, кухня, прихожая, спальня. Современный интерьер.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "hIyAARRyTeo",
+      "title": "Дизайн интерьера спален в смежных квартирах для одного хозяина",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8NpXfKcarjc",
+      "title": "Два варианта дизайна кухни-гостиной в ЖК Зиларт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AizKjfFMCNE",
+      "title": "Две спальни в смежных квартирах в светлых нежных теплых тонах",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XJuhHzzqdnY",
+      "title": "Кухни гостиные в светлой теплой гамме в смежных квартирах под сдачу",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9ZiLRIahuuk",
+      "title": "Гармония серых тонов, белого, графита и тона дерева в дизайне кухни, прихожей и санузлов",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-Q86YxkPAvQ",
+      "title": "Две кухни гостиные под сдачу в смежных квартирах в ЖК Кристалл",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jJZax_mduWQ",
+      "title": "Ванная в коричневой и светло серой плитке под бетон",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rYOHfJkInsY",
+      "title": "Кухня, прихожая и санузлы в квартире для молодой женщины с элементами минимализма и лофта.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KVUHy1C97Yw",
+      "title": "Кухня в стилистике лофт с элементами эклектики, второй вариант.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "p4VnE-k0R4I",
+      "title": "Кухня в стиле лофт с желтыми и оранжевыми акцентами",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pim_wvjttPE",
+      "title": "Кухня-гостиная и прихожая в неоклассическом стиле в московской квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VT2ptD04Duc",
+      "title": "Кухня-гостиная в квартире под аренду в неоклассическом стиле.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "mLyxV6kLq8M",
+      "title": "Интерьеры загородного дома в стиле фахверк, 1-ый этаж.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8J9YZvi5I8A",
+      "title": "Дизайн салона электроники в актуальной версии стиля лофт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TAe5EqQqBkQ",
+      "title": "Стиль ар-деко с элементами неоклассики в московской квартире: кухня, прихожая и санузлы",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KAc-3TQh30k",
+      "title": "Концепт дизайна квартиры в ретро-стиле",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YD7D2xIDio8",
+      "title": "Вариант дизайн-концепции по организации фотостудии в квартире. Лофт.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AC_iOaI0BdE",
+      "title": "Комната для девочки в трехкомнатной квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ktdTxRfTnl4",
+      "title": "Современная спальная для девушки с гардеробной комнатой",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fur23zjaZV4",
+      "title": "Современная детская для мальчика в трехкомнатной квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qqy-g3cjTag",
+      "title": "Кухня и прихожая в однокомнатной квартире под сдачу в аренду",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vV1Hg_3sBmI",
+      "title": "Спальня с гардеробной на Никитина",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vcwWXP9PAZc",
+      "title": "Детская для девочек в трехкомнатной квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "R2MCfD7nye4",
+      "title": "Гостиная в стиле ардеко в трехкомнатной квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "eHPwhQcrtII",
+      "title": "Кухонный гарнитур на кухне в стиле ар-деко",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "zHXWj0l1E0U",
+      "title": "Тренажерный зал в серебристых тонах со шторами",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5DzhHnSCffY",
+      "title": "Гостиная, прихожая и коридор в стиле модерн",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "XluMMb7WdGg",
+      "title": "Коридор  Арнуво 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "FlDpqTxvUvU",
+      "title": "Спальня в стиле арнуво, Маяковка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "E81MzhAWv0s",
+      "title": "Технологичный минимализм: концепция интерьера кухни-гостиной и лоджии",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kQElpS8r-Ps",
+      "title": "Однокомнатная квартира в погружающих серых тонах",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3lTnbVIh4H4",
+      "title": "Кухня-гостиная в частном доме в стиле ваби-саби.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "z7MW7xq62jE",
+      "title": "Квартира в Новогиреево обзор 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "4vF1mvZBIL4",
+      "title": "Обзор дизайна квартиры, Соколо-Мещерская улица",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ehcMnXhX6xI",
+      "title": "Квартира на Маяковке планировка 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vNVI4FWQT-o",
+      "title": "Дом в Назарьево, дизайн гостиной столовой с новогодними мотивами 2021",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kYKTCSN817I",
+      "title": "Ванная в этностиле",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RFCoWiis_7M",
+      "title": "Диана Соколо-Мещерская улица холл, гостиная, кухня",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "v7Q8B0R3eXo",
+      "title": "Назарьево кухня душевая ванная",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2uw3WAB9Sxk",
+      "title": "Неоклассический интерьер в небольшой квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "10M92inDWcM",
+      "title": "Комната братьев стилевая проработка 3",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "X2Qk-bkpg-I",
+      "title": "Кабинет в эркере для девушки, Бианки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "27fsLMYSKPA",
+      "title": "Юлия улица Нарвская концепция 3",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6CE7D5u9EYY",
+      "title": "Реутов Ленина, проработка концепции квартиры",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LX6H1c5D9gM",
+      "title": "Студийная кухня-прихожая и частная фотостудия в стиле лофт в московской квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "S1QzUX7tBS4",
+      "title": "Реутов презентация кухни-гостиной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "AwFfdGDaz4E",
+      "title": "Спасский_спальня и гардеробная",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TXNIDYJ0sHM",
+      "title": "Реутов Ленина прихожая концепт 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "35Ya0YvCQb8",
+      "title": "Санузел в стиле лофт, вариант 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RenpVBX-rKA",
+      "title": "Ванная в стиле лофт, вариант 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z9cRGbb6oAU",
+      "title": "Реутов Ленина дизайн ванной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uQSqCy2C-y8",
+      "title": "Спасский_гостевой туалет в стиле лофт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jdxXXW43UeE",
+      "title": "Гостиная для девушки, Бианки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LIbxTj5bxVc",
+      "title": "Пушкино_детская",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "unlh3v2lfSs",
+      "title": "Проект детской комнаты в деревянной мансарде",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HctspR-1Vt0",
+      "title": "Прихожая, кухня, спальня в современном минималистичном стиле, квартира в Пушкино",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uhD93pvTMVg",
+      "title": "Балкон-кабинет в стиле лофт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TptTI0Lwav0",
+      "title": "Cпальня, гардеробная и ванная в стиле лофт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "NWJlsJ_MrP0",
+      "title": "Спасский_фотостудия",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RUfZWpXMwoU",
+      "title": "Спасский_холл_кухня_туалет_кладовая",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ti4Lx4fSOJ0",
+      "title": "Нахимовский кухня-гостиная-прихожая цвет 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2s-LBlk0RMA",
+      "title": "Людмила_предфинальный обзор",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Dw5UtJVR1Rg",
+      "title": "Дизайн-проект квартиры в современном стиле. Котельники.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "MfPPPR1vPVg",
+      "title": "Двухкомнатная квартира в традиционном исполнении.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "uDfRJ_97xYc",
+      "title": "Опалиха 2020, санузлы и балкон",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "IDQfXYdRGQE",
+      "title": "Реутов_презентация кухни-гостиной с плиткой Италон",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "pZC9DxEpKF4",
+      "title": "Опалиха, комната в ретро-стиле",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "E29sq6xc9qU",
+      "title": "Квартира в Реутове",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-62d_IANOvc",
+      "title": "Планировка_Спасский_6-11",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "cvdjWIZh1y8",
+      "title": "Дизайн проект квартиры 85 кв. м. в современном стиле, ЖК Гринада, Москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "LuOrL9zAsY0",
+      "title": "Трехкомнатная квартира 87 кв в Одинцово - дизайн-проект",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "BN4Cl7TSrjU",
+      "title": "Дизайн интерьера спальни, Жулебино 62 кв м,  ролик 11",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2y_j-9tdpdk",
+      "title": "Гвардейская 11, ванная, ролик 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "O7QA2ubwCJk",
+      "title": "Жулебино 60 кв гостиная ролик 11",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6OiwDmjyeTI",
+      "title": "Жулебино 62  кв спальня ролик 10",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KenGtUboncg",
+      "title": "Кухня в белом и голубом тонах для пожилой женщины в традиционном стиле",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "K1W2YRbkVz8",
+      "title": "Гвардейская 11, кухня-гостиная, ролик 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "l2n1dPCtEyM",
+      "title": "Ушакова 60 кв кухня ролик 4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vkPrSph9W2U",
+      "title": "Жулебино 621 кв гостиная ролик 9",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "SRJ7-31WvWA",
+      "title": "Жулебино 62 кв гостиная ролик 8",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "fT7iJJTQkJw",
+      "title": "Жилая комната для пожилой женщины",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "H1gDLur3w0Y",
+      "title": "Ушакова 60 м вариант гостиной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8DBw4YuP6pY",
+      "title": "Жулебино 62 кв гостиная ролик 7",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oiAZh9p9WzY",
+      "title": "Жулебино 62 кв гостиная ролик 6",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UiYifHOW6eE",
+      "title": "Кухня-гостиная в ЖК Гринада 1, ролик 8",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VXbGuAOOmQs",
+      "title": "Кухня-гостиная в квартире, ЖК Гренада 1, ролик 6",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "8Ejn7GnsKF8",
+      "title": "ванна в ЖК_Гринада2_ролик 16",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "5uDRxoWFVbo",
+      "title": "ванна в ЖК Гринада 2, ролик 15",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "E1yTFPNatD0",
+      "title": "Ванная в квартире, ЖК Гринада 2, ролик 14",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ppp2NdAA8C4",
+      "title": "Дизайн ванной вариант серый и беж ЖК Гринада 1, ролик 5",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ofQt3FbpNlE",
+      "title": "Квартира ЖК_Гринада1_ролик4_туалет",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ox6lfG2C9kI",
+      "title": "Проект ЖК Гринада 1_ролик3_ванная",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "APtmP4ceRUg",
+      "title": "Квартира ЖК_Гринада2_ролик12_кухня-гостиная",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "d_wkdpr4IBc",
+      "title": "Квартира ЖК Гринада 2_ролик 11_кухня-гостиная",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-k9TOodB_Ic",
+      "title": "Дизайн-проект 2 этажа банного комлекса, чертежи",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kWtKLnQaGQs",
+      "title": "Квартира ЖК Гринада 2_ролик 10_вариант кухни-гостиной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "kbK0_tjAjJk",
+      "title": "Квартира ЖК_Гринада 2_ролик 8_вариант кухни-гостиной",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "j_PNfU_VoUA",
+      "title": "Квартира ЖК Гринада 2_ролик 7_варианты кухни",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "yht7oz2PUCg",
+      "title": "Проект ЖК Гринада 1_ролик 2_кухня-гостиная",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Uf9_BHgopQ8",
+      "title": "Дизайн-проект спортзала на мансардном этаже частного дома",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "QlVjPbNmTBE",
+      "title": "Дизайн-проект трехкомнатной квартиры в неоклассическом стиле, Москва",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "laEV5_24ak4",
+      "title": "Видео второго этажа частного банного комплекса со спортзалом, спальней, санузлом",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Qw1WhCpdmIY",
+      "title": "Квартира Раменки",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z8PVTpph3eA",
+      "title": "Квартира в неоклассическом стиле 49 кв м",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2bRex1OAm6c",
+      "title": "Санузел в квартире, брутальный дизайн",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_xp_aJgcGic",
+      "title": "мужская спальня в квартире, неоклассика, вариант 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "VdzugPx6-vg",
+      "title": "Мужская спальня в стиле неоклассика",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "2wf76935aSg",
+      "title": "Кухня в квартире, классический стиль",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Y9H9kVJZmJY",
+      "title": "Alex_Katya_ramenki_kuhnya_detal_2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "gSVzHVtVqlE",
+      "title": "Alex_Katya_ramenki_planirovki_gost_2_sp_1_cab_1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "B-5_afI5pZo",
+      "title": "Тренажерный зал на втором этаже частного банного комплекса",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "RhgeyX3x00c",
+      "title": "Нахимовский спальня базовый вариант",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "HZvFuPzUa68",
+      "title": "Нахимовский спальня Бримнес",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "z_NjC_LSYSk",
+      "title": "Тренажерный зал в мансарде",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "dTkns-n0VCY",
+      "title": "Банный комплекс 2018",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YerzHFWt78E",
+      "title": "Нахимовский 3_6 планировка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ipvI7RVP-3o",
+      "title": "планировки обзор 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ottP31KdA_Q",
+      "title": "нахимовский планировки 4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "y7QEWNltg-g",
+      "title": "Нахимовский, планировки, 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "KN8rguuIlL4",
+      "title": "Дизайн квартиры в американском стиле",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YVgVt1meVaw",
+      "title": "Пример дизайн-проекта с видеопрезентацией, визуализациями и чертежами",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Sw9yDb30BoA",
+      "title": "Дизайн-проект двухкомнатной квартиры в Реутове",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TSZ2bkrCfn0",
+      "title": "ванна обновление 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "0ZKTseHPt2w",
+      "title": "Эскиз ванной в квартире",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Ew0FNuQwAEA",
+      "title": "Разработка стилевого решения, финальный вариант",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "TlS7vJ7zurs",
+      "title": "Разработка стилевого решения, вторая итерация",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "G5JflduOzbk",
+      "title": "Дизайн-проект студийной части в однокомнатной квартире, этап 2-3, стиль и детализация",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "r7UEGou9p_E",
+      "title": "Разработка стилевого решения, первая итерация",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "oSDW7KV0_Ko",
+      "title": "Проработка дизайна кухни",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rRbZvgIarvQ",
+      "title": "Дизайн кухни с печным комплексом в частном доме",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "opACqzzkvIw",
+      "title": "Уточнения планировочных решений",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UvEg9IpLhkM",
+      "title": "Планировочные решения",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "78V3hE2tTTE",
+      "title": "Кухня-столовая c печным комплексом",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rMcvIHl9avo",
+      "title": "Дизайн-проект студийной части в однокомнатной квартире - этап 1, планировка",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "ppBbafJsjW8",
+      "title": "Дизайн-проект раздевалки в частном банном комплексе",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DZEw3gTVn5k",
+      "title": "Печной комплекс, вариант. Разработка для дизайн-проекта банного комплекса.",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "jdLUFgaL76s",
+      "title": "Хаммам в частном банном комплексе, вариант 2 дизайн-проекта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "YXxQv_WjvwE",
+      "title": "Хаммам в частном банном комплексе,  вариант 1 дизайн-проекта",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rfkX3BVOVYY",
+      "title": "Парилка русской бани, вариант 1 к дизайн-проекту банного комплекса",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qYwyZJMxCQI",
+      "title": "Дизайн точки сервисного обслуживания, видео 5",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "UFLctZxIEyQ",
+      "title": "Дизайн точки сервисного обслуживания, видео 4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Zld3qHHWK4Q",
+      "title": "Дизайн-проект точки приема телефонов на обслуживание и ремонт",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PiG9K9VVw0E",
+      "title": "Точка приема техники 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "PZTuKhQWFjs",
+      "title": "Комната отдыха-предбанник вариант 9_3",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "DpPA3CU3jsg",
+      "title": "Комната отдыха-предбанник вариант 4-2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "3wJZJrCs_z4",
+      "title": "банный комплекс варианты парилки 1_4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "eG_U9rTbvz0",
+      "title": "Комната отдыха-предбанник вариант 9_2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "rmxsEm70Gzk",
+      "title": "Комната отдыха-предбанник вариант 9",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "WARAMeTWnAw",
+      "title": "Комната отдыха-предбанник вариант 8",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "6huv3j_UcKw",
+      "title": "Комната отдыха-предбанник вариант 5_2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "muRNE4sqaEE",
+      "title": "Комната отдыха-предбанник вариант 7",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "-msjuYOdMvQ",
+      "title": "Комната отдыха-предбанник вариант 6",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "qm7q3RBnkBk",
+      "title": "Комната отдыха-предбанник вариант 5",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "23c232yuVZ0",
+      "title": "Комната отдыха-предбанник вариант 4",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "miQdkDnRnSU",
+      "title": "Комната отдыха-предбанник вариант 3",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "9CjtV5slISg",
+      "title": "Комната отдыха-предбанник вариант 2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wvv4yVIV-EY",
+      "title": "Комната отдыха-предбанник вариант 1-2",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "Z8eCapS3V4c",
+      "title": "Комната отдыха-предбанник в банном комплексе, концепция, вариант 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "vzPwMOwro3k",
+      "title": "Печной комплекс доработка 1",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "_2zWmN1w3wI",
+      "title": "Печной комплекс, 3d эскиз в рамках разработки проекта банного комплекса",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "wMdYdqyJZf0",
+      "title": "Как я делаю дизайн-проект интерьера в SketchUp",
+      "status": "fresh",
+      "reason": null
+    },
+    {
+      "video_id": "7RLxZlFCOzw",
+      "title": "Как выглядит 3d модель интерьера в SketchUp",
+      "status": "fresh",
+      "reason": null
+    }
+  ]
+}
