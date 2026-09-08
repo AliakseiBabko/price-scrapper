@@ -501,7 +501,7 @@
       "path": "_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf",
       "sha256": "b95dae5afb1feed73db80ad6afbcf1c786b9d86a686309fc6689567224481949",
       "bytes": 70736,
-      "note": "!! _Inbox/_Visual_Drop/ is gitignored and this file is NOT tracked, so the bytes live on one machine only. Identity is pinned here the way _Survey and _Precedents pin theirs. Re-hash before trusting a copy."
+      "note": "TRACKED as of 2026-09-08: force-added past the _Inbox/_Visual_Drop/ gitignore, the same way its sibling rasters were, because the whole identity test rests on it and 70 KB of vector geometry is worth keeping in git. The sha256 above stays the check - re-hash before trusting a copy."
     },
     "tip_marks_heated_vs_cold": {
       "mark_placement": "ТИП nn sits under a ROOM's area label, once per room - not an opening mark. ТИП 22 on all seven rooms (туалет 1,24; ванная 3,09; прихожая 9,79; кухня 5,24; 9,36; 16,64; 19,49). ТИП 27 on the лоджия alone, 6,05(4,24).",
