@@ -21,6 +21,7 @@ import os
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from sheet_lib import Sheet, RUNS, SPANS, MMPX, S, F  # noqa: E402
+from make_segment_key_sheet import label_segments
 
 R, B, GY, OR, GN = ((210, 30, 40), (0, 110, 220), (110, 110, 110),
                     (225, 130, 0), (0, 150, 60))
@@ -96,4 +97,6 @@ s5.note([u'ЛИСТ НАМЕРЕННО ПУСТОЙ В ЧАСТИ ТРАСС.', 
          u'   Достаточно предварительной линии от стояка',
          u'   к каждому радиатору.'])
 
+# Wall codes last, so spot() routes them around the symbols above.
+print('  s5 segment labels: %d' % label_segments(s5, tiny=True))
 s5.save('sheet_05_heating.png')
