@@ -230,3 +230,59 @@ stage          1..5                           # no committing stage 4 rates in s
 3. **Material lead times and distributor structure in Minsk** — what must be ordered how far ahead. **This is a schedule input**, and nothing in the vault has it.
 
 **Everything else — the taxonomy, the cascade logic, the delta schema, the QTO split, the nesting thresholds — the report already answered. Those are build tasks now.**
+
+---
+
+## G. The design side — the chain the owner described, mapped (2026-09-08)
+
+**His chain**: capture what exists → show what others did with the same layout → suggest options against requirements → *connect the dots*, deriving the electrics and plumbing each option implies. Plus 2D for printout and 3D for visualisation.
+
+**Verified against the repo, not recalled.** The inputs are in much better shape than the outputs.
+
+### Step 1 — capture what exists ✅ **have the containers; he is filling them now**
+
+`plumbing_anchors.csv` (3 rows) · `service_outlets.csv` (8) · `electrical_existing.csv` (11) · `device_counts_per_wall.csv` (50, with an explicit `i_drew_… / YOUR_…` column pair for owner correction) · `internal_wall_faces.csv` · `room_rollouts.csv` · `wall_openings.csv`.
+
+**No gap. This is the right first step and it is the input everything downstream needs** — including the BOM quantities.
+
+### Step 2 — show what others did with this layout 🟡 **corpus exists, nothing presents it**
+
+- ✅ **`data/layout_cases/*.json` — 5 precedent cases in a genuinely useful schema**: `problems` / `moves` / `tradeoffs` / `outcome` / `rules_derived`. So each case records the problem faced, the move made, and what it cost. One (`zemskov-odintsovo-69m2`) is a 69 m² flat — this flat's own size.
+- ✅ **`_Survey/` — three flats of the SAME layout**, 30 photographs, positioning plans, indexed by `photo_positions.csv`, with `Geometry_Variance_Study.md` comparing them dimensionally.
+- ❌ **Gap: nothing reads either corpus back as an answer.** There is no "for this layout, here is what three other households did and what it cost them" view.
+- ⚠️ **And an honest limit on the ask itself**: the 5 cases are *similar-size* flats, not *identical-layout* ones. Only `_Survey/` has the exact layout — and what it holds is **finished appearance and geometry deltas, not layout reasoning.** So "the exact same layout, what did they do and why" is thin by construction. **The precedent that transfers is the case corpus; the identical-layout evidence is dimensional.** Worth not conflating them.
+
+### Step 3 — suggest options against requirements 🟡 **the checking half is missing, and it is cheap**
+
+- ✅ **`data/layout_rules/rules.jsonl` — 43 machine-readable rules with parameters**, e.g. `corridor.min_clear_width` = 1100 mm `measured_state: before plaster`, each with rationale and `applies_to`.
+- ✅ The variant patch mechanism can express an option and diff two.
+- ❌ **⚠️ Gap, and it is the cheapest high-value item on the design side: NOTHING CONSUMES `rules.jsonl`.** 43 rules are written as data and no tool checks a variant against them. **A rule checker is a small script over data that already exists**, and it turns 43 pieces of practitioner knowledge into an automatic gate on every option.
+- ❌ **Gap: requirements are prose, not data** — `cap6`. So an option cannot be *scored* against the household's actual scenarios, only read against them by eye.
+- ❌ **`v0` still has no geometry**, so there is no baseline to compare an option *to*. Per the 2026-09-08 correction this is **manual tracing from the printed dimension strings, roughly 1.5–2 h — not a tool.**
+
+**On machine-GENERATING layouts**: this question was in the research prompt and Gemini's plan dropped it. **I am not going to chase it, and the reason is a judgement rather than an omission**: for one flat with a fixed structural frame, three fixed shafts and a decided thesis, the option space is small enough that generation adds nothing. **The value is in checking and comparing options, which is exactly what `rules.jsonl` + the variant diff already almost do.**
+
+### Step 4 — "connecting the dots" ❌ **the real gap — and it is the SAME gap as the budget**
+
+Deriving, per layout option, the electrical points, circuits, switch groups and plumbing points it implies.
+
+- **`cap6` — daily scenarios as data.** Unbuilt. The roadmap already notes it is *"a decision-capture task, not a coding task"* — the household's routines have to be written down as structured data before a socket can cite one.
+- **`cap8` — circuits and switch grouping.** Unbuilt, and **depends on cap6**. The roadmap's own line: *"the value of the lighting sheet is entirely in this grouping; the fixture dots are already printable."*
+
+> **⚠️⚠️ THE INSIGHT WORTH ACTING ON: this derivation is simultaneously a design output and a BOM quantity.** "How many sockets does this layout need" is the same number as `ELE-01`'s quantity, which is priced per point. **So `cap6` + `cap8` pay twice — they unlock the lighting and socket sheets AND they populate the budget lines that are currently `unmeasured`.**
+>
+> **The design gap and the budget gap are one gap.** That is the strongest argument for doing this next, ahead of anything on the drawing side.
+
+### 2D for printout 🟡 · 3D for visualisation 🟡
+
+Unchanged from §A–§C: 4 sheets generate, DXF carries phase layers, wall elevations come out of `calculate_wall_finishes.py`; **5 of 16 sheets are unmodelled and annotation is where hand-rolled SVG fails, so Bonsai's drawing subsystem is the answer there.** 3D is an EEVEE demonstrator wired to an older provisional model; the step to presentable is materials, lighting and camera work, and **the research's advice stands — outsource a room render at $40–90 rather than building an asset pipeline.**
+
+### So: do we need more tools? **No new software. Three small scripts over data we already hold.**
+
+| # | Tool | Reads | Why this order |
+| :-- | :--- | :--- | :--- |
+| 1 | **Rule checker** — validate a variant against `rules.jsonl` | data that already exists | **Cheapest, and the rules are already written.** Turns 43 pieces of knowledge into a gate |
+| 2 | **Service derivation** (`cap6` → `cap8`) | scenarios (to be captured) + the variant | **Pays twice** — design output *and* BOM quantities |
+| 3 | **Precedent view** — render the case corpus and survey against a question | `layout_cases/`, `_Survey/` | Presentation, once there is an option to compare |
+
+**Prerequisite for any meaningful comparison: `v0` geometry.** Manual, ~2 h, no tooling.
