@@ -6,7 +6,30 @@
 
 ---
 
-## Part 0 — Why the brief is shaped this way (read before pasting)
+## ⭐ THE PROMPT — paste this (~370 words, fits a chat box)
+
+> I'm the owner-manager of one apartment renovation in **Minsk, Belarus**. I want to produce and maintain the whole document set myself — 2D plans, a 3D model, quantities, budgets, visualisations — using **Python + Blender + AI agents instead of buying Revit / ArchiCAD / SketchUp / Planner 5D**. Research what professional practice has already settled here, and **test whether my approach is realistic rather than assuming it.**
+>
+> **Already built — don't propose it:** apartment geometry as canonical JSON/CSV; an IFC model built with IfcOpenShell (walls, spaces, openings, MEP points); layout variants as patch files, built and diffed by one command; geometry validators that gate (wall junctions, corner ownership, room-rollout closure, a QTO gate); four A3 sheets generating from the IFC via SVG→PDF; DXF export with existing/demolished/new layers; Blender + Bonsai plus a headless EEVEE render script; a price database with historical-FX normalisation.
+>
+> **What I need researched:**
+>
+> 1. **Quantity take-off from an IFC model, done properly** — what is measured off the model versus off a product datasheet, and whether professionals use waste percentages or nested cutting plans.
+> 2. **Quantities → budget, and specifically the automatic cost DELTA between two layout variants** (5D BIM). Include the **Belarusian** estimating basis (НРР) — **do not substitute Russian norms.**
+> 3. **Construction-grade 2D from code**: realistic limits of IfcOpenShell / ezdxf / FreeCAD BIM / Bonsai for dimension strings, tags, schedules and title blocks — and what "worker-ready" requires that a coordination drawing lacks.
+> 4. **Rendering**: what the step from an EEVEE demonstrator to a presentable image actually costs, and honestly whether AI image tools (ControlNet depth over a clay render) keep enough **geometric fidelity** to be more than mood.
+> 5. **Colour and finish selection** — what is systematisable, where a human eye stays required, and what a painter or tiler needs per surface.
+> 6. **The 2024–2026 agent layer**: MCP servers for CAD/BIM, agent-driven estimating, raster-plan→vector accuracy, and the review practices that keep agent output trustworthy (IDS, BCF, model checking).
+> 7. **Where my approach fails and a paid seat wins** — name the tasks, and what buying *just* that capability costs, including one-off outsourcing.
+> 8. Sheet by sheet, what does an established **«планировочный проект»** album contain, and which drawing standards govern it (ГОСТ 21.501 / СПДС versus Belarusian СТБ / ТКП)?
+>
+> **Output:** a verdict per capability (*replaceable by agents now / with effort / not yet*); a gap table with method + open-source path + failure mode; a build order; a standards list separating mandatory from customary and Belarus from Russia; named tools with maturity and licence; and a **"don't build this — buy or outsource"** list.
+>
+> **Cite sources. Date-stamp anything about AI capability. Prefer standards, software docs and practitioner writing over marketing pages.**
+
+---
+
+## Part 0 — Why the brief is shaped this way (background, not for pasting)
 
 **The YouTube sources looked outdated because they answer a different question.** They teach *a tool*. This project does not need a tool; it needs **a data model that produces drawings, quantities, budgets and images, and that can be re-run when a decision changes.** That is a different literature — BIM/QTO/5D, open-source IFC tooling, and the 2024–2026 agent layer — and almost none of it is on renovation YouTube.
 
@@ -16,7 +39,9 @@
 
 ---
 
-## Part 1 — THE PROMPT (paste everything between the rules into Gemini Deep Research)
+## Part 1 — The long-form version (a fallback, not the prompt)
+
+**Use the short prompt at the top of this file.** This expanded version exists for two cases only: **the short prompt comes back shallow on a specific question** and you want to re-ask that section with its sub-bullets, or **a future session needs the full context digest** without re-deriving it from the repo. Do not paste the whole thing — it reads as a specification, and Deep Research answers a *question* better than it answers a brief.
 
 ---
 
