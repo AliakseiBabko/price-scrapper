@@ -56,12 +56,18 @@
 
 **So one wall of the туалет is at least ~1140 mm.** With the room at **1.24 m²**, the other dimension works out at roughly **1.09 m** — and **on those figures no dimension of the room reaches the norm's 1.5 m minimum.**
 
-> **⚠️ Recorded as a discrepancy to resolve, NOT as a finding of non-compliance.** Three explanations are available and I cannot choose between them from what has been read:
-> 1. **Изменения №1 и №2 changed these figures** — the most likely, and the reason the amendments are the top follow-up on this page.
-> 2. **The minimums bind the DESIGN of a new building under the norm in force at the time it was designed**, not this flat as built.
-> 3. The area figure is a CAD recalculation and the room's true shape differs — though the ventblock's 1140 mm makes a 1.5 m dimension hard to reconstruct in 1.24 m² either way. **This project's own rule that areas are not evidence cuts both ways here.**
+> **⚠️⚠️ CORRECTED 2026-09-08, later the same day — the discrepancy was largely an error of mine, and the correction is instructive.** The first version of this section divided 1.24 m² by the ventblock's 1140 mm and concluded no dimension reached 1.5 m. **That silently assumed the recorded 1.24 m² includes the shaft's footprint.** It probably does not: a вентблок is **общедомовая шахта** — common property — and is normally excluded from a flat's counted area.
 >
-> **What does NOT depend on resolving it**: the **washbasin** minimum of **1.4 × 1.5 m = 2.10 m²** is unreachable in a 1.24 m² room under any arrangement. **That conclusion holds on all three explanations** unless the amendments changed the figure itself.
+> | Reading | Room outline | Other dimension at 1140 mm width | No basin (0.8 × 1.5) | With basin (1.4 × 1.5) |
+> | :--- | :--- | :--- | :--- | :--- |
+> | **A — 1.24 m² EXCLUDES the shaft** (the likely one) | 1.24 + 0.559 = **1.80 m²** | **≈ 1.58 m** | ✅ **complies** (1.14 ≥ 0.8; 1.58 ≥ 1.5) | ❌ **fails** — 1.14 < 1.4 |
+> | **B — 1.24 m² INCLUDES the shaft** | **1.24 m²** | ≈ 1.09 m | ❌ fails on length | ❌ fails on both |
+>
+> **→ Under the likely reading the room complies as a WC without a basin, and my earlier "no dimension reaches 1.5 m" was wrong.** What survives untouched is the **washbasin** conclusion: **1.14 m of width fails the 1.4 m minimum on either reading.**
+>
+> **⚠️ The open question is therefore narrower and more answerable than the one I first recorded**: *does the developer's 1.24 m² include the ventblock footprint?* That is checkable against the dimension strings on `fllor_plan_detailed.jpeg` rather than against the norm. **And the standing rule earned its keep here — reasoning from an area rather than from linear dimensions is exactly what produced the wrong answer.** See [[00_Master/Geometry_Variance_Study|Geometry Variance Study]].
+>
+> Two further caveats remain either way: **Изменения №1 и №2** are not in the copy read, and the norm is a **design** norm binding a renovation only via № 164 §4.
 
 ### ⚠️ How this interacts with the practitioner method already in the vault
 
