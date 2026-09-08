@@ -143,3 +143,26 @@ catalogue may be treated as a dimension** — recorded as
 - Everything above is one practitioner's commercial product and his opinion of
   what a renovation needs. Treat the sheet list as a checklist to argue with,
   not a standard.
+
+## ⚠️ A second, independent sheet set — and it exposes an omission (2026-09-08)
+
+**The invitation above was taken up.** Everything on this page to this point derives from **one** practitioner, architect Sergey Dolgushev. Round 1 of the design-toolchain intake produced a second sheet set from a different designer, in a different tool, on two different flats — **Дизайнер Дмитрий К** (Moscow, [`YT_F0rXrbPDPf4`](../_Sources/YT_F0rXrbPDPf4_kdmitry_technical_project_remplanner_review.md), corroborated by [`YT_DI5GAV64mnU`](../_Sources/YT_DI5GAV64mnU_kdmitry_technical_project_remplanner_festivalnaya.md)).
+
+**His tab set, as walked on camera** (18 tabs): исходная планировка · демонтаж · перегородки *(with every partition dimensioned)* · экспликация · **расположение радиаторов** · мебель · привязки сантехники *(drawn in green)* · водоснабжение *(осевые привязки)* · розетки *(heights, plus a per-socket note saying what it serves)* · освещение · **выключатели** *(which switch drives which group, groups colour-coded, lines drawn from switch to group)* · тёплые полы *(+ thermostat)* · **кондиционеры** · напольные покрытия *(material and laying pattern)* · схема отделки *(tile in brick-red, wallpaper elsewhere)* · схема потолков *(material + за-карнизные niches)* · **схема гидроизоляции** · развёртки стен *(carrying electrics AND finishes, so heights read off them)*.
+
+> [!WARNING]
+> **⚠️⚠️ WE HAVE NO A/C SHEET AT ALL.** `grep "кондиционер"` returns **0** in this file and **0** in [`Sheet_Production_Roadmap.md`](Sheet_Production_Roadmap.md), and no vault page carries a план кондиционеров. **Both of his projects ship one, and on one of them it is what records the unit being moved to above a door with a вывод rather than a socket serving it.**
+>
+> **This is exactly what a second opinion is for, and it is an owner decision rather than a research one: if air conditioning is in scope for this flat, a sheet is missing from the target set.**
+
+**Three further points where his set differs from ours, each worth arguing with:**
+
+1. ⚠️ **The finish scheme is explicitly a costing input, not only a drawing** — *«эта схема отделки… также поможет в расчёте стоимости ремонта»*. **That is the practitioner stating the `cap5` finish-schedule → BOM link that [`toolchain_gap_analysis_20260908.md`](../_Inbox/planning/toolchain_gap_analysis_20260908.md) identified as designed-but-unpopulated.** It argues the finish sheet is worth more than its position in our roadmap suggests, because it pays into the budget as well as the drawings.
+2. **A dedicated radiator-position sheet and a dedicated waterproofing scheme**, neither of which we carry separately.
+3. ⚠️ **He states outright that the строительные plans are NOT the designer's deliverable** — *«эти строительные планы меня не интересуют, дизайнер их не отрабатывают»*. Relevant when deciding which of our sheets a self-managed project with no designer engaged actually needs.
+
+**And one convention of ours that he independently corroborates**: variants are presented over the original layout as a visible underlay ([`YT_FRKr9X3AFfY`](../_Sources/YT_FRKr9X3AFfY_kdmitry_doors_partitions_planning.md): *«показываю изначальную планировку, чтобы была видна разница, в виде подложки»*), which is our own dashed-original-partitions rule reached separately.
+
+**Drawing and annotation conventions from the same round — dimensioning to element centres, the `1/2` proportional notation for a centred fixture, «вывод провода» as an element distinct from a socket, and per-sheet layer states — are collected in [Drawing_Conventions_From_Practice.md](Drawing_Conventions_From_Practice.md) rather than here.** That page also records why our grey-massing 3D convention is worth revisiting.
+
+⚠️ **Caveat on all of the above**: auto-generated Russian captions on software subject matter, with observable ASR corruption and one transcript carrying no punctuation at all. The tab list is read from narration, so **the order is reliable and a couple of tab names may be imprecise.** Nothing here has been checked against a Belarusian requirement.

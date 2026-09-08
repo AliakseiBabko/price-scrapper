@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=OTBw7bCrv-o",
+  "video_id": "OTBw7bCrv-o",
+  "language": "ru-orig",
+  "is_generated_captions": true,
+  "method": "yt-dlp --write-auto-subs --sub-langs ru-orig",
+  "timestamp": "2026-09-08T15:19:57.409663+00:00",
+  "source_tool": "yt-dlp 2026.07.04",
+  "sha256": "9093ffa9cde7cefec548078de0d20d6d71fb4bae2f544463203471600eb27e4f",
+  "attempts_before_success": []
+}

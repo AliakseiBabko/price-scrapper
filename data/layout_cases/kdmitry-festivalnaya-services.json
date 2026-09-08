@@ -1,0 +1,261 @@
+{
+  "schema_version": "0.2.0",
+  "case_id": "kdmitry-festivalnaya-services",
+  "case_kind": "single_apartment",
+  "epistemic_status": "practitioner_opinion",
+  "provenance": {
+    "source_type": "youtube",
+    "url": "https://www.youtube.com/watch?v=DI5GAV64mnU",
+    "video_id": "DI5GAV64mnU",
+    "upload_date": "2025-07-22",
+    "author": "Дизайнер Дмитрий К",
+    "author_channel": "@k_dmitry",
+    "language": "ru",
+    "region": "moscow",
+    "transcript_sha256": "965d69028458cac0b6276e3b18114f18b666ddd756107f424116801c429284d6",
+    "dimension_policy": "mixed",
+    "caveats": [
+      "⚠️ MIXED, and the mix matters: the source states socket HEIGHTS (105 cm, 170 cm, 30 cm, and 220 cm in the companion video) but no plan dimensions whatsoever. So heights may be cited as figures once corroborated; positions may not be measured from anything.",
+      "⚠️ EVERY NUMBER HERE WAS HEARD ONCE IN AUTO-GENERATED CAPTIONS on a software-subject transcript with observable corruption («потудомочной машины», «канузла»). Treat each as a candidate until cross-checked against the vault's existing socket-height pages.",
+      "This case records the SERVICES DERIVATION - which point serves which appliance or routine - rather than a re-planning exercise. The flat has no перепланировка at all, which is why problems/moves are thin and the value is in household[].scenarios and outcome[].claims.",
+      "Corroborated on a DIFFERENT flat by YT_F0rXrbPDPf4 (same designer, four months earlier), which independently repeats the staged workflow, the guest-link review, the splash-offset socket rule and the robot-vacuum point. That video's flat has no case of its own; it is cited from the source notes."
+    ]
+  },
+  "household": {
+    "stated": true,
+    "needs": [
+      "A voice assistant in the corridor, requested by name",
+      "A robot vacuum, needing a parking point",
+      "A daughter who has friends to stay, needing a guest seat in the kids room"
+    ],
+    "scenarios": [
+      {
+        "id": "sc-night-navigation",
+        "statement": "Walking from bedroom or living room to the kitchen and wet rooms at night. Handled with floor-level recessed navigation lights on their own switch, thrown for the night - a dim light indicating the direction of travel rather than illuminating the room. (Stated in the companion video YT_F0rXrbPDPf4.)",
+        "zone_ids": [
+          "z-corridor"
+        ]
+      },
+      {
+        "id": "sc-seated-on-shoe-bench",
+        "statement": "Sitting on the shoe bench in the corridor and needing power - two sockets are placed in the corner mid-corridor at a height convenient for use while seated.",
+        "zone_ids": [
+          "z-corridor"
+        ]
+      },
+      {
+        "id": "sc-robot-vacuum-parking",
+        "statement": "A robot vacuum returns to a parking point, which needs a dedicated socket. Repeated on both flats, so it is standing practice.",
+        "zone_ids": [
+          "z-corridor"
+        ]
+      },
+      {
+        "id": "sc-worktop-appliances",
+        "statement": "Microwave, kettle and similar stand on an additional worktop created when the kitchen was reconsidered, so sockets are set high enough to serve appliances standing on it rather than at splashback level.",
+        "zone_ids": [
+          "z-kitchen"
+        ]
+      }
+    ]
+  },
+  "zones": [
+    {
+      "id": "z-kitchen",
+      "name_ru": "кухня",
+      "name_en": "kitchen",
+      "role": "kitchen"
+    },
+    {
+      "id": "z-corridor",
+      "name_ru": "коридор",
+      "name_en": "corridor",
+      "role": "corridor"
+    },
+    {
+      "id": "z-hall",
+      "name_ru": "прихожая",
+      "name_en": "entrance hall",
+      "role": "hallway"
+    },
+    {
+      "id": "z-bedroom",
+      "name_ru": "спальня",
+      "name_en": "bedroom",
+      "role": "bedroom"
+    },
+    {
+      "id": "z-kids",
+      "name_ru": "детская комната",
+      "name_en": "kids room",
+      "role": "kids"
+    },
+    {
+      "id": "z-bath",
+      "name_ru": "санузел",
+      "name_en": "sanitary unit",
+      "role": "combined_bath"
+    },
+    {
+      "id": "z-living",
+      "name_ru": "гостиная",
+      "name_en": "living room",
+      "role": "living"
+    }
+  ],
+  "problems": [
+    {
+      "id": "p-ceiling-drop-objection",
+      "category": "geometry",
+      "statement": "A reservation had been raised that a suspended plasterboard or stretch ceiling could not be afforded here. The designer judges the ceiling high enough that dropping it 80-100 mm is affordable, and that the drop is what buys freedom to route cable and lighting where wanted.",
+      "zone_ids": [
+        "z-living"
+      ],
+      "measurements": [
+        {
+          "metric": "ceiling_drop_allowance",
+          "value": 80,
+          "unit": "mm",
+          "comparator": "is"
+        },
+        {
+          "metric": "ceiling_drop_allowance",
+          "value": 100,
+          "unit": "mm",
+          "comparator": "is"
+        }
+      ],
+      "evidence": {
+        "quote": "даже если опустить потолок на 8 тире10 см, мы можем себе это позволить"
+      }
+    }
+  ],
+  "moves": [
+    {
+      "id": "m-reverse-door-swings-for-switches",
+      "op": "opening.shift",
+      "target_zone_ids": [
+        "z-living",
+        "z-bath",
+        "z-kitchen"
+      ],
+      "rationale": "Door swing directions are set so that a light switch falls to hand on entering and leaving the room: the living-room door is reversed to open outward, and the swings on the sanitary unit and the kitchen are changed. Done on the исходный план, before any electrical sheet was drawn, and on a flat with no перепланировка at all.",
+      "legal_flag": "routine",
+      "evidence": {
+        "quote": "я его привязываю к тому, чтобы было удобно пользоваться выключателями при входе-выходе из комнат"
+      }
+    },
+    {
+      "id": "m-panel-into-entrance-wardrobe",
+      "op": "niche.create",
+      "target_zone_ids": [
+        "z-hall"
+      ],
+      "rationale": "The consumer unit and the low-voltage panel are housed inside the wardrobe adjoining the entrance, the incoming cable being brought into that cupboard - proximity to the incoming cable plus concealment inside joinery.",
+      "legal_flag": "routine"
+    },
+    {
+      "id": "m-ac-above-door",
+      "op": "layer.add",
+      "target_zone_ids": [
+        "z-bedroom"
+      ],
+      "rationale": "The air-conditioning indoor unit is moved to above the door, which the designer calls one of the recommended positions; a вывод rather than a socket serves it. It is recorded on a dedicated план кондиционеров.",
+      "legal_flag": "unclear"
+    },
+    {
+      "id": "m-drop-ceiling-for-services",
+      "op": "bulkhead.create",
+      "target_zone_ids": [
+        "z-living"
+      ],
+      "params": {
+        "drop_min_mm": 80,
+        "drop_max_mm": 100,
+        "figure_status": "single_mention_candidate"
+      },
+      "solves": [
+        "p-ceiling-drop-objection"
+      ],
+      "rationale": "Drop the ceiling 80-100 mm on a suspended construction so lighting and cable can be routed where wanted. The designer judges the existing height high enough to afford it, and hedges the judgement himself: «если я не ошибаюсь, конечно, мы это ещё раз проверим».",
+      "legal_flag": "routine",
+      "evidence": {
+        "quote": "даже если опустить потолок на 8 тире10 см, мы можем себе это позволить за счёт любой конструкции подвесного потолка"
+      }
+    }
+  ],
+  "tradeoffs": [
+    {
+      "id": "t-splash-offset-vs-reach",
+      "chosen": "Set the wet-room sockets to one side, out of the splash line, while keeping them within reach",
+      "rejected_alternative": "Place them where they are most convenient, or omit them",
+      "why": "The offset exists to keep water off them; the constraint is that it must not cost reachability. The designer calls this his standard, and it recurs on a second flat.",
+      "gains": [
+        "Water kept off the sockets"
+      ],
+      "costs": [
+        "Slightly less convenient than the natural position"
+      ],
+      "move_ids": [],
+      "evidence": {
+        "quote": "Две влагозащищённые розетки чуть-чуть в стороне, чтобы вода на них не попадала. Ну, также они под рукой"
+      }
+    },
+    {
+      "id": "t-minimal-lighting-with-zoning",
+      "chosen": "Keep lighting to the minimum necessary while preserving colour zoning",
+      "rejected_alternative": "A dense lighting scheme",
+      "why": "Stated in the companion video as a deliberate principle - «не хочу очень сильно усложнять освещение, чтобы было минимальное количество необходимого освещения» - while still achieving the colour zoning he regards as characteristic of contemporary design. Notable as an argument against spend, from someone selling lighting plans.",
+      "gains": [
+        "Fewer circuits, fewer fittings, simpler switching"
+      ],
+      "costs": [
+        "Less scene flexibility than a dense scheme"
+      ],
+      "move_ids": []
+    }
+  ],
+  "process": {
+    "inputs": [
+      "A stage-1 concept layout and furniture arrangement already agreed with the clients in the fast 3D tool"
+    ],
+    "brief": "Tie the agreed layout to its technical realisation: every services element attached to the furniture and equipment it serves.",
+    "variant_count": 1,
+    "client_loop": "⚠️ The stated three-stage регламент: (1) concept layout and furniture agreed with the clients; (2) the technical base built - deliberately BEFORE detailed visualisation - so the whole picture of the works is formed first; (3) detailed per-room visualisation. Review is done on a live guest link that the designer narrates, and the model is corrected live and the link reissued.",
+    "excluded_from_scope": [
+      "A room untouched by the renovation is not developed on the furniture plan, though it stays in the plan of works",
+      "Storage furniture left generic - «комод или каких-то стеллажей» - with only its volume reserved: «главное, что мы находим её место»"
+    ],
+    "evidence": {
+      "quote": "на втором этапе, перед детальной визуализацией, я подготавливаю обычно базу технической части"
+    }
+  },
+  "outcome": {
+    "claims": [
+      "⚠️ Engineering coordination is a cheaper place to discover a layout problem than a render is - the stated reason the technical base precedes detailed visualisation.",
+      "A socket position is only meaningful read against the object it serves, so the socket plan is read with the furniture layer overlaid.",
+      "A sheet may legitimately be blank and the album should say so: the demolition plan is near-empty here, and he explains why rather than dropping the sheet.",
+      "Reserve the volume now, choose the object later - the same role/identity split the project's own BOM design uses."
+    ]
+  },
+  "rules_derived": [
+    "door.swing_direction_from_switch_reachability",
+    "wetroom.socket_offset_from_splash_but_within_reach",
+    "lighting.no_fixture_directly_above_bed",
+    "lighting.corridor_floor_navigation_light",
+    "bedroom.split_lighting_into_two_groups",
+    "sockets.pair_each_side_of_bed_and_of_sofa",
+    "services.derive_every_point_from_a_named_appliance_or_routine"
+  ],
+  "apartment": {
+    "area_total_m2": 100,
+    "room_count": 3,
+    "city": "Москва",
+    "constraints": [
+      {
+        "kind": "other",
+        "statement": "⚠️ THE AREA IS LEVEL-2 METADATA, NOT A STATEMENT IN THIS SOURCE. Neither this video nor any of the designer's other Фестивальная videos states an area aloud. 100 m2 comes from the same channel's own title for the same flat on the same street (wJjZHmNMHyo, «Обзор планировки квартиры 100 кв. м на Фестивальной улице в Москве»), which is unprocessed. room_count 3 is counted from the habitable rooms he narrates - гостиная, спальня, детская - and is therefore inference, not metadata. Per this vault's standing rule, areas are not evidence: neither figure may be used to derive a dimension."
+      }
+    ]
+  }
+}

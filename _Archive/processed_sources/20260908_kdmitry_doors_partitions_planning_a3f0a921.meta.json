@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=FRKr9X3AFfY",
+  "video_id": "FRKr9X3AFfY",
+  "language": "ru-orig",
+  "is_generated_captions": true,
+  "method": "yt-dlp --write-auto-subs --sub-langs ru-orig",
+  "timestamp": "2026-09-08T15:19:57.409663+00:00",
+  "source_tool": "yt-dlp 2026.07.04",
+  "sha256": "a3f0a921f2e1b3fac7dad0764f3b8122f7bcd53aa3c83633c8f215ef08d49517",
+  "attempts_before_success": []
+}
