@@ -27,12 +27,12 @@ extraction pass produced and, more usefully, what it did not.
    badly** — it will pair one wall's face with another's across a room. The
    first pass produced 95 candidates for a flat with ~25 walls.
 3. **A drawn wall is a SOLID, and the drawing says so by hatching it.** A pair
-   survives only if hatch crosses its centre line. That is the filter that took
-   95 candidates to 36.
+   survives only if hatch crosses its centre line. Together with the pairing
+   constraints that is what takes 95 candidates down to 41.
 4. **The unhatched stretches of a surviving wall are reported as candidate
    OPENINGS** — the same evidence read the other way round.
 
-**Result: 36 runs, thicknesses landing on 75 / 100 / 120 / 150 / 175 / 200 / 250 /
+**Result: 41 runs, thicknesses landing on 75 / 100 / 120 / 150 / 175 / 200 / 250 /
 300 / 400** — the vault's own wall vocabulary, arrived at independently.
 
 **Look at `_Drawings/review/v0_wall_extraction.png` before trusting any of it.**
@@ -53,10 +53,10 @@ complete. **It was caught by rendering the runs over the plan and noticing a
 grey strip with no red on it.**
 
 > [!IMPORTANT]
-> **The lesson is the repo's own: a filter that removes evidence must be looked
-> at, not just tuned.** Two thresholds in this tool are now deliberately
-> permissive for the same reason — `MIN_COVER = 0.35`, because a wall with two
-> windows is mostly not hatched, and that is exactly the wall worth having.
+> **The lesson is the repo's own: a filter that removes evidence has to be
+> LOOKED at, not merely tuned.** Nothing in the run list said a wall was gone —
+> only the overlay did. The same filter then cost a second wall for a different
+> reason; see the threshold section below.
 
 ⚠️ **The 50° hatch is RECORDED, not interpreted.** It is tempting to read hatch
 angle as a material key — 50° for aerated block, 45/135 for the rest. **Do not.**
@@ -66,12 +66,36 @@ distinguish concrete from aerated block**, and that the wall model in
 derivable from the drawing. One hatch angle on one drawing is not enough to
 overturn that. It is a lead, and it is written down as one.
 
+## ✅ The façade, fixed — and the threshold that was hiding it
+
+**All three SE façade stretches are now captured** — under 9,36, under 16,64 and
+under 19,49 — bringing the extraction to **41 runs**.
+
+Two separate causes, and only the first was the one I first blamed:
+
+1. **The 50° hatch**, above. That recovered the 19,49 stretch.
+2. **⚠️ `MIN_COVER` was 0.35, and the 9,36 stretch scored 0.34.** A 4200 mm
+   façade that is mostly window and балконный блок is mostly *not* hatched, so
+   the cover test scored the most important wall in the flat just below the line
+   and deleted it. **Losing a wall to a threshold by one part in a hundred is not
+   a tuning problem, it is a wrong instrument.**
+
+**So the threshold was calibrated instead of guessed.** Sweeping it from 0.10 to
+0.35 moves the run count only **41 → 36**. → **The cover test is NOT what
+separates walls from non-walls** — the thickness-and-overlap pairing is. What a
+*positive* threshold buys is dropping the `cover == 0.00` pairs, which are the
+true voids: two real walls with a room between them. It is set at **0.15**, and
+it now has a reason rather than a value.
+
 ## ⚠️ What is still MISSING — read this before using the output
 
-- **The façade is only partly captured.** The run under the 19,49 room is there;
-  **the stretches under the 9,36 and 16,64 rooms are not**, or are broken into
-  fragments. The façade is the least complete wall in the extraction and the
-  most consequential one.
+- **⚠️ Runs are not clipped to the flat.** The façade run under the 9,36 room
+  starts at x ≈ 1631 and the flat's left party wall is at x ≈ 2830 — **so it
+  extends about 1200 mm into the NEIGHBOUR'S flat**, because the drawing shows
+  the adjoining structure and the façade genuinely continues. Visible in the
+  overlay as blue crossing the left boundary. **Nothing may be quantified until
+  runs are clipped to the flat envelope**, and the envelope has not been
+  established.
 - **The лоджия's angled glazing is absent entirely.** The tool handles
   axis-aligned faces only, and that wall is diagonal.
 - **Some runs are certainly composites.** The longest is 9,309 mm on one pair of
@@ -102,12 +126,16 @@ still has to be chosen.
 
 ## The order of the remaining work
 
-1. **Finish the façade**, including the лоджия's diagonal. It is the biggest hole.
-2. **Split the composite runs** at their junctions.
-3. **Name the walls** against `wall_blocks.csv`, and bind `wall_materials.json`.
-4. **Build the corner ledger**, then run `check_wall_junctions.py` and
+1. **Establish the flat envelope and CLIP every run to it.** Until that is done
+   the extraction includes wall that belongs to the neighbour, and no length or
+   quantity taken from it means anything. This is now the biggest hole.
+2. **Add the лоджия's diagonal glazing**, the one wall the axis-aligned method
+   cannot see at all.
+3. **Split the composite runs** at their junctions.
+4. **Name the walls** against `wall_blocks.csv`, and bind `wall_materials.json`.
+5. **Build the corner ledger**, then run `check_wall_junctions.py` and
    `build_wall_corners.py` until both pass.
-5. Only then promote out of `DRAFT`, and only then re-open the v0-against-v1
+6. Only then promote out of `DRAFT`, and only then re-open the v0-against-v1
    comparison that `Layout_Option_Review.md` withdrew.
 
 ⚠️ **Validate by CHAIN CLOSURE, never against a printed area.** v0's computed
