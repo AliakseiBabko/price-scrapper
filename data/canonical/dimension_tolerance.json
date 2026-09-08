@@ -478,5 +478,30 @@
     ],
     "consequence_for_the_open_tension": "!! THIS SETTLES developer_vs_measured_linear_2026_09_04, WHICH WAS LEFT OPEN THE DAY BEFORE. That entry recorded a unanimous linear signal (developer reads +1.0% to +1.9% larger, 9 of 9) against a contradicting AREA signal (measured areas read slightly larger), and declined to promote the finding because the two disagreed. The contradicting side is now known to be the unreliable one, and the middle room - the very room whose area caused the tension - is one of the two that fails to close. So the linear bias stands on the linear evidence, and it gains a THIRD independent instance: small room width, developer 2825 against measured 2780-2790, i.e. +35 to +45 mm (+1.25% to +1.62%), the same magnitude and direction as the other two. Twelve comparisons across three dimensions, all one way.",
     "confidence": "Still not a field measurement of this flat, and none is possible until the building completes (~2026-11 to 2026-12). But the counter-evidence is explained rather than outstanding, so this moves from 'unresolved tension, do not promote' to 'supported by 12 of 12 linear comparisons, with the area counter-signal accounted for'."
+  },
+  "vector_edition_2026_09_08": {
+    "statement": "A VECTOR (ArchiCAD) edition of the base-case drawing exists: _Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf. Tested 2026-09-08 and confirmed to be the SAME type drawing as fllor_plan_detailed.jpeg, re-issued for a different unit.",
+    "unit_provenance": "Owner, 2026-09-08: МН5_287 = ул. Минина, дом 5, квартира 287, per the general plan. THIS FLAT IS ДОМ 3, КВАРТИРА 190. Same series, same type 3Б/3+, different unit.",
+    "handedness": "NOT MIRRORED. Rendered from the parsed vectors and compared with the raster: identical handedness. No flip needed, positions map directly.",
+    "scale": "EXACTLY 1:75, derived by pairing each dimension label with the dimension line it annotates. !! A fit of segment lengths onto round millimetres returns 1:150 just as cleanly and is WRONG - every 5 mm multiple is also a 10 mm multiple, so such a fit cannot separate a scale from twice it. Caught only by a sanity check outside the fit: at 1:150 the flat is 20.4 m wide.",
+    "label_vs_geometry": "19 of the 24 cleanly paired labels agree with the geometry to +/-0.1 mm. The other 5 are pairing failures of the heuristic, not disagreements.",
+    "chains_reproduced": {
+      "small_room_width_top": "1795 + 120 + 910 = 2825.0 exact",
+      "small_room_width_bottom": "1120 + 1380 + 150 + 175 = 2825.0 exact, from the SAME start line - the mandated closure check, passing on vector geometry",
+      "middle_room_bottom_width": "600 + 1800 + 600 = 3000.0 exact",
+      "middle_room_internal_length": "5789.6 against the 5790 read off the raster",
+      "wc": "туалет 1140.0 x 1090.0"
+    },
+    "developer_disclaimer_verbatim": "«Данный лист является проектным решением, все размеры — проектные. Фактические параметры квартиры могут отличаться от указанных.» (printed on the sheet) — the developer's OWN statement that the as-built may differ from the drawing. Until now this repo had only inferred that from three surveyed flats.",
+    "what_it_does_not_change": "The +1.0% to +1.9% developer-larger bias stands (12 of 12). Areas remain not-evidence, including the nine that matched. Nothing is field-verified. Precision is not accuracy: 0.1 mm agreement is the drawing agreeing with itself.",
+    "what_it_does_change": "The raster `registration` block below retires FOR CHAIN READING - mm_per_px, aspect_error_pct and the 89.1% wall-pixel fit no longer sit between a chain and its value. The rasters keep their role as tracing surfaces for anything the PDF does not carry.",
+    "tool": "tools/layout/parse_vector_plan.py - parse / labels / scale / render / chains",
+    "also_carries": "Opening schedule marks absent from every raster: ОК-2360, ОК-6, ББ-8, ДЖ11, ТИП 22, ТИП 27, and door marks with handedness (111ПР, 121ПР, 122ПР, 242ПР, 263ПР x2, 321ПР). NOT YET DECODED - which mark belongs to which opening is a separate reading job, and ПР is read as правая on the abbreviation alone.",
+    "file_identity": {
+      "path": "_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf",
+      "sha256": "b95dae5afb1feed73db80ad6afbcf1c786b9d86a686309fc6689567224481949",
+      "bytes": 70736,
+      "note": "!! _Inbox/_Visual_Drop/ is gitignored and this file is NOT tracked, so the bytes live on one machine only. Identity is pinned here the way _Survey and _Precedents pin theirs. Re-hash before trusting a copy."
+    }
   }
 }

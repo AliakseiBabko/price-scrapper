@@ -23,6 +23,7 @@ two illustrative drafts.
 | Owner's Homestyler design | `_assets/floor_plan_modified.png` | **Room names and areas of the redesign** |
 | Homestyler CAD export | `data/cad/dxf/20260727-ZK Dubravinskiy.dxf` | **Wall geometry of the redesign** at millimetre precision |
 | Three as-built comparables | `_Inbox/_Visual_Drop/floor plan_1..3.jpg` | **How much the built flat will differ** |
+| **Developer's detailed plan — VECTOR** | `_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf` | **The same drawing as the base case, as CAD geometry.** Chain reading without a raster. Issued for another unit — see below |
 
 > [!CAUTION]
 > **⚠️⚠️ RETRACTED THE SAME DAY — THIS WAS WRONG. The basic plan does NOT omit a wall.**
@@ -276,6 +277,97 @@ Consequences worth carrying forward:
 Totals differ by 2.4 m² (68.3 to 70.7), but that is dominated by how each plan
 counts the loggia, not by the rooms. `kv109`'s loggia is materially smaller and
 may be a different sub-type.
+
+## ✅⚠️ A VECTOR edition of the base case — tested 2026-09-08, and it is the SAME drawing
+
+`_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf` is a **true CAD export** (ArchiCAD,
+`GSPublisherVersion 0.0.100.44`): 5,561 line segments and 195 placed glyphs, no
+raster anywhere in the file. **It is the first geometry source in this project
+that is not an image.**
+
+> [!WARNING]
+> **It was issued for a DIFFERENT UNIT. Owner, 2026-09-08: `МН5_287` is Минина
+> street, building 5, apartment 287, per the general plan. This flat is
+> building 3, apartment 190.** So it arrived with the standing mirroring
+> caveat attached, and the question of whether it describes this flat at all had
+> to be answered before anything could be built on it.
+
+**It was answered by test, not by inspection.** Method, and it is reproducible —
+`tools/layout/parse_vector_plan.py`:
+
+1. **Handedness — matches.** Rendered from the parsed vectors and compared with
+   `fllor_plan_detailed.jpeg`: wet block top-left, лоджия bottom-left with its
+   angled glazing, rooms 9,36 / 16,64 / 19,49 left to right, кухня top-right.
+   **Not mirrored. No flip is needed and no position needs re-handing.**
+2. **All nine printed areas are identical** to the developer figures already in
+   `data/canonical/dimension_tolerance.json` — 9,79 / 1,24 / 3,09 / 9,36 /
+   16,64 / 5,24 + 19,49 / 6,05(4,24) / 69,09 / 45,49.
+3. **Scale is exactly 1:75**, derived by pairing each dimension label with the
+   dimension line it annotates — **not assumed, and not taken from a histogram.**
+4. **The geometry reproduces its own printed labels to ±0.1 mm**, on 19 of the 24
+   labels that paired cleanly. The other five are pairing failures of the
+   heuristic (a short label attaching to a longer neighbouring line), not
+   disagreements between drawing and number.
+5. **Every developer chain this repo had already verified off the raster is
+   reproduced exactly**, at the same scale:
+
+   | chain | vault, read off the raster | this PDF, from the vectors |
+   | :--- | :--- | :--- |
+   | small room width, top | 1795 + 120 + 910 = 2825 | **2825.0**, exact |
+   | small room width, bottom | 1120 + 1380 + 150 + 175 = 2825 | **2825.0**, exact, **same start line** |
+   | middle room, bottom width | 600 + 1800 + 600 = 3000 | **3000.0**, exact |
+   | middle room, internal length | 1050 + 3250 + 1490 = 5790 | **5789.6** |
+   | туалет | 1140 × 1090 | **1140.0 × 1090.0** |
+
+   **The small room's two parallel chains close on each other to 0.0 mm** — which
+   is the closure validator this repo mandates in place of an area check, now
+   passing on vector geometry rather than on a reading.
+
+→ **Conclusion: this is the developer's type drawing for 3Б/3+, the same drawing
+as `fllor_plan_detailed.jpeg`, re-issued per unit. It is a VECTOR EDITION OF THE
+BASE CASE — not a fourth comparable, and not a mirrored one.** Nothing in the
+comparables table changes; `kv53` and `Минина 6` remain the comparables.
+
+### ⚠️ The trap it set on the way, which is exactly standing rule 9
+
+**Fitting the scale by clustering segment lengths onto multiples of 5 mm returned
+1:150, cleanly and confidently — and 1:150 is wrong by a factor of two.** It fits
+because every length that is a multiple of 5 mm at the true scale is a multiple
+of 10 mm at twice it: the test could not distinguish them. It was caught only by
+a sanity check outside the fit — at 1:150 the flat comes out **20.4 m wide**.
+**The scale was independent of the thing being measured only after it was
+re-derived from the dimension labels.** Recorded because it is the rule's own
+failure mode, met in the wild: `00_Master/Evidence_Reading_Discipline.md`.
+
+### What it does NOT change
+
+- **⚠️ It is design intent at higher precision, not better truth.** The drawing
+  says so itself, in the developer's own words on the sheet: *«Данный лист
+  является проектным решением, все размеры — проектные. Фактические параметры
+  квартиры могут отличаться от указанных.»* **That is the developer stating the
+  as-built may differ — the citable version of a claim this repo had only
+  inferred from three surveyed flats.**
+- **The +1.0% to +1.9% developer-larger bias stands**, all 12 comparisons. Size
+  for a room-scale run up to **~100 mm SHORTER** than drawn, never longer.
+- **Areas remain not-evidence**, including the nine that matched.
+- **Nothing is field-verified**, and nothing can be until the building completes.
+
+### What it does change
+
+**The raster registration error term retires for chain reading.** `registration`
+in `dimension_tolerance.json` exists only because the geometry was an image —
+`mm_per_px: 20.6302`, `aspect_error_pct: 1.66`, and 89.1% of CAD wall pixels
+landing on drawn wall. **Reading a chain no longer goes through any of that.**
+The tracing surfaces keep their role for anything the PDF does not carry.
+
+### Also in it, and nowhere else
+
+**Opening marks with handedness** — `ОК-2360`, `ОК-6`, `ББ-8`, `ДЖ11`,
+`ТИП 22` / `ТИП 27`, and door marks carrying `ПР`: `111ПР`, `121ПР`, `122ПР`,
+`242ПР`, `263ПР` (×2), `321ПР`. **Door swing direction is not readable off the
+rasters at all**, and it constrains furniture in the 9,36 room. ⚠️ **Not yet
+decoded — which mark belongs to which opening is a separate reading job, and
+`ПР` is being taken as правая on the strength of the abbreviation alone.**
 
 ## What this changes in the pipeline
 
