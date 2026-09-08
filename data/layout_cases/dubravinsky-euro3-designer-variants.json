@@ -17,7 +17,8 @@
       "«Евротрёхкомнатная» describes the RESULT, not the type as sold. Ours is sold as 3Б/3+ with three жилые комнаты and a separate 5.24 m2 кухня. The designer's sheets show two enclosed bedrooms plus an L-shaped кухня-гостиная - so the euro-3 is what the merge PRODUCES.",
       "Unbuilt. These are proposals: nothing here evidences that any variant was built, priced or lived in. Weigh them as a professional's option set, not as outcomes.",
       "The 'unfurnished' sheet is NOT the developer handover state and must not be used as a v0 topology cross-check. It shows no кухня partition, while our developer schedule lists кухня as a separate 5.24 m2 room - so it is the AFTER state of the merge.",
-      "Furniture symbols were read at full resolution. Wall HATCHING was NOT interpreted: it appears identically on the outer envelope and on internal partitions across every sheet, so it most likely distinguishes monolithic from block construction rather than new from existing - but that is unconfirmed, so no wall here is called 'new' on the strength of its hatch."
+      "Furniture symbols were read at full resolution. Wall HATCHING was NOT interpreted: it appears identically on the outer envelope and on internal partitions across every sheet, so it most likely distinguishes monolithic from block construction rather than new from existing - but that is unconfirmed, so no wall here is called 'new' on the strength of its hatch.",
+      "✅ ГАЗОВЫЙ ВОПРОС ЗАКРЫТ 08.09.2026: газа в доме нет вовсе, только электроплиты (слова владельца). Главный ход набора — объединение кухни с жилой комнатой — тем самым допустим по СН 3.02.01-2019 §4.8 и требует только согласования. См. data/canonical/building_spec.json → energy_supply."
     ],
     "companion_documents": [
       {
@@ -69,7 +70,9 @@
         "statement": "КУХНЯ ЕСТЬ ОТДЕЛЬНОЕ ПОМЕЩЕНИЕ У ЗАСТРОЙЩИКА - 5,24 м² по нашей же экспликации. Значит открытая кухня-гостиная, которая видна на ВСЕХ четырёх меблированных вариантах, - это ХОД проектировщика, а не состояние при передаче. Ровно это и делает набор ценным: все четыре варианта уже согласны, что перегородку кухни надо снять.",
         "evidence": {
           "visual": "На немеблированном структурном листе перегородки кухни нет вообще, тогда как экспликация застройщика даёт кухню отдельной комнатой 5,24 м².",
-          "document_ref": { "document_id": "structural_scheme_after" }
+          "document_ref": {
+            "document_id": "structural_scheme_after"
+          }
         }
       },
       {
@@ -77,23 +80,29 @@
         "statement": "Стояки водоснабжения показаны в туалете синей и красной точками, а кухонная мойка и техника - в верхнем правом углу. Это совпадает с положением инженерии, зафиксированным нашим собственным фотообследованием (kitchen sewer and water take-offs, P1 riser zone), то есть проектировщик работает от тех же точек подключения, что и мы.",
         "evidence": {
           "visual": "Синяя и красная точки у левой стены туалета на структурном листе; на всех вариантах мойка и посудомоечная машина стоят в верхнем правом углу.",
-          "document_ref": { "document_id": "structural_scheme_after" }
+          "document_ref": {
+            "document_id": "structural_scheme_after"
+          }
         }
       },
       {
         "kind": "wet_zone",
         "statement": "Перегородки мокрого блока НЕ фиксированы: в варианте A ванна стоит вертикально у левой стены, в варианте B ванная перепропорционирована и ванна лежит горизонтально. Проектировщик считает границы туалета и ванной подвижными. НАСКОЛЬКО подвижными - по этим листам определить нельзя, размеров нет.",
-          "evidence": {
+        "evidence": {
           "visual": "Сравнение варианта A с вариантом B: одна и та же ванная имеет разную форму и разное положение ванны.",
-          "document_ref": { "document_id": "variant_b" }
+          "document_ref": {
+            "document_id": "variant_b"
+          }
         }
       },
       {
         "kind": "gas",
-        "statement": "На всех листах нарисована ЭЛЕКТРИЧЕСКАЯ варочная панель на 4 зоны плюс духовой шкаф и СВЧ. Если в доме есть газ, объединение кухни с жилой комнатой запрещено в принципе, а не «по согласованию». В нашем вауте газификация дома НЕ зафиксирована нигде - это открытый вопрос, и от него зависит, законен ли главный ход всего набора.",
+        "statement": "✅ РЕШЕНО 08.09.2026 словами владельца: ГАЗА В ДОМЕ НЕТ ВОВСЕ, только электрические плиты. На всех листах и нарисована электрическая варочная панель на 4 зоны плюс духовой шкаф и СВЧ — то есть проектировщик исходил из того же. СЛЕДСТВИЯ: (1) СН 3.02.01-2019 §4.8 про жилую комнату над ГАЗОВОЙ кухней здесь не применяется вообще, значит главный ход набора — вопрос СОГЛАСОВАНИЯ, а не запрета. (2) Постановление № 164 §6 ведёт в проектный трек за газ ИЛИ центральное отопление — газовая ветка отпала навсегда, так что в проектный трек проект может уйти ТОЛЬКО из-за отопления, т.е. переноса радиатора. (3) ЗАТО ЖЁСТЧЕ СТАЛО ПО ЭЛЕКТРИЧЕСКОЙ НАГРУЗКЕ: вся готовка теперь лежит на расчётной мощности помещения вместе с тёплыми полами и техникой.",
         "evidence": {
-          "visual": "Условное обозначение варочной панели с четырьмя круглыми зонами и подписи «Дух.шкаф СВЧ» и «ПММ» на кухонном фронте.",
-          "document_ref": { "document_id": "variant_a" }
+          "visual": "Условное обозначение варочной панели с четырьмя круглыми зонами и подписи «Дух.шкаф СВЧ» и «ПММ» на кухонном фронте — что совпадает с фактом: дом целиком электрический.",
+          "document_ref": {
+            "document_id": "variant_a"
+          }
         }
       }
     ]
@@ -103,38 +112,97 @@
     "members": "не указан - презентационные листы без брифа. Поэтому набор нельзя читать как «вот что нужно семье», только как «вот что влезает»."
   },
   "zones": [
-    { "id": "wc", "name_ru": "туалет", "name_en": "separate WC", "role": "wc" },
-    { "id": "bath", "name_ru": "ванная", "name_en": "bathroom", "role": "bathroom" },
-    { "id": "hall", "name_ru": "прихожая", "name_en": "entrance hall", "role": "entrance" },
-    { "id": "kitchen_living", "name_ru": "кухня-гостиная-столовая", "name_en": "kitchen-dining-living", "role": "living" },
-    { "id": "room_left", "name_ru": "левая комната", "name_en": "left room", "role": "bedroom" },
-    { "id": "room_middle", "name_ru": "средняя комната", "name_en": "middle room", "role": "bedroom" },
-    { "id": "loggia", "name_ru": "лоджия", "name_en": "loggia", "role": "balcony" }
+    {
+      "id": "wc",
+      "name_ru": "туалет",
+      "name_en": "separate WC",
+      "role": "wc"
+    },
+    {
+      "id": "bath",
+      "name_ru": "ванная",
+      "name_en": "bathroom",
+      "role": "bathroom"
+    },
+    {
+      "id": "hall",
+      "name_ru": "прихожая",
+      "name_en": "entrance hall",
+      "role": "entrance"
+    },
+    {
+      "id": "kitchen_living",
+      "name_ru": "кухня-гостиная-столовая",
+      "name_en": "kitchen-dining-living",
+      "role": "living"
+    },
+    {
+      "id": "room_left",
+      "name_ru": "левая комната",
+      "name_en": "left room",
+      "role": "bedroom"
+    },
+    {
+      "id": "room_middle",
+      "name_ru": "средняя комната",
+      "name_en": "middle room",
+      "role": "bedroom"
+    },
+    {
+      "id": "loggia",
+      "name_ru": "лоджия",
+      "name_en": "loggia",
+      "role": "balcony"
+    }
   ],
   "problems": [
     {
       "id": "kitchen-too-small-as-a-room",
       "category": "ergonomics",
       "statement": "Кухня 5,24 м² отдельным помещением не вмещает обеденную зону: на четыре-шесть посадочных мест места нет, а в трёхкомнатной квартире стол нужен именно такой.",
-      "zone_ids": ["kitchen_living", "hall"],
+      "zone_ids": [
+        "kitchen_living",
+        "hall"
+      ],
       "measurements": [
-        { "metric": "area", "value": 5.24, "unit": "m2", "comparator": "is" }
+        {
+          "metric": "area",
+          "value": 5.24,
+          "unit": "m2",
+          "comparator": "is"
+        }
       ]
     },
     {
       "id": "no-storage-room-in-the-type",
       "category": "storage",
       "statement": "В типе нет кладовой, а прихожая узкая. Хранение приходится набирать встроенной мебелью, и это единственный способ его получить.",
-      "zone_ids": ["hall", "room_left", "room_middle"]
+      "zone_ids": [
+        "hall",
+        "room_left",
+        "room_middle"
+      ]
     },
     {
       "id": "wc-too-small-for-a-basin-under-the-norm",
       "category": "wet_zone",
       "statement": "Туалет этого типа заметно меньше минимума, который СН 3.02.01-2019 §4.9 требует для туалета С УМЫВАЛЬНИКОМ - 1,4 × 1,5 м. Умывальник в туалете при этом хочется иметь, если ставится гигиенический душ.",
-      "zone_ids": ["wc"],
+      "zone_ids": [
+        "wc"
+      ],
       "measurements": [
-        { "metric": "width", "value": 1400, "unit": "mm", "comparator": "min_required" },
-        { "metric": "length", "value": 1500, "unit": "mm", "comparator": "min_required" }
+        {
+          "metric": "width",
+          "value": 1400,
+          "unit": "mm",
+          "comparator": "min_required"
+        },
+        {
+          "metric": "length",
+          "value": 1500,
+          "unit": "mm",
+          "comparator": "min_required"
+        }
       ]
     }
   ],
@@ -142,53 +210,88 @@
     {
       "id": "m1-merge-kitchen-into-the-living-room",
       "op": "zone.merge",
-      "target_zone_ids": ["kitchen_living", "hall"],
-      "params": { "variant_agreement": "4 of 4", "result_designation": "евротрёхкомнатная" },
-      "solves": ["kitchen-too-small-as-a-room"],
+      "target_zone_ids": [
+        "kitchen_living",
+        "hall"
+      ],
+      "params": {
+        "variant_agreement": "4 of 4",
+        "result_designation": "евротрёхкомнатная"
+      },
+      "solves": [
+        "kitchen-too-small-as-a-room"
+      ],
       "rationale": "Снять перегородку между кухней 5,24 м² и большой жилой комнатой, получив Г-образную кухню-гостиную-столовую, продолжающуюся в прихожую. Трёхкомнатная превращается в евротрёхкомнатную: две спальни плюс общее пространство. ЭТО ЕДИНСТВЕННЫЙ ХОД, ПО КОТОРОМУ СОГЛАСНЫ ВСЕ ЧЕТЫРЕ ВАРИАНТА - то есть для проектировщика это не предмет выбора, а отправная точка.",
       "legal_flag": "needs_approval",
       "evidence": {
         "visual": "Во всех четырёх меблированных вариантах кухонный фронт стоит в верхнем правом углу и переходит без перегородки в обеденную и мягкую зоны; на структурном листе перегородки кухни нет.",
-        "document_ref": { "document_id": "structural_scheme_after" }
+        "document_ref": {
+          "document_id": "structural_scheme_after"
+        }
       }
     },
     {
       "id": "m2-build-in-the-storage",
       "op": "storage.add",
-      "target_zone_ids": ["hall", "room_middle", "room_left"],
-      "params": { "variant_agreement": "4 of 4, but the arrangement differs in every one" },
-      "solves": ["no-storage-room-in-the-type"],
+      "target_zone_ids": [
+        "hall",
+        "room_middle",
+        "room_left"
+      ],
+      "params": {
+        "variant_agreement": "4 of 4, but the arrangement differs in every one"
+      },
+      "solves": [
+        "no-storage-room-in-the-type"
+      ],
       "rationale": "Хранение набирается встроенными шкафами по стене прихожей и вокруг средней комнаты, а не выделением кладовой. Согласие по ЧТО и расхождение по ГДЕ: в A и C шкафы стоят по прихожей, в B - двумя рядами вдоль коридорной стороны средней комнаты, в D - внутри левой спальни. Значит именно хранение проектировщик считал открытой переменной набора.",
       "legal_flag": "routine",
       "evidence": {
         "visual": "Символ штанги (зигзаг) в прихожей на всех листах, плюс шкафные блоки с диагональным перекрестием в разных местах в каждом варианте.",
-        "document_ref": { "document_id": "variant_b" }
+        "document_ref": {
+          "document_id": "variant_b"
+        }
       }
     },
     {
       "id": "m3-reproportion-the-bathroom",
       "op": "wet_zone.expand",
-      "target_zone_ids": ["bath", "wc"],
-      "params": { "variant_agreement": "varies - A and B differ from each other" },
+      "target_zone_ids": [
+        "bath",
+        "wc"
+      ],
+      "params": {
+        "variant_agreement": "varies - A and B differ from each other"
+      },
       "solves": [],
       "rationale": "Границы ванной двигаются от варианта к варианту: в A ванна вертикально у левой стены, в B ванная перепропорционирована и ванна лежит горизонтально. То есть перегородки мокрого блока проектировщик трогает. Насколько - неизвестно, размеров на листах нет.",
       "legal_flag": "needs_approval",
       "evidence": {
         "visual": "Форма ванной и ориентация ванны различаются между вариантом A и вариантом B при одном и том же наружном контуре.",
-        "document_ref": { "document_id": "variant_b" }
+        "document_ref": {
+          "document_id": "variant_b"
+        }
       }
     },
     {
       "id": "m4-put-a-basin-in-the-wc",
       "op": "layer.add",
-      "target_zone_ids": ["wc"],
-      "params": { "variant_agreement": "4 of 4" },
-      "solves": ["wc-too-small-for-a-basin-under-the-norm"],
+      "target_zone_ids": [
+        "wc"
+      ],
+      "params": {
+        "variant_agreement": "4 of 4"
+      },
+      "solves": [
+        "wc-too-small-for-a-basin-under-the-norm"
+      ],
       "rationale": "Во ВСЕХ четырёх вариантах в туалете рядом с унитазом нарисован умывальник на столешнице плюс шкафчик над ним. ВНИМАНИЕ НА СЛОВО «solves»: этот ход НЕ УДОВЛЕТВОРЯЕТ норму, а ПЕРЕСТУПАЕТ через неё - проектировщик ставит умывальник, несмотря на минимум 1,4 × 1,5 м из СН 3.02.01-2019 §4.9, и помещение остаётся меньше требуемого. Записано ходом именно потому, что это и есть ответ практики на конфликт: эргономика перевешивает норму. Цена решения записана в t4-basin-in-the-wc-versus-the-norm. Операция взята layer.add, так как в закрытом словаре op нет установки прибора.",
       "legal_flag": "unclear",
       "evidence": {
         "visual": "Умывальник с краном на столешнице в правой верхней части туалета и подвесной шкафчик слева от него - одинаково на A, B, C и D. Подводки холодной и горячей воды подтверждены точками на структурном листе.",
-        "document_ref": { "document_id": "variant_a" }
+        "document_ref": {
+          "document_id": "variant_a"
+        }
       }
     }
   ],
@@ -198,41 +301,85 @@
       "label": "Вариант A",
       "status": "offered",
       "concept": "Базовый: варочная панель остаётся в кухонном фронте у стены, ванна вертикально у левой стены, стиральная машина в ванной, шкафы по прихожей. Левая комната - спальня с рабочим местом у окна.",
-      "move_ids": ["m1-merge-kitchen-into-the-living-room", "m2-build-in-the-storage", "m4-put-a-basin-in-the-wc"],
-      "gains": ["самая простая инженерия: мойка и панель остаются в одном фронте", "лоджия обставлена как место отдыха - кресло и столик"],
-      "costs": ["обеденный стол на 4 места, не больше"],
-      "evidence": { "document_ref": { "document_id": "variant_a" } }
+      "move_ids": [
+        "m1-merge-kitchen-into-the-living-room",
+        "m2-build-in-the-storage",
+        "m4-put-a-basin-in-the-wc"
+      ],
+      "gains": [
+        "самая простая инженерия: мойка и панель остаются в одном фронте",
+        "лоджия обставлена как место отдыха - кресло и столик"
+      ],
+      "costs": [
+        "обеденный стол на 4 места, не больше"
+      ],
+      "evidence": {
+        "document_ref": {
+          "document_id": "variant_a"
+        }
+      }
     },
     {
       "id": "b",
       "label": "Вариант B",
       "status": "offered",
       "concept": "Варочная панель ВЫНЕСЕНА на полуостров к обеденному столу, ванная перепропорционирована с горизонтальной ванной, шкафы двумя рядами вдоль коридорной стороны средней комнаты.",
-      "move_ids": ["m1-merge-kitchen-into-the-living-room", "m2-build-in-the-storage", "m3-reproportion-the-bathroom", "m4-put-a-basin-in-the-wc"],
-      "gains": ["готовка лицом к столу, а не к стене", "стол на 5-6 мест", "больше шкафов, чем в A"],
+      "move_ids": [
+        "m1-merge-kitchen-into-the-living-room",
+        "m2-build-in-the-storage",
+        "m3-reproportion-the-bathroom",
+        "m4-put-a-basin-in-the-wc"
+      ],
+      "gains": [
+        "готовка лицом к столу, а не к стене",
+        "стол на 5-6 мест",
+        "больше шкафов, чем в A"
+      ],
       "costs": [
         "вытяжку надо вести от полуострова - либо потолочный канал, либо рециркуляция; на листе это не решено",
         "силовая линия варочной панели уходит от стены в середину помещения - это отдельная трасса в стяжке",
         "перенос перегородок ванной - дополнительное согласование к тому, которое и так нужно на кухню"
       ],
-      "evidence": { "document_ref": { "document_id": "variant_b" } }
+      "evidence": {
+        "document_ref": {
+          "document_id": "variant_b"
+        }
+      }
     },
     {
       "id": "c",
       "label": "Вариант C",
       "status": "offered",
       "concept": "Обеденный стол ОВАЛЬНЫЙ на 6 мест, вся техника собрана в один верхний правый фронт, шкафы по прихожей и по верхней стене левой комнаты. Рабочее место из левой комнаты убрано.",
-      "move_ids": ["m1-merge-kitchen-into-the-living-room", "m2-build-in-the-storage", "m4-put-a-basin-in-the-wc"],
-      "gains": ["6 посадочных мест - максимум по набору", "овал лучше обходится в проходе, чем прямоугольник"],
-      "costs": ["рабочего места нет ни в одной комнате", "стол на 6 мест забирает проход к мягкой зоне"],
-      "evidence": { "document_ref": { "document_id": "variant_c" } }
+      "move_ids": [
+        "m1-merge-kitchen-into-the-living-room",
+        "m2-build-in-the-storage",
+        "m4-put-a-basin-in-the-wc"
+      ],
+      "gains": [
+        "6 посадочных мест - максимум по набору",
+        "овал лучше обходится в проходе, чем прямоугольник"
+      ],
+      "costs": [
+        "рабочего места нет ни в одной комнате",
+        "стол на 6 мест забирает проход к мягкой зоне"
+      ],
+      "evidence": {
+        "document_ref": {
+          "document_id": "variant_c"
+        }
+      }
     },
     {
       "id": "d",
       "label": "Вариант D",
       "status": "offered",
       "concept": "СТИРАЛЬНАЯ МАШИНА ВЫНЕСЕНА ИЗ ВАННОЙ в отдельный шкаф-постирочную со стороны прихожей. Ванная остаётся только с ванной и умывальником. Шкафы перенесены внутрь левой спальни, к её левой стене.",
-      "move_ids": ["m1-merge-kitchen-into-the-living-room", "m2-build-in-the-storage", "m4-put-a-basin-in-the-wc"],
+      "move_ids": [
+        "m1-merge-kitchen-into-the-living-room",
+        "m2-build-in-the-storage",
+        "m4-put-a-basin-in-the-wc"
+      ],
       "gains": [
         "ванная разгружена - в тесном мокром блоке это самый заметный выигрыш набора",
         "шум стирки уходит из мокрой зоны, к которой примыкает спальня",
@@ -244,7 +391,9 @@
       ],
       "evidence": {
         "visual": "Символ СММ в круге стоит в шкафном блоке со стороны прихожей, а в ванной остаются только ванна и умывальник.",
-        "document_ref": { "document_id": "variant_d" }
+        "document_ref": {
+          "document_id": "variant_d"
+        }
       }
     }
   ],
@@ -254,52 +403,91 @@
       "chosen": "Снести перегородку кухни и сделать Г-образную кухню-гостиную-столовую.",
       "rejected_alternative": "Оставить кухню 5,24 м² отдельным помещением, как передал застройщик.",
       "why": "Отдельная кухня этого типа не вмещает обеденную зону, а объединение даёт единственное в квартире место, где можно посадить шесть человек.",
-      "gains": ["обеденная зона на 4-6 мест", "одно светлое пространство вместо двух тесных", "результат продаётся как «евротрёхкомнатная» - то есть рынок это принимает"],
+      "gains": [
+        "обеденная зона на 4-6 мест",
+        "одно светлое пространство вместо двух тесных",
+        "результат продаётся как «евротрёхкомнатная» - то есть рынок это принимает",
+        "✅ газового запрета здесь нет: владелец подтвердил 08.09.2026, что газа в доме нет вовсе. Значит главный ход набора упирается только в согласование, а не в запрет"
+      ],
       "costs": [
         "демонтаж перегородки, поставленной застройщиком: платим за снос новой работы",
         "перепланировка, требующая согласования исполкома (пункт 3 постановления Совмина № 164 от 03.04.2026)",
         "теряется третья изолированная комната: 3Б/3+ становится евро-3 с двумя спальнями",
         "запахи и шум кухни в общем пространстве - ни на одном из четырёх листов это не решено",
-        "если дом газифицирован, ход запрещён, а не «согласуется». В вауте газификация не зафиксирована"
+        "⚠️ вся готовка электрическая, так что расчётная мощность помещения становится реальным ограничением — панель плюс духовка плюс тёплые полы проверить ДО заказа"
       ],
-      "move_ids": ["m1-merge-kitchen-into-the-living-room"],
-      "evidence": { "document_ref": { "document_id": "cover_3d" } }
+      "move_ids": [
+        "m1-merge-kitchen-into-the-living-room"
+      ],
+      "evidence": {
+        "document_ref": {
+          "document_id": "cover_3d"
+        }
+      }
     },
     {
       "id": "t2-built-in-wardrobes-versus-a-pantry",
       "chosen": "Набирать хранение встроенными шкафами по прихожей и вокруг комнат.",
       "rejected_alternative": "Выделить кладовую отдельным помещением.",
       "why": "Площадь не даёт кладовую иначе как за счёт спальни, а спален после объединения кухни остаётся всего две.",
-      "gains": ["хранение без потери комнаты", "шкаф дешевле и обратимее перегородки"],
+      "gains": [
+        "хранение без потери комнаты",
+        "шкаф дешевле и обратимее перегородки"
+      ],
       "costs": [
         "шкафы съедают ширину прохода в узкой прихожей",
         "все четыре варианта расставляют их по-разному - однозначно хорошего места проектировщик не нашёл, и это сигнал, что решать придётся нам"
       ],
-      "move_ids": ["m2-build-in-the-storage"],
-      "evidence": { "document_ref": { "document_id": "variant_b" } }
+      "move_ids": [
+        "m2-build-in-the-storage"
+      ],
+      "evidence": {
+        "document_ref": {
+          "document_id": "variant_b"
+        }
+      }
     },
     {
       "id": "t3-laundry-in-the-bathroom-versus-a-closet",
       "chosen": "В A, B и C - стиральная машина в ванной. В D - вынесена в шкаф-постирочную у прихожей.",
       "rejected_alternative": "Соответственно наоборот: в D отвергнута машина в ванной, в A-C отвергнута отдельная постирочная.",
       "why": "Мокрый блок этого типа тесный: машина в ванной занимает место, которое иначе досталось бы умывальнику и хранению. Проектировщик пробовал оба ответа, а не выбрал один.",
-      "gains": ["вариант D разгружает ванную и убирает шум стирки из мокрой зоны у спальни"],
-      "costs": ["вынос машины требует воды и канализации за пределы мокрой зоны, с гидроизоляцией поддона", "шкаф-постирочная забирает часть прихожей"],
-      "move_ids": ["m2-build-in-the-storage"],
-      "evidence": { "document_ref": { "document_id": "variant_d" } }
+      "gains": [
+        "вариант D разгружает ванную и убирает шум стирки из мокрой зоны у спальни"
+      ],
+      "costs": [
+        "вынос машины требует воды и канализации за пределы мокрой зоны, с гидроизоляцией поддона",
+        "шкаф-постирочная забирает часть прихожей"
+      ],
+      "move_ids": [
+        "m2-build-in-the-storage"
+      ],
+      "evidence": {
+        "document_ref": {
+          "document_id": "variant_d"
+        }
+      }
     },
     {
       "id": "t4-basin-in-the-wc-versus-the-norm",
       "chosen": "Поставить умывальник в туалет - во всех четырёх вариантах.",
       "rejected_alternative": "Туалет без умывальника, что удержало бы помещение в пределах минимума 0,8 × 1,5 м.",
       "why": "Руки нужно мыть на месте, особенно если в туалете стоит гигиенический душ. Проектировщик решает конфликт в пользу эргономики.",
-      "gains": ["умывальник там, где он нужен по функции"],
+      "gains": [
+        "умывальник там, где он нужен по функции"
+      ],
       "costs": [
         "СН 3.02.01-2019 §4.9 требует для туалета С УМЫВАЛЬНИКОМ не менее 1,4 × 1,5 м, и туалет этого типа заметно меньше",
         "то есть решение эргономично и при этом не соответствует норме - ровно то противоречие, которое уже зафиксировано в 08_WC/WC_Guide.md"
       ],
-      "move_ids": ["m4-put-a-basin-in-the-wc"],
-      "evidence": { "document_ref": { "document_id": "variant_a" } }
+      "move_ids": [
+        "m4-put-a-basin-in-the-wc"
+      ],
+      "evidence": {
+        "document_ref": {
+          "document_id": "variant_a"
+        }
+      }
     }
   ],
   "outcome": {
@@ -313,11 +501,15 @@
     ],
     "evidence": {
       "visual": "Шесть листов: титульная 3D-аксонометрия с подписью «Евротрехкомнатная квартира в ЖК Дубравинский ~ 70 м.кв.», четыре меблированных плана и один немеблированный структурный план.",
-      "document_ref": { "document_id": "cover_3d" }
+      "document_ref": {
+        "document_id": "cover_3d"
+      }
     }
   },
   "process": {
-    "inputs": ["план застройщика того же типа"],
+    "inputs": [
+      "план застройщика того же типа"
+    ],
     "variant_count": 4,
     "variant_policy": "четыре меблированных варианта на одну структурную схему: структура решается один раз, дальше варьируется обстановка и хранение",
     "client_loop": "не показан - листы презентационные, брифа и выбранного варианта в наборе нет",
@@ -326,7 +518,11 @@
       "инженерия - ни электрики, ни вентиляции; вытяжка от полуострова в варианте B не решена",
       "стоимость"
     ],
-    "evidence": { "document_ref": { "document_id": "cover_3d" } }
+    "evidence": {
+      "document_ref": {
+        "document_id": "cover_3d"
+      }
+    }
   },
   "rules_derived": []
 }

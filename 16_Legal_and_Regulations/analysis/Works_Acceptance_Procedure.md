@@ -24,6 +24,13 @@
 
 **⚠️ Note that the energy and gas organisations attend the acceptance even where the works required neither ТУ nor a проект** — the composition is not conditioned on the track. Plan on coordinating five parties' availability, not two.
 
+> [!NOTE]
+> **❓ THIS BUILDING HAS NO NATURAL GAS — electric stoves only (owner, 2026-09-08). Whether that removes a party from the commission is genuinely unresolved.**
+>
+> §17 lists «the energy and gas supply organisations» **unconditionally** — the text does not condition the list on whether the building is gasified. With no gas connection there may be no such counterparty to invite, which would cut the coordination from **five parties to four**.
+>
+> **Do not plan on four.** Assume five until the исполком says otherwise, because the failure mode is asymmetric: over-inviting costs a phone call, while discovering a missing signatory at the acceptance costs another appointment cycle in a month that is already administrative. **Worth asking when the §5 согласование application goes in** — it is free to ask at that point.
+
 ## §18 — the documents to present
 
 | Document | When |
