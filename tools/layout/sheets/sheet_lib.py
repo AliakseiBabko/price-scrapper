@@ -41,8 +41,8 @@ def F(sz, bold=False):
     return ImageFont.load_default()
 
 
-f_ttl, f_leg, f_leghd, f_tag, f_ft, f_tab, f_note = (F(78), F(30), F(30), F(23, True),
-                                                     F(34), F(40), F(26))
+f_ttl, f_leg, f_leghd, f_tag, f_ft, f_tab, f_note = (F(78), F(34), F(32), F(32, True),
+                                                     F(34), F(40), F(31))
 
 
 SPANS = {}
@@ -447,19 +447,19 @@ class Sheet(object):
             self.reserve(pts[i][0], pts[i][1], 22)
 
     def htag(self, x, y, txt, col, nx=0, ny=0, push=1.0):
-        w = len(txt) * 15 + 20
+        w = len(txt) * 21 + 30
         # start the search PAST the symbol body, not on top of it. `push` moves
         # the START of the search further out, for a row of symbols close
         # together whose tags would otherwise all compete for the same slot.
-        tx, ty = self.spot(x + nx * 70 * push, y + ny * 70 * push - 46, w, 40)
+        tx, ty = self.spot(x + nx * 70 * push, y + ny * 70 * push - 46, w, 54)
         self.d.line([(x, y), (tx, ty)], fill=col + (170,), width=2)
-        self.d.rectangle([tx - w / 2, ty - 20, tx + w / 2, ty + 20],
+        self.d.rectangle([tx - w / 2, ty - 27, tx + w / 2, ty + 27],
                          fill=(255, 255, 255, 245), outline=col, width=3)
         self.d.text((tx, ty), txt, fill=col, font=f_tag, anchor='mm')
 
     def callout(self, x, y, lines, col=(40, 40, 40), seek=(0, 0)):
-        w = max(len(t) for t in lines) * 15 + 26
-        h = 14 + 30 * len(lines)
+        w = max(len(t) for t in lines) * 18 + 30
+        h = 16 + 36 * len(lines)
         # the LEADER stays on (x, y) - the thing being annotated - while `seek`
         # moves where the box hunts for space. Without it spot() spirals out
         # from the anchor and can only land on the neighbours of the very thing
@@ -470,19 +470,19 @@ class Sheet(object):
         self.d.rectangle([tx - w / 2, ty - h / 2, tx + w / 2, ty + h / 2],
                          fill=(255, 255, 255, 248), outline=(90, 90, 90), width=3)
         for i, t in enumerate(lines):
-            self.d.text((tx, ty - h / 2 + 17 + 30 * i), t, fill=col, font=f_note, anchor='mm')
+            self.d.text((tx, ty - h / 2 + 20 + 36 * i), t, fill=col, font=f_note, anchor='mm')
 
     def legend(self, draw_fn, label, col):
         x, y = 108, self.ly
         draw_fn(x, y, col)
         self.d.text((190, y), label, fill=(40, 40, 40), font=f_leg, anchor='lm')
-        self.ly += 62
+        self.ly += 68
 
     def note(self, lines):
         self.ly += 14
         for t in lines:
             self.d.text((70, self.ly), t, fill=(110, 110, 110), font=f_note, anchor='lm')
-            self.ly += 32
+            self.ly += 37
 
     def check_openings(self, items, sides=None):
         """items = [(wall_id, t, height_mm, label)]. Raises on any clash."""

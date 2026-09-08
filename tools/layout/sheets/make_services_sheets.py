@@ -14,7 +14,7 @@ data/canonical/electrical_placement_review.csv for him to mark up.
 import csv, io, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from sheet_lib import Sheet, on_wall, beside_opening, route_block_conflicts
-from make_segment_key_sheet import label_segments
+from make_segment_key_sheet import label_segments, outline_segments
 
 G, B, R, MG, GY, OR = ((0, 150, 60), (0, 110, 220), (210, 30, 40),
                        (190, 60, 190), (110, 110, 110), (225, 130, 0))
@@ -97,6 +97,10 @@ def tagsrc(sh, px, py, iid, src, col):
 
 # ============================================================ Лист 1 РОЗЕТКИ
 s = Sheet(u'Розетки и выключатели', 1)
+# Segment bands FIRST, so the legend text and every symbol sit ON them
+# rather than under a translucent wash. Lighter than sheet 00: here they
+# must not compete with the devices they underlie.
+outline_segments(s, fill_alpha=20)
 s.f_src = s.d and __import__('sheet_lib').F(21)
 s.legend(lambda x, y, c: s.sym_socket(x - 20, y, 1, 0, c, 1), u'Розетка стандартная', G)
 s.legend(lambda x, y, c: s.sym_socket(x - 20, y, 1, 0, c, 2), u'Розетка двойная', G)
@@ -175,6 +179,10 @@ s.save('sheet_01_sockets.png')
 
 # ========================================================== Лист 2 ОСВЕЩЕНИЕ
 s2 = Sheet(u'Освещение', 2)
+# Segment bands FIRST, so the legend text and every symbol sit ON them
+# rather than under a translucent wash. Lighter than sheet 00: here they
+# must not compete with the devices they underlie.
+outline_segments(s2, fill_alpha=20)
 s2.f_src = __import__('sheet_lib').F(21)
 s2.legend(lambda x, y, c: s2.sym_ceiling(x, y, c, False, True), u'Вывод под светильник', G)
 s2.legend(lambda x, y, c: s2.sym_ceiling(x, y, c), u'Светильник встраиваемый (проект)', G)
@@ -218,6 +226,10 @@ s2.save('sheet_02_lighting.png')
 
 # ============================================ Лист 3 ВОДОСНАБЖЕНИЕ И КАНАЛИЗАЦИЯ
 s3 = Sheet(u'Водоснабжение, канализация, вентиляция', 3)
+# Segment bands FIRST, so the legend text and every symbol sit ON them
+# rather than under a translucent wash. Lighter than sheet 00: here they
+# must not compete with the devices they underlie.
+outline_segments(s3, fill_alpha=20)
 s3.f_src = __import__('sheet_lib').F(21)
 s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'water'), u'Вывод холодной воды', B)
 s3.legend(lambda x, y, c: s3.sym_pipe(x - 20, y, 1, 0, c, 'water'), u'Вывод горячей воды', R)

@@ -21,12 +21,16 @@ import os
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from sheet_lib import Sheet, RUNS, SPANS, MMPX, S, F  # noqa: E402
-from make_segment_key_sheet import label_segments
+from make_segment_key_sheet import label_segments, outline_segments
 
 R, B, GY, OR, GN = ((210, 30, 40), (0, 110, 220), (110, 110, 110),
                     (225, 130, 0), (0, 150, 60))
 
 s5 = Sheet(u'Отопление', 5)
+# Segment bands FIRST, so the legend text and every symbol sit ON them
+# rather than under a translucent wash. Lighter than sheet 00: here they
+# must not compete with the devices they underlie.
+outline_segments(s5, fill_alpha=20)
 s5.f_src = F(21)
 
 # ---------------------------------------------------------------- радиаторы
