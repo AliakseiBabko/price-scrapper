@@ -360,14 +360,27 @@ in `dimension_tolerance.json` exists only because the geometry was an image —
 landing on drawn wall. **Reading a chain no longer goes through any of that.**
 The tracing surfaces keep their role for anything the PDF does not carry.
 
-### Also in it, and nowhere else
+### ⚠️ The schedule marks carry nothing we need — corrected 2026-09-08
 
-**Opening marks with handedness** — `ОК-2360`, `ОК-6`, `ББ-8`, `ДЖ11`,
-`ТИП 22` / `ТИП 27`, and door marks carrying `ПР`: `111ПР`, `121ПР`, `122ПР`,
-`242ПР`, `263ПР` (×2), `321ПР`. **Door swing direction is not readable off the
-rasters at all**, and it constrains furniture in the 9,36 room. ⚠️ **Not yet
-decoded — which mark belongs to which opening is a separate reading job, and
-`ПР` is being taken as правая on the strength of the abbreviation alone.**
+The sheet also carries `ОК-2360`, `ОК-6`, `ББ-8`, `ДЖ11`, seven marks ending in
+`ПР` (`111ПР`, `121ПР`, `122ПР`, `242ПР`, `263ПР` ×2, `321ПР`), and a `ТИП nn`
+under each room's area label. **Owner, 2026-09-08: these are ordinary schedule
+references — `ОК` = окно, `ПР` = проём, `ББ` = балкон. Nothing here is needed.**
+
+> [!CAUTION]
+> **This corrects a claim made earlier the same day, and it was the only genuinely
+> new content I had attributed to this drawing.** I read the `ПР` suffix as
+> **правая** and reported that the sheet carries **door swing handedness** the
+> rasters do not. **It does not. `ПР` is проём — an opening reference, with no
+> direction in it.** The reading came from the abbreviation alone, with no
+> attempt to confirm it against what the mark points at: **the exact move
+> standing rule 9 exists to stop, made in the same session that recorded a
+> different instance of the same rule.** Nothing was built on it.
+
+Two things are worth keeping, both small and neither an opening mark:
+**`ТИП 22` sits directly under the area label of all seven rooms and `ТИП 27`
+under the лоджия's** — so it is a **per-room** designation, not a per-opening
+one, whatever it designates. ⚠️ **Undecoded, and left that way deliberately.**
 
 ## What this changes in the pipeline
 
