@@ -48,7 +48,14 @@ FACE_CLUSTER_MM = 1.5
 FACE_MIN_MM = 150.0
 GAP_JOIN_MM = 30.0
 BIN_MM = 150.0
-MIN_COVER = 0.35        # low on purpose -- see step 3 above
+# Low on purpose -- see step 3 above. !! Calibrated, not guessed: at 0.35 the SE
+# facade under the 9,36 room scored 0.34 and was deleted, because that 4200 mm
+# stretch is mostly window and балконный блок. Sweeping 0.10..0.35 moves the run
+# count only 41 -> 36, so this threshold is NOT what separates walls from
+# non-walls; the thickness-and-overlap pairing is. What a positive threshold does
+# buy is dropping the cover == 0.00 pairs, which are the true voids -- two real
+# walls with a room between them.
+MIN_COVER = 0.15
 
 # Hatch angles the drawing actually uses. 45/135 fill the internal partitions;
 # 50 fills the external aerated-block envelope, which is why an earlier pass

@@ -64,6 +64,29 @@
    "candidate_openings": []
   },
   {
+   "axis": "EW",
+   "thickness_mm": 299.7,
+   "face_lo_mm": 9050.6,
+   "face_hi_mm": 9350.3,
+   "from_mm": 1680.9,
+   "to_mm": 5881.0,
+   "length_mm": 4200.0,
+   "hatch_cover": 0.34,
+   "hatch_angle": 50,
+   "candidate_openings": [
+    {
+     "from_mm": 1680.9,
+     "to_mm": 2730.9,
+     "approx_width_mm": 1050.0
+    },
+    {
+     "from_mm": 4380.9,
+     "to_mm": 5730.9,
+     "approx_width_mm": 1350.0
+    }
+   ]
+  },
+  {
    "axis": "NS",
    "thickness_mm": 75.0,
    "face_lo_mm": 9131.0,
@@ -140,6 +163,29 @@
    "hatch_cover": 0.82,
    "hatch_angle": 45,
    "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 300.0,
+   "face_lo_mm": 7560.6,
+   "face_hi_mm": 7860.6,
+   "from_mm": 6131.0,
+   "to_mm": 9131.0,
+   "length_mm": 3000.0,
+   "hatch_cover": 0.24,
+   "hatch_angle": 50,
+   "candidate_openings": [
+    {
+     "from_mm": 6731.0,
+     "to_mm": 8531.0,
+     "approx_width_mm": 1800.0
+    },
+    {
+     "from_mm": 8831.0,
+     "to_mm": 9281.0,
+     "approx_width_mm": 450.0
+    }
+   ]
   },
   {
    "axis": "EW",
@@ -238,6 +284,24 @@
    "candidate_openings": []
   },
   {
+   "axis": "EW",
+   "thickness_mm": 120.0,
+   "face_lo_mm": 8980.6,
+   "face_hi_mm": 9100.6,
+   "from_mm": 4351.0,
+   "to_mm": 5731.0,
+   "length_mm": 1380.0,
+   "hatch_cover": 0.2,
+   "hatch_angle": 45,
+   "candidate_openings": [
+    {
+     "from_mm": 4501.0,
+     "to_mm": 5701.0,
+     "approx_width_mm": 1200.0
+    }
+   ]
+  },
+  {
    "axis": "NS",
    "thickness_mm": 150.0,
    "face_lo_mm": 6131.0,
@@ -308,6 +372,24 @@
    "hatch_cover": 0.5,
    "hatch_angle": 45,
    "candidate_openings": []
+  },
+  {
+   "axis": "NS",
+   "thickness_mm": 100.1,
+   "face_lo_mm": 6155.9,
+   "face_hi_mm": 6256.0,
+   "from_mm": 15894.3,
+   "to_mm": 16693.1,
+   "length_mm": 798.7,
+   "hatch_cover": 0.17,
+   "hatch_angle": 45,
+   "candidate_openings": [
+    {
+     "from_mm": 16194.3,
+     "to_mm": 16794.3,
+     "approx_width_mm": 600.0
+    }
+   ]
   },
   {
    "axis": "NS",
@@ -462,6 +544,18 @@
    "to_mm": 15990.3,
    "length_mm": 400.0,
    "hatch_cover": 0.67,
+   "hatch_angle": 45,
+   "candidate_openings": []
+  },
+  {
+   "axis": "EW",
+   "thickness_mm": 176.7,
+   "face_lo_mm": 14613.6,
+   "face_hi_mm": 14790.3,
+   "from_mm": 3426.9,
+   "to_mm": 3734.9,
+   "length_mm": 308.0,
+   "hatch_cover": 0.33,
    "hatch_angle": 45,
    "candidate_openings": []
   }
