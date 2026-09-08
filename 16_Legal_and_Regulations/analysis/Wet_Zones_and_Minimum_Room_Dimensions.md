@@ -93,6 +93,21 @@
 
 > **→ The practitioner's ergonomic minimum is more demanding on width, the norm is more demanding on length, and the norm's with-basin width is 40 cm beyond what the ergonomic method calls sufficient. A design satisfying only the practitioner method could be ergonomically fine and still non-compliant.**
 
+### ⚠️⚠️ And what a Minsk designer actually does with this clause — all four variants put a basin in anyway (added 2026-09-08, design precedent)
+
+An unidentified interior designer's four furnished variant plans for **our own apartment type in ЖК Дубравинский** — the cover sheet captions itself «Евротрехкомнатная квартира в ЖК Дубравинский ~ 70 м.кв.» — **put a washbasin with a countertop in the туалет in every single one of the four**, alongside the pan and a wall cabinet. The туалет is not enlarged to anything approaching 1.4 × 1.5 m in any of them.
+
+**What this is evidence of, and what it is not:**
+
+- **It is not evidence that the clause permits it.** A designer's plan is not an interpretation of a norm, and these sheets carry no dimensions at all, so they cannot even be checked against one.
+- **It is evidence about what will be proposed to us.** If a designer or fitter is engaged on this flat, a basin in the туалет is the likely default — so the norm has to be raised by us, deliberately, rather than expected to surface on its own.
+- **It bears directly on the open question below** about whether §4.9 binds an existing flat's fit-out. Practice plainly proceeds as though it does not. That is not an answer — but it does explain why the answer is hard to find: the question rarely gets asked.
+
+> **→ Practice resolves the norm-versus-ergonomics conflict in favour of ergonomics, silently.** The vault records both sides ([[08_WC/WC_Guide|WC Guide]] §1a). Nothing here changes what the norm says; it changes what we should expect to have to argue for.
+
+**Full analysis and the three reading traps in this material: `data/layout_cases/dubravinsky-euro3-designer-variants.json` and `_Precedents/dubravinsky_same_type/README.md`.** ⚠️ **No dimension may be taken from those plans** — there is not one dimension string on any of the six sheets.
+
+
 ## Other clauses worth carrying
 
 - **⚠️ 4.7 — door ventilation is mandatory**: kitchen, combined sanitary unit, WC and bathroom doors must have **grilles or equivalent of at least 0.02 m²**, positioned so their **bottom edge is no more than 0.03 m above the floor.** A specification requirement on door selection, not an optional extra — see [[07_Bathroom/analysis/Doors|Bathroom Doors]] and [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Ventilation & Ducting]].
@@ -101,7 +116,7 @@
 ## Open Questions
 
 - **⚠️ What Изменения №1 и №2 change.** The dimensions and the 25 % allowance are exactly the kind of provision that gets amended. **Highest-priority follow-up on this page.**
-- **Whether clause 4.9's dimensions bind an existing flat's перепланировка** or only the design of a new building — the indirect route via № 164 §4 is an inference, not a stated rule.
+- **Whether clause 4.9's dimensions bind an existing flat's перепланировка** or only the design of a new building — the indirect route via № 164 §4 is an inference, not a stated rule. **⚠️ Now the highest-value question on the page, for a practical reason: a Minsk designer’s four variant plans for this exact type all put a basin in the туалет regardless (see above), so practice proceeds as though it does not bind. Settling this decides whether that is routine or routinely non-compliant.**
 - **How «размеры в плане» is measured** — the norm says «с учётом отделки» but does not define the convention (clear internal? to finish face? at what height?).
 - **Whether a shower instead of a bath changes the ванная minimum**, given the clause ties the dimension to accommodating a bath ≥ 1.7 m.
 - **Whether the 25 % is measured on the sanitary unit's own area or on the room below.** Text says «не более 25 % его площади» — «его» reads as the sanitary room's, but this is worth confirming before relying on it.

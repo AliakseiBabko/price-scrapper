@@ -46,3 +46,14 @@ _Inbox/pdf_pages/
 _Survey/**/*.jpg
 _Survey/**/*.jpeg
 _Survey/**/*.png
+
+# _Precedents/ holds third-party DESIGN precedent for this apartment type - a
+# designer's furnished variant plans from Instagram and realt.by-watermarked
+# renderings. Same treatment as _Survey/: the bytes stay out of git, identity is
+# kept via sha256 in _Precedents/**/manifest.csv.
+_Precedents/**/*.jpg
+_Precedents/**/*.jpeg
+_Precedents/**/*.png
+_Precedents/**/*.webp
+!_Precedents/**/manifest.csv
+!_Precedents/**/README.md
