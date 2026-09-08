@@ -57,7 +57,9 @@
 >
 > **→ So "do not move a radiator" is no longer one caution among several. It is the single line between a designer's fee and none.** ⚠️ The unresolved §102 tension below is about exactly this boundary and is not settled by the gas answer.
 >
-> **⚠️ And the same fact makes the design-load constraint above MORE binding, not less.** With no gas, the **entire cooking load** sits on the electrical figure — hob and oven — alongside any electric underfloor heating and the appliance set. **Obtain the premises' calculated engineering load before committing to hob + oven + underfloor heating together.** There is no permit to apply for and no document to be refused, which is precisely why this one gets skipped: the failure shows up as tripping breakers after the money is spent.
+> **⚠️ And the same fact shifts the whole cooking load onto the design-load constraint above.** With no gas, the hob and oven sit on the premises' calculated engineering figure alongside the appliance set. **Obtain that figure before the appliance order is placed.** There is no permit to apply for and no document to be refused, which is precisely why this gets skipped: the failure shows up as tripping breakers after the money is spent.
+>
+> ✅ **For THIS project the exposure is much smaller than it looks, because тёплый пол is out of scope** (scope decision of 2026-08-26, `00_Master/project_decisions.md`). Electric underfloor heating is normally the load that dominates an all-electric flat — the vault's own worked figure puts a 30 m² zone at ≈2 kW draw. **It is not being installed, so the question reduces to hob + oven + appliances.**
 ## ⚠️⚠️ §5–7 — two approval tracks, and which one this project is on
 
 | Works | What is required | Approving body |

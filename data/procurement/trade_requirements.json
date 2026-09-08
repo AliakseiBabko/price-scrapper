@@ -287,7 +287,7 @@
         "source": "00_Master/project_decisions.md"
       },
       {
-        "text": "Adding central-heating, hot-water or electrical equipment that would exceed the premises' design calculated loads is prohibited. Confirm the design load before specifying anything heavy such as electric underfloor heating.",
+        "text": "Adding central-heating, hot-water or electrical equipment that would exceed the premises' design calculated loads is prohibited. The building has no gas, so the hob and oven are electric and are the largest single draw - confirm the design load covers them. NOTE: underfloor heating is OUT OF SCOPE and must not be offered or priced.",
         "source": "16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals.md"
       },
       {
