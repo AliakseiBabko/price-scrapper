@@ -50,11 +50,21 @@
   > **That settles a design question rather than raising one**, and it does so against a norm rather than a preference. See [[08_WC/WC_Guide|WC]] and [[00_Master/project_decisions|Project Decisions]].
 - **The developer's layout keeps the wet rooms where they are**, so the over-living-room prohibition is not currently engaged — it becomes live only if a wet room is enlarged or moved, which is exactly what the 25 % allowance and its insulation conditions would then govern.
 
-### ⚠️⚠️ And the туалет's own dimensions do not appear to reach the norm's minimum
+### ⚠️⚠️ The туалет's own dimensions — twice corrected, and the surviving argument is the AREA, not the width
 
-**The one туалет dimension this vault actually holds is the ventilation block**: `data/canonical/room_schedules.json` records **«Вентблок в туалете у стены, противоположной входу: 1140 × 490 мм… не переносится — общедомовая шахта»**.
+> [!CAUTION]
+> **⚠️⚠️ RETRACTED 2026-09-08 (second correction, same day, on the owner's challenge).** Two earlier versions of this section derived the туалет's width from the ventilation block's **1140 mm** and reasoned from it. **Both were wrong, for two independent reasons:**
+>
+> 1. **⚠️ The block does not span the room.** Checked against the dimension strings on `fllor_plan_detailed.jpeg`: the plan prints **1 140** across the block and **490** for its depth, with a **150** offset at the left wall and clear floor continuing to the right of it and **800** below it. **So the room is wider than the block, and the room's width was never 1140 mm.**
+> 2. **⚠️ And 1140 may be the wrong floor's block anyway.** Per the owner (2026-09-08): **«1140 is the venting shaft for the floors above the tenth; on the 4th floor it is shorter, the width still 400 mm».** The vault already records a related owner statement — «выше 10-го этажа два вентблока вместо одного, и они занимают больше площади. Эта квартира на 4-м этаже — один блок» — so **the dimensioned type plan is the conservative case, and this flat probably has MORE usable width than it shows.**
+>
+> **→ Every width-based conclusion is withdrawn. The room's actual dimensions must come from chain closure on the detailed plan's dimension strings, not from the block.** Recorded as a measurement task, not a finding — see [[00_Master/Evidence_Reading_Discipline|Evidence Reading Discipline]], whose rules (identify what the extension lines terminate on; keep the scale independent of the thing being measured; prefer chain closure) are exactly what both errors broke.
 
-**So one wall of the туалет is at least ~1140 mm.** With the room at **1.24 m²**, the other dimension works out at roughly **1.09 m** — and **on those figures no dimension of the room reaches the norm's 1.5 m minimum.**
+**⚠️ What survives, and it never needed the width:** the basin minimum of **1.4 × 1.5 m implies 2.10 m²**. The туалет is **1.24 m²** on the dimensioned plan and **1.42 m²** on the simplified one. **Both are far below 2.10 m², so a rectangular room of either area cannot satisfy both minima at once.** The conclusion rests on the area alone, which is the one figure both developer drawings agree is small.
+
+**⚠️ And the developer's own drawings agree with it in practice**: **neither plan places a washbasin in the туалет.** Both draw the WC pan alone there and put the washbasin in the ванная beside the bath — which is what a designer who had read §4.9 would do.
+
+**One useful figure read off the same crop**: the bath is dimensioned **1 800 mm**, comfortably over the norm's «ванна длиной не менее 1,7 м».
 
 > **⚠️⚠️ CORRECTED 2026-09-08, later the same day — the discrepancy was largely an error of mine, and the correction is instructive.** The first version of this section divided 1.24 m² by the ventblock's 1140 mm and concluded no dimension reached 1.5 m. **That silently assumed the recorded 1.24 m² includes the shaft's footprint.** It probably does not: a вентблок is **общедомовая шахта** — common property — and is normally excluded from a flat's counted area.
 >
