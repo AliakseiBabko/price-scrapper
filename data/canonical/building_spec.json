@@ -185,5 +185,24 @@
       "why": "!! IT HAS NO PARTY WALLS AT ALL. Both its side walls are internal to this flat (to the 9.36 room and to the living room), its top is the прихожая, and its bottom is the façade with a window. So it is the acoustically most protected habitable room in the flat, and it is glazed.",
       "consequence": "This satisfies the vault's own rule kids.quietest_brightest_room - the kids' room should be the quietest and brightest - and v1 already puts the children there. A fourth independent argument for a choice the owner made on other grounds."
     }
+  },
+  "energy_supply": {
+    "status": "SETTLED 2026-09-08, stated by the owner",
+    "owner_words": "The house has only electric stoves. No natural gas at all.",
+    "natural_gas": false,
+    "cooking": "electric only",
+    "why_it_matters": {
+      "unblocks_the_kitchen_merge": "SN 3.02.01-2019 clause 4.8 restricts a living room over or under a GAS-STOVE kitchen. With no gas in the building that clause cannot bite, and joining the 5.24 m2 kukhnya to the living room is a soglasovanie question rather than a prohibition. This is the move v1 already makes and that all four of the designer's variant plans start from.",
+      "the_project_track_now_hinges_on_ONE_thing": "Postanovlenie 164 section 6 puts a job in the project + tekhnicheskie usloviya track for GAS or CENTRAL HEATING. The gas limb is now permanently irrelevant, so the ONLY thing that can flip this project into the designed-project track is touching central heating - i.e. moving a radiator.",
+      "the_electrical_design_load_gets_MORE_binding": "Section 4 prohibits exceeding the premises' calculated engineering load. With no gas, the entire cooking load sits on the electrical figure alongside any underfloor heating and the appliance set. Check the design figure before committing to hob + oven + underfloor heating together.",
+      "commission_and_inspection_attendance_is_an_OPEN_question": "Postanovlenie 164 sections 9 and the acceptance procedure both list the gas supply organisation among the parties, unconditionally on the track. With no gas connection there may be no such counterparty, which would reduce the coordination from five parties to four. NOT confirmed - the text does not condition the list on whether the building has gas."
+    },
+    "recorded_on": [
+      "00_Master/project_decisions.md",
+      "16_Legal_and_Regulations/analysis/Renovation_Permits_and_Approvals.md",
+      "16_Legal_and_Regulations/analysis/Wet_Zones_and_Minimum_Room_Dimensions.md",
+      "16_Legal_and_Regulations/analysis/Works_Acceptance_Procedure.md",
+      "data/layout_cases/dubravinsky-euro3-designer-variants.json"
+    ]
   }
 }

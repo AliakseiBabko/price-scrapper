@@ -49,6 +49,15 @@
 - **The лоджия cannot become a heated room.** Not a design preference — a prohibition. See [[00_Master/project_decisions|Project Decisions]] and [[10_Balcony/Balcony_Guide|Balcony]].
 - **⚠️ The real constraint on electric underfloor heating and heavy appliances is the DESIGN LOAD, not a permit.** A widely repeated claim says you must obtain технические условия from the power utility for high-wattage equipment. **№ 164 does not say that** — §6 requires ТУ only for gas and central heating. What it does impose is a flat prohibition on **exceeding the calculated engineering load for the premises**, which is a different obligation with a different remedy: you check the design figure, you do not apply for a document.
 
+
+> [!IMPORTANT]
+> **✅⚠️ THIS BUILDING HAS NO NATURAL GAS — electric stoves only (owner, 2026-09-08). That collapses the §6 track to a single trigger.**
+>
+> §6 catches **gas supply OR central heating**. The gas limb can never apply here, so **the only thing that can put this project into the проект + технические условия track is touching CENTRAL HEATING — moving a radiator.** Everything else this project plans (partition changes, openings in non-load-bearing walls, the кухня-into-living merge, plumbing within the wet block) sits in the §7 **согласование-only** track.
+>
+> **→ So "do not move a radiator" is no longer one caution among several. It is the single line between a designer's fee and none.** ⚠️ The unresolved §102 tension below is about exactly this boundary and is not settled by the gas answer.
+>
+> **⚠️ And the same fact makes the design-load constraint above MORE binding, not less.** With no gas, the **entire cooking load** sits on the electrical figure — hob and oven — alongside any electric underfloor heating and the appliance set. **Obtain the premises' calculated engineering load before committing to hob + oven + underfloor heating together.** There is no permit to apply for and no document to be refused, which is precisely why this one gets skipped: the failure shows up as tripping breakers after the money is spent.
 ## ⚠️⚠️ §5–7 — two approval tracks, and which one this project is on
 
 | Works | What is required | Approving body |
