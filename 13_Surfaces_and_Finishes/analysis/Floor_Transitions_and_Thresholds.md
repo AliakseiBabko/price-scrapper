@@ -74,6 +74,16 @@ demolition/grinding of already-placed material, genuinely difficult
 regardless of dust-control measures taken.
 [source: [[_Sources/YT_KlIQxR3vWU8_petrishin_finishing_tips_montage|KlIQxR3vWU8]]]
 
+## ⚠️ Where to Put the Joint When the Two Tiles Differ — 2 cm Inside the Wet Room (Vasily_Sanuzel, П-44Т серия 5, 2023-10-28)
+
+Bathroom and corridor tiles are different products on this job, so the change has to happen somewhere. **His placement: the tile joint sits under the future door leaf, carried 2 cm into the bathroom** — so the leaf covers it from both sides and neither room shows a seam.
+
+**⚠️ And the level coordination behind it is recorded honestly rather than as a success.** The screed was set to meet the adjoining room's floor level (see the datum arithmetic on [[13_Surfaces_and_Finishes/analysis/Screed_and_Subfloor|Screed & Subfloor]]) and landed «с небольшой погрешностью» — **because that room's own floor is not level yet.** His resolution: **the residual difference gets absorbed under the door leaf, after the new frame is fitted**, and he says he **confirmed that with whoever is finishing the other side.**
+
+**→ Two transferable points.** A **cross-trade agreement about who absorbs the residual** is part of the threshold detail, not an afterthought — and **the door leaf is the tolerance budget**, which is why its position has to be known before the tile is set out.
+
+[source: [[_Sources/YT_slpRtjzBN4c_sanuzel_p44_ep5_trap_tray_waterproofing|YT_slpRtjzBN4c]]]
+
 ## Heated-Floor-Under-Tile Repair Technique, T-Molding Mechanism, and a Glue-Staining Defect (Ontario/Nikita Kuznetsov, added 2026-08-28, Round 7)
 
 > [!NOTE]

@@ -103,6 +103,31 @@ Konstantin Kruglov / Ontario, real Moscow jobsite, praises **radial ("лучев
 
 Konstantin Kruglov / Ontario gives a **specific drain-slope figure**: for 50mm drain pipe, maintain roughly 3cm of slope per linear meter. Corroborates this page's existing two-45°s-not-a-single-90° corner rule, with the same vertical-to-horizontal-drop exception. [source: [[_Sources/YT_QcYJwQgu67g_kruglov_perfect_plumbing_mistakes|QcYJwQgu67g_kruglov_perfect_plumbing_mistakes]]]
 
+### ⚠️ Two Stack-Routing Criteria From the Design Stage — Top-Floor Freedom, and the Straight Run (Vasily_Sanuzel, 2024-03-27)
+
+**⚠️ On the top floor the stack above the last connection is the VENT section — «фановая часть», carrying only air, «сверху только уже крыша».** So there is no discharge from above and **it can be bent and rerouted freely.** He does exactly that, putting a deliberate offset into it. **A structural freedom that exists only on the top floor**, and the second time in the same project that the top floor bought him an option (the other being a temporary ventilation valve while a duct was dismantled — see [[13_Surfaces_and_Finishes/analysis/Wall_Prep_and_Plastering|Wall Prep & Plastering]]).
+
+**⚠️ And the tie-break criterion when two risers are equally usable**: «удаление примерно одинаковое, **а здесь и будет по прямой без лишних поворотов** — в общем, такой будет удобней». **Equal distance, so the deciding factor is bend count, not length.** Consistent with this page's own two-45°s-not-a-90° rule: every avoided turn is one fewer place to lose fall and one fewer blockage point.
+
+Same design pass: **a 110 tee with a 90 outlet for the installation frame**, connecting almost directly, plus **a rodding eye** — and an honest note that a model carries **«некоторые погрешности монтажа… но это не критично».** **And the drainage rule appears here for the third time on this channel, now as a design-stage conclusion**: «чем ниже вход, тем ниже будет и конечная точка», so the bottom tee is dropped — breaking out a little screed to do it — specifically to get the shower tray lower.
+
+[source: [[_Sources/YT_VaWyCaaFXqk_sanuzel_technical_project_material_takeoff|YT_VaWyCaaFXqk]]]
+
+### ⚠️⚠️ Riser Work Comes BEFORE the Walls, and the Stack Cannot Be Shut Off (Vasily_Sanuzel, П-44Т серия 1, 2023-09-12)
+
+**The dependency that opens a wet-room rebuild, stated as the reason the job starts where it does**: the existing towel-rail riser stood exactly on the line of a new wall — «мне как раз простенок будет проходить здесь, поэтому скоро мне придётся сварщик и переварит эти стояки». **The risers were re-welded before a single block was laid.**
+
+- **The welder works to the software model, and the acceptance criteria are stated**: the two stub-outs (hot and cold) must be **exactly in the positions set in advance in the design program**, level with each other, and true in the vertical. «Всё получилось просто идеально, всё чётко, ровно, на одной высоте, как мне нужно было.» Third video from this source in which a full-scale model drives the physical work — here with a subcontractor executing to it.
+- **The riser's linear-expansion compensator is retained**, not removed for convenience — «он должен быть, раз он здесь находится».
+- **⚠️ Galvanised pipe: the weld seams need a dedicated zinc spray** — «цинк — это защитное покрытие трубы, поэтому продаётся специально цинковый спрей, как краска в баллончике». A cheap step that becomes invisible and unreachable once the wall is boxed in.
+- **⚠️ The constraint that shapes the whole operation: the risers cannot be shut off for long.** «Очень тяжело, чтобы водой не пользовались… всё равно надо делать быстро.» Consequence: **tees are cut and prepared before anything is opened**, and a basin plus an elbow to divert water are standing by.
+- **Lubricant is not optional** entering a socket — without it the pipe will not go in.
+- **The compensator goes on first, pushed fully home, lubricated separately.**
+- **A safety clamp («страховочный хомут») goes on immediately** so the pipe cannot drop before permanent fixing.
+- **⚠️ Cutting length = the measured span PLUS the socket depth**, which he puts at **5–6 cm on this system** and tells you to check rather than assume: «посчитайте, сколько глубина раструба». ⚠️ His two spoken numbers (198, and «плюс 6 сантиметров») cannot be reconciled from the ASR, so **only the rule is carried, not the figures.**
+
+[source: [[_Sources/YT_6x_rmCEyxTE_sanuzel_p44_ep1_risers_and_blockwork|YT_6x_rmCEyxTE]]]
+
 ### ⚠️ Why You Tape a Sewer Socket Before Casting It In — and When Not To (Ostendorf technical rep via Vasily_Sanuzel, 2024-06-03)
 
 **A manufacturer's technical specialist correcting the reason people do this step**, answering a subscriber question at a plumbers' trade meet-up:
@@ -128,6 +153,19 @@ Against the more familiar **insert coupling («вставная муфта»)**:
 Rated to **2 atm** — «учитывая, что система проточная безнапорная, этого достаточно». Also restores sockets on horizontal runs, and can be set deeper by breaking out screed.
 
 **⚠️ The rep declined the easy answer, which is why this is worth citing.** Василий offered that a reduced bore causes noise; the specialist said the real concern is **throughput**, that a **DN110 main riser should stay DN110** because norms and tolerances apply to it, and that **these are repair parts used «когда нет другого выбора»** — not a routine fitting.
+
+> [!NOTE]
+> **⚠️ Perspectives — does a reduced bore cause noise? Open, and dated on both sides.**
+>
+> **The fitter, on site, 2023-09-12** (nine months earlier): he chooses the socket restorer over an insert coupling for **two** reasons, and noise is one of them — **«все заужения будут создавать лишний шум, нам это не надо, ведь мы ставим бесшумную канализацию не просто так»**. On that job the whole point of the exercise was a low-noise stack, so a bore restriction would undercut the money already spent.
+>
+> **The manufacturer's technical specialist, 2024-06-03**: declines the noise framing and redirects it to **throughput**, i.e. the system's capacity and the norms that apply to a DN110 riser.
+>
+> **Neither is resolved here, and the disagreement is worth keeping because the two speak from different positions**: the fitter is defending an acoustic investment he was paid to deliver, the maker is defending a hydraulic specification. **Common ground: both prefer the non-narrowing component.** The practical answer is the same either way — **use the socket restorer** — so the open question affects reasoning, not the decision.
+>
+> ⚠️ **And note the relationship, recorded because it bears on weight**: this is the same manufacturer whose factory Василий had toured and whose product he called «самая лучшая канализация, которая вообще существует» in that 2023 episode. See [[_Sources/YT_6x_rmCEyxTE_sanuzel_p44_ep1_risers_and_blockwork|the episode-1 note]] for why that discounts the vendor's *unfalsifiable* claims without touching this one.
+
+[source: [[_Sources/YT_6x_rmCEyxTE_sanuzel_p44_ep1_risers_and_blockwork|YT_6x_rmCEyxTE]]]
 
 [source: [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|YT_LDeNqQL7TLQ]]]
 
@@ -172,6 +210,22 @@ Don't assume "it's inside a cladding box, so it's all fair game" — supply and 
 **Audit every zashivka/duct box in the apartment during design, not just the obviously oversized ones.** A second source, working from real developer-built examples, reports gaps of ~10–12cm between the actual shaft/stack and the box wall as a common default — usually far more than functionally necessary, and often paired with a box wall itself as thick as 12cm (roughly double the material a slimmer, adequately rigid wall would need). Check each box's real clearance requirement and shrink it if the numbers don't hold up. **Two practical qualifiers**: (1) **soundproof the shaft/stack from the inside before rebuilding the box smaller** — retrofitting sound insulation after a box has already been rebuilt compact means redoing the box a second time; (2) **a box's wall thickness should vary by what's mounted on which face, not be uniform** — the face carrying hung kitchen cabinets needs to be meaningfully thicker (cited: 100mm) than a face with nothing mounted (cited: 50mm). [source: [[_Sources/YT_zLJtkP6ymrg_15_diy_plumbing_mistakes_700|zLJtkP6ymrg_15_diy_plumb]]]
 
 **A real, concrete worked example of the "soundproof before enclosing" rule above, extending it with product and technique detail (added 2026-08-24, Round 2)**: Pavel Sidorik sound-insulates a sewage-stack riser and thermally insulates water-supply risers *before* building the false wall/panel-niche enclosure around them — access is far easier before the wall exists, and in his apartment the stack runs centrally near the kitchen and hallway, where unaddressed drain-flush noise would be noticeable in both rooms. **Real product**: a heavy, automotive-style bitumen-based sound-deadening mat plus a foamed-polyethylene layer, sold as a pre-cut sleeve kit sized specifically for 110mm pipe (wrapped and secured with hose clamps) — sourced from a named online soundproofing shop, purchase location Minsk (Belarus level 1). A pipe cleanout/access point is cut into the wrap and resealed with matching sheet material rather than left uninsulated. [source: [[_Sources/YT_IWVPepWlzSs_sidorik_electrical_ep7|IWVPepWlzSs_sidorik_electrical_ep7]]]
+
+### ⚠️ Distribution Detail From One Job — Templates, Bend Radius, and Insulation as a Norm (Vasily_Sanuzel, П-44Т серия 4, 2023-10-14)
+
+- **PEX with an internal aluminium layer**, coiled, one continuous piece manifold-to-fixture — «сгибается, принимает определённую форму и держит её».
+- **Every pipe insulated, 6 mm wall** — and he grounds it in regulation rather than preference: **«теплоизоляция обязательно по нормативам, по ГОСТам — все трубы должны быть изолированы».** ⚠️ Russian GOST asserted with no citation: **carry the practice, flag the jurisdiction, and verify against Belarus rules before citing it as a requirement here.**
+- Pipes fixed in chases with **perforated band («перфолента»)**, and fixed even where the chase width already grips them.
+- **⚠️ An internal corner needs a pipe bender to reach the minimum radius** — «так точно не согнуть» by hand — and the pipe turns through the corner **with no joint in it**.
+- **Label the pipe ends before they multiply** — «я здесь подписал, чтобы не потерялись, потому что всё-таки они очень похожи».
+- **Joint anatomy at the manifold**: **euroconus**, which he rates «самое надёжное соединение из разборных», and **conical union nuts sealing on an O-ring rather than a flat gasket**. The sleeve is **double-ended**, the pipe end must be **expanded** to take the fitting, and **it must enter right up to the last shoulder («буртик») — a visible acceptance check anyone can make.**
+
+**⚠️ Water-outlet («водорозетка») templates, and the double-sided trick**: metal templates with plugs, **reversible — one way sets the outlet 1 cm proud of the wall, the other flush with the plaster.** He needs flush because that wall gets painted. Set on gypsum, **~5 minutes to grab**, then plugs and template come off for reuse; **level taken from the box's centre.** He deliberately **does not** fix them through their own lugs — they hold, and the chase fill embeds them further.
+
+- **Kitchen sink outlets set at 150 mm centres, cold right and hot left** — corroborating the hot-left/cold-right convention recorded above.
+- **A non-standard overhead shower rose needing two 1/2" outlets at 50 mm centres** was solved with **a template graduated in 25 mm steps**, which turns an awkward dimension into a routine one.
+
+[source: [[_Sources/YT_0nJt_VkOxDo_sanuzel_p44_ep4_pipework_frame_installation|YT_0nJt_VkOxDo]]]
 
 ### Chase Sizing, Slope Technique, and Worked Fixture-Routing Examples (added 2026-08-24, Round 5)
 

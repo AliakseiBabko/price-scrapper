@@ -37,6 +37,18 @@ Konstantin Kruglov / Ontario, real Moscow jobsite, says: **riser soundproofing w
 
 Konstantin Kruglov / Ontario says: **an optional solenoid (electromagnetic) valve, distinct from a leak-protection system's automatic valve, can be wired to a simple switch for a one-button seasonal water-path switchover** — e.g. switching to a storage water heater during a scheduled hot-water outage, instead of manually operating multiple valves or a bypass. [source for this subsection: [[_Sources/YT_4jAQ526Zy2w_kruglov_perfect_manifold_unit|4jAQ526Zy2w_kruglov_perfect_manifold_unit]]]
 
+### ⚠️ A Deliberate Trade of Per-Fixture Isolation for a Cheaper Manifold (Vasily_Sanuzel, 2024-03-27)
+
+**This page argues consistently FOR per-fixture isolation** — Kruglov's two manifold functions are pressure isolation and the ability to shut off one fixture. **Here is a fitter knowingly trading part of the second away, at design stage, and saying so.**
+
+The kitchen needs four supplies: **cold to the mixer, cold to the washing machine, cold to the dishwasher, hot to the sink.** His design **takes the two appliance colds off tees** so that **the manifold needs only ONE outlet to the kitchen** — «здесь мы решили это сделать через тройники, чтобы на коллекторе был только один выход, допустим, на кухню. **Небольшая такая экономия.**»
+
+**⚠️ Recorded as a trade rather than as a mistake, because he names it as an economy and it is a real one** — a manifold outlet and its run cost money. **What it costs: the washing machine and dishwasher can no longer be isolated independently of each other or of the kitchen mixer.** For a wet room this vault would argue against it; **for two appliances that sit side by side under one worktop and are serviced together, the loss is smaller than the general rule implies.** The point is that the decision was made explicitly, at the model, with the alternative visible.
+
+Same project: **a double siphon for the washing machine and dishwasher**, sold for concealed installation, and he notes **it can simply sit openly behind a cabinet drawer — «ничего страшного».**
+
+[source: [[_Sources/YT_VaWyCaaFXqk_sanuzel_technical_project_material_takeoff|YT_VaWyCaaFXqk]]]
+
 ### ⚠️ A Manufacturer on What a Manifold Prevents, and on Brass vs Bronze (Elson rep via Vasily_Sanuzel, 2024-06-03)
 
 `vendor context` — answers given by a manufacturer's representative at a trade meet-up, in response to subscriber questions collected by Василий (Vasily_Sanuzel).

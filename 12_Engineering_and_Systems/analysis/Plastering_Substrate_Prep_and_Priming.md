@@ -179,6 +179,40 @@ cost and dry time) will be needed later, versus building walls with no
 reference to existing geometry and letting plastering absorb the full
 correction. `single-account`. [source: [[_Sources/YT_8QBqwydVND8_petrishin_2026_all_stages|YT_8QBqwydVND8]]]
 
+## ⚠️ Priming Aerated Block, and the Plaster Choice It Forces (Vasily_Sanuzel, П-44Т серия 2, 2023-09-17)
+
+**A one-man bathroom contractor plastering new aerated-block walls in a П-44Т, filmed end to end.**
+
+**Dust removal first, justified by the primer's own datasheet** — wide spatula, then **vacuum, working top-down** «потому что всё равно пыль сыпется вниз»: «в грунтовке чёрным по белому прямо сказано: основание должно быть сухим, чистым и обеспыленным. Как лучше обеспылить, чем нежели пылесосом?» He reads progress by ear, from the rustle in the hose.
+
+**⚠️ Two reasons to prime, and the second is one this page does not state:**
+
+1. Adhesion — the primer penetrates, strengthens the surface layer and **evens out absorbency**, which on aerated block is severe.
+2. **⚠️ The plaster mix itself stays workable longer** — «сама смесь будет дольше жить, и мне будет проще с этим работать». **Priming as a working-time decision, not only a bond one.**
+
+- **His plain-language account of what primer is**: «полимерные добавки, растворённые в воде… вода испаряется, полимерные добавки остаются, забивают поры и укрепляют основание» — hence choosing one with **elevated dry-matter/polymer content** for this substrate.
+- **Pigmented for coverage control, with a second audience named**: «заказчик будет в курсе, потому что наглядно видно разницу». Corroborates the pigment point from his ПИК job and adds **client verification** as a reason to prefer a tinted primer.
+- **Aerated block drinks it** — one bucket is not enough for this room; he applies generously, «чуть ли не пропитывая сами стены».
+- **≥6 hours before plastering, per the instructions** — he primes at the end of a day and leaves.
+- **⚠️ And he scopes his own claim, which is worth copying as a habit**: «сейчас я говорю именно про грунтовку газоблока — для других поверхностей и для других задач используются другие грунты и другой метод нанесения».
+
+### ⚠️⚠️ Gypsum, not cement — two independent reasons, and one of them is panel-house-specific
+
+He pre-empts the objection himself («многие могут задать, почему не цементную»):
+
+1. **⚠️ Part of the room's enclosure is the ventilation shaft, and it is made of a gypsum material — «на неё ни в коем случае нельзя наносить цементные составы».** One element of the room therefore decides the plaster for all of it. **A constraint this page did not carry, and it recurs in every panel flat where the shaft forms a wall face.**
+2. **Aerated concrete is not strong enough to hold cement plaster.**
+
+**The general rule he states behind both**: «каждый последующий наносимый слой должен быть чуть слабее, чем предыдущий — штукатурка должна быть слабее по марочной прочности, чем основание». He considers cement plaster appropriate only on **concrete, brick, expanded-clay-concrete block and similarly strong substrates** — and notes that **a lightweight cement plaster for aerated block ends up "not much different in strength from gypsum anyway"**, so it buys nothing.
+
+### ⚠️ The perimeter damper as executed
+
+**A separator tape sold for metal profiles, ~3 mm thick, run round the floor and ceiling perimeter before the beacons go in and used as a movement damper** — «помните, да, то, что мы стены ставили так, чтобы они не касались плиты перекрытия? Ну и, соответственно, я не хочу, чтобы и штукатурка также касалась». **Cut off after plastering**, leaving the joint open; where a wall is continued, fresh tape is stuck on first.
+
+**⚠️ Worth flagging as a status upgrade**: on his earlier ПИК job he proposed exactly this and **explicitly hedged it as his own reasoning** («мне кажется, это логичной операцией»). Here it is a named product, a stated thickness and a completed detail — see [[13_Surfaces_and_Finishes/analysis/Partition_Construction_and_Wall_Erection|Partition Construction]] for the same principle at the blockwork joint.
+
+[source: [[_Sources/YT_4SZG3yJqtQk_sanuzel_p44_ep2_plaster_and_screed|YT_4SZG3yJqtQk]]]
+
 ## Primer (Грунтовка) Selection & Application — General Guide (added 2026-08-24, Round 6)
 
 Pavel Sidorik, standalone general-technique FAQ, not part of the numbered

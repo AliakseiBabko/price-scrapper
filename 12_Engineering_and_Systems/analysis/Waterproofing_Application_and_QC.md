@@ -139,6 +139,38 @@ filling a gap in this page's otherwise roll/membrane-heavy coverage:
 
 [source: [[_Sources/YT_C0FOWRxqWX4_sidorik_bathroom_waterproofing_technique|YT_C0FOWRxqWX4]]]
 
+### ⚠️⚠️ Why It Is There At All, and the One QC Test a Client Can Actually Perform (Vasily_Sanuzel, П-44Т серия 5, 2023-10-28)
+
+**A bathroom fitter half-refuting the standard justification for his own trade's most important step:**
+
+> «Как вы, возможно, подумали, гидроизоляция защищает ваших соседей от затопления — и отчасти да, вы правы. Но **вероятность того, что вы затопите ваших соседей, ничтожно мала**. На самом же деле… **основная её задача — защитить ваше основание.** Как говорится, вода камень точит: в любом месте, где она будет скапливаться и набираться, рано или поздно она просто разрушит стены, разрушит пол.» — Василий, Vasily_Sanuzel
+
+**⚠️ And then he names the entry vector, which is the part that reframes the whole build**: every movement gap deliberately left earlier in the job — block-to-wall, block-to-ceiling, plaster-to-structure, board cut-outs — «оставляются эти зазоры специально для температурных расширений. **Ну как же быть, ведь в них может попасть вода?**»
+
+**→ The membrane is what makes the movement joints survivable. The gaps and the waterproofing are one design decision, not two steps** — see [[13_Surfaces_and_Finishes/analysis/Partition_Construction_and_Wall_Erection|Partition Construction]] for the gaps themselves. Junctions are taped; penetrations at the concealed mixer and the water outlets get **collars («манжеты»)**.
+
+- **⚠️ On collars missing from the box, stated as a rule**: «**если этого нет в комплекте, это не значит, что это не нужно и этим можно пренебречь. Нет — нужно приобрести отдельно и сделать.**» He bought the mixer's separately and **cut one himself from a sheet of collar material**; **the hole is made deliberately undersize so it stretches over the box and grips.**
+- **Sequence: internal corners and collars first, then the full planes.** At a corner **the tape is cut and folded over itself**, leaving «шарик из гидроизоляции» that cures «похож на резинку».
+
+#### ⚠️⚠️ Coverage scope can be decided by the PLASTER, not by the wet zone
+
+The norms he cites cover the floor and wet zones — but this room was plastered in **gypsum** (forced by the gypsum ventilation shaft forming one wall face, see [[12_Engineering_and_Systems/analysis/Plastering_Substrate_Prep_and_Priming|Plastering — Substrate Prep & Priming]]), and:
+
+> **Gypsum plaster and cement-based tile adhesive «не дружат между собой»** — «оно будет держаться первое время, но как долго — неизвестно. **Производители не рекомендуют в качестве основания гипсовую штукатурку, за исключением покрытых акриловой полимерной гидроизоляцией.**»
+
+**→ The membrane therefore does double duty — protecting the substrate AND acting as the bonding intermediary between gypsum plaster and cement adhesive — so he coats every wall floor to ceiling rather than the wet zone only.** **A plaster chosen for an unrelated reason silently expanded the waterproofing scope to the whole room.** Worth checking on any quote where gypsum plaster and tile meet.
+
+#### ⚠️⚠️ Thickness is the specification, and it is invisible — so count the empties
+
+- **«Гидроизоляция — это не краска, не стоит пытаться растянуть одну банку на всю площадь.»** Target **~0.5–0.8 mm**, applied by roller, deliberately thick, **with the ridges the roller leaves used as the thickness indicator while working.**
+- **Second coat after 2–3 hours**, for two stated reasons: **cover the misses, and reach the total thickness.** Tileable after **~16 hours.**
+- **⚠️ His client's reaction is recorded as the warning**: «всё синее — значит, загидроизолировано».
+  > «**Цвет никак не влияет.** Можно нанести буквально тончайший слой… и сказать, что всё, работы завершены — и **проверить это, к сожалению, никак визуально вы не сможете. Поэтому как минимум хотя бы следите за расходом состава.**»
+- **⚠️⚠️ THE TEST: count the containers used against the datasheet's coverage rate.** His worked figure — **3½ to nearly 4 tubs, about 18 kg** over this room — «расход указан на упаковке, поэтому плюс-минус его нужно соблюдать. **Ну точно не как 5 кг растянуть на всю площадь.**» **No instrument, no access, no expertise required, and it is the only check available once the film is down.**
+- **⚠️ And the failure mode has the same cause**: «гидроизоляция… отслаивается, отходит целыми пластами — всё это из-за неправильной подготовки и неправильного нанесения» — substrate not cleaned and dedusted, or thickness below spec. **Too thin does not merely underperform; it can be why the membrane lets go.**
+
+[source: [[_Sources/YT_slpRtjzBN4c_sanuzel_p44_ep5_trap_tray_waterproofing|YT_slpRtjzBN4c]]]
+
 ### Two Independent Additions Using the Same Ceresit CL 51 Product (Сергей ByPas, added 2026-08-25)
 
 Сергей ByPas (individual practitioner, region unresolved, `single-account`) — a second, independent single-bathroom brush-on waterproofing demo that heavily overlaps the Sidorik source above (same product, same corner-taping and two-coat cross-hatch technique) — only the two genuinely new details below are added:

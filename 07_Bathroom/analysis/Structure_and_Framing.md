@@ -50,6 +50,21 @@ A **fourth framing option** for the false wall, distinct from the three above �
 
 [source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
 
+### ⚠️ The Same Profile System Built Step by Step, Plus a Push-Open Concealed Hatch (Vasily_Sanuzel, П-44Т серия 4, 2023-10-14)
+
+**This is the "ТЦ" system this page names above as the premium plumbing-framing alternative to Knauf, filmed in use** — and the account is technique-first, so it fills in what the product description above could not.
+
+- **Galvanised steel profile, nominally square in section but effectively cruciform.** Fixed to walls on **adjustable brackets**, so wall irregularities can be levelled out or projections bypassed. **⚠️ The profiles are never screwed to each other — they join through dedicated corner connectors clamped by a single screw**, which is what guarantees the perpendicular.
+- **Sequence**: mark out first («здесь у меня счёт идёт на миллиметры, поэтому это очень важный этап»), set the **perimeter with the brackets left adjustable**, work to the laser, then add **vertical posts** with triangular clamps, levelled and temporarily fixed, using ceiling corner pieces that work in two planes at once.
+- **⚠️ The posts must be cross-tied to each other or they deflect** — «потом их между собой перевязать, чтобы не было вот такого прогиба». Once tied, the system is **self-supporting**.
+- **Plywood inserts («закладные») wherever a concealed mixer or an outlet needs backing** — and the plywood's *side* of the profile is chosen to land the mixer at its required depth (see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers & Sinks]]).
+- **⚠️ A push-to-open concealed hatch fabricated from the same profile**, using inserts sold separately: holes drilled in the profile, the hinge insert dropped inside and bolted tight, a bearing over the stud, the rotating axis assembled, capped and locked with the same corner connectors. One press gives **full access to the water-inlet node**. Compare the ready-made hatch products under [[07_Bathroom/analysis/Structure_and_Framing|Access Hatches]] below.
+- **⚠️⚠️ And the detail that could not be fixed later: the hinge axis was deliberately offset because the towel rail lands there** — so the door clears it and has room to swing. **A clash resolved at frame stage; after tiling it would be a choice between the hatch and the rail.**
+- **Sheathing in cement board** («не боятся влаги, не подвержены грибку»), **two layers**, with **screws made for cement board — large head, drill point at the tip** — entering the profile «как в масло» and **sitting about 0.5 mm below the surface**. **⚠️ Mark where the profiles run before driving screws, so as not to hit a pipe.** ⚠️ He states a board thickness of «3 мм», which is not a real cement-board thickness — **ASR garble, not carried.**
+- **The tile is planned to extend well past the hatch's own panel**; the panel is deliberately undersized for access convenience during the build.
+
+[source: [[_Sources/YT_0nJt_VkOxDo_sanuzel_p44_ep4_pipework_frame_installation|YT_0nJt_VkOxDo]]]
+
 ### Silicate-Block Bathroom Partition Build Technique (added 2026-08-24, Round 2)
 
 - **Foam-adhesive laying method (Irfix-brand polyurethane adhesive foam, professional gun-applied)**: the **first course is set in traditional masonry mortar** specifically to level out an uneven floor slab; **all subsequent courses go on foam** — faster, no wet trades, no thermal bridging (relevant on exterior walls). Correction window after placement: ±5mm horizontally within ~3 minutes; a vertical shift beyond 5mm requires re-applying adhesive from scratch. A rough, non-laboratory bond-strength check (95kg body weight stood on 3 foam-glued blocks, no failure; a separate aerated-concrete test broke the block itself before the foam joint failed) gave the practitioner enough confidence to rely on foam alone for the rest of the build.
@@ -211,6 +226,17 @@ Konstantin Kruglov / Ontario: **installation-frame load ratings**: base/standard
 **⚠️ A fastener manufacturer sizes the frame fixing by the USER, not the fixture (via Vasily_Sanuzel, 2024-06-03)**: asked what to fix a wall-hung frame with, the first question back is **who will use it**. «Большой крупный мужчина 150 кг веса» → **two fixing points, upper and lower**; an ordinary household → the classic single arrangement, because **the dynamic load of someone sitting down stays under about 200 kg**. That is a usefully different framing from the rated-capacity numbers above: **the rating is a property of the frame, the fixing is a property of the household.** Same source on substrates: with a **chemical anchor**, «можно закрепить что угодно к чему угодно», and **in good, dry D500 aerated concrete they claim up to 200 kg** — a boiler or a storage heater. `vendor claim`, but with the substrate quality stated as a condition; their own framing is that what matters is **not what you are fixing but what it weighs**. [source: [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|YT_LDeNqQL7TLQ]]]
 
 **⚠️ And on what the structural profile above can carry**: the profile maker's claim is that with the system's **inserts corner-jointed into the profile rib and backed by glued plywood**, a partition built from it will take **a bath grab rail, or a pull-up bar** — «на Кнауф не повесишь». `vendor claim`, but specific and testable, and it names exactly the load case that Knauf-based boxing is recorded as failing on this page. Note the profile maker also confirms **any manufacturer's installation frame can be bracketed to it**, and that the brackets fix to any plane, not only to a frame. [source: [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa|YT_LDeNqQL7TLQ]]]
+
+> [!WARNING]
+> **⚠️⚠️ Perspectives — must the frame bear on the floor slab, or is a load-bearing carcass enough? (opened 2026-09-08)**
+>
+> **The rule this page holds**, from Kruglov and independently confirmed by Sidorik: *the critical requirement is not the frame's rated capacity but its footing — the feet must rest on the structural slab, never on levelling screed and never on tile.*
+>
+> **The divergent practice**, Vasily_Sanuzel, 2023-10-14, П-44Т: the installation module is **mounted into the ТЦ profile carcass only, with no floor bearing at all** — «сам каркас является несущей системой, поэтому он встраивается сюда, в модуль — **и не надо путать её с другими рамами, которые крепятся в пол и в стены.** Здесь достаточно много креплений, соответственно нагрузка распределяется равномерно». He then hangs, pulls and jumps on it on camera, and the frame model he fits is **sold for that mounting method**.
+>
+> **⚠️ This is a different structural concept, not the same one done badly** — load redistributed into many wall fixings versus load taken to the slab — so it should not be filed as a mistake. **What is genuinely unresolved: whether the two are equivalent in service, and whether the carcass route depends on the wall substrate. Neither side offers a load figure.**
+>
+> **Common ground, and the practical read**: both agree the *frame's own rating is not the binding constraint*. If you are building a proprietary load-bearing carcass and using a frame sold to mount into it, this source is your precedent; **if you are fixing an ordinary frame into ordinary framing, the footing rule stands.** Note also that a **universal insert-bracket kit with a drilling template exists that fits almost any installation frame** into such a carcass — which is the part of the account that generalises regardless of how the question resolves. [source: [[_Sources/YT_0nJt_VkOxDo_sanuzel_p44_ep4_pipework_frame_installation|YT_0nJt_VkOxDo]]]
 
 ## Partition Rebuild Freeing Real Space While Adding Soundproofing (Петришин-Строй, added 2026-08-24, Round 11)
 

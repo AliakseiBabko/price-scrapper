@@ -106,6 +106,36 @@ Real object, "Новая Рига" (Novorizhskoye highway corridor, Moscow regio
 
 [source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
 
+### ⚠️⚠️ A Linear Trap Removes the Four-Way Envelope — and a Three-Day Tray Recipe (Vasily_Sanuzel, П-44Т серия 5, 2023-10-28)
+
+**The design consequence first, because it is the part that changes a drawing rather than a method.** A two-part linear drain — an embedded body cast into the screed, plus **a stainless profile inserted at finish stage (1200 mm here, cuttable)**:
+
+> **The decorative cover carries the required fall within itself, from all its edges in toward the centre. So no «конверт» has to be formed at all** — the whole floor plane can simply run toward the drain zone. **And the unit can sit hard against a wall, or run wall-to-wall as one piece.** — Василий
+
+**→ One direction of fall instead of a four-way pyramid**, which is a materially simpler floor to set out and to tile. Read against this page's centre-versus-linear-drain material above.
+
+- **Also: serviceable in practice, not just in principle** — hair blockages included, «практически полный доступ, то есть там чуть ли не руку можно засунуть».
+- **Adjustable feet, and it tolerates play left-right and fore-aft at finish stage** — «не обязательно всё прямо очень точно в миллиметр выставлять». **⚠️ But the body itself must be dead level to the laser**; that is the one dimension with no tolerance.
+
+**⚠️ The three-day tray, with materials and thicknesses.** The problem is stated as arithmetic: the trap sits near its minimum height and **still stands ~10 cm**, so «понятное дело, что я не могу заливать 10 см цементной смеси» if it is to be tileable in days.
+
+| Layer | What | Thickness | Purpose |
+| :--- | :--- | :--- | :--- |
+| 1 | **Brick** on fast-setting Litokol Plan Rapid | **~6.5 cm** | volume fill — «он уже сухой: 6.5 см стяжки условно у нас уже готово» |
+| 2 | **Vetonit 5000** raising screed to **~5 mm below the trap top** | ~3 cm | fast-hardening **and fast-drying**, 5–50 mm, next stage in **24 h** |
+| 3 | **Разуклонка** in Plan Rapid, formed the next day | to the cover's plane | ~20 min working time, grabs in 1–2 h |
+
+- **⚠️ Brick specifically, with the alternatives ruled out by name**: «ни газоблоком, ни гипсовыми плитами — **конкретно кирпичом, потому что это крепкий, плотный материал, который очень хорошо [работает] с цементными смесями**».
+- **Layer 1 needs no level, no bond pattern and no care** — «мы просто заполняем объём» — **but the bricks are deliberately NOT laid tight to the formwork**, so cement gets around them and forms the plane.
+- **Beacons for layer 2 on screws with clamps, chosen purely for speed** — a bedding mix would mean waiting for it to dry, and «оно немного не жёстко, но в данном случае мне это вообще не принципиально», because this is a filling layer and not the finished surface.
+- **⚠️⚠️ The property that makes the whole method work is DRYING, not setting**: «разница лишь в том, что действительно очень быстро твердеет и — **самое важное — быстро сохнет**». **A fast-setting mix that still holds water buys nothing**, because waterproofing and tile cannot follow.
+- **Formwork moved up to serve as a support beacon for layer 3**, with a second support beacon formed on the opposite side in the plane of the trap's cover.
+- ⚠️ The fall dimension is spoken but **ASR-garbled and not carried** — see the source note.
+
+**Compare his other tray build** ([[07_Bathroom/analysis/Shower_Enclosures_and_Drainage|the ПИК job above]]): same three-layer principle, block or brick either way, and there the formwork spread under the weight — **the risk that comes with fast-setting materials.**
+
+[source: [[_Sources/YT_slpRtjzBN4c_sanuzel_p44_ep5_trap_tray_waterproofing|YT_slpRtjzBN4c]]]
+
 ### ⚠️ A 90 × 90 Shower and a Cast-Marble Tray, Inspected After a Year of Daily Use (Vasily_Sanuzel, Moscow, 2022-01-23)
 
 The same practitioner, revisiting a different finished bathroom **one year after handover** — the rare case where an enclosure claim comes with service data attached.

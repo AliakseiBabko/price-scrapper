@@ -61,6 +61,26 @@ Konstantin Kruglov / Ontario says: **mixer shape (round vs. flat) affects visibl
 
 **A specific 2024-2025 trending kitchen-mixer type, praised as inspiration-worthy**: a pull-out mixer with a silicone (not metal-braid) hose that shows no water-mark residue at all and functions as a hand-held sprayer when pulled from its docking bracket, paired with a separate dedicated small tap for filtered drinking water fed from an under-sink filtration system. [source: [[_Sources/YT_55zALDsXP2E_kruglov_pinterest_plumbing_review|55zALDsXP2E_kruglov_pinterest_plumbing_review]]]
 
+### ⚠️⚠️ Concealed Mixers — the Depth Rule, a Product Defect, and What Is Actually Serviceable Afterwards (Vasily_Sanuzel, 2023-10-14)
+
+**A bathroom fitter installing two concealed mixers and answering, with the anatomy, the fear that stops most people specifying them.**
+
+**⚠️ The depth rule, and it is the classic error**: the instructions gave an installation depth of **50–70 mm** — **and that figure already includes the finish covering.** «Эта глубина указана уже с учётом чистового покрытия, в данном случае плитки, поэтому не надо забывать о её толщине.» He builds a template to check it: **5 cm of structure + 1 cm of tile = 6 cm**, inside the range. → **Measure to the tile face, not to the substrate.** On the shower mixer **the instructions gave no depth at all**, so he measured it and found that fixing the plywood backing to the *back* face of the frame landed it right **allowing for two board layers plus tile**.
+
+**⚠️ A defect class worth checking before purchase, and it is invisible in a catalogue photo**: this particular concealed basin mixer has **a mounting plate that is not machined flat** («площадка для крепления не фрезерованная»), so **it rocks however it is fixed** — «придётся что-то придумывать». He says so about a product he is in the middle of installing.
+
+**⚠️ The serviceability answer** — «у многих есть переживание: а что же будет со скрытым смесителем, а вдруг он потечёт»:
+
+> Once tiled, what stays reachable is whatever sits inside the embedded box, and **the plaster is deliberately held back so that opening survives**. Through it you can **service the internal valves — unscrew them, clean the strainer, change the seals — or replace the insert entirely**, and **change the lever or the thermostat**. **What remains permanently buried is only the brass body: «цельный кусок металла, с которым ничего произойти не может».**
+>
+> **The general form of the claim: every wall-recessed mixer has a service path designed in by its engineer for the parts that actually need servicing — and the body is not one of them, because nothing happens to it.** — Василий, Vasily_Sanuzel
+
+**And the verification he offers is not an argument but a step: pressure-test at install time**, which he then does on camera — see [[12_Engineering_and_Systems/analysis/Pressure_Testing|Pressure Testing]].
+
+**⚠️ Related, from the same job — the drain height is set from the furniture, not from a standard.** He knows which vanity and basin are coming, **draws them on the wall**, then **holds the actual siphon under the basin position and marks off it**, deliberately a little low **because that siphon is height-adjustable** and can be brought up later. And he uses a purpose-made **«сифонный отвод» instead of a 90° elbow**: it is **shorter, so it protrudes less at finish stage and allows a shallower chase** — «не всегда толщина стен позволяет сделать глубокую штробу». **A component this vault had nothing on, and the answer to a thin partition.**
+
+[source: [[_Sources/YT_0nJt_VkOxDo_sanuzel_p44_ep4_pipework_frame_installation|YT_0nJt_VkOxDo]]]
+
 ### ⚠️ Specify a FLAT Siphon to Preserve Vanity Drawer Volume (Александр Синчуков / NSDSGN, 2026-02-03)
 
 **A small specification item with a disproportionate storage consequence, and it belongs beside this page's stub-out coordination rule below.** [source: [[_Sources/YT_cudO-SSdrn0_nsdsgn_storage_organiser_audits_designer|YT_cudO-SSdrn0]]]

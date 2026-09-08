@@ -64,6 +64,19 @@ The entrance door had already been replaced before Василий (Vasily_Sanuze
 
 [source: [[_Sources/YT_z0hcMY5PYoc_sanuzel_pik_cabin_prep_works|YT_z0hcMY5PYoc]]]
 
+### ⚠️ Protecting a Finished Floor — Hardboard, and the Case Against Cardboard (Vasily_Sanuzel, 2023-10-28)
+
+Having tiled the corridor and kitchen first so he had room to handle large-format tile, he then has to protect what he just laid. **3 mm hardboard (ДВП) sheets**, with the reasoning given against the obvious cheaper option:
+
+- **Cardboard is not durable, tears easily, soaks through, and is useless after that.**
+- **Hardboard is smooth and flat, lifts out easily, and takes a light damp clean** — «тем самым поддерживая чистоту и порядок на объекте».
+- **⚠️ And it is dense enough not to be punctured by a dropped hammer**, which is the failure that actually damages a new floor.
+- **⚠️ Laid with a small gap to the walls, deliberately not tight** — two reasons: **painters need to reach the very bottom of the wall**, and in the bathroom **the tile has its own thickness and needs the space.**
+
+**Same practitioner, same principle as his tape rule above: the protection of already-finished work is a specification decision with named criteria, not a scrap-material afterthought.** Both matter to this project, whose handover already includes finished doors, windows, radiators and a WC pan that must survive the rest of the work.
+
+[source: [[_Sources/YT_slpRtjzBN4c_sanuzel_p44_ep5_trap_tray_waterproofing|YT_slpRtjzBN4c]]]
+
 ## Cost & Waste-Volume Planning
 
 - **⚠️ Waste-volume miscalculation is one of the most common demolition

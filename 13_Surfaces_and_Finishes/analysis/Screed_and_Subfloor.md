@@ -106,6 +106,33 @@ Direct continuation of the DIY screed build above (episode #18) — this covers 
 
 [source: [[_Sources/YT_kXGYTsBTKj8_sidorik_self_leveling_floor_ep27|kXGYTsBTKj8_sidorik_self_leveling_floor_ep27]]]
 
+## ⚠️⚠️ The Datum Arithmetic for a Self-Levelling Pour — Worked, and It Closes (Vasily_Sanuzel, П-44Т серия 2, 2023-09-17)
+
+**This vault has plenty of rules about screed levels and finish build-ups. This is the first source that shows the sum, on a floor poured as one continuous carpet across kitchen, corridor and санузел, transitioning into an existing room's floor covering.**
+
+**The reference is not the room — it is the existing threshold** where the adjoining floor covering already lies, because the new pour has to land flush with it later.
+
+| Step | Figure |
+| :--- | :--- |
+| Required drop of the screed top below the existing finished floor | **13 mm** — and he names it: **tile + tile adhesive** |
+| Laser datum chosen so the target is a whole number: beam → existing floor | **15.7 cm** (averaged — that level itself varies slightly) |
+| → beam → required screed top | **17.0 cm** |
+| Example reading at one point: beam → bare slab | **18.3 cm** |
+| → compound needed at that point | **13 mm** |
+
+`arithmetic-exact`: 15.7 + 1.3 = 17.0, and 18.3 − 17.0 = 1.3. **The figures reconcile.**
+
+> **⚠️ The transferable trick is the choice of datum height, not the numbers: set the laser so that *target = a round figure*** — «чтобы мне потом легче было считать уже с целыми числами» — **and define the target as finished-floor level minus the tile build-up.** Every subsequent reading is then a subtraction you can do in your head on a ladder, which is the difference between a method and a spreadsheet.
+
+- **⚠️ Why self-levelling compound rather than a sand-cement screed here: the range.** ~**4 cm** at the far kitchen side by the window against ~**10 mm** in the other zone — one material has to cover the whole spread.
+- **Grinding serves two purposes**: remove plaster spatter **and open the concrete's pores** «чтобы сцепление со стяжкой было максимально хорошим». Diamond cup wheel over ~**20 m²**, then vacuum, then **the same primer used on the walls to cut absorbency — «для наливного пола это будет очень важно»**, then damper tape round the whole perimeter.
+- **Self-adhesive datum markers, trimmed to length, marking the pour top** — «чем больше, тем легче»; he sets many because the fall is uneven.
+- **⚠️ Solo logistics, stated plainly and rarely recorded**: **36 bags**, mixed **three bags per tub in two tubs alternately**, water pre-measured into a row of buckets, everything within arm's reach — «поскольку я работаю один… работать нужно быстро».
+- **Tools chosen by layer thickness**: a **home-made squeegee** for the thick zone (4–5 cm), a **spiked roller** for the thin areas (10–15 mm), **spiked shoes** to walk on the wet floor.
+- **QC after set**: an almost-3 m straightedge, all in one plane, level checked throughout — and an honest tolerance statement rather than a perfection claim: **«конечно, есть небольшие перепады, куда без этого, но они вполне себе допустимы».**
+
+[source: [[_Sources/YT_4SZG3yJqtQk_sanuzel_p44_ep2_plaster_and_screed|YT_4SZG3yJqtQk]]]
+
 ### Datum Markers Instead of Beacons for a Thin Levelling Pour (Vasily_Sanuzel, 2024-05-10)
 
 Василий (Vasily_Sanuzel) pours a **thin self-levelling layer over an underfloor-heating cable** in a panel building, and uses **datum markers («реперные маячки») rather than screed beacons** to control it: each marker is **set by laser and cut off at the required height**, so **the top of the marker shows the level to pour to — and, read afterwards, shows where the pour went over or under.** «Использую их постоянно.»

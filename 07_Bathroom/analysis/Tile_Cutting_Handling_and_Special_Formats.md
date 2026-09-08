@@ -125,9 +125,33 @@ but with a few genuinely reusable buying/design heuristics:
 - → **⚠️⚠️⚠️ A MAJOR ADDITION TO THE BATH-RIM LEAK CHAIN THE VAULT HOLDS FROM ROUNDS 5–6. He published «тиле овер тхе рим анд силицоне ит» in January 2021 AND, here in October 2022, a general scepticism about epoxy grout — and in 2023 HIS OWN BUILDERS USED EPOXY GROUT AT EXACTLY THAT RIM AND IT LEAKED. So he had published both the correct joint treatment and a reason not to reach for epoxy at all, and it still went in at the worst possible place. The Round 6 supervision-failure reading is now considerably stronger.** See [[07_Bathroom/analysis/Bathtub_Materials_and_Installation|Bathtub Materials and Installation]].
 - ⚠️ **The swimming-pool claim (pools use cement grout with additives, not epoxy) is HIS ASSERTION and is recorded as such, not verified. If it holds it is a good argument; either way, his procedural advice — ask the tiler, because the tiler carries the warranty — is sound independently of it.**
 - **⚠️ Useful multipliers regardless: epoxy grout is ×3–4 the material cost and ×2 the labour cost of cement grout, and the labour premium exists because MISTAKES ARE UNRECOVERABLE.**
+- **⚠️⚠️ A working tiler takes the opposite position, and the two now sit as a Perspectives pair on [[07_Bathroom/analysis/Tile_Grout_Selection_and_Protection|Grout Selection & Protection]]** — he calls a contractor's objection to epoxy a signal about the contractor, and demonstrates the removal routine that answers the «оттереть будет очень сложно» argument. **Both agree on the cost premium; both point the client at the tiler; and they reconcile into a placement rule — epoxy in the field, silicone at internal corners and the rim — which is exactly the rule that was broken in the leak case above.** Read the two together before deciding.
 
 [source: [[_Sources/YT_K2pg-8iGP4s_nsdsgn_twenty_ways_to_economise|YT_K2pg-8iGP4s]]]
 
+
+## ⚠️⚠️ A Costed Cutting Mistake, and the Practice Cut That Now Prevents It (Vasily_Sanuzel, П-44Т серия 6, 2023-11-14)
+
+**The shower podium is 120 × 90.** It could have been two tiles; instead **a single 180 × 90 slab was ordered to cut the 120 × 90 out of.** He cut it wrong.
+
+> «Она была заказана в количестве одной штуки. Я её отрезал неправильно в размер — **моя ошибка у меня обошлась в 12 000 руб** (≈**$130**). Собственно, за эту плиту **я заплатил**.» — Василий, Vasily_Sanuzel
+
+*12,000 RUB, publish date 2023-11-14, Moscow area (region level 2). USD/RUB trailing 6-month mean to that date = 91.4671 → $131, rounded to the nearest 10 below $1,000.*
+
+**⚠️ The corrective is the transferable part, and he films it**: when the replacement arrives he **cuts the unneeded ~60 cm offcut edge first as a practice run**, and only then cuts to the finished size — «на основе прошлой ошибки я сперва попробую отрезать плиту на ненужном крае… и уже после этого буду пробовать в чистовой размер» — **plus 1 mm for safety.** On a single-unit slab order there is no second attempt, so **the offcut is the rehearsal.**
+
+**⚠️ And a dimensional trap the same cut exposed**: the 90 cm dimension had to lose **a further strip from each side, because the stainless drain insert has its own thickness.** **A single-slab podium must be dimensioned against the drain hardware, not against the podium opening** — which is exactly the sort of few-millimetres error that scraps a slab.
+
+**Cutting method notes from the same episode:**
+
+- **Guide rail and scoring carriage, three slabs at once**, held with suction cups, with **two sets of marks — the cut line and the rail's own offset.** He also demonstrates a classic bench cutter and says he rarely uses it; presented as preference, not verdict.
+- **⚠️ Wet the score line with plain water before breaking it** — «плитка, какой бы хороший ролик ни был… вода просто минимизирует эти риски». It can still wander, but less often.
+- **⚠️ Dress the fresh cut edge with a diamond block immediately** — purely so as not to cut yourself on it.
+- **⚠️ For a hole straddling two tiles: tape the two tiles tightly together along the joint first**, then transfer the dimensions and core-drill through both (a **60 mm** bit here, on an angle grinder with a vacuum hose). Fast-cutting core bits chip slightly, which he accepts because the area is covered later.
+- **External corners are mitred at 45° per tile** rather than overlapped, using a rail-guided portable cutter that **cuts slightly past 45°**, then ground back with progressively finer pads. **⚠️ Preserve the factory chamfer («фаска») on the face — it is there to prevent chipping.** A small gap is still left for grout. Doable by hand; the machine is only faster. **Supplies the method behind the mitre rule on [[07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance|Tile Installation & Acceptance]].**
+- **Grinding a slab to size: coarse pad first, taken slightly off-square from underneath so less has to come off the face, then finer, then a small chamfer to remove micro-chips and stop new ones forming. Work the underside, never the visible face.**
+
+[source: [[_Sources/YT_d9MQq-SgH1U_sanuzel_p44_ep6_tiling_adhesive_epoxy|YT_d9MQq-SgH1U]]]
 
 ## Stress-Relief Drilling at Sharp Cut-Corners on Large-Format Tile (RemProektMD, added 2026-08-24, Round 2)
 

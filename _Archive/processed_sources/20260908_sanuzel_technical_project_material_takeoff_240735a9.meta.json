@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=VaWyCaaFXqk",
+  "video_id": "VaWyCaaFXqk",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-08T06:12:11.437765+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "240735a9f8b46a09f1eb93f91fae7caa95826b120e9360cf891807b23de442bd",
+  "attempts_before_success": []
+}
