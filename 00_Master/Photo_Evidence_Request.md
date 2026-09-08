@@ -102,6 +102,18 @@ than any dimension in the flat.
 
 ---
 
+## 4a. ⚠️ Turning a photo into wall-anchored DEVICE data
+
+**This document says what to shoot. Its sibling says how to record what you then see:**
+**`00_Master/Existing_Services_Capture_Protocol.md`** — added 2026-09-08, after the owner tried showing
+raw photos to the model and got the wall assignment wrong.
+
+The conclusion there is worth repeating here, because it is the same lesson as §5 below and it is not a
+matter of prompting harder: **a photo of this apartment type cannot locate itself.** The flat repeats, the
+walls are bare, and the building contains **both handednesses** — so the wall must be supplied, never
+inferred. Devices then go into `data/canonical/services_observed.csv` behind a gate that refuses a
+millimetre figure with no named scale reference in the wall plane.
+
 ## 5. What the orientation map itself should carry
 
 Minimum, for each photo: **a numbered point** on the general plan, **an arrow** for the view direction,

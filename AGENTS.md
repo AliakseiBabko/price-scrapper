@@ -71,6 +71,7 @@ Shared cross-project skills live in `../ai-skills/skills/` and are linked into `
 | `scripts/verify_batch_selftest.py` | Guards the above against over-suppression. Run after changing it |
 | `tools/check_page_sizes.py` | **Enforces the 300-line hard page ceiling — exits non-zero on a breach.** Also warns below it, and flags FRAGMENTED pages, which means merge instead |
 | `tools/split_page.py analyse\|apply\|merge` | Does the split or the merge. Moves sections by line range byte-for-byte, then asserts content-line and citation-ID parity |
+| `tools/canonical/validate_services_observed.py` | **Run after adding observed existing services.** Refuses a wall that does not exist, a millimetre figure with no named scale reference, an offset with no datum, and an unflipped mirrored-flat reading. Protocol: `00_Master/Existing_Services_Capture_Protocol.md` |
 | `tools/precedents/ingest_precedent.py` | Add a design precedent in one command — copies, hashes, skips byte-identical duplicates, marks every file `examined: no` |
 | `tools/precedents/validate_precedents.py` | **Run after any change under `_Precedents/`.** Rehashes every file against its manifest, enforces the role vocabulary, and **fails if a layout case cites a file nobody has examined** |
 | `tools/layout/check_wall_junctions.py` | **Run after any change to the flat's wall geometry.** Fails on an overlap, a gap, or an L-corner void that nothing owns. A corner is a solid: counted twice or zero times are both wrong |
