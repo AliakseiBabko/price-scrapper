@@ -164,3 +164,24 @@ Produce a structured report with:
 
 - **The rendering question may resolve against automation, and that is fine.** If the honest answer is "a clay render plus AI styling is mood-only, and a client-grade image needs an artist or a paid tool", that is a useful, cheap answer — it removes an item from the roadmap rather than adding one. **Note this is the one place the context digest was wrong on the first draft**: `tools/blender/build_apartment_demo.py` already renders scenario-lit PNGs headlessly on EEVEE from the provisional IFC. The gap is *quality and connection to the current model*, not existence — and the digest was corrected before use, because a brief that understates what exists gets a beginner's answer back.
 - **The plan-vectorisation answer has a specific consumer waiting.** `v0`, the developer's own layout, exists only as a dimensioned image and is the one blocker standing between this project and a measured like-for-like layout comparison. If Q7 returns a credible path, that is the first thing to try; the current fallback is a second Homestyler export or hand reconstruction from the dimension strings.
+
+---
+
+## Gemini's returned plan — coverage check (2026-09-08)
+
+Gemini answered the short prompt with an 8-step research plan before running. **It maps cleanly onto all eight questions and keeps the jurisdiction guard** — its step (1a) explicitly contrasts Belarusian СТБ/ТКП against Russian СП and interstate ГОСТ/СПДС, and step (2) is scoped to Belarusian НРР. It also added two useful details of its own: **line weights and hatch patterns** under the 2D question.
+
+**Six items from the prompt did not survive into its plan, and were sent back as an amendment:**
+
+| Dropped | Why it matters |
+| :--- | :--- |
+| **Can a private owner actually use the НРР basis, or must he price from market quotes?** | ⚠️ The practical crux. If the answer is "not usable", half the cost-basis research is academic and the fallback is market quotes plus this repo's own price DB |
+| **Self-managed / itemised versus turnkey pricing** | The two give different $/m² for identical work; this project is explicitly self-managed, and the vault already separates the two delivery models |
+| **Price validity over a long project** — indexation, re-quoting triggers, contract language | `11_Budget_and_Planning` already holds «never price a long contract at signing-day material prices»; this is the method behind it |
+| **A coded classification layer** (Uniclass / OmniClass / смета basis) at single-flat scale | Determines whether quantities can key to prices at all, or whether a flat product list suffices |
+| **Speckle, and drawing revision/version control** | Revision drift is a named failure mode of a self-built pipeline — it matters more here than draughting quality |
+| **Photogrammetry / Gaussian splatting from phone photos** | ⚠️ Has a consumer waiting: `_Survey/` holds 30 photos of three comparable flats, and `v0` still has no geometry |
+
+**Also reasserted**: the output format (verdict per capability, gap table, build order, standards list separating mandatory from customary and Belarus from Russia, tools with maturity and licence, "don't build this" list) and the date-stamping of AI-capability claims — Gemini's plan restated none of it, and that is what makes the report usable rather than readable.
+
+**And one steer on effort**, sent with the amendment: **do not let steps (1) and (2) consume the budget.** The standards research is the easiest to find and the least likely to have changed; **the highest-value items are the automatic cost delta and the agent layer.**
