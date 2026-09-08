@@ -185,3 +185,36 @@ Gemini answered the short prompt with an 8-step research plan before running. **
 **Also reasserted**: the output format (verdict per capability, gap table, build order, standards list separating mandatory from customary and Belarus from Russia, tools with maturity and licence, "don't build this" list) and the date-stamping of AI-capability claims — Gemini's plan restated none of it, and that is what makes the report usable rather than readable.
 
 **And one steer on effort**, sent with the amendment: **do not let steps (1) and (2) consume the budget.** The standards research is the easiest to find and the least likely to have changed; **the highest-value items are the automatic cost delta and the agent layer.**
+
+---
+
+## Amendment 2 — after the primary-law pass (2026-09-08, same day)
+
+**Gemini's revised plan absorbed all six of the dropped items above and is good as written.** What changed underneath it is the **legal** ground: `16_Legal_and_Regulations/` was filled from **Постановление Совмина РБ № 164 of 03.04.2026**, read in full, the same day — see [[_Sources/DOC_postanovlenie_164_2026_pereustroystvo_pereplanirovka|the source note]].
+
+**So research item (1) was rewritten from "identify the standards" to "fetch the six acts № 164 defers to".** The full amendment as sent is below, in brief.
+
+### What is now settled and must not be re-researched
+
+№ 164 repeals № 384 of 2013 in full; it is a Council-of-Ministers постановление under ЖК ст. 5; §3 is a closed list whose final sentence puts finishes, tiling, screed-over-screed, in-place sanitaryware, sockets, lighting and furniture **outside** perепланировка (while insulation is **inside** it); two approval tracks with проект + ТУ only for gas and central heating; §14 permits self-performance; §10 puts waste rules and the acceptance date in the permit; §17's 30-day commission lead; §20's план-схема as the acceptance standard; and Положение 2 §2 covering AC equipment.
+
+### The six acts requested instead, in priority order
+
+1. **Указ № 200** (1.1.21, 1.1.21¹, 1.1.21², 1.15.1, 1.15.3) — the citizen document lists. **Nothing about the application can be stated without them.**
+2. **СН 3.02.01-2020** — the wet-zone rule, quoted.
+3. **The § 21 registration legislation** — passport vs ведомость, cost, lead time, and what changed on 1 January 2023.
+4. **«Правила пользования жилыми помещениями»** — the noise regime for non-перепланировка work, and whether it applies per task.
+5. **СН 2.02.05-2020** — fire resistance for new internal partitions.
+6. **КоАП** — the penalties § 29 refers to without quantifying.
+
+Plus **one drafting question**: whether абзац первый of части первой пункта 3 is the introductory phrase or the first list item — **it decides whether this project pays for a ведомость технических характеристик.**
+
+### And three findings that re-scope other items
+
+| Item | Change |
+| :--- | :--- |
+| **(2) cost basis** | **Answer "can a private individual use НРР at all?" EARLY.** If not, the item pivots to market-quote methodology — and this repo's own price DB plus FX normalisation becomes the primary instrument rather than a supplement |
+| **(4) documentation** | **§20 makes the submitted план-схема the acceptance standard**, so the documentation must be **deliberately under-specified where decisions are still open** and precise where they are not. Asked whether established practice exists for scoping a permit submission to preserve late flexibility — **which is the legal form of the owner's own "changeable on the fly" requirement.** Also: what belongs in **акты на скрытые работы when the owner performs the work himself** |
+| **(8) build order** | **Noisy work is confined to weekdays 09:00–19:00, and acceptance needs 30 days' notice. The binding constraint on this pipeline is calendar, not compute** — and the build order should reflect that |
+
+> **⚠️ The most consequential of those is (4).** The project's stated goal is a model flexible enough to change late; № 164 §20 means **every late change is also a change to the document you are accepted against.** The two requirements are in tension, and the resolution is probably to keep the permitted-works description to what is genuinely decided — which § 3's closed list makes viable, since most late-changing decisions (finishes, fixtures, furniture) are not перепланировка at all. **Research is being asked to confirm or refute that reading.**
