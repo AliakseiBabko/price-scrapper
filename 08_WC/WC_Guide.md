@@ -37,6 +37,8 @@ Zemstandart / Alexey Zemskov gives the following WC-dimension method (Source Not
 > **→ A WC built to the ergonomic minimum above can be comfortable and still non-compliant.** The §2 conclusion below — that a hygienic shower makes a basin mandatory, at 1.0 m width — **would not satisfy the norm**, which wants 1.4 × 1.5 m once a basin is present.
 >
 > **⚠️ And for this project specifically: the туалет is 1.24 m², so a washbasin in it cannot comply** — the with-basin minimum implies 2.10 m². **The full statement of the rule, the 25 % over-living-room allowance, the mandatory door ventilation grille, and an unresolved discrepancy about the room's own length are on [[16_Legal_and_Regulations/analysis/Wet_Zones_and_Minimum_Room_Dimensions|Wet Zones & Minimum Room Dimensions]].** ⚠️ That page's caveats apply: the copy read is a preview and does not include Изменения №1 и №2.
+>
+> **⚠️ But note what practice does with this (added 2026-09-08, design precedent).** A Minsk designer’s **four** furnished variant plans for our exact apartment type in ЖК Дубравинский all put a washbasin in the туалет anyway, without enlarging it — see [[16_Legal_and_Regulations/analysis/Wet_Zones_and_Minimum_Room_Dimensions|Wet Zones & Minimum Room Dimensions]]. So the §2 conclusion below is what a designer will propose; the norm is what we will have to raise ourselves.
 
 ## 2. Sink Sizing (also broadly applicable to a bathroom vanity — see [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Bathroom: Mixers, Toilet, Sinks & Hygienic Shower]])
 
