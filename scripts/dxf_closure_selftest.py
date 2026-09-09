@@ -16,6 +16,7 @@ Usage
 """
 from __future__ import print_function
 
+import io
 import os
 import shutil
 import subprocess
@@ -26,6 +27,7 @@ import ezdxf
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DXF = os.path.join(REPO, 'data', 'cad', 'dxf', 'v0_developer_layout.dxf')
+CANON = os.path.join(REPO, 'data', 'canonical')
 GATE = os.path.join(REPO, 'tools', 'layout', 'check_dxf_closure.py')
 
 WALL_LAYERS = ('V0-WALL-CONCRETE', 'V0-WALL-AERATED', 'V0-WALL-EXTERNAL',
@@ -92,11 +94,29 @@ def grow(e, mm):
 
 
 CASES = []
+PAIRED = []
 
 
 def case(name):
     def deco(fn):
         CASES.append((name, fn))
+        return fn
+    return deco
+
+
+def paired(name):
+    """A case that mutates the DXF **and** a canonical table together.
+
+    !! CODEX round 3, finding 2, is the reason this decorator exists. Its probe
+    had to copy the whole tool to get an isolated fixture, because the gate read
+    `data/canonical` from a fixed path. A checker that cannot be pointed at
+    seeded inputs cannot be adversarially tested against them, so the gate took
+    a `--canon` argument and these cases get a writable copy of the directory.
+
+    The mutator is called as `fn(doc, canon_dir)`.
+    """
+    def deco(fn):
+        PAIRED.append((name, fn))
         return fn
     return deco
 
@@ -217,10 +237,70 @@ def _(doc):
     shrink(named(doc.modelspace(), 'G4a'), 200)
 
 
-def run(path):
+# --- the classes CODEX seeded in ROUND 3, both of which PASSED -------------
+# !! Both are the same shape of defect and it is not topology: the gate was
+# checking the drawing against a table a person edits, so an *ordinary coupled
+# correction* made a wrong extent self-consistent. CODEX's phrasing of why the
+# first one matters is the part to keep:
+#
+#   "the export and its purported extent oracle share the same editable
+#    measurement"
+#
+# The answer was to stop treating `wall_blocks.csv` as evidence of extent and
+# re-derive the hatched solids from the PDF at check time
+# (`tools/layout/vector_extent_oracle.py`), and to make the exception ledger
+# validate its own fields rather than allowlist a delta beside decorative ones.
+
+
+@paired('CODEX r3: MC +1000 mm AND wall_blocks.csv edited to match')
+def _(doc, canon):
+    grow(named(doc.modelspace(), 'MC'), 1000)
+    wb = os.path.join(canon, 'wall_blocks.csv')
+    s = io.open(wb, encoding='utf-8').read()
+    # clear 3315 -> 4315 and solid 3565 -> 4565 keeps clear + 250 == solid, so
+    # build_wall_corners.py's invariant cannot defend this class either
+    s2 = s.replace('MC,MC,external,300,70,3315,250,3565,',
+                   'MC,MC,external,300,70,4315,250,4565,')
+    assert s2 != s, 'the MC row in wall_blocks.csv changed shape; fix this seed'
+    io.open(wb, 'w', encoding='utf-8', newline='').write(s2)
+
+
+@paired('CODEX r3: G4a exception evidence falsified, delta_mm left alone')
+def _(doc, canon):
+    ex = os.path.join(canon, 'wall_extent_exceptions.csv')
+    lines = io.open(ex, encoding='utf-8').read().splitlines(True)
+    out = ['G4a,1,99999,-25.0,,invented_status,\n' if l.startswith('G4a,')
+           else l for l in lines]
+    assert out != lines, 'no G4a row; fix this seed'
+    io.open(ex, 'w', encoding='utf-8', newline='').write(''.join(out))
+
+
+@paired('an exception row for a wall that does not exist')
+def _(doc, canon):
+    ex = os.path.join(canon, 'wall_extent_exceptions.csv')
+    s = io.open(ex, encoding='utf-8').read()
+    s += 'ZZ9,100,100,0.0,invented,open,"a wall nobody has ever named"\n'
+    io.open(ex, 'w', encoding='utf-8', newline='').write(s)
+
+
+@paired('a wall quietly removed from wall_blocks.csv so its absence is legal')
+def _(doc, canon):
+    msp = doc.modelspace()
+    msp.delete_entity(named(msp, 'R4'))
+    wb = os.path.join(canon, 'wall_blocks.csv')
+    lines = io.open(wb, encoding='utf-8').read().splitlines(True)
+    out = [l for l in lines if not l.startswith('R4,')]
+    assert out != lines, 'no R4 row; fix this seed'
+    io.open(wb, 'w', encoding='utf-8', newline='').write(''.join(out))
+
+
+def run(path, canon=None):
     env = dict(os.environ, PYTHONIOENCODING='utf-8')
-    p = subprocess.run([sys.executable, GATE, '--dxf', path], cwd=REPO,
-                       env=env, capture_output=True, text=True, errors='replace')
+    cmd = [sys.executable, GATE, '--dxf', path]
+    if canon:
+        cmd += ['--canon', canon]
+    p = subprocess.run(cmd, cwd=REPO, env=env, capture_output=True, text=True,
+                       errors='replace')
     return p.returncode
 
 
@@ -254,6 +334,27 @@ def main():
                 ok = False
         finally:
             shutil.rmtree(d, ignore_errors=True)
+
+    if PAIRED:
+        print('\nseeded defects that mutate the DXF AND a canonical table:')
+        for name, mutate in PAIRED:
+            d = tempfile.mkdtemp()
+            try:
+                copy = os.path.join(d, 'seeded.dxf')
+                canon = os.path.join(d, 'canonical')
+                shutil.copy(DXF, copy)
+                shutil.copytree(CANON, canon)
+                doc = ezdxf.readfile(copy)
+                mutate(doc, canon)
+                doc.saveas(copy)
+                rc = run(copy, canon)
+                if rc != 0:
+                    print('  ok      rejected: %s' % name)
+                else:
+                    print('  FAILED  ACCEPTED: %s' % name)
+                    ok = False
+            finally:
+                shutil.rmtree(d, ignore_errors=True)
 
     print()
     if ok:

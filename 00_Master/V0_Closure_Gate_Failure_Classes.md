@@ -93,3 +93,72 @@ unresolved thickness, not a detail.
 drawn at the vector's true splay angle while M2 and M6b are axis-aligned boxes,
 so it floats detached from both. The review PNG now says so instead of claiming
 the opposite.
+
+## Round 3: two more false passes, and both were the same shape
+
+CODEX seeded again and two probes went through. Neither was topology, and
+neither was a threshold that needed tightening — both were **the gate believing a
+table a person maintains.**
+
+### The extent oracle moved with the defect
+
+It extended MC by 1000 mm in an isolated fixture **and** edited MC in the copied
+`wall_blocks.csv` from `clear_mm=3315, solid_mm=3565` to `4315/4565`. Exit 0.
+Faces did not move, the junction stayed filled, nothing overlapped, and the drawn
+length agreed with the altered table — and the coupled edit even preserves
+`build_wall_corners.py`'s invariant, because `4315 + 250 = 4565`.
+
+Its statement of the problem is the one worth keeping, and it is careful:
+
+> *This is not a demand that a checker resist malicious rewriting of every input;
+> it is a finding that the export and its purported extent oracle share the same
+> editable measurement, so an ordinary coupled correction can make a wrong extent
+> self-consistent.*
+
+**The answer was to stop treating `wall_blocks.csv` as evidence of extent.**
+`tools/layout/vector_extent_oracle.py` re-derives the hatched wall solids from
+`3Б_3+ МН5_287.pdf` at check time and asserts no wall is drawn past its own solid
+by more than the corner allowance — which is itself taken from the drawing's
+thickest solid, not from `wall_corners.csv`. The PDF's sha256 is asserted, so
+substituting the drawing is caught too. MC + 1000 mm now fails by name:
+*"runs 1000.0 mm past hatched solid S04 (9380.9..12946.0); the corner allowance
+is 400 mm."*
+
+⚠️ **The residual coupling, stated rather than discovered later:** the oracle
+shares extraction *code* with `place_named_walls.py`. A bug in `build_runs` fools
+both. That is a real limit — but shared code is reviewable and versioned, which
+a shared editable measurement is not.
+
+### The exception ledger's evidence was decorative
+
+CODEX set G4a's `drawn_mm` to 1 and `solid_mm` to 99999, blanked `cause` and
+`notes`, invented a status, left `delta_mm` alone — and the gate exited 0,
+because it read only `wall_id`, `delta_mm` and `status`. Its verdict:
+
+> *the claimed measurements and explanation are not checks — they are decorative
+> fields beside an allowlisted delta.*
+
+Every field is now checked: strict CSV via `tools/lib/tabular.py` so a stray or
+missing cell is visible, a declared status vocabulary, unique and known wall ids,
+a non-empty cause **and** note, and the row's arithmetic recomputed against the
+actual DXF and `wall_blocks.csv`. **It caught its own stale rows within the hour**
+— closing the лоджия loop moved M2 and M6b, and the ledger refused the old
+numbers until they were re-measured.
+
+### And a hole I found by seeding against myself
+
+`--canon` was added so a fixture could mutate canonical data, which let me ask
+what else that unlocks. Deleting R4's polyline **and** its `wall_blocks.csv` row
+passed: every table-based presence check agreed there were 24 walls. But the DXF
+still carried 25 `V0-WALL-LABEL` texts, because **the drawing labels what it
+claims to draw.** Label↔polyline parity is now asserted, and it is the one
+presence test that needs no table at all.
+
+## The permanent suites, after three rounds
+
+| suite | seeds |
+| :--- | :--- |
+| `scripts/dxf_closure_selftest.py` | **16**, four of which mutate the DXF *and* a canonical table together |
+| `scripts/raster_fidelity_selftest.py` | **6** — translation, 3% scale, endpoint drift, sideways displacement, a deleted wall, a tampered mask |
+
+Every single one exists because something passed.

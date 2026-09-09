@@ -63,12 +63,38 @@ LEN_TOL_MM = 15.0      # the exporter's own invariant tolerance
 CELL = 10.0            # mm; a 10 mm sliver is below anything that matters
 
 
+EXCEPTION_STATUS = ('open', 'accounted')      # the only declared vocabulary
+
+# `--canon` points the gate at a COPY of data/canonical. CODEX round 3 needed an
+# isolated fixture to mutate a canonical table alongside the DXF, and had to
+# copy the whole tool to get one. A checker that cannot be pointed at seeded
+# inputs cannot be adversarially tested against them.
+_CANON = [CANON]
+
+
 def read(name):
-    p = os.path.join(CANON, name)
+    p = os.path.join(_CANON[0], name)
     if not os.path.exists(p):
         return []
     with io.open(p, encoding='utf-8') as f:
         return list(csv.DictReader(f))
+
+
+def _load_oracle():
+    import importlib.util
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                     'vector_extent_oracle.py')
+    spec = importlib.util.spec_from_file_location('vector_extent_oracle', p)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+def _tabular():
+    """The shared strict-CSV helpers. AGENTS.md: use these, not DictReader."""
+    sys.path.insert(0, os.path.join(REPO, 'tools'))
+    import lib.tabular as t
+    return t
 
 
 def walls_from_dxf(path):
@@ -103,6 +129,13 @@ def walls_from_dxf(path):
                     'axis': 'EW' if (x1 - x0) > (y1 - y0) else 'NS',
                     'layer': e.dxf.layer})
     return out
+
+
+def labels_in_dxf(path):
+    """Every V0-WALL-LABEL text in the drawing, as an id list."""
+    doc = ezdxf.readfile(path)
+    return [e.dxf.text for e in doc.modelspace()
+            if e.dxftype() == 'TEXT' and e.dxf.layer == 'V0-WALL-LABEL']
 
 
 def read_placement():
@@ -148,8 +181,15 @@ def run_of(w):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--dxf', default=DXF)
+    ap.add_argument('--canon', default=None,
+                    help='a COPY of data/canonical, so a seeded fixture can '
+                         'mutate a canonical table alongside the DXF')
+    ap.add_argument('--no-oracle', action='store_true',
+                    help='skip the vector oracle (it re-parses the PDF, ~2 s)')
     ap.add_argument('--json', action='store_true')
     args = ap.parse_args()
+    if args.canon:
+        _CANON[0] = args.canon
 
     wall_list = walls_from_dxf(args.dxf)
     ledger = read('wall_corners.csv')
@@ -187,6 +227,27 @@ def main():
             findings.append({'kind': 'missing_wall', 'walls': [wid],
                              'detail': 'not in the DXF and not quarantined'})
             print('  FAIL %-5s missing from the DXF, not quarantined' % wid)
+    # !! A label with no polyline is a missing wall, and this is the ONE
+    # presence test that needs no table at all. My own round-3 seed found the
+    # hole: delete R4's polyline AND its row in `wall_blocks.csv`, and every
+    # table-based presence check agrees there are 24 walls. But the DXF still
+    # carries 25 V0-WALL-LABEL texts, because the drawing labels what it claims
+    # to draw. Parity between labels and polylines is internal to the artefact
+    # and cannot be falsified by editing canonical data.
+    labelled = set(labels_in_dxf(args.dxf))
+    orphan_labels = sorted(labelled - set(by_id))
+    for wid in orphan_labels:
+        findings.append({'kind': 'label_without_wall', 'walls': [wid],
+                         'detail': 'the DXF labels this wall but draws no '
+                                   'polyline for it'})
+        print('  FAIL %-5s labelled in the DXF but no polyline is drawn' % wid)
+    if len(labelled) != len(wall_list):
+        findings.append({'kind': 'label_count_mismatch', 'walls': [],
+                         'detail': '%d labels, %d wall polylines'
+                                   % (len(labelled), len(wall_list))})
+        print('  FAIL %d labels but %d wall polylines'
+              % (len(labelled), len(wall_list)))
+
     stray = sorted(set(by_id) - set(r['wall_id'] for r in blocks))
     for wid in stray:
         findings.append({'kind': 'unknown_wall', 'walls': [wid],
@@ -248,17 +309,88 @@ def main():
     # gate fails on any DEVIATION from the pinned figure. So the debt is
     # countable and visible, a wall not on the list must agree, and a mutation -
     # CODEX's 1000 mm MC over-extension - moves a delta and fails.
-    print('\ndrawn extent against wall_blocks.csv:')
+    # === 3a. the exception ledger validates its OWN evidence ==============
+    # !! CODEX round 3, finding 3: the gate read only `wall_id`, `delta_mm` and
+    # `status`. In an isolated copy it set G4a's `drawn_mm` to 1 and `solid_mm`
+    # to 99999, blanked `cause` and `notes`, invented a status, left `delta_mm`
+    # alone - and the gate exited 0. Its words, and they are the right words:
+    # **"the claimed measurements and explanation are not checks - they are
+    # decorative fields beside an allowlisted delta."**
+    #
+    # So every field is now checked: strict CSV (a stray or missing cell is
+    # visible), a declared status vocabulary, unique and known wall ids, a
+    # non-empty cause AND note, and the row's own arithmetic recomputed against
+    # the actual DXF and `wall_blocks.csv`.
+    print('\nextent exception ledger - is its own evidence true?')
     rec = dict((r['wall_id'], r) for r in blocks)
     pinned = {}
-    for r in read('wall_extent_exceptions.csv'):
-        try:
-            pinned[r['wall_id']] = (float(r['delta_mm']),
-                                    (r.get('status') or '').strip())
-        except (TypeError, ValueError, KeyError):
-            findings.append({'kind': 'bad_exception_row',
-                             'walls': [r.get('wall_id')],
-                             'detail': 'delta_mm is not a number'})
+    ex_path = os.path.join(_CANON[0], 'wall_extent_exceptions.csv')
+    if os.path.exists(ex_path):
+        t = _tabular()
+        ex_rows, ex_problems = t.read_csv(ex_path, strict=False)
+        for p in ex_problems:
+            findings.append({'kind': 'bad_exception_row', 'walls': [],
+                             'detail': str(p)})
+            print('  FAIL malformed CSV: %s' % p)
+        for p in (t.check_vocabulary(ex_path, ex_rows, 'status',
+                                     EXCEPTION_STATUS)
+                  + t.check_unique(ex_path, ex_rows, ['wall_id'])):
+            findings.append({'kind': 'bad_exception_row', 'walls': [],
+                             'detail': str(p)})
+            print('  FAIL %s' % p)
+        for r in ex_rows:
+            wid = (r.get('wall_id') or '').strip()
+            if wid not in rec:
+                findings.append({'kind': 'bad_exception_row', 'walls': [wid],
+                                 'detail': 'not a wall in wall_blocks.csv'})
+                print('  FAIL %-5s not a known wall' % wid)
+                continue
+            for field in ('cause', 'notes'):
+                if not (r.get(field) or '').strip():
+                    findings.append({'kind': 'bad_exception_row',
+                                     'walls': [wid],
+                                     'detail': '%s is empty; an exception '
+                                               'without a stated cause is not '
+                                               'an exception' % field})
+                    print('  FAIL %-5s %s is empty' % (wid, field))
+            d_claim = t.finite(r.get('drawn_mm'))
+            s_claim = t.finite(r.get('solid_mm'))
+            delta = t.finite(r.get('delta_mm'))
+            if delta is None:
+                findings.append({'kind': 'bad_exception_row', 'walls': [wid],
+                                 'detail': 'delta_mm is not a finite number'})
+                print('  FAIL %-5s delta_mm is not a finite number' % wid)
+                continue
+            pinned[wid] = (delta, (r.get('status') or '').strip())
+            # recompute the row's claims against the real DXF and the record
+            w = W.get(wid)
+            s_true = t.finite(rec[wid].get('solid_mm'))
+            probs = []
+            if s_claim is None or s_true is None or abs(s_claim - s_true) > 0.6:
+                probs.append('solid_mm claims %s, wall_blocks.csv says %s'
+                             % (s_claim, s_true))
+            if w is not None:
+                a, b = run_of(w)
+                d_true = b - a
+                if d_claim is None or abs(d_claim - d_true) > 0.6:
+                    probs.append('drawn_mm claims %s, the DXF is %.1f'
+                                 % (d_claim, d_true))
+                if (d_claim is not None and s_claim is not None
+                        and abs((d_claim - s_claim) - delta) > 0.6):
+                    probs.append('delta_mm %.1f is not drawn_mm - solid_mm '
+                                 '(%.1f)' % (delta, d_claim - s_claim))
+            if probs:
+                findings.append({'kind': 'false_exception_evidence',
+                                 'walls': [wid], 'detail': '; '.join(probs)})
+                print('  FAIL %-5s %s' % (wid, '; '.join(probs)))
+        if not any(f['kind'] in ('bad_exception_row',
+                                 'false_exception_evidence')
+                   for f in findings):
+            print('  ok   %d rows: statuses declared, ids known and unique, '
+                  'causes stated, arithmetic recomputed against the DXF and '
+                  'the record' % len(ex_rows))
+
+    print('\ndrawn extent against wall_blocks.csv:')
     bad = 0
     for wid, w in sorted(W.items()):
         r = rec.get(wid)
@@ -306,6 +438,50 @@ def main():
               'OPEN: %s' % (len(pinned), len(opens), ', '.join(opens)))
         print('       these are recorded disagreements between the record and '
               'the drawing, not agreements')
+
+    # === 3b. the INDEPENDENT extent oracle: the hatched solids ============
+    # !! CODEX round 3, finding 2. Asserting the DXF against `wall_blocks.csv`
+    # proves only that two things a person edits together agree: it extended MC
+    # 1000 mm, edited MC's clear_mm/solid_mm to match, and the gate passed - the
+    # coupled edit even preserves `clear + owned corner = solid`. The oracle
+    # below re-derives the hatched wall solids from the PDF at check time, so no
+    # table edit can move it, and the PDF's sha256 is asserted so the drawing
+    # cannot be swapped either.
+    if not args.no_oracle:
+        print('\nindependent oracle - drawn runs against the PDF\'s hatched '
+              'solids:')
+        try:
+            oracle = _load_oracle()
+            ok, got = oracle.pdf_identity()
+            if not ok:
+                findings.append({'kind': 'wrong_source_drawing', 'walls': [],
+                                 'detail': 'PDF sha256 is %s, expected %s'
+                                           % (got, oracle.PDF_SHA256)})
+                print('  FAIL the source drawing is not the one this oracle '
+                      'trusts: sha256 %s' % got)
+            else:
+                solids = oracle.vector_solids()
+                o_find, o_rows = oracle.check(wall_list, solids, quarantined)
+                findings.extend(o_find)
+                allow = max(oracle.max_solid_thickness(solids),
+                            oracle.CORNER_ALLOWANCE_FLOOR_MM)
+                worst = sorted((r for r in o_rows if r[1]),
+                               key=lambda r: -r[2])[:4]
+                for wid, sid, over, _faced, note in worst:
+                    print('  %-5s %s' % (wid, note))
+                print('  %d of %d walls sit on a hatched solid; corner '
+                      'allowance %.0f mm (the drawing\'s thickest solid)'
+                      % (sum(1 for r in o_rows if r[1]), len(o_rows), allow))
+                for f in o_find:
+                    print('  FAIL %-5s %s' % (f['walls'][0], f['detail']))
+                if not o_find:
+                    print('  ok   no wall is drawn past its hatched solid by '
+                          'more than the corner allowance')
+        except Exception as exc:                     # noqa: BLE001
+            findings.append({'kind': 'oracle_unavailable', 'walls': [],
+                             'detail': '%s: %s' % (type(exc).__name__, exc)})
+            print('  FAIL the oracle could not run: %s: %s'
+                  % (type(exc).__name__, exc))
 
     # === rasterise the wall union, for 4 and 7 ===========================
     # !! The first version of this gate tested "do the two rectangles overlap in
