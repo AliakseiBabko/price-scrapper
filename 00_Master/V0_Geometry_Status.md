@@ -284,6 +284,57 @@ So the drawing puts R6 and R7 at ~1740–1750, not 1450, and R6/R7 are recorded
 move on a recollection the drawing contradicts. **❓ Worth a second look at the
 plan, or a tape once the building completes.**
 
+### ✅ The DXF is now CHECKED against the raster, by measurement
+
+`tools/layout/overlay_dxf_on_raster.py` → `_Drawings/review/v0_dxf_over_raster.png`.
+Owner, 2026-09-09: *"I want you to check yourself and not come back to me showing
+the same result."* Fair, so the check is now a number that can be re-run after
+every change.
+
+**Registration matters and two attempts were wrong before this one:**
+
+- ⚠️ `dimension_tolerance.json` records `mm_per_px: 20.6302` for this plan. **It
+  cannot be right** — the file is 879 px wide and the flat is ~10.2 m, so ~12–13
+  mm/px. Not used.
+- ⚠️ Fitting the **ink bounding box** gave **6.61% anisotropy**, because the box
+  includes the dimension strings and room labels printed outside the walls.
+- ✅ Fitting on **wall lines** — rows and columns whose ink spans ≥30% of the
+  drawing, matched against the DXF's own face coordinates — gives **1.96%
+  anisotropy**, consistent with the 1.66% aspect error already recorded for this
+  raster. **13 of 21 x-faces and 19 of 28 y-faces land on a drawn line.**
+
+⚠️ **And the first metric was flattery.** A hit/miss probe at 90 mm found ink for
+23 of 24 walls, while the overlay plainly showed walls off their lines — at
+13 mm/px, 90 mm is 7 px and almost everything "passes". Replaced with the
+**distance in mm from each sampled edge to the nearest ink**.
+
+**Result: 19 of 24 walls have every sampled edge within 60 mm of drawn ink.**
+The five that do not:
+
+| wall | worst | mean |
+| :--- | :--- | :--- |
+| R9 | 142 mm | 42 mm |
+| G2 | 123 mm | 61 mm |
+| G4C | 103 mm | 44 mm |
+| G4d | 103 mm | 31 mm |
+| G8 | 90 mm | 34 mm |
+
+⚠️ The registration's own noise is roughly ±13–26 mm (one to two pixels), so
+**60–90 mm is marginal and 90–142 mm is real.**
+
+### ✅ The envelope bug that amputated the лоджия
+
+`clip_to_envelope()` built the flat's box from axis-aligned **faces** only. The
+лоджия's south side is the **diagonal glazing**, so no horizontal face existed
+down there and the floor came out at y = 7490.4 — above the лоджия, which reaches
+about y = 6100. **The flat is an L, and clipping an L to the bounding box of its
+main block deletes the other leg.**
+
+Consequences, both now fixed: M2's solid was cut from 1945.7 mm to 1490.2 against
+a recorded 1850, and every лоджия wall below the line vanished. The envelope now
+takes the glazing's own extent as well — floor **6120.6** — and **M2 moved from
+−360 mm to +95.7 mm** against its recorded length.
+
 ## Still missing
 
 - **The лоджия's M2 / M6b are exported as axis-aligned bars** — the real

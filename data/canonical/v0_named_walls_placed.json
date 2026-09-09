@@ -22,7 +22,7 @@
    12993.5
   ],
   "y": [
-   7490.4,
+   6120.6,
    16261.6
   ]
  },
@@ -261,18 +261,20 @@
    "thickness_mm": 200.0,
    "face_lo_mm": 2930.9,
    "face_hi_mm": 3130.9,
-   "from_mm": 7490.4,
+   "from_mm": 7034.9,
    "to_mm": 8980.6,
    "walls": [
     "M2"
    ],
    "lay": {
     "joints": [
+     7034.9,
      7490.4,
      7490.6,
      8980.6
     ],
     "segments_mm": [
+     455.5,
      0.2,
      1490.0
     ],
@@ -1010,12 +1012,12 @@
    "pred_from_mm": 6806.286956521739,
    "pred_to_mm": 8885.744535840187,
    "match_cross_mm": 6.1,
-   "match_overlap_mm": 1395.3,
-   "from_mm": 7490.4,
+   "match_overlap_mm": 1850.8,
+   "from_mm": 7034.9,
    "to_mm": 8980.6,
-   "laid_length_mm": 1490.2,
+   "laid_length_mm": 1945.7,
    "length_from": "drawn block joints",
-   "vs_recorded_mm": -359.8,
+   "vs_recorded_mm": 95.7,
    "face_lo_mm": 2930.9,
    "face_hi_mm": 3130.9,
    "solid_id": "S16"
