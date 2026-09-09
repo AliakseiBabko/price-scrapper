@@ -289,19 +289,54 @@ coverage** assertion was needed. ⚠️ **And one seed was itself wrong** — sh
 R1a's *east* end does not touch the R1a/R1b corner at its *west* end, so the gate
 was right to accept it. **A negative case has to break the thing it claims to.**
 
-### The raster overlay is now advisory, and says so
+### The raster check, rebuilt independently — round 3
 
-CODEX rejected it as flattering and partly circular: it fits the registration on
-the DXF's own wall faces, then scores those faces against wall-adjacent ink;
-four probes per wall; untyped ink; and it **returned 0 while five walls breached
-its own threshold**. All true. It now **exits 1 on a breach and 2 on unusable
-registration**, and its header states plainly that
-`check_dxf_closure.py` is the gate that decides and this is a displacement smell
-test.
+CODEX rejected the old overlay three times and every objection held: it fitted
+its registration **on the wall faces of the DXF it was scoring**, sampled four
+points per wall, measured one direction only, re-thresholded the raster each run,
+and called the result advisory. `tools/layout/overlay_dxf_on_raster.py` is
+**deleted**, not demoted — arguing about the exit code of a circular measurement
+was the wrong conversation.
 
-⚠️ **Still outstanding from that review**, and not done: a control-point
-registration using non-wall features, a frozen wall-only raster mask, per-wall
-IoU, and dense boundary distance. Until those exist the raster numbers are a
-smell test only.
+`tools/layout/raster_fidelity.py` replaces it:
 
-**Round 2 of `V0_DXF_RASTER_FIDELITY` found five of this page's claims untrue in the committed tree**, and the defect classes the closure gate had been missing are recorded in [V0_Closure_Gate_Failure_Classes.md](V0_Closure_Gate_Failure_Classes.md).
+- **registration comes from the PDF**, fitted between its hatched wall-solid
+  faces and the raster's wall lines. The DXF is never consulted, so displacing
+  the model no longer drags the reference with it;
+- **the evidence is frozen** — a committed ink mask and a committed registration,
+  both asserted by sha256. A tampered mask is refused (exit 2), not measured
+  against;
+- **both directions, densely**: every sampled DXF wall edge → nearest ink
+  (25 mm steps, 106–346 samples per wall), and every wall ink pixel → nearest
+  DXF wall **body**, per hatched solid.
+
+⚠️ **Three of my own metric errors, each caught by rendering the result rather
+than reading the number:**
+
+1. Taking whole qualifying ink *rows* swept in every glyph sharing a y with a
+   wall — 37.6% "unexplained".
+2. Requiring a long contiguous run still admitted the **dimension extension and
+   dashed centre lines**, which are long, straight, axis-aligned and inside the
+   flat. 34%. No run-length rule can separate them from wall line work; the
+   discriminator has to be the PDF's own solids.
+3. Scoring wall ink against wall *edges* counted the **45/50° hatching**, which
+   sits up to 150 mm from either face of a 300 mm wall. Wall ink belongs against
+   the wall **body** — which is also the missing-wall-mass measure CODEX asked
+   for.
+
+⚠️ **And the two walls that "breached" were doorways.** G2 at p90 139.7 mm and
+G4C at 187.1 mm were the only failures — and G2 sits on solid S14, whose own
+`bridged_openings_mm` records the 1010 mm entrance door inside G2's span, while
+G4C sits on S21 with two 710 mm openings. **45% of each wall's length is an
+opening with no drawn face line to be near.** Excluding those spans, using the
+drawing's own record, both come to **p90 0.0 mm over their remaining 118 and 148
+samples** — so the walls sit exactly on the ink and only the doorway samples were
+ever far. That is the drawing correcting the metric, not a threshold relaxed to
+fit.
+
+**Why edge distance and not area IoU:** measured first — this drawing renders
+walls as outlines with hatching, not filled bands (1–3 px runs are 79% of all
+horizontal dark runs, where a 250 mm wall would be ~21 px). An IoU between a
+filled DXF rectangle and outline line work would be a number about the rendering
+convention.
+

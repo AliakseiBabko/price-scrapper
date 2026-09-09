@@ -1,0 +1,368 @@
+{
+ "what": "The frozen mm->px registration for tools/layout/raster_fidelity.py, fitted between the PDF's hatched wall solid faces and the raster's wall lines. The DXF under test is NOT consulted - that circularity is what CODEX rejected in the previous overlay.",
+ "pdf_sha256": "b95dae5afb1feed73db80ad6afbcf1c786b9d86a686309fc6689567224481949",
+ "mask_sha256": "6ebc7feaf6505767daa7288e3df2ca039f11d6e3538b4bd8e88a168aefa552a3",
+ "sx": 0.07853658536585366,
+ "ox": -188.74385365853658,
+ "sy": -0.07893123531214877,
+ "oy": 1320.1262388883213,
+ "mm_per_px": 12.70100768137062,
+ "fit": "30 PDF x-faces / 26 y-faces against 45 cols / 52 rows; inliers 19 / 21",
+ "solids": [
+  {
+   "solid_id": "S01",
+   "axis": "EW",
+   "face_lo_mm": 7490.4,
+   "face_hi_mm": 7610.6,
+   "from_mm": 5881.0,
+   "to_mm": 9380.9
+  },
+  {
+   "solid_id": "S02",
+   "axis": "EW",
+   "face_lo_mm": 7560.6,
+   "face_hi_mm": 7860.6,
+   "from_mm": 6131.0,
+   "to_mm": 9131.0
+  },
+  {
+   "solid_id": "S03",
+   "axis": "EW",
+   "face_lo_mm": 8160.6,
+   "face_hi_mm": 8280.6,
+   "from_mm": 9380.9,
+   "to_mm": 12946.0
+  },
+  {
+   "solid_id": "S04",
+   "axis": "EW",
+   "face_lo_mm": 8230.6,
+   "face_hi_mm": 8530.6,
+   "from_mm": 9380.9,
+   "to_mm": 12946.0
+  },
+  {
+   "solid_id": "S05",
+   "axis": "EW",
+   "face_lo_mm": 8980.6,
+   "face_hi_mm": 9100.6,
+   "from_mm": 4351.0,
+   "to_mm": 5731.0
+  },
+  {
+   "solid_id": "S06",
+   "axis": "EW",
+   "face_lo_mm": 9050.6,
+   "face_hi_mm": 9350.3,
+   "from_mm": 2830.9,
+   "to_mm": 5881.0
+  },
+  {
+   "solid_id": "S07",
+   "axis": "EW",
+   "face_lo_mm": 12750.3,
+   "face_hi_mm": 12870.3,
+   "from_mm": 2991.7,
+   "to_mm": 5146.0
+  },
+  {
+   "solid_id": "S08",
+   "axis": "EW",
+   "face_lo_mm": 13575.3,
+   "face_hi_mm": 13650.3,
+   "from_mm": 7216.0,
+   "to_mm": 9131.0
+  },
+  {
+   "solid_id": "S09",
+   "axis": "EW",
+   "face_lo_mm": 14613.6,
+   "face_hi_mm": 14790.3,
+   "from_mm": 3426.9,
+   "to_mm": 3734.9
+  },
+  {
+   "solid_id": "S10",
+   "axis": "EW",
+   "face_lo_mm": 14670.3,
+   "face_hi_mm": 14790.3,
+   "from_mm": 2991.7,
+   "to_mm": 5026.0
+  },
+  {
+   "solid_id": "S11",
+   "axis": "EW",
+   "face_lo_mm": 15090.3,
+   "face_hi_mm": 15490.3,
+   "from_mm": 8980.8,
+   "to_mm": 9380.9
+  },
+  {
+   "solid_id": "S12",
+   "axis": "EW",
+   "face_lo_mm": 15865.4,
+   "face_hi_mm": 16261.6,
+   "from_mm": 10688.5,
+   "to_mm": 11388.5
+  },
+  {
+   "solid_id": "S13",
+   "axis": "EW",
+   "face_lo_mm": 15965.4,
+   "face_hi_mm": 16261.6,
+   "from_mm": 10638.5,
+   "to_mm": 11438.5
+  },
+  {
+   "solid_id": "S14",
+   "axis": "EW",
+   "face_lo_mm": 15990.2,
+   "face_hi_mm": 16240.1,
+   "from_mm": 3230.9,
+   "to_mm": 12946.0,
+   "bridged_openings_mm": [
+    [
+     5146.0,
+     6155.9
+    ]
+   ]
+  },
+  {
+   "solid_id": "S15",
+   "axis": "NS",
+   "face_lo_mm": 2830.9,
+   "face_hi_mm": 3130.9,
+   "from_mm": 7063.5,
+   "to_mm": 7490.4
+  },
+  {
+   "solid_id": "S16",
+   "axis": "NS",
+   "face_lo_mm": 2930.9,
+   "face_hi_mm": 3130.9,
+   "from_mm": 7034.9,
+   "to_mm": 8980.6,
+   "bridged_openings_mm": [
+    [
+     7490.4,
+     7640.6
+    ]
+   ]
+  },
+  {
+   "solid_id": "S17",
+   "axis": "NS",
+   "face_lo_mm": 2980.8,
+   "face_hi_mm": 3130.9,
+   "from_mm": 7020.6,
+   "to_mm": 7490.6
+  },
+  {
+   "solid_id": "S18",
+   "axis": "NS",
+   "face_lo_mm": 2980.8,
+   "face_hi_mm": 3230.9,
+   "from_mm": 9360.6,
+   "to_mm": 15990.3
+  },
+  {
+   "solid_id": "S19",
+   "axis": "NS",
+   "face_lo_mm": 2980.8,
+   "face_hi_mm": 3378.0,
+   "from_mm": 15590.3,
+   "to_mm": 15990.3
+  },
+  {
+   "solid_id": "S20",
+   "axis": "NS",
+   "face_lo_mm": 4370.9,
+   "face_hi_mm": 4518.0,
+   "from_mm": 15590.3,
+   "to_mm": 15990.3
+  },
+  {
+   "solid_id": "S21",
+   "axis": "NS",
+   "face_lo_mm": 5026.0,
+   "face_hi_mm": 5146.0,
+   "from_mm": 12870.3,
+   "to_mm": 15990.3,
+   "bridged_openings_mm": [
+    [
+     13360.3,
+     14070.3
+    ],
+    [
+     14790.3,
+     15500.3
+    ]
+   ]
+  },
+  {
+   "solid_id": "S22",
+   "axis": "NS",
+   "face_lo_mm": 5731.0,
+   "face_hi_mm": 6131.0,
+   "from_mm": 7490.6,
+   "to_mm": 8980.6
+  },
+  {
+   "solid_id": "S23",
+   "axis": "NS",
+   "face_lo_mm": 5881.0,
+   "face_hi_mm": 6131.0,
+   "from_mm": 7610.6,
+   "to_mm": 9350.6
+  },
+  {
+   "solid_id": "S24",
+   "axis": "NS",
+   "face_lo_mm": 5981.0,
+   "face_hi_mm": 6281.0,
+   "from_mm": 6163.5,
+   "to_mm": 7490.6
+  },
+  {
+   "solid_id": "S25",
+   "axis": "NS",
+   "face_lo_mm": 6056.0,
+   "face_hi_mm": 6131.0,
+   "from_mm": 9350.6,
+   "to_mm": 12600.3
+  },
+  {
+   "solid_id": "S26",
+   "axis": "NS",
+   "face_lo_mm": 6056.0,
+   "face_hi_mm": 6305.9,
+   "from_mm": 12600.3,
+   "to_mm": 13650.3
+  },
+  {
+   "solid_id": "S27",
+   "axis": "NS",
+   "face_lo_mm": 6131.0,
+   "face_hi_mm": 6281.0,
+   "from_mm": 6120.6,
+   "to_mm": 7490.6
+  },
+  {
+   "solid_id": "S28",
+   "axis": "NS",
+   "face_lo_mm": 6155.9,
+   "face_hi_mm": 6256.0,
+   "from_mm": 15894.3,
+   "to_mm": 16261.6
+  },
+  {
+   "solid_id": "S29",
+   "axis": "NS",
+   "face_lo_mm": 6181.0,
+   "face_hi_mm": 6281.0,
+   "from_mm": 6120.6,
+   "to_mm": 7490.6
+  },
+  {
+   "solid_id": "S30",
+   "axis": "NS",
+   "face_lo_mm": 6256.0,
+   "face_hi_mm": 6506.0,
+   "from_mm": 16240.3,
+   "to_mm": 16261.6
+  },
+  {
+   "solid_id": "S31",
+   "axis": "NS",
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9530.9,
+   "from_mm": 7560.6,
+   "to_mm": 8160.6
+  },
+  {
+   "solid_id": "S32",
+   "axis": "NS",
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9,
+   "from_mm": 7610.6,
+   "to_mm": 9350.6
+  },
+  {
+   "solid_id": "S33",
+   "axis": "NS",
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9206.0,
+   "from_mm": 8530.6,
+   "to_mm": 12600.3
+  },
+  {
+   "solid_id": "S34",
+   "axis": "NS",
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9,
+   "from_mm": 12600.3,
+   "to_mm": 13929.1
+  },
+  {
+   "solid_id": "S35",
+   "axis": "NS",
+   "face_lo_mm": 12151.0,
+   "face_hi_mm": 12322.3,
+   "from_mm": 14705.6,
+   "to_mm": 15285.6
+  },
+  {
+   "solid_id": "S36",
+   "axis": "NS",
+   "face_lo_mm": 12695.9,
+   "face_hi_mm": 12946.0,
+   "from_mm": 8530.6,
+   "to_mm": 16261.6
+  },
+  {
+   "solid_id": "S37",
+   "axis": "NS",
+   "face_lo_mm": 12695.9,
+   "face_hi_mm": 12993.5,
+   "from_mm": 8530.6,
+   "to_mm": 16261.6
+  }
+ ],
+ "solid_unexplained_baseline": {
+  "S01": 0.1527,
+  "S02": 0.0,
+  "S03": 0.3019,
+  "S04": 0.0,
+  "S05": 0.2099,
+  "S06": 0.0,
+  "S07": 0.0,
+  "S08": 0.0,
+  "S09": 0.0,
+  "S10": 0.0,
+  "S11": 1.0,
+  "S12": 0.0716,
+  "S13": 0.0,
+  "S14": 0.0,
+  "S15": 0.0,
+  "S16": 0.0,
+  "S17": 0.0,
+  "S18": 0.0,
+  "S19": 0.2064,
+  "S20": 0.7417,
+  "S21": 0.0,
+  "S22": 0.3307,
+  "S23": 0.0,
+  "S24": 0.3147,
+  "S25": 0.0,
+  "S26": 0.0,
+  "S27": 0.4916,
+  "S29": 0.7176,
+  "S31": 0.2539,
+  "S32": 0.0559,
+  "S33": 0.0,
+  "S34": 0.112,
+  "S35": 1.0,
+  "S36": 0.0,
+  "S37": 0.0
+ }
+}

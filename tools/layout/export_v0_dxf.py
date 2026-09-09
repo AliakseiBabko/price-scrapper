@@ -56,6 +56,10 @@ LAYERS = {
     "V0-WALL-LABEL": 8,
     "V0-OPENING": 4,
     "V0-LOGGIA-GLAZING": 4,
+    # the frame spanning the FULL run. The bays stop 43.5 mm short at one end
+    # and 91.8 mm at the other, which is the assembly's end reveals - real
+    # frame, and drawing only the glass left the enclosure visibly open there.
+    "V0-LOGGIA-FRAME": 5,
     "V0-SLAB-EXTENSION": 2,
 }
 # !! V0-SUGGESTED-FURN is GONE. Owner, 2026-09-09: the dashed lines in the G3 /
@@ -183,6 +187,50 @@ def yield_quarantined(walls):
 SNAP_MM = 25.0     # below this a perpendicular gap is extraction noise
 
 
+LOGGIA_ENCLOSURE = ('M2', 'M6b')
+
+
+def close_loggia_loop(walls, gl):
+    """Bring the лоджия's enclosure walls down onto the glazing axis.
+
+    !! CODEX round 3, finding 5, and it is right that this is *"locally
+    modellable work, not an owner blocker"*: M6b existing did not make the
+    лоджия a closed loop. The glazing runs at the drawing's true splay while M2
+    and M6b are axis-aligned boxes, and both stopped short of the glazing line -
+    M2 by 58 mm, M6b by 291 mm. So the enclosure had a hole at each end and the
+    review PNG showed the glazing floating.
+
+    The axis is the DRAWING's, from `loggia_glazing.axis_from/axis_to`, not a
+    line fitted to anything here. For each enclosure wall the target is the
+    axis's y at the LOWER of its two faces, so the wall's whole thickness meets
+    the line rather than just its centreline.
+    """
+    out = []
+    if not gl:
+        return out
+    ax, ay = gl["axis_from"]
+    bx, by = gl["axis_to"]
+    if abs(bx - ax) < 1e-6:
+        return out
+
+    def y_on_axis(x):
+        return ay + (by - ay) * (x - ax) / (bx - ax)
+
+    by_id = {w["wall_id"]: w for w in walls}
+    for wid in LOGGIA_ENCLOSURE:
+        w = by_id.get(wid)
+        if not w or w.get("from_mm") is None or w["axis"] != "NS":
+            continue
+        target = min(y_on_axis(w["face_lo_mm"]), y_on_axis(w["face_hi_mm"]))
+        if w["from_mm"] <= target + 1.0:
+            continue                      # already reaches the glazing
+        gain = w["from_mm"] - target
+        w["from_mm"] = round(target, 1)
+        w["laid_length_mm"] = round(w["to_mm"] - w["from_mm"], 1)
+        out.append((wid, gain, w["laid_length_mm"]))
+    return out
+
+
 def snap_near_misses(walls):
     """Close a SUB-TOLERANCE perpendicular gap by extending the lesser wall.
 
@@ -265,12 +313,16 @@ def main():
     msp = doc.modelspace()
 
     fixes = close_corners(walls)
+    loop = close_loggia_loop(walls, elements.get("loggia_glazing"))
     yields = yield_quarantined(walls)
     snaps = snap_near_misses(walls)
     # The invariant, reported every run: once the owned corners are added, a
     # wall's DRAWN extent must equal its recorded solid_mm. Laying at clear and
     # then closing corners is the only way that holds; laying at solid and
     # closing counted them twice, which is how R8 came out 2390 against 2090.
+    for wid, gain, now in loop:
+        print("   %-5s extended %.1f mm onto the glazing axis (now %.1f mm "
+              "drawn) - the лоджия loop" % (wid, gain, now))
     for wid, ref, gap, ax in snaps:
         print("   %-5s snapped %.1f mm in %s onto %-5s (below the %.0f mm "
               "extraction-noise floor)" % (wid, gap, ax, ref, SNAP_MM))
@@ -356,6 +408,7 @@ def main():
                    (ax + ux * p0 + nx * d, ay + uy * p0 + ny * d)]
             msp.add_lwpolyline(pts, close=True, dxfattribs={"layer": layer})
 
+        band(0.0, gl["run_mm"], "V0-LOGGIA-FRAME")
         for i, bay in enumerate(gl["bays"], 1):
             band(bay["from_mm"], bay["to_mm"], "V0-LOGGIA-GLAZING")
         for m in gl["mullions"]:
