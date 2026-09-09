@@ -33,6 +33,10 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from lib.tabular import (check_file, check_unique, finite,  # noqa: E402
+                         RESTKEY)
+
 ROOT = Path(__file__).resolve().parents[2]
 BOM = ROOT / "data" / "procurement" / "bom.csv"
 QUOTES = ROOT / "data" / "procurement" / "quotes.csv"
@@ -50,10 +54,49 @@ def ensure_utf8_stdout() -> None:
 
 
 def read(path: Path) -> list[dict]:
+    """Rows, refusing a file whose shape or characters are wrong.
+
+    !! This used to be a bare DictReader, which drops a stray cell and turns a
+    missing one into None - both silently. Seeded 2026-09-09: an extra cell in
+    bom.csv was accepted without comment.
+    """
     if not path.exists():
         sys.exit(f"FAIL missing {path.relative_to(ROOT)}")
     with path.open(encoding="utf-8", newline="") as handle:
-        return list(csv.DictReader(handle))
+        rows = list(csv.DictReader(handle, restkey=RESTKEY))
+    problems = check_file(path, rows)
+    if problems:
+        print("FAIL %s" % path.relative_to(ROOT))
+        for p in problems:
+            print("  %s" % p)
+        sys.exit(1)
+    return rows
+
+
+def check_numeric(path: Path, rows: list[dict], columns: tuple[str, ...]) -> list[str]:
+    """Every non-empty value in `columns` must parse to a finite number or a range.
+
+    !! THE MONEY BUG, found by seeding on 2026-09-09. `parse_range` used
+    `float(value)` inside a try/except ValueError - and float("nan") SUCCEEDS.
+    A single nan qty in bom.csv propagated all the way to the bottom line, which
+    printed "Extended total of what is currently priceable: nan-nan BYN" and
+    exited 0. No warning, no crash, a total that is not a number.
+
+    That breaks this tool's own first rule - never a fabricated precision - in
+    the worst available way, so it now FAILS CLOSED and names the row.
+    """
+    problems = []
+    for i, r in enumerate(rows, start=2):
+        for col in columns:
+            raw = (r.get(col) or "").strip()
+            if not raw:
+                continue
+            got = parse_range(raw)
+            if got is None or finite(got[0]) is None or finite(got[1]) is None:
+                problems.append(
+                    "%s line %d: %s = %r is not a finite number or range"
+                    % (path.name, i, col, raw))
+    return problems
 
 
 def parse_range(value: str) -> tuple[float, float] | None:
@@ -67,12 +110,15 @@ def parse_range(value: str) -> tuple[float, float] | None:
         return None
     match = re.fullmatch(r"(\d+(?:[.,]\d+)?)\s*[-–]\s*(\d+(?:[.,]\d+)?)", value)
     if match:
-        lo = float(match.group(1).replace(",", "."))
-        hi = float(match.group(2).replace(",", "."))
+        lo = finite(match.group(1).replace(",", "."))
+        hi = finite(match.group(2).replace(",", "."))
+        if lo is None or hi is None:
+            return None
         return (min(lo, hi), max(lo, hi))
-    try:
-        single = float(value.replace(",", "."))
-    except ValueError:
+    # !! finite(), not float(): float("nan") and float("inf") both parse, and a
+    # nan then survives every comparison it meets. See check_numeric().
+    single = finite(value.replace(",", "."))
+    if single is None:
         return None
     return (single, single)
 
@@ -105,9 +151,21 @@ def main() -> int:
     as_of = dt.date.fromisoformat(args.as_of)
 
     all_rows = read(args.bom)
+    quotes = read(args.quotes)
+
+    # Fail closed before any arithmetic. A total is worthless if an input was
+    # never a number, and worse than worthless if it prints as "nan-nan BYN".
+    gate = (check_numeric(args.bom, all_rows, ("qty", "rate_expected"))
+            + check_numeric(args.quotes, quotes, ("rate_material", "rate_labour"))
+            + check_unique(args.bom, all_rows, ("key",)))
+    if gate:
+        print("FAIL - the inputs are not fit to total:")
+        for problem in gate:
+            print("  %s" % problem)
+        return 1
+
     bom = [r for r in all_rows if r["trade"] != "IFC"]
     interfaces = [r for r in all_rows if r["trade"] == "IFC"]
-    quotes = read(args.quotes)
 
     live: dict[str, list[dict]] = defaultdict(list)
     stale: list[dict] = []

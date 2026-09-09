@@ -9,6 +9,40 @@
 > unrelated validators would have retroactively changed the criterion's scope.
 > So this is a new piece of work, not an unfinished one.
 
+## ✅ Slice 1 done — 2026-09-09
+
+**Seeded `cost_rollup.py` and `check_room_rollout.py`. Four real false passes
+found, all fixed, 13 regression cases added** in
+`scripts/tabular_gate_selftest.py`.
+
+| seed | before |
+| :--- | :--- |
+| `qty = nan` in `bom.csv` | **exit 0**, and the bottom line printed **`nan–nan BYN`** |
+| an extra CSV cell in `bom.csv` | exit 0 |
+| `kind` misspelled `openning` | **exit 0**, and the opening became finishable wall area |
+| a duplicate `seq` / an extra cell in `room_rollouts.csv` | exit 0 |
+
+⚠️ **The money one is the finding.** `parse_range()` wrapped `float()` in
+`try/except ValueError`, and `float("nan")` does not raise — so a single bad cell
+propagated to a total that was not a number, silently, exit 0. That breaks the
+tool's own first rule (*never a fabricated precision*) in the worst way
+available. It now fails closed and names the row.
+
+**And one prediction of mine was WRONG, which is the most useful thing here.** I
+expected `check_room_rollout.py` to swallow a nan length. It rejected it — because
+its test is `ok = abs(d) <= tol`, and nan makes that False. The assembly
+validator's area test was `if abs(got − want) > tol: complain`, and nan made
+*that* False too, which **passed**. → **Whether a nan is caught or swallowed
+depends on which way the comparison is written.** That is far too subtle to leave
+at each call site, which is why `tools/lib/tabular.py` now exists and why
+`finite()` belongs there rather than in each tool.
+
+**Remaining:** `dimension_tolerance.json` (untested), plus the ~19 other
+`csv.DictReader` call sites that still drop stray cells. `tools/lib/tabular.py`
+is wired into two tools so far.
+
+---
+
 ## Why this exists
 
 Five adversarial rounds against **one** validator found **5 → 3 → 3** real
