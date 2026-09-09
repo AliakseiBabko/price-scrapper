@@ -128,6 +128,113 @@ def close_corners(walls):
     return fixes
 
 
+def yield_quarantined(walls):
+    """A wall placed by directive gives way to the accepted geometry it abuts.
+
+    !! M6b is placed from R8's *pre-extension* start, but `close_corners` then
+    grows R8 onto MB's face - so R8's DRAWN body ran 50 mm into M6b and the gate
+    reported an unsanctioned overlap. Reordering will not help in general: the
+    directive is written against a declared face, and corner closure legitimately
+    moves drawn extents afterwards.
+
+    The rule is an ordering of authority, not a nudge. Quarantined geometry
+    (`provisional_*` status, excluded from quantities) never displaces accepted
+    geometry: it is trimmed back to abut, keeping its declared face alignment and
+    losing length. The trim is reported, because a quarantined wall that has lost
+    length is a fact about the unresolved thickness question, not a detail.
+    """
+    out = []
+    q = [w for w in walls if w.get("placement_directive")
+         and "quarantin" in (w.get("status") or "")]
+    if not q:
+        return out
+    for w in q:
+        ref = None
+        for o in walls:
+            if o is w or o.get("from_mm") is None or o.get("placement_directive"):
+                continue
+            if o["axis"] != w["axis"]:
+                continue
+            # collinear: the cross-axis bands must overlap
+            if min(o["face_hi_mm"], w["face_hi_mm"]) <= max(o["face_lo_mm"],
+                                                            w["face_lo_mm"]):
+                continue
+            ov = min(o["to_mm"], w["to_mm"]) - max(o["from_mm"], w["from_mm"])
+            if ov <= 0:
+                continue
+            if ref is None or ov > ref[1]:
+                ref = (o, ov)
+        if ref is None:
+            continue
+        o, ov = ref
+        was = w["to_mm"] - w["from_mm"]
+        # trim at the end that meets the accepted wall
+        if abs(w["to_mm"] - o["from_mm"]) < abs(w["from_mm"] - o["to_mm"]):
+            w["to_mm"] = round(o["from_mm"], 1)
+        else:
+            w["from_mm"] = round(o["to_mm"], 1)
+        w["laid_length_mm"] = round(w["to_mm"] - w["from_mm"], 1)
+        w["yielded_mm"] = round(was - w["laid_length_mm"], 1)
+        out.append((w["wall_id"], o["wall_id"], w["yielded_mm"],
+                    w["laid_length_mm"]))
+    return out
+
+
+SNAP_MM = 25.0     # below this a perpendicular gap is extraction noise
+
+
+def snap_near_misses(walls):
+    """Close a SUB-TOLERANCE perpendicular gap by extending the lesser wall.
+
+    !! MA's top face lands at 9350.3 and R6 starts at 9360.6 - a 10.3 mm butt
+    joint the owner would read as one of the cavities he has asked three times to
+    be rid of. Nothing caught it, because the near-miss check was documented in
+    the closure gate and never implemented.
+
+    10 mm is not a model question. `Geometry_Variance_Study.md` puts the BUILD
+    tolerance at +30/-45 mm against three surveyed flats, so a gap an order of
+    magnitude below that is noise in the vector extraction, not a design
+    decision, and snapping it is a statement about the drawing rather than about
+    the flat. A gap ABOVE `SNAP_MM` is left alone deliberately: the closure gate
+    fails on it and the owner decides, which is what happened with J_G4a_G4b.
+
+    The wall that yields is the lesser one under the ledger's own ownership rule
+    - thinner first, then shorter - so the thicker/longer wall's recorded extent
+    is never disturbed.
+    """
+    out = []
+    for i, a in enumerate(walls):
+        for b in walls[i + 1:]:
+            if a.get("from_mm") is None or b.get("from_mm") is None:
+                continue
+            if a["axis"] == b["axis"]:
+                continue
+            ax0, ay0, ax1, ay1 = wall_box(a)
+            bx0, by0, bx1, by1 = wall_box(b)
+            ix = min(ax1, bx1) - max(ax0, bx0)
+            iy = min(ay1, by1) - max(ay0, by0)
+            if ix > 1.0 and -SNAP_MM <= iy < 0.0:
+                gap, axis_gap = -iy, "y"
+            elif iy > 1.0 and -SNAP_MM <= ix < 0.0:
+                gap, axis_gap = -ix, "x"
+            else:
+                continue
+            # the lesser wall yields: thinner, then shorter
+            ka = (a["face_hi_mm"] - a["face_lo_mm"], a["to_mm"] - a["from_mm"])
+            kb = (b["face_hi_mm"] - b["face_lo_mm"], b["to_mm"] - b["from_mm"])
+            mover, fixed = (a, b) if ka < kb else (b, a)
+            fb = wall_box(fixed)
+            lo, hi = ((fb[1], fb[3]) if mover["axis"] == "NS"
+                      else (fb[0], fb[2]))
+            if abs(mover["from_mm"] - hi) < abs(mover["to_mm"] - lo):
+                mover["from_mm"] = round(hi, 1)
+            else:
+                mover["to_mm"] = round(lo, 1)
+            mover["laid_length_mm"] = round(mover["to_mm"] - mover["from_mm"], 1)
+            out.append((mover["wall_id"], fixed["wall_id"], gap, axis_gap))
+    return out
+
+
 def wall_box(w):
     """(x0, y0, x1, y1) of a placed wall."""
     if w["axis"] == "EW":
@@ -158,10 +265,18 @@ def main():
     msp = doc.modelspace()
 
     fixes = close_corners(walls)
+    yields = yield_quarantined(walls)
+    snaps = snap_near_misses(walls)
     # The invariant, reported every run: once the owned corners are added, a
     # wall's DRAWN extent must equal its recorded solid_mm. Laying at clear and
     # then closing corners is the only way that holds; laying at solid and
     # closing counted them twice, which is how R8 came out 2390 against 2090.
+    for wid, ref, gap, ax in snaps:
+        print("   %-5s snapped %.1f mm in %s onto %-5s (below the %.0f mm "
+              "extraction-noise floor)" % (wid, gap, ax, ref, SNAP_MM))
+    for wid, ref, lost, now in yields:
+        print("   %-5s yielded %.0f mm to %-5s (quarantined; now %.0f mm drawn)"
+              % (wid, lost, ref, now))
     blocks = {r["wall_id"]: r for r in
               csv.DictReader(io.open(os.path.join("data", "canonical",
                                                   "wall_blocks.csv"),

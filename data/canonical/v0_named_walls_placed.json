@@ -1005,8 +1005,8 @@
    "thickness_mm": 200.0,
    "axis": "NS",
    "clear_mm": "1850",
-   "solid_mm": "1850",
-   "owns_corners_mm": null,
+   "solid_mm": "2150",
+   "owns_corners_mm": "300",
    "length_source": "printed on the plan",
    "pred_cross_mm": 2924.800000000002,
    "pred_from_mm": 6806.286956521739,
@@ -1050,8 +1050,8 @@
    "thickness_mm": 300.0,
    "axis": "EW",
    "clear_mm": "3315",
-   "solid_mm": "3315",
-   "owns_corners_mm": null,
+   "solid_mm": "3565",
+   "owns_corners_mm": "250",
    "length_source": "printed on the plan",
    "pred_cross_mm": 8253.752526439483,
    "pred_from_mm": 9254.816347124117,
@@ -1080,11 +1080,15 @@
    "pred_to_mm": 7387.311868390128,
    "match_cross_mm": null,
    "match_overlap_mm": null,
-   "solid_id": null,
-   "face_lo_mm": null,
-   "face_hi_mm": null,
-   "from_mm": null,
-   "to_mm": null
+   "face_lo_mm": 5931.0,
+   "face_hi_mm": 6131.0,
+   "from_mm": 6440.6,
+   "to_mm": 7610.6,
+   "laid_length_mm": 1170.0,
+   "length_from": "recorded clear_mm, placed by directive P_M6b",
+   "status": "provisional_quarantined",
+   "placement_directive": "P_M6b",
+   "solid_id": null
   }
  ]
 }

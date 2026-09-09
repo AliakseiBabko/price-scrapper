@@ -132,12 +132,89 @@ def _(doc):
     msp.delete_entity(e)
 
 
-@case('the whole model shifted 500 mm, so every junction opens')
+@case('SIX walls shifted 500 mm, so the junctions between them and the rest open')
 def _(doc):
     msp = doc.modelspace()
     for e in wall_entities(msp)[:6]:
         p = [(q[0] + 500, q[1]) for q in e.get_points()]
         e.set_points([(q[0], q[1]) for q in p], format='xy')
+
+
+# --- the classes CODEX seeded, every one of which PASSED ------------------
+# !! Round 2 of V0_DXF_RASTER_FIDELITY: CODEX did what the previous artefact
+# asked ("do not take the six on trust - seed your own") and three of its seeds
+# went straight through. Each of the three exposed a different structural gap in
+# the gate, not a threshold that needed nudging:
+#
+#   * the whole model shifted     - every assertion in the gate was RELATIVE, and
+#                                   my own shift seed above moved only the first
+#                                   six walls, which BREAKS junctions. A complete
+#                                   translation breaks nothing relative. Fixed by
+#                                   anchoring cross-axis faces to the placement.
+#   * a duplicated wall           - walls_from_dxf returned a dict keyed by label,
+#                                   so the copy overwrote the original and the
+#                                   count never changed. Fixed by returning a list.
+#   * a wall over-extended 1000mm - it ran into open room, opening no cavity and
+#                                   overlapping nothing. Length was never asserted,
+#                                   only printed. Fixed by the extent check.
+#
+# They are kept here verbatim in intent, and the two extra classes CODEX
+# recommended but did not seed are below them.
+
+
+@case("CODEX: the WHOLE model shifted 500 mm, so nothing relative changes")
+def _(doc):
+    msp = doc.modelspace()
+    for e in msp:
+        if e.dxftype() == 'LWPOLYLINE':
+            e.set_points([(q[0] + 500, q[1]) for q in e.get_points()],
+                         format='xy')
+        elif e.dxftype() == 'TEXT':
+            e.dxf.insert = (e.dxf.insert.x + 500, e.dxf.insert.y, 0)
+
+
+@case('CODEX: G6 duplicated - a second polyline on the same footprint')
+def _(doc):
+    msp = doc.modelspace()
+    e = named(msp, 'G6')
+    msp.add_lwpolyline([(q[0], q[1]) for q in e.get_points()], format='xy',
+                       dxfattribs={'layer': e.dxf.layer, 'closed': True})
+
+
+@case('CODEX: MC over-extended 1000 mm into open room')
+def _(doc):
+    grow(named(doc.modelspace(), 'MC'), 1000)
+
+
+@case('CODEX recommended: G6 correctly placed but 100 mm too thick')
+def _(doc):
+    e = named(doc.modelspace(), 'G6')
+    p = [(q[0], q[1]) for q in e.get_points()]
+    x0, x1 = min(q[0] for q in p), max(q[0] for q in p)
+    y0, y1 = min(q[1] for q in p), max(q[1] for q in p)
+    if (x1 - x0) > (y1 - y0):
+        y1 += 100                      # thicken across its own axis
+    else:
+        x1 += 100
+    e.set_points([(x0, y0), (x1, y0), (x1, y1), (x0, y1)], format='xy')
+
+
+@case('R7 slid 500 mm ALONG its own axis - the residual hole in a face anchor')
+def _(doc):
+    e = named(doc.modelspace(), 'R7')
+    p = [(q[0], q[1]) for q in e.get_points()]
+    x0, x1 = min(q[0] for q in p), max(q[0] for q in p)
+    y0, y1 = min(q[1] for q in p), max(q[1] for q in p)
+    if (x1 - x0) > (y1 - y0):
+        x0, x1 = x0 + 500, x1 + 500    # faces unchanged; the run moves
+    else:
+        y0, y1 = y0 + 500, y1 + 500
+    e.set_points([(x0, y0), (x1, y0), (x1, y1), (x0, y1)], format='xy')
+
+
+@case('a pinned extent exception silently widened: G4a shortened another 200 mm')
+def _(doc):
+    shrink(named(doc.modelspace(), 'G4a'), 200)
 
 
 def run(path):

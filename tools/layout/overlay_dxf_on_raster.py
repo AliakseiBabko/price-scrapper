@@ -30,6 +30,8 @@ import ezdxf
 from PIL import Image, ImageDraw
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+UNUSABLE = 2      # registration failed; the numbers would be meaningless
 DXF = os.path.join(REPO, 'data', 'cad', 'dxf', 'v0_developer_layout.dxf')
 RASTER = os.path.join(REPO, '_Inbox', '_Visual_Drop', 'fllor_plan_detailed.jpeg')
 OUT = os.path.join(REPO, '_Drawings', 'review', 'v0_dxf_over_raster.png')
@@ -112,7 +114,7 @@ def ink_bbox(im, thresh=INK, margin_frac=0.02):
                 xs.append(x)
                 ys.append(y)
     if not xs:
-        sys.exit('no ink found in the raster')
+        sys.exit(UNUSABLE)   # 2: could not register at all
     # trim the outer few per cent, which is frame/scan noise
     xs.sort()
     ys.sort()
@@ -155,7 +157,7 @@ def main():
     im = Image.open(args.raster).convert('RGB')
     walls, msp = load_walls(args.dxf)
     if not walls:
-        sys.exit('no walls in the DXF')
+        sys.exit(UNUSABLE)   # 2: could not register at all
 
     rows, cols = line_positions(im)
     xfaces = [v for w in walls for v in (w['x0'], w['x1'])]
@@ -163,7 +165,8 @@ def main():
     fx = fit_axis(xfaces, cols, +1)
     fy = fit_axis(yfaces, rows, -1)
     if not fx or not fy:
-        sys.exit('could not register: %s / %s' % (bool(fx), bool(fy)))
+        print('could not register: %s / %s' % (bool(fx), bool(fy)))
+        sys.exit(UNUSABLE)   # 2: could not register at all
     print('raster %s  %dx%d px' % (os.path.basename(args.raster), *im.size))
     print('wall lines found: %d rows, %d cols' % (len(rows), len(cols)))
     print('x: %d/%d faces land on a drawn line   %.5f px/mm (%.2f mm/px)'
@@ -254,6 +257,17 @@ def main():
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     canvas.save(args.out)
     print('\nwrote %s %s' % (os.path.relpath(args.out, REPO), canvas.size))
+
+    # !! This returned 0 UNCONDITIONALLY while printing five breaches of
+    # its own 60 mm threshold, and I reported the exit-code change as
+    # landed when it had not - CODEX re-ran it and found otherwise. A tool
+    # may be advisory about WHAT it measures; it may not be silent about
+    # whether it passed. 1 = measured breach, 2 = could not register.
+    if misfit:
+        print('exit 1: %d wall(s) breach the 60 mm advisory threshold '
+              '(advisory only - the binding gate is check_dxf_closure.py)'
+              % len(misfit))
+        return 1
     return 0
 
 
