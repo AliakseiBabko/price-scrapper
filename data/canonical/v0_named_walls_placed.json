@@ -266,7 +266,7 @@
      3089.7,
      250.1
     ],
-    "residual_mm": 0.0
+    "residual_mm": 250.1
    }
   },
   {
@@ -602,10 +602,10 @@
    "class": "concrete",
    "thickness_mm": 250.0,
    "axis": "EW",
-   "clear_mm": null,
-   "solid_mm": null,
+   "clear_mm": "2740",
+   "solid_mm": "2740",
    "owns_corners_mm": null,
-   "length_source": "INDETERMINATE SPLIT - the pair total is in notes",
+   "length_source": "drawn block joint on the vector plan, owner-approved 2026-09-09",
    "pred_cross_mm": 16235.2,
    "pred_from_mm": 6760.277194752776,
    "pred_to_mm": 9461.872956609486,
@@ -615,7 +615,7 @@
    "to_mm": 9606.2,
    "laid_length_mm": 2739.7,
    "length_from": "drawn block joints",
-   "vs_recorded_mm": null,
+   "vs_recorded_mm": -0.3,
    "face_lo_mm": 15990.2,
    "face_hi_mm": 16240.1,
    "solid_id": "S14"
@@ -783,20 +783,20 @@
    "class": "aerated_block",
    "thickness_mm": 250.0,
    "axis": "EW",
-   "clear_mm": null,
-   "solid_mm": null,
+   "clear_mm": "3090",
+   "solid_mm": "3090",
    "owns_corners_mm": null,
-   "length_source": "INDETERMINATE SPLIT - the pair total is in notes",
+   "length_source": "drawn block joint on the vector plan, owner-approved 2026-09-09",
    "pred_cross_mm": 16245.393419506463,
    "pred_from_mm": 9481.59263370333,
    "pred_to_mm": 12569.989861755803,
    "match_cross_mm": 5.3,
    "match_overlap_mm": 3088.4,
    "from_mm": 9606.2,
-   "to_mm": 12946.0,
-   "laid_length_mm": 3339.8,
+   "to_mm": 12695.9,
+   "laid_length_mm": 3089.7,
    "length_from": "drawn block joints",
-   "vs_recorded_mm": null,
+   "vs_recorded_mm": -0.3,
    "face_lo_mm": 15990.2,
    "face_hi_mm": 16240.1,
    "solid_id": "S14"
