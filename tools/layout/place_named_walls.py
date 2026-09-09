@@ -68,6 +68,9 @@ MERGE_OVER_OPENING_MM = 1500.0
 
 PAIR_TOTALS = {("R3", "G3"): 5830.0}
 
+PLACEMENT_DIRECTIVES = os.path.join("data", "canonical",
+                                    "wall_placement_directives.csv")
+
 CLASS_COLOUR = {
     "concrete": (215, 40, 40),
     "aerated_block": (40, 170, 60),
@@ -372,6 +375,61 @@ def lay_on_joints(members, solid, joints):
             "residual_mm": round(solid["to_mm"] - (laid[-1]["to_mm"] if laid else solid["from_mm"]), 1)}
 
 
+def apply_placement_directives(walls, unmatched):
+    """Place an unmatched wall the owner has described in relation to another.
+
+    !! Only for a wall no hatched solid can carry, and only as QUARANTINED
+    geometry under the accepted design's two-state rule. M6b is the case: the
+    owner calls it "the smaller wall which is extension of R8" and had seen it
+    missing for three rounds, because no 200 mm solid exists where the model puts
+    it - the drawing shows 300, 150 and 100 there instead. Leaving it absent kept
+    the лоджия open; inventing a thickness would be worse. So the wall is PLACED
+    from its recorded clear length, flush with the named wall's declared face,
+    and marked provisional so it stays out of every quantity.
+    """
+    if not os.path.exists(PLACEMENT_DIRECTIVES):
+        return [], []
+    by_id = {w["wall_id"]: w for w in walls}
+    placed, problems = [], []
+    for r in csv.DictReader(io.open(PLACEMENT_DIRECTIVES, encoding="utf-8")):
+        wid = (r.get("wall_id") or "").strip()
+        rel = (r.get("relation") or "").strip()
+        ref = (r.get("relative_to") or "").strip()
+        w, base = by_id.get(wid), by_id.get(ref)
+        if not w:
+            problems.append("%s: no such wall" % wid)
+            continue
+        if w.get("solid") is not None:
+            problems.append("%s already matched a solid; remove the directive" % wid)
+            continue
+        if rel != "extends" or not base or base.get("from_mm") is None:
+            problems.append("%s: relation %r against %r cannot be applied"
+                            % (wid, rel, ref))
+            continue
+        face = float(r["align_face_mm"])
+        t = w["thickness_mm"]
+        clear = float(w["clear_mm"] or 0)
+        if not clear:
+            problems.append("%s has no clear_mm to place" % wid)
+            continue
+        bs = base.get("solid") or {}
+        b_lo = bs.get("face_lo_mm", face)
+        b_hi = bs.get("face_hi_mm", face)
+        # flush with the named face, sitting on the side the base wall occupies
+        lo = face - t if abs(b_lo - face) > abs(b_hi - face) else face
+        w["face_lo_mm"], w["face_hi_mm"] = round(lo, 1), round(lo + t, 1)
+        # continue the base wall away from its own body
+        w["from_mm"] = round(base["from_mm"] - clear, 1)
+        w["to_mm"] = round(base["from_mm"], 1)
+        w["laid_length_mm"] = round(clear, 1)
+        w["length_from"] = "recorded clear_mm, placed by directive %s" % r["directive_id"]
+        w["status"] = (r.get("status") or "provisional_quarantined").strip()
+        w["placement_directive"] = r["directive_id"]
+        placed.append((wid, ref, w["face_lo_mm"], w["face_hi_mm"],
+                       w["from_mm"], w["to_mm"], w["status"]))
+    return placed, problems
+
+
 def wall_box(w):
     if w["axis"] == "EW":
         return (w["from_mm"], w["face_lo_mm"], w["to_mm"], w["face_hi_mm"])
@@ -587,8 +645,18 @@ def main():
                   % (w["wall_id"], w["class"], w["thickness_mm"], w["pred_cross_mm"]))
 
     # --- drive overlaps to zero -------------------------------------
+    directed, dir_problems = apply_placement_directives(walls, unmatched)
+    if directed:
+        print("\nplaced by owner directive (QUARANTINED, excluded from quantities):")
+        for wid, ref, flo, fhi, a, b, st in directed:
+            print("   %-5s extends %-4s  faces %.1f/%.1f  %.1f..%.1f  [%s]"
+                  % (wid, ref, flo, fhi, a, b, st))
+    for p in dir_problems:
+        print("   !! %s" % p)
+
     ledger = load_corner_ledger()
-    positioned = [w for w in walls if w["solid"] is not None]
+    positioned = [w for w in walls if w["solid"] is not None
+                  or w.get("placement_directive")]
     for w in positioned:
         w["face_lo_mm"] = w["solid"]["face_lo_mm"]
         w["face_hi_mm"] = w["solid"]["face_hi_mm"]
