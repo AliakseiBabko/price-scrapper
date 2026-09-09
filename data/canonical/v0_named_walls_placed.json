@@ -26,6 +26,111 @@
    16261.6
   ]
  },
+ "overlap_resolution": {
+  "before": 8,
+  "after": 0,
+  "fixes": [
+   {
+    "kept": "R9",
+    "trimmed": "G7",
+    "was_mm": [
+     75.0,
+     870.0
+    ],
+    "area_m2": 0.0653,
+    "why": "nested same-axis solid (extraction artefact)",
+    "trimmed_to_mm": [
+     9400.6,
+     11780.6
+    ]
+   },
+   {
+    "kept": "R2",
+    "trimmed": "G3",
+    "was_mm": [
+     250.0,
+     249.9
+    ],
+    "area_m2": 0.0625,
+    "why": "corner owner from wall_corners.csv",
+    "trimmed_to_mm": [
+     10030.9,
+     12695.9
+    ]
+   },
+   {
+    "kept": "MA",
+    "trimmed": "M2",
+    "was_mm": [
+     200.0,
+     289.8
+    ],
+    "area_m2": 0.058,
+    "why": "corner owner by thicker-then-longer",
+    "trimmed_to_mm": [
+     7490.4,
+     9050.6
+    ]
+   },
+   {
+    "kept": "G4a",
+    "trimmed": "G4d",
+    "was_mm": [
+     239.2,
+     120.0
+    ],
+    "area_m2": 0.0287,
+    "why": "corner owner by thicker-then-longer",
+    "trimmed_to_mm": [
+     3230.9,
+     5816.7
+    ]
+   },
+   {
+    "kept": "R1b",
+    "trimmed": "G4b",
+    "was_mm": [
+     239.2,
+     109.7
+    ],
+    "area_m2": 0.0262,
+    "why": "corner owner by thicker-then-longer",
+    "trimmed_to_mm": [
+     3230.9,
+     4906.7
+    ]
+   },
+   {
+    "kept": "G2",
+    "trimmed": "G4C",
+    "was_mm": [
+     120.0,
+     120.1
+    ],
+    "area_m2": 0.0144,
+    "why": "corner owner by thicker-then-longer",
+    "trimmed_to_mm": [
+     12870.3,
+     15990.2
+    ]
+   },
+   {
+    "kept": "R8",
+    "trimmed": "G8",
+    "was_mm": [
+     75.0,
+     50.0
+    ],
+    "area_m2": 0.0037,
+    "why": "nested same-axis solid (extraction artefact)",
+    "trimmed_to_mm": [
+     9400.6,
+     12600.6
+    ]
+   }
+  ],
+  "rule": "A corner is a solid, owned exactly once. wall_corners.csv decides where it has an entry, otherwise thicker-then-longer. A same-axis overlap is an extraction artefact -- a thin face pair nested inside a thick one -- and the thinner wall is trimmed to where the thicker ends."
+ },
  "solids": [
   {
    "solid_id": "S02",
@@ -363,9 +468,9 @@
    "to_mm": 4896.9,
    "laid_length_mm": 1666.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S14",
    "face_lo_mm": 15990.2,
-   "face_hi_mm": 16240.1
+   "face_hi_mm": 16240.1,
+   "solid_id": "S14"
   },
   {
    "wall_id": "R1b",
@@ -385,9 +490,9 @@
    "to_mm": 15880.6,
    "laid_length_mm": 1200.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S18",
    "face_lo_mm": 2980.8,
-   "face_hi_mm": 3230.9
+   "face_hi_mm": 3230.9,
+   "solid_id": "S18"
   },
   {
    "wall_id": "R2",
@@ -407,9 +512,9 @@
    "to_mm": 16240.6,
    "laid_length_mm": 1925.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S36",
    "face_lo_mm": 12695.9,
-   "face_hi_mm": 12946.0
+   "face_hi_mm": 12946.0,
+   "solid_id": "S36"
   },
   {
    "wall_id": "R3",
@@ -429,9 +534,9 @@
    "to_mm": 10030.9,
    "laid_length_mm": 2915.0,
    "length_from": "pair total 5830, split evenly (undimensioned)",
-   "solid_id": "S14",
    "face_lo_mm": 15990.2,
-   "face_hi_mm": 16240.1
+   "face_hi_mm": 16240.1,
+   "solid_id": "S14"
   },
   {
    "wall_id": "R4",
@@ -451,9 +556,9 @@
    "to_mm": 13650.3,
    "laid_length_mm": 1050.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S26",
    "face_lo_mm": 6056.0,
-   "face_hi_mm": 6305.9
+   "face_hi_mm": 6305.9,
+   "solid_id": "S26"
   },
   {
    "wall_id": "R5",
@@ -473,9 +578,9 @@
    "to_mm": 13650.3,
    "laid_length_mm": 1050.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S34",
    "face_lo_mm": 9131.0,
-   "face_hi_mm": 9380.9
+   "face_hi_mm": 9380.9,
+   "solid_id": "S34"
   },
   {
    "wall_id": "R6",
@@ -495,9 +600,9 @@
    "to_mm": 11110.6,
    "laid_length_mm": 1750.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S18",
    "face_lo_mm": 2980.8,
-   "face_hi_mm": 3230.9
+   "face_hi_mm": 3230.9,
+   "solid_id": "S18"
   },
   {
    "wall_id": "R7",
@@ -517,9 +622,9 @@
    "to_mm": 10280.6,
    "laid_length_mm": 1750.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S36",
    "face_lo_mm": 12695.9,
-   "face_hi_mm": 12946.0
+   "face_hi_mm": 12946.0,
+   "solid_id": "S36"
   },
   {
    "wall_id": "R8",
@@ -539,9 +644,9 @@
    "to_mm": 9400.6,
    "laid_length_mm": 1790.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S23",
    "face_lo_mm": 5881.0,
-   "face_hi_mm": 6131.0
+   "face_hi_mm": 6131.0,
+   "solid_id": "S23"
   },
   {
    "wall_id": "R9",
@@ -561,9 +666,9 @@
    "to_mm": 9400.6,
    "laid_length_mm": 1790.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S32",
    "face_lo_mm": 9131.0,
-   "face_hi_mm": 9380.9
+   "face_hi_mm": 9380.9,
+   "solid_id": "S32"
   },
   {
    "wall_id": "G2",
@@ -583,9 +688,9 @@
    "to_mm": 7115.9,
    "laid_length_mm": 2219.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S14",
    "face_lo_mm": 15990.2,
-   "face_hi_mm": 16240.1
+   "face_hi_mm": 16240.1,
+   "solid_id": "S14"
   },
   {
    "wall_id": "G3",
@@ -602,12 +707,13 @@
    "match_cross_mm": 5.3,
    "match_overlap_mm": 3088.4,
    "from_mm": 10030.9,
-   "to_mm": 12945.9,
-   "laid_length_mm": 2915.0,
+   "to_mm": 12695.9,
+   "laid_length_mm": 2665.0,
    "length_from": "pair total 5830, split evenly (undimensioned)",
-   "solid_id": "S14",
    "face_lo_mm": 15990.2,
-   "face_hi_mm": 16240.1
+   "face_hi_mm": 16240.1,
+   "trimmed": true,
+   "solid_id": "S14"
   },
   {
    "wall_id": "G4a",
@@ -627,9 +733,9 @@
    "to_mm": 14680.6,
    "laid_length_mm": 3570.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S18",
    "face_lo_mm": 2980.8,
-   "face_hi_mm": 3230.9
+   "face_hi_mm": 3230.9,
+   "solid_id": "S18"
   },
   {
    "wall_id": "G4b",
@@ -645,13 +751,14 @@
    "pred_to_mm": 4946.066902119073,
    "match_cross_mm": 2.6,
    "match_overlap_mm": 1846.1,
-   "from_mm": 2991.7,
+   "from_mm": 3230.9,
    "to_mm": 4906.7,
-   "laid_length_mm": 1915.0,
+   "laid_length_mm": 1675.8,
    "length_from": "recorded solid_mm",
-   "solid_id": "S10",
    "face_lo_mm": 14670.3,
-   "face_hi_mm": 14790.3
+   "face_hi_mm": 14790.3,
+   "trimmed": true,
+   "solid_id": "S10"
   },
   {
    "wall_id": "G4C",
@@ -668,12 +775,13 @@
    "match_cross_mm": 20.8,
    "match_overlap_mm": 3120.0,
    "from_mm": 12870.3,
-   "to_mm": 16110.3,
-   "laid_length_mm": 3240.0,
+   "to_mm": 15990.2,
+   "laid_length_mm": 3119.9,
    "length_from": "recorded solid_mm",
-   "solid_id": "S21",
    "face_lo_mm": 5026.0,
-   "face_hi_mm": 5146.0
+   "face_hi_mm": 5146.0,
+   "trimmed": true,
+   "solid_id": "S21"
   },
   {
    "wall_id": "G4d",
@@ -689,13 +797,14 @@
    "pred_to_mm": 5934.328379515642,
    "match_cross_mm": 19.1,
    "match_overlap_mm": 2033.9,
-   "from_mm": 2991.7,
+   "from_mm": 3230.9,
    "to_mm": 5816.7,
-   "laid_length_mm": 2825.0,
+   "laid_length_mm": 2585.8,
    "length_from": "recorded solid_mm",
-   "solid_id": "S07",
    "face_lo_mm": 12750.3,
-   "face_hi_mm": 12870.3
+   "face_hi_mm": 12870.3,
+   "trimmed": true,
+   "solid_id": "S07"
   },
   {
    "wall_id": "G5",
@@ -715,9 +824,9 @@
    "to_mm": 14315.6,
    "laid_length_mm": 4035.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S36",
    "face_lo_mm": 12695.9,
-   "face_hi_mm": 12946.0
+   "face_hi_mm": 12946.0,
+   "solid_id": "S36"
   },
   {
    "wall_id": "G6",
@@ -737,9 +846,9 @@
    "to_mm": 9131.0,
    "laid_length_mm": 1915.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S08",
    "face_lo_mm": 13575.3,
-   "face_hi_mm": 13650.3
+   "face_hi_mm": 13650.3,
+   "solid_id": "S08"
   },
   {
    "wall_id": "G7",
@@ -755,13 +864,14 @@
    "pred_to_mm": 12636.922914218565,
    "match_cross_mm": 93.1,
    "match_overlap_mm": 3357.8,
-   "from_mm": 8530.6,
+   "from_mm": 9400.6,
    "to_mm": 11780.6,
-   "laid_length_mm": 3250.0,
+   "laid_length_mm": 2380.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S33",
    "face_lo_mm": 9131.0,
-   "face_hi_mm": 9206.0
+   "face_hi_mm": 9206.0,
+   "trimmed": true,
+   "solid_id": "S33"
   },
   {
    "wall_id": "G8",
@@ -777,13 +887,14 @@
    "pred_to_mm": 12706.961899647473,
    "match_cross_mm": 94.4,
    "match_overlap_mm": 3249.7,
-   "from_mm": 9350.6,
+   "from_mm": 9400.6,
    "to_mm": 12600.6,
-   "laid_length_mm": 3250.0,
+   "laid_length_mm": 3200.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S25",
    "face_lo_mm": 6056.0,
-   "face_hi_mm": 6131.0
+   "face_hi_mm": 6131.0,
+   "trimmed": true,
+   "solid_id": "S25"
   },
   {
    "wall_id": "MA",
@@ -803,9 +914,9 @@
    "to_mm": 5655.9,
    "laid_length_mm": 2825.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S06",
    "face_lo_mm": 9050.6,
-   "face_hi_mm": 9350.3
+   "face_hi_mm": 9350.3,
+   "solid_id": "S06"
   },
   {
    "wall_id": "M2",
@@ -822,12 +933,13 @@
    "match_cross_mm": 6.1,
    "match_overlap_mm": 1395.3,
    "from_mm": 7490.4,
-   "to_mm": 9340.4,
-   "laid_length_mm": 1850.0,
+   "to_mm": 9050.6,
+   "laid_length_mm": 1560.2,
    "length_from": "recorded solid_mm",
-   "solid_id": "S16",
    "face_lo_mm": 2930.9,
-   "face_hi_mm": 3130.9
+   "face_hi_mm": 3130.9,
+   "trimmed": true,
+   "solid_id": "S16"
   },
   {
    "wall_id": "MB",
@@ -847,9 +959,9 @@
    "to_mm": 9131.0,
    "laid_length_mm": 3000.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S02",
    "face_lo_mm": 7560.6,
-   "face_hi_mm": 7860.6
+   "face_hi_mm": 7860.6,
+   "solid_id": "S02"
   },
   {
    "wall_id": "MC",
@@ -869,9 +981,9 @@
    "to_mm": 12695.9,
    "laid_length_mm": 3315.0,
    "length_from": "recorded solid_mm",
-   "solid_id": "S04",
    "face_lo_mm": 8230.6,
-   "face_hi_mm": 8530.6
+   "face_hi_mm": 8530.6,
+   "solid_id": "S04"
   },
   {
    "wall_id": "M6b",
