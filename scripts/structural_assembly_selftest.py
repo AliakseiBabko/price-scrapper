@@ -231,6 +231,96 @@ def _(d):
     write(p2, f2, rs2)
 
 
+# --- added after CODEX round 4 found each of these PASSING ------------------
+# Two more general lessons. CONSISTENCY IS NOT VALIDITY: a wrong id used the same
+# way everywhere satisfies every referential check and is still wrong. And a
+# RECOMPUTED NUMBER ONLY VOUCHES FOR A SHAPE THE CODE KNOWS IS SIMPLE: shoelace
+# integrates a self-intersecting polygon happily, and the crossed lobes cancel.
+
+
+@case('a BOM inside an assembly id, used consistently in all three files')
+def _(d):
+    for fn, key in (('structural_assemblies.csv', 'assembly_id'),
+                    ('structural_assembly_vertices.csv', 'assembly_id')):
+        p = os.path.join(d, fn)
+        f, rs = rows(p)
+        for r in rs:
+            r[key] = chr(0xFEFF) + r[key]
+        write(p, f, rs)
+    p = os.path.join(d, 'wall_blocks.csv')
+    f, rs = rows(p)
+    for r in rs:
+        if r['structural_element_id'] == 'A_NW_CORNER':
+            r['structural_element_id'] = chr(0xFEFF) + r['structural_element_id']
+    write(p, f, rs)
+
+
+@case('a no-break space inside an assembly id, used consistently')
+def _(d):
+    for fn in ('structural_assemblies.csv', 'structural_assembly_vertices.csv'):
+        p = os.path.join(d, fn)
+        f, rs = rows(p)
+        for r in rs:
+            r['assembly_id'] = r['assembly_id'].replace('_', chr(0x00A0))
+        write(p, f, rs)
+    p = os.path.join(d, 'wall_blocks.csv')
+    f, rs = rows(p)
+    for r in rs:
+        if r['structural_element_id'] == 'A_NW_CORNER':
+            r['structural_element_id'] = 'A_NW_CORNER'.replace('_', chr(0x00A0))
+    write(p, f, rs)
+
+
+@case('a UTF-8 BOM at the start of the vertices file')
+def _(d):
+    p = os.path.join(d, 'structural_assembly_vertices.csv')
+    body = io.open(p, encoding='utf-8').read()
+    with io.open(p, 'w', encoding='utf-8-sig', newline='') as fh:
+        fh.write(body)
+
+
+@case('a self-intersecting orthogonal footprint whose shoelace area matches')
+def _(d):
+    pts = [(0, 0), (6000, 0), (6000, 3000), (0, 3000),
+           (0, -3000), (3000, -3000), (3000, 6000), (0, 6000)]
+    p = os.path.join(d, 'structural_assembly_vertices.csv')
+    f, rs = rows(p)
+    base = dict(rs[0])
+    out = []
+    for i, (x, y) in enumerate(pts):
+        r = dict(base)
+        r['vertex_index'] = str(i)
+        r['x_mm'] = '%.1f' % x
+        r['y_mm'] = '%.1f' % y
+        out.append(r)
+    write(p, f, out)
+    a = os.path.join(d, 'structural_assemblies.csv')
+    fa, ra = rows(a)
+    ra[0]['footprint_area_m2'] = '%.4f' % VA.shoelace_m2(
+        [(float(x), float(y)) for x, y in pts])
+    write(a, fa, ra)
+
+
+@case('an undeclared extra CSV cell that DictReader used to swallow')
+def _(d):
+    p = os.path.join(d, 'structural_assembly_vertices.csv')
+    NL = chr(10)
+    lines = io.open(p, encoding='utf-8').read().rstrip(NL).split(NL)
+    lines[1] = lines[1] + ',SURPRISE'
+    with io.open(p, 'w', encoding='utf-8', newline='') as fh:
+        fh.write(NL.join(lines) + NL)
+
+
+@case('a row with a missing trailing cell')
+def _(d):
+    p = os.path.join(d, 'structural_assembly_vertices.csv')
+    NL = chr(10)
+    lines = io.open(p, encoding='utf-8').read().rstrip(NL).split(NL)
+    lines[2] = lines[2].rsplit(',', 1)[0]
+    with io.open(p, 'w', encoding='utf-8', newline='') as fh:
+        fh.write(NL.join(lines) + NL)
+
+
 LEDGER = os.path.join(CANON, 'wall_corners.csv')
 
 CORNER_CASES = [
