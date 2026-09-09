@@ -1,0 +1,144 @@
+{
+ "id": "zk-dubravinskiy-v0-elements",
+ "status": "DRAFT - extracted, roles not assigned by the owner.",
+ "units": "mm, same sheet-relative frame as v0_named_walls_placed.json",
+ "loggia_glazing": {
+  "axis_from": [
+   3130.9,
+   6977.2
+  ],
+  "axis_to": [
+   5981.0,
+   6163.5
+  ],
+  "run_mm": 2963.9,
+  "bearing_deg": 164.05,
+  "assembly_depth_mm": 150.0,
+  "bays": [
+   {
+    "from_mm": 43.5,
+    "to_mm": 703.5,
+    "width_mm": 660.0
+   },
+   {
+    "from_mm": 753.5,
+    "to_mm": 1433.7,
+    "width_mm": 680.2
+   },
+   {
+    "from_mm": 1483.7,
+    "to_mm": 2162.9,
+    "width_mm": 679.2
+   },
+   {
+    "from_mm": 2212.9,
+    "to_mm": 2872.1,
+    "width_mm": 659.2
+   }
+  ],
+  "mullions": [
+   {
+    "from_mm": 703.5,
+    "to_mm": 753.5,
+    "width_mm": 50.0
+   },
+   {
+    "from_mm": 1433.7,
+    "to_mm": 1483.7,
+    "width_mm": 50.0
+   },
+   {
+    "from_mm": 2162.9,
+    "to_mm": 2212.9,
+    "width_mm": 50.0
+   }
+  ]
+ },
+ "slab_extension_candidates": [
+  {
+   "x_from_mm": 10235.9,
+   "x_to_mm": 12035.9,
+   "y_from_mm": 7910.6,
+   "y_to_mm": 8160.6,
+   "width_mm": 1800.0,
+   "depth_mm": 250.0
+  },
+  {
+   "x_from_mm": 10235.9,
+   "x_to_mm": 12035.9,
+   "y_from_mm": 7910.6,
+   "y_to_mm": 8230.6,
+   "width_mm": 1800.0,
+   "depth_mm": 320.0
+  },
+  {
+   "x_from_mm": 10235.9,
+   "x_to_mm": 12035.9,
+   "y_from_mm": 7910.6,
+   "y_to_mm": 8280.6,
+   "width_mm": 1800.0,
+   "depth_mm": 370.0
+  },
+  {
+   "x_from_mm": 10235.9,
+   "x_to_mm": 12035.9,
+   "y_from_mm": 8160.6,
+   "y_to_mm": 8280.6,
+   "width_mm": 1800.0,
+   "depth_mm": 120.0
+  }
+ ],
+ "dashed_suggested_furniture": [
+  {
+   "axis": "EW",
+   "line_mm": 7490.6,
+   "from_mm": 2788.7,
+   "to_mm": 8480.9,
+   "span_mm": 5692.2,
+   "dashes": 13,
+   "mean_gap_mm": 90.0,
+   "role": "SUGGESTED FURNITURE - not built fabric. Identity not assigned."
+  },
+  {
+   "axis": "EW",
+   "line_mm": 14350.3,
+   "from_mm": 10130.9,
+   "to_mm": 12993.5,
+   "span_mm": 2862.6,
+   "dashes": 15,
+   "mean_gap_mm": 90.0,
+   "role": "SUGGESTED FURNITURE - not built fabric. Identity not assigned."
+  },
+  {
+   "axis": "NS",
+   "line_mm": 10130.9,
+   "from_mm": 13150.3,
+   "to_mm": 15990.3,
+   "span_mm": 2840.0,
+   "dashes": 15,
+   "mean_gap_mm": 90.0,
+   "role": "SUGGESTED FURNITURE - not built fabric. Identity not assigned."
+  },
+  {
+   "axis": "EW",
+   "line_mm": 7860.6,
+   "from_mm": 6782.0,
+   "to_mm": 8480.9,
+   "span_mm": 1699.0,
+   "dashes": 9,
+   "mean_gap_mm": 90.0,
+   "role": "SUGGESTED FURNITURE - not built fabric. Identity not assigned."
+  },
+  {
+   "axis": "NS",
+   "line_mm": 9730.8,
+   "from_mm": 14650.3,
+   "to_mm": 16024.4,
+   "span_mm": 1374.1,
+   "dashes": 8,
+   "mean_gap_mm": 86.6,
+   "role": "SUGGESTED FURNITURE - not built fabric. Identity not assigned."
+  }
+ ],
+ "generated_by": "tools/layout/extract_v0_elements.py"
+}

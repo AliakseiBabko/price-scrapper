@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
-"""Extract v0's wall runs -- the developer's own partitions -- from the vector plan.
+"""Extract wall-like runs and candidate openings from the vector plan.
+
+!! SUPERSEDED 2026-09-08 AS A WALL INVENTORY. The flat's walls are already
+   modelled and named in data/canonical/wall_blocks.csv, with owner-confirmed
+   thicknesses and lengths; positioning them is tools/layout/place_named_walls.py.
+   Owner: "We already have all the wall segments... you're kind of doing double
+   job." What this tool still earns its place for is the HATCH reading and the
+   candidate OPENINGS that fall out of it, plus the face lines the placement
+   tool consumes.
 
 v0 is the baseline layout: the flat exactly as the developer builds it. Its room
 schedule and dimensions were always known; its PARTITION POSITIONS were not,
@@ -278,7 +286,13 @@ def main():
     if args.out:
         payload = {
             "id": "zk-dubravinskiy-v0-wall-runs-extracted",
-            "status": "DRAFT - EXTRACTED, NOT REVIEWED. Not canonical geometry.",
+            "status": ("SUPERSEDED for wall inventory - DRAFT evidence only. "
+                       "The flat's walls are the 25 NAMED walls in wall_blocks.csv, "
+                       "positioned by tools/layout/place_named_walls.py. Owner, "
+                       "2026-09-08: re-deriving a wall list from the drawing is "
+                       "duplicate work. This file is kept for what it alone carries - "
+                       "hatch angles and the unhatched stretches read as candidate "
+                       "OPENINGS - and must not be used as a wall inventory."),
             "what": ("v0 wall runs read from the developer's vector plan. Positions and "
                      "thicknesses are the drawing's own, to ~0.1 mm. Walls are NOT named, "
                      "corners are NOT resolved, and the run list is NOT complete - see "

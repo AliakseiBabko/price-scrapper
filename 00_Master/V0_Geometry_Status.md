@@ -1,142 +1,163 @@
 # v0 geometry — where it actually stands
 
 **v0 is the baseline layout: the flat exactly as the developer builds it.**
-Everything else is a variant measured against it. Its room schedule and its
-dimension chains were always known; **its partition POSITIONS were not**, because
-they existed only on a raster. That gap is why `project_decisions.md` calls v0
-*"the blocking task"*, and why `Layout_Option_Review.md` had to **withdraw** its
-comparison of v1 against v0 — the two were computed on different bases.
-
-**Started 2026-09-08, from the vector plan.** This page records what the first
-extraction pass produced and, more usefully, what it did not.
+Everything else is a variant measured against it. That gap is why
+`project_decisions.md` calls v0 *"the blocking task"*, and why
+`Layout_Option_Review.md` had to **withdraw** its comparison of v1 against v0.
 
 > [!CAUTION]
-> **⚠️ NOTHING HERE IS CANONICAL YET.** `data/canonical/v0_wall_runs_extracted.json`
-> carries `status: DRAFT — EXTRACTED, NOT REVIEWED`. **Walls are not named,
-> corners are not resolved, and the run list is incomplete.** Do not build a
-> variant, a quantity or a drawing on it.
+> **⚠️ NOTHING HERE IS CANONICAL YET.** Both datasets carry `status: DRAFT`.
+> Do not build a variant, a quantity or a drawing on them.
 
-## What the extraction does
+## ⚠️⚠️ THE CORRECTION THAT DEFINES THIS PAGE — 2026-09-08
 
-`tools/layout/extract_v0_walls.py`, run against
-`_Inbox/_Visual_Drop/3Б_3+ МН5_287.pdf`:
+**Owner:** *"We already have all the wall segments. We determine the thickness,
+the length. So you're kind of doing double job right now. Try to sort out the
+polygons in the vector image just to create overlay and include all of the wall
+segments we already marked and with their parameters."*
 
-1. Long axis-aligned lines → candidate **wall faces**, clustered and their spans
-   unioned, because a face is drawn in pieces.
-2. Faces paired at a plausible thickness. ⚠️ **Pairing alone over-generates
-   badly** — it will pair one wall's face with another's across a room. The
-   first pass produced 95 candidates for a flat with ~25 walls.
-3. **A drawn wall is a SOLID, and the drawing says so by hatching it.** A pair
-   survives only if hatch crosses its centre line. Together with the pairing
-   constraints that is what takes 95 candidates down to 41.
-4. **The unhatched stretches of a surviving wall are reported as candidate
-   OPENINGS** — the same evidence read the other way round.
+**He is right, and the first pass was the wrong job.** `wall_blocks.csv` already
+holds **25 named walls** with owner-confirmed classes, thicknesses and lengths;
+`wall_openings.csv` holds **10 openings** with widths, sills, heads and host
+walls. None of it needed re-deriving, and re-deriving it invited a second,
+conflicting inventory of the same flat.
 
-**Result: 41 runs, thicknesses landing on 75 / 100 / 120 / 150 / 175 / 200 / 250 /
-300 / 400** — the vault's own wall vocabulary, arrived at independently.
+**The one thing the model actually lacked was POSITION.** `wall_runs.csv` carries
+coordinates in **basic-plan pixels** — which is precisely why
+`project_decisions.md` says the wall ids are *"regions on a raster, not named
+shell walls"*. → **So v0 is a REGISTRATION problem, not an extraction problem.**
 
-**Look at `_Drawings/review/v0_wall_extraction.png` before trusting any of it.**
-A run list reads as plausible long after it has stopped being; the overlay does
-not.
+## ✅ The named walls now have millimetre positions
 
-## ⚠️ The trap in step 3, and what it cost
+`tools/layout/place_named_walls.py` fits basic-plan pixels to the vector plan's
+millimetres and places the existing walls. **The recorded parameters pass through
+untouched; nothing about a wall is re-measured.**
 
-**The hatch test was first written to accept 45° and 135° strokes, and it
-silently deleted the entire SE façade** — the one external wall in the flat, the
-one carrying every window. The façade survived pairing and was thrown away by
-the filter.
+| | result |
+| :--- | :--- |
+| walls placed | **25 of 25** |
+| x fit | `mm = 9.8598 × basic_px + 2609.3`, 15/15 walls on a face line |
+| y fit | `mm = −10.1934 × basic_px + 16816.2`, 10/10 walls on a face line |
+| snap residual | under 20 mm for 21 walls; **worst G7 +93, MA +49** |
 
-**The cause: the façade is hatched at 50°, not 45°.** The external aerated block
-carries a different fill symbol from the internal partitions. Nothing failed
-loudly; the wall was simply absent from a list of 28 that otherwise looked
-complete. **It was caught by rendering the runs over the plan and noticing a
-grey strip with no red on it.**
+**Drawing: `_Drawings/review/v0_named_walls.png`**, coloured by class and
+labelled by id — grey concrete frame, green aerated block, blue external, orange
+лоджия enclosure.
+
+**Two independent checks that the fit is right**, neither of them used to make
+it: **G4d's drawn span comes out 2822 against its recorded 2825**, and **G2's
+2218 against 2219**. A wrong scale could not do that.
+
+> [!CAUTION]
+> **⚠️ A DEGENERATE FIT GOT THROUGH FIRST, AND IT SCORED PERFECTLY.** At a 60 mm
+> matching tolerance the x axis fitted at **5.56 mm/px — almost exactly half the
+> true 9.86 — with 15 of 15 walls "on a face line".** With 117 face lines over
+> ~30 m the mean spacing is ~250 mm, so at 60 mm a wall lands on *some* line by
+> chance about half the time, and **inlier count cannot tell a scale from a
+> submultiple of it.** It is the same aliasing that earlier put this drawing at
+> 1:150 instead of 1:75 — the second time in two days.
+>
+> **Fixed by making the two axes check each other:** they describe one drawing,
+> so their scales must agree. Tolerance is now 25 mm, and the x fit is
+> constrained to within 6% of the y fit's scale — generous next to the raster's
+> own ~1.7% aspect error, and far too tight for a submultiple. **The tool exits
+> loudly if they disagree.**
+
+## The elements that are not walls
+
+`tools/layout/extract_v0_elements.py` → `data/canonical/v0_elements_extracted.json`.
+
+### ✅ The лоджия glazing — four bays, from OUR OWN drawing
+
+**Owner, 2026-09-08: *"it could be still one block but in four segments"*. The
+drawing agrees, and now gives the numbers.**
+
+| | |
+| :--- | :--- |
+| run along the glazing | **2963.9 mm** |
+| bearing | 164.05° — the splay that makes the лоджия non-rectangular |
+| assembly depth | **150 mm** |
+| **bays** | **660.0 · 680.2 · 679.2 · 659.2** |
+| **mullions** | **50 · 50 · 50** |
 
 > [!IMPORTANT]
-> **The lesson is the repo's own: a filter that removes evidence has to be
-> LOOKED at, not merely tuned.** Nothing in the run list said a wall was gone —
-> only the overlay did. The same filter then cost a second wall for a different
-> reason; see the threshold section below.
+> **This upgrades `O9` in `wall_openings.csv` from pattern to measurement.** That
+> entry got its four-bay reading from **9711.jpg, a photo of flat 109**, and said
+> so honestly: *"the PATTERN transfers and the bay count and widths do not"*.
+> **Now the bay count and widths come from this type's own drawing.**
+>
+> **And the width triangulates three ways.** O9 *derived* 2939 from the splay
+> geometry; **apartment 53's plan prints 2.93 m**; this drawing measures
+> **2963.9**. Three independent routes inside 34 mm, ~1%. ⚠️ **The 2939 stays as
+> the model's figure** — it is the one built from this flat's own chain — but it
+> is now corroborated rather than merely self-consistent.
 
-⚠️ **The 50° hatch is RECORDED, not interpreted.** It is tempting to read hatch
-angle as a material key — 50° for aerated block, 45/135 for the rest. **Do not.**
-This repo's standing position, from the owner, is that **the plan does not
-distinguish concrete from aerated block**, and that the wall model in
-`wall_materials.json` is owner-supplied evidence *precisely because* it is not
-derivable from the drawing. One hatch angle on one drawing is not enough to
-overturn that. It is a lead, and it is written down as one.
+### ✅ The slab extension at the 19,49 window — the owner's own reading
 
-## ✅ The façade, fixed — and the threshold that was hiding it
+**Owner, 2026-09-08:** an *"extension of a floor concrete slab for decorative
+purposes"*, marked on his screenshot at the bigger room's window.
 
-**All three SE façade stretches are now captured** — under 9,36, under 16,64 and
-under 19,49 — bringing the extraction to **41 runs**.
+**It is a closed rectangle, 1800 mm wide × 370 mm deep**, x 10235.9–12035.9,
+y 7910.6–8280.6. It projects **320 mm beyond MC's outer face** (8230.6) and laps
+50 mm into the wall. **It is 50 mm wider than the window opening on each side.**
 
-Two separate causes, and only the first was the one I first blamed:
+⚠️ **It is NOT a wall and must never be counted as one.** ⚠️ **And it appears at
+this window only** — MB's window carries a much shallower 70 mm line in the same
+position, not a 370 mm solid. Whether that asymmetry is real or a drafting
+difference is unresolved.
 
-1. **The 50° hatch**, above. That recovered the 19,49 stretch.
-2. **⚠️ `MIN_COVER` was 0.35, and the 9,36 stretch scored 0.34.** A 4200 mm
-   façade that is mostly window and балконный блок is mostly *not* hatched, so
-   the cover test scored the most important wall in the flat just below the line
-   and deleted it. **Losing a wall to a threshold by one part in a hundred is not
-   a tuning problem, it is a wrong instrument.**
+### ⚠️ The dashed lines — SUGGESTED FURNITURE, not fabric
 
-**So the threshold was calibrated instead of guessed.** Sweeping it from 0.10 to
-0.35 moves the run count only **41 → 36**. → **The cover test is NOT what
-separates walls from non-walls** — the thickness-and-overlap pairing is. What a
-*positive* threshold buys is dropping the `cover == 0.00` pairs, which are the
-true voids: two real walls with a room between them. It is set at **0.15**, and
-it now has a reason rather than a value.
+**Owner, 2026-09-08:** dashed lines by the main entrance and the middle room are
+**suggested wardrobe positioning**, and *"drifted to the right"*.
 
-## ⚠️ What is still MISSING — read this before using the output
+Five dashed runs are found. **Their identity is deliberately NOT assigned** —
+after reading `ПР` as *правая* when it meant *проём*, a role guessed off a
+drawing is not worth having:
 
-- **⚠️ Runs are not clipped to the flat.** The façade run under the 9,36 room
-  starts at x ≈ 1631 and the flat's left party wall is at x ≈ 2830 — **so it
-  extends about 1200 mm into the NEIGHBOUR'S flat**, because the drawing shows
-  the adjoining structure and the façade genuinely continues. Visible in the
-  overlay as blue crossing the left boundary. **Nothing may be quantified until
-  runs are clipped to the flat envelope**, and the envelope has not been
-  established.
-- **The лоджия's angled glazing is absent entirely.** The tool handles
-  axis-aligned faces only, and that wall is diagonal.
-- **Some runs are certainly composites.** The longest is 9,309 mm on one pair of
-  faces; the flat has no single wall of that length. It spans several walls that
-  happen to be collinear and equally thick, and splitting it needs the junctions.
-- **Thicknesses of 296 / 298 / 397 / 147 mm appear** alongside the clean ones.
-  These are pairs straddling a joint or an insulation line, not real walls, and
-  they have not been resolved.
-- **No wall is named.** Mapping these runs onto `R1a…R9`, `G1…G5`, `M1…M6` in
-  `wall_blocks.csv` is the step that turns an extraction into geometry, and it
-  carries judgement — it is where the owner's material model finally binds to
-  named walls, which `project_decisions.md` has wanted since 2026-09-04.
-- **No corner is resolved.** Ownership lives in `wall_corners.csv` and is
-  enforced by `tools/layout/build_wall_corners.py`. Untouched so far.
-- **`check_wall_junctions.py` has not been run against this.** It cannot be, yet:
-  it needs named walls.
+| axis | line | span | extent |
+| :--- | :--- | :--- | :--- |
+| EW | 7490.6 | 5692 | x 2788.7 – 8480.9 |
+| EW | 14350.3 | 2863 | x 10130.9 – 12993.5 |
+| NS | 10130.9 | 2840 | y 13150.3 – 15990.3 |
+| EW | 7860.6 | 1699 | x 6782.0 – 8480.9 |
+| NS | 9730.8 | 1374 | y 14650.3 – 16024.4 |
 
-## What it does not change
+**❓ For the owner: which of these are the two wardrobes, and is "drifted to the
+right" a defect in the developer's suggestion or the reason to ignore it?**
+
+> [!WARNING]
+> **⚠️ THE DRAWING CONTAINS NO PDF DASH OPERATOR AT ALL.** Every dashed line is
+> **exploded into short segments**, so dashed and solid are graphically
+> identical and a dashed line can only be found by its **gap rhythm** (here a
+> regular ~90 mm). **Anything that treats collinear short segments as one line
+> will silently promote suggested furniture into built fabric.** Dash-state
+> tracking was added to `parse_vector_plan.py` anyway — it is correct PDF
+> handling and reports zero on this file, which is itself the finding.
+
+## ⚠️ What is still missing
+
+- **Wall EXTENTS come from the pixel runs, not from the model.** A wall's
+  position is now exact across its thickness but its ends are still raster-
+  derived, and `clear_mm` / `solid_mm` remain the length of record. **G6 is the
+  loud case: recorded 1915, drawn span 3076.** Not reconciled.
+- **Runs are not clipped to the flat**, so the façade reaches into the
+  neighbour's flat where the drawing continues it.
+- **Window frame subdivision** inside MA / MB / MC is not extracted. The
+  geometry is there — the 19,49 window shows jamb frames and a central mullion
+  pair as short verticals across the reveal — but the tool does not read it, and
+  the owner wants it for the 3D.
+- **No corner is resolved**, and `check_wall_junctions.py` has not been run.
+- **`R3` and `G3` have no recorded length** — an INDETERMINATE SPLIT in
+  `wall_blocks.csv`. The vector may now be able to settle it; not attempted.
+
+## What none of this changes
 
 **⚠️ Precision is not accuracy.** These are the developer's **project**
-dimensions, read to ~0.1 mm because the drawing is exact about itself. The
-as-built runs **+1.0% to +1.9% SMALLER**, 12 comparisons of 12. **Size nothing
-tight from this.** See `dimension_tolerance.json`.
+dimensions. The as-built runs **+1.0% to +1.9% SMALLER**, 12 of 12. Size nothing
+tight from this.
 
-**Coordinates are sheet-relative, not flat-relative.** Differences between runs
-are meaningful; the absolute numbers are not a datum, and a flat-local origin
-still has to be chosen.
+**Coordinates are sheet-relative**, shared between the two datasets but not a
+flat-local datum.
 
-## The order of the remaining work
-
-1. **Establish the flat envelope and CLIP every run to it.** Until that is done
-   the extraction includes wall that belongs to the neighbour, and no length or
-   quantity taken from it means anything. This is now the biggest hole.
-2. **Add the лоджия's diagonal glazing**, the one wall the axis-aligned method
-   cannot see at all.
-3. **Split the composite runs** at their junctions.
-4. **Name the walls** against `wall_blocks.csv`, and bind `wall_materials.json`.
-5. **Build the corner ledger**, then run `check_wall_junctions.py` and
-   `build_wall_corners.py` until both pass.
-6. Only then promote out of `DRAFT`, and only then re-open the v0-against-v1
-   comparison that `Layout_Option_Review.md` withdrew.
-
-⚠️ **Validate by CHAIN CLOSURE, never against a printed area.** v0's computed
-areas will not sum to 69.09, and that is expected, not a bug.
+⚠️ **Validate by CHAIN CLOSURE, never against a printed area.**
