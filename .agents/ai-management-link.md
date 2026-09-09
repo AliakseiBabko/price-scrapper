@@ -76,6 +76,17 @@ Dialogue state: `ai-management/management/dialogue/PRICE_SCRAPPER_KNOWLEDGE_INTA
 Turn 1 (CLAUDE, plan draft) recorded 2026-08-20; turn 2 (CODEX) prepared at
 `ai-management/management/dialogue/PRICE_SCRAPPER_KNOWLEDGE_INTAKE_OPTIMIZATION_NEXT_TURN.md`.
 
+**Active dialogue, opened 2026-09-09**: `VECTOR_PLAN_TO_MODEL_EXTRACTION` — a
+request for a **Codex second opinion** on whether extracting the developer's
+vector PDF into the wall model is the right approach at all, after the owner
+challenged it as reinventing the wheel. Canonical brief:
+`ai-management/management/VECTOR_PLAN_TO_MODEL_EXTRACTION_IMPLEMENTATION_PLAN.md`.
+Turn 1 (CLAUDE) recorded 2026-09-09; **turn 2 (CODEX) is prepared and waiting**
+at `ai-management/management/dialogue/VECTOR_PLAN_TO_MODEL_EXTRACTION_NEXT_TURN.md`.
+No plan is proposed on purpose — the first question is whether the approach is
+right. Background in this repo: `00_Master/V0_Why_The_Vector_Plan_Earns_Its_Place.md`,
+`00_Master/V0_Block_Joints_From_The_Vector.md`, `00_Master/V0_Geometry_Status.md`.
+
 To check status or advance the dialogue from either repo:
 
 ```powershell
