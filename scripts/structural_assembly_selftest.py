@@ -171,6 +171,66 @@ def run_assembly_cases():
     return ok
 
 
+# --- added after CODEX round 3 found each of these PASSING ------------------
+# The lesson generalises: "the field is present" and "float() did not raise" are
+# both weaker than they look. A vocabulary field needs its vocabulary checked,
+# and nan parses fine while defeating every comparison it appears in.
+
+
+@case('field_verified with a value outside its vocabulary')
+def _(d):
+    p = os.path.join(d, 'structural_assembly_vertices.csv')
+    f, rs = rows(p)
+    rs[0]['field_verified'] = 'maybe'
+    write(p, f, rs)
+
+
+@case('a non-finite vertex coordinate (nan), which made the area nan and PASSED')
+def _(d):
+    p = os.path.join(d, 'structural_assembly_vertices.csv')
+    f, rs = rows(p)
+    rs[0]['x_mm'] = 'nan'
+    write(p, f, rs)
+
+
+@case('a non-finite recorded footprint area (nan)')
+def _(d):
+    p = os.path.join(d, 'structural_assemblies.csv')
+    f, rs = rows(p)
+    rs[0]['footprint_area_m2'] = 'nan'
+    write(p, f, rs)
+
+
+@case('an infinite vertex coordinate')
+def _(d):
+    p = os.path.join(d, 'structural_assembly_vertices.csv')
+    f, rs = rows(p)
+    rs[1]['y_mm'] = 'inf'
+    write(p, f, rs)
+
+
+@case('a duplicate assembly_id')
+def _(d):
+    p = os.path.join(d, 'structural_assemblies.csv')
+    f, rs = rows(p)
+    rs.append(dict(rs[0]))
+    write(p, f, rs)
+
+
+@case('a degenerate zero-area footprint whose recorded area agrees')
+def _(d):
+    p = os.path.join(d, 'structural_assemblies.csv')
+    f, rs = rows(p)
+    rs[0]['footprint_area_m2'] = '0'
+    write(p, f, rs)
+    p2 = os.path.join(d, 'structural_assembly_vertices.csv')
+    f2, rs2 = rows(p2)
+    for i, r in enumerate(rs2):
+        r['x_mm'] = '2980.9'
+        r['y_mm'] = '%.1f' % (14645.3 + i)      # distinct points, zero area
+    write(p2, f2, rs2)
+
+
 LEDGER = os.path.join(CANON, 'wall_corners.csv')
 
 CORNER_CASES = [
