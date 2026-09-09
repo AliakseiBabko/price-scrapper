@@ -247,6 +247,109 @@ def match(walls, solids, fx, fy):
     return walls
 
 
+def wall_box(w):
+    if w["axis"] == "EW":
+        return (w["from_mm"], w["face_lo_mm"], w["to_mm"], w["face_hi_mm"])
+    return (w["face_lo_mm"], w["from_mm"], w["face_hi_mm"], w["to_mm"])
+
+
+def overlaps(walls):
+    """Every pair of wall rectangles that intersect. This is a GATE, not a report.
+
+    Owner, 2026-09-09: *"If you see the walls overlapping, this is not a question
+    for me. This is question for your method of extracting the vector graphics."*
+    Quite right, so overlap is measured here and driven to zero rather than
+    printed for him to adjudicate.
+    """
+    out = []
+    for i, a in enumerate(walls):
+        ax0, ay0, ax1, ay1 = wall_box(a)
+        for b in walls[i + 1:]:
+            bx0, by0, bx1, by1 = wall_box(b)
+            ix = min(ax1, bx1) - max(ax0, bx0)
+            iy = min(ay1, by1) - max(ay0, by0)
+            if ix > 1.0 and iy > 1.0:
+                out.append({"a": a, "b": b, "ix": ix, "iy": iy,
+                            "same_axis": a["axis"] == b["axis"],
+                            "area_m2": round(ix * iy / 1e6, 4)})
+    return out
+
+
+def _rank(w):
+    """Which wall wins a contested corner: thicker, then longer. The repo's own
+    rule, from tools/layout/build_wall_corners.py."""
+    return (w["thickness_mm"], float(w["solid_mm"] or 0))
+
+
+def resolve_overlaps(walls, ledger):
+    """Trim until no two walls overlap. A corner is a solid: owned exactly once.
+
+    Two distinct faults are handled, and they are not the same thing:
+
+    SAME AXIS -- a thin face pair nested inside a thick one, e.g. G7's 75 mm
+      band (9131.0/9206.0) lying inside R9's 250 mm band (9131.0/9380.9), where
+      both pass the hatch test because the thin band is literally inside the
+      thick solid. This is an EXTRACTION artefact. The thinner wall is trimmed
+      back to where the thicker one ends.
+
+    CORNER -- two perpendicular walls meeting. Exactly one owns the corner
+      volume; the other stops on its face. wall_corners.csv decides where it
+      has an entry, otherwise thicker-then-longer.
+    """
+    fixes = []
+    for _ in range(12):
+        bad = overlaps(walls)
+        if not bad:
+            break
+        o = max(bad, key=lambda o: o["area_m2"])
+        a, b = o["a"], o["b"]
+        if o["same_axis"]:
+            keep, trim = (a, b) if _rank(a) >= _rank(b) else (b, a)
+            k0, t0 = keep["from_mm"], trim["from_mm"]
+            if trim["from_mm"] < keep["from_mm"]:
+                trim["to_mm"] = round(min(trim["to_mm"], keep["from_mm"]), 1)
+            else:
+                trim["from_mm"] = round(max(trim["from_mm"], keep["to_mm"]), 1)
+            why = "nested same-axis solid (extraction artefact)"
+        else:
+            key = tuple(sorted((a["wall_id"], b["wall_id"])))
+            owner_id = ledger.get(key)
+            if owner_id:
+                keep = a if a["wall_id"] == owner_id else b
+                trim = b if keep is a else a
+                why = "corner owner from wall_corners.csv"
+            else:
+                keep, trim = (a, b) if _rank(a) >= _rank(b) else (b, a)
+                why = "corner owner by thicker-then-longer"
+            # trim the loser along its own axis, back to the owner's near face
+            kb = wall_box(keep)
+            if trim["axis"] == "EW":
+                lo, hi = kb[0], kb[2]
+            else:
+                lo, hi = kb[1], kb[3]
+            if abs(trim["from_mm"] - hi) < abs(trim["to_mm"] - lo):
+                trim["from_mm"] = round(max(trim["from_mm"], hi), 1)
+            else:
+                trim["to_mm"] = round(min(trim["to_mm"], lo), 1)
+        trim["laid_length_mm"] = round(trim["to_mm"] - trim["from_mm"], 1)
+        trim["trimmed"] = True
+        fixes.append({"kept": keep["wall_id"], "trimmed": trim["wall_id"],
+                      "was_mm": [round(o["ix"], 1), round(o["iy"], 1)],
+                      "area_m2": o["area_m2"], "why": why,
+                      "trimmed_to_mm": [trim["from_mm"], trim["to_mm"]]})
+    return fixes
+
+
+def load_corner_ledger():
+    path = os.path.join("data", "canonical", "wall_corners.csv")
+    if not os.path.exists(path):
+        return {}
+    out = {}
+    for r in csv.DictReader(io.open(path, encoding="utf-8")):
+        out[tuple(sorted((r["wall_a"], r["wall_b"])))] = r["owner"]
+    return out
+
+
 def lay_on_solid(members, solid):
     """Lay the members' RECORDED lengths in order along the solid's own extent."""
     members.sort(key=lambda w: w["pred_from_mm"])
@@ -331,6 +434,26 @@ def main():
             print("   %-5s %-16s t=%3.0f  predicted cross %.1f"
                   % (w["wall_id"], w["class"], w["thickness_mm"], w["pred_cross_mm"]))
 
+    # --- drive overlaps to zero -------------------------------------
+    ledger = load_corner_ledger()
+    positioned = [w for w in walls if w["solid"] is not None]
+    for w in positioned:
+        w["face_lo_mm"] = w["solid"]["face_lo_mm"]
+        w["face_hi_mm"] = w["solid"]["face_hi_mm"]
+    before = overlaps(positioned)
+    fixes = resolve_overlaps(positioned, ledger)
+    after = overlaps(positioned)
+    print("\noverlaps: %d before (%.3f m2) -> %d after"
+          % (len(before), sum(o["area_m2"] for o in before), len(after)))
+    for f in fixes:
+        print("   kept %-5s trimmed %-5s  %5.0f x %-5.0f mm  %s"
+              % (f["kept"], f["trimmed"], f["was_mm"][0], f["was_mm"][1], f["why"]))
+    if after:
+        print("\n!! STILL OVERLAPPING -- an extraction fault, not a model question:")
+        for o in after:
+            print("   %-5s x %-5s  %.0f x %.0f mm"
+                  % (o["a"]["wall_id"], o["b"]["wall_id"], o["ix"], o["iy"]))
+
     placed = []
     for w in walls:
         rec = {k: v for k, v in w.items()
@@ -372,6 +495,14 @@ def main():
             },
             "flat_envelope_mm": {"x": [round(env["x"][0], 1), round(env["x"][1], 1)],
                                  "y": [round(env["y"][0], 1), round(env["y"][1], 1)]},
+            "overlap_resolution": {
+                "before": len(before), "after": len(after), "fixes": fixes,
+                "rule": ("A corner is a solid, owned exactly once. wall_corners.csv "
+                         "decides where it has an entry, otherwise thicker-then-longer. "
+                         "A same-axis overlap is an extraction artefact -- a thin face "
+                         "pair nested inside a thick one -- and the thinner wall is "
+                         "trimmed to where the thicker ends."),
+            },
             "solids": report,
             "unmatched": [w["wall_id"] for w in unmatched],
             "walls": placed,

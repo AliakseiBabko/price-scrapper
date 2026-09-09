@@ -8,6 +8,24 @@ Everything else is a variant measured against it. Its absence is why
 > [!CAUTION]
 > **⚠️ NOT CANONICAL YET.** Every dataset here carries `status: DRAFT`.
 
+> [!IMPORTANT]
+> **Is this exercise worth doing at all?** The owner asked that directly on
+> 2026-09-09 and the answer is audited on its own page:
+> [`V0_Why_The_Vector_Plan_Earns_Its_Place.md`](V0_Why_The_Vector_Plan_Earns_Its_Place.md).
+> **Short version: re-deriving the wall inventory was reinventing the wheel and
+> should never have been attempted.** What the drawing legitimately supplies is
+> coordinates, an independent check on the recorded lengths, three elements the
+> model never contained, and one genuine disagreement.
+
+**✅ Wall overlap is now ZERO** — 8 overlapping pairs (0.261 m²) driven to 0 by
+`place_named_walls.py`, as a gate rather than a report. Owner, 2026-09-09:
+*"If you see the walls overlapping, this is not a question for me. This is
+question for your method of extracting the vector graphics."* Correct, so
+overlap is measured and resolved in the tool: `wall_corners.csv` decides the
+owner where it has an entry, thicker-then-longer where it does not, and a
+same-axis overlap is treated as what it is — a thin face pair nested inside a
+thick one, an extraction artefact.
+
 ## The two deliverables
 
 Owner, 2026-09-08: *"I would spread the job into two parts. I would like to have
