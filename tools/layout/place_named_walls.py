@@ -441,10 +441,15 @@ def load_corner_ledger():
 def lay_on_solid(members, solid):
     """Lay the members' RECORDED lengths in order along the solid's own extent."""
     members.sort(key=lambda w: w["pred_from_mm"])
-    known = [w for w in members if w["solid_mm"]]
-    unknown = [w for w in members if not w["solid_mm"]]
+    # !! clear_mm, NOT solid_mm. The drawn extent of a wall is its CLEAR run;
+    # the corners it owns are added afterwards by the exporter's close_corners()
+    # so that drawn == solid_mm exactly. Laying at solid_mm here and then closing
+    # corners counted them TWICE - R8 came out 2390 against a true 2090, which
+    # the owner spotted as an over-extension on the drawing.
+    known = [w for w in members if w["clear_mm"]]
+    unknown = [w for w in members if not w["clear_mm"]]
     span = solid["length_mm"]
-    known_total = sum(float(w["solid_mm"]) for w in known)
+    known_total = sum(float(w["clear_mm"]) for w in known)
     pair_total = PAIR_TOTALS.get(tuple(w["wall_id"] for w in unknown))
     if unknown:
         share = (pair_total if pair_total is not None
@@ -453,10 +458,10 @@ def lay_on_solid(members, solid):
         share = 0.0
     pos = solid["from_mm"]
     for w in members:
-        L = float(w["solid_mm"]) if w["solid_mm"] else share
+        L = float(w["clear_mm"]) if w["clear_mm"] else share
         w["from_mm"], w["to_mm"] = round(pos, 1), round(pos + L, 1)
         w["laid_length_mm"] = round(L, 1)
-        w["length_from"] = ("recorded solid_mm" if w["solid_mm"]
+        w["length_from"] = ("recorded clear_mm" if w["clear_mm"]
                             else ("pair total %.0f, split evenly (undimensioned)" % pair_total
                                   if pair_total is not None else "solid remainder"))
         pos += L

@@ -288,11 +288,32 @@ def main():
         owned.add(other)
     print('  every other wall: solid_mm = clear_mm')
 
+    # !! The invariant this tool has always PRINTED as a heading but never
+    # checked: solid_mm must equal clear_mm plus the corners the wall owns.
+    # R8's solid_mm sat at 1790 while it owned two 300 mm corners on a 1490 clear
+    # run, i.e. 2090 - the 1790 looks copied from R9, which owns one. Nothing
+    # caught it, because the tool reported the gains without comparing them to
+    # the file. Found only when the exporter drew R8 over-long and the owner
+    # noticed on the drawing.
+    if os.path.exists(BLOCKS):
+        with io.open(BLOCKS, encoding='utf-8') as f:
+            for r in csv.DictReader(f):
+                clear, solid = r.get('clear_mm'), r.get('solid_mm')
+                if not clear or not solid:
+                    continue
+                owns = sum(float(g) for g, _ in gains.get(r['wall_id'], []))
+                want = float(clear) + owns
+                if abs(want - float(solid)) > 1.0:
+                    problems.append(
+                        '%s: solid_mm is %s, but clear_mm %s + owned corners %g '
+                        '= %g' % (r['wall_id'], solid, clear, owns, want))
+
     if problems:
         for p in problems:
             print('  FAIL %s' % p)
         return 1
-    print('\nPASS - every L-corner is owned exactly once; no void, no double count')
+    print('\nPASS - every L-corner is owned exactly once; no void, no double '
+          'count; and solid_mm = clear_mm + owned corners for every wall')
     return 0
 
 
