@@ -1,127 +1,485 @@
 {
  "id": "zk-dubravinskiy-v0-named-walls-placed",
  "status": "DRAFT - positions fitted, not owner-reviewed.",
- "what": "The 25 NAMED walls of wall_blocks.csv, given millimetre positions from the vector plan. Classes, thicknesses and lengths are carried through from the existing model and are NOT re-derived here.",
- "authoritative_for": "POSITION only. clear_mm / solid_mm remain the length of record.",
+ "what": "The 25 NAMED walls of wall_blocks.csv, placed in millimetres from the vector plan as CONTIGUOUS STRAIGHT CHAINS. Classes, thicknesses and lengths come from the existing model and are not re-derived.",
+ "authoritative_for": "POSITION only. clear_mm / solid_mm stay the length of record.",
+ "conventions": {
+  "chains": "Walls sharing a pixel coordinate and a thickness are one straight run. Snapped once, then laid end to end, so a gap or overlap inside a chain is impossible by construction.",
+  "hatch_validated_snap": "A wall is a hatched solid, so a face pair with no hatch between it is rejected. That is what keeps MC off the decorative slab beside it.",
+  "insulation": "NOT modelled as a layer, per the owner: it may be removed or left. External walls stay at their recorded 300 mm.",
+  "colour_key": "The owner's own markup, _Inbox/_Visual_Drop/floor_plan_basic_all_walls.jpg: red concrete frame, green internal aerated block, pink external and лоджия enclosure."
+ },
  "transform_basic_px_to_mm": {
   "x": {
    "a": 9.85984,
-   "b": 2609.29,
-   "walls_on_a_face_line": 15,
-   "of": 15
+   "b": 2609.29
   },
   "y": {
    "a": -10.19342,
-   "b": 16816.22,
-   "walls_on_a_face_line": 10,
-   "of": 10
+   "b": 16816.22
   },
-  "note": "y is negative because basic-plan pixels run downward and the PDF's y runs upward. The two scales differ by 0.33%, which is the raster's own aspect error, not a disagreement about the flat."
+  "note": "y is negative because basic-plan pixels run downward and the PDF's y runs upward."
  },
- "generated_by": "tools/layout/place_named_walls.py",
- "walls": [
+ "chains": [
   {
-   "wall_id": "MB",
-   "class": "external",
-   "thickness_mm": 300.0,
+   "chain": "chain_01_1",
    "axis": "EW",
-   "clear_mm": "3000",
-   "solid_mm": "3000",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 7560.6,
-   "face_lo_mm": 7560.6,
-   "face_hi_mm": 7860.6,
+   "thickness_mm": 250.0,
+   "walls": [
+    "R1a",
+    "G2",
+    "R3",
+    "G3"
+   ],
+   "face_lo_mm": 15990.2,
+   "face_hi_mm": 16235.2,
    "snap_residual_mm": 0.0,
-   "from_mm": 6018.5,
-   "to_mm": 8990.9,
-   "drawn_span_mm": 2972.4
+   "on_hatched_solid": true,
+   "hatch_cover": 0.75,
+   "start_mm": 2830.9,
+   "end_mm": 12641.0,
+   "ends_snapped_mm": [
+    -17.3,
+    71.0
+   ],
+   "lay": {
+    "span_mm": 9810.1,
+    "laid_total_mm": 9715.0,
+    "residual_mm": 95.1,
+    "pair_total_used_mm": 5830.0
+   }
   },
   {
-   "wall_id": "MC",
-   "class": "external",
-   "thickness_mm": 300.0,
-   "axis": "EW",
-   "clear_mm": "3315",
-   "solid_mm": "3315",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 8253.8,
-   "face_lo_mm": 7960.3,
-   "face_hi_mm": 8253.1,
-   "snap_residual_mm": 0.7,
-   "from_mm": 9254.8,
-   "to_mm": 12853.7,
-   "drawn_span_mm": 3598.8
+   "chain": "chain_02_1",
+   "axis": "NS",
+   "thickness_mm": 250.0,
+   "walls": [
+    "R6",
+    "G4a",
+    "R1b"
+   ],
+   "face_lo_mm": 2980.8,
+   "face_hi_mm": 3230.9,
+   "snap_residual_mm": 6.7,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.87,
+   "start_mm": 9350.3,
+   "end_mm": 16110.3,
+   "ends_snapped_mm": [
+    36.4,
+    5.3
+   ],
+   "lay": {
+    "span_mm": 6760.0,
+    "laid_total_mm": 6520.0,
+    "residual_mm": 240.0,
+    "pair_total_used_mm": null
+   }
   },
   {
-   "wall_id": "MA",
-   "class": "external",
-   "thickness_mm": 300.0,
-   "axis": "EW",
-   "clear_mm": "2825",
-   "solid_mm": "2825",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 9099.8,
-   "face_lo_mm": 9050.6,
-   "face_hi_mm": 9350.3,
-   "snap_residual_mm": 49.2,
-   "from_mm": 2816.3,
-   "to_mm": 5766.7,
-   "drawn_span_mm": 2950.4
+   "chain": "chain_03_1",
+   "axis": "NS",
+   "thickness_mm": 250.0,
+   "walls": [
+    "R7",
+    "G5",
+    "R2"
+   ],
+   "face_lo_mm": 12695.9,
+   "face_hi_mm": 12946.0,
+   "snap_residual_mm": 0.0,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.83,
+   "start_mm": 8348.6,
+   "end_mm": 16405.3,
+   "ends_snapped_mm": [
+    -88.6,
+    29.7
+   ],
+   "lay": {
+    "span_mm": 8056.7,
+    "laid_total_mm": 7710.0,
+    "residual_mm": 346.7,
+    "pair_total_used_mm": null
+   }
   },
   {
-   "wall_id": "G4d",
-   "class": "aerated_block",
-   "thickness_mm": 120.0,
-   "axis": "EW",
-   "clear_mm": "2825",
-   "solid_mm": "2825",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 12769.4,
-   "face_lo_mm": 12750.3,
-   "face_hi_mm": 12870.3,
-   "snap_residual_mm": 19.1,
-   "from_mm": 3112.1,
-   "to_mm": 5934.3,
-   "drawn_span_mm": 2822.2
-  },
-  {
-   "wall_id": "G6",
-   "class": "aerated_block",
-   "thickness_mm": 75.0,
-   "axis": "EW",
-   "clear_mm": "1915",
-   "solid_mm": "1915",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 13646.1,
-   "face_lo_mm": 13575.3,
-   "face_hi_mm": 13650.3,
+   "chain": "chain_04_1",
+   "axis": "NS",
+   "thickness_mm": 250.0,
+   "walls": [
+    "R4"
+   ],
+   "face_lo_mm": 6056.0,
+   "face_hi_mm": 6305.9,
    "snap_residual_mm": 4.2,
-   "from_mm": 5934.3,
-   "to_mm": 9010.6,
-   "drawn_span_mm": 3076.3
+   "on_hatched_solid": true,
+   "hatch_cover": 0.88,
+   "start_mm": 12600.3,
+   "end_mm": 13650.3,
+   "ends_snapped_mm": [
+    4.2,
+    -34.8
+   ],
+   "lay": {
+    "span_mm": 1050.0,
+    "laid_total_mm": 1050.0,
+    "residual_mm": 0.0,
+    "pair_total_used_mm": null
+   }
   },
   {
-   "wall_id": "G4b",
-   "class": "aerated_block",
-   "thickness_mm": 120.0,
+   "chain": "chain_05_1",
+   "axis": "NS",
+   "thickness_mm": 250.0,
+   "walls": [
+    "R9"
+   ],
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9,
+   "snap_residual_mm": 5.5,
+   "on_hatched_solid": true,
+   "hatch_cover": 1.0,
+   "start_mm": 7490.4,
+   "end_mm": 9160.6,
+   "ends_snapped_mm": [
+    86.0,
+    -71.7
+   ],
+   "lay": {
+    "span_mm": 1670.2,
+    "laid_total_mm": 1790.0,
+    "residual_mm": -119.8,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_05_2",
+   "axis": "NS",
+   "thickness_mm": 250.0,
+   "walls": [
+    "R5"
+   ],
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9,
+   "snap_residual_mm": 5.5,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.88,
+   "start_mm": 12600.3,
+   "end_mm": 13650.3,
+   "ends_snapped_mm": [
+    4.2,
+    -34.8
+   ],
+   "lay": {
+    "span_mm": 1050.0,
+    "laid_total_mm": 1050.0,
+    "residual_mm": 0.0,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_06_1",
+   "axis": "NS",
+   "thickness_mm": 250.0,
+   "walls": [
+    "R8"
+   ],
+   "face_lo_mm": 5881.0,
+   "face_hi_mm": 6131.0,
+   "snap_residual_mm": 11.6,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.92,
+   "start_mm": 7490.4,
+   "end_mm": 9350.3,
+   "ends_snapped_mm": [
+    86.0,
+    94.3
+   ],
+   "lay": {
+    "span_mm": 1859.9,
+    "laid_total_mm": 1790.0,
+    "residual_mm": 69.9,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_07_1",
    "axis": "EW",
-   "clear_mm": "1915",
-   "solid_mm": "1915",
-   "owns_corners_mm": null,
-   "length_source": "DERIVED, confirmed by chain closure",
-   "placed_mm": 14787.7,
+   "thickness_mm": 120.0,
+   "walls": [
+    "G4b"
+   ],
    "face_lo_mm": 14670.3,
    "face_hi_mm": 14790.3,
    "snap_residual_mm": 2.6,
-   "from_mm": 3100.0,
-   "to_mm": 4946.1,
-   "drawn_span_mm": 1846.1
+   "on_hatched_solid": true,
+   "hatch_cover": 0.85,
+   "start_mm": 3105.9,
+   "end_mm": 4931.0,
+   "ends_snapped_mm": [
+    5.9,
+    -15.1
+   ],
+   "lay": {
+    "span_mm": 1825.1,
+    "laid_total_mm": 1915.0,
+    "residual_mm": -89.9,
+    "pair_total_used_mm": null
+   }
   },
+  {
+   "chain": "chain_08_1",
+   "axis": "NS",
+   "thickness_mm": 120.0,
+   "walls": [
+    "G4C"
+   ],
+   "face_lo_mm": 5026.0,
+   "face_hi_mm": 5146.0,
+   "snap_residual_mm": 20.8,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.5,
+   "start_mm": 12870.3,
+   "end_mm": 16110.3,
+   "ends_snapped_mm": [
+    39.7,
+    7.6
+   ],
+   "lay": {
+    "span_mm": 3240.0,
+    "laid_total_mm": 3240.0,
+    "residual_mm": 0.0,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_09_1",
+   "axis": "EW",
+   "thickness_mm": 120.0,
+   "walls": [
+    "G4d"
+   ],
+   "face_lo_mm": 12750.3,
+   "face_hi_mm": 12870.3,
+   "snap_residual_mm": 19.1,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.58,
+   "start_mm": 3105.9,
+   "end_mm": 5981.0,
+   "ends_snapped_mm": [
+    -6.2,
+    46.7
+   ],
+   "lay": {
+    "span_mm": 2875.1,
+    "laid_total_mm": 2825.0,
+    "residual_mm": 50.1,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_10_1",
+   "axis": "EW",
+   "thickness_mm": 75.0,
+   "walls": [
+    "G6"
+   ],
+   "face_lo_mm": 13575.3,
+   "face_hi_mm": 13650.3,
+   "snap_residual_mm": 4.2,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.52,
+   "start_mm": 5981.0,
+   "end_mm": 9020.9,
+   "ends_snapped_mm": [
+    46.7,
+    10.3
+   ],
+   "lay": {
+    "span_mm": 3039.9,
+    "laid_total_mm": 1915.0,
+    "residual_mm": 1124.9,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_11_1",
+   "axis": "NS",
+   "thickness_mm": 75.0,
+   "walls": [
+    "G7"
+   ],
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9206.0,
+   "snap_residual_mm": 93.1,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.78,
+   "start_mm": 9160.6,
+   "end_mm": 12600.3,
+   "ends_snapped_mm": [
+    -81.9,
+    -36.6
+   ],
+   "lay": {
+    "span_mm": 3439.7,
+    "laid_total_mm": 3250.0,
+    "residual_mm": 189.7,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_12_1",
+   "axis": "NS",
+   "thickness_mm": 75.0,
+   "walls": [
+    "G8"
+   ],
+   "face_lo_mm": 5981.0,
+   "face_hi_mm": 6056.0,
+   "snap_residual_mm": 19.4,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.17,
+   "start_mm": 9160.6,
+   "end_mm": 12750.3,
+   "ends_snapped_mm": [
+    -81.9,
+    43.3
+   ],
+   "lay": {
+    "span_mm": 3589.7,
+    "laid_total_mm": 3250.0,
+    "residual_mm": 339.7,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_13_1",
+   "axis": "EW",
+   "thickness_mm": 300.0,
+   "walls": [
+    "MA"
+   ],
+   "face_lo_mm": 9050.6,
+   "face_hi_mm": 9350.3,
+   "snap_residual_mm": 49.2,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.4,
+   "start_mm": 2830.9,
+   "end_mm": 5786.0,
+   "ends_snapped_mm": [
+    14.6,
+    19.3
+   ],
+   "lay": {
+    "span_mm": 2955.1,
+    "laid_total_mm": 2825.0,
+    "residual_mm": 130.1,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_14_1",
+   "axis": "NS",
+   "thickness_mm": 200.0,
+   "walls": [
+    "M2"
+   ],
+   "face_lo_mm": 2924.8,
+   "face_hi_mm": 3130.9,
+   "snap_residual_mm": 0.0,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.93,
+   "start_mm": 6806.3,
+   "end_mm": 8980.6,
+   "ends_snapped_mm": [
+    0.0,
+    94.9
+   ],
+   "lay": {
+    "span_mm": 2174.3,
+    "laid_total_mm": 1850.0,
+    "residual_mm": 324.3,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_15_1",
+   "axis": "EW",
+   "thickness_mm": 300.0,
+   "walls": [
+    "MB"
+   ],
+   "face_lo_mm": 7560.6,
+   "face_hi_mm": 7860.6,
+   "snap_residual_mm": 0.0,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.3,
+   "start_mm": 6006.5,
+   "end_mm": 8980.8,
+   "ends_snapped_mm": [
+    -12.0,
+    -10.1
+   ],
+   "lay": {
+    "span_mm": 2974.3,
+    "laid_total_mm": 3000.0,
+    "residual_mm": -25.7,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_16_1",
+   "axis": "EW",
+   "thickness_mm": 300.0,
+   "walls": [
+    "MC"
+   ],
+   "face_lo_mm": 8230.6,
+   "face_hi_mm": 8530.6,
+   "snap_residual_mm": 23.2,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.46,
+   "start_mm": 9256.0,
+   "end_mm": 12821.0,
+   "ends_snapped_mm": [
+    1.2,
+    -32.7
+   ],
+   "lay": {
+    "span_mm": 3565.0,
+    "laid_total_mm": 3315.0,
+    "residual_mm": 250.0,
+    "pair_total_used_mm": null
+   }
+  },
+  {
+   "chain": "chain_17_1",
+   "axis": "NS",
+   "thickness_mm": 200.0,
+   "walls": [
+    "M6b"
+   ],
+   "face_lo_mm": 5981.0,
+   "face_hi_mm": 6181.0,
+   "snap_residual_mm": 19.4,
+   "on_hatched_solid": true,
+   "hatch_cover": 0.9,
+   "start_mm": 6008.5,
+   "end_mm": 7490.4,
+   "ends_snapped_mm": [
+    78.8,
+    103.1
+   ],
+   "lay": {
+    "span_mm": 1481.9,
+    "laid_total_mm": 1170.0,
+    "residual_mm": 311.9,
+    "pair_total_used_mm": null
+   }
+  }
+ ],
+ "walls": [
   {
    "wall_id": "R1a",
    "class": "concrete",
@@ -131,30 +489,13 @@
    "solid_mm": "1666",
    "owns_corners_mm": "250",
    "length_source": "DERIVED, confirmed by chain closure",
-   "placed_mm": 16235.2,
+   "from_mm": 2830.9,
+   "to_mm": 4496.9,
+   "laid_length_mm": 1666.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_01_1",
    "face_lo_mm": 15990.2,
-   "face_hi_mm": 16235.2,
-   "snap_residual_mm": 0.0,
-   "from_mm": 2848.2,
-   "to_mm": 4532.0,
-   "drawn_span_mm": 1683.8
-  },
-  {
-   "wall_id": "R3",
-   "class": "concrete",
-   "thickness_mm": 250.0,
-   "axis": "EW",
-   "clear_mm": null,
-   "solid_mm": null,
-   "owns_corners_mm": null,
-   "length_source": "INDETERMINATE SPLIT - the pair total is in notes",
-   "placed_mm": 16235.2,
-   "face_lo_mm": 15990.2,
-   "face_hi_mm": 16235.2,
-   "snap_residual_mm": 0.0,
-   "from_mm": 6760.3,
-   "to_mm": 9461.9,
-   "drawn_span_mm": 2701.6
+   "face_hi_mm": 16235.2
   },
   {
    "wall_id": "G2",
@@ -165,13 +506,30 @@
    "solid_mm": "2219",
    "owns_corners_mm": null,
    "length_source": "printed on the plan",
-   "placed_mm": 16235.2,
+   "from_mm": 4496.9,
+   "to_mm": 6715.9,
+   "laid_length_mm": 2219.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_01_1",
    "face_lo_mm": 15990.2,
-   "face_hi_mm": 16235.2,
-   "snap_residual_mm": 0.0,
-   "from_mm": 4541.8,
-   "to_mm": 6760.3,
-   "drawn_span_mm": 2218.5
+   "face_hi_mm": 16235.2
+  },
+  {
+   "wall_id": "R3",
+   "class": "concrete",
+   "thickness_mm": 250.0,
+   "axis": "EW",
+   "clear_mm": null,
+   "solid_mm": null,
+   "owns_corners_mm": null,
+   "length_source": "INDETERMINATE SPLIT - the pair total is in notes",
+   "from_mm": 6715.9,
+   "to_mm": 9630.9,
+   "laid_length_mm": 2915.0,
+   "length_from": "pair total 5830, split evenly (undimensioned)",
+   "chain": "chain_01_1",
+   "face_lo_mm": 15990.2,
+   "face_hi_mm": 16235.2
   },
   {
    "wall_id": "G3",
@@ -182,47 +540,13 @@
    "solid_mm": null,
    "owns_corners_mm": null,
    "length_source": "INDETERMINATE SPLIT - the pair total is in notes",
-   "placed_mm": 16245.4,
+   "from_mm": 9630.9,
+   "to_mm": 12545.9,
+   "laid_length_mm": 2915.0,
+   "length_from": "pair total 5830, split evenly (undimensioned)",
+   "chain": "chain_01_1",
    "face_lo_mm": 15990.2,
-   "face_hi_mm": 16240.1,
-   "snap_residual_mm": 5.3,
-   "from_mm": 9481.6,
-   "to_mm": 12570.0,
-   "drawn_span_mm": 3088.4
-  },
-  {
-   "wall_id": "M2",
-   "class": "loggia_enclosure",
-   "thickness_mm": 200.0,
-   "axis": "NS",
-   "clear_mm": "1850",
-   "solid_mm": "1850",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 2924.8,
-   "face_lo_mm": 2924.8,
-   "face_hi_mm": 3130.9,
-   "snap_residual_mm": 0.0,
-   "from_mm": 6806.3,
-   "to_mm": 8885.7,
-   "drawn_span_mm": 2079.5
-  },
-  {
-   "wall_id": "R1b",
-   "class": "concrete",
-   "thickness_mm": 250.0,
-   "axis": "NS",
-   "clear_mm": "1200",
-   "solid_mm": "1200",
-   "owns_corners_mm": null,
-   "length_source": "DERIVED, confirmed by chain closure",
-   "placed_mm": 2974.1,
-   "face_lo_mm": 2980.8,
-   "face_hi_mm": 3230.9,
-   "snap_residual_mm": 6.7,
-   "from_mm": 14725.3,
-   "to_mm": 16105.0,
-   "drawn_span_mm": 1379.8
+   "face_hi_mm": 16235.2
   },
   {
    "wall_id": "R6",
@@ -233,13 +557,13 @@
    "solid_mm": "1750",
    "owns_corners_mm": null,
    "length_source": "printed on the plan",
-   "placed_mm": 2984.0,
+   "from_mm": 9350.3,
+   "to_mm": 11100.3,
+   "laid_length_mm": 1750.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_02_1",
    "face_lo_mm": 2980.8,
-   "face_hi_mm": 3230.9,
-   "snap_residual_mm": 3.2,
-   "from_mm": 9313.9,
-   "to_mm": 11138.5,
-   "drawn_span_mm": 1824.6
+   "face_hi_mm": 3230.9
   },
   {
    "wall_id": "G4a",
@@ -250,166 +574,30 @@
    "solid_mm": "3570",
    "owns_corners_mm": null,
    "length_source": "DERIVED, confirmed by chain closure",
-   "placed_mm": 2984.0,
+   "from_mm": 11100.3,
+   "to_mm": 14670.3,
+   "laid_length_mm": 3570.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_02_1",
    "face_lo_mm": 2980.8,
-   "face_hi_mm": 3230.9,
-   "snap_residual_mm": 3.2,
-   "from_mm": 11138.5,
-   "to_mm": 14850.2,
-   "drawn_span_mm": 3711.7
+   "face_hi_mm": 3230.9
   },
   {
-   "wall_id": "G4C",
-   "class": "aerated_block",
-   "thickness_mm": 120.0,
-   "axis": "NS",
-   "clear_mm": "3240",
-   "solid_mm": "3240",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 5005.2,
-   "face_lo_mm": 5026.0,
-   "face_hi_mm": 5146.0,
-   "snap_residual_mm": 20.8,
-   "from_mm": 12830.6,
-   "to_mm": 16102.7,
-   "drawn_span_mm": 3272.1
-  },
-  {
-   "wall_id": "M6b",
-   "class": "loggia_enclosure",
-   "thickness_mm": 200.0,
-   "axis": "NS",
-   "clear_mm": "1170",
-   "solid_mm": "1170",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 5961.6,
-   "face_lo_mm": 5786.0,
-   "face_hi_mm": 5981.0,
-   "snap_residual_mm": 19.4,
-   "from_mm": 5929.7,
-   "to_mm": 7387.3,
-   "drawn_span_mm": 1457.7
-  },
-  {
-   "wall_id": "R8",
+   "wall_id": "R1b",
    "class": "concrete",
    "thickness_mm": 250.0,
    "axis": "NS",
-   "clear_mm": "1490",
-   "solid_mm": "1790",
-   "owns_corners_mm": "600",
-   "length_source": "printed on the plan",
-   "placed_mm": 5892.6,
-   "face_lo_mm": 5881.0,
-   "face_hi_mm": 6131.0,
-   "snap_residual_mm": 11.6,
-   "from_mm": 7404.4,
-   "to_mm": 9256.0,
-   "drawn_span_mm": 1851.6
-  },
-  {
-   "wall_id": "G8",
-   "class": "aerated_block",
-   "thickness_mm": 75.0,
-   "axis": "NS",
-   "clear_mm": "3250",
-   "solid_mm": "3250",
+   "clear_mm": "1200",
+   "solid_mm": "1200",
    "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 5961.6,
-   "face_lo_mm": 5981.0,
-   "face_hi_mm": 6056.0,
-   "snap_residual_mm": 19.4,
-   "from_mm": 9242.5,
-   "to_mm": 12707.0,
-   "drawn_span_mm": 3464.4
-  },
-  {
-   "wall_id": "R4",
-   "class": "concrete",
-   "thickness_mm": 250.0,
-   "axis": "NS",
-   "clear_mm": "1050",
-   "solid_mm": "1050",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 6060.2,
-   "face_lo_mm": 6056.0,
-   "face_hi_mm": 6305.9,
-   "snap_residual_mm": 4.2,
-   "from_mm": 12596.1,
-   "to_mm": 13685.1,
-   "drawn_span_mm": 1089.0
-  },
-  {
-   "wall_id": "R5",
-   "class": "concrete",
-   "thickness_mm": 250.0,
-   "axis": "NS",
-   "clear_mm": "1050",
-   "solid_mm": "1050",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 9136.5,
-   "face_lo_mm": 9131.0,
-   "face_hi_mm": 9380.9,
-   "snap_residual_mm": 5.5,
-   "from_mm": 12596.1,
-   "to_mm": 13685.1,
-   "drawn_span_mm": 1089.0
-  },
-  {
-   "wall_id": "R9",
-   "class": "concrete",
-   "thickness_mm": 250.0,
-   "axis": "NS",
-   "clear_mm": "1490",
-   "solid_mm": "1790",
-   "owns_corners_mm": "300",
-   "length_source": "printed on the plan",
-   "placed_mm": 9116.8,
-   "face_lo_mm": 9131.0,
-   "face_hi_mm": 9380.9,
-   "snap_residual_mm": 14.2,
-   "from_mm": 7404.4,
-   "to_mm": 9232.3,
-   "drawn_span_mm": 1827.9
-  },
-  {
-   "wall_id": "G7",
-   "class": "aerated_block",
-   "thickness_mm": 75.0,
-   "axis": "NS",
-   "clear_mm": "3250",
-   "solid_mm": "3250",
-   "owns_corners_mm": null,
-   "length_source": "printed on the plan",
-   "placed_mm": 9037.9,
-   "face_lo_mm": 9131.0,
-   "face_hi_mm": 9206.0,
-   "snap_residual_mm": 93.1,
-   "from_mm": 9242.5,
-   "to_mm": 12636.9,
-   "drawn_span_mm": 3394.4
-  },
-  {
-   "wall_id": "R2",
-   "class": "concrete",
-   "thickness_mm": 250.0,
-   "axis": "NS",
-   "clear_mm": "1675",
-   "solid_mm": "1925",
-   "owns_corners_mm": "250",
-   "length_source": "printed on the plan",
-   "placed_mm": 12695.9,
-   "face_lo_mm": 12695.9,
-   "face_hi_mm": 12946.0,
-   "snap_residual_mm": 0.0,
-   "from_mm": 14400.4,
-   "to_mm": 16375.6,
-   "drawn_span_mm": 1975.2
+   "length_source": "DERIVED, confirmed by chain closure",
+   "from_mm": 14670.3,
+   "to_mm": 15870.3,
+   "laid_length_mm": 1200.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_02_1",
+   "face_lo_mm": 2980.8,
+   "face_hi_mm": 3230.9
   },
   {
    "wall_id": "R7",
@@ -420,13 +608,13 @@
    "solid_mm": "1750",
    "owns_corners_mm": null,
    "length_source": "printed on the plan",
-   "placed_mm": 12695.9,
+   "from_mm": 8348.6,
+   "to_mm": 10098.6,
+   "laid_length_mm": 1750.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_03_1",
    "face_lo_mm": 12695.9,
-   "face_hi_mm": 12946.0,
-   "snap_residual_mm": 0.0,
-   "from_mm": 8437.2,
-   "to_mm": 10190.5,
-   "drawn_span_mm": 1753.3
+   "face_hi_mm": 12946.0
   },
   {
    "wall_id": "G5",
@@ -437,13 +625,285 @@
    "solid_mm": "4035",
    "owns_corners_mm": null,
    "length_source": "printed on the plan",
-   "placed_mm": 12686.0,
+   "from_mm": 10098.6,
+   "to_mm": 14133.6,
+   "laid_length_mm": 4035.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_03_1",
    "face_lo_mm": 12695.9,
-   "face_hi_mm": 12946.0,
-   "snap_residual_mm": 9.9,
-   "from_mm": 10200.7,
-   "to_mm": 14390.2,
-   "drawn_span_mm": 4189.5
+   "face_hi_mm": 12946.0
+  },
+  {
+   "wall_id": "R2",
+   "class": "concrete",
+   "thickness_mm": 250.0,
+   "axis": "NS",
+   "clear_mm": "1675",
+   "solid_mm": "1925",
+   "owns_corners_mm": "250",
+   "length_source": "printed on the plan",
+   "from_mm": 14133.6,
+   "to_mm": 16058.6,
+   "laid_length_mm": 1925.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_03_1",
+   "face_lo_mm": 12695.9,
+   "face_hi_mm": 12946.0
+  },
+  {
+   "wall_id": "R4",
+   "class": "concrete",
+   "thickness_mm": 250.0,
+   "axis": "NS",
+   "clear_mm": "1050",
+   "solid_mm": "1050",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 12600.3,
+   "to_mm": 13650.3,
+   "laid_length_mm": 1050.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_04_1",
+   "face_lo_mm": 6056.0,
+   "face_hi_mm": 6305.9
+  },
+  {
+   "wall_id": "R9",
+   "class": "concrete",
+   "thickness_mm": 250.0,
+   "axis": "NS",
+   "clear_mm": "1490",
+   "solid_mm": "1790",
+   "owns_corners_mm": "300",
+   "length_source": "printed on the plan",
+   "from_mm": 7490.4,
+   "to_mm": 9280.4,
+   "laid_length_mm": 1790.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_05_1",
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9
+  },
+  {
+   "wall_id": "R5",
+   "class": "concrete",
+   "thickness_mm": 250.0,
+   "axis": "NS",
+   "clear_mm": "1050",
+   "solid_mm": "1050",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 12600.3,
+   "to_mm": 13650.3,
+   "laid_length_mm": 1050.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_05_2",
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9
+  },
+  {
+   "wall_id": "R8",
+   "class": "concrete",
+   "thickness_mm": 250.0,
+   "axis": "NS",
+   "clear_mm": "1490",
+   "solid_mm": "1790",
+   "owns_corners_mm": "600",
+   "length_source": "printed on the plan",
+   "from_mm": 7490.4,
+   "to_mm": 9280.4,
+   "laid_length_mm": 1790.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_06_1",
+   "face_lo_mm": 5881.0,
+   "face_hi_mm": 6131.0
+  },
+  {
+   "wall_id": "G4b",
+   "class": "aerated_block",
+   "thickness_mm": 120.0,
+   "axis": "EW",
+   "clear_mm": "1915",
+   "solid_mm": "1915",
+   "owns_corners_mm": null,
+   "length_source": "DERIVED, confirmed by chain closure",
+   "from_mm": 3105.9,
+   "to_mm": 5020.9,
+   "laid_length_mm": 1915.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_07_1",
+   "face_lo_mm": 14670.3,
+   "face_hi_mm": 14790.3
+  },
+  {
+   "wall_id": "G4C",
+   "class": "aerated_block",
+   "thickness_mm": 120.0,
+   "axis": "NS",
+   "clear_mm": "3240",
+   "solid_mm": "3240",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 12870.3,
+   "to_mm": 16110.3,
+   "laid_length_mm": 3240.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_08_1",
+   "face_lo_mm": 5026.0,
+   "face_hi_mm": 5146.0
+  },
+  {
+   "wall_id": "G4d",
+   "class": "aerated_block",
+   "thickness_mm": 120.0,
+   "axis": "EW",
+   "clear_mm": "2825",
+   "solid_mm": "2825",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 3105.9,
+   "to_mm": 5930.9,
+   "laid_length_mm": 2825.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_09_1",
+   "face_lo_mm": 12750.3,
+   "face_hi_mm": 12870.3
+  },
+  {
+   "wall_id": "G6",
+   "class": "aerated_block",
+   "thickness_mm": 75.0,
+   "axis": "EW",
+   "clear_mm": "1915",
+   "solid_mm": "1915",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 5981.0,
+   "to_mm": 7896.0,
+   "laid_length_mm": 1915.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_10_1",
+   "face_lo_mm": 13575.3,
+   "face_hi_mm": 13650.3
+  },
+  {
+   "wall_id": "G7",
+   "class": "aerated_block",
+   "thickness_mm": 75.0,
+   "axis": "NS",
+   "clear_mm": "3250",
+   "solid_mm": "3250",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 9160.6,
+   "to_mm": 12410.6,
+   "laid_length_mm": 3250.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_11_1",
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9206.0
+  },
+  {
+   "wall_id": "G8",
+   "class": "aerated_block",
+   "thickness_mm": 75.0,
+   "axis": "NS",
+   "clear_mm": "3250",
+   "solid_mm": "3250",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 9160.6,
+   "to_mm": 12410.6,
+   "laid_length_mm": 3250.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_12_1",
+   "face_lo_mm": 5981.0,
+   "face_hi_mm": 6056.0
+  },
+  {
+   "wall_id": "MA",
+   "class": "external",
+   "thickness_mm": 300.0,
+   "axis": "EW",
+   "clear_mm": "2825",
+   "solid_mm": "2825",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 2830.9,
+   "to_mm": 5655.9,
+   "laid_length_mm": 2825.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_13_1",
+   "face_lo_mm": 9050.6,
+   "face_hi_mm": 9350.3
+  },
+  {
+   "wall_id": "M2",
+   "class": "loggia_enclosure",
+   "thickness_mm": 200.0,
+   "axis": "NS",
+   "clear_mm": "1850",
+   "solid_mm": "1850",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 6806.3,
+   "to_mm": 8656.3,
+   "laid_length_mm": 1850.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_14_1",
+   "face_lo_mm": 2924.8,
+   "face_hi_mm": 3130.9
+  },
+  {
+   "wall_id": "MB",
+   "class": "external",
+   "thickness_mm": 300.0,
+   "axis": "EW",
+   "clear_mm": "3000",
+   "solid_mm": "3000",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 6006.5,
+   "to_mm": 9006.5,
+   "laid_length_mm": 3000.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_15_1",
+   "face_lo_mm": 7560.6,
+   "face_hi_mm": 7860.6
+  },
+  {
+   "wall_id": "MC",
+   "class": "external",
+   "thickness_mm": 300.0,
+   "axis": "EW",
+   "clear_mm": "3315",
+   "solid_mm": "3315",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 9256.0,
+   "to_mm": 12571.0,
+   "laid_length_mm": 3315.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_16_1",
+   "face_lo_mm": 8230.6,
+   "face_hi_mm": 8530.6
+  },
+  {
+   "wall_id": "M6b",
+   "class": "loggia_enclosure",
+   "thickness_mm": 200.0,
+   "axis": "NS",
+   "clear_mm": "1170",
+   "solid_mm": "1170",
+   "owns_corners_mm": null,
+   "length_source": "printed on the plan",
+   "from_mm": 6008.5,
+   "to_mm": 7178.5,
+   "laid_length_mm": 1170.0,
+   "length_from": "recorded solid_mm",
+   "chain": "chain_17_1",
+   "face_lo_mm": 5981.0,
+   "face_hi_mm": 6181.0
   }
  ]
 }
