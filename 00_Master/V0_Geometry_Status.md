@@ -155,6 +155,62 @@ move O5 and O6 onto walls that are themselves wrong.
 **The лоджия glazing floats free** of M2 and the absent M6b, bottom-left — three
 disconnected pieces where the flat should close.
 
+### ✅ Four corrections from the owner's read of the DXF — 2026-09-09
+
+**1. Corners were VOIDS. Now closed.** Owner: *"if I have this corner, R1b and
+R1a, one of this wall should go up to the end of the another one… we need to
+factor in the thickness of the wall to have a closed corner, which is actually
+the case in reality."* → Walls were being drawn at their **`clear_mm`** run,
+which is what a tape inside the room reads, so every L-corner came out an open
+square. `solid_mm` = `clear_mm` + the corners a wall **owns**, and
+`wall_corners.csv` already said who owns which. Applying that ledger in the
+exporter closes **all five** with no double count, because exactly one wall of
+each pair is extended:
+
+| corner | extended | by | at |
+| :--- | :--- | :--- | :--- |
+| C_R1a_R1b | R1a | +250 | its start, over R1b |
+| C_G3_R2 | R2 | +250 | its end, over G3 |
+| C_MA_R8 | R8 | +300 | its end, over MA |
+| C_MB_R8 | R8 | +300 | its start, over MB |
+| C_MB_R9 | R9 | +300 | its start, over MB |
+
+**2. The dashed lines are gone.** Owner: the ones in the G3 / kitchen area are
+*"not necessary here, absolutely"* — a CAD leftover, not a decision. The
+`V0-SUGGESTED-FURN` layer no longer exists in the export. The runs stay in
+`v0_elements_extracted.json` if ever wanted.
+
+**3. ✅ O3 and the slab are now aligned exactly — 0.0 mm on both edges.** Owner:
+*"these O3 and new slab extension should be aligned… you can check the vector
+drawing."* He was right, and checking it corrected my own reading:
+
+> Inside MC's thickness band the near-full-depth reveal lines are at **10235.9
+> and 12035.9**. So the **structural opening is 1800**, and the 10286…11986 pair
+> I had taken for the reveal is the **1700 window unit sitting 50 mm inside it**.
+> The slab is 10235.9…12035.9 — **the same two numbers.** The developer drew the
+> slab as exactly the structural opening, and the raster fit had been moving the
+> opening 106 mm off it.
+
+**Openings now come from the vector**, via `tools/layout/place_openings.py`,
+which snaps each hatch-gap to the drawn reveal lines. Two more confirmations
+fell out: **O4 measures 1380.0**, exactly what `wall_openings.csv` records for
+the лоджия opening, and O2 measures 1800 against a named 1760.
+
+⚠️ **Five internal doors are now OMITTED rather than drawn wrong** — O1, O5, O6,
+O7, O8. Their reveals are drawn differently in 75/120 mm walls, and no drawn gap
+matches their recorded widths. **An omission is honest; a plausible position is
+not.** This also corrects an earlier diagnosis of mine: O5 and O6 sat 1156 mm and
+766 mm outside their host walls, and I attributed that to the transform alone —
+but they are on G4d and G6, the two walls whose own laid length disagrees most
+with the model, so the wall placement was implicated too.
+
+**4. ⚠️ The лоджия still does not close, and that one needs the owner.** M2 is
+drawn axis-aligned where the real wall splays, and **M6b has no geometry at all**
+because no 200 mm hatched solid exists where the model puts it — the vector shows
+300 / 150 / 100 there. `project_decisions.md` already flags M6b's 200 mm as
+provisional and under revision. **❓ Which is it?** Until that is settled the
+лоджия is three disconnected pieces: M2, the absent M6b, and the glazing.
+
 ## Still missing
 
 - **The лоджия's M2 / M6b are exported as axis-aligned bars** — the real

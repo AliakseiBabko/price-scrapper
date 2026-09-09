@@ -42,6 +42,8 @@ import sys
 import ezdxf
 
 PLACED = os.path.join("data", "canonical", "v0_named_walls_placed.json")
+OPENINGS_PLACED = os.path.join("data", "canonical", "v0_openings_placed.json")
+CORNERS = os.path.join("data", "canonical", "wall_corners.csv")
 ELEMENTS = os.path.join("data", "canonical", "v0_elements_extracted.json")
 SPANS = os.path.join("data", "canonical", "wall_opening_spans.csv")
 OPENINGS = os.path.join("data", "canonical", "wall_openings.csv")
@@ -55,14 +57,60 @@ LAYERS = {
     "V0-OPENING": 4,
     "V0-LOGGIA-GLAZING": 4,
     "V0-SLAB-EXTENSION": 2,
-    "V0-SUGGESTED-FURN": 30,
 }
+# !! V0-SUGGESTED-FURN is GONE. Owner, 2026-09-09: the dashed lines in the G3 /
+# kitchen area are "not necessary here, absolutely" - a leftover from the CAD
+# file, not a decision. Exporting the developer's furniture suggestion onto a
+# drawing of the flat invites it to be read as fabric, and it has no standing.
+# The runs are still recorded in v0_elements_extracted.json if ever wanted.
 CLASS_LAYER = {
     "concrete": "V0-WALL-CONCRETE",
     "aerated_block": "V0-WALL-AERATED",
     "external": "V0-WALL-EXTERNAL",
     "loggia_enclosure": "V0-WALL-LOGGIA",
 }
+
+
+def close_corners(walls):
+    """Extend each corner OWNER so the corner is solid, not a void.
+
+    Owner, 2026-09-09: *"if I have this corner, R1b and R1a, one of this wall
+    should go up to the end of the another one... we need to factor in the
+    thickness of the wall to have a closed corner, which is actually the case in
+    reality."*
+
+    He is right, and this is the gap between the two lengths the model already
+    carries. The walls are laid at their CLEAR run, which is what a tape inside
+    the room reads - so every L-corner comes out as an open square. `solid_mm`
+    is `clear_mm` plus the corners that wall OWNS, and `wall_corners.csv` says
+    who owns which. Applying it here closes every corner with no double count,
+    because exactly one of the two walls is extended.
+    """
+    by_id = {w["wall_id"]: w for w in walls}
+    fixes = []
+    if not os.path.exists(CORNERS):
+        return fixes
+    for r in csv.DictReader(io.open(CORNERS, encoding="utf-8")):
+        own, other = by_id.get(r["owner"]), None
+        pair = (r["wall_a"], r["wall_b"])
+        other_id = pair[1] if r["owner"] == pair[0] else pair[0]
+        other = by_id.get(other_id)
+        if not own or not other or own.get("from_mm") is None                 or other.get("from_mm") is None:
+            continue
+        gain = float(r["owner_gains_mm"])
+        ob = wall_box(other)
+        # the corner sits at whichever end of the owner is nearer the other wall
+        lo, hi = (ob[1], ob[3]) if own["axis"] == "NS" else (ob[0], ob[2])
+        centre = (lo + hi) / 2.0
+        if abs(own["from_mm"] - centre) <= abs(own["to_mm"] - centre):
+            own["from_mm"] = round(own["from_mm"] - gain, 1)
+            end = "start"
+        else:
+            own["to_mm"] = round(own["to_mm"] + gain, 1)
+            end = "end"
+        own["closed_corner"] = True
+        fixes.append((r["corner_id"], r["owner"], other_id, gain, end))
+    return fixes
 
 
 def wall_box(w):
@@ -91,9 +139,14 @@ def main():
     doc = ezdxf.new("R2010", setup=True)
     doc.header["$INSUNITS"] = 4          # millimetres
     for name, colour in LAYERS.items():
-        lt = "DASHED" if name == "V0-SUGGESTED-FURN" else "CONTINUOUS"
-        doc.layers.add(name, color=colour, linetype=lt)
+        doc.layers.add(name, color=colour, linetype="CONTINUOUS")
     msp = doc.modelspace()
+
+    fixes = close_corners(walls)
+    print("corners closed: %d" % len(fixes))
+    for cid, own, oth, gain, end in fixes:
+        print("   %-12s %s extended %+.0f mm at its %s, over %s"
+              % (cid, own, gain, end, oth))
 
     # --- walls -------------------------------------------------------
     for w in walls:
@@ -106,28 +159,32 @@ def main():
             ((x0 + x1) / 2.0, (y0 + y1) / 2.0))
     print("walls: %d" % len(walls))
 
-    # --- openings, transformed with the same fit ---------------------
-    by_id = {w["wall_id"]: w for w in walls}
+    # --- openings, from the VECTOR ------------------------------------
+    # !! No longer transformed from basic-plan pixels. The fit has 3.3%
+    # anisotropy and it moved O3 106 mm off the decorative slab the developer
+    # drew concentric with it. An opening that cannot be found in the vector is
+    # OMITTED, not drawn at a plausible guess.
     notes = {r["opening_id"]: r for r in csv.DictReader(io.open(OPENINGS, encoding="utf-8"))}
-    n_open = 0
-    for r in csv.DictReader(io.open(SPANS, encoding="utf-8")):
-        w = by_id.get(r["wall_id"])
-        if not w or w.get("face_lo_mm") is None or w.get("from_mm") is None:
-            continue
-        along = tx["x"] if w["axis"] == "EW" else tx["y"]
-        a = along["a"] * float(r["span_lo_basic_px"]) + along["b"]
-        b = along["a"] * float(r["span_hi_basic_px"]) + along["b"]
-        lo, hi = min(a, b), max(a, b)
-        if w["axis"] == "EW":
-            rect(msp, "V0-OPENING", lo, w["face_lo_mm"], hi, w["face_hi_mm"])
-        else:
-            rect(msp, "V0-OPENING", w["face_lo_mm"], lo, w["face_hi_mm"], hi)
-        kind = notes.get(r["opening_id"], {}).get("type", "opening")
-        msp.add_text("%s %s" % (r["opening_id"], kind), height=70,
-                     dxfattribs={"layer": "V0-OPENING"}).set_placement(
-            ((lo + hi) / 2.0, (w["face_lo_mm"] + w["face_hi_mm"]) / 2.0))
-        n_open += 1
-    print("openings: %d" % n_open)
+    n_open, omitted = 0, []
+    if os.path.exists(OPENINGS_PLACED):
+        op = json.load(io.open(OPENINGS_PLACED, encoding="utf-8"))
+        for o in op.get("openings", []):
+            if o["axis"] == "EW":
+                rect(msp, "V0-OPENING", o["from_mm"], o["face_lo_mm"],
+                     o["to_mm"], o["face_hi_mm"])
+            else:
+                rect(msp, "V0-OPENING", o["face_lo_mm"], o["from_mm"],
+                     o["face_hi_mm"], o["to_mm"])
+            kind = notes.get(o["opening_id"], {}).get("type", "opening")
+            msp.add_text("%s %s" % (o["opening_id"], kind), height=70,
+                         dxfattribs={"layer": "V0-OPENING"}).set_placement(
+                ((o["from_mm"] + o["to_mm"]) / 2.0,
+                 (o["face_lo_mm"] + o["face_hi_mm"]) / 2.0))
+            n_open += 1
+        omitted = [u["opening_id"] for u in op.get("unplaced", [])]
+    print("openings: %d from the vector" % n_open)
+    if omitted:
+        print("           OMITTED, not guessed: %s" % ", ".join(omitted))
 
     # --- лоджия glazing: four bays and three mullions ----------------
     gl = elements.get("loggia_glazing")
@@ -165,16 +222,7 @@ def main():
             (s["x_from_mm"], s["y_from_mm"] - 140))
         print("slab extension: %.0f x %.0f" % (s["width_mm"], s["depth_mm"]))
 
-    # --- suggested furniture ----------------------------------------
-    for d in elements.get("dashed_suggested_furniture") or []:
-        if d["axis"] == "EW":
-            msp.add_line((d["from_mm"], d["line_mm"]), (d["to_mm"], d["line_mm"]),
-                         dxfattribs={"layer": "V0-SUGGESTED-FURN"})
-        else:
-            msp.add_line((d["line_mm"], d["from_mm"]), (d["line_mm"], d["to_mm"]),
-                         dxfattribs={"layer": "V0-SUGGESTED-FURN"})
-    print("suggested-furniture lines: %d"
-          % len(elements.get("dashed_suggested_furniture") or []))
+    # Suggested furniture is deliberately NOT exported - see the note above.
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     doc.saveas(args.out)
