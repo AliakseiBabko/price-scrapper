@@ -115,6 +115,46 @@ the worst at 394 mm. These are now small enough to be corner-ownership
 questions, which is what `wall_corners.csv` and `build_wall_corners.py` exist to
 settle.
 
+## The exported intermediate layer, and reading it back
+
+**Three artefacts, regenerated 2026-09-09 from current code:**
+
+| artefact | what it is |
+| :--- | :--- |
+| `data/canonical/v0_named_walls_placed.json` | the intermediate layer — 24 of 25 named walls on vector solids, segmented on drawn joints |
+| `data/canonical/v0_elements_extracted.json` | лоджия glazing, decorative slab, suggested furniture |
+| `data/cad/dxf/v0_developer_layout.dxf` | the AutoCAD export — 78 entities, extent **10205 × 10051 mm** |
+
+**`tools/layout/render_dxf.py` renders the DXF by READING THE DXF**, not the JSON
+it came from — so `_Drawings/review/v0_dxf_readback.png` is evidence about the
+exported file rather than about agreement between two of my own scripts. It is
+also the read half of the round trip the accepted design calls for.
+
+### ⚠️ What reading it back exposed, that the JSON render hid
+
+**`V0-WALL-LOGGIA` contains ONE polyline, not two, and there are 24 wall labels
+for 25 walls** — M6b has no geometry at all, because no 200 mm hatched solid
+exists where the model puts it. On a picture drawn from the JSON this was a thin
+bar that looked plausible; in the DXF it is simply absent, which is the honest
+representation.
+
+**The openings are measurably wrong, and not uniformly.** Measured against each
+host wall's own extent:
+
+| | |
+| :--- | :--- |
+| inside their host wall | O8, O7, O1, O4, O2, O3 — **6 of 8** |
+| **outside it** | **O6 by 766 mm**, **O5 by 1156 mm** |
+
+→ ⚠️ **And those two sit on G4d and G6 — the two walls whose own laid length
+disagrees most with the model.** So "openings are raster-routed" is not the whole
+diagnosis: **where the wall itself is misplaced, its opening cannot land on it
+regardless of which transform positioned it.** Fixing the transform alone would
+move O5 and O6 onto walls that are themselves wrong.
+
+**The лоджия glazing floats free** of M2 and the absent M6b, bottom-left — three
+disconnected pieces where the flat should close.
+
 ## Still missing
 
 - **The лоджия's M2 / M6b are exported as axis-aligned bars** — the real
