@@ -39,6 +39,7 @@ scripts/structural_assembly_selftest.py.
 """
 from __future__ import print_function
 
+import codecs
 import csv
 import io
 import math
@@ -61,16 +62,71 @@ KNOWN_STATUS = {'derived_from_vector_plan', 'measured_on_site',
 # a missing value: it reads as an answer.
 KNOWN_FIELD_VERIFIED = {'yes', 'no'}
 MIN_AREA_M2 = 1e-6
+
+# !! Characters that make two strings LOOK equal and compare unequal, or that
+# survive into a consumer and break it. CODEX round 4 passed a BOM-prefixed
+# assembly id straight through by using it CONSISTENTLY in all three files:
+# referential integrity held, every join matched, and the id was still wrong.
+# Consistency is not validity. verify_batch.py has a BOM check, but it only
+# scans files changed between two refs, so it is not the gate for this data.
+INVISIBLE = tuple(chr(c) for c in (
+    0xFEFF,   # BOM / zero-width no-break space
+    0x200B,   # zero-width space
+    0x200C,   # zero-width non-joiner
+    0x200D,   # zero-width joiner
+    0x00A0,   # no-break space -- looks exactly like a space and is not
+    0x2060,   # word joiner
+))
+RESTKEY = '__extra_cells__'
 AREA_TOL_M2 = 0.0005
 REQUIRED_VERTEX_FIELDS = ('source_drawing', 'source_entity', 'status',
                           'field_verified')
 
 
 def read(path):
+    """Rows, or None if absent. Extra cells are CAPTURED, not swallowed.
+
+    !! csv.DictReader silently drops cells with no header unless restkey is set,
+    so a stray or mistyped column vanished without comment - CODEX round 4 got a
+    PASS out of exactly that. Missing cells become None for the same reason and
+    are equally invisible. Both are now visible to check_arity().
+    """
     if not os.path.exists(path):
         return None
-    with io.open(path, encoding='utf-8') as f:
-        return list(csv.DictReader(f))
+    with io.open(path, encoding='utf-8', newline='') as f:
+        rdr = csv.DictReader(f, restkey=RESTKEY)
+        return list(rdr)
+
+
+def check_arity(path, rows):
+    """Every row must have exactly the header's cells, and no invisibles."""
+    problems = []
+    name = os.path.basename(path)
+    with io.open(path, 'rb') as f:
+        head = f.read(3)
+    if head.startswith(codecs.BOM_UTF8):
+        problems.append('%s starts with a UTF-8 BOM' % name)
+    for i, r in enumerate(rows or [], start=2):
+        if RESTKEY in r:
+            problems.append('%s line %d has %d undeclared extra cell(s): %r'
+                            % (name, i, len(r[RESTKEY]), r[RESTKEY]))
+        for k, v in r.items():
+            if k == RESTKEY:
+                continue
+            if v is None:
+                problems.append('%s line %d is missing a value for %r'
+                                % (name, i, k))
+                continue
+            for ch in INVISIBLE:
+                if ch in v:
+                    problems.append('%s line %d field %r contains %r, an '
+                                    'invisible character that makes values '
+                                    'compare unequal while looking equal'
+                                    % (name, i, k, ch))
+            if any(ord(c) < 32 and c != chr(9) for c in v):
+                problems.append('%s line %d field %r contains a control '
+                                'character' % (name, i, k))
+    return problems
 
 
 def finite(value):
@@ -90,6 +146,40 @@ def finite(value):
     return f if math.isfinite(f) else None
 
 
+def _seg_cross(a, b, c, d):
+    """Do axis-aligned segments a-b and c-d touch anywhere?"""
+    def rng(p, q, i):
+        return (min(p[i], q[i]), max(p[i], q[i]))
+    ax, ay = rng(a, b, 0), rng(a, b, 1)
+    cx, cy = rng(c, d, 0), rng(c, d, 1)
+    return (ax[0] <= cx[1] and cx[0] <= ax[1]
+            and ay[0] <= cy[1] and cy[0] <= ay[1])
+
+
+def is_simple(pts):
+    """True if the closed rectilinear polygon does not touch or cross itself.
+
+    !! The shoelace formula is happy to integrate a self-intersecting polygon,
+    and the signed areas of the crossed lobes CANCEL - so a figure-eight can
+    report a perfectly plausible total. CODEX round 4 built one whose area came
+    out as a clean 18.0000 m2; reproducing it here gave 45.0000. Comparing a
+    recomputed area against a recorded one therefore proves nothing about the
+    shape unless the shape is known to be simple first.
+
+    Only NON-ADJACENT edge pairs are tested: consecutive edges legitimately
+    share exactly one endpoint.
+    """
+    n = len(pts)
+    edges = [(pts[i], pts[(i + 1) % n]) for i in range(n)]
+    for i in range(n):
+        for j in range(i + 1, n):
+            if j == i or (j - i) % n == 1 or (i - j) % n == 1:
+                continue
+            if _seg_cross(edges[i][0], edges[i][1], edges[j][0], edges[j][1]):
+                return False, (i, j)
+    return True, None
+
+
 def shoelace_m2(pts):
     s = 0.0
     for i in range(len(pts)):
@@ -106,6 +196,7 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
     blocks = read(blocks_path)
     if blocks is None:
         return ['wall_blocks.csv is missing']
+    problems.extend(check_arity(blocks_path, blocks))
     wall_ids = set(r['wall_id'] for r in blocks)
 
     declared = {}
@@ -118,6 +209,8 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
             declared[r['wall_id']] = sid
 
     assemblies = read(assemblies_path)
+    if assemblies is not None:
+        problems.extend(check_arity(assemblies_path, assemblies))
     if assemblies is None:
         if declared:
             problems.append('walls %s declare an assembly but %s is missing'
@@ -172,6 +265,8 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
                             'that structural_element_id' % (aid, wid))
 
     verts = read(vertices_path)
+    if verts is not None:
+        problems.extend(check_arity(vertices_path, verts))
     if verts is None:
         problems.append('%s is missing; assembly footprints have no coordinates'
                         % os.path.basename(vertices_path))
@@ -236,6 +331,14 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
                                 'vertical (%.1f,%.1f)-(%.1f,%.1f); this model is '
                                 'orthogonal' % (aid, i, (i + 1) % len(pts),
                                                 x0, y0, x1, y1))
+        simple, where = is_simple(pts)
+        if not simple:
+            problems.append('%s: the footprint touches or crosses itself at '
+                            'edges %d and %d; a self-intersecting polygon can '
+                            'still produce a plausible shoelace area, so the '
+                            'area check cannot vouch for it' % (aid, where[0],
+                                                                where[1]))
+            continue
         got = shoelace_m2(pts)
         want = finite(a.get('footprint_area_m2'))
         if want is None:
