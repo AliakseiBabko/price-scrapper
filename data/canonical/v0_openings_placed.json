@@ -1,0 +1,74 @@
+{
+ "id": "zk-dubravinskiy-v0-openings-placed",
+ "status": "DRAFT",
+ "what": "Named openings positioned from the vector drawing's own reveal lines, replacing the raster-fit transform.",
+ "method": "hatch-gap span snapped to perpendicular lines crossing >=45% of the wall thickness",
+ "openings": [
+  {
+   "opening_id": "O4",
+   "wall_id": "MA",
+   "solid_id": "S06",
+   "axis": "EW",
+   "face_lo_mm": 9050.6,
+   "face_hi_mm": 9350.3,
+   "from_mm": 4351.0,
+   "to_mm": 5731.0,
+   "width_mm": 1380.0,
+   "named_width_mm": null,
+   "source": "vector reveal lines"
+  },
+  {
+   "opening_id": "O2",
+   "wall_id": "MB",
+   "solid_id": "S02",
+   "axis": "EW",
+   "face_lo_mm": 7560.6,
+   "face_hi_mm": 7860.6,
+   "from_mm": 6731.0,
+   "to_mm": 8531.0,
+   "width_mm": 1800.0,
+   "named_width_mm": 1760.0,
+   "source": "vector reveal lines"
+  },
+  {
+   "opening_id": "O3",
+   "wall_id": "MC",
+   "solid_id": "S04",
+   "axis": "EW",
+   "face_lo_mm": 8230.6,
+   "face_hi_mm": 8530.6,
+   "from_mm": 10235.9,
+   "to_mm": 12035.9,
+   "width_mm": 1800.0,
+   "named_width_mm": 1763.0,
+   "source": "vector reveal lines"
+  }
+ ],
+ "unplaced": [
+  {
+   "opening_id": "O8",
+   "wall_id": "G2",
+   "why": "no drawn gap inside G2 matches its 1010.0 mm width"
+  },
+  {
+   "opening_id": "O7",
+   "wall_id": "G4C",
+   "why": "no drawn gap inside G4C matches its 710.0 mm width"
+  },
+  {
+   "opening_id": "O1",
+   "wall_id": "G4C",
+   "why": "no drawn gap inside G4C matches its 710.0 mm width"
+  },
+  {
+   "opening_id": "O6",
+   "wall_id": "G4d",
+   "why": "no drawn gap inside G4d matches its 910.0 mm width"
+  },
+  {
+   "opening_id": "O5",
+   "wall_id": "G6",
+   "why": "no drawn gap inside G6 matches its 910.0 mm width"
+  }
+ ]
+}

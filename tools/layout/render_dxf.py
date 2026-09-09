@@ -40,8 +40,8 @@ STYLE = {
     'V0-WALL-LOGGIA': ((240, 168, 226), (196, 46, 172), 'лоджия enclosure'),
     'V0-LOGGIA-GLAZING': ((120, 200, 235), (30, 80, 120), 'лоджия glazing'),
     'V0-SLAB-EXTENSION': ((252, 240, 176), (196, 168, 20), 'decorative slab'),
-    'V0-OPENING': (None, (30, 120, 200), 'opening (raster-routed)'),
-    'V0-SUGGESTED-FURN': (None, (235, 145, 20), 'SUGGESTED furniture'),
+    'V0-OPENING': (None, (30, 120, 200), 'opening (from the vector)'),
+
     'V0-WALL-LABEL': (None, (20, 20, 20), None),
 }
 DRAW_ORDER = ['V0-SLAB-EXTENSION', 'V0-WALL-CONCRETE', 'V0-WALL-AERATED',
@@ -158,15 +158,20 @@ def main():
         dr.text((lx + 38, y), label, fill=(20, 20, 20), font=f_s)
         y += 23
     y += 14
-    dr.text((lx, y), 'Known defect', fill=(200, 40, 40), font=f_m)
+    dr.text((lx, y), 'Still open', fill=(200, 40, 40), font=f_m)
     y += 24
-    for line in ('The V0-OPENING layer is still',
-                 'positioned through the raster fit,',
-                 'not the vector — walls are',
-                 'vector-native, openings are not.',
-                 'Top item in plan §4.3.'):
+    for line in ('M6b absent — no 200 mm solid',
+                 '   exists where the model puts it,',
+                 '   so the лоджия does not close',
+                 'M2 drawn axis-aligned; the real',
+                 '   лоджия wall splays',
+                 'glazing detached from both',
+                 '5 internal doors OMITTED, not',
+                 '   guessed: O1 O5 O6 O7 O8 —',
+                 '   their reveals are drawn',
+                 '   differently in thin walls'):
         dr.text((lx, y), line, fill=(200, 40, 40), font=f_s)
-        y += 18
+        y += 17
     y += 12
     for line in ('Project dimensions. As-built runs',
                  '1.0–1.9% smaller. DRAFT.'):
