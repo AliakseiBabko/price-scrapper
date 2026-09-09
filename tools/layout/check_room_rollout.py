@@ -47,6 +47,10 @@ import io
 import os
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.tabular import (check_unique, check_vocabulary,  # noqa: E402
+                         finite, read_csv)
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
 ROLL = os.path.join(REPO, 'data', 'canonical', 'room_rollouts.csv')
@@ -54,12 +58,42 @@ CLOSE_TOL_MM = 50.0        # the BUILD tolerance; see Geometry_Variance_Study.md
 
 OPP = {'E': 'W', 'W': 'E', 'N': 'S', 'S': 'N'}
 
+# Closed vocabularies. !! Seeded 2026-09-09: `kind` misspelled as 'openning'
+# was ACCEPTED, and it silently turned an opening into finishable wall area -
+# inflating the finishable figure this tool exists to report, with no error and
+# a perfectly plausible total. A presence check cannot see that; only a
+# vocabulary can.
+KINDS = {'wall_face', 'step', 'opening', 'shaft_face', 'plumbing_face'}
+DIRECTIONS = set(OPP)
+
 
 def load():
+    """Rooms, or exit non-zero if the file is not fit to add up.
+
+    Three checks that were absent until 2026-09-09, each demonstrated by a seed
+    the old version accepted: the file's SHAPE (a stray cell was dropped, a
+    missing one became None), the two VOCABULARIES, and the UNIQUENESS of
+    room_id+seq - seq is the walk order round the room, so a duplicate makes the
+    order ambiguous and the sort arbitrary.
+    """
+    rows, problems = read_csv(ROLL, strict=False)
+    problems += check_vocabulary(ROLL, rows, 'kind', KINDS)
+    problems += check_vocabulary(ROLL, rows, 'direction', DIRECTIONS)
+    problems += check_unique(ROLL, rows, ('room_id', 'seq'))
+    for i, r in enumerate(rows, start=2):
+        for col in ('length_mm', 'height_mm'):
+            if finite(r.get(col)) is None:
+                problems.append('%s line %d: %s = %r is not a finite number'
+                                % (os.path.basename(ROLL), i, col, r.get(col)))
+    if problems:
+        print('FAIL - room_rollouts.csv is not fit to add up:')
+        for p in problems:
+            print('  %s' % p)
+        sys.exit(1)
+
     rooms = collections.OrderedDict()
-    with io.open(ROLL, encoding='utf-8') as f:
-        for r in csv.DictReader(f):
-            rooms.setdefault(r['room_id'], []).append(r)
+    for r in rows:
+        rooms.setdefault(r['room_id'], []).append(r)
     for k in rooms:
         rooms[k].sort(key=lambda r: int(r['seq']))
     return rooms
