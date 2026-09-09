@@ -143,6 +143,28 @@ def main():
     msp = doc.modelspace()
 
     fixes = close_corners(walls)
+    # The invariant, reported every run: once the owned corners are added, a
+    # wall's DRAWN extent must equal its recorded solid_mm. Laying at clear and
+    # then closing corners is the only way that holds; laying at solid and
+    # closing counted them twice, which is how R8 came out 2390 against 2090.
+    blocks = {r["wall_id"]: r for r in
+              csv.DictReader(io.open(os.path.join("data", "canonical",
+                                                  "wall_blocks.csv"),
+                                     encoding="utf-8"))}
+    off = []
+    for w in walls:
+        s_mm = blocks.get(w["wall_id"], {}).get("solid_mm")
+        if not s_mm or w.get("from_mm") is None:
+            continue
+        drawn = w["to_mm"] - w["from_mm"]
+        if abs(drawn - float(s_mm)) > 15.0:
+            off.append((w["wall_id"], drawn, float(s_mm)))
+    print("drawn == solid_mm: %d of %d walls within 15 mm"
+          % (sum(1 for w in walls if w.get("from_mm") is not None) - len(off),
+             sum(1 for w in walls if w.get("from_mm") is not None)))
+    for wid, drawn, want in sorted(off, key=lambda t: -abs(t[1] - t[2])):
+        print("   %-5s drawn %8.1f  solid_mm %8.0f  %+8.1f" % (wid, drawn, want, drawn - want))
+
     print("corners closed: %d" % len(fixes))
     for cid, own, oth, gain, end in fixes:
         print("   %-12s %s extended %+.0f mm at its %s, over %s"
