@@ -76,10 +76,16 @@ Dialogue state: `ai-management/management/dialogue/PRICE_SCRAPPER_KNOWLEDGE_INTA
 Turn 1 (CLAUDE, plan draft) recorded 2026-08-20; turn 2 (CODEX) prepared at
 `ai-management/management/dialogue/PRICE_SCRAPPER_KNOWLEDGE_INTAKE_OPTIMIZATION_NEXT_TURN.md`.
 
-**Active dialogue, opened 2026-09-09**: `VECTOR_PLAN_TO_MODEL_EXTRACTION` — a
-request for a **Codex second opinion** on whether extracting the developer's
-vector PDF into the wall model is the right approach at all, after the owner
-challenged it as reinventing the wheel. Canonical brief:
+**CLOSED 2026-09-09 after 10 turns**: `VECTOR_PLAN_TO_MODEL_EXTRACTION` — a
+**Codex second opinion** on whether extracting the developer's vector PDF into
+the wall model was the right approach at all, after the owner challenged it as
+reinventing the wheel. **Both acceptance criteria met, verification `pass`.**
+Verdict: **change shape** — keep the PDF work as a frozen one-drawing adapter,
+and build the durable CAD round trip on a versioned DXF/`ezdxf` contract. Five
+adversarial rounds found 5, then 3, then 3 real defects in this repo's own
+tooling. **Non-blocking follow-up is carried in
+`_Inbox/planning/validator_class_audit_backlog.md`.** Superseded text follows
+for the audit trail. Canonical brief:
 `ai-management/management/VECTOR_PLAN_TO_MODEL_EXTRACTION_IMPLEMENTATION_PLAN.md`.
 Turn 1 (CLAUDE) recorded 2026-09-09; **turn 2 (CODEX) is prepared and waiting**
 at `ai-management/management/dialogue/VECTOR_PLAN_TO_MODEL_EXTRACTION_NEXT_TURN.md`.
