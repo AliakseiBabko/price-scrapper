@@ -1,51 +1,46 @@
 #!/usr/bin/env python3
-"""Place the EXISTING named walls in millimetres, as contiguous straight chains.
+"""Attach the EXISTING wall names to the vector plan's own wall solids.
 
-Why this tool exists
---------------------
+The architecture, and why it changed twice
+-----------------------------------------
 Owner, 2026-09-08: *"We already have all the wall segments. We determine the
-thickness, the length. So you're kind of doing double job."* Correct --
-`data/canonical/wall_blocks.csv` already holds 25 named walls with
-owner-confirmed classes, thicknesses and lengths, and `wall_openings.csv` holds
-10 openings. The only thing the model lacked was POSITION: `wall_runs.csv` is in
-BASIC-PLAN PIXELS, which is why `project_decisions.md` calls the wall ids
-"regions on a raster, not named shell walls".
+thickness, the length. So you're kind of doing double job."* -- so the walls are
+not re-derived. `wall_blocks.csv` holds 25 named walls with owner-confirmed
+classes, thicknesses and lengths; the model lacked only POSITION, because
+`wall_runs.csv` is in basic-plan pixels.
 
-Why the CHAIN is the unit, not the wall
----------------------------------------
-Owner, 2026-09-08, on the first attempt: *"There shouldn't be any overlapping in
-boxes or voids between the wall. They should touch each other... I did it
-deliberately, like, without any gap... This should be, like, one straight
-segment."* And specifically: *"junction between G3 and R3 ... there is a gap and
-R3 extends beyond the line of external wall created by G2, R3, G3"*, and *"R1a
-extends beyond the line created by R1b, G4a, R6"*.
+Owner, 2026-09-09, on the second attempt: *"It looks like this is interpretation
+of the vector image, not the real displacement... build a processed image where
+I overlay this PDF document, everything is aligned. For example R4, G8 and R8 --
+they completely off the line... they randomly scattered."*
 
-Both faults had ONE cause: the first version snapped **each wall separately** to
-whichever vector face pair was nearest, so walls the model deliberately built as
-one straight run drifted off each other and grew visible steps and gaps.
+**He is right and the diagnosis is exact.** The previous version routed every
+POSITION through an affine fit of basic-plan pixels. That fit has a 3.3%
+anisotropy between its two axes and per-wall residuals up to 93 mm, so it
+scattered walls the drawing had drawn perfectly aligned. Proof, on his own
+example -- in the vector:
 
-**So walls sharing a pixel coordinate are grouped into a CHAIN, the chain is
-snapped ONCE, and the walls are laid along it end to end.** A chain is straight
-by construction and contiguous by construction; a gap or an overlap inside one
-becomes impossible rather than merely unlikely.
+    R8  250   faces 5881.0 / 6131.0    along  7610.6 ..  9350.6
+    G8   75   faces 6056.0 / 6131.0    along  9350.6 .. 12600.3
+    R4  250   faces 6056.0 / 6305.9    along 12600.3 .. 13650.3
 
-Why the snap is HATCH-VALIDATED
--------------------------------
-Owner: *"as for the MC wall, it's displaced. You should move it upward... it's
-overlapped with that external element -- a extension of a concrete slab between
-the floors, decorative element, but actual wall is above."*
+R8 and G8 share the face 6131.0; G8 and R4 share 6056.0; and their ends meet
+exactly. **The drawing already contains touching, aligned walls.** The old code
+placed G8 at 5981/6056 -- out by 75 mm, exactly one wall thickness.
 
-He is right, and the mechanism is worth recording: the decorative slab projects
-outward from the façade and its own edges are perfectly good face lines, so a
-nearest-face-pair snap put MC on the SLAB rather than on the wall. **A wall is a
-hatched solid, so the snap now requires hatch between the two faces** -- the
-slab is not hatched, and MC lands on the wall.
+So the rule is now:
 
-!! Insulation is NOT modelled as a layer. Owner, 2026-09-08: it may be removed
-   or left in place, so external walls stay at their recorded 300 mm.
+  **GEOMETRY comes from the vector solids. The pixel fit is used ONLY to decide
+  WHICH named wall belongs to which solid, never to position anything.**
 
-!! The recorded clear_mm / solid_mm remain the length of record. Where a laid
-   length disagrees with them the tool REPORTS it rather than adjusting either.
+A solid is a hatch-validated face pair -- a wall is a hatched solid, which is
+also what keeps MC off the decorative slab projecting beside it. Where several
+named walls share one solid (a chain), their RECORDED lengths are laid along it
+in order, so a gap or overlap between them is impossible.
+
+!! Insulation is not modelled as a layer, per the owner: external walls stay at
+   their recorded thickness.
+!! These are PROJECT dimensions; the as-built runs 1.0-1.9% smaller.
 """
 import argparse
 import bisect
@@ -64,35 +59,20 @@ PDF = os.path.join("_Inbox", "_Visual_Drop", "3Б_3+ МН5_287.pdf")
 
 FIT_TOL_MM = 25.0
 AXIS_SCALE_AGREEMENT = 0.06
-THICK_TOL_MM = 8.0
-CHAIN_PX_TOL = 4.0          # walls this close in pixels are one straight run
-MIN_HATCH_COVER = 0.10      # a wall is a hatched solid; the slab is not
+THICK_MATCH_MM = 12.0        # a named wall may only take a solid of its thickness
+CROSS_MAX_MM = 400.0         # how far the fit may be wrong and still identify
+# A wall continues through its door, so collinear solids sharing a face pair are
+# merged across a gap up to a wide doorway. The flat's widest opening is the
+# 1455 mm O10 passway; 1500 leaves margin without bridging a whole room.
+MERGE_OVER_OPENING_MM = 1500.0
 
-# A chain SPLITS where its members are further apart than this. Collinear is not
-# contiguous: R5 and R9 sit on the same line with a 3.4 m room between them, and
-# closing that "gap" would invent a wall across the middle room.
-SPLIT_GAP_MM = 300.0
-
-# How far a chain END may be pulled onto the perpendicular face it butts into.
-END_SNAP_MM = 160.0
-
-# R3 + G3 = 5830 mm, from the owner's top-edge chain 2115 + 400 + 3315, with the
-# split point undimensioned on every plan. wall_blocks.csv records the pair total
-# in prose only, so it is restated here as data the layer can use.
 PAIR_TOTALS = {("R3", "G3"): 5830.0}
 
-# The owner's own colour key, from _Inbox/_Visual_Drop/floor_plan_basic_all_walls.jpg
 CLASS_COLOUR = {
-    "concrete": (215, 40, 40),            # red   - the RC frame
-    "aerated_block": (40, 170, 60),       # green - internal block
-    "external": (225, 90, 200),           # pink  - the warm perimeter, 300
-    "loggia_enclosure": (225, 90, 200),   # pink  - лоджия enclosure
-}
-CLASS_ACI = {                             # AutoCAD colour index, same key
-    "concrete": 1,
-    "aerated_block": 3,
-    "external": 6,
-    "loggia_enclosure": 6,
+    "concrete": (215, 40, 40),
+    "aerated_block": (40, 170, 60),
+    "external": (225, 90, 200),
+    "loggia_enclosure": (225, 90, 200),
 }
 
 
@@ -140,13 +120,14 @@ def _nearest(lines, v):
 
 
 def fit_axis(px_values, face_lines, tol=FIT_TOL_MM, scale_hint=None):
-    """RANSAC mm = a*px + b, scoring walls that land on a face line.
+    """RANSAC mm = a*px + b -- used for IDENTIFICATION ONLY.
 
-    !! A loose tolerance here produced a DEGENERATE HALF-SCALE fit that scored a
-    perfect 15/15: with 117 face lines over ~30 m a wall hits some line by
-    chance about half the time, and inlier count cannot separate a scale from a
-    submultiple of it. Hence the tight tolerance, the scale hint, and the
-    cross-axis agreement check in main().
+    !! Nothing is positioned by this. A loose tolerance once produced a
+    degenerate HALF-SCALE fit that scored a perfect 15/15, because with 117 face
+    lines a wall hits some line by chance about half the time and inlier count
+    cannot separate a scale from a submultiple. The tight tolerance, the scale
+    hint and the cross-axis check remain, but the fit's job is now only to say
+    which solid a name belongs to.
     """
     lines = sorted(face_lines)
     pairs = sorted(itertools.combinations(px_values, 2),
@@ -178,246 +159,221 @@ def fit_axis(px_values, face_lines, tol=FIT_TOL_MM, scale_hint=None):
     return best
 
 
-def snap_chain(value, thickness, lines, lo, hi, axis, hatch, ex):
-    """Face pair at `thickness` nearest `value` WHOSE INTERIOR IS HATCHED.
+def vector_solids(ex, plan, min_cover=0.15):
+    """Hatch-validated face pairs, merged where they are collinear and adjacent.
 
-    The hatch requirement is what keeps MC on the wall rather than on the
-    decorative slab projecting beside it.
+    These -- not the pixel runs -- are the geometry of record.
     """
-    cands = []
-    for f1 in lines:
-        for f2 in (f for f in lines if abs((f - f1) - thickness) <= THICK_TOL_MM):
-            d = min(abs(value - f1), abs(value - f2), abs(value - (f1 + f2) / 2.0))
-            hit, n, _ = ex.hatch_bins(hatch, (f1 + f2) / 2.0, lo, hi, axis)
-            cands.append((d, len(hit) / max(n, 1), f1, f2))
-    if not cands:
-        return None
-    solid = [c for c in cands if c[1] >= MIN_HATCH_COVER]
-    pick = min(solid or cands, key=lambda c: c[0])
-    return {"residual_mm": pick[0], "hatch_cover": pick[1],
-            "face_lo_mm": pick[2], "face_hi_mm": pick[3],
-            "on_hatched_solid": bool(solid)}
+    hor, ver, hatch = ex.collect(plan["segments"])
+    H, V = ex.merge_faces(hor), ex.merge_faces(ver)
+    runs = ex.dedupe(ex.build_runs(H, "EW", hatch, min_cover)
+                     + ex.build_runs(V, "NS", hatch, min_cover))
+    # A WALL CONTINUES THROUGH ITS DOOR. An opening carries no hatch, so a wall
+    # with a doorway in it arrives here as two solids -- which then pulls the
+    # named walls to the wrong side of the gap. The top wall is the clear case:
+    # split at the 1010 mm entrance door into 3230.9..5146.0 and
+    # 6155.9..12946.0, where merging the two gives 9715.1 mm against a recorded
+    # R1a + G2 + (R3+G3) of exactly 9715.
+    merged = []
+    for r in sorted(runs, key=lambda r: (r["axis"], r["face_lo_mm"], r["from_mm"])):
+        prev = merged[-1] if merged else None
+        if (prev and prev["axis"] == r["axis"]
+                and abs(prev["face_lo_mm"] - r["face_lo_mm"]) < 1.5
+                and abs(prev["face_hi_mm"] - r["face_hi_mm"]) < 1.5
+                and r["from_mm"] <= prev["to_mm"] + MERGE_OVER_OPENING_MM):
+            if r["from_mm"] > prev["to_mm"] + 2:
+                prev.setdefault("bridged_openings_mm", []).append(
+                    [round(prev["to_mm"], 1), round(r["from_mm"], 1)])
+            prev["to_mm"] = max(prev["to_mm"], r["to_mm"])
+            continue
+        merged.append(dict(r))
+    for i, s in enumerate(merged):
+        s["solid_id"] = "S%02d" % (i + 1)
+        s["length_mm"] = round(s["to_mm"] - s["from_mm"], 1)
+    return merged
 
 
-def split_chain(members):
-    """Collinear is not contiguous. Break where the members are far apart."""
-    members.sort(key=lambda w: w["from_mm"])
-    groups, cur = [], [members[0]]
-    for prev, w in zip(members, members[1:]):
-        if w["from_mm"] - prev["to_mm"] > SPLIT_GAP_MM:
-            groups.append(cur)
-            cur = [w]
-        else:
-            cur.append(w)
-    groups.append(cur)
-    return groups
+def clip_to_envelope(solids):
+    """Clip every solid to the flat's own envelope.
 
-
-def lay_recorded(members, start_mm, end_mm):
-    """Lay each wall's RECORDED length end to end from `start_mm`.
-
-    The pixel extents locate a chain but are NOT wall lengths -- G6's pixel run
-    measures 3076 mm against a recorded 1915, because the run was traced along
-    the whole partition line including its door. `solid_mm` is the length of
-    record, so the drawing supplies the chain's position and the model supplies
-    its parts. Laid end to end, a gap or an overlap inside a chain cannot occur.
-
-    Walls with no recorded length -- the R3 | G3 indeterminate split -- take a
-    known pair total where one exists, and the leftover is REPORTED as a
-    residual rather than quietly absorbed.
+    The drawing continues the neighbour's structure past this flat -- the SE
+    façade solid runs 1680.9..5881.0, some 1300 mm of it beyond the party wall --
+    so an unclipped solid makes a wall look far too long. The envelope is taken
+    from the outermost face of the perimeter solids themselves.
     """
+    xs = [f for s in solids if s["axis"] == "NS" for f in (s["face_lo_mm"], s["face_hi_mm"])]
+    ys = [f for s in solids if s["axis"] == "EW" for f in (s["face_lo_mm"], s["face_hi_mm"])]
+    env = {"x": (min(xs), max(xs)), "y": (min(ys), max(ys))}
+    for s in solids:
+        lo, hi = env["x"] if s["axis"] == "EW" else env["y"]
+        before = (s["from_mm"], s["to_mm"])
+        s["from_mm"] = round(max(s["from_mm"], lo), 1)
+        s["to_mm"] = round(min(s["to_mm"], hi), 1)
+        s["length_mm"] = round(s["to_mm"] - s["from_mm"], 1)
+        if (s["from_mm"], s["to_mm"]) != before:
+            s["clipped_from_mm"] = [round(before[0], 1), round(before[1], 1)]
+    return env
+
+
+def match(walls, solids, fx, fy):
+    """Assign each named wall to a vector solid, by thickness then proximity."""
+    for w in walls:
+        cross = fx if w["axis"] == "NS" else fy
+        along = fy if w["axis"] == "NS" else fx
+        w["pred_cross_mm"] = cross[2] * w["fixed_px"] + cross[3]
+        a0 = along[2] * w["lo_px"] + along[3]
+        a1 = along[2] * w["hi_px"] + along[3]
+        w["pred_from_mm"], w["pred_to_mm"] = min(a0, a1), max(a0, a1)
+
+        best = None
+        for s in solids:
+            if s["axis"] != w["axis"]:
+                continue
+            if abs(s["thickness_mm"] - w["thickness_mm"]) > THICK_MATCH_MM:
+                continue
+            centre = (s["face_lo_mm"] + s["face_hi_mm"]) / 2.0
+            dcross = min(abs(w["pred_cross_mm"] - s["face_lo_mm"]),
+                         abs(w["pred_cross_mm"] - s["face_hi_mm"]),
+                         abs(w["pred_cross_mm"] - centre))
+            if dcross > CROSS_MAX_MM:
+                continue
+            ov = min(w["pred_to_mm"], s["to_mm"]) - max(w["pred_from_mm"], s["from_mm"])
+            score = dcross - 0.35 * max(ov, 0.0)
+            if best is None or score < best[0]:
+                best = (score, dcross, ov, s)
+        w["solid"] = best[3] if best else None
+        w["match_cross_mm"] = round(best[1], 1) if best else None
+        w["match_overlap_mm"] = round(best[2], 1) if best else None
+    return walls
+
+
+def lay_on_solid(members, solid):
+    """Lay the members' RECORDED lengths in order along the solid's own extent."""
+    members.sort(key=lambda w: w["pred_from_mm"])
     known = [w for w in members if w["solid_mm"]]
     unknown = [w for w in members if not w["solid_mm"]]
-    span = end_mm - start_mm
+    span = solid["length_mm"]
     known_total = sum(float(w["solid_mm"]) for w in known)
-    remainder = span - known_total
-
     pair_total = PAIR_TOTALS.get(tuple(w["wall_id"] for w in unknown))
     if unknown:
         share = (pair_total if pair_total is not None
-                 else max(remainder, 0.0)) / len(unknown)
+                 else max(span - known_total, 0.0)) / len(unknown)
     else:
         share = 0.0
-
-    pos = start_mm
+    pos = solid["from_mm"]
     for w in members:
         L = float(w["solid_mm"]) if w["solid_mm"] else share
-        w["from_mm"] = round(pos, 1)
-        w["to_mm"] = round(pos + L, 1)
+        w["from_mm"], w["to_mm"] = round(pos, 1), round(pos + L, 1)
         w["laid_length_mm"] = round(L, 1)
-        if w["solid_mm"]:
-            w["length_from"] = "recorded solid_mm"
-        elif pair_total is not None:
-            w["length_from"] = "pair total %.0f, split evenly (undimensioned)" % pair_total
-        else:
-            w["length_from"] = "chain remainder"
+        w["length_from"] = ("recorded solid_mm" if w["solid_mm"]
+                            else ("pair total %.0f, split evenly (undimensioned)" % pair_total
+                                  if pair_total is not None else "solid remainder"))
         pos += L
-    return {"span_mm": round(span, 1),
-            "laid_total_mm": round(pos - start_mm, 1),
-            "residual_mm": round(end_mm - pos, 1),
+    return {"solid_span_mm": span, "laid_total_mm": round(pos - solid["from_mm"], 1),
+            "residual_mm": round(solid["to_mm"] - pos, 1),
             "pair_total_used_mm": pair_total}
 
 
-def overlay(plan, placed, out_png, ex, scale=0.115):
-    from PIL import Image, ImageDraw
-    segs = [[c * ex.MM_PER_PT for c in s] for s in plan["segments"]]
-    xs = [v for s in segs for v in (s[0], s[2])]
-    ys = [v for s in segs for v in (s[1], s[3])]
-    x0, y0 = min(xs), min(ys)
-    W = int((max(xs) - x0) * scale) + 20
-    H = int((max(ys) - y0) * scale) + 20
-    img = Image.new("RGB", (W, H), "white")
-    dr = ImageDraw.Draw(img)
-
-    def px(x, y):
-        return ((x - x0) * scale + 10, H - ((y - y0) * scale + 10))
-
-    for s in segs:
-        dr.line([px(s[0], s[1]), px(s[2], s[3])], fill=(215, 215, 215))
-    for w in placed:
-        if w.get("face_lo_mm") is None:
-            continue
-        if w["axis"] == "EW":
-            a, b = px(w["from_mm"], w["face_lo_mm"]), px(w["to_mm"], w["face_hi_mm"])
-        else:
-            a, b = px(w["face_lo_mm"], w["from_mm"]), px(w["face_hi_mm"], w["to_mm"])
-        box = [min(a[0], b[0]), min(a[1], b[1]), max(a[0], b[0]), max(a[1], b[1])]
-        dr.rectangle(box, outline=CLASS_COLOUR.get(w["class"], (100, 100, 100)), width=2)
-        dr.text((box[0] + 2, (box[1] + box[3]) / 2 - 4), w["wall_id"], fill=(0, 0, 0))
-    img.save(out_png)
-    return img.size
-
-
 def main():
-    ap = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--pdf", default=PDF)
     ap.add_argument("--out")
-    ap.add_argument("--overlay")
     args = ap.parse_args()
 
     ex = _extractor()
     plan = ex._load_parser().parse(args.pdf)
-    hor, ver, hatch = ex.collect(plan["segments"])
+    hor, ver, _h = ex.collect(plan["segments"])
     HY, VX = sorted(ex.merge_faces(hor)), sorted(ex.merge_faces(ver))
+    solids = vector_solids(ex, plan)
+    env = clip_to_envelope(solids)
+    print("vector solids (hatch-validated, merged over openings, clipped): %d" % len(solids))
+    print("flat envelope: x %.1f..%.1f   y %.1f..%.1f"
+          % (env["x"][0], env["x"][1], env["y"][0], env["y"][1]))
 
     walls = load_walls()
     vert = [w for w in walls if w["axis"] == "NS"]
     horz = [w for w in walls if w["axis"] == "EW"]
-
     fy = fit_axis([w["fixed_px"] for w in horz], HY)
     fx = fit_axis([w["fixed_px"] for w in vert], VX, scale_hint=abs(fy[2]))
-    if abs(abs(fx[2]) - abs(fy[2])) / abs(fy[2]) > AXIS_SCALE_AGREEMENT:
-        sys.exit("axis scales disagree: x %.4f vs y %.4f -- one is aliased"
-                 % (fx[2], fy[2]))
-    print("x: mm = %.4f*px + %.1f   (%d/%d on a face line)"
-          % (fx[2], fx[3], fx[0], len(vert)))
-    print("y: mm = %.4f*px + %.1f   (%d/%d on a face line)"
-          % (fy[2], fy[3], fy[0], len(horz)))
+    print("identification fit only:  x %.4f mm/px,  y %.4f mm/px" % (fx[2], fy[2]))
 
-    chains = []
+    match(walls, solids, fx, fy)
+    groups = {}
+    unmatched = []
     for w in walls:
-        for c in chains:
-            if (c["axis"] == w["axis"]
-                    and abs(c["fixed_px"] - w["fixed_px"]) <= CHAIN_PX_TOL
-                    and abs(c["thickness_mm"] - w["thickness_mm"]) < 1):
-                c["members"].append(w)
-                break
+        if w["solid"] is None:
+            unmatched.append(w)
         else:
-            chains.append({"axis": w["axis"], "fixed_px": w["fixed_px"],
-                           "thickness_mm": w["thickness_mm"], "members": [w]})
+            groups.setdefault(w["solid"]["solid_id"], []).append(w)
 
-    placed, chain_report = [], []
-    for ci, c in enumerate(chains):
-        cross = fx if c["axis"] == "NS" else fy
-        along = fy if c["axis"] == "NS" else fx
-        lines = VX if c["axis"] == "NS" else HY
-        for w in c["members"]:
-            a0 = along[2] * w["lo_px"] + along[3]
-            a1 = along[2] * w["hi_px"] + along[3]
-            w["from_mm"] = round(min(a0, a1), 1)
-            w["to_mm"] = round(max(a0, a1), 1)
-        perp = HY if c["axis"] == "NS" else VX
-        for si, sub in enumerate(split_chain(c["members"])):
-            lo = min(w["from_mm"] for w in sub)
-            hi = max(w["to_mm"] for w in sub)
-            v = cross[2] * c["fixed_px"] + cross[3]
-            s = snap_chain(v, c["thickness_mm"], lines, lo, hi, c["axis"], hatch, ex)
-            # pull each end onto the perpendicular wall face it butts into
-            ends = []
-            for end in (lo, hi):
-                near = min(perp, key=lambda t: abs(t - end))
-                ends.append(near if abs(near - end) <= END_SNAP_MM else end)
-            lay = lay_recorded(sub, ends[0], ends[1])
-            cid = "chain_%02d_%d" % (ci + 1, si + 1)
-            for w in sub:
-                rec = {k: v2 for k, v2 in w.items()
-                       if k not in ("fixed_px", "lo_px", "hi_px")}
-                rec["chain"] = cid
-                rec["face_lo_mm"] = round(s["face_lo_mm"], 1) if s else None
-                rec["face_hi_mm"] = round(s["face_hi_mm"], 1) if s else None
-                placed.append(rec)
-            chain_report.append({
-                "chain": cid, "axis": c["axis"], "thickness_mm": c["thickness_mm"],
-                "walls": [w["wall_id"] for w in sub],
-                "face_lo_mm": round(s["face_lo_mm"], 1) if s else None,
-                "face_hi_mm": round(s["face_hi_mm"], 1) if s else None,
-                "snap_residual_mm": round(s["residual_mm"], 1) if s else None,
-                "on_hatched_solid": s["on_hatched_solid"] if s else None,
-                "hatch_cover": round(s["hatch_cover"], 2) if s else None,
-                "start_mm": round(ends[0], 1), "end_mm": round(ends[1], 1),
-                "ends_snapped_mm": [round(ends[0] - lo, 1), round(ends[1] - hi, 1)],
-                "lay": lay,
-            })
+    report = []
+    for sid, members in sorted(groups.items()):
+        solid = members[0]["solid"]
+        lay = lay_on_solid(members, solid)
+        report.append({"solid_id": sid, "axis": solid["axis"],
+                       "thickness_mm": solid["thickness_mm"],
+                       "face_lo_mm": solid["face_lo_mm"], "face_hi_mm": solid["face_hi_mm"],
+                       "from_mm": solid["from_mm"], "to_mm": solid["to_mm"],
+                       "walls": [w["wall_id"] for w in members], "lay": lay})
 
-    print("\n%d chains from %d walls" % (len(chains), len(walls)))
-    print("%-9s %-4s %-5s %-9s %-9s %-7s %-6s %s"
-          % ("chain", "axis", "t", "face_lo", "face_hi", "resid", "solid", "walls"))
-    for r in chain_report:
-        print("%-9s %-4s %-5.0f %-9.1f %-9.1f %-7.1f %-6s %s"
-              % (r["chain"], r["axis"], r["thickness_mm"], r["face_lo_mm"],
-                 r["face_hi_mm"], r["snap_residual_mm"],
-                 "yes" if r["on_hatched_solid"] else "NO", ", ".join(r["walls"])))
+    print("\n%-5s %-4s %-5s %-9s %-9s %-9s %-9s %-8s %s"
+          % ("solid", "ax", "t", "face_lo", "face_hi", "from", "to", "resid", "walls"))
+    for r in sorted(report, key=lambda r: (r["axis"], r["face_lo_mm"])):
+        print("%-5s %-4s %-5.0f %-9.1f %-9.1f %-9.1f %-9.1f %+-8.1f %s"
+              % (r["solid_id"], r["axis"], r["thickness_mm"], r["face_lo_mm"],
+                 r["face_hi_mm"], r["from_mm"], r["to_mm"],
+                 r["lay"]["residual_mm"], ", ".join(r["walls"])))
 
-    print("\nchain closure -- the drawing's span against the sum of recorded lengths:")
-    for r in chain_report:
-        lay = r["lay"]
-        mark = "" if abs(lay["residual_mm"]) <= 60 else "   <-- CHECK"
-        print("   %-12s span %7.1f  laid %7.1f  residual %+7.1f%s   %s"
-              % (r["chain"], lay["span_mm"], lay["laid_total_mm"],
-                 lay["residual_mm"], mark, ", ".join(r["walls"])))
+    if unmatched:
+        print("\n⚠ UNMATCHED -- no hatched vector solid of this thickness nearby:")
+        for w in unmatched:
+            print("   %-5s %-16s t=%3.0f  predicted cross %.1f"
+                  % (w["wall_id"], w["class"], w["thickness_mm"], w["pred_cross_mm"]))
 
-    if args.overlay:
-        print("\noverlay %s %s" % (args.overlay, overlay(plan, placed, args.overlay, ex)))
+    placed = []
+    for w in walls:
+        rec = {k: v for k, v in w.items()
+               if k not in ("fixed_px", "lo_px", "hi_px", "solid")}
+        rec["solid_id"] = w["solid"]["solid_id"] if w["solid"] else None
+        if w["solid"]:
+            rec["face_lo_mm"] = w["solid"]["face_lo_mm"]
+            rec["face_hi_mm"] = w["solid"]["face_hi_mm"]
+        else:
+            rec["face_lo_mm"] = rec["face_hi_mm"] = None
+            rec["from_mm"] = rec["to_mm"] = None
+        placed.append(rec)
+
+    print("\nmatched %d of %d walls onto %d solids"
+          % (len(walls) - len(unmatched), len(walls), len(report)))
+
     if args.out:
         json.dump({
             "id": "zk-dubravinskiy-v0-named-walls-placed",
-            "status": "DRAFT - positions fitted, not owner-reviewed.",
-            "what": ("The 25 NAMED walls of wall_blocks.csv, placed in millimetres from "
-                     "the vector plan as CONTIGUOUS STRAIGHT CHAINS. Classes, thicknesses "
-                     "and lengths come from the existing model and are not re-derived."),
-            "authoritative_for": "POSITION only. clear_mm / solid_mm stay the length of record.",
-            "conventions": {
-                "chains": ("Walls sharing a pixel coordinate and a thickness are one "
-                           "straight run. Snapped once, then laid end to end, so a gap "
-                           "or overlap inside a chain is impossible by construction."),
-                "hatch_validated_snap": ("A wall is a hatched solid, so a face pair with "
-                                         "no hatch between it is rejected. That is what "
-                                         "keeps MC off the decorative slab beside it."),
-                "insulation": ("NOT modelled as a layer, per the owner: it may be removed "
-                               "or left. External walls stay at their recorded 300 mm."),
-                "colour_key": ("The owner's own markup, "
-                               "_Inbox/_Visual_Drop/floor_plan_basic_all_walls.jpg: "
-                               "red concrete frame, green internal aerated block, "
-                               "pink external and лоджия enclosure."),
-            },
-            "transform_basic_px_to_mm": {
+            "status": "DRAFT - not owner-reviewed.",
+            "what": ("The 25 NAMED walls of wall_blocks.csv attached to the vector plan's "
+                     "own hatch-validated wall solids. GEOMETRY comes from the vector; the "
+                     "pixel fit is used only to decide which name belongs to which solid."),
+            "why": ("Owner, 2026-09-09: routing positions through the basic-plan pixel fit "
+                    "scattered walls the drawing had drawn aligned -- R8/G8/R4 share faces "
+                    "exactly in the vector and were placed up to one wall thickness apart. "
+                    "The fit has a 3.3% anisotropy and residuals to 93 mm; the vector does not."),
+            "authoritative_for": "POSITION and FACES. clear_mm / solid_mm stay the length of record.",
+            "identification_fit_basic_px_to_mm": {
                 "x": {"a": round(fx[2], 5), "b": round(fx[3], 2)},
                 "y": {"a": round(fy[2], 5), "b": round(fy[3], 2)},
-                "note": ("y is negative because basic-plan pixels run downward and the "
-                         "PDF's y runs upward."),
+                "use": ("IDENTIFICATION ONLY -- deciding which solid a name belongs to. "
+                        "No wall face or extent comes from this. Still needed to place "
+                        "OPENING spans, which exist only as basic-plan pixels in "
+                        "wall_opening_spans.csv; those inherit the fit's error until the "
+                        "openings are matched to the vector's own unhatched gaps."),
+                "known_error": ("3.3% anisotropy between the axes, per-wall residuals to "
+                                "93 mm. This is exactly why geometry no longer uses it."),
             },
-            "chains": chain_report,
+            "flat_envelope_mm": {"x": [round(env["x"][0], 1), round(env["x"][1], 1)],
+                                 "y": [round(env["y"][0], 1), round(env["y"][1], 1)]},
+            "solids": report,
+            "unmatched": [w["wall_id"] for w in unmatched],
             "walls": placed,
         }, open(args.out, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
         print("wrote %s" % args.out)

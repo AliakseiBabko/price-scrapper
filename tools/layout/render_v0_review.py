@@ -63,8 +63,9 @@ def main():
     args = ap.parse_args()
 
     placed = json.load(io.open(PLACED, encoding="utf-8"))
-    walls = [w for w in placed["walls"] if w.get("face_lo_mm") is not None]
-    chains = {c["chain"]: c for c in placed["chains"]}
+    walls = [w for w in placed["walls"]
+             if w.get("face_lo_mm") is not None and w.get("from_mm") is not None]
+    chains = {c["solid_id"]: c for c in placed["solids"]}
     elements = json.load(io.open(ELEMENTS, encoding="utf-8"))
 
     spec = importlib.util.spec_from_file_location(
@@ -156,7 +157,7 @@ def main():
 
     # --- openings, so the walls are not read as solid ----------------
     import csv
-    tx = placed["transform_basic_px_to_mm"]
+    tx = placed["identification_fit_basic_px_to_mm"]
     by_id = {w["wall_id"]: w for w in walls}
     for r in csv.DictReader(io.open(os.path.join("data", "canonical",
                                                  "wall_opening_spans.csv"),
@@ -181,7 +182,7 @@ def main():
     # and nothing has been enforcing those.
     junction_gaps = []
     for cid, c in chains.items():
-        members = [w for w in walls if w["chain"] == cid]
+        members = [w for w in walls if w["solid_id"] == cid]
         if not members:
             continue
         axis = members[0]["axis"]
@@ -192,7 +193,7 @@ def main():
             for oid, o in chains.items():
                 if oid == cid:
                     continue
-                om = [w for w in walls if w["chain"] == oid]
+                om = [w for w in walls if w["solid_id"] == oid]
                 if not om or om[0]["axis"] == axis:
                     continue
                 o_lo, o_hi = om[0]["face_lo_mm"], om[0]["face_hi_mm"]
@@ -211,7 +212,7 @@ def main():
                                       "at": (end, (f_lo + f_hi) / 2)})
     for j in junction_gaps:
         x, y = (j["at"][0], j["at"][1]) if [w for w in walls
-                                            if w["chain"] == j["chain"]][0]["axis"] == "EW" \
+                                            if w["solid_id"] == j["chain"]][0]["axis"] == "EW" \
             else (j["at"][1], j["at"][0])
         p = P(x, y)
         dr.ellipse([p[0] - 13, p[1] - 13, p[0] + 13, p[1] + 13],
@@ -236,7 +237,7 @@ def main():
         r = c["lay"]["residual_mm"]
         if abs(r) <= OK_RESIDUAL_MM:
             continue
-        members = [w for w in walls if w["chain"] == cid]
+        members = [w for w in walls if w["solid_id"] == cid]
         if not members:
             continue
         if members[0]["axis"] == "EW":
@@ -263,7 +264,7 @@ def main():
     y = 26
     dr.text((lx, y), "v0 — the developer's layout", fill=(0, 0, 0), font=f_big)
     y += 34
-    dr.text((lx, y), "placed from the vector plan; DRAFT",
+    dr.text((lx, y), "geometry from the vector solids; DRAFT",
             fill=(110, 110, 110), font=f_small)
     y += 32
     for label, cls in (("concrete frame (R…)", "concrete"),

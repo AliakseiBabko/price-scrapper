@@ -85,7 +85,7 @@ def main():
 
     placed = json.load(io.open(PLACED, encoding="utf-8"))
     walls = placed["walls"]
-    tx = placed["transform_basic_px_to_mm"]
+    tx = placed["identification_fit_basic_px_to_mm"]
     elements = json.load(io.open(ELEMENTS, encoding="utf-8"))
 
     doc = ezdxf.new("R2010", setup=True)
@@ -112,7 +112,7 @@ def main():
     n_open = 0
     for r in csv.DictReader(io.open(SPANS, encoding="utf-8")):
         w = by_id.get(r["wall_id"])
-        if not w or w.get("face_lo_mm") is None:
+        if not w or w.get("face_lo_mm") is None or w.get("from_mm") is None:
             continue
         along = tx["x"] if w["axis"] == "EW" else tx["y"]
         a = along["a"] * float(r["span_lo_basic_px"]) + along["b"]
