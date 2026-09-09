@@ -658,8 +658,14 @@ def main():
     positioned = [w for w in walls if w["solid"] is not None
                   or w.get("placement_directive")]
     for w in positioned:
-        w["face_lo_mm"] = w["solid"]["face_lo_mm"]
-        w["face_hi_mm"] = w["solid"]["face_hi_mm"]
+        # !! Only a solid-matched wall takes its faces from the solid. A wall
+        # placed by directive has NO solid, and apply_placement_directives has
+        # already written its faces - reading w["solid"] here crashed on M6b and
+        # is exactly why the лоджия stayed open in the exported DXF for a round
+        # after the directive was written.
+        if w["solid"] is not None:
+            w["face_lo_mm"] = w["solid"]["face_lo_mm"]
+            w["face_hi_mm"] = w["solid"]["face_hi_mm"]
     before = overlaps(positioned)
     fixes = resolve_overlaps(positioned, ledger)
     after = overlaps(positioned)
@@ -682,6 +688,11 @@ def main():
         if w["solid"]:
             rec["face_lo_mm"] = w["solid"]["face_lo_mm"]
             rec["face_hi_mm"] = w["solid"]["face_hi_mm"]
+        elif w.get("placement_directive"):
+            # geometry from the directive, kept verbatim; status carries the
+            # quarantine so the exporter can draw it and quantities can skip it
+            rec["face_lo_mm"] = w["face_lo_mm"]
+            rec["face_hi_mm"] = w["face_hi_mm"]
         else:
             rec["face_lo_mm"] = rec["face_hi_mm"] = None
             rec["from_mm"] = rec["to_mm"] = None

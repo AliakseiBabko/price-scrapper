@@ -303,3 +303,5 @@ test.
 registration using non-wall features, a frozen wall-only raster mask, per-wall
 IoU, and dense boundary distance. Until those exist the raster numbers are a
 smell test only.
+
+**Round 2 of `V0_DXF_RASTER_FIDELITY` found five of this page's claims untrue in the committed tree**, and the defect classes the closure gate had been missing are recorded in [V0_Closure_Gate_Failure_Classes.md](V0_Closure_Gate_Failure_Classes.md).
