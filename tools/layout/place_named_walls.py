@@ -193,16 +193,53 @@ def vector_solids(ex, plan, min_cover=0.15):
     return merged
 
 
-def clip_to_envelope(solids):
+def loggia_extent(ex, plan):
+    """The bounding extent of the лоджия's diagonal glazing, in mm.
+
+    Read from the drawing rather than assumed, so the envelope covers the flat's
+    second leg. Without it the clip deletes the лоджия -- see clip_to_envelope.
+    """
+    import math
+    mm = ex.MM_PER_PT
+    best = None
+    for x0, y0, x1, y1 in plan["segments"]:
+        X0, Y0, X1, Y1 = x0 * mm, y0 * mm, x1 * mm, y1 * mm
+        L = math.hypot(X1 - X0, Y1 - Y0)
+        if L <= 1500:
+            continue
+        a = math.degrees(math.atan2(Y1 - Y0, X1 - X0)) % 180
+        if not (5.0 < a < 85.0 or 95.0 < a < 175.0):
+            continue
+        if best is None or L > best[0]:
+            best = (L, X0, Y0, X1, Y1)
+    if best is None:
+        return None
+    _, X0, Y0, X1, Y1 = best
+    return {"x": (min(X0, X1), max(X0, X1)), "y": (min(Y0, Y1), max(Y0, Y1))}
+
+
+def clip_to_envelope(solids, extra_extent=None):
     """Clip every solid to the flat's own envelope.
 
     The drawing continues the neighbour's structure past this flat -- the SE
     façade solid runs 1680.9..5881.0, some 1300 mm of it beyond the party wall --
     so an unclipped solid makes a wall look far too long. The envelope is taken
     from the outermost face of the perimeter solids themselves.
+
+    !! `extra_extent` is not optional in practice. The envelope built from
+    axis-aligned FACES alone put the flat's floor at y = 7490.4, because the
+    лоджия's south side is the DIAGONAL GLAZING and no horizontal face exists
+    down there. The лоджия runs to about y = 6100, so the clip amputated it:
+    M2's solid was cut from 1945.7 mm to 1490.2 against a recorded 1850, and
+    every лоджия wall below the line vanished. **The flat is an L, and clipping
+    an L to the bounding box of its main block deletes the other leg.** Pass the
+    glazing's own extent so the envelope covers both legs.
     """
     xs = [f for s in solids if s["axis"] == "NS" for f in (s["face_lo_mm"], s["face_hi_mm"])]
     ys = [f for s in solids if s["axis"] == "EW" for f in (s["face_lo_mm"], s["face_hi_mm"])]
+    if extra_extent:
+        xs += list(extra_extent["x"])
+        ys += list(extra_extent["y"])
     env = {"x": (min(xs), max(xs)), "y": (min(ys), max(ys))}
     for s in solids:
         lo, hi = env["x"] if s["axis"] == "EW" else env["y"]
@@ -482,7 +519,7 @@ def main():
     hor, ver, _h = ex.collect(plan["segments"])
     HY, VX = sorted(ex.merge_faces(hor)), sorted(ex.merge_faces(ver))
     solids = vector_solids(ex, plan)
-    env = clip_to_envelope(solids)
+    env = clip_to_envelope(solids, loggia_extent(ex, plan))
     print("vector solids (hatch-validated, merged over openings, clipped): %d" % len(solids))
     print("flat envelope: x %.1f..%.1f   y %.1f..%.1f"
           % (env["x"][0], env["x"][1], env["y"][0], env["y"][1]))
