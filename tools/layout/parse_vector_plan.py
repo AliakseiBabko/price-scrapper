@@ -119,6 +119,12 @@ def parse(pdf_path):
     gstack, segs, texts, stackv = [], [], [], []
     cur = start = None
     tfs = 1.0
+    # PDF draws a dashed line as ONE path with a dash pattern, so without
+    # tracking the `d` operator a dashed line is indistinguishable from a solid
+    # one. On this drawing the dashed lines are the developer's SUGGESTED
+    # FURNITURE, which must never be mistaken for built fabric.
+    dashed = False
+    dash_flags = []
 
     for m in token.finditer(txt):
         if m.group("num") is not None:
@@ -136,10 +142,14 @@ def parse(pdf_path):
         nums = [v for v in a if isinstance(v, float)]
         try:
             if op == "q":
-                gstack.append(ctm)
+                gstack.append((ctm, dashed))
             elif op == "Q":
                 if gstack:
-                    ctm = gstack.pop()
+                    ctm, dashed = gstack.pop()
+            elif op == "d":
+                # "[] 0 d" is solid and yields exactly one number (the phase);
+                # any real pattern yields the array entries as well.
+                dashed = len(nums) > 1
             elif op == "cm" and len(nums) >= 6:
                 ctm = _mat_mul(tuple(nums[-6:]), ctm)
             elif op == "m" and len(nums) >= 2:
@@ -148,15 +158,18 @@ def parse(pdf_path):
                 p = (nums[-2], nums[-1])
                 if cur is not None:
                     segs.append(_apply(ctm, *cur) + _apply(ctm, *p))
+                    dash_flags.append(dashed)
                 cur = p
             elif op == "h" and cur is not None and start is not None:
                 segs.append(_apply(ctm, *cur) + _apply(ctm, *start))
+                dash_flags.append(dashed)
                 cur = start
             elif op == "re" and len(nums) >= 4:
                 x, y, w, h = nums[-4:]
                 pts = [(x, y), (x + w, y), (x + w, y + h), (x, y + h), (x, y)]
                 for i in range(4):
                     segs.append(_apply(ctm, *pts[i]) + _apply(ctm, *pts[i + 1]))
+                    dash_flags.append(dashed)
             elif op == "Tf" and nums:
                 tfs = nums[-1]
             elif op == "BT":
@@ -183,6 +196,7 @@ def parse(pdf_path):
                           "ang": round(math.degrees(math.atan2(ay, ax)), 2),
                           "sc": round(math.hypot(ax, ay) * fs, 4)})
     return {"segments": [[round(v, 4) for v in s] for s in segs],
+            "dashed": [i for i, f in enumerate(dash_flags) if f],
             "texts": out_texts}
 
 

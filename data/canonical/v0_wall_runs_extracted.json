@@ -1,6 +1,6 @@
 {
  "id": "zk-dubravinskiy-v0-wall-runs-extracted",
- "status": "DRAFT - EXTRACTED, NOT REVIEWED. Not canonical geometry.",
+ "status": "SUPERSEDED for wall inventory - DRAFT evidence only. The flat's walls are the 25 NAMED walls in wall_blocks.csv, positioned by tools/layout/place_named_walls.py. Owner, 2026-09-08: re-deriving a wall list from the drawing is duplicate work. This file is kept for what it alone carries - hatch angles and the unhatched stretches read as candidate OPENINGS - and must not be used as a wall inventory.",
  "what": "v0 wall runs read from the developer's vector plan. Positions and thicknesses are the drawing's own, to ~0.1 mm. Walls are NOT named, corners are NOT resolved, and the run list is NOT complete - see 00_Master/V0_Geometry_Status.md for what is missing.",
  "source_pdf": "3Б_3+ МН5_287.pdf",
  "scale": "1:75, derived in 00_Master/Vector_Plan_Identity_Test.md",
