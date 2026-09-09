@@ -30,91 +30,72 @@ internal aerated block, magenta external and лоджия.
 **`V0-SUGGESTED-FURN` is dashed, orange, and on its own layer so it can be
 frozen or deleted in one action.**
 
-## ⚠️⚠️ Two corrections that shaped this — both from the owner
+## ⚠️⚠️ THE THIRD ARCHITECTURE — geometry from the VECTOR, names from the raster
 
-### 1. Stop re-deriving what the model already has
+**Owner, 2026-09-09:** *"It looks like this is interpretation of the vector image,
+not the real displacement... build a processed image where I overlay this PDF
+document, everything is aligned. For example R4, G8 and R8 — they completely off
+the line... they randomly scattered."*
 
-*"We already have all the wall segments. We determine the thickness, the length.
-So you're kind of doing double job."* — `wall_blocks.csv` holds 25 named walls
-with owner-confirmed classes, thicknesses and lengths; `wall_openings.csv` holds
-10 openings. **The only thing missing was POSITION**, because `wall_runs.csv` is
-in basic-plan pixels. → **v0 is a REGISTRATION problem.**
-`extract_v0_walls.py` is marked SUPERSEDED as a wall inventory.
+**He was right, and the diagnosis was more precise than mine.** Every POSITION
+was being routed through an affine fit of basic-plan pixels — a fit with **3.3%
+anisotropy between its axes and per-wall residuals to 93 mm** — so it scattered
+walls the drawing had drawn perfectly aligned. **Proof on his own example**, in
+the vector:
 
-### 2. The CHAIN is the unit, not the wall
+| wall | t | faces | along |
+| :--- | :--- | :--- | :--- |
+| R8 | 250 | 5881.0 / **6131.0** | 7610.6 … **9350.6** |
+| G8 | 75 | **6056.0** / **6131.0** | **9350.6** … **12600.3** |
+| R4 | 250 | **6056.0** / 6305.9 | **12600.3** … 13650.3 |
 
-*"There shouldn't be any overlapping in boxes or voids between the wall. They
-should touch each other... I did it deliberately, like, without any gap... This
-should be, like, one straight segment."* — and precisely: *"junction between G3
-and R3 ... there is a gap and R3 extends beyond the line of external wall created
-by G2, R3, G3"*, plus *"R1a extends beyond the line created by R1b, G4a, R6"*.
+**R8 and G8 share the face 6131.0; G8 and R4 share 6056.0; and their ends meet
+exactly.** The drawing already contained touching, aligned walls. **The old code
+placed G8 at 5981/6056 — out by 75 mm, exactly one wall thickness.**
 
-**Both faults had ONE cause: each wall was snapped SEPARATELY** to whichever
-vector face pair was nearest, so walls the model deliberately built as one
-straight run drifted off each other and grew steps and gaps.
+→ **The rule now: GEOMETRY comes from the vector's hatch-validated solids. The
+pixel fit decides only WHICH named wall belongs to WHICH solid, and positions
+nothing.** 24 of 25 walls matched onto 17 solids.
 
-→ **Walls sharing a pixel coordinate and a thickness are now one CHAIN, snapped
-once, and laid end to end.** A chain is straight by construction and contiguous
-by construction — **a gap or overlap inside one is now impossible, not merely
-unlikely.** 18 chains from 25 walls.
+### Two further fixes the same insight forced
 
-## Three traps caught on the way
+**A wall continues through its door.** An opening carries no hatch, so a wall
+with a doorway arrived as two solids and pulled its names to the wrong side of
+the gap. Collinear solids sharing a face pair are now merged across gaps up to
+1500 mm. **✅ And that produced the best validation this model has: the top wall's
+merged solid measures 9715.1 mm against a recorded R1a 1666 + G2 2219 + (R3+G3)
+5830 = 9715 — a residual of 0.1 mm**, from two entirely independent directions.
 
-**⚠️ MC was on the decorative slab, not on the wall.** Owner: *"it's displaced.
-You should move it upward... it's overlapped with that external element... but
-actual wall is above."* The slab projects outward and **its own edges are
-perfectly good face lines**, so a nearest-pair snap preferred it. → **The snap
-now requires HATCH between the two faces.** A wall is a hatched solid; the slab
-is not. MC moved from 7960/8253 to **8230.6/8530.6**, and every one of the 18
-chains now reports `on_hatched_solid: yes`.
+**The drawing continues the neighbour's structure past this flat.** The SE façade
+solid ran 1680.9…5881.0, some 1300 mm of it beyond the party wall. Solids are now
+clipped to the flat's own envelope — **x 2830.9…12993.5, y 7490.4…16261.6**. MA's
+residual fell from +1375 to +225, and the east chain's from +1600 to **+21**.
 
-**⚠️ Collinear is not contiguous.** R5 and R9 sit on the same line with the
-**3.4 m middle room between them**. Grouped as one chain, the contiguity rule
-cheerfully closed that "gap" and invented a wall across the room. → **A chain
-splits where its members are more than 300 mm apart.**
+## ⚠️ What still needs attention
 
-**⚠️ The pixel runs are NOT wall lengths.** **G6's pixel run measures 3076 mm
-against a recorded 1915** — it was traced along the whole partition line
-including its door. → **`solid_mm` is the length of record and is what gets
-laid.** The drawing supplies the chain's position; the model supplies its parts.
-For the one wall pair with no recorded split — **R3 | G3, whose pair total is
-5830 mm** from the owner's top-edge chain — the total is used and split evenly,
-flagged as undimensioned.
-
-**⚠️ Insulation is not a layer.** Owner: it may be removed or left in place.
-External walls export at their recorded **300 mm** and nothing more.
-
-## ⚠️ What is still unreconciled — the residual list
-
-Each chain's laid length is compared against the drawing's own span for it. **13
-of 18 chains differ by more than 60 mm**, and those differences are the honest
-remaining work, not something to tune away:
-
-| chain | walls | residual |
+| out by | walls | most likely cause |
 | :--- | :--- | :--- |
-| chain_10 | **G6** | **+1125** |
-| chain_03 | R7, G5, R2 | +347 |
-| chain_12 | G8 | +340 |
-| chain_14 | M2 | +324 |
-| chain_17 | M6b | +312 |
-| chain_16 | MC | +250 |
-| chain_02 | R6, G4a, R1b | +240 |
-| chain_11 | G7 | +190 |
-| chain_13 | MA | +130 |
-| chain_05 | R9 | −120 |
-| chain_01 | R1a, G2, R3, G3 | +95 |
-| chain_07 | G4b | −90 |
-| chain_06 | R8 | +70 |
+| **+820** | G7 | solid longer than the recorded 3250; the 75 mm partition's true extent |
+| **−671** | G4d | solid shorter than the recorded 2825 |
+| **−360** | M2 | лоджия wall drawn axis-aligned when the real one splays |
+| **+279** | R5 | |
+| **+250** | MC | |
+| **+225** | MA | still slightly over after clipping |
+| −120 | G4C | |
+| +119 | G4b | |
+| +110 | R6, G4a, R1b | |
 
-**The pattern is one-directional: the drawing's span is almost always LONGER
-than the sum of recorded lengths.** That is worth reading against the standing
-finding that the developer plan reads 1.0–1.9% larger than every measured flat —
-but ⚠️ **it is not the same comparison** and must not be conflated with it: this
-one is span-versus-recorded-parts inside a single drawing, and the likelier
-cause is that a chain's END is still anchored off raster pixel runs.
+**⚠️ M6b is UNMATCHED — there is no 200 mm hatched solid where it should be.**
+The vector shows 300 at 5981/6281, 150 at 6131/6281 and 100 at 6181/6281 in that
+position. `project_decisions.md` already flags **M6b's 200 mm as provisional,
+"owner revising against another plan"** — so this is the model and the drawing
+disagreeing about a wall the owner already doubted, not a placement failure.
+**❓ Worth resolving from the drawing rather than the other plan.**
 
-**Anchoring chain ends properly is the next job**, and it is what would close
-most of this table.
+**12 junction gaps remain**, the largest 239 mm (G4d's end) — down from 17 with
+the worst at 394 mm. These are now small enough to be corner-ownership
+questions, which is what `wall_corners.csv` and `build_wall_corners.py` exist to
+settle.
 
 ## Still missing
 
