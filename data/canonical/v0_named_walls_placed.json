@@ -27,7 +27,7 @@
   ]
  },
  "overlap_resolution": {
-  "before": 8,
+  "before": 4,
   "after": 0,
   "fixes": [
    {
@@ -41,35 +41,21 @@
     "why": "nested same-axis solid (extraction artefact)",
     "trimmed_to_mm": [
      9400.6,
-     11780.6
+     12600.3
     ]
    },
    {
-    "kept": "R2",
-    "trimmed": "G3",
+    "kept": "R1b",
+    "trimmed": "G4b",
     "was_mm": [
-     250.0,
-     249.9
+     239.2,
+     120.0
     ],
-    "area_m2": 0.0625,
-    "why": "corner owner from wall_corners.csv",
-    "trimmed_to_mm": [
-     10030.9,
-     12695.9
-    ]
-   },
-   {
-    "kept": "MA",
-    "trimmed": "M2",
-    "was_mm": [
-     200.0,
-     289.8
-    ],
-    "area_m2": 0.058,
+    "area_m2": 0.0287,
     "why": "corner owner by thicker-then-longer",
     "trimmed_to_mm": [
-     7490.4,
-     9050.6
+     3230.9,
+     5026.0
     ]
    },
    {
@@ -83,35 +69,7 @@
     "why": "corner owner by thicker-then-longer",
     "trimmed_to_mm": [
      3230.9,
-     5816.7
-    ]
-   },
-   {
-    "kept": "R1b",
-    "trimmed": "G4b",
-    "was_mm": [
-     239.2,
-     109.7
-    ],
-    "area_m2": 0.0262,
-    "why": "corner owner by thicker-then-longer",
-    "trimmed_to_mm": [
-     3230.9,
-     4906.7
-    ]
-   },
-   {
-    "kept": "G2",
-    "trimmed": "G4C",
-    "was_mm": [
-     120.0,
-     120.1
-    ],
-    "area_m2": 0.0144,
-    "why": "corner owner by thicker-then-longer",
-    "trimmed_to_mm": [
-     12870.3,
-     15990.2
+     5146.0
     ]
    },
    {
@@ -125,7 +83,7 @@
     "why": "nested same-axis solid (extraction artefact)",
     "trimmed_to_mm": [
      9400.6,
-     12600.6
+     12600.3
     ]
    }
   ],
@@ -180,10 +138,16 @@
     "MA"
    ],
    "lay": {
-    "solid_span_mm": 3050.1,
-    "laid_total_mm": 2825.0,
-    "residual_mm": 225.1,
-    "pair_total_used_mm": null
+    "joints": [
+     2830.9,
+     3230.9,
+     5881.0
+    ],
+    "segments_mm": [
+     400.0,
+     2650.1
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -198,10 +162,18 @@
     "G4d"
    ],
    "lay": {
-    "solid_span_mm": 2154.3,
-    "laid_total_mm": 2825.0,
-    "residual_mm": -670.7,
-    "pair_total_used_mm": null
+    "joints": [
+     2991.7,
+     3230.9,
+     3582.9,
+     5146.0
+    ],
+    "segments_mm": [
+     239.2,
+     352.0,
+     1563.1
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -216,10 +188,16 @@
     "G6"
    ],
    "lay": {
-    "solid_span_mm": 1915.0,
-    "laid_total_mm": 1915.0,
-    "residual_mm": 0.0,
-    "pair_total_used_mm": null
+    "joints": [
+     7216.0,
+     8745.1,
+     9131.0
+    ],
+    "segments_mm": [
+     1529.1,
+     385.9
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -234,10 +212,18 @@
     "G4b"
    ],
    "lay": {
-    "solid_span_mm": 2034.3,
-    "laid_total_mm": 1915.0,
-    "residual_mm": 119.3,
-    "pair_total_used_mm": null
+    "joints": [
+     2991.7,
+     3230.9,
+     3582.9,
+     5026.0
+    ],
+    "segments_mm": [
+     239.2,
+     352.0,
+     1443.1
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -255,10 +241,32 @@
     "G3"
    ],
    "lay": {
-    "solid_span_mm": 9715.1,
-    "laid_total_mm": 9715.0,
-    "residual_mm": 0.1,
-    "pair_total_used_mm": 5830.0
+    "joints": [
+     3230.9,
+     4645.9,
+     5146.0,
+     5651.0,
+     6155.9,
+     6256.0,
+     6866.5,
+     7381.0,
+     9606.2,
+     12695.9,
+     12946.0
+    ],
+    "segments_mm": [
+     1415.0,
+     500.1,
+     505.0,
+     504.9,
+     100.1,
+     610.5,
+     514.5,
+     2225.2,
+     3089.7,
+     250.1
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -273,10 +281,16 @@
     "M2"
    ],
    "lay": {
-    "solid_span_mm": 1490.2,
-    "laid_total_mm": 1850.0,
-    "residual_mm": -359.8,
-    "pair_total_used_mm": null
+    "joints": [
+     7490.4,
+     7490.6,
+     8980.6
+    ],
+    "segments_mm": [
+     0.2,
+     1490.0
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -293,10 +307,20 @@
     "R1b"
    ],
    "lay": {
-    "solid_span_mm": 6629.7,
-    "laid_total_mm": 6520.0,
-    "residual_mm": 109.7,
-    "pair_total_used_mm": null
+    "joints": [
+     9360.6,
+     11100.3,
+     13010.5,
+     14645.3,
+     15990.3
+    ],
+    "segments_mm": [
+     1739.7,
+     1910.2,
+     1634.8,
+     1345.0
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -311,10 +335,22 @@
     "G4C"
    ],
    "lay": {
-    "solid_span_mm": 3120.0,
-    "laid_total_mm": 3240.0,
-    "residual_mm": -120.0,
-    "pair_total_used_mm": null
+    "joints": [
+     12870.3,
+     13360.3,
+     14070.3,
+     14790.3,
+     15500.3,
+     15990.3
+    ],
+    "segments_mm": [
+     490.0,
+     710.0,
+     720.0,
+     710.0,
+     490.0
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -347,10 +383,18 @@
     "G8"
    ],
    "lay": {
-    "solid_span_mm": 3249.7,
-    "laid_total_mm": 3250.0,
-    "residual_mm": -0.3,
-    "pair_total_used_mm": null
+    "joints": [
+     9350.6,
+     9714.1,
+     12353.8,
+     12600.3
+    ],
+    "segments_mm": [
+     363.5,
+     2639.7,
+     246.5
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -401,10 +445,16 @@
     "G7"
    ],
    "lay": {
-    "solid_span_mm": 4069.7,
-    "laid_total_mm": 3250.0,
-    "residual_mm": 819.7,
-    "pair_total_used_mm": null
+    "joints": [
+     8530.6,
+     9350.6,
+     12600.3
+    ],
+    "segments_mm": [
+     820.0,
+     3249.7
+    ],
+    "residual_mm": 0.0
    }
   },
   {
@@ -419,10 +469,20 @@
     "R5"
    ],
    "lay": {
-    "solid_span_mm": 1328.8,
-    "laid_total_mm": 1050.0,
-    "residual_mm": 278.8,
-    "pair_total_used_mm": null
+    "joints": [
+     12600.3,
+     13075.3,
+     13650.3,
+     13858.8,
+     13929.1
+    ],
+    "segments_mm": [
+     475.0,
+     575.0,
+     208.5,
+     70.3
+    ],
+    "residual_mm": 278.8
    }
   },
   {
@@ -439,10 +499,28 @@
     "R2"
    ],
    "lay": {
-    "solid_span_mm": 7731.0,
-    "laid_total_mm": 7710.0,
-    "residual_mm": 21.0,
-    "pair_total_used_mm": null
+    "joints": [
+     8530.6,
+     8540.6,
+     10280.3,
+     14315.2,
+     15190.3,
+     15990.3,
+     16235.2,
+     16240.3,
+     16261.6
+    ],
+    "segments_mm": [
+     10.0,
+     1739.7,
+     4034.9,
+     875.1,
+     800.0,
+     244.9,
+     5.1,
+     21.3
+    ],
+    "residual_mm": 271.3
    }
   }
  ],
@@ -465,9 +543,10 @@
    "match_cross_mm": 4.9,
    "match_overlap_mm": 1301.1,
    "from_mm": 3230.9,
-   "to_mm": 4896.9,
-   "laid_length_mm": 1666.0,
-   "length_from": "recorded solid_mm",
+   "to_mm": 4645.9,
+   "laid_length_mm": 1415.0,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -1.0,
    "face_lo_mm": 15990.2,
    "face_hi_mm": 16240.1,
    "solid_id": "S14"
@@ -486,10 +565,11 @@
    "pred_to_mm": 16105.036148954172,
    "match_cross_mm": 6.7,
    "match_overlap_mm": 1265.0,
-   "from_mm": 14680.6,
-   "to_mm": 15880.6,
-   "laid_length_mm": 1200.0,
-   "length_from": "recorded solid_mm",
+   "from_mm": 14645.3,
+   "to_mm": 15990.3,
+   "laid_length_mm": 1345.0,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": 145.0,
    "face_lo_mm": 2980.8,
    "face_hi_mm": 3230.9,
    "solid_id": "S18"
@@ -508,10 +588,11 @@
    "pred_to_mm": 16375.557270552292,
    "match_cross_mm": 0.0,
    "match_overlap_mm": 1861.2,
-   "from_mm": 14315.6,
-   "to_mm": 16240.6,
-   "laid_length_mm": 1925.0,
-   "length_from": "recorded solid_mm",
+   "from_mm": 14315.2,
+   "to_mm": 15990.3,
+   "laid_length_mm": 1675.1,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": 0.1,
    "face_lo_mm": 12695.9,
    "face_hi_mm": 12946.0,
    "solid_id": "S36"
@@ -530,10 +611,11 @@
    "pred_to_mm": 9461.872956609486,
    "match_cross_mm": 4.9,
    "match_overlap_mm": 2701.6,
-   "from_mm": 7115.9,
-   "to_mm": 10030.9,
-   "laid_length_mm": 2915.0,
-   "length_from": "pair total 5830, split evenly (undimensioned)",
+   "from_mm": 6866.5,
+   "to_mm": 9606.2,
+   "laid_length_mm": 2739.7,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": null,
    "face_lo_mm": 15990.2,
    "face_hi_mm": 16240.1,
    "solid_id": "S14"
@@ -577,7 +659,8 @@
    "from_mm": 12600.3,
    "to_mm": 13650.3,
    "laid_length_mm": 1050.0,
-   "length_from": "recorded solid_mm",
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": 0.0,
    "face_lo_mm": 9131.0,
    "face_hi_mm": 9380.9,
    "solid_id": "S34"
@@ -597,9 +680,10 @@
    "match_cross_mm": 3.2,
    "match_overlap_mm": 1777.9,
    "from_mm": 9360.6,
-   "to_mm": 11110.6,
-   "laid_length_mm": 1750.0,
-   "length_from": "recorded solid_mm",
+   "to_mm": 11100.3,
+   "laid_length_mm": 1739.7,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -10.3,
    "face_lo_mm": 2980.8,
    "face_hi_mm": 3230.9,
    "solid_id": "S18"
@@ -619,9 +703,10 @@
    "match_cross_mm": 0.0,
    "match_overlap_mm": 1659.9,
    "from_mm": 8530.6,
-   "to_mm": 10280.6,
-   "laid_length_mm": 1750.0,
-   "length_from": "recorded solid_mm",
+   "to_mm": 10280.3,
+   "laid_length_mm": 1749.7,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -0.3,
    "face_lo_mm": 12695.9,
    "face_hi_mm": 12946.0,
    "solid_id": "S36"
@@ -684,10 +769,11 @@
    "pred_to_mm": 6760.277194752776,
    "match_cross_mm": 4.9,
    "match_overlap_mm": 2218.5,
-   "from_mm": 4896.9,
-   "to_mm": 7115.9,
-   "laid_length_mm": 2219.0,
-   "length_from": "recorded solid_mm",
+   "from_mm": 4645.9,
+   "to_mm": 6866.5,
+   "laid_length_mm": 2220.6,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": 1.6,
    "face_lo_mm": 15990.2,
    "face_hi_mm": 16240.1,
    "solid_id": "S14"
@@ -706,13 +792,13 @@
    "pred_to_mm": 12569.989861755803,
    "match_cross_mm": 5.3,
    "match_overlap_mm": 3088.4,
-   "from_mm": 10030.9,
-   "to_mm": 12695.9,
-   "laid_length_mm": 2665.0,
-   "length_from": "pair total 5830, split evenly (undimensioned)",
+   "from_mm": 9606.2,
+   "to_mm": 12946.0,
+   "laid_length_mm": 3339.8,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": null,
    "face_lo_mm": 15990.2,
    "face_hi_mm": 16240.1,
-   "trimmed": true,
    "solid_id": "S14"
   },
   {
@@ -729,10 +815,11 @@
    "pred_to_mm": 14850.209898237368,
    "match_cross_mm": 3.2,
    "match_overlap_mm": 3711.7,
-   "from_mm": 11110.6,
-   "to_mm": 14680.6,
-   "laid_length_mm": 3570.0,
-   "length_from": "recorded solid_mm",
+   "from_mm": 11100.3,
+   "to_mm": 14645.3,
+   "laid_length_mm": 3545.0,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -25.0,
    "face_lo_mm": 2980.8,
    "face_hi_mm": 3230.9,
    "solid_id": "S18"
@@ -752,9 +839,10 @@
    "match_cross_mm": 2.6,
    "match_overlap_mm": 1846.1,
    "from_mm": 3230.9,
-   "to_mm": 4906.7,
-   "laid_length_mm": 1675.8,
-   "length_from": "recorded solid_mm",
+   "to_mm": 5026.0,
+   "laid_length_mm": 1795.1,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": 119.3,
    "face_lo_mm": 14670.3,
    "face_hi_mm": 14790.3,
    "trimmed": true,
@@ -775,12 +863,12 @@
    "match_cross_mm": 20.8,
    "match_overlap_mm": 3120.0,
    "from_mm": 12870.3,
-   "to_mm": 15990.2,
-   "laid_length_mm": 3119.9,
-   "length_from": "recorded solid_mm",
+   "to_mm": 15990.3,
+   "laid_length_mm": 3120.0,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -120.0,
    "face_lo_mm": 5026.0,
    "face_hi_mm": 5146.0,
-   "trimmed": true,
    "solid_id": "S21"
   },
   {
@@ -798,9 +886,10 @@
    "match_cross_mm": 19.1,
    "match_overlap_mm": 2033.9,
    "from_mm": 3230.9,
-   "to_mm": 5816.7,
-   "laid_length_mm": 2585.8,
-   "length_from": "recorded solid_mm",
+   "to_mm": 5146.0,
+   "laid_length_mm": 1915.1,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -670.7,
    "face_lo_mm": 12750.3,
    "face_hi_mm": 12870.3,
    "trimmed": true,
@@ -820,10 +909,11 @@
    "pred_to_mm": 14390.1910693302,
    "match_cross_mm": 9.9,
    "match_overlap_mm": 4189.5,
-   "from_mm": 10280.6,
-   "to_mm": 14315.6,
-   "laid_length_mm": 4035.0,
-   "length_from": "recorded solid_mm",
+   "from_mm": 10280.3,
+   "to_mm": 14315.2,
+   "laid_length_mm": 4034.9,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -0.1,
    "face_lo_mm": 12695.9,
    "face_hi_mm": 12946.0,
    "solid_id": "S36"
@@ -845,7 +935,8 @@
    "from_mm": 7216.0,
    "to_mm": 9131.0,
    "laid_length_mm": 1915.0,
-   "length_from": "recorded solid_mm",
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": 0.0,
    "face_lo_mm": 13575.3,
    "face_hi_mm": 13650.3,
    "solid_id": "S08"
@@ -865,9 +956,10 @@
    "match_cross_mm": 93.1,
    "match_overlap_mm": 3357.8,
    "from_mm": 9400.6,
-   "to_mm": 11780.6,
-   "laid_length_mm": 2380.0,
-   "length_from": "recorded solid_mm",
+   "to_mm": 12600.3,
+   "laid_length_mm": 3199.7,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": 819.7,
    "face_lo_mm": 9131.0,
    "face_hi_mm": 9206.0,
    "trimmed": true,
@@ -888,9 +980,10 @@
    "match_cross_mm": 94.4,
    "match_overlap_mm": 3249.7,
    "from_mm": 9400.6,
-   "to_mm": 12600.6,
-   "laid_length_mm": 3200.0,
-   "length_from": "recorded solid_mm",
+   "to_mm": 12600.3,
+   "laid_length_mm": 3199.7,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -0.3,
    "face_lo_mm": 6056.0,
    "face_hi_mm": 6131.0,
    "trimmed": true,
@@ -911,9 +1004,10 @@
    "match_cross_mm": 49.2,
    "match_overlap_mm": 2935.8,
    "from_mm": 2830.9,
-   "to_mm": 5655.9,
-   "laid_length_mm": 2825.0,
-   "length_from": "recorded solid_mm",
+   "to_mm": 5881.0,
+   "laid_length_mm": 3050.1,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": 225.1,
    "face_lo_mm": 9050.6,
    "face_hi_mm": 9350.3,
    "solid_id": "S06"
@@ -933,12 +1027,12 @@
    "match_cross_mm": 6.1,
    "match_overlap_mm": 1395.3,
    "from_mm": 7490.4,
-   "to_mm": 9050.6,
-   "laid_length_mm": 1560.2,
-   "length_from": "recorded solid_mm",
+   "to_mm": 8980.6,
+   "laid_length_mm": 1490.2,
+   "length_from": "drawn block joints",
+   "vs_recorded_mm": -359.8,
    "face_lo_mm": 2930.9,
    "face_hi_mm": 3130.9,
-   "trimmed": true,
    "solid_id": "S16"
   },
   {
