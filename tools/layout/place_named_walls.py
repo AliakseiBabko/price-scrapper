@@ -247,6 +247,94 @@ def match(walls, solids, fx, fy):
     return walls
 
 
+def solid_joints(plan, solid, mm, tol=2.0):
+    """The BLOCK JOINTS the drawing itself marks inside a wall solid.
+
+    This is the thing the basic raster could never show. `Apartment_Geometry_Sources.md`
+    put it exactly: the basic plan "draws the same walls without the numbers -- so
+    it cannot show where one block ends and the next begins". **The vector plan
+    draws a line right across the wall's thickness at every joint**, so the
+    segmentation is read rather than inferred.
+
+    A joint is a perpendicular line reaching BOTH faces of the solid.
+    """
+    f_lo, f_hi = solid["face_lo_mm"], solid["face_hi_mm"]
+    a_lo, a_hi = solid["from_mm"], solid["to_mm"]
+    out = set()
+    for x0, y0, x1, y1 in plan["segments"]:
+        X0, Y0, X1, Y1 = x0 * mm, y0 * mm, x1 * mm, y1 * mm
+        if solid["axis"] == "EW":
+            if abs(X1 - X0) > 0.05:
+                continue
+            lo, hi, pos = min(Y0, Y1), max(Y0, Y1), X0
+        else:
+            if abs(Y1 - Y0) > 0.05:
+                continue
+            lo, hi, pos = min(X0, X1), max(X0, X1), Y0
+        if lo <= f_lo + tol and hi >= f_hi - tol and a_lo - tol <= pos <= a_hi + tol:
+            out.add(round(pos, 1))
+    out.add(round(a_lo, 1))
+    out.add(round(a_hi, 1))
+    return sorted(out)
+
+
+def lay_on_joints(members, solid, joints):
+    """Walk the drawn joints, giving each wall the segments that make its length.
+
+    A wall may span several joints -- G2 runs across the entrance door and its
+    leaf, so its 2219 mm is five drawn segments. Accumulating segments until the
+    recorded length is reached lands each boundary ON A DRAWN JOINT, which is
+    why this removes both the residuals and the overlaps instead of trimming
+    them away afterwards.
+    """
+    members.sort(key=lambda w: w["pred_from_mm"])
+    segs = list(zip(joints, joints[1:]))
+    laid, i = [], 0
+    for n, w in enumerate(members):
+        # !! Match against clear_mm, NOT solid_mm. A drawn joint bounds the wall's
+        # CLEAR internal run; solid_mm adds the corners the wall owns on top.
+        # R1a is the proof: drawn 1415.0 against a recorded clear_mm of 1416, and
+        # against its solid_mm of 1666 it looks 250 mm short -- which is exactly
+        # the corner it owns. Matching on solid_mm made it overshoot to the next
+        # joint and swallow 500 mm of G2.
+        target = float(w["clear_mm"]) if w["clear_mm"] else None
+        start = segs[i][0] if i < len(segs) else solid["to_mm"]
+        if target is None:
+            # No recorded length -- the R3 | G3 indeterminate split. Take the
+            # drawn joint nearest where the pixel fit predicts the boundary, so
+            # the split still lands ON a joint the developer drew.
+            if n == len(members) - 1:
+                end = solid["to_mm"]
+                i = len(segs)
+            else:
+                pred_end = w["pred_to_mm"]
+                cand = [k for k in range(i + 1, len(segs) + 1)]
+                i = min(cand, key=lambda k: abs(segs[k - 1][1] - pred_end))
+                end = segs[i - 1][1]
+        else:
+            acc, best, best_err = 0.0, None, None
+            j = i
+            while j < len(segs):
+                acc += segs[j][1] - segs[j][0]
+                err = abs(acc - target)
+                if best_err is None or err < best_err:
+                    best_err, best = err, j + 1
+                if acc > target + 400:
+                    break
+                j += 1
+            i = best if best is not None else i + 1
+            end = segs[i - 1][1] if i - 1 < len(segs) else solid["to_mm"]
+        w["from_mm"], w["to_mm"] = round(start, 1), round(end, 1)
+        w["laid_length_mm"] = round(end - start, 1)
+        w["length_from"] = "drawn block joints"
+        w["vs_recorded_mm"] = (round(w["laid_length_mm"] - float(w["clear_mm"]), 1)
+                               if w["clear_mm"] else None)
+        laid.append(w)
+    return {"joints": joints,
+            "segments_mm": [round(b - a, 1) for a, b in segs],
+            "residual_mm": round(solid["to_mm"] - (laid[-1]["to_mm"] if laid else solid["from_mm"]), 1)}
+
+
 def wall_box(w):
     if w["axis"] == "EW":
         return (w["from_mm"], w["face_lo_mm"], w["to_mm"], w["face_hi_mm"])
@@ -413,7 +501,9 @@ def main():
     report = []
     for sid, members in sorted(groups.items()):
         solid = members[0]["solid"]
-        lay = lay_on_solid(members, solid)
+        js = solid_joints(plan, solid, ex.MM_PER_PT)
+        lay = (lay_on_joints(members, solid, js) if len(js) > 2
+               else lay_on_solid(members, solid))
         report.append({"solid_id": sid, "axis": solid["axis"],
                        "thickness_mm": solid["thickness_mm"],
                        "face_lo_mm": solid["face_lo_mm"], "face_hi_mm": solid["face_hi_mm"],
@@ -427,6 +517,26 @@ def main():
               % (r["solid_id"], r["axis"], r["thickness_mm"], r["face_lo_mm"],
                  r["face_hi_mm"], r["from_mm"], r["to_mm"],
                  r["lay"]["residual_mm"], ", ".join(r["walls"])))
+
+    print("\nDRAWN length against the RECORDED length, per wall:")
+    print("  %-5s %-5s %-10s %-10s %-9s %s"
+          % ("wall", "t", "clear_mm", "drawn", "delta", "from the"))
+    deltas = []
+    for w in sorted((w for w in walls if w["solid"]),
+                    key=lambda w: -abs(w.get("vs_recorded_mm") or 0)):
+        d = w.get("vs_recorded_mm")
+        print("  %-5s %-5.0f %-10s %-10.1f %-9s %s"
+              % (w["wall_id"], w["thickness_mm"], w["solid_mm"] or "-",
+                 w.get("laid_length_mm") or 0.0,
+                 ("%+.1f" % d) if d is not None else "-",
+                 w.get("length_from") or "-"))
+        if d is not None:
+            deltas.append(abs(d))
+    if deltas:
+        deltas.sort()
+        print("  |delta|: median %.1f mm, p90 %.1f mm, max %.1f mm, n=%d"
+              % (deltas[len(deltas) // 2], deltas[int(len(deltas) * 0.9)],
+                 deltas[-1], len(deltas)))
 
     if unmatched:
         print("\n⚠ UNMATCHED -- no hatched vector solid of this thickness nearby:")
