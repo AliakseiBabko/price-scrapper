@@ -1,0 +1,7 @@
+assembly_id,vertex_index,x_mm,y_mm,source_drawing,source_entity,status,field_verified
+A_NW_CORNER,0,2980.9,14645.3,3Б_3+ МН5_287.pdf,left-wall outer face x=2980.9 X drawn block joint y=14645.3,derived_from_vector_plan,no
+A_NW_CORNER,1,3230.9,14645.3,3Б_3+ МН5_287.pdf,left-wall inner face x=3230.9 X drawn block joint y=14645.3,derived_from_vector_plan,no
+A_NW_CORNER,2,3230.9,15990.2,3Б_3+ МН5_287.pdf,left-wall inner face x=3230.9 X top-wall outer face y=15990.2,derived_from_vector_plan,no
+A_NW_CORNER,3,4645.9,15990.2,3Б_3+ МН5_287.pdf,drawn block joint x=4645.9 (R1a|G2) X top-wall outer face y=15990.2,derived_from_vector_plan,no
+A_NW_CORNER,4,4645.9,16240.3,3Б_3+ МН5_287.pdf,drawn block joint x=4645.9 (R1a|G2) X top-wall inner face y=16240.3,derived_from_vector_plan,no
+A_NW_CORNER,5,2980.9,16240.3,3Б_3+ МН5_287.pdf,left-wall outer face x=2980.9 X top-wall inner face y=16240.3,derived_from_vector_plan,no
