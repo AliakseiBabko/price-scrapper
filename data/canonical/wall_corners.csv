@@ -1,5 +1,5 @@
 corner_id,kind,wall_a,wall_b,owner,owner_gains_mm,note
-C_R1a_R1b,L,R1a,R1b,R1a,250,R1a runs through to R1b's far face; R1b stops on R1a's near face
+C_R1a_R1b,continuous_casting,R1a,R1b,R1a,250,"NO CONSTRUCTION JOINT: R1a and R1b are legs of one monolithic casting, A_NW_CORNER - see structural_assemblies.csv. The 250 mm is a one-time volume allocation to R1a so the rectangular-leg arithmetic counts the corner once; it is NOT a junction. Use the assembly footprint for demolition, reinforcement, structural review and IFC."
 C_G3_R2,L,G3,R2,R2,250,R2 runs through to G3's far face; G3 stops on R2's near face
 C_MA_R8,L,MA,R8,R8,300,R8 runs through to MA's far face; MA stops on R8's near face
 C_MB_R8,L,MB,R8,R8,300,R8 runs through to MB's far face; MB stops on R8's near face

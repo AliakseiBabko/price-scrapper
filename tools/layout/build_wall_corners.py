@@ -116,19 +116,62 @@ def classify(walls):
     return Ls, Ts
 
 
-def rows_from(Ls):
+ASSEMBLIES = os.path.join(os.path.dirname(RUNS), 'structural_assemblies.csv')
+
+
+def assembly_of():
+    """wall_id -> assembly_id, for walls that are legs of one physical element.
+
+    Owner, 2026-09-09: "R1a and R1b is actually one corner element... this corner
+    is one concrete slab without any joints." The vector plan agrees - it draws a
+    block joint across the full wall thickness at every real joint, and there is
+    none at that corner.
+
+    !! So the ledger must not describe that corner as a joint. The corner VOLUME
+    still has to be allocated to exactly one leg, because the quantity arithmetic
+    works on rectangular legs and would otherwise count it twice or not at all -
+    but the allocation is a bookkeeping device inside one casting, not a junction
+    between two walls. This function is what lets rows_from() say so, and say it
+    on every regeneration rather than in a hand-edit that the next --write wipes.
+    """
+    out = {}
+    if not os.path.exists(ASSEMBLIES):
+        return out
+    with io.open(ASSEMBLIES, encoding='utf-8') as f:
+        for r in csv.DictReader(f):
+            for wid in (r.get('member_walls') or '').split('|'):
+                if wid.strip():
+                    out[wid.strip()] = r['assembly_id']
+    return out
+
+
+def rows_from(Ls, asm=None):
+    asm = asm if asm is not None else {}
     out = []
     for own, oth in sorted(Ls, key=lambda r: (r[0]['id'], r[1]['id'])):
         a, b = sorted([own['id'], oth['id']])
+        same = (asm.get(a) is not None and asm.get(a) == asm.get(b))
+        if same:
+            kind = 'continuous_casting'
+            note = ('NO CONSTRUCTION JOINT: %s and %s are legs of one monolithic '
+                    'casting, %s - see structural_assemblies.csv. The %g mm is a '
+                    'one-time volume allocation to %s so the rectangular-leg '
+                    'arithmetic counts the corner once; it is NOT a junction. '
+                    'Use the assembly footprint for demolition, reinforcement, '
+                    'structural review and IFC.'
+                    % (a, b, asm.get(a), oth['t'], own['id']))
+        else:
+            kind = 'L'
+            note = ('%s runs through to %s\'s far face; %s stops on %s\'s near face'
+                    % (own['id'], oth['id'], oth['id'], own['id']))
         out.append({
             'corner_id': 'C_%s_%s' % (a, b),
-            'kind': 'L',
+            'kind': kind,
             'wall_a': a,
             'wall_b': b,
             'owner': own['id'],
             'owner_gains_mm': '%g' % oth['t'],
-            'note': '%s runs through to %s\'s far face; %s stops on %s\'s near face'
-                    % (own['id'], oth['id'], oth['id'], own['id']),
+            'note': note,
         })
     return out
 
@@ -136,7 +179,7 @@ def rows_from(Ls):
 def main():
     walls = load(RUNS)
     Ls, Ts = classify(walls)
-    want = rows_from(Ls)
+    want = rows_from(Ls, assembly_of())
     print('%d L-corners, %d T-junctions across %d wall runs'
           % (len(Ls), len(Ts), len(walls)))
 
