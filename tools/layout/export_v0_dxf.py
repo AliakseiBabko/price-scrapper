@@ -102,12 +102,27 @@ def close_corners(walls):
         # the corner sits at whichever end of the owner is nearer the other wall
         lo, hi = (ob[1], ob[3]) if own["axis"] == "NS" else (ob[0], ob[2])
         centre = (lo + hi) / 2.0
+        # !! Extend only AS FAR AS the other wall's far face, never by a flat
+        # thickness. R8 already spanned MA's band, so adding its full 300 mm gain
+        # pushed it 350 mm past the corner and straight into G8 - an overlap the
+        # closure gate caught. Clamping makes the corner exactly solid and no
+        # more, which is what "owns the corner" means.
         if abs(own["from_mm"] - centre) <= abs(own["to_mm"] - centre):
-            own["from_mm"] = round(own["from_mm"] - gain, 1)
-            end = "start"
+            target = lo
+            if own["from_mm"] > target:
+                own["from_mm"] = round(target, 1)
+                end = "start"
+            else:
+                end = "start (already covered)"
+                gain = 0.0
         else:
-            own["to_mm"] = round(own["to_mm"] + gain, 1)
-            end = "end"
+            target = hi
+            if own["to_mm"] < target:
+                own["to_mm"] = round(target, 1)
+                end = "end"
+            else:
+                end = "end (already covered)"
+                gain = 0.0
         own["closed_corner"] = True
         fixes.append((r["corner_id"], r["owner"], other_id, gain, end))
     return fixes

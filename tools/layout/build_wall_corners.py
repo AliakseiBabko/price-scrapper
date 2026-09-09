@@ -126,6 +126,61 @@ def classify(walls):
 
 ASSEMBLIES = os.path.join(os.path.dirname(RUNS), 'structural_assemblies.csv')
 BLOCKS = os.path.join(os.path.dirname(RUNS), 'wall_blocks.csv')
+DIRECTIVES = os.path.join(os.path.dirname(RUNS), 'junction_directives.csv')
+
+CLOSURE_KINDS = {'wall_extension', 'insulation_infill', 'unresolved'}
+
+
+def directives():
+    """Owner-directed junctions that classify() cannot emit, plus their checks.
+
+    Why a companion file rather than widening classify(): that function works on
+    the older basic-raster wall_runs.csv with a broad proximity rule and already
+    carries domain-specific suppression. Raising its capture radius to absorb
+    known tens-of-millimetre gaps would fold three different things - extraction
+    error, closure by external insulation, and an explicit owner instruction -
+    into one inferred geometry, and would risk inventing corners elsewhere. So
+    the derived ledger stays derived, and the owner's instructions are declared.
+
+    !! insulation_infill is NOT a wall extension. The owner: the gaps at MB / R2
+    / R9 "are filled with the insulation, another layer which lays on top of the
+    external walls". Closing those by lengthening masonry would count insulation
+    as masonry. Such a row carries no `extends` and must never be turned into
+    ownership.
+
+    Returns (rows, problems).
+    """
+    if not os.path.exists(DIRECTIVES):
+        return [], []
+    rows, problems, seen = [], [], set()
+    with io.open(DIRECTIVES, encoding='utf-8') as f:
+        for i, r in enumerate(csv.DictReader(f), start=2):
+            did = (r.get('directive_id') or '').strip()
+            a, b = (r.get('wall_a') or '').strip(), (r.get('wall_b') or '').strip()
+            kind = (r.get('closure_kind') or '').strip()
+            ext = (r.get('extends') or '').strip()
+            if not did:
+                problems.append('junction_directives line %d has no directive_id' % i)
+                continue
+            if did in seen:
+                problems.append('%s: directive_id repeats' % did)
+            seen.add(did)
+            if kind not in CLOSURE_KINDS:
+                problems.append('%s: closure_kind %r is not one of %s'
+                                % (did, kind, sorted(CLOSURE_KINDS)))
+            if a == b or not a or not b:
+                problems.append('%s: wall_a and wall_b must differ and be named' % did)
+            if kind == 'wall_extension' and ext not in (a, b):
+                problems.append('%s: extends %r must be wall_a or wall_b' % (did, ext))
+            if kind == 'insulation_infill' and ext:
+                problems.append('%s: an insulation_infill row must NOT name a wall '
+                                'to extend - the closure is the insulation layer, '
+                                'not masonry' % did)
+            if not (r.get('source') or '').strip():
+                problems.append('%s: no source; a directive without provenance is '
+                                'indistinguishable from a guess' % did)
+            rows.append(r)
+    return rows, problems
 
 
 def assembly_of():
@@ -200,6 +255,33 @@ def assembly_of_strict(walls):
     return asm, problems
 
 
+def directive_rows(drows, walls):
+    """Ledger rows for the owner-directed junctions, in the generated shape."""
+    byid = dict((w['id'], w) for w in walls)
+    out = []
+    for r in drows:
+        if (r.get('closure_kind') or '').strip() != 'wall_extension':
+            continue
+        a, b = sorted([r['wall_a'].strip(), r['wall_b'].strip()])
+        ext = r['extends'].strip()
+        other = b if ext == a else a
+        w = byid.get(other)
+        gain = '%g' % (w['t'] if w else 0)
+        out.append({
+            'corner_id': 'C_%s_%s' % (a, b),
+            'kind': 'owner_directed',
+            'wall_a': a,
+            'wall_b': b,
+            'owner': ext,
+            'owner_gains_mm': gain,
+            'note': ('OWNER-DIRECTED (%s): %s extends onto %s to close a junction '
+                     'classify() cannot see. %s'
+                     % (r.get('directive_id', '?'), ext, other,
+                        (r.get('notes') or '').split('.')[0])),
+        })
+    return out
+
+
 def rows_from(Ls, asm=None):
     asm = asm if asm is not None else {}
     out = []
@@ -235,7 +317,16 @@ def main():
     walls = load(RUNS)
     Ls, Ts = classify(walls)
     asm, asm_problems = assembly_of_strict(walls)
+    drows, d_problems = directives()
     want = rows_from(Ls, asm)
+    have_ids = set(r['corner_id'] for r in want)
+    for r in directive_rows(drows, walls):
+        if r['corner_id'] in have_ids:
+            d_problems.append('%s is already a derived corner; remove the directive'
+                              % r['corner_id'])
+        else:
+            want.append(r)
+    asm_problems += d_problems
     print('%d L-corners, %d T-junctions across %d wall runs'
           % (len(Ls), len(Ts), len(walls)))
 
