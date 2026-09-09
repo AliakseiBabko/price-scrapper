@@ -41,6 +41,7 @@ from __future__ import print_function
 
 import csv
 import io
+import math
 import os
 import sys
 
@@ -54,6 +55,12 @@ KNOWN_SCHEMA = {'1'}
 KNOWN_KIND = {'monolithic_cast'}
 KNOWN_STATUS = {'derived_from_vector_plan', 'measured_on_site',
                 'owner_stated', 'provisional'}
+# !! A required-and-non-empty check is not a vocabulary check. CODEX round 3
+# passed `field_verified=maybe` straight through, because the field was only
+# tested for presence. A tri-state that is meant to be a boolean is worse than
+# a missing value: it reads as an answer.
+KNOWN_FIELD_VERIFIED = {'yes', 'no'}
+MIN_AREA_M2 = 1e-6
 AREA_TOL_M2 = 0.0005
 REQUIRED_VERTEX_FIELDS = ('source_drawing', 'source_entity', 'status',
                           'field_verified')
@@ -64,6 +71,23 @@ def read(path):
         return None
     with io.open(path, encoding='utf-8') as f:
         return list(csv.DictReader(f))
+
+
+def finite(value):
+    """float(value) if it is a real, finite number - else None.
+
+    !! float('nan') PARSES, so a try/except around float() is not a numeric
+    check. Worse, every comparison against nan is False, so
+    `abs(nan - recorded) > tol` silently reports agreement. CODEX round 3 got a
+    PASS out of `x_mm=nan` that printed "area nan" while succeeding, and the
+    same hole existed on footprint_area_m2. Non-finite input must be rejected at
+    the parse, never compared.
+    """
+    try:
+        f = float(value)
+    except (TypeError, ValueError):
+        return None
+    return f if math.isfinite(f) else None
 
 
 def shoelace_m2(pts):
@@ -101,11 +125,20 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
         return problems
 
     members = {}
+    seen_ids = set()
     for a in assemblies:
         aid = (a.get('assembly_id') or '').strip()
         if not aid:
             problems.append('an assembly row has no assembly_id')
             continue
+        # An explicit uniqueness check. A duplicate id was rejected before only
+        # by ACCIDENT, via the wall-in-two-assemblies rule, and an accidental
+        # rejection is not a check - the same standard this repo applies to
+        # every other validator.
+        if aid in seen_ids:
+            problems.append('assembly_id %r appears more than once; ids must be '
+                            'unique' % aid)
+        seen_ids.add(aid)
         if (a.get('schema_version') or '').strip() not in KNOWN_SCHEMA:
             problems.append('%s: schema_version %r is not one of %s'
                             % (aid, a.get('schema_version'), sorted(KNOWN_SCHEMA)))
@@ -168,11 +201,13 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
                             % (aid, len(rows)))
         pts = []
         for r in rows:
-            try:
-                pts.append((float(r['x_mm']), float(r['y_mm'])))
-            except (KeyError, ValueError):
-                problems.append('%s vertex %s: x_mm/y_mm not numeric'
-                                % (aid, r.get('vertex_index')))
+            x, y = finite(r.get('x_mm')), finite(r.get('y_mm'))
+            if x is None or y is None:
+                problems.append('%s vertex %s: x_mm/y_mm must be finite numbers, '
+                                'got %r/%r' % (aid, r.get('vertex_index'),
+                                               r.get('x_mm'), r.get('y_mm')))
+            else:
+                pts.append((x, y))
             for field in REQUIRED_VERTEX_FIELDS:
                 if not (r.get(field) or '').strip():
                     problems.append('%s vertex %s: %s is empty; plan 4.6 requires '
@@ -183,6 +218,12 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
                 problems.append('%s vertex %s: status %r is not one of %s'
                                 % (aid, r.get('vertex_index'), st,
                                    sorted(KNOWN_STATUS)))
+            fv = (r.get('field_verified') or '').strip()
+            if fv and fv not in KNOWN_FIELD_VERIFIED:
+                problems.append('%s vertex %s: field_verified %r is not one of '
+                                '%s - a tri-state here would read as an answer'
+                                % (aid, r.get('vertex_index'), fv,
+                                   sorted(KNOWN_FIELD_VERIFIED)))
         if len(pts) != len(rows):
             continue
         if len(set(pts)) != len(pts):
@@ -196,10 +237,15 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
                                 'orthogonal' % (aid, i, (i + 1) % len(pts),
                                                 x0, y0, x1, y1))
         got = shoelace_m2(pts)
-        try:
-            want = float(a['footprint_area_m2'])
-        except (KeyError, ValueError):
-            problems.append('%s: footprint_area_m2 missing or not numeric' % aid)
+        want = finite(a.get('footprint_area_m2'))
+        if want is None:
+            problems.append('%s: footprint_area_m2 must be a finite number, got %r'
+                            % (aid, a.get('footprint_area_m2')))
+            continue
+        if got < MIN_AREA_M2 or want < MIN_AREA_M2:
+            problems.append('%s: footprint area is degenerate (recomputed %.6f, '
+                            'recorded %.6f); a solid must enclose area'
+                            % (aid, got, want))
             continue
         if abs(got - want) > AREA_TOL_M2:
             problems.append('%s: footprint_area_m2 says %.4f, the vertices give '
