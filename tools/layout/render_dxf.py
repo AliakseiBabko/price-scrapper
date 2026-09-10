@@ -21,6 +21,9 @@ from __future__ import print_function
 
 import argparse
 import collections
+import importlib.util
+import io
+import json
 import math
 import os
 import sys
@@ -47,6 +50,15 @@ STYLE = {
 DRAW_ORDER = ['V0-SLAB-EXTENSION', 'V0-WALL-CONCRETE', 'V0-WALL-AERATED',
               'V0-WALL-EXTERNAL', 'V0-WALL-LOGGIA', 'V0-LOGGIA-GLAZING',
               'V0-OPENING', 'V0-SUGGESTED-FURN', 'V0-WALL-LABEL']
+
+
+def _load(name):
+    spec = importlib.util.spec_from_file_location(
+        name, os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                           '%s.py' % name))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
 
 
 def font(size):
@@ -160,29 +172,36 @@ def main():
     y += 14
     dr.text((lx, y), 'Still open', fill=(200, 40, 40), font=f_m)
     y += 24
-    # !! This caption said "M6b absent … so the лоджия does not close" for a
-    # round AFTER M6b was placed, because it is prose in the renderer and
-    # nothing regenerated it. CODEX caught the committed PNG contradicting the
-    # committed DXF. Keep it describing what the drawing actually shows.
-    for line in ('M6b now PLACED and quarantined —',
-                 '   flush with R8, thickness still',
-                 '   unresolved, out of quantities',
-                 'the лоджия is still NOT a closed',
-                 '   loop: the glazing run is drawn',
-                 '   detached from M2 and M6b',
-                 'M2 drawn axis-aligned; the real',
-                 '   лоджия wall splays — which is',
-                 '   why the skewed glazing does',
-                 '   not meet the square walls',
-                 '9 walls carry an OPEN extent',
-                 '   exception: drawn length vs',
-                 '   recorded solid_mm, −910..+250',
-                 '5 internal doors OMITTED, not',
-                 '   guessed: O1 O5 O6 O7 O8 —',
-                 '   their reveals are drawn',
-                 '   differently in thin walls'):
+    # !! NOTHING BELOW IS WRITTEN BY HAND, and that is the point. This block was
+    # hard-coded prose and it went stale TWICE: in round 2 it said M6b was absent
+    # while the DXF drew it, and in round 4 CODEX found it saying the лоджия was
+    # open and "9 walls carry an OPEN extent exception" while the loop was closed
+    # and the ledger held 10. Editing the words was the wrong fix the first time
+    # - a caption a person maintains drifts every time the geometry moves, and
+    # the owner reads the caption.
+    #
+    # Now every figure is derived from the same canonical data and the same DXF
+    # the gates read, and what was drawn is written to a sidecar that
+    # check_dxf_closure.py asserts is current. A stale review drawing fails the
+    # closure gate.
+    v0 = _load('v0_state')
+    walls, _malformed = _load('dxf_wall_entities').read_walls(args.dxf)
+    glazing = None
+    ep = os.path.join(REPO, 'data', 'canonical', 'v0_elements_extracted.json')
+    if os.path.exists(ep):
+        with io.open(ep, encoding='utf-8') as f:
+            glazing = json.load(f).get('loggia_glazing')
+    summary = v0.summary(walls, glazing)
+    omitted = []
+    opp = os.path.join(REPO, 'data', 'canonical', 'v0_openings_placed.json')
+    if os.path.exists(opp):
+        with io.open(opp, encoding='utf-8') as f:
+            omitted = sorted(u['opening_id']
+                             for u in json.load(f).get('unplaced', []))
+    for line in v0.caption_lines(summary, omitted):
         dr.text((lx, y), line, fill=(200, 40, 40), font=f_s)
         y += 17
+    v0.write_sidecar(summary)
     y += 12
     for line in ('Project dimensions. As-built runs',
                  '1.0–1.9% smaller. DRAFT.'):

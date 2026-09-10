@@ -112,6 +112,23 @@ def _(doc):
     e.set_points([(q[0] + 600, q[1]) for q in e.get_points()], format='xy')
 
 
+@case('CODEX r4: MC replaced by a TRIANGLE on three of its own corners')
+def _(doc):
+    """The same seed the closure suite carries, and it must be in BOTH.
+
+    !! CODEX round 4 found this gate substituting a bounding box for the polygon
+    exactly as the closure gate did, because each had its own reader doing
+    min/max. The fix was one shared reader - and the seed lives in both suites so
+    that if the two ever diverge again, the suite that lost the check says so
+    instead of the reviewer having to find it a second time.
+    """
+    e = named(doc.modelspace(), 'MC')
+    p = [(q[0], q[1]) for q in e.get_points()]
+    x0, x1 = min(q[0] for q in p), max(q[0] for q in p)
+    y0, y1 = min(q[1] for q in p), max(q[1] for q in p)
+    e.set_points([(x0, y0), (x1, y0), (x1, y1)], format='xy')
+
+
 @case('a wall the drawing shows is simply absent: G5 deleted')
 def _(doc):
     msp = doc.modelspace()

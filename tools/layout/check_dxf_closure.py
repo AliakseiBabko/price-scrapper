@@ -80,6 +80,25 @@ def read(name):
         return list(csv.DictReader(f))
 
 
+def _entities():
+    import importlib.util
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                     'dxf_wall_entities.py')
+    spec = importlib.util.spec_from_file_location('dxf_wall_entities', p)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+def _state():
+    import importlib.util
+    p = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'v0_state.py')
+    spec = importlib.util.spec_from_file_location('v0_state', p)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
 def _load_oracle():
     import importlib.util
     p = os.path.join(os.path.dirname(os.path.abspath(__file__)),
@@ -98,44 +117,20 @@ def _tabular():
 
 
 def walls_from_dxf(path):
-    """Every wall polyline, and the label each one lies nearest to.
+    """Validated wall rectangles, via the ONE shared reader.
 
-    !! This used to return a dict keyed by label, and that silently DEFEATED a
-    whole class of defect: add a second copy of G6 and the later entry simply
-    overwrote the first, so the gate saw the same 25 walls and passed. CODEX
-    seeded exactly that. Returning a LIST and asserting one polyline per label
-    is the fix - the count is part of what is checked, not an index.
+    !! This used to reduce each polyline to min/max x/y itself, and CODEX round 4
+    showed what that costs: a closed TRIANGLE on three of a rectangle's corners
+    kept the same label, layer, bounding box and nominal size, lost half the wall
+    body, and passed. Everything downstream - corner squares, cavities, overlaps -
+    was then reasoning about a rectangle nobody had drawn.
+
+    The reader now REFUSES anything that is not the shape `export_v0_dxf.py`
+    promises, and it is shared with `raster_fidelity.py` so the substitution
+    cannot be reintroduced in one reader and not the other.
     """
-    doc = ezdxf.readfile(path)
-    msp = doc.modelspace()
-    labels = {e.dxf.text: (e.dxf.insert.x, e.dxf.insert.y)
-              for e in msp if e.dxftype() == 'TEXT'
-              and e.dxf.layer == 'V0-WALL-LABEL'}
-    out = []
-    for e in msp:
-        if e.dxftype() != 'LWPOLYLINE' or not e.dxf.layer.startswith('V0-WALL'):
-            continue
-        p = [(q[0], q[1]) for q in e.get_points()]
-        x0, x1 = min(q[0] for q in p), max(q[0] for q in p)
-        y0, y1 = min(q[1] for q in p), max(q[1] for q in p)
-        cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
-        if labels:
-            name = min(labels.items(),
-                       key=lambda kv: (kv[1][0] - cx) ** 2
-                       + (kv[1][1] - cy) ** 2)[0]
-        else:
-            name = '?'
-        out.append({'id': name, 'x0': x0, 'x1': x1, 'y0': y0, 'y1': y1,
-                    'axis': 'EW' if (x1 - x0) > (y1 - y0) else 'NS',
-                    'layer': e.dxf.layer})
-    return out
-
-
-def labels_in_dxf(path):
-    """Every V0-WALL-LABEL text in the drawing, as an id list."""
-    doc = ezdxf.readfile(path)
-    return [e.dxf.text for e in doc.modelspace()
-            if e.dxftype() == 'TEXT' and e.dxf.layer == 'V0-WALL-LABEL']
+    walls, problems = _entities().read_walls(path)
+    return walls, problems
 
 
 def read_placement():
@@ -191,7 +186,7 @@ def main():
     if args.canon:
         _CANON[0] = args.canon
 
-    wall_list = walls_from_dxf(args.dxf)
+    wall_list, malformed = walls_from_dxf(args.dxf)
     ledger = read('wall_corners.csv')
     directives = read('junction_directives.csv')
     blocks = read('wall_blocks.csv')
@@ -206,6 +201,19 @@ def main():
             infill.add(frozenset((r['wall_a'].strip(), r['wall_b'].strip())))
 
     findings = []
+
+    # === 0. shape: the entity is the rectangle it is taken for ===========
+    # Before any measurement, because a malformed entity silently becomes its
+    # bounding box in every measurement that follows.
+    print('wall entity shape - is each one the rectangle it is read as?')
+    for bad in malformed:
+        findings.append({'kind': 'malformed_wall', 'walls': [bad['wall']],
+                         'detail': bad['detail']})
+        print('  FAIL %-5s %s' % (bad['wall'], bad['detail']))
+    if not malformed:
+        print('  ok   every wall entity is a closed, axis-aligned, zero-bulge '
+              'rectangle filling its own bounding box')
+    print()
 
     # === 1. identity: present, and exactly once ==========================
     print('wall identity - present, and one polyline each:')
@@ -234,7 +242,7 @@ def main():
     # carries 25 V0-WALL-LABEL texts, because the drawing labels what it claims
     # to draw. Parity between labels and polylines is internal to the artefact
     # and cannot be falsified by editing canonical data.
-    labelled = set(labels_in_dxf(args.dxf))
+    labelled = set(_entities().label_names(args.dxf))
     orphan_labels = sorted(labelled - set(by_id))
     for wid in orphan_labels:
         findings.append({'kind': 'label_without_wall', 'walls': [wid],
@@ -653,6 +661,42 @@ def main():
                          'detail': '%.0f mm2' % area})
         print('  FAIL %-16s %8.0f mm2 between %s'
               % ('+'.join(touch), area, ', '.join(touch)))
+
+    # === 8. the review drawing must not report a previous round ==========
+    # !! CODEX round 4: `render_dxf.py` hard-coded "the лоджия is still NOT a
+    # closed loop" and "9 walls carry an OPEN extent exception" while the loop
+    # was closed and the ledger held 10. The owner reads that caption, and his
+    # standing instruction is exactly this: "I want you to check yourself and not
+    # come back to me showing the same result." A drawing that states last
+    # round's verdict IS that failure.
+    #
+    # The caption is now derived, and this asserts the drawing on disk was made
+    # from the state that exists now. Skipped when --dxf points at a seeded copy,
+    # because the sidecar describes the real export, not the fixture.
+    if args.dxf == DXF and not args.canon:
+        print('\nthe review drawing - does it describe the current state?')
+        try:
+            v0 = _state()
+            ep = os.path.join(CANON, 'v0_elements_extracted.json')
+            glazing = None
+            if os.path.exists(ep):
+                with io.open(ep, encoding='utf-8') as f:
+                    glazing = json.load(f).get('loggia_glazing')
+            current = v0.summary(wall_list, glazing, canon=_CANON[0])
+            drifted = v0.stale(current, v0.read_sidecar())
+            for d in drifted:
+                findings.append({'kind': 'stale_review_drawing', 'walls': [],
+                                 'detail': d})
+                print('  FAIL %s' % d)
+            if not drifted:
+                print('  ok   v0_dxf_readback.png reports %d open exception(s) '
+                      'of %d, лоджия loop closed=%s - all current'
+                      % (current['open_exceptions'], current['total_exceptions'],
+                         current['loggia_loop_closed']))
+        except Exception as exc:                       # noqa: BLE001
+            findings.append({'kind': 'stale_review_drawing', 'walls': [],
+                             'detail': '%s: %s' % (type(exc).__name__, exc)})
+            print('  FAIL could not check the review drawing: %s' % exc)
 
     if args.json:
         print(json.dumps({'findings': findings}, indent=1, ensure_ascii=False))
