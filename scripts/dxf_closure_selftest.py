@@ -28,6 +28,8 @@ import ezdxf
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DXF = os.path.join(REPO, 'data', 'cad', 'dxf', 'v0_developer_layout.dxf')
 CANON = os.path.join(REPO, 'data', 'canonical')
+SIDECAR = os.path.join(REPO, '_Drawings', 'review',
+                       'v0_dxf_readback.json')
 GATE = os.path.join(REPO, 'tools', 'layout', 'check_dxf_closure.py')
 
 WALL_LAYERS = ('V0-WALL-CONCRETE', 'V0-WALL-AERATED', 'V0-WALL-EXTERNAL',
@@ -252,6 +254,68 @@ def _(doc):
 # validate its own fields rather than allowlist a delta beside decorative ones.
 
 
+# --- the class CODEX seeded in ROUND 4 --------------------------------------
+# !! Not a measurement error and not a table edit: the READER invented geometry.
+# Both gates reduced a wall polyline to min/max x/y, so a closed TRIANGLE on
+# three of a rectangle's four corners kept the same label, layer, bounding box
+# and nominal size, lost half the wall body, and passed both binding checks.
+# Everything downstream - corner squares, cavities, body masks, dense edge
+# samples - was reasoning about a rectangle nobody had drawn, and no later check
+# could ever have noticed, because by then the real polygon was gone.
+#
+# The seed is kept exactly as CODEX wrote it, and the bulge case below covers the
+# other way the exporter's rectangle contract can break.
+
+
+@case('CODEX r4: MC replaced by a TRIANGLE on three of its own corners')
+def _(doc):
+    e = named(doc.modelspace(), 'MC')
+    p = [(q[0], q[1]) for q in e.get_points()]
+    x0, x1 = min(q[0] for q in p), max(q[0] for q in p)
+    y0, y1 = min(q[1] for q in p), max(q[1] for q in p)
+    e.set_points([(x0, y0), (x1, y0), (x1, y1)], format='xy')
+
+
+@case('G6 given a bulged edge - a rectangle by vertices, an arc when drawn')
+def _(doc):
+    e = named(doc.modelspace(), 'G6')
+    p = [(q[0], q[1]) for q in e.get_points()]
+    x0, x1 = min(q[0] for q in p), max(q[0] for q in p)
+    y0, y1 = min(q[1] for q in p), max(q[1] for q in p)
+    e.set_points([(x0, y0, 0, 0, 0.6), (x1, y0), (x1, y1), (x0, y1)],
+                 format='xyseb')
+
+
+INPLACE = []
+
+
+def inplace(name):
+    """A case that mutates a COMMITTED artefact and must be restored after.
+
+    !! The staleness check deliberately compares the committed drawing against
+    the committed state, and skips a seeded `--dxf` copy - the sidecar describes
+    the real export, not a fixture. So this class of seed cannot use the copy
+    runner: written as a `@paired` case it would have mutated a temporary file
+    the check never looks at, and passed while testing nothing. A seed that
+    cannot fail is worse than no seed, because it reads as coverage.
+    """
+    def deco(fn):
+        INPLACE.append((name, fn))
+        return fn
+    return deco
+
+
+@inplace('the review drawing left reporting the PREVIOUS round')
+def _():
+    """CODEX r4 finding 2, as a permanent seed: the exact stale claims it found."""
+    import json as _json
+    d = _json.loads(io.open(SIDECAR, encoding='utf-8').read())
+    d['open_exceptions'] = (d.get('open_exceptions') or 0) - 1
+    d['loggia_loop_closed'] = not d.get('loggia_loop_closed')
+    io.open(SIDECAR, 'w', encoding='utf-8', newline='').write(
+        _json.dumps(d, indent=1, ensure_ascii=False) + '\n')
+
+
 @paired('CODEX r3: MC +1000 mm AND wall_blocks.csv edited to match')
 def _(doc, canon):
     grow(named(doc.modelspace(), 'MC'), 1000)
@@ -355,6 +419,31 @@ def main():
                     ok = False
             finally:
                 shutil.rmtree(d, ignore_errors=True)
+
+    if INPLACE:
+        print('\nseeded defects in a COMMITTED artefact (restored after each):')
+        for name, mutate in INPLACE:
+            before = io.open(SIDECAR, encoding='utf-8').read() \
+                if os.path.exists(SIDECAR) else None
+            try:
+                mutate()
+                rc = run(DXF)
+                if rc != 0:
+                    print('  ok      rejected: %s' % name)
+                else:
+                    print('  FAILED  ACCEPTED: %s' % name)
+                    ok = False
+            finally:
+                if before is not None:
+                    io.open(SIDECAR, 'w', encoding='utf-8',
+                            newline='').write(before)
+        # the restore must itself be verified: a selftest that leaves the tree
+        # dirty has broken the thing it was checking
+        if run(DXF) != 0:
+            print('  FAILED  the real export no longer passes after restore')
+            ok = False
+        else:
+            print('  ok      the committed artefact is restored and still passes')
 
     print()
     if ok:

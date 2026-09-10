@@ -162,3 +162,85 @@ presence test that needs no table at all.
 | `scripts/raster_fidelity_selftest.py` | **6** — translation, 3% scale, endpoint drift, sideways displacement, a deleted wall, a tampered mask |
 
 Every single one exists because something passed.
+
+## Round 4: the reader invented the geometry, and the drawing reported last round
+
+Two findings, both reproduced on the first attempt, and neither was a
+measurement error or a table edit.
+
+### The gates replaced the polygon with its bounding rectangle
+
+CODEX replaced MC's four-point rectangular `LWPOLYLINE` with a **closed triangle
+on three of the same four corners.** Label, layer, bounding box, nominal length
+and nominal thickness all unchanged; **half the wall body gone.** Both binding
+gates returned exit 0.
+
+The cause was one line, written twice:
+
+```python
+x0, x1 = min(q[0] for q in p), max(q[0] for q in p)
+y0, y1 = min(q[1] for q in p), max(q[1] for q in p)
+```
+
+`check_dxf_closure.walls_from_dxf()` and `raster_fidelity.dxf_walls()` each
+reduced the polyline to its bounding box, and every corner square, cavity scan,
+body mask and dense edge sample downstream then reasoned about **a rectangle
+nobody had drawn**. The closure gate could report a corner square fully covered
+by an entity that does not cover it.
+
+Two properties make this a class rather than an incident:
+
+1. **It is invisible to every later check.** No amount of care downstream can
+   detect it, because by then the real polygon is gone.
+2. **It was duplicated.** Two readers meant two chances to make the same
+   substitution, and fixing one would have left the other.
+
+So there is now **one** reader, `tools/layout/dxf_wall_entities.py`, and it
+refuses anything that is not the shape `export_v0_dxf.py` promises: closed,
+zero-bulge, axis-aligned, four distinct corners, **and polygon area equal to
+bounding-box area**. Coping with arbitrary polygons would have been a larger
+change with more places to be subtly wrong; refusing is small, total, and fails
+closed. Both suites carry the triangle, so if the readers ever diverge again the
+suite that lost the check says so.
+
+### The review drawing still reported the previous round — for the second time
+
+`render_dxf.py` hard-coded *"the лоджия is still NOT a closed loop"* and *"9
+walls carry an OPEN extent exception"* while the loop was closed and the ledger
+held **10**.
+
+⚠️ **This is the same defect as round 2, and I fixed it the wrong way then.** In
+round 2 the caption claimed M6b was absent while the DXF drew it, and I edited
+the words. A caption a person maintains drifts every time the geometry moves —
+and **the owner reads the caption**, so a stale one is precisely the *"come back
+showing the same result"* failure this whole topic exists to prevent.
+
+The fix is structural. `tools/layout/v0_state.py` derives the whole "Still open"
+block — open exception count, quarantine, лоджия loop status computed against the
+drawing's own glazing axis — from the same canonical data and the same DXF the
+gates read. `render_dxf.py` writes what it drew to a sidecar, and
+**`check_dxf_closure.py` now fails when that sidecar disagrees with the current
+state.** A stale review drawing is a gate failure, not a documentation slip.
+
+Seeded with CODEX's exact stale claims, the gate reports:
+
+```
+FAIL open_exceptions: the drawing says 9, the current state is 10
+FAIL loggia_loop_closed: the drawing says False, the current state is True
+```
+
+⚠️ **The first version of that seed tested nothing.** Written as a `@paired`
+case it mutated a temporary copy of the sidecar, which the staleness check never
+looks at — it is deliberately scoped to the committed drawing. It would have
+passed while checking nothing. A seed that cannot fail is worse than no seed,
+because it reads as coverage; hence the separate in-place runner, which also
+verifies the artefact is restored afterwards.
+
+## The permanent suites, after four rounds
+
+| suite | seeds |
+| :--- | :--- |
+| `scripts/dxf_closure_selftest.py` | **19** — four mutating the DXF *and* a canonical table, one mutating a committed artefact in place |
+| `scripts/raster_fidelity_selftest.py` | **7** — including the tampered frozen mask |
+
+Every single one exists because something passed.

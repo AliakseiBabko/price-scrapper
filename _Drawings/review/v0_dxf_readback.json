@@ -1,0 +1,27 @@
+{
+ "wall_count": 25,
+ "open_exceptions": 10,
+ "open_exception_ids": [
+  "G4C",
+  "G4b",
+  "G4d",
+  "G7",
+  "M2",
+  "M6b",
+  "MA",
+  "R1b",
+  "R8",
+  "R9"
+ ],
+ "total_exceptions": 11,
+ "quarantined": [
+  "M6b"
+ ],
+ "loggia_loop_closed": true,
+ "loggia_worst_gap_mm": 0.0,
+ "loggia_per_wall_gap_mm": {
+  "M2": 0.0,
+  "M6b": 0.0
+ },
+ "what": "What _Drawings/review/v0_dxf_readback.png actually says. check_dxf_closure.py asserts this matches the current geometry and ledger, so a review drawing that reports a previous round cannot pass the gate."
+}

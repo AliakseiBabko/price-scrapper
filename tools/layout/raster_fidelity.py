@@ -352,25 +352,25 @@ def fit_axis(faces_mm, px_lines, sign):
 
 # --------------------------------------------------------------- the DXF -----
 def dxf_walls(path):
-    doc = ezdxf.readfile(path)
-    msp = doc.modelspace()
-    labels = {e.dxf.text: (e.dxf.insert.x, e.dxf.insert.y)
-              for e in msp if e.dxftype() == 'TEXT'
-              and e.dxf.layer == 'V0-WALL-LABEL'}
-    out = []
-    for e in msp:
-        if (e.dxftype() != 'LWPOLYLINE'
-                or not e.dxf.layer.startswith(WALL_LAYERS_PREFIX)):
-            continue
-        p = [(q[0], q[1]) for q in e.get_points()]
-        x0, x1 = min(q[0] for q in p), max(q[0] for q in p)
-        y0, y1 = min(q[1] for q in p), max(q[1] for q in p)
-        cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
-        name = (min(labels.items(),
-                    key=lambda kv: (kv[1][0] - cx) ** 2 + (kv[1][1] - cy) ** 2)[0]
-                if labels else '?')
-        out.append({'id': name, 'x0': x0, 'x1': x1, 'y0': y0, 'y1': y1})
-    return out
+    """Validated wall rectangles, via the ONE shared reader.
+
+    !! CODEX round 4 seeded a closed TRIANGLE on three of MC's four corners: same
+    label, layer and bounding box, half the body gone, and this gate passed too -
+    because it reduced the polyline to min/max x/y exactly as the closure gate
+    did. Two readers meant two chances to make the same substitution, so there is
+    now one, and it refuses anything that is not the shape the exporter promises.
+    """
+    walls, problems = _entities().read_walls(path)
+    return walls, problems
+
+
+def _entities():
+    import importlib.util
+    p = os.path.join(HERE, 'dxf_wall_entities.py')
+    spec = importlib.util.spec_from_file_location('dxf_wall_entities', p)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
 
 
 def solid_for(w, solids, face_tol=40.0):
@@ -554,8 +554,16 @@ def main():
     print('\ndirection 1: DXF wall edges -> ink (dense, %s mm steps)' % 25)
     dist_to_ink = chamfer(mask)
     h, w = mask.shape
-    walls = dxf_walls(args.dxf)
+    walls, malformed = dxf_walls(args.dxf)
     findings, per_wall = [], []
+    # A malformed entity becomes its bounding box in every measurement below, so
+    # it is refused before any measurement happens rather than scored.
+    if malformed:
+        print('  wall entity shape:')
+        for bad in malformed:
+            print('  FAIL %-5s %s' % (bad['wall'], bad['detail']))
+            findings.append({'kind': 'malformed_wall', 'walls': [bad['wall']],
+                             'detail': bad['detail']})
     for wl in sorted(walls, key=lambda v: v['id']):
         ds = []
         ops = openings_of(wl, solids)
