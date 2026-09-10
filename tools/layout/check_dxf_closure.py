@@ -218,6 +218,40 @@ def main():
 
     findings = []
 
+    # === 0a. every canonical table's key is UNIQUE =======================
+    # !! CODEX round 6 duplicated a byte-identical G6 row in wall_blocks.csv.
+    # The gate printed "26 named walls" on the same line as "25 label ENTITIES"
+    # and then declared every wall present exactly once, because every reader
+    # keys these tables into a dict and last-wins. That is the fourth appearance
+    # of the collapsing-collection class, and the second time the number was
+    # PRINTED and not CHECKED.
+    #
+    # So it is closed for the whole family rather than for G6: `check_unique`
+    # was already imported and used one screen below for the exception ledger,
+    # and the same call now covers every canonical table the gate keys on.
+    KEYS = (('wall_blocks.csv', ['wall_id']),
+            ('wall_corners.csv', ['corner_id']),
+            ('wall_placement_directives.csv', ['directive_id']),
+            ('junction_directives.csv', ['directive_id']))
+    print('canonical table keys - does any repeat?')
+    t = _tabular()
+    key_problems = []
+    for name, cols in KEYS:
+        path = os.path.join(_CANON[0], name)
+        if not os.path.exists(path):
+            continue
+        rows, csv_problems = t.read_csv(path, strict=False)
+        for pb in csv_problems + t.check_unique(path, rows, cols):
+            key_problems.append(str(pb))
+    for pb in key_problems:
+        findings.append({'kind': 'duplicate_table_key', 'walls': [],
+                         'detail': pb})
+        print('  FAIL %s' % pb)
+    if not key_problems:
+        print('  ok   %d tables, every key unique and no malformed row'
+              % len(KEYS))
+    print()
+
     # === 0. shape: the entity is the rectangle it is taken for ===========
     # Before any measurement, because a malformed entity silently becomes its
     # bounding box in every measurement that follows.
@@ -297,7 +331,11 @@ def main():
     if not dupes and not absent and not stray and not repeated:
         print('  ok   all %d named walls present, one polyline and one label '
               'each' % len(by_id))
-    print('  %d polylines, %d label ENTITIES (%d distinct), %d named walls'
+    # `len(blocks)` is a ROW count, and printing it beside two entity counts as
+    # though all three were commensurate is how "26 named walls" sat next to a
+    # claim of 25 without anything objecting. It is now labelled as rows, and
+    # §0a has already asserted the rows are unique.
+    print('  %d polylines, %d label ENTITIES (%d distinct), %d wall_blocks rows'
           % (len(wall_list), len(label_entities), len(labelled), len(blocks)))
 
     # W is the by-name view the rest of the gate uses. Building it AFTER the
