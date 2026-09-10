@@ -148,14 +148,30 @@ def read_placement():
     `face_hi_mm` are exact between the placement and the drawing. The flat
     carries walls on both axes, so any translation moves the faces of one family
     or the other and cannot hide.
+
+    !! Two defects found by the turn-10 SELF-AUDIT, not by a review:
+
+      1. this read `CANON` directly and ignored `--canon`, so the placement -
+         the gate's only absolute anchor - was the ONE input a seeded fixture
+         could not mutate. A probe against it could never have failed, which is
+         worse than an unchecked input: it looks covered.
+      2. the result was a dict keyed by `wall_id`, so a duplicate entry silently
+         won and the anchor then compared against the wrong placement - the same
+         collapsing-collection class as the duplicate wall (round 2) and the
+         duplicate label (round 5), found by sweeping for it.
     """
-    p = os.path.join(CANON, 'v0_named_walls_placed.json')
+    p = os.path.join(_CANON[0], 'v0_named_walls_placed.json')
     if not os.path.exists(p):
-        return {}
+        return {}, []
     with io.open(p, encoding='utf-8') as f:
         d = json.load(f)
-    return dict((w['wall_id'], w) for w in d.get('walls', [])
-                if w.get('face_lo_mm') is not None)
+    rows = [w for w in d.get('walls', []) if w.get('face_lo_mm') is not None]
+    seen, dupes = {}, []
+    for w in rows:
+        if w['wall_id'] in seen:
+            dupes.append(w['wall_id'])
+        seen[w['wall_id']] = w
+    return seen, sorted(set(dupes))
 
 
 def inter(a, b):
@@ -191,7 +207,7 @@ def main():
     directives = read('junction_directives.csv')
     blocks = read('wall_blocks.csv')
     placement = read('wall_placement_directives.csv')
-    placed = read_placement()
+    placed, placed_dupes = read_placement()
 
     quarantined = set(r['wall_id'] for r in placement
                       if 'quarantin' in (r.get('status') or ''))
@@ -242,29 +258,47 @@ def main():
     # carries 25 V0-WALL-LABEL texts, because the drawing labels what it claims
     # to draw. Parity between labels and polylines is internal to the artefact
     # and cannot be falsified by editing canonical data.
-    labelled = set(_entities().label_names(args.dxf))
+    # !! `set(...)` here was the THIRD instance of one class in this dialogue:
+    # a collection that deduplicates destroys the very defect being checked.
+    # Round 2 it was a dict keyed by label, so a duplicate WALL overwrote the
+    # original. Round 5 CODEX added a duplicate LABEL entity, and the set
+    # collapsed 26 entities to 25 distinct names - so the count matched, the
+    # parity check passed, and the gate printed "25 labels" for a file holding
+    # 26. Labels are ENTITIES in a bijection with polylines, not a set of names.
+    label_entities = _entities().label_names(args.dxf)
+    labelled = set(label_entities)
+    repeated = sorted(set(t for t in label_entities
+                          if label_entities.count(t) > 1))
+    for wid in repeated:
+        findings.append({'kind': 'duplicate_label', 'walls': [wid],
+                         'detail': '%d label entities carry this text'
+                                   % label_entities.count(wid)})
+        print('  FAIL %-5s %d label entities carry this text'
+              % (wid, label_entities.count(wid)))
     orphan_labels = sorted(labelled - set(by_id))
     for wid in orphan_labels:
         findings.append({'kind': 'label_without_wall', 'walls': [wid],
                          'detail': 'the DXF labels this wall but draws no '
                                    'polyline for it'})
         print('  FAIL %-5s labelled in the DXF but no polyline is drawn' % wid)
-    if len(labelled) != len(wall_list):
+    # the RAW entity count, never the de-duplicated one
+    if len(label_entities) != len(wall_list):
         findings.append({'kind': 'label_count_mismatch', 'walls': [],
-                         'detail': '%d labels, %d wall polylines'
-                                   % (len(labelled), len(wall_list))})
-        print('  FAIL %d labels but %d wall polylines'
-              % (len(labelled), len(wall_list)))
+                         'detail': '%d label entities, %d wall polylines'
+                                   % (len(label_entities), len(wall_list))})
+        print('  FAIL %d label entities but %d wall polylines'
+              % (len(label_entities), len(wall_list)))
 
     stray = sorted(set(by_id) - set(r['wall_id'] for r in blocks))
     for wid in stray:
         findings.append({'kind': 'unknown_wall', 'walls': [wid],
                          'detail': 'in the DXF but not in wall_blocks.csv'})
         print('  FAIL %-5s in the DXF but not a named wall' % wid)
-    if not dupes and not absent and not stray:
-        print('  ok   all %d named walls present, one polyline each' % len(by_id))
-    print('  %d polylines, %d labels, %d named walls'
-          % (len(wall_list), len(by_id), len(blocks)))
+    if not dupes and not absent and not stray and not repeated:
+        print('  ok   all %d named walls present, one polyline and one label '
+              'each' % len(by_id))
+    print('  %d polylines, %d label ENTITIES (%d distinct), %d named walls'
+          % (len(wall_list), len(label_entities), len(labelled), len(blocks)))
 
     # W is the by-name view the rest of the gate uses. Building it AFTER the
     # duplicate assertion is deliberate: the collapse is now reported, not
@@ -272,7 +306,14 @@ def main():
     W = dict((w['id'], w) for w in wall_list)
 
     # === 2. the absolute anchor: faces match the placement ===============
+    for wid in placed_dupes:
+        findings.append({'kind': 'duplicate_placement', 'walls': [wid],
+                         'detail': 'the placement file carries this wall '
+                                   'more than once; the anchor would '
+                                   'silently use one of them'})
     print('\nabsolute position - cross-axis faces against the placement:')
+    for wid in placed_dupes:
+        print('  FAIL %-5s appears more than once in the placement' % wid)
     if not placed:
         findings.append({'kind': 'no_anchor', 'walls': [],
                          'detail': 'v0_named_walls_placed.json is missing; the '
@@ -674,7 +715,7 @@ def main():
     # from the state that exists now. Skipped when --dxf points at a seeded copy,
     # because the sidecar describes the real export, not the fixture.
     if args.dxf == DXF and not args.canon:
-        print('\nthe review drawing - does it describe the current state?')
+        print('\nthe review drawing - is the DELIVERED IMAGE the current one?')
         try:
             v0 = _state()
             ep = os.path.join(CANON, 'v0_elements_extracted.json')
@@ -683,15 +724,36 @@ def main():
                 with io.open(ep, encoding='utf-8') as f:
                     glazing = json.load(f).get('loggia_glazing')
             current = v0.summary(wall_list, glazing, canon=_CANON[0])
-            drifted = v0.stale(current, v0.read_sidecar())
-            for d in drifted:
+
+            # (a) the sidecar's CLAIMS against the current state. This names
+            #     which claim drifted, which raw bytes cannot.
+            for d in v0.stale(current, v0.read_sidecar()):
                 findings.append({'kind': 'stale_review_drawing', 'walls': [],
                                  'detail': d})
                 print('  FAIL %s' % d)
-            if not drifted:
-                print('  ok   v0_dxf_readback.png reports %d open exception(s) '
-                      'of %d, лоджия loop closed=%s - all current'
-                      % (current['open_exceptions'], current['total_exceptions'],
+
+            # (b) the PNG BYTES against a fresh render. !! CODEX round 5:
+            #     replacing only the PNG with the pre-fix artefact from 23ac367
+            #     and leaving the current sidecar in place passed, because
+            #     nothing here ever read the image. The sidecar's own `what`
+            #     field asserted it described the PNG, without evidence.
+            #     A digest stored in that same editable sidecar would not help
+            #     either - a coupled edit updates both. So the expected bytes
+            #     are COMPUTED: the renderer is byte-deterministic here, so the
+            #     delivered image must equal what it produces now. Nothing
+            #     stored is trusted.
+            exp, got, why = v0.render_matches(REPO, args.dxf)
+            if why:
+                findings.append({'kind': 'stale_review_drawing', 'walls': [],
+                                 'detail': why})
+                print('  FAIL %s' % why)
+            else:
+                print('  ok   %s is byte-identical to a fresh render (%s), and '
+                      'its sidecar reports %d open exception(s) of %d, лоджия '
+                      'loop closed=%s'
+                      % (os.path.relpath(v0.READBACK_PNG, REPO), got[:12],
+                         current['open_exceptions'],
+                         current['total_exceptions'],
                          current['loggia_loop_closed']))
         except Exception as exc:                       # noqa: BLE001
             findings.append({'kind': 'stale_review_drawing', 'walls': [],

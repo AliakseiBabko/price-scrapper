@@ -244,3 +244,67 @@ verifies the artefact is restored afterwards.
 | `scripts/raster_fidelity_selftest.py` | **7** — including the tampered frozen mask |
 
 Every single one exists because something passed.
+
+## Round 5: the same class a third time, and both defects were in the round-4 fix
+
+### A collection that deduplicates destroys the defect being checked
+
+This is now **three instances of one class**, and the third was in the code I
+wrote to fix the second:
+
+| round | the collapsing collection | what it hid |
+| :--- | :--- | :--- |
+| 2 | `walls_from_dxf` returned a **dict keyed by label** | a duplicate wall overwrote the original; the count never moved |
+| 5 | the label-parity check called **`set(label_names(...))`** | a duplicate label collapsed 26 entities to 25 names; the gate printed *"25 labels"* for a file holding 26 |
+| 5 (self-audit) | `read_placement()` returned a **dict keyed by `wall_id`** | a duplicate placement entry silently won, so the absolute anchor compared against the wrong one |
+
+The round-2 fix was to return a list. **I then built the round-4 parity check on
+a set** — the check whose whole purpose was to catch a missing wall without
+trusting a table. Labels are entities in a **bijection** with polylines, not a
+set of names, and the gate now keeps the raw list, rejects repeated text,
+compares raw counts, and prints the raw count beside the distinct one.
+
+### A sidecar-currentness test is not a drawing-currentness test
+
+Round 4 replaced the hard-coded caption with a derived one and asserted a
+sidecar against the current state. CODEX substituted **only the PNG** — the
+tracked pre-fix blob `8865871` in place of `da4b46e` — left the fresh sidecar
+alone, and the gate called the image current. It had never read the image.
+
+⚠️ **A digest stored in the sidecar would not have fixed it**, because the
+sidecar is as editable as the PNG and a coupled edit updates both. So nothing
+stored is trusted: `render_dxf.py` is byte-deterministic here, and the gate
+**recomputes** the expected bytes by rendering to a temporary path and comparing.
+The sidecar's `what` field had asserted it described the PNG, without evidence —
+which is the same shape as the exception ledger's decorative fields in round 3.
+
+The sidecar now follows `--out`, so the probe cannot disturb the committed pair.
+The one honest caveat is in the code: determinism holds for a given font set, so
+a machine resolving different fonts reports a mismatch — and the remedy is the
+same as for a genuinely stale image, regenerate, which then shows in the diff.
+
+### What the turn-10 self-audit found
+
+Sweeping for the collapsing-collection class rather than waiting for it to be
+seeded a fourth time turned up **two defects in one line** of `read_placement()`:
+
+1. it read `CANON` directly and **ignored `--canon`**, so the placement — the
+   gate's only absolute anchor against a rigid shift — was the one input no
+   seeded fixture could mutate. **A probe against it could never have failed**,
+   which is worse than an unchecked input because it reads as covered.
+2. the dict collapsed duplicates, as above.
+
+The permanent seed for it now fails on *both* counts — `duplicate_placement`
+and `face_drift` — and that second failure is the evidence the isolation reaches
+the anchor at all.
+
+## The permanent suites, after five rounds
+
+| suite | seeds |
+| :--- | :--- |
+| `scripts/dxf_closure_selftest.py` | **22** — five mutating the DXF *and* a canonical table, two mutating a committed artefact in place |
+| `scripts/raster_fidelity_selftest.py` | **7** |
+
+Three classes were added beyond C-03's enumerated floor — duplicate label
+entity, stale delivered PNG, duplicate placement entry — which is what the
+class-based criterion was written to allow.
