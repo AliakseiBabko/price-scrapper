@@ -1,10 +1,7 @@
 {
  "wall_count": 25,
- "open_exceptions": 9,
+ "open_exceptions": 6,
  "open_exception_ids": [
-  "G4C",
-  "G4b",
-  "G4d",
   "G7",
   "M2",
   "MA",
@@ -12,7 +9,7 @@
   "R8",
   "R9"
  ],
- "total_exceptions": 11,
+ "total_exceptions": 8,
  "quarantined": [],
  "loggia_loop_closed": true,
  "loggia_worst_gap_mm": 0.0,
