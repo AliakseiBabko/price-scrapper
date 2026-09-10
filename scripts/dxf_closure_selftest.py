@@ -403,6 +403,36 @@ def _(doc, canon):
     io.open(ex, 'w', encoding='utf-8', newline='').write(s)
 
 
+@paired('CODEX r6: a byte-identical duplicate G6 row in wall_blocks.csv')
+def _(doc, canon):
+    """The fourth appearance of the collapsing-collection class.
+
+    !! Every reader keys these tables into a dict, so last-wins, and the gate
+    printed "26 named walls" beside "25 label ENTITIES" before declaring every
+    wall present exactly once. The number was on screen and unchecked - the
+    second time in this dialogue that printing stood in for checking.
+
+    Closed for the whole family rather than for G6: check_unique now covers
+    wall_blocks, wall_corners, wall_placement_directives and
+    junction_directives. This seed is the one CODEX demonstrated; the corner
+    ledger below is its sibling, and the other two are verified in the artefact.
+    """
+    wb = os.path.join(canon, 'wall_blocks.csv')
+    lines = io.open(wb, encoding='utf-8').read().splitlines(True)
+    row = [l for l in lines if l.startswith('G6,')][0]
+    lines.append(row)
+    io.open(wb, 'w', encoding='utf-8', newline='').write(''.join(lines))
+
+
+@paired('a duplicate corner_id in the ledger, the same class one table over')
+def _(doc, canon):
+    wc = os.path.join(canon, 'wall_corners.csv')
+    lines = io.open(wc, encoding='utf-8').read().splitlines(True)
+    row = [l for l in lines if l.startswith('C_MA_R8,')][0]
+    lines.append(row)
+    io.open(wc, 'w', encoding='utf-8', newline='').write(''.join(lines))
+
+
 @paired('SELF-AUDIT: a duplicate entry in the placement, the gate\'s own anchor')
 def _(doc, canon):
     """Found by the turn-10 self-audit, not by a review.
