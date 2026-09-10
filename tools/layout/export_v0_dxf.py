@@ -56,6 +56,14 @@ LAYERS = {
     "V0-WALL-LABEL": 8,
     "V0-OPENING": 4,
     "V0-LOGGIA-GLAZING": 4,
+    # The external insulation. Owner 2026-09-10 reversed his 2026-09-08
+    # instruction that it must not be a modelled layer: "There should be an
+    # insulation layer, which is outside - 70 millimetres thick. I want you to
+    # draw this external insulation layer instead of leaving the gap." The gap
+    # he pointed at, M2 to MA, is exactly 70.0 mm - it was never a defect, it
+    # was a missing element. Placed by tools/layout/place_insulation.py, which
+    # takes the SIDE from the drawing rather than from a heuristic.
+    "V0-INSULATION": 33,
     # the frame spanning the FULL run. The bays stop 43.5 mm short at one end
     # and 91.8 mm at the other, which is the assembly's end reveals - real
     # frame, and drawing only the glass left the enclosure visibly open there.
@@ -420,6 +428,23 @@ def main():
             band(m["from_mm"], m["to_mm"], "V0-LOGGIA-GLAZING")
         print("лоджия glazing: %d bays, %d mullions, run %.1f"
               % (len(gl["bays"]), len(gl["mullions"]), gl["run_mm"]))
+
+    # --- the external insulation band, from the drawing's own evidence ---
+    ins_path = os.path.join("data", "canonical", "v0_insulation_placed.json")
+    n_ins = 0
+    if os.path.exists(ins_path):
+        ins = json.load(io.open(ins_path, encoding="utf-8"))
+        for band in ins.get("bands", []):
+            if band.get("status") != "from_drawing":
+                continue
+            rect(msp, "V0-INSULATION", band["x0"], band["y0"],
+                 band["x1"], band["y1"])
+            n_ins += 1
+        print("insulation: %d band(s) drawn from the drawing's evidence"
+              % n_ins)
+        for u in ins.get("unresolved", []):
+            print("            !! %s SKIPPED - the drawing settles neither "
+                  "face and it is not guessed" % u["wall_id"])
 
     # --- the decorative slab: the DEEPEST candidate rectangle --------
     cands = elements.get("slab_extension_candidates") or []

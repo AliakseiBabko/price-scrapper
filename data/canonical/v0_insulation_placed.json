@@ -1,0 +1,90 @@
+{
+ "id": "zk-dubravinskiy-v0-insulation",
+ "what": "The external insulation band per wall, with the SIDE taken from the drawing rather than from a centroid heuristic - see the module docstring for why a heuristic gets M6b wrong.",
+ "instruction": "Owner 2026-09-10 reversed his 2026-09-08 decision that insulation must not be a modelled layer: \"There should be an insulation layer, which is outside - 70 millimetres thick. I want you to draw this external insulation layer instead of leaving the gap.\" The gap he pointed at, between M2 and MA, is exactly 70.0 mm.",
+ "pdf_sha256": "b95dae5afb1feed73db80ad6afbcf1c786b9d86a686309fc6689567224481949",
+ "bands": [
+  {
+   "wall_id": "MA",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "x0": 2830.9,
+   "y0": 8980.6,
+   "x1": 5881.0,
+   "y1": 9050.6,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S16 stops exactly on 8980.6, the insulation face",
+    "perpendicular solid S22 stops exactly on 8980.6, the insulation face"
+   ]
+  },
+  {
+   "wall_id": "MB",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "x0": 6131.0,
+   "y0": 7490.6,
+   "x1": 9131.0,
+   "y1": 7560.6,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S24 stops exactly on 7490.6, the insulation face",
+    "perpendicular solid S27 stops exactly on 7490.6, the insulation face",
+    "perpendicular solid S29 stops exactly on 7490.6, the insulation face"
+   ]
+  },
+  {
+   "wall_id": "MC",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "x0": 9380.9,
+   "y0": 8160.6,
+   "x1": 12946.0,
+   "y1": 8230.6,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S31 stops exactly on 8160.6, the insulation face"
+   ]
+  },
+  {
+   "wall_id": "R8",
+   "insulation_mm": 150.0,
+   "side": "low",
+   "axis": "NS",
+   "x0": 5731.0,
+   "y0": 7560.6,
+   "x1": 5881.0,
+   "y1": 9350.3,
+   "status": "from_drawing",
+   "evidence": [
+    "composite solid S22 is 400 mm = 250 masonry + 150 insulation, spanning 5731.0..6131.0",
+    "perpendicular solid S05 stops exactly on 5731.0, the insulation face"
+   ]
+  },
+  {
+   "wall_id": "R9",
+   "insulation_mm": 150.0,
+   "side": "high",
+   "axis": "NS",
+   "x0": 9380.9,
+   "y0": 7560.6,
+   "x1": 9530.9,
+   "y1": 9100.6,
+   "status": "from_drawing",
+   "evidence": [
+    "composite solid S31 is 400 mm = 250 masonry + 150 insulation, spanning 9131.0..9530.9"
+   ]
+  }
+ ],
+ "unresolved": [
+  {
+   "wall_id": "M6b",
+   "insulation_mm": 70.0,
+   "evidence_low": [],
+   "evidence_high": []
+  }
+ ]
+}

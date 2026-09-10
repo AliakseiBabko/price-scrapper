@@ -43,11 +43,13 @@ STYLE = {
     'V0-WALL-LOGGIA': ((240, 168, 226), (196, 46, 172), 'лоджия enclosure'),
     'V0-LOGGIA-GLAZING': ((120, 200, 235), (30, 80, 120), 'лоджия glazing'),
     'V0-SLAB-EXTENSION': ((252, 240, 176), (196, 168, 20), 'decorative slab'),
+    'V0-INSULATION': ((255, 214, 170), (214, 122, 40), 'external insulation 70/150'),
     'V0-OPENING': (None, (30, 120, 200), 'opening (from the vector)'),
 
     'V0-WALL-LABEL': (None, (20, 20, 20), None),
 }
-DRAW_ORDER = ['V0-SLAB-EXTENSION', 'V0-WALL-CONCRETE', 'V0-WALL-AERATED',
+DRAW_ORDER = ['V0-SLAB-EXTENSION', 'V0-INSULATION', 'V0-WALL-CONCRETE',
+              'V0-WALL-AERATED',
               'V0-WALL-EXTERNAL', 'V0-WALL-LOGGIA', 'V0-LOGGIA-GLAZING',
               'V0-OPENING', 'V0-SUGGESTED-FURN', 'V0-WALL-LABEL']
 
