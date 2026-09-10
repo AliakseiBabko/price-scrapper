@@ -33,7 +33,9 @@ import os
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CANON = os.path.join(REPO, 'data', 'canonical')
-SIDECAR = os.path.join(REPO, '_Drawings', 'review', 'v0_dxf_readback.json')
+READBACK_PNG = os.path.join(REPO, '_Drawings', 'review',
+                            'v0_dxf_readback.png')
+SIDECAR = os.path.splitext(READBACK_PNG)[0] + '.json'
 
 # The лоджия's enclosure walls must reach the glazing axis for the loop to close.
 LOGGIA_ENCLOSURE = ('M2', 'M6b')
@@ -172,3 +174,70 @@ def stale(current, drawn):
             out.append('%s: the drawing says %r, the current state is %r'
                        % (k, drawn.get(k), current.get(k)))
     return out
+
+
+def render_matches(repo, dxf):
+    """(expected_sha256, delivered_sha256, why) for the delivered readback PNG.
+
+    !! CODEX round 5, finding 2. The stale-drawing check authenticated the
+    SIDECAR and never read the image, so replacing only
+    `v0_dxf_readback.png` with the pre-fix artefact from `23ac367` - a real
+    byte-for-byte substitution - passed while the gate called the PNG current.
+    That is the owner's original failure mode restored: the delivered picture
+    from the previous round, with a check saying it is fresh.
+
+    A digest recorded in the sidecar would not fix it either, because the
+    sidecar is as editable as the image and a coupled edit updates both. So
+    **nothing stored is trusted**: the expected bytes are recomputed by running
+    the renderer into a temporary path and comparing. `render_dxf.py` is
+    byte-deterministic on a given machine, and its sidecar follows `--out`, so
+    the probe cannot disturb the committed pair.
+
+    ⚠️ The one honest caveat: determinism holds for a given font set. On a
+    machine that resolves a different font the bytes differ, and this reports a
+    mismatch. The remedy is the same as for a genuinely stale image -
+    regenerate - and the regenerated PNG then shows up in the diff, which is
+    visible rather than silent.
+    """
+    import hashlib
+    import subprocess
+    import sys
+    import tempfile
+
+    if not os.path.exists(READBACK_PNG):
+        return None, None, ('the review drawing %s does not exist; render it '
+                            'with tools/layout/render_dxf.py'
+                            % os.path.relpath(READBACK_PNG, repo))
+
+    def sha(path):
+        with io.open(path, 'rb') as f:
+            return hashlib.sha256(f.read()).hexdigest()
+
+    delivered = sha(READBACK_PNG)
+    tmp = tempfile.mkdtemp()
+    try:
+        probe = os.path.join(tmp, 'expected.png')
+        r = subprocess.run(
+            [sys.executable, os.path.join(repo, 'tools', 'layout',
+                                          'render_dxf.py'),
+             '--dxf', dxf, '--out', probe],
+            cwd=repo, env=dict(os.environ, PYTHONIOENCODING='utf-8'),
+            capture_output=True, text=True, errors='replace')
+        if r.returncode != 0 or not os.path.exists(probe):
+            return None, delivered, ('could not re-render the expected review '
+                                     'drawing: %s'
+                                     % (r.stderr.strip().splitlines()[-1]
+                                        if r.stderr.strip() else 'no output'))
+        expected = sha(probe)
+    finally:
+        import shutil
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    if expected != delivered:
+        return expected, delivered, (
+            '%s is NOT what the renderer produces now: delivered %s, expected '
+            '%s. The delivered image is from another state - regenerate it '
+            'with tools/layout/render_dxf.py'
+            % (os.path.relpath(READBACK_PNG, repo), delivered[:12],
+               expected[:12]))
+    return expected, delivered, None

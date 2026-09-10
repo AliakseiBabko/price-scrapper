@@ -201,7 +201,11 @@ def main():
     for line in v0.caption_lines(summary, omitted):
         dr.text((lx, y), line, fill=(200, 40, 40), font=f_s)
         y += 17
-    v0.write_sidecar(summary)
+    # The sidecar belongs to the image it describes, so it follows --out.
+    # Rendering to a temporary path must not touch the committed sidecar -
+    # which is exactly what the closure gate does to compute the EXPECTED
+    # bytes of the delivered PNG.
+    v0.write_sidecar(summary, os.path.splitext(args.out)[0] + '.json')
     y += 12
     for line in ('Project dimensions. As-built runs',
                  '1.0–1.9% smaller. DRAFT.'):

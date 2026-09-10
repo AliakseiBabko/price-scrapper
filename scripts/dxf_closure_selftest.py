@@ -28,8 +28,9 @@ import ezdxf
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DXF = os.path.join(REPO, 'data', 'cad', 'dxf', 'v0_developer_layout.dxf')
 CANON = os.path.join(REPO, 'data', 'canonical')
-SIDECAR = os.path.join(REPO, '_Drawings', 'review',
-                       'v0_dxf_readback.json')
+PNG = os.path.join(REPO, '_Drawings', 'review',
+                   'v0_dxf_readback.png')
+SIDECAR = os.path.splitext(PNG)[0] + '.json'
 GATE = os.path.join(REPO, 'tools', 'layout', 'check_dxf_closure.py')
 
 WALL_LAYERS = ('V0-WALL-CONCRETE', 'V0-WALL-AERATED', 'V0-WALL-EXTERNAL',
@@ -286,6 +287,30 @@ def _(doc):
                  format='xyseb')
 
 
+# --- the classes CODEX seeded in ROUND 5 ------------------------------------
+# !! The first is the THIRD instance of one class in this dialogue, and that is
+# the part worth remembering: **a collection that deduplicates destroys the
+# defect being checked.** Round 2 it was a dict keyed by label, so a duplicate
+# WALL overwrote the original and the count never moved. Round 5 it was
+# `set(label_names(...))`, so a duplicate LABEL collapsed 26 entities to 25
+# distinct names - and the gate printed "25 labels" for a file holding 26.
+#
+# I wrote the second one while FIXING round 4, which is the other half of the
+# lesson: the parity check I added to catch a missing wall was itself built on a
+# set.
+
+
+@case('CODEX r5: an exact duplicate of a V0-WALL-LABEL entity')
+def _(doc):
+    msp = doc.modelspace()
+    src = [e for e in msp if e.dxftype() == 'TEXT'
+           and e.dxf.layer == 'V0-WALL-LABEL'][0]
+    msp.add_text(src.dxf.text,
+                 dxfattribs={'layer': 'V0-WALL-LABEL',
+                             'insert': (src.dxf.insert.x, src.dxf.insert.y),
+                             'height': src.dxf.height})
+
+
 INPLACE = []
 
 
@@ -303,6 +328,37 @@ def inplace(name):
         INPLACE.append((name, fn))
         return fn
     return deco
+
+
+@inplace('CODEX r5: the PRE-FIX PNG restored, with the current sidecar kept')
+def _():
+    """The delivered image from a previous round, and a fresh sidecar beside it.
+
+    !! This is the seed the round-4 stale check could not have failed, because
+    it authenticated the sidecar and never read the image. CODEX substituted the
+    tracked PNG from `23ac367` byte-for-byte and the gate called it current.
+
+    The fixture is that same historical blob, taken from git so the test uses a
+    genuinely stale artefact rather than a synthetic one. If the blob is not
+    reachable the seed re-renders at a different scale instead, which exercises
+    the same binding - the delivered bytes are not what the renderer produces
+    now - and says so, rather than skipping silently.
+    """
+    import subprocess
+    got = subprocess.run(
+        ['git', 'show', '23ac367:_Drawings/review/v0_dxf_readback.png'],
+        cwd=REPO, capture_output=True)
+    if got.returncode == 0 and got.stdout:
+        with io.open(PNG, 'wb') as f:
+            f.write(got.stdout)
+        return
+    print('       (the 23ac367 blob is unreachable; re-rendering at another '
+          'scale instead)')
+    subprocess.run([sys.executable,
+                    os.path.join(REPO, 'tools', 'layout', 'render_dxf.py'),
+                    '--out', PNG, '--scale', '0.13'],
+                   cwd=REPO, capture_output=True,
+                   env=dict(os.environ, PYTHONIOENCODING='utf-8'))
 
 
 @inplace('the review drawing left reporting the PREVIOUS round')
@@ -345,6 +401,33 @@ def _(doc, canon):
     s = io.open(ex, encoding='utf-8').read()
     s += 'ZZ9,100,100,0.0,invented,open,"a wall nobody has ever named"\n'
     io.open(ex, 'w', encoding='utf-8', newline='').write(s)
+
+
+@paired('SELF-AUDIT: a duplicate entry in the placement, the gate\'s own anchor')
+def _(doc, canon):
+    """Found by the turn-10 self-audit, not by a review.
+
+    !! Two defects in one line. `read_placement()` read `CANON` directly and
+    ignored `--canon`, so the placement - the gate's ONLY absolute anchor
+    against a rigid shift - was the one input no seeded fixture could mutate. A
+    probe against it could never have failed, which is worse than an unchecked
+    input because it reads as covered. And the result was a dict keyed by
+    wall_id, so a duplicate entry silently won: the same collapsing-collection
+    class as the duplicate wall in round 2 and the duplicate label in round 5.
+
+    That this seed fails on BOTH counts now - duplicate_placement and
+    face_drift - is the evidence the isolation reaches the anchor at all.
+    """
+    import json as _json
+    pj = os.path.join(canon, 'v0_named_walls_placed.json')
+    j = _json.loads(io.open(pj, encoding='utf-8').read())
+    w = [x for x in j['walls'] if x['wall_id'] == 'MC'][0]
+    dup = dict(w)
+    dup['face_lo_mm'] = w['face_lo_mm'] + 500
+    dup['face_hi_mm'] = w['face_hi_mm'] + 500
+    j['walls'].append(dup)
+    io.open(pj, 'w', encoding='utf-8', newline='').write(
+        _json.dumps(j, ensure_ascii=False))
 
 
 @paired('a wall quietly removed from wall_blocks.csv so its absence is legal')
@@ -422,9 +505,16 @@ def main():
 
     if INPLACE:
         print('\nseeded defects in a COMMITTED artefact (restored after each):')
+        # Both committed artefacts are saved as BYTES and restored whatever
+        # happens. A seed that mutates the PNG but restores only the sidecar
+        # would leave the tree dirty and the next run measuring a fixture.
+        GUARDED = (PNG, SIDECAR)
         for name, mutate in INPLACE:
-            before = io.open(SIDECAR, encoding='utf-8').read() \
-                if os.path.exists(SIDECAR) else None
+            before = {}
+            for path in GUARDED:
+                if os.path.exists(path):
+                    with io.open(path, 'rb') as handle:
+                        before[path] = handle.read()
             try:
                 mutate()
                 rc = run(DXF)
@@ -434,9 +524,9 @@ def main():
                     print('  FAILED  ACCEPTED: %s' % name)
                     ok = False
             finally:
-                if before is not None:
-                    io.open(SIDECAR, 'w', encoding='utf-8',
-                            newline='').write(before)
+                for path, blob in before.items():
+                    with io.open(path, 'wb') as handle:
+                        handle.write(blob)
         # the restore must itself be verified: a selftest that leaves the tree
         # dirty has broken the thing it was checking
         if run(DXF) != 0:
