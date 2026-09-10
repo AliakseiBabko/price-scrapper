@@ -211,6 +211,11 @@ def main():
 
     quarantined = set(r['wall_id'] for r in placement
                       if 'quarantin' in (r.get('status') or ''))
+    # Any wall with a placement directive has no hatched solid of its own - that
+    # is what the directive is for. Distinct from quarantine, which is about
+    # whether the recorded figure is trusted.
+    placed_by_directive = set(r['wall_id'] for r in placement
+                              if (r.get('wall_id') or '').strip())
     infill = set()
     for r in directives:
         if (r.get('closure_kind') or '').strip() == 'insulation_infill':
@@ -548,7 +553,8 @@ def main():
                       'trusts: sha256 %s' % got)
             else:
                 solids = oracle.vector_solids()
-                o_find, o_rows = oracle.check(wall_list, solids, quarantined)
+                o_find, o_rows = oracle.check(wall_list, solids,
+                                              placed_by_directive)
                 findings.extend(o_find)
                 allow = max(oracle.max_solid_thickness(solids),
                             oracle.CORNER_ALLOWANCE_FLOOR_MM)

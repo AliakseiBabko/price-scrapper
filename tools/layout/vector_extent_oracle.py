@@ -99,8 +99,17 @@ def max_solid_thickness(solids):
     return max(t) if t else 0.0
 
 
-def check(walls, solids, quarantined=()):
+def check(walls, solids, placed_by_directive=()):
     """Each wall's drawn run against the hatched solid it sits on.
+
+    !! `placed_by_directive` used to be `quarantined`, and that conflated two
+    unrelated questions. A PLACEMENT DIRECTIVE exists precisely because no
+    hatched solid carries that wall - that is its definition, and it is a fact
+    about the DRAWING. Quarantine asks whether the recorded figure is TRUSTED -
+    a fact about the owner's knowledge. Keying the exemption on quarantine meant
+    that the owner confirming a figure would break a geometry check for a reason
+    that had nothing to do with the confirmation. It surfaced the moment M6b's
+    200 mm was confirmed on 2026-09-10.
 
     `walls` are the gate's DXF wall dicts (id/x0/x1/y0/y1/axis). Returns
     (findings, rows) where a row is the per-wall report line.
@@ -127,9 +136,10 @@ def check(walls, solids, quarantined=()):
             if best is None or ov > best[1]:
                 best = (s, ov, d)
         if best is None:
-            if w['id'] in quarantined:
+            if w['id'] in placed_by_directive:
                 rows.append((w['id'], None, 0.0, 0.0,
-                             'no hatched solid - QUARANTINED, expected'))
+                             'no hatched solid - PLACED BY DIRECTIVE, '
+                             'which is what a directive means'))
                 continue
             findings.append({'kind': 'no_vector_solid', 'walls': [w['id']],
                              'detail': 'no hatched solid in the PDF carries '
