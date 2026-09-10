@@ -61,6 +61,7 @@ SECOND_LEAF = (120, 120, 200)    # the other face-pair of a wall already claimed
 NOT_A_WALL = (150, 150, 150)     # not on any wall line: a fixture, or a sliver
 OPENING = (200, 40, 40)
 INS_BAND = (255, 190, 130)       # the insulation itself, from place_insulation
+CORNER = (150, 220, 170)         # a corner square the ledger assigns an owner
 
 
 def classify(s, walls, blocks, claimed, bands):
@@ -188,6 +189,7 @@ def main():
                      fill=INS_BAND, outline=INSULATION, width=2)
 
     kinds = {}
+    suppressed = {}
     n_open = 0
     n_claimed = 0
     for s in sorted(solids, key=lambda s: s['solid_id']):
@@ -197,6 +199,17 @@ def main():
         kind, col = classify(s, walls_dxf, blocks, claimed, bands)
         if s['length_mm'] < 500 and not who:
             kind, col = 'sliver under 500 mm', NOT_A_WALL
+        # !! Owner, twice: "let's remove some noise... S20 nonexistent, S19
+        # nonexistent, S09 nonexistent... S11 is noise, it's a venting shaft...
+        # S13 and S12 not on any wall line, exactly, this is just noise. S35 is
+        # noise." He is right that they are not walls, and drawing them at the
+        # same weight as the structure is what made the picture unreadable. They
+        # are OMITTED from the drawing and LISTED in the legend - the record
+        # keeps them, the picture does not carry them.
+        if kind in ('not on any wall line', 'sliver under 500 mm'):
+            suppressed.setdefault(kind, []).append(s['solid_id'])
+            kinds[kind] = kinds.get(kind, 0) + 1
+            continue
         kinds[kind.split(' of ')[0].split(' at ')[0]] =             kinds.get(kind.split(' of ')[0].split(' at ')[0], 0) + 1
         if who:
             n_claimed += 1
@@ -255,6 +268,43 @@ def main():
     else:
         omitted = []
 
+    # --- the corner squares the ledger owns -------------------------------
+    # !! Owner, and he has said it more than once: "R1b and R1a should create the
+    # angle, not a cavity... we should take into account the thickness of the
+    # adjacent wall and either extend one of the walls to fill in the gap in the
+    # corner. If it's a T-shape connection we need to adjust to touch the wall.
+    # If it's an angle, we need to take into account the thickness."
+    #
+    # The EXTRACTION cannot show that, and this render was hiding the fact. A
+    # face-pair extraction splits an L-shaped hatched region into two rectangles
+    # that meet at a POINT: S14's run starts at 3230.9, S18's ends at 15990.3,
+    # so the corner square 2980.8..3230.9 x 15990.2..16240.1 belongs to neither
+    # and reads as a cavity. It is not one - R1a and R1b are one monolithic
+    # casting - and `wall_corners.csv` says which wall owns each corner. Drawing
+    # the owned squares is what makes the angle read as solid.
+    n_corner = 0
+    try:
+        with io.open(os.path.join(REPO, 'data', 'canonical',
+                                  'wall_corners.csv'), encoding='utf-8') as fh:
+            for r in csv.DictReader(fh):
+                A = next((x for x in walls_dxf if x['id'] == r['wall_a']), None)
+                B = next((x for x in walls_dxf if x['id'] == r['wall_b']), None)
+                if not A or not B:
+                    continue
+                H, V = (A, B) if A['axis'] == 'EW' else (B, A)
+                if H['axis'] == V['axis']:
+                    continue
+                a, q = P(V['x0'], H['y0']), P(V['x1'], H['y1'])
+                dr.rectangle([min(a[0], q[0]), min(a[1], q[1]),
+                              max(a[0], q[0]), max(a[1], q[1])],
+                             fill=CORNER, outline=CLAIMED, width=2)
+                t = r['corner_id'].replace('C_', '')
+                dr.text((min(a[0], q[0]), max(a[1], q[1]) + 3), t,
+                        fill=CLAIMED, font=f_s)
+                n_corner += 1
+    except Exception:
+        pass
+
     lx, y = int(w * Z) + 20, 24
     dr.text((lx, y), 'v0 — what the vector', fill=(0, 0, 0), font=f_b)
     y += 32
@@ -274,6 +324,7 @@ def main():
             col = {'insulated assembly': INSULATION,
                    'second leaf': SECOND_LEAF}.get(k, NOT_A_WALL)
             rows.append((col, '%d %s' % (kinds[k], k)))
+    rows.append((CORNER, '%d corner square(s) the ledger owns' % n_corner))
     rows.append((OPENING, '%d doorway(s) bridged' % n_open))
     rows.append(((30, 120, 200), '%d opening(s) placed from reveals'
                  % n_placed_op))
@@ -283,7 +334,18 @@ def main():
                      outline=col if col != INS_BAND else INSULATION, width=2)
         dr.text((lx + 36, y), lab, fill=(20, 20, 20), font=f_s)
         y += 22
-    y += 12
+    y += 8
+    for kind in ('not on any wall line', 'sliver under 500 mm'):
+        ids = suppressed.get(kind) or []
+        if not ids:
+            continue
+        dr.text((lx, y), 'OMITTED, %d %s:' % (len(ids), kind),
+                fill=(120, 120, 120), font=f_s)
+        y += 17
+        dr.text((lx + 10, y), ', '.join(sorted(ids)), fill=(120, 120, 120),
+                font=f_s)
+        y += 20
+    y += 6
     dr.text((lx, y), 'How to read it', fill=(0, 0, 0), font=f_m)
     y += 24
     for line in ('A WALL CONTINUES THROUGH ITS DOOR,',
@@ -308,11 +370,19 @@ def main():
                  "face with a wall already named -",
                  "S37 is the party wall's other side.",
                  '',
-                 'NOT ON ANY WALL LINE means exactly',
-                 'that: a drawn stove, the вентблок, a',
-                 'window element. Hatched objects the',
-                 'reader finds and the model does not',
-                 'name.',
+                 'THE OMITTED ONES ARE NOT WALLS: a',
+                 'drawn stove (S35), the venting shaft',
+                 '(S11, S19, S20), a window element',
+                 '(S12, S13), and slivers. Listed above',
+                 'rather than drawn - the record keeps',
+                 'them, the picture does not.',
+                 '',
+                 'A CORNER SQUARE is drawn because the',
+                 'extraction cannot show one: a face-',
+                 'pair split makes two rectangles meet',
+                 'at a POINT, so an L reads as a cavity.',
+                 'R1a and R1b are one casting; the',
+                 'ledger says who owns each corner.',
                  '',
                  'This is a picture of the EXTRACTION,',
                  'not evidence it is right. The checks',
