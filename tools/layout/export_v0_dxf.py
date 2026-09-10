@@ -132,7 +132,7 @@ def close_corners(walls):
     return fixes
 
 
-def yield_quarantined(walls):
+def yield_to_reference(walls):
     """A wall placed by directive gives way to the accepted geometry it abuts.
 
     !! M6b is placed from R8's *pre-extension* start, but `close_corners` then
@@ -141,15 +141,20 @@ def yield_quarantined(walls):
     directive is written against a declared face, and corner closure legitimately
     moves drawn extents afterwards.
 
-    The rule is an ordering of authority, not a nudge. Quarantined geometry
-    (`provisional_*` status, excluded from quantities) never displaces accepted
-    geometry: it is trimmed back to abut, keeping its declared face alignment and
-    losing length. The trim is reported, because a quarantined wall that has lost
-    length is a fact about the unresolved thickness question, not a detail.
+    The rule is an ordering of authority, not a nudge: a wall positioned BY
+    RELATION abuts its reference's drawn extent, keeping its declared face
+    alignment and losing length. The trim is reported.
+
+    !! This was keyed on QUARANTINE and should never have been. When M6b's 200 mm
+    was confirmed on 2026-09-10 and the quarantine lifted, the yield stopped
+    applying and M6b overlapped R8 by 200 x 50 mm - a geometry defect caused by
+    TRUSTING a figure, which is nonsense. It is the SECOND appearance of the same
+    conflation: `vector_extent_oracle.check()` had it too, found the same day.
+    Quarantine asks whether a figure is believed; the directive relation is a fact
+    about how the wall is positioned. Key on the relation.
     """
     out = []
-    q = [w for w in walls if w.get("placement_directive")
-         and "quarantin" in (w.get("status") or "")]
+    q = [w for w in walls if w.get("placement_directive")]
     if not q:
         return out
     for w in q:
@@ -314,7 +319,7 @@ def main():
 
     fixes = close_corners(walls)
     loop = close_loggia_loop(walls, elements.get("loggia_glazing"))
-    yields = yield_quarantined(walls)
+    yields = yield_to_reference(walls)
     snaps = snap_near_misses(walls)
     # The invariant, reported every run: once the owned corners are added, a
     # wall's DRAWN extent must equal its recorded solid_mm. Laying at clear and
@@ -327,7 +332,7 @@ def main():
         print("   %-5s snapped %.1f mm in %s onto %-5s (below the %.0f mm "
               "extraction-noise floor)" % (wid, gap, ax, ref, SNAP_MM))
     for wid, ref, lost, now in yields:
-        print("   %-5s yielded %.0f mm to %-5s (quarantined; now %.0f mm drawn)"
+        print("   %-5s yielded %.0f mm to %-5s (placed by directive; now %.0f mm drawn)"
               % (wid, lost, ref, now))
     blocks = {r["wall_id"]: r for r in
               csv.DictReader(io.open(os.path.join("data", "canonical",

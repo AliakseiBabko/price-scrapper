@@ -6,3 +6,4 @@ C_MB_R8,L,MB,R8,R8,300,R8 runs through to MB's far face; MB stops on R8's near f
 C_MB_R9,L,MB,R9,R9,300,R9 runs through to MB's far face; MB stops on R9's near face
 C_MC_R7,owner_directed,MC,R7,MC,250,"OWNER-DIRECTED (J_R7_MC): MC extends onto R7 to close a junction classify() cannot see. Owner: ""corner between R7 and MC"
 C_M2_MA,owner_directed,M2,MA,M2,300,"OWNER-DIRECTED (J_MA_M2): M2 extends onto MA to close a junction classify() cannot see. Owner: ""m two, I see the gap between MA and M2"
+C_G4C_G4d,owner_directed,G4C,G4d,G4d,120,"OWNER-DIRECTED (J_G4d_G4C): G4d extends onto G4C to close a junction classify() cannot see. DERIVED FROM THE DRAWING, not from the ownership rule, and it CONTRADICTS that rule - which is why it needs a directive"
