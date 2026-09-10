@@ -47,6 +47,18 @@ should say which drawing it came from.
 | `data/cad/dxf/20260727-ZK Dubravinskiy.dxf` | **Wall geometry of the redesign**, millimetre precision |
 | `_Inbox/_Visual_Drop/floor plan_1..3.jpg` | **How much the built flat will differ** |
 
+> [!IMPORTANT]
+> **v0 has its own gates, and they are the thing that decides whether a change to
+> the flat's geometry is finished** — not a reading of the drawing and not a
+> render that looks right. Run `tools/layout/check_dxf_closure.py` and
+> `tools/layout/raster_fidelity.py` after any change to the export, plus their
+> two selftests after any change to either gate. **Before writing or changing a
+> check, read `00_Master/Validator_Design_Discipline.md`**: it lists the failure
+> classes that recurred across eleven adversarial review rounds, and it states
+> what *done* means per kind of work — deliverable, apparatus, planning, review.
+> Confusing apparatus progress for deliverable progress is what let six rounds of
+> real findings accumulate while the geometry stood still.
+
 Extracted, so nobody re-reads the images:
 `data/canonical/room_schedules.json`, `data/canonical/dimension_tolerance.json`,
 `data/cad/wall_plan.json`. Narrative: `00_Master/Apartment_Geometry_Sources.md`.

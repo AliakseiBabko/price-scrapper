@@ -26,6 +26,25 @@ description: "Workflow for processing Homestyler CAD exports and preparing them 
    - Add verification outcomes (especially unit assumptions) to the `notes` column.
    - Only after verification and status update should the source files be moved to `_Archive/homestyler_exports/`.
 
+## Reading a DXF back is a check, and it needs its own discipline
+
+**Never trust a DXF you have only written.** The v0 round trip
+(`tools/layout/export_v0_dxf.py` → `render_dxf.py` → `check_dxf_closure.py`)
+exists because writing and reading agreeing proves only that one tool agrees
+with itself. Two specific traps, both of which passed review once:
+
+- **Do not reduce a polyline to its bounding box.** A closed triangle on three of
+  a rectangle's corners keeps the same label, layer, bbox and nominal size, loses
+  half the body, and every later check then reasons about a rectangle nobody
+  drew. Read entities through `tools/layout/dxf_wall_entities.py`, which refuses
+  anything that is not the shape the exporter promises.
+- **A rendered review image must be authenticated, not described.** A sidecar
+  claiming to describe the picture is not evidence about the picture; the gate
+  recomputes the expected bytes by re-running the renderer.
+
+**Before writing or changing any such check, read
+`00_Master/Validator_Design_Discipline.md`.**
+
 ## Local CAD review and cleanup
 
 - Autodesk DWG TrueView is installed locally and is the preferred Windows

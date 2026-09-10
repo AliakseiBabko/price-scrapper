@@ -108,3 +108,33 @@ Worth keeping whether or not this backlog is picked up:
   §4.10 (and §4 for the accepted design this came out of).
 - Closing review: `.../reviews/VECTOR_PLAN_TO_MODEL_EXTRACTION_CODEX_ROUND-05_2026-09-09.md`.
 - The 26-case suite that came out of it: `scripts/structural_assembly_selftest.py`.
+
+## ✅ Slice 2 done — 2026-09-10, and the standard above is now a durable page
+
+The `V0_DXF_RASTER_FIDELITY` dialogue (six rounds, closed at
+`price-scrapper@22aa190`) was slice 2 in everything but name: it audited the v0
+export's own gates the way slice 1 audited the tabular ones, and Codex wrote the
+seeds.
+
+**Every round found a real, reproduced defect**, and the classes were the same
+ones this backlog already named — plus one it did not:
+
+| class | new appearances |
+| :--- | :--- |
+| a collection that deduplicates destroys the defect being checked | **4**, twice inside the fix for the previous one |
+| printing is not checking | 2 more (`drawn == solid_mm`; "26 named walls" beside "25") |
+| an accidental rejection is not a check | 1 more (a gate that "rejected" by crashing) |
+| a seed that cannot fail is worse than no seed | 2 |
+| **a checker sharing an editable measurement with the thing it checks** | 2 — new, and the sharpest |
+| **an input a fixture cannot mutate reads as covered** | 1 — found by self-audit, not review |
+
+**The standard this backlog left behind has been promoted out of
+`_Inbox/planning/` into `00_Master/Validator_Design_Discipline.md`**, cited as
+standing rule 10 in `AGENTS.md` and from the `residential-bim-geometry-rules`,
+`apartment-layout-modelling` and `homestyler-cad-to-revit` skills. That page also
+carries what this note could not: **what *done* means per kind of work**, which
+is the distinction that let six rounds of genuine findings accumulate while the
+flat's geometry did not move.
+
+**This backlog is therefore closed as a backlog.** Read the `00_Master` page
+instead; this file stays for the two slices' evidence and counts.
