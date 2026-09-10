@@ -37,6 +37,14 @@ READBACK_PNG = os.path.join(REPO, '_Drawings', 'review',
                             'v0_dxf_readback.png')
 SIDECAR = os.path.splitext(READBACK_PNG)[0] + '.json'
 
+# The SECOND delivered image. !! It had no byte check, and it went stale the
+# very next day - not by anyone editing it, but because a regenerated copy was
+# reverted with `git checkout --` to tidy a working tree. The readback PNG
+# survived the same tidy-up because its gate would have caught it. One image
+# authenticated and one not is not a policy, it is an oversight.
+FIDELITY_PNG = os.path.join(REPO, '_Drawings', 'review',
+                            'v0_raster_fidelity.png')
+
 # The лоджия's enclosure walls must reach the glazing axis for the loop to close.
 LOGGIA_ENCLOSURE = ('M2', 'M6b')
 LOOP_TOL_MM = 5.0
@@ -176,8 +184,9 @@ def stale(current, drawn):
     return out
 
 
-def render_matches(repo, dxf):
-    """(expected_sha256, delivered_sha256, why) for the delivered readback PNG.
+def render_matches(repo, dxf, tool='render_dxf.py', image=None,
+                   extra_args=()):
+    """(expected_sha256, delivered_sha256, why) for a delivered review image.
 
     !! CODEX round 5, finding 2. The stale-drawing check authenticated the
     SIDECAR and never read the image, so replacing only
@@ -204,23 +213,23 @@ def render_matches(repo, dxf):
     import sys
     import tempfile
 
-    if not os.path.exists(READBACK_PNG):
+    image = image or READBACK_PNG
+    if not os.path.exists(image):
         return None, None, ('the review drawing %s does not exist; render it '
-                            'with tools/layout/render_dxf.py'
-                            % os.path.relpath(READBACK_PNG, repo))
+                            'with tools/layout/%s'
+                            % (os.path.relpath(image, repo), tool))
 
     def sha(path):
         with io.open(path, 'rb') as f:
             return hashlib.sha256(f.read()).hexdigest()
 
-    delivered = sha(READBACK_PNG)
+    delivered = sha(image)
     tmp = tempfile.mkdtemp()
     try:
         probe = os.path.join(tmp, 'expected.png')
         r = subprocess.run(
-            [sys.executable, os.path.join(repo, 'tools', 'layout',
-                                          'render_dxf.py'),
-             '--dxf', dxf, '--out', probe],
+            [sys.executable, os.path.join(repo, 'tools', 'layout', tool),
+             '--dxf', dxf, '--out', probe] + list(extra_args),
             cwd=repo, env=dict(os.environ, PYTHONIOENCODING='utf-8'),
             capture_output=True, text=True, errors='replace')
         if r.returncode != 0 or not os.path.exists(probe):
@@ -237,7 +246,7 @@ def render_matches(repo, dxf):
         return expected, delivered, (
             '%s is NOT what the renderer produces now: delivered %s, expected '
             '%s. The delivered image is from another state - regenerate it '
-            'with tools/layout/render_dxf.py'
-            % (os.path.relpath(READBACK_PNG, repo), delivered[:12],
-               expected[:12]))
+            'with tools/layout/%s'
+            % (os.path.relpath(image, repo), delivered[:12],
+               expected[:12], tool))
     return expected, delivered, None

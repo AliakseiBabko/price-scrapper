@@ -781,16 +781,25 @@ def main():
             #     delivered image must equal what it produces now. Nothing
             #     stored is trusted.
             exp, got, why = v0.render_matches(REPO, args.dxf)
-            if why:
-                findings.append({'kind': 'stale_review_drawing', 'walls': [],
-                                 'detail': why})
-                print('  FAIL %s' % why)
-            else:
-                print('  ok   %s is byte-identical to a fresh render (%s), and '
-                      'its sidecar reports %d open exception(s) of %d, лоджия '
-                      'loop closed=%s'
-                      % (os.path.relpath(v0.READBACK_PNG, REPO), got[:12],
-                         current['open_exceptions'],
+            # BOTH delivered images, not just the one that happened to have a
+            # gate. The fidelity image went stale the day after this check was
+            # written, because a regenerated copy was reverted to tidy the
+            # working tree - and only the unauthenticated one drifted.
+            f_exp, f_got, f_why = v0.render_matches(
+                REPO, args.dxf, tool='raster_fidelity.py',
+                image=v0.FIDELITY_PNG)
+            for w in (why, f_why):
+                if w:
+                    findings.append({'kind': 'stale_review_drawing',
+                                     'walls': [], 'detail': w})
+                    print('  FAIL %s' % w)
+            if not why and not f_why:
+                print('  ok   both delivered images are byte-identical to a '
+                      'fresh render (readback %s, fidelity %s)'
+                      % (got[:12], f_got[:12]))
+                print('       the readback sidecar reports %d open exception(s) '
+                      'of %d, лоджия loop closed=%s'
+                      % (current['open_exceptions'],
                          current['total_exceptions'],
                          current['loggia_loop_closed']))
         except Exception as exc:                       # noqa: BLE001

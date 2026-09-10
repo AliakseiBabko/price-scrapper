@@ -31,6 +31,8 @@ CANON = os.path.join(REPO, 'data', 'canonical')
 PNG = os.path.join(REPO, '_Drawings', 'review',
                    'v0_dxf_readback.png')
 SIDECAR = os.path.splitext(PNG)[0] + '.json'
+FIDELITY_PNG = os.path.join(REPO, '_Drawings', 'review',
+                            'v0_raster_fidelity.png')
 GATE = os.path.join(REPO, 'tools', 'layout', 'check_dxf_closure.py')
 
 WALL_LAYERS = ('V0-WALL-CONCRETE', 'V0-WALL-AERATED', 'V0-WALL-EXTERNAL',
@@ -361,6 +363,35 @@ def _():
                    env=dict(os.environ, PYTHONIOENCODING='utf-8'))
 
 
+@inplace('the OTHER delivered image left stale - the one that had no gate')
+def _():
+    """This is not hypothetical: it actually happened, the day after the
+    readback PNG's byte check was written.
+
+    !! Nobody edited the fidelity image. A regenerated copy was reverted with
+    `git checkout --` to tidy a working tree, and it stayed stale for a day
+    because only ONE of the two delivered images was authenticated. The readback
+    PNG survived the identical tidy-up because its gate would have caught it.
+
+    One image checked and one not is not a policy, it is an oversight - and the
+    owner found it by asking whether the two pictures were the same age.
+    """
+    import subprocess
+    got = subprocess.run(
+        ['git', 'show', 'd605f4a:_Drawings/review/v0_raster_fidelity.png'],
+        cwd=REPO, capture_output=True)
+    if got.returncode == 0 and got.stdout:
+        with io.open(FIDELITY_PNG, 'wb') as f:
+            f.write(got.stdout)
+        return
+    print('       (the d605f4a blob is unreachable; truncating the image '
+          'instead)')
+    with io.open(FIDELITY_PNG, 'rb') as f:
+        blob = f.read()
+    with io.open(FIDELITY_PNG, 'wb') as f:
+        f.write(blob[:len(blob) // 2])
+
+
 @inplace('the review drawing left reporting the PREVIOUS round')
 def _():
     """CODEX r4 finding 2, as a permanent seed: the exact stale claims it found."""
@@ -538,7 +569,7 @@ def main():
         # Both committed artefacts are saved as BYTES and restored whatever
         # happens. A seed that mutates the PNG but restores only the sidecar
         # would leave the tree dirty and the next run measuring a fixture.
-        GUARDED = (PNG, SIDECAR)
+        GUARDED = (PNG, SIDECAR, FIDELITY_PNG)
         for name, mutate in INPLACE:
             before = {}
             for path in GUARDED:
