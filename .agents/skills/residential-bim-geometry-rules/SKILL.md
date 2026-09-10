@@ -29,11 +29,20 @@ Apply the project contract in [RESIDENTIAL_BIM_GEOMETRY_CONTRACT.md](../../../..
 
 ## Verification workflow
 
-**For the flat’s wall geometry, run these three first — they are cheap and they catch what review does not:**
+**For the flat’s wall geometry, run these first — they are cheap and they catch what review does not:**
 
 1. `tools/layout/check_wall_junctions.py` — no overlap, no gap, no unowned L-corner void.
 2. `tools/layout/build_wall_corners.py` — every L-corner owned exactly once.
 3. `tools/layout/check_room_rollout.py` — every room rollout closes on both axes.
+
+**After any change to the v0 DXF export, these four as well:**
+
+4. `tools/layout/check_dxf_closure.py` — THE closure gate. Entity shape, identity (present exactly once, labels and polylines in bijection), canonical table keys unique, faces against the placement, extents against hatched solids re-derived from the source PDF, every ledger corner square solid, no unsanctioned overlap or unexplained near-miss or cavity, and the review drawing byte-identical to a fresh render.
+5. `tools/layout/raster_fidelity.py` — the raster half, registered from the **PDF** and not from the DXF under test, against a frozen mask.
+6. `scripts/dxf_closure_selftest.py` and `scripts/raster_fidelity_selftest.py` — **run these after changing either gate.** 24 + 7 seeds, each of which exists because something passed.
+
+> [!WARNING]
+> **Before writing or changing any of these checks, read `00_Master/Validator_Design_Discipline.md`.** Eleven adversarial review rounds produced a short list of failures that kept recurring — a collection that deduplicates destroys the defect being checked (four times), printing is not checking (three times), an accidental rejection is not a check, a seed that cannot fail is worse than no seed. **A gate nobody has watched fail is not a gate.** That page also states what *done* means per kind of work, which is the distinction that let real findings pile up for rounds while the geometry did not move.
 
 > [!IMPORTANT]
 > **Before reading any dimension off a drawing or photo, use the checklist in `00_Master/Evidence_Reading_Discipline.md`.** It exists because the same reading error recurred seven times in one modelling session, and one of those was committed AFTER the rule against it had been written in the same session. Writing a rule does not install it.
