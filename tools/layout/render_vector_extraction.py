@@ -19,6 +19,8 @@ length, coloured by what became of it:
   * **unclaimed** - recognised, and deliberately not used. 20 of 37, and that is
     expected rather than a gap: the drawing continues the neighbour's structure
     past the party wall, and each wall's two face-pairs can yield a second solid
+    -- but see classify(): a solid that NESTS one already claimed is the same
+    wall read twice, not a leaf. S37 was misfiled that way until 2026-09-11.
     at a different face band. **The model has 25 named walls; the drawing has
     more structure than this flat.**
   * **bridged opening** - where two collinear solids were merged across a doorway
@@ -439,9 +441,14 @@ def main():
                  'evidence for which face the',
                  'insulation sits on.',
                  '',
-                 'A SECOND LEAF shares a run and a',
-                 "face with a wall already named -",
-                 "S37 is the party wall's other side.",
+                 'A SECOND LEAF abuts: it shares ONE',
+                 'face and lies beyond it. A DUPLICATE',
+                 'nests - same run, one face range',
+                 'inside the other. S37 was called a',
+                 'second leaf and is a duplicate: same',
+                 "run and low face as S36, reaching",
+                 '47.5 mm further to the envelope edge,',
+                 'having swallowed the boundary line.',
                  '',
                  'THE OMITTED ONES ARE NOT WALLS: a',
                  'drawn stove (S35), the venting shaft',
