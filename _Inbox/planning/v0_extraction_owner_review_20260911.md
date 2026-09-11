@@ -280,3 +280,26 @@ Pointing at the orange band running south from `MB_R8` — **the band placed ear
 
 ⚠️ **So the "4 doorway(s) bridged" category is now known to be wrong in at least two of four**, and the owner has flagged both twice.
 
+## ✅ ROUND 2 RESOLVED — the render now explains every mark, 2026-09-11
+
+**The structural fix, rather than a fourth caption.** Every item the owner flagged twice was already correct in the model and unexplained in the picture. The render now states what the model did:
+
+| what he marked | what the picture now says |
+| :--- | :--- |
+| *"wall overlap"* ×3 | **`RESOLVED: R1b kept, G4b trimmed`**, **`G4a kept, G4d trimmed`**, **`R9 kept, G7 trimmed`** — drawn in teal on the overlap itself |
+| the fourth overlap (S14×S36) | **`RESOLVED: corner - the ledger owns it`** |
+| *"not a wall, just dimentions"* at S34 | **`solid runs 279 mm past R5 - not wall`**. ⚠️ Measured: S34 runs **1328.8 mm**, R5 is recorded and drawn at **1050.0 mm** — the printed figure. **The model was right; the solid swallowed a dimension line** |
+| *"missing door opening"* ×2 | Every bridge now labelled with its solid, width and fate: **`S14 1010 mm - NO OPENING PLACED`**, **`S21 710 mm`** ×2, **`S16 150 mm`** |
+| *"not a wall segment. Part of the M2"* | **`S16 150 mm - NO OPENING PLACED`** — named, so it can be argued with |
+| *"you marked external insulation as a wall"* | **`M6b by directive`**, dashed red, beside its band |
+| *"venting shaft"* ×2 | **`3 venting shaft (owner-identified): S11, S19, S20`** in the legend |
+
+**New legend rows: `6 place(s) a solid runs PAST its wall` and `4 solid overlap(s) ALREADY RESOLVED in the model`.**
+
+> [!IMPORTANT]
+> ⚠️ **ALL FOUR BRIDGED DOORWAYS ARE UNPLACED.** The picture now shows what the counts implied: **4 bridged, 0 of them became openings.** The three placed openings (`O2`, `O3`, `O4`) come from **reveals**, a different mechanism entirely. So "4 bridged / 3 placed" was never 3-of-4 succeeding — the two routes are unrelated, and the bridge route has placed nothing.
+
+**✅ And it closed the 250 mm discrepancy flagged in §3b.** The resolution recorded the R9/G7 overlap as **75 × 570 mm** where the raw solids gave **75 × 820**. The render now shows **`solid runs 570 mm past G7`** — so **820 = 570 over-reach + 250 corner**, and the two figures were measuring different things. Not a defect.
+
+⚠️ **One thing the gates structurally could not have caught**: `check_dxf_closure.py` asserts no WALL is drawn past its SOLID. Every case here is the opposite direction — a SOLID past its WALL — which no gate tests, and which only a reader looking at the picture would ever raise.
+
