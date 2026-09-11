@@ -59,12 +59,13 @@ CLAIMED = (28, 130, 60)          # a named wall sits on it
 INSULATION = (214, 122, 40)      # masonry + insulation as one hatched band
 SECOND_LEAF = (120, 120, 200)    # the other face-pair of a wall already claimed
 NOT_A_WALL = (150, 150, 150)     # not on any wall line: a fixture, or a sliver
+NESTED_DUP = (150, 150, 150)     # the same wall detected twice - an extraction artefact
 OPENING = (200, 40, 40)
 INS_BAND = (255, 190, 130)       # the insulation itself, from place_insulation
 CORNER = (150, 220, 170)         # a corner square the ledger assigns an owner
 
 
-def classify(s, walls, blocks, claimed, bands):
+def classify(s, walls, blocks, claimed, bands, claimed_solids=()):
     """What each unclaimed solid IS - by test, not by hand-labelling.
 
     !! The owner read the first version of this picture and said S9, S12, S13
@@ -98,8 +99,47 @@ def classify(s, walls, blocks, claimed, bands):
                   else (w['y0'], w['y1']))
         if (min(s['to_mm'], r1) - max(s['from_mm'], r0) > 0.5 * (r1 - r0)
                 and (abs(s['face_lo_mm'] - lo) < 3 or abs(s['face_hi_mm'] - hi) < 3)):
+            # !! NOT a second leaf if it merely NESTS a solid already claimed.
+            # Owner, 2026-09-11, on S37: "this thin area is not a wall, just a
+            # line of the vector drawing... it should be just one wall".
+            # He was right, and the numbers say why: S36 (claimed, carries R2)
+            # runs 8530.6..16261.6 with faces 12695.9..12946.0 at 250.1 mm -
+            # R2's recorded thickness. S37 has the SAME run and the SAME low
+            # face but reaches 12993.5, which is the flat envelope's own x-max.
+            # It is the same wall read a second time, 47.5 mm fatter because it
+            # swallowed the plan's boundary line.
+            #
+            # A genuine second leaf ABUTS: it shares one face and lies on the
+            # far side of it. A duplicate NESTS: one face range contains the
+            # other over the same run. This is the rule the placement step
+            # already applies as "nested same-axis solid (extraction
+            # artefact)"; it was simply never applied here.
+            dup = nested_in_claimed(s, claimed_solids)
+            if dup:
+                return 'same wall as %s, read twice' % dup, NESTED_DUP
             return 'second leaf at %s' % w['id'], SECOND_LEAF
     return 'not on any wall line', NOT_A_WALL
+
+
+def nested_in_claimed(s, claimed_solids):
+    """The claimed solid this one nests with, or None.
+
+    Nesting means: same axis, essentially the same run, and one face range
+    contains the other. Returns the claimed solid's id so the caller can name
+    it, because "same wall as S36" is a statement a reader can check and
+    "artefact" is not.
+    """
+    for c in claimed_solids:
+        if c['solid_id'] == s['solid_id'] or c['axis'] != s['axis']:
+            continue
+        run = min(s['to_mm'], c['to_mm']) - max(s['from_mm'], c['from_mm'])
+        if run < 0.9 * min(s['to_mm'] - s['from_mm'], c['to_mm'] - c['from_mm']):
+            continue
+        a0, a1 = s['face_lo_mm'], s['face_hi_mm']
+        b0, b1 = c['face_lo_mm'], c['face_hi_mm']
+        if (a0 - 3 <= b0 and b1 <= a1 + 3) or (b0 - 3 <= a0 and a1 <= b1 + 3):
+            return c['solid_id']
+    return None
 
 
 def _load(name):
@@ -205,7 +245,8 @@ def main():
         x0, y0, x1, y1 = box_of(s)
         a, b = P(x0, y0), P(x1, y1)
         who = claimed.get(s['solid_id'])
-        kind, col = classify(s, walls_dxf, blocks, claimed, bands)
+        kind, col = classify(s, walls_dxf, blocks, claimed, bands,
+                             [x for x in solids if x['solid_id'] in claimed])
         if s['length_mm'] < 500 and not who:
             kind, col = 'sliver under 500 mm', NOT_A_WALL
         # !! Owner, twice: "let's remove some noise... S20 nonexistent, S19
@@ -333,6 +374,12 @@ def main():
             col = {'insulated assembly': INSULATION,
                    'second leaf': SECOND_LEAF}.get(k, NOT_A_WALL)
             rows.append((col, '%d %s' % (kinds[k], k)))
+    # The nested-duplicate kind carries the partner's id in its name, so it
+    # cannot be listed by a fixed key. Collect it by prefix, and SAY which
+    # solid it duplicates - "same wall as S36" is checkable, "artefact" is not.
+    dup_kinds = sorted(k for k in kinds if k.startswith('same wall as'))
+    for k in dup_kinds:
+        rows.append((NESTED_DUP, '%d %s' % (kinds[k], k)))
     rows.append((CORNER, '%d corner square(s) the ledger owns' % n_corner))
     rows.append((OPENING, '%d doorway(s) bridged' % n_open))
     rows.append(((30, 120, 200), '%d opening(s) placed from reveals'
