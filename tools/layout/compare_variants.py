@@ -69,18 +69,31 @@ def rooms_with_windows(spec) -> set[str]:
     return lit
 
 
+PHASED = {"demolished", "new", "modified"}
+
+
 def metrics(spec: dict) -> dict:
     by_role = lambda roles: round(sum(r["area_m2"] for r in spec["rooms"]
                                       if r.get("role") in roles), 2)
     walls = spec["walls"]
+    # A wall carries a phase only once cap2 has been built. Until then every wall
+    # reads "existing", and demolished/new would both be a hard 0 - a number that
+    # looks measured and is not. Validator_Design_Discipline, "printing is not
+    # checking": do not print a figure beside asserted ones unless a wrong value
+    # would fail. So report whether phase is modelled at all, and let the caller
+    # decide what to show.
+    phase_modelled = any(w.get("phase") in PHASED for w in walls)
     return {
         "rooms": len(spec["rooms"]),
         "habitable_m2": by_role(HABITABLE),
         "wet_m2": by_role(WET),
         "circulation_m2": by_role(CIRCULATION),
         "total_m2": round(sum(r["area_m2"] for r in spec["rooms"]), 2),
-        "walls_demolished": sum(1 for w in walls if w.get("phase") == "demolished"),
-        "walls_new": sum(1 for w in walls if w.get("phase") == "new"),
+        "phase_modelled": phase_modelled,
+        "walls_demolished": (sum(1 for w in walls if w.get("phase") == "demolished")
+                             if phase_modelled else None),
+        "walls_new": (sum(1 for w in walls if w.get("phase") == "new")
+                      if phase_modelled else None),
         "doors": sum(1 for o in spec["openings"]
                      if o["kind"] == "door" and o.get("phase") != "demolished"),
     }
@@ -125,10 +138,28 @@ def check_rules(spec: dict, rules: dict) -> list[dict]:
         lit = rooms_with_windows(spec)
         dark = [x["name"] for x in spec["rooms"]
                 if x.get("role") in HABITABLE and x["name"] not in lit]
-        out.append({"rule": r["rule_id"], "ok": not dark,
-                    "detail": "all habitable rooms have a window" if not dark
-                              else "no window: " + ", ".join(dark),
-                    "author": r["attribution"]["author"]})
+        # A window is attributed to a room through space_boundaries. When a window's
+        # host wall has no boundary entry, that window is invisible to this check -
+        # and an invisible window can only ever ADD light. So "every room is lit"
+        # stays sound, but "these rooms are dark" does not: one of them may be lit
+        # by an unmapped window. v1-homestyler ships space_boundaries == {}, and
+        # this check used to answer "no window: Kitchen, Living and Dining Room, ..."
+        # with total confidence off no input at all.
+        boundaries = spec.get("space_boundaries") or {}
+        unmapped = [o["host_wall"] for o in spec["openings"]
+                    if o["kind"] == "window" and o.get("phase") != "demolished"
+                    and not boundaries.get(o["host_wall"])]
+        if dark and unmapped:
+            out.append({"rule": r["rule_id"], "ok": None,
+                        "detail": "not evaluable: %d window(s) have no space_boundaries "
+                                  "entry (%s), so a room cannot be shown dark"
+                                  % (len(unmapped), ", ".join(sorted(set(unmapped)))),
+                        "author": r["attribution"]["author"]})
+        else:
+            out.append({"rule": r["rule_id"], "ok": not dark,
+                        "detail": "all habitable rooms have a window" if not dark
+                                  else "no window: " + ", ".join(dark),
+                        "author": r["attribution"]["author"]})
     return out
 
 
@@ -241,7 +272,9 @@ def draw_variant(parent, spec, variant_meta, ox, oy, panel_w, panel_h, rules):
         ("мокрые зоны", "%.1f m²" % m["wet_m2"]),
         ("коридоры/прихожая", "%.1f m²" % m["circulation_m2"]),
         ("помещений / дверей", "%d / %d" % (m["rooms"], m["doors"])),
-        ("сносится / строится стен", "%d / %d" % (m["walls_demolished"], m["walls_new"])),
+        ("сносится / строится стен",
+         "не смоделировано (cap2)" if not m["phase_modelled"]
+         else "%d / %d" % (m["walls_demolished"], m["walls_new"])),
     ]:
         text(parent, label, ox + 3, ty, 2.7)
         text(parent, value, ox + panel_w - 3, ty, 2.7, "bold", anchor="end")
@@ -251,7 +284,12 @@ def draw_variant(parent, spec, variant_meta, ox, oy, panel_w, panel_h, rules):
     text(parent, "Проверка по правилам источников", ox + 3, ty, 3.2, "bold")
     ty += 4.2
     for check in check_rules(spec, rules):
-        mark, colour = ("OK", "#2c7a3f") if check["ok"] else ("!", "#b03030")
+        if check["ok"] is None:
+            mark, colour = "?", "#9a6b1f"
+        elif check["ok"]:
+            mark, colour = "OK", "#2c7a3f"
+        else:
+            mark, colour = "!", "#b03030"
         text(parent, mark, ox + 3, ty, 2.7, "bold", colour)
         text(parent, check["detail"], ox + 9, ty, 2.7, "normal", "#333")
         ty += 3.3
