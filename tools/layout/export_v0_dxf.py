@@ -429,19 +429,30 @@ def main():
         print("лоджия glazing: %d bays, %d mullions, run %.1f"
               % (len(gl["bays"]), len(gl["mullions"]), gl["run_mm"]))
 
-    # --- the external insulation band, from the drawing's own evidence ---
+    # --- the external insulation band ---
+    # Two sources are trusted here and they are named explicitly rather than by
+    # negation: the drawing's own evidence, and an OWNER DIRECTIVE. Anything
+    # else - notably a band the drawing does not settle and nobody has directed
+    # - is skipped, which is the whole point of the guard. Listing the allowed
+    # statuses means a new one has to be admitted deliberately; `!= from_drawing`
+    # would have admitted it silently.
+    TRUSTED_BAND_STATUS = ("from_drawing", "from_owner_directive")
     ins_path = os.path.join("data", "canonical", "v0_insulation_placed.json")
     n_ins = 0
+    n_directed = 0
     if os.path.exists(ins_path):
         ins = json.load(io.open(ins_path, encoding="utf-8"))
         for band in ins.get("bands", []):
-            if band.get("status") != "from_drawing":
+            if band.get("status") not in TRUSTED_BAND_STATUS:
                 continue
             rect(msp, "V0-INSULATION", band["x0"], band["y0"],
                  band["x1"], band["y1"])
             n_ins += 1
-        print("insulation: %d band(s) drawn from the drawing's evidence"
-              % n_ins)
+            if band.get("status") == "from_owner_directive":
+                n_directed += 1
+        print("insulation: %d band segment(s) drawn - %d from the drawing's "
+              "evidence, %d by owner directive"
+              % (n_ins, n_ins - n_directed, n_directed))
         for u in ins.get("unresolved", []):
             print("            !! %s SKIPPED - the drawing settles neither "
                   "face and it is not guessed" % u["wall_id"])

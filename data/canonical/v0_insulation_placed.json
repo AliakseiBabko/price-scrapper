@@ -5,11 +5,50 @@
  "pdf_sha256": "b95dae5afb1feed73db80ad6afbcf1c786b9d86a686309fc6689567224481949",
  "bands": [
   {
+   "wall_id": "M6b",
+   "insulation_mm": 150.0,
+   "side": "high",
+   "axis": "NS",
+   "segment": 0,
+   "of_segments": 1,
+   "x0": 6131.0,
+   "y0": 6120.7,
+   "x1": 6281.0,
+   "y1": 7560.6,
+   "status": "from_owner_directive",
+   "evidence": [
+    "owner directive 2026-09-11: insulation_side=high in wall_blocks.csv. The loggia is a closed space of three walls plus a glazed face; M2 is shared between two loggias and MA and R8 face back into the apartment, so M6b is its only outward wall."
+   ],
+   "interrupted_by": []
+  },
+  {
    "wall_id": "MA",
    "insulation_mm": 70.0,
    "side": "low",
    "axis": "EW",
+   "segment": 0,
+   "of_segments": 2,
    "x0": 2830.9,
+   "y0": 8980.6,
+   "x1": 4351.0,
+   "y1": 9050.6,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S16 stops exactly on 8980.6, the insulation face",
+    "perpendicular solid S22 stops exactly on 8980.6, the insulation face"
+   ],
+   "interrupted_by": [
+    "O4"
+   ]
+  },
+  {
+   "wall_id": "MA",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "segment": 1,
+   "of_segments": 2,
+   "x0": 5731.0,
    "y0": 8980.6,
    "x1": 5881.0,
    "y1": 9050.6,
@@ -17,6 +56,9 @@
    "evidence": [
     "perpendicular solid S16 stops exactly on 8980.6, the insulation face",
     "perpendicular solid S22 stops exactly on 8980.6, the insulation face"
+   ],
+   "interrupted_by": [
+    "O4"
    ]
   },
   {
@@ -24,7 +66,30 @@
    "insulation_mm": 70.0,
    "side": "low",
    "axis": "EW",
+   "segment": 0,
+   "of_segments": 2,
    "x0": 6131.0,
+   "y0": 7490.6,
+   "x1": 6731.0,
+   "y1": 7560.6,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S24 stops exactly on 7490.6, the insulation face",
+    "perpendicular solid S27 stops exactly on 7490.6, the insulation face",
+    "perpendicular solid S29 stops exactly on 7490.6, the insulation face"
+   ],
+   "interrupted_by": [
+    "O2"
+   ]
+  },
+  {
+   "wall_id": "MB",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "segment": 1,
+   "of_segments": 2,
+   "x0": 8531.0,
    "y0": 7490.6,
    "x1": 9131.0,
    "y1": 7560.6,
@@ -33,6 +98,9 @@
     "perpendicular solid S24 stops exactly on 7490.6, the insulation face",
     "perpendicular solid S27 stops exactly on 7490.6, the insulation face",
     "perpendicular solid S29 stops exactly on 7490.6, the insulation face"
+   ],
+   "interrupted_by": [
+    "O2"
    ]
   },
   {
@@ -40,13 +108,37 @@
    "insulation_mm": 70.0,
    "side": "low",
    "axis": "EW",
+   "segment": 0,
+   "of_segments": 2,
    "x0": 9380.9,
+   "y0": 8160.6,
+   "x1": 10235.9,
+   "y1": 8230.6,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S31 stops exactly on 8160.6, the insulation face"
+   ],
+   "interrupted_by": [
+    "O3"
+   ]
+  },
+  {
+   "wall_id": "MC",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "segment": 1,
+   "of_segments": 2,
+   "x0": 12035.9,
    "y0": 8160.6,
    "x1": 12946.0,
    "y1": 8230.6,
    "status": "from_drawing",
    "evidence": [
     "perpendicular solid S31 stops exactly on 8160.6, the insulation face"
+   ],
+   "interrupted_by": [
+    "O3"
    ]
   },
   {
@@ -54,6 +146,8 @@
    "insulation_mm": 150.0,
    "side": "low",
    "axis": "NS",
+   "segment": 0,
+   "of_segments": 1,
    "x0": 5731.0,
    "y0": 7560.6,
    "x1": 5881.0,
@@ -62,13 +156,16 @@
    "evidence": [
     "composite solid S22 is 400 mm = 250 masonry + 150 insulation, spanning 5731.0..6131.0",
     "perpendicular solid S05 stops exactly on 5731.0, the insulation face"
-   ]
+   ],
+   "interrupted_by": []
   },
   {
    "wall_id": "R9",
    "insulation_mm": 150.0,
    "side": "high",
    "axis": "NS",
+   "segment": 0,
+   "of_segments": 1,
    "x0": 9380.9,
    "y0": 7560.6,
    "x1": 9530.9,
@@ -76,15 +173,9 @@
    "status": "from_drawing",
    "evidence": [
     "composite solid S31 is 400 mm = 250 masonry + 150 insulation, spanning 9131.0..9530.9"
-   ]
+   ],
+   "interrupted_by": []
   }
  ],
- "unresolved": [
-  {
-   "wall_id": "M6b",
-   "insulation_mm": 70.0,
-   "evidence_low": [],
-   "evidence_high": []
-  }
- ]
+ "unresolved": []
 }

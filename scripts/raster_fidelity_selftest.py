@@ -136,8 +136,21 @@ def _(doc):
 
 
 def run(dxf, mask=None):
+    """Run the gate, ALWAYS writing its picture to a throwaway path.
+
+    ⚠️ Found 2026-09-11: without `--out` every seeded run overwrote the real
+    `_Drawings/review/v0_raster_fidelity.png` with a picture of the SEEDED
+    state, and left it that way. The closure gate asserts that delivered image
+    is byte-identical to a fresh render, so simply running this selftest made
+    `check_dxf_closure.py` fail afterwards on a deliberately corrupted
+    deliverable - and committing at that moment would have shipped a review
+    drawing of a defect nobody introduced.
+
+    A checker must not damage the artefact it checks.
+    """
     env = dict(os.environ, PYTHONIOENCODING='utf-8')
-    cmd = [sys.executable, TOOL, '--dxf', dxf]
+    scratch = os.path.join(tempfile.mkdtemp(), 'fidelity.png')
+    cmd = [sys.executable, TOOL, '--dxf', dxf, '--out', scratch]
     if mask:
         cmd += ['--mask', mask]
     p = subprocess.run(cmd, cwd=REPO, env=env, capture_output=True, text=True,

@@ -407,13 +407,29 @@ def _():
 def _(doc, canon):
     grow(named(doc.modelspace(), 'MC'), 1000)
     wb = os.path.join(canon, 'wall_blocks.csv')
-    s = io.open(wb, encoding='utf-8').read()
+    # Edit the row BY COLUMN NAME, not by matching a literal line. The literal
+    # version broke on 2026-09-11 when an `insulation_side` column was added -
+    # it silently stopped matching, and only its own assert caught that the seed
+    # had gone inert. A seed that cannot fail is worse than no seed, so it is
+    # now indifferent to column order and to columns it does not touch.
     # clear 3315 -> 4315 and solid 3565 -> 4565 keeps clear + 250 == solid, so
-    # build_wall_corners.py's invariant cannot defend this class either
-    s2 = s.replace('MC,MC,external,300,70,3315,250,3565,',
-                   'MC,MC,external,300,70,4315,250,4565,')
-    assert s2 != s, 'the MC row in wall_blocks.csv changed shape; fix this seed'
-    io.open(wb, 'w', encoding='utf-8', newline='').write(s2)
+    # build_wall_corners.py's invariant cannot defend this class either.
+    import csv as _csv
+    with io.open(wb, encoding='utf-8', newline='') as f:
+        rows = list(_csv.DictReader(f))
+    fields = list(rows[0].keys())
+    hit = 0
+    for r in rows:
+        if r['wall_id'] != 'MC':
+            continue
+        assert r['clear_mm'] == '3315' and r['solid_mm'] == '3565',             'MC no longer measures 3315/3565; fix this seed'
+        r['clear_mm'], r['solid_mm'] = '4315', '4565'
+        hit += 1
+    assert hit == 1, 'expected exactly one MC row, found %d; fix this seed' % hit
+    with io.open(wb, 'w', encoding='utf-8', newline='') as f:
+        w = _csv.DictWriter(f, fieldnames=fields, lineterminator=chr(10))
+        w.writeheader()
+        w.writerows(rows)
 
 
 @paired('CODEX r3: G4a exception evidence falsified, delta_mm left alone')
