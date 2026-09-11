@@ -53,6 +53,62 @@
 
 ⚠️ **`check_wall_junctions.py` and `check_dxf_closure.py` both PASS on this model today.** So either these overlaps are in the *render* rather than in the gated geometry, or they are of a kind neither gate looks for — **most likely the second, since neither gate tests a wall against an insulation band.** That has to be established before anything is "fixed", or the fix will chase a drawing artefact.
 
+## 3b. ✅ RESOLVED 2026-09-11 — the overlaps are in the SOLIDS, not in the model
+
+The owner pressed on these, naming them precisely: *"R1a and G4a, and the walls of the bathroom, G4b, G4d, overlapping with that G4a wall… R9 overlaps with G7."* **Every one is real, and none of them is a defect in the model.**
+
+**Measured on the DXF — the walls themselves:**
+
+> **Exactly ONE wall pair overlaps in the whole model: `M2 × MA`, 200.0 × 299.7 mm.** That is the sanctioned `C_M2_MA` corner, where M2 owns 300 mm onto MA. **Every pair he named — R1a/G4a, G4b/G4a, G4d/G4a, R9/G7 — has zero overlap in the DXF.**
+
+**Measured on the vector solids — what the render actually draws:**
+
+| claimed solids | carrying | overlap |
+| :--- | :--- | :--- |
+| `S07` × `S18` | G4d × (R1b+R6+**G4a**) | 239.2 × 120.0 mm = 0.0287 m² |
+| `S10` × `S18` | G4b × (R1b+R6+**G4a**) | 239.2 × 120.0 mm = 0.0287 m² |
+| `S32` × `S33` | **R9** × **G7** | 75.0 × 820.0 mm = 0.0615 m² |
+| `S14` × `S36` | (**R1a**+R3+G2+G3) × (R2+R7+G5) | 250.1 × 249.9 mm = 0.0625 m² |
+
+**All four of his reports land on a real solid-on-solid overlap. He was reading the picture correctly.**
+
+**What the model already did about them** — `v0_named_walls_placed.json` → `overlap_resolution`, `before: 3, after: 0`:
+
+- `R9` kept, `G7` trimmed — *"nested same-axis solid (extraction artefact)"*
+- `R1b` kept, `G4b` trimmed — *"corner owner by thicker-then-longer"*
+- `G4a` kept, `G4d` trimmed — same rule
+
+**And the fourth, `S14 × S36` at 250 × 250 mm, is not in that list because it is not an error: it is the `C_G3_R2` CORNER**, which the closure gate reports as *"ok C_G3_R2 solid, 625 cells"* and which `wall_corners.csv` owns exactly once. **Two solids sharing a corner square is what a corner looks like.**
+
+> [!WARNING]
+> **⚠️⚠️ SO THIS IS THE SAME CLASS OF PROBLEM AS M6b, FOR THE THIRD TIME: the render shows a PRE-RESOLUTION state and does not say so.** It draws the raw hatched solids. The placement step trims three of these overlaps and the ledger owns the fourth, so the model is clean — but the picture still shows the overlap, and the owner has now reported it twice.
+>
+> **The render's honest caption — *"this is a picture of the EXTRACTION, not evidence it is right"* — is true and is not enough.** It does not distinguish *"the extraction found a problem that is still open"* from *"the extraction found a problem the model already fixed"*, and those demand opposite responses from a reviewer.
+
+⚠️ **One figure to check, not yet chased**: the resolution records the R9/G7 overlap as **75.0 × 570.0 mm**; measured on the raw solids it is **75.0 × 820.0 mm**. The 75 matches exactly; the length differs by 250 mm, which is one wall thickness — so probably a definitional difference over whether a corner is included. **Worth confirming, because it is the kind of 250 mm that this project has been bitten by before.**
+
+## 1b. ✅ RESOLVED 2026-09-11 — S37 is the same wall as S36, read twice
+
+The owner, pressing on the thin strip at the far right: *"what is it? It's a thin layer. It should be so… it should be just one wall, like G3_R2… then it goes to S37. It's strange."*
+
+**He is right, and the geometry says so unambiguously:**
+
+| solid | axis | thickness | faces | run |
+| :--- | :--- | :--- | :--- | :--- |
+| **`S36`** (claimed, carries R2+R7+G5) | NS | **250.1 mm** | 12695.9 … **12946.0** | 8530.6 … 16261.6 |
+| **`S37`** (was "second leaf") | NS | **297.6 mm** | 12695.9 … **12993.5** | 8530.6 … 16261.6 |
+
+**Identical run. Identical low face. S37 simply reaches 47.5 mm further — to 12993.5, which is the flat envelope's own x-max.** And `wall_blocks.csv` records **R2 at 250 mm**, matching S36 and not S37.
+
+**→ S37 is the same wall read a second time, 47.5 mm fatter because it swallowed the plan's boundary line. It is not a second leaf.**
+
+**The classifier's rule was too weak, and the fix is a rule it already had elsewhere.** It called anything sharing a wall's axis, most of its run, and one of its faces a *second leaf*. **It never asked whether the solid NESTS one already claimed.**
+
+- **A genuine second leaf ABUTS** — shares one face, lies on the far side of it.
+- **A duplicate NESTS** — one face range contains the other over the same run.
+
+That is exactly the test `overlap_resolution` already applies as *"nested same-axis solid (extraction artefact)"*; **it had simply never been applied in the classifier.** The render now reports **"1 same wall as S36, read twice"** in place of the wrong **"1 second leaf"** — and it names the partner, because *"same wall as S36"* is checkable by a reader and *"artefact"* is not.
+
 ## 4. ⭐⭐ The rule behind most of the above
 
 **Two arrows, to the `MA_R8` and `MB_R8` corners:**
