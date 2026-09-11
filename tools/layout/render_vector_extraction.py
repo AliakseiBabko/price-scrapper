@@ -64,6 +64,7 @@ NOT_A_WALL = (150, 150, 150)     # not on any wall line: a fixture, or a sliver
 NESTED_DUP = (150, 150, 150)     # the same wall detected twice - an extraction artefact
 ROLE_KNOWN = (120, 110, 160)     # identified by the owner: a shaft, a stove, a window
 DIRECTIVE  = (176, 48, 48)       # a named wall the vector has no solid for
+RESOLVED   = (40, 130, 120)      # the extraction found it; the model already settled it
 OPENING = (200, 40, 40)
 INS_BAND = (255, 190, 130)       # the insulation itself, from place_insulation
 CORNER = (150, 220, 170)         # a corner square the ledger assigns an owner
@@ -208,6 +209,15 @@ def main():
     # omitted as "sliver under 500 mm", a size rule that put a structural shaft
     # in the same bucket as extraction noise. A ventblok is immovable and
     # constrains the corridor trade, so it earns its own name on the picture.
+    # What the MODEL already did about what the extraction found. Without this
+    # the picture shows a pre-resolution state and says nothing about it, and
+    # the owner has now reported the same already-fixed overlaps twice.
+    fixes = {}
+    placed_ops = []
+    op_path = os.path.join(REPO, 'data', 'canonical', 'v0_openings_placed.json')
+    if os.path.exists(op_path):
+        placed_ops = json.load(io.open(op_path, encoding='utf-8')).get('openings', [])
+
     roles = {}
     rp = os.path.join(REPO, 'data', 'canonical', 'v0_solid_roles.csv')
     if os.path.exists(rp):
@@ -218,6 +228,10 @@ def main():
     placed = json.load(io.open(os.path.join(REPO, 'data', 'canonical',
                                             'v0_named_walls_placed.json'),
                                encoding='utf-8'))
+    for fx in (placed.get('overlap_resolution') or {}).get('fixes', []):
+        fixes[(fx['kept'], fx['trimmed'])] = fx
+        fixes[(fx['trimmed'], fx['kept'])] = fx
+
     claimed = {}
     no_solid = []
     for wl in placed['walls']:
@@ -312,7 +326,11 @@ def main():
         dr.rectangle([min(a[0], b[0]), min(a[1], b[1]),
                       max(a[0], b[0]), max(a[1], b[1])],
                      outline=col, width=2)
-        # the bridged openings, hatched back in
+        # The bridged openings, hatched back in - and LABELLED. An unlabelled
+        # red box is unactionable: the owner has twice had to tell us that two
+        # of these four are not doorways at all (dimension linework, and a piece
+        # of M2), and he could only do it by pointing, because the picture never
+        # said which box was which or how wide it was.
         for lo, hi in (s.get('bridged_openings_mm') or []):
             n_open += 1
             if s['axis'] == 'EW':
@@ -322,6 +340,21 @@ def main():
             dr.rectangle([min(p[0], q[0]), min(p[1], q[1]),
                           max(p[0], q[0]), max(p[1], q[1])],
                          outline=OPENING, width=3)
+            # Did this bridge ever become a placed opening? 4 are bridged and
+            # only 3 are placed, so the gap is worth naming on the picture.
+            hosts = set(who or [])
+            got = next((o for o in placed_ops
+                        if o.get('wall_id') in hosts
+                        and min(hi, o['to_mm']) - max(lo, o['from_mm']) > 1), None)
+            tag = ('%s %.0f mm -> %s' % (s['solid_id'], hi - lo, got['opening_id'])
+                   if got else '%s %.0f mm - NO OPENING PLACED' % (s['solid_id'], hi - lo))
+            tcol = OPENING if got else DIRECTIVE
+            tx = (min(p[0], q[0]) + max(p[0], q[0])) / 2
+            ty = min(p[1], q[1]) - 15
+            tw2 = dr.textlength(tag, font=f_s)
+            dr.rectangle([tx - tw2 / 2 - 2, ty - 8, tx + tw2 / 2 + 2, ty + 8],
+                         fill=(255, 255, 255))
+            dr.text((tx - tw2 / 2, ty - 7), tag, fill=tcol, font=f_s)
         cx = (min(a[0], b[0]) + max(a[0], b[0])) / 2
         cy = (min(a[1], b[1]) + max(a[1], b[1])) / 2
         lab = s['solid_id']
@@ -401,6 +434,99 @@ def main():
     except Exception:
         pass
 
+    # ------------------------------------------------------------------
+    # Where two CLAIMED solids overlap, say what the model did about it.
+    #
+    # !! The owner has now reported the same overlaps twice - S07/S18, S10/S18,
+    # S32/S33 - and every one was already settled before he saw it: the
+    # placement step trims three of them, and the fourth is a corner the ledger
+    # owns. The picture showed the raw extraction and said nothing, so a
+    # reviewer could not tell "still open" from "already fixed", and those need
+    # opposite responses. This is the third round-trip caused by that silence.
+    # ------------------------------------------------------------------
+    # Where a CLAIMED solid runs past the wall it carries, say so.
+    #
+    # !! Owner, twice, pointing at S34: "this is not a wall section, just
+    # dimensions from the vector drawing". He is right and it is measurable:
+    # S34 runs 1328.8 mm while R5 is recorded at 1050 (printed on the plan) and
+    # drawn at 1050.0 - so 278.8 mm of that green box is dimension linework the
+    # extraction swallowed, not wall. THE MODEL IS CORRECT; only the picture
+    # over-reaches, because it draws raw solids. Marking the overhang is what
+    # stops a reviewer reading it as a modelling error.
+    #
+    # Note the closure gate checks the opposite direction - that no WALL is
+    # drawn past its SOLID - so this case could never have surfaced there.
+    n_over = 0
+    for sid, wids in claimed.items():
+        sol = next((x for x in solids if x['solid_id'] == sid), None)
+        if not sol:
+            continue
+        segs = []
+        for wid in wids:
+            wl = next((x for x in walls_dxf if x['id'] == wid), None)
+            if wl:
+                segs.append(((wl['x0'], wl['x1']) if sol['axis'] == 'EW'
+                             else (wl['y0'], wl['y1'])))
+        if not segs:
+            continue
+        wlo = min(min(a, b) for a, b in segs)
+        whi = max(max(a, b) for a, b in segs)
+        for lo, hi, side in ((sol['from_mm'], wlo, 'start'),
+                             (whi, sol['to_mm'], 'end')):
+            if hi - lo < 25:          # below a quarter of a wall thickness: noise
+                continue
+            n_over += 1
+            if sol['axis'] == 'EW':
+                u, v = P(lo, sol['face_lo_mm']), P(hi, sol['face_hi_mm'])
+            else:
+                u, v = P(sol['face_lo_mm'], lo), P(sol['face_hi_mm'], hi)
+            dr.rectangle([min(u[0], v[0]), min(u[1], v[1]),
+                          max(u[0], v[0]), max(u[1], v[1])],
+                         outline=RESOLVED, width=3)
+            lab = 'solid runs %.0f mm past %s - not wall' % (hi - lo, '+'.join(sorted(wids)))
+            tw4 = dr.textlength(lab, font=f_s)
+            tx = (min(u[0], v[0]) + max(u[0], v[0])) / 2
+            ty = min(u[1], v[1]) - 14
+            dr.rectangle([tx - tw4 / 2 - 2, ty - 8, tx + tw4 / 2 + 2, ty + 8],
+                         fill=(255, 255, 255))
+            dr.text((tx - tw4 / 2, ty - 7), lab, fill=RESOLVED, font=f_s)
+
+    n_resolved = 0
+    claimed_list = [x for x in solids if x['solid_id'] in claimed]
+    for i in range(len(claimed_list)):
+        for j in range(i + 1, len(claimed_list)):
+            A, B = claimed_list[i], claimed_list[j]
+            ax0, ay0, ax1, ay1 = box_of(A)
+            bx0, by0, bx1, by1 = box_of(B)
+            ox0, oy0 = max(min(ax0, ax1), min(bx0, bx1)), max(min(ay0, ay1), min(by0, by1))
+            ox1, oy1 = min(max(ax0, ax1), max(bx0, bx1)), min(max(ay0, ay1), max(by0, by1))
+            if ox1 - ox0 <= 0.5 or oy1 - oy0 <= 0.5:
+                continue
+            na = '+'.join(sorted(claimed[A['solid_id']]))
+            nb = '+'.join(sorted(claimed[B['solid_id']]))
+            fx = None
+            for wa in claimed[A['solid_id']]:
+                for wb in claimed[B['solid_id']]:
+                    fx = fx or fixes.get((wa, wb))
+            if fx:
+                note = '%s kept, %s trimmed' % (fx['kept'], fx['trimmed'])
+            else:
+                # Not in the fix list because it is not an error: two solids
+                # meeting at a corner square the ledger owns exactly once.
+                note = 'corner - the ledger owns it'
+            n_resolved += 1
+            q0, q1 = P(ox0, oy0), P(ox1, oy1)
+            dr.rectangle([min(q0[0], q1[0]) - 1, min(q0[1], q1[1]) - 1,
+                          max(q0[0], q1[0]) + 1, max(q0[1], q1[1]) + 1],
+                         outline=RESOLVED, width=3)
+            lab = 'RESOLVED: ' + note
+            tw3 = dr.textlength(lab, font=f_s)
+            tx = (min(q0[0], q1[0]) + max(q0[0], q1[0])) / 2
+            ty = max(q0[1], q1[1]) + 12
+            dr.rectangle([tx - tw3 / 2 - 2, ty - 8, tx + tw3 / 2 + 2, ty + 8],
+                         fill=(255, 255, 255))
+            dr.text((tx - tw3 / 2, ty - 7), lab, fill=RESOLVED, font=f_s)
+
     lx, y = int(w * Z) + 20, 24
     dr.text((lx, y), 'v0 — what the vector', fill=(0, 0, 0), font=f_b)
     y += 32
@@ -433,6 +559,11 @@ def main():
     dup_kinds = sorted(k for k in kinds if k.startswith('same wall as'))
     for k in dup_kinds:
         rows.append((NESTED_DUP, '%d %s' % (kinds[k], k)))
+    if n_over:
+        rows.append((RESOLVED, '%d place(s) a solid runs PAST its wall' % n_over))
+    if n_resolved:
+        rows.append((RESOLVED, '%d solid overlap(s) ALREADY RESOLVED in the model'
+                     % n_resolved))
     rows.append((CORNER, '%d corner square(s) the ledger owns' % n_corner))
     rows.append((OPENING, '%d doorway(s) bridged' % n_open))
     rows.append(((30, 120, 200), '%d opening(s) placed from reveals'
