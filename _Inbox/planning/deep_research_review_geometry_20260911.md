@@ -189,3 +189,104 @@ The report lists, under Belarusian regulatory constraints: *"Clear Corridor Widt
 - **The 84 dropped images.** Worth pulling only for specific decisions: the СН corridor clear widths (we currently hold only Zemskov's 1100 mm practitioner figure), and the scale-ratio rejection threshold if item 1 gets built. ⚠️ **Everything else can stay unread.**
 - **Whether `arXiv:2609.07362` ("BlueprintAgent") is real and says what the report claims.** Cited with a URL and dated days before this review; it is the sole support for the constraint-triggered-revisit pattern. **Unverified.**
 - **Whether ГОСТ 28984-2011 applies in Belarus as an interstate standard**, which decides if the modular filter's thresholds are usable. A question for `Proekt.by` or the primary text.
+
+---
+
+# ROUND 2 — the follow-up answers, reviewed 2026-09-11
+
+**Source**: Google Doc `19av7NprlkO9EMVttS113sNHFVmWIjqJ7-sIpKXOyuh0`, read the same way. **3,510 words.** Questions asked in [`gemini_followup_questions_20260911.md`](gemini_followup_questions_20260911.md).
+
+## ✅ The formatting instruction worked, and the effect is total
+
+**Round 1: 1,109 `textRun` + 84 `inlineObjectElement` (images of the numbers, no alt text). Round 2: 524 `textRun` + ZERO inline objects.**
+
+**Every threshold, formula and figure is machine-readable.** That one instruction is now a standing requirement for any Deep Research request whose output will be read programmatically — **put it in the next brief.**
+
+## ✅ It accepted all four corrections, and withdrew one outright
+
+**Behaviour worth recording, because it is the opposite of the 2026-09-08 report's:**
+
+| Correction | Response |
+| :--- | :--- |
+| № 384 repealed by № 164 | **Accepted and redone.** Adds the dates: published on pravo.by **7 April 2026**, in force **8 July 2026** |
+| СН corridor widths fabricated | ⭐ **"was factually incorrect and is withdrawn."** No defence, no hedging |
+| ГОСТs cited for Belarus | **Answered per-standard with enacting instruments** — see below |
+| arXiv paper unverified | **Supplied authors, date, venue and two verbatim quotations**, plus a scope caveat that undercuts its own recommendation |
+| Vendor benchmark | **"published by Calibras ApS on their commercial blog evaluating their own proprietary product… not an independent, peer-reviewed study."** |
+
+## ⭐ The corridor answer is better than a correction — it closes the question
+
+- **СН 3.02.01-2019's corridor clauses govern only внеквартирные corridors.** Confirms what was read off the archived PDF here.
+- **Intra-flat corridor width is NOT regulated in Belarus for an ordinary apartment** — not by СН 3.02.01-2019, nor ТКП 45-3.02-209-2010, nor СНБ 3.02.04-03. *"Purely a design and ergonomic decision."*
+- **Where a minimum does appear**: flats designated for wheelchair users (СН 3.02.12-2020) need **1.15–1.20 m**; and fire/egress rules constrain **door clear widths** (flat entrance door ≥ 0.80 m, interior room doors ≥ 0.70 m) rather than corridor width.
+- ⚠️ **Traces the origin of the phantom figure**: *"The '1.0 m clear width for corridors leading to living rooms' was a legacy requirement from Soviet СНиП 2.08.01-89 (Clause 2.1), discontinued when Belarus adopted its national codes."*
+
+> **→ This settles how `corridor.min_clear_width` must be labelled.** Alexey Zemskov's **1100 mm** stays exactly what `rules.jsonl` already says it is — **`practitioner_opinion`, with no Belarusian norm behind it and none against it.** The vault's existing labelling was right; there is simply nothing to promote it to.
+
+## The ГОСТ answer, and why the modular filter survives anyway
+
+- **ГОСТ 2.307-2011 — legally applicable in Belarus**, enacted by **Постановление Госстандарта РБ № 50 of 27 July 2011**, effective 1 January 2012.
+- **ГОСТ 21.501-2018** — adopted interstate (Protocol 111-П, 30 Aug 2018) with Belarus voting in favour; used by Belarusian design institutes, **but national СН and ТКП supersede it on conflict**.
+- **ГОСТ 28984-2011** — interstate; Belarus codified modular coordination nationally instead (ТКП 45-1.01-159-2009 / СНБ 1.01.02-01).
+
+⚠️⚠️ **And the genuinely smart move: it defuses its own jurisdiction problem.** *"The modular coordination filter does not rely on statutory compliance."* It rests on **manufactured block increments** — cellular concrete to **СТБ 1570-2005**, silicate partition blocks to **СТБ 1117-98**, in 100 / 120 / 200 / 300 / 600 mm steps — so it works as **a physical prior about the building stock, not a legal one.** **That makes the filter usable regardless of which standard binds, and it finally cites Belarusian СТБ rather than Russian ГОСТ.**
+
+## ⭐ Question 5 — the loop-closure algorithm is buildable, with one trap
+
+**The specification is concrete and internally coherent:**
+
+1. **Represent the plan as a planar straight-line graph**; edges carry displacement vectors.
+2. ⚠️ **Do NOT use a fundamental/minimum cycle basis** (it names Paton's), because it *"generates long, overlapping cycles spanning across the entire building"* — which destroys localisation. **Use the minimal bounded faces of the planar embedding**: build a DCEL, sort each vertex's outgoing half-edges counter-clockwise by `atan2`, define `next(e)` as the predecessor of `twin(e)` in that order, trace faces, and **discard the outer face by its negative signed area**.
+3. **Incomplete chains are handled by counting degrees of freedom per face** — 0 unmeasured edges → validate closure; **1 unmeasured → solve it deterministically (`delta_missing = -sum(measured)`) and propagate outward**; **≥2 → under-constrained, excluded from the gate without failing the model.** That last behaviour is exactly right for a gate.
+4. **Localisation via a syndrome vector** over the signed face–edge incidence matrix `B`. A single misread edge shared by faces A and B gives `c_A = +e_k`, `c_B = -e_k`, all others zero → the edge is `Edges(A) ∩ Edges(B)` minus the edges of every passing face.
+5. **Three or more failing cycles → L1-norm syndrome minimisation** (basis pursuit: minimise `sum |e_j|` subject to `B·e = c`), justified because OCR errors are sparse.
+6. References given: **Mehlhorn & Michail (2009)** on minimum cycle bases in planar graphs, and **Mikhail & Gracie (1981)**, *Analysis and Adjustment of Survey Measurements* — the Gauss-Markov condition-adjustment model for closed traverses. ⚠️ **The survey-adjustment lineage is the important one: this is a solved problem in geodesy, not a novel invention.**
+
+> [!WARNING]
+> **⚠️ ONE INTERNAL CONTRADICTION, AND IT IS A REAL TRAP.** Its implementation note says to use **`networkx.algorithms.cycles.minimum_cycle_basis`** — **which is precisely the kind of basis step 2 tells you not to use.** `minimum_cycle_basis` is a graph-theoretic minimum-weight basis and is **not embedding-aware**; it does not return planar faces in general.
+>
+> **→ Implement the DCEL face traversal it actually describes. That needs no `networkx` at all — only `atan2` sorting and a signed-area test.** Anyone who implements by reaching for the named shortcut gets long overlapping cycles and loses the localisation the whole design exists for.
+
+**Dependency check, run here**: `shapely` 2.1.2 ✅ and `numpy` 2.5.1 ✅ are present in `.venv-ifc314`; **`scipy` and `networkx` are not.** Only the multi-error L1 step needs `scipy.optimize.linprog` — **the single-error case is pure set intersection, so a first version needs no new dependency at all.**
+
+## Question 6 — the scale gate, now fully specified
+
+- **Metric**: `S_k = V_k / L_k` (mm per pixel).
+- **Rejection**: `abs(S_k - S_ref) > 3.0 * sigma_robust`, or in practical terms **a deviation of more than 5.0 % from the reference scale**, for drawings whose scan skew and lens distortion stay under 1.5 %.
+- ⭐ **Robust estimation, which was the real question**: **median for `S_ref`, and `sigma_robust = 1.4826 * MAD`.** It gives the reason — mean and standard deviation are destroyed by exactly the gross outliers being hunted (`1200` read as `7200`) — and notes MAD's **50 % breakdown point**, so half the strings can be garbage without moving the reference.
+- **Multi-scale sheets**: cluster the 1D `{S_k}` with DBSCAN (`eps = 0.05 * S_guess`) or a 1D GMM, **snap cluster centroids to standard scale ratios** (1:10/20/25/50/100/200), then **partition spatially by the convex hull of each cluster's dimensions** so a detail viewport is judged against its own scale.
+
+## Question 7 — verified against PyPI here, and it was right
+
+| Claim | Verified |
+| :--- | :--- |
+| `ifctester` is a separate PyPI distribution | ✅ **Real. Latest 0.8.5**, *"IFC model auditing tool with support for IDS"*, 27 releases |
+| `ifcopenshell.bcf` does not exist; the package is **`bcf-client`**, importing as **`bcf`** | ✅ **Real. Latest 0.8.5**, *"BCF-XML file handler"*, 20 releases |
+| Both align with our IfcOpenShell | ✅ **All three are at 0.8.5** |
+
+**So its explanation of why the imports failed — packaging boundaries, not a wrong recommendation — is correct.** It also states the source lives in the IfcOpenShell monorepo at `src/bcf` but ships standalone, and that **Bonsai reads BCF 2.1 and 3.0 natively** under Scene Properties → BIM Collaboration Format. ⚠️ The Bonsai claim is unverified here.
+
+## Question 8 — IDS will not gain spatial rules, and it explains why
+
+**"No"** for IDS 1.0, 1.1 and 2.0 — and the reason is architectural rather than scheduling: adding spatial predicates would force **every** IDS validator to embed a 3D kernel, destroying the lightweight XML-validator design. It notes **mvdXML is deprecated and superseded by IDS**, and that the research alternative (**BOT + SHACL**, with GeoSPARQL for geometry) is too slow for mesh intersection work.
+
+**Verdict: custom Python over Shapely/IfcOpenShell is the established route, and there is no standard coming.** Its suggested shape — **rules in a readable YAML DSL compiled to Shapely predicates** — fits `rules.jsonl` closely and keeps geometry out of the rule text.
+
+## Question 9 — MCP over project data, with real precedents
+
+Argues the pattern is MCP's intended design, citing Anthropic's own **`server-sqlite` / `server-postgres`** (semantic tools plus deterministic constraints as the gate) and **IaC servers** that edit declarative state and run `terraform plan` locally. Sketches a `FastMCP` server for this project exposing `get_layout_state()` and `propose_layout_patch()`, where the patch runs the compiler and **all** gates and returns structured assertion output.
+
+⚠️ **The "OSArch FastMCP prototypes (late 2025 – early 2026)" are described without a link or repo name — the one place in an otherwise well-cited answer where a claim is unverifiable.**
+
+## ⚠️ What remains unverified after round 2
+
+- **The arXiv quotations.** It supplied authors, an EMNLP 2026 Findings venue and two verbatim passages including **Beam F1 0.994 vs 0.301 zero-shot vs 0.820 fixed-pipeline on 300 sheets**. ⚠️ **A model confirming its own citation is weak evidence, and 0.994 is a very high number.** **But it volunteered the caveat that matters**: tested **only on structural RC framing plans, not interior partition or non-bearing renovation layouts** — so it does not transfer to our task regardless of whether the figures hold.
+- **Two № 164 claims the vault's own primary-source reading does not contain**: the **abolition of Госстройэкспертиза for residential re-planning** from 8 July 2026, and that **co-owner consent no longer needs notarisation**. Everything else it says about № 164 — the gas/central-heating-only project track, partitions and openings by эскиз via «одно окно», insulation without a проект, glazing outside the definition — **matches `run_20260908_postanovlenie164` in `processed_sources.csv`.** ⚠️ **The two new ones need the primary text before they go anywhere near `16_Legal_and_Regulations/`.**
+- **Bonsai's BCF 2.1/3.0 support**, and the OSArch MCP prototypes.
+
+## What to build, in order
+
+1. ⭐ **The loop-closure checker** — DCEL faces (not `networkx`), DOF-counted per face, single-error localisation by set intersection. **No new dependencies.** Defer the L1 multi-error path until a real multi-error case appears.
+2. **The scale gate** — median + `1.4826 * MAD`, 5 % rejection band. Small, and it pairs with (1) to catch the compensating-error case chain closure cannot.
+3. **The rule gate** — `pip install ifctester bcf-client`, YAML DSL to Shapely predicates, BCF-XML out. ⚠️ **Keep practitioner heuristics and Belarusian norms in separate rule sets**; round 2 makes that split sharper, not softer, since the corridor norm turned out not to exist.
+4. **Defer the MCP layer** until (1)–(3) exist, since its whole value is calling gates that must be built first.
