@@ -162,9 +162,18 @@ def main():
                                             'v0_named_walls_placed.json'),
                                encoding='utf-8'))
     claimed = {}
+    no_solid = []
     for wl in placed['walls']:
         if wl.get('solid_id'):
             claimed.setdefault(wl['solid_id'], []).append(wl['wall_id'])
+        else:
+            # A named wall the vector plan does not contain, so it is placed by
+            # directive and this picture CANNOT draw it. It must still be
+            # declared: on 2026-09-11 the owner reviewed this render and marked
+            # M6b as a "missing wall", because a drawing that silently omits an
+            # element it cannot show is indistinguishable from one where the
+            # element does not exist. M6b is in wall_blocks.csv and in the DXF.
+            no_solid.append(wl['wall_id'])
 
     LEG = 470
     img = Image.new('RGB', (int(w * Z) + LEG, int(h * Z)), (255, 255, 255))
@@ -345,6 +354,23 @@ def main():
         dr.text((lx + 10, y), ', '.join(sorted(ids)), fill=(120, 120, 120),
                 font=f_s)
         y += 20
+    if no_solid:
+        # Drawn in the same warning red the annotations use, not the grey of the
+        # omitted solids: those are things correctly left out, this is a wall
+        # that EXISTS and is not on this picture.
+        dr.text((lx, y), 'NOT DRAWN HERE, %d named wall(s):' % len(no_solid),
+                fill=(176, 48, 48), font=f_s)
+        y += 17
+        dr.text((lx + 10, y), ', '.join(sorted(no_solid)), fill=(176, 48, 48),
+                font=f_s)
+        y += 19
+        for line in ('placed by directive - in wall_blocks.csv',
+                     'and in the DXF, but the vector plan has',
+                     'no solid for it, so this picture cannot',
+                     'show it. ABSENT HERE IS NOT ABSENT.'):
+            dr.text((lx + 10, y), line, fill=(176, 48, 48), font=f_s)
+            y += 15
+        y += 6
     y += 6
     dr.text((lx, y), 'How to read it', fill=(0, 0, 0), font=f_m)
     y += 24
