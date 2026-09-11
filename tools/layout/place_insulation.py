@@ -40,9 +40,36 @@ than guessed:
 
 ⚠️ **M6b is not settled by either test**, and it is not guessed. That is
 consistent: the drawing does not contain M6b's 200 mm masonry either, which is
-why it is placed by directive. Its band is emitted with
-`status: unresolved_side` and the exporter skips it until a directive says which
-face.
+why it is placed by directive.
+
+**Owner directive, 2026-09-11** — the third source, and it is now used: he
+identified M6b as the loggia's external wall and set the side himself. *"M6b is
+the external wall of the loggia… 200 mm thick aerated concrete wall with
+external insulation"*, and *"when we're looking at the image it's to the
+right… 6131 — it is to the plus x side"*. The reasoning is the loggia's own
+geometry: three walls plus a glazed face, where M2 is shared between two
+loggias and MA and R8 both face back into the apartment, leaving M6b as the only
+outward wall. Read from `insulation_side` in `wall_blocks.csv` and emitted as
+`status: from_owner_directive`, **kept distinct from `from_drawing` so the two
+can never be confused** — a directive is the owner's authority, not the
+drawing's evidence. ⚠️ Note the side is the OPPOSITE of R8's, which is correct
+and is exactly why a centroid rule fails here.
+
+A band is interrupted by every opening in its host wall
+--------------------------------------------------------
+Owner, **2026-09-11**: *"The window opening should be clear from any external
+insulation… they have gaps in the window openings, which is logical because
+insulation is for the walls only."* **He is right and it was measurable: before
+this, all three bands ran straight through their windows — MA across O4 by
+1380 mm, MB across O2 by 1800 mm, MC across O3 by 1800 mm, so 4980 mm of
+insulation was drawn where there is no wall to insulate.** Every placed opening
+in the model was affected, because all three sit on the three insulated external
+walls. He also notes the source drawing already shows those gaps, so this was
+the extraction failing to reproduce evidence rather than a missing decision.
+
+So a band is now emitted as one or more SEGMENTS along its wall's run, split
+around the openings in that wall. A wall with no openings still yields exactly
+one segment, unchanged.
 
 Usage
 -----
@@ -103,6 +130,34 @@ def evidence_for(wall, ins, th, solids, side):
     return sorted(set(out))
 
 
+def openings_for(wall_id, openings):
+    """The (from_mm, to_mm) spans of every placed opening hosted by this wall."""
+    return sorted((o['from_mm'], o['to_mm']) for o in openings
+                  if o.get('wall_id') == wall_id)
+
+
+def split_run(run0, run1, gaps):
+    """`run0..run1` minus every span in `gaps`, as a list of segments.
+
+    Returns the whole run when there are no gaps, so a wall without openings is
+    unaffected. Segments shorter than TOL_MM are dropped rather than emitted as
+    slivers - an opening flush with the wall end would otherwise leave one.
+    """
+    segs = [(run0, run1)]
+    for g0, g1 in gaps:
+        nxt = []
+        for a, b in segs:
+            if g1 <= a or g0 >= b:      # no overlap
+                nxt.append((a, b))
+                continue
+            if a < g0:
+                nxt.append((a, min(g0, b)))
+            if b > g1:
+                nxt.append((max(g1, a), b))
+        segs = nxt
+    return [(a, b) for a, b in segs if (b - a) > TOL_MM]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--out', default=OUT)
@@ -122,6 +177,11 @@ def main():
         for r in csv.DictReader(f):
             blocks[r['wall_id']] = r
 
+    op_path = os.path.join(CANON, 'v0_openings_placed.json')
+    openings = []
+    if os.path.exists(op_path):
+        openings = json.load(io.open(op_path, encoding='utf-8')).get('openings', [])
+
     bands, unresolved = [], []
     print('%-5s %-5s %-5s %s' % ('wall', 'ins', 'side', 'evidence from the drawing'))
     for w in sorted(walls, key=lambda v: v['id']):
@@ -140,15 +200,36 @@ def main():
         th = float(rec['thickness_mm'])
         ev_lo = evidence_for(w, ins, th, solids, 'low')
         ev_hi = evidence_for(w, ins, th, solids, 'high')
+        directed = (rec.get('insulation_side') or '').strip().lower()
         if bool(ev_lo) == bool(ev_hi):
-            # neither settles it, or both do - either way it is not decided here
-            unresolved.append({'wall_id': w['id'], 'insulation_mm': ins,
-                               'evidence_low': ev_lo, 'evidence_high': ev_hi})
-            print('%-5s %-5.0f %-5s NOT SETTLED by the drawing - low:%d high:%d'
-                  % (w['id'], ins, '?', len(ev_lo), len(ev_hi)))
-            continue
-        side = 'low' if ev_lo else 'high'
-        ev = ev_lo or ev_hi
+            # The drawing does not settle it. An OWNER DIRECTIVE may - and only
+            # an owner directive: this is never inferred, and a centroid rule is
+            # known to get M6b wrong because the loggia is an appendix.
+            if directed in ('low', 'high'):
+                side, ev, status = directed, [
+                    'owner directive 2026-09-11: insulation_side=%s in '
+                    'wall_blocks.csv. The loggia is a closed space of three '
+                    'walls plus a glazed face; M2 is shared between two '
+                    'loggias and MA and R8 face back into the apartment, so '
+                    'M6b is its only outward wall.' % directed], \
+                    'from_owner_directive'
+            else:
+                unresolved.append({'wall_id': w['id'], 'insulation_mm': ins,
+                                   'evidence_low': ev_lo, 'evidence_high': ev_hi})
+                print('%-5s %-5.0f %-5s NOT SETTLED by the drawing, and no '
+                      'insulation_side directive - low:%d high:%d'
+                      % (w['id'], ins, '?', len(ev_lo), len(ev_hi)))
+                continue
+        else:
+            side = 'low' if ev_lo else 'high'
+            ev = ev_lo or ev_hi
+            status = 'from_drawing'
+            if directed and directed != side:
+                # A directive that contradicts the drawing is a real conflict and
+                # must not be silently resolved either way.
+                sys.exit('%s: insulation_side directive says %r but the drawing '
+                         'evidences %r - resolve this before re-running'
+                         % (w['id'], directed, side))
         lo, hi = ((w['y0'], w['y1']) if w['axis'] == 'EW'
                   else (w['x0'], w['x1']))
         outer = lo - ins if side == 'low' else hi + ins
@@ -158,12 +239,30 @@ def main():
             box = [w['x0'], b0, w['x1'], b1]
         else:
             box = [b0, w['y0'], b1, w['y1']]
-        bands.append({'wall_id': w['id'], 'insulation_mm': ins,
-                      'side': side, 'axis': w['axis'],
-                      'x0': round(box[0], 1), 'y0': round(box[1], 1),
-                      'x1': round(box[2], 1), 'y1': round(box[3], 1),
-                      'status': 'from_drawing', 'evidence': ev})
-        print('%-5s %-5.0f %-5s %s' % (w['id'], ins, side, ev[0]))
+        # The band follows the wall's RUN, interrupted by every opening in it:
+        # insulation is for walls, and a window is not a wall.
+        run0, run1 = ((w['x0'], w['x1']) if w['axis'] == 'EW'
+                      else (w['y0'], w['y1']))
+        gaps = openings_for(w['id'], openings)
+        segs = split_run(min(run0, run1), max(run0, run1), gaps)
+        for i, (s0, s1) in enumerate(segs):
+            if w['axis'] == 'EW':
+                bx = [s0, box[1], s1, box[3]]
+            else:
+                bx = [box[0], s0, box[2], s1]
+            bands.append({'wall_id': w['id'], 'insulation_mm': ins,
+                          'side': side, 'axis': w['axis'],
+                          'segment': i, 'of_segments': len(segs),
+                          'x0': round(bx[0], 1), 'y0': round(bx[1], 1),
+                          'x1': round(bx[2], 1), 'y1': round(bx[3], 1),
+                          'status': status, 'evidence': ev,
+                          'interrupted_by': [o['opening_id'] for o in openings
+                                             if o.get('wall_id') == w['id']]})
+        note = ('' if not gaps else
+                '  [%d segment(s), broken at %s]'
+                % (len(segs), ', '.join(o['opening_id'] for o in openings
+                                        if o.get('wall_id') == w['id'])))
+        print('%-5s %-5.0f %-5s %s%s' % (w['id'], ins, side, ev[0], note))
         for extra in ev[1:]:
             print('%-17s %s' % ('', extra))
 
