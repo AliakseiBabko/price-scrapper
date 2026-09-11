@@ -105,6 +105,50 @@ The owner: *"This is exactly the M6b section which is missing."*
 >
 > **So one of three things is true**: `M6b`'s thickness or class is wrong in `wall_blocks.csv`; or `M6b` is a genuine exception; or items 6 and 8 are two different walls and only one of them is `M6b`. **Do not write 150 onto a 200 mm loggia enclosure without settling which.**
 
+### 5d. ⚠️⚠️ CORRECTION 2026-09-11 — M6b IS NOT MISSING FROM THE MODEL, and the picture is what was wrong
+
+**The owner, asked whether M6b is a 250 mm concrete column:** *"No. M6b is the external wall of the loggia. This is not a concrete slab. This is 200 mm thick aerated concrete wall with external insulation."*
+
+**So the tension in §5b dissolves — and so does my inference.** I had read his pattern as *150 mm belongs to a 250 mm concrete column*. **That was an over-generalisation of his words; 150 belongs to M6b too, and M6b is 200 mm aerated block.** Its thickness is not in doubt either: `wall_blocks.csv` records **THICKNESS OWNER-CONFIRMED 2026-09-10 at 200 mm**.
+
+**⚠️ And checking the model rather than the picture produced the bigger correction:**
+
+| Check | Result |
+| :--- | :--- |
+| Is M6b in `wall_blocks.csv`? | **Yes** — 200 mm, `loggia_enclosure`, clear 1170 |
+| Is M6b in the exported DXF? | **Yes** — all **25** named walls are present. M6b sits at x **5931.0–6131.0**, y **6120.7–7560.6**, NS axis |
+| Is M6b in `v0_named_walls_placed.json`? | **Yes**, but with **`solid_id: None`** — the **only** wall in `unmatched` |
+| Does `render_vector_extraction.py` draw it? | ❌ **No, and it structurally cannot.** The render iterates over *vector solids*; before today it had no concept of a wall placed by directive |
+
+> [!WARNING]
+> **⚠️⚠️ SO THE "MISSING WALL" IS A RENDERING DEFECT, NOT A MODEL DEFECT.** The wall exists in the record and in the DXF. **It is invisible on the one picture the owner was asked to review, and a drawing that silently omits an element it cannot show is indistinguishable from one where the element does not exist.**
+>
+> **Fixed in the render the same day**: it now prints, in red beside the grey omitted-solid lists — *"NOT DRAWN HERE, 1 named wall(s): M6b — placed by directive, in `wall_blocks.csv` and in the DXF, but the vector plan has no solid for it, so this picture cannot show it. **ABSENT HERE IS NOT ABSENT.**"*
+>
+> **This is the `Validator_Design_Discipline` family "anything a reader will trust must be derived, never hand-maintained" — one step further out. The render's own caption was honest about what it IS (a picture of the extraction); it was silent about what it OMITS. The omitted *solids* were listed; the omitted *wall* was not.**
+
+**What is genuinely still missing for M6b is its insulation BAND**, not the wall. `place_insulation.py` puts M6b in `unresolved` because neither of its two evidence tests fires — the drawing contains no composite solid for it and nothing abuts it — and the tool refuses to guess a side. ⚠️ **The owner's answer settles that it HAS insulation and that the insulated face is the one away from the loggia. It does not by itself settle which coordinate that is, and it should not be inferred from a centroid — the module docstring records that a centroid rule gets M6b wrong precisely because the лоджия is an appendix.**
+
+### 5e. The classification cannot carry the insulation rule
+
+`wall_blocks.csv` `class` has four values: `concrete` (10), `aerated_block` (10), `external` (3), `loggia_enclosure` (2).
+
+⚠️ **`loggia_enclosure` has exactly two members and they now need opposite treatment** — `M2` at **0 mm** and `M6b` **insulated**. And `external` (MA/MB/MC) is *also* aerated block, so the class mixes **material** with **exposure**.
+
+**→ An insulation rule keyed on `class` will get one of M2/M6b wrong whichever way it is written.** What the rule actually needs is **exposure — does this face the outside?** That is a missing attribute, not a missing value.
+
+**With exposure separated out, the whole set becomes thermally coherent rather than a list of arbitrary numbers:**
+
+| wall | material & thickness | insulation | why it makes sense |
+| :--- | :--- | :--- | :--- |
+| MA, MB, MC | aerated block **300** | **70** | thick, and aerated block insulates itself |
+| **M6b** | aerated block **200** | **150** | **thinner, so it needs more to reach the same performance** |
+| R8, R9 long face | concrete **250** | **150** | concrete is a thermal bridge |
+| R9 end face | concrete **250** | **120** | a return face, less exposed |
+| M2 | **200**, not exposed | **0** | not a thermal boundary at all |
+
+**That pattern is checkable, which a list of numbers is not.** It also predicts the 120 mm case the record did not have.
+
 ### 5c. ⭐ A THIRD correction, which he raised unprompted — and it is verified
 
 > *"The window opening should be clear from any external insulation… they have gaps in the window openings, which is logical because insulation is for the walls only."*
