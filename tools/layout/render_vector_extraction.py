@@ -62,6 +62,8 @@ INSULATION = (214, 122, 40)      # masonry + insulation as one hatched band
 SECOND_LEAF = (120, 120, 200)    # the other face-pair of a wall already claimed
 NOT_A_WALL = (150, 150, 150)     # not on any wall line: a fixture, or a sliver
 NESTED_DUP = (150, 150, 150)     # the same wall detected twice - an extraction artefact
+ROLE_KNOWN = (120, 110, 160)     # identified by the owner: a shaft, a stove, a window
+DIRECTIVE  = (176, 48, 48)       # a named wall the vector has no solid for
 OPENING = (200, 40, 40)
 INS_BAND = (255, 190, 130)       # the insulation itself, from place_insulation
 CORNER = (150, 220, 170)         # a corner square the ledger assigns an owner
@@ -200,6 +202,19 @@ def main():
     ip = os.path.join(REPO, 'data', 'canonical', 'v0_insulation_placed.json')
     if os.path.exists(ip):
         bands = json.load(io.open(ip, encoding='utf-8')).get('bands', [])
+    # Roles the OWNER identified, kept as data rather than as code comments.
+    # They used to live only in a comment here, where nothing could query them
+    # and where they drifted: S11, S19 and S20 are venting shafts and were being
+    # omitted as "sliver under 500 mm", a size rule that put a structural shaft
+    # in the same bucket as extraction noise. A ventblok is immovable and
+    # constrains the corridor trade, so it earns its own name on the picture.
+    roles = {}
+    rp = os.path.join(REPO, 'data', 'canonical', 'v0_solid_roles.csv')
+    if os.path.exists(rp):
+        with io.open(rp, encoding='utf-8') as fh:
+            for r in csv.DictReader(fh):
+                roles[r['solid_id']] = r['role']
+
     placed = json.load(io.open(os.path.join(REPO, 'data', 'canonical',
                                             'v0_named_walls_placed.json'),
                                encoding='utf-8'))
@@ -239,6 +254,29 @@ def main():
                       max(a[0], q[0]), max(a[1], q[1])],
                      fill=INS_BAND, outline=INSULATION, width=2)
 
+    # A named wall the vector has no solid for still EXISTS, and the owner has
+    # now twice read its absence as a missing wall - once as "missing wall with
+    # external insulation 150 mm", and again as "you marked external insulation
+    # as a wall" when its band was drawn beside empty space. Drawn dashed, in
+    # the same red the legend declares it in, so it reads as present-but-not-
+    # vector-backed rather than as nothing at all.
+    for wid in no_solid:
+        wl = next((x for x in walls_dxf if x['id'] == wid), None)
+        if not wl:
+            continue
+        a = P(min(wl['x0'], wl['x1']), min(wl['y0'], wl['y1']))
+        b = P(max(wl['x0'], wl['x1']), max(wl['y0'], wl['y1']))
+        x0, y0 = min(a[0], b[0]), min(a[1], b[1])
+        x1, y1 = max(a[0], b[0]), max(a[1], b[1])
+        step = 9
+        for yy in range(int(y0), int(y1), step * 2):
+            dr.line([x0, yy, x0, min(yy + step, y1)], fill=DIRECTIVE, width=2)
+            dr.line([x1, yy, x1, min(yy + step, y1)], fill=DIRECTIVE, width=2)
+        for xx in range(int(x0), int(x1), step * 2):
+            dr.line([xx, y0, min(xx + step, x1), y0], fill=DIRECTIVE, width=2)
+            dr.line([xx, y1, min(xx + step, x1), y1], fill=DIRECTIVE, width=2)
+        dr.text((x1 + 4, y0), '%s by directive' % wid, fill=DIRECTIVE, font=f_s)
+
     kinds = {}
     suppressed = {}
     n_open = 0
@@ -251,6 +289,11 @@ def main():
                              [x for x in solids if x['solid_id'] in claimed])
         if s['length_mm'] < 500 and not who:
             kind, col = 'sliver under 500 mm', NOT_A_WALL
+        # An identified role beats any geometric bucket. Naming it is the point:
+        # "venting shaft" is a thing the owner can check and act on, "sliver" is
+        # a thing he has to re-derive every time he reads the picture.
+        if roles.get(s['solid_id']) and not who:
+            kind, col = roles[s['solid_id']].replace('_', ' '), ROLE_KNOWN
         # !! Owner, twice: "let's remove some noise... S20 nonexistent, S19
         # nonexistent, S09 nonexistent... S11 is noise, it's a venting shaft...
         # S13 and S12 not on any wall line, exactly, this is just noise. S35 is
@@ -258,7 +301,8 @@ def main():
         # same weight as the structure is what made the picture unreadable. They
         # are OMITTED from the drawing and LISTED in the legend - the record
         # keeps them, the picture does not carry them.
-        if kind in ('not on any wall line', 'sliver under 500 mm'):
+        if kind in ('not on any wall line', 'sliver under 500 mm') \
+                or roles.get(s['solid_id']):
             suppressed.setdefault(kind, []).append(s['solid_id'])
             kinds[kind] = kinds.get(kind, 0) + 1
             continue
@@ -379,6 +423,13 @@ def main():
     # The nested-duplicate kind carries the partner's id in its name, so it
     # cannot be listed by a fixed key. Collect it by prefix, and SAY which
     # solid it duplicates - "same wall as S36" is checkable, "artefact" is not.
+    # The owner-identified roles, named on the picture rather than bucketed by
+    # size. "venting shaft" is checkable and actionable - a ventblok is
+    # immovable - where "sliver under 500 mm" made him re-derive it every time.
+    role_kinds = sorted(set(r.replace('_', ' ') for r in roles.values()))
+    for k in role_kinds:
+        if kinds.get(k):
+            rows.append((ROLE_KNOWN, '%d %s (owner-identified)' % (kinds[k], k)))
     dup_kinds = sorted(k for k in kinds if k.startswith('same wall as'))
     for k in dup_kinds:
         rows.append((NESTED_DUP, '%d %s' % (kinds[k], k)))
@@ -393,7 +444,7 @@ def main():
         dr.text((lx + 36, y), lab, fill=(20, 20, 20), font=f_s)
         y += 22
     y += 8
-    for kind in ('not on any wall line', 'sliver under 500 mm'):
+    for kind in list(role_kinds) + ['not on any wall line', 'sliver under 500 mm']:
         ids = suppressed.get(kind) or []
         if not ids:
             continue
