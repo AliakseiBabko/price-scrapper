@@ -76,6 +76,23 @@ Before using any dimension read off a drawing or a photo:
    rotation does not foreshorten a vertical.
 7. **Which flat is this?** Mirrored is the default failure. Heights survive mirroring; left and right do
    not.
+8. **If I registered a raster, did I verify on a SECOND printed dimension?** Register the scale on one
+   printed figure — preferably a long one — then measure a *different* feature elsewhere on the sheet and
+   check it against its own printed value. ⚠️ **This is not item 4.** Chain closure asks whether a run of
+   dimensions sums to a known whole; this asks whether the **registration itself** is right, against a
+   figure that played no part in establishing it. Both can be needed, and passing one says nothing about
+   the other.
+9. **How thick is the line I measured to?** A drawn wall face is ink with width, so decide before you
+   start whether you are reading to its centre, its inner face or its outer face — an unstated choice is
+   an unstated error, and at plan scale the stroke can be the same order as the tolerance being claimed.
+
+> [!NOTE]
+> **Items 8 and 9 were added 2026-09-11 from two practitioners**, not from a failure here — Justin Geis
+> (TheSketchUpEssentials) and Aaron Dietzen (Trimble SketchUp), via
+> [`Drawing_Conventions_From_Practice.md`](Drawing_Conventions_From_Practice.md) §6. **Item 8 is the only
+> check in either research batch this project did not already have.** Dietzen also states item 3's rule
+> from the other side and more strongly than it is written above: *"it doesn't matter how good the
+> information you get… always double-check against printed dimensions of some sort."*
 
 ---
 
