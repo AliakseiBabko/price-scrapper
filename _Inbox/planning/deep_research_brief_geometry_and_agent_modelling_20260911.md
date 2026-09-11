@@ -46,7 +46,7 @@
 >
 > 2. **A raster floor plan carrying PRINTED DIMENSION STRINGS → geometry. This is my actual blocker.** My baseline layout exists only as a dimensioned plan image; partition positions must be reconstructed from the printed dimension strings, and it is currently hand work. **What is established practice — vectorisation, OCR plus a constraint solver, scan-to-BIM, commercial plan-to-BIM services? How reliable are 2025–2026 vision-language models at reading dimension strings and their extension-line endpoints, with measured error rates, not vendor claims?** I already require **chain closure** (a run of dimensions must sum to a known whole) as validation — **what else is used to catch a misread dimension, and what does the error distribution look like?**
 >
-> 3. **Constraints versus absolute coordinates.** My model stores absolute coordinates at a stated **±50 mm nominal** tolerance; a variance study across three as-built flats of the same layout measured **−45 to +30 mm** against the developer's plan. I have also seen a planner tool dimension a centred fixture as **`1/2`** rather than in millimetres, so the intent survives site variance. **Should the layout be a CONSTRAINT SYSTEM (dimension chains that must close, symmetry and centring as relations) rather than fixed coordinates?** What do parametric/constraint solvers (FreeCAD's sketcher, SolveSpace, PlanNer-style solvers, geometric constraint solving literature) offer a building layout, and where does it break down? **How do drawing standards express a relative or proportional dimension, and can DXF or IFC annotation carry one?**
+> 3. **Constraints versus absolute coordinates.** My model stores absolute coordinates at a stated **±50 mm nominal** tolerance; a variance study across three as-built flats of the same layout measured **−45 to +30 mm** against the developer's plan. I have also seen a planner tool dimension a centred fixture as **`1/2`** rather than in millimetres, so the intent survives site variance. **Should the layout be a CONSTRAINT SYSTEM (dimension chains that must close, symmetry and centring as relations) rather than fixed coordinates?** What do parametric/constraint solvers (FreeCAD's sketcher, SolveSpace, layout-specific constraint solvers, geometric constraint solving literature) offer a building layout, and where does it break down? **How do drawing standards express a relative or proportional dimension, and can DXF or IFC annotation carry one?**
 >
 > 4. **AI agents that drive a 3D modeller — what actually works in 2025–2026.** MCP servers and plugin APIs for SketchUp, Blender, FreeCAD, Rhino and Revit; agents that generate geometry *as code* versus manipulating a GUI; the reliability difference. **Is there measured evidence that a GUI-driving or plugin-driving agent beats a programmatic pipeline like mine for building geometry, or is code generation still the more reliable path?** Include honest failure modes and date-stamp every capability claim.
 >
@@ -94,6 +94,42 @@ All checked 2026-09-11 in the working tree, not recalled:
 - `grep` for `IfcRelConnectsPathElements|RelatingPriorities|ConnectionTypeEnum|ATSTART` across the repo → **zero matches.**
 - `00_Master/project_decisions.md` open items → **`v0` still has no geometry and it BLOCKS layout selection**; the recorded route is reconstruction from the printed dimension strings on `fllor_plan_detailed.jpeg` over the registered raster, described there as *"hand work"*. **That is why question 2 is the blocker and not question 1.**
 - `data/layout_rules/rules.jsonl` → 50 rules; nothing in `tools/` reads the file (the gap analysis of 2026-09-08 already recorded this and it is still true).
+
+## §4 — Gemini's returned PLAN, reviewed 2026-09-11
+
+**Gemini came back with a 7-step research plan, not results.** Recorded here because the plan is the last cheap moment to correct the research, and because the repo's precedent ([`deep_research_review_20260908.md`](deep_research_review_20260908.md)) is to grade what a model returns rather than accept it.
+
+### Coverage — it maps onto all six questions, and improves on two
+
+| Brief | Gemini's step | Verdict |
+| :--- | :--- | :--- |
+| Q1 junction topology | **(1)** formalisms in Revit/ArchiCAD, OpenCASCADE, CGAL, Shapely, FreeCAD Arch — BREP, straight skeleton, polygon ops · **(2)** IFC schema *versus* a private ledger, with failure modes | ✅ **Better than asked.** It split the formalism from the adopt-or-not decision, which is the right order — the decision is not answerable until the formalism is |
+| Q2 raster + printed dimensions | **(3)** OCR + constraint solving, VLM accuracy, **"benchmarked error rates"**, and **"validation mechanisms for dimension chain closure"** | ✅ It caught the chain-closure ask and the demand for numbers rather than claims |
+| Q3 constraints vs coordinates | **(4)** SolveSpace, FreeCAD Sketcher, layout solvers, construction tolerances, relative/proportional dimensions in IFC and DXF | ✅ Complete |
+| Q4 agents driving a modeller | **(5)** MCP, plugins, GUI automation vs headless code generation, **"measured reliability and failure modes"** | ✅ Complete |
+| Q5 rule checking | **(6)** IDS, **IfcTester**, Solibri, BIMcollab, BCF → a pass/fail gate | ✅ **Names `IfcTester`, which the brief did not.** That is the likely answer to "cheapest path from a rules file to a gate", and it came from the model rather than from us |
+| Q6 where it loses | **(7)** cost-benefit of a custom pipeline vs licences vs outsourcing | ✅ |
+| The sources ask | **(7)**, second half | 🟡 **Bundled — see below** |
+
+### ⚠️ Three things to put back before it runs
+
+1. **⚠️⚠️ THE DATE-STAMP REQUIREMENT IS GONE.** The brief said *"date-stamp anything about AI capability"*, and nothing in the plan carries it. Steps (3) and (5) do ask for measured reliability, which is most of the value — but **an undated capability figure is worthless within months.** The 2026-09-11 video batch demonstrated this directly: five of eleven sources were model tests whose verdicts were discarded on sight as already stale.
+2. **⚠️ THE SOURCES DIRECTORY IS BUNDLED INTO THE COST-BENEFIT STEP, AND IT LOST TWO CATEGORIES.** The brief asked for practitioners, **YouTube channels**, GitHub repos, papers, standards and **forums**; the plan keeps repos, papers, standards and practitioners, and drops YouTube and forums. **That matters more here than it would elsewhere: this vault is built almost entirely from named YouTube practitioners, so a dropped channel is a dropped intake route.** A directory sharing a step with a cost analysis will also come back thinner than one with its own step.
+3. **⚠️ THE PLAN READS AS A NEUTRAL LITERATURE SURVEY, NOT AS A TEST OF A THESIS.** The brief said *"test my approach; do not assume it, and do not sell me a tool"*, and listed what is already built and must not be proposed. **None of that framing survives into the plan.** The "already built" block is still in Gemini's context, so this is a risk rather than a defect — but it is the exact failure the 2026-09-08 brief had to guard against, where a report's gap table *"describes, almost line for line, what is already built."*
+
+### ⭐ Paste this back to Gemini before approving the plan
+
+> Approve the plan with three amendments:
+>
+> 1. **Date-stamp every claim about AI or model capability** — for each, give the month and year it was measured or published, and say explicitly when a figure is a vendor claim rather than an independent measurement. Undated capability numbers are useless to me.
+> 2. **Make the source directory its own step, not part of the cost-benefit step**, and include **YouTube channels and practitioner forums** alongside repos, papers, standards and named people. I build a knowledge base from named sources; a channel or a repo is worth more to me than a summary.
+> 3. **Frame the whole thing as testing my existing pipeline rather than surveying the field.** For each of the six areas, answer *"is what he already has adequate, and if not, what specifically replaces it?"* — and do not recommend anything in the "already built" list. Where my approach is already the established one, say so plainly; that is as useful to me as a gap.
+>
+> Also: ignore "PlanNer" in my question 3 — that was my typo. Your reading of it as layout-specific constraint solvers is what I meant.
+
+### On jurisdiction — low risk here, one place to watch
+
+Standing rule 4 and the last brief's Russian-norms substitution make jurisdiction the default worry, but **this brief is deliberately non-regulatory and the plan reflects that.** The one exposure is **Q3/step (4)'s "how do drawing standards express a relative or proportional dimension"** — a standards answer can arrive as ГОСТ 21.501 / СПДС when Belarus uses СТБ / ТКП. **If that question returns a standard, check which country's it is before acting on it.**
 
 ## Open items this brief does not settle
 
