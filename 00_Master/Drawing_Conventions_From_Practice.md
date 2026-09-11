@@ -156,6 +156,59 @@ His 3D review view can **toggle ceiling lighting, toggle the display of sockets,
 
 ---
 
+## 6. Getting a dimensioned raster into geometry
+
+**From an English-language batch on AI-agent modelling — triage in [`_Inbox/planning/ai_agent_modelling_sources_triage_20260911.md`](../_Inbox/planning/ai_agent_modelling_sources_triage_20260911.md).** These bear on the open `v0` task: `project_decisions.md` records that **`v0` has no geometry and it blocks layout selection**, with the route being reconstruction from the printed dimension strings over the registered raster.
+
+### ⚠️⚠️ A scaled raster is for orientation, not measurement — type the dimensions, don't click the pixels
+
+Justin Geis (TheSketchUpEssentials), stated plainly: *"If you're trying to model this building exactly, you shouldn't be coming in here and using visuals in order to figure out where this is going to go… you actually need to model using the dimensions if you want this to be exact. If you're just trying to get it close enough, it doesn't really matter."*
+
+**→ Independent corroboration of the route this project already chose for `v0`.** Aaron Dietzen (Trimble SketchUp) gives the mechanical reason: a raster *"is literally a bunch of dots… that could be scaled to any size"* and **nothing in it can be snapped to** — *"it doesn't know that this is an end point."*
+
+### ⚠️⚠️ Two-point scale verification — register on one printed dimension, verify on a second
+
+**A check we do not currently have, and it is cheap.** Scale off one known printed dimension, preferably a long one; **then measure a different feature elsewhere in the drawing and compare it against its own printed value.** Geis: *"And I always want to check… I like to draw a line somewhere else."* His honest verdict on the residual: *"that's about as close as you're going to get by scaling a document like this."*
+
+**This is not chain closure.** Chain closure asserts that a run of dimensions sums to a known whole. This asserts the **registration itself** against a printed figure that played no part in establishing it — the same independence principle as `tools/layout/vector_extent_oracle.py`. **Add it to the `v0` reconstruction procedure before the hand work starts.**
+
+### ⚠️ The ink has width, and the width is an error term
+
+Dietzen, tracing a wall off a raster: *"I could draw an edge from about the middle of this black line to about the middle of this black line… that's probably around 5½ inches. The line itself is maybe an eighth or a quarter inch thick. So you need to take all this with a grain of salt."*
+
+**→ Before reading a thickness off a raster, decide which part of the drawn line you are measuring to — centre, inner face or outer face — and carry the line's own thickness as an error bar.** `Evidence_Reading_Discipline.md` requires identifying the two elements a dimension's extension lines terminate on; **this adds that the terminating element itself has thickness.**
+
+### The oracle principle, stated from the GUI side
+
+Dietzen: *"It doesn't matter how good the information you get, there's always a possibility that there's a difference between what's in the model and the actual dimension it's supposed to represent. So I always recommend double-checking against printed dimensions of some sort."*
+
+**That is exactly why `vector_extent_oracle.py` exists** — the repo learned that asserting the DXF against `wall_blocks.csv` only proves two hand-edited files agree. **Corroboration of the hardest-won lesson in the geometry work, from someone who reached it by hand.**
+
+**And a weaker note worth keeping**: a *vector* CAD import normally leaves non-intersecting near-misses — *"a couple spots where for whatever reason it didn't intersect correctly… a little bit of cleanup"* — which in a GUI are found by eye. Our 400 mm near-miss band finds them automatically.
+
+## 7. Agents that generate building geometry
+
+> [!WARNING]
+> **⚠️⚠️ AN AGENT GENERATING BUILDING GEOMETRY SILENTLY INVENTS THE VALUES YOU DID NOT SPECIFY.**
+>
+> Trimble's own channel, testing the Claude↔SketchUp adapter with a deliberately vague prompt, got **5-inch wall thickness, a 9-ft ceiling and a "standard" 36×80-in door** — none of it asked for — *"based on its knowledge of construction"*, plus **placeholder furniture** as extruded rectangles unless told not to.
+>
+> **This is the failure class this project already built apparatus to refuse.** Our walls are 200/250 mm masonry with a **70 mm insulation layer taken from the drawing, not from a heuristic** — `tools/layout/place_insulation.py` exists because *"a flat-centroid rule gets M6b wrong"*, and **M6b is deliberately left unsettled rather than guessed.**
+>
+> **→ The rule: require an agent to enumerate every value it supplied that the prompt did not, and treat each as a defect to be resolved from evidence rather than a default to be accepted.** The adapter's mitigating behaviour is that it does report its assumptions — so the requirement is satisfiable, not merely aspirational.
+
+**On the architecture, honestly assessed**: the adapter is a **file generator, not a live modeller** — *"there's not a direct live connection… It won't go in and edit it"* — each change emitting a new file. **That is what this project's pipeline already does (spec → generated model), except ours is deterministic, patch-based, version-controlled and gated.** On reproducibility, diffability and gating the adapter is behind; on convenience for one-off geometry it is ahead. Its output is at least structured — named components, triangulated but quad-ready, not the *"212 different diagonal angle cuts"* other AI modellers are said to produce.
+
+### Context management for a large drawing set
+
+Tim Fairley demonstrates the naive paths failing on camera — a ~10 MB drawing set that will not upload to chat, the same failure through a project/RAG upload, and a folder-based agent using *"around 30 times the number of tokens"* and answering less accurately. His name for the cause is **context rot**: *"the more information we give AI, the less likely it is to answer accurately."*
+
+His fix is to **summarise each drawing into a row of a structured store and query that instead of the drawings**, with the clearest analogy in either batch: *"it's like giving someone a set of 30 or 100 drawings and saying 'what is the height of the retaining wall?' versus giving someone the retaining wall drawing and telling them this is the height."*
+
+**⚠️ This project already does this and more strictly — `data/canonical/*.csv` IS the condensed queryable store, and the drawings are generated from it rather than queried.** Recorded as validation of the architecture rather than as instruction. The incidental practical notes do transfer: **a spreadsheet is a poor store because the whole sheet lands in context**, where a queried database does not.
+
+⚠️ **Every model-capability verdict in that batch was deliberately discarded** — dated, vendor-adjacent, and stale within months. The evaluation methods and the cautionary rule transfer; the scores do not.
+
 ## Sources
 
 All Russian, all Moscow or a Russian vendor. **Round 1 of the design-toolchain group, 2026-09-08.**
@@ -169,6 +222,13 @@ All Russian, all Moscow or a Russian vendor. **Round 1 of the design-toolchain g
 | [`YT_YEpfNcwwGoU`](../_Sources/YT_YEpfNcwwGoU_kdmitry_concept_2room_planoplan_rationale.md) | Дизайнер Дмитрий К | Conventional colour at concept stage; sketch renders as a stage-1 output |
 | [`YT_FRKr9X3AFfY`](../_Sources/YT_FRKr9X3AFfY_kdmitry_doors_partitions_planning.md) | Дизайнер Дмитрий К | Door casings constraining partition position; doors modelled open and closed, trim as a later layer |
 
+| [`YT_f0EU_xbavEA`](../_Sources/YT_f0EU_xbavEA_sketchupessentials_import_scale_reference_images.md) | Justin Geis, TheSketchUpEssentials | **Two-point scale verification**; a scaled raster is orientation, not measurement |
+| [`YT_9tfvs3XW5qQ`](../_Sources/YT_9tfvs3XW5qQ_trimble_2d_floorplans_to_3d_walls.md) | Aaron Dietzen, Trimble SketchUp | The ink's width as an error term; the oracle principle from the GUI side |
+| [`YT_HOjQiiHJ714`](../_Sources/YT_HOjQiiHJ714_trimble_how_good_is_claude_at_modeling.md) | Aaron Dietzen, Trimble SketchUp | An agent silently invents unspecified construction values; file-generator architecture |
+| [`YT_3tAYEJTyUFY`](../_Sources/YT_3tAYEJTyUFY_fairley_ai_read_construction_drawings.md) | Tim Fairley | Context rot, and condensing drawings into a queryable store |
+
+**§6–§7 come from a second batch, English-language and US/UK-market, triaged 2026-09-11.** No regulatory claim is made by any of them.
+
 ⚠️ **All six transcripts are auto-generated captions on software subject matter, and the ASR is measurably worse than this vault's usual sources** («Rimliner», «канузла», «отвёртки стен» for развёртки, and one video with no punctuation at all). **Every figure quoted on this page was heard once and is a candidate, not a confirmed number.** Full per-source caveats are in the notes.
 
 ## Open items
@@ -176,6 +236,8 @@ All Russian, all Moscow or a Russian vendor. **Round 1 of the design-toolchain g
 1. **Is `1/2` an established convention or a vendor's own?** Decides whether it can be issued to an installer. **Highest-value question from Round 1.**
 2. **Can our DXF/SVG pipeline express a proportional dimension**, or does it need Bonsai annotation?
 3. **The datum decision (§1) is still unmade**, and §E says it must precede `cap3`.
-4. **Does the exported-underlay method preserve a scale reference?** Bears on standing rule 9.
+4. ✅ **CLOSED 2026-09-11 — "does the exported-underlay method preserve a scale reference?" It does not, and that turns out not to matter.** §6 answers it: a raster carries no geometry and nothing to snap to, so practitioners register it against one known printed dimension, **verify on a second independent one**, and then model from the printed dimension strings rather than from the pixels. **The underlay is orientation; the dimensions are the measurement.** Standing rule 9 is satisfied by the printed strings, not by the raster.
 5. **Grey massing versus disclaimed conventional colour** — an owner decision.
-6. **Should our deliverable set gain an A/C sheet?** Both of Дмитрий's projects ship a план кондиционеров; `grep "кондиционер"` returns 0 across our own sheet set and roadmap. See [`Planning_Project_Deliverable_Set.md`](Planning_Project_Deliverable_Set.md).
+6. ⚠️ **Add two-point scale verification (§6) to the `v0` reconstruction procedure BEFORE the hand work starts.** The only registration check in either batch that this project does not already have.
+7. **Should `wall_corners.csv` become `IfcRelConnectsPathElements`?** The IFC4 schema carries per-layer priorities and an ATSTART/ATEND/ATPATH connection type, and the repo uses none of it — verified 2026-09-11. Delegated as question 1 of [`deep_research_brief_geometry_and_agent_modelling_20260911.md`](../_Inbox/planning/deep_research_brief_geometry_and_agent_modelling_20260911.md).
+8. **Should our deliverable set gain an A/C sheet?** Both of Дмитрий's projects ship a план кондиционеров; `grep "кондиционер"` returns 0 across our own sheet set and roadmap. See [`Planning_Project_Deliverable_Set.md`](Planning_Project_Deliverable_Set.md).

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=3tAYEJTyUFY",
+  "video_id": "3tAYEJTyUFY",
+  "language": "en-orig",
+  "is_generated_captions": true,
+  "method": "yt-dlp --write-auto-subs --sub-langs en-orig",
+  "timestamp": "2026-09-11T06:40:38.632227+00:00",
+  "source_tool": "yt-dlp 2026.07.04",
+  "sha256": "13eb79dad11f8b12a0fdedd6d57922eb74a8efd6f8c05d79437cc3cb63512224",
+  "attempts_before_success": []
+}

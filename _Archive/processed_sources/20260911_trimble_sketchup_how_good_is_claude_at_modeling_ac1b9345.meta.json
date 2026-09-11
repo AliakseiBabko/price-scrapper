@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=HOjQiiHJ714",
+  "video_id": "HOjQiiHJ714",
+  "language": "en-orig",
+  "is_generated_captions": true,
+  "method": "yt-dlp --write-auto-subs --sub-langs en-orig",
+  "timestamp": "2026-09-11T06:40:38.632227+00:00",
+  "source_tool": "yt-dlp 2026.07.04",
+  "sha256": "ac1b9345924437ff4d8c05c83e2362664639589c91cffa4dae5a2f9eb6eca667",
+  "attempts_before_success": []
+}

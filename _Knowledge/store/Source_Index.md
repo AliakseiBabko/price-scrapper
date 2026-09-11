@@ -944,3 +944,13 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_FRKr9X3AFfY** — Дизайнер Дмитрий К — Как начать планировать небольшую квартиру: выбор дверей и перегородок. Uploaded 2026-02-18 (confirmed via yt-dlp), 7:24. `fact_yield: 16`, `promotional_ratio: low`
 - **YT_TJVXUCKQ1UU** — Дизайнер Дмитрий К — Как использовать Планоплан и SketchUp вместе для дизайна квартиры. Uploaded 2026-02-04 (confirmed via yt-dlp), 5:31. `fact_yield: 9`, `promotional_ratio: low`
 - **YT_OTBw7bCrv-o** — RemPlanner — Видеоуроки Remplanner. Урок 4. Электрика и освещение. Uploaded 2025-06-24 (confirmed via yt-dlp), 18:09. `fact_yield: 7`, `promotional_ratio: low` (RemPlanner is a vendor course — `promotional_ratio: medium`)
+
+### AI-agent modelling and raster registration batch (added 2026-09-11)
+
+*English-language, US/UK market, `en-orig` auto-captions - the ORIGINAL language, not a translated track. No source here makes a regulatory claim; nothing routed to `16_Legal_and_Regulations/`. ⚠️ Model-capability verdicts deliberately discarded as dated; see the Change Log.*
+
+- **YT_f0EU_xbavEA** - Justin Geis / TheSketchUpEssentials - The RIGHT Way to Import Reference Images in SketchUp. Uploaded 2026-08-11 (confirmed via yt-dlp), 5:12. `fact_yield: 4`, `promotional_ratio: low`.
+- **YT_9tfvs3XW5qQ** - Aaron Dietzen / Trimble SketchUp - 3 Ways to Convert 2D Floorplans to 3D Walls. Uploaded 2025-06-17 (confirmed via yt-dlp), 17:25. `fact_yield: 4`, `promotional_ratio: medium`.
+- **YT_HOjQiiHJ714** - Aaron Dietzen / Trimble SketchUp - How good is Claude at SketchUp modeling?. Uploaded 2026-05-12 (confirmed via yt-dlp), 16:34. `fact_yield: 5`, `promotional_ratio: medium`.
+- **YT_3tAYEJTyUFY** - Tim Fairley - How to Get AI to Read Construction Drawings. Uploaded 2026-04-29 (confirmed via yt-dlp), 14:43. `fact_yield: 5`, `promotional_ratio: low`.
+- **YT_althlPj8Tag** - Aaron Dietzen / Trimble SketchUp - CAD Linework to SketchUp Geometry: 3 Methods. Uploaded 2025-06-10 (confirmed via yt-dlp), 13:22. `fact_yield: 0`, `promotional_ratio: medium`. **Skimmed, corroborating only - no independent finding extracted.**
