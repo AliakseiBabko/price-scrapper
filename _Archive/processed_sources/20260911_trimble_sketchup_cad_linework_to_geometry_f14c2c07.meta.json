@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=althlPj8Tag",
+  "video_id": "althlPj8Tag",
+  "language": "en-orig",
+  "is_generated_captions": true,
+  "method": "yt-dlp --write-auto-subs --sub-langs en-orig",
+  "timestamp": "2026-09-11T06:40:38.632227+00:00",
+  "source_tool": "yt-dlp 2026.07.04",
+  "sha256": "f14c2c07b0fbf841c75d086e6a79f4dbd46c9dd399fbbe98d529bc11d8e27d75",
+  "attempts_before_success": []
+}

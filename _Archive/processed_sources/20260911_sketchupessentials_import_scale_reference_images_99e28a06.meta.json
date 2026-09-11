@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=f0EU_xbavEA",
+  "video_id": "f0EU_xbavEA",
+  "language": "en-orig",
+  "is_generated_captions": true,
+  "method": "yt-dlp --write-auto-subs --sub-langs en-orig",
+  "timestamp": "2026-09-11T06:40:38.632227+00:00",
+  "source_tool": "yt-dlp 2026.07.04",
+  "sha256": "99e28a061c63dd8d6511f454897859eaff2bff0d7815d2b660ea1291c8a31496",
+  "attempts_before_success": []
+}
