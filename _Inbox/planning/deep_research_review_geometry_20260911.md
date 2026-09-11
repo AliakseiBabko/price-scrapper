@@ -121,9 +121,9 @@ It also catalogues the MCP servers that exist for Blender, FreeCAD, Revit and Rh
 
 ---
 
-## §C — ⚠️⚠️ Three verifiable errors, two of them about THIS REPO
+## §C — ⚠️⚠️ Four verifiable errors, two of them about THIS REPO
 
-**All three were checked against the repo or its primary sources today, not judged by feel.**
+**All four were checked against the repo or its primary sources today, not judged by feel.**
 
 ### 1. It cites a regulation that was repealed in full five months ago
 
@@ -152,6 +152,19 @@ Recommending its "Two-Stage Evaluated Layout Pipeline" — intent as functions u
 **Checked `data/variants/*.json` and `data/canonical/current_apartment_base.json`: no patch carries any expression.** The only matches to an expression-like pattern were two file paths and one key name (`ceiling_centre_per_room`).
 
 **→ The recommendation is sound and worth considering. The claim that we already do it is false**, and it is the flattering kind of error — it converts an open recommendation into a reassurance.
+
+### 4. ⚠️⚠️ It states a Belarusian corridor-width requirement that the norm does not contain
+
+The report lists, under Belarusian regulatory constraints: *"Clear Corridor Widths (СН 3.02.01-2019): Corridors leading to living rooms must provide an unobstructed clear width of at least [dropped]; entrance vestibules and kitchen corridors must maintain [dropped]."*
+
+**Checked against the primary source this vault already archives** — `_Archive/processed_sources/20260908_SN_3.02.01-2019_zhilye_zdaniya_normy_by_preview.pdf`, 25 pages, read directly:
+
+- **Every «коридор» clause in the norm concerns ВНЕКВАРТИРНЫЕ corridors** — the building's common corridors in a corridor-type block — and clause 10 does not even state a figure, referring out instead (*«Наименьшую ширину внеквартирных коридоров и дверей в них следует принимать в соответствии с…»*).
+- **A search for every width figure in the document returns only stairs, landings, lift machinery rooms and doors** — 1.15 m stair flights, 1.4 m landings, 0.5 m / 1.4 m / 1.8 m door and access dimensions. **There is no in-apartment corridor or passage width anywhere in it.**
+
+⚠️ **Stated with the caveat the vault already carries for this copy**: it is the `normy.by` preview, watermarked *для ознакомления*, and **does not include Изменения № 1 and № 2** — so the honest claim is *"not present in this copy"*, not *"does not exist"*. **But the report cites the base norm, and in the base norm it is not there.**
+
+**→ This is the most dangerous of the four errors, because it is the one that would have been routed into `16_Legal_and_Regulations/` as a Belarusian requirement and sat next to Alexey Zemskov's 1100 mm practitioner figure — turning an opinion this vault correctly labels `practitioner_opinion` into a fabricated norm.** Standing rules 3 and 4 both exist to stop precisely this.
 
 ### And two failures the brief predicted, both materialised
 
