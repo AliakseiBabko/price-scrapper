@@ -237,3 +237,46 @@ Run 2026-09-11, before any of this is acted on:
 3. **Add `M6b`** (item 6) — it is the only unmatched wall, 1170 clear. ⚠️ **Settle the 200 mm / `loggia_enclosure` versus 150 mm tension in §5b first.**
 4. ⭐ **The insulation rules, both of them, since they are now settled and they change how bands are derived**: **(a)** walls touch walls and insulation fills what is left, never a layer between them (§4); **(b)** a band is interrupted by every opening in its host wall (§5c, 4980 mm wrong today). **Do these before re-deriving, or the bands get built twice.** Add the column END-face case at 120 mm (§5a) while the derivation is open.
 5. **Then re-run both gates**, and expect the corner ledger to move.
+
+---
+
+# SECOND REVIEW ROUND — `v0_vector_extraction_with_comments.png`, 2026-09-11
+
+The owner annotated the **corrected** render. Most marks repeat round one and stay open; **two are new.**
+
+## ✅ NEW — two of the red boxes are VENTING SHAFTS, and they were filed as slivers
+
+He drew red boxes round two areas and labelled both *"venting shaft"*. Located against the solids:
+
+| his mark | solid | size | where |
+| :--- | :--- | :--- | :--- |
+| top-middle, beside the printed `400` | **`S11`** | 400.0 × 400.1 mm | x 8980.8–9380.9, y 15090.3–15490.3 |
+| top-left | **`S19`** + **`S20`** | 397.2 × 400.0 and 147.1 × 400.0 | x 2980.8–3378.0 and 4370.9–4518.0, y 15590.3–15990.3 |
+
+> [!WARNING]
+> **⚠️ All three were being OMITTED as "sliver under 500 mm" — a SIZE rule standing in for a semantic one.** The code's own docstring says *"a bucket that holds both is not a classification"*, and this was that failure one level down: a **structural venting shaft** sharing a bucket with extraction noise, purely because it measures under 500 mm.
+>
+> **It matters beyond tidiness. A вентблок is IMMOVABLE**, and `Layout_Option_Review.md` §5 turns on exactly where the second one sits, because it is what the corridor-to-kids trade has to avoid.
+>
+> ⚠️ **And the owner had already said it once**: an earlier round is quoted in a code comment as *"S11 is noise, it's a venting shaft"*. **It reached a comment and stopped there** — unqueryable, and free to drift.
+
+**Fixed by moving the identifications out of comments and into data.** New `data/canonical/v0_solid_roles.csv` records `S11`, `S19`, `S20` as `venting_shaft`, plus `S35` as `drawn_stove` and `S12`/`S13` as `window_element`, each with `identified_by: owner` and a date — because **a role is a claim and needs someone to have looked.** The render reads it, an identified role now beats the size bucket, and the legend names them: *"3 venting shaft (owner-identified): S11, S19, S20"*. The generic buckets shrank from 9 and 8 to **6 and 5**.
+
+## ✅ NEW — *"you marked external insulation as a wall"*
+
+Pointing at the orange band running south from `MB_R8` — **the band placed earlier the same day for `M6b`.**
+
+**Diagnosis: the band was right, the picture was still missing its wall.** `M6b` is in the DXF at x 5931.0–6131.0; its band sits at x 6131.0–6281.0. But the render could not draw a wall with no vector solid, so **the only thing visible at that spot was the orange strip — which reads as the wall.** He had marked the same location in round one as *"missing wall"*, so this is the same gap reported a second time, in a new form.
+
+**Fixed**: a named wall with no solid is now **drawn dashed in red and labelled — `M6b by directive`** — so wall and insulation read as a pair. ⚠️ **Three round-trips have now been caused by this one render showing less than the model holds**; the dashed outline is the structural fix rather than another caption.
+
+## Still open from round one, unchanged
+
+- The three wall-on-wall **overlaps** (S07/S18, S10/S18, S32/S33) — **resolved in the model, shown unresolved in the picture.** §3b.
+- **Two bridged doorways that never became openings** (4 bridged, 3 placed).
+- **`S34 R5`'s red box** — dimension linework, still counted as a doorway.
+- **The `M2` red box** — *"not a wall segment. Part of the M2"*, still counted as a doorway.
+- The **120 mm return face** on R9.
+
+⚠️ **So the "4 doorway(s) bridged" category is now known to be wrong in at least two of four**, and the owner has flagged both twice.
+
