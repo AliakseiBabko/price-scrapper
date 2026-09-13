@@ -1,0 +1,301 @@
+So I've been avoiding this video for
+a while, not because I didn't know about the tools out there, I did, but
+every time I look at what other people were doing with AI in archviz, it
+felt like just chasing hype, you know? Framing it as this AI is gonna
+replace everything kinda, kinda thing, and I just don't believe in that. So I waited until I found something
+that actually fits the way I work, where the tool assists the process, where
+there's actual control and authorship, and I think I finally found it. One tool that is gonna assist us in
+pretty much everything we need in terms of visual communication for architecture. I found Magnific. You might have known it as this
+powerful upscaling tool in the past, but it has evolved a lot since then. It's now a platform that gives you access
+to the best AI models out there for image, video, and of course, still upscaling
+with just one single subscription. And the cool thing is that it wraps
+all of that up into one unified workflow, especially with Spaces,
+this infinite canvas where you build your own multi-step workflows. This is very, very powerful. And yes, this video is
+sponsored by Magnific. I had been hearing about it for a while
+online, but also people were coming and asking directly to me if I was using it. And coincidentally, as I was entering
+this architecture competition recently, which I'll definitely make a video
+about it soon, so be sure to subscribe to the channel, Magnific reached out. So the timing was perfect. I had a real project with a real deadline,
+and competitions are even tougher. And then actual deliverables, just the
+right conditions to actually test it. And what I found out is that
+this is genuinely useful. Definitely not as this one-click result
+sort of machine, but something that fills specific gaps, speed things up
+where it makes sense to do it, and most importantly, keeps you in control. So that's what this video is, essentially
+a super tutorial with a bunch of practical stuff, things that I've been
+testing and doing in the past few weeks. I'm gonna place timestamps down below
+so then you can jump in and go back into whatever's most relevant to you. No slop, I promise. Let's get into it So Magnific is a web-based platform,
+so there's nothing to install. You're just gonna create your
+account, choose a plan that fits your needs, and everything runs
+here directly in the browser. We're gonna start with the image section. Here we have many tools to choose from,
+and they can all be very interesting, and more might pop in here in the future. But most of the things we'll do
+happen here under the image generator. Add people to images. So say I have a finished rendering
+here, a finished image, and I'm just doing some lightweight post-production
+in Photoshop, adjusting colors and so on, and I wanna add a person here. Instead of just placing the entire
+render into Magnific, I would say that it's best just to add
+the area you want to, to edit it. So I'm gonna grab an area here
+with the selection marquee tool. I'm gonna duplicate it and make it a smart
+object Then go inside Ctrl + A to select all, then Ctrl + C to copy everything,
+and then with your mouse hovering here on Add, you're gonna hit Ctrl + V. Nice. So it's now added here to Magnific,
+and doing this way, you didn't have to spend much time saving this as an image,
+which might be little you might think, but I guarantee you it's a time saver
+once you get into the rhythm or just Ctrl + C and Ctrl + V between the tools. Now, here in the prompt area, you
+can be as specific as you want, and I also don't believe into
+selling you this magical prompt. It really varies on the demand you have. But, uh, what I can tell you is that you
+can use GPT or Claude to help you out with this, or then with the assistant here,
+which we'll get to see later in spaces. So essentially describe what you need,
+how many people, the action, clothing, and again, you can be as specific as
+you need or let the model handle that. But what I do recommend is that you
+use key phrases like, "Don't change the camera angle," "Maintain image
+proportions," uh, "Keep architecture intact," "Don't change materials." Doesn't, it doesn't have to be
+this specific way of writing, but this idea, you know. For these crops that I use, I do auto
+as the aspect ratio, 2K on the quality. This is more than enough. And then depending on the plan you
+have, for now at least Magnific, uh, you don't-- they don't cost any
+generations, which is quite amazing. And right now, Nano Banana 2 is the
+strongest model for image generation, but I wouldn't get too fixated on that. The whole premise of Magnific is
+that when a newer model drops, you're gonna already have access to it. So, I mean, maybe in a few months
+it's gonna be Nano Banana 3 or Nano Banana Pro 2 or something like that. That's one of the biggest
+advantages of using Magnific, just one subscription, as I said. Now hit Generate, and it's often fairly
+quick, but the good thing is that you can start working on another generation
+right away while this one processes, or even just do a slightly different
+version so that you have more options to choose from, or even with another
+model like the Nano Banana Pro or the GPT model or something like that. And this is very efficient when
+compared to the chat version of these models, you know. Okay, we have it here. This looks really good. And instead of now downloading this as
+an image file, and then again cluttering your folder with the many generations
+that gets often made, I like just coming in here and then just copy image. Now we can go to the Smart Object
+in Photoshop Ctrl + + V to paste it, align the borders, and make sure
+that that matches somewhat perfectly. And then I like to go then here
+one step further and just mask the people out, and then you could
+even then hide the base layer. And this workflow here means that
+the base render will always remain the same, or most of it at least. You will avoid making your images
+go through the many iterations and generations inside an AI model and start
+losing the details, which is quite common. And so you can use this Smart Object
+workflow to grab each part of the image you want to enhance or tweak and be
+very precise and specific about it. And this also means that in the future,
+if part of the design changes, you know, a client requests something
+different, you can always then re-render from your software, then just replace
+the base render here in Photoshop, and you're gonna be pretty much done. Another way I like to use this
+workflow of adding people is coming in here with 3D people already in
+place, you know, from the 3D software. That way, I can guarantee scale and
+positioning, and only adjust then obviously realism, which is much
+needed, texture, characteristics, and make sure that I have… I treat
+this as something already existing. I'm just improving and
+not creating from scratch. Or then even treating this as a
+typical cutout and even adding motion blur here in Photoshop. I mean, obviously, you can do that
+already with the AI model, but here in Photoshop, you have more control,
+and you can do this non-destructively. You know, more blur, less blur,
+you can do everything here. Imperfections and enhancements. Now, with the same thinking of smart
+objects and being very precise about how you change, how you control the
+change with your images, we can use the image generator to add imperfections
+to certain parts of the image. For example, the side table, or let's
+do together this concrete column here. And a tip I can give you here
+is to be very careful with the intensity in the prompting. So I recommend using words like subtle or
+soft and others so that it has a bit of wear, but it's not something destroyed. Just a little bit of
+imperfections, that's all we want. These are things that you could
+obviously do with decals or advanced rendering engines with
+material mixers and all of that. But using AI specifically here allows
+you to move faster during rendering and modeling, and only attack specific
+parts of the image when you need it. Same thing for vegetation. You can enhance existing vegetation
+with a quick prompting here, and only enhance the realism. Or even modify it completely, just
+change the style of the landscape altogether, though I find it better
+just to use it as a simpler enhancer. For me, that's the way to go
+with the architectural visuals. And most of the rendering engines
+nowadays, from the simplest to the more advanced, are providing AI enhancers. But they are often limited, so having
+the ability to do it here with all of the customization you need feels a little
+bit more like the right move, you know? And by the way, I'm Oliver. I run Upstairs, an educational
+platform focused on architectural visualization and representation. This is literally what I do, so I wouldn't
+be here if I didn't think this was something genuinely worth showing you. And if you want to start using
+Magnific today and try everything that I'm talking about in this video
+and a lot more, you can check out the first link in the video description. So now let's keep going. Variations. This is interestingly, useful, and very
+applicable to architectural visualization. Think of it as expanding the
+range of possible results. It's essentially an image generator with
+specific built-in prompts and templates. It's great for quick testing, but I find
+it even better to just run something like this over spaces, so-- Which I'm
+gonna show you later in this video. But I just wanted to mention this
+here because it does exist, and it's fairly quick to use, and it does give
+us, uh, some interesting results. And of course, one of the most
+used ways of taking advantage of AI is as an upscaler. Here you can use it in two ways. One, in a more creative way, though
+I don't think this is really the way that Archvis benefits too much. Or then second, with the precision
+mode, where you can just enlarge an image, maintaining its fidelity. This is really where the gold is. And then even with the precision mode,
+I see two ways that we can explore this. One, with the intention of
+speeding up the rendering process. So for example, if you're in a rush,
+you can just get an HD image, just like, you know, 2K resolution out
+from the rendering engine, and then quickly pass it through the upscaler,
+like a, like a good upscaler here with Magnific, to get it to 4K or higher. And then two, if you already have a
+4K resolution, something like a final image, and then you wanna push it to
+8K maybe, or sometimes even more, to do specific crops of your image as
+sort of like detail images, you know? This is great for mood boards,
+Instagram posts, or just sharing specific details about your image with
+clients, competitions, portfolios. I use this a lot. Now, you can definitely explore more of
+these tools inside the image section. There are so many options to choose from. But let's move to video right
+now to make things move. Video Now, we're very used to just showcasing
+and communicating architecture, especially unbuilt spaces, with still images. Videos are often very demanding
+to make, even though recently it's been getting easier and
+easier with real-time renderings. It's still, it's kinda consuming. But with AI for video, things start
+to get a little bit more interesting. So here, under the Video section,
+go to the Video Generator. But, and very importantly, we're not
+generating your video from scratch, from a prompt, pretty much ever, I would say. We always start from a
+frame, from an image. This will guarantee more consistency
+and control in your generations. In terms of models, I know that at the
+moment, Seedance 2.0 is getting a lot of spotlight, um, but I found out that
+I had more success with Kling 3.0. It does what it tells you. It has a little bit more precision,
+I felt… while Seedance or Seedance, well, does what I think it looks good,
+so it's a little bit more creative. I mean, that also can change in
+the c- upcoming months, for sure. For archviz, I need precision, plus Kling
+3.0, it's a cheaper model at the moment. But I mean, feel free to
+test all of these out. As you can see, so many models, and
+each one does something different. Simple clip. I like using this for a simple, static
+camera with people and vegetation moving so the scene feels alive. You add a start image. Your render. And then the trick with the prompting
+is, again, to use subtle words. Like instead of, uh,
+windy or wind, use breeze. Use words that are subtle and natural,
+especially for people movement. It makes a huge difference,
+as you're gonna see. And you can give it a twist and even
+ask for some camera movement too. But I would say keep it cinematic
+in a sense, like, keep it subtle. And the biggest pro tip I can give you
+here is just study real architectural showreels for reference, like the
+Local Project, EST Living, Open Space. That's the kind of
+movement you're going for. For the prompting itself, I
+always recommend Assistant inside Magnific or just going directly to
+Claude or GPT to build something that's a little bit more detailed. But I would say that still
+keep it simple, you know? Sometimes if you, if you add too long
+prompts, it ki- it, it confuses the model. So after generating… this looks amazing, right? It always blows my mind how
+good these generations are. It keeps architecture and
+just only moves what we need. Six months, like one year ago,
+this wasn't really that possible And another pro tip I would
+give you here is that credits run really fast with video. I mean, as you can expect, because
+it's a bunch of frames, a bunch of still images, uh, put together
+so that it creates a video. So I would say that do generations
+with 720 or 1080p in small in duration just for testing. Make sure that all, everything
+works, and then go longer if you need it or higher quality. And then you can also use the
+video upscaler to get to 4K. But often, from what I've tested, 1080p
+sometimes like social media, like specific deliveries, sometimes is enough, you know. And then remember obviously that you
+can be very specific with the prompting and ask for certain movements on people. And I would say go with no audio,
+uh, for most of the things, at least most of the generations. And then you can always add that
+later in the video editing process if you're gonna be composing a showreel. Timelapses. Now, timelapses are one of the coolest
+ways to utilize video generations. Just static cameras or just even
+like subtle zoom-ins or zoom-outs. But the idea is that we focus on the
+building being used instead of focusing on specific actions or specific individuals. It's about showing scale and atmosphere
+and not, not really a movie set, right? I think timelapses are one of
+the best ways, um, to really communicate architecture visually. Start and end image. Speaking of timelapses, something
+very powerful is utilizing the start and end image. There are honestly so many creative
+ways to use it for architecture. You just need to understand the
+concept, and then you go crazy. I mean, obviously it's very simple,
+but start image is the first frame of your video, and then end image
+is where the video is gonna end. Simple as that. And then AI is gonna fill that gap. So for example, you can get a
+day scene render, then use the image generator here, and then
+ask it to make it a night version. Um, or then you can even
+render a night version. Then place both as start
+and end image or vice versa. You can change this. And then prompt it so that you
+have a time-lapse transition from one to the other. This is very, very useful, very
+cinematic, and can definitely fit into an architectural showreel if used right. This is a really good storytelling tool And you can do the same with, uh,
+let's say like an empty lot to built architecture, but this already
+touches a little bit on the slop area Uh, same thing here for an
+empty room to a furnished room. Like a bit of slop if you ask me, like,
+is this really necessary to the story? Like, like what's the purpose of this? But I wanted to show you, like,
+there's so many possibilities. For example, just the fact that you can
+be very specific with things like, let's say, opening a solar shading system. This start and end gives us a lot of
+control over the output of the video. A little less margin for
+hallucinations with… especially with the correct prompting. Spaces. Now, everything we saw so far in
+terms of tools is also here in Spaces. Spaces is the biggest strength
+of Magnific, I would say. It really completely changes
+how powerful this platform is. I'm gonna show you a few examples
+of how this works, but the reality is that we could even make a full
+course on the mechanics of this tool. And if a course would interest you,
+actually, let me know in the comments below, and we might even do that. Now, let's start with lighting
+scenarios, and this first one I'm gonna show you kind of step-by-step. So we start by coming here to
+Spaces, and let's create a new space. This is an infinite canvas
+that works with nodes. I mean, sounds complex, but
+very simple to understand. And you can start from nodes or just
+dropping an image directly in here. That's what I'm gonna do. So let's say I wanted to
+test a few lighting scenarios based on this render here. Something I do a lot, and to give
+me ideas or directions I can go. I would do this manually in the past,
+but now it's very fast with this tool. Instead of just using a text prompt, like
+something ready, let's right-click and add a, an assistant and type something like,
+"Give me twelve exterior archviz lighting setups across main daylight scenarios." And then obviously more details here. And then I'm gonna ask it to export
+as a list, which then gives me the 12 individual prompts that I asked. This is pretty cool, right? And so now we can right-click and
+add a image generator and feed the list into the text input and the
+base render into the image input. Like this is kind of the logic
+that you've gotta understand. And so it's already set here to 12 on
+the outputs automatically, and this image generator, it's the same one that
+we were using in the image section. I'm gonna do a NanoBanana 2, auto
+aspect ratio, 2K, and then run. Wait a bit. 12 images are being generated,
+but overall, this is very fast for the output we're gonna have. Very effective. And after a little bit,
+look how amazing this is. It always blows my mind. And with this in mind, obviously, I
+then go back to the rendering software to recreate a similar atmosphere. I use this more as a reference and
+ideation tool, and not so much as a, as a final result, though you could
+use it if you wanted, and then just run this to like through an upscaler. And the best part for me is that since
+this space is already set up, I can just swap this base image, hit Run again, and
+kinda instantly, I mean, after a little bit, we have a new set of scenarios
+for a completely different render. That's the power of building these
+workflows once and reusing them. You see where I'm going with this? Furniture replacement test. Now this one is also kinda mind-blowing. I added three images here, like
+these three different lounge chairs in white background, and I wanted
+to test them in this rendering here. Fed them into a list object so it's
+organized, and then added a crop of the render I was working on. And again, crops are just easier
+to specify things as prompts, and just avoid like bigger areas for
+hallucinations, but you can test it with a full render as well. Then I created a text prompt, like
+replace the, the selected chairs in the interior, uh, scene, and then make
+sure to use the @ symbol to link the chairs from the reference list and the
+base, the base render as well, so that your prompt is even more specific. And then you can go as detailed as
+you want with the prompting as well. Like use Assistant, use Claude,
+use GPT, whatever works for you. But sometimes like simpler pro-prompts
+also, uh, get the job done, especially with the @ symbol connecting everything. And then you feed that text
+and the image list into an image generator, NanoBanana 2. Auto aspect ratio, 1K for this one
+is enough as well, just to, just because it's just quick testing,
+and the output comes back as a list. Amazing, right? Quick iterations, very
+consistent lighting, correct color, material throughout. I mean, this is, this
+is really nice, right? Obviously, you don't have as much
+control as in 3D, like specific rotation of the chair and so on, and,
+and changing like specific materials. I mean, you can do that with
+prompting but, I mean, I think it's better for just quick testing. This is really incredible. Of course, if you wanted to use from
+here, you can just upscale this, just paste it back in Photoshop and take it
+from there as a typical post-production. Use masks and kinda stitch
+everything together. And I mean, the level of detail on
+these furnitures coming from an image, very hard to find assets like this
+that are both very realistic and not that heavy to work with, especially
+for a typical architecture firm. And well, from this workflow, you can of
+course then upscale, download everything, do video generations, iterate even more. You get the idea. Reframe. As I said, the options are endless. So we can take that reframe
+workflow that I showed you before with the image section, and then
+do it here manually in spaces with a little bit more customization. From what I've tested, to be honest,
+this is one of those things that sometimes works, sometimes doesn't. Uh, you're gonna need a few tries. I mean, that's, that's for sure,
+and you're gonna need to be tweaking the prompting a lot. But for example, the ultra close-up
+material study of the chair, I mean, this looks really good. Now, the medium shots, maybe not so much. I mean, hallucinates a bit. The top-down view is very interesting
+too, but whatever it can't see, it's going to just invent. And I added even like a close-up
+screenshot of the lamp specifically because it kept getting wrong before. I mean, you get the idea, right? A base image, prompting,
+reframing, and be very specific. If you used it from the image section, it
+comes with pre, pre-built-in templates. From here, you can use the assistant
+or Claude to kind of help you imagine possible directions you could take here,
+and you start connecting the nodes. And I know that this kind of looks
+complex, but once you get the hang of it, it's really just playing with it and
+just kind of building this as you go. Character placement. Last example here, and I think this
+one is the one that makes sense to end this because it's about taking control
+over the result and kind of using this as more of a complete, um, workflow. I'm using two characters here, a woman
+and a dog, and then two images here with just one exterior and one interior just
+to show you that you can do everything here together in this-- the same space. And then with a simple prompt, I
+ask it to place both on the render, and then I reference them And look,
+they're already in the image, very consistent with the original characters. The scale sometimes is hard
+to adjust, if I can be honest. Um, sometimes I find it better to
+just do it with the 3D people and just kind of just replacing them. But just to show you that this works,
+and then from here you can fit this in, straight into a video generator. Ask for a cinematic work with some
+natural movement, and there you have it. I mean, pretty great, right? You can do this directly with the
+individual video generation for sure, but spaces give you this overview
+of the entire process, especially when you're working with consistent
+characters from beginning to end, or especially when you're working with
+multiple scenes and you wanna treat this as a, as a combined workflow. And honestly, another strength
+of spaces is that you never have to save anything to your desktop. You can copy and paste from
+Photoshop directly in here, grab stuff from the internet, you know,
+Google, and then go back and forth. The clipboard keeps everything, uh,
+moving fast, and everything you generate, everything that you're using gets
+saved to your assets automatically. All versions, the full history,
+it's always backed up, and then you download the final versions you need
+or just the ones that you wanna keep. All right, I know that was a lot of
+information and we could go even further here, but I suggest now going check out
+Magnific yourself with the link in the video description, and let me know if
+you'd like to see more videos on this in the future or maybe even a course. You know, I've been pessimistic about
+where things were going or rather are going with AI, and still am to be honest. But I truly believe this tool
+doesn't replace the thinking. That part is still on you. There's a lot of hyped up stuff
+online saying that AI is gonna replace the traditional workflow, that the
+core skills of visual communicating architecture are not relevant anymore,
+and, uh, that's just not the case. You still need consistency, you still
+need control, and Magnific comes in as this creative assistant that helps you
+move faster, iterate quicker, handle specific generations or adjustments. A bit of post-production help for
+sure, and for video generations especially, I think it's amazing. Now let me know in the comments
+what you think about this. Have you used it already? Plan on using or not using it? I really wanna hear from you guys, and
+I'll be looking at the comments section. I'll catch you guys in the next one.

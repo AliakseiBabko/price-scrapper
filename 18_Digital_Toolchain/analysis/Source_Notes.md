@@ -87,3 +87,22 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 | [`YT_LBN9xF_rs1w`](../../_Sources/YT_LBN9xF_rs1w_fairley_subagents_and_lost_in_the_middle.md) | **"Lost in the middle"**; the sub-agent fresh-context mechanism | 8 |
 
 **Round yield**: 5 videos, 59 new facts, yield = **11.8** per processed video — the highest of any round in this folder (Round 1 5.1, Round 2 7.0).
+
+## Astra-era modelling batch (2026-09-13)
+
+**Ten owner-supplied videos. ⚠️⚠️ THREE KOREAN, ONE RUSSIAN, SIX ENGLISH — each fetched in its verified ORIGINAL language.** One (`-FsHQEYldnQ`) has an **English title and Korean audio**; had the habitual `en` been used it would have been an auto-**translated** track. **This vault's first Korean-language sources.** Triage and outcome: [`astra_modelling_batch_20260913.md`](../../_Inbox/planning/astra_modelling_batch_20260913.md).
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_Qh9xgjd38VI`](../../_Sources/YT_Qh9xgjd38VI_feeeld_drawings_to_sketchup_with_revision.md) | **The REVISION question answered** — MCP edits in place; annotated-screenshot method; a third spatial-logic failure | 14 |
+| [`YT_-FsHQEYldnQ`](../../_Sources/YT_-FsHQEYldnQ_grasshopperpp_computer_use_autocad.md) | **Computer Use is NOT a fourth architecture**; the silently-chosen datum; a dimension text that lies; "complete" over half-finished | 13 |
+| [`YT_JCCEW6797yw`](../../_Sources/YT_JCCEW6797yw_bimdlyachaynikov_revit_dynamo_families_audit.md) | **Placed but not associated**; the complexity cliff located; the ID-traceable model audit | 9 |
+| [`YT_gq1LIFNxjeI`](../../_Sources/YT_gq1LIFNxjeI_upstairs_archviz_ai_workflow.md) | Non-destructive layered editing; protective prompt phrases; the occlusion rule | 8 (partial) |
+| [`YT_9pDOD_xx2kA`](../../_Sources/YT_9pDOD_xx2kA_melosazemi_sketch_to_cad_tracing.md) | **Tracing gives topology, not thickness**; "automatically to scale" as a claim to distrust | 6 |
+| [`YT_T45kiCGvCQs`](../../_Sources/YT_T45kiCGvCQs_aiessentials_task_vs_profession.md) | Drift with length; the buildability constraint | 5 (partial) |
+| [`YT_vHWOV5lJudg`](../../_Sources/YT_vHWOV5lJudg_melosazemi_floor_plan_generation_as_option_exploration.md) | Generation as option exploration; **the entrance-transition test** | 5 (partial) |
+| [`YT_26UFabH--JU`](../../_Sources/YT_26UFabH--JU_feeeld_villa_savoye_ruby_console.md) | **A famous building is not a test**; the cheap-tier methodology | 4 (partial) |
+| [`YT_hLslbz8n-1w`](../../_Sources/YT_hLslbz8n-1w_sudheendra_cad_to_unreal_walkthrough.md) | A 4-hour manual baseline; cross-model prompt writing; **no verification at all** | 4 (partial) |
+| [`YT_ZS_tnIN0zoA`](../../_Sources/YT_ZS_tnIN0zoA_archmaster_seven_tools_roundup.md) | **Undisclosed self-promotion**; two capability categories | 2 (near-skip) |
+
+**Round yield**: 10 videos, 70 new facts, yield = **7.0** per processed video.

@@ -247,6 +247,18 @@ A genuinely un-zoned open living room still reads functional/inviting because se
 
 **Extends the general "loggia as functional space" framing above with concrete criteria**: a loggia genuinely functions as a usable home office only with blackout curtains, a 3-4-chamber (thick-profile) double-glazed window unit, and full thermal insulation. **⚠️ Just placing a desk and chair on an insulated loggia does not make it a usable office** — without those specific conditions, direct sun glare, street noise, and outdoor distractions (the source's own example: children playing football under the window) undermine actual working comfort. `single-account`, `unverified`. [source: [[_Sources/YT_QyF37JEFpfA_kruglov_top12_stylish_solutions|YT_QyF37JEFpfA]]]
 
+### ⚠️ The Entrance Transition — Three Independent Reasons, and a Test You Can Stand In (Melos Azemi, 2026-07-24)
+
+**Correcting a machine-generated plan whose entrance he judged too narrow, an architect articulates why — and the reasoning is ordinary planning knowledge that has nothing to do with the tool that produced the plan.** He shrinks the kitchen to widen the entrance, and gives **three distinct justifications for a transition zone between outdoors and indoors**:
+
+1. **A feeling of arrival** — the entrance should read as a threshold, not as a door opening directly into the plan.
+2. **⚠️ Sightline privacy — so the bedrooms and the living room are NOT immediately visible from the entrance.**
+3. **⚠️ A buffer — against noise from outside, and against the pollution coming from the road and passing cars.**
+
+> **→ The second gives a test that can be performed on any plan, on paper or in a finished flat: STAND AT THE FRONT DOOR AND ASK WHAT YOU CAN SEE.** A plan where the answer includes a bed or the whole living room has no transition, whatever its entrance dimensions say.
+
+**⚠️ Relevant to this project's own [[01_Entrance/Entrance_Guide|Entrance]] and [[02_Hallway/Hallway_Guide|Hallway]] pages, which hold layout and storage content but not this test.** `single-account`, and the third reason (pollution) is a claim about a road-facing dwelling rather than a general rule. [source: [[_Sources/YT_vHWOV5lJudg_melosazemi_floor_plan_generation_as_option_exploration|YT_vHWOV5lJudg]]]
+
 ## Room-zoning partition methods — moved to their own page
 
 See **[[17_Design_and_Ergonomics/analysis/Room_Zoning_Partition_Methods|Room-Zoning Partition Methods]]**. This page keeps zoning *without* partitions — furniture arrangement, focal points, traffic flow, colour and prospect-refuge.
