@@ -10,6 +10,17 @@ Where light must not go, the glare and shadow mechanisms behind that, the room-b
 
 **And the blunt corollary: "чем меньше света, тем лучше. Не надо много света в квартире."** [source: [[_Sources/YT_9MsEZVjLH2M_kuzina_renzhin_lighting_design_podcast|YT_9MsEZVjLH2M]]]
 
+### ⚠️ UGR — the name of the parameter this section has been describing (Kruglov/Ontario, 2026-09-11)
+
+**This section's mechanism has always been stated qualitatively. It has a specified parameter, and a buyer can ask for its figure: UGR** — «параметр ослепления», how strongly a source strikes the eye, a measure of visual comfort and glare.
+
+- **The worked failure is behavioural rather than optical, and it is a sharper test than "does it look bright":** the cheap GX53 puck is unshielded enough that **you stop raising your eyes** and end up looking straight ahead or down. **→ If a room makes people hold their gaze low, that is a UGR problem, not a preference.** It is the same adaptation described above, observed from the occupant's side.
+- **Beam angle is the paired figure**: a GX53 lamp throws **150–180°** — Реньжин's bare-lamp ~350° case, halved by the ceiling — while a professional fixture can be specified **from 5°** upward.
+- **The remedies are tier-gated, which is the part that turns this section into a purchasing decision**: anti-glare **grids, tubes and rings**, and recessing the emitter deeper into the fixture body — none of which a cheap fixture offers. See [[12_Engineering_and_Systems/analysis/Downlight_Specification_and_Quality_Tiers|Downlight Specification and Quality Tiers]] for the ladder and the rest of the measurable parameters.
+- **⚠️ And one accessory that belongs in this section rather than in a spec sheet: the oval-forming filter («овалорисующий фильтр»)**, which lights the oval of a work surface instead of filling the room from that point — a direct tool for "where light must not go", not merely a glare reducer.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_03QuTzPgPa8_kruglov_downlight_spec_eight_tiers|YT_03QuTzPgPa8]]]
+
 ### ⚠️ Never put directional light above a reclining position
 
 **A recurring pattern across rooms, worth stating as one general rule: never place a spotlight, track fixture or narrow-beam downlight directly above a spot where someone reclines and looks upward** — a bed, a sofa, a bathtub. This generalises the bathtub-glare argument below and the bedroom central-pendant caution above. If a fixture must go there anyway, use a narrow, carefully aimed optic directed away from the reclining eye-line rather than a broad downward spread. `single-account`, `unverified`, though converging with the recessed-spotlight and central-pendant findings. [source: [[_Sources/YT_dJMsXYUyh7A_kruglov_lighting_guide|YT_dJMsXYUyh7A]]]

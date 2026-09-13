@@ -52,6 +52,20 @@ Part of [[12_Engineering_and_Systems/Electrical_and_Lighting|Electrical & Lighti
   reasoning behind it is genuine regardless.)
 [source: [[_Sources/YT_om5BbhJDaOo_kodolov_smart_home_pricing|om5BbhJDaOo_kodolov_smart_home_pricing]]]
 
+### ⚠️⚠️ The Fixture Decides Whether Protocol Control Is Possible At All — a Prerequisite Upstream of Every Architecture Choice (Kruglov/Ontario, 2026-09-11)
+
+**This section compares control architectures on the assumption that the devices can be controlled. For lighting that assumption fails at the cheap end, and it fails at purchase time rather than at commissioning.**
+
+- **⚠️ In 99% of cases a cheap recessed fixture cannot be dimmed over a professional control protocol at all — DALI is named** (TRIAC also appears at the professional tiers). **A protocol-controlled fixture is materially easier to find in the professional segment and largely absent from the budget one.**
+- **→ The sequencing consequence, and it is the point: the lighting-control decision has to precede the fixture purchase, not follow it.** A ceiling already fitted with budget downlights has foreclosed DALI without anyone having decided to. **Same shape as this page's own retrofit pattern — leave the fixture on and put the intelligence upstream — except that here the upstream workaround does not recover per-fixture dimming.** Tier detail and the rest of the measurable parameters: [[12_Engineering_and_Systems/analysis/Downlight_Specification_and_Quality_Tiers|Downlight Specification and Quality Tiers]].
+
+**⚠️ Biodynamic lighting, named as the coming requirement** — a scene ramping from zero to ~60% over roughly two hours at ~4000 K to wake, and a warm ~3000 K evening scene. **The physiological basis is on [[12_Engineering_and_Systems/analysis/Lighting_Colour_Temperature|Lighting Colour Temperature]]: at 5000 K and above melatonin production is blocked, at 3000 K it proceeds — and waking to 3000 K is markedly harder, which is why the morning half of the scene is the cold one.** This needs both a tunable-white fixture and a controller that can ramp it, so it is a two-sided prerequisite, not a software feature.
+
+- Named as available on a newcomer, **Light Pro** — **a commercial mention, and the source states plainly that he has not used it** («Я ещё не использовал их освещения») and received nothing for the mention. Recorded as a product category to watch, not a recommendation.
+- **Stated as opinion, recorded as such**: within 3–10 years buyers will expect light that adapts to their daily rhythm as a matter of course. **Worth weighing against this page's own hardest finding — that only three functions survive daily use.** A scene tied to waking and sleeping is at least the right *kind* of function by that test, since it runs on a schedule rather than requiring a decision.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_03QuTzPgPa8_kruglov_downlight_spec_eight_tiers|YT_03QuTzPgPa8]]]
+
 ## Device-Level Notes
 
 - **Smart lock**: unlocks by phone, fingerprint, code, or card. **Runs on
