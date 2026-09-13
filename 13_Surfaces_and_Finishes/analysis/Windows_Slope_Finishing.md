@@ -67,6 +67,16 @@ Legitimate specifically because insulation/soundproofing isn't the point at thes
 
 **→ A flush windowsill is a WALL-FLATNESS purchase before it is an aesthetic one**, and in a developer-finish flat it is probably not available at all. **His generalisation is the transferable part: «минимализм — это про очень грамотную работу строителей, где счёт идёт на миллиметры везде и во всём».** *(The same conclusion this channel's cost roundtable reaches from the budget side — minimalism raises the minimum acceptable trade quality rather than lowering material cost — and the same «морковка» failure its own-flat source reports for non-vertical plasterboard.)*
 
+### ⚠️⚠️ The "капинос" (drip edge) is water management, not decoration — a second, independent cost of deleting the sill's front lip (PRIDE / Алёна, 2026-09-06)
+
+**The small projecting lip on the front edge of a windowsill — the "капинос" (drip edge / nosing) — has a stated function, and it is not appearance: it stops water running back UNDERNEATH the sill and down onto the wall below.** Delete it for a cleaner minimalist line and the stated consequence is **staining on the reveals ("откосы") and progressive failure of the finish there.**
+
+- **⚠️ Three named triggers that decide whether this matters in a given room**, and they are all checkable in advance: **frequent condensation on the glazing**, **plants standing on the sill**, and **rain ingress through an open window.** The stated decision procedure is to establish how much water contact the sill will actually get **before** agreeing to delete the lip.
+- **⚠️ This is the second, independent argument against the flush/minimalist sill on this page, and the two compound rather than overlap.** The block above makes it a **wall-flatness** purchase — delete the projection and you need a perfectly straight wall or you get «морковка». This source makes it a **water-management** decision — delete the projection and you lose the drip break regardless of how flat the wall is. A flush sill therefore has to clear both gates, and the condensation trigger named here is the same failure the radiator-perforation rule two blocks above is designed against, reached from the opposite end of the sill.
+- Note the vocabulary collision worth not tripping over later: the **проушины/"ears"** corrected in the myth block above are a different feature entirely (the наличник's base, and genuinely unnecessary in a modern interior) — the капинос is not decorative and does not become redundant in a modern interior.
+
+`single-account`, `unverified` as a claim, though the mechanism is ordinary building physics. [source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ## Insulated Sandwich-Panel Slopes — Requirements and Sequence
 
 ### Five Requirements for a Correct Insulated (Sandwich-Panel) Slope

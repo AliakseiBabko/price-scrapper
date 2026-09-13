@@ -352,6 +352,17 @@ The same practitioner, four years later, on the material he rates as the durabil
 [source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
 
 
+### ⚠️ "Dark Hides Dirt" Is Backwards — a Third Voice, and the Remedy Is a Compound Shade (PRIDE / Алёна, 2026-09-06)
+
+**The belief that a dark floor is more forgiving than a light one is stated here as simply false**: on graphite or near-black flooring, dust, hair, pet fur, crumbs and **light-coloured streaks** are immediately visible, and in daily life the result is often worse than white. Gloss compounds it independently — the reflected light makes footprints, drips and post-cleaning streaks *more* conspicuous, not less.
+
+- **Named worst rooms for the dark/glossy combination: прихожая (entrance hall), кухня (kitchen), ванная комната (bathroom)** — the three highest-traffic wet and dirty zones.
+- **Stated remedy, and the part worth carrying: matte plus a "сложный оттенок" — a compound, broken shade rather than a flat one.** Named examples are a dark grey ("тёмный грей"), a light stone tone, and a natural-oak tone. The mechanism is that a compound undertone camouflages what neither a flat dark nor a flat white can.
+- **This is the third independent arrival at the same conclusion on this page**, and the framings are complementary rather than repetitive: Игорь Краснов rejects glossy tile and grey on aesthetic and dating grounds (§ Five Worst Flooring Choices), Александр Синчуков derives it from his visible-dirt criterion — choose by how visible dirt is, not by how clean the surface stays (§ Bevelled Board Edges) — and this source arrives at the same place from the opposite direction, by correcting the popular belief head-on. `single-account` as stated, `corroborated` as a position.
+
+[source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
+
 ## The laminate and quartz-vinyl deep dives — moved to their own page
 
 See **[[13_Surfaces_and_Finishes/analysis/Laminate_and_Quartz_Vinyl_Deep_Dive|Laminate and Quartz-Vinyl — Composition, Locks and Selection]]**. This page keeps the cross-material comparisons, the buying-sequence and dispute cases, and the designer-level rankings that place those two families against everything else.

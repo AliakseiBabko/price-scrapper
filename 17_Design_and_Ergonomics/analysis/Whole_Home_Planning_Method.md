@@ -227,6 +227,23 @@ A suspiciously large developer discount on a unit often signals either a bad flo
 
 If a specific corner in a floor plan will predictably get bumped by foot traffic or kids running past, that's a signal the floor plan or furniture placement itself needs rethinking, not a signal to add a plastic corner guard as a patch — see [[07_Bathroom/analysis/Tile_Installation_Sequencing_and_Acceptance|Tile Installation, Sequencing & Acceptance]] for the companion 45°-mitred-corner tile-quality standard this framing accompanies. `single-account`, `unverified`. [source: [[_Sources/YT_w2T9_14Y9KQ_krasnov_10things_get_rid_of|w2T9_14Y9KQ]]]
 
+## ⚠️ The Four Variables a Render Does Not Carry — a Test for Any Contested Design Decision (PRIDE / Алёна, 2026-09-06)
+
+**Stated as the generalisation behind a thirteen-item critique of design-project choices that fail in daily use, and it is the reusable part of that source.** The claim is that **none of those solutions is bad in itself**: "проблемы всегда начинаются тогда, когда красивую идею просто переносят из проекта в реальную квартиру" — the failure mode is transplanting an idea from a project into a real flat **without accounting for four specific variables**, none of which a visualisation carries:
+
+1. **Floor area** — the size the idea will actually sit in, as against the one it was drawn in.
+2. **The household's own habits** — how much they cook, whether there are small children or pets, how the room is really used.
+3. **Maintenance burden** — what keeping it looking like the render will cost in effort, and how often.
+4. **Technical details** — access to concealed services, replaceability of components, substrate flatness, water contact.
+
+**Stated evaluation test: judge a contested decision not by the picture but by how convenient it will be to live with in your specific case.**
+
+- **⚠️ Why this is worth holding as a checklist rather than a platitude: the four variables are exactly what this page's existing method already elicits, and the source arrives at them from the failure side.** The verb-list method establishes habits; the Neufert correction and the room-shape material establish area and geometry; the maintenance and technical legs are the two this page's planning method touches least, and they are where the source's own thirteen cases concentrate. **Applied against a design project, this reads as: for each decision the designer has proposed, name which of the four you have actually checked.**
+- The source's own worked instances are routed to the pages where each bites — the downdraft hood on [[15_Appliances/analysis/Kitchen_Hood_Analysis|Kitchen Hood Analysis]], the TV-wall slab on [[13_Surfaces_and_Finishes/analysis/Decorative_and_Specialty_Wall_Finishes|Decorative and Specialty Wall Finishes]], the mixer geometry on [[07_Bathroom/analysis/Fixtures_Mixers_and_Sinks|Fixtures, Mixers and Sinks]], and the rest per the source note.
+- Compare this page's existing **context-sensitivity test for a template design** (Краснов) — the same objection to a portable solution, framed as a property of the design rather than as a question the client should ask. `single-account`.
+
+[source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ## Replanning cases, legality and layout selection — moved to their own page
 
 See **[[17_Design_and_Ergonomics/analysis/Replanning_Cases_and_Layout_Selection|Replanning — a Worked Case, Legality, and Which Layouts to Avoid]]**. This page keeps the planning *method* — the standing principles, the zone hierarchy, the verb list and the Neufert correction, and what zoning actually means.
