@@ -1,0 +1,295 @@
+Welcome back! This is part 2 of a 3-part 
+Floor Plan Series. In this video we'll   be adding windows, doors and furnishings 
+to the house that we did in part 1. I'm   Dude Blender and let's jump right in.
+Let's begin with the doors. We'll use   a free add-on called Archimesh. It comes with 
+Blender, so go to Edit >> Preferences >> Add-ons   and search here for Archimesh. Click here if it's 
+not enabled and close this. Make sure that you're   in Object Mode and press N to show the side panel 
+if it's not visible, and you'll see this Create   tab. If we click on it, you'll see Archimesh 
+here, that's where it lives. If we expand it,   you'll see all of the stuff that we can use. 
+What I like to use here are the doors and the   rail windows which double as sliding doors.
+Alright, let's add the doors first. I'm going   to hide the floor and the background. Now whenever 
+you click on any of the buttons, that object will   appear on the 3D cursor, so make sure that it's 
+actually sitting on the ground plane and that it's   not too far away from the house so that you won't 
+be needing to zoom out and get the object to bring   it in. I'm going to shift + right click here 
+to bring the 3D cursor closer to the house and   you'll see that it's floating and it's something 
+that we don't want. So, we can go here to View,   if this is not expanded, just click on it, 
+3D Cursor, and we have the information of the   cursor here. We can just change the Z to 0. That 
+way we make sure that it's on the ground plane.   You could also just move the cursor to the 
+origin by pressing Shift + S which gives you   this menu. And all of these four items move the 
+cursor, so we can move the cursor to World Origin   and you'll see that X, Y and Z are all 0 now.
+Alright, let's go back to Create >> Archimesh and   add our first door. Depending on your preference, 
+you might want to do this in Wireframe mode,   so Z to bring up this menu and you can go here 
+to Wireframe. Also note that in these menus it's   faster if you just press and hold the key, in 
+this case Z. Now move the mouse and highlight   whatever option you want and then just release 
+the Z button. That way you don't actually need   to click the mouse. It's a tiny thing but we do 
+this hundreds of times so it adds up. And if you   don't remember the shortcut Z, you always have 
+these buttons visible to change the shading mode.  Alright, let's click on Door. And now as 
+mentioned, the door appears on the 3D cursor.   Also, a new panel appears here with the door 
+properties. And note that the properties of   the door only appear if you have the frame of 
+the door selected. If you select anything else,   it disappears. Here you can change the dimensions 
+of the door, the rotation, the open side, right,   left or both, and the model of the door and 
+the handle. You can also see in the Outliner   that it actually creates a door group with 
+an Empty as the parent. If you expand it,   you'll see a CTRL_Baseboard which is useless 
+for us, a CTRL_Hole which we'll use later on to   carve out the hole in the walls for the door 
+to be, and the door frame, which itself has   the handles parented to it. You can actually 
+select the door, I'm gonna go to Solid Mode,   and rotate the door with R to open it and this is 
+useful to show in our floor plan the direction to   where the door opens. Another thing is that with 
+the door selected, if we go to the item tab,   you'll see that the rotation X and Y are locked, 
+so you can only rotate it in Z. So, you don't need   to worry that the door will rotate in a weird way. 
+Okay, this door is gonna be our main entrance,   so I'm gonna go back here. I'll change the model 
+to 5, open both sides and handle to 4. Remember   that at any point you can press N to hide or show 
+this panel. Now to actually move the door, you   need to select its Empty. Now most of the other 
+parts of the door are locked, so you cannot move   them. But for example, the handles, you could and 
+you don't want that. So, to move the whole thing,   you always have to select the Empty.
+Okay, let's go to top view, we go back   to wireframe, I have the Empty selected. Now I 
+can grab it with G, just place it here. Now you   don't really need to be super precise on the 
+location, I just use the handles as reference   and this is the wall. You can barely see the 
+orange line and I just make sure that the   handles are outside of the walls a little bit for 
+the door to be kind of on the center of the wall.  Okay, I'm gonna show you how we'll make the 
+holes in the walls with this one and then for   the rest we'll just do them all at the same 
+time. We're gonna use a Boolean modifier. So,   select the walls and go to the modifier stack. 
+Click on Add Modifier and start typing “Boolean”,   Enter. We can collapse the Solidify because 
+we don't need to change anything. And on our   Boolean modifier, we're going to change the 
+Operand Type from Object to Collection. And   before we do anything else, we're going to save 
+our work with ctrl + S. Boolean operations tend   to increase the chance of Blender crashing, so 
+save often and make sure that your Autosave is   on in Edit >> Preferences >> Save & Load >> 
+Autosave. Two minutes should be good enough.   And if or when Blender crashes, you'll be able 
+to find temporary save files on your temp folder,   which you can access by pressing window + R and 
+typing %temp%, Enter. Then you would just search   for the name of your file, in this case, “fptut”. 
+And then you would open the most recent file. You   can also change the folder to where the Autosave 
+files are stored in File Paths >> Temporary Files.  Now back to our modifier. The idea is that any 
+objects that are in this collection that we will   create in a second, will be subtracted from the 
+wall's geometry. Make sure that “Difference” is   selected here. Now select the CTRL_Hole of this 
+door. And if I move it, you'll see that it's   a box shape, which is perfect to be used as a 
+boolean cutter. The more complex the geometry   of the cutter, the higher the chance that we're 
+going to crash Blender, so this is actually the   best geometry that we can use. Press M and we're 
+gonna create a new collection, call it "cutters".   Now select the walls again and in the Boolean 
+modifier, click on Collection and select Cutters.   And now there's a hole in the walls for the door.
+We don't need to do this one by one, so let's just   add the rest of the doors. We need one, two more 
+doors. Let's add a new one, select the Empty, move   it into place. Place it roughly on the center of 
+the opening of the wall on the plan. Let's select   the frame. We'll change the width to let's say 
+0.8. We'll just move it a little bit more. There.   The open side also looks good. Now let's duplicate 
+this door by double clicking on the door group to   select everything that's within this hierarchy. 
+That's a function that they added I think in 4.2,   it's relatively new, so if you don't have it, you 
+would need to select everything in the outliner.   So, shift + D to duplicate it and we'll place 
+it here. Just fine tune the placement. Now let's   place these three sliding doors. I'm going to 
+use rail windows for this. So, let's go ahead   and place one. I'm going to change the height to 
+2.1. Let's remove the sill and that looks good.  Now one more thing here. These are going to 
+be the bathroom doors and we might not want   them to be transparent. So, I'm going to 
+quickly go to the world properties here,   change Color to Sky Texture. Nishita is okay. Sun 
+elevation I'm going to change to zero and I just   want to have a little bit of light. Now Z, let's 
+go to rendered view. I just want to be able to see   how transparent is this material. No respectable 
+person is going to have a bathroom door that is   this transparent. So, let's just select it and 
+let's go ahead and go to the shading workspace.   We're going to go here to materials and we can 
+confirm that we actually have the Glass_material   selected. This is the default material that 
+the Archimesh add-on is placing on the windows.  Let's go to the Rendered shading 
+here as well. We're just going to   delete all of this. Everything except the 
+Principled BSDF and the Material Output.   So, with everything selected we press X. Most 
+of the shortcuts work everywhere in Blender,   so X and it deletes everything and we're just 
+going to connect this directly to the Material   Output. And now, we still want glass, we 
+just don't want it to be so transparent,   so we can expand here on Transmission and 
+increase the Weight to 1. And that's really   all we need. We just don't want to be able to 
+recognize what's on the other side of the door.  All right. Let's go back to our layout workspace 
+and Z >> Wireframe. Again, we select the Empty   and we move the door in place. Now again we 
+select the frame of the window and rotate it by   90 degrees. I like to use this lip here to guide 
+the placement of the door. Place it in the middle.   Let me select the frame again. Let's increase 
+the Width to 1.4. That looks good. And again,   let's duplicate this thing because it has the 
+exact same dimensions that this other door has,   so we just place it there. And we've got one more 
+here, so duplicate either of these, shift + D and   let's place it here. Select the frame. We don't 
+need the rotation, so a quick trick that you can   use in most places in Blender is that if you 
+want to reset a field to the default value, we   could just hover over the field with the mouse and 
+press Backspace. Let's grab it and place it here.   And this one seems to be a little wider, so 1.5. 
+Let's do 1.6. Now all of the doors are in place.   I'm going to go to solid view. And now to make 
+all of the holes at once, go to Select >> Select   Pattern. The asterisk is a wildcard. And 
+now we want to select every object that   has the word “hole” in its name. So, we can just 
+type *hole*, Enter, and everything is selected.  Now one thing that's important here, if before 
+doing that you have already something else   selected and then you go Select >> Select pattern 
+and do that, you'll add all of those objects to   the preview selection. So, make sure that before 
+doing that you have nothing selected. You might   move objects that you didn't want to, to the 
+cutters collection. And if you don't notice   that you did that, it might cause trouble later 
+that you will have no idea why that happened. So,   what I do is select everything with A, then 
+deselect everything with A A, and then I do   the Select Pattern. Now Enter. And the idea is 
+that I only have all of the CTRL_holes selected.   Now we press M to Move to Collection, move all 
+of them to cutters at the same time. Okay, you   still want to rotate and make sure that everything 
+is looking good before moving to the next step.  Remember to save constantly with control + 
+S. Okay, looks good, but we actually need   two more doors for the closets. So, to make it 
+simple, I'm just going to duplicate this one,   shift + D and place it there. Duplicate it again. 
+I place it here. I'm just going to rotate it right   here. Okay, select the frame. Rotate nothing and 
+just place it there. We can actually change this   to 1.5. Let's just make sure that everything is 
+in place. Okay, something that might happen and   I'm not really sure why it does or what I did 
+wrong, but I duplicated this window group to   place it here, right? So, this door or window is 
+this group. Now for some reason it is possible,   and it's happened to me a couple of times, that 
+I'm going to expand this and this. You'll see   that this window group, the new one that I 
+duplicated has its CTRL hole, but this one,   the one I duplicated doesn't and I'm really not 
+sure where it went or why it disappeared. So,   what I do here is just select it by double 
+clicking on it, deleting the whole thing   and then just duplicating a new one. And now 
+you'll see that it has the CTRL hole. Now we   can just select the cutters manually. This one 
+and shift + click on this one and move those   to the cutters collection. And that looks good.
+Okay, windows is a similar thing, but we want to   create them at some height, not on the floor. 
+So, open the side panel, go to View and change   the 3D cursor location Z to whatever height you 
+want. I'm just going to type 1 m. That's where   the new windows will be placed. Now let's go back 
+here to Archimesh and click on rail window. You   also have panel windows. I don't like them, so 
+I always use rail windows. All right, Top view,   Wireframe, select this, select the Empty. Now 
+sometimes because the floor plan is underneath,   it's difficult to select the empties. You need to 
+be very precise on your click. So, this is a nice   trick that you can use. We can make any object 
+unselectable and that way you won't be able   to select it in the 3D viewport, but you will be 
+able to select it in the outliner. Now to do that,   we need to show that function. You go here to the 
+filters and enable this, which is the Selectable.   Now you'll see it here. So whatever object we want 
+to make unselectable, like our floor plan, we just   click on the icon. And now we cannot select the 
+floor plan so, it will be easier to select the   empties. All right, we have it selected, G, let's 
+move it here. Now the windows, I'm going to move   it here so that you can see it better. They also 
+have this lip and that's what I use to align it   to the walls. This lip should go on the inside 
+of the wall. So, let's select the frame again,   rotate 180. Then I'll just select the Empty and 
+just move it into place. Select the frame. We're   going to change this to 1, I think. Looks good. 
+Let's go ahead and duplicate that. Constrain the   movement to X. This looks like a 2 m window. 
+Excellent. Duplicate that again. Shift + D.  Now note that the Archimesh tool does not allow 
+us to input negative numbers here in the rotation,   so if we want to rotate it in a way that this 
+side is on the inside, we just type 270. And   now this little lip is on the inside of the 
+house. And the only reason why the windows   have an inside and an outside is that the inside 
+has these handles and the outside doesn't. So,   we select that, move it here. Change the size to 
+something like 0.6 maybe. Perfect. Duplicate, Y,   into place. There we go. Duplicate that. Y. And 
+we just continue placing all of our windows. One   more in the bathroom. Okay, there we go.
+One final note that is kind of important.   Whenever you place objects on your scene, they 
+are placed in the active collection. If you   look at the outliner, you'll see that there's a 
+Scene collection, and inside it, there is this   collection that is just called Collection. And 
+then we have the collection of the cutters that   we created. Now if you by accident or for some 
+reason selected the Scene collection, and then   we place a new window, you probably won't notice 
+because you're working here, moving it into place   and all that stuff. And you probably won't notice 
+that it's actually outside of this collection   where we have everything else. Now this is not a 
+huge deal. And you can say, well, I'm just gonna   drag it and drop it to the correct collection. 
+Then you'll see that this happens because the   children are not moved by default with the parent. 
+So, then you say, okay, I'm gonna select these two   and then move them to the right collection. But 
+then this happens again because you have to move   the children again. And then that happens. So, 
+whenever you move it, just make sure that you have   everything selected. You can just double click it 
+on the outliner in blender 4.2 or 3, I think. And   then drag and drop it to the right collection.
+The biggest problem would be if you select the   Cutters collection and then add stuff here because 
+everything that's inside here, remember, is being   used by the Boolean modifier of the walls. So 
+keep that in mind because in some circumstances,   it can cause a little bit of trouble.
+Let's delete that. So again, make sure   that you have nothing selected. Select Pattern 
+and move those to Cutters. And now let's make   sure that all of our windows and doors are working 
+properly. Okay, I think it looks good. Ctrl + S,   remember to always save. Now if at this 
+point there's something that's not working,   there are a few things that might have happened, 
+but the two most common are: some cutter got lost,   so make sure that every door and every window 
+has a cutter. If that is the case, then the next   thing that you might want to check is expand the 
+cutters collection and make sure that everything   inside this collection is a CTRL_Hole. If there's 
+anything else in this collection, move it out.  Now let's furnish the house, which is actually 
+quite fun. So, we need to get the furniture   models, which you have a few ways to get. Of 
+course, you can model them yourself, which   I definitely don't recommend. It will take you a 
+while. The second one is getting individual assets   from Blender Kit, Fab, Turbosquid, Blendswap, CG 
+Trader or any other marketplace or Poliigon, which   sells proprietary assets that are extremely high 
+quality, which you would expect from a company   owned by Andrew Price, the Blender Guru. In all of 
+these sites, there are free and paid assets. Well,   except Blendswap because everything is free. 
+And if you have the cash, you'll find literally   anything that you need. And if you don't have 
+the cash, you'll still mostly find what you need,   although you might not get the commercial license 
+so you cannot make money with them. Also, some   of these libraries have add-ons that allow you to 
+open the library and download directly in Blender,   which is a huge time saver. I use both Blender Kit 
+and Poliigon add-ons. Now keep one thing in mind.   Most of these options are usually heavy assets, 
+high poly-count and high resolution textures,   which might slow down your computer and increase 
+the render times substantially. You also need to   be connected to the internet and wait for them 
+to download. That is a problem. So, to fix it,   I actually made a starter kit with 50 assets – 
+and I add new stuff every year – that you can get   on my gum road. Now the idea with these is that 
+everything is modeled with very few polygons to   keep the working files super responsive. And all 
+of the materials are procedural, so no external   heavy texture files. It all works out of the box. 
+And they also reuse the same materials in a way   that they look good with each other, so you don't 
+need to spend time finding models that have styles   that work together. These all look good with 
+each other. It's also a very light 9MB download,   so you can use them offline and as long as 
+you don't resell the assets or give them away,   which would not be cool, you can pretty much do 
+whatever you want, even commercial projects with   them, so you don't need to worry about license. 
+It's 15 bucks, so you're getting each asset for   30 cents and lifetime access to download any 
+new models that I might add to the bundle in   the future. The link is in the description.
+So that's what I'm going to be using to   furnish the plan, but I'll also show 
+you the Blender Kit add-on. Alright,   so if you do download my starter kit, first of 
+all, thank you, you just need to save the Blender   file that you will download in your hard drive. 
+Then you go to Edit >> Preferences >> File Paths   and Asset Libraries. I have it here, so I'm just 
+going to show you how you would do it. You click   on the Add Asset Library button and then you 
+just select the folder where the file is. So,   mine is here in StarterKit, Add Asset Library. 
+By default, it takes the name of the folder,   but you can just rename it to whatever you want. 
+Then we'll leave it as StarterKit. So, there's a   path and you can change the default Import Method. 
+If you're starting or if you're like me and forget   to change settings when you need to, you should 
+leave this in Append and we'll see why in a little   bit. You can close this and I'm going to change 
+the Timeline to an Asset Browser. Now let's make   this bigger. Here you can select which library of 
+the ones you have created you're going to use. So,   I'm going to click here and select StarterKit, 
+the one I just created a while ago. And you'll   find all of the assets right here. So that's 
+all the setup that you need. The icon on the   bottom left corner of the thumbnail indicates 
+if it's a model or a material. To use them,   you just drag and drop them into your scene.
+And remember what I mentioned before,   whenever you drag it, it's going to go into the 
+active collection, so let's see where it is. So,   in this case, it added it to the Cutters 
+collection. So that's actually the worst-case   scenario. Let me just drag it out and place it in 
+the right collection. Now to keep everything tidy,   we could actually add a new collection and call 
+it Furniture. And then we can just make this   collection the active one. And now whatever 
+objects we put into the scene, will go to the   furniture collection. Now if we zoom into the 
+toilet, you'll see that it's floating. That's   because we left the 3D cursor here. So, we just 
+go ahead and shift + S >> Cursor to World Origin.   And for the toilet, I'm just going to open the 
+side panel >> Item >> Location and Z to 0. All   right. Now I'm going to turn on the Statistics 
+Overlay so that we can see the amount of geometry   that this has. And we can see that this toilet 
+has less than 500 faces. And the reason for that   is that it uses a Subdivision Modifier. So, in 
+the viewport, you don't have the subdivisions.   You'll only have them in the render, so the idea 
+is that the file that you work with uses as little   geometry as possible so that you can work faster. 
+And once you render, it will look good. So, the   modifier on this model is turned off by default. 
+Let's turn it on here. I'm going to increase   this to 3 so that you can see how it will look 
+in the render. So, in the render, it looks good,   but now we can see that the number of faces 
+is very high. That’s why we turn it off in   the viewport because we don't need this level 
+of detail. Now let me enable Blender Kit. Let's   go to Preferences >> Add-ons, BlenderKit Online 
+Asset Library. Okay, we enable that and close it.  You'll see that we have it here. In the 
+same way we can search for, let's say,   toilet. And we've got a bunch of models. 
+The ones that have a lock are for the paid   version. You need to subscribe to be able to 
+use them. And the subscription, I think it's   like five bucks a month, it's not expensive. But 
+you can filter here Free First. And now we got a   bunch of toilets. So let me just drag and drop 
+any toilet. And you'll see that it downloads it   here. Close this. And if I select this toilet, 
+you'll see that it has a huge number of faces.   And that's only this part of the toilet. 
+The lid has a bunch more faces. And again,   it has an Empty, so you need to grab the 
+Empty to be able to move the toilet. I   want to delete this. I don't need it for now.
+So, let's do this to show you how fast it is   using this kit. So, let's begin with the bedroom. 
+We can click on this search box and just type   “bed”. Got it here. Drag it. Drop it. And place 
+it. Then let's add a couple of night stands.   That's it. Drag it here. And drag it here. Okay. 
+And that looks good. And now you’ll see here,   this is actually another reason why I prefer 
+mine. I deleted the toilet that I got from   Blender Kit. But I didn't delete the collection. 
+So just make sure that when you delete something,   you delete everything. And I placed the bed and 
+the nightstands inside that collection. So yeah,   make sure that you don't leave stuff behind. I 
+can just delete the collection. And you should   note that deleting the collection doesn't delete 
+the objects that are inside that collection.  Okay. So now we have the active collection, so 
+let's continue. Now all the closets built in,   so we don't need to add one. Let's go to the 
+bathroom or let's furnish the bathroom. Toilet.   We move that in here. Move it there. Let's add a 
+tub. There you go. Rotate, 90. And note that the   models that are on the starter kit have real life 
+dimensions. So, for example, toilet, you might   not want to scale it down because then that will 
+not be realistic. But tubs have different sizes,   so this one you can no problem scale it up 
+a little bit or down. And that's okay. Sink,   let's drag and drop that here. Rotate 180. And 
+now another cool thing about using assets that   are low-poly. For example, in this case where 
+we need to fill this space, we can edit these   models very easily. So, we tap into edit mode. I'm 
+going to select the faucet with L, the actual sink   and this part. I'm going to hide it with H. Go to 
+top view. X-ray mode. I want to select vertices,   so 1. I'm going to grab all of these. G, X. All of 
+these, G, X. All those, G, Y. Like there. That, G,   Y, there. We unhide with Alt + H. And we select 
+this. And we just place it, you know, wherever we   want. Maybe just there. Tab and there we have it.
+So, the idea is you want to be as fast and   productive as possible when doing this. Let's add 
+dryer. Bring it in. And washing machine. Let's   bring that in too. Okay. Rotate 90 minus. Place 
+it here. Same thing. And there you go. All right,   fridge. If you search for refrigerator, you 
+won't find it. I named it fridge. Okay. In.   Okay. Place it here. Stove, in. And sink. We 
+have kitchen sink L for large and S for small.   This one is large. So that. And we rotate it. 
+Yep. Looking good. And now we need these cabinets.  So, I mentioned before that you can use a 
+different Import Method. Here you can change   it. You can leave it in Follow Preferences, 
+and then it will just do what you told it to.   But you can override it here. Append or Append 
+(Reuse Data). So, Link you, you pretty much never   want to use. You'll see that if I import it, it 
+doesn't allow me to place it wherever I want. And   the idea is that it just gets the object from the 
+position that it is on the original file. So that   really doesn't make any sense here. If you use 
+Append, look at the faces. So, this number 1,380   are the faces of this object. And this bigger 
+number are the faces of the whole scene. So,   we've got 385,087 faces. If I add a chair, 
+that number increases slightly because again,   these are low poly models. If I add another chair, 
+it increases again because it's adding a new model   with its own data. But if I change this to Append 
+(Reuse Data), and then I add for example a coffee   table here. We are in 386,203. If now I add a 
+second table, you'll see that it doesn't add more   faces. And in fact, I have this one selected and 
+here we have 0 faces. And I can add another coffee   table again and it doesn't add data. We're just 
+reusing the data of the first model that we added.  Let's say I wanted to modify this chair. I do 
+that. Alright, we have a different chair. If   I do this with the table, you'll see that all 
+the tables are modified. That's because we're   using the same data. So, for example, I modified 
+this sink. If I were using the Reuse Data, then   every other sink that I added would have these 
+dimensions. And that's not necessarily what you   want. You want to be flexible and be able to edit 
+stuff. So that's why in general, we use Append.  Alright, so cabinets. So, for example, I'm gonna 
+have to modify this. But then I'm gonna add it   again and I'm gonna modify it again. So yeah, in 
+this case, it's better to Append. I'm gonna use   this one, 180, modify this again and one more. 
+So, we have the island. And finally, the living   room. I named the sofas “couches”, so let's add 
+this. I'm going to add probably an individual one,   something like that. Maybe that's enough. Maybe a 
+coffee table here. And let's add a console. Place   it here and a TV on top of the console. Okay, 
+looking good. Save your work. And we are done   with this part. So let me give it a quick render 
+to see how it looks. It's looking great. We are   well on our way, we just need to add the floor 
+and wall materials and light the scene to make   our final render. And we're gonna do that in 
+the next and final part. I'll see you there.

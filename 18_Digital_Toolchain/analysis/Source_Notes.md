@@ -146,3 +146,15 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 | [`YT_jTL3a6QwckA`](../../_Sources/YT_jTL3a6QwckA_ifcarchitect_custom_wall_type.md) | **⚠️⚠️ CORRECTION: the library does NOT quantise** — an exact 220 type takes five minutes; thickness is a type property and geometry follows it; `IfcMaterialLayerSet` for layered build-ups | 7 |
 
 **Round yield**: 8 videos, **89 new facts, yield = 11.1** per video — **the second-highest of any round in this folder** (5.1 / 7.0 / 11.8 / 7.4 / 11.1). ⚠️ **And the same caveat as the 11.8 round applies: the highest yields come from the most concentrated sources.** The number measures how much one voice said that was new to us, not how well-evidenced any of it is.
+
+## Dude Blender floor-plan series (2026-09-13)
+
+**Three owner-supplied videos, one continuous exercise, extracted as ONE source.** All `en-orig` with **author-supplied manual English subtitles** — the best transcript quality in this folder.
+
+> **⚠️⚠️ This is the SIXTH Blender floor-plan source in the vault and the fourth in the mesh-tracing family.** The prior expectation was a fifth restatement, **and the modelling task genuinely is one.** What is not a restatement is the **geometry-integrity discipline**: this presenter states his invariants in advance, enumerates his failure modes as a debugging checklist, names where he is guessing, and reports defects he has hit before and cannot explain. **73 minutes, 29 facts, 9.7 per video against a batch norm of 7.**
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_94kAIpRnhcY`](../../_Sources/YT_94kAIpRnhcY_dudeblender_floor_plan_series.md) (+ `0JdX11vu7Zo`, `MEUsrN0V22g`) | **⚠️⚠️ Wall direction is the FACE NORMAL, with a visual gate** — blue outside, red toward the thickness; **the drawn line is a wall FACE, not a centreline**; **chain closure finds a 300 mm gap and he attributes it to wall thickness**; **the opening is fragile in BOTH families**, with the invariants stated as a checklist; **the commit point** — parametric until you bake, and *"full control at the cost of flexibility"*; **a material SLOT is the role/product split made explicit**; floor faces subdivided **by material region, not by room**; *edit one, edit all* shown to be **a property of instancing, not of BIM**; and **False Color as a measurable stand-in for an aesthetic judgement** | 29 |
+
+**Round yield**: 3 videos, **29 new facts, yield = 9.7** per video. ⚠️ **The modelling task is now thoroughly covered — further sources on "how to draw a floor plan in Blender" should be declined** unless they carry something these six do not.

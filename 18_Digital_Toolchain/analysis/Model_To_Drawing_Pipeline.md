@@ -297,6 +297,40 @@ A plain Blender cube is invisible to the section until it is given a class; **th
 
 > **→ This is a sharper distinction than any feature comparison, and it decides everything downstream.** A traced wall has no length property to schedule, no type to group by, and nothing to check against. **This project is firmly on the first side and should stay there** — our walls come from `data/canonical/`, which is the same relationship one step further back.
 
+### ⚠️⚠️ 14b. Both families lose their parameters — and our generative route escapes the trade-off entirely
+
+**The mesh route is parametric too, until you BAKE.** Before applying the `Solidify` modifier, the practitioner stops and warns:
+
+> *"Just make sure that you don't have any changes to the floor plan, because after this point… **we're now committing to this geometry**. The geometry created by the Solidify Modifier **doesn't have vertices, it is being dynamically calculated.** But after we commit, **all of this will become real geometry and there is no way back.**"*
+
+**And he must commit, because until he does, inside and outside are the same surface** — *"we would apply the same material on the outside than on the inside."* His summary: **"full control over our walls AT THE COST OF FLEXIBILITY."**
+
+> **→ ⚠️⚠️ THE SAME THEME, THIRD FORM. The BIM route stays parametric and LEAKS its associations (§2). The mesh route is parametric until you bake, and then THE PARAMETERS ARE SIMPLY GONE** — *"if we ever wanted to make the walls thicker now… we would have to move specific vertices and do each wall one by one."*
+>
+> **⚠️⚠️ OUR ROUTE HAS NEITHER PROBLEM, AND IT IS WORTH NAMING WHY.** Walls are rebuilt from `data/canonical/` on every run, **so the parameters live UPSTREAM of the geometry rather than inside a modifier stack or an element's type.** We get per-face control in the output *and* keep the parameters, because they were never in the model to begin with. **Neither hand route can have both.**
+>
+> ⚠️ **A related mesh-route limit**: one `Solidify` gives **one thickness per object** — *"there's no way to give different thicknesses to different walls"* — so a second thickness needs a second Walls object. **Against the BIM route, where thickness is a type property (§8).** This flat has several wall thicknesses.
+
+### ⚠️⚠️ 14c. The OPENING is the fragile relationship in BOTH families
+
+**In the mesh route the void is a box (`CTRL_Hole`) parented to the door, and the wall carries a Boolean pointed at a whole COLLECTION — so membership *is* the relationship.** That looks more robust than §2's `shift G`. **It is not.** The same practitioner reports three failures:
+
+1. **The cutter silently vanishes on duplicate** — *"it's happened to me a couple of times… **I'm really not sure where it went or why it disappeared**."*
+2. **Rotating a door ejects its cutter from the collection** — *"any time we change something, **we need to place our cutter back on the cutters collection**."*
+3. **Anything else dropped into that collection is subtracted from the walls**, including objects created while it happened to be active.
+
+> **→ ⚠️⚠️ BIM: the void does not follow the element. MESH: the cutter is lost, ejected, or joined by something that should not be there. In every case the wall silently has no hole — or an extra one — and the model still looks plausible.**
+>
+> **⚠️⚠️ And he states the invariants as a debugging checklist, which is a validator specification**: *"make sure that **every door and every window has a cutter**… [and] **make sure that everything inside this collection is a `CTRL_Hole`. If there's anything else in this collection, move it out.**"*
+>
+> **→ That is precisely the opening-coincidence check recorded as missing in §2 — written out by a practitioner as a troubleshooting procedure, and now a CROSS-FAMILY requirement rather than a Bonsai quirk.** [source: [[_Sources/YT_94kAIpRnhcY_dudeblender_floor_plan_series|YT_94kAIpRnhcY]]]
+
+### ⚠️ 14d. "Edit one, edit all" is a property of instanced geometry, not a BIM concept
+
+Blender's import modes carry the same distinction the BIM sources make, **with the trade-off measured**: `Append` gives each copy its own mesh data; **`Append (Reuse Data)` shares one datablock** — 386,203 faces, add a second coffee table, **count unchanged, the new object reports 0 faces** — *"but if I do this with the table, you'll see that **all the tables are modified**."* To diverge, use plain `Append`. **The same pattern appears again for materials**, which must be duplicated before one room's tile scale can differ from another's.
+
+> **→ FIFTH AND SIXTH INSTANCES OF THE THEME** (door types, materials, tags, wall types, mesh datablocks, material slots). **It is not a BIM feature — it is what instancing is — and the trade-off is finally quantified: memory and face count against editability.**
+
 ## Sources
 
 All read in full, 2026-09-13. Batch triage and channel assessment: [`bonsai_ifc_batch_20260913.md`](../../_Inbox/planning/bonsai_ifc_batch_20260913.md).

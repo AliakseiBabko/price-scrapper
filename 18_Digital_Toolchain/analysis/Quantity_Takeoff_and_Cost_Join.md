@@ -23,6 +23,38 @@ Detail page for [[18_Digital_Toolchain/Digital_Toolchain_Guide|Digital Toolchain
   **Partial, because it keys on the material rather than on a ROLE** — so it cannot express two products serving the same role, nor re-point a role at a new product while keeping history. **That gap is exactly where this project's design has to go further than the commercial tool.**
 - **⚠️ A gotcha in the length basis, and it is a familiar class of error: the tag method takes the LONGEST AXIS of the group's bounding box.** A group whose longest bounding-box edge is not the member length is mis-measured. **Same hazard `tools/layout/dxf_wall_entities.py` exists to prevent** — that reader was written because two gates each reduced a polyline to its bounding box and a triangle passed both.
 
+### ⚠️⚠️ A MATERIAL SLOT is the role/product split made explicit — the cleanest arrival yet
+
+**Added 2026-09-13.** Assigning floor finishes, a practitioner changes his mind about the palette and swaps the material *inside its slot*:
+
+> *"Now the material in this slot changes to whatever we selected, so **all of the faces that had that material assigned to it will automatically update**."*
+
+**Faces are assigned to a SLOT. The slot holds a MATERIAL. The two are separate objects.**
+
+> **→ ⚠️⚠️ THE SLOT IS A NAMED ROLE; THE MATERIAL IS THE PRODUCT CURRENTLY FILLING IT. Re-point the slot and every consumer updates, with no change to the geometry.**
+>
+> **This is the THIRD independent arrival at the `resource_role` / `product_id` split the BOM already uses** — after Quantifier Pro's material-keyed costing (above) and manufacturer IFC assets carrying product identity. **And it is the cleanest of the three, because the indirection is an explicit object rather than an implication of a shared name.**
+>
+> **⚠️⚠️ It is exactly the owner's stated PRIMARY cost requirement**: *"the floor tile in room 04"* must be re-pointable at a different product without touching the model. **Quantifier Pro keys cost on the material itself and therefore cannot express two products serving one role; a slot can.** **→ Our cost engine should carry the slot, not the material.**
+
+### ⚠️⚠️ …and the floor is subdivided by MATERIAL REGION, not by room
+
+> *"It depends if you'll want different floor materials for different rooms. **You want to make separate faces for rooms that have different materials.** And **you don't want overlapping faces**."*
+
+He merges a closet into the bedroom because the finish runs through, and declines to split the kitchen from the living room for the same reason.
+
+> **→ THE FACE TOPOLOGY IS DRIVEN BY THE FINISH SCHEDULE, NOT BY THE ROOM SCHEDULE.**
+>
+> **⚠️ Directly relevant to how our floor quantities are derived.** `data/canonical/room_rollouts.csv` is organised **per room**, but **a finish area is per material region — which may span rooms (a continuous floor through a doorway) or split one (a tiled wet zone inside a bedroom).** A closet sharing the bedroom's floor is not a separate priced line, and two rooms in the same tile are one cutting problem, not two. **→ Worth reflecting before the screed, waterproofing, skirting and cornice lines are generated.**
+>
+> ⚠️ **He then REDUCES the variety on aesthetic grounds** — *"I actually don't like how it looks now. It's way too much"* — collapsing four finishes to two. **Fewer finishes is simultaneously a design decision and a cost decision**, and it is made here purely on appearance. [source: [[_Sources/YT_94kAIpRnhcY_dudeblender_floor_plan_series|YT_94kAIpRnhcY]]]
+
+### ⚠️ A standardised fixture must not be scaled to fit
+
+> *"The models on the starter kit have **real-life dimensions**. So a **toilet**, you might not want to scale it down, because then that will not be realistic. **But tubs have different sizes**, so this one you can scale up a little or down."*
+
+> **→ A WC is effectively a fixed size; a bath is a product choice.** ⚠️ **Relevant to how our appliance and fixture data is used**: our figures come from real product listings, and **scaling a standardised fixture to make a layout work is a design error that silently invalidates the clearance it was checked against** — not a modelling shortcut.
+
 ### The cost line's fields
 
 **code · description · calculation basis · factor · unit cost · waste % · tax % · comment**

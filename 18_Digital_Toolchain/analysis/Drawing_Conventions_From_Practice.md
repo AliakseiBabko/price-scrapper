@@ -185,6 +185,24 @@ In RemPlanner, two already-placed single sockets **will not merge** when moved t
 2. **Preserve scale across the vector-to-raster boundary** — make the raster document the same dimensions and resolution as the source sheet, *"so that you don't change the scale… we want this to be up to scale at the end of the day."* **A presentation pass must not silently destroy the drawing's scale** — the same hazard §6 records from the other direction.
 3. **Place LINKED, never embedded** — edit the source, save, and the presentation updates. **A presentation is a VIEW of the drawing, not a copy of it**, which is the single-source principle at the one layer where a copy is most tempting. [source: [[_Sources/YT_YkHGQPfZEgM_upstairs_plan_presentation_technique|YT_YkHGQPfZEgM]]]
 
+#### ⚠️⚠️ …and a fourth, from the other direction: a presentation pass also ADDS what the render destroyed
+
+**Rule 2 above says a presentation pass must not silently destroy the drawing's scale. A rendering source supplies the inverse: a photoreal view loses the EDGES a drawing depends on, and they have to be put back.**
+
+He enables outline strokes over the walls, and the reason is legibility, not style:
+
+> *"Sometimes **there is not enough contrast** between, say, a wall and the wall that's behind it, or even the background… in order to **make it easier to know where the wall edges are**."*
+
+> **→ A RENDER IS NOT AUTOMATICALLY LEGIBLE. Photoreal shading can leave two surfaces indistinguishable where a line would have separated them.** ⚠️ Cost measured: render time **under 10 s → ~37 s**. **Relevant if the owner ever wants presentable views** — the 2026-09-08 research advised outsourcing renders, and nothing here reopens that, **but a render that cannot be read is not a cheaper drawing.**
+
+#### ⚠️⚠️ And the transferable METHOD from that source: make the subjective thing measurable before tuning it
+
+To set lighting, he switches the view transform from `AgX` to **`False Color`** — *"a sort of exposure heat map"*, **red = overexposed, blue = underexposed** — tunes the light numerically against it (1500 → 1000 → 1250 → 1150), then switches back.
+
+> **→ ⚠️⚠️ HE REPLACES AN AESTHETIC JUDGEMENT WITH A THRESHOLDED READOUT, TUNES AGAINST THE READOUT, AND THEN LOOKS AGAIN.** That is the same move as every gate in this repo, applied to a task nobody would think to measure.
+>
+> ⚠️ **And he is explicit that the readout is not a pass/fail**: *"you might want to have some red part"*, and a TV screen always reads blue. **A measurement that informs a judgement, not one that replaces it** — which is the honest version of the pattern. **The technique is archviz; the principle is general and is the most transferable thing in that source.** [source: [[_Sources/YT_94kAIpRnhcY_dudeblender_floor_plan_series|YT_94kAIpRnhcY]]]
+
 ### A sheet may legitimately be blank, and the album should say so
 
 Both of Дмитрий's walkthroughs carry a **near-empty демонтажный план** — there is no перепланировка, so nothing is notated beyond old radiators — and in both he **explains why rather than dropping the sheet.** Deliverable-set discipline: an absent sheet is ambiguous, a blank sheet with a reason is not.

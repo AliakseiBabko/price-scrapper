@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=MEUsrN0V22g",
+  "video_id": "MEUsrN0V22g",
+  "language": "en",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T21:46:29.804075+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "aa7ec3acf343c819c13466123e45846002e8a8839979aadb36af3caf763ae141",
+  "attempts_before_success": []
+}
