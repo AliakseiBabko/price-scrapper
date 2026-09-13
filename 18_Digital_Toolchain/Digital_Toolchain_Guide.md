@@ -28,6 +28,12 @@ Why a PDF drawing set is a bad input to a language model, what measurably fixes 
 
 → **[[18_Digital_Toolchain/analysis/AI_Reading_Construction_Drawings|AI Reading Construction Drawings]]** — **the tiling mechanism** (a drawing ≈ 4,000 tokens, and the meaning lives in features smaller than a tile); two vendors' own published limits, both naming **counting**; **a measured benchmark** — 86% / 98% / 100% accuracy at 104,000 / 66,000 / 1,400 tokens; **index by the physical object, not by the sheet**; per-measurement confidence tiers; **counting from vector data is reliable and scaling a raster is not**; and the order-of-magnitude cross-check that independently restates standing rule 9.
 
+### Quantity take-off, and the cost join
+
+How a quantity gets out of a model and becomes a priced line — **the one genuinely absent tool in this project's own toolchain.**
+
+→ **[[18_Digital_Toolchain/analysis/Quantity_Takeoff_and_Cost_Join|Quantity Take-Off and the Cost Join]]** — **where a cost attaches** (tag, material, object) and what each choice re-prices; the cost line's fields, with **waste and tax as first-class**; **waste is not one number** — nest linear stock and the percentage collapses, tile needs one; the **cable/containment cardinality split** that `ELE-01` needs; and the three independent arrivals at **a cost model earning its keep by killing a bad option early, not by being precise**.
+
 ### Concept and visualisation
 
 Generating layout concepts and interior imagery, and what the output may safely be used for.

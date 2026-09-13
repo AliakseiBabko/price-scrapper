@@ -106,6 +106,25 @@ In RemPlanner, two already-placed single sockets **will not merge** when moved t
 
 **→ Working view ≠ issued sheet. The same geometry, two layer states.** Our pipeline currently has one.
 
+### ⚠️⚠️ Layer along the seam where responsibility changes hands (Стройплощадка, 2025-03-27)
+
+**A second, independent instance of the rule above — and it generalises it.** An electrical design-and-assembly shop separates **обвязка щита (workshop wiring)** from **подключение (on-site connection)** into distinct layers, for an organisational reason rather than a graphical one: **panels are built in their workshop and connected on site, often by electricians in other cities who ordered the panel remotely.** Toggling shows either what the shop must wire, or what happens on the object. Line-type layers also separate L2, L3 and low-voltage 24 V runs.
+
+> **→ Layer a drawing along the seam where responsibility changes hands. The seam is where errors happen, and a layer toggle makes each party's scope explicit without producing two drawings that can drift apart.**
+
+**⚠️ And the same source shows the mechanism that keeps a schedule honest: the label carries the data.** Terminals carry stickers assigning a number and a group, and the terminal then remembers its marking, article number and function. A purpose-built cable-log sticker is attached to a terminal; **you choose only the conductor, and it inherits everything else from the terminal it is stuck to** — including the connection point. Copying it across terminals **assembles the cable log, which is then generated as a document.**
+
+- **The principle: the annotation object carries the data, and the schedule is GENERATED from the drawing rather than maintained beside it** — which removes the commonest failure in services documentation, a cable log and a panel drawing that disagree because someone updated one.
+- **⚠️ This project's direction is the stronger one and it is worth being precise about why.** They attach data to drawing objects and harvest a schedule; **this project generates the drawings FROM `data/canonical/`.** Both eliminate the two-copies problem — **but with the drawing as master there is nothing to check the drawing against, so there can be no equivalent of `check_dxf_closure.py`.** [source: [[_Sources/YT_PVXE79HM0-c_stroyploshchadka_panel_design_toolchain|YT_PVXE79HM0-c]]]
+
+### ⚠️ Three rules for a presentation pass that does not corrupt the drawing (Upstairs, 2026)
+
+**From an architectural-presentation tutorial whose styling recipe is deliberately not routed** — this project's sheets are a working deliverable, not a portfolio piece. **Three workflow rules do transfer, and all three are about keeping a rendered view honest:**
+
+1. **Export the CUT ELEMENTS as their own file.** The walls — everything the section plane cuts — must come out separately from the complete plan, because the cut layer is what carries depth. **A requirement on the EXPORT step, upstream of any styling.**
+2. **Preserve scale across the vector-to-raster boundary** — make the raster document the same dimensions and resolution as the source sheet, *"so that you don't change the scale… we want this to be up to scale at the end of the day."* **A presentation pass must not silently destroy the drawing's scale** — the same hazard §6 records from the other direction.
+3. **Place LINKED, never embedded** — edit the source, save, and the presentation updates. **A presentation is a VIEW of the drawing, not a copy of it**, which is the single-source principle at the one layer where a copy is most tempting. [source: [[_Sources/YT_YkHGQPfZEgM_upstairs_plan_presentation_technique|YT_YkHGQPfZEgM]]]
+
 ### A sheet may legitimately be blank, and the album should say so
 
 Both of Дмитрий's walkthroughs carry a **near-empty демонтажный план** — there is no перепланировка, so nothing is notated beyond old radiators — and in both he **explains why rather than dropping the sheet.** Deliverable-set discipline: an absent sheet is ambiguous, a blank sheet with a reason is not.
@@ -176,6 +195,30 @@ Justin Geis (TheSketchUpEssentials), stated plainly: *"If you're trying to model
 **A check we do not currently have, and it is cheap.** Scale off one known printed dimension, preferably a long one; **then measure a different feature elsewhere in the drawing and compare it against its own printed value.** Geis: *"And I always want to check… I like to draw a line somewhere else."* His honest verdict on the residual: *"that's about as close as you're going to get by scaling a document like this."*
 
 **This is not chain closure.** Chain closure asserts that a run of dimensions sums to a known whole. This asserts the **registration itself** against a printed figure that played no part in establishing it — the same independence principle as `tools/layout/vector_extent_oracle.py`. **Add it to the `v0` reconstruction procedure before the hand work starts.**
+
+### ⚠️⚠️ …and register on the LONGEST known distance — the missing half of the rule above (Craftelectric / MoonCad, 2025)
+
+**The block above says to verify on a second dimension, and notes "preferably a long one" only in passing. A second, unrelated source states the rule properly, with its reason:**
+
+> «Нужно выбрать **самое большое известное расстояние** на вашем плане… Даже 5-6 м уже будет достаточно, но **чем длиннее выбранное расстояние, тем точнее получится масштаб**.»
+
+His own registration uses **18,229 mm** — the full length of the premises.
+
+- **The reasoning is sound and not merely asserted: the relative error of a registration scales inversely with the length of the reference**, so a short reference multiplies its own reading error across the whole drawing. **A 5 mm misread on a 500 mm reference is a 1% scale error; the same misread on a 18,000 mm reference is 0.03%.**
+- **→ The two halves combine into one procedure: REGISTER on the longest known dimension, then VERIFY on a second, independent one.**
+- **⚠️ Directly checkable here**: `tools/layout/raster_fidelity.py` registers mm→px from the PDF's hatched wall faces against a frozen registration. **Whether that registration uses the longest available reference is a question worth asking of the committed fit.**
+- He then **aligns the underlay so the main internal walls sit on the zero axes** — a datum-setting move, and the same concern as the datum question §1 records as still ours to decide. [source: [[_Sources/YT_9-hQsyWSnm4_craftelectric_mooncad_walls_and_scale|YT_9-hQsyWSnm4]]]
+
+### ⚠️⚠️ A wall's side is relative to its DIRECTION, not to the screen (same source)
+
+**A wall sits left, centred or right of its base line — and left and right are computed relative to the base line's direction, first point to second, not relative to the view:**
+
+> «Если я нарисую такую же стену в обратную сторону, снизу вверх, то при выборе "слева" стена окажется уже с другой стороны… у каждой стены есть направление.»
+
+**His rule: «лучше идти последовательно в одном направлении по периметру» — traverse the perimeter consistently in one direction, and the wall-to-baseline relationship stays predictable.**
+
+- **⚠️ This project needs this convention and does not state it anywhere.** `data/canonical/wall_blocks.csv` and `tools/layout/build_wall_corners.py` deal with exactly this — which side of a centreline the solid occupies, and which wall owns an L-corner. **A direction-dependent side convention is a live hazard the moment a wall is entered or edited by hand.**
+- **→ Candidate rule for `.agents/skills/residential-bim-geometry-rules/`: if a wall carries a direction, traverse consistently; if it does not, say so explicitly so nobody assumes one.**
 
 ### ⚠️ The ink has width, and the width is an error term
 

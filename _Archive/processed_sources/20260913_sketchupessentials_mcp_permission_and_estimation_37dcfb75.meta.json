@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=E-ECbD14g_8",
+  "video_id": "E-ECbD14g_8",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T17:02:25.876723+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "37dcfb751e580363654fe3ad34ac38480a509002fb6f72a26d523a9262cfe123",
+  "attempts_before_success": []
+}

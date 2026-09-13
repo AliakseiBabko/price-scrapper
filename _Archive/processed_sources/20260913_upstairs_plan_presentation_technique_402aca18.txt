@@ -1,0 +1,198 @@
+In this video, I wanna teach you how
+to go from this boring 2D plan to this really cool-looking one that has
+lots of depth, grain, and texture. It's a simple process. It's a quick tutorial here, but there's a
+lot of specific steps that you can learn. It's like tips and tricks that you can
+apply then to this type of drawing or many other different types of drawings. I got this reference
+from MNMA, MNMA Studio. Uh, kinda hard to say, but I mean, they
+pop on my Instagram feed every now and then with these super interesting plans. It's most likely done in a 3D modeling
+software with a rendering engine. But I thought, "Man, maybe I can
+translate this into Photoshop and make it simpler so that we can kinda iterate
+and play and, and learn from this." So that's what I did, and I
+wanna show you in this video. So be sure to go to their Instagram
+profile, and then look at all of these amazing references and, and
+see with more detail what they do. So here in Illustrator,
+I have a very basic plan. This is from Terra e Tuma Arquitetos
+Associados, an amazing house as well. I'll leave all of the, the links in the
+video description for you to check out. I just... You can do this like
+in the BIM software, obviously, Archicad, Revit, or in a 2D drafting
+software, AutoCAD, Rayon, even. And I like to bring this into Illustrator
+just to do some line refinements and a little bit of tweaking here and there. But this step here of
+Illustrator is not mandatory. You can come directly from your BIM
+or 2D software, 2D drafting software. But I like to use it in Illustrator
+so that I can actually then split this into, for example, what
+is cut elements on the walls. We're gonna be using this in Photoshop. This is very important to have separated. And then all of the lines and do
+a little bit of treatment so that all of them, they have this very
+even and, and uniform thickness. So you can skip this step, but the only
+thing that you need to have is like a separate document, a separate PDF
+file, or a separate P- PNG image with the cut elements, like being the walls. Because you need that to apply
+the shadows and everything else. So you can, you can
+export them separately. You know, a complete plan and a
+PDF or just a PNG of your walls. I'm gonna be doing this from
+Illustrator, which is easier. If you do, you can just follow
+the same steps, or then we're gonna go to Photoshop right now. So here in Photoshop, I'm gonna
+create a new file, a new document. I'm gonna make the width the
+same, and height the same size as my Illustrator composition. You here use whatever resolution, whatever
+size you're coming from with the PDF. For example, if it's an A4, an A3,
+so on and so forth, so that you don't change the scale here in Photoshop. That's very important. Like, we want this to be up to
+scale at the end of the day. So yeah. So for me, a 4K resolution. And then I'm gonna come here
+to File, and Place Linked. And I like to place a linked. For example, let me do, uh, this base
+plan here in Illustrator, the .AI file. Crop to... I'm gonna change it
+to Media Box so that it kinda, it counts the, the entire document
+and not just what's inside it. And so I like to place it linked,
+as I was saying, because then I can come here in Illustrator, for
+example, move a wall or change something, add a new detail, hit Save. Go to Photoshop and that's
+linked, updated automatically. I mean, this is the best of both worlds. If you do place links with PDF, you can
+always then update that PDF, save it. It should also update here in Photoshop. Okay, so with the PDF in here
+already placed in your Photoshop file, first things that I like to
+do is just start organizing my file. You know, right click here and just
+make it this, a striking color just so that we know that this is the base
+and everything's gonna go below it, or a few things are gonna go above it. And well, if you look at the reference,
+uh, the most striking part of the reference is, are the shadows, right? Those soft shadows. And so for that, we need the wall. So I'm gonna come here to Illustrator,
+select all of them, do Control + C and do Control + V over here in
+Photoshop, and I'm gonna, I'm gonna paste that as a smart object. And if you do have that PDF with the
+walls separator, just place it above here. Make sure that this is an,
+a smart object as well. So let me align it very roughly,
+um, more or less like this. Photoshop is very forgiving. We don't have to be extra precise. So all right. So you're gonna have walls and
+you're gonna have a, the plan. So I'm gonna place this. Let me just rename this to long shadow
+and place this below the base plan. And so with that selected, go here to
+filter and then blur gallery, this is the, the important part, and then path blur. You can see that that creates our shadow. I'm just gonna move this
+to the direction I want. I'm gonna be pretending that the
+sun is on the top right corner. Then you can change
+this based on the plan. Like, each plan will have, like,
+a maybe a better shadow that kinda tells the story of the space. So for me, I think something like
+this, and then you can see that the shadows are going both directions. So if we go to the settings
+here and go to centered blur and deactivate it, there we go. So going only on the
+direction that we need. And we could then play with the speed. We can tell how, how far
+these shadows are gonna go. So something more or less like
+this, but it's the taper slider that makes it look soft and really good. I found that 70%, some- them,
+something like that, is a value that works for this style. But you can always play with
+it and test different values. And before clicking okay, something
+that I like to do as well is just go to field blur, enable it. It's something subtle, subtle, but
+I think it does make a difference. Like, it, it takes a bit of that, that
+kinda marked shape that we have and softens it a bit, and then I'm gonna do
+high quality over here, and then hit okay. Okay. It's already looking much better,
+but obviously we're gonna, we're gonna get there, right? So the second thing that we... If you
+look at the references, kinda makes sense, is that it's not pure white. Uh, kinda like pretending that
+this is a photo, a top-down photo of, like, a paper maquette. So it's something, like, warm,
+like, off-white, and we can do that. So let me just create a new solid color
+over here, down here, solid color. With the hues around the
+number 30, 30-something. You don't have to be too precise here,
+something like You can make it more yellow or more orange, something like 30. The saturation goes
+between four and eight. I think this is a good value so that
+it's not pure white or not too saturated. And then the blackness
+values, something like 70, 75. You can always come back here. Since we're creating a color for you, you
+can always come back here and tweak this. I'm gonna pump the
+saturation a bit, like six. There we have it. And then obviously place
+this below everything. So we're starting to get there. Okay, amazing. Now, if we look also at the
+references, so this is maybe, like, a clay render that they did. There's always, uh, like, some rooms
+are darker than the others, so that we're drawing attention to the spaces
+that we kinda want to, to make it feel more open and more lit up. And so we c- can create a new layer above
+everything here, but below the base plan. I'm gonna call this one Darker Areas. And with a selection tool, like the
+polygonal lasso tool or even the marquee tool here, we can start making selections. And it doesn't have to be too precise. I mean, since we're drawing this below
+the base plan, uh, the walls are gonna hide everything, so more or less. And then with a brush, so shortcut B,
+I'm gonna make it more big, somewhat big, but this is just a basic round
+brush with the hardness set to zero here and black as the color. I'm gonna do an opacity of 10,
+and I'm gonna start painting, like, very, very subtle. It cannot be too harsh,
+or else it will look odd. If you end up creating, like,
+these harsher lines, you can always grab the eraser and just
+delete it so that it's very soft. And so you do this for every space
+that you think should have a bit more shadows, like corners, kinda emphasizing. Then be sure to just take off
+the-- any excess, any spillovers. So I'll catch you in a, a little bit. I'm just going to do these spaces
+and show you the before and after 'cause it does make a difference. Okay, so this is the before and after. Subtle, but I think it
+does make an impact. And then if we think about it,
+like, no shadow, like in the real world, no shadow really in a
+photo is a hundred percent black. And we can kinda, uh, tap into that,
+into that principle of, like, shadows not being too black to try to make
+this a little bit more realistic in the way that, that it can. So for example, with the long
+shadow here, we can double-click on it and go to Color Overlay. So this, these are the blending options. If, if we apply something like a blue, not
+too saturated, but not, like, too dark, something like, more or less like this. Click OK. So Normal a hundred percent. We start to get, like, these,
+uh, bluish shadows, which make a little, little bit more sense. And again, we're placing this below the
+place-- the base plan, so it doesn't show up any, like, blue actually cut elements. It doesn't show up. And we can do the same thing
+for the darker areas here. We can go inside, just make a
+color overlay here, and make sure that it's the same blue. Something subtle, but it starts to, like,
+add complexity into this, to this drawing. And then if we go to the reference
+and study a little bit more and kinda see that this is maybe a clay render. Th- th- there's a sun
+hitting these, uh, 3D walls. The, the sun will hit the wall. That will m- most likely be white
+or just, like, a, a clay color, and generate a little bit of light bounces. So these areas on the walls here, they
+become like, like highlights, you know? So this helps to even, like, make
+sure that this feels 3D-like. There's a little bit of depth in here. And so the same thing, I'm gonna create
+a new layer, call this Bright Areas. And with a selection tool, I'm
+going to start creating a few selections to help me guide this
+large brush that I'm gonna paint. And instead here of using black, I'm
+gonna use white, but even like a, like a warm white, something like off-white. So that al- also taps on that teal and
+orange type of, um, color composition. So something subtle. Dab a little bit. Use, like, a very low opacity, and always
+then erase these edges so that does look very soft and very, like, rendery-like. So I'll catch you in a little bit. I'm gonna do these and, and fast-forward. Now, here I'm doing only with the walls,
+but you could, for example, to tweak this and make it your own, do with furniture,
+with what's actually, like, maybe more solid and not chairs and stuff, but, like,
+um, countertops and so on and so forth. So up to you. Like, there's so much possibility. Once you understand the concept here,
+I mean, you can take it to many places. I- I'm just trying to follow the
+reference as close as possible so that we can incorporate and learn from this. And then obviously reference is just a
+starting point, and if you're gonna be publishing this online, using this for
+an online portfolio, Instagram post, and so on, I really encourage you guys to
+make it your own and tweak this further and kinda give it your own personality
+so that it's not a straight copy. We're always using references to
+learn, always crediting the references, of course, but then taking this and
+kinda using to... for our own personal style, our own portfolio, right? Okay, so this is subtle, as you
+can see, but before and after. It does make a lot of difference,
+and it kinda creates the highlights. It kinda... It draws our eyes to
+specific parts of the plan that with just if I disable both of them,
+this, this is good, but it's just much more flat than, than with this. So I have here a dirt cut area that's,
+like, with the magic wand, I can just select this with the base plan selected. Come down here and create a new solid
+color, and then start from this color and just grab the blackness values here,
+and then just go down a little bit. We then have this marked area
+as, as if this is just a, a cut, kinda semi-buried place Awesome. Now, this is starting to look really good,
+but it's still a bit too digital for me. And one thing that I always like to do,
+and then the reference since it's like a clay render, sort of, uh, like a rendered
+image has, is a little bit of grain, you know, a little bit of texture so that it
+breaks up a little bit of this flat feel. And so if I come here to the base
+blend, select the m- topmost layer, and with the window adjustments
+enabled here so that we have this window, I come here to the grain. This is a new adjustment in Photoshop. You can always do grain manually,
+but this one has three sliders. So if I just enable the amount, I
+can play with the size of the grain, I can play with the roughness. So something like more or less, uh,
+default, but a subtle grain makes a lot of difference in my opinion. So before and after. Now, an extra thing that it can do
+is that, for example, I'll, I'll come here, I'll create a new layer, and
+I'm gonna call this one blend area. And if I do a quick selection, something like this, and if I just
+paint it with any color, really, it can be white, it can be black. And if I then take the fill out of it
+so that there's nothing in it, but then if I go to the blending options and do
+color overlay and find that off-white, you know, not completely white, but
+just a little bit yellow, and take down the opacity a little bit, like
+a five percent, and do, for example, like an inner shadow like this with... Let me zoom in. So distance set to zero, but then with
+the size, I play with possibly the max here because of the, the size of this
+document, and play with the opacity, maybe like, like seventy percent to start with. It's a bit too much, but w- then we can
+always play with the opacity of the layer. Like we start to kinda highlight
+a few areas of interest, sort of like it's a, it's a paper on
+top of a paper kind of effect. Now, two extra things that we can do here. We can then tap on this whole lightness
+versus darkness values, and then create a new layer on top of everything
+here, but always below the grain so that it also is affected by it. And then with the gradient, and I
+like to use the classic gradient here with, for example, the first one. I can then start to add like lightness
+versus darkness sort of values here, something more or less like this. You can always play with it later. But if I then change this to, let's
+say, soft light, and then re- obviously reduce the opacity a bunch, you can
+start to intensify a few things. Light coming from this way,
+shadow being generated this way. But then going deeper on the whole
+bluish shadows and orangey highlights, we can then add a color balance so that
+we make the shadows bluer like this. You know, negative on the cyan and
+plus on the blue here, and then the highlights a little bit like this. So this is the before This is
+the after, before and after. Something, again, very subtle. Now one last, last trick here
+is how to get this type of tree. I even left it to the
+side here on Illustrator. You can then just use a circle, a
+bunch of lines, and, like very simple, and then just go to Effect, Distort
+and Transform, and then Roughen. And then play with the, the
+values here, something very low, and also change to smooth. And okay, there you have it. So it's like wobbly, bubbly, and then
+if you just do a few versions, scale one, do one bigger, one smaller,
+one more rough, one less rough. I mean, you get the point. So this is something that you can apply. This is something that
+Illustrator does very well. And then if you go to Photoshop and
+you think, "Man, this is a bit too dark for me," you can always then, on top
+of everything but below the grain, for example, create a new levels adjustment,
+and then play with the levels here. So something I sometimes like to
+do is make sure that my highlights are aligned with the, the first
+information of this graph. If I go past it, it will start to
+blow out some areas, like here. But if I go just there, we still
+have information, but make sure that everything is kinda bri- as bright as
+it can be without losing information. Then play with the rest, kinda add
+more contrast, less contrast, make it softer, make it darker as a whole. I like the levels adjustment a lot. And so with a few more tweaks,
+this is the final result. Hopefully you learned something new here. If you did, be sure to leave a
+like and subscribe to the channel. And I always like to bring these
+references and just kinda study them, and saw that this was a good opportunity
+to show you, like, long shadows, um, adjustments here and there, a little bit
+of a brush, a little bit of Illustrator. So let me know what you
+think in the comments below. I'll see you guys in the next video.

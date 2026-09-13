@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=PVXE79HM0-c",
+  "video_id": "PVXE79HM0-c",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T16:57:51.766306+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4d1270525f269b690f593fc430efaf8a10accaa2ba5f31d13449b03ca1e42543",
+  "attempts_before_success": []
+}
