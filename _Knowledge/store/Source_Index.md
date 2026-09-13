@@ -976,3 +976,19 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_sujS9Mgveo4** — Sketchup Gurus — image-to-3D kitchen model test. Uploaded 2026-09-06, **1:02**. `fact_yield: 2`. **Flagged a likely skip on title-skim; fetched anyway and holds the batch's only measured fidelity check.**
 - **YT_EibFZPrtAp0** — Civil engineering — "Stop Typing Dimensions! ChatGPT + AutoCAD Trick". Uploaded 2026-03-31, 7:12. `fact_yield: 2`. **Routed as a documented ANTI-PATTERN, not as technique.**
 - **YT_QLge-kb_L2I** — Мой Дом и Сад 3D — "ТОП-5 Бесплатных Нейросетей". Uploaded 2026-06-26, 10:47. `fact_yield: 1`, `promotional_ratio: high`. **Near-skip; one framing kept, the roundup discarded as dating fast.**
+
+### Toolchain Round 2 — deferred Tier 2 items (added 2026-09-13)
+
+*The Round 2 named in the 2026-09-11 triage plus the Tier 2 singles deferred 2026-09-08. **9 English, 2 Russian, each fetched in its ORIGINAL spoken language.** **No prices carried from any source** — US 2020/2025 and Omsk 2020, uncomparable under standing rule 2. No regulatory content. **Five of eleven are one channel (TheSketchUpEssentials) — one voice, not corroboration.***
+
+- **YT_A1HxpHxrvv4** — Craftelectric — cable/оболочка assignment in SketchUp. `fact_yield: 10`, `promotional_ratio: medium`. **The cardinality split `ELE-01` needs.**
+- **YT_PVXE79HM0-c** — Стройплощадка — panel-design toolchain. `fact_yield: 10`, `promotional_ratio: medium`. ⚠️ **Predicted "probably a listicle" on 2026-09-08; it is a working shop's full deliverable set.**
+- **YT_s0TrXB2WQ2Q** — Ремонт квартир Омск — SketchUp + Excel смета. `fact_yield: 9`, `promotional_ratio: low`. **A chain-closure residual observed and discarded.**
+- **YT_9-hQsyWSnm4** — Craftelectric / MoonCad — walls, underlay and scale. `fact_yield: 9`. ⚠️ **Predicted thin; delivered two conventions this project does not state.**
+- **YT_sSnjQJX4-iY** — MasterSketchUp — Quantifier Pro. `fact_yield: 9`, `promotional_ratio: medium`. **A build cancelled by a partial estimate.**
+- **YT_MZv33G7UE_A** — mind.sight.studios — Quantifier Pro material reports. `fact_yield: 8`, `promotional_ratio: high`.
+- **YT_X1lnTEpy6PQ** — TheSketchUpEssentials — day-one connector test. `fact_yield: 8`. **The tool-driving architecture.**
+- **YT_E-ECbD14g_8** — TheSketchUpEssentials — MCP modelling test. `fact_yield: 5`, **partially processed**.
+- **YT_YkHGQPfZEgM** — Upstairs — plan presentation. `fact_yield: 4`, **partially processed** — styling recipe not routed.
+- **YT_BEHlmJCKvTA** — TheSketchUpEssentials — model comparison. `fact_yield: 3`, **partially processed** — method only, verdict discarded.
+- **YT_tJSS-IWrJoE** — TheSketchUpEssentials — AI render tool survey. `fact_yield: 2`, `promotional_ratio: high`, **near-skip against a pre-written conditional**.

@@ -55,6 +55,36 @@ The FreeCAD connector ships **two configurations**, and the choice generalises f
 - **⚠️ This corroborates, from an entirely different tool, the rule already on [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]] §7: an agent generating building geometry silently supplies the values you did not specify.** There it invented 5-inch walls, a 9-ft ceiling and a standard door. Here it invented a door position and omitted a wall — **and nothing flagged either.** The mitigation is unchanged: **require an agent to enumerate every value it supplied that the prompt did not, and treat each as a defect to resolve from evidence.**
 - **⚠️ Directly relevant to this project's `v0` route**, which is to model from the printed dimension strings over a registered raster rather than to ask an agent to design. **This is the external evidence that the route is the right one** — the failures are precisely in the part this project never delegates.
 
+## 4. ⚠️⚠️ A third architecture — drive the tool, don't emit the geometry
+
+**Both architectures above have the model producing geometry. An independent tester, on the connector's first day, predicts that is the wrong shape entirely — and names why:**
+
+> *"Describing things with words is inherently clunky… it's very difficult to describe the precision movements and things that we do in 3D to an AI engine and have the AI engine actually understand it."*
+
+**His proposed correction: the model should not emit geometry at all. It should DRIVE THE RIGHT PARAMETRIC TOOL inside the application.** He cites a real instance — an MCP server integrated with **Medeek's extensions**, so the agent instructs Medeek's *wall tool* and that creates the walls. *"Instead of saying make me this space… it'll go find the right tool in SketchUp."*
+
+> **→ This is strictly better than both. Open-loop emits geometry and cannot check it. Closed-loop emits geometry and checks it by looking at a screenshot. TOOL-DRIVING delegates to something that enforces the invariants BY CONSTRUCTION — a wall tool cannot produce walls that fail to merge at a corner.**
+>
+> **⚠️⚠️ And this project is already on that architecture.** `tools/layout/export_v0_dxf.py` is a controlled emitter and the gates check its output; nothing writes raw geometry freehand. **External corroboration of a choice already made — from someone arriving at it as a prediction rather than as practice.**
+
+- **Corroborated from a second direction**: a vendor's own release notes are cited as claiming their model is *"significantly better at drawing 3D objects using CAD code"* — i.e. the improvement is being pursued through **code execution against a tool**, not through better direct geometry generation. [sources: [[_Sources/YT_X1lnTEpy6PQ_sketchupessentials_claude_connector_day_one|X1lnTEpy6PQ]], [[_Sources/YT_E-ECbD14g_8_sketchupessentials_mcp_permission_and_estimation|E-ECbD14g_8]]]
+
+### ⚠️ Third confirmation of the open loop, and the defect this project gates for
+
+**An independent tester reaches the file-generator conclusion by trying to make a change**: *"I don't think there's like a live link in here… it can't go in there and it can't make changes to your model."* Asked to resize a room, it **regenerated the whole model and he had to re-download it**. **A mechanism detail the vendor video omits: it works by writing a mini-script** — so it is code generation, and that is why it is open-loop.
+
+- **⚠️⚠️ And he names the exact defect `tools/layout/check_wall_junctions.py` exists to reject**: *"these walls are all kind of separate and they don't really like merge together on the corners."* **The same family appears again in a furniture test** — arms built as cylinders *"still kind of intersecting with the model."* **Non-merged, interpenetrating solids are the characteristic failure of generated geometry across every tool in this round.**
+- **The transcription-succeeds / spatial-logic-fails split holds for a third time**: given a floor-plan image, window widths came out **4 ft** and **4 ft** and the overall space **12 × 12 ft** — *"generally right"* — while *"it definitely did not match the orientation of the bed"* and it *"did a terrible job of orientation on the furniture."*
+
+## 5. Operating an agent-driven CAD — three practical rules
+
+- **⚠️⚠️ Scope execution permission to the SESSION, not permanently.** Asked to run a Ruby script, the operator grants it **for that conversation only**: *"I don't like to give like blanket permission for things like that just cuz I'm still a little bit paranoid about this kind of going outside of the guard rails."* **An MCP server for a CAD application is, by construction, arbitrary code execution against your documents.** ⚠️ **The same argument applies to agents running against this repository, which holds the canonical data and the gates.**
+- **⚠️ The connection drops, routinely.** *"That's pretty common that it'll drop the connection. And then you need to rerun this."* **The closed loop is not only slow and visually verified — it is also not durable.**
+- **⚠️⚠️ Ask the clarifying questions FIRST, and the silently-supplied-values hazard becomes a recorded assumption.** Prompted with *"ask me any questions you have before getting started"*, the agent asked: is there an overall measurement? exterior only? include surroundings? new document? **The operator answered "no — you can estimate from the images", accepting estimation deliberately and with open eyes.**
+  **→ The hazard recorded in [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]] §7 is not that an agent estimates — it is that it estimates SILENTLY. The interview round is a mitigation for that rule, not merely a prompt-quality trick.**
+- **Judge generated geometry by its CONSTRUCTION, not its silhouette** — *"it's better to look at the hidden geometry… it can give you an idea of how this is created."* A shape that looks right and is built wrong fails at the next edit.
+- **⚠️ When comparing two agents on a generative task, hold the prompt AND the clarification round constant, and verify the clarifications matched** before comparing outputs. A different question asked is a different task performed.
+
 ## Source Notes
 
 | Source | Contribution | Yield |

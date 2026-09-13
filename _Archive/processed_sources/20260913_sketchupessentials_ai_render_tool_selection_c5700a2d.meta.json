@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=tJSS-IWrJoE",
+  "video_id": "tJSS-IWrJoE",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T17:03:57.286651+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "c5700a2dccb76e5f06fc1906964dff619562b442f32c9bde5a128be83eb6e1cd",
+  "attempts_before_success": []
+}

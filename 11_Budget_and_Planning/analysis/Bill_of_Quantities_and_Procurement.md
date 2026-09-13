@@ -248,6 +248,40 @@ airtime.** See [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa
 
 [source: [[_Sources/YT_VaWyCaaFXqk_sanuzel_technical_project_material_takeoff|YT_VaWyCaaFXqk]]]
 
+### ⚠️⚠️ Waste Is Not One Number — the Rule That Settles §5a-quinquies Against Every Percentage On This Page
+
+**The section above delivers sub-1% waste by nesting the cuts, and observes that it is "the concrete answer to the waste-allowance question that every material line on this page otherwise handles with a percentage." Two commercial take-off tools give the other half, and together they resolve it.**
+
+**A costing extension treats waste as a percentage field on every cost line** — priced at **7%** on tile in a worked example — and states precisely when that is the right instrument: *"the waste percentage comes in handy when you're calculating materials like studs where you know you're going to have some cut off."*
+
+> **→ Waste allowance is a function of whether the material NESTS and whether you control the cutting:**
+>
+> - **Linear stock you cut yourself** — profiles, studs, skirting, pipe, cable: **nest it and the percentage collapses toward zero.** §5a-quinquies proves it at **86 cm on 114 m ordered.** A flat 7–10% here is money left on the table.
+> - **Tile, sheet goods, anything with breakage, edge cuts or pattern matching**: **a percentage is unavoidable** — you cannot nest ceramic the way you nest 3 m profiles.
+>
+> **So a waste allowance belongs to the RESOURCE, with a method attached — never as one global rate across a смета.**
+
+[sources: [[_Sources/YT_sSnjQJX4-iY_mastersketchup_quantifier_three_methods|YT_sSnjQJX4-iY]], [[_Sources/YT_MZv33G7UE_A_mindsight_quantifier_pro_material_reports|YT_MZv33G7UE_A]]]
+
+## 5a-sexies. ⚠️ A Finisher's Смета Structure, and Precision Stratified by Volatility (Ремонт квартир Омск, 2020-11-22)
+
+**A one-man finisher pricing his own work. ⚠️ Omsk 2020 — every figure is uncomparable under standing rule 2 and none is carried. The structure is what transfers.**
+
+**Two separate estimates — MATERIALS and WORKS — and the materials half has three parts:**
+
+| Part | Treatment |
+| :--- | :--- |
+| **Черновые** (rough) — plaster, profiles, plasterboard | Priced confidently: *«они более-менее одинаково стоят везде»* |
+| **Расходники** (consumables) — bits, discs, gloves | **A named line item in its own right**, which most estimates hide inside labour |
+| **Чистовые** (finish) | **Greyed out and deliberately approximate** — *«могут очень сильно отличаться»* |
+
+- **⚠️⚠️ The principle behind the grey column: estimate precision should be stratified by how variable the category actually IS.** Rough materials are near-commodities; finishes are a taste-and-tier choice. **Pretending to three significant figures on the finish column is false precision, and the client uses that section to size their own budget and choose cheaper or dearer.**
+- **⚠️ Converges with this project's own "staged commitment" requirement** — price by trade stage, and do not commit Stage 4 rates during Stage 1 — reached from the opposite direction, by a practitioner explaining why his finish column is grey.
+- **⚠️ The works смета ends with an explicit list of works NOT included** — *«чтобы для клиента не было сюрпризом, что ему надо будет оплачивать грузчиков»*. **An exclusions list as a standard closing section**, and the honest form of the four-line-смета test in §5a-bis: the measure of a смета is what it names, and naming what it excludes is part of that.
+- **A stated ~20% contingency** for непредвиденные расходы, with the reason attached — you cannot account for everything, and changes get made during the work. `single-account`, Omsk 2020.
+
+[source: [[_Sources/YT_s0TrXB2WQ2Q_omsk_sketchup_excel_smeta_method|YT_s0TrXB2WQ2Q]]]
+
 ## 5b. Two Procurement Traps That Change the Budget (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 ### Large ceramic slabs: the delivery you didn't budget for

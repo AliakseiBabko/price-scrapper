@@ -48,3 +48,25 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 | [`YT_QLge-kb_L2I`](../../_Sources/YT_QLge-kb_L2I_moydom3d_five_ai_services_roundup.md) | Мой Дом и Сад 3D | Render-as-communication-artefact framing only; roundup discarded | 1 (near-skip) |
 
 **Round 1 yield**: 11 videos processed, 56 new facts (excluding duplicate/corroborating-only outcomes), yield = **5.1** new facts per processed video.
+
+## Toolchain Round 2 — deferred Tier 2 items (2026-09-13)
+
+**The Round 2 named in the [2026-09-11 triage](../../_Inbox/planning/ai_agent_modelling_sources_triage_20260911.md) plus the Tier 2 singles deferred on [2026-09-08](../../_Inbox/planning/design_toolchain_sources_triage_20260908.md).** Triage and outcome: [`ai_toolchain_round2_20260913.md`](../../_Inbox/planning/ai_toolchain_round2_20260913.md).
+
+**⚠️ FIVE of the eleven are one channel (TheSketchUpEssentials / Justin Geis), with a sixth already in the vault. Treat his claims as ONE consistent voice, never as corroboration.**
+
+| Source | Practitioner | Contribution | Yield |
+| :--- | :--- | :--- | :--- |
+| [`YT_A1HxpHxrvv4`](../../_Sources/YT_A1HxpHxrvv4_craftelectric_cable_enclosure_schema.md) | Craftelectric | **The cable/containment cardinality split**; the cable-log take-off | 10 |
+| [`YT_PVXE79HM0-c`](../../_Sources/YT_PVXE79HM0-c_stroyploshchadka_panel_design_toolchain.md) | Стройплощадка | The electrical deliverable set; **layer along the responsibility seam**; the data-carrying label | 10 |
+| [`YT_s0TrXB2WQ2Q`](../../_Sources/YT_s0TrXB2WQ2Q_omsk_sketchup_excel_smeta_method.md) | Ремонт квартир Омск | **A chain-closure residual observed and discarded**; the three-part смета; stratified precision | 9 |
+| [`YT_9-hQsyWSnm4`](../../_Sources/YT_9-hQsyWSnm4_craftelectric_mooncad_walls_and_scale.md) | Craftelectric / MoonCad | **Register on the longest known distance**; **a wall's side is relative to its direction** | 9 |
+| [`YT_sSnjQJX4-iY`](../../_Sources/YT_sSnjQJX4-iY_mastersketchup_quantifier_three_methods.md) | MasterSketchUp | Three cost-attachment methods; **a build cancelled by a partial estimate** | 9 |
+| [`YT_MZv33G7UE_A`](../../_Sources/YT_MZv33G7UE_A_mindsight_quantifier_pro_material_reports.md) | mind.sight.studios | Where a cost attaches; **waste and tax as first-class fields** | 8 |
+| [`YT_X1lnTEpy6PQ`](../../_Sources/YT_X1lnTEpy6PQ_sketchupessentials_claude_connector_day_one.md) | TheSketchUpEssentials | **The tool-driving architecture**; third confirmation of the open loop; the corner-merge defect | 8 |
+| [`YT_E-ECbD14g_8`](../../_Sources/YT_E-ECbD14g_8_sketchupessentials_mcp_permission_and_estimation.md) | TheSketchUpEssentials | **Session-scoped execution permission**; the interview round as a mitigation | 5 (partial) |
+| [`YT_YkHGQPfZEgM`](../../_Sources/YT_YkHGQPfZEgM_upstairs_plan_presentation_technique.md) | Upstairs | Three presentation-pass rules; **styling recipe deliberately not routed** | 4 (partial) |
+| [`YT_BEHlmJCKvTA`](../../_Sources/YT_BEHlmJCKvTA_sketchupessentials_model_comparison_method.md) | TheSketchUpEssentials | The comparison discipline; hidden-geometry inspection | 3 (partial) |
+| [`YT_tJSS-IWrJoE`](../../_Sources/YT_tJSS-IWrJoE_sketchupessentials_ai_render_tool_selection.md) | TheSketchUpEssentials | **Edit-consistency as the render selection criterion** | 2 (near-skip) |
+
+**Round 2 yield**: 11 videos processed, 77 new facts, yield = **7.0** per processed video — **above Round 1's 5.1.**
