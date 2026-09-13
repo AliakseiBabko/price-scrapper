@@ -20,7 +20,13 @@
 
 How practitioners dimension, name and compose their own documentation — collected to settle conventions this project has open.
 
-→ **[[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]]** — dimensioning to centre and the `1/2` proportional notation, element taxonomy (`вывод провода` is not a socket), sheet-level conventions and the two-audience services sheet, the two-tool split, colour at concept stage, getting a dimensioned raster into geometry, and agents that generate building geometry.
+→ **[[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]]** — dimensioning to centre and the `1/2` proportional notation, **the datum an agent silently chooses for you**, element taxonomy (`вывод провода` is not a socket), sheet-level conventions including **the ~1 m plan cut plane and why a fixture's plan symbol is authored rather than cut**, the two-tool split, colour at concept stage, and agents that generate building geometry.
+
+→ **[[18_Digital_Toolchain/analysis/Raster_To_Geometry|Raster to Geometry]]** — **the scale procedure**: register on the LONGEST printed dimension, verify on a SECOND and independent one, and the worked counter-examples of doing neither; **⚠️⚠️ a plan image is not uniformly scaled** — 45 mm of anisotropic format-fitting distortion measured in one sheet, which bears directly on `raster_fidelity.py` and on the variance study; where the line is in blurred ink; and **captured geometry never carries thickness**, now confirmed for tracing, auto-tracing and 3D scans alike.
+
+### How a model becomes a sheet
+
+→ **[[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]]** — **⚠️⚠️ the dividing line: a drawing GENERATED from the model versus one EXPORTED from it**, and why only the first survives an edit; **four places Bonsai's parametric association leaks** and what that means for a headless build; the silent-failure modes of a generated drawing (dropped edges, a sheet with annotations and no geometry, scaling issues on DXF export, a schema upgrade that does not convert); **text collision is manual in a purpose-built tool too**, which qualifies the adopt decision; **the type is the unit of change**; and **the IFC is the master while the `.blend` is a cache** — with the `Ctrl+S` hazard that creates for our own viewing instructions.
 
 ### Getting AI to read a drawing
 

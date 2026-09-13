@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=xlmbZHIaHJw",
+  "video_id": "xlmbZHIaHJw",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T20:08:53.861514+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "07f19be08bda80f86275c00142bbd8326ecc7fe8e84e6ecf71c1aeb8cfbbee1c",
+  "attempts_before_success": []
+}

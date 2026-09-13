@@ -107,6 +107,26 @@ In RemPlanner, two already-placed single sockets **will not merge** when moved t
 
 ## 3. Sheet-level conventions
 
+### ⚠️⚠️ The plan cut plane sits ~1 m above storey level, and the reason is functional
+
+**Two independent Bonsai practitioners, three years apart, on where a floor plan is cut:**
+
+> *"We're going to create a plan — **not at zero, which is our engine, but at my story, which is that ONE METRE STANDARD HIGH CUT, so it CUTS THE WINDOWS AND THE DOORS**."* — Ifc Architect, who later gives it as *"1 to 1.2 metres high roughly"*
+> *"Use as a reference point my story. So it's going to do a cut **I GUESS at 1 m from the floor**."* — Prof Rino
+
+**→ A cut at zero shows a slab; too high misses window sills; too low misses window heads. The plane must pass through both window and door openings, and that is what fixes it.**
+
+- **⚠️ Note the second presenter's hedge — "I guess".** A BIM teacher of ten years does not know the exact height the tool is about to use, **because the UI does not state it.** **A drawing convention with real consequences, applied by a default nobody reads.**
+- **→ When this project generates plans, the cut height must be an explicit committed parameter, not a default.** ⚠️ **Contrast the mesh route**, where the cut plane is a box handle dragged by eye and **no height is stated anywhere in the video** — an unstated cut height is an unstated drawing convention. [sources: [[_Sources/YT_PNoOyCHa_V0_ifcarchitect_blenderbim_floor_plan|YT_PNoOyCHa_V0]], [[_Sources/YT_fxpIg-su-00_profrino_first_bim_drawing_bonsai|YT_fxpIg-su-00]], [[_Sources/YT_YYmFMxMV6io_messerschmidt_blender_dimensioned_floor_plan_export|YT_YYmFMxMV6io]]]
+
+### ⚠️⚠️ A fixture's plan symbol is AUTHORED, not derived by cutting it
+
+> *"If I want to see **how the shower actually looks when it's cut**, I can turn on the **plan representation**, so we can see **where the drain is**."*
+
+**A drain does not appear in a section through a shower tray. It appears because the symbol has one.** Each object carries a 2D plan representation distinct from its 3D geometry, rotated into place per instance.
+
+> **→ Our hand-rolled SVG pipeline cannot do this — it can only draw what it can compute from geometry.** Full treatment, with the rest of the model-to-sheet mechanics: [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]] §5.
+
 ### A services sheet has two audiences and therefore two configurations
 
 **The reviewer needs the furniture; the installer does not.** Stated three times, in three ways:
@@ -191,60 +211,6 @@ His 3D review view can **toggle ceiling lighting, toggle the display of sockets,
 
 ---
 
-## 6. Getting a dimensioned raster into geometry
-
-**From an English-language batch on AI-agent modelling — triage in [`_Inbox/planning/ai_agent_modelling_sources_triage_20260911.md`](../../_Inbox/planning/ai_agent_modelling_sources_triage_20260911.md).** These bear on the open `v0` task: `project_decisions.md` records that **`v0` has no geometry and it blocks layout selection**, with the route being reconstruction from the printed dimension strings over the registered raster.
-
-### ⚠️⚠️ A scaled raster is for orientation, not measurement — type the dimensions, don't click the pixels
-
-Justin Geis (TheSketchUpEssentials), stated plainly: *"If you're trying to model this building exactly, you shouldn't be coming in here and using visuals in order to figure out where this is going to go… you actually need to model using the dimensions if you want this to be exact. If you're just trying to get it close enough, it doesn't really matter."*
-
-**→ Independent corroboration of the route this project already chose for `v0`.** Aaron Dietzen (Trimble SketchUp) gives the mechanical reason: a raster *"is literally a bunch of dots… that could be scaled to any size"* and **nothing in it can be snapped to** — *"it doesn't know that this is an end point."*
-
-### ⚠️⚠️ Two-point scale verification — register on one printed dimension, verify on a second
-
-**A check we do not currently have, and it is cheap.** Scale off one known printed dimension, preferably a long one; **then measure a different feature elsewhere in the drawing and compare it against its own printed value.** Geis: *"And I always want to check… I like to draw a line somewhere else."* His honest verdict on the residual: *"that's about as close as you're going to get by scaling a document like this."*
-
-**This is not chain closure.** Chain closure asserts that a run of dimensions sums to a known whole. This asserts the **registration itself** against a printed figure that played no part in establishing it — the same independence principle as `tools/layout/vector_extent_oracle.py`. **Add it to the `v0` reconstruction procedure before the hand work starts.**
-
-### ⚠️⚠️ …and register on the LONGEST known distance — the missing half of the rule above (Craftelectric / MoonCad, 2025)
-
-**The block above says to verify on a second dimension, and notes "preferably a long one" only in passing. A second, unrelated source states the rule properly, with its reason:**
-
-> «Нужно выбрать **самое большое известное расстояние** на вашем плане… Даже 5-6 м уже будет достаточно, но **чем длиннее выбранное расстояние, тем точнее получится масштаб**.»
-
-His own registration uses **18,229 mm** — the full length of the premises.
-
-- **The reasoning is sound and not merely asserted: the relative error of a registration scales inversely with the length of the reference**, so a short reference multiplies its own reading error across the whole drawing. **A 5 mm misread on a 500 mm reference is a 1% scale error; the same misread on a 18,000 mm reference is 0.03%.**
-- **→ The two halves combine into one procedure: REGISTER on the longest known dimension, then VERIFY on a second, independent one.**
-- **⚠️ Directly checkable here**: `tools/layout/raster_fidelity.py` registers mm→px from the PDF's hatched wall faces against a frozen registration. **Whether that registration uses the longest available reference is a question worth asking of the committed fit.**
-- He then **aligns the underlay so the main internal walls sit on the zero axes** — a datum-setting move, and the same concern as the datum question §1 records as still ours to decide. [source: [[_Sources/YT_9-hQsyWSnm4_craftelectric_mooncad_walls_and_scale|YT_9-hQsyWSnm4]]]
-
-### ⚠️⚠️ A wall's side is relative to its DIRECTION, not to the screen (same source)
-
-**A wall sits left, centred or right of its base line — and left and right are computed relative to the base line's direction, first point to second, not relative to the view:**
-
-> «Если я нарисую такую же стену в обратную сторону, снизу вверх, то при выборе "слева" стена окажется уже с другой стороны… у каждой стены есть направление.»
-
-**His rule: «лучше идти последовательно в одном направлении по периметру» — traverse the perimeter consistently in one direction, and the wall-to-baseline relationship stays predictable.**
-
-- **⚠️ This project needs this convention and does not state it anywhere.** `data/canonical/wall_blocks.csv` and `tools/layout/build_wall_corners.py` deal with exactly this — which side of a centreline the solid occupies, and which wall owns an L-corner. **A direction-dependent side convention is a live hazard the moment a wall is entered or edited by hand.**
-- **→ Candidate rule for `.agents/skills/residential-bim-geometry-rules/`: if a wall carries a direction, traverse consistently; if it does not, say so explicitly so nobody assumes one.**
-
-### ⚠️ The ink has width, and the width is an error term
-
-Dietzen, tracing a wall off a raster: *"I could draw an edge from about the middle of this black line to about the middle of this black line… that's probably around 5½ inches. The line itself is maybe an eighth or a quarter inch thick. So you need to take all this with a grain of salt."*
-
-**→ Before reading a thickness off a raster, decide which part of the drawn line you are measuring to — centre, inner face or outer face — and carry the line's own thickness as an error bar.** `Evidence_Reading_Discipline.md` requires identifying the two elements a dimension's extension lines terminate on; **this adds that the terminating element itself has thickness.**
-
-### The oracle principle, stated from the GUI side
-
-Dietzen: *"It doesn't matter how good the information you get, there's always a possibility that there's a difference between what's in the model and the actual dimension it's supposed to represent. So I always recommend double-checking against printed dimensions of some sort."*
-
-**That is exactly why `vector_extent_oracle.py` exists** — the repo learned that asserting the DXF against `wall_blocks.csv` only proves two hand-edited files agree. **Corroboration of the hardest-won lesson in the geometry work, from someone who reached it by hand.**
-
-**And a weaker note worth keeping**: a *vector* CAD import normally leaves non-intersecting near-misses — *"a couple spots where for whatever reason it didn't intersect correctly… a little bit of cleanup"* — which in a GUI are found by eye. Our 400 mm near-miss band finds them automatically.
-
 ## 7. Agents that generate building geometry
 
 > [!WARNING]
@@ -299,4 +265,8 @@ All Russian, all Moscow or a Russian vendor. **Round 1 of the design-toolchain g
 5. **Grey massing versus disclaimed conventional colour** — an owner decision.
 6. ⚠️ **Add two-point scale verification (§6) to the `v0` reconstruction procedure BEFORE the hand work starts.** The only registration check in either batch that this project does not already have.
 7. ✅ **CLOSED 2026-09-11 — NO. Do not adopt `IfcRelConnectsPathElements`.** The relationship is **semantically passive**: downstream tools (Solibri, BIMcollab, Navisworks, **Blender/Bonsai**) do not trim geometry from relationship entities on import — they expect explicit `IfcExtrudedAreaSolid`/`IfcFacetedBrep`, so a file annotating a junction while shipping overlapping volumes simply displays a clash. **Retain the corner ledger.** ⚠️ Its real limits, worth knowing: the `solid = clear + owned corners` formula presumes rectangular prisms and breaks at oblique angles; *thicker-then-longer* is indeterminate on ties at T/X junctions; and it cannot arbitrate multi-layer assemblies. **If non-orthogonal partitions ever appear, the fix is 2D planar clipping in Shapely/GEOS — buffer centrelines, partition along angular bisectors, allocate cells, extrude — not the IFC relationship.** See the [review](../../_Inbox/planning/deep_research_review_geometry_20260911.md). *(Original question:* should `wall_corners.csv` become `IfcRelConnectsPathElements`?*)*
-8. **Should our deliverable set gain an A/C sheet?** Both of Дмитрий's projects ship a план кондиционеров; `grep "кондиционер"` returns 0 across our own sheet set and roadmap. See [`Planning_Project_Deliverable_Set.md`](Planning_Project_Deliverable_Set.md).
+8. **Should our deliverable set gain an A/C sheet?** Both of Дмитрий's projects ship a план кондиционеров; `grep "кондиционер"` returns 0 across our own sheet set and roadmap. See [`Planning_Project_Deliverable_Set.md`](../../00_Master/Planning_Project_Deliverable_Set.md).
+
+---
+
+**Getting a dimensioned raster into geometry** — scale registration, verification, raster distortion and the ink-width error terms — moved to its own page on 2026-09-13 when this one reached the backstop: [[18_Digital_Toolchain/analysis/Raster_To_Geometry|Raster to Geometry]].
