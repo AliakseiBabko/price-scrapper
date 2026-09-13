@@ -1,0 +1,255 @@
+In this 3-part series we’re going to be 
+making this floor plan, furnishing it, and   adding materials to walls and floors, everything 
+inside Blender. This is the third version of the   series and it’s full of new tips and tricks 
+so you’re watching the latest and greatest.  I’m Dude Blender, and let’s jump right in!
+In part 1 we’ll be making the walls. Part 2   will be windows, doors and furnishing. And in 
+part 3 we’ll apply materials to the floor and   walls, light the plan and render it.
+Alright, first we need a floor plan,   if you do this for clients, they will 
+provide it, but for this exercise let’s   download one from the internet. FLOORPLANS.COM 
+and HOUSEPLANS.COM have databases that we can use,   so you can go to either. As a sidenote, if you 
+want to create your own, you can use Smartdraw   Floor Plan Creator, floorplanner.com or any of the 
+bunch of resources that you can find in Google.  I’m going to go to HOUSEPLANS.COM and since this 
+is a learning exercise, I’ll just try to find the   smallest plan. One bedroom, one bathroom, 
+one story, 0 garages and let’s see what we   get. We can switch this to Floor plan to see the 
+actual floor plans and I’m just going to go with   the first one, but you can go with whichever 
+you want. The process is going to be same,   although if you’re starting with Blender you might 
+want to follow me step by step with the same plan.  Click on it, scroll down to the plan and download 
+that image. You can actually buy the plan which   includes a bunch of other stuff, and you can get 
+more information about the idea of the house,   and if you scroll further down, you’ll see 
+some of the specs and features of the house.  Okay, I recalculated the dimensions to the metric 
+system. So just keep in mind that there will be   rounding errors. If you want to use this one, you 
+can take a screenshot now and use that image. Now   let's jump into Blender. I'm using version 4.3, 
+but you should mostly be able to follow if you're   using 3.6 or later. Let's delete everything. So, A 
+to select all, X to delete and click on delete to   confirm the operation. The button appears right 
+under your pointer, so you just have to click.  If you don't know how to navigate, the 
+basic controls are middle mouse button   and drag to orbit, shift + middle mouse button 
+and drag to pan. Scroll wheel to zoom in and out   and control + shift + middle mouse button 
+and drag up or down to zoom with precision.   Open a file explorer window and find the floor 
+plan. You can drag and drop it into the scene.  Now, if you select it by left clicking on 
+it, you'll see here in the top left corner:   Collection | Empty. And it will also be selected 
+here in the outliner. Whenever you drag and drop   an image into the scene, it is created as an 
+Empty. An Empty is a helper object that you can   use for many things and it won't be rendered. 
+If you go to the menu, shift + A and Empty,   you'll see that there are many types. One of them 
+is image. And this is what we created by dropping   the file into the scene. Now we want to clear 
+the rotation of the Empty and place it flat on   the grid so that its position in the Z dimension, 
+so up, is zero. There are a few ways to do this,   but the easiest is using the alt key. With the 
+image selected, we move it by pressing G or   grab. And then click to accept the operation. Same 
+thing with R, rotate and S, scale. You right click   to cancel the operation. If we press alt + R, 
+it clears the rotation. So, you might imagine   how to clear the movement – or translation as 
+we call it – and of course, it would be with   alt + G. And now it's on the origin. If you press 
+N to show the side panel, you can confirm that   it's in fact in the 0, 0, 0 location. And with 
+0º, 0º, 0º rotation. Press N again to hide it.  Okay, now let's go to top view, which you can do 
+by pressing 7 on the numbers pad or by clicking   on the Z in the navigation gizmo. Make sure that 
+the Z is highlighted before you click on it. Now   we need to copy the plan to something that we can 
+use in Blender. Note that I will do this by hand.   I'm not gonna be using any add-ons like Archimesh 
+or Archipack. So, it's a personal choice, but if   you know this process, you'll be able to adopt 
+a new workflow with an add-on very easily when   and if you choose to do so. Okay, so we want to 
+make an outline of these dimensions. I'm going to   ignore the deck. Make sure that you're using the 
+right units in your scene by going to the Scene   Menu>>Units. I'm going to change this to meters.
+Shift + A >> Mesh >> Plane. This is going to   become the walls, so we might as well rename 
+it now. F2 is the shortcut to rename it,   or you can double click the object's name in 
+the outliner. Let's call it “Walls”. Now we   want it to be the size of the outline of our 
+plan. Horizontally, it's 2.9 + 4.1, so 7. And   vertically, it's 3.6 + 4, so 7.6. Note that there 
+are rounding errors because of the conversion of   the units, and this plan apparently considers 
+different thicknesses for different walls,   which we're not going to do, but I will tell 
+you how you would do it if you ever need to.  Let's open our side panel with N. Make sure 
+that you're on the Item tab, where you can   see the Transform information. Note that this 
+panel is dynamic and it changes depending on   what mode you're in. If I tab into Edit Mode, 
+we can see information of individual vertices,   which is useful in some situations. I want to 
+be in Object Mode, so I tab out. Now I want   the dimensions to match the dimensions of the 
+plan. And here we can just go ahead and type   the numbers. 7 in X and 7.6 in Y. Now this has 
+the actual accurate measurement, and you'll also   notice that the Scale has changed. And this is 
+a recurring source of frustration for Blender   beginners, because it interacts with a bunch of 
+other things like modifiers and textures. So,   unless you really know what you're doing, you 
+want the scale to be 1. So, control + A for the   Apply menu >> Scale, to reset the scale to one.
+To keep everything tidy, we want this corner to be   in the origin. So, tab into Edit Mode and select 
+this vertex. Shift + S for this menu and Cursor   to Selected. Tab out, right click >> Set Origin >> 
+Origin to 3D Cursor to do precisely that. And now   as we did before, Alt + G clears any translation.
+Next, we need to delete this face, but not the   vertices. So, tab into Edit Mode, A to select 
+everything, X to get the Delete menu >> Only   Faces. Now we tab out to Object Mode and select 
+the image. We want to scale it with S and align   it to this object. So, let's do that. You'll 
+be scaling it with S and moving it with G. If   you want to constrain the movement, press G 
+and then X or Y and hold shift to move with   precision. Just eyeball it, it's just a reference.
+As we expected, there is a little bit of mismatch   here because we changed the units. If you're 
+using the original plan in feet and inches,   you might not get this gap. Let's dim the image 
+a bit, select it, go here to the Data Properties,   check the Opacity box and drag this 
+down to something like 0.25. We've   got our setup, now let's get to work.
+Select the walls by clicking on the object or   on the outliner and tab into Edit Mode. I'm going 
+to delete these three vertices. So, select them,   by default, you have the box selection. Select 
+these and to add to the selection, hold shift   and select this one, X. And the menu appears with 
+the item you last used selected to improve your   workflow. Click on Vertices and we're left with 
+one single vertex that's exactly on the world   origin. We're going to draw the plan by extruding 
+this vertex with E. So, select the vertex,   E to extrude and this creates a new vertex joined 
+by an edge. We want to move this in the X axis,   so press X to constrain the movement and now we 
+can just type the amount. In this case, it's 7 m,   so we type 7 and click or Enter to confirm.
+Now we make this wall, but there is a wall   intersecting here, so we want to make this segment 
+and then this segment so that we have a vertex to   extrude later. Same thing, select the vertex, E, 
+Y and we type 4, Enter. Then again, E, Y, 3.6.   You'll note that if we add these dimensions, 1.8 + 
+1.8 + 3.1 results in 6.7, which is not exactly 7,   which is the 4.1 plus 2.9. And the reason here 
+is that there are walls and they have thickness.   And we have to account for the thickness of those 
+walls. I'll show you how to do that in a second.   Let's finish this first. With the vertex selected, 
+we continue, E, X - 3.1, Enter, E, X - 1.8, Enter,   E, X - 1.8, Enter. So, we'll just move this 
+vertex to the left so that it matches with   this one. To do that, there is a very neat trick 
+that they implemented, I think in version 4.2,   which is the Base Point. Make sure that your 
+Snapping here is set to Increment. Even if it's   turned off, the Base Point function uses whatever 
+you have selected here. With this vertex selected,   G to move it, X. Now we turn on Base Point with 
+B and we need to select the start and end points.   The start is the vertex we're moving and the end 
+is the vertex that we're referencing. Note that   the cursor changes to a square when you're 
+selecting a vertex, an hourglass when it's   an edge and a circle when it's a face. Click and 
+click. We continue E, Y - 3.6, Enter. And to close   the outline, we select these two vertices 
+and press F to make an edge between them.  We're done outlining and there's a couple of 
+things. The first one is that this is a wall,   but there's no measurement. So, in that case, you 
+would ask the client or you can just eyeball it.   I usually round to the nearest 10th of a meter, 
+so let's do that. We don't have a vertex here, so   to cut this edge, the shortcut is Control + R and 
+you'll see a vertex appear exactly in the middle   of the edge. Click to accept. Now let's zoom in 
+and grab it with G. Then if you want to slide the   vertex along the edge, press G again. Our Snapping 
+here is still on Increment, so we can just go   ahead and change it to grid so that it will align 
+to the grid. Now, G, G, if the Snapping is turned   off, we can turn it on temporarily by holding 
+the Control key. Let's place it here. We can also   adjust these vertices to match the position of 
+the plan. Select them, G, G, control, let's place   it here. G, G, control, and let's place it here.
+One thing that you should know is that in a later   step, we're gonna tell Blender to what direction 
+will the walls gain their thickness. So ideally,   you want each vertex to be on either side 
+of the walls. In this case, because I know   that there's a lot of rounding errors, I'm not 
+gonna do it. But in a real project where all the   measurements are correct, the vertex would have 
+to be aligned to one of the sides of the wall.  Let's take a short commercial break to help 
+support the channel and I'll be right back.  We're back. Now let's make the walls that go into 
+the house. Let's start with this one and then   we'll just go around. Select this vertex and same 
+procedure. E, X, and I will add the bedroom and   bath. So 1.8 plus 3.1 is 4.9. And we can press 
+the - key at any point, even after typing the   number, -. Enter to confirm. And I don't have the 
+information about the thickness of these walls,   but I do know that this wall and this wall sit on 
+the same vertical axis. So, I'm just gonna do the   base point again. Change this to Increment G, X, 
+B. Now I click here and then I click here. And of   course, if this was client work, I would ask about 
+the thickness of each of the walls and all of this   would match perfectly. Also note that for now, 
+we're ignoring windows and doors. Now there   are three walls that go up here. So, we need to 
+create vertices along this edge. So, control + R,   click. Now let's say that we want this distance 
+between the vertices to be exactly 1.8 m. The   easiest way to do it is to move the vertex all the 
+way here and then move it back again by exactly   the number that you want. So, select it, G, G and 
+slide it all the way. By default, you cannot go   beyond the next vertex. So just place it here. 
+Now G, X, 1.8. Remember not to extrude vertices   along existing edges. If instead of dividing this 
+edge with control + R as we did before, I were to   extrude either of these vertices with E and then 
+I press X to constrain. Let's say that I place it   here. It looks like it's okay, but it's actually 
+not. I now have two overlapping edges here and   that will cause a bunch of problems in the future. 
+So I'm going to delete it and I'll divide the edge   with control + R. Now I'm just going to align 
+it here. So, I want to change this back to grid,   G, G, control and I'll place it here.
+Now these two walls have the same length, so,   we can extrude these two vertices simultaneously. 
+But if we use the normal shortcut E, it extrudes   the whole edge creating a plane. But then we have 
+to remove this edge and that's an unnecessary   step. So instead, we select the vertices and 
+bring up the Vertex menu with control + V.   You'll see a bunch of stuff that we can do 
+with the vertices. As a side note, control + E   brings up the Edge menu and control + F, the Face 
+menu. And we use all of those quite often. Okay,   so control + V >> Extrude Vertices, Y to constrain 
+the movement. And here's a nice trick available   since 4.2 I think. When you're in the middle 
+of a Transform operation, like moving vertices,   the navigation is disabled. But sometimes you 
+need to zoom in or pan during an operation. So,   if you hold the Alt key, you can navigate like 
+you usually do. We can pan and we can zoom.  I don't know this dimension either, so I'll just 
+align to the grid by holding Control. Another   trick, when you're aligning to the grid, if you 
+also hold Shift, you can align to the minor grid.   You can see the information at the top left that 
+now we're moving in hundredths of a meter instead   of tenths. This way I can align the vertices to 
+the middle of the square. Now we need to make a   wall here, so control + R, click. I'm just going 
+to align the rest to the grid to do it faster.   Now you want to extrude this to the right in 
+a way that it aligns to this vertex. So E, X,   we'll use Base Point. B, click this vertex, then 
+this one. Okay, we need to cancel that and turn   the Snapping back to Increment. Now, since 
+we extruded this vertex, even if we canceled   the move, the second vertex still exists. So be 
+careful not to extrude it again to avoid doubled   vertices. So now G to move, X, B, now we click 
+and we click here. And now to make an edge between   these two, we select them and press F.
+Now these are actually sliding doors,   so we just need to connect these vertices and 
+these vertices. So, we can just do it with F   and then these, F. Great. Now here, control + 
+R, G, G, control, and we'll place it there. E,   Y, B, we click here and here. Select 
+these, F to make an edge. And to finish,   we just need an edge here. I think we're done.
+If you feel that you might have doubled vertices   somewhere, you can select all with A, M for 
+the Merge menu >> By Distance. And it will show   here if you deleted any vertices. Now save your 
+work with control + S, I'm gonna call it FPTut,   Enter. Now let's tab out to Object Mode. And we 
+want to duplicate this with shift + D and right   click to cancel the move. That will be our floor. 
+So, let's rename it here to “Floor”. Now let's   make the floors faces quickly. So, with the floor 
+selected, tab into Edit Mode. And now it depends   if you’ll want different floor materials for 
+different rooms. You want to make separate faces   for rooms that have different materials. And you 
+don't want overlapping faces. So, for example, if   you do a face here and then I do a face here, and 
+now you’ll see that this face is overlapping this   one. And you can see that by moving this vertex. 
+We don't want that, so control + Z. So here in the   mudroom, I want the same floor to be in the closet 
+than in the rest of the room. So, I don't need   this geometry. I select the vertex and delete it.
+Let's hide the walls for now because since   we can still see that geometry, it might be 
+confusing. So, by clicking here on this eye,   you can hide that object in the viewport. Now 
+let's do the same thing in the bedroom. We   don't need a different material for the floor 
+in the closet, so we can delete this vertex.  It's also a good idea to tidy up and remove any 
+unnecessary vertices. An easy way to do that   is by turning on Auto Merge with this button. 
+Now if we overlap a vertex on top of another,   they will merge. So, select this one, G, G, 
+slide it all the way, click. And now it's   gone. We can make sure that it's actually 
+gone by clicking away to unselect it,   now selecting it back and moving it. There should 
+be no vertex beneath it. Let's do this one too,   and this one. If we wanted to separate the kitchen 
+and living room materials, we would need to cut   this edge and create a new edge here to separate 
+the spaces, but I'm not gonna do that. Okay, let's   be good and do this one too, and this one, this 
+one too. Okay, this is as clean as we can do it.  Now for each room, we're gonna select all 
+of the vertices that make it up and press F   to make a face. So that, bathroom, mud room, and 
+now the living room and kitchen combo, F. Lastly,   tab out, and we're gonna duplicate the floor. 
+Shift + D, right click to cancel, and we're   gonna rename this to “Background”. Now with the 
+Background selected, we tab into Edit Mode, and   this is gonna be a plane surrounding the house. We 
+delete every vertex inside it, A to select all, X   Faces. Let's also turn off the floor for now. Now 
+if it's not selected, we select everything with   A and E to extrude everything. While the move is 
+still active, we press S to scale. Now we click,   and we have a background with a cut where the 
+floor will be to prevent Z-fighting. Now if we   ever need to make this bigger at any point, we 
+don't scale the object because the hole will   also scale. We need to go to Edit Mode, alt + 
+left click on any of these edges to select the   whole outer edge, and then we scale that with S.
+Tab out, let's hide the background and unhide   the walls. With the wall selected, tab, now we're 
+going to extrude in Z. So, we select all with A,   E, and now Z to constrain to the Z axis, 
+and we type the height of the walls. So,   let's say 2.3 meters, Enter.
+Now we need to make sure that all   these walls are facing the right direction. Right 
+now, all of our walls are two-dimensional faces,   and faces have a front and a back side. We can 
+show their orientation by clicking here on the   Overlays menu and checking Face Orientation. The 
+front of every face is blue and the back is red.   By default, Blender uses a very saturated red 
+color that's too bright to be comfortable. So,   if you want to change it, you can go to Edit >> 
+Preferences >> Themes, look for the 3D viewport   and expand it, and scroll down until you find 
+Face Orientation Back. I just desaturated the red   color, but you can use any color that you like.
+Now to give the walls thickness, we're going to   use a Modifier. Modifiers change the geometry 
+of an object non-destructively, which is super   powerful. So, let's go ahead and click on the 
+Modifiers tab and Add Modifier. Start typing   “Solidify” and click on it or just select it 
+with the arrows and press Enter. Change the   mode from Simple to Complex and the thickness to 
+whatever thickness you want. I'll type 0.15, since   I want my walls to be 15 centimeters thick. All 
+right, now we have thick walls. The modifier   generated all of this extra geometry for us 
+and we can change the thickness at any point.  Now we go to Top view and analyze our walls. Let 
+me hide the image for a second. You'll notice   that some of the walls are incorrect. In my case, 
+this, this, and this wall, probably this one too,   have a weird shape. It's not straight, so we're 
+going to fix them. Now note that which walls are   wrong will depend on how you extruded the 
+vertices. So, if you're following along,   but not exactly, you might get a different thing, 
+but the fix is going to be the same. Let's turn   the modifier off by clicking on this monitor 
+icon here. This shows our original geometry   before the modifier. Whenever we have walls 
+with more than one segments like this one,   we need to make sure that all of the segments 
+are facing the same way and that the red side is   facing the direction to where the wall will gain 
+its thickness. Let's get the plan back again. So,   for example, this wall should gain its thickness 
+to the left. So, this face should be red,   which in this case is the other way around. Now 
+sometimes, and I'm not sure when this happens,   it's possible that you cannot see your floor plan 
+if you are in a perspective view. If this happens   to you, select it, go here to the data properties 
+and make sure that both Show In Orthographic and   Perspective are checked. If Perspective is not 
+checked, you'll only be able to see the plan when   you're in orthographic view, which you can easily 
+change by clicking on this button. In any case,   I want it to be visible in both, so I'm just going 
+to check it. Okay, now with the wall selected,   tab into Edit Mode, press 3 on the keyboard, 
+not the numbers pad, or click on this icon   for Face Select Mode. Now we select the faces by 
+clicking on them instead of selecting vertices.  Now all of the outer walls should be blue because 
+we want the walls to go inside of the house. So,   if on the outside of the house, you see any wall 
+that's red, select it by just clicking on it,   shift + N, and it should now turn blue. Next, 
+we need to make sure that the inner walls are   oriented in the right way. So, these three seem to 
+be right. The thickness of the wall should go that   way. So, we change this one, shift + N inside. 
+And we continue to check. This one's correct,   this one's correct, this one isn't, so shift 
++ N, that's good. And this one is also wrong,   so shift + N, this one, I think it could 
+go either way because of the way we did it,   so I'm just going to leave it there. And this 
+one should go this way, so that's correct. And   it seems to be that we are good. So again, make 
+sure that any wall that has several segments   has all of the segments facing the same way. 
+So, this one, this one, and this one. Okay,   everything seems to be correct now. So, let's go 
+again to modifiers and turn it back on, go to Top   view, and just review every wall to make sure that 
+everything looks good, which seems to be the case.  Okay, now that we fixed everything, note that all 
+of our geometry is now blue. Both sides of every   wall are now blue. And that's because the solidify 
+modifier is actually generating new geometry. So,   this wall has now this face, which is the original 
+face that we created in the previous step, but   also this face on the top, this face on the other 
+side, and the one below. And now if we actually   go into the wall, you'll see that inside all of 
+the faces are red, which makes sense, this is the   backside of each of these faces. So, everything 
+looks good, we can now go ahead and turn the Face   Orientation overlay off, we don't need it anymore, 
+and we can also show the Background and the Floor.   And this is what we have so far.
+Save your work with control + S,   and then Save As with control + shift + S, 
+and call this file the same thing with an   identifier at the end of the name. I'll just 
+call it FPTutB, Enter, Enter again. We wanna   have our history of files, in case we ever mess 
+up, we can always go back to our previous file.   That way we don't lose all of our work.
+Now the final note here is that if you   wanted some of the walls to be thinner, you 
+would need to create a separate Walls object,   and change the thickness of the Solidify Modifier 
+of that object to a different thing. With the   solidify modifier, there's no way to give 
+different thicknesses to different walls.  Okay, if you followed all the way, great job. 
+You've used some basic modeling, navigation, and   all of the transforms. A bunch of more advanced 
+tips and tricks, and even modifiers, so well   done! In part two, we'll be adding windows and 
+doors, and furnishing the plan, so see you there.

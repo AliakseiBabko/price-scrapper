@@ -1,0 +1,281 @@
+Welcome back to the final part of this three-part 
+series. This is what we had at the end of part 2,   so the walls, the windows, the doors, 
+furnishings. And we set up a very easy   lighting so that we could see what it looks 
+like. And now we're going to add materials and   lighting to make our floor plan look amazing. 
+I'm dude Blender and let's jump right in.  Alright, as before shift + control + S to Save As. 
+And let's call this FPTutC. Remember we want to   have a history of our files in case something 
+goes wrong and we need to go back. Alright,   let's begin with the floor. Make it visible 
+if it isn't already. And I'm gonna go to   the material preview shading by pressing Z and 
+pointing towards this one and releasing Z. This   shading mode allows us to see materials 
+without calculating the light bounces,   so it's faster than using the Rendered shading. 
+Okay, with the floor selected, let's go to   the Material properties. Scroll down with the 
+mouse wheel or hold the middle mouse button and   drag to see the rest of the menus and click 
+on Material Properties. You can also make this   larger. Let's add a material and three more slots 
+by clicking on this + button. One, two, three.  As we did in part 2, we're gonna be using my 
+starter kit that you can purchase from my Gumroad,   but you can really use any materials that you have 
+available. Since we're now using only materials,   we can go here to this filter icon, click on 
+it and uncheck Objects so that we only see the   materials. We can just drag and drop our material 
+from the ASsset Browser to the materials slot   where we want to apply that material. The first 
+material that you create on a mesh will be by   default applied to all of the mesh. I'm actually 
+gonna hide the floor plan because we have this   Z-fighting and I don't like it. So, let's just 
+go ahead and hide it here. And I will see that   the BeigeTiles material is applied to the whole 
+mesh. So now to use different materials, we need   to assign faces to the corresponding material. 
+So, I'm just gonna drag and drop all of the four   materials that we're gonna use in the slots that 
+we just created. So now this object, the Floor,   has all of these four materials related to it. 
+We now need to tell Blender which faces use which   material. So again, with the floor selected, let's 
+go ahead and tab into Edit Mode. And let's press 3   on the keyboard or click on this button right here 
+to activate Face Select mode. Since in part one   we made a face for each room, we can easily select 
+the faces to assign the material that we want. So,   let's start with the Bathroom. Let's just click 
+on that face. It becomes highlighted. Next,   here in your materials, select which material 
+you want to apply to that face. In this case,   we're gonna use the WhiteTile. This face is 
+selected so we can assign that material slot to   that face by clicking here on the Assign button. 
+Then the Bedroom, let's go with the WoodFloor,   Assign. And then the Mudroom, let's go with 
+CheckeredTiles, Assign. We've now got a different   material for each room, but I actually don't like 
+how it looks now. It's way too much. So, I think   that we can use the same floor for the Bathroom 
+and the Mudroom, and the same material for the   Bedroom and Living Room – Kitchen combo. So now we 
+can select this material and click on this button   and search for the material that we want. In this 
+case, it's WhiteTile. Enter. Now the material in   this slot changes to whatever we selected, 
+so all of the faces that had that material   assigned to it will automatically update. Let's do 
+the same with the Bedroom floor. We select this,   change this material from WoodFloor to BeigeTiles. 
+And now we have this material assigned here too,   but we still have our material slot.
+Okay, if you're following, you can just go   ahead and add any material that you want in your 
+rooms. And once you're happy with how it looks,   let's go to the Shading workspace. Make sure 
+we have Object selected in this menu. This   Viewport is different and independent from 
+the one that we have on our Layout workspace,   so it has its own perspective and the shading. So, 
+let's change that here to material preview. Now,   if you forget which of these slots are assigned 
+to which of the faces, you can select the slot and   click on select so that you see which faces have 
+that material slot assigned. All right, this is   the node tree of the BeigeTiles material. If you 
+don't see anything, it's possible that the tree is   hidden somewhere. So, you can either just zoom out 
+with a scroll wheel or press the home button so   that you can see all of the tree. I've highlighted 
+in orange the node that controls the scale. So,   we can zoom in here and click and drag left or 
+right to change this number until you get a scale   that you like for your tiles. Remember to press 
+shift to have more precision when you're clicking   and dragging. I'm just going to go with 0.5. And 
+note that we are changing the actual material. And   since the Bedroom and the Living Room and Kitchen 
+use the same material, the scale will change for   both. If we wanted different scales for each 
+room, then there's actually a few ways to do it,   and it depends on how the material is set up. 
+And for these materials, the way to do it is   to duplicate the material and edit that one. 
+To do that, we select a slot that we want to   change. In this case, it's this one, the one that 
+is assigned to the Bedroom. Now we're going to go   here to this button that says New Material, add 
+a new material and click on that. It creates a   copy of that material and assigns it to this 
+slot. You'll see that it adds a .001 because   you cannot have two different materials that have 
+the same name. We can just double click this and   change it to BeigeTilesBedroom, for example.
+Now this material, even if it's the same here,   it's a completely new instance, so if we change 
+this material that is only assigned to this face,   it will only have the effect on that face 
+and the other one remains intact. So, let's   say that I want smaller tiles in the Bedroom. I'm 
+just going to go with 0.7. Okay, that looks good,   so let's tab out. Let's actually go back to our 
+Layout workspace. We're going to add a material to   a couple of the walls. Now you might still be in 
+Edit Mode in the floor mesh, so just check here.   If you're in Edit Mode, just tab out to Object 
+mode. We now want to select the walls. Save your   work again with control + S and we're going to 
+go back here to the modifiers stack. Now at this   point, it's still relatively easy to make changes 
+to the walls if we wanted to. We would tab into   Edit Mode, 1 to go to Vertex Select Mode and maybe 
+alt + Z for X-Ray Mode so that we can select the   vertices beneath. And we could, for example, add 
+a new wall here by extruding these two vertices.   And so, we can still make changes. We could also 
+change the thickness of the walls if we wanted to.   So, we still have some flexibility in what we can 
+do to the walls. Now I'm just going to delete that   and go back to 0.15. So just make sure that you 
+don't have any changes to the floor plan because   after this point, making any changes might be 
+possible, but it would be extremely complex. So,   we're now committing to this geometry. You'll see 
+if I tab into Edit Mode that the geometry that's   created by the Solidify Modifier doesn't have 
+vertices. It is being dynamically calculated. But   after we commit to the modifier, all of this will 
+become real geometry and there is no way back.  All right, once you're ready, just go ahead and 
+click on this arrow and click apply or hover over   the modifier and press Ctrl + A. The modifier 
+disappears. And now if we tab into Edit Mode   and press Alt + Z to get out of the X-Ray mode, 
+you'll see that all of the walls have now real   vertices that we can grab and move and edit and 
+do all of those things. And the reason that we   need to do this and apply the modifier is that 
+now each face is independent. Before, this wall   and this wall were part of the same thing, so 
+we could not give them a different treatment.   And if we applied a material to the wall, we 
+would apply the same material on the outside   than on the inside. And in this particular 
+case, that's not what we want. So, we need   to commit the geometry so that we can select any 
+face that we want and modify that specific face   and nothing else. So, we now have full control 
+over our walls at the cost of flexibility. So,   if we ever wanted to make the walls thicker now, 
+it would be very complicated to do. We would   have to move like specific vertices and do each 
+wall one by one. So that would not be practical.  Now with the wall selected, let's go back to 
+our Material Properties menu and add a new   material. Remember, this material is by default 
+applied to all of the walls. Let's just rename   this to WallsDefault. So, if we ever want to 
+change anything like the color or the texture   of the walls that have no material applied to 
+it, we can just do it here. Let's add a new   material slot and tab into Edit Mode again, Face 
+Select. Let's select this wall right here. Oh,   one thing to note, if you're in X-Ray Mode, which 
+you can toggle with this button or with Alt + Z,   instead of clicking on the wall, you have to click 
+on the center of the wall, which is this tiny dot.   I don't even know if you can see it in YouTube, 
+but if you want to make this bigger, you can go   to Edit >> Preferences >> Themes >> 3D Viewport, 
+scroll all the way down until you see Face Dot   Size. Let's change this to at least 3. You make 
+this smaller, 4. Might be a little bit too big,   but you get the idea. So, if you're in X-Ray Mode, 
+you need to click on the actual dot. Okay, I don't   want that, so let's turn that off and select this 
+face. Now select the material and assign it to   that wall. Of course, there's nothing here now. 
+Now let's drag the Brick material to that slot.   You'll see that it doesn't work immediately and 
+that's because of how the material is set up. So,   let's go back to the shading workspace, press 
+Home so that you see the whole tree and this   is the Brick material. So, to avoid the need of 
+UV unwrapping the walls, which would probably be   more complicated. I set the material in a way that 
+we just need to change the orientation. To show   you how the mapping works, let me create a Mesh 
+>> Plane and move it a little bit in Z and I'm   going to add the Brick material to this plane. 
+So, this is by default how the material is set   up. If I extrude this in Z, you'll see that the 
+texture on this side is just this edge stretched   down and that's not what we want. So, what we need 
+to do is rotate this in X by 90 degrees and then   rotate it in this direction, which you would think 
+it's the Z direction, but it's actually the local   Y direction of the plane. See, before I rotated 
+it the first time, the Y plane is this one. So,   we rotate it in X 90 and then rotate it in Y, but 
+in the local Y 90 degrees. And then we have the   right orientation. That's the exact same that 
+we need to do. So, we're going to rotate it   in X and Y by 90 degrees. You can just click and 
+drag to select both fields at the same time, 90,   Enter. And then we have the correct orientation.
+So, let's say that we want to change the texture   on this wall and we want a wavy texture. So same 
+thing, we select the wall, add a new material,   assign that material to the wall. We can drag 
+here to create a new panel and select the Asset   Browser. Select our StarterKit library. 
+I can just filter out again so that we   only see the materials. And let's say we want 
+the TexturedWall3. We can just drag it here,   drop it. And now it's being applied to that wall. 
+You'll see that this one doesn't need remapping,   and the reason is that if I press home here, 
+this is made with a Voronoi texture. And in fact,   all of the textured walls, TexturedWall2, work 
+without the need of remapping because they use   either a Noise Texture or a Voronoi Texture. And 
+now we have this wall with the wavy material,   this wall with the brick texture and the rest 
+of the walls with the default material that we   could also change. And let's actually go ahead 
+and change that to a, I don’t know, beige color,   I think looks okay. Or this sort of warm gray or, 
+you know, any color that you like. I'm actually   just gonna leave it in white, but you could 
+change it here. Now, if you wanted, you could   also change, for example, the door material. There 
+are actually a couple of ways to do it. You could   just say, select this side of the door, select the 
+door material. And here we could just select any   other material that exists in the scene. This 
+is a cool trick because once we've added some   of the furniture, we have access to these wood 
+materials, so we could use the same thing. We just   go ahead and click, search for wood and use any 
+of the materials that we have. Let's just go with   Wood2 and it changes the material. Then we could 
+do the same thing with the rest of the parts.  Now, there's another thing that we could do. We 
+could just actually copy the material, the nodes,   and then go here to door material, delete all of 
+this and paste the material that we copied. Then   we can just connect this here. And now, since 
+we changed the material, everything that uses   that material will also be changed. We could do 
+the same thing with the windows, for example. We   could select this part and Window_material. 
+So, let's just delete this and we could just   connect that here and make something, I don't 
+know, metallic. Maybe a little darker. We could   also change the glass if we wanted to. I'm not 
+going to do that. And now for the closet doors,   since we probably don't want these to be 
+glass, we could just copy the material and   change the transmission weight to 0 and maybe 
+change the color if we want to. Something like   that maybe works and we can change the name 
+to closet doors. We could of course add a wood   material if we wanted to. So, we can use any 
+of the techniques that we've learned so far.  Now, one final trick, if we want to 
+change all of these at the same time,   so we click to select all of these, shift to 
+select all of them and we select the one that we   want to copy the materials from, last. So, shift 
++ click. Now, all of these objects are selected,   but this is the active object. So we press 
+control + L for the Link/Transfer Data menu, Link   Materials. And now we've got that. I just figured 
+out that this door is the other way around. So,   let's just go ahead and go to Create >> Archimesh 
+and let's rotate this 180. And remember that any   time we change something, we need to place our 
+cutter back on the cutters collection. We also   need to relink the material. So select these two 
+and then either of these, control + L >> Link   Materials. Done. I'm going to leave it at that. If 
+you want to continue experiment changing different   materials for different walls or different floors 
+or even the furniture, just go ahead and do so,   nock yourself out, have fun, and once 
+you're done, we can move on to the lighting.  All right, let's save our work. Go back 
+to our layout workspace. So, in part two,   we created a very simple global lighting with our 
+Nishita Sky Texture. If we go to rendered mode,   we can see what that is. That's kind of like 
+a sunset and there's global illumination. The   thing is that for a realistic render, this is 
+not good. So, I want to show you how to use an   HDRI here. And then after that, the way that I 
+actually light scenes. So, I think we don't need   this anymore. Let's make it smaller. And now first 
+you need an HDRI, so you can go here to Poly Haven   and here you have a bunch of free stuff. So, an 
+HDRI is basically 360 degrees photograph that   you can use for lighting the scenes. You want to 
+use indoor lighting because that will give you   the more realistic look of the things that are 
+inside the house. If you want to, for example,   make a render that looks through the window, you 
+might want to use something like urban and find   an HDRI that has things that would be interesting 
+to look at from the window. So, for example, other   buildings, a park or in general, any urban scene. 
+If you do that, I'm just going to go with this   Buiksloter… What? I'm just going to go with this 
+one. And if you want to be able to look outside,   you want to get assets that have good definition. 
+So at least 8K better if you have 16K and if your   computer can handle it, 24K. Let me see how 
+big this file is. Oh man, 3 gigabytes. I'm just   going to go with the 16. That's way too much. 
+Okay, I'm going to use the 8K texture, but you   would probably want to use a higher resolution. 
+I just don't want to wait for it to download. So,   download the file. Now, once you've downloaded 
+the file, I actually recommend you have a folder   where to store your HDRIs because it's something 
+that you use a lot. So, I think that this is the   default folder where Blender has the HDRIs that it 
+comes with and it’s actually kind of difficult to   find. So, it's probably better if you just make a 
+folder in your computer that you know where it is   and that you can access easily. I've downloaded 
+my file and copied it to this folder. It's right   here. Close this and go back to Blender. Now to 
+use an HDRI, there are actually a couple of ways   to do it. One is here in the world properties. 
+We change the color, we press here in the yellow   circle to Environment Texture and we open the 
+HDRI file. So, since it's very difficult to find,   I have it here in my bookmarks world and I 
+have all of my HDRI's here. Whenever you're   in a folder, you can click on the + button to 
+bookmark it and have it here for quick access.   So let's select our buikslotermeerplein, double 
+click that and you'll see that it's now here.   So that's kind of a faster way to do it. I use 
+it in the shading workspace where you can see   your materials. You can also change this from 
+object to world. I'm going to zoom in and you   have it here. I'm going to go to rendered view 
+and you'll see that it applies the material all   around and even below. And the image works as a 
+source of light, so in this case, it's a cloudy   day and then it's going to have a very diffuse 
+light, but it does look like you're outside.  Let me go back to Layout. I'm going to create 
+a new panel here. I'm going to add a camera.   You don't need to do this. I'm just showing you 
+what you might want to do. So, I add a camera,   move it up a little bit and let's place it 
+wherever there's a window, so let's say here   in the bedroom and here I actually want to move 
+the camera here and I'm going to go to the camera   view on the one on the left, so press 0 and I'm 
+just going to make the camera very wide. So,   something like I don't know 16. Okay, I don't 
+want to say that in my render. I don't want   people to know that we have no roof. Okay, so I 
+just noticed that I actually changed the material   of the Bathroom doors. So, let's use actually 
+this one and link that link materials. All right,   and these are wrong as well. So, we select 
+these two this one and link those. Okay. Now   one thing that happened here is that when I made 
+the bathroom doors, I actually changed the glass   material. Now my windows, the ones that actually 
+should be completely transparent are not. So,   we're going to add a new glass material. I'm just 
+going to change the name to Glass_materialBathroom   and then select this, this, this, this one last 
+control + L >> Link Material. So now all of our   doors have the Glass_materialBathroom and now 
+I can just, whoops. Now I can just select any   object that has the glass material and I can 
+actually change this to glass. So, we can   change the Principled BSDF to, scroll up, Glass, 
+Roughness, let's do 0.1. I just do 0.05. Okay,   now if I render this then you have your room 
+with something to look at through the window.  Now in general, I don't use the floor 
+plans like that. I will usually just   have renders that go from the top view 
+or with a little bit of perspective,   but I usually don't do renders inside the house, 
+which you could do, but keep in mind that these   assets are not designed to be photorealistic.
+Okay, so that's one way to do it. The second   way and it's the one that I actually use is just 
+by using a light. So, Shift + A >> Light >> Area   move this in Z a little bit go to top view move 
+it close to the center, scale it up. We can go to   Shading and delete this go back to Layout and we 
+can just turn the strength to 0 because we don't   want any global lighting to affect our scene. 
+Now we go to Rendered, select the light, and   with the light selected go here to Data – or the 
+Light Properties – and change this to something   like 1500. I'm just gonna make the lamp a little 
+bigger and that is actually the lighting that I   would use. I don't think we need that much more.
+However, we do have a couple of tricks. The first   one is getting the right exposure. The way 
+we do this is we go to Render Properties,   scroll all the way down to Color Management expand 
+that and change the view transform from AgX or   whatever you have selected to False Color. You 
+can now see a sort of exposure heat map that you   can use to get the right exposure for your scene. 
+So red is overexposed or it's just going to look   white on the render, which is not necessarily 
+bad. You might want to have some red part. Blue   is either underexposed or it's something that's 
+just black and it's not reflecting any light. So,   the TV, the screen is always going to look blue. 
+Now we do have a lot of red here. So, let's select   the light again and go to the Properties and we 
+can just turn this down, let's say to 1000. We   probably have too much blue here, here, on this 
+wall, so let's increase this to 1250. I think   that looks good. It doesn't really matter that 
+much that this part, the top part of the walls,   is overexposed because we know that the light is 
+very close. Maybe I can even go a little bit less.   I want to go 1150, 1100. Okay, I think this is 
+good. There's this is red. There's a little bit   of orange and there is a little bit of blue. So, 
+I'm actually just going to leave it in 1150. So,   we can then just go back here to Render Properties 
+scroll all the way down change this from False   Color back to AgX and look at your scene. And then 
+here you can just fine-tune again. Maybe you do   want to go 1200. That's a good way to figure 
+out a good starting point for your lighting.  The second trick is changing the color of the 
+light and of course here you can select any color,   but it's very likely that you will not get 
+natural results like this. So, a way to do   that is by clicking on Use Nodes here in color. 
+We're going to click again on the yellow circle   and we're going to select here from the Converters 
+>> Blackbody. So, this is the natural scale of   light you go from warmer that would be the color 
+of light that’s emitted by, for example, fire and   then all the way to the right to cooler lighting 
+which would be like a morning light. So, the   smaller the number the warmer the light. You'll 
+see that around 5000 - 6000 is a neutral white   light. It defaults to 1500 Kelvin which is way too 
+hot unless you're making a dungeon or something   that actually uses fire to light the scene. We 
+don't want that, so let's begin with something   like 5000 and it looks way too blue and the 
+reason is not because this is too cold but because   we still have this color even if we have the 
+blackbody this will still influence that color.   So, let's reset this back to white so that we can 
+actually see this color. Most of the time you'll   want to be between 5000 and 6000. I'm probably 
+going to go with 5400. I do like how the warmer   colors look. I'm just going to leave it at that.
+This door has the wrong material. So, I'm just   going to change it to glass material bathroom 
+and this one too. All right. Let me add a camera,   Control + Alt + 0 to set the camera to that 
+perspective and let's just move the camera a   little bit. Give it a quick render with F12 
+and this is looking good. The bricks are a   little bit small. I'm just going to go here, 
+Shading change this to Object, select brick.   Let me go to material preview and let's change 
+this to something like 0.6. That looks good.  Go back to Layout and we're basically done but 
+I'm going to show you one more trick. This is   completely optional but it's a good tool to know. 
+It's called Freestyle and we're going to use it to   render strokes on the walls. The reason you 
+might want to do this is, one: because you   might like how it looks, but the second one is: 
+sometimes there is not enough contrast between   say a wall and the wall that's behind it or 
+even the background maybe here even on the   refrigerator. So, in order to make it easier to 
+know where the wall edges are you might want to   have those strokes, so let's go ahead and do that. 
+We're going to go here to Render Properties scroll   down until you find Freestyle and check that if we 
+expand this we'll see a few options but we don't   need to change that here. Once we enable this if 
+you go to the View Layer Properties and scroll   down we'll see that there's a whole new Freestyle 
+section with a bunch of panels. Find Freestyle   Line Set and expand that. Let's scroll down and 
+check Collection. So, the idea is that we want   to tell Blender over what objects to render the 
+strokes. In this case we only want to do that on   the walls, so we're going to make a collection add 
+the walls to that collection and then select that   collection here. So, the wall selected, M >> New 
+Collection. Let's call this Freestyle. Now here   we select Freestyle. Make sure that Negation 
+Inclusive is selected. Next go to Freestyle   Thickness and change to the Base Thickness to 1.5. 
+You can change this number later if you want to.  All right. Let's give it a render and 
+see what we get. Note that rendering   the Freestyle takes a while. It increased my 
+render time to 36 seconds almost 37 from less   than 10 seconds that the previous render took.
+Now to get the perfect camera angle press 0 on   the numbers pad to go to the camera view and 
+click on this icon to lock the camera view.   Now you can navigate normally but you're 
+still looking through the camera. Yeah,   just navigate to get the perfect angle that 
+you want. And once you have it you can zoom in   and zoom out. And once you have it don't forget 
+to unlock this because if not, you continue to   navigate and lose the angle that you already had. 
+So, get your angle and unlock the camera so that   you can now navigate without moving the camera.
+If you made it this far great job. There were   some relatively advanced concepts in this 
+series so congratulations! I hope you enjoyed   it and found it useful. That's it for the 
+series. I'm Dude Blender. Happy blending.

@@ -109,9 +109,45 @@ With no scale bar, the practitioner scales a whole plan off a normative door wid
 - ⚠️ **The two sources do NOT agree on WHICH direction**, only that consistency is required. **Clockwise is that tool's convention, not a universal.**
 - **→ The evidence is now strong enough to settle the standing open item.** The rule should be stated **affirmatively** in `.agents/skills/residential-bim-geometry-rules/` — traverse the perimeter in one consistent direction, and **name which** — rather than merely flagged as a hazard. [source: [[_Sources/YT_xlmbZHIaHJw_cgessentials_homebuilder_floor_plan_from_scan|YT_xlmbZHIaHJw]]]
 
+##### ⚠️⚠️ A THIRD source gives the mechanism — it is the FACE NORMAL — and a way to CHECK it by eye
+
+> *"Whenever we have walls with more than one segment, we need to make sure that **all of the segments are facing the same way**, and that **the red side is facing the direction to where the wall will gain its thickness**."*
+
+**The procedure is a visual gate.** Turn on the **Face Orientation overlay** — **blue = front, red = back** — and walk the model: *"all of the outer walls should be blue, because we want the walls to go inside of the house."* Anything red on the outside is flipped with `shift + N`. He checks every internal wall and flips three.
+
+> **→ ⚠️⚠️ THE DIRECTION IS THE FACE NORMAL, AND IT IS RENDERED AS A COLOUR.** Three sources now, three tools, three regions, one rule. **And this is the only one that supplies a CORRECTNESS CONDITION you can see: blue outside, red toward the thickness** — a whole-model property with a defined pass state, checkable at a glance. **That is the shape of a validator, reached by a practitioner with no validator vocabulary.** ⚠️ He finds one genuinely ambiguous wall and says so.
+
+##### ⚠️⚠️ …and therefore the drawn line is a WALL FACE, not a centreline
+
+> *"In a later step, we're gonna tell Blender **to what direction will the walls gain their thickness**. So ideally, **you want each vertex to be on either side of the walls**… in a real project where all the measurements are correct, **the vertex would have to be aligned to one of the sides of the wall**."*
+
+> **→ Because thickness grows ONE WAY from the drawn line, the line has to BE a face.** Third independent treatment of the centreline question — with [[_Sources/YT_Q4rbqUbhYXY_architecturetopics_blender_floor_plan_from_image|Q4rbqUbhYXY]] (*use surfaces; the line method generates problems*) and this project's own `clear_mm` plus corner-ownership ledger. **All three land in the same place.** ⚠️ **And he then declines to do it** — *"because I know that there's a lot of rounding errors, I'm not gonna do it"* — **an explicit statement that the tutorial's geometry is not dimensionally sound.** [source: [[_Sources/YT_94kAIpRnhcY_dudeblender_floor_plan_series|YT_94kAIpRnhcY]]]
+
+### ⚠️⚠️ Chain closure on a traced plan: internal dimensions are CLEAR, the overall is GROSS, and the difference is the walls
+
+> *"You'll note that if we add these dimensions, **1.8 + 1.8 + 3.1 results in 6.7, which is not exactly 7**… And the reason here is that **there are walls and they have thickness. And we have to account for the thickness of those walls.**"*
+
+**He runs the sum, sees a ~300 mm mismatch, and reaches the right explanation instead of adjusting a number until it closes.**
+
+> **→ Standing rule 9's chain-closure clause executed on a traced plan — and it is the LINEAR counterpart of a distinction this vault already holds for areas** (*developer plans are clear/net, БТИ are gross*). **Recorded as the clean statement of it for lengths, and it is the most common way a traced plan goes wrong.**
+>
+> ⚠️ **He also flags that his own unit conversion is a source of error**, and attributes a visible gap in the traced outline to it: *"there is a little bit of mismatch here **because we changed the units**."* **Instructive against [[_Sources/YT_p3Q7jNyRAtI_sfeviz_precise_plan_from_bad_image|p3Q7jNyRAtI]], where the same imperial→metric conversion was delegated to an LLM and never checked. A converted dimension is a DERIVED figure and carries the conversion's error.** ⚠️ Where a dimension is simply missing, his fallback is stated: *"ask the client, or you can just eyeball it. **I usually round to the nearest 10th of a meter**."*
+
 #### ⚠️ And an element has an ANCHOR, which is a datum for one object
 
 Adjusting a door's width: *"I'm going to **adjust my anchor type so that it stays that CENTER width**."* **→ Changing a door's width moves one jamb, both jambs, or neither, depending on an anchor nobody thinks about.** Same family as the bottom-left-of-wall origin two unrelated agents silently chose (§1) — **an anchor is a datum for a single element, and it is equally implicit.**
+
+### ⚠️⚠️ Geometry-integrity rules a practitioner states as invariants
+
+**From the same three-part series. These matter because they are stated in advance and are falsifiable — which is rarer in this material than any modelling technique.**
+
+- **⚠️⚠️ Never extrude along an existing edge.** *"I now have **two overlapping edges** here, and that will cause a bunch of problems in the future."* The correct move is to subdivide (`Ctrl+R`) and slide the new vertex. **→ A duplicate edge is invisible and breaks everything downstream — the same class of defect `tools/layout/check_wall_junctions.py` refuses.**
+- **⚠️ Merge-by-distance as the doubled-vertex check — SECOND independent instance**, after [[_Sources/YT_Q4rbqUbhYXY_architecturetopics_blender_floor_plan_from_image|Q4rbqUbhYXY]]: *"select all, M → By Distance. And **it will show here if you deleted any vertices**."* **Two unrelated presenters, same habit: this is community-standard practice.** ⚠️⚠️ **And it carries the same flaw both times — it deduplicates and reports in one operation, so a non-zero result SILENTLY FIXES the defect instead of refusing it.** `00_Master/Validator_Design_Discipline.md` names exactly this: *a collection that deduplicates destroys the defect being checked.* ⚠️ The **Auto Merge** mode he also uses is the preventive form, and is worse on the same axis — it merges as you work, with no report at all.
+- **⚠️ Object scale must be applied back to 1** (`Ctrl+A → Scale`), because *"it interacts with a bunch of other things like modifiers and textures."* **→ A non-unit object scale silently corrupts downstream operations. A dimensional hazard, not a cosmetic one.**
+- **⚠️ An operation whose scope depends on invisible prior state.** `Select Pattern` *adds* to the existing selection, and *"if you don't notice that you did that, it might cause trouble later that you will have no idea why that happened."* His defensive habit: select-all, deselect-all, then pattern. **→ Third instance of this failure class**, with Bonsai's type-versus-instance modal selection and the active-collection default. **Something always carries state you are not looking at.**
+- **The origin is deliberately set to a building corner**, *"to keep everything tidy."* **→ ⚠️ A third independent instance of the corner-as-origin convention**, after the two unrelated agents that silently chose bottom-left-of-wall (§1). **The convention is not an AI artefact — it is what people do.**
+
+[source: [[_Sources/YT_94kAIpRnhcY_dudeblender_floor_plan_series|YT_94kAIpRnhcY]]]
 
 ### ⚠️ The ink has width, and the width is an error term
 
