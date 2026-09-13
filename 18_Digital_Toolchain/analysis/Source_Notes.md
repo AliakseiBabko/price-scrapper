@@ -70,3 +70,20 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 | [`YT_tJSS-IWrJoE`](../../_Sources/YT_tJSS-IWrJoE_sketchupessentials_ai_render_tool_selection.md) | TheSketchUpEssentials | **Edit-consistency as the render selection criterion** | 2 (near-skip) |
 
 **Round 2 yield**: 11 videos processed, 77 new facts, yield = **7.0** per processed video — **above Round 1's 5.1.**
+
+## @ConstructIQ Tier 1 round (2026-09-13)
+
+**The five-video Tier 1 round recommended by [`constructiq_channel_triage_20260913.md`](../../_Inbox/planning/constructiq_channel_triage_20260913.md).**
+
+> [!WARNING]
+> **⚠️⚠️ ALL FIVE ARE ONE PRACTITIONER — Tim Fairley / @ConstructIQ — bringing this vault to NINE of his videos.** Nothing here corroborates anything else of his. The product funnel is constant. **Where a claim from him matters, it needs a second, unrelated voice.**
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_VrSs8mGI8ss`](../../_Sources/YT_VrSs8mGI8ss_fairley_takeoff_to_priced_bid.md) | **Take-off → priced bid end to end**; the rate-flagging gate; first-cut-then-check; the scope-gap reconciliation | 16 |
+| [`YT_wgcOBhejKvo`](../../_Sources/YT_wgcOBhejKvo_fairley_agent_collision_and_git_for_knowledge_work.md) | **File-versus-line: why agentic harnesses break on documents**; his own architecture publicly retracted | 12 |
+| [`YT_8aSYNMXk33A`](../../_Sources/YT_8aSYNMXk33A_fairley_eight_levels_of_context.md) | The context ladder; **the two problems skills solve**; the router-file pattern | 12 |
+| [`YT_sjcDHXReSNI`](../../_Sources/YT_sjcDHXReSNI_fairley_workflow_systems_failure_modes.md) | **Four failure modes of a standalone workflow**; the slop problem; the **skeptic step** | 11 |
+| [`YT_LBN9xF_rs1w`](../../_Sources/YT_LBN9xF_rs1w_fairley_subagents_and_lost_in_the_middle.md) | **"Lost in the middle"**; the sub-agent fresh-context mechanism | 8 |
+
+**Round yield**: 5 videos, 59 new facts, yield = **11.8** per processed video — the highest of any round in this folder (Round 1 5.1, Round 2 7.0).

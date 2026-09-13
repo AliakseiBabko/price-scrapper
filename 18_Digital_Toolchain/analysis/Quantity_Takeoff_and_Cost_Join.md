@@ -112,6 +112,37 @@ Detail page for [[18_Digital_Toolchain/Digital_Toolchain_Guide|Digital Toolchain
 - **Native capability is not enough, and it is worth knowing why**: SketchUp Pro has an advanced-attributes **price field** and a report generator, and a practitioner who used it calls it *"really limited… not nearly as flexible."* **A price field that cannot aggregate by tag, material, length, area, volume and weight is a price field, not a cost engine.**
 - **Quantities can be pulled with no plugin at all** — the native Entity Info tray gives a face's area, a line's length, and **multi-select gives total wall area net of openings, floor area, or whole-flat perimeter.** That is exactly the aggregation the commercial extensions automate.
 
+## 6. ⚠️⚠️ An end-to-end take-off→price workflow, and the two gates in it
+
+**The only source in this folder that carries the join all the way to a priced bid.** ⚠️ It is a commercial contractor's tender process — this project has no bid, no tender and no client — **so it is read for the DIVISION OF LABOUR and the CONTROL STRUCTURE, not the bid machinery.** [source: [[_Sources/YT_VrSs8mGI8ss_fairley_takeoff_to_priced_bid|YT_VrSs8mGI8ss]]]
+
+### ⚠️ The contrarian claim: the assemblies are the work, the measuring is not
+
+Flagged by him as his own opinion that others would dispute:
+
+> *"The annoying thing about doing a quantity take-off is SETTING UP ALL YOUR ASSEMBLIES… By the time you've customised these with all the correct sub-items, all the correct secondary quantities, that is the time-consuming thing. When you're actually going and measuring stuff from the drawings, it genuinely doesn't take that long."*
+
+**His method follows from it, and it is the transferable part:**
+
+- **Keep a BASE ASSEMBLY LIBRARY** — standard breakdowns for walls, concrete, earthworks — **already carrying the productivity rates.**
+- **A skill SPECIALISES the standard assembly to the project**: it reads the material specifications called out on the drawings and turns a generic "blockwork wall" into *"wall type 3 as specified on this project"*, with the right depths, volumes and reinforcement.
+- **⚠️⚠️ And the critical framing of what the model actually does: *"Instead of using AI to do the counting, we're using AI to EXTRACT THE MATERIAL SPECIFICATIONS AND TEXT TAGS."*** It reads the **text layer**, not the geometry — consistent with §3's counting-versus-measuring split. His reason: *"wall type three isn't a generic universal term. It is specific to this construction project."*
+- **Measuring stays manual.** *"AI isn't reliable at this step, so it's better to just do it manually."*
+
+### ⚠️⚠️ Two gates on the pricing step
+
+1. **⚠️⚠️ IT FLAGS EVERY RATE IT DOES NOT KNOW.** *"Importantly, I get it to flag any rates where it does not know the rate."* The unknown rate is then quoted or recorded as an explicit assumption.
+   **→ An explicit "no rate for this" output instead of a silently invented one. This is the silently-supplied-values rule applied to PRICES rather than to geometry**, and it is the single most transferable control in the source. **Cheap to adopt in any costing sheet: a required provenance field that cannot be left blank.**
+2. **⚠️⚠️ The delegation is scoped as a principle: *"It's always just moving information around."*** The model transports rows from the take-off CSV into the estimate's direct-cost sheet — *"the task I know it can do reliably and accurately"* — and is **not** relied on for judgement. **Delegate transport, not judgement.**
+
+**⚠️ A practical limitation that generalises: a spreadsheet assistant could not see his `CLAUDE.md`** — it knows spreadsheets and nothing about construction. **His workaround is an "AI instructions tab" inside the workbook** describing its structure and where each kind of information lives. **→ When a tool cannot reach your project context, put the context INSIDE the artefact.**
+
+### ⚠️ Indirect cost is a function of duration
+
+**Direct cost is the physical work; indirect is managing it. The key input to indirect cost is the project's DURATION**, and for a self-performing outfit he says no AI is needed: **total labour hours → assume a crew size → forecast duration → allocate.** **The largest indirect cost is recurring overhead, and it scales with how long those roles run.**
+
+- **⚠️ Relevant here despite the commercial framing: a self-managed renovation's equivalent indirect cost is the owner's own time and the duration of disruption**, driven by the same variable. See [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration and Scheduling]].
+
 ## Related
 
 - [`toolchain_gap_analysis_20260908.md`](../../_Inbox/planning/toolchain_gap_analysis_20260908.md) §B — **this project's own cost-engine design**, including the substitution-first correction, the cascading-task rule, and the `[Trade]-[Task]:[Room]:[Resource]` taxonomy.

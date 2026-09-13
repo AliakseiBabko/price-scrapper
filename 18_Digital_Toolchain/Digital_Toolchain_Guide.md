@@ -28,6 +28,12 @@ Why a PDF drawing set is a bad input to a language model, what measurably fixes 
 
 → **[[18_Digital_Toolchain/analysis/AI_Reading_Construction_Drawings|AI Reading Construction Drawings]]** — **the tiling mechanism** (a drawing ≈ 4,000 tokens, and the meaning lives in features smaller than a tile); two vendors' own published limits, both naming **counting**; **a measured benchmark** — 86% / 98% / 100% accuracy at 104,000 / 66,000 / 1,400 tokens; **index by the physical object, not by the sheet**; per-measurement confidence tiers; **counting from vector data is reliable and scaling a raster is not**; and the order-of-magnitude cross-check that independently restates standing rule 9.
 
+### Working with agents as a system
+
+Not how to get an agent to do one task — how to arrange context, skills and multiple agents so the results are reliable enough to rely on.
+
+→ **[[18_Digital_Toolchain/analysis/AI_Workflow_Systems|AI Workflow Systems]]** — **four failure modes of a standalone workflow** (including "the output gets lost in a mountain of slop" and "undocumented process cannot be improved"); **why agentic harnesses break on documents — git works because the unit is a LINE, knowledge work's unit is the whole FILE**; the context ladder and the router-file pattern; and four genuinely new items — **"lost in the middle"**, completeness-checking-needs-a-baseline, the **skeptic step**, and the sub-agent fresh-context mechanism. ⚠️ **One practitioner throughout; mostly validation of an architecture this repo already has.**
+
 ### Quantity take-off, and the cost join
 
 How a quantity gets out of a model and becomes a priced line — **the one genuinely absent tool in this project's own toolchain.**

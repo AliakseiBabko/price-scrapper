@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=LBN9xF_rs1w",
+  "video_id": "LBN9xF_rs1w",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T17:48:08.781284+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f53464967819fe6a5a60244480792729f741b28ec184badc4c4934d0572aa1c7",
+  "attempts_before_success": []
+}

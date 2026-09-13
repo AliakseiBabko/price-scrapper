@@ -992,3 +992,13 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_YkHGQPfZEgM** — Upstairs — plan presentation. `fact_yield: 4`, **partially processed** — styling recipe not routed.
 - **YT_BEHlmJCKvTA** — TheSketchUpEssentials — model comparison. `fact_yield: 3`, **partially processed** — method only, verdict discarded.
 - **YT_tJSS-IWrJoE** — TheSketchUpEssentials — AI render tool survey. `fact_yield: 2`, `promotional_ratio: high`, **near-skip against a pre-written conditional**.
+
+### @ConstructIQ Tier 1 round (added 2026-09-13)
+
+*The five-video Tier 1 round from the @ConstructIQ channel triage. **⚠️ All five are ONE practitioner (Tim Fairley), bringing the vault to NINE of his videos — nothing here corroborates anything else of his.** English throughout, original-language captions. No prices carried (AU market); no regulatory content.*
+
+- **YT_VrSs8mGI8ss** — "How to Estimate a Construction Project with Claude AI — Take-Off to Priced Bid". `fact_yield: 16`, `promotional_ratio: medium`. **The quantity→price join end to end; the rate-flagging gate; first-cut-then-check; the scope-gap reconciliation.**
+- **YT_wgcOBhejKvo** — "I Run Multiple AI Agents at Once — How I Stop Them Colliding". `fact_yield: 12`, `promotional_ratio: low`. **File-versus-line root cause; publicly retracts his own earlier architecture.**
+- **YT_8aSYNMXk33A** — "Claude Context for Construction — System Prompts, Skills and Structured Data". `fact_yield: 12`. **The context ladder; the two problems skills solve; the router-file pattern.**
+- **YT_sjcDHXReSNI** — "I've built over 100 AI workflows — what's actually hard". `fact_yield: 11`. **Four failure modes; the slop problem; the skeptic step.** *(Fetched 2026-09-13 as the triage spot-check; status moved inbox → archived.)*
+- **YT_LBN9xF_rs1w** — "Why AI Struggles with Big Construction Documents (Claude Sub-Agents)". `fact_yield: 8`. **"Lost in the middle"; the sub-agent fresh-context mechanism.**
