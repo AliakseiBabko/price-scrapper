@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=DgovrfgLxYs",
+  "video_id": "DgovrfgLxYs",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T19:58:04.887725+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a4d4bc146dc011980d0232bcbd35c870b04ad40604b60c02867f6dece9f37ef4",
+  "attempts_before_success": []
+}

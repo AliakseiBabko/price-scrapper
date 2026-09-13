@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=fxpIg-su-00",
+  "video_id": "fxpIg-su-00",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T20:10:25.221656+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4fd0942bdbaab6a15af4e9ffad17510bc5b1f5da21d80d44b8d27ade70be378f",
+  "attempts_before_success": []
+}

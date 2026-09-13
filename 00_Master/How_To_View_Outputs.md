@@ -93,6 +93,24 @@ the `.ifc` directly. This is the only route where the model answers questions:
 click a wall and read its phase, click a room and read its area. Worth setting
 up once.
 
+> [!WARNING]
+> **⚠️⚠️ Do NOT press `Ctrl+S` in that session. It writes to the `.ifc`.**
+>
+> Once Bonsai has a `.blend` and an `.ifc` connected, **the save shortcut saves
+> both** — an ordinary `Ctrl+S`, or `File → Save`, rewrites the model file you
+> opened to look at. Blender users press it by reflex.
+>
+> **Nothing currently catches this.** `check_dxf_closure.py` and
+> `raster_fidelity.py` both assert the **DXF** against `data/canonical/` and the
+> source PDF; **a mutated `.ifc` that nothing re-derives from is checked by
+> neither.** The model files under `data/outputs/` are build products, so a
+> stray save is recoverable by rebuilding — **but only if you notice.**
+>
+> **Until this is gated, treat viewing as read-only**: rebuild rather than trust
+> a file you have had open. Source and the two candidate fixes (read-only
+> viewing copy, or hash the IFC in the batch gate):
+> [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]] §6.
+
 **3. Convert to glb** — the repo ships the converter:
 
    ```powershell

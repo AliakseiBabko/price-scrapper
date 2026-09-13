@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=mq63GWbgWdM",
+  "video_id": "mq63GWbgWdM",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T20:02:38.772911+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "602c3437e26417676e4e3dded78045ff0f5619106c7a269d2cecb5b573068b50",
+  "attempts_before_success": []
+}

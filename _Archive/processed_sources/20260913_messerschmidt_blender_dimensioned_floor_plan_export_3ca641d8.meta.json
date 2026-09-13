@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=YYmFMxMV6io",
+  "video_id": "YYmFMxMV6io",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T20:05:41.407722+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "3ca641d8dd1036c1ba3423485545a14e000efd0be08e11868f5783bfb63176c0",
+  "attempts_before_success": []
+}

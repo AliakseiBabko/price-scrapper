@@ -106,3 +106,24 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 | [`YT_ZS_tnIN0zoA`](../../_Sources/YT_ZS_tnIN0zoA_archmaster_seven_tools_roundup.md) | **Undisclosed self-promotion**; two capability categories | 2 (near-skip) |
 
 **Round yield**: 10 videos, 70 new facts, yield = **7.0** per processed video.
+
+## Bonsai / IFC / Blender batch (2026-09-13)
+
+**Eleven owner-supplied videos plus two channels.** All eleven `en-orig`, each verified from the caption manifest before fetching. **One re-record pair handled once** (`xXmvs0PK_Bg` → `duplicate_skipped`, folded into `mq63GWbgWdM`). Triage, channel assessment and outcome: [`bonsai_ifc_batch_20260913.md`](../../_Inbox/planning/bonsai_ifc_batch_20260913.md).
+
+> **⚠️⚠️ This batch differs in kind from the previous four.** Those were general AI-capability sources and were correctly triaged as *mechanism kept, scores discarded*. **This one is the toolchain this project actually runs** — Blender 5.2 + Bonsai 0.8.6-alpha260801, installed and idle — and the vault already holds an **`Adopt` decision** on Bonsai's drawings subsystem with one stated open question. **The sources are evidence bearing on a decision already taken, not capability scouting.**
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_p3Q7jNyRAtI`](../../_Sources/YT_p3Q7jNyRAtI_sfeviz_precise_plan_from_bad_image.md) | **⚠️⚠️ A plan image is not uniformly scaled — 45 mm anisotropy measured**; standing rule 9 executed on all four clauses unprompted; **wall thickness read as evidence of a concealed service**; an evidence ceiling stated and honoured | 14 |
+| [`YT_PNoOyCHa_V0`](../../_Sources/YT_PNoOyCHa_V0_ifcarchitect_blenderbim_floor_plan.md) | **The drawing is GENERATED, not exported**; the ~1 m plan cut convention and its reason; **a plan symbol is authored, not cut**; type-level edits with silent blast radius; drafted-only elements invisible to take-off | 12 |
+| [`YT_fxpIg-su-00`](../../_Sources/YT_fxpIg-su-00_profrino_first_bim_drawing_bonsai.md) | **⚠️⚠️ Four places the parametric association leaks**, which reframes the headless question; IFC as an *authoring* format is new; type duplication as the divergence mechanism | 11 |
+| [`YT_Q4rbqUbhYXY`](../../_Sources/YT_Q4rbqUbhYXY_architecturetopics_blender_floor_plan_from_image.md) | **Wall SURFACES not centrelines**, with the practitioner's reason; **a differing-thickness junction is authored, not automatic**; a hand-run geometry check with a known trap; ⚠️ scaling off an assumed door width | 9 |
+| [`YT_YYmFMxMV6io`](../../_Sources/YT_YYmFMxMV6io_messerschmidt_blender_dimensioned_floor_plan_export.md) | **Three silent-failure modes in one export path**; ⚠️ **text collision is manual in a purpose-built tool too**, which qualifies the adopt decision; the named style set | 9 |
+| [`YT_xlmbZHIaHJw`](../../_Sources/YT_xlmbZHIaHJw_cgessentials_homebuilder_floor_plan_from_scan.md) | **⚠️⚠️ Wall direction sets inside/outside AND every hosted object** — independent confirmation; a scale verification that checks the wrong thing; an element's anchor as a per-object datum | 7 |
+| [`YT_tAq0foY2GOY`](../../_Sources/YT_tAq0foY2GOY_spbproduction_bonsai_ifc_vs_blend_save.md) | **⚠️⚠️ The only controlled experiment in four batches** — the IFC is master, the `.blend` a cache; **and `Ctrl+S` writes to the IFC**, a live hazard in our own viewing instructions | 6 |
+| [`YT_mq63GWbgWdM`](../../_Sources/YT_mq63GWbgWdM_architecturetopics_inkscape_trace_to_blender.md) | ⚠️⚠️ **A correct scale reference discarded over an unresolved unit** — the cleanest rule-9 failure in the vault; raster auto-trace as the naive counterpart to vector extraction | 5 |
+| [`YT_4JYFYvNg5Xk`](../../_Sources/YT_4JYFYvNg5Xk_blender3darchitect_external_ifc_libraries_bonsai.md) | **A schema upgrade that reports success and leaves a deprecated entity**; a concrete rule for the IDS validation already marked `Adopt` | 5 |
+| [`YT_DgovrfgLxYs`](../../_Sources/YT_DgovrfgLxYs_brockmesarich_astra_blender_parts_schedule.md) | A parts schedule off individuated geometry — **the cheap half of take-off**; ⚠️ near-skipped, `promotional_ratio: very_high` | 3 |
+
+**Round yield**: 11 videos (10 processed, 1 duplicate), **81 new facts, yield = 7.4** per video. **Two new pages**: `Model_To_Drawing_Pipeline.md`, and `Raster_To_Geometry.md` extracted from `Drawing_Conventions_From_Practice.md` at the backstop.

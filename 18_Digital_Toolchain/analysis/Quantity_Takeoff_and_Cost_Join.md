@@ -100,7 +100,35 @@ Detail page for [[18_Digital_Toolchain/Digital_Toolchain_Guide|Digital Toolchain
 
 [sources: [[_Sources/YT_sSnjQJX4-iY_mastersketchup_quantifier_three_methods|YT_sSnjQJX4-iY]], [[_Sources/YT_s0TrXB2WQ2Q_omsk_sketchup_excel_smeta_method|YT_s0TrXB2WQ2Q]]]
 
-## 5. The prerequisite nobody can skip
+## 5. ⚠️⚠️ Three ways a model silently fails to yield the quantity
+
+**From the 2026-09-13 Bonsai/IFC batch. Each is a case where the model looks complete and the schedule is short.**
+
+### A schedule is a traversal of INDIVIDUATED objects — and that is the cheap half
+
+A capability demo produces *"a PDF breaking down piece count, colours, catalogue entries and the shape of each piece"*, and the presenter names the reason it is derivable: *"the way that we are able to understand how many individual pieces make up this model is **by using Blender**"* — each piece is a separate selectable object, so counting is a traversal.
+
+> **→ A COUNTABLE SCHEDULE NEEDS OBJECTS THAT EXIST SEPARATELY AND CARRY A TYPE, AND NOTHING MORE CLEVER THAN THAT.**
+>
+> ⚠️ **And the limit is the important half.** A brick count is exact by construction because bricks are discrete and identical. **Nothing in that demonstration addresses the quantities that actually cost money on a renovation** — area, length and volume of continuous materials, where waste, cut loss and coursing decide the number (§2). **Counting is the part that was already easy.** [source: [[_Sources/YT_DgovrfgLxYs_brockmesarich_astra_blender_parts_schedule|YT_DgovrfgLxYs]] — `promotional_ratio: very_high`, extracted at 3 facts]
+
+### ⚠️⚠️ An object is in the model because it carries a CLASS — so a drafted-only element is invisible to take-off
+
+Drawing a floor plan, a practitioner represents the kitchen countertop and the built-in cupboards as **2D drafting lines**, deliberately: *"we're not going to model it per se."* They appear on the sheet and are not objects.
+
+> **→ A LEGITIMATE DOCUMENTATION SHORTCUT THAT SILENTLY REMOVES AN ITEM FROM EVERY SCHEDULE. The drawing and the take-off can disagree, and this is how.**
+>
+> ⚠️ **Joinery is exactly the class of item this hides, and it is not cheap.** The same mechanism appears as a data-loss trap elsewhere: **saving to IFC discards anything not classified as IFC.** **→ A take-off gate should assert that every priced line has a model element behind it, and flag any drawn element that has none.** [sources: [[_Sources/YT_PNoOyCHa_V0_ifcarchitect_blenderbim_floor_plan|YT_PNoOyCHa_V0]], [[_Sources/YT_tAq0foY2GOY_spbproduction_bonsai_ifc_vs_blend_save|YT_tAq0foY2GOY]]]
+
+### The schedule groups by TYPE — so type granularity is a costing decision
+
+A type edit changes every instance, and divergence is expressed by **duplicating the type**. **→ Every genuinely different door in this flat needs its own type**, or the schedule cannot distinguish them. ⚠️ And a thin type library pushes the other way: a practitioner accepts *"the **200 wall, because that's similar to a masonry brick wall of 220**"* — **a 20 mm error taken on to stay inside the library.** **A type-library workflow trades dimensional fidelity for schedulability; ours currently has the fidelity and not the schedule.** Full treatment: [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]] §5, §8.
+
+### ⚠️ Per-room faces are the geometric precondition for per-room quantities
+
+Two practitioners independently separate floor faces per room so each can take its own material — and that is the same structure the screed, waterproofing, skirting and cornice lines need. **Corroborates the gap analysis's note that `Qto_SpaceBaseQuantities.NetFloorArea` and `.Perimeter` are the missing inputs.** ⚠️ **And a product-identity note worth keeping**: published manufacturer IFC assets let the model carry *the product actually being ordered* — the `resource_role` / `product_id` split the BOM already uses — **but they are Revit-first exports and must be treated as untrusted imports.** [source: [[_Sources/YT_4JYFYvNg5Xk_blender3darchitect_external_ifc_libraries_bonsai|YT_4JYFYvNg5Xk]]]
+
+## 6. The prerequisite nobody can skip
 
 **Stated as a precondition before any quantity is trustworthy: the model must be organised.** Geometry separated into groups; tags assigned and used; **materials properly named** — *"this is going to make it easy to recognise the objects and materials in your model."*
 
@@ -112,7 +140,7 @@ Detail page for [[18_Digital_Toolchain/Digital_Toolchain_Guide|Digital Toolchain
 - **Native capability is not enough, and it is worth knowing why**: SketchUp Pro has an advanced-attributes **price field** and a report generator, and a practitioner who used it calls it *"really limited… not nearly as flexible."* **A price field that cannot aggregate by tag, material, length, area, volume and weight is a price field, not a cost engine.**
 - **Quantities can be pulled with no plugin at all** — the native Entity Info tray gives a face's area, a line's length, and **multi-select gives total wall area net of openings, floor area, or whole-flat perimeter.** That is exactly the aggregation the commercial extensions automate.
 
-## 6. ⚠️⚠️ An end-to-end take-off→price workflow, and the two gates in it
+## 7. ⚠️⚠️ An end-to-end take-off→price workflow, and the two gates in it
 
 **The only source in this folder that carries the join all the way to a priced bid.** ⚠️ It is a commercial contractor's tender process — this project has no bid, no tender and no client — **so it is read for the DIVISION OF LABOUR and the CONTROL STRUCTURE, not the bid machinery.** [source: [[_Sources/YT_VrSs8mGI8ss_fairley_takeoff_to_priced_bid|YT_VrSs8mGI8ss]]]
 
