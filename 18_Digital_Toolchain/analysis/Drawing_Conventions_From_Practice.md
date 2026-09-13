@@ -60,6 +60,17 @@ Three of this project's open capability items are blocked on **conventions we ha
 
 **→ This belongs in `.agents/skills/residential-bim-geometry-rules/` and in `12_Engineering_and_Systems/analysis/Fixture_Stubout_Coordinates.md`, and it should be written before `cap3` produces dimensions.** Still open.
 
+### ⚠️⚠️ …and an agent will silently choose one for you: bottom-left of the wall (Grasshopper Plus Plus, 2026-09-12)
+
+**Testing an agent drawing a plan in AutoCAD from a PDF, a Korean practitioner notices the coordinate origin and calls it out:**
+
+> *«여기 재밌는 게 원점을 여기다 그리더라고요… **이거는 꽤 공통적으로 나옵니다. 벽의 왼쪽 아래를 원점의 중심으로 삼는다.** 이거 굉장히 특이한 발견인 것 같아요.»*
+> — **"It puts the origin here. This comes up QUITE COMMONLY. It takes the BOTTOM-LEFT OF THE WALL as the origin."** He then **observes the same placement from a second, different model.**
+
+- **⚠️⚠️ This is the silently-supplied-values rule (§7) applied to THE DATUM — and the datum is the worst thing to have chosen for you, because every other coordinate is measured from it.**
+- **→ It does not tell us what OUR datum should be**, which the block above leaves deliberately open and answers on structural grounds (bare structural corners, FFL anchored to the bare slab top). **What it tells us is which convention we will be silently fighting if we choose differently** — and that the fight will be with every generated artefact, not just one.
+- **⚠️ Worth stating in `.agents/skills/residential-bim-geometry-rules/` alongside the datum decision itself**: *state the origin explicitly in any generation prompt*, because the alternative is not "no origin" but "an unstated one that two unrelated models both default to." [source: [[_Sources/YT_-FsHQEYldnQ_grasshopperpp_computer_use_autocad|-FsHQEYldnQ]]]
+
 ### A third-party tolerance figure, for comparison only
 
 Дизайнер Дмитрий К states his working tolerance as **±1–2 cm** against his own site measurements (`YT_TJVXUCKQ1UU`).

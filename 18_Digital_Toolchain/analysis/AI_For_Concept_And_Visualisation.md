@@ -56,6 +56,49 @@ The fullest description comes from a Russian training-centre masterclass. **It i
 
 **⚠️ This matters more than usual for this project, which is self-managed** — every trade is briefed separately, so the cost of a specialist misunderstanding the intent is borne directly. A concept image is cheap alignment; it is not a drawing, and it must not be handed over as one. The deliverable that *is* a drawing is defined in `00_Master/Planning_Project_Deliverable_Set.md`.
 
+## 5. ⚠️⚠️ Non-destructive editing — keep the authored artefact as the base
+
+**The most transferable technique in this folder for working with a generator on an image, and it is product-independent:**
+
+1. **Send only the CROP you want changed, never the whole render** — for precision, and to keep everything else out of the generator's reach.
+2. **Paste the result back into the authored image as a maskable layer**, aligned.
+3. **Mask down to just the change.**
+
+> *"The base render will always remain the same… you avoid making your images go through the many iterations and generations inside an AI model and start losing the details, which is quite common."*
+>
+> *"If part of the design changes, a client requests something different, you can always re-render from your software, then just replace the base render, and you're pretty much done."*
+
+**→ KEEP THE AUTHORED ARTEFACT AS THE BASE; APPLY GENERATED EDITS AS REPLACEABLE LAYERS ON TOP.** The design can change without losing the edits, and repeated generation never degrades the original. **⚠️ The same single-source principle as "place LINKED, never embedded" in §4 of [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]] — one layer further down the pipeline.**
+
+- **⚠️ Protective prompt phrases, in copyable form**: *"Don't change the camera angle," "Maintain image proportions," "Keep architecture intact," "Don't change materials."* **The protect-half of the change-versus-protect rule, third appearance and the most usable.**
+- **Intensity words decide the result**: *"subtle"* and *"soft"* for wear, or you get something destroyed; **"breeze" rather than "wind"** for natural movement. **Overlong prompts confuse the model.**
+- **⚠️⚠️ Establish the geometry-dependent facts in the 3D tool; delegate only appearance.** Place 3D figures first, then use the generator only to improve realism — *"that way I can guarantee SCALE and POSITIONING, and only adjust realism… I'm just improving and not creating from scratch."* Confirmed from the failure side: when the generator places people instead, *"the scale sometimes is hard to adjust."*
+- **⚠️⚠️ The occlusion rule: *"whatever it can't see, it's going to just invent."*** Re-framing to a new viewpoint works for ultra close-ups and **hallucinates at medium shots**. **A generator asked for a view containing information absent from the source will fabricate it.**
+- **Video must start from a frame, never a prompt alone**; **start-image plus end-image** constrains a transition and leaves *"less margin for hallucinations."*
+- **⚠️ He applies the slop test to his own sponsored output** — empty-lot-to-building and empty-room-to-furnished transitions: *"is this really necessary to the story? What's the purpose of this?"* **An independent, different-domain instance of the mountain-of-slop failure mode.** [source: [[_Sources/YT_gq1LIFNxjeI_upstairs_archviz_ai_workflow|YT_gq1LIFNxjeI]]]
+
+## 6. ⚠️ Generation as option exploration — a third arrival
+
+**Plan generation from a boundary plus a prompt, and the framing that makes it safe:**
+
+> *"This is not meant to be like a final generation where you just click send to AI and get the floor plan. **It's meant to be a starting point to get you over the BLANK CANVAS SYNDROME**… and then you can make tweaks as you go, or **generate multiple options and explore stuff much faster.**"*
+
+- **⚠️ What the practitioner actually corrects is telling: DESIGN judgements, not geometry errors** — removing a walk-in closet the bedroom cannot take, widening an entrance, reconsidering a leftover space. **The generated plan was coherent; what it lacked was judgement about that brief.**
+- **Twelve lighting scenarios generated from one render are used the same way** — *"more as a REFERENCE and IDEATION tool, not so much as a final result"* — then recreated properly in the rendering software. **Third arrival in this batch at generation-as-option-exploration.**
+
+### ⚠️ Tracing gives topology, not thickness — and "automatically to scale" is a claim to distrust
+
+**An automated sketch-to-CAD tracer returns editable walls and windows in seconds, and its author is honest about the ceiling: *"this is not something where you just click once and it's fully automating your documentation. **This is simply a tracer which allows you to get a conceptual floor plan from a sketch.**"*** Named failure classes: **landscape read as walls**, door orientation wrong, spurious walls, misplaced windows, and *"the results will very much vary in terms of how clear they are to read."*
+
+- **⚠️⚠️ WALL THICKNESS IS NOT RECOVERED — it is assigned afterwards from convention** (he sets 30 cm exterior, 20 cm interior by hand). **→ The trace recovers TOPOLOGY. Thickness arrives from a human.** Directly consistent with why `wall_blocks.csv` treats thickness as a sourced, decided quantity.
+- **⚠️⚠️ And a claim to distrust: that skew correction makes a photographed plan *"completely up to scale."*** **Rectification can recover a plane's SHAPE; it cannot recover absolute SCALE without a known real-world dimension — and none is supplied anywhere in the demonstration.** **This vault has established the point twice** — two-point scale verification, and register-on-the-longest-known-distance. **A traced plan with no established reference is a shape, not a measurement.** [sources: [[_Sources/YT_9pDOD_xx2kA_melosazemi_sketch_to_cad_tracing|9pDOD_xx2kA]], [[_Sources/YT_vHWOV5lJudg_melosazemi_floor_plan_generation_as_option_exploration|vHWOV5lJudg]]]
+
+### ⚠️ A manual baseline, and a batch-wide absence of verification
+
+- **A professional's manual pipeline for a CAD-to-Unreal walkthrough: *"just creating the OUTER STRUCTURE of the building manually took close to 4 hours."*** The automated run produced a playable project in ~30 minutes. **⚠️ But not one dimension is checked anywhere in that source** — the output is judged by being walkable.
+- **⚠️⚠️ That is the batch-wide pattern: of ten sources, one measures anything.** **This vault's only measured elevation-to-3D fidelity check remains `sujS9Mgveo4`'s 610 drawn against 616 modelled.** **A visual "near-perfect" is not a measurement, and is recorded as the former throughout.**
+- **⚠️ None of this reopens the render-pipeline decision**, which stands as the 2026-09-08 research left it: **outsource a room render rather than build an asset pipeline.** [source: [[_Sources/YT_hLslbz8n-1w_sudheendra_cad_to_unreal_walkthrough|hLslbz8n-1w]]]
+
 ## Source Notes
 
 | Source | Contribution | Yield |

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=26UFabH--JU",
+  "video_id": "26UFabH--JU",
+  "language": "ko",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T19:19:07.553113+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "5830701879365b8740dd5ea8aa7e860eb689b0cc3b1aa6ab08a4d4336da91d2b",
+  "attempts_before_success": []
+}

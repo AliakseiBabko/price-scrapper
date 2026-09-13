@@ -1002,3 +1002,18 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_8aSYNMXk33A** — "Claude Context for Construction — System Prompts, Skills and Structured Data". `fact_yield: 12`. **The context ladder; the two problems skills solve; the router-file pattern.**
 - **YT_sjcDHXReSNI** — "I've built over 100 AI workflows — what's actually hard". `fact_yield: 11`. **Four failure modes; the slop problem; the skeptic step.** *(Fetched 2026-09-13 as the triage spot-check; status moved inbox → archived.)*
 - **YT_LBN9xF_rs1w** — "Why AI Struggles with Big Construction Documents (Claude Sub-Agents)". `fact_yield: 8`. **"Lost in the middle"; the sub-agent fresh-context mechanism.**
+
+### Astra-era modelling batch (added 2026-09-13)
+
+*Ten owner-supplied videos. **⚠️⚠️ THREE KOREAN, ONE RUSSIAN, SIX ENGLISH, each fetched in its VERIFIED original language** — one has an English title and Korean audio. **This vault's first Korean-language sources.** No prices carried; no regulatory content.*
+
+- **YT_Qh9xgjd38VI** — feeel.d (ko, **author's manual subtitles**) — drawings to a SketchUp model, and revision. `fact_yield: 14`. **The revision question answered.**
+- **YT_-FsHQEYldnQ** — Grasshopper Plus Plus (ko, **English title**) — Computer Use driving AutoCAD. `fact_yield: 13`. **Computer Use collapses into tool-driving; the silently-chosen datum.**
+- **YT_JCCEW6797yw** — BIM для чайников (ru) — Revit, Dynamo, families, model audit. `fact_yield: 9`. **Placed-not-associated; the complexity cliff.**
+- **YT_gq1LIFNxjeI** — Upstairs (en) — archviz workflow, **disclosed sponsored**. `fact_yield: 8`, partial.
+- **YT_9pDOD_xx2kA** — Melos Azemi (en) — automated floor-plan tracing. `fact_yield: 6`. **Topology not thickness.**
+- **YT_T45kiCGvCQs** — The AI Essentials (en) — **sixth source from Justin Geis across two channels**. `fact_yield: 5`, partial.
+- **YT_vHWOV5lJudg** — Melos Azemi (en) — same product as `9pDOD_xx2kA`. `fact_yield: 5`, partial.
+- **YT_26UFabH--JU** — feeel.d (ko) — Villa Savoye. `fact_yield: 4`, partial. **A famous building is not a test.**
+- **YT_hLslbz8n-1w** — Sudheendra S G (en) — CAD to Unreal. `fact_yield: 4`, partial. **No verification at all.**
+- **YT_ZS_tnIN0zoA** — ArchMaster (en) — seven-tool listicle. `fact_yield: 2`, **near-skip; undisclosed self-promotion.**

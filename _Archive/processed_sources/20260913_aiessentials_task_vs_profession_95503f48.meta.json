@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=T45kiCGvCQs",
+  "video_id": "T45kiCGvCQs",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T19:23:42.669475+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "95503f48b55a0094dd44887d4fb960ca88fb31427a4ea60bd8c397c13273e492",
+  "attempts_before_success": []
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=-FsHQEYldnQ",
+  "video_id": "-FsHQEYldnQ",
+  "language": "ko",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T19:11:30.653151+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "36215d42ac359cc02f083999442210cfd93852fa967550c6e36d0888a4cd1fd4",
+  "attempts_before_success": []
+}
