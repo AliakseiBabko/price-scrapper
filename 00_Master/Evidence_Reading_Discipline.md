@@ -89,7 +89,7 @@ Before using any dimension read off a drawing or a photo:
 > [!NOTE]
 > **Items 8 and 9 were added 2026-09-11 from two practitioners**, not from a failure here — Justin Geis
 > (TheSketchUpEssentials) and Aaron Dietzen (Trimble SketchUp), via
-> [`Drawing_Conventions_From_Practice.md`](Drawing_Conventions_From_Practice.md) §6. **Item 8 is the only
+> [`Drawing_Conventions_From_Practice.md`](../18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice.md) §6. **Item 8 is the only
 > check in either research batch this project did not already have.** Dietzen also states item 3's rule
 > from the other side and more strongly than it is written above: *"it doesn't matter how good the
 > information you get… always double-check against printed dimensions of some sort."*

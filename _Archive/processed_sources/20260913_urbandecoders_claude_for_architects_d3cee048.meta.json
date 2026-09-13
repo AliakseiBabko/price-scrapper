@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=la8Ml1fQfOg",
+  "video_id": "la8Ml1fQfOg",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T14:20:26.516758+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "d3cee048db36d816e343e928061ca0e2736ddc9a7fd62b34d69cdc18d6e0aa90",
+  "attempts_before_success": []
+}

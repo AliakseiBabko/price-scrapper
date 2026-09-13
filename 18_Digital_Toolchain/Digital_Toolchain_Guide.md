@@ -1,0 +1,64 @@
+# Digital Toolchain — Guide
+
+**General, source-derived knowledge about producing and checking construction data digitally**: getting a drawing into geometry, 2D documentation conventions, 3D modelling and visualisation, cost and quantity take-off, and working with AI agents over any of it.
+
+> [!IMPORTANT]
+> **This folder is general practitioner and vendor practice. It is NOT this project's own toolchain.**
+>
+> Same relationship [[17_Design_and_Ergonomics/Design_and_Ergonomics_Guide|17_Design_and_Ergonomics]] has to `00_Master/Design_Concept.md`: general practice lives in the numbered folder, **this apartment's own decisions and status live in `00_Master/`** — `project_decisions.md`, `Model_and_Views.md`, `Planning_Project_Deliverable_Set.md`, `Sheet_Production_Roadmap.md`, `Revit_AutoCAD_Integration_Strategy.md`, `How_To_View_Outputs.md`, and the `V0_*` pages. **A convention recorded here is somebody else's; a convention we have adopted belongs in `00_Master/project_decisions.md` and in `.agents/skills/residential-bim-geometry-rules/`.**
+>
+> **Created 2026-09-13.** Rationale, and why the 2026-09-08 decision to keep this in `00_Master/` was revisited: [[18_Digital_Toolchain/analysis/Change_Log|Change Log]].
+
+> [!WARNING]
+> **Read everything here for CONVENTIONS AND MECHANISMS, never as a tool recommendation.** [`toolchain_gap_analysis_20260908.md`](../_Inbox/planning/toolchain_gap_analysis_20260908.md) concluded *"no new software; three small scripts over data we already hold"*, and nothing processed since has overturned it. **A screencast that is 70% mouse clicks is still worth reading if the other 30% is a convention we have not settled.**
+>
+> **⚠️ And model-capability verdicts date within months.** The 2026-09-11 round discarded every one of them on purpose. What survives a model generation is the *mechanism* — how a drawing is turned into queryable data, what an agent silently assumes, how a scale reference is established. Record those; let the scores rot.
+
+## What each page holds
+
+### Drawing and documentation conventions
+
+How practitioners dimension, name and compose their own documentation — collected to settle conventions this project has open.
+
+→ **[[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]]** — dimensioning to centre and the `1/2` proportional notation, element taxonomy (`вывод провода` is not a socket), sheet-level conventions and the two-audience services sheet, the two-tool split, colour at concept stage, getting a dimensioned raster into geometry, and agents that generate building geometry.
+
+### Getting AI to read a drawing
+
+Why a PDF drawing set is a bad input to a language model, what measurably fixes it, and where accuracy breaks.
+
+→ **[[18_Digital_Toolchain/analysis/AI_Reading_Construction_Drawings|AI Reading Construction Drawings]]** — **the tiling mechanism** (a drawing ≈ 4,000 tokens, and the meaning lives in features smaller than a tile); two vendors' own published limits, both naming **counting**; **a measured benchmark** — 86% / 98% / 100% accuracy at 104,000 / 66,000 / 1,400 tokens; **index by the physical object, not by the sheet**; per-measurement confidence tiers; **counting from vector data is reliable and scaling a raster is not**; and the order-of-magnitude cross-check that independently restates standing rule 9.
+
+### Concept and visualisation
+
+Generating layout concepts and interior imagery, and what the output may safely be used for.
+
+→ **[[18_Digital_Toolchain/analysis/AI_For_Concept_And_Visualisation|AI for Concept and Visualisation]]** — the БТИ-plan-to-visualisation pipeline; **the LLM as your prompt engineer** (corroborated across two unrelated channels) and the interview-me refinement; **the batch's only measured fidelity check** — 610 drawn against 616 modelled; and the distinction that governs all of it: a render is for **agreeing what is wanted**, never for **deriving a number**.
+
+### Agents wired into CAD
+
+→ **[[18_Digital_Toolchain/analysis/Agent_Connected_CAD|Agent-Connected CAD]]** — open-loop file generation versus **closed-loop MCP control** (and why the closed loop's feedback channel is a screenshot, the unreliable one); the **visual-versus-text feedback token trade-off**, and why deterministic gates escape it entirely; and the clean split in what it can do: **transcription succeeds, spatial logic fails** — a modelling accelerator, not a space planner.
+
+## Standing cautions for this source class
+
+These were learned the hard way across the 2026-09-08 and 2026-09-11 rounds, and they apply to every source processed into this folder.
+
+- **⚠️⚠️ A screencast's knowledge is largely ON THE SCREEN, and transcript-only intake is not adequate.** `tools/youtube/extract_layout_frames.py` pairs transcript segments to scene-detected frames and was built for exactly this. Run it on any source whose value is a sheet layout, a dimensioning convention or a cost table — and apply **standing rule 9** (reading a dimension is a procedure, not a glance) to every figure read off a frame.
+- **⚠️ Software-subject ASR is measurably worse than this vault's usual sources.** Observed corruption across rounds: «Rimliner» for Remplanner, «Cowerk» for Claude Code, «отвёртки стен» for развёртки. **Program names, product names and numbers heard once are candidates, not figures.**
+- **⚠️ The yield metric understates this source class.** A room-and-trade source adds a paragraph to a page; a source here often changes a field, a datum, a sheet or a rule. **Record how many open capability items moved alongside the fact count** — the fact count alone will always rate it too low.
+- **⚠️ Nothing here is a norm, and nothing here is Belarusian.** Sources are Russian, US and UK practitioners plus software vendors. **Standing rule 4: no regulatory claim from any of them goes to `16_Legal_and_Regulations/`.**
+- **⚠️ Vendors and channels here are selling something** — a subscription, a course, a consulting practice, or their own credibility as an early adopter. Apply the advertising filter exactly as for a renovation company: **extract the mechanism, drop the verdict.**
+
+## Related
+
+- `00_Master/project_decisions.md` — what this project has actually decided.
+- `00_Master/Evidence_Reading_Discipline.md` — standing rule 9, and the seven real misreadings behind it.
+- `00_Master/Validator_Design_Discipline.md` — how to write a check that can fail.
+- [[11_Budget_and_Planning/Budgeting_Guide|Budgeting Guide]] — the renovation's own costs, as distinct from how a cost is *calculated*.
+
+## Source Notes
+
+Traceability record kept on its own page — [[18_Digital_Toolchain/analysis/Source_Notes|Source Notes]].
+
+## Change Log
+
+Editorial history kept on its own page — [[18_Digital_Toolchain/analysis/Change_Log|Change Log]].

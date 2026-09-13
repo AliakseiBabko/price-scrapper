@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=QLge-kb_L2I",
+  "video_id": "QLge-kb_L2I",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T14:25:01.013042+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "603b2f4bd48b43b7a444272dbaa415172a745c32de51260a9b8dbed0f803217c",
+  "attempts_before_success": []
+}
