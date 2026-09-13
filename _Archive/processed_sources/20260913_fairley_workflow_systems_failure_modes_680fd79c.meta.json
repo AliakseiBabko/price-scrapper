@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=sjcDHXReSNI",
+  "video_id": "sjcDHXReSNI",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T17:34:37.375701+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "680fd79c98a2a8bd085d07f3305e18ef8aa70328343a1955cccf8d96f214266c",
+  "attempts_before_success": []
+}

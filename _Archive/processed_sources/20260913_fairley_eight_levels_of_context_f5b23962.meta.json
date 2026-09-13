@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=8aSYNMXk33A",
+  "video_id": "8aSYNMXk33A",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T17:49:50.034237+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f5b239628e6f51f90a732907b2905eac242ca623c1145217fc2669d486024f8c",
+  "attempts_before_success": []
+}

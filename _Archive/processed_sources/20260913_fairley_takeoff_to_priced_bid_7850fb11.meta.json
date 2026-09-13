@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=VrSs8mGI8ss",
+  "video_id": "VrSs8mGI8ss",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T17:45:06.183604+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "7850fb11d6cdae28f935d3775be859921f222392fc0d08e9df94f84860bbfa01",
+  "attempts_before_success": []
+}

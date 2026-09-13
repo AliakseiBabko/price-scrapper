@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=wgcOBhejKvo",
+  "video_id": "wgcOBhejKvo",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T17:46:37.627779+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "78af7febcee0cc5f487e0c8e02f2ee6792bf7c9d2f23dc88375d02146b6d2fed",
+  "attempts_before_success": []
+}

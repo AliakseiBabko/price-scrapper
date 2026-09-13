@@ -282,6 +282,20 @@ airtime.** See [[_Sources/YT_LDeNqQL7TLQ_sanuzel_plumbers_meetup_manufacturer_qa
 
 [source: [[_Sources/YT_s0TrXB2WQ2Q_omsk_sketchup_excel_smeta_method|YT_s0TrXB2WQ2Q]]]
 
+### ⚠️⚠️ The Scope-Gap Principle — an Exclusions List Is Only Trustworthy If Something RECONCILES It (Tim Fairley, 2026)
+
+**The section above ends with a finisher's exclusions list, offered as a courtesy so the client is not surprised. A commercial estimator systematises the same move as a defence, and adds the step that makes it reliable.**
+
+**His principle, which he calls *"one of the most important principles with estimating"*: every requirement identified in the requirements register must be EITHER included in the estimate OR explicitly listed as an exclusion in the letter of offer.** *"There's nothing in the scope of works… so they can't catch us out in any way."*
+
+- **⚠️⚠️ And it is then CHECKED. A `reconciliation` skill compares the letter of offer against the original requirements and against the estimate**, confirming that every requirement is either priced or excluded.
+
+> **→ The transferable rule: an exclusions list is only trustworthy if something reconciles it against a requirements register. Otherwise it is a list of the omissions you happened to remember.**
+>
+> **⚠️ For this project, which is self-managed and briefs each trade separately, the "requirements register" is the scope agreed per trade** — and the same test applies to every quote received: **is each thing you expect either priced in it, or named as excluded?** A quote that is silent on an item is the failure this catches, and it is the same defect §5a-bis's four-line-смета test is looking for.
+
+⚠️ **Recorded with its concentration flagged**: this is one practitioner, whose channel supplies nine sources to this vault. **It corroborates the Omsk finisher's practice only in the sense that two people independently ended up writing exclusions down — the reconciliation step is his alone.** [source: [[_Sources/YT_VrSs8mGI8ss_fairley_takeoff_to_priced_bid|YT_VrSs8mGI8ss]]]
+
 ## 5b. Two Procurement Traps That Change the Budget (Мария Шеврина / SMBUREAU, added 2026-08-30)
 
 ### Large ceramic slabs: the delivery you didn't budget for
