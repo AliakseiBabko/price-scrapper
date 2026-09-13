@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=dPWQbjaeoyo",
+  "video_id": "dPWQbjaeoyo",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T20:47:42.201263+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "2c32ec23e30ae35d5cf352034799fe6731d18a3cd2bb077bb5ebc77f4cf905f6",
+  "attempts_before_success": []
+}

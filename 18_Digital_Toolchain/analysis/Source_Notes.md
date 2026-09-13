@@ -127,3 +127,22 @@ Owner-supplied list of 11 videos. **9 English, 2 Russian — every transcript fe
 | [`YT_DgovrfgLxYs`](../../_Sources/YT_DgovrfgLxYs_brockmesarich_astra_blender_parts_schedule.md) | A parts schedule off individuated geometry — **the cheap half of take-off**; ⚠️ near-skipped, `promotional_ratio: very_high` | 3 |
 
 **Round yield**: 11 videos (10 processed, 1 duplicate), **81 new facts, yield = 7.4** per video. **Two new pages**: `Model_To_Drawing_Pipeline.md`, and `Raster_To_Geometry.md` extracted from `Drawing_Conventions_From_Practice.md` at the backstop.
+
+## @IfcArchitect Tier 1 (2026-09-13)
+
+**Eight videos from the 42-video channel, all `en-orig`, all read in full.** Triage and the question-map that drove the selection: [`ifcarchitect_tier1_20260913.md`](../../_Inbox/planning/ifcarchitect_tier1_20260913.md).
+
+> **⚠️⚠️ THIS ROUND ANSWERED NAMED QUESTIONS RATHER THAN EXTRACTING OPENLY**, which is a first for this folder. Four open items were closed and two earlier conclusions corrected. **⚠️⚠️ All eight are ONE PRESENTER — a South African architect who names his own national standards twice. His agreement with himself is not corroboration, and every convention from him carries an unstated national default.**
+
+| Source | Contribution | Yield |
+| :--- | :--- | :--- |
+| [`YT_VgvPk78IU0U`](../../_Sources/YT_VgvPk78IU0U_ifcarchitect_bonsai_2d_drafting.md) | **⚠️⚠️ No auto-dimension at all** — placement is manual, which corrects the `Adopt` premise; **but tags are bulk-placed and `{{ }}` data-bound**, template type-level and value instance-level; the three-tier dimension chain at 400 mm; **SVG+CSS**; Qto in one command | 17 |
+| [`YT_HEb7fWJduXg`](../../_Sources/YT_HEb7fWJduXg_ifcarchitect_page_layout.md) | **⚠️⚠️ The sheet is an SVG file on disk, assembled by hand in Inkscape** — so we are already better at composition; the round trip preserves manual edits; **a CSS selector filters per drawing**; `create drawing` must precede `create sheets`; **a clip hides geometry, it does not remove it** | 13 |
+| [`YT__hADRIo-ma4`](../../_Sources/YT__hADRIo-ma4_ifcarchitect_custom_phases.md) | **⚠️⚠️ A demolition plan is a QUERY** over `Pset_*Common.Status` — the same three phases we carry as DXF layers; ⚠️ **but do not copy his type-per-phase pattern**; the standard breaks for spaces and the fallback is vendor-specific | 13 |
+| [`YT_dPWQbjaeoyo`](../../_Sources/YT_dPWQbjaeoyo_ifcarchitect_lineweights_css.md) | **⚠️⚠️ The styling system is literally CSS** — which dissolves the "magic strings" into class names; **the cut/projection/text/annotation/material taxonomy**; ⚠️ **four of five styling artefacts live in the app install** | 12 |
+| [`YT_QTviOpqz1rw`](../../_Sources/YT_QTviOpqz1rw_ifcarchitect_bonsai_2d_detail.md) | **⚠️⚠️ A detail is MODELLED, not drafted** — a scoping decision for the owner; a detail is a section at 1:10; **text overflow fixed by shrinking the font, third instance**; the anatomy of a spec note and its two deferrals | 11 |
+| [`YT_r0ebxigzM6U`](../../_Sources/YT_r0ebxigzM6U_ifcarchitect_bonsai_section_elevation.md) | **One camera primitive, four sheet types**; **classification is the switch that puts an object in the drawing** — demonstrated, not asserted; cut line weight is automatic, cut fill is not | 8 |
+| [`YT__vrVETTI5jQ`](../../_Sources/YT__vrVETTI5jQ_ifcarchitect_custom_titleblock.md) | **Title blocks use the SAME `{{ }}` binding as tags** — one portable mechanism; ⚠️ custom ones are destroyed by a reinstall; never raster-trace something already vector | 8 |
+| [`YT_jTL3a6QwckA`](../../_Sources/YT_jTL3a6QwckA_ifcarchitect_custom_wall_type.md) | **⚠️⚠️ CORRECTION: the library does NOT quantise** — an exact 220 type takes five minutes; thickness is a type property and geometry follows it; `IfcMaterialLayerSet` for layered build-ups | 7 |
+
+**Round yield**: 8 videos, **89 new facts, yield = 11.1** per video — **the second-highest of any round in this folder** (5.1 / 7.0 / 11.8 / 7.4 / 11.1). ⚠️ **And the same caveat as the 11.8 round applies: the highest yields come from the most concentrated sources.** The number measures how much one voice said that was new to us, not how well-evidenced any of it is.

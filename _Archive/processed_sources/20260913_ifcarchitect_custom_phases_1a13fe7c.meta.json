@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=_hADRIo-ma4",
+  "video_id": "_hADRIo-ma4",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T20:50:44.774246+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "1a13fe7cacddf2e72f0450b4a5a9e777a3cb15a9f91aa725795c6ff2b3797462",
+  "attempts_before_success": []
+}

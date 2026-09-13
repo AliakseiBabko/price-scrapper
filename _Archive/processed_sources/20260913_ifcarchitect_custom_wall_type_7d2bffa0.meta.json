@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=jTL3a6QwckA",
+  "video_id": "jTL3a6QwckA",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T20:49:13.440841+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "7d2bffa09c0041f475993d990da52a1e708ba35570b15f8e193608ec90c61a82",
+  "attempts_before_success": []
+}

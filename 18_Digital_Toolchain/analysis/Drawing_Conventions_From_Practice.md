@@ -28,6 +28,24 @@ Three of this project's open capability items are blocked on **conventions we ha
 
 ## 1. Dimensioning
 
+### ⚠️⚠️ Three parallel chains, working outward: OPENINGS → ROOMS → OVERALLS, at 400 mm spacing
+
+**The most directly implementable convention found in this material.** Composing a plan's dimensions, the presenter states the order before he starts — *"we're going to do **openings, then rooms, and then we're going to do overalls**"* — and builds three parallel tiers:
+
+| Tier | Contents |
+| :--- | :--- |
+| **Innermost** | **Openings** — each window and door width, and the wall segments between them |
+| **Middle** | **Rooms / spaces** — internal clear dimensions |
+| **Outermost** | **Overalls** — the full extent; here one for the outside area and one for the building |
+
+**Row spacing is `400` mm**, typed and repeated for each new tier. Grid lines are then offset a further *"400 or perhaps 500"* to clear the dimension block.
+
+> **→ This is the standard architectural convention, stated with a number, by someone composing it by hand.** ⚠️⚠️ **And it is directly implementable in our own generator**, because `data/canonical/` already holds every wall length, thickness and opening position. **Three chains and a loop.**
+>
+> ⚠️ **The STRUCTURE transfers; the NUMBERS do not.** 400 mm is one practitioner's working figure **on a 1:50 sheet**, and the same presenter uses 500, 750 and 1000 for annotation lead-outs elsewhere, chosen by eye per drawing. **Treat the offset as a scale-dependent parameter, not a constant** — a dimension block that reads correctly at 1:50 does not at 1:100.
+>
+> ⚠️ **And note what makes it worth having**: he places every one of these by snapping polyline vertices by hand. **There is no auto-dimension in the tool.** See [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]] §4. [source: [[_Sources/YT_VgvPk78IU0U_ifcarchitect_bonsai_2d_drafting|YT_VgvPk78IU0U]]]
+
 ### To the centre, never the edge
 
 **RemPlanner's rule, stated with the builder's reason** (`YT_OTBw7bCrv-o`): dimensions run to the **centre** of a socket, switch or luminaire, not to its edge — *«размеры всех светильников показывают расстояние до их центра, а не до края предмета, что позволяет строителям правильно рассчитать выводы проводов»*.
@@ -52,7 +70,7 @@ Three of this project's open capability items are blocked on **conventions we ha
 > [!WARNING]
 > **⚠️ Two things are unresolved and both should be settled before adopting it.**
 > 1. **Whether `1/2` is an established Russian drafting convention or a RemPlanner invention.** Not stated in the source. **It decides whether a Belarusian installer will read it** — if conventional, they will; if a vendor's own, they may not, and an unread convention is worse than a wrong number.
-> 2. **Whether our own DXF/SVG pipeline can express a proportional dimension at all**, or whether it needs Bonsai's annotation subsystem. Untested, and it interacts with the open Bonsai-headless question.
+> 2. ~~**Whether our own DXF/SVG pipeline can express a proportional dimension at all**, or whether it needs Bonsai's annotation subsystem.~~ **⚠️⚠️ ANSWERED 2026-09-13, and the answer is that it needs nothing from Bonsai.** Annotation text in that system is an **SVG document with `{{ }}` placeholders resolved against model data** — the same mechanism drives tags, leaders and title blocks. **A template that can render `{{name}}` can render a literal `1/2`**, and the general principle is the valuable half: **the annotation is DERIVED from the model rather than transcribed beside it.** Template substitution over an SVG is a string operation, and our generator already produces the SVG and already holds the data. See [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]] §4b. **⚠️ Point 1 — whether a Belarusian installer will READ `1/2` — remains open and is the one that decides adoption.**
 
 ### The datum, which is still ours to decide
 
@@ -118,6 +136,17 @@ In RemPlanner, two already-placed single sockets **will not merge** when moved t
 
 - **⚠️ Note the second presenter's hedge — "I guess".** A BIM teacher of ten years does not know the exact height the tool is about to use, **because the UI does not state it.** **A drawing convention with real consequences, applied by a default nobody reads.**
 - **→ When this project generates plans, the cut height must be an explicit committed parameter, not a default.** ⚠️ **Contrast the mesh route**, where the cut plane is a box handle dragged by eye and **no height is stated anywhere in the video** — an unstated cut height is an unstated drawing convention. [sources: [[_Sources/YT_PNoOyCHa_V0_ifcarchitect_blenderbim_floor_plan|YT_PNoOyCHa_V0]], [[_Sources/YT_fxpIg-su-00_profrino_first_bim_drawing_bonsai|YT_fxpIg-su-00]], [[_Sources/YT_YYmFMxMV6io_messerschmidt_blender_dimensioned_floor_plan_export|YT_YYmFMxMV6io]]]
+
+### ⚠️ Phase representation, and a reminder that line weights are NATIONAL
+
+**One practitioner's phase convention, stated as personal practice**: **existing = grey**, **demolish = blue or light grey**, **new = red or pink** — *"just to distinguish these elements."* He offers it *"completely metaphorically"*, as a demonstration.
+
+> ⚠️ **Recorded as his, not adopted.** It differs from common European practice, where demolished is often dashed and new solid. **This project carries the same three phases as DXF layers**; the mechanism for generating a phase sheet from one model is in [[18_Digital_Toolchain/analysis/Model_To_Drawing_Pipeline|Model to Drawing Pipeline]] §11.
+
+> [!WARNING]
+> **⚠️⚠️ LINE WEIGHT AND SYMBOL CONVENTIONS ARE NATIONAL, and the source of all eight 2026-09-13 additions is a SOUTH AFRICAN architect.** He says so twice — his own line-weight set is *"very South African standardy"*, and he saves a *"South African standard 220 masonry wall."* He also **overrides a convention he knows to be widespread** on personal taste: of the default section arrowheads, *"I know this is standard in a lot of countries, but I just prefer a normal arrow."*
+>
+> **→ A shipped default is somebody's national convention, and every convention taken from this channel carries an unstated one.** **Standing rule 4 applies: nothing from this source is a Belarusian requirement and none of it routes to `16_Legal_and_Regulations/`.**
 
 ### ⚠️⚠️ A fixture's plan symbol is AUTHORED, not derived by cutting it
 

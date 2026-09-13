@@ -128,6 +128,24 @@ A type edit changes every instance, and divergence is expressed by **duplicating
 
 Two practitioners independently separate floor faces per room so each can take its own material — and that is the same structure the screed, waterproofing, skirting and cornice lines need. **Corroborates the gap analysis's note that `Qto_SpaceBaseQuantities.NetFloorArea` and `.Perimeter` are the missing inputs.** ⚠️ **And a product-identity note worth keeping**: published manufacturer IFC assets let the model carry *the product actually being ordered* — the `resource_role` / `product_id` split the BOM already uses — **but they are Revit-first exports and must be treated as untrusted imports.** [source: [[_Sources/YT_4JYFYvNg5Xk_blender3darchitect_external_ifc_libraries_bonsai|YT_4JYFYvNg5Xk]]]
 
+### ⚠️⚠️ …and the take-off itself is one command — with a portability flag
+
+**Added 2026-09-13.** Filling a room tag, the practitioner runs it inline: *"go to **quantity sets**… there is a custom QTO, there's an **IFC4 base quantities**… click **perform quantities take off**. And you can see mine is in square meters, **it's 9.41 m² for this area**."* The tag then renders the value live.
+
+> **→ `Qto_SpaceBaseQuantities` — exactly what the gap analysis says the screed, waterproofing, skirting and cornice lines need — IS A SINGLE COMMAND**, and spaces themselves can be built from the walls in one more (`generate spaces from walls`). **The quantity half of the cost join is genuinely cheap; it is the PRICE half that has no tool, which is what this page has said from the start.**
+>
+> ⚠️⚠️ **But he does NOT use the IFC4 standard quantity set.** He switches to a **Blender-specific variant** *"because it works a little bit better right now"*, with no further explanation. **A vendor-specific quantity set is not guaranteed to survive to another tool**, and this project's whole premise is that the IFC is the portable master. **→ If quantities are ever taken this way, take them from the IFC4 base set — or know exactly what the difference is.** ⚠️ **Second instance of the same reflex in one round**: a BlenderBim-specific `EPset_status` is also used where `Pset_SpaceCommon` lacks a Status field. **Prefer the standard property set; if a vendor extension is used, record why and what breaks without it.**
+
+### ⚠️ Phase-filtered SELECTION is the mechanism staged pricing needs
+
+A model-wide status filter offers **visibility** and **selection** per phase — hide everything demolished, or **select everything new**.
+
+> **→ The gap analysis's cost design calls for STAGED COMMITMENT — *"price by trade stage… do not commit Stage 4 rates during Stage 1."* Phase-filtered selection is what makes phase-filtered quantities possible**, and the phase field is the IFC-standard `Pset_<Class>Common.Status`. ⚠️ Not demonstrated for quantities in the source; recorded as the obvious adjacency. [source: [[_Sources/YT__hADRIo-ma4_ifcarchitect_custom_phases|YT__hADRIo-ma4]]]
+
+### ⚠️ A layered wall is where per-layer quantities would come from
+
+**`IfcMaterialLayerSet`** is the native construct for a build-up: several materials, each with its own thickness. **Currently unused here** — our walls are single-material solids — **but a real renovation wall is block + plaster + finish, and the layer set is where a finish schedule and per-layer volumes live.** ⚠️ Flagged as a capability we have not modelled, not as a recommendation. [source: [[_Sources/YT_jTL3a6QwckA_ifcarchitect_custom_wall_type|YT_jTL3a6QwckA]]]
+
 ## 6. The prerequisite nobody can skip
 
 **Stated as a precondition before any quantity is trustworthy: the model must be organised.** Geometry separated into groups; tags assigned and used; **materials properly named** — *"this is going to make it easy to recognise the objects and materials in your model."*
