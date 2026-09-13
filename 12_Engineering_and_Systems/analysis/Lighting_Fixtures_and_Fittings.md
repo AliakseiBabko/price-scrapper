@@ -29,6 +29,15 @@ What to check before buying a fitting, chandeliers and pendants, and the constru
 
 **⚠️ A named product type to be wary of: the GX53 puck-style recessed downlight.** Popular roughly 7–10 years ago and still widely used, but called out for **low CRI** (even bright output looks dull and washed out) and **poor integrated optics**, producing flat uninteresting light. Its one advantage is low cost. Concretises the general "check CRI" guidance with a specific fixture to avoid. `single-account`, `unverified`. [source: [[_Sources/YT_86fmWWVXark_kruglov_stop_using_trends|YT_86fmWWVXark]]]
 
+> [!IMPORTANT]
+> **⚠️⚠️ The measurable-parameter layer underneath all of the above now has its own page: [[12_Engineering_and_Systems/analysis/Downlight_Specification_and_Quality_Tiers|Downlights — Specification by Measurable Parameter, and a Quality Ladder]].** The same channel returned to the GX53 puck two years later with laboratory measurements and took it apart properly. **Three things there change how the "check CRI" instruction above should be read:**
+>
+> - **A published CRI is an average over ten samples, and R9 — the red one — can be zero underneath a CRI of 90.** So "CRI above 95" is sound but not a sufficient specification; **R9 must be demanded as a separate figure**, and cheap components cannot produce a good one at all. Even a good GX53 lamp caps at R9 ≈ 10%.
+> - **Two parameters this page did not name at all: the flicker coefficient (50–90% on cheap lamps, 0% on professional ones, with a free phone-camera test) and UGR**, the glare parameter that gives [[12_Engineering_and_Systems/analysis/Lighting_Glare_and_Room_by_Room|Glare and Room by Room]] something to specify against.
+> - **An eight-tier ladder spanning ~100× in price**, whose single structural break is whether the driver is remote from the diode — **the same conclusion this page reaches independently for LED strips and for integrated-LED chandeliers below.**
+>
+> **⚠️ And it puts a direct disagreement on the record with Реньжин's 15–20% position immediately above.** That Perspectives block lives on the new page; **neither side is resolved, and Реньжин's figure is the honest counterweight to a ladder built by a turnkey company.** [source: [[_Sources/YT_03QuTzPgPa8_kruglov_downlight_spec_eight_tiers|YT_03QuTzPgPa8]]]
+
 **⚠️ Secondary optics — the beam angle must be a written specification, and cheap optics cost you the CRI you paid for.** Цепелев and Борисов give this page's existing "secondary optics" parameter its content: it is what forms the beam — diffusers at one extreme, and **lenses focusing to 10°, 20°, 30°, 60°** at the other. Two consequences:
 
 - **The beam angle must be written on the luminaire, in the commercial offer, and in the project.** They name it as a figure buyers should demand and check, not infer.

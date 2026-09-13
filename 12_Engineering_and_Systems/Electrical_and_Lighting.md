@@ -65,6 +65,10 @@ Alexey Zemskov / ZEMS presents **a detailed, live-demonstrated case against rece
 
 **Daylight is deliberately not on that page** — see [[17_Design_and_Ergonomics/analysis/Daylight_and_Natural_Light|Daylight & Natural Light]]. It involves no circuits and no fixtures, so it sits with design rather than engineering.
 
+Konstantin Kruglov / Ontario, from five expert interviews and a light-laboratory visit, shows that **recessed downlights span roughly 100× in price for products that look alike in a listing photograph** — and names the parameters that separate them. The two worth knowing before buying anything: **a published CRI is an average over ten samples, so R9 (the red one) can be zero underneath a "CRI 90"** — demand R9 as a separate figure; and **flicker runs 50–90% on cheap lamps against 0% on professional ones**, testable for free by filming the lit fixture on a phone at minimum shutter speed. **Whether the spread is worth paying for is disputed in this vault** — a lighting designer puts the visible difference at only 15–20%.
+
+→ **[[12_Engineering_and_Systems/analysis/Downlight_Specification_and_Quality_Tiers|Downlights — Specification by Measurable Parameter, and a Quality Ladder]]** — the six measurable parameters (CRI/R9, flicker, beam angle and UGR, LED binning, lifespan and the remote driver, control protocols), an eight-tier ladder from ≈110 RUB to 11,000–15,000 RUB per fixture, and the unresolved Perspectives disagreement.
+
 ## Buying, Installation Quality, Hiring Red Flags & Cottage-Specific Content
 
 Alexey Zemskov / ZEMS says **sourcing lighting fixtures directly from overseas factories cuts hardware cost roughly 2-3×** versus local resellers — a meaningful lever specifically for lighting, which carries high retail markup. **A hired electrician's tool kit is a real, checkable vetting signal**: no dust-extraction vacuum on the drill during wall-chasing is a red flag (means masonry dust is being spread through the unit's cavities); round, cleanly drilled socket holes indicate competence, hacked square holes don't.
