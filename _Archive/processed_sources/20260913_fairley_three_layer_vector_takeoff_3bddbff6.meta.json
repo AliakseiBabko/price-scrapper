@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=S77hdyyjTmA",
+  "video_id": "S77hdyyjTmA",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T14:11:17.837912+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "3bddbff6098f8f4c1caed812a14d3bbc95bb58c74a320827aef1d7a98b9f7ddb",
+  "attempts_before_success": []
+}

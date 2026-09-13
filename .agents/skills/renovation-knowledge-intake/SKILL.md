@@ -382,6 +382,8 @@ Regulations / Permits / Approvals
 Mistakes / Warnings
 Family Requirements / Preferences
 Design Concept
+Digital Toolchain / AI Workflow
+Drawing and Documentation Conventions
 Unclear / Needs Confirmation
 Other / Unclassified
 ```
@@ -394,6 +396,56 @@ Preferences` and `Design Concept` buckets exist so a source that touches
 family needs or aesthetic direction feeds those specific `00_Master`
 documents' subject matter (via the intermediate store, not by this
 wrapper writing to those files directly - see Guardrails).
+
+### Two buckets added 2026-09-13 — `Digital Toolchain / AI Workflow` and `Drawing and Documentation Conventions`
+
+Added per an explicit owner decision, together with the new
+`18_Digital_Toolchain/` wiki folder. **The gap they close was first
+diagnosed on 2026-09-08 and left open for five days**: every one of the
+other 34 buckets is renovation-domain — a room, a trade, a material, a
+price — because the taxonomy is a taxonomy *of the renovation*. Content
+about **how the project's own data is produced and checked** therefore had
+no bucket at all and fell to `Other / Unclassified`, which is where
+findings go to be lost.
+
+- **`Digital Toolchain / AI Workflow`** — using AI/agents over construction
+  data, 2D plan production, 3D modelling and visualisation, quantity
+  take-off and cost calculation, CAD/BIM interchange. Routes to
+  `18_Digital_Toolchain/`.
+- **`Drawing and Documentation Conventions`** — how a drawing is
+  dimensioned, annotated, layered and composed into a sheet set. Routes to
+  `18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice.md`.
+
+> [!IMPORTANT]
+> **⚠️ These two buckets carry general practitioner/vendor practice ONLY,
+> exactly as `Design Concept` does.** A convention this project has
+> **adopted** is a project decision and belongs in
+> `00_Master/project_decisions.md` and in
+> `.agents/skills/residential-bim-geometry-rules/` — **this wrapper does
+> not write to either**, same guardrail that already applies to
+> `00_Master/Design_Concept.md` and `Family_Requirements.md`.
+
+> [!WARNING]
+> **⚠️⚠️ Two handling rules specific to this source class, learned across the
+> 2026-09-08 and 2026-09-11 rounds — apply them or the intake is not
+> adequate:**
+>
+> 1. **A screencast's knowledge is largely ON THE SCREEN.** Transcript-only
+>    intake loses it. Run `tools/youtube/extract_layout_frames.py` on any
+>    source whose value is a sheet layout, a dimensioning convention or a
+>    cost table, and apply **standing rule 9** to every figure read off a
+>    frame.
+> 2. **Model-capability verdicts date within months and must be discarded
+>    on purpose** — the 2026-09-11 round dropped every one. **Keep the
+>    mechanism, not the score**: how a drawing becomes queryable data, what
+>    an agent silently assumes, how a scale reference is established. Also
+>    note **software-subject ASR is measurably worse** than this vault's
+>    usual sources, so program names and numbers heard once are candidates,
+>    not figures.
+>
+> **⚠️ And the yield metric understates this class** — a source here often
+> moves a datum, a field or a sheet rather than adding a paragraph. Record
+> how many open capability items moved alongside the fact count.
 
 ## Vault layout change — `_supporting` dissolved (2026-08-30)
 

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=ItW-ielFvGg",
+  "video_id": "ItW-ielFvGg",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T14:12:49.265094+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "bffd2aafc258dc8b4877e57de8be2186cb3857eb3869f2e33de12233068f2713",
+  "attempts_before_success": []
+}

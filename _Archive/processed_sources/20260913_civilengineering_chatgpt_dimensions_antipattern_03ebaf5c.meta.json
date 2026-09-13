@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=EibFZPrtAp0",
+  "video_id": "EibFZPrtAp0",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T14:23:29.316105+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "03ebaf5c6c3a3f553cbf1a4d6009ee5b3e89ec811c7eead77a526651ba0a58c0",
+  "attempts_before_success": []
+}

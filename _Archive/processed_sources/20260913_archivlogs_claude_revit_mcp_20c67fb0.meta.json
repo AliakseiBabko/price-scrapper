@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=vmVvpKSSxWE",
+  "video_id": "vmVvpKSSxWE",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T14:17:23.851793+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "20c67fb095fd96ac8ef92afd9baf562624015cbec0fbecb15a8588b44bf23228",
+  "attempts_before_success": []
+}

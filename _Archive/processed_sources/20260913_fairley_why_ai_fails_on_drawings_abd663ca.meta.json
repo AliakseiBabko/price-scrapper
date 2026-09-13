@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=_k1jQBS4Nk8",
+  "video_id": "_k1jQBS4Nk8",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T14:14:20.877640+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "abd663cad1a2bf38cf5669f13a383580f4607aa7799c9917a9618c4f1d42b9e1",
+  "attempts_before_success": []
+}
