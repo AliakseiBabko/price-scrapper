@@ -56,6 +56,16 @@ Related: [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]] for
 [source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
 
 
+### ⚠️ Brick-Look Tile ("плитка под кирпич") — a Third Voice for Joint Count as the Real Variable (PRIDE / Алёна, 2026-09-06)
+
+**Stated plainly: with brick-look tile on a splashback the problem is not the tile, it is the number of joints.** The grout ("затирка") next to the hob is what actually needs repeated scrubbing — grease, sauces, spatter — and many small joints are far harder to clean than a smooth surface.
+
+- **Stated remedies, in the source's own order of preference: a large-format tile with minimal joints, or a single smooth slab.** If the brick effect is wanted anyway, confine it to the areas with the least splash and grease contact.
+- **⚠️ This is now the third independent arrival at the joint-count principle in this one section, from three unrelated practitioners** — Синчуков reaches it via the maximum-format-and-cut trick above ("the joint count is the real maintenance variable"), NSDSGN reaches it via the mosaic-and-natural-stone warning (grout-line count as a kitchen-specific failure the tier ladder does not price), and this source reaches it by naming the single most popular offending format. **Treat joint count as `corroborated` and as a specification question in its own right, separate from material choice** — the tier ladder above still ranks materials, not formats.
+- The kabanchik/subway format is listed neutrally in the tier ladder above under tile/porcelain; this block is the maintenance counterweight to that listing.
+
+`single-account` as stated; `corroborated` as a principle. [source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ## Worktop Overhang: An Experiment Against the Cabinetmakers' Argument (SMBUREAU, added 2026-08-30)
 
 SMBUREAU specify worktops **flush with the cabinet fronts, with no overhang**, and report having to argue it on site each time — "мебельщики просто округляют глаза."
@@ -252,6 +262,17 @@ This page records an overhang experiment "against the cabinetmakers' argument", 
 - **⚠️ And from the same December 2020 project, a way to terminate a large-format splashback with NO exposed arris and NO dust ledge: «над керамогранитом наклеен СЛОЙ ГИПСОКАРТОНА, который ВЫРОВНЯЛ ВСЮ СТЕНУ В ОДНУ ЛИНИЮ — здесь НЕТ ПЕРЕПАДА, НЕТ ТОРЦА, в котором СКАПЛИВАЛАСЬ БЫ ПЫЛЬ» — with the general rule attached: «ВСЕГДА нужно в дизайне продумывать СТЫКИ — все стыки материалов должны быть ПРИКРЫТЫ… и ЭТО ВЫДАЁТ ХОРОШИЙ ДИЗАЙН».**
 - **⚠️ A budget FAKE-MASS BAR COUNTER: compact laminate glued with THIN MITRED JOINTS at the external corners to build a hollow box reading as solid — «визуально стоит там не знаю 300000, а сделать за 20» — 20,000 ₽ ≈$270 against a hand-waved ≈$4,000. ⚠️ The 300,000 is rhetorical, not a quotation; the brand rendering is ASR-uncertain.**
 
+
+### ⚠️ Price Does Not Buy Durability — Three Materials, Three Different Failure Modes, and "Artificial Stone" Is Not One Material (PRIDE / Алёна, 2026-09-06)
+
+**The framing is the useful part and it cuts against the natural assumption behind a premium worktop spec: "высокая цена здесь совсем не означает, что материал будет у вас неубиваемым."** Each material fails differently, so there is no single durability ranking to buy up.
+
+- **Marble** — acid-sensitive. Lemon, wine and aggressive cleaning chemicals leave marks. **Corroborates the marble caution this page already carries from NSDSGN** (grease absorption, the client's white marble and backlit onyx that «превратился во что-то ужасное») and stands against the stonemason's meat-on-marble anecdote relayed in the splashback section above — which remains an unresolved Perspectives item, not settled by this source either.
+- **Wood** — fails under sustained moisture, and its protective coating needs periodic renewal. A maintenance schedule, not a one-off purchase.
+- **⚠️ Engineered/artificial stone ("искусственный камень") is not one material** — some variants scratch quickly, others tolerate high temperature poorly. **This is the specification warning worth keeping**: a spec that says only "artificial stone" has not actually chosen anything, and this page's existing acrylic-versus-quartz and four-material-verdict blocks are where that choice gets made.
+- **⚠️ Stated selection rule: choose against cooking habits, not appearance or price** — "если вы много и часто готовите, то более практичный материал может оказаться намного удобнее дорогого, но натурального." Same shape as NSDSGN's kitchen-is-the-aggressive-environment argument in the splashback section: the usage intensity, not the room, sets the material bar.
+
+`single-account`, `unverified`. [source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
 
 ## Ultra-Thin Countertop Material as a Height-Conflict Fix (added 2026-08-19)
 

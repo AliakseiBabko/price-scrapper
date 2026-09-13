@@ -954,3 +954,8 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_HOjQiiHJ714** - Aaron Dietzen / Trimble SketchUp - How good is Claude at SketchUp modeling?. Uploaded 2026-05-12 (confirmed via yt-dlp), 16:34. `fact_yield: 5`, `promotional_ratio: medium`.
 - **YT_3tAYEJTyUFY** - Tim Fairley - How to Get AI to Read Construction Drawings. Uploaded 2026-04-29 (confirmed via yt-dlp), 14:43. `fact_yield: 5`, `promotional_ratio: low`.
 - **YT_althlPj8Tag** - Aaron Dietzen / Trimble SketchUp - CAD Linework to SketchUp Geometry: 3 Methods. Uploaded 2025-06-10 (confirmed via yt-dlp), 13:22. `fact_yield: 0`, `promotional_ratio: medium`. **Skimmed, corroborating only - no independent finding extracted.**
+
+
+### Design-practicality single source (added 2026-09-13)
+
+- **YT_8uvwTALKbYE** — МЕБЕЛЬНЫЙ ТУР В КИТАЙ ОТ КОМПАНИИ PRIDE (presenter Алёна) — «Никогда не соглашайся на это в дизайн проекте!». Uploaded 2026-09-06 (confirmed via yt-dlp), 13:42. `fact_yield: 13`, `promotional_ratio: high`, `corroborates_existing: true`. Region **unresolved at level 1** (no city named; Russia appears only as the ad's comparison market). Thirteen design-project choices critiqued for daily-use practicality, each with a stated physical mechanism. **Second source from this channel** (after `YT_S9F9TGVG4x8`); its price claims are excluded to `Advertising_Promotional_Notes.md`, same handling as Round 1. No regulatory content — nothing routed to `16_Legal_and_Regulations/`.

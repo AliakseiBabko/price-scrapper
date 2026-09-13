@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=8uvwTALKbYE",
+  "video_id": "8uvwTALKbYE",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-13T13:27:18.244236+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "64c1c9fa7d8a1e0786916bccfec58a324ff2cc25dd0cc063c2e6c0247968e929",
+  "attempts_before_success": []
+}

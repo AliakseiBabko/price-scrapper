@@ -125,6 +125,16 @@ A reverse-engineering taxonomy, useful when working from reference photographs:
 
 `single-account`, `unverified`. `corroborates_existing: true` for the faux-marble critique itself; the accent-wall application and the genuine-marble-accessories alternative are genuinely new.
 
+### ⚠️⚠️ The Same Porcelain Slab Behind a TV — Two Objections the Recommendation Above Does Not Answer (PRIDE / Алёна, 2026-09-06)
+
+**The block above recommends large-format porcelain slab as a living-room accent-wall feature. This source takes the single most common instance of that application — the slab behind a television — and names two costs, neither of them about the material's realism.** Recorded here directly beneath it, because the two blocks are about the same product decision and should be read together.
+
+- **⚠️ Glare, which is a function of finish rather than of material.** A glossy slab throws reflections from windows and luminaires straight into the viewing position — during viewing, which is the only time the wall is being looked at. **The selection consequence is that the finish choice is not free here the way it is on a decorative accent wall**, and it points the same way as the matte-over-gloss position recorded for floors on [[13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection|Flooring Material Selection]].
+- **⚠️⚠️ Concealed services behind a monolithic finish — the more serious of the two, because it is irreversible.** Sockets and cabling are commonly run **behind** the slab, so any later relocation or repair means getting back through the finish: "получить доступ к ним будет намного сложнее." A large-format slab is precisely the finish that is hardest to open and reinstate locally, which makes this worse than the same detail in tile or plasterboard.
+- **⚠️⚠️ The stated sequencing rule, and the strongest planning item in the source: the whole TV zone must be resolved as one package BEFORE the slab is mounted** — finish, lighting, furniture, sockets, and specifically the equipment positions. **The stated reason is the part worth keeping: these constraints are very hard to foresee individually ("бывает очень сложно предусмотреть по отдельности") — it is their interaction that fails, not any one of them.** Cross-reference [[04_Living_and_Dining_Room/analysis/Living_Room_Layout_and_Furniture_Sizing|Living Room Layout and Furniture Sizing]] and the socket-planning material on [[12_Engineering_and_Systems/analysis/Mounting_Heights_and_Positioning|Mounting Heights and Positioning]].
+
+`single-account`, `unverified`. The source is a furniture-tour company and states this integration argument partly as a reason to take its tour; the technical grounds stand independently of that framing and are recorded on those grounds — see the source note's Advertising section. [source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ## Ornament, Mouldings and Corner Protection
 
 ### Protecting a Protruding Internal Corner — Seven Cladding Options, Ranked (Надежда Кузина, added 2026-08-31)

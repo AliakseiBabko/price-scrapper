@@ -129,6 +129,20 @@ Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture]]. First content on thi
 
 `single-account`, `unverified`. [source: [[_Sources/YT_A1mvvVObK5M_kruglov_top10_design_mistakes|YT_A1mvvVObK5M]]]
 
+### ⚠️ Perspectives — Fluted/Milled Facades: a Texture Technique on One Page, a Cleaning Liability on This One (PRIDE / Алёна, 2026-09-06)
+
+**A genuine disagreement between two sources about the same facade treatment, and both positions are defensible because they are answering different questions.**
+
+**The existing endorsement** — on [[03_Kitchen/analysis/General_Dos_and_Donts|Kitchen Dos and Don'ts]], Игорь Краснов names milled/fluted fronts as one leg of a same-colour-different-texture technique: carry one base colour across smooth, milled and glass-fronted cabinets to get material variety without introducing new colours. That is an argument about *appearance*, and this page's own trends material offers "neoclassic milling" as the calm-tones compromise for a client who wants a classical profile.
+
+**The objection, and it is about maintenance rather than looks**: **"чем меньше и глубже будет вот этот рельеф, тем сложнее будет уход"** — the finer and deeper the fluting, the harder the upkeep, because dust, grease and splashes collect between the ribs and cannot practically be cleaned out. The relief size is the variable, so a fine wave is the worst case and a broad, shallow profile the mildest.
+
+- **⚠️ Stated placement rule, which is what actually reconciles the two positions: fine fluting belongs on a display cabinet or as pure decor, and specifically not on kitchen fronts.** The speaker's own kitchen has none; her fluted fronts are on a **living-room TV unit, and only on its lower portion**, with everything above it smooth — the texture deliberately confined to a low-splash zone.
+- **→ The reconciliation to carry forward: the disagreement is about *where*, not about whether.** Краснов's texture technique survives intact outside the cooking zone; what this source rejects is fine relief in the splash-and-grease field. Relief depth and location are therefore two separate specification questions, and this page's facade summary ranking — which ranks finishes by fingerprint- and dirt-proneness — prices neither.
+- Consistent with the same-page note that Феникс/Phoenix cannot be supplied with a relief or milled profile at all: the most cleanable facade material in this page's ladder is available only flat.
+
+`single-account` for the objection. [source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ## Monochrome/Minimalist Facade Aesthetic and No-Upper-Cabinets Trend (added 2026-08-28)
 
 > [!NOTE]

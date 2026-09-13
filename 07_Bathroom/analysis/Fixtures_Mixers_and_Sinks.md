@@ -117,6 +117,22 @@ Konstantin Kruglov / Ontario: **tropical/rain-shower riser upsizing, new specifi
 - **⚠️ Therefore: "выбрали раковину, а потом может быть когда-то выберу смеситель — нет, так не работает."** And **the mixer position gets dimensioned on the drawings, so it must be a specific model.**
 - **⚠️ Buy mixers as a set where possible — "хотя бы производителя, хотя бы одного цвета."**
 
+### ⚠️ Ultra-Minimalist Mixers — Three Geometric Failure Modes, and Why a Designer Specifies One Anyway (PRIDE / Алёна, 2026-09-06)
+
+**The source's worked examples are kitchen-side (large pots, a baking tray), but the geometry is the same three variables this section already dimensions for a basin**, so it is recorded here with the rest of the mixer material rather than split across two pages. The target is the fashionable **"ультратонкие модели с маленьким рычагом"** — very slim bodies with a small lever.
+
+Each failure has its own cause, and they pull in opposite directions, which is why one dimension cannot be optimised alone:
+
+- **Spout too low** → large pots and baking trays will not fit under it.
+- **Spout too short (insufficient reach / "вылет")** → the stream does not land in the centre of the bowl. **The same failure this section already works through for a vessel basin and a concealed wall mixer**, arrived at independently.
+- **Spout too high without a pull-out spray** → water splashes out of the bowl.
+
+**Stated pre-purchase checklist: height, reach ("вылет"), spout swivel, and handle usability** — not appearance. Stated priority, verbatim: **"смеситель должен быть в первую очередь удобным, потом уже красивым"** (convenient first, beautiful second).
+
+- **⚠️ The briefing-process insight, which is the genuinely new part — a candid second-speaker exchange on *why* awkward mixers keep getting specified.** Two named mechanisms, neither of them incompetence: either **the client saw a specific mixer, liked how it looked and insisted**, leaving the designer to fit it; or **the designer recommends to every client the model that suits their own hand and habits** — "дизайнеры же тоже люди. Им, например, удобен такой смеситель." **Stated remedy: inspect a mixer physically ("вживую") before committing, because ergonomic fit is individual.** Worth holding alongside this page's existing rule that the mixer must be a specific model dimensioned on the drawings — that rule makes the choice early and hard to reverse, which is exactly when a showroom visit is cheapest.
+
+`single-account`. [source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ## Sinks and Basins
 
 ### Sinks

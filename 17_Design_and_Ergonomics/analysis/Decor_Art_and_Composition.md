@@ -134,6 +134,16 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 
 `single-account`, `unverified`.
 
+### ⚠️ The Full-Height Mirror Behind a Dressing Table Has a Dead Lower Half — Start It at Worktop Level (PRIDE / Алёна, 2026-09-06)
+
+**A common design-project move with a stated functional defect: the lower portion of a floor-to-ceiling mirror set behind a dressing table does no work.** The mechanism is that it is occluded by the table or a pouffe, and the seated user cannot see it in any case — while still collecting dust, streaks and eventually scratches. It is maintenance burden with no return.
+
+- **⚠️ Stated remedy, and the reason this is worth recording rather than just noting the objection: start the mirror at worktop level instead.** The claim is that **the visual effect is near-identical** — "эффект останется почти точно таким же, но ухаживать за ней будет в разы проще" — so the space-enlarging benefit that motivates the full-height mirror survives the change, and only the dead area is given up. That makes it a rare case with no trade-off to weigh.
+- Presented explicitly as the speaker's own opinion ("моё мнение"), not as a rule. `single-account`.
+- Sits alongside this section's existing mirror-placement material — the mirror-opposite-window rule and the Kruglov placement cautions — and is about mirror **extent** rather than mirror **position**, which none of that material covers.
+
+[source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ## Objects, Vignettes and Composition Method
 
 ### Weathered/Patinated Objects, Personal-Memory Displays, and Full-Room Wallpaper — a Counter-Case (Kirsten Dunst / designer Jane Hallworth, Игорь Краснов's added commentary, added 2026-09-01, Round 6)

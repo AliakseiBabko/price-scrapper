@@ -152,6 +152,18 @@ This page's what-to-check-before-buying list covers output, driver quality, serv
 
 **This is a durability argument for the "люстра — не прибор освещения" position above, arriving from the supply side rather than the design side.** [source: [[_Sources/YT_ZKAcnh4kKfY_nsdsgn_lighting_colour_temperature_and_gear|YT_ZKAcnh4kKfY]]]
 
+### ⚠️ Ring chandeliers ("люстра из колец") — the same disposability mechanism, plus a proportion and a cleaning objection (PRIDE / Алёна, 2026-09-06)
+
+**A fourth voice arriving at the replaceability rule above, from the design side rather than the service side**, and specific to one fixture family that was heavily fashionable.
+
+- **The proportional objection, which is the one that decides it in this flat's ceiling heights**: over a low ceiling, a large multi-tier ring fixture visually pulls the ceiling down and breaks the room's proportions. Consistent with the low-ceiling reasoning in Objection 2 under § LED Strip below.
+- **Brightness**: powerful LED ring models can simply be too bright, and the effect compounds with the number of rings — a fixture chosen as decor delivering more output than the room wants.
+- **Cleaning**: a multi-ring structure is stated to be very hard to clean, a maintenance cost that scales with the same ring count.
+- **⚠️ Repairability — independently restating the disposability mechanism above**: integrated LEDs in these fixtures may not be individually replaceable, so a single failure forces replacement of the whole luminaire.
+- **Stated pre-purchase checklist, four items beyond the design**: fixture **size**, **suspension height**, **light output/brightness**, and **whether individual elements can be replaced.** The fourth item is this page's existing replaceability specification, reached independently by a source with no service department of its own.
+
+`single-account` as stated; the replaceability finding itself is `corroborated` against the Цепелев service case above. [source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ### Dining pendant — a diameter formula and a corroborated height
 
 **The height independently corroborates Шеврина's figure from an unrelated channel** (below) — recorded as convergence, not duplication. Кузина supplies the diameter formula and two checks Шеврина's figure lacks. [source: [[_Sources/YT_Dd_pUAvzqew_kuzina_dining_pendant_size_and_height|YT_Dd_pUAvzqew]]]
@@ -259,13 +271,20 @@ The same applies to multiple strips on one switch — **three vertical wall stri
 
 **LED strip without a light cornice**: profiles made to sit between ceiling and wall throwing light down the wall, or a perimeter run bright enough to **replace the chandelier entirely.** [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
 
-### ⚠️ Cove/contour lighting — endorsed once, then objected to twice on unrelated grounds
+### ⚠️ Cove/contour lighting — endorsed once, then objected to three times on unrelated grounds
 
 **The endorsement**: perimeter cove lighting (ceiling and floor), shelf and countertop backlighting are all good practice — with coloured LED excluded, as above. [source: [[_Sources/YT_1gXYL99mfY4_kruglov_how_to_choose_lighting|YT_1gXYL99mfY4]]]
 
 **Objection 1 — the dust trap.** Dust, gnats and small insects accumulate over time in the concealed channel between a stretch-ceiling membrane and the light source behind it; once lit, the light casts a visible shadow through the accumulated debris, reading as visible dirt on the ceiling. **A real, fairly fast cosmetic failure specific to this construction detail** — not a durability problem with the ceiling material and not a reason to avoid cove lighting outright, but worth planning for (accessibility for cleaning, or accepting the eventual look) rather than treating as maintenance-free. `single-account`, `unverified`. [source: [[_Sources/YT_oDHSbp6QRRE_kruglov_worst_overrated_trends|YT_oDHSbp6QRRE]]]
 
 **Objection 2 — the standard product is self-defeating in a low room, and this is convergence rather than repetition because the grounds are entirely unrelated.** Кузина observes that **the more expensive the project, the less cove lighting it contains** — she sees almost none in leading European designers' work. **Her mechanism: a hollow cornice with an LED strip needs ≥5 cm to the ceiling for light to escape — so it illuminates precisely the wall/ceiling junction the whole low-ceiling strategy exists to hide.** *"Такой вариант не подходит."* **Two working alternatives**: a cornice already shaped with a bend that conceals the strip (effectively a double cornice), **or buy the cornice and a separate light moulding and place the light moulding *under* the cornice — so the light washes the cornice, not the junction.** [source: [[_Sources/YT_SC6icQAYFhw_kuzina_low_ceilings|YT_SC6icQAYFhw]]]
+
+**Objection 3 — grazing light is a defect amplifier, and the failure is in the substrate rather than the fitting (PRIDE / Алёна, 2026-09-06).** Stated for **curtain cove lighting at the ceiling** specifically, but the mechanism is general to any strip that washes along a surface: light travelling parallel to a plane immediately reveals **any unevenness in the niche or the curtain track**, and any unwanted pattern in the fabric it grazes. **If individual LED dots are visible, the effect reads cheap** — "эффект сразу станет намного дешевле." The practical consequence is that this technique has two prerequisites that are decided long before the fitting is bought: **a genuinely true plane to graze, and a diffused, dot-free strip.** This is a different failure from Objection 1 (debris accumulating in the channel) and Objection 2 (the cornice lighting the junction it should hide) — here the fitting works exactly as intended and that is the problem, because it is a raking light aimed at construction tolerances.
+
+- **⚠️ Named compound mistake — repeating the technique everywhere.** Cove lighting on the curtains *and* the ceiling *and* behind furniture *and* in the TV zone until "интерьер просто превращается в какой-то набор светящихся линий" (the interior turns into a set of glowing lines). A restraint rule for accent lighting generally, not only for curtain coves.
+- **⚠️⚠️ Serviceability requirement, stated as mandatory if the technique is used at all: provide access to both the LED strip and its power supply ("блок питания")** so either can later be replaced or repaired. **This must be designed into the niche**, which makes it a drawing-stage decision, not an installation one. **Directly corroborates § The LED Driver Is a CONSUMABLE below** — two unrelated sources independently concluding that the driver's accessibility is a design input.
+
+[source: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
 
 ### Cost
 

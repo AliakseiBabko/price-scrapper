@@ -47,6 +47,26 @@ The dining-table *clearance* figures (75 cm to a wall, 110 cm to a kitchen run, 
 
 What belongs here is the selection side: **legs that extend past the tabletop edge are the specific dining-table failure** — you kick them on approach and cannot see them coming. See the legs section on [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]].
 
+### ⚠️ The Round-Table Seat Threshold, and the Oval That Replaces It (PRIDE / Алёна, 2026-09-06)
+
+**A round dining table has a seat count past which it stops working, and it is low.** At **2–4 people** it is stated to be genuinely better than a rectangle — no corners, everyone faces everyone, and it is easier to walk around. At **6–8 people** the required diameter grows enough that two separate problems appear: it consumes disproportionate floor area, and **reaching the centre of the table requires standing up**.
+
+- **Stated remedy: an oval, or a rectangle with rounded corners** — "посадочных мест там будет столько же, но пространство при этом будет использоваться более рационально" (the same number of seats, a more rational use of the space). The rounded corners keep the approach-safety benefit that this page's existing legs-and-corners material cares about, without the diameter penalty.
+- Useful against this page's existing Market Note, which observes that a Russian-market low table is almost always "круглая столешница и три или четыре ножки" — the default form is the one with the narrowest usable seat range.
+
+### ⚠️ Glass Tabletops — Four Daily-Use Costs Against One Real Benefit (PRIDE / Алёна, 2026-09-06)
+
+The benefit is real and is the reason they get specified: **a glass top visually lightens the space at any size**, which is what makes it a common small-room recommendation. The costs are stated as four, and they are maintenance and acoustics rather than durability:
+
+- Shows fingerprints, drips, crumbs and dish marks continuously — explicitly worse with small children.
+- Needs near-continuous wiping to stay presentable.
+- **Accumulates scratches that are especially visible in raking/side light** ("при боковом свете") — the same lighting condition that makes a textured wall finish read well makes a glass top read scratched.
+- **Crockery set down on it rattles** ("дребезжит"), which some people find persistently unpleasant.
+
+Framed by the source as a conscious trade, not a prohibition: it suits someone willing to accept either the higher upkeep or the rattle in exchange for the visual lightness. `single-account`. Compare the glass-table refinement recorded from a different angle on [[17_Design_and_Ergonomics/analysis/Decor_Art_and_Composition|Decor, Art and Composition]].
+
+[source for both blocks: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
+
 ---
 
 ## Market Note (context, not technique)
