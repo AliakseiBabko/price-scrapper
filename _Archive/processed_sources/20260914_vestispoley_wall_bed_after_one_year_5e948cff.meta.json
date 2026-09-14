@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=31-gx3ysiew",
+  "video_id": "31-gx3ysiew",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T20:21:23.782856+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "5e948cff24c4f169ed599cb79e3b0358d0fb6766c5591e8ac98d7344d1d7df5a",
+  "attempts_before_success": [],
+  "upload_date": "2023-02-06",
+  "upload_date_source": "yt-dlp"
+}

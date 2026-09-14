@@ -76,6 +76,33 @@ Directly relevant to this project, where overnight-guest frequency is already re
 
 [source: [[_Sources/YT_XGI6FS2ZdCc_shevrina_25_antitrends|YT_XGI6FS2ZdCc]]]
 
+**⚠️⚠️ A THIRD ARRIVAL AT THE SAME DEFECT — and the first from a user rather
+than a practitioner.** This page already holds two practitioner positions
+against sofa beds: Шеврина's (most are uncomfortable; a rolled 10 cm mattress
+is the better answer) and Краснов's (the fold junction is a classic source of
+lower-back strain). A household that slept on one nightly, with a child, names
+the identical defect from the other side and gives it as their reason for
+switching to a wall bed:
+
+> *«В диване всегда есть какая-то граница на две части — посередине, либо
+> поперёк, либо вдоль — то есть туда кто-то ПРОВАЛИВАЕТСЯ, это очень неудобно.
+> Если поперёк, то спине неудобно. Здесь полноценный матрас.»*
+
+Two further households in the same source give the same reason unprompted
+(*«на диване мы себе как-то не представляли свою жизнь»*; *«спать на диване я
+очень не хотела»*).
+
+> **⚠️ It also supplies what the two practitioners did not — the alternative
+> they were implicitly reaching for.** Шеврина's rolled mattress answers the
+> GUEST case. These households needed a nightly bed for ADULTS, and the wall
+> bed is what takes a full mattress with no seam — see
+> [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanism Selection and Reliability]].
+> **For this project the distinction matters directly, because Phase 2 puts the
+> adults on a folding bed in the shared space: the question is not "sofa bed or
+> wall bed for guests" but which device an adult sleeps on every night.**
+
+[source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+
 ---
 
 ### Corner-Sofa Depreciation/Logistics, Low-Profile Seat Height, Backless Bar Stools, and a Glass-Safety Case (Игорь Краснов, added 2026-09-02, Round 7)
