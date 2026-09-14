@@ -192,3 +192,33 @@ Her worked example is a restaurant washroom she admired in detail: **plain small
 ## Rough-stage technique and QC checklists — moved to their own page
 
 The long on-site checklists (secondary-apartment rough-stage technique, the new-build rough-stage QC acceptance checklist, the five-macro-stage documentation checklist, and the new-build-versus-secondary demolition comparison) are now on **[[11_Budget_and_Planning/analysis/Rough_Stage_Techniques_and_QC|Rough-Stage Techniques and Acceptance QC]]**. This page keeps the ordering decisions you make before the crew arrives.
+
+---
+
+## ⚠️⚠️ The Post-Purchase Sequence, and Why the Measurement Comes AFTER Handover (Dmitry_HVAC, added 2026-09-14)
+
+**An HVAC designer's checklist for the weeks after buying a flat.** Full extraction: [[_Sources/YT_l4HipwaUxpc_dmitry_hvac_renovation_start_checklist|the renovation-start note]]. ⚠️ `promotional_ratio: high` — three funnel links, and **the entire ventilation section is deferred to a paid masterclass and never delivered.**
+
+**1. ⚠️ Request the КЛАДОЧНЫЙ ПЛАН from the developer immediately** — *«даже если самой квартиры ещё не существует»*, from the sales office. **You need to know what the internal walls are made of**, because the developer's layout *«не для вас они её делали, а просто ради продажи»*, and it is what tells you whether a change is an official or an unofficial replanning.
+
+> ⚠️ **This project already holds the equivalent** — `data/canonical/wall_materials.json` plus the developer plan and БТИ material. **Recorded as confirmation that this is the correct FIRST artefact, not as a new action.** ⚠️ **The part this vault does NOT state anywhere is the demolition logistics: *«разрезать монолит и вывести его из квартиры с пятого или десятого этажа — это огромная проблема»*** — a real cost driver for any load-bearing change, separate from the permit question.
+
+**2. A concept, then a planning solution** — what each room is, before furniture positions, before any design project.
+
+> **⚠️⚠️ AND THE SERVICES MUST BE DECIDED AT CONCEPT STAGE, NOT LATER.** His example is air conditioning: indoor units hang almost anywhere, **but the OUTDOOR units need a place** — *«если у вас нет корзин, нет лоджии, нет балкона, и есть какой-то техэтаж… вот это обязательно нужно знать уже на этом этапе»*. ⚠️ **Directly relevant here: the loggia's status decides whether there is anywhere to put a condenser at all.**
+
+**3. Electrics** — sockets and lighting at minimum, all of it on the plan. ⚠️ **The kitchen is *«самое больное место»*** — how many worktop sockets and where, so you are not endlessly unplugging a multicooker. **Cable sizing routed separately to [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Cable Circuits & Panel Design]].**
+
+**4. ⚠️⚠️ MEASURE THE FLAT AFTER HANDOVER, BEFORE ORDERING ANYTHING.**
+
+> *«То, что вам запланировали, и факт — может не соответствовать на 1, 2, 3 см. Дверной проём смещён на 3 см — как будто ничего страшного. **Но для такого этапа, как заказ мебели, это может быть целой трагедией.**»*
+>
+> *«**В чистовой отделке нету допусков 5 см. Дам допуск 1 см в лучшем случае.** …у вас либо плитка по формату уже не влезет, либо будет фартук, и будет кухня, и будет вот такой вот зазор.»*
+
+> **→ ⚠️⚠️ A ~10 mm FINISHING TOLERANCE, against this project's ±50 mm building nominal and a fabricator's 3 mm furniture clearance.** **The full three-scale comparison, and the second source that arrives at it independently, is on [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing and Ergonomics]].**
+
+**⚠️ And the measured plan is a communication artefact, not only a record**: with an accurate dimensioned plan you send it to electricians, ventilation and A/C contractors and *«вам онлайн дистанционно посчитает — не нужно будет ездить что-то замерять»*.
+
+> **⚠️⚠️ That is a direct description of what this project's album is FOR — external validation of the deliverable's purpose, from someone who receives such plans for a living.**
+
+**His summary, which matches this vault**: any renovation without a technical project is doomed to a long build and overpaying; furniture ordered without the flat's real dimensions is money burnt; engineering done by eye is renovation by guesswork; and planning beats a target move-in date.

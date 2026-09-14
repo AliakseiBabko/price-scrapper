@@ -165,3 +165,24 @@ Offered by the same rescue contractor as the pattern that makes a client vulnera
 - [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories and Delivery Models]]
 
 Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Guide]].
+
+---
+
+## ⚠️⚠️ A Direct Challenge to Self-Management — Recorded as a Perspective, Not Rebutted (Dmitry_HVAC, added 2026-09-14)
+
+> *«Не засоряйте свою голову изучением того, **какую конкретно гидроизоляцию, как нужно наносить, сколько часов ждать, пока она засохнет, какой клей выбрать для плитки… какой конкретно провод нужно взять, какое напольное покрытие дольше будет служить**. Нет, не в этом ваша задача. **Вашей жизни не хватит, для того чтобы в этом разобраться.** Ваша основная задача — **найти для себя идеальных исполнителей**, которым вы доверите свои деньги.»*
+>
+> *«Я не знаю ни одной квартиры, ни одного загородного дома — хотя через нас их прошло сотни — **чтобы человек с первого раза вписался в ремонт**, всё сделал сам, и у него всё получилось. **Не бывает такого. Это невозможно.**»*
+
+> **⚠️⚠️ THIS CONTRADICTS THE PREMISE OF THIS ENTIRE VAULT**, which exists because the owner is self-managing and has built ~813 extraction notes precisely in order to understand waterproofing, cable cross-sections, tile adhesive and floor coverings. **This source says that is the wrong allocation of effort, and that CONTRACTOR SELECTION is the real lever.**
+>
+> **Recorded in full, on the page about selecting contractors, because that is where it belongs.**
+
+**⚠️ Two things to weigh against it:**
+
+- **The commercial interest is direct.** He sells design services and paid masterclasses. *«Найти идеальных исполнителей»* is congruent with *«hire professionals like me»* — and in the same video the most substantive section is withheld behind a funnel.
+- **⚠️ His own video contradicts him.** He tells the viewer not to learn cable cross-sections roughly ninety seconds after teaching them 2.5 mm² versus 1.5 mm².
+
+**⚠️ And the defensible half is worth keeping regardless of the framing:** a self-manager's scarcest resource is attention, and depth bought in one trade is depth not bought in another. **This vault's own value filter already acts on that principle — deciding what NOT to read is most of the work.** **The disagreement is about where the line sits, not about whether there is one.**
+
+> ⚠️ **No verdict is routed.** **The claim that nobody gets a renovation right first time is an assertion from someone who has seen hundreds, and it is neither verifiable here nor evidence about this particular flat.**

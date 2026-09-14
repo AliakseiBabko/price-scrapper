@@ -89,3 +89,43 @@ The section above records a designated mess niche as a working solution. **This 
 
 [source: [[_Sources/YT_AEJlxbTmQJU_nsdsgn_own_kitchen_review|YT_AEJlxbTmQJU]]]
 
+
+---
+
+## ⚠️⚠️ Opening a Front Without a Handle — Four Methods, and What Your Fingers Touch Decides It (CAPPUCCINO / Юрьев Юрий, added 2026-09-14)
+
+**A kitchen fabricator's comparison of the four handle-less opening methods.** ⚠️ **He installs all four.** Full extraction: [[_Sources/YT_e7CPmsT_P8Q_cappuccino_handleless_opening_and_blum_hardware|the hardware note]].
+
+| Method | ⚠️ The constraint that decides it |
+| :--- | :--- |
+| **TIP-ON** (mechanical push) | **⚠️⚠️ You press the FACE of the front every time — *«частое соприкосновение с лицевой частью фасада приводит к загрязнению и истиранию лакокрасочного покрытия»*.** Also: a **4 mm side gap** that is visible from the side, a **synchroniser required beyond 60 cm**, and it breaks if used roughly |
+| **J-handle** (milled groove) | **⚠️ Needs a 19–25 mm MDF front, and at 19 mm the groove is too shallow — *«девушка с длинными ногтями чувствует определённый дискомфорт»*. He insists on 25 mm.** ⚠️ Unaesthetic on tall units; **do not use on the dish-drainer module**, where an AVENTOS HF usually sits |
+| **Gola profile** (aluminium) | **⚠️⚠️ No mechanism, no synchroniser at any width, and — the advantage he names as the main one — *«не пачкается лицевая часть фасада»*.** ⚠️ **But it is 7 cm tall and that space is unusable** |
+| **SERVO-DRIVE** (electric) | Programmable; also works on the fridge and dishwasher. **⚠️ Needs mains power — *«если его нет, то пользоваться кухней достаточно проблематично»*** |
+
+> **⚠️⚠️ THE CROSS-CUTTING FINDING, WHICH ONLY APPEARS WHEN TWO OF HIS VIDEOS ARE READ TOGETHER: push-to-open wears the lacquer exactly where the same fabricator says lacquer wears — *«от частого протирания на одном и том же месте может со временем вытереться слой лака, что создаст пятно на фасаде»* ([[03_Kitchen/analysis/Facade_Materials_Fabricator_Account|Facade Materials — A Fabricator's Own Account]]).** **TIP-ON on a painted front concentrates both mechanisms on the same square of surface.** ⚠️ **This corroborates the push-to-open objection already recorded on [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops & Backsplash]], and supplies the wear mechanism behind it.**
+
+### ⚠️⚠️ And one choice propagates into the worktop height
+
+> *«Если в вашем проекте есть посудомоечная машина, то минимальная высота столешницы у вас будет 92 сантиметра.»* — on the gola profile.
+
+**→ GOLA + DISHWASHER FORCES A WORKTOP AT ≥920 mm.** ⚠️⚠️ **A handle decision propagating into worktop height, splashback height, upper-cabinet position and the cook's ergonomics.** **Route as a constraint, not a preference** — read with [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|Layout, Cabinet Sizing and Ergonomics]]. ⚠️ **And it competes with the 15 cm minimum (20–25 cm recommended) plinth that a SPACE STEP needs** — plinth height, worktop height and opening method are one coupled decision, not three.
+
+⚠️ **The opening method also constrains the FRONT MATERIAL: a J-handle cannot be milled into laminated MDF at all.**
+
+## ⚠️⚠️ AVENTOS Lift Mechanisms — the Selection Rule Is What Sits ABOVE the Cabinet (CAPPUCCINO, added 2026-09-14)
+
+**Blum's 2020 range, as installed by a fabricator.** ⚠️ **Manufacturer specifications, so more reliable than the material opinions elsewhere in this round — but a 2020 catalogue.**
+
+| Mechanism | Fronts | Cabinet envelope | Max load | ⚠️ What may be above |
+| :--- | :--- | :--- | ---: | :--- |
+| **HF** | **two, bi-fold, one sweep** | 48–104 × ≤180 cm | **20 kg** (→ **27** with a second power unit) | **Ceiling OK** with the optional **103° / 83° limiters**, *«чаще всего для кухонь в потолок либо с антресолями, чтобы не повредить фасады»* |
+| **HS** | one, over the carcass | 35–80 × ≤180 cm | 20 kg | **⚠️⚠️ NOTHING — explicitly not for ceiling-height kitchens or antresols** |
+| **HL** | one, vertical parallel | 30–58 × ≤180 cm | 20 kg | **Cabinets above are fine**; ⚠️ not recommended with antresols |
+| **HK top** (2020) | one, up | 20.5–60 × ≤180 cm | **18 kg** | **Very little needed → suits both**; limiter built in, **75–105°**, screwdriver-set |
+| **HK-S** | one, up | ≤60 × ≤90 cm | **18 kg** | Antresol, or over the fridge; max **107°** |
+| **HK-XS** | one, up | 24–60 × ≤90 cm, **min depth 10 cm** | — | Smallest; ⚠️ **replaces a GAS STRUT and, unlike one, fixes at any position** |
+
+> **→ ⚠️⚠️ THE RULE IS NOT ABOUT THE DOOR, IT IS ABOUT THE CEILING. Choosing a floor-to-ceiling kitchen silently removes HS from the option set, and makes limiters mandatory on HF.** ⚠️ **This vault covers ceiling-height kitchens from the design side at length; this is the hardware consequence.**
+
+**Also**: **HF is his pick for the dish-drainer cabinet** and takes asymmetric fronts; **HS needs no hinges at all**; all ship with soft-close, any can take Servo-Drive, **and only HK top can take a mechanical TIP-ON**. ⚠️ **The load limits are against the FRONT's weight** — *«правильно рассчитывайте вес фасада»* — which a stone or thick front will approach. ⚠️ A safety detail on HF Servo-Drive: closing it on fingers does not pinch, because the internal hinges unclip.

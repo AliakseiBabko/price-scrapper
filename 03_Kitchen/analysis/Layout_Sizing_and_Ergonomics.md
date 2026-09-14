@@ -300,3 +300,36 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 - **Door-mounted trash-bin retrofit claim**: this page's existing door-mounted bin-attachment kit is confirmed retrofit-compatible — installable onto an existing kitchen cabinet door even a decade after that kitchen's original installation, without a full kitchen replacement.
 
 `single-account`, `unverified`. [source: [[_Sources/YT_9aVNKzaxGSI_kruglov_top_solutions_modern_kitchen|YT_9aVNKzaxGSI]]]
+
+---
+
+## ⚠️⚠️ Furniture Gaps — Three Tolerances at Three Scales, and the Furniture Is Ordered Against the Tightest (added 2026-09-14)
+
+**Two unrelated sources in one batch, from opposite ends of the trade, arriving at the same conclusion.** Full extractions: [[_Sources/YT_BOIJzganJ9U_cappuccino_furniture_gaps_tolerances|the gaps note]] (a kitchen fabricator) and [[_Sources/YT_l4HipwaUxpc_dmitry_hvac_renovation_start_checklist|the renovation-start note]] (an HVAC designer).
+
+| Stage | Tolerance | Source |
+| :--- | :--- | :--- |
+| **Building, as built vs plan** | **±50 mm nominal** | `00_Master/Geometry_Variance_Study.md` — −45 to +30 mm measured across three surveyed flats |
+| **⚠️ Finishing** | **~10 mm at best** | *«В чистовой отделке нету допусков 5 см. Дам допуск 1 см в лучшем случае.»* |
+| **⚠️⚠️ Fitted furniture** | **3 mm per wall, just to install** | *«Мебель нужно делать на 3 миллиметра [меньше] от каждой стены… это такой стандарт, для того чтобы можно было монтировать без проблем.»* |
+
+> **→ ⚠️⚠️ THE KITCHEN IS SPECIFIED AGAINST THE BUILDING'S ±50 mm AND INSTALLED INTO THE FINISH'S ±10 mm WITH A 3 mm WORKING CLEARANCE. The three do not reconcile — which is precisely why both sources insist on a POST-HANDOVER MEASUREMENT before anything is ordered.**
+>
+> **⚠️ A run modelled hard against two wall faces is, in reality, 6 mm shorter than the opening.** **Relevant to how built-in furniture is dimensioned against `data/canonical/` and to `room_rollouts.csv`.**
+
+### ⚠️⚠️ The fabricator names ROOM GEOMETRY as the dominant term — which is this project's own premise, from the other side
+
+> *«Наибольшую проблему составляет **геометрия помещения**, потому что ремонт вам делают **не роботы, а живые люди**: рука может дрогнуть, стена может оказаться пузом, либо угол 90 градусов — а он 90,5 или 90,05. И это всё кардинально влияет на конечный размер мебели.»*
+
+**He builds to it from material tolerances upward**: an Egger ЛДСП sheet nominally 18 mm *«может быть 17,8… другой лист 18 с копейками»*, and *«на 5 метров набегает плюс-минус 1 миллиметр — и это только по ЛДСП»*.
+
+> **⚠️⚠️ Independent corroboration, from the furniture trade, of the reasoning behind this project's wall-geometry gating and its variance study — the same argument, two orders of magnitude apart.** **And it is where the building's real geometry is finally paid for: the furniture order.**
+
+### The other two gaps, and a trap that only appears once built
+
+- **Upper modules to ceiling: down to 6 mm**, using **3D-adjustable hangers**. ⚠️ **That clearance is what makes a floor-to-ceiling kitchen physically mountable** — a topic this vault covers from the design side but not the mounting side.
+- **Between fronts: 3 mm**, their standard, driven by front thickness, shape and opening angle.
+- **⚠️⚠️ THE COLOUR TRAP: *«если вы выберете фасады тёмного цвета, а корпус сделаете светлым, то даже через эти 3 миллиметра будет видна светлая кромка корпуса»*.** **→ A 3 mm gap is a 3 mm stripe of carcass colour, repeated around every front. Invisible in a render, unavoidable in reality, fixable only at ordering — specify the carcass front edge dark, or close to the front colour.**
+- **⚠️ A 45° module takes noticeably larger gaps than a straight run**, because the front needs more clearance to swing. **The mechanical reason a corner module looks looser** — read with the corner-sink and corner-kitchen critiques above.
+
+> ⚠️ **None of these is a norm.** They are one Ukrainian fabricator's shop standards, 2020. **The transferable question is not whether his 3 mm is correct, but what OUR fabricator uses and whether our model leaves room for it.**

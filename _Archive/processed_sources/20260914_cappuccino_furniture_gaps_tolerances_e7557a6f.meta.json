@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=BOIJzganJ9U",
+  "video_id": "BOIJzganJ9U",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T07:02:12.109743+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e7557a6fd984d9c9aeb2766ec72ea885238bbc14c500d8e294c98fbcfa30082e",
+  "attempts_before_success": []
+}

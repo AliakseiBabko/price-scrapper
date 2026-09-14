@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=l4HipwaUxpc",
+  "video_id": "l4HipwaUxpc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T07:03:43.524329+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "1da65568d8c2c534a0668f15fc399eaeffdd3c46c08f06b5ff5d864a5376ccc9",
+  "attempts_before_success": []
+}
