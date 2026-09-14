@@ -252,3 +252,61 @@ USD at the **12-month trailing mean to 2022-12-31, 68.3761 RUB/USD**; comparabil
 ## The per-system tier ladder — moved to its own page
 
 The system-by-system breakdown (ceiling, electrical, wall finishing, tile, flooring, lighting, furniture, baseboard, reveals, doors, ventilation, smart home, plumbing fixtures) is now on **[[11_Budget_and_Planning/analysis/Budget_Tiers_By_System|Budget Tiers by System]]**. This page keeps the framing those tiers only make sense against.
+
+
+## ⚠️⚠️ A Tier Is Not a QUALITY Tier — Moscow 2025, With Figures (РемонтХочу, added 2026-09-14)
+
+**This page opens by warning the reader not to trust a tier assignment. A Moscow contractor supplies the reason that warning is right.**
+
+> ***«Эти сегменты не отличаются по требованиям к качеству… Эконом от премиального отличается только лишь тем, что в премиальном используются более дорогие материалы… Но требование к прямой стене — оно равно как к экономремонту, так и к премиуму.»***
+
+> **→ ⚠️⚠️ A TIER DESCRIBES SPEND — material cost plus complexity — NOT the standard of workmanship. A straight wall is a straight wall at any price.** **A buyer who reads "эконом" as permission to accept worse workmanship has misread the label.**
+
+### The ladder — Moscow, 2025, RUB per m² of finishing
+
+| Tier | Stated | USD/m² |
+| :--- | :--- | :--- |
+| **Эконом** | **from 20,000** | **≈ $250** |
+| **Средний** | **from 30,000** | **≈ $370** |
+| **Премиум** | **from 45,000** | **≈ $560** |
+
+**⚠️ Both axes of standing rule 2 resolve: MOSCOW named, 2025 stated in the title and matching the upload. USD at USD/RUB 80.61 — trailing-6-month mean to 2025-10-06, 124 daily samples, via `tools/pricing/currency_converter.py`.** **⚠️⚠️ NOT a benchmark for this Belarusian project; recorded as a Moscow market reference with region and year attached.**
+
+> **⚠️⚠️ AN INTERNAL CONTRADICTION IN THE SOURCE, recorded rather than smoothed: he opens with средний "from 30,000" and премиум "from 45,000", then CLOSES by saying средний starts from 45,000 — the premium figure.** **Either he misspoke, or 30,000 is the headline and 45,000 the realistic number. The video does not resolve it, so neither figure should be quoted alone.**
+
+### ⚠️⚠️ The tier-by-tier warning, which is the actionable half
+
+- **Эконом**: *«эта дешевизна умирает, когда подрядчики добавляют скрытые работы… и даже самый дешёвый ремонт может превратиться в один из самых дорогих»*.
+- **⚠️⚠️ Средний — and this is a checkable tell:** *«Когда подрядчик говорит вам на стадии переговоров "ну, примерно 30.000" — это значит, что в будущем этот ценник будет увеличен.»* **An approximate figure offered verbally at negotiation is itself the signal.**
+
+### ⚠️⚠️ Why paint-ready walls cost up to twice wallpaper-ready ones — as a list of operations
+
+| Wall for **WALLPAPER** | Wall for **PAINT** |
+| :--- | :--- |
+| plaster → base filler → several primer coats between layers → sand → hang | **all of that, PLUS fibreglass lining (стеклохолст), PLUS three coats of finishing filler, PLUS sanding** — to a surface *«близкую к А4 формату бумаги»* |
+
+**Element bands, средний-plus spec, rough + finish:** **floor 10,000–15,000 RUB/m² (≈ $120–$190)**; **walls 15,000–30,000 (≈ $190–$370)**; **ceiling 10,000–20,000, up to 30,000 (≈ $120–$250, up to ≈ $370)**.
+
+> **→ ⚠️⚠️ The operations list makes a quote CHECKABLE: if a contractor prices paint-ready walls at wallpaper rates, ask which of those steps is missing.**
+>
+> **⚠️⚠️ AND A LABOUR PRINCIPLE: the same work costs MORE on a ceiling than on a wall** — a plasterboard ceiling beats stretch on cost because it needs the identical filling and sanding *«в неудобном положении, смотря вверх»*. **⚠️ He also notes stretch ceilings are no longer cheap once hidden profile, cornice lighting and shadow profile are added.**
+
+### ⚠️⚠️ What drives the price — and complexity outranks material
+
+1. **Material cost.**
+2. **⚠️⚠️ *«Самый главный критерий ценника — это СЛОЖНОСТЬ РАБОТЫ.»*** Cheap material laid a complex way costs more — **laminate in herringbone AND glued carries risk (moisture, swelling), and you pay for the risk as well as the time.**
+3. **⚠️⚠️ Access and logistics, which he calls non-obvious** — distance from the city, or difficulty of access. **His example is Moscow City, where raising materials means queuing for the lift and can take a day or two in parts.** **→ A cost driver assessable before any quote, just by looking at the building.**
+
+### ⚠️⚠️ A fixed price is downstream of a FINISHED design set
+
+> **If you proceed stage by stage while the designer keeps drawing, *«100% вы не знаете, какая будет цена впереди»*. A fixed estimate requires a worked-through, accepted design project from the start.**
+>
+> **→ ⚠️⚠️ THE SAME CLAIM AS [[00_Master/Planning_Project_Deliverable_Set|the deliverable-set work]], ARRIVING FROM THE MONEY SIDE. That page argues about what an album contains; this says the album's COMPLETENESS is the precondition for a fixed price at all — which is the strongest argument this vault holds for finishing the design set before starting.**
+
+**⚠️⚠️ AND HE ARGUES AGAINST THE CHEAPEST-TENDER REFLEX.** The failure mode: a low entry price, extras piled on, the estimate grows, the contractor fails the brief, you dismiss him, a competent firm arrives at higher default rates, declares it must be redone, **and you pay for the rework** — *«как снежный ком накапливаются проблемы»*.
+
+> ⚠️⚠️ **AN UNFULFILLED PROMISE, recorded because it bears on the source's weight: he opens by promising a lifehack saving "up to 30% of your budget", and none of the three measures is ever quantified. The 30% is not substantiated and is NOT carried.**
+>
+> ⚠️ **2,078 views, and he prices his own firm mid-video at 41,000 RUB/m² for a 65 m² flat, claiming 5,000–10,000 below comparable Moscow contractors. Recorded as his claim, not as market data.**
+
+[source: [[_Sources/YT_uE8xWD07ThI_remonthochu_moscow_tiers_2025|YT_uE8xWD07ThI]]]
