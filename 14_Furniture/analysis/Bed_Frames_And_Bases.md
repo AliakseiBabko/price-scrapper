@@ -204,3 +204,15 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 > **Still worth checking independently, in order: (1) the 50 vs. 70 cm clearance split in §2, because it decides whether a bed fits; (2) the 7–8 cm lamellae rule in §4, because it would change a purchase.**
 
 Part of [[14_Furniture/Seating_and_Tables|Seating & Tables]]. Sources: [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]]. Edit history: [[14_Furniture/analysis/Seating_and_Tables_Change_Log|Change Log]].
+
+
+## ⚠️ Two Checks From the MATTRESS Side — the ЦАРГА and the Clearances (Light Sleep, added 2026-09-14)
+
+**A bespoke mattress atelier's "assess it in a minute" checklist starts where this page ends, and adds two items nothing here had.**
+
+- **⚠️⚠️ THE ЦАРГА CHECK: make sure the bed's SIDE RAIL does not catch your legs as you stand up.** **→ A distinct failure from the corner and leg-protrusion rules in §3 — those are about walking past the bed, this is about getting out of it, and it is governed by the rail's height relative to the mattress top.**
+- **⚠️⚠️ CLEARANCES MEASURED FROM THE MATTRESS, not the frame: to the socket or switch, to the bedside table, to the wardrobe, to the window.** **→ Treats the mattress TOP as the datum for bedroom ergonomics, which no other source here does — and it is the right datum, because the mattress height is what you actually reach and step down from.** **Bears directly on the unresolved 50 cm vs 70 cm clearance disagreement in §2: these are the measurements that would settle it for this flat.**
+
+⚠️ **He also arrives at the 90° knee rule — sitting and standing — as the thing that sets bed height and therefore mattress height. That is the FIFTH independent arrival in this vault, and it is now the best-corroborated ergonomic figure on this page.**
+
+[source: [[_Sources/YT_lPrTtkfxIJg_lightsleep_mattress_materials_science|YT_lPrTtkfxIJg]] (+9UR1nuMh9os)]

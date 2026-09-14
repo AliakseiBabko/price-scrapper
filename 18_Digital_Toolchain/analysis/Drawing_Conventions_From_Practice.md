@@ -317,3 +317,22 @@ All Russian, all Moscow or a Russian vendor. **Round 1 of the design-toolchain g
 ---
 
 **Getting a dimensioned raster into geometry** — scale registration, verification, raster distortion and the ink-width error terms — moved to its own page on 2026-09-13 when this one reached the backstop: [[18_Digital_Toolchain/analysis/Raster_To_Geometry|Raster to Geometry]].
+
+
+## ⚠️⚠️ Two Conventions Worth Stealing Outright (Алексей Шемчук, added 2026-09-14)
+
+**From a second real album (see [[00_Master/Planning_Project_Deliverable_Set|Planning Project Deliverable Set]]). Both are free to draw and both prevent a defect that is expensive once it happens.**
+
+1. **⚠️⚠️ CABLE DROPS MARKED IN RED on the ceiling and plasterboard sheets.** His reason: installers very often drill through those cables, *«особенно если они где-то скрыты, не видны»* — and he has seen it happen even where they were visible. *«Со своей стороны я стараюсь минимизировать влияние человеческого фактора.»* **⚠️ He states he has not seen this convention in other people's projects.** **→ A defect that is invisible until it fails, prevented by a colour on a sheet the ceiling fitter already has in his hand.**
+2. **⚠️⚠️ FLOOR-LAYING START POINT AND DIRECTION SHOWN WITH ARROWS**, chosen so the narrow cut lands where it is concealed — *«в этом случае у нас узких подрезок не останется вовсе»*. Plus the junction point between two floor finishes, and **a screed detail giving a STEP so different finishes meet under the door leaf at one level.**
+   **→ ⚠️⚠️ The step detail is independently corroborated in the same batch by [[07_Bathroom/analysis/Tile_Selection_and_Layout|Огурцов]], who reaches it from the tile side — a tile-to-laminate junction needs the height difference compensated by a stepped screed or you get threshold bumps. Two unrelated sources, one detail.**
+
+### ⚠️ Conventions inside the electrical sheets, which this page can borrow wholesale
+
+- **Per-room point sheets**: a key plan top-left with **the room highlighted YELLOW** and the corner points the развёртка is taken from; on the развёртка, horizontal setting-out **to the centre of an isolated point, or to the nearest point within a group**, heights per group, and a table of what each point serves.
+- **⚠️ Point marking = LETTERS + NUMBER**, the letters abbreviating the room (км, кх, су) and the number its index in that room.
+- **⚠️ Fixing-clip sheets purely for the fitters**: clip positions, setting-out to clip centre, **and the number of clips per group**, so marking out needs no on-site arithmetic.
+- **⚠️⚠️ A CABLE SCHEDULE giving, per cable: number, name, colour on the drawing, type, marking, START and END point, LENGTH and a comment** — e.g. a length *«рассчитана с учётом запаса 15 см на подключение розетки»*. **The payoff: every cable is cut to length in advance, with no re-measuring at ceiling level.** **→ The most take-off-like artefact in either observed album.**
+- **⚠️⚠️ The junction-box sheet's stated purpose is as-built, not installation:** *«Этот проект остаётся в качестве альбома-паспорта объекта, и даже через 10–15 лет он легко найдёт каждую распаечную коробку за натяжным потолком.»* **→ The best argument in either album for producing as-built documentation at all.**
+
+[source: [[_Sources/YT_0c-QhBDQMWE_shemchuk_technical_design_album_series|YT_0c-QhBDQMWE]] (+4)]

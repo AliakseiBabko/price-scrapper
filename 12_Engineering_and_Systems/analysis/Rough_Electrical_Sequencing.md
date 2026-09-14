@@ -216,3 +216,14 @@ health and life." Recorded here as a documented, self-flagged bad
 practice, not a technique to copy — de-energize a circuit before
 modifying it, regardless of filming/visibility convenience.
 [source: [[_Sources/YT_sAXC1hn8u9A_kvartiranty_hallway_wall_prep_electrical|YT_sAXC1hn8u9A]]]
+
+
+## ⚠️⚠️ Safety and Acceptance During the Works (REMCRAFT, added 2026-09-14)
+
+- **⚠️⚠️ ISOLATE EVERY LIVE-CAPABLE CABLE END DURING THE WORKS, even with every line RCD-protected.** During a renovation someone switches on a breaker marked *«не включать»*, or simply switches them all — and every tail is live. **Anyone on site is exposed: a tradesman, a subcontractor, the client.** ⚠️ **He notes many only RCD-protect the socket circuits, which is precisely when an un-isolated tail is dangerous.**
+- **⚠️⚠️ TEMPORARY SOCKETS AND SWITCHES, wired from the panel during the works, so the electrics can actually be ACCEPTED** — you press a switch and a lamp lights — rather than handing over *«куча соплей»* of loose tails nobody can verify. **→ An acceptance practice, and this page had none for electrics.**
+- **⚠️ Cable marking must name the GROUP the cable belongs to** in the distribution scheme — not *«что вижу, то пою»*, "this one's for that lamp", which leaves you guessing later. **Corroborates the cable schedule on [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]] from the site side.**
+- **⚠️⚠️ POSITIONAL ACCURACY TO THE CENTIMETRE, and it must be caught BEFORE plastering.** A switch has to sit truly centred relative to a door opening **counted WITH its architrave** and an adjacent wardrobe. **→ The architrave width and the wardrobe position must therefore be known at first fix — the same "decide the finishes before the services" pattern this batch produced three other times.**
+- **⚠️ Cable without conduit in NON-COMBUSTIBLE bases is permitted**, and he addresses the folk belief that bare cable stains through plaster: in ~20 years of practice they have never seen it. ⚠️ **An absence-of-evidence claim from one firm.**
+
+[source: [[_Sources/YT_JpGKJz8WDew_remcraft_flat_electrics_rules|YT_JpGKJz8WDew]]]

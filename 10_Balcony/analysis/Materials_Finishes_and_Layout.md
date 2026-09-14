@@ -167,3 +167,17 @@ door, removing an unnecessary insulation layer) that also bear on layout.
 > **→ ⚠️ That last point corroborates two unrelated things in this vault: [[14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff|Кулекина's]] finding that closed storage is really a dust-and-ventilation question, and [[12_Engineering_and_Systems/analysis/Breathers_vs_Mechanical_Ventilation|the same presenter's own ventilation material]] on stagnant air producing mould.**
 
 [source: [[_Sources/YT_HeUN7nE3fNA_elitbalkon_balcony_fitout_planning|YT_HeUN7nE3fNA]] (+tcPg0PbsGd8)]
+
+
+## ⚠️ Use Scenarios — One Storage Principle and a Narrow-Loggia Workspace (Бюро ARCHWOOD, added 2026-09-14)
+
+⚠️ **A 2020 use-scenario piece (storage / study / rest / winter garden / gym), mostly programming rather than technique, and this folder took substantial balcony TECHNIQUE the same day. Four specifics kept; the rest not routed.**
+
+- **⚠️⚠️ THE STORAGE PRINCIPLE:** *«Лучше отдать часть площади под один большой закрытый шкаф, где всё скроется от глаз, чем делать много маленьких полочек и комодов.»* **The goal of balcony storage is to free area for the other uses and make the storage invisible.** **→ Combines directly with the section above: ONE cupboard, positioned before the glazing is measured, built on an aluminium carcass rather than ЛДСП.** ⚠️ **Her own qualification: in loft or Scandinavian schemes open storage is legitimate and can be a feature — a bicycle on a brick wall needs no hiding.**
+- **⚠️⚠️ A WORKSPACE ON A NARROW LOGGIA, the only dimensional content here:** at **85–100 cm depth the only option is a desk or worktop against the END wall**, so the pier screens the workplace, with document storage on closed shelves above and **free space left above your head**. **⚠️ At ≥1.5 m the desk can be turned or you can sit back-to-wall** — and she advises keeping the arrangement changeable. **Blackout curtains to shield a monitor from daytime sun**, plus a desk lamp or linear light under wall cabinets.
+- **⚠️⚠️ A FIRST-FIX DETAIL: bring the sockets out into the BACK WALL of the document-and-printer cabinet** — cables hidden, printer free of dust, the cabinet reading as furniture rather than office equipment. **→ A socket position decided by a cabinet that does not exist yet; cheap only at first fix, and the same shape as the other "decide the furniture before the services" findings in this folder.**
+- **⚠️ Winter garden: gather plants onto dedicated stands, or dedicate one or two walls with IDENTICAL pots**, rather than scattering mismatched pots — *«выглядит часто неопрятно»* — which also frees floor for a second use. Same logic as the storage principle.
+
+⚠️ **She also repeats the heating prohibition — no heating appliance and no water underfloor heating off the building system on a loggia. That is the FOURTH independent arrival in this vault (with Петришин-Строй, Zemskov and Безверхая), recorded on [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]]. ⚠️⚠️ All four are RUSSIAN sources: four arrivals raise confidence about the Russian market and say nothing about Belarus.**
+
+[source: [[_Sources/YT_5wD3mCfBCkw_archwood_balcony_use_scenarios|YT_5wD3mCfBCkw]]]

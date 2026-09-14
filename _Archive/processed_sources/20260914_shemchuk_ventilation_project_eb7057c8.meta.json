@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=bsX-42_S_Uc",
+  "video_id": "bsX-42_S_Uc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T18:35:48.288494+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "eb7057c82900e130b03b38702a78b2364e05d404dca279d3f5c46840d46318af",
+  "attempts_before_success": [],
+  "upload_date": "2021-09-19",
+  "upload_date_source": "yt-dlp"
+}

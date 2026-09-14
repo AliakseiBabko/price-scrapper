@@ -99,3 +99,25 @@ A 40 m² terrace snow-melting system came to **about 1.5× the whole flat's allo
 ⚠️ **One anecdote on УЗМ, recorded as an anecdote and not a failure rate**: a client's УЗМ tripped **12 times in two months**, and *«его сосед без УЗМ в тот же день лишился ноутбука и телевизора»*.
 
 [source: [[_Sources/YT_blhGIAE-mE4_planka_engineering_systems_design_stage|YT_blhGIAE-mE4]]]
+
+
+## ⚠️⚠️ A First-Fix Provision for an UNKNOWN Future Internet Provider (Алексей Шемчук, added 2026-09-14)
+
+> **The problem: the flat is finished before the ISP is known. You do not want to drill a finished renovation later; the low-voltage panel may sit somewhere awkward for concealed wiring; and surface cable spoils the finish.**
+>
+> **His solution: a CAST-IN CONDUIT to the stairwell** — flush with the landing wall, capped, run under the ceiling where it is invisible. **When the provider eventually arrives they feed the cable straight through into the panel.** Separately, the flat's own three cables (two internet, one TV) reach the low-voltage panel through a **32 mm PVC conduit** landing on a back-box inside it.
+
+> **→ ⚠️⚠️ DIRECTLY APPLICABLE — this project is a new build and the provider question is exactly this open.** **Cheap at first fix and effectively impossible afterwards.**
+>
+> ⚠️ **He says it is the first time he has applied it, so it is untested by his own account.**
+
+### ⚠️ Circuit splitting and route selection, from the same album
+
+- **Per room: a separate breaker for sockets, another for light, another for AC where present.** **Plus consumers requiring an UNBROKEN run from panel to appliance: hob, oven, boiler, washing machine.**
+- **⚠️ Cable types colour-coded in the model and carried into the album** — internet blue, TV grey, 3×2.5 socket cable red.
+- **⚠️⚠️ ROUTES CHOSEN AGAINST THE OTHER TRADES, not by shortest path.** He routes with AC lines, ventilation ducts, sanitary fittings and water mains already in the model, plus installation convenience — **specifically so that when the plasterboarders arrive the cables are already where they need to be and nobody has to unclip and re-route them.** *«Подход не точечный, а комплексный.»*
+- **⚠️ Underfloor-heating sheets drawn WITH the sanitary fixtures shown**, so it is visible that the cable runs only where a person actually stands.
+
+⚠️ **A related first-fix detail from a different source in the same batch: on a loggia study, bring the sockets out into the BACK WALL of the printer cabinet so cables are hidden and the printer stays dust-free — a socket position decided by furniture that does not exist yet. See [[10_Balcony/analysis/Materials_Finishes_and_Layout|Materials, Finishes & Layout]].**
+
+[sources: [[_Sources/YT_0c-QhBDQMWE_shemchuk_technical_design_album_series|YT_0c-QhBDQMWE]], [[_Sources/YT_5wD3mCfBCkw_archwood_balcony_use_scenarios|YT_5wD3mCfBCkw]]]
