@@ -157,7 +157,7 @@ Offered by the same rescue contractor as the pattern that makes a client vulnera
 [source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
 
 
-### ⚠️⚠️ The Bus-Factor Argument, and How Much of It Survives the Commercial Interest (CAPPUCCINO, 2020-09-14)
+### ⚠️⚠️ The Bus-Factor Argument, and How Much of It Survives the Commercial Interest (CAPPUCCINO, 2020-05-26)
 
 A kitchen fabricator's case against buying from an individual maker:
 

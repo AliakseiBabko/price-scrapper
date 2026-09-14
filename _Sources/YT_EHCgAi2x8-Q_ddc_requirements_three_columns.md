@@ -4,7 +4,7 @@ source_url: https://www.youtube.com/watch?v=EHCgAi2x8-Q
 video_id: EHCgAi2x8-Q
 transcript_file: _Archive/processed_sources/20260914_ddc_requirements_three_columns_a735b6aa.txt
 fetched: 2026-09-14 via youtube-transcript-api (en)
-upload_date: 2026-06-12 (confirmed via yt-dlp metadata)
+upload_date: 2026-03-26 (confirmed via yt-dlp metadata)
 channel: DataDrivenConstruction
 source_title: "AI Agents for BIM Requirements Verification"
 language: en
@@ -94,6 +94,6 @@ The run produces *"detailed breakdowns for every project, every rule, **every fa
 
 ## Source Notes
 
-**DataDrivenConstruction** (YouTube), 2026-06-12, ~7 min, **read in full**. `promotional_ratio: high` — it demonstrates the channel's own converters and closes on its own book.
+**DataDrivenConstruction** (YouTube), 2026-03-26, ~7 min, **read in full**. `promotional_ratio: high` — it demonstrates the channel's own converters and closes on its own book.
 
 ⚠️ **The demonstration is a scripted best case.** Two Revit files and two IFC files, requirement sets the presenter prepared, and no instance shown where the agent misread a format. **The claim that all eight formats reduce to three columns is asserted over ONE curated rule set of 20 rules.** ⚠️ **A production `.ids` also carries cardinality, applicability facets and optional/required distinctions that three columns do not obviously hold** — untested here, and the honest place where the reduction may leak.
