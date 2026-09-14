@@ -1036,3 +1036,4 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_ZLPknlB-3XI** — ARMOS (ru) — beds and bases, + `O3UWHF8eCVs`. `fact_yield: 26`. **⚠️⚠️ Lamellae 7–8 cm max; a bed-height rule that contradicts the vault's 40 cm.**
 
 - **YT_3ClgT0siGik** — Круглов/Ontario (ru) — the independent mattress cross-check. `fact_yield: 41`. **⚠️⚠️ Confirms the no-firmness-standard finding; corrects ARMOS on four points.**
+- **YT_Bb6JlZHk8L8** — Гуру Сна (ru) — the RETAILER cross-check. `fact_yield: 17`. **⚠️⚠️ The spring count is quoted in a gamed unit; the cover question settled at up to 30% of price.**

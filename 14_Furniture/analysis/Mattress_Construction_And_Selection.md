@@ -3,7 +3,7 @@
 Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 > [!IMPORTANT]
-> **TWO SOURCES, WITH OPPOSING COMMERCIAL INTERESTS — which is the point.** Before 2026-09-14 a grep found **`независимые пружины`, `боннель` and `пружинный блок` in ZERO files.** The page was built from **ARMOS, a mattress MANUFACTURER**, and then cross-checked against **Круглов/Ontario, a designer who sells RENOVATION and not mattresses.**
+> **THREE SOURCES, WITH THREE DIFFERENT COMMERCIAL POSITIONS — which is the point.** Before 2026-09-14 a grep found **`независимые пружины`, `боннель` and `пружинный блок` in ZERO files.** The page was built from **ARMOS, a mattress MANUFACTURER**, cross-checked against **Круглов/Ontario, a designer who sells RENOVATION**, and then against **Гуру Сна, a multi-brand RETAILER carrying 30 factories** — the one party who can name another maker's trick without damaging itself.
 >
 > **→ ⚠️⚠️ WHERE THEY AGREE, treat it as established — see §4 and §6.** **⚠️⚠️ WHERE THEY DISAGREE, this page follows Круглов, because on every one of those four points the manufacturer's answer is the one that favours a sale.** **The disagreements are marked inline.**
 >
@@ -32,6 +32,9 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 | **Independent, honeycomb** | **290/m²** | — | Same wire as the 256, packed denser |
 
 - **⚠️⚠️ 512/m² is not "twice as good as" 256/m². It is a different compromise, bought with wire diameter.**
+- **⚠️⚠️ AND THE UNIT ITSELF IS GAMED — ASK THIS BEFORE ASKING THE NUMBER (added 2026-09-14).** A multi-brand retailer names the trick: **some makers advertise «500 пружин НА СПАЛЬНОЕ МЕСТО» rather than per square metre.** A single sleeping place of **80 × 200 cm is 1.6 m², not 2 m²** — but a maker takes its true 256/m², **multiplies by 2, and publishes «512 на спальное место»**. *«Человек видит: у этого 256, а у другого за такие же деньги 500 — конечно, этот возьму. УЛОВКА.»*
+  **→ ⚠️⚠️ TWO NUMBERS THAT LOOK COMPARABLE ARE IN DIFFERENT UNITS, AND THE LARGER ONE IS THE LOWER DENSITY.** ⚠️ **The multiplication is also wrong on its own terms: at a true 256/m² over 1.6 m² the real count is about 410, so the published figure overstates by roughly a quarter** — that arithmetic is this vault's, from her figures.
+- **⚠️⚠️ AND A COMPOSITION WITHOUT CENTIMETRES IS NOT A COMPOSITION.** *«Большинство производителей указывают состав просто НАИМЕНОВАНИЕМ: латекс, кокос… А сколько там сантиметров?»* **Latex and coir are the two she says this is done to most** — *«пишут просто "латекс", а там его 1 СМ»*. **→ Ask for centimetres per named material; a filler with no thickness is a marketing word.**
 - **⚠️⚠️ A QUALITY SIGNAL THAT LOOKS LIKE PADDING: *«чем лучше матрас, чем дольше он служит, тем ТОЛЩЕ слой-изолятор»*.** Isolator layers resist abrasion **and spread load across several springs rather than one.**
 - ⚠️ Hidden from the buyer: wire characteristics, pocket material and its wear rate, and whether springs are joined **by hand or by machine.**
 
@@ -154,3 +157,40 @@ Part of [[14_Furniture/Seating_and_Tables|Seating & Tables]]. Sources: [[14_Furn
 ⚠️ **Price segments, RUB 2026 and sourced from one maker — rule 2, structure only: economy is PU foam on a DEPENDENT block with no point support and 1–2 layers; comfort brings independent blocks, denser foams, 3–5 layers and material combinations, and is the most popular segment; premium brings multi-zone or double blocks, hybrids, natural latex and high-density foams.** **⚠️⚠️ And the sentence that outranks the bands: *«Неправильно подобранный матрас в ПРЕМИУМ-сегменте намного хуже, чем ПРАВИЛЬНО подобранный в ЭКОНОМЕ.»* → Fit dominates price, and that is the one-line summary of both mattress sources.**
 
 [source: [[_Sources/YT_3ClgT0siGik_kruglov_truth_about_mattresses|YT_3ClgT0siGik]]]
+
+## ⚠️⚠️ 11. The cover question, settled — and where the money actually goes
+
+**This page held a straight conflict: the MANUFACTURER made the cover a headline quality determinant (§1, *«фактически тонкий матрасик»*), while the designer called it *«70% маркетинг»* and the disguise a bad maker uses. A RETAILER now supplies the number and the worked pair.**
+
+> ***«Часто может ДО 30% от стоимости матраса влиять именно чехол.»***
+
+**Two of her own mattresses, internals held constant** — latex 3 cm, coir 1 cm, 512/m² independent block:
+
+| | Cover and edge | Price (RUB 2026, 160×200) |
+| :--- | :--- | ---: |
+| **Premium** | High-volume quilted cover, spring to the very edge, glue-free construction | **~80,000 ₽** |
+| **Classic** | Flat cover, glued construction, perimeter edge reinforcement | **~45,000 ₽** |
+
+> ***«Почувствуете ли вы разницу во время сна? НЕ ФАКТ. Особенно если вес небольшой.»***
+>
+> **⚠️⚠️ AND HER RULE SETTLES IT: *«Лучше купить с латексом, кокосом в ПЛОХОМ ЧЕХЛЕ, чем купить с плохим составом, но в ХОРОШЕМ ЧЕХЛЕ.»***
+
+> **→ ⚠️⚠️ RESOLVED: THE COVER IS A REAL COST DRIVER AND A POOR QUALITY PROXY. Where budget forces a choice, the FILLING wins.** **Two of three sources say so, and the third is the manufacturer.**
+>
+> ⚠️ **But she is fairer than the designer, and the nuance is worth keeping: she does NOT call it a scam.** *«Каждый выбирает сам для себя. Кому-то хочется этого объёма, тактильности, красоты.»* **→ A legitimate comfort-and-pleasure purchase; simply not evidence of what is underneath.** ⚠️ **Her named overpay: a MERINO-WOOL cover, which she says a flat in the middle latitudes does not need at all.**
+
+### ⚠️⚠️ A branded foam name is usually just PU foam
+
+> ***«Всякие пена-фоам, экофоам, инновационное что-то там фоам — по сути это практически ТО ЖЕ САМОЕ, что и пенополиуретан. Не боимся этого слова — это просто искусственная пена.»***
+
+- **→ Do not pay for the name.** ⚠️ **It tempers §8's premium framing**, which leaned on *«современные пены — крупные ячейки для комфорта и мелкие для поддержки»*. **Genuinely different foams do exist — the branded NAME is simply not the evidence that you have one.**
+
+### ⚠️⚠️ And a worked case where the cheaper mattress won, told by the shop that lost the sale
+
+An 18-year-old wanted an **Italian mattress at 150,000 ₽** because she liked how dense and immobile it felt. **The shop advised her to come in and lie down rather than order.** She found their **~50,000 ₽** model had **the same density but better comfort, because it carries latex that softens it slightly** — and being slim and 18, a purely firm mattress would have been too firm. **She bought the cheaper one.**
+
+> **→ ⚠️⚠️ A WORKED INSTANCE OF *«неправильно подобранный премиум хуже правильно подобранного эконома»* — supplied by a retailer who gave up 100,000 ₽ of revenue to demonstrate it.** ⚠️ **Read with the discount applied: the story advertises consultative selling and the sale still went to her. But the direction runs against the larger sale, which is the part worth keeping.** **⚠️ And it independently reproduces the go-and-lie-on-it finding — here the SHOP refused a phone order and insisted on a visit.**
+
+⚠️ **Prices RUB 2026, Russia — rule 2, no figure transferred. The RATIO (identical internals, ~80k against ~45k) and the "up to 30% of price" share are what carry.**
+
+[source: [[_Sources/YT_Bb6JlZHk8L8_gurusna_what_is_inside_a_mattress|YT_Bb6JlZHk8L8]]]
