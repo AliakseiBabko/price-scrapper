@@ -1,0 +1,30 @@
+If you work with Revit, AutoCAD, 
+IFC, and you've ever spent hours   manually extracting data, building 
+spreadsheets, or creating reports,   this is going to change how you think about 
+it. I'm going to write one sentence to an AI   assistant and get a complete quantity takeoff, 
+project analytics, and a reusable script. To start working with your projects using 
+AI agents, you need to install Cloud Code,   Google Jules, Open Code, or any other AI 
+coding agent through your preferred IDE,   for example, Visual Studio Code as shown in this 
+video. You will find the installation links in   the description below. All that is left is 
+to launch Claude Code and start working.   Now in the chat, we will ask our agent to 
+convert our closed Revit project into an open   database using the converter from the datadriven 
+construction GitHub repository and then build a   complete quantity takeoff table. And here's 
+the entire instruction. That's it. No script,   no config file, no pipeline setup, just 
+plain English. Let's see what happens. No Revit, no AutoCAD, no CAD software on this 
+machine at all. And now it's analyzing the output,   passing every element, every property. Full 
+quantity takeoff, every category, walls,   doors, windows, roofs with counts, 
+areas, and volumes. 214 line items. This is one file. took about two and 
+a half minutes and it saved everything   as a reusable Python script. So now 
+I can run this on any Revit file or   an entire folder with one command. 
+Now let's scale this up. Same idea,   process all five remaining files and build me a 
+combined dashboard. Five different Revit projects,   different years, different building types, it 
+doesn't matter. The pipeline handles all of them. Six projects total, 133,000 
+elements, all processed,   all structured. And here's the dashboard. Six projects compared side by side. Element 
+counts, discipline breakdown, category,   heat map, heat, all generated automatically 
+from two sentences in a chat window. I wrote two messages in plain English 
+and got a complete data pipeline, quantity takeoffs, project analytics,   a cross project dashboard and a reus usable 
+script that can run on any new file tomorrow. No Revit license needed, fully offline, and it's 
+free. The AI agent, Claude Code, figured out how   to download it, run it, analyze the output, and 
+build the reports. I didn't write a single line   of code. If you're spending hours extracting data 
+from BIM files and building spreadsheets by hand,   try this. Clone it, open clawed code, and just 
+describe what you need. One sentence is enough.

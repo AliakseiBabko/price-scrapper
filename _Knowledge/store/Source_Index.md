@@ -1017,3 +1017,7 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_26UFabH--JU** — feeel.d (ko) — Villa Savoye. `fact_yield: 4`, partial. **A famous building is not a test.**
 - **YT_hLslbz8n-1w** — Sudheendra S G (en) — CAD to Unreal. `fact_yield: 4`, partial. **No verification at all.**
 - **YT_ZS_tnIN0zoA** — ArchMaster (en) — seven-tool listicle. `fact_yield: 2`, **near-skip; undisclosed self-promotion.**
+
+- **YT_X06cIaroAeI** — DataDrivenConstruction (en) — OpenConstructionERP, + `ryJxOanNJVQ`, `QBaH8oBsPpM`. `fact_yield: 21`. **⚠️⚠️ The first source in this vault that actually PRICES — and its cost line carries no DATE.**
+- **YT_EHCgAi2x8-Q** — DataDrivenConstruction (en) — requirements verification. `fact_yield: 14`. **⚠️⚠️ Every requirement is three columns — and it challenges our `.ids` decision.**
+- **YT_FaAvwXdjNlI** — CAPPUCCINO (ru) — quality vs garage furniture. `fact_yield: 16`. **⚠️⚠️ An acceptance-inspection checklist; an unbanded ЛДСП edge is a health item.**

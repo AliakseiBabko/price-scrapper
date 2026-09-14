@@ -221,6 +221,49 @@ Flagged by him as his own opinion that others would dispute:
 
 - **⚠️ Relevant here despite the commercial framing: a self-managed renovation's equivalent indirect cost is the owner's own time and the duration of disruption**, driven by the same variable. See [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration and Scheduling]].
 
+## 8. ⚠️⚠️ The join demonstrated end to end — three quantity sources, one priced line
+
+**Every source above this section derives quantities automatically and prices nothing automatically. This one prices.** **OpenConstructionERP** (DataDrivenConstruction, `pip install`, local server, own database) is the first source in this vault to carry a quantity through to a costed bill of quantities in one tool. **That does not make it adoptable — see the end of this section — but it makes it the reference for what the join has to carry.**
+
+### ⚠️⚠️ The structural idea: a BOQ line is a SINK that several quantity sources feed
+
+| Route in | How it works |
+| :--- | :--- |
+| **From model elements** | Select elements → `link 13 to BOQ` → *«those elements become a price position with **quantities summed and classification matched**»*. **The link is bidirectional** — from a priced line you can find the geometry that produced it |
+| **From a PDF take-off** | *«Most standard drawings arrive as PDFs and that is where estimation time gets lost.»* **Set scale by clicking two points of known distance and typing the real value**, then trace with a polyline — live length, close a shape for area, give a height for volume — and export every measurement in as priced lines |
+| **From a PIVOT TABLE** | The data explorer indexes every element and parameter (**9,500 elements, 798 parameter columns** in the demo), pivots by type, level, family or classification, and **one click turns the aggregation into new BOQ lines** |
+
+- **→ ⚠️⚠️ THREE INDEPENDENT QUANTITY SOURCES, ONE PRICED-LINE TARGET. That is the part that transfers whether or not the tool ever does.** **This project's cost engine will have at least two sources — geometry from `data/canonical/` and hand-measured items — and they should converge on ONE line type rather than two parallel schemas.**
+- **⚠️ The two-point scale calibration is the same discipline standing rule 9 already states** — a scale must be independent of the thing being measured. **Here it is set from a known distance the user nominates, not inferred from the drawing.**
+
+### ⚠️⚠️ What its cost line carries that ours does not — and the field it is missing
+
+A project is created with a **region, a currency, a classification standard, a site address and a regional factor**. The catalogue holds **55,000 items**, and *«the same position shows up priced for the United States, Canada, India, Spain — whichever region your project is set to»*.
+
+- **⚠️⚠️ ONE POSITION, MANY REGIONAL PRICES. That is the role/product split of §1 with a REGION AXIS added — the fourth independent arrival at that split on this page.**
+- **⚠️⚠️ AND THE DEFECT IS WHAT IS ABSENT: there is no PRICE DATE anywhere in the demonstration.** Region is first-class; **the year is never mentioned.** **Standing rule 2 requires both. → Their schema would fail this project's own rule. Copy the shape, add the date.** ⚠️ **No Belarus in the catalogue either, so no figure from it is usable here regardless.**
+- **⚠️ A BOQ line decomposes into RESOURCES** — *«a complete breakdown of construction work by resources and materials»*. **That is resource-based estimating, which is how сметное дело works in this market** — a closer fit than a US unit-price model, and the shape [[11_Budget_and_Planning/analysis/Bill_of_Quantities_and_Procurement|the practitioner side]] already describes.
+- **⚠️ The quantity BASIS is chosen PER LINE**, not fixed by the tag: *«select any numerical value for the volume parameter of the item describing the work»*. **A refinement on the four bases in §1.**
+
+### ⚠️⚠️ The riskiest step, and it is unmeasured — the MATCH
+
+A Revit model of nearly 10,000 elements becomes **88 MasterFormat sections and 215 priced positions**, with *«every single line matched back to the unified cost catalog by a **three-level semantic search**»*.
+
+> **⚠️⚠️ AN EMBEDDING OR LLM MATCH FROM A MODEL ELEMENT TO A PRICED CATALOGUE POSITION, STATED AS A FEATURE, WITH NO ERROR RATE.**
+>
+> **This is where a silent, plausible and expensive error lives. A wrong match does not fail — it produces a priced line that looks right.** → **If this project builds the join, the matching step is the one that needs a gate, and the gate is not “did it match” but “is the match right”.** ⚠️ **The cheapest honest version is the one §7 already records: a rate-flagging gate that outputs *“I do not know this rate”* instead of inventing one.**
+
+- **⚠️⚠️ And the most suspect claim in the source:** *«Upload a single photo of a wall, a floor, a system, even from your phone on site. The AI reads the image, detects components, identifies materials, and **generates a priced set of positions in seconds**.»* **Photo → priced lines, with no accuracy figure and no verification step.** → **Recorded as a capability CLAIM, and it runs directly against this vault's rule that a visual is for agreeing what is wanted, never for deriving a number.**
+
+### ⚠️ Why this is schema thinking and not an adoption
+
+**A second local database beside `data/canonical/`, plus five integrated modules (BOQ, tasks, documents, schedule, requirements), is the exact shape the gap analysis already rejected once when it declined Speckle** — *«Git + canonical JSON + programmatic SVG diffing is leaner, runs entirely offline… We already have that.»* **The argument applies here with more force, because an ERP carries four modules this project does not need in order to deliver the one it does.**
+
+- **→ Copy the DATA MODEL — the three quantity sources, the region- and date-carrying line, the resource decomposition, the per-line basis — and write the join here.** **That work has to happen anyway.**
+- **⚠️ The companion demo is worth naming for what it does NOT do:** one plain-English instruction to an AI coding agent produced **214 line items with counts, areas and volumes in ~2.5 minutes with no CAD software installed**, saved as a reusable script — and **no cost, no rate and no BOQ.** **The video that looks closest to this gap does not close it; the ERP one does.** ⚠️ **The durable artefact there is the SCRIPT, not the answer** — a pattern this vault records from several agent sources.
+
+[source: [[_Sources/YT_X06cIaroAeI_ddc_openconstructionerp_qto_cost_join|YT_X06cIaroAeI]]]
+
 ## Related
 
 - [`toolchain_gap_analysis_20260908.md`](../../_Inbox/planning/toolchain_gap_analysis_20260908.md) §B — **this project's own cost-engine design**, including the substitution-first correction, the cascading-task rule, and the `[Trade]-[Task]:[Room]:[Resource]` taxonomy.

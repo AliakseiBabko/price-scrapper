@@ -1,0 +1,106 @@
+The construction industry is going digital 
+and longevity of companies operating in the   construction industry will depend on their ability 
+to manage data effectively. We need to be able   to manage all data, store it digitally, and sell 
+lifecycle and process management software. Because   for every engineer who creates something, there 
+are ten people who have to deal with the data.   Dozens of systems need to be filled with data, 
+and hundreds of specialists need to access the   data created during the design phase. But how 
+to work with the data if the project database   is stored in Revit closed proprietary format 
+or in the parametric and complex IFC format?   Different data structures and different versions 
+of formats create insurmountable problems for   professionals who need to validate and process 
+data in order to automate business processes.   Revit's proprietary and IFC's parametric format 
+prevents specialists from accessing popular data   processing tools. Data engineers globally show a 
+70% preference for structured data in analysis,   processing, and automation tasks. Its tabular 
+format functionality and extensibility make   data management and analysis more efficient. But 
+how to get this structured data for Rabbit and   IFC formats? Using the Data driven Construction 
+converter for transferring data from Rabbit and   IFC databases into a structured format 
+guarantees complete data integrity with   no loss of information. The converter provides 
+comprehensive data files in tabular XLSX format   and geometry in open Collada format, providing 
+access to a fully open data for complete storage   of project information. Thus, we get a completely 
+open data format where all project data is stored,   which opens us up to a huge number of popular 
+tools that experts in other industries have   been working with for a long time now. To 
+obtain a converter, visit the data driven   Construction website. The tool is available 
+for free. Simply download it, unzip the file,   and it's ready for use. Simply enter the folder's 
+address where these files are stored and click   the Conversion Start button. The transformation 
+of closed and parametric formats into open and   structured data begins. We obtain the geometries 
+of every element from Revit or IFC project using   the widely recognized and accessible Open colada 
+format, a prevailing standard in the realm of   visualization. Each element in the project 
+geometry has meta information that is stored   in the project table. For each file, we acquire 
+comprehensive meta information about the project   in the shape of a large two dimensional Excel 
+table. The Data Frame a format widely employed   in nearly every domain of economics today. This 
+data format allows you to quickly group, analyze,   and visualize the data of the whole project and 
+its individual groups without the need to use   BIM applications or API connections within CAD 
+tools. To get all information about elements in   IFC format projects, just enter the address of 
+the folder where IFC files are stored and click   the button to start conversion. We obtain the 
+geometries of every element from IFC project using   the widely recognized and accessible open Collada 
+format and two dimensional project table allows   for versatile data operations such as validation, 
+grouping and analysis in any software designed to   handle tabular data or data frames. To use the 
+terminal version of the converter on Windows,   open either Command Prompt or PowerShell in the 
+folder where the converter is located. Then enter   the file path of the Revit or IFC document 
+you wish to convert into Spunform and hit the   Enter key. To simultaneously process and analyze 
+hundreds or thousands of projects in Revit or IFC   formats, utilize the provided sample code found 
+in the folder with the converter. This code can   be integrated into any process logic and operates 
+entirely offline eliminating the need for BIM or   CAD tools. Thanks to artificial intelligence tools 
+such as Copilot or Chat GPT, we can now process   data on all project elements from Revit or IFC 
+format directly into Excel. For example, we can   automate the categorization and classification 
+of all items based on one or more parameters,   or convert, for example, parameter property 
+values into other classifications with just one   line of code. Alternatively, we can automatically 
+generate and insert descriptions in the desired   format for any element properties, element groups 
+or element properties across the entire Revit and   IFC project, thereby simplifying and customizing 
+documentation processes to retrieve data from   Revit and IFC it is enough to load the data 
+table resulting from the conversion and describe   the logic of work in one or two sentences. In the 
+first example, we will group the data by category,   parameters and output in the form of a bar chart. 
+Chat GPT outputs the result with 100% accuracy.   Or, for example, we will take only elements 
+from the wall category and display all types of   elements with the sum of width for each type. As 
+an output, we get a table, a ready document, or as   in this case, a picture with data visualization 
+of the final table. We can also use Chat GPT to   validate the data in the model. For example, you 
+can check the correctness of parameter values and   output the identifiers of elements that have not 
+passed the check. These identifiers can be copied   and used, for example, directly in Revit. We can 
+also use the Chat GPT solution code to create a   script that automates the application of the same 
+process logic to any number of future Revit and   IFC files. And instead of spending time opening 
+files and manually generating tables and images,   we can use the Chat GPT code to fully automate 
+the process and remove the human element from   the supply chain in processing hundreds or 
+thousands of future revit and IFC projects   to automate the process, let's copy the ready 
+code from Chat GPT and paste it into pipeline   after conversion. The first part of the code 
+from Chat GPT is responsible for grouping data   and creating a table. The second part of the code 
+creates a chart using the data from the table.   Let's modify the code so that after the chart 
+is generated, the image is saved in the Projects   folder. Now we just need to specify the path to 
+our projects and click Execute. The code will   automatically process all projects in the folder, 
+retrieve the Excel database from each project,   and automatically generate images for the Walls 
+group for each of the Revit or IFC projects in   the folder. Similarly, we can check parameters 
+and values of elements or groups of elements,   as well as retrieve images, documents, tables 
+for a large number of projects from different   versions of IFC and Revit. To retrieve data in 
+an open, structured form, we do not need to use   the Internet or install plugins or tools from 
+CAD vendors, which allows seamless processing   of projects. Data visualization tools such as 
+Power, Bi Tableau or Google Data Studio mainly   use structured data formats as their main inputs. 
+Using the data driven construction converter,   we can convert data from Revit and IFC projects 
+into structured formats, and with the help of   built in functions, we can automate the loading of 
+this data into various documents and dashboards.   Structured data is a key element of AI and Big 
+Data, enabling the collection of historical   data from projects in Revit and IFC formats. In 
+the following example, datadriven construction   collected thousands of different Revit and IFC 
+files, yielding 5 million elements with geometry   and meta information from different projects. 
+These are presented in a data frame, the analysis   and code of which is available on Google's Kaggle 
+platform. In this pipeline, we simultaneously   analyze tens of thousands of different projects in 
+Revit and IFC formats. For example, we can track   project save times, estimate column positions in 
+all 10,000 projects, or visualize window sizes in   several thousand projects from all over the world. 
+This analysis of historical data provides valuable   insights for making informed business decisions 
+for construction and design companies. The   closed nature of databases primarily prevents the 
+accumulation of a company's structured historical   data. Such structured historical data propels 
+other industries towards machine learning and   artificial intelligence technologies. Soon, 
+data will be a primary driver of productivity   enhancement. I think AI has tremendous potential. 
+It's going to change how we work, how we live. If   AI and robotics changes how we work and how we 
+build, we could use AI and robotics as a means   to create much more productivity. Soon, the 
+productivity of construction companies will   be closely tied to the availability of data 
+and the tools necessary to leverage historical   company data effectively. With geometry copies of 
+projects in the open and popular Colada format,   we can use geometric data from Revit and IFC 
+directly in popular tools such as Omniverse,   Unreal Engine Blender, or Unity without the 
+need for special plugins or routing programs.   Connecting data through built in editors or 
+visual coding opens up unlimited possibilities   for creating simulation and data. Visualization 
+and augmented reality tools allow you to use   open data in applications used at the design 
+stages or construction sites, without the need   to have a CAD or BIM program on your computer. 
+Download free solutions for working with data   in revit and IFC formats from the Data Driven 
+Construction website. Construction has been,   is, and always will be about processes and data, 
+and it doesn't matter what acronyms you use in the   last ten years and in the next five years. If you 
+need help or advice with the transformation, the   Data Driven Construction will be happy to help you 
+implement your ideas. Please consider subscribing   to our social media channels and sharing this 
+video. By doing so, you'll be supporting the   creation of more content focused on the role of 
+data in construction. Thank you for your support!

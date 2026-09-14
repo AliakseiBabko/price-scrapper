@@ -46,7 +46,13 @@ Not how to get an agent to do one task — how to arrange context, skills and mu
 
 How a quantity gets out of a model and becomes a priced line — **the one genuinely absent tool in this project's own toolchain.**
 
-→ **[[18_Digital_Toolchain/analysis/Quantity_Takeoff_and_Cost_Join|Quantity Take-Off and the Cost Join]]** — **where a cost attaches** (tag, material, object) and what each choice re-prices; the cost line's fields, with **waste and tax as first-class**; **waste is not one number** — nest linear stock and the percentage collapses, tile needs one; the **cable/containment cardinality split** that `ELE-01` needs; and the three independent arrivals at **a cost model earning its keep by killing a bad option early, not by being precise**.
+→ **[[18_Digital_Toolchain/analysis/Quantity_Takeoff_and_Cost_Join|Quantity Take-Off and the Cost Join]]** — **where a cost attaches** (tag, material, object) and what each choice re-prices; the cost line's fields, with **waste and tax as first-class**; **waste is not one number** — nest linear stock and the percentage collapses, tile needs one; the **cable/containment cardinality split** that `ELE-01` needs; and the three independent arrivals at **a cost model earning its keep by killing a bad option early, not by being precise**. ⚠️⚠️ **§8 is the first source in this vault that actually PRICES** — three quantity routes into one BOQ line (elements, a two-point-calibrated PDF take-off, and a pivot table), a line carrying region and currency **but no price DATE**, and the unmeasured step that matters: **an LLM “three-level semantic search” matching elements to catalogue positions, with no error rate**.
+
+### Requirements, and checking the model against them
+
+How a requirement on a model gets written down, and how it gets checked — **including a source that directly challenges this project's `.ids` commitment.**
+
+→ **[[18_Digital_Toolchain/analysis/Requirements_And_Validation|Requirements and Model Validation]]** — **every requirement reduces to ENTITY, ATTRIBUTE, CONSTRAINT**, asserted over 20 rules written in eight formats; **the experiment** — the same model validated against JSON and against Solibri returns identical numbers — **and the caveat that halves it**, since one agent wrote both parsers; the open item on writing our rules as **a three-column CSV first and emitting `.ids` later**; and **a check's output is the list of things that failed, not a percentage**.
 
 ### Concept and visualisation
 

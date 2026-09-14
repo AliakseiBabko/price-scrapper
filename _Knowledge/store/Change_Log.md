@@ -1422,3 +1422,12 @@ Episode 1 tours the **Ostendorf** factory with an unsupported superlative attach
 - **Three ASR-garbled figures discarded rather than reconstructed**: a socket-depth pair (198 / 6 cm), a разуклонка fall dimension, and a cement-board thickness of «3 мм» that is not a real product thickness.
 - **Two Russian normative assertions** («по ГОСТам» for pipe insulation, «разрешено скрывать» for soldered joints) — techniques carried, jurisdiction flagged, **nothing to `16_Legal_and_Regulations/`.**
 - **One step he says he is not sure mattered** (mesh-and-C2 at the board joints on a small panel) — recorded as his own hedge, not as a rule.
+
+## 2026-09-14 — Highest-value items left: DataDrivenConstruction Tier 1 + one CAPPUCCINO source
+
+- **⚠️⚠️ The quantity→price join is demonstrated by a source for the first time.** A BOQ line as a **SINK fed by three quantity routes** — model elements, a two-point-calibrated PDF take-off, and a pivot table. **Copy the shape; their line carries region and currency and NO PRICE DATE, so it would fail our own rule 2.**
+- **⚠️⚠️ The unmeasured step in any cost join is the MATCH.** An LLM “three-level semantic search” from element to catalogue position, **no error rate**. A wrong match does not fail — **it produces a priced line that looks right.**
+- **⚠️⚠️ A decision we have already taken is challenged and logged as an open item, not reversed.** 20 rules in eight formats reduce to **ENTITY / ATTRIBUTE / CONSTRAINT**; JSON and Solibri give identical results. **⚠️ One agent wrote both parsers, so the agreement is not independent.** → **Write the rules as a three-column CSV first; emit `.ids` later if a counterparty ever needs it.**
+- **⚠️⚠️ An acceptance-inspection checklist, which this vault did not have.** **An unbanded ЛДСП edge is a HEALTH item — E1 is stated for the edge-banded condition**; on-site cut-outs are the largest source of them; **a socket on a module joint cannot be cut cleanly in either carcass**; uneven gaps trace to **carcass diagonals**, not only to the room.
+- **⚠️ A “manual” subtitle track can be machine-generated and merely uploader-accepted** — the tell is errors on proper nouns. Fourth distinct form of the caption-language trap.
+- **No prices transferred from any of the five sources.** **Nothing routed to `16_Legal_and_Regulations/`.**

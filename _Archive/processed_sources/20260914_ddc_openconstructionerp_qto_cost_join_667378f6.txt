@@ -1,0 +1,91 @@
+[music] Construction project consists 
+of resources that you need to   manage efficiently in order to track the 
+project's time and costs. In this video,   we will take a quick look at the main modules of the open construction ERP platform that will help   you start building a comprehensive overview of your project in terms of cost and time. First, you need Python. Grab it from python.org 
+if you don't have it. Press win. Type CMD and open the command prompt. Type pip install openconstructionerp. The package installs in seconds.   Then type openconstructionerp. 
+Your server starts at localhost 880. The browser opens to the sign-in 
+page. Three demo accounts are ready.   You can either choose the quick start option 
+or select the databases you need which include   descriptions of construction work by resource 
+as well as the modules required for your work.   Pick quick start or choose your 
+profile to customize the modules. This is the dashboard your workspace. 
+Click create first project. Name it   Pick the region. Set the currency. 
+Choose the classification standard. Add the site address and a regional factor. 
+Click create. And the project is live. [music] To create a resource description or a cost estimate, click create cost estimate inside   the project. A draft BQ opens with a 
+full toolbar. Open the cost database,   one catalog, every region built in. The same 
+position shows up priced for the United States,   Canada, India, Spain, whichever region your 
+project is set to. 55,000 items. A complete   breakdown of construction work by resources and 
+materials. One click adds them to the sheet. You can now manage prices and volumes for items,   as well as add or remove resources from 
+items describing construction work. drop an IFC or Revit file onto the viewer. We 
+don't need vendor software or connection APIs.   All conversion will take place locally on your 
+computer. In this example, we're using a Revit   file containing several thousand elements. We 
+can easily filter the project by any criteria and   quickly link the elements we need to line items in 
+the estimate. We can link geometry with properties   to an existing position in the estimate. And we 
+can also create new ones based on the geometry. Here all 13 floor elements light up at once 
+isolated from the rest. Click link 13 to BOQ   one button and those elements become a 
+price position with quantities summed and   classification matched. No manual re-entry. 
+Quantities flow through exactly as modeled.   We have now linked the geometry and all properties 
+of the geometric element to the estimate which   allows us to select any numerical value for the 
+volume parameter of the item describing the work. open a DWG the same way. Drag, drop. 
+The conversion takes place locally   and stand alone without the need to 
+upload your data to cloud services.   Every layer from the AutoCAD file is readable and 
+toggable. walls, doors, axes, columns, details,   annotation, the entire stack. Set the drawing 
+scale once. Every measurement from that moment   on is in real meters. 3,800 entities, each 
+one measurable. The geometry stays vector.   Now, we can link any flat geometric elements in 
+the drawing to our items in the estimate just as   we did in CADBIM projects. We select items or 
+create new ones and then within the estimate   we will see the link to this drawing element 
+as well as its dimensional characteristics   length or area which are now used to 
+describe our construction work items. [music] Most standard drawings arrive as PDFs and that 
+is where estimation time gets lost. So we built   the takeoff tool that matches how estimators 
+actually work. Drop a PDF plan into the viewer.   It opens at full fidelity, rendered by PDF.js. 
+Start by setting the drawing scale. Click two   points of known distance. Type the real value and 
+the whole drawing is calibrated. Every measurement   is now in real meters. Trace the laminate flooring 
+in the living room with the polyline tool.   17.37 m. Live as you draw. Close a shape for 
+a room and the area calculates instantly.   We can define poly lines as well as areas and 
+volumes by specifying heights, which allows us   to instantly obtain information on the scope of 
+work that needs to be included in cost estimates. When you [music] finish one button, export 
+to BOQ pushes every measurement into the   bill of quantities as a priced line 
+item. No translation, no loss data.   When we switch to the estimate, we will see a link 
+to the PDF document as well as the pre-calculated   volume parameters for the item which we extracted 
+from the PDF drawing. Now that we have the work   items defined using resources and geometric 
+elements from various sources, we can export   the completed estimate to Excel and share it with 
+other specialists or import it into other systems. Here
+[music] is a full real world estimate. Portland Technical 
+School, a Revit model passed into nearly 10,000   elements. From that model, the BOQ writes itself. 
+88 sections organized by master format division.   215 priced positions. [music] Every single line 
+matched back to the unified cost catalog by a   three-level semantic search. In the estimate, 
+each item is linked to geometric data. And we   can also select the total volume parameters 
+of the group for our construction work as the   basis for calculations. We can go into the 
+model and also find all the geometric groups   that were linked to the items in the bill of 
+quantities describing the construction work. [music] Here is what integration really means when modules 
+share one object. Pick any BIM element, this   interior partition wall, and the context panel 
+opens on the right. The same click that linked   it to the bill of quantities can also create a 
+task, attach a document, add it to the schedule   or tie a requirement to it. The new task is there 
+linked back to the wall with its BOQ position and   priced quantity attached. Open the schedule. The 
+wall picks up its duration automatically. Open   the document. It jumps straight to the element in 
+the model. One element, five modules, one context.   This is what integrated actually looks like when 
+every module speaks through the same object.   Thanks to the platform's modularity and open 
+source code base, you can add new modules and   relationships between objects yourself. 
+This gives you a complete picture of the   project and how all element properties are 
+interconnected, allowing you to build the   most flexible structure possible that 
+is tailored specifically to your needs. [music] [music]   Drop in any Revit, IFC, or DWG file. The data 
+explorer indexes every element and every parameter   into a searchable, pivotable table. 9,500 elements 
+in this model. 798 parameter columns. Every field   the model has set from materials to fire ratings 
+to custom identifiers. Pivot by type, by level,   by family, by classification. Sum volumes, average 
+lengths, compare costs across categories. This is   CAD data turned into a BI tool. When a pivot tells 
+the story you want, one click, create positions,   [music] and the aggregation becomes new bill Q 
+lines. Any CAD program is a database of geometric   elements and their properties. And within 
+minutes, we can generate a quantity takeoff from   the CAD database that can be used both in cost 
+estimates and in other modules of the platform. The last piece is the easiest to underestimate. 
+Upload a single photos of a wall, a floor,   a system, even from your phone on site. 
+The AI reads the image, detects components,   identifies materials, and generates a price set of 
+positions in seconds. Once the AI has compiled a   list of items with preset quantities and prices, 
+all we have to do is convert the table into a   cost estimate. So we can then populate the items 
+with resources and additional property layers. All AI tools used on the platform are entirely 
+under your control. If you want to use AI tools,   simply configure the platform settings 
+to use your own API for the AI tools   you work with. Chat GPT, Anthropic 
+Claude, Google Gemini or another.   You simply enter your own API and work 
+with these tools in your own environment.   Your expertise stays in charge. The machine does 
+the grunt work. That is OpenConstructionERP.   In any construction project, you always come 
+down to resources and managing them quickly   and precisely is a skill you have to master. 
+A project is materials, equipment, people,   time, and money. Manage your resources well. 
+The project runs efficiently. Lose control,   you lose money. Install OpenConstructionERP for free in just   a couple of minutes and start building 
+the big picture of your project today.

@@ -1,0 +1,72 @@
+We have two real Revit files. In the requirements 
+folder, eight different files. This is how   requirements are typically shared between project 
+teams. The prompt says, "Take all BM models,   convert them to Excel, check each project against 
+its requirements." The AI agent starts working. It   scans the folder structure, locates the models. 
+Revit advanced, two dashboards side by side.   Here are the results. The summary dashboard 
+requirements are three columns and verification is   one prompt. In this video, you'll see how a single 
+AI powered query can replace hours of manual   CADBIM model verification. I'll show you how AI 
+agents can analyze requirements in any format,   verify any CAD BIM models, and provide 
+a detailed report without the need for   a zoo of programs and plugins. Let's open VS 
+Code and connect this folder as our workspace.   Now, let's open our project folder inside the code 
+editor. We simply copy the path and paste it in. Next, we launch an AI coding 
+agent such as Cloud Code,   Google Jewels, or OpenAI Codeex to fully 
+automate the data processing pipeline.   Inside the Revit project under the model folder, 
+we have two real Revit files. In the requirements   folder, eight different files, the same 20 
+validation rules written in eight completely   different formats. Here is the execution plan, 
+a word document. Entity, attribute, constraint,   severity, category. This is how requirements 
+are typically shared between project teams.   Next to it, an Excel matrix. The same rules but 
+in a different layout. Element types as rows,   attributes as columns, constraints at the 
+intersections. One set of rules, [music] two   very different representations. And this is just 
+the beginning. Here is the So Libri model checker   format, a JSON file with its own structure, 
+rule templates, component filters, operators.   Every single rule takes dozens of lines of code. 
+Beyond Solibri, we also have CSV, a nested JSON,   DWS for AutoCAD standards checking, 
+[music] and IDS from building smart.   Each verification tool demands its own format. 
+Let's switch to the IFC project. Two model files.   And in the requirements folder, another eight 
+files. Same story, different formats, same rules.   16 rules, 250 lines of XML. So here 
+is the problem. 15 requirement files,   eight different formats, each with 
+its own structure, its own syntax,   its own way of expressing the exact same rules. 
+This is the complexity we are about to eliminate.   Back to Claude Code. Clean chat. 
+The verification folder is open.   We type one prompt. The prompt says, "Take 
+all BM models, convert them to Excel using   datadriven construction converters from GitHub. 
+Check each project against its requirements,   even though they come in different formats. 
+[music] Create dashboards based on the example.   The AI agent starts working. It scans the 
+folder structure, locates the models, finds the   datadriven construction converters on GitHub, 
+[music] and begins the conversion pipeline.   Both IFC files are converted. The Revit 
+models follow in parallel. The agent writes   parsers for every requirement format. The 
+agent builds a unified validation engine,   runs every model against every requirement format, 
+and generates the dashboards. 33 dashboards, one   for each combination of project and requirement 
+format. Let's see the results. Revit advanced two   dashboards side by side. Left validated against 
+JSON. Right against CBRI, both show 76.3% 1993   passed. 599 failed identical. This is the key 
+insight. It does not matter which format the   requirements are written in. If the rules are 
+the same, the result is the same, the format   is unnecessary complexity. [music] No matter what 
+software or data format your company uses, at the   core, you're always working with the same thing. A 
+CAD database, tables that store element parameters   and their values. To validate and apply the data 
+in your case study, you only need three columns.   The group or type name, the parameter name, and 
+the boundary conditions for [music] its values.   The core idea, we type a second 
+prompt. Read all requirement files   across all formats. Create a single 
+D rules file with all unique rules. It extracts every rule, removes duplicates,   and consolidates them into a single 
+list. Result: 16 unique IFC rules,   20 unique Revit rules. All rules are correct 
+and found across all seven source formats. Let's open the DDC files. Here they are side by 
+side. IFC rules, Revit rules. Three columns in   bold. Entity, attribute, constraint. [music] 
+This is the essence of every rule. Visually,   you immediately understand what matters. Three 
+columns. Instead of 15 files and eight formats,   two simple Excel spreadsheets, 6 kilobytes each. 
+The final step, third prompt. check all projects   against these DDC requirements and generate 
+a clear dashboard along with a PDF report.   The agent takes our two simple DDC 
+files, reads the converted model data,   and runs every element through every 
+rule, counting pass and fail for each. Here are the results. The summary dashboard, 
+70.7% overall compliance, 3,235 checks passed,   1,343 failed, 45,578 total, 36 rules across 
+four projects. And next to [music] it,   the PDF report, DDC validation report, 79 pages, 
+key findings, worst and best performing rules,   detailed breakdowns for every project, every rule, 
+every failed element. Three prompts, four models,   36 rules, nearly 5,000 checks, a dashboard, and 
+a full PDF report. And at the core of it all,   three columns. Entity, what we check, attribute, 
+which parameter constraint, what rule it must   follow. That is datadriven construction. A model 
+is data. Requirements are three columns. And   verification is one prompt. Every project in the 
+architecture, engineering, and construction sector   involves dozens of systems. [music] ERP, 4D, 
+5D, CAD BIM, supplier systems, and construction   site software. Each of which generates its own 
+data and has its own requirements. The result,   hundreds of requirements across different 
+disciplines and in various formats. But each one,   regardless of its source, boils down to 
+three components. An entity, an attribute,   and a constraint. Technical specifications in 
+PDF format, IFC models, Excel spreadsheets,   CAD drawings. All of this is normalized into 
+a single schema. Open data, open-source code,   AI agents that verify requirements at any 
+scale. Learn more about requirements gathering   methods and the verification process 
+in the book Datadriven Construction.
