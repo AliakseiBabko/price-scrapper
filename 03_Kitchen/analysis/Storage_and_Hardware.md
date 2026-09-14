@@ -323,3 +323,31 @@ The section above records him raising the drainer shelf 15 cm in July 2024. **Ni
 ---
 
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Sources for every claim on this page: [[03_Kitchen/analysis/Kitchen_Furniture_Source_Notes|Kitchen Furniture — Source Notes]]. Edit history: [[03_Kitchen/analysis/Kitchen_Furniture_Change_Log|Kitchen Furniture — Change Log]].
+
+---
+
+## ⚠️⚠️ The BLUM Runner Ladder, and Two Dimensional Costs Nobody Quotes (CAPPUCCINO / Юрьев Юрий, added 2026-09-14)
+
+**A fabricator's walk through Blum's 2020 runner range.** Full extraction: [[_Sources/YT_e7CPmsT_P8Q_cappuccino_handleless_opening_and_blum_hardware|the hardware note]]. ⚠️ **Manufacturer figures; a 2020 line-up.**
+
+| Runner | Load | Side height | ⚠️ Note |
+| :--- | ---: | :--- | :--- |
+| **METABOX** | **25 kg** | 54–150 mm | ⚠️ Budget. *«Работают достаточно громко и не так плавно доводят.»* Cream and grey only — **for drawers you rarely open** |
+| **TANDEM** | 30 / 50 kg | adjustable | Box from **any carcass material**, undermount; partial or full extension; TIP-ON possible |
+| **TANDEMBOX antaro / plus** | 30 / 65 kg | 68–115 mm | **Soft-close only**, even when push-to-open; ORGA-LINE inserts |
+| **MOVENTO** | 40 / 60 kg | adjustable | **No non-soft-close version**; TIP-ON opens, BLUMOTION closes |
+| **LEGRABOX** | **up to 70 kg** | **66–241 mm** | Top line; **PURE** monolithic side, **FREE** takes a ≤10 mm insert (usually glass); **fixes to thin fronts** |
+
+**⚠️⚠️ The two costs that never appear in a quote:**
+
+1. **TANDEM loses ~43 mm of useful internal space** to its mounting geometry; **TANDEMBOX's rounded inner wall costs almost 10 cm.**
+2. **⚠️⚠️ CARGO — minimum front width 20 cm, *«при меньшем размере внутренняя часть будет просто бесполезной»*. And at that 20 cm front the useful interior is 11.5 cm on Movento, or over 13 cm on LEGRABOX, whose walls are only 10 mm.**
+   > **⚠️ This page already records a *"pull-out spice/bottle rack, typical width 15–20 cm"*. Now the usable interior behind that width is known, and it is roughly HALF of it. A 200 mm cargo is a 115–130 mm shelf.**
+
+**Width and stability limits, both with a required part:** **TANDEM — no wider than 90 cm and a SYNCHRONISER is mandatory**; **MOVENTO — fronts to 140 cm, but a STABILISER must be fitted.**
+
+**Systems worth knowing**: **SPACE TOWER** — 4 × Legrabox free at 177 mm + 1 × pure at 90 mm, with **155° hinges** so drawers withdraw unobstructed, configured for a **60 cm × 2 m** cabinet; **SPACE CORNER** with SYNCROMOTION for corner runs; and **⚠️⚠️ SPACE STEP, a step in the plinth for reaching upper cabinets — minimum plinth 15 cm, he recommends 20–25 cm.**
+
+> **⚠️⚠️ That plinth minimum is a coupled decision, not a free choice.** It sits against the **920 mm minimum worktop height** that a gola profile plus a dishwasher forces ([[03_Kitchen/analysis/Kitchen_Gadgets_and_Mechanisms|Gadgets & Mechanisms]]). **Plinth height, worktop height and opening method resolve together or not at all.** ⚠️ **This page already records the toe-kick pull-out step as a technique; this supplies its minimum dimension.**
+
+⚠️ **Serviceability**: TANDEM fixings come as screws **or locks**, and the locks let a runner be unclipped and fully removed if something falls behind the drawer. ⚠️ **Tandem and Movento are the choice when the runner must match the carcass colour**, since the box is made of carcass material.

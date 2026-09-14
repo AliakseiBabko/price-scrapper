@@ -206,3 +206,17 @@ Vladimir Amelchenko, reacting to a third-party flipper's own renovation-reveal v
 ## The panel itself — moved to its own page
 
 See **[[12_Engineering_and_Systems/analysis/Electrical_Panel_Design_and_Assembly|The Electrical Panel — Device Logic, Sizing, Assembly and Acceptance]]**. This page keeps cable gauge and circuit design, routing rules, grounding, and the fire-behaviour and failure-case evidence.
+
+---
+
+## ⚠️ Cable Cross-Section for Kitchen Appliances, With a Fire-Safety Argument (Dmitry_HVAC, added 2026-09-14)
+
+> *«Есть провод **2,5 квадрата**, есть провод **полтора квадрата**. Например, под электродуховку **нельзя тянуть провод полтора квадрата — надо 2,5 минимум**, так же как под электроплиту. И вы **не можете притянуть один и тот же провод** как на чайник, так и на духовку, потому что провод будет просто **перегружен** — и это уже не просто некрасиво и неудобно, а **тупо опасно** для пожаробезопасности.»*
+
+- **≥2.5 mm² for an electric oven and for an electric hob; 1.5 mm² is explicitly refused for both.**
+- **⚠️ No shared circuit between a kettle and an oven** — the conductor is overloaded, and he frames it as a fire-safety issue rather than a convenience one.
+- ⚠️ **And the cross-section drives the cost of the runs** — a sizing decision is also a budget one.
+
+> **⚠️ JURISDICTION FLAGGED. He names no norm and no country.** **2.5 mm² for an oven or hob and a dedicated circuit per high-load appliance is near-universal domestic practice rather than a local peculiarity — but it is stated here as trade practice, not as a cited requirement.**
+>
+> **⚠️⚠️ Standing rule 4: this does NOT go to `16_Legal_and_Regulations/`. A Belarusian requirement must be confirmed against the Belarusian norm separately, and this source is not evidence of one.** [source: [[_Sources/YT_l4HipwaUxpc_dmitry_hvac_renovation_start_checklist|YT_l4HipwaUxpc]]]

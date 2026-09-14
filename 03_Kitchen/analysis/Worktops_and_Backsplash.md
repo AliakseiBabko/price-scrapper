@@ -281,3 +281,19 @@ This page records an overhang experiment "against the cabinetmakers' argument", 
 ---
 
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Sources for every claim on this page: [[03_Kitchen/analysis/Kitchen_Furniture_Source_Notes|Kitchen Furniture — Source Notes]]. Edit history: [[03_Kitchen/analysis/Kitchen_Furniture_Change_Log|Kitchen Furniture — Change Log]].
+
+---
+
+## ⚠️⚠️ A Fabricator Dissents on Two Things This Page Records as Desirable (CAPPUCCINO, added 2026-09-14)
+
+**A kitchen fabricator's systematic material-by-material account now lives on its own page — [[03_Kitchen/analysis/Worktop_Materials_Fabricator_Account|Worktop Materials — A Fabricator's Own Account]]** — following the precedent of [[03_Kitchen/analysis/Facade_Materials_Fabricator_Account|Facade Materials — A Fabricator's Own Account]]. **Two of his findings contradict content on THIS page and belong here as Perspectives.**
+
+**1. ⚠️ The same-material integrated quartz sink.** This page records it as a newer premium capability whose only stated drawback is a visible seam. **He declines to sell it**: *«я обычно отговариваю от такого варианта, потому что в углах этой мойки скапливается грязь и достаточно проблематично оттуда убрать»*.
+
+> **Both can be true — the capability is real and the corners are real.** **Not resolved.** ⚠️ **Note he is the one who would make it, which cuts against a commercial motive for the refusal.**
+
+**2. ⚠️⚠️ Etched matt glass — the mechanism behind this page's fingerprint complaint.** This page rates tempered glass as *"outdated, shows fingerprints/grease heavily"*, while Синчуков rates it durable for a splashback. **He supplies the mechanism and it resolves the disagreement**: *«матовый слой создаётся в результате химического травления, что создаёт МИКРОПОРЫ, в которые очень хорошо проникают жир и пыль, и оттереть его практически невозможно»* — extended explicitly to matt glass on a skinali.
+
+> **→ POLISHED tempered glass is durable, as Синчуков says. ETCHED MATT glass is a grease trap, as the tier ladder implies. The variable is the finish, not the material.** ⚠️ **He also restricts glass WORKTOPS to bar counters and non-work zones entirely, and puts stainless steel on the main work run instead.**
+
+**⚠️ And one load figure that sharpens a principle already here.** This page records that an unsupported пролёт without a закладная *«рано или поздно может легко сломаться»*. **He gives the threshold: quartz is 52 kg/m² at 20 mm, and a bar overhang beyond 600 mm needs a fabricated steel frame.**

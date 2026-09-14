@@ -12,6 +12,7 @@ The compact guide to this vault's kitchen furniture content. Each section states
 | [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics\|Layout, Cabinet Sizing & Ergonomics]] | Module widths, height/depth standards, island sizing, corner layouts, the toe-kick argument |
 | [[03_Kitchen/analysis/Appliance_Integration\|Appliance Integration]] | Where appliances go, clearances, fridge niches, extraction |
 | [[03_Kitchen/analysis/Worktops_and_Backsplash\|Worktops & Backsplash]] | Worktop material, thickness, overhang, height; backsplash tiers |
+| [[03_Kitchen/analysis/Worktop_Materials_Fabricator_Account\|Worktop Materials — A Fabricator's Own Account]] | ⚠️ A maker's material-by-material account: quartz, керамогранит, acrylic, HPL, glass, steel, wood, ЛДСП |
 | [[03_Kitchen/analysis/Storage_and_Hardware\|Storage, Hardware & Mechanisms]] | Drawers vs doors, corner and pull-out mechanisms, accessories |
 | [[03_Kitchen/analysis/Cabinet_Assembly_Technique\|Cabinet & Countertop Assembly Technique]] | Install sequence, module assembly, countertop joining, site QC |
 | [[03_Kitchen/analysis/Kitchen_Lighting\|Kitchen Lighting]] | Task-light position and quality tiers |

@@ -155,3 +155,51 @@ From the 42 m² delivered object, where **every facade and carcass is ЛДСП**
 ---
 
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Siblings: [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]] · [[03_Kitchen/analysis/Storage_and_Hardware|Storage & Hardware]] · [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops & Backsplash]].
+
+---
+
+## ⚠️⚠️ A Second Fabricator: Painted vs Laminated MDF, Scored — With Four Physical Tests and an Honest Draw (CAPPUCCINO / Юрьев Юрий, added 2026-09-14)
+
+**This page's existing FLAT series covers the material INVENTORY. This adds the head-to-head between the two commonest fronts, with four tests run on camera** — the rarest evidence level in this folder. Full extraction: [[_Sources/YT_sGuFVS5Ze7I_cappuccino_painted_vs_laminated_mdf|the fronts note]].
+
+### ⚠️ How to tell them apart — the checkable core
+
+**Same colour both sides → painted. Wood one side, white the other → laminated.** ⚠️ **On two gloss fronts, lamination loses visibly: duller, and close up you can see ADHESIVE LUMPS giving an orange-peel effect.** ⚠️ Other tells: a visible film seam, and **a hole on the BACK of a milled laminated front, which exists so bubbles do not form under the film during vacuum bonding.**
+
+> **Same shape as this page's existing "how to tell natural veneer, fine-line and ЛДСП apart" section, and for the same reason: it is what a buyer can check against what they were sold.**
+
+**Production**: film = adhesive plus a **vacuum** press. Painted = **four stages — isolator → primer → paint → lacquer.**
+
+### ⚠️⚠️ The four tests, and neither front comes out well
+
+| Test | Result |
+| :--- | :--- |
+| **Scratch** (fork, medium force) | ⚠️ **laminated resists better; painted is *«намного проще повредить, и восстановить его будет достаточно проблематично»*** |
+| **Impact** (hammer) | ⚠️ **neither survives** |
+| **Stain** (coffee grounds, pomegranate juice, **зелёнка**) | ⚠️ ***«зелёнка не оттёрлась полностью ни с одного из фасадов»*** |
+| **Water** (immersion > 48 h) | ⚠️⚠️ **neither survives — the MDF swells and lifts both film and paint.** Two-sided painting lasts slightly longer, no more |
+
+> **⚠️⚠️ The water result is about the SUBSTRATE, not the finish. Both fail identically because both are MDF underneath; the coating only changes how long it takes.** **→ Any MDF front is a moisture-limited product, and the finish is not the variable that fixes it — under a sink, beside a dishwasher, or in a bathroom.**
+>
+> ⚠️ **And зелёнка is the household stain neither survives.** Not a material choice; a risk to know about.
+
+### The remaining criteria, and the two that carry consequences
+
+**Painted wins on** visual, tactile (*«у ламинации есть ощущение пластика»*), **colour range** (limited only by the RAL/NCS catalogue, and it can carry **two or three colours, mixing matt and gloss on one front**), heat (a hot pot to 100 °C affects neither; **above that, film deforms**), and **complex geometry**. **Laminated wins on** scratch resistance, **a structural finish that reproduces wood and silk**, and **cost — painted is roughly TWICE the price.** ⚠️ *Ratio recorded; no absolute figure (Ukraine 2020, rule 2).*
+
+> **⚠️⚠️ TWO CONSEQUENCES WORTH MORE THAN THE SCORES:**
+> - **⚠️ Painted fronts fade even under UV-protective lacquer — *«если вы повредили фасад спустя год эксплуатации, то подобрать цвет будет практически невозможно»*.** **→ A damaged front after a year cannot be colour-matched. Order a spare at manufacture, or accept a visible replacement.** **Applies to every painted surface in the flat, not only kitchens.**
+> - **⚠️⚠️ *«От частого протирания на одном и том же месте может со временем вытереться слой лака, что создаст пятно на фасаде.»*** **→ The lacquer wears through where you repeatedly wipe — which is exactly where TIP-ON makes you press.** **See [[03_Kitchen/analysis/Kitchen_Gadgets_and_Mechanisms|Gadgets & Mechanisms]]: push-to-open on a painted front concentrates both mechanisms on one square of surface.**
+
+### ⚠️⚠️ Two fabrication limits with numbers
+
+- **⚠️⚠️ *«Самая минимальная фреза имеет радиус 3 миллиметра»* — so a milled front cannot have a sharp internal corner. Exact 90° internal angles require an ASSEMBLED painted front.**
+- **⚠️⚠️ An internal (J-) handle cannot be made in laminated MDF at all.** **→ The opening method and the front material are one decision: choosing a J-handle eliminates film fronts.**
+
+### ⚠️ The verdict — a draw, which is the reason to trust the rest
+
+**Final score: painted 46, laminated 46.** *«Это дружеская ничья.»*
+
+> **⚠️⚠️ A vendor comparing two products it sells and declining to pick a winner is worth noting**, and contrasts sharply with the undisclosed self-promotion recorded from `ZS_tnIN0zoA`. **His situational output: budget → laminated; a monochrome gloss kitchen → painted; a BATHROOM → two-sided painting.**
+
+⚠️ **The tests are single specimens, one trial each, force described only as "medium", scored by the tester. Treat the DIRECTION of each result as evidence and the scores as opinion.**
