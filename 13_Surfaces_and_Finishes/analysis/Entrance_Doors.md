@@ -1,6 +1,8 @@
 # Doors & Trim — Entrance Doors
 
-Covers minimum functional width, opening-relocation technique, manufacturer pricing tiers, and a security-spec claim from two competing, self-interested retailers. Part of [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]].
+Covers minimum functional width, opening-relocation technique, installation and acceptance, manufacturer pricing tiers, ordering lead time, and the security-spec dispute between competing self-interested sellers. Part of [[13_Surfaces_and_Finishes/Doors_and_Trim|Doors & Trim]].
+
+> **Construction and spec evaluation — the checkable thresholds, the shop-floor tests, and the marketing numbers that mean nothing — live on [[13_Surfaces_and_Finishes/analysis/Entrance_Door_Construction_Spec|Entrance Door Construction & Spec Evaluation]] (added 2026-09-14).**
 
 ## Sizing and Relocation
 
@@ -111,6 +113,8 @@ advance with the company, not an independent comparison:
   rating vs. an official burglary-resistance scale) or an imprecision in
   one of the two sources. Treat both class-4 claims as `uncertain` until a
   third source or an official standard is checked.
+  > [!NOTE]
+  > **⚠️⚠️ LARGELY RESOLVED 2026-09-14 — three further sources, all using a FOUR-class scale with 4 at the top.** Gusev: *«фурнитура желательно должна быть четвёртого класса взломостойкости, всего их четыре… четвёртый самый надёжный»*. Novakey: locks *«не ниже четвёртого класса»*. Бастион: class 4 defined physically as **two hours of angle grinder**. **→ Three against one; the 13-class figure should be treated as the likely transcription or recall error.** ⚠️ **None of the four sources cites the standard by number, so this is convergent trade usage rather than a verified reading of GOST 31173 or a Belarusian STB — which remains the one document worth checking.**
 - **This manufacturer's own showroom pricing, Minsk, stated directly in
   USD, 2017-08-26**: 70-series **$250-300**; 80-series **$350-500**;
   100-series **$500+**. Brand-specific catalog pricing, not a market-wide
@@ -180,9 +184,29 @@ Vladimir Amelchenko, addressing the same "deadbolts must engage without binding"
 
 [source: [[_Sources/YT_2m1aVlTj4ZU_sbk_sticking_door_lock_fix|YT_2m1aVlTj4ZU]]]
 
+### ⚠️⚠️ A SECOND root cause for the same symptom — and it has a different fix (Бастион-С, added 2026-09-14)
+
+> **A new building settles for anything from one to ten years. If the door's metalwork is weak, the wall loads the frame, the frame deforms, the diagonal goes out — and the deadbolts then bind against the frame. The key will not turn, or the door needs a shoulder or a lift on the handle.**
+
+> **→ ⚠️⚠️ THE SYMPTOM IS IDENTICAL TO THE SECTION ABOVE, BUT THE CAUSE AND THE FIX ARE NOT.** **Reaming the strike hole on a door whose frame is being deformed by a settling building treats the symptom, and it will come back.**
+>
+> **⚠️⚠️ DIRECTLY RELEVANT — this project is a new build.** **Discriminator worth applying before reaching for the reaming bit:**
+>
+> | | **Амельченко's cause** | **Бастион's cause** |
+> | :--- | :--- | :--- |
+> | Onset | **present from handover, static** | **appears or worsens over months to years** |
+> | Other signs | gap looks even | **⚠️ leaf-to-frame gap visibly uneven; diagonal out** |
+> | Fix | ream the strike hole | **the frame itself — a warranty claim, not a DIY job** |
+>
+> ⚠️ **Novakey independently opens its own video with the same scenario — a door that begins jamming about six months after a finished renovation, with the installers unable to help.** **Two manufacturers, same failure pattern.**
+>
+> ⚠️ **Бастион attaches a 10-year structural warranty pitch to this; the warranty is promotional, the mechanism is not.** **The practical consequence is that structural warranty length is worth checking against the settlement window he names — a 1-year warranty does not cover a 1-to-10-year mechanism.**
+>
+> [source: [[_Sources/YT_nPSB41PtdMA_bastion_ten_criteria_how_to_check_a_door|YT_nPSB41PtdMA]]]
+
 ## Manufacturer Pricing Tiers
 
-Novakey says: **One manufacturer's own 6-tier product-catalog walkthrough** (the highest-promotional-density source in this batch), RUB, 2026: Optima 65,000–90,000 RUB (45 dB soundproofing); Master 77,000–120,000 RUB (55 dB); Comfort Pro 116,000–200,000 RUB (58 dB); Professional 148,000–280,000 RUB (65 dB, Italian locks); Smart (electronic lock, any tier) 85,000–380,000 RUB; Termo (thermal-break) from 94,000 RUB. This manufacturer's own stated prices — brand-specific, not a market-wide benchmark.
+Novakey says: **One manufacturer's own 6-tier product-catalog walkthrough** (the highest-promotional-density source in this batch), RUB, **2026-03-03** (⚠️ date established by running `yt-dlp` on 2026-09-14 per rule 2; the source note had recorded it as "not independently confirmed"): Optima 65,000–90,000 RUB (45 dB soundproofing); Master 77,000–120,000 RUB (55 dB); Comfort Pro 116,000–200,000 RUB (58 dB); Professional 148,000–280,000 RUB (65 dB, Italian locks); Smart (electronic lock, any tier) 85,000–380,000 RUB; Termo (thermal-break) from 94,000 RUB. This manufacturer's own stated prices — brand-specific, not a market-wide benchmark.
 
 ## Security-Spec Claims — Two Self-Interested Sources, Not Resolved Here
 
@@ -197,4 +221,67 @@ Novakey says: **One manufacturer's own 6-tier product-catalog walkthrough** (the
 
 **Why this isn't presented as a resolved comparison**: both are self-interested claims — one retailer favors selling cheaper stock, the other favors selling expensive tiers. The burglary statistic specifically is a secondhand press citation, not independently verified. Neither framing should be read as neutral market fact.
 
-**Your priority**: *— not yet decided.* If deciding, note this isn't really a "which expert is right" question the way the Bathroom guide's disagreements are — it's a "neither source's incentive is aligned with giving you a neutral answer" situation. Worth getting a genuinely independent security assessment (a locksmith or insurer's minimum-spec guidance) rather than trusting either retailer's framing directly.
+### ⚠️⚠️ REVISITED 2026-09-14 — four more sources, and the question has changed shape
+
+**The block above asked for an independent security assessment. That is still the right ask, but three things now narrow it substantially.**
+
+#### ⚠️⚠️ 1. One of the two retailers contradicts himself, and the change follows his stock
+
+**Gusev, whose "metal thickness is oversold" claim forms the budget side of the table above, argued the opposite thirteen months earlier:**
+
+| | **2024-10-22** | **2025-11-28** (the video already in this vault) |
+| :--- | :--- | :--- |
+| Is thickness a top criterion? | **Named FIRST among reliability factors** | **"oversold by marketing"** |
+| Minimum steel | ***«металл должен быть ну хотя бы полтора миллиметра»*** | **1.2 mm is adequate** |
+| Skeptical of whom | **sellers who claim 2–3 mm but ship 1.5–1.7** | **buyers who want 2–3 mm** |
+
+> **→ He offers no reason for the reversal, does not acknowledge it, and the later video is explicitly a pitch for his own cheaper stock.** ⚠️ **The contradiction is certain; the motive is the likely explanation, not a proven one — people do revise views, and thirteen months is time enough.**
+>
+> ⚠️⚠️ **This vault had his date wrong, which is why the ordering was invisible until now.** The earlier note took the year from the title («в 2026 году» — forward-looking marketing copy); **the real upload date is 2025-11-28, established by actually running `yt-dlp` on 2026-09-14 per standing rule 2.** **Novakey's tier ladder, recorded as "not independently confirmed", is likewise now fixed at 2026-03-03.**
+
+#### ⚠️⚠️ 2. The recommended minimum steel thickness tracks what the source sells
+
+| Source | Minimum | Date | Sells |
+| :--- | :--- | :--- | :--- |
+| Gusev | **1.2 mm** | 2025-11-28 | cheapest of the four |
+| Gusev | **1.5 mm** | 2024-10-22 | *same seller, earlier* |
+| Novakey | **2 mm** | 2026-01-04 | full ladder incl. premium |
+| Бастион-С | **3 mm** | 2024-03-10 | premium |
+
+> **→ Monotonic across four data points. It does not tell you which figure is right — but it does mean no vendor's stated minimum can stand as the market's answer, and that is the honest position for this page.**
+
+#### ⚠️⚠️ 3. A physical definition of class 4, which is what the "independent benchmark" ask was really for
+
+> ***«Четвёртый класс взломостойкости — это два часа болгарки. Ну какая консервная банка выдержит два часа болгарки?»*** — Бастион-С
+
+> **→ ⚠️⚠️ This converts an unfalsifiable label into a testable claim.** **If class 4 means two hours of angle grinder, a 1.2 mm leaf carrying a class-4 certificate is making a claim that can be rejected on its face — without trusting anybody's incentives.** **The question stops being "which retailer do I believe" and becomes "does this door plausibly do what its certificate says".**
+>
+> **A retrospective version of the same test:** he reports buyers who lost their keys and had a locksmith open their "burglar-resistant" door in 20 seconds — *«вас обманули, продали не взломостойкую»*.
+>
+> ⚠️ **Still a vendor's number, uncorroborated against the standard text.** **But the outstanding task is now specific — read GOST 31173 or the Belarusian equivalent for the class-4 attack time — rather than the open-ended "commission an assessment" this page previously called for.**
+
+#### ⚠️ 4. And they may not actually disagree about the risk
+
+**Бастион, who sells the expensive doors, accepts the budget retailer's premise rather than disputing it:**
+
+> ***«Мы живём не в девяносто третьем году… сейчас есть система "умный город", то есть это всё уменьшилось, но тем не менее она есть. Вот вопрос: маленькая вероятность — насколько цена этой вероятности для вас дорога?»***
+
+> **→ ⚠️⚠️ Both sides accept that burglary risk has fallen and is small. They differ on what a small probability of a severe outcome is worth — which is the owner's judgement, not a factual dispute.** **That is a more tractable question than the one this page has been carrying.**
+
+**Your priority**: *— still not decided, but the decision is now smaller.* **The falsifiable parts (class-4 attack time; the >40 kg/m³ filling density; whether a quoted lock meets 250,000+ cycles) can be checked against documents. The remainder is a risk-appetite call that no source can make for you.** **Construction detail: [[13_Surfaces_and_Finishes/analysis/Entrance_Door_Construction_Spec|Entrance Door Construction & Spec Evaluation]].**
+
+[sources: [[_Sources/YT_YIJ332ibiyM_gusev_entrance_door_four_criteria|YT_YIJ332ibiyM]], [[_Sources/YT_nPSB41PtdMA_bastion_ten_criteria_how_to_check_a_door|YT_nPSB41PtdMA]], [[_Sources/YT_6r8IVBsXjnE_novakey_six_door_selection_mistakes|YT_6r8IVBsXjnE]], [[_Sources/YT_VKrvugwjnVI_bastion_do_not_install_such_a_door|YT_VKrvugwjnVI]]]
+
+## ⚠️⚠️ Ordering Lead Time — the Constraint That Decides Which Door You Actually Get (Бастион-С, added 2026-09-14)
+
+> **The failure: the tilers reach the threshold and announce they need the entrance door. The owner goes shopping and finds a proper door takes *«недель от трёх, а то и больше»*, but he needs one in three days — so he takes whatever is in stock, *«штампованные вещи стандартных размеров»*, while being told it is burglar-resistant and quiet.**
+
+> **→ ⚠️⚠️ A SEQUENCING CONSTRAINT, not a shopping tip — and it moots every spec argument on the companion page. A door ordered three days before it is needed is chosen from whatever sits on a warehouse shelf in a standard size.**
+>
+> **→ FOR THIS PROJECT'S SCHEDULE: order the entrance door roughly THREE TO FOUR WEEKS before floor and threshold work reaches it** — much earlier than instinct suggests, because the door is among the last items installed.
+>
+> ⚠️ **Self-interested (a custom manufacturer benefits from you not buying off the shelf) and the figure is his own production's. But the trap's structure is the transferable part, and the number is checkable by asking two suppliers for lead times.**
+
+**⚠️ A related split-responsibility warning**: buying the door but using your own fitter means a later fault becomes a dispute — the fitter blames the door, the seller blames the fitting, and it lands on the owner; he says it sometimes ends in buying a second door. ⚠️⚠️ **Directly self-interested, since he sells installation — and it should be weighed against this page's own Sidorik material, which documents a competent independent installation in detail. The two are not in conflict: Sidorik shows independent fitting CAN be done well; this says that when it goes wrong, nobody is obliged to fix it.**
+
+[source: [[_Sources/YT_VKrvugwjnVI_bastion_do_not_install_such_a_door|YT_VKrvugwjnVI]]]

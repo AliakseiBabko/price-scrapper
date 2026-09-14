@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=YIJ332ibiyM",
+  "video_id": "YIJ332ibiyM",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T14:25:50.303491+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "b7b0dd05a4d5ae63eaf8ab962ddd4db86e712981434a2f1c142172178307c294",
+  "attempts_before_success": [],
+  "upload_date": "2024-10-22",
+  "upload_date_source": "yt-dlp"
+}

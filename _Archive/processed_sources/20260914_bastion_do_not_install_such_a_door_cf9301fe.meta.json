@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=VKrvugwjnVI",
+  "video_id": "VKrvugwjnVI",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T14:30:29.785151+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "cf9301fe9776ccedce3344fc56820312582607d70db6255dbeca5f0a72ad6d2c",
+  "attempts_before_success": [],
+  "upload_date": "2026-04-24",
+  "upload_date_source": "yt-dlp"
+}

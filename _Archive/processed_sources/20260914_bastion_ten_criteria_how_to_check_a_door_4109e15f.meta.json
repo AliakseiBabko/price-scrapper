@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=nPSB41PtdMA",
+  "video_id": "nPSB41PtdMA",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T14:27:23.554574+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4109e15f8720ccc210af397189f513309e8ed62a6fded540b246a704fa99c174",
+  "attempts_before_success": [],
+  "upload_date": "2024-03-10",
+  "upload_date_source": "yt-dlp"
+}
