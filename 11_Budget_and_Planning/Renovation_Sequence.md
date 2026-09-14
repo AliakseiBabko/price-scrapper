@@ -222,3 +222,71 @@ The long on-site checklists (secondary-apartment rough-stage technique, the new-
 > **⚠️⚠️ That is a direct description of what this project's album is FOR — external validation of the deliverable's purpose, from someone who receives such plans for a living.**
 
 **His summary, which matches this vault**: any renovation without a technical project is doomed to a long build and overpaying; furniture ordered without the flat's real dimensions is money burnt; engineering done by eye is renovation by guesswork; and planning beats a target move-in date.
+
+
+## ⚠️⚠️ A Complete ППР, and It Is a DEPENDENCY LOOKUP Rather Than a List (Пальмира-Дом, added 2026-09-14)
+
+**A St Petersburg company publishing its own план производства работ in full — refined across dozens of flats and handed to a coordinator when the author moved up. 574k views, and the lowest promotional density of any source on this page.**
+
+**⚠️⚠️ It lives in their technical project AS ITS CONTENTS PAGE**, which independently corroborates [[00_Master/Planning_Project_Deliverable_Set|Шемчук]]: the album's sheet order IS the construction sequence. **Two unrelated practices, same artefact, same place in the document.**
+
+> **⚠️⚠️ AND THE USE INSTRUCTION IS THE TRANSFERABLE PART:** **to do a stage, find it in the contents, then check every step ABOVE it. If those are complete, start; if not, do them first — themselves in order.** **It is a dependency graph flattened into a list, not a reading order.**
+
+**⚠️ The three criteria he built it on, which explain every choice below:** protecting completed work; respecting the technology's cure and dry times; and minimising how often a trade must return. **⚠️ Stated assumption: SPECIALIST trades, each doing only its own work.**
+
+### ⚠️⚠️ The two placements that are not obvious
+
+| Stage | Where it goes, and why |
+| :--- | :--- |
+| **Balcony façade glazing / insulation** | **⚠️⚠️ EARLY, if renovating in cold weather — because plastering and screed need +5 °C and above.** At minimum a double-chamber unit or a second contour |
+| **The flat's WINDOWS** | **⚠️⚠️ LATE, after plastering — so each window sets parallel to a levelled wall, giving reveals of even width, and so new windows are not damaged during plastering** |
+
+> **The reasoning for splitting them is the clearest in the source: fit the windows early and the reveals come out uneven after levelling; insulate the façade late and the plaster/screed cycle breaks on temperature, so trades must return.** **In warm weather both can go together — but a second contour on the balcony still precedes the screed that will abut it.**
+
+### ⚠️⚠️ Plaster before electrics — a SECOND independent arrival
+
+> **He argues explicitly against the common order (cable → plaster → back-boxes). His practice is PLASTER FIRST: wires obstruct the plasterers, electricians otherwise return after levelling to set boxes, and *«электрику проще штробить мягкую штукатурку и сразу ставить подрозетники»*.**
+
+> **→ ⚠️⚠️ This page already carries a practitioner sequence running plaster → waterproofing → UFH → re-verify geometry → screed → *only then* rough electrical, argued from geometry and the zero mark. Same order, different reason — that one is about measurement integrity, this one about labour. Two independent arrivals.**
+>
+> - **⚠️ Electricians attend TWICE**: cable and back-boxes now, sockets and luminaires at finish. **Cable in the FLOOR goes in before the screed.**
+> - **⚠️ For points in plasterboard walls, the plasterboard FRAME is built first**, so the electrician knows where to run cable and conduit does not obstruct the track profile.
+> - **⚠️⚠️ *«Правило хорошего тона»*: each trade makes good its own chases** — the more so with separate crews — **and they must be dry before the tiler arrives.**
+> - **⚠️ Agree any METER replacement before electrical work starts.** **⚠️ At the end of the stage, confirm temporary sockets exist and cover the panel against dust** — corroborating the temporary-socket practice on [[12_Engineering_and_Systems/analysis/Rough_Electrical_Sequencing|Rough Electrical Sequencing]].
+
+### ⚠️⚠️ Three coordination failures this plan is built to avoid
+
+1. **⚠️⚠️ PLASTERING CHANGES THE WALL-TO-RADIATOR GAP**, which must be **3–5 cm** for warm-air circulation — *«часто мы переделываем выводы под радиатор»*. **The plaster layer eats the gap and the pipe stub-outs then have to move. A rework nobody budgets for.**
+2. **⚠️⚠️ Setting out a plasterboard box off UNLEVELLED walls** — the box width changes once plaster adds its layer, so set-out must come off FINISHED walls. **Same finding as [[07_Bathroom/analysis/Small_Bathroom_Constraints|"model to finished faces"]], arriving from the site rather than the model.**
+3. **⚠️ Renovating room by room** — dirt in clean rooms, electrical problems, mismatched floor levels.
+
+### ⚠️ The self-levelling pour goes BEFORE filling, and the mechanism is the argument
+
+> **Pour the finishing leveller before skim-coating. Reversed it is not a disaster, but there is less dust now — and if you skim first, mortar splashed onto finished walls must be sanded off, which is awkward because gypsum filler is SOFTER than the cement that landed on it, so you sand pits and grooves into the wall.**
+
+- **⚠️ The leveller also COMPENSATES the differing thickness of future coverings**, so the floor finishes at one level. **⚠️ Prime twice, diluted; pour once a film has formed that stops the mix losing water. ⚠️ Damper tape on a floating screed. ⚠️ Water proportion strongly affects the leveller.**
+- **Screed: ⚠️ minimum 4 cm; walkable at 12 h, better 24; full drying ≈ 27–28 days; dry slowly.** **⚠️⚠️ The flat's floor should finish at the COMMON CORRIDOR's level**, allowing for finishes.
+- **⚠️⚠️ A concrete planning detail: in cold weather radiators come off and go back TWICE — before plastering, and before filling and wallpapering. In warm weather, once.**
+- **⚠️ If the plastering was good, ONE coat of filler suffices. With thin wallpaper leave no sanded-through scuffs — they show. No filler where tile will go.**
+
+### ⚠️⚠️ The finish order, and why it is not the obvious one
+
+> **Wallpaper → stretch ceilings → laminate.** Some lay laminate first, **but a stepladder or a dropped tool during ceiling tensioning then damages it.** **⚠️ Exception: a covering needing paint or lacquer goes first, is covered with hardboard, then wallpaper, then ceilings.**
+
+- **⚠️⚠️ TILE IS FIRST AMONG FINISHES because it is still dusty.** **⚠️⚠️ And check that tile + adhesive matches the abutting covering's thickness (laminate + underlay): the main compensation happened at the levelling pour, but adhesive shifts it materially.** **→ FOURTH arrival on this vault's floor-transition problem.**
+- **⚠️⚠️ T-THRESHOLD BASES ARE GLUED DURING TILING**, set from the CENTRE OF THE DOOR LEAF — for standard doors, 20 mm from the wall plane toward the side the door opens. **Decide then or lose the option.**
+- **Paint and wallpaper are one stage, one crew — always PAINT FIRST.** **⚠️ Paintable paper: paint ceilings and boxes, hang, then paint. The paper-to-ceiling junction can be siliconed, which also reinforces the edge.**
+- **⚠️ Radiators go back once wallpaper is up. Then stretch ceilings, so the bead presses the paper flat.** **⚠️ Stretch ceilings drop ~40–50 mm from the lowest point the bead meets.**
+- **⚠️⚠️ SANITARYWARE BEFORE INTERIOR DOORS** — the extra width without doors lets something bulky into the bathroom without risking new doors.
+- **⚠️ Splashback after the kitchen; cut where dust will not reach clean surfaces; finish visible tile edges with an END PROFILE matched to the tile thickness. ⚠️ Skirting last, after doors, architraves and kitchen.**
+
+### ⚠️⚠️ Duration, and what actually limits parallelisation
+
+- **⚠️⚠️ From 1.5 months upward. He estimates a strictly SEQUENTIAL run of his own plan at ~4 months.**
+- **⚠️ Stages he runs in parallel**: block walls + door openings + radiator removal; first electrical + plumbing; ventilation; balcony insulation; plasterboard + soundproofing; reveals and windowsills; and near the finish, second plumbing + splashback + kitchen after the stretch ceilings.
+- **⚠️⚠️ TWO CONSTRAINTS GOVERN HOW MUCH CAN OVERLAP: (1) FLOOR AREA — how many trades can work without obstructing each other; (2) THE BRIEF — what is done and what remains.** **→ That converts "how long will it take" from a quoted number into a function of area and scope.** See [[11_Budget_and_Planning/analysis/Project_Duration_and_Scheduling|Project Duration & Scheduling]].
+
+> [!WARNING]
+> **⚠️⚠️ RUSSIAN REGULATORY CONTENT — flagged in place and deliberately NOT routed to `16_Legal_and_Regulations/`, which is Belarus-only.** **Replanning approval takes on average 2–18 months in St Petersburg depending on district and heritage status, with advice to consult at least THREE approval companies against a preliminary project; Housing Code Article 29 is cited by number for the consequences of unapproved work; approval-to-acceptance allows ONE YEAR to realise the project; and a wet room over living space or a radiator on a balcony is not permitted.** **⚠️ The balcony-radiator prohibition is now the FIFTH independent arrival in this vault — all five Russian, which raises confidence about that market and says nothing about Belarus.**
+
+[source: [[_Sources/YT_Y1auAmyqKo0_palmiradom_ppr_works_sequence|YT_Y1auAmyqKo0]]]
