@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=mNRiCwPNBNA",
+  "video_id": "mNRiCwPNBNA",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T11:38:20.841288+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "206896bdb411f38ca5493f945c205acab4582274d8b8c8fab2a1167c1464b97d",
+  "attempts_before_success": [],
+  "upload_date": "2021-12-21",
+  "upload_date_source": "yt-dlp"
+}

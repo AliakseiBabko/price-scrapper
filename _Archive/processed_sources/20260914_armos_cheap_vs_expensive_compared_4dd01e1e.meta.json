@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=Lgi46kpCQ3A",
+  "video_id": "Lgi46kpCQ3A",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T11:43:01.048234+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "4dd01e1ee71150c07065acf1973aabdc09752a59b41a825b0161b16ab173eda4",
+  "attempts_before_success": [],
+  "upload_date": "2022-02-23",
+  "upload_date_source": "yt-dlp"
+}

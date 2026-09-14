@@ -1431,3 +1431,13 @@ Episode 1 tours the **Ostendorf** factory with an unsupported superlative attach
 - **⚠️⚠️ An acceptance-inspection checklist, which this vault did not have.** **An unbanded ЛДСП edge is a HEALTH item — E1 is stated for the edge-banded condition**; on-site cut-outs are the largest source of them; **a socket on a module joint cannot be cut cleanly in either carcass**; uneven gaps trace to **carcass diagonals**, not only to the room.
 - **⚠️ A “manual” subtitle track can be machine-generated and merely uploader-accepted** — the tell is errors on proper nouns. Fourth distinct form of the caption-language trap.
 - **No prices transferred from any of the five sources.** **Nothing routed to `16_Legal_and_Regulations/`.**
+
+## 2026-09-14 — ARMOS Tier 1: the bedroom domain, which the vault did not have
+
+- **⚠️⚠️ Ten videos into an EMPTY domain.** `независимые пружины`, `боннель`, `топпер`, `латекс`, `memory foam` were at **zero files**. Three new pages under `14_Furniture/analysis/`.
+- **⚠️⚠️ Firmness labels are not comparable between manufacturers** — no standard exists. **The antidote is procedural and falls out of two videos that never mention each other: test the mattress ten minutes in your own sleeping position, and test the pillow on a bed of YOUR bed's firmness.**
+- **⚠️⚠️ Do not buy on spring count** — every spring is discrete, and a higher count is bought with thinner wire.
+- **⚠️⚠️ Lamella spacing 7–8 cm maximum, and the victim of getting it wrong is the MATTRESS**, not the base.
+- **⚠️⚠️ A disagreement now recorded rather than smoothed**: Шеврина's ≤40 cm rest-furniture rule is compositional; ARMOS's knee-height rule is ergonomic; Кузина observes the market norm IS ≤40 cm. **Market and design agree, and both sit below the ergonomic optimum.**
+- **⚠️⚠️ `single-account` and no cross-check possible** — unlike every recent round, there is no existing vault coverage to check any of this against. **An independent source is needed before purchase.**
+- **No price transferred** (RUB Russia 2022–2023). **Nothing routed to `16_Legal_and_Regulations/`.**

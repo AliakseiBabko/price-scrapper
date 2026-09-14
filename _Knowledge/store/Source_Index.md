@@ -1029,3 +1029,8 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_npaV7FELR9k** — Сосновская фабрика (ru) — 4 countertops, 5 tests. `fact_yield: 21`. **⚠️⚠️ Only acrylic can be repaired.**
 - **YT_24DWOdqalc4** — Сосновская фабрика (ru) — метр погонный + contract, + `xJNxhohL2OM`. `fact_yield: 26`. **⚠️⚠️ The advertised metre prices an empty box.**
 - **YT_cnW4A8uFCDc** — Сосновская фабрика (ru) — 10 useless mechanisms, + `0Hao_4VdnNw`. `fact_yield: 23`. ⚠️ **He disclaims cooking experience.**
+
+- **YT_ReYeU-jEINY** — ARMOS (ru) — mattress selection, + `83N581Eu3BY`, `k2DeXNYNwYk`. `fact_yield: 32`. **⚠️⚠️ Firmness labels are not comparable between makers; the ten-minute lie-down.**
+- **YT_mNRiCwPNBNA** — ARMOS (ru) — spring vs springless, + `Wf8DKZiIJEQ`, `Lgi46kpCQ3A`. `fact_yield: 28`. **⚠️⚠️ A task question, not a budget lever; a higher price buys deformation headroom.**
+- **YT_I3Fyh_mWiyQ** — ARMOS / остеопат (ru) — pillows + toppers, + `LtVT9TxHdtM`. `fact_yield: 24`. ⚠️ **A sponsored clinical opinion; back = lower, side = higher.**
+- **YT_ZLPknlB-3XI** — ARMOS (ru) — beds and bases, + `O3UWHF8eCVs`. `fact_yield: 26`. **⚠️⚠️ Lamellae 7–8 cm max; a bed-height rule that contradicts the vault's 40 cm.**
