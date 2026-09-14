@@ -157,18 +157,28 @@ Offered by the same rescue contractor as the pattern that makes a client vulnera
 [source: [[_Sources/YT_Phk79uKT7rA_nsdsgn_70m2_family_two_children|YT_Phk79uKT7rA]]]
 
 
-## Related
+### ⚠️⚠️ The Bus-Factor Argument, and How Much of It Survives the Commercial Interest (CAPPUCCINO, 2020-09-14)
 
-- [[11_Budget_and_Planning/analysis/Contract_Practice|Contract Practice]] — the document itself: scope, payment, smeta traps, warranty
-- [[11_Budget_and_Planning/analysis/Site_Management_and_Dispute_Escalation|Site Management and Dispute Escalation]] — running the job, and what to do when it fails
-- [[11_Budget_and_Planning/analysis/Technical_Supervision|Technical Supervision]]
-- [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories and Delivery Models]]
+A kitchen fabricator's case against buying from an individual maker:
 
-Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Guide]].
+> «Заказ принимал Вася, замер делал Вася, распил делал Вася, и собирать приехал Вася. **А завтра Вася заболел.**» — «каждый должен быть специалистом в своём деле», and *«the price is made up not only of materials but of **трудозатраты узкоспециализированных специалистов**»*.
 
----
+> **⚠️⚠️ RECORDED AS A PERSPECTIVE, NOT AS A FINDING. It is a direct argument for buying from a firm rather than an individual, delivered by a firm, and «each should be a specialist in his own field» is precisely how a larger shop justifies its overhead.** **This vault already holds the opposite view from other sources — that specialist division is where coordination errors are born.**
 
-## ⚠️⚠️ A Direct Challenge to Self-Management — Recorded as a Perspective, Not Rebutted (Dmitry_HVAC, added 2026-09-14)
+**⚠️ The defensible core is narrower than his version, and it is worth keeping:**
+
+- **A one-person supplier is a single point of failure against a DATED delivery**, and a kitchen is ordered against a move-in date.
+- **→ The usable question is “who does each stage, and what happens if that person is unavailable?”** — **and it is worth asking of a firm too**, which is the part his framing quietly omits.
+
+**⚠️⚠️ And one supplier-capability tell that is checkable rather than rhetorical:** **does the kitchen arrive as pre-assembled modules or as a pile of boards?** A shop that performs a **предварительная сборка** finds its own defects in the workshop; one that assembles on site finds them in your flat, and «путаются детали, делаются лишние отверстия». **→ A question to ask BEFORE ordering, with a factual answer.**
+
+**⚠️⚠️ A selection criterion that follows from the failure timescales, and it generalises past furniture:** **every front material has a delayed failure mode that is invisible at handover** — film delaminates, paint sinks into шагрень, glass unsticks, solid wood cracks. **→ Acceptance inspection cannot catch any of them, so the WARRANTY TERM and the supplier's likelihood of still trading in three years are load-bearing, not formalities.** **The full delivery-day checklist is on [[03_Kitchen/analysis/Cabinet_Assembly_Technique|Cabinet & Countertop Assembly Technique]].**
+
+⚠️ **Ukraine, 2020. No prices in this source, so nothing to convert. `promotional_ratio: medium`.**
+
+[source: [[_Sources/YT_FaAvwXdjNlI_cappuccino_quality_vs_garage_furniture|YT_FaAvwXdjNlI]]]
+
+### ⚠️⚠️ A Direct Challenge to Self-Management — Recorded as a Perspective, Not Rebutted (Dmitry_HVAC, 2025)
 
 > *«Не засоряйте свою голову изучением того, **какую конкретно гидроизоляцию, как нужно наносить, сколько часов ждать, пока она засохнет, какой клей выбрать для плитки… какой конкретно провод нужно взять, какое напольное покрытие дольше будет служить**. Нет, не в этом ваша задача. **Вашей жизни не хватит, для того чтобы в этом разобраться.** Ваша основная задача — **найти для себя идеальных исполнителей**, которым вы доверите свои деньги.»*
 >
@@ -186,3 +196,13 @@ Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Gui
 **⚠️ And the defensible half is worth keeping regardless of the framing:** a self-manager's scarcest resource is attention, and depth bought in one trade is depth not bought in another. **This vault's own value filter already acts on that principle — deciding what NOT to read is most of the work.** **The disagreement is about where the line sits, not about whether there is one.**
 
 > ⚠️ **No verdict is routed.** **The claim that nobody gets a renovation right first time is an assertion from someone who has seen hundreds, and it is neither verifiable here nor evidence about this particular flat.**
+
+
+## Related
+
+- [[11_Budget_and_Planning/analysis/Contract_Practice|Contract Practice]] — the document itself: scope, payment, smeta traps, warranty
+- [[11_Budget_and_Planning/analysis/Site_Management_and_Dispute_Escalation|Site Management and Dispute Escalation]] — running the job, and what to do when it fails
+- [[11_Budget_and_Planning/analysis/Technical_Supervision|Technical Supervision]]
+- [[11_Budget_and_Planning/analysis/Cost_Categories_and_Delivery_Models|Cost Categories and Delivery Models]]
+
+Part of [[11_Budget_and_Planning/Budgeting_Guide|Renovation Budgeting Master Guide]].

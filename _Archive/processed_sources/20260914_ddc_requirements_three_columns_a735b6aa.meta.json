@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=EHCgAi2x8-Q",
+  "video_id": "EHCgAi2x8-Q",
+  "language": "en",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T07:50:49.211805+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a735b6aa73772aeeee19c9cf5b164cc4338ab5e101cee7ca1cea72f8224e146b",
+  "attempts_before_success": []
+}

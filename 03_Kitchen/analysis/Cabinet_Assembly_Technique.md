@@ -118,6 +118,68 @@ design → **shop/constructive drawings** → **CNC beam saw** → **CNC drillin
 
 [source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
 
+## ⚠️⚠️ Acceptance Inspection — Ten Tells on the Day the Kitchen Arrives (CAPPUCCINO, 2020-09-14)
+
+**This page and the rest of `03_Kitchen/` are largely about what to SPECIFY. This section is about how to tell, on the doorstep, whether what arrived is what was specified** — and most of it is checkable in minutes with no tools.
+
+> ⚠️ **The bias points one way and should be read that way: a fabricator listing the failure modes of cheaper competitors («гаражное производство») is describing the market in terms that make its own price look necessary.** The items kept below are the ones carrying a **specific, falsifiable mechanism**.
+
+### ⚠️⚠️ Missing edge banding is a HEALTH item, not a cosmetic one
+
+Check the **кромка** at the joints between modules, at the back panel, and where the worktop lands — the places a corner-cutter assumes nobody looks.
+
+> «Даже если вся кухня сделана из ДСП Egger, который имеет **класс эмиссии E1**, то нормы, при которых она безвредна для человека, указаны **в закромкованном состоянии. Открытый торец ДСП увеличивает показатели испарения в 10 раз.**»
+
+- **→ ⚠️⚠️ THE E1 CLASS IS STATED FOR THE EDGE-BANDED CONDITION.** An unbanded ЛДСП edge is claimed to raise formaldehyde emission **tenfold** — **which moves edge banding from a finish-quality item to an indoor-air item**, including on edges hidden behind a plinth or against a wall.
+- ⚠️ **The 10× figure is unsourced and comes from a fabricator, not a laboratory** — recorded as a claim with a named mechanism. **The direction is not in doubt and the check costs nothing.** ⚠️ **Jurisdiction flagged: a Ukrainian source citing a European board standard. Nothing routed to `16_Legal_and_Regulations/`.**
+
+### ⚠️⚠️ Cut-outs belong on the DRAWING — and this is the same defect with a cause
+
+Holes for the **riser, the hood duct, the gas meter and water stub-outs** «делаются по месту, при этом остаются открытые торцы ДСП».
+
+> «Ваша кухня продумывается **ещё на стадии проекта**, и чётко указывается, где будут вырезы. Эти вырезы должны быть обязательно закромкованы.»
+
+- **→ ⚠️⚠️ ON-SITE CUT-OUTS ARE THE LARGEST SINGLE SOURCE OF UNBANDED EDGES**, and they land exactly where services enter — behind the sink, beside the hob, at the riser. **The fix is upstream and free at the drawing stage.**
+- **⚠️⚠️ And the worst case he names hits this project's live work directly:** «самая смешная ситуация — когда **розетки попадают на стык модулей**» — a socket on a joint between two carcasses **cannot be cut cleanly in either one**. → **The kitchen module grid and the socket layout must be resolved TOGETHER, and both are open.** **This is the same deadline the CNC section above already establishes, arriving from the failure side.**
+
+### ⚠️⚠️ Uneven front gaps trace back to the SAW, not only to the room
+
+> «Я, конечно, не исключаю того, что это возможно из-за **кривизны помещения**, но **чаще всего это возникает из-за дешёвого распиловочного цеха, в котором не отрегулированы пилы**. Поэтому при сборке такого гарнитура **в тумбах не сходятся диагонали**, и сделать фасады с идеальными зазорами уже невозможно.»
+
+- **→ ⚠️⚠️ THE DIAGNOSTIC CHAIN IS THE VALUE: uncalibrated saw → carcass not square → diagonals that do not match → gaps that CANNOT be adjusted out, because the error is in the box, not in the hanging.**
+- **⚠️⚠️ AND IT PARTLY REVISES WHAT THIS VAULT RECORDS FROM THE SAME CHANNEL.** [[03_Kitchen/analysis/Layout_Sizing_and_Ergonomics|the tolerance material]] has this fabricator naming **out-of-square room geometry as the dominant error term**. **Here the same presenter says the room is the LESS frequent cause and a badly set-up cutting shop the MORE frequent one.** → **Both are real; they are different populations.** **The operational consequence: a bad gap is NOT automatically the flat's fault, and accepting that explanation is how a fabricator's own defect gets charged to your walls. Check the carcass diagonals.**
+- ⚠️ **A carcass out of square consumes the fitted-furniture tolerance — 3 mm per wall just to install — before installation even starts.**
+
+### ⚠️ Four more checks, each verifiable on delivery day
+
+| Check | What to look for | Why |
+| :--- | :--- | :--- |
+| **It arrives as ASSEMBLED MODULES** | «груда дощечек вместо кухни» is the warning sign. **Only tall units (пеналы) should be broken down, and only to fit the lift** | Quality production includes a **предварительная сборка** at the factory, where defects are found and fixed. On-site assembly means «путаются детали, делаются лишние отверстия» |
+| **Board thickness** | **16 mm delivered against a promised 18 mm.** Measure it | His stated failure mode is **a hinge tearing out of the board** in a room whose doors move every day. ⚠️ **Partly self-serving — 18 mm costs more and he sells it — but the SUBSTITUTION is the finding: it is quietly downgraded between quote and delivery** |
+| **Конфирмат on VISIBLE uprights** | Euro-screw holes plugged with caps «которые не всегда попадают в ДСП» | **The fastener is not the defect — its position is.** He concedes confirmat is «самым надёжным» and that large shops use it too. **On show faces the correct hardware is minifix / эксцентриковая стяжка. → A specification sentence, not just an inspection** |
+| **Genuine Blum carries a factory engraving** | «Обещали поставить фурнитуру Blum — поставили Китай» | **⚠️⚠️ Hardware is the easiest line to substitute, because it is buried inside a cabinet and nobody looks after installation day. Specifying Blum without checking the engraving is specifying nothing** — and this project has already been steered toward Blum mechanisms by name |
+
+### ⚠️⚠️ The dish-drainer cabinet must be ventilated — two causes, both must be fixed
+
+> «Если вам изготовили шкаф под сушку **без проветривания** … уже через пару месяцев ваша сушка проржавеет.» — and separately, «любая сушка, изготовленная из некачественной стали, будет ржаветь».
+
+- **→ THE CABINET needs ventilation AND the DRAINER needs decent stainless. Either alone still rusts.**
+- **⚠️ A failure with a stated timescale — «пара месяцев» — which is rare and useful: well inside any warranty, so it is worth raising at the project stage rather than discovering it.** He names **Vibo** and **Inoxa** as brands his shop has had no trouble with — **recorded as his experience, not as a recommendation; no price or year attached.**
+
+### ⚠️ Every front material has a DELAYED failure mode — which is this checklist's own limit
+
+| Front | What he says fails |
+| :--- | :--- |
+| **Плёночный МДФ** | «плёнка может отклеиться» |
+| **Крашеный МДФ** | «окраска просесть, появится шагрень» |
+| **Стекло** | «стекло может отклеиться от фасада» |
+| **Дерево** | «вообще беда — могут пойти трещинами» |
+
+- **→ ⚠️⚠️ NONE OF THESE IS VISIBLE AT HANDOVER. The ten checks above catch what is wrong on delivery day; this one catches nothing.** → **Which makes the WARRANTY TERM, and who is still trading in three years, a real selection criterion rather than a formality.**
+- **⚠️ Corroborates two findings this vault already holds from the same channel's MDF head-to-head**: **painted fronts fade, so a replacement cannot be colour-matched** (order a spare at manufacture), and **the moisture limit lives in the MDF substrate, not the coating.**
+
+[source: [[_Sources/YT_FaAvwXdjNlI_cappuccino_quality_vs_garage_furniture|YT_FaAvwXdjNlI]]]
+
 ---
 
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Sources for every claim on this page: [[03_Kitchen/analysis/Kitchen_Furniture_Source_Notes|Kitchen Furniture — Source Notes]]. Edit history: [[03_Kitchen/analysis/Kitchen_Furniture_Change_Log|Kitchen Furniture — Change Log]].
