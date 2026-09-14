@@ -63,7 +63,21 @@ The functional taxonomy with heights, the pairing convention (**one bigger and l
 
 > **⚠️⚠️ AND A DISAGREEMENT THIS PAGE NOW CONTAINS, WHICH IS NOT RESOLVED.** The 40 cm rest-furniture height rule above is **compositional**, from Шеврина. **ARMOS gives an ERGONOMIC rule instead: bed plus mattress should come to the bend of your knee, ± a palm's width — roughly 45–50 cm for most adults.** ⚠️ **And Кузина observes that the Russian market norm IS ≤40 cm, contrasted with American beds — so the market and the design rule agree with each other and both sit BELOW the ergonomic optimum.** **The cost is paid by older users and anyone who finds a low bed hard to rise from. Decide it deliberately; see [[14_Furniture/analysis/Bed_Frames_And_Bases|Bed Frames and Bases]] §1.**
 
-> ⚠️⚠️ **`single-account`: all of it is ONE Russian mattress manufacturer across ten videos, and the vault has no second voice to check it against.** **The claims worth trusting most are the ones that work against the seller.** **Find an independent source before buying.**
+> **TWO SOURCES WITH OPPOSING INCENTIVES (updated 2026-09-14).** Built from **ARMOS, a mattress MANUFACTURER**, then cross-checked against **Круглов/Ontario, who sells RENOVATION and not mattresses.** **⚠️⚠️ Where they agree — no firmness standard, neither block type is better, don't chase coir, a knee-based seat height — treat it as established. Where they disagree, the pages follow Круглов, because on each of those points the manufacturer's answer favours a sale.**
+>
+> ⚠️ **Neither source TESTS anything. Agreement between opposed incentives beats a single account and is still not evidence.**
+
+### ⚠️⚠️ Four things the independent source corrected
+
+- **The ten-minute shop test is NOT sufficient** — *«истинно понять вы сможете только ПЕРЕНОЧЕВАВ на нём, а лучше одну-три ночи»*. **Shortlist → ten minutes to eliminate → then buy on a RETURN POLICY and sleep on it.** ⚠️ **Foam and latex also change firmness with temperature, so a warm showroom lies.**
+- **Height is not a quality signal — DENSITY is.** A low dense filling lasts years; low density can sag in six months.
+- **The cover is a bad proxy for quality** — *«70% это маркетинг»*, and a premium-feeling cover is exactly what a bad maker uses to disguise terrible filling. **Its one real function is ventilation.**
+- **8 cm between lamellae is already too much**, not an upper limit — and the rule is really *small relative to the spring diameter* (~3 cm).
+
+### ⚠️⚠️ And two things only the independent source says
+
+- **Тест и выбор для ДВОИХ: a weight difference over ~60 kg has NO off-the-shelf answer** — either a factory-made split mattress under one cover, or two 80 cm mattresses joined by a topper. Thresholds at 25 / 25–30 / 30–60 kg.
+- **"Ортопедический" is marketing, and a mattress does not treat a back** — it is preventive, and a wrongly chosen one can make things worse. **With an existing back problem, see a doctor before choosing.** ⚠️ **Plus the care regime that reportedly adds 50%+ to service life: rotate, air it 20–30 min, vacuum it monthly, and don't work in bed.**
 
 Traceability record kept on its own page — [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]].
 

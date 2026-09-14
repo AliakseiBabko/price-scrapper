@@ -1034,3 +1034,5 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_mNRiCwPNBNA** — ARMOS (ru) — spring vs springless, + `Wf8DKZiIJEQ`, `Lgi46kpCQ3A`. `fact_yield: 28`. **⚠️⚠️ A task question, not a budget lever; a higher price buys deformation headroom.**
 - **YT_I3Fyh_mWiyQ** — ARMOS / остеопат (ru) — pillows + toppers, + `LtVT9TxHdtM`. `fact_yield: 24`. ⚠️ **A sponsored clinical opinion; back = lower, side = higher.**
 - **YT_ZLPknlB-3XI** — ARMOS (ru) — beds and bases, + `O3UWHF8eCVs`. `fact_yield: 26`. **⚠️⚠️ Lamellae 7–8 cm max; a bed-height rule that contradicts the vault's 40 cm.**
+
+- **YT_3ClgT0siGik** — Круглов/Ontario (ru) — the independent mattress cross-check. `fact_yield: 41`. **⚠️⚠️ Confirms the no-firmness-standard finding; corrects ARMOS on four points.**

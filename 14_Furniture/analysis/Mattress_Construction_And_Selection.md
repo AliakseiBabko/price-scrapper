@@ -3,9 +3,11 @@
 Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 > [!IMPORTANT]
-> **⚠️⚠️ `single-account`, and more starkly than any page in this vault.** Before 2026-09-14 a grep found **`независимые пружины`, `боннель` and `пружинный блок` in ZERO files, `матрас` in one.** **Every claim on this page comes from ONE Russian mattress manufacturer (ARMOS), across six videos, and there is no second voice here to check it against.**
+> **TWO SOURCES, WITH OPPOSING COMMERCIAL INTERESTS — which is the point.** Before 2026-09-14 a grep found **`независимые пружины`, `боннель` and `пружинный блок` in ZERO files.** The page was built from **ARMOS, a mattress MANUFACTURER**, and then cross-checked against **Круглов/Ontario, a designer who sells RENOVATION and not mattresses.**
 >
-> **→ What was kept is MECHANISMS and NUMBERS. Product verdicts were not.** ⚠️ **The items worth trusting most are the ones that work AGAINST the seller: don't buy on spring count, firmness labels mean nothing across makers, and go and lie on it for ten minutes.** **A second, independent source should be found before this drives a purchase.**
+> **→ ⚠️⚠️ WHERE THEY AGREE, treat it as established — see §4 and §6.** **⚠️⚠️ WHERE THEY DISAGREE, this page follows Круглов, because on every one of those four points the manufacturer's answer is the one that favours a sale.** **The disagreements are marked inline.**
+>
+> ⚠️ **Neither source TESTS anything.** Both are experienced practitioners asserting. **Agreement between opposed incentives is a real improvement on a single account, and it is still not evidence.**
 
 ## ⚠️⚠️ 1. Three parts, and the spring block cannot do the fine work
 
@@ -46,6 +48,10 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 > ***«Эта величина СУБЪЕКТИВНО ВОСПРИНИМАЕМАЯ. НЕТ НИКАКИХ ЕДИНЫХ НОРМ, ПРАВИЛ И СТАНДАРТОВ… матрас средней жёсткости одного производителя будет вам казаться мягким, а жёсткий другого — средней жёсткости.»***
 
 - **→ ⚠️⚠️ AN ONLINE COMPARISON ON "MEDIUM FIRM" IS COMPARING NOTHING.** A cross-vendor warning, issued by a vendor.
+- **⚠️⚠️ INDEPENDENTLY CONFIRMED (2026-09-14).** Круглов, who sells renovation rather than mattresses: *«Нету НИ В НАШЕЙ СТРАНЕ, НИ В МИРЕ чёткого понимания, а что есть жёсткий матрас, что есть мягкий»*. **Two unrelated sources with opposite incentives → treat as established.**
+- **⚠️⚠️ AND THE FIRMER-IS-BETTER MYTH IS FALSE, WITH ITS ORIGIN NAMED.** *«Чем жёстче, тем анатомичнее — это НЕПРАВДА. Если бы это было так, все бы спали на полу.»* **It dates from when only DEPENDENT-spring mattresses existed, where the real choice was sinking and overloading the lumbar spine versus sleeping firm — so firm won because the soft option was bad, not because firm was good.** ⚠️ **Read ARMOS's firmness heuristics above with that in mind: they are a starting point, not an argument for firm.**
+- **⚠️⚠️ AND A BETTER DEFINITION OF "CORRECT" THAN EITHER SOURCE'S LABELS:** *«Идеальный матрас — это когда ВЕС ВАШЕГО ТЕЛА РАСПРЕДЕЛЁН НА МАКСИМАЛЬНУЮ ПЛОЩАДЬ, при этом тело находится в анатомически правильном положении»*. **Too firm on your back leaves FOUR pressure points — heels and buttocks among them — vessels compress, the heels go numb and you toss. Too soft and the lumbar spine is overloaded. Roll onto your side and the shoulder zone sinks and takes the excess.** → **The test is whether support is continuous, not whether the label says medium.**
+- **⚠️⚠️ "ОРТОПЕДИЧЕСКИЙ" IS MARKETING.** *«То, что является ортопедическим для одного человека, будет небезопасным для другого. А это ОДИН И ТОТ ЖЕ МАТРАС.»* **And a mattress does not treat a back — it is preventive, and a wrongly chosen one can make things worse. → With an existing back problem, consult a doctor BEFORE choosing.**
 - Perceived firmness depends on the cover, its filling, the comfort layers, their characteristics, their combination **and even their order**, plus the spring block.
 - **⚠️ His heuristics, recorded as heuristics with no evidence offered**: back sleepers and middle-aged → medium; young and stomach sleepers → firmer; older people and side sleepers → soft or memory foam; heavy build → firm.
 
@@ -55,6 +61,9 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 > **Fail, and this is the operative half:** *«Если эти ощущения появились, значит, ДОМА ОНИ БУДУТ ТАКИМИ ЖЕ САМЫМИ.»*
 
 - **→ ⚠️⚠️ IT DEFEATS THE LABEL PROBLEM IN §4 BY TESTING THE OBJECT RATHER THAN ITS DESCRIPTION**, and it is the one recommendation that costs the seller floor time instead of earning margin.
+- **⚠️⚠️ BUT TEN MINUTES IS NOT ENOUGH, AND THE INDEPENDENT SOURCE SAYS SO PLAINLY (2026-09-14).** *«НЕ РАБОТАЕТ данная схема… истинно понять вы сможете только ПЕРЕНОЧЕВАВ на нᄅм. А лучше одну-три ночи.»* **The commonest failure he names is exactly the one ten minutes cannot catch: it feels comfortable to lie on, and then you sleep and the back ends up in a poor position and does not rest.** **The fail criterion is unambiguous — *«вам становится ХУЖЕ УТРОМ, чем вы ложились вечером»*.**
+- **⚠️⚠️ AND A SECOND REASON THE SHOP LIES, WHICH NEITHER TEST ACCOUNTS FOR: foam and latex CHANGE FIRMNESS WITH TEMPERATURE.** A mattress that felt soft in a warm showroom behaves differently in a cooler flat. **→ A shop test is a screening step, not a verdict.**
+- **→ ⚠️⚠️ THE PROTOCOL THAT ACTUALLY WORKS: shortlist on paper → ten minutes in the shop in your real sleeping position to eliminate → then BUY ON A RETURN POLICY and sleep on it one to three nights.** **Ask the maker's return conditions BEFORE buying — how long, and whether it may be unwrapped. The return policy IS the test protocol.** ⚠️ **And never buy a mattress online untested, nor choose one for somebody else.**
 - **⚠️ Pair it with the pillow test on [[14_Furniture/analysis/Pillows_And_Toppers|Pillows and Toppers]]: test a pillow on a bed of YOUR bed's firmness. → Test both, on each other, before buying either.**
 
 ## ⚠️⚠️ 6. Spring vs springless is a TASK question, and it is not a budget lever
@@ -93,6 +102,7 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 > **A taller spring block has a greater DEFORMATION RANGE, so the same absolute deformation that is critical for a short block is non-critical for a tall one, and under the same load the tall block deforms LESS.** *«Кратно увеличивается срок службы.»*
 
 - **→ ⚠️⚠️ THAT IS THE MOST TRANSFERABLE IDEA IN THE ROUND: height tracks price because height IS headroom.** **It is checkable reasoning rather than a claim about materials.**
+- **⚠️⚠️ BUT HEIGHT ALONE IS NOT A QUALITY SIGNAL — DENSITY IS. CORRECTED 2026-09-14.** ARMOS says mattress height tracks the amount of filling and therefore durability and load capacity. **Круглов contradicts this directly: *«высокий матрас может ассоциироваться с качеством и долговечностью, но ЭТО НЕ СВЯЗАННЫЕ ВЕЩИ. Намного более связано — что ПЛОТНОСТЬ наполнителя, а не его высота»*** — a low but dense filling lasts years, **low density can sag in six months.** **→ Prefer Круглов: he has no mattress to sell, and height is the easier thing for a maker to add.** ⚠️ **He says the same of the layer diagram: more and thicker layers in the pretty cutaway is not proportional to quality** — *«гораздо важнее понимать, за что отвечает каждый слой»*.
 - Premium also brought: an **elastic knit** cover over foam and volumetric material; **large- and small-cell high-density foams**; a more durable anti-abrasion layer that **also raises perceived firmness and permissible load**; and **the filling assembled as a separate package, structurally divided from the spring block**, which he says raises elasticity.
 - ⚠️ **A comparison, not a test.** Two of his own products, described on camera; no load cycling, no durability figures, no independent specimen.
 
@@ -103,3 +113,44 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 - [[06_Small_Bedroom/Small_Bedroom_Guide|Small Bedroom]] — where the width and clearance arithmetic bites.
 
 Part of [[14_Furniture/Seating_and_Tables|Seating & Tables]]. Sources: [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]]. Edit history: [[14_Furniture/analysis/Seating_and_Tables_Change_Log|Change Log]].
+
+## ⚠️⚠️ 9. Two people of different weights — thresholds, and where no product exists
+
+**Entirely absent from the manufacturer's account, and the best-structured thing in either source.**
+
+| Weight difference | What is possible |
+| :--- | :--- |
+| **up to 25 kg** | One mattress will very likely suit both |
+| **25–30 kg** | ⚠️ **A dependent block is ruled out.** Independent springs or springless only |
+| **30–60 kg** | **Needs MULTI-LEVEL SUPPORT** — sold as *«прогрессивная / градиентная шкала жёсткости»*: **the lighter partner is carried on the upper level and never reaches the lower; the heavier one compresses the upper easily and finds support below** |
+| **⚠️⚠️ over 60 kg** | ***«Таких вариантов НЕ СУЩЕСТВУЕТ.»*** No off-the-shelf mattress works — either one suffers, or the other, or both |
+
+**The two solutions for the >60 kg case:** ① **order from the factory with the two halves built to different specifications and sewn into ONE mattress under one cover**; or ② **two separate 80 cm mattresses on a 160 cm bed**, joined by a protector or a thin topper laid over both to make one plane — *«сильно простой вариант, но менее удобный»*.
+
+⚠️ **Note ② is the same object as a topper used for levelling — see [[14_Furniture/analysis/Pillows_And_Toppers|Pillows and Toppers]].**
+
+[source: [[_Sources/YT_3ClgT0siGik_kruglov_truth_about_mattresses|YT_3ClgT0siGik]]]
+
+## ⚠️⚠️ 10. Service life, what "dead" means, and the care that extends it
+
+**For conscientious makers only — he is explicit that with a dishonest maker none of this is predictable.**
+
+| Segment | Service life |
+| :--- | :--- |
+| **Economy** | **3–5 years**, often much less |
+| **Comfort** | **5–8 years** |
+| **Premium** | **10–15 years** |
+
+> **⚠️⚠️ AND THE REPLACEMENT TRIGGER IS NOT BREAKAGE: *«Матрас умирает не в момент, когда что-то сломалось, а когда он ПЕРЕСТАЁТ ВЫПОЛНЯТЬ СВОЮ ПОДДЕРЖИВАЮЩУЮ ФУНКЦИЮ»*** — it is still there, you still use it, and it no longer holds your back.
+
+**Care, claimed to add 50%+ to service life and almost all of it free:**
+
+- **⚠️⚠️ ROTATE IT.** One-sided → **head-to-foot**. Two-sided → **head-to-foot AND flipped.** **Every 2–4 weeks for the first three months, then every 3–6 months.**
+- **Use a наматрасник** — protects the cover from perspiration, reduces dust-mite likelihood, reduces top-layer wear.
+- **⚠️ AIR IT: do not make the bed for 20–30 minutes after waking.** *«Особенно важно для наполнителя из пены или латекса.»*
+- **⚠️⚠️ VACUUM IT once or twice a month.**
+- **Do not**: jump on it; **sit long on one edge or push a table against the bed**; **work in bed propped against the headboard** (he admits to this) — the load is point-loaded; **store it vertically for long.**
+
+⚠️ **Price segments, RUB 2026 and sourced from one maker — rule 2, structure only: economy is PU foam on a DEPENDENT block with no point support and 1–2 layers; comfort brings independent blocks, denser foams, 3–5 layers and material combinations, and is the most popular segment; premium brings multi-zone or double blocks, hybrids, natural latex and high-density foams.** **⚠️⚠️ And the sentence that outranks the bands: *«Неправильно подобранный матрас в ПРЕМИУМ-сегменте намного хуже, чем ПРАВИЛЬНО подобранный в ЭКОНОМЕ.»* → Fit dominates price, and that is the one-line summary of both mattress sources.**
+
+[source: [[_Sources/YT_3ClgT0siGik_kruglov_truth_about_mattresses|YT_3ClgT0siGik]]]
