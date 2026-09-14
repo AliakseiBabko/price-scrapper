@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=-I97gsh-aek",
+  "video_id": "-I97gsh-aek",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T09:26:17.031294+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "e1c470eb90b74301527eba2a13d99935fbb30dc0a02f5f1626a6aa26aac2fe4e",
+  "attempts_before_success": [],
+  "upload_date": "2022-06-14",
+  "upload_date_source": "yt-dlp"
+}

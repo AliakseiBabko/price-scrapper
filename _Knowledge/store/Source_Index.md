@@ -1021,3 +1021,11 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 - **YT_X06cIaroAeI** — DataDrivenConstruction (en) — OpenConstructionERP, + `ryJxOanNJVQ`, `QBaH8oBsPpM`. `fact_yield: 21`. **⚠️⚠️ The first source in this vault that actually PRICES — and its cost line carries no DATE.**
 - **YT_EHCgAi2x8-Q** — DataDrivenConstruction (en) — requirements verification. `fact_yield: 14`. **⚠️⚠️ Every requirement is three columns — and it challenges our `.ids` decision.**
 - **YT_FaAvwXdjNlI** — CAPPUCCINO (ru) — quality vs garage furniture. `fact_yield: 16`. **⚠️⚠️ An acceptance-inspection checklist; an unbanded ЛДСП edge is a health item.**
+
+- **YT_-I97gsh-aek** — Сосновская фабрика (ru) — carcass + edge crash tests, + `iKWdPE1fRY8`. `fact_yield: 24`. **⚠️⚠️ ЛДСП fails on water with EVERY edge technology; the laser edge swells more than EVA.**
+- **YT_Lfvs1XUz53s** — Сосновская фабрика (ru) — carcass construction. `fact_yield: 27`. **⚠️⚠️ The деталировка; carcass ventilation; and a self-contradiction against his own tests.**
+- **YT_A9Kef6CvNZ4** — Сосновская фабрика (ru) — a kitchen after 9 years. `fact_yield: 18`. **⚠️⚠️ The only longitudinal source in the vault; «крест на фасаде».**
+- **YT_p8cazVnSTc8** — Сосновская фабрика (ru) — 13 facades ranked. `fact_yield: 31`. **⚠️⚠️ Emboss depth 0.3 vs 1.3 mm; tea ruins a UV-lacquer front.**
+- **YT_npaV7FELR9k** — Сосновская фабрика (ru) — 4 countertops, 5 tests. `fact_yield: 21`. **⚠️⚠️ Only acrylic can be repaired.**
+- **YT_24DWOdqalc4** — Сосновская фабрика (ru) — метр погонный + contract, + `xJNxhohL2OM`. `fact_yield: 26`. **⚠️⚠️ The advertised metre prices an empty box.**
+- **YT_cnW4A8uFCDc** — Сосновская фабрика (ru) — 10 useless mechanisms, + `0Hao_4VdnNw`. `fact_yield: 23`. ⚠️ **He disclaims cooking experience.**

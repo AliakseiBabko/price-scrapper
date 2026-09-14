@@ -27,3 +27,10 @@ Moved off the guide page on 2026-09-02 per the layered convention in `00_Master/
 - **ВСЯ ПРАВДА О КУХНЯХ 2026 (The Whole Truth About Kitchens 2026)** (Konstantin Kruglov/Ontario, 2025-09-13, added 2026-08-28, Round 9 video 4) — [[_Sources/YT_FdJLbYEpViU_kruglov_whole_truth_kitchens_2026|extraction note]].
 - **TOP 10 Popular Kitchen Renovation Mistakes** (Konstantin Kruglov/Ontario, presenter Nikita Kuznetsov, 2023-11-08, added 2026-08-28, Round 9 video 5) — [[_Sources/YT_-1HBQkULK4Y_kruglov_top10_popular_kitchen_mistakes|extraction note]].
 - **Как отличить качественную мебель от гаражного производства (How to tell quality furniture from garage production)** (CAPPUCCINO / Юрьев Юрий, Ukraine, 2020-05-26, added 2026-09-14) — **the acceptance-inspection checklist: ten tells on delivery day** — [[_Sources/YT_FaAvwXdjNlI_cappuccino_quality_vs_garage_furniture|extraction note]].
+- **Сосновская фабрика мебели / Константин — Tier 1 round, 10 videos 2018–2026** (added 2026-09-14). Triage: [`sosnovskaya_channel_triage_20260914.md`](../../_Inbox/planning/sosnovskaya_channel_triage_20260914.md).
+  - **⚠️⚠️ Carcass materials and edge technology, with filmed destructive tests** — [[_Sources/YT_-I97gsh-aek_sosnovsk_carcass_material_and_edge_crash_tests|YT_-I97gsh-aek]] (+ `iKWdPE1fRY8`) and [[_Sources/YT_Lfvs1XUz53s_sosnovsk_carcass_construction_and_edge_technology|YT_Lfvs1XUz53s]].
+  - **⚠️⚠️ A kitchen walked after NINE YEARS, plus the post-installation checklist** — [[_Sources/YT_A9Kef6CvNZ4_sosnovsk_kitchen_after_nine_years|YT_A9Kef6CvNZ4]].
+  - **⚠️⚠️ Thirteen facade types ranked on a decade of returns** — [[_Sources/YT_p8cazVnSTc8_sosnovsk_facade_ranking_ten_years|YT_p8cazVnSTc8]].
+  - **⚠️⚠️ Four countertops, five destructive tests** — [[_Sources/YT_npaV7FELR9k_sosnovsk_countertop_crash_test_four_materials|YT_npaV7FELR9k]].
+  - **⚠️⚠️ Метр погонный and the supply contract** — [[_Sources/YT_24DWOdqalc4_sosnovsk_metr_pogonny_and_supply_contract|YT_24DWOdqalc4]] (+ `xJNxhohL2OM`).
+  - **⚠️ Ten mechanisms the maker says not to buy, plus layout** — [[_Sources/YT_cnW4A8uFCDc_sosnovsk_useless_kitchen_hardware|YT_cnW4A8uFCDc]] (+ `0Hao_4VdnNw`).

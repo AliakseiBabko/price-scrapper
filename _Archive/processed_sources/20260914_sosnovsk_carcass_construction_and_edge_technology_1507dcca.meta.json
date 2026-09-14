@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=Lfvs1XUz53s",
+  "video_id": "Lfvs1XUz53s",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T09:16:38.444584+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "1507dcca3d285a1d355aba09964824ec150fe02c9ed5fa5a66459fa6152ddfac",
+  "attempts_before_success": [],
+  "upload_date": "2026-07-16",
+  "upload_date_source": "yt-dlp"
+}

@@ -333,3 +333,14 @@ Konstantin Kruglov / Ontario, `single-account`, `unverified`. [source: [[_Source
 - **⚠️ A 45° module takes noticeably larger gaps than a straight run**, because the front needs more clearance to swing. **The mechanical reason a corner module looks looser** — read with the corner-sink and corner-kitchen critiques above.
 
 > ⚠️ **None of these is a norm.** They are one Ukrainian fabricator's shop standards, 2020. **The transferable question is not whether his 3 mm is correct, but what OUR fabricator uses and whether our model leaves room for it.**
+
+### ⚠️ Composition and Appliance Placement — Four Additive Points (Сосновская фабрика)
+
+**Most of this source restates zoning and configuration material already above. Four things are additive:**
+
+- **⚠️⚠️ THE HOB MUST HAVE WORKTOP ON BOTH SIDES, and must not sit beside a window or beside the fridge.** *«Плиту нельзя располагать рядом с окошком либо рядом с холодильником. Она должна быть обязательно ОКРУЖЕНА С ДВУХ СТОРОН рабочей поверхностью.»*
+- **⚠️ The working triangle has a stated optimum — a perimeter of 4–7 m.** Larger and *«вы устанете ходить»*; smaller is cramped. **⚠️⚠️ And he downgrades it honestly, which is what makes it usable:** *«принимайте эту схему как ПРАВИЛО, а не как ЗАКОН… в наших реалиях, где кухни площадью 5–6 м², это просто нереально сделать»* — **it names the size below which the rule stops applying.**
+- **⚠️ On a U-shaped kitchen, put the SINK at the window wall**, *«потому что большую часть времени мы проводим около мойки, и освещение тоже часть правильной эргономики»*.
+- **⚠️ The ordering sequence is fridge → sink → hob**, and **he applies it to his own installed kitchen on camera and finds it wrong** — *«у меня варочная панель расположена НЕГРАМОТНО»*. **A second on-camera self-correction from this presenter, on his own work.**
+
+[source: [[_Sources/YT_cnW4A8uFCDc_sosnovsk_useless_kitchen_hardware|YT_cnW4A8uFCDc]]]

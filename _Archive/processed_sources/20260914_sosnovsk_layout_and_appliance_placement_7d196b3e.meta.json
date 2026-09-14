@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=0Hao_4VdnNw",
+  "video_id": "0Hao_4VdnNw",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T09:32:29.468230+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "7d196b3e6ebcf60a247fbefc2b50de33a28cf8f68741bc09c1a3cd5f5a3a169d",
+  "attempts_before_success": [],
+  "upload_date": "2018-02-13",
+  "upload_date_source": "yt-dlp"
+}

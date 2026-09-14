@@ -129,3 +129,51 @@ The section above records a designated mess niche as a working solution. **This 
 > **→ ⚠️⚠️ THE RULE IS NOT ABOUT THE DOOR, IT IS ABOUT THE CEILING. Choosing a floor-to-ceiling kitchen silently removes HS from the option set, and makes limiters mandatory on HF.** ⚠️ **This vault covers ceiling-height kitchens from the design side at length; this is the hardware consequence.**
 
 **Also**: **HF is his pick for the dish-drainer cabinet** and takes asymmetric fronts; **HS needs no hinges at all**; all ship with soft-close, any can take Servo-Drive, **and only HK top can take a mechanical TIP-ON**. ⚠️ **The load limits are against the FRONT's weight** — *«правильно рассчитывайте вес фасада»* — which a stone or thick front will approach. ⚠️ A safety detail on HF Servo-Drive: closing it on fingers does not pinch, because the internal hinges unclip.
+
+## ⚠️⚠️ Ten Mechanisms the MAKER Says Not to Buy (Сосновская фабрика, ~2021)
+
+**1.3M views, and the premise is a vendor arguing against his own upsell** — *«третья часть этой фурнитуры либо очень редко используется, либо вообще не применяется»* ⚠️ (unsourced "statistics").
+
+> **⚠️⚠️ READ EVERY ITEM BELOW AGAINST HIS OWN DISCLOSURE, WHICH HE VOLUNTEERS AT THE END:** *«Я НИЧЕГО НЕ ГОТОВЛЮ на кухне — я смотрю, как клиенты пользуются. Поэтому вы больше знаете о кухнях… особенно домохозяйки, которые часто готовят.»* **→ This is a FABRICATOR'S view of what fails and gets returned, not a COOK'S view of what gets used. The construction and moisture items carry full weight; the convenience items are one non-cook's opinion and should be weighed against whoever will actually cook here.**
+
+### ⚠️⚠️ The two with measurements behind them
+
+**Metal pull-out baskets vs a drawer box**, measured on camera:
+
+| | Basket | Drawer box |
+| :--- | ---: | ---: |
+| Width × depth | ~500 × 460 mm | ~525 × 485 mm |
+| **Usable height** | **210 mm incl. railings** | **120 mm** |
+
+Small items fall through to the cabinet floor; everything rattles; the price is high.
+
+> **⚠️⚠️ AND THE INTERACTION THAT MATTERS MOST: WITH A GOLA PROFILE THE BASKET LOSES ITS FUNCTION.** On a standard-height gola kitchen *«ставишь обычную маленькую тарелку — всё гремит… оно воткнулось в профиль. По сути функционал этой корзины уже потерян»*.
+>
+> **→ THE THIRD CONSTRAINT THIS VAULT HAS RECORDED PROPAGATING OUT OF A GOLA CHOICE** — after *gola + dishwasher forces a worktop at ≥920 mm*, and *a J-handle cannot be milled into laminated MDF at all*. **The handle decision reaches the carcass, the worktop height, the front material AND the internal fit-out.**
+
+**Drawer organisers/dividers**: they consume volume, need constant readjustment, and **adjust in one plane only** — the other needs a stop screw undone. ⚠️ Each costs roughly what adding another drawer costs. **⚠️ The one he endorses without reservation: the cutlery tray** — *«лоток под столовые приборы. Остальное вам не надо»*.
+
+### ⚠️⚠️ Two that are specification sentences
+
+- **A BIN CUT INTO THE COUNTERTOP.** Hygiene (food prepared beside an opening into a bin), appearance, and **dirt, grease and water permanently entering the cut** — *«если у вас ПЛАСТИК, всё это место может РАЗБУХНУТЬ»*.
+  > ***«Врезано в столешницу должно быть только ДВА элемента: кухонная мойка и варочная панель.»*** **His alternative: a pull-out bin on a pedal or sensor.**
+- **⚠️⚠️ A SURFACE-MOUNTED CERAMIC SINK, and the real point is the TAP.** *«Смеситель монтируется прямо в столешницу, чего я КРАЙНЕ не рекомендую делать — монтируйте его только в САМУ МОЙКУ. В итоге получаем разбухшее ДСП, плесень и грибок.»* **→ WHERE THE TAP IS MOUNTED IS A MOISTURE DECISION, NOT A STYLING ONE.**
+
+### ⚠️ Six more, with the reason in each case
+
+| Item | Objection |
+| :--- | :--- |
+| **Railings on the backsplash** | Ruins a considered design and puts **holes in the splashback**. ⚠️ **His alternative is a real idea: make the worktop 200–300 mm DEEPER and put the rail system in that strip, closed by a functional backsplash** |
+| **Бутылочница 150–200 mm** | Cuts the lower tier vertically; **handle placement is awkward, and on a framed front there is nowhere to fix it**; cheap ones are crooked; **drips collect at the bottom and it is hard to dismantle and clean** |
+| **Pull-out tables** | A reliable one is expensive, **and the people who want one have a small kitchen and no budget for the good version**; the cheap version on drawer runners sags. **→ Rethink the layout — a proper bar or worktop, e.g. at the windowsill** |
+| **Hidden drawer, and the drawer under the oven** | The hidden drawer is design-only. **The under-oven drawer is so low *«нужно стоять на коленях»* and a baking tray usually will not fit.** ⚠️⚠️ **His conclusion: put the oven in a TALL UNIT** |
+| **⚠️⚠️ Baskets hung on the BACK of a front** | *«Проблема не в фурнитуре, а в РЫХЛОМ ЛДСП… фурнитура просто вываливается из ЛДСП»* — **which ties to [[03_Kitchen/analysis/Carcass_Construction_And_Edge_Technology\|his own crash test]], where ЛДСП scored 0/5 on fastener retention** |
+| **Drawers with no front, in an open lower tier** | *«На выставочном образце смотрится прикольно, но на практике превращается в СКЛАД ПЫЛИ»* |
+
+### ⚠️⚠️ And an eleventh, which generalises past hardware — the showroom-effect filter
+
+> ***«Освещение ящиков, внутри цоколя, ручки-профиля гола — это всё сделано ДЛЯ ШОУ-РУМОВ, чтобы сделать эффект… В быту всё это беспонтово. Самое главное освещение на вашей кухне — это освещение вашей РАБОЧЕЙ ПОВЕРХНОСТИ.»***
+
+> **→ ⚠️⚠️ A GENERAL FILTER, FROM SOMEONE WHO BUILDS SHOWROOMS: does this feature exist to be DEMONSTRATED, or to be USED?** ⚠️ **He notes in-drawer lighting typically burns out and is never replaced.** ⚠️ **Note he includes the gola profile in that list, which cuts against a good deal of what this vault records as desirable — recorded as his Perspective, not adopted.**
+
+[source: [[_Sources/YT_cnW4A8uFCDc_sosnovsk_useless_kitchen_hardware|YT_cnW4A8uFCDc]]]
