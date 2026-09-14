@@ -252,3 +252,42 @@ See [[17_Design_and_Ergonomics/analysis/Functional_Zoning_and_Furniture_Arrangem
 for the full cross-cutting partition-method breakdown (not specific to
 kitchen-living), including a real market price for interior sliding
 partitions.
+
+## Sliding Partitions and See-Through Shelving as Dividers (Ольга Кулекина, added 2026-09-14)
+
+**Her framing of the problem is sharper than this page's own opening, and worth adopting as the premise:**
+
+> ***«Пространство становится единым, а сценарии остаются разными. И если их не разделить, получается просто большая комната без логики.»***
+
+> **→ It names the FAILURE MODE rather than the technique. An unzoned open plan is not "open", it is incoherent.**
+
+### ⚠️⚠️ Sliding partitions — and the plan-level condition that makes them work
+
+**Two situations she says need real separation rather than visual marking:** active cooking, so noise and process stay out of the living zone; and **overnight guests needing an enclosed room.**
+
+**⚠️⚠️ THE CONDITION, and it is what makes this a finding rather than a suggestion:**
+
+> ***«Только при этом надо предусмотреть ещё отдельный вход на кухню — тогда раздвижная перегородка будет работать так, как надо.»***
+
+> **→ ⚠️⚠️ A SLIDING PARTITION ACROSS A KITCHEN-LIVING IS USELESS UNLESS THE KITCHEN HAS A SECOND DOOR.** Otherwise closing it either traps the cook inside or seals the kitchen off from the flat. **This is settled at LAYOUT stage, long before anyone is choosing a partition — exactly the kind of dependency discovered too late.** **Checkable against this project's own plans, and against the partition installation case already recorded at the foot of this page.**
+
+**Her spec expectations for current systems:** top track only, **no floor threshold**; smooth running with soft-close; visually light rather than the bulky constructions of the past.
+
+> ⚠️⚠️ **She also remarks partitions are sometimes *«просто необходимо для согласования»* — required to get a layout APPROVED. DELIBERATELY NOT CARRIED as a finding: she names no jurisdiction, and an unattributed permitting claim is precisely what standing rule 4 exists to prevent. Noted only so the approval angle is visible as a question for a Belarusian source to answer.**
+
+### ⚠️ Open shelving as a see-through divider — and the failure mode that is about USE, not spec
+
+A **стеллаж на просвет**, reachable from both sides: divides without blocking light or reducing apparent volume — *«вы по-прежнему видите помещение целиком, но зоны начинают считаться отдельно»* — and doubles as display storage.
+
+- **⚠️⚠️ The caveat is the finding: *«важно не перегружать стеллаж, ибо он не превратился в визуальный шум… чтобы он не стал стеной, чтобы на просвет вы видели другое помещение»*.**
+
+> **→ An open divider that gets full stops being an open divider and becomes a wall you paid extra for.** **Its zoning function depends on how you live with it rather than on how it is specified — which distinguishes it from every other technique on this page.** ⚠️ **She cites Milan exhibition practice, not a project of her own.**
+
+### Corroboration on the rest — recorded, not restated
+
+**Her other three techniques are already covered above** (furniture as divider — sofa back to the kitchen, island or peninsula, consoles and low cabinets; per-zone lighting; flooring zoning). **Two phrasings are better than what this page had:**
+
+- **⚠️ On lighting: *«редко работает в одиночку… чаще оно усиливает уже существующее зонирование, как в театре»*.** **→ Light REINFORCES a zoning that furniture and floor have already established; it does not create one. A useful check on any scheme that relies on lighting alone.** Her specifics match this page: bright directional light over work areas, soft diffuse light in the living zone **that must not fight the TV screen**, accent light over the dining table, **zones switchable separately and designed in at drawing stage.**
+- **⚠️ On flooring: natural parquet or engineered board is called impractical in an actively-used cooking zone — *«такие материалы могут прийти в негодность достаточно быстро»*** — against tile, керамогранит or кварцвинил. ⚠️ **Her aside that the living-zone covering can be chosen so as not to require underfloor heating is a useful negative constraint, but it is a passing remark with no reasoning attached and is not developed.**
+
+[source: [[_Sources/YT_cPG8FByown8_kulekina_kitchen_living_zoning|YT_cPG8FByown8]]]

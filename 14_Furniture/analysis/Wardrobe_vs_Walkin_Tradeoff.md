@@ -49,3 +49,58 @@ A furniture manufacturer's own position, stated across three of his videos and c
 **⚠️ His recommendation: prefer hinged facades wherever space allows** — and the space question is the only genuine argument for sliding, not cost or appearance.
 
 **Where this sits against this page's existing content**: the page already compares a walk-in against a simple wardrobe on space cost (~2.5× for the same capacity) and holds real cases where two wardrobes beat one walk-in. **⚠️ This adds the door-mechanism layer underneath that comparison — and reason 4 is specifically about households of two, which none of the existing entries address.** **See also [[01_Entrance/analysis/Storage|Entrance: Storage]] for the same source's entrance-specific wardrobe depths and the ~1,200 mm post-free span constraint.**
+
+## ⚠️⚠️ Five Conditions That PREDICT Which Way a Room Goes (Ольга Кулекина, added 2026-09-14)
+
+**This page has held the conclusion — two wardrobes beating one walk-in, a measured ~2.5× space cost for equal capacity — without holding the conditions that decide a given room in advance. A practising designer arguing against the fashionable option supplies exactly that.**
+
+### 1. ⚠️⚠️ The area threshold — and the mechanism the number is a proxy for
+
+> ***«Если под гардеробную вы можете выделить только 3–4 м² или меньше, то отдельно стоящий платяной шкаф будет лучше.»***
+
+- **A walk-in must be WALKED INTO, so part of its floor is circulation and holds nothing** — *«часть площади уйдёт на проход, и общая ёмкость хранения вещей уменьшится»*.
+- **⚠️ The partitions that create it consume flat area before any storage exists.**
+- **⚠️⚠️ And the counter-intuitive one: you can stand FURTHER BACK from a wardrobe** — *«расстояние до шкафа будет больше, чтобы посмотреть вещи»* — because the room it opens into supplies the viewing distance. **A walk-in has to supply its own, out of its own floor.**
+
+> **→ Corroborates this page's measured ~2.5× figure with an EXPLANATION rather than a second measurement — and the explanation is what transfers to a differently-shaped room.** **Her instruction before deciding: measure and draw the layout.**
+
+### 2. ⚠️⚠️ Geometry defeats the area test — the 80 cm aisle
+
+> ***«Даже при площади больше 4 м²… всё равно может быть неудобно, если это помещение узкое вытянутое. Для комфортного использования… перед местами хранения нужно оставить проход не менее 80 см. И то, в некоторых случаях даже лучше больше, чтобы подальше отойти и видеть всю одежду целиком.»***
+
+> **→ ⚠️⚠️ AREA IS NOT THE TEST; THE AISLE IN FRONT OF THE STORAGE IS.** A long narrow 5 m² walk-in can fail where a squarer 3.5 m² one succeeds. **80 cm minimum, more if you want to see a whole outfit at once — and that second clause is the same viewing-distance mechanism as §1.**
+>
+> ⚠️ **This vault's first stated walk-in aisle figure.** Compare U.DESIGN's **70 cm** minimum hallway passage on [[02_Hallway/analysis/Layout_and_Zoning|Hallway — Layout & Zoning]] — **different task, and the 10 cm gap is consistent with it: passing through versus standing still and choosing.**
+
+### 3. ⚠️ The cost comparison people get wrong — it spans two budgets
+
+> ***«Общая стоимость строительства гардеробной комнаты, включая её наполнение, часто оказывается выше, чем у шкафа аналогичного объёма.»***
+
+**The internal modules may well be cheap; the walk-in also needs *«перегородки, закладные, гипсокартон, различные материалы, электрика, вентиляция»* — construction, not furniture.**
+
+> **→ ⚠️⚠️ A walk-in's price sits PARTLY IN THE RENOVATION BUDGET and partly in the furniture budget, so comparing it against a wardrobe on the furniture line alone understates it.** Electrics and ventilation are the easiest to omit from a mental comparison.
+>
+> ⚠️ **She hedges honestly — *«многое зависит от выбранного производителя»*, and premium Italian or German wardrobes can invert it.** **Her instruction: pick the model and the storage-system maker FIRST, then cost it fully.** ⚠️ **No figures given, so nothing enters this vault under standing rule 2.**
+
+### 4. ⚠️⚠️ Dust and allergies — the argument that turns this into a VENTILATION question
+
+**Walk-ins are usually built OPEN inside, so you reach the clothes without opening further doors — *«что действительно целесообразно и удобно»*. But open shelving means clothes sit in room dust, especially anything stored a long time.**
+
+- **⚠️⚠️ Where there are allergies — hers, or the children's — the closed wardrobe is the better object**, because the doors keep clothes clean.
+- Mitigations in her order: garment covers; fitting the walk-in with fronts, partly or fully; and —
+- **⚠️⚠️ the real fix: приточно-вытяжная ventilation in the walk-in, which she says *«решит проблему пыли практически полностью»*, recommending it for the whole flat as an owner of such a system.**
+
+> **→ ⚠️⚠️ THE ITEM MOST LIKELY TO CHANGE THE DECISION, because it is the one nobody weighs in advance — and it ties a furniture choice to [[12_Engineering_and_Systems/HVAC_and_Ventilation|the ventilation design]], which is settled far earlier and far more expensively.** **If mechanical supply-and-extract is going in here anyway, condition 4 stops arguing against the walk-in.**
+>
+> ⚠️ **Her ventilation claim is experience plus advocacy, with no measurement offered.**
+
+### 5. ⚠️ Resale and mobility — the wardrobe is an asset, the walk-in is not
+
+**If the flat is temporary or a sale is likely: a freestanding wardrobe *«можно продать отдельно, даже если он дорогой, или забрать с собой в новое жильё»*. A walk-in is built in and goes with the flat.**
+
+- **⚠️ And the second-order point: a walk-in's internal configuration is usually built to ONE household's requirements and *«может не подойти новым жильцам»*** — so it may not add the value its cost implies.
+- She notes many systems are adjustable — moving shelves, adding rails — **but says in some cases they are not.**
+
+> ⚠️ **Her position, no resale figures and no market data behind it.**
+
+[source: [[_Sources/YT__uYgVG6qnHU_kulekina_wardrobe_vs_walkin|YT__uYgVG6qnHU]]]

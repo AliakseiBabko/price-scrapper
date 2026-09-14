@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=cPG8FByown8",
+  "video_id": "cPG8FByown8",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T13:47:23.779971+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "461ac9d2246810cc2853a4da0f5fffbab7a37dc900bdf7f184810b8605e1f76f",
+  "attempts_before_success": [],
+  "upload_date": "2026-05-03",
+  "upload_date_source": "yt-dlp"
+}

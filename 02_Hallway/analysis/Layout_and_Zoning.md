@@ -225,3 +225,74 @@ Cross-reference: the raised-wardrobe technique itself is on [[01_Entrance/analys
 - **⚠️ The reference she gives it is the useful shorthand: shadowless face lighting "как у профессиональных гримёров"** — the dressing-room standard, where you see yourself accurately. **Complements this page's existing furniture-and-lighting composition zoning by supplying a specific target for the mirror position's own light.**
 
 **Gaps in this source, worth stating because the format is short**: **no dimensions anywhere** — no hook-panel width, no accessory-shelf depth beyond "маленькая неглубокая," no mirror size, no sconce mounting height — and **no pricing**, so it cannot support the perforated-panel-versus-cabinet cost comparison its own flexibility argument invites.
+
+## ⚠️⚠️ The Hallway as a Sequence of Actions, Not a Place to Fit a Wardrobe (U.DESIGN / Ирина Устьянцева-Ранкова, added 2026-09-14)
+
+> ***«Как правило, проектируя прихожую, мы мыслим категорией, что лишь бы влез шкаф.»***
+
+**Her method is to follow what a person actually does on entering and give each step a place. The order is the finding — the wardrobe comes LAST, and four of the six needs are met by things too small to appear on a furniture plan.**
+
+1. **⚠️⚠️ FIRST MOVE: free your hands.** *«Первое движение — освободить руки.»* Keys, bag, hat, scarf, gloves → **a small shelf or a wall-hung opening box at the door, plus a hook for an umbrella.**
+2. **⚠️⚠️ Open hooks, not only the wardrobe** — a **wet coat should not go straight into a closed cabinet**, and guests are easier to put on a hook than to send into your wardrobe. **Her detail: hooks concealed BEHIND A PANEL** — instant to use, no visual clutter.
+3. **⚠️ A FULL-LENGTH mirror AT the door**, not metres down the hall, because it is used on the way out. *«Маленького зеркала в прихожей нам недостаточно.»* Wall-mounted, a mirrored wardrobe door, or **a mirrored panel on the entrance door itself.**
+4. **⚠️⚠️ An OPEN shoe rack, one or two steps in** — deliberately open, so wet shoes dry instead of being shut away damp.
+5. **Seating follows from it** — somewhere to sit and change shoes; **a fold-down bench in a tight hallway.**
+6. **Then, and only then, the closed wardrobe** — seasonal coats and shoes, hats, scarves, gloves, spare bags.
+
+> **→ ⚠️⚠️ Every item is individually obvious and this folder holds most of them. What is new is the ORDER: in a hallway where a wardrobe is the only thing that fits, this method says the wardrobe is the wrong thing to fit first.**
+
+### ⚠️⚠️ Drying shoes is a FIRST-FIX decision, not a furniture one
+
+- **⚠️⚠️ Underfloor heating in the hallway recommended specifically because shoes dry on it** — a functional justification this vault's UFH material did not carry.
+- **⚠️ Or a socket positioned for an electric shoe dryer** (the insert type).
+- **⚠️ She ties the need to households with children** — *«взрослые как-то поаккуратнее… а вот у детей может такое случаться»*.
+
+> **→ ⚠️⚠️ THE ITEM WITH THE EARLIEST DEADLINE HERE. Both answers — a UFH loop and a socket in the right place — are settled at first fix and unavailable afterwards, while the shoe rack they serve is bought last.** **Belongs with the hallway electrical and heating planning above, not with the furniture.**
+
+### ⚠️⚠️ Passage widths — stated as starting points, then explicitly relativised
+
+| Passage | Figure |
+| :--- | :--- |
+| Minimum / optimal passage | **70 cm** |
+| A corridor proper | **90–100 cm** |
+
+> ***«Но я бы сильно не привязывалась к этим цифрам… потому что будет зависеть ещё от длины вашего коридора.»***
+
+**Her reasoning: a narrow corridor is uncomfortable in proportion to its LENGTH.** A short one can be narrower without penalty — *«зато вы шкаф полноценный поставите»* — while a long narrow one should not be.
+
+> **→ ⚠️⚠️ This converts a fixed clearance into a TRADE, which is what a small hallway actually needs: explicit permission to buy wardrobe depth with corridor width when the corridor is short, and the reason it is safe.** ⚠️ **She gives no length threshold, so the trade is judgement, not arithmetic.**
+>
+> ⚠️ **Compare the 80 cm aisle in front of walk-in storage on [[14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff|Wardrobe vs. Walk-In]] — the 10 cm difference is consistent with the different task: passing through versus standing still and choosing.**
+
+### ⚠️ Wardrobe depth — the ladder down from 60 cm, and why the gap above must be filled
+
+- **Full depth 60 cm** if it fits. **⚠️ Otherwise ready-made wardrobes exist at 50, 45 and 40 cm**, and bespoke at any depth.
+- **⚠️⚠️ Full height to the ceiling, always** — seasonal things and anything *«жалко выкинуть»* go on the antresol. **And the stated failure mode: *«не оставляйте сверху 40–50 см пустого пространства»*, because if storage is short that gap WILL fill with boxes and read as mess.**
+
+> **→ The argument is not aesthetic: the gap gets used whether or not you designed it. Design it.** Ready-made wardrobes in many heights, and models with antresols, are the affordable route.
+
+### ⚠️⚠️ Hinged vs. sliding — a USE argument no datasheet reports
+
+**Sliding only for an ultra-narrow corridor** where you cannot step back half a pace to open a door. **Otherwise she prefers hinged**, on four grounds: it looks current and **does not date** (refresh it by changing handles alone); sliding fronts that suit current taste are **now more expensive**; it is cheaper to buy; and —
+
+> **⚠️⚠️ *«Раздвижные двери, как правило, всегда остаются чуть-чуть открытыми… неудобно каждый раз этот шкаф до конца закрывать. Всё равно какая-то секция будет приоткрыта, и всегда это будет ощущение бардака.»*** Stated from visiting friends' homes, not from theory.
+
+> **→ ⚠️⚠️ A sliding wardrobe fails at "looking tidy" through how people actually operate it.** **Corroborates the four-reasons-against-sliding entry on [[14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff|Wardrobe vs. Walk-In]] — from an entirely different direction: a fabricator's mechanism argument, and now a designer's observation of households.** ⚠️ **Anecdotal by her own framing.**
+
+### ⚠️ Mirrors as the narrow-hallway remedy — with both of her caveats
+
+- **A fully mirrored wardrobe front** where the wardrobe has narrowed the corridor, or **the opposite wall in mirror** if the wardrobe is ready-made. She states she has used it on client projects and that it works. **Mirror is named as an inexpensive material**, bespoke or in ready elements.
+- **⚠️ With pets or small children it will be permanently handprinted — decide in advance how it gets cleaned.**
+- **⚠️⚠️ And the caveat that cuts against the technique: she dislikes mirroring a LONG corridor, because it visually doubles the length.** **→ The remedy for a narrow hallway is a hazard in a long one — the same axis as the passage-width trade above.**
+
+### ⚠️⚠️ Lighting — and a trade collision that only a combined drawing catches
+
+- **Hallways usually have no daylight, so light must be designed rather than left to one fitting.** General light across the whole space **plus local light AT THE MIRROR, positioned to avoid shadows and distortion on the face.** ⚠️ **Corroborates the shadowless face lighting already recorded above from Татьяна Безверхая.**
+- **⚠️ Two-way (проходные) switches on a long corridor** — on at the entrance, off from the bedroom, so nobody walks back through a dark hall. **A first-fix wiring decision.**
+- **⚠️⚠️ THE COLLISION, and it is new: where wardrobes run to the ceiling, check that ceiling fittings do not obstruct the antresol doors opening, and are not set so close to the fronts that they foul them.** *«Это тоже всё продумывается заранее.»*
+
+> **→ ⚠️⚠️ Lighting layout and joinery are specified by different trades at different times, and this clash is only discoverable on a drawing that carries both.** **Directly applicable to this project's own sheet set.**
+
+⚠️ **Her colour argument — that a pass-through room is where you can take a colour risk, because you will not tire of it but will get the lift every time you come home — is recorded as attributed opinion, not carried as a finding.**
+
+[source: [[_Sources/YT_etHFnxvLiyM_udesign_small_hallway|YT_etHFnxvLiyM]]]
