@@ -1,6 +1,6 @@
 # Channel triage — @Сосновскаяфабрикамебели (Сосновская фабрика мебели)
 
-**Date:** 2026-09-14 · **Owner-supplied** · **258 videos** · **Status: triaged; 2 spot-checked, fetched and read; extraction not started**
+**Date:** 2026-09-14 · **Owner-supplied** · **258 videos** · **Status: CLOSED. Tier 1 (10 videos) processed 2026-09-14; Tier 2 measured and declined**
 
 Owner's steer, verbatim in intent: *reviews and details of materials, appliances, techniques, errors, dos and don'ts, practical advice — not overviews.* Explicitly: **kitchen facade material selection, countertop selection, how to compose a kitchen correctly.** Explicitly **filter out**: representation, and advertising for this vendor's own products whether open or hidden.
 
@@ -102,7 +102,33 @@ This is the actual reason to process it, and it is not the material overviews.
 
 ---
 
-## 6. Tier 2 — read only if Tier 1 proves the channel
+## ⚠️⚠️ 6. Tier 2 — MEASURED AND DECLINED (2026-09-14, after Tier 1)
+
+**Tier 1 proved the channel, so the Tier 2 question became live. It was decided on counts, not on impression.**
+
+| Tier 2 cluster | Existing coverage | Verdict |
+| :--- | :--- | :--- |
+| **Mistakes / ordering** (`Vf3pDmkyT1k`, `NfBvQNAxRPA`, `y1XTG_FcbQo`, `Xd8ivbYOYKk`, `4ZM3-MP8D4c`, `c70WzPVSisc`) | `General_Dos_and_Donts.md` carries **13 distinct sources** in 250 lines, plus Kruglov's design-mistakes and 25-ordering-mistakes notes, CAPPUCCINO's ten tells, and now Sosnovskaya's own acceptance and ordering material | **DECLINE** |
+| **Countertops** (`DEecuW1BjC8`, `i_yNNRR0-ms`) | `Worktops_and_Backsplash.md` has **37 distinct sources** — the most saturated page in the folder — plus the new fabricator account and the four-material crash test | **DECLINE** |
+| **Backsplash** (`5zqdxOdEHZE`) | **17 files** in `03_Kitchen/` already touch it | **DECLINE** |
+| **Sink** (`Qdtuk0nRZjw`) | **19 files** | **DECLINE** |
+| **Lift mechanisms** (`p1zwa2MkufA`) | `Kitchen_Gadgets_and_Mechanisms.md` carries Aventos **HK / HF / HS**, Servo-Drive and TIP-ON in detail | **DECLINE** |
+| **Named facade products** (`kjkuwK2ae_E` ALVIC, `hvkMOC1CgTM` Mattelux/PerfectSense) | Was **zero** before this round. **Tier 1 closed it at category level** — UV-lacquer panels are one construction (MDF + decor paper + UV lacquer), and **the disqualifying defect is already captured**: tea soaks through the lacquer into the paper | **DECLINE** — the finding that mattered is in |
+| **ЛДСП health** (`3yZ_JFilgPc`) | **6 files** carry formaldehyde/E1 material, and this round added the спецпропитки disagreement | **DECLINE** |
+| **⚠️ Drawer slide SYSTEMS** (`aN9cCdJIKWY`) | TANDEMBOX, LEGRABOX and MOVENTO appear **twice each** in `Storage_and_Hardware.md` — **mentions, not a comparison** | **THE ONLY REAL GAP** |
+| **⚠️ Powder coating vs enamel** (`F9SoaAAX9Jo`) | **Literally zero** mentions of «порошковое покрытие» anywhere in `03_Kitchen/` | Uncovered, but **niche** — powder coat on MDF is unusual |
+
+> **⚠️⚠️ AND THE PRINCIPLED REASON, WHICH MATTERS MORE THAN THE COUNTS: TIER 2 IS THE PART OF THIS CHANNEL THAT DOES NOT TEST.**
+>
+> **Tier 1 earned its place because this presenter runs destructive tests, revisits a nine-year-old kitchen, and ranks on a decade of returns — evidence types nothing else in the vault has.** **The mistakes and ordering videos are assertion-format listicles: the one thing this channel does that a dozen other sources already do.**
+>
+> **This vault's own value filter already says so**, from the Dude Blender round: *“the value filter should ask ‘does this source say how it could be WRONG’, not only ‘does it cover a new task’.”* **→ Take the part of a channel that does what no one else does; decline the part that does what everyone else does.**
+
+> **VERDICT: TIER 2 DECLINED AS A BATCH.** ⚠️ **Two items remain individually defensible and neither justifies a round on its own** — `aN9cCdJIKWY` (drawer slide systems, the only genuine gap) and `F9SoaAAX9Jo` (powder coating, zero coverage but niche). **Fold them into some future kitchen round if one happens; do not open one for them.**
+
+### The original Tier 2 list, retained for the record
+
+
 
 `Vf3pDmkyT1k` (10 способов обмана при заказе) · `NfBvQNAxRPA` (ТОП 18 ошибок) · `y1XTG_FcbQo` (Колхозная кухня, 1.7M) · `Xd8ivbYOYKk` (16 ошибок при выборе фасада) · `DEecuW1BjC8` (столешницы, crash test) · `i_yNNRR0-ms` (ТОП 12 столешниц 2020) · `c70WzPVSisc` (пластик/плёнка/ЛДСП — «самый большой обман») · `3yZ_JFilgPc` (опасна ли ЛДСП для здоровья) · `aN9cCdJIKWY` + `p1zwa2MkufA` (выдвижные и подъёмные механизмы) · `5zqdxOdEHZE` (фартук, 12 идей + секреты установки) · `Qdtuk0nRZjw` (мойка: камень или нержавейка) · `kjkuwK2ae_E` (ALVIK) · `hvkMOC1CgTM` (Mattelux / PerfectSense) · `F9SoaAAX9Jo` (порошковое покрытие или эмаль)
 
