@@ -7,5 +7,7 @@
   "timestamp": "2026-09-14T07:50:49.211805+00:00",
   "source_tool": "youtube-transcript-api",
   "sha256": "a735b6aa73772aeeee19c9cf5b164cc4338ab5e101cee7ca1cea72f8224e146b",
-  "attempts_before_success": []
+  "attempts_before_success": [],
+  "upload_date": "2026-03-26",
+  "upload_date_source": "yt-dlp"
 }
