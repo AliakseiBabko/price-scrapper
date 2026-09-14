@@ -136,6 +136,38 @@
 > [!WARNING]
 > **Every claim on this page is one fabricator's trade knowledge, stated and not demonstrated.** ⚠️ **The two placement verdicts (glass off the work zone, wood off wet areas) and the two refusals (§3) are his judgement, not test results.** ⚠️ **No price, no brand verdict and no normative figure is routed from this source.**
 
+## ⚠️⚠️ Five Destructive Tests on Four Countertops — and Only One Can Be Repaired (Сосновская фабрика, ~2020)
+
+**The account above gives a material inventory. This applies the SAME insult to four materials and reports what happened.** Specimens: **DEKTON** (quartz, glass, porcelain), **quartz agglomerate** (94–97% natural quartz), **compact laminate** (65% paper, 30–35% cured resins) and **acrylic stone** (acrylic resin plus aluminium hydroxide).
+
+### ⚠️⚠️ You cannot cut on any of them — and he says the showroom will tell you otherwise
+
+> ***«Ни в коем случае не режем продукты без разделочной доски, ЧТО БЫ ВАМ НИ ГОВОРИЛИ ПРОДАВЦЫ В САЛОНЕ. На топовых столешницах в любом случае остаются микроповреждения.»***
+
+**Most resistant: DEKTON, then quartz** — and even so, micro-damage remains. **⚠️ Quartz takes DEEP grooves from a knife.** Compact laminate and acrylic scratch badly. **→ A tested contradiction of a sales claim, by a seller.**
+
+### ⚠️⚠️ The finding that should decide the material: only acrylic can be repaired
+
+> **Acrylic**: *«Царапин нету, я в шоке — всё убрал… смотрите, как новый стал.»* **It also polished out the зелёнка stain.**
+> **Quartz, DEKTON, compact laminate**: not restorable. ***«Если вы поцарапали, вам придётся жить с этими царапинами ДО КОНЦА ЭКСПЛУАТАЦИИ этого гарнитура.»***
+
+> **→ ⚠️⚠️ THIS REFRAMES THE COMPARISON. Acrylic loses every resistance test and wins the only one that is RECOVERABLE.** Quartz is harder *and* permanent in its damage; acrylic marks easily *and* can be made new again. **Over a 10–20 year life that is a different trade from the one a hardness table implies.**
+>
+> ⚠️⚠️ **Not in conflict with the styrene refusal recorded above**, which was a health objection to LIQUID acrylic during cure and a thickness objection to 6 mm sheet. **This is a repairability property of the cured material. → The question becomes WHICH acrylic, not whether.**
+
+### ⚠️ Heat, staining and impact
+
+- **⚠️⚠️ HEAT: a red-hot frying pan straight from the hob damaged NONE of the four**, acrylic included. ⚠️ **Single brief contact, single trial** — and heat at the hob stays a JOINT problem, per the flush-hob sealant finding.
+- **⚠️⚠️ STAINING: every natural dye washed off all four** (beetroot, tea, coffee, blackcurrant, cherry, soy sauce, 8–9 hours). **ЗЕЛЁНКА AND IODINE ARE TERMINAL** — *«это смерть абсолютная»* — surviving five to ten minutes of scrubbing **including with acetone**. Compact laminate and quartz went permanently green; DEKTON nearly cleaned; acrylic only via polishing.
+  **→ ⚠️⚠️ THIRD INDEPENDENT ARRIVAL IN THIS VAULT AT ЗЕЛЁНКА** — [[03_Kitchen/analysis/Facade_Materials_Fabricator_Account|the MDF head-to-head]] found the same on FRONTS. **Nothing resists it, so it is a household-practice finding, not a selection criterion: keep brilliant green and iodine off the worktop and wipe any spill at once.**
+- **IMPACT**: mallet blows on face and exposed edge — all fine. A **sledgehammer from 1 m** — all survived; **from 2 m the DEKTON split**, ⚠️ **which on his own caveat is a THICKNESS result, that specimen being thinner.** **Quartz rated highest for impact.**
+
+⚠️ **Prices RUB ~2020 — rule 2, ratios only: DEKTON is by far the dearest (~2.5–3× a quartz sheet); quartz sits in the middle; compact laminate and acrylic are cheapest and roughly equal.** ⚠️⚠️ **Both cheap options were quoted at 12 mm against 20–22 mm for the other two — so the fashionable ultra-thin slab and the budget option COINCIDE, and a thin worktop is not by itself evidence of a premium specification.**
+
+> ⚠️ **`promotional_ratio: low`** — the headline result contradicts showroom patter and he destroys four expensive materials he sells. ⚠️⚠️ **Method limits are the ones already applied to the MDF head-to-head: single specimens, one trial each, no controls, and the DEKTON was thinner than its rivals. Treat the DIRECTION as evidence and the rankings as opinion.**
+
+[source: [[_Sources/YT_npaV7FELR9k_sosnovsk_countertop_crash_test_four_materials|YT_npaV7FELR9k]]]
+
 ## Open items
 
 - **⚠️ [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops & Backsplash]] is organised by INTAKE DATE, not by topic** — its five top-level headings all carry *"(added 2026-08-..)"*, which is the fragmentation signal standing rule 8 names. **At 284 lines it should be merged into thematic parents with `tools/split_page.py merge` before it takes more material.** **Deliberately not attempted mid-round.**

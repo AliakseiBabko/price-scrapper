@@ -154,6 +154,73 @@ From the 42 m² delivered object, where **every facade and carcass is ЛДСП**
 
 ---
 
+## ⚠️⚠️ Thirteen Facade Types Ranked, Each With Its One Real Weakness (Сосновская фабрика, 2023-10-09)
+
+**The vault's facade coverage was broad and it was all INVENTORY — what a front can be MADE of. This is the first source that RANKS them and names, for each, the one defect that actually generates complaints**, on a decade of one shop's returns.
+
+### ⚠️⚠️ The single most useful number: emboss depth, 0.3 mm vs 1.3 mm
+
+On ЛДСП fronts — the volume seller, often mis-sold as *«HPL пластик»* or *«термоструктурные панели»*, but actually **melamine decorative kraft paper impregnated with resins**:
+
+> ***«Есть важный критерий — это ТОЛЩИНА ТИСНЕНИЯ. Эконом-класс ДСП — максимум 0,3 мм. А премиум — до 1,3 мм.»***
+
+- **The mechanism**: cutting and edge-banding damage the surface invisibly. **On cheap ЛДСП the thin film breaks, steam gets in, and it swells** — *«превращается в бутерброд, и кромка вам падает в борщ»*. **Deep emboss keeps the damage above the chipboard.**
+- **⚠️⚠️ Egger alone has SIX ЛДСП categories**, including a thick-coating class and one on an **MDF base** that holds fasteners better. **The price spread is 10–15×** — *«ДСП за квадрат может стоить 1 000 руб, а может 15»*.
+- **→ ⚠️⚠️ THIS IS WHY TWO QUOTES FOR "THE SAME" ЛДСП KITCHEN DIFFER BY 3×. Ask the emboss depth and the category, in writing** — see [[03_Kitchen/analysis/Ordering_A_Kitchen_Commercially|Ordering a Kitchen Commercially]].
+
+### The ranked ladder, and each material's one weakness
+
+⚠️ **Prices RUB 2023, Russia — rule 2. The LADDER and the weaknesses transfer; the figures do not.**
+
+| Facade | ⚠️ Its one substantive weakness | Relative cost |
+| :--- | :--- | ---: |
+| **ЛДСП** (thick-coating class) | Good across the board **provided the category is right** | **cheapest** |
+| **МДФ + ПВХ film** | ⚠️ **HEAT — the thermoplastic film shrinks and delaminates over time** | ~1.2× |
+| **HPL plastic** | ⚠️ **Appearance only** — matt HPL has slight orange peel | ~2× |
+| **МДФ эмаль** | ⚠️⚠️ **СКОЛЫ — chips.** *«Очень-очень большая проблема»* on a kitchen in daily use | ~2.2× |
+| **Acrylic plastic** (Senosan) | ⚠️ **Heat, AND impact** — see the self-correction below | ~2.3× |
+| **UV-lacquer panels** (Egger PerfectSense, Fundermax, ALVIC) | ⚠️⚠️ **CLEANING — see below** | ~2.3× |
+| **FENIX NTM** | *«Идеально везде… кроме цены»* | ~3.3× |
+| **Шпон on MDF** | ⚠️ **Scratch/impact** — *«ДСП его вынесет в одну калитку, HPL и подавно»* | ~3.7× |
+| **Термодревесина** | *«Вообще нет недостатков — единственный недостаток это цена»* | **dearest, ~5×** |
+
+> **⚠️⚠️ A CREDIBILITY SIGNAL: HE CORRECTS HIS OWN TABLE ON CAMERA.** On acrylic plastic — *«ударопрочность… я здесь ПЛЮС поставил — это я ОШИБСЯ. У него ПЛОХАЯ ударопрочность, это мягкий материал»*.
+
+### ⚠️⚠️ The UV-lacquer finding — tested, on a material this vault had never covered
+
+**ALVIC, PerfectSense and Mattelux had ZERO mentions in `03_Kitchen/` before 2026-09-14.** All three are the same construction: **an MDF board, a PAPER carrying the colour, and UV lacquer over it.**
+
+> ***«Идеальный материал — кроме УБОРКИ. Я делал тест: он ВПИТЫВАЕТ загрязнение. Я оставил чай, и он прямо в лак проник, в бумагу — и ФАСАД ИСПОРЧЕН.»***
+
+> **→ ⚠️⚠️ PLAIN TEA SOAKED THROUGH THE UV LACQUER INTO THE DECOR PAPER AND RUINED THE FRONT** — a tested, disqualifying defect on a fashionable premium product, from someone who installs three or four such kitchens a month. ⚠️ **His own position is not a refusal: with correct care and the panel maker's bonding technology (PUR or laser) he calls it ideal.** **→ A staining risk for the shortlist conversation, not a ban.**
+>
+> ⚠️⚠️ **Read it beside [[03_Kitchen/analysis/Worktop_Materials_Fabricator_Account|the countertop crash test]]: there, every natural dye washed off four premium WORKTOPS. Here, tea destroys a premium FRONT. → Stain resistance is not a property of price bracket.**
+
+### ⚠️⚠️ Plywood-based fronts: there is no edge to fail
+
+**Birch plywood faced with HPL or FENIX NTM** — *«вообще равных нет этому материалу по прочности и долговечности»*.
+
+> ***«У нас НЕТ ЗДЕСЬ КРОМКИ с торца. А это значит, ничего не отвалится. Никакая технология — ни PUR, ни лазер, ни ЭВА — не даст вам стопроцентной гарантии, что со временем кромка не начнёт сползать.»***
+
+- Any handle profile can be milled into the edge without crumbling; **fasteners hold** (*«саморез закручивается со скрипом»*); fronts do not sag and need no constant readjustment.
+- **→ ⚠️⚠️ CONSISTENT WITH [[03_Kitchen/analysis/Carcass_Construction_And_Edge_Technology|his own crash tests]], where plywood scored 5/5 on every criterion against ЛДСП's 0/5. Unlike his ЛДСП-carcass claim, this one his tests SUPPORT.**
+- **→ And the deepest point: ELIMINATING THE EDGE ELIMINATES THE FAILURE MODE, rather than choosing a better glue for it.**
+
+### ⚠️ Four checkable questions this source hands you
+
+- **⚠️⚠️ THE ANTI-FINGERPRINT TEST, runnable in a showroom with a glass of water.** On matt acrylic plastics ask whether the decor carries the **AF hydrophobic coating**: *«капельку капнуть — если она будет собираться в одну кучку [и скатываться], то это современное покрытие»*. Resists fingerprints and grease.
+- **⚠️ On gloss acrylic there is a lacquer layer over the gloss that prevents micro-swirls** — *«паутинка, которая на чёрном автомобиле»*. Deep scratches still show.
+- **⚠️⚠️ On an HPL-faced front, ask about the КОМПЕНСАТОР** — a balancing counter-layer bonded to the reverse. **HPL's bad 2000s reputation came from its absence:** *«многие не использовали компенсатор»* — the plastic fell off, cracked and the panel bowed. ⚠️ **A specific askable detail behind a whole material's bad name.**
+- **⚠️ EVA vs PUR is visible at the seam** — a thin seam on PUR against **a visible YELLOW seam on EVA**, shown under macro. **You can see the glue technology with your eyes on a sample.**
+
+### ⚠️ And the one he excludes for a reason worth carrying
+
+**МИКРОЦЕМЕНТ / plaster fronts**: *«тяжело согласовать цвет, потому что каждый новый фасад получается разной текстуры. Никто не знает [что получится] — даже тот человек, который занимается этим покрытием»*. **→ A finish whose outcome cannot be specified in advance by anyone — relevant to any decorative-plaster decision in this flat.**
+
+> ⚠️⚠️ **`promotional_ratio: medium_to_high`. He sells every material he ranks, and the two he rates flawless — FENIX NTM and thermowood — are premium products he installs heavily.** **A ranking by the seller of all the options is not independent. What earns its place is the STRUCTURE — that each material has one dominant failure mode, and which one.** ⚠️ **His *«ни одной рекламации»* claim for FENIX is enthusiasm, not data.**
+
+[source: [[_Sources/YT_p8cazVnSTc8_sosnovsk_facade_ranking_ten_years|YT_p8cazVnSTc8]]]
+
 Part of [[03_Kitchen/Kitchen_Furniture|Kitchen Furniture & Layout]]. Siblings: [[03_Kitchen/analysis/Furniture_Facade_Materials|Facade Materials]] · [[03_Kitchen/analysis/Storage_and_Hardware|Storage & Hardware]] · [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops & Backsplash]].
 
 ---

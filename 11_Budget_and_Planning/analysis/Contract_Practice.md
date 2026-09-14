@@ -156,3 +156,15 @@ What the document must make explicit, the clauses to test it against, and the na
 
 - **Vetting and selecting a contractor** — red flags, behavioural green flags, site visits, capacity and the signals the practitioners reject — is now [[11_Budget_and_Planning/analysis/Contractor_Vetting_and_Selection|Contractor Vetting and Selection]].
 - **Running the job and escalating a dispute** — client presence, adjacent trades, the управляющая компания, expert заключения, courts and the worked failure cases — is now [[11_Budget_and_Planning/analysis/Site_Management_and_Dispute_Escalation|Site Management and Dispute Escalation]].
+
+## ⚠️⚠️ A FURNITURE Supply Contract Is a Different Document — and It Has Its Own Page
+
+**This page covers the renovation-WORKS contract.** A kitchen is bought under a supply contract, with its own documents, its own remedies and its own traps — **[[03_Kitchen/analysis/Ordering_A_Kitchen_Commercially|Ordering a Kitchen Commercially]]**.
+
+**Three points from it belong here too, because they generalise past furniture:**
+
+- **⚠️⚠️ THE PENALTY RATE DEPENDS ON THE CONTRACT TYPE, and firms structure around it.** A Russian kitchen maker states that a **sale** contract carries **0.5% per day** of delay while a **works-and-services** contract carries **3%**, and that *«практически 90% крупных компаний»* deliberately split the deal into two contracts so the goods fall under the lower rate. **→ A structuring choice that moves the buyer's remedy by 6×. ⚠️⚠️ RUSSIAN LAW, asserted by a furniture seller citing no statute — rule 4, nothing routed to `16_Legal_and_Regulations/`, and the Belarusian position must be confirmed separately. The QUESTION transfers: which contract type covers which part of the job?**
+- **⚠️⚠️ DO NOT SIGN THE ACCEPTANCE ACT IN A HURRY.** *«Монтажники могут подсунуть акт — "подпишите, потом разберёмся". Разбираться с вами НЕ БУДУТ, и будут полностью правы, потому что вы подписали акт.»* **The inspection must happen BEFORE the signature, not after.**
+- **⚠️ Force majeure releases from LIABILITY for breach — penalties and interest — NOT from the obligation itself.** **A distinction worth carrying into any contract reading.**
+
+[source: [[_Sources/YT_24DWOdqalc4_sosnovsk_metr_pogonny_and_supply_contract|YT_24DWOdqalc4]]]
