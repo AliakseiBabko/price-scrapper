@@ -295,3 +295,29 @@ His statement of the constraint: «по всем СНиПам и нормам с
 - **An enclosed kitchen's doorway zone needs its full door-swing clearance counted separately from the cabinet-run wall allowance** — even though a kitchen cabinet run itself needs only 600mm depth + 100mm reveal, an enclosed kitchen's doorway zone needs 900mm total, the extra 200mm being clearance for the door leaf itself to open without striking the cabinet run. [source: [[_Sources/YT_M4dxo-6kcDs_540k_thanks_designer_242|M4dxo-6kcDs_540k_thanks_]]]
 - **Before allowing a designer to proceed to rendered visuals, require a stated justification for every wall thickness, opening reveal, and irregular corner** — a designer who can't explain a specific dimension, or treats the question as a trust issue, is a red flag regardless of how polished the eventual renders look. [source: [[_Sources/YT_M4dxo-6kcDs_540k_thanks_designer_242|M4dxo-6kcDs_540k_thanks_]]]
 - **⚠️ A fourth documented instance of this technique family**: pre-install reinforced wall backing (закладные) for a wall-mounted Swedish/gymnastic ladder *together with* hidden electrical for a TV zone at the same wall location — lets the client choose (or later swap) between the two without redoing the wall. `single-account`, `unverified`. [source: [[_Sources/YT_u3UuZN9LHg0_developer_gandon_irregular_geometry_268|YT_u3UuZN9LHg0]]]
+
+
+## ⚠️⚠️ Thin-Partition Build-Ups for a Room Where 2 cm Matters (Степан Огурцов, added 2026-09-14)
+
+| Build-up | Finished thickness |
+| :--- | :--- |
+| **Brick** | **⚠️ ~17 cm after plaster and tile** — and *«его нельзя использовать в старых домах, так как перекрытия просто могут не выдержать»* |
+| **Tongue-and-groove slab, 70 mm** | **85 mm** with 15 mm tile + adhesive. **⚠️ Flat enough not to need plaster — that is where the saving comes from. Must be the SILICATE (moisture-resistant) type** |
+| **Plasterboard on 50 mm profile**, one 12 mm sheet each side | **89 mm** with 15 mm tile. **Must be ГКЛВ — moisture-resistant, greenish** |
+| **⚠️ Plasterboard on a ceiling profile or welded steel frame** | **down to 67 mm** in extreme tightness |
+
+- **⚠️⚠️ SERVICES CONSTRAINT: most thin partitions take only WATER pipes, so plan the SEWER along the apartment wall. If that is impossible, use plasterboard on a 50 mm profile — it takes everything except the WC pipe.**
+- **⚠️ Where anything heavy hangs on a thin partition, provide backing — plywood or a reinforced frame.**
+- **⚠️⚠️ And he concedes the cost honestly: at these thicknesses soundproofing will be weak and you have to accept it.** He asks commenters whether anyone has solved it — **an openly unresolved problem, recorded as such rather than smoothed over.**
+
+### ⚠️ Why a false wall gets built at all, and a deliberate 3 cm sacrifice (Алексей Шемчук)
+
+**A false wall was unavoidable on his object: the structure is monolithic reinforced concrete — a column and an RC wall that CANNOT be chased, with internal reinforcement that must not be cut — while a lot of wiring plus a conduit linking upper and lower socket groups had to reach that point.**
+
+> **⚠️⚠️ He could have set the wall at half the depth, but that would have left a 3 cm STEP complicating both the finish and the furniture. He gave up the 3 cm and brought the wall forward flush.**
+>
+> **→ A decision to LOSE floor area in order to avoid a step — worth holding against pure area-maximisation.**
+
+**⚠️ Two more of his plasterboard decisions, both about protecting a stretch ceiling:** a **box where built-in furniture meets the ceiling, so the ceiling and the wardrobe can be installed INDEPENDENTLY in any order**; and a **box above the kitchen run, because stretch fabric inevitably sags a few millimetres — invisible to the eye — and upper kitchen doors opening to the ceiling would rub and risk tearing it.** **⚠️ Embedded backing (закладные) at box ends for fixing ceilings, and across the FULL AREA of walls in case something needs fixing through them later.**
+
+[sources: [[_Sources/YT_5Ojk5tKyil8_ogurtsov_small_bathroom_rules|YT_5Ojk5tKyil8]], [[_Sources/YT_0c-QhBDQMWE_shemchuk_technical_design_album_series|YT_0c-QhBDQMWE]]]

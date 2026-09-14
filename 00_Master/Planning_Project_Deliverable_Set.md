@@ -166,3 +166,48 @@ catalogue may be treated as a dimension** — recorded as
 **Drawing and annotation conventions from the same round — dimensioning to element centres, the `1/2` proportional notation for a centred fixture, «вывод провода» as an element distinct from a socket, and per-sheet layer states — are collected in [Drawing_Conventions_From_Practice.md](../18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice.md) rather than here.** That page also records why our grey-massing 3D convention is worth revisiting.
 
 ⚠️ **Caveat on all of the above**: auto-generated Russian captions on software subject matter, with observable ASR corruption and one transcript carrying no punctuation at all. The tab list is read from narration, so **the order is reliable and a couple of tab names may be imprecise.** Nothing here has been checked against a Belarusian requirement.
+
+
+## ⚠️⚠️ A SECOND observed album — and it is the engineering half this page lacked (Алексей Шемчук, added 2026-09-14)
+
+**This page was written from one album (Долгушев) and names its own gap: five sheets "not yet modelled at all" — underfloor heating, lighting + switch grouping, reflected ceiling, sockets/switches, sanitary equipment.** **Долгушев's cheaper tier explicitly OMITS the engineering sections. Шемчук's album is mostly engineering, shown sheet by sheet across five videos.** **The two are complementary: Долгушев gives the scope tiers and sheet counts, Шемчук gives what is on an engineering sheet and why.**
+
+⚠️ **2021, one practitioner, his own conventions — not a standard.**
+
+### ⚠️⚠️ The method: «модель, альбом, объект»
+
+**Build it full-size in a 3D model → derive the album from the model → execute on site.** His stated goal:
+
+> ***«Я задачей своих проектов ставлю стопроцентную реализуемость — отсутствие необходимости в каких-либо дополнительных размышлениях и переделках уже во время выполнения работ.»***
+
+- **⚠️⚠️ FULL-SIZE MEANS FULL-SIZE**: plumbing modelled down to the **mounting plates**; plasterboard modelled as real profiles **AND actual 2 m boards, with the sheet layout chosen so the quantity can be counted exactly.** **→ Take-off falls out of the model as a by-product — which is what [[18_Digital_Toolchain/analysis/Quantity_Takeoff_and_Cost_Join|Quantity Take-off & Cost Join]] is reaching for, arrived at by modelling real parts rather than by a separate estimating step.**
+- **⚠️ THE ORDERING PRINCIPLE:** *«Все работы в проекте показаны в той последовательности, в которой они выполняются на объекте.»* **The album's sheet order IS the construction sequence**, which is why it ends with furniture.
+- **⚠️ Inside every discipline the sequence is the same: plan the rooms and place ALL the furniture first, then run the services to suit.**
+
+### ⚠️⚠️ The structure: initial state → final state → the path between
+
+1. **Title sheet** — address, short description, and **the people RESPONSIBLE for the project and the works, with phone numbers**, because *«альбом всегда находится на объекте»* — **a tradesman's question is resolved without involving the client.**
+2. **Contents sheet** with page numbers.
+3. **Survey plan** with dimensions **plus a 3D view for comprehension**, risers, radiators, levels, as handed over.
+4. **Post-replanning dimensions** and the final state.
+5. **Per-room sheets** with every finish, decor element and furniture item. **⚠️ Where something is unchosen it is fixed by TYPE and left open by model** — "track light" without a fitting. **→ The sheet records the decision made and is honest about the one that is not.**
+6. **Order-of-works sheet(s)** — stages down, detail across.
+7. Then the disciplines in build order, ending with furniture.
+
+### ⚠️⚠️ The datum rule — pick a mark that cannot move
+
+> **The clean-floor datum is a point that WILL NOT CHANGE during the works — he uses a point on the STAIRWELL LANDING, on the door-handle side, drawn in the project and marked in red on site.**
+>
+> **The reasoning transfers: marks get knocked out and contractors get replaced, and then nobody knows what anything was measured from.** *«Они открывают проект, видят эту метку, меряют всё от неё, и в конечном итоге все сходятся в одном едином горизонте.»*
+>
+> **→ ⚠️⚠️ The same idea as this repo's own standing rule that a scale must be INDEPENDENT of the thing being measured ([[00_Master/Evidence_Reading_Discipline|Evidence Reading Discipline]]), applied to a building site: the datum must be outside the work.**
+
+### ⚠️⚠️ THE ORGANISING INSIGHT — every sheet is detachable
+
+**Said repeatedly about different sheets: the demolition sheet carries work VOLUMES so a contractor can price it without the designer recalculating; the plastering sheet carries areas and linear metres for the same reason; the stretch-ceiling sheet can be sent to several ceiling firms for quotes; the internal-door sheet carries leaf sizes AND the wall thicknesses they go into, so the client can walk into a shop with it; the kitchen sheet numbers every module against a decoding table.**
+
+> **→ ⚠️⚠️ EACH SHEET IS BUILT TO BE DETACHED AND HANDED TO ONE TRADE OR SUPPLIER, priced and executed without the designer mediating.** **That is a different design goal from "a complete set of drawings", it explains most of his conventions, and it is the property this repo's own target set should be judged against.**
+>
+> **⚠️ A scope data point for planning: his complete, buildable VENTILATION section came to THREE sheets.**
+
+[source: [[_Sources/YT_0c-QhBDQMWE_shemchuk_technical_design_album_series|YT_0c-QhBDQMWE]] (+ZkdKiLQKJIc, oibpAA8OL_Y, vwM08Vu31Gc, bsX-42_S_Uc)]

@@ -345,3 +345,5 @@ A wall measured at 3.5 m can easily finish out closer to 3.2 m once both layers 
 
 - **Design, palette and spa programming** — [[07_Bathroom/analysis/Bathroom_Design_and_Palette|Bathroom — Design, Palette and Spa Programming]]
 - **⚠️ RUSSIAN regulation (steam rooms, the threshold) and its approvals** — [[07_Bathroom/analysis/Bathroom_Regulation_and_Wet_Zone_Limits|Bathroom — RUSSIAN Regulation and Wet-Zone Constraints]]. **Безверхая's wet-zone replanning limits stay below**, because that block also carries her dimensional ergonomics.
+
+> **⚠️ Small-bathroom constraints — the layers arithmetic, fixture minimums, riser reconfiguration and the door-opening consequences — live on [[07_Bathroom/analysis/Small_Bathroom_Constraints|Small Bathroom Constraints]] (split out 2026-09-14, because this page reached the 400-line backstop).**

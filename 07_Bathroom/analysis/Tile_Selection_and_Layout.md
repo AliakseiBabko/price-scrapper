@@ -231,3 +231,75 @@ Moscow-practice designer, 2024. `promotional_ratio: medium` — **this source co
 ## Style groups and named marbles — moved to their own page
 
 See **[[07_Bathroom/analysis/Tile_Style_Groups_and_Marbles|Tile by Style Group, Named Marbles and Historic Finishes]]**. This page keeps buying and quality parameters, format and undertone, mosaic, and setting-out.
+
+
+## ⚠️⚠️ Services Positions Are Set by the TILE GRID (Степан Огурцов, added 2026-09-14)
+
+> **Place mixers and electrical points in the MIDDLE of a tile or on a JOINT. During design you can move BOTH the grid and the fitting.**
+>
+> **And the reason is not only symmetry:** ***«Отверстие на краю плитки хрен сделаешь, не обломив кусочка.»***
+
+> **→ ⚠️⚠️ INDEPENDENTLY CORROBORATED in the same batch by [[00_Master/Planning_Project_Deliverable_Set|Шемчук]], who positions a bathroom extract fan so its centre lands exactly on a tile joint and chases the duct to suit.** **Two unrelated practitioners, one principle: the tile setting-out is an INPUT to the services drawings, not a decoration applied afterwards.**
+>
+> **→ ⚠️⚠️ THE SCHEDULING CONSEQUENCE, which is the actionable part: the tile layout must be resolved BEFORE electrical and plumbing first fix, because it moves socket, mixer, flush-plate and fan positions.**
+
+**⚠️ And the prerequisite for the tile layout itself:** *«Невозможно просчитать плитку, если не определились с планировкой стен, проёмов, расстановкой мебели и техники.»*
+
+**⚠️ RELIEF TILE has a related trap: check whether electrical points, water points, the flush plate or ventilation land on relief tile**, because a flat plate over a relief surface leaves gaps behind it.
+
+### ⚠️⚠️ Cuts — lay from the CENTRE, and change the room if you must
+
+> **Laying from the edge is *«игра в русскую рулетку»***: the final cut may land over half a tile, or as an ugly sliver.
+
+- **⚠️ The applied reason, not just perfectionism: a very narrow final piece is hard to cut cleanly, and on an out-of-true wall it looks dreadful.**
+- **⚠️⚠️ Therefore do NOT lay tile vertically — it multiplies the chance of narrow slivers.**
+- **⚠️ Lay from the CENTRE, choosing whether a tile's CENTRE or a JOINT lands on the centreline — correct is whichever leaves edge pieces WIDER than half a tile.**
+- **⚠️⚠️ If both options land near half a tile: artificially REDUCE the room — add plaster, or build the wall differently while still at design stage — so it comes out in whole tiles.** **→ Changing the room to suit the tile. Only available if the layout is done early.**
+- **⚠️ One place you cannot win: a concealed access hatch needs ~60 cm and services hug a wall in a narrow WC. Accept the cut.**
+- **Avoid narrow cuts at floor and ceiling openings and the bath screen, and make ADJACENT cuts equal.**
+- **⚠️⚠️ ONLY VISIBLE AREAS MATTER** — what happens under the bath or behind a cabinet is irrelevant, so plan the joints from the visible parts. **Corroborates Шемчук's floor-laying arrows, which hide the narrow cut under the kitchen.**
+
+### ⚠️ Joints — including an expansion joint this folder did not have
+
+- **⚠️⚠️ An EXPANSION JOINT (деформационный шов) of about 10 mm every 6–10 m** on larger continuous runs — offices, retail, or a hallway and living room tiled as one contour. **Ugly, but otherwise tiles crack or tent (*«встать домиком»*).** ⚠️ **He says "по нормам" without citing one and names no jurisdiction — treat the interval as trade practice, not a code figure.**
+- Normal joints **1–3 mm**. **⚠️ 1 mm looks best ONLY with rectified tile or careful selection — if tile size varies the joints visibly wander, and compensating by varying joint width is not worth attempting.**
+- **⚠️ Mixing manufacturers is riskier still: even two rectified tiles can differ in actual size.**
+- **⚠️⚠️ A tile-to-laminate junction needs the HEIGHT difference compensated — e.g. a stepped screed — or you get threshold bumps.** **→ Independently corroborates Шемчук's screed step so different finishes meet under the door leaf at one level.**
+
+### ⚠️⚠️ The laying ORDER, which is not the obvious one
+
+**The critical thing is that the boundary between the FIRST and SECOND row is level — *«если этого не сделать, то дальше вся плитка будет плясать»*.** **Starting with the floor is risky: you can damage it, and you would need certainty it is perfectly level.**
+
+1. **Fix a temporary profile by laser level.**
+2. **Lay from the SECOND row upward.**
+3. **Then the FLOOR.**
+4. **Then the FIRST row last** — cuts may be needed, *«бояться нужно не их, а ситуации, при которой останется щель»*.
+
+**⚠️ If one wall is smooth tile and another relief, lay the SMOOTH one first so the relief butts to it without gaps.**
+
+### ⚠️ Where tile belongs — reading the ELECTRICAL zones as the moisture map
+
+> **⚠️⚠️ He proposes using the bathroom's ELECTRICAL SAFETY ZONES as the guide, *«потому что они как раз учитывают возможные брызги»*.** **Zones 0–1: only fully waterproof materials — tile. Zone 3 and cautiously zone 2: special paints, microcement, even non-paper wallpaper. Floors: besides porcelain, poured floors and (his own surprise) linoleum and quartz-vinyl.**
+>
+> **→ ⚠️ A neat transfer — the electrical zoning already encodes where water reaches, so it doubles as a finishes map.** ⚠️ **Zone numbering is jurisdiction-specific and he names no standard: the IDEA transfers, the boundaries must come from whatever code applies here.** He also warns the opposite extreme — tiling a whole perimeter can make a bathroom read as a technical room.
+
+### ⚠️⚠️ Buying and vetting the tiler
+
+- **⚠️⚠️ Buy a solid surplus.** Tile breaks during and after the works and a services repair may force you to break it deliberately. **Do not count on buying more later — another batch differs in shade, or the collection is discontinued.** Keep a box after completion. **Unopened boxes can usually be returned within two weeks.**
+- **⚠️ Decide fast and buy ~2 months ahead**; tile disappears, and re-planning mid-works rarely goes well. **If you have nowhere to store it, ask the shop — they often will for a fee.**
+- **⚠️ Pay for delivery to the floor so the SUPPLIER carries the breakage risk.**
+- **⚠️⚠️ CHECK BATCH, CALIBRE AND TONE ON EVERY PACK** — under the guise of a discount you may be given leftovers from different warehouses, differing in shade and even size.
+- **⚠️⚠️ VET THE TILER BEFORE BUYING MATERIALS**: not all have good core bits for porcelain, a saw for large formats, or experience with modern materials. **If tiler and material cannot be married, decide which to replace at that stage.** **⚠️⚠️ THE SCREENING QUESTION: ask whether they will use a tile levelling system (СВП)** — *«хороший вопрос, чтобы отсеять уж совсем некомпетентных кадров»*.
+- **⚠️ Epoxy grout: not all tilers will work with it** — proportions cannot be eyeballed, it needs particular tools and it can ruin tile; **on mosaic it costs far more because the joint area is greater; check the tile is compatible since epoxy may not wipe off, and test in the least visible spot.**
+- **⚠️ Avoid contrasting grout without reason** — too dark reads as a gap, too light looks odd once dirt sits in the joints. **Without a designer, choose grout close to the tile colour.**
+
+### ⚠️ Patterns, prep and external corners
+
+- **Diagonal laying hides uneven walls**; diagonal and offset raise labour and cost and need justification. **Default to straight.** **⚠️ Small tile plus even smaller mosaic produces visual noise** — use it as contrast, not over a whole surface.
+- **Before laying**: confirm one size and adjust; **separate different stamps into stacks so they are not laid adjacent; put differing batches on different walls**; protect any coating from grout and adhesive.
+- **⚠️ External corners, three options**: a **45° mitre** (most attractive, difficult, expensive — ⚠️ **some executions leave a sharp, fragile arris**); a **decorative profile** (visible strip, well protected, much cheaper); or **overlap** (simplest, edges visible, acceptable with through-coloured porcelain).
+- **During laying**: no voids beneath tiles; wash epoxy grout off immediately; **avoid adjacent identical patterns by drawing from the prepared stacks and rotating.**
+
+⚠️ **The same author's 59-minute SketchUp companion is a software tutorial and was not mined further; its only transferable points — set the layout out from the OPENING rather than the carcass, and put cuts where something conceals them — are stated better above.**
+
+[source: [[_Sources/YT_OL4yoLzdqBk_ogurtsov_tile_layout_rules|YT_OL4yoLzdqBk]] (+mU2JCYl9hG4)]

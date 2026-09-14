@@ -255,3 +255,107 @@ An 18-year-old wanted an **Italian mattress at 150,000 ₽** because she liked h
 **Third independent arrival at *the shop test is insufficient* — he too says a couple of NIGHTS.** **But where Круглов's answer was the return policy, his is: buy a DOUBLE-SIDED mattress with different firmness per side and run the experiment at home.** ⚠️ **He adds that orthopaedists recommend alternating sides periodically anyway — a different rationale from the even-wear rotation in §10. The interval he gives is garbled in the transcript and was not reconstructed.**
 
 [source: [[_Sources/YT_8mjC_SNgUy4_mebeltekstil_mattress_without_embellishment|YT_8mjC_SNgUy4]]]
+
+
+## ⚠️⚠️ The Spring-Count Argument Is Resolved — by Weighing Springs (Light Sleep, added 2026-09-14)
+
+**This page has carried an unresolved conflict: ARMOS and Круглов say do not chase spring count; Мебель & Текстиль says smaller coil diameter and higher density is simply better — with this vault's own note that they "may be arguing about different variables… and the buyer can see neither at the point of sale."**
+
+**A St Petersburg bespoke mattress atelier measures both levels on camera. It is the first mattress source here to produce a number from an experiment rather than a spec sheet.**
+
+**A SINGLE spring from each block:**
+
+| Block | Spring Ø | Wire Ø | Coils | **Load** |
+| :--- | :--- | :--- | :--- | :--- |
+| **256 / m²** | 6 cm | 1.9 mm | 6 | **2.040 kg** |
+| **Multipacket ~512–570 / m²** | 4.3–4.5 cm | 1.3 mm | — | **1.473 kg** |
+| **1000 / m²** | 2.9–3 cm | 1.1 mm | 10 | **1.107 kg** |
+
+**The SAME AREA of block:**
+
+| Block | Springs on the test area | **Load** |
+| :--- | :--- | :--- |
+| **256 / m²** | 9 | **18.360 kg** |
+| **Multipacket** | 20 | **29.460 kg** |
+| **1000 / m²** | 36 | **39.852 kg** |
+
+> **→ ⚠️⚠️ BOTH CAMPS WERE RIGHT ABOUT DIFFERENT LEVELS.** **A spring from a 1000-block is the WEAKEST individually — about half the 256-block spring — yet the 1000-BLOCK is roughly TWICE as strong as the 256-block over the same area.**
+>
+> **So "don't chase the count" is right as a warning against reading the number as a quality score, and "denser is better" is right about how the BLOCK behaves. The disagreement was a level confusion, and this page can now say so.**
+>
+> ⚠️ **His own rig, not independently reproduced — but the method is simple enough that it could be.**
+
+### ⚠️⚠️ Coil count — a variable this page did not have, with a failure mechanism
+
+> ***«Жёсткость пружины обратно пропорциональна числу рабочих витков.»*** **More coils → softer, smoother. Fewer coils → stiffer and cruder.**
+
+**⚠️⚠️ The "anti-crisis" product he found at a fittings wholesaler: a 14 cm spring with 3.5–4 coils instead of the standard 6** — *«из пружины половину материала забрали»*.
+
+**The mechanism: fewer coils → greater pitch → greater twist angle → load on fewer coils and more per coil → higher wire stress → plastic deformation → faster fatigue and microcracks → softening, loss of load-bearing, eventually fracture.** **⚠️ All else equal at 100 kg, he predicts 4 coils fails first, then 6; 10 coils lasts longest.**
+
+### ⚠️⚠️ A mattress fails by losing STIFFNESS long before it loses THICKNESS
+
+> **They dissected a used spring mattress. Thickness loss was about a centimetre — small. But loading locally with two 10 kg plates 3.5 cm thick: on an unloaded area the plate sat on top; where the sleeper had lain it sank the full 3.5 cm.**
+>
+> ***«Потеря толщины небольшая, а вот потеря жёсткости — этого хватило, чтобы человек уже сказал: всё, я не могу на этом спать.»***
+
+> **→ ⚠️⚠️ YOU CANNOT JUDGE A WORN MATTRESS BY LOOKING AT IT.** **"It isn't sagging" is the wrong test.** **This page had service-life discussion and no test for when the life has ended; this supplies one — load a slept-on area and an unused area and compare how far each sinks.**
+
+### ⚠️⚠️ Two more density manipulations, and the foam marking decoded
+
+- **⚠️ The spring unit is per SQUARE METRE** — independently corroborating this page's existing Гуру Сна finding that the count is quoted in a gamed unit. *«Может, они имеют в виду на спальное место? А может, на матрас?»*
+- **⚠️⚠️ NEW — STACKING BLOCKS DOES NOT CHANGE DENSITY.** Put a second 256 block beneath the first and it is still 256/m². **Density is AREAL, not volumetric.**
+- **⚠️⚠️ The same error for springless, where the unit is kg/m³: making a BIGGER mattress from density-18 foam does not raise its density** — *«вы можете сделать матрас 10 м на 20 м при плотности 18 — она так и будет 18»*. He says grades **18, 20, 22 have effectively no load-bearing.** ⚠️ **Consistent in direction with this page's Мебель & Текстиль figures (plain foam 10–15, furniture-grade 35–40).**
+
+**⚠️⚠️ FOAM MARKING DECODED — MARK + DENSITY + comfort number:**
+
+| Mark | Meaning |
+| :--- | :--- |
+| **HS** | hyper-soft |
+| **S** | soft |
+| **ST** | standard firmness |
+| **EL** | raised load-bearing — firm |
+| **HL / «Ашель»** | high load-bearing — super firm |
+| **HR** | high resilience |
+| **L** | **latex-LIKE foam** |
+
+> **⚠️⚠️ THE MIDDLE NUMBER IS DENSITY, AND DENSITY DETERMINES SERVICE LIFE** — how long the piece holds its initial state with minimal loss of firmness and thickness. **THE LAST NUMBER GOVERNS ONLY COMFORT.** **So "Ашель 4065" reads: mark Ашель, density 40, comfort 65.** **→ This page already says to ask how many CENTIMETRES of each named filler; now it can also say to read the DENSITY DIGIT.**
+>
+> ⚠️ **Naming trap: L and HR are latex-LIKE, *«никак не искусственный латекс»*. And a material at 15–20% natural content is not "natural" — *«был бы он хотя бы 50 на 50»*.**
+
+### ⚠️ Two more claims he calls outright fake
+
+- **⚠️⚠️ "Double / triple tempering" is FAKE.** Modern tempering is **by impulse as the spring is wound**; there is no repeated furnace firing. He likens it to *«двойная, тройная мерсеризация»* in textiles.
+- **⚠️⚠️ Proprietary steel-grade claims are FAKE** — factories use high-carbon steel.
+
+> **→ These join the pattern this page has now collected across FIVE sources: certificates prove nothing; filler names without thicknesses are meaningless; branded foams are just polyurethane; and now tempering and steel grade.** **The common shape: the spec sheet is decorated on exactly the axes a buyer cannot check.**
+
+## ⚠️⚠️ The Textile Layer — the Part This Page Had Nothing On (Light Sleep, added 2026-09-14)
+
+**Fibre taxonomy, stated precisely: NATURAL exists ready-made; ARTIFICIAL is man-made from natural polymers needing no synthesis; SYNTHETIC is built from monomers, i.e. petrochemicals.** **⚠️ So viscose is ARTIFICIAL — neither natural nor synthetic — and polyester is SYNTHETIC, *«не является… искусственным, как заявляют некоторые»*.**
+
+**⚠️⚠️ The number that drives the whole section: a sleeper loses 100–300+ ml of water a night**, so the textile against the body must absorb it and give it up again.
+
+| | **Hygroscopicity** |
+| :--- | :--- |
+| Cotton | **7–8%** |
+| **Viscose** | **⚠️⚠️ 12–14% — nearly double cotton** |
+| **Polyester** | **⚠️⚠️ 0.5%** |
+
+- **Viscose** also brings low pilling and shrinkage, low static (*because* it is hygroscopic), good air permeability, and **high thermal conductivity — it COOLS, which is what you want under a body.** **⚠️⚠️ Its main weakness: it loses up to 50% of its strength WET**, plus poor form stability and wash resistance. **→ The care rule that follows: clean a mattress top DRY, or damp but delicately — no scrubbing, no wringing, no sun-drying.**
+- **Polyester** is strong wet and dry, form-stable and abrasion-resistant — **but 0.5% hygroscopicity and poor air permeability mean the night's moisture stays under you, you overheat, you sweat more, and it compounds.** **Plus high pilling and high static.**
+- **⚠️⚠️ AND A CROSS-CATEGORY CORROBORATION: he says anti-pilling and antistatic treatments are *«всё это ненадолго»* and must be reapplied continually** — **the same structural claim as [[14_Furniture/analysis/Upholstery_Fabric_Selection|Якоби's anti-vandal debunk]]: an applied treatment is not a material property and it expires.**
+
+### ⚠️⚠️ g/m² does not describe a nonwoven — and there is a free hand test
+
+**Two bulk nonwovens, BOTH 300 g/m², visibly different in thickness.** The better one differs in three ways: **hollow fibre** rather than solid; **highly crimped, spiral** fibre rather than straight; **vertical, partly chaotic laydown** rather than horizontal. **Result: a far more developed network of air channels, so better air permeability, better moisture transport, and better form stability — pressing the horizontal-laydown sample leaves a mark.**
+
+> **→ ⚠️⚠️ EVEN THE DENSITY FIGURE IS INSUFFICIENT.** **This goes a step beyond the vault's existing "density is the variable, the name is noise" finding on mineral wool: here two materials identical on the spec line behave differently.**
+>
+> **⚠️⚠️ THE HAND TEST: pull the material. HORIZONTAL laydown separates into layers — *«она расползается… идёт пластами»*. CHAOTIC or VERTICAL laydown holds together — *«оно как одно целое»*.** **Free, physical, and it tests a property no label states.**
+
+⚠️ **One construction position recorded without endorsement: his own build uses NO foam perimeter at all — a full 1000-spring block edge to edge, which he attributes to American premium practice. This vault has no other material on edge construction, so it stands as one manufacturer's position rather than a settled question.**
+
+⚠️⚠️ **SOURCE CAVEAT: a seller, with a salon address and supplier credits, whose pitch IS its own transparency. Kept because the measurements are reproducible and the conclusions check out against the four voices already here.** **His textile material is credited to a named course by a textiles docent at Vitebsk State Technological University — a credential claim, not a citation.**
+
+[source: [[_Sources/YT_lPrTtkfxIJg_lightsleep_mattress_materials_science|YT_lPrTtkfxIJg]] (+9UR1nuMh9os)]

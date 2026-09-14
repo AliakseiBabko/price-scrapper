@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=vwM08Vu31Gc",
+  "video_id": "vwM08Vu31Gc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T18:34:13.305694+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "20f29b99504d60c49870394f186f017f34cfb837fb1ba09e2c201a97c0b70311",
+  "attempts_before_success": [],
+  "upload_date": "2021-09-26",
+  "upload_date_source": "yt-dlp"
+}

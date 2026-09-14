@@ -220,3 +220,36 @@ See **[[12_Engineering_and_Systems/analysis/Electrical_Panel_Design_and_Assembly
 > **⚠️ JURISDICTION FLAGGED. He names no norm and no country.** **2.5 mm² for an oven or hob and a dedicated circuit per high-load appliance is near-universal domestic practice rather than a local peculiarity — but it is stated here as trade practice, not as a cited requirement.**
 >
 > **⚠️⚠️ Standing rule 4: this does NOT go to `16_Legal_and_Regulations/`. A Belarusian requirement must be confirmed against the Belarusian norm separately, and this source is not evidence of one.** [source: [[_Sources/YT_l4HipwaUxpc_dmitry_hvac_renovation_start_checklist|YT_l4HipwaUxpc]]]
+
+
+## ⚠️⚠️ «Вода внизу, электрика наверху» — Five Reasons for Ceiling Routing (REMCRAFT, added 2026-09-14)
+
+1. **⚠️⚠️ THE CLEARANCE RULE MAKES FLOOR WIRING NON-COMPLIANT.** Per ПУЭ a water pipe and a cable must keep **≥5 cm at a perpendicular crossing and ≥10 cm running parallel.** With the plumbing in the floor and a screed usually **no more than 10 cm total**, 5 cm is not available. *«Можно просто забить на это правило… мы для себя решили, что всё-таки будем придерживаться правил.»*
+2. **⚠️ Ceiling runs go WITHOUT corrugated conduit; floor runs cannot.** At realistic densities that means a multi-layer bundle of conduit down the corridor to the panel — **and screed needs a rigid base, so it would bear on conduit.** *«Так делать нельзя.»*
+3. **⚠️ Shadow and hidden skirtings already need a deep recess**; wiring arriving from the floor would force chasing deeper above them — *«пол стены выдолбить»*.
+4. **⚠️⚠️ WATERPROOFING — the reason this vault did not have.** With floor wiring a chase rises to every point from the floor: **on his object that is 100+ places where the waterproofing must be breached and then patched**, with correspondingly high human-factor and leak exposure.
+5. **⚠️ With every chase strictly above, you know where cable is without a drawing** — look at a back-box: nothing below, chase above.
+
+> **⚠️⚠️ AND HE NAMES THE REAL REASON PEOPLE DO IT IN THE FLOOR, against his own trade: it is simply easier, and greater labour means greater cost.** He notes firms do floor wiring and market it as excellent.
+>
+> ⚠️⚠️ **JURISDICTION: ПУЭ is Russian. Flagged and deliberately NOT routed to `16_Legal_and_Regulations/`, which is Belarus-only.** **The 5 cm / 10 cm separations are recorded as the shape of the constraint; the Belarusian equivalent has not been checked here.**
+
+### ⚠️⚠️ The ШЛЕЙФ myth — the prohibition is real but narrower than it is quoted
+
+> **The common claim is that daisy-chaining sockets is forbidden. His correction: what ПУЭ forbids is joining PROTECTIVE conductors — the EARTH — in a daisy chain. Some extend that to phase and neutral, which the rules do not say.**
+>
+> **Their implementation: the earth conductor passes THROUGH each back-box with a separate branch to each socket, and is never broken.**
+
+> **→ ⚠️ A precise scope correction rather than a "trust me" claim, and exactly the kind of half-remembered rule that costs money when over-applied.** ⚠️ **Russian ПУЭ again — same flag. What transfers is the DISTINCTION between the protective conductor and the live conductors, which is a physical-safety argument rather than a local drafting quirk.**
+
+### ⚠️⚠️ Ceiling junction boxes vs distribution at the switch block — two practitioners, opposite choices
+
+| | **Ceiling junction boxes** (Шемчук) | **Distribution at the switch block** (REMCRAFT) |
+| :--- | :--- | :--- |
+| Re-assigning which switch runs which zone later | **not possible once commuted** | **⚠️ possible — swap switches and zones freely** |
+| Cable used | less | **⚠️ more — on his flat, 140 m extra lighting cable** |
+| Maintenance | **⚠️ solved by DOCUMENTING box positions** so the owner finds them behind a stretch ceiling in 10–15 years | not applicable |
+
+> **→ ⚠️⚠️ BOTH ARE REASONED AND THEY OPTIMISE DIFFERENT THINGS.** **Шемчук buys cheapness and documents his way out of the maintenance problem; REMCRAFT buys reconfigurability and pays 140 m of cable for it.** **Recorded as a genuine split rather than a right answer — and the deciding question is whether you expect to change the lighting control after the works.** See [[00_Master/Planning_Project_Deliverable_Set|Planning Project Deliverable Set]] for Шемчук's documentation approach.
+
+[source: [[_Sources/YT_JpGKJz8WDew_remcraft_flat_electrics_rules|YT_JpGKJz8WDew]]]

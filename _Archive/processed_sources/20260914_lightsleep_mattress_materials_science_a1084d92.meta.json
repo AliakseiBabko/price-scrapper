@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=lPrTtkfxIJg",
+  "video_id": "lPrTtkfxIJg",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T18:23:23.909813+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "a1084d92962071a7de3e75feb3a62ea1c410925875732e39af5695c42aabd776",
+  "attempts_before_success": [],
+  "upload_date": "2026-07-04",
+  "upload_date_source": "yt-dlp"
+}
