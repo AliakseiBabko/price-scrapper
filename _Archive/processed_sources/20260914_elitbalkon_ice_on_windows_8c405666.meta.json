@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=SM4AnGeEvDI",
+  "video_id": "SM4AnGeEvDI",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T15:10:21.973049+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "8c4056669b5887338e404222187f63bacb522e4c335b8298df38783ab3df5946",
+  "attempts_before_success": [],
+  "upload_date": "2024-01-30",
+  "upload_date_source": "yt-dlp"
+}

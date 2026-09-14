@@ -110,3 +110,48 @@ work risks it lifting unexpectedly.
 Архитектор Виталий Злобин (independent architect, own channel, country-house practice, `single-account`, region unresolved) flags a specific glazing product for a bathroom/WC window whose *facade* appearance needs to read as a normal window from outside (matching the building's overall window rhythm/proportion) while the *interior* needs full privacy: an opaque/"blind" double-glazed unit that looks like ordinary glass from the exterior but transmits no light or view into the room. A solved alternative to a merely frosted/translucent pane (which still passes daylight and vague shapes) where full opacity plus a conventional facade look are both required. [source: [[_Sources/YT_uG1p1j9iAZ4_zlobin_wc_bath_practice_pt2|uG1p1j9iAZ4]]]
 
 [source: [[_Sources/YT_92hhojQNQTw_sidorik_pvc_window_replacement|YT_92hhojQNQTw]]]
+
+## ⚠️⚠️ Two Terminology Traps That Change What Gets Ordered (added 2026-09-14)
+
+**Two Russian glazing companies, independently, each name a term customers reliably use to mean something other than what it says. Both change the order.**
+
+### ⚠️⚠️ Trap 1 — a КАМЕРА is a cavity, not a pane
+
+> ***«Стеклопакеты — это именно стёкла, сколько камер между стёклами. В данном случае у нас двухкамерный стеклопакет, потому что вот они две камеры здесь. Когда два стекла — это получается одна камера.»*** — Окна 2.0 / Анна
+
+| Term | Panes | Cavities |
+| :--- | :--- | :--- |
+| **однокамерный** | **2** | 1 |
+| **двухкамерный** | **⚠️⚠️ 3** | 2 |
+| **трёхкамерный** | **4** | 3 |
+
+> **⚠️⚠️ THIS VAULT HAD IT WRONG IN ONE PLACE, AND IT WAS THE WORST PLACE FOR IT.** [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]] read **"Double-pane (двухкамерный) glazing … is non-negotiable"** — understating the spec by an entire pane, in the one sentence phrased as a purchasing instruction. **Corrected 2026-09-14.** Every other occurrence in the vault correctly says "double-chamber", so this was a single slip rather than a misunderstanding — but a slip you would have read out to a supplier.
+>
+> **⚠️ The second half of the trap: камеры exist in BOTH the profile and the glass unit, and they are unrelated counts sharing a word.** **The vault's own spec floor — "70 mm five-chamber profile with a 40 mm two-chamber unit" — contains two different chamber counts meaning two different things.**
+
+### ⚠️⚠️ Trap 2 — "двойные стеклопакеты" almost always means двойные РАМЫ
+
+> **People ask ЭлитБалкон to quote "double glazing units" and turn out to mean TWO SEPARATE FRAMES with a gap between them — open one sash, then the other — not a sealed unit (two panes bonded with a spacer at 32 / 40 / 50 mm).**
+
+**Used for genuinely cold regions or a genuinely noisy street.** ⚠️ **He calls double frames *«единственное решение, как помещение сделать максимально тихим»*.**
+
+> ⚠️ **Pair against Окна 2.0, who answers the same noise problem with a three-chamber (4-pane) unit plus acoustic glass or film.** **Two tiers rather than a contradiction: she specifies within one frame, he says past a point only a second frame will do.**
+
+**⚠️⚠️ Construction details, which are the non-obvious part:**
+
+- **The two frames are NOT identical and NOT flush. The OUTER frame is SMALLER and the INNER LARGER**, because the outer sash must pass through the inner frame to be opened for cleaning or ventilation; special extension elements reduce the outer frame. From outside it is inconspicuous; from inside the inner frame reads slightly larger and set inward.
+- **⚠️⚠️ TEMPERED (закалённое) glass is required, especially on a sunny elevation, against THERMAL SHOCK (термошок) cracking the pane.** **→ The vault had nothing on thermal shock in glazing, and the mechanism is specific to this construction — a trapped cavity between two frames heating unevenly.**
+
+## ⚠️ Profile Depth, Spacer Bars and Gaskets (Окна 2.0 / Анна, added 2026-09-14)
+
+- **PVC profile mounting depths: 60 / 70 / 80 mm**, differing in internal chamber count; deeper is warmer. ***«Разница между профилями в стоимости не такая уж и большая, поэтому, выбирая профиль более толстый, вы не так уж много переплатите, но получите намного больше плюсов.»*** **→ Corroborates this vault's existing 70 mm spec floor and supplies the ladder it sits on.** ⚠️ **ЭлитБалкон independently gives the same floor as "70 mm пятикамерный or thicker, unit from 40 mm двухкамерный" — third arrival.**
+- **⚠️⚠️ SPACER BARS (дистанционные рамки) between panes come in aluminium or plastic. Aluminium is colder; plastic conducts less, so the same unit is warmer.** **→ A "warm edge" item that is invisible once installed, costs little at order time, and was absent from this vault.**
+- **⚠️ GASKETS: rubber, silicone or EPDM.** Her company specifies **EPDM only** as the most durable — *«при использовании других видов уплотнителей впоследствии начинаются проблемы с продуванием»*. ⚠️ **Her own practice, self-interested, single-account — but a named spec you can ask for.**
+- **⚠️ Single-chamber (2-pane) units are acceptable in a flat only on the balcony block or on the loggia itself; on a window opening directly outside she says it is *«крайне не рекомендуется и вообще запрещено ГОСТом»*.** A busy road calls for a three-chamber unit plus acoustic glass or film.
+
+> [!WARNING]
+> **⚠️⚠️ RUSSIAN REGULATORY CLAIM — flagged in place and deliberately NOT routed to `16_Legal_and_Regulations/`, which is Belarus-only.** **No GOST number is cited, so it is `unverified` even as a Russian claim.** **Recorded as the shape of the constraint — that single-chamber units on external windows are treated as substandard in the RU market — and asserting nothing about Belarusian requirements.**
+
+> ⚠️ **One tension worth noting: she closes by answering the brand question with a brand (REHAU, 95% of her company's work for four years), where this page opens with "Profile Brand Is Not the Real Quality Differentiator". Her own reasoning throughout is about components and specs; the brand is a summary shortcut, and she is a seller naming the system she stocks. Not adopted.**
+
+[sources: [[_Sources/YT_M8ho5TC86eQ_okna20_choosing_pvc_windows|YT_M8ho5TC86eQ]], [[_Sources/YT_2OCpQtu3fp8_elitbalkon_window_hardware_and_double_frames|YT_2OCpQtu3fp8]]]

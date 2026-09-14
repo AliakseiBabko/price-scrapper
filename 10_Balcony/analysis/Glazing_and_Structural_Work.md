@@ -126,3 +126,48 @@ Masonry walls built up and plastered, plus client-driven replacement of the doub
 - **⚠️ New buildings with unified facade glazing, which this page did not previously cover**: either **add a second pane into the existing unit**, or **install your own warm glazing as a second contour inside the building's overall glazing.**
 - **Either way the glazing has to change** — "в любом случае остекление нужно менять."
 - **⚠️ Windowsill blocks (подоконные блоки): whether they may be removed is specific to the building's construction and series — verify for the actual building.** She declines to generalise, and that refusal is itself the instruction.
+
+## ⚠️⚠️ The Cantilever Limit Gets a Number, and Five Installation Defects (Окна 2.0 / Анна, added 2026-09-14)
+
+**This page's existing cantilever content (Безверхая, above) is entirely qualitative — a cantilever "cannot carry much weight", heavy glazing on an old-fund balcony is *«небезопасно»*, a loggia *«может вынести хоть слона»*. A Russian glazing company supplies the missing quantity.**
+
+> ***«Нагрузка на плиту по стандартам может быть не более ориентировочно 400 кг. Соответственно, если поставить тяжёлое остекление на металлический парапет на таком выносном балконе, вполне вероятно, что это всё может просто рухнуть — и плита вместе с вашим новым остеклением.»***
+
+> **→ ⚠️⚠️ Roughly 400 kg on an outrigger slab (выносная плита) in a panel building.** **That turns "get a structural check" into something checkable — the supplier's own glazing weight against a number.**
+>
+> ⚠️ ***«Ориентировочно»* is her own hedge, no standard is cited, and this is the slab's total permissible load rather than a glazing allowance. An order-of-magnitude anchor, not a design value.** **Consistent in direction with Безверхая: both say a cantilever's capacity is the binding constraint and a loggia's is not.**
+
+### ⚠️ Five installation defects, all inspectable
+
+1. **⚠️ Canopy (козырёк) pitched the wrong way.** It must fall OUTWARD so rain and snow run to the street. **Water reaching the mounting seam (монтажный шов) gives leaks and mould.**
+2. **⚠️⚠️ Heavy warm PVC glazing on a standard outrigger slab** — the 400 kg limit above.
+3. **⚠️ New glazing on an OLD parapet.** If the existing parapet is loose or decayed the frame will skew *(«раму может повести, перекосит»)* and the glazing will not last. **Inspect the parapet before ordering.**
+4. **⚠️⚠️ Exposed foam.** Every mounting seam must be closed from outside with **нащельники** (cover strips) sealing the foam against UV and moisture. **Otherwise it turns orange, breaks down, and then leaks and draughts.** **→ Visible from the street on other people's balconies, which makes it the easiest defect in this folder to learn to spot before it is yours.**
+5. **⚠️ П-shaped and bay (эркерные) balconies need purpose-made 90° or bay CONNECTORS at the corner junctions between frames — not foam plus a cover strip.** Some firms simply foam the joint; proper connectors butt and seal against both frames and resist draughts and leaks.
+
+### ⚠️ Two sash traps that only show up in plan
+
+- **Sliding sashes cost less than tilt-and-turn**, so use them where the function is not needed — **⚠️ but arrange the openers so you can physically REACH THE GLASS TO WASH IT.**
+- **⚠️⚠️ Sash WIDTH against balcony DEPTH.** Her real case: a customer specified 1 m sashes, which on opening struck the back wall, **damaging both the wall finish and the sash.** **→ Invisible on an elevation; obvious in plan.**
+
+### ⚠️⚠️ Specify extension profiles NOW even if the insulation comes LATER — two sources, one complete argument
+
+> **Окна 2.0:** *«Если вы сейчас не планируете сразу после остекления утепление либо отделку — задумайтесь об этом наперёд и предусмотрите заранее специальные доборные профиля. Об этом у вас должен обязательно уточнить замерщик при замере.»*
+>
+> **⚠️⚠️ ЭлитБалкон supplies the mechanism she omits:** extension profiles compensate for the thickness of insulation plus finish, **so the finish does not overlap the glazing bead (штапик) or the glass unit.** **If it does, and the unit later cracks, it cannot be replaced without demolishing the interior finish** — *«всё, что сделали, потом придётся сломать»*. He reports getting these requests and having to refuse them.
+
+> **→ ⚠️⚠️ Two unrelated companies naming the same component in one batch. It is decided at glazing-measurement time or not at all, it costs almost nothing then, and the price of omitting it is paid years later by a cracked pane.**
+>
+> **⚠️ Bears directly on this project's cold-balcony plan**: cheap single-glass aluminium is the right spec for a deliberately unheated balcony (see below), **but it forecloses a later warm conversion unless the extension profiles are ordered now.**
+
+### ⚠️⚠️ Don't over-spec a balcony you intend to leave COLD
+
+> ***«Если вы не собираетесь утеплять ваш балкон либо лоджию, то не стоит туда выбирать толстый профиль и стеклопакет. Если это останется холодным помещением — выберите недорогое алюминиевое остекление с одним стеклом.»***
+
+Full warm glazing — double-chamber unit, coating, insulation — is for when a study or a room-joined space is intended. **She claims the difference is roughly a factor of two.**
+
+> **→ ⚠️⚠️ DIRECTLY RELEVANT: this project's balcony is planned unheated and three-season** (see [[10_Balcony/Balcony_Index|Balcony_Index]]'s Family Needs section). **This is the first source in this folder to state the converse of its own heavy warm-glazing spec floor — that on a deliberately cold balcony that floor is money spent for nothing.**
+>
+> ⚠️ **She sells both, so the advice runs against her higher-margin product, which is the direction that lends it weight.** **Read together with the extension-profile finding above: cheap now is right, provided the option to upgrade is not thrown away with it.**
+
+[sources: [[_Sources/YT_w2x6LPIvZw0_okna20_balcony_glazing_five_mistakes|YT_w2x6LPIvZw0]], [[_Sources/YT_gRQaOBGDBa4_elitbalkon_balcony_thermal_envelope|YT_gRQaOBGDBa4]]]

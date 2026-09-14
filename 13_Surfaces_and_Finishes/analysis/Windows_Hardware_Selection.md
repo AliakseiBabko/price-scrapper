@@ -51,3 +51,48 @@ Two specific adjustments, one tool (a 4mm hex key) — **explicit scope limit**:
 ## Condensation Fix: Windowsill-Drilled Directional Vent
 
 When a wide windowsill blocks radiator warm air from reaching the glass (severe cases: a rag has to be laid along the frame to catch water), drill a hole through the sill directly opposite the center of each glass unit and insert a directional grille, one per pane — restores warm-air flow to the lower glass and stops fogging. **Explicit caution: only drill the sill if condensation is actually a problem** — don't drill preemptively.
+
+## ⚠️⚠️ Ice and Condensation on Windows — the Cause, Where This Page Held Only the Cure (ЭлитБалкон / Владимир Кожушко, added 2026-09-14)
+
+**This page already carries a "Condensation Fix: Windowsill-Drilled Directional Vent". That is a retrofit. This is the diagnosis it exists to treat.**
+
+> ***«Окно — это же не греющий элемент помещения, это не радиатор, это не толстая стена. Окно — это светопрозрачная ограждающая конструкция.»***
+
+**Thermal imaging as he describes it:** wall at +22, window surface +17 or +15, some places +5, and somewhere around **0 °C**. **At −20 to −25 outside, that zero-degree zone is where ice forms.**
+
+**⚠️⚠️ AND THE QUESTION THAT REFRAMES THE PROBLEM:**
+
+> ***«Окно — это же не источник воды. Там нету ни родника, там нету подведённого трубопровода.»***
+
+> **→ ⚠️⚠️ THE MOISTURE COMES FROM INSIDE THE ROOM. Ice on a window is a HUMIDITY problem, not a window problem — the window is simply where the coldest surface happens to be.** **Replacing the window does not address the cause.**
+
+**His remedies, in order, and note every one is about the AIR rather than the glass:**
+
+1. **Open the sash slightly.** Winter air is cold and dry; it dilutes the moisture-laden indoor air, which then leaves via the extract.
+2. **If you will not open it — a wall valve or supply unit**, so air enters through the wall instead. He notes this also spares houseplants a cold draught.
+3. **A dehumidifier**, mains-powered, collecting into a reservoir.
+4. **⚠️⚠️ REMOVE THE MOISTURE SOURCES, named concretely: an aquarium, watering plants, and raising the room temperature.** Move the aquarium elsewhere; water plants less or move them out. **→ This vault had nothing naming indoor humidity sources at all.**
+5. **⚠️⚠️ THE RADIATOR IS A SCREEN (ширма).** It cuts off the cold air falling off the glazing **and keeps humid room air from reaching the glass and profile in the first place.**
+6. **⚠️⚠️ THE WINDOWSILL TRAP: a sill that overhangs and covers the radiator stops it doing that — the heat goes forward into the room instead of up across the glass.** ***«Чем шире подоконник, чем он больше перекрывает радиатор, тем хуже.»***
+
+> **→ ⚠️⚠️ ITEMS 5 AND 6 ARE THE ACTIONABLE PAIR, because they turn a cosmetic decision into a performance one.** **Windowsill depth is normally chosen on looks and on whether you want to stand things on it. This says an over-deep sill above a radiator CAUSES the condensation that the drilled-vent fix above exists to retrofit.** **Decide sill depth and radiator position together.**
+>
+> ⚠️ **Single-account, no measurements offered, and a contractor rather than a building physicist — but the causal chain is checkable and it is consistent with this vault's ventilation material.** **It also matches his own insulation finding that the thinnest, coldest spots are where mould appears.**
+
+## ⚠️⚠️ Hardware Is a SPARE-PARTS Decision, and the Handle Order Is a Specification (same source)
+
+**People write to him naming two brands and asking which is better. He declines the question and substitutes three criteria.**
+
+**⚠️⚠️ 1. Is the brand still SUPPORTED where you live.** Better-known is better, and present in your city or country is better still — **because then it can be repaired.** A lesser-known brand may leave the market: no updates, no stock, and then the hardware cannot be serviced. What happens instead is that parts get **"married" (женить)** to each other — a broken corner switch or hinge replaced from another system. **The trade's own answer, he says, is to scrap the old hardware and fit something current that is actually available.**
+
+> **→ ⚠️⚠️ Window hardware is a SPARE-PARTS-AVAILABILITY decision on a 15-year horizon, not a performance decision.** **A different and more useful frame than "buy reputable hardware": the hardware WILL need service, and the question is whether parts will still exist.**
+
+**⚠️⚠️ 2. Go and operate it — and treat inability to show it as information.** If a window company has no office and does not have the hardware to show, *«это уже звоночек»*; they may never have handled it. **Feel for it: poor hardware is *«твёрдая, чёрствая»* and works stiffly, good hardware is *«помягче»* and closes and adjusts easily.** Ask what can break and whether there is a representative in the country. ⚠️ **Same test as the cutaway-stand check on [[13_Surfaces_and_Finishes/analysis/Entrance_Door_Construction_Spec|Entrance Door Construction & Spec]] — two unrelated trades, one idea.**
+
+**⚠️⚠️ 3. The opening ORDER — tilt first, not swing first.** On a tilt-and-turn sash, when the handle reaches 90°, specify that the sash TILTS first. His reasons: ventilation is the frequent action; **it prevents condensate** (which is the section above); **the sash does not sag, because tilting does not hang its weight on the side hinges**; and a child who has tilted a sash will not work out that it must be pushed back before the handle can be raised.
+
+> **→ ⚠️⚠️ THE ANTI-SAG POINT INDEPENDENTLY CORROBORATES this page's existing Zemskov finding** — that a heavy sash operated by full swing bears its weight on the side hinges and deforms, his worked example being a ~2×2 m sash failing within about a week. **Zemskov's remedy is to RESTRICT a large sash to tilt-only; this generalises it to the default handle order on any sash, and it costs nothing to specify at order time.** **Second independent source, same mechanism.**
+
+**His summary: *«бренд, плавность хода, возможность обслуживания и удобство открывания»*.**
+
+[source: [[_Sources/YT_2OCpQtu3fp8_elitbalkon_window_hardware_and_double_frames|YT_2OCpQtu3fp8]] (+-L00JLZJQ-c); ice section from [[_Sources/YT_Nr5_Pma2Tvg_elitbalkon_ventilation_and_condensation|YT_Nr5_Pma2Tvg]] (+SM4AnGeEvDI)]

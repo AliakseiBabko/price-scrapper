@@ -13,7 +13,7 @@ Part of [[10_Balcony/Balcony_Guide|Balcony Guide]].
 > is retained for reference despite not being adopted. [source: [[_Sources/YT_Qt4uGvGRYT0_petrishin_balcony_insulation|Qt4uGvGRYT0]]]
 
 - **Fundamental principle**: insulation conserves heat, it doesn't generate it — pointless without a real heat source. **Water/hydronic radiators are illegal on a balcony/loggia** — independently corroborates the Glazing page's Zemskov-sourced legal-risk finding with a second, unrelated company's own stated practice. Electric radiator is the legal alternative; recommended combination (where heating is wanted) is heated floor + electric radiator.
-- **Window glazing is a hard prerequisite independent of insulation thickness** — even 10cm of two-layer insulation is pointless behind thin, draft-prone frames. Double-pane ("двухкамерный") glazing from a reputable, genuinely non-drafting manufacturer is non-negotiable.
+- **Window glazing is a hard prerequisite independent of insulation thickness** — even 10cm of two-layer insulation is pointless behind thin, draft-prone frames. **⚠️⚠️ Двухкамерный** glazing from a reputable, genuinely non-drafting manufacturer is non-negotiable. **(CORRECTED 2026-09-14: this line previously read "Double-pane (двухкамерный)", which is wrong by a whole pane. A камера is the CAVITY between panes, not a pane: однокамерный = 2 panes, двухкамерный = THREE panes, трёхкамерный = 4. Every other occurrence in this vault correctly says "double-chamber"; this was the one phrased as a purchasing instruction, which is the worst place for it. See [[13_Surfaces_and_Finishes/analysis/Windows_Quality_and_Buying|Windows — Quality & Buying]].)**
 - **Insulation-plus-glazing effectiveness verified in practice, not just claimed** (Петришин-Строй-featured case, region level 2, added 2026-08-24, Round 6): a fully insulated balcony (пеноплекс on floor/walls/ceiling, heated floor, tension ceiling, upgraded glazing) stayed comfortable during finishing work even before radiators/heating were connected — a real-world confirmation that insulation+glazing alone can hold heat if done correctly, before any active heat source is even running. Glazing spec used: 70mm-profile REHAU frame (matches the Glazing page's Zemskov-sourced 70mm floor) with a double-chamber glass unit; the source explicitly warns that a thinner single-chamber glass unit risks freezing/heat loss at the glazing itself even with a correct frame. [source: [[_Sources/YT_JLjCveR-ft0_petrishin_1_3mln_reno_review|YT_JLjCveR-ft0]]]
 - **Material comparison**: пеноплекс ("Комфорт" variant recommended for a loggia) is the default — bonds well to concrete/brick, needs far less thickness than mineral wool for the same effect (mineral wool eats too much of a small loggia's floor area). Пенофол (foil-faced reflective roll insulation) is layered specifically at heat-source locations (behind a radiator, under a heated floor) to reflect heat back into the room.
 - **Пеноплекс thickness rule**: minimum 5cm single-layer; if doing two layers, 2.5cm each with the second layer's seams staggered/offset against the first layer's — eliminates a straight-through cold path at any single seam.
@@ -191,3 +191,54 @@ garage/sauna context. [source: [[_Sources/YT_kZ4cZs-2Xhc_stroim_dlya_sebya_loggi
 > **Russian jurisdiction, no code or article cited, and it names three different actions with different approval regimes as one category.** Treat it as a practitioner's general warning that balcony conversion is a consented activity — not as a statement of what Belarusian law requires for this project. **This vault's Belarus position on balcony joining and glazing consent is the authority for this apartment.** See [[10_Balcony/analysis/Glazing_and_Structural_Work|Glazing and Structural Work]].
 
 **⚠️ A porcelain-vs-ceramic point that bears directly on a converted balcony floor**, from the same practitioner: porcelain stoneware withstands «порядка 100 или гораздо больше ЗАМЕРЗАНИЙ И РАЗМОРАЖИВАНИЙ», whereas ordinary ceramic tile in northern latitudes «несколько раз замёрзнув и разморозившись, она просто ТРЕСНЕТ». **→ Relevant to any balcony left unheated or heated intermittently, and to the cold-balcony option above.** Full note on [[13_Surfaces_and_Finishes/analysis/Flooring_Material_Selection|Flooring Material Selection]]. [source: [[_Sources/YT_WCoqOCofPx4_nsdsgn_durable_interior_ten_rules|YT_WCoqOCofPx4]]]
+
+## ⚠️⚠️ The Middle Option: Insulate for INTERMITTENT Use (ЭлитБалкон / Владимир Кожушко, added 2026-09-14)
+
+**This page previously held two positions and treated them as the whole space: Петришин-Строй's principle that insulation conserves heat rather than generating it, so it is pointless without a heat source; and Безверхая's null option, that not converting at all is a legitimate budget choice. A Moscow balcony contractor, asked directly whether insulating a COLD-glazed balcony is worth it, gives an answer that fits neither.**
+
+> ***«Без обогревателя толку вообще не будет»*** — **and also** ***«Я, конечно же, всем отвечаю, что да, смысл есть.»***
+
+**He resolves it by DURATION OF USE rather than by whether to convert:**
+
+| Intended use | Verdict |
+| :--- | :--- |
+| **Warm year-round, as if heated** | ***«Нет, конечно, это работать не будет… вы выбросите деньги»*** |
+| **⚠️⚠️ Warm ON DEMAND for a few hours** — go out with coffee, sit with friends, heater on, pre-heated before guests arrive | ***«Вполне комфортно вы там себя будете чувствовать»*** |
+| **Insulated but with NO heater running** — expecting warmth, or storing things there | ***«Это ошибка»*** |
+
+**His analogy is the clearest statement of the underlying principle now on this page:** *«Это как в машину сесть зимой в холодную, завести двигатель, включить печку — и там через какое-то время будет тепло, потому что есть энергия тепловая.»* **Cold surfaces absorb whatever heat appears instantly; insulation stops that; the heater supplies the energy. Neither half works alone.**
+
+> **→ ⚠️⚠️ DIRECTLY RELEVANT TO THIS PROJECT, whose balcony is planned unheated and three-season.** **It says the three-season plan can be stretched into winter use for a few hours at a time by insulation plus a portable electric heater, without the full warm-conversion spend — and equally that insulating alone, with no heater, buys nothing at all.**
+>
+> ⚠️ **Independent second arrival at this page's existing "insulation conserves, does not generate" principle, from an unrelated company.** ⚠️ **He concedes a sunny aspect can give a comfortable temperature unaided, then discounts it: *«если посмотреть трезво, конечно же, без обогревателя толку вообще не будет»*.**
+
+### ⚠️⚠️ An insulation-thickness disagreement, recorded and not averaged
+
+| Source | Figure |
+| :--- | :--- |
+| Петришин-Строй (this page, above) | **пеноплекс minimum 50 mm** single-layer |
+| **⚠️ ЭлитБалкон** | **from 80 mm**, dense polystyrene-family; *«чем толще, тем лучше»*; **100 mm *«уже для тёплого помещения»*** |
+
+> **They may be answering different questions — the 50 mm is stated as a minimum for a converted loggia, the 80 mm as the target for a *maximally* warm one — but the gap is large enough that it must not be split.** ⚠️ **Neither cites a calculation.**
+
+**⚠️ WHICH SURFACES, a nuance this page's "full-contour insulation" rule did not carry:** ceiling, parapet, floor and side walls take maximum thickness; **the BACK wall, the one adjoining the heated flat, generally does NOT need insulating** — though where that junction is awkward he would insulate it thinly, **3 cm being enough.** **→ Compatible with the full-contour rule once you see the back wall is not part of the thermal envelope, and worth stating so nobody pays for 80 mm there.**
+
+**⚠️ Reflective layer over the polystyrene** — *«полистирол плюс отражающий утеплитель… получается как термос»*. **Corroborates this page's existing пенофол usage.** He adds that the glass itself carries a low-e coating reflecting energy inward (shine a torch and the beam returns), and that a thermal imager on a correct window shows a positive surface temperature at −20 to −30 outside.
+
+**⚠️⚠️ AND THE FAILURE MODE HE USES TO ARGUE AGAINST ECONOMISING:** *«при повышенной температуре и при повышенной влажности в самых тонких местах — в углах, например, или где будет меньше толщина утеплителя — может проявиться влажность, и там будет плесень.»* **→ Thin spots are cold spots, and cold spots are where indoor moisture condenses — the same mechanism as [[13_Surfaces_and_Finishes/analysis/Windows_Hardware_Selection|the ice-on-windows diagnosis]] from the same presenter.**
+
+### ⚠️⚠️ Heaters — a sizing rule, and one matched to a DEFECT rather than an area
+
+**⚠️⚠️ THE SIZING RULE: buy a heater rated for MORE area than the balcony has** — *«не на 3 м², а на 6 или 9; не на 10 м², а на 15 или 20»*. **Surplus can be turned down; running short means buying a second heater.**
+
+| Type | For | Against |
+| :--- | :--- | :--- |
+| **Oil-filled radiator** | Cheap; radiates in all directions; good for heating from the middle of a space | **⚠️ Standing in the walkway, you must walk around it** |
+| **⚠️⚠️ Fan heater** | **Named specifically for EXISTING damp, freezing or mouldy corners — it blows warm air onto them and dries them**; promotes air exchange so air does not stagnate; **dries the air** | (none named) |
+| **Wall convector** | Draws cold air in, emits warm; hung in a far corner directing heat to the centre | **⚠️ Heats only from the FRONT — does not warm the wall behind.** For a ~6 m balcony he fits **two, or three** |
+
+> **→ ⚠️⚠️ The fan-heater recommendation is the useful one and this page had nothing like it: a heater type matched to a specific DEFECT rather than to a floor area.** **It pairs with the mould mechanism above — the thinnest corners are exactly the ones a fan heater is used to dry.**
+>
+> ⚠️ **He claims to have tested radiators with a thermal imager on television expert programmes. Unverifiable; recorded as stated, not as credentials.**
+
+[source: [[_Sources/YT_gRQaOBGDBa4_elitbalkon_balcony_thermal_envelope|YT_gRQaOBGDBa4]] (+X8lB79FKcZw, hrz2UEpqVtw)]

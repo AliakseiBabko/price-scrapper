@@ -115,3 +115,55 @@ door, removing an unnecessary insulation layer) that also bear on layout.
 - **Named hardware routes**: **ceiling mounts and cable hoists for bicycles** ("велик можно подвесить к потолку и за тросы подтянуть"); a snowboard can become decoration; and for laundry, **electric ceiling-lift dryers, "лиана"-type ceiling-lift racks, and retractable dryers** — explicitly instead of the floor-standing frame that occupies the whole balcony.
 - **If a cabinet is needed: one large cabinet with opaque fronts**, not several — consistent with the tall-weatherproof-cabinet recommendation already in the placeholder above.
 - **⚠️ Style latitude worth keeping**: the balcony should "дружить" with the adjoining room, **but because it is small and not used constantly it can carry more intensity than the rest of the flat** — ethnic, eastern, boho or loft.
+
+
+## ⚠️⚠️ The Glazing Order Locks In the Whole Fit-Out (ЭлитБалкон / Владимир Кожушко, added 2026-09-14)
+
+**Four findings across one twelve-video batch turn out to be the same structural point arriving four times:**
+
+> **⚠️⚠️ THE GLAZING ORDER IS WHERE THE BALCONY'S ENTIRE FIT-OUT GETS LOCKED IN. Decisions that feel like they belong to a later and cheaper stage all have to be made BEFORE the glazing is measured, or they become impossible.**
+
+| Decision | What deferring it forecloses |
+| :--- | :--- |
+| **Where the wardrobe stands** | That section should have been **blind (глухая), not glazed** |
+| **Whether laundry dries there** | Sash positions collide with the rack — **and afterwards nothing can be done** |
+| **Whether you might ever insulate** | **Extension profiles** omitted → a cracked pane cannot be replaced without demolishing the finish ([[10_Balcony/analysis/Glazing_and_Structural_Work|Glazing & Structural Work]]) |
+| **Sash width vs. balcony depth** | Opened sashes strike the back wall ([[10_Balcony/analysis/Glazing_and_Structural_Work|same page]]) |
+
+### ⚠️⚠️ The drying rack — a real case that could not be fixed
+
+> **An owner rings: the ceiling rack fouls the sashes, the fixings slip, he cannot use it. Photos show a wardrobe on one side, opening sashes on the other, a narrow balcony, and a large ceiling rack.** ***«Я понимаю, что там ничего сделать нельзя.»*** **His advice to that owner is to put up with it and adapt.**
+
+**⚠️ THE RULE: if laundry will be dried on the balcony, the glazing configuration must be chosen around it — raised with the surveyor at measurement.** **Wardrobe doors are the second collision: a wardrobe leaf blocks a rack just as a sash does.**
+
+| Rack type | Constraint |
+| :--- | :--- |
+| **Wall-to-wall lines** (reels, fixed or removable) | **⚠️ Physically impossible where the balcony has open side sections — no end wall to fix to** |
+| **Wall-mounted concertina** | Fixes to a side or back wall, extends forward; several rails, ~1 m or more |
+| **Ceiling-mounted** | From **~2,000–3,000 RUB** to **50,000–100,000 RUB** with a mechanism and a fan |
+
+- **⚠️ Electrical coordination too:** ceiling mechanisms fix to the ceiling, where a light fitting can overheat a line or cord. **Same drawing, same decision.**
+- **⚠️ Any ceiling rack is a *«точка внимания»*** — it must be extended, stretched or lowered, and a powered one depends on electricity and a remote.
+
+> ⚠️⚠️ **PRICE FIGURES per rule 2: region Russia (Moscow); no date stated in the source, so the publication date bounds them — `price_date_basis: upper_bound_from_publication`, 2023-11-07.** **An illustrative category spread rather than a quote, and NOT transferred as a benchmark for this Belarusian project.**
+
+### ⚠️⚠️ Furniture on a COLD balcony — ЛДСП is the wrong material, and there is a specific alternative
+
+**⚠️ Plan the wardrobe's position BEFORE glazing so that section is made blind** — *«Зачем там стекло, если там будет глухо и темно?»* **⚠️ And the wardrobe is built AFTER the interior finish**, floors laid and walls made good. A ready-made cabinet **must fit through the balcony door as well as into the recess.**
+
+**⚠️⚠️ THE FAILURE MODE:**
+
+> ***«Если у вас балкон или лоджия холодные и там нет обогрева круглогодичного, то в любой момент на этой мебели может проявиться влажность, и далее может быть ещё плесень — и в итоге это ЛДСП наберёт воду и просто разбухнет.»***
+
+> **→ ⚠️⚠️ DIRECTLY APPLICABLE: this project's balcony is planned unheated and three-season.** **Ordinary ЛДСП carcass furniture — the default a joinery firm will quote — is the wrong material for it, and this folder had nothing on balcony furniture materials at all.**
+
+**⚠️⚠️ HIS ALTERNATIVE, specific and buildable:**
+
+- **Carcass from ALUMINIUM uprights** — no ЛДСП in the structure, so nothing absorbs water.
+- **Fronts from aluminium window profile** (thin, ~40 mm, hinged or sliding), **or PVC leaves built like a window** with blind PVC infill — or frosted or clear glass if you want to see in. **Laminated or painted to any colour.**
+- **Result: a wardrobe that is both water- and frost-resistant.**
+- **⚠️ Its one requirement is ventilation** — true of all wardrobes, more so if damp — **so provide deliberate gaps at the bottom under the door and at the top of it.**
+
+> **→ ⚠️ That last point corroborates two unrelated things in this vault: [[14_Furniture/analysis/Wardrobe_vs_Walkin_Tradeoff|Кулекина's]] finding that closed storage is really a dust-and-ventilation question, and [[12_Engineering_and_Systems/analysis/Breathers_vs_Mechanical_Ventilation|the same presenter's own ventilation material]] on stagnant air producing mould.**
+
+[source: [[_Sources/YT_HeUN7nE3fNA_elitbalkon_balcony_fitout_planning|YT_HeUN7nE3fNA]] (+tcPg0PbsGd8)]
