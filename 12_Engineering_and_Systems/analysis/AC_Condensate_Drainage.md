@@ -16,3 +16,15 @@ Zemstandart/Alexey Zemskov recommends: **route AC condensate drainage into the b
 Zemstandart/Alexey Zemskov recommends: **photograph the routing during installation** — this meaningfully reduces the risk that later wall work (shelving, drilling) accidentally damages a hidden line.
 - Where gravity drainage to a riser isn't feasible (e.g. the nearest riser is too far or wrong elevation), a **condensate pump** is the standard workaround, mounted inside/adjacent to the indoor unit housing.
 - **⚠️ Reliability caveat (added 2026-08-24, Round 4)**: Konstantin Kruglov/Ontario flags condensate pumps as failure-prone and noisy in practice — "no reliable long-lasting device exists" in this category per the source, and the pump's own noise creates a separate comfort problem. The source's practical recommendation is to plan indoor-unit placement so a pump is never needed at all, rather than treating it as an equivalent alternative to gravity drainage. `single-account`, `unverified`. [source: [[_Sources/YT_wsomY_6BRqA_kruglov_best_ac_2025|wsomY_6BRqA]]]
+
+## ⚠️⚠️ Condensate Goes to the SEWER, Not the Façade — and What to Do About an Existing Unit (бюро Планка, Moscow, 2026)
+
+> *«Частая беда — это дренаж. Сливают просто на фасад. Так нельзя. Дренаж должен идти в канализацию.»*
+
+- **If gravity fall is impossible** because a door or window is in the way, **a pump is used** — **⚠️ but the pump is noisy and must be soundproofed or concealed.** **→ A pump is a second decision, not a free fallback: it adds a noise source inside the room it serves.**
+- **⚠️⚠️ FOR AN EXISTING FAÇADE-DRAINING UNIT there is a partial remedy**: an **atomiser fitted to the outdoor unit** disperses the condensate as a cloud instead of a stream, so it neither stains the façade nor drips onto anything below. **⚠️ It must be REMOVED FOR WINTER — trapped water can burst it.**
+- ⚠️ **Their framing of the retrofit problem is honest and worth carrying**: on a finished renovation this is *«достаточно дорого и сложно»* and effectively unsolvable, and the cost falls on the flat owner. **→ It is a first-fix decision or it is a permanent compromise.**
+
+**⚠️ And airflow direction is a design decision, not an installer's choice:** not onto a bed, not onto the hob — *«поток воздуха проходил ВДОЛЬ СТЕН, не попадая на постоянное местонахождение людей»*.
+
+[source: [[_Sources/YT_blhGIAE-mE4_planka_engineering_systems_design_stage|YT_blhGIAE-mE4]]]

@@ -68,3 +68,34 @@ Designer Александр Синчуков, drawing the opposite conclusion fo
 - **→ This page's dedicated-circuit rule for high-power consumers already depends on knowing the appliance set; this establishes that the set must be FIXED, and preferably BOUGHT, before the joinery drawing exists — because the kitchen is calculated around real dimensions, not nominal ones. It also interacts with the push-to-open constraint recorded on [[03_Kitchen/analysis/Worktops_and_Backsplash|Worktops and Backsplash]], where a handle-free lower run narrows the dishwasher choice to one opening type.**
 
 Konstantin Kruglov / Ontario recommends: **a room-by-room socket-provisioning checklist of commonly-missed locations, even in professional design projects** — window-slope outlet for a smart speaker or holiday string lights; shoe/boot/skate dryer outlet inside a closet/walk-in (not an extension cord left in the hallway); robot-vacuum charging-dock outlet; exercise-equipment (treadmill/elliptical/bike) outlet; food-waste disposal unit outlet; security-camera power (cable or outlet, planned regardless of exact camera placement); loggia/balcony sockets (1-2, "just in case" — cited uses: charging a scooter or a motorcycle helmet); leak-detection-system power in the WC/bathroom; a sofa/armchair-zone socket in the living room (explicitly flagged as a spot designers frequently omit despite being a common laptop/phone-charging location); and an iron/garment-steamer outlet located somewhere other than the hallway/entry. [source: [[_Sources/YT_1dp7alivsLQ_kruglov_safe_sockets_switches|1dp7alivsLQ_kruglov_safe_sockets_switches]]]
+
+## ⚠️⚠️ The Allocated Power Is the Ceiling Everything Else Sits Under (бюро Планка, Moscow, 2026)
+
+**This vault carried extensive cable and panel material and not one word on the ALLOCATION that bounds all of it.**
+
+- **Typical allocated power: from 3.5 kW in old stock, 10–20 kW in new builds.**
+- **Everything must fit inside it «с учётом КОЭФФИЦИЕНТА СПРОСА»** — the diversity factor, since not everything runs at once.
+- **Named large loads: hob 5–7 kW; instantaneous water heaters 6–10 kW**; plus supply ventilation.
+- **→ ⚠️⚠️ AND IT IS KNOWABLE BEFORE ANYTHING IS DESIGNED**, from the **ТЕХНИЧЕСКИЕ УСЛОВИЯ** — see [[12_Engineering_and_Systems/analysis/Engineering_Design_Stage|Engineering Design Stage]].
+
+### ⚠️⚠️ When the load does NOT fit: sectional sequential switching
+
+A 40 m² terrace snow-melting system came to **about 1.5× the whole flat's allocation**, and the development had no spare capacity to grant — *«они все были израсходованы уже другими квартирами»*.
+
+> **The fix: split it into SEVEN circuits of ~3 kW switched SEQUENTIALLY, instead of energising 20 kW at once.**
+
+- **→ A transferable technique wherever an ambition exceeds the supply** — an instantaneous heater, underfloor heating, or an induction hob plus oven on a constrained feed. **The load is staged in time rather than reduced.**
+
+### ⚠️⚠️ Non-switchable circuits, and a deliberate «отпуск» master switch
+
+**Separate lighting breaker per room**, so a fault in one room leaves the others lit. **And — uncovered here until now — NON-SWITCHABLE lines for the fridge, alarm and internet**, so that a master switch in the panel used when leaving *«чтобы, когда вы уезжаете и выключаете рубильник, холодильник продолжал работать»*.
+
+- **→ A cheap decision that can only be made at panel-design time**, and it has to be drawn before the panel is built.
+
+### ⚠️ Low-current, before the walls close
+
+*«Интернет-кабель надо тянуть ДО ТОГО, как зашьют стены. И не просто витую пару, а иногда ОПТОВОЛОКНО, потому что провайдеры переходят на него.»* **Always lay закладные трубы (conduit) so changing provider does not mean chasing walls.**
+
+⚠️ **One anecdote on УЗМ, recorded as an anecdote and not a failure rate**: a client's УЗМ tripped **12 times in two months**, and *«его сосед без УЗМ в тот же день лишился ноутбука и телевизора»*.
+
+[source: [[_Sources/YT_blhGIAE-mE4_planka_engineering_systems_design_stage|YT_blhGIAE-mE4]]]

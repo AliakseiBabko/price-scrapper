@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=blhGIAE-mE4",
+  "video_id": "blhGIAE-mE4",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T10:31:50.242395+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "da10a976a6ef2dcedffbb5d2d65a595c27d9072589f20fef19261f6b787161c3",
+  "attempts_before_success": [],
+  "upload_date": "2026-09-01",
+  "upload_date_source": "yt-dlp"
+}
