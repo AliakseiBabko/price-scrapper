@@ -4,7 +4,7 @@ source_url: https://www.youtube.com/watch?v=eM6HMMmumhE
 video_id: eM6HMMmumhE
 transcript_file: _Inbox/transcripts/20260731_doors_v3_bc76b9ee.txt
 fetched: 2026-07-31
-upload_date: not independently confirmed
+upload_date: 2026-03-03 (⚠️ CONFIRMED 2026-09-14 by actually running yt-dlp, per standing rule 2. This field previously read: not independently confirmed. The tier prices recorded below are therefore RUB bounded by 2026-03-03, and this video POSTDATES the same manufacturer's 6r8IVBsXjnE (2026-01-04), with which it is consistent.)
 channel: "Входные стальные двери Novakey" (entrance steel-door manufacturer), presenter "Владислав" (Vladislav)
 source_metadata_location: not stated directly in transcript content
 language: ru

@@ -4,7 +4,7 @@ source_url: https://www.youtube.com/watch?v=Mfzce0Qm4HM
 video_id: Mfzce0Qm4HM
 transcript_file: _Inbox/transcripts/20260731_doors_v5_4995ff31.txt
 fetched: 2026-07-31
-upload_date: title states "в 2026 году" — level 1, content itself is 2026-current
+upload_date: 2025-11-28 (⚠️ CORRECTED 2026-09-14 by actually running yt-dlp, per standing rule 2. This field previously read: title states "в 2026 году" - level 1, content itself is 2026-current. That was an inference from forward-looking marketing copy in the title, and it was wrong by ~2 months across a year boundary. The correction matters: it establishes that this video POSTDATES the same speaker's YIJ332ibiyM (2024-10-22), in which he argues the OPPOSITE on steel thickness - see that note.)
 channel: "Сергей Гусев | ПРО ДВЕРИ И ПЕРЕГОВОРКИ" — same retailer as yt_COhFXPyfXxM (this batch)
 source_metadata_location: Moscow / Moscow-region ("Москва, Подмосковье") named directly in spoken content — level 1, but this is a market-positioning/pricing claim, not renovation-regulation content, so it does not route to the regulations store
 language: ru
