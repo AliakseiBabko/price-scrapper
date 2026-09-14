@@ -39,6 +39,32 @@ The functional taxonomy with heights, the pairing convention (**one bigger and l
 
 ## Source Notes
 
+## ⚠️⚠️ Beds, mattresses and what goes on them (added 2026-09-14)
+
+**This folder previously covered sofas, tables, chairs and wardrobes, and said essentially nothing about the object a third of a life is spent on.** A grep before the ARMOS round found **`независимые пружины`, `боннель` and `топпер` in ZERO files and `матрас` in one.**
+
+### The numbers worth memorising
+
+- **⚠️⚠️ Lamella spacing under a mattress: 7–8 cm maximum.** Wider and the mattress's individual springs drop into the gaps and are worked outside their design range — **the MATTRESS is what wears out, not the base.**
+- **⚠️⚠️ Measure the bed's INTERNAL opening and round DOWN**: 162 cm measured means a **160 cm** mattress. The gap takes bedding, a protector, and lift-mechanism clearance.
+- **From each person to the bed's edge or to their partner: 20 cm or more.** That is what generates the widths — child 80–90, adult single better 120, couple **from 140 as a minimum** and better 160–180.
+- **Passages around the bed: 50 cm or more.**
+- **A full adult springless mattress: 17–18 cm minimum**, from shoulder width × 3 for a side sleeper.
+
+### The three findings that change how you shop
+
+- **⚠️⚠️ FIRMNESS LABELS ARE NOT COMPARABLE BETWEEN MANUFACTURERS.** There is no standard, so one maker's "medium" is another's "soft". **An online comparison on firmness is comparing nothing** — a cross-vendor warning issued by a vendor.
+- **⚠️⚠️ TEST THE MATTRESS AND THE PILLOW ON EACH OTHER, BEFORE BUYING EITHER.** Ten minutes lying in your own sleeping position, on a bed of your bed's firmness. **Two videos that never mention one another produce one procedure.**
+- **⚠️⚠️ DO NOT BUY ON SPRING COUNT.** However many springs, each is discrete and cannot conform to fine contours — and **a higher count is bought with thinner wire.**
+
+→ **[[14_Furniture/analysis/Mattress_Construction_And_Selection|Mattress construction and selection]]** — the three-part model, spring densities, load capacity and the firmness problem, spring vs springless, and what a higher price actually buys.
+→ **[[14_Furniture/analysis/Bed_Frames_And_Bases|Bed frames and bases]]** — widths and clearances, what to inspect, the 7–8 cm rule, and building a base.
+→ **[[14_Furniture/analysis/Pillows_And_Toppers|Pillows and toppers]]** — height by sleeping position, and the two opposite kinds of topper.
+
+> **⚠️⚠️ AND A DISAGREEMENT THIS PAGE NOW CONTAINS, WHICH IS NOT RESOLVED.** The 40 cm rest-furniture height rule above is **compositional**, from Шеврина. **ARMOS gives an ERGONOMIC rule instead: bed plus mattress should come to the bend of your knee, ± a palm's width — roughly 45–50 cm for most adults.** ⚠️ **And Кузина observes that the Russian market norm IS ≤40 cm, contrasted with American beds — so the market and the design rule agree with each other and both sit BELOW the ergonomic optimum.** **The cost is paid by older users and anyone who finds a low bed hard to rise from. Decide it deliberately; see [[14_Furniture/analysis/Bed_Frames_And_Bases|Bed Frames and Bases]] §1.**
+
+> ⚠️⚠️ **`single-account`: all of it is ONE Russian mattress manufacturer across ten videos, and the vault has no second voice to check it against.** **The claims worth trusting most are the ones that work against the seller.** **Find an independent source before buying.**
+
 Traceability record kept on its own page — [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]].
 
 ## Change Log

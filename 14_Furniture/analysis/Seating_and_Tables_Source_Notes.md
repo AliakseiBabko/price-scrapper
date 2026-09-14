@@ -14,3 +14,8 @@ Extraction notes: [[_Sources/YT_GcTaKRQ3QC0_shevrina_choosing_a_sofa|GcTaKRQ3QC0
 ## Standing caveat on this source set
 
 All four are the same channel, so **nothing on these pages is independently corroborated.** The three furniture videos are also predominantly brand-by-brand surveys of the Russian market, deliberately harsh in tone; **no per-model verdict was extracted** — only the reasoning underneath, which is market-independent. When a second channel is processed on loose furniture, these pages should be re-read for claims that turn out to be idiosyncratic rather than general.
+- **ARMOS-MARKET (мебельная фабрика, Вичуга) — Tier 1 round, 10 videos, added 2026-09-14.** Triage: [`armos_channel_triage_20260914.md`](../../_Inbox/planning/armos_channel_triage_20260914.md).
+  - **⚠️⚠️ Mattress structure, spring blocks, load capacity, firmness and the ten-minute test** — [[_Sources/YT_ReYeU-jEINY_armos_mattress_selection_and_spring_blocks|YT_ReYeU-jEINY]] (+ `83N581Eu3BY`, `k2DeXNYNwYk`).
+  - **⚠️⚠️ Spring vs springless, springless materials, and what a higher price buys** — [[_Sources/YT_mNRiCwPNBNA_armos_spring_vs_springless_and_price_tiers|YT_mNRiCwPNBNA]] (+ `Wf8DKZiIJEQ`, `Lgi46kpCQ3A`).
+  - **⚠️⚠️ Pillow height by sleeping position (named osteopath, sponsored) and the two kinds of topper** — [[_Sources/YT_I3Fyh_mWiyQ_armos_pillow_selection_osteopath_and_toppers|YT_I3Fyh_mWiyQ]] (+ `LtVT9TxHdtM`).
+  - **⚠️⚠️ Bed widths and clearances, frame inspection, the 7–8 cm lamella rule and building a base** — [[_Sources/YT_ZLPknlB-3XI_armos_bed_selection_and_base_construction|YT_ZLPknlB-3XI]] (+ `O3UWHF8eCVs`).

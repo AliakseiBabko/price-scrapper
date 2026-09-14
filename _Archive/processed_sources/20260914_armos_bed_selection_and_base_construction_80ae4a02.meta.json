@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=ZLPknlB-3XI",
+  "video_id": "ZLPknlB-3XI",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T11:49:13.823925+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "80ae4a02d32075235301f980bca16ad6f9337564caea6a2dfe33e5f7a3b4aad3",
+  "attempts_before_success": [],
+  "upload_date": "2023-01-05",
+  "upload_date_source": "yt-dlp"
+}
