@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=auNRRLAFwrA",
+  "video_id": "auNRRLAFwrA",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T10:17:35.777538+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "97e9dec3d838061411052e510a023e1e86f2cfa3416219991b609f9c1dd01476",
+  "attempts_before_success": [],
+  "upload_date": "2026-07-14",
+  "upload_date_source": "yt-dlp"
+}
