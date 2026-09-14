@@ -63,7 +63,7 @@ The functional taxonomy with heights, the pairing convention (**one bigger and l
 
 > **⚠️⚠️ AND A DISAGREEMENT THIS PAGE NOW CONTAINS, WHICH IS NOT RESOLVED.** The 40 cm rest-furniture height rule above is **compositional**, from Шеврина. **ARMOS gives an ERGONOMIC rule instead: bed plus mattress should come to the bend of your knee, ± a palm's width — roughly 45–50 cm for most adults.** ⚠️ **And Кузина observes that the Russian market norm IS ≤40 cm, contrasted with American beds — so the market and the design rule agree with each other and both sit BELOW the ergonomic optimum.** **The cost is paid by older users and anyone who finds a low bed hard to rise from. Decide it deliberately; see [[14_Furniture/analysis/Bed_Frames_And_Bases|Bed Frames and Bases]] §1.**
 
-> **TWO SOURCES WITH OPPOSING INCENTIVES (updated 2026-09-14).** Built from **ARMOS, a mattress MANUFACTURER**, then cross-checked against **Круглов/Ontario, who sells RENOVATION and not mattresses.** **⚠️⚠️ Where they agree — no firmness standard, neither block type is better, don't chase coir, a knee-based seat height — treat it as established. Where they disagree, the pages follow Круглов, because on each of those points the manufacturer's answer favours a sale.**
+> **THREE SOURCES WITH THREE DIFFERENT INCENTIVES (updated 2026-09-14).** Built from **ARMOS, a mattress MANUFACTURER**, cross-checked against **Круглов/Ontario, who sells RENOVATION**, and then against **Гуру Сна, a multi-brand RETAILER** — the one party able to name another maker's trick without damaging itself. **⚠️⚠️ Where they agree — no firmness standard, neither block type is better, don't chase coir, a knee-based seat height — treat it as established. Where they disagree, the pages follow Круглов, because on each of those points the manufacturer's answer favours a sale.**
 >
 > ⚠️ **Neither source TESTS anything. Agreement between opposed incentives beats a single account and is still not evidence.**
 
@@ -73,6 +73,12 @@ The functional taxonomy with heights, the pairing convention (**one bigger and l
 - **Height is not a quality signal — DENSITY is.** A low dense filling lasts years; low density can sag in six months.
 - **The cover is a bad proxy for quality** — *«70% это маркетинг»*, and a premium-feeling cover is exactly what a bad maker uses to disguise terrible filling. **Its one real function is ventilation.**
 - **8 cm between lamellae is already too much**, not an upper limit — and the rule is really *small relative to the spring diameter* (~3 cm).
+
+### ⚠️⚠️ And two things only the RETAILER says
+
+- **⚠️⚠️ THE SPRING COUNT IS QUOTED IN A GAMED UNIT. Ask "per square metre, or per SLEEPING PLACE?" before asking the number.** A sleeping place of 80×200 cm is **1.6 m², not 2** — but makers multiply a true 256/m² by two and publish «512 на спальное место». **Two numbers that look comparable are in different units, and the larger one is the lower density.**
+- **⚠️⚠️ A COMPOSITION WITHOUT CENTIMETRES IS NOT A COMPOSITION.** *«Пишут просто "латекс", а там его 1 СМ.»* **Latex and coir are what this is done to most. Ask for centimetres per named material.** ⚠️ **And a branded "innovative foam" is usually just PU foam — don't pay for the name.**
+- **⚠️⚠️ THE COVER QUESTION IS NOW SETTLED: it can be up to 30% of the price, you may well not feel it, and where budget forces a choice the FILLING wins.** Two of three sources say so, and the third is the manufacturer.
 
 ### ⚠️⚠️ And two things only the independent source says
 
