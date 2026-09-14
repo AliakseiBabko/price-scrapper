@@ -67,6 +67,84 @@ Framed by the source as a conscious trade, not a prohibition: it suits someone w
 
 [source for both blocks: [[_Sources/YT_8uvwTALKbYE_pride_design_project_impractical_choices|YT_8uvwTALKbYE]]]
 
+### ⚠️⚠️ Shape — two designers who appear to contradict each other, and the question that separates them (added 2026-09-14)
+
+| | **Вікторія Файнблат** | **Ольга Кулекина** |
+| :--- | :--- | :--- |
+| Small kitchen | **Square** — *«идеален для маленьких кухонь»* | **Round** — *«универсальное решение, особенно для компактных кухонь»* |
+| Seats per table | Square seats **only four** | Round and oval seat **MORE** than square and rectangular |
+| Round's cost | **⚠️ *«круглый стол никогда не задвинуть в угол; даже если вы это сделаете, это будет и непрактично, и некрасиво»*** — and not every room can take one | — |
+
+> **⚠️⚠️ THEY ARE OPTIMISING DIFFERENT QUANTITIES, and the page should carry both rather than pick a winner.**
+>
+> - **Кулекина counts SEATS PER UNIT OF TABLETOP.** She is right: a round top has no wasted corners and takes an extra chair.
+> - **Файнблат counts FLOOR AREA THE TABLE PERMANENTLY LOCKS UP.** She is also right: a round table must stand clear of walls, so it can never be parked.
+>
+> **→ ⚠️⚠️ THE DECIDING QUESTION IS NOT THE SHAPE BUT WHETHER THE TABLE EVER HAS TO MOVE.** In a room with space to centre a table, Кулекина's reasoning applies; in a room where the table must go against a wall when not in use, Файнблат's does. **Choosing round forfeits the wall-parking option permanently — which in a small kitchen-living is usually the flexibility that matters most.**
+>
+> **Файнблат's remaining shapes:** rectangular is the most common and has **the most placement options** — centred, against a wall, lengthwise — seating 6+; **oval keeps all of those and removes the sharp corners, which is why she names it for families with small children**, and it seats more at need. ⚠️ **Consistent with the round-to-oval remedy already recorded above from PRIDE / Алёна — three sources now converge on the oval as the shape that resolves the round table's penalties.**
+
+### ⚠️ Height — and the seating consequence of running the table off the worktop (added 2026-09-14)
+
+- Standard dining table: **70–75 cm.**
+- **⚠️⚠️ A table continuing the kitchen worktop sits at 85–95 cm** — worktop height, not table height.
+- **⚠️⚠️ *«Вы должны не забывать о том, что под него нужны будут нестандартные стулья или полубарные.»***
+
+> **→ A specific, avoidable and expensive mistake: the space-saving move silently invalidates every ordinary dining chair, and the seating budget is normally settled separately from the kitchen.** **If this project runs a table off the worktop, the chair decision moves into the kitchen scope with it.**
+
+### ⚠️⚠️ Extending tables — the taxonomy, and the planning error that wastes one (added 2026-09-14)
+
+**Types, distinguished — the vault had no taxonomy of these:**
+
+| Type | What it is |
+| :--- | :--- |
+| **Стол-книжка** | A cabinet with drop leaves both sides; **can store the chairs inside**; reads as a chest of drawers closed |
+| **Раскладной** | A tabletop folded in half |
+| **Слайдер** | Two tops stacked, sliding apart both ways and latching — *«появился не более десяти лет назад»* |
+| **Раздвижной** | Two halves part, an insert leaf goes between — **stored in a drawer beneath or raised on its own mechanism** as the halves separate |
+| **С подъёмным механизмом** | **A coffee table in normal use** that rises and extends into a dining table — *«часто ставят не на кухню, а в гостиную»* |
+| **Потайной / выдвижной / навесной** | Hidden in a niche or in the kitchen run, dropped on a folding support leg — **for rooms with catastrophically no space**, opened only to eat |
+
+**⚠️⚠️ THE PLANNING ERROR, from Кулекина, and it is a drawing-discipline instruction:**
+
+> ***«При разработке планировок мы всегда указываем габариты стола и в сложенном, и в разложенном виде, и это позволяет избежать ошибок.»***
+
+> **→ ⚠️⚠️ AN EXTENDING TABLE HAS TWO FOOTPRINTS, and a plan showing one of them has not checked the case the table exists for.** **The OPEN-state footprint is the one that must satisfy the clearance figures on [[04_Living_and_Dining_Room/analysis/Dining_Table_Sizing_and_Zoning|Dining Table Sizing & Zoning]].** **This belongs in this project's own drawing practice, not only in furniture selection.**
+>
+> - **⚠️ Rectangular and square tables extend to a LARGER area than round and oval ones.** **→ Note this inverts the shape argument above: the shape that seats more CLOSED extends less OPEN.**
+> - **⚠️ Inspect the mechanism from slightly BELOW eye level** — on budget models *«конструкция раздвижной системы зачастую видна с торца, и это выглядит некрасиво»*. A checkable showroom test.
+
+### ⚠️⚠️ The ПОДСТОЛЬЕ — the component that decides comfort and that nobody inspects (added 2026-09-14)
+
+> ***«На эту деталь не часто обращают внимание при выборе и потом удивляются отсутствию комфорта.»*** — Кулекина
+
+- **Most acute on ROUND and OVAL tables**, where instead of four corner legs there are *«сложные конструкции»* — pedestals, splayed feet, cross braces.
+- **Legs must not foul a seated person** — *«не должны упираться в колени или другие части тела»*.
+- **⚠️ Two-sided constraint on the base itself: not excessively massive, but not fragile** — *«важно, чтобы стол не расшатывался со временем»*.
+- **⚠️⚠️ HER TEST, and it is the whole finding: sit at the actual table before buying, FROM SEVERAL DIFFERENT SIDES.** *«Посидеть за таким столом, причём с разных сторон.»*
+
+> **→ ⚠️⚠️ This explains a failure no clearance figure can predict: a table can satisfy every per-person and circulation dimension and still be unusable at two of its seats**, because the obstruction is UNDER the top rather than around it. **Invisible in a catalogue photograph, unfixable after delivery. One side is not a test.**
+>
+> ⚠️ **Complements this page's existing rule that legs extending past the tabletop edge are the dining-table failure — that one is about approach, this one about sitting.**
+
+### ⚠️ Tabletop materials — with the failure mode attached to each (added 2026-09-14)
+
+| Material | Verdict |
+| :--- | :--- |
+| **ДСП / МДФ / пластик** | Cheapest, least durable. **⚠️ Кулекина's specific failure: low-grade ЛДСП SWELLS once the surface is damaged and then gets wet — and a textile tablecloth is not protection, because *«она может промокнуть, и столешница испортится»*. → The cloth bought to protect the table is the mechanism that holds water against it.** |
+| **Стекло** | **Impact-resistant; tempered glass will not shatter into sharp shards**; indifferent to heat, dyes and moisture; easy to clean. **Файнблат's only stated drawback is the NOISE of plates and cutlery, needing mats.** ⚠️⚠️ **Markedly more positive than the four daily-use costs recorded above from PRIDE / Алёна — a real disagreement, recorded as such.** ⚠️ **Кулекина adds: glossy glass shows fingerprints, so choose matt.** |
+| **Массив / natural veneer** | **Файнблат: lasts essentially forever, but needs periodic polishing and re-impregnation. ⚠️ Soft species (сосна, ольха) dent and scratch easily and absorb moisture and dyes.** **⚠️ Кулекина is more restrictive — she puts solid wood in the DINING ROOM rather than the kitchen, *«где их используют не каждый день»*.** **→ Consistent if you read Файнблат's maintenance requirement as exactly the reason Кулекина moves it out of daily use.** |
+| **Эпоксидная смола over wood** | Easy care; the resin protects the timber and resists almost everything. **⚠️ Fine scratches accumulate and are visible, but it can be re-polished.** |
+| **⚠️⚠️ Натуральный камень** | **Файнблат's recommendation if budget allows, and КВАРЦИТ is named as the best of them** — *«супер износостойкий, не боится температур, красящих веществ, химии, острых предметов»*. Stone can be re-ground and restored. |
+| **⚠️⚠️ Мрамор** | **Conditional: only NON-LIGHT and NON-POROUS varieties.** Wine and coffee stain it *«если ваш камень будет идеально белым либо без ярко выраженного рисунка»*; **a busy pattern hides the accident.** **→ A rare explicit strategy of choosing the pattern so the inevitable failure does not show.** |
+| **⚠️ Металл** | **Advised AGAINST for daily dining**: streaks after washing that polishing will not remove, dents, scratches, and it can oxidise and change colour. **Fine for small decorative or side tables that are barely used.** |
+
+> **⚠️⚠️ THE STRUCTURAL RIDER ON STONE, and the vault had nothing on base-versus-top coupling: stone is heavy, so the base cannot be light and cannot be made of anything but metal, and it will read as visually bulky.** **→ Choosing a stone top forecloses the delicate base you may have been picturing. Decide the two together.**
+
+**Seat count — two designers, same rule, independently:** household size **plus one or two** if guests are frequent (Файнблат); *«всегда берите стол с запасом посадочных мест на один больше»* — it barely changes the dimensions and covers a guest (Кулекина).
+
+[sources for the 2026-09-14 blocks: [[_Sources/YT_xt3B2aC3S7Q_faynblat_kitchen_table_choice|YT_xt3B2aC3S7Q]], [[_Sources/YT_y7pxU1rfORY_kulekina_dining_table_choice|YT_y7pxU1rfORY]]]
+
 ---
 
 ## Market Note (context, not technique)

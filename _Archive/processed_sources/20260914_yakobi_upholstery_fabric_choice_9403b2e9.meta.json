@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=SwOVFr5YRP8",
+  "video_id": "SwOVFr5YRP8",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T13:44:16.681041+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "9403b2e9601cc993c3f05acb16c99fa4d64c7530d8b8540eff1733e4e7ec07bd",
+  "attempts_before_success": [],
+  "upload_date": "2023-10-19",
+  "upload_date_source": "yt-dlp"
+}

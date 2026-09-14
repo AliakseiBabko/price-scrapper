@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=nybZA1MkUrs",
+  "video_id": "nybZA1MkUrs",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T13:55:11.506178+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "046614647fbe3588850db71e9c1ae2e38f42d95c22212ce1fd00aaa57cbc02ff",
+  "attempts_before_success": [],
+  "upload_date": "2024-10-21",
+  "upload_date_source": "yt-dlp"
+}

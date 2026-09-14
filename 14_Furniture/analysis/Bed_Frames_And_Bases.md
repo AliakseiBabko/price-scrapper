@@ -28,6 +28,27 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 >
 > **→ NOT RESOLVED. It depends on who sleeps here and for how many years, and it should be decided deliberately rather than inherited from whichever source was read last.** ⚠️ **Note it compounds with mattress height: a thin mattress on a low frame fails both rules at once, and [[14_Furniture/analysis/Mattress_Construction_And_Selection|the mattress page]] §7 gives 17–18 cm as a springless floor.**
 
+### ⚠️⚠️ A FOURTH ergonomic source — and it is the one that states the criterion rather than the outcome (added 2026-09-14)
+
+**Світ Матраців, a mattress-retail chain, gives the number and the mechanism in one sentence:**
+
+> ***«Оптимальная высота кровати около 45–50 сантиметров. Именно при такой высоте, когда человек садится или встаёт, угол изгиба колен оптимален и около 90 градусов.»***
+
+| Source | Figure | Given as |
+| :--- | :--- | :--- |
+| ARMOS | knee-bend ± a palm | a body-referenced test |
+| Круглов / Ontario | knee angle **≥ 90°** | an ergonomic constraint |
+| Мебель & Текстиль | **50–60 cm** | a number |
+| **⚠️⚠️ Світ Матраців** | **45–50 cm, tied explicitly to ~90°** | **the number AND the mechanism together** |
+
+> **→ ⚠️⚠️ FOUR independent ergonomic sources, none below 45 cm.** **And this one clarifies what the argument has actually been about all along: Шеврина's ≤40 cm is a compositional preference and Кузина's is a market observation — neither is an ergonomic claim.** **The two camps were never answering the same question.** **On the evidence now held, treat ≤40 cm as a look, and the 90° knee angle as the function.**
+>
+> ⚠️ **A consequence the same source draws, which the vault did not have: a PODIUM bed fails the 90° test by construction** — *«на них неудобно садиться, и чтобы встать, нужно приложить соответствующие усилия»*. **Podium beds are normally argued as a storage or styling choice; this is the ergonomic cost stated plainly.**
+>
+> ⚠️ **LifeMebel, a retailer, gives the weakest form of the same rule — *«высота должна позволять человеку легко ложиться и спускаться с кровати»* — which is at least body-referenced, but is not checkable in a showroom the way an angle is.**
+>
+> [sources: [[_Sources/YT_f7AXve8AyJo_svitmatraciv_bed_types|YT_f7AXve8AyJo]], [[_Sources/YT_YaOqWodTvZ4_lifemebel_how_to_choose_a_bed|YT_YaOqWodTvZ4]]]
+
 ## ⚠️⚠️ 2. Widths, and the arithmetic underneath them
 
 | Case | Width |
@@ -39,6 +60,51 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 - **⚠️⚠️ THE RULE THAT GENERATES THEM: from each person to the edge of the bed, or to their partner, ideally 20 cm or more.** **→ Turns "how wide" from taste into arithmetic.**
 - **⚠️⚠️ PASSAGES: 50 cm or more** around the bed. ***«Замерьте место, где будет стоять кровать — это будут максимально возможные габариты вашей кровати.»*** **→ The room sets the ceiling; the 20 cm rule then says whether what fits is enough.**
 - ⚠️ **And because *«большинство из нас живёт не во дворцах»*, passages stay tight — which is why the next item matters.**
+
+### ⚠️⚠️ A SECOND SOURCE GIVES A CLEARANCE 40% LARGER — unresolved (added 2026-09-14)
+
+> ***«Расстояние от края кровати до стены или шкафа должно быть не менее 70 сантиметров. Если предполагается наличие рабочей зоны, то расстояние от края кровати до рабочего стола должно быть не менее одного метра.»*** — LifeMebel
+
+| Constraint | ARMOS | **LifeMebel** |
+| :--- | :--- | :--- |
+| Bed edge → wall **or wardrobe** | **50 cm** | **⚠️⚠️ ≥ 70 cm** |
+| Bed edge → **a desk** | *(silent)* | **⚠️⚠️ ≥ 1 m** |
+
+> **⚠️⚠️ 70 is 40% more than 50, and in a small bedroom that difference decides whether the bed fits at all. Neither source shows its working, so this is recorded as a disagreement and NOT averaged.**
+>
+> **A plausible reconciliation — mine, not either source's — is that 50 cm is a squeeze-past minimum and 70 cm a comfortable-use figure.** **→ If a layout here depends on the difference, it should be tested with tape on the floor rather than settled from either page.**
+>
+> **⚠️ The DESK figure is the more immediately useful of the two, because it is the vault's only clearance governing a bed against WORKING furniture rather than a wall — and a desk in a bedroom is live in this project.**
+
+### ⚠️⚠️ The width test that needs no tape measure (added 2026-09-14)
+
+> ***«Оптимальной шириной считается та кровать, когда человек может легко запрокинуть руки за голову и не задеть соседа.»*** — LifeMebel
+
+> **→ The same constraint as the 20 cm rule above, expressed as an ACTION you can perform in the showroom — which is the form that survives contact with a shop floor.** **Keep both: the arithmetic sizes the purchase, the arm test checks it.**
+
+### Size classes, and two sizing rules the vault lacked (added 2026-09-14)
+
+| Class | Sleeping-surface width |
+| :--- | :--- |
+| Односпальная | **70–120 cm** |
+| Полутораспальная | **120–160 cm** |
+| Двуспальная | **160 cm and up** |
+
+**Standard sizes at the two ends of the range**: narrowest adult **80×190**; largest standard, *«как их называют, королевские»*, **180×200**.
+
+- **⚠️ Length ≥ the sleeper's height + 10 cm**, *«а лучше покупать кровати с ещё большим запасом»*. Compare Мебель & Текстиль's height + 15–20 cm in §1 — **consistent, with 10 cm as the floor.**
+- **⚠️⚠️ The classification is by SLEEPING-SURFACE width, not the bed's footprint** — *«ориентироваться нужно не только на ширину спального места, но и на габаритные размеры кровати»*. **A soft bed with a thick upholstered surround can be two size classes apart on those two numbers, and it is the footprint that has to satisfy the clearances above.**
+
+### ⚠️⚠️ The mattress is a hidden multiplier on every bed-size decision (added 2026-09-14)
+
+**Two sources arrive at the same structure by different routes:**
+
+- **Світ Матраців, on NON-STANDARD sizes:** *«С нестандартными кроватями нужны нестандартные матрасы, которые также обычно дороже»* — and non-standard beds are *«не серийные… значительно дороже стандартных»*.
+- **NetzaRu, on merely LARGE ones:** *«матрас тоже у вас будет дороже, чем он будет больше»*.
+
+> **→ ⚠️⚠️ The penalty is paid TWICE, and the second payment RECURS** — every mattress replacement for the life of the frame, which on this vault's own service-life figures is several times over. **A bed built to fit a niche locks in a bespoke mattress permanently.**
+>
+> [sources: [[_Sources/YT_YaOqWodTvZ4_lifemebel_how_to_choose_a_bed|YT_YaOqWodTvZ4]], [[_Sources/YT_f7AXve8AyJo_svitmatraciv_bed_types|YT_f7AXve8AyJo]], [[_Sources/YT_nybZA1MkUrs_netzaru_bed_buying_advice|YT_nybZA1MkUrs]]]
 
 ## ⚠️ 3. What to inspect on the bed
 
@@ -52,6 +118,18 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 **⚠️⚠️ UPHOLSTERY — and this corroborates the vault independently:** **экокожа is unsuitable if you want 10–15 years**; **with pets, рогожка is unsuitable however expensive, because interlacing fibres catch claws — velour or flock give a claw nothing to grip.**
 
 > **→ SECOND INDEPENDENT ARRIVAL. [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]] already records the same mechanism from Шеврина about bouclé and ribbed velvet. Two unrelated sources, different fabrics named, same physical reason.**
+>
+> **⚠️⚠️ NOW FOUR (2026-09-14). See [[14_Furniture/analysis/Upholstery_Fabric_Selection|Upholstery Fabric Selection]], which consolidates the finding and adds the manufacturer's side of it — what the FIX is.**
+
+### ⚠️ Corners matter specifically where the bed borders a THROUGH ROUTE (added 2026-09-14)
+
+**NetzaRu's bed stands on the walkway to a balcony door, and he has knocked his knee on both kinds of corner:**
+
+> ***«Вот здесь он мягкий — задел я его коленкой, и ничего мне не будет. А если будет какой-нибудь вот такой угол — кстати, вот здесь уже задевал, было не очень приятно…»***
+
+> **→ Adds the situational trigger to ARMOS's rule above: soft corners are not a general nicety but a requirement on the sides a person walks past** — which is exactly the geometry the 70 cm clearance disagreement in §2 is about. **Two independent sources meeting at the same corner of the same problem, one from clearance and one from impact.**
+>
+> ⚠️ **He declines to give a rule on headboards** — it depends on what is behind and whether you want it covered. **Recorded because he refuses to universalise where LifeMebel does; LifeMebel's own headboard points (soft ones are comfortable to lean on without a pillow and stop the wall scuffing; headboard-less models save depth in a small room) are the more specific.** [sources: [[_Sources/YT_nybZA1MkUrs_netzaru_bed_buying_advice|YT_nybZA1MkUrs]], [[_Sources/YT_YaOqWodTvZ4_lifemebel_how_to_choose_a_bed|YT_YaOqWodTvZ4]]]
 
 ## ⚠️⚠️ 4. The base: 7–8 cm, and the mattress is what pays for getting it wrong
 
@@ -68,7 +146,45 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 [source: [[_Sources/YT_3ClgT0siGik_kruglov_truth_about_mattresses|YT_3ClgT0siGik]]]
 
-## ⚠️⚠️ 5. Building a base — and the pallet trap
+### ⚠️⚠️ What an orthopaedic base IS — and that it may not be in the price (added 2026-09-14)
+
+**LifeMebel names three base types — настил (a plain sheet of plywood or ЛДСП), металлическое основание, and ортопедическое основание — and gives the last one an inspectable definition:**
+
+> ***«Конструкция состоит из ламелей, держателей и рамы; ламели имеют слегка изогнутую форму, благодаря чему нагрузка на решётку полностью распределяется по основанию.»*** Rated load *«до 150 килограмм»* per sleeping place.
+
+- **⚠️⚠️ CURVED, not flat. That is the visible distinction between a real orthopaedic base and slats sitting in a frame** — and it is checkable by eye, which the 7–8 cm gap rule above already is.
+- **⚠️⚠️ AND THE COMMERCIAL POINT, stated outright: *«стоит учитывать, что ортопедическое основание приобретается отдельно»*.**
+
+> **→ A budgeting trap the vault did not have: two bed prices may differ because one includes a base and one does not.** §4 above says what a good base *is*; this says **you may not be buying one at all.** ⚠️ **Ask, in writing, whether the quoted price includes the base.**
+>
+> ⚠️ **NetzaRu prefers an orthopaedic slatted base over the plain and sprung ones he has slept on, but offers no mechanism** — *«реально, наверное, лучший вариант»*. **Weak on its own; consistent with the two sources that do give mechanisms.**
+>
+> [sources: [[_Sources/YT_YaOqWodTvZ4_lifemebel_how_to_choose_a_bed|YT_YaOqWodTvZ4]], [[_Sources/YT_nybZA1MkUrs_netzaru_bed_buying_advice|YT_nybZA1MkUrs]]]
+
+## ⚠️⚠️ 5. Lift mechanisms — the storage case, and the tradeoff nobody else names
+
+**NetzaRu films his own bed open. His argument for the mechanism: *«вы получаете ещё один шкаф»* — he compares the opened volume directly against the wardrobe in the same room. Without it, that volume is simply dead: *«просто здесь у вас это будет место, которое впустую никак не будет использоваться»*.**
+
+**⚠️⚠️ WHAT TO INSPECT, and this is what a catalogue will not tell you:**
+
+- **The gauge of the metal in the lifting frame**, stated as a floor rather than an ideal: *«чтобы металл был хотя бы как здесь — не была фольга, не был какой-то алюминий»*. **The load concentrates there**, and thin stock *«довольно всё быстро это разболтает и начнёт разваливаться»*.
+- **The hinges and fittings likewise** — anything *«на соплях»* and *«ваша кровать очень быстро начнёт скрипеть и разваливаться»*.
+
+> **→ Extends §3's inspection rule (ask to see the internal construction; bolts and metal fittings) with the specific place to look on a lift bed.** ⚠️ **It also lands on the same component as ARMOS's soft-damping-element flag — two sources, one part, two different failure modes named: knocking, and working loose.**
+
+### ⚠️⚠️ THE TRADEOFF: mattress depth is bought out of storage volume
+
+**His bed has brackets that set how deep the mattress sits inside the frame, and the two settings people choose independently turn out to be one adjustment:**
+
+> **The lower the mattress drops into the frame, the LESS free volume remains in the storage box beneath — but the closer the mattress top sits to the level of the bed's own sides.**
+
+> **→ ⚠️⚠️ New to the vault, and it couples two decisions normally made by different people at different times: *how much fits under the bed* and *does the mattress sit flush with the frame or proud of it*.** He notes mattresses come in different heights and tastes differ — *«кто-то любит, чтобы матрас был прямо в уровень с кроватью, кто-то любит повыше»* — and that his own choice took getting used to.
+>
+> **⚠️⚠️ PRACTICAL CONSEQUENCE: settle this with the actual mattress in hand, not at order time**, because it depends on the mattress height — which this vault's own [[14_Furniture/analysis/Mattress_Construction_And_Selection|mattress page]] shows is the LAST thing decided. **It also interacts with §1's constraint that the mattress must be at least as tall as the bed's side (борт).**
+>
+> [source: [[_Sources/YT_nybZA1MkUrs_netzaru_bed_buying_advice|YT_nybZA1MkUrs]]]
+
+## ⚠️⚠️ 6. Building a base — and the pallet trap
 
 1. **Buy a ready metal frame and supports**, then make the suspension, sides and headboard.
 2. **Build from ЛДСП, sanded plywood or similar sheet material.** ***«Главное — достаточно большое количество РЁБЕР ЖЁСТКОСТИ и дополнительной опоры. Заложите ИЗБЫТОЧНУЮ ПРОЧНОСТЬ — это гарантирует вас от поломок, скрипов и проблем.»***
@@ -83,6 +199,8 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 - [[14_Furniture/analysis/Loose_Furniture_Selection_Principles|Loose Furniture Selection Principles]] — the 40 cm rule, and the pet-claw fabric finding this corroborates.
 - [[06_Small_Bedroom/analysis/Furniture_and_Storage_for_Tight_Clearances|Furniture and Storage for Tight Clearances]] — where the 50 cm passage rule meets a real room.
 
-> ⚠️⚠️ **`single-account` for everything not cross-referenced above: one Russian manufacturer, two videos. Nothing here is tested or measured — the numbers are stated as trade practice with a named mechanism.** **The 7–8 cm rule is the one most worth checking independently, because it is the one that would change a purchase.**
+> ⚠️⚠️ **EVIDENCE STATUS (updated 2026-09-14). The page is no longer single-account. It now rests on SIX sources across five incentive positions**: ARMOS (bed manufacturer), Мебель & Текстиль (no visible pitch), Круглов (sells renovation), Світ Матраців (mattress retailer), LifeMebel (furniture retailer), NetzaRu (an owner filming his own bed). **The bed-height question is well corroborated; the clearance question is contested; everything else remains trade practice with a named mechanism rather than anything tested or measured.**
+>
+> **Still worth checking independently, in order: (1) the 50 vs. 70 cm clearance split in §2, because it decides whether a bed fits; (2) the 7–8 cm lamellae rule in §4, because it would change a purchase.**
 
 Part of [[14_Furniture/Seating_and_Tables|Seating & Tables]]. Sources: [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]]. Edit history: [[14_Furniture/analysis/Seating_and_Tables_Change_Log|Change Log]].

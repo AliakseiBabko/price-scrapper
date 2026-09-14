@@ -64,6 +64,41 @@ dining furniture and its clearances need to be.
   a corridor used to reach a second entrance/pantry, even though the
   non-serving-side 0.6m minimum would otherwise technically apply.
 
+### ⚠️⚠️ A SECOND, SEPARATE CLEARANCE THIS PAGE HAD CONFLATED: withdrawing the chair (added 2026-09-14)
+
+**Вікторія Файнблат distinguishes two demands the figures above treat as one — pulling the seat back, and walking behind it. They are not the same quantity.**
+
+| To withdraw | Clearance needed |
+| :--- | :--- |
+| **Табурет** (stool) | **50–60 cm** |
+| **Chair or полукресло** | **⚠️⚠️ 70–80 cm** |
+
+> **→ ⚠️⚠️ The armchair figure is the one that catches people: it is the upgrade from stools to upholstered dining chairs, usually decided AFTER the layout is fixed, that silently breaks a clearance which was adequate when drawn.** **If the chair type is not yet settled here, plan to 80 cm.**
+
+### ⚠️⚠️ Per-person figures, and a clearance disagreement that must not be averaged (added 2026-09-14)
+
+| Quantity | **Файнблат minimum** | **Файнблат comfortable** | **This page currently holds** |
+| :--- | :--- | :--- | :--- |
+| Per-person **width** | **60 cm** | **80 cm** | Neufert **60 cm** |
+| Per-person **depth** | **30–40 cm** | **50 cm** | Neufert **40 cm** |
+| Table edge → wall or any object | **⚠️⚠️ 1 m** | up to **1.3 m** | **0.6 m** non-service / **0.9–1.0 m** serving |
+
+> ***«Минимально на человека должна быть ширина 60 сантиметров, глубина 30–40 сантиметров… если возможность позволяет, то конечно лучше оставлять 80 сантиметров ширины и до 50 сантиметров глубины.»***
+
+> **⚠️⚠️ On DEPTH she is more permissive than Neufert (30 cm floor vs. 40); her band contains this page's figure, so this is minor.**
+>
+> **⚠️⚠️ On EDGE-TO-OBJECT she is far more demanding — 1 m minimum applied to EVERY side, where this page tiers by function and allows 0.6 m where nobody serves.** **Recorded as a disagreement, NOT averaged.**
+>
+> **The likely reconciliation, and it is close to what this page already concluded: her 1 m is a DESIGN-STAGE default, this page's 0.6 m an AS-BUILT floor.** **Note the real worked example directly above independently widened a non-serving side to a full 1 m once it carried circulation — which is Файнблат's number arrived at from a case rather than a rule.** **→ Where a side of the table is anything other than a dead end, the evidence now points at 1 m.**
+
+### ⚠️⚠️ An extending table has TWO footprints, and both belong on the plan (added 2026-09-14)
+
+> ***«При разработке планировок мы всегда указываем габариты стола и в сложенном, и в разложенном виде, и это позволяет избежать ошибок.»*** — Ольга Кулекина
+
+> **→ ⚠️⚠️ THE CLEARANCES ON THIS PAGE MUST BE SATISFIED IN THE OPEN STATE, not the closed one.** A plan that dimensions only the folded table has not checked the one occasion the table exists for. **Drawing-discipline instruction, applicable to this project's own plan set; the table taxonomy is on [[14_Furniture/analysis/Table_Types_and_Dimensions|Table Types & Dimensions]].**
+
+[sources: [[_Sources/YT_xt3B2aC3S7Q_faynblat_kitchen_table_choice|YT_xt3B2aC3S7Q]], [[_Sources/YT_y7pxU1rfORY_kulekina_dining_table_choice|YT_y7pxU1rfORY]]]
+
 ## Open-Plan Sightline and Zoning Framework
 
 - **⚠️ The dining table as the actual zone divider**: in a shared kitchen-
