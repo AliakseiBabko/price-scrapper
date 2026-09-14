@@ -63,7 +63,9 @@ The functional taxonomy with heights, the pairing convention (**one bigger and l
 
 > **⚠️⚠️ AND A DISAGREEMENT THIS PAGE NOW CONTAINS, WHICH IS NOT RESOLVED.** The 40 cm rest-furniture height rule above is **compositional**, from Шеврина. **ARMOS gives an ERGONOMIC rule instead: bed plus mattress should come to the bend of your knee, ± a palm's width — roughly 45–50 cm for most adults.** ⚠️ **And Кузина observes that the Russian market norm IS ≤40 cm, contrasted with American beds — so the market and the design rule agree with each other and both sit BELOW the ergonomic optimum.** **The cost is paid by older users and anyone who finds a low bed hard to rise from. Decide it deliberately; see [[14_Furniture/analysis/Bed_Frames_And_Bases|Bed Frames and Bases]] §1.**
 
-> **THREE SOURCES WITH THREE DIFFERENT INCENTIVES (updated 2026-09-14).** Built from **ARMOS, a mattress MANUFACTURER**, cross-checked against **Круглов/Ontario, who sells RENOVATION**, and then against **Гуру Сна, a multi-brand RETAILER** — the one party able to name another maker's trick without damaging itself. **⚠️⚠️ Where they agree — no firmness standard, neither block type is better, don't chase coir, a knee-based seat height — treat it as established. Where they disagree, the pages follow Круглов, because on each of those points the manufacturer's answer favours a sale.**
+> **FOUR SOURCES WITH FOUR DIFFERENT INCENTIVES (updated 2026-09-14).** Built from **ARMOS, a mattress MANUFACTURER**, cross-checked against **Круглов/Ontario, who sells RENOVATION**, against **Гуру Сна, a multi-brand RETAILER**, and against **Мебель & Текстиль, an educational channel with no visible pitch.**
+>
+> **⚠️⚠️ AND ONE THING IS NOW OPENLY UNRESOLVED: where the orthopaedic effect comes from.** The manufacturer says the comfort layers do the fine work and more of them is better; the unaffiliated source says they supply *«лишь жёсткость»* and that a thick package **stops the springs working** — adding that whoever tells you otherwise wants to sell you a dearer model. **→ A very thick comfort package over springs is a question to ask, not a feature to pay for. See [[14_Furniture/analysis/Mattress_Construction_And_Selection|Mattress Construction and Selection]] §12.** **⚠️⚠️ Where they agree — no firmness standard, neither block type is better, don't chase coir, a knee-based seat height — treat it as established. Where they disagree, the pages follow Круглов, because on each of those points the manufacturer's answer favours a sale.**
 >
 > ⚠️ **Neither source TESTS anything. Agreement between opposed incentives beats a single account and is still not evidence.**
 
@@ -78,7 +80,10 @@ The functional taxonomy with heights, the pairing convention (**one bigger and l
 
 - **⚠️⚠️ THE SPRING COUNT IS QUOTED IN A GAMED UNIT. Ask "per square metre, or per SLEEPING PLACE?" before asking the number.** A sleeping place of 80×200 cm is **1.6 m², not 2** — but makers multiply a true 256/m² by two and publish «512 на спальное место». **Two numbers that look comparable are in different units, and the larger one is the lower density.**
 - **⚠️⚠️ A COMPOSITION WITHOUT CENTIMETRES IS NOT A COMPOSITION.** *«Пишут просто "латекс", а там его 1 СМ.»* **Latex and coir are what this is done to most. Ask for centimetres per named material.** ⚠️ **And a branded "innovative foam" is usually just PU foam — don't pay for the name.**
-- **⚠️⚠️ THE COVER QUESTION IS NOW SETTLED: it can be up to 30% of the price, you may well not feel it, and where budget forces a choice the FILLING wins.** Two of three sources say so, and the third is the manufacturer.
+- **⚠️⚠️ THE COVER QUESTION IS NOW SETTLED: it can be up to 30% of the price, you may well not feel it, and where budget forces a choice the FILLING wins.** Two of four sources say so explicitly, and the dissenter is the manufacturer.
+- **⚠️⚠️ AND CERTIFICATES PROVE NOTHING EITHER** — *«спать вы будете не на сертификатах… любой сертификат можно купить»*. **Three spec-sheet warnings now stack: the spring count is in a gamed unit, the fillers are named without thicknesses, and the certificates are decoration.**
+- **⚠️⚠️ ASK WHICH COIR.** Latexed coir holds shape; **needle-punched coir can start disintegrating within a YEAR** — and *«продавцы часто сами не знают»* which is in their mattress. **Ask for a sample.**
+- **⚠️ A number for the density that matters: PU foam at 10–15 units is plain foam, 35–40 is furniture grade.** ⚠️ Unit unstated, almost certainly kg/m³.
 
 ### ⚠️⚠️ And two things only the independent source says
 

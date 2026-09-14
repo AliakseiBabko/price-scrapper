@@ -3,7 +3,7 @@
 Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 > [!IMPORTANT]
-> **THREE SOURCES, WITH THREE DIFFERENT COMMERCIAL POSITIONS — which is the point.** Before 2026-09-14 a grep found **`независимые пружины`, `боннель` and `пружинный блок` in ZERO files.** The page was built from **ARMOS, a mattress MANUFACTURER**, cross-checked against **Круглов/Ontario, a designer who sells RENOVATION**, and then against **Гуру Сна, a multi-brand RETAILER carrying 30 factories** — the one party who can name another maker's trick without damaging itself.
+> **FOUR SOURCES, WITH FOUR DIFFERENT COMMERCIAL POSITIONS — which is the point.** Before 2026-09-14 a grep found **`независимые пружины`, `боннель` and `пружинный блок` in ZERO files.** The page was built from **ARMOS, a mattress MANUFACTURER**, cross-checked against **Круглов/Ontario, a designer who sells RENOVATION**, against **Гуру Сна, a multi-brand RETAILER carrying 30 factories** — the one party who can name another maker's trick without damaging itself — and finally against **Мебель & Текстиль, an educational channel with no visible pitch at all**, whose video is explicitly framed as *«что важнее слов продавца»*.
 >
 > **→ ⚠️⚠️ WHERE THEY AGREE, treat it as established — see §4 and §6.** **⚠️⚠️ WHERE THEY DISAGREE, this page follows Круглов, because on every one of those four points the manufacturer's answer is the one that favours a sale.** **The disagreements are marked inline.**
 >
@@ -194,3 +194,64 @@ An 18-year-old wanted an **Italian mattress at 150,000 ₽** because she liked h
 ⚠️ **Prices RUB 2026, Russia — rule 2, no figure transferred. The RATIO (identical internals, ~80k against ~45k) and the "up to 30% of price" share are what carry.**
 
 [source: [[_Sources/YT_Bb6JlZHk8L8_gurusna_what_is_inside_a_mattress|YT_Bb6JlZHk8L8]]]
+
+## ⚠️⚠️ 12. UNRESOLVED: where does the orthopaedic effect actually come from?
+
+**This is the sharpest disagreement in the vault's mattress file, and it is about §1 — the model the rest of this page is built on.**
+
+| | **ARMOS (the MANUFACTURER)** | **Мебель & Текстиль (no visible pitch)** |
+| :--- | :--- | :--- |
+| **Spring block** | **COARSE** contour adjustment only | **The orthopaedic effect itself** |
+| **Comfort layers** | **The FINE adjustment — точечная эластичность** | ***«Обеспечивают ЛИШЬ необходимую ЖЁСТКОСТЬ»*** |
+| **More comfort layers** | Better — *«чем больше этот пакет, тем лучше матрас»* | **⚠️⚠️ WORSE — *«покрытые толстым слоем, ПРУЖИНЫ ПЕРЕСТАЮТ РАБОТАТЬ»*** |
+
+> ***«Ортопедические свойства матраса зависят ТОЛЬКО от ОСНОВНОГО НАПОЛНИТЕЛЯ — а это пружины, поролон или латекс… Если вам говорят иное — вероятно, вам хотят впарить более дорогую модель.»***
+
+> **→ ⚠️⚠️ THE TWO MODELS MAKE OPPOSITE PREDICTIONS ABOUT THE SAME OBJECT, and he names the sales motive for the opposing view — which is exactly what the source of §1 is.**
+>
+> **⚠️ NOT RESOLVED, and this page will not pretend otherwise.** **What can be said: Гуру Сна's separate point — that the THICKNESS of a named functional layer must be specified — is compatible with both. What is genuinely incompatible is "more comfort layers is simply better".** **→ Treat a very thick comfort package over a spring block as a question to ask, not a feature to pay for.**
+
+### ⚠️⚠️ And a second disagreement, where the two may be arguing about different variables
+
+**His spring rule:** three package grades — **стандартный** (largest coils, lowest density) → **мультипакет** → **микропакет** (smallest, densest) — and *«чем МЕНЬШЕ диаметр пружины и чем ВЫШЕ плотность, тем ЛУЧШЕ матрас»*.
+
+- **⚠️ This contradicts the standing advice on this page** (§2) that a higher count is not better. **But ARMOS objected to COUNT bought with THINNER WIRE, while this concerns COIL DIAMETER and packing density — which can move independently.**
+- **→ ⚠️⚠️ THE SAFE SYNTHESIS, AND IT IS AN UNCOMFORTABLE ONE: spring count alone is not a ranking, AND neither source gives the buyer any way to see the wire gauge. The question cannot be settled at the point of sale — which is itself the finding.**
+
+[source: [[_Sources/YT_8mjC_SNgUy4_mebeltekstil_mattress_without_embellishment|YT_8mjC_SNgUy4]]]
+
+## ⚠️⚠️ 13. Three more things to ask, from the source with nothing to sell
+
+### ⚠️⚠️ Which COIR? — and ask to see a sample
+
+| Type | Behaviour |
+| :--- | :--- |
+| **Латексированная** — impregnated and stabilised with latex | More plastic, **more load-resistant, holds shape and firmness longer.** ⚠️ Dearer |
+| **⚠️⚠️ Иглопробивная** — needle-punched, unstabilised | ***«В течение ГОДА может начать расползаться.»*** |
+
+> ***«Продавцы часто САМИ НЕ ЗНАЮТ, какая койра в их матрасе. Пусть покажет вам ОБРАЗЕЦ — иначе вам впарят обычную койру как латексированную.»***
+
+- **→ ⚠️⚠️ THE PAGE ALREADY SAYS "ASK HOW MANY CENTIMETRES OF COIR". THIS ADDS: ASK WHICH COIR, AND ASK FOR A SAMPLE. Two mattresses can both say «кокос 2 см» and one disintegrates inside a year.**
+- ⚠️ **It also qualifies the standing "don't chase coir" finding: coir PRESENCE is not a quality marker, but coir TYPE is a durability marker. Different questions.**
+
+### ⚠️⚠️ A NUMBER for the density the vault said mattered
+
+Круглов said *density, not height*, and never quantified it:
+
+> ***«Простой поролон имеет плотность от 10 до 15 единиц, а МЕБЕЛЬНЫЙ — 35–40.»*** And higher density means firmer, dearer **and longer-lasting**.
+
+- ⚠️ **He does not state the unit; almost certainly kg/m³, and that inference is this vault's.** **→ Ask for the PU density figure: 10–15 is plain foam, 35–40 is furniture grade.**
+- **⚠️ A safety point nobody else raised: PU foam's main drawback is severe FLAMMABILITY.**
+- **⚠️ And a firmness mapping**: **coir 2 cm → firm; latex + coir up to 1 cm → medium; foam alone → soft.**
+
+### ⚠️⚠️ Certificates prove nothing
+
+> ***«Спать вы будете НЕ НА СЕРТИФИКАТАХ, а на матрасе. ЛЮБОЙ СЕРТИФИКАТ МОЖНО КУПИТЬ… Обращайте внимание не на сертификаты, а на РЕАЛЬНОЕ НАПОЛНЕНИЕ.»***
+
+- **→ It completes the trio of spec-sheet warnings on this page: the spring count is in a gamed unit, the fillers are named without thicknesses, and the certificates stapled to them prove nothing either.**
+
+### ⚠️ And a remedy for the shop-test problem that needs no seller cooperation
+
+**Third independent arrival at *the shop test is insufficient* — he too says a couple of NIGHTS.** **But where Круглов's answer was the return policy, his is: buy a DOUBLE-SIDED mattress with different firmness per side and run the experiment at home.** ⚠️ **He adds that orthopaedists recommend alternating sides periodically anyway — a different rationale from the even-wear rotation in §10. The interval he gives is garbled in the transcript and was not reconstructed.**
+
+[source: [[_Sources/YT_8mjC_SNgUy4_mebeltekstil_mattress_without_embellishment|YT_8mjC_SNgUy4]]]
