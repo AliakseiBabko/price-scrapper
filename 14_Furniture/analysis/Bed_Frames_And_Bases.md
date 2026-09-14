@@ -16,6 +16,10 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 > **⚠️⚠️ FOR MOST ADULTS THE KNEE BEND IS ROUGHLY 45–50 cm, SO THESE GENUINELY CONFLICT.**
 >
+> **⚠️⚠️ AND A THIRD SOURCE SUPPLIES THE NUMBER ALL OF THEM IMPLY (2026-09-14):** Мебель & Текстиль — *«выбирайте высоту так, чтобы вы могли свободно сидеть на кровати с согнутыми коленями — при среднем росте эта высота составляет 50–60 см»*. **→ THREE independent ergonomic sources now converge on roughly 45–60 cm for bed plus mattress, against one compositional ≤40 cm rule.** ⚠️⚠️ **He also adds a hard geometric constraint nobody else stated: THE MATTRESS HEIGHT MUST BE EQUAL TO OR GREATER THAN THE HEIGHT OF THE BED'S SIDE (борт).** ⚠️ **And if there is no bed yet: length = your height + 15–20 cm, width = double your shoulder width.**
+>
+> [source: [[_Sources/YT_8mjC_SNgUy4_mebeltekstil_mattress_without_embellishment|YT_8mjC_SNgUy4]]]
+>
 > **⚠️⚠️ AND A SECOND, INDEPENDENT ERGONOMIC SOURCE NOW STANDS WITH ARMOS (2026-09-14).** Круглов, who sells renovation rather than beds: ***«Желательно, чтобы когда вы садились на кровать, УГОЛ ВАШИХ КОЛЕНЕЙ БЫЛ НЕ МЕНЕЕ 90°… Главное, чтобы вам было удобно садиться и вставать. Других требований нет.»***
 >
 > **→ ⚠️⚠️ THE SCORE IS NOW TWO INDEPENDENT ERGONOMIC SOURCES AGAINST ONE COMPOSITIONAL RULE — and Круглов's formulation is the more CHECKABLE, because a 90° knee angle can be measured while a "palm's width" cannot.** ⚠️ **He also gives the boundary cases: a base at 30–35 cm from the floor is simply uncomfortable to sit on, and a base near 60 cm can carry a tall mattress.** **→ On the current evidence the ≤40 cm rule should be treated as a LOOK, and the knee test as the FUNCTION — and where they conflict in this flat, function wins unless the owner decides otherwise.**

@@ -1037,3 +1037,4 @@ Episode 1 contains **a guided tour of the Ostendorf factory**, with the unsuppor
 
 - **YT_3ClgT0siGik** — Круглов/Ontario (ru) — the independent mattress cross-check. `fact_yield: 41`. **⚠️⚠️ Confirms the no-firmness-standard finding; corrects ARMOS on four points.**
 - **YT_Bb6JlZHk8L8** — Гуру Сна (ru) — the RETAILER cross-check. `fact_yield: 17`. **⚠️⚠️ The spring count is quoted in a gamed unit; the cover question settled at up to 30% of price.**
+- **YT_8mjC_SNgUy4** — Мебель & Текстиль (ru) — the fourth mattress voice, no visible pitch. `fact_yield: 29`. **⚠️⚠️ Contradicts the manufacturer's central model; certificates prove nothing; two types of coir.**
