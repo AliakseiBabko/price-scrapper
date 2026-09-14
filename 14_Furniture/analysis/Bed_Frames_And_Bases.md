@@ -16,6 +16,10 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 
 > **⚠️⚠️ FOR MOST ADULTS THE KNEE BEND IS ROUGHLY 45–50 cm, SO THESE GENUINELY CONFLICT.**
 >
+> **⚠️⚠️ AND A SECOND, INDEPENDENT ERGONOMIC SOURCE NOW STANDS WITH ARMOS (2026-09-14).** Круглов, who sells renovation rather than beds: ***«Желательно, чтобы когда вы садились на кровать, УГОЛ ВАШИХ КОЛЕНЕЙ БЫЛ НЕ МЕНЕЕ 90°… Главное, чтобы вам было удобно садиться и вставать. Других требований нет.»***
+>
+> **→ ⚠️⚠️ THE SCORE IS NOW TWO INDEPENDENT ERGONOMIC SOURCES AGAINST ONE COMPOSITIONAL RULE — and Круглов's formulation is the more CHECKABLE, because a 90° knee angle can be measured while a "palm's width" cannot.** ⚠️ **He also gives the boundary cases: a base at 30–35 cm from the floor is simply uncomfortable to sit on, and a base near 60 cm can carry a tall mattress.** **→ On the current evidence the ≤40 cm rule should be treated as a LOOK, and the knee test as the FUNCTION — and where they conflict in this flat, function wins unless the owner decides otherwise.**
+>
 > **And Кузина's observation explains the shape of the problem: if the Russian market norm really is ≤40 cm, then THE MARKET NORM AND THE DESIGN RULE AGREE WITH EACH OTHER AND BOTH SIT BELOW THE ERGONOMIC OPTIMUM.** **The cost is paid by exactly the people the mattress sources name — older users, and anyone who finds a low bed hard to rise from.**
 >
 > **→ NOT RESOLVED. It depends on who sleeps here and for how many years, and it should be decided deliberately rather than inherited from whichever source was read last.** ⚠️ **Note it compounds with mattress height: a thin mattress on a low frame fails both rules at once, and [[14_Furniture/analysis/Mattress_Construction_And_Selection|the mattress page]] §7 gives 17–18 cm as a springless floor.**
@@ -52,7 +56,13 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 > ***«Самое главное, чтобы расстояние между ними не было больше чем 7–8 сантиметров, чтобы ПРУЖИНЫ МАТРАСА НЕ ПРОВАЛИВАЛИСЬ в эти промежутки — тогда срок службы матраса существенно сократится.»***
 
 - **→ ⚠️⚠️ THE MECHANISM IS NAMED: individual springs drop into an over-wide gap and work outside their design range.** **The victim is the MATTRESS, not the base** — the same asymmetry as a bonnell block abrading the settling layers above it.
-- ⚠️ **The flagship says "not more than 8 cm", the base video "7–8". Recorded as 7–8 cm with 8 as the outer limit.**
+- ⚠️ **ARMOS gives "not more than 7–8 cm", with 8 as its outer limit.**
+- **⚠️⚠️ AND AN INDEPENDENT SOURCE TIGHTENS IT (2026-09-14).** Круглов, who sells renovation and not mattresses: *«Если мы откроем все основания своих кроватей — там по 8, по 10 см расстояния. ЭТО МНОГО. Для пружинного блока это КРИТИЧНО.»* **→ ARMOS's 8 cm sits at the top of what an independent voice already calls excessive. Treat 8 cm as a ceiling to avoid, not a target.**
+- **⚠️⚠️ AND HE MAKES THE RULE DERIVABLE RATHER THAN REMEMBERED, WITH A NUMBER ARMOS NEVER GAVE:** *«Расстояние между ламелями 8–10 см, а ДИАМЕТР ВАШЕЙ ПРУЖИНЫ 3 см. То есть пружина на протяжении этого расстояния просто НЕ ИМЕЕТ ОПОРЫ и держится только за счёт смежных пружин.»* **→ The gap must be small RELATIVE TO THE SPRING DIAMETER, which is why a single absolute figure was always going to be approximate.**
+- **⚠️⚠️ AND AN ESCAPE ROUTE NEITHER SOURCE'S BASE ADVICE OFFERED:** *«Если у вас уже есть готовое основание и вы не можете его поменять — просто НЕ БЕРИТЕ пружинный блок, берите беспружинные матрасы.»* **An over-wide existing base is a reason to change the MATTRESS TYPE, not only the base — a springless mattress spans a wide gap far better.**
+- **⚠️⚠️ AND HE RESOLVES A TENSION THIS PAGE FLAGGED AS OPEN: *«Самое лучшее основание — это ЦЕЛЬНОЕ основание»*** — the floor, or plywood, without holes. ⚠️ **So the solid sheet base accepted in §5 is not a compromise against ventilation; it is the preferred case, and the ventilation concern belongs to the MATTRESS rather than the base.**
+
+[source: [[_Sources/YT_3ClgT0siGik_kruglov_truth_about_mattresses|YT_3ClgT0siGik]]]
 
 ## ⚠️⚠️ 5. Building a base — and the pallet trap
 

@@ -64,3 +64,14 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 > ⚠️⚠️ **`single-account`, and the vault has 4 incidental files on pillows and none on toppers.** **Find one independent source before buying.**
 
 Part of [[14_Furniture/Seating_and_Tables|Seating & Tables]]. Sources: [[14_Furniture/analysis/Seating_and_Tables_Source_Notes|Source Notes]]. Edit history: [[14_Furniture/analysis/Seating_and_Tables_Change_Log|Change Log]].
+
+## ⚠️ A third use for a topper: joining two mattresses (Круглов, 2026)
+
+**Where two partners differ in weight by more than about 60 kg, no single off-the-shelf mattress works** — see [[14_Furniture/analysis/Mattress_Construction_And_Selection|Mattress Construction and Selection]] §9. **One of the two solutions is two separate 80 cm mattresses on a 160 cm bed, and the thing that makes that liveable is laid on top:**
+
+> **A наматрасник or a thin «микроматрасик» spanning both, to make a single plane** and hide the join.
+
+- **→ ⚠️ So the levelling group in §3 has a use beyond rescuing a sagging mattress: it is also what turns two mattresses into one bed.** ⚠️ **He calls the arrangement *«сильно простой вариант, но менее удобный»*** than a purpose-made split mattress.
+- **⚠️ And a separate endorsement of the наматрасник in its ordinary role**, which this page previously only distinguished FROM a topper: it protects the mattress cover from perspiration, **reduces the likelihood of dust mites**, and reduces wear on the top layer.
+
+[source: [[_Sources/YT_3ClgT0siGik_kruglov_truth_about_mattresses|YT_3ClgT0siGik]]]
