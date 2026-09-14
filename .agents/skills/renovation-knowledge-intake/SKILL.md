@@ -642,6 +642,21 @@ For one source at a time:
 
 1. **YouTube source** → run `youtube-transcript-fetch` first to get the
    transcript file. Do not proceed to extraction on an un-fetched video.
+   **Always pass `--upload-date <YYYYMMDD>`** so the sidecar records the
+   video's PUBLICATION date alongside the fetch timestamp. A batch has this
+   already - the metadata sweep that decides language and title also returns
+   `upload_date` - so it costs no extra request. For a one-off with no sweep,
+   `--fetch-upload-date` does the lookup (one extra call; see the fetch
+   skill's own docs for why it is opt-in rather than automatic).
+   **This matters because the publication date is the only thing that dates a
+   figure the source states without a date of its own** (step 5b), and because
+   carrying it by hand is how two upload dates were recorded as "confirmed via
+   yt-dlp" on 2026-09-14 while being three and four months wrong.
+   **Sidecars already in `_Archive/processed_sources/` may have the field
+   added but nothing else changed** - `AGENTS.md` relaxed the archive freeze
+   on 2026-09-14 for additive provenance fields only. **There is no
+   full-archive backfill and none is planned**; fill a sidecar's date when you
+   are already touching that source for another reason.
 1a. **Company/advertising website source** → fetch the real rendered page
    text before extracting, not a summarization tool's paraphrase - see
    "Company website sources: fetching and marketing filter" below for why
