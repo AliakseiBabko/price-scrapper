@@ -88,6 +88,47 @@ selection logic but are mechanically distinct devices.
   of daily cycling. A useful reference point given this household's own
   plan to install the mechanism now and activate it years later.
   [source: [[_Sources/YT_wfmIOYsE2Hs_freedom_wallbed_living_bedroom_combo|YT_wfmIOYsE2Hs]]]
+- **⚠️ A second, LOWER cycle figure, and a warranty that matters more than
+  either**: another maker states **20,000 cycles**, manufacturer-rated for
+  daily use, on a frame rated to 500 kg — ~27 years at twice-daily use. The
+  20,000–30,000 range can be recorded without resolving it, because at
+  household frequency cycle life is not the binding constraint. **The binding
+  number is his WARRANTY: 3 years.** On this project's own plan — install
+  during the current build, activate in Phase 2 roughly 3–4 years later — the
+  mechanism warranty would expire at or before the bed's first day of use, and
+  the unit would pass its entire warranted life unused. That argues not against
+  installing early (the cavity, fixings and wiring genuinely must be built now)
+  but for settling two things before ordering: whether the warranty runs from
+  delivery or from commissioning, and whether the gas struts can be bought or
+  replaced separately later. Struts are a wear part and the cheapest component
+  in the assembly. [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+- **⚠️⚠️ GAS-STRUT FORCE RATING HAS A NAMED PASS/FAIL TEST — the "zero point"**.
+  The page already treats strut selection as a corroborated risk; this is the
+  first source to give a criterion you can apply at handover rather than a
+  warning to be careful. A correctly matched bed has a neutral point: below it,
+  pushed from underneath, the bed continues opening on its own; at the zero
+  point it descends gently and you merely steady it; **and when down it must
+  NOT rise by itself.** The maker's worked case: fitted the maximum strut,
+  **2200 N**, and the lowered bed began lifting itself; swapped to **2000 N**
+  and it settled. He adds that the mechanism manufacturer itself recommends
+  buying several force ratings, because only trial establishes which one a
+  given bed needs. [source: [[_Sources/YT_qMGSfO-glvc_freedom_wallbed_drawbacks_and_struts|YT_qMGSfO-glvc]]]
+- **⚠️⚠️ The same failure reached from the opposite budget, which is what makes
+  it a rule**: a household that built its own wall bed over-specified the
+  struts and had to **weigh the bed down with dumbbells**, because otherwise it
+  would not stay down even with a person lying on it. Maker and DIY, opposite
+  directions, same defect: **the rating must be MATCHED BY TRIAL, never
+  maximised.** Over-specifying is a failure mode in its own right, not a safety
+  margin. [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+- **⚠️ The base should be light, and this is a constraint a static bed does not
+  have**: one maker uses a glued-plywood orthopaedic base and explicitly not a
+  metal one — *«они тяжёлые, и при тяжёлых идёт большая нагрузка на газовые
+  лифты, и срок службы их уменьшается очень быстро»*. On a wall bed the base's
+  WEIGHT becomes a design driver because it permanently loads a strut, so a
+  heavier "better" base shortens the mechanism's life. Compare
+  [[14_Furniture/analysis/Bed_Frames_And_Bases|Bed Frames and Bases]], which
+  discusses lamellae and base construction for a static bed only.
+  [source: [[_Sources/YT_qMGSfO-glvc_freedom_wallbed_drawbacks_and_struts|YT_qMGSfO-glvc]]]
 
 ### ⚠️ Mattress/Bedding Retention — a Genuine Manufacturer Disagreement
 
@@ -104,6 +145,30 @@ retention straps, unresolved either way:
   can come undone over time, letting pillows/blankets fall and jam
   between the mattress and side panel, a real documented failure mode of
   the strap approach. [source: [[_Sources/YT_wfmIOYsE2Hs_freedom_wallbed_living_bedroom_combo|YT_wfmIOYsE2Hs]]]
+- **⚠️ Weight correction, recorded because it was nearly miscounted**: a later
+  video from the **same channel** (FREE_DOM) restates the against-straps
+  position and the identical jamming failure. It corroborates that maker with
+  himself and adds **no** independent voice to the disagreement. [source: [[_Sources/YT_qMGSfO-glvc_freedom_wallbed_drawbacks_and_struts|YT_qMGSfO-glvc]]]
+- **A third INDEPENDENT maker, on the FOR side, with the strongest version of
+  the argument**: two straps hold mattress, pillows and duvet together — you
+  make the bed, strap it, fold it away — so *«нет необходимости предусматривать
+  отдельное место, какие-то ящики, какие-то шкафы»*. The claim is not that
+  straps are tidy but that **they remove a storage requirement**, which is the
+  direct counter to the against-straps camp's recommendation of a separate
+  drawer for bedding. [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+- **⚠️⚠️ A MIDDLE PATH NEITHER MANUFACTURER PROPOSES — elastics, from people
+  living with the bed rather than selling it.** One household holds the
+  **mattress** on elastic bands and does not restrain the bedding at all,
+  simply folding the bed made-up. A self-build household copied the elastic
+  retainers from **train-compartment bunks** to hold the **bedding** to the
+  bed, so nothing is stowed anywhere. Both address precisely the failure the
+  against-straps maker documents — a strap coming undone and jamming bedding
+  between mattress and wall. [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+
+> **The option space is therefore four-way, not two: straps / no straps /
+> elastics on the mattress / elastics on the bedding.** Still unresolved, but
+> the two elastic variants are the only ones proposed by users rather than
+> sellers, and they are the ones aimed at the documented failure mode.
 
 ### Real Combined Living-Room/Bedroom Placement Reasoning
 
@@ -170,6 +235,101 @@ retention straps, unresolved either way:
   the behavior. Worth weighing for this project's own children if a
   child-accessible fold-away mechanism is ever considered for their own
   rooms. [source: [[_Sources/YT_4xZ-9vlXV7Y_progressdesign_three_rooms_transformer_case|YT_4xZ-9vlXV7Y]]]
+
+### ⚠️ Build-Stage Constraints — decided before the unit is drawn
+
+Every item here is settled at rough stage, not at furniture-ordering stage,
+which is what makes them relevant to this project now rather than in Phase 2.
+One maker's own framing: *«Обсуждение этих деталей крайне важно на этапе
+проектировки»*.
+
+- **⚠️⚠️ Anti-tip frame vs fixing to a load-bearing wall — a ~40,000 RUB
+  decision made at planning, not at purchase.** One model carries support
+  frames at the base that prevent tipping, so it *«может стоять у любой
+  стены»*; the other has no frame and **requires** fixing to a capital wall.
+  If the frameless type is chosen, a load-bearing wall must be identified and
+  the unit's position fixed to it before partitions and finishes go in; if the
+  framed type is chosen, position is free but it costs more and the base frames
+  consume floor depth. ⚠️ **Rule 2: the figure is a delta between two models of
+  one Moscow maker with no year stated, bounded by publication (2024-05-25,
+  `upper_bound_from_publication`). It is an order-of-magnitude indication that
+  the anti-tip option is a material cost, and is NOT transferred to this
+  Belarusian project.** [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+- **Six-point fixing, and what to do when the wall is not concrete**: four
+  angle brackets at the top and two concealed at the bottom, on long anchors.
+  **Where the wall is aerated block (gypsolite, warmite, sibit) and anchors
+  will not hold, chemical anchors are used** — *«они держат в любой поверхности,
+  даже в полом кирпиче»*. So a non-capital wall is workable, but only with the
+  fixing specified in advance. [source: [[_Sources/YT_qMGSfO-glvc_freedom_wallbed_drawbacks_and_struts|YT_qMGSfO-glvc]]]
+- **⚠️⚠️ Leave a 5 cm technical gap to the ceiling.** The unit is assembled flat
+  on the floor and then raised; one built exactly to ceiling height cannot be
+  tilted up without a high probability of damaging the ceiling. A filler panel
+  closes the gap afterwards, floor-to-ceiling, for a seamless look.
+  [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+- **⚠️ Skirting must come off behind the bed.** The bed's bearing point must sit
+  hard against the wall, and a standard skirting both leaves a gap behind the
+  unit and obstructs installation; it can be refitted to the visible sections
+  afterwards. **For a wardrobe the rule differs — the plinth may be notched
+  around the skirting instead, but the plinth must be TALLER than the skirting**
+  (a typical 7 cm plinth is not enough against a 12 cm skirting). [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+
+> **⚠️ Skirting is therefore an input to two trades at once in this vault**:
+> [[12_Engineering_and_Systems/analysis/Cable_Circuits_and_Panel_Design|Cable Circuits and Panel Design]]
+> records that shadow and hidden skirtings need a deep recess and interact with
+> wiring depth; this adds that skirting HEIGHT decides whether a transformer
+> unit sits tight to the wall and how tall its plinth must be.
+
+### ⚠️ Living With One Daily — owner accounts, not maker claims
+
+Everything above comes from makers and mechanism suppliers. These are
+households using the bed, including one a full year in and one several years
+in, and they answer the question a maker cannot.
+
+- **⚠️⚠️ The twice-daily folding cycle is not experienced as a chore — two
+  independent households, different sources, same answer**, and both volunteer
+  the **same** reason for accepting it: a proper orthopaedic mattress. One, with
+  a young child: *«Каждый вечер мы раскладываем, мы привыкли это делать, нам не
+  доставляет никакого труда»*, folded again on waking so the home *«имеет
+  приличный вид»*. This is the single most decision-relevant owner finding for a
+  Phase 2 plan built on daily folding. [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+- **⚠️⚠️ A wall bed works like a large vacuum cleaner**: *«когда мы открываем
+  кровать, снизу большим потоком воздуха в шкаф затягивается пыль и мусор,
+  который находится на полу»*. Consequently **cleaning inside needs two people**,
+  one holding the bed while the other clears the bottom shelf. [source: [[_Sources/YT_qMGSfO-glvc_freedom_wallbed_drawbacks_and_struts|YT_qMGSfO-glvc]]]
+- **The same requirement, independently confirmed by an owner a year in — and
+  reframed as a gain**: her son or husband holds the bed while she wipes
+  underneath, but *«ни один шкаф не отодвинете, чтобы протереть пыль — просто
+  сил не хватит, а тут всё пожалуйста»*. **Both are right, and the
+  reconciliation is the finding**: the two-person requirement is real, and the
+  thing it is compared against is a fitted wardrobe nobody ever cleans behind
+  at all. A wall bed makes that floor accessible on demand; a conventional unit
+  makes it permanently inaccessible. [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+- **⚠️ Operating effort is NOT uniform, and the variance points back at the
+  strut rating.** Makers say *«с этим даже справится хрупкая женщина»* and that
+  elderly clients manage; an owner a year in manages alone only by **squatting**
+  and normally leaves it to her husband — while noting herself that *«можно,
+  конечно, механизм другой заказать»*. Not a contradiction but a dependency:
+  **perceived effort is a specifiable property, set by how well the strut is
+  matched to that bed (see the zero-point test above), and it should be tested
+  at handover.** [source: [[_Sources/YT_qMGSfO-glvc_freedom_wallbed_drawbacks_and_struts|YT_qMGSfO-glvc]]], [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+- **Details worth carrying**: the mechanism deliberately does not close fully,
+  *«чтобы не прижать лапки вашим питомцам»*; an **airing detent** lets the bed
+  stand part-open so the mattress ventilates without falling (⚠️ named only in
+  vendor-produced footage — worth asking about, not assuming); two cat-owning
+  households report upholstery copes and recommend **hard** armrests, which do
+  not show hair and take a cup or a laptop; handleless push-open fronts stay
+  clean a year in because no handles are touched; the gap between module and
+  wall will take an ironing board; **and the seam every maker runs down the face
+  of such a bed is negotiable** — one household made its maker omit it, against
+  resistance, and used edging instead. [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+
+⚠️ **All owner sources here are region-unresolved — no city is named in any of
+them — so nothing in this section is carried as a price benchmark.** One owner
+who states he bought with his own money reports a wall-plus-sofa-plus-bed system
+at **210,000 RUB** around 2021 (year hedged) against **340,000** on the same
+maker's site when filming in late 2022; recorded for provenance only, with the
+relative movement — roughly +60% on one identical product in about eighteen
+months — as the part that survives the missing location.
 
 ### Underbed-Storage Lift Mechanism (a Distinct Device — Not a Wall-Bed)
 

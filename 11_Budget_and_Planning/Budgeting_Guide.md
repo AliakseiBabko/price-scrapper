@@ -10,6 +10,7 @@ Build the budget from the physical space, not from guesswork:
 3. **Room-by-room breakdown** — group all costs (finishes, furniture, engineering) by room.
 4. **Volumes** — m² of floor/ceiling/wall, perimeter for baseboards, counts for doors/windows/fixtures.
 5. **Target tiers** — set a class benchmark (basic/comfort/premium) rather than pricing item-by-item first. See [[11_Budget_and_Planning/analysis/Budget_Tiers_Cheap_Optimal_Premium|Budget Tiers: Cheap / Optimal / Premium]] for a worked cheap/optimal/premium breakdown across 11 systems (ceiling, electrical, walls, tile, flooring, baseboard, window reveals, doors, ventilation, smart home, plumbing) — the tier per system need not match; watch for genuine technical dependencies between systems (not just taste) before mixing tiers on physically-connected choices.
+   ⚠️ **And before comparing any two per-m² figures, read [[11_Budget_and_Planning/analysis/Moscow_Per_Square_Metre_Benchmarks|Moscow Per-m² Cost Benchmarks]]** — three Moscow contractors' ladders differ by up to 5× for reasons that are neither location nor year, but SCOPE (finishing only vs. whole interior including furniture and appliances). Location and year are necessary and not sufficient.
 6. **Buffer** — add 10–15% to the total.
 7. **Verify and optimize** *before* demolition (e.g. laminate over parquet), not after.
 

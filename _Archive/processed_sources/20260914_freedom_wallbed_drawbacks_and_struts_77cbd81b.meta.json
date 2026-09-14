@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=qMGSfO-glvc",
+  "video_id": "qMGSfO-glvc",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T20:18:17.137962+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "77cbd81bc206d4520f7384286337550c2e806a9510e85e519232d989f756a143",
+  "attempts_before_success": [],
+  "upload_date": "2024-09-06",
+  "upload_date_source": "yt-dlp"
+}

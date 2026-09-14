@@ -17,6 +17,46 @@ Per explicit user direction (2026-08-20), this project's adult sleeping arrangem
 
 **Practical implication for every rule below**: read "the bedroom" as "whichever space is functioning as the adults' bedroom in the phase being planned," not as a specific numbered room. **Most of the 12-item sequence below assumes a conventional bed occupying fixed floor space in a full four-wall room — Phase 2's fold-away wall-bed transformer changes several of these assumptions materially**: there's no fixed "bed center point," no permanent bedside-nightstand footprint (unless the nightstands are also part of the transformer unit or wall-mounted separately), and clearance/curtain-zone/false-wall steps need to be re-derived around the transformer unit's own footprint and swing/fold path, not a static bed position. Don't assume the sequence transfers unchanged to Phase 2 — flag this explicitly when that phase is actually designed, and look specifically for wall-bed/Murphy-bed design guidance (clearance for the bed's fold path, mattress thickness vs. cabinet depth, what can/can't be stored on or near a wall-bed) rather than assuming the standard sequence's bed-placement formula (step 6) applies as-is.
 
+**⚠️⚠️ What the Phase-1 install actually has to decide, added 2026-09-14.** The
+directive above says install now and activate later; a batch of wall-bed makers
+and owners makes clear that "install now" carries at least five decisions that
+cannot be deferred to Phase 2, because finishes and partitions close over them.
+Detail and attribution on
+[[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanism Selection and Reliability]];
+in summary:
+
+1. **Which wall, and whether it is load-bearing.** One maker's frameless model
+   *requires* fixing to a capital wall; his anti-tip-framed model can stand
+   anywhere but costs roughly 40,000 RUB more and eats floor depth. Choosing the
+   frameless type fixes the unit's position before partitions go in.
+   [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+2. **The fixing itself.** Six points — four top brackets, two concealed at the
+   bottom — on long anchors; where the wall is aerated block, chemical anchors
+   instead. The wall has to be specified to take that at rough stage.
+3. **A 5 cm technical gap to the ceiling**, because the unit is assembled flat
+   and raised into place. A full-height unit cannot be tilted up without a high
+   chance of damaging the ceiling. A filler panel closes the gap afterwards.
+4. **Skirting height and the plinth.** Skirting must come off behind the bed so
+   its bearing point sits hard to the wall; where a wardrobe abuts skirting, the
+   plinth must be *taller* than the skirting. This is a Phase-1 finishing choice
+   that constrains Phase-2 joinery.
+5. **⚠️⚠️ The warranty gap, which is specific to installing early.** One maker
+   rates his struts at 20,000 cycles but warrants the mechanism for **3 years** —
+   on this plan the warranty would expire at or before the bed's first night of
+   use. Worth settling before ordering whether the warranty runs from delivery
+   or from commissioning, and whether the struts (a wear part, and the cheapest
+   component) can be bought or replaced separately later. [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+
+**⚠️ And an owner reaching this plan's own logic independently.** Asked whether
+she would rather have a separate bedroom, a mother living with a wall bed in the
+shared space answered that she would rather simply have more floor area — and
+then: *«У ребёнка должна быть своя комната. Ты сам можешь как-то подстроиться
+под какие-то вещи, а у ребёнка должен быть свой угол. Это комфортнее в итоге и
+ей, и вам.»* That is the reasoning behind this project's Phase 2 — the adults
+take the folding bed so the children get the rooms — arrived at by a household
+that has lived it. **Recorded as corroboration of the reasoning, not as advice
+about the decision, which is already taken.** [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
+
 ## Bedroom Typology (source: `AcibYG4jtbs`, Architect Vitaly Zlobin)
 
 A private-house architect's own working typology for structuring a
