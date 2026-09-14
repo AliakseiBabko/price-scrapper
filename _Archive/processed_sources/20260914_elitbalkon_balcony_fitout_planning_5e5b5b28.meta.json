@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=HeUN7nE3fNA",
+  "video_id": "HeUN7nE3fNA",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T15:05:42.258131+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "5e5b5b2808051064cd523df98be8b665234dcf81cb660d1ebed1e54d94ce3019",
+  "attempts_before_success": [],
+  "upload_date": "2023-11-23",
+  "upload_date_source": "yt-dlp"
+}

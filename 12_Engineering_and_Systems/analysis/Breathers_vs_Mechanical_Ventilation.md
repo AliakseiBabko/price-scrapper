@@ -160,3 +160,40 @@ Clients argue for height on feel — «если потолки 4 м, я СВОБ
 > ⚠️ **Asserted by a contractor with no norm cited, and the jurisdiction is Russian.** **The physics is uncontroversial; what is NOT established here is what is actually permitted in a Belarusian block, which must be confirmed separately.**
 
 [source: [[_Sources/YT_blhGIAE-mE4_planka_engineering_systems_design_stage|YT_blhGIAE-mE4]]]
+
+
+## ⚠️⚠️ ПЕРЕТОК — the Middle Third of Ventilation, and It Contradicts the Soundproofing Page (ЭлитБалкон / Владимир Кожушко, added 2026-09-14)
+
+**His framing: ventilation is three things in series — приток (supply) → переток (transfer between rooms) → вытяжка (extract) — and if any one fails the whole thing fails.**
+
+> ⚠️ **Deliberately narrow addition.** This vault already holds the supply and extract thirds in far more depth, from actual ventilation engineers, on [[12_Engineering_and_Systems/analysis/Fresh_Air_Ventilation_and_Ducting|Fresh-Air Ventilation & Ducting]] — the clean/dirty pressure-gradient balance table, high-level valve placement so incoming air mixes at ceiling level, and the rule that a cooker hood must never share the general extract. **All of that is better stated there and is NOT repeated here.** What follows is only what was genuinely absent.
+
+### ⚠️⚠️ The transfer third, which nobody specifies
+
+> ***«Если двери установлены максимально герметичные, то может быть проблема — просто воздух из этого помещения он не сможет выйти в вентиляцию.»***
+
+**Fix, in his order of preference: an undercut gap beneath the door; a transfer grille (переточная решётка) in the leaf; or, last, transfer valves.** He notes people dislike undercuts — dust, dirt, appearance — **which is exactly why transfer grilles exist.**
+
+> **→ ⚠️⚠️ THIS COUPLES A DOOR DECISION TO A VENTILATION OUTCOME, and the vault had it nowhere.** **A well-sealed interior door — which this vault's own door material treats as a quality signal — defeats the extract in that room unless transfer is designed in.** **Most consequential for the bathroom and WC, which are the rooms whose extract actually matters.**
+>
+> **⚠️⚠️ AND IT SITS DIRECTLY AGAINST [[12_Engineering_and_Systems/analysis/Soundproofing|Soundproofing]], which states that any gap in an enclosing surface — naming under-door gaps explicitly — degrades sound insulation in direct proportion to its size.** **Both are true, and they want opposite things from the same gap.** **The conflict is real and is NOT resolved here: a bathroom door needs transfer air to ventilate and needs sealing to be private, and a transfer grille is an acoustic hole however it is dressed.** **→ The decision belongs to whoever specifies the internal doors, and it should be made knowingly rather than by whichever page was read last.**
+
+### ⚠️ The extract may simply be dead, and two reasons it might be
+
+- **⚠️⚠️ Neighbours above may have rebuilt or blocked the shaft.** He names **mass-built housing from the 2000s in dormitory districts**, where residents altered ventilation stacks freely, so a duct can be physically obstructed higher up and *«вентиляция может просто физически не работать»*. **→ A grille is not evidence of extraction; it has to be tested.** **Complements this page's existing shared-riser-is-a-commons finding from the other direction — that one is about what YOU must not do to the riser, this is about what has already been done to it.**
+- **⚠️ A fan can seal the duct when off.** Fans fitted to speed extraction may block natural flow; fans with a shutter that opens only when running exist.
+
+### ⚠️ The three symptoms, useful as a SET
+
+1. **Stale, stuffy air** — he describes measuring CO₂ and finding you are breathing *«воздухом отработанным… своими испарениями»*.
+2. **⚠️ Windows that sweat or weep.**
+3. **⚠️⚠️ Black corners and mould** — *«потому что нет конвекции внутри помещения: воздух не обменивается, он там застаивается»*.
+
+> **→ The SET is the point: these are normally three separate complaints with three separate fixes, and he ties all three to one cause.** **Follow symptom 2 to [[13_Surfaces_and_Finishes/analysis/Windows_Hardware_Selection|Windows — Hardware Selection]], where the same presenter shows the moisture is indoor air condensing on the coldest surface; and symptom 3 to [[10_Balcony/analysis/Insulation_and_Heating|Insulation & Heating]], where thin insulation is what creates those cold surfaces.**
+
+> [!WARNING]
+> **⚠️ He refers to *«в госте, в документах написано»* for required humidity, temperature and CO₂ figures. RUSSIAN REGULATORY REFERENCE with no number cited — `unverified`, and deliberately NOT routed to `16_Legal_and_Regulations/`, which is Belarus-only.** **Recorded only as an indication that such norms exist in the RU framework.**
+
+⚠️ **Source caveat: 64 views, a balcony contractor rather than a ventilation engineer, nothing measured.** **Kept because the transfer-air requirement is checkable, consequential, and was missing — not because the source outranks the engineers already on the ducting page.**
+
+[source: [[_Sources/YT_Nr5_Pma2Tvg_elitbalkon_ventilation_and_condensation|YT_Nr5_Pma2Tvg]] (+SM4AnGeEvDI)]

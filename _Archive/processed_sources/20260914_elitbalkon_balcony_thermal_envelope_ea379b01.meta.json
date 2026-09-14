@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=gRQaOBGDBa4",
+  "video_id": "gRQaOBGDBa4",
+  "language": "ru",
+  "is_generated_captions": false,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-14T14:57:38.417065+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "ea379b01dd63d64949b799ba7795c996f894f3b3290a9cc7d5e2d9f7ba6b2268",
+  "attempts_before_success": [],
+  "upload_date": "2023-11-22",
+  "upload_date_source": "yt-dlp"
+}
