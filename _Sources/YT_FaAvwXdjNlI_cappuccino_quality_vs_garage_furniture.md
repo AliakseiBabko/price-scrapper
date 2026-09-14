@@ -4,7 +4,7 @@ source_url: https://www.youtube.com/watch?v=FaAvwXdjNlI
 video_id: FaAvwXdjNlI
 transcript_file: _Archive/processed_sources/20260914_cappuccino_quality_vs_garage_furniture_b1d6059b.txt
 fetched: 2026-09-14 via youtube-transcript-api (ru-orig, forced --languages ru per standing rule 1)
-upload_date: 2020-09-14 (confirmed via yt-dlp metadata)
+upload_date: 2020-05-26 (confirmed via yt-dlp metadata)
 channel: CAPPUCCINO (кухни на заказ)
 source_title: "Как отличить качественную мебель от гаражного производства" (10 отличий)
 language: ru
@@ -135,7 +135,7 @@ The stated principle: *«каждый должен быть специалист
 
 ## Source Notes
 
-**CAPPUCCINO** (kitchen fabricator, YouTube), **2020-09-14**, ~7 min, **ru-orig, read in full**. Part of the same channel round as the countertop, facade and tolerance material already in the vault; triage and what was skipped: [`cappuccino_channel_triage_20260914.md`](../_Inbox/planning/cappuccino_channel_triage_20260914.md).
+**CAPPUCCINO** (kitchen fabricator, YouTube), **2020-05-26**, ~7 min, **ru-orig, read in full**. Part of the same channel round as the countertop, facade and tolerance material already in the vault; triage and what was skipped: [`cappuccino_channel_triage_20260914.md`](../_Inbox/planning/cappuccino_channel_triage_20260914.md).
 
 ⚠️ **Six years old and from a different market (Ukraine, 2020).** **The ten tells are about fabrication practice rather than about products or prices, so they age well** — a confirmat on a visible upright and an unbanded edge mean the same thing today and in Minsk. ⚠️ **What does NOT transfer: the brand availability, and any assumption about what the local market's baseline quality is.**
 

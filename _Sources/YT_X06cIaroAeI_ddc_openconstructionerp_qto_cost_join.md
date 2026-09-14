@@ -15,7 +15,7 @@ extraction_taxonomy: custom (this project taxonomy, caller-defined mode - bucket
 fact_yield: 21
 promotional_ratio: very_high
 corroborates_existing: true
-region: multi_region_catalogue_no_belarus_and_no_price_date_stated - flagged
+region: multi_region_catalogue_no_belarus - flagged. PRICE DATE: none stated in the source, so it inherits the publication date as an UPPER BOUND - the catalogue is priced no later than 2026-04-24. What blocks transfer here is the REGION axis, not the date
 delivery_model: vendor of the free/open-source tools demonstrated; consultancy and a book behind them
 ---
 
@@ -52,7 +52,11 @@ delivery_model: vendor of the free/open-source tools demonstrated; consultancy a
 
 > **⚠️⚠️ ONE POSITION, MANY REGIONAL PRICES. That is the `resource_role` / `product_id` split with a REGION AXIS added**, and it is the fourth independent arrival at that split ([[18_Digital_Toolchain/analysis/Quantity_Takeoff_and_Cost_Join|Quantity Take-Off]] §1 holds the other three).
 >
-> **⚠️⚠️ AND THE DEFECT IS WHAT IS MISSING: there is no PRICE DATE anywhere in the demonstration.** Region is first-class; **the year is not mentioned once.** **Standing rule 2 requires both — a price is meaningless without location AND year.** **→ Their schema would fail our own rule. If we copy it, we add the date.** ⚠️ **And no Belarus in the catalogue, so no figure from it is usable here regardless.**
+> **⚠️⚠️ AND THE DEFECT IS IN THEIR SCHEMA, NOT IN OUR RECORD OF IT: the cost line carries a region and NO DATE FIELD.** Region is first-class; **the year is never mentioned.** **→ A user of that tool cannot tell how stale any rate is, which is the whole purpose of carrying the date. If we copy the schema, we add the field.**
+>
+> ⚠️⚠️ **BUT “THE SOURCE STATES NO DATE” IS NOT “THE PRICE IS UNDATED”, AND THE DISTINCTION MATTERS.** **The publication date bounds it: this video was uploaded 2026-04-24, so the catalogue as demonstrated is priced NO LATER THAN April 2026.** **Record it as an UPPER BOUND, never as an as-of date** — a vendor catalogue can be years stale behind its own demo. **An upper bound is still enough to pick a historical FX rate and enough to compare against another dated figure**, which is what standing rule 2 actually asks for.
+>
+> **→ ⚠️ WHAT BLOCKS TRANSFER HERE IS THE REGION AXIS, NOT THE DATE** — the catalogue prices the US, Canada, India and Spain, and **there is no Belarus.** **The year was never the obstacle, and saying it was is an error corrected on 2026-09-14.**
 
 **Two further schema facts:**
 

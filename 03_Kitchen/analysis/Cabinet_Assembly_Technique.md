@@ -118,7 +118,7 @@ design → **shop/constructive drawings** → **CNC beam saw** → **CNC drillin
 
 [source: [[_Sources/YT_P3O2koqOGp8_nsdsgn_carcass_furniture_production|YT_P3O2koqOGp8]]]
 
-## ⚠️⚠️ Acceptance Inspection — Ten Tells on the Day the Kitchen Arrives (CAPPUCCINO, 2020-09-14)
+## ⚠️⚠️ Acceptance Inspection — Ten Tells on the Day the Kitchen Arrives (CAPPUCCINO, 2020-05-26)
 
 **This page and the rest of `03_Kitchen/` are largely about what to SPECIFY. This section is about how to tell, on the doorstep, whether what arrived is what was specified** — and most of it is checkable in minutes with no tools.
 

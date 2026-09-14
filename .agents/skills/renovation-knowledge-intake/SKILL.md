@@ -688,6 +688,33 @@ For one source at a time:
    the source's publish date/year is absent, record that the conversion is
    not computable.
 
+   **The price date defaults to the publication date, per explicit user
+   instruction (2026-09-14).** A source that quotes a figure without saying
+   when it was current is NOT an undated price - the upload date bounds it,
+   and that bound is usable. Resolve it in this order:
+   1. **A date the source states for the price itself** ("as of March", "this
+      year's rate card") - use it, and say where it came from.
+   2. **Otherwise the confirmed `yt-dlp` upload date**, recorded as an UPPER
+      BOUND: the figure is current *no later than* that date. Tag it
+      `price_date_basis: upper_bound_from_publication` in the source note so a
+      later reader can tell a stated date from an inherited one.
+   3. Only if the upload date itself cannot be confirmed is a conversion
+      "not computable".
+   **Never promote the bound to an as-of date.** A vendor catalogue, a rate
+   card or a supplier quote shown in a demo can be years stale behind the
+   video, so the inherited date says "not newer than", never "current on".
+   Where staleness would change a conclusion, say so rather than hiding it
+   behind a precise-looking year.
+   **And "the source stated no date" is not grounds to discard a figure** -
+   that was done once, to a 55,000-item cost catalogue on 2026-09-14, when
+   the real and sufficient objection was that the catalogue had no Belarus
+   row. **An unresolvable LOCATION discards a figure; an unstated date does
+   not.**
+   **Actually run the `yt-dlp` lookup rather than carrying a date forward
+   from a triage note or a plan file.** Two upload dates were recorded as
+   "confirmed via yt-dlp metadata" in the same round without the command
+   having been run, and both were wrong by three to four months.
+
    **Precision by category, per explicit user instruction (2026-08-21)** -
    the source's confirmed publish date (usually the `yt-dlp` upload date) is
    the anchor for all three; query `tools/pricing/currency_converter.py`
