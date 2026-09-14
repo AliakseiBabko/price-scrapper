@@ -301,3 +301,16 @@ own reference photo. The practitioner explicitly invites more
 specialized viewers to weigh in with their own opinion in the comments —
 a rare instance of a source presenting a real technical dispute as
 still open rather than resolved with full confidence. [source: [[_Sources/YT_QginFVl00Hw_petrishin_nonstandard_bathroom_panoramic_vidnoe|YT_QginFVl00Hw]]]
+
+## ⚠️⚠️ Test the Water Before Choosing the Cartridges (бюро Планка, Moscow, 2026)
+
+**This page specifies the node in detail and never says how the filter media should be CHOSEN.**
+
+> *«Сделайте анализ воды в лаборатории… Узнаете жёсткость, наличие примесей и подберёте правильные картриджи.»* **They do it on every project.**
+
+- **→ ⚠️⚠️ A LAB ANALYSIS IS THE INPUT TO THE FILTER SPECIFICATION**, and it is cheap relative to the node it sizes. **Without it the cartridge choice is a guess, and the consequence he names is scale in every appliance plus dry skin.** ⚠️ **The Moscow hardness characterisation does not transfer; the PROCEDURE does — test the actual supply to this flat.**
+- **His treatment train, as a sequence**: coarse filter → **pressure reducer** → fine filter → **non-return valves** → **water-hammer arrestors**, plus a mains cartridge filter **changed every 3–6 months depending on consumption.**
+- **⚠️⚠️ ACCESS IS A SPECIFICATION, AND HE NAMES THE DEFECT**: collectors, meters and filters bricked in behind a **20×20 cm** hatch. *«Всё, что требует обслуживания — фильтры, краны, счётчики — должно быть В ДОСТУПЕ.»* **Make the hatch big enough to work through, not big enough to look through.**
+- **⚠️⚠️ REQUEST THE TECHNICAL SHEET FOR EVERY FIXTURE BEFORE FIRST FIX.** His example: **a bidet-function WC needs an electrical supply and may need extra hot AND cold connections.** **→ A fixture chosen late invalidates the first fix that was already buried.**
+
+[source: [[_Sources/YT_blhGIAE-mE4_planka_engineering_systems_design_stage|YT_blhGIAE-mE4]]]

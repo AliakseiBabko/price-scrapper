@@ -146,3 +146,17 @@ Clients argue for height on feel — «если потолки 4 м, я СВОБ
 
 [source: [[_Sources/YT_Y1lBVJz-ib4_nsdsgn_low_maintenance_interior_2021|YT_Y1lBVJz-ib4]]]
 
+
+## ⚠️⚠️ The Shared Extract Riser Is a COMMONS — Do Not Fit a Fan Into It by Default (бюро Планка, Moscow, 2026)
+
+**In a block of flats the bathroom and the kitchen have SEPARATE extract risers, and they must not be confused.**
+
+> ***«Нельзя ставить туда дополнительные вентиляторы, если это не предусмотрено проектом. Если все соседи поставят мощные вытяжки, вся система разбалансируется, и у вас в квартире будет ЗАПАХ ИЗ ЧУЖИХ КУХОНЬ.»***
+
+- **→ ⚠️⚠️ A TRAGEDY-OF-THE-COMMONS ARGUMENT, AND IT CUTS BOTH WAYS.** Fitting a powerful extract into a shared passive riser can push air back into neighbouring flats — **and the reason you smell other people's cooking is that somebody else already did it.** **The riser's balance is a shared resource that any single flat can degrade.**
+- **⚠️ His approach is a reserve rather than a fan**: leave **an electrical outlet at the extract point** so a fan CAN be added later *«если проблема с посторонними запахами будет нерешаемой»* — **treating the fan as a remedy for a DIAGNOSED problem rather than a default fitting.** **Same pattern as [[12_Engineering_and_Systems/analysis/Engineering_Design_Stage|the reserve provisions]] elsewhere in this source.**
+- ⚠️ **The ТЕХНИЧЕСКИЕ УСЛОВИЯ state the ventilation volume and the extract type**, so whether a ducted hood is permissible at all is knowable BEFORE design rather than discovered during first fix.
+
+> ⚠️ **Asserted by a contractor with no norm cited, and the jurisdiction is Russian.** **The physics is uncontroversial; what is NOT established here is what is actually permitted in a Belarusian block, which must be confirmed separately.**
+
+[source: [[_Sources/YT_blhGIAE-mE4_planka_engineering_systems_design_stage|YT_blhGIAE-mE4]]]

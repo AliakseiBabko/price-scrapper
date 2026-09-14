@@ -155,3 +155,13 @@ Zemstandart/Zemsproekt (Alexey Zemskov) advises: **Practical takeaway: a visible
 ### Thermostat Buying Taxonomy (added 2026-08-24, Round 3)
 
 Konstantin Kruglov / Ontario gives four independent classification axes, useful as a buying checklist: control interface (mechanical dial, touchscreen, or buttons); programmability (simple on/off+setpoint vs. a full weekday/weekend schedule); connectivity (smartphone-app control — check per model, since visually-identical units sometimes differ only in this); and **⚠️ sensor dependency, a real failure-mode distinction**: a standard thermostat relies entirely on its own wired floor sensor — if that sensor later becomes embedded/inaccessible and fails (sealed under finished tile with no access), the whole heating system stops working until either the thermostat is replaced for a sensorless-capable model or the flooring is broken open to replace the sensor. Some models include a built-in air-temperature sensor as a fallback — less precise, but keeps heating functional if the floor sensor fails. **Prefer a thermostat with air-sensor fallback as insurance against this failure mode.** [source: [[_Sources/YT_Is76QlotVFE_kruglov_underfloor_heating_hydronic_electric|Is76QlotVFE]]]
+
+## ⚠️⚠️ A Claimed PROHIBITION on Water Underfloor Heating in Apartment Blocks — Flagged, Not Adopted (бюро Планка, Moscow, 2026)
+
+> ***«Водяные тёплые полы ЗАПРЕЩЕНЫ в многоквартирных домах. Если вы хотите тёплый пол — только электрический.» То же касается водяных полотенцесушителей.***
+
+> **⚠️⚠️ RUSSIAN JURISDICTION, ASSERTED BY A CONTRACTOR WITH NO NORM CITED.** **Standing rule 4 keeps it out of `16_Legal_and_Regulations/`, and the BELARUSIAN position must be confirmed separately.** **→ Recorded as a question to resolve before any wet-UFH option is costed, not as a constraint adopted.** ⚠️ **This is exactly the class of claim that is usually right in substance — tapping a flat's heating circuit for UFH affects the whole riser's hydraulics — and often wrong in its detail about what is actually forbidden versus what merely requires approval.**
+
+**Also from the same source, on the developer's radiators:** they are fitted to hand the building over, are often underpowered, and replacement should run **the whole way from the riser to the meters, including the shut-off valves** — *«потому что там идёт давление, и старая арматура может поплыть через год»*. **Radiator sizing needs a heat-loss and heat-gain calculation**, and **panoramic glazing changes the answer** — either larger emitters or energy-efficient glazing. **Collector distribution applies to heating too**, with per-room circuits that can be isolated.
+
+[source: [[_Sources/YT_blhGIAE-mE4_planka_engineering_systems_design_stage|YT_blhGIAE-mE4]]]

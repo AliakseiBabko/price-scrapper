@@ -132,3 +132,18 @@ sit. The rail itself is NOT installed.** (`data/canonical/plumbing_anchors.csv`.
 [source: `data/canonical/plumbing_anchors.csv` and `wall_materials.json` — owner, 2026-09-04]
 
 
+
+## ⚠️⚠️ The Water Towel Rail's FAILURE MODE — Corrosion at the Branch, and a Flood Measured in Hours (бюро Планка, Moscow, 2026)
+
+**This page already covers water versus electric as a PREFERENCE. This is the risk argument, and it comes with a witness.**
+
+Their own engineering designer, Igor: *«Ему просто позвонили, сказали: "Игорь, вы затопили пять этажей, которые находятся под вами"… отвод на водяной полотенцесушитель просто отвалился из-за КОРРОЗИИ»*.
+
+> **⚠️⚠️ WHY IT IS DIFFERENT FROM AN ORDINARY LEAK:** *«Это КИПЯТОК. И когда отваливается вот этот отвод, ты не сделаешь ничего. Затопление происходит максимально быстро… там считанные часы.»* **Not a seep that weeps for weeks — a full-bore release of boiling water.**
+
+- **⚠️⚠️ AND IT IS CHECKABLE TODAY, ON ANY EXISTING RAIL.** The second speaker reports exactly this on his own: corrosion visible at the top connection, wiped off with a finger, **and it came back.** *«Это оно и есть… ты можешь стать Игорем.»*
+- **Their prescription: cut the water rail out top and bottom, weld in a new section of riser pipe, and fit an ELECTRIC rail** — *«это просто бомба замедленного действия»*.
+
+> **→ This converts a comfort preference into a liability argument, and it strengthens the electric case already on this page** — **with the caveat that the claim comes from a contractor who sells the replacement work, and no failure rate is offered.** ⚠️ **Their separate claim that water towel rails are outright PROHIBITED in apartment blocks is Russian, uncited, and flagged on [[12_Engineering_and_Systems/analysis/Heating_Type_Selection|Heating Type Selection]].**
+
+[source: [[_Sources/YT_blhGIAE-mE4_planka_engineering_systems_design_stage|YT_blhGIAE-mE4]]]
