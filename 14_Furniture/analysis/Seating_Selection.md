@@ -101,6 +101,15 @@ Two further households in the same source give the same reason unprompted
 > adults on a folding bed in the shared space: the question is not "sofa bed or
 > wall bed for guests" but which device an adult sleeps on every night.**
 
+**⚠️ A FOURTH arrival, and note what it distrusts.** A household choosing a wall
+bed over a sofa bed for their own room: *«хочется спать на комфортном матрасе, НЕ
+НА ДИВАНЕ, какими бы ортопедическими они там ни назывались»*. **The scare-quoting
+of «ортопедический» is the same suspicion of the label that
+[[14_Furniture/analysis/Mattress_Construction_And_Selection|the mattress page]]
+records about firmness naming — the word is marketing, not a specification.**
+⚠️ Vendor-filmed, and the same vendor as two other entries in this vault.
+[source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
+
 [source: [[_Sources/YT_ztubNCfTyhg_kachanova_seven_transformer_households|YT_ztubNCfTyhg]]]
 
 ---

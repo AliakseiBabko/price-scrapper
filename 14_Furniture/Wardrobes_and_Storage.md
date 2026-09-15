@@ -70,6 +70,26 @@ genuine cross-topic corroboration.
 (the leftover-space design method, ventilation/heat-loss tradeoff, three
 kitchen-pantry planning types, shelf-depth figures)
 
+## ⚠️ Two storage moves worth copying, from a delivered flat (Progress Design, added 2026-09-15)
+
+- **⚠️⚠️ A TOE-KICK DRAWER OPENED BY FOOT.** A plinth-level drawer with
+  *«специальная ручка, или, может, правильно назвать её ножка»*, fitted in two
+  separate runs of one kitchen. **→ It recovers the plinth void — dead space in
+  every kitchen layout this vault holds drawings for — and it opens hands-free,
+  which is the case that matters when both hands are full.**
+- **⚠️ A BANQUETTE WHOSE BACK PANEL OPENS AS WELL AS ITS DRAWER**, giving shelves
+  for umbrellas and hooks for keys. **→ Two storage volumes from one object, in a
+  hallway — which is where this project is tightest. See
+  [[02_Hallway/analysis/Layout_and_Zoning|Hallway Layout and Zoning]].**
+
+**Smaller placement rules from the same flat**, recorded because they are cheap
+to apply and easy to miss: a dish cupboard directly **above the dishwasher**
+(*«домылась посуда, достал и убрал»*); the leftover strip beside the sink turned
+into niches with pull-out shelves for cleaning chemicals; and a hallway console
+whose clutter goes into drawers **so the top surface stays clear for cleaning**
+— a maintenance argument for an empty horizontal surface, which is a better
+reason than the usual aesthetic one. [source: [[_Sources/YT_oT4828iDsSk_progressdesign_transformer_tables_and_joinery|YT_oT4828iDsSk]]]
+
 ## Source Notes
 
 Traceability record moved to its own page — [[14_Furniture/analysis/Wardrobes_Source_Notes|Source Notes]]. Not reader content, kept off this page by design.
