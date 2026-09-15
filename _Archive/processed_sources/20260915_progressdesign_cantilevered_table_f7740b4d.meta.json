@@ -1,0 +1,13 @@
+{
+  "url": "VYmnD-tHevM",
+  "video_id": "VYmnD-tHevM",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-15T06:11:35.648568+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "f7740b4d3a79808fdcb08f049b98bda74a5b9bf74ebb835be17886f099e285be",
+  "attempts_before_success": [],
+  "upload_date": "2023-04-13",
+  "upload_date_source": "yt-dlp"
+}

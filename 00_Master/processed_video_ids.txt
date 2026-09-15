@@ -1310,3 +1310,11 @@ Gf4yszdV8L4
 # "no subtitle tracks for languages ['ru']", and a direct yt-dlp probe confirmed "has no automatic
 # captions" AND "has no subtitles" in any language. NOT processed, no source note, no CSV content row.
 # Listed here so a preflight does not keep re-offering it; remove this line only if captions appear.
+
+# ---- Progress Design Tier 1, 2026-09-15 (see _Inbox/planning/progress_design_channel_triage_20260914.md) ----
+jZAAwUZVb0I
+68vqONqJ_9s
+KgBcJ4zAHi8
+oT4828iDsSk
+VYmnD-tHevM
+KgVCayGMspo

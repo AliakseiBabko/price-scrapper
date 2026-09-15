@@ -144,6 +144,31 @@ recommending it. [source: [[_Sources/YT_JTFhwaKEQAY_mirlay_glass_telescopic_part
 > [[17_Design_and_Ergonomics/analysis/Sliding_Partition_Mechanisms|Sliding Partition Mechanisms]] —
 > directly relevant to this household's own Phase 2 partition plan.
 
+
+### ⚠️⚠️ The television and the lowered bed want the same floor strip (added 2026-09-15)
+
+**A household living with a 2 m × 1.6 m wall bed found that lowered, it left so
+little space to the facing wall that a wall-mounted TV would be brushed on
+getting out of bed. Their answer was a PROJECTOR onto that wall**, chosen
+precisely so that *«проходя, не задевала бы спиной телевизор»*.
+
+> **→ ⚠️⚠️ THIS IS A LIVE CONFLICT IN THIS PROJECT'S OWN PHASE 2, not a general
+> note.** The plan puts the wall bed in the combined living/dining space — which
+> is also the natural home for a television. **The two compete for the same
+> 50–70 cm, and the competition only exists at night.**
+>
+> **→ The useful reframing: in a wall-bed room the bed-clearance figures this
+> vault records (50 vs 70 cm, still unresolved) are not about free floor but
+> about what PERMANENTLY PROJECTS into that floor** — a TV, a shelf, a projecting
+> cabinet. **A projector projects nothing, which is why it resolves the conflict
+> rather than trading it off.**
+>
+> **⚠️ To settle on the drawing before Phase 2 joinery is ordered**: whether the
+> bed wall and the screen wall are the same wall, and if so whether the screen
+> becomes a projector. See
+> [[00_Master/Bedroom_Wall_Bed_Installation_and_Daily_Use|Wall-Bed Installation and Daily Use]].
+> [source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
+
 ## The Wall-Mounted Transformer/Foldaway Option
 
 Fedotova's own top recommendation for this room type: a wall-mounted

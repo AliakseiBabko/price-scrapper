@@ -147,6 +147,56 @@ Framed by the source as a conscious trade, not a prohibition: it suits someone w
 
 ---
 
+## ⚠️⚠️ Transformer and fold-away tables — a category this page had nothing on (Progress Design, added 2026-09-15)
+
+**A grep across the whole vault before writing this returned ZERO files on
+`стол-трансформер`, `откидной стол` or a Murphy table.** The page's existing
+taxonomy assumes a table that stands on the floor all the time.
+
+### The cantilevered fold-down desk (безопорный стол)
+
+**No legs and no support to the floor at all — the whole load is carried by the
+wall fixing in bending**, and it opens *«одним лёгким движением»*. Storage
+shelves sit inside the body, and the laptop can live in the table itself, so the
+working setup disappears entirely when it shuts. Optional fold-down or hinged
+lockers above; a niche or drawers below.
+
+| Property | As shown |
+| :--- | :--- |
+| Depth of work surface | **50 cm**, can be made deeper to order |
+| **⚠️⚠️ Height** | **NOT adjustable** |
+
+> **⚠️⚠️ THE TRADE-OFF, stated plainly because it cuts against this vault's desk
+> ergonomics material**: you buy back the entire floor footprint when shut, and
+> pay in **fixed height, shallow depth, and a wall that must carry a cantilever**.
+> **On a normal desk you match the desk to the chair; on this one the CHAIR must
+> be matched to the table, and the height is settled at order stage.** The wall
+> must also be specified for a cantilever — a rough-stage decision in the same
+> family as the wall-bed anchor question on
+> [[00_Master/Bedroom_Wall_Bed_Installation_and_Daily_Use|the wall-bed installation page]].
+> His own use case is the home office. [source: [[_Sources/YT_oT4828iDsSk_progressdesign_transformer_tables_and_joinery|YT_oT4828iDsSk]]]
+
+### The dining table stored inside a 300 mm cabinet
+
+**A third construction alongside the extending types above, and the daily state
+is not a table at all.** The leaves are **stored separately inside a shallow
+cabinet** — *«с тыльной стороны он скрывает части столешницы, которые аккуратно
+вынимаются и устанавливаются сверху»* — and assembled on top when needed;
+extended it runs the full width of the kitchen. Built to order, and described as
+a record-holder for the number of runners inside it. The owner's use case is
+*«шумные застолья, такие как дни рождения или Новый год»*.
+
+> **⚠️⚠️ THE PLANNING WARNING ABOVE APPLIES UNCHANGED and should be read with it:
+> this construction removes the DAILY FOOTPRINT cost of a big table, but it does
+> NOT remove the setup cost** — the leaves must be carried out, assembled and put
+> back, a two-person job a few times a year.
+>
+> **⚠️ Directly relevant to this project's Phase 2**, where
+> [[00_Master/Bedroom_Design_Principles|the household plan]] records the everyday
+> table living in the kitchen zone with an extended table set up in the combined
+> space *only for special events*. **That is exactly this device's use case, and
+> it is an unspecified item in the plan as it stands.** [source: [[_Sources/YT_oT4828iDsSk_progressdesign_transformer_tables_and_joinery|YT_oT4828iDsSk]]]
+
 ## Market Note (context, not technique)
 
 She states the Russian market for tables and chairs is **markedly weaker in design terms than the upholstered-furniture market**, and characterises the problem in three parts: pieces too "designerly" or bright to be livable; an absence of simple base-level designs to fall back on; and heavy repetition of a few templates — "если это столик, то это обязательно круглая столешница и три или четыре ножки."

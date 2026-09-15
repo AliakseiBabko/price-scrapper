@@ -9,6 +9,27 @@ Detail page for [[14_Furniture/Seating_and_Tables|Seating & Tables]].
 >
 > ⚠️ **Neither source TESTS anything.** Both are experienced practitioners asserting. **Agreement between opposed incentives is a real improvement on a single account, and it is still not evidence.**
 
+## ⚠️⚠️ 0. A constraint BEFORE any of this: a wall bed needs a mattress rated for vertical storage
+
+**This project intends to buy a wall bed** (see
+[[00_Master/Bedroom_Design_Principles|Bedroom Design Principles]]), **and a maker
+states the requirement flatly**: *«для наших кроватей нужен СПЕЦИАЛЬНЫЙ матрас,
+предназначенный для ВЕРТИКАЛЬНОГО ХРАНЕНИЯ»*, with a range sold in several
+firmnesses.
+
+> **→ ⚠️⚠️ EVERYTHING BELOW ON CONSTRUCTION, SPRINGS AND FIRMNESS IS SELECTION
+> ADVICE FOR A MATTRESS THAT LIES FLAT AND STAYS THERE. A wall-bed mattress spends
+> most of its life on its edge, strapped or retained, under its own weight in the
+> wrong direction.** **So the winner of the comparisons below is not automatically
+> specifiable into a wall bed, and the vertical-storage question has to be asked
+> before the firmness question, not after.**
+>
+> ⚠️ **He states the requirement and not the mechanism, and he sells the mattresses
+> too — so the CONSTRAINT is recorded and its necessity is flagged `unverified`.**
+> **The thing to establish with any supplier is what actually differs in a
+> vertical-storage mattress, and whether a conventional one is merely
+> shorter-lived or genuinely unsuitable.** [source: [[_Sources/YT_jZAAwUZVb0I_progressdesign_spec_and_cost_structure|YT_jZAAwUZVb0I]]]
+
 ## ⚠️⚠️ 1. Three parts, and the spring block cannot do the fine work
 
 | Layer | What it actually does |

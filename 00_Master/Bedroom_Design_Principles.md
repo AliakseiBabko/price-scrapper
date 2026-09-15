@@ -25,10 +25,17 @@ Detail and attribution on
 [[00_Master/Bedroom_Wall_Bed_Mechanisms|Wall-Bed Mechanism Selection and Reliability]];
 in summary:
 
-1. **Which wall, and whether it is load-bearing.** One maker's frameless model
-   *requires* fixing to a capital wall; his anti-tip-framed model can stand
-   anywhere but costs roughly 40,000 RUB more and eats floor depth. Choosing the
-   frameless type fixes the unit's position before partitions go in.
+1. **⚠️⚠️ Which wall, and whether it is CONCRETE** — corrected 2026-09-15; this
+   list previously said "load-bearing", which was this vault's paraphrase and is
+   the wrong test. The maker's rule is the MATERIAL: reliable fixing only to
+   concrete, and for any other wall a support frame that carries the load to the
+   floor instead. **A load-bearing brick or block wall is still not concrete.**
+   ⚠️ **And the support frame is included by default on AUTOMATIC models**, so
+   this question largely dissolves if automatic is wanted and bites hardest on
+   manual ones — which means manual-vs-automatic should be settled before the
+   wall question matters. [source: [[_Sources/YT_jZAAwUZVb0I_progressdesign_spec_and_cost_structure|YT_jZAAwUZVb0I]]]
+   ⚠️ **The frameless model costs roughly 40,000 RUB less than the framed one**,
+   and choosing it fixes the unit's position before partitions go in.
    [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
 2. **The fixing itself.** Six points — four top brackets, two concealed at the
    bottom — on long anchors; where the wall is aerated block, chemical anchors
@@ -46,6 +53,18 @@ in summary:
    use. Worth settling before ordering whether the warranty runs from delivery
    or from commissioning, and whether the struts (a wear part, and the cheapest
    component) can be bought or replaced separately later. [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
+
+**⚠⚠ AND ONE FINDING THAT SPLITS THIS LIST IN TWO, added 2026-09-15.** A
+household whose units went in in 2018 had them **dismantled by the maker's
+fitters for a full room renovation in 2021 and refitted afterwards** — new
+floors, wallpaper and doors — with no damage and no defects since. **So items 1
+and 2 (the wall, its material, the fixings) and the wiring genuinely are
+rough-stage commitments, because finishes close over them; items 3 to 5 — the
+joinery, the plinth and the mechanism itself — are not.** **The unit does not
+have to be BUILT at the same moment as the cavity it will sit in**, which is an
+option against the warranty problem in item 5 that was not previously visible.
+⚠️ **One maker, one household, and the maker's own fitters did the work — not a
+general claim that any wall bed survives this.** [source: [[_Sources/YT_KgBcJ4zAHi8_progressdesign_seven_year_owner_account|YT_KgBcJ4zAHi8]]]
 
 **⚠️ And an owner reaching this plan's own logic independently.** Asked whether
 she would rather have a separate bedroom, a mother living with a wall bed in the
