@@ -365,7 +365,23 @@ def validate(assemblies_path=ASSEMBLIES, vertices_path=VERTICES,
     return problems
 
 
+def _utf8_console():
+    """Never let the ambient code page turn a result into a crash.
+
+    Same defect as tools/layout/check_dxf_closure.py carried: these scripts
+    echo element names and seeded-defect text that are not ASCII, and on a
+    default Windows console (cp1252/cp1251) `print` raises UnicodeEncodeError.
+    A gate whose verdict depends on which terminal ran it is not a gate.
+    """
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding='utf-8', errors='replace')
+        except (AttributeError, ValueError):
+            pass
+
+
 def main():
+    _utf8_console()
     print('structural assemblies:')
     problems = validate()
     if problems:

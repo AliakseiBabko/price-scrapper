@@ -46,6 +46,7 @@ OPENINGS_PLACED = os.path.join("data", "canonical", "v0_openings_placed.json")
 CORNERS = os.path.join("data", "canonical", "wall_corners.csv")
 ELEMENTS = os.path.join("data", "canonical", "v0_elements_extracted.json")
 SPANS = os.path.join("data", "canonical", "wall_opening_spans.csv")
+SHAFTS = os.path.join("data", "canonical", "ventilation_shafts.csv")
 OPENINGS = os.path.join("data", "canonical", "wall_openings.csv")
 
 LAYERS = {
@@ -69,6 +70,16 @@ LAYERS = {
     # frame, and drawing only the glass left the enclosure visibly open there.
     "V0-LOGGIA-FRAME": 5,
     "V0-SLAB-EXTENSION": 2,
+    # The two common-property ventilation shafts. They are NOT walls and must
+    # never be counted as walls - but the approved wall model has always held
+    # "25 walls + 2 shafts", and they were the one part of it the DXF omitted
+    # entirely. Owner: "we need to include the ventilation shaft, which is next
+    # between R3 and R5. This is not a wall, but it is a structural element
+    # [that] will surface a wall, actually." They ADD finishable surface inside
+    # a room and SUBTRACT floor, which is the opposite of how a wall behaves,
+    # so a quantity take-off that iterates walls only will under-count.
+    # Their own layer so they can be isolated for exactly that reason.
+    "V0-VENT-SHAFT": 6,
 }
 # !! V0-SUGGESTED-FURN is GONE. Owner, 2026-09-09: the dashed lines in the G3 /
 # kitchen area are "not necessary here, absolutely" - a leftover from the CAD
@@ -81,6 +92,10 @@ CLASS_LAYER = {
     "external": "V0-WALL-EXTERNAL",
     "loggia_enclosure": "V0-WALL-LOGGIA",
 }
+
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
 
 
 def close_corners(walls):
@@ -309,6 +324,7 @@ def rect(msp, layer, x0, y0, x1, y1):
 
 
 def main():
+    utf8_console()
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out", default=os.path.join("data", "cad", "dxf", "v0_developer_layout.dxf"))
@@ -393,15 +409,47 @@ def main():
                 rect(msp, "V0-OPENING", o["face_lo_mm"], o["from_mm"],
                      o["face_hi_mm"], o["to_mm"])
             kind = notes.get(o["opening_id"], {}).get("type", "opening")
+            # !! from/to are the ALONG axis and face_lo/hi the ACROSS axis, so
+            # which is x and which is y depends on the opening's orientation.
+            # Feeding them in fixed order put every NS opening's label at
+            # (y, x) - O10's landed 5 m outside the flat, in the legend.
+            if o["axis"] == "EW":
+                cx = (o["from_mm"] + o["to_mm"]) / 2.0
+                cy = (o["face_lo_mm"] + o["face_hi_mm"]) / 2.0
+            else:
+                cx = (o["face_lo_mm"] + o["face_hi_mm"]) / 2.0
+                cy = (o["from_mm"] + o["to_mm"]) / 2.0
             msp.add_text("%s %s" % (o["opening_id"], kind), height=70,
                          dxfattribs={"layer": "V0-OPENING"}).set_placement(
-                ((o["from_mm"] + o["to_mm"]) / 2.0,
-                 (o["face_lo_mm"] + o["face_hi_mm"]) / 2.0))
+                (cx, cy))
             n_open += 1
         omitted = [u["opening_id"] for u in op.get("unplaced", [])]
     print("openings: %d from the vector" % n_open)
     if omitted:
         print("           OMITTED, not guessed: %s" % ", ".join(omitted))
+
+    # --- the ventilation shafts --------------------------------------
+    # !! Drawn from ventilation_shafts.csv, whose footprints are the 4th-floor
+    # sub-type read off the BASIC plan. The vector plan under everything else
+    # here is the DETAILED one, which draws the floors-10-and-up variant with
+    # DOUBLED vent sections - so for these two elements, and only these two,
+    # the detailed plan is the wrong sub-type and is deliberately not used.
+    # room_schedules.json: "USE THE BASIC PLAN for the vent shafts".
+    n_shaft = 0
+    if os.path.exists(SHAFTS):
+        for r in csv.DictReader(io.open(SHAFTS, encoding="utf-8")):
+            x0, y0 = float(r["x0_mm"]), float(r["y0_mm"])
+            x1, y1 = float(r["x1_mm"]), float(r["y1_mm"])
+            rect(msp, "V0-VENT-SHAFT", x0, y0, x1, y1)
+            msp.add_text(r["shaft_id"], height=90,
+                         dxfattribs={"layer": "V0-VENT-SHAFT"}).set_placement(
+                ((x0 + x1) / 2.0, (y0 + y1) / 2.0))
+            n_shaft += 1
+            print("shaft %-3s %.0f x %.0f at x %.1f..%.1f  y %.1f..%.1f"
+                  % (r["shaft_id"], float(r["width_mm"]), float(r["depth_mm"]),
+                     x0, x1, y0, y1))
+    print("ventilation shafts: %d (NOT walls - surface added, floor removed)"
+          % n_shaft)
 
     # --- лоджия glazing: four bays and three mullions ----------------
     gl = elements.get("loggia_glazing")

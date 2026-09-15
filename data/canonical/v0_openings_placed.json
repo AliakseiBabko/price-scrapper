@@ -5,6 +5,81 @@
  "method": "hatch-gap span snapped to perpendicular lines crossing >=45% of the wall thickness",
  "openings": [
   {
+   "opening_id": "O8",
+   "wall_id": "G2",
+   "solid_id": "S14",
+   "axis": "EW",
+   "face_lo_mm": 15990.2,
+   "face_hi_mm": 16240.1,
+   "from_mm": 5146.0,
+   "to_mm": 6155.9,
+   "width_mm": 1009.9,
+   "named_width_mm": 1010.0,
+   "width_delta_mm": 0.1,
+   "span_source": "within/bridged solid",
+   "source": "vector reveal lines"
+  },
+  {
+   "opening_id": "O7",
+   "wall_id": "G4C",
+   "solid_id": "S21",
+   "axis": "NS",
+   "face_lo_mm": 5026.0,
+   "face_hi_mm": 5146.0,
+   "from_mm": 14790.3,
+   "to_mm": 15500.3,
+   "width_mm": 710.0,
+   "named_width_mm": 710.0,
+   "width_delta_mm": 0.0,
+   "span_source": "within/bridged solid",
+   "source": "vector reveal lines"
+  },
+  {
+   "opening_id": "O1",
+   "wall_id": "G4C",
+   "solid_id": "S21",
+   "axis": "NS",
+   "face_lo_mm": 5026.0,
+   "face_hi_mm": 5146.0,
+   "from_mm": 13360.3,
+   "to_mm": 14070.3,
+   "width_mm": 710.0,
+   "named_width_mm": 710.0,
+   "width_delta_mm": 0.0,
+   "span_source": "within/bridged solid",
+   "source": "vector reveal lines"
+  },
+  {
+   "opening_id": "O6",
+   "wall_id": "G4d",
+   "solid_id": "S07",
+   "axis": "EW",
+   "face_lo_mm": 12750.3,
+   "face_hi_mm": 12870.3,
+   "from_mm": 5146.0,
+   "to_mm": 6056.0,
+   "width_mm": 910.0,
+   "named_width_mm": 910.0,
+   "width_delta_mm": 0.0,
+   "span_source": "gap BETWEEN walls",
+   "source": "vector reveal lines"
+  },
+  {
+   "opening_id": "O5",
+   "wall_id": "G6",
+   "solid_id": "S08",
+   "axis": "EW",
+   "face_lo_mm": 13575.3,
+   "face_hi_mm": 13650.3,
+   "from_mm": 6305.9,
+   "to_mm": 7216.0,
+   "width_mm": 910.1,
+   "named_width_mm": 910.0,
+   "width_delta_mm": 0.1,
+   "span_source": "gap BETWEEN walls",
+   "source": "vector reveal lines"
+  },
+  {
    "opening_id": "O4",
    "wall_id": "MA",
    "solid_id": "S06",
@@ -15,6 +90,8 @@
    "to_mm": 5731.0,
    "width_mm": 1380.0,
    "named_width_mm": null,
+   "width_delta_mm": null,
+   "span_source": "within/bridged solid",
    "source": "vector reveal lines"
   },
   {
@@ -28,6 +105,8 @@
    "to_mm": 8531.0,
    "width_mm": 1800.0,
    "named_width_mm": 1760.0,
+   "width_delta_mm": 40.0,
+   "span_source": "within/bridged solid",
    "source": "vector reveal lines"
   },
   {
@@ -41,34 +120,39 @@
    "to_mm": 12035.9,
    "width_mm": 1800.0,
    "named_width_mm": 1763.0,
+   "width_delta_mm": 37.0,
+   "span_source": "within/bridged solid",
    "source": "vector reveal lines"
+  },
+  {
+   "opening_id": "O10",
+   "wall_id": "DIVIDER V2|R5",
+   "solid_id": null,
+   "axis": "NS",
+   "face_lo_mm": 9131.0,
+   "face_hi_mm": 9380.9,
+   "from_mm": 13650.3,
+   "to_mm": 15090.3,
+   "width_mm": 1440.0,
+   "named_width_mm": 1455.0,
+   "width_delta_mm": 15.0,
+   "span_source": "gap BETWEEN flanking elements",
+   "source": "flanking element faces"
   }
  ],
- "unplaced": [
+ "unplaced": [],
+ "handled_elsewhere": [
   {
-   "opening_id": "O8",
-   "wall_id": "G2",
-   "why": "no drawn gap inside G2 matches its 1010.0 mm width"
+   "opening_id": "O4a",
+   "why": "a LEAF of the combined unit O4, divided by a frame mullion - one structural opening, already placed"
   },
   {
-   "opening_id": "O7",
-   "wall_id": "G4C",
-   "why": "no drawn gap inside G4C matches its 710.0 mm width"
+   "opening_id": "O4b",
+   "why": "a LEAF of the combined unit O4, divided by a frame mullion - one structural opening, already placed"
   },
   {
-   "opening_id": "O1",
-   "wall_id": "G4C",
-   "why": "no drawn gap inside G4C matches its 710.0 mm width"
-  },
-  {
-   "opening_id": "O6",
-   "wall_id": "G4d",
-   "why": "no drawn gap inside G4d matches its 910.0 mm width"
-  },
-  {
-   "opening_id": "O5",
-   "wall_id": "G6",
-   "why": "no drawn gap inside G6 matches its 910.0 mm width"
+   "opening_id": "O9",
+   "why": "exported as лоджия glazing bays + mullions, not as a rectangular opening"
   }
  ]
 }

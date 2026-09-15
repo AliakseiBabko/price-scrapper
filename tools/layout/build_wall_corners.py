@@ -69,6 +69,10 @@ FIELDS = ['corner_id', 'kind', 'wall_a', 'wall_b', 'owner',
           'owner_gains_mm', 'note']
 
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
+
+
 def run_len_mm(w):
     return (abs(w['b'][0] - w['a'][0]) + abs(w['b'][1] - w['a'][1])) * MM_PER_PX
 
@@ -314,6 +318,7 @@ def rows_from(Ls, asm=None):
 
 
 def main():
+    utf8_console()
     walls = load(RUNS)
     Ls, Ts = classify(walls)
     asm, asm_problems = assembly_of_strict(walls)
