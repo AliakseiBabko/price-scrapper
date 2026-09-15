@@ -88,60 +88,91 @@ still closes at 1440.0 against 1455.
 
 ## The window frame subdivision — what part 2 actually needs
 
-`data/canonical/window_frames.csv`, added 2026-09-15 from four photographs the
-owner pointed at. **This is the piece the план alone cannot supply**: a plan
-gives an opening's width and position, and the 3D model needs to know how the
-frame is divided.
+`data/canonical/window_frames.csv`.
 
-| opening | wall | pattern | evidence |
-| :--- | :--- | :--- | :--- |
-| **O2** | MB | **2 sashes, 1 mullion, NO transom** | `ext1` (**ours**, outside) + `b6f0` (apt 53, inside) |
-| **O3** | MC | **2 × 2 — 1 mullion AND 1 transom**, four panes | `ext1` (**ours**, nearly square-on) + `bdc7` (apt 53, inside) |
-| **O4** | MA | **window leaf + full-height DOOR leaf**, 1 mullion | `9db4` (apt 53) + the recorded O4a/O4b |
+> [!CAUTION]
+> ⚠️ **REBUILT 2026-09-15 FROM THE RECORD, after the owner pointed out that
+> these measurements were already made and I had gone off and re-derived them
+> from photographs.** He was right, and it is the same failure this project
+> already names on its own front page: *"re-deriving the wall inventory was
+> reinventing the wheel and should never have been attempted."* The rule is not
+> "photos are bad" — it is **search the record before reaching for an
+> instrument.**
 
-Two of the four photographs are of **this flat**, not a comparable, and they are
-the ones that carry the pattern for O2 and O3.
+### What the record already settled, and I should have read first
 
-### ⚠️ The pattern is measured. The sizes are not.
+| | figure | grade |
+| :--- | :--- | :--- |
+| O3 | sill **266**, height **1985**, width **1763**, head **2251** | **TAPE**, 2026-09-07 |
+| O2 | width **1760** | **TAPE** |
+| O4a | sill **735** | **TAPE**, and `bc18` agreed to **1 mm** by an independent method |
+| all | a head standard at **~2240–2250**, ~250 below the ceiling | derived, consistent across O3 and O4b |
 
-**A photograph settles topology and nothing else here.** How many sashes there
-are, whether a transom exists, which leaf is the door — those are countable, and
-a photo is the right instrument. A member width is not: the visible centre band
-scales to ~140 mm off an oblique shot with no scale reference in frame, which is
-±100 at best under standing rule 9. **Every member size in the table is a
-nominal pending a tape measure, and each row says so.**
+None of that is re-derived here. **`FLAG_O3_window_proportions_do_not_fit` was
+opened on 2026-09-06 and closed by that tape on the 7th** — and the tape
+vindicated `9902` exactly: measured aspect 1985/1763 = **1.126** against 9902's
+square-on 1.11–1.16.
 
-The 0.5 splits are the same: the **default** for a two-sash unit, not a
-reading. O3's panes measure ~17% apart on the exterior photo — ~40 mm at
-1763 — which is inside the reading error, so the default stands rather than
-pixels being adopted.
+### The patterns
 
-⚠️ **The two photos disagree about O3's transom height and the exterior one
-wins.** `ext1`, nearly square-on, puts it within ~3% of mid-height; `bdc7`,
-oblique and from inside, reads 57/43. An oblique interior view compresses the
-far part of a vertical division, so the near-frontal shot is the better
-instrument. **At a 1985 opening the two readings differ by ~140 mm** — worth a
-tape measure before anything depends on it.
+| opening | pattern | agreeing photos |
+| :--- | :--- | :--- |
+| **O2** | 2 sashes, 1 mullion, **no transom** | `b6f0`, `ext1` (ours) |
+| **O3** | **2 × 2** — mullion *and* transom | `9902`, `bdc7`, `ext1` (ours) |
+| **O4** | window leaf + full-height **door** leaf | `bc18`, `9db4` |
 
-### ⚠️ Reading a MIRRORED photo: O4's door is on the EAST
+### Positions come from `9902`, and only as RATIOS
 
-`9db4` is apartment 53, which is **mirrored**, so its left and right cannot be
-carried across — that is exactly the error the `_Survey` folder names in every
-directory. What *can* be carried is a **relationship that survives mirroring**:
-in the photo the door leaf sits on the side with the **short wall reveal** and
-the window leaf on the side with the long run.
+⚠️ **The record already states what 9902 can and cannot do**: *"it carries NO
+SCALE — nothing of known length lies in the window's plane"*, but it is the one
+square-on shot in the survey, so **its proportions are sound where every oblique
+shot's are not.** So it supplies fractions, never millimetres:
 
-In our flat O4 spans x 4351.0…5731.0, leaving **1120.1 to G4a on the west** and
-**325 to G8 on the east** — so the short reveal is east, and the door goes east.
-The mullion lands at 4951.0, which is 4351 + the recorded 600 leaf, so its
-position comes from the record rather than from the photo.
+- **mullion at mid-width** — the two sashes measure 277 and 282 px, **1.8%
+  apart**
+- **member ≈ 195 mm** — 78 px of a 705 px frame, ×1763; two sash frames plus the
+  mullion profile, a normal PVC centre band
+
+### ⚠️⚠️ O3's transom is the LEAST settled figure in the set
+
+| reading | from top | instrument |
+| :--- | ---: | :--- |
+| `9902` | **0.56** | square-on, planar — upper pane taller |
+| `bdc7` | 0.57 | oblique interior — agrees |
+| `ext1` (ours) | **0.457** | oblique, partly behind foliage, against blockwork — **opposite way round** |
+
+Two against one, and the two are the better instruments, so **0.44 above the
+sill** is recorded — about 874 above a 266 sill, **~1140 above the floor**.
+⚠️ **But the spread is ~0.10 of 1985 ≈ 200 mm, far too coarse for a joinery
+order.** A tape settles it outright and nothing should be ordered against it
+until one does.
+
+### O4's split was already resolved — and the door is EAST
+
+Three readings agree on the *pair* of numbers: the owner's survey (600), my
+2026-09-05 photo split (620/760), and `bc18` corrected for perspective
+(583/772). **The dispute was never the widths, only which leaf is which** — and
+`bc18` settled it, because there the door stands **open**, so its aperture is
+unambiguous: **door ~770, window ~600.**
+
+⚠️ `bc18` and `9db4` are both **mirrored** flats. What survives mirroring is that
+the door sits on the side with the **short wall reveal**; our O4 leaves 1120.1
+to G4a west and **325 to G8 east**, so the door is east and the mullion lands at
+4351 + 600 = **4951.0**.
+
+**A constraint `bc18` gives free:** the door opens **inward, into the 9.36
+room**, so a ~770 mm swing must stay clear in front of it — a layout fact, not a
+geometry one.
 
 ### In plan, only the vertical members exist
 
 O3's transom is recorded and **deliberately not drawn**: it is horizontal, so it
 belongs to elevation, and a plan showing it would be lying about what a plan is.
 `check_dxf_closure.py` asserts every vertical member is drawn where recorded and
-that nothing extra is, with its own seed — a new drawn class with no seed is a
-class nobody has watched fail, and these are DRAFT-grade photo evidence, so they
-need the gate more than the walls do.
+that nothing extra is, with its own seed.
 
+⚠️ That seed initially pinned the mullion's left **edge**, so raising the member
+from 120 to 195 mm made it find nothing — **its own assert caught that**, which
+is what a seed is for, but a seed that depends on a figure it does not own will
+keep going stale. It now locates by the mullion's **centre**, which is the thing
+that means something.

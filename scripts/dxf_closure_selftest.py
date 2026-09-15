@@ -461,10 +461,21 @@ def _(doc):
     The frame members are the one thing the owner's 3D model needs that the
     plan alone cannot give, and they are DRAFT-grade photo evidence, so they
     need the gate more than the walls do, not less."""
+    # !! Located by the mullion's CENTRE, not by a hard-coded edge. The first
+    # version pinned the left edge at 11075.9, which was 11135.9 minus half a
+    # 120 mm member - so when the member width became 195 the seed stopped
+    # finding anything and went inert. Its own assert caught that, which is the
+    # behaviour a seed is supposed to have, but a seed that depends on a figure
+    # it does not own will keep going stale. The centre is the thing that means
+    # something; the width is a detail it should not care about.
     msp = doc.modelspace()
-    gone = [e for e in msp
-            if e.dxf.layer == 'V0-WINDOW-FRAME' and e.dxftype() == 'LWPOLYLINE'
-            and abs(min(q[0] for q in e.get_points()) - 11075.9) < 1.0]
+    gone = []
+    for e in msp:
+        if e.dxf.layer != 'V0-WINDOW-FRAME' or e.dxftype() != 'LWPOLYLINE':
+            continue
+        xs = [q[0] for q in e.get_points()]
+        if abs((min(xs) + max(xs)) / 2.0 - 11135.9) < 2.0:
+            gone.append(e)
     assert len(gone) == 1, ("expected exactly one O3 mullion, found %d"
                             % len(gone))
     msp.delete_entity(gone[0])
