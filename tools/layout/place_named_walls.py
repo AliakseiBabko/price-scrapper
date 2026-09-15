@@ -398,6 +398,12 @@ def apply_placement_directives(walls, unmatched):
     for r in csv.DictReader(io.open(PLACEMENT_DIRECTIVES, encoding="utf-8")):
         wid = (r.get("wall_id") or "").strip()
         rel = (r.get("relation") or "").strip()
+        # trim_* rows live in the same table but are a different thing: they
+        # adjust where an ALREADY-MATCHED wall stops. Handled at the lay, not
+        # here - without this guard MA's trim reads as a placement directive
+        # for a wall that has a solid, and reports itself as a contradiction.
+        if rel in ("trim_start", "trim_end"):
+            continue
         ref = (r.get("relative_to") or "").strip()
         w, base = by_id.get(wid), by_id.get(ref)
         if not w:
@@ -652,6 +658,20 @@ def main():
             groups.setdefault(w["solid"]["solid_id"], []).append(w)
 
     ledger_rows = load_corner_ledger()
+    # Trims: a wall whose drawn END is wrong even though its solid is right.
+    # MA is the case - the extraction CLIPS every solid to the flat's envelope
+    # at x 2830.9, and MA inherited that clip as its west face, 100 mm past M2
+    # and 149.9 past R6. The clip is where reading the neighbour's structure
+    # stopped; it is not a wall face, and the frozen ink mask has zero ink in
+    # the strip beyond it. Applied AFTER laying, so the lay is unchanged.
+    trims = {}
+    _tp = os.path.join("data", "canonical", "wall_placement_directives.csv")
+    if os.path.exists(_tp):
+        for r in csv.DictReader(io.open(_tp, encoding="utf-8")):
+            if (r.get("relation") or "").strip() in ("trim_start", "trim_end")                     and (r.get("status") or "").strip() == "accepted":
+                trims.setdefault(r["wall_id"], []).append(
+                    (r["relation"].strip(), float(r["align_face_mm"]),
+                     r["directive_id"]))
     report = []
     for sid, members in sorted(groups.items()):
         solid = members[0]["solid"]
@@ -668,6 +688,17 @@ def main():
                 anchor = 'hi'
         lay = (lay_on_joints(members, solid, js) if len(js) > 2
                else lay_on_solid(members, solid, anchor))
+        for w in members:
+            for kind, at, did in trims.get(w["wall_id"], []):
+                if kind == "trim_start" and w["from_mm"] < at - 0.05:
+                    print("   %-5s TRIMMED start %.1f -> %.1f by %s"
+                          % (w["wall_id"], w["from_mm"], at, did))
+                    w["from_mm"] = round(at, 1)
+                elif kind == "trim_end" and w["to_mm"] > at + 0.05:
+                    print("   %-5s TRIMMED end %.1f -> %.1f by %s"
+                          % (w["wall_id"], w["to_mm"], at, did))
+                    w["to_mm"] = round(at, 1)
+                w["laid_length_mm"] = round(w["to_mm"] - w["from_mm"], 1)
         report.append({"solid_id": sid, "axis": solid["axis"],
                        "thickness_mm": solid["thickness_mm"],
                        "face_lo_mm": solid["face_lo_mm"], "face_hi_mm": solid["face_hi_mm"],

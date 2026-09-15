@@ -45,27 +45,7 @@
    "side": "low",
    "axis": "EW",
    "segment": 0,
-   "of_segments": 3,
-   "x0": 2830.9,
-   "y0": 8980.6,
-   "x1": 2930.9,
-   "y1": 9050.6,
-   "status": "from_drawing",
-   "evidence": [
-    "perpendicular solid S16 stops exactly on 8980.6, the insulation face",
-    "perpendicular solid S22 stops exactly on 8980.6, the insulation face"
-   ],
-   "interrupted_by": [
-    "O4"
-   ]
-  },
-  {
-   "wall_id": "MA",
-   "insulation_mm": 70.0,
-   "side": "low",
-   "axis": "EW",
-   "segment": 1,
-   "of_segments": 3,
+   "of_segments": 2,
    "x0": 3130.9,
    "y0": 8980.6,
    "x1": 4351.0,
@@ -84,8 +64,8 @@
    "insulation_mm": 70.0,
    "side": "low",
    "axis": "EW",
-   "segment": 2,
-   "of_segments": 3,
+   "segment": 1,
+   "of_segments": 2,
    "x0": 5731.0,
    "y0": 8980.6,
    "x1": 5881.0,
@@ -106,9 +86,9 @@
    "axis": "EW",
    "segment": "end_lo",
    "of_segments": null,
-   "x0": 2760.9,
+   "x0": 2860.9,
    "y0": 8980.6,
-   "x1": 2830.9,
+   "x1": 2930.9,
    "y1": 9350.3,
    "status": "from_drawing",
    "evidence": [
