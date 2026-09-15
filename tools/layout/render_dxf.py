@@ -81,6 +81,51 @@ def font(size):
     return ImageFont.load_default()
 
 
+
+REGISTRATION = os.path.join(REPO, '_Drawings', 'evidence',
+                            'v0_raster_registration.json')
+PLAN_RASTER = os.path.join(REPO, '_Inbox', '_Visual_Drop',
+                           'fllor_plan_detailed.jpeg')
+
+
+def plan_underlay(size, x0, y0, PAD, S, H):
+    """The developer's own drawing, warped under the model at the SAME scale.
+
+    Owner, 2026-09-15: *"I want the base image like a raster image as a basis
+    to show the difference."* A model drawn on a blank sheet can only be
+    checked against itself; drawn over the plan it came from, a wall in the
+    wrong place is visible at a glance.
+
+    !! The mm->px mapping is the FROZEN, HASHED registration that
+    raster_fidelity.py measures against - `_Drawings/evidence/
+    v0_raster_registration.json`, fitted between the PDF's hatched wall faces
+    and the raster's own wall lines, with the DXF deliberately not consulted.
+    Fitting a fresh transform here would reintroduce exactly the circularity
+    CODEX rejected in the old overlay_dxf_on_raster.py: a picture that makes
+    the model look right because it was aligned TO the model. If the frozen
+    evidence is missing or its raster has changed, this returns None and the
+    drawing falls back to a white ground rather than showing an unregistered
+    overlay, which would be worse than none.
+    """
+    if not (os.path.exists(REGISTRATION) and os.path.exists(PLAN_RASTER)):
+        return None, 'frozen registration or plan raster not found'
+    reg = json.load(io.open(REGISTRATION, encoding='utf-8'))
+    sx, ox = reg['sx'], reg['ox']
+    sy, oy = reg['sy'], reg['oy']
+    src = Image.open(PLAN_RASTER).convert('L')
+    # output (X, Y) -> source (u, v), both affine and axis-aligned
+    a = sx / S
+    c = (x0 - PAD) * sx + ox
+    e = -sy / S
+    f = (H / S + y0 - PAD) * sy + oy
+    warped = src.transform(size, Image.AFFINE, (a, 0.0, c, 0.0, e, f),
+                           resample=Image.BICUBIC, fillcolor=255)
+    # Pale, so the model reads ON TOP of it rather than competing with it.
+    faded = Image.eval(warped, lambda v: int(255 - (255 - v) * 0.30))
+    return faded.convert('RGB'), 'mm_per_px %.4f, fit %s' % (
+        reg['mm_per_px'], reg.get('fit', '?'))
+
+
 def main():
     utf8_console()
     ap = argparse.ArgumentParser()
@@ -123,6 +168,14 @@ def main():
     W = int((x1 - x0 + 2 * PAD) * S) + LEG
     H = int((y1 - y0 + 2 * PAD) * S)
     img = Image.new('RGB', (W, H), (255, 255, 255))
+    under, why = plan_underlay((W, H), x0, y0, PAD, S, H)
+    if under is not None:
+        img.paste(under, (0, 0))
+        # the legend column stays white - the plan does not extend under it
+        ImageDraw.Draw(img).rectangle([W - LEG, 0, W, H], fill=(255, 255, 255))
+        print('  underlay: the developer plan, frozen registration (%s)' % why)
+    else:
+        print('  underlay: NONE - %s' % why)
     dr = ImageDraw.Draw(img)
     f_s, f_m, f_b = font(14), font(18), font(25)
 
@@ -219,7 +272,13 @@ def main():
     # bytes of the delivered PNG.
     v0.write_sidecar(summary, os.path.splitext(args.out)[0] + '.json')
     y += 12
-    for line in ('Project dimensions. As-built runs',
+    for line in ('Grey underlay: the developer plan',
+                 'itself, placed by the FROZEN',
+                 'registration raster_fidelity.py',
+                 'measures against — not fitted to',
+                 'this DXF. Model on top.',
+                 '',
+                 'Project dimensions. As-built runs',
                  '1.0–1.9% smaller. DRAFT.'):
         dr.text((lx, y), line, fill=(90, 90, 90), font=f_s)
         y += 18
