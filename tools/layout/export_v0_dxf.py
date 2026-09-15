@@ -403,11 +403,41 @@ def main():
               % (cid, own, gain, end, oth))
 
     # --- walls -------------------------------------------------------
+    # !! THE WALLS ARE MITRED ON THE GLAZING PLANE TOO, not only the insulation.
+    # Owner, 2026-09-15: "M2 and M6b are indeed not squared but inclined - the
+    # surface is flush with the glazing and the insulation, this is the cut
+    # under one angle and we have one surface." The лоджия face is a splay, so
+    # a wall running into it ends on the slope, and an axis-aligned rectangle
+    # overshoots by a triangle - about 200 x 55 mm at each of M2 and M6b.
+    #
+    # Cutting the WALL on the same plane as the insulation is what makes the
+    # two read as one surface; mitring only the layer left the block sticking
+    # through the glass underneath it.
+    gl_clip = None
+    if elements.get("loggia_glazing"):
+        import math as _mm
+        _g = elements["loggia_glazing"]
+        _a, _b = _g["axis_from"], _g["axis_to"]
+        _L = _mm.hypot(_b[0] - _a[0], _b[1] - _a[1])
+        gl_clip = (_a[0], _a[1], -(_b[1] - _a[1]) / _L, (_b[0] - _a[0]) / _L)
+    n_wall_mitre = 0
     for w in walls:
         if w.get("face_lo_mm") is None:
             continue
         x0, y0, x1, y1 = wall_box(w)
-        rect(msp, CLASS_LAYER.get(w["class"], "V0-WALL-CONCRETE"), x0, y0, x1, y1)
+        loop = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+        if gl_clip:
+            cut = ru.clip_halfplane(loop, *gl_clip)
+            if len(cut) >= 3 and abs(ru._shoelace_area(cut)
+                                     - (x1 - x0) * (y1 - y0)) > 1.0:
+                loop = cut
+                n_wall_mitre += 1
+                print("   %-5s MITRED on the glazing plane - %d corners, "
+                      "%.0f mm2 cut off"
+                      % (w["wall_id"], len(loop),
+                         (x1 - x0) * (y1 - y0) - ru._shoelace_area(loop)))
+        msp.add_lwpolyline(loop, close=True, dxfattribs={
+            "layer": CLASS_LAYER.get(w["class"], "V0-WALL-CONCRETE")})
         msp.add_text(w["wall_id"], height=90,
                      dxfattribs={"layer": "V0-WALL-LABEL"}).set_placement(
             ((x0 + x1) / 2.0, (y0 + y1) / 2.0))

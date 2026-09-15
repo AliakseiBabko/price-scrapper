@@ -152,14 +152,37 @@ glazing's **own outer plane**. Because it is one plane for both ends, the
 finished surface stays continuous across the corner instead of gaining a step
 of its own.
 
-⚠️ **The WALLS M2 and M6b are still drawn square, and that is a known
-omission, not an oversight.** `dxf_wall_entities.py` refuses any wall entity
-that is not a rectangle — closed, axis-aligned, four distinct corners, polygon
-area equal to bounding-box area — and that invariant exists because *both* gates
-once reduced a polyline to its bounding box, so a triangle on three of a
-rectangle's corners passed both. Mitring the wall entities means relaxing it,
-which needs its own seeds proving the relaxed reader still rejects a malformed
-entity. **Deferred deliberately rather than done carelessly.**
+### ✅ The WALLS are mitred too — one cut, one angle, one surface
+
+Owner, 2026-09-15: *"M2 and M6b are indeed not squared but inclined — the
+surface is flush with the glazing and the insulation, this is the cut under one
+angle and we have one surface."* Mitring only the layer left the block sticking
+through the glass underneath it, so the wall entities are now cut on the **same
+plane** as the insulation: **M2 loses 5710 mm², M6b 5707 mm²** — near-identical,
+as a symmetric splay should be.
+
+⚠️ **That required relaxing the strictest invariant in the model**, so it was
+done narrowly and proved. `dxf_wall_entities.py` refused anything that was not a
+rectangle, and that rule exists because *both* gates once reduced a polyline to
+its bounding box — **a triangle on three of a rectangle's corners passed both.**
+
+The relaxation is **not** "allow five corners". A wall may now carry **at most
+one** skew edge, that edge must lie on the лоджия glazing's **own plane** — read
+from `v0_elements_extracted.json`, never accepted from the entity — and the
+polygon area must equal **the result of clipping the entity's own bounding box
+on that plane**, recomputed here by shoelace. With no mitre the clip is a no-op
+and the original bbox test is unchanged.
+
+Three seeds prove it can still fail, each for its own reason:
+
+| seeded defect | rejected because |
+| :--- | :--- |
+| the original **triangle on three corners** (CODEX r4) | area is half the box, and no plane passes where its diagonal does |
+| a mitre at **45°** instead of the glazing angle | *"the skew edge is off the glazing plane — a wall may be mitred on THAT plane and on no other"* |
+| a mitre at the **right angle, wrong offset** — parallel, 400 mm inboard | the plane test is an **offset** test, not an angle test: both ends must lie ON the plane, not merely along it |
+
+The third exists because direction alone would have passed a wall that was
+simply too short — the failure an angle-only check invites.
 
 ### M2 touches MA — the third time of asking
 

@@ -43,13 +43,20 @@ the bbox area, not an absolute, so it does not loosen on large walls.
 """
 from __future__ import print_function
 
+import math
+import os
+import io
 import ezdxf
 
 WALL_LAYER_PREFIX = 'V0-WALL'
 LABEL_LAYER = 'V0-WALL-LABEL'
 
+REPO = os.path.dirname(os.path.dirname(os.path.dirname(
+    os.path.abspath(__file__))))
+
 AXIS_TOL_MM = 0.5      # an edge this far off axis is not axis-aligned
 AREA_TOL = 0.001       # |polygon area - bbox area| / bbox area
+MITRE_TOL_MM = 2.0     # how far a mitred edge may sit off the glazing plane
 MIN_SIDE_MM = 1.0      # a degenerate sliver is not a wall
 
 
@@ -66,8 +73,61 @@ def _shoelace(pts):
     return abs(a) / 2.0
 
 
+def mitre_plane():
+    """The лоджия glazing's own outer plane, as (ax, ay, nx, ny) - or None.
+
+    !! This is the ONLY direction in which a wall entity may stop being
+    axis-aligned, and it is read from the drawing rather than accepted from the
+    entity. Owner, 2026-09-15: *"M2 and M6b are indeed not squared but inclined
+    - the surface is flush with the glazing and the insulation, this is the cut
+    under one angle and we have one surface."* The лоджия face is a splay, so
+    the walls that run into it are mitred, not square.
+    """
+    import json
+    path = os.path.join(REPO, 'data', 'canonical', 'v0_elements_extracted.json')
+    if not os.path.exists(path):
+        return None
+    try:
+        gl = json.load(io.open(path, encoding='utf-8')).get('loggia_glazing')
+    except ValueError:
+        return None
+    if not gl:
+        return None
+    ax, ay = gl['axis_from']
+    bx, by = gl['axis_to']
+    L = math.hypot(bx - ax, by - ay)
+    if L <= 0:
+        return None
+    return (ax, ay, -(by - ay) / L, (bx - ax) / L)
+
+
+def _clip(loop, ax, ay, nx, ny, eps=1e-6):
+    out = []
+    n = len(loop)
+    for i in range(n):
+        cur, nxt = loop[i], loop[(i + 1) % n]
+        sc = (cur[0] - ax) * nx + (cur[1] - ay) * ny
+        sn = (nxt[0] - ax) * nx + (nxt[1] - ay) * ny
+        if sc >= -eps:
+            out.append(cur)
+        if (sc > eps and sn < -eps) or (sc < -eps and sn > eps):
+            t = sc / (sc - sn)
+            out.append((cur[0] + t * (nxt[0] - cur[0]),
+                        cur[1] + t * (nxt[1] - cur[1])))
+    return out
+
+
 def validate_rectangle(entity, points):
-    """Return (x0, x1, y0, y1) or raise MalformedWall with the reason."""
+    """Return (x0, x1, y0, y1) or raise MalformedWall with the reason.
+
+    A wall is a rectangle, OR a rectangle mitred on the лоджия glazing's own
+    plane and nowhere else. ⚠️ The relaxation is not "allow five corners": the
+    entity must equal, to within tolerance, THE RESULT OF CLIPPING ITS OWN
+    BOUNDING BOX ON THAT PLANE - area recomputed here by shoelace, not taken
+    from the entity. A triangle on three of a rectangle's corners, the defect
+    this validator exists for, fails that: its area is half the box and the
+    plane does not pass where its diagonal does.
+    """
     if not entity.closed:
         raise MalformedWall('the polyline is not closed')
     for q in entity.get_points():
@@ -81,13 +141,32 @@ def validate_rectangle(entity, points):
     if len(pts) > 1 and abs(pts[0][0] - pts[-1][0]) < 1e-9 \
             and abs(pts[0][1] - pts[-1][1]) < 1e-9:
         pts = pts[:-1]
-    if len(pts) != 4:
-        raise MalformedWall('%d distinct corners, expected 4' % len(pts))
-    for i in range(4):
-        (ax, ay), (bx, by) = pts[i], pts[(i + 1) % 4]
+    if len(pts) not in (4, 5):
+        raise MalformedWall('%d distinct corners, expected 4 (or 5 if mitred '
+                            'on the glazing plane)' % len(pts))
+    plane = mitre_plane()
+    skew = []
+    for i in range(len(pts)):
+        (ax, ay), (bx, by) = pts[i], pts[(i + 1) % len(pts)]
         if abs(ax - bx) > AXIS_TOL_MM and abs(ay - by) > AXIS_TOL_MM:
-            raise MalformedWall('edge %d is neither horizontal nor vertical '
-                                '(%.1f,%.1f)-(%.1f,%.1f)' % (i, ax, ay, bx, by))
+            skew.append(i)
+    if len(skew) > 1:
+        raise MalformedWall('%d edges are neither horizontal nor vertical; at '
+                            'most one mitre is allowed' % len(skew))
+    if skew and plane is None:
+        raise MalformedWall('edge %d is skew and there is no glazing plane to '
+                            'justify it' % skew[0])
+    if skew:
+        px, py, nx_, ny_ = plane
+        i = skew[0]
+        for (qx, qy) in (pts[i], pts[(i + 1) % len(pts)]):
+            off = (qx - px) * nx_ + (qy - py) * ny_
+            if abs(off) > MITRE_TOL_MM:
+                raise MalformedWall(
+                    'the skew edge is %.1f mm off the glazing plane - a wall may '
+                    'be mitred on THAT plane and on no other' % off)
+    if not skew and len(pts) != 4:
+        raise MalformedWall('%d corners but no mitre' % len(pts))
     x0, x1 = min(p[0] for p in pts), max(p[0] for p in pts)
     y0, y1 = min(p[1] for p in pts), max(p[1] for p in pts)
     w, h = x1 - x0, y1 - y0
@@ -95,12 +174,20 @@ def validate_rectangle(entity, points):
         raise MalformedWall('degenerate: %.2f x %.2f mm' % (w, h))
     bbox_area = w * h
     poly_area = _shoelace(pts)
-    if abs(poly_area - bbox_area) > AREA_TOL * bbox_area:
+    # !! The expected area is RECOMPUTED, never assumed: clip this entity's own
+    # bounding box on the declared plane and take that. With no mitre the clip
+    # is a no-op and this is the original bbox test unchanged.
+    want_area = bbox_area
+    if skew:
+        want_area = _shoelace(_clip([(x0, y0), (x1, y0), (x1, y1), (x0, y1)],
+                                    *plane))
+    if abs(poly_area - want_area) > AREA_TOL * bbox_area:
         raise MalformedWall(
-            'polygon area %.1f mm2 is not its bounding-box area %.1f mm2 '
-            '(%.1f%% off) - the entity does not fill the box the checks would '
-            'have used' % (poly_area, bbox_area,
-                           100.0 * abs(poly_area - bbox_area) / bbox_area))
+            'polygon area %.1f mm2 is not the %.1f mm2 its own bounding box '
+            'gives once clipped on the glazing plane (%.1f%% off) - the entity '
+            'does not fill the shape the checks would have used'
+            % (poly_area, want_area,
+               100.0 * abs(poly_area - want_area) / bbox_area))
     return x0, x1, y0, y1
 
 

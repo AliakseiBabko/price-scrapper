@@ -161,3 +161,12 @@ def clip_halfplane(loop, ax, ay, nx, ny, eps=1e-6):
                         round(cur[1] + t * (nxt[1] - cur[1]), 1)))
     return out
 
+
+def _shoelace_area(pts):
+    a = 0.0
+    for i in range(len(pts)):
+        x0, y0 = pts[i]
+        x1, y1 = pts[(i + 1) % len(pts)]
+        a += x0 * y1 - x1 * y0
+    return abs(a) / 2.0
+
