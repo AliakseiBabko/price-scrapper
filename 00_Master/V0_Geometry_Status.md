@@ -227,6 +227,38 @@ the drawing. **A checker that cannot run must say that, and must never borrow
 the name of the defect it was hunting.** The same crash was taking down
 `structural_assembly_selftest.py`.
 
+### The review drawing now sits ON the plan
+
+Owner, 2026-09-15: *"I want the base image like a raster image as a basis to
+show the difference."* `v0_dxf_readback.png` now draws the model over the
+developer's own drawing in pale grey, so a wall in the wrong place is visible
+rather than merely measurable.
+
+⚠️ **The underlay uses the FROZEN, HASHED registration** that
+`raster_fidelity.py` measures against — fitted between the PDF's hatched wall
+faces and the raster's own wall lines, **with the DXF deliberately not
+consulted**. Fitting a fresh transform here would rebuild exactly the
+circularity CODEX rejected in the old `overlay_dxf_on_raster.py`: a picture that
+makes the model look right because it was aligned *to* the model. If the frozen
+evidence is missing the drawing falls back to a white ground rather than showing
+an unregistered overlay.
+
+**What the picture makes visible that a number did not:** MA's **+225.1** open
+exception is now something you can see — its magenta bar runs past the plan's
+external corner at the лоджия. The exception ledger has always said so; the
+drawing never showed it.
+
+**V2's anchor, checked because the picture raised it.** On the detailed plan the
+shaft is drawn 1140 long — the floors-10-and-up variant with two sections — and
+our 685 covers only part of it, which makes the eye ask which part. Ink density
+cannot answer: 0.559 for our placement against 0.561 for the opposite anchor and
+0.541 centred, because the whole area is dense with channel linework and
+dimension text (a solid wall measures 0.368 by the same test). **The chains
+answer decisively.** Anchored on S11's south face, extending north: the gap to
+the top wall is 214.9 against a printed 200, and O10 is 1440.0 against a
+recorded 1455 — both within 15 mm. Anchored the other way: **+299.9 and −300.0**.
+Two independent chains, both off by exactly 300 for the alternative.
+
 ## Still missing
 
 - **The лоджия's M2 / M6b are exported as axis-aligned bars** — the real
