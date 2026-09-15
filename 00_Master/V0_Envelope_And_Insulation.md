@@ -242,3 +242,43 @@ because R9 moved back, which is the intended consequence of a recorded change.
 Only that entry changed: `--refit` would have re-derived the whole fit to absorb
 one intended move, and the fit is frozen precisely so that cannot happen quietly.
 
+### ⚠️ The façade is ONE plane — R8's cap was standing 80 mm proud of it
+
+Owner, 2026-09-15, with two arrows drawn along MB's south side: *"the surface
+plane of MB should be in one level… the insulation adjacent to the лоджия
+extends a little bit more than it should. R9's part with external insulation
+should look exactly like R8's, except for R8 we have M6b touching it — the
+thickness."*
+
+He was right and the numbers were unambiguous:
+
+| element | outer face |
+| :--- | ---: |
+| **R8's end cap** | **7410.6** ← 80 mm proud |
+| MB's bands | 7490.6 |
+| MB's end cap | 7490.6 |
+| R9's end cap | 7490.6 |
+
+**The cause was a too-strict adjacency test.** `flush_end_caps` pulled a cap
+onto its neighbour's plane only when the two OVERLAPPED along the cap's run.
+R8's cap runs x 5731…5931 and MB's band starts at 6131, because **M6b's 200 mm
+sits between them** — so the cap found no neighbour at all, kept its own 150 mm
+depth, and stood proud.
+
+⚠️ **A wall standing between two stretches of the layer does not stop them being
+the same surface — the layer wraps it.** What matters is that they are near
+enough to be one plane, not that they touch. The test now allows a gap of up to
+`CORNER_REACH_MM` (400, the thickest wall in the model). Every element along
+MB's south face now reads **7490.6**, and R8's cap becomes 70 deep against R9's
+110 — *exactly like R8 except for the thickness*, which is the difference R9's
+40 mm recess creates and what the owner described.
+
+⚠️⚠️ **THIS DEFECT CLASS HAS NOW OCCURRED TWICE AND IS NOT GATED.** First the
+flood's 50 mm grid notched the layer at every junction; now a 80 mm step at a
+cap. Both were caught by the owner reading a drawing, not by a check. **A step
+in the finished plane is exactly the kind of thing a gate should catch and
+nothing asserts it.** Adding one means measuring the drawn insulation loops back
+out of the DXF and asserting that edges facing the same way within a corner's
+reach are coplanar — real work with its own seeds, and worth doing before the
+surface model is built on top of this.
+

@@ -92,6 +92,8 @@ DXF = os.path.join(REPO, 'data', 'cad', 'dxf', 'v0_developer_layout.dxf')
 OUT = os.path.join(CANON, 'v0_insulation_placed.json')
 
 TOL_MM = 2.5
+CORNER_REACH_MM = 400.0   # the thickest wall: how far apart two stretches of
+                          # the layer may be and still be one plane
 
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -422,8 +424,20 @@ def flush_end_caps(bands, tol=250.0):
         for o in bands:
             if o is b or str(o.get('segment', '')).startswith('end_'):
                 continue
-            # adjacent along the cap's own run, and parallel to its outer face
-            if min(b[ahi], o[ahi]) - max(b[alo], o[alo]) < -1.0:
+            # Adjacent along the cap's own run, and parallel to its outer
+            # face. !! A GAP IS ALLOWED, up to the thickest wall in the model.
+            # Requiring an overlap was too strict and it showed: R8's cap runs
+            # x 5731..5931 while MB's band starts at 6131, because M6b's 200 mm
+            # sits between them - so the cap found no neighbour, kept its own
+            # 150 mm depth, and stood 80 mm proud of the façade plane that MB
+            # and R9's cap both sit on. Owner, 2026-09-15: "the surface plane of
+            # MB should be in one level... the insulation adjacent to the
+            # лоджия extends a little bit more than it should."
+            #
+            # A wall standing between two stretches of the layer does not stop
+            # them being the same surface - the layer wraps it. What matters is
+            # that they are near enough to be one plane, not that they touch.
+            if min(b[ahi], o[ahi]) - max(b[alo], o[alo]) < -CORNER_REACH_MM:
                 continue
             for face in (key[0] + '0', key[0] + '1'):
                 v = o[face]
