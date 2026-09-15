@@ -1,0 +1,72 @@
+# v0 — the envelope: what is outside, and the insulation that follows
+
+The insulation layer is a CONSEQUENCE of what lies on the other side of each
+face, so the two belong on one page. Split out of
+[`V0_Geometry_Status.md`](V0_Geometry_Status.md) on 2026-09-15 for the reason
+given in [`V0_Openings_And_Shafts.md`](V0_Openings_And_Shafts.md).
+
+> [!IMPORTANT]
+> **A face at the edge of our DRAWING is not a face on the outside of the
+> BUILDING.** Every mistake on this page reduces to that one sentence.
+
+## What is outside this flat
+
+The owner supplied `_Inbox/_Visual_Drop/4th_floor_plan.png` on 2026-09-15, and
+it settles questions the flat's own plan cannot, because **a face at the edge of
+our drawing is not the same as a face on the outside of the building.**
+
+- **This flat is `3Б/2+`, 45,48 / 69,44**, in the middle of a two-section house.
+  ⚠️ That is the BASIC plan's identity, **not** the detailed vector plan's — the
+  vector is `3Б/3+`, 45,49 / **69,09**, a different sub-type. This is the same
+  split `room_schedules.json` already records: *"USE THE BASIC PLAN for the vent
+  shafts, the туалет and прихожая areas, and the total — it is this flat. USE
+  THE DETAILED PLAN for every dimension, because it is still the ONLY dimensioned
+  source."*
+- **East: `3А/2`, the mirror**, sharing a party wall. So **MC's east end is a
+  party face, not an exposed one** — the end cap there is removed. The rule
+  cannot derive this: nothing exists east of x 12946.0 in our model, so a flood
+  from outside reaches it and it reads as exposed.
+- **West: the neighbour's balcony `4,20(2,94)`**, and it is **shallower than our
+  лоджия** `6,05(4,24)` — their parapet stops short and our enclosure carries on
+  south to the glazing. ✅ **This independently corroborates the owner's ~570 mm**
+  for M2's exposed stretch: scaling off M2's own recorded 1850 interior puts the
+  projection at **~590 mm**, about 20 mm apart on a 787-px plan. Note theirs is an
+  OPEN balcony with a parapet, not a glazed лоджия.
+
+### ⚠️ "External insulation should not be inside the room"
+
+R9 was the case and **occlusion could not catch it**. R9 sits on the step between
+MB's façade line and MC's, so its east face is outdoors below MC and is the 19,49
+room's interior above it — and nothing abuts that upper part, so the
+abutting-wall test found it clear and insulated a face looking into a bedroom.
+
+The test is now reachability: **a band must lie where a flood from outside the
+flat can reach, crossing no wall.** ⚠️ **Only wall bodies are rasterised, never
+the glazing** — that is what makes the лоджия come out as *exterior*, which is
+correct, because a buffer is not a heated space and its flat-facing walls
+*should* carry insulation. The heated rooms stay sealed because a wall is drawn
+continuous **through** its own doors and windows; the openings are overlay
+entities, not gaps in the rectangle.
+
+⚠️ **The flood's 50 mm cell became a 50 mm NOTCH at every junction** — MB's band
+started at 6181.0 where R8's face is 6131.0, MC's at 9430.9 where R9's is
+9380.9. Owner: *"one surface interrupted by M6b + insulation layer."* **A surface
+broken by a grid artefact is worse than one broken by a real element, because
+nothing in the model explains it.** So the flood decides *whether* a stretch is
+interior and the wall faces decide *where* it starts and stops: every span end is
+snapped onto a coordinate the geometry already contains.
+
+## The MA / M2 corner, reversed
+
+Owner: *"overlap of MA and M2 — let MA go through; cut the M2 block which
+overlaps with MA."* `C_M2_MA` now belongs to **MA**, and M2 is cut on MA's near
+face 9050.6. **The old reasoning was spent rather than wrong**: J_MA_M2 argued in
+2026-09-09 that *"the gap is along y and MA runs EW, so extending MA cannot close
+it"* — true while MA's west end was still the envelope clip at 2830.9. Since
+`P_MA_west` trimmed MA to M2's west face, **MA spans M2's full 200 mm**, so MA
+running through closes the corner by itself.
+
+Both deltas improved: **MA +125.1 → −74.9** (and the sign flipped — MA is now
+drawn *shorter* than the record, so the open question is squarely whether its
+recorded 2825 clear is right), **M2 +223.1 → +153.4**.
+

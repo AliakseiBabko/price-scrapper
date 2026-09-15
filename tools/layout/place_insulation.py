@@ -162,6 +162,126 @@ def split_run(run0, run1, gaps):
     return [(a, b) for a, b in segs if (b - a) > TOL_MM]
 
 
+def exterior_mask(walls, cell=50.0, margin=400.0):
+    """Which cells are reachable from OUTSIDE the flat without crossing a wall.
+
+    Owner, 2026-09-15: *"external insulation should not be inside the room."*
+    R9 is the case and occlusion alone could not catch it. R9 sits on the step
+    between MB's facade line and MC's, so its east face is OUTSIDE below MC and
+    is the 19,49 room's INTERIOR above it. Nothing abuts the upper part, so the
+    occlusion test found it clear and insulated a face that looks into a
+    bedroom.
+
+    !! Only WALL BODIES are rasterised - never the glazing. That is what makes
+    the лоджия come out as exterior: it is enclosed by MA, M2, M6b and R8 plus
+    a glazed face, so leaving the glass out leaves it open to the flood, and
+    the лоджия SHOULD carry insulation on its flat-facing walls because a
+    buffer is not a heated space. The heated rooms stay sealed because a wall
+    is drawn continuous THROUGH its own doors and windows - the openings are
+    separate overlay entities, not gaps in the wall rectangle.
+
+    Returns (mask, x0, y0, cell) with mask[j][i] true where reachable.
+    """
+    xs = [w['x0'] for w in walls] + [w['x1'] for w in walls]
+    ys = [w['y0'] for w in walls] + [w['y1'] for w in walls]
+    x0, y0 = min(xs) - margin, min(ys) - margin
+    nx = int((max(xs) + margin - x0) / cell) + 2
+    ny = int((max(ys) + margin - y0) / cell) + 2
+    solid = [[False] * nx for _ in range(ny)]
+    for w in walls:
+        i0 = max(0, int((w['x0'] - x0) / cell))
+        i1 = min(nx - 1, int((w['x1'] - x0) / cell))
+        j0 = max(0, int((w['y0'] - y0) / cell))
+        j1 = min(ny - 1, int((w['y1'] - y0) / cell))
+        for j in range(j0, j1 + 1):
+            row = solid[j]
+            for i in range(i0, i1 + 1):
+                row[i] = True
+    seen = [[False] * nx for _ in range(ny)]
+    stack = [(0, 0)]
+    seen[0][0] = True
+    while stack:
+        i, j = stack.pop()
+        for di, dj in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            a, b = i + di, j + dj
+            if 0 <= a < nx and 0 <= b < ny and not seen[b][a] and not solid[b][a]:
+                seen[b][a] = True
+                stack.append((a, b))
+    return seen, x0, y0, cell
+
+
+def outside_fraction(box, mask, x0, y0, cell):
+    """How much of `box` lies in the reachable-from-outside region."""
+    ny, nx = len(mask), len(mask[0])
+    i0 = max(0, int((box[0] - x0) / cell))
+    i1 = min(nx - 1, int((box[2] - x0) / cell))
+    j0 = max(0, int((box[1] - y0) / cell))
+    j1 = min(ny - 1, int((box[3] - y0) / cell))
+    tot = hit = 0
+    for j in range(j0, j1 + 1):
+        for i in range(i0, i1 + 1):
+            tot += 1
+            if mask[j][i]:
+                hit += 1
+    return (hit / float(tot)) if tot else 0.0
+
+
+def interior_spans(band_box, axis, mask, x0, y0, cell, step=50.0):
+    """Along-axis spans of the band that are NOT reachable from outside."""
+    lo, hi = (band_box[0], band_box[2]) if axis == 'EW' else (band_box[1], band_box[3])
+    out, run = [], None
+    t = lo
+    while t < hi:
+        u = min(t + step, hi)
+        sub = ((t, band_box[1], u, band_box[3]) if axis == 'EW'
+               else (band_box[0], t, band_box[2], u))
+        inside = outside_fraction(sub, mask, x0, y0, cell) < 0.5
+        if inside and run is None:
+            run = t
+        elif not inside and run is not None:
+            out.append((run, t)); run = None
+        t = u
+    if run is not None:
+        out.append((run, hi))
+    return out
+
+
+def snap_spans(spans, walls, axis, limit=80.0):
+    """Pull each span end onto the nearest real wall face.
+
+    !! Without this the flood's 50 mm cell size becomes a 50 mm NOTCH in the
+    finished layer at every junction: MB's band started at 6181.0 where R8's
+    face is 6131.0, MC's at 9430.9 where R9's is 9380.9. Owner, 2026-09-15:
+    *"one surface interrupted by M6b + insulation layer."* A surface broken by
+    a grid artefact is worse than one broken by a real element, because nothing
+    in the model explains it.
+
+    The flood decides WHETHER a stretch is interior; the wall faces decide
+    WHERE it starts and stops. Snapping only ever moves an end onto a
+    coordinate the geometry already contains.
+    """
+    faces = set()
+    for w in walls:
+        if axis == 'EW':
+            faces.update((w['x0'], w['x1']))
+        else:
+            faces.update((w['y0'], w['y1']))
+    faces = sorted(faces)
+
+    def near(v):
+        if not faces:
+            return v
+        f = min(faces, key=lambda t: abs(t - v))
+        return f if abs(f - v) <= limit else v
+
+    out = []
+    for a, b in spans:
+        a2, b2 = near(a), near(b)
+        if b2 > a2:
+            out.append((a2, b2))
+    return out
+
+
 def occluding_spans(band_box, axis, wall_id, walls):
     """Along-axis spans of `band_box` that ANOTHER WALL's body already fills.
 
@@ -269,6 +389,7 @@ def main():
     if os.path.exists(op_path):
         openings = json.load(io.open(op_path, encoding='utf-8')).get('openings', [])
 
+    ext_mask, ex0, ey0, ecell = exterior_mask(walls)
     bands, unresolved = [], []
     print('%-5s %-5s %-5s %s' % ('wall', 'ins', 'side', 'evidence from the drawing'))
     for w in sorted(walls, key=lambda v: v['id']):
@@ -351,12 +472,19 @@ def main():
         # ...and interrupted AGAIN wherever another wall's body fills the band's
         # own footprint, because that face is not exposed. See occluding_spans.
         occl = occluding_spans(box, w['axis'], w['id'], walls)
+        # ...and again wherever the band would sit INSIDE the flat rather than
+        # on its outer face. See exterior_mask: this is what stops R9's band
+        # continuing north past MC into the 19,49 room.
+        inner = snap_spans(
+            interior_spans(box, w['axis'], ext_mask, ex0, ey0, ecell),
+            walls, w['axis'])
         lo_r, hi_r = min(run0, run1), max(run0, run1)
         if clip:
             lo_r, hi_r = max(lo_r, clip[0]), min(hi_r, clip[1])
             print('%-17s recorded extent %.1f..%.1f - the rest of this face is '
                   'not exposed' % ('', clip[0], clip[1]))
-        segs = (split_run(lo_r, hi_r, sorted(list(gaps) + list(occl)))
+        segs = (split_run(lo_r, hi_r,
+                          sorted(list(gaps) + list(occl) + list(inner)))
                 if hi_r > lo_r else [])
         for i, (s0, s1) in enumerate(segs):
             if w['axis'] == 'EW':
@@ -378,6 +506,10 @@ def main():
                   'are not exposed' % '')
         for end, bx in ([] if caps == 'none'
                         else exposed_end_bands(w, ins, side, walls, w['axis'])):
+            if outside_fraction(bx, ext_mask, ex0, ey0, ecell) < 0.5:
+                print('%-17s end cap at its %s end DROPPED - it would sit '
+                      'inside the flat' % ('', end))
+                continue
             bands.append({'wall_id': w['id'], 'insulation_mm': ins,
                           'side': side, 'axis': w['axis'],
                           'segment': 'end_%s' % end, 'of_segments': None,
@@ -393,6 +525,9 @@ def main():
         if occl:
             print('%-17s occluded by an abutting wall over %s'
                   % ('', ', '.join('%.0f..%.0f' % t for t in occl)))
+        if inner:
+            print('%-17s INSIDE the flat over %s - not an external face'
+                  % ('', ', '.join('%.0f..%.0f' % t for t in inner)))
         note = ('' if not gaps else
                 '  [%d segment(s), broken at %s]'
                 % (len(segs), ', '.join(o['opening_id'] for o in openings
