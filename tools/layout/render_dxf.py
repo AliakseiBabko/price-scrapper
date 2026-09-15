@@ -36,19 +36,28 @@ DXF = os.path.join(REPO, 'data', 'cad', 'dxf', 'v0_developer_layout.dxf')
 OUT = os.path.join(REPO, '_Drawings', 'review', 'v0_dxf_readback.png')
 
 # The owner's key, from _Inbox/_Visual_Drop/floor_plan_basic_all_walls.jpg
+# !! NO FILLS, by owner instruction 2026-09-15: *"do not fill in the polygons
+# of the wall segments, because in this case I won't see the wall overlapping -
+# assign a colour just for the contour, not for the filling."* He is right, and
+# it matters more here than it looks: a filled polygon drawn later PAINTS OVER
+# an earlier one, so an overlap is exactly the thing a fill hides, and the
+# corner overlaps this model DOES sanction (a wall extending over its neighbour
+# to own a corner) were invisible. Outlines make both the sanctioned and any
+# unsanctioned overlap readable at a glance. The edge colour still carries the
+# material identity, and the legend swatches are hollow to match.
 STYLE = {
-    'V0-WALL-CONCRETE': ((232, 138, 138), (176, 24, 24), 'concrete frame'),
-    'V0-WALL-AERATED': ((150, 214, 160), (24, 132, 48), 'aerated block'),
-    'V0-WALL-EXTERNAL': ((240, 168, 226), (196, 46, 172), 'external 300'),
-    'V0-WALL-LOGGIA': ((240, 168, 226), (196, 46, 172), 'лоджия enclosure'),
-    'V0-LOGGIA-GLAZING': ((120, 200, 235), (30, 80, 120), 'лоджия glazing'),
-    'V0-SLAB-EXTENSION': ((252, 240, 176), (196, 168, 20), 'decorative slab'),
-    'V0-INSULATION': ((255, 214, 170), (214, 122, 40), 'external insulation 70/150'),
+    'V0-WALL-CONCRETE': (None, (176, 24, 24), 'concrete frame'),
+    'V0-WALL-AERATED': (None, (24, 132, 48), 'aerated block'),
+    'V0-WALL-EXTERNAL': (None, (196, 46, 172), 'external 300'),
+    'V0-WALL-LOGGIA': (None, (196, 46, 172), 'лоджия enclosure'),
+    'V0-LOGGIA-GLAZING': (None, (30, 80, 120), 'лоджия glazing'),
+    'V0-SLAB-EXTENSION': (None, (196, 168, 20), 'decorative slab'),
+    'V0-INSULATION': (None, (214, 122, 40), 'external insulation 70/150'),
     'V0-OPENING': (None, (30, 120, 200), 'opening (from the vector)'),
     # Deliberately NOT a wall colour. The shafts are common property, immovable,
     # and they add surface while removing floor - reading as a wall is exactly
     # the mistake this grey guards against.
-    'V0-VENT-SHAFT': ((196, 196, 204), (90, 90, 104), 'ventilation shaft (not a wall)'),
+    'V0-VENT-SHAFT': (None, (90, 90, 104), 'ventilation shaft (not a wall)'),
 
     'V0-WALL-LABEL': (None, (20, 20, 20), None),
 }
