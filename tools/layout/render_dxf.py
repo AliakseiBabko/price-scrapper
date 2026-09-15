@@ -65,7 +65,8 @@ DRAW_ORDER = ['V0-SLAB-EXTENSION', 'V0-INSULATION', 'V0-WALL-CONCRETE',
               'V0-WALL-AERATED',
               'V0-WALL-EXTERNAL', 'V0-WALL-LOGGIA', 'V0-LOGGIA-GLAZING',
               'V0-VENT-SHAFT',
-              'V0-OPENING', 'V0-SUGGESTED-FURN', 'V0-WALL-LABEL']
+              'V0-OPENING', 'V0-WINDOW-FRAME', 'V0-SUGGESTED-FURN',
+              'V0-WALL-LABEL']
 
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

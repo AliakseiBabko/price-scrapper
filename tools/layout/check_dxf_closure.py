@@ -840,7 +840,7 @@ def main():
     for e in ezdxf.readfile(args.dxf).modelspace():
         if e.dxftype() != 'LWPOLYLINE':
             continue
-        if e.dxf.layer in ('V0-VENT-SHAFT', 'V0-OPENING'):
+        if e.dxf.layer in ('V0-VENT-SHAFT', 'V0-OPENING', 'V0-WINDOW-FRAME'):
             pts = [(q[0], q[1]) for q in e.get_points()]
             ents.setdefault(e.dxf.layer, []).append(
                 (min(p[0] for p in pts), min(p[1] for p in pts),
@@ -876,6 +876,52 @@ def main():
                                    '%.1f matches no row' % extra})
         print('  FAIL a shaft rectangle at %.1f,%.1f..%.1f,%.1f matches no row'
               % extra)
+
+    # the window frame members - a new drawn class, so it gets asserted like
+    # every other one. ONLY the vertical members exist in plan; a transom is
+    # horizontal and belongs to elevation, so the record carrying one and the
+    # drawing not carrying it is correct, not a mismatch.
+    wf = os.path.join(canon, 'window_frames.csv')
+    drawn_f = list(ents.get('V0-WINDOW-FRAME', []))
+    if os.path.exists(wf) and os.path.exists(
+            os.path.join(canon, 'v0_openings_placed.json')):
+        _op = {o['opening_id']: o for o in json.load(io.open(
+            os.path.join(canon, 'v0_openings_placed.json'),
+            encoding='utf-8')).get('openings', [])}
+        n_f = 0
+        for r in csv.DictReader(io.open(wf, encoding='utf-8')):
+            if r['axis'] != 'vertical':
+                continue
+            o = _op.get(r['opening_id'])
+            if not o or o.get('axis') not in ('EW', 'NS'):
+                continue
+            t = float(r['member_mm'])
+            at = o['from_mm'] + float(r['position']) * (o['to_mm'] - o['from_mm'])
+            a, b = at - t / 2.0, at + t / 2.0
+            want = ((a, o['face_lo_mm'], b, o['face_hi_mm'])
+                    if o['axis'] == 'EW'
+                    else (o['face_lo_mm'], a, o['face_hi_mm'], b))
+            i = _match(want, drawn_f)
+            if i is None:
+                findings.append({'kind': 'missing_window_frame',
+                                 'walls': [r['opening_id']],
+                                 'detail': '%s %s is recorded at %.1f and is '
+                                           'not drawn'
+                                           % (r['opening_id'], r['member'], at)})
+                print('  FAIL %-4s %s recorded, NOT drawn'
+                      % (r['opening_id'], r['member']))
+            else:
+                drawn_f.pop(i)
+                n_f += 1
+        if not [f for f in findings if f['kind'] == 'missing_window_frame']:
+            print('  ok   %d vertical window frame member(s) drawn where '
+                  'recorded' % n_f)
+        for extra in drawn_f:
+            findings.append({'kind': 'unrecorded_window_frame', 'walls': [],
+                             'detail': 'a V0-WINDOW-FRAME rectangle at %.1f,'
+                                       '%.1f..%.1f,%.1f matches no row' % extra})
+            print('  FAIL a window frame rectangle at %.1f,%.1f..%.1f,%.1f '
+                  'matches no row' % extra)
 
     op_path = os.path.join(canon, 'v0_openings_placed.json')
     if os.path.exists(op_path):

@@ -85,3 +85,63 @@ needs — the niche adds surface and removes floor exactly as the shaft does.
 ✅ **It also explains the corroboration above**: the 214.9-against-a-printed-200
 that helped anchor V2 is the NICHE, not a gap. The anchor is unchanged and O10
 still closes at 1440.0 against 1455.
+
+## The window frame subdivision — what part 2 actually needs
+
+`data/canonical/window_frames.csv`, added 2026-09-15 from four photographs the
+owner pointed at. **This is the piece the план alone cannot supply**: a plan
+gives an opening's width and position, and the 3D model needs to know how the
+frame is divided.
+
+| opening | wall | pattern | evidence |
+| :--- | :--- | :--- | :--- |
+| **O2** | MB | **2 sashes, 1 mullion, NO transom** | `ext1` (**ours**, outside) + `b6f0` (apt 53, inside) |
+| **O3** | MC | **2 × 2 — 1 mullion AND 1 transom**, four panes | `ext1` (**ours**, nearly square-on) + `bdc7` (apt 53, inside) |
+| **O4** | MA | **window leaf + full-height DOOR leaf**, 1 mullion | `9db4` (apt 53) + the recorded O4a/O4b |
+
+Two of the four photographs are of **this flat**, not a comparable, and they are
+the ones that carry the pattern for O2 and O3.
+
+### ⚠️ The pattern is measured. The sizes are not.
+
+**A photograph settles topology and nothing else here.** How many sashes there
+are, whether a transom exists, which leaf is the door — those are countable, and
+a photo is the right instrument. A member width is not: the visible centre band
+scales to ~140 mm off an oblique shot with no scale reference in frame, which is
+±100 at best under standing rule 9. **Every member size in the table is a
+nominal pending a tape measure, and each row says so.**
+
+The 0.5 splits are the same: the **default** for a two-sash unit, not a
+reading. O3's panes measure ~17% apart on the exterior photo — ~40 mm at
+1763 — which is inside the reading error, so the default stands rather than
+pixels being adopted.
+
+⚠️ **The two photos disagree about O3's transom height and the exterior one
+wins.** `ext1`, nearly square-on, puts it within ~3% of mid-height; `bdc7`,
+oblique and from inside, reads 57/43. An oblique interior view compresses the
+far part of a vertical division, so the near-frontal shot is the better
+instrument. **At a 1985 opening the two readings differ by ~140 mm** — worth a
+tape measure before anything depends on it.
+
+### ⚠️ Reading a MIRRORED photo: O4's door is on the EAST
+
+`9db4` is apartment 53, which is **mirrored**, so its left and right cannot be
+carried across — that is exactly the error the `_Survey` folder names in every
+directory. What *can* be carried is a **relationship that survives mirroring**:
+in the photo the door leaf sits on the side with the **short wall reveal** and
+the window leaf on the side with the long run.
+
+In our flat O4 spans x 4351.0…5731.0, leaving **1120.1 to G4a on the west** and
+**325 to G8 on the east** — so the short reveal is east, and the door goes east.
+The mullion lands at 4951.0, which is 4351 + the recorded 600 leaf, so its
+position comes from the record rather than from the photo.
+
+### In plan, only the vertical members exist
+
+O3's transom is recorded and **deliberately not drawn**: it is horizontal, so it
+belongs to elevation, and a plan showing it would be lying about what a plan is.
+`check_dxf_closure.py` asserts every vertical member is drawn where recorded and
+that nothing extra is, with its own seed — a new drawn class with no seed is a
+class nobody has watched fail, and these are DRAFT-grade photo evidence, so they
+need the gate more than the walls do.
+

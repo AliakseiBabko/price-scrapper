@@ -84,6 +84,11 @@ LAYERS = {
     # so a quantity take-off that iterates walls only will under-count.
     # Their own layer so they can be isolated for exactly that reason.
     "V0-VENT-SHAFT": 6,
+    # The window frame members. ⚠️ ONLY THE VERTICAL ONES APPEAR HERE: a
+    # transom is horizontal, so it exists in elevation and is invisible in
+    # plan. O3's transom is recorded in window_frames.csv and deliberately not
+    # drawn - a plan that showed it would be lying about what a plan is.
+    "V0-WINDOW-FRAME": 4,
 }
 # !! V0-SUGGESTED-FURN is GONE. Owner, 2026-09-09: the dashed lines in the G3 /
 # kitchen area are "not necessary here, absolutely" - a leftover from the CAD
@@ -488,6 +493,38 @@ def main():
     print("openings: %d from the vector" % n_open)
     if omitted:
         print("           OMITTED, not guessed: %s" % ", ".join(omitted))
+
+    # --- window frame members, from window_frames.csv -----------------
+    # The subdivision is what part 2, the owner's own 3D model, needs: how many
+    # sashes, where the mullion falls, whether there is a transom. It comes
+    # from photographs, so the PATTERN is evidence and the SIZES are nominal -
+    # each row says which is which.
+    n_frame = 0
+    _wf = os.path.join("data", "canonical", "window_frames.csv")
+    if os.path.exists(_wf) and os.path.exists(OPENINGS_PLACED):
+        _op = {o["opening_id"]: o
+               for o in json.load(io.open(OPENINGS_PLACED, encoding="utf-8"))
+               .get("openings", [])}
+        for r in csv.DictReader(io.open(_wf, encoding="utf-8")):
+            if r["axis"] != "vertical":
+                continue                      # a transom does not exist in plan
+            o = _op.get(r["opening_id"])
+            if not o or o.get("axis") not in ("EW", "NS"):
+                continue
+            t = float(r["member_mm"])
+            at = o["from_mm"] + float(r["position"]) * (o["to_mm"] - o["from_mm"])
+            a, b = at - t / 2.0, at + t / 2.0
+            if o["axis"] == "EW":
+                rect(msp, "V0-WINDOW-FRAME", a, o["face_lo_mm"],
+                     b, o["face_hi_mm"])
+            else:
+                rect(msp, "V0-WINDOW-FRAME", o["face_lo_mm"], a,
+                     o["face_hi_mm"], b)
+            n_frame += 1
+            print("frame  %-4s %-10s at %.1f (%.0f mm member)"
+                  % (r["opening_id"], r["member"], at, t))
+    print("window frame members in PLAN: %d vertical - transoms are recorded "
+          "but horizontal, so they belong to elevation" % n_frame)
 
     # --- the ventilation shafts --------------------------------------
     # !! Drawn from ventilation_shafts.csv, whose footprints are the 4th-floor

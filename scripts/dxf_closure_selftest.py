@@ -455,6 +455,21 @@ def _(doc):
                   (x1, y1), (x0, y1)])
 
 
+@case("O3's mullion deleted - the window subdivision part 2 depends on")
+def _(doc):
+    """!! A new drawn class with no seed is a class nobody has watched fail.
+    The frame members are the one thing the owner's 3D model needs that the
+    plan alone cannot give, and they are DRAFT-grade photo evidence, so they
+    need the gate more than the walls do, not less."""
+    msp = doc.modelspace()
+    gone = [e for e in msp
+            if e.dxf.layer == 'V0-WINDOW-FRAME' and e.dxftype() == 'LWPOLYLINE'
+            and abs(min(q[0] for q in e.get_points()) - 11075.9) < 1.0]
+    assert len(gone) == 1, ("expected exactly one O3 mullion, found %d"
+                            % len(gone))
+    msp.delete_entity(gone[0])
+
+
 def inplace(name):
     """A case that mutates a COMMITTED artefact and must be restored after.
 
