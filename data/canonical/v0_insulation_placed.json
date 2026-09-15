@@ -22,13 +22,51 @@
    "interrupted_by": []
   },
   {
+   "wall_id": "M6b",
+   "insulation_mm": 150.0,
+   "side": "high",
+   "axis": "NS",
+   "segment": "end_lo",
+   "of_segments": null,
+   "x0": 5931.0,
+   "y0": 5970.7,
+   "x1": 6281.0,
+   "y1": 6120.7,
+   "status": "from_owner_directive",
+   "evidence": [
+    "owner directive 2026-09-11: insulation_side=high in wall_blocks.csv. The loggia is a closed space of three walls plus a glazed face; M2 is shared between two loggias and MA and R8 face back into the apartment, so M6b is its only outward wall.",
+    "carried around this wall's lo END, which no other wall abuts - the envelope layer is continuous around an exposed corner"
+   ],
+   "interrupted_by": []
+  },
+  {
    "wall_id": "MA",
    "insulation_mm": 70.0,
    "side": "low",
    "axis": "EW",
    "segment": 0,
-   "of_segments": 2,
+   "of_segments": 3,
    "x0": 2830.9,
+   "y0": 8980.6,
+   "x1": 2930.9,
+   "y1": 9050.6,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S16 stops exactly on 8980.6, the insulation face",
+    "perpendicular solid S22 stops exactly on 8980.6, the insulation face"
+   ],
+   "interrupted_by": [
+    "O4"
+   ]
+  },
+  {
+   "wall_id": "MA",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "segment": 1,
+   "of_segments": 3,
+   "x0": 3130.9,
    "y0": 8980.6,
    "x1": 4351.0,
    "y1": 9050.6,
@@ -46,8 +84,8 @@
    "insulation_mm": 70.0,
    "side": "low",
    "axis": "EW",
-   "segment": 1,
-   "of_segments": 2,
+   "segment": 2,
+   "of_segments": 3,
    "x0": 5731.0,
    "y0": 8980.6,
    "x1": 5881.0,
@@ -60,6 +98,25 @@
    "interrupted_by": [
     "O4"
    ]
+  },
+  {
+   "wall_id": "MA",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "segment": "end_lo",
+   "of_segments": null,
+   "x0": 2760.9,
+   "y0": 8980.6,
+   "x1": 2830.9,
+   "y1": 9350.3,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S16 stops exactly on 8980.6, the insulation face",
+    "perpendicular solid S22 stops exactly on 8980.6, the insulation face",
+    "carried around this wall's lo END, which no other wall abuts - the envelope layer is continuous around an exposed corner"
+   ],
+   "interrupted_by": []
   },
   {
    "wall_id": "MB",
@@ -142,6 +199,24 @@
    ]
   },
   {
+   "wall_id": "MC",
+   "insulation_mm": 70.0,
+   "side": "low",
+   "axis": "EW",
+   "segment": "end_hi",
+   "of_segments": null,
+   "x0": 12946.0,
+   "y0": 8160.6,
+   "x1": 13016.0,
+   "y1": 8530.6,
+   "status": "from_drawing",
+   "evidence": [
+    "perpendicular solid S31 stops exactly on 8160.6, the insulation face",
+    "carried around this wall's hi END, which no other wall abuts - the envelope layer is continuous around an exposed corner"
+   ],
+   "interrupted_by": []
+  },
+  {
    "wall_id": "R8",
    "insulation_mm": 150.0,
    "side": "low",
@@ -151,7 +226,7 @@
    "x0": 5731.0,
    "y0": 7560.6,
    "x1": 5881.0,
-   "y1": 9350.3,
+   "y1": 9050.6,
    "status": "from_drawing",
    "evidence": [
     "composite solid S22 is 400 mm = 250 masonry + 150 insulation, spanning 5731.0..6131.0",
@@ -165,14 +240,49 @@
    "side": "high",
    "axis": "NS",
    "segment": 0,
-   "of_segments": 1,
+   "of_segments": 2,
    "x0": 9380.9,
    "y0": 7560.6,
    "x1": 9530.9,
-   "y1": 9100.6,
+   "y1": 8230.6,
    "status": "from_drawing",
    "evidence": [
     "composite solid S31 is 400 mm = 250 masonry + 150 insulation, spanning 9131.0..9530.9"
+   ],
+   "interrupted_by": []
+  },
+  {
+   "wall_id": "R9",
+   "insulation_mm": 150.0,
+   "side": "high",
+   "axis": "NS",
+   "segment": 1,
+   "of_segments": 2,
+   "x0": 9380.9,
+   "y0": 8530.6,
+   "x1": 9530.9,
+   "y1": 9350.6,
+   "status": "from_drawing",
+   "evidence": [
+    "composite solid S31 is 400 mm = 250 masonry + 150 insulation, spanning 9131.0..9530.9"
+   ],
+   "interrupted_by": []
+  },
+  {
+   "wall_id": "R9",
+   "insulation_mm": 150.0,
+   "side": "high",
+   "axis": "NS",
+   "segment": "end_lo",
+   "of_segments": null,
+   "x0": 9131.0,
+   "y0": 7410.6,
+   "x1": 9530.9,
+   "y1": 7560.6,
+   "status": "from_drawing",
+   "evidence": [
+    "composite solid S31 is 400 mm = 250 masonry + 150 insulation, spanning 9131.0..9530.9",
+    "carried around this wall's lo END, which no other wall abuts - the envelope layer is continuous around an exposed corner"
    ],
    "interrupted_by": []
   }

@@ -138,6 +138,25 @@
    "width_delta_mm": 15.0,
    "span_source": "gap BETWEEN flanking elements",
    "source": "flanking element faces"
+  },
+  {
+   "opening_id": "O9",
+   "wall_id": "M2 → M6b",
+   "solid_id": null,
+   "axis": "DIAGONAL",
+   "bbox": [
+    3130.9,
+    6163.5,
+    6022.2,
+    7121.4
+   ],
+   "run_mm": 2963.9,
+   "assembly_depth_mm": 150.0,
+   "bays": 4,
+   "mullions": 3,
+   "named_width_mm": 2939.0,
+   "span_source": "the лоджия glazing assembly, diagonal",
+   "source": "vector glazing extraction"
   }
  ],
  "unplaced": [],
@@ -149,10 +168,6 @@
   {
    "opening_id": "O4b",
    "why": "a LEAF of the combined unit O4, divided by a frame mullion - one structural opening, already placed"
-  },
-  {
-   "opening_id": "O9",
-   "why": "exported as лоджия glazing bays + mullions, not as a rectangular opening"
   }
  ]
 }

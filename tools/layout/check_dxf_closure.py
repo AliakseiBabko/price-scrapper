@@ -828,11 +828,20 @@ def main():
         rec = json.load(io.open(op_path, encoding='utf-8'))
         drawn_o = list(ents.get('V0-OPENING', []))
         for o in rec.get('openings', []):
-            if o['axis'] == 'EW':
-                want = (o['from_mm'], o['face_lo_mm'], o['to_mm'], o['face_hi_mm'])
+            # O9, the лоджия glazing, is the one opening that is not
+            # axis-aligned - the лоджия splays, which is why the plan draws it
+            # diagonal - so it carries an explicit bbox and is matched on that.
+            # A rotated rectangle's own corners are not its bbox, so the
+            # tolerance is looser here by construction, not by relaxation.
+            if o.get('bbox'):
+                want, tol = tuple(o['bbox']), 2.0
+            elif o['axis'] == 'EW':
+                want, tol = (o['from_mm'], o['face_lo_mm'],
+                             o['to_mm'], o['face_hi_mm']), 1.0
             else:
-                want = (o['face_lo_mm'], o['from_mm'], o['face_hi_mm'], o['to_mm'])
-            i = _match(want, drawn_o)
+                want, tol = (o['face_lo_mm'], o['from_mm'],
+                             o['face_hi_mm'], o['to_mm']), 1.0
+            i = _match(want, drawn_o, tol)
             if i is None:
                 findings.append({'kind': 'missing_opening',
                                  'walls': [o['opening_id']],

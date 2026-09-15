@@ -469,6 +469,19 @@ def main():
                    (ax + ux * p0 + nx * d, ay + uy * p0 + ny * d)]
             msp.add_lwpolyline(pts, close=True, dxfattribs={"layer": layer})
 
+        # O9 as an OPENING in its own right. Owner, 2026-09-15, arrow on the
+        # glazing: *"draw it as another opening."* It was exported only as
+        # frame + bays + mullions, so the one element that actually breaks the
+        # лоджия enclosure was the only one carrying no opening entity - it did
+        # not read as an opening, and a downstream consumer iterating
+        # V0-OPENING would not have found the biggest hole in the envelope.
+        # Drawn as the full assembly footprint on the opening layer, UNDER the
+        # frame and glass so those still read on top.
+        band(0.0, gl["run_mm"], "V0-OPENING")
+        msp.add_text("O9 glazing", height=70,
+                     dxfattribs={"layer": "V0-OPENING"}).set_placement(
+            (ax + ux * gl["run_mm"] / 2.0 + nx * d / 2.0,
+             ay + uy * gl["run_mm"] / 2.0 + ny * d / 2.0))
         band(0.0, gl["run_mm"], "V0-LOGGIA-FRAME")
         for i, bay in enumerate(gl["bays"], 1):
             band(bay["from_mm"], bay["to_mm"], "V0-LOGGIA-GLAZING")

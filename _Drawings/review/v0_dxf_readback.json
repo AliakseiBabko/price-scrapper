@@ -1,7 +1,7 @@
 {
  "openings_named": 11,
- "openings_placed": 9,
- "openings_handled_elsewhere": 3,
+ "openings_placed": 10,
+ "openings_handled_elsewhere": 2,
  "openings_unplaced": [],
  "openings_unaccounted": [],
  "shaft_count": 2,
@@ -10,14 +10,12 @@
   "V2"
  ],
  "wall_count": 25,
- "open_exceptions": 6,
+ "open_exceptions": 4,
  "open_exception_ids": [
-  "G7",
   "M2",
   "MA",
   "R1b",
-  "R8",
-  "R9"
+  "R8"
  ],
  "total_exceptions": 8,
  "quarantined": [],
