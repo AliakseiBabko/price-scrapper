@@ -31,7 +31,7 @@
    "x0": 6131.0,
    "y0": 6120.7,
    "x1": 6281.0,
-   "y1": 7560.6,
+   "y1": 7470.7,
    "status": "from_owner_directive",
    "evidence": [
     "owner directive: insulation_side=high for M6b in wall_blocks.csv, because the drawing evidences neither face. The REASONING differs per wall and lives in that row notes column."
@@ -177,24 +177,6 @@
    ]
   },
   {
-   "wall_id": "MC",
-   "insulation_mm": 70.0,
-   "side": "low",
-   "axis": "EW",
-   "segment": "end_hi",
-   "of_segments": null,
-   "x0": 12946.0,
-   "y0": 8160.6,
-   "x1": 13016.0,
-   "y1": 8530.6,
-   "status": "from_drawing",
-   "evidence": [
-    "perpendicular solid S31 stops exactly on 8160.6, the insulation face",
-    "carried around this wall's hi END, which no other wall abuts - the envelope layer is continuous around an exposed corner"
-   ],
-   "interrupted_by": []
-  },
-  {
    "wall_id": "R8",
    "insulation_mm": 150.0,
    "side": "low",
@@ -204,7 +186,7 @@
    "x0": 5731.0,
    "y0": 7560.6,
    "x1": 5881.0,
-   "y1": 9050.6,
+   "y1": 8980.6,
    "status": "from_drawing",
    "evidence": [
     "composite solid S22 is 400 mm = 250 masonry + 150 insulation, spanning 5731.0..6131.0",
@@ -218,28 +200,11 @@
    "side": "high",
    "axis": "NS",
    "segment": 0,
-   "of_segments": 2,
+   "of_segments": 1,
    "x0": 9380.9,
    "y0": 7560.6,
    "x1": 9530.9,
    "y1": 8230.6,
-   "status": "from_drawing",
-   "evidence": [
-    "composite solid S31 is 400 mm = 250 masonry + 150 insulation, spanning 9131.0..9530.9"
-   ],
-   "interrupted_by": []
-  },
-  {
-   "wall_id": "R9",
-   "insulation_mm": 150.0,
-   "side": "high",
-   "axis": "NS",
-   "segment": 1,
-   "of_segments": 2,
-   "x0": 9380.9,
-   "y0": 8530.6,
-   "x1": 9530.9,
-   "y1": 9350.6,
    "status": "from_drawing",
    "evidence": [
     "composite solid S31 is 400 mm = 250 masonry + 150 insulation, spanning 9131.0..9530.9"

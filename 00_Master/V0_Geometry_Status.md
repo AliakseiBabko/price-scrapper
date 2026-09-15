@@ -128,78 +128,63 @@ not to a table, and it is the next piece of deliverable work.**
 - **✅ M6b's 200 mm is owner-confirmed** (2026-09-10), no longer provisional and
   no longer quarantined. The drawing still disagrees and that is *recorded*
   rather than reconciled — `wall_placement_directives.csv` (P_M6b).
-- **✅ The two ventilation shafts are in the model** (2026-09-15), below.
-- **✅ All ten openings are hosted** (2026-09-15), below.
+- **✅ The two ventilation shafts are in the model** (2026-09-15) — V1, and V2
+  with its enclosed niche: [`V0_Openings_And_Shafts.md`](V0_Openings_And_Shafts.md).
+- **✅ All ten openings are hosted** (2026-09-15) — see
+  [`V0_Openings_And_Shafts.md`](V0_Openings_And_Shafts.md).
 
-## The 2026-09-15 round: the shafts and the six missing openings
+## The 2026-09-15 rounds, in brief
 
-The owner compared the DXF readback against the approved wall model
-(`_Drawings/review/wall_model.png`, v24) and found the walls aligned and
-everything else not. `wall_materials.json` states the approved inventory as
-**"25 walls + 2 ventilation shafts, 10 openings, ALL TEN HOSTED"**; the DXF held
-**25 walls, 0 shafts, 4 openings**.
+Two review rounds against the owner's markup. The detail now lives on
+topic pages; this is the state they left behind.
 
-### The openings — the drawing had them all along
 
-`place_openings.py` reported five doors as *"no drawn gap inside &lt;wall&gt;
-matches its width"*. That message was true of what the code looked at and false
-about the drawing. It read one span source; there are three.
+Seven comments drawn on `v0_dxf_readback_commented.png`. All seven are applied.
 
-| source | what it is | supplies |
+| what he marked | what it was | outcome |
 | :--- | :--- | :--- |
-| `candidate_openings` | an unhatched stretch WITHIN one solid | **empty for every internal door in this flat** |
-| `bridged_openings_mm` | a doorway that splits its wall into TWO solids, recorded by the merge | O8 (1009.9 vs 1010), O1 and O7 (710.0, 710.0 vs 710) |
-| an **inter-wall gap** | the doorway is not in a wall at all — it is the space BETWEEN two walls on one line | O6 (910.0), O5 (910.1), both vs a recorded 910 |
+| *"missing segment of the R9. It should be aligned with R8"* | the known R9/G7 pair — R9 laid at `clear_mm` from the LOW end of its own solid, so its corner gain had nowhere to land and G7 swallowed the 250 | **both exceptions closed**; R9 1790.0 vs 1790, G7 3249.7 vs 3250 |
+| *"external insulation should not cover all the wall, just the exposed segment"* | R8's band ran 0.045 m² through MA's body, R9's 0.045 m² through MC's, plus three band-on-band overlaps | occlusion rule: a face another wall abuts carries no external layer |
+| *"missing pieces of insulation"* ×3 | every arrow was at a wall END, where the band stopped instead of turning the corner | the layer is carried around any end no other wall abuts |
+| *"this niche is enclosed and flush with the venting shaft"* | a 214.9 mm void above V2 that is actually an enclosed niche | V2 draws 899.9 hard against the top wall; 685 shaft + 214.9 niche kept as separate figures |
+| *"draw it as another opening"* | O9 was exported as frame + bays + mullions only | drawn on `V0-OPENING`; the only non-axis-aligned opening, matched on a bbox |
+| *"we don't need these small segments outside of MA M2 and R6"* | MA had inherited the extraction's ENVELOPE CLIP at x 2830.9 as its west face | trimmed to M2's face; exception +225.1 → **+125.1** |
+| *"M2 should touch MA, insulation between them is most likely an error"* | reverses the 2026-09-10 instruction at this junction only | confirmed by the owner; the occlusion rule already produced it |
 
-⚠️ **The middle row is the uncomfortable one.** `raster_fidelity.py` already
-consumed `bridged_openings_mm` to exclude opening spans from its metric, and
-`render_vector_extraction.py` already drew those same gaps in red captioned
-"NO OPENING PLACED". **Two consumers could see the doorway and the placer could
-not** — and `wall_blocks.csv`'s own G4C note had already written the two 710
-spans down by coordinate. Nothing was missing; nothing was even unmeasured.
 
-⚠️ **Width alone cannot tell O1 from O7** — both are 710 mm in G4C and both gaps
-are drawn, so width ties and whichever came first used to win. Width is now a
-filter and POSITION is the ranking key, using the basic-plan px span through the
-identification fit. That fit is unfit for geometry (3.3% anisotropy, 93 mm
-residuals) and entirely adequate for choosing between two gaps 710 mm apart.
-**No geometry comes from it** — exactly the role it already has for walls.
+### Two that needed the owner, and why
 
-**O10 was worse than missing — it was invisible.** It had no span row, so the
-placer's loop never visited it, so it never landed in `unplaced`, so it never
-reached the review drawing's "still open" caption, which counts only `unplaced`.
-Absent from the model *and* absent from the list of what is absent. It is placed
-now from its two immovable flanks: R5's top face 13650.3 to V2's south face
-15090.3 = **1440.0** against a recorded 1455.
+**Where MA/M2/R6 should align.** The three west faces were 2830.9 / 2930.9 /
+2980.8. ⚠️ **MA's was the extraction's envelope clip — where reading the
+neighbour's structure stops — not a wall face**, and the frozen ink mask carries
+**zero ink** in the 120 mm strip west of 2930.9 across y 6100..9100, so MA's
+western 100 mm was drawn over blank paper. M2 is the alignment target because it
+is the outermost of the two; R6 sits 49.9 inboard and protrudes past nothing.
 
-### The shafts — V1 and V2
+**M2's west face.** Insulated over its **southern 570 mm only** (y 6977.2…7547.2,
+150 mm on the low face) — our лоджия projects past the neighbour's there to meet
+the glazing; the rest of that face is shared. ⚠️ **The drawing cannot corroborate
+any of this**: there is no ink west of M2 at all, so the owner is the sole source
+for both the extent and the fact of exposure, the same standing as M6b's 200 mm.
+⚠️ **The 150 mm thickness is BY ANALOGY with M6b — same class, same thickness,
+the лоджия's other external wall — and is NOT measured. It could as easily be
+the 70 mm the MA/MB/MC façade carries.** The same answer suppresses MA's west end
+cap, because MA's end and M2's face are the same plane.
 
-They are **not walls** and must never be counted as walls. Owner: *"we need to
-include the ventilation shaft, which is next between R3 and R5. This is not a
-wall, but it is a structural element [that] will surface a wall."* They **add
-finishable surface inside a room and subtract floor**, so a take-off that
-iterates walls under-counts. Own layer `V0-VENT-SHAFT`, own table
-`data/canonical/ventilation_shafts.csv`, grey on the review drawing.
+`wall_blocks.csv` gained `insulation_from_mm` / `insulation_to_mm` /
+`insulation_end_caps` so both are recorded data rather than code.
 
-⚠️ **Their footprints are the ONLY geometry in v0 not taken from the vector
-plan**, and deliberately so: the vector is the DETAILED plan, which draws the
-floors-10-and-up variant with **doubled** vent sections. `room_schedules.json`
-is explicit — *"USE THE BASIC PLAN for the vent shafts"*.
+### ⚠️ An export that crashed AFTER its own report
 
-- **V1 = 700 × 400**, x 3380.9…4080.9, y 15590.3…15990.3.
-  `wall_materials.json` had flagged V1 as *needing a careful re-measurement*;
-  the approved wall model is that re-measurement. **Position is a chain, not a
-  pixel reading**: the printed chain across the туалет is 150 | 700 | 290 = 1140
-  from R1b's east face 3230.9, and 3230.9 + 1140 = 4370.9 lands on hatched solid
-  S20's west face at **4370.9 — a 0.0 mm closure against an element the chain
-  never touched**. The 150 is printed on the plan, not invented.
-- **V2 = 400.1 × 685**, x 8980.8…9380.9, y 15090.3…15775.3. x is hatched solid
-  S11's own extent; the 685 is the 4th-floor sub-type from the basic plan.
-  Anchored on S11's hatch-validated south face and **corroborated two
-  independent ways**: the gap left to the top wall is 214.9 against a printed
-  200, and O10 comes out 1440.0 against a recorded 1455. Both agree to 15 mm,
-  and the alternative anchor — an exact 200 offset — moves it 14.9 mm, inside
-  the ±25 nominal tolerance, so the choice does not matter at this grade.
+The exporter hit `KeyError: 'face_lo_mm'` on O9 — the diagonal opening falling
+through to the rectangle branch — and the crash lands **after** the wall report
+prints. So a run showed a correct `MA drawn 2950.1` on screen while the DXF on
+disk was still the previous export, and every downstream tool read a stale file.
+**Found because `check_dxf_closure.py` compared the exception ledger against the
+DXF and got 3050.1 where the exporter had just said 2950.1** — two independent
+sources disagreeing, which is the whole reason the ledger is checked against the
+drawing rather than against itself.
+
 
 ### The gates that now cover this
 
@@ -227,7 +212,8 @@ the drawing. **A checker that cannot run must say that, and must never borrow
 the name of the defect it was hunting.** The same crash was taking down
 `structural_assembly_selftest.py`.
 
-### The review drawing now sits ON the plan
+
+### The review drawing sits ON the plan
 
 Owner, 2026-09-15: *"I want the base image like a raster image as a basis to
 show the difference."* `v0_dxf_readback.png` now draws the model over the
@@ -269,52 +255,15 @@ the top wall is 214.9 against a printed 200, and O10 is 1440.0 against a
 recorded 1455 — both within 15 mm. Anchored the other way: **+299.9 and −300.0**.
 Two independent chains, both off by exactly 300 for the alternative.
 
-## The 2026-09-15 owner review of the contour overlay
 
-Seven comments drawn on `v0_dxf_readback_commented.png`. All seven are applied.
+### Where the detail went
 
-| what he marked | what it was | outcome |
-| :--- | :--- | :--- |
-| *"missing segment of the R9. It should be aligned with R8"* | the known R9/G7 pair — R9 laid at `clear_mm` from the LOW end of its own solid, so its corner gain had nowhere to land and G7 swallowed the 250 | **both exceptions closed**; R9 1790.0 vs 1790, G7 3249.7 vs 3250 |
-| *"external insulation should not cover all the wall, just the exposed segment"* | R8's band ran 0.045 m² through MA's body, R9's 0.045 m² through MC's, plus three band-on-band overlaps | occlusion rule: a face another wall abuts carries no external layer |
-| *"missing pieces of insulation"* ×3 | every arrow was at a wall END, where the band stopped instead of turning the corner | the layer is carried around any end no other wall abuts |
-| *"this niche is enclosed and flush with the venting shaft"* | a 214.9 mm void above V2 that is actually an enclosed niche | V2 draws 899.9 hard against the top wall; 685 shaft + 214.9 niche kept as separate figures |
-| *"draw it as another opening"* | O9 was exported as frame + bays + mullions only | drawn on `V0-OPENING`; the only non-axis-aligned opening, matched on a bbox |
-| *"we don't need these small segments outside of MA M2 and R6"* | MA had inherited the extraction's ENVELOPE CLIP at x 2830.9 as its west face | trimmed to M2's face; exception +225.1 → **+125.1** |
-| *"M2 should touch MA, insulation between them is most likely an error"* | reverses the 2026-09-10 instruction at this junction only | confirmed by the owner; the occlusion rule already produced it |
-
-### Two that needed the owner, and why
-
-**Where MA/M2/R6 should align.** The three west faces were 2830.9 / 2930.9 /
-2980.8. ⚠️ **MA's was the extraction's envelope clip — where reading the
-neighbour's structure stops — not a wall face**, and the frozen ink mask carries
-**zero ink** in the 120 mm strip west of 2930.9 across y 6100..9100, so MA's
-western 100 mm was drawn over blank paper. M2 is the alignment target because it
-is the outermost of the two; R6 sits 49.9 inboard and protrudes past nothing.
-
-**M2's west face.** Insulated over its **southern 570 mm only** (y 6977.2…7547.2,
-150 mm on the low face) — our лоджия projects past the neighbour's there to meet
-the glazing; the rest of that face is shared. ⚠️ **The drawing cannot corroborate
-any of this**: there is no ink west of M2 at all, so the owner is the sole source
-for both the extent and the fact of exposure, the same standing as M6b's 200 mm.
-⚠️ **The 150 mm thickness is BY ANALOGY with M6b — same class, same thickness,
-the лоджия's other external wall — and is NOT measured. It could as easily be
-the 70 mm the MA/MB/MC façade carries.** The same answer suppresses MA's west end
-cap, because MA's end and M2's face are the same plane.
-
-`wall_blocks.csv` gained `insulation_from_mm` / `insulation_to_mm` /
-`insulation_end_caps` so both are recorded data rather than code.
-
-### ⚠️ An export that crashed AFTER its own report
-
-The exporter hit `KeyError: 'face_lo_mm'` on O9 — the diagonal opening falling
-through to the rectangle branch — and the crash lands **after** the wall report
-prints. So a run showed a correct `MA drawn 2950.1` on screen while the DXF on
-disk was still the previous export, and every downstream tool read a stale file.
-**Found because `check_dxf_closure.py` compared the exception ledger against the
-DXF and got 3050.1 where the exporter had just said 2950.1** — two independent
-sources disagreeing, which is the whole reason the ledger is checked against the
-drawing rather than against itself.
+- **Openings and shafts** — how each opening is found, O10's invisibility,
+  O9, V1/V2 and the enclosed niche:
+  [`V0_Openings_And_Shafts.md`](V0_Openings_And_Shafts.md)
+- **The envelope** — what the 4th-floor plan says is outside this flat, and
+  the insulation rules that follow from it:
+  [`V0_Envelope_And_Insulation.md`](V0_Envelope_And_Insulation.md)
 
 ## Still missing
 
