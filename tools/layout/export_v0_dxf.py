@@ -402,6 +402,16 @@ def main():
     if os.path.exists(OPENINGS_PLACED):
         op = json.load(io.open(OPENINGS_PLACED, encoding="utf-8"))
         for o in op.get("openings", []):
+            # !! O9 is DIAGONAL and is drawn by the лоджия glazing block below,
+            # which is the only code that knows its rotation. Falling through
+            # to the rectangle branch here raised KeyError: 'face_lo_mm' and
+            # aborted the whole export - and because the wall report prints
+            # BEFORE this point, the run still looked correct on screen while
+            # the DXF on disk was the previous one. A crash after the report is
+            # the worst place for one.
+            if o.get("axis") == "DIAGONAL":
+                n_open += 1
+                continue
             if o["axis"] == "EW":
                 rect(msp, "V0-OPENING", o["from_mm"], o["face_lo_mm"],
                      o["to_mm"], o["face_hi_mm"])
