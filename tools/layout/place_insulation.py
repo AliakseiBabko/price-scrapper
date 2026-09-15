@@ -282,6 +282,23 @@ def snap_spans(spans, walls, axis, limit=80.0):
     return out
 
 
+def drop_slivers(spans, cell, factor=3.0):
+    """Discard interior spans shorter than the flood's own resolution.
+
+    !! A 19.9 mm "interior" stretch is not a finding, it is the 50 mm grid
+    speaking. One of them cut M6b's band 19.9 mm short of MB's and left a seam
+    in the finished skin exactly where the photo shows the mineral wool turning
+    the corner unbroken - the seam the owner asked to remove. A real interior
+    stretch is nothing like this size: R9's, the one this test exists for, is
+    870 mm.
+
+    The threshold is the method's own resolution rather than a tuned number:
+    below `factor` cells the flood cannot distinguish a genuine interior
+    stretch from its own quantisation, so it must not claim one.
+    """
+    return [(a, b) for a, b in spans if (b - a) >= cell * factor]
+
+
 def occluding_spans(band_box, axis, wall_id, walls):
     """Along-axis spans of `band_box` that ANOTHER WALL's body already fills.
 
@@ -476,7 +493,9 @@ def main():
         # on its outer face. See exterior_mask: this is what stops R9's band
         # continuing north past MC into the 19,49 room.
         inner = snap_spans(
-            interior_spans(box, w['axis'], ext_mask, ex0, ey0, ecell),
+            drop_slivers(
+                interior_spans(box, w['axis'], ext_mask, ex0, ey0, ecell),
+                ecell),
             walls, w['axis'])
         lo_r, hi_r = min(run0, run1), max(run0, run1)
         if clip:

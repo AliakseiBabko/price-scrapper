@@ -70,3 +70,58 @@ Both deltas improved: **MA +125.1 → −74.9** (and the sign flipped — MA is 
 drawn *shorter* than the record, so the open question is squarely whether its
 recorded 2825 clear is right), **M2 +223.1 → +153.4**.
 
+## ⚠️ The insulation is ONE SURFACE, and the photos settle it
+
+Two exterior photos of the real building arrived on 2026-09-15, owner-marked
+with our own segment ids — `ext1` (our flat, bare block) and `ext2` (another
+flat of the same wall configuration, **caught mid-insulation**). Both are
+indexed in `data/canonical/photo_positions.csv`; bytes gitignored, identity by
+sha256 in `_Survey/manifest.csv`.
+
+**`ext2` is the decisive one**, because it catches the system half-built:
+mineral-wool boards going on over bare aerated block on M6b, render already
+finished on MB. It shows, unambiguously:
+
+1. **The layer WRAPS the corner as one continuous skin.** The boards turn from
+   M6b's face onto MB's **without a break**, and the render closes over them.
+   In the finished building the wall boundary underneath is invisible.
+2. **The corner is REAL** — M6b does project and is perpendicular to MB. So the
+   photo **confirms** v0's wall topology rather than contradicting it. The
+   question was never where the walls are.
+3. The build-up is mineral wool over block, rendered — exactly
+   `building_spec.json`'s *300 block + 70 wool + render*.
+
+Owner: *"one surface means literally one surface — currently you model M6b as a
+wall extruding from the surface."* **The fix belongs to the LAYER, not the
+walls.** The exporter drew one rectangle per wall, so a take-off iterating
+surfaces saw four where the builder sees one, and every corner carried a seam
+that exists in our data and not in the building.
+
+`tools/lib/rectunion.py` now unions the bands into **connected runs and emits
+each as a single closed polyline**. The grid is built from the rectangles' own
+coordinates — every distinct x and y becomes a grid line — so a cell is wholly
+inside or wholly outside and there is **no sampling error at any scale**. Six
+surfaces result:
+
+| surface | what it wraps |
+| :--- | :--- |
+| M6b + MB | **the corner the photo shows** |
+| MB + MC + R9 | the south façade including R9's step return |
+| MA + R8 | the лоджия's north face turning onto R8 |
+| MA · MB · MC · M2 | the stretches a window or the лоджия cuts off |
+
+⚠️ **A 19.9 mm "interior" stretch was cutting M6b's band short of MB's** —
+the flood's own 50 mm grid speaking, not a finding, and it left a seam exactly
+where the photo shows the wool turning unbroken. Interior spans shorter than
+three flood cells are now discarded: **below its own resolution the method
+cannot tell a genuine interior stretch from its quantisation, so it must not
+claim one.** The stretch this test exists for, R9's, is 870 mm.
+
+### ❓ Raised by the photos and NOT resolved
+
+The model carries **70 mm on MA/MB/MC and 150 mm on M6b/R8/R9**. The photo shows
+one continuous wrap and the spec says **70 mm throughout**; a step from 70 to
+150 at a corner would show in the render, and it does not. The 150 came from the
+owner on 2026-09-11 and the 70 from the spec, so **two owner-grade sources
+disagree** and the photo cannot measure thickness. Recorded, not reconciled.
+

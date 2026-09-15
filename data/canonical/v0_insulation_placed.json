@@ -31,7 +31,7 @@
    "x0": 6131.0,
    "y0": 6120.7,
    "x1": 6281.0,
-   "y1": 7470.7,
+   "y1": 7560.6,
    "status": "from_owner_directive",
    "evidence": [
     "owner directive: insulation_side=high for M6b in wall_blocks.csv, because the drawing evidences neither face. The REASONING differs per wall and lives in that row notes column."
