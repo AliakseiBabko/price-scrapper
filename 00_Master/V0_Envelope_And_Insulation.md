@@ -117,11 +117,20 @@ three flood cells are now discarded: **below its own resolution the method
 cannot tell a genuine interior stretch from its quantisation, so it must not
 claim one.** The stretch this test exists for, R9's, is 870 mm.
 
-### ❓ Raised by the photos and NOT resolved
+### ✅ The 70 / 150 split is CORRECT — closed 2026-09-15
 
-The model carries **70 mm on MA/MB/MC and 150 mm on M6b/R8/R9**. The photo shows
-one continuous wrap and the spec says **70 mm throughout**; a step from 70 to
-150 at a corner would show in the render, and it does not. The 150 came from the
-owner on 2026-09-11 and the 70 from the spec, so **two owner-grade sources
-disagree** and the photo cannot measure thickness. Recorded, not reconciled.
+I raised this as an open disagreement and **it was not one.** The reasoning that
+produced it: the spec says 70 mm mineral wool for the building's external walls,
+and `ext2` shows the layer wrapping the M6b/MB corner as one unbroken skin —
+from which I inferred a single thickness throughout.
+
+⚠️ **That inference does not follow. A continuous wrap says nothing about
+thickness**, and the photo cannot measure one — the same limit already recorded
+for every other figure these photos touch. The owner confirmed the recorded
+split the same day: **70 mm on the main façade walls MA/MB/MC** (300 block + 70,
+per the spec) and **150 mm on M6b/R8/R9**.
+
+Worth keeping as a failure class: a photo that settles TOPOLOGY decisively can
+look like it settles DIMENSION, and it does not. `ext2` genuinely proved the
+layer is one surface; it proved nothing at all about how thick that surface is.
 
