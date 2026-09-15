@@ -5,6 +5,23 @@
  "pdf_sha256": "b95dae5afb1feed73db80ad6afbcf1c786b9d86a686309fc6689567224481949",
  "bands": [
   {
+   "wall_id": "M2",
+   "insulation_mm": 150.0,
+   "side": "low",
+   "axis": "NS",
+   "segment": 0,
+   "of_segments": 1,
+   "x0": 2780.9,
+   "y0": 6977.2,
+   "x1": 2930.9,
+   "y1": 7547.2,
+   "status": "from_owner_directive",
+   "evidence": [
+    "owner directive: insulation_side=low for M2 in wall_blocks.csv, because the drawing evidences neither face. The REASONING differs per wall and lives in that row notes column."
+   ],
+   "interrupted_by": []
+  },
+  {
    "wall_id": "M6b",
    "insulation_mm": 150.0,
    "side": "high",
@@ -17,7 +34,7 @@
    "y1": 7560.6,
    "status": "from_owner_directive",
    "evidence": [
-    "owner directive 2026-09-11: insulation_side=high in wall_blocks.csv. The loggia is a closed space of three walls plus a glazed face; M2 is shared between two loggias and MA and R8 face back into the apartment, so M6b is its only outward wall."
+    "owner directive: insulation_side=high for M6b in wall_blocks.csv, because the drawing evidences neither face. The REASONING differs per wall and lives in that row notes column."
    ],
    "interrupted_by": []
   },
@@ -34,7 +51,7 @@
    "y1": 6120.7,
    "status": "from_owner_directive",
    "evidence": [
-    "owner directive 2026-09-11: insulation_side=high in wall_blocks.csv. The loggia is a closed space of three walls plus a glazed face; M2 is shared between two loggias and MA and R8 face back into the apartment, so M6b is its only outward wall.",
+    "owner directive: insulation_side=high for M6b in wall_blocks.csv, because the drawing evidences neither face. The REASONING differs per wall and lives in that row notes column.",
     "carried around this wall's lo END, which no other wall abuts - the envelope layer is continuous around an exposed corner"
    ],
    "interrupted_by": []
@@ -78,25 +95,6 @@
    "interrupted_by": [
     "O4"
    ]
-  },
-  {
-   "wall_id": "MA",
-   "insulation_mm": 70.0,
-   "side": "low",
-   "axis": "EW",
-   "segment": "end_lo",
-   "of_segments": null,
-   "x0": 2860.9,
-   "y0": 8980.6,
-   "x1": 2930.9,
-   "y1": 9350.3,
-   "status": "from_drawing",
-   "evidence": [
-    "perpendicular solid S16 stops exactly on 8980.6, the insulation face",
-    "perpendicular solid S22 stops exactly on 8980.6, the insulation face",
-    "carried around this wall's lo END, which no other wall abuts - the envelope layer is continuous around an exposed corner"
-   ],
-   "interrupted_by": []
   },
   {
    "wall_id": "MB",
