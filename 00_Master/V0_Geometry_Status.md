@@ -243,6 +243,16 @@ makes the model look right because it was aligned *to* the model. If the frozen
 evidence is missing the drawing falls back to a white ground rather than showing
 an unregistered overlay.
 
+**Outlines, not fills.** Owner, 2026-09-15: *"do not fill in the polygons of
+the wall segments, because in this case I won't see the wall overlapping —
+assign a colour just for the contour, not for the filling."* Right, and it
+matters more than it looks: **a filled polygon drawn later paints over an
+earlier one, so an overlap is precisely the thing a fill hides.** The corner
+overlaps this model deliberately sanctions — a wall extending over its
+neighbour to own the corner, all eight of them in `wall_corners.csv` — were
+invisible in the filled version. Contours also let the plan's own hatching read
+through, so a wall can be checked against the solid it sits on.
+
 **What the picture makes visible that a number did not:** MA's **+225.1** open
 exception is now something you can see — its magenta bar runs past the plan's
 external corner at the лоджия. The exception ledger has always said so; the
