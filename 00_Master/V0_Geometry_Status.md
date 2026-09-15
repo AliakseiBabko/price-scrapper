@@ -269,6 +269,53 @@ the top wall is 214.9 against a printed 200, and O10 is 1440.0 against a
 recorded 1455 — both within 15 mm. Anchored the other way: **+299.9 and −300.0**.
 Two independent chains, both off by exactly 300 for the alternative.
 
+## The 2026-09-15 owner review of the contour overlay
+
+Seven comments drawn on `v0_dxf_readback_commented.png`. All seven are applied.
+
+| what he marked | what it was | outcome |
+| :--- | :--- | :--- |
+| *"missing segment of the R9. It should be aligned with R8"* | the known R9/G7 pair — R9 laid at `clear_mm` from the LOW end of its own solid, so its corner gain had nowhere to land and G7 swallowed the 250 | **both exceptions closed**; R9 1790.0 vs 1790, G7 3249.7 vs 3250 |
+| *"external insulation should not cover all the wall, just the exposed segment"* | R8's band ran 0.045 m² through MA's body, R9's 0.045 m² through MC's, plus three band-on-band overlaps | occlusion rule: a face another wall abuts carries no external layer |
+| *"missing pieces of insulation"* ×3 | every arrow was at a wall END, where the band stopped instead of turning the corner | the layer is carried around any end no other wall abuts |
+| *"this niche is enclosed and flush with the venting shaft"* | a 214.9 mm void above V2 that is actually an enclosed niche | V2 draws 899.9 hard against the top wall; 685 shaft + 214.9 niche kept as separate figures |
+| *"draw it as another opening"* | O9 was exported as frame + bays + mullions only | drawn on `V0-OPENING`; the only non-axis-aligned opening, matched on a bbox |
+| *"we don't need these small segments outside of MA M2 and R6"* | MA had inherited the extraction's ENVELOPE CLIP at x 2830.9 as its west face | trimmed to M2's face; exception +225.1 → **+125.1** |
+| *"M2 should touch MA, insulation between them is most likely an error"* | reverses the 2026-09-10 instruction at this junction only | confirmed by the owner; the occlusion rule already produced it |
+
+### Two that needed the owner, and why
+
+**Where MA/M2/R6 should align.** The three west faces were 2830.9 / 2930.9 /
+2980.8. ⚠️ **MA's was the extraction's envelope clip — where reading the
+neighbour's structure stops — not a wall face**, and the frozen ink mask carries
+**zero ink** in the 120 mm strip west of 2930.9 across y 6100..9100, so MA's
+western 100 mm was drawn over blank paper. M2 is the alignment target because it
+is the outermost of the two; R6 sits 49.9 inboard and protrudes past nothing.
+
+**M2's west face.** Insulated over its **southern 570 mm only** (y 6977.2…7547.2,
+150 mm on the low face) — our лоджия projects past the neighbour's there to meet
+the glazing; the rest of that face is shared. ⚠️ **The drawing cannot corroborate
+any of this**: there is no ink west of M2 at all, so the owner is the sole source
+for both the extent and the fact of exposure, the same standing as M6b's 200 mm.
+⚠️ **The 150 mm thickness is BY ANALOGY with M6b — same class, same thickness,
+the лоджия's other external wall — and is NOT measured. It could as easily be
+the 70 mm the MA/MB/MC façade carries.** The same answer suppresses MA's west end
+cap, because MA's end and M2's face are the same plane.
+
+`wall_blocks.csv` gained `insulation_from_mm` / `insulation_to_mm` /
+`insulation_end_caps` so both are recorded data rather than code.
+
+### ⚠️ An export that crashed AFTER its own report
+
+The exporter hit `KeyError: 'face_lo_mm'` on O9 — the diagonal opening falling
+through to the rectangle branch — and the crash lands **after** the wall report
+prints. So a run showed a correct `MA drawn 2950.1` on screen while the DXF on
+disk was still the previous export, and every downstream tool read a stale file.
+**Found because `check_dxf_closure.py` compared the exception ledger against the
+DXF and got 3050.1 where the exporter had just said 2950.1** — two independent
+sources disagreeing, which is the whole reason the ledger is checked against the
+drawing rather than against itself.
+
 ## Still missing
 
 - **The лоджия's M2 / M6b are exported as axis-aligned bars** — the real

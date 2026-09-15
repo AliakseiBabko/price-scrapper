@@ -293,13 +293,17 @@ def main():
             # an owner directive: this is never inferred, and a centroid rule is
             # known to get M6b wrong because the loggia is an appendix.
             if directed in ('low', 'high'):
+                # !! The reason belongs to the WALL, not to the mechanism.
+                # This message hard-coded M6b's reasoning and printed it for
+                # whatever wall took the directive branch - so when M2 gained
+                # insulation on 2026-09-15 it was labelled with an argument
+                # concluding M6b is the ONLY outward wall here, which is now
+                # false and reads as evidence against what was just recorded.
                 side, ev, status = directed, [
-                    'owner directive 2026-09-11: insulation_side=%s in '
-                    'wall_blocks.csv. The loggia is a closed space of three '
-                    'walls plus a glazed face; M2 is shared between two '
-                    'loggias and MA and R8 face back into the apartment, so '
-                    'M6b is its only outward wall.' % directed], \
-                    'from_owner_directive'
+                    'owner directive: insulation_side=%s for %s in '
+                    'wall_blocks.csv, because the drawing evidences neither '
+                    'face. The REASONING differs per wall and lives in that '
+                    'row notes column.' % (directed, w['id'])],                     'from_owner_directive'
             else:
                 unresolved.append({'wall_id': w['id'], 'insulation_mm': ins,
                                    'evidence_low': ev_lo, 'evidence_high': ev_hi})
@@ -330,12 +334,30 @@ def main():
         # insulation is for walls, and a window is not a wall.
         run0, run1 = ((w['x0'], w['x1']) if w['axis'] == 'EW'
                       else (w['y0'], w['y1']))
+        # An explicitly RECORDED extent clips the band before anything else.
+        # M2 is the case: its west face is shared with the neighbour's лоджия
+        # except at the southern end, and the drawing cannot show that - there
+        # is no ink west of M2 at all, so the owner is the only source. A wall
+        # with no recorded extent is unaffected.
+        clip = None
+        try:
+            cf = (rec.get('insulation_from_mm') or '').strip()
+            ct = (rec.get('insulation_to_mm') or '').strip()
+            if cf and ct:
+                clip = (float(cf), float(ct))
+        except ValueError:
+            clip = None
         gaps = openings_for(w['id'], openings)
         # ...and interrupted AGAIN wherever another wall's body fills the band's
         # own footprint, because that face is not exposed. See occluding_spans.
         occl = occluding_spans(box, w['axis'], w['id'], walls)
-        segs = split_run(min(run0, run1), max(run0, run1),
-                         sorted(list(gaps) + list(occl)))
+        lo_r, hi_r = min(run0, run1), max(run0, run1)
+        if clip:
+            lo_r, hi_r = max(lo_r, clip[0]), min(hi_r, clip[1])
+            print('%-17s recorded extent %.1f..%.1f - the rest of this face is '
+                  'not exposed' % ('', clip[0], clip[1]))
+        segs = (split_run(lo_r, hi_r, sorted(list(gaps) + list(occl)))
+                if hi_r > lo_r else [])
         for i, (s0, s1) in enumerate(segs):
             if w['axis'] == 'EW':
                 bx = [s0, box[1], s1, box[3]]
@@ -350,7 +372,12 @@ def main():
                           'interrupted_by': [o['opening_id'] for o in openings
                                              if o.get('wall_id') == w['id']]})
         # the layer carried around each EXPOSED end, closing the corner
-        for end, bx in exposed_end_bands(w, ins, side, walls, w['axis']):
+        caps = (rec.get('insulation_end_caps') or '').strip().lower()
+        if caps == 'none':
+            print('%-17s end caps SUPPRESSED by the record - these ends '
+                  'are not exposed' % '')
+        for end, bx in ([] if caps == 'none'
+                        else exposed_end_bands(w, ins, side, walls, w['axis'])):
             bands.append({'wall_id': w['id'], 'insulation_mm': ins,
                           'side': side, 'axis': w['axis'],
                           'segment': 'end_%s' % end, 'of_segments': None,
