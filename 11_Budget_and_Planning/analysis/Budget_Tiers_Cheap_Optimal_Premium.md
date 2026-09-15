@@ -168,6 +168,43 @@ He also insists **rationality runs in both directions**: a super-renovation insi
 
 The system-by-system breakdown (ceiling, electrical, wall finishing, tile, flooring, lighting, furniture, baseboard, reveals, doors, ventilation, smart home, plumbing fixtures) is now on **[[11_Budget_and_Planning/analysis/Budget_Tiers_By_System|Budget Tiers by System]]**. This page keeps the framing those tiers only make sense against.
 
+## ⚠️⚠️ Two RATIOS for fitted furniture — which transfer where the RUB figures do not (Progress Design, added 2026-09-15)
+
+**A Moscow transformer-furniture maker walking a buyer through how his price is
+built up states two proportions outright:**
+
+| Rule | As stated |
+| :--- | :--- |
+| **МДФ vs ЛДСП** | МДФ comes out **about 30% dearer** — *«сразу рассчитывайте»* |
+| **⚠️⚠️ Assembly** | **10% of the total order value**, with delivery inside Moscow a flat **3,000 RUB** |
+
+> **→ ⚠️⚠️ THE 10% ASSEMBLY RULE IS THE MOST TRANSFERABLE NUMBER THIS PAGE HAS
+> GAINED FROM A RUSSIAN SOURCE, because it is a RATIO.** Every Moscow figure on
+> the sibling [[11_Budget_and_Planning/analysis/Moscow_Per_Square_Metre_Benchmarks|benchmarks page]]
+> is stranded by currency, jurisdiction and date. **A percentage of order value
+> survives all three, and it turns any bespoke-furniture quote into a checkable
+> expectation: if assembly is quoted far from a tenth of the goods, ask why.**
+>
+> ⚠️ **One firm's commercial policy, not a market rate — but it is the first
+> fitted-furniture assembly ratio this vault holds at all.** ⚠️ **He explicitly
+> refuses to quote delivery outside Moscow** (city, dimensions and project
+> dependent) and offers self-assembly from the supplied instructions instead.
+
+**⚠️ His cost-driver ORDER is itself worth having**, because it says what actually
+moves the number: **size first and *«самый важный»*** → side shelves or none →
+**mechanism, manual or automatic** → options (soft bolster, antresol, support
+frame where the wall is not concrete, soft headboard, pads over the gas struts,
+sockets, reading lights, armrests that can swallow a folding table or a bottle
+holder) → additional modules, *«мебель-трансформер, она как ТЕТРИС»* → **material
+(the 30% above)** → upholstery, including a pet-claw-resistant fabric → mattress.
+
+⚠️ **One absolute figure is stated — 115,000 RUB for a transformer bed with sofa —
+and it is NOT carried as a benchmark**: region resolves (Moscow), but no year is
+given, so publication bounds it (`upper_bound_from_publication`, 2024-05-13), and
+it is an entry-level promotional anchor framed with *«всего за»*. **No USD is
+attached; normalising a sales headline would give it a precision it does not
+have.** [source: [[_Sources/YT_jZAAwUZVb0I_progressdesign_spec_and_cost_structure|YT_jZAAwUZVb0I]]]
+
 ## Moscow per-m² benchmark ladders — moved to their own page
 
 The three Moscow contractors' per-m² figure sets (Безверхая's premium whole-project figures, РемонтХочу's 2025 finishing-only ladder, and Иващенко's five-class whole-interior ladder) moved to [[11_Budget_and_Planning/analysis/Moscow_Per_Square_Metre_Benchmarks|Moscow Per-m² Cost Benchmarks]] on 2026-09-14, when this page reached 399 lines. **They were moved together rather than separately because the finding that matters is the disagreement between them, and the reason for it — SCOPE is a third axis alongside location and year.**

@@ -54,6 +54,21 @@ in summary:
    or from commissioning, and whether the struts (a wear part, and the cheapest
    component) can be bought or replaced separately later. [source: [[_Sources/YT_u_gIgDqRdYw_progressdesign_wallbed_buyer_walkthrough|YT_u_gIgDqRdYw]]]
 
+**⚠️⚠️ THE PHASE-2 "EXTENDED TABLE" IS STILL AN UNSPECIFIED ITEM, and there is
+now a device that matches it, added 2026-09-15.** The plan above records that the
+everyday dining table lives in the kitchen zone and that **an extended table is
+set up in the combined space only for special events** — without saying what that
+table is. A maker's delivered project shows one answer: **the leaves stored inside
+a 300 mm cabinet** and assembled on top when needed, extending to the full width
+of the room, with the owner's stated use case *«шумные застолья, такие как дни
+рождения или Новый год»* — which is this plan's use case almost word for word.
+**⚠️ It removes the DAILY footprint cost of a big table but NOT the setup cost**:
+the leaves must be carried out, assembled and put back, a two-person job a few
+times a year. **→ Worth deciding alongside the wall bed rather than after it,
+because both compete for the same wall and the same joinery order.** See
+[[14_Furniture/analysis/Table_Types_and_Dimensions|Table Types and Dimensions]].
+[source: [[_Sources/YT_oT4828iDsSk_progressdesign_transformer_tables_and_joinery|YT_oT4828iDsSk]]]
+
 **⚠⚠ AND ONE FINDING THAT SPLITS THIS LIST IN TWO, added 2026-09-15.** A
 household whose units went in in 2018 had them **dismantled by the maker's
 fitters for a full room renovation in 2021 and refitted afterwards** — new
