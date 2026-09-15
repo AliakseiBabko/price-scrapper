@@ -191,6 +191,14 @@ def px_span_mm(row, axis, fit):
     return min(lo, hi), max(lo, hi)
 
 
+def glazing():
+    """The лоджия glazing assembly as extracted from the vector."""
+    path = os.path.join(CANON, 'v0_elements_extracted.json')
+    if not os.path.exists(path):
+        return None
+    return json.load(io.open(path, encoding='utf-8')).get('loggia_glazing')
+
+
 def load_shafts():
     """The ventilation shafts as boxes. They are not walls and never become
     walls - but they FLANK an opening, so the placer has to know them."""
@@ -381,8 +389,44 @@ def main():
         # same as failing to place them. Listing them as UNPLACED would be a
         # false alarm, and a checker that cries wolf gets ignored.
         if (row.get('type') or '').strip() == 'glazing':
-            elsewhere.append((oid, 'exported as лоджия glazing bays + mullions, '
-                                   'not as a rectangular opening'))
+            # !! O9 IS an opening, and until 2026-09-15 it was the only element
+            # breaking the envelope that carried no opening entity - it was
+            # exported as frame + bays + mullions only, so anything iterating
+            # V0-OPENING missed the biggest hole in the flat. Owner, arrow on
+            # the glazing: "draw it as another opening."
+            # It is the one opening that is NOT axis-aligned (the лоджия splays,
+            # which is why the plan draws this line diagonal), so it carries an
+            # explicit bbox and the gate matches on that.
+            gl = glazing()
+            if not gl:
+                elsewhere.append((oid, 'no glazing geometry extracted'))
+                continue
+            import math
+            axp, ayp = gl['axis_from']
+            bxp, byp = gl['axis_to']
+            L = math.hypot(bxp - axp, byp - ayp)
+            ux, uy = (bxp - axp) / L, (byp - ayp) / L
+            nx, ny = -uy, ux
+            dep = gl['assembly_depth_mm'] or 150.0
+            cor = [(axp, ayp), (bxp, byp),
+                   (bxp + nx * dep, byp + ny * dep),
+                   (axp + nx * dep, ayp + ny * dep)]
+            out.append({'opening_id': oid, 'wall_id': host, 'solid_id': None,
+                        'axis': 'DIAGONAL',
+                        'bbox': [round(min(c[0] for c in cor), 1),
+                                 round(min(c[1] for c in cor), 1),
+                                 round(max(c[0] for c in cor), 1),
+                                 round(max(c[1] for c in cor), 1)],
+                        'run_mm': round(gl['run_mm'], 1),
+                        'assembly_depth_mm': dep,
+                        'bays': len(gl.get('bays') or []),
+                        'mullions': len(gl.get('mullions') or []),
+                        'named_width_mm': want or None,
+                        'span_source': 'the лоджия glazing assembly, diagonal',
+                        'source': 'vector glazing extraction'})
+            print('%-4s %-5s %11s %11s %8.1f %8s  %s'
+                  % (oid, 'DIAG', '-', '-', gl['run_mm'], want or '-',
+                     'diagonal assembly, %d bays' % len(gl.get('bays') or [])))
             continue
         if oid[:-1] in seen and oid[-1:] in ('a', 'b'):
             elsewhere.append((oid, 'a LEAF of the combined unit %s, divided by a '

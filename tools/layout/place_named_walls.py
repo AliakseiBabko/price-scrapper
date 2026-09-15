@@ -537,7 +537,37 @@ def load_corner_ledger():
     return out
 
 
-def lay_on_solid(members, solid):
+def corner_ends(wall_id, solid, walls, ledger_rows):
+    """Which END of this wall's solid carries a corner the wall OWNS.
+
+    Returns a set of 'lo' / 'hi'. Needed because a corner has to be laid with
+    room to land: `close_corners()` in the exporter extends the owner outwards
+    at that end, and if the wall was already laid flush against it there is
+    nothing to extend into and the gain is silently lost.
+    """
+    out = set()
+    lo, hi = solid['from_mm'], solid['to_mm']
+    mid = (lo + hi) / 2.0
+    for (a, b), owner in ledger_rows.items():
+        if owner != wall_id:
+            continue
+        other = b if a == wall_id else a
+        o = walls.get(other)
+        # !! the other wall's SOLID, not the wall - nothing is laid yet at the
+        # point this is asked, so from_mm/to_mm do not exist. The solid's
+        # position is known from matching and is what decides the end anyway.
+        os_ = o.get('solid') if o else None
+        if not os_:
+            continue
+        if os_['axis'] == solid['axis']:
+            c = (os_['from_mm'] + os_['to_mm']) / 2.0
+        else:
+            c = (os_['face_lo_mm'] + os_['face_hi_mm']) / 2.0
+        out.add('lo' if c < mid else 'hi')
+    return out
+
+
+def lay_on_solid(members, solid, anchor='lo'):
     """Lay the members' RECORDED lengths in order along the solid's own extent."""
     members.sort(key=lambda w: w["pred_from_mm"])
     # !! clear_mm, NOT solid_mm. The drawn extent of a wall is its CLEAR run;
@@ -555,7 +585,23 @@ def lay_on_solid(members, solid):
                  else max(span - known_total, 0.0)) / len(unknown)
     else:
         share = 0.0
-    pos = solid["from_mm"]
+    # !! WHICH END to lay from is not arbitrary. A wall that owns a corner at
+    # its LOW end needs the corner to land THERE, so its body must be laid
+    # flush against the solid's HIGH end, leaving the low end free.
+    #
+    # R9 is the case that forced this. Laid from the low end it ran
+    # 7610.6..9100.6, its C_MB_R9 gain of 300 found the start "already covered"
+    # by MB's own band and only 50 mm landed - so R9 came out 1540 drawn
+    # against a recorded solid_mm of 1790, and the 250 mm of R9's OWN hatched
+    # solid that it failed to claim was then swallowed by G7, which came out
+    # 3499.7 against 3250. ONE error, TWO open exceptions with opposite signs.
+    # Owner, 2026-09-15, reading the overlay: "missing segment of the R9. It
+    # should be aligned with R8." Laid from the high end R9 runs 7860.6..9350.6,
+    # the corner extends it to MB's far face at 7560.6, and 7560.6..9350.6 is
+    # 1790 - solid_mm exactly. G7 then butts R9's real face and measures 3249.7
+    # against 3250. Both deltas go to zero, and R9 ends level with R8.
+    total = sum((float(w["clear_mm"]) if w["clear_mm"] else share) for w in members)
+    pos = solid["to_mm"] - total if anchor == 'hi' else solid["from_mm"]
     for w in members:
         L = float(w["clear_mm"]) if w["clear_mm"] else share
         w["from_mm"], w["to_mm"] = round(pos, 1), round(pos + L, 1)
@@ -564,8 +610,10 @@ def lay_on_solid(members, solid):
                             else ("pair total %.0f, split evenly (undimensioned)" % pair_total
                                   if pair_total is not None else "solid remainder"))
         pos += L
-    return {"solid_span_mm": span, "laid_total_mm": round(pos - solid["from_mm"], 1),
+    start = solid["to_mm"] - total if anchor == 'hi' else solid["from_mm"]
+    return {"solid_span_mm": span, "laid_total_mm": round(pos - start, 1),
             "residual_mm": round(solid["to_mm"] - pos, 1),
+            "anchored": anchor,
             "pair_total_used_mm": pair_total}
 
 
@@ -603,12 +651,23 @@ def main():
         else:
             groups.setdefault(w["solid"]["solid_id"], []).append(w)
 
+    ledger_rows = load_corner_ledger()
     report = []
     for sid, members in sorted(groups.items()):
         solid = members[0]["solid"]
         js = solid_joints(plan, solid, ex.MM_PER_PT)
+        # Anchor at the far end only when a SOLE member owns a corner at the
+        # low end and none at the high end - otherwise the existing behaviour
+        # stands. Walls with a corner at BOTH ends (R8) cannot be satisfied by
+        # either anchor and are left alone; so are walls that own none.
+        anchor = 'lo'
+        if len(members) == 1:
+            ends = corner_ends(members[0]["wall_id"], solid,
+                               {w["wall_id"]: w for w in walls}, ledger_rows)
+            if ends == {'lo'}:
+                anchor = 'hi'
         lay = (lay_on_joints(members, solid, js) if len(js) > 2
-               else lay_on_solid(members, solid))
+               else lay_on_solid(members, solid, anchor))
         report.append({"solid_id": sid, "axis": solid["axis"],
                        "thickness_mm": solid["thickness_mm"],
                        "face_lo_mm": solid["face_lo_mm"], "face_hi_mm": solid["face_hi_mm"],

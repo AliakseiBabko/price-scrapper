@@ -381,6 +381,22 @@ def _(doc, canon):
         w.writerows(rows)
 
 
+@case('the DIAGONAL opening O9 deleted - the one matched on a bbox')
+def _(doc):
+    """!! Its own seed because O9 is matched differently from every other
+    opening: the лоджия splays, so the glazing is the one opening that is not
+    axis-aligned, and it is checked against an explicit bbox rather than
+    against face/from/to. A bbox comparison is looser by construction, so it
+    needs its own proof that it can still fail."""
+    msp = doc.modelspace()
+    gone = [e for e in msp
+            if e.dxf.layer == 'V0-OPENING' and e.dxftype() == 'LWPOLYLINE'
+            and len(e.get_points()) == 4
+            and min(q[1] for q in e.get_points()) < 6500.0]
+    assert len(gone) == 1, 'expected exactly one O9 glazing rectangle, found %d' % len(gone)
+    msp.delete_entity(gone[0])
+
+
 def inplace(name):
     """A case that mutates a COMMITTED artefact and must be restored after.
 

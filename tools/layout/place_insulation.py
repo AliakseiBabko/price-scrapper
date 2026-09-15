@@ -162,6 +162,88 @@ def split_run(run0, run1, gaps):
     return [(a, b) for a, b in segs if (b - a) > TOL_MM]
 
 
+def occluding_spans(band_box, axis, wall_id, walls):
+    """Along-axis spans of `band_box` that ANOTHER WALL's body already fills.
+
+    Owner, 2026-09-15, on the contour overlay: *"external insulation should not
+    cover all the wall, just the exposed segment."* Right, and it was wrong in
+    two measurable places - R8's band ran 0.045 m2 through MA's body and R9's
+    ran 0.045 m2 through MC's. A face another wall abuts is not an external
+    face, so it carries no external insulation; the band was following the
+    wall's whole length instead of the part actually exposed.
+    """
+    out = []
+    bx0, by0, bx1, by1 = band_box
+    for o in walls:
+        if o['id'] == wall_id:
+            continue
+        ox0, oy0, ox1, oy1 = o['x0'], o['y0'], o['x1'], o['y1']
+        if min(bx1, ox1) - max(bx0, ox0) <= TOL_MM:
+            continue
+        if min(by1, oy1) - max(by0, oy0) <= TOL_MM:
+            continue
+        out.append((max(bx0, ox0), min(bx1, ox1)) if axis == 'EW'
+                   else (max(by0, oy0), min(by1, oy1)))
+    return sorted(out)
+
+
+def exposed_end_bands(w, ins, side, walls, run_axis):
+    """The layer carried around a wall END that nothing abuts.
+
+    Owner, same review, three arrows marked *"missing pieces of insulation"* -
+    all of them at a wall's END face, where the band stopped dead instead of
+    turning the corner. R9's south end is the clearest: MB's band stops at
+    R9's west face 9131.0 and R9's own band starts on its east face, so the
+    250 mm of R9's own south face between them had nothing on it at all.
+
+    An end is EXPOSED when no other wall body meets it. The layer is carried at
+    THIS wall's own insulation thickness, and it reaches across the wall plus
+    its own band so the corner closes as a solid rather than an L with a
+    notch missing.
+    """
+    out = []
+    for end in ('lo', 'hi'):
+        # !! A neighbour TOUCHES this end, it does not overlap it, so an
+        # intersection test with a tolerance-sized probe finds nothing and
+        # every end reads as exposed. Reach REACH_MM past the face instead, and
+        # require the neighbour to cover a real fraction of it rather than
+        # clip a corner - otherwise a wall running past the side registers.
+        REACH_MM, MIN_COVER = 30.0, 0.25
+        if run_axis == 'EW':
+            e = w['x0'] if end == 'lo' else w['x1']
+            lo, hi = w['y0'], w['y1']
+            near = (e - REACH_MM, e) if end == 'lo' else (e, e + REACH_MM)
+        else:
+            e = w['y0'] if end == 'lo' else w['y1']
+            lo, hi = w['x0'], w['x1']
+            near = (e - REACH_MM, e) if end == 'lo' else (e, e + REACH_MM)
+        need = (hi - lo) * MIN_COVER
+        abutted = False
+        for o in walls:
+            if o['id'] == w['id']:
+                continue
+            oa = (o['x0'], o['x1']) if run_axis == 'EW' else (o['y0'], o['y1'])
+            oc = (o['y0'], o['y1']) if run_axis == 'EW' else (o['x0'], o['x1'])
+            if min(near[1], oa[1]) - max(near[0], oa[0]) <= 0:
+                continue
+            if min(hi, oc[1]) - max(lo, oc[0]) >= need:
+                abutted = True
+                break
+        if abutted:
+            continue
+        # the band across the end, reaching over the wall AND its own side band
+        if run_axis == 'EW':
+            x0, x1 = (e - ins, e) if end == 'lo' else (e, e + ins)
+            y0, y1 = ((w['y0'] - ins, w['y1']) if side == 'low'
+                      else (w['y0'], w['y1'] + ins))
+        else:
+            y0, y1 = (e - ins, e) if end == 'lo' else (e, e + ins)
+            x0, x1 = ((w['x0'] - ins, w['x1']) if side == 'low'
+                      else (w['x0'], w['x1'] + ins))
+        out.append((end, [round(x0, 1), round(y0, 1), round(x1, 1), round(y1, 1)]))
+    return out
+
+
 def main():
     utf8_console()
     ap = argparse.ArgumentParser()
@@ -249,7 +331,11 @@ def main():
         run0, run1 = ((w['x0'], w['x1']) if w['axis'] == 'EW'
                       else (w['y0'], w['y1']))
         gaps = openings_for(w['id'], openings)
-        segs = split_run(min(run0, run1), max(run0, run1), gaps)
+        # ...and interrupted AGAIN wherever another wall's body fills the band's
+        # own footprint, because that face is not exposed. See occluding_spans.
+        occl = occluding_spans(box, w['axis'], w['id'], walls)
+        segs = split_run(min(run0, run1), max(run0, run1),
+                         sorted(list(gaps) + list(occl)))
         for i, (s0, s1) in enumerate(segs):
             if w['axis'] == 'EW':
                 bx = [s0, box[1], s1, box[3]]
@@ -263,6 +349,23 @@ def main():
                           'status': status, 'evidence': ev,
                           'interrupted_by': [o['opening_id'] for o in openings
                                              if o.get('wall_id') == w['id']]})
+        # the layer carried around each EXPOSED end, closing the corner
+        for end, bx in exposed_end_bands(w, ins, side, walls, w['axis']):
+            bands.append({'wall_id': w['id'], 'insulation_mm': ins,
+                          'side': side, 'axis': w['axis'],
+                          'segment': 'end_%s' % end, 'of_segments': None,
+                          'x0': bx[0], 'y0': bx[1], 'x1': bx[2], 'y1': bx[3],
+                          'status': status,
+                          "evidence": ev + ["carried around this wall's %s END, "
+                                            "which no other wall abuts - the "
+                                            "envelope layer is continuous around "
+                                            "an exposed corner" % end],
+                          'interrupted_by': []})
+            print('%-5s %-5.0f %-5s  + end cap at its %s end (%.0f x %.0f)'
+                  % (w['id'], ins, side, end, bx[2] - bx[0], bx[3] - bx[1]))
+        if occl:
+            print('%-17s occluded by an abutting wall over %s'
+                  % ('', ', '.join('%.0f..%.0f' % t for t in occl)))
         note = ('' if not gaps else
                 '  [%d segment(s), broken at %s]'
                 % (len(segs), ', '.join(o['opening_id'] for o in openings
