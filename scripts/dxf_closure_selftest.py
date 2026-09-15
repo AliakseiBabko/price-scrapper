@@ -415,6 +415,46 @@ def _(doc):
     msp.delete_entity(gone[0])
 
 
+def _mitred_m6b(msp):
+    """The M6b entity, which the real export mitres on the glazing plane."""
+    hits = [e for e in msp
+            if e.dxf.layer == 'V0-WALL-LOGGIA' and e.dxftype() == 'LWPOLYLINE'
+            and len(e.get_points()) == 5]
+    assert len(hits) == 1, ('expected exactly one 5-corner лоджия wall (M6b, '
+                            'mitred), found %d' % len(hits))
+    return hits[0]
+
+
+@case('a wall mitred on the WRONG plane - a 45 deg cut, not the glazing angle')
+def _(doc):
+    """!! The relaxation admits ONE skew direction: the лоджия glazing's own
+    plane. Any other angle is the old defect wearing a mitre, so it has to be
+    rejected by direction alone, before area is even considered."""
+    e = _mitred_m6b(doc.modelspace())
+    p = [(q[0], q[1]) for q in e.get_points()]
+    x0 = min(q[0] for q in p); x1 = max(q[0] for q in p)
+    y0 = min(q[1] for q in p); y1 = max(q[1] for q in p)
+    c = 150.0
+    e.set_points([(x0, y0 + c), (x0 + c, y0), (x1, y0), (x1, y1), (x0, y1)])
+
+
+@case('a wall mitred on the RIGHT angle but the WRONG offset')
+def _(doc):
+    """!! Direction alone is not enough. This cut is exactly PARALLEL to the
+    glazing plane and 400 mm inboard of it, so an angle-only test would pass it
+    and the wall would simply be too short. The plane test is an OFFSET test:
+    both ends of the skew edge must lie ON the plane, not merely along it."""
+    e = _mitred_m6b(doc.modelspace())
+    p = [(q[0], q[1]) for q in e.get_points()]
+    x0 = min(q[0] for q in p); x1 = max(q[0] for q in p)
+    y0 = min(q[1] for q in p); y1 = max(q[1] for q in p)
+    # the glazing runs down to the right; shift the same slope 400 mm inboard
+    import math as _m
+    slope = _m.tan(_m.radians(15.93))
+    e.set_points([(x0, y0 + 400.0), (x1, y0 + 400.0 - (x1 - x0) * slope),
+                  (x1, y1), (x0, y1)])
+
+
 def inplace(name):
     """A case that mutates a COMMITTED artefact and must be restored after.
 
