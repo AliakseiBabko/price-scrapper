@@ -397,6 +397,24 @@ def _(doc):
     msp.delete_entity(gone[0])
 
 
+@case('a PINNED corner left genuinely open - the insulation cap deleted')
+def _(doc):
+    """!! Its own seed because C_MB_R9 is now allowed to be closed by
+    INSULATION rather than masonry - R9 is pinned 40 mm back from MB's outer
+    face, and the cap fills the recess. An exemption that cannot fail is not an
+    exemption, it is a hole: delete the cap and the corner must read as the
+    void it then is."""
+    msp = doc.modelspace()
+    gone = [e for e in msp
+            if e.dxf.layer == 'V0-INSULATION' and e.dxftype() == 'LWPOLYLINE'
+            and any(abs(q[0] - 9530.9) < 1.0 for q in e.get_points())
+            and any(abs(q[1] - 7490.6) < 1.0 for q in e.get_points())]
+    assert len(gone) == 1, (
+        "expected exactly one insulation run covering R9's recess, found %d"
+        % len(gone))
+    msp.delete_entity(gone[0])
+
+
 def inplace(name):
     """A case that mutates a COMMITTED artefact and must be restored after.
 

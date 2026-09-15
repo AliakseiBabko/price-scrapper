@@ -219,6 +219,7 @@ def main():
     if args.canon:
         _CANON[0] = args.canon
 
+    canon0 = _CANON[0]
     wall_list, malformed = walls_from_dxf(args.dxf)
     ledger = read('wall_corners.csv')
     directives = read('junction_directives.csv')
@@ -618,7 +619,27 @@ def main():
                 if 0 <= j < ny and 0 <= i < nx:
                     grid[j][i] = w['id']
 
-    def covered(x0, x1, y0, y1):
+    # the insulation layer, rasterised separately - see the pinned-corner note
+    ins_poly = [[(q[0], q[1]) for q in e.get_points()]
+                for e in ezdxf.readfile(args.dxf).modelspace()
+                if e.dxftype() == 'LWPOLYLINE' and e.dxf.layer == 'V0-INSULATION']
+
+    def _in_poly(px, py, poly):
+        inside = False
+        n = len(poly)
+        for k in range(n):
+            ax, ay = poly[k]
+            bx, by = poly[(k + 1) % n]
+            if (ay > py) != (by > py):
+                t = (py - ay) / (by - ay)
+                if px < ax + t * (bx - ax):
+                    inside = not inside
+        return inside
+
+    n_ins_cells = [0]
+
+    def covered(x0, x1, y0, y1, include_insulation=False):
+        n_ins_cells[0] = 0
         i0 = int((x0 - ox) / CELL + 0.5)
         i1 = max(i0 + 1, int((x1 - ox) / CELL + 0.5))
         j0 = int((y0 - oy) / CELL + 0.5)
@@ -629,8 +650,15 @@ def main():
                 if not (0 <= j < ny and 0 <= i < nx):
                     continue
                 total += 1
-                if grid[j][i] is None:
-                    miss += 1
+                if grid[j][i] is not None:
+                    continue
+                if include_insulation:
+                    cx = ox + (i + 0.5) * CELL
+                    cy = oy + (j + 0.5) * CELL
+                    if any(_in_poly(cx, cy, pp) for pp in ins_poly):
+                        n_ins_cells[0] += 1
+                        continue
+                miss += 1
         return total, miss
 
     # === 4. per-corner coverage ==========================================
@@ -640,6 +668,13 @@ def main():
     # asserted directly. For an L between an EW wall H and an NS wall V the
     # corner square is (V's x band) x (H's y band), closed only if every cell of
     # that square is covered by the wall union.
+    pinned_corner_owners = set()
+    _pd2 = os.path.join(canon0, 'wall_placement_directives.csv')
+    if os.path.exists(_pd2):
+        for _r in csv.DictReader(io.open(_pd2, encoding='utf-8')):
+            if ((_r.get('relation') or '').strip().startswith('align_')
+                    and (_r.get('status') or '').strip() == 'accepted'):
+                pinned_corner_owners.add(_r['wall_id'].strip())
     print('\nledger junctions - is the corner square solid?')
     for r in ledger:
         a, b = W.get(r['wall_a']), W.get(r['wall_b'])
@@ -650,6 +685,25 @@ def main():
         if h['axis'] == v['axis']:
             continue                      # collinear pair; not an L
         total, miss = covered(v['x0'], v['x1'], h['y0'], h['y1'])
+        # !! A corner whose owner has a PINNED end may legitimately not be
+        # solid MASONRY. C_MB_R9 is the case: the owner reads R9 as recessed
+        # 40 mm behind MB's outer face ("it is not flush with the MB, as you
+        # can see it on the photo"), and that recess is filled by the
+        # INSULATION cap, not by block. The corner is closed - there is no void
+        # a draught could cross - but it is closed by two materials.
+        #
+        # So for those corners only, the fill is re-tested against walls PLUS
+        # the insulation layer. Anything still empty is a real void and still
+        # fails. The exemption is named, narrow, and cannot be reached without
+        # an accepted directive naming that wall.
+        if miss and (r['owner'] in pinned_corner_owners):
+            total, miss = covered(v['x0'], v['x1'], h['y0'], h['y1'],
+                                  include_insulation=True)
+            if not miss:
+                print('  ok   %-12s solid, %d cells - %d of them INSULATION, '
+                      'not masonry (%s has a pinned end)'
+                      % (cid, total, n_ins_cells[0], r['owner']))
+                continue
         if miss:
             findings.append({'kind': 'open_corner', 'corner': cid,
                              'detail': '%d of %d cells of the corner square are '

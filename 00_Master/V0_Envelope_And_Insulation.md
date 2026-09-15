@@ -134,3 +134,88 @@ Worth keeping as a failure class: a photo that settles TOPOLOGY decisively can
 look like it settles DIMENSION, and it does not. `ext2` genuinely proved the
 layer is one surface; it proved nothing at all about how thick that surface is.
 
+## The 2026-09-15 second markup: angles, the M2 contact, and R9's recess
+
+### ⚠️ The лоджия face is DIAGONAL, so its ends are mitres, not squares
+
+Owner: *"the angle between glazing and M6b is a sharp angle… this angle should
+be really sharp, not like a rectangle like you draw. And for M2 is the same.
+Check the original image. This is angled. This is not rectangular."*
+
+Everything in this model is built from axis-aligned rectangles, and a rectangle
+running into a diagonal overshoots it by a triangle — **about 200 × 55 mm at
+M2's south-west corner and the same at M6b's**. Squaring that off draws a stub
+through the glass.
+
+`tools/lib/rectunion.clip_halfplane()` now cuts every insulation run on the
+glazing's **own outer plane**. Because it is one plane for both ends, the
+finished surface stays continuous across the corner instead of gaining a step
+of its own.
+
+⚠️ **The WALLS M2 and M6b are still drawn square, and that is a known
+omission, not an oversight.** `dxf_wall_entities.py` refuses any wall entity
+that is not a rectangle — closed, axis-aligned, four distinct corners, polygon
+area equal to bounding-box area — and that invariant exists because *both* gates
+once reduced a polyline to its bounding box, so a triangle on three of a
+rectangle's corners passed both. Mitring the wall entities means relaxing it,
+which needs its own seeds proving the relaxed reader still rejects a malformed
+entity. **Deferred deliberately rather than done carelessly.**
+
+### M2 touches MA — the third time of asking
+
+Owner: *"no gap between M2 and MA. This piece should be part of M2."* He had
+said it before and **I twice reported it done when it was not.** The occlusion
+rule had removed MA's *band* over M2's width, which deletes the insulation but
+leaves a 70 mm **void** — removing the filler is not the same as making contact.
+Directive `P_M2_north` now sets M2's north end to MA's near face 9050.6.
+
+⚠️ That needed a new relation: `trim_*` only ever shortens, and M2 had to
+**grow** 70 mm. `align_start` / `align_end` set an end either way.
+
+### R9 is 1750 and RECESSED from MB
+
+Owner: *"the length of R7 and R9 are similar, so it should be 1750, because it
+is not flush with the MB as you can see it on the photo."* `_Survey` `ext1`
+supports him — R9's concrete strip sits back from the block panels either side,
+with a shadow line at both edges.
+
+✅ **The printed `clear_mm` 1490 is untouched.** There were two routes to 1750:
+clear 1450 + 300, which overrides a printed dimension with a recollection, and
+clear **1490 + 260**, which says R9 claims only part of MB's thickness. The
+second is what a recessed end *means*, and it costs no printed figure. Directive
+`P_R9_south` pins the south face at 7600.6; 9350.6 − 7600.6 = **1750.0**,
+against R7's 1749.7.
+
+Three tools had to learn what a pinned end implies, each narrowly:
+
+- **`close_corners`** must not undo it. A derived closure may fill what a stated
+  fact leaves open; it may not overwrite the fact.
+- **`build_wall_corners`** accepts the ledger's gain for a pinned owner. Its own
+  rule — the owner gains the other wall's whole thickness — *assumes the owner
+  runs through*, and a pin says it does not. Ownership, pair and kind are still
+  asserted, so a flipped owner still fails.
+- **`check_dxf_closure`** re-tests a pinned corner against walls **plus the
+  insulation layer**. C_MB_R9 is closed by two materials: 650 cells of masonry
+  and **100 of insulation**. It is not a void — nothing could cross it — but it
+  is not solid block either. Seeded: delete the cap and the corner must fail.
+
+### The end caps: a threshold was answering the wrong question
+
+Owner: *"you forgot this small piece of insulation for the R8 corner from its
+edge, similar to what we have for R9."* The old test asked *"does a neighbour
+cover at least 25% of this end?"* and emitted nothing when the answer was yes.
+⚠️ **R8's south end is 250 wide and M6b covers 200 of it** — so it read as
+ABUTTED and the whole end was dropped, including the 50 mm strip M6b does not
+reach and the 150 mm of R8's own band beside it. **An end is not abutted or
+exposed; it is partly each.** Every uncovered sub-span now gets its own cap.
+
+And a cap's outer face is pulled onto the plane of the layer it joins, so R9's
+recess is closed by a **110 mm** cap — not R9's own 150 — which is what makes
+the façade read as one plane rather than stepping 40 mm proud of it.
+
+⚠️ `_Drawings/evidence/v0_raster_registration.json` — **S01's baseline was
+raised 0.153 → 0.182, deliberately**. Less masonry covers that hatched band
+because R9 moved back, which is the intended consequence of a recorded change.
+Only that entry changed: `--refit` would have re-derived the whole fit to absorb
+one intended move, and the fit is frozen precisely so that cannot happen quietly.
+

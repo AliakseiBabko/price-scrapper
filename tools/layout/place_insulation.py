@@ -325,37 +325,41 @@ def occluding_spans(band_box, axis, wall_id, walls):
 
 
 def exposed_end_bands(w, ins, side, walls, run_axis):
-    """The layer carried around a wall END that nothing abuts.
+    """The layer carried around the UNCOVERED parts of a wall's END face.
 
-    Owner, same review, three arrows marked *"missing pieces of insulation"* -
-    all of them at a wall's END face, where the band stopped dead instead of
-    turning the corner. R9's south end is the clearest: MB's band stops at
-    R9's west face 9131.0 and R9's own band starts on its east face, so the
-    250 mm of R9's own south face between them had nothing on it at all.
+    Owner, 2026-09-15: *"you forgot this small piece of insulation for the R8
+    corner from its edge, similar to what we have for R9."* He is right, and
+    the reason it was missing is that the old test asked a yes/no question -
+    "does a neighbour cover at least 25% of this end?" - and then emitted
+    nothing at all when the answer was yes.
 
-    An end is EXPOSED when no other wall body meets it. The layer is carried at
-    THIS wall's own insulation thickness, and it reaches across the wall plus
-    its own band so the corner closes as a solid rather than an L with a
-    notch missing.
+    !! R8's south end is 250 wide and M6b covers 200 of it. Under a threshold
+    that reads as ABUTTED and the whole end is dropped, including the 50 mm
+    strip M6b does not reach and the 150 mm of R8's own band beside it. A
+    threshold answers the wrong question: the end is not abutted or exposed, it
+    is PARTLY each, and only the uncovered part carries the layer.
+
+    So the cross-range is now walked and every uncovered sub-span gets its own
+    cap. A fully abutted end yields none, which is the old behaviour where the
+    old behaviour was right.
     """
+    REACH_MM = 30.0
     out = []
     for end in ('lo', 'hi'):
-        # !! A neighbour TOUCHES this end, it does not overlap it, so an
-        # intersection test with a tolerance-sized probe finds nothing and
-        # every end reads as exposed. Reach REACH_MM past the face instead, and
-        # require the neighbour to cover a real fraction of it rather than
-        # clip a corner - otherwise a wall running past the side registers.
-        REACH_MM, MIN_COVER = 30.0, 0.25
         if run_axis == 'EW':
             e = w['x0'] if end == 'lo' else w['x1']
             lo, hi = w['y0'], w['y1']
-            near = (e - REACH_MM, e) if end == 'lo' else (e, e + REACH_MM)
         else:
             e = w['y0'] if end == 'lo' else w['y1']
             lo, hi = w['x0'], w['x1']
-            near = (e - REACH_MM, e) if end == 'lo' else (e, e + REACH_MM)
-        need = (hi - lo) * MIN_COVER
-        abutted = False
+        # the end face plus the wall's OWN band beside it - the layer wraps both
+        if side == 'low':
+            lo = lo - ins
+        else:
+            hi = hi + ins
+        near = (e - REACH_MM, e) if end == 'lo' else (e, e + REACH_MM)
+
+        covered = []
         for o in walls:
             if o['id'] == w['id']:
                 continue
@@ -363,22 +367,81 @@ def exposed_end_bands(w, ins, side, walls, run_axis):
             oc = (o['y0'], o['y1']) if run_axis == 'EW' else (o['x0'], o['x1'])
             if min(near[1], oa[1]) - max(near[0], oa[0]) <= 0:
                 continue
-            if min(hi, oc[1]) - max(lo, oc[0]) >= need:
-                abutted = True
-                break
-        if abutted:
-            continue
-        # the band across the end, reaching over the wall AND its own side band
-        if run_axis == 'EW':
-            x0, x1 = (e - ins, e) if end == 'lo' else (e, e + ins)
-            y0, y1 = ((w['y0'] - ins, w['y1']) if side == 'low'
-                      else (w['y0'], w['y1'] + ins))
-        else:
-            y0, y1 = (e - ins, e) if end == 'lo' else (e, e + ins)
-            x0, x1 = ((w['x0'] - ins, w['x1']) if side == 'low'
-                      else (w['x0'], w['x1'] + ins))
-        out.append((end, [round(x0, 1), round(y0, 1), round(x1, 1), round(y1, 1)]))
+            c0, c1 = max(lo, oc[0]), min(hi, oc[1])
+            if c1 > c0:
+                covered.append((c0, c1))
+        covered.sort()
+        free, cur = [], lo
+        for c0, c1 in covered:
+            if c0 > cur:
+                free.append((cur, c0))
+            cur = max(cur, c1)
+        if cur < hi:
+            free.append((cur, hi))
+
+        for f0, f1 in free:
+            if f1 - f0 <= TOL_MM:
+                continue
+            if run_axis == 'EW':
+                x0, x1 = (e - ins, e) if end == 'lo' else (e, e + ins)
+                y0, y1 = f0, f1
+            else:
+                y0, y1 = (e - ins, e) if end == 'lo' else (e, e + ins)
+                x0, x1 = f0, f1
+            if run_axis == 'EW':
+                okey, inner = ('x0', e) if end == 'lo' else ('x1', e)
+            else:
+                okey, inner = ('y0', e) if end == 'lo' else ('y1', e)
+            out.append((end, [round(x0, 1), round(y0, 1),
+                              round(x1, 1), round(y1, 1)], okey, inner))
     return out
+
+
+def flush_end_caps(bands, tol=250.0):
+    """Pull each end cap's OUTER face onto the plane of the layer it joins.
+
+    Owner, 2026-09-15, on R9: *"the difference in the surface between the plane
+    of MB wall and the R9 edge will be filled with insulation."* R9's south face
+    is pinned 40 mm back from MB's masonry and MB carries 70, so the cap that
+    closes that end must be 110 deep - not R9's own 150 - or the finished
+    surface steps 40 mm proud of the facade instead of continuing it.
+
+    !! ONLY the outer face moves. The inner face IS the wall's end and is not
+    negotiable; an earlier version matched on any parallel face and happily
+    dragged caps off the walls they close. The cap records which face is which
+    when it is built, so this cannot be guessed wrong here.
+    """
+    moved = []
+    for b in bands:
+        seg = str(b.get('segment', ''))
+        if not seg.startswith('end_') or 'outer_key' not in b:
+            continue
+        key, inner = b['outer_key'], b['inner_mm']
+        alo, ahi = ('x0', 'x1') if key in ('y0', 'y1') else ('y0', 'y1')
+        best = None
+        for o in bands:
+            if o is b or str(o.get('segment', '')).startswith('end_'):
+                continue
+            # adjacent along the cap's own run, and parallel to its outer face
+            if min(b[ahi], o[ahi]) - max(b[alo], o[alo]) < -1.0:
+                continue
+            for face in (key[0] + '0', key[0] + '1'):
+                v = o[face]
+                if abs(v - inner) < 1.0:
+                    continue
+                # outward of the wall end, and not further than the cap's own
+                # thickness plus a little - a plane across the flat is not a
+                # neighbour
+                if (v - inner) * (b[key] - inner) <= 0:
+                    continue
+                if abs(v - inner) > tol:
+                    continue
+                if best is None or abs(v - inner) > abs(best - inner):
+                    best = v
+        if best is not None and abs(best - b[key]) > 0.05:
+            moved.append((b['wall_id'], seg, round(best - b[key], 1)))
+            b[key] = round(best, 1)
+    return moved
 
 
 def main():
@@ -523,8 +586,9 @@ def main():
         if caps == 'none':
             print('%-17s end caps SUPPRESSED by the record - these ends '
                   'are not exposed' % '')
-        for end, bx in ([] if caps == 'none'
-                        else exposed_end_bands(w, ins, side, walls, w['axis'])):
+        for end, bx, okey, inner_face in ([] if caps == 'none'
+                                     else exposed_end_bands(w, ins, side,
+                                                            walls, w['axis'])):
             if outside_fraction(bx, ext_mask, ex0, ey0, ecell) < 0.5:
                 print('%-17s end cap at its %s end DROPPED - it would sit '
                       'inside the flat' % ('', end))
@@ -533,6 +597,7 @@ def main():
                           'side': side, 'axis': w['axis'],
                           'segment': 'end_%s' % end, 'of_segments': None,
                           'x0': bx[0], 'y0': bx[1], 'x1': bx[2], 'y1': bx[3],
+                          'outer_key': okey, 'inner_mm': round(inner_face, 1),
                           'status': status,
                           "evidence": ev + ["carried around this wall's %s END, "
                                             "which no other wall abuts - the "
@@ -554,6 +619,10 @@ def main():
         print('%-5s %-5.0f %-5s %s%s' % (w['id'], ins, side, ev[0], note))
         for extra in ev[1:]:
             print('%-17s %s' % ('', extra))
+
+    for wid, seg, d in flush_end_caps(bands):
+        print('%-17s %s cap %s outer face pulled %+.1f mm onto the plane of the '
+              'layer it joins - one surface, not a step' % ('', wid, seg, d))
 
     payload = {
         'id': 'zk-dubravinskiy-v0-insulation',
