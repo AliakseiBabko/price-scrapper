@@ -41,6 +41,10 @@ import sys
 
 import ezdxf
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(
+    os.path.abspath(__file__)))))
+from lib import rectunion as ru  # noqa: E402
+
 PLACED = os.path.join("data", "canonical", "v0_named_walls_placed.json")
 OPENINGS_PLACED = os.path.join("data", "canonical", "v0_openings_placed.json")
 CORNERS = os.path.join("data", "canonical", "wall_corners.csv")
@@ -513,17 +517,35 @@ def main():
     n_directed = 0
     if os.path.exists(ins_path):
         ins = json.load(io.open(ins_path, encoding="utf-8"))
-        for band in ins.get("bands", []):
-            if band.get("status") not in TRUSTED_BAND_STATUS:
-                continue
-            rect(msp, "V0-INSULATION", band["x0"], band["y0"],
-                 band["x1"], band["y1"])
-            n_ins += 1
-            if band.get("status") == "from_owner_directive":
-                n_directed += 1
-        print("insulation: %d band segment(s) drawn - %d from the drawing's "
-              "evidence, %d by owner directive"
-              % (n_ins, n_ins - n_directed, n_directed))
+        keep = [b for b in ins.get("bands", [])
+                if b.get("status") in TRUSTED_BAND_STATUS]
+        n_ins = len(keep)
+        n_directed = sum(1 for b in keep
+                         if b.get("status") == "from_owner_directive")
+        # !! ONE SURFACE, not one rectangle per wall. Owner, 2026-09-15:
+        # "one surface means literally one surface." The photo
+        # _Survey/IMG_20260913_134256_with_wall_segments.jpg catches the
+        # building mid-insulation and settles it: the mineral wool boards turn
+        # from M6b's face onto MB's WITHOUT A BREAK and the render closes over
+        # them, so the wall boundary underneath is invisible in the finished
+        # skin. Drawing a rectangle per wall put a seam in our data that does
+        # not exist in the building, and made a take-off iterating surfaces see
+        # four where the builder sees one.
+        rects = [(b["x0"], b["y0"], b["x1"], b["y1"]) for b in keep]
+        comps = ru.groups(rects)
+        n_loops = 0
+        for comp in comps:
+            for loop in ru.union_loops([rects[k] for k in comp]):
+                msp.add_lwpolyline(loop, close=True,
+                                   dxfattribs={"layer": "V0-INSULATION"})
+                n_loops += 1
+        print("insulation: %d band segment(s) - %d from the drawing's evidence, "
+              "%d by owner directive - drawn as %d CONTINUOUS surface(s) in %d "
+              "connected run(s)"
+              % (n_ins, n_ins - n_directed, n_directed, n_loops, len(comps)))
+        for comp in comps:
+            ids = sorted(set(keep[k]["wall_id"] for k in comp))
+            print("            one surface wrapping: %s" % " + ".join(ids))
         for u in ins.get("unresolved", []):
             print("            !! %s SKIPPED - the drawing settles neither "
                   "face and it is not guessed" % u["wall_id"])
