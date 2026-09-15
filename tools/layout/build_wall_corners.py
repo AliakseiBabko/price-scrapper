@@ -357,7 +357,39 @@ def main():
     # check. scripts/structural_assembly_selftest.py proves each case fails.
     problems = list(asm_problems)
     SEMANTIC = ('wall_a', 'wall_b', 'owner', 'owner_gains_mm', 'kind', 'note')
+    # !! A corner whose OWNER has an accepted align_* placement directive is
+    # one the generator's rule does not describe. That rule - the owner gains
+    # the other wall's whole thickness - assumes the owner RUNS THROUGH to the
+    # far face. A directive that pins the owner's end says it does not, so the
+    # gain becomes a consequence of the pinned face and the generator has no
+    # standing to assert it. C_MB_R9 is the case: R9's south face is pinned at
+    # 7600.6, 40 mm short of MB's far face, so it claims 260 of MB's 300.
+    #
+    # The gain and note are therefore ACCEPTED from the ledger for those
+    # corners - and only those. Ownership, the pair and the kind are still
+    # asserted, so a flipped owner still fails. The exemption is named and
+    # narrow rather than a blanket "trust the file".
+    pinned_owners = set()
+    _pd = os.path.join('data', 'canonical', 'wall_placement_directives.csv')
+    if os.path.exists(_pd):
+        for r in csv.DictReader(io.open(_pd, encoding='utf-8')):
+            if ((r.get('relation') or '').strip().startswith('align_')
+                    and (r.get('status') or '').strip() == 'accepted'):
+                pinned_owners.add(r['wall_id'].strip())
+    checked = []
     for r in want:
+        if r['owner'] in pinned_owners:
+            got = have.get(r['corner_id'])
+            if got is not None:
+                print("  ..   %-12s gain %s mm ACCEPTED from the ledger - %s has "
+                      "a pinned end, so the generator's run-through rule does "
+                      'not apply' % (r['corner_id'], got.get('owner_gains_mm'),
+                                     r['owner']))
+                r = dict(r)
+                r['owner_gains_mm'] = got.get('owner_gains_mm') or r['owner_gains_mm']
+                r['note'] = got.get('note') or r['note']
+        checked.append(r)
+    for r in checked:
         got = have.get(r['corner_id'])
         if got is None:
             problems.append('%s missing from the ledger' % r['corner_id'])
@@ -371,8 +403,10 @@ def main():
         if cid not in set(r['corner_id'] for r in want):
             problems.append('%s in the ledger is not a corner in the geometry' % cid)
 
+    # From `checked`, not `want`: a pinned owner's gain is the ledger's, and
+    # solid_mm has to be reconciled against the gain that was actually taken.
     gains = {}
-    for r in want:
+    for r in checked:
         gains.setdefault(r['owner'], []).append((r['owner_gains_mm'], r['corner_id']))
     print('\nsolid_mm = clear_mm + the corners a wall owns:')
     for wid in sorted(gains):

@@ -402,7 +402,7 @@ def apply_placement_directives(walls, unmatched):
         # adjust where an ALREADY-MATCHED wall stops. Handled at the lay, not
         # here - without this guard MA's trim reads as a placement directive
         # for a wall that has a solid, and reports itself as a contradiction.
-        if rel in ("trim_start", "trim_end"):
+        if rel in ("trim_start", "trim_end", "align_start", "align_end"):
             continue
         ref = (r.get("relative_to") or "").strip()
         w, base = by_id.get(wid), by_id.get(ref)
@@ -668,7 +668,8 @@ def main():
     _tp = os.path.join("data", "canonical", "wall_placement_directives.csv")
     if os.path.exists(_tp):
         for r in csv.DictReader(io.open(_tp, encoding="utf-8")):
-            if (r.get("relation") or "").strip() in ("trim_start", "trim_end")                     and (r.get("status") or "").strip() == "accepted":
+            if (r.get("relation") or "").strip() in (
+                    "trim_start", "trim_end", "align_start", "align_end")                     and (r.get("status") or "").strip() == "accepted":
                 trims.setdefault(r["wall_id"], []).append(
                     (r["relation"].strip(), float(r["align_face_mm"]),
                      r["directive_id"]))
@@ -690,14 +691,25 @@ def main():
                else lay_on_solid(members, solid, anchor))
         for w in members:
             for kind, at, did in trims.get(w["wall_id"], []):
-                if kind == "trim_start" and w["from_mm"] < at - 0.05:
-                    print("   %-5s TRIMMED start %.1f -> %.1f by %s"
-                          % (w["wall_id"], w["from_mm"], at, did))
-                    w["from_mm"] = round(at, 1)
-                elif kind == "trim_end" and w["to_mm"] > at + 0.05:
-                    print("   %-5s TRIMMED end %.1f -> %.1f by %s"
-                          % (w["wall_id"], w["to_mm"], at, did))
-                    w["to_mm"] = round(at, 1)
+                # trim_* only ever SHORTENS; align_* sets the end either way.
+                # M2 needed the second: the owner asked for it to reach MA and
+                # touch, and a shrink-only rule cannot grow a wall.
+                if kind in ("trim_start", "align_start"):
+                    move = (w["from_mm"] < at - 0.05 if kind == "trim_start"
+                            else abs(w["from_mm"] - at) > 0.05)
+                    if move:
+                        print("   %-5s %s start %.1f -> %.1f by %s"
+                              % (w["wall_id"], kind.split("_")[0].upper(),
+                                 w["from_mm"], at, did))
+                        w["from_mm"] = round(at, 1)
+                else:
+                    move = (w["to_mm"] > at + 0.05 if kind == "trim_end"
+                            else abs(w["to_mm"] - at) > 0.05)
+                    if move:
+                        print("   %-5s %s end %.1f -> %.1f by %s"
+                              % (w["wall_id"], kind.split("_")[0].upper(),
+                                 w["to_mm"], at, did))
+                        w["to_mm"] = round(at, 1)
                 w["laid_length_mm"] = round(w["to_mm"] - w["from_mm"], 1)
         report.append({"solid_id": sid, "axis": solid["axis"],
                        "thickness_mm": solid["thickness_mm"],

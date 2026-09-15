@@ -119,6 +119,19 @@ def close_corners(walls):
     """
     by_id = {w["wall_id"]: w for w in walls}
     fixes = []
+    # !! An explicit owner directive PINS the end it names, and corner closure
+    # must not undo it. R9 is the case: the owner set its south face to 7600.6
+    # ("not flush with MB, as you can see on the photo"), and close_corners
+    # would have pushed it straight back to MB's far face 7560.6 because that
+    # is what owning a corner normally means. A derived closure may not
+    # overwrite a stated fact - it can only fill what the statement leaves open.
+    pinned = set()
+    _pd = os.path.join("data", "canonical", "wall_placement_directives.csv")
+    if os.path.exists(_pd):
+        for r in csv.DictReader(io.open(_pd, encoding="utf-8")):
+            rel = (r.get("relation") or "").strip()
+            if rel.startswith("align_") and (r.get("status") or "").strip() == "accepted":
+                pinned.add((r["wall_id"], rel.split("_", 1)[1]))
     if not os.path.exists(CORNERS):
         return fixes
     for r in csv.DictReader(io.open(CORNERS, encoding="utf-8")):
@@ -140,6 +153,10 @@ def close_corners(walls):
         # more, which is what "owns the corner" means.
         if abs(own["from_mm"] - centre) <= abs(own["to_mm"] - centre):
             target = lo
+            if (own["wall_id"], "start") in pinned:
+                fixes.append((r["corner_id"], own["wall_id"], other_id, 0.0,
+                              "start (PINNED by directive)"))
+                continue
             if own["from_mm"] > target:
                 own["from_mm"] = round(target, 1)
                 end = "start"
@@ -533,9 +550,31 @@ def main():
         # four where the builder sees one.
         rects = [(b["x0"], b["y0"], b["x1"], b["y1"]) for b in keep]
         comps = ru.groups(rects)
-        n_loops = 0
+        # !! MITRE ON THE GLAZING PLANE. The лоджия's glazed face is diagonal,
+        # so anything built from axis-aligned rectangles overshoots it by a
+        # small triangle - about 200 x 55 mm at M2's south-west corner and the
+        # same at M6b's. Owner: "here should be a sharp corner, not a square."
+        # Cutting on the glazing's own outer plane mitres every run that
+        # reaches it, and because it is ONE plane the surface stays continuous
+        # across the corner instead of gaining a step of its own.
+        gl0 = elements.get("loggia_glazing")
+        clip = None
+        if gl0:
+            import math as _m
+            _ax, _ay = gl0["axis_from"]
+            _bx, _by = gl0["axis_to"]
+            _L = _m.hypot(_bx - _ax, _by - _ay)
+            clip = (_ax, _ay, -(_by - _ay) / _L, (_bx - _ax) / _L)
+        n_loops, n_mitred = 0, 0
         for comp in comps:
             for loop in ru.union_loops([rects[k] for k in comp]):
+                if clip:
+                    cut = ru.clip_halfplane(loop, *clip)
+                    if len(cut) >= 3 and len(cut) != len(loop):
+                        n_mitred += 1
+                    loop = cut or loop
+                if len(loop) < 3:
+                    continue
                 msp.add_lwpolyline(loop, close=True,
                                    dxfattribs={"layer": "V0-INSULATION"})
                 n_loops += 1
@@ -543,6 +582,10 @@ def main():
               "%d by owner directive - drawn as %d CONTINUOUS surface(s) in %d "
               "connected run(s)"
               % (n_ins, n_ins - n_directed, n_directed, n_loops, len(comps)))
+        if n_mitred:
+            print("            %d surface(s) MITRED on the glazing plane - the "
+                  "лоджия face is diagonal, so a square end would stub through "
+                  "the glass" % n_mitred)
         for comp in comps:
             ids = sorted(set(keep[k]["wall_id"] for k in comp))
             print("            one surface wrapping: %s" % " + ".join(ids))

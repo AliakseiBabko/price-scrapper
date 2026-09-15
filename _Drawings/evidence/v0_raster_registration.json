@@ -329,7 +329,7 @@
   }
  ],
  "solid_unexplained_baseline": {
-  "S01": 0.1527,
+  "S01": 0.182,
   "S02": 0.0,
   "S03": 0.3019,
   "S04": 0.0,
@@ -364,5 +364,8 @@
   "S35": 1.0,
   "S36": 0.0,
   "S37": 0.0
+ },
+ "baseline_notes": {
+  "S01": "RAISED from 0.1527 to 0.1820 on 2026-09-15, deliberately and for one recorded reason. S01 is the 120 mm hatched band at y 7490.4..7610.6 running x 5881.0..9380.9, and the DXF now covers slightly less of it because R9's south face was pinned 40 mm back from MB's outer face by directive P_R9_south - the owner's reading, supported by _Survey ext1, that R9 is recessed rather than flush. Less masonry over that band is the INTENDED consequence of a deliberate move, not drift, and the recess is filled by the insulation cap instead. ⚠ ONLY THIS ENTRY CHANGED. The registration itself - sx, ox, sy, oy, the solids and both hashes - is untouched, because --refit would have re-derived the whole fit to absorb one intended change, and the fit is frozen precisely so that cannot happen quietly."
  }
 }

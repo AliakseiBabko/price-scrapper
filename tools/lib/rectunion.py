@@ -124,3 +124,40 @@ def groups(rects, eps=1e-6):
                     stack.append(m)
         out.append(comp)
     return out
+
+
+def clip_halfplane(loop, ax, ay, nx, ny, eps=1e-6):
+    """Sutherland-Hodgman: keep the part of `loop` on the +normal side.
+
+    Owner, 2026-09-15, on the лоджия: *"the angle between glazing and M6b is a
+    sharp angle... this angle should be really sharp, not like a rectangle like
+    you draw. And for M2 is the same."*
+
+    The лоджия's glazed face is DIAGONAL - that is the whole reason the plan
+    draws it as a splay - so the walls and the insulation that run into it meet
+    it at an acute angle, not a square end. Everything here is built from
+    axis-aligned rectangles, which overshoot a diagonal by a small triangle:
+    55 mm at M2's south-west corner and the same at M6b's, each about 200 mm
+    wide. Squaring that off draws a stub sticking through the glass.
+
+    Cutting on the glazing's own outer plane mitres both in one operation, and
+    it is the SAME plane for both, so the finished surface stays continuous
+    across the corner rather than acquiring a step of its own.
+    """
+    if not loop:
+        return []
+    def side(p):
+        return (p[0] - ax) * nx + (p[1] - ay) * ny
+    out = []
+    n = len(loop)
+    for i in range(n):
+        cur, nxt = loop[i], loop[(i + 1) % n]
+        sc, sn = side(cur), side(nxt)
+        if sc >= -eps:
+            out.append(cur)
+        if (sc > eps and sn < -eps) or (sc < -eps and sn > eps):
+            t = sc / (sc - sn)
+            out.append((round(cur[0] + t * (nxt[0] - cur[0]), 1),
+                        round(cur[1] + t * (nxt[1] - cur[1]), 1)))
+    return out
+
