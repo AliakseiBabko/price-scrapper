@@ -91,29 +91,141 @@ residual fell from +1375 to +225, and the east chain's from +1600 to **+21**.
 
 ## ⚠️ What still needs attention
 
-| out by | walls | most likely cause |
+**Updated 2026-09-15 against the gates' own output.** Everything below this
+heading used to describe round-4 state and had drifted badly: it claimed 12
+junction gaps when there are none, said `check_wall_junctions.py` and
+`build_wall_corners.py` "have not been run" when both run and pass, listed
+out-by figures (G7 +820, G4d −671, M2 −360) the exception ledger had long since
+superseded, and still called M6b's 200 mm provisional five days after the owner
+confirmed it. **This page is the one a person reads to learn where v0 stands, so
+a stale page here is the same defect class as a stale caption on the review
+drawing** — which is gated, precisely because it drifted twice. This section is
+now written from `check_dxf_closure.py` and `wall_extent_exceptions.csv`.
+
+### The extent exceptions — 8 rows, 6 open
+
+| wall | drawn | recorded solid | delta | state |
+| :--- | ---: | ---: | ---: | :--- |
+| R8 | 1789.7 | 2090 | **−300.3** | open — `clear + owned corners` over-counts; 1490 off the vector is not a face-to-face inner dimension |
+| R9 | 1540.0 | 1790 | **−250.0** | open — R9 laid at `clear_mm` inside its own 1740 solid |
+| G7 | 3499.7 | 3250 | **+249.7** | open — **the same defect as R9**, one error showing as two rows: G7 filled the 250 R9 left behind |
+| MA | 3050.1 | 2825 | **+225.1** | open — drawn correct at both ends; the record is 225 short |
+| M2 | 2373.1 | 2150 | **+223.1** | open — 57.7 is the deliberate лоджия closure; the remaining 165.4 is not accounted |
+| R1b | 1345.0 | 1200 | **+145.0** | open — a rectangular leg carved out of a continuous casting; use the assembly footprint |
+| M6b | 1439.9 | 1170 | +269.9 | **accounted** — every term is a deliberate recorded move |
+| G4a | 3545.0 | 3570 | −25.0 | **accounted** — inside the ±50 build tolerance |
+
+**R9 + G7 is one fix, and the arithmetic is already done:** butting G7 on R9's
+real face at 9350.6 gives R9 1790 exactly and G7 3249.7 against 3250. It also
+restores this project's own rule — a ≤120 mm partition meeting a frame member
+butts it, and the frame does not yield. **It is a change to the placement lay,
+not to a table, and it is the next piece of deliverable work.**
+
+### Resolved since this section was last written
+
+- **✅ Junctions: zero.** `check_wall_junctions.py` passes on 25 runs — no
+  overlap, no gap, every L-corner owned in `wall_corners.csv`.
+- **✅ M6b's 200 mm is owner-confirmed** (2026-09-10), no longer provisional and
+  no longer quarantined. The drawing still disagrees and that is *recorded*
+  rather than reconciled — `wall_placement_directives.csv` (P_M6b).
+- **✅ The two ventilation shafts are in the model** (2026-09-15), below.
+- **✅ All ten openings are hosted** (2026-09-15), below.
+
+## The 2026-09-15 round: the shafts and the six missing openings
+
+The owner compared the DXF readback against the approved wall model
+(`_Drawings/review/wall_model.png`, v24) and found the walls aligned and
+everything else not. `wall_materials.json` states the approved inventory as
+**"25 walls + 2 ventilation shafts, 10 openings, ALL TEN HOSTED"**; the DXF held
+**25 walls, 0 shafts, 4 openings**.
+
+### The openings — the drawing had them all along
+
+`place_openings.py` reported five doors as *"no drawn gap inside &lt;wall&gt;
+matches its width"*. That message was true of what the code looked at and false
+about the drawing. It read one span source; there are three.
+
+| source | what it is | supplies |
 | :--- | :--- | :--- |
-| **+820** | G7 | solid longer than the recorded 3250; the 75 mm partition's true extent |
-| **−671** | G4d | solid shorter than the recorded 2825 |
-| **−360** | M2 | лоджия wall drawn axis-aligned when the real one splays |
-| **+279** | R5 | |
-| **+250** | MC | |
-| **+225** | MA | still slightly over after clipping |
-| −120 | G4C | |
-| +119 | G4b | |
-| +110 | R6, G4a, R1b | |
+| `candidate_openings` | an unhatched stretch WITHIN one solid | **empty for every internal door in this flat** |
+| `bridged_openings_mm` | a doorway that splits its wall into TWO solids, recorded by the merge | O8 (1009.9 vs 1010), O1 and O7 (710.0, 710.0 vs 710) |
+| an **inter-wall gap** | the doorway is not in a wall at all — it is the space BETWEEN two walls on one line | O6 (910.0), O5 (910.1), both vs a recorded 910 |
 
-**⚠️ M6b is UNMATCHED — there is no 200 mm hatched solid where it should be.**
-The vector shows 300 at 5981/6281, 150 at 6131/6281 and 100 at 6181/6281 in that
-position. `project_decisions.md` already flags **M6b's 200 mm as provisional,
-"owner revising against another plan"** — so this is the model and the drawing
-disagreeing about a wall the owner already doubted, not a placement failure.
-**❓ Worth resolving from the drawing rather than the other plan.**
+⚠️ **The middle row is the uncomfortable one.** `raster_fidelity.py` already
+consumed `bridged_openings_mm` to exclude opening spans from its metric, and
+`render_vector_extraction.py` already drew those same gaps in red captioned
+"NO OPENING PLACED". **Two consumers could see the doorway and the placer could
+not** — and `wall_blocks.csv`'s own G4C note had already written the two 710
+spans down by coordinate. Nothing was missing; nothing was even unmeasured.
 
-**12 junction gaps remain**, the largest 239 mm (G4d's end) — down from 17 with
-the worst at 394 mm. These are now small enough to be corner-ownership
-questions, which is what `wall_corners.csv` and `build_wall_corners.py` exist to
-settle.
+⚠️ **Width alone cannot tell O1 from O7** — both are 710 mm in G4C and both gaps
+are drawn, so width ties and whichever came first used to win. Width is now a
+filter and POSITION is the ranking key, using the basic-plan px span through the
+identification fit. That fit is unfit for geometry (3.3% anisotropy, 93 mm
+residuals) and entirely adequate for choosing between two gaps 710 mm apart.
+**No geometry comes from it** — exactly the role it already has for walls.
+
+**O10 was worse than missing — it was invisible.** It had no span row, so the
+placer's loop never visited it, so it never landed in `unplaced`, so it never
+reached the review drawing's "still open" caption, which counts only `unplaced`.
+Absent from the model *and* absent from the list of what is absent. It is placed
+now from its two immovable flanks: R5's top face 13650.3 to V2's south face
+15090.3 = **1440.0** against a recorded 1455.
+
+### The shafts — V1 and V2
+
+They are **not walls** and must never be counted as walls. Owner: *"we need to
+include the ventilation shaft, which is next between R3 and R5. This is not a
+wall, but it is a structural element [that] will surface a wall."* They **add
+finishable surface inside a room and subtract floor**, so a take-off that
+iterates walls under-counts. Own layer `V0-VENT-SHAFT`, own table
+`data/canonical/ventilation_shafts.csv`, grey on the review drawing.
+
+⚠️ **Their footprints are the ONLY geometry in v0 not taken from the vector
+plan**, and deliberately so: the vector is the DETAILED plan, which draws the
+floors-10-and-up variant with **doubled** vent sections. `room_schedules.json`
+is explicit — *"USE THE BASIC PLAN for the vent shafts"*.
+
+- **V1 = 700 × 400**, x 3380.9…4080.9, y 15590.3…15990.3.
+  `wall_materials.json` had flagged V1 as *needing a careful re-measurement*;
+  the approved wall model is that re-measurement. **Position is a chain, not a
+  pixel reading**: the printed chain across the туалет is 150 | 700 | 290 = 1140
+  from R1b's east face 3230.9, and 3230.9 + 1140 = 4370.9 lands on hatched solid
+  S20's west face at **4370.9 — a 0.0 mm closure against an element the chain
+  never touched**. The 150 is printed on the plan, not invented.
+- **V2 = 400.1 × 685**, x 8980.8…9380.9, y 15090.3…15775.3. x is hatched solid
+  S11's own extent; the 685 is the 4th-floor sub-type from the basic plan.
+  Anchored on S11's hatch-validated south face and **corroborated two
+  independent ways**: the gap left to the top wall is 214.9 against a printed
+  200, and O10 comes out 1440.0 against a recorded 1455. Both agree to 15 mm,
+  and the alternative anchor — an exact 200 offset — moves it 14.9 mm, inside
+  the ±25 nominal tolerance, so the choice does not matter at this grade.
+
+### The gates that now cover this
+
+**A gate nobody has watched fail is not a gate**, so all of it is seeded.
+`check_dxf_closure.py` gained a non-wall element section that reads the DXF back
+and asserts every shaft and every placed opening is drawn on its recorded
+footprint, plus the roster check that would have caught O10 — *a named opening
+in no list at all*. `dxf_closure_selftest.py` is **28 seeded defects**, up from
+24: a deleted V1, a V2 slid 400 mm, a deleted O10, and an opening named but in
+no list. Each was watched failing, and each fails with its own finding kind.
+
+### ⚠️ A false FAIL, fixed — the gate cried wolf
+
+Run on a default Windows console, `check_dxf_closure.py` **exited 1 with the
+finding `stale_review_drawing`** while the drawing was byte-identical and the
+line immediately above said so. A bare `except Exception` was catching a
+`UnicodeEncodeError` raised by its own SUCCESS print — cp1252 cannot encode
+`лоджия` — and filing the crash under the name of the defect it had been looking
+for. The verdict depended on which terminal ran it.
+
+Both halves are fixed: `tools/lib/console.py` reconfigures stdout to UTF-8 in
+every layout tool's `main()`, and the catch-all now reports
+`review_drawing_check_errored` and says in words that it is not a finding about
+the drawing. **A checker that cannot run must say that, and must never borrow
+the name of the defect it was hunting.** The same crash was taking down
+`structural_assembly_selftest.py`.
 
 ## Still missing
 
@@ -122,12 +234,15 @@ settle.
   flanking walls are not.
 - **Window frame subdivision for MA / MB / MC** is not extracted. The geometry
   is on the drawing (the 19,49 window shows jamb frames and a central mullion
-  pair) and **part 2 needs it**.
+  pair) and **part 2, the owner's 3D model, needs it** — real openings with sill
+  and head, not plan outlines.
 - **The blue fixtures** — sanitaryware, kitchen — are in the owner's markup and
   not in the export.
-- **No corner ownership**, so `check_wall_junctions.py` and
-  `build_wall_corners.py` have not been run.
-- **O10, the прихожая-to-кухня passway**, has no span row and is absent.
+- **The R9 / G7 250 mm**, above: one fix, arithmetic already done.
+- **P1 and P2**, the wet riser group and the second sewer, are drawn on the
+  approved wall model and absent from the DXF. They are immovable and recorded
+  in `plumbing_anchors.csv`, but they are not part of the "25 + 2 + 10"
+  inventory, so they are a separate later item.
 
 ## What none of this changes
 

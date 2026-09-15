@@ -48,6 +48,10 @@ DASH_MIN_MM, DASH_MAX_MM = 15.0, 200.0
 DASH_MIN_SEGMENTS = 4
 
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
+
+
 def _extractor():
     spec = importlib.util.spec_from_file_location(
         "ex", os.path.join(HERE, "extract_v0_walls.py"))
@@ -196,6 +200,7 @@ def closed_rectangles(segments, mm, ymax, xrange_):
 
 
 def main():
+    utf8_console()
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--pdf", default=PDF)

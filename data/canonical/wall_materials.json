@@ -346,6 +346,7 @@
       "level_3_finish_area": "DERIVED, never typed: wall length x height, minus openings, plus the reveal, sill and head bands. !! This is the point of the two-level split - the bands are CALCULATED once the sill and head heights are known, so the ~120 finish segments never have to be hand-listed."
     },
     "counts": "25 walls + 2 ventilation shafts, 10 openings, ALL TEN HOSTED.",
+    "in_the_v0_DXF_since_2026_09_15": "The exported model now matches this inventory exactly: 25 walls, both shafts on layer V0-VENT-SHAFT from ventilation_shafts.csv, and all ten openings hosted - 9 drawn as rectangles plus O9, which is exported as the лоджия glazing bays and mullions rather than as a rectangle. It did NOT match until then: the DXF held 25 walls, 0 shafts and 4 openings, and no check compared the two sentences because the exporter and the gate both iterated walls only. check_dxf_closure.py now reads the shafts and openings back out of the DXF and asserts them against this record, with four seeded defects in scripts/dxf_closure_selftest.py.",
     "open": [
       "O6, the 9.36-room door, still has no wall - and that wall is the other candidate for what the owner called G4e.",
       "Sill and head heights for O2 and O3 - two numbers that unlock every window band.",

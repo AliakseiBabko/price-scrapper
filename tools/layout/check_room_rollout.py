@@ -67,6 +67,10 @@ KINDS = {'wall_face', 'step', 'opening', 'shaft_face', 'plumbing_face'}
 DIRECTIONS = set(OPP)
 
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
+
+
 def load():
     """Rooms, or exit non-zero if the file is not fit to add up.
 
@@ -100,6 +104,7 @@ def load():
 
 
 def main():
+    utf8_console()
     if not os.path.exists(ROLL):
         print('missing %s' % ROLL)
         return 2

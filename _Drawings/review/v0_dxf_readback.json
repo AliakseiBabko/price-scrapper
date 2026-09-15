@@ -1,4 +1,14 @@
 {
+ "openings_named": 11,
+ "openings_placed": 9,
+ "openings_handled_elsewhere": 3,
+ "openings_unplaced": [],
+ "openings_unaccounted": [],
+ "shaft_count": 2,
+ "shaft_ids": [
+  "V1",
+  "V2"
+ ],
  "wall_count": 25,
  "open_exceptions": 6,
  "open_exception_ids": [

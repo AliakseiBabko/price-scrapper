@@ -45,13 +45,22 @@ STYLE = {
     'V0-SLAB-EXTENSION': ((252, 240, 176), (196, 168, 20), 'decorative slab'),
     'V0-INSULATION': ((255, 214, 170), (214, 122, 40), 'external insulation 70/150'),
     'V0-OPENING': (None, (30, 120, 200), 'opening (from the vector)'),
+    # Deliberately NOT a wall colour. The shafts are common property, immovable,
+    # and they add surface while removing floor - reading as a wall is exactly
+    # the mistake this grey guards against.
+    'V0-VENT-SHAFT': ((196, 196, 204), (90, 90, 104), 'ventilation shaft (not a wall)'),
 
     'V0-WALL-LABEL': (None, (20, 20, 20), None),
 }
 DRAW_ORDER = ['V0-SLAB-EXTENSION', 'V0-INSULATION', 'V0-WALL-CONCRETE',
               'V0-WALL-AERATED',
               'V0-WALL-EXTERNAL', 'V0-WALL-LOGGIA', 'V0-LOGGIA-GLAZING',
+              'V0-VENT-SHAFT',
               'V0-OPENING', 'V0-SUGGESTED-FURN', 'V0-WALL-LABEL']
+
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
 
 
 def _load(name):
@@ -73,6 +82,7 @@ def font(size):
 
 
 def main():
+    utf8_console()
     ap = argparse.ArgumentParser()
     ap.add_argument('--dxf', default=DXF)
     ap.add_argument('--out', default=OUT)

@@ -189,7 +189,24 @@ def run_of(w):
     return (w['x0'], w['x1']) if w['axis'] == 'EW' else (w['y0'], w['y1'])
 
 
+def _utf8_console():
+    """Never let the ambient code page turn a PASS into a FAIL.
+
+    This gate prints Russian element names. On a default Windows console
+    (cp1251/cp866) `print` raises UnicodeEncodeError, and because the print
+    that does it sits in the SUCCESS branch, the gate exited non-zero with a
+    fabricated finding while every check had actually passed. Reconfiguring
+    here means the result no longer depends on which terminal ran it.
+    """
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding='utf-8', errors='replace')
+        except (AttributeError, ValueError):
+            pass
+
+
 def main():
+    _utf8_console()
     ap = argparse.ArgumentParser()
     ap.add_argument('--dxf', default=DXF)
     ap.add_argument('--canon', default=None,
@@ -747,6 +764,112 @@ def main():
         print('  FAIL %-16s %8.0f mm2 between %s'
               % ('+'.join(touch), area, ', '.join(touch)))
 
+    # === 7b. the NON-WALL elements: shafts and openings ==================
+    # !! The gate used to check walls and nothing else, and both of the model's
+    # other element classes went missing without a word:
+    #
+    #   * the TWO ventilation shafts. The approved wall model has always read
+    #     "25 walls + 2 shafts, 10 openings, ALL TEN HOSTED"; the DXF held 25
+    #     walls, 0 shafts and 4 openings. Nothing compared the two sentences,
+    #     because the exporter iterates walls and so did the gate.
+    #   * O10, the прихожая-to-кухня passway, which had no span row, was never
+    #     attempted by the placer, therefore never appeared in its `unplaced`
+    #     list, and so was missing from the drawing AND from the drawing's own
+    #     "still open" caption.
+    #
+    # Deriving the caption from the canonical tables is not enough on its own -
+    # the tables would still agree with themselves while the DXF omitted the
+    # element. This reads the DXF back.
+    print('\nnon-wall elements - shafts and openings, read back from the DXF:')
+    canon = _CANON[0]
+    ents = {}
+    for e in ezdxf.readfile(args.dxf).modelspace():
+        if e.dxftype() != 'LWPOLYLINE':
+            continue
+        if e.dxf.layer in ('V0-VENT-SHAFT', 'V0-OPENING'):
+            pts = [(q[0], q[1]) for q in e.get_points()]
+            ents.setdefault(e.dxf.layer, []).append(
+                (min(p[0] for p in pts), min(p[1] for p in pts),
+                 max(p[0] for p in pts), max(p[1] for p in pts)))
+
+    def _match(want, got, tol=1.0):
+        for i, b in enumerate(got):
+            if all(abs(want[k] - b[k]) <= tol for k in range(4)):
+                return i
+        return None
+
+    shaft_rows = list(csv.DictReader(io.open(
+        os.path.join(canon, 'ventilation_shafts.csv'), encoding='utf-8')))
+    drawn = list(ents.get('V0-VENT-SHAFT', []))
+    for r in shaft_rows:
+        want = (float(r['x0_mm']), float(r['y0_mm']),
+                float(r['x1_mm']), float(r['y1_mm']))
+        i = _match(want, drawn)
+        if i is None:
+            findings.append({'kind': 'missing_shaft', 'walls': [r['shaft_id']],
+                             'detail': 'ventilation_shafts.csv records %s at '
+                                       '%.1f,%.1f..%.1f,%.1f and no V0-VENT-SHAFT '
+                                       'rectangle is there' % ((r['shaft_id'],) + want)})
+            print('  FAIL %-3s recorded at %.1f,%.1f..%.1f,%.1f - NOT in the DXF'
+                  % ((r['shaft_id'],) + want))
+        else:
+            drawn.pop(i)
+            print('  ok   %-3s %.0f x %.0f on its recorded footprint'
+                  % (r['shaft_id'], float(r['width_mm']), float(r['depth_mm'])))
+    for extra in drawn:
+        findings.append({'kind': 'unrecorded_shaft', 'walls': [],
+                         'detail': 'a V0-VENT-SHAFT rectangle at %.1f,%.1f..%.1f,'
+                                   '%.1f matches no row' % extra})
+        print('  FAIL a shaft rectangle at %.1f,%.1f..%.1f,%.1f matches no row'
+              % extra)
+
+    op_path = os.path.join(canon, 'v0_openings_placed.json')
+    if os.path.exists(op_path):
+        rec = json.load(io.open(op_path, encoding='utf-8'))
+        drawn_o = list(ents.get('V0-OPENING', []))
+        for o in rec.get('openings', []):
+            if o['axis'] == 'EW':
+                want = (o['from_mm'], o['face_lo_mm'], o['to_mm'], o['face_hi_mm'])
+            else:
+                want = (o['face_lo_mm'], o['from_mm'], o['face_hi_mm'], o['to_mm'])
+            i = _match(want, drawn_o)
+            if i is None:
+                findings.append({'kind': 'missing_opening',
+                                 'walls': [o['opening_id']],
+                                 'detail': '%s is placed in the record at '
+                                           '%.1f,%.1f..%.1f,%.1f and is not drawn'
+                                           % ((o['opening_id'],) + want)})
+                print('  FAIL %-4s placed in the record, NOT drawn' % o['opening_id'])
+            else:
+                drawn_o.pop(i)
+        n_ok = len(rec.get('openings', [])) - sum(
+            1 for f in findings if f['kind'] == 'missing_opening')
+        if not [f for f in findings if f['kind'] == 'missing_opening']:
+            print('  ok   %d placed opening(s) all drawn on their recorded spans'
+                  % n_ok)
+        for extra in drawn_o:
+            findings.append({'kind': 'unrecorded_opening', 'walls': [],
+                             'detail': 'an opening rectangle at %.1f,%.1f..%.1f,'
+                                       '%.1f matches no placed record' % extra})
+            print('  FAIL an opening rectangle at %.1f,%.1f..%.1f,%.1f matches '
+                  'no placed record' % extra)
+        # the roster: a named opening in NO list is the state that hid O10
+        named_ids = [r['opening_id'] for r in csv.DictReader(io.open(
+            os.path.join(canon, 'wall_openings.csv'), encoding='utf-8'))]
+        seen = (set(o['opening_id'] for o in rec.get('openings', []))
+                | set(o['opening_id'] for o in rec.get('handled_elsewhere', []))
+                | set(o['opening_id'] for o in rec.get('unplaced', [])))
+        for oid in sorted(set(named_ids) - seen):
+            findings.append({'kind': 'unaccounted_opening', 'walls': [oid],
+                             'detail': '%s is named in wall_openings.csv and is '
+                                       'in NO list - not placed, not handled '
+                                       'elsewhere, not even reported unplaced'
+                                       % oid})
+            print('  FAIL %-4s named but in NO list - the state that hid O10' % oid)
+        if not set(named_ids) - seen:
+            print('  ok   every named opening is placed, handled elsewhere, or '
+                  'explicitly reported unplaced')
+
     # === 8. the review drawing must not report a previous round ==========
     # !! CODEX round 4: `render_dxf.py` hard-coded "the лоджия is still NOT a
     # closed loop" and "9 walls carry an OPEN extent exception" while the loop
@@ -809,9 +932,19 @@ def main():
                          current['total_exceptions'],
                          current['loggia_loop_closed']))
         except Exception as exc:                       # noqa: BLE001
-            findings.append({'kind': 'stale_review_drawing', 'walls': [],
+            # !! NOT 'stale_review_drawing'. This catch-all used to borrow that
+            # kind, so ANY error in here - including a UnicodeEncodeError raised
+            # by the SUCCESS branch's own print, three lines above, on a console
+            # that cannot encode "лоджия" - was reported as a specific, named,
+            # substantive finding that was simply false. The drawing was
+            # byte-identical and the run said so immediately before failing.
+            # A checker that cannot run must say THAT, and never borrow the
+            # name of the defect it was looking for.
+            findings.append({'kind': 'review_drawing_check_errored', 'walls': [],
                              'detail': '%s: %s' % (type(exc).__name__, exc)})
-            print('  FAIL could not check the review drawing: %s' % exc)
+            print('  FAIL the review-drawing check could not RUN (this is not '
+                  'a finding about the drawing): %s: %s'
+                  % (type(exc).__name__, exc))
 
     if args.json:
         print(json.dumps({'findings': findings}, indent=1, ensure_ascii=False))

@@ -92,6 +92,45 @@ def loggia_loop(walls, glazing):
     return bool(worst <= LOOP_TOL_MM), float(round(worst, 1)), per
 
 
+def element_coverage(canon=None):
+    """Every NAMED element accounted for: placed, or explicitly handled.
+
+    !! This closes the hole that hid O10. The caption used to be built from
+    `unplaced`, which is a list of openings the placer TRIED and failed. An
+    opening with no span row was never tried, so it was in neither list - not
+    placed, not reported, and absent from the DXF for nine days with every gate
+    green. "Not in the failure list" was being read as "fine".
+
+    The two ventilation shafts went missing the same way, one level up: the
+    exporter iterates walls, the approved model is "25 walls + 2 shafts", and
+    nothing ever compared those two sentences.
+
+    So this counts from the ROSTER - wall_openings.csv and
+    ventilation_shafts.csv - and requires every row to be in exactly one of
+    placed / handled_elsewhere / unplaced. Anything in none of them is
+    `unaccounted`, which is the state that used to be invisible.
+    """
+    named = [r['opening_id'] for r in _rows('wall_openings.csv', canon)]
+    shafts = [r['shaft_id'] for r in _rows('ventilation_shafts.csv', canon)]
+    path = os.path.join(canon or CANON, 'v0_openings_placed.json')
+    placed, elsewhere, unplaced = [], [], []
+    if os.path.exists(path):
+        d = json.load(io.open(path, encoding='utf-8'))
+        placed = [o['opening_id'] for o in d.get('openings', [])]
+        elsewhere = [o['opening_id'] for o in d.get('handled_elsewhere', [])]
+        unplaced = [o['opening_id'] for o in d.get('unplaced', [])]
+    seen = set(placed) | set(elsewhere) | set(unplaced)
+    return {
+        'openings_named': len(named),
+        'openings_placed': len(placed),
+        'openings_handled_elsewhere': len(elsewhere),
+        'openings_unplaced': sorted(unplaced),
+        'openings_unaccounted': sorted(set(named) - seen),
+        'shaft_count': len(shafts),
+        'shaft_ids': sorted(shafts),
+    }
+
+
 def summary(walls, glazing, canon=None):
     """Everything the review drawing is allowed to say about outstanding state."""
     ex = _rows('wall_extent_exceptions.csv', canon)
@@ -101,7 +140,8 @@ def summary(walls, glazing, canon=None):
     quarantined = sorted(r['wall_id'] for r in placement
                          if 'quarantin' in (r.get('status') or ''))
     closed, worst, per = loggia_loop(walls, glazing)
-    return {
+    cov = element_coverage(canon)
+    return dict(cov, **{
         'wall_count': int(len(walls)),
         'open_exceptions': len(open_ids),
         'open_exception_ids': open_ids,
@@ -110,7 +150,7 @@ def summary(walls, glazing, canon=None):
         'loggia_loop_closed': closed,
         'loggia_worst_gap_mm': worst,
         'loggia_per_wall_gap_mm': per,
-    }
+    })
 
 
 def caption_lines(s, omitted_openings=()):
@@ -135,11 +175,16 @@ def caption_lines(s, omitted_openings=()):
                 % (s['open_exceptions'], s['total_exceptions']),
                 '   exception: drawn length vs',
                 '   recorded solid_mm']
-    if omitted_openings:
-        out += ['%d internal doors OMITTED, not' % len(omitted_openings),
-                '   guessed: %s —' % ' '.join(omitted_openings),
-                '   their reveals are drawn',
-                '   differently in thin walls']
+    omitted = list(omitted_openings) or list(s.get('openings_unplaced') or [])
+    if omitted:
+        out += ['%d opening(s) OMITTED, not guessed:' % len(omitted),
+                '   %s' % ' '.join(omitted)]
+    if s.get('openings_unaccounted'):
+        out += ['!! %d named opening(s) in NO list —'
+                % len(s['openings_unaccounted']),
+                '   %s' % ' '.join(s['openings_unaccounted']),
+                '   never attempted, so never',
+                '   reported as missing']
     return out
 
 
@@ -168,7 +213,10 @@ def read_sidecar(path=SIDECAR):
 
 
 COMPARED = ('open_exceptions', 'total_exceptions', 'loggia_loop_closed',
-            'wall_count', 'quarantined')
+            'wall_count', 'quarantined',
+            # the roster claims - a drawing may not under-report what is missing
+            'openings_named', 'openings_placed', 'openings_unplaced',
+            'openings_unaccounted', 'shaft_count')
 
 
 def stale(current, drawn):

@@ -94,6 +94,10 @@ OUT = os.path.join(CANON, 'v0_insulation_placed.json')
 TOL_MM = 2.5
 
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
+
+
 def _load(name):
     spec = importlib.util.spec_from_file_location(
         name, os.path.join(HERE, '%s.py' % name))
@@ -159,6 +163,7 @@ def split_run(run0, run1, gaps):
 
 
 def main():
+    utf8_console()
     ap = argparse.ArgumentParser()
     ap.add_argument('--out', default=OUT)
     args = ap.parse_args()

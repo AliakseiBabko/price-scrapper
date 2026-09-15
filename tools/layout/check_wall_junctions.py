@@ -67,6 +67,10 @@ RUNS = os.path.join(REPO, 'data', 'canonical', 'wall_runs.csv')
 LEDGER = os.path.join(REPO, 'data', 'canonical', 'wall_corners.csv')
 
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
+
+
 def owned_corners():
     """corner ids the ledger assigns an owner to, so the solid is accounted."""
     if not os.path.exists(LEDGER):
@@ -259,6 +263,7 @@ def junctions(walls):
 
 
 def main():
+    utf8_console()
     if not os.path.exists(RUNS):
         print('missing %s' % RUNS)
         return 2

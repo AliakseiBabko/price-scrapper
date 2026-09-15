@@ -70,6 +70,10 @@ INS_BAND = (255, 190, 130)       # the insulation itself, from place_insulation
 CORNER = (150, 220, 170)         # a corner square the ledger assigns an owner
 
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
+
+
 def classify(s, walls, blocks, claimed, bands, claimed_solids=()):
     """What each unclaimed solid IS - by test, not by hand-labelling.
 
@@ -172,6 +176,7 @@ def box_of(s):
 
 
 def main():
+    utf8_console()
     ap = argparse.ArgumentParser()
     ap.add_argument('--out', default=OUT)
     ap.add_argument('--zoom', type=float, default=2.6)

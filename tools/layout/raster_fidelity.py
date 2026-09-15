@@ -109,6 +109,10 @@ MAX_SOLID_DEVIATION = 0.02
 MIN_SOLID_INK_PX = 200        # below this a solid's fraction is noise
 
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lib.console import utf8_console  # noqa: E402
+
+
 def _load(name):
     spec = importlib.util.spec_from_file_location(
         name, os.path.join(HERE, '%s.py' % name))
@@ -465,6 +469,7 @@ def per_solid_unexplained(wall_ink, dist_mm, solids, P, limit_mm):
 
 
 def main():
+    utf8_console()
     ap = argparse.ArgumentParser()
     ap.add_argument('--dxf', default=DXF)
     ap.add_argument('--mask', default=MASK)

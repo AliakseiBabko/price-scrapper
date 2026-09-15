@@ -316,6 +316,71 @@ def _(doc):
 INPLACE = []
 
 
+# --- the non-wall elements: shafts and openings ------------------------
+# !! These four seeds exist because the gate checked WALLS and nothing else,
+# and both other element classes went missing in silence for nine days with
+# every gate green: the two ventilation shafts the approved wall model has
+# always listed ("25 walls + 2 shafts"), and O10, which had no span row and so
+# was never attempted, never reported unplaced, and never drawn. "Not in the
+# failure list" was being read as "fine".
+
+@case('a deleted ventilation shaft: V1 removed from the DXF')
+def _(doc):
+    msp = doc.modelspace()
+    gone = [e for e in msp
+            if e.dxf.layer == 'V0-VENT-SHAFT' and e.dxftype() == 'LWPOLYLINE'
+            and abs(min(q[0] for q in e.get_points()) - 3380.9) < 1.0]
+    assert len(gone) == 1, 'expected exactly one V1 rectangle, found %d' % len(gone)
+    msp.delete_entity(gone[0])
+
+
+@case('a displaced ventilation shaft: V2 slid 400 mm south')
+def _(doc):
+    msp = doc.modelspace()
+    hit = [e for e in msp
+           if e.dxf.layer == 'V0-VENT-SHAFT' and e.dxftype() == 'LWPOLYLINE'
+           and abs(min(q[0] for q in e.get_points()) - 8980.8) < 1.0]
+    assert len(hit) == 1, 'expected exactly one V2 rectangle, found %d' % len(hit)
+    e = hit[0]
+    e.set_points([(x, y - 400.0) for x, y, *_ in e.get_points()])
+
+
+@case('a deleted opening: O10, the passway that was missing all along')
+def _(doc):
+    msp = doc.modelspace()
+    gone = [e for e in msp
+            if e.dxf.layer == 'V0-OPENING' and e.dxftype() == 'LWPOLYLINE'
+            and abs(min(q[1] for q in e.get_points()) - 13650.3) < 1.0
+            and abs(min(q[0] for q in e.get_points()) - 9131.0) < 1.0]
+    assert len(gone) == 1, 'expected exactly one O10 rectangle, found %d' % len(gone)
+    msp.delete_entity(gone[0])
+
+
+@paired('an opening named but in NO list - the exact state that hid O10')
+def _(doc, canon):
+    """Add a named opening with no span row and no divider host.
+
+    !! The seed has to add a ROSTER row rather than remove a placed one,
+    because the defect was never a failed placement - it was an opening the
+    placer's loop never visited, so it appeared in no list at all. Removing a
+    placed record would exercise `missing_opening`, a different check.
+    """
+    import csv as _csv
+    wo = os.path.join(canon, 'wall_openings.csv')
+    with io.open(wo, encoding='utf-8', newline='') as f:
+        rows = list(_csv.DictReader(f))
+    fields = list(rows[0].keys())
+    assert not any(r['opening_id'] == 'O99' for r in rows), 'O99 already exists'
+    blank = dict((k, '') for k in fields)
+    blank.update({'opening_id': 'O99', 'type': 'door',
+                  'in_wall_or_divider': 'G8', 'width_mm': '800'})
+    rows.append(blank)
+    with io.open(wo, 'w', encoding='utf-8', newline='') as f:
+        w = _csv.DictWriter(f, fieldnames=fields, lineterminator=chr(10))
+        w.writeheader()
+        w.writerows(rows)
+
+
 def inplace(name):
     """A case that mutates a COMMITTED artefact and must be restored after.
 
