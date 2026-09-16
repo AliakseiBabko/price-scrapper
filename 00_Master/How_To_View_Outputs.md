@@ -153,6 +153,46 @@ what is actually inside it — meshes, materials, base colours, texture count. U
 rather than trusting the exporter's own report; it is the same reason the DXF gates
 re-derive geometry from the source PDF.
 
+## ⚠️ Rendering one room in Cycles (built 2026-09-16)
+
+**When you want to see how a room READS — light, proportion, finish — rather than
+walk it.** The wall finish comes from the finish schedule, so this is a picture
+*of the data*, not a picture someone dressed by hand.
+
+```powershell
+$env:BLENDER_USER_CONFIG     = "$PWD\tools\blender\profile3\config"
+$env:BLENDER_USER_EXTENSIONS = "$PWD\tools\blender\profile3\extensions"
+tools\blender\bin\blender-5.2.0-windows-x64\blender.exe --background `
+  --python tools\blender\render_room.py -- `
+  data\outputs\variants\v0-existing\model.ifc `
+  "Bedroom" `
+  data\outputs\variants\v0-existing\renders\bedroom.png `
+  data\outputs\variants\v0-existing\renders\bedroom_report.json `
+  "$PWD\tools\blender\profile3\extensions\.local\lib\python3.13\site-packages" `
+  data\canonical\finish_schedule_demo.json `
+  data\canonical\render_appearance.json `
+  --samples 48
+```
+
+**Room names must match the IFC's own spaces**: `Living room`, `Kitchen`,
+`Bedroom`, `Small bedroom`, `Bathroom`, `WC`, `Entrance hall`, `Loggia`. Get one
+wrong and the run fails and prints the list.
+
+**⚠️ Read the report, not just the picture.** `*_report.json` carries the camera
+position, which window it aimed at, the luminaire power, the material it matched
+from the schedule — and `open_limits`, which says in the file what the render
+cannot tell you. **A render with no report is a picture of nothing in particular.**
+
+**Change a finish and re-run.** Editing `data\canonical\render_appearance.json`
+changes how a material looks; editing the finish schedule changes which material
+a room has. **Neither needs Blender opened, and nothing is saved into a `.blend`
+that could drift.**
+
+⚠️ **~48 samples is a check; raise it for a picture you want to look at.** Add
+`--gpu` if the machine has one configured. A small windowless room will look
+warm and flat — that is a 3200 K lamp being the only light in it, which is what
+such a room actually is.
+
 ## Viewing the 3D model (Blender is installed here)
 
 The IFC is the real model; the renders are just pictures of it.

@@ -1,0 +1,90 @@
+{
+  "_note": "Appearance ONLY. Maps a finish_schedule material string to what it looks like, so a render can be driven from the costing schedule without that schedule growing a second job. finish_schedule_*.json stays a costing artefact: trade, material, unit rate. Nothing here is a cost and nothing there is a colour. Keys must match the `material` strings in the finish schedule exactly; an unmatched string falls back to `_default` and is reported, never silently painted.",
+  "_basis": "Flat base colour plus roughness, which is all that survives without UV maps. Sources processed 2026-09-16 (see 00_Master/Model_and_Views.md) establish that an IFC model out of Bonsai carries no UV maps, that textures therefore need per-surface unwrapping by hand, and that flat white plaster 'could actually do the trick'. Roughness is the one free lever that separates a matt paint from a glazed tile, so it is set deliberately per material rather than left at a default.",
+
+  "_default": {
+    "base_color": [0.72, 0.70, 0.68, 1.0],
+    "roughness": 0.85,
+    "metallic": 0.0,
+    "_why": "Neutral warm grey. Used for any material string with no entry here, and reported as unmatched so the gap is visible."
+  },
+
+  "materials": {
+    "Primer and washable acrylic paint": {
+      "base_color": [0.88, 0.87, 0.85, 1.0],
+      "roughness": 0.90,
+      "metallic": 0.0,
+      "_why": "Near-white matt emulsion. High roughness: washable acrylic still reads matt at this scale."
+    },
+    "Moisture-resistant latex paint": {
+      "base_color": [0.86, 0.86, 0.84, 1.0],
+      "roughness": 0.72,
+      "metallic": 0.0,
+      "_why": "Slightly lower roughness than the acrylic - a moisture-resistant latex has a faint sheen, which is the only visible difference between the two paints."
+    },
+    "Waterproofing and ceramic tile": {
+      "base_color": [0.80, 0.80, 0.78, 1.0],
+      "roughness": 0.25,
+      "metallic": 0.0,
+      "_why": "Glazed ceramic. Low roughness is what makes it read as tile rather than paint without a texture - the specular response, not the pattern. Joints are not modelled, so this reads as a single glazed plane."
+    },
+    "Decorative mineral plaster": {
+      "base_color": [0.82, 0.79, 0.74, 1.0],
+      "roughness": 0.95,
+      "metallic": 0.0,
+      "_why": "Very high roughness, faintly warm. Without a bump map the texture is absent, so roughness carries the whole difference."
+    }
+  },
+
+  "elements": {
+    "_why": "Surfaces the finish schedule does not price per room. The schedule covers wall finishes; a floor, a ceiling, a door leaf and a glazed opening still have to look like something or the render is unreadable.",
+    "floor": {
+      "base_color": [0.52, 0.47, 0.42, 1.0],
+      "roughness": 0.60,
+      "metallic": 0.0,
+      "_why": "Mid-brown, standing in for an unchosen floor covering. NOT a decision - see 00_Master/project_decisions.md."
+    },
+    "ceiling": {
+      "base_color": [0.93, 0.93, 0.92, 1.0],
+      "roughness": 0.90,
+      "metallic": 0.0,
+      "_why": "Near-white matt, consistent with the stretch ceiling the vault expects."
+    },
+    "door": {
+      "base_color": [0.76, 0.72, 0.66, 1.0],
+      "roughness": 0.45,
+      "metallic": 0.0
+    },
+    "window_glass": {
+      "base_color": [0.85, 0.90, 0.95, 1.0],
+      "roughness": 0.05,
+      "metallic": 0.0,
+      "_why": "Stand-in only. A real window needs the glass-shadow trick - a Mix Shader between Glass and Transparent driven by Light Path > Is Shadow Ray - so that the glass blocks nothing on shadow rays and daylight actually enters. Recorded on 00_Master/Model_and_Views.md and NOT implemented here; see the open items in the render report."
+    },
+    "context": {
+      "base_color": [0.66, 0.65, 0.63, 1.0],
+      "roughness": 0.85,
+      "metallic": 0.0,
+      "_why": "Everything outside the room being rendered. Deliberately flat and unremarkable so it does not read as a finish decision."
+    }
+  },
+
+  "lighting": {
+    "_why": "The four-step formula recorded on 00_Master/Model_and_Views.md, arrived at independently by two teachers: colour management first, sun as key, sky as fill, artificial light as accent only. Kept here as data so a lighting change is an edit to this file rather than to the renderer.",
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "sun_strength": 4.0,
+    "sun_angle_deg": 30.0,
+    "sun_elevation_deg": 42.0,
+    "sun_rotation_deg": 135.0,
+    "sky_strength": 0.8,
+    "_sun_angle_why": "The default sun is razor-sharp. Widening the angular diameter to ~30 degrees softens the shadow, which is the single change both sources make first.",
+    "_sun_strength_why": "Lower than the sources' 10: they light an exterior-facing scene, this is an interior lit through one or two openings and 10 blows out the window wall.",
+
+    "artificial_kelvin": 3200,
+    "artificial_power_w_per_m2": 4.5,
+    "artificial_size_m": 0.6,
+    "_artificial_why": "A ceiling luminaire, colour set by COLOUR TEMPERATURE in kelvin rather than by picking an RGB swatch - the sources are specific that the mix of cool skylight and warm lamps is what reads as real, and that an RGB swatch does not give you that. 3200 K is warm domestic. In a daylit room this is the accent the four-step formula calls for; in a WINDOWLESS room it is the only light there is, which the Bathroom proved by rendering pure black without it.",
+    "_artificial_power_why": "PER SQUARE METRE, not a flat wattage. A flat 75 W was calibrated on the 16.9 m2 bedroom and then blew out the 3.1 m2 bathroom completely - same number, five times the illuminance. 4.5 W/m2 is the bedroom figure back-derived and applied by area."
+  }
+}

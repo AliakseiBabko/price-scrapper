@@ -204,6 +204,50 @@ Different branch, same model.** 18 sources triaged in
 > ⚠️ **Stated plainly: NONE of the 18 sources shows a scripted archviz pipeline.
 > They support the ingredients, not the shape. The shape is this project's own.**
 
+### ✅ BUILT 2026-09-16 — the proposal is no longer a proposal
+
+`tools/blender/render_room.py` renders one room in Cycles with its wall finish
+read from the finish schedule. Same shape as `export_glb.py`: a Python file run
+by `blender --background --python`, writing a PNG and a JSON report, editing
+nothing. **A finish change is now a re-run.**
+
+**The split that keeps it honest.** `data/canonical/finish_schedule_*.json` stays
+a COSTING artefact — trade, material, unit rate. Appearance lives in
+`data/canonical/render_appearance.json`, keyed by the schedule's own `material`
+string. **Neither file grew a second job**, and an unmatched material string is
+reported rather than silently painted.
+
+**Rooms are mapped to surfaces by the model's own `IfcRelSpaceBoundary`** — 40 of
+them in v0-existing — not by guessing geometry.
+
+**Four things the first runs got wrong, kept because each is a rule:**
+
+1. **The `IfcSpace` is a flat PLATE** (measured Z span 0.02 m). Taking room
+   height from it put the camera 8 cm **below the floor**. Height comes from the
+   bounding walls, which carry the real 0–2.5 m.
+2. **The camera faced away from the only window** and the room rendered as a dark
+   blue box. It now aims at the opening, which is both the lighting-correct and
+   the compositionally standard choice. **The sun is aimed through that same
+   window** rather than at a fixed compass bearing — a hard-coded azimuth is a
+   coin flip, and a wrong one puts the only opening in shadow.
+3. **The windowless Bathroom rendered PURE BLACK** — physically correct and
+   useless. Sun and sky cannot enter a room with no opening. A ceiling luminaire
+   is now always added, coloured by **blackbody kelvin, not an RGB swatch**.
+4. **A flat 75 W calibrated on the 16.9 m² bedroom blew out the 3.1 m² bathroom.**
+   Power is per m². **Any lighting figure calibrated in one room is wrong in
+   every other one** unless it is stated per unit area.
+
+> ⚠️⚠️ **WHAT IT IS NOT.** It is a **lighting study, not a daylight study**: it
+> shows how a room reads when sun comes through that window, and says nothing
+> about whether the sun is ever in that position at this site on any date.
+> **Untextured by construction** — roughness, not pattern, is what separates tile
+> from paint here. **A wall bounds two rooms but is one object**, so its far side
+> carries this room's finish; invisible from inside, wrong for any exterior view.
+> **A room under ~6 m² cannot be photographed from inside itself** — the bathroom
+> needs a 12 mm lens and still shows only a corner; the walkable view is the
+> better tool for those. Every run writes these limits into its own report, so a
+> render cannot be mistaken for a finished visualisation.
+
 ## What legitimately lives outside the model
 
 Not everything belongs in the model, and forcing it there is the opposite
