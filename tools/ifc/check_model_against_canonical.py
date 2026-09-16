@@ -12,9 +12,12 @@ Checks, all of them against a table the generator does not own:
   1. Every wall in `wall_blocks.csv` is present in the IFC, exactly once.
   2. Each wall's DRAWN thickness matches its recorded `thickness_mm`.
   3. Each opening's sill and head match `wall_openings.csv`, where recorded.
-  4. Both ventilation shafts are present, and are NOT walls.
+  4. Each wall's DRAWN LENGTH is its recorded solid_mm, its sanctioned entry in
+     wall_extent_exceptions.csv, or that plus an opening width - because a wall
+     is extended across a doorway the plan draws it as stopping at.
+  5. Both ventilation shafts are present, and are NOT walls.
 
-A fifth check - each fill against its own opening - was written and REMOVED: it
+A further check - each fill against its own opening - was written and REMOVED: it
 could never fire, because `create_shape` returns no geometry for an
 IfcOpeningElement, so both sides read empty and it skipped every time. Check 3
 catches the same defect and is stronger, because it measures against
@@ -40,9 +43,11 @@ import numpy as np
 REPO = Path(__file__).resolve().parents[2]
 BLOCKS = REPO / "data" / "canonical" / "wall_blocks.csv"
 OPENINGS = REPO / "data" / "canonical" / "wall_openings.csv"
+EXTENTS = REPO / "data" / "canonical" / "wall_extent_exceptions.csv"
 
 THICKNESS_TOL_MM = 2.0     # the DXF rounds to 0.1 mm; 2 mm is generous and still tight
 VERTICAL_TOL_MM = 5.0
+LENGTH_TOL_MM = 5.0
 
 
 def _verts(settings, element) -> np.ndarray:
@@ -78,26 +83,37 @@ def check(ifc_path: Path) -> list[str]:
     settings.set("use-world-coords", True)
 
     # 1 + 2 - walls against wall_blocks.csv
-    recorded = {}
+    recorded, solid = {}, {}
     with BLOCKS.open(encoding="utf-8") as fh:
         for row in csv.DictReader(fh):
             recorded[row["wall_id"]] = parse_mm(row.get("thickness_mm"))
+            solid[row["wall_id"]] = parse_mm(row.get("solid_mm"))
 
-    # Lintels and spandrels are IfcWall and deliberately NOT in wall_blocks.csv:
-    # they are the wall over a door head and under a sill, which a 2D plan
-    # cannot express, so they are reconstructed rather than recorded. Excluded
-    # by their generated name, and separately required to name a real opening -
-    # so the exemption cannot be used to smuggle an unrecorded wall in.
-    reconstructed, seen = [], {}
+    exceptions = {}
+    if EXTENTS.exists():
+        with EXTENTS.open(encoding="utf-8") as fh:
+            for row in csv.DictReader(fh):
+                drawn = parse_mm(row.get("drawn_mm"))
+                if row.get("wall_id") and drawn:
+                    exceptions[row["wall_id"].strip()] = drawn
+
+    # Opening widths, by the wall each is recorded in - the only extension a
+    # wall's drawn length is allowed to carry.
+    openings_in: dict[str, list] = {}
+    with OPENINGS.open(encoding="utf-8") as fh:
+        for row in csv.DictReader(fh):
+            host = (row.get("in_wall_or_divider") or "").strip()
+            width = parse_mm(row.get("width_mm"))
+            if host and width:
+                openings_in.setdefault(host, []).append(width)
+
+    # No exemptions. There are no lintel or spandrel elements: this flat has no
+    # structural lintels (owner, 2026-09-16 - an opening is just an opening, and
+    # everything in it is joinery), so a wall runs continuously over its openings
+    # and every IfcWall must be one that wall_blocks.csv records.
+    seen = {}
     for wall in model.by_type("IfcWall"):
         name = wall.Name or ""
-        if name.startswith(("Lintel over ", "Spandrel under ")):
-            reconstructed.append(name)
-            oid = name.split()[-1]
-            if oid not in want_open_ids():
-                problems.append("%s names opening %s, which wall_openings.csv does not carry"
-                                % (name, oid))
-            continue
         seen[name] = seen.get(name, 0) + 1
 
     for wid in recorded:
@@ -111,8 +127,6 @@ def check(ifc_path: Path) -> list[str]:
             problems.append("IFC carries wall %s, which wall_blocks.csv does not" % name)
 
     for wall in model.by_type("IfcWall"):
-        if (wall.Name or "").startswith(("Lintel over ", "Spandrel under ")):
-            continue
         want = recorded.get(wall.Name)
         if want is None:
             continue
@@ -125,6 +139,31 @@ def check(ifc_path: Path) -> list[str]:
         if abs(drawn - want) > THICKNESS_TOL_MM:
             problems.append("wall %s drawn %.1f mm thick, wall_blocks.csv records %.1f"
                             % (wall.Name, drawn, want))
+
+        # LENGTH, and it has to allow for one legitimate difference. Where the
+        # DXF draws a wall as stopping at a doorway, the model extends it across
+        # the opening and cuts a void, because there is no structural lintel in
+        # this flat - the block simply continues over the door. So a wall's
+        # drawn length is either its recorded solid_mm, or solid_mm plus the
+        # width of an opening recorded in it. Anything else is an extension
+        # nobody asked for, which is exactly what this check exists to catch.
+        # The expected length is the SANCTIONED drawn length where one exists.
+        # Eight walls differ from their solid_mm for reasons already recorded and
+        # validated in wall_extent_exceptions.csv - corner gain already covered,
+        # deliberate recorded moves, within build tolerance - and check_dxf_closure
+        # validates that ledger. Reusing it keeps this check strict: a length that
+        # matches neither the record, nor its sanctioned exception, nor an opening
+        # extension is a real divergence.
+        want_len = exceptions.get(wall.Name) or solid.get(wall.Name)
+        if want_len:
+            drawn_len = max(size[0], size[1]) * 1000.0
+            allowed = [want_len] + [want_len + w for w in openings_in.get(wall.Name, [])]
+            if not any(abs(drawn_len - a) <= LENGTH_TOL_MM for a in allowed):
+                problems.append(
+                    "wall %s drawn %.0f mm long; expected %.0f%s"
+                    % (wall.Name, drawn_len, want_len,
+                       (" or, with the openings in it, " +
+                        ", ".join("%.0f" % a for a in allowed[1:])) if len(allowed) > 1 else ""))
 
     # 3 - opening verticals against wall_openings.csv
     want_open = {}

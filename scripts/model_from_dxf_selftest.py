@@ -92,7 +92,28 @@ def seed_shaft_missing(model):
     return "%s removed" % name
 
 
+def seed_unsanctioned_extension(model):
+    """A wall stretched along its length by an amount no opening accounts for.
+
+    This is the failure mode the wall-extension feature could hide: walls are
+    deliberately extended across a doorway, so the length check has to allow ONE
+    kind of growth. Anything else must still be caught.
+    """
+    wall = next(w for w in model.by_type("IfcWall") if w.Name == "G5")
+    curve = wall.Representation.Representations[0].Items[0].SweptArea.OuterCurve
+    pts = [list(p.Coordinates) for p in curve.Points]
+    ys = sorted({p[1] for p in pts})
+    hi = ys[-1]
+    for p in curve.Points:
+        c = list(p.Coordinates)
+        if abs(c[1] - hi) < 1e-9:
+            c[1] = hi + 0.4          # 400 mm of length nobody sanctioned
+            p.Coordinates = tuple(c)
+    return "wall G5 lengthened by 400 mm with no opening to account for it"
+
+
 SEEDS = [
+    ("wall lengthened without sanction", seed_unsanctioned_extension),
     ("wall deleted", seed_delete_wall),
     ("wall duplicated", seed_duplicate_wall),
     ("wall thickness halved", seed_wrong_thickness),
