@@ -16,10 +16,14 @@
   .warn { color:#ffcf7a; }
   #readout { position:fixed; right:12px; top:12px; background:rgba(20,22,26,.86);
              padding:10px 13px; border-radius:7px; font-variant-numeric:tabular-nums; }
-  #start { position:fixed; inset:0; display:grid; place-items:center;
-           background:rgba(10,11,13,.82); cursor:pointer; }
-  #start div { text-align:center; }
-  #start b { font-size:17px; }
+  /* A hint, not a blackout. The first build dimmed the whole viewport 82%,
+     which made a correctly-rendering scene look dead - the exact complaint. */
+  #start { position:fixed; left:50%; bottom:34px; transform:translateX(-50%);
+           background:rgba(20,22,26,.92); border:1px solid #3a3f47;
+           padding:11px 18px; border-radius:9px; cursor:pointer;
+           text-align:center; pointer-events:none; }
+  #start.hidden { display:none; }
+  #start b { font-size:15px; }
 </style>
 </head>
 <body>
@@ -28,7 +32,7 @@
 <div id="hud">
   <h1>Walkable view</h1>
   <p><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move · mouse look · <kbd>Shift</kbd> slower<br>
-     <kbd>Q</kbd>/<kbd>E</kbd> down/up · <kbd>Esc</kbd> release cursor</p>
+     <kbd>Q</kbd>/<kbd>E</kbd> down/up · <kbd>Esc</kbd> release cursor<br>arrows work too · click-drag looks around without locking</p>
   <p class="warn">Judge space here, never dimensions. Eye height and stride are
      nominal; measure in the model.</p>
   <p id="meta">loading…</p>
@@ -36,7 +40,7 @@
 
 <div id="readout">eye <span id="eye">1.60</span> m · <span id="pos">0.00, 0.00</span> · clear <span id="spawn">–</span> m</div>
 
-<div id="start"><div><b>Click to walk</b><br>pointer lock, Esc to leave</div></div>
+<div id="start"><div><b>Click to walk</b><br>click for mouse-look, or click-drag to look · WASD always works</div></div>
 
 <script type="importmap">
 { "imports": {
@@ -61,7 +65,11 @@ const EYE = 1.60, SPEED = 2.6, SLOW = 0.9;
 const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('c'), antialias: true });
 renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x14161a);
+// A lit sky, not a dark page. Window and door openings are voids in the mesh -
+// against a dark background they read as black holes rather than as daylight,
+// which is the first thing anyone notices and mistakes for a modelling error.
+scene.background = new THREE.Color(0x9fb6cc);
+scene.fog = new THREE.Fog(0x9fb6cc, 14, 90);
 const camera = new THREE.PerspectiveCamera(72, 1, 0.02, 200);
 
 scene.add(new THREE.HemisphereLight(0xffffff, 0x555560, 3.0));
@@ -72,14 +80,54 @@ scene.add(sun);
 
 const controls = new PointerLockControls(camera, renderer.domElement);
 scene.add(controls.object);
+
+// TWO WAYS TO LOOK, because pointer lock is not always available - a browser can
+// refuse it, and an earlier build left the overlay hidden with no lock engaged,
+// which made the viewer look completely dead. Movement must never depend on it.
+//
+//   1. click the canvas  -> pointer lock, mouse look (preferred)
+//   2. click and DRAG    -> look, no lock needed (always works)
+//
+// WASD is live either way, whenever the page has focus.
 const startEl = document.getElementById('start');
-startEl.addEventListener('click', () => controls.lock());
-controls.addEventListener('lock',   () => startEl.style.display = 'none');
-controls.addEventListener('unlock', () => startEl.style.display = 'grid');
+const hideStart = () => startEl.classList.add('hidden');
+
+renderer.domElement.addEventListener('mousedown', () => {
+  hideStart();
+  if (!controls.isLocked) controls.lock?.();
+});
+controls.addEventListener?.('unlock', () => {});   // stay hidden; drag still works
+
+// Drag-to-look fallback. Yaw on the object, pitch on the camera, clamped so you
+// cannot roll past vertical.
+let dragging = false, lastX = 0, lastY = 0, yaw = 0, pitch = 0;
+const LOOK = 0.0028;
+renderer.domElement.addEventListener('mousedown', e => {
+  dragging = true; lastX = e.clientX; lastY = e.clientY;
+});
+addEventListener('mouseup', () => dragging = false);
+addEventListener('mousemove', e => {
+  if (!dragging || controls.isLocked) return;   // lock has its own handler
+  yaw   -= (e.clientX - lastX) * LOOK;
+  pitch -= (e.clientY - lastY) * LOOK;
+  pitch = Math.max(-Math.PI / 2 + 0.01, Math.min(Math.PI / 2 - 0.01, pitch));
+  lastX = e.clientX; lastY = e.clientY;
+  controls.object.rotation.set(0, 0, 0);
+  controls.object.rotateY(yaw);
+  controls.object.rotateX(pitch);
+});
 
 const keys = new Set();
-addEventListener('keydown', e => keys.add(e.code));
-addEventListener('keyup',   e => keys.delete(e.code));
+// Listen on the document and swallow the browser's own scrolling, or W/S/arrows
+// scroll the page instead of moving you.
+const MOVEMENT = new Set(['KeyW','KeyA','KeyS','KeyD','KeyQ','KeyE',
+                          'ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Space']);
+addEventListener('keydown', e => {
+  keys.add(e.code);
+  if (MOVEMENT.has(e.code)) { e.preventDefault(); hideStart(); }
+});
+addEventListener('keyup', e => keys.delete(e.code));
+addEventListener('blur', () => keys.clear());   // never stick a key down
 
 function resize() {
   const w = innerWidth, h = innerHeight;
@@ -145,21 +193,21 @@ const dir = new THREE.Vector3();
 
 renderer.setAnimationLoop(() => {
   const dt = Math.min(clock.getDelta(), 0.1);
-  if (controls.isLocked) {
-    const v = (keys.has('ShiftLeft') || keys.has('ShiftRight') ? SLOW : SPEED) * dt;
-    dir.set(0, 0, 0);
-    if (keys.has('KeyW')) dir.z += 1;
-    if (keys.has('KeyS')) dir.z -= 1;
-    if (keys.has('KeyD')) dir.x += 1;
-    if (keys.has('KeyA')) dir.x -= 1;
-    if (dir.lengthSq()) {
-      dir.normalize();
-      controls.moveForward(dir.z * v);
-      controls.moveRight(dir.x * v);
-    }
-    if (keys.has('KeyE')) controls.object.position.y += v;
-    if (keys.has('KeyQ')) controls.object.position.y -= v;
+  // NO isLocked GATE. Movement works whenever the page has focus, so the viewer
+  // cannot end up looking dead because a pointer lock did not engage.
+  const v = (keys.has('ShiftLeft') || keys.has('ShiftRight') ? SLOW : SPEED) * dt;
+  dir.set(0, 0, 0);
+  if (keys.has('KeyW') || keys.has('ArrowUp'))    dir.z += 1;
+  if (keys.has('KeyS') || keys.has('ArrowDown'))  dir.z -= 1;
+  if (keys.has('KeyD') || keys.has('ArrowRight')) dir.x += 1;
+  if (keys.has('KeyA') || keys.has('ArrowLeft'))  dir.x -= 1;
+  if (dir.lengthSq()) {
+    dir.normalize();
+    controls.moveForward(dir.z * v);
+    controls.moveRight(dir.x * v);
   }
+  if (keys.has('KeyE')) controls.object.position.y += v;
+  if (keys.has('KeyQ')) controls.object.position.y -= v;
   const p = controls.object.position;
   eyeEl.textContent = p.y.toFixed(2);
   posEl.textContent = `${p.x.toFixed(2)}, ${p.z.toFixed(2)}`;
