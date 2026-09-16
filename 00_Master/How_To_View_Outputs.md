@@ -86,8 +86,14 @@ toolslenderinlender-5.2.0-windows-x64lender.exe --background `
 .venv\Scripts\python.exe toolslender\serve_walk_viewer.py
 ```
 
-**W A S D** to move, mouse to look, **Q/E** down/up, **Shift** to creep, **Esc** to
-release the cursor. The HUD prints the model's extents and your eye height.
+**W A S D** or the **arrow keys** to move, **Q/E** down/up, **Shift** to creep. The
+HUD prints the model's extents and your eye height.
+
+**Two ways to look around, and movement never depends on either**: click the
+canvas for pointer-lock mouse-look, **or just click and drag**. ⚠️ **WASD works
+whenever the page has focus**, locked or not — an earlier build gated movement on
+pointer lock, and when the lock did not engage the viewer looked completely dead
+while rendering perfectly.
 
 > [!WARNING]
 > **⚠️⚠️ JUDGE SPACE HERE, NEVER DIMENSIONS.** Eye height and stride are nominal
