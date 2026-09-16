@@ -39,6 +39,40 @@ the result, iterate, "without you having to go in and double-check what it did."
 | **Observed** | An elevation → a `.dae` file in 5–10 min, imported by hand ([[_Sources/YT_sujS9Mgveo4_sketchupgurus_elevation_to_3d_fidelity_check\|sujS9Mgveo4]]) | Prompt → reasoning → FreeCAD Python API → **screenshot of the viewport returned** → analyse → next command, repeating ([[_Sources/YT_6trAkQY5_kc_makeform_claude_freecad_mcp\|6trAkQY5_kc]]) |
 
 - **The closed loop is what lets a model build something step by step** rather than in one shot, because it can react to what it actually produced.
+
+> [!IMPORTANT]
+> **⚠️⚠️ AND THERE IS A THIRD OPTION THE TABLE OMITS, WHICH A PRACTITIONER RUNNING
+> BOTH RECOMMENDS FOR THE BULK OF THE WORK: HEADLESS SCRIPTING.**
+>
+> He models in **Blender by writing scripts against its API headlessly** and drives
+> **Unreal by MCP**, and explains each choice. On the modelling: *"use the Blender
+> API headlessly to write the script to generate the file and then take screenshots
+> to confirm progress — **this is a far more token-efficient way of modelling
+> without connecting to an MCP server**."* **The agent "does not see the live model"
+> and instead renders screenshots back into the project folder to check itself.**
+> *"**Using pure code is far more efficient** to generate simpler models and
+> processes, **although using MCP has far more control for detailed models**."*
+>
+> On Unreal, where he does connect: *"the main difference … is that you have much
+> more **natural conversation** … **However, it does come at a great cost, which is
+> both time and token count.** I would still recommend using MCP mainly for the more
+> technical parts — graph setup, blueprint creation, complex asset placement —
+> **rather than trying to generate every single detail this way.**"*
+>
+> **→ ⚠️⚠️ SO MCP IS A CONTROL SURFACE, NOT A CAPABILITY GATE.** The geometry can be
+> produced either way. **What MCP buys is conversational granularity and live
+> control; what it costs is tokens and wall-clock time, by roughly an order of
+> magnitude (§ costs below).**
+>
+> **→ THE ALLOCATION RULE: SCRIPT the bulk generation; reserve MCP for interactive
+> setup that is awkward to express as a batch script.**
+>
+> **→ ⚠️⚠️ THIS PROJECT IS ALREADY ON THE SCRIPTED SIDE, and one step better.**
+> `tools/ifc/model_from_spec.py` is headless generation from a spec; the difference
+> is that **his verification is the agent looking at its own screenshots, and this
+> project's is deterministic gates that can fail a build.** **The feedback channel he
+> relies on is precisely the one this page flags as unreliable.** [source: [[_Sources/YT_SsBLhNgqTqQ_mcp_versus_headless_scripting_and_measured_accuracy|YT_SsBLhNgqTqQ]]]
+
 - **⚠️⚠️ But note what the feedback channel IS: a screenshot. The model checks its own work by looking at a picture of it** — which places the verification step squarely inside the precise-visual-interpretation weakness measured on [[18_Digital_Toolchain/analysis/AI_Reading_Construction_Drawings|AI Reading Construction Drawings]]. **The loop is closed; its feedback is the unreliable channel.**
 - A comparable path exists for Revit via the **pyRevit** plugin plus an MCP extension and a desktop-client connector entry, and Claude is reported connecting directly to **Rhino and Revit** to model from a single instruction. [sources: [[_Sources/YT_vmVvpKSSxWE_archivlogs_claude_revit_mcp|vmVvpKSSxWE]], [[_Sources/YT_la8Ml1fQfOg_urbandecoders_claude_for_architects|la8Ml1fQfOg]]]
 
@@ -104,6 +138,34 @@ The FreeCAD connector ships **two configurations**, and the choice generalises f
 > is a generic house, so the famous-building retrieval explanation does not apply.**
 > [source: [[_Sources/YT_pkFnSQ9Bapg_archivlogs_gpt6_revit_mcp_planning_reversal|YT_pkFnSQ9Bapg]]]
 
+> [!IMPORTANT]
+> **⚠️⚠️ AND THE FIRST MEASURED CHECK, from a different practitioner three days
+> later, turns that revision into something precise.** He set out to test accuracy
+> rather than capability — *"how usable are these AI features if they're still
+> producing inconsistent and inaccurate results?"* — supplied **two floor plans,
+> dimensions, areas and style references**, modelled in **Rhino**, and then measured
+> the output against the input.
+>
+> | Checked | Result |
+> | :--- | :--- |
+> | **Overall dimensions** (input 46 × 42 ft) | **CORRECT** — *"the dimensions are accurate. I'm honestly surprised."* |
+> | **Room locations against the plan** | **CORRECT** |
+> | **Materials against the style reference** | Largely correct |
+> | **⚠️⚠️ Detail, on closer inspection** | **WRONG** — *"the more I look at it, the more detail I get into it, it just kind of messed things up"* |
+>
+> **→ ⚠️⚠️ THE FAILURE IS DEPTH-DEPENDENT, NOT RANDOM: overall dimensions and room
+> topology survive; detail degrades the closer you look.** **That is a much more
+> useful statement than "it can/cannot plan", and it yields his own rule — use it
+> for ELEMENTS rather than whole buildings: site context, a few window variants, a
+> roof or rainscreen study.**
+>
+> **⚠️ Both this source and the scripting one agree the INPUT decides the outcome:
+> *"if you do provide scaled plans, sections and elevations, it can use those to
+> build much more accurately."* → The same conclusion this project reached when it
+> chose to model from printed dimension strings over a registered raster.**
+> [source: [[_Sources/YT_SsBLhNgqTqQ_mcp_versus_headless_scripting_and_measured_accuracy|YT_SsBLhNgqTqQ]]]
+
+
 > **→ An agent-connected CAD is a MODELLING ACCELERATOR from a plan that already exists, not a space planner.** Every success was transcribing something specified; every failure was inferring something that was not.
 
 - **⚠️ This corroborates, from an entirely different tool, the rule already on [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]] §7: an agent generating building geometry silently supplies the values you did not specify.** There it invented 5-inch walls, a 9-ft ceiling and a standard door. Here it invented a door position and omitted a wall — **and nothing flagged either.** The mitigation is unchanged: **require an agent to enumerate every value it supplied that the prompt did not, and treat each as a defect to resolve from evidence.**
@@ -129,6 +191,53 @@ The FreeCAD connector ships **two configurations**, and the choice generalises f
 
 - **⚠️⚠️ And he names the exact defect `tools/layout/check_wall_junctions.py` exists to reject**: *"these walls are all kind of separate and they don't really like merge together on the corners."* **The same family appears again in a furniture test** — arms built as cylinders *"still kind of intersecting with the model."* **Non-merged, interpenetrating solids are the characteristic failure of generated geometry across every tool in this round.**
 - **The transcription-succeeds / spatial-logic-fails split holds for a third time**: given a floor-plan image, window widths came out **4 ft** and **4 ft** and the overall space **12 × 12 ft** — *"generally right"* — while *"it definitely did not match the orientation of the bed"* and it *"did a terrible job of orientation on the furniture."*
+
+
+**⚠️⚠️ A STAGE-GATE METHOD, from the most honest source in the 2026-09-16 batch — a
+3ds Max practitioner who deliberately published his failures** (*"I have
+intentionally kept the unsuccessful moments… short social media demonstrations
+usually show only the final few seconds"*), **and who notes mistakes can begin "as
+early as the scaling or wall construction stage":**
+
+> *"**One project, one chat, one completed stage, one instruction or skill.** First
+> define the task and review the result. Then check it. **Submit a consolidated
+> correction list.** Approve the stage and only then continue."*
+
+**His conclusion on what the tool is:** *"A powerful automation tool, **but not an
+autonomous 3D visualizer.** It performs specific tasks well when it receives
+accurate source data, a clear algorithm, and defined review criteria. **If you give
+it an entire project in one enormous prompt, the result becomes unpredictable**,
+while the time and token costs rise very quickly."*
+
+> **⚠️⚠️ AND AN ANTI-OVER-ENGINEERING RULE WORTH KEEPING VERBATIM, because it cuts
+> against the direction everything else in this space pushes:**
+>
+> > *"**Do not build a complex system of agents simply because it sounds
+> > technologically impressive. If you can check something with your own eyes in
+> > two minutes, there is no reason to spend resources on a separate agent.**
+> > Automation should simplify your work, not make you watch artificial
+> > intelligence argue with itself for hours."*
+>
+> **→ That is the right test for this repository's own apparatus, and it is the
+> complement of [[00_Master/Validator_Design_Discipline|Validator Design
+> Discipline]]'s rule that a gate nobody has watched fail is not a gate: a gate
+> earns its place by catching what a person would miss or would not repeat.** **A
+> two-minute eyeball check does not need one.**
+>
+> ⚠️ **He also reframes the operator rather than removing them:** *"you become the
+> operator and art director… accuracy, taste, composition and the final artistic
+> decision still remain the responsibility of the human."* **Greatest value, in his
+> words: repetitive operations, batch corrections, and complex custom modelling.**
+> [source: [[_Sources/YT_SsBLhNgqTqQ_mcp_versus_headless_scripting_and_measured_accuracy|YT_SsBLhNgqTqQ]]]
+
+**⚠️ COSTS, in usage rather than currency — the only such figures this vault holds,
+all self-reported and unaudited:** a villa in Blender from one sketch and a room
+schedule, **under 15 minutes** and roughly **a tenth of a weekly allowance** at low
+reasoning; the same model taken into **Unreal via MCP, ~2 hours over two sessions**;
+a third party's game assets via Blender MCP, **~8 hours, weekly allowance falling
+from 83 to 44 per cent**. **→ The RATIO is the durable part: headless generation is
+cheap; MCP-driven interactive work is roughly an order of magnitude dearer in both
+time and tokens.** [source: [[_Sources/YT_SsBLhNgqTqQ_mcp_versus_headless_scripting_and_measured_accuracy|YT_SsBLhNgqTqQ]]]
 
 ## 5. Operating an agent-driven CAD — three practical rules
 

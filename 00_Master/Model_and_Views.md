@@ -48,6 +48,55 @@ contractor did. With one model:
 - quantities are computed from the same solids you are looking at, so a
   take-off cannot quietly describe a different flat.
 
+## ⚠️⚠️ Adding a WALKABLE view — what the route costs (researched 2026-09-16)
+
+**A walkthrough is a VIEW, so it fits this architecture as another arrow off the
+IFC. The question is only which tool and what it costs.** Evidence from four
+practitioners who have done it: [source: [[_Sources/YT_HV-fbzv4VAU_bim_to_walkable_viewer_path|YT_HV-fbzv4VAU]]]
+
+- **⚠️ THE EXPORT PATH IS SHORT AND CONFIRMED.** Bonsai/Blender → **GLB, glTF or
+  FBX** → Twinmotion or a web viewer, all three arriving equivalently. **GLB is the
+  usual choice because textures travel inside one file.** ⚠️ **Export VISIBLE or
+  SELECTED, never "all"**, and **keep the hierarchy on import** — collapse it and
+  the whole model becomes one object. Up axis Z, forward X.
+- **⚠️⚠️ THE COST NOBODY STATES UP FRONT: APPEARANCE DOES NOT TRANSFER.** A BIM model
+  arrives with no usable materials and **no UV mapping**, so every surface is
+  re-dressed by hand in the destination tool (cubic projection works for
+  architecture, since the geometry is orthogonal). **Low-poly BIM placeholder
+  furniture and planting are deleted and replaced from the target's library.**
+  > **→ ⚠️⚠️ THAT LANDS ON THE WRONG SIDE OF THIS PAGE'S OWN RULE. Materials
+  > re-authored in a visualiser are NOT derived from the model — they are a second
+  > source of truth, and they will drift exactly as this page warns.**
+  >
+  > **→ SO SCOPE THE WALKABLE VIEW TO WHAT IT IS FOR. To JUDGE SPACE — does the
+  > passage past a lowered wall bed work, is the clearance tolerable — untextured
+  > grey geometry answers the question completely, and the material work is
+  > unnecessary.** **To SHOW someone a finished-looking room, the appearance work is
+  > the majority of the effort and duplicates decisions already recorded in text.**
+- **⚠️ A BROWSER/WEB walkable view is independently named as a real intermediate**,
+  not a compromise — one practitioner lists interactive web apps with controls and
+  filters as an output alongside Unreal, and a third party shipped Blender assets
+  into a three.js site.
+- **⚠️⚠️ UNREAL: the only end-to-end demonstration available DEMONSTRATES THE
+  WORKFLOW AND NOT THE FIDELITY.** Its makers raised the accuracy question
+  themselves — *"is it accurate? do the dimensions read correctly? … can I actually
+  use it to build a virtual walkthrough?"* — conceded *"is it perfect? absolutely
+  not"*, and ended the segment mid-experiment. **Dimensional accuracy is the one
+  property this project would depend on, and it is unevidenced there.** ⚠️ A
+  separate practitioner reports **~2 hours over two sessions** for first- and
+  third-person walkthrough blueprints, using MCP for the blueprint work specifically.
+- **⚠️ Twinmotion, in practice, is an IMAGE tool.** The dedicated Twinmotion source in
+  this batch is entirely foliage, lighting, cameras, AI upscalers and Photoshop
+  post-production — **nothing about circulation or dimensional judgement.** **It
+  belongs on the "show someone" branch, not the "decide something" branch.**
+
+> **→ ⚠️⚠️ CONCLUSION AS RESEARCHED, not as a decision: a glb walkable view is the
+> cheap rung and it is sufficient for the spatial questions currently open on this
+> project.** **Twinmotion buys appearance, at the price of a second source of truth
+> for materials. Unreal buys interactivity and VR, and nobody in this batch has
+> shown it dimensionally faithful.** **The decision is the owner's; this records what
+> each rung costs.**
+
 ## What legitimately lives outside the model
 
 Not everything belongs in the model, and forcing it there is the opposite

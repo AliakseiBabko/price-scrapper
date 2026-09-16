@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=SsBLhNgqTqQ",
+  "video_id": "SsBLhNgqTqQ",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T08:14:23.552407+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "42fbb96bddb3c277dfbb379eb9fa2ee756ba6d0baa5a8801903b31352fbf32b9",
+  "attempts_before_success": [],
+  "upload_date": "2026-09-13",
+  "upload_date_source": "yt-dlp"
+}

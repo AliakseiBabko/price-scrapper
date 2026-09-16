@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=dnqlClsPD4g",
+  "video_id": "dnqlClsPD4g",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T08:13:38.586189+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "11032071324b36d088db506a3bdb3d9025b2124e50239f2e3fee31116de80334",
+  "attempts_before_success": [],
+  "upload_date": "2026-09-09",
+  "upload_date_source": "yt-dlp"
+}
