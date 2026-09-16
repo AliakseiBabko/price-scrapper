@@ -49,7 +49,11 @@ LEDGER = os.path.join(MIGRATION, "services_migration_ledger.csv")
 DRAFTS = os.path.join(MIGRATION, "draft")
 
 ADJUDICATIONS = {"accepted", "duplicate", "contradicted", "retracted",
-                 "out_of_scope", "unresolved"}
+                 "out_of_scope", "decomposed", "unresolved"}
+# `decomposed` is NOT a substantive judgement. It says: this source carries
+# several independently adjudicable claims and is judged through them.
+SUBSTANTIVE = ADJUDICATIONS - {"decomposed", "unresolved"}
+CLAIMS = os.path.join(MIGRATION, "services_claim_inventory.csv")
 # In scope means "must be carried forward in some form". A contradicted or
 # retracted claim still has to survive as history.
 IN_SCOPE = {"accepted", "duplicate", "contradicted", "retracted"}
@@ -59,6 +63,114 @@ IN_SCOPE = {"accepted", "duplicate", "contradicted", "retracted"}
 # own component occurrences.
 CONCEPTS = {"occurrence", "assembly", "observation", "assertion", "value",
             "approval", "connectivity", "route", "relation"}
+
+
+LOCK = os.path.join(MIGRATION, "services_claim_inventory.lock.json")
+
+
+def load_lock(path=LOCK):
+    if not os.path.exists(path):
+        return {}
+    import json
+    with io.open(path, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def write_lock(claim_rows, path=LOCK):
+    """Freeze the claim set of every parent declared complete."""
+    import json
+    lock = {}
+    for claim in claim_rows:
+        if (claim.get("claim_inventory_complete") or "").strip().lower() != "yes":
+            continue
+        lock.setdefault(claim.get("parent_locator"), []).append(
+            claim.get("claim_locator"))
+    with io.open(path, "w", encoding="utf-8") as fh:
+        fh.write(json.dumps({k: sorted(v) for k, v in lock.items()},
+                            ensure_ascii=False, indent=2) + chr(10))
+    return lock
+
+
+def load_claims(path=CLAIMS):
+    if not os.path.exists(path):
+        return []
+    with io.open(path, encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
+
+
+def check_claims(ledger_rows, claim_rows):
+    """The claim-inventory invariants.
+
+    ⚠️ ONE SOURCE BLOCK -> SEVERAL ATOMIC CLAIMS -> ONE ADJUDICATION PER CLAIM.
+    This is ordinary source normalisation, not an exception to one-locator-one-
+    adjudication. `legacy_comment:6` holds a RETRACTED horizontal DN110 main, an
+    ACCEPTED two-vertical-stacks correction and an ACCEPTED "there is no
+    horizontal main" - three claims, independently judged, which is why an
+    automatic 6a/6b split would not have been enough either.
+
+    The extractor never authors these: it emits the untouched parent block, and
+    a reviewer writes the child claims beneath it.
+    """
+    problems = []
+    by_locator = {r.get("locator"): r for r in ledger_rows}
+    children = {}
+    slugs = set()
+
+    for claim in claim_rows:
+        locator = (claim.get("claim_locator") or "").strip()
+        parent = (claim.get("parent_locator") or "").strip()
+        text = claim.get("claim_text") or ""
+        if not locator or "#" not in locator:
+            problems.append("claim %r has no `parent#slug` locator" % locator)
+            continue
+        if locator in slugs:
+            problems.append("claim locator %s appears twice" % locator)
+        slugs.add(locator)
+        if not locator.startswith(parent + "#"):
+            problems.append("claim %s does not sit under its parent %s"
+                            % (locator, parent))
+        parent_row = by_locator.get(parent)
+        if parent_row is None:
+            problems.append("claim %s names parent %s, which the ledger does not "
+                            "carry" % (locator, parent))
+            continue
+        children.setdefault(parent, []).append(claim)
+
+        # ⚠️ The claim text must still be IN its parent. If the parent block is
+        # edited and a claim no longer matches, that is a loud failure, not a
+        # silent drift - the claim would otherwise keep an adjudication for
+        # words nobody wrote.
+        if text not in (parent_row.get("raw") or ""):
+            problems.append(
+                "claim %s quotes text that is NOT in its parent block any more - "
+                "the source changed and the claim no longer matches: %r"
+                % (locator, text[:60]))
+
+        adjudication = (claim.get("adjudication") or "").strip()
+        if adjudication not in ADJUDICATIONS or adjudication == "decomposed":
+            problems.append("claim %s has adjudication %r; a claim is atomic and "
+                            "may not itself be decomposed" % (locator, adjudication))
+        elif adjudication == "unresolved":
+            problems.append("claim %s is still unresolved" % locator)
+
+    # A decomposed parent may not carry a substantive judgement of its own, and a
+    # parent with claims must be declared decomposed.
+    for parent, kids in children.items():
+        parent_adjudication = (by_locator[parent].get("adjudication") or "").strip()
+        if parent_adjudication in SUBSTANTIVE:
+            problems.append(
+                "parent %s is decomposed into %d claim(s) but also carries a "
+                "substantive adjudication %r - it must be judged through its "
+                "claims, not alongside them"
+                % (parent, len(kids), parent_adjudication))
+        elif parent_adjudication != "decomposed":
+            problems.append("parent %s has claims but is not marked `decomposed`"
+                            % parent)
+    for locator, row in by_locator.items():
+        if (row.get("adjudication") or "").strip() == "decomposed" and not children.get(locator):
+            problems.append("%s is marked `decomposed` but has no claims" % locator)
+
+    return problems, children
 
 
 def load_ledger(path=LEDGER):
@@ -85,9 +197,30 @@ def load_drafts(directory=DRAFTS):
     return out
 
 
-def check(ledger_rows, target_records=None, require_complete=False):
+def check(ledger_rows, target_records=None, require_complete=False,
+          claim_rows=None, lock=None):
     problems = []
     target_records = target_records or []
+    claim_rows = claim_rows or []
+
+    claim_problems, children = check_claims(ledger_rows, claim_rows)
+    problems.extend(claim_problems)
+
+    # ⚠️ A COMPLETED INVENTORY MAY NOT LOSE A CLAIM. Once a parent is declared
+    # `claim_inventory_complete`, its set of claims is fixed: deleting one later
+    # would drop an adjudicated fact with no trace, which is precisely the silent
+    # loss this whole apparatus exists to prevent. Withdraw a claim by adjudicating
+    # it `retracted`, never by removing the row.
+    if lock:
+        present = {c.get("claim_locator") for c in claim_rows}
+        for parent, locked in lock.items():
+            missing = [c for c in locked if c not in present]
+            if missing:
+                problems.append(
+                    "%s was declared claim_inventory_complete but %d claim(s) have "
+                    "since been REMOVED: %s - withdraw a claim by adjudicating it "
+                    "`retracted`, not by deleting it"
+                    % (parent, len(missing), ", ".join(sorted(missing))))
 
     seen = {}
     for row in ledger_rows:
@@ -106,6 +239,16 @@ def check(ledger_rows, target_records=None, require_complete=False):
               and not (row.get("adjudication_note") or "").strip()):
             problems.append("locator %s is `contradicted` but does not name what "
                             "overrides it" % locator)
+
+    # ⚠️ REGISTER CLAIM LOCATORS BEFORE CITATIONS ARE CHECKED. Target records
+    # cite CHILD claims where a parent is decomposed, never the compound parent -
+    # so a claim locator is a citable locator. Registering them after the
+    # citation loop rejected every legitimate citation as "the ledger does not
+    # carry it", which is how the self-test found this ordering bug.
+    for claim in claim_rows:
+        locator = (claim.get("claim_locator") or "").strip()
+        if locator:
+            seen.setdefault(locator, claim)
 
     unresolved = [k for k, v in seen.items()
                   if (v.get("adjudication") or "").strip() == "unresolved"]
@@ -141,7 +284,7 @@ def check(ledger_rows, target_records=None, require_complete=False):
             else:
                 cited.setdefault(cite, []).append(record)
 
-    # 4 - ⚠️ THE DIRECTION THE OLD GATE WAS MISSING
+    # 4 - ⚠️ THE DIRECTION THE OLD GATE WAS MISSING.
     if require_complete:
         orphaned = [k for k, v in seen.items()
                     if (v.get("adjudication") or "").strip() in IN_SCOPE
@@ -183,6 +326,7 @@ def check(ledger_rows, target_records=None, require_complete=False):
                 "%d" % (locator, stated, len(occurrences)))
 
     summary = {
+        "claims": len(claim_rows),
         "locators": len(seen),
         "unresolved": len(unresolved),
         "in_scope": sum(1 for v in seen.values()
@@ -201,6 +345,8 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--ledger", default=LEDGER)
     ap.add_argument("--drafts", default=DRAFTS)
+    ap.add_argument("--lock", action="store_true",
+                    help="freeze the claim set of every parent declared complete")
     ap.add_argument("--require-complete", action="store_true",
                     help="fail unless every locator is adjudicated AND carried forward")
     a = ap.parse_args()
@@ -212,12 +358,18 @@ def main() -> int:
         return 2
 
     targets = load_drafts(a.drafts)
-    problems, summary = check(rows, targets, require_complete=a.require_complete)
-    print("locators %d | unresolved %d | in scope %d | cited %d | targets %d "
-          "| exact_n %d | range %d"
-          % (summary["locators"], summary["unresolved"], summary["in_scope"],
-             summary["cited"], summary["targets"], summary["exact_n"],
-             summary["range"]))
+    claims = load_claims()
+    if a.lock:
+        frozen = write_lock(claims)
+        print("locked %d parent(s): %s" % (len(frozen), ", ".join(sorted(frozen))))
+    lock = load_lock()
+    problems, summary = check(rows, targets, require_complete=a.require_complete,
+                              claim_rows=claims, lock=lock)
+    print("locators %d | claims %d | unresolved %d | in scope %d | cited %d "
+          "| targets %d | exact_n %d | range %d"
+          % (summary["locators"], summary["claims"], summary["unresolved"],
+             summary["in_scope"], summary["cited"], summary["targets"],
+             summary["exact_n"], summary["range"]))
     for problem in problems:
         print("  " + problem)
     print("PASS" if not problems else "FAIL")

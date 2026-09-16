@@ -46,6 +46,12 @@ approvals derived from the same source must not affect it.
 
 ADJUDICATION - a judgement about the SOURCE, and nothing else
   accepted      a real service fact, in scope, to be carried forward
+  decomposed    this source carries SEVERAL independently adjudicable claims and
+                is not adjudicated directly. Its atomic claims are, in the claim
+                inventory. ⚠️ A compound block is not simply "old" and "new":
+                legacy_comment:6 holds a retracted horizontal DN110 main, an
+                accepted two-vertical-stacks reading AND an accepted "there is
+                no horizontal main" - three claims, independently judged.
   duplicate     the same fact already carried by another locator
   contradicted  a later source overrides it; the override must be named
   retracted     withdrawn, by the owner or by evidence
@@ -291,7 +297,11 @@ def _rows_from_comment_blocks():
         out.append({
             "locator": "legacy_comment:%d" % ordinal,
             "source_kind": "comment_block",
-            "raw": text[:900],
+            # NOT truncated. A comment block is EVIDENCE, and a reviewer-authored
+            # claim must be an exact substring of it - truncation would make a
+            # real claim unverifiable against its own parent. Block 6 was cut at
+            # 900 characters, mid-word.
+            "raw": text,
             "carries": "prose; may be a decision, an observation, a retraction, "
                        "or not a service fact at all",
             "multiplicity": "", "count_min": "", "count_max": "",
