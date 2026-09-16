@@ -112,7 +112,43 @@ def seed_unsanctioned_extension(model):
     return "wall G5 lengthened by 400 mm with no opening to account for it"
 
 
+def _translate_wall(model, wall_id, dx=0.0, dy=0.0):
+    wall = next(w for w in model.by_type("IfcWall") if w.Name == wall_id)
+    curve = wall.Representation.Representations[0].Items[0].SweptArea.OuterCurve
+    for p in curve.Points:
+        c = list(p.Coordinates)
+        c[0] += dx
+        c[1] += dy
+        p.Coordinates = tuple(c)
+
+
+def seed_wall_shifted_sideways(model):
+    """A rigid sideways shift - every dimension unchanged.
+
+    ⚠️ This seed exists because the gate demonstrably did NOT catch it. Before
+    the placement check, translating G5 500 mm in x passed with 0 problems:
+    identity, length, thickness, opening verticals and shaft count are all
+    invariant under a rigid shift, so a wall in the wrong place looked exactly
+    like a wall in the right one.
+    """
+    _translate_wall(model, "G5", dx=0.5)
+    return "wall G5 translated 500 mm sideways, dimensions unchanged"
+
+
+def seed_wall_slid_along_axis(model):
+    """A slide ALONG the wall's own axis - the harder half of the same defect.
+
+    The long axis legitimately grows outward where a wall is extended across a
+    doorway, so the check has to allow that and still refuse a slide. G7 runs
+    north-south and carries no opening, so any movement of its ends is wrong.
+    """
+    _translate_wall(model, "G7", dy=0.3)
+    return "wall G7 slid 300 mm along its own axis"
+
+
 SEEDS = [
+    ("wall shifted sideways", seed_wall_shifted_sideways),
+    ("wall slid along its axis", seed_wall_slid_along_axis),
     ("wall lengthened without sanction", seed_unsanctioned_extension),
     ("wall deleted", seed_delete_wall),
     ("wall duplicated", seed_duplicate_wall),
