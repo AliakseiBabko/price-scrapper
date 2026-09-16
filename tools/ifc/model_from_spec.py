@@ -141,7 +141,12 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
                          RelatingBuildingElement=host, RelatedOpeningElement=item)
         add_pset(model, item, "Pset_ApartmentPhase", {"Phase": o.get("phase", "existing"),
                                                       "Kind": o["kind"]})
-        created.setdefault(o["kind"], []).append(item)
+        # Carry the sill with the opening. A fill sits IN its opening, so its z
+        # is not independent data - and `fills` entries carry no bottom_m at
+        # all, which is why every window pane was generated on the floor at
+        # z 0.00-1.10 while its void was correctly at 1.00-2.10. Deriving it
+        # here keeps the two from ever disagreeing again.
+        created.setdefault(o["kind"], []).append((item, o["bottom_m"]))
         opening_meta.append({"host_wall": o["host_wall"],
                              "bbox": (o["x_m"], o["y_m"] - 0.02, o["x_m"] + o["width_m"],
                                       o["y_m"] + depth)
@@ -153,10 +158,12 @@ def build(spec: dict, output: Path, manifest_path: Path) -> dict:
         kind = "door" if f["ifc_class"] == "IfcDoor" else "window"
         if not created[kind]:
             raise SystemExit("fill %r has no matching opening left" % f["name"])
+        opening, sill_m = created[kind].pop(0)
         item = add_box(model, body, storey, owner, f["ifc_class"], f["name"], f["x_m"], f["y_m"],
-                       f["width_m"], f["depth_m"], f["height_m"], rotation=f["rotation_deg"])
+                       f["width_m"], f["depth_m"], f["height_m"], rotation=f["rotation_deg"],
+                       z=sill_m)
         add_relationship(model, "IfcRelFillsElement", owner,
-                         RelatingOpeningElement=created[kind].pop(0), RelatedBuildingElement=item)
+                         RelatingOpeningElement=opening, RelatedBuildingElement=item)
         add_pset(model, item, "Pset_ApartmentPhase", {"Phase": f.get("phase", "existing"),
                                                       "Mark": f.get("mark", "")})
 
