@@ -242,6 +242,20 @@ The case study built one and framed it as the children's own wish. The vault's R
 
 **And the shared configuration has a known end date:** the children split into two rooms at Phase 2, ~3–4 years out. **So a bunk bed is a temporary fitting with a foreseen obsolescence** — which is the vault's own standing test for children's joinery. ⚠️ Note the corollary the owner already flagged: shared storage should be sized so it still works as one child's storage afterwards.
 
+> **✅ ANSWERED 2026-09-16 — NO BUNK BEDS.** The owner: *"My wife doesn't like bunk
+> beds, so it looks like this is not an option for our kids' room."* **A household
+> preference, and the thing this question was always waiting on.**
+>
+> **⚠️ It agrees with the analysis above rather than overriding it**, which is why
+> it closes cleanly: the area argument, the foreseen-obsolescence argument and two
+> makers' arguments all pointed the same way. **No trade-off is being made.**
+>
+> **→ AND IT UNBLOCKS A FIRST-FIX ITEM — see §7 below, which states that the
+> per-child night-light SWITCH HEIGHTS depend on this decision and must be settled
+> before the electrics are chased in.** **With two beds at floor level, both
+> switches go at the same low height instead of one at bunk-top height.** **That is
+> now specifiable.**
+
 ### The themed mural
 
 Built in the case study. The vault holds that a themed children's scheme has roughly a **one-year** useful life. With a 3-year-old and a 6-year-old, and the room becoming the girl's own room in 3–4 years, **the lifespan finding and the phasing point the same way**: keep the theme in things that are cheap to replace, not in a wall finish that is part of the build.
@@ -250,7 +264,9 @@ Built in the case study. The vault holds that a themed children's scheme has rou
 
 The Murphy-bed infrastructure is already on this list by the owner's decision. The case study adds two more of the same class, and they share a property: **they are cheap now and expensive or impossible later.**
 
-- **Per-child, locally-switched night lights at two bed heights.** In the case study each boy got his own, switched from his own bed. **The switch heights depend on the bed decision above**, so the bunk-versus-separate choice has to be made before the electrics are chased in — not before the furniture is bought.
+- **Per-child, locally-switched night lights at two bed heights.** In the case study each boy got his own, switched from his own bed. **The switch heights depend on the bed decision above**, so the bunk-versus-separate choice has to be made before the electrics are chased in — not before the furniture is bought. **✅ THAT DECISION IS NOW MADE (no bunks, 2026-09-16), so both switches are at
+  the SAME low, floor-level bed height.** ⚠️ **Still to fix before first fix: the
+  two bed POSITIONS, since the switches follow the bed heads.**
 - **A cable hatch let into the desktop, with brushes.** Trivial as a joinery instruction, impossible to add cleanly to a finished desk.
 - ⚠️ **And one negative lesson worth designing to:** in the case study a socket back-box was set slightly off-line and is **permanent** — nobody looked in time. This flat's first fix is the stage where that class of error becomes irreversible.
 

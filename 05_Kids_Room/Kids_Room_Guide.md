@@ -151,3 +151,63 @@ reasons differ, which is what makes the pair useful:**
 
 ⚠️ **Both sources are makers who sell wall beds and not bunks. Weighted
 accordingly, and nothing here is a recommendation.**
+
+> **✅ DECIDED 2026-09-16 — NO BUNK BEDS IN THIS ROOM.** The owner: *"My wife
+> doesn't like bunk beds, so it looks like this is not an option for our kids'
+> room."*
+>
+> **⚠️⚠️ RECORDED AS A PREFERENCE, NOT AS A CONCLUSION DRAWN FROM THE ABOVE — the
+> distinction matters for anyone reading this later.** The makers quoted above
+> sell wall beds and not bunks, so they are not neutral, and this decision does
+> not rest on them. **What is worth noting is that the preference and the evidence
+> agree**: the vault's clinical source argues against bunks wherever area permits
+> two separate beds, and 15.28 m² does. **So no trade-off is being made, and the
+> makers' arguments are now redundant rather than load-bearing.**
+
+### ⚠️⚠️ What the decision leaves OPEN — and it is the next question for this room
+
+**Ruling out bunks does not settle what the two children sleep on.** Two options
+remain, and the vault now holds enough to state the trade rather than resolve it:
+
+| | **Two static beds** | **Two wall beds (90 cm)** |
+| :--- | :--- | :--- |
+| Floor by day | Permanently occupied | **Recovered** — the room's whole point |
+| Daily demand | **None** | **Folded twice a day**, by a 3- and a 6-year-old |
+| Phase 2 (~2029–30) | Moves with the child to the other room | ⚠️ **Fixed joinery; one child leaves and it stays** |
+| First-fix commitment | None | **Wall material, anchors and wiring, now** |
+
+> **⚠️⚠️ THE AGE IS THE CRUX.** The vault's own evidence is that a **90 cm wall bed
+> is light enough for a 7-year-old to work unaided** — an owner reports exactly
+> that. **Nobody in this vault reports a 3-year-old operating one**, and the
+> project's younger child is 3. **So a wall bed here is a bed an adult folds for
+> the smaller child, twice a day, for several years.**
+>
+> **→ And the area argument cuts against the wall bed too**: 15.28 m² *comfortably
+> permits two separate beds*, which is precisely the condition under which the
+> clinical source says the space-saving device is not needed. **The recovered
+> floor is worth less in the room that has the most of it.**
+>
+> **⚠️⚠️ AND THE COST OF RULING OUT BUNKS LANDS HERE, which sharpens the trade.**
+> A designer in this store states it plainly:
+> **[[05_Kids_Room/analysis/Age_Staged_Planning|two children without bunk beds
+> reduces the room to a bedroom with a workspace, and nothing else will fit]]**.
+> **With two STATIC beds plus desks, this room has no play zone and no guest zone
+> beyond bare floor — for two children aged 3 and 6, in the years when floor IS
+> the play.** **That is the strongest argument for the wall beds, and it is a real
+> one.**
+>
+> **→ SO THE TRADE IS GENUINELY BALANCED, and it comes down to one question the
+> vault cannot answer: can an adult accept folding the 3-year-old's bed twice a
+> day for roughly three years, in exchange for a play floor that exists every day
+> until bedtime?** **If yes, wall beds. If no, static beds.**
+>
+> ⚠️ **CORRECTION, same day: an earlier draft of this section recommended static
+> beds outright. That was written before the "nothing else will fit" finding was
+> re-read, and it understated what static beds cost in this specific room.** **No
+> recommendation is made now — the decision is the owner's, and both options are
+> defensible.**
+>
+> ⚠️ **Either way it must be settled BEFORE the electrics are chased**: the
+> per-child night-light switch heights follow the bed heads, and a wall bed adds
+> wall-material, anchor and wiring commitments at first fix that a static bed does
+> not.
