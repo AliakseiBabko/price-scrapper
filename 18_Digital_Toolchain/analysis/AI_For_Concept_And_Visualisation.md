@@ -77,6 +77,41 @@ The fullest description comes from a Russian training-centre masterclass. **It i
 - **Video must start from a frame, never a prompt alone**; **start-image plus end-image** constrains a transition and leaves *"less margin for hallucinations."*
 - **⚠️ He applies the slop test to his own sponsored output** — empty-lot-to-building and empty-room-to-furnished transitions: *"is this really necessary to the story? What's the purpose of this?"* **An independent, different-domain instance of the mountain-of-slop failure mode.** [source: [[_Sources/YT_gq1LIFNxjeI_upstairs_archviz_ai_workflow|YT_gq1LIFNxjeI]]]
 
+
+### ⚠️⚠️ Two failure modes, and only one of them got fixed (added 2026-09-16)
+
+**A practitioner testing a new image-model release separates two things this page
+had treated as one, and the separation is the value:**
+
+| Failure mode | What it breaks | Status |
+| :--- | :--- | :--- |
+| **Edit LOCALITY** — an edit changing unrelated parts of the scene; the camera drifting between turns | Whether **one** edit is usable | **⚠️⚠️ Materially improved** — *"maintaining the camera location and not changing any other elements in the scene is very, very good"* |
+| **⚠️⚠️ ITERATION NOISE** — texture noise accumulating across successive edits | Whether a **sequence** of edits is usable | **Not fixed** — *"the noise issue is still a big problem for me"* |
+
+**And he names why the second is the binding one, in exactly the workflow this
+project would use:** *"What if we looked at a wall tile? What if we had a different
+carpet? What if we had a different piece of furniture? When you're getting that
+noise creeping in over and over again… I need it to stay consistent in a way where
+I'm not losing the visual fidelity of the elements."*
+
+> **→ ⚠️⚠️ OPTION EXPLORATION IS INHERENTLY A SEQUENCE, so iteration noise — not edit
+> locality — is what limits it.**
+>
+> **→ THE PRACTICAL RULE: generate each option from the SAME base image in a fresh
+> turn, rather than chaining edits one on top of another.** **Chaining accumulates
+> noise; branching from a fixed base does not.** ⚠️ **Inference from his account
+> rather than his stated advice — flagged as such — but it follows from the failure
+> he describes and costs nothing to adopt.**
+>
+> **→ And it supplies the real reason for §5's non-destructive rule: keeping the
+> AUTHORED artefact as the base is not tidiness, it is that the base does not
+> degrade and every option stays one generation away from it.**
+
+⚠️ **He explicitly declines to verify the vendor's "better from reference photos"
+and "more natural lighting" claims — *"that's very difficult for me to test"* — and
+reports his own final take FAILING, in a review he is broadly positive about.**
+[source: [[_Sources/YT_bgQz8G1FsX8_aiessentials_image_model_iteration_noise|YT_bgQz8G1FsX8]]]
+
 ## 6. ⚠️ Generation as option exploration — a third arrival
 
 **Plan generation from a boundary plus a prompt, and the framing that makes it safe:**

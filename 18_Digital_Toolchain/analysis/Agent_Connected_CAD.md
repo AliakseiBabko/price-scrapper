@@ -9,6 +9,24 @@ Detail page for [[18_Digital_Toolchain/Digital_Toolchain_Guide|Digital Toolchain
 
 ## 1. Two architectures, and this vault previously held only one
 
+
+**⚠️ A plain definition, from a setup tutorial, since this page assumed one:** *"MCP
+stands for Model Context Protocol — the standard way that AI tools communicate
+with systems where data live, or different tools. This is how your AI talks to
+SketchUp."* **The shape is two pieces: an EXTENSION inside the CAD application that
+exposes its own scripting API and built-in tools, and a CONNECTOR in the AI
+desktop client that turns language into commands the extension executes.**
+
+**⚠️⚠️ It grants two distinct powers and conflating them is a mistake**: the agent can
+**execute arbitrary code** in the application's scripting console, **and** it can
+**call the application's existing tools** — the second being the tool-driving
+architecture §4 records as strictly better than emitting raw geometry. ⚠️ **It
+requires the DESKTOP client; the web version cannot do it, and there is no extra
+licence cost — it spends subscription tokens "a lot more quickly."** ⚠️ **Named as
+useful for EXTENSION DEVELOPMENT as much as modelling: write a script, run it, see
+the result, iterate, "without you having to go in and double-check what it did."**
+[source: [[_Sources/YT_pkFnSQ9Bapg_archivlogs_gpt6_revit_mcp_planning_reversal|YT_pkFnSQ9Bapg]]]
+
 **⚠️⚠️ A refinement of an existing vault finding, and the distinction is real.**
 
 [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]] §7 records, from Trimble's own channel, that *"an AI CAD integration is a FILE GENERATOR, not a live modeller — there's not a direct live connection… it won't go in and edit it"*, with each change emitting a new file. **That is true of the adapter it describes, and false of an MCP-connected application.**
@@ -50,6 +68,42 @@ The FreeCAD connector ships **two configurations**, and the choice generalises f
 
 **⚠️ The operator's own conclusion is the finding, and he states it plainly: *"It can't plan right now. What it can do is basically create a model from your existing floor plans."***
 
+> [!WARNING]
+> **⚠️⚠️ REVISED 2026-09-16 — THE SAME ARCHITECT, A NEWER MODEL, AND THIS NO LONGER HOLDS CLEANLY.**
+>
+> He re-ran his own test with a deliberately harder brief — a 40 × 50 ft site, a
+> **four-bedroom** house, parking, two washrooms, a courtyard, and three stated
+> setbacks — with **no plan supplied**, saying *"I wouldn't do this to any intern."*
+> **In about 14 minutes it returned a two-level plan honouring all three setbacks,
+> an ~8 × 8 ft courtyard, ground-floor parking, a staircase in two flights of nine
+> risers that he checks and calls "perfect", plus sections, elevations and sheets
+> unprompted — and furniture modelled in place, including a car correctly
+> categorised as parking.** It also **self-corrected mid-run**: *"the first visual
+> check caught dining chairs encroaching on the staircase approach — I am moving
+> the dining seating forward."*
+>
+> **⚠️⚠️ BUT THE HONEST REVISION IS NARROWER THAN THE VIDEO'S TITLE, and his own
+> commentary supplies the limits.** **Rooms were not named at all** — he is reduced
+> to guessing: *"I believe one of them is a bedroom, this was supposed to be a
+> kitchen, probably this can be a washroom."* **A window looks into a space rather
+> than out.** **An area is left over that he cannot account for.**
+>
+> **→ SO THE MOVE IS FROM "cannot plan" TO "produces a plausible massing and
+> circulation with UNRESOLVED ROOM SEMANTICS."** **Naming a room is the cheapest
+> part of planning and it did not do it; deciding what a leftover area is for is
+> planning, and it did not do that either.**
+>
+> **→ ⚠️⚠️ AND THE RULE UNDER THIS PAGE SURVIVES INTACT: an agent silently supplies
+> what you did not specify. Here it supplied room boundaries it could not name and
+> a window orientation nobody asked for. The failure mode did not change — only its
+> granularity did.**
+>
+> ⚠️ **Weighting: same observer, same channel, no independent replication; heavily
+> promotional, including an uncontrolled "the other model messed up big time"
+> comparison which is NOT carried.** ⚠️ **One thing does raise its value: the brief
+> is a generic house, so the famous-building retrieval explanation does not apply.**
+> [source: [[_Sources/YT_pkFnSQ9Bapg_archivlogs_gpt6_revit_mcp_planning_reversal|YT_pkFnSQ9Bapg]]]
+
 > **→ An agent-connected CAD is a MODELLING ACCELERATOR from a plan that already exists, not a space planner.** Every success was transcribing something specified; every failure was inferring something that was not.
 
 - **⚠️ This corroborates, from an entirely different tool, the rule already on [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]] §7: an agent generating building geometry silently supplies the values you did not specify.** There it invented 5-inch walls, a 9-ft ceiling and a standard door. Here it invented a door position and omitted a wall — **and nothing flagged either.** The mitigation is unchanged: **require an agent to enumerate every value it supplied that the prompt did not, and treat each as a defect to resolve from evidence.**
@@ -79,6 +133,15 @@ The FreeCAD connector ships **two configurations**, and the choice generalises f
 ## 5. Operating an agent-driven CAD — three practical rules
 
 - **⚠️⚠️ Scope execution permission to the SESSION, not permanently.** Asked to run a Ruby script, the operator grants it **for that conversation only**: *"I don't like to give like blanket permission for things like that just cuz I'm still a little bit paranoid about this kind of going outside of the guard rails."* **An MCP server for a CAD application is, by construction, arbitrary code execution against your documents.** ⚠️ **The same argument applies to agents running against this repository, which holds the canonical data and the gates.**
+  - **⚠️⚠️ THIRD ARRIVAL, and the first to name a FAILING DEFAULT: the desktop
+    client installs with FULL ACCESS ENABLED.** *"For some reason when this gets
+    installed, it gets installed with full access turned on and I don't love
+    that"* — and he turns it off by hand, keeping manual approvals. **→ Check that
+    setting after installing rather than assuming it is off.** His own summary is
+    worth keeping verbatim: *"the permissions and approval settings can limit that
+    access, but they don't eliminate the risk."* ⚠️⚠️ **Set directly against the
+    other presenter in the same batch, who clicks "approve for me" so it stops
+    asking. Two practitioners, the same week, opposite choices.** [source: [[_Sources/YT_pkFnSQ9Bapg_archivlogs_gpt6_revit_mcp_planning_reversal|YT_pkFnSQ9Bapg]]]
 - **⚠️ The connection drops, routinely.** *"That's pretty common that it'll drop the connection. And then you need to rerun this."* **The closed loop is not only slow and visually verified — it is also not durable.**
 - **⚠️⚠️ Ask the clarifying questions FIRST, and the silently-supplied-values hazard becomes a recorded assumption.** Prompted with *"ask me any questions you have before getting started"*, the agent asked: is there an overall measurement? exterior only? include surroundings? new document? **The operator answered "no — you can estimate from the images", accepting estimation deliberately and with open eyes.**
   **→ The hazard recorded in [[18_Digital_Toolchain/analysis/Drawing_Conventions_From_Practice|Drawing Conventions From Practice]] §7 is not that an agent estimates — it is that it estimates SILENTLY. The interview round is a mitigation for that rule, not merely a prompt-quality trick.**
