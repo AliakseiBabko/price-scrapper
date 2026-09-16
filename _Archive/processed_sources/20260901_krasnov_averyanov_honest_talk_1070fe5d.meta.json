@@ -1,0 +1,11 @@
+{
+  "url": "https://www.youtube.com/watch?v=bgOlHL-yI-Y",
+  "video_id": "bgOlHL-yI-Y",
+  "language": "ru",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-01T13:36:25.666405+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "1070fe5d40ff75ee099b391e8a8cdf1db472803b27cb89c356e26605e42ef759",
+  "attempts_before_success": []
+}

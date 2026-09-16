@@ -146,6 +146,64 @@ the web — so nothing exotic is being proposed.**
 > shown it dimensionally faithful.** **The decision is the owner's; this records what
 > each rung costs.**
 
+## ⚠️⚠️ The PHOTOREAL view — engine settled, and what it costs (researched 2026-09-16)
+
+**The walkable view answers "does this space work". A photoreal view answers "what
+will it look like" — tile, wallpaper, stretch ceiling, lighting, furniture.
+Different branch, same model.** 18 sources triaged in
+[[_Inbox/planning/blender_render_triage_20260916|the rendering triage]].
+
+- **⚠️⚠️ ENGINE: Cycles, and not as a compromise.** Every advantage V-Ray and Octane
+  are credited with — a native frame buffer, image history, ready-made artist
+  nodes — is an **interactive-GUI** advantage, and is worth nothing when renders
+  are launched **headless from a script**. ⚠️ **Octane's free tier needs an ACTIVE
+  INTERNET CONNECTION and a separate licence server, and ships as a Blender
+  FORK** — hostile to the pinned Blender 5.2 this repo carries. ⚠️ **V-Ray is paid,
+  and a paying V-Ray user argues against buying it for Blender on ecosystem
+  grounds**: almost the entire community is on Cycles and EEVEE, so the answers do
+  not exist. **EEVEE is the preview, not the alternative — it shares Cycles' node
+  graph, so it previews the exact materials you will render.** [source: [[_Sources/YT_BifyAj9KpaI_blender_render_engine_choice|YT_BifyAj9KpaI]]]
+- **⚠️ RENDER TIME IS NOT THE OBSTACLE**: interior stills in **under five minutes on
+  a single GPU**, and a scene that once took 8 hours took **15 minutes** on a
+  GTX 1070 laptop. **Setup time is the real axis — and setup time is exactly what a
+  SCRIPT amortises.** [source: [[_Sources/YT_1IdW1-Gtoao_blender_archviz_course_method|YT_1IdW1-Gtoao]]]
+- **⚠️⚠️ LIGHT GROUPS change the answer to "let me see options".** Lamps, emissive
+  objects and the environment can each be assigned to a named group, rendered as
+  separate passes, and then **recoloured and rebalanced after the render is
+  finished**. **Render once; explore warm-vs-cool or lamps-on-vs-off in
+  compositing, not by re-rendering.** [source: [[_Sources/YT_1IdW1-Gtoao_blender_archviz_course_method|YT_1IdW1-Gtoao]]]
+- **⚠️ THE INTERIOR RECIPE IS SPECIFIC and worth keeping**: light **portals** fitted
+  to window openings; the **glass-shadow trick** — Blender's glass shader blocks
+  light by default, so mix Glass with Transparent driven by
+  `Light Path → Is Shadow Ray`, and raise transparency bounces to about 24;
+  **Cryptomatte-masked selective denoising** so walls denoise hard and fabric
+  gently; clamp indirect to 3–5 and never clamp direct. **Lighting: AgX view
+  transform, sun as key softened to about 30 degrees, sky texture as fill, and
+  artificial light as accent with a BLACKBODY colour temperature rather than an
+  RGB swatch.** [source: [[_Sources/YT_BifyAj9KpaI_blender_render_engine_choice|YT_BifyAj9KpaI]]]
+
+> **→ ⚠️⚠️ AND THE UV COST IS NOW CONFIRMED A THIRD TIME, with the per-surface
+> procedure: textured surfaces need UV maps, and an IFC model has none.** **But
+> with a licence attached that changes the economics** — the course author, on the
+> finish this flat has most of: white plaster walls and ceilings can be *"just a
+> very simple white material, and to be honest with you, that could actually do
+> the trick"*, with bump and micro-reflection as refinement rather than
+> requirement.
+>
+> **→ SO SPEND THE UV WORK WHERE IT SHOWS — tile, wood, stone — and leave plaster
+> flat.** [source: [[_Sources/YT_1IdW1-Gtoao_blender_archviz_course_method|YT_1IdW1-Gtoao]]]
+
+> [!WARNING]
+> **⚠️⚠️ THE ARCHITECTURE CAUTION SURVIVES ALL OF THIS, and the material tutorials
+> sharpen it.** Every source authors materials **by hand, in a GUI**. **Do that here
+> and the `.blend` becomes a second source of truth that drifts from
+> `finish_schedule.json` — exactly what this page exists to prevent.** **The
+> standing proposal is to drive materials from the finish schedule in code, so a
+> finish change is a RE-RUN rather than a re-decoration.**
+>
+> ⚠️ **Stated plainly: NONE of the 18 sources shows a scripted archviz pipeline.
+> They support the ingredients, not the shape. The shape is this project's own.**
+
 ## What legitimately lives outside the model
 
 Not everything belongs in the model, and forcing it there is the opposite

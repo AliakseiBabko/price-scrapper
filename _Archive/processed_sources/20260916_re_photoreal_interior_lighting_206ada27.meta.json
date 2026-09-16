@@ -1,0 +1,13 @@
+{
+  "url": "https://www.youtube.com/watch?v=jvBMh069zdU",
+  "video_id": "jvBMh069zdU",
+  "language": "en",
+  "is_generated_captions": true,
+  "method": "youtube-transcript-api",
+  "timestamp": "2026-09-16T09:56:58.052622+00:00",
+  "source_tool": "youtube-transcript-api",
+  "sha256": "206ada27278a4e454fd7c962c4fdce59191d62cd69207c3cd09aebf9b129c47f",
+  "attempts_before_success": [],
+  "upload_date": "2026-06-24",
+  "upload_date_source": "yt-dlp"
+}
