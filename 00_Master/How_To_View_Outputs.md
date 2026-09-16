@@ -66,6 +66,68 @@ The original Homestyler export opens there too:
 `data\cad\dxf\20260727-ZK Dubravinskiy.dxf` — though it carries all 8 plan
 instances plus every elevation, so it is crowded.
 
+## ⚠️ Walking the model in a browser (built 2026-09-16)
+
+**The quickest way to answer a SPATIAL question — does the passage past a lowered
+wall bed work, is that clearance tolerable — without opening Blender at all.**
+
+```powershell
+# 1. build the GLB from a variant's IFC (once per change to the model)
+$env:BLENDER_USER_CONFIG     = "$PWD	oolslender\profile3\config"
+$env:BLENDER_USER_EXTENSIONS = "$PWD	oolslender\profile3\extensions"
+toolslenderinlender-5.2.0-windows-x64lender.exe --background `
+  --python toolslender\export_glb.py -- `
+  data\outputsariants0-existing\model.ifc `
+  data\outputsariants0-existing\model.glb `
+  data\outputsariants0-existing\glb_export.json `
+  "$PWD	oolslender\profile3\extensions\.local\lib\python3.13\site-packages"
+
+# 2. walk it
+.venv\Scripts\python.exe toolslender\serve_walk_viewer.py
+```
+
+**W A S D** to move, mouse to look, **Q/E** down/up, **Shift** to creep, **Esc** to
+release the cursor. The HUD prints the model's extents and your eye height.
+
+> [!WARNING]
+> **⚠️⚠️ JUDGE SPACE HERE, NEVER DIMENSIONS.** Eye height and stride are nominal
+> figures chosen to make walking feel right. **Measure in the model**, per
+> `00_Master/Evidence_Reading_Discipline.md`. The viewer says so on screen too.
+
+**Why it must be served rather than double-clicked**: a browser refuses to fetch
+the `.glb` from a `file://` page, so the viewer would sit on "loading…" with an
+error only the console shows. `serve_walk_viewer.py` serves the working tree
+read-only on localhost and opens the right URL.
+
+### ⚠️ What the walkable view deliberately is not
+
+- **Untextured, by design.** `tools/blender/glb_material_probe.py` establishes by
+  parsing the exported GLB — not by looking at it — that **a flat Principled BSDF
+  base colour survives a glTF export exactly** (colour, roughness and metallic all
+  arrive) while **a procedural node network is dropped** (its material exports with
+  a null `baseColorFactor`). **Textures would mean UV-unwrapping the whole
+  apartment and baking per channel, because an IFC model out of Bonsai has no UV
+  maps.** For judging clearance, flat colour is not a limitation — it is the point,
+  and it keeps the file small enough to open in a browser. See
+  [[00_Master/Model_and_Views|One model, many views]].
+- **Each IFC class gets one flat colour** (walls neutral, doors orange, windows
+  blue, fittings pale) purely for legibility while walking.
+- **`IfcSpace` is dropped.** Room volumes are not physical; exported, they fill
+  every room with a solid block you cannot see past.
+- **⚠️ It is a VIEW, regenerated from `model.ifc`, and is never edited.** Nothing
+  is authored here. If the walkthrough and the plan disagree, that is a bug in a
+  generator — fix the model and re-export.
+
+**⚠️ Reading the current export (`v0-existing`)**: 53 mesh objects, **74 KB**, 812
+triangles, 10.28 × 8.56 × 2.92 m overall. **The ceiling reads as open sky because
+the IFC carries one floor slab and no ceiling slab** — a property of the model, not
+of the viewer.
+
+**⚠️ `tools/blender/glb_inspect.py` reads any `.glb` without Blender** and prints
+what is actually inside it — meshes, materials, base colours, texture count. Use it
+rather than trusting the exporter's own report; it is the same reason the DXF gates
+re-derive geometry from the source PDF.
+
 ## Viewing the 3D model (Blender is installed here)
 
 The IFC is the real model; the renders are just pictures of it.

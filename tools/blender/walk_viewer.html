@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Walkable view — price-scrapper</title>
+<style>
+  :root { color-scheme: dark; }
+  html,body { margin:0; height:100%; background:#14161a; color:#e8e8e8;
+              font:13px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; }
+  #c { display:block; width:100%; height:100%; }
+  #hud { position:fixed; left:12px; top:12px; background:rgba(20,22,26,.86);
+         padding:10px 13px; border-radius:7px; max-width:330px; }
+  #hud h1 { font-size:13px; margin:0 0 6px; letter-spacing:.02em; }
+  #hud kbd { background:#2b2f36; border-radius:3px; padding:1px 5px; font-size:11px; }
+  #hud p { margin:5px 0; }
+  .warn { color:#ffcf7a; }
+  #readout { position:fixed; right:12px; top:12px; background:rgba(20,22,26,.86);
+             padding:10px 13px; border-radius:7px; font-variant-numeric:tabular-nums; }
+  #start { position:fixed; inset:0; display:grid; place-items:center;
+           background:rgba(10,11,13,.82); cursor:pointer; }
+  #start div { text-align:center; }
+  #start b { font-size:17px; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="hud">
+  <h1>Walkable view</h1>
+  <p><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move · mouse look · <kbd>Shift</kbd> slower<br>
+     <kbd>Q</kbd>/<kbd>E</kbd> down/up · <kbd>Esc</kbd> release cursor</p>
+  <p class="warn">Judge space here, never dimensions. Eye height and stride are
+     nominal; measure in the model.</p>
+  <p id="meta">loading…</p>
+</div>
+
+<div id="readout">eye <span id="eye">1.60</span> m · <span id="pos">0.00, 0.00</span> · clear <span id="spawn">–</span> m</div>
+
+<div id="start"><div><b>Click to walk</b><br>pointer lock, Esc to leave</div></div>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.180.0/three.module.min.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+}}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
+
+// The model to walk. Override with ?glb=<relative path>.
+const GLB = new URLSearchParams(location.search).get('glb')
+         || '../../data/outputs/variants/v0-existing/model.glb';
+
+// Nominal human figures. They make the walk feel right; they are NOT a
+// measuring instrument, which is why the HUD says so.
+const EYE = 1.60, SPEED = 2.6, SLOW = 0.9;
+
+const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('c'), antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x14161a);
+const camera = new THREE.PerspectiveCamera(72, 1, 0.02, 200);
+
+scene.add(new THREE.HemisphereLight(0xffffff, 0x555560, 3.0));
+scene.add(new THREE.AmbientLight(0xffffff, 0.35));
+const sun = new THREE.DirectionalLight(0xffffff, 1.5);
+sun.position.set(4, 8, 5);
+scene.add(sun);
+
+const controls = new PointerLockControls(camera, renderer.domElement);
+scene.add(controls.object);
+const startEl = document.getElementById('start');
+startEl.addEventListener('click', () => controls.lock());
+controls.addEventListener('lock',   () => startEl.style.display = 'none');
+controls.addEventListener('unlock', () => startEl.style.display = 'grid');
+
+const keys = new Set();
+addEventListener('keydown', e => keys.add(e.code));
+addEventListener('keyup',   e => keys.delete(e.code));
+
+function resize() {
+  const w = innerWidth, h = innerHeight;
+  renderer.setSize(w, h, false);
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+}
+addEventListener('resize', resize);
+resize();
+
+new GLTFLoader().load(GLB, (gltf) => {
+  scene.add(gltf.scene);
+
+  // Box3.setFromObject reads world matrices, and a freshly added subtree still
+  // has stale ones - without this the box comes back as a corner of the model
+  // and the camera spawns inside a wall facing out. Cost one confused screenshot.
+  scene.updateMatrixWorld(true);
+
+  // Stand the camera inside the model at eye height, at the plan centroid, so
+  // the first frame is never outside the building looking at nothing.
+  const box = new THREE.Box3().setFromObject(gltf.scene);
+  const c = box.getCenter(new THREE.Vector3());
+  const size = box.getSize(new THREE.Vector3());
+  const eyeY = box.min.y + EYE;
+  controls.object.position.set(c.x, eyeY, c.z);
+
+  // Face the most OPEN direction, not an arbitrary axis. The plan centroid is
+  // often within a metre of a wall, and spawning nose-against-plaster reads as
+  // a broken viewer even though everything is rendering correctly - which is
+  // exactly how this looked on the first run.
+  const meshes = [];
+  gltf.scene.traverse(o => { if (o.isMesh) meshes.push(o); });
+  const ray = new THREE.Raycaster();
+  const origin = new THREE.Vector3(c.x, eyeY, c.z);
+  let best = { dist: -1, dir: new THREE.Vector3(1, 0, 0) };
+  for (let i = 0; i < 24; i++) {
+    const a = (i / 24) * Math.PI * 2;
+    const d = new THREE.Vector3(Math.cos(a), 0, Math.sin(a));
+    ray.set(origin, d);
+    ray.near = 0.01; ray.far = 60;
+    const hit = ray.intersectObjects(meshes, true);
+    const dist = hit.length ? hit[0].distance : 60;
+    if (dist > best.dist) best = { dist, dir: d };
+  }
+  camera.lookAt(origin.clone().add(best.dir));
+  document.getElementById('spawn').textContent = best.dist.toFixed(1);
+
+  let tris = 0;
+  gltf.scene.traverse(o => { if (o.isMesh && o.geometry?.index) tris += o.geometry.index.count / 3; });
+  document.getElementById('meta').textContent =
+    `${size.x.toFixed(2)} × ${size.z.toFixed(2)} × ${size.y.toFixed(2)} m · ${Math.round(tris)} triangles`;
+}, undefined, (err) => {
+  document.getElementById('meta').innerHTML =
+    `<span class="warn">could not load ${GLB}<br>${err?.message ?? err}</span>`;
+});
+
+const eyeEl = document.getElementById('eye'), posEl = document.getElementById('pos');
+const clock = new THREE.Clock();
+const dir = new THREE.Vector3();
+
+renderer.setAnimationLoop(() => {
+  const dt = Math.min(clock.getDelta(), 0.1);
+  if (controls.isLocked) {
+    const v = (keys.has('ShiftLeft') || keys.has('ShiftRight') ? SLOW : SPEED) * dt;
+    dir.set(0, 0, 0);
+    if (keys.has('KeyW')) dir.z += 1;
+    if (keys.has('KeyS')) dir.z -= 1;
+    if (keys.has('KeyD')) dir.x += 1;
+    if (keys.has('KeyA')) dir.x -= 1;
+    if (dir.lengthSq()) {
+      dir.normalize();
+      controls.moveForward(dir.z * v);
+      controls.moveRight(dir.x * v);
+    }
+    if (keys.has('KeyE')) controls.object.position.y += v;
+    if (keys.has('KeyQ')) controls.object.position.y -= v;
+  }
+  const p = controls.object.position;
+  eyeEl.textContent = p.y.toFixed(2);
+  posEl.textContent = `${p.x.toFixed(2)}, ${p.z.toFixed(2)}`;
+  renderer.render(scene, camera);
+});
+</script>
+</body>
+</html>
