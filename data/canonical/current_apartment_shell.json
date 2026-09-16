@@ -4,7 +4,7 @@
   "name": "ZK Dubravinskiy - structural shell, common to every layout option",
   "status": "from_developer_layout_via_cad_not_field_verified",
   "units": "m",
-  "storey_height_m": 2.8,
+  "storey_height_m": 2.5,
   "default_wall_thickness_m": 0.075,
   "exterior_wall_thickness_m": 0.25,
   "rooms": [],
@@ -851,5 +851,6 @@
       "The 200 mm threshold is a heuristic on thickness, not a structural survey. Nothing here has been checked against the building's structural drawings, so no wall may be assumed non-load-bearing on the strength of this file.",
       "Openings whose host wall is a partition move to the variant with it."
     ]
-  }
+  },
+  "storey_height_m_source": "clear height, screed top to ceiling underside, per the constructor (he also gives slab-to-slab ~2550, which is NOT this field); corroborated but not refined by owner photo readings of a comparable flat, 2026-09-16"
 }

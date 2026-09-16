@@ -4,7 +4,7 @@
   "name": "ZK Dubravinskiy - existing state, from the developer layout via Homestyler CAD",
   "status": "from_developer_layout_via_cad_not_field_verified",
   "units": "m",
-  "storey_height_m": 2.8,
+  "storey_height_m": 2.5,
   "default_wall_thickness_m": 0.15,
   "exterior_wall_thickness_m": 0.25,
   "rooms": [
@@ -1307,7 +1307,7 @@
     "geometry_status": "developer layout as drawn in Homestyler; dimensions are the developer's, not a site survey",
     "tolerance_note": "Measurements of other flats with the same layout differ by up to a few centimetres wall to wall; treat these as nominal.",
     "assumed_not_from_cad": {
-      "storey_height_m": 2.8,
+      "storey_height_m": 2.5,
       "door_height_m": 2.1,
       "window_sill_m": 1.0,
       "window_height_m": 1.1
@@ -1320,5 +1320,6 @@
       "room_probe is a diagnostic only: the numbers in it are wrong and it exists to show what the segmentation attempts produced, not to be used.",
       "Heights are assumptions - a 2D plan does not contain them."
     ]
-  }
+  },
+  "storey_height_m_source": "clear height, screed top to ceiling underside, per the constructor (he also gives slab-to-slab ~2550, which is NOT this field); corroborated but not refined by owner photo readings of a comparable flat, 2026-09-16"
 }
