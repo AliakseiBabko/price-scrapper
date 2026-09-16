@@ -165,6 +165,60 @@ def check(ifc_path: Path) -> list[str]:
                        (" or, with the openings in it, " +
                         ", ".join("%.0f" % a for a in allowed[1:])) if len(allowed) > 1 else ""))
 
+    # 5 - XY PLACEMENT against the resolved graph.
+    #
+    # ⚠️ Added because the gate demonstrably did not catch it: translating wall
+    # G5 500 mm sideways, with every dimension unchanged, passed with 0
+    # problems. Identity, length, thickness, opening verticals and shaft count
+    # are all invariant under a rigid shift - so a wall in the wrong PLACE was
+    # indistinguishable from a wall in the right one.
+    #
+    # The comparison is against the compiler's resolved geometry, not against
+    # another number in the IFC. The cross axis must match exactly: no
+    # reconciliation rule moves a wall sideways. The long axis may extend
+    # OUTWARD only, and only as far as an opening recorded in that wall - which
+    # is the sanctioned extension across a doorway - never inward, and never
+    # without an opening to account for it.
+    try:
+        sys.path.insert(0, str(REPO / "tools" / "layout"))
+        import resolve_v0_geometry as rv
+    except Exception as exc:  # noqa: BLE001
+        problems.append("cannot load the geometry compiler to check placement: %s" % exc)
+        rv = None
+
+    if rv is not None:
+        resolved = rv.resolve()
+        boxes = {w["wall_id"]: rv.wall_box(w) for w in resolved.walls
+                 if w.get("from_mm") is not None}
+        if boxes:
+            off_x = min(b[0] for b in boxes.values())
+            off_y = min(b[1] for b in boxes.values())
+            for wall in model.by_type("IfcWall"):
+                want_box = boxes.get(wall.Name)
+                if want_box is None:
+                    continue
+                v = _verts(settings, wall)
+                if not len(v):
+                    continue
+                got = (v[:, 0].min() * 1000.0 + off_x, v[:, 1].min() * 1000.0 + off_y,
+                       v[:, 0].max() * 1000.0 + off_x, v[:, 1].max() * 1000.0 + off_y)
+                grow = max(openings_in.get(wall.Name, [0.0]) or [0.0])
+                long_axis = 0 if (want_box[2] - want_box[0]) >= (want_box[3] - want_box[1]) else 1
+                for axis, name in ((0, "x"), (1, "y")):
+                    lo_d = got[axis] - want_box[axis]
+                    hi_d = got[axis + 2] - want_box[axis + 2]
+                    if axis == long_axis:
+                        ok = (-grow - LENGTH_TOL_MM <= lo_d <= LENGTH_TOL_MM
+                              and -LENGTH_TOL_MM <= hi_d <= grow + LENGTH_TOL_MM)
+                        why = "may extend outward up to %.0f mm for an opening" % grow
+                    else:
+                        ok = abs(lo_d) <= LENGTH_TOL_MM and abs(hi_d) <= LENGTH_TOL_MM
+                        why = "cross axis: no rule moves a wall sideways"
+                    if not ok:
+                        problems.append(
+                            "wall %s placed %.1f/%.1f mm off in %s against the resolved "
+                            "geometry (%s)" % (wall.Name, lo_d, hi_d, name, why))
+
     # 3 - opening verticals against wall_openings.csv
     want_open = {}
     with OPENINGS.open(encoding="utf-8") as fh:
