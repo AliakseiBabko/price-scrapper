@@ -73,12 +73,32 @@
 
 ---
 
-## 5. ⚠️ What only the owner can decide
+## 5. ✅ Owner decisions, 2026-09-16
 
-1. **Is the schematic retired, or kept?** If the 3D model moves to the gated geometry, `current_apartment_base.json` has no consumer left except the renders and the walkable view, which move with it. **Keeping both is what caused this.** Recommendation: retire it, and say so in the file itself rather than deleting it, so the history stays readable.
-2. **O2's sill — 812 derived, or measure it?** It is the one window whose vertical geometry is still a photo derivation of a *different flat*. A tape on the real window settles it. Everything else that matters is already measured.
-3. **Door heads at `2050?`** — accept ±60 mm from a photo, or measure one door opening and apply the standard.
-4. **How much does the loggia matter?** O9's diagonal glazing is real geometry the model omits entirely. It affects the loggia renders and the balcony-insulation work, and nothing else.
+1. **RETIRE the schematic outright.** *"It was long ago and I added new data."* `current_apartment_base.json` stops being an input. It is marked retired in place rather than deleted, so the history stays readable.
+2. **O2's sill stays DERIVED at 812.** *"All they have are photos."* No tape exists for this window, so the figure keeps its `?` and its ±100 mm caveat, and the model carries it as the uncertainty it is rather than rounding it into a fact.
+3. **Door heads stay at `2050?`** — same reasoning. No door is fitted at handover, so these are openings the owner specifies later anyway.
+4. **ALL openings get modelled, with their frames.** ⚠️ **Question 4 as originally written — "how much does the loggia matter?" — was wrong to ask**, and the data already answered it: O9 is recorded as *"the single most thermally important element in the flat."* Asking the owner to rank it was a bad question and is retracted.
+
+### What "reproduce the frames" can and cannot deliver
+
+**Frames ARE reproducible for three openings** — `window_frames.csv` records mullion and transom positions as ratios of the opening, with member widths:
+
+| opening | members | pattern |
+| :--- | :--- | :--- |
+| O2 | mullion at 0.5, 195 mm | two sashes, no transom |
+| O3 | mullion at 0.5 + transom at 0.44, 195 / 120 mm | **2 × 2, four panes** |
+| O4 | mullion at 0.4348, 195 mm | two leaves — window + glass door of one 1380 unit |
+
+**⚠️ O9 is the exception, and the limit is in the source rather than in the modelling.** Its width is the best-corroborated figure in the whole model — 2939 derived, against apartment 53's printed 2.93 m, **9 mm apart, 0.3%**. Its *pattern* is confirmed from a handover photo: **floor to ceiling, NO parapet, dark anthracite frames, vertical bays split by one horizontal transom at ~1000 mm, at least one opening casement.**
+
+**But that photo is flat 109, whose лоджия is 2.5 m² against our 6.05**, and the record states it plainly: ***"the PATTERN transfers and the bay count and widths do not."***
+
+**So O9 is modelled as: full height, no parapet, one transom at 1000 mm — all evidenced — and a bay count that is an ASSUMPTION carried as one**, labelled in the data and visible in the model's report. It is not measured and must not be drawn as though it were.
+
+**O9 is also the only diagonal opening.** The лоджия is not rectangular: west side M2 = 1850, east side M6b 1170 + R8 1490 = 2660, so it splays 810 mm over MA's 2825 — `hypot(2825, 810) = 2939`. Every other opening is axis-aligned; this one needs an arbitrary angle, which is the actual modelling difficulty and the only one.
+
+**Still unknown and worth a look on site:** whether O9 is single or double glazed. A dark aluminium лоджия frame is often cold single glazing, which changes the thermal case completely.
 
 ---
 

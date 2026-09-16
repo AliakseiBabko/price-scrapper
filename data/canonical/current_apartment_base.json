@@ -2,7 +2,7 @@
   "schema_version": "0.1.0",
   "spec_id": "current-apartment-base",
   "name": "ZK Dubravinskiy - current apartment, existing state",
-  "status": "planned_from_visual_sources_not_field_verified",
+  "status": "RETIRED 2026-09-16",
   "units": "m",
   "storey_height_m": 2.5,
   "default_wall_thickness_m": 0.15,
@@ -771,5 +771,6 @@
       "final millimetre dimensions require site measurement"
     ]
   },
-  "storey_height_m_source": "clear height, screed top to ceiling underside, per the constructor (he also gives slab-to-slab ~2550, which is NOT this field); corroborated but not refined by owner photo readings of a comparable flat, 2026-09-16"
+  "storey_height_m_source": "clear height, screed top to ceiling underside, per the constructor (he also gives slab-to-slab ~2550, which is NOT this field); corroborated but not refined by owner photo readings of a comparable flat, 2026-09-16",
+  "_retired": "RETIRED by owner decision 2026-09-16. This file is an EARLY SCHEMATIC reconstruction and is no longer an input to anything. It described the right flat - room areas agree with the gated geometry to within 1.4% - but with 18 walls against 25, two wall thicknesses assigned by default against five measured ones, no material classes, no ventilation shafts, a rectangular loggia, and openings carrying NO provenance at all: all four windows were given the same 1800 wide / sill 1000 / head 2100, where the gated data records O3 tape-measured at 1763 / 266 / 2251. Nothing ever read this file except the model generator, so no gate caught the divergence. The 3D model, renders and walkable view are rebuilt from the gated set - wall_blocks.csv, wall_openings.csv, window_frames.csv, ventilation_shafts.csv - which four checkers defend. Kept rather than deleted so the history stays readable. See _Inbox/planning/model_rebuild_scope_20260916.md."
 }
